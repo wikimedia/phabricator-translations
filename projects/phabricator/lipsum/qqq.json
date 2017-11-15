@@ -1,0 +1,22 @@
+{
+  "29efd0bdaa04ae91": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:114\n",
+  "300371d205bbeec3": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:56\n",
+  "32332b3df8a3771d": "Used in:\n\nPhabricatorTestDataGenerator.php:55\n",
+  "359c2782e2017bbc": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:17\n",
+  "4b2283b7167429d1": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:162\n",
+  "62242054e2063eb9": "Variable Types: NONE.\nUsed in:\n\nPhabricatorTestDataGenerator.php:106\n",
+  "63017d2cc8fa35f7": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:187\n",
+  "6ad21d0a2036d6e8": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:185\n",
+  "7b8d8ae984b43bbd": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:147\n",
+  "8cd3cac1380eb4ec": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:10\n",
+  "8d767bf5b72373d1": "Used in:\n\nPhabricatorTestDataGenerator.php:104\n",
+  "90a51575c9bd4563": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:164\n",
+  "9922906d3c889107": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:208\n",
+  "a568df6c0fc85e72": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:79\n",
+  "b1b21337175c014d": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:22\n",
+  "b5ff2d7e2727ab4b": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:121\n",
+  "c9fb502c220f5ec3": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:36\n",
+  "e92bac9cc25935f8": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:139\n",
+  "e9f3727584c821b2": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:137\n",
+  "f335a7372135e4e7": "Used in:\n\nPhabricatorLipsumGenerateWorkflow.php:154\n"
+}

@@ -1,0 +1,8 @@
+{
+  "17b251be5661401b": "Close any dialog, including this one.",
+  "2e0984a922fef3db": "Unsupported Editor Protocol",
+  "40586493191bb270": "Change Settings",
+  "4da9b13fc11f66a8": "Your configured editor URI uses an unsupported protocol. Change your settings to use a supported protocol, or ask your administrator to add support for the chosen protocol by configuring: %s",
+  "6bbbdac8f41b22d9": "%s Help",
+  "b465751c05fbc426": "Keyboard Shortcuts"
+}

@@ -1,0 +1,22 @@
+{
+  "05fe7803b131a33c": "Used in:\n\nPHIDInfoConduitAPIMethod.php:18\n",
+  "0a751e41cfcf8b01": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHandleList.php:55\n",
+  "131ada2c91031e5e": "Used in:\n\nPhabricatorHandlePoolTestCase.php:55\n",
+  "1498233146466f1f": "Variable Types: NONE.\nUsed in:\n\nPhabricatorObjectHandle.php:163\n",
+  "1db177fa2f0941e1": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHandleList.php:179\n",
+  "40acf4c5cd86049e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorPHIDType.php:11\n",
+  "40f8045ec98d286b": "Used in:\n\nPhabricatorHandlePool.php:56\n",
+  "4270ca6ab8fde311": "Variable Types: NONE.\nUsed in:\n\nPhabricatorObjectListQuery.php:187\n",
+  "5920c81577d44070": "Used in:\n\nPhabricatorObjectListQueryTestCase.php:42\n",
+  "6931f523cee8baba": "Used in:\n\nPhabricatorMetaMTAApplicationEmailPHIDType.php:9\n",
+  "6e5d870b8888a21e": "Used in:\n\nPHIDLookupConduitAPIMethod.php:10\n",
+  "7191d0b67d43f89e": "Used in:\n\nPhabricatorHandleList.php:114\n",
+  "750d3b61b047e337": "Used in:\n\nPHIDQueryConduitAPIMethod.php:10\n",
+  "8c323456ce8fea71": "Variable Types: NONE.\nUsed in:\n\nPhabricatorObjectHandle.php:165\n",
+  "9dc304f07ed386a3": "Variable Types: NONE.\nUsed in:\n\nPhabricatorObjectListQuery.php:193\n",
+  "ad333443813e6a77": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHandleList.php:85\n",
+  "d0636307d6924a2a": "Used in:\n\nPHIDInfoConduitAPIMethod.php:14\n",
+  "ea5edb74faa34ae6": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorObjectListQuery.php:180\n",
+  "ebf8f6f3f90a4f6f": "Used in:\n\nPHIDInfoConduitAPIMethod.php:33\n",
+  "f4d10da4d9776085": "Used in:\n\nPhabricatorPHID.php:7\n"
+}

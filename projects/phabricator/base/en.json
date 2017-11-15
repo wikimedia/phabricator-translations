@@ -1,0 +1,22 @@
+{
+  "21909f6cc9658765": "No application '$1'!",
+  "40b9d5b3ede68efe": "Expect user '$1' to be allowed access to '$2'.",
+  "473a2b8ae0fda34b": "Can Configure Application",
+  "5065c3a197c9ae53": "Can Use Application",
+  "5faf53441e65b801": "Application Controller",
+  "633d0a44b076afad": "Public + configured",
+  "678731c91b8cc343": "Public Access",
+  "71a5993ec4612869": "Core Applications",
+  "749ea651fe6a327f": "No Login Required",
+  "78d67090ef36b075": "No application!",
+  "7a1c0a74305daaaf": "$1 Application",
+  "a6fdeee1d42216f6": "Email Verification Required",
+  "b0608ab1bd963593": "Developer Tools",
+  "c33a2a4cf022d6cc": "This application is required for Phabricator to operate, so all users must have access to it.",
+  "c3f9271638a0c8f6": "Expect user '$1' to be denied access to '$2'.",
+  "d8c88db363a66211": "Request includes restricted parameter \"$1\", but this controller (\"$2\") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.",
+  "d9b9a15e87d0d955": "Unknown capability '$1'!",
+  "daf366af13db9c61": "Admin Required",
+  "dced58a261d6133b": "Email Verification Required, With Exception",
+  "dfa4966710819f7d": "Allow Disabled"
+}
