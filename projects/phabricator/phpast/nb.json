@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"05e30d2a45e77780": "PHPAST",
+	"1d2d5262d9a87a79": "Node $1: $2",
+	"1e0c281ce4e49361": "Generer XHP AST",
+	"bd1b30579c4c7a5a": "Ingen slik AST!"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"057a91bd9d909212": "Impossible d'extraire la chaîne car le motif \"%\" n'est pas reconnu, \"$1\": $2.",
+	"0654a028e5aea48c": "NEANT",
+	"17b6d98715597264": "Chaîne « $1 » ignorée; absente du fichier source de traduction.",
+	"418a2fbab13c3664": "Extraction de chaînes de la bibliothèque ...",
+	"5641f04d9980459c": "Fournir un nom de classe avec « --class ».",
+	"7516972ad3f67814": "Nom de classe à générer.",
+	"7c0edb1e7c0dcf2a": "Fournir un fichier source JSON avec \"--source\".",
+	"9cb7bf6f5a17cea5": "Exporter des chaînes de traduction d'une bibliothèque libphutil .",
+	"b230c79422fb6249": "Écriture des données ($1, $2) dans « $3 » ...",
+	"da7f7fad3fb76450": "Fournir un fichier de sortie avec ''--out''.",
+	"eab817b44c709f8e": "Adresse où sauvegarder le fichier de traduction généré.",
+	"f3514b3c6942c1c2": "PLURIEL"
+}

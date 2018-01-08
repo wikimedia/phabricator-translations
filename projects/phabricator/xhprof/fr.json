@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"KATRINE1992",
+			"Wladek92"
+		]
+	},
+	"28facfbf0193ea3e": "Appels Relatifs",
+	"5a9ebdb4ed44587e": "Temps total du mur passé dans cette fonction et dans tous ses enfants (les enfants sont d'autres fonctions qu'elle a appelées pendant son exécution).",
+	"60bc9828c396a0ff": "Echantillon sans nom.",
+	"aeb1f8e83b6fb6c1": "Outil de profilage PHP",
+	"ba808f702b24f82c": "Métriques pour cet appel",
+	"c9aef90f3405db63": "Profil XHProf",
+	"d2c039b48df9b8b5": "Faire glisser les fichiers .xhprof à importer",
+	"fe6de32a0c1aa35b": "Appeler les Enfants"
+}

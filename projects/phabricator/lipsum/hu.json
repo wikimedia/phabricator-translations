@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tothasze"
+		]
+	},
+	"32332b3df8a3771d": "Nem sikerült betölteni véletlenszerűen egy felhasználót. Először több tesztfelhasználót kell létrehoznia.",
+	"359c2782e2017bbc": "Objektumokat generál anélkül, hogy megerősítést kérne.",
+	"4b2283b7167429d1": "LIPSUM",
+	"6ad21d0a2036d6e8": "HOPPÁ!",
+	"8cd3cac1380eb4ec": "Létrehoz szintetikus teszt objektumokat.",
+	"8d767bf5b72373d1": "osztály",
+	"b1b21337175c014d": "Objektumok létrehozása/generálása a lehető leggyorsabban.",
+	"e92bac9cc25935f8": "Kiválasztott generátorok: $1.",
+	"e9f3727584c821b2": "GENERÁTOROK",
+	"f335a7372135e4e7": "Biztosan szeretne generálni egy halom szemetet?"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"17b251be5661401b": "Cerrar cualquier cuadro de diálogo, incluido este.",
+	"2e0984a922fef3db": "Protocolo de editor no admitido",
+	"40586493191bb270": "Cambiar configuración",
+	"4da9b13fc11f66a8": "El URI de editor configurado utiliza un protocolo no admitido. Modifícalo para que utilice un protocolo compatible o pide a tu administrador que configure lo siguiente para añadir compatibilidad: $1",
+	"6bbbdac8f41b22d9": "Ayuda de $1",
+	"b465751c05fbc426": "Atajos de teclado"
+}

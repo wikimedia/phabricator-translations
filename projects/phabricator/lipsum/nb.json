@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"29efd0bdaa04ae91": "Argumentet «$1» matcher ikke navnet til noen genaratorer.",
+	"300371d205bbeec3": "En lipsum-generator er registrert med nøkkelen «$1». Denne nøkkelen er reservert.",
+	"32332b3df8a3771d": "Kunne ikke laste en tilfeldig bruker. Du må kanskje generere flere testbrukere først.",
+	"359c2782e2017bbc": "Generer objekter uten å spørre om bekreftelse.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "Kunne ikke laste symbolet $1: denne klassen finnes ikke.",
+	"63017d2cc8fa35f7": "Generatoren («$1») kunne ikke generere et objekt.",
+	"6ad21d0a2036d6e8": "OOPS",
+	"8cd3cac1380eb4ec": "Generer syntetiske testobjekter.",
+	"8d767bf5b72373d1": "klasse",
+	"90a51575c9bd4563": "Generer syntetiske testobjekter for alltid. Bruk ^C for å stoppe når du er fornøyd.",
+	"9922906d3c889107": "Genererte «$1»: $2",
+	"a568df6c0fc85e72": "Velg hvilken type eller typer testdata du ønsker å generere, eller velg «$1».",
+	"b1b21337175c014d": "Generer objekter så raskt som mulig.",
+	"b5ff2d7e2727ab4b": "Argumentet «$1» er tvetydig, og matcher flere generatorer: $2.",
+	"c9fb502c220f5ec3": "lipsum er et utviklings- og testeverktøy og kan kun kjøres på installasjoner i utviklermodus. Slå på «$1» i konfigurasjonen for å slå på lipsum.",
+	"e92bac9cc25935f8": "Valgte generatorer: $1.",
+	"e9f3727584c821b2": "GENERATORER",
+	"f335a7372135e4e7": "Er du sikker på at du ønsker å generere hauger med søppel?"
+}

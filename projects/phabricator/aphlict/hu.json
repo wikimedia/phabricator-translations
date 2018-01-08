@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tothasze"
+		]
+	},
+	"08f9150056d8f33f": "Az értesítő kiszolgáló nem futhat rootként.",
+	"0ab7970d71c137fe": "Két kiszolgáló (az \"$1\" és a \"$2\" indexek) mindegyike ugyanarra a portra csatlakozik (\"$3\"). Minden kiszolgálónak egy egyedi porthoz kell kapcsolódnia.",
+	"11399b1faec2eb8e": "Nem sikerült $1!",
+	"197162c832f1d7fd": "HIBA: a $1 PHP függvény ki van kapcsolva. Engedélyeznie kell az Aphlict futtatását ezen a gépen.",
+	"2a74a7eaa12bf589": "Állítsa le az értesítési kiszolgálót.",
+	"2bea7e7c0b236c1c": "A konfigurációs fájl nem megfelelően formázott JSON. $1",
+	"314e761bb0191d43": "Nem található `$1` vagy `$2` bináris a $3-ban. Az Aphlict kiszolgáló indításához el kell indítania a Node.js alkalmazást.",
+	"43256ef7ad916881": "HIBA: A '$1' PHP kiterjesztés nincs telepítve. Telepítenie kell az Aphlict-et az ezen a gépen történő futtatásához.",
+	"4c9c7a61da141fda": "A konfigurációs fájlnak nem megfelelő konfigurációs kulcsok vannak a legmagasabb szinten. $1",
+	"5884e7023c7e8b80": "Aphlict nem fut.",
+	"59c7d5844f411703": "Először $1 kell!",
+	"65bb93882ad81b16": "SIGKILL küldése $1 által.",
+	"7284ce8f9f3ef857": "A kiszolgáló indítása:",
+	"78201785d503580e": "Az Aphlict kiszolgáló elindítása az előtérben...",
+	"7b1c6f1c1209a55f": "A kiszolgáló kilép!",
+	"7e9983dfa7bad024": "Indítsa el az értesítőkiszolgálót az előtérben, és kinyomtathatja a nagy mennyiségű diagnosztikai információt a konzolra.",
+	"801f93fad5c1b6c0": "Egy megadott kiszolgáló (\"$1\" index, \"$2\" port) érvénytelen típussal rendelkezik (\"$3\"). Érvényes típusok: admin, ügyfél.",
+	"8a6a12235fb934b6": "A konfigurációs fájl többször is megadja a \"$1\" clustert (\"$2\" és \"$3\" indexek). Minden peer-nek egyedülálló kiszolgáló és port kombinációval kell rendelkeznie.",
+	"8bc94a976bc4b3a4": "Az értesítő kiszolgáló állapotának megjelenítése.",
+	"8d93b1b51e918a37": "A konfigurációs fájl nem specifikál szervereket. Ez a szolgáltatás nem lesz képes kapcsolatba lépni a külvilággal, ha nem hallgatózik egyetlen porton sem. Meg kell adnia legalább egy \"$1\" kiszolgálót és legalább egy \"$2\" kiszolgálót.",
+	"90a12173d6f5b1b1": "Indítsa el az értesítőkiszolgálót.",
+	"9c283944e8b5c91f": "Állítsd le, majd indítsd el az értesítőkiszolgálót.",
+	"a301322c9af125fc": "A konfigurációs fájl olvasása sikertelen. $1",
+	"a8721c186dac05cb": "Naplók írása: $1",
+	"b8842a8dde980ec6": "A konfigurációs fájl nem tartalmaz ügyfélkiszolgálókat. Ez a szolgáltatás nem képes semmilyen értesítést továbbítani ügyfélkiszolgáló nélkül. Meg kell adnia legalább egy \"$1\" típusú szervert.",
+	"c53b3cc01b6c1242": "A konfigurációs fájl nem tartalmaz adminisztratív szervereket. Ez a szolgáltatás nem fog tudni fogadni üzeneteket. Meg kell adnia legalább egy \"$1\" típusú szervert.",
+	"cea3124adbe8bdfe": "Aphlict kiszolgáló ($1) normálisan kilépett.",
+	"d3c6844361a2d518": "A konfiguráció olvasása: $1",
+	"dc7bd081083334cc": "Nem sikerült elindítani az értesítési kiszolgálót, mert már fut. Használja a `$1`-t az újraindításához.",
+	"ecdb8b581842b4d5": "Használjon speciális konfigurációs fájlt az alapértelmezett konfiguráció helyett.",
+	"ef767ed0bf9b70c0": "Elindult az Aphlict kiszolgáló.",
+	"f1570b670f1047c5": "Aphlict kiszolgáló leállítása ($1)...",
+	"f9bbe9286badce6f": "Nem sikerült létrehozni a \"$1\" könyvtárat a megadott PID-fájlhoz. Kézzel hozza létre ezt a könyvtárat, vagy válasszon másik PID-fájl helyette. $2",
+	"9842684281972986": "Aphlict ($1) fut."
+}

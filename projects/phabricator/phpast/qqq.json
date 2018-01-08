@@ -1,10 +1,11 @@
 {
-  "05e30d2a45e77780": "Used in:\n\nPhabricatorPHPASTApplication.php:6\n",
-  "1d2d5262d9a87a79": "Used in:\n\nPhabricatorXHPASTViewTreeController.php:32\n",
-  "1e0c281ce4e49361": "Used in:\n\nPhabricatorXHPASTViewRunController.php:49\n",
-  "384fb8001a431c5c": "Used in:\n\nPhabricatorXHPASTViewStreamController.php:25\n",
-  "58e322d16b8289d8": "Used in:\n\nPhabricatorXHPASTViewFrameController.php:23\nPhabricatorXHPASTViewRunController.php:53\n",
-  "b7e45a36ff3610e0": "Used in:\n\nPhabricatorXHPASTViewRunController.php:46\n",
-  "bd1b30579c4c7a5a": "Used in:\n\nPhabricatorXHPASTViewPanelController.php:19\n",
-  "bd3361abd5561576": "Used in:\n\nPhabricatorPHPASTApplication.php:18\n"
+	"@metadata": [],
+	"05e30d2a45e77780": "Used in:\n\nPhabricatorPHPASTApplication.php:6",
+	"1d2d5262d9a87a79": "Used in:\n\nPhabricatorXHPASTViewTreeController.php:32",
+	"1e0c281ce4e49361": "Used in:\n\nPhabricatorXHPASTViewRunController.php:49",
+	"384fb8001a431c5c": "Used in:\n\nPhabricatorXHPASTViewStreamController.php:25",
+	"58e322d16b8289d8": "Used in:\n\nPhabricatorXHPASTViewFrameController.php:23\nPhabricatorXHPASTViewRunController.php:53",
+	"b7e45a36ff3610e0": "Used in:\n\nPhabricatorXHPASTViewRunController.php:46",
+	"bd1b30579c4c7a5a": "Used in:\n\nPhabricatorXHPASTViewPanelController.php:19",
+	"bd3361abd5561576": "Used in:\n\nPhabricatorPHPASTApplication.php:18"
 }

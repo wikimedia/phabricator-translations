@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"0370b3c2ebef0246": "Arrêter le sondage",
+	"0c115c3235a2ef32": "Créer un sondage",
+	"13cdd5eae9101890": "Il n'existe pas de tel sondage.",
+	"1a23fd925145958d": "Les sondages doivent comporter une question.",
+	"20f08d5366e6f190": "Redémarrer le sondage",
+	"22ded4eb84949436": "$1 affiche les réponses de sondage dans un ordre déterminé.",
+	"24d624f5802bcb0d": "Gérer un sondage",
+	"3b531959afc81edf": "Afficher les choix dans un ordre quelconque.",
+	"4519105ec90bb267": "$1 a modifié la description de ce sondage.",
+	"51147c523dccc0b3": "$1 a réouvert ce sondage.",
+	"5844941ee2e4df69": "$1 a créé ce sondage.",
+	"61e05da2a47259db": "Rouvrir",
+	"62608c3b0c235bb5": "$1 a fermé ce sondage.",
+	"64eec22ae11fe9df": "Tous les sondages.",
+	"805e6570319f20a1": "Quelqu'un a modifié les détails du sondage.",
+	"885819f9bddd0d12": "Êtes-vous sûr de vouloir d'arrêter le sondage  ?",
+	"970a7edd656ec762": "Obtenir un tableau d'information concernant un sondage.",
+	"a2b408e5686fc3a1": "$1 a modifié ceux qui pouvaient voir les réponses de $2.",
+	"c5a98ec1be9659da": "Quelqu'un a voté pour un sondage.",
+	"c643db620cf41204": "Créer un sondage",
+	"cb3f45ec6253031f": "Vous devez poser une question de sondage.",
+	"d29371fa9269ad3b": "Aucune sondage trouvé.",
+	"ea9db4f747b082bc": "Voter améliore l'endurance cardiovasculaire.",
+	"ef12a36163c48642": "Pluralité (choix unique)"
+}

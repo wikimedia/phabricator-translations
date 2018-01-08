@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tothasze"
+		]
+	},
+	"046419b845c2560f": "Használja a standard színeket",
+	"04cb07ada8365ae6": "Nincs ilyen erőforrás ezen a \"$1\" néven!",
+	"0815b2ca68359582": "Nem sikerült olyan \"$1\" erőforrást létrehozni, mely ismeretlen típusú \"$2\".",
+	"0a4a18b90fc1e8c9": "Térkép írása \"$1\".",
+	"0ef5ab1cc4ef90ef": "Használjon nagy kontrasztú színeket",
+	"0f1ed7dfb63fc1e2": "Sötét mód (kísérleti)",
+	"163ba1a9c26c97b1": "Használjon nagyobb betűméretet",
+	"1ef1f25b6148dbd2": "Találtam egy $1 nevű bináris erőforrást.",
+	"41fa90d128ffe8e0": "Újraépített \"$1\" szintaxis CSS.",
+	"66639f7d455dd71f": "Bináris",
+	"9adac865895dd02e": "Az erőforrás-grafikonban észlelt ciklus: $1",
+	"a396d463559a8f47": "A szintaxiskiemelő CSS újraépítése.",
+	"ca95d79472b5600e": "Találtam egy $1 nevű szöveges erőforrást.",
+	"cf9d8c2551d59a7f": "Csak statikus erőforrásokat lehet kiszolgálni.",
+	"e67706bfcfb95cf8": "Ha utóbb még több metaadatot szeretne felvenni, a metaadatok le vannak zárva.",
+	"f57fc09b17b11893": "A statikus erőforrás térképek újraépítése.",
+	"fe5245cd89f00746": "Találtam egy $1 nevű csomagot."
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"1eda447e23cc5832": "suscriptores",
+	"1eebe0c8018ccf4c": "Cancelar mi suscripción",
+	"1f333fc696a56fe6": "Quitar suscriptores.",
+	"2cad9316913ab881": "Establecer suscriptores sobrescribiendo el valor actual.",
+	"34655e839671c022": "Compatibilidad con suscripciones",
+	"36c9f4f48b127253": "Suscrito automáticamente",
+	"3ad964fe9c854d64": "$1 más",
+	"3f20100a71906b67": "Se te ha suscrito automáticamente a este objeto.",
+	"409841b0ee579c25": "Añadir suscriptores",
+	"4db3423d5bd31e84": "Cancelar tu suscripción.",
+	"649fad34cf6e7781": "Buscar objetos con ciertos suscriptores.",
+	"6ffaf2c2fa633fe1": "Los suscriptores pueden realizar esta acción.",
+	"70812c10b7301ddc": "Quitar suscriptores",
+	"71269196ea386883": "$2 quitó los $1 suscriptores",
+	"72f70b16832b1bbe": "Suscriptores añadidos",
+	"8210248db9606e07": "Se quitaron $1 suscriptores: $2",
+	"834cc0ee6089e541": "Cancelar suscripción",
+	"848a1d14df9182e9": "Objeto incorrecto",
+	"f9c66ea1d37b5cb6": "Añadir suscriptores.",
+	"ff53f6cd494fef97": "Obtener información sobre los suscriptores."
+}

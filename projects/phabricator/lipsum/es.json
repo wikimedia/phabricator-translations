@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"29efd0bdaa04ae91": "El argumento «$1» no coincide con el nombre de ningún generador.",
+	"62242054e2063eb9": "No se pudo cargar el símbolo $1; esta clase no existe.",
+	"6ad21d0a2036d6e8": "VAYA",
+	"9922906d3c889107": "Se generó «$1»: $2",
+	"e92bac9cc25935f8": "Generadores seleccionados: $1.",
+	"e9f3727584c821b2": "GENERADORES",
+	"f335a7372135e4e7": "¿Confirmas que quieres generar montones de chorradas?"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tothasze"
+		]
+	},
+	"13d815bd29a02c64": "Hallgatózó osztály (?)",
+	"20c4efa6093294a8": "A profilozás nem engedélyezett erre az oldalra. A fenti gomb használatával engedélyezheti.",
+	"2e1d8fd9f8a5e965": "Eseménytípus",
+	"40dc448a962e5fe4": "Belső ID",
+	"43e40156c805d177": "Hibanapló ($1)",
+	"47a14aaa85b00e8f": "Hibaelhárító konzol valós idejű értesítésekhez.",
+	"4d29b099c263ce28": "Részletes PHP profilozási információkat biztosít az XHProf segítségével.",
+	"54766d340f20c6ef": "Lekérdezési tervek elemzése",
+	"5973df6188ff92e7": "Valós idő",
+	"5b6825d3c67a3589": "Oldal",
+	"5ee68bc3d039a611": "+$1 ms",
+	"64fa5e7c4dac7a20": "Külső szolgáltatások hívása",
+	"65bb1b78be827ba8": "Számítógép (?)",
+	"6988b16a8fd21194": "Újracsatlakozás",
+	"69dc804727289cc4": "Információk Phabricator eseményekről és az eseményt hallgatókról.",
+	"737dae0b51bce2e6": "Nincsenek hibák.",
+	"a2e6414c7c3da940": "Hibanapló",
+	"ac551492ad6c91a4": "Információk a szolgáltatásokról.",
+	"aeeba730751ee3d0": "Ismeretlen esemény: $1",
+	"c2c604447f0ec813": "Nem lehet elemezni",
+	"c5497bca58468ae6": "Események",
+	"d41d0e4903685471": "Nincsenek táblák"
+}

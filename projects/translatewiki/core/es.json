@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"0654a028e5aea48c": "NINGUNO",
+	"17b6d98715597264": "Se ignorará la cadena «$1» porque no está presente en el archivo de origen de la traducción.",
+	"418a2fbab13c3664": "Extrayendo las cadenas de la biblioteca…",
+	"7516972ad3f67814": "Nombre de clase que generar.",
+	"79e0ecf9d32e5b43": "Datos de frecuencia",
+	"7c0edb1e7c0dcf2a": "Proporciona un archivo de código fuente en JSON con «--source».",
+	"9cb7bf6f5a17cea5": "Exportar cadenas de traducción desde una biblioteca libphutil.",
+	"b230c79422fb6249": "Escribiendo datos ($1, $2) en «$3»…",
+	"d37b3f801e2ed13d": "Tipos de variables: $1.",
+	"da7f7fad3fb76450": "Proporciona un archivo de salida mediante «--out».",
+	"e2bcda84facb3954": "Hecho.",
+	"eab817b44c709f8e": "Ubicación donde guardar el archivo de traducción generado.",
+	"f3514b3c6942c1c2": "PLURAL"
+}
