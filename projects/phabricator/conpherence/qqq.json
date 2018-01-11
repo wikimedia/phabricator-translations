@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"007590c1cd808d4a": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\nConpherenceThreadParticipantsTransaction.php:58",
 	"02f47fb34831fb55": "Used in:\n\nConpherenceTransactionRenderer.php:177",
 	"084f66f5247a2022": "Used in:\n\nConpherenceEditEngine.php:86",
@@ -28,7 +32,7 @@
 	"36249063380ece4f": "Used in:\n\nConpherenceRoomSettings.php:42",
 	"37ae585624a18a33": "Used in:\n\nConpherenceDurableColumnView.php:409",
 	"37ec1c0e95b19ec3": "Used in:\n\nConpherenceThreadSearchEngine.php:31",
-	"3a28d6f078fd35a5": "Used in:\n\nConpherenceThreadSearchEngine.php:26\nConpherenceThreadListView.php:115\nConpherenceNotificationPanelController.php:92",
+	"3a28d6f078fd35a5": "Used in:\n\nConpherenceThreadSearchEngine.php:26\nConpherenceThreadListView.php:115\nConpherenceNotificationPanelController.php:92\n{{Identical|Room}}",
 	"3f7db8eaf0421613": "Used in:\n\nConpherenceDurableColumnView.php:364\nConpherenceController.php:29",
 	"405d6a9ab1bb214f": "Used in:\n\nConpherenceThreadDatasource.php:33",
 	"407d0fdd2a3b907c": "Used in:\n\nConpherenceDurableColumnView.php:357\nConpherenceUpdateController.php:210\nConpherenceController.php:37",
