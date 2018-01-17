@@ -1,16 +1,16 @@
 <?php
 
-final class PhabricatorExampleTranslation
+final class PhabricatorSupportHu
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'en_E*';
+    return 'hu';
   }
 
   protected function getTranslations() {
     return array(
-      'Example String' => 'Replacement String',
+      'Support' => 'Támogatás',
     );
   }
-}
 
+}

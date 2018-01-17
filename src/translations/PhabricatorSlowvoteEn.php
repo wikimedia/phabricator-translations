@@ -1,0 +1,82 @@
+<?php
+
+final class PhabricatorSlowvoteEn
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'en';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'Enter Deliberations' => 'Enter Deliberations',
+      'Close Poll' => 'Close Poll',
+      '%s renamed %s.' => '%s renamed %s.',
+      'Create a Poll' => 'Create a Poll',
+      '%s made %s responses appear in a random order.' => '%s made %s responses appear in a random order.',
+      'Create Slowvote' => 'Create Slowvote',
+      'No such poll exists.' => 'No such poll exists.',
+      'Edit Poll' => 'Edit Poll',
+      'The author of a poll can always view and edit it.' => 'The author of a poll can always view and edit it.',
+      'Polls must have a question.' => 'Polls must have a question.',
+      'Reopen Poll' => 'Reopen Poll',
+      '%s made poll responses appear in a fixed order.' => '%s made poll responses appear in a fixed order.',
+      'Conduct Polls' => 'Conduct Polls',
+      'Slowvote' => 'Slowvote',
+      'Slowvotes' => 'Slowvotes',
+      '%s Approval (%d / %d)' => '%s Approval (%s / %s)',
+      'Approval (Multiple Choice)' => 'Approval (Multiple Choice)',
+      'CHANGES TO POLL DESCRIPTION' => 'CHANGES TO POLL DESCRIPTION',
+      'Show choices in random order.' => 'Show choices in random order.',
+      '%s set the description of %s.' => '%s set the description of %s.',
+      '%s updated the description for this poll.' => '%s updated the description for this poll.',
+      'You must vote to see the results.' => 'You must vote to see the results.',
+      'Edit Poll: %s' => 'Edit Poll: %s',
+      '%s reopened this poll.' => '%s reopened this poll.',
+      'Are you sure you want to reopen the poll?' => 'Are you sure you want to reopen the poll?',
+      '%s created this poll.' => '%s created this poll.',
+      'Shuffle' => 'Shuffle',
+      'Reopen' => 'Reopen',
+      '%s closed this poll.' => '%s closed this poll.',
+      'Responses' => 'Responses',
+      'All Polls' => 'All Polls',
+      '%s made %s responses appear in a fixed order.' => '%s made %s responses appear in a fixed order.',
+      '%s changed who can see the responses.' => '%s changed who can see the responses.',
+      'Only I can see the responses' => 'Only I can see the responses',
+      'Slowvote Poll' => 'Slowvote Poll',
+      'Open Polls' => 'Open Polls',
+      'SLOWVOTE DESCRIPTION' => 'SLOWVOTE DESCRIPTION',
+      'Someone changes the poll details.' => 'Someone changes the poll details.',
+      'Show only polls I\'ve voted in.' => 'Show only polls I\'ve voted in.',
+      'Slowvote User Guide' => 'Slowvote User Guide',
+      'Are you sure you want to close the poll?' => 'Are you sure you want to close the poll?',
+      'Engage in Deliberations' => 'Engage in Deliberations',
+      'Voted In' => 'Voted In',
+      'Retrieve an array of information about a poll.' => 'Retrieve an array of information about a poll.',
+      'Other poll activity not listed above occurs.' => 'Other poll activity not listed above occurs.',
+      'Poll other users to help facilitate decision making.' => 'Poll other users to help facilitate decision making.',
+      '%s changed who can see the responses of %s.' => '%s changed who can see the responses of %s.',
+      '%s edited the description of %s.' => '%s edited the description of %s.',
+      'You must offer at least one response.' => 'You must offer at least one response.',
+      'Only the author can see the results.' => 'Only the author can see the results.',
+      '%s changed the poll question from "%s" to "%s".' => '%s changed the poll question from "%s" to "%s".',
+      'Vote Type' => 'Vote Type',
+      'Someone votes on a poll.' => 'Someone votes on a poll.',
+      'Create Poll' => 'Create Poll',
+      'You must ask a poll question.' => 'You must ask a poll question.',
+      'SLOWVOTE DETAIL' => 'SLOWVOTE DETAIL',
+      '%s made poll responses appear in a random order.' => '%s made poll responses appear in a random order.',
+      '%s (%d / %d)' => '%s (%s / %s)',
+      'Only you can see the results.' => 'Only you can see the results.',
+      'No polls found.' => 'No polls found.',
+      'Allow anyone to see the responses' => 'Allow anyone to see the responses',
+      'Design by committee.' => 'Design by committee.',
+      'Voting improves cardiovascular endurance.' => 'Voting improves cardiovascular endurance.',
+      'Plurality (Single Choice)' => 'Plurality (Single Choice)',
+      'Response %d' => 'Response %s',
+      'Require a vote to see the responses' => 'Require a vote to see the responses',
+      'Default view policy for new polls.' => 'Default view policy for new polls.',
+    );
+  }
+
+}

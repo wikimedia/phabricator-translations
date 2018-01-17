@@ -1,0 +1,122 @@
+<?php
+
+final class PhabricatorDivinerEn
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'en';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'Article has no %s!' => 'Article has no %s!',
+      'Writing graph cache.' => 'Writing graph cache.',
+      'Edit Basics' => 'Edit Basics',
+      'This interface is not documented.' => 'This interface is not documented.',
+      'Type a book name...' => 'Type a book name...',
+      'Documentation uses `%s`, but should use `%s`.' => 'Documentation uses `%s`, but should use `%s`.',
+      'Atom "%s" is preceded by a comment containing `%s`, but the comment is not a documentation comment. Documentation comments must begin with `%s`, followed by a newline. Did you mean to use a documentation comment? (As the comment is not a documentation comment, it will be ignored.)' => 'Atom "%s" is preceded by a comment containing `%s`, but the comment is not a documentation comment. Documentation comments must begin with `%s`, followed by a newline. Did you mean to use a documentation comment? (As the comment is not a documentation comment, it will be ignored.)',
+      'No such atom \'%s\'!' => 'No such atom \'%s\'!',
+      'Diviner Atom' => 'Diviner Atom',
+      'Found %s book(s).' => 'Found %s book(s).',
+      'Propagating changes through the graph.' => 'Propagating changes through the graph.',
+      'Atoms inherit the policies of the books they are part of.' => 'Atoms inherit the policies of the books they are part of.',
+      'Deleting %s document(s).' => 'Deleting %s document(s).',
+      'Rule \'%s\' is not a valid regular expression.' => 'Rule \'%s\' is not a valid regular expression.',
+      'Return' => 'Return',
+      'Found %s file(s) in project.' => 'Found %s file(s) in project.',
+      'PUBLISHING DOCUMENTATION' => 'PUBLISHING DOCUMENTATION',
+      'All Atoms' => 'All Atoms',
+      'Book configuration \'%s\' has name \'%s\', but book names must include only lowercase letters and hyphens.' => 'Book configuration \'%s\' has name \'%s\', but book names must include only lowercase letters and hyphens.',
+      'Read More Documentation' => 'Read More Documentation',
+      'Specify a Diviner book configuration file with %s.' => 'Specify a Diviner book configuration file with %s.',
+      'Creating %s document(s).' => 'Creating %s document(s).',
+      'Diviner' => 'Diviner',
+      'Specify a subclass of %s.' => 'Specify a subclass of %s.',
+      'Atom names must not be in the form \'%s\'. This pattern is reserved for disambiguating atoms with similar names.' => 'Atom names must not be in the form \'%s\'. This pattern is reserved for disambiguating atoms with similar names.',
+      'Article' => 'Article',
+      'Skipping %s...' => 'Skipping %s...',
+      'This article is not documented.' => 'This article is not documented.',
+      'Books' => 'Books',
+      'This atom no longer exists.' => 'This atom no longer exists.',
+      'No books found.' => 'No books found.',
+      'This call takes %s parameter(s), but only %s are documented.' => 'This call takes %s parameter(s), but only %s are documented.',
+      'Writing atom cache.' => 'Writing atom cache.',
+      'Inherited' => 'Inherited',
+      'Documentation Warnings' => 'Documentation Warnings',
+      'Diviner Books' => 'Diviner Books',
+      'Generating book "%s"...' => 'Generating book "%s"...',
+      'No methods for this task.' => 'No methods for this task.',
+      'Repository that the documentation belongs to.' => 'Repository that the documentation belongs to.',
+      'Atom already has a parent!' => 'Atom already has a parent!',
+      'Produce ugly (but faster) output.' => 'Produce ugly (but faster) output.',
+      'This file is not documented.' => 'This file is not documented.',
+      'Found %s affected atoms.' => 'Found %s affected atoms.',
+      'Diviner Book' => 'Diviner Book',
+      'Found %s new atom(s) in graph.' => 'Found %s new atom(s) in graph.',
+      'There are no Diviner \'%s\' files anywhere beneath the current directory. Use \'%s\' to specify a documentation book to generate.' => 'There are no Diviner \'%s\' files anywhere beneath the current directory. Use \'%s\' to specify a documentation book to generate.',
+      'Edit Book' => 'Edit Book',
+      'Child hashes have already been computed!' => 'Child hashes have already been computed!',
+      'Defined' => 'Defined',
+      'Clear the caches before generating documentation.' => 'Clear the caches before generating documentation.',
+      'Implements' => 'Implements',
+      'Parent hash has already been computed!' => 'Parent hash has already been computed!',
+      'Free Radicals' => 'Free Radicals',
+      'Generate documentation.' => 'Generate documentation.',
+      'Expected exactly one atom from file atomizer.' => 'Expected exactly one atom from file atomizer.',
+      'Untitled Article "%s"' => 'Untitled Article "%s"',
+      'Publisher class \'%s\' must be a concrete subclass of %s.' => 'Publisher class \'%s\' must be a concrete subclass of %s.',
+      'Need translation for \'%s\'.' => 'Need translation for \'%s\'.',
+      'Documentation Not Found' => 'Documentation Not Found',
+      'Path to a Diviner book configuration.' => 'Path to a Diviner book configuration.',
+      'This class is not documented.' => 'This class is not documented.',
+      'This method is not documented.' => 'This method is not documented.',
+      'Documentation Atoms' => 'Documentation Atoms',
+      'Parameter "%s" is named "%s" in the documentation. The documentation may be out of date.' => 'Parameter "%s" is named "%s" in the documentation. The documentation may be out of date.',
+      'Atomizer class \'%s\' must be a concrete subclass of %s.' => 'Atomizer class \'%s\' must be a concrete subclass of %s.',
+      'Parameters' => 'Parameters',
+      'BUILDING ATOM CACHE' => 'BUILDING ATOM CACHE',
+      'Specify an atomizer class with %s.' => 'Specify an atomizer class with %s.',
+      'BUILDING GRAPH CACHE' => 'BUILDING GRAPH CACHE',
+      'Unable to find the specified documentation. You may have followed a bad or outdated link.' => 'Unable to find the specified documentation. You may have followed a bad or outdated link.',
+      'Extends' => 'Extends',
+      'Found %s obsolete atom(s) in graph.' => 'Found %s obsolete atom(s) in graph.',
+      'No such atom with node hash \'%s\'!' => 'No such atom with node hash \'%s\'!',
+      'Atomization complete.' => 'Atomization complete.',
+      'Documentation specifies `%s` multiple times.' => 'Documentation specifies `%s` multiple times.',
+      'CLEARING CACHES' => 'CLEARING CACHES',
+      'Diviner User Guide' => 'Diviner User Guide',
+      'Edit Book: %s' => 'Edit Book: %s',
+      'Found %s file(s) to atomize.' => 'Found %s file(s) to atomize.',
+      'Found %s unatomized, uncached file(s).' => 'Found %s unatomized, uncached file(s).',
+      'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.' => 'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.',
+      'Build atoms from source.' => 'Build atoms from source.',
+      '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
+    Diviner is the documentation generator used to build the Phabricator documentation.
+    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
+      %s
+    ' => '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
+    Diviner is the documentation generator used to build the Phabricator documentation.
+    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
+      %s
+    ',
+      'This function is not documented.' => 'This function is not documented.',
+      'Find' => 'Find',
+      'Other Methods' => 'Other Methods',
+      'Expected to find atom while disambiguating!' => 'Expected to find atom while disambiguating!',
+      'This %s is not documented.' => 'This %s is not documented.',
+      'Documentation Books' => 'Documentation Books',
+      'Atom cache is up to date, no files to atomize.' => 'Atom cache is up to date, no files to atomize.',
+      'Repository "%s" does not exist.' => 'Repository "%s" does not exist.',
+      'Book' => 'Book',
+      'Specify one or more files to atomize.' => 'Specify one or more files to atomize.',
+      'Atomizing %s...' => 'Atomizing %s...',
+      'Completed generation of "%s".' => 'Completed generation of "%s".',
+      'Atomizing %s file(s).' => 'Atomizing %s file(s).',
+      'Atom has no symbol map entry!' => 'Atom has no symbol map entry!',
+      'Browse Books' => 'Browse Books',
+      'FINDING DOCUMENTATION BOOKS' => 'FINDING DOCUMENTATION BOOKS',
+    );
+  }
+
+}
