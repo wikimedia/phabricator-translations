@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorSupportBetarask
+final class PhabricatorSupportZhHans
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'betarask';
+    return 'zh_Hans';
   }
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Падтрымка',
+      'Support' => '支持',
     );
   }
 

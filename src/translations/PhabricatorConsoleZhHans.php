@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorConsoleZhhans
+final class PhabricatorConsoleZhHans
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'zhhans';
+    return 'zh_Hans';
   }
 
   protected function getTranslations() {

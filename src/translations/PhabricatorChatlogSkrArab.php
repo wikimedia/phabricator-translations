@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorChatlogSkrarab
+final class PhabricatorChatlogSkrArab
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'skrarab';
+    return 'skr_Arab';
   }
 
   protected function getTranslations() {

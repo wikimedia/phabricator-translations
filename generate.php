@@ -9,10 +9,19 @@ foreach ($json_files as $filename) {
     $project = $part[2];
     $app = $part[3];
     $lang = $part[4];
-    $lang = str_replace('-', '', $lang);
 
     $lang = explode('.', $lang)[0];
+    $lang_parts = explode('-', $lang);
+    $lang = strtolower($lang_parts[0]);
+    if (count($lang_parts) == 3) {
+        $lang .= "_".strtoupper($lang_parts[1]);
+        $lang .= "_".ucfirst($lang_parts[2]);
+    } else if (count($lang_parts) == 2) {
+        $lang .= "_".ucfirst($lang_parts[1]);
+    }
     $classname = ucfirst($project).ucfirst($app).ucfirst($lang);
+    $classname = str_replace('_', '', $classname);
+
     $cmd = ['../../translatewiki/bin/translatewiki',
             'generate',
             '--source',

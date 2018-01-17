@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorFavoritesBetarask
+final class PhabricatorFavoritesBeTarask
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'betarask';
+    return 'be_Tarask';
   }
 
   protected function getTranslations() {
