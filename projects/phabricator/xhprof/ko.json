@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"600c86c5195dfe24": "$1 μs",
+	"68d5ced71e82cd17": "$1 프로파일",
+	"a04ce39eb6a65a4b": ".xhprof 파일을 가져오려면 해당 파일을 끌어 놓으십시오.",
+	"aeb1f8e83b6fb6c1": "PHP 프로파일링 도구",
+	"c9aef90f3405db63": "XHProf 프로파일",
+	"d2c039b48df9b8b5": "가져올 .xhprof 파일을 놓으십시오"
+}
