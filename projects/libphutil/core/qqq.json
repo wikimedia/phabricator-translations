@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"0034df47f76f0aef": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/utils/__tests__/PhutilUTF8TestCase.php$235 PhutilUTF8TestCase.php:235]",
 	"01350f4ff3237a24": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/channel/PhutilChannelChannel.php$104 PhutilChannelChannel.php:104]",
 	"0210d3ef06cf7ebe": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/internationalization/locales/PhutilPortuguesePortugalLocale.php$13 PhutilPortuguesePortugalLocale.php:13]",
@@ -696,7 +700,7 @@
 	"e1caf88e53f725e4": "Variable Types: PLURAL.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/moduleutils/PhutilLibraryMapBuilder.php$462 PhutilLibraryMapBuilder.php:462]",
 	"e1d37fbcba15e8d5": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/cache/PhutilKeyValueCacheNamespace.php$41 PhutilKeyValueCacheNamespace.php:41]\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/cache/PhutilKeyValueCacheNamespace.php$54 PhutilKeyValueCacheNamespace.php:54]",
 	"e2625389f7cd0060": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/moduleutils/PhutilLibraryMapBuilder.php$505 PhutilLibraryMapBuilder.php:505]",
-	"e2bcda84facb3954": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/console/PhutilConsoleProgressBar.php$156 PhutilConsoleProgressBar.php:156]",
+	"e2bcda84facb3954": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/console/PhutilConsoleProgressBar.php$156 PhutilConsoleProgressBar.php:156]\n{{Identical|Done}}",
 	"e356d1783ca23827": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/auth/PhutilLDAPAuthAdapter.php$451 PhutilLDAPAuthAdapter.php:451]",
 	"e376ee552a708614": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/auth/PhutilLDAPAuthAdapter.php$415 PhutilLDAPAuthAdapter.php:415]",
 	"e3d6623c2493c6a0": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/utils/utils.php$662 utils.php:662]",
