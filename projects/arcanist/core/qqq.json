@@ -1029,7 +1029,7 @@
 	"a8789be5b6ddfda8": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistLambdaFuncFunctionXHPASTLinterRule.php$31 ArcanistLambdaFuncFunctionXHPASTLinterRule.php:31]",
 	"a8948c794dc2768b": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistMergeConflictLinter.php$16 ArcanistMergeConflictLinter.php:16]",
 	"a89f5968eb2b6f9b": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/repository/api/ArcanistMercurialAPI.php$924 ArcanistMercurialAPI.php:924]",
-	"a8ad860c15810cce": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistHLintLinter.php$75 ArcanistHLintLinter.php:75]",
+	"a8ad860c15810cce": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistHLintLinter.php$75 ArcanistHLintLinter.php:75]\n{{Identical|Note}}",
 	"a8ae237c644e02a8": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistCloseRevisionWorkflow.php$132 ArcanistCloseRevisionWorkflow.php:132]",
 	"a8befe3bc383d808": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/conduit/ArcanistConduitCall.php$111 ArcanistConduitCall.php:111]",
 	"a8cb94e619e9cca6": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/parser/ArcanistDiffParser.php$392 ArcanistDiffParser.php:392]",

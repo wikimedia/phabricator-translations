@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\nPhabricatorPolicyFilter.php:831",
 	"021dfd70b626a618": "Used in:\n\nPhabricatorPolicyTestCase.php:84",
 	"02cb0b417bdaad52": "Used in:\n\nPhabricatorPolicyTestCase.php:489",
@@ -69,7 +73,7 @@
 	"797b2c9b22aa47b1": "Used in:\n\nPhabricatorPolicyConfigOptions.php:40",
 	"7c1c30041d2f2a8b": "Used in:\n\nPolicyLockOptionType.php:18",
 	"828f2a22520c1086": "Used in:\n\nPhabricatorPolicyManagementShowWorkflow.php:57",
-	"83423c198b6099ed": "Used in:\n\nPHUIPolicySectionView.php:84",
+	"83423c198b6099ed": "Used in:\n\nPHUIPolicySectionView.php:84\n{{Identical|Note}}",
 	"8390d40205231f26": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorPolicyExplainController.php:198",
 	"88fd881df8116595": "Used in:\n\nPhabricatorPolicyCanEditCapability.php:9",
 	"8a04ae8bee11253a": "Used in:\n\nPhabricatorPolicyTestCase.php:113",

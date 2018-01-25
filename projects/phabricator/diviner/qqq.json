@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"03d15fc7d961504b": "Used in:\n\nDivinerArticleAtomizer.php:19",
 	"0832d97d98fd6967": "Used in:\n\nDivinerGenerateWorkflow.php:514",
 	"0b2906f6a7490d1a": "Used in:\n\nDivinerBookEditController.php:59",
@@ -14,7 +18,7 @@
 	"1c180e6dba2ed2fa": "Used in:\n\nDivinerLiveSymbol.php:233",
 	"20209c866461f149": "Used in:\n\nDivinerPublisher.php:142",
 	"208262f4a5d4f64f": "Used in:\n\nDivinerGenerateWorkflow.php:276",
-	"24f096b221f9534b": "Used in:\n\nDivinerAtomController.php:604",
+	"24f096b221f9534b": "Used in:\n\nDivinerAtomController.php:604\n{{Identical|Return}}",
 	"25f4df14fdd96ab3": "Used in:\n\nDivinerGenerateWorkflow.php:226",
 	"2b8e54e1847403f4": "Used in:\n\nDivinerGenerateWorkflow.php:576",
 	"2c508dfa5a9fe983": "Used in:\n\nDivinerAtomSearchEngine.php:110",
