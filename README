@@ -1,0 +1,49 @@
+Utilities for importing and exporting translation strings between phutil
+libraries (including Phabricator) and Translatewiki.
+
+Setup
+=====
+
+Install Phabricator, then check this out next to it. Your directory should look
+like this:
+
+```
+$ ls
+arcanist/
+libphutil/
+phabricator/
+translatewiki/
+```
+
+Exporting Strings
+=================
+
+This repository already has exported data, so you can just use the files
+located in `projects/` if you don't need to regenerate up-to-date strings.
+
+To export up-to-date strings from Phabricator, run:
+
+```
+$ ./bin/translatewiki export path/to/phabricator/src/ --project phabricator
+```
+
+This will update `projects/phabricator/en.json` and related files.
+
+
+Generating Translations
+=======================
+
+If you have a translated string file and want to convert it into a form that
+Phabricator can read, do this:
+
+```
+$ ./bin/translatewiki generate \
+  --source path/to/your/strings.json \
+  --class YourLanguageTranslation \
+  --locale xx_YY \
+  --project phabricator \
+  --out path/to/YourLanguageTranslation.php
+```
+
+This will write a translation file to `path/to/YourLanguageTranslation.php`
+that Phabricator can read.

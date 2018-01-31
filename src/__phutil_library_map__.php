@@ -189,6 +189,9 @@ phutil_register_library_map(array(
     'TranslatewikiCoreFr' => 'translations/TranslatewikiCoreFr.php',
     'TranslatewikiCoreHu' => 'translations/TranslatewikiCoreHu.php',
     'TranslatewikiCoreZhHans' => 'translations/TranslatewikiCoreZhHans.php',
+    'TranslatewikiManagementExportWorkflow' => 'management/TranslatewikiManagementExportWorkflow.php',
+    'TranslatewikiManagementGenerateWorkflow' => 'management/TranslatewikiManagementGenerateWorkflow.php',
+    'TranslatewikiManagementWorkflow' => 'management/TranslatewikiManagementWorkflow.php',
   ),
   'function' => array(),
   'xmap' => array(
@@ -372,5 +375,8 @@ phutil_register_library_map(array(
     'TranslatewikiCoreFr' => 'PhutilTranslation',
     'TranslatewikiCoreHu' => 'PhutilTranslation',
     'TranslatewikiCoreZhHans' => 'PhutilTranslation',
+    'TranslatewikiManagementExportWorkflow' => 'TranslatewikiManagementWorkflow',
+    'TranslatewikiManagementGenerateWorkflow' => 'TranslatewikiManagementWorkflow',
+    'TranslatewikiManagementWorkflow' => 'PhutilArgumentWorkflow',
   ),
 ));
