@@ -1,9 +1,13 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"05fe7803b131a33c": "Used in:\n\nPHIDInfoConduitAPIMethod.php:18",
 	"0a751e41cfcf8b01": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHandleList.php:55",
 	"131ada2c91031e5e": "Used in:\n\nPhabricatorHandlePoolTestCase.php:55",
-	"1498233146466f1f": "Variable Types: NONE.\nUsed in:\n\nPhabricatorObjectHandle.php:163",
+	"1498233146466f1f": "Variable Types: NONE.\nUsed in:\n\nPhabricatorObjectHandle.php:163\n{{Identical|Restricted}}",
 	"1db177fa2f0941e1": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHandleList.php:179",
 	"40acf4c5cd86049e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorPHIDType.php:11",
 	"40f8045ec98d286b": "Used in:\n\nPhabricatorHandlePool.php:56",

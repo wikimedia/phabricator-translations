@@ -232,7 +232,7 @@
 	"80f900b3933340e2": "Used in:\n\nManiphestTaskStatusTestCase.php:60",
 	"816e7e27a972e05e": "Used in:\n\nManiphestTaskOwnerTransaction.php:48",
 	"822b42bca5e21160": "Used in:\n\nManiphestEditEngine.php:204",
-	"82dd2cdf36f9436d": "Used in:\n\nManiphestTaskUnblockTransaction.php:23",
+	"82dd2cdf36f9436d": "Used in:\n\nManiphestTaskUnblockTransaction.php:23\n{{Identical|Block}}",
 	"83c87884b09b5032": "Used in:\n\nManiphestTaskOwnerTransaction.php:42",
 	"84379646553d024a": "Used in:\n\nManiphestEditEngine.php:235",
 	"8501d4b3a85a25a0": "Used in:\n\nManiphestTaskPoints.php:28",
