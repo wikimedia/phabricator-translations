@@ -1,14 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Reception123"
 		]
 	},
+	"005bfb7a94bf7cfb": "12 Heures, 2:34 PM",
 	"0d32db227630073a": "Auto-actions",
 	"117cb5da2ea671e9": "Choisir la langue dans laquelle vous voulez utiliser l'interface utilisateur Phabricator.",
+	"17063c506b81a46c": "Samedi",
+	"17787c7178512d82": "Changer l'Addresse Principale",
 	"1d9329e4dac12018": "Sur les petits écrans",
+	"1db38a456830fe1e": "Un e-mail de vérification a été envoyé. Cliquez sur le lien dans l'email pour vérifier votre adresse.",
+	"1e44025ca823c934": "Activez les notifications par e-mail",
 	"20d04e8b4aa680a9": "Modifier des fichiers multiples",
 	"20db1ed52e4bef4d": "Editer des paramètres par défaut globaux pour tous les utilisateurs.",
+	"21eb7d6e16db18a3": "Aucun panneau de paramètres n'est disponible.",
+	"22de712b363a08cc": "Ajuster le fuseau horaire",
+	"2785923283c90225": "$1 a mis à jour son profil",
+	"289d7173c274e090": "La valeur \"$1\" n'est pas valide pour le réglage \"$2\": les valeurs valides sont $3.",
 	"2c59588b7493b1d7": "Etes-vous sûr de vouloir supprimer cette adresse ? Vous ne pourrez plus l'utiliser pour vous connecter.",
 	"2dcc1fdd35bf7ff3": "Vous n'avez ajouté aucune clé publique SSH.",
 	"36117ed91792ecee": "Sauvegarder les préférences",

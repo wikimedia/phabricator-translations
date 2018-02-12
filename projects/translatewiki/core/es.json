@@ -7,6 +7,8 @@
 	"0654a028e5aea48c": "NINGUNO",
 	"17b6d98715597264": "Se ignorará la cadena «$1» porque no está presente en el archivo de origen de la traducción.",
 	"418a2fbab13c3664": "Extrayendo las cadenas de la biblioteca…",
+	"49427ff57fe09816": "GÉNERO",
+	"5641f04d9980459c": "Proporciona un nombre de clase con «--class».",
 	"7516972ad3f67814": "Nombre de clase que generar.",
 	"79e0ecf9d32e5b43": "Datos de frecuencia",
 	"7c0edb1e7c0dcf2a": "Proporciona un archivo de código fuente en JSON con «--source».",
