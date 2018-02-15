@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"0294e4a93c79fe48": "Da'l camín a una biblioteca de la qu'esportar traducciones",
+	"057a91bd9d909212": "Nun pudo estrayese la cadena col patrón nun reconocíu «%», «$1»: $2.",
+	"0654a028e5aea48c": "NENGÚN",
+	"124328edcc87415b": "Da un códigu de locale con «--locale».",
+	"17b6d98715597264": "Inórase la cadena «$1»; nun ta presente nel ficheru d'orixe de la traducción.",
+	"2c22da08dc82f0ba": "Da'l camín a exautamente una biblioteca de la qu'esportar traducciones",
+	"38877d794cbf1943": "Da'l nome d'un proyectu baxo'l qu'esportar les cadenes con «--as».",
+	"3b87bed5eefca3c1": "Cadenes en bruto",
+	"410147829602065c": "Nome del proyectu pal que ta xenerándose un ficheru de traducción.",
+	"418a2fbab13c3664": "Estrayendo les cadenes de la biblioteca…",
+	"49427ff57fe09816": "XÉNERU",
+	"5394e163b2751641": "Códigu del locale pa la fonte xenerada.",
+	"5641f04d9980459c": "Da un nome de clase con «--class».",
+	"70cca40d69431794": "Lleída $1 cadena(es)",
+	"7516972ad3f67814": "Nome de clase a xenerar.",
+	"79e0ecf9d32e5b43": "Datos de frecuencia",
+	"7c0edb1e7c0dcf2a": "Da un ficheru fonte en JSON con «--source».",
+	"8657976c47adf8f2": "Xenerar un ficheru de clase de traducción de Phabricator.",
+	"8941bccc95e2dd69": "Ficheru fonte en JSON que contien cadenes de traducción.",
+	"9cb7bf6f5a17cea5": "Esportar cadenes de traducción dende una biblioteca libphutil.",
+	"b230c79422fb6249": "Escribiendo datos ($1, $2) a «$3»…",
+	"b4f0d48e2f52605e": "Esperábase la estraición de cadenes de la biblioteca pa xenerar el ficheru «$1», pero'l ficheru nun esiste.",
+	"b919bad1a5bc00cd": "Nome pal proyectu que va esportase. Los ficheros esportaos escribiránse'n «projects/» usando esti nome.",
+	"c435945f8f07345d": "Usáu en:",
+	"c732898ac3089782": "Cadenes n'inglés",
+	"c9d24cf2f05e3bcb": "Cadenes de contestu",
+	"ccadbcf74331a452": "Da un nome de proyectu con «--project».",
+	"d37b3f801e2ed13d": "Tipos de variables: $1.",
+	"da7f7fad3fb76450": "Da un ficheru de salida con «--out».",
+	"dc8625c842d8248a": "URI base pa restolar los ficheros del proyectu que van esportase.",
+	"dfae14ab8a277d61": "Pasa «--clean» al estractor de base pa descartar les caches antes d'estrayer les cadenes y facer una reconstrucción llimpia completa. ¡Lento!",
+	"e2bcda84facb3954": "Fecho.",
+	"eab817b44c709f8e": "Allugamientu onde guardar el ficheru de traducción xeneráu.",
+	"f3514b3c6942c1c2": "PLURAL"
+}
