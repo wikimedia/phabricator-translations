@@ -418,7 +418,7 @@
 	"428e542a0fb44cd8": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLintWorkflow.php$546 ArcanistLintWorkflow.php:546]",
 	"42ba3ac6b249d7f7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/land/ArcanistGitLandEngine.php$317 ArcanistGitLandEngine.php:317]",
 	"42bc78107d5fae6d": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/unit/engine/phutil/testcase/PhutilTestCaseTestCase.php$9 PhutilTestCaseTestCase.php:9]",
-	"431de839c3cfa8f3": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/unit/renderer/ArcanistUnitConsoleRenderer.php$40 ArcanistUnitConsoleRenderer.php:40]",
+	"431de839c3cfa8f3": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/unit/renderer/ArcanistUnitConsoleRenderer.php$40 ArcanistUnitConsoleRenderer.php:40]\n{{Identical|Skip}}",
 	"4340f2c4a50b034f": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLandWorkflow.php$163 ArcanistLandWorkflow.php:163]",
 	"43c92d73c03c84ba": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/renderer/ArcanistConsoleLintRenderer.php$245 ArcanistConsoleLintRenderer.php:245]\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/renderer/ArcanistSummaryLintRenderer.php$29 ArcanistSummaryLintRenderer.php:29]",
 	"44192ccc946215e6": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistClassFilenameMismatchXHPASTLinterRule.php$49 ArcanistClassFilenameMismatchXHPASTLinterRule.php:49]",
