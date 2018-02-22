@@ -61,6 +61,7 @@ final class PhabricatorSearchZhHans
       'Motivator' => '动力',
       'Menu Items' => '菜单项目',
       'Hide Query' => '隐藏查询',
+      'Set Default Query' => '设置默认查询',
       'Select a document type...' => '选择文档类型...',
       '(Restricted/Invalid Project)' => '（受限制/无效项目）',
       'Delete Query' => '删除查询',

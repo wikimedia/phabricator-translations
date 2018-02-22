@@ -20,7 +20,7 @@ final class PhabricatorChatlogZhHans
       'Hide Dates' => '隐藏日期',
       'Channel Log' => '频道日志',
       'Search Dates' => '搜索日期',
-      'Newest' => '更新',
+      'Newest' => '最新',
       'Record chatter.' => '记录饶舌。',
     );
   }

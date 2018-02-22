@@ -132,7 +132,7 @@ final class TranslatewikiManagementExportWorkflow
       $frequency['<global>'][$string_key] = 0;
     }
 
-    $translatewiki_root = phutil_get_library_root('translatewiki');
+    $translatewiki_root = phutil_get_library_root('translations');
     $projects_root = "{$translatewiki_root}/../projects/{$as}/";
 
     $writes = array(

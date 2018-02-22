@@ -12,6 +12,8 @@ final class TranslatewikiCoreEs
       'NONE' => 'NINGUNO',
       'Ignoring string "%s"; not present in translation source file.' => 'Se ignorará la cadena «%s» porque no está presente en el archivo de origen de la traducción.',
       'Extracting library strings...' => 'Extrayendo las cadenas de la biblioteca…',
+      'GENDER' => 'GÉNERO',
+      'Provide a classname with "--class".' => 'Proporciona un nombre de clase con «--class».',
       'Class name to generate.' => 'Nombre de clase que generar.',
       'Frequency Data' => 'Datos de frecuencia',
       'Provide a JSON source file with "--source".' => 'Proporciona un archivo de código fuente en JSON con «--source».',

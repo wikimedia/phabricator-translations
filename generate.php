@@ -22,7 +22,7 @@ foreach ($json_files as $filename) {
     $classname = ucfirst($project).ucfirst($app).ucfirst($lang);
     $classname = str_replace('_', '', $classname);
 
-    $cmd = ['../../translatewiki/bin/translatewiki',
+    $cmd = ['./bin/translatewiki',
             'generate',
             '--source',
             $filename,
