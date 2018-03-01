@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"01e30de312eae0aa": "Used in:\n\nPhabricatorXHProfSampleSearchEngine.php:7",
 	"0a63ad781263be3f": "Variable Types: NONE.\nUsed in:\n\nPhabricatorXHProfSampleSearchEngine.php:84",
 	"2211e38509c4c39d": "Used in:\n\nPhabricatorXHProfSampleSearchEngine.php:34",
@@ -10,7 +14,7 @@
 	"5a9ebdb4ed44587e": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:93",
 	"600c86c5195dfe24": "Variable Types: PLURAL.\nUsed in:\n\nPhabricatorXHProfSampleSearchEngine.php:71",
 	"60bc9828c396a0ff": "Used in:\n\nPhabricatorXHProfSample.php:50",
-	"68d5ced71e82cd17": "Used in:\n\nPhabricatorXHProfProfileController.php:48",
+	"68d5ced71e82cd17": "Used in:\n\nPhabricatorXHProfProfileController.php:48\n{{Identical|Profile}}",
 	"91e4fc2fd727793b": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:107",
 	"93bdcecc9624ca26": "Used in:\n\nPhabricatorXHProfSampleSearchEngine.php:82",
 	"a04ce39eb6a65a4b": "Used in:\n\nPhabricatorXHProfDropController.php:30",

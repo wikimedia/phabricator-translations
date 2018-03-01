@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"00c0cf3b69c5a54c": "Used in:\n\nPhabricatorUserBlurbField.php:13",
 	"00cd69a399cafa6f": "Used in:\n\nPhabricatorPeopleLogSearchEngine.php:124",
 	"0122e9c739631483": "Used in:\n\nPhabricatorPeopleNewController.php:145",
@@ -85,7 +89,7 @@
 	"456befef2aa3e57b": "Used in:\n\nPhabricatorUserTitleField.php:17",
 	"46667b46465565cf": "Used in:\n\nPhabricatorPeopleWelcomeController.php:21",
 	"4761aad2dd2d6d37": "Used in:\n\nPhabricatorPeopleAnyOwnerDatasource.php:66",
-	"47dcc27d6e87ece8": "Used in:\n\nPhabricatorElasticsearchHost.php:34\nPhabricatorMySQLSearchHost.php:19\nPhabricatorUserRolesField.php:13",
+	"47dcc27d6e87ece8": "Used in:\n\nPhabricatorElasticsearchHost.php:34\nPhabricatorMySQLSearchHost.php:19\nPhabricatorUserRolesField.php:13\n{{Identical|Role}}",
 	"480c511a4dbc9b01": "Used in:\n\nPhabricatorPeopleSearchEngine.php:97",
 	"4828a662a4f5ccb2": "Used in:\n\nPhabricatorUserEmail.php:86",
 	"48ebdb0cc7de3914": "Used in:\n\nPhabricatorPeopleLdapController.php:132",
