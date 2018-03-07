@@ -12,6 +12,7 @@ final class PhabricatorSubscriptionsZhHans
       'Remove me as a subscriber' => '将我从订阅者中移除',
       'Support for Subscriptions' => '订阅支持',
       'Automatically Subscribed' => '已自动订阅',
+      '%d other(s)' => '%s个其他',
       'You are automatically subscribed to this object.' => '您已自动订阅此对象。',
       'Added Subscribers' => '已添加订阅者',
       'Removed %s subscriber(s): %s.' => '已移除%s个订阅者：%s。',

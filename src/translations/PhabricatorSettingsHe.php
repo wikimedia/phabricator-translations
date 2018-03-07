@@ -10,7 +10,7 @@ final class PhabricatorSettingsHe
   protected function getTranslations() {
     return array(
       'Default (%s)' => 'ברירת מחדל (%s)',
-      'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.' => 'הדפדפן אינו תומך בהתראות שולחן עבודה התראות של יישומים יישלחו לדפדפן על אף ההעדפה זו.',
+      'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.' => 'הדפדפן הזה אינו תומך בהתראות שולחן עבודה. רק התראות של יישומים יישלחו לדפדפן הזה בלי קשר להעדפה זו.',
       'Page Titles' => 'כותרות דפים',
       'Personal Account Settings' => 'הגדרות החשבון האישי',
       'Global Default Settings' => 'הגדרות ברירת המחדל הכלליות',

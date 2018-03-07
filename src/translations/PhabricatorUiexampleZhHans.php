@@ -189,7 +189,7 @@ final class PhabricatorUiexampleZhHans
       'This property label and property value are quite long. They demonstrate the wrapping behavior of the element, or lack thereof if something terrible has happened.' => '此属性标签和属性值相当长。它们证明了元素的包装行为，或发生了一些可怕的情况导致其中缺少一些内容。',
       'Adding Users' => '添加用户',
       'this is a pasta' => '这是一个意大利面',
-      'Align Middle' => '对齐中间',
+      'Align Middle' => '居中对齐',
       'Button Bar' => '按钮栏',
       'Disabled Object' => '禁用的对象',
       'Holidays' => '假日',

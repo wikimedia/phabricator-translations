@@ -1,16 +1,15 @@
 <?php
 
-final class PhabricatorFavoritesZhHans
+final class PhabricatorSupportUk
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'zh_Hans';
+    return 'uk';
   }
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => '编辑收藏夹',
-      'Favorite Items' => '兴趣项目',
+      'Support' => 'Підтримка',
     );
   }
 

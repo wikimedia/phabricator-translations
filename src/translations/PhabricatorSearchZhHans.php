@@ -39,6 +39,7 @@ final class PhabricatorSearchZhHans
       'No services need initialization.' => '没有需要初始化的服务。',
       'Add New Menu Item...' => '添加新的菜单项...',
       'Untitled "%s" Item' => '无标题“%s”项',
+      'You must name the query.' => '您必须对查询命名。',
       'Choose Item Icon' => '选择项图标',
       'Edit Menu Item: %s' => '编辑菜单项：%s',
       'Open Documents' => '打开文档',
