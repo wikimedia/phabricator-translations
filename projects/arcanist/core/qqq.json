@@ -1488,7 +1488,7 @@
 	"f4dc7c4e8d4fc4d3": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistUndeclaredVariableXHPASTLinterRule.php$364 ArcanistUndeclaredVariableXHPASTLinterRule.php:364]",
 	"f4de31b4d8301238": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistXMLLinter.php$14 ArcanistXMLLinter.php:14]",
 	"f4ed6e2a23210415": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistUnitWorkflow.php$215 ArcanistUnitWorkflow.php:215]",
-	"f4f4473df8cb59f0": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/ArcanistLintSeverity.php$20 ArcanistLintSeverity.php:20]",
+	"f4f4473df8cb59f0": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/ArcanistLintSeverity.php$20 ArcanistLintSeverity.php:20]\n{{Identical|Disabled}}",
 	"f4fd3325183693e9": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLandWorkflow.php$385 ArcanistLandWorkflow.php:385]",
 	"f513dc4561332e66": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/configuration/ArcanistConfigurationManager.php$195 ArcanistConfigurationManager.php:195]",
 	"f52cad4e54a7e5f8": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDownloadWorkflow.php$67 ArcanistDownloadWorkflow.php:67]",

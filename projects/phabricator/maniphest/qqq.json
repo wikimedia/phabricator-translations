@@ -14,7 +14,7 @@
 	"023ce10a5d7a0729": "Variable Types: NONE.\nUsed in:\n\nManiphestTaskOwnerTransaction.php:130",
 	"024a6510f375de1e": "Used in:\n\nManiphestEditEngine.php:65",
 	"02bdc3a530797d02": "Used in:\n\nManiphestTaskHeraldFieldGroup.php:8",
-	"049e3ce5476a39c3": "Used in:\n\nManiphestTaskAssigneeHeraldField.php:9",
+	"049e3ce5476a39c3": "Used in:\n\nManiphestTaskAssigneeHeraldField.php:9\n{{Identical|Assignee}}",
 	"051ef08cc816d2c4": "Used in:\n\nManiphestTaskSearchEngine.php:90",
 	"05754d82da3f08b0": "Used in:\n\nManiphestUpdateConduitAPIMethod.php:10",
 	"0697a7ab4b4e8e82": "Used in:\n\nManiphestEditEngine.php:168",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"KATRINE1992",
-			"Wladek92"
+			"Wladek92",
+			"Envlh"
 		]
 	},
 	"0e3f5fc25846b7ff": "Chèvre",
@@ -18,7 +19,7 @@
 	"86dd58072b7d45f9": "Donner ou changer un jeton",
 	"a82f684df4f006ae": "Fabriquer un défaut ?",
 	"ca51b5d43e4d4383": "Jetons donnés",
-	"e4f81994fed009c2": "Témoin (cookie)",
+	"e4f81994fed009c2": "Cookie",
 	"e50ed88c9d3e9183": "Logo Pirate",
 	"f3943b58e9305bb3": "Ptérodactyle"
 }
