@@ -1,12 +1,16 @@
 {
-	"@metadata": [],
-	"1eda447e23cc5832": "Used in:\n\nPhabricatorSubscriptionsSubscribersPolicyRule.php:22",
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"1eda447e23cc5832": "Used in:\n\nPhabricatorSubscriptionsSubscribersPolicyRule.php:22\n{{Identical|Subscriber}}",
 	"1eebe0c8018ccf4c": "Used in:\n\nPhabricatorSubscriptionsRemoveSelfHeraldAction.php:9",
 	"1f333fc696a56fe6": "Used in:\n\nPhabricatorSubscriptionsEditEngineExtension.php:68",
 	"2cad9316913ab881": "Used in:\n\nPhabricatorSubscriptionsEditEngineExtension.php:65",
 	"34655e839671c022": "Used in:\n\nPhabricatorSubscriptionsSearchEngineExtension.php:14",
 	"36c9f4f48b127253": "Used in:\n\nPhabricatorSubscriptionsEditController.php:45\nPhabricatorSubscriptionsUIEventListener.php:43\nPhabricatorSubscriptionsHeraldAction.php:145",
-	"3ad964fe9c854d64": "Used in:\n\nSubscriptionListStringBuilder.php:67",
+	"3ad964fe9c854d64": "Used in:\n\nSubscriptionListStringBuilder.php:67\n{{Identical|Other}}",
 	"3f20100a71906b67": "Used in:\n\nPhabricatorSubscriptionsEditController.php:46",
 	"409841b0ee579c25": "Used in:\n\nPhabricatorSubscriptionsAddSubscribersHeraldAction.php:9",
 	"4db3423d5bd31e84": "Used in:\n\nPhabricatorSubscriptionsUnsubscribeEmailCommand.php:11",

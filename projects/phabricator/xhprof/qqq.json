@@ -9,7 +9,7 @@
 	"2211e38509c4c39d": "Used in:\n\nPhabricatorXHProfSampleSearchEngine.php:34",
 	"28facfbf0193ea3e": "Used in:\n\nPhabricatorXHProfProfileSymbolView.php:65",
 	"2f3c9dc62cb2a85d": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:99",
-	"3f84ef531f9db996": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:85\nPhabricatorXHProfProfileSymbolView.php:105",
+	"3f84ef531f9db996": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:85\nPhabricatorXHProfProfileSymbolView.php:105\n{{Identical|Symbol}}",
 	"562ae0348cb47b8e": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:113",
 	"5a9ebdb4ed44587e": "Used in:\n\nPhabricatorXHProfProfileTopLevelView.php:93",
 	"600c86c5195dfe24": "Variable Types: PLURAL.\nUsed in:\n\nPhabricatorXHProfSampleSearchEngine.php:71",
