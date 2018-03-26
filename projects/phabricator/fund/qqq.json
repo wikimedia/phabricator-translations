@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"0006324868d87fff": "Used in:\n\nFundInitiativeEditEngine.php:134",
 	"09da16816c90724b": "Used in:\n\nFundInitiativeEditEngine.php:142\nFundInitiativeEditEngine.php:143",
 	"0c65384c668ba13b": "Variable Types: NONE.\nUsed in:\n\nFundInitiativeStatusTransaction.php:19",
@@ -51,7 +55,7 @@
 	"8998e1389dfe9094": "Used in:\n\nFundBackerSearchEngine.php:129",
 	"8bb95f22bf97e9c8": "Used in:\n\nFundInitiativeViewController.php:108\nFundInitiativeEditEngine.php:141",
 	"9093e40fdf10e84d": "Used in:\n\nFundInitiativeViewController.php:93",
-	"95345e276ffbb748": "Used in:\n\nPhabricatorFundApplication.php:14",
+	"95345e276ffbb748": "Used in:\n\nPhabricatorFundApplication.php:14\n{{Identical|Donate}}",
 	"97a967ba9b4d7cb8": "Used in:\n\nFundBacker.php:102",
 	"98cfe2504cb86544": "Variable Types: NONE.\nUsed in:\n\nFundInitiativeStatusTransaction.php:23",
 	"9ce636b0c03051a9": "Used in:\n\nFundInitiativeMerchantTransaction.php:60",
