@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"0294e4a93c79fe48": "Tillhandahåll sökvägen till ett bibliotek att exportera översättningar från.",
+	"057a91bd9d909212": "Kunde inte extrahera sträng med det oigenkända mönstret \"%\", \"$1\": $2.",
+	"0654a028e5aea48c": "INGEN",
+	"124328edcc87415b": "Tillhandahåll en språkkod med \"--locale\".",
+	"17b6d98715597264": "Ignorerar strängen \"$1\"; förekommer inte i översättningens källfil.",
+	"2c22da08dc82f0ba": "Tillhandahåll sökvägen till exakt ett bibliotek att exportera översättningar från.",
+	"38877d794cbf1943": "Tillhandahåll ett projektnamn för att exportera strängar under med \"--as\".",
+	"3b87bed5eefca3c1": "Råa strängar",
+	"410147829602065c": "Namnet på projektet som en översättningsfil genereras för.",
+	"418a2fbab13c3664": "Extraherar bibliotekssträngar...",
+	"49427ff57fe09816": "KÖN",
+	"5394e163b2751641": "Språkkod för den genererade källan.",
+	"5641f04d9980459c": "Tillhandahåll ett klassnamn med \"--class\".",
+	"70cca40d69431794": "Läs $1 sträng(ar).",
+	"7516972ad3f67814": "Klassnamn att generera.",
+	"79e0ecf9d32e5b43": "Frekvensdata",
+	"7c0edb1e7c0dcf2a": "Tillhandahåll en JSON-källfil med \"--source\".",
+	"8657976c47adf8f2": "Generera en klassfil för Phabricator-översättningen.",
+	"8941bccc95e2dd69": "JSON-källfil som innehåller översättningssträngar.",
+	"9cb7bf6f5a17cea5": "Exportera översättningssträngar från ett libphutil-bibliotek.",
+	"b230c79422fb6249": "Skriver data ($1, $2) till \"$3\"...",
+	"b4f0d48e2f52605e": "Förväntade att extrahera bibliotekssträngar för att generera filen \"$1\", men ingen sådan fil finns!",
+	"b919bad1a5bc00cd": "Namnet på projektet som exporteras. Exporterade filer kommer att skrivas till \"projects/\" med detta namn.",
+	"c435945f8f07345d": "Används i:",
+	"c732898ac3089782": "Engelska strängar",
+	"c9d24cf2f05e3bcb": "Sammanhangssträngar",
+	"ccadbcf74331a452": "Tillhandahåll ett projektnamn med \"--project\".",
+	"d37b3f801e2ed13d": "Variabeltyper: $1.",
+	"da7f7fad3fb76450": "Tillhandahåll en utmatningsfil med \"--out\".",
+	"dc8625c842d8248a": "Grund-URI för att bläddra filer i projektet som exporteras.",
+	"e2bcda84facb3954": "Klar.",
+	"eab817b44c709f8e": "Plats att skriva den genererade översättningsfilen.",
+	"f3514b3c6942c1c2": "PLURAL"
+}
