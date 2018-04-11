@@ -78,6 +78,7 @@ final class PhabricatorHeraldZhHans
       'H%d' => 'H%s',
       'contains' => '包含',
       'Herald Transcript' => '传令抄本',
+      'Authored by %s' => '作者%s',
     );
   }
 

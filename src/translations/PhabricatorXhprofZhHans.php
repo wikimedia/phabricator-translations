@@ -20,7 +20,7 @@ final class PhabricatorXhprofZhHans
       '%s μs' => '%s微妙',
       'Unnamed Sample' => '未命名示例',
       '%s Profile' => '%s详情',
-      'Wall time spent in this function, excluding time spent in children (children are other functions it called while executing).' => '花费在这个函数中的时间，不包括在儿童身上花费的时间（儿童是执行时调用的其他函数）。',
+      'Wall time spent in this function, excluding time spent in children (children are other functions it called while executing).' => '此函数所花费的墙时间，除了子项上花费的时间（子项是执行时其调用的其他函数）。',
       'Manual Run' => '手动运行',
       'Drag and drop .xhprof files to import them.' => '拖放.xhprof文件以导入它们。',
       'PHP Profiling Tool' => 'PHP性能分析工具',
@@ -29,7 +29,7 @@ final class PhabricatorXhprofZhHans
       'XHProf Profile' => 'XHProf详情',
       'Drop .xhprof Files to Import' => '拖放.xhprof文件以导入',
       'Wall Time' => '墙时间',
-      'Download %s Profile' => '下载%s配置文件',
+      'Download %s Profile' => '下载%s个人资料',
       'Child Calls' => '子调用',
     );
   }

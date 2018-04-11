@@ -10,7 +10,7 @@ final class PhabricatorUiexampleKo
   protected function getTranslations() {
     return array(
       'Getting Started' => '시작하기',
-      'Image Masks' => '이미지 마스크',
+      'Image Masks' => '영상 마스크',
       'Christmas' => '성탄절',
       'Images' => '그림',
       'Setup errors and warnings.' => '설치 오류와 경고.',

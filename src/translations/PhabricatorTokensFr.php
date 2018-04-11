@@ -22,7 +22,7 @@ final class PhabricatorTokensFr
       'Give or change a token.' => 'Donner ou changer un jeton',
       'Manufacturing Defect?' => 'Fabriquer un défaut ?',
       'Tokens Given' => 'Jetons donnés',
-      'Cookie' => 'Témoin (cookie)',
+      'Cookie' => 'Cookie',
       'Pirate Logo' => 'Logo Pirate',
       'Pterodactyl' => 'Ptérodactyle',
     );

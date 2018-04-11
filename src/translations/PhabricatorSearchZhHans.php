@@ -75,6 +75,7 @@ final class PhabricatorSearchZhHans
       'Profile Menu Item' => '详情菜单项',
       'Delete Menu Item' => '删除菜单项',
       'Cats spend most of their time plotting to kill their owner.' => '猫浪费了其多数时间策划杀死它们的主人。',
+      'Edit Related Objects...' => '编辑相关对象...',
       'No saved queries.' => '没有保存的查询。',
       'Supports ID/PHID Queries' => '支持ID/PHID查询',
       'Edit Builtin Item' => '编辑内建项',

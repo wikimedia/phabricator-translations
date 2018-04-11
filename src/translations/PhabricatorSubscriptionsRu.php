@@ -47,8 +47,8 @@ final class PhabricatorSubscriptionsRu
     Пользователи, которые являются CC\'d на самом электронном письме, также автоматически подписываются, если Phabricator знает, какие учетные записи связаны с их адресами электронной почты.',
       'Add rule author as subscriber.' => 'Добавьте автора правила в качестве подписчика.',
       'Added %s subscriber(s): %s.' => 'Добавлены %s подписчик(и): %s.',
-      'Remove rule author as subscriber.' => 'Удалите автора правила в качестве подписчика.',
-      'Add subscribers.' => 'Добавить подписчики.',
+      'Remove rule author as subscriber.' => 'Удалите автора правила из подписчиков.',
+      'Add subscribers.' => 'Добавить подписчиков.',
       'Get information about subscribers.' => 'Получите информацию об подписчики.',
     );
   }

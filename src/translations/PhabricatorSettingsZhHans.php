@@ -59,6 +59,21 @@ final class PhabricatorSettingsZhHans
       'Global Defaults' => '全域默认值',
       'Enable "Re:" Prefix' => '启用“Re:”前缀',
       'Change Timezone' => '更改时区',
+      'You can adjust **Application Settings** here to customize when you are emailed and notified.
+    | Setting | Effect
+    | ------- | -------
+    | Email | You will receive an email and a notification, but the notification will be marked "read".
+    | Notify | You will receive an unread notification only.
+    | Ignore | You will receive nothing.
+    If an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.
+    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => '您可以在此调整**应用程序设置**以自动以您是否会收到电子邮件及通知。
+    | 设置 | 影响
+    | ------- | -------
+    | 电子邮件 | 您将收到电子邮件和通知，但通知将标记为“已读”。
+    | 通知 | 您将只收到未读通知。
+    | 忽略 | 您将不会收到任何通知。
+    如果更新做出了多个更改（例如添加CC至任务、关闭它和添加一段评论）您将收到最强通知，任何更改配置都会应用。
+    这些参数设置**只**应用到您连接的对象（例如您作为修订者的修订，或将您CC到的任务）。要接收创建的其他对象的电子邮件提醒，请配置[[ /herald/ | 传令规则 ]]。',
       'Europe: 28-02-2000' => '欧洲：28-02-2000',
       'Identity' => '身份',
       'Enable Filetree' => '启用文件树',

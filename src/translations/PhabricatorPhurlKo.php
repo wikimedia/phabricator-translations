@@ -12,7 +12,7 @@ final class PhabricatorPhurlKo
       'Alias' => '별칭',
       'URL' => 'URL',
       'All URLs' => '모든 URL',
-      '%s changed the alias from %s to %s.' => '%s님이 별칭을 %s에서 %s(으)로 변경했습니다.',
+      '%s changed the alias from %s to %s.' => '%s님이 다른 이름을 %s에서 %s(으)로 변경했습니다.',
       'New URL description.' => '새로운 URL 설명입니다.',
       'The URL to shorten.' => '길이를 줄일 URL입니다.',
       'New URL.' => '새 URL입니다.',
