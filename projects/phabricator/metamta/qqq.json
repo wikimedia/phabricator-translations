@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"033381bde0851c89": "Used in:\n\nPhabricatorMetaMTAReceivedMail.php:297",
 	"046da29a36e8431a": "Used in:\n\nPhabricatorMetaMTAMailableFunctionDatasource.php:11",
 	"0484745cc7badf2f": "Used in:\n\nPhabricatorMetaMTAActor.php:114\nPhabricatorMetaMTAEmailHeraldAction.php:74",
@@ -12,7 +16,7 @@
 	"0e479671eea2fb67": "Used in:\n\nPhabricatorMetaMTAActor.php:107",
 	"0fc361a4f38f3d3c": "Used in:\n\nPhabricatorMetaMTAActor.php:115",
 	"113ddec610c929c1": "Used in:\n\nPhabricatorMetaMTAActor.php:140",
-	"12242284e25550cf": "Variable Types: NONE.\nUsed in:\n\nPhabricatorMailManagementShowOutboundWorkflow.php:83\nPhabricatorSMSManagementShowOutboundWorkflow.php:54\nPhabricatorMailManagementShowInboundWorkflow.php:54",
+	"12242284e25550cf": "Variable Types: NONE.\nUsed in:\n\nPhabricatorMailManagementShowOutboundWorkflow.php:83\nPhabricatorSMSManagementShowOutboundWorkflow.php:54\nPhabricatorMailManagementShowInboundWorkflow.php:54\n{{Identical|ID}}",
 	"12f835a112f15eee": "Variable Types: NONE.\nUsed in:\n\nPhabricatorMetaMTAMailTestCase.php:231",
 	"149c05bef02289f3": "Used in:\n\nPhabricatorMailManagementShowInboundWorkflow.php:58",
 	"16774e6c76703b33": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorMailManagementUnverifyWorkflow.php:90",

@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"000441498344168a": "Used in:\n\nPhabricatorDaemonManagementWorkflow.php:469",
 	"010f4cc420dbd262": "Used in:\n\nPhabricatorDaemonConsoleController.php:67",
 	"040dc6258cc37a4b": "Used in:\n\nPhabricatorDaemonManagementStatusWorkflow.php:14",
@@ -88,7 +92,7 @@
 	"8a139f5e6cd77eca": "Used in:\n\nPhabricatorWorkerTaskDetailController.php:119",
 	"8a90ca9fcef30b9e": "Used in:\n\nPhabricatorDaemonController.php:23",
 	"8b84745a78fac49b": "Used in:\n\nPhabricatorDaemonManagementWorkflow.php:355",
-	"8bf95ea372568c7a": "Used in:\n\nPhabricatorDaemonManagementStatusWorkflow.php:40",
+	"8bf95ea372568c7a": "Used in:\n\nPhabricatorDaemonManagementStatusWorkflow.php:40\n{{Identical|Log}}",
 	"8e8a6adeb2055981": "Used in:\n\nPhabricatorDaemonBulkJobMonitorController.php:56",
 	"923eae8889613a80": "Variable Types: NONE.\nUsed in:\n\nPhabricatorDaemonManagementWorkflow.php:561",
 	"93df66db2232adfa": "Used in:\n\nPhabricatorDaemonLogViewController.php:170",

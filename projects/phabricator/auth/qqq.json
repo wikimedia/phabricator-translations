@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"012f3cfd29d66d76": "Used in:\n\nPhabricatorAuthProviderConfigTransaction.php:97",
 	"013085cdfc078d26": "Used in:\n\nPhabricatorAuthController.php:279",
 	"01a57dca3e44b680": "Used in:\n\nPhabricatorAuthSSHKeyTableView.php:57",
@@ -178,7 +182,7 @@
 	"470283433e2c3c8c": "Used in:\n\nPhabricatorAuthSSHKeyEditController.php:121\nPhabricatorAuthSSHKeyTableView.php:40",
 	"47a5a5ae940db119": "Used in:\n\nPhabricatorOAuthAuthProvider.php:130",
 	"4809c6e3a1b58fe7": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthLoginController.php:129",
-	"4a3baef3d85cea02": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthOneTimeLoginController.php:196",
+	"4a3baef3d85cea02": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthOneTimeLoginController.php:196\n{{Identical|log in}}",
 	"4ad45a179c323ff1": "Used in:\n\nPhabricatorAuthDisableController.php:72",
 	"4b41d2f17402e6c5": "Used in:\n\nPhabricatorAuthOneTimeLoginController.php:72\nPhabricatorAuthOneTimeLoginController.php:90\nPhabricatorAuthValidateController.php:71",
 	"4c285cad6d68d06c": "Used in:\n\nPhabricatorAuthProviderConfigTransaction.php:119",
@@ -285,7 +289,7 @@
 	"7a7543d4fc8fdba3": "Used in:\n\nPhabricatorLDAPAuthProvider.php:75",
 	"7abc5425e7b39214": "Used in:\n\nPhabricatorAuthRegisterController.php:545",
 	"7b54f89bb2521ba4": "Used in:\n\nPhabricatorAuthUnlinkController.php:74",
-	"7b66c2d59b36bad1": "Used in:\n\nPhabricatorLogoutController.php:55",
+	"7b66c2d59b36bad1": "Used in:\n\nPhabricatorLogoutController.php:55\n{{Identical|Log out}}",
 	"7bde3ed26918b816": "Used in:\n\nPhabricatorAuthNeedsMultiFactorController.php:48",
 	"7c341bd5e8c5c6e7": "Variable Types: NONE.\nUsed in:\n\nPhabricatorMustVerifyEmailController.php:36",
 	"7c8ecff981008c94": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthLoginController.php:81",
@@ -522,7 +526,7 @@
 	"d4bed3b8e85516c6": "Used in:\n\nPhabricatorAuthConfirmLinkController.php:67",
 	"d4ea8750854afcef": "Used in:\n\nPhabricatorAuthOneTimeLoginController.php:83",
 	"d510ae63f2dc4696": "Used in:\n\nPhabricatorAuthRegisterController.php:174",
-	"d527bf3db3dc8af6": "Used in:\n\nPhabricatorAuthStartController.php:264\nPhabricatorAuthLoginController.php:243\nPhabricatorAuthLoginController.php:250\nPhabricatorAuthMainMenuBarExtension.php:46\nPhabricatorLDAPAuthProvider.php:87\nPhabricatorPasswordAuthProvider.php:177\nPhabricatorPasswordAuthProvider.php:178\nPhabricatorAuthProvider.php:419\nPhabricatorAuthInviteEngine.php:91\nPhabricatorAuthInviteEngine.php:101\nPhabricatorAuthInviteEngine.php:112",
+	"d527bf3db3dc8af6": "Used in:\n\nPhabricatorAuthStartController.php:264\nPhabricatorAuthLoginController.php:243\nPhabricatorAuthLoginController.php:250\nPhabricatorAuthMainMenuBarExtension.php:46\nPhabricatorLDAPAuthProvider.php:87\nPhabricatorPasswordAuthProvider.php:177\nPhabricatorPasswordAuthProvider.php:178\nPhabricatorAuthProvider.php:419\nPhabricatorAuthInviteEngine.php:91\nPhabricatorAuthInviteEngine.php:101\nPhabricatorAuthInviteEngine.php:112\n{{Identical|Log in}}",
 	"d53952fda5180c11": "Used in:\n\nPhabricatorAuthTemporaryTokenTypeModule.php:11",
 	"d63e3b0f4d345778": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorAuthStartController.php:282",
 	"d672995a14650d0e": "Used in:\n\nPhabricatorAuthRegisterController.php:561",

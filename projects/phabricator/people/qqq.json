@@ -275,7 +275,7 @@
 	"d7f47bd5af71bd47": "Used in:\n\nPhabricatorUserEmail.php:184\nPhabricatorUserEmail.php:223\nPhabricatorUserEmail.php:257",
 	"d8b799673ba14999": "Used in:\n\nUserWhoAmIConduitAPIMethod.php:10",
 	"d9d0864974f4e01d": "Used in:\n\nPhabricatorPeopleNoOwnerDatasource.php:13",
-	"db18bd8b31f5d6c8": "Variable Types: NONE.\nUsed in:\n\nPeopleMainMenuBarExtension.php:107",
+	"db18bd8b31f5d6c8": "Variable Types: NONE.\nUsed in:\n\nPeopleMainMenuBarExtension.php:107\n{{Identical|Log out}}",
 	"db657bc2bb719dfb": "Used in:\n\nPhabricatorPeopleDisableController.php:54",
 	"dbef2cf7f8db7d42": "Used in:\n\nUserEnableConduitAPIMethod.php:10",
 	"dcfbb304129ca8ac": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\nPhabricatorUser.php:733",

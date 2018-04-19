@@ -5,7 +5,8 @@
 			"Pvcnt",
 			"Thibaut120094",
 			"Wladek92",
-			"Patrick Star"
+			"Patrick Star",
+			"Zetud"
 		]
 	},
 	"0034df47f76f0aef": "Raccourcissement de $1",
@@ -726,7 +727,7 @@
 	"e87c9eb2fafaca54": "Impossible de se connecter au serveur memcache ($1:$2) !",
 	"e899b4c47b897dd3": "Requête en délai dépassé après $1 seconde(s) !",
 	"e8a2d784df8e3914": "La méthode de l’argument n’est pas une chaîne.",
-	"e931a8ec57d89ba6": "Impossible de crée une fichier temporaire en $1.",
+	"e931a8ec57d89ba6": "Impossible de créer une fichier temporaire en $1.",
 	"e9867b7f79f7fb89": "Vous ne pouvez pas instancier plus d’un superviseur par processus.",
 	"ea041660eba2945b": "$1 ne peut pas écrire les octets directement !",
 	"eb0d8f9d1b81f6b1": "Mauvaise table (attendue $1)",
