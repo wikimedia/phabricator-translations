@@ -1,9 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Trizek"
+			"Trizek",
+			"Wladek92"
 		]
 	},
+	"01ab47951fb99871": "Rebelle",
+	"0e70e32f3fa53d3f": "Premier ordre",
+	"13a1272d3fe3ffc1": "Route de secours",
+	"2ba50bf873d764ca": "Sujet libre",
+	"3c61620ef22364ef": "Codeur",
+	"3ea90a6d50d42b0f": "Au débit",
+	"4a56d4c3c48ea764": "Déjà attribué",
+	"4e0fa4378f156cad": "Faible",
 	"53152b9efc4f78c7": "Superstar",
 	"72d92067886e6a45": "Nom du badge.",
 	"769dd052952ec0f1": "Description courte du badge.",

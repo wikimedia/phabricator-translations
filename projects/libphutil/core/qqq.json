@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Wladek92"
 		]
 	},
 	"0034df47f76f0aef": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/utils/__tests__/PhutilUTF8TestCase.php$235 PhutilUTF8TestCase.php:235]",
@@ -722,7 +723,7 @@
 	"e87c9eb2fafaca54": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/cache/PhutilMemcacheKeyValueCache.php$143 PhutilMemcacheKeyValueCache.php:143]",
 	"e899b4c47b897dd3": "Variable Types: PLURAL.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/aphront/storage/connection/mysql/AphrontMySQLiDatabaseConnection.php$111 AphrontMySQLiDatabaseConnection.php:111]",
 	"e8a2d784df8e3914": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/utils/utils.php$500 utils.php:500]",
-	"e931a8ec57d89ba6": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/filesystem/Filesystem.php$130 Filesystem.php:130]",
+	"e931a8ec57d89ba6": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/filesystem/Filesystem.php$130 Filesystem.php:130]\n\n$1 is a directory",
 	"e9867b7f79f7fb89": "Used in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/daemon/PhutilDaemonOverseer.php$101 PhutilDaemonOverseer.php:101]",
 	"ea041660eba2945b": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/channel/PhutilExecChannel.php$116 PhutilExecChannel.php:116]",
 	"eb0d8f9d1b81f6b1": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/PHU/browse/master/src/markup/engine/remarkup/blockrule/PhutilRemarkupTableBlockRule.php$30 PhutilRemarkupTableBlockRule.php:30]",
