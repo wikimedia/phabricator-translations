@@ -158,7 +158,7 @@
 	"18d58a4c875cc3fa": "Les constructions du langage ne nécessitent pas de parenthèses.",
 	"1937496c29f8a746": "Détecte les fautes de frappe courantes des mots anglais.",
 	"1975b1fdb2652079": "Source de différence brute inconnue.",
-	"198023566f0f905b": "'$1' a échoué et le repositionnement ont échoué. Cela est très certainement dû à des conflits. Repositionnez manuellement $2 sur $3, résolvez les conflits, puis lancez de nouveau '$4'.",
+	"198023566f0f905b": "'$1' a échoué et le repositionnement aussi. Cela est très certainement dû à des conflits. Repositionnez manuellement $2 sur $3, résolvez les conflits, puis lancez de nouveau '$4'.",
 	"199236f2c28083da": "Aucun linteur à lancer.",
 	"19a532c8bc61c311": "Modifié",
 	"19f2739a0f517361": "Commentaire À FAIRE",

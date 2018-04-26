@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Trizek"
+			"Trizek",
+			"Wladek92"
 		]
 	},
 	"21909f6cc9658765": "Pas d'application « $1 » !",
@@ -10,9 +11,12 @@
 	"5faf53441e65b801": "Contrôleur d'application",
 	"633d0a44b076afad": "Public + configuré",
 	"678731c91b8cc343": "Accès public",
+	"71a5993ec4612869": "Applications coeur de réseau",
 	"749ea651fe6a327f": "Pas de connexion nécessaire",
 	"78d67090ef36b075": "Pas d'application !",
 	"7a1c0a74305daaaf": "$1 Application",
+	"a6fdeee1d42216f6": "Vérification nécessaire de l'adresse courriel",
 	"b0608ab1bd963593": "Outils du développeur",
+	"c33a2a4cf022d6cc": "Cette application est nécessaire pour que Phabricator puisse fonctionner, donc tous les utilisateurs doivent y avoir accès.",
 	"daf366af13db9c61": "Administrateur requis"
 }

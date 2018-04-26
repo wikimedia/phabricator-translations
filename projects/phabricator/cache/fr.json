@@ -4,6 +4,10 @@
 			"Wladek92"
 		]
 	},
+	"0e313deeb5268c5d": "« $1 » est désactivé",
+	"1bfe152b965a4a3b": "APC",
+	"30eab4800596ed9d": "Cache general (TTL)",
+	"492a43e524b486a2": "\"$1\" est activé",
 	"5795d215104d012e": "Cache général",
 	"57d65a67da803ff0": "Format de cache inconnu.",
 	"5d552e099f3f044e": "Deux objets (de classe \"$1\" et \"$2\") ont généré la même valeur de mappage (\"$3\"). Chaque objet doit générer une valeur unique pour la mappage.",

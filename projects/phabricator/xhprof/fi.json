@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"01e30de312eae0aa": "XHProf-näytteet",
+	"2211e38509c4c39d": "Kaikki näytteet",
+	"2f3c9dc62cb2a85d": "Seinäaika (kattava)",
+	"3f84ef531f9db996": "Symboli",
+	"562ae0348cb47b8e": "Seinäaika (valikoiva)",
+	"600c86c5195dfe24": "$1 μs",
+	"60bc9828c396a0ff": "Nimeätön näyte",
+	"68d5ced71e82cd17": "$1 profiili",
+	"93bdcecc9624ca26": "Manuaalinen ajo",
+	"a04ce39eb6a65a4b": "Vedä ja pudota .xhprof-tiedostot tuodaksesi ne.",
+	"aeb1f8e83b6fb6c1": "PHP-profilointityökalu",
+	"ba808f702b24f82c": "Vertailuluvut tälle kutsulle",
+	"bffb93b89ee1e5b6": "XHProf-profiilin unserialisointi epäonnistui!",
+	"c9aef90f3405db63": "XHProf profiili",
+	"d2c039b48df9b8b5": "Pudota .xhprof-tiedostot tuodaksesi",
+	"dd3202d111eefb92": "Seinäaika",
+	"f1ab222d43ba59b4": "Lataa $1 profiili",
+	"fe6de32a0c1aa35b": "Lapsiobjektikutsut"
+}

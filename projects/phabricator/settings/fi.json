@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nike"
+			"Nike",
+			"Pyscowicz"
 		]
 	},
 	"005bfb7a94bf7cfb": "12-tuntinen, 2:34 PM",
@@ -14,7 +15,7 @@
 	"1d9329e4dac12018": "Pienet näytöt",
 	"1e44025ca823c934": "Ota käyttöön sähköposti-ilmoitukset",
 	"22de712b363a08cc": "Säädä aikavyöhykettä",
-	"2785923283c90225": "$1 updated her profile",
+	"2785923283c90225": "Nainen",
 	"2bcbafa80faeb97b": "Lisäasetukset",
 	"30b7fd73153b99d5": "Kaikki viestit",
 	"36117ed91792ecee": "Tallenna asetus",
@@ -45,7 +46,7 @@
 	"7dfb9bd8fd5d915f": "Eurooppa: 28-02-2000",
 	"801cabd6132e73b5": "Antamasi vanha salasana on väärä.",
 	"8046b2c59389017a": "◐ Ilmoita",
-	"82eee03b7377ded6": "$1 updated his profile",
+	"82eee03b7377ded6": "Mies",
 	"86e453c72368948e": "Rajalliset käännökset",
 	"8762062d8c972d43": "Sähköpostin toimitus",
 	"89098eb51d7bd99c": "Lähetä testi-ilmoitus",
@@ -64,12 +65,18 @@
 	"ac26a7a94ea2e664": "Käännös",
 	"af35dc6d813614b6": "UTC+$1",
 	"b53bcdaddd0539de": "Ajan muoto",
+	"b99af60bf33d1d6b": "Verkko ja työpöytä",
 	"bc5dd045b8623ddf": "sunnuntai",
 	"c24825afdcaa6550": "Henkilökohtaiset asetukset",
+	"c37b67f7d4f7910a": "Vain verkko",
 	"c66fc1b3f4e996ba": "Ei ääniä",
 	"cba2ff2932aeba88": "Tuntematon tunnus (\"$1\")",
 	"d166e844a3f3f871": "perjantai",
 	"d8471e87f65863e8": "Viikko alkaa päivästä",
+	"e101251952d6b6bf": "Vain työpöytä",
+	"e32707613d1f53b9": "Tunnusasetukset",
+	"e68e1b58e7d3f7b5": "Tilin toimintalokit",
+	"e6a0d7ebbfcfbca7": "Päiväys ja aika",
 	"f01f76f5c38cf7d2": "Sukupuoli käyttöliittymäviesteissä",
 	"f6f7efc38c5292b4": "Valitse se sukupuoli, jonka haluat näkyvän muille käyttöliittymäviesteissä."
 }
