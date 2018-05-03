@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"046419b845c2560f": "Utiliser des couleurs standard",
+	"04cb07ada8365ae6": "Aucune source de ressource n’existe avec le nom « $1 » !",
+	"0815b2ca68359582": "Impossible de rendre la ressource « $1 », qui a le type inconnu « $2 ».",
+	"0a4a18b90fc1e8c9": "Écriture de la carte « $1 ».",
+	"0ef5ab1cc4ef90ef": "Utiliser des couleurs à fort contraste",
+	"0f1ed7dfb63fc1e2": "Mode sombre (expérimental)",
+	"163ba1a9c26c97b1": "Utiliser une taille de police plus grande",
+	"1ef1f25b6148dbd2": "$1 ressources binaires trouvées.",
+	"21cb4dca00942a97": "Aucune ressource avec le symbole « $1 » n’existe dans la source « $2 » !",
+	"2371af702826eab1": "Célérité",
+	"2e6ee0d3a1034bf1": "La spécification du paquet pour « $1 » inclut « $2 », mais ce symbole n’est $3 par aucune ressource.",
+	"317174c8d84f6a62": "Tentative de résoudre une ressource inconnue, « $1 ».",
+	"41fa90d128ffe8e0": "CSS de syntaxe « $1 » reconstruit",
+	"4e71600bec1f4ac1": "Le fichier CSS '$1' a une variable inconnue '$2'.",
+	"6131223242825fc5": "Le littéral $1 n’est pas autorisé dans un script en ligne.",
+	"66639f7d455dd71f": "Binaire",
+	"7a75961209a5cf4d": "Utiliser des couleurs rouge/vert (Deutéranopie)",
+	"8369c2f9ebcad3bd": "La ressource « $1 » doit $2 à au moins une cible de Célérité.",
+	"9adac865895dd02e": "Cycle détecté dans le graphe de ressource : $1",
+	"a396d463559a8f47": "CSS de surlignage de la syntaxe reconstruit"
+}
