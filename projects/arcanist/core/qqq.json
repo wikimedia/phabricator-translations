@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Wladek92"
 		]
 	},
 	"00003a701ef56dd7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$2641 ArcanistDiffWorkflow.php:2641]",
@@ -599,7 +600,7 @@
 	"62769f032e81de98": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistPhrequentWorkflow.php$39 ArcanistPhrequentWorkflow.php:39]",
 	"62ea6ada6437b101": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistCommitWorkflow.php$328 ArcanistCommitWorkflow.php:328]",
 	"62fa02f60ddfca97": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistConcatenationOperatorXHPASTLinterRule.php$9 ArcanistConcatenationOperatorXHPASTLinterRule.php:9]",
-	"637c024ede73d7a5": "Variable Types: PLURAL.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistWorkflow.php$901 ArcanistWorkflow.php:901]",
+	"637c024ede73d7a5": "Variable Types: PLURAL.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistWorkflow.php$901 ArcanistWorkflow.php:901]\n$1 is a number",
 	"639ef3cc34e782d5": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/land/ArcanistGitLandEngine.php$442 ArcanistGitLandEngine.php:442]",
 	"63a43ac29738b6e5": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/parser/__tests__/ArcanistBaseCommitParserTestCase.php$107 ArcanistBaseCommitParserTestCase.php:107]",
 	"63b48c93cea094e6": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistReusedAsIteratorXHPASTLinterRule.php$9 ArcanistReusedAsIteratorXHPASTLinterRule.php:9]",

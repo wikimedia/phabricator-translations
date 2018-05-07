@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
-	"046419b845c2560f": "Utiliser des couleurs standard",
+	"046419b845c2560f": "Utiliser des couleurs standards",
 	"04cb07ada8365ae6": "Aucune source de ressource n’existe avec le nom « $1 » !",
 	"0815b2ca68359582": "Impossible de rendre la ressource « $1 », qui a le type inconnu « $2 ».",
 	"0a4a18b90fc1e8c9": "Écriture de la carte « $1 ».",
@@ -23,5 +24,17 @@
 	"7a75961209a5cf4d": "Utiliser des couleurs rouge/vert (Deutéranopie)",
 	"8369c2f9ebcad3bd": "La ressource « $1 » doit $2 à au moins une cible de Célérité.",
 	"9adac865895dd02e": "Cycle détecté dans le graphe de ressource : $1",
-	"a396d463559a8f47": "CSS de surlignage de la syntaxe reconstruit"
+	"a396d463559a8f47": "CSS de surlignage de la syntaxe reconstruit",
+	"a5dcf9b3422f14a3": "La source de ressources définit deux ressources avec le même nom « $1 ». L’une est définie dans la correspondance « $2 » ; l’autre dans la correspondance « $3 ». Chaque ressource doit avoir un nom unique.",
+	"b1191c15b7b23ea8": "La ressource « $1 » n’a pas de commentaire de doc en entête. Encoder les données de dépendance dans un bloc de doc en entête.",
+	"b8dcb7fb1787a65d": "La spécification du paquet pour « $1 » inclut des ressources de divers types ($2, $3). Chaque paquet ne peut contenir qu’un type de ressource.",
+	"bf64f63e87e16ac3": "Reconstruction de $1 source(s) de ressource.",
+	"ca95d79472b5600e": "$1 ressources de texte trouvées.",
+	"cd9aad37e951dff2": "Le fichier '$1' dans '$2' est censé être une source de sprite finissant en '$3'.",
+	"cf9d8c2551d59a7f": "Seules les ressources statiques peuvent être servies.",
+	"d3909c664b071e68": "Reconstruction de la source de ressource « $1 » ($2)…",
+	"d83f92dffe9f937b": "Le nom de ressources « $1 » n’est pas valide ; il doit contenir seulement des lettres minuscules de l’alphabet latin et des chiffres.",
+	"e67706bfcfb95cf8": "Tentative d’ajouter plus de métadonnés après que celles-ci aient été verrouillées.",
+	"f57fc09b17b11893": "Reconstruire les correspondances de ressource statiques.",
+	"fe5245cd89f00746": "$1 paquets trouvés."
 }
