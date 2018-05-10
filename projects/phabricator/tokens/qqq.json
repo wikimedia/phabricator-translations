@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"02f99a0b10e068c7": "Used in:\n\nPhabricatorTokenQuery.php:39",
 	"0e3f5fc25846b7ff": "Used in:\n\nPhabricatorTokenQuery.php:56",
 	"201f624acb6e2323": "Used in:\n\nPhabricatorTokenQuery.php:41",
@@ -42,7 +46,7 @@
 	"debcdee352c8e82d": "Used in:\n\nPhabricatorTokenGivenEditor.php:119",
 	"df41295409f2b544": "Used in:\n\nPhabricatorTokensToken.php:134",
 	"e282a85b4cea99a5": "Used in:\n\nPhabricatorTokenLeaderController.php:39",
-	"e4f81994fed009c2": "Used in:\n\nPhabricatorTokenQuery.php:55",
+	"e4f81994fed009c2": "Used in:\n\nPhabricatorTokenQuery.php:55\n{{Identical|Cookie}}",
 	"e50ed88c9d3e9183": "Used in:\n\nPhabricatorTokenQuery.php:53",
 	"efc984777fe5a4e1": "Used in:\n\nPhabricatorTokenQuery.php:31",
 	"f3943b58e9305bb3": "Used in:\n\nPhabricatorTokenQuery.php:42",
