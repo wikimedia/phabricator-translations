@@ -167,7 +167,7 @@
 	"2c9888802437d506": "(Non supporté)",
 	"2ca72c0eb47450fd": "Port non standard",
 	"2cffc80923eca630": "Ne pas inclure les vidéos Communs",
-	"2d0758456f316ff8": "Cette configuration a été supprimée. Vous pouvez la supprimer sans problème.\n\n$1",
+	"2d0758456f316ff8": "Cette configuration a été retirée. Vous pouvez la supprimer sans problème.\n\n$1",
 	"2d0a6dd511df12fa": "Options relatives aux traductions.",
 	"2d1579e046c58211": "Vous avez '$1' d’activé dans votre configuration PHP, mais Phabricator ne tournera pas en mode sécurisé. Le mode sécurisé a été rendu obsolète en PHP 5.3 et supprimé en PHP 5.4.\n\nDésactiver le mode sécurisé pour continuer.",
 	"2dcd435eeebf652c": "Utiliser les réponses privées (plus sécurisé)",
@@ -374,7 +374,7 @@
 	"65d5b644919855aa": "L’option de configuration '$1' n’est pas valide. L’URI doit contenir un point ('.'), comme '$2', pas simplement un nom comme '$3'. Certains navigateurs web ne positionneront pas les cookies sur les domaines sans TLD.",
 	"665cda3eaee0fbc9": "Espace de noms du cache.",
 	"66999356dc475a67": "Les règles de Remarkup personnalisées sont maintenant ajoutées en sous-classant $1 ou $2.",
-	"66bed768185a2282": "Le binaire '$1' n’a pas pu être trouvé. Faire un lien symbolique dans '$2', ou mettre la variable d’environnement $3 du serveur web pour inclure le répertoire où il réside, ou ajouter ce répertoire à '$4' dans la configuration de Phabricator.",
+	"66bed768185a2282": "Le binaire '$1' n’a pas pu être trouvé. Faire un lien symbolique dessus dans '$2', ou initialiser la variable d’environnement $3 du serveur web pour inclure le répertoire où il réside, ou ajouter ce répertoire à '$4' dans la configuration de Phabricator.",
 	"66befa8a4fb57dd5": "Problème résolu",
 	"66d7413435784835": "Intégration avec Mailgun",
 	"674f4f979a54bd86": "Si vous activez cela, les vidéos Communs intégrées seront incluses en ligne.",
@@ -619,6 +619,11 @@
 	"a608b40e871b0fc4": "Aucune URI de base",
 	"a620dcfcfbad6a97": "Vraiment vider le cache ?",
 	"a63f2526b259fe40": "Autoriser tout hôte (non sécurisé !)",
+	"a70aaaf24a0dbdd0": "Hôte: $1",
 	"a8842173f1c78cae": "Version locale",
-	"a916fa737a0a006c": "Problème résolu"
+	"a916fa737a0a006c": "Problème résolu",
+	"aa2913c21afaf35d": "Etat du schema",
+	"ab3f6924e0bbabf1": "Mémoire cache",
+	"ab7f244fc5171be6": "Type de données",
+	"ab7fe253f6abcbc4": "Autoriser la supression des adresses courriels de certains utilisateurs"
 }
