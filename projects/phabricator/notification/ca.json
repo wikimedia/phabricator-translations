@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseplluis"
+		]
+	},
+	"07b032b56f7aa399": "Sense llegir",
+	"215ed57ea00cd4b2": "Totes les notificacions",
+	"6faa4218ab931e0d": "Notificacions no llegides",
+	"771e05f27b99fd59": "Desconnectat",
+	"7f02a61559647c50": "No hi ha notificacions per marcar com a llegides.",
+	"ac5503328036ec9a": "Notificació de prova",
+	"ad87d7cef1baf9fe": "Servidor de notificació no habilitat",
+	"b61b70be925f16d0": "Això és una notificació de prova, s'ha enviat a $1.",
+	"b6ef1f5cf0f38781": "(Per iniciar el servidor, executa aquesta comanda.)\n$1",
+	"b88a6664ed5b0050": "No tens notificacions sense llegir.",
+	"b98e3f99c2aea77e": "Connectant...",
+	"e5f613432959373a": "Marca tot llegit",
+	"e6fe34ea1c47c080": "Mostra només les notificacions no llegides.",
+	"f9b6f64d81b3eed1": "No tens notificacions."
+}

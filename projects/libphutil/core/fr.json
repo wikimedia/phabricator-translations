@@ -6,7 +6,8 @@
 			"Thibaut120094",
 			"Wladek92",
 			"Patrick Star",
-			"Zetud"
+			"Zetud",
+			"Krwy"
 		]
 	},
 	"0034df47f76f0aef": "Raccourcissement de $1",
@@ -573,7 +574,7 @@
 	"b8ac781a0536f926": "L’URI de Conduit '$1' doit inclure un hôte valide.",
 	"b9e155ecbd143fab": "D, M j",
 	"bb1f816c24652804": "Deux extensions HTTP différentes (« $1 » de la classe « $2 » et « $3 » de la classe « $4 ») ont toutes deux fourni un URI de mandataire pour l’URI « $5 ». Pas plus d’une extension ne peut fournir un mandataire pour une URI quelconque.",
-	"bb9bfefd5391f52b": "Nov",
+	"bb9bfefd5391f52b": "nov.",
 	"bba7255239d5c4ed": "Spécifier un point de terminaison AWS S3 avec --endpoint.",
 	"bbd6e32ee1326237": "ven",
 	"bbd7f5363f12cb37": "texte gclef",

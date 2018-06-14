@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"240e78f1aa62fbef": "Değişkeni Güncelle",
+	"3074a4a63133c645": "Değişken değer geçerli JSON olmalıdır.",
+	"307d4957be65dd3a": "Yalnızca küçük harf, rakam, nokta ve kısa çizgi.",
+	"3d3684e1f79c7996": "Değişkeni Düzenle: $1",
+	"45d41b3427ac820a": "Anahtar/Değer Yapılandırma Mağazası",
+	"5b3d65a8738a83f4": "Değişken \"$1\"",
+	"8fbf110b5f9b11ca": "Phlux Değişkenler",
+	"92ef2c479783f464": "JSON olarak değer girin.",
+	"991a4cc218302b21": "Değişken anahtar benzersiz olmalıdır.",
+	"a19b4054a7bcb6ea": "Değişken Oluştur",
+	"adcd57ea4ea9ebf6": "Phlux",
+	"b971350e75202123": "$1, bu değişkeni güncelledi.",
+	"c130b080f0d0694c": "$1, bu değişkeni oluşturdu.",
+	"c73e063e2ac09a6e": "Değişkeni Düzenle",
+	"c75bafc134c47ab1": "Değişken Listesi",
+	"ce39d9d87f4cf49a": "Değişken anahtarı zorunludur.",
+	"ced53994219494a6": "\"$1\" değişken anahtarında yalnızca küçük harfler, rakamlar, nokta ve kısa çizgi bulunmalıdır."
+}
