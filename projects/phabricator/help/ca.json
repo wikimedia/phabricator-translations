@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseplluis"
+			"Joseplluis",
+			"Fitoschido"
 		]
 	},
 	"17b251be5661401b": "Tanca qualsevol diàleg, incloent aquest.",
 	"2e0984a922fef3db": "Protocol d'edició no suportat",
 	"40586493191bb270": "Canvia configuració",
-	"6bbbdac8f41b22d9": "$1 ajuda",
+	"4da9b13fc11f66a8": "El teu editor URI configurat utilitza un protocol no suportat. Canvia la teva configuració per utilitzar un protocol suportat, o pregunta a l'administrador del sistema per afegir suport pel protocol escollit per configuració: $1",
+	"6bbbdac8f41b22d9": "Ajuda: $1",
 	"b465751c05fbc426": "Dreceres de teclat"
 }
