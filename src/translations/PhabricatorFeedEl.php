@@ -18,8 +18,10 @@ final class PhabricatorFeedEl
       'Specify a story key to republish.' => 'Προσδιορίστε ένα κλειδί ιστορίας για αναδημοσίευση.',
       'Include Users' => 'Συμπερίληψη χρηστών',
       'Story' => 'Ιστορία',
+      'Feed options.' => 'Επιλογές ροής.',
       'No Stories.' => 'Χωρίς ιστορίες.',
       'Unsupported view type, possibles are: %s' => 'Μη υποστηριζόμενος τύπος προβολής, οι πιθανοί είναι οι: %s',
+      'Feed Stories' => 'Ιστορίες ροής',
     );
   }
 

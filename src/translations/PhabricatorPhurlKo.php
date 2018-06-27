@@ -10,10 +10,12 @@ final class PhabricatorPhurlKo
   protected function getTranslations() {
     return array(
       'Alias' => '별칭',
+      'Edit Phurl' => 'Phurl 편집',
       'URL' => 'URL',
       'All URLs' => '모든 URL',
       '%s changed the alias from %s to %s.' => '%s님이 다른 이름을 %s에서 %s(으)로 변경했습니다.',
       'New URL description.' => '새로운 URL 설명입니다.',
+      '[Phurl]' => '[Phurl]',
       'The URL to shorten.' => '길이를 줄일 URL입니다.',
       'New URL.' => '새 URL입니다.',
       'A description of the URL.' => 'URL의 설명입니다.',
@@ -22,6 +24,7 @@ final class PhabricatorPhurlKo
       'No URLs found.' => 'URL을 찾을 수 없습니다.',
       'URL path is required' => 'URL 경로는 필수입니다',
       '%s changed the name of %s from %s to %s.' => '%s님이 %s의 이름을 %s에서 %s(으)로 변경했습니다.',
+      'Edit URL: %s' => 'URL 편집: %s',
       'URL name.' => 'URL 이름입니다.',
       'Long URLs' => '긴 URL',
       'URL DESCRIPTION' => 'URL 설명',

@@ -246,6 +246,7 @@ final class PhabricatorUiexampleZhHans
       'Yum' => '美味',
       '%s bought a banana.' => '%s买了一个香蕉。',
       'Implode Earth' => '内爆地球',
+      'The next section is an empty text block.' => '下一节是空白文本块。',
       'A minor event.' => '一个小活动。',
       'Contributor' => '贡献者',
       'Clicky' => '滴答',

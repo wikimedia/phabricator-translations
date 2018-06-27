@@ -29,7 +29,12 @@ final class PhabricatorSlowvoteEl
       '%s updated the description for this poll.' => 'Ο %s ενημέρωσε την περιγραφή για αυτή τη ψηφοφορία.',
       'You must vote to see the results.' => 'Πρέπει να ψηφίσετε για να δείτε τα αποτελέσματα.',
       'Edit Poll: %s' => 'Επεξεργασία δημοσκόπησης: %s',
+      'Reopen' => 'Ξανάνοιγμα',
+      'Responses' => 'Απαντήσεις',
       '%s changed who can see the responses of %s.' => '%s άλλαξε αυτόν που μπορεί να δει τις απαντήσεις του %s.',
+      '%s (%d / %d)' => '%s (%s / %s)',
+      'Only you can see the results.' => 'Μόνο εσείς μπορείτε να δείτε τα αποτελέσματα.',
+      'Response %d' => 'Απάντηση %s',
     );
   }
 

@@ -42,7 +42,7 @@ final class PhabricatorTransactionsZhHans
       'Save Defaults' => '保存默认值',
       'Mention In' => '提及于',
       'Disable this form? Users will no longer be able to use it.' => '禁用此表单么？用户将无法再使用它。',
-      'Really remove this comment?' => '真的要移除此注释么？',
+      'Really remove this comment?' => '真的要移除此评论么？',
       'Mention' => '提及',
       'Post Comment' => '发布评论',
       'View Herald Transcript' => '查看传令抄本',
