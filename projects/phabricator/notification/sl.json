@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"07b032b56f7aa399": "Neprebrana",
+	"14dd2a4656a89116": "Ni mogoče naložiti statusa strežnika: to ni administratorski strežnik!",
+	"215ed57ea00cd4b2": "Vsa obvestila",
+	"3d9f47ddd54fe157": "Naj res označim vsa obvestila kot prebrana?",
+	"6776e111aef4227a": "Vsa neprebrana obvestila bodo označena kot prebrana. Tega dejanja se ne da razveljaviti.",
+	"6faa4218ab931e0d": "Neprebrana obvestila",
+	"6fe51d8fad2a6ea4": "Ni mogoče objaviti obvestila: to ni adminitstratorski strežnik!",
+	"771e05f27b99fd59": "Nepovezan",
+	"7f02a61559647c50": "Nobeno obvestilo ni označeno kot prebrano.",
+	"921af3bf3920d823": "Takojšnje posodobitve in opomniki",
+	"ac5503328036ec9a": "Testiraj obvestilo",
+	"ad87d7cef1baf9fe": "Strežnik z obvestili ni omogočen",
+	"b61b70be925f16d0": "To je testno obvestilo, poslano na $1",
+	"b6ef1f5cf0f38781": "(Za zagon strežnika poženi naslednji ukaz.)\n\n$1",
+	"b88a6664ed5b0050": "Ni neprebranih obvestil.",
+	"b98e3f99c2aea77e": "Povezovanje ...",
+	"e5f613432959373a": "Označi vse kot prebrano",
+	"e6fe34ea1c47c080": "Prikaži samo neprebrana obvestila.",
+	"f9b6f64d81b3eed1": "Ni obvestil."
+}
