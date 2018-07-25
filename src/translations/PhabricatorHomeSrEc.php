@@ -11,6 +11,7 @@ final class PhabricatorHomeSrEc
     return array(
       'Command Center' => 'Командни центар',
       'More Applications' => 'Више апликација',
+      'Built-in Homepage' => 'Уграђена почетна страница',
     );
   }
 

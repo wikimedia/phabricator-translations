@@ -68,6 +68,7 @@ final class PhabricatorTransactionsZhHans
       '%s edited contributor(s) for %s, added %s: %s; removed %s: %s.' => '%s编辑了%s的贡献者，添加了%s：%s；移除了%s：%s。',
       'This transaction is supposed to have an %s set, but it does not!' => '此次交易应具有%s设置，但它没有！',
       'Untitled Form' => '无标题表单',
+      'Validation errors:' => '确认错误：',
       'List of PHIDs to set.' => '要设置的PHID列表。',
       '%s added %s unsubscriber(s): %s.' => '%s添加了%s个订阅者：%s。',
       '%s moved this task from %s to %s on the %s board.' => '%s在%4$s版块上，将此任务从%2$s移动到%3$s。',

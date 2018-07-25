@@ -66,6 +66,7 @@ final class PhabricatorManiphestZhHans
       '%s updated the task description for %s.' => '%s更新了%s的任务描述。',
       'Task Has Revision' => '任务有修订版本',
       'Unbreak Now!' => '现已不可避免！',
+      'Change Story Points' => '更改故事点',
       'Validate "%s"' => '验证“%s”',
       'Information about task priority.' => '有关任务优先级的信息。',
       'Valid setting' => '有效设置',
@@ -135,8 +136,10 @@ final class PhabricatorManiphestZhHans
       'High' => '高',
       '%s renamed this task from %s to %s.' => '%s将此任务从%s重命名为%s。',
       'Updated After' => '此日期后更新',
+      '%s closed %s as %s by committing %s.' => '%s通过提交%4$s，将%2$s关闭为%3$s。',
       'Create as a subtask of another task.' => '创建为另一任务的子任务。',
       'Show Only Tasks Without Open Subtasks' => '只显示有开启子任务的任务',
+      '%s closed %s as a duplicate by committing %s.' => '%s通过提交%3$s，将%2$s关闭为重复项。',
       'Change priority to' => '更改优先级为',
       'You do not have permission to edit task status.' => '您没有权限编辑任务状态。',
       'You do not have permission to edit task projects.' => '您没有权限编辑任务项目。',
@@ -152,11 +155,13 @@ final class PhabricatorManiphestZhHans
       'Edit Locked Task' => '编辑锁定的任务',
       'Assigned' => '已分配',
       'Lowered Priority' => '已降低优先级',
+      '%s closed this task as %s by committing %s.' => '%s通过提交%3$s，将此任务关闭为%2$s。',
       '%s edited subtask(s), added %s: %s; removed %s: %s.' => '%s编辑了子任务，添加了%s个：%s；移除了%s个：%s。',
       'Mentioned Here' => '在此提及',
       'Change the priority of the task.' => '更改任务的优先级。',
       'Page Size' => '页面大小',
       'Tasks and Bugs' => '任务和程序错误',
+      '%s triaged this task as %s priority.' => '%s将此任务归类为%s优先级。',
     );
   }
 
