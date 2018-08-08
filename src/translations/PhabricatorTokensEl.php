@@ -35,13 +35,17 @@ final class PhabricatorTokensEl
       'Like' => 'Μου αρέσει',
       'Tokens Given' => 'Κέρματα που δόθηκαν.',
       'Hungry Hippo' => 'Πεινασμένος Ιπποπόταμος',
+      'Party Time' => 'Ώρα για Πάρτι',
       'Yellow Medal' => 'Κίτρινο μετάλλιο',
+      'Baby Tequila' => 'Μωρό Τεκίλα',
       'No such token "%s"!' => 'Δεν υπάρχει τέτοιο κέρμα "%s"!',
+      'The name of the token.' => 'Το όνομα του κλειδιού.',
       'Tokens: %s' => 'Κέρματα: %s',
       'Cookie' => 'Cookie',
       'Pirate Logo' => 'Πειρατικό λογότυπο',
       'Dislike' => 'Δεν μου αρέσει',
       'Pterodactyl' => 'Πτεροδάκτυλος',
+      'The user who gave a token can always edit it.' => 'Ο χρήστης που έδωσε ένα κλειδί μπορεί πάντα να το επεξεργαστεί.',
     );
   }
 

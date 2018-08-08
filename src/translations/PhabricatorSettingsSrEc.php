@@ -11,7 +11,7 @@ final class PhabricatorSettingsSrEc
     return array(
       '12 Hour, 2:34 PM' => '12 сати, 2:34 PM',
       'Default (%s)' => 'Подразумевано (%s)',
-      'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.' => 'Овај претраживач не подржава десктоп обавештења. Само обавештења унутар апликације биће послата без обзира на ово подешавање.',
+      'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.' => 'Овај веб-прегледач не подржава десктоп обавештења. Само обавештења унутар апликације биће послата без обзира на ово подешавање.',
       'Page Titles' => 'Наслови страница',
       'Personal Account Settings' => 'Подешавања личног налога',
       'Global Default Settings' => 'Глобална подразумевана подешавања',
@@ -41,7 +41,7 @@ final class PhabricatorSettingsSrEc
       'You have no linked accounts.' => 'Немате повезаних налога.',
       'Active Login Sessions' => 'Активне сесије пријављивања',
       'Edit Global Settings' => 'Уреди глобална подешавања',
-      'Ignore Conflict' => 'Игнориши конфликт',
+      'Ignore Conflict' => 'Игнориши сукоб',
       '%s updated their profile' => '%s су ажурирали свој профил',
       'Current Setting' => 'Текуће подешавање',
       'Use Variable-Width Font' => 'Користи фонт променљиве ширине',
@@ -141,7 +141,7 @@ final class PhabricatorSettingsSrEc
       'Pinned Applications' => 'Закачене апликације',
       'Revoke All' => 'Опозови све',
       'Choose the pronoun you prefer.' => 'Одаберите заменицу.',
-      'Conflict Ignored' => 'Конфликт игнорисан',
+      'Conflict Ignored' => 'Сукоб игнорисан',
       'Default (Unknown, "%s")' => 'Подразумевано (Непознато, „%s)',
       'Primary Email Unverified' => 'Примарни мејл није потврђен',
     );

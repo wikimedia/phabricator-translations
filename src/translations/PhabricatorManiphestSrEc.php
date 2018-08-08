@@ -44,7 +44,7 @@ final class PhabricatorManiphestSrEc
       'Oldest (Pri)' => 'Најстарији (Приоритет)',
       'Bad Key' => 'Лош кључ',
       'Can Prioritize Tasks' => 'Може да мења приоритете задатака',
-      'Unblock' => 'Деблокирај',
+      'Unblock' => 'Одблокирај',
       'Task Block %d' => 'Блокирање задатка %s',
       'Select and reorder task fields.' => 'Одабери и преуреди поља задатка.',
       'Description Preview' => 'Претпреглед описа',
