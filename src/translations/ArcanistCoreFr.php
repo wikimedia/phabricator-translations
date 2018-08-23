@@ -949,7 +949,7 @@ final class ArcanistCoreFr
     ' => 'Rebasculé vers %s %s.',
       'Revision %s, %s' => 'Révision %s, %s',
       'Assertion failed, expected values to be equal (at %s:%d): %s' => 'Échec de l’assertion, les valeurs sont censées être égales à (en %s:%s) : %s',
-      'Trailing Whitespace at EOF' => 'Espace à la fin à la fin du fichier',
+      'Trailing Whitespace at EOF' => 'Espace résiduel à la fin du fichier',
       'No ref in query has hardpoint "%s".' => 'Aucune référence dans la requête n’a de point en dur « %s ».',
       'You don\'t own revision %s: "%s". Normally, you should only update revisions you own. You can "Commandeer" this revision from the web interface if you want to become the owner.
     Update this revision anyway?' => 'Vous n’êtes pas propriétaire de la révision %s : « %s ». Normalement, vous ne devez mettre à jour que vos propres révisions. Vous pouvez « Vous approprier » cette révision depuis l’interface web si vous voulez en devenir le propriétaire.
@@ -987,7 +987,7 @@ final class ArcanistCoreFr
       'Expected exactly one change.' => 'Une seule modification attendue.',
       'This version control system does not support commit ranges.' => 'Ce système de contrôle de version ne supporte pas les plages de validation.',
       'Normally, files are diffed with full context: the entire file is sent to Differential so reviewers can \'show more\' and see it. If you are making changes to very large files with tens of thousands of lines, this may not work well. With this flag, a diff will be created that has only a few lines of context.' => 'Normalement, les fichiers sont comparés avec le contexte complet : tout le fichier est envoyé à Différentiel de manière à ce que les relecteurs puissent \'afficher plus\' et le voir. Si vous faites des modifications sur de gros fichiers avec des dizaines de milliers de lignes, cela peut ne pas très bien fonctionner. Avec ce drapeau, un diff sera créé avec seulement quelques lignes de contexte.',
-      'Class Not `%s` Or `%s`' => 'La classe n’est pas `%s` ou `%s`',
+      'Class Not `%s` Or `%s`' => 'La classe n’est ni `%s` ni `%s`',
       'it is the merge-base of the upstream of the current branch and HEAD, and matched the rule \'%s\' in your %s \'base\' configuration.' => 'c’est la base de fusion de l’amont de la branche courante et de HEAD, et qui correspond à la règle \'%s\' dans votre configuration de \'base\' %s.',
       'Specify one of \'%s\', \'%s\' or \'%s\' to choose an export format.' => 'Spécifier une valeur parmi \'%s\', \'%s\' ou \'%s\' pour choisir un format d’export.',
       'Export change as an arc bundle. This format can represent all changes. These bundles can be applied with \'%s\'.' => 'Exporter la modification sous forme d’un paquet arc. Ce format peut représenter toute les modifications. Ces paquets peuvent être appliqués avec \'%s\'.',
