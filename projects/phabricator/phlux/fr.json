@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zarisi"
+		]
+	},
+	"3074a4a63133c645": "La valeur de la variable doit être valide en JSON.",
+	"5b3d65a8738a83f4": "Variable \"$1\"",
+	"8fbf110b5f9b11ca": "Variables de Phlux",
+	"92ef2c479783f464": "Saisir la valeur en JSON.",
+	"991a4cc218302b21": "La clé de la variable doit être unique.",
+	"a19b4054a7bcb6ea": "Créer une variable",
+	"adcd57ea4ea9ebf6": "Phlux",
+	"b971350e75202123": "$1 a actualisé cette variable.",
+	"c130b080f0d0694c": "$1 a créé cette variable.",
+	"c73e063e2ac09a6e": "Éditer une variable.",
+	"c75bafc134c47ab1": "Liste de variables",
+	"ce39d9d87f4cf49a": "La clé de la variable est requise."
+}

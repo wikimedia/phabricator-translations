@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"057a91bd9d909212": "Impossible d'extraire la chaîne car le motif \"%\" n'est pas reconnu, \"$1\": $2.",
@@ -13,6 +14,10 @@
 	"7c0edb1e7c0dcf2a": "Fournir un fichier source JSON avec \"--source\".",
 	"9cb7bf6f5a17cea5": "Exporter des chaînes de traduction d'une bibliothèque libphutil .",
 	"b230c79422fb6249": "Écriture des données ($1, $2) dans « $3 » ...",
+	"c435945f8f07345d": "Utilisé dans",
+	"c732898ac3089782": "Chaînes en anglais",
+	"c9d24cf2f05e3bcb": "Contexte des chaînes",
+	"d37b3f801e2ed13d": "Types de variables: $1",
 	"da7f7fad3fb76450": "Fournir un fichier de sortie avec ''--out''.",
 	"eab817b44c709f8e": "Adresse où sauvegarder le fichier de traduction généré.",
 	"f3514b3c6942c1c2": "PLURIEL"

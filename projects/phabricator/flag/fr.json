@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92",
+			"Zarisi"
+		]
+	},
+	"197a62696ce8fbf0": "Marqué avec la balise « $1 ».",
+	"2086e095c964982b": "Effacer un indicateur.",
+	"32576f4fedc07f63": "Pourpre",
+	"5d7071b20fcec93c": "Marquer avec l'indicateur $1.",
+	"699642af97a5d952": "Les balises sont privées. Vous pouvez seulement voir ou éditer vos balises.",
+	"70fc3e4015e8e4f8": "Vous devez entrer un ID ou un objectPHID.",
+	"7168897d704726c7": "Déjà marqué avec la balise $1.",
+	"76dbf884271fdcfd": "Balise pour plus tard",
+	"7dda51ce77f4eb5f": "Vous n'êtes pas le créateur de cette balise.",
+	"8828ce01607a48df": "Balise $1",
+	"94d23c9bf50bab36": "Créer ou modifier une balise.",
+	"a12b4c41e336ccf7": "Créer une balise",
+	"b6829a09b18b33c4": "Vous pouvez marquer ce $1 si vous voulez vous souvenir de le regarder plus tard.",
+	"bafd3e5ad59b23e6": "Pas de balises trouvées.",
+	"cdc6686dc53df49e": "Mauvais ID de balise.",
+	"cf11ada077be2b0f": "Déplacer la balise $1",
+	"d1d3a0cd7c6910d9": "Tous les types d'objets",
+	"d4a822fc0ac4e4ad": "Déjà marqué.",
+	"e0d0b82a322e167f": "Couleur de balise.",
+	"e22c254cc0a5cb8c": "Marquer avec une balise",
+	"f8db8a172be6fab1": "Marqué"
+}
