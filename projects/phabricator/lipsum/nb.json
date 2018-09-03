@@ -12,6 +12,7 @@
 	"62242054e2063eb9": "Kunne ikke laste symbolet $1: denne klassen finnes ikke.",
 	"63017d2cc8fa35f7": "Generatoren («$1») kunne ikke generere et objekt.",
 	"6ad21d0a2036d6e8": "OOPS",
+	"7b8d8ae984b43bbd": "Denne kommandoen genererer syntetiske testdata, inkluder brukerkontoer. Den er tenkt brukt i utviklingsmiljøer så du enklere kan teste ut funksjonene. Det er ingen enkel måte å slette disse dataene eller fjerne effekten av denne kommandoen. Om du kjører den i et produksjonsmiljø vil den forurense dataene dine med store mengder meningsløst søppel som du ikke kan bli kvitt.",
 	"8cd3cac1380eb4ec": "Generer syntetiske testobjekter.",
 	"8d767bf5b72373d1": "klasse",
 	"90a51575c9bd4563": "Generer syntetiske testobjekter for alltid. Bruk ^C for å stoppe når du er fornøyd.",

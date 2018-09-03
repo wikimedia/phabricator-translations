@@ -123,7 +123,7 @@
 	"2623ae680e6a8f97": "Suppression du cache des symboles…",
 	"2645a884f580e943": "Classe manquante",
 	"2797b2eeface70d8": "Échec du marquage HTML dans le fichier '$1'.",
-	"28bdcbff2bcab3fa": "Les espaces de nom ne peuvent pas contenir de deux-points.",
+	"28bdcbff2bcab3fa": "Les espaces de noms ne peuvent pas contenir de deux-points.",
 	"291289480cb87714": "Sortie de l’analyseur pour « $1 ».",
 	"2a1e32982e668444": "L’isolation de la base de données ne supporte actuellement que certaines requêtes. Vous essayez d’exécuter une requête qui ne commence pas par un mot clé autorisé ($1) : '$2'.",
 	"2ab3edc5989425f1": "Tentative pour rendre une balise avec un attribut '$1' qui commence par '$2'. C’est soit un problème de sécurité important, soit un gros problème d’architecture. Cherchez une solution d’urgence.",

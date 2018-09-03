@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92",
+			"Zarisi"
+		]
+	},
+	"02fc4e2708e20a21": "Créer une nouvelle question",
+	"3a5ec3afcbb66298": "Poser une question",
+	"3ad1d45efd9087d0": "Quelqu'un a modifié les détails de la question.",
+	"3bb0d0b7a37017bf": "$1 a rouvert cette question.",
+	"3d6f8fb9b787646c": "Les questions doivent avoir un titre.",
+	"41c14dc51d616110": "DETAIL DE LA QUESTION",
+	"43e55ec8a314e42c": "Ouvrir les questions",
+	"4e7d8c7849f1648c": "Périmé",
+	"51a0363165bb2636": "Fermer la question",
+	"54048ca210780724": "Statut de la question.",
+	"54e4d39ef0496d4a": "Réponse manquante",
+	"56222ed7228bc4de": "$1 a actualisé le wiki de réponse.",
+	"5760dab747bb487d": "Commentaire sur la réponse",
+	"57911771e4385208": "Pas de questions trouvées.",
+	"59015f9b3d10b47e": "Poser une question",
+	"596cde78001aa02f": "$1 a actualisé les détails de la réponse.",
+	"5b474ec4d5624f31": "Cette réponse a été cachée.",
+	"6579b40580369448": "Nouvelle question",
+	"6bb5e53d4ce9f839": "L'utilisateur qui a posé une question peut toujours la voir et l'éditer.",
+	"6ccec9b52dd95981": "Connectez-vous pour répondre.",
+	"6e9dda68165e89f2": "Quelqu'un a commenté la question.",
+	"7be98b8390a7fc35": "Titre de la question.",
+	"8ee480a06009277b": "Questions et réponses",
+	"900b21eb50c43ef0": "Historique de la réponse",
+	"92022cf22bcfc7ae": "Modifier la question",
+	"92448a516ec67674": "$1 a fermé cette réponse car elle était invalide.",
+	"94fb815aee2959db": "Détails de la nouvelle question.",
+	"95e9e1cc3130acac": "$1 a ajouté cette réponse.",
+	"98c2ab35e799d3d5": "$1 a demandé $2.",
+	"9d873cf986bcd664": "DETAIL DE LA REPONSE",
+	"9e5aa49cd927cd7a": "$1 a marqué cette réponse comme cachée.",
+	"9e82ca6107bf9082": "$1 a marqué $2 comme visible.",
+	"a16a4eda7cb2c8e9": "Réponse",
+	"a25651da156e8c3d": "Ajouter un commentaire",
+	"c168a97f7f0280c6": "Cette question est ouverte aux réponses."
+}

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zarisi"
+			"Zarisi",
+			"Wladek92"
 		]
 	},
 	"05e30d2a45e77780": "PHPAST",
@@ -11,5 +12,5 @@
 	"58e322d16b8289d8": "Vue de XHPAST",
 	"b7e45a36ff3610e0": "Analyser",
 	"bd1b30579c4c7a5a": "Aucun AST!",
-	"bd3361abd5561576": "Analyseur de PHP visuel."
+	"bd3361abd5561576": "Analyseur de PHP visuel"
 }

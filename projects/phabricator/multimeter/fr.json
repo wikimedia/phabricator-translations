@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zarisi"
+		]
+	},
+	"2b0351d0debf7e31": "Par ID",
+	"64ae43e8fe76204a": "Coût",
+	"8de60af14be27425": "$1 Unité(s)",
+	"93c45b374e438968": "Par requête",
+	"9f87ba915c488c5a": "Par hôte",
+	"a55363a4b7f82dda": "Requête Web",
+	"a74d79fcf6b8b9ec": "Par contexte",
+	"dad4cada470230f5": "Par label",
+	"e5423c9ba0cb621c": "$1 Événement(s)",
+	"ea54c00c7eb26ed5": "Ressource statique"
+}

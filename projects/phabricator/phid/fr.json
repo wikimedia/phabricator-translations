@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92",
+			"Zarisi"
+		]
+	},
+	"4270ca6ab8fde311": "Les objets que vous avez listés comportent des objets d'un mauvais type ($1)",
+	"8c323456ce8fea71": "Objet inconnu ($1)",
+	"9dc304f07ed386a3": "Les objets que vous avez listés comportent des objets qui n'existe pas ($1)",
+	"ea5edb74faa34ae6": "Les objets que vous avez listés comportent des objets d'un mauvais type ($1) et des objets qui n'existent pas ($2).",
+	"ebf8f6f3f90a4f6f": "Pas d'objets de ce type.",
+	"f4d10da4d9776085": "Impossible de générer un PHID sans type."
+}
