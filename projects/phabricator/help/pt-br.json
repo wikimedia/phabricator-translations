@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"17b251be5661401b": "Feche qualquer caixa de diálogo, incluindo esta.",
+	"2e0984a922fef3db": "Protocolo de editor não suportado",
+	"40586493191bb270": "Mudar configurações",
+	"4da9b13fc11f66a8": "Seu URI do editor configurado usa um protocolo não suportado. Altere suas configurações para usar um protocolo suportado ou peça ao seu administrador para adicionar suporte ao protocolo escolhido, configurando: $1",
+	"6bbbdac8f41b22d9": "Ajuda de $1",
+	"b465751c05fbc426": "Atalhos de Teclado"
+}
