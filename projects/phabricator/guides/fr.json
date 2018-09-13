@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zarisi"
+		]
+	},
+	"00d5d73d3809e925": "Apprendre comment configurer les courriels et autres options dans Phabricator.",
+	"04ed5a30ea0bcc04": "Créer un dépot",
+	"1e5fe3e3f95ec0bc": "Vous avez configuré au moins un paramètre depuis l'interface Web.",
+	"2705f94c32d8e8bc": "Vous avez créé au moins une tâche.",
+	"2912f9b92d7431d2": "Les balises de projet définissent tout. Créez-les pour les équipes, les balises ou les projets actuels.",
+	"38f627566dda6f37": "Explorer les applications",
+	"3da474537ac378c6": "Sauter",
+	"455083cac2ae96ea": "Démarrage rapide",
+	"5fc6ab5d69b0c1e8": "Si vous êtes nouveau sur Phabricator, ces étapes optionnelles peuvent vous aider à apprendre les bases. Conceptuellement, Phabricator est structuré sous forme d'un graphe, et de dépôts, de tâches, et de projets qui sont tous indépendant les uns des autres. Soyez libre d'installer Phabricator pour la manière avec laquelle vous travaillez le mieux, et explorez ces fonctionnalités à votre propre rythme.",
+	"70e2bb263e7819dc": "Vous avez créé au moins un tableau de bord.",
+	"76018fc96e754bd4": "Tutoriels courts",
+	"7605c0e01f603842": "Inviter le reste de votre équipe à commencer sur Phabricator.",
+	"768b4323e986bb51": "Phabricator peut délivrer des notifications en temps réel avec des WebSockets.",
+	"7e11e4c66d7f235a": "Vous avez créé au moins un dépôt.",
+	"929a28d261428029": "Guides",
+	"a1867bd6bfd5b2ad": "Paramètres de compte utilisateur",
+	"b325459bed359e6e": "Connexion et Inscription",
+	"b5a15bad1cc08996": "Personnaliser votre installation",
+	"b801b9ccdc229d9a": "Inviter des collaborateurs",
+	"c217cb0f9b995a3d": "Vous avez créé au moins un projet.",
+	"ca5f965cff8f2b8d": "Voir toutes les applications inclues dans Phabricator.",
+	"ce728737a34c134f": "Créer un tableau de bord",
+	"d4f61ec10f8563dc": "Ça a l'air incroyable, bon travail. Maison, douce maison.",
+	"e7643788502a37ce": "Serveur de notification",
+	"f023a66281396c8e": "Résoudre les problèmes d'installation",
+	"f686d3a240c27c8c": "Installer Phabricator",
+	"fa9a5794e77589de": "Vous avez résolu (ou ignoré) tous les problèmes d'installation non résolus."
+}
