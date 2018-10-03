@@ -851,7 +851,7 @@
 	"8abd13c4b5611993": "Supprimé après plusieurs copies",
 	"8af56df8a9cb35f5": "Conventions de nommage",
 	"8c7610cbad5525f1": "Les `$1` contenant des méthodes `$2` doivent être déclarés `$3`",
-	"8c888950065feb8d": "(L’ancienne et la nouvelle valeur sont identiques.)",
+	"8c888950065feb8d": "(l’ancienne et la nouvelle valeur sont identiques).",
 	"8c97f5973e416118": "Impossible de localiser le script « $1 » pour lancer le linteur $2. Vous devrez peut-être installer le script, ou ajuster la configuration du linteur.",
 	"8ca5c8d287d9519f": "UpperCamelCase : '$1'",
 	"8ccd92f1644039dc": "Ce processus de travail ('$1') nécessite une authentification, écraser $2 pour renvoyer true.",
