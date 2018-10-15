@@ -743,7 +743,7 @@
 	"78ffb3e890f165c9": "Ce code base cible PHP $1, mais l’opérateur ternaire court n’a pas été introduit avant PHP 5.3.",
 	"794696a720669c52": "Suspendu",
 	"797d0541f7a4e5a3": "Vous n’avez pas de révision différentielle ouverte.",
-	"798ac1a12634e636": "Les résultats de test unitaire contiennent des erreurs !",
+	"798ac1a12634e636": "Les résultats des tests unitaires contiennent des erreurs !",
 	"799987898ee371f2": "La profondeur $1 est censée valoir un.",
 	"79bea25d0b517a15": "Vous pouvez pousser manuellement les modifications avec cette commande :",
 	"7a2bff7ae62a8009": "Déclarations `$1` imbriquées",

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"TmY e12"
+		]
+	},
+	"29efd0bdaa04ae91": "Argüman \"$1\", herhangi bir jeneratörler ismiyle eşleşmiyor.",
+	"300371d205bbeec3": "Bir lipsum jeneratörü \"$1\" anahtarıyla kaydedilir. Bu anahtar saklıdır.",
+	"32332b3df8a3771d": "Rastgele bir kullanıcı yüklenemedi. Önce daha fazla test kullanıcısı oluşturmanız gerekebilir.",
+	"359c2782e2017bbc": "Onay istemeden nesneler oluşturun.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "$1 sembolü yüklenemedi: Bu sınıf mevcut değil.",
+	"63017d2cc8fa35f7": "Jeneratör (\"$1\") bir nesne oluşturamadı.",
+	"6ad21d0a2036d6e8": "\nOOPS",
+	"7b8d8ae984b43bbd": "Bu komut, kullanıcı hesapları dâhil olmak üzere sentetik test verileri üretir. Geliştirme ortamlarında kullanılmak üzere tasarlanmıştır, böylece özellikleri daha kolay test edebilirsiniz. Bu verileri silmenin veya bu komutun etkilerini geri almanın kolay bir yolu yoktur. Bir üretim ortamında çalıştırırsanız, verilerinizi gereksiz miktarlarda gereksiz çöplerle kirletemezsiniz.",
+	"8cd3cac1380eb4ec": "Sentetik test objeleri oluşturun.",
+	"8d767bf5b72373d1": "sınıf",
+	"90a51575c9bd4563": "Sonsuza kadar sentetik test nesneleri üretmek. Memnun kaldığında durdurmak için ^C kullanın.",
+	"9922906d3c889107": "Oluşturuldu \"$1\": $2",
+	"a568df6c0fc85e72": "Oluşturmak istediğiniz test türlerini seçin veya \"$1\" seçeneğini belirleyin.",
+	"b1b21337175c014d": "Nesneleri olabildiğince çabuk oluşturun.",
+	"b5ff2d7e2727ab4b": "Argüman \"$1\" belirsizdir ve birden fazla jeneratörü eşleştirir: $2.",
+	"c9fb502c220f5ec3": "lipsum bir geliştirme ve test aracıdır ve yalnızca geliştirici modunda kurulumlarda çalıştırılabilir. Lipsum'u etkinleştirmek için konfigürasyonunuzda \"$1\"i etkinleştirin.",
+	"e92bac9cc25935f8": "Seçilen jeneratörler: $1.",
+	"e9f3727584c821b2": "JENERATÖRLER",
+	"f335a7372135e4e7": "Çöp yığınları üretmek istediğinden emin misin?"
+}
