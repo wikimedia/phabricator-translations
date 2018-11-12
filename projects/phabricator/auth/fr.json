@@ -229,7 +229,7 @@
 	"641d1ffb2f19bbc8": "Le fournisseur OAuth n’a pas pu retrouver un ID de compte.",
 	"646c9e46237367ba": "Réinitialiser les compteurs d’action pour cet utilisateur.",
 	"64d5e98f5cc06eb0": "Modifier la clé SSH",
-	"6599c0e3083e36a7": "Bienvenue $1. Pour compléter le processus de connexion, fournissez vos informations d'authentification multi-facteur.",
+	"6599c0e3083e36a7": "Bienvenue $1. Pour finaliser le processus de connexion, fournissez vos informations d'authentification multi-facteur.",
 	"65d5c73f21dae3d3": "Invitation déjà acceptée",
 	"65f7a8f4e7fd2504": "Ce fournisseur est déja configuré.",
 	"66390b7c3833ea78": "**Nom d’instance JIRA**\n\nChoisir un nom permanent pour cette instance de JIRA. Phabricator utilise ce nom en interne pour garder trace de cette instance de JIRA, au cas où l’URL change plus tard.\n\nUtiliser des lettres minuscules, des chiffres et des points. Par exemple, `jira`, `jira.macompagnie` ou `jira.ingenierie` sont des noms acceptables.",

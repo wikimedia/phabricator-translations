@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Momo50WM",
+			"Wladek92"
+		]
+	},
+	"29efd0bdaa04ae91": "L'argument « $1 » ne correspond à aucun nom de générateur.",
+	"300371d205bbeec3": "Un générateur lipsum est enregistré avec la clé « $1 ». Cette clé est réservée.",
+	"32332b3df8a3771d": "Impossible de charger un utilisateur aléatoire. Vous devrez peut-être d'abord générer plus d'utilisateurs de test.",
+	"359c2782e2017bbc": "Générez des objets sans demander de confirmation.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "Impossible de charger le symbole $1 : cette classe n'existe pas.",
+	"63017d2cc8fa35f7": "Generator (\"$1\") n'a pas pu générer d'objet.",
+	"6ad21d0a2036d6e8": "OOPS",
+	"f335a7372135e4e7": "Êtes-vous sûr de vouloir générer des piles de déchets ?"
+}

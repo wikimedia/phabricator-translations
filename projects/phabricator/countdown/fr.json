@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alacabe",
+			"Wladek92",
+			"Zarisi"
+		]
+	},
+	"092f99ea11a34a84": "Minutes",
+	"0e2a9d01aad502b0": "Date à laquelle le compte à rebours se termine.",
+	"1f26860c6c5e8e28": "Modifier la date de fin du compte à rebours.",
+	"2da25ad148405bd1": "Modifier le compte à rebours : $1",
+	"2de64b763edfa305": "Comptes à rebours",
+	"428e98f8a5ea2cfb": "Créer un compte à rebours",
+	"4cf8876bdc95feea": "Les titres de comptes à rebours ne doivent pas dépasser $1 caractère(s).",
+	"50e0861a96dfb4b2": "Pas de compte à rebours trouvé.",
+	"523baab918efc25f": "Prochain",
+	"6f8c41359fec8ee1": "Derniers mots",
+	"79e6b9fe6aa0db26": "Nouvelle description.",
+	"84b1478125890bad": "Date de fin",
+	"9e25a34e635a123f": "Heures",
+	"bcba56274bac5e53": "Nouvelle date de fin du compte à rebours.",
+	"c323c6d4bdbec49a": "Le nom du compte à rebours.",
+	"f1b3b0475421720c": "Créer un compte à rebours",
+	"f6bb0f468a8569c6": "Jours"
+}

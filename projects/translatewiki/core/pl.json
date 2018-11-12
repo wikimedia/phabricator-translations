@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Warchlak"
+		]
+	},
+	"0294e4a93c79fe48": "Podaj ścieżkę do biblioteki, z której będą eksportowane tłumaczenia.",
+	"057a91bd9d909212": "Nie można wyodrębnić łańcucha z nierozpoznanym wzorcem \"%\", \"$1\": $2.",
+	"0654a028e5aea48c": "BRAK",
+	"124328edcc87415b": "Podaj kod lokalizacji przy użyciu \"--locale\".",
+	"17b6d98715597264": "Ignorowanie łańcucha \"$1\"; nieobecny w pliku źródłowym tłumaczeń.",
+	"2c22da08dc82f0ba": "Podaj ścieżkę do dokładnie jednej biblioteki, z której będą eksportowane tłumaczenia.",
+	"3b87bed5eefca3c1": "Surowe ciągi",
+	"410147829602065c": "Nazwa projektu, dla którego tworzony jest plik tłumaczenia.",
+	"418a2fbab13c3664": "Wyodrębnianie ciągów biblioteki...",
+	"49427ff57fe09816": "PŁEĆ",
+	"5394e163b2751641": "Kod lokalizacji dla wygenerowanego źródła.",
+	"5641f04d9980459c": "Podaj nazwę klasy za pomocą \"--class\".",
+	"8657976c47adf8f2": "Wygeneruj plik klasy tłumaczenia Phabricator.",
+	"c435945f8f07345d": "Użyty w:",
+	"ccadbcf74331a452": "Podaj nazwę projektu za pomocą \"--project\".",
+	"d37b3f801e2ed13d": "Typy zmiennych: $1.",
+	"da7f7fad3fb76450": "Podaj plik wyjściowy za pomocą \"--out\"."
+}
