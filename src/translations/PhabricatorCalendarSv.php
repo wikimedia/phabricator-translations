@@ -184,7 +184,6 @@ final class PhabricatorCalendarSv
       '%s renamed this export from %s to %s.' => '%s bytte namn på denna exportering från %s till %s.',
       'Type a user or project name, or function...' => 'Skriv ett användarnamn eller projektnamn, eller funktion...',
       'Active Events Only' => 'Endast aktiva händelser',
-      'Export' => 'Exportera',
       'Unnamed Event "%s"' => '"%s" är en namnlös händelse',
       'List View' => 'Listvy',
     );

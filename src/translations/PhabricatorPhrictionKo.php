@@ -23,7 +23,6 @@ final class PhabricatorPhrictionKo
       'More...' => '더 보기...',
       'Current Path' => '현재 경로',
       '(Untitled Document)' => '(제목 없는 문서)',
-      'Wiki' => '위키',
       'Content' => '내용',
       'Edit this Document' => '이 문서 편집하기',
       'Document History: %s' => '문서 역사: %s',
@@ -55,7 +54,6 @@ final class PhabricatorPhrictionKo
       '%s moved this document to %s' => '%s님이 이 문서를 %s(으)로 이동했습니다',
       'Empty Document' => '빈 문서',
       'Move Here' => '여기로 이동',
-      'Show All Documents' => '모든 문서 보기',
     );
   }
 

@@ -10,6 +10,7 @@ final class TranslatewikiCoreJa
   protected function getTranslations() {
     return array(
       'Provide the path to a library to export translations from.' => '翻訳をエクスポートするライブラリへのパスを提供します。',
+      'NONE' => 'なし',
       'Provide a locale code with "--locale".' => 'ロケールコードに"--locale"を指定します。',
       'Ignoring string "%s"; not present in translation source file.' => '文字列「%s」を無視します。翻訳ソースファイルには存在しません。',
       'Provide the path to exactly one library to export translations from.' => '翻訳をエクスポートするための1つのライブラリへのパスを提供します。',

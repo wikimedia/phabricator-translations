@@ -437,7 +437,6 @@ final class PhabricatorCalendarEn
       'Active Events Only' => 'Active Events Only',
       'Export only public data.' => 'Export only public data.',
       '%s changed the end date for this event from %s to %s.' => '%s changed the end date for this event from %s to %s.',
-      'Export' => 'Export',
       'Imported Event' => 'Imported Event',
       '%s set this event to repeat yearly.' => '%s set this event to repeat yearly.',
       'Health / Appointment' => 'Health / Appointment',

@@ -437,7 +437,6 @@ final class PhabricatorCalendarFr
       'Active Events Only' => 'Événements actifs uniquement',
       'Export only public data.' => 'Exporter uniquement les données publiques.',
       '%s changed the end date for this event from %s to %s.' => '%s a modifié la date de fin pour cet événement de %s en %s.',
-      'Export' => 'Exporter',
       'Imported Event' => 'Événement importé',
       '%s set this event to repeat yearly.' => '%s a défini cet événement pour qu’il se répète chaque année.',
       'Health / Appointment' => 'Santé / Poste',

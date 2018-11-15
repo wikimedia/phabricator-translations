@@ -61,7 +61,6 @@ final class PhabricatorPeopleEl
       'New username is required.' => 'Απαιτείται νέο όνομα χρήστη.',
       'Remove as Administrator?' => 'Αφαίρεση ως διαχειριστή;',
       'Email User' => 'Αποστολή email σε χρήστη',
-      'Select results with no owner.' => 'Επιλέξτε αποτελέσματα χωρίς ιδιοκτήτη.',
       'Engineering' => 'Μηχανική',
       'Email: Remove Address' => 'Ηλεκτρονικό ταχυδρομείο: Αφαίρεση διεύθυνσης',
       'A filter such as %s.' => 'Ένα φίλτρο όπως το %s.',

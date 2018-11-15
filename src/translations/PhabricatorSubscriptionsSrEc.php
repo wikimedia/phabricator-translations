@@ -36,7 +36,7 @@ final class PhabricatorSubscriptionsSrEc
       'Previously Unsubscribed' => 'Претходно уклонили праћење',
       'Remove subscribers: %s.' => 'Уклони пратиоце: %s.',
       'Change Subscribers' => 'Промени пратиоце',
-      'This object is not subscribable.' => 'Није могуће пратити промене овог објекта.',
+      'This object is not subscribable.' => 'Овај предмет нема могућност претплаћивања.',
       'Add rule author as subscriber.' => 'Додај творца правила као пратиоца.',
       'Added %s subscriber(s): %s.' => 'Додато %s пратиоца: %s.',
       'Remove rule author as subscriber.' => 'Уклони творца правила са списка пратиоца.',

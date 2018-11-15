@@ -40,7 +40,6 @@ final class PhabricatorConsoleZhHans
       'STOPPED' => '已停止',
       'Information about services.' => '有关服务的信息。',
       'Unknown event: %s' => '未知活动：%s',
-      'Total Cost' => '全部花销',
       'Shows errors and warnings.' => '显示错误和警告。',
       'XHProf Profiler' => 'XHProf分析器',
       'The "xhprof" PHP extension is not available. Install xhprof to enable the XHProf console plugin. You can find instructions in the %s.' => '“xhprof” PHP扩展不可用。安装xhprof以启用XHProf控制台插件。您可以在%s找到教程。',

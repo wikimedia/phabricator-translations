@@ -11,7 +11,6 @@ final class PhabricatorLegalpadEl
     return array(
       'All Signatures' => 'Όλες οι υπογραφές',
       'Unverified Email' => 'Μη επαληθευμένη διεύθυνση ηλεκτρονικού ταχυδρομείου',
-      'Browse Documents' => 'Περιήγηση εγγράφων',
       'Create New Document' => 'Δημιουργία νέου εγγράφου',
       'Type of signature required' => 'Τύπος απαιτούμενης υπογραφής',
       'Signed At' => 'Υπογράφτηκε στις',
@@ -33,7 +32,6 @@ final class PhabricatorLegalpadEl
       'Document Body' => 'Κείμενο εγγράφου',
       'Contact name is required.' => 'Το όνομα επικοινωνίας απαιτείται.',
       'No signatures match the query.' => 'Δεν υπάρχουν υπογραφές που να αντιστοιχούν στο ερώτημα.',
-      'Type a document name...' => 'Πληκτρολογήστε ένα όνομα εγγράφου...',
       'Interacting with Legalpad Documents' => 'Διάδραση με έγγραφα Legalpad',
       '%s updated the document text.' => 'Ο %s ενημέρωσε το κείμενο εγγράφου.',
       'Signed on %s' => 'Υπογράφηκε στις %s',
@@ -56,7 +54,6 @@ final class PhabricatorLegalpadEl
       'You have already signed this document!' => 'Έχετε ήδη υπογράψει αυτό το έγγραφο!',
       'Verify Signature' => 'Επαλήθευση υπογραφής',
       'Signed Documents' => 'Υπογεγραμμένα έγγραφα',
-      'Show only documents I have signed.' => 'Εμφάνιση μόνο των εγγράφων που έχω υπογράψει.',
       'This signature has already been verified.' => 'Αυτή η υπογραφή έχει ήδη επαληθευθεί.',
       'Please verify this document signature.' => 'Παρακαλώ επαληθεύστε αυτή τη υπογραφή εγγράφου.',
       'Create a Document' => 'Δημιουργία εγγράφου',

@@ -21,6 +21,7 @@ final class PhabricatorBaseEn
       'No application!' => 'No application!',
       '%s Application' => '%s Application',
       'Email Verification Required' => 'Email Verification Required',
+      'Application Controller, No Login Required' => 'Application Controller, No Login Required',
       'Developer Tools' => 'Developer Tools',
       'This application is required for Phabricator to operate, so all users must have access to it.' => 'This application is required for Phabricator to operate, so all users must have access to it.',
       'Expect user \'%s\' to be denied access to \'%s\'.' => 'Expect user \'%s\' to be denied access to \'%s\'.',

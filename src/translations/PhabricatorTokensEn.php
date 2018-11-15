@@ -14,6 +14,7 @@ final class PhabricatorTokensEn
       'Mountain of Wealth' => 'Mountain of Wealth',
       'Grey Medal' => 'Grey Medal',
       'Leader Board' => 'Leader Board',
+      '100',
       'Rescind Token' => 'Rescind Token',
       'Given by %s on %s' => 'Given by %s on %s',
       'Evil Spooky Haunted Tree' => 'Evil Spooky Haunted Tree',

@@ -25,7 +25,6 @@ final class PhabricatorConsoleEl
       'STOPPED' => 'Σταμάτησε',
       'Information about services.' => 'Πληροφορίες σχετικά με τις υπηρεσίες.',
       'Unknown event: %s' => 'Άγνωστο γεγονός: %s',
-      'Total Cost' => 'Συνολικό κόστος',
       'Shows errors and warnings.' => 'Εμφάνιση σφαλμάτων και προειδοποιήσεων.',
       'Can\'t Analyze' => 'Δεν μπορεί να αναλυθεί',
       'Events' => 'Συμβάντα',

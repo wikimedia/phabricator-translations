@@ -40,7 +40,6 @@ final class PhabricatorConsoleFr
       'STOPPED' => 'ARRÊTÉ',
       'Information about services.' => 'Information sur les services.',
       'Unknown event: %s' => 'Événement inconnu : %s',
-      'Total Cost' => 'Coût total',
       'Shows errors and warnings.' => 'Affiche les erreurs et les avertissements.',
       'XHProf Profiler' => 'Profileur XHProf',
       'The "xhprof" PHP extension is not available. Install xhprof to enable the XHProf console plugin. You can find instructions in the %s.' => 'L’extension « xhprof » de PHP n’est pas disponible. Installer xhprof pour activer le module de la console XHProf. Vous pouvez trouver des instructions dans le %s.',

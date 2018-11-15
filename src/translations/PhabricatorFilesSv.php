@@ -9,7 +9,6 @@ final class PhabricatorFilesSv
 
   protected function getTranslations() {
     return array(
-      'Format' => 'Format',
       'bell' => 'klocka',
       'NONE' => 'INGEN',
       'ERROR' => 'FEL',

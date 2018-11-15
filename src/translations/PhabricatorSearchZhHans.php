@@ -81,7 +81,6 @@ final class PhabricatorSearchZhHans
       'Edit Builtin Item' => '编辑内建项',
       'Cat Facts' => '猫事实',
       'Search Index Versions' => '搜索索引版本',
-      'Fulltext search.' => '全文搜索。',
       '\'%s\' is not a builtin!' => '“%s”不是内建函数！',
       'All Open Objects' => '所有开放对象',
       'Disable Query' => '禁用查询',

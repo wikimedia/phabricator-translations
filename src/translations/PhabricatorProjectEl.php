@@ -44,7 +44,6 @@ final class PhabricatorProjectEl
       'Type projects(<user>)...' => 'Πληκτρολογήστε εγχειρήματα(<χρήστης>)...',
       'Edit Column' => 'Επεξεργασία στήλης',
       'Include results tagged with this project.' => 'Συμπερίληψη αποτελεσμάτων ετικετατρισμένα με αυτό το εγχείρημα.',
-      'Group' => 'Ομάδα',
       'No Editable Tasks' => 'Μη επεξεργάσιμες εργασίες',
       'Activate Subproject' => 'Ενεργοποίηση Υποεγχειρήματος',
       'Really archive project?' => 'Αρχειοθέτηση του εγχειρήματος πραγματικά;',

@@ -17,6 +17,7 @@ final class PhabricatorLipsumNb
       'Unable to load symbol %s: this class does not exist.' => 'Kunne ikke laste symbolet %s: denne klassen finnes ikke.',
       'Generator ("%s") was unable to generate an object.' => 'Generatoren («%s») kunne ikke generere et objekt.',
       'OOPS' => 'OOPS',
+      'This command generates synthetic test data, including user accounts. It is intended for use in development environments so you can test features more easily. There is no easy way to delete this data or undo the effects of this command. If you run it in a production environment, it will pollute your data with large amounts of meaningless garbage that you can not get rid of.' => 'Denne kommandoen genererer syntetiske testdata, inkluder brukerkontoer. Den er tenkt brukt i utviklingsmiljøer så du enklere kan teste ut funksjonene. Det er ingen enkel måte å slette disse dataene eller fjerne effekten av denne kommandoen. Om du kjører den i et produksjonsmiljø vil den forurense dataene dine med store mengder meningsløst søppel som du ikke kan bli kvitt.',
       'Generate synthetic test objects.' => 'Generer syntetiske testobjekter.',
       'class' => 'klasse',
       'Generating synthetic test objects forever. Use ^C to stop when satisfied.' => 'Generer syntetiske testobjekter for alltid. Bruk ^C for å stoppe når du er fornøyd.',

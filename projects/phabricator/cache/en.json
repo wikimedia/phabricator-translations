@@ -49,7 +49,7 @@
   "d77af897cf53c606": "The \"$1\" setting is currently disabled in your PHP configuration, but Phabricator is running in development mode. This option should normally be enabled in development so you do not need to restart anything after making changes to the code.",
   "d82af8db2a581182": "In production, OPcache should be configured to never revalidate code. This will slightly improve performance. To do this, disable \"$1\" in your PHP configuration.",
   "d87d135a91274091": "\"$1\" Disabled in Development",
-  "e40a913d58160c6a": "OPCache Not Configured for Development",
+  "e0148b541890a487": "OPcache Not Configured for Development",
   "e4a248050fdc6dae": "Failed to inflate data!",
   "e7693b42de4308ff": "Zend OPcache",
   "ea785c9d610450b7": "Enabling OPcache will dramatically improve performance.",

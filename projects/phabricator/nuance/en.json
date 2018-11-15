@@ -141,6 +141,7 @@
   "d76c42d217ac4545": "Queue names must not be longer than $1 character(s).",
   "dd8e29857382e0e2": "This engine is used to edit Nuance queues.",
   "dd92be68794d0e8a": "GitHub $1 $2 ($3)",
+  "dda2f80bf5ecb0f2": "Date Created",
   "de9a3242d1b8b8ae": "Watched",
   "deb5d5e2f038df36": "Issued",
   "e094e875b612e151": "Import issues and pull requests from a GitHub repository.",

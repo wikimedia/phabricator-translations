@@ -67,7 +67,6 @@ final class PhabricatorSearchKo
       'Create Menu Item' => '메뉴 항목 만들기',
       'Supports ID/PHID Queries' => 'ID/PHID 쿼리를 지원합니다',
       '\'%s\' is not the name of a known object.' => '\'%s\'은(는) 알려진 프로젝트의 이름이 아닙니다.',
-      'Fulltext search.' => '전문 검색.',
       'All Open Objects' => '열려있는 모든 오브젝트',
       'Disable Query' => '쿼리 비활성화',
       'Invalid Relationship' => '유효하지 않은 관계',

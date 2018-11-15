@@ -26,7 +26,6 @@ final class PhabricatorPhragmentEl
       'Can Create Fragments' => 'Μπορεί να δημιουργήσει τεμάχια',
       'View Version %d' => 'Προβολή έκδοσης %s',
       'Create Snapshot' => 'Δημιουργία στιγμιότυπου',
-      'Fragment' => 'Κομμάτι',
       'The specified file doesn\'t exist.' => 'Το ορισμένο αρχείο δεν υπάρχει.',
       'View Version' => 'Προβολή έκδοσης',
       'Directory' => 'Αποθετήριο',

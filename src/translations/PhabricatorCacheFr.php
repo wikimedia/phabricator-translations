@@ -59,7 +59,6 @@ final class PhabricatorCacheFr
       'The "%s" setting is currently disabled in your PHP configuration, but Phabricator is running in development mode. This option should normally be enabled in development so you do not need to restart anything after making changes to the code.' => 'Le paramètre « %s » est actuellement désactivé dans votre configuration PHP, mais Phabricator tourne en mode développement. Cette option devrait normalement être activée en développement, afin que vous n’ayez pas besoin de redémarrer quoi que ce soit après avoir fait des modifications dans le code.',
       'In production, OPcache should be configured to never revalidate code. This will slightly improve performance. To do this, disable "%s" in your PHP configuration.' => 'En production, OPcache doit être configuré de telle sorte à ne jamais revalider le code. Ceci améliorera sensiblement les performances. Pour faire cela, désactivez « %s » dans votre configuration PHP.',
       '"%s" Disabled in Development' => '« %s » est désactivé pour le développement',
-      'OPCache Not Configured for Development' => 'OPCache n\'est pas configuré pour le développement',
       'Failed to inflate data!' => 'Echec dans le développement des données !',
       'Zend OPcache' => 'Zend OPcache',
       'Enabling OPcache will dramatically improve performance.' => 'En activant OPcache vous allez améliorer grandement les performances.',

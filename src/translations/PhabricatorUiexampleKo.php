@@ -94,10 +94,8 @@ final class PhabricatorUiexampleKo
       'Member since' => '가입일:',
       'Lead Developer' => '선임 개발자',
       'Several issues were encountered.' => '여러 이슈를 마주쳤습니다.',
-      'Avatars' => '아바타',
       'Banana' => '바나나',
       '1,113,377' => '1,113,377',
-      'Tests various color palettes and sizes.' => '다양한 색 팔레트와 크기를 시험합니다.',
     );
   }
 

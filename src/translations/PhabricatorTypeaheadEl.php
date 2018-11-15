@@ -25,7 +25,6 @@ final class PhabricatorTypeaheadEl
       'Auto' => 'Αυτόματο',
       'Priority Type' => 'Τύπος προτεραιότητας',
       'Using Typeahead Functions' => 'Χρησιμοποιώντας λειτουργίες Typeahead',
-      'PHID' => 'PHID',
     );
   }
 

@@ -10,6 +10,7 @@
   "6faa4218ab931e0d": "Unread Notifications",
   "6fe51d8fad2a6ea4": "Unable to post message: this is not an admin server!",
   "771e05f27b99fd59": "Disconnected",
+  "7a54c1fcde926d84": "%s notification(s) about objects which no longer exist or which you can no longer see were discarded.",
   "7c97fc57d0663517": "Notification server configuration describes an invalid host (\"%s\", at index \"%s\") with an unrecognized type (\"%s\"). Valid types are \"%s\" or \"%s\".",
   "7d9171c083b45e5c": "Notification server configuration describes an invalid host (\"%s\", at index \"%s\") with an invalid protocol (\"%s\"). Valid protocols are \"%s\" or \"%s\".",
   "7f02a61559647c50": "No notifications to mark as read.",

@@ -86,7 +86,6 @@ final class PhabricatorPholioEn
       'Create a Mock' => 'Create a Mock',
       '%s edited image(s), added %d: %s; removed %d: %s.' => '%s edited image(s), added %s: %s; removed %s: %s.',
       'Mock images or descriptions change.' => 'Mock images or descriptions change.',
-      'Design Review' => 'Design Review',
     );
   }
 

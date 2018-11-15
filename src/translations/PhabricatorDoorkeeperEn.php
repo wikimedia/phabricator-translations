@@ -55,6 +55,7 @@ final class PhabricatorDoorkeeperEn
     ☠ Your changes will not be reflected in Phabricator.
     ☠ Your changes will be destroyed the next time state is synchronized.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Removing subtask edge to %s, foreign object is not visible.',
+      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.',
       'Integration with Asana' => 'Integration with Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Doorkeeper worker \'%s\' is not enabled.',
       'Object has no followers or active/passive users.' => 'Object has no followers or active/passive users.',

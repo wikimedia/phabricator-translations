@@ -147,7 +147,6 @@ final class PhabricatorUiexampleEn
       'Center Masked' => 'Center Masked',
       'Dependent Tasks' => 'Dependent Tasks',
       'Launch Instance' => 'Launch Instance',
-      'This installation can generate %s unique avatars. You can add additional image packs in resources/builtins/alphanumeric/.' => 'This installation can generate %s unique avatars. You can add additional image packs in resources/builtins/alphanumeric/.',
       'Writing code is much more fun with friends!' => 'Writing code is much more fun with friends!',
       'Closed over 100 tasks' => 'Closed over 100 tasks',
       'Easily render icons or images with links and sprites.' => 'Easily render icons or images with links and sprites.',
@@ -281,7 +280,6 @@ final class PhabricatorUiexampleEn
       'Pinboard Image Event' => 'Pinboard Image Event',
       'Highlighted' => 'Highlighted',
       'Use %s to comments and transactions.' => 'Use %s to comments and transactions.',
-      'Download Data' => 'Download Data',
       'Bleh!' => 'Bleh!',
       'This is a sample of some text.' => 'This is a sample of some text.',
       'Rainbow Bars' => 'Rainbow Bars',
@@ -332,13 +330,11 @@ final class PhabricatorUiexampleEn
       'Fruit and Vegetable Status' => 'Fruit and Vegetable Status',
       'Blessed Committers' => 'Blessed Committers',
       'Shiny happy people holding hands.' => 'Shiny happy people holding hands.',
-      'Avatars' => 'Avatars',
       '7 Column Fluid' => '7 Column Fluid',
       'Ace' => 'Ace',
       'Banana' => 'Banana',
       'Blues' => 'Blues',
       '1,113,377' => '1,113,377',
-      'Tests various color palettes and sizes.' => 'Tests various color palettes and sizes.',
     );
   }
 

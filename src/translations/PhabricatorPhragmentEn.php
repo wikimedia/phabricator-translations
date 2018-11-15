@@ -32,7 +32,6 @@ final class PhabricatorPhragmentEn
       'Versioned Artifact Storage' => 'Versioned Artifact Storage',
       'View Version %d' => 'View Version %s',
       'Create Snapshot' => 'Create Snapshot',
-      'Fragment' => 'Fragment',
       'The specified file doesn\'t exist.' => 'The specified file doesn\'t exist.',
       'View Version' => 'View Version',
       'Directory' => 'Directory',

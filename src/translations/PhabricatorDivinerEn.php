@@ -74,7 +74,6 @@ final class PhabricatorDivinerEn
       'Documentation Atoms' => 'Documentation Atoms',
       'Parameter "%s" is named "%s" in the documentation. The documentation may be out of date.' => 'Parameter "%s" is named "%s" in the documentation. The documentation may be out of date.',
       'Atomizer class \'%s\' must be a concrete subclass of %s.' => 'Atomizer class \'%s\' must be a concrete subclass of %s.',
-      'Parameters' => 'Parameters',
       'BUILDING ATOM CACHE' => 'BUILDING ATOM CACHE',
       'Specify an atomizer class with %s.' => 'Specify an atomizer class with %s.',
       'BUILDING GRAPH CACHE' => 'BUILDING GRAPH CACHE',

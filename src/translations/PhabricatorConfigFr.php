@@ -163,7 +163,6 @@ final class PhabricatorConfigFr
     Do not enable this option if you serve (or plan to ever serve) unsecured content over plain HTTP. It is very difficult to undo this change once users\' browsers have accepted the setting.' => 'Sécurité de Transport Stricte de HTTP (HSTS) envoie un entête qui indique aux navigateurs que le site ne doit être accédé que via HTTPS, jamais HTTP. Cela désamorce une attaque où un adversaire obtient accès à votre réseau, puis fait des requêtes par procuration via un lien non sécurisé.
     N’activez pas cette option si vous fournissez (ou prévoyez de fournir un  jour) du contenu non sécurisé via du HTTP simple. Il est très difficile d’annuler cette modification une fois que les navigateurs de vos utilisateurs ont accepté ce paramètre.',
       '(No Value Configured)' => '(Aucune valeur configurée)',
-      'Config option \'%s\' is invalid. The URI must contain a dot (\'%s\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => 'L’option de configuration \'%s\' n’est pas valide. L’URI doit contenir un point (\'%s\'), comme \'%s\', pas seulement un nom simple comme \'%s\'. Certains navigateurs ne définissent pas de cookies sur des domaines sans TLD.',
       'Allow editing' => 'Permettre la modification',
       'Configure full-text search services.' => 'Configurer les services de recherche en plein texte.',
       'The HTTP method.' => 'La méthode HTTP.',
@@ -574,7 +573,6 @@ final class PhabricatorConfigFr
       'MySQL password to use when connecting to the database.' => 'Mot de passe MySQL à utiliser lors de la connexion à la base de données.',
       'If a variable isn\'t available (for example, %%m appears in the file format but the request is not a Conduit request), it will be rendered as \'-\'' => 'Si une variable n’est pas disponible (par exemple, %%m apparaît dans le format du fichier mais la requête n’est pas une requête Conduit), elle sera rendue comme \'-\'',
       'Hashed with other inputs to generate mail tokens.' => 'Haché avec d’autres entrées pour générer des jetons de courriel.',
-      'You can find more information about configuring OPCache in the %s.' => 'Vous pouvez trouver plus d’information sur la configuration de OPCache dans le %s.',
       'Set a string Phabricator should use to prefix cookie names.' => 'Mettre une chaîne que Phabricator doit utiliser pour préfixer les noms de cookie.',
       'If those commands don\'t work, try Google. The process of installing PHP extensions is not specific to Phabricator, and any instructions you can find for installing them on your system should work. On Mac OS X, you might want to try Homebrew.' => 'Si ces commandes ne fonctionnent pas, essayez Google. Le processus d’installer des extensions PHP n’est pas spécifique à Phabricator, et toute instruction que vous pouvez trouver pour les installer sur votre système devrait fonctionner. Sur Mac OS X, vous pouvez essayer Homebrew.',
       'Database Status' => 'État de la base de données',
@@ -596,11 +594,7 @@ final class PhabricatorConfigFr
     %s',
       'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded: %s' => 'La valeur pour l’option « %s » (de type « %s ») doit être spécifiée en JSON, mais l’entrée n’a pas pu être décodée : %s',
       'Database host "%s" has a configured cluster state which disagrees with the state on this host ("%s"). Run `bin/storage partition` to commit local state to the cluster. This host may have started with an out-of-date configuration.' => 'L’hôte de la base de données « %s » a un état de grappe configuré qui est en conflit avec l’état de cet hôte (« %s »). Lancez `bin/storage partition` pour valider l’état local dans la grappe. Cet hôte peut avoir démarré avec une configuration périmée.',
-      'PHP OPCache Documentation' => 'Documentation OPCache de PHP',
       'Largest' => 'Le plus grand',
-      'This option allows you to stop Phabricator from sending any data to external services. Among other things, it will disable email, SMS, repository mirroring, and HTTP hooks.
-    This option is intended to allow a Phabricator instance to be exported, copied, imported, and run in a test environment without impacting users. For example, if you are migrating to new hardware, you could perform a test migration first, make sure things work, and then do a production cutover later with higher confidence and less disruption. Without this flag, users would receive duplicate email during the time the test instance and old production instance were both in operation.' => 'Cette option vous permet d’arrêter l’envoi par Phabricator de données à des services externes. Entre autres choses, cela désactivera les courriels, les SMS, la réplication de dépôt, et les accroches HTTP.
-    Cette option est prévue pour permettre d’exporter, copier, importer et lancer une instance de Phabricator dans un environnement de test sans impacter les utilisateurs. Par exemple, si vous migrez vers un nouveau matériel, vous pouvez effectuer d’abord un test de migration, vous assurer que tout fonctionne, puis faire un transfert de production plus tard avec plus de confiance et moins de perturbation. Sans ce drapeau, les utilisateurs recevraient des courriels en double pendant la durée où l’instance de test et l’ancienne instance de production sont toutes deux opérationnelles.',
       'Set the URI that Phurl will use to share shortened URLs.' => 'Définir l’URI que Phurl utilisera pour partager les URL raccourcies.',
       'Phabricator users can make requests to other services from the Phabricator host in some circumstances (for example, by creating a repository with a remote URL or having Phabricator fetch an image from a remote server).
     This may represent a security vulnerability if services on the same subnet will accept commands or reveal private information over unauthenticated HTTP GET, based on the source IP address. In particular, all hosts in EC2 have access to such a service.
@@ -745,7 +739,6 @@ final class PhabricatorConfigFr
       'Unknown column type "%s"!' => 'Type de colonne « %s » inconnu !',
       'Configured location for storing uploaded files on disk ("%s") does not exist, or is not readable or writable. Verify the directory exists and is readable and writable by the webserver.' => 'L’emplacement configuré pour stocker les fichiers téléchargés sur le disque (« %s ») n’existe pas, ou ne peut pas être lu ou écrit. Vérifier que le répertoire existe et peut être lu et écrit par le serveur web.',
       'Notifications User Guide: Setup and Configuration' => 'Guide utilisateur des notifications : Installation et configuration',
-      'Config option \'%s\' is invalid. The URI must start with %s\' or \'%s\'.' => 'L’option de configuration \'%s\' n’est pas valide. L’URI doit commencer par \'%s\' ou \'%s\'.',
       'No Herald Hints' => 'Aucun conseil avant-coureur',
       'Key is Too Long' => 'La clé est trop longue',
       '\'%s\' Missing' => '\'%s\' manquant',
@@ -1215,7 +1208,6 @@ final class PhabricatorConfigFr
       'Installed on Burstable CPU Instance' => 'Installé sur une instance de CPU surchargeable',
       'An input to the hash function when building resource hashes.' => 'Une entrée de la fonction de hachage utilisée lors du hachage des ressources.',
       'MySQL is Using Default Minimum Word Length' => 'MySQL utilise la longueur de mot minimale par défaut.',
-      'Controll whether Phabricator allows the suppression of email from "maintenance" users.' => 'Contrôler si Phabricator permet la suppression de courriel de la part des utilisateurs de « maintenance ».',
       'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'Dans les endroits où nous affichons une liste déroulante pour mettre en évidence la syntaxe du code, c’est ici que cette liste est définie.',
       'Unignore' => 'Ne plus ignorer',
       'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.' => 'Le paramètre « %s » de PHP doit être mis à « -1 » pour éviter les avertissements d’obsolescence.',

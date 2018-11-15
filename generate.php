@@ -5,6 +5,10 @@ $findcmd = 'find ./projects/ -name *.json -not ' .
 $json_files = explode("\n", `$findcmd`);
 
 foreach ($json_files as $filename) {
+    if (!file_exists($filename)) {
+        echo("File does not exist: $filename\n");
+        continue;
+    }
     $part = explode("/", $filename);
     $project = $part[2];
     $app = $part[3];

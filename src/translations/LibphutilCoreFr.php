@@ -138,7 +138,7 @@ final class LibphutilCoreFr
       'Dropping symbol cache...' => 'Suppression du cache des symboles…',
       'Missing Class' => 'Classe manquante',
       'Failed to markup HTML in file \'%s\'.' => 'Échec du marquage HTML dans le fichier \'%s\'.',
-      'Namespace can\'t contain colons.' => 'Les espaces de nom ne peuvent pas contenir de deux-points.',
+      'Namespace can\'t contain colons.' => 'Les espaces de noms ne peuvent pas contenir de deux-points.',
       'Parser output for "%s".' => 'Sortie de l’analyseur pour « %s ».',
       'Database isolation currently only supports some queries. You are trying to issue a query which does not begin with an allowed keyword (%s): \'%s\'.' => 'L’isolation de la base de données ne supporte actuellement que certaines requêtes. Vous essayez d’exécuter une requête qui ne commence pas par un mot clé autorisé (%s) : \'%s\'.',
       'Attempting to render a tag with an \'%s\' attribute that begins with \'%s\'. This is either a serious security concern or a serious architecture concern. Seek urgent remedy.' => 'Tentative pour rendre une balise avec un attribut \'%s\' qui commence par \'%s\'. C’est soit un problème de sécurité important, soit un gros problème d’architecture. Cherchez une solution d’urgence.',

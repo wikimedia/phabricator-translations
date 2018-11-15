@@ -27,6 +27,7 @@
   "9169b136e6c857c4": "Asana Workspace ID to publish into.",
   "9440ddf3620e1a44": "\u26a0 DO NOT EDIT THIS TASK \u26a0\n\u2620 Your changes will not be reflected in Phabricator.\n\u2620 Your changes will be destroyed the next time state is synchronized.",
   "94ebdc31fea83b00": "Removing subtask edge to $1, foreign object is not visible.",
+  "95324064cecdbd4f": "Unsupported Doorkeeper tag view mode \"$1\". Supported modes are: $2.",
   "95b7977d8579fb11": "Integration with Asana",
   "96985dc4a1f89fc4": "Doorkeeper worker '$1' is not enabled.",
   "97000a567c110d9e": "Object has no followers or active/passive users.",

@@ -52,6 +52,7 @@ final class PhabricatorSystemEn
       'Objects will be permanently destroyed. There is no way to undo this operation or ever retrieve this data unless you maintain external backups.' => 'Objects will be permanently destroyed. There is no way to undo this operation or ever retrieve this data unless you maintain external backups.',
       'Phabricator has consistently been unable to reach the writable ("master") database while processing recent requests.' => 'Phabricator has consistently been unable to reach the writable ("master") database while processing recent requests.',
       'Aborted, your objects are safe.' => 'Aborted, your objects are safe.',
+      'No Object URI' => 'No Object URI',
       'Show a log of permanently destroyed objects.' => 'Show a log of permanently destroyed objects.',
       'Cache engine extension "%s" returned object (of class "%s") with no PHID.' => 'Cache engine extension "%s" returned object (of class "%s") with no PHID.',
       'System' => 'System',
@@ -72,6 +73,7 @@ final class PhabricatorSystemEn
       '%d / second' => '%s / second',
       'As an administrator, you can review status information from the %s control panel. This may provide more information about the current state of affairs.' => 'As an administrator, you can review status information from the %s control panel. This may provide more information about the current state of affairs.',
       'Although this may be the result of a misconfiguration or operational error, this is also the state you reach if a meteor recently obliterated a datacenter.' => 'Although this may be the result of a misconfiguration or operational error, this is also the state you reach if a meteor recently obliterated a datacenter.',
+      'Object "%s" exists, but does not have a URI to redirect to.' => 'Object "%s" exists, but does not have a URI to redirect to.',
       'Specify one or more objects to destroy.' => 'Specify one or more objects to destroy.',
     );
   }

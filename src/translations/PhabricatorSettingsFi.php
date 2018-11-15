@@ -27,7 +27,6 @@ final class PhabricatorSettingsFi
       'Edit Global Settings' => 'Muokkaa globaaleja asetuksia',
       'Current Setting' => 'Nykyiset asetukset',
       'Date Format' => 'Päiväyksen muoto',
-      'New Password' => 'Uusi salasana',
       'Select the format you prefer for editing and displaying time.' => 'Valitse muoto, jota haluat käyttää ajan näyttämiseen ja muokkaamiseen.',
       'The conflict between your browser and profile timezone settings will be ignored.' => 'Ero selaimesi ja asetustesi aikavyöhykkeen kanssa jätetään huomiotta.',
       'Terminate All Sessions' => 'Päätä kaikki istunnot',

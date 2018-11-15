@@ -30,7 +30,6 @@
   "a59e35f7e35775f0": "STOPPED",
   "ac551492ad6c91a4": "Information about services.",
   "aeeba730751ee3d0": "Unknown event: %s",
-  "b5d8da40f3ed3192": "Total Cost",
   "bb888692c4295a97": "Shows errors and warnings.",
   "bdfe7ae85de0e206": "XHProf Profiler",
   "c05d7f6454f1efba": "The \"xhprof\" PHP extension is not available. Install xhprof to enable the XHProf console plugin. You can find instructions in the %s.",

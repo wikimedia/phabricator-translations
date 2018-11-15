@@ -21,7 +21,6 @@ final class PhabricatorPhrictionCa
       'Document Hierarchy' => 'Jerarquia del document',
       'More...' => 'Més...',
       'A document\'s title changes.' => 'Els canvis de títol d\'un document.',
-      'Wiki' => 'Wiki',
       'Content' => 'Contingut',
       'Update a Phriction document.' => 'Actualitza un document de Phriction',
       'Last Author' => 'Últim autor',
@@ -61,9 +60,7 @@ final class PhabricatorPhrictionCa
       '%s moved this document to %s' => '%s ha mogut aquest document a %s',
       'Move Here' => 'Mou aquí',
       'Phriction Documents' => 'Documents de Phriction',
-      'Show Active Documents' => 'Mostra els documents actius',
       'Most Recent Change' => 'Canvis més recents',
-      'Show All Documents' => 'Mostra tots els documents',
       'Wiki Document %d' => 'Document wiki %s',
     );
   }

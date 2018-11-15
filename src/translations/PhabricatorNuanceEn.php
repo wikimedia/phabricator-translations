@@ -151,6 +151,7 @@ final class PhabricatorNuanceEn
       'Queue names must not be longer than %s character(s).' => 'Queue names must not be longer than %s character(s).',
       'This engine is used to edit Nuance queues.' => 'This engine is used to edit Nuance queues.',
       'GitHub %s %s (%s)' => 'GitHub %s %s (%s)',
+      'Date Created' => 'Date Created',
       'Watched' => 'Watched',
       'Issued' => 'Issued',
       'Import issues and pull requests from a GitHub repository.' => 'Import issues and pull requests from a GitHub repository.',

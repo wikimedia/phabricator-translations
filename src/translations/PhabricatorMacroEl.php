@@ -84,7 +84,6 @@ final class PhabricatorMacroEl
       'Browse Emojis' => 'Περιήγηση εμότζι',
       'Email Commands: Macros' => 'Εντολές ηλεκτρονικού ταχυδρομείου: Μάκρο',
       'Type a macro name...' => 'Πληκτρολογήστε όνομα μάκρο...',
-      '%s disabled %s.' => 'Ο %s απενεργοποίησε το %s.',
       'Macro "%s" already exists.' => 'Το Macro "%s" υπάρχει ήδη.',
       'Play Once' => 'Παίξιμο για μία φορά',
     );

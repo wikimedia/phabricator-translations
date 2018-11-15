@@ -11,7 +11,6 @@ final class PhabricatorFeedEn
     return array(
       'Call %s before publishing!' => 'Call %s before publishing!',
       'POST notifications of feed events.' => 'POST notifications of feed events.',
-      'Feed story does not exist.' => 'Feed story does not exist.',
       'Dictionary with various data of the story' => 'Dictionary with various data of the story',
       'All Stories' => 'All Stories',
       'Query the feed for stories' => 'Query the feed for stories',
@@ -47,6 +46,7 @@ final class PhabricatorFeedEn
       'Unknown rendering target: %s' => 'Unknown rendering target: %s',
       'Include stories about projects I am a member of.' => 'Include stories about projects I am a member of.',
       'Story type must be a valid class name and must subclass %s. \'%s\' is not a loadable class.' => 'Story type must be a valid class name and must subclass %s. \'%s\' is not a loadable class.',
+      'Feed story (with key "%s") does not exist or could not be loaded.' => 'Feed story (with key "%s") does not exist or could not be loaded.',
       'Review Recent Activity' => 'Review Recent Activity',
     );
   }

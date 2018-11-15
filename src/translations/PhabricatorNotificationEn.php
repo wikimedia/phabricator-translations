@@ -20,6 +20,7 @@ final class PhabricatorNotificationEn
       'Unread Notifications' => 'Unread Notifications',
       'Unable to post message: this is not an admin server!' => 'Unable to post message: this is not an admin server!',
       'Disconnected' => 'Disconnected',
+      '%s notification(s) about objects which no longer exist or which you can no longer see were discarded.' => '%s notification(s) about objects which no longer exist or which you can no longer see were discarded.',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".' => 'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => 'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".',
       'No notifications to mark as read.' => 'No notifications to mark as read.',

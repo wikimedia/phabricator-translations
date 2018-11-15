@@ -28,7 +28,6 @@ final class PhabricatorTypeaheadHu
       'Auto' => 'Automatikus',
       'You reach the edge of the abyss.' => 'Eljutsz a szakadék széléig.',
       'Priority Type' => 'Prioritás típusa',
-      'PHID' => 'PHID',
     );
   }
 

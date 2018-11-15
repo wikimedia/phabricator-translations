@@ -39,7 +39,6 @@ final class PhabricatorDivinerEl
       'Documentation Not Found' => 'Δεν βρέθηκε τεκμηρίωση',
       'This class is not documented.' => 'Αυτή η κλάση δεν είναι τεκμηριωμένη.',
       'This method is not documented.' => 'Αυτή η μέθοδος δεν είναι τεκμηριωμένη.',
-      'Parameters' => 'Παράμετροι',
       'Atomization complete.' => 'Η ατομοποίηση ολοκληρώθηκε.',
       'Edit Book: %s' => 'Επεξεργασία Βιβλίου: %s',
       'Found %s file(s) to atomize.' => 'Βρέθηκαν %s αρχείο(-α) για ατομοποίηση.',

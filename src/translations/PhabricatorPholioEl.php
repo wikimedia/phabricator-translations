@@ -34,7 +34,6 @@ final class PhabricatorPholioEl
       'Inline Comment' => 'Εσωτερικό σχόλιο',
       '%s updated the image names of %s.' => 'Ο %s ενημέρωσε τα ονόματα εικόνας του %s.',
       '%s edited image(s), added %d: %s; removed %d: %s.' => 'Ο %s επεξεργάστηκε τις εικόνα(-ες), πρόσθεσε τις: %s, %s, αφαίρεσε τις: %s, %s.',
-      'Design Review' => 'Θεώρηση Σχεδιασμού',
     );
   }
 

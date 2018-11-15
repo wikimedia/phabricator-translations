@@ -64,7 +64,6 @@
   "a5459e4c4b879eee": "Documentation Atoms",
   "a86a0253558a3154": "Parameter \"%s\" is named \"%s\" in the documentation. The documentation may be out of date.",
   "a8f1e452deb30a6e": "Atomizer class '%s' must be a concrete subclass of %s.",
-  "a975eea30db9fa05": "Parameters",
   "a9d505a8013089ec": "BUILDING ATOM CACHE",
   "aab396a59cc9d0ee": "Specify an atomizer class with %s.",
   "abccb414d9e861c5": "BUILDING GRAPH CACHE",
