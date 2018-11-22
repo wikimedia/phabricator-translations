@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"TomT0m"
 		]
 	},
 	"0008bde8eebd806d": "Supporter pour ConduitResultInterface",
@@ -24,6 +25,7 @@
 	"10cba400beb0ed75": "Méthodes non stables",
 	"141e9c30f2d8254c": "Récupérer les informations de certificat pour un utilisateur.",
 	"18997935dc4a54b5": "L’appel à la méthode newQueryObject() n’a pas renvoyé d’objet de la classe « $1 ».",
+	"1da93456192735b2": "Lecture des données insérées à partir de stdin...",
 	"1e54eaaf0c626313": "Tous les journaux d’appels",
 	"225aa91d98feb7a3": "Liste d’entiers.",
 	"237f676d15e04631": "Vous avez fait trop de requêtes de jeton non valide récemment. Attendez avant d’en faire plus.",
@@ -132,6 +134,7 @@
 	"b1899b466d045cde": "Liste avec un mélange de PHID et de noms d’utilisateur.",
 	"b25b1843b4eeaa47": "Jeton d’API résilié",
 	"b2961988e5b3f246": "Une liste est attendue, mais la valeur est un objet.",
+	"b58add6467b90d23": "Méthode à appeler.",
 	"b6a2e760a99ca868": "Appelants",
 	"b700afaaf5bb5041": "Vous n’avez pas l’autorisation d’appeler cette méthode.",
 	"b7a40dc3fa6d4bd2": "Jeton de l’API de grappe",

@@ -4,7 +4,8 @@
 			"Bibliofab66",
 			"Gomoko",
 			"Wladek92",
-			"Niridya"
+			"Niridya",
+			"TomT0m"
 		]
 	},
 	"00e46c015f972018": "Tableau contenant la liste des applications non installées.",
@@ -495,6 +496,7 @@
 	"8058ec7c47794ce5": "Binaire '$1' manquant",
 	"805b8364dd741b70": "Jeu de caractères",
 	"811d40c3a237c830": "Le fil public pouvant être encadré n’est plus supporté.",
+	"8140cd0c40ec35db": "Une chaîne aléatoire unique qui identifie la requête.",
 	"814b61306d97b73f": "Point de terminaison S3 explicite. Cela devrait être le point de terminaison qui correspond à la région que vous avez sélectionnée dans `amazon-s3.region`. Phabricator ne peut pas déterminer automatiquement le bon point de terminaison parce que certains emplacements de point de terminaison sont irréguliers.",
 	"82a71c8e058e57a6": "Phabricator envoie maintenant toujours un courriel de transaction avec « Precedence:bulk » pour améliorer la capacité de livraison.",
 	"82c03d17c92e4a54": "$1 jour(s)",
@@ -583,6 +585,7 @@
 	"9d33df4cbd01cb82": "Amazon S3 n'est que partiellement configuré",
 	"9d6fa285df9deb95": "Phabricator ne supporte plus la personnalisation globale de polices à espacement fixe.",
 	"9dcf3a82632084ed": "<none>",
+	"9dfa143c16628357": "Personnaliser les favicons.",
 	"9e0230ee43e55ce2": "Le composant PATH '$1' (qui est traduit dans le chemin absolu '$2') n’est pas utilisable parce qu’il ne peut pas être traversé (son bit de droit '$3' n’est pas mis).",
 	"9e10d4517d5a2f4e": "SMS",
 	"9e58e005b25867aa": "Aucun dépôt",
@@ -651,6 +654,7 @@
 	"af30dfb16b478dda": "Activer le mode lecture seule pour la maintenance ou la récupération de crash.",
 	"af379b9074a3c8e2": "Spécifier une clé de configuration et une valeur à laquelle la fixer.",
 	"af48448c15bcd46c": "PHP a aussi chargé ces $1 fichier(s) de configuration :",
+	"af6f9fc07752bb1f": "Lecture de la valeur depuis stdin…",
 	"af817c5130440ecf": "L’option « $1 » est de type « $2 », mais la valeur que vous avez fournie n’est pas une liste JSON valide : en fournissant un ensemble depuis la ligne de commande, spécifiez-la comme une liste de valeurs en JSON. Vous devez mettre entre guillemets la valeur pour votre shell (par exemple : '[\"a\", \"b\", ...]').",
 	"af8acae468aa6f85": "Pour reconstruire l’index, exécutez cette commande :",
 	"afc542d9c0774bb6": "Désactiver Recaptcha",
@@ -705,7 +709,7 @@
 	"bee88b6fe82e2621": "Désactiver le journal d’accès.",
 	"beeed8a6c21acc57": "La configuration du logo n’est pas valide : la valeur doit être un dictionnaire.",
 	"befa01fa553d1e88": "Vraiment ignorer ce problème d’installation ?",
-	"bf55a9501c29f5dd": "L’option de configuration '$1' n’est pas valide. L’URI doit commencer par '$2' ou '$3'.",
+	"bf55a9501c29f5dd": "L’option de configuration  « $1 » n’est pas valide. L’URI doit commencer par « $2 » ou « $3 ».",
 	"bf91ee29dcfbb30a": "Phabricator supporte la mise en évidence syntaxique de quelques langages par défaut, mais vous pouvez installer Pygments (un outil tiers de mise en évidence syntaxique) pour supporter beaucoup plus de langages.\n\nPour installer Pygments, allez sur [[ http://pygments.org | pygments.org ]] et suivez les instructions de téléchargement et d’installation.\n\nUne fois Pygments installé, activez cette option (`pygments.enabled`) pour faire en sorte que Phabricator utilise Pygments lors de la mise en évidence du code source.\n\nUne fois que vous avez installé et activé Pygments, le code source nouvellement créé (comme les diffs et les collages) devraient se mettre en évidence correctement. Vous devrez vider les caches de Phabricator pour que le code source déjà existant soit mis en évidence. Pour les instructions concernant la gestion des caches, voyez [[ $1 | Gérer les caches ]].",
 	"bfa362f7819bbfa5": "Options relatives à la mise en évidence de la syntaxe du code source.",
 	"bfb9aa1dca8f9aa6": "Permettre HTTP",

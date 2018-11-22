@@ -8,6 +8,7 @@
 	},
 	"170409168d52d100": "Saisie semi-automatique",
 	"20ff1176780f707c": "Cette source de données (« $1 ») ne peut pas évaluer la fonction « $2(...) ».",
+	"34cfe49ccc9216f0": "Tous les arguments de « $1(...) » doivent être des entiers, trouvé « $2 » en position $3.",
 	"621aa9bbf5df9be3": "La classe de source de données configurée « $1 » doit être une sous-classe valide de « $2 » .",
 	"83976820002041a5": "Référence: fonctions avancées",
 	"83baedc7037c882f": "URI d'image",

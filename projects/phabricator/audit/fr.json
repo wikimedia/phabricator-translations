@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"TomT0m"
 		]
 	},
 	"06a611b1ebbb1abd": "Une validation est créée.",
@@ -44,6 +45,7 @@
 	"5d0d94f2c4a8f4cc": "Mise à jour de « $1 » : « $2 » -> « $3 ».",
 	"610b7b850b1d9870": "Sélectionner seulement les audits d’après une liste donnée d’utilisateurs.",
 	"66448466a9a2c32a": "$1 a modifié des abonnés ; ajoutés : $2, supprimés : $3.",
+	"68a9c8d440cf0f40": "Échec du rechargement du commit « $1 ».",
 	"6aa0b03401d8999b": "Pas de modifications pour \"$1\".",
 	"6c3b378e82beefeb": "Auditeur",
 	"701cb7c96f1d4256": "Besoin d'auditer",
@@ -60,9 +62,11 @@
 	"85ab96961c33d8b4": "Aucun audit",
 	"868e1d11c9258c65": "$1 auditeurs modifiés; ajoutés: $2, supprimés: $3.",
 	"897cad18ed85763e": "Pas d'audits concernés par la requête.",
+	"8abbb8fa5daf85bb": "Trouver les commits qui sont les ancêtres d’une référence particulière, comme « master ».",
 	"8b53b932abeab0d8": "A été mis en copie",
 	"90b303d7a0001685": "Revue et audit de code après validation. Les audits auxquels vous êtes affecté apparaîtront ici.",
 	"92a993dd1e530829": "Audité partiellement",
+	"944233b727b66675": "Ancêtres de",
 	"96753320cc2abb9e": "$1 a validé $2.",
 	"9d3201225cfe0c61": "Audité",
 	"a033aa2157449695": "Une validation possède une remarque attachée.",
