@@ -24,7 +24,7 @@ located in `projects/` if you don't need to regenerate up-to-date strings.
 To export up-to-date strings from Phabricator, run:
 
 ```
-$ ./bin/translatewiki export path/to/phabricator/src/ --project phabricator
+$ ./bin/translatewiki export path/to/phabricator/src/ --as phabricator
 ```
 
 This will update `projects/phabricator/en.json` and related files.
