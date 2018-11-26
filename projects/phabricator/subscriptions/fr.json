@@ -4,6 +4,7 @@
 			"Wladek92"
 		]
 	},
+	"0f0973483d912464": "Taire",
 	"16b20e68bb281a3b": "Abonné",
 	"1eda447e23cc5832": "abonnés",
 	"1eebe0c8018ccf4c": "Me retirer en tant qu'abonné",
@@ -20,6 +21,7 @@
 	"70812c10b7301ddc": "Enlever des abonnés",
 	"71269196ea386883": "Tous les $1 abonnés enlevés par $2",
 	"72f70b16832b1bbe": "Abonnés ajoutés",
+	"78a45fc0bc500a0a": "Taire cet objet ? Vous ne recevrez plus de notifications ni de courriels le concernant.",
 	"7c2af07e2007c017": "Refus de réinscrire $1 cible(s) car elles se sont désinscrites précédemment: $2.",
 	"8210248db9606e07": "$1 abonné(s) supprimé(s): $2.",
 	"834cc0ee6089e541": "Se désabonner",
@@ -29,7 +31,7 @@
 	"951312665cb0a5d3": "Abonnés enlevés",
 	"979d06f7ee7941dc": "Tous les $1 abonnés ajoutés par $2",
 	"9d08f560501d0de6": "Ajoutez moi en tant qu'abonné",
-	"a64875128ddb2808": "Suspendre les notifications",
+	"a64875128ddb2808": "Taire les notifications",
 	"a8c6d7d08f2aa62d": "$1 cible(s) automatiquement souscrite(s) \nn'ont pas été affectées: $2.",
 	"b158357ebef346cb": "Choisir les abonnés.",
 	"b3af2cf1979c794a": "$1, $2, $3 et $4",

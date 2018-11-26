@@ -5,6 +5,7 @@
 			"Zarisi"
 		]
 	},
+	"00bb89e9c8a3cde1": "Ressource de modèle non trouvée (pour l'emblême « $1 ») avec les dimensions $2x$3.",
 	"01129f5fffd790a6": "Détecteur de poussière",
 	"01e438c7c6d998d6": "Spécifiez le type de clé à générer avec --type.",
 	"01f19aad74958f89": "Le fichier « $1 » a déja le hachage d'intégrité correct.",
@@ -73,6 +74,7 @@
 	"464e38fe1eec24ac": "Le TTL relatif ne doit pas dépasser « $1 » secondes, mais TTL « $2 » a été spécifié.",
 	"46d551dae60a987b": "terminal",
 	"471e8a5311fc004f": "Migrer tous les fichiers.",
+	"4729544b55143ef7": "Impossible de faire la conversion d'encodage du texte : l'extension  « mbstring » n'est pas disponible.",
 	"47617cd7e7e8f7c4": "Spécifiez soit une liste de fichiers à mettre à jour, ou utilisez `$1` pour mettre à jour tous les fichiers.",
 	"4831513cbe6680d6": "Ce fichier n'existe pas.",
 	"4adfa5797f249934": "route",
@@ -130,6 +132,8 @@
 	"80abe68831abf564": "Aucune tNo file transform with key \"$1\" exists.",
 	"817248fb77fb5c2c": "télécharger",
 	"8c535e97e68bfc60": "Le moteur (« $1 ») est inconnu, ou incapable de faire le rendu de ce document.",
+	"911c649797ea3306": "$1: fichier temporaire expiré sauté.",
+	"951b175b059733e2": "Détection d'une collision sur clé dupliquée lors de l'enregistrement d'image du proxy, mais échec de chargement de la rangée dupliquée (pour l'URI « $1 »).",
 	"9b89edbed33072bc": "Afficher en tant que PDF",
 	"9ef82f49016a98ad": "ISO-8859-1 (Latin 1)",
 	"a8845347cd2433fa": "Ce document n'est pas en UTF8. Il a été détecté comme étant du $1 et converti en UTF8 pour l'affichage.",
@@ -137,6 +141,7 @@
 	"b7382bb47f75a0d8": "Afficher comme contenu hexadécimal",
 	"d38091362813816a": "Non accessible",
 	"d40ed39a26f9a267": "Couvert",
+	"fc01e646c8fe653c": "Aucun moteur de document ne peut effectuer le rendu du contenu de ce fichier.",
 	"fd3eeb74b249991a": "Afficher en tant qu'audio",
 	"fd42f935f0c13b21": "Aucun moteur de contenu ne peut faire le rendu de ce document."
 }
