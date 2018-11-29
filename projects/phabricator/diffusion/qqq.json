@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
 	"0007d61d3fd18c30": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/editor/DiffusionCommitEditEngine.php$62 DiffusionCommitEditEngine.php:62]",
 	"003e9f65338133c4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionBrowseController.php$1034 DiffusionBrowseController.php:1034]",
 	"004dbc40ba3e61c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/request/DiffusionRequest.php$523 DiffusionRequest.php:523]",
@@ -22,7 +26,7 @@
 	"0302a927071df00a": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionServeController.php$366 DiffusionServeController.php:366]",
 	"032efa14d45b3111": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php$107 DiffusionSetPasswordSettingsPanel.php:107]",
 	"0340b25614c9481d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/conduit/DiffusionQueryConduitAPIMethod.php$116 DiffusionQueryConduitAPIMethod.php:116]",
-	"03542bedf10f4c85": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryEditEnormousController.php$62 DiffusionRepositoryEditEnormousController.php:62]",
+	"03542bedf10f4c85": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryEditEnormousController.php$62 DiffusionRepositoryEditEnormousController.php:62]\n\nHerald is a phabricator application; do not translate this name !",
 	"042dd077d65e7153": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/query/lowlevel/DiffusionLowLevelResolveRefsQuery.php$125 DiffusionLowLevelResolveRefsQuery.php:125]",
 	"04c088a92a451b40": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/management/DiffusionRepositoryURIsManagementPanel.php$115 DiffusionRepositoryURIsManagementPanel.php:115]",
 	"04c9e2c4296800ec": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php$59 DiffusionRepositoryEditActivateController.php:59]",
@@ -229,7 +233,7 @@
 	"4789baabc60284f3": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionCompareController.php$294 DiffusionCompareController.php:294]",
 	"47b2dc999995d625": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/view/DiffusionCloneURIView.php$62 DiffusionCloneURIView.php:62]",
 	"47bfc0aff3358e1b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php$97 DiffusionRepositoryEditEngine.php:97]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php$101 DiffusionRepositoryEditEngine.php:101]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php$113 DiffusionRepositoryEditEngine.php:113]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryEditController.php$36 DiffusionRepositoryEditController.php:36]",
-	"487d72642f7659be": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryEditEnormousController.php$58 DiffusionRepositoryEditEnormousController.php:58]",
+	"487d72642f7659be": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryEditEnormousController.php$58 DiffusionRepositoryEditEnormousController.php:58]\n\nHerald is a phabricator application; do not translate this name !",
 	"48855716c1c7b470": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php$152 PhabricatorDiffusionConfigOptions.php:152]",
 	"49443c9d6dda3e6f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/editor/DiffusionURIEditEngine.php$190 DiffusionURIEditEngine.php:190]",
 	"496b97225ebc6c16": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/diffusion/controller/DiffusionRepositoryTestAutomationController.php$51 DiffusionRepositoryTestAutomationController.php:51]",

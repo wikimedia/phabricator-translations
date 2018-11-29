@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Warchlak"
+		]
+	},
+	"07b032b56f7aa399": "Nieprzeczytane",
+	"215ed57ea00cd4b2": "Wszystkie powiadomienia",
+	"3d9f47ddd54fe157": "Czy naprawdę oznaczyć wszystkie powiadomienia jako przeczytane?",
+	"6faa4218ab931e0d": "Nieprzeczytane powiadomienia",
+	"771e05f27b99fd59": "Rozłączono",
+	"7f02a61559647c50": "Brak powiadomień do oznaczenia jako przeczytane.",
+	"8b0d4e583fdf3c6f": "Serwer powiadomień nie działa",
+	"9b16335d5b0b0a4a": "Nie można połączyć się z serwerem powiadomień",
+	"ad87d7cef1baf9fe": "Serwer powiadomień nie jest włączony",
+	"b61b70be925f16d0": "To jest powiadomienie testowe, wysłane $1.",
+	"b88a6664ed5b0050": "Nie masz nieprzeczytanych powiadomień.",
+	"b98e3f99c2aea77e": "Łączenie...",
+	"e5f613432959373a": "Oznacz wszystko jako przeczytane",
+	"e6fe34ea1c47c080": "Pokaż tylko nieprzeczytane powiadomienia.",
+	"f9b6f64d81b3eed1": "Nie masz żadnych powiadomień."
+}

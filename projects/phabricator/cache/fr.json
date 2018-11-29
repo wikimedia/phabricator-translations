@@ -55,7 +55,7 @@
 	"d77af897cf53c606": "Le paramètre « $1 » est actuellement désactivé dans votre configuration PHP, mais Phabricator tourne en mode développement. Cette option devrait normalement être activée en développement, afin que vous n’ayez pas besoin de redémarrer quoi que ce soit après avoir fait des modifications dans le code.",
 	"d82af8db2a581182": "En production, OPcache doit être configuré de telle sorte à ne jamais revalider le code. Ceci améliorera sensiblement les performances. Pour faire cela, désactivez « $1 » dans votre configuration PHP.",
 	"d87d135a91274091": "« $1 » est désactivé pour le développement",
-	"e0148b541890a487": "OPCache n'est pas configuré pour le développement",
+	"e0148b541890a487": "OPcache n’est pas configuré pour le développement",
 	"e4a248050fdc6dae": "Echec dans le développement des données !",
 	"e7693b42de4308ff": "Zend OPcache",
 	"ea785c9d610450b7": "En activant OPcache vous allez améliorer grandement les performances.",

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Warchlak"
+		]
+	},
+	"06a611b1ebbb1abd": "Zatwierdzenie jest utworzone.",
+	"099b14e7d52d3f8b": "UŻYTKOWNICY",
+	"0de6d35bf080350d": "$1 zrezygnował z audytu $2.",
+	"0e9a10954f2571c8": "Określona maksymalna data musi nastąpić po określonej minimalnej dacie.",
+	"1520661844a5a8d1": "Pobierz żądania audytu.",
+	"17e4d773881595e8": "ZATWIERDŹ",
+	"1910341ff26e79fd": "Zaktualizuj wszystkie zatwierdzenia we wszystkich repozytoriach.",
+	"228ec67211e55174": "Zatwierdzenie jest zamknięte.",
+	"2f57e5cbb01c6275": "Aktualizacja \"$1\" ($2)...",
+	"32b90aeab5d9365b": "Witaj w Audycie",
+	"3b104ea091773e71": "Audyt nie jest wymagany",
+	"47b807194933536b": "Wszystkie zatwierdzenia",
+	"4f24b1aaba7a6ccc": "Audytorzy: $1",
+	"5d0d94f2c4a8f4cc": "Aktualizacja \"$1\": \"$2\" -> \"$3\".",
+	"68a9c8d440cf0f40": "Nie udało się ponownie załadować zatwierdzenia (\"$1\").",
+	"6c3b378e82beefeb": "Audytor",
+	"701cb7c96f1d4256": "Wymagana weryfikacja",
+	"705617a2421b5827": "$1 zamknął weryfikację $2.",
+	"71f8e7976e4cbc45": "brak",
+	"7ba381be0d4e60b0": "Pokaż tylko nieosiągalne zatwierdzenia",
+	"7bfcb6399a129dd7": "Wystąpiły inne działania związane z zatwierdzaniem niewymienione powyżej.",
+	"85ab96961c33d8b4": "Brak audytów",
+	"92a993dd1e530829": "Częściowo audytowany",
+	"96753320cc2abb9e": "$1 zatwierdził $2.",
+	"a06b4c5eadc3c5b5": "Ktoś komentuje zatwierdzenie.",
+	"a61e70ff9e04f7b7": "Aktualizacja statusu audytu dla zatwierdzeń.",
+	"aa284d0c56a292ee": "Nieosiągalny",
+	"b1cd75b440962ee1": "Aktywne audyty",
+	"ffec8c0b8214bda0": "Zatwierdzenie jest akceptowane."
+}

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Werewindle"
 		]
 	},
 	"0f0973483d912464": "Taire",
@@ -18,6 +19,7 @@
 	"4db3423d5bd31e84": "Me retirer en tant qu'abonné.",
 	"649fad34cf6e7781": "Rechercher des objets avec certains abonnés.",
 	"6ffaf2c2fa633fe1": "Les abonnés peuvent faire cette action.",
+	"7044c3104095ed26": "Reactiver le son",
 	"70812c10b7301ddc": "Enlever des abonnés",
 	"71269196ea386883": "Tous les $1 abonnés enlevés par $2",
 	"72f70b16832b1bbe": "Abonnés ajoutés",

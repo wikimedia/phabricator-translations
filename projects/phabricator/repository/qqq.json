@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
 	"00061bade7e1c5b9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/engine/PhabricatorRepositoryPullEngine.php$67 PhabricatorRepositoryPullEngine.php:67]",
 	"00db78e6f6de8bed": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php$150 PhabricatorRepositoryManagementReparseWorkflow.php:150]",
 	"00f7adcfa5b54e66": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/engine/PhabricatorRepositoryRefEngine.php$453 PhabricatorRepositoryRefEngine.php:453]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/engine/PhabricatorRepositoryDiscoveryEngine.php$696 PhabricatorRepositoryDiscoveryEngine.php:696]",
@@ -227,7 +231,7 @@
 	"5f42052c2b78eda0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/management/PhabricatorRepositoryManagementImportingWorkflow.php$12 PhabricatorRepositoryManagementImportingWorkflow.php:12]",
 	"6152660819a281f5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/phid/PhabricatorRepositoryPushLogPHIDType.php$8 PhabricatorRepositoryPushLogPHIDType.php:8]",
 	"61eb752fdcb6a05a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/storage/PhabricatorRepositoryCommit.php$750 PhabricatorRepositoryCommit.php:750]",
-	"62f8864f40217ea6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/query/PhabricatorRepositoryPushLogSearchEngine.php$62 PhabricatorRepositoryPushLogSearchEngine.php:62]",
+	"62f8864f40217ea6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/query/PhabricatorRepositoryPushLogSearchEngine.php$62 PhabricatorRepositoryPushLogSearchEngine.php:62]\n\nHerald is a phabricator application; do not translate this name !",
 	"6379cb76d487eeb6": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/storage/PhabricatorRepositoryTransaction.php$239 PhabricatorRepositoryTransaction.php:239]",
 	"63a230743384c155": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/daemon/PhabricatorRepositoryPullLocalDaemon.php$505 PhabricatorRepositoryPullLocalDaemon.php:505]",
 	"65036a1c76a9293e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/engine/PhabricatorRepositoryIdentityEditEngine.php$37 PhabricatorRepositoryIdentityEditEngine.php:37]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/engine/PhabricatorRepositoryIdentityEditEngine.php$41 PhabricatorRepositoryIdentityEditEngine.php:41]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/engine/PhabricatorRepositoryIdentityEditEngine.php$53 PhabricatorRepositoryIdentityEditEngine.php:53]",
@@ -380,7 +384,7 @@
 	"a92632de5eed28f3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/storage/PhabricatorRepository.php$2667 PhabricatorRepository.php:2667]",
 	"a9d8eca5ba5ccac0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/storage/PhabricatorRepositoryURI.php$560 PhabricatorRepositoryURI.php:560]",
 	"aa26821e1ab39aac": "Variable Types: NONE, PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/daemon/PhabricatorRepositoryPullLocalDaemon.php$471 PhabricatorRepositoryPullLocalDaemon.php:471]",
-	"aaa656fca2a82760": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/storage/PhabricatorRepositoryPushLog.php$73 PhabricatorRepositoryPushLog.php:73]",
+	"aaa656fca2a82760": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/storage/PhabricatorRepositoryPushLog.php$73 PhabricatorRepositoryPushLog.php:73]\n\nHerald is a phabricator application; do not translate this name !",
 	"aac29186fbdf8172": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/daemon/PhabricatorGitGraphStream.php$96 PhabricatorGitGraphStream.php:96]",
 	"ab01eaee17e2d8b6": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/editor/PhabricatorRepositoryEditor.php$379 PhabricatorRepositoryEditor.php:379]",
 	"ac55185166c1ecef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/repository/customfield/PhabricatorCommitRepositoryField.php$15 PhabricatorCommitRepositoryField.php:15]",
