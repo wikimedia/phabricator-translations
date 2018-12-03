@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"02fc4e2708e20a21": "Opret nyt spørgsmål",
+	"04cf8c77ea56466f": "$1 markerede dette som synligt.",
+	"0a0d5346bd9ef2e3": "Skjul kommentarer",
+	"0d51c79e93b8f93b": "$1 tilføjede et svar.",
+	"0dba81052dd43647": "Dette spørgsmål er ugyldigt.",
+	"39601a12dd3ca130": "$1 svar",
+	"3a5ec3afcbb66298": "Stil et spørgsmål",
+	"54e4d39ef0496d4a": "Tomt svar",
+	"57911771e4385208": "Der blev ikke fundet noget spørgsmål.",
+	"59015f9b3d10b47e": "Stil spørgsmål",
+	"5b474ec4d5624f31": "Dette svar er blevet skjult.",
+	"6579b40580369448": "Nyt spørgsmål",
+	"6ccec9b52dd95981": "Log på for at svare",
+	"70fc174b9aef06ad": "Genåbn spørgsmål",
+	"82bbd27e0ba1b00b": "$1 lukkede $2 som ugyldigt",
+	"92022cf22bcfc7ae": "Rediger spørgsmål",
+	"95e9e1cc3130acac": "$1 tilføjede dette svar.",
+	"98c2ab35e799d3d5": "$1 stillede spørgsmålet $2.",
+	"a16a4eda7cb2c8e9": "Svar",
+	"a25651da156e8c3d": "Tilføj en kommentar",
+	"a5285e891a1d923c": "Spørgsmål stillet af $1",
+	"bb9637f984129066": "Rediger spørgsmål: $1",
+	"c2b8a46ba67459e8": "$1 stillede dette spørgsmål.",
+	"ca03107bb18cb25e": "Alle spørgsmål",
+	"d6ddaaa1cb1d338e": "Vis $1 kommentar(er)",
+	"dcc46f4cfed95ca6": "$1 markerede $2 som skjult-",
+	"de553061b39f0ef0": "Nyt svar",
+	"de9c02916131cf5a": "Seneste spørgsmål",
+	"e018139af3931f96": "$1 tilføjede $2.",
+	"e0aafffa028c1a77": "Besvaret",
+	"e2c565a99a3514b0": "Rediger svar",
+	"efe0633af4ac6924": "Tilføj svar",
+	"f016c7e9af763404": "Allerede besvaret",
+	"f2f33811b36d6521": "Besvaret af"
+}
