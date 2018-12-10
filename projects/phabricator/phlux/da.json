@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"240e78f1aa62fbef": "Opdater variabel",
+	"3074a4a63133c645": "Variableværdien skal være gyldig JSON.",
+	"307d4957be65dd3a": "Kun små bogstaver, tal, punktummer og bindestreger.",
+	"3d3684e1f79c7996": "Rediger variabel: $1",
+	"45d41b3427ac820a": "Nøgle/Værdi konfigurationslager",
+	"5b3d65a8738a83f4": "Variabel \"$1\"",
+	"8fbf110b5f9b11ca": "Phlux variabler",
+	"92ef2c479783f464": "Indtast værdi som JSON.",
+	"991a4cc218302b21": "Variabelnøglen skal være unik.",
+	"a19b4054a7bcb6ea": "Opret variabel",
+	"adcd57ea4ea9ebf6": "Phlux",
+	"b971350e75202123": "$1 opdaterede denne variabel.",
+	"c130b080f0d0694c": "$1 oprettede denne variabel.",
+	"c73e063e2ac09a6e": "Rediger variabel",
+	"c75bafc134c47ab1": "Variabelliste",
+	"ce39d9d87f4cf49a": "Variabelnøgle er påkrævet.",
+	"ced53994219494a6": "Variabelnøglen \"$1\" må kun indeholde små bogstaver, tal, punktummer og bindestreger."
+}

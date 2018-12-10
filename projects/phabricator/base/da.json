@@ -5,12 +5,14 @@
 		]
 	},
 	"21909f6cc9658765": "Ingen applikation '$1'!",
+	"40b9d5b3ede68efe": "Forvent, at brugeren '$1' har tilladelse til at tilgå '$2'.",
 	"473a2b8ae0fda34b": "Kan konfigurere applikation",
 	"5065c3a197c9ae53": "Kan bruge applikation",
 	"633d0a44b076afad": "Offentlig + konfigureret",
 	"678731c91b8cc343": "Offentlig adgang",
 	"749ea651fe6a327f": "Ingen login påkrævet",
 	"78d67090ef36b075": "Ingen applikation!",
+	"a6fdeee1d42216f6": "Verificering af e-mail er påkrævet",
 	"b0608ab1bd963593": "Udviklerværktøjer",
 	"daf366af13db9c61": "Admin påkrævet"
 }

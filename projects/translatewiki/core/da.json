@@ -4,14 +4,27 @@
 			"Saederup92"
 		]
 	},
+	"0294e4a93c79fe48": "Angiv en sti til et bibliotek som oversættelser skal eksporteres fra.",
 	"0654a028e5aea48c": "INGEN",
+	"124328edcc87415b": "Angiv en sprogkode med \"--locale\".",
+	"17b6d98715597264": "Ignorerer strengen \"$1\"; ikke til stede i oversættelse kildefilen.",
+	"38877d794cbf1943": "Angiv et projektnavn at eksportere strenge under med \"--as\".",
 	"3b87bed5eefca3c1": "Rå strenge",
 	"49427ff57fe09816": "KØN",
+	"5394e163b2751641": "Sprogkode for den genererede kilde.",
+	"5641f04d9980459c": "Angiv et klassenavn med \"--class\".",
 	"70cca40d69431794": "Læs $1 streng(e).",
+	"7516972ad3f67814": "Klassenavn der skal genereres.",
+	"79e0ecf9d32e5b43": "Frekvensdata",
+	"7c0edb1e7c0dcf2a": "Angiv en JSON kildefil med \"--source\".",
 	"b230c79422fb6249": "Skriver data ($1, $2) til \"$3\"...",
 	"c435945f8f07345d": "Anvendes i:",
 	"c732898ac3089782": "Engelske strenge",
 	"c9d24cf2f05e3bcb": "Kontekst strenge",
+	"ccadbcf74331a452": "Angiv et projektnavn med \"--project\".",
+	"d37b3f801e2ed13d": "Variabeltyper: $1.",
+	"da7f7fad3fb76450": "Angiv en udgangsfil med \"--out\".",
 	"e2bcda84facb3954": "Fuldført.",
+	"eab817b44c709f8e": "Placering some den genererede oversættelsesfil skal skrives til.",
 	"f3514b3c6942c1c2": "FLERTAL"
 }
