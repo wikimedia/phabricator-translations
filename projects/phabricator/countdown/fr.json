@@ -3,7 +3,8 @@
 		"authors": [
 			"Alacabe",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Gomoko"
 		]
 	},
 	"048a1e4654f636e4": "DETAILS DU COMPTE A REBOURS",
@@ -25,15 +26,20 @@
 	"55ad67b37f1ca688": "Politique de modification par défaut pour les nouveaux comptes à rebours.",
 	"55ea310cf51ef846": "$1 a mis à jour la descrition du compte à rebours pour $2.",
 	"587925a62430ba17": "Appliquer les transactions pour créer un nouveau compte à rebours ou en modifier un existant.",
+	"5fbf5eab5e2b2ec7": "$1 a mis à jour la description du compte à rebours.",
 	"6023b91078f688e7": "Le titre du compte à rebours.",
+	"62a00be90d082f9e": "Garder trace des dates de lancement à venir avec les compteurs inclus.",
+	"6332d789eb041438": "Date de fin (future au passé)",
 	"6f8c41359fec8ee1": "Derniers mots",
 	"79e6b9fe6aa0db26": "Nouvelle description.",
 	"83c36c442037dfc3": "Modifier le compte à rebours",
 	"84b1478125890bad": "Date de fin",
+	"863957b8eeda67cd": "Contempler l’infini",
 	"882f55d271f50dd6": "MODIFICATIONS DE LA DESCRIPTION DU COMPTE A REBOURS",
 	"902aa71df1ae1292": "Description du compte à rebours.",
 	"97324efac71c4024": "$1 a modifié la fin du compte à rebours pour $2 de $3 en $4.",
 	"9e25a34e635a123f": "Heures",
+	"9fb0cd178fcb9ebe": "Date de fin (passée au futur)",
 	"a045d67672ccfeca": "Les comptes à rebours doivent avoir un titre.",
 	"a812d3ef9639a2a5": "Compte à rebours d'événements",
 	"aa6ff0d406f19dd3": "Renommer le compte à rebours.",

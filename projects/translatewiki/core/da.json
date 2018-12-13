@@ -17,6 +17,8 @@
 	"7516972ad3f67814": "Klassenavn der skal genereres.",
 	"79e0ecf9d32e5b43": "Frekvensdata",
 	"7c0edb1e7c0dcf2a": "Angiv en JSON kildefil med \"--source\".",
+	"8941bccc95e2dd69": "JSON-kilde fil som indeholder oversættelse strenge.",
+	"9cb7bf6f5a17cea5": "Eksporter oversættelse strenge fra et libphutil-bibliotek.",
 	"b230c79422fb6249": "Skriver data ($1, $2) til \"$3\"...",
 	"c435945f8f07345d": "Anvendes i:",
 	"c732898ac3089782": "Engelske strenge",

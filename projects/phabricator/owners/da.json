@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"08f3ddff9bde36f9": "Pakkenavn er påkrævet.",
+	"0a6e95112bbbffc9": "Opret ny pakke",
+	"0fde8b2eba5faae5": "Søg efter aktive eller arkiverede pakker.",
+	"11c54a59d8a9668f": "Inkluder",
+	"14ba6bb701ba9dd2": "Inkluderede stier",
+	"257e3722a914c949": "Validerer...",
+	"32436d1838e79f4a": "$1 opdaterede stierne for denne pakke.",
+	"428e4ae9b0245e17": "Pakker: Ugyldig ejer",
+	"47d48fb4a761c223": "Parameteren bør være et phid.",
+	"53c1615e014b5b17": "Pakker: $1",
+	"579233b2c4792415": "ejer",
+	"5aa365bf7056603a": "Pakkebeskrivelsen.",
+	"609dcac2c813e4a7": "Indtast et pakkenavn eller en funktion...",
+	"64c56f25bc35c49e": "Gem stier",
+	"6d9ecdc060fe1250": "Rediger stier",
+	"8bfada821419f7b1": "Svag",
+	"b026ad400fa6af6d": "Opret en pakke",
+	"bd376c62a55079f1": "$1 arkiverede denne pakke.",
+	"c8147b0d0fbe2617": "Abonner på alle ændringer",
+	"cf846870537119b7": "Stærk",
+	"d57b81caf3be992b": "Pakker: ...",
+	"d88b8dae2a2d3007": "Aktiver pakke",
+	"d9002e314e46fbc3": "Denne pakke vil blive aktiv igen.",
+	"d938416de69b38b5": "$1 opdaterede beskrivelsen for denne pakke.",
+	"e1b2e84b66283897": "$1 aktiverede denne pakke.",
+	"e51e5ac04a297cf2": "Liste over pakkeejere.",
+	"e58ec015a58781a0": "Aktiv eller arkiveret status for denne pakke.",
+	"e80244927c08b759": "Forventede bruger/projekt-PHID for ejer, fik $1.",
+	"e9678973612b14ea": "$1 fjernede $2 ejer(e): $3.",
+	"ebf0167ce96b28e3": "Rediger stier: $1",
+	"ec4c1048188f4b55": "Palle $1",
+	"f121f03b346dc72f": "Tilføj ny sti",
+	"f4610974c0efc565": "Aktive pakker",
+	"f4c16b17ee40f587": "Ekskluder",
+	"f68fa19d33bd9d1d": "Arkiver pakke"
+}
