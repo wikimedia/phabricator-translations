@@ -5,6 +5,7 @@
 		]
 	},
 	"01f55bf10a17e740": "Stien til dokumentet.",
+	"045bc6c93af84113": "Dokumentet findes ikke.",
 	"0a834d8b7ab45f70": "Dette dokument blev flyttet fra $1.",
 	"0bcbc5e9740f8ee2": "Et flyttet dokument kan ikke flyttes igen.",
 	"0c3091edafbec0d1": "Næste ændring »",
@@ -12,8 +13,16 @@
 	"0fc28db091e83c15": "Flyttet",
 	"251cc6c566d6fde4": "Overskriv ændringer",
 	"26f7b3ad79583865": "Kan ikke slette dokumentet!",
+	"2d40c7f9ffeda6d6": "Der er intet dokument her, men du kan oprette det.",
 	"3c25ce154a917b9c": "Mere...",
+	"3c367ef35a00f49f": "Titlen på et dokument ændres.",
+	"470633416556b7fc": "Nuværende sti",
+	"49bc79f402e8e620": "(Ikke-navngivet dokument)",
 	"4f9be057f0ea5d2b": "Indhold",
+	"55f2250615fec200": "Sidste forfatter",
+	"5e7169b52a97cd95": "Rediger dette dokument",
+	"69068fa8718451b6": "Wikidokumenter",
+	"6a93f78067a9da95": "Opret dette dokument",
 	"6d65ea1ca0a74675": "$1 slettede dette dokument.",
 	"7311115efa31a1c8": "Et dokument der allerede er slettet kan ikke slettes.",
 	"76e01e2b390f592d": "Stub",
@@ -48,6 +57,7 @@
 	"e8e98c32d759487d": "$1 flyttede dette dokument til $2",
 	"e934de8564da9b0e": "Tomt dokument",
 	"ea23c7d5b2b63717": "Flyt her",
+	"eef39e7028a5a39d": "Ny sti",
 	"f4cf01e25172d976": "Seneste ændring",
 	"ffc72dd82c714d3a": "Flyt væk"
 }
