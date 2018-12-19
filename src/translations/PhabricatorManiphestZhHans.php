@@ -76,6 +76,7 @@ final class PhabricatorManiphestZhHans
       '%s edited %s commit(s), added %s: %s; removed %s: %s.' => '%s编辑了%s次提交，添加了%s个：%s；移除了%s个：%s。',
       'Edit Related Tasks...' => '编辑相关任务...',
       '%s created subtask %s.' => '%s创建了子任务%s。',
+      'Bulk Edit Selected »' => '已选择批量编辑 »',
       'Can Bulk Edit Tasks' => '可以大量编辑任务',
       'Open Closed' => '打开关闭的',
       'Current task owner, if task is assigned.' => '当前的任务分配者，如果任务已分配的话。',

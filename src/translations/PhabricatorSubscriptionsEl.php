@@ -9,6 +9,8 @@ final class PhabricatorSubscriptionsEl
 
   protected function getTranslations() {
     return array(
+      'Mute' => 'Σίγαση',
+      'Subscriber' => 'Συνδρομητής',
       'subscribers' => 'Συνδρομητές',
       'Remove me as a subscriber' => 'Αφαίρεσέ με ως συνδρομητή.',
       'Remove subscribers.' => 'Αφαίρεση συνδρομητών',

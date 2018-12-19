@@ -1,0 +1,8 @@
+{
+  "phabricator.uri": "https://phabricator.wikimedia.org/",
+  "repository.callsign": "PHTR",
+  "load": ["src/"],
+  "base": "arc:amended, git:HEAD^",
+  "history.immutable": false
+}
+

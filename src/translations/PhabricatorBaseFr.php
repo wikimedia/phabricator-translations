@@ -21,6 +21,7 @@ final class PhabricatorBaseFr
       'No application!' => 'Pas d\'application !',
       '%s Application' => '%s Application',
       'Email Verification Required' => 'Vérification nécessaire de l\'adresse courriel',
+      'Application Controller, No Login Required' => 'Contrôleur d’application, pas de connexion requise',
       'Developer Tools' => 'Outils du développeur',
       'This application is required for Phabricator to operate, so all users must have access to it.' => 'Cette application est nécessaire pour que Phabricator puisse fonctionner, donc tous les utilisateurs doivent y avoir accès.',
       'Expect user \'%s\' to be denied access to \'%s\'.' => 'L’utilisateur \'%s\' est censé ne pas avoir le droit d’accéder à \'%s\'.',

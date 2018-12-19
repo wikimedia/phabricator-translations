@@ -345,6 +345,7 @@ final class PhabricatorConfigFr
       'User Guide: Amazon RDS' => 'Guide utilisateur : Amazon RDS',
       'Repository %s has an ambiguous leader.' => 'Le dépôt %s a un chef ambigu.',
       'Configuration of the notification server has changed substantially. For discussion, see T10794.' => 'La configuration du serveur de notification a grandement changé. Pour la discussion, voir T10794.',
+      'Read option value from stdin.' => 'Lire la valeur de l’option depuis stdin.',
       'Database source is not configured properly' => 'La source de base de données n’est pas configurée correctement',
       'Phabricator sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
     This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'Phabricator s’est envoyé une requête avec « Accept-Encoding: gzip », mais a reçu une réponse non compressée.
@@ -360,6 +361,7 @@ final class PhabricatorConfigFr
       'Embed YouTube videos' => 'Vidéos YouTube incluses',
       'Add One Path' => 'Ajouter un chemin',
       'Clear Cache' => 'Vider le cache',
+      'MySQL Native Driver Not Available' => 'Le pilote natif MySQL n’est pas disponible',
       'Unignore this setup issue?' => 'Ne plus ignorer ce problème d’installation ?',
       'Configure Mail.' => 'Configurer le courriel.',
       'Determines which URI protocols are auto-linked.' => 'Détermine quels protocoles d’URI sont liés automatiquement.',
@@ -521,6 +523,7 @@ final class PhabricatorConfigFr
       'Maximum number of taskmaster daemons to run at once. Raising this can increase the maximum throughput of the task queue. The pool will automatically scale down when unutilized.' => 'Nombre maximal de démons du gestionnaire de tâches à lancer à la fois. L’augmenter peut accroître le débit maximal de la file de tâches. La réserve sera automatiquement réduite si elle n\'est pas utilisée.',
       'Phabricator now automatically selects the best available MySQL implementation.' => 'Phabricator sélectionne dorénavant automatiquement la meilleure implémentation disponible de MySQL.',
       'Force users to connect via HTTPS instead of HTTP.' => 'Forcer les utilisateurs à se connecter via HTTPS au lieu de HTTP.',
+      'Install the MySQLi extension to improve database behavior.' => 'Installer l’extension MySQLi pour améliorer le comportement de la base de données.',
       'Large Files' => 'Gros fichiers',
       'Mark a manual upgrade activity as complete.' => 'Marquer une activité de mise à jour manuelle comme terminée.',
       '%s Not Set' => '%s non fixé',
@@ -554,6 +557,7 @@ final class PhabricatorConfigFr
       'Your webserver produced an unexpected response.' => 'Votre serveur web a retourné une réponse inattendue.',
       'Phabricator now automatically discovers available search engines at runtime.' => 'Phabricator découvre maintenant automatiquement les moteurs de recherche au moment de l\'exécution.',
       'Unable to determine the version number of "%s".' => 'Impossible de déterminer le numéro de version de « %s ».',
+      'PHP OPcache Documentation' => 'Documentation OPcache de PHP',
       'Config key "%s" is of type "%s". Specify it in JSON.' => 'La clé de configuration « %s » est de type « %s ». La spécifier en JSON.',
       'Cluster: Databases' => 'Groupement : bases de données',
       'No Messages' => 'Pas de message',
@@ -594,6 +598,11 @@ final class PhabricatorConfigFr
     %s',
       'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded: %s' => 'La valeur pour l’option « %s » (de type « %s ») doit être spécifiée en JSON, mais l’entrée n’a pas pu être décodée : %s',
       'Database host "%s" has a configured cluster state which disagrees with the state on this host ("%s"). Run `bin/storage partition` to commit local state to the cluster. This host may have started with an out-of-date configuration.' => 'L’hôte de la base de données « %s » a un état de grappe configuré qui est en conflit avec l’état de cet hôte (« %s »). Lancez `bin/storage partition` pour valider l’état local dans la grappe. Cet hôte peut avoir démarré avec une configuration périmée.',
+      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
+    Phabricator will work with the older extension, but upgrading to the newer extension is recommended.
+    You may be able to install the extension with a command like: %s' => 'PHP utilise actuellement la très ancienne extension « mysql » pour interagir avec la base de données. Vous devriez installer l’extension plus récente « mysqli » pour améliorer les comportements (comme la gestion d’erreurs et les délais de requête).
+    Phabricator fonctionnera avec l’ancienne extension, mais mettre à jour vers l’extension plus récente est recommandé.
+    Vous devriez pouvoir installer l’extension avec une commande comme : %s',
       'Largest' => 'Le plus grand',
       'Set the URI that Phurl will use to share shortened URLs.' => 'Définir l’URI que Phurl utilisera pour partager les URL raccourcies.',
       'Phabricator users can make requests to other services from the Phabricator host in some circumstances (for example, by creating a repository with a remote URL or having Phabricator fetch an image from a remote server).
@@ -627,6 +636,7 @@ final class PhabricatorConfigFr
       'Missing \'%s\' Binary' => 'Binaire \'%s\' manquant',
       'Charset' => 'Jeu de caractères',
       'The framable public feed is no longer supported.' => 'Le fil public pouvant être encadré n’est plus supporté.',
+      'A random, unique string which identifies the request.' => 'Une chaîne aléatoire unique qui identifie la requête.',
       'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. Phabricator can not determine the correct endpoint automatically because some endpoint locations are irregular.' => 'Point de terminaison S3 explicite. Cela devrait être le point de terminaison qui correspond à la région que vous avez sélectionnée dans `amazon-s3.region`. Phabricator ne peut pas déterminer automatiquement le bon point de terminaison parce que certains emplacements de point de terminaison sont irréguliers.',
       'Phabricator now always sends transaction mail with "Precedence: bulk" to improve deliverability.' => 'Phabricator envoie maintenant toujours un courriel de transaction avec « Precedence:bulk » pour améliorer la capacité de livraison.',
       '%s Day(s)' => '%s jour(s)',
@@ -747,6 +757,7 @@ final class PhabricatorConfigFr
       'Amazon S3 is Only Partially Configured' => 'Amazon S3 n\'est que partiellement configuré',
       'Phabricator no longer supports global customization of monospaced fonts.' => 'Phabricator ne supporte plus la personnalisation globale de polices à espacement fixe.',
       '<none>' => '<none>',
+      'Customize favicons.' => 'Personnaliser les favicons.',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because it is not traversable (its \'%s\' permission bit is not set).' => 'Le composant PATH \'%s\' (qui est traduit dans le chemin absolu \'%s\') n’est pas utilisable parce qu’il ne peut pas être traversé (son bit de droit \'%s\' n’est pas mis).',
       'SMS' => 'SMS',
       'No Repositories' => 'Aucun dépôt',
@@ -819,6 +830,7 @@ final class PhabricatorConfigFr
       'Activate read-only mode for maintenance or disaster recovery.' => 'Activer le mode lecture seule pour la maintenance ou la récupération de crash.',
       'Specify a configuration key and a value to set it to.' => 'Spécifier une clé de configuration et une valeur à laquelle la fixer.',
       'PHP also loaded these %s configuration file(s):' => 'PHP a aussi chargé ces %s fichier(s) de configuration :',
+      'Reading value from stdin...' => 'Lecture de la valeur depuis stdin…',
       'Option "%s" is of type "%s", but the value you provided is not a valid JSON list: when providing a set from the command line, specify it as a list of values in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'L’option « %s » est de type « %s », mais la valeur que vous avez fournie n’est pas une liste JSON valide : en fournissant un ensemble depuis la ligne de commande, spécifiez-la comme une liste de valeurs en JSON. Vous devez mettre entre guillemets la valeur pour votre shell (par exemple : \'["a", "b", ...]\').',
       'To rebuild the index, run this command:' => 'Pour reconstruire l’index, exécutez cette commande :',
       'Disable Recaptcha' => 'Désactiver Recaptcha',
@@ -895,6 +907,7 @@ final class PhabricatorConfigFr
       'Disable access log.' => 'Désactiver le journal d’accès.',
       'Logo configuration is not valid: value must be a dictionary.' => 'La configuration du logo n’est pas valide : la valeur doit être un dictionnaire.',
       'Really ignore this setup issue?' => 'Vraiment ignorer ce problème d’installation ?',
+      'Config option "%s" is invalid. The URI must start with "%s" or "%s".' => 'L’option de configuration  « %s » n’est pas valide. L’URI doit commencer par « %s » ou « %s ».',
       'Phabricator supports syntax highlighting a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
     To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
     Once Pygments is installed, enable this option (`pygments.enabled`) to make Phabricator use Pygments when highlighting source code.
@@ -906,6 +919,7 @@ final class PhabricatorConfigFr
       'Allow HTTP' => 'Permettre HTTP',
       'The current Phabricator configuration has these %d value(s):' => 'La configuration actuelle de Phabricator a ces %s valeurs :',
       'Simple Example' => 'Exemple simple',
+      'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => 'Contrôler si Phabricator permet la suppression de courriel de la part des utilisateurs de « maintenance ».',
       'Synchronized' => 'Synchronisé',
       'Access key for Amazon EC2.' => 'Clé d’accès pour Amazon EC2.',
       '%s Component Unusable' => '%s composant inutilisable',
@@ -942,6 +956,7 @@ final class PhabricatorConfigFr
     Si le paramètre actuel vous satisfait, vous pouvez sans souci ignorer cet avertissement d’installation.',
       'Show "To:" and "Cc:" footer hints in email.' => 'Afficher les conseils concernant « À : » et « Copie cachée : » en bas de page dans le courriel.',
       'Write SSH log here.' => 'Écrire le journal SSH ici.',
+      'You can find more information about configuring OPcache in the %s.' => 'Vous pouvez trouver plus d’information sur la configuration de OPcache dans le %s.',
       'PHP Timezone' => 'Fuseau horaire PHP',
       'Missing Sendmail' => 'Sendmail absent',
       'This option is not recognized. It may be misspelled.' => 'Cette option n\'est pas reconnue. Veuillez vérifier l\'orthographe.',
@@ -1004,6 +1019,7 @@ final class PhabricatorConfigFr
       'Use Pygments' => 'Utiliser Pygments',
       'Amazon Web Services' => 'Services web Amazon',
       'US Central (CDT)' => 'États-Unis Central (CDT)',
+      'Config option "%s" is invalid. The URI must contain a dot ("%s"), like "%s", not just a bare name like "%s". Some web browsers will not set cookies on domains with no TLD.' => 'L’option de configuration « %s » n’est pas valide. L’URI doit contenir un point (« %s »), comme « %s », pas seulement un nom simple comme « %s ». Certains navigateurs web ne définissent pas de cookies sur des domaines sans TLD.',
       '%s Active' => '%s actif',
       'Subschemata Have Warnings' => 'Le sous-schéma a des avertissements',
       'The base URI for this install is not configured, and major features will not work properly until you configure it.
@@ -1065,9 +1081,11 @@ final class PhabricatorConfigFr
       'MySQL username to use when connecting to the database.' => 'Nom d’utilisateur MySQL à utiliser pour se connecter à la base de données.',
       'Secret key for Amazon EC2.' => 'Clé secrète pour Amazon EC2.',
       'Database Issues' => 'Problèmes de base de données',
+      'Configure the MySQL Native Driver to improve database behavior.' => 'Configurer le pilote natif MySQL pour améliorer le comportement de la base de données.',
       'You must start the Phabricator daemons to send email, rebuild search indexes, and do other background processing.' => 'Vous devez démarrer les démons de Phabricator pour envoyer des courriels, reconstruire les index de recherche, et faire d’autres traitements en tâche de fond.',
       'PHP requires that you set a timezone in your php.ini before using date functions, or it will emit a warning. If this isn\'t possible (for instance, because you are using HPHP) you can set some valid constant for %s here and Phabricator will set it on your behalf, silencing the warning.' => 'PHP exige que vous définissiez un fuseau horaire dans votre php.ini avant d’utiliser les fonctions de date, ou bien il émettra un avertissement. Si cela n’est pas possible (par exemple, parce que vous utilisez HPHP), vous pouvez mettre ici une constante valide pour %s, et Phabricator la mettra à votre place, pour faire taire l’avertissement.',
       'These %d configuration value(s) are related:' => 'Ces %s valeurs de configuration sont liées :',
+      'Too many arguments: expected only a key when using "--stdin".' => 'Trop d’arguments : seule une clé est attendue en utilisant « --stdin ».',
       'Names must match to compare schemata!' => 'Les noms doivent correspondre à un schéma de comparaison !',
       'Core Settings' => 'Paramètres centraux',
       'Set \'%s\' in %s configuration.' => 'Mettre \'%s\' dans la configuration %s.',
@@ -1107,6 +1125,7 @@ final class PhabricatorConfigFr
       'Separate values with newlines or commas.' => 'Séparer les valeurs avec de nouvelles lignes ou des virgules.',
       'Don\'t require email verification' => 'Ne nécessite pas de vérification du courriel',
       'Alternate File Domain Not Configured' => 'Domaine de fichier alternatif non configuré',
+      'MySQLi Extension Not Available' => 'L’extension MySQLi est non disponible',
       'Newly registered Phabricator accounts can either be placed into a manual approval queue for administrative review, or automatically activated immediately. The approval queue is enabled by default because it gives you greater control over who can register an account and access Phabricator.
     If your install is completely public, or on a VPN, or users can only register with a trusted provider like LDAP, or you\'ve otherwise configured Phabricator to prevent unauthorized registration, you can disable the queue to reduce administrative overhead.
     NOTE: Before you disable the queue, make sure {{auth.email-domains}} is configured correctly for your install!' => 'Les comptes Phabricator nouvellement inscrits peuvent soit être mis dans une file d’approbation manuelle pour une relecture administrative, ou être activés automatiquement immédiatement. La file d’approbation est activée par défaut parce qu’elle vous donne un meilleur contrôle sur qui peut inscrire un compte et accéder à Phabricator.
@@ -1144,6 +1163,11 @@ final class PhabricatorConfigFr
     Pour résoudre ce problème, mettre toutes ces politiques à « Tous les utilisateurs », après avoir fait les modifications de personnalisation de formulaire nécessaires.',
       'HTTP Parameter Types' => 'Types de paramètre HTTP',
       'Mangled Webserver Response' => 'Réponse du serveur web perturbée',
+      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow Phabricator to interact better with the database.
+    Phabricator will work with the older driver, but upgrading to the native driver is recommended.
+    You may be able to install the native driver with a command like: %s' => 'PHP utilise actuellement l’ancien pilote MySQL externe au lieu du nouveau pilote MySQL natif. L’ancien pilote n’a pas les options et fonctionnalités (comme le support des durées limite de requête) qui permet à Phabricator d’interagir mieux avec la base de données.
+    Phabricator fonctionnera avec l’ancien pilote, mais une mise à jour vers le nouveau pilote est recommandée.
+    Vous pouvez installer le pilote natif avec une commande comme : %s',
       'Setup issues to ignore.' => 'Problèmes d’installation à ignorer.',
       'By default, Phabricator links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Par défaut, Phabricator lie les noms d’objet dans les champs de Remarkup à l’objet correspondant. Cette expression régulière peut être utilisée pour modifier ce comportement ; les noms d’objet qui correspondent à cette expression régulière ne seront pas liés.',
       'Directory that the daemons should use to store log files.' => 'Répertoire que les démons doivent utiliser pour stocker les fichiers de trace.',

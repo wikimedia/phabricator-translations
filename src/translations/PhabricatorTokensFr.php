@@ -11,6 +11,7 @@ final class PhabricatorTokensFr
     return array(
       'Goat' => 'Chèvre',
       'Grey Medal' => 'Médaille grise',
+      '100',
       'Rescind Token' => 'Annuler un jeton',
       'Love' => 'Amour',
       'Query tokens.' => 'Demander des jetons.',

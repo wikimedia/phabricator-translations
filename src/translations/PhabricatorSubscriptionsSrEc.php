@@ -9,6 +9,7 @@ final class PhabricatorSubscriptionsSrEc
 
   protected function getTranslations() {
     return array(
+      'Subscriber' => 'Претплатник',
       'subscribers' => 'пратиоци',
       'Remove me as a subscriber' => 'Уклони ме као пратиоца',
       'Remove subscribers.' => 'Уклони пратиоце.',

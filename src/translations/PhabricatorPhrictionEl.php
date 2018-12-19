@@ -27,6 +27,7 @@ final class PhabricatorPhrictionEl
       'There is no document here, but you may create it.' => 'Δεν υπάρχει έγγραφο εδώ, αλλά μπορείτε να δημιουργήσετε.',
       'Edit Notes' => 'Σημειώσεις επεξεργασίες',
       'Phriction Wiki Document' => 'Έγγραφο βίκι του Phriction',
+      'To edit a wiki document, you must also be able to view all of its ancestors.' => 'Για να επεξεργαστείτε ένα έγγραφο του βίκι, θα πρέπει επίσης να έχετε την δυνατότητα να δείτε όλους τους γονείς του.',
       'Content Changes' => 'Αλλαγές περιεχομένου',
       'Document Hierarchy' => 'Ιεραρχία του εγγράφου',
       'This document was moved from elsewhere.' => 'Αυτό το έγγραφο μετακινήθηκε από αλλού.',

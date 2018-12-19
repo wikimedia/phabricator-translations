@@ -87,6 +87,7 @@ final class PhabricatorBadgesFr
       'Award' => 'Récompense',
       'Awarded by %s on %s' => 'Décerné par %s sur %s',
       'Change the badge icon.' => 'Modifier l’icône du badge.',
+      '%s updated the quality of %s from %s to %s.' => '%s a mis à jour la qualité de %s de %s en %s.',
       'Quality' => 'Qualité',
       'Archive Badge' => 'Archiver le badge',
       'CHANGES TO BADGE DESCRIPTION' => 'MODIFICATIONS DE LA DESCRIPTION DU BADGE',

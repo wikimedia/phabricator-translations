@@ -1,0 +1,113 @@
+<?php
+
+final class PhabricatorDaemonFr
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'fr';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'There are no running daemons to reload.' => 'Il n’y a pas de démon s’exécutant à recharger.',
+      'Temporary Failures' => 'Erreurs temporaires',
+      'Show only local daemons.' => 'Afficher seulement les démons locaux.',
+      'Clock' => 'Horloge',
+      'Leased' => 'Emprunté',
+      'Unable to stop processes running without PID files. Try running this command again with sudo.' => 'Impossible d’arrêter les processus tournant sans fichiers PID. Essayez de relancer cette commande avec sudo.',
+      'Starting daemons as %s' => 'Démarrage des démons en tant que %s',
+      'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Redémarrer aimablement les processus démon sur place pour prendre en compte les modifications dans les sources. Cela ne perturbera pas les tâches s’exécutant. C’est un processus avancé ; la plupart es installations devraient utiliser __%s__.',
+      'Show %d more character(s)...' => array(
+        'Afficher %s caractère supplémentaire...',
+        'Afficher %s caractères supplémentaires...',
+      ),
+      'Retries' => 'Nouvelles tentatives',
+      'Shutting Down' => 'En cours d’arrêt',
+      'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'Ce démon n’a pas signalé de mise à jour d’état récente (pendant %s). Il peut s’être terminé brutalement. Après %s, il sera présumé mort.',
+      'This daemon has been lost or exited uncleanly, and is presumed dead.' => 'Ce démon a été perdu ou ne s’est pas arrêté proprement; il est supposé mort.',
+      'Terminating process %d...' => 'Tâche se terminant %s...',
+      'Running as' => 'Exécution en tant que',
+      'No daemons match \'%s\'! Use \'%s\' for a list of available daemons.' => 'Aucun démon ne correspond à \'%s\' ! Utiliser \'%s\' pour une liste des démons disponibles.',
+      'Overseer' => 'Superviseur',
+      'No such daemon "%s"!' => 'Pas de démon « %s » !',
+      'Archived Tasks' => 'Tâches archivées',
+      'No tasks have completed in the last 15 minutes.' => 'Aucune tâche ne s\'est terminée dans le dernier quart d’heure.',
+      'Task Class' => 'Classe de tâche',
+      'Queued Tasks' => 'Tâches dans la file',
+      'This daemon is shutting down.' => 'Ce démon est en cours d’arrêt.',
+      'Leased Tasks' => 'Tâches empruntées',
+      'Enable, disable, or show the lock log.' => 'Activer, désactiver ou afficher le journal des verrous.',
+      'Event %s' => 'Événement %s',
+      'All Daemons' => 'Tous les démons',
+      'This daemon encountered an error recently and is waiting a moment to restart.' => 'Ce démon a rencontré une erreur récemment et attend un moment avant de redémarrer.',
+      'Daemon %d %s [%s] %s' => 'Démon %s %s [%s] %s',
+      'There are processes running that look like Phabricator daemons but have no corresponding PID files:
+    %s
+    Stop these processes by re-running this command with the %s parameter.' => 'Il y a des processus qui tournent et qui ressemblent à des démons de Phabricator, mais qui n’ont pas de fichiers PID correspondant :
+    %s
+    Arrêter ces processus en relaçant cette commande avec le paramètre %s.',
+      'There are no upcoming event triggers.' => 'Il n\'y a pas de déclencheur d’événement imminent.',
+      'You must specify which daemon to launch.' => 'Vous devez spécifier quel démon lancer.',
+      'Run the daemon as the current user instead of the configured %s' => 'Lancer le démon avec l’utilisateur actuel plutôt que celui configuré, %s',
+      'Show %d more line(s)...' => array(
+        'Afficher %s ligne de plus…',
+        'Afficher %s lignes de plus…',
+      ),
+      'There are no running Phabricator daemons.' => 'Il n’y a pas de démons Phabricator en exécution.',
+      'Enabling the lock log.' => 'Activer le journal des verrous.',
+      'Reloading process %d...' => 'Rechargement du processus %s…',
+      'Lock Logs' => 'Journaux des verrous',
+      'Ignore running processes that look like daemons but do not have corresponding PID files.' => 'Ignorer les processus actifs qui ressemblent à des démons mais sans avoir les fichiers PID correspondants.',
+      'Not Leased' => 'Sans bail',
+      'This daemon is shutting down gracefully.' => 'Ce démon est en cours d\'arrêt doux.',
+      'You can not both "--enable" or "--disable" with search parameters like "--name".' => 'Vous ne pouvez pas utiliser à la fois « --enable » ou « --disable » avec les paramètres de recherche tels que  « --name ».',
+      'Stop all running daemons, or specific daemons identified by PIDs. Use **%s** to find PIDs.' => 'Arrêter tous les démons actifs, ou des démons spécifiques identifiés par leurs PIDs. Utilisez **%s**  pour retrouver les PIDs.',
+      'Task Does Not Exist' => 'La tâche n\'existe pas',
+      'Failures' => 'Échecs',
+      'Active Daemons' => 'Démons actifs',
+      'Unknown task status!' => 'Etat de tâche inconnu !',
+      'You can not specify conflicting options %s and %s together.' => 'Vous ne pouvez pas spécifier simultanément les options  conflictuelles %s et %s .',
+      'Show status of running daemons.' => 'Afficher l\'état des démons actifs.',
+      'Daemon' => 'Démon',
+      'Daemon Logs' => 'Journaux des démons',
+      'Not Completed' => 'Non terminé',
+      'Show a list of available daemons.' => 'Afficher une liste des démons disponibles.',
+      'Start daemons even if daemons are already running.' => 'Démarrer les démons même si les démons sont déjà actifs.',
+      'This task may have recently been garbage collected.' => 'Il est possible que cette tâche ait déja été nettoyée par le ramasse-miettes.',
+      'Start the standard configured collection of Phabricator daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Démarrez l\'ensemble configuré standard des démons de Phabricator. C\'est ce qui convient à la plupart des installations. Utilisez **%s** pour personnaliser les démons à activer.',
+      'Daemon Class' => 'Classe Daemon',
+      'No daemons to reload.' => 'Aucun démon à recharger.',
+      'Bulk Job %d' => 'Tâche de masse %s',
+      'Waiting For Confirmation' => 'En attente de confirmation',
+      'Seen' => 'Vu',
+      'This daemon is running normally and reported a status update recently (within %s). The process is currently waiting to restart, either because it is hibernating or because it encountered an error.' => 'Ce démon s\'exécute normalement et a rapporté une mise à jour récente de sont état (dans %s). Le processus est actuellement en attente de redémarrage, soit parce qu\'il est en hibernation, soit parce qu\'une erreur est survenue.',
+      'This daemon is running.' => 'Ce démon est actif.',
+      'Unknown status "%s"!' => 'Etat inconnu « %s » !',
+      'Maximum Retries' => 'Nombre maximum de renouvellements',
+      'Task %d' => 'Tâche %s',
+      'Next In Queue' => 'Suivant dans la file d\'attente',
+      'Retries Forever' => 'Renouvellement infini',
+      'Exiting' => 'Fermeture en cours',
+      'Held' => 'Maintenu',
+      'Argv' => 'Argv',
+      'You must launch at least one daemon.' => 'Vous devez démarrer au moins un démon.',
+      'Lock' => 'Vérrouiller',
+      'Lease Expired' => 'Bail expiré',
+      'Manage Bulk Jobs' => 'Gérer des tâches de masse',
+      'Log' => 'Journal',
+      'Disable the lock log.' => 'Désactiver le journal des verrouillages.',
+      'View Full Logs' => 'Voir les journaux complets',
+      'Start Work' => 'Commencer le travail',
+      'You can not both "--enable" and "--disable" the lock log.' => 'Vous ne pouvez pas utiliser à la fois « --enable » et « --disable » sur le journal des verouillages.',
+      'Dead' => 'Mort',
+      'Lock log is already disabled.' => 'Le journal des verrouillages est déjà désactivé.',
+      'Arguments' => 'Arguments',
+      'Last' => 'Dernier',
+      'Retries After' => 'Nouvelles tentatives après',
+      'Task %d: %s' => 'Tâche %s: %s',
+      'Started' => 'Démarré',
+      'Restart daemons to apply changes.' => 'Redémarrer les démons pour appliquer les changements.',
+    );
+  }
+
+}

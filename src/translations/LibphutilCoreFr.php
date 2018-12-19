@@ -43,7 +43,7 @@ final class LibphutilCoreFr
       'You can not change the logfile after a write has occurred!' => 'Vous ne pouvez pas modifier le fichier de trace après qu’une écriture y ait été faite !',
       'English (Canada)' => 'Anglais (Canada)',
       'Found unexpected property at ICS document root.' => 'Propriété non attendue trouvée à la racine du document ICS.',
-      'ERROR' => 'ERREUR+',
+      'ERROR' => 'ERREUR',
       'Failed to create a temporary directory: the disk is full.' => 'Échec de création d’un répertoire temporaire : le disque est plein.',
       'Signal handler with key "%s" is already installed.' => 'Le gestionnaire de signal avec la clé « %s » est déjà installé.',
       'Summary diff with last change.' => 'Résumé de la différence avec la dernière modification.',

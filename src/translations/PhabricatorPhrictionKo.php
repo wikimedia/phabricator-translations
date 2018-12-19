@@ -49,6 +49,7 @@ final class PhabricatorPhrictionKo
       'No Document Here' => '여기에 문서가 없습니다',
       'Create this Document' => '이 문서 만들기',
       'Edits' => '편집',
+      'All Content' => '모든 내용',
       'Page Not Found' => '페이지를 찾을 수 없습니다',
       'New Document' => '새 문서',
       '%s moved this document to %s' => '%s님이 이 문서를 %s(으)로 이동했습니다',

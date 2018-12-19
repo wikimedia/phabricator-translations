@@ -14,6 +14,7 @@ final class PhabricatorTokensEl
       'Mountain of Wealth' => 'Βουνό του Πλούτου',
       'Grey Medal' => 'Γκρι Μετάλλιο',
       'Leader Board' => 'Λίστα κατάταξης',
+      '100',
       'Rescind Token' => 'Διαγράψτε το Οικόσημο',
       'Given by %s on %s' => 'Δίνεται από τον %s στον %s.',
       'Evil Spooky Haunted Tree' => 'Το κακό στοιχειωμένο δέντρο',

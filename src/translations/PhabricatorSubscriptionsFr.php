@@ -9,9 +9,13 @@ final class PhabricatorSubscriptionsFr
 
   protected function getTranslations() {
     return array(
+      'Mute' => 'Taire',
+      'Subscriber' => 'Abonné',
+      'Unmute Notifications' => 'Divulguer les notifications',
       'subscribers' => 'abonnés',
       'Remove me as a subscriber' => 'Me retirer en tant qu\'abonné',
       'Remove subscribers.' => 'Enlever des abonnés.',
+      'Unmute this object? You will receive notifications and email again.' => 'Faire parler cet objet ? Vous recevrez de nouveau les notifications et les courriels.',
       'Set subscribers, overwriting current value.' => 'Déclarer des abonnés, écrase la valeur actuelle.',
       'Support for Subscriptions' => 'Aide pour les abonnements',
       'Automatically Subscribed' => 'Abonné automatiquement',
@@ -21,9 +25,11 @@ final class PhabricatorSubscriptionsFr
       'Remove yourself as a subscriber.' => 'Me retirer en tant qu\'abonné.',
       'Search for objects with certain subscribers.' => 'Rechercher des objets avec certains abonnés.',
       'Subscribers can take this action.' => 'Les abonnés peuvent faire cette action.',
+      'Unmute' => 'Reactiver le son',
       'Remove subscribers' => 'Enlever des abonnés',
       'All %d subscribers removed by %s' => 'Tous les %s abonnés enlevés par %s',
       'Added Subscribers' => 'Abonnés ajoutés',
+      'Mute this object? You will no longer receive notifications or email about it.' => 'Taire cet objet ? Vous ne recevrez plus de notifications ni de courriels le concernant.',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Refus de réinscrire %s cible(s) car elles se sont désinscrites précédemment: %s.',
       'Removed %s subscriber(s): %s.' => '%s abonné(s) supprimé(s): %s.',
       'Unsubscribe' => 'Se désabonner',
@@ -33,8 +39,10 @@ final class PhabricatorSubscriptionsFr
       'Removed Subscribers' => 'Abonnés enlevés',
       'All %d subscribers added by %s' => 'Tous les %s abonnés ajoutés par %s',
       'Add me as a subscriber' => 'Ajoutez moi en tant qu\'abonné',
+      'Mute Notifications' => 'Taire les notifications',
       '%s automatically subscribed target(s) were not affected: %s.' => '%s cible(s) automatiquement souscrite(s) 
     n\'ont pas été affectées: %s.',
+      'Set subscribers to' => 'Fixer les utilisateurs à',
       'Choose subscribers.' => 'Choisir les abonnés.',
       '%s, %s, %s and %s' => '%s, %s, %s et %s',
       'Previously Unsubscribed' => 'Désincrit précédemment',

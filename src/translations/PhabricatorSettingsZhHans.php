@@ -48,6 +48,7 @@ final class PhabricatorSettingsZhHans
       'External Accounts' => '外部账户',
       'Disable Self Action Mail' => '禁用自我操作邮件',
       'Edit Settings Configurations' => '编辑设置配置',
+      'Mail Headers' => '邮件抬头',
       'Old Password' => '旧密码',
       'Display Preferences' => '显示参数设置',
       'Add Auth Factor' => '添加验证因素',
@@ -73,6 +74,7 @@ final class PhabricatorSettingsZhHans
     | 忽略 | 您将不会收到任何通知。
     如果更新做出了多个更改（例如添加CC至任务、关闭它和添加一段评论）您将收到最强通知，任何更改配置都会应用。
     这些参数设置**只**应用到您连接的对象（例如您作为修订者的修订，或将您CC到的任务）。要接收创建的其他对象的电子邮件提醒，请配置[[ /herald/ | 传令规则 ]]。',
+      'You must enter your current password.' => '您必须输入正确的密码。',
       'Europe: 28-02-2000' => '欧洲：28-02-2000',
       'Enable Filetree' => '启用文件树',
       '◐ Notify' => '◐通知',
