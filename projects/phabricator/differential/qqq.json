@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
 	"0063efbde77d19e7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/controller/DifferentialDiffViewController.php$98 DifferentialDiffViewController.php:98]",
 	"01a9e2bd303ca0a2": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/conduit/DifferentialQueryConduitAPIMethod.php$112 DifferentialQueryConduitAPIMethod.php:112]",
 	"01ad6994a4ed7cf0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/editor/DifferentialRevisionEditEngine.php$220 DifferentialRevisionEditEngine.php:220]",
@@ -314,7 +318,7 @@
 	"5c2affc6fbdac22d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/view/DifferentialChangesetListView.php$295 DifferentialChangesetListView.php:295]",
 	"5cb5ce63083d60ea": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/render/DifferentialChangesetHTMLRenderer.php$236 DifferentialChangesetHTMLRenderer.php:236]",
 	"5cb97e1dd13ea145": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/mail/DifferentialCreateMailReceiver.php$79 DifferentialCreateMailReceiver.php:79]",
-	"5d220fb073b7f129": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/application/PhabricatorDifferentialApplication.php$40 PhabricatorDifferentialApplication.php:40]",
+	"5d220fb073b7f129": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/application/PhabricatorDifferentialApplication.php$40 PhabricatorDifferentialApplication.php:40]\n\nDo not translate Differential.",
 	"5d6102072a6a5bf4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/view/DifferentialChangesetListView.php$230 DifferentialChangesetListView.php:230]",
 	"5d974201fe779a4d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/render/DifferentialChangesetHTMLRenderer.php$104 DifferentialChangesetHTMLRenderer.php:104]",
 	"5e1330ea8b7e2dc1": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/differential/controller/DifferentialRevisionViewController.php$265 DifferentialRevisionViewController.php:265]",
