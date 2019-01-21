@@ -5,9 +5,20 @@
 			"Zarisi"
 		]
 	},
+	"05fe7803b131a33c": "Récupérer les informations concernant un PHID arbitraire.",
+	"0a751e41cfcf8b01": "La référence demandée « $1 » n'a pas été chargée.",
+	"131ada2c91031e5e": "Les références doivent utiliser l'afficheur des références du cache.",
+	"1498233146466f1f": "$1 restreint",
+	"1db177fa2f0941e1": "Tentative pour muter un $1, mais cela n'est pas permis; les listes de références ne sont pas mutables.",
 	"4270ca6ab8fde311": "Les objets que vous avez listés comportent des objets d'un mauvais type ($1)",
+	"5920c81577d44070": "Paquet de test des requêtes",
+	"6931f523cee8baba": "Courriel d'application",
+	"6e5d870b8888a21e": "Recherche d'objets par leur nom.",
+	"7191d0b67d43f89e": "Tentative de rendu d'une référence qui n'existe pas !",
+	"750d3b61b047e337": "Récupérer les informations concernant des PHID arbitraires.",
 	"8c323456ce8fea71": "Objet inconnu ($1)",
 	"9dc304f07ed386a3": "Les objets que vous avez listés comportent des objets qui n'existe pas ($1)",
+	"d0636307d6924a2a": "Remplacé par 'phid.query'.",
 	"ea5edb74faa34ae6": "Les objets que vous avez listés comportent des objets d'un mauvais type ($1) et des objets qui n'existent pas ($2).",
 	"ebf8f6f3f90a4f6f": "Pas d'objets de ce type.",
 	"f4d10da4d9776085": "Impossible de générer un PHID sans type."

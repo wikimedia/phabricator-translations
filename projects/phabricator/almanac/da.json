@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saederup92"
+			"Saederup92",
+			"Palnatoke"
 		]
 	},
 	"02a9a0412b384fbf": "Navn på tjenesten.",
@@ -11,6 +12,7 @@
 	"06b03b97d72a803c": "Indbygget egenskab",
 	"093321228c96ab06": "Navn på netværket.",
 	"0d2a0a7ef2b33d75": "Enhed $1",
+	"1014f5db26547beb": "Tilføj grænseflade",
 	"11bfc4c50a69d4a5": "Almanac navnerum",
 	"1c5a8c58a5ac4629": "Opret tjeneste",
 	"2e87516317bb6667": "Rediger navnerum",
@@ -28,6 +30,7 @@
 	"49d2c9c065a6d0ad": "Rediger netværk",
 	"4b4cc5e7b840935d": "Rediger tjeneste",
 	"4becf080f28c92dd": "Opret navnerum",
+	"52545532d7900049": "Grænseflade $1",
 	"53ebc572b4a44802": "Netværk",
 	"555d04c86e10c134": "Opret netværk",
 	"572faf69610721e0": "Navnet på netværket.",
@@ -60,14 +63,17 @@
 	"9109cec1d70311d8": "Almanac",
 	"91e6a4f50ffaed9b": "Navnet på navnerummet.",
 	"91f6af0ab97e14ee": "Indtast et tjenestenavn...",
+	"91fb4b893225bf6e": "Almanac navnerum",
 	"926527594f94772f": "VIGTIGT!",
 	"972a8de633494444": "$1 oprettede denne enhed.",
+	"9c1e964bb4ee502a": "Redigér grænseflade",
 	"9d2b22234e4f64d7": "$1 fjernede egenskaben $2.",
 	"9d434c4f5809ec17": "Vælg tjenestetype",
 	"9d6ef558eb018083": "$1 omdøbte dette navnerum fra $2 til $3.",
 	"a18f260ddebea1e6": "Navn på navnerummet.",
 	"a1c5c05bad8ae72e": "Netværk $1",
 	"a35e9e8bb75fd5bd": "Opret enhed",
+	"a3b6343c54632ae6": "Alle grænseflader",
 	"a4bd8f520704d205": "Tjeneste $1",
 	"a82bb986b834d136": "Rediger egenskab: $1",
 	"ae0af1670451948b": "Navnet på enheden.",
@@ -79,7 +85,10 @@
 	"be09a63bd1995e99": "Navnerum",
 	"bfd3d979c1349947": "Alle tjenester",
 	"c3d5899c754476c4": "Nulstil egenskab",
+	"c70bec2388c4d471": "Slet grænseflade",
 	"c996d4651a37de09": "Installerer privat nøgle...",
+	"ccae75cdd4db3216": "$1:$2 ($3 på $4)",
+	"cd133e6ca8e371d4": "Opret grænseflade",
 	"cf507cd5c74a49f6": "Navn på enhed",
 	"d013e030dbfc91c1": "Ingen egenskaber.",
 	"d14c62aa3625f2d2": "Alle enheder",
