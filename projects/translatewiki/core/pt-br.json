@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"0294e4a93c79fe48": "Forneça o caminho para uma biblioteca para exportar traduções de.",
+	"0654a028e5aea48c": "NENHUM",
+	"124328edcc87415b": "Forneça um código de localidade com \"--locale\".",
+	"17b6d98715597264": "Ignorando a string \"$1\"; não está presente no arquivo de origem da tradução.",
+	"2c22da08dc82f0ba": "Forneça o caminho para exatamente uma biblioteca para exportar as traduções.",
+	"38877d794cbf1943": "Forneça um nome de projeto para exportar sequências de caracteres com \"--as\".",
+	"3b87bed5eefca3c1": "Cordas cruas",
+	"410147829602065c": "Nome do projeto para o qual um arquivo de tradução está sendo gerado.",
+	"418a2fbab13c3664": "Extraindo cadeias de bibliotecas...",
+	"49427ff57fe09816": "GÊNERO",
+	"5394e163b2751641": "Código de local para a origem gerada.",
+	"5641f04d9980459c": "Forneça um nome de classe com \"--class\".",
+	"7516972ad3f67814": "Nome da classe para gerar.",
+	"79e0ecf9d32e5b43": "Dados de frequência",
+	"7c0edb1e7c0dcf2a": "Forneça um arquivo de origem JSON com \"--source\".",
+	"8657976c47adf8f2": "Gere um classfile de tradução do Phabricator.",
+	"8941bccc95e2dd69": "Arquivo de origem JSON contendo cadeias de caracteres de tradução.",
+	"9cb7bf6f5a17cea5": "Exportar sequências de tradução de uma biblioteca libphutil.",
+	"b230c79422fb6249": "Escrevendo dados ($1, $2) para \"$3\" ...",
+	"c435945f8f07345d": "Usado em:",
+	"c732898ac3089782": "Textos inglês",
+	"c9d24cf2f05e3bcb": "Sequências de contexto",
+	"ccadbcf74331a452": "Forneça um nome de projeto com \"--project\".",
+	"d37b3f801e2ed13d": "Tipos de variáveis: $1.",
+	"da7f7fad3fb76450": "Fornecer um arquivo de saída com \"--out\".",
+	"dc8625c842d8248a": "URI base para pesquisar arquivos no projeto que está sendo exportado.",
+	"dfae14ab8a277d61": "Passe --clean para o extrator subjacente para descartar caches antes de extrair strings e fazer uma reconstrução limpa completa. Lento!",
+	"e2bcda84facb3954": "Feito.",
+	"eab817b44c709f8e": "Local para gravar o arquivo de tradução gerado.",
+	"f3514b3c6942c1c2": "PLURAL"
+}

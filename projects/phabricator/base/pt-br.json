@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"21909f6cc9658765": "Nenhum aplicativo '$1'!",
+	"40b9d5b3ede68efe": "Espere que o usuário '$1' tenha acesso permitido a '$2'.",
+	"473a2b8ae0fda34b": "Pode configurar o aplicativo",
+	"5065c3a197c9ae53": "Pode usar o aplicativo",
+	"5faf53441e65b801": "Controlador de aplicativo",
+	"633d0a44b076afad": "Público + configurado",
+	"678731c91b8cc343": "Acesso público",
+	"71a5993ec4612869": "Aplicativos principais",
+	"749ea651fe6a327f": "Nenhum login necessário",
+	"78d67090ef36b075": "Nenhuma aplicativo!",
+	"a6fdeee1d42216f6": "Verificação de email obrigatória",
+	"b0608ab1bd963593": "Ferramentas de desenvolvimento",
+	"d9b9a15e87d0d955": "Capacidade desconhecida '$1'!",
+	"daf366af13db9c61": "administrador obrigatório",
+	"dced58a261d6133b": "Verificação de e-mail necessária, com exceção",
+	"dfa4966710819f7d": "Permitir desativação"
+}

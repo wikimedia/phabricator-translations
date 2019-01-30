@@ -41,5 +41,6 @@
 	"df541f9c771075dc": "Alvo de renderização desconhecido: $1",
 	"df64eb386033ce8a": "Inclua histórias sobre projetos dos quais sou membro.",
 	"f972df1e479c68f3": "O tipo de história deve ser um nome de classe válido e deve conter uma subclasse de $1. '$2' não é uma classe carregável.",
+	"fc089d61f5c74d73": "A história do feed (com a chave \"$1\") não existe ou não pôde ser carregada.",
 	"fe8f5568d1a9988f": "Rever atividade recente"
 }
