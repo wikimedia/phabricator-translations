@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
 	"00e46c015f972018": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/option/PhabricatorCoreConfigOptions.php$229 PhabricatorCoreConfigOptions.php:229]",
 	"00e84a14b1a4ebbb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/controller/PhabricatorConfigClusterNotificationsController.php$54 PhabricatorConfigClusterNotificationsController.php:54]",
 	"0119d90faa247aa4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/option/PhabricatorExtendingPhabricatorConfigOptions.php$31 PhabricatorExtendingPhabricatorConfigOptions.php:31]",
@@ -402,7 +406,7 @@
 	"6d392e64b1279ecf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/option/PhabricatorUIConfigOptions.php$61 PhabricatorUIConfigOptions.php:61]",
 	"6e0947b0060beb5d": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorDaemonsSetupCheck.php$26 PhabricatorDaemonsSetupCheck.php:26]",
 	"6e1e684ea24da0ff": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/controller/PhabricatorConfigClusterSearchController.php$110 PhabricatorConfigClusterSearchController.php:110]",
-	"6e2a5116e26f8d9a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorBinariesSetupCheck.php$113 PhabricatorBinariesSetupCheck.php:113]",
+	"6e2a5116e26f8d9a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorBinariesSetupCheck.php$113 PhabricatorBinariesSetupCheck.php:113]\n\nSubversion is a product name; do not translate it!",
 	"6e2ad9018343c287": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorStorageSetupCheck.php$80 PhabricatorStorageSetupCheck.php:80]",
 	"6e2fab5eea81cb65": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/option/PhabricatorAccessLogConfigOptions.php$47 PhabricatorAccessLogConfigOptions.php:47]",
 	"6e41ee3f309a1d09": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/view/PhabricatorSetupIssueView.php$152 PhabricatorSetupIssueView.php:152]",
@@ -588,7 +592,7 @@
 	"9ebe77a4a742b2dd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/storage/PhabricatorConfigTransaction.php$40 PhabricatorConfigTransaction.php:40]",
 	"9f5b3e83e08248f9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorExtraConfigSetupCheck.php$232 PhabricatorExtraConfigSetupCheck.php:232]",
 	"9fdfdb73068e71ee": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorBaseURISetupCheck.php$34 PhabricatorBaseURISetupCheck.php:34]",
-	"a004d118b092c10b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorBinariesSetupCheck.php$116 PhabricatorBinariesSetupCheck.php:116]",
+	"a004d118b092c10b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorBinariesSetupCheck.php$116 PhabricatorBinariesSetupCheck.php:116]\n\nSubversion is a product name; do not translate it!",
 	"a0251ad3f6da00fd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/check/PhabricatorElasticsearchSetupCheck.php$35 PhabricatorElasticsearchSetupCheck.php:35]",
 	"a044102f7f93e256": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/controller/PhabricatorConfigClusterRepositoriesController.php$10 PhabricatorConfigClusterRepositoriesController.php:10]",
 	"a063971bb12aabfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/config/schema/PhabricatorConfigStorageSchema.php$124 PhabricatorConfigStorageSchema.php:124]",

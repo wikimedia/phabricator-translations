@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"DSwissK"
 		]
 	},
 	"0b06f65a8ccab6ac": "L'extension « $1 » n'est pas installée sur ce système, le codage des caractères n'est donc pas pris en compte. Installez « $2 » pour activer cette fonctionnalité.",
@@ -13,7 +14,7 @@
 	"58bf20abc8cfcd7f": "IMPORTANT",
 	"61fa1232adb2e450": "Presque ininstallable",
 	"663a7169eba04995": "Cela indique probablement une mauvaise configuration ou une interruption majeure du service.",
-	"6a1114f49dc5b54a": "Objets en cours de supression ...",
+	"6a1114f49dc5b54a": "Objets en cours de suppression...",
 	"6bebb0e6346bd254": "Ce mode est actif car aucune base de données n'a de rôle « $1 » dans l'option de configuration « $2 ».",
 	"a85904783da7fca9": "Annulé, vos objets sont en sécurité.",
 	"a95a91ef8bf8329a": "Pas d'URI d'objet",

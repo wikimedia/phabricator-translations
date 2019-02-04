@@ -5,7 +5,8 @@
 			"Gomoko",
 			"Wladek92",
 			"Niridya",
-			"TomT0m"
+			"TomT0m",
+			"DSwissK"
 		]
 	},
 	"00e46c015f972018": "Tableau contenant la liste des applications non installées.",
@@ -638,7 +639,7 @@
 	"ab3f6924e0bbabf1": "Mémoire cache",
 	"ab53b43936fcdaa7": "Au moins un démon tourne actuellement avec le mauvais utilisateur.",
 	"ab7f244fc5171be6": "Type de données",
-	"ab7fe253f6abcbc4": "Autoriser la supression des adresses courriels de certains utilisateurs",
+	"ab7fe253f6abcbc4": "Autoriser la suppression des adresses courriels de certains utilisateurs",
 	"abd4238daeaed5a0": "Un meilleur ensemble de caractères est disponible",
 	"abd5080658c27d7f": "Petit MySQL \"$1\"",
 	"abf81ff30ae0ecbb": "La valeur de l'option \"$1\" doit être entière.",

@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"TomT0m"
+			"TomT0m",
+			"DSwissK"
 		]
 	},
 	"06a611b1ebbb1abd": "Une validation est créée.",
@@ -81,7 +82,7 @@
 	"bb8371d73ca9b30d": "$1 a clôturé cet audit.",
 	"c1f3d10e49f3d5fa": "Pas d’utilisateur avec le nom « $1 » !",
 	"cc53401e727580d3": "Validation non trouvée \"$1\" !",
-	"ccd5ac0ce9da2689": "Supression de l'audit $1...",
+	"ccd5ac0ce9da2689": "Suppression de l'audit $1...",
 	"d3acc3779086a005": "Elément pris en compte",
 	"df3d873088048f69": "Mettre à jour les validations et les dépôts nommés.",
 	"e1d64f9058571a76": "$1 a ajouté des auditeurs : $2.",

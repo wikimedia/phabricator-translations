@@ -4,7 +4,8 @@
 			"Gomoko",
 			"Thibaut120094",
 			"Wladek92",
-			"TomT0m"
+			"TomT0m",
+			"DSwissK"
 		]
 	},
 	"00a3cc5b55d618dc": "PHID de service.",
@@ -344,7 +345,7 @@
 	"f7392ddbedc2e4a8": "Vous n’avez pas le droit de gérer des services de grappe d’almanach.",
 	"f79e8b505e44a187": "$1 a créé cette liaison.",
 	"f85967519986ef41": "Ce moteur est utilisé pour modifier les appareils d’almanach.",
-	"fb3d7b95e9158f6a": "La valeur de la transaction lors d'une supression de propriétés Almanac doit être une liste de noms de propriétés.",
+	"fb3d7b95e9158f6a": "La valeur de la transaction lors d'une suppression de propriétés Almanac doit être une liste de noms de propriétés.",
 	"fbeb6d2301a6f1cb": "Id de la clé à laquelle faire confiance.",
 	"fc6a90f4cd842a2f": "Aucun appareil « $1 » n’existe !",
 	"fcca1bc56fb19659": "Aucun espace de noms d’almanach trouvé."
