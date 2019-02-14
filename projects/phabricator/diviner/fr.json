@@ -88,6 +88,7 @@
 	"c80d7b188b4d616d": "$1 fichier{{PLURAL:$1||s}} non atomisé{{PLURAL:$1||s}} et non en cache trouvé{{PLURAL:$1||s}}.",
 	"d0487cd477f6ad74": "La méthode `$1` a documenté `$2` de façon explicite. La méthode `$3` renvoie toujours `$4`. Diviner documente implicitement cela.",
 	"da7c4f2a02624ec6": "Construire les atomes depuis la source.",
+	"dbbc286505aba70e": "(NOTE) **Vous cherchez de la documentation sur Phabricator ?** Si vous cherchez de l’aide et de l’information sur Phabricator, Vous pouvez [[https://secure.phabricator.com/diviner/ | naviguer dans la documentation publique de Phabricator]] sur le site en direct.\n\nDiviner est le générateur de documentation utilisé pour construire la documentation de Phabricator.\n\nVous n’avez pas encore généré de livre de Diviner, donc il n’y a rien à afficher ici. Si vous voulez générer votre propre copie locale de la documentation de Phabricator et qu’elle apparaisse ici, lancez cette commande :\n\n  $1",
 	"dcfcb2a168e45ff3": "Cette fonction n'est pas documentée.",
 	"df251b06eefdaa93": "Rechercher",
 	"dfc61fffa8906502": "Autres méthodes",

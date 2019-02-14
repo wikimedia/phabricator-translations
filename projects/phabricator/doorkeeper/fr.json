@@ -4,7 +4,8 @@
 			"Dinoxel",
 			"Gomoko",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Athena Atterdag"
 		]
 	},
 	"09542fd1209ec021": "Phabricator fonctionne en mode silencieux.",
@@ -44,5 +45,6 @@
 	"a778bce62f556807": "La synchronisation de la tâche enfant depuis Asana a échoué !",
 	"ab57ea070504f56e": "L’histoire est à propos d’un objet sans problème JIRA associé.",
 	"b2ea4ec66688a7bc": "Utilisateur GitHub $1",
-	"b829918c2ae05911": "Nom de l'espace de travail"
+	"b829918c2ae05911": "Nom de l'espace de travail",
+	"ec2811280757f9f6": "Mise à jour de la tâche principale."
 }
