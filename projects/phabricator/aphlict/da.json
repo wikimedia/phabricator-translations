@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"11399b1faec2eb8e": "$1 mislykkedes!",
+	"5884e7023c7e8b80": "Aphlict kører ikke.",
+	"59c7d5844f411703": "Du skal først gøre $1!",
+	"65bb93882ad81b16": "Sender et SIGKILL til $1.",
+	"7284ce8f9f3ef857": "Igangsætter server:",
+	"78201785d503580e": "Starter Aphlict server i forgrunden...",
+	"7b1c6f1c1209a55f": "Serveren afsluttedes!",
+	"a8721c186dac05cb": "Skriver logs til: $1",
+	"d3c6844361a2d518": "Læser konfigurationen fra: $1",
+	"ef767ed0bf9b70c0": "Aphlict server startede.",
+	"9842684281972986": "Aphlict ($1) kører."
+}

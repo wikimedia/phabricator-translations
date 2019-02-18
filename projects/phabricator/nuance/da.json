@@ -41,6 +41,7 @@
 	"aca7d3f7a4c5b07f": "Indtast et kønavn...",
 	"b1b6108e947daee7": "Alle kilder",
 	"b3da702582963ef2": "Ulåst",
+	"bfa683364ed9b2de": "Importér til Maniphest",
 	"ca3cf977ec6a09e1": "Rediger kilde",
 	"cd639058450a8734": "Ingen køer fundet.",
 	"d110bb42d1a558b8": "Du skal vælge en kildetype.",
@@ -53,5 +54,6 @@
 	"f76ebbfaec993d05": "Indsend klage",
 	"f7de96f78a638b66": "Rediger kilde: $1",
 	"fb88030a098c599d": "Ikke i kø",
+	"fdb4bf4e9bbbd6d5": "Der findes ingen kilder med ID'et \"$1\".",
 	"ffc429062340d3cc": "Standardkø"
 }

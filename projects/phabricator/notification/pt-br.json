@@ -8,6 +8,7 @@
 	"14dd2a4656a89116": "Não é possível carregar o status do servidor: este não é um servidor de administrador!",
 	"215ed57ea00cd4b2": "Todas as notificações",
 	"3d9f47ddd54fe157": "Realmente marcar todas as notificações como lidas?",
+	"42acf1b5974ad9e6": "A configuração do servidor de notificação é inválida: ela não especifica nenhum servidor ativado com o tipo \"admin\". Notificações exigem pelo menos um servidor \"admin\" ativo.",
 	"47bb223ad62d3256": "Configurando o Cliente",
 	"6776e111aef4227a": "Todas as notificações não lidas serão marcadas como lidas. Você não pode desfazer essa ação.",
 	"6faa4218ab931e0d": "Notificações não lidas",
