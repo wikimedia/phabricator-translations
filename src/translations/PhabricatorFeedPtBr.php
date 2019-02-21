@@ -46,6 +46,7 @@ final class PhabricatorFeedPtBr
       'Unknown rendering target: %s' => 'Alvo de renderização desconhecido: %s',
       'Include stories about projects I am a member of.' => 'Inclua histórias sobre projetos dos quais sou membro.',
       'Story type must be a valid class name and must subclass %s. \'%s\' is not a loadable class.' => 'O tipo de história deve ser um nome de classe válido e deve conter uma subclasse de %s. \'%s\' não é uma classe carregável.',
+      'Feed story (with key "%s") does not exist or could not be loaded.' => 'A história do feed (com a chave "%s") não existe ou não pôde ser carregada.',
       'Review Recent Activity' => 'Rever atividade recente',
     );
   }

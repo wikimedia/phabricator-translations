@@ -18,7 +18,7 @@ final class PhabricatorSystemFr
       'IMPORTANT' => 'IMPORTANT',
       'Quite Unsettling' => 'Presque ininstallable',
       'This likely indicates a severe misconfiguration or major service interruption.' => 'Cela indique probablement une mauvaise configuration ou une interruption majeure du service.',
-      'Destroying objects...' => 'Objets en cours de supression ...',
+      'Destroying objects...' => 'Objets en cours de suppression...',
       'This mode is active because no database has a "%s" role in the configuration option "%s".' => 'Ce mode est actif car aucune base de données n\'a de rôle « %s » dans l\'option de configuration « %s ».',
       'Aborted, your objects are safe.' => 'Annulé, vos objets sont en sécurité.',
       'No Object URI' => 'Pas d\'URI d\'objet',

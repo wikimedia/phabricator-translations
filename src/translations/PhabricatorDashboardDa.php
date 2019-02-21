@@ -24,6 +24,7 @@ final class PhabricatorDashboardDa
       'Manage Panels' => 'Administrer paneler',
       '%s activated this dashboard.' => '%s aktiverede dette kontrolpanel.',
       'No Panels Exist Yet' => 'Der findes endnu ingen paneler',
+      'Edit Dashboard: %s' => 'Rediger kontrolpanel: %s',
       'Edit Dashboard' => 'Rediger kontrolpanel',
       '%s edited panel(s), added %s: %s; removed %s: %s.' => '%s redigereder panel(er), tilføjede %s: %s; fjernede %s: %s.',
       'Archive Dashboard' => 'Arkiver kontrolpanel',

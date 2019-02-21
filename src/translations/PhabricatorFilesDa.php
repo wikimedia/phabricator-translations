@@ -69,6 +69,8 @@ final class PhabricatorFilesDa
       'Choose Icon...' => 'Vælg ikon...',
       'You must choose a file to upload.' => 'Du skal vælge en fil du vil overføre.',
       'VALID' => 'GYLDIG',
+      'File Metadata' => 'Fil-metadata',
+      'Specify either a list of files or `%s`, but not both.' => 'Angiv enten en liste over filer eller `%s`, men ikke begge.',
       'Raw Data' => 'Rå data',
       'View as Image' => 'Vis som billede',
       'Stack of Pancakes' => 'Bunke af pandekager',

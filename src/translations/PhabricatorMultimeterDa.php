@@ -9,6 +9,7 @@ final class PhabricatorMultimeterDa
 
   protected function getTranslations() {
     return array(
+      'Samples' => 'Eksempler',
       'Subprocesses' => 'Underprocesser',
       '(All)' => '(Alle)',
       'By ID' => 'Efter ID',

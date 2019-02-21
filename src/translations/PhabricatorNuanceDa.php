@@ -46,6 +46,7 @@ final class PhabricatorNuanceDa
       'Type a queue name...' => 'Indtast et kønavn...',
       'All Sources' => 'Alle kilder',
       'Unlocked' => 'Ulåst',
+      'Import to Maniphest' => 'Importér til Maniphest',
       'Edit Source' => 'Rediger kilde',
       'No queues found.' => 'Ingen køer fundet.',
       'You must choose a source type.' => 'Du skal vælge en kildetype.',
@@ -58,6 +59,7 @@ final class PhabricatorNuanceDa
       'Submit Complaint' => 'Indsend klage',
       'Edit Source: %s' => 'Rediger kilde: %s',
       'Not in Queue' => 'Ikke i kø',
+      'No source exists with ID "%s".' => 'Der findes ingen kilder med ID\'et "%s".',
       'Default Queue' => 'Standardkø',
     );
   }

@@ -74,6 +74,7 @@ final class PhabricatorPeopleFi
       'Spy' => 'Vakooja',
       'Mailing List' => 'Postituslista',
       'Administrators can always view all activity.' => 'Ylläpitäjät voivat aina nähdä kaiken toiminnan.',
+      'LDAP username' => 'LDAP käyttäjänimi',
       'Edit Profile' => 'Muokkaa profiilia',
       'Show Only Mailing Lists' => 'Näytä vain postituslistat',
       'Browse Owners' => 'Selaa omistajia',

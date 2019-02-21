@@ -273,7 +273,7 @@ final class PhabricatorAuthFr
       '%s updated the "%s" value.' => '%s a mis à jour la valeur « %s ».',
       'All Keys' => 'Toutes les clés',
       'Terminate Sessions' => 'Terminer les sessions',
-      'Upload Public Key' => 'Télécharger la clé publique',
+      'Upload Public Key' => 'Téléverser la clé publique',
       'OAuth App Notes' => 'Notes de l’application OAuth',
       'Your Phabricator account is already connected to an external account on this provider ("%s"), but you are currently logged in to the provider with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Votre compte Phabricator est déjà connecté à un compte externe sur ce fournisseur (« %s »), mais vous êtes actuellement connecté sur ce fournisseur avec un autre compte. Déconnectez-vous du service externe, puis reconnectez-vous avec le bon compte avant de rafraîchir le lien du compte.',
       'Log In (%s)' => 'Connecter (%s)',
@@ -315,7 +315,7 @@ final class PhabricatorAuthFr
       'Really terminate session %s?' => 'Vraiment terminer la session %s ?',
       'Revokes all SSH public keys.
     SSH public keys are revoked, not just removed. Users will need to generate and upload new, unique keys before they can access repositories or other services over SSH.' => 'Révoque toutes les clés publiques SSH.
-    Les clés publiques SSH sont révoquées, pas seulement supprimées. Les utilisateurs devront générer et télécharger de nouvelles clés uniques avant de pouvoir accéder à leurs dépôts ou à d’autres services sur SSH.',
+    Les clés publiques SSH sont révoquées, pas seulement supprimées. Les utilisateurs devront générer et téléverser de nouvelles clés uniques avant de pouvoir accéder à leurs dépôts ou à d’autres services sur SSH.',
       'Terminate Sessions?' => 'Fermer les sessions ?',
       '%s enabled email trust.' => '%s a activé la confiance dans le courriel.',
       'End of dry run.' => 'Fin du galop d’essai.',

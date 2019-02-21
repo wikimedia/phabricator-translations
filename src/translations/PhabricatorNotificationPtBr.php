@@ -13,6 +13,7 @@ final class PhabricatorNotificationPtBr
       'Unable to load server status: this is not an admin server!' => 'Não é possível carregar o status do servidor: este não é um servidor de administrador!',
       'All Notifications' => 'Todas as notificações',
       'Really mark all notifications as read?' => 'Realmente marcar todas as notificações como lidas?',
+      'Notification server configuration is invalid: it does not specify any enabled servers with type "admin". Notifications require at least one active "admin" server.' => 'A configuração do servidor de notificação é inválida: ela não especifica nenhum servidor ativado com o tipo "admin". Notificações exigem pelo menos um servidor "admin" ativo.',
       'Setting Up Client' => 'Configurando o Cliente',
       'All unread notifications will be marked as read. You can not undo this action.' => 'Todas as notificações não lidas serão marcadas como lidas. Você não pode desfazer essa ação.',
       'Unread Notifications' => 'Notificações não lidas',

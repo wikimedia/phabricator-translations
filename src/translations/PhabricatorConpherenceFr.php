@@ -14,7 +14,7 @@ final class PhabricatorConpherenceFr
       'Room name.' => 'Nom de la pièce.',
       'Leave Room' => 'Quitter la pièce',
       'Initial Participants' => 'Participants initiaux',
-      'You must choose a file when uploading a new room picture.' => 'Vous devez choisir un fichier lorsque vous téléchargez une nouvelle image de la pièce.',
+      'You must choose a file when uploading a new room picture.' => 'Vous devez choisir un fichier lorsque vous téléversez une nouvelle image de la pièce.',
       '%s set the room topic to %s.' => '%s a mis le sujet de la pièce à %s.',
       'All Rooms' => 'Toutes les pièces',
       'Room Picture' => 'Image de la pièce',

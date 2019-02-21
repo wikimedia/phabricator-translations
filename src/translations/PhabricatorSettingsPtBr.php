@@ -79,6 +79,7 @@ final class PhabricatorSettingsPtBr
       '%s updated their profile' => '%s atualizou seu perfil',
       'Current Setting' => 'Configuração atual',
       'Use Variable-Width Font' => 'Use a fonte de largura variável',
+      'Use Plain Text: [Differential]' => 'Use texto simples: [Diferencial]',
       '⚪ Ignore' => '⚪ Ignorar',
       'Date Format' => 'Formato de data',
       'Your browser timezone (%s) differs from your profile timezone (%s). You can ignore this conflict or adjust your profile setting to match your client.' => 'O fuso horário do seu navegador (%s) difere do fuso horário do seu perfil (%s). Você pode ignorar esse conflito ou ajustar sua configuração de perfil para corresponder ao seu cliente.',
@@ -86,10 +87,12 @@ final class PhabricatorSettingsPtBr
       'The conflict between your browser and profile timezone settings will be ignored.' => 'O conflito entre as configurações do seu navegador e do fuso horário do perfil será ignorado.',
       'Terminate All Sessions' => 'Encerrar todas as sessões',
       'Your account is linked with all available providers.' => 'Sua conta está vinculada a todos os provedores disponíveis.',
+      'Timezone Ignored Offset' => 'Deslocamento ignorado do fuso horário',
       'External Accounts' => 'Contas externas',
       'If you disable **Self Actions**, Phabricator will not notify you about actions you take.' => 'Se você desabilitar **Auto ações**, o Phabricator não notificará você sobre as ações executadas.',
       'Verification Email Sent' => 'E-mail de verificação enviado',
       'Add External Account' => 'Adicionar conta externa',
+      'Mail Headers and Body' => 'Cabeçalhos de correio e corpo',
       'You haven\'t added any authentication factors to your account yet.' => 'Você ainda não adicionou fatores de autenticação à sua conta.',
       'To set a new password, request a password reset link from the login screen and then follow the instructions.' => 'Para definir uma nova senha, solicite um link de redefinição de senha na tela de login e siga as instruções.',
       'Multi-Factor Auth' => 'Autenticação de fator múltiplo',
@@ -102,6 +105,7 @@ final class PhabricatorSettingsPtBr
       'Really remove the authentication factor %s from your account?' => 'Realmente remover o fator de autenticação %s da sua conta?',
       'Mail Headers' => 'Cabeçalhos de discussão',
       'Old Password' => 'Senha Anterior',
+      'Conpherence Column Minimize' => 'Minimizar coluna de conforto',
       'Display Preferences' => 'Preferências de exibição',
       'Add Auth Factor' => 'Adicionar fator de autenticação',
       'You don\'t have any active sessions.' => 'Você não tem nenhuma sessão ativa.',
@@ -112,12 +116,29 @@ final class PhabricatorSettingsPtBr
       'Another user already has this email.' => 'Outro usuário já tem este e-mail.',
       'Change primary email address?' => 'Alterar o endereço de email principal?',
       'Monospaced Font' => 'Fonte monoespaçada',
+      'HTML Email' => 'E-mail em HTML',
       'Global Defaults' => 'Padrões globais',
       'Conpherence Sound' => 'Som de Conforto',
+      'Enable "Re:" Prefix' => 'Ativar prefixo "Re:"',
       'Change Timezone' => 'Alterar fuso horário',
       'DarkConsole Visible' => 'Console escuro visível',
       'DarkConsole is a debugging console for developing and troubleshooting Phabricator applications. After enabling DarkConsole, press the {nav `} key on your keyboard to toggle it on or off.' => 'Console escuro é um console de depuração para o desenvolvimento e solução de problemas aplicações phabricator. Depois de ativar o DarkConsole, pressione a tecla {nav} no seu teclado para ativá-lo ou desativá-lo.',
       'You are adding too many email addresses to your account too quickly.' => 'Você está adicionando muitos endereços de e-mail à sua conta com muita rapidez.',
+      'You can adjust **Application Settings** here to customize when you are emailed and notified.
+    | Setting | Effect
+    | ------- | -------
+    | Email | You will receive an email and a notification, but the notification will be marked "read".
+    | Notify | You will receive an unread notification only.
+    | Ignore | You will receive nothing.
+    If an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.
+    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'Você pode ajustar aqui **Configurações do aplicativo** para personalizar quando você é enviado por e-mail e notificado.
+    | Configuração | Efeito
+    | ------- | -------
+    | E-mail | Você receberá um e-mail e uma notificação, mas a notificação será marcada como "lida".
+    | Notificar | Você receberá apenas uma notificação não lida.
+    | Ignorar | Você não receberá nada.
+    Se uma atualização fizer várias alterações (como adicionar CCs a uma tarefa, fechá-la e adicionar um comentário), você receberá a notificação mais forte de que qualquer uma das alterações está configurada para ser entregue.
+    Estas preferências **apenas** aplicam-se a objetos aos quais você está conectado (por exemplo, Revisões em que você é um revisor ou tarefas em que você está usando o CC). Para receber alertas de email quando outros objetos são criados, configure [[ /herald/ | Regras Herald  ]].',
       'You must enter your current password.' => 'Você deve digitar sua senha atual.',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
       'Enable Filetree' => 'Ativar Filetree',
@@ -132,16 +153,27 @@ final class PhabricatorSettingsPtBr
       'Email Delivery' => 'Entrega de e-mail',
       'Send Test Notification' => 'Enviar notificação de teste',
       'Edit Settings (%s)' => 'Editar configurações (%s)',
+      'Monospaced font value "%s" is unsafe. You may only enter letters, numbers, spaces, commas, periods, hyphens, forward slashes, and double quotes' => 'O valor da fonte monoespaçada "%s" não é seguro. Você só pode inserir letras, números, espaços, vírgulas, pontos, hifens, barras e aspas duplas.',
       'Edit settings for your personal account.' => 'Edite as configurações da sua conta pessoal.',
       'Create Settings' => 'Criar configurações',
       'Use Unicode Glyphs: ⚙' => 'Utilizar caracteres de Unicode: ⚙',
       'Make Primary' => 'Tornar o Primário',
       'Editor Link' => 'Editor de Link',
       'Silly Translations' => 'Traduções absurdas',
+      'Send Plain Text Email' => 'Enviar e-mail de texto simples',
+      'DarkConsole' => 'Console escuro',
+      'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'O Phabricator normalmente mostra diffs em um layout lado a lado em telas grandes e alterna automaticamente para uma visão unificada em telas pequenas (como telefones celulares). Se você preferir os diffs unificados, mesmo em telas grandes, poderá selecioná-los para uso em todos os displays.',
+      'Supported, Separated by Spaces' => 'Suportado, Separado por espaços',
       'Search Scope' => 'Escopo de pesquisa',
       'Email Preferences' => 'Preferências de Email',
       'You don\'t have any active tokens.' => 'Você não tem nenhum token ativo.',
+      'Send another copy of the verification email to %s?' => 'Enviar outra cópia do e-mail de confirmação para %s?',
       '24 Hour, 14:34' => '24 Horas, 14:34',
+      'If you disable **Email Notifications**, Phabricator will never send email to notify you about events. This preference overrides all your other settings.
+    //You will still receive some administrative email, like password reset email.//' => 'Se você desativar **Notificações por Email**, o Phabricator nunca enviará um email para notificá-lo sobre eventos. Essa preferência substitui todas as outras configurações.
+    //Você ainda receberá alguns e-mails administrativos, como o e-mail de redefinição de senha.//',
+      'Disable "Re:" Prefix' => 'Desativar prefixo "Re:"',
+      'Conpherence Widget Pane Visible' => 'Painel de widget da conferência visível',
       'Disable Filetree' => 'Desativar Filetree',
       'Disable Email Notifications' => 'Desativar notificações por e-mail',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator usa caracteres Unicode nos títulos das páginas como uma representação compacta do aplicativo atual. Se os caracteres não aparecerem no sistema, você poderá substituí-los por texto simples.',
@@ -163,6 +195,7 @@ final class PhabricatorSettingsPtBr
       'Authentication Factors' => 'Fatores de autenticação',
       'Web and Desktop' => 'Web e Desktop',
       'Sunday' => 'Domingo',
+      'US: 2/28/2000' => 'US: 2/28/2000',
       'User Guide: Configuring an External Editor' => 'Guia do usuário: configurando um editor externo',
       'You have no account setup issues.' => 'Você não tem problemas de configuração da conta.',
       'Personal Settings' => 'Configurações pessoais',
@@ -185,15 +218,22 @@ final class PhabricatorSettingsPtBr
       'Timezone "%s" is not a valid timezone identifier.' => 'O fuso horário "%s" não é um identificador de fuso horário válido.',
       'Select your local timezone.' => 'Selecione seu fuso horário local.',
       'Note: Removing an email address from your account will invalidate any outstanding password reset links.' => 'Nota: A remoção de um endereço de e-mail da sua conta invalidará todos os links de redefinição de senha pendentes.',
+      'Click "Save Preference" to persist these changes.' => 'Clique em "Salvar preferência" para persistir essas alterações.',
+      'Week Starts On' => 'Semana começa em',
       'Remove Factor' => 'Remover fator',
+      'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => 'O link do editor tem um protocolo inválido ou ausente. Você deve usar um protocolo de editor na lista de permissões desta lista: %s. Para adicionar protocolos, atualize "%s" no Config.',
       'Disabled (an administrator has disabled login for this account provider).' => 'Desativado (um administrador desativou a entrada para esse provedor de conta).',
+      'If you change your primary address, Phabricator will send all email to %s.' => 'Se você alterar seu endereço principal, o Phabricator enviará todos os emails para %s.',
       'Send Another Verification Email?' => 'Enviar outro e-mail de verificação?',
       'Because the algorithm implementation is missing, your password can not be used or updated.' => 'Como a implementação do algoritmo está ausente, sua senha não pode ser usada ou atualizada.',
       'Verify' => 'Verificar',
+      'Add "Re:" Prefix' => 'Adicionar prefixo "Re:"',
       'Desktop Only' => 'Somente desktop',
       'Account Settings' => 'Configurações da conta',
       'Choose which day a calendar week should begin on.' => 'Escolha em qual dia uma semana do calendário deve começar.',
+      'Account Activity Logs' => 'Registros de atividade da conta',
       'Date and Time' => 'Data e hora',
+      'Use Monospaced Font' => 'Use fonte monoespaçada',
       'The strength of your stored password hash can be upgraded. To upgrade, either: log out and log in using your password; or change your password.' => 'A força do seu hash de senha armazenada pode ser atualizada. Para atualizar: efetue logout e login usando sua senha; ou mude sua senha.',
       'Save Preferences' => 'Salvar preferências',
       '⚫ Email' => '⚫ Email',

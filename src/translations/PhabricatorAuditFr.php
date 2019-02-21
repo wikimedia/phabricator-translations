@@ -84,7 +84,7 @@ final class PhabricatorAuditFr
       '%s closed this audit.' => '%s a clôturé cet audit.',
       'No such user with username "%s"!' => 'Pas d’utilisateur avec le nom « %s » !',
       'No such commit "%s"!' => 'Validation non trouvée "%s" !',
-      'Deleting audit %d...' => 'Supression de l\'audit %s...',
+      'Deleting audit %d...' => 'Suppression de l\'audit %s...',
       'Concern Raised' => 'Elément pris en compte',
       'Update named commits and repositories.' => 'Mettre à jour les validations et les dépôts nommés.',
       '%s added auditors: %s.' => '%s a ajouté des auditeurs : %s.',

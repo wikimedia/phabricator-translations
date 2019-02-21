@@ -63,7 +63,7 @@ final class PhabricatorConfigFr
       'This option can not be edited from the web UI. Use %s to adjust garbage collector policies.' => 'Cette option ne peut pas être modifiée depuis l’IHM web. Utiliser %s pour ajuster la politique du ramasse-miettes.',
       'Better Table Engine Available' => 'Meilleur moteur de tableau disponible',
       'Set a local configuration value.' => 'Fixer une valeur de configuration locale.',
-      'Large file storage has not been configured, which will limit the maximum size of file uploads. See %s for instructions on configuring uploads and storage.' => 'Le stockage de gros fichiers n’a pas été configuré, ce qui limitera la taille maximale des fichiers téléchargés. Voir %s pour les instructions sur la configuration des téléchargements et du stockage.',
+      'Large file storage has not been configured, which will limit the maximum size of file uploads. See %s for instructions on configuring uploads and storage.' => 'Le stockage de gros fichiers n’a pas été configuré, ce qui limitera la taille maximale des fichiers téléversés. Voir %s pour les instructions sur la configuration des téléversements et du stockage.',
       '%s deleted %s (again?).' => '%s a supprimé %s (de nouveau ?).',
       'Access log format.' => 'Format du journal d’accès.',
       'Phabricator sent itself a test request with an unusual path, to test if your webserver is rewriting paths correctly. The path was not transmitted correctly.
@@ -145,7 +145,7 @@ final class PhabricatorConfigFr
       'WARNING: This is a prototype option and the description below is currently pure fantasy.
     Switch Phabricator to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'AVERTISSEMENT : Ceci est une option de prototype et la description ci-dessous est actuellement une pure fantaisie.
     Basculer Phabricator en mode lecture seule. Dans ce mode, les utilisateurs ne pourront pas écrire de nouvelle donnée. Normalement, la grappe passe dans ce mode automatiquement quand il détecte que le maître de la base de données est inatteignable, mais vous pouvez l’activer manuellement afin de faire une configuration de maintenance ou de test.',
-      'Adjust %s in your PHP configuration to at least 32MB. When set to smaller value, large file uploads may not work properly.' => 'Régler %s dans votre configuration PHP à au moins 32Mo. S’il est mis à une valeur plus petite, les téléchargements de gros fichiers pourraient ne pas bien fonctionner.',
+      'Adjust %s in your PHP configuration to at least 32MB. When set to smaller value, large file uploads may not work properly.' => 'Régler %s dans votre configuration PHP à au moins 32Mo. S’il est mis à une valeur plus petite, les téléversements de gros fichiers pourraient ne pas bien fonctionner.',
       'Show Recipient Hints' => 'Afficher les conseils de destinataire',
       'Enable deflate compression' => 'Activer la décompression',
       'You can restrict allowed email addresses to certain domains (like `yourcompany.com`) by setting a list of allowed domains here.
@@ -517,7 +517,7 @@ final class PhabricatorConfigFr
     Utilisez %s pour lancer les démons. Voyez %s pour plus d’information.',
       '%s Stats' => 'Statistiques %s',
       'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'La version minimale supportée de Subversion est 1.5, qui a été livrée en 2008.',
-      'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'Votre limite mémoire PHP est configurée de telle sorte qu’elle peut vous empêcher de télécharger de gros fichiers ou de gérer de grandes requêtes.',
+      'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'Votre limite mémoire PHP est configurée de telle sorte qu’elle peut vous empêcher de téléverser de gros fichiers ou de gérer de grandes requêtes.',
       'The system user.' => 'L\'utilisateur du système.',
       'Reload Page' => 'Recharger la page',
       'Maximum number of taskmaster daemons to run at once. Raising this can increase the maximum throughput of the task queue. The pool will automatically scale down when unutilized.' => 'Nombre maximal de démons du gestionnaire de tâches à lancer à la fois. L’augmenter peut accroître le débit maximal de la file de tâches. La réserve sera automatiquement réduite si elle n\'est pas utilisée.',
@@ -625,11 +625,11 @@ final class PhabricatorConfigFr
     PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
     (Note that the application itself must also fit in available memory, so not all of the memory under the memory limit is available for running workloads.)
     The easiest way to resolve this issue is to set %s to %s in your PHP configuration, to disable the memory limit. There is usually little or no value to using this option to limit Phabricator process memory.
-    You can also increase the limit or ignore this issue and accept that you may encounter problems uploading large files and processing large requests.' => 'Quand vous téléchargez un fichier par glisser-déposer ou par l’API, les morceaux doivent être conservés en mémoire avant d’être écrits sur un stockage permanent. Phabricator a besoin de mémoire disponible pour stocker ces morceaux pendant leur téléchargement, mais PHP est actuellement configuré pour limiter drastiquement la mémoire disponible.
+    You can also increase the limit or ignore this issue and accept that you may encounter problems uploading large files and processing large requests.' => 'Quand vous téléversez un fichier par glisser-déposer ou par l’API, les morceaux doivent être conservés en mémoire avant d’être écrits sur un stockage permanent. Phabricator a besoin de mémoire disponible pour stocker ces morceaux pendant leur téléversement, mais PHP est actuellement configuré pour limiter drastiquement la mémoire disponible.
     Les processus PHP ont actuellement très peu de mémoire libre disponible (%s). Pour travailler bien, les processus doivent avoir au moins %s.
     (Notez que l’application elle-même doit aussi tenir dans la mémoire disponible, donc toute la mémoire sous la limite n’est pas disponible pour exécuter les charges de travail.)
     La manière la plus facile de résoudre ce problème est de mettre %s à %s dans votre configuration PHP, pour désactiver la limite mémoire. Il y a en général peu ou pas d’intérêt à utiliser cette option pour limiter la mémoire de traitement de Phabricator.
-    Vous pouvez aussi augmenter la limite ou ignorer ce problème et accepter de rencontrer des soucis en téléchargeant de gros fichiers et en traitant de grosses requêtes.',
+    Vous pouvez aussi augmenter la limite ou ignorer ce problème et accepter de rencontrer des soucis en téléversant de gros fichiers et en traitant de grosses requêtes.',
       'Application configuration class.' => 'Classe de configuration de l’application.',
       'Preflight' => 'Avant-vol',
       'Install these %d PHP extension(s):' => 'Installer ces %s extensions PHP :',
@@ -744,10 +744,10 @@ final class PhabricatorConfigFr
       'Maniphest is currently configured with deprecated policy settings which will be removed in a future version of Phabricator.' => 'Maniphest est actuellement configuré avec des paramètres de politique obsolète qui seront supprimés dans une prochaine version de Phabricator.',
       'Column has Wrong Autoincrement' => 'La colonne a un mauvais incrément automatique',
       'Configure PHPMailer.' => 'Configurer PHPMailer.',
-      'Memory Limit Restricts File Uploads' => 'La taille mémoire restreint les téléchargements de fichiers',
+      'Memory Limit Restricts File Uploads' => 'La taille mémoire restreint les téléversements de fichiers',
       'Cache Entries' => 'Entrées du cache',
       'Unknown column type "%s"!' => 'Type de colonne « %s » inconnu !',
-      'Configured location for storing uploaded files on disk ("%s") does not exist, or is not readable or writable. Verify the directory exists and is readable and writable by the webserver.' => 'L’emplacement configuré pour stocker les fichiers téléchargés sur le disque (« %s ») n’existe pas, ou ne peut pas être lu ou écrit. Vérifier que le répertoire existe et peut être lu et écrit par le serveur web.',
+      'Configured location for storing uploaded files on disk ("%s") does not exist, or is not readable or writable. Verify the directory exists and is readable and writable by the webserver.' => 'L’emplacement configuré pour stocker les fichiers téléversés sur le disque (« %s ») n’existe pas, ou ne peut pas être lu ou écrit. Vérifier que le répertoire existe et peut être lu et écrit par le serveur web.',
       'Notifications User Guide: Setup and Configuration' => 'Guide utilisateur des notifications : Installation et configuration',
       'No Herald Hints' => 'Aucun conseil avant-coureur',
       'Key is Too Long' => 'La clé est trop longue',
@@ -810,7 +810,7 @@ final class PhabricatorConfigFr
       'Cache Storage' => 'Mémoire cache',
       'At least one daemon is currently running as the wrong user.' => 'Au moins un démon tourne actuellement avec le mauvais utilisateur.',
       'Data Type' => 'Type de données',
-      'Allow suppressing email from certain users' => 'Autoriser la supression des adresses courriels de certains utilisateurs',
+      'Allow suppressing email from certain users' => 'Autoriser la suppression des adresses courriels de certains utilisateurs',
       'Better Character Set Available' => 'Un meilleur ensemble de caractères est disponible',
       'Small MySQL "%s"' => 'Petit MySQL "%s"',
       'Value for option "%s" must be an integer.' => 'La valeur de l\'option "%s" doit être entière.',
@@ -1034,7 +1034,7 @@ final class PhabricatorConfigFr
     %s
     Pour configurer l’URI de base, lancez la commande affichée ci-dessous.',
       'Require Administrators to Approve Accounts' => 'Demander que les administrateurs approuvent les comptes',
-      'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Mettre %s dans votre configuration PHP à au moins 32Mo pour supporter les téléchargements de gros fichiers.',
+      'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Mettre %s dans votre configuration PHP à au moins 32Mo pour supporter les téléversements de gros fichiers.',
       'The system sudo user.' => 'L’utilisateur sudo du système.',
       'When users write comments which have URIs, they\'ll be automatically linked if the protocol appears in this set. This whitelist is primarily to prevent security issues like %s URIs.' => 'Quand les utilisateurs écrivent des commentaires qui contiennent des URI, ils seront automatiquement liés si le protocole apparaît dans cet ensemble. Cette liste blanche sert en premier lieu à éviter les problèmes de sécurité comme les URI %s.',
       'MySQL %s Mode Not Set' => 'Mode %s de MySQL non activé',
@@ -1103,7 +1103,7 @@ final class PhabricatorConfigFr
       'The \'%s\' binary could not be found. Set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in the Phabricator configuration.' => 'Le binaire \'%s\' est introuvable. Corriger la variable d’environnement %s du serveur web pour inclure le répertoire où il réside, ou ajouter ce répertoire à \'%s\' dans la configuration de Phabricator.',
       'To continue, resolve this problem and reload the page.' => 'Pour continuer, résolvez ce problème et rechargez la page.',
       'Phabricator is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
-    Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Phabricator est actuellement configuré pour servir les téléchargements utilisateur depuis le même domaine que le reste du contenu. C’est une risque de sécurité.
+    Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Phabricator est actuellement configuré pour servir les téléversements utilisateur depuis le même domaine que le reste du contenu. C’est une risque de sécurité.
     Configurer un CDN (ou un domaine de fichier alternatif) pour éliminer ce risque. Utiliser un CDN améliorera aussi les performances. Voir le guide ci-dessous pour les instructions.',
       'Wordmark' => 'Marque de mot',
       'Severe Security Vulnerability: Unpatched Bash' => 'Faille de sécurité grave : Bash non patché',
