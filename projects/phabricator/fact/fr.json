@@ -5,6 +5,8 @@
 			"Zarisi"
 		]
 	},
+	"082d1ecea396e7c3": "Analyser depuis le début, en ignorant les curseurs.",
+	"09477b727f04e230": "L'itérateur '$1' n'existe pas.",
 	"1a717eee3d0f327a": "Axe Y",
 	"45e147abd920eeb1": "Dimension",
 	"4b651451b653e31e": "Zzz...",
@@ -16,5 +18,6 @@
 	"c39bbd05c5b2c7ce": "Aucun moteur",
 	"e0930077f2b14881": "Fait",
 	"e24e1d449736078c": "Evénement inconnu (« $1 ») pour le moteur « $2 ».",
+	"eace282eb718e701": "Fait \"$1\"",
 	"f4a3e76da7c45bad": "Non généré"
 }

@@ -1410,7 +1410,7 @@
 	"e56c7e5f53249a60": "Lancer l’espacement",
 	"e58915a1e07c5c56": "Cette fonctionnalité nécessite une nouvelle version de Phabricator. Mettez à jour votre installation en suivant ces instructions : $1",
 	"e595a32d1c6f6c15": "'$1' est attendu pour séparer le cas de test et les résultats.",
-	"e609a0542114023c": "Devrait se lever sur une entrée non XML",
+	"e609a0542114023c": "Devrait lever une erreur sur une entrée non XML",
 	"e60a5754b40b6559": "Le linteur '$1' configuré dans '$2' n’existe pas !",
 	"e61b5573b808dc1b": "Évitez la forme courte de PHP echo, `$1`.",
 	"e652cb995b19251d": "Fournir une carte de découverte.",
