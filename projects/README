@@ -1,0 +1,38 @@
+This directory contains source strings that facilitate translatewiki to be used for translating the UI strings in phabricator and it's related projects.
+
+Below is a list of languages sorted by how many translation files exist for the given language.
+
+|file count|language-code.json|
+|2|be-tarask.json|
+|2|bn.json|
+|2|cs.json|
+|2|kjp.json|
+|2|skr-arab.json|
+|3|my.json|
+|4|mk.json|
+|5|ar.json|
+|5|zh-hant.json|
+|6|ast.json|
+|6|diq.json|
+|7|es.json|
+|7|fi.json|
+|7|nb.json|
+|7|ru.json|
+|8|sr-ec.json|
+|8|sv.json|
+|9|roa-tara.json|
+|10|ja.json|
+|11|pl.json|
+|11|tr.json|
+|12|ca.json|
+|13|pt-br.json|
+|19|hu.json|
+|22|ko.json|
+|32|zh-hans.json|
+|40|da.json|
+|54|fr.json|
+|55|el.json|
+|77|en.json|
+|77|qqq.json|
+|77|raw.json|
+|
