@@ -38,7 +38,6 @@
   "7e8d418a03dc44cd": "Show Released Applications",
   "821eddc7e54117b1": "Show Non-Launchable Applications",
   "88f5211d80264697": "%s uninstalled %s.",
-  "924db69ffa2cf8da": "Edit Policies",
   "93af795c73be74e6": "Can't set non-public policies to public.",
   "93fd54aac0120f83": "%s installed %s.",
   "9b12e7ec33bdb052": "Phabricator is not currently configured to accept inbound mail. You won't be able to interact with objects over email until inbound mail is set up.",

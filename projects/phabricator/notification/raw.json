@@ -21,7 +21,6 @@
   "92671dfe54e42f0c": "You can't ignore your problems forever, you know.",
   "9b16335d5b0b0a4a": "Unable to Connect to Notification Server",
   "a4b6852b8959cde5": "Phabricator is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.\n\n%s",
-  "ac5503328036ec9a": "Test Notification",
   "ad87d7cef1baf9fe": "Notification server not enabled",
   "b61b70be925f16d0": "This is a test notification, sent at %s.",
   "b6ef1f5cf0f38781": "(To start the server, run this command.)\n%s",

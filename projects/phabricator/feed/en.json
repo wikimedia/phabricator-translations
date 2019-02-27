@@ -1,6 +1,5 @@
 {
   "027c66bf37c9a3b4": "Call $1 before publishing!",
-  "0b6c397900987610": "POST notifications of feed events.",
   "20d3d91741172383": "Dictionary with various data of the story",
   "355a429bd0ea65d5": "All Stories",
   "3ae912771fea48db": "Query the feed for stories",
@@ -9,7 +8,6 @@
   "402cff085a9c09db": "Full HTML presentation of story",
   "479b096dd515915f": "(Unable to render story of class $1 for Doorkeeper.)",
   "496c5d9a5e9baa40": "Story has no primary object!",
-  "4b96e04033e5b802": "Key '$1' is not a valid chronological key!",
   "4d5f6edd9fafac64": "Republishing story...",
   "52d4e024931e864b": "Story is asking for an object it did not request ('$1')!",
   "554f3964d2e59e64": "Simple one-line plain text representation of story",
@@ -28,6 +26,7 @@
   "93a1e474113fc418": "No story exists with key \"$1\"!",
   "9553d911b70ac7c1": "Feed options.",
   "998b94780e83652a": "Creation (Oldest First)",
+  "9cecbbc1b9c4bed1": "Deprecated.",
   "a418c6e77070bf09": "No Stories.",
   "ac176a12354104c8": "Story contains only the title of the story",
   "b514a33de5976d6f": "Unsupported view type, possibles are: $1",

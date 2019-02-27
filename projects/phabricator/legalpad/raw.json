@@ -18,7 +18,6 @@
   "28cb3eab81986147": "%s edited %s required legal document(s), added %s: %s; removed %s: %s.",
   "28ed81cbd17193e8": "Document Title.",
   "290d4f3c3edf73fe": "A valid email is required.",
-  "295de6d01ea90ee3": "Configure Legalpad.",
   "2d514e7ced041b52": "Unable to Verify Signature",
   "2e9a840acd4ee593": "Signed By",
   "3142970c1419587b": "Contact Email",
@@ -40,6 +39,7 @@
   "4c7b160ee981454e": "You do not have permission to create new documents.",
   "50624939e60d1832": "%s:\n\nThis email address was used to sign a Legalpad document in Phabricator:\n\n  %s\n\nPlease verify you own this email address and accept the agreement by clicking this link:\n\n  %s\n\nYour signature is not valid until you complete this verification step.\n\nYou can review the document here:\n\n  %s\n",
   "52c6b1f2d11dff35": "This document has an unknown signature type (\"%s\").",
+  "557d608ecd7cbc32": "[Legalpad]",
   "5b4479d537bd3af1": "Legalpad Documents",
   "5c6c934df67e9ae9": "Legalpad Signatures",
   "5cca1e703c2b77be": "You signed this document on %s.",
@@ -139,7 +139,6 @@
   "f51ace9528bbf604": "Verified, Current",
   "f71700f3a2feaa78": "Signing User",
   "f7c6b8ea280a849e": "That user has already signed this document.",
-  "fdcd40b57d11fc4e": "Subject prefix for Legalpad email.",
   "fe24bdddbb445990": "New document signature type.",
   "feb58257ef310432": "Sign Document"
 }

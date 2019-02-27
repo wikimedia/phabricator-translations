@@ -1,5 +1,5 @@
 {
-	"@metadata": [],
-	"2d8e5d1a2409c0e5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/favorites/engineextension/PhabricatorFavoritesMainMenuBarExtension.php$77 PhabricatorFavoritesMainMenuBarExtension.php:77]",
-	"7707d701c139b8c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/favorites/application/PhabricatorFavoritesApplication.php$14 PhabricatorFavoritesApplication.php:14]"
+  "2d8e5d1a2409c0e5": "Used in:\n\nPhabricatorFavoritesMainMenuBarExtension.php:78\n",
+  "7707d701c139b8c4": "Used in:\n\nPhabricatorFavoritesApplication.php:14\n",
+  "ab1818cc9b9297dd": "Used in:\n\nPhabricatorFavoritesMainMenuBarExtension.php:34\n"
 }

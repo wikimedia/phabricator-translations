@@ -12,7 +12,6 @@
   "14e0376b5f414ed2": "File must have mimetype '%s'.",
   "1634238207b2dd90": "Delete Snapshot",
   "23b2a5e9da62ced0": "Deleting this snapshot is a permanent operation. You can not recover the state of the snapshot.",
-  "272607a7bd015aa5": "Revert",
   "2727e83a726ce24d": "Can Create Fragments",
   "2977fe0d7445c292": "Because Phragment generates files (such as ZIP archives and patches) as they are requested, it requires that you configure the `%s` option. This option on it's own will also provide additional security when serving files across Phabricator.",
   "2a2e9c3feb90c9b9": "Latest Version",
