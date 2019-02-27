@@ -25,7 +25,6 @@ final class PhabricatorGuidesFr
       'You\'ve created at least one repository.' => 'Vous avez créé au moins un dépôt.',
       'Guides' => 'Guides',
       'User Account Settings' => 'Paramètres du compte utilisateur',
-      'Login and Registration' => 'Connexion et inscription',
       'Personalize your Install' => 'Personnaliser votre installation',
       'Invite Collaborators' => 'Inviter des collaborateurs',
       'You\'ve created at least one project.' => 'Vous avez créé au moins un projet.',

@@ -28,7 +28,6 @@ final class PhabricatorLegalpadEs
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s editó %s documento(s) legal(es) requerido(s), añadido %s: %s; retirado %s: %s.',
       'Document Title.' => 'Título del documento.',
       'A valid email is required.' => 'Se requiere un correo electrónico válido.',
-      'Configure Legalpad.' => 'Configurar Legalpad',
       'Unable to Verify Signature' => 'No se puede verificar la firma',
       'Signed By' => 'Firmado por',
       'Contact Email' => 'Correo electrónico de contacto',
@@ -164,7 +163,6 @@ final class PhabricatorLegalpadEs
       'Verified, Current' => 'Verificada, versión actual',
       'Signing User' => 'Usuario firmante',
       'That user has already signed this document.' => 'Ese usuario ya ha firmado este documento.',
-      'Subject prefix for Legalpad email.' => 'Prefijo del asunto para los correos electrónicos de Legalpad.',
       'New document signature type.' => 'Nuevo tipo de firma del documento.',
       'Sign Document' => 'Firmar documento',
     );

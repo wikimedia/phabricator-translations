@@ -14,7 +14,6 @@ final class PhabricatorPhragmentKo
       'Download Contents as ZIP' => '콘텐츠를 ZIP으로 다운로드',
       'Delete Snapshot' => '스냅샷 삭제',
       'Deleting this snapshot is a permanent operation. You can not recover the state of the snapshot.' => '이 스냅샷을 지우는 것은 영구적인 작업입니다. 스냅샷의 상태를 복구할 수 없습니다.',
-      'Revert' => '되돌리기',
       'Latest Version' => '최신 버전',
       'ZIP Extension Not Installed' => 'ZIP 확장 기능이 설치되어 있지 않음',
       'Really delete this snapshot?' => '이 스냅샷을 정말로 삭제하시겠습니까?',

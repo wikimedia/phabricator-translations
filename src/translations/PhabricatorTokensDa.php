@@ -9,7 +9,6 @@ final class PhabricatorTokensDa
 
   protected function getTranslations() {
     return array(
-      'Goat' => 'Ged',
       'Grey Medal' => 'Grå medalje',
       '100',
       'Given by %s on %s' => 'Givet af %s den %s',

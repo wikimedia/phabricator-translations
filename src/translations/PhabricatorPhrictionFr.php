@@ -43,7 +43,6 @@ final class PhabricatorPhrictionFr
       'Document already exists!' => 'Le document existe déjà!',
       'Parent Paths' => 'Chemins des parents',
       'Hierarchy' => 'Hiérarchie',
-      'Edit Current Version' => 'Modifier la version actuelle',
       'Edited by %s' => 'Modifié par %s',
       'No Document Here' => 'Aucun document ici',
       'Read information about Phriction document history.' => 'Lire les informations concernant l\'historique du document de Phriction.',

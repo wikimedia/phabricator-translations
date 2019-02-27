@@ -35,7 +35,6 @@ final class PhabricatorGuidesEn
       'You\'ve created at least one repository.' => 'You\'ve created at least one repository.',
       'Guides' => 'Guides',
       'User Account Settings' => 'User Account Settings',
-      'Login and Registration' => 'Login and Registration',
       'You\'ve adjusted at least one setting on your account.' => 'You\'ve adjusted at least one setting on your account.',
       'Personalize your Install' => 'Personalize your Install',
       'Invite Collaborators' => 'Invite Collaborators',

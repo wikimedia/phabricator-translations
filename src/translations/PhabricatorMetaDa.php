@@ -27,7 +27,6 @@ final class PhabricatorMetaDa
       'Extension' => 'Udvidelse',
       '%s uninstalled this application.' => '%s afinstallerede denne applikation.',
       '%s uninstalled %s.' => '%s afinstallerede %s.',
-      'Edit Policies' => 'Rediger politikker',
       '%s installed %s.' => '%s installerede %s.',
       'Uninstall' => 'Afinstaller',
       'Type an application name...' => 'Indtast et applikationsnavn...',

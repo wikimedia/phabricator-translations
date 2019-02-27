@@ -25,6 +25,7 @@ final class PhabricatorProjectEn
       'Find results with only the specified tags.' => 'Find results with only the specified tags.',
       'Find results in any of a user\'s projects.' => 'Find results in any of a user\'s projects.',
       '%s added %d project hashtag(s): %s.' => '%s added %s project hashtag(s): %s.',
+      'Search for projects with given subtypes.' => 'Search for projects with given subtypes.',
       'Lock Project' => 'Lock Project',
       'Save Default Order' => 'Save Default Order',
       'Project Watchers' => 'Project Watchers',
@@ -128,6 +129,7 @@ final class PhabricatorProjectEn
       'Support for Projects' => 'Support for Projects',
       'This One Is Purple' => 'This One Is Purple',
       'Projects being edited' => 'Projects being edited',
+      'Source Workboard Has No Columns' => 'Source Workboard Has No Columns',
       '%s left this project.' => '%s left this project.',
       'Join works.' => 'Join works.',
       '%s Milestones' => '%s Milestones',
@@ -313,6 +315,7 @@ final class PhabricatorProjectEn
       'You must choose a file when uploading a new project picture.' => 'You must choose a file when uploading a new project picture.',
       'This project is already a milestone, and milestones may not have their own milestones.' => 'This project is already a milestone, and milestones may not have their own milestones.',
       'Hide Milestones' => 'Hide Milestones',
+      'You can not import columns into this workboard because it already has columns. You can only import into an empty workboard.' => 'You can not import columns into this workboard because it already has columns. You can only import into an empty workboard.',
       'Only' => 'Only',
       'Background Color' => 'Background Color',
       'Join this project? You will become a member and enjoy whatever benefits membership may confer.' => 'Join this project? You will become a member and enjoy whatever benefits membership may confer.',
@@ -400,6 +403,7 @@ final class PhabricatorProjectEn
       '%s removed %d project hashtag(s): %s.' => '%s removed %s project hashtag(s): %s.',
       '%s renamed this column from "%s" to "%s".' => '%s renamed this column from "%s" to "%s".',
       'Custom Filter' => 'Custom Filter',
+      'Subtype of the project.' => 'Subtype of the project.',
       'Additional Hashtags' => 'Additional Hashtags',
       'For milestones, milestone sequence number.' => 'For milestones, milestone sequence number.',
       'Get the member list for the project.' => 'Get the member list for the project.',
@@ -417,6 +421,7 @@ final class PhabricatorProjectEn
       '%s named this column "%s".' => '%s named this column "%s".',
       'Unwatch Project' => 'Unwatch Project',
       'Not In: Invalid Project' => 'Not In: Invalid Project',
+      'You can not import columns from that workboard because it has no importable columns.' => 'You can not import columns from that workboard because it has no importable columns.',
       'You must choose a valid project.' => 'You must choose a valid project.',
       'This project is a milestone, and milestones may not have subprojects.' => 'This project is a milestone, and milestones may not have subprojects.',
       '%s removed %s project(s) for %s: %s.' => '%s removed %s project(s) for %s: %s.',
@@ -427,6 +432,7 @@ final class PhabricatorProjectEn
       'This function allows you to find results for any of the members of a project:
     > members(frontend)' => 'This function allows you to find results for any of the members of a project:
     > members(frontend)',
+      'Workboard Already Has Columns' => 'Workboard Already Has Columns',
       'Project History' => 'Project History',
       'Diplomatic Meeting' => 'Diplomatic Meeting',
       'Browse Viewer Projects' => 'Browse Viewer Projects',
@@ -439,6 +445,7 @@ final class PhabricatorProjectEn
       'This function matches results which are not tagged with any projects. It is usually most often used to find objects which might have slipped through the cracks and not been organized properly.
     %s' => 'This function matches results which are not tagged with any projects. It is usually most often used to find objects which might have slipped through the cracks and not been organized properly.
     %s',
+      'Type a project subtype name...' => 'Type a project subtype name...',
       'Show Hidden Columns' => 'Show Hidden Columns',
       'Show Column' => 'Show Column',
       'Set Board Default Filter' => 'Set Board Default Filter',
@@ -503,6 +510,7 @@ final class PhabricatorProjectEn
       'Workboard: %s' => 'Workboard: %s',
       'Unable to find object "%s" in column "%s" on board "%s".' => 'Unable to find object "%s" in column "%s" on board "%s".',
       'This project does not have any members.' => 'This project does not have any members.',
+      'Define project subtypes.' => 'Define project subtypes.',
       'You can not hide the default/backlog column on a board.' => 'You can not hide the default/backlog column on a board.',
       'Read information about workboard columns.' => 'Read information about workboard columns.',
       'When mail is sent to members of this project, you will no longer receive a copy.' => 'When mail is sent to members of this project, you will no longer receive a copy.',

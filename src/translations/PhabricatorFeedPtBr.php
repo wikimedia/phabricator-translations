@@ -10,7 +10,6 @@ final class PhabricatorFeedPtBr
   protected function getTranslations() {
     return array(
       'Call %s before publishing!' => 'Ligue %s antes de publicar!',
-      'POST notifications of feed events.' => 'Notificações de POST de eventos de feed.',
       'Dictionary with various data of the story' => 'Dicionário com vários dados da história',
       'All Stories' => 'Todas as histórias',
       'Query the feed for stories' => 'Consultar o feed de histórias',
@@ -19,7 +18,6 @@ final class PhabricatorFeedPtBr
       'Full HTML presentation of story' => 'Apresentação completa em HTML da história',
       '(Unable to render story of class %s for Doorkeeper.)' => '(Não é possível renderizar a história da classe %s para o porteiro).',
       'Story has no primary object!' => 'A história não tem objeto primário!',
-      'Key \'%s\' is not a valid chronological key!' => 'A chave \'%s\' não é uma chave cronológica válida!',
       'Republishing story...' => 'Republicando a história...',
       'Story is asking for an object it did not request (\'%s\')!' => 'A história está pedindo um objeto que não solicitou (\'%s\')!',
       'Simple one-line plain text representation of story' => 'Representação de texto simples de uma linha simples da história',

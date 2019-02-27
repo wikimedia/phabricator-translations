@@ -22,7 +22,6 @@ final class PhabricatorPhragmentEl
       'File must have mimetype \'%s\'.' => 'Τα αρχεία πρέπει να έχουν τύπο  mime \'%s\'.',
       'Delete Snapshot' => 'Διαγραφή στιγμιοτύπου',
       'Deleting this snapshot is a permanent operation. You can not recover the state of the snapshot.' => 'Η διαγραφή του στιγμιοτύπου είναι μόνιμη λειτουργία. Δεν μπορείτε να ανακτήσετε την κατάσταση του στιγμιοτύπου.',
-      'Revert' => 'Αναστροφή',
       'Can Create Fragments' => 'Μπορεί να δημιουργήσει τεμάχια',
       'View Version %d' => 'Προβολή έκδοσης %s',
       'Create Snapshot' => 'Δημιουργία στιγμιότυπου',

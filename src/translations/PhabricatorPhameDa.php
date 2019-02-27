@@ -39,7 +39,6 @@ final class PhabricatorPhameDa
       '%s created this blog.' => '%s oprettede denne blog.',
       'Phame Blog' => 'Phame Blog',
       '%s renamed this blog from %s to %s.' => '%s omdøbte denne blog fra %s til %s.',
-      'Publish' => 'Offentliggør',
       'Create Post' => 'Opret indlæg',
       'Active Blogs' => 'Aktive blogs',
       'Local Blog' => 'Lokal blog',

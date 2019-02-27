@@ -61,7 +61,6 @@ final class PhabricatorUiexampleHu
       'No Data' => 'Nincs adat',
       'Success' => 'Siker',
       'This list is empty.' => 'Ez a lista üres.',
-      'Billing Address' => 'számlázási cím',
       'Multiple Column Layouts' => 'Több oszlopos elrendezés',
       'Center is on an edge' => 'A központ a szélén van',
       'Element' => 'Elem',

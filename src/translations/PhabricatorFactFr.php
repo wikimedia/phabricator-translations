@@ -9,6 +9,8 @@ final class PhabricatorFactFr
 
   protected function getTranslations() {
     return array(
+      'Analyze from the beginning, ignoring cursors.' => 'Analyser depuis le début, en ignorant les curseurs.',
+      'Iterator \'%s\' does not exist.' => 'L\'itérateur \'%s\' n\'existe pas.',
       'Y-Axis' => 'Axe Y',
       'Dimension' => 'Dimension',
       'Zzz...' => 'Zzz...',
@@ -20,6 +22,7 @@ final class PhabricatorFactFr
       'No Engines' => 'Aucun moteur',
       'Fact' => 'Fait',
       'Unknown fact ("%s") for engine "%s".' => 'Evénement inconnu (« %s ») pour le moteur « %s ».',
+      'Fact "%s"' => 'Fait "%s"',
       'Not Generated' => 'Non généré',
     );
   }

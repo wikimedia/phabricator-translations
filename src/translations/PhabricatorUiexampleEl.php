@@ -78,7 +78,6 @@ final class PhabricatorUiexampleEl
       'This list is empty.' => 'Αυτός ο κατάλογος είναι άδειος.',
       'Don\'t let go!' => 'Μη το αφήσετε να φύγει!',
       'Apple' => 'Μήλο',
-      'Billing Address' => 'Διεύθυνση τιμολόγησης',
       'Center is on an edge' => 'Το κέντρο είναι σε μια άκρη',
       'Element' => 'Στοιχείο',
       'Single Use' => 'Απλή χρήση',

@@ -26,7 +26,6 @@ final class PhabricatorSettingsKo
       'Value "%s" is not valid for setting "%s": valid values are %s.' => '"%2$s" 설정의 값 "%1$s"이 유효하지 않습니다: 유효한 값은 %s입니다.',
       'You haven\'t added any SSH Public Keys.' => 'SSH 공개 키를 추가하지 않았습니다.',
       'All Messages' => '모든 메시지',
-      'In Use' => '사용 중',
       'Save Preference' => '환경 설정 저장하기',
       'Email Format' => '이메일 형식',
       'Edit Authentication Factor' => '인증 요소 편집',
@@ -95,7 +94,6 @@ final class PhabricatorSettingsKo
       'Web Only' => '웹 전용',
       'Developer/Test Translations' => '개발자/테스트 번역',
       'User Preferences' => '사용자 환경 설정',
-      'Unknown Account ("%s")' => '알 수 없는 계정 ("%s")',
       'There is no known application setting with key "%s".' => '"%s" 키로 알려진 애플리케이션 설정이 없습니다.',
       'Friday' => '금요일',
       'Click "Save Preference" to persist these changes.' => '이 변경사항을 지속하려면 "환경 설정 저장하기"를 클릭하십시오.',
@@ -113,7 +111,6 @@ final class PhabricatorSettingsKo
       'UTC-%d' => 'UTC-%s',
       'Conflict Ignored' => '충돌 무시됨',
       'This engine is used to edit settings.' => '이 엔진은 설정 편집을 위해 사용됩니다.',
-      'Phabricator can send real-time notifications to your web browser or to your desktop. Select where you\'d want to receive these real-time updates.' => '파브리케이터는 웹 브라우저나 데스크톱에 실시간 알림을 보낼 수 있습니다. 이 실시간 업데이트를 받을 항목을 선택하십시오.',
       'Default (Unknown, "%s")' => '기본값 (알 수 없음, "%s")',
     );
   }

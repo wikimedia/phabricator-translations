@@ -49,7 +49,6 @@ final class PhabricatorConpherenceEs
       '%s created this room.' => '%s creó esta sala.',
       'EMAIL PREFERENCES FOR THIS ROOM' => 'PREFERENCIAS DE CORREO ELECTRÓNICO PARA ESTA SALA',
       'Search Rooms' => 'Buscar salas',
-      'Configure Conpherence messaging.' => 'Configurar la mensajería de Conpherence.',
       'Show Older Messages' => 'Mostrar mensajes más antiguos',
       'Update an existing conpherence room.' => 'Actualizar una sala de conpherence ya existente.',
       'Room topic.' => 'Asunto de la sala.',

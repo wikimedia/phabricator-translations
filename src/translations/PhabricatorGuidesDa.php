@@ -15,7 +15,6 @@ final class PhabricatorGuidesDa
       'Quick Start' => 'Hurtig start',
       'You\'ve created at least one dashboard.' => 'Du har oprettet mindst et betjeningspanel.',
       'User Account Settings' => 'Brugerkontoindstillinger',
-      'Login and Registration' => 'Login og registrering',
       'Invite Collaborators' => 'Inviter samarbejdspartnere',
       'You\'ve created at least one project.' => 'Du har oprettet mindst et projekt.',
       'See all the applications included in Phabricator.' => 'Se alle applikationer der er inkluderet i Phabricator.',

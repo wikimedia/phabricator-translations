@@ -10,7 +10,6 @@ final class PhabricatorTokensEl
   protected function getTranslations() {
     return array(
       'Piece of Eight' => 'Κομμάτι των Οκτώ',
-      'Goat' => 'Κατσίκα',
       'Mountain of Wealth' => 'Βουνό του Πλούτου',
       'Grey Medal' => 'Γκρι Μετάλλιο',
       'Leader Board' => 'Λίστα κατάταξης',

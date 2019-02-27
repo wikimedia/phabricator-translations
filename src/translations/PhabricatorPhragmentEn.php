@@ -22,7 +22,6 @@ final class PhabricatorPhragmentEn
       'File must have mimetype \'%s\'.' => 'File must have mimetype \'%s\'.',
       'Delete Snapshot' => 'Delete Snapshot',
       'Deleting this snapshot is a permanent operation. You can not recover the state of the snapshot.' => 'Deleting this snapshot is a permanent operation. You can not recover the state of the snapshot.',
-      'Revert' => 'Revert',
       'Can Create Fragments' => 'Can Create Fragments',
       'Because Phragment generates files (such as ZIP archives and patches) as they are requested, it requires that you configure the `%s` option. This option on it\'s own will also provide additional security when serving files across Phabricator.' => 'Because Phragment generates files (such as ZIP archives and patches) as they are requested, it requires that you configure the `%s` option. This option on it\'s own will also provide additional security when serving files across Phabricator.',
       'Latest Version' => 'Latest Version',

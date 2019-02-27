@@ -36,7 +36,6 @@ final class PhabricatorNotificationFr
       'Phabricator is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
     %s' => 'Phabricator est configuré pour utiliser un serveur de notifications, mais est incapable de s\'y connecter. Vous devriez résoudre ce problème ou désactiver le serveur de notifications. Il peut être utile de revérifier votre configuration ou de redémarrer le serveur en utilisant la commande ci-dessous.
     %s',
-      'Test Notification' => 'Notification de test',
       'Notification server not enabled' => 'Le serveur de notifications n\'est pas activé',
       'This is a test notification, sent at %s.' => 'Ceci est une notification de test, envoyée à %s.',
       '(To start the server, run this command.)

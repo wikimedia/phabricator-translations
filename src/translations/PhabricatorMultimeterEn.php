@@ -26,6 +26,7 @@ final class PhabricatorMultimeterEn
       'Trying to unpause an active multimeter!' => 'Trying to unpause an active multimeter!',
       'Web Request' => 'Web Request',
       'By Context' => 'By Context',
+      'Avg' => 'Avg',
       'By Label' => 'By Label',
       'Multimeter' => 'Multimeter',
       'Viewer' => 'Viewer',

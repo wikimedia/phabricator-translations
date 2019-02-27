@@ -9,7 +9,6 @@ final class PhabricatorTokensFr
 
   protected function getTranslations() {
     return array(
-      'Goat' => 'Chèvre',
       'Grey Medal' => 'Médaille grise',
       '100',
       'Rescind Token' => 'Annuler un jeton',

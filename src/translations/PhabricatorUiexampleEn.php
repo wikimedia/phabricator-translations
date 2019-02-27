@@ -108,7 +108,6 @@ final class PhabricatorUiexampleEn
       'A minimal UI for Buttons' => 'A minimal UI for Buttons',
       'Don\'t let go!' => 'Don\'t let go!',
       'Apple' => 'Apple',
-      'Billing Address' => 'Billing Address',
       'Multiple Column Layouts' => 'Multiple Column Layouts',
       'Center is on an edge' => 'Center is on an edge',
       'Element' => 'Element',

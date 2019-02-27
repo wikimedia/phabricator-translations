@@ -41,7 +41,6 @@ final class PhabricatorMetaTr
       'Show Launchable Applications' => 'Başlatılabilir Uygulamaları Göster',
       'Show Released Applications' => 'Yayımlanan Uygulamaları Göster',
       'Show Non-Launchable Applications' => 'Başlatılamayan Uygulamaları Göster',
-      'Edit Policies' => 'Politikaları Düzenle',
       'Can\'t set non-public policies to public.' => 'Halka açık olmayan politikalar herkese açık olarak ayarlanamaz.',
       'Configure Application Forms' => 'Uygulama Formlarını Yapılandır',
       'Show Applications w/ App Email Support' => 'Uygulamaları Göster w/ Uygulama E-Posta Desteği',

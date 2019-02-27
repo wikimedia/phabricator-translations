@@ -10,7 +10,6 @@ final class PhabricatorTokensPtBr
   protected function getTranslations() {
     return array(
       'Piece of Eight' => 'Pedaço de oito',
-      'Goat' => 'Cabra',
       'Mountain of Wealth' => 'Montanha da riqueza',
       'Grey Medal' => 'Medalha cinza',
       'Leader Board' => 'Quadro de Líderes',

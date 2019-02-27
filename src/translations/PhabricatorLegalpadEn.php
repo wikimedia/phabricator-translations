@@ -28,7 +28,6 @@ final class PhabricatorLegalpadEn
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s edited %s required legal document(s), added %s: %s; removed %s: %s.',
       'Document Title.' => 'Document Title.',
       'A valid email is required.' => 'A valid email is required.',
-      'Configure Legalpad.' => 'Configure Legalpad.',
       'Unable to Verify Signature' => 'Unable to Verify Signature',
       'Signed By' => 'Signed By',
       'Contact Email' => 'Contact Email',
@@ -66,6 +65,7 @@ final class PhabricatorLegalpadEn
       %s
     ',
       'This document has an unknown signature type ("%s").' => 'This document has an unknown signature type ("%s").',
+      '[Legalpad]' => '[Legalpad]',
       'Legalpad Documents' => 'Legalpad Documents',
       'Legalpad Signatures' => 'Legalpad Signatures',
       'You signed this document on %s.' => 'You signed this document on %s.',
@@ -165,7 +165,6 @@ final class PhabricatorLegalpadEn
       'Verified, Current' => 'Verified, Current',
       'Signing User' => 'Signing User',
       'That user has already signed this document.' => 'That user has already signed this document.',
-      'Subject prefix for Legalpad email.' => 'Subject prefix for Legalpad email.',
       'New document signature type.' => 'New document signature type.',
       'Sign Document' => 'Sign Document',
     );

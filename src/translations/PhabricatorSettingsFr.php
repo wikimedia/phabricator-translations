@@ -26,7 +26,6 @@ final class PhabricatorSettingsFr
       'Value "%s" is not valid for setting "%s": valid values are %s.' => 'La valeur "%s" n\'est pas valide pour le réglage "%s": les valeurs valides sont %s.',
       'Are you sure you want to delete this address? You will no longer be able to use it to login.' => 'Etes-vous sûr de vouloir supprimer cette adresse ? Vous ne pourrez plus l\'utiliser pour vous connecter.',
       'You haven\'t added any SSH Public Keys.' => 'Vous n\'avez ajouté aucune clé publique SSH.',
-      'In Use' => 'En cours d\'utilisation',
       'Save Preference' => 'Sauvegarder les préférences',
       'Email Format' => 'Format du courriel',
       'Edit Authentication Factor' => 'Modifier le facteur d\'authentication',
@@ -52,7 +51,6 @@ final class PhabricatorSettingsFr
       'Edit settings for your personal account.' => 'Modifier les paramètres de votre compte personnel.',
       'Create Settings' => 'Créer des paramètres',
       'Use Unicode Glyphs: ⚙' => 'Utiliser les glyphes Unicode : ⚙',
-      'Make Primary' => 'Rendre principal',
       'Silly Translations' => 'Traductions idiotes',
       'Send Plain Text Email' => 'Envoyer un courriel en texte simple',
       'Filetree Width' => 'Profondeur d\'arborescence',
@@ -60,7 +58,6 @@ final class PhabricatorSettingsFr
       'Disable "Re:" Prefix' => 'Désactiver le préfixe "Re:"',
       'Disable Email Notifications' => 'Désactiver les notifications par courriel',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator utilise des glyphes unicode dans les titres de pages pour fournir une représentation compacte de l\'application courante. Vous pouvez les remplacer par du texte simple s\'ils ne s\'affichent pas sur votre système.',
-      'Primary' => 'Principal',
       'Translation' => 'Traduction',
       'Settings %d' => 'Settings %s',
       'Time Format' => 'Format de l\'heure',
@@ -69,8 +66,6 @@ final class PhabricatorSettingsFr
       'User Guide: Configuring an External Editor' => 'Manuel utilisateur: configurer un éditeur externe',
       'Developer/Test Translations' => 'Traductions du développement et de test',
       'Enable Vary Subjects' => 'Autoriser les sujets Vary',
-      'Two settings panels share the same panel key (\'%s\'): %s, %s.' => 'Deux panneaux de configuration se partagent la même clé (\'%s\'): %s, %s .',
-      'Unknown Account ("%s")' => 'Compte inconnu (« %s »)',
       'Policy Favorites' => 'Règles favorites',
       'Friday' => 'Vendredi',
       'Verify' => 'Vérifier',
@@ -85,7 +80,6 @@ final class PhabricatorSettingsFr
       'UTC-%d' => 'UTC-%s',
       'Conflict Ignored' => 'Conflit ignoré',
       'This engine is used to edit settings.' => 'Ce moteur est utilisé pour modifier les paramètres de configuration.',
-      'Phabricator can send real-time notifications to your web browser or to your desktop. Select where you\'d want to receive these real-time updates.' => 'Phabricator peut envoyer des notifications en temps réel sur votre navigateur web ou sur votre bureau. Sélectionnez l\'endroit où vous voulez recevoir ces mises à jour en temps réel.',
     );
   }
 

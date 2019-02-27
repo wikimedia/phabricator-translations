@@ -59,7 +59,6 @@ final class PhabricatorCalendarDa
       'Calendar Export' => 'Kalendereksportering',
       'Away' => 'Væk',
       'Change the start time of the event.' => 'Ændre starttidspunktet for begivenheden.',
-      'Previous' => 'Forrige',
       'Importing "%s"...' => 'Importerer "%s"...',
       'Hosts' => 'Værter',
       'Create Event' => 'Opret begivenhed',

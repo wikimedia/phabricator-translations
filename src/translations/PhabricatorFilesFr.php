@@ -43,7 +43,6 @@ final class PhabricatorFilesFr
       'Files must have a name.' => 'Les fichiers doivent avoir un nom.',
       'New file name.' => 'Nouveau nom de fichier.',
       'Interacting with Files' => 'Interagir avec les fichiers',
-      'Team' => 'Équipe',
       'This file data is incomplete!' => 'Les données de ce fichier sont incomplètes!',
       'Processed %s file(s) with no errors.' => '%s fichier(s) traité(s) sans erreurs.',
       'The name of the file.' => 'Le nom du fichier.',

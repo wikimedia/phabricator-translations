@@ -29,7 +29,6 @@ final class PhabricatorMetaEl
       'Show Installed Applications' => 'Εμφάνιση Εγκατεστημένων Εφαρμογών',
       'Configure' => 'Ρυθμίστε',
       'Mail Commands Overview' => 'Επισκόπηση Εντολών Ταχυδρομείου',
-      'Edit Policies' => 'Πολιτικές επεξεργασίας',
       'Uninstall' => 'Απεγκατάσταση',
       'Install %s application?' => 'Εγκατάσταση της εφαρμογής %s;',
       'Quick Reference' => 'Γρήγορη αναφορά',

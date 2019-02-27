@@ -10,7 +10,6 @@ final class PhabricatorFeedEn
   protected function getTranslations() {
     return array(
       'Call %s before publishing!' => 'Call %s before publishing!',
-      'POST notifications of feed events.' => 'POST notifications of feed events.',
       'Dictionary with various data of the story' => 'Dictionary with various data of the story',
       'All Stories' => 'All Stories',
       'Query the feed for stories' => 'Query the feed for stories',
@@ -19,7 +18,6 @@ final class PhabricatorFeedEn
       'Full HTML presentation of story' => 'Full HTML presentation of story',
       '(Unable to render story of class %s for Doorkeeper.)' => '(Unable to render story of class %s for Doorkeeper.)',
       'Story has no primary object!' => 'Story has no primary object!',
-      'Key \'%s\' is not a valid chronological key!' => 'Key \'%s\' is not a valid chronological key!',
       'Republishing story...' => 'Republishing story...',
       'Story is asking for an object it did not request (\'%s\')!' => 'Story is asking for an object it did not request (\'%s\')!',
       'Simple one-line plain text representation of story' => 'Simple one-line plain text representation of story',
@@ -38,6 +36,7 @@ final class PhabricatorFeedEn
       'No story exists with key "%s"!' => 'No story exists with key "%s"!',
       'Feed options.' => 'Feed options.',
       'Creation (Oldest First)' => 'Creation (Oldest First)',
+      'Deprecated.' => 'Deprecated.',
       'No Stories.' => 'No Stories.',
       'Story contains only the title of the story' => 'Story contains only the title of the story',
       'Unsupported view type, possibles are: %s' => 'Unsupported view type, possibles are: %s',

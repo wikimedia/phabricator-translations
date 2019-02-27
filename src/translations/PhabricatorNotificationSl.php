@@ -19,7 +19,6 @@ final class PhabricatorNotificationSl
       'Disconnected' => 'Nepovezan',
       'No notifications to mark as read.' => 'Nobeno obvestilo ni označeno kot prebrano.',
       'Real-Time Updates and Alerts' => 'Takojšnje posodobitve in opomniki',
-      'Test Notification' => 'Testiraj obvestilo',
       'Notification server not enabled' => 'Strežnik z obvestili ni omogočen',
       'This is a test notification, sent at %s.' => 'To je testno obvestilo, poslano na %s',
       '(To start the server, run this command.)

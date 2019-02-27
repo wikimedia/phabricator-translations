@@ -1527,7 +1527,7 @@ final class ArcanistCoreFr
       'Cast Spacing' => 'Lancer l’espacement',
       'This feature requires a newer version of Phabricator. Please update it using these instructions: %s' => 'Cette fonctionnalité nécessite une nouvelle version de Phabricator. Mettez à jour votre installation en suivant ces instructions : %s',
       'Expected \'%s\' separating test case and results.' => '\'%s\' est attendu pour séparer le cas de test et les résultats.',
-      'Should throw on non-xml input' => 'Devrait se lever sur une entrée non XML',
+      'Should throw on non-xml input' => 'Devrait lever une erreur sur une entrée non XML',
       'Linter \'%s\' configured in \'%s\' does not exist!' => 'Le linteur \'%s\' configuré dans \'%s\' n’existe pas !',
       'Avoid the PHP echo short form, `%s`.' => 'Évitez la forme courte de PHP echo, `%s`.',
       'Provide a discovery map.' => 'Fournir une carte de découverte.',

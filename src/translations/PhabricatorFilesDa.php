@@ -33,7 +33,6 @@ final class PhabricatorFilesDa
       'Files must have a name.' => 'Filer skal først have et navn.',
       'New file name.' => 'Nyt filnavn.',
       'Interacting with Files' => 'Interagere med filer',
-      'Team' => 'Hold',
       'This file data is incomplete!' => 'Denne fildata er ufuldendt!',
       'Processed %s file(s) with no errors.' => 'Bearbejdede %s fil(er) uden fejl.',
       'The name of the file.' => 'Navnet på filen.',

@@ -26,7 +26,6 @@ final class PhabricatorLegalpadEl
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => 'Ο %s επεξεργάστηκε %s απαιτούμενα νομικά έγγραφο(-α), πρόσθεσε %s: %s και αφαίρεσε %s: %s.',
       'Document Title.' => 'Τίτλος εγγράφου.',
       'A valid email is required.' => 'Απαιτείται μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου.',
-      'Configure Legalpad.' => 'Ρύθμιση του Legalpad.',
       'Unable to Verify Signature' => 'Αποτυχία επαλήθευσης υπογραφής.',
       'Contact Email' => 'Διεύθυνση ηλεκτρονικού ταχυδρομείου επικοινωνίας',
       'Document Body' => 'Κείμενο εγγράφου',

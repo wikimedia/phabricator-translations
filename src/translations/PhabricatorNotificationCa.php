@@ -32,7 +32,6 @@ final class PhabricatorNotificationCa
       'Phabricator is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
     %s' => 'Phabricator està configurat per utilitzar un servidor de notificacions, però és incapaç de connectar-se a ell. Hauries de resoldre aquest assumpte o deshabilitar el servidor de notificacions. Pot ser útil tornar a comprovar la vostra configuració o reiniciar el servidor utilitzant l\'ordre següent.
     %s',
-      'Test Notification' => 'Notificació de prova',
       'Notification server not enabled' => 'Servidor de notificació no habilitat',
       'This is a test notification, sent at %s.' => 'Això és una notificació de prova, s\'ha enviat a %s.',
       '(To start the server, run this command.)

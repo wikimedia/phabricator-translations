@@ -9,7 +9,6 @@ final class PhabricatorManiphestCa
 
   protected function getTranslations() {
     return array(
-      'Can Edit Task Projects' => 'Pot editar tasques dels projectes',
       'Create Task' => 'Crea una tasca',
       'Priority of the task.' => 'Prioritat de la tasca.',
       'Assignee' => 'Assignat',
@@ -42,7 +41,6 @@ final class PhabricatorManiphestCa
       'Recently Closed' => 'Tancat recentment',
       'Assigned Task' => 'Tasca assignada',
       '%s updated the task description for %s.' => '%s ha actualitzat la descripció de la tasca per %s.',
-      'Simple Subtypes' => 'Subtipus simple',
       'Task Has Revision' => 'La tasca té una revisió',
       'Validate "%s"' => 'Valida "%s"',
       'Original task author.' => 'Autor de la tasca original',
@@ -73,7 +71,6 @@ final class PhabricatorManiphestCa
       'task author' => 'autor de la tasca',
       'Status of the task.' => 'Estat de la tasca.',
       'Information about task status.' => 'Informació sobre l\'estat de la tasca.',
-      'Can Assign Tasks' => 'Pot assignar tasques',
       'Subtasks.' => 'Subtasques.',
       '%s closed this task as %s.' => '%s ha tancat aquesta tasca com a %s.',
       'Configure Maniphest.' => 'Configura Maniphest.',
@@ -144,7 +141,6 @@ final class PhabricatorManiphestCa
       'Rename the task.' => 'Reanomena la tasca.',
       '%s closed this task as a duplicate.' => '%s ha tancat aquesta tasca com a duplicada.',
       'Wish' => 'Desig',
-      'Can Edit Task Policies' => 'Pot editar les polítiques de la tasca',
       'By Project' => 'Per projecte',
       'Subscribed' => 'Subscrit',
       'Unknown Status' => 'Estat desconegut',

@@ -48,7 +48,6 @@ final class PhabricatorMetaEn
       'Show Released Applications' => 'Show Released Applications',
       'Show Non-Launchable Applications' => 'Show Non-Launchable Applications',
       '%s uninstalled %s.' => '%s uninstalled %s.',
-      'Edit Policies' => 'Edit Policies',
       'Can\'t set non-public policies to public.' => 'Can\'t set non-public policies to public.',
       '%s installed %s.' => '%s installed %s.',
       'Phabricator is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => 'Phabricator is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.',

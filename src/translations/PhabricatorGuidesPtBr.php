@@ -35,7 +35,6 @@ final class PhabricatorGuidesPtBr
       'You\'ve created at least one repository.' => 'Você criou pelo menos um repositório.',
       'Guides' => 'Guias',
       'User Account Settings' => 'Configurações da conta de usuário',
-      'Login and Registration' => 'Login e registro',
       'You\'ve adjusted at least one setting on your account.' => 'Você ajustou pelo menos uma configuração na sua conta.',
       'Personalize your Install' => 'Personalize sua instalação',
       'Invite Collaborators' => 'Convidar colaboradores',

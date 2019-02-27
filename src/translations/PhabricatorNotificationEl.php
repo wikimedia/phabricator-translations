@@ -18,7 +18,6 @@ final class PhabricatorNotificationEl
       'No notifications to mark as read.' => 'Δεν υπάρχουν ειδοποιήσεις για επισήμανση ως διαβασμένες.',
       'Notification Server Down' => 'Ο διακομιστής ειδοποιήσεων έπεσε',
       'Real-Time Updates and Alerts' => 'Ειδοποιήσεις και ενημερώσεις σε πραγματικό χρόνο',
-      'Test Notification' => 'Δοκιμαστική ειδοποίηση',
       'Notification server not enabled' => 'Ο διακομιστής ειδοποιήσεων δεν έχει ενεργοποιηθεί',
       'This is a test notification, sent at %s.' => 'Αυτή είναι μια δοκιμαστική ειδοποίηση, που εστάλη στις %s.',
       '(To start the server, run this command.)

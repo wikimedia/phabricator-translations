@@ -10,7 +10,6 @@ final class PhabricatorTokensZhHans
   protected function getTranslations() {
     return array(
       'Piece of Eight' => '西班牙古银币',
-      'Goat' => '山羊',
       'Mountain of Wealth' => '财富如山高',
       'Grey Medal' => '灰色勋章',
       'Leader Board' => '排行榜',

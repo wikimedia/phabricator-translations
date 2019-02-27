@@ -53,17 +53,37 @@ final class PhabricatorDoorkeeperFr
     ☠ Vos modifications ne se répercuteront pas dans Phabricator.
     ☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Suppression de l’arête de la sous-tâche vers %s, l’objet étranger n’est pas visible.',
+      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d&affichage de balise de Doorkeeper « %s » non supporté. Les modes supportés sont : %s.',
       'Integration with Asana' => 'Intégration avec Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Le travailleur portier \'%s\' n’est pas activé.',
       'Object has no followers or active/passive users.' => 'L’objet n’a pas d’abonné ou d’utilisateurs actifs/passifs.',
       'Skipping main task update, cursor is ahead of the story.' => 'Saut de la mise à jour de la tâche principale, le curseur est au-delà de l’histoire.',
       'Asana: %s' => 'Asana : %s',
       'Failed to load external object after collision.' => 'Échec au chargement de l’objet externe après collision.',
+      'To specify projects to add tasks to, enter a JSON map with publisher class names as keys and a list of project IDs as values. For example, to put Differential tasks into Asana projects with IDs `123` and `456`, enter:
+      lang=txt
+      {
+        "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
+      }
+    ' => 'Pour spécifier les projets auxquels ajouter des tâches, entrer une correespondance JSON avec les noms de classe de l’éditeur en clé et une liste d’ID de projet comme valeur. Par exemple, pour mettre des tâches Differential dans les projets Asana d’ID `123` et `456`, saisir :
+      lang=txt
+      {
+        "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
+      }',
       'Synchronization of child task from Asana failed!' => 'La synchronisation de la tâche enfant depuis Asana a échoué !',
       'Story is about an object with no linked JIRA issues.' => 'L’histoire concerne un objet JIRA sans problème.',
       'GitHub User %s' => 'Utilisateur GitHub %s',
+      'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'Le problème GitHub d’ID « %s » n’a pas le bon format. Un ID est attendu de la forme « propriétaire/dépôt#123 ».',
       'Workspace Name' => 'Nom de l\'espace de travail',
+      'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'Impossible de trouver un utilisateur Asana avec des certificats valides pour en obtenir un jeton OAuth.',
+      'Synchronization of parent task from Asana failed!' => 'La synchronisation de la tâche parente depuis Asana a échoué !',
+      'Optional Asana projects to use as application tags.' => 'Projets facultatifs de Asana à utiliser comme balises de l’application.',
+      'The Asana Workspaces your linked account has access to are:
+    %s' => 'Les espaces de nom de Asana auxquels a accès votre compte lié sont :
+    %s',
+      'No users to act on linked JIRA objects.' => 'Aucun utilisateur pour agir sur les objets JIRA liés.',
       'Updating main task.' => 'Mise à jour de la tâche principale.',
+      'Story object has no corresponding external JIRA objects.' => 'L’objet histoire n’a pas d’objets JIRA externes correspondant.',
     );
   }
 

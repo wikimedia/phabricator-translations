@@ -61,7 +61,6 @@ final class PhabricatorOwnersEl
       'Active Packages' => 'Ενεργά πακέτα',
       'Exclude' => 'Εξαίρεση',
       'Archive Package' => 'Αρχειοθέτηση πακέτου',
-      'Find results in any of an owner\'s projects.' => 'Εύρεση αποτελεσμάτων σε οποιοδήποτε από ένα από τα εγχειρήματα του ιδιοκτήτη.',
       'Weak (Control Unowned Paths)' => 'Αδύναμο (Έλεγχος μη ιδιόκτητων διαδρομών)',
       'This package will be marked as archived.' => 'Αυτή η συσκευασία θα επισημανθεί ως αρχειοθετημένη.',
     );

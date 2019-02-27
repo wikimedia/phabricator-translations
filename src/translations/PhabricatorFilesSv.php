@@ -24,7 +24,6 @@ final class PhabricatorFilesSv
       'File Sources' => 'Filkällor',
       'No such file "%s"!' => '"%s" är inte en sådan fil!',
       'New file name.' => 'Nytt filnamn.',
-      'Team' => 'Lag',
       'The name of the file.' => 'Namnet på filen.',
       'Garbage' => 'Skräp',
       'No file was uploaded.' => 'Ingen fil laddades upp.',

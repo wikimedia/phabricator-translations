@@ -108,7 +108,6 @@ final class PhabricatorUiexampleZhHans
       'A minimal UI for Buttons' => '最小按钮用户界面',
       'Don\'t let go!' => '不放手！',
       'Apple' => '苹果',
-      'Billing Address' => '账单地址',
       'Multiple Column Layouts' => '多列布局',
       'Center is on an edge' => '中心在边缘之上',
       'Element' => '要素',

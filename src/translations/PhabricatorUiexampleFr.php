@@ -53,7 +53,6 @@ final class PhabricatorUiexampleFr
       'This list is empty.' => 'Cette liste est vide.',
       'Don\'t let go!' => 'Ne laissez pas partir !',
       'Apple' => 'Pomme',
-      'Billing Address' => 'Adresse de facturation',
       'Element' => 'Elément',
       'March 12' => '12 Mars',
       'Code with Friends' => 'Codez avec des amis',

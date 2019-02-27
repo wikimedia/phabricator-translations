@@ -10,7 +10,6 @@ final class PhabricatorTokensEn
   protected function getTranslations() {
     return array(
       'Piece of Eight' => 'Piece of Eight',
-      'Goat' => 'Goat',
       'Mountain of Wealth' => 'Mountain of Wealth',
       'Grey Medal' => 'Grey Medal',
       'Leader Board' => 'Leader Board',
@@ -40,9 +39,11 @@ final class PhabricatorTokensEn
       'Manufacturing Defect?' => 'Manufacturing Defect?',
       'Haypence' => 'Haypence',
       'Doubloon' => 'Doubloon',
+      'Stroopwafel' => 'Stroopwafel',
       'Y So Serious' => 'Y So Serious',
       'Like' => 'Like',
       'Tokens Given' => 'Tokens Given',
+      'Meh!' => 'Meh!',
       'Hungry Hippo' => 'Hungry Hippo',
       'Burninate' => 'Burninate',
       'Really rescind this lovely token?' => 'Really rescind this lovely token?',

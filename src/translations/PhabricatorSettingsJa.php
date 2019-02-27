@@ -47,7 +47,6 @@ final class PhabricatorSettingsJa
       '◐ Notify' => '◐ 通知',
       '%s updated his profile' => '%s が彼のプロフィールを更新しました。',
       'Send Test Notification' => 'テスト通知を送信',
-      'Edit Settings (%s)' => '設定の編集 (%s)',
       'Use Unicode Glyphs: ⚙' => 'Unicode グリフ (⚙) を使用',
       '24 Hour, 14:34' => '24時間制、14:34',
       'Disable Filetree' => 'ファイルツリー無効',
