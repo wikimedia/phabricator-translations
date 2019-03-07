@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zarisi"
+			"Zarisi",
+			"Wladek92"
 		]
 	},
 	"0fb59422f6006b36": "Exemples",
@@ -14,6 +15,7 @@
 	"9f87ba915c488c5a": "Par hôte",
 	"a55363a4b7f82dda": "Requête Web",
 	"a74d79fcf6b8b9ec": "Par contexte",
+	"cdc93143c600bc90": "Moy",
 	"dad4cada470230f5": "Par label",
 	"dbad9f126b33570e": "Visualiseur",
 	"e5423c9ba0cb621c": "$1 Événement(s)",

@@ -27,7 +27,6 @@
 	"92671dfe54e42f0c": "Vous ne pouvez pas ignorer sans cesse vos problèmes, vous savez.",
 	"9b16335d5b0b0a4a": "Impossible de se connecter au serveur de notifications",
 	"a4b6852b8959cde5": "Phabricator est configuré pour utiliser un serveur de notifications, mais est incapable de s'y connecter. Vous devriez résoudre ce problème ou désactiver le serveur de notifications. Il peut être utile de revérifier votre configuration ou de redémarrer le serveur en utilisant la commande ci-dessous.\n\n$1",
-	"ac5503328036ec9a": "Notification de test",
 	"ad87d7cef1baf9fe": "Le serveur de notifications n'est pas activé",
 	"b61b70be925f16d0": "Ceci est une notification de test, envoyée à $1.",
 	"b6ef1f5cf0f38781": "(Pour lancer le serveur, exécutez cette cette commande.)\n$1",

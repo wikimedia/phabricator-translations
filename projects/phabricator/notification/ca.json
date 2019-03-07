@@ -25,7 +25,6 @@
 	"92671dfe54e42f0c": "Ja saps que no pots ignorar els teus problemes per sempre.",
 	"9b16335d5b0b0a4a": "No s'ha pogut connectar al servidor de notificacions",
 	"a4b6852b8959cde5": "Phabricator està configurat per utilitzar un servidor de notificacions, però és incapaç de connectar-se a ell. Hauries de resoldre aquest assumpte o deshabilitar el servidor de notificacions. Pot ser útil tornar a comprovar la vostra configuració o reiniciar el servidor utilitzant l'ordre següent.\n\n$1",
-	"ac5503328036ec9a": "Notificació de prova",
 	"ad87d7cef1baf9fe": "Servidor de notificació no habilitat",
 	"b61b70be925f16d0": "Això és una notificació de prova, s'ha enviat a $1.",
 	"b6ef1f5cf0f38781": "(Per iniciar el servidor, executa aquesta comanda.)\n$1",

@@ -5,7 +5,6 @@
 		]
 	},
 	"027c66bf37c9a3b4": "Ligue $1 antes de publicar!",
-	"0b6c397900987610": "Notificações de POST de eventos de feed.",
 	"20d3d91741172383": "Dicionário com vários dados da história",
 	"355a429bd0ea65d5": "Todas as histórias",
 	"3ae912771fea48db": "Consultar o feed de histórias",
@@ -14,7 +13,6 @@
 	"402cff085a9c09db": "Apresentação completa em HTML da história",
 	"479b096dd515915f": "(Não é possível renderizar a história da classe $1 para o porteiro).",
 	"496c5d9a5e9baa40": "A história não tem objeto primário!",
-	"4b96e04033e5b802": "A chave '$1' não é uma chave cronológica válida!",
 	"4d5f6edd9fafac64": "Republicando a história...",
 	"52d4e024931e864b": "A história está pedindo um objeto que não solicitou ('$1')!",
 	"554f3964d2e59e64": "Representação de texto simples de uma linha simples da história",
@@ -33,6 +31,7 @@
 	"93a1e474113fc418": "Não existe história com chave \"$1\"!",
 	"9553d911b70ac7c1": "Opções de feed.",
 	"998b94780e83652a": "Criação (mais antiga primeiro)",
+	"9cecbbc1b9c4bed1": "Obsoleto.",
 	"a418c6e77070bf09": "Sem histórias.",
 	"ac176a12354104c8": "A história contém apenas o título da história",
 	"b514a33de5976d6f": "Tipo de visualização não suportado, os possíveis são: $1",

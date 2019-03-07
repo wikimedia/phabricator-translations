@@ -4,7 +4,6 @@
 			"Joseplluis"
 		]
 	},
-	"0089eaa6cac22608": "Pot editar tasques dels projectes",
 	"00c7859ed071e887": "Crea una tasca",
 	"01b0110fed6b1693": "Prioritat de la tasca.",
 	"049e3ce5476a39c3": "Assignat",
@@ -37,7 +36,6 @@
 	"21cdae45006fc3af": "Tancat recentment",
 	"22c741259d944714": "Tasca assignada",
 	"26986cebd8a4ca67": "$1 ha actualitzat la descripció de la tasca per $2.",
-	"288cc10e2c1f51b7": "Subtipus simple",
 	"28f76e0ce7e32abb": "La tasca té una revisió",
 	"2b5e22c357ca6681": "Valida \"$1\"",
 	"2bcfa0e7357c8cce": "Autor de la tasca original",
@@ -68,7 +66,6 @@
 	"62524f057b3a4b10": "autor de la tasca",
 	"63e2adb5a4b66fc1": "Estat de la tasca.",
 	"6490c53db0819d8e": "Informació sobre l'estat de la tasca.",
-	"6526aba91fa80747": "Pot assignar tasques",
 	"662f8b64d8ac6965": "Subtasques.",
 	"67b824afea695500": "$1 ha tancat aquesta tasca com a $2.",
 	"68143308a06e21da": "Configura Maniphest.",
@@ -139,7 +136,6 @@
 	"cdc43d26b7a4411d": "Reanomena la tasca.",
 	"d2cc4cafcfc4411a": "$1 ha tancat aquesta tasca com a duplicada.",
 	"d3fd1ebbeb826bc8": "Desig",
-	"d50907360db6599d": "Pot editar les polítiques de la tasca",
 	"dbe0416e66a19e8d": "Per projecte",
 	"dd1242a8fc293466": "Subscrit",
 	"dd1bf46d2decbcfc": "Estat desconegut",

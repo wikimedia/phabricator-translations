@@ -1,8 +1,9 @@
 {
-  "17b251be5661401b": "Used in:\n\nPhabricatorHelpKeyboardShortcutController.php:25\n",
-  "2e0984a922fef3db": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:16\n",
-  "40586493191bb270": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:24\n",
-  "4da9b13fc11f66a8": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:19\n",
-  "6bbbdac8f41b22d9": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHelpDocumentationController.php:23\n",
-  "b465751c05fbc426": "Used in:\n\nPhabricatorHelpKeyboardShortcutController.php:61\n"
+	"@metadata": [],
+	"17b251be5661401b": "Used in:\n\nPhabricatorHelpKeyboardShortcutController.php:25",
+	"2e0984a922fef3db": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:16",
+	"40586493191bb270": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:24",
+	"4da9b13fc11f66a8": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:19",
+	"6bbbdac8f41b22d9": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHelpDocumentationController.php:23",
+	"b465751c05fbc426": "Used in:\n\nPhabricatorHelpKeyboardShortcutController.php:61"
 }

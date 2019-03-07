@@ -1,5 +1,6 @@
 {
-  "2d8e5d1a2409c0e5": "Used in:\n\nPhabricatorFavoritesMainMenuBarExtension.php:78\n",
-  "7707d701c139b8c4": "Used in:\n\nPhabricatorFavoritesApplication.php:14\n",
-  "ab1818cc9b9297dd": "Used in:\n\nPhabricatorFavoritesMainMenuBarExtension.php:34\n"
+	"@metadata": [],
+	"2d8e5d1a2409c0e5": "Used in:\n\nPhabricatorFavoritesMainMenuBarExtension.php:78",
+	"7707d701c139b8c4": "Used in:\n\nPhabricatorFavoritesApplication.php:14",
+	"ab1818cc9b9297dd": "Used in:\n\nPhabricatorFavoritesMainMenuBarExtension.php:34"
 }

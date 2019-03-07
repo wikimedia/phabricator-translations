@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"0eb5ed506e4923c2": "Informação",
+	"13f5a9342308a4f0": "Este aplicativo não pode ser desinstalado porque é necessário que o Phabricator funcione.",
+	"17c7ba7676ad1ad6": "Sintaxe",
+	"17d9db7fe8e99037": "Você não pode instalar um aplicativo instalado.",
+	"1a700a6a1b3c478b": "Mostrar aplicativos primários",
+	"1c12fb0a9fa4de6f": "Criar aplicativo",
+	"1f5e89531bb8f196": "Ordem desconhecida \"$1\"!",
+	"20337ba273d1c2bc": "Desinstalar realmente o aplicativo?",
+	"204dd6a1cea9feab": "Protótipos não habilitados",
+	"2375b7cd960c45e5": "Desinstalar realmente o aplicativo de $1?",
+	"26f6988cfc328947": "Política não existe.",
+	"2aeb5660a2aba71b": "Iniciador",
+	"2c0f40a0d4755c85": "Para gerenciar protótipos, ative-os definindo $1 em sua configuração do Phabricator.",
+	"5c0c8d78301081a9": "Protótipo",
+	"659087d3ca23db6a": "Extensão",
+	"6b46d43f319bdff9": "Falha ao validar",
+	"6c6b7f66587fd4f1": "Mostrar aplicativos instalados",
+	"792c81a4cfdcb5b4": "Configurar",
+	"a735da1d32d75e3e": "Desinstalar",
+	"fd6c3ebf7befca9f": "Instalar"
+}

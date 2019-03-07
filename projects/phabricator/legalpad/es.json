@@ -24,7 +24,6 @@
 	"28cb3eab81986147": "$1 editó $2 documento(s) legal(es) requerido(s), añadido $3: $4; retirado $5: $6.",
 	"28ed81cbd17193e8": "Título del documento.",
 	"290d4f3c3edf73fe": "Se requiere un correo electrónico válido.",
-	"295de6d01ea90ee3": "Configurar Legalpad",
 	"2d514e7ced041b52": "No se puede verificar la firma",
 	"2e9a840acd4ee593": "Firmado por",
 	"3142970c1419587b": "Correo electrónico de contacto",
@@ -145,7 +144,6 @@
 	"f51ace9528bbf604": "Verificada, versión actual",
 	"f71700f3a2feaa78": "Usuario firmante",
 	"f7c6b8ea280a849e": "Ese usuario ya ha firmado este documento.",
-	"fdcd40b57d11fc4e": "Prefijo del asunto para los correos electrónicos de Legalpad.",
 	"fe24bdddbb445990": "Nuevo tipo de firma del documento.",
 	"feb58257ef310432": "Firmar documento"
 }
