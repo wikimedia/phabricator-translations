@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Kingu"
 		]
 	},
 	"005bfb7a94bf7cfb": "12-timers, 2:34 PM",
@@ -45,6 +46,7 @@
 	"3e7981359eabb320": "Slett autentiseringsfaktor",
 	"3fff18ee881011d9": "De",
 	"4118c6e167591f89": "Gjeldende innstilling",
+	"42daf595ceea7c62": "Tilbyder: $1",
 	"4617c0a2430d28fb": "⚪ Ignorer",
 	"4827931e55c0ee62": "Datoformat",
 	"482a61b173e79e11": "Tidssonen i nettleseren din ($1) stemmer ikke overens med den i profilen din ($2). Du kan ignorere dette eller endre profilinnstillingene til å matche nettleseren.",
@@ -102,6 +104,7 @@
 	"ac26a7a94ea2e664": "Oversettelse",
 	"af35dc6d813614b6": "UTC+$1",
 	"b53bcdaddd0539de": "Tidsformat",
+	"b7baa1d40c4ea29a": "Nummer",
 	"b7d45543e071f052": "Permanent lenket",
 	"b8cd232a0cd46eec": "Autentiseringsfaktorer",
 	"bc5dd045b8623ddf": "Søndag",
@@ -123,6 +126,7 @@
 	"dc61c07908f739a0": "Sende ny bekreftelsesepost?",
 	"dc6af3af1c478e38": "Fordi algoritmeimplementeringen mangler kan ikke passordet brukes eller oppdateres.",
 	"dda6ac27b9d3b234": "Bekreft",
+	"deb5fb222910c1f3": "Rediger innstillinger: $1",
 	"e0bf631389a5d3b8": "Legg til prefikset «Re:»",
 	"e32707613d1f53b9": "Kontoinnstillinger",
 	"e68537c4dc0ed184": "Velg hvilken ukedag uka skal begynne på.",

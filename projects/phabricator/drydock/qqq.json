@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
 	"0082e7ead2a36409": "Used in:\n\nDrydockRepositoryOperationSearchEngine.php:65",
 	"011cc0b65caac0c0": "Variable Types: NONE.\nUsed in:\n\nDrydockRepositoryOperationSearchEngine.php:96\nDrydockRepositoryOperationPHIDType.php:36\nDrydockRepositoryOperationViewController.php:23\nDrydockLogController.php:140\nDrydockRepositoryOperationStatusController.php:38",
 	"017066e362659042": "Used in:\n\nDrydockSlotLockFailureLogType.php:19",
@@ -111,7 +115,7 @@
 	"407068164a334042": "Used in:\n\nDrydockRepositoryOperationDismissController.php:47",
 	"418177ee3ec2a7a1": "Variable Types: NONE, NONE.\nUsed in:\n\nDrydockResource.php:198",
 	"41b989367ecf2682": "Used in:\n\nDrydockLeaseSearchConduitAPIMethod.php:15",
-	"430d32076eb256f0": "Used in:\n\nDrydockLogListView.php:137",
+	"430d32076eb256f0": "Used in:\n\nDrydockLogListView.php:137\n\n{{Identical|Operation}}",
 	"4420899ab4d58305": "Used in:\n\nDrydockSlotLockException.php:13",
 	"44b3ec5115df7301": "Used in:\n\nDrydockResourceSearchEngine.php:68",
 	"44e9affca4adde21": "Used in:\n\nDrydockLease.php:574",
