@@ -304,7 +304,7 @@
 	"dfa13e6cc704cc27": "Révision abandonnée",
 	"e0b471ba7639fc7a": "La ressource « $1 » n’existe pas.",
 	"e143ba4b3091153c": "Cette révision a déjà atterri.",
-	"e2bb49200c680413": "Quand ce diff a été généré, il n’a pas été poussé en zone de mise en place pour une raison inconnue (le code retour était « $1 »»). Les modifications doivent être poussées en zone de mise en place avant de pouvoir être atterries depuis le code. Le serveur exécute peut-être une version obsolète de Phabricator, et la mettre à jour pourrait fournir plus d’information sur cette erreur.",
+	"e2bb49200c680413": "Quand ce diff a été généré, il n’a pas été poussé en zone de mise en place pour une raison inconnue (le code retour était « $1 »). Les modifications doivent être poussées en zone de mise en place avant de pouvoir être atterries depuis le code. Le serveur exécute peut-être une version obsolète de Phabricator, et la mettre à jour pourrait fournir plus d’information sur cette erreur.",
 	"e51ed070298d0806": "Relâcher le bail",
 	"e5351e8b3cea7117": "Ce moteur est utilisé pour modifier les plans de Drydock.",
 	"e9c270913826cdae": "Tapez un nom de blueprint...",

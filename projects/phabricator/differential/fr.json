@@ -758,6 +758,7 @@
 	"e00ac9c527a87f71": "Entrer le nom d'un état de révision ou une fonction...",
 	"e00dcda223aa03a8": "Replier ou déplier un commentaire en ligne.",
 	"e0582645ae13b95b": "Cette révision est maintenant acceptée et est prête à aboutir.",
+	"e068852421642e27": "Vous pouvez aussi coller un diff ci-dessus, ou téléverser un fichier contenant un diff (par exemple, depuis $1, $2 ou $3).",
 	"e09e1507d048b67c": "Nouveau paramètre « Garder comme brouillon ».",
 	"e0a41efb3fd21151": "$1 a créé ce diff.",
 	"e0b78951e0e763dc": "Révisions similaires récentes",
