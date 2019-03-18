@@ -1349,7 +1349,7 @@
 	"daea4e036978beb2": "Ne pas lancer les tests unitaires.",
 	"db12b1749cd2c425": "Jetons inattendus lors du traitement `$1`.",
 	"db56b3559942207a": "Conventions de mot-clé",
-	"db892f57d0d184bc": "Différence de sortie attendu vs effectif\n$1",
+	"db892f57d0d184bc": "Différence entre la sortie attendue et l'effective\n$1",
 	"dc0ce6a7d9f33c73": "Utilisation de la balise écho `$1`",
 	"dc353487021afbdd": "Écoute",
 	"dcc2517b459e1fcd": "Fonctions internes",
