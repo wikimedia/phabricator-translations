@@ -49,6 +49,7 @@
 	"43afea7eb7141ae5": "Spécifiez « --all » ou une liste de dépôts, mais pas les deux.",
 	"445a801563b5f0e7": "Afficher une liste de dépôts.",
 	"4573b108340091c6": "$3$1 a modifé le chemin d' « Importation seulement » de $2 en $3.",
+	"457cb1b8aff7417e": "$1 a modifé les branches suivies de $2 vers $3 .",
 	"47783bfa7e067ee0": "Transaction « $1 » détruite sur l'objet « $2 ».",
 	"478d6c7c4da80980": "MODIFICATIONS DE LA DESCRIPTION DU DEPOT",
 	"49649af9a6e89c1e": "Réécraser cet assignement d'identité.",
