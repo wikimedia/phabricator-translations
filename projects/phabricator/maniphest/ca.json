@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseplluis"
+			"Joseplluis",
+			"Fitoschido"
 		]
 	},
 	"00c7859ed071e887": "Crea una tasca",
+	"013ec284eed0cb93": "Triatge",
 	"01b0110fed6b1693": "Prioritat de la tasca.",
 	"049e3ce5476a39c3": "Assignat",
 	"051ef08cc816d2c4": "Pares oberts",
