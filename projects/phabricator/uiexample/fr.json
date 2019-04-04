@@ -71,7 +71,7 @@
 	"6726bb4d6951c613": "Unité (5/5)",
 	"677805da9b2c4e9d": "Liste d'états",
 	"6c4106ac0540c8b1": "Un événement majeur",
-	"6d88b7dee587da60": "Ces ordres vont tester les cas importants de UI. Ce bloque va tester la capacite de rouler et d'exces.",
+	"6d88b7dee587da60": "Ces ordres vont tester les cas limite de l'interface utilisateur dans l'élément. Ce bloc teste la capacite d'enrobage et de débordement.",
 	"6fee66aef13e10d1": "Utiliser $1 pour effectuer le rendu de différentes balises.",
 	"70b207c3cd0bee61": "Ordre chronologique inverse",
 	"71d42a062410ea66": "Souligner",
