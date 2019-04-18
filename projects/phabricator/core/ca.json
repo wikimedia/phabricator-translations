@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseplluis"
+			"Joseplluis",
+			"Fitoschido"
 		]
 	},
 	"002ff598115d8459": "Pregunta",
@@ -17,6 +18,7 @@
 	"040d47089c6da906": "Crea document",
 	"04b1cf2f00b5d174": "Comentat a",
 	"04e539835e2d332f": "$1 ha afegit $2 tasca(tasques): $3.",
+	"05ec7868a0bd1775": "No s’admet l’acció «$1».",
 	"063f120a22e9eefd": "Reobert",
 	"0654a04fe0c7b6fe": "Document sense títol",
 	"07b3e447db02b7cc": "Preferits",
