@@ -1230,7 +1230,7 @@
 	"c6eeebe689ab8797": "La révision '$1' n'existe pas.",
 	"c6ef42fa9aa97fb8": " <$1ms",
 	"c6efa07d9c61f11b": "Suivez les règles de nommage: les classes doivent nommées en utilisant `$1`.",
-	"c73eb3f5ee182054": "Avec 'summary', afficher les avertissements de lint dans un format plus compact. Avec 'json', afficher les avertissements de lint dans un format JSON lisible par la machine. Avec 'none', n’afficher aucun avertissement lint. Avec 'compiler', afficher les avertissements de lint de façon appropriée à votre éditeur. Avec 'xml', afficher les avertissements de lint dans un format XML Checkstyle.",
+	"c73eb3f5ee182054": "Avec 'summary', afficher les avertissements de lint dans un format plus compact. Avec 'json', afficher les avertissements de lint dans un format JSON lisible par la machine. Avec 'none', n’afficher aucun avertissement lint. Avec 'compiler', afficher les avertissements de lint de façon appropriée à votre éditeur. Avec 'xml', afficher les avertissements de lint dans le format XML Checkstyle.",
 	"c745b3122bb9fea8": "Cette classe n’est ni `$1` ni `$2`, et n’a pas de bloc de documentation la marquant comme `$3`.",
 	"c74a44382a87604a": "Éviter `$1` sauf si le second paramètre est spécifié. C’est un peu confus et gêne l’analyse statique.",
 	"c74bda3dc1889d1d": "La validation $1 n'a pas de commentaire de modification !",

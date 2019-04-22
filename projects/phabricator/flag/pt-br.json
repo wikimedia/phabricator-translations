@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Leonardo.guimaraes"
+		]
+	},
+	"197a62696ce8fbf0": "Marcado com o bandeira \"$1\".",
+	"1c3d8a33c4e3bcd5": "Marcadores pessoais",
+	"1ca1a72255461c7b": "Marcadores de sinalização.",
+	"2086e095c964982b": "Limpar uma bandeira.",
+	"32576f4fedc07f63": "Roxo",
+	"4dc7c146812011ca": "Parâmetro groupBy desconhecido: $1",
+	"5d7071b20fcec93c": "Marque com $1 bandeira.",
+	"699642af97a5d952": "Bandeiras são privados. Só você pode ver ou editar seus flags.",
+	"70fc3e4015e8e4f8": "Deve passar um id ou um objectPHID.",
+	"7168897d704726c7": "Já marcado com bandeira $1.",
+	"76dbf884271fdcfd": "Marcar para mais tarde",
+	"7dda51ce77f4eb5f": "Você não é o criador dessa bandeira .",
+	"8828ce01607a48df": "Bandeira $1",
+	"94d23c9bf50bab36": "Crie ou modifique uma bandeira .",
+	"a12b4c41e336ccf7": "Criar marcação",
+	"b6829a09b18b33c4": "Você pode sinalizar este $1 se quiser lembrar de analisá-lo mais tarde.",
+	"bafd3e5ad59b23e6": "Nenhuma bandeira encontrada.",
+	"cdc6686dc53df49e": "ID de bandeira ruim.",
+	"cf11ada077be2b0f": "Remover bandeira $1",
+	"d1d3a0cd7c6910d9": "Todos os tipos de objeto",
+	"d4a822fc0ac4e4ad": "Já marcado",
+	"e0d0b82a322e167f": "Cor da bandeira",
+	"e22c254cc0a5cb8c": "Marcar com bandeira",
+	"f8db8a172be6fab1": "Sinalizado"
+}
