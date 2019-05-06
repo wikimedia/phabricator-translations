@@ -10,7 +10,7 @@
 	"03d15fc7d961504b": "L'article n'a pas de $1!",
 	"0832d97d98fd6967": "Écriture du cache graphique.",
 	"0b2906f6a7490d1a": "Modifier les bases",
-	"10434f555ce25bf4": "Cette interface n'est pas documentée.",
+	"10434f555ce25bf4": "Cet interface n'est pas documenté.",
 	"1539738899fc9b91": "Entrer un nom de livre...",
 	"1608ae410aa375f3": "La documentation utilise '$1', mais devrait utiliser '$2'.",
 	"17be9775cd944e16": "L’atome « $1 » est précédé par un commentaire contenant `$2`, mais le commentaire n’est pas un commentaire de documentation. Les commentaires de documentation doivent commencer par `$3`, suivi par un saut de ligne. Vouliez-vous utiliser un commentaire de documentation (comme le commentaire n’est pas un commentaire de documentation, il sera ignoré) ?",
