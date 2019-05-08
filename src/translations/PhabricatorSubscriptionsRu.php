@@ -22,7 +22,7 @@ final class PhabricatorSubscriptionsRu
       'Search for objects with certain subscribers.' => 'Поиск объектов с определенными подписчиками.',
       'Subscribers can take this action.' => 'Подписчики могут принять это решение.',
       'Remove subscribers' => 'Удалить подписчиков',
-      'All %d subscribers removed by %s' => 'Все %s подписчиков, удаленных %s',
+      'All %d subscribers removed by %s' => 'Все %s подписчиков, удалённых %s',
       'Added Subscribers' => 'Добавленные подписчики',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Отклонено для повторной отправки %s мишень(ы) потому что они ранее не подписались: %s.',
       'Removed %s subscriber(s): %s.' => 'Удалены %s подписчик(и): %s.',

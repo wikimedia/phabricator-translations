@@ -36,6 +36,7 @@ final class PhabricatorFeedPtBr
       'No story exists with key "%s"!' => 'Não existe história com chave "%s"!',
       'Feed options.' => 'Opções de feed.',
       'Creation (Oldest First)' => 'Criação (mais antiga primeiro)',
+      'Deprecated.' => 'Obsoleto.',
       'No Stories.' => 'Sem histórias.',
       'Story contains only the title of the story' => 'A história contém apenas o título da história',
       'Unsupported view type, possibles are: %s' => 'Tipo de visualização não suportado, os possíveis são: %s',

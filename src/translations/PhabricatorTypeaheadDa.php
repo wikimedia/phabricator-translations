@@ -9,6 +9,7 @@ final class PhabricatorTypeaheadDa
 
   protected function getTranslations() {
     return array(
+      'Invalid Parameters' => 'Ugyldige parametre',
       'Source Class' => 'Kildeklasse',
       'Image URI' => 'Billedeadresse',
       'Select' => 'Vælg',

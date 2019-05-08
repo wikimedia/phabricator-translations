@@ -11,6 +11,7 @@ final class PhabricatorFavoritesAr
     return array(
       'Edit Favorites' => 'عدل المفضلات',
       'Favorite Items' => 'العناصر المفضلة',
+      'Favorites Menu' => 'قائمة المفضلة',
     );
   }
 

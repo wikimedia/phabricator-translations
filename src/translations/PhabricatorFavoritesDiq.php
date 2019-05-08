@@ -11,6 +11,7 @@ final class PhabricatorFavoritesDiq
     return array(
       'Edit Favorites' => 'Favoriyan bıvurne',
       'Favorite Items' => 'Obceyê favoriyi',
+      'Favorites Menu' => 'Menuyê favoriyan',
     );
   }
 

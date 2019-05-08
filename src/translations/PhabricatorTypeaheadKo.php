@@ -9,6 +9,7 @@ final class PhabricatorTypeaheadKo
 
   protected function getTranslations() {
     return array(
+      'Invalid Parameters' => '유효하지 않는 변수',
       'Raw Query' => '순수 쿼리',
       'Token Results (%s)' => '토큰 결과 (%s)',
       'Image URI' => '그림 URI',

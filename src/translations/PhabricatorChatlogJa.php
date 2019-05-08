@@ -9,7 +9,7 @@ final class PhabricatorChatlogJa
 
   protected function getTranslations() {
     return array(
-      '(Deprecated)' => '（非推奨）',
+      '(Deprecated)' => '(廃止予定)',
       'Jump' => 'ジャンプ',
       'Retrieve chatter.' => 'チャッターを取得する。',
       'Newer' => '新しい',

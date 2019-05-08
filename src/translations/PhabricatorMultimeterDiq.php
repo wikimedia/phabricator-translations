@@ -23,6 +23,7 @@ final class PhabricatorMultimeterDiq
       'By Request' => 'Goreyê waştışi',
       'By Host' => 'Goreyê wayirê keyeyi',
       'Web Request' => 'Waştışê webi',
+      'Avg' => 'Medya',
       'By Label' => 'Goreyê etiketi',
       'Multimeter' => 'Multimetre',
       'Viewer' => 'Vênayoğ',

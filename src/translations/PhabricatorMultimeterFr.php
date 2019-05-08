@@ -19,6 +19,7 @@ final class PhabricatorMultimeterFr
       'By Host' => 'Par hôte',
       'Web Request' => 'Requête Web',
       'By Context' => 'Par contexte',
+      'Avg' => 'Moy',
       'By Label' => 'Par label',
       'Viewer' => 'Visualiseur',
       '%s Event(s)' => '%s Événement(s)',

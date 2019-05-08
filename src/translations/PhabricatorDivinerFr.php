@@ -12,7 +12,7 @@ final class PhabricatorDivinerFr
       'Article has no %s!' => 'L\'article n\'a pas de %s!',
       'Writing graph cache.' => 'Écriture du cache graphique.',
       'Edit Basics' => 'Modifier les bases',
-      'This interface is not documented.' => 'Cette interface n\'est pas documentée.',
+      'This interface is not documented.' => 'Cet interface n\'est pas documenté.',
       'Type a book name...' => 'Entrer un nom de livre...',
       'Documentation uses `%s`, but should use `%s`.' => 'La documentation utilise \'%s\', mais devrait utiliser \'%s\'.',
       'Atom "%s" is preceded by a comment containing `%s`, but the comment is not a documentation comment. Documentation comments must begin with `%s`, followed by a newline. Did you mean to use a documentation comment? (As the comment is not a documentation comment, it will be ignored.)' => 'L’atome « %s » est précédé par un commentaire contenant `%s`, mais le commentaire n’est pas un commentaire de documentation. Les commentaires de documentation doivent commencer par `%s`, suivi par un saut de ligne. Vouliez-vous utiliser un commentaire de documentation (comme le commentaire n’est pas un commentaire de documentation, il sera ignoré) ?',

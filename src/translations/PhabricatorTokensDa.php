@@ -18,6 +18,7 @@ final class PhabricatorTokensDa
       'Give or change a token.' => 'Giv eller ændre en nøgle.',
       'Heartbreak' => 'Knust hjerte',
       'Orange Medal' => 'Orange medalje',
+      'Stroopwafel' => 'Stroopwafel',
       'Like' => 'Synes godt om',
       'Hungry Hippo' => 'Sulten flodhest',
       'Party Time' => 'Tid til at feste',

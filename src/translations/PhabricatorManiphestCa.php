@@ -10,6 +10,7 @@ final class PhabricatorManiphestCa
   protected function getTranslations() {
     return array(
       'Create Task' => 'Crea una tasca',
+      'Triage' => 'Triatge',
       'Priority of the task.' => 'Prioritat de la tasca.',
       'Assignee' => 'Assignat',
       'Open Parents' => 'Pares oberts',

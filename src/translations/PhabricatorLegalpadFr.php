@@ -27,6 +27,7 @@ final class PhabricatorLegalpadFr
       'Not Signed' => 'Non signé',
       'Signature Already Verified' => 'Signature déjà vérifiée',
       'You do not have permission to create new documents.' => 'Vous n\'avez pas la permission de créer de nouveaux documents.',
+      '[Legalpad]' => '[Legalpad]',
       'Signed' => 'Signé',
       'The signature is now verified.' => 'La signature est maintenant vérifiée.',
       'Notes' => 'Notes',

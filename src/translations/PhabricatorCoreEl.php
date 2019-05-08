@@ -186,6 +186,7 @@ final class PhabricatorCoreEl
       'Waiting' => 'Περιμένοντας',
       'Disable Provider?' => 'Απενεργοποίηση παρόχου;',
       '%s' => '%s',
+      'In Use' => 'Σε χρήση',
       'A file PHID.' => 'Ένα αρχείο PHID.',
       'Yellow' => 'Κίτρινο',
       '%s updated the description for %s.' => 'Ο %s ενημέρωσε την περιγραφή για το %s.',

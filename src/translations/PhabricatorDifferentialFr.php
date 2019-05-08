@@ -928,6 +928,7 @@ final class PhabricatorDifferentialFr
       'Type a revision status name or function...' => 'Entrer le nom d\'un état de révision ou une fonction...',
       'Collapse or expand inline comment.' => 'Replier ou déplier un commentaire en ligne.',
       'This revision is now accepted and ready to land.' => 'Cette révision est maintenant acceptée et est prête à aboutir.',
+      'You can also paste a diff above, or upload a file containing a diff (for example, from %s, %s or %s).' => 'Vous pouvez aussi coller un diff ci-dessus, ou téléverser un fichier contenant un diff (par exemple, depuis %s, %s ou %s).',
       'New "Hold as Draft" setting.' => 'Nouveau paramètre « Garder comme brouillon ».',
       '%s created this diff.' => '%s a créé ce diff.',
       'Recent Similar Revisions' => 'Révisions similaires récentes',

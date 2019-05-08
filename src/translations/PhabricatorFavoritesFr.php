@@ -11,6 +11,7 @@ final class PhabricatorFavoritesFr
     return array(
       'Edit Favorites' => 'Modifier les favoris',
       'Favorite Items' => 'Eléments favoris',
+      'Favorites Menu' => 'Menu des favoris',
     );
   }
 

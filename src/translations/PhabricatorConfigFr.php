@@ -130,6 +130,7 @@ final class PhabricatorConfigFr
       'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the Phabricator configuration value \'%s\' to specify one.' => 'Votre configuration échoue à spécifier un fuseau horaire de serveur. Vous pouvez soit définir la valeur de configuration PHP \'%s\' ou la valeur de configuration \'%s\' de Phabricator pour en spécifier une.',
       'Unknown \'%s\' Version' => 'Version \'%s\' inconnue',
       'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'Vous utilisez une ancienne version de MySQL (sur l’hôte « %s »), et vous devriez la mettre à jour.',
+      'Feed Hooks Deprecated' => 'Accroches de flux Obsolète',
       'Purge Caches' => 'Vider les caches',
       'WARNING: This is a prototype option and the description below is currently pure fantasy.
     Switch Phabricator to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'AVERTISSEMENT : Ceci est une option de prototype et la description ci-dessous est actuellement une pure fantaisie.
@@ -882,6 +883,7 @@ final class PhabricatorConfigFr
     Si le paramètre actuel vous satisfait, vous pouvez sans souci ignorer cet avertissement d’installation.',
       'Show "To:" and "Cc:" footer hints in email.' => 'Afficher les conseils concernant « À : » et « Copie cachée : » en bas de page dans le courriel.',
       'Write SSH log here.' => 'Écrire le journal SSH ici.',
+      'Migrate From "feed.http-hooks" to Webhooks' => 'Migration de "feed.http-hooks" vers Webhooks',
       'You can find more information about configuring OPcache in the %s.' => 'Vous pouvez trouver plus d’information sur la configuration de OPcache dans le %s.',
       'PHP Timezone' => 'Fuseau horaire PHP',
       'This option is not recognized. It may be misspelled.' => 'Cette option n\'est pas reconnue. Veuillez vérifier l\'orthographe.',
@@ -1063,6 +1065,11 @@ final class PhabricatorConfigFr
       'Your webserver is not forwarding credentials.' => 'Votre serveur web ne fait pas suivre les certificats.',
       'Default non-pygments syntax highlighter engine.' => 'Moteur de mise en évidence syntaxique non pygments par défaut.',
       'HTTP Parameter Types' => 'Types de paramètre HTTP',
+      'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of Phabricator.
+    You can configure Webhooks in Herald.
+    To resolve this issue, remove all URIs from "feed.http-hooks".' => 'L\'option « feed.http-hooks » est obsolète en faveur de Webhooks. Elle sera supprimée dans une version future de Phabricator.
+    Vous pouvez configurer Webhooks dans Herald.
+    Pour résoudre ce problème, suppimez tous les URIs de "feed.http-hooks".',
       'Mangled Webserver Response' => 'Réponse du serveur web perturbée',
       'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow Phabricator to interact better with the database.
     Phabricator will work with the older driver, but upgrading to the native driver is recommended.

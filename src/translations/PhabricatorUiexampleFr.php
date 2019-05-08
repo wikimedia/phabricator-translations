@@ -74,7 +74,7 @@ final class PhabricatorUiexampleFr
       'Unit (5/5)' => 'Unité (5/5)',
       'Status List' => 'Liste d\'états',
       'A major event.' => 'Un événement majeur',
-      'These layouts test UI edge cases in the element. This block tests wrapping and overflow behavior.' => 'Ces ordres vont tester les cas importants de UI. Ce bloque va tester la capacite de rouler et d\'exces.',
+      'These layouts test UI edge cases in the element. This block tests wrapping and overflow behavior.' => 'Ces ordres vont tester les cas limite de l\'interface utilisateur dans l\'élément. Ce bloc teste la capacite d\'enrobage et de débordement.',
       'Use %s to render various tags.' => 'Utiliser %s pour effectuer le rendu de différentes balises.',
       'Reverse Time' => 'Ordre chronologique inverse',
       'Outlines' => 'Souligner',

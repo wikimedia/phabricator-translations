@@ -53,7 +53,7 @@ final class PhabricatorDoorkeeperFr
     ☠ Vos modifications ne se répercuteront pas dans Phabricator.
     ☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Suppression de l’arête de la sous-tâche vers %s, l’objet étranger n’est pas visible.',
-      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d&affichage de balise de Doorkeeper « %s » non supporté. Les modes supportés sont : %s.',
+      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d\'affichage de balise de Doorkeeper « %s » non supporté. Les modes supportés sont : %s.',
       'Integration with Asana' => 'Intégration avec Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Le travailleur portier \'%s\' n’est pas activé.',
       'Object has no followers or active/passive users.' => 'L’objet n’a pas d’abonné ou d’utilisateurs actifs/passifs.',
@@ -65,7 +65,7 @@ final class PhabricatorDoorkeeperFr
       {
         "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
       }
-    ' => 'Pour spécifier les projets auxquels ajouter des tâches, entrer une correespondance JSON avec les noms de classe de l’éditeur en clé et une liste d’ID de projet comme valeur. Par exemple, pour mettre des tâches Differential dans les projets Asana d’ID `123` et `456`, saisir :
+    ' => 'Pour spécifier les projets auxquels ajouter des tâches, entrer une correspondance JSON avec les noms de classe de l’éditeur en clé et une liste d’ID de projet comme valeur. Par exemple, pour mettre des tâches Differential dans les projets Asana d’ID `123` et `456`, saisir :
       lang=txt
       {
         "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
@@ -73,7 +73,7 @@ final class PhabricatorDoorkeeperFr
       'Synchronization of child task from Asana failed!' => 'La synchronisation de la tâche enfant depuis Asana a échoué !',
       'Story is about an object with no linked JIRA issues.' => 'L’histoire concerne un objet JIRA sans problème.',
       'GitHub User %s' => 'Utilisateur GitHub %s',
-      'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'Le problème GitHub d’ID « %s » n’a pas le bon format. Un ID est attendu de la forme « propriétaire/dépôt#123 ».',
+      'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'Problème GitHub d’ID « %s » n’a pas le bon format. Un ID est attendu de la forme « propriétaire/dépôt#123 ».',
       'Workspace Name' => 'Nom de l\'espace de travail',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'Impossible de trouver un utilisateur Asana avec des certificats valides pour en obtenir un jeton OAuth.',
       'Synchronization of parent task from Asana failed!' => 'La synchronisation de la tâche parente depuis Asana a échoué !',

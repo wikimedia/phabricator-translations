@@ -24,6 +24,7 @@ final class PhabricatorPhrictionDa
       'Current Path' => 'Nuværende sti',
       '(Untitled Document)' => '(Ikke-navngivet dokument)',
       'Content' => 'Indhold',
+      'Version %d' => 'Version %s',
       'Last Author' => 'Sidste forfatter',
       'Edit this Document' => 'Rediger dette dokument',
       'Document History: %s' => 'Dokumenthistorik: %s',
