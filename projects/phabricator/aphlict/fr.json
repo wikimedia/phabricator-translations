@@ -6,7 +6,7 @@
 		]
 	},
 	"04619b5d014f1cc6": "Envoyer une notification à un utilisateur.",
-	"08f9150056d8f33f": "Le serveur de notification ne devrait pas être exécuté en root.",
+	"08f9150056d8f33f": "Le serveur de notification ne doit pas être exécuté sous root.",
 	"0ab7970d71c137fe": "Deux serveurs (aux index « $1 » et « $2 ») sont liés au même port (« $3 »). Chaque serveur doit être lié à un port unique.",
 	"11399b1faec2eb8e": "Échec de $1 !",
 	"197162c832f1d7fd": "ERREUR : La fonction PHP $1 est désactivée. Vous devez l’activer pour exécuter Aphlict sur cette machine.",
@@ -21,7 +21,7 @@
 	"5ce6dbf8fe16f70f": "Un serveur spécifié (à l’index « $1 », sur le port « $2 ») spécifie une valeur pour « $3 », mais aucune pour « $4 » ou « $5 ». Les serveurs ne doivent fournir une chaîne SSL que s’ils fournissent aussi une clé et un certificat SSL.",
 	"65bb93882ad81b16": "Envoi à $1 d’un SIGKILL.",
 	"7284ce8f9f3ef857": "Lancement du serveur :",
-	"78201785d503580e": "Lancement du serveur Aphlict en premier plan…",
+	"78201785d503580e": "Exécution du serveur Aphlict au premier plan…",
 	"7b1c6f1c1209a55f": "Serveur terminé !",
 	"7e9983dfa7bad024": "Démarrer le serveur de notifications en premier plan et afficher les gros volumes d’information de diagnostic sur la console.",
 	"801f93fad5c1b6c0": "Un serveur spécifié (à l’index « $1 », sur le port « $2 ») a un type non valide (« $3 »). Les types valides sont : admin, client.",
