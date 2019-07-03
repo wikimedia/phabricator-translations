@@ -10,7 +10,7 @@ final class PhabricatorAphlictFr
   protected function getTranslations() {
     return array(
       'Send a notification to a user.' => 'Envoyer une notification à un utilisateur.',
-      'The notification server should not be run as root.' => 'Le serveur de notification ne devrait pas être exécuté en root.',
+      'The notification server should not be run as root.' => 'Le serveur de notification ne doit pas être exécuté sous root.',
       'Two servers (at indexes "%s" and "%s") both bind to the same port ("%s"). Each server must bind to a unique port.' => 'Deux serveurs (aux index « %s » et « %s ») sont liés au même port (« %s »). Chaque serveur doit être lié à un port unique.',
       'Failed to %s!' => 'Échec de %s !',
       'ERROR: The PHP function %s is disabled. You must enable it to run Aphlict on this machine.' => 'ERREUR : La fonction PHP %s est désactivée. Vous devez l’activer pour exécuter Aphlict sur cette machine.',
@@ -25,7 +25,7 @@ final class PhabricatorAphlictFr
       'A specified server (at index "%s", on port "%s") specifies a value for "%s", but no value for "%s" or "%s". Servers should only provide an SSL chain if they also provide an SSL key and SSL certificate.' => 'Un serveur spécifié (à l’index « %s », sur le port « %s ») spécifie une valeur pour « %s », mais aucune pour « %s » ou « %s ». Les serveurs ne doivent fournir une chaîne SSL que s’ils fournissent aussi une clé et un certificat SSL.',
       'Sending %s a SIGKILL.' => 'Envoi à %s d’un SIGKILL.',
       'Launching server:' => 'Lancement du serveur :',
-      'Starting Aphlict server in foreground...' => 'Lancement du serveur Aphlict en premier plan…',
+      'Starting Aphlict server in foreground...' => 'Exécution du serveur Aphlict au premier plan…',
       'Server exited!' => 'Serveur terminé !',
       'Start the notifications server in the foreground and print large volumes of diagnostic information to the console.' => 'Démarrer le serveur de notifications en premier plan et afficher les gros volumes d’information de diagnostic sur la console.',
       'A specified server (at index "%s", on port "%s") has an invalid type ("%s"). Valid types are: admin, client.' => 'Un serveur spécifié (à l’index « %s », sur le port « %s ») a un type non valide (« %s »). Les types valides sont : admin, client.',

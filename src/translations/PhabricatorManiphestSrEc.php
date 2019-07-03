@@ -139,7 +139,7 @@ final class PhabricatorManiphestSrEc
       'Search...' => 'Претражи...',
       'Task Graph' => 'Граф задатка',
       'Parent IDs' => 'ID родитеља',
-      'Wishlist' => 'Листа жеља',
+      'Wishlist' => 'Списак жеља',
       'Invalid Key' => 'Неисправан кључ',
       'Show Only Tasks With Open Subtasks' => 'Прикажи само задатке са отвореним подзадацима',
       'Merge Duplicates Into This Task' => 'Споји дупликате са овим задатком',
