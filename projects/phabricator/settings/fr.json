@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Reception123"
+			"Reception123",
+			"Urhixidur"
 		]
 	},
 	"005bfb7a94bf7cfb": "12 Heures, 2:34 PM",
-	"03900398fbeb4eeb": "Vous n'avez ajouté aucun numéro de contact à votre compte.",
+	"03900398fbeb4eeb": "Vous n’avez ajouté aucun numéro de contact à votre compte.",
 	"057651d93a4ad672": "Sélectionner le type de facteur",
 	"0d32db227630073a": "Auto-actions",
 	"117cb5da2ea671e9": "Choisir la langue dans laquelle vous voulez utiliser l'interface utilisateur Phabricator.",

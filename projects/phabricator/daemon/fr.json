@@ -4,7 +4,8 @@
 			"Gomoko",
 			"TomT0m",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Derugon"
 		]
 	},
 	"000441498344168a": "Il n’y a pas de démon s’exécutant à recharger.",
@@ -117,6 +118,7 @@
 	"9f8a73ef1399d06a": "Mort",
 	"a17dfac0039fbeda": "Aucune tâche n’a été empruntée par les travailleurs.",
 	"a6d1ae1ad8bbb837": "PPID",
+	"a7fff840a858bb33": "$1 s",
 	"ae1550e097f35c3e": "Ce démon s’est terminé normalement et ne tourne plus.",
 	"af89fcedec0cc5ea": "(Réserve : $1)",
 	"b1643e5962c56bb7": "Aucune tâche semblable",

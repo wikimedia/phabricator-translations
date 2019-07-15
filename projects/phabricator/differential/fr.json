@@ -6,7 +6,8 @@
 			"TomT0m",
 			"Wladek92",
 			"Zarisi",
-			"Cquoi"
+			"Cquoi",
+			"Derugon"
 		]
 	},
 	"0063efbde77d19e7": "Vérifier que tout est correct avec le diff. Quand vous serez satisfait, **créez une nouvelle révision** ou **mettez à jour une révision existante**.",
@@ -124,6 +125,7 @@
 	"1e18735f1633fe72": "La révision source apporte les modifications requises par la révision destinataire.",
 	"1e6b4f9a091ea30a": "Conflits",
 	"1ed9efe22136cbe8": "Changer les détails",
+	"1f3f943d4d652e48": "Liste des révisions.",
 	"2030694a71641895": "Ce répertoire a été ajouté.",
 	"20f8b32d3127b1fc": "Auteur de la révision",
 	"218acecc355c4491": "Mettre à jour une révision Differential.",
@@ -294,6 +296,7 @@
 	"539af8bee549241a": "$1 a demandé une relecture de cette révision.",
 	"53c6879ff220ba07": "Si vous mettez cela à vrai, tout utilisateur peut réouvrir une révision à condition qu’elle ait été close. Cela peut être utile si une révision est close accidentellement ou si un développeur change d’avis après avoir clos une révision. Si c'est faux, la réouverture n’est pas autorisée.",
 	"53ee75970bdf5d01": "Cette image a été copiée depuis $1.",
+	"5434910b96eef89c": "Publier la Révision",
 	"544b0f4581622c33": "Impossible d’analyser le corps du courriel ; seuls les corps de courriel (et les pièces jointes) générés via les commandes «  diff  » peuvent être analysés.",
 	"545f8a5088118c68": "Ce fichier a été copié dans $1.",
 	"5474af1a17ea3494": "Nouveau diff avec lequel créer ou mettre à jour la révision.",
@@ -679,7 +682,7 @@
 	"c7f7410faf5c623a": "Vous ne pouvez pas récupérer cette révision parce qu’elle n’a pas été abandonnée. Seules les révisions abandonnées peuvent être récupérées.",
 	"c8685244ca990c20": "Attacher à",
 	"c86c44316bdf56c1": "Modification d'un destinataire en copie d’une révision.",
-	"c8775d4a15a18e1d": "Aucun version « $1 » n’existe !",
+	"c8775d4a15a18e1d": "Aucune version « $1 » n’existe .",
 	"c8970db35d3aa870": "Trouver des révisions à partir de dépôts particuliers.",
 	"c899005aef1a2d52": "Mise à jour de la révision",
 	"c8a1f56122d24e29": "Masquer ou afficher le fichier courant.",

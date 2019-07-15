@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kenjiraw",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"00061bade7e1c5b9": "Le dépôt $1 est un dépôt Subversion non hébergé, qui ne nécessite pas d'extraire de copie de travail locale.",
@@ -137,7 +138,7 @@
 	"bab53eb18ff8cb1f": "La relecture MANUELLE « $1 » semble ne pas avoir été fermée proprement par « $2 ».",
 	"bf273810c35daa0f": "Selectionner les dépôts concernés en fournissant une liste de dépôts ou en utilisant le drapeau « --all-repositories  » .",
 	"c05093cffc56a394": "Spécifiez exactement un dépôt à ne plus publier.",
-	"c1521c5fd45cef85": "Le service « $1 » n'est attaché à aucun appareil.",
+	"c1521c5fd45cef85": "Le service « $1 » n’est attaché à aucun appareil.",
 	"c29b162c5c65dcd1": "$1 a désactivé ce dépôt.",
 	"c2fe3cb773100938": "Convertir les dépôts existants en groupes de dépôts.",
 	"c37663f4e4343858": "Ne réalisez aucune écriture.",

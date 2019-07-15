@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Derugon"
 		]
 	},
 	"027c66bf37c9a3b4": "Appelez $1 avant de publier!",
@@ -33,11 +34,15 @@
 	"93a1e474113fc418": "Aucune histoire n’existe avec la clé « $1 » !",
 	"9553d911b70ac7c1": "Options du fil.",
 	"998b94780e83652a": "Création (les plus anciens en premier)",
+	"9cecbbc1b9c4bed1": "Obsolète.",
 	"a418c6e77070bf09": "Pas d'histoires.",
 	"ac176a12354104c8": "L'histoire contient seulement le titre de l'histoire",
 	"b514a33de5976d6f": "Type d’affichage non supporté, les valeurs possibles sont : $1",
 	"d71554dcbd4bcbf6": "Essai de récupération de la clé du champ de marquage « $1 », mais l’histoire du fil n’a pas demandé à ce qu’elle soit rendue.",
 	"db3e708141b47436": "Histoires du fil",
 	"df541f9c771075dc": "Cible de rendu inconnue : $1",
+	"df64eb386033ce8a": "Comprendre des histoires sur des projets desquels je suis membre.",
+	"f972df1e479c68f3": "Le type d’histoire doit être un nom de classe valide et doit être une sous-classe de $1. «&nbsp;$2&nbsp;» n’est pas une classe chargeable.",
+	"fc089d61f5c74d73": "Le fil de l’histoire (avec la clé «&nbsp;$1&nbsp;») n’existe pas ou ne peut pas être chargé.",
 	"fe8f5568d1a9988f": "Voir l'activité récente"
 }

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"05fe7803b131a33c": "Pigghie 'mbormaziune sus a 'nu PHID arbitrarie.",
+	"0a751e41cfcf8b01": "L'handle richieste \"$1\" non g'ha state carecate.",
+	"131ada2c91031e5e": "Le handle avessera ausà 'u 'nzieme de handle 'ndrucature in cache.",
+	"1498233146466f1f": "Limitate $1",
+	"1db177fa2f0941e1": "Stè pruève a cangià 'nu $1, ma non g'è permesse; l'elenghe de le handle no se ponne cangià.",
+	"40acf4c5cd86049e": "$1 classe \"$2\" tène 'na probbietà $3 invalide. Le costande PHID onna essere de quattre carattere tutte maiuscole.",
+	"40f8045ec98d286b": "Stoche a prove a carecà PHID \"$1\", ma non g'ha state cercate da nisciune elenghe handle.",
+	"4270ca6ab8fde311": "Le oggette ca tu è elengate tènene oggette cu 'u tipe errate ($1).",
+	"5920c81577d44070": "Pacchette de test de le 'nderrogaziune",
+	"6931f523cee8baba": "Email de l'applecazione",
+	"6e5d870b8888a21e": "Pigghie le oggette pe nome.",
+	"7191d0b67d43f89e": "Ste pruève a renderizzà 'nu handle ca non g'esiste!",
+	"750d3b61b047e337": "Pigghie 'mbormaziune sus a de le PHID arbitrarie.",
+	"8c323456ce8fea71": "Oggette scanusciute ($1)",
+	"9dc304f07ed386a3": "Le oggette ca tu è elengate tènene oggette ca non g'esistene ($1).",
+	"ad333443813e6a77": "Ste pruève a ccrejà 'nu sottelenghe nuève de 'n'elenghe de handle ca esiste, ma 'u PHID \"$1\" non ge iesse jndr'à l'elenghe de le attane.",
+	"d0636307d6924a2a": "Sostituite da 'phid.query'.",
+	"ea5edb74faa34ae6": "Le oggette ca tu è elengate tènene oggette cu 'u tipe errate ($1) e oggette ca non g'esistene ($2).",
+	"ebf8f6f3f90a4f6f": "Non ge ste nisciune oggette.",
+	"f4d10da4d9776085": "Non ge se pò generà 'u PHID senza tipe."
+}

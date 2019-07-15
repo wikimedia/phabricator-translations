@@ -3,7 +3,8 @@
 		"authors": [
 			"Trizek",
 			"Wladek92",
-			"Gomoko"
+			"Gomoko",
+			"Urhixidur"
 		]
 	},
 	"01ab47951fb99871": "Rebelle",
@@ -23,7 +24,7 @@
 	"1409102c84d3be6c": "Nouveau destinataire de récompense de badge.",
 	"15163433608ef421": "$1 a renommé le badge $2 $3 en $4.",
 	"1ca4eed206eb0a9e": "$1 a mis à jour le texte de la variété $2 de $3 à $4.",
-	"1df8061315935e3c": "Cette badge n’a aucun destinataire.",
+	"1df8061315935e3c": "Ce badge n’a aucun destinataire.",
 	"1e295cba0bed114d": "$1 a désactivé le badge $2.",
 	"1e86ad57c5680895": "Tous les badges",
 	"22be275f3ad2da7f": "Le PHID « $1 » du destinataire n’a pas été attribué.",

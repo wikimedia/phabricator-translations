@@ -5,7 +5,8 @@
 			"Thibaut120094",
 			"Wladek92",
 			"TomT0m",
-			"DSwissK"
+			"DSwissK",
+			"Urhixidur"
 		]
 	},
 	"00a3cc5b55d618dc": "PHID de service.",
@@ -32,7 +33,7 @@
 	"0fd04e1d161ed49f": "Le service lié.",
 	"1014f5db26547beb": "Ajouter l'interface",
 	"11a9e49ab59b8d15": "Les noms du service, de l’appareil, de la propriété, du réseau et de l’espace de noms Almanac ne peuvent pas dépasser 100 caractères.",
-	"11bfc4c50a69d4a5": "Espace de nom d’Almanac",
+	"11bfc4c50a69d4a5": "Espace de noms d’Almanac",
 	"165ddf9ab30db357": "Réinitialiser la propriété « $1 » à sa valeur par défaut ?",
 	"188f5f8bf674312e": "Les liens doivent spécifier un interface.",
 	"194c8233e1b471eb": "Appareil de grappe",
@@ -330,7 +331,7 @@
 	"f0933604d19dcfd4": "Uniquement les appareils qui ne sont pas des grappes.",
 	"f0fc73709b886838": "Modifier la liaison",
 	"f188b5721e0a97ae": "Appliquer les transactions pour créer un nouveau service ou en modifier un existant.",
-	"f1c54e338bf3342e": "Cet hôte a l’ID d’appareil « $1 », mais il n’y a pas d’enregistrement d’appareil correspondant dans Almanach.",
+	"f1c54e338bf3342e": "Cet hôte a l’ID d’appareil « $1 », mais il n’y a pas d’enregistrement d’appareil correspondant dans Almanac.",
 	"f21daa6536b381e1": "Un appareil, qu’il soit en grappe ou non.",
 	"f274517093d7a52d": "En créant une nouvelle correspondance d’Almanac via l’API Conduit, vous devez fournir une transaction « service » pour sélectionner un service à mettre en correspondance.",
 	"f3e3d8721b56e299": "Modifier l’appareil : $1",
@@ -344,11 +345,11 @@
 	"f62cde4ee46c3752": "Passer un dictionnaire de valeurs pour affecter une ou plusieurs propriétés.",
 	"f6aa19da8b4c7150": "L’appareil « $1 » n’est pas reconnu, est restreint, ou vous n’avez pas le droit de le modifier.",
 	"f70911dba3713f0a": "Type de service.",
-	"f7392ddbedc2e4a8": "Vous n’avez pas le droit de gérer des services de grappe d’almanach.",
+	"f7392ddbedc2e4a8": "Vous n’avez pas le droit de gérer des services de grappe d’Almanac.",
 	"f79e8b505e44a187": "$1 a créé cette liaison.",
 	"f85967519986ef41": "Ce moteur est utilisé pour modifier les appareils d’almanach.",
 	"fb3d7b95e9158f6a": "La valeur de la transaction lors d'une suppression de propriétés Almanac doit être une liste de noms de propriétés.",
 	"fbeb6d2301a6f1cb": "Id de la clé à laquelle faire confiance.",
 	"fc6a90f4cd842a2f": "Aucun appareil « $1 » n’existe !",
-	"fcca1bc56fb19659": "Aucun espace de noms d’almanach trouvé."
+	"fcca1bc56fb19659": "Aucun espace de noms d’Almanac trouvé."
 }

@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"MarcoAurelio"
+		]
+	},
 	"04850b7990a815ff": "Used in:\n\nLegalpadDocumentSignatureSearchEngine.php:122",
 	"06994f287d5e8b1a": "Used in:\n\nLegalpadDocumentSignatureSearchEngine.php:178\nLegalpadDocumentSignatureSearchEngine.php:188",
 	"07d9050154b40d3c": "Used in:\n\nLegalpadDocumentEditEngine.php:46",
@@ -40,7 +44,7 @@
 	"4c7b160ee981454e": "Used in:\n\nLegalpadCreateDocumentsCapability.php:13",
 	"50624939e60d1832": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\nLegalpadDocumentSignController.php:664",
 	"52c6b1f2d11dff35": "Variable Types: NONE.\nUsed in:\n\nLegalpadDocumentSignController.php:418\nLegalpadDocumentSignController.php:532",
-	"557d608ecd7cbc32": "Used in:\n\nLegalpadDocumentEditor.php:169",
+	"557d608ecd7cbc32": "{{optional}}\n\nUsed in:\n\nLegalpadDocumentEditor.php:169",
 	"5b4479d537bd3af1": "Used in:\n\nLegalpadDocumentEditor.php:11\nLegalpadDocumentSearchEngine.php:7",
 	"5c6c934df67e9ae9": "Used in:\n\nLegalpadDocumentSignatureSearchEngine.php:9",
 	"5cca1e703c2b77be": "Variable Types: NONE.\nUsed in:\n\nLegalpadDocumentSignController.php:103",

@@ -33,7 +33,7 @@
 	"98c6c6c1b5b17ce4": "Utilisateur à notifier.",
 	"9c283944e8b5c91f": "Arrêter, puis démarrer le serveur de notifications.",
 	"a301322c9af125fc": "Échec de lecture du fichier de configuration. $1",
-	"a8721c186dac05cb": "Écriture des traces dans : $1",
+	"a8721c186dac05cb": "Écriture des jounaux dans : $1",
 	"ac84f97164a13e1b": "Spécifier un utilisateur à notifier avec « --user ».",
 	"b482e7502097b7d9": "Un serveur spécifié (à l’index « $1 », sur le port « $2 ») spécifie seulement « $3 » ou « $4 ». Chaque serveur doit spécifier soit aucun des deux (pour désactiver SSL), soit les deux (pour l’activer).",
 	"b8842a8dde980ec6": "Le fichier de configuration ne spécifie aucun serveur client. Ce service ne pourra pas transmettre de notifications sans serveur client. Vous devez spécifier au moins un serveur de type « $1 ».",

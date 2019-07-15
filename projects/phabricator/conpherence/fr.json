@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Derugon"
 		]
 	},
 	"007590c1cd808d4a": "$1 participant(s) modifié(s), $2 ajouté(s) : $3 ; $4 supprimé(s) : $5.",
@@ -81,6 +82,7 @@
 	"8f4e872a475f1b43": "Rejoindre une pièce",
 	"8f9b7e868687b78f": "Vous n’avez rejoint aucune pièce.",
 	"902fc2d9af2d22a9": "Rejoindre la pièce",
+	"907199c63f87bffc": "[Conpherence]",
 	"90e2fca9e9906b83": "Pièce",
 	"91b1f7f95e448291": "Vous devez spécifier les données qui mettent vraiment à jour la Conpherence.",
 	"969889716d8228bf": "Pièces joignables",
