@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"29efd0bdaa04ae91": "Argomende \"$1\" non ge s'accocchie cu 'u nome de le generature.",
+	"300371d205bbeec3": "'Nu generatore lipsum jè reggistrate cu 'a chiave \"$1\". Sta chiave jè reservate.",
+	"32332b3df8a3771d": "Carecamende de 'n'utende a uecchije sciute a male. E' abbesogne de generà cchià utinde de test apprime.",
+	"359c2782e2017bbc": "Genere oggette senze cercà 'a conferme.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "Non ge se pà carecà 'u simbole $1: sta classe non g'esiste.",
+	"63017d2cc8fa35f7": "Generatore (\"$1\") non ge riesce a generà 'n'oggette.",
+	"6ad21d0a2036d6e8": "Azz",
+	"7b8d8ae984b43bbd": "Stu comande genere date de test sindedice, 'ngluse le cunde utende. Jè pruggettate pe l'ause jndr'à ambiende de sveluppe accussì da putè testà le funziune cchiù facilmende. Non g'esiste 'nu mode semblice pe scangellà ste date o annullà le effette de stu comande. Ce 'u lange jndr'à 'n'ambiende de produzione, jidde inquine le date tune cu 'nu sbuènne de rummate ca non ge segnifeche ninde e ca non ge puè scangellà.",
+	"8cd3cac1380eb4ec": "Genere oggette de test sindetece.",
+	"8d767bf5b72373d1": "classe",
+	"90a51575c9bd4563": "Stoche a genere oggette de test sindetece pe sembre. Ause ^C pe fermà quanne si soddisfatte.",
+	"9922906d3c889107": "Generate \"$1\": $2",
+	"a568df6c0fc85e72": "Scacchie 'u tipe o le tipe de date de test ca vuè ccu genere, o scacchie \"$1\".",
+	"b1b21337175c014d": "Genere oggette cchiù veloce possibbele.",
+	"b5ff2d7e2727ab4b": "L'Argomende \"$1\" jè ambigue, e s'accocchie cu cchiù generature: $2.",
+	"c9fb502c220f5ec3": "lipsum jè 'nu strumende de sveluppe e test e pò sulamende essere langiate sus a installazziune jndr'à modalità sveluppatore. Abbiltie \"$1\" jndr'à configuraziona toje e abbilite lipsum.",
+	"e92bac9cc25935f8": "Generature scacchiate: $1",
+	"e9f3727584c821b2": "GENERATURE",
+	"f335a7372135e4e7": "Sì secure ca vuè generà mundagne de rummate?"
+}
