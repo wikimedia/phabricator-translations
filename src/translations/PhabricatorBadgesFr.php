@@ -26,7 +26,7 @@ final class PhabricatorBadgesFr
       'New badge award recipients.' => 'Nouveau destinataire de récompense de badge.',
       '%s renamed %s badge %s to %s.' => '%s a renommé le badge %s %s en %s.',
       '%s updated %s flavor text from %s to %s.' => '%s a mis à jour le texte de la variété %s de %s à %s.',
-      'This badge does not have any recipients.' => 'Cette badge n’a aucun destinataire.',
+      'This badge does not have any recipients.' => 'Ce badge n’a aucun destinataire.',
       '%s disabled the badge %s.' => '%s a désactivé le badge %s.',
       'All Badges' => 'Tous les badges',
       'Recipient PHID "%s" has not been awarded.' => 'Le PHID « %s » du destinataire n’a pas été attribué.',

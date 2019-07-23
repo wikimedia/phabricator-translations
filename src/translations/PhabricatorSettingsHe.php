@@ -70,7 +70,7 @@ final class PhabricatorSettingsHe
       'Send Another Verification Email?' => 'שליחת דוא"ל אימות נוסף?',
       'Account Settings' => 'הגדרות חשבון',
       'Date and Time' => 'תאריך ושעה',
-      '⚫ Email' => '⚫ דוא"ל',
+      '⚫ Email' => '⚫ דוא״ל',
       'New Setting' => 'הגדרה חדשה',
       'Choose the pronoun you prefer.' => 'איזה תיאור מתאים לך?',
       'Primary Email Unverified' => 'כתובת דוא"ל ראשית לא מאומתת',

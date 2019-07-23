@@ -36,12 +36,16 @@ final class PhabricatorFeedFr
       'No story exists with key "%s"!' => 'Aucune histoire n’existe avec la clé « %s » !',
       'Feed options.' => 'Options du fil.',
       'Creation (Oldest First)' => 'Création (les plus anciens en premier)',
+      'Deprecated.' => 'Obsolète.',
       'No Stories.' => 'Pas d\'histoires.',
       'Story contains only the title of the story' => 'L\'histoire contient seulement le titre de l\'histoire',
       'Unsupported view type, possibles are: %s' => 'Type d’affichage non supporté, les valeurs possibles sont : %s',
       'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.' => 'Essai de récupération de la clé du champ de marquage « %s », mais l’histoire du fil n’a pas demandé à ce qu’elle soit rendue.',
       'Feed Stories' => 'Histoires du fil',
       'Unknown rendering target: %s' => 'Cible de rendu inconnue : %s',
+      'Include stories about projects I am a member of.' => 'Comprendre des histoires sur des projets desquels je suis membre.',
+      'Story type must be a valid class name and must subclass %s. \'%s\' is not a loadable class.' => 'Le type d’histoire doit être un nom de classe valide et doit être une sous-classe de %s. «&nbsp;%s&nbsp;» n’est pas une classe chargeable.',
+      'Feed story (with key "%s") does not exist or could not be loaded.' => 'Le fil de l’histoire (avec la clé «&nbsp;%s&nbsp;») n’existe pas ou ne peut pas être chargé.',
       'Review Recent Activity' => 'Voir l\'activité récente',
     );
   }

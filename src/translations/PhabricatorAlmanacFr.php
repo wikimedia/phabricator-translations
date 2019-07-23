@@ -33,7 +33,7 @@ final class PhabricatorAlmanacFr
       'The bound service.' => 'Le service lié.',
       'Add Interface' => 'Ajouter l\'interface',
       'Almanac service, device, property, network and namespace names may not be more than 100 characters long.' => 'Les noms du service, de l’appareil, de la propriété, du réseau et de l’espace de noms Almanac ne peuvent pas dépasser 100 caractères.',
-      'Almanac Namespace' => 'Espace de nom d’Almanac',
+      'Almanac Namespace' => 'Espace de noms d’Almanac',
       'Reset property "%s" to its default value?' => 'Réinitialiser la propriété « %s » à sa valeur par défaut ?',
       'Bindings must specify an interface.' => 'Les liens doivent spécifier un interface.',
       'Cluster Device' => 'Appareil de grappe',
@@ -331,7 +331,7 @@ final class PhabricatorAlmanacFr
       'Non-cluster Devices Only' => 'Uniquement les appareils qui ne sont pas des grappes.',
       'Edit Binding' => 'Modifier la liaison',
       'Apply transactions to create a new service or edit an existing one.' => 'Appliquer les transactions pour créer un nouveau service ou en modifier un existant.',
-      'This host has device ID "%s", but there is no corresponding device record in Almanac.' => 'Cet hôte a l’ID d’appareil « %s », mais il n’y a pas d’enregistrement d’appareil correspondant dans Almanach.',
+      'This host has device ID "%s", but there is no corresponding device record in Almanac.' => 'Cet hôte a l’ID d’appareil « %s », mais il n’y a pas d’enregistrement d’appareil correspondant dans Almanac.',
       'Both Cluster and Non-cluster Devices' => 'Un appareil, qu’il soit en grappe ou non.',
       'When creating a new Almanac binding via the Conduit API, you must provide a "service" transaction to select a service to bind.' => 'En créant une nouvelle correspondance d’Almanac via l’API Conduit, vous devez fournir une transaction « service » pour sélectionner un service à mettre en correspondance.',
       'Edit Device: %s' => 'Modifier l’appareil : %s',
@@ -345,13 +345,13 @@ final class PhabricatorAlmanacFr
       'Pass a map of values to set one or more properties.' => 'Passer un dictionnaire de valeurs pour affecter une ou plusieurs propriétés.',
       'Device "%s" is unrecognized, restricted, or you do not have permission to edit it.' => 'L’appareil « %s » n’est pas reconnu, est restreint, ou vous n’avez pas le droit de le modifier.',
       'Service type.' => 'Type de service.',
-      'You do not have permission to manage Almanac cluster services.' => 'Vous n’avez pas le droit de gérer des services de grappe d’almanach.',
+      'You do not have permission to manage Almanac cluster services.' => 'Vous n’avez pas le droit de gérer des services de grappe d’Almanac.',
       '%s created this binding.' => '%s a créé cette liaison.',
       'This engine is used to edit Almanac devices.' => 'Ce moteur est utilisé pour modifier les appareils d’almanach.',
       'Transaction value when deleting Almanac properties must be a list of property names.' => 'La valeur de la transaction lors d\'une suppression de propriétés Almanac doit être une liste de noms de propriétés.',
       'ID of the key to trust.' => 'Id de la clé à laquelle faire confiance.',
       'No such device "%s" exists!' => 'Aucun appareil « %s » n’existe !',
-      'No Almanac namespaces found.' => 'Aucun espace de noms d’almanach trouvé.',
+      'No Almanac namespaces found.' => 'Aucun espace de noms d’Almanac trouvé.',
     );
   }
 

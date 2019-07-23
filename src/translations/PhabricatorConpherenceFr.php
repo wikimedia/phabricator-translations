@@ -85,6 +85,7 @@ final class PhabricatorConpherenceFr
       'Join a Room' => 'Rejoindre une pièce',
       'You have joined no rooms.' => 'Vous n’avez rejoint aucune pièce.',
       'Join Room' => 'Rejoindre la pièce',
+      '[Conpherence]' => '[Conpherence]',
       'Room' => 'Pièce',
       'You must specify data that actually updates the Conpherence.' => 'Vous devez spécifier les données qui mettent vraiment à jour la Conpherence.',
       'Joinable Rooms' => 'Pièces joignables',

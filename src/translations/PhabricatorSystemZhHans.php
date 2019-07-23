@@ -16,7 +16,7 @@ final class PhabricatorSystemZhHans
       'No Writable Database' => '没有可写数据库',
       'Destroying %s **%s**...
     ' => '正在毁坏%s **%s**...',
-      'Object "%s" can not be destroyed (it does not implement %s).' => '对象“%s”不能被销毁（它不会实现%s）。',
+      'Object "%s" can not be destroyed (it does not implement %s).' => '对象“%s”不能销毁（它不会实现%s）。',
       'No Encoding Support' => '没有编码支持',
       'No such object "%s" exists!' => '不存在对象“%s”！',
       'Severed From Master' => '从主人身上切断',

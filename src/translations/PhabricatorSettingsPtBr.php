@@ -73,7 +73,7 @@ final class PhabricatorSettingsPtBr
       'Edit Authentication Factor' => 'Editar fator de autenticação',
       'Changing your password will terminate any other outstanding login sessions.' => 'Alterar sua senha encerrará qualquer outra sessão de login pendente.',
       'You have no linked accounts.' => 'Você não tem contas vinculadas.',
-      'Active Login Sessions' => 'Sessões de login ativas',
+      'Active Login Sessions' => 'Sessões de entradas ativas',
       'Edit Global Settings' => 'Editar configurações globais',
       'Ignore Conflict' => 'Ignorar conflito',
       'Vary Subjects' => 'Variados assuntos',

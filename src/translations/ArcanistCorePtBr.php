@@ -375,7 +375,7 @@ final class ArcanistCorePtBr
       'Line Too Long' => 'Linha muito longa',
       'Skip' => 'Pular',
       'Type' => 'Tipo',
-      'Enabled verbose mode.' => 'Modo verboso ativado.',
+      'Enabled verbose mode.' => 'Modo falador ativado.',
       'PHP Syntax Error!' => 'Erro de sintaxe PHP!',
       'INVALID CREDENTIALS' => 'CREDENCIAIS INVÁLIDAS',
       'SimpleXML Linter' => 'Analisador de SimpleXML',

@@ -10,7 +10,7 @@ final class PhabricatorSettingsFr
   protected function getTranslations() {
     return array(
       '12 Hour, 2:34 PM' => '12 Heures, 2:34 PM',
-      'You haven\'t added any contact numbers to your account.' => 'Vous n\'avez ajouté aucun numéro de contact à votre compte.',
+      'You haven\'t added any contact numbers to your account.' => 'Vous n’avez ajouté aucun numéro de contact à votre compte.',
       'Choose Factor Type' => 'Sélectionner le type de facteur',
       'Self Actions' => 'Auto-actions',
       'Choose which language you would like the Phabricator UI to use.' => 'Choisir la langue dans laquelle vous voulez utiliser l\'interface utilisateur Phabricator.',

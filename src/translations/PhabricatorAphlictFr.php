@@ -37,7 +37,7 @@ final class PhabricatorAphlictFr
       'User to notify.' => 'Utilisateur à notifier.',
       'Stop, then start the notification server.' => 'Arrêter, puis démarrer le serveur de notifications.',
       'Failed to read configuration file. %s' => 'Échec de lecture du fichier de configuration. %s',
-      'Writing logs to: %s' => 'Écriture des traces dans : %s',
+      'Writing logs to: %s' => 'Écriture des jounaux dans : %s',
       'Specify a user to notify with "--user".' => 'Spécifier un utilisateur à notifier avec « --user ».',
       'A specified server (at index "%s", on port "%s") specifies only one of "%s" and "%s". Each server must specify neither (to disable SSL) or specify both (to enable it).' => 'Un serveur spécifié (à l’index « %s », sur le port « %s ») spécifie seulement « %s » ou « %s ». Chaque serveur doit spécifier soit aucun des deux (pour désactiver SSL), soit les deux (pour l’activer).',
       'Configuration file does not specify any client servers. This service will be unable to transmit any notifications without a client server. You must specify at least one server with type "%s".' => 'Le fichier de configuration ne spécifie aucun serveur client. Ce service ne pourra pas transmettre de notifications sans serveur client. Vous devez spécifier au moins un serveur de type « %s ».',

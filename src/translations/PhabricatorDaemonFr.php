@@ -135,6 +135,7 @@ final class PhabricatorDaemonFr
       'Dead' => 'Mort',
       'No tasks are leased by workers.' => 'Aucune tâche n’a été empruntée par les travailleurs.',
       'PPID' => 'PPID',
+      '%s s' => '%s s',
       'This daemon exited normally and is no longer running.' => 'Ce démon s’est terminé normalement et ne tourne plus.',
       '(Pool: %s)' => '(Réserve : %s)',
       'No Such Task' => 'Aucune tâche semblable',

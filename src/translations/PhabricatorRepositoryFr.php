@@ -151,7 +151,7 @@ final class PhabricatorRepositoryFr
       'MANUAL Revision "%s" was likely closed improperly by "%s".' => 'La relecture MANUELLE « %s » semble ne pas avoir été fermée proprement par « %s ».',
       'Select repositories to affect by providing a list of repositories or using the "--all-repositories" flag.' => 'Selectionner les dépôts concernés en fournissant une liste de dépôts ou en utilisant le drapeau « --all-repositories  » .',
       'Specify exactly one repository to unpublish.' => 'Spécifiez exactement un dépôt à ne plus publier.',
-      'Service "%s" is not bound to any devices.' => 'Le service « %s » n\'est attaché à aucun appareil.',
+      'Service "%s" is not bound to any devices.' => 'Le service « %s » n’est attaché à aucun appareil.',
       '%s deactivated this repository.' => '%s a désactivé ce dépôt.',
       'Convert existing repositories into cluster repositories.' => 'Convertir les dépôts existants en groupes de dépôts.',
       'Do not perform any writes.' => 'Ne réalisez aucune écriture.',
