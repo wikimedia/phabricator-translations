@@ -4,7 +4,8 @@
 			"Johan",
 			"Jopparn",
 			"Umeaboy",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Pyscowicz"
 		]
 	},
 	"00003a701ef56dd7": "Avbröts p.g.a. misslyckad filuppladdning. Du kan använda $1 för att hoppa över binära uppladdningar.",
@@ -382,6 +383,7 @@
 	"c3c121da35ed667a": "Installera RuboCop med `$1`.",
 	"c54dc209f0df892a": "Ny version är tillgänglig!",
 	"c6ef42fa9aa97fb8": " <$1 ms",
+	"cb0cb170d106f8e8": "Server",
 	"ce771785e307eb2e": "$1 rad(er)",
 	"cf482fb0a191bc65": "INLOGGNING KRÄVS",
 	"d17d9d4c03a6bd30": "Vill du skapa den?",

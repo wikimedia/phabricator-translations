@@ -2,15 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"KATRINE1992",
-			"Wladek92"
+			"Wladek92",
+			"Derugon"
 		]
 	},
+	"01e30de312eae0aa": "Échantillons XHProf",
+	"0a63ad781263be3f": "Testé (1/$1)",
+	"2211e38509c4c39d": "Tous les Échantillons",
 	"28facfbf0193ea3e": "Appels Relatifs",
+	"3f84ef531f9db996": "Symbole",
 	"5a9ebdb4ed44587e": "Temps total du mur passé dans cette fonction et dans tous ses enfants (les enfants sont d'autres fonctions qu'elle a appelées pendant son exécution).",
+	"600c86c5195dfe24": "$1 μs",
 	"60bc9828c396a0ff": "Echantillon sans nom.",
+	"68d5ced71e82cd17": "Profil $1",
+	"93bdcecc9624ca26": "Exécution manuelle",
+	"a04ce39eb6a65a4b": "Glisser-déposer des fichiers .xhprof pour les importer.",
 	"aeb1f8e83b6fb6c1": "Outil de profilage PHP",
 	"ba808f702b24f82c": "Métriques pour cet appel",
+	"bffb93b89ee1e5b6": "Échec de la sérialisation du profil XHProf&#8239;!",
 	"c9aef90f3405db63": "Profil XHProf",
 	"d2c039b48df9b8b5": "Faire glisser les fichiers .xhprof à importer",
+	"f1ab222d43ba59b4": "Télécharger le Profil $1",
 	"fe6de32a0c1aa35b": "Appeler les Enfants"
 }
