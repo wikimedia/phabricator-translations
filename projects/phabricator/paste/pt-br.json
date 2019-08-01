@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"03b422a28459bdef": "Compartilhar trechos de texto",
+	"066b0b1afad0a8e1": "Arquivar pasta",
+	"137884fc4e5887f1": "Configure formulários de criação e edição na pasta.",
+	"2439957fc74c49c0": "O autor de uma pasta pode sempre visualizá-la e editá-la.",
+	"26161ad7893f44ab": "Criar nova pasta",
+	"271e88885ee5b1f8": "Política de edição padrão para pastas recém-criadas.",
+	"2c9e7f1c30140fa9": "Ativar ou arquivar a pasta.",
+	"2e0c1f769d6c21f1": "$1 criou esta pasta.",
+	"3003932a31fb1ed3": "Digite um nome de idioma ou deixe em branco para detectar automaticamente...",
+	"30bdfa503c815052": "Editar pasta: $1",
+	"778e76decb27c85b": "Aplique transações para criar uma nova pasta ou editar uma existente.",
+	"897afd43f888d6a3": "Criar uma pasta",
+	"9020bdd97dc85137": "$1 editou o conteúdo desta pasta.",
+	"a08e10419a1b1cba": "$1 arquivou esta pasta.",
+	"a0dd0f4a61efbd46": "Editar pasta",
+	"a14d57d7a999ce5b": "[Pasta]",
+	"a74abdbc75ec124e": "Pastas ativas",
+	"cfff05c9d1bc9de0": "DETALHES DA PASTA",
+	"d5761e54269187a1": "Criar pasta",
+	"db2483000d154ca9": "Pasta",
+	"dc181b7c8d776ad2": "Status de ativo ou arquivado da pasta.",
+	"e660e18783b4df96": "Comandos de Email: Pastes"
+}
