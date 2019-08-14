@@ -22,7 +22,7 @@ final class PhabricatorSubscriptionsPtBr
       '%d other(s)' => '%s outro(s)',
       'You are automatically subscribed to this object.' => 'Você está automaticamente inscrito nesse objeto.',
       'Add subscribers' => 'Adicionar assinantes',
-      'Remove yourself as a subscriber.' => 'Remova-se como inscrito.',
+      'Remove yourself as a subscriber.' => 'Cancelar sua inscrição',
       'Search for objects with certain subscribers.' => 'Procure por objetos com certos inscritos.',
       'Subscribers can take this action.' => 'Os inscritos podem realizar essa ação.',
       'Unmute' => 'Reativar',
@@ -34,7 +34,7 @@ final class PhabricatorSubscriptionsPtBr
       'Removed %s subscriber(s): %s.' => 'Removido %s inscrito(s): %s.',
       'Unsubscribe' => 'Cancelar inscrição',
       'Bad Object' => 'Objeto inválido',
-      'Add users or projects as subscribers.' => 'Adicione usuários ou projetos como assinantes.',
+      'Add users or projects as subscribers.' => 'Adicionar usuários ou projetos como assinantes.',
       'Add subscribers: %s.' => 'Adicionar assinantes: %s.',
       'Removed Subscribers' => 'Inscritos removidos',
       'All %d subscribers added by %s' => 'Todos os %s inscritos adicionados por %s',
@@ -50,7 +50,7 @@ final class PhabricatorSubscriptionsPtBr
       'This object is not subscribable.' => 'Este objeto não é assinável.',
       'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
-    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => 'Adicione um ou mais inscrições ao objeto. Você pode adicionar usuários fornecendo seus nomes de usuário ou adicionar projetos adicionando suas hashtags. Por exemplo, use `%s` para adicionar o usuário`alincoln` e o projeto com a hashtag `#ios` como assinantes.
+    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => 'Adicionar um ou mais inscrições ao objeto. Você pode adicionar usuários fornecendo seus nomes de usuário ou adicionar projetos adicionando suas hashtags. Por exemplo, use `%s` para adicionar o usuário `alincoln` e o projeto com a hashtag `#ios` como assinantes.
     Inscrições  inválidos ou não reconhecidos serão ignorados. Este comando não tem efeito se você não especificar nenhum assinante.
     Os usuários que são certificados pelo próprio e-mail também são automaticamente inscritos se o Phabricator souber quais contas estão vinculadas a seus endereços de e-mail.',
       'Add rule author as subscriber.' => 'Adicione o autor da regra como assinante.',

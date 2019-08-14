@@ -32,6 +32,7 @@ final class PhabricatorSearchPtBr
       'Queries' => 'Consultas',
       'Add New Menu Item...' => 'Adicionar novo item de menu...',
       'This is a visual divider which you can use to separate sections in the menu. It does not have any configurable options.' => 'Este é um divisor visual que você pode usar para separar seções no menu. Não possui opções configuráveis.',
+      'Open Documents' => 'Documentos abertos',
       'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.' => 'Encontre objetos correspondentes a uma consulta de pesquisa de texto completo. Consulte "Pesquisar guia do usuário" na documentação para obter detalhes.',
       'Global Saved Queries' => 'Consultas salvas globais',
       'Configure Menu' => 'Configurar menu',
@@ -60,6 +61,7 @@ final class PhabricatorSearchPtBr
       'Buckets Overflowing' => 'Baldes transbordando',
       'Query Overheated' => 'Consulta superaquecida',
       'Divider' => 'Divisor',
+      'Full-Text Search' => 'Pesquisa de texto completo',
       'Deprecated alias for "%s".' => 'Alias reprovado para "%s".',
       'Edit Menu Item' => 'Editar item de menu',
       'NOTE' => 'NOTA',
@@ -82,6 +84,7 @@ final class PhabricatorSearchPtBr
       'Edit Query' => 'Editar consulta',
       '%s (Not Available)' => '%s (Não disponível)',
       '(Restricted/Invalid Application)' => '(Aplicativo restrito/inválido)',
+      'Export Data' => 'Exportar dados',
       'Browse Document Types' => 'Procurar tipos de documentos',
     );
   }

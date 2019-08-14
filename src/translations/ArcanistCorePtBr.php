@@ -471,7 +471,9 @@ final class ArcanistCorePtBr
       'Spellchecker' => 'Revisão ortográfica',
       'NOTE' => 'NOTA',
       'Connected' => 'Conectado',
+      'Changes:' => 'Alterações:',
       'PREVIEW' => 'Pré-visualização',
+      'Implicit Method Visibility' => 'Visibilidade implícita do método',
       'Started' => 'Iniciado',
     );
   }

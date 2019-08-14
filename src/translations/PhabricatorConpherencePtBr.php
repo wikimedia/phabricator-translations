@@ -36,6 +36,7 @@ final class PhabricatorConpherencePtBr
       'Alert' => 'Alerta',
       'No Sound' => 'Sem som',
       '%s joined the room.' => '%s entrou na sala.',
+      'Browse Room' => 'Procurar sala',
       'Are you sure you want to leave this room?' => 'Tem certeza de que quer sair desta sala?',
       'Participants' => 'Participantes',
       'Welcome to Conpherence' => 'Bem-vindo a Conferência',

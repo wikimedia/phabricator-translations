@@ -400,6 +400,7 @@ final class ArcanistCoreSv
       'Install RuboCop using `%s`.' => 'Installera RuboCop med `%s`.',
       'New Version Available!' => 'Ny version är tillgänglig!',
       ' <%dms' => ' <%s ms',
+      'Server' => 'Server',
       '%s line(s)' => '%s rad(er)',
       'LOGIN REQUIRED' => 'INLOGGNING KRÄVS',
       'Do you want to create it?' => 'Vill du skapa den?',

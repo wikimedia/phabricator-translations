@@ -370,6 +370,7 @@ final class PhabricatorConfigFr
       'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Sans fuseau horaire configuré, PHP émettra des avertissements en travaillant avec des dates, et les dates et les heures pourront ne pas s’afficher correctement.',
       'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => 'L’option « %s » est de type « %s » et doit être initialisée avec une liste d’expressions régulières valides, mais « %s » n’est pas une expression régulière valide.',
       'This schema can use a better character set.' => 'Ce schéma peut utiliser un meilleur jeu de caractères.',
+      'Configuration value "%s" is locked, but has a value in the database.' => 'La valeur de configuration « %s » est verrouillée, mais a une valeur en base de données.',
       'Determines whether or not YouTube videos get embedded.' => 'Détermine si les vidéos YouTube sont incluses ou non.',
       'Allows you to add a footer with links in it to most pages. You might want to use these links to point at legal information or an about page.
     Specify a list of dictionaries. Each dictionary describes a footer item. These keys are supported:
@@ -428,6 +429,8 @@ final class PhabricatorConfigFr
       'Public email is now accepted if the associated address has a default author, and rejected otherwise.' => 'Le courriel public est maintenant accepté si l’adresse associée a un auteur par défaut et rejeté sinon.',
       'Setup Issues' => 'Problèmes d’installation',
       'Require email verification' => 'Nécessite une vérification de courriel',
+      'Resource minification is now managed automatically.' => 'La minimisation des ressources est maintenant gérée automatiquement.',
+      'Whitespace rendering is now handled automatically.' => 'Le rendu des espaces est maintenant géré automatiquement.',
       '%s Not Working' => '%s ne fonctionne pas',
       'You can use \'%s\' if you don\'t want to create a full translation to give users an option for switching to it and you just want to override some strings in the default translation.' => 'Vous pouvez utiliser \'%s\' si vous ne voulez pas créer une traduction complète, pour donner aux utilisateurs une option pour basculer vers elle, et que vous voulez juste écraser certaines chaînes dans la traduction par défaut.',
       'Phabricator appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. Phabricator regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => 'Phabricator semble être installé sur une très petite instance de EC2 (de la classe « %s ») avec un CPU extensible. Ce n’est pas recommandé. Phabricator a besoin de CPU de façon régulière, et ces instances sont souvent chargées à mort par un ralentissement de CPU. Utiliser plutôt une instance avec un CPU normal.',
@@ -437,6 +440,7 @@ final class PhabricatorConfigFr
     Votre serveur web est mal configuré et une grande partie de Phabricator ne fonctionnera pas jusqu’à ce que ce problème soit corrigé.
     (Ce problème peut être dû à un « QSA » manquant dans votre RewriteRule.)',
       'Connection' => 'Connexion',
+      'Placeholder recipients are now generated automatically.' => 'Les paramètres de substitution sont maintenant automatiquement générés.',
       'SSH keys are now actually useful, so they are always enabled.' => 'Les clés SSH sont maintenant utiles, c\'est pourquoi elles sont toujours activées.',
       'Request output, in bytes.' => 'Sortie de la requête, en octets.',
       'Configure integration with AWS (EC2, SES, S3, etc).' => 'Configurer l’intégration avec AWS (EC2, SES, S3, etc.).',
@@ -519,6 +523,7 @@ final class PhabricatorConfigFr
       'Configuration Guide: Configuring a File Domain' => 'Guide de configuration : configurer un domaine de fichiers',
       'Activate DarkConsole on every page.' => 'Activer DarkConsole sur chaque page.',
       'Enable verbose error reporting and disk reads.' => 'Activer le rapport d’erreur verbeux et les lectures disque.',
+      'Mail object address hash keys are now generated automatically.' => 'Les clés de hachage de l’objet adresse du courriel sont maintenant automatiquement générées.',
       'Too many arguments: expected one key and one value.' => 'Trop d\'arguments: attendus une clé et une valeur.',
       'Settings History' => 'Historique des préférences',
       'MySQL is not in strict mode (on host "%s"), but using strict mode is strongly encouraged.' => 'MySQL n’est pas en mode strict (sur l’hôte « %s »), mais utiliser le mode strict est fortement recommandé.',
