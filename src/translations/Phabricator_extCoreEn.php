@@ -1,6 +1,6 @@
 <?php
 
-final class Phabricator-extCoreEn
+final class Phabricator_extCoreEn
   extends PhutilTranslation {
 
   public function getLocaleCode() {
