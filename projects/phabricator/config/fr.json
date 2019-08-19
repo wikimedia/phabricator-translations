@@ -9,7 +9,8 @@
 			"DSwissK",
 			"Derugon",
 			"VIGNERON",
-			"Saimongoltinio"
+			"Saimongoltinio",
+			"Djiboun"
 		]
 	},
 	"00e46c015f972018": "Tableau contenant la liste des applications non installées.",
@@ -433,6 +434,7 @@
 	"76b1e28f71753442": "Votre serveur web a retourné une réponse inattendue.",
 	"76e1d98b2037bc14": "Phabricator découvre maintenant automatiquement les moteurs de recherche au moment de l'exécution.",
 	"775a8816a43b005d": "Impossible de déterminer le numéro de version de « $1 ».",
+	"7777b41b116b3367": "Si c'est le cas, les adresses électroniques doivent être vérifiées (en cliquant sur un lien dans un courriel) avant qu'un utilisateur puisse se connecter. Par défaut, la vérification est optionnelle sauf si @{config:auth.email-domains} n'est pas vide.",
 	"778e672da8380f4d": "Documentation OPcache de PHP",
 	"77a8141f0570a001": "La clé de configuration « $1 » est de type « $2 ». La spécifier en JSON.",
 	"77fb474df4497fbf": "Groupement : bases de données",
@@ -451,6 +453,7 @@
 	"7a7c9c2b34141d23": "Si une variable n’est pas disponible (par exemple, %m apparaît dans le format du fichier mais la requête n’est pas une requête Conduit), elle sera rendue comme '-'",
 	"7b1657eb3fc6c8e9": "Mettre une chaîne que Phabricator doit utiliser pour préfixer les noms de cookie.",
 	"7b451c08bff6f7d9": "Si ces commandes ne fonctionnent pas, essayez Google. Le processus d’installer des extensions PHP n’est pas spécifique à Phabricator, et toute instruction que vous pouvez trouver pour les installer sur votre système devrait fonctionner. Sur Mac OS X, vous pouvez essayer Homebrew.",
+	"7b50146bd160e75e": "Les clés CSRF HMAC sont maintenant gérées automatiquement.",
 	"7b5265f8b5ada7c6": "État de la base de données",
 	"7c1630b30bc2eb38": "L’hôte de base de données « $1 » utilise le fichier de mots à ignorer intégré pour construire les index de recherche. Cela peut rendre la fonctionnalité de recherche de Phabricator moins utile.\n\nLes mots à ignorer sont les mots communs qui ne sont pas indexés et ne donc peuvent pas être recherchés. Le fichier de mots à ignorer par défaut a environ cinq cents mots, comprenant divers mots que vous voudrez peut-être rechercher, comme 'various', 'likely', 'wish', et 'zero'.\n\nPour rendre la recherche plus utile, vous pouvez utiliser un autre fichier de mots à ignorer avec moins de mots. À la place, si vous n’êtes pas concerné par la recherche de mots communs, vous pouvez ignorer cet avertissement. Si vous prévoyez plus tard de configurer Elasticsearch, vous pouvez aussi ignorer cet avertissement : ce fichier de mots à ignorer n’affecte que les index de plein texte de MySQL.\n\nPour choisir un autre fichier de mots à ignorer, ajoutez cela à votre fichier $2 (dans la section $3) et puis redémarrez $4 :\n\n$5\n(Vous pouvez aussi utiliser un fichier différent, si vous préférez. Le fichier suggéré ci-dessus contient environ cinquante des mots anglais les plus courants.)\n\nAu final, lancez cette commande pour reconstruire les index en utilisant les nouvelles règles :\n\n$6",
 	"7c3409b276b1f497": "La valeur pour l’option « $1 » (de type « $2 ») doit être spécifiée en JSON, mais l’entrée n’a pas pu être décodée : $3",

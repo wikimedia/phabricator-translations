@@ -8,7 +8,8 @@
 			"TomT0m",
 			"Zetud",
 			"Derugon",
-			"Urhixidur"
+			"Urhixidur",
+			"Djiboun"
 		]
 	},
 	"002ff598115d8459": "Question",
@@ -1129,6 +1130,7 @@
 	"ae0eee3502343766": "Confirmation en cours",
 	"ae21d5b3d7d17ec8": "AVERTISSEMENT: échec d'extraction de chaînes du fichier \"$1\": $2",
 	"ae388a283329483d": "Valideur",
+	"ae3a599a1e596af7": "Échec du chargement de la requête enregistrée (\"$1\").",
 	"ae49ba2832252885": "Les tâches de même priorité soivent être en FIFO.",
 	"aef3c65fe732a1c6": "Nouveau SQL de démarrage rapide écrit.",
 	"af3c8638b223480a": "Gère les problèmes d’exécution avec la configuration de la grappe.",
@@ -1307,6 +1309,7 @@
 	"cbd19b5c397e027a": "Acteur",
 	"cbe9285536836c4f": "Marchand $1 $2",
 	"cc11b3a28fa30ae6": "Contexte",
+	"cc1316dd19280c38": "Enregistrer le brouillon",
 	"cc9db3a795571c7e": "Rouge",
 	"ccb0428680324d9e": "Phase inconnue '$1' !",
 	"ccbc98863fe7dfbe": "Résumé des points d'ancrage de « $1 ».",
