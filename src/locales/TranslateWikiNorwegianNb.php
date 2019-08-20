@@ -9,6 +9,6 @@ final class TranslateWikiNorwegianNb extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Norwegian (Norway)');
+        return pht('Norwegian');
     }
 }

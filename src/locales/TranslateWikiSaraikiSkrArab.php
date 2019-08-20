@@ -9,7 +9,7 @@ final class TranslateWikiSaraikiSkrArab extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Saraiki (Arabic)');
+        return pht('Saraiki (Arabic Script)');
     }
 
 }

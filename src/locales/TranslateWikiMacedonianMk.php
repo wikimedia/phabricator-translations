@@ -9,7 +9,7 @@ final class TranslateWikiMacedonianMk extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Macedonian (Macedonia)');
+        return pht('Macedonian');
     }
 
 }

@@ -9,7 +9,7 @@ final class TranslateWikiJapaneseJa extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Japanese (Japan)');
+        return pht('Japanese');
     }
 
 }

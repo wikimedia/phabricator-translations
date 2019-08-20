@@ -9,6 +9,6 @@ final class TranslateWikiSwedishSv extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Swedish (Sweden)');
+        return pht('Swedish');
     }
 }

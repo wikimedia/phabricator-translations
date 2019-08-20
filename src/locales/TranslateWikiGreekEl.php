@@ -9,6 +9,6 @@ final class TranslateWikiGreekEl extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Greek (Greece)');
+        return pht('Greek');
     }
 }

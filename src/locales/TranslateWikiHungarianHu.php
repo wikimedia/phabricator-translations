@@ -9,7 +9,7 @@ final class TranslateWikiHungarianHu extends PhutilLocale {
     }
 
     public function getLocaleName() {
-        return pht('Hungarian (Hungary)');
+        return pht('Hungarian');
     }
 
 }
