@@ -434,7 +434,7 @@
 	"76b1e28f71753442": "Votre serveur web a retourné une réponse inattendue.",
 	"76e1d98b2037bc14": "Phabricator découvre maintenant automatiquement les moteurs de recherche au moment de l'exécution.",
 	"775a8816a43b005d": "Impossible de déterminer le numéro de version de « $1 ».",
-	"7777b41b116b3367": "Si c'est le cas, les adresses électroniques doivent être vérifiées (en cliquant sur un lien dans un courriel) avant qu'un utilisateur puisse se connecter. Par défaut, la vérification est optionnelle sauf si @{config:auth.email-domains} n'est pas vide.",
+	"7777b41b116b3367": "S'il est à true, les adresses électroniques doivent être vérifiées (en cliquant sur un lien dans un courriel) avant qu'un utilisateur puisse se connecter. Par défaut, la vérification est optionnelle sauf si @{config:auth.email-domains} n'est pas vide.",
 	"778e672da8380f4d": "Documentation OPcache de PHP",
 	"77a8141f0570a001": "La clé de configuration « $1 » est de type « $2 ». La spécifier en JSON.",
 	"77fb474df4497fbf": "Groupement : bases de données",
