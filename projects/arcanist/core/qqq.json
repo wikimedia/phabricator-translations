@@ -3,7 +3,8 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Wladek92",
-			"FF11"
+			"FF11",
+			"Pyscowicz"
 		]
 	},
 	"00003a701ef56dd7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$2641 ArcanistDiffWorkflow.php:2641]",
@@ -28,7 +29,7 @@
 	"04259816ace1ebe5": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistAliasWorkflow.php$170 ArcanistAliasWorkflow.php:170]\n{{Identical|Alias}}",
 	"0480e615e8e54913": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLintersWorkflow.php$86 ArcanistLintersWorkflow.php:86]",
 	"04a6b0a9711f6c6d": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistCloseWorkflow.php$132 ArcanistCloseWorkflow.php:132]",
-	"04d2414cddc1052e": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/browse/workflow/ArcanistBrowseWorkflow.php$177 ArcanistBrowseWorkflow.php:177] (Patch does not exist)\n{{Identical|Pick}}",
+	"04d2414cddc1052e": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/browse/workflow/ArcanistBrowseWorkflow.php$177 ArcanistBrowseWorkflow.php:177] (Patch does not exist anymore)\n{{Identical|Pick}}",
 	"04dc19769826abe6": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLintWorkflow.php$138 ArcanistLintWorkflow.php:138]",
 	"04e4ea73341e0956": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/browse/ref/ArcanistBrowseURIRef.php$10 ArcanistBrowseURIRef.php:10]",
 	"04f12eb0c2204857": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$841 ArcanistDiffWorkflow.php:841]",
