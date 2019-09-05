@@ -34,6 +34,7 @@ final class PhabricatorAlmanacDa
       'Edit Network' => 'Rediger netværk',
       'Edit Service' => 'Rediger tjeneste',
       'Create Namespace' => 'Opret navnerum',
+      'No Almanac Devices found.' => 'Ingen Almanac-enheder blev fundet.',
       'Interface %d' => 'Grænseflade %s',
       'Network' => 'Netværk',
       'Create Network' => 'Opret netværk',

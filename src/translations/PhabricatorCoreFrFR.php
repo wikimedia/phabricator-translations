@@ -246,7 +246,7 @@ final class PhabricatorCoreFrFR
       'Highlight As...' => 'Mettre en valeur comme...',
       '%s edited edge metadata.' => '%s a modifié les métadonnées de l’arête.',
       'Mailer configuration is invalid: multiple mailers have the same key ("%s"). Each mailer must have a unique key.' => 'La configuration de la messagerie n’est pas valide : plusieurs messageries ont la même clé (« %s »). Chaque messagerie doit avoir une clé unique.',
-      'Status Name' => 'Nom du Statut',
+      'Status Name' => 'Nom de l\'état',
       'Cluster: Search' => 'Grappe : Rechercher',
       'This change will take effect the next time the daemons are restarted.' => 'Cette modification prendra effet la prochaine fois que les démons seront redémarrés.',
       'Bulk Update' => 'Mises à jour en masse',

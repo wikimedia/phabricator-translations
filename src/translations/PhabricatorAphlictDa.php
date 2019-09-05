@@ -9,6 +9,7 @@ final class PhabricatorAphlictDa
 
   protected function getTranslations() {
     return array(
+      'Send a notification to a user.' => 'Send en notifikation til en bruger.',
       'Failed to %s!' => '%s mislykkedes!',
       'Aphlict is not running.' => 'Aphlict kører ikke.',
       'You must %s first!' => 'Du skal først gøre %s!',

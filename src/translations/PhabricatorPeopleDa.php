@@ -91,7 +91,7 @@ final class PhabricatorPeopleDa
       '"%s" is not a valid username.' => '"%s" er ikke et gyldigt brugernavn.',
       'Old Username: %s' => 'Gammelt brugernavn: %s',
       'Edit Settings' => 'Rediger indstillinger',
-      'Verified' => 'Verificerent',
+      'Verified' => 'Verificeret',
       'Create User' => 'Opret bruger',
       'Unapproved Account' => 'Ikke-godkendt konto',
       'Change Username' => 'Ændre brugernavn',

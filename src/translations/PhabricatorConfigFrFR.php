@@ -537,7 +537,7 @@ final class PhabricatorConfigFrFR
       'Your webserver produced an unexpected response.' => 'Votre serveur web a retourné une réponse inattendue.',
       'Phabricator now automatically discovers available search engines at runtime.' => 'Phabricator découvre maintenant automatiquement les moteurs de recherche au moment de l\'exécution.',
       'Unable to determine the version number of "%s".' => 'Impossible de déterminer le numéro de version de « %s ».',
-      'If true, email addresses must be verified (by clicking a link in an email) before a user can login. By default, verification is optional unless @{config:auth.email-domains} is nonempty.' => 'Si c\'est le cas, les adresses électroniques doivent être vérifiées (en cliquant sur un lien dans un courriel) avant qu\'un utilisateur puisse se connecter. Par défaut, la vérification est optionnelle sauf si @{config:auth.email-domains} n\'est pas vide.',
+      'If true, email addresses must be verified (by clicking a link in an email) before a user can login. By default, verification is optional unless @{config:auth.email-domains} is nonempty.' => 'S\'il est à true, les adresses électroniques doivent être vérifiées (en cliquant sur un lien dans un courriel) avant qu\'un utilisateur puisse se connecter. Par défaut, la vérification est optionnelle sauf si @{config:auth.email-domains} n\'est pas vide.',
       'PHP OPcache Documentation' => 'Documentation OPcache de PHP',
       'Config key "%s" is of type "%s". Specify it in JSON.' => 'La clé de configuration « %s » est de type « %s ». La spécifier en JSON.',
       'Cluster: Databases' => 'Groupement : bases de données',

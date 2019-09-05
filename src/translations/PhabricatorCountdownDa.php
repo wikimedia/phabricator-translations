@@ -16,6 +16,7 @@ final class PhabricatorCountdownDa
       'Edit Countdown: %s' => 'Rediger nedtælling: %s',
       'Countdowns' => 'Nedtællinger',
       'Show only upcoming countdowns.' => 'Vis kun kommende nedtællinger',
+      'Change the countdown description.' => 'Ændre beskrivelsen på nedkølingen.',
       'Create a Countdown' => 'Opret en nedtælling',
       'No countdowns found.' => 'Ingen nedtællinger fundet.',
       'Upcoming' => 'Kommende',
