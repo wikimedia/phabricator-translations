@@ -3,7 +3,8 @@
 		"authors": [
 			"Werewindle",
 			"Wladek92",
-			"Derugon"
+			"Derugon",
+			"Verdy p"
 		]
 	},
 	"005b04a6a1c3f591": "Un nom d’objet est requis.",
@@ -14,7 +15,7 @@
 	"0357cbca9ae666c3": "ID du point d'ancrage web à appeler",
 	"0386ef0bc82d93ea": "Cibles non valides",
 	"05f910fcbbb179a2": "(Liste non valide)",
-	"06e0c3830f17c71e": "(Action «&nbsp;$1&nbsp;» non valide) est égale à",
+	"06e0c3830f17c71e": "(Action inconnue « $1 ») est égale à",
 	"07562ef2b636bcfe": "Le champ «&nbsp;$1&nbsp;» a  un type standard «&nbsp;$2&nbsp;» inconnu.",
 	"088f714572e48344": "Les règles d’objets héritent des politiques d’édition de leurs objets.",
 	"09599ffff0f80bc0": "Ceci est une ancienne transcription qui utilise un format de registre obsolète. Aucune information d’action détaillée disponible.",

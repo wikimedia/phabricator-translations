@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"TomT0m"
+			"TomT0m",
+			"Urhixidur"
 		]
 	},
 	"0008bde8eebd806d": "Supporter pour ConduitResultInterface",
@@ -42,7 +43,7 @@
 	"2c3164b198fcfdc1": "Utiliser le panneau $1 dans les Paramètres pour générer ou gérer les jetons d’API.",
 	"2c3d680a580b5db4": "Conduit",
 	"2dfdffc584a136b9": "Ping élémentaire de gestion ou bien contrôle de bon fonctionnement.",
-	"316b072574dc3171": "La valeur pour le paramètre '$1' n’est pas du JSON valide. Tous les paramètres doivent être encodés comme des valeurs JSON, y compris les chaînes (ce qui veut dire que vous devez les entourer de guillemets).\nVérifiez votre syntaxe. La valeur était : $2.",
+	"316b072574dc3171": "La valeur pour le paramètre '$1' n’est pas du JSON valide. Tous les paramètres doivent être encodés comme des valeurs JSON, y compris les chaînes (ce qui veut dire que vous devez les entourer de guillemets anglais).\nVérifiez votre syntaxe. La valeur était : $2.",
 	"32c31af829f43ba0": "Un entier.",
 	"3363dbc1f8c8e34f": "La clé qui a signé cette requête n’est pas fiable. Seules les clés de confiance peuvent être utilisées pour signer les appels à l’API.",
 	"33ed2ce4ec2060e8": "Le jeton d’accès n’existe pas.",

@@ -9,7 +9,8 @@
 			"Zetud",
 			"Derugon",
 			"Urhixidur",
-			"Djiboun"
+			"Djiboun",
+			"Verdy p"
 		]
 	},
 	"002ff598115d8459": "Question",
@@ -247,7 +248,7 @@
 	"2907503b867bd1d7": "Mettre en valeur comme...",
 	"29505906c12dc092": "$1 a modifié les métadonnées de l’arête.",
 	"2a9682f761b0534e": "La configuration de la messagerie n’est pas valide : plusieurs messageries ont la même clé (« $1 »). Chaque messagerie doit avoir une clé unique.",
-	"2ae72f2dd633e1db": "Nom de l'état",
+	"2ae72f2dd633e1db": "Nom de l’état",
 	"2ae7c6d6b9bad36a": "Grappe : Rechercher",
 	"2b288e88d7f8d392": "Cette modification prendra effet la prochaine fois que les démons seront redémarrés.",
 	"2bc45c6b0cf41391": "Mises à jour en masse",
@@ -1130,7 +1131,7 @@
 	"ae0eee3502343766": "Confirmation en cours",
 	"ae21d5b3d7d17ec8": "AVERTISSEMENT: échec d'extraction de chaînes du fichier \"$1\": $2",
 	"ae388a283329483d": "Valideur",
-	"ae3a599a1e596af7": "Échec du chargement de la requête enregistrée (\"$1\").",
+	"ae3a599a1e596af7": "Échec du chargement de la requête enregistrée (« $1 »).",
 	"ae49ba2832252885": "Les tâches de même priorité soivent être en FIFO.",
 	"aef3c65fe732a1c6": "Nouveau SQL de démarrage rapide écrit.",
 	"af3c8638b223480a": "Gère les problèmes d’exécution avec la configuration de la grappe.",
@@ -1150,7 +1151,7 @@
 	"b2220da98984c58c": "Échec à la fermeture du fichier « $1 ».",
 	"b25928c69902557b": "Total",
 	"b291beb8793f4f33": "Application",
-	"b2997cd591d50a4e": "Ouvrir un shell interactif.",
+	"b2997cd591d50a4e": "Ouvrir un interpréteur interactif.",
 	"b3034ec567c2321a": "Non supporté",
 	"b30f1af46545fedc": "Utiliser --id, --class, ou --min-failure-count pour sélectionner des tâches.",
 	"b315817a458e6401": "PHID généré attendu.",
