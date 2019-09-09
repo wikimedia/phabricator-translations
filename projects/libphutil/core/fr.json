@@ -8,7 +8,8 @@
 			"Patrick Star",
 			"Zetud",
 			"Krwy",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
 	"0034df47f76f0aef": "Raccourcissement de $1",
@@ -248,7 +249,7 @@
 	"4e154442bcd9f97a": "Événement inconnu $1",
 	"4e4e668a5e4ad3f8": "Analyse du JSON : $1",
 	"4f362953db0b8b39": "La sortie pour le fichier de test « $1 » n’est pas en JSON valide.",
-	"4fc01ee4b29fa717": "Utilisation mémoire : $1 Kio",
+	"4fc01ee4b29fa717": "Utilisation mémoire : $1 Ko",
 	"4ffe8476b71cac97": "$1 ne supporte pas le modificateur « $2 ».",
 	"50f5bcfb15cbd8ac": "L’hôte distant a fermé la connexion avant que la requête soit achevée.",
 	"51237d445b789389": "Une réponse JSON était attendue de WordPress.com.",
@@ -458,7 +459,7 @@
 	"932eeb1076c85e52": "Lundi",
 	"935b3abf8d10eb3c": "L’horodatage n’a pas de fuseau horaire ou de fuseau horaire de l’observateur.",
 	"93c69fbb24b05eea": "Intervalle d’itération non valide (« $1 »), il doit être au moins de 1.",
-	"93dfe888aff4635d": "Utilisation de mémoire de supervision : $1 Kio",
+	"93dfe888aff4635d": "Utilisation de mémoire de supervision : $1 Ko",
 	"9439f0409bb61aee": "Caractère à deux octets partiel.",
 	"944ec7abf47ececd": "La valeur « $1 » dans le paramètre RRULE « $2 » n’est pas valide : les valeurs doivent être des entiers.",
 	"945a88d1cbdd98dd": "Certaines règles ne peuvent jamais être atteintes par aucune production : $1",
