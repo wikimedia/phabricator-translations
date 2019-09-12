@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Noé"
 		]
 	},
 	"018514a3d58aa083": "Planning",
@@ -149,8 +150,11 @@
 	"70f5ed7d30ca197e": "$1 a supprimé $2 membre(s): $3.",
 	"7267aba5141b76e8": "$1 a activé ce projet.",
 	"72ee2fe9e6c10f46": "Information concernant l'icône du projet.",
+	"747dc3fcacb76188": "Peut créer des projets",
 	"7610152b22b68679": "Créer un nouveau projet",
 	"76f8baaa9769d2f4": "Vous suivez ce projet et vous recevrez un courriel quand l'un de ses objets sera modifié.",
+	"77c3ff2a1ce4e93d": "Réagir aux projets créés ou mis à jour.",
+	"7d1eb9b8292012f9": "Vos apports exceptionnels à ce projet fantastique vont nous manquer. Êtes-vous sûr que vous partez déjà ?",
 	"7db5c36885e06643": "Déplacer en colonne",
 	"7f50e823886c0a18": "Supprimer des projets",
 	"7f967b5475147559": "Filtre avancé...",
@@ -237,9 +241,11 @@
 	"ca7870e353b0c340": "Pas de projet trouvé.",
 	"cdc01934e544fe69": "Observateurs",
 	"cfdf670afb0730e7": "Supprimer les balises de projet",
+	"d0e66dfbbabec996": "Ajouter des tags de projet",
 	"d2a6a8d676f20876": "Désactiver les courriels du projet",
 	"d4f319b66c3d3366": "Archiver un sous-projet",
 	"d87991541dac8f0c": "Tâches de modification en masse...",
+	"da904cd0922e0b4b": "Choisir les membres du projet.",
 	"dace46d8b68796e5": "Supprimer $1 en tant qu'observateur de $2 ?",
 	"dc83472dc5dbb748": "Définir des sous-types de projets.",
 	"df27974989c88cf8": "Obtenir la liste des personnes qui suivent ce projet.",
@@ -252,6 +258,7 @@
 	"e80d850ac74a16b2": "Règle de politique projet; utilisateur de certains projets",
 	"e9bb1354dc82512d": "membres de tous les projets",
 	"ea26876daa9a0a0c": "Naturel",
+	"ec8622a6d609a4fa": "Ajouter des projets : $1.",
 	"f3ed9f606845dee1": "Membres et observateurs",
 	"f6963c1f509a72ac": "Supprimer un membre",
 	"f72039a55c1a8525": "Projets supprimés",
