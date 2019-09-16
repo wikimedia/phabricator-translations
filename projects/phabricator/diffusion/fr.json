@@ -5,7 +5,8 @@
 			"Wladek92",
 			"Zarisi",
 			"Ash Crow",
-			"Tpt"
+			"Tpt",
+			"Urhixidur"
 		]
 	},
 	"0007d61d3fd18c30": "Actions de validation",
@@ -305,7 +306,7 @@
 	"511d56b6929691a4": "L’opération par lot « $1 » de Git LFS n’est pas supportée par ce serveur.",
 	"512480821db5ca82": "Importation ($1)…",
 	"517e3d3814e064c7": "Aucun dépôt n’existe avec le PHID « $1 ».",
-	"51853c9517636935": "Aucun support de ref",
+	"51853c9517636935": "Aucune prise en charge de ref",
 	"519229094e2c0945": "Ceci n’est pas un dépôt en grappe.",
 	"52130492d06ce49d": "Le dépôt « $1 » n’a pas encore une copie de travail sur cet appareil, donc il ne peut pas être synchronisé. Attendez que les démons en construise une ou lancez `bin/repository update $2` sur cet hôte (« $3 ») pour la construire explicitement.",
 	"52358bf9b09206b4": "Détail de la validation",

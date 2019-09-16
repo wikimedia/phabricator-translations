@@ -5,7 +5,8 @@
 			"Gomoko",
 			"Wladek92",
 			"Zarisi",
-			"Athena Atterdag"
+			"Athena Atterdag",
+			"Urhixidur"
 		]
 	},
 	"09542fd1209ec021": "Phabricator fonctionne en mode silencieux.",
@@ -36,7 +37,7 @@
 	"9169b136e6c857c4": "ID de l’espace de travail Asana dans lequel publier.",
 	"9440ddf3620e1a44": "⚠ NE PAS MODIFIER CETTE TÂCHE ⚠\n☠ Vos modifications ne se répercuteront pas dans Phabricator.\n☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.",
 	"94ebdc31fea83b00": "Suppression de l’arête de la sous-tâche vers $1, l’objet étranger n’est pas visible.",
-	"95324064cecdbd4f": "Mode d'affichage de balise de Doorkeeper « $1 » non supporté. Les modes supportés sont : $2.",
+	"95324064cecdbd4f": "Mode d’affichage de balise de Doorkeeper « $1 » non pris en charge. Les modes pris en charge sont : $2.",
 	"95b7977d8579fb11": "Intégration avec Asana",
 	"96985dc4a1f89fc4": "Le travailleur portier '$1' n’est pas activé.",
 	"97000a567c110d9e": "L’objet n’a pas d’abonné ou d’utilisateurs actifs/passifs.",

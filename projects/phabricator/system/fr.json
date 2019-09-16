@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"DSwissK"
+			"DSwissK",
+			"Urhixidur"
 		]
 	},
 	"0b06f65a8ccab6ac": "L'extension « $1 » n'est pas installée sur ce système, le codage des caractères n'est donc pas pris en compte. Installez « $2 » pour activer cette fonctionnalité.",
 	"0b0eef56faff5d89": "Ce mode est actif car il est autorisé par l'option de configuration « $1 ».",
-	"24d1d3058b56700b": "Pas de support pour l'encodage",
+	"24d1d3058b56700b": "Pas de prise en charge d’encodage",
 	"2a3d3ded34ffe3e9": "il n'existe pas l'objet « $1 » .",
 	"3e3549849220a546": "$1 / heure",
 	"4f17eb3453bbf2ad": "Objet(s) détruit(s) de manière permanente: $1 .",

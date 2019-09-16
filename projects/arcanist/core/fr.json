@@ -568,7 +568,7 @@
 	"5aac3f2b187dbfef": "Impossible de localiser $1.",
 	"5b7b094137eafb0e": "N’exécuter aucun test de santé.",
 	"5b83ff8fc5da1085": "Les classes doivent dériver de `$1` ou de tout autre classe. Toutes les classes (sauf pour `$2` elle-même) doivent avoir une classe de base.",
-	"5b85c6489367b8d6": "Support de VCS manquant.",
+	"5b85c6489367b8d6": "Prise en charge de VCS manquante.",
 	"5b8ade7ec681787f": "Plus d’une révision a été trouvée dans la copie de travail :\n$1\nUtiliser '$2' pour spécifier quelle révision vous voulez corriger.",
 	"5bcde4744f50b826": "Le nom du signet $1 existe déjà ; essai d’un nouveau nom.",
 	"5bdd7e3654e9fa67": "Vous avez des modifications non validées dans cette branche. Mettez-les en place et validez-les (ou annulez-les) avant d’exécuter.",

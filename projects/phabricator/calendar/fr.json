@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"00106df7cb2c4d04": "Pas d'événements trouvés.",
@@ -282,7 +283,7 @@
 	"a1301377fd8bce05": "$1 a renommé cette importation de $2 en $3.",
 	"a15e435c9663d551": "Congé",
 	"a1bda7402b8f60cf": "Créer une nouvelle importation",
-	"a1c83f01ab32b0f7": "Un événement avec une règle de fréquence non supportée (« $1 ») a été ignoré. Les événements qui se répètent plus fréquemment que quotidiennement ne sont pas supportés.",
+	"a1c83f01ab32b0f7": "Un événement avec une règle de fréquence non prise en charge (« $1 ») a été ignoré. Les événements qui se répètent plus fréquemment que quotidiennement ne sont pas pris en charge.",
 	"a38cc1b1236fcff2": "DESCRIPTION DE L’ÉVÉNEMENT",
 	"a3cceca95492d1c8": "Rendre récurrent",
 	"a3e280a74efffd10": "Modifier seulement cet événement",
