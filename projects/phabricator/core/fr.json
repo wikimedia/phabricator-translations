@@ -86,7 +86,7 @@
 	"0bdb6bfbc21bd25a": "Ancienne valeur",
 	"0be720759ff04d13": "Révoquer",
 	"0c07406cd7e66f05": "Il n'existe pas de tâche ayant pour identifiant «$1» !",
-	"0c1e4a6a2e142983": "cette requête (« $1 ») ne prend pas en charge le tri par la clé d’ordre « $2 ». Les ordres pris en charge sont : $3.",
+	"0c1e4a6a2e142983": "Cette requête (« $1 ») ne prend pas en charge le tri par la clé d’ordre « $2 ». Les ordres pris en charge sont : $3.",
 	"0c3662bb45359e8d": "Vous essayez d’enregistrer certaines données dans Phabricator, mais la requête qu’a faite votre navigateur inclus un jeton non correct. Rechargez la page et réessayez. Vous devrez peut-être nettoyer vos cookies.",
 	"0c73318c4ba0551c": "Un horodatage epoch, sous forme d’entier.",
 	"0c95a57fdd388c34": "$1 est déjà archivé, et ne peut être annulé.",
