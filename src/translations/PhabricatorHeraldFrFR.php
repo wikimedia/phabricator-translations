@@ -17,7 +17,7 @@ final class PhabricatorHeraldFrFR
       'Webhook ID to call' => 'ID du point d\'ancrage web à appeler',
       'Invalid Targets' => 'Cibles non valides',
       '(Invalid List)' => '(Liste non valide)',
-      '(Unknown Action "%s") equals' => '(Action «&nbsp;%s&nbsp;» non valide) est égale à',
+      '(Unknown Action "%s") equals' => '(Action inconnue « %s ») est égale à',
       'Herald field "%s" has unknown standard type "%s".' => 'Le champ «&nbsp;%s&nbsp;» a  un type standard «&nbsp;%s&nbsp;» inconnu.',
       'Object rules inherit the edit policies of their objects.' => 'Les règles d’objets héritent des politiques d’édition de leurs objets.',
       'This is an old transcript which uses an obsolete log format. Detailed action information is not available.' => 'Ceci est une ancienne transcription qui utilise un format de registre obsolète. Aucune information d’action détaillée disponible.',

@@ -45,7 +45,7 @@ final class PhabricatorConduitFrFR
       'Use the %s panel in Settings to generate or manage API tokens.' => 'Utiliser le panneau %s dans les Paramètres pour générer ou gérer les jetons d’API.',
       'Conduit' => 'Conduit',
       'Basic ping for monitoring or a health-check.' => 'Ping élémentaire de gestion ou bien contrôle de bon fonctionnement.',
-      'The value for parameter \'%s\' is not valid JSON. All parameters must be encoded as JSON values, including strings (which means you need to surround them in double quotes). Check your syntax. Value was: %s.' => 'La valeur pour le paramètre \'%s\' n’est pas du JSON valide. Tous les paramètres doivent être encodés comme des valeurs JSON, y compris les chaînes (ce qui veut dire que vous devez les entourer de guillemets).
+      'The value for parameter \'%s\' is not valid JSON. All parameters must be encoded as JSON values, including strings (which means you need to surround them in double quotes). Check your syntax. Value was: %s.' => 'La valeur pour le paramètre \'%s\' n’est pas du JSON valide. Tous les paramètres doivent être encodés comme des valeurs JSON, y compris les chaînes (ce qui veut dire que vous devez les entourer de guillemets anglais).
     Vérifiez votre syntaxe. La valeur était : %s.',
       'An integer.' => 'Un entier.',
       'The key which signed this request is not trusted. Only trusted keys can be used to sign API calls.' => 'La clé qui a signé cette requête n’est pas fiable. Seules les clés de confiance peuvent être utilisées pour signer les appels à l’API.',

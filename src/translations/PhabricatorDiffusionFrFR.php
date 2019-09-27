@@ -339,7 +339,7 @@ final class PhabricatorDiffusionFrFR
       'Git LFS batch operation "%s" is not supported by this server.' => 'L’opération par lot « %s » de Git LFS n’est pas supportée par ce serveur.',
       'Importing (%s)...' => 'Importation (%s)…',
       'No repository exists with PHID "%s".' => 'Aucun dépôt n’existe avec le PHID « %s ».',
-      'No Ref Support' => 'Aucun support de ref',
+      'No Ref Support' => 'Aucune prise en charge de ref',
       'This is not a cluster repository.' => 'Ceci n’est pas un dépôt en grappe.',
       'Repository "%s" does not have a working copy on this device yet, so it can not be synchronized. Wait for the daemons to construct one or run `bin/repository update %s` on this host ("%s") to build it explicitly.' => 'Le dépôt « %s » n’a pas encore une copie de travail sur cet appareil, donc il ne peut pas être synchronisé. Attendez que les démons en construise une ou lancez `bin/repository update %s` sur cet hôte (« %s ») pour la construire explicitement.',
       'Commit Detail' => 'Détail de la validation',

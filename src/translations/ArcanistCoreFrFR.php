@@ -152,7 +152,7 @@ final class ArcanistCoreFrFR
       '`%s` methods cannot contain a body. This construct will cause a fatal error.' => 'Les méthodes `%s` ne peuvent pas contenir de corps. Cette construction provoquera une erreur fatale.',
       'Install PEP8 using `%s`.' => 'Installer PEP8 en utilisant `%s`.',
       'Aborted workflow to fix UTF-8.' => 'Flux de travail annulé pour corriger UTF-8.',
-      'Aliased "%s" to shell command "%s".' => 'Alias « %s » créé pour la commande shell « %s ».',
+      'Aliased "%s" to shell command "%s".' => 'Alias « %s » créé pour la commande d’interpréteur « %s ».',
       'This codebase targets PHP %s, but `%s()` was removed in PHP %s.' => 'Ce code base cible PHP %s, mais `%s()` a été supprimé en PHP %s.',
       '(This is a custom option for this project.)' => '(Ceci est une option personnelle pour ce projet).',
       'Specify only one paste to retrieve.' => 'Spécifier seulement un collage à récupérer.',
@@ -599,7 +599,7 @@ final class ArcanistCoreFrFR
       'Unable to locate %s.' => 'Impossible de localiser %s.',
       'Do not run any sanity checks.' => 'N’exécuter aucun test de santé.',
       'Classes should extend from `%s` or from some other class. All classes (except for `%s` itself) should have a base class.' => 'Les classes doivent dériver de `%s` ou de tout autre classe. Toutes les classes (sauf pour `%s` elle-même) doivent avoir une classe de base.',
-      'Missing VCS support.' => 'Support de VCS manquant.',
+      'Missing VCS support.' => 'Prise en charge de VCS manquante.',
       'More than one revision was found in the working copy:
     %s
     Use \'%s\' to specify which revision you want to amend.' => 'Plus d’une révision a été trouvée dans la copie de travail :
@@ -928,7 +928,7 @@ final class ArcanistCoreFrFR
       'HEAD has been amended with \'Differential Revision:\', as specified by \'%s\' in your %s \'base\' configuration.' => 'HEAD a été corrigé avec \'Révision différentielle :\', comme spécifié par \'%s\' dans votre configuration de \'base\' %s.',
       'Untracked changes in working copy:' => 'Modifications non tracées dans la copie de travail :',
       'Nothing could attach data to hardpoint "%s" for ref "%s".' => 'Rien ne peut attacher des données au point en dur « %s » pour la référence « %s ».',
-      '"%s" is currently aliased to shell command "%s".' => '« %s » est actuellement un alias de la commande shell « %s ».',
+      '"%s" is currently aliased to shell command "%s".' => '« %s » est actuellement un alias de la commande d’interpréteur « %s ».',
       'Then paste the API Token on that page below.' => 'Puis coller le jeton de l’API sur cette page ci-dessous.',
       'LINT ERRORS' => 'ERREURS DE LINT',
       'Base revisions of changed paths are mismatched. Update all paths to the same base revision before creating a diff: 
@@ -958,7 +958,7 @@ final class ArcanistCoreFrFR
       'When creating a revision, add reviewers.' => 'Lors de la création d’une révision, ajouter des relecteurs.',
       'Trailing Whitespace' => 'Espace de fin',
       'Expected \'\\ No newline at end of file\'.' => '\'\\ No newline at end of file\' attendu.',
-      'Unnecessary Double Quotes' => 'Guillemets inutiles',
+      'Unnecessary Double Quotes' => 'Guillemets anglais inutiles',
       '%s doesn\'t exist.
     ' => '%s n’existe pas.',
       '%s suppresses unassigned' => '%s supprime les non affectés',
@@ -1166,7 +1166,7 @@ final class ArcanistCoreFrFR
       'Unable to Parse' => 'Impossible d’analyser',
       'Fetch failed! Fix the error and run "%s" again.' => 'Échec de la récupération ! Corriger l’erreur et relancer « %s ».',
       'Follow naming conventions: class properties should be named using `%s`.' => 'Suivre les conventions de nommage : les propriétés de classe doivent être nommées selon `%s`.',
-      'Shell Command' => 'Commande shell',
+      'Shell Command' => 'Commande d’interpréteur',
       'Ruby' => 'Ruby',
       'Convention: comma should be followed by space.' => 'Convention : une virgule doit être suivie d’un espace.',
       'None of the rules in your \'base\' configuration matched a valid commit. Adjust rules or specify which commit you want to use explicitly.' => 'Aucune des règles dans votre configuration de \'base\' ne correspond à une validation valide. Ajustez les règles ou spécifiez explicitement quelle validation vous voulez utiliser.',

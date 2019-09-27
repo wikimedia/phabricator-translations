@@ -290,7 +290,7 @@ final class PhabricatorCalendarFrFR
       '%s renamed this import from %s to %s.' => '%s a renommé cette importation de %s en %s.',
       'Holiday' => 'Congé',
       'Create New Import' => 'Créer une nouvelle importation',
-      'Ignored an event with an unsupported frequency rule ("%s"). Events which repeat more frequently than daily are not supported.' => 'Un événement avec une règle de fréquence non supportée (« %s ») a été ignoré. Les événements qui se répètent plus fréquemment que quotidiennement ne sont pas supportés.',
+      'Ignored an event with an unsupported frequency rule ("%s"). Events which repeat more frequently than daily are not supported.' => 'Un événement avec une règle de fréquence non prise en charge (« %s ») a été ignoré. Les événements qui se répètent plus fréquemment que quotidiennement ne sont pas pris en charge.',
       'EVENT DESCRIPTION' => 'DESCRIPTION DE L’ÉVÉNEMENT',
       'Make Recurring' => 'Rendre récurrent',
       'Edit Only This Event' => 'Modifier seulement cet événement',

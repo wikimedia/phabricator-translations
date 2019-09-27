@@ -11,7 +11,7 @@ final class PhabricatorSystemFrFR
     return array(
       'This system does not have the "%s" extension installed, so character encodings are not supported. Install "%s" to enable support.' => 'L\'extension « %s » n\'est pas installée sur ce système, le codage des caractères n\'est donc pas pris en compte. Installez « %s » pour activer cette fonctionnalité.',
       'This mode is active because it is enabled in the configuration option "%s".' => 'Ce mode est actif car il est autorisé par l\'option de configuration « %s ».',
-      'No Encoding Support' => 'Pas de support pour l\'encodage',
+      'No Encoding Support' => 'Pas de prise en charge d’encodage',
       'No such object "%s" exists!' => 'il n\'existe pas l\'objet « %s » .',
       '%d / hour' => '%s / heure',
       'Permanently destroyed %s object(s).' => 'Objet(s) détruit(s) de manière permanente: %s .',

@@ -20,6 +20,8 @@ final class PhabricatorTokensFrFR
       'Barnstar' => 'Barnstar',
       'Award "%s" Token' => 'Gratifier « %s » d\'un jeton',
       'Give or change a token.' => 'Donner ou changer un jeton',
+      'Award Token' => 'Fournir un jeton',
+      '"%s" token, awarded by %s.' => '"%s" jeton, géré par %s.',
       'Manufacturing Defect?' => 'Fabriquer un défaut ?',
       'Stroopwafel' => 'Gaufrette',
       'Tokens Given' => 'Jetons donnés',

@@ -102,6 +102,7 @@ final class PhabricatorPeoplePtBR
       '%s renamed this user from %s to %s.' => '%s renomeou este usuário de %s para %s.',
       'Approve the user.' => 'Aprovar o usuário.',
       'Edit Profile Picture' => 'Edite a foto de perfil',
+      'Projects (%s)' => 'Projetos (%s)',
       'Save Profile' => 'Salvar perfil',
       'You do not have permission to disable or enable users.' => 'Você não tem permissão para desativar ou ativar usuários.',
       'No recent revisions.' => 'Nenhuma revisão recente.',

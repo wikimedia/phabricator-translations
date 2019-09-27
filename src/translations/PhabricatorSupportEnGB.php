@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorSupportFrFR
+final class PhabricatorSupportEnGB
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'fr_FR';
+    return 'en_GB';
   }
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Soutien',
+      'Support' => 'Support',
     );
   }
 
