@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"FF11",
+			"Tobi 406"
+		]
+	},
+	"08551bfd5a6bcbf3": "Typeahead-Ergebnisse",
+	"170409168d52d100": "Typeahead",
+	"20ff1176780f707c": "Die Datenquelle (\"$1\") konnte die Funktion \"$2(...)\" nicht evaluieren.",
+	"24725aa7bb11e312": "Funktionshilfe",
+	"3ecdb4ea82e2c72e": "Ungültige Parameter",
+	"445f05dd9fa1f619": "Quell-Klasse",
+	"551b51aa4c4293ad": "Tokenergebnisse ($1)",
+	"83976820002041a5": "Referenz: Fortgeschrittene Funktionen",
+	"83baedc7037c882f": "Bild-URI",
+	"8598222918d3c6e5": "Auswählen",
+	"8d6b34815ba43d25": "Anzeigename",
+	"9d3d21faa06febbe": "Unfähig, die Funktion und die Argumente für den Token \"$1\" zu parsen.",
+	"a37d2706eddada6e": "Ungültige Funktion: $1",
+	"a62bbd6f671f2a93": "Weitere Ergebnisse",
+	"ec617c453f59f5aa": "Nummern durchsuchen"
+}
