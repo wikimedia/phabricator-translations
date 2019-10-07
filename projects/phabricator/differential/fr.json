@@ -8,7 +8,8 @@
 			"Zarisi",
 			"Cquoi",
 			"Derugon",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
 	"0063efbde77d19e7": "Vérifier que tout est correct avec le diff. Quand vous serez satisfait, **créez une nouvelle révision** ou **mettez à jour une révision existante**.",
@@ -807,7 +808,7 @@
 	"ee108267d446e0fb": "Ce fichier binaire a été supprimé après avoir été copié en $1.",
 	"ee109ca57bf61d2c": "Désactiver la réouverture",
 	"ee30a097b1b7bdd2": "Répondre et citer le commentaire inclus sélectionné.",
-	"ee40d32853f9d0bf": "Type de dépôt « $1 » inconnu. Les types pris en charge sont: $2.",
+	"ee40d32853f9d0bf": "Type de dépôt « $1 » inconnu. Les types pris en charge sont : $2.",
 	"ee445cccba506c37": "Modifications demandées à",
 	"ef0b1d16d928ce9e": "Differential a un champ 'Plan de test' obligatoire par défaut. Vous pouvez le rendre facultatif en mettant ceci à faux. Vous pouvez aussi complètement le supprimer ci-dessus, si vous préférez.",
 	"ef1871eade43a33a": "Masquer toutes les inclusions",
