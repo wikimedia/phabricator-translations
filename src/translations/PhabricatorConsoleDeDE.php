@@ -9,7 +9,7 @@ final class PhabricatorConsoleDeDE
 
   protected function getTranslations() {
     return array(
-      'Event Type' => 'Eventtyp',
+      'Event Type' => 'Ereignistyp',
       'Internal ID' => 'Interne ID',
       'Site' => 'Seite',
       '+%s ms' => '+%s ms',

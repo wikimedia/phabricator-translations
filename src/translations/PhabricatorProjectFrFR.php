@@ -111,7 +111,7 @@ final class PhabricatorProjectFrFR
       'Project Picture' => 'Image du projet',
       'Watch Project' => 'Suivre le projet',
       'Watching Ancestor' => 'Voir les ancêtres',
-      'Support for Projects' => 'Soutien des projets',
+      'Support for Projects' => 'Prises en charge pour les projets',
       'This One Is Purple' => 'Celui-ci est pourpre',
       'Projects being edited' => 'Projets en cours de modification',
       'Source Workboard Has No Columns' => 'Le tableau de travail source n\'a pas de colonnes',

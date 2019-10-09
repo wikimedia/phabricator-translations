@@ -53,7 +53,7 @@ final class PhabricatorDoorkeeperFrFR
     ☠ Vos modifications ne se répercuteront pas dans Phabricator.
     ☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Suppression de l’arête de la sous-tâche vers %s, l’objet étranger n’est pas visible.',
-      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d’affichage de balise de Doorkeeper « %s » non pris en charge. Les modes pris en charge sont : %s.',
+      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d’affichage de balise de Doorkeeper « %s » non pris en charge. Les modes pris en charge sont : %s.',
       'Integration with Asana' => 'Intégration avec Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Le travailleur portier \'%s\' n’est pas activé.',
       'Object has no followers or active/passive users.' => 'L’objet n’a pas d’abonné ou d’utilisateurs actifs/passifs.',

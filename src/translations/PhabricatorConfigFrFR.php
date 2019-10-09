@@ -110,7 +110,7 @@ final class PhabricatorConfigFrFR
       'No "Host" Header' => 'Pas d\'entête « hôte »',
       'Do not install Phabricator on an instance class with burstable CPU.' => 'Ne pas installer Phabricator sur une classe d\'instance avec une CPU extensible.',
       'Activity "%s" did not need to be marked as complete.' => 'L’activité « %s » ne nécessite pas d’être marquée comme terminée.',
-      'The translation implementation has changed and providers are no longer used or supported.' => 'L’implémentation de la traduction a été modifiée, et les fournisseurs ne sont plus utilisés ni pris en charge.',
+      'The translation implementation has changed and providers are no longer used or supported.' => 'La mise en œuvre de la traduction a été modifiée et les fournisseurs ne sont plus utilisés ni pris en charge.',
       'Option "%s" is of type "%s", but the value you provided is not a valid JSON list. When setting a list option from the command line, specify the value in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'L’option « %s » est de type « %s », mais la valeur que vous avez fournie n’est pas une liste JSON valide. Lorsque vous définissez une option de liste depuis la ligne de commande, spécifiez la valeur en JSON. Vous devrez mettre votre valeur entre guillemets anglais pour votre interpréteur (par exemple : \'["a", "b", ...]\').',
       'The minimum supported version of Mercurial is 1.9, which was released in 2011.' => 'La version minimale supportée de Mercurial est 1.9, qui a été livrée en 2011.',
       'Format for the SSH access log. Use %s to set the path. Available variables are:' => 'Format pour le journal d’accès SSH. Utiliser %s pour définir le chemin. Les variables disponibles sont :',
@@ -398,7 +398,7 @@ final class PhabricatorConfigFrFR
       'Wrong Nullable Setting' => 'Mauvais paramétrage de nul possible.',
       'Secret key for Amazon S3.' => 'Clé secrète pour Amazon S3.',
       'You are using an old version of MySQL (on host "%s") which has poor unicode support (it does not support the "utf8mb4" collation set). You will encounter limitations when working with some unicode data.
-    We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'Vous utilisez une ancienne version de MySQL (sur l’hôte « %s ») qui a une faible prise en charge d’Unicode (ne prend pas en compte le jeu de caractères « utf8mb4 »). Vous rencontrerez des limites en travaillant avec certaines données en Unicode.
+    We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'Vous utilisez une ancienne version de MySQL (sur l’hôte « %s ») dont la prise en charge d’Unicode est faible (ne prend pas en charge le jeu de collation « utf8mb4 »). Vous rencontrerez des limites en travaillant avec certaines données en Unicode.
     Nous vous recommandons fortement de vous mettre à jour vers MySQL 5.5 ou plus récent.',
       'Trying to add duplicate column "%s"!' => 'Tentative pour ajouter la colonne dupliquée « %s » !',
       'The Multimeter application collects performance samples. You can use this data to help you understand what Phabricator is spending time and resources doing, and to identify problematic access patterns.
@@ -464,7 +464,7 @@ final class PhabricatorConfigFrFR
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch est maintenant configuré avec « %s ».',
       'Configuring Outbound Email' => 'Configuration du courriel de sortie',
       'Inbound mail addresses are now configured for each application in the Applications tool.' => 'Les adresses de messagerie de réception sont maintenant configurées pour chaque application dans l’outil Applications.',
-      'Partial \'%s\' Support' => 'Prise en charge partielle de \'%s\'',
+      'Partial \'%s\' Support' => 'Prise en charge partielle de « %s »',
       'Subschemata have setup warnings.' => 'Subschemata a des avertissements d’installation.',
       'Uptime' => 'Durée de fonctionnement',
       'Normally, Phabricator profiles pages only when explicitly requested via DarkConsole. However, it may be useful to profile some pages automatically.
@@ -672,9 +672,9 @@ final class PhabricatorConfigFrFR
       'IMPORTANT: The upstream does not provide support for prototype applications.
     Phabricator includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing Phabricator or are interested in previewing upcoming features.
     To learn more about prototypes, see [[ %s | %s ]].
-    After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'IMPORTANT: Le flux amont ne prend pas en charge les applications prototype.
-    Phabricator inclut des applications prototype qui sont dans un **état précoce de développement**. Par défaut, les applications prototype ne sont pas installées, parce qu’elles ne sont souvent pas encore suffisamment développées pour être utilisables. Vous pouvez activer cette option pour les installer si vous développez Phabricator ou êtes intéressé par un aperçu des fonctionnalités à venir.
-    Pour en savoir plus sur les prototypes, voir [[ %s | %s ]].
+    After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'IMPORTANT : le flux amont ne prend pas en charge les applications prototype.
+    Phabricator inclut des applications prototype qui sont dans un **état précoce de développement**. Par défaut, les applications prototype ne sont pas installées, parce qu’elles ne sont souvent pas encore suffisamment développées pour être utilisables. Vous pouvez activer cette option pour les installer si vous développez Phabricator ou si vous êtes intéressé par un aperçu des fonctionnalités à venir.
+    Pour en savoir plus sur les prototypes, voir [[%s|%s]].
     Après avoir activé les prototypes, vous pouvez les désinstaller unitairement (comme des applications normales).',
       'For conduit, the Conduit method which was invoked.' => 'Pour un conduit, la méthode Conduit qui a été invoquée.',
       'The configured PATH includes a component which is not usable. Phabricator will be unable to find or execute binaries located here:
@@ -925,7 +925,7 @@ final class PhabricatorConfigFrFR
       'Internal.' => 'Interne.',
       'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.' => 'Phabricator peut mettre en évidence le PHP par défaut et utiliser Pygments pour d’autres langages, s’il est activé. Vous pouvez fournir un moteur de mise en évidence personnalisé en étendant la classe %s.',
       'SSH log format.' => 'Format du journal SSH.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator may not be able to determine the MIME types of uploaded files.' => 'L’extension \'%s\' n’est pas installée. Sans la prise en charge de \'%s\', Phabricator pourrait ne pas pouvoir déterminer les types MIME des fichiers téléversés.',
+      'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator may not be able to determine the MIME types of uploaded files.' => 'L’extension « %s » n’est pas installée. Sans la prise en charge de « %s », Phabricator pourrait ne pas pouvoir déterminer les types MIME des fichiers téléversés.',
       'Default address used when generating mail.' => 'Adresse pas défaut utilisée lors de la génération d’un courriel.',
       'Learn more about locked and hidden options.' => 'En savoir plus sur les options verrouillées et cachées.',
       'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. Phabricator must be installed on an entire domain; it can not be installed on a path.' => 'L’option de configuration \'%s\' n’est pas valide. L’URI ne doit PAS avoir un chemin, par ex. \'%s\' est OK, mais \'%s\' ne l’est pas. Phabricator doit être installé sur un domaine entier ; il ne peut pas être installé dans un chemin.',
@@ -949,7 +949,7 @@ final class PhabricatorConfigFrFR
       'Expected Autoincrement' => 'Incrémentation automatique autorisée',
       'This version of Mercurial has a significant memory leak, fixed in 2.2.1. Pushing fails with this version as well; see %s.' => 'Cette version de Mercurial a une fuite mémoire importante, corrigée en 2.2.1. Pousser avec cette version échoue aussi ; voir %s.',
       'MySQL is configured (on host "%s") to only index words with at least %d characters.' => 'MySQL est configuré (sur l’hôte « %s ») pour n’indexer que les mots avec au moins %s caractères.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'L’extension \'%s\' n’est pas installée. Sans la prise en charge de \'%s\', Phabricator ne pourra pas traiter ou redimensionner les images (par exemple, pour générer des vignettes). Installer ou activer \'%s\'.',
+      'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'L’extension « %s » n’est pas installée. Sans prise en charge de « %s », Phabricator ne pourra ni traiter ni redimensionner les images (par exemple, pour générer des vignettes). Installez ou activez « %s ».',
       'Phabricator Setup Error' => 'Erreur d’installation de Phabricator',
       'Major Web/Database Clock Skew' => 'Décalage majeur des horloges entre le web et la base de données',
       'No repository cluster services are configured.' => 'Aucun service de grappe de dépôt n’est configuré.',
@@ -1042,7 +1042,7 @@ final class PhabricatorConfigFrFR
       'Keys' => 'Clés',
       'No Auth Providers' => 'Aucun fournisseur d’authentification',
       'Missing Required Extensions' => 'Extensions obligatoires manquantes',
-      'The \'%s\' extension has support for only some image types. Phabricator will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => 'L’extension \'%s\' ne prend en charge que certains types d’images. Phabricator ne pourra pas traiter les images des types manquants tant que vous ne compilez pas \'%s\' avec la prise en charge de ceux-ci. Types pris en charge : %s. Types manquants : %s.',
+      'The \'%s\' extension has support for only some image types. Phabricator will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => 'L’extension « %s » ne prend en charge que certains types d’images. Phabricator ne pourra pas traiter les images des types manquants tant que vous ne compilez pas « %s » avec la prise en charge de ceux-ci. Types pris en charge : %s. Types manquants : %s.',
       'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.' => 'Cette option a été migrée depuis l’application « Auth ». Votre ancienne configuration est encore active, mais est maintenant stockée dans « Auth » au lieu de la configuration. En allant plus loin, vous pourrez gérer l’authentification depuis l’IHM web.',
       '- at %s' => '- à %s',
       'Activity "%s" is not currently marked as required, so there is no need to complete it.' => 'L’activité « %s » n’est pas actuellement marquée comme obligatoire, donc il n’est pas nécessaire de la terminer.',
@@ -1102,7 +1102,7 @@ final class PhabricatorConfigFrFR
     Phabricator will work with the older driver, but upgrading to the native driver is recommended.
     You may be able to install the native driver with a command like: %s' => 'PHP utilise actuellement l’ancien pilote MySQL externe au lieu du nouveau pilote MySQL natif. L’ancien pilote n’a pas les options et fonctionnalités (comme la prise en charge des durées limite de requête) qui permettraient à Phabricator de mieux interagir avec la base de données.
     Phabricator fonctionnera avec l’ancien pilote, mais une mise à jour vers le nouveau pilote est recommandée.
-    Vous pouvez installer le pilote natif avec une commande comme : %s',
+    Vous pouvez installer le pilote natif avec une commande comme : %s',
       'Setup issues to ignore.' => 'Problèmes d’installation à ignorer.',
       'By default, Phabricator links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Par défaut, Phabricator lie les noms d’objet dans les champs de Remarkup à l’objet correspondant. Cette expression régulière peut être utilisée pour modifier ce comportement ; les noms d’objet qui correspondent à cette expression régulière ne seront pas liés.',
       'Directory that the daemons should use to store log files.' => 'Répertoire que les démons doivent utiliser pour stocker les fichiers de trace.',

@@ -983,7 +983,7 @@ final class PhabricatorDifferentialFrFR
       'This binary file was deleted after being copied to %s.' => 'Ce fichier binaire a été supprimé après avoir été copié en %s.',
       'Disable reopen' => 'Désactiver la réouverture',
       'Reply and quote selected inline comment.' => 'Répondre et citer le commentaire inclus sélectionné.',
-      'Storage type "%s" is unknown. Supported types are: %s.' => 'Type de dépôt « %s » inconnu. Les types pris en charge sont: %s.',
+      'Storage type "%s" is unknown. Supported types are: %s.' => 'Type de dépôt « %s » inconnu. Les types pris en charge sont : %s.',
       'Requested Changes To' => 'Modifications demandées à',
       'Differential has a required \'Test Plan\' field by default. You can make it optional by setting this to false. You can also completely remove it above, if you prefer.' => 'Differential a un champ \'Plan de test\' obligatoire par défaut. Vous pouvez le rendre facultatif en mettant ceci à faux. Vous pouvez aussi complètement le supprimer ci-dessus, si vous préférez.',
       'Hide All Inlines' => 'Masquer toutes les inclusions',

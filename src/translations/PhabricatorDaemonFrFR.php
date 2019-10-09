@@ -9,25 +9,25 @@ final class PhabricatorDaemonFrFR
 
   protected function getTranslations() {
     return array(
-      'There are no running daemons to reload.' => 'Il n’y a pas de démon s’exécutant à recharger.',
+      'There are no running daemons to reload.' => 'Il n’y a aucun démon en cours d’exécution à recharger.',
       'Temporary Failures' => 'Erreurs temporaires',
       'Show only local daemons.' => 'Afficher seulement les démons locaux.',
       'Clock' => 'Horloge',
       'Leased' => 'Emprunté',
-      'Unable to stop processes running without PID files. Try running this command again with sudo.' => 'Impossible d’arrêter les processus tournant sans fichiers PID. Essayez de relancer cette commande avec sudo.',
+      'Unable to stop processes running without PID files. Try running this command again with sudo.' => 'Impossible d’arrêter les processus qui s’exécutent sans fichiers PID. Essayez de relancer cette commande avec sudo.',
       'Starting daemons as %s' => 'Démarrage des démons en tant que %s',
-      'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Redémarrer aimablement les processus démon sur place pour prendre en compte les modifications dans les sources. Cela ne perturbera pas les tâches s’exécutant. C’est un processus avancé ; la plupart es installations devraient utiliser __%s__.',
+      'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Redémarrer aimablement les processus démon sur place pour prendre en compte les modifications dans les sources. Cela ne perturbera pas les tâches en cours d’exécution. C’est un processus avancé ; la plupart des installations devraient utiliser __%s__.',
       'Retries' => 'Nouvelles tentatives',
       'Shutting Down' => 'En cours d’arrêt',
       'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'Ce démon n’a pas signalé de mise à jour d’état récente (pendant %s). Il peut s’être terminé brutalement. Après %s, il sera présumé mort.',
-      'This daemon has been lost or exited uncleanly, and is presumed dead.' => 'Ce démon a été perdu ou ne s’est pas arrêté proprement; il est supposé mort.',
-      'Terminating process %d...' => 'Tâche se terminant %s...',
+      'This daemon has been lost or exited uncleanly, and is presumed dead.' => 'Ce démon a été perdu ou ne s’est pas arrêté proprement et est présumé mort.',
+      'Terminating process %d...' => 'Terminaison de la tâche %s...',
       'Running as' => 'Exécution en tant que',
-      'No daemons match \'%s\'! Use \'%s\' for a list of available daemons.' => 'Aucun démon ne correspond à \'%s\' ! Utiliser \'%s\' pour une liste des démons disponibles.',
+      'No daemons match \'%s\'! Use \'%s\' for a list of available daemons.' => 'Aucun démon ne correspond à « %s » ! Utiliser « %s » pour une liste des démons disponibles.',
       'Overseer' => 'Superviseur',
       'No such daemon "%s"!' => 'Pas de démon « %s » !',
       'Archived Tasks' => 'Tâches archivées',
-      'No tasks have completed in the last 15 minutes.' => 'Aucune tâche ne s\'est terminée dans le dernier quart d’heure.',
+      'No tasks have completed in the last 15 minutes.' => 'Aucune tâche ne s’est terminée dans le dernier quart d’heure.',
       'Task Class' => 'Classe de tâche',
       'Queued Tasks' => 'Tâches dans la file',
       'This daemon is shutting down.' => 'Ce démon est en cours d’arrêt.',
@@ -38,13 +38,13 @@ final class PhabricatorDaemonFrFR
       'Daemon %d %s [%s] %s' => 'Démon %s %s [%s] %s',
       'There are processes running that look like Phabricator daemons but have no corresponding PID files:
     %s
-    Stop these processes by re-running this command with the %s parameter.' => 'Il y a des processus qui tournent et qui ressemblent à des démons de Phabricator, mais qui n’ont pas de fichiers PID correspondant :
+    Stop these processes by re-running this command with the %s parameter.' => 'Des processus ressemblant à des démons de Phabricator sont en cours d’exécution, mais n’ont pas de fichiers PID correspondant :
     %s
     Arrêter ces processus en relaçant cette commande avec le paramètre %s.',
-      'There are no upcoming event triggers.' => 'Il n\'y a pas de déclencheur d’événement imminent.',
+      'There are no upcoming event triggers.' => 'Il n’y a aucun déclencheur d’événement imminent.',
       'You must specify which daemon to launch.' => 'Vous devez spécifier quel démon lancer.',
-      'Run the daemon as the current user instead of the configured %s' => 'Lancer le démon avec l’utilisateur actuel plutôt que celui configuré, %s',
-      'There are no running Phabricator daemons.' => 'Il n’y a pas de démons Phabricator en exécution.',
+      'Run the daemon as the current user instead of the configured %s' => 'Lancer le démon avec l’utilisateur actuel plutôt que celui (%s) configuré',
+      'There are no running Phabricator daemons.' => 'Aucun démon Phabricator n’est en cours d’exécution.',
       'Enabling the lock log.' => 'Activer le journal des verrous.',
       'Reloading process %d...' => 'Rechargement du processus %s…',
       'Lock Logs' => 'Journaux des verrous',
@@ -118,6 +118,7 @@ final class PhabricatorDaemonFrFR
       'View Full Logs' => 'Voir les journaux complets',
       'Lease Owner' => 'Détenteur du bail',
       '%s requires the directory \'%s\' to exist, but it does not exist and could not be created. Create this directory or update \'%s\' / \'%s\' in your configuration to point to an existing directory.' => '%s a besoin que le répertoire \'%s\' existe, mais ce n’est pas le cas et il est impossible de le créer. Créez ce répertoire ou mettez à jour \'%s\'/\'%s\' dans votre configuration pour pointer vers un répertoire existant.',
+      'Average Queue Time' => 'Délai moyen d’attente',
       'This job is running.' => 'Cette tâche est en cours.',
       'Show a specific number of log messages (default 100).' => 'Afficher un nombre spécifique de messages de trace (100 par défaut).',
       'Start Work' => 'Commencer le travail',
@@ -146,9 +147,11 @@ final class PhabricatorDaemonFrFR
       'This daemon did not report a status update for %s. It is presumed dead. Usually, this indicates that the daemon was killed or otherwise exited abruptly with an error. You may need to restart it.' => 'Ce démon n’a pas signalé de mise à jour d’état depuis %s. Il est présumé mort. En général, cela indique que le démon a été tué ou s’est terminé brutalement avec une erreur. Vous pourriez avoir à le redémarrer.',
       'Process %d exited.' => 'Le processus %s s’est terminé.',
       'This daemon is running normally and reported a status update recently (within %s).' => 'Ce démon tourne normalement et a indiqué récemment une mise à jour d’état (durant %s).',
+      'Average Duration' => 'Durée moyenne',
       'Daemons are configured to run as user "%s" in configuration option `%s`, but the current user is "%s" and `phd` was unable to switch to the correct user with `sudo`. Command output:
     %s' => 'Les démons sont configurés pour s’exécuter avec l’utilisateur « %s » dans l’option de configuration `%s`, mais l’utilisateur actuel est « %s » et `php` n’a pas été capable de basculer vers le bon utilisateur avec `sudo`. Sortie de la commande :
     %s',
+      'No log records exist for any daemons.' => 'Il n’existe aucun enregistrement de journal pour tout démon.',
       'View Task' => 'Afficher la tâche',
       'Daemon Processes' => 'Processus démons',
       'PID "%d" is not a known Phabricator daemon PID.' => 'Le PID « %s » n’est pas un PID de démon Phabricator connu.',
@@ -181,6 +184,7 @@ final class PhabricatorDaemonFrFR
     Phabricator est configuré pour lancer les démons en tant que «  %s  », mais l’utilisateur actuel est «  %s  ». 
     Utiliser `%s` pour lancer avec un autre utilisateur, passer `%s` pour ignorer cet avertissement, ou modifier `%s` pour changer la configuration.',
       'No More Retries' => 'Plus de nouvelles tentatives.',
+      'No log record exists for a daemon with ID "%s".' => 'Il n’existe aucun enregistrement de journal pour le démon avec l’ID « %s ».',
       '<DEAD> %s' => '<DEAD> %s',
       'Task %d Missing' => 'Tâche %s manquante',
       'Task queue is empty.' => 'La file des tâches est vide.',
