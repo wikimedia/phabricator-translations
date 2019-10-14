@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"0294e4a93c79fe48": "Çeviri aktarmak için bir kütüphaneye giden yolu belirtin.",
+	"057a91bd9d909212": "Tanınmayan \"%\" deseniyle dize çıkartılamıyor, \"$1\": $2.",
+	"0654a028e5aea48c": "YOK",
+	"124328edcc87415b": "\"--locale\" ile bir yerel kod sağlayın.",
+	"17b6d98715597264": "\"$1\" dizesini dikkate almamak; çeviri kaynak dosyasında yok.",
+	"2c22da08dc82f0ba": "Çevirileri dışa aktarmak için tam olarak bir kütüphaneye giden yolu belirtin.",
+	"38877d794cbf1943": "\"--as\" altındaki dizeleri dışa aktarmak için bir proje adı girin.",
+	"3b87bed5eefca3c1": "Ham dizeler",
+	"410147829602065c": "Projenin bir çeviri dosyasının üretildiği adı.",
+	"418a2fbab13c3664": "Kütüphane dizileri çıkartılıyor...",
+	"49427ff57fe09816": "CİNSİYET",
+	"5394e163b2751641": "Oluşturulan kaynak için yerel (''locale'') kod.",
+	"5641f04d9980459c": "\"--class\" ile bir sınıf adı sağlayın.",
+	"70cca40d69431794": "$1 dizesini okuyun.",
+	"7516972ad3f67814": "Oluşturulacak sınıf ismi.",
+	"79e0ecf9d32e5b43": "Frekans Verileri",
+	"7c0edb1e7c0dcf2a": "\"--source\" ile bir JSON kaynak dosyası sağlayın.",
+	"8657976c47adf8f2": "Bir Phabricator çeviri sınıfı dosyası oluşturun.",
+	"8941bccc95e2dd69": "Çeviri dizelerini içeren JSON kaynak dosyası.",
+	"9cb7bf6f5a17cea5": "Çeviri dizelerini bir libphutil kütüphanesinden dışa aktarın.",
+	"b230c79422fb6249": "Veri yazma ($1, $2), \"$3\" e...",
+	"b4f0d48e2f52605e": "\"$1\" dosyasını oluşturmak için kütüphane dizesinin çıkarılması bekleniyor, ancak böyle bir dosya yok!",
+	"b919bad1a5bc00cd": "Dışa aktarılmakta olan projenin adı. Dışa aktarılan dosyalar bu adı kullanarak \"projects/\" e yazılacaktır.",
+	"c435945f8f07345d": "Kullanılır:",
+	"c732898ac3089782": "İngilizce dizeleri",
+	"c9d24cf2f05e3bcb": "Bağlam dizeleri",
+	"ccadbcf74331a452": "\"--project\" ile bir proje adı girin.",
+	"d37b3f801e2ed13d": "Değişken Türleri: $1.",
+	"da7f7fad3fb76450": "\"--out\" ile bir çıktı dosyası sağlayın.",
+	"dc8625c842d8248a": "Dışa aktarılmakta olan projedeki dosyalara göz atmak için temel URI.",
+	"dfae14ab8a277d61": "Geçiş --clean dizeleri çıkarmadan önce önbellekleri bırakmak ve tamamen temiz bir işlem yapmak için alttaki temizleyiciye temizleyin. Yavaş!",
+	"e2bcda84facb3954": "Yapıldı.",
+	"eab817b44c709f8e": "Oluşturulan çeviri dosyasını yazacağınız yer.",
+	"f3514b3c6942c1c2": "PLURAL"
+}
