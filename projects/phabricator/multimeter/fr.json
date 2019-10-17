@@ -2,22 +2,33 @@
 	"@metadata": {
 		"authors": [
 			"Zarisi",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
-	"0fb59422f6006b36": "Exemples",
+	"0fb59422f6006b36": "Échantillons",
+	"1b3d1f152ab0af85": "Sous-processus",
 	"1db7ceb187824c6b": "(Tout)",
+	"22a52227914bc55a": "Échantillons ($1 – $2)",
 	"2b0351d0debf7e31": "Par ID",
+	"2c5dd77c7fad3691": "Époque",
+	"300cf32a83d8202e": "Échantillonneur des performances",
 	"3a9c736b3175d657": "Taux",
+	"5ae3c07ef5216380": "$1 req",
 	"64ae43e8fe76204a": "Coût",
-	"8de60af14be27425": "$1 Unité(s)",
+	"81869807ec587c84": "Manuel d’utilisation de Multimètre",
+	"8de60af14be27425": "$1 unité(s)",
 	"93c45b374e438968": "Par requête",
 	"9f87ba915c488c5a": "Par hôte",
-	"a55363a4b7f82dda": "Requête Web",
+	"a4698c919126d5ab": "Tentative de reprise d’un multimètre déjà actif !",
+	"a55363a4b7f82dda": "Requête web",
 	"a74d79fcf6b8b9ec": "Par contexte",
 	"cdc93143c600bc90": "Moy",
 	"dad4cada470230f5": "Par label",
+	"db4799e58d978303": "Multimètre",
 	"dbad9f126b33570e": "Visualiseur",
-	"e5423c9ba0cb621c": "$1 Événement(s)",
-	"ea54c00c7eb26ed5": "Ressource statique"
+	"e5423c9ba0cb621c": "$1 événement(s)",
+	"ea54c00c7eb26ed5": "Ressource statique",
+	"f6cee853e660acd6": "Événements du Multimètre",
+	"fd0cd99480a72974": "Par visualiseur"
 }

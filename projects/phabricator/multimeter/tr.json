@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"0fb59422f6006b36": "Örnekler",
@@ -9,8 +10,10 @@
 	"1db7ceb187824c6b": "(Hepsi)",
 	"22a52227914bc55a": "Örnekler ($1 - $2)",
 	"2b0351d0debf7e31": "ID'ye göre",
+	"2c5dd77c7fad3691": "Çağ",
 	"300cf32a83d8202e": "Performans Örnekleyici",
 	"3a9c736b3175d657": "Oyla",
+	"5ae3c07ef5216380": "$1 İst",
 	"64ae43e8fe76204a": "Maliyet",
 	"81869807ec587c84": "Multimetre Kullanıcı Kılavuzu",
 	"8de60af14be27425": "$1 Birim",
@@ -19,10 +22,12 @@
 	"a4698c919126d5ab": "Aktif bir multimetre duraklatılmaya çalışılıyor!",
 	"a55363a4b7f82dda": "Web İsteği",
 	"a74d79fcf6b8b9ec": "Bağlama göre",
+	"cdc93143c600bc90": "Ort",
 	"dad4cada470230f5": "Etikete göre",
 	"db4799e58d978303": "Multimetre",
 	"dbad9f126b33570e": "İzleyici",
 	"e5423c9ba0cb621c": "$1 Olay",
 	"ea54c00c7eb26ed5": "Statik Kaynak",
-	"f6cee853e660acd6": "Multimetre Olayları"
+	"f6cee853e660acd6": "Multimetre Olayları",
+	"fd0cd99480a72974": "Görüntülenmeye Göre"
 }
