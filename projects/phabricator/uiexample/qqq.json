@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
 	"010b85ad56b34c34": "Used in:\n\nPHUIListExample.php:58",
 	"012f8f179c6f858d": "Used in:\n\nPHUIInfoExample.php:6",
 	"013ebba353f1c8f6": "Used in:\n\nPHUIImageMaskExample.php:6",
@@ -184,7 +188,7 @@
 	"7e25f8401bbd6dc6": "Used in:\n\nPHUITypeaheadExample.php:22",
 	"80729cc5d8e09e32": "Used in:\n\nPHUITagExample.php:214",
 	"80a831f12a22aa22": "Used in:\n\nPHUITimelineExample.php:124",
-	"80d8b8cf2291a90b": "Used in:\n\nPHUIBadgeExample.php:96",
+	"80d8b8cf2291a90b": "Used in:\n\nPHUIBadgeExample.php:96\n\n''Note that this text cannot to translate it. If you do, you will caught from [[Special:AbuseLog|AbuseLog]].",
 	"81938157df932457": "Used in:\n\nPHUITimelineExample.php:38",
 	"829a49841c64d30b": "Used in:\n\nPHUIListExample.php:10",
 	"82fe68b8ee66be8e": "Used in:\n\nPhabricatorRemarkupUIExample.php:6",

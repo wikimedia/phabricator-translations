@@ -4,13 +4,15 @@
 			"Wladek92",
 			"Zarisi",
 			"Tektasc",
-			"Derugon"
+			"Derugon",
+			"Gomoko"
 		]
 	},
 	"00bb89e9c8a3cde1": "Ressource de modèle non trouvée (pour l'emblême « $1 ») avec les dimensions $2x$3.",
 	"01129f5fffd790a6": "Détecteur de poussière",
 	"01e438c7c6d998d6": "Spécifiez le type de clé à générer avec --type.",
 	"01f19aad74958f89": "Le fichier « $1 » a déja le hachage d'intégrité correct.",
+	"0228d7d7fd3b0ace": "Aucun secret de brouillage sur une modification hors politique.",
 	"02d2238d03323a56": "Ce fichier n'est pas une image visualisable.",
 	"02f1ae17d8453f22": "$1: compacterait l'espace de stockage avec $2.",
 	"048a8a41c4fa8a15": "$1: utilise un moteur de sauvegarde inconnu « $2 ».",
