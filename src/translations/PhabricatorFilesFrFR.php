@@ -13,6 +13,7 @@ final class PhabricatorFilesFrFR
       'Dust Detector' => 'Détecteur de poussière',
       'Specify the type of key to generate with --type.' => 'Spécifiez le type de clé à générer avec --type.',
       'File "%s" already has the correct integrity hash.' => 'Le fichier « %s » a déja le hachage d\'intégrité correct.',
+      'No secret scramble on non-policy edit.' => 'Aucun secret de brouillage sur une modification hors politique.',
       'This file is not a viewable image.' => 'Ce fichier n\'est pas une image visualisable.',
       '%s: Would compact storage with %s.' => '%s: compacterait l\'espace de stockage avec %s.',
       '%s: Uses unknown storage engine "%s".' => '%s: utilise un moteur de sauvegarde inconnu « %s ».',

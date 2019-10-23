@@ -14,8 +14,10 @@ final class PhabricatorMultimeterTr
       '(All)' => '(Hepsi)',
       'Samples (%s - %s)' => 'Örnekler (%s - %s)',
       'By ID' => 'ID\'ye göre',
+      'Epoch' => 'Çağ',
       'Performance Sampler' => 'Performans Örnekleyici',
       'Rate' => 'Oyla',
+      '%s Req' => '%s İst',
       'Cost' => 'Maliyet',
       'Multimeter User Guide' => 'Multimetre Kullanıcı Kılavuzu',
       '%s Unit(s)' => '%s Birim',
@@ -24,12 +26,14 @@ final class PhabricatorMultimeterTr
       'Trying to unpause an active multimeter!' => 'Aktif bir multimetre duraklatılmaya çalışılıyor!',
       'Web Request' => 'Web İsteği',
       'By Context' => 'Bağlama göre',
+      'Avg' => 'Ort',
       'By Label' => 'Etikete göre',
       'Multimeter' => 'Multimetre',
       'Viewer' => 'İzleyici',
       '%s Event(s)' => '%s Olay',
       'Static Resource' => 'Statik Kaynak',
       'Multimeter Events' => 'Multimetre Olayları',
+      'By Viewer' => 'Görüntülenmeye Göre',
     );
   }
 

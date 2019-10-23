@@ -11,6 +11,7 @@ final class PhabricatorFavoritesTr
     return array(
       'Edit Favorites' => 'Favorileri Düzenle',
       'Favorite Items' => 'Favori Ögeler',
+      'Favorites Menu' => 'Sık Kullanılanlar Menüsü',
     );
   }
 
