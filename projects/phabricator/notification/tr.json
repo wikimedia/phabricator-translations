@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"07b032b56f7aa399": "Okunmamış",
+	"14dd2a4656a89116": "Sunucu durumu yüklenemiyor: bu bir yönetici sunucu değil!",
+	"215ed57ea00cd4b2": "Tüm Bildirimler",
+	"3d9f47ddd54fe157": "Tüm bildirimleri gerçekten okundu olarak işaretlesin mi?",
+	"42acf1b5974ad9e6": "Bildirim sunucusu yapılandırması geçersiz: \"yönetici\" türünde etkin sunucuları belirtmez. Bildirimler en az bir aktif \"yönetici\" sunucusu gerektirir.",
+	"47bb223ad62d3256": "İstemci Ayarlama",
+	"572de068b2329b96": "Bildirim sunucusu yapılandırması geçersiz: \"istemci\" türünde etkin sunucuları belirtmez. Bildirimler, en az bir aktif \"istemci\" sunucusu gerektirir.",
+	"6776e111aef4227a": "Tüm okunmamış bildirimler okunmuş olarak işaretlenecektir. Bu işlemi geri alamazsınız.",
+	"6faa4218ab931e0d": "Okunmamış Bildirimler",
+	"6fe51d8fad2a6ea4": "Mesaj gönderilemiyor: bu bir yönetici sunucusu değil!",
+	"771e05f27b99fd59": "Bağlantı Kesildi",
+	"7a54c1fcde926d84": "Artık var olmayan veya artık göremediğiniz nesneler için $1 bildirim atıldı.",
+	"7c97fc57d0663517": "Bildirim sunucusu yapılandırması, tanınmayan türde (\"$3\") geçersiz bir ana bilgisayarı (\"$2\" dizininde \"$1\") tanımlar. Geçerli türler \"$4\" veya \"$5\"'dir.",
+	"7d9171c083b45e5c": "Bildirim sunucusu yapılandırması geçersiz bir protokolle (\"$3\") geçersiz bir ana bilgisayarı (\"$2\" dizininde \"$1\") tanımlar. Geçerli protokoller \"$4\" veya \"$5\" şeklindedir.",
+	"7f02a61559647c50": "Okunmuş olarak bildirilecek bildirim yok.",
+	"8b0d4e583fdf3c6f": "Bildirim Sunucusu Aşağı",
+	"9079b8d8b6937a45": "İstemci bir yönetici sunucusunda test edilemiyor!",
+	"91f51c0177b70233": "Bildirim sunucusu yapılandırması geçersiz bir ana bilgisayarı (\"$2\" dizininde \"$1\") açıklar. Bu bir \"yönetici\" servisidir ancak \"yol\" özelliğine sahiptir. Bu özellik yalnızca \"müşteri\" hizmetleri için geçerlidir.",
+	"921af3bf3920d823": "Gerçek Zamanlı Güncellemeler ve Uyarılar",
+	"92671dfe54e42f0c": "Sonsuza dek problemlerini görmezden gelemezsin, biliyorsun.",
+	"9b16335d5b0b0a4a": "Bildirim Sunucusuna Bağlanılamıyor",
+	"a4b6852b8959cde5": "Phabricator bir bildirim sunucusu kullanacak şekilde yapılandırılmış, ancak bağlanamıyor. Bu sorunu çözmeli veya bildirim sunucusunu devre dışı bırakmalısınız. Yapılandırmanızı iki kez kontrol etmeniz veya aşağıdaki komutu kullanarak sunucuyu yeniden başlatmanız yararlı olabilir.\n\n$1",
+	"ad87d7cef1baf9fe": "Bildirim sunucusu etkin değil",
+	"b61b70be925f16d0": "Bu, $1 olarak gönderilen bir test bildirimidir.",
+	"b6ef1f5cf0f38781": "(Sunucuyu başlatmak için bu komutu çalıştırın.)\n$1",
+	"b88a6664ed5b0050": "Okunmamış bildirimleriniz yok.",
+	"b98e3f99c2aea77e": "Bağlanıyor...",
+	"d31b7462b51c88f9": "HTTP 200 var, ancak beklenen HTTP 501 (WebSocket Güncelleme)!",
+	"e540ed16437675ca": "Bildirim sunucusu yapılandırması geçersiz: aynı ana bilgisayarı ve bağlantı noktasını (\"$1\") birden çok kez açıklar. Her ana bilgisayar ve bağlantı noktası kombinasyonu listede yalnızca bir kez görünmelidir.",
+	"e5f613432959373a": "Tümünü Okundu İşaretle",
+	"e6fe34ea1c47c080": "Sadece okunmamış bildirimleri göster.",
+	"f8af5efb9493e17b": "Bildirim sunucusu yapılandırması geçerli değil: listedeki her girişin bir hizmeti tanımlayan bir sözlük olması gerekir, ancak \"$1\" dizinindeki değer bir sözlük değildir.",
+	"f8c3443911adbd1f": "Bildirim sunucusu yapılandırmasının geçersiz bir servis özelliği var (\"$1\" dizininde): $2.",
+	"f9b6f64d81b3eed1": "Bildirimin yok."
+}
