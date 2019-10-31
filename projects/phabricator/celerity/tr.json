@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"046419b845c2560f": "Standart Renkleri Kullan",
+	"04cb07ada8365ae6": "\"$1\" isimli hiçbir kaynak yok!",
+	"0815b2ca68359582": "\"$2\" türü bilinmeyen kaynak \"$1\" oluşturulamıyor.",
+	"0a4a18b90fc1e8c9": "Harita yazılıyor \"$1\".",
+	"0ef5ab1cc4ef90ef": "Yüksek Kontrast Renkleri Kullan",
+	"0f1ed7dfb63fc1e2": "Karanlık Mod (Deneysel)",
+	"163ba1a9c26c97b1": "Daha Büyük Yazı Tipi Boyutu Kullan",
+	"1ef1f25b6148dbd2": "$1 ikili kaynak bulundu.",
+	"21cb4dca00942a97": "\"$2\" sembolünde hiçbir kaynak \"$1\" kaynağında mevcut değil!",
+	"2371af702826eab1": "Sürat",
+	"2e6ee0d3a1034bf1": "\"$1\" için paket belirtimi \"$2\" içerir, ancak bu sembol hiçbir kaynak $3 değildir.",
+	"317174c8d84f6a62": "\"$1\" bilinmeyen kaynağı çözmeye çalışıyor.",
+	"41fa90d128ffe8e0": "\"$1\" sözdizimini CSS'yi yeniden oluştur.",
+	"4e71600bec1f4ac1": "'$1' CSS dosyasında '$2' değişkeni yok.",
+	"6131223242825fc5": "Satır içi betikde $1 değişmezine izin verilmez.",
+	"66639f7d455dd71f": "İkili",
+	"7a75961209a5cf4d": "Kırmızı/Yeşil (Deuteranopia) Renkleri Kullan",
+	"8369c2f9ebcad3bd": "\"$1\" kaynağı en fazla bir Sürat hedefinde $2 olmalıdır.",
+	"9adac865895dd02e": "Kaynak grafikte tespit edilen döngü: $1",
+	"a396d463559a8f47": "CSS'yi vurgulayarak sözdizimini yeniden oluşturun.",
+	"a5dcf9b3422f14a3": "Kaynak kaynağı, aynı adı taşıyan iki kaynağı \"$1\" olarak tanımlar. Bir tanesi \"$2\" haritasında tanımlanmış; diğeri de \"$3\" haritasında. Her kaynağın benzersiz bir adı olmalıdır.",
+	"b1191c15b7b23ea8": "\"$1\" kaynağının bir başlık dokümanı yorumu yok. Bağımlılık verilerini bir başlık bloğunda kodlayın.",
+	"b8dcb7fb1787a65d": "\"$1\" için paket belirtimi birden fazla türde kaynak içeriyor ($2, $3). Her paket yalnızca bir tür kaynak içerebilir.",
+	"bf64f63e87e16ac3": "$1 kaynak kaynağı yeniden oluşturuluyor.",
+	"ca95d79472b5600e": "$1 metin kaynağı bulundu.",
+	"cd9aad37e951dff2": "'$3' ile biten bir sprite kaynağı olması için '$2' içindeki '$1' dosyası bekleniyordu.",
+	"cf9d8c2551d59a7f": "Yalnızca statik kaynaklar sunulabilir.",
+	"d3909c664b071e68": "\"$1\" kaynak kaynağının yeniden oluşturulması ($2)...",
+	"d83f92dffe9f937b": "\"$1\" kaynak adı geçerli değil; sadece küçük harfli latin harfleri ve rakamları içermelidir.",
+	"e67706bfcfb95cf8": "Meta veriler kilitlendikten sonra daha fazla meta veri eklemeye çalışılıyor.",
+	"f57fc09b17b11893": "Statik kaynak haritalarını yeniden oluşturun.",
+	"fe5245cd89f00746": "$1 paket bulundu."
+}
