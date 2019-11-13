@@ -636,7 +636,7 @@ final class PhabricatorDifferentialFrFR
       'You are not the author of this revision.' => 'Vous n’êtes pas l’auteur de cette révision.',
       'Comment is not visible on changeset!' => 'Le commentaire n’est pas visible dans l’ensemble de changements !',
       '%s changed the repository for %s from %s to %s.' => '%s a modifié le dépôt pour %s de %s en %s.',
-      'Unable to load revision.' => 'Impossible de charger la révision.',
+      'Unable to load revision.' => 'Impossible de charger la version.',
       'This revision was automatically updated to reflect the committed changes.' => 'Cette révision a été mise à jour automatiquement pour refléter les modifications validées.',
       'Test Plan' => 'Plan de test',
       'Browse Responsible Users' => 'Afficher les utilisateurs responsables',

@@ -149,7 +149,7 @@ final class PhabricatorAlmanacFrFR
       'Device name is required.' => 'Le nom de l’appareil est requis.',
       'Interfaces must have an address.' => 'Les interfaces doivent avoir une adresse.',
       'True to disable the binding.' => 'Vrai pour désactiver la liaison.',
-      '%s renamed this service from %s to %s.' => '%s a renommé ce service de %s en %s.',
+      '%s renamed this service from %s to %s.' => '%s a renommé ce service de « %s » en « %s ».',
       'Drydock Pool' => 'Groupe de cale sèche',
       'You can not attach an interface to a nonexistent or restricted device.' => 'Vous ne pouvez pas attacher un interface à un appareil inexistant ou restreint.',
       'Almanac service, device, network, property and namespace names may not have any segments containing only digits.' => 'Les noms du service, de l’appareil, de la propriété, du réseau et de l’espace de noms de Almanac ne peuvent pas avoir de segment ne contenant que des chiffres.',

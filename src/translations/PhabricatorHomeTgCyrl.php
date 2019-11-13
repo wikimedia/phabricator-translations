@@ -9,8 +9,9 @@ final class PhabricatorHomeTgCyrl
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Марказии Коомандӣ',
+      'Command Center' => 'Марказии Идоравӣ',
       'More Applications' => 'Барномаҳои бештар',
+      'Built-in Homepage' => 'Саҳифаи хонагӣ',
     );
   }
 

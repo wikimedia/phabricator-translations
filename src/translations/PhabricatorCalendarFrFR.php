@@ -172,7 +172,7 @@ final class PhabricatorCalendarFrFR
       'You must select an ".ics" file to import.' => 'Vous devez sélectionner un fichier « .ics » à importer.',
       'Test and debug notifications about upcoming events.' => 'Tester et déboguer les notifications sur les événements imminents.',
       'Create New Export' => 'Créer une nouvelle exportation',
-      'Events must have a name.' => 'Les événments doivent être nommés.',
+      'Events must have a name.' => 'Les événements doivent avoir un nom.',
       'Export %d' => 'Exporter %s',
       'Can Not Edit Imported Event' => 'Impossible de modifier un événement importé',
       'Import or subscribe to a calendar in .ics format by URI.' => 'Importer ou s’inscrire à un agenda au format .ics par URI.',
