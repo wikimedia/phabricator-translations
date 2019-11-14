@@ -4,7 +4,8 @@
 			"Liuxinyu970226",
 			"Wladek92",
 			"FF11",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Verdy p"
 		]
 	},
 	"00003a701ef56dd7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$2641 ArcanistDiffWorkflow.php:2641]",
@@ -111,7 +112,7 @@
 	"10705087ece7d5bf": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistChmodLinter.php$32 ArcanistChmodLinter.php:32]",
 	"109009c83344a22c": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/configuration/ArcanistConfigurationManager.php$200 ArcanistConfigurationManager.php:200]",
 	"10e6ba7e2f3909cd": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistWorkflow.php$718 ArcanistWorkflow.php:718]",
-	"11399b1faec2eb8e": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistUploadWorkflow.php$173 ArcanistUploadWorkflow.php:173]\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistUploadWorkflow.php$181 ArcanistUploadWorkflow.php:181]",
+	"11399b1faec2eb8e": "Variable Types: NONE.\n\n$1 is an API call syntax.\n\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistUploadWorkflow.php$173 ArcanistUploadWorkflow.php:173]\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistUploadWorkflow.php$181 ArcanistUploadWorkflow.php:181]",
 	"114af52779dffa30": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistWorkflow.php$1857 ArcanistWorkflow.php:1857]",
 	"115030e5b943e028": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLandWorkflow.php$432 ArcanistLandWorkflow.php:432]",
 	"118d8abde51d78d2": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistPHPCompatibilityXHPASTLinterRule.php$165 ArcanistPHPCompatibilityXHPASTLinterRule.php:165]",
@@ -278,7 +279,7 @@
 	"2cae3c42703ef089": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$1360 ArcanistDiffWorkflow.php:1360]",
 	"2cb60e21fed91fe5": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistFeatureWorkflow.php$51 ArcanistFeatureWorkflow.php:51]",
 	"2d097228afd0e802": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/parser/ArcanistDiffParser.php$1016 ArcanistDiffParser.php:1016]",
-	"2d542675492694c7": "Variable Types: NONE, NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistPhutilLibraryLinter.php$151 ArcanistPhutilLibraryLinter.php:151]",
+	"2d542675492694c7": "Variable Types: NONE, NONE, NONE, NONE, NONE, NONE.\n* $1: type of symbol,\n* $2: symbol name,\n* $3: file name,\n* $4: library name,\n* $5: older file name,\n* $6: older library name\n\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistPhutilLibraryLinter.php$151 ArcanistPhutilLibraryLinter.php:151]",
 	"2d6804ff5b73be57": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistTextLinter.php$85 ArcanistTextLinter.php:85]",
 	"2da600bf94048431": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLintersWorkflow.php$131 ArcanistLintersWorkflow.php:131]\n{{Identical|Version}}",
 	"2dbbfae234d296bb": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistJscsLinter.php$18 ArcanistJscsLinter.php:18]",
