@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
 	"002ff598115d8459": "Used in:\n\nPonderAnswerEditController.php:70\nPonderQuestionEditEngine.php:53\nPonderQuestionEditEngine.php:73\nPhabricatorSlowvoteEditController.php:159",
 	"00f66bc8102380a8": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuditManagementDeleteWorkflow.php:274\nPhabricatorRepositoryPullLocalDaemon.php:410\nPhabricatorRepositoryPullLocalDaemon.php:428\nDiffusionSSHWorkflow.php:222",
 	"00fe8f0aa656124a": "Used in:\n\nManiphestTaskHasCommitRelationship.php:33\nDifferentialRevisionHasCommitRelationship.php:33",
@@ -33,7 +37,7 @@
 	"053fe6d9283b5d1c": "Used in:\n\nAphrontHTTPSinkTestCase.php:79",
 	"054ed6e04dc6f70d": "Used in:\n\nPHUICurtainExtension.php:62",
 	"05b842c63a486ef1": "Used in:\n\nHarbormasterBuildPlanSearchEngine.php:23\nAlmanacNamespaceSearchEngine.php:23",
-	"05bb26790a3f5f39": "Used in:\n\nPhabricatorXHProfApplication.php:10\nDarkConsoleXHProfPlugin.php:8",
+	"05bb26790a3f5f39": "Used in:\n\nPhabricatorXHProfApplication.php:10\nDarkConsoleXHProfPlugin.php:8\n\n{{optional}}",
 	"05ec7868a0bd1775": "Variable Types: NONE.\nUsed in:\n\nPhortunePayPalPaymentProvider.php:489\nPhortuneWePayPaymentProvider.php:383\nDifferentialCreateCommentConduitAPIMethod.php:82",
 	"063f120a22e9eefd": "Used in:\n\nDifferentialTransaction.php:155\nManiphestTaskStatusTransaction.php:43\nDifferentialRevisionReopenTransaction.php:31\nNuanceGitHubRawEvent.php:320\nNuanceGitHubRawEvent.php:361",
 	"06517fc3ec02bdf0": "Variable Types: NONE.\nUsed in:\n\nPhabricatorStandardCustomFieldDate.php:150",
