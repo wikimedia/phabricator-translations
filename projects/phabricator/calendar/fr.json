@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
 	"00106df7cb2c4d04": "Pas d'événements trouvés.",
@@ -165,7 +166,7 @@
 	"5c045adc824f37d6": "Vous devez sélectionner un fichier « .ics » à importer.",
 	"5caf4b4210b7f2f0": "Tester et déboguer les notifications sur les événements imminents.",
 	"5deb42b1f4bbee6f": "Créer une nouvelle exportation",
-	"5fa7d350c286765c": "Les événments doivent être nommés.",
+	"5fa7d350c286765c": "Les événements doivent avoir un nom.",
 	"5fa95540be8e084c": "Exporter $1",
 	"5ff6091603009628": "Impossible de modifier un événement importé",
 	"60426937492b9b3c": "Importer ou s’inscrire à un agenda au format .ics par URI.",

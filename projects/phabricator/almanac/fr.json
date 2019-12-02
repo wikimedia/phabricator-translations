@@ -6,7 +6,8 @@
 			"Wladek92",
 			"TomT0m",
 			"DSwissK",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
 	"00a3cc5b55d618dc": "PHID de service.",
@@ -149,7 +150,7 @@
 	"66d48988ac489317": "Le nom de l’appareil est requis.",
 	"6731a2d222ea6400": "Les interfaces doivent avoir une adresse.",
 	"6757bd27414496c4": "Vrai pour désactiver la liaison.",
-	"688fddf1e0520a7a": "$1 a renommé ce service de $2 en $3.",
+	"688fddf1e0520a7a": "$1 a renommé ce service de « $2 » en « $3 ».",
 	"69e73ef8cd9ce230": "Groupe de cale sèche",
 	"6a336532e28aa911": "Vous ne pouvez pas attacher un interface à un appareil inexistant ou restreint.",
 	"6ab7f4bf20d650e2": "Les noms du service, de l’appareil, de la propriété, du réseau et de l’espace de noms de Almanac ne peuvent pas avoir de segment ne contenant que des chiffres.",

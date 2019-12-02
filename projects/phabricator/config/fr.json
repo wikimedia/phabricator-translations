@@ -13,7 +13,8 @@
 			"Djiboun",
 			"Urhixidur",
 			"Verdy p",
-			"Eihel"
+			"Eihel",
+			"Thibaut120094"
 		]
 	},
 	"00e46c015f972018": "Tableau contenant la liste des applications non installées.",
@@ -698,7 +699,7 @@
 	"c2930ef7dbff2f2a": "Clé pour les résumés HMAC.",
 	"c407b8b652fbdd95": "La durée de la requête, en microsecondes.",
 	"c4347250bfbdc421": "Phabricator supporte maintenant des fichiers arbitrairement gros. Consulter la documentation pour les détails sur la configuration.",
-	"c44f1d5a2f59c989": "Région d’Amazon S3 où votre godet S3 est localisé. Quand vous spécifiez une région, vous devez aussi spécifier un point de terminaison correspondant avec `amazon-s3.endpoint`. Vous pouvez trouver une liste des régions et des points de terminaison disponibles dans la documentation de AWS.",
+	"c44f1d5a2f59c989": "Région d’Amazon S3 où votre compartiment S3 est localisé. Quand vous spécifiez une région, vous devez aussi spécifier un point de terminaison correspondant avec `amazon-s3.endpoint`. Vous pouvez trouver une liste des régions et des points de terminaison disponibles dans la documentation de AWS.",
 	"c453c9c56f262f25": "Pour activer le journal SSH de Phabricator, spécifier un chemin. Le journal des accès peut fournir des informations plus détaillées sur les accès SSH qu’un journal SSH normal (par exemple, il peut montrer les utilisateurs connectés, les commandes, et autres données d’application).\n\nSi non défini, aucun journal ne sera écrit.",
 	"c467aed720f8d5ec": "MySQL $1 non supporté",
 	"c48146e98572f09a": "Le moteur « InnoDB » n’est pas disponible dans MySQL (sur la machine « $1 »). Activez InnoDB dans votre configuration MySQL.\n\n(Si vous avez déjà créé des tables, MySQL a utilisé à tort un autre moteur pour les créer. Vous devrez les convertir, ou les supprimer et les réinitialiser.)",
