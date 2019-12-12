@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Thibaut120094"
 		]
 	},
 	"00040bab8a787438": "Travail",
@@ -11,7 +12,7 @@
 	"0bd62b4788088d92": "Modifier la file",
 	"0e7d18e16a7d114e": "$1 a défini une propriété sur cet élément.",
 	"0f2ac3ee18a8f0dc": "Formulaire Phabricator",
-	"10cb837d48c4ecc0": "Désassigné : $1",
+	"10cb837d48c4ecc0": "Non assigné : $1",
 	"1373628a7cdde812": "$1 a changé la file par défaut pour cette source de $2 en $3.",
 	"13a2066f8c1d0e44": "Cette source (« $1 ») n’a aucun curseur « $2 ». Curseurs disponibles : $3.",
 	"13a2a0cff6783ead": "Branche $1",
@@ -155,7 +156,7 @@
 	"e35e2b2837dcfb7f": "Jalon ajouté : $1",
 	"e5531adae3c84603": "Dépôt GitHub",
 	"e6ebb72ac9561573": "Politique de modification de source par défaut",
-	"e7bc3fa037862633": "Essaye d’appliquer une commande au mauvais élément !",
+	"e7bc3fa037862633": "Tentative d’appliquer une commande au mauvais élément !",
 	"e9a0f3f9d04ff1d0": "Gérer l’élément",
 	"e9c101188332b0db": "Recharger depuis GitHub",
 	"eb40c1eda1835d8f": "Impossible de synchroniser : échec de chargement de l’objet « $1 ».",

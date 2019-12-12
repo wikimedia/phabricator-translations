@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Verdy p"
 		]
 	},
 	"197a62696ce8fbf0": "Marqué avec la balise « $1 ».",
@@ -21,7 +22,7 @@
 	"94d23c9bf50bab36": "Créer ou modifier une balise.",
 	"a12b4c41e336ccf7": "Créer une balise",
 	"b6829a09b18b33c4": "Vous pouvez marquer ce $1 si vous voulez vous souvenir de le regarder plus tard.",
-	"bafd3e5ad59b23e6": "Pas de balises trouvées.",
+	"bafd3e5ad59b23e6": "Aucun drapeau trouvé.",
 	"cdc6686dc53df49e": "Mauvais ID de balise.",
 	"cf11ada077be2b0f": "Déplacer la balise $1",
 	"d1d3a0cd7c6910d9": "Tous les types d'objets",
