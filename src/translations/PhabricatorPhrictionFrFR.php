@@ -18,7 +18,7 @@ final class PhabricatorPhrictionFrFR
       'DOCUMENT CONTENT' => 'CONTENU DU DOCUMENT',
       'Can Not Delete Document!' => 'Impossible de supprimer le document!',
       'No parent/ancestor paths specified.' => 'Pas de chemins spécifiés vers les parents/ancêtres.',
-      'Unknown URI type \'%s\'!' => 'Type inconnu d\'URI « %s » !',
+      'Unknown URI type \'%s\'!' => 'Type inconnu d\'URI « %s » !',
       'Document path "%s" is not a valid path. The normalized form of this path is "%s".' => 'Le chemin du document « %s » n\'est pas un chemin valide. La forme normalisée de ce chemin est « %s ».',
       'Phriction Document' => 'Document Phriction',
       'To edit a wiki document, you must also be able to view all of its ancestors.' => 'Pour modifier un document du wiki, vous devez être aussi capable de voir tous ses ancêtres.',

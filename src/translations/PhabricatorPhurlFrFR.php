@@ -33,7 +33,7 @@ final class PhabricatorPhurlFrFR
       'URL path is required' => 'Le chemin de l’URL est requis',
       '%s changed the name of %s from %s to %s.' => '%s a modifié le nom de %s de %s en %s.',
       'Read information about Phurl URLS.' => 'Lire les informations concernant les URL Phurl.',
-      'Edit URL: %s' => 'Modifier l’URL : %s',
+      'Edit URL: %s' => 'Modifier l’URL : %s',
       'Can Create Phurl URLs' => 'Peut créer des URL Phurl',
       'URL name.' => 'Nom de l’URL.',
       'Long URLs' => 'URL longues',

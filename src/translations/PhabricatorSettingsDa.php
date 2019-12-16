@@ -19,7 +19,7 @@ final class PhabricatorSettingsDa
       'Choose which language you would like the Phabricator UI to use.' => 'Vælg hvilket sprog du ønsker, Phabricator grænsesnittet skal bruge.',
       'Email Notifications' => 'E-mail påmindelser',
       'Diff Preferences' => 'Forskel indstillinger',
-      'Saturday' => 'Søndag',
+      'Saturday' => 'Lørdag',
       'Change Primary Address' => 'Ændr primæradresse',
       'On Small Screens' => 'På små skærme',
       'Edit Multiple Files' => 'Rediger flere filer',

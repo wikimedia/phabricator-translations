@@ -25,7 +25,7 @@ final class PhabricatorFlagFrFR
       'Create or modify a flag.' => 'Créer ou modifier une balise.',
       'Create Flag' => 'Créer une balise',
       'You can flag this %s if you want to remember to look at it later.' => 'Vous pouvez marquer ce %s si vous voulez vous souvenir de le regarder plus tard.',
-      'No flags found.' => 'Pas de balises trouvées.',
+      'No flags found.' => 'Aucun drapeau trouvé.',
       'Bad flag ID.' => 'Mauvais ID de balise.',
       'Remove %s Flag' => 'Déplacer la balise %s',
       'All Object Types' => 'Tous les types d\'objets',

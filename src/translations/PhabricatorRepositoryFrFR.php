@@ -86,7 +86,7 @@ final class PhabricatorRepositoryFrFR
       'Edit Identity: %s' => 'Modifier l\'identité: %s',
       '%s disabled protection against enormous changes.' => '%s a désactivé la protection  contre les énormes modifications.',
       'Rewrite' => 'Réécrire',
-      'Unknown URI type "%s"!' => 'Type inconnu d\'URI « %s » !',
+      'Unknown URI type "%s"!' => 'Type inconnu d\'URI « %s » !',
       '%s changed the touch limit for this repository from %s paths to %s paths.' => '%s a modifé la limite d\'accessibilité pour ce dépôt de %s chemins à %s chemins.',
       'Found edge transaction "%s" on object "%s" for type "%s".' => 'Transaction d\'arête trouvée « %s » sur l\'objet « %s » pour le type « %s ».',
       'Append' => 'Ajouter après',

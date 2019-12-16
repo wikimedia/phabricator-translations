@@ -24,7 +24,7 @@ final class PhabricatorNotificationFrFR
         '%s notification supprimée concernant des objets qui n\'existent plus ou que vous ne pouvez plus voir.',
         '%s notifications supprimées concernant des objets qui n\'existent plus ou que vous ne pouvez plus voir.',
       ),
-      'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".' => 'La configuration du serveur de notifications décrit un hôte invalide (« %s », à l’index « %s ») avec un type  non reconnu (« %s »). Les types valides sont « %s » ou « %s » .',
+      'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".' => 'La configuration du serveur de notifications décrit un hôte invalide (« %s », à l’index « %s ») avec un type  non reconnu (« %s »). Les types valides sont « %s » ou « %s » .',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => 'La configuration du serveur de notifications décrit un hôte invalide (« %s », à l\'index « %s ») avec un protocole invalide (« %s »). Les protocoles valides sont « %s » ou « %s ».',
       'No notifications to mark as read.' => 'Aucune notification à marquer comme lue.',
       'Notification Server Down' => 'Serveur de notification non actif',

@@ -34,7 +34,7 @@ final class PhabricatorProjectFrFR
       'Intensity' => 'Intensité',
       'The name of the project.' => 'Le nom du projet.',
       'Type a project name or function...' => 'Entrez un nom de projet ou une fonction...',
-      'Are you sure you want to show this column?' => 'Êtes-vous sûr de vouloir afficher cette colonne  ?',
+      'Are you sure you want to show this column?' => 'Êtes-vous sûr de vouloir afficher cette colonne  ?',
       'Add projects' => 'Ajouter des projets',
       'Archive Project' => 'Archiver le projet',
       'Default view policy for newly created projects.' => 'Politique d’affichage par défaut pour les projets nouvellement créés.',

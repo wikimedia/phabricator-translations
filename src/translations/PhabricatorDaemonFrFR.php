@@ -16,16 +16,16 @@ final class PhabricatorDaemonFrFR
       'Leased' => 'Emprunté',
       'Unable to stop processes running without PID files. Try running this command again with sudo.' => 'Impossible d’arrêter les processus qui s’exécutent sans fichiers PID. Essayez de relancer cette commande avec sudo.',
       'Starting daemons as %s' => 'Démarrage des démons en tant que %s',
-      'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Redémarrer aimablement les processus démon sur place pour prendre en compte les modifications dans les sources. Cela ne perturbera pas les tâches en cours d’exécution. C’est un processus avancé ; la plupart des installations devraient utiliser __%s__.',
+      'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Redémarrer aimablement les processus démon sur place pour prendre en compte les modifications dans les sources. Cela ne perturbera pas les tâches en cours d’exécution. C’est un processus avancé ; la plupart des installations devraient utiliser __%s__.',
       'Retries' => 'Nouvelles tentatives',
       'Shutting Down' => 'En cours d’arrêt',
       'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'Ce démon n’a pas signalé de mise à jour d’état récente (pendant %s). Il peut s’être terminé brutalement. Après %s, il sera présumé mort.',
       'This daemon has been lost or exited uncleanly, and is presumed dead.' => 'Ce démon a été perdu ou ne s’est pas arrêté proprement et est présumé mort.',
       'Terminating process %d...' => 'Terminaison de la tâche %s...',
       'Running as' => 'Exécution en tant que',
-      'No daemons match \'%s\'! Use \'%s\' for a list of available daemons.' => 'Aucun démon ne correspond à « %s » ! Utiliser « %s » pour une liste des démons disponibles.',
+      'No daemons match \'%s\'! Use \'%s\' for a list of available daemons.' => 'Aucun démon ne correspond à « %s » ! Utiliser « %s » pour une liste des démons disponibles.',
       'Overseer' => 'Superviseur',
-      'No such daemon "%s"!' => 'Pas de démon « %s » !',
+      'No such daemon "%s"!' => 'Pas de démon « %s » !',
       'Archived Tasks' => 'Tâches archivées',
       'No tasks have completed in the last 15 minutes.' => 'Aucune tâche ne s’est terminée dans le dernier quart d’heure.',
       'Task Class' => 'Classe de tâche',
@@ -38,7 +38,7 @@ final class PhabricatorDaemonFrFR
       'Daemon %d %s [%s] %s' => 'Démon %s %s [%s] %s',
       'There are processes running that look like Phabricator daemons but have no corresponding PID files:
     %s
-    Stop these processes by re-running this command with the %s parameter.' => 'Des processus ressemblant à des démons de Phabricator sont en cours d’exécution, mais n’ont pas de fichiers PID correspondant :
+    Stop these processes by re-running this command with the %s parameter.' => 'Des processus ressemblant à des démons de Phabricator sont en cours d’exécution, mais n’ont pas de fichiers PID correspondant :
     %s
     Arrêter ces processus en relaçant cette commande avec le paramètre %s.',
       'There are no upcoming event triggers.' => 'Il n’y a aucun déclencheur d’événement imminent.',
@@ -111,7 +111,7 @@ final class PhabricatorDaemonFrFR
       'Manage Bulk Jobs' => 'Gérer des tâches de masse',
       'Freeing active task leases...' => 'Libération des baux de tâches actives…',
       'Log' => 'Journal',
-      'Start work on this bulk job?' => 'Commencer à exécuter ce travail de masse ?',
+      'Start work on this bulk job?' => 'Commencer à exécuter ce travail de masse ?',
       'Lock log is already enabled.' => 'Le journal de verrous est déjà activé.',
       'Interrupting process %d...' => 'Interruption du processus %s…',
       'Disable the lock log.' => 'Désactiver le journal des verrouillages.',
@@ -149,12 +149,12 @@ final class PhabricatorDaemonFrFR
       'This daemon is running normally and reported a status update recently (within %s).' => 'Ce démon tourne normalement et a indiqué récemment une mise à jour d’état (durant %s).',
       'Average Duration' => 'Durée moyenne',
       'Daemons are configured to run as user "%s" in configuration option `%s`, but the current user is "%s" and `phd` was unable to switch to the correct user with `sudo`. Command output:
-    %s' => 'Les démons sont configurés pour s’exécuter avec l’utilisateur « %s » dans l’option de configuration `%s`, mais l’utilisateur actuel est « %s » et `php` n’a pas été capable de basculer vers le bon utilisateur avec `sudo`. Sortie de la commande :
+    %s' => 'Les démons sont configurés pour s’exécuter avec l’utilisateur « %s » dans l’option de configuration `%s`, mais l’utilisateur actuel est « %s » et `php` n’a pas été capable de basculer vers le bon utilisateur avec `sudo`. Sortie de la commande :
     %s',
       'No log records exist for any daemons.' => 'Il n’existe aucun enregistrement de journal pour tout démon.',
       'View Task' => 'Afficher la tâche',
       'Daemon Processes' => 'Processus démons',
-      'PID "%d" is not a known Phabricator daemon PID.' => 'Le PID « %s » n’est pas un PID de démon Phabricator connu.',
+      'PID "%d" is not a known Phabricator daemon PID.' => 'Le PID « %s » n’est pas un PID de démon Phabricator connu.',
       'Not touching active task queue leases.' => 'Ne pas toucher aux baux de file de tâche active.',
       'Failure Count' => 'Nombre d’échecs',
       'Arguments' => 'Arguments',
@@ -181,10 +181,10 @@ final class PhabricatorDaemonFrFR
       'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
     Phabricator is configured to run daemons as "%s", but the current user is "%s". 
     Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Vous essayez d’exécuter un démon en tant qu’utilisateur non standard, et `%s` n’a pas pu `%s` vers le bon utilisateur. 
-    Phabricator est configuré pour lancer les démons en tant que «  %s  », mais l’utilisateur actuel est «  %s  ». 
+    Phabricator est configuré pour lancer les démons en tant que «  %s  », mais l’utilisateur actuel est «  %s  ». 
     Utiliser `%s` pour lancer avec un autre utilisateur, passer `%s` pour ignorer cet avertissement, ou modifier `%s` pour changer la configuration.',
       'No More Retries' => 'Plus de nouvelles tentatives.',
-      'No log record exists for a daemon with ID "%s".' => 'Il n’existe aucun enregistrement de journal pour le démon avec l’ID « %s ».',
+      'No log record exists for a daemon with ID "%s".' => 'Il n’existe aucun enregistrement de journal pour le démon avec l’ID « %s ».',
       '<DEAD> %s' => '<DEAD> %s',
       'Task %d Missing' => 'Tâche %s manquante',
       'Task queue is empty.' => 'La file des tâches est vide.',

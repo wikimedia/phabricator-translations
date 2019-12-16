@@ -15,7 +15,7 @@ final class PhabricatorDoorkeeperFrFR
     NOTE: This feature is new and experimental.' => 'Pour activer la synchronisation dans Asana, saisie un ID d’espace de travail Asana ici.',
       'JIRA %s %s' => 'JIRA %s %s',
       'Workspace ID' => 'ID de l\'espace de travail',
-      '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s n’a pas d’objet visible de l’autre côté ; cela signifie sans doute que la tâche Asana a été supprimée.',
+      '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s n’a pas d’objet visible de l’autre côté ; cela signifie sans doute que la tâche Asana a été supprimée.',
       'Using publisher \'%s\'.' => 'Utilisation de l’éditeur \'%s\'.',
       'Connect to Other Software' => 'Connecter avec un autre logiciel',
       'Failed to update object %s using user %s.' => 'Échec de misse à jour de l’objet %s en utilisant l’utilisateur %s.',
@@ -36,7 +36,7 @@ final class PhabricatorDoorkeeperFrFR
       'Doorkeeper' => 'Portier',
       'Imported From' => 'Importé depuis',
       'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'Quand Phabricaator crée des tâches dans Asana, il peut ajouter les tâches aux projets de Asana selon l’application depuis laquelle provient l’objet correspondant dans Phabricator. Par exemple, vous pouvez ajouter des revues de code dans Asana à un projet « Differential ».
+    NOTE: This feature is new and experimental.' => 'Quand Phabricaator crée des tâches dans Asana, il peut ajouter les tâches aux projets de Asana selon l’application depuis laquelle provient l’objet correspondant dans Phabricator. Par exemple, vous pouvez ajouter des revues de code dans Asana à un projet « Differential ».
     NOTE : Cette fonctionnalité est nouvelle et expérimentale.',
       'No related users have linked Asana accounts.' => 'Aucun utilisateur associé n’a de comptes Asana liés.',
       'Story is about an unsupported object type.' => 'L’histoire est au sujet d’un type d’objet non supporté.',
@@ -53,7 +53,7 @@ final class PhabricatorDoorkeeperFrFR
     ☠ Vos modifications ne se répercuteront pas dans Phabricator.
     ☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Suppression de l’arête de la sous-tâche vers %s, l’objet étranger n’est pas visible.',
-      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d’affichage de balise de Doorkeeper « %s » non pris en charge. Les modes pris en charge sont : %s.',
+      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Mode d’affichage de balise de Doorkeeper « %s » non pris en charge. Les modes pris en charge sont : %s.',
       'Integration with Asana' => 'Intégration avec Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Le travailleur portier \'%s\' n’est pas activé.',
       'Object has no followers or active/passive users.' => 'L’objet n’a pas d’abonné ou d’utilisateurs actifs/passifs.',
@@ -70,13 +70,13 @@ final class PhabricatorDoorkeeperFrFR
       {
         "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
       }',
-      'Synchronization of child task from Asana failed!' => 'La synchronisation de la tâche enfant depuis Asana a échoué !',
+      'Synchronization of child task from Asana failed!' => 'La synchronisation de la tâche enfant depuis Asana a échoué !',
       'Story is about an object with no linked JIRA issues.' => 'L’histoire concerne un objet JIRA sans problème.',
       'GitHub User %s' => 'Utilisateur GitHub %s',
-      'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'Problème GitHub d’ID « %s » n’a pas le bon format. Un ID est attendu de la forme « propriétaire/dépôt#123 ».',
+      'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'Problème GitHub d’ID « %s » n’a pas le bon format. Un ID est attendu de la forme « propriétaire/dépôt#123 ».',
       'Workspace Name' => 'Nom de l\'espace de travail',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'Impossible de trouver un utilisateur Asana avec des certificats valides pour en obtenir un jeton OAuth.',
-      'Synchronization of parent task from Asana failed!' => 'La synchronisation de la tâche parente depuis Asana a échoué !',
+      'Synchronization of parent task from Asana failed!' => 'La synchronisation de la tâche parente depuis Asana a échoué !',
       'Optional Asana projects to use as application tags.' => 'Projets facultatifs de Asana à utiliser comme balises de l’application.',
       'The Asana Workspaces your linked account has access to are:
     %s' => 'Les espaces de nom de Asana auxquels a accès votre compte lié sont :
