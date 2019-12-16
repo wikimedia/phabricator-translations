@@ -3,13 +3,14 @@
 		"authors": [
 			"Zarisi",
 			"Wladek92",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"0fb59422f6006b36": "Échantillons",
 	"1b3d1f152ab0af85": "Sous-processus",
 	"1db7ceb187824c6b": "(Tout)",
-	"22a52227914bc55a": "Échantillons ($1 – $2)",
+	"22a52227914bc55a": "Échantillons ($1 – $2)",
 	"2b0351d0debf7e31": "Par ID",
 	"2c5dd77c7fad3691": "Époque",
 	"300cf32a83d8202e": "Échantillonneur des performances",
@@ -20,7 +21,7 @@
 	"8de60af14be27425": "$1 unité(s)",
 	"93c45b374e438968": "Par requête",
 	"9f87ba915c488c5a": "Par hôte",
-	"a4698c919126d5ab": "Tentative de reprise d’un multimètre déjà actif !",
+	"a4698c919126d5ab": "Tentative de reprise d’un multimètre déjà actif !",
 	"a55363a4b7f82dda": "Requête web",
 	"a74d79fcf6b8b9ec": "Par contexte",
 	"cdc93143c600bc90": "Moy",

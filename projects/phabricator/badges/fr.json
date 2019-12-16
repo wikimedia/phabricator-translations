@@ -4,7 +4,8 @@
 			"Trizek",
 			"Wladek92",
 			"Gomoko",
-			"Urhixidur"
+			"Urhixidur",
+			"Thibaut120094"
 		]
 	},
 	"01ab47951fb99871": "Rebelle",
@@ -27,7 +28,7 @@
 	"1df8061315935e3c": "Ce badge n’a aucun destinataire.",
 	"1e295cba0bed114d": "$1 a désactivé le badge $2.",
 	"1e86ad57c5680895": "Tous les badges",
-	"22be275f3ad2da7f": "Le PHID « $1 » du destinataire n’a pas été attribué.",
+	"22be275f3ad2da7f": "Le PHID « $1 » du destinataire n’a pas été attribué.",
 	"29b2b69db0f23c61": "Ce badge sera remis en service.",
 	"2ba50bf873d764ca": "Sujet libre",
 	"3aabf31817eebb1d": "Afficher le badge",
@@ -58,7 +59,7 @@
 	"6169addc6ab5ba95": "Le texte de la variété ne peut pas dépasser $1 caractères.",
 	"616d6d7390a6e283": "Cercle d’écume",
 	"630e0b25835dd276": "Rare",
-	"63bc54923dcc99d0": "Le PHID « $1 » du destinataire n’est pas un PHID utilisateur valide.",
+	"63bc54923dcc99d0": "Le PHID « $1 » du destinataire n’est pas un PHID utilisateur valide.",
 	"64358c5665b2fa66": "$1 a accordé $2 à $3 destinataire(s) : $4.",
 	"654881f5be03c637": "Navire vedette",
 	"675b3a5c00009191": "Politique de modification par défaut pour les badges.",
@@ -94,7 +95,7 @@
 	"b3efd0d2dd507ba6": "Épique",
 	"b59b69793e147bda": "Description longue du badge.",
 	"b6ff6fb4fa6ce03d": "Nouvelle qualité de badge.",
-	"b70164caf8f11eaf": "Vraiment révoquer le badge « $1 » de $2 ?",
+	"b70164caf8f11eaf": "Vraiment révoquer le badge « $1 » de $2 ?",
 	"b7e8916505bf72d3": "Légendaire",
 	"ba62c3a07707d064": "$1 a activé le badge $2.",
 	"bc0db4cd675f38cb": "Ajouter des destinataires",

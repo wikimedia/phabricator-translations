@@ -3,7 +3,8 @@
 		"authors": [
 			"Zarisi",
 			"Wladek92",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"00d5d73d3809e925": "Apprendre comment configurer les courriels et autres options dans Phabricator.",
@@ -38,8 +39,8 @@
 	"c217cb0f9b995a3d": "Vous avez créé au moins un projet.",
 	"ca5f965cff8f2b8d": "Voir toutes les applications incluses dans Phabricator.",
 	"ce728737a34c134f": "Créer un tableau de bord",
-	"d4f61ec10f8563dc": "Ça a l’air fantastique, bon travail ! Maison, douce maison.",
-	"d8d1d5a6042642e8": "Deux extensions d’assistance ont généré une assistance avec la même clé (« $1 »). Chaque pièce d’assistance doit avoir une clé unique.",
+	"d4f61ec10f8563dc": "Ça a l’air fantastique, bon travail ! Maison, douce maison.",
+	"d8d1d5a6042642e8": "Deux extensions d’assistance ont généré une assistance avec la même clé (« $1 »). Chaque pièce d’assistance doit avoir une clé unique.",
 	"e7643788502a37ce": "Serveur de notification",
 	"ed39fa272e927a8d": "Les fournisseurs d’authentification permettent aux utilisateurs de s’inscrire avec leur compte et de se connecter à Phabricator.",
 	"f023a66281396c8e": "Résoudre les problèmes d’installation",

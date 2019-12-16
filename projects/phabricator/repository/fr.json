@@ -3,7 +3,8 @@
 		"authors": [
 			"Kenjiraw",
 			"Wladek92",
-			"Urhixidur"
+			"Urhixidur",
+			"Thibaut120094"
 		]
 	},
 	"00061bade7e1c5b9": "Le dépôt $1 est un dépôt Subversion non hébergé, qui ne nécessite pas d'extraire de copie de travail locale.",
@@ -76,7 +77,7 @@
 	"65174113040b5448": "Modifier l'identité: $1",
 	"67d0c3c4485e378e": "$1 a désactivé la protection  contre les énormes modifications.",
 	"681a11933147075c": "Réécrire",
-	"68668e17b1d03952": "Type inconnu d'URI « $1 » !",
+	"68668e17b1d03952": "Type inconnu d'URI « $1 » !",
 	"69558f2e7bae5d0e": "$1 a modifé la limite d'accessibilité pour ce dépôt de $2 chemins à $3 chemins.",
 	"6a738e90ccf54df6": "Transaction d'arête trouvée « $1 » sur l'objet « $2 » pour le type « $3 ».",
 	"6b3a602280be24f5": "Ajouter après",

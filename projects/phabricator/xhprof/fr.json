@@ -4,7 +4,8 @@
 			"KATRINE1992",
 			"Wladek92",
 			"Derugon",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"01e30de312eae0aa": "Échantillons XHProf",
@@ -15,7 +16,7 @@
 	"3f84ef531f9db996": "Symbole",
 	"562ae0348cb47b8e": "Temps écoulé (exclusif)",
 	"5a9ebdb4ed44587e": "Temps réel écoulé et passé dans cette fonction et dans tous ses enfants (les enfants sont d’autres fonctions qu’elle a appelées durant son exécution).",
-	"600c86c5195dfe24": "$1 μs",
+	"600c86c5195dfe24": "$1 μs",
 	"60bc9828c396a0ff": "Échantillon sans nom",
 	"68d5ced71e82cd17": "Profil $1",
 	"91e4fc2fd727793b": "Temps réel écoulé et passé dans cette fonction, en excluant le temps passé dans les enfants (les enfants sont d’autres fonctions qu’elle a appelées durant son exécution)",
@@ -23,7 +24,7 @@
 	"a04ce39eb6a65a4b": "Glisser-déposer des fichiers .xhprof pour les importer.",
 	"aeb1f8e83b6fb6c1": "Outil de profilage PHP",
 	"ba808f702b24f82c": "Mesures pour cet appel",
-	"bffb93b89ee1e5b6": "Échec de la désérialisation du profil XHProf !",
+	"bffb93b89ee1e5b6": "Échec de la désérialisation du profil XHProf !",
 	"c9aef90f3405db63": "Profil XHProf",
 	"d2c039b48df9b8b5": "Déposez les fichiers .xhprof à importer",
 	"dd3202d111eefb92": "Temps écoulé",

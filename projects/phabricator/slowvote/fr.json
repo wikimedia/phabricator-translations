@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"01bf752be30f20c2": "Entrer les délibérations",
 	"0370b3c2ebef0246": "Clore le sondage",
 	"0b867e3d3426fb2b": "$1 a renommé $2.",
 	"0c115c3235a2ef32": "Créer un sondage",
-	"0c5c2d2e2661ce6d": "L’option indiquée (« $1 ») n’est pas une option de sondage valide. Vous ne pouvez voter que pour des options valides.",
+	"0c5c2d2e2661ce6d": "L’option indiquée (« $1 ») n’est pas une option de sondage valide. Vous ne pouvez voter que pour des options valides.",
 	"0dcd0ef651452f6d": "$1 a fait apparaître les réponses de $2 dans un ordre aléatoire.",
 	"0efecd774202145e": "Créer un vote lent",
 	"13cdd5eae9101890": "Il n’existe pas de tel sondage.",
@@ -28,10 +29,10 @@
 	"3c101893709b6ac4": "$1 a défini la description de $2.",
 	"4519105ec90bb267": "$1 a modifié la description de ce sondage.",
 	"4f5b6255f29297ac": "Vous devez voter pour voir les résultats.",
-	"509f35a4bc9ce07f": "Modifier le sondage : $1",
+	"509f35a4bc9ce07f": "Modifier le sondage : $1",
 	"51147c523dccc0b3": "$1 a relancé ce sondage.",
 	"540e372f0432aa57": "Vous devez voter pour au moins une option.",
-	"557cf7bf0a1423b0": "Êtes-vous sûr{{GENDER:||e}} de relancer le sondage ?",
+	"557cf7bf0a1423b0": "Êtes-vous sûr{{GENDER:||e}} de relancer le sondage ?",
 	"5844941ee2e4df69": "$1 a créé ce sondage.",
 	"5b772b7bfd0a4327": "Mélanger",
 	"61e05da2a47259db": "Relancer",
@@ -47,7 +48,7 @@
 	"805e6570319f20a1": "Quelqu’un a modifié les détails du sondage.",
 	"8421ac7624539106": "Afficher seulement les sondages où j’ai voté.",
 	"842e511932e8c12f": "Manuel utilisateur du vote lent",
-	"885819f9bddd0d12": "Êtes-vous sûr{{GENDER:||e}} de vouloir clore le sondage ?",
+	"885819f9bddd0d12": "Êtes-vous sûr{{GENDER:||e}} de vouloir clore le sondage ?",
 	"9370fc1d7776a8d3": "Vous devez voter pour quelque chose.",
 	"937162668b9c7cd7": "Engager les délibérations",
 	"942156e70104ad7a": "A voté",
@@ -58,7 +59,7 @@
 	"a9c408e812ffca0a": "$1 a modifié la description de $2.",
 	"b5159c41eeb7f039": "Vous devez proposer au moins une réponse.",
 	"b754e67297db4de1": "Seul l’auteur peut voir les résultats.",
-	"b8fd4971557ac9c4": "$1 a changé la question du sondage de « $2 » en « $3 ».",
+	"b8fd4971557ac9c4": "$1 a changé la question du sondage de « $2 » en « $3 ».",
 	"baa5baa08ca9c821": "Type de vote",
 	"c5a98ec1be9659da": "Quelqu’un a voté pour un sondage.",
 	"c643db620cf41204": "Créer un sondage",

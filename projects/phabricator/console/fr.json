@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Thibaut120094"
 		]
 	},
 	"13d815bd29a02c64": "Classe d’écouteur",
@@ -32,13 +33,13 @@
 	"9e882bcd588375bd": "Lien permanent de profilage",
 	"a2e6414c7c3da940": "Journal des erreurs",
 	"a36a5ffa6e0dcfb6": "Contrôleur",
-	"a441514e0e51b370": "SCRUTATION DE TABLE !",
+	"a441514e0e51b370": "SCRUTATION DE TABLE !",
 	"a59e35f7e35775f0": "ARRÊTÉ",
 	"ac551492ad6c91a4": "Information sur les services.",
 	"aeeba730751ee3d0": "Événement inconnu : $1",
 	"bb888692c4295a97": "Affiche les erreurs et les avertissements.",
 	"bdfe7ae85de0e206": "Profileur XHProf",
-	"c05d7f6454f1efba": "L’extension « xhprof » de PHP n’est pas disponible. Installer xhprof pour activer le module de la console XHProf. Vous pouvez trouver des instructions dans le $1.",
+	"c05d7f6454f1efba": "L’extension « xhprof » de PHP n’est pas disponible. Installer xhprof pour activer le module de la console XHProf. Vous pouvez trouver des instructions dans le $1.",
 	"c0f85d6679730ccd": "Rejouer",
 	"c2c604447f0ec813": "Analyse impossible",
 	"c5497bca58468ae6": "Événements",

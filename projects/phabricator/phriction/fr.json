@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Thibaut120094"
 		]
 	},
 	"01f55bf10a17e740": "Chemin du document.",
@@ -14,7 +15,7 @@
 	"1e57779e9843e6d4": "CONTENU DU DOCUMENT",
 	"26f7b3ad79583865": "Impossible de supprimer le document!",
 	"273de30017e2329a": "Pas de chemins spécifiés vers les parents/ancêtres.",
-	"27823bb42bb74e84": "Type inconnu d'URI « $1 » !",
+	"27823bb42bb74e84": "Type inconnu d'URI « $1 » !",
 	"282d35c4109ce145": "Le chemin du document « $1 » n'est pas un chemin valide. La forme normalisée de ce chemin est « $2 ».",
 	"2f71dc178c3b1ab8": "Document Phriction",
 	"311bdd688286023c": "Pour modifier un document du wiki, vous devez être aussi capable de voir tous ses ancêtres.",

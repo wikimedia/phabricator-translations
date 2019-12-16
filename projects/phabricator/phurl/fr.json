@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Verdy p",
-			"Zarisi"
+			"Zarisi",
+			"Thibaut120094"
 		]
 	},
 	"04259816ace1ebe5": "Alias",
@@ -29,7 +30,7 @@
 	"811fec4b0e23bf8c": "Le chemin de l’URL est requis",
 	"84b8a7289a111a0c": "$1 a modifié le nom de $2 de $3 en $4.",
 	"89283ca91ebb357d": "Lire les informations concernant les URL Phurl.",
-	"8b23aa38cf79a45c": "Modifier l’URL : $1",
+	"8b23aa38cf79a45c": "Modifier l’URL : $1",
 	"8c235996f9427b65": "Peut créer des URL Phurl",
 	"8cb9f1e7c5ed4855": "Nom de l’URL.",
 	"8e327ef17a698fc5": "URL longues",

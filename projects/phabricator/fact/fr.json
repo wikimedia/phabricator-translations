@@ -3,7 +3,8 @@
 		"authors": [
 			"Wladek92",
 			"Zarisi",
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
 	"082d1ecea396e7c3": "Analyser depuis le début, en ignorant les curseurs.",
@@ -25,10 +26,10 @@
 	"65313363140c52d7": "Montrer une liste de moteurs de faits.",
 	"66c7734789e19cbe": "Graphique",
 	"68ff38ff3badd89b": "Tracer et analyser les données",
-	"7b6ed5e5a221e6b8": "Vraiment détruire les faits ? Ils devront être reconstruits via l’analyse, ce qui peut prendre du temps.",
+	"7b6ed5e5a221e6b8": "Vraiment détruire les faits ? Ils devront être reconstruits via l’analyse, ce qui peut prendre du temps.",
 	"7d6e797167bf385b": "$1 (transactions)",
 	"927dd24e89ebab23": "Afficher une liste d’itérateurs de fait et de curseurs.",
-	"9b1f4a23f4f45cb6": "Échec au chargement ou à la génération de l’ID de dimension (« $1 ») pour la clé de dimension « $2 ».",
+	"9b1f4a23f4f45cb6": "Échec au chargement ou à la génération de l’ID de dimension (« $1 ») pour la clé de dimension « $2 ».",
 	"a9f2de63e9a59bb7": "Supprimer tous les faits.",
 	"aeff1bc997e97cae": "Faits",
 	"b3edf52b7321477f": "Réinitialisation du curseur $1…",

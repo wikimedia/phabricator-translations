@@ -3,7 +3,8 @@
 		"authors": [
 			"Trizek",
 			"Wladek92",
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
 	"21909f6cc9658765": "Pas d'application « $1 » !",
@@ -22,8 +23,8 @@
 	"b0608ab1bd963593": "Outils du développeur",
 	"c33a2a4cf022d6cc": "Cette application est nécessaire pour que Phabricator puisse fonctionner, donc tous les utilisateurs doivent y avoir accès.",
 	"c3f9271638a0c8f6": "L’utilisateur '$1' est censé ne pas avoir le droit d’accéder à '$2'.",
-	"d8c88db363a66211": "La requête inclut le paramètre restreint « $1 », mais ce contrôleur (« $2 ») ne l’a pas en liste blanche. Refus de répondre à cette requête parce qu’elle pourrait faire partie d’une attaque de redirection.",
-	"d9b9a15e87d0d955": "Potentiel '$1' inconnu !",
+	"d8c88db363a66211": "La requête inclut le paramètre restreint « $1 », mais ce contrôleur (« $2 ») ne l’a pas en liste blanche. Refus de répondre à cette requête parce qu’elle pourrait faire partie d’une attaque de redirection.",
+	"d9b9a15e87d0d955": "Potentiel '$1' inconnu !",
 	"daf366af13db9c61": "Administrateur requis",
 	"dced58a261d6133b": "Vérification de courriel obligatoire, avec des exceptions",
 	"dfa4966710819f7d": "Autoriser la désactivation"
