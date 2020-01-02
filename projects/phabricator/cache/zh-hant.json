@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"083e9daf755017eb": "APCu",
+	"0e313deeb5268c5d": "「$1」已停用",
+	"0fad703dbe4340c1": "「$1」在生產環境裡已啟用",
+	"13e28f69bac505d7": "APC 具有 Noisy 設置",
+	"1bfe152b965a4a3b": "APC",
+	"33ce117f0b3a51ef": "啟用 APC/APCu 將會增進效能。",
+	"39a26a319467e611": "未安裝 Zend OPcache",
+	"5795d215104d012e": "一般快取",
+	"57d65a67da803ff0": "未知快取格式。",
+	"79e9ff0dd04c426d": "未啟用 APC/APCu 擴充套件",
+	"7f511f79d203c155": "未安裝「APCu」PHP 擴充套件",
+	"8bca6dbfde130bad": "Zend OPcache 未啟用",
+	"8c2a0d70ef69b2d9": "Noisy APC",
+	"967529ae1730771f": "OPcache 已停用",
+	"9c55cae97baf5504": "APC/APCu 已停用",
+	"a5532e7c04c99d3b": "APC 使用者快取",
+	"abf132f47abe84c6": "OPcache 設定",
+	"b9aca39fb5dd90ed": "OPcache",
+	"e7693b42de4308ff": "Zend OPcache",
+	"ea785c9d610450b7": "啟用 OPcache 將會顯著地增進效能。",
+	"ef5e48136600c11f": "未安裝「APC」PHP 擴充套件"
+}
