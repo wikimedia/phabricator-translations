@@ -2,17 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Eneelk",
+			"Thibaut120094"
 		]
 	},
 	"0035403387839cb4": "Aucun résultat.",
 	"01b86a4d55b3406f": "Cet élévénement de menu est très important et ne peut être désactivé.",
+	"01d0283e8122b9b5": "Activer la requête ?",
 	"037162cdf0ff4298": "Eléments du menu personnel",
+	"056c8365d941eb38": "Les requêtes que vous avez enregistrées sont privées. Vous pouvez seulement les voir ou les modifier.",
+	"05975495f62dbc25": "cat -A peut trouver les souris cachées dans les fichiers.",
 	"05b09bdf064bf97d": "Le format d'exportation n'est pas disponible",
 	"06cc85b4876371df": "Moteurs de recherche",
+	"0728e2956565a7ab": "Le formulaire « $1 » n'est pas un formulaire valide que vous avez la permission de voir.",
+	"08d2e98e6754af94": "N/A",
 	"103e474eb68c3eb2": "Désactiver un élément de menu",
+	"10557b08f47cb2e4": "Ajouter au tableau de bord",
 	"10cb8570b888d286": "Echec lors du chargement du PHID utilisateur « $1 » !",
+	"10ecc16318516885": "Les chats utilisent leur odorat très développé pour éviter de ressentir de l'empathie.",
+	"12b085a7be7eb73a": "Vous devez choisir un tableau de bord.",
 	"1315cf907892b7bf": "Il n'y a pas encore de requête active.",
+	"189b36679a8e6449": "Requête : $1",
 	"1cce890485500d1a": "Ignorer les noms communs",
 	"21252eb657cf9de2": "Eléments globaux de menu",
 	"238d9a5d440324de": "Vous devez choisir un nom d'étiquette.",
