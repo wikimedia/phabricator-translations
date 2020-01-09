@@ -45,6 +45,7 @@
 	"cd1cfba595365834": "Ces objet(s) $1 seront supprimés de façon définitive :",
 	"cf7bbffa2745f9d7": "En mode lecture seule, vous pouvez lire l'information existante mais vous ne pourrez ni modifier les objets, ni créer de nouveaux objets jusqu'à ce que ce mode soit désactivé.",
 	"cfc8c7a619ebae47": "Ce mode peut être utilisé pour effectuer une maintenance temporaire, tester une configuration ou archiver une installation de façon définitive.",
+	"e20ca7690e62cfaa": "Ceci survient généralement lorsqu'un administrateur travaille de manière active à réparer une configuration temporaire ou un problème de déploiement.",
 	"e4fdfba6be0afcb4": "$1 / minute",
 	"e67e845c51f43680": "Détruire un objet sans demander l'autorisation.",
 	"e6e08d9d69b29e13": "Le taux maximum autorisé pour cette action est de $1. Vous prenez des actions à un taux de $2.",
