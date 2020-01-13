@@ -11,7 +11,7 @@ final class TranslatewikiCoreTr
     return array(
       'Provide the path to a library to export translations from.' => 'Çeviri aktarmak için bir kütüphaneye giden yolu belirtin.',
       'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Tanınmayan "%%" deseniyle dize çıkartılamıyor, "%s": %s.',
-      'NONE' => 'YOK',
+      'NONE' => 'HİÇBİRİ',
       'Provide a locale code with "--locale".' => '"--locale" ile bir yerel kod sağlayın.',
       'Ignoring string "%s"; not present in translation source file.' => '"%s" dizesini dikkate almamak; çeviri kaynak dosyasında yok.',
       'Provide the path to exactly one library to export translations from.' => 'Çevirileri dışa aktarmak için tam olarak bir kütüphaneye giden yolu belirtin.',

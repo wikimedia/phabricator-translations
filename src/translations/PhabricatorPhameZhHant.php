@@ -72,7 +72,7 @@ final class PhabricatorPhameZhHant
       'Draft Post' => '草稿文章',
       'Post title.' => '文章標題。',
       'If you archive this post, it will only be visible to users who can edit %s.' => '若您封存了此文章，這僅會被能編輯%s的使用者看見。',
-      'CHANGES TO BLOG DESCRIPTION' => '更改到部落格描述',
+      'CHANGES TO BLOG DESCRIPTION' => '更改部落格描述',
       'Phame Blog' => 'Phame 部落格',
       '%s renamed this blog from %s to %s.' => '%s將此部落格從%s改名成%s。',
       'A post\'s content changes.' => '文章的內容更改。',

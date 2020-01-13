@@ -41,7 +41,7 @@ final class PhabricatorGuidesFrFR
       'You\'ve created at least one project.' => 'Vous avez créé au moins un projet.',
       'See all the applications included in Phabricator.' => 'Voir toutes les applications incluses dans Phabricator.',
       'Build a Dashboard' => 'Créer un tableau de bord',
-      'It looks amazing, good work. Home Sweet Home.' => 'Ça a l’air fantastique, bon travail ! Maison, douce maison.',
+      'It looks amazing, good work. Home Sweet Home.' => 'Ça a l’air fantastique, bon travail ! Bienvenue chez vous !',
       'Two guidance extensions generated guidance with the same key ("%s"). Each piece of guidance must have a unique key.' => 'Deux extensions d’assistance ont généré une assistance avec la même clé (« %s »). Chaque pièce d’assistance doit avoir une clé unique.',
       'Notification Server' => 'Serveur de notification',
       'Authentication providers allow users to register accounts and log in to Phabricator.' => 'Les fournisseurs d’authentification permettent aux utilisateurs de s’inscrire avec leur compte et de se connecter à Phabricator.',
