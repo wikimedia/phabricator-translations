@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiBayer"
+		]
+	},
+	"04619b5d014f1cc6": "Senden Sie eine Benachrichtigung an einen Benutzer.",
+	"08f9150056d8f33f": "Der Benachrichtigungsserver sollte nicht als Root ausgeführt werden.",
+	"0ab7970d71c137fe": "Zwei Server (bei den Indizes „$1“ und „$2“) binden beide an den gleichen Port („$3“). Jeder Server muss sich an einen eindeutigen Port binden.",
+	"11399b1faec2eb8e": "$1 fehlgeschlagen!",
+	"197162c832f1d7fd": "FEHLER: Die PHP-Funktion $ 1 ist deaktiviert. Sie müssen es aktivieren, um Aphlict auf diesem Computer auszuführen.",
+	"2a74a7eaa12bf589": "Stoppen Sie den Benachrichtigungsserver.",
+	"2bea7e7c0b236c1c": "Konfigurationsdatei ist nicht richtig formatiert JSON.  $1",
+	"43256ef7ad916881": "FEHLER: Die PHP-Erweiterung '$1' ist nicht installiert. Sie müssen es installieren, um Aphlict auf diesem Computer auszuführen.",
+	"4c9c7a61da141fda": "Die Konfigurationsdatei enthält falsche Konfigurationsschlüssel auf oberster Ebene. $1",
+	"5884e7023c7e8b80": "Aphlict läuft nicht.",
+	"59c7d5844f411703": "Sie müssen zuerst $1!",
+	"7284ce8f9f3ef857": "Server starten:",
+	"78201785d503580e": "Aphlict Server wird im Vordergrund gestartet ...",
+	"7b1c6f1c1209a55f": "Server beendet!",
+	"7e9983dfa7bad024": "Starten Sie den Benachrichtigungsserver im Vordergrund und drucken Sie große Mengen an Diagnoseinformationen an die Konsole.",
+	"8bc94a976bc4b3a4": "Zeigt den Status des Benachrichtigungsservers an.",
+	"ac84f97164a13e1b": "Geben Sie einen Benutzer an, der mit „--user“ benachrichtigt werden soll.",
+	"b8842a8dde980ec6": "In der Konfigurationsdatei werden keine Client-Server angegeben. Dieser Dienst kann keine Benachrichtigungen ohne Client-Server senden. Sie müssen mindestens einen Server mit dem Typ „$1“ angeben.",
+	"c3e64797a0f467cd": "Zu sendende Nachricht.",
+	"c53b3cc01b6c1242": "In der Konfigurationsdatei werden keine Verwaltungsserver angegeben. Dieser Dienst kann keine Nachrichten empfangen. Sie müssen mindestens einen Server mit dem Typ \"$1\" angeben.",
+	"cea3124adbe8bdfe": "Aphlict Server ($1) wurde normal beendet.",
+	"d3c6844361a2d518": "Konfiguration lesen von: $1",
+	"e81031fd1ab36137": "Geben Sie eine Nachricht an, die mit „--message“ gesendet werden soll.",
+	"e9b8eb62ee46ecb8": "Benachrichtigung gesendet.",
+	"ecdb8b581842b4d5": "Verwenden Sie eine bestimmte Konfigurationsdatei anstelle der Standardkonfiguration.",
+	"ef767ed0bf9b70c0": "Aphlict Server wurde gestartet.",
+	"f1570b670f1047c5": "Aphlict Server wird gestoppt ($1) ...",
+	"9842684281972986": "Aphlict ($1) läuft."
+}

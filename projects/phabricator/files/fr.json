@@ -10,7 +10,8 @@
 			"Verdy p",
 			"Eihel",
 			"Thibaut120094",
-			"Eneelk"
+			"Eneelk",
+			"Symsym"
 		]
 	},
 	"00bb89e9c8a3cde1": "Ressource de modèle non trouvée (pour l’emblême « $1 ») avec les dimensions $2 × $3.",
@@ -282,7 +283,7 @@
 	"8fbf065ff5697d3c": "$1&nbsp;: Déjà stocké dans le moteur «&nbps;$2&nbsp;».",
 	"904d576bb777a99a": "$1&nbsp;: Déjà encodé dans le format cible.",
 	"911c649797ea3306": "$1: fichier temporaire expiré sauté.",
-	"925ab21f236fc487": "$1 : Le format de stockage (« $2 ») ne supporte pas les cycles de clé.",
+	"925ab21f236fc487": "$1 : Le format de stockage (« $2 ») ne supporte pas les cycles de clé.",
 	"929c13fb3abb44ab": "Chiffré (AES-256-CBC)",
 	"930bf66078bfa4eb": "Total d’Octets Migrés&nbsp;: $1",
 	"94d83bc5868093c3": "NON MODIFIÉ",
@@ -309,6 +310,7 @@
 	"a0cd950db0d9dfc8": "Le fichier « $1 » ne possède pas d'empreinte de hachage enregistrée.",
 	"a295f96df8e2e742": "Afficher en tant que vidéo",
 	"a2f2cc3bcb8e6efe": "Pas de fichier téléversé !",
+	"a3ba20301b2fa62a": "Déposez des fichiers à téléverser",
 	"a3cae41af1d0402a": "Source du téléversement",
 	"a423ed57b2c72e9d": "Orange Navel",
 	"a4358213f20e3d9a": "$1 px",
@@ -437,6 +439,7 @@
 	"e11523c5ff23fc16": "langue",
 	"e148f71acbb4548a": "Échec&nbsp;! $1",
 	"e191bbc969d57a1f": "Configurer de quels types MIME sont les images.",
+	"e22da81713255755": "Boîte en carton",
 	"e30fd090316fe8f0": "Réencoder des fichiers déjà stockés dans l’encodage cible.",
 	"e333f845201352d4": "Échec du chargement du modèle favicon intégré «&nbsp;$1&nbsp;».",
 	"e3892a156bedb845": "Balise de destination",
