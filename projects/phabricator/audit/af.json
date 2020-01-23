@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joris Darlington Quarshie"
+		]
+	},
+	"06a611b1ebbb1abd": "'N Verbintenis word geskep.",
+	"099b14e7d52d3f8b": "VERBRUIKERS",
+	"09aadb07f34da95b": "Soek verbintenisse met spesifieke identifiseerders (gewoonlik hasse). Ondersteun volledige of gedeeltelike identifiseerders (soos \"abcd12340987 ...\" of \"abcd1234\") en gekwalifiseerde of ongekwalifiseerde identifiseerders (soos \"rXabcd1234\" of \"abcd1234\").",
+	"0de6d35bf080350d": "$1 bedank uit die ouditering van $2.",
+	"0e9a10954f2571c8": "Die gespesifiseerde maksimum datum moet na die gespesifiseerde minimum datum kom.",
+	"0eb70949c203d567": "A commit se projekte verander.",
+	"13aa8b61f579a044": "Intekenare by $1 bygevoeg:$2.",
+	"1520661844a5a8d1": "Navrae-ouditversoeke.",
+	"17e4d773881595e8": "Pleeg",
+	"187ef68794fc1dd6": "Spesifiseer \"- alles\" om alles te beïnvloed, of 'n lys met spesifieke verbindings of bewaarplekke om te beïnvloed.",
+	"1910341ff26e79fd": "Dateer alle opdragte in alle bewaarplekke op.",
+	"1c33da17bfe29d46": "Intekenare bygevoeg met $1...",
+	"228ec67211e55174": "'N Verbintenis word gesluit.",
+	"2beac95d8f120188": "Ouditeure het $1 bygevoeg ...",
+	"2cb0552e72ecb55f": "$1 het bedank uit hierdie oudit.",
+	"2f57e5cbb01c6275": "Dateer \"$1\" ($2) op ...",
+	"2fa00e1f71a227b9": "Ouditeurs van $1 het $2:$3 verwyder.",
+	"2fbc7256d48c1045": "Kies slegs oudits in 'n gegewe lys bewaarplekke.",
+	"304747ac00cb4edb": "Geen sinchronisasieveranderings vir \"$1\" nie.",
+	"3211c0f43fa72a66": "Soek of sluit onbereikbare verbindings uit wat nie voorouers van enige tak, etiket of verwysing is nie.",
+	"32b90aeab5d9365b": "Welkom by Oudit",
+	"335137ea9b49b88e": "Kies slegs oudits vir begaan op of na die gegewe datum.",
+	"367e08c55c41b89c": "Voorwerp \"$1\" is nie 'n geldige objek nie.",
+	"38b50be6631312a4": "Verberg onbereikbare verbindings",
+	"3b104ea091773e71": "Oudit is nie nodig nie",
+	"42499b7561e65ca9": "$1 het $2 gepleeg (geskryf deur $3).",
+	"456129a1c4091ddc": "Kies slegs oudits vir begaan op of voor die gegewe datum.",
+	"47b807194933536b": "Almal verbind",
+	"483dbff71fe0b149": "Ouditeurs het $1 by $2:$3 gevoeg."
+}
