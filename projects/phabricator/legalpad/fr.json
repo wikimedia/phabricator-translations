@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Derugon"
 		]
 	},
 	"04850b7990a815ff": "Toutes les signatures",
@@ -17,8 +18,14 @@
 	"24af646938221671": "Le nom de l'entreprise est requis.",
 	"28ed81cbd17193e8": "Titre du document.",
 	"290d4f3c3edf73fe": "Une adresse courriel valide est requise.",
+	"2d514e7ced041b52": "Impossible de Vérifier la Signature",
 	"2e9a840acd4ee593": "Signé par",
+	"3142970c1419587b": "Courriel de Contact",
 	"3262584e94152fb1": "Corps du document",
+	"35597ff99eda07f2": "Le nom de contact est requis.",
+	"360e5da378cf57d0": "Aucune signature ne correspond à la requête.",
+	"378ea7458fb40cd9": "En interaction avec des Documents Legalpad",
+	"4078e387a8c8d747": "$1 a actualisé le document textuel.",
 	"43842ee6759bd097": "Le corps de texte du document.",
 	"443c3733754885af": "Non signé",
 	"4adc20a5a440dd41": "Signature déjà vérifiée",
