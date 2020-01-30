@@ -3,7 +3,8 @@
 		"authors": [
 			"Wladek92",
 			"Zarisi",
-			"Derugon"
+			"Derugon",
+			"Thibaut120094"
 		]
 	},
 	"04850b7990a815ff": "Toutes les signatures",
@@ -18,9 +19,9 @@
 	"24af646938221671": "Le nom de l'entreprise est requis.",
 	"28ed81cbd17193e8": "Titre du document.",
 	"290d4f3c3edf73fe": "Une adresse courriel valide est requise.",
-	"2d514e7ced041b52": "Impossible de Vérifier la Signature",
+	"2d514e7ced041b52": "Impossible de vérifier la signature",
 	"2e9a840acd4ee593": "Signé par",
-	"3142970c1419587b": "Courriel de Contact",
+	"3142970c1419587b": "Courriel de contact",
 	"3262584e94152fb1": "Corps du document",
 	"35597ff99eda07f2": "Le nom de contact est requis.",
 	"360e5da378cf57d0": "Aucune signature ne correspond à la requête.",

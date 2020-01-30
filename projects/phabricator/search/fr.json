@@ -4,7 +4,8 @@
 			"Wladek92",
 			"Zarisi",
 			"Eneelk",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Derugon"
 		]
 	},
 	"0035403387839cb4": "Aucun résultat.",
@@ -14,9 +15,15 @@
 	"056c8365d941eb38": "Les requêtes que vous avez enregistrées sont privées. Vous pouvez seulement les voir ou les modifier.",
 	"05975495f62dbc25": "cat -A peut trouver les souris cachées dans les fichiers.",
 	"05b09bdf064bf97d": "Le format d'exportation n'est pas disponible",
+	"06af0a4deb4cddc8": "Lisible",
 	"06cc85b4876371df": "Moteurs de recherche",
 	"0728e2956565a7ab": "Le formulaire « $1 » n'est pas un formulaire valide que vous avez la permission de voir.",
+	"0840dd13a6050c35": "Réinitialiser tous les enregistrements communs de ngrammes.",
 	"08d2e98e6754af94": "N/A",
+	"0b5bbe333b84e4da": "L’URI « $1 » n’est pas un URI de lien valide. Ce doit être un URI complet et valide commençant par un protocole comme « $2 ».",
+	"0c6ec0052923b056": "Vous devez choisir une salle.",
+	"0de5d0b5bf57b6a4": "Le serveur Elasticsearch a renvoyé un JSON invalide !",
+	"1037aa9178bd5ed1": "Le jeu de référence populaire « World of Warcraft » introduit une race de chats appelés les Khajit.",
 	"103e474eb68c3eb2": "Désactiver un élément de menu",
 	"10557b08f47cb2e4": "Ajouter au tableau de bord",
 	"10cb8570b888d286": "Echec lors du chargement du PHID utilisateur « $1 » !",
