@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
 	"00a64a49b8cbf97e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorAuthFactorProviderNameTransaction.php:32",
 	"012f3cfd29d66d76": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthProviderConfigTransaction.php:93",
 	"014c82cd910f7392": "Used in:\n\nPhabricatorAuthContactNumberViewController.php:116\nPhabricatorAuthContactNumberDisableController.php:68",
@@ -246,7 +250,7 @@
 	"47d41f7fec9db6fd": "Used in:\n\nPhabricatorAuthNewFactorAction.php:17",
 	"4809c6e3a1b58fe7": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthLoginController.php:131",
 	"49179159921db611": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthManagementStripWorkflow.php:120",
-	"4a3baef3d85cea02": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthOneTimeLoginController.php:185",
+	"4a3baef3d85cea02": "Variable Types: NONE.\nUsed in:\n\nPhabricatorAuthOneTimeLoginController.php:185\n\n{{Identical|Login}}",
 	"4a40922929c06527": "Used in:\n\nPhabricatorAuthSetExternalController.php:84\nPhabricatorAuthSetPasswordController.php:136",
 	"4ad45a179c323ff1": "Used in:\n\nPhabricatorAuthDisableController.php:74",
 	"4b0c4f03df17e618": "Used in:\n\nPhabricatorAuthFactorProviderEditEngine.php:120",
@@ -722,7 +726,7 @@
 	"d4ea8750854afcef": "Used in:\n\nPhabricatorAuthOneTimeLoginController.php:91",
 	"d510ae63f2dc4696": "Used in:\n\nPhabricatorAuthRegisterController.php:186",
 	"d510e5be34868617": "Used in:\n\nPhabricatorAuthFactor.php:414",
-	"d527bf3db3dc8af6": "Used in:\n\nPhabricatorAuthStartController.php:267\nPhabricatorAuthLoginController.php:245\nPhabricatorAuthLoginController.php:252\nPhabricatorAuthMainMenuBarExtension.php:50\nPhabricatorLDAPAuthProvider.php:87\nPhabricatorPasswordAuthProvider.php:176\nPhabricatorPasswordAuthProvider.php:177\nPhabricatorAuthProvider.php:433\nPhabricatorAuthInviteEngine.php:91\nPhabricatorAuthInviteEngine.php:101\nPhabricatorAuthInviteEngine.php:112",
+	"d527bf3db3dc8af6": "Used in:\n\nPhabricatorAuthStartController.php:267\nPhabricatorAuthLoginController.php:245\nPhabricatorAuthLoginController.php:252\nPhabricatorAuthMainMenuBarExtension.php:50\nPhabricatorLDAPAuthProvider.php:87\nPhabricatorPasswordAuthProvider.php:176\nPhabricatorPasswordAuthProvider.php:177\nPhabricatorAuthProvider.php:433\nPhabricatorAuthInviteEngine.php:91\nPhabricatorAuthInviteEngine.php:101\nPhabricatorAuthInviteEngine.php:112\n\n{{Identical|Login}}",
 	"d53952fda5180c11": "Used in:\n\nPhabricatorAuthTemporaryTokenTypeModule.php:11",
 	"d5dcec90f21e21c7": "Used in:\n\nPhabricatorAuthLinkMessageType.php:14",
 	"d63e3b0f4d345778": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorAuthStartController.php:285",

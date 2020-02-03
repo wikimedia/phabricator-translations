@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Hedda"
+			"Hedda",
+			"Elisa3626"
 		]
 	},
 	"0294e4a93c79fe48": "Çeviri aktarmak için bir kütüphaneye giden yolu belirtin.",
@@ -38,5 +39,5 @@
 	"dfae14ab8a277d61": "Geçiş --clean dizeleri çıkarmadan önce önbellekleri bırakmak ve tamamen temiz bir işlem yapmak için alttaki temizleyiciye temizleyin. Yavaş!",
 	"e2bcda84facb3954": "Yapıldı.",
 	"eab817b44c709f8e": "Oluşturulan çeviri dosyasını yazacağınız yer.",
-	"f3514b3c6942c1c2": "PLURAL"
+	"f3514b3c6942c1c2": "ÇOĞUL"
 }
