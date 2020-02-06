@@ -69,7 +69,7 @@
 	"1d2755de8072e768": "Yapı Yeniden Başlatılamıyor",
 	"1d466506ab7d3f80": "Dosya Yüklenemiyor",
 	"1da414dc0c9bfc10": "Hedef Oluştur",
-	"1ddcb26af9d388b4": "Değişikliklerin nasıl alınacağını belirleyemiyor: bu oluşturulabilir bir taahhüt veya sahneleme ref. Bir havuz hazırlama alanını yapılandırmanız gerekebilir.",
+	"1ddcb26af9d388b4": "Değişikliklerin nasıl alınacağını belirleyemiyor: bu oluşturulabilir bir taahhüt veya referans. Bir Depo hazırlama alanını yapılandırmanız gerekebilir.",
 	"1de7cbb73c296758": "Yapı planı yüklenemedi (\"$1\").",
 	"1e0468210239b56a": "Planı __id__'de çalıştır __buildable__.",
 	"1e2f9d2edee23cd7": "Adım $1",

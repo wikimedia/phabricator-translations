@@ -6,7 +6,7 @@
 	},
 	"05fe7803b131a33c": "Keyfi bir PHID hakkında bilgi al.",
 	"0a751e41cfcf8b01": "İstenen tanıtıcı \"$1\" yüklenmedi.",
-	"131ada2c91031e5e": "Kollar, görüntüleyici tanıtıcı havuz önbelleğini kullanmalıdır.",
+	"131ada2c91031e5e": "Kollar, görüntüleyici tanıtıcı depo önbelleğini kullanmalıdır.",
 	"1498233146466f1f": "Sınırlı $1",
 	"1db177fa2f0941e1": "$1 bir değer değiştirmeye çalışıyor, ancak buna izin verilmiyor; işleç listeleri değişmez.",
 	"40acf4c5cd86049e": "$1 sınıfı \"$2\" geçersiz bir $3 özelliğine sahip. PHID sabitleri dört karakterli büyük bir dize olmalıdır.",

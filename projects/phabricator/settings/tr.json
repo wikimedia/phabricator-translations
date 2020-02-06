@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Elisa3626"
 		]
 	},
 	"005bfb7a94bf7cfb": "12 saat, 2:34 PM",
@@ -14,7 +15,7 @@
 	"07f43e8ed0175df2": "Sayfa Başlıkları",
 	"081214afa5e61766": "Kişisel Hesap Ayarları",
 	"0a5ee85414fe08e2": "ISO 8601: 2000-02-28",
-	"0a7613d185552486": "Pek çok metin editörü `editor://` gibi özel protokoller için URI işleyicileri olarak yapılandırılabilir. Böyle bir düzenleyiciniz varsa, Phabricator dosyaları yerel olarak açmak için tıklayabileceğiniz bağlantılar oluşturabilir.\n\nBu özel değişkenler desteklenir:\n\n| Değeri | İle Değiştirildi |\n|-------|---------------|\n| `%f`  | Dosya Adı |\n| `%l`  | Satır Numarası |\n| `%r`  | Havuz Çağrı Atama |\n| `%%`  | Kelimesi Kelimesine `%` |\n\n\nEditör yapılandırmasıyla ilgili eksiksiz talimatlar için, bkz. **[[ $1 | $2 ]]**.",
+	"0a7613d185552486": "Pek çok metin editörü `editor://` gibi özel protokoller için URI işleyicileri olarak yapılandırılabilir. Böyle bir düzenleyiciniz varsa, Phabricator dosyaları yerel olarak açmak için tıklayabileceğiniz bağlantılar oluşturabilir.\n\nBu özel değişkenler desteklenir:\n\n| Değeri | İle Değiştirildi |\n|-------|---------------|\n| `%f`  | Dosya Adı |\n| `%l`  | Satır Numarası |\n| `%r`  | Depo Çağrı Atama |\n| `%%`  | Kelimesi Kelimesine `%` |\n\n\nEditör yapılandırmasıyla ilgili eksiksiz talimatlar için, bkz. **[[ $1 | $2 ]]**.",
 	"0ccb7998ecc39302": "Genel Varsayılan Ayarlar",
 	"0d32db227630073a": "Öz Eylemler",
 	"117cb5da2ea671e9": "Fiziksel Özellikleri Kullanıcı Arayüzünün hangi dili kullanmasını istediğinizi seçin.",
@@ -36,7 +37,7 @@
 	"223e06c52a7be78d": "Boş dize \"$1\" için geçerli bir ayar değil.",
 	"22de712b363a08cc": "Saat Dilimini Ayarla",
 	"2326911fce66e350": "Dosya Ağacını Göster",
-	"2785923283c90225": "$1 profilini güncelledi",
+	"2785923283c90225": "$1 profilini güncelledi (kadın)",
 	"2857028e63b0ec49": "İrtibat Numarası Ekleyin",
 	"287eac13ff391a05": "**Değişken Konular** etkin durumdayken, çoğu posta konusu satırı, bir görevi sonlandıran bir kişi hakkında bildirimde bulunmak için içeriğinin kısa bir açıklamasını içerir.\n\n| Ayar                   | Örnek Posta Konusu\n|------------------------|----------------\n| Değişen Konular        | `[Maniphest] [Closed] T123: Example Task`\n| Konuları Değiştirmeyin | `[Maniphest] T123: Example Task`\n\nBu, postayı daha kullanışlı hale getirebilir, ancak bazı istemciler bu mesajları işlerken zorlanırlar. Bu seçeneğin devre dışı bırakılması, konu satırlarını daha az kullanışlı hale getirme pahasına ipliği geliştirebilir.",
 	"289d7173c274e090": "\"$1\" değeri \"$2\" ayarı için geçerli değil: geçerli değerler $3.",
@@ -59,7 +60,7 @@
 	"3e1f381cef22332d": "Çakışmayı Yoksayla",
 	"3e689d117cdb0790": "Değişen Konular",
 	"3e7981359eabb320": "Kimlik Doğrulama Faktörünü Sil",
-	"3fff18ee881011d9": "$1 profilini güncelledi",
+	"3fff18ee881011d9": "$1 profilini güncelledi (tarafsız cinsiyet)",
 	"4118c6e167591f89": "Şimdiki Ayar",
 	"42daf595ceea7c62": "Sağlayıcı: $1",
 	"4324c8282374e38e": "Değişken Genişlik Yazı Tipi Kullan",
@@ -118,7 +119,7 @@
 	"801cabd6132e73b5": "Girdiğiniz eski şifre yanlış.",
 	"8046b2c59389017a": "◐ Bildirim",
 	"820b3589050baac0": "Bu tarayıcı, bu Phabricator örneği için masaüstü bildirimleri gönderme iznini reddetti. Bu ayarın nasıl temizleneceğini bulmak için tarayıcı ayarlarınıza / belgelerinize bakın, yapın ve ardından izin vermek için bu sayfayı tekrar ziyaret edin.",
-	"82eee03b7377ded6": "$1 profilini güncelledi",
+	"82eee03b7377ded6": "$1 profilini güncelledi (erkek)",
 	"831ed79a5dc6229c": "Tarih ve saat tercihlerinizi Ayarlar'dan değiştirebilirsiniz.",
 	"83576438219a4943": "Bazı editörler, tek bir URI ile birden fazla dosyayı açmayı destekler. Editörünüzün davranışını burada belirleyebilirsiniz.",
 	"866166feba27470f": "Saat Dilimi Kalibre Edildi",
