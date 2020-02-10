@@ -330,7 +330,7 @@
 	"68c52cc0f74d9233": "Conversion avec l'encodage bogus.",
 	"68dca5018915dc29": "L'adresse IP « $1 » n’est pas bien formatée. Les segments de l’adresse ne doivent pas avoir de zéro devant, mais le segment « $2 » en a un.",
 	"68f78c0175cbee1e": "La définition de $1 '$2' dans le fichier '$3' duplique la définition antérieure dans le fichier '$4'. Vous ne pouvez pas déclarer deux fois le même symbole.",
-	"6983011e2d0c3b02": "Emoji (Internet)",
+	"6983011e2d0c3b02": "Émoji (Internet)",
 	"69d61715163f6242": "Votre version de '$1' n’est pas construite ou est obsolète. Lancez ce script pour la construire.",
 	"69d97c5797dc7d21": "août",
 	"6a07da041c441c9c": "Tentative de lecture depuis une propriété $1 non déclarée.",
