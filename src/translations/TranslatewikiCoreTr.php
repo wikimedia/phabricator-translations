@@ -42,7 +42,7 @@ final class TranslatewikiCoreTr
       'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'Geçiş --clean dizeleri çıkarmadan önce önbellekleri bırakmak ve tamamen temiz bir işlem yapmak için alttaki temizleyiciye temizleyin. Yavaş!',
       'Done.' => 'Yapıldı.',
       'Location to write the generated translation file.' => 'Oluşturulan çeviri dosyasını yazacağınız yer.',
-      'PLURAL' => 'PLURAL',
+      'PLURAL' => 'ÇOĞUL',
     );
   }
 

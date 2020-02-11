@@ -74,7 +74,7 @@ final class PhabricatorHarbormasterTr
       'Unable to Restart Build' => 'Yapı Yeniden Başlatılamıyor',
       'Unable to Load File' => 'Dosya Yüklenemiyor',
       'Build Target' => 'Hedef Oluştur',
-      'Unable to determine how to fetch changes: this buildable does not identify a commit or a staging ref. You may need to configure a repository staging area.' => 'Değişikliklerin nasıl alınacağını belirleyemiyor: bu oluşturulabilir bir taahhüt veya sahneleme ref. Bir havuz hazırlama alanını yapılandırmanız gerekebilir.',
+      'Unable to determine how to fetch changes: this buildable does not identify a commit or a staging ref. You may need to configure a repository staging area.' => 'Değişikliklerin nasıl alınacağını belirleyemiyor: bu oluşturulabilir bir taahhüt veya referans. Bir Depo hazırlama alanını yapılandırmanız gerekebilir.',
       'Failed to load build plan ("%s").' => 'Yapı planı yüklenemedi ("%s").',
       'Run plan __id__ on __buildable__.' => 'Planı __id__\'de çalıştır __buildable__.',
       'Step %d' => 'Adım %s',

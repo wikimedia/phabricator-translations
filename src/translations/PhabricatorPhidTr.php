@@ -11,7 +11,7 @@ final class PhabricatorPhidTr
     return array(
       'Retrieve information about an arbitrary PHID.' => 'Keyfi bir PHID hakkında bilgi al.',
       'Requested handle "%s" was not loaded.' => 'İstenen tanıtıcı "%s" yüklenmedi.',
-      'Handles should use viewer handle pool cache.' => 'Kollar, görüntüleyici tanıtıcı havuz önbelleğini kullanmalıdır.',
+      'Handles should use viewer handle pool cache.' => 'Kollar, görüntüleyici tanıtıcı depo önbelleğini kullanmalıdır.',
       'Restricted %s' => 'Sınırlı %s',
       'Trying to mutate a %s, but this is not permitted; handle lists are immutable.' => '%s bir değer değiştirmeye çalışıyor, ancak buna izin verilmiyor; işleç listeleri değişmez.',
       '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.' => '%s sınıfı "%s" geçersiz bir %s özelliğine sahip. PHID sabitleri dört karakterli büyük bir dize olmalıdır.',

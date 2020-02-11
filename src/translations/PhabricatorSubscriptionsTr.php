@@ -32,7 +32,7 @@ final class PhabricatorSubscriptionsTr
       'Mute this object? You will no longer receive notifications or email about it.' => 'Bu nesneyi sessize alınsın mı? Artık bununla ilgili bildirim veya e-posta almayacaksınız.',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => '%s hedefini daha önce abonelikten çıktıkları için yeniden göndermeyi reddetti: %s.',
       'Removed %s subscriber(s): %s.' => '%s abone(ler) kaldırıldı: %s.',
-      'Unsubscribe' => 'Abonelikten Çık',
+      'Unsubscribe' => 'Abonelikten çık',
       'Bad Object' => 'Kötü Nesne',
       'Add users or projects as subscribers.' => 'Abone olarak kullanıcılar veya projeler ekleyin.',
       'Add subscribers: %s.' => 'Abone ekle: %s.',

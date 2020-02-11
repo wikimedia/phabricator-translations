@@ -57,7 +57,7 @@ final class PhabricatorUiexampleFrFR
       'March 12' => '12 Mars',
       'Code with Friends' => 'Codez avec des amis',
       'Buttons' => 'Boutons',
-      'Emoji' => 'Emoji',
+      'Emoji' => 'Émoji',
       'When it is prohibitively expensive or complex to attain a complete count of the items, you can select one extra item and set %s if it exists, creating an inexact pager.' => 'Quand il coûte cher ou est compliqué d\'atteindre un grand nombre de thèmes, Vous pouvez sélectionner un thème extra en y mettant %s, s\'il en existe, et créer des pages non précises.',
       'Copy "Quack" to Clipboard' => 'Ecrit "Quack" dans le presse-papiers',
       'Bugmeister' => 'Bugmeister',

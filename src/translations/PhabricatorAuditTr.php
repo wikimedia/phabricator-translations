@@ -26,7 +26,7 @@ final class PhabricatorAuditTr
       '%s resigned from this audit.' => '%s bu denetimden istifa etti.',
       'Updating "%s" (%s)...' => '"%s" güncelleniyor (%s)...',
       '%s removed auditors from %s: %s.' => '%s, %s denetçiyi kaldırdı: %s.',
-      'Select only audits in a given list of repositories.' => 'Yalnızca belirli bir havuz listesindeki denetimleri seçin.',
+      'Select only audits in a given list of repositories.' => 'Yalnızca belirli bir depo listesindeki denetimleri seçin.',
       'No synchronization changes for "%s".' => '"%s" için senkronizasyon değişikliği yok.',
       'Find or exclude unreachable commits which are not ancestors of any branch, tag, or ref.' => 'Herhangi bir şube, etiket veya referansın atası olmayan ulaşılamayan taahhütleri bulun veya hariç tutun.',
       'Welcome to Audit' => 'Denetim\'e Hoş Geldiniz',

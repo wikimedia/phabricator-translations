@@ -1125,7 +1125,7 @@ final class PhabricatorCoreFrFR
       'This page raised PHP errors. Find them in DarkConsole or the error log.' => 'Cette page a provoqué des erreurs PHP. Recherchez les à l\'aide de DarkConsole ou du journal des erreurs.',
       'ScopeEngine text map must be a 1-based map of lines.' => 'La correspondance de texte pour ScopeEngine doit être une correspondance de lignes basées sur 1.',
       'Task %d has exceeded the maximum number of failures (%d).' => 'La tâche %s a dépassé le nombre maximal d\'échecs (%s).',
-      'Find Emoji:' => 'Emoji trouvé:',
+      'Find Emoji:' => 'Émoji trouvé :',
       'Restrict **destroy** operations to databases created by %s test fixtures.' => 'Restreindre les opérations de **destruction** aux bases de données créées par les installations de test %s.',
       'Subversion' => 'Subversion',
       'Device' => 'Appareil',

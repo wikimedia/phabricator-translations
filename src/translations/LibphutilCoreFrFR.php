@@ -346,7 +346,7 @@ final class LibphutilCoreFrFR
       'Conversion with bogus encoding.' => 'Conversion avec l\'encodage bogus.',
       'IP address "%s" is not properly formatted. Address segments should have no leading zeroes, but segment "%s" has a leading zero.' => 'L\'adresse IP « %s » n’est pas bien formatée. Les segments de l’adresse ne doivent pas avoir de zéro devant, mais le segment « %s » en a un.',
       'Definition of %s \'%s\' in file \'%s\' duplicates prior definition in file \'%s\'. You can not declare the same symbol twice.' => 'La définition de %s \'%s\' dans le fichier \'%s\' duplique la définition antérieure dans le fichier \'%s\'. Vous ne pouvez pas déclarer deux fois le même symbole.',
-      'Emoji (Internet)' => 'Emoji (Internet)',
+      'Emoji (Internet)' => 'Émoji (Internet)',
       'Your version of \'%s\' is unbuilt or out of date. Run this script to build it.' => 'Votre version de \'%s\' n’est pas construite ou est obsolète. Lancez ce script pour la construire.',
       'August' => 'août',
       'Attempt to read from undeclared property %s.' => 'Tentative de lecture depuis une propriété %s non déclarée.',

@@ -33,7 +33,7 @@ final class PhabricatorSettingsTr
     |-------|---------------|
     | `%%f`  | Dosya Adı |
     | `%%l`  | Satır Numarası |
-    | `%%r`  | Havuz Çağrı Atama |
+    | `%%r`  | Depo Çağrı Atama |
     | `%%%%`  | Kelimesi Kelimesine `%%` |
     Editör yapılandırmasıyla ilgili eksiksiz talimatlar için, bkz. **[[ %s | %s ]]**.',
       'Global Default Settings' => 'Genel Varsayılan Ayarlar',
@@ -65,7 +65,7 @@ final class PhabricatorSettingsTr
       'Empty string is not a valid setting for "%s".' => 'Boş dize "%s" için geçerli bir ayar değil.',
       'Adjust Timezone' => 'Saat Dilimini Ayarla',
       'Show Filetree' => 'Dosya Ağacını Göster',
-      '%s updated her profile' => '%s profilini güncelledi',
+      '%s updated her profile' => '%s profilini güncelledi (kadın)',
       'Add Contact Number' => 'İrtibat Numarası Ekleyin',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
     | Setting              | Example Mail Subject
@@ -98,7 +98,7 @@ final class PhabricatorSettingsTr
       'Ignore Conflict' => 'Çakışmayı Yoksayla',
       'Vary Subjects' => 'Değişen Konular',
       'Delete Authentication Factor' => 'Kimlik Doğrulama Faktörünü Sil',
-      '%s updated their profile' => '%s profilini güncelledi',
+      '%s updated their profile' => '%s profilini güncelledi (tarafsız cinsiyet)',
       'Current Setting' => 'Şimdiki Ayar',
       'Provider: %s' => 'Sağlayıcı: %s',
       'Use Variable-Width Font' => 'Değişken Genişlik Yazı Tipi Kullan',
@@ -171,7 +171,7 @@ final class PhabricatorSettingsTr
       'The old password you entered is incorrect.' => 'Girdiğiniz eski şifre yanlış.',
       '◐ Notify' => '◐ Bildirim',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Bu tarayıcı, bu Phabricator örneği için masaüstü bildirimleri gönderme iznini reddetti. Bu ayarın nasıl temizleneceğini bulmak için tarayıcı ayarlarınıza / belgelerinize bakın, yapın ve ardından izin vermek için bu sayfayı tekrar ziyaret edin.',
-      '%s updated his profile' => '%s profilini güncelledi',
+      '%s updated his profile' => '%s profilini güncelledi (erkek)',
       'You can change your date and time preferences in Settings.' => 'Tarih ve saat tercihlerinizi Ayarlar\'dan değiştirebilirsiniz.',
       'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => 'Bazı editörler, tek bir URI ile birden fazla dosyayı açmayı destekler. Editörünüzün davranışını burada belirleyebilirsiniz.',
       'Timezone Calibrated' => 'Saat Dilimi Kalibre Edildi',
