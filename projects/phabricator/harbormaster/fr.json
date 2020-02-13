@@ -7,7 +7,8 @@
 			"Verdy p",
 			"Wladek92",
 			"Zarisi",
-			"Gomoko"
+			"Gomoko",
+			"Zetud"
 		]
 	},
 	"00bb37fda5eb6c1d": "Construire l’artefact",
@@ -108,7 +109,7 @@
 	"29dd54d4945cc14f": "Aborter les anciens builds",
 	"2a930f02b2285068": "Suspendre la construction",
 	"2ae95bca39663745": "En interaction avec des systèmes de construction externes",
-	"2b13e86c8109f3d8": "Toute progression sur cette construction sera annulé. Abandonner vraiment la construction ?",
+	"2b13e86c8109f3d8": "Toute progression sur cette construction sera annulée. Abandonner vraiment la construction ?",
 	"2b299414cdbda1db": "Le chemin du fichier contenant le message lint, à partir de la racine du projet.",
 	"2c36369094b03592": "Une étape de construction suit les mêmes politiques que son plan de construction.",
 	"2c8d3b79a35a5812": "Reconstruction du jounal « $1 »...",

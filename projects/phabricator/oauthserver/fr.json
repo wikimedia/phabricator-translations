@@ -4,7 +4,8 @@
 			"Derugon",
 			"Verdy p",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Zetud"
 		]
 	},
 	"04852e522970a284": "Activer l’application OAuth",
@@ -12,7 +13,7 @@
 	"0b7624a00f95c0ed": "L'application OAuth « $1 » a été désactivée.",
 	"0cf0421f43bf39a5": "Autoriser l'application",
 	"0e2ae1134b142d7e": "$1 a activé cette application.",
-	"0ed67f9c6c84fdb5": "La requête a inclu un paramètre client_id et une entête « Autorisation » avec un nom d’utilisateur, mais les valeur « $1 » et « $2 » diffèrent. Celles-ci doivent correspondre aux paramètres précédents.",
+	"0ed67f9c6c84fdb5": "La requête a inclus un paramètre client_id et une entête « Autorisation » avec un nom d’utilisateur, mais les valeurs « $1 » et « $2 » diffèrent. Celles-ci doivent correspondre aux paramètres précédents.",
 	"12e90f1337b9e627": "Le serveur d’autorisation a rencontré une condition inattendue qui l’a empêché de remplir la requête.",
 	"13e9967e164ae1b1": "Aucun client trouvé.",
 	"178483710b612c6f": "Fournisseur d’identifiant OAuth",

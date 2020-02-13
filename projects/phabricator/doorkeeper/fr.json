@@ -8,7 +8,8 @@
 			"Athena Atterdag",
 			"Urhixidur",
 			"Verdy p",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Eneelk"
 		]
 	},
 	"09542fd1209ec021": "Phabricator fonctionne en mode silencieux.",
@@ -19,7 +20,7 @@
 	"1dbe92bcf4dc6bb3": "$1 n’a pas d’objet visible de l’autre côté ; cela signifie sans doute que la tâche Asana a été supprimée.",
 	"21325fc653810a8d": "Utilisation de l’éditeur '$1'.",
 	"225ae892707ec8d7": "Connecter avec un autre logiciel",
-	"23b89d9d78b45e13": "Échec de misse à jour de l’objet $1 en utilisant l’utilisateur $2.",
+	"23b89d9d78b45e13": "Échec de mise à jour de l’objet $1 en utilisant l’utilisateur $2.",
 	"2b49e429f27cd888": "Vous pouvez trouver un ID de projet Asana en cliquant sur le projet dans Asana et en examinant l’URL :\n\n  lang=txt\n  https://app.asana.com/0/12345678901234567890/111111111111111111\n                          ^^^^^^^^^^^^^^^^^^^^\n                        Voici l’ID à utiliser.",
 	"4abcab3948408ed9": "Aucun fournisseur Asana configuré.",
 	"4c7e3895c330ac46": "Options d’intégration de Asana.",
