@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Tiger"
 		]
 	},
+	"0f0973483d912464": "屏蔽",
 	"1eda447e23cc5832": "订阅者",
 	"1eebe0c8018ccf4c": "将我从订阅者中移除",
 	"1f333fc696a56fe6": "移除订阅者。",
