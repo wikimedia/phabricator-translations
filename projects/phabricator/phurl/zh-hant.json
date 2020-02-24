@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Xiplus"
 		]
 	},
 	"04259816ace1ebe5": "別名",
@@ -41,7 +42,7 @@
 	"a693b5428598101f": "URL 的協定無效。",
 	"aa6a3c7d21a2659f": "$1 已將 $2 的別名從 $3 更改成 $4。",
 	"adcb04dd8415e654": "申請辦理來建立新的或編輯現有的 Phurl URL。",
-	"adfeed5ca5a97e35": "簡短 URL",
+	"adfeed5ca5a97e35": "短網址",
 	"bc508dbf3069908a": "縮短一個 URL",
 	"bed22f6094ab6791": "無效 URL",
 	"c0f6b306a68004a7": "新 URL 名稱。",

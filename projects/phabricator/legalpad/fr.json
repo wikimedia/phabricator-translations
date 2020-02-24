@@ -4,7 +4,8 @@
 			"Wladek92",
 			"Zarisi",
 			"Derugon",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Eneelk"
 		]
 	},
 	"04850b7990a815ff": "Toutes les signatures",
@@ -18,7 +19,7 @@
 	"2496ba749538b39c": "Chercher les documents signés par certains utilisateurs.",
 	"24af646938221671": "Le nom de l'entreprise est requis.",
 	"272bd8191667d9e9": "Document Legalpad",
-	"28cb3eab81986147": "$1 a modifié $2 document(s) légal/aux requis, ajouté $3 : $3 ; retiré $5 :$6.",
+	"28cb3eab81986147": "$1 a modifié $2 {{PLURAL:$2|document légal requis|documents légaux requis}}, en a ajouté $3 : $4, et en a supprimé $5 : $6.",
 	"28ed81cbd17193e8": "Titre du document.",
 	"290d4f3c3edf73fe": "Une adresse courriel valide est requise.",
 	"2d514e7ced041b52": "Impossible de vérifier la signature",

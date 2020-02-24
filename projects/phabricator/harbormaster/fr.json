@@ -8,7 +8,8 @@
 			"Wladek92",
 			"Zarisi",
 			"Gomoko",
-			"Zetud"
+			"Zetud",
+			"Pamputt"
 		]
 	},
 	"00bb37fda5eb6c1d": "Construire l’artefact",
@@ -132,12 +133,14 @@
 	"34423605aa21dda8": "PHID de build non valide « $1 ».",
 	"34bdb52068f64e02": "Trouver des informations sur les constructibles.",
 	"350e7a5f434cfec0": "L’ID du plan de construction à lancer.",
+	"353d3a1e4fd936a4": "Cette construction reprend déjà. Vous ne pouvez pas réémettre une commande de reprise à une construction qui reprend.",
 	"354895509b1ea713": "Lancer le plan de construction manuellement",
 	"354be20fb3294177": "Limiter la vitesse à laquelle le journal est écrit, pour tester le streaming des journaux directement.",
 	"3551306bd09f2dcd": "Lancé pour $1",
 	"3584f5277b490609": "Afficher davantage au-dessus",
 	"36bea0db992c7c60": "**rebuild-log** --id __id__ [__options__]\n**rebuild-log** --all",
 	"36f218bc80978229": "$1 a créé ce plan de construction.",
+	"372968011e5ebabc": "Recherchez les constructions qui exécutent un plan de construction donné.",
 	"37807c451f3fbb89": "Vous n’avez pas la permission de créer des plans de construction Harbormaster.",
 	"37e445adf30f37b7": "Le plan de construction « $1 » n’existe pas.",
 	"3a492786cd89961a": "Fichier téléversé",
@@ -179,6 +182,7 @@
 	"47272a007af9ba7e": "Cette cible n’a pas d’artéfacts associés.",
 	"47b3671314c23e0b": "Choisir les états de construction",
 	"48747f5f1c9ca20c": "Nouvelle étape : $1",
+	"48a2a5049b64b986": "Ce plan de construction sera bloqué lors de son exécution, en raison des dépendances circulaires présentes dans le plan de construction. Examinez la liste des étapes et trouvez une solution au blocage.",
 	"496bd42d652e555e": "Ce journal plus ancien n'a pas les données nécessaires pour faire le rendu. Pour reconstruire les données de rendu, exécutez : $1",
 	"499af6f6ffb4c423": "Aucun constructible « $1 » n’existe !",
 	"4a9cf6bd94d3ef6a": "PHID de l'objet construit.",
