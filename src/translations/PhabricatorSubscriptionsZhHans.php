@@ -9,6 +9,7 @@ final class PhabricatorSubscriptionsZhHans
 
   protected function getTranslations() {
     return array(
+      'Mute' => '屏蔽',
       'subscribers' => '订阅者',
       'Remove me as a subscriber' => '将我从订阅者中移除',
       'Remove subscribers.' => '移除订阅者。',

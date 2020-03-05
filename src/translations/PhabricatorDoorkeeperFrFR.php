@@ -18,7 +18,7 @@ final class PhabricatorDoorkeeperFrFR
       '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s n’a pas d’objet visible de l’autre côté ; cela signifie sans doute que la tâche Asana a été supprimée.',
       'Using publisher \'%s\'.' => 'Utilisation de l’éditeur \'%s\'.',
       'Connect to Other Software' => 'Connecter avec un autre logiciel',
-      'Failed to update object %s using user %s.' => 'Échec de misse à jour de l’objet %s en utilisant l’utilisateur %s.',
+      'Failed to update object %s using user %s.' => 'Échec de mise à jour de l’objet %s en utilisant l’utilisateur %s.',
       'You can find an Asana project ID by clicking the project in Asana and then examining the URL:
       lang=txt
       https://app.asana.com/0/12345678901234567890/111111111111111111

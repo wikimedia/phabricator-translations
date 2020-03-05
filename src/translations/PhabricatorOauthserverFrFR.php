@@ -14,7 +14,7 @@ final class PhabricatorOauthserverFrFR
       'OAuth application "%s" has been disabled.' => 'L\'application OAuth « %s » a été désactivée.',
       'Authorize Application' => 'Autoriser l\'application',
       '%s enabled this application.' => '%s a activé cette application.',
-      'Request included a client_id parameter and an "Authorization" header with a username, but the values "%s" and "%s") disagree. The values must match.' => 'La requête a inclu un paramètre client_id et une entête « Autorisation » avec un nom d’utilisateur, mais les valeur « %s » et « %s » diffèrent. Celles-ci doivent correspondre aux paramètres précédents.',
+      'Request included a client_id parameter and an "Authorization" header with a username, but the values "%s" and "%s") disagree. The values must match.' => 'La requête a inclus un paramètre client_id et une entête « Autorisation » avec un nom d’utilisateur, mais les valeurs « %s » et « %s » diffèrent. Celles-ci doivent correspondre aux paramètres précédents.',
       'The authorization server encountered an unexpected condition which prevented it from fulfilling the request.' => 'Le serveur d’autorisation a rencontré une condition inattendue qui l’a empêché de remplir la requête.',
       'No clients found.' => 'Aucun client trouvé.',
       'OAuth Login Provider' => 'Fournisseur d’identifiant OAuth',

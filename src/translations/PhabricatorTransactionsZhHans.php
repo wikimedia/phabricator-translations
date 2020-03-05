@@ -11,6 +11,7 @@ final class PhabricatorTransactionsZhHans
     return array(
       'Lock / Hide Fields' => '锁定/隐藏字段',
       'Unmark as "Edit" Form' => '取消标记为“编辑”表单',
+      'Transactions have no effect:' => '交易无效果：',
       'Builtin Form "%s"' => '内置表单“%s”',
       '%s added a comment.' => '%s添加了一段评论。',
       'Empty Comment' => '空白评论',

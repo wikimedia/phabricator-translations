@@ -10,12 +10,18 @@ final class PhabricatorCoreCa
   protected function getTranslations() {
     return array(
       'Question' => 'Pregunta',
+      'No repository "%s" exists!' => 'No existeix cap repositori "%s"!',
+      'Save Related Commits' => 'Desa comissions relacionades',
       '%s edited %s.' => '%s va editar %s.',
+      'Welcome to Phabricator!' => 'Benvingut a Phabricator!',
+      'View \'%s\' does not support children.' => 'La vista \'%s\' no admet fills.',
       'Move Document' => 'Mou document',
       'Maximum must be larger than minimum.' => 'El màxim ha de ser més gran que el mínim.',
+      'User "%s" is not a valid user.' => 'L\'usuari "%s" no és vàlid.',
       'Authored' => 'Autor',
       'No config value specified for key \'%s\'.' => 'No s\'ha especificat cap valor de configuració per la clau \'%s\'.',
       'Creators' => 'Creadors',
+      'An absolute date, as a string.' => 'Una data absoluta, com a cadena.',
       'Minus' => 'Menys',
       'OPTIMIZE' => 'OPTIMITZA',
       'Unsubmitted Comments' => 'Comentaris no enviats',

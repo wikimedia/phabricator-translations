@@ -51,7 +51,7 @@ final class PhabricatorMetaZhHant
       'Can\'t set non-public policies to public.' => '不能設定非公共方針為公共。',
       '%s installed %s.' => '%s 安裝了%s。',
       'Phabricator is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => 'Phabricator 目前未設置接受站內郵件。在站內郵件設定好之前，您無法與對象互動。',
-      'Configure Application Forms' => '設置應用程式表單',
+      'Configure Application Forms' => '設置應用程式形式',
       'Show Applications w/ App Email Support' => '顯示有應用程式郵件支援的應用程式',
       'Uninstall' => '解除安裝',
       'After configuring Phabricator to process inbound mail, you can interact with objects (like tasks and revisions) over email. For information on configuring Phabricator, see **[[ %s | Configuring Inbound Email ]]**.
@@ -88,7 +88,7 @@ final class PhabricatorMetaZhHant
       'Quick Reference' => '快速參考',
       'Show Applications w/o App Email Support' => '顯示沒有應用程式郵件支援的應用程式',
       'Are you absolutely certain you want to uninstall the Home application?' => '您確定要解除安裝首要應用程式？',
-      'Configure creation and editing forms in Applications.' => '設置在應用程式的建立與編輯表單。',
+      'Configure creation and editing forms in Applications.' => '設置在應用程式的建立與編輯形式。',
       'Provenance' => '出處',
       'Show Prototype Applications' => '顯示原型應用程式',
       '%s changed the "%s" policy for application %s from "%s" to "%s".' => '%s 將用於應用程式「%3$s」的方針「%2$s」從「%s」更改成「%s」。',
