@@ -9,7 +9,8 @@
 			"Zarisi",
 			"Gomoko",
 			"Zetud",
-			"Pamputt"
+			"Pamputt",
+			"Urhixidur"
 		]
 	},
 	"00bb37fda5eb6c1d": "Construire l’artefact",
@@ -87,7 +88,7 @@
 	"1f61149f5294a91d": "Rechercher les cibles d’une construction donnée.",
 	"1f66a69868cb43b8": "Activer le plan de construction",
 	"200c0ac14cb36f41": "Publier un fragment basé sur un artéfact de fichier.",
-	"206ec1f75484ace5": "En créant un artéfact, vous choisirez un 'artifactType' de ce tableau. Ces types d’artéfacts sont supportés :",
+	"206ec1f75484ace5": "En créant un artéfact, vous choisirez un 'artifactType' de ce tableau. Ces types d’artéfacts sont pris en charge :",
 	"20ab9763ce701943": "Abandon",
 	"212952d912cdb450": "$1 autre(s) test(s)",
 	"217554f64cee93de": "Un constructible hérite des politiques de l’objet souligné.",
