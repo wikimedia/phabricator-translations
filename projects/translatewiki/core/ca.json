@@ -5,7 +5,13 @@
 			"Joseplluis"
 		]
 	},
+	"0294e4a93c79fe48": "Proporciona la ruta a una llibreria per exportar traduccions.",
+	"057a91bd9d909212": "No s'ha pogut extreure la cadena amb el patró no reconegut \"%\", \"$1\": $2",
 	"0654a028e5aea48c": "CAP",
+	"124328edcc87415b": "Proporciona un codi local amb \"--locale\".",
+	"17b6d98715597264": "Ignorant la cadena \"$1\"; no present en el fitxer origen de traducció.",
+	"2c22da08dc82f0ba": "Proporciona la ruta a una llibreria exacta per exportar traduccions.",
+	"38877d794cbf1943": "Proporciona un nom de projecte per exportar cadenes amb \"--as\".",
 	"49427ff57fe09816": "GÈNERE",
 	"70cca40d69431794": "Llegeix $1 cadena(es).",
 	"79e0ecf9d32e5b43": "Dada de freqüència",

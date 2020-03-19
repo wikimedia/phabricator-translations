@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Grkn gll"
 		]
 	},
 	"00e46c015f972018": "Kaldırılan uygulamaların listesini içeren dizi.",
@@ -237,7 +238,7 @@
 	"4584668461c10ef7": "'$1' okunabilir olmadığından PATH bileşeni '$3' ('$2' mutlak yolu olarak çözülür) kullanılamaz.",
 	"45b2d872b3c7c149": "Maniphest alanları artık otomatik olarak yükleniyor. Bunları `$1` ile yapılandırabilirsiniz.",
 	"45f3f4847f082327": "Bu anahtarın olması beklenir, ancak yoktur.",
-	"46f754bc21c0be2b": "Normal modu",
+	"46f754bc21c0be2b": "Normal mod",
 	"4782469ecc362275": "Süreklilik",
 	"47f8dbf7d35406e5": "Bu şemanın olması bekleniyor, ancak yok.",
 	"48183d942f9fd2d7": "Pigment Kullanmayın",
