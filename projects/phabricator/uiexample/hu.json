@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tothasze"
+			"Tothasze",
+			"Gtgt"
 		]
 	},
 	"010b85ad56b34c34": "Első lépések",
@@ -18,7 +19,7 @@
 	"0a858c95bc97fa8f": "Eső",
 	"0aeb7a3f6dc6b872": "Másik kisebb esemény.",
 	"0c652b52a06cc275": "Beállítási hibák és figyelmeztetések.",
-	"0e434c2358327922": "Állapotfülek",
+	"0e434c2358327922": "Státuszfülek",
 	"147df6860a4df5e8": "Ez az esemény zöld!",
 	"17479ed981248581": "PHUIObjectBoxView",
 	"17c9bd33ffa958d0": "Phabricator felhasználó",
@@ -76,7 +77,7 @@
 	"58974a0179553a5f": "Függvény token",
 	"664add438097fbd4": "Wikipédia",
 	"6732136f4e0d20ea": "Színtelen",
-	"677805da9b2c4e9d": "Állapotlista",
+	"677805da9b2c4e9d": "Státuszlista",
 	"69499c50ffd1b866": "Alapértelmezett felhasználói profil kép",
 	"6c4106ac0540c8b1": "Jelentős esemény.",
 	"80729cc5d8e09e32": "Ünnepek",
