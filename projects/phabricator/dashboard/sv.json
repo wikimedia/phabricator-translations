@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Paracel63"
 		]
 	},
 	"002997db3ca960c4": "Du har ännu inte skapat någon panel för kontrollpanelen, så du kan inte lägga till en befintlig panel.",
@@ -74,7 +75,7 @@
 	"669b243399ba57bf": "Alla paneler",
 	"69dded8353307446": "Visa kontrollpanel",
 	"6b949ff8fac3c40e": "Inga paneler.",
-	"6c76cf9023a8c869": "Börja med en enkel kontrollpanel med ett välkomstmeddelande, en matning över nyliga händelser och några startpaneler.",
+	"6c76cf9023a8c869": "Börja med en enkel kontrollmeny med ett välkomstmeddelande, en uppdatering över de senaste händelserna och några startpunkter.",
 	"71b665a89fbf3330": "Två kolumner, 2/3 och 1/3",
 	"73dd9b65feba71dc": "För att skapa en ny panel för kontrollpaneler måste du välja en paneltyp.",
 	"77bddc6a0f76f440": "Två kolumner, 1/3 och 2/3",
