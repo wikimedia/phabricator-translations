@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0fb59422f6006b36": "Used in:\n\nMultimeterSampleController.php:231\nMultimeterSampleController.php:237\nMultimeterSampleController.php:274",
 	"1b3d1f152ab0af85": "Used in:\n\nMultimeterEvent.php:37",
 	"1db7ceb187824c6b": "Used in:\n\nMultimeterSampleController.php:285",

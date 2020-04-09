@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00e46c015f972018": "Used in:\n\nPhabricatorCoreConfigOptions.php:229",
 	"00e84a14b1a4ebbb": "Used in:\n\nPhabricatorConfigClusterNotificationsController.php:54",
 	"0119d90faa247aa4": "Used in:\n\nPhabricatorExtendingPhabricatorConfigOptions.php:31",

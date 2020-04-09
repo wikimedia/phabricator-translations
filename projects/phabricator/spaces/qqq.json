@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"032769c60d684b08": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorSpacesNamespaceDescriptionTransaction.php:24",
 	"038e435cc8ba7cb4": "Used in:\n\nPhabricatorSpacesNoAccessController.php:36",
 	"10b1c36ab8c3e88a": "Used in:\n\nPhabricatorSpacesApplication.php:40",

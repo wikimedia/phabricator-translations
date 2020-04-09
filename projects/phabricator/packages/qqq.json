@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"000da3e13a570535": "Used in:\n\nPhabricatorPackagesPublisherKeyTransaction.php:27",
 	"02ca2bb505ef0916": "Used in:\n\nPhabricatorPackagesPublisherSearchEngine.php:81",
 	"0839fa67624f9e78": "Variable Types: NONE, PLURAL.\nUsed in:\n\nPhabricatorPackagesPackage.php:94",

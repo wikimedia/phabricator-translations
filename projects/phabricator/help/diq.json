@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Mirzali",
 			"Orbot707"
 		]
@@ -8,6 +9,7 @@
 	"17b251be5661401b": "Neya piya diyaloga pêroyın racınê",
 	"2e0984a922fef3db": "Protokolê editoriyo ke desteg nêvêniyeno",
 	"40586493191bb270": "Eyaran bıvurne",
+	"4da9b13fc11f66a8": "Konfigure editore şıma URI, pheşti nêdeyaye yew protokol karneno. Desteg deyaye yew protokoli karnayışi rê eyaranê ho bıvurnê ya zi xızmetkarê ho ra protokolê cêrêni Konfigure kerdışa cıkerdışi bıwazê : $1",
 	"6bbbdac8f41b22d9": "$1 Peşti",
 	"b465751c05fbc426": "Rayakılma klavyey"
 }

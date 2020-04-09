@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseplluis",
+			"ESM",
 			"Fitoschido",
-			"ESM"
+			"Joseplluis"
 		]
 	},
 	"00c7859ed071e887": "Crea una tasca",
@@ -399,7 +399,7 @@
 	"e668690efccb93ad": "Prioritat reduïda",
 	"e79e2a66660ae991": "Tancat per",
 	"e84b442b09390f7c": "$1 ha tancat aquesta tasca com $2 en validar $3.",
-	"e87342e2018515f7": "$1 ha canviat el subtipus d'aquesta tasca de \"$2\" a \"$3\".",
+	"e87342e2018515f7": "$1 ha canviat el subtipus d'aquesta tasca de «$2» a «$3».",
 	"e87a435206b12ce3": "Crea una nova tasca de Maniphest.",
 	"e88c6cb51d87ffc5": "Crea una nova tasca",
 	"e976ffc1ec889772": "Llegeix informació sobre les tasques.",

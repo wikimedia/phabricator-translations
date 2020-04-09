@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92",
 			"DSwissK",
+			"Eneelk",
+			"Thibaut120094",
 			"Urhixidur",
 			"Verdy p",
-			"Eneelk",
-			"Thibaut120094"
+			"Wladek92"
 		]
 	},
 	"0b06f65a8ccab6ac": "L'extension « $1 » n'est pas installée sur ce système, le codage des caractères n'est donc pas pris en compte. Installez « $2 » pour activer cette fonctionnalité.",

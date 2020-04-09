@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00106df7cb2c4d04": "Used in:\n\nPhabricatorCalendarEventSearchEngine.php:349",
 	"03888d8f39449ba0": "Used in:\n\nPhabricatorCalendarEventEditEngine.php:200",
 	"045bc9f1dcd940dc": "Used in:\n\nPhabricatorCalendarEventEditEngine.php:199",

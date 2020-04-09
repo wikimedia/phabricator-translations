@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko",
-			"Tektasc",
-			"TomT0m",
-			"Wladek92",
-			"Zarisi",
 			"Cquoi",
 			"Derugon",
+			"Gomoko",
+			"Tektasc",
+			"Thibaut120094",
+			"TomT0m",
 			"Urhixidur",
 			"Verdy p",
-			"Thibaut120094"
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"0063efbde77d19e7": "Vérifier que tout est correct avec le diff. Quand vous serez satisfait, **créez une nouvelle révision** ou **mettez à jour une révision existante**.",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0011bad3ecc480f3": "Used in:\n\nPhabricatorEditEngineConfigurationLockController.php:114\nPhabricatorEditEngineConfigurationViewController.php:158",
 	"0046d5690d69508d": "Used in:\n\nPhabricatorApplicationTransactionEditor.php:2736",
 	"0072838ce7dea87e": "Used in:\n\nPhabricatorEditEngineConfigurationViewController.php:213",

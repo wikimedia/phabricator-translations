@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"000441498344168a": "Used in:\n\nPhabricatorDaemonManagementWorkflow.php:469",
 	"010f4cc420dbd262": "Used in:\n\nPhabricatorDaemonConsoleController.php:85",
 	"040dc6258cc37a4b": "Used in:\n\nPhabricatorDaemonManagementStatusWorkflow.php:14",

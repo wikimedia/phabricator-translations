@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0eb5ed506e4923c2": "Used in:\n\nPHUIIconCircleView.php:101\nPhabricatorApplicationUninstallController.php:85\nPhabricatorApplicationUninstallController.php:114",
 	"13f5a9342308a4f0": "Used in:\n\nPhabricatorApplicationUninstallController.php:117",
 	"17c7ba7676ad1ad6": "Used in:\n\nPhabricatorApplicationEmailCommandsController.php:98",

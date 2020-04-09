@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00c0cf3b69c5a54c": "Used in:\n\nPhabricatorUserBlurbField.php:21",
 	"00cd69a399cafa6f": "Used in:\n\nPhabricatorPeopleLogSearchEngine.php:85",
 	"0122e9c739631483": "Used in:\n\nPhabricatorPeopleNewController.php:155",

@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226",
-			"Wladek92",
 			"FF11",
+			"Liuxinyu970226",
 			"Pyscowicz",
-			"Verdy p"
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"00003a701ef56dd7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$2641 ArcanistDiffWorkflow.php:2641]",

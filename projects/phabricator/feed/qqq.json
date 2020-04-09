@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"027c66bf37c9a3b4": "Variable Types: NONE.\nUsed in:\n\nPhabricatorFeedStoryPublisher.php:89",
 	"20d3d91741172383": "Used in:\n\nFeedQueryConduitAPIMethod.php:34",
 	"355a429bd0ea65d5": "Used in:\n\nPhabricatorFeedSearchEngine.php:113",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00061bade7e1c5b9": "Variable Types: NONE.\nUsed in:\n\nPhabricatorRepositoryPullEngine.php:67",
 	"00db78e6f6de8bed": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\nPhabricatorRepositoryManagementReparseWorkflow.php:150",
 	"00f7adcfa5b54e66": "Variable Types: NONE.\nUsed in:\n\nPhabricatorRepositoryRefEngine.php:453\nPhabricatorRepositoryDiscoveryEngine.php:696",

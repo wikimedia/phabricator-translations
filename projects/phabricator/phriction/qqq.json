@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"01f55bf10a17e740": "Used in:\n\nPhrictionDocument.php:285",
 	"045bc6c93af84113": "Used in:\n\nPhrictionEditConduitAPIMethod.php:40\nPhrictionCreateConduitAPIMethod.php:29",
 	"0691c225d7708594": "Variable Types: PLURAL.\nUsed in:\n\nPhrictionDiffController.php:204",

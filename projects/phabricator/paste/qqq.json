@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"01675fb1f0240d47": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\nPhabricatorPasteTitleTransaction.php:45",
 	"03b422a28459bdef": "Used in:\n\nPhabricatorPasteApplication.php:26",
 	"066b0b1afad0a8e1": "Used in:\n\nPhabricatorPasteViewController.php:131\nPhabricatorPasteArchiveController.php:53\nPhabricatorPasteArchiveController.php:55",

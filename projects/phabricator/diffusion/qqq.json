@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0007d61d3fd18c30": "Used in:\n\nDiffusionCommitEditEngine.php:65",
 	"003e9f65338133c4": "Variable Types: NONE.\nUsed in:\n\nDiffusionBrowseController.php:1029",
 	"004dbc40ba3e61c4": "Used in:\n\nDiffusionRequest.php:523",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00d5d73d3809e925": "Used in:\n\nPhabricatorGuideInstallModule.php:98",
 	"04ed5a30ea0bcc04": "Used in:\n\nPhabricatorGuideQuickStartModule.php:27",
 	"0efe2f85cd67c809": "Used in:\n\nPhabricatorGuideQuickStartModule.php:41",

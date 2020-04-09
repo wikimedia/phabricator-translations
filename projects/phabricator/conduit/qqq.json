@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0008bde8eebd806d": "Used in:\n\nConduitResultSearchEngineExtension.php:17",
 	"004c3ad67ff7186a": "Used in:\n\nPhabricatorConduitLogSearchEngine.php:7\nConduitLogGarbageCollector.php:9",
 	"00b93566bf7ce6cb": "Used in:\n\nPhabricatorConduitAPIController.php:612",

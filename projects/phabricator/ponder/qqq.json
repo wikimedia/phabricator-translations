@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"02fc4e2708e20a21": "Used in:\n\nPonderQuestionEditEngine.php:37",
 	"04cf8c77ea56466f": "Variable Types: NONE.\nUsed in:\n\nPonderAnswerStatusTransaction.php:20",
 	"050762667fad1abf": "Used in:\n\nPonderQuestionViewController.php:97\nPonderQuestionEditEngine.php:90",

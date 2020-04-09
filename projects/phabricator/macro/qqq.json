@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0041a1ba739de8b5": "Used in:\n\nPhabricatorMacroAudioController.php:108",
 	"0274d4572c3a1a94": "Used in:\n\nPhabricatorMacroApplication.php:60",
 	"03a734345e50ac59": "Used in:\n\nPhabricatorMacroMemeDialogController.php:68",

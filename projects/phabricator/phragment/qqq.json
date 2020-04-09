@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"01930cef554f2834": "Used in:\n\nPhragmentSnapshotCreateController.php:37",
 	"043fc1f0192aee8d": "Used in:\n\nPhragmentController.php:111\nPhragmentUpdateController.php:54\nPhragmentUpdateController.php:59\nPhragmentUpdateController.php:66",
 	"078bf7548061317b": "Used in:\n\nPhabricatorPhragmentApplication.php:6",

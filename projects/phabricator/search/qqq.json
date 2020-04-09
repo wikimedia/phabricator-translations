@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0035403387839cb4": "Used in:\n\nPhabricatorSearchManagementQueryWorkflow.php:49",
 	"01b86a4d55b3406f": "Used in:\n\nPhabricatorProfileMenuEngine.php:1092",
 	"01d0283e8122b9b5": "Used in:\n\nPhabricatorSearchDeleteController.php:67",

@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92",
-			"Zarisi",
-			"TomT0m",
 			"Gomoko",
 			"Tektasc",
-			"Thibaut120094"
+			"Thibaut120094",
+			"TomT0m",
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"002997db3ca960c4": "Vous n’avez pas encore créé d’onglets de tableau de bord, donc vous ne pouvez pas ajouter un onglet existant.",

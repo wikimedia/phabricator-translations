@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00376cc3bc87d6f7": "Variable Types: NONE, NONE.\nUsed in:\n\nPhamePostSubtitleTransaction.php:35\nPhameBlogSubtitleTransaction.php:35",
 	"0154c0dabe7145db": "Used in:\n\nPhameBlog.php:165",
 	"02a839a53904db72": "Used in:\n\nPhamePostEditor.php:112",

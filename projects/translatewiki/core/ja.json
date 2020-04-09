@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yusuke1109",
-			"Shirayuki"
+			"Shirayuki",
+			"Yusuke1109"
 		]
 	},
 	"0294e4a93c79fe48": "翻訳をエクスポートするライブラリへのパスを提供します。",

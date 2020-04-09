@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"04259816ace1ebe5": "Used in:\n\nPhabricatorPhurlURLViewController.php:138\nPhabricatorPhurlURLEditEngine.php:96",
 	"07220ddc07168239": "Used in:\n\nPhabricatorPhurlURLViewController.php:114",
 	"0e2d9b0777a485c1": "Used in:\n\nPhabricatorRemarkupControl.php:89\nPhabricatorPhurlURLPHIDType.php:8\nPhabricatorPhurlURLEditEngine.php:53\nPhabricatorPhurlURLEditEngine.php:87",

@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko",
-			"Wladek92",
-			"Zarisi",
 			"Derugon",
-			"Thibaut120094"
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"027c66bf37c9a3b4": "Appelez $1 avant de publier!",

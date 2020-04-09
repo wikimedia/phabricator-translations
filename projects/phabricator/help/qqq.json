@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"17b251be5661401b": "Used in:\n\nPhabricatorHelpKeyboardShortcutController.php:25",
 	"2e0984a922fef3db": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:16",
 	"40586493191bb270": "Used in:\n\nPhabricatorHelpEditorProtocolController.php:24",

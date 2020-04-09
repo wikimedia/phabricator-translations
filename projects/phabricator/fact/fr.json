@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92",
-			"Zarisi",
 			"Gomoko",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"082d1ecea396e7c3": "Analyser depuis le début, en ignorant les curseurs.",

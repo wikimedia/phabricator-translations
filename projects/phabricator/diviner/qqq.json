@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"03d15fc7d961504b": "Used in:\n\nDivinerArticleAtomizer.php:19",
 	"0832d97d98fd6967": "Used in:\n\nDivinerGenerateWorkflow.php:514",
 	"0b2906f6a7490d1a": "Used in:\n\nDivinerBookEditController.php:59",

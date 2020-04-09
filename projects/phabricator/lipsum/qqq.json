@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"29efd0bdaa04ae91": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:114",
 	"300371d205bbeec3": "Variable Types: NONE.\nUsed in:\n\nPhabricatorLipsumGenerateWorkflow.php:56",
 	"32332b3df8a3771d": "Used in:\n\nPhabricatorTestDataGenerator.php:55",

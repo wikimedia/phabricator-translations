@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"003cffcec51407e8": "Used in:\n\nPhortuneMerchantInvoiceCreateController.php:129",
 	"0067f926fc900ff0": "Used in:\n\nPhortuneCartSearchEngine.php:71",
 	"008098f22c2e5658": "Used in:\n\nPhortuneMerchantPictureController.php:182",

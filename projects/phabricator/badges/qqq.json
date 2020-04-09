@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"01ab47951fb99871": "Used in:\n\nPhabricatorBadgesIconSet.php:35",
 	"01de591f9a7842d6": "Used in:\n\nPhabricatorBadgesApplication.php:22",
 	"01f2f217dafe127a": "Used in:\n\nPhabricatorBadgesEditEngine.php:49",

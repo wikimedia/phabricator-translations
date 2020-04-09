@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00c7859ed071e887": "Used in:\n\nManiphestEditEngine.php:53",
 	"012360fe106fa9cb": "Used in:\n\nManiphestReportController.php:39\nManiphestReportController.php:398",
 	"013ec284eed0cb93": "Used in:\n\nPhabricatorManiphestConfigOptions.php:34",

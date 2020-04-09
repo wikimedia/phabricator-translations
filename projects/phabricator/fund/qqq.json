@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0006324868d87fff": "Used in:\n\nFundInitiativeEditEngine.php:134",
 	"09da16816c90724b": "Used in:\n\nFundInitiativeEditEngine.php:142\nFundInitiativeEditEngine.php:143",
 	"0c65384c668ba13b": "Variable Types: NONE.\nUsed in:\n\nFundInitiativeStatusTransaction.php:19",

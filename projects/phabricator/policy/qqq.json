@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\nPhabricatorPolicyFilter.php:832",
 	"021dfd70b626a618": "Used in:\n\nPhabricatorPolicyTestCase.php:84",
 	"02cb0b417bdaad52": "Used in:\n\nPhabricatorPolicyTestCase.php:489",

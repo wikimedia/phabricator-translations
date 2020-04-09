@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0169751a40ee94eb": "Used in:\n\nPhabricatorMetaMTAMailTestCase.php:399",
 	"0484745cc7badf2f": "Used in:\n\nPhabricatorMetaMTAActor.php:115\nPhabricatorMetaMTAEmailHeraldAction.php:78",
 	"05950ffbd615f46b": "Used in:\n\nPhabricatorMetaMTAMailSearchEngine.php:7",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"01bf752be30f20c2": "Used in:\n\nPhabricatorSlowvotePollController.php:145",
 	"0370b3c2ebef0246": "Used in:\n\nPhabricatorSlowvoteCloseController.php:54\nPhabricatorSlowvotePollController.php:91",
 	"0b867e3d3426fb2b": "Variable Types: NONE, NONE.\nUsed in:\n\nPhabricatorSlowvoteQuestionTransaction.php:44",

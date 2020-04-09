@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"04852e522970a284": "Used in:\n\nPhabricatorOAuthClientDisableController.php:51",
 	"076a9d109c3f1a23": "Used in:\n\nPhabricatorOAuthServerAuthController.php:142",
 	"0b7624a00f95c0ed": "Variable Types: NONE.\nUsed in:\n\nPhabricatorOAuthServerTokenController.php:139",

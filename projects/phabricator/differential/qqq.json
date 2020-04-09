@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0063efbde77d19e7": "Used in:\n\nDifferentialDiffViewController.php:98",
 	"01a9e2bd303ca0a2": "Variable Types: NONE.\nUsed in:\n\nDifferentialQueryConduitAPIMethod.php:112",
 	"01ad6994a4ed7cf0": "Used in:\n\nDifferentialRevisionEditEngine.php:220",

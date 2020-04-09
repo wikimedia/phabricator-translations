@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"007590c1cd808d4a": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\nConpherenceThreadParticipantsTransaction.php:58",
 	"02f47fb34831fb55": "Used in:\n\nConpherenceTransactionRenderer.php:177",
 	"084f66f5247a2022": "Used in:\n\nConpherenceEditEngine.php:86",

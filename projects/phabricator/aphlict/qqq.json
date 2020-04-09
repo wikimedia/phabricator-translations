@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"04619b5d014f1cc6": "Used in:\n\nPhabricatorAphlictManagementNotifyWorkflow.php:9",
 	"08f9150056d8f33f": "Used in:\n\nPhabricatorAphlictManagementWorkflow.php:363",
 	"0ab7970d71c137fe": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorAphlictManagementWorkflow.php:113",

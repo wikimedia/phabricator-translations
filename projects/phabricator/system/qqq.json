@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0af1e82803f33761": "Used in:\n\nPhabricatorSystemReadOnlyController.php:38",
 	"0b06f65a8ccab6ac": "Used in:\n\nPhabricatorSystemSelectEncodingController.php:18",
 	"0b0eef56faff5d89": "Used in:\n\nPhabricatorSystemReadOnlyController.php:30",

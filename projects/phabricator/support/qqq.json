@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"f32d5a3b17e61429": "Used in:\n\nPhabricatorSupportApplication.php:6"
 }

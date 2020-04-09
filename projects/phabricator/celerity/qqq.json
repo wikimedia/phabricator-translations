@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"046419b845c2560f": "Used in:\n\nCelerityDefaultPostprocessor.php:13",
 	"04cb07ada8365ae6": "Used in:\n\nCelerityResourceMap.php:47",
 	"0815b2ca68359582": "Variable Types: NONE, NONE.\nUsed in:\n\nCelerityStaticResourceResponse.php:204",

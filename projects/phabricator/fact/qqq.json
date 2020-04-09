@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"082d1ecea396e7c3": "Used in:\n\nPhabricatorFactManagementAnalyzeWorkflow.php:20",
 	"09477b727f04e230": "Variable Types: NONE.\nUsed in:\n\nPhabricatorFactManagementAnalyzeWorkflow.php:47",
 	"0ef5d021f674ecb8": "Used in:\n\nPhabricatorFactManagementAnalyzeWorkflow.php:9",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"09542fd1209ec021": "Used in:\n\nDoorkeeperFeedWorker.php:161",
 	"0a776c937debb469": "Used in:\n\nPhabricatorAsanaConfigOptions.php:139",
 	"0cf4ab87df9edb87": "Used in:\n\nPhabricatorAsanaConfigOptions.php:28",

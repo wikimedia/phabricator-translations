@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"02c2a0c48898b578": "Used in:\n\nPassphraseCredentialEditController.php:343\nPassphraseController.php:12\nPassphraseController.php:33",
 	"05e5d7263e6c8f40": "Used in:\n\nPassphraseCredentialLockController.php:33",
 	"0acba555f26df56a": "Variable Types: NONE.\nUsed in:\n\nPassphraseCredentialLockTransaction.php:26",

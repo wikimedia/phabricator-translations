@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dinoxel",
-			"Gomoko",
-			"Wladek92",
-			"Zarisi",
 			"Athena Atterdag",
+			"Dinoxel",
+			"Eneelk",
+			"Gomoko",
+			"Thibaut120094",
 			"Urhixidur",
 			"Verdy p",
-			"Thibaut120094",
-			"Eneelk"
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"09542fd1209ec021": "Phabricator fonctionne en mode silencieux.",

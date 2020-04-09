@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"05fe7803b131a33c": "Used in:\n\nPHIDInfoConduitAPIMethod.php:18",
 	"0a751e41cfcf8b01": "Variable Types: NONE.\nUsed in:\n\nPhabricatorHandleList.php:55",
 	"131ada2c91031e5e": "Used in:\n\nPhabricatorHandlePoolTestCase.php:55",

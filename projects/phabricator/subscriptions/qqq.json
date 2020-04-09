@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0f0973483d912464": "Used in:\n\nPhabricatorSubscriptionsMuteController.php:73",
 	"16b20e68bb281a3b": "Used in:\n\nPhabricatorSubscriptionsMailEngineExtension.php:16",
 	"1c25a826933ba2a7": "Used in:\n\nPhabricatorSubscriptionsMuteController.php:76\nPhabricatorSubscriptionsUIEventListener.php:108",

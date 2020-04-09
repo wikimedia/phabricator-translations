@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"0081abdb3fb33586": "Used in:\n\nPhabricatorOwnersAuditRule.php:88",
 	"01af49bb0754ec71": "Used in:\n\nPhabricatorOwnersPackageEditEngine.php:13",
 	"08f3ddff9bde36f9": "Used in:\n\nPhabricatorOwnersPackageNameTransaction.php:21",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"05e30d2a45e77780": "Used in:\n\nPhabricatorPHPASTApplication.php:6",
 	"1d2d5262d9a87a79": "Used in:\n\nPhabricatorXHPASTViewTreeController.php:32",
 	"1e0c281ce4e49361": "Used in:\n\nPhabricatorXHPASTViewRunController.php:49",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00a3cc5b55d618dc": "Used in:\n\nAlmanacBindingEditEngine.php:144",
 	"01579ede2f125abd": "Used in:\n\nAlmanacManagementTrustKeyWorkflow.php:26",
 	"01d1a67b7d3e15c4": "Used in:\n\nAlmanacSetPropertyEditType.php:14",

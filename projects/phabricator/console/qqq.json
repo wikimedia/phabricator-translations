@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"13d815bd29a02c64": "Used in:\n\nDarkConsoleEventPlugin.php:55",
 	"20c4efa6093294a8": "Used in:\n\nDarkConsoleXHProfPlugin.php:95",
 	"2e1d8fd9f8a5e965": "Used in:\n\nDarkConsoleEventPlugin.php:85",

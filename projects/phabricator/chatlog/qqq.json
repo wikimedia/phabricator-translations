@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"1d0b5687f0771685": "Used in:\n\nPhabricatorChatLogApplication.php:14",
 	"1eba140fdd9c6860": "Used in:\n\nPhabricatorChatLogChannelLogController.php:195",
 	"3480cf36b6c36a32": "Used in:\n\nChatLogQueryConduitAPIMethod.php:14",

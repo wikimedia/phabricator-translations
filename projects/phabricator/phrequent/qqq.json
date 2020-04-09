@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"08189b0386c8a9c6": "Used in:\n\nPhrequentCurtainExtension.php:55",
 	"0bb685943889897c": "Used in:\n\nPhrequentUserTimeQuery.php:249",
 	"10e0739fd63c014e": "Used in:\n\nPhrequentTrackController.php:82",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"008c665e5fdb3368": "Used in:\n\nPholioMockArchiveController.php:54",
 	"036231930e29da3d": "Used in:\n\nPholioMockEditController.php:293",
 	"04070cb3952d9f7c": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPholioImageReplaceTransaction.php:32",

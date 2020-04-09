@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"005b04a6a1c3f591": "Used in:\n\nHeraldTestConsoleController.php:81",
 	"00e9b1601c863797": "Used in:\n\nHeraldTranscriptController.php:331",
 	"0101e7547ce910cb": "Used in:\n\nHeraldNewController.php:72",

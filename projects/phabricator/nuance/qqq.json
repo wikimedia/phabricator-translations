@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00040bab8a787438": "Used in:\n\nNuanceQueueWorkController.php:22",
 	"013f20f131f47ded": "Used in:\n\nNuanceManagementUpdateWorkflow.php:10",
 	"03445b3b17a46b27": "Used in:\n\nNuanceGitHubRawEvent.php:303",

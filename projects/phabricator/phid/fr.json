@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Derugon",
 			"Wladek92",
-			"Zarisi",
-			"Derugon"
+			"Zarisi"
 		]
 	},
 	"05fe7803b131a33c": "Récupérer les informations concernant un PHID arbitraire.",

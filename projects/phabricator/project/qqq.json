@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00bacf55615d1518": "Used in:\n\nPhabricatorProjectNoProjectsDatasource.php:7",
 	"018514a3d58aa083": "Used in:\n\nPhabricatorProjectIconSet.php:50",
 	"01f6881d6a151ece": "Used in:\n\nPhabricatorProjectArchiveController.php:50",

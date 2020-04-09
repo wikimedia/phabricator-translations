@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zarisi",
-			"Wladek92"
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"0d8ce2e5f2f5c697": "Analyser le texte en refaisant un marquage dans le contexte de Phabricator.",

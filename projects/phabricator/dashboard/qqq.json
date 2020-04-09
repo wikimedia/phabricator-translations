@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"002997db3ca960c4": "Used in:\n\nPhabricatorDashboardAddPanelController.php:76",
 	"003e7968b57e3f4e": "Used in:\n\nPhabricatorDashboardPanelViewController.php:102\nPhabricatorDashboardPanelEditEngine.php:71\nPhabricatorDashboardPanelEditEngine.php:75",
 	"02329d90baaa4732": "Variable Types: NONE.\nUsed in:\n\nPhabricatorDashboardPanelEditController.php:78\nPhabricatorDashboardPanelEditEngine.php:67",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00bb37fda5eb6c1d": "Used in:\n\nHarbormasterBuildArtifactPHIDType.php:8",
 	"00cc2bd78e919197": "Used in:\n\nHarbormasterBuildPlanPHIDType.php:39",
 	"013ba87b38d1b5c6": "Used in:\n\nHarbormasterBuildTarget.php:39",

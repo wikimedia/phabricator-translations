@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"00bb89e9c8a3cde1": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhabricatorFaviconRef.php:403",
 	"01129f5fffd790a6": "Used in:\n\nPhabricatorFilesComposeIconBuiltinFile.php:177",
 	"01e438c7c6d998d6": "Used in:\n\nPhabricatorFilesManagementGenerateKeyWorkflow.php:26",
