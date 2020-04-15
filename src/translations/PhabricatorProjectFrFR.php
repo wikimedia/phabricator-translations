@@ -9,7 +9,7 @@ final class PhabricatorProjectFrFR
 
   protected function getTranslations() {
     return array(
-      'Timeline' => 'Planning',
+      'Timeline' => 'Planification',
       'Really activate project?' => 'Voulez-vous réellement activer le projet?',
       '%s changed project member(s), added %d: %s; removed %d: %s.' => '%s a modifié le/les membres du projet, ajouté %s: %s; enlevé %s: %s.',
       '%s set this project\'s color to %s.' => '%s a mis la couleur de ce projet à %s.',

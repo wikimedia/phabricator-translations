@@ -18,7 +18,7 @@ final class PhabricatorRepositoryTr
       'Push Event' => 'Etkinlik Gönder',
       'This URI will be shown to users as a clone URI.' => 'Bu URI, kullanıcılara klon URI\'si olarak gösterilecektir.',
       'Expected to find a git repository at \'%s\', but there is an empty directory there. Remove the directory: the daemon will run \'%s\' for you.' => '\'%s\' de bir git havuzu bulması bekleniyor, ancak orada boş bir dizin var. Dizini kaldırın: arka plan programı sizin için \'%s\' çalıştıracak.',
-      'The Almanac service for this repository is not bound to any interfaces.' => 'Bu depo için Almanac hizmeti hiçbir arayüze bağlı değildir.',
+      'The Almanac service for this repository is not bound to any interfaces.' => 'Bu depo için Almanak hizmeti hiçbir arayüze bağlı değildir.',
       'You have an old version of Mercurial (%s) which has a severe command injection security vulnerability. The remote URI for this repository (%s) is potentially unsafe. Upgrade Mercurial to at least 3.2.4 to clone it.' => 'Ciddi bir komut enjeksiyonu güvenlik açığı olan Mercurial\'ın (%s) eski bir sürümüne sahipsiniz. Bu depo için uzak URI (%s) potansiyel olarak güvensizdir. Klonlamak için Mercurial\'ı en az 3.2.4\'e yükseltin.',
       'Test Repo "%s"' => 'Repo "%s" Test Et',
       'Information about builtin URIs.' => 'Yerleşik URI\'lar hakkında bilgi.',
@@ -41,7 +41,7 @@ final class PhabricatorRepositoryTr
       'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".' => '"%s" deposu için veritabanı kayıtları imha edildi, ancak bu komut dosyası diskte çalışan kopyaları kaldırmıyor. Depo çalışma kopyasını da imha etmek istiyorsanız, "%s"yi manuel olarak kaldırın.',
       'Specify either --promote or --demote, but not both.' => '--promote veya --demote\'i ya da ikisini birden belirtmeyin.',
       'Another process is currently updating repository "%s", skipping pull.' => 'Başka bir işlem şu anda çekme işlemini atlayarak, "%s" deposunu güncelliyor.',
-      'This repository ("%s") is not writable with the given protocols (%s). The Almanac service for this repository has no writable bindings that support these protocols.' => 'Bu depo ("%s") verilen protokollerle (%s) yazılabilir değildir. Bu depoya yönelik Almanac hizmetinin, bu protokolleri destekleyen yazılabilir bir bağı yoktur.',
+      'This repository ("%s") is not writable with the given protocols (%s). The Almanac service for this repository has no writable bindings that support these protocols.' => 'Bu depo ("%s") verilen protokollerle (%s) yazılabilir değildir. Bu depoya yönelik Almanak hizmetinin, bu protokolleri destekleyen yazılabilir bir bağı yoktur.',
       '%s set the encoding for this repository to %s.' => '%s bu havuzun kodlamasını %s olarak ayarladı.',
       'This commit ("%s") is associated with a hosted repository ("%s"). Repositories must be imported from GitHub to be built with CircleCI.' => 'Bu işleme ("%s"), barındırılan bir depo ("%s") ile ilişkilendirilir. CircleCI ile oluşturulacak depolar GitHub\'dan ithal edilmelidir.',
       'Unable to identify parent "%s"!' => '"%s" üst tanımlanamadı!',
@@ -51,7 +51,7 @@ final class PhabricatorRepositoryTr
       'Hosted and Remote Repositories' => 'Barındırılan ve Uzak Depolar',
       'Repository Ref' => 'Depo Referansı',
       'Repository "%s" does not exist!' => '"%s" deposu mevcut değil!',
-      'The Almanac service for this repository is invalid or could not be loaded.' => 'Bu depo için Almanac hizmeti geçersiz veya yüklenemedi.',
+      'The Almanac service for this repository is invalid or could not be loaded.' => 'Bu depo için Almanak hizmeti geçersiz veya yüklenemedi.',
       'bookmark:' => 'yer imi:',
       '%s changed the credential for this URI from %s to %s.' => '%s, bu URI için kimlik bilgilerini %s\'den %s\'e değiştirdi.',
       'When hinting a commit ("%s") as rewritten, you must provide the commit it was rewritten into.' => 'Yeniden yazılan bir taahhüdü işaretlerken ("%s"), yeniden yazıldığı taahhüdü sağlamalısınız.',
@@ -164,7 +164,7 @@ final class PhabricatorRepositoryTr
     Verilen değer: \'%s\'',
       '%s set this repository to autoclose on all branches.' => '%s bu depoyu tüm şubelerde otomatik kapanmaya ayarladı.',
       '(This is a write request.)' => '(Bu bir yazma isteğidir.)',
-      'The Almanac service for this repository is not bound to any interfaces which support the required protocols (%s).' => 'Bu depoya yönelik Almanac hizmeti, gerekli protokolleri destekleyen (%s) herhangi bir arayüze bağlı değildir.',
+      'The Almanac service for this repository is not bound to any interfaces which support the required protocols (%s).' => 'Bu depoya yönelik Almanak hizmeti, gerekli protokolleri destekleyen (%s) herhangi bir arayüze bağlı değildir.',
       'Natural SVN root should work properly.' => 'Doğal SVN kökü düzgün çalışması gerekir.',
       'Skipping import step; this step was previously completed for this commit.' => 'İçe aktarma adımının atlanması; bu adım, bu taahhüt için daha önce tamamlanmıştır.',
       'Update __repository__. This performs the __pull__, __discover__, __refs__ and __mirror__ operations and is primarily an internal workflow.' => '__repository__\'yi güncelleyin. Bu __pull__, __discover__, __refs__ ve __mirror__ işlemlerini gerçekleştirir ve öncelikle bir iç iş akışıdır.',
@@ -253,7 +253,7 @@ final class PhabricatorRepositoryTr
     The Almanac device address for the correct device may improperly point at this host, or the "device.id" configuration file on this host may be incorrect.
     Requests routed within the cluster by Phabricator are always expected to be sent to a node which can serve the request. To prevent loops, this request will not be proxied again.
     %s' => 'Bu depo isteği ("%s" deposu için) hatalı bir küme ana bilgisayarına ("%s" aygıt adıyla ve "%s" aygıt adıyla) isteği iletemeyen.
-    Doğru cihaz için Almanac cihazı adresi bu ana makineye uygunsuz şekilde işaret edebilir veya bu ana bilgisayardaki "device.id" yapılandırma dosyası yanlış olabilir.
+    Doğru cihaz için Almanak cihazı adresi bu ana makineye uygunsuz şekilde işaret edebilir veya bu ana bilgisayardaki "device.id" yapılandırma dosyası yanlış olabilir.
     Küme içinde Phabricator tarafından yönlendirilen taleplerin her zaman talebe hizmet edebilecek bir düğüme gönderilmesi beklenir. Döngüleri önlemek için bu istek tekrar proksize edilmeyecektir.
     %s',
       'You are about to recreate the relationship entries between the commits and the packages they touch. This might delete some existing relationship entries for some old commits.' => 'Taahhütler ve dokundukları paketler arasındaki ilişki girişlerini yeniden yaratmak üzeresiniz. Bu, bazı eski taahhütler için varolan ilişki girişlerini silebilir.',
@@ -310,7 +310,7 @@ final class PhabricatorRepositoryTr
       'New Repository' => 'Yeni Depo',
       'Pushing "%s" to mirrors...' => 'Aynaya "%s" gönderiyor...',
       '%s set the callsign for this repository to %s.' => '%s bu depo için çağrı işaretini %s olarak ayarladı.',
-      'Repository "%s" is not a cluster repository: it is not bound to an Almanac service.' => '"%s" deposu bir küme deposu değil: bir Almanac hizmetine bağlı değil.',
+      'Repository "%s" is not a cluster repository: it is not bound to an Almanac service.' => '"%s" deposu bir küme deposu değil: bir Almanak hizmetine bağlı değil.',
       'Commit "%s" is not a reachable ancestor of "%s".' => '"%s" ibaresini "%s"\'nin ulaşılabilir bir atası değil.',
       'The commit identifier, if applicable.' => 'Varsa, işlem tanımlayıcı.',
       'Flag Names' => 'Bayrak İsimleri',
@@ -380,7 +380,7 @@ final class PhabricatorRepositoryTr
     %s',
       'Unknown hosted failed \'%s\'!' => 'Bilinmeyen barındırılan \'%s\' başarısız!',
       'Looking for new commits.' => 'Yeni taahhütler aranıyor.',
-      'The Almanac Service that hosts this repository, if the repository is clustered.' => 'Depo kümelenmişse, bu depoya ev sahipliği yapan Almanac Hizmeti.',
+      'The Almanac Service that hosts this repository, if the repository is clustered.' => 'Depo kümelenmişse, bu depoya ev sahipliği yapan Almanak Hizmeti.',
       'Show additional debugging information.' => 'Ek hata ayıklama bilgilerini göster.',
       'Exceptions occurred while mirroring the "%s" repository.' => '"%s" deposunu yansıtırken istisnalar oluştu.',
       'Specify one or more repositories to correct reachability status for.' => 'Erişilebilirlik durumunu düzeltmek için bir veya daha fazla depo belirtin.',

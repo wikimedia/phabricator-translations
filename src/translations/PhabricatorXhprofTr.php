@@ -30,7 +30,7 @@ final class PhabricatorXhprofTr
       'Drop .xhprof Files to Import' => '.xhprof Dosyaları İçe Aktarın',
       'Wall Time' => 'Duvar Saati',
       'Download %s Profile' => '%s Profili İndir',
-      'Child Calls' => 'Çocuk Çağrısı',
+      'Child Calls' => 'Alt Çağrısı',
     );
   }
 

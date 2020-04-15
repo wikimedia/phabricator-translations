@@ -20,6 +20,7 @@ final class PhabricatorNotificationZhHans
       'Unread Notifications' => '未读通知',
       'Unable to post message: this is not an admin server!' => '无法发送信息：这不是一台管理服务器！',
       'Disconnected' => '已断开连接',
+      '%s notification(s) about objects which no longer exist or which you can no longer see were discarded.' => '关于不再存在或您再也看不到的对象的%s通知已被丢弃。',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".' => '通知服务器的配置中存在以无法识别的类型（“%3$s”）描述的无效主机（“%1$s”，位于索引“%2$s”）。有效的类型应当为“%s”或“%s”。',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => '通知服务器的配置中存在以无法识别的协议（“%3$s”）描述的无效主机（“%1$s”，位于索引“%2$s”）。有效的协议应当为“%s”或“%s”。',
       'No notifications to mark as read.' => '没有可被标记为已读的通知',

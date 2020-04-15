@@ -79,7 +79,7 @@ final class PhabricatorDashboardSv
       'All Panels' => 'Alla paneler',
       'View Dashboard' => 'Visa kontrollpanel',
       'No panels.' => 'Inga paneler.',
-      'Start with a simple dashboard with a welcome message, a feed of recent events, and a few starter panels.' => 'Börja med en enkel kontrollpanel med ett välkomstmeddelande, en matning över nyliga händelser och några startpaneler.',
+      'Start with a simple dashboard with a welcome message, a feed of recent events, and a few starter panels.' => 'Börja med en enkel kontrollmeny med ett välkomstmeddelande, en uppdatering över de senaste händelserna och några startpunkter.',
       'Two columns, 2/3 and 1/3' => 'Två kolumner, 2/3 och 1/3',
       'To create a new dashboard panel, you must select a panel type.' => 'För att skapa en ny panel för kontrollpaneler måste du välja en paneltyp.',
       'Two columns, 1/3 and 2/3' => 'Två kolumner, 1/3 och 2/3',

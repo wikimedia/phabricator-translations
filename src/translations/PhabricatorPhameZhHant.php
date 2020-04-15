@@ -29,7 +29,7 @@ final class PhabricatorPhameZhHant
       'Search for posts within certain blogs.' => '以一些部落格來搜尋文章。',
       'Post subtitle.' => '文章副標題。',
       'No external domain' => '沒有外部網域',
-      'This blog will become active again.' => '此部落將會再次生效。',
+      'This blog will become active again.' => '此部落格將會再次生效。',
       'Recent Posts' => '最近文章',
       'Internal and External Blogs' => '內部與外部部落格',
       'Change post body.' => '更改文章正文。',

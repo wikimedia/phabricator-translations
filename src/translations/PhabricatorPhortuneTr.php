@@ -397,7 +397,7 @@ final class PhabricatorPhortuneTr
       'Orders' => 'Siparişler',
       '%s updated the merchant invoice footer.' => '%s, satıcı faturası altbilgisini güncelledi.',
       'Create Payment Account' => 'Ödeme Hesabı Oluştur',
-      'Printable Version' => 'Basılabilir versiyon',
+      'Printable Version' => 'Basılabilir Sürüm',
       'Charges' => 'Masraflar',
       'Preparing to invoice subscription "%s" from %s to %s.' => 'Fatura aboneliğine "%s" hazırlanıyor, %s ile %s arası.',
       'You can not query subscriptions for an account you are not a member of.' => 'Üye olmadığınız bir hesabın aboneliklerini sorgulayamazsınız.',

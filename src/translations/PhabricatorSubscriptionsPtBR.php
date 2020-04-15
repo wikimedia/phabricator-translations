@@ -21,7 +21,7 @@ final class PhabricatorSubscriptionsPtBR
       'Automatically Subscribed' => 'Inscrito automaticamente',
       '%d other(s)' => '%s outro(s)',
       'You are automatically subscribed to this object.' => 'Você está automaticamente inscrito nesse objeto.',
-      'Add subscribers' => 'Adicionar assinantes',
+      'Add subscribers' => 'Adicionar inscritos',
       'Remove yourself as a subscriber.' => 'Cancelar sua inscrição',
       'Search for objects with certain subscribers.' => 'Procure por objetos com certos inscritos.',
       'Subscribers can take this action.' => 'Os inscritos podem realizar essa ação.',

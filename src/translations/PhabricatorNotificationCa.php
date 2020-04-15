@@ -20,6 +20,7 @@ final class PhabricatorNotificationCa
       'Unread Notifications' => 'Notificacions no llegides',
       'Unable to post message: this is not an admin server!' => 'No es pot publicar el missatge: això no és un servidor administrador!',
       'Disconnected' => 'Desconnectat',
+      '%s notification(s) about objects which no longer exist or which you can no longer see were discarded.' => '%s notificacions sobre objectes que ja no existeixen o que ja no pots veure s\'han descartat.',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".' => 'La configuració del servidor de notificacions descriu un host no vàlid ("%s", a l\'índex "%s") amb un tipus no reconegut ("%s"). Els tipus vàlids són "%s" o "%s".',
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => 'La configuració del servidor de notificacions descriu un host no vàlid ("%s", a l\'índex "%s") amb un protocol no vàlid ("%s"). Els protocols vàlids són "%s" o "%s".',
       'No notifications to mark as read.' => 'No hi ha notificacions per marcar com a llegides.',

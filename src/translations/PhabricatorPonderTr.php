@@ -36,7 +36,7 @@ final class PhabricatorPonderTr
       'Close Question' => 'Soruyu Kapat',
       'Status of the question.' => 'Sorunun durumu.',
       'Empty Answer' => 'Boş Cevap',
-      '%s updated the answer wiki.' => '%s yanıt wiki güncellendi.',
+      '%s updated the answer wiki.' => '%s yanıt viki güncellendi.',
       'Answer Comment' => 'Yoruma Cevap Ver',
       'No questions found.' => 'Soru bulunamadı.',
       'Ask Question' => 'Soru Sor',

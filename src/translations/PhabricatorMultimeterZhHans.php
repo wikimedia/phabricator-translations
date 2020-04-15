@@ -26,6 +26,7 @@ final class PhabricatorMultimeterZhHans
       'Trying to unpause an active multimeter!' => '正试图恢复一个已暂停的活跃的万用表！',
       'Web Request' => '网络请求',
       'By Context' => '按上下文',
+      'Avg' => '平均',
       'By Label' => '按标签',
       'Multimeter' => '万用表',
       'Viewer' => '查看器',
