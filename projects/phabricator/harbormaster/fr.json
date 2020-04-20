@@ -247,7 +247,7 @@
 	"65ab2e4f94e625eb": "Étape $1.$2",
 	"65d468f03563d923": "Le journal « $1 » est encore actif. Les journaux ne peuvent pas être finalisés tant qu'ils ne sont pas fermés.",
 	"66273d334adf0712": "Utiliser cette méthode pour attacher des artefacts pour construire les cibles pendant l’exécution des constructions. Les artefacts peuvent être utilisés pour transporter des données via un processus de construction complexe, fournissant des informations supplémentaires aux utilisateurs, ou de stocker les résultats de construction.",
-	"66b2f6e70b3dd4af": "OK : Pas de PHID de cible Harbormaster.",
+	"66b2f6e70b3dd4af": "OK : Pas de PHID de cible Harbormaster.",
 	"66d38050795dcf40": "Chaque artefact a aussi besoin d’un `artifactKey`, qui nomme l’artefact. Enfin, vous devez fournir des `artifactData` pour remplir le contenu de l’artefact. Les données que vous fournissez dépendent du type d’artefact que vous êtes en train de créer.",
 	"67a20347ede9bb94": "Nom local",
 	"68b0ce3476727d1e": "Explication longue du message lint.",
