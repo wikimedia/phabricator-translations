@@ -219,7 +219,7 @@
 	"40a615c67b76e1b6": "HTTP/SSH isteklerini kaydeden erişim günlüklerini yapılandırın.",
 	"40e3403c0c066d69": "$1 Arkasında",
 	"4119007a51fb8a7f": "Sunucu işleminin PID'si.",
-	"41e68d6902c1a427": "Daemon'ları varsayılan olarak 'verbose' modda başlatın. Bu çok fazla çıktı oluşturur, ancak sorunları ayıklamaya yardımcı olabilir. '$1' ile hata ayıklama modunda başlatılan daemonlar, her zaman ayrıntılı modda başlatılır. Ayrıca bkz: '$2'.",
+	"41e68d6902c1a427": "Daemon'ları varsayılan olarak 'verbose' modda başlatın. Bu çok fazla çıktı oluşturur, ancak sorunları ayıklamaya yardımcı olabilir. '$1' ile hata ayıklama modunda başlatılan daemonlar, her zaman ayrıntılı modda başlatılır. Ayrıca bakınız: '$2'.",
 	"41ea645aaecc2a86": "Kullanıcı tarafından başlatılan giden istekleri önlemek için alt ağları kara listeye alın.",
 	"423ac632bebf0560": "Giden İstek Yok",
 	"42802c2c109bc2e2": "Çok ortamlı yüklemeler için birincil yükleme URI'si.",

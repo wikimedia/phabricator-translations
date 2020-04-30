@@ -15,7 +15,7 @@
 	"07f43e8ed0175df2": "Sayfa Başlıkları",
 	"081214afa5e61766": "Kişisel Hesap Ayarları",
 	"0a5ee85414fe08e2": "ISO 8601: 2000-02-28",
-	"0a7613d185552486": "Pek çok metin editörü `editor://` gibi özel protokoller için URI işleyicileri olarak yapılandırılabilir. Böyle bir düzenleyiciniz varsa, Phabricator dosyaları yerel olarak açmak için tıklayabileceğiniz bağlantılar oluşturabilir.\n\nBu özel değişkenler desteklenir:\n\n| Değeri | İle Değiştirildi |\n|-------|---------------|\n| `%f`  | Dosya Adı |\n| `%l`  | Satır Numarası |\n| `%r`  | Depo Çağrı Atama |\n| `%%`  | Kelimesi Kelimesine `%` |\n\n\nEditör yapılandırmasıyla ilgili eksiksiz talimatlar için, bkz. **[[ $1 | $2 ]]**.",
+	"0a7613d185552486": "Pek çok metin editörü `editor://` gibi özel protokoller için URI işleyicileri olarak yapılandırılabilir. Böyle bir düzenleyiciniz varsa, Phabricator dosyaları yerel olarak açmak için tıklayabileceğiniz bağlantılar oluşturabilir.\n\nBu özel değişkenler desteklenir:\n\n| Değeri | İle Değiştirildi |\n|-------|---------------|\n| `%f`  | Dosya Adı |\n| `%l`  | Satır Numarası |\n| `%r`  | Depo Çağrı Atama |\n| `%%`  | Kelimesi Kelimesine `%` |\n\n\nEditör yapılandırmasıyla ilgili eksiksiz talimatlar için, **[[ $1 | $2 ]]** sayfasına bakın.",
 	"0ccb7998ecc39302": "Genel Varsayılan Ayarlar",
 	"0d32db227630073a": "Öz Eylemler",
 	"117cb5da2ea671e9": "Fiziksel Özellikleri Kullanıcı Arayüzünün hangi dili kullanmasını istediğinizi seçin.",

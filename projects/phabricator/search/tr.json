@@ -43,7 +43,7 @@
 	"1d96c1f18b68ae19": "Bir bağlantı adı seçmelisiniz.",
 	"1e0fc385f85e5cfd": "Ortak ngramları yeniden hesapla. Bu, doğru kullanılmadığında arama kalitesine zarar verebilecek gelişmiş bir iş akışıdır.",
 	"1e4cd8e5f7d61032": "Motor: Tam Metin",
-	"1e630633bdd435ab": "Arama motorlarını yapılandırmak için [[$1 | `$2`]] yapılandırma. Belgeler için bkz. **[[ $3 | $4]]**.",
+	"1e630633bdd435ab": "Arama motorlarını yapılandırmak için [[ $1 | `$2` ]] yapılandırma. Belgeler için **[[ $3 | $4 ]]** sayfasına bakın.",
 	"1ed1a621f453c64d": "Şunun için terimler corpus: $1",
 	"21252eb657cf9de2": "Genel Menü Öğeleri",
 	"238d4e1196ca2f1b": "Bu sorgu geçersiz bir parametre belirtir. Sorgu parametrelerini gözden geçirin ve hataları düzeltin.",

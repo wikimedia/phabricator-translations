@@ -96,7 +96,7 @@
 	"2c183739dbded9b7": "$1 ayrılmış $2 dosya: $3.",
 	"2c20481a349c4973": "Geçerli ayar",
 	"2c8c411e5cdf5e8a": "Alt Görevleri Aç",
-	"2e0e8da69bc353a4": "Bir görevi kapat. Bu, görev durumunu varsayılan kapalı duruma değiştirir. Görev durumlarını değiştirmenin daha güçlü (ancak daha az özlü) bir yolu için, bkz. `$1`.",
+	"2e0e8da69bc353a4": "Bir görevi kapat. Bu, görev durumunu varsayılan kapalı duruma değiştirir. Görev durumlarını değiştirmenin daha güçlü (ancak daha az özlü) bir yolu için, `$1` sayfasına bakın.",
 	"2e18baf1f2a924bd": "$1, $2 üst görevden kaldırıldı: $3.",
 	"2eda13590b15b9a7": "$1, $2 alt görev ekledi: $3.",
 	"2f43b73f1701ba0d": "Belirli bir kullanıcıya bir görev atayın.",

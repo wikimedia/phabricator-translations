@@ -47,7 +47,7 @@
 	"25c71dcf1315d040": "Bu işlemleri yap $1",
 	"27ce803659bf5f5d": "HMAC Anahtarı",
 	"27f2654956457019": "Bir dizi olması beklenen koşul değeri.",
-	"2824c76dd154c1f1": "Phabricator şu anda sessiz modda yapılandırılmıştır, dolayısıyla web kancasını yayınlamaz. Bu ayarı yapmak için, bkz. Yapılandırmada @{config:phabricator.silent} bakabilirsiniz.",
+	"2824c76dd154c1f1": "Phabricator şu anda sessiz modda yapılandırılmıştır, dolayısıyla web kancasını yayınlamaz. Bu ayarı yapmak için, Yapılandırmada @{config:phabricator.silent} bakabilirsiniz.",
 	"288771c69654f257": "Tüm Transkriptler",
 	"28a8c9dd6aa3f76b": "içermiyor",
 	"28eb96e6ee703cee": "Webhook $1",
