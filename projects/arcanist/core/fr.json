@@ -155,7 +155,7 @@
 	"17c152ff4390662b": "Entête de gros morceau « $1 » attendu.",
 	"17c6dff093dca177": "Nœud de type « $1 » non attendu !",
 	"17cea2025f493cf8": "    $1 $2",
-	"182fb1eabf732cc3": "Installer flake8 en utilisant '$1'.",
+	"182fb1eabf732cc3": "Installer flake8 en utilisant `$1`.",
 	"18479fbfcae8c9db": "$1 : la configuration a capturé un groupe de capture nommé « $2 », « $3 ». Sortie du script :\n$4",
 	"1890788498c71157": "Mise à jour de la copie de travail...",
 	"18d58a4c875cc3fa": "Les constructions du langage ne nécessitent pas de parenthèses.",
