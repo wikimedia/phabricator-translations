@@ -29,7 +29,7 @@ final class PhabricatorBadgesHu
       'Create a Badge' => 'Jelvény létrehozása',
       'Poor' => 'Rossz',
       'Superstar' => 'Szupersztár',
-      'BADGE DETAIL' => 'JELVÉNY RÉSZLETEK',
+      'BADGE DETAIL' => 'JELVÉNY RÉSZLETEI',
       'New badge icon.' => 'Új jelvény ikon.',
       'The name of the badge.' => 'A jelvény neve.',
       'Glowing Rectangle' => 'Fénylő téglalap',

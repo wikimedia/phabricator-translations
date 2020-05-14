@@ -194,7 +194,7 @@ final class ArcanistCoreTr
       'To login and save valid credentials for this server, run this command:' => 'Oturum açmak ve bu sunucu için geçerli kimlik bilgilerini kaydetmek için şu komutu çalıştırın:',
       'Confused by empty line' => 'Boş satır karıştı',
       'Follow naming conventions: parameters should be named using `%s`' => 'Adlandırma kurallarına uyun: parametreler `%s` kullanılarak adlandırılmalıdır',
-      'Show the command which would be issued, but do not actually commit anything.' => 'Hangi komutu vereceğinizi gösterin, ama aslında hiçbir şey yapmayın.',
+      'Show the command which would be issued, but do not actually commit anything.' => 'Hangi komutu vereceğinizi gösterin, ancak aslında hiçbir şey yapmayın.',
       'Found %d matching paths for linter \'%s\'.' => '\'%2$s\' linter için %1$s eşleşen yol bulundu.',
       '(Run `%s` for more details.)' => '(Daha fazla ayrıntı için `%s` değerini çalıştırın.)',
       'Branch "%s" does not exist in remote "%s".' => '"%s" dalı uzak "%s" üzerinde mevcut değil.',
@@ -719,7 +719,7 @@ final class ArcanistCoreTr
       'No hardpoint "%s".' => '"%s" sabit noktası yok.',
       'Squashing the commits under %s failed. Manually squash your commits and run \'%s\' again.' => '%s altındaki taahhütleri ezmek başarısız oldu. Taahhütlerinizi manüel olarak ezin ve tekrar \'%s\' çalıştırın.',
       'Name' => 'Ad',
-      'Prepare the change to be pushed, but do not actually push it.' => 'İlerlemek için değişikliği hazırlayın, ama gerçekten push yapmayın.',
+      'Prepare the change to be pushed, but do not actually push it.' => 'İlerlemek için değişikliği hazırlayın, ancak gerçekten push yapmayın.',
       'Unit testing raised errors!' => 'Ünite testinde hatalar oluştu!',
       'When updating the feature branch, use rebase instead of merge. This might make things work better in some cases. Set %s to \'%s\' to make this the default.' => 'Özellik dalını güncellerken, birleştirme yerine rebase kullanın. Bu, bazı durumlarda işlerin daha iyi çalışmasını sağlayabilir. Bunu varsayılan yapmak için %s değerini \'%s\' olarak ayarlayın.',
       'Install %s using `%s`.' => '`%2$s` kullanarak %1$s yükleyin.',
@@ -802,7 +802,7 @@ final class ArcanistCoreTr
     (Technically: the merge-base of the selected revision and HEAD is used to determine the start of the commit range.)' => 'Bir dizi revizyonda (genellikle bir revizyondan HEAD\'e) çalışan, ancak aralığın başlangıcını belirlemesi gereken revizyonu belirtmemiş bir komut çalıştırıyorsunuz.
     Daha önce arc, bir başlangıç revizyonu belirtmediğinizde \'%s\' demek istediğinizi varsayıyordu, ancak bu davranış Facebook\'un tarihi %s iş akışı dışındaki çoğu iş akışında pek mantıklı gelmiyordu.
     arc artık \'%s\' kabul etmiyor. Bir komutu çağırdığınızda (ör. Yalnızca `%5$s` değil, `%4$s`) veya bu çalışan kopya için bir varsayılan seçerken, göreceli bir kesinleştirme belirtmeniz gerekir.
-    Çoğu durumda, en iyi varsayılan \'%s\'. Eski davranışı veya başka bir uzak veya dalı korumak için \'%s\' seçeneğini de seçebilirsiniz. Ama neredeyse kesinlikle \'origin/master\' seçmek istiyorsunuz.
+    Çoğu durumda, en iyi varsayılan \'%s\'. Eski davranışı veya başka bir uzak veya dalı korumak için \'%s\' seçeneğini de seçebilirsiniz. Ancak neredeyse kesinlikle \'origin/master\' seçmek istiyorsunuz.
     (Teknik olarak: seçilen revizyon ve HEAD\'in birleştirme tabanı, taahhüt aralığının başlangıcını belirlemek için kullanılır.)',
       '\'%s\' vs \'%s\'' => '\'%s\' ve \'%s\'',
       'Other locations: %s' => 'Diğer konumlar: %s',

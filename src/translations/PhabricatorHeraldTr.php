@@ -52,7 +52,7 @@ final class PhabricatorHeraldTr
       'Take these actions %s' => 'Bu işlemleri yap %s',
       'HMAC Key' => 'HMAC Anahtarı',
       'Expected condition value to be an array.' => 'Bir dizi olması beklenen koşul değeri.',
-      'Phabricator is currently configured in silent mode, so it will not publish webhooks. To adjust this setting, see @{config:phabricator.silent} in Config.' => 'Phabricator şu anda sessiz modda yapılandırılmıştır, dolayısıyla web kancasını yayınlamaz. Bu ayarı yapmak için, bkz. Yapılandırmada @{config:phabricator.silent} bakabilirsiniz.',
+      'Phabricator is currently configured in silent mode, so it will not publish webhooks. To adjust this setting, see @{config:phabricator.silent} in Config.' => 'Phabricator şu anda sessiz modda yapılandırılmıştır, dolayısıyla web kancasını yayınlamaz. Bu ayarı yapmak için, Yapılandırmada @{config:phabricator.silent} bakabilirsiniz.',
       'All Transcripts' => 'Tüm Transkriptler',
       'does not contain' => 'içermiyor',
       'Webhook %d' => 'Webhook %s',

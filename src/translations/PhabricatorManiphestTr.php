@@ -101,7 +101,7 @@ final class PhabricatorManiphestTr
       '%s detached %s file(s): %s.' => '%s ayrılmış %s dosya: %s.',
       'Valid setting' => 'Geçerli ayar',
       'Open Subtasks' => 'Alt Görevleri Aç',
-      'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => 'Bir görevi kapat. Bu, görev durumunu varsayılan kapalı duruma değiştirir. Görev durumlarını değiştirmenin daha güçlü (ancak daha az özlü) bir yolu için, bkz. `%s`.',
+      'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => 'Bir görevi kapat. Bu, görev durumunu varsayılan kapalı duruma değiştirir. Görev durumlarını değiştirmenin daha güçlü (ancak daha az özlü) bir yolu için, `%s` sayfasına bakın.',
       '%s removed %s parent task(s): %s.' => '%s, %s üst görevden kaldırıldı: %s.',
       '%s added %s subtask(s): %s.' => '%s, %s alt görev ekledi: %s.',
       'Assign a task to a specific user.' => 'Belirli bir kullanıcıya bir görev atayın.',

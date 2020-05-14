@@ -295,7 +295,7 @@ final class PhabricatorHarbormasterTr
       'Sleep for a specified number of seconds.' => 'Belirtilen sayıda saniye uyu.',
       '%s created this buildable.' => '%s bu yapılandırabiliri oluşturdu',
       'The current status of this build.' => 'Bu yapının şu anki durumu.',
-      'Pause' => 'Durdur',
+      'Pause' => 'Duraklat',
       'Make an HTTP %s request to %s.' => '%s\'e bir HTTP %s isteği yapın.',
       'A file containing the log data.' => 'Günlük verilerini içeren bir dosya.',
       '<Invalid URI>' => '<Geçersiz URI>',

@@ -91,6 +91,7 @@ final class PhabricatorUiexampleHu
       'Emojis' => 'Emojik',
       'Black' => 'Fekete',
       'Dec 31, 1969' => '1969. dec. 31.',
+      'Assigned to' => 'Hozzárendelve',
       'Postal Code' => 'Irányítószám',
       'Country' => 'Ország',
     );

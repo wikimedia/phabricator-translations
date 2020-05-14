@@ -9,7 +9,7 @@ final class PhabricatorMetaTr
 
   protected function getTranslations() {
     return array(
-      'Information' => 'Bilgilendirme',
+      'Information' => 'Bilgi',
       'This application cannot be uninstalled, because it is required for Phabricator to work.' => 'Bu uygulama, Phabricator\'un çalışması için gerekli olduğu için kaldırılamaz.',
       'Syntax' => 'Syntax',
       'You cannot install an installed application.' => 'Zaten yüklü olan bir uygulamayı yükleyemezsiniz.',
@@ -68,7 +68,7 @@ final class PhabricatorMetaTr
     !close
     I just talked to @alincoln, and he showed me that he fixed this.
     ```
-    ' => 'Phabricator\'ı gelen postaları işlemek üzere yapılandırdıktan sonra, e-postayla nesnelerle (görevler ve revizyonlar gibi) etkileşime girebilirsiniz. Phabricator\'ı yapılandırma hakkında bilgi için, bkz **[[ %s | Gelen E-postayı Yapılandırma]]**.
+    ' => 'Phabricator\'ı gelen postaları işlemek üzere yapılandırdıktan sonra, e-postayla nesnelerle (görevler ve revizyonlar gibi) etkileşime girebilirsiniz. Phabricator\'ı yapılandırma hakkında bilgi için, **[[ %s | Gelen E-postayı Yapılandırma ]]** sayfasına bakın.
     Çoğu durumda, yorum yapmak için Phabricator\'dan aldığınız e-postayı yanıtlayabilirsiniz. Web kullanıcı arayüzüne giriş yapmanıza gerek kalmadan daha fazla eylem yapmak (görev talep etmek veya bir revizyonda değişiklik istemek gibi) için **posta komutlarını** da kullanabilirsiniz.
     Posta komutları, `!claim` gibi bir ünlem işaretiyle başlayan anahtar kelimelerdir. Bazı komutlar gibi parametreler alabilir `!assign alincoln`.
     Posta komutlarını kullanmak için, posta mesajınızın başına veya sonuna her satıra bir komut yazın. Örneğin, görevi talep etmek için görev e-postasına cevap olarak yazabilirsiniz:

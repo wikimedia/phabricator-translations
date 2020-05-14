@@ -9,7 +9,7 @@ final class PhabricatorSettingsTr
 
   protected function getTranslations() {
     return array(
-      '12 Hour, 2:34 PM' => '12 saat, 2:34 PM',
+      '12 Hour, 2:34 PM' => '12 Saat, 2:34 ÖS',
       'When a revision is updated, Phabricator attempts to bring inline comments on the older version forward to the new changes. You can disable this behavior if you prefer comments stay anchored in one place.' => 'Bir revizyon güncellendiğinde, Phabricator eski versiyondaki satır içi yorumları yeni değişikliklere ilerletmeye çalışır. Yorumların bir yerde sabit kalmasını tercih ederseniz bu davranışı devre dışı bırakabilirsiniz.',
       'Default (%s)' => 'Varsayılan (%s)',
       'You haven\'t added any contact numbers to your account.' => 'Hesabınıza hiç kişi numarası eklemediniz.',
@@ -29,13 +29,13 @@ final class PhabricatorSettingsTr
     | `%%%%`  | Literal `%%` |
     For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => 'Pek çok metin editörü `editor://` gibi özel protokoller için URI işleyicileri olarak yapılandırılabilir. Böyle bir düzenleyiciniz varsa, Phabricator dosyaları yerel olarak açmak için tıklayabileceğiniz bağlantılar oluşturabilir.
     Bu özel değişkenler desteklenir:
-    | Değeri | İle Değiştirildi |
+    | Değer | Değiştirildi |
     |-------|---------------|
     | `%%f`  | Dosya Adı |
     | `%%l`  | Satır Numarası |
     | `%%r`  | Depo Çağrı Atama |
     | `%%%%`  | Kelimesi Kelimesine `%%` |
-    Editör yapılandırmasıyla ilgili eksiksiz talimatlar için, bkz. **[[ %s | %s ]]**.',
+    Editör yapılandırmasıyla ilgili eksiksiz talimatlar için, **[[ %s | %s ]]** sayfasına bakın.',
       'Global Default Settings' => 'Genel Varsayılan Ayarlar',
       'Self Actions' => 'Öz Eylemler',
       'Choose which language you would like the Phabricator UI to use.' => 'Fiziksel Özellikleri Kullanıcı Arayüzünün hangi dili kullanmasını istediğinizi seçin.',
@@ -56,11 +56,11 @@ final class PhabricatorSettingsTr
     | Setting                | Example Mail Subject
     |------------------------|----------------
     | Enable "Re:" Prefix  | `Re: [Differential] [Accepted] D123: Example Revision`
-    | Disable "Re:" Prefix | `[Differential] [Accepted] D123: Example Revision`' => '**"Re:" Öneki** ekle ayarı, yanıt olmasalar bile tüm iletilerin önüne "Re:" ekler. Mac OS X\'te **Mail.app** kullanıyorsanız, bu posta geçirmeyi iyileştirebilir.
+    | Disable "Re:" Prefix | `[Differential] [Accepted] D123: Example Revision`' => '**"Yanıt:" Öneki Ekle** ayarı, yanıt olmasalar bile tüm iletilerin önüne "Yanıt:" ekler. Mac OS X\'te **Mail.app** kullanıyorsanız, bu posta geçirmeyi iyileştirebilir.
     | Ayar                | Örnek Posta Konusu
     |------------------------|----------------
-    | "Re:" Önekini Etkinleştir  | `Re: [Differential] [Accepted] D123: Example Revision`
-    | "Re:" Önekini Devre Dışı Bırak | `[Differential] [Accepted] D123: Example Revision`',
+    | "Re:" Önekini Etkinleştir  | `Yanıt: [Diferansiyel] [Kabul edildi] D123: Örnek Revizyon`
+    | "Re:" Önekini Devre Dışı Bırak | `[Diferansiyel] [Kabul edildi] D123: Örnek Revizyon`',
       'No settings panels are available.' => 'Hiçbir ayar paneli mevcut değil.',
       'Empty string is not a valid setting for "%s".' => 'Boş dize "%s" için geçerli bir ayar değil.',
       'Adjust Timezone' => 'Saat Dilimini Ayarla',
@@ -75,9 +75,9 @@ final class PhabricatorSettingsTr
     This can make mail more useful, but some clients have difficulty threading these messages. Disabling this option may improve threading at the cost of making subject lines less useful.' => '**Değişken Konular** etkin durumdayken, çoğu posta konusu satırı, bir görevi sonlandıran bir kişi hakkında bildirimde bulunmak için içeriğinin kısa bir açıklamasını içerir.
     | Ayar                   | Örnek Posta Konusu
     |------------------------|----------------
-    | Değişen Konular        | `[Maniphest] [Closed] T123: Example Task`
-    | Konuları Değiştirmeyin | `[Maniphest] T123: Example Task`
-    Bu, postayı daha kullanışlı hale getirebilir, ancak bazı istemciler bu mesajları işlerken zorlanırlar. Bu seçeneğin devre dışı bırakılması, konu satırlarını daha az kullanışlı hale getirme pahasına ipliği geliştirebilir.',
+    | Değişen Konular        | `[Maniphest] [Kapandı] T123: Örnek Görev`
+    | Konuları Değiştirmeyin | `[Maniphest] T123: Örnek Görev`
+    Bu, postayı daha kullanışlı hale getirebilir, ancak bazı istemciler bu mesajları işlerken zorlanırlar. Bu seçeneğin devre dışı bırakılması, konu satırlarını daha az kullanışlı hale getirme pahasına iletiyi geliştirebilir.',
       'Value "%s" is not valid for setting "%s": valid values are %s.' => '"%s" değeri "%s" ayarı için geçerli değil: geçerli değerler %s.',
       'You can opt to receive plain text email from Phabricator instead of HTML email. Plain text email works better with some clients.' => 'HTML e-postası yerine Phabricator\'dan düz metin e-posta almayı seçebilirsiniz. Düz metin e-posta bazı müşterilerle daha iyi çalışır.',
       'Extra Settings' => 'Ekstra Ayarlar',
@@ -95,17 +95,17 @@ final class PhabricatorSettingsTr
       'You have no linked accounts.' => 'Bağlantılı hesabınız yok.',
       'Active Login Sessions' => 'Aktif Giriş Seansları',
       'Edit Global Settings' => 'Genel Ayarları Düzenle',
-      'Ignore Conflict' => 'Çakışmayı Yoksayla',
+      'Ignore Conflict' => 'Çakışmayı Yoksay',
       'Vary Subjects' => 'Değişen Konular',
       'Delete Authentication Factor' => 'Kimlik Doğrulama Faktörünü Sil',
       '%s updated their profile' => '%s profilini güncelledi (tarafsız cinsiyet)',
       'Current Setting' => 'Şimdiki Ayar',
       'Provider: %s' => 'Sağlayıcı: %s',
       'Use Variable-Width Font' => 'Değişken Genişlik Yazı Tipi Kullan',
-      'Use Plain Text: [Differential]' => 'Düz Metin Kullan: [Differential]',
+      'Use Plain Text: [Differential]' => 'Düz Metin Kullan: [Diferansiyel]',
       '⚪ Ignore' => '⚪ Yoksay',
-      'Date Format' => 'Tarih Formatı',
-      'Your browser timezone (%s) differs from your profile timezone (%s). You can ignore this conflict or adjust your profile setting to match your client.' => 'Tarayıcınızın saat dilimi (%s), profil saatinizden (%s) farklı. Bu çatışmayı yok sayabilir veya profil ayarınızı müşterinize uyacak şekilde ayarlayabilirsiniz.',
+      'Date Format' => 'Tarih Biçimi',
+      'Your browser timezone (%s) differs from your profile timezone (%s). You can ignore this conflict or adjust your profile setting to match your client.' => 'Tarayıcınızın saat dilimi (%s), profil saatinizden (%s) farklı. Bu çakışmayı yok sayabilir veya profil ayarınızı müşterinize uyacak şekilde ayarlayabilirsiniz.',
       'This install does not have any active MFA providers configured. At least one provider must be configured and active before you can add new MFA factors.' => 'Bu kurulumda yapılandırılmış aktif MFA sağlayıcı yok. Yeni MFA faktörleri ekleyebilmek için en az bir sağlayıcı yapılandırılmalı ve etkin olmalıdır.',
       'Select the format you prefer for editing and displaying time.' => 'Zamanı düzenlemek ve görüntülemek için tercih ettiğiniz formatı seçin.',
       'The conflict between your browser and profile timezone settings will be ignored.' => 'Tarayıcınızla profil zaman dilimi ayarları arasındaki uyuşmazlık göz ardı edilir.',
@@ -118,7 +118,7 @@ final class PhabricatorSettingsTr
       'Add External Account' => 'Dış Hesap Ekle',
       'Mail Headers and Body' => 'Posta Başlıkları ve Gövde',
       'You haven\'t added any authentication factors to your account yet.' => 'Henüz hesabınıza herhangi bir kimlik doğrulama faktörü eklemediniz.',
-      'To set a new password, request a password reset link from the login screen and then follow the instructions.' => 'Yeni bir şifre ayarlamak için, giriş ekranından bir şifre sıfırlama bağlantısı isteyin ve ardından talimatları izleyin.',
+      'To set a new password, request a password reset link from the login screen and then follow the instructions.' => 'Yeni bir parola ayarlamak için, giriş ekranından bir parola sıfırlama bağlantısı isteyin ve ardından talimatları izleyin.',
       'Multi-Factor Auth' => 'Çok Faktörlü Kimlik Doğrulama',
       'You can choose to use either a monospaced or variable-width font in textareas in the UI. Textareas are used for editing descriptions and writing comments, among other things.' => 'Kullanıcı Arabiriminde textareas\'ta monospaced veya değişken genişlikli bir font kullanmayı seçebilirsiniz. Textareas, diğer şeylerin yanı sıra açıklamaları düzenlemek ve yorum yazmak için kullanılır.',
       'Disable Self Action Mail' => 'Kendinden İşlemli Postayı Devre Dışı Bırak',
@@ -135,7 +135,7 @@ final class PhabricatorSettingsTr
       'You don\'t have any active sessions.' => 'Etkin oturumunuz yok.',
       'Changes saved.' => 'Değişiklikler kaydedildi.',
       'Authentication factors must have a name to identify them.' => 'Kimlik doğrulama faktörleri, onları tanımlayacak bir isme sahip olmalıdır.',
-      'Diffusion Blame' => 'Yayınım Suçla',
+      'Diffusion Blame' => 'Difüzyon Suçu',
       'The dialog asking for permission to send desktop notifications was closed without granting permission. Only application notifications will be sent.' => 'Masaüstü bildirimleri göndermek için izin isteyen iletişim kutusu izin vermeden kapatıldı. Sadece başvuru bildirimleri gönderilecektir.',
       'Really delete address \'%s\'?' => '\'%s\' adresi gerçekten silinsin mi?',
       'Another user already has this email.' => 'Başka bir kullanıcı bu e-postayı zaten aldı.',
@@ -144,7 +144,7 @@ final class PhabricatorSettingsTr
       'HTML Email' => 'HTML E-posta',
       'Global Defaults' => 'Genel Varsayılanlar',
       'Conpherence Sound' => 'Conpherence Sesi',
-      'Enable "Re:" Prefix' => '"Re:" Önekini Etkinleştir',
+      'Enable "Re:" Prefix' => '"Yanıt:" Önekini Etkinleştir',
       'Phabricator can send real-time notifications to your web browser or to your desktop. Select where you want to receive these real-time updates.' => 'Phabricator, web tarayıcınıza veya masaüstünüze gerçek zamanlı bildirimler gönderebilir. Bu gerçek zamanlı güncellemeleri nereden almak istediğinizi seçin.',
       'Change Timezone' => 'Saat Dilimini Değiştir',
       'DarkConsole Visible' => 'DarkConsole Görünür',
@@ -158,17 +158,17 @@ final class PhabricatorSettingsTr
     | Ignore | You will receive nothing.
     If an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.
     These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'E-posta ile gönderildiğinde ve bildirildiğinde kişiselleştirmek için **Uygulama Ayarları** ayarını yapabilirsiniz.
-    | Ayar | Efekt
+    | Ayar | Etki
     | ------- | -------
     | ;E-posta | Bir e-posta ve bir bildirim alacaksınız, ancak bildirim "oku" olarak işaretlenecek.
     | Bildirim | Sadece okunmamış bir bildirim alacaksınız.
     | Yoksay | Hiçbir şey almayacaksınız.
     Bir güncelleme birkaç değişiklik yaparsa (bir göreve CC\'ler eklemek, onu kapatmak ve bir yorum eklemek gibi), değişikliklerden herhangi birinin iletmek üzere yapılandırıldığı en güçlü bildirimi alırsınız.
-    Bu tercihler **sadece** bağlı olduğunuz nesneler için geçerlidir (örneğin, bir gözden geçirici olduğunuz Revizyonlar veya CC’de bulunduğunuz görevler). Başka nesneler oluşturulduğunda e-posta uyarıları almak için, [[ /herald/ | Herald Kuralları ]] yapılandır.',
-      'You must enter your current password.' => 'Mevcut şifrenizi girmelisiniz.',
+    Bu tercihler **yalnızca** bağlı olduğunuz nesneler için geçerlidir (örneğin, bir gözden geçirici olduğunuz Revizyonlar veya CC’de bulunduğunuz görevler). Başka nesneler oluşturulduğunda e-posta uyarıları almak için, [[ /herald/ | Herald Kuralları ]] yapılandır.',
+      'You must enter your current password.' => 'Mevcut parolanızı girmelisiniz.',
       'Europe: 28-02-2000' => 'Avrupa: 28-02-2000',
       'Enable Filetree' => 'Dosya Ağacı Etkinleştir',
-      'The old password you entered is incorrect.' => 'Girdiğiniz eski şifre yanlış.',
+      'The old password you entered is incorrect.' => 'Girdiğiniz eski parola yanlış.',
       '◐ Notify' => '◐ Bildirim',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Bu tarayıcı, bu Phabricator örneği için masaüstü bildirimleri gönderme iznini reddetti. Bu ayarın nasıl temizleneceğini bulmak için tarayıcı ayarlarınıza / belgelerinize bakın, yapın ve ardından izin vermek için bu sayfayı tekrar ziyaret edin.',
       '%s updated his profile' => '%s profilini güncelledi (erkek)',
@@ -178,7 +178,7 @@ final class PhabricatorSettingsTr
       'Limited Translations' => 'Sınırlı Tercümeler',
       'Email Delivery' => 'E-posta Teslimatı',
       'Send Test Notification' => 'Test Bildirimi Gönder',
-      'Monospaced font value "%s" is unsafe. You may only enter letters, numbers, spaces, commas, periods, hyphens, forward slashes, and double quotes' => 'Monospaced font değeri "%s" güvensiz. Yalnızca harfler, sayılar, boşluklar, virgüller, periyotlar, kısa çizgiler, eğik çizgiler ve çift tırnak işaretleri girebilirsiniz.',
+      'Monospaced font value "%s" is unsafe. You may only enter letters, numbers, spaces, commas, periods, hyphens, forward slashes, and double quotes' => 'Monospaced yazı tipi değeri "%s" güvensiz. Yalnızca harfler, sayılar, boşluklar, virgüller, periyotlar, kısa çizgiler, eğik çizgiler ve çift tırnak işaretleri girebilirsiniz.',
       'Edit settings for your personal account.' => 'Kişisel hesabınız için ayarları düzenleyin.',
       'Create Settings' => 'Ayarlar Oluştur',
       'Use Unicode Glyphs: ⚙' => 'Unicode Glifleri Kullan: ⚙',
@@ -191,27 +191,27 @@ final class PhabricatorSettingsTr
       'Supported, Separated by Spaces' => 'Desteklenen, Alanlarla Ayrılmış',
       'Search Scope' => 'Arama Kapsamı',
       'Email Preferences' => 'E-posta Tercihleri',
-      'You don\'t have any active tokens.' => 'Aktif jetonunuz yok.',
-      'Send another copy of the verification email to %s?' => 'Doğrulama e-postasının başka bir kopyası %s\'ye gönderilsin mi?',
+      'You don\'t have any active tokens.' => 'Aktif anahtarlarınız yok.',
+      'Send another copy of the verification email to %s?' => 'Doğrulama e-postasının başka bir kopyası %s gönderilsin mi?',
       '24 Hour, 14:34' => '24 saat, 14:34',
       'If you disable **Email Notifications**, Phabricator will never send email to notify you about events. This preference overrides all your other settings.
     //You will still receive some administrative email, like password reset email.//' => '**E-posta Bildirimleri**\'ni devre dışı bırakırsanız, Phabricator etkinlikler hakkında sizi bilgilendirmek için asla e-posta göndermez. Bu tercih, diğer tüm ayarlarınızı geçersiz kılar.
     //Parola sıfırlama e-postası gibi yine bir yönetim e-postası alacaksınız.//',
-      'Disable "Re:" Prefix' => '"Re:" Önekini Devre Dışı Bırak',
+      'Disable "Re:" Prefix' => '"Yanıt:" Önekini Devre Dışı Bırak',
       'Conpherence Widget Pane Visible' => 'Conpherence Widget Bölmesi Görünür',
       'Disable Filetree' => 'Dosya Ağacı Devre Dışı Bırak',
       'Disable Email Notifications' => 'E-posta Bildirimlerini Devre Dışı Bırak',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator mevcut uygulamanın kompakt bir gösterimini sağlamak için sayfa başlıklarında unicode glifleri kullanır. Bu glifler sisteminizde görüntülenmiyorsa, düz metin yerine kullanabilirsiniz.',
-      'Expired' => 'Süresi Doldu',
+      'Expired' => 'Süre doldu',
       'No Notifications' => 'Bildirim Yok',
       'Password Algorithms' => 'Parola Algoritmaları',
       'This browser has not yet granted permission to send desktop notifications for this Phabricator instance.' => 'Bu tarayıcı henüz bu Phabricator örneği için masaüstü bildirimleri gönderme izni vermedi.',
-      'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Şifreniz şu anda bu yüklemede bulunmayan bir algoritma kullanılarak şifrelenmiştir.',
+      'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Parolanız şu anda bu yüklemede bulunmayan bir algoritma kullanılarak paroloandırılmıştır.',
       'Send HTML Email' => 'HTML E-postası Gönder',
       'Translation' => 'Çeviri',
       'UTC+%d' => 'UTC+%s',
       'Settings %d' => 'Ayarlar %s',
-      'Time Format' => 'Zaman Formatı',
+      'Time Format' => 'Zaman Biçimi',
       'Permission for desktop notifications was denied. Only application notifications will be sent.' => 'Masaüstü bildirimleri için izin verilmedi. Sadece başvuru bildirimleri gönderilecektir.',
       'Send Notifications' => 'Bildirimleri Gönder',
       'Number' => 'Sayı',
@@ -220,16 +220,16 @@ final class PhabricatorSettingsTr
       'Authentication Factors' => 'Kimlik Doğrulama Faktörleri',
       'Web and Desktop' => 'Web ve Masaüstü',
       'Sunday' => 'Pazar',
-      'US: 2/28/2000' => 'US: 2/28/2000',
+      'US: 2/28/2000' => 'Amerika: 2/28/2000',
       'User Guide: Configuring an External Editor' => 'Kullanım Kılavuzu: Dış Düzenleyiciyi Yapılandırma',
       'You have no account setup issues.' => 'Hesap kurulum sorunlarınız yok.',
       'Personal Settings' => 'Kişisel Ayarlar',
-      'Web Only' => 'Sadece Web',
+      'Web Only' => 'Yalnızca Web',
       'Disable Vary Subjects' => 'Değişen Konuları Devre Dışı Bırak',
       'Developer/Test Translations' => 'Geliştirici/Test Tercümesi',
       'User Preferences' => 'Kullanıcı Tercihleri',
       'No Sounds' => 'Ses Yok',
-      'Create Global Defaults' => 'Küresel Varsayılanlar Oluştur',
+      'Create Global Defaults' => 'Genel Varsayılan Oluştur',
       'Enable Vary Subjects' => 'Değişen Konuları Etkinleştir',
       'No MFA Providers' => 'MFA Sağlayıcısı Yok',
       'There is no known application setting with key "%s".' => '"%s" anahtarlı bilinen bir uygulama ayarı yok.',
@@ -241,29 +241,29 @@ final class PhabricatorSettingsTr
       'Timezone "%s" is not a valid timezone identifier.' => '"%s" saat dilimi geçerli bir saat dilimi tanımlayıcısı değil.',
       'Select your local timezone.' => 'Yerel saat diliminizi seçin.',
       'Note: Removing an email address from your account will invalidate any outstanding password reset links.' => 'Not: Bir e-posta adresini hesabınızdan kaldırmak, ödenmemiş parola sıfırlama bağlantılarını geçersiz kılar.',
-      'Click "Save Preference" to persist these changes.' => 'Bu değişiklikleri devam ettirmek için "Tercihi Kaydet"i tıklayın.',
-      'Week Starts On' => 'Hafta Başlıyor',
+      'Click "Save Preference" to persist these changes.' => 'Bu değişiklikleri devam etmek için "Tercihi Kaydet"\'i tıklayın.',
+      'Week Starts On' => 'Hafta Başlamasına',
       'Remove Factor' => 'Faktörü Kaldır',
       'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => 'Editör bağlantısında geçersiz veya eksik bir protokol var. Bu listeden beyaz listeye alınmış bir editör protokolü kullanmalısınız: %s. Protokol eklemek için, "%s" yapılandırmasını güncelleyin.',
-      'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Hesabınızda şu anda bir şifre ayarlanmamış. Parola sıfırlama işlemini gerçekleştirerek bir şifre seçebilirsiniz.',
+      'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Hesabınızda şu anda bir parola ayarlanmamış. Parola sıfırlama işlemini gerçekleştirerek bir parola seçebilirsiniz.',
       'Disabled (an administrator has disabled login for this account provider).' => 'Devre Dışı (bir yönetici bu hesap sağlayıcı için giriş yapmayı devre dışı bıraktı).',
-      'If you change your primary address, Phabricator will send all email to %s.' => 'Birincil adresinizi değiştirirseniz, Phabricator tüm e-postayı %s\'a gönderir.',
+      'If you change your primary address, Phabricator will send all email to %s.' => 'Birincil adresinizi değiştirirseniz, Phabricator tüm e-postayı %s gönderir.',
       'Send Another Verification Email?' => 'Başka Bir Doğrulama E-postası Gönderilsin mi?',
       'Because the algorithm implementation is missing, your password can not be used or updated.' => 'Algoritma uygulaması eksik olduğundan, şifreniz kullanılamaz veya güncellenemez.',
       'Verify' => 'Onayla',
-      'Edit Settings: %s' => 'Ayarları Düzenle: %s',
-      'Add "Re:" Prefix' => '"Re:" Öneki Ekle',
-      'Desktop Only' => 'Sadece Masaüstü',
+      'Edit Settings: %s' => 'Ayarlar Düzenlemesi: %s',
+      'Add "Re:" Prefix' => '"Yanıt:" Öneki Ekle',
+      'Desktop Only' => 'Yalnızca Masaüstü',
       'Account Settings' => 'Hesap Ayarları',
       'Add Authentication Factor' => 'Kimlik Doğrulama Faktörü Ekle',
       'Choose which day a calendar week should begin on.' => 'Bir takvim haftasının hangi günden başlayacağını seçin.',
       'Account Activity Logs' => 'Hesap Etkinlik Günlükleri',
       'Date and Time' => 'Tarih ve Zaman',
       'Use Monospaced Font' => 'Monospaced Yazı Tipini Kullan',
-      'The strength of your stored password hash can be upgraded. To upgrade, either: log out and log in using your password; or change your password.' => 'Saklanan şifrenizin karma değeri arttırılabilir. Her ikisini de yükseltmek için: çıkış yapın ve şifrenizi kullanarak giriş yapın; veya şifrenizi değiştirin.',
+      'The strength of your stored password hash can be upgraded. To upgrade, either: log out and log in using your password; or change your password.' => 'Saklanan şifrenizin karma değeri arttırılabilir. Her ikisini de yükseltmek için: çıkış yapın ve parolanızı kullanarak giriş yapın; veya parolanızı değiştirin.',
       'Save Preferences' => 'Tercihleri Kaydet',
       '⚫ Email' => '⚫ E-posta',
-      'New Setting' => 'Yeni ayar',
+      'New Setting' => 'Yeni Ayar',
       'Pronoun' => 'Zamir',
       'Choose the default notification behavior for Conpherence rooms.' => 'Conpherence odaları için varsayılan bildirim davranışını seçin.',
       'DarkConsole Tab' => 'DarkConsole Sekmesi',
@@ -277,7 +277,7 @@ final class PhabricatorSettingsTr
       'Linked Accounts and Authentication' => 'Bağlı Hesaplar ve Kimlik Doğrulama',
       'UTC-%d' => 'UTC-%s',
       'Choose the pronoun you prefer.' => 'Tercih ettiğiniz zamiri seçin.',
-      'Conflict Ignored' => 'İhtilaf Yok Sayıldı',
+      'Conflict Ignored' => 'Çakışma Yok Sayıldı',
       'This engine is used to edit settings.' => 'Bu motor ayarları düzenlemek için kullanılır.',
       'Default (Unknown, "%s")' => 'Varsayılan (Bilinmiyor, "%s")',
       'Primary Email Unverified' => 'Birincil E-posta Doğrulanmamış',
