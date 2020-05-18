@@ -26,7 +26,7 @@
 	"039f4a717c96edb2": "Bu yama, dosya adı büyüklüğünü değiştirmeye çalıştığı için başarısız olmuş olabilir (örneğin, '$1' ila '$2'). Değişken bu gibi yamaları büyük/küçük harf duyarlı olmayan dosya sistemlerinde uygulayamaz. Bu yamayı el ile uygulamalısınız.",
 	"03a6e67fae07e596": "Yapılandırılmış dosyalar ikili olmalı veya bir konu içermelidir.",
 	"04175416b2e886fd": "Bilinmeyen bağımsız değişken: '$1'. Şunu deneyin: '$2'.",
-	"04259816ace1ebe5": "Rumuz",
+	"04259816ace1ebe5": "Takma ad",
 	"0480e615e8e54913": "Eşleşme bulunamadı. Linter aramak için `$1 $2` deneyin.",
 	"04a6b0a9711f6c6d": "$1 zaten $2 olarak ayarlandı.",
 	"04d2414cddc1052e": "Seç",

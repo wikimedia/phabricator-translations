@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Augusto Rubio",
+			"Dr03ramos",
 			"Eduardo Addad de Oliveira",
 			"Leonardo.guimaraes"
 		]
@@ -344,6 +345,7 @@
 	"3ad465ce2b95e12d": "Quebrado",
 	"3b1a3d2dbe050396": "Criado uma nova revisão diferencial:",
 	"3b321009ec805bc1": "Ao criar uma revisão, tente usar a mensagem de confirmação de cópia de trabalho textualmente, sem solicitar a edição. Ao atualizar uma revisão, atualize alguns campos da mensagem de confirmação local.",
+	"3bab7e6d5a13422f": "O caminho '$1' não existe",
 	"3c3a0d761f2400ac": "Uso de $1",
 	"3ce2bb9d81b752d9": "Pré-visualização completa da operação.",
 	"3d715a393508df77": "Linha muito longa",
