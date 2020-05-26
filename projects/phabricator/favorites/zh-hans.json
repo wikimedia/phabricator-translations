@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"VulpesVulpes825"
 		]
 	},
-	"2d8e5d1a2409c0e5": "编辑收藏夹",
-	"7707d701c139b8c4": "兴趣项目"
+	"2d8e5d1a2409c0e5": "编辑收藏",
+	"7707d701c139b8c4": "收藏条目",
+	"ab1818cc9b9297dd": "收藏菜单"
 }
