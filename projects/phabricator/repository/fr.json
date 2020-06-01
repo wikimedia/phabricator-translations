@@ -43,6 +43,7 @@
 	"3752808255fa7790": "Boucle infinie non-attendue dans $1 !",
 	"3a1450ccad6f0738": "Annulera la publication de $1 validation{{PLURAL:$1||s}}.",
 	"3bcb0ed7210a105a": "Noms courts",
+	"3c9e4e7773a88d7b": "Correspond à la fonction « $1(...) » n'est pas reconnu. Les fonctions valides sont : regexp(...).",
 	"3cc856dff0ee1a19": "$1 a supprimé la limite d'accessibilité des fichiers ($2 chemins) pour ce dépôt.",
 	"3f97223fad20cee4": "(Ceci est une requête d'écriture).",
 	"4114bd6731b7ebb3": "Réparer un dépôt comportant des trous dans l'historique des validations.",
