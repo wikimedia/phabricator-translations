@@ -485,7 +485,7 @@
 	"9b02d9974c14e623": "er",
 	"9b951a730760a244": "Type '$1' inconnu dans la matrice de type.",
 	"9c1351f5e7c32291": "La bibliothèque cURL a levé une erreur en faisant une requête. Vous pourrez trouver plus d’informations concernant cette erreur (code d’erreur : $1) sur le site cURL : $2",
-	"9c4599ec0a9af7ae": "Expression régulière attendue, mais '$1' n’est pas valide : $2",
+	"9c4599ec0a9af7ae": "Expression rationnelle attendue, mais '$1' n’est pas valide : $2",
 	"9c4c295e818624bb": "Cache non disponible.",
 	"9c71d86768bbc416": "Allemand (Allemagne)",
 	"9c87ab5afb62fb6b": "Donnée de test JSON attendue \"$1\" non valide.",

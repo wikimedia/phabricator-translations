@@ -70,7 +70,7 @@
 	"09e0dfee54f498f1": "Le cas de test « $1 » aurait dû lever une exception, mais il n’a rien levé du tout.",
 	"0a27d135d46fe9bb": "c’est la première validation atteignable pour l’état de la copie de travail qui n’est pas dépassée.",
 	"0a32a9cbfb693aeb": "Ce `$1` ou `$2` a un bloc non vide qui ne se termine pas par `$3`, `$4`, `$5`, `$6` ou `$7`. Avez-vous oublié d’en ajouter un ? Si vous avez l’intention de passer outre, ajoutez un commentaire `$8` pour supprimer cet avertissement.",
-	"0a63772b00234b4b": "Fournir une correspondance des expressions régulières aux niveaux de criticité. Tous les codes correspondants auront leur criticité ajustée.",
+	"0a63772b00234b4b": "Fournir une correspondance des ’expressions rationnelles aux niveaux de criticité. Tous les codes correspondants auront leur criticité ajustée.",
 	"0a71dc156ad19abb": "Vous n’avez aucun objet signalé.",
 	"0a86f4f5664e7d44": "Dans la plupart des cas, ''arc'' peut être mis à jour automatiquement.",
 	"0ada1ae99e619e30": "Déclenchement d’une exception dans la méthode `$1`",

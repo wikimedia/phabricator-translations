@@ -4,6 +4,7 @@
 			"Dinoxel",
 			"Gomoko",
 			"Thibaut120094",
+			"Urhixidur",
 			"Wladek92",
 			"Zarisi"
 		]
@@ -21,7 +22,7 @@
 	"197b14a4e592d367": "Propagation des modifications dans le graphe.",
 	"1c180e6dba2ed2fa": "Les atomes héritent des politiques des livres auxquels ils appartiennent.",
 	"20209c866461f149": "Suppression de $1 document(s).",
-	"208262f4a5d4f64f": "La règle '$1' n’est pas une expression régulière valide.",
+	"208262f4a5d4f64f": "La règle '$1' n’est pas une expression rationnelle valide.",
 	"24f096b221f9534b": "Retour",
 	"25f4df14fdd96ab3": "$1 fichier(s) trouvé(s) dans le projet.",
 	"2b8e54e1847403f4": "PUBLICATION DE LA DOCUMENTATION",
