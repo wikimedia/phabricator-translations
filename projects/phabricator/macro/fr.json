@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Actualisateur",
 			"Eneelk",
 			"Thibaut120094",
 			"Wladek92",
@@ -25,7 +26,10 @@
 	"44fd803934c651e0": "Nouveau nom de macro.",
 	"49e81fd2da36d8c4": "Pour modifier l'audio d'une macro, vous devez téléverser un fichier audio.",
 	"5219cda4d2a8a161": "Fichier d'image à importer.",
+	"5ba07a31df239607": "Ci-dessous",
+	"6370c271df2a126a": "Ci-dessus",
 	"660bf78961f4ec6b": "Macro",
+	"70cb647a88bd7c9c": "Comportement",
 	"70fdc05149fa4a83": "Nom de la macro.",
 	"7184c26d690421ff": "$1 a désactivé le son pour $2.",
 	"71da92682327109d": "Le nome de macro « $1 » doit être: d'au moins trois caractères de long; et ne contenir que des lettres minuscules, des chiffres, des tirets, des points, des soulignés, ou des emojis; et ne peut pas être composé entièrement de symboles latins.",
@@ -39,6 +43,7 @@
 	"bcb25a8d0841ba05": "Parcourir les macros",
 	"c37a95d4559eeeb8": "$1 a créé cette macro.",
 	"c715f79203f80055": "Les macros doivent avoir un nom.",
+	"d0b05cf0524251de": "Marquer avec un drapeau",
 	"d52cce212d5138a3": "Exécuter en continu",
 	"dc7f77b4ccfc9f70": "Boucle",
 	"eda4978118f58d6e": "Parcourir les emojis",

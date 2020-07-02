@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Actualisateur",
 			"Derugon",
 			"Eneelk",
 			"Gomoko",
@@ -313,6 +314,7 @@
 	"8d33f3064fd0cf2a": "ÉCHEC",
 	"8d669a5196b60b4d": "Plans actifs",
 	"8ec79a7771e2c666": "Nouvelle vue (prototype)",
+	"9048e083ad4d6e12": "Expédier du fret",
 	"907e0b103ecb5601": "Constructible",
 	"910a182002111af9": "$1 a redémarré cette construction.",
 	"911cd12bbbb83590": "Abandonner vraiment les constructions ?",
@@ -410,6 +412,7 @@
 	"cc0bd707e958f2af": "Méthode HTTP",
 	"ccf711fbabc008d3": "Guide utilisateur Harbormaster",
 	"ce026d2c1810ebf8": "Journal des téléchargements",
+	"cebb171a26b6cbeb": "Faire une requête HTTP.",
 	"cebfa965825b5924": "Hôte Drydock",
 	"cf12704be37bd6cc": "Consommé",
 	"d09139c633ebd11e": "Voir les initiateurs de la construction",

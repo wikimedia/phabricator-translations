@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Actualisateur",
 			"Derugon",
 			"Eneelk",
 			"Thibaut120094",
@@ -14,6 +15,7 @@
 	"0ad7861e87bf85e4": "Type de signature requis",
 	"115148a2acf779f3": "Type de signature",
 	"168214c86a5e4e8e": "$1 a actualisé le type de signature du document.",
+	"1c2d07a40aeb5bdd": "J’accepte les termes énoncés ci-dessus.",
 	"201d67b78d4bce9e": "Détails de la signature",
 	"23d61efdfefef858": "Cet utilisateur n'existe pas.",
 	"2496ba749538b39c": "Chercher les documents signés par certains utilisateurs.",
@@ -65,9 +67,12 @@
 	"8a42a57da0aaf5c4": "Nom de contact",
 	"8a812d80dec51274": "DOCUMENT",
 	"8cf8a1543b5f53fe": "Mis à jour par",
+	"9b046b663910f566": "Entreprise, vérifiée",
 	"a52a2892a2673deb": "Peut créer des documents",
 	"a60a223c98b2c365": "Contributeurs",
+	"a96e829dca138c0f": "Individuels",
 	"ae3362835254048a": "Nouveau titre de document.",
+	"bcac1a3be20c12e5": "Qui doit signer ?",
 	"c1512f915310996f": "Chercher des documents avec des créateurs donnés.",
 	"d2142c60f4e0b58f": "Adresse de la société",
 	"d6f548510a5095aa": "Champ inconnu: $1",
@@ -75,6 +80,7 @@
 	"e0a8b574dd450dbc": "Chercher des documents avec des contributeurs donnés.",
 	"e4cf039229606457": "Signatures",
 	"e88f9dd602052f53": "Voir les signatures",
+	"f41577618ff02cc0": "Consentir et signer le document",
 	"f4c89d2e43c2028a": "Déjà signé",
 	"feb58257ef310432": "Signer le document"
 }

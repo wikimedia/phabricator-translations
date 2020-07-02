@@ -34,7 +34,7 @@
 	"d31b7462b51c88f9": "HTTP 200 var, ancak beklenen HTTP 501 (WebSocket Güncelleme)!",
 	"e540ed16437675ca": "Bildirim sunucusu yapılandırması geçersiz: aynı ana bilgisayarı ve bağlantı noktasını (\"$1\") birden çok kez açıklar. Her ana bilgisayar ve bağlantı noktası kombinasyonu listede yalnızca bir kez görünmelidir.",
 	"e5f613432959373a": "Tümünü Okundu İşaretle",
-	"e6fe34ea1c47c080": "Sadece okunmamış bildirimleri göster.",
+	"e6fe34ea1c47c080": "Yalnızca okunmamış bildirimleri göster.",
 	"f8af5efb9493e17b": "Bildirim sunucusu yapılandırması geçerli değil: listedeki her girişin bir hizmeti tanımlayan bir sözlük olması gerekir, ancak \"$1\" dizinindeki değer bir sözlük değildir.",
 	"f8c3443911adbd1f": "Bildirim sunucusu yapılandırmasının geçersiz bir servis özelliği var (\"$1\" dizininde): $2.",
 	"f9b6f64d81b3eed1": "Bildirimin yok."
