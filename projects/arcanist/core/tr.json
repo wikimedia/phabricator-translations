@@ -1286,7 +1286,7 @@
 	"cf94d63bd4b2e02c": "'$1' dizini mevcut değil.",
 	"cf98d8b7dacc5124": "Linter '$1' geçersiz '$2' türünü belirtir. Mevcut linter: $3.",
 	"cfa2a786ee1e1379": "Düzenleyicinizi girinti için boşluklar kullanacak şekilde yapılandırın.",
-	"d02f763b34b0faf5": "Zaten fark var mı (sadece yerel değişikliklerle)?",
+	"d02f763b34b0faf5": "Zaten fark var mı (yalnızca yerel değişikliklerle)?",
 	"d057110557d2c00b": "Kullanımdan Kaldırılmış İşlev Kullanımı",
 	"d057782ad7612aef": "'$1' ayarının türü listelenmelidir. JSON'da aşağıdaki gibi bir liste belirleyebilirsiniz: $2",
 	"d0674f5831b2b5fe": "JSON dosyalarındaki sözdizimi hatalarını algıla.",

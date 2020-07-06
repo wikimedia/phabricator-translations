@@ -135,7 +135,7 @@
 	"62fc25015a14379b": "bu kural her eşleşdiğinde:",
 	"6367fc9f594cb4f4": "Webhook isteği için ilişkili kanca (\"$1\") (\"$2\") geçersiz URI alma: $3",
 	"657890d39b062e7f": "$1 bu kuralı devre dışı bıraktı.",
-	"6657c1bb22c5af86": "Kişisel bir kural sadece sahibi tarafından düzenlenebilir.",
+	"6657c1bb22c5af86": "Kişisel bir kural yalnızca sahibi tarafından düzenlenebilir.",
 	"66dfc369fb1b2b6c": "Herald Kuralını Düzenle: $1",
 	"66e7f525380b512a": "Webhook URI'ları $1 karakterden uzun olamaz.",
 	"684b2823669a8619": "Webhook isteği (\"$1\", \"$2\" arası) başarısız oldu ($3 / $4). İstek yeniden denenecek.",

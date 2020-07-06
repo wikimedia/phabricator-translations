@@ -541,7 +541,7 @@
 	"a11997ed2755b504": "Bu hesapla ilişkilendirilmiş e-posta adresi (\"$1\") zaten bir uygulama tarafından kullanılıyor ve yeni bir Phabricator hesabı kaydetmek için kullanılamıyor. Farklı, geçerli bir adres seçin.",
 	"a1314083554b108a": "Telefonunuza gönderilen meydan okumayı onaylamanız gerekir. Duo uygulamasını açın ve meydan okumayı onaylayın, ardından devam edin.",
 	"a1de0fec262bf00b": "Özel Anahtarı İndir ($1)",
-	"a1f814f7f3ce9fd3": "Tüm bağlantıyı tarayıcınıza kopyalayıp yapıştırdığınızdan emin olun. Giriş bağlantıları sadece 24 saat geçerlidir ve sadece bir kez kullanılabilir.",
+	"a1f814f7f3ce9fd3": "Tüm bağlantıyı tarayıcınıza kopyalayıp yapıştırdığınızdan emin olun. Giriş bağlantıları sadece 24 saat geçerlidir ve yalnızca bir kez kullanılabilir.",
 	"a1fb1a188d577ee0": "$1 girişi devre dışı bıraktı.",
 	"a209716faa90fb92": "Birincil Numara",
 	"a21a6b7a56f43462": "Doğrulanmamış Kullanıcı E-postası",
