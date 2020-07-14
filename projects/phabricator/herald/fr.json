@@ -3,6 +3,7 @@
 		"authors": [
 			"Actualisateur",
 			"Derugon",
+			"Eihel",
 			"Thibaut120094",
 			"Urhixidur",
 			"Verdy p",
@@ -306,6 +307,8 @@
 	"f4026a27369becbe": "Aucun point d'ancrage web trouvé.",
 	"f570eb43f435c30e": "$1 a modifié $2 de $3 à $4.",
 	"f663cbb6f60f871c": "Vous n'avez pas l'autorisation de créer des points d'ancrage web.",
+	"f80692fc49309b38": "n'est pas l'un des",
+	"f8a7409955f79707": "Le champ «&nbsp;$1&nbsp;» n'existe pas!",
 	"fa3401929b7a56e3": "Regénérer la clé",
 	"fc5d3d59710e8aae": "est faux",
 	"fd4b8529ea0d3441": "$1 a renommé ce point d'ancrage web de $2 en $3.",
