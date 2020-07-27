@@ -40,7 +40,7 @@
 	"90ce40dfd99492ff": "Choisir une coloration",
 	"9603d4615c925382": "Un administrateur a activé le mode lecture seule sur Phabricator.",
 	"a01298c69d2f368b": "Les objets seront définitivement détruits. Il n'y a aucun moyen d'annuler cette opération ou de récupérer ces données à moins de conserver des sauvegardes externes.",
-	"a11e43d03776fe62": "Phabricator n'a pas été capable d’atteindre la base de données en écriture (\"master\") pendant le traitement des demandes récentes.",
+	"a11e43d03776fe62": "Phabricator n'a pas été capable d’atteindre la base de données (\"master\") en écriture pendant le traitement des demandes récentes.",
 	"a85904783da7fca9": "Annulé, vos objets sont en sécurité.",
 	"a95a91ef8bf8329a": "Pas d'URI d'objet",
 	"b66c79a3eb057b6d": "Afficher un journal des objets définitivement détruits.",
