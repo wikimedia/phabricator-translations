@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"LuCKY"
 		]
 	},
 	"00c0cf3b69c5a54c": "Kitap",
@@ -244,7 +245,7 @@
 	"a9414b4e4c1232c2": "Ayarları Düzenle",
 	"a99f8e066a656c95": "Kullanıcı Yönetimi",
 	"aa4333b9694abd16": "Standart Kullanıcı Oluştur",
-	"ac04f44754670480": "[Phabricator] Phabricator'a Hoşgeldiniz",
+	"ac04f44754670480": "[Phabricator] Phabricator'a Hoş geldiniz",
 	"ac662f1bf77ad9a4": "Girilen adreslerden hiçbiri geçerli davet alıcı değil. Ayrıntılar için aşağıdaki tabloyu inceleyin. Devam etmek için adres listesini değiştirin.",
 	"ac76b969a840d99b": "$1 $2'i çözdü.",
 	"ada47ee851de3b50": "Var olmayan kullanıcı PHID.",

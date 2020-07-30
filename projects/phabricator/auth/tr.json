@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"LuCKY",
 			"ToprakM"
 		]
 	},
@@ -360,7 +361,7 @@
 	"6dab7216458e25d1": "$1 bu sağlayıcının bir özelliğini düzenledi.",
 	"6db3041d425e2c7d": "Yetkilendirme E-posta Davetleri",
 	"6e1a5072aee3c52e": "**Adım 2/2 - Phabricator OAuth Örneğini Yapılandırma**\n\nPhabricator OAuth'u yapılandırmak için burada yeni bir uygulama oluşturun:\n\n$1/oauthserver/client/create/\n\nUygulamanızı oluştururken şu ayarları kullanın:\n\n  - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `$2`\n\nYapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**'nı yukarıdaki alanlara kopyalayın. (Önce 'Yeni Gizli'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)",
-	"6e29090cc921fad3": "Phabricator'a Hoşgeldiniz",
+	"6e29090cc921fad3": "Phabricator'a Hoş geldiniz",
 	"6e30fde33a4b01d0": "Adres Doğrulandı",
 	"6e88228047200287": "Telefonunuzu bir kimlik doğrulama faktörü olarak doğrulamak için, birincil irtibat numaranız olarak listelediğiniz telefon numarasına gizli kod içeren bir kısa mesaj gönderilir.",
 	"6ec564fa013d4176": "Phabricator ($1) MFA Kodu: $2",
