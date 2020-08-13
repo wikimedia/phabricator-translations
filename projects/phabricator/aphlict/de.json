@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Umherirrender",
 			"WikiBayer"
 		]
 	},
@@ -8,7 +9,7 @@
 	"08f9150056d8f33f": "Der Benachrichtigungsserver sollte nicht als Root ausgeführt werden.",
 	"0ab7970d71c137fe": "Zwei Server (bei den Indizes „$1“ und „$2“) binden beide an den gleichen Port („$3“). Jeder Server muss sich an einen eindeutigen Port binden.",
 	"11399b1faec2eb8e": "$1 fehlgeschlagen!",
-	"197162c832f1d7fd": "FEHLER: Die PHP-Funktion $ 1 ist deaktiviert. Sie müssen es aktivieren, um Aphlict auf diesem Computer auszuführen.",
+	"197162c832f1d7fd": "FEHLER: Die PHP-Funktion $1 ist deaktiviert. Sie müssen es aktivieren, um Aphlict auf diesem Computer auszuführen.",
 	"2a74a7eaa12bf589": "Stoppen Sie den Benachrichtigungsserver.",
 	"2bea7e7c0b236c1c": "Konfigurationsdatei ist nicht richtig formatiert JSON.  $1",
 	"43256ef7ad916881": "FEHLER: Die PHP-Erweiterung '$1' ist nicht installiert. Sie müssen es installieren, um Aphlict auf diesem Computer auszuführen.",
