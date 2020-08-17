@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Rapsar"
+			"Rapsar",
+			"ToprakM"
 		]
 	},
 	"0007d61d3fd18c30": "İşlemleri Gerçekleştir",
@@ -723,7 +724,7 @@
 	"bc7cc82df7d7480e": "$1 artık kaygıları var.",
 	"bca363b174b333f7": "Depoyu gerçekten silmek istiyor musunuz?",
 	"bcba709f5a8def3c": "Otomatik Kapanma Etkin",
-	"bcca1a341ac28265": "  - [[ $1 | $2 ]] ile SSH kullanıcı adını değiştirin.\n  - [[ $3 | $4 ]] ile SSH sahibini değiştirin.\n  - [[ $5 | $6 ]] ile SSH portalı değiştirin.",
+	"bcca1a341ac28265": "  - [[ $1 | $2 ]] ile SSH kullanıcı adını değiştirin.\n  - [[ $3 | $4 ]] ile SSH sahibini değiştirin.\n  - [[ $5 | $6 ]] ile SSH portali değiştirin.",
 	"bce78cc5a781e8d0": "Deponun yalnızca `trunk/` gibi bir bölümünü içe aktarmak istiyorsanız, **Yalnızca İçe Aktar** seçeneğinde bir yol ayarlayabilirsiniz. Phabricator, bu yolu etkilemeyen taahhütleri göz ardı edecektir.",
 	"bd2408e5810f7174": "Taahhüt Yazarı",
 	"bd759eb352ca1a67": "Daemon'ların güncellemeleri okuması bekleniyor.",
