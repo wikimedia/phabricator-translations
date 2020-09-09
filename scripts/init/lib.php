@@ -9,11 +9,13 @@ function init_translatewiki_script(array $options = array()) {
     'include_path',
     $include_path.PATH_SEPARATOR.dirname(__FILE__).'/../../../');
 
-  @include_once 'libphutil/scripts/__init_script__.php';
+  $ok = @include_once 'arcanist/support/init/init-script.php';
 
-  if (!@constant('__LIBPHUTIL__')) {
-    echo "ERROR: Unable to load libphutil. Update your PHP 'include_path' to ".
-      "include the parent directory of libphutil/.\n";
+  if (!$ok) {
+    echo
+      'FATAL ERROR: Unable to load the "Arcanist" library. '.
+      'Put "arcanist/" next to "phabricator/" on disk.';
+    echo "\n";
     exit(1);
   }
 
