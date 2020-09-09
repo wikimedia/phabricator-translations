@@ -129,7 +129,7 @@ final class PhabricatorOwnersTr
       'Configure forms for creating and editing packages in Owners.' => 'Sahiplerde paket oluşturmak ve düzenlemek için formları yapılandırın.',
       '%s removed %s owner(s): %s.' => '%s, %s sahibi kaldırdı: %s.',
       '%s adjusted package dominion rules from %s to %s.' => '%s paket hakimiyet kuralları %s\'den %s\'e ayarlandı.',
-      'CHANGES TO PACKAGE DESCRIPTION' => 'PAKET AÇIKLAMASI DEĞİŞİYOR',
+      'CHANGES TO PACKAGE DESCRIPTION' => 'PAKET AÇIKLAMASINDAKİ DEĞİŞİKLİKLER',
       'Autoreview setting "%s" is not valid. Valid settings are: %s.' => 'Otomatik görüntüleme ayarı "%s" geçerli değil. Geçerli ayarlar: %s.',
       'Edit Paths: %s' => 'Yolları Düzenle: %s',
       'Package %d' => 'Paket %s',

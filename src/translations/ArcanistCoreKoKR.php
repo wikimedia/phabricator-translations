@@ -57,6 +57,8 @@ final class ArcanistCoreKoKR
       '    %s %s
     ' => '    %s %s',
       'Install flake8 using `%s`.' => '`%s`을(를) 사용해 flake8을 설치합니다.',
+      'Updating working copy...' => '작업 복사본을 업데이트하는 중...',
+      'Language constructs do not require parentheses.' => '언어구성은 괄호를 필요로 하지 않습니다.',
       'No linters to run.' => '실행할 린터가 없습니다.',
       'Modified' => '수정됨',
       'TODO Comment' => '할 일 설명',
@@ -67,6 +69,7 @@ final class ArcanistCoreKoKR
       'This client version does not support staging this repository.' => '클라이언트 버전은 이 저장소의 스테이징을 지원하지 않습니다.',
       'Run an external script, then parse its output with a regular expression. This is a generic binding that can be used to run custom lint scripts.' => '외부 스크립트를 실행한 다음 정규 표현식으로 출력의 구문을 분석합니다. 이는 사용자 지정 린트 스크립트를 실행하기 위해 사용할 수 있는 일반 바인딩입니다.',
       'Failed to lookup information for \'%s\'!' => '\'%s\'의 정보 확인을 실패했습니다!',
+      'Constants should be uppercase.' => '상수는 대문자여야 합니다.',
       '`%s` Unreliable' => '`%s` 신뢰할 수 없음',
       'Confused by empty line' => '비어있는 줄로 인해 혼동됨',
       '(Run `%s` for more details.)' => '(더 자세한 정보를 보려면 `%s`을(를) 실행하십시오.)',

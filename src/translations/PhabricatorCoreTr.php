@@ -13,7 +13,7 @@ final class PhabricatorCoreTr
       'No repository "%s" exists!' => '"%s" deposu yok!',
       'Save Related Commits' => 'İlgili Taahhütleri Kaydet',
       '%s edited %s.' => '%s, %s düzenledi.',
-      'Welcome to Phabricator!' => 'Phabricator\'a Hoşgeldiniz!',
+      'Welcome to Phabricator!' => 'Phabricator\'a Hoş geldiniz!',
       'View \'%s\' does not support children.' => '\'%s\' görünümü çocukları desteklemiyor.',
       'Move Document' => 'Belgeyi Taşı',
       'Maximum must be larger than minimum.' => 'Maksimum değer minimumdan büyük olmalıdır.',
@@ -53,7 +53,7 @@ final class PhabricatorCoreTr
       'Browse Documents' => 'Belgeleri Göz At',
       'Lisk process isolation level was reduced below 0.' => 'Lisk işlem izolasyon seviyesi 0\'ın altına düşürüldü.',
       'Favorites' => 'Favoriler',
-      'italic text' => 'italik yazı',
+      'italic text' => 'eğik metin',
       'Custom' => 'Özel',
       '%s (Preview)' => '%s (Önizleme)',
       'Stopped on Redirect' => 'Yönlendirmede Durduruldu',
@@ -473,7 +473,7 @@ final class PhabricatorCoreTr
       '%s Bulk Task(s)' => '%s Toplu Görev',
       'Edit Package: %s' => 'Paket Düzenlemesi: %s',
       'Order vector "%s" specifies order "%s" twice. Each component of an ordering must be unique.' => '"%s" sıra vektörü "%s" siparişini iki kez belirtir. Bir sıranın her bileşeni benzersiz olmalıdır.',
-      'HMAC-SHA256 can only digest strings.' => 'HMAC-SHA256 sadece dizeleri sindirebilir.',
+      'HMAC-SHA256 can only digest strings.' => 'HMAC-SHA256 yalnızca dizeleri sindirebilir.',
       'Fire the trigger as though the next event was scheduled at a given time. Defaults to the actual time when the event is next scheduled to fire.' => 'Tetikleyiciyi, bir sonraki etkinlik belirli bir zamanda planlanmış gibi başlatın. Varsayılan olarak, etkinliğin bir sonraki etkinliğinin planlandığı gerçek saattir.',
       'Impossible Cluster Write' => 'İmkansız Küme Yazma',
       '%s got test event at %d' => '%s, test etkinliğini %s altında aldı',
@@ -536,7 +536,7 @@ final class PhabricatorCoreTr
       'Lisk transaction isolation level was reduced below 0.' => 'Lisk işlem izolasyon seviyesi 0\'ın altına düşürüldü.',
       'Fullscreen Mode' => 'Tam Ekran Modu',
       'Description' => 'Açıklama',
-      'Publish' => 'Yayınla',
+      'Publish' => 'Yayımla',
       'Wednesday' => 'Çarşamba',
       'Storage on "%s" was destroyed.' => '"%s" üzerindeki depolama alanı yok edildi.',
       'Subscriptions' => 'Abonelikler',
@@ -656,7 +656,7 @@ final class PhabricatorCoreTr
       'Phurl' => 'Phurl',
       'Lock Overridden' => 'Geçersiz Kılınan Kilit',
       'Edit Related Tasks' => 'İlgili Görevleri Düzenle',
-      'View' => 'Görünüm',
+      'View' => 'Görüntüle',
       'Part of the month is out of range' => 'Ayın bir kısmı kapsama alanı dışında',
       'Queued' => 'Sırada',
       'No authorized blueprints.' => 'Yetkili plan yok.',
@@ -761,7 +761,7 @@ final class PhabricatorCoreTr
       'Real Name' => 'Gerçek Adı',
       'That comment is not editable!' => 'Bu yorum düzenlenemez!',
       'Terminate' => 'Sonlandır',
-      'Should trigger only once.' => 'Sadece bir kez tetiklenmelidir.',
+      'Should trigger only once.' => 'Yalnızca bir kez tetiklenmelidir.',
       'Unsupported character set "%s".' => 'Desteklenmeyen karakter kümesi "%s".',
       'Cancel' => 'İptal',
       'Status Details' => 'Status Details',
@@ -909,7 +909,7 @@ final class PhabricatorCoreTr
       'To avoid this error, use %s to construct forms. If you are already using %s, make sure the form \'action\' uses a relative URI (i.e., begins with a \'%s\'). Forms using absolute URIs do not include CSRF tokens, to prevent leaking tokens to external sites.
     If this page performs writes which do not require CSRF protection (usually, filling caches or logging), you can use %s to temporarily bypass CSRF protection while writing. You should use this only for writes which can not be protected with normal CSRF mechanisms.
     Some UI elements (like %s) also have methods which will allow you to render links as forms (like %s).' => 'Bu hatayı önlemek için, form oluşturmak üzere %s kullanın. Zaten %s kullanıyorsanız, \'action\' formunun göreli bir URI kullandığından emin olun (yani, \'%s\' ile başlar). Mutlak URI\'leri kullanan formlar, harici sitelere beliren belirteçleri önlemek için CSRF belirteçleri içermez.
-    Bu sayfa CSRF koruması gerektirmeyen yazma işlemleri gerçekleştiriyorsa (genellikle önbellekleri doldurma veya günlüğe kaydetme), yazma sırasında CSRF korumasını geçici olarak atlamak için %s kullanabilirsiniz. Bunu sadece normal CSRF mekanizmalarıyla korunamayan yazma işlemleri için kullanmalısınız.
+    Bu sayfa CSRF koruması gerektirmeyen yazma işlemleri gerçekleştiriyorsa (genellikle önbellekleri doldurma veya günlüğe kaydetme), yazma sırasında CSRF korumasını geçici olarak atlamak için %s kullanabilirsiniz. Bunu yalnızca normal CSRF mekanizmalarıyla korunamayan yazma işlemleri için kullanmalısınız.
     Bazı kullanıcı arayüzü öğelerinde (%s gibi), bağlantıları form olarak (%s gibi) oluşturmanıza olanak tanıyan yöntemler de vardır.',
       'Comma-separated list of user PHIDs.' => 'Kullanıcı PHID\'lerinin virgülle ayrılmış listesi.',
       'Adding many test tasks to worker queue. Use ^C to exit.' => 'Çalışan kuyruğuna birçok test görevi ekleme. Çıkmak için ^C kullanın.',

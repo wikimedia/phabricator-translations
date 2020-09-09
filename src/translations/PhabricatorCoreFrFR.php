@@ -1709,7 +1709,7 @@ final class PhabricatorCoreFrFR
       'Failed to adjust SORT columns!' => 'Echec dans l\'ajustement des colonnes de TRI !',
       'All Packages' => 'Tous les paquets',
       'Disabled' => 'Désactivé',
-      'Regular expression "%s" is invalid!' => 'L’expression régulière « %s » n’est pas valide !',
+      'Regular expression "%s" is invalid!' => 'L’expression rationnelle « %s » n’est pas valide !',
       'Keywords' => 'Mots-clés',
       'Valid local resource: %s' => 'Ressource locale valide : %s',
       'Content with no known source.' => 'Contenu sans source connue.',

@@ -90,7 +90,7 @@ final class PhabricatorDiffusionFrFR
       'Repository Active' => 'Dépôt actif',
       'Type "unassigned"...' => 'Type "unassigned"...',
       'Task Daemon Running' => 'Démon de tâche en exécution',
-      'Regular expression to link external bug tracker. See http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html for further explanation.' => 'Expression régulière pour lier le traceur de bogues externe. Voir http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html pour plus d’explications.',
+      'Regular expression to link external bug tracker. See http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html for further explanation.' => 'Expression rationnelle liant le traceur de bogues externe. Voir http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html pour plus d’explications.',
       'This commit is very large. Load each file individually.' => 'Cette validation est très grosse. Charger chaque fichier individuellement.',
       'No, Repository Importing' => 'Non, dépôt en cours d\'importation',
       '%s completed building %s.' => '%s a terminé la construction de %s.',

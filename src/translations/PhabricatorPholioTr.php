@@ -27,7 +27,7 @@ final class PhabricatorPholioTr
       'Pholio Mocks' => 'Pholio Sahteleri',
       '%s removed %d image(s): %s.' => '%s, %s resim kaldırdı: %s.',
       '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => '%s, %s görev düzenlendi, %s ekledi: %s; %s kaldırıldı: %s.',
-      'Undo' => 'Geri Al',
+      'Undo' => 'Geri al',
       'React to mocks being created or updated.' => 'Oluşturulan veya güncellenen sahtelere tepki verin.',
       'Image ("%s") does not specify which image it replaces.' => 'Resim ("%s") hangi resmin yerini alacağını belirtmiyor.',
       'Upload sets of images for review with revision history and inline comments.' => 'Gözden geçirme geçmişi ve satır içi yorumlarla inceleme için resim setleri yükleyin.',

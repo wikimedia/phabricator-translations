@@ -140,7 +140,7 @@ final class PhabricatorHeraldTr
       'every time this rule matches:' => 'bu kural her eşleşdiğinde:',
       'Associated hook ("%s") for webhook request ("%s") has invalid fetch URI: %s' => 'Webhook isteği için ilişkili kanca ("%s") ("%s") geçersiz URI alma: %s',
       '%s disabled this rule.' => '%s bu kuralı devre dışı bıraktı.',
-      'A personal rule can only be edited by its owner.' => 'Kişisel bir kural sadece sahibi tarafından düzenlenebilir.',
+      'A personal rule can only be edited by its owner.' => 'Kişisel bir kural yalnızca sahibi tarafından düzenlenebilir.',
       'Edit Herald Rule: %s' => 'Herald Kuralını Düzenle: %s',
       'Webhook URIs can be no longer than %s characters.' => 'Webhook URI\'ları %s karakterden uzun olamaz.',
       'Webhook request ("%s", to "%s") failed (%s / %s). The request will be retried.' => 'Webhook isteği ("%s", "%s" arası) başarısız oldu (%s / %s). İstek yeniden denenecek.',

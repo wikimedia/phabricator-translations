@@ -20,7 +20,7 @@ final class PhabricatorChatlogTr
       'Hide Dates' => 'Tarihleri Gizle',
       'Channel Log' => 'Kanal Günlüğü',
       'Search Dates' => 'Tarihleri Ara',
-      'Newest' => 'En Yeni',
+      'Newest' => 'En yeni',
       'Record chatter.' => 'Sohbeti kaydet.',
     );
   }

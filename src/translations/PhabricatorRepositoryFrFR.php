@@ -52,6 +52,7 @@ final class PhabricatorRepositoryFrFR
         'Annulera la publication de %s validations.',
       ),
       'Short Names' => 'Noms courts',
+      'Matching function "%s(...)" is not recognized. Valid functions are: regexp(...).' => 'Correspond à la fonction « %s(...) » n\'est pas reconnu. Les fonctions valides sont : regexp(...).',
       '%s removed the touch limit (%s paths) for this repository.' => '%s a supprimé la limite d\'accessibilité des fichiers (%s chemins) pour ce dépôt.',
       '(This is a write request.)' => '(Ceci est une requête d\'écriture).',
       'Repair a repository with gaps in commit history.' => 'Réparer un dépôt comportant des trous dans l\'historique des validations.',

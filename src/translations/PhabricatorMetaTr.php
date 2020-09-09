@@ -70,7 +70,7 @@ final class PhabricatorMetaTr
     ```
     ' => 'Phabricator\'ı gelen postaları işlemek üzere yapılandırdıktan sonra, e-postayla nesnelerle (görevler ve revizyonlar gibi) etkileşime girebilirsiniz. Phabricator\'ı yapılandırma hakkında bilgi için, **[[ %s | Gelen E-postayı Yapılandırma ]]** sayfasına bakın.
     Çoğu durumda, yorum yapmak için Phabricator\'dan aldığınız e-postayı yanıtlayabilirsiniz. Web kullanıcı arayüzüne giriş yapmanıza gerek kalmadan daha fazla eylem yapmak (görev talep etmek veya bir revizyonda değişiklik istemek gibi) için **posta komutlarını** da kullanabilirsiniz.
-    Posta komutları, `!claim` gibi bir ünlem işaretiyle başlayan anahtar kelimelerdir. Bazı komutlar gibi parametreler alabilir `!assign alincoln`.
+    Posta komutları, `!claim` gibi bir ünlem işaretiyle başlayan anahtar kelimelerdir. Bazı komutlar `!assign alincoln` gibi parametreler alabilir.
     Posta komutlarını kullanmak için, posta mesajınızın başına veya sonuna her satıra bir komut yazın. Örneğin, görevi talep etmek için görev e-postasına cevap olarak yazabilirsiniz:
     ```
     !claim
@@ -80,7 +80,7 @@ final class PhabricatorMetaTr
     ```
     !assign alincoln
     !close
-    Sadece @incoln ile konuştum ve bana bunu düzelttiğini gösterdi.
+    Yalnızca @incoln ile konuştum ve bana bunu düzelttiğini gösterdi.
     ```',
       'Can\'t set the policy to a policy you can\'t view!' => 'Politika, göremediğiniz bir politikaya ayarlanamıyor!',
       'Type an application name...' => 'Bir uygulama türü adı...',

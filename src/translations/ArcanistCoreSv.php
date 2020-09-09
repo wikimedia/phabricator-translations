@@ -115,7 +115,7 @@ final class ArcanistCoreSv
       'The regex to process output with.' => 'Regex att bearbeta utmaningen med.',
       'Do you want to use this message?' => 'Vill du använda detta meddelande?',
       'To login and save credentials for this server, run this command:' => 'För att logga in och spara inloggningsuppgifter för denna server, kör detta kommando:',
-      'Expect %s was called once for each test.' => 'Förväntade %s, som anropades en gång för varje test.',
+      'Expect %s was called once for each test.' => 'Förväntade %s anropades en gång för varje test.',
       'Custom preset.' => 'Anpassad förinställning.',
       'Continue anyway?' => 'Fortsätt ändå?',
       'CONFIGURED' => 'KONFIGURERAD',

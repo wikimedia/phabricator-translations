@@ -78,7 +78,7 @@ final class PhabricatorDivinerTr
       'Specify an atomizer class with %s.' => '%s ile bir atomizer sınıfı belirtin.',
       'BUILDING GRAPH CACHE' => 'GRAFİK ÖNBELLEĞİ OLUŞTURULUYOR',
       'Unable to find the specified documentation. You may have followed a bad or outdated link.' => 'Belirtilen belgeler bulunamadı. Kötü veya güncel olmayan bir bağlantı izlemiş olabilirsiniz.',
-      'Extends' => 'Uzattı',
+      'Extends' => 'Genişletmeler',
       'Found %s obsolete atom(s) in graph.' => 'Grafikte %s eski atom bulundu.',
       'No such atom with node hash \'%s\'!' => 'Düğüm karması \'%s\' olan böyle bir atom yok!',
       'Atomization complete.' => 'Atomizasyon tamamlandı.',

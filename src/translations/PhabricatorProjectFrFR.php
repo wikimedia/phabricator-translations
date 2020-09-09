@@ -216,6 +216,7 @@ final class PhabricatorProjectFrFR
       'You can not add milestones to this project.' => 'Vous ne pouvez pas ajouter de jalons à ce projet.',
       'Project tags' => 'Labels du projet',
       'You are not a project member, so you do not receive mail sent to members of this project.' => 'Vous n\'êtes pas membre du projet, donc vous ne recevez pas les courriels envoyés aux membres de ce projet.',
+      'You must choose a file when uploading a new project picture.' => 'Vous devez choisir un fichier lorsque vous téléversez une nouvelle image de projet.',
       'Hide Milestones' => 'Masquer les jalons',
       'You can not import columns into this workboard because it already has columns. You can only import into an empty workboard.' => 'Vous ne pouvez pas importer de colonnes dans ce tableau de travail parce qu\'il en possède déja. Vous ne pouvez importer de colonnes que dans un tableau vide.',
       'Only' => 'Seulement',

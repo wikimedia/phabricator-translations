@@ -22,7 +22,7 @@ final class PhabricatorDivinerFrFR
       'Propagating changes through the graph.' => 'Propagation des modifications dans le graphe.',
       'Atoms inherit the policies of the books they are part of.' => 'Les atomes héritent des politiques des livres auxquels ils appartiennent.',
       'Deleting %s document(s).' => 'Suppression de %s document(s).',
-      'Rule \'%s\' is not a valid regular expression.' => 'La règle \'%s\' n’est pas une expression régulière valide.',
+      'Rule \'%s\' is not a valid regular expression.' => 'La règle \'%s\' n’est pas une expression rationnelle valide.',
       'Return' => 'Retour',
       'Found %s file(s) in project.' => '%s fichier(s) trouvé(s) dans le projet.',
       'PUBLISHING DOCUMENTATION' => 'PUBLICATION DE LA DOCUMENTATION',

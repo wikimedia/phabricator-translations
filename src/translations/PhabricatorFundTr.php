@@ -60,7 +60,7 @@ final class PhabricatorFundTr
       'No backers found.' => 'Destekçi bulunamadı.',
       'Risks/Challenges' => 'Riskler/Zorluklar',
       'Total Funding' => 'Toplam Fon',
-      'Donate' => 'Bağış Yap',
+      'Donate' => 'Bağış yap',
       'A backer can always see what they have backed.' => 'Bir destekçi ne desteklediklerini her zaman görebilir.',
       '%s reopened this initiative.' => '%s bu girişimi yeniden açtı.',
       'Initiatives must have a payable merchant.' => 'Girişimler ücretli bir satıcıya sahip olmalıdır.',

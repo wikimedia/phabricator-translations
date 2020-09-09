@@ -9,8 +9,9 @@ final class PhabricatorFavoritesZhHans
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => '编辑收藏夹',
-      'Favorite Items' => '兴趣项目',
+      'Edit Favorites' => '编辑收藏',
+      'Favorite Items' => '收藏条目',
+      'Favorites Menu' => '收藏菜单',
     );
   }
 

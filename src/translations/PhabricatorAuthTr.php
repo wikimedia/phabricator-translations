@@ -487,7 +487,7 @@ final class PhabricatorAuthTr
     Uygulamanızı oluştururken şu ayarları kullanın:
       - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `%s`
     Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**\'nı yukarıdaki alanlara kopyalayın. (Önce \'Yeni Gizli\'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)',
-      'Welcome to Phabricator' => 'Phabricator\'a Hoşgeldiniz',
+      'Welcome to Phabricator' => 'Phabricator\'a Hoş geldiniz',
       'Address Verified' => 'Adres Doğrulandı',
       'To verify your phone as an authentication factor, a text message with a secret code will be sent to the phone number you have listed as your primary contact number.' => 'Telefonunuzu bir kimlik doğrulama faktörü olarak doğrulamak için, birincil irtibat numaranız olarak listelediğiniz telefon numarasına gizli kod içeren bir kısa mesaj gönderilir.',
       'Phabricator (%s) MFA Code: %s' => 'Phabricator (%s) MFA Kodu: %s',
@@ -495,7 +495,7 @@ final class PhabricatorAuthTr
       'DISABLE APPROVAL QUEUE' => 'ONAYLAMA SIRASINI DEVRE DIŞI BIRAK',
       'Specify either specific factors with "--type", or all factors with "--all-types", but not both.' => '"--type" ile belirli faktörleri veya "--all-type" ile tüm faktörleri belirtin, ancak her ikisini birden belirtmeyin.',
       'No OAuth Access Token' => 'OAuth Erişim Anahtarı Yok',
-      'You are already logged in.' => 'Zaten giriş yaptınız.',
+      'You are already logged in.' => 'Zaten oturum açtınız.',
       'Link LDAP Account' => 'LDAP Hesabını Bağla',
       '%s turned "Require Secure Browsing" off.' => '%s "Güvenli Tarama Gerekli" seçeneğini kapattı.',
       'ldap.example.com' => 'ldap.example.com',
@@ -700,7 +700,7 @@ final class PhabricatorAuthTr
       'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new Phabricator account. Choose a different, valid address.' => 'Bu hesapla ilişkilendirilmiş e-posta adresi ("%s") zaten bir uygulama tarafından kullanılıyor ve yeni bir Phabricator hesabı kaydetmek için kullanılamıyor. Farklı, geçerli bir adres seçin.',
       'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Telefonunuza gönderilen meydan okumayı onaylamanız gerekir. Duo uygulamasını açın ve meydan okumayı onaylayın, ardından devam edin.',
       'Download Private Key (%s)' => 'Özel Anahtarı İndir (%s)',
-      'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.' => 'Tüm bağlantıyı tarayıcınıza kopyalayıp yapıştırdığınızdan emin olun. Giriş bağlantıları sadece 24 saat geçerlidir ve sadece bir kez kullanılabilir.',
+      'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.' => 'Tüm bağlantıyı tarayıcınıza kopyalayıp yapıştırdığınızdan emin olun. Giriş bağlantıları sadece 24 saat geçerlidir ve yalnızca bir kez kullanılabilir.',
       '%s disabled login.' => '%s girişi devre dışı bıraktı.',
       'Primary Number' => 'Birincil Numara',
       'Unverified User Email' => 'Doğrulanmamış Kullanıcı E-postası',

@@ -36,7 +36,7 @@ final class PhabricatorSpacesTr
       'Ask someone to give you access to a space so you can view and create objects.' => 'Birinden sizden bir alana erişim izni vermesini isteyin, böylece nesneleri görüntüleyip oluşturabilirsiniz.',
       'Default Space' => 'Varsayılan Alan',
       'Archive Space' => 'Arşiv Alanı',
-      'CHANGES TO SPACE DESCRIPTION' => 'AÇIKLAMA ALANINDA DEĞİŞİMİ',
+      'CHANGES TO SPACE DESCRIPTION' => 'BOŞLUK AÇIKLAMASINDAKİ DEĞİŞİKLİKLER',
       'Default view policy for newly created spaces.' => 'Yeni oluşturulan alanlar için varsayılan görünüm politikası.',
       'Spaces' => 'Alanlar',
       'Drift Aimlessly' => 'Amaçsızca Drift',

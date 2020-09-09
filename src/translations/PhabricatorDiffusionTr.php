@@ -253,7 +253,7 @@ final class PhabricatorDiffusionTr
       'Get commit identifiers for recent commits affecting a given path.' => 'Belirli bir yolu etkileyen son taahhütler için taahhüt tanımlayıcıları alın.',
       'Obsoleted by "diffusion.historyquery".' => '"diffusion.historyquery" tarafından kullanımdan kaldırılmıştır.',
       'This path does not exist at %s. It was deleted in %s and last existed at %s.' => 'Bu yol %s üzerinde mevcut değil. %s ile silindi ve son olarak %s ile mevcuttu.',
-      'Autoclose commits on only these branches.' => 'Autoclose sadece bu dallarda çalışır.',
+      'Autoclose commits on only these branches.' => 'Oto kilitleme yalnızca bu dallarda çalışır.',
       'Search for identities by substring.' => 'Alt dizeye göre kimlik arayın.',
       'Unknown External' => 'Bilinmeyen Harici',
       'Disable or activate the URI.' => 'URI\'yı devre dışı bırakın veya etkinleştirin.',
@@ -262,7 +262,7 @@ final class PhabricatorDiffusionTr
       'This URI does not have an associated credential.' => 'Bu URI\'nin ilişkilendirilmiş bir kimlik bilgisi yok.',
       'This rule can trigger for **repositories** or **projects**.' => 'Bu kural **depolar** veya **projeler** için tetikleme yapabilir.',
       'There are no commits on %s that are not already on %s.' => '%s üzerinde zaten %s olmayan herhangi bir taahhüt yoktur.',
-      'Read-Only' => 'Sadece Oku',
+      'Read-Only' => 'Yalnızca Oku',
       'Create Repository' => 'Depo Oluştur',
       'If you allow enormous changes, users can push commits which are too large for Herald to process content rules for. This can allow users to evade content rules implemented in Herald.' => 'Çok büyük değişikliklere izin verirseniz, kullanıcılar Herald\'ın içerik kurallarını işlemesi için çok büyük olan taahhütleri zorlayabilir. Bu, kullanıcıların Herald\'da uygulanan içerik kurallarından kaçmasına izin verebilir.',
       'If you accept Phabricator SSH traffic on a different host from web traffic (for example, if you use different SSH and web load balancers), you can set the SSH hostname here. This is an advanced option.' => 'Web trafiğinden farklı bir ana bilgisayarda Phabricator SSH trafiğini kabul ederseniz (örneğin, farklı SSH ve web yük dengeleyicileri kullanıyorsanız), SSH ana bilgisayar adını buradan ayarlayabilirsiniz. Bu gelişmiş bir seçenektir.',
@@ -475,7 +475,7 @@ final class PhabricatorDiffusionTr
       'Synchronization of "%s" from leader "%s" failed: %s' => '"%s" lideri "%s" ile senkronize edilemedi: %s',
       'Determine if code exists in a version control system.' => 'Kodun bir sürüm kontrol sisteminde olup olmadığını belirleyin.',
       'Port for SSH connections to repositories.' => 'Depolara SSH bağlantıları için bağlantı noktası.',
-      'Track only these branches.' => 'Sadece bu dalları takip edin.',
+      'Track only these branches.' => 'Yalnızca bu dalları izleyin.',
       'Not Allowed' => 'İzin verilmedi',
       'Failed to load the commit because the commit has not been parsed yet.' => 'Taahhüt henüz ayrıştırılmadığından taahhüt yüklenemedi.',
       'Ref name' => 'Referans adı',
@@ -777,7 +777,7 @@ final class PhabricatorDiffusionTr
       - Configure [[ %s | %s ]] to change the SSH host.
       - Configure [[ %s | %s ]] to change the SSH port.' => '  - [[ %s | %s ]] ile SSH kullanıcı adını değiştirin.
       - [[ %s | %s ]] ile SSH sahibini değiştirin.
-      - [[ %s | %s ]] ile SSH portalı değiştirin.',
+      - [[ %s | %s ]] ile SSH portali değiştirin.',
       'If you want to import only part of a repository, like `trunk/`, you can set a path in **Import Only**. Phabricator will ignore commits which do not affect this path.' => 'Deponun yalnızca `trunk/` gibi bir bölümünü içe aktarmak istiyorsanız, **Yalnızca İçe Aktar** seçeneğinde bir yol ayarlayabilirsiniz. Phabricator, bu yolu etkilemeyen taahhütleri göz ardı edecektir.',
       'Commit Author' => 'Taahhüt Yazarı',
       'Waiting for daemons to read updates.' => 'Daemon\'ların güncellemeleri okuması bekleniyor.',

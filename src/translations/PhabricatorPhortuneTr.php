@@ -494,7 +494,7 @@ final class PhabricatorPhortuneTr
       'Products' => 'Ürünler',
       'View All Invoices' => 'Tüm Faturaları Görüntüle',
       'Submit Payment' => 'Ödeme Gönder',
-      'CHANGES TO MERCHANT DESCRIPTION' => 'TİCARİ TANIMI DEĞİŞİYOR',
+      'CHANGES TO MERCHANT DESCRIPTION' => 'TİCARİ AÇIKLAMASINDAKİ DEĞİŞİKLİKLER',
       'Add Stripe Payments Account' => 'Stripe Ödeme Hesabı Ekleyin',
       'No WePay Checkout ID present on charge!' => 'Ücretli WePay Ödeme kimliği yok!',
     );

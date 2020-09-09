@@ -507,7 +507,7 @@ final class LibphutilCoreFrFR
       'st' => 'er',
       'Unknown type \'%s\' in type matrix.' => 'Type \'%s\' inconnu dans la matrice de type.',
       'The cURL library raised an error while making a request. You may be able to find more information about this error (error code: %d) on the cURL site: %s' => 'La bibliothèque cURL a levé une erreur en faisant une requête. Vous pourrez trouver plus d’informations concernant cette erreur (code d’erreur : %s) sur le site cURL : %s',
-      'Expected a regular expression, but \'%s\' is not valid: %s' => 'Expression régulière attendue, mais \'%s\' n’est pas valide : %s',
+      'Expected a regular expression, but \'%s\' is not valid: %s' => 'Expression rationnelle attendue, mais \'%s\' n’est pas valide : %s',
       'Cache not available.' => 'Cache non disponible.',
       'German (Germany)' => 'Allemand (Allemagne)',
       'Expect data for test "%s" is not valid JSON.' => 'Donnée de test JSON attendue "%s" non valide.',

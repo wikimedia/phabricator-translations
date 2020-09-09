@@ -15,7 +15,7 @@ final class PhabricatorFactTr
       'No fact engines support generating facts for this object.' => 'Hiçbir gerçek motor bu amaç için gerçekler üretmeyi desteklememektedir.',
       'Y-Axis' => 'Y-Ekseni',
       'Executing a fact query requires facts.' => 'Bir olgu sorgusu yürütmek gerçekleri gerektirir.',
-      'Process only iterator __name__.' => 'Sadece yineleyici __name__ işle.',
+      'Process only iterator __name__.' => 'Yalnızca yineleyici __adını__ işleyin.',
       'Cursor %s does not exist or is already reset.' => 'İmleç %s mevcut değil veya sıfırlandı.',
       'No cursors.' => 'İmleç yok.',
       'Fact Extraction Report' => 'Gerçek Çıkarma Raporu',

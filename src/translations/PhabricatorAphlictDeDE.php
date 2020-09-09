@@ -13,7 +13,7 @@ final class PhabricatorAphlictDeDE
       'The notification server should not be run as root.' => 'Der Benachrichtigungsserver sollte nicht als Root ausgeführt werden.',
       'Two servers (at indexes "%s" and "%s") both bind to the same port ("%s"). Each server must bind to a unique port.' => 'Zwei Server (bei den Indizes „%s“ und „%s“) binden beide an den gleichen Port („%s“). Jeder Server muss sich an einen eindeutigen Port binden.',
       'Failed to %s!' => '%s fehlgeschlagen!',
-      'ERROR: The PHP function %s is disabled. You must enable it to run Aphlict on this machine.' => 'FEHLER: Die PHP-Funktion $ 1 ist deaktiviert. Sie müssen es aktivieren, um Aphlict auf diesem Computer auszuführen.',
+      'ERROR: The PHP function %s is disabled. You must enable it to run Aphlict on this machine.' => 'FEHLER: Die PHP-Funktion %s ist deaktiviert. Sie müssen es aktivieren, um Aphlict auf diesem Computer auszuführen.',
       'Stop the notification server.' => 'Stoppen Sie den Benachrichtigungsserver.',
       'Configuration file is not properly formatted JSON. %s' => 'Konfigurationsdatei ist nicht richtig formatiert JSON.  %s',
       'ERROR: The PHP extension \'%s\' is not installed. You must install it to run Aphlict on this machine.' => 'FEHLER: Die PHP-Erweiterung \'%s\' ist nicht installiert. Sie müssen es installieren, um Aphlict auf diesem Computer auszuführen.',

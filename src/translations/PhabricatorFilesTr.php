@@ -158,7 +158,7 @@ final class PhabricatorFilesTr
       'The Cloud' => 'Bulut',
       'Prim Goldenrod' => 'Prim Altın Başak',
       'Select a specific storage key.' => 'Belirli bir depolama anahtarı seçin.',
-      'Just a place for files.' => 'Sadece dosyalar için bir yer.',
+      'Just a place for files.' => 'Yalnızca dosyalar için bir yer.',
       'Unable to get image information with getimagesize(): %s' => 'getimagesize() ile resim bilgisi alınamıyor: %s',
       'Found no background template resource for dimensions %dx%d.' => '%sx %s boyutları için arka plan şablonu kaynağı bulunamadı.',
       'This image (with dimensions %spx x %spx) is too large to transform. The image has %s pixels, but transforms are limited to images with %s or fewer pixels.' => 'Bu resim (boyutlarıyla %s piksel x %s piksel) dönüştürülemeyecek kadar büyük. Görüntünün %s pikseli vardır, ancak dönüşümler %s veya daha az pikseli olan resimlerle sınırlıdır.',

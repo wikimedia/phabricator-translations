@@ -161,7 +161,7 @@ final class PhabricatorSettingsTr
     | Ayar | Etki
     | ------- | -------
     | ;E-posta | Bir e-posta ve bir bildirim alacaksınız, ancak bildirim "oku" olarak işaretlenecek.
-    | Bildirim | Sadece okunmamış bir bildirim alacaksınız.
+    | Bildirim | Yalnızca okunmamış bir bildirim alacaksınız.
     | Yoksay | Hiçbir şey almayacaksınız.
     Bir güncelleme birkaç değişiklik yaparsa (bir göreve CC\'ler eklemek, onu kapatmak ve bir yorum eklemek gibi), değişikliklerden herhangi birinin iletmek üzere yapılandırıldığı en güçlü bildirimi alırsınız.
     Bu tercihler **yalnızca** bağlı olduğunuz nesneler için geçerlidir (örneğin, bir gözden geçirici olduğunuz Revizyonlar veya CC’de bulunduğunuz görevler). Başka nesneler oluşturulduğunda e-posta uyarıları almak için, [[ /herald/ | Herald Kuralları ]] yapılandır.',

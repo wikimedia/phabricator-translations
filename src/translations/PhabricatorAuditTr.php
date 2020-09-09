@@ -57,7 +57,7 @@ final class PhabricatorAuditTr
       'none' => 'yok',
       '%s removed auditors: %s.' => '%s denetçileri kaldırdı: %s.',
       'Show what would be deleted, but do not actually delete anything.' => 'Nelerin silineceğini gösterin, ancak hiçbir şeyi gerçekten silmeyin.',
-      'Select only audits for the given commits.' => 'Sadece verilen taahhütler için denetimleri seçin.',
+      'Select only audits for the given commits.' => 'Yalnızca verilen taahhütler için denetimleri seçin.',
       'Find commits which affect given packages.' => 'Verilen paketleri etkileyen taahhütleri bulun.',
       'Show Only Unreachable Commits' => 'Yalnızca Ulaşılamayan Taahhütleri Göster',
       '(This commit affected more than %d files. Only %d are shown here and additional ones are truncated.)' => '(Bu işlem %s\'den fazla dosyayı etkiledi. Burada yalnızca %s gösteriliyor ve ek dosyalar kesiliyor.)',

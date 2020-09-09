@@ -289,7 +289,7 @@ final class PhabricatorHarbormasterTr
       'CircleCI' => 'CircleCI',
       'Trigger a build in Buildkite.' => 'Buildkite\'deki bir yapıyı tetikleyin.',
       'When' => 'Ne Zaman',
-      'Search for only manual or automatic buildables.' => 'Sadece manüel veya otomatik faturalanabilirler arayın.',
+      'Search for only manual or automatic buildables.' => 'Yalnızca manüel veya otomatik olarak bulunabilen aramaları arayın.',
       'New plan name.' => 'Yeni plan adı.',
       'Harbormaster Build Targets' => 'Harbormaster Yapı Hedefleri',
       'Sleep for a specified number of seconds.' => 'Belirtilen sayıda saniye uyu.',

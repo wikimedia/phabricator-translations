@@ -43,7 +43,7 @@ final class PhabricatorNotificationTr
       'Got HTTP 200, but expected HTTP 501 (WebSocket Upgrade)!' => 'HTTP 200 var, ancak beklenen HTTP 501 (WebSocket Güncelleme)!',
       'Notification server configuration is invalid: it describes the same host and port ("%s") multiple times. Each host and port combination should appear only once in the list.' => 'Bildirim sunucusu yapılandırması geçersiz: aynı ana bilgisayarı ve bağlantı noktasını ("%s") birden çok kez açıklar. Her ana bilgisayar ve bağlantı noktası kombinasyonu listede yalnızca bir kez görünmelidir.',
       'Mark All Read' => 'Tümünü Okundu İşaretle',
-      'Show only unread notifications.' => 'Sadece okunmamış bildirimleri göster.',
+      'Show only unread notifications.' => 'Yalnızca okunmamış bildirimleri göster.',
       'Notification server configuration is not valid: each entry in the list must be a dictionary describing a service, but the value with index "%s" is not a dictionary.' => 'Bildirim sunucusu yapılandırması geçerli değil: listedeki her girişin bir hizmeti tanımlayan bir sözlük olması gerekir, ancak "%s" dizinindeki değer bir sözlük değildir.',
       'Notification server configuration has an invalid service specification (at index "%s"): %s.' => 'Bildirim sunucusu yapılandırmasının geçersiz bir servis özelliği var ("%s" dizininde): %s.',
       'You have no notifications.' => 'Bildirimin yok.',

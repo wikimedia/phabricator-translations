@@ -370,6 +370,7 @@ final class ArcanistCorePtBR
       'Broken' => 'Quebrado',
       'Created a new Differential revision:' => 'Criado uma nova revisão diferencial:',
       'When creating a revision, try to use the working copy commit message verbatim, without prompting to edit it. When updating a revision, update some fields from the local commit message.' => 'Ao criar uma revisão, tente usar a mensagem de confirmação de cópia de trabalho textualmente, sem solicitar a edição. Ao atualizar uma revisão, atualize alguns campos da mensagem de confirmação local.',
+      'Path \'%s\' does not exist!' => 'O caminho \'%s\' não existe',
       'Use of `%s`' => 'Uso de %s',
       'Completed preview of operation.' => 'Pré-visualização completa da operação.',
       'Line Too Long' => 'Linha muito longa',
