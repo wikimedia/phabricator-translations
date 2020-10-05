@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"LuCKY",
+			"MuratTheTurkish",
 			"ToprakM"
 		]
 	},
@@ -415,7 +416,7 @@
 	"7a7543d4fc8fdba3": "Hesapları Bağla",
 	"7abc5425e7b39214": "Yönetici Hesabı Oluştur",
 	"7b2f3408e2850544": "MFA Sağlayıcısı Oluştur",
-	"7b66c2d59b36bad1": "Çıkış Yapılsın mı?",
+	"7b66c2d59b36bad1": "Oturumu Kapatılsın mı?",
 	"7b67216237f31526": "Kendinizi Phabricator'dan kilitlediyseniz bir hesaba erişimi kurtarın.",
 	"7bbfdd276ac7fa0e": "Birincil irtibat numarası yapılandırmadınız. Kimlik doğrulama faktörü olarak SMS eklemeden önce bir kişi numarasını yapılandırın.",
 	"7c10dca29b31cd6e": "Harici Hesabın Bağlantısını Kaldır",
