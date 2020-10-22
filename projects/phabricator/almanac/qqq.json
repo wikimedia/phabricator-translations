@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MuratTheTurkish"
+		]
 	},
 	"00a3cc5b55d618dc": "Used in:\n\nAlmanacBindingEditEngine.php:144",
 	"01579ede2f125abd": "Used in:\n\nAlmanacManagementTrustKeyWorkflow.php:26",
@@ -104,7 +106,7 @@
 	"4e98762210bbb817": "Used in:\n\nAlmanacDeviceSearchEngine.php:107",
 	"4eab1635bf583660": "Variable Types: NONE.\nUsed in:\n\nAlmanacTransactionType.php:84",
 	"4f054aee2d3e910c": "Variable Types: NONE, NONE.\nUsed in:\n\nAlmanacServiceEditEngine.php:65",
-	"52545532d7900049": "Used in:\n\nAlmanacInterfacePHIDType.php:49",
+	"52545532d7900049": "Used in:\n\nAlmanacInterfacePHIDType.php:49\n{{Identical|interface}}",
 	"53ebc572b4a44802": "Used in:\n\nAlmanacInterfaceEditEngine.php:162\nAlmanacBindingTableView.php:95\nAlmanacInterfaceTableView.php:70\nAlmanacBindingViewController.php:97\nAlmanacNetworkEditEngine.php:57",
 	"54647dabf499d737": "Used in:\n\nAlmanacInterfaceEditEngine.php:27\nAlmanacInterfaceSearchEngine.php:7",
 	"555d04c86e10c134": "Used in:\n\nAlmanacNetworkListController.php:27\nAlmanacNetworkEditEngine.php:37\nAlmanacNetworkEditEngine.php:41\nAlmanacNetworkEditEngine.php:53",

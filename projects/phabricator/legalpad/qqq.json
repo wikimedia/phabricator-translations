@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Pols12"
 		]
 	},
 	"04850b7990a815ff": "Used in:\n\nLegalpadDocumentSignatureSearchEngine.php:122",
@@ -110,7 +111,7 @@
 	"ba22363e897c0d6d": "Used in:\n\nLegalpadDocumentSignatureViewController.php:60",
 	"bcac1a3be20c12e5": "Used in:\n\nLegalpadDocumentEditEngine.php:112\nLegalpadDocumentEditEngine.php:122",
 	"bcdeaf079604fa4e": "Used in:\n\nLegalpadDocumentSignController.php:552",
-	"bd56e749fc83f6fc": "Variable Types: NONE, NONE.\nUsed in:\n\nLegalpadDocumentSignController.php:97",
+	"bd56e749fc83f6fc": "Variable Types: NONE, NONE.\nUsed in:\n\nLegalpadDocumentSignController.php:97\n\n$2 is a date.",
 	"bd8a246bc716063c": "Used in:\n\nLegalpadDocumentEditEngine.php:149",
 	"bdee82ff1061917b": "Used in:\n\nLegalpadController.php:20",
 	"c1512f915310996f": "Used in:\n\nLegalpadDocumentSearchEngine.php:32",

@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pols12"
+		]
 	},
 	"00bb37fda5eb6c1d": "Used in:\n\nHarbormasterBuildArtifactPHIDType.php:8",
 	"00cc2bd78e919197": "Used in:\n\nHarbormasterBuildPlanPHIDType.php:39",
@@ -468,7 +470,7 @@
 	"d5443e61de53a591": "Used in:\n\nHarbormasterBuildableTransaction.php:40",
 	"d5879d9e1821ffaf": "Variable Types: NONE.\nUsed in:\n\nHarbormasterCreateArtifactConduitAPIMethod.php:61",
 	"d5ba37b9dc8094ec": "Used in:\n\nHarbormasterManagementArchiveLogsWorkflow.php:35",
-	"d6379c33c92bec84": "Used in:\n\nHarbormasterBuildStepCoreCustomField.php:30",
+	"d6379c33c92bec84": "Used in:\n\nHarbormasterBuildStepCoreCustomField.php:30\n\nMust be consistent with {{msg-phab|phabricator-harbormaster-e54845f42f6d02b4}} and {{msg-phab|phabricator-harbormaster-99a2fe703e9f4f98}}.",
 	"d654989b70b9ceee": "Used in:\n\nHarbormasterCircleCIBuildStepImplementation.php:7",
 	"d797d257eb727809": "Used in:\n\nHarbormasterPlanRunController.php:26",
 	"d81699dfed1bfa1c": "Used in:\n\nHarbormasterBuildTarget.php:358",

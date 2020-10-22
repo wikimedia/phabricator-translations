@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kizule",
+			"MuratTheTurkish",
 			"Zoranzoki21"
 		]
 	},
@@ -778,7 +779,7 @@
 	"7afb889109ff43f0": "Used in:\n\nPhabricatorStorageManagementWorkflow.php:840",
 	"7b07d2561476b9d9": "Variable Types: NONE.\nUsed in:\n\nPhabricatorGarbageCollectorManagementCompactEdgesWorkflow.php:36",
 	"7b3e3de7ede49ca8": "Used in:\n\nPhabricatorMainMenuView.php:399",
-	"7b4db7ef1fa23cfb": "Used in:\n\nAlmanacInterfaceEditEngine.php:122\nAlmanacBindingEditEngine.php:148\nDivinerAtom.php:427\nAlmanacBindingTableView.php:96\nAlmanacBindingViewController.php:101\nAlmanacBindingEditController.php:90",
+	"7b4db7ef1fa23cfb": "Used in:\n\nAlmanacInterfaceEditEngine.php:122\nAlmanacBindingEditEngine.php:148\nDivinerAtom.php:427\nAlmanacBindingTableView.php:96\nAlmanacBindingViewController.php:101\nAlmanacBindingEditController.php:90\n{{Identical|interface}}",
 	"7b9ff838019db5ea": "Used in:\n\nManiphestTaskSearchEngine.php:299\nPhabricatorProjectBoardViewController.php:844",
 	"7babb87ab03a1986": "Used in:\n\nPassphraseCredentialRevealController.php:48\nPhabricatorOAuthClientSecretController.php:34",
 	"7bb4405cdfc9a15a": "Used in:\n\nPhabricatorPasswordAuthProvider.php:75\nPhabricatorAppSearchEngine.php:99\nPhabricatorApplicationDetailViewController.php:36",
