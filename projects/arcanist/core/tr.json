@@ -4,6 +4,7 @@
 			"BaRaN6161 TURK",
 			"Hedda",
 			"Mirzali",
+			"MuratTheTurkish",
 			"ToprakM",
 			"Vesely35"
 		]
@@ -750,7 +751,7 @@
 	"7ae4a90c64754f59": "TAMAM",
 	"7afb2769dc1f8bfe": "$1 yerel olarak değiştirilmiş yol bu düzeltmeye dahil edilmedi:",
 	"7b1fd9e7526f0c1b": "Kütüphane adı için kullanıcı girişini beklemek yerine bir işaret kullanın.",
-	"7b3e3de7ede49ca8": "İleti yok.",
+	"7b3e3de7ede49ca8": "Mesaj yok.",
 	"7b9ef257c8a354f4": "BOZUK",
 	"7bb65413a627b1a9": "Ayrılmaz Mercurial durum satırı '$1'.",
 	"7bda35a16ef0ec66": "Bir dizi revizyonda (genellikle bir revizyondan HEAD'e) çalışan, ancak aralığın başlangıcını belirlemesi gereken revizyonu belirtmemiş bir komut çalıştırıyorsunuz.\n\nDaha önce arc, bir başlangıç revizyonu belirtmediğinizde '$1' demek istediğinizi varsayıyordu, ancak bu davranış Facebook'un tarihi $2 iş akışı dışındaki çoğu iş akışında pek mantıklı gelmiyordu.\n\narc artık '$3' kabul etmiyor. Bir komutu çağırdığınızda (ör. Yalnızca `$5` değil, `$4`) veya bu çalışan kopya için bir varsayılan seçerken, göreceli bir kesinleştirme belirtmeniz gerekir.\n\nÇoğu durumda, en iyi varsayılan '$6'. Eski davranışı veya başka bir uzak veya dalı korumak için '$7' seçeneğini de seçebilirsiniz. Ancak neredeyse kesinlikle 'origin/master' seçmek istiyorsunuz.\n\n(Teknik olarak: seçilen revizyon ve HEAD'in birleştirme tabanı, taahhüt aralığının başlangıcını belirlemek için kullanılır.)",
