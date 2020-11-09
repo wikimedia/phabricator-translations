@@ -144,7 +144,7 @@
 	"480cb18f3feab9cd": "Plus près",
 	"48544f6ba0be40da": "$1 a ajouté $2 tâche(s) parent : $3.",
 	"495f519bed0522ad": "Sous-tâche",
-	"4a25c3765bd49a96": "La configuration a deux états marqués avec l’attribut spécial « $1 » (« $2 » et « $3 »). Il ne devrait y en avoir qu’un.",
+	"4a25c3765bd49a96": "La configuration a deux états marqués avec l’attribut spécial « $1 » (« $2 » et « $3 »). Il ne doit y en avoir qu’un.",
 	"4b2a6a3149566c82": "Points",
 	"4b49d91d81c78482": "Fixer la priorité à",
 	"4b5c67b8d5fa9d3a": "La configuration est invalide. Les configurations prioritaires Maniphest doivent être des dictionnaires.",
