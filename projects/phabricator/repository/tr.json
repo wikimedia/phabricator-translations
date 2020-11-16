@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"MuratTheTurkish",
 			"Sucsuzz"
 		]
 	},
@@ -530,7 +531,7 @@
 	"ebafe177a7d44614": "Kanca Bekle (bize)",
 	"ec630d26033b3c50": "Ham yazar dizesi: $1",
 	"ed0e5bd84843e0ee": "$1, bu deponun tanımını güncelledi.",
-	"ed1676ee2aaa7701": "\"$1\" taahhüttü detaylar alınamıyor!",
+	"ed1676ee2aaa7701": "\"$1\" taahhüttü ayrıntıları alınamıyor!",
 	"ed2920207d69363b": "Belirli depolar için push günlükleri arayın.",
 	"ed6ddcf2d99dc2e9": "Depo kaynakları, depolarıyla aynı politikalara sahiptir.",
 	"ee6bb15b56513d47": "Bir depo oluştururken geçerli bir temel sürüm kontrol sistemi belirlemelisiniz. Geçerli sistemler: $1.",

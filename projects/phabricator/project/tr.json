@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"00bacf55615d1518": "Herhangi Bir Projeyle Etiketlenmemişi Göz At",
@@ -83,7 +84,7 @@
 	"21e4860b30a6108d": "Üyeleri kaldır.",
 	"224061638126956a": "Proje Alt Projeleri",
 	"2335915749d14687": "Bilinmeyen proje durumu '$1'!",
-	"234df5f8e720cb96": "Bir projenin ilk alt projesini oluşturmak, \"\"tüm üyeleri** yerine alt projenin üyesi olmak için harekete geçirir.\n\nDetaylar için [[ $1 | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu işlem geri alınamaz.",
+	"234df5f8e720cb96": "Bir projenin ilk alt projesinin **oluşturulması, tüm üyeleri** bunun yerine alt projenin üyesi olmaya taşır.\n\nAyrıntılar için [[ $1 | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu işlem geri alınamaz.",
 	"23d692f07a3fb646": "Üst",
 	"2422a24491325c66": "Zaten bu projenin atası olan $1 izliyorsunuz ve bu yüzden tüm alt projelerini izliyorsunuz.",
 	"2472d7f47a789e43": "Yeni Boş Pano",

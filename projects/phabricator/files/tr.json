@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Hedda",
+			"MuratTheTurkish",
 			"ToprakM"
 		]
 	},
@@ -201,7 +202,7 @@
 	"6c8f689ea37edf24": "openssl_encrypt() verisi başarısız oldu: $1",
 	"6ca0ca022180389b": "ımagecopyresampled() resmi başarısız oldu: $1",
 	"6cb1b483105e1be7": "\"$1\" gibi yazdırılacak dosyayı belirtin.",
-	"6ccfdc9447b6c8f1": "Dosyanın yükleme ilerlemesini izlemek için dosya detay sayfasına devam edebilirsiniz.",
+	"6ccfdc9447b6c8f1": "Dosyanın yükleme ilerlemesini izlemek için dosya ayrıntı sayfasına devam edebilirsiniz.",
 	"6d848e452c62414b": "Krep Yığını",
 	"6e16710cef25b939": "Dosyayı $1 indirilsin mi ($2)?",
 	"6e9a7ac30913f9df": "Tüm depolama motorları dosya yazamadı:",

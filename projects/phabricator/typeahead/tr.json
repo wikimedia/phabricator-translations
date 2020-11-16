@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"08551bfd5a6bcbf3": "Typeahead Sonuçları",
@@ -21,7 +22,7 @@
 	"8598222918d3c6e5": "Seç",
 	"8668a270d975a0a8": "Typeahead işlevleri, daha güçlü sorgular oluşturmanıza olanak tanıyan gelişmiş bir özelliktir. Bu belge seçilen kontrol için mevcut fonksiyonları açıklar.\n\nArama ile ilgili genel yardım için, [[ $1 | Kullanım Kılavuzunda Arayın ]].\n\nFarklı kontrollerin //farklı// işlevleri (kontrolün ne yaptığına bağlı olarak) desteklediğini, bu nedenle bu belirli işlevlerin her yerde çalışmayabileceğini unutmayın. Bu kontrol için hangi işlevlerin mevcut olduğunu gözden geçirmek üzere kontrol için yardımı her zaman kontrol edebilirsiniz.",
 	"8d6b34815ba43d25": "Ekran Adı",
-	"955060c24efafff9": "Bu tabloda kısaca bu kontrol için mevcut işlevler açıklanmaktadır. Belirli bir işleve ilişkin detaylar için aşağıdaki ilgili bölüme bakınız.",
+	"955060c24efafff9": "Bu tablo, bu kontrol için mevcut işlevleri kısaca açıklamaktadır. Belirli bir işlevle ilgili ayrıntılar için aşağıdaki ilgili bölüme bakın.",
 	"95eeffb5f4e285b1": "Bu kaynak doğrudan kullanılamaz.",
 	"9d3d21faa06febbe": "\"$1\" anahtarı için işlev ve argümanlar ayrıştırılamıyor.",
 	"a2ffe2e525f50b27": "Anahtar Sorgusu",
