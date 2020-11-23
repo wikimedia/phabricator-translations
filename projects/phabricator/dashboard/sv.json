@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Paracel63",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
@@ -48,8 +49,10 @@
 	"3eb237a74359178c": "Lägg till lite statisk text i kontrollpanelen. Detta kan användas för att tillhandahålla instruktioner eller sammanhang.",
 	"3fc1102b31fff08d": "Du måste välja en paneltyp att skapa.",
 	"41aba657e16d54fb": "$1 tog bort $2 panel(er): $3.",
+	"423548f4a7c88cd1": "Tillämpa transaktioner för att skapa en ny kontrollpanel eller redigera en befintlig.",
 	"4390eab8645864b0": "Denna motor används för att förändra kontrollpaneler.",
 	"473e2d345c23d177": "Denna kolumn har ännu inte några paneler.",
+	"482e344387b6aa3d": "Panelen finns inte, eller så har du inte rättigheten att se den.",
 	"492754d66c8d4edb": "Hemmeny",
 	"49c48fb005ba20ad": "Använd flikar för att växla mellan flera olika paneler.",
 	"4c93c7f7188e47d0": "$1 tog bort $2 kontrollpanel(er) för $3: $4.",
@@ -64,6 +67,7 @@
 	"53d1bfda98cec6a7": "Välj en panel att lägga till i denna instrumentpanel:",
 	"547e84ca8b0d40d8": "$1 tog bort $2 panel(er) för $3: $4.",
 	"54c45c033f5eb914": "Block",
+	"5aee5886d7c5c8bc": "Panelen arkiveras och visas inte längre i listan över aktiva paneler.",
 	"5d7c8c9d23912d07": "Namnet på panelen.",
 	"5e8b4f6ddb8b956e": "$1 lade till $2 panel(er): $3.",
 	"5f0a8cbd5a3d7418": "Förekommer på",
@@ -73,6 +77,7 @@
 	"61023ef0c5448316": "$1 ändrade flikar från \"$2\" till \"$3\".",
 	"65b09e1af2d23b5b": "Namn på kontrollpanelen är nödvändigt.",
 	"669b243399ba57bf": "Alla paneler",
+	"69dd4f73b6fc9e70": "Du måste ange ett namn för panelen.",
 	"69dded8353307446": "Visa kontrollpanel",
 	"6b949ff8fac3c40e": "Inga paneler.",
 	"6c76cf9023a8c869": "Börja med en enkel kontrollmeny med ett välkomstmeddelande, en uppdatering över de senaste händelserna och några startpunkter.",
@@ -136,6 +141,8 @@
 	"ccfd8b615795af53": "Skapa ny panel",
 	"cd51205f3771e73f": "$1 lade till $2 panel(er) för $3: $4.",
 	"ce321d0035b60d09": "Installera kontrollpanel",
+	"cf28410e21f4a9b9": "Metallica",
+	"cf84a98d6cf7f156": "Tillkännagivande",
 	"cfb83f346d0e93ce": "$1 ändrade ikonen för kontrollpanelen till $2.",
 	"cfdd099c4751f2f9": "Arrangera",
 	"d2ff63cc249cc836": "Inga kontrollpaneler",
@@ -159,6 +166,7 @@
 	"f277191148635e23": "Du har inte åtkomst till några kontrollpaneler. För att fortsätta, var god skapa en kontrollpanel först.",
 	"f32ae24c89640a95": "Bygg individuella paneler att visa på kontrollpanelen i din hemsida.",
 	"f3f9bf6a2219179a": "Panel för kontrollpanelen",
+	"f4b7cd8bfde0f8dc": "Vattenfarkost",
 	"f5998abfa8497db6": "Denna panel förekommer inte någon kontrollpanel.",
 	"f5b27b746f44d344": "Ny panel",
 	"f6d09159dc0784df": "$1 ändrade flikarna till \"$2\".",
