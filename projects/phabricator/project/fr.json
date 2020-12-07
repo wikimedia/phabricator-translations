@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Florian COLLIN",
 			"Noé",
 			"Thibaut120094",
 			"Urhixidur",
@@ -53,6 +54,7 @@
 	"1349ffe3f2bc7415": "Ne plus suivre le projet ?",
 	"1353f955b807c6ce": "Convertir le projet",
 	"137733c483b65f2b": "Fixer les balises du projet à",
+	"13cd232a3e01bfa5": "Orange mûre",
 	"143fc7403ba2dec2": "Gérer le tableau de bord",
 	"149ca64dc27e21f1": "Projets, labels et équipes",
 	"155fa373df7c18db": "Tapez projects(<utilisateur>)...",
