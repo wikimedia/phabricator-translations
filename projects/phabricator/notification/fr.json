@@ -31,7 +31,7 @@
 	"a4b6852b8959cde5": "Phabricator est configuré pour utiliser un serveur de notifications, mais est incapable de s’y connecter. Vous devriez résoudre ce problème ou désactiver le serveur de notifications. Il peut être utile de vérifier à nouveau votre configuration ou de redémarrer le serveur en utilisant la commande ci-dessous.\n\n$1",
 	"ad87d7cef1baf9fe": "Le serveur de notifications n’est pas activé",
 	"b61b70be925f16d0": "Ceci est une notification de test, envoyée à $1.",
-	"b6ef1f5cf0f38781": "(Pour démarrer le serveur, exécutez cette cette commande.)\n$1",
+	"b6ef1f5cf0f38781": "(Pour démarrer le serveur, exécutez cette commande.)\n$1",
 	"b88a6664ed5b0050": "Vous n’avez aucune notification non lue.",
 	"b98e3f99c2aea77e": "Connexion en cours...",
 	"d31b7462b51c88f9": "Reçu HTTP 200 (OK), mais HTTP 501 (mise à niveau de WebSocket) était attendu !",
