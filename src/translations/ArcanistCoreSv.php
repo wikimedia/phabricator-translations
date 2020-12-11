@@ -30,6 +30,7 @@ final class ArcanistCoreSv
       '%s is already set to %s.
     ' => '%s har redan ändrats till %s.',
       'Pick' => 'Välj',
+      'Browse URI "%s"' => 'Sök igenom URL "%s"',
       'Runtime Error' => 'Exekveringsfel',
       'Output upload information in JSON format.' => 'Mata ut uppladdningsinformation i JSON-format.',
       'Remote Repository' => 'Fjärrstyrt filförråd',

@@ -792,7 +792,7 @@ final class ArcanistCoreTr
       'OKAY' => 'TAMAM',
       '%s locally modified path(s) are not included in this revision:' => '%s yerel olarak değiştirilmiş yol bu düzeltmeye dahil edilmedi:',
       'Use a flag for library name rather than awaiting user input.' => 'Kütüphane adı için kullanıcı girişini beklemek yerine bir işaret kullanın.',
-      'No messages.' => 'İleti yok.',
+      'No messages.' => 'Mesaj yok.',
       'BROKEN' => 'BOZUK',
       'Unparsable Mercurial status line \'%s\'.' => 'Ayrılmaz Mercurial durum satırı \'%s\'.',
       'You\'re running a command which operates on a range of revisions (usually, from some revision to HEAD) but have not specified the revision that should determine the start of the range.

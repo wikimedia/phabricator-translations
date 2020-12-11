@@ -9,6 +9,7 @@ final class PhabricatorSystemFrFR
 
   protected function getTranslations() {
     return array(
+      'Phabricator is currently configured with no writable ("master") database, so it can not write new information anywhere. Phabricator will run in read-only mode until an administrator reconfigures it with a writable database.' => 'Phabricator est actuellement configuré sans base de données modifiable (« principale »), aussi vous ne pouvez inscrire  nulle part de nouvelles informations. Phabricator fonctionnera en lecture seule jusqu’a ce qu’un administrateur le reconfigure avec une base de données modifiable.',
       'This system does not have the "%s" extension installed, so character encodings are not supported. Install "%s" to enable support.' => 'L\'extension « %s » n\'est pas installée sur ce système, le codage des caractères n\'est donc pas pris en compte. Installez « %s » pour activer cette fonctionnalité.',
       'This mode is active because it is enabled in the configuration option "%s".' => 'Ce mode est actif car il est autorisé par l\'option de configuration « %s ».',
       'Panic!' => 'C\'est la panique !',
@@ -18,14 +19,22 @@ final class PhabricatorSystemFrFR
       'Object "%s" can not be destroyed (it does not implement %s).' => 'L\'objet « %s » ne peut pas être détruit (il n\'implémente pas %s).',
       'No Encoding Support' => 'Pas de prise en charge de l’encodage',
       'No such object "%s" exists!' => 'il n\'existe pas l\'objet « %s » .',
+      'Severed From Master' => 'Restreint depuis la base principale',
       'Engine: Destruction' => 'Moteur : Destruction',
+      'This request was served from a replica database. Replica databases may lag behind the master, so very recent activity may not be reflected in the UI. This data will be restored if the master database is restored, but may have been lost if the master database has been reduced to a pile of ash.' => 'Cette requête a été servie depuis une base de données répliquée. Les bases de données répliquées peuvent avoir du retard par rapport à la base principale, aussi des activités récentes peuvent ne pas être reflétées dans l’interface utilisateur. Ces données seront restaurées si la base de données principale est restaurée, mais pourraient être perdues si la base principale a été réduite à un tas de cendre.',
       'Permanently destroy objects.' => 'Détruire les objets de façon définitive.',
       'Choose a syntax highlighting to use.' => 'Choisir une coloration syntaxique à utiliser.',
       '%d / hour' => '%s / heure',
       'This may happen if there is a temporary network anomaly on the server side, like cosmic radiation or spooky ghosts. If this failure was caused by a transient service interruption, Phabricator will recover momentarily.' => 'Cela peut se produire en cas d’anomalie temporaire du réseau côté serveur, comme les radiations cosmiques ou les fantômes effrayants. Si cette défaillance a été causée par une interruption de service passagère, Phabricator se rétablira dans quelques instants.',
+      'Rate Limiting Actions' => 'Actions à fréquence limitée',
       'Highlighting' => 'Coloration',
+      'Unable to Reach Master' => 'Impossible de contacter la base principale',
+      'Phabricator was unable to connect to the writable ("master") database while handling this request, and automatically degraded into read-only mode.' => 'Phabricator n’a pas pu se connecter à la base de données modifiable (« principale ») lors du traitement de cette requête et a été automatiquement dégradé en mode de lecture seule.',
       'Permanently destroyed %s object(s).' => 'Objet(s) détruit(s) de manière permanente: %s .',
       'Choose Encoding' => 'Choisir le codage',
+      'Destroying objects may cause related objects to stop working, and may leave scattered references to objects which no longer exist. In most cases, it is much better to disable or archive objects instead of destroying them. This risk is greatest when deleting complex or highly connected objects like repositories, projects and users.
+    These tattered edges are an expected consequence of destroying objects, and the Phabricator upstream will not help you fix them. We strongly recommend disabling or archiving objects instead.' => 'La destruction d’objets peut causer l’arrêt du fonctionnement des objets liés et peut laisser des références éparses à des objets qui n’existent plus. Dans la plupart des cas, il est préférable de désactiver ou d’archiver des objets au lieu de les détruire. Ce risque est accru lors de la suppression d’objets complexes ou fortement connectés tels que les dépôts de fichiers, les projets et les utilisateurs.
+    Ces cas bordures dégradés sont une conséquence inattendue de la destruction d’objets et le flux montant de Phabricator ne pourra pas vous aider à les corriger. Nous recommandons fortement de désactiver ou archiver des objets à la place.',
       'IMPORTANT' => 'IMPORTANT',
       'Quite Unsettling' => 'Presque ininstallable',
       'Destruction Logs' => 'Journaux de destruction',
@@ -44,6 +53,7 @@ final class PhabricatorSystemFrFR
       'Aborted, your objects are safe.' => 'Annulé, vos objets sont en sécurité.',
       'No Object URI' => 'Pas d\'URI d\'objet',
       'Show a log of permanently destroyed objects.' => 'Afficher un journal des objets définitivement détruits.',
+      'Cache engine extension "%s" returned object (of class "%s") with no PHID.' => 'L’extension « %s » du moteur de cache a retourné un objet (de classe « %s ») sans PHID.',
       'System' => 'Système',
       'You are performing too many actions too quickly.' => 'Vous effectuez trop d\'actions dans un laps de temps trop court.',
       'Phabricator will periodically retry the connection and recover once service is restored. Most causes of persistent service interruption will require administrative intervention in order to restore service.' => 'Phabricator réessaye périodiquement la reconnexion et restaurer une fois le service rétabli. La plupart des causes d’interruption de service persistante nécessiteront une intervention administrative afin de rétablir le service.',

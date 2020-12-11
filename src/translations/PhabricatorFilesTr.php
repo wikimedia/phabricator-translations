@@ -206,7 +206,7 @@ final class PhabricatorFilesTr
       'Failed to openssl_encrypt() data: %s' => 'openssl_encrypt() verisi başarısız oldu: %s',
       'Failed to imagecopyresampled() image: %s' => 'ımagecopyresampled() resmi başarısız oldu: %s',
       'Specify a file to print, like "%s".' => '"%s" gibi yazdırılacak dosyayı belirtin.',
-      'You can continue to the file detail page to monitor the upload progress of the file.' => 'Dosyanın yükleme ilerlemesini izlemek için dosya detay sayfasına devam edebilirsiniz.',
+      'You can continue to the file detail page to monitor the upload progress of the file.' => 'Dosyanın yükleme ilerlemesini izlemek için dosya ayrıntı sayfasına devam edebilirsiniz.',
       'Stack of Pancakes' => 'Krep Yığını',
       'Download file %s (%s)?' => 'Dosyayı %s indirilsin mi (%s)?',
       'All storage engines failed to write file:' => 'Tüm depolama motorları dosya yazamadı:',

@@ -89,8 +89,8 @@ final class PhabricatorProjectTr
       'Project Subprojects' => 'Proje Alt Projeleri',
       'Unknown project status \'%s\'!' => 'Bilinmeyen proje durumu \'%s\'!',
       'Creating a project\'s first subproject **moves all members** to become members of the subproject instead.
-    See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.' => 'Bir projenin ilk alt projesini oluşturmak, ""tüm üyeleri** yerine alt projenin üyesi olmak için harekete geçirir.
-    Detaylar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu işlem geri alınamaz.',
+    See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.' => 'Bir projenin ilk alt projesinin **oluşturulması, tüm üyeleri** bunun yerine alt projenin üyesi olmaya taşır.
+    Ayrıntılar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu işlem geri alınamaz.',
       'Parent' => 'Üst',
       'You are already watching %s, an ancestor of this project, and are thus watching all of its subprojects.' => 'Zaten bu projenin atası olan %s izliyorsunuz ve bu yüzden tüm alt projelerini izliyorsunuz.',
       'New Empty Board' => 'Yeni Boş Pano',

@@ -75,7 +75,7 @@ final class PhabricatorSearchTr
       'Room "%s" is not a valid room which you have permission to see.' => '"%s" odası, görme izniniz olan geçerli bir oda değil.',
       'Open Documents' => 'Belgeleri Aç',
       'Taco cat spelled backwards is taco cat.' => 'Geriye doğru yazıldığından taco kedisi taco kedisidir.',
-      'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.' => 'Bir tam metin arama sorgusu ile eşleşen nesneleri bulun. Detaylar için belgelerde "Kullanım Kılavuzunu Ara" kısmına bakın.',
+      'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.' => 'Tam metin arama sorgusuyla eşleşen nesneleri bulun. Ayrıntılar için belgelerdeki "Kullanıcı Kılavuzunu Ara" kısmına bakın.',
       'Search Ngram' => 'Ngram Ara',
       'Enable Menu Item' => 'Menü Öğesini Etkinleştir',
       'Engine: Hovercards' => 'Motor: Hoverkartlar',

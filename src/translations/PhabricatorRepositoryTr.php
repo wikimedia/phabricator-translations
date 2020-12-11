@@ -587,7 +587,7 @@ final class PhabricatorRepositoryTr
       'Hook Wait (us)' => 'Kanca Bekle (bize)',
       'Raw author string: %s' => 'Ham yazar dizesi: %s',
       '%s updated the description for this repository.' => '%s, bu deponun tanımını güncelledi.',
-      'Unable to retrieve details for commit "%s"!' => '"%s" taahhüttü detaylar alınamıyor!',
+      'Unable to retrieve details for commit "%s"!' => '"%s" taahhüttü ayrıntıları alınamıyor!',
       'Search for push logs for specific repositories.' => 'Belirli depolar için push günlükleri arayın.',
       'Repository refs have the same policies as their repository.' => 'Depo kaynakları, depolarıyla aynı politikalara sahiptir.',
       'When creating a repository, you must specify a valid underlying version control system. Valid systems are: %s.' => 'Bir depo oluştururken geçerli bir temel sürüm kontrol sistemi belirlemelisiniz. Geçerli sistemler: %s.',

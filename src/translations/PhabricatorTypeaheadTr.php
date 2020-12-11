@@ -40,7 +40,7 @@ final class PhabricatorTypeaheadTr
     Arama ile ilgili genel yardım için, [[ %s | Kullanım Kılavuzunda Arayın ]].
     Farklı kontrollerin //farklı// işlevleri (kontrolün ne yaptığına bağlı olarak) desteklediğini, bu nedenle bu belirli işlevlerin her yerde çalışmayabileceğini unutmayın. Bu kontrol için hangi işlevlerin mevcut olduğunu gözden geçirmek üzere kontrol için yardımı her zaman kontrol edebilirsiniz.',
       'Display Name' => 'Ekran Adı',
-      'This table briefly describes available functions for this control. For details on a particular function, see the corresponding section below.' => 'Bu tabloda kısaca bu kontrol için mevcut işlevler açıklanmaktadır. Belirli bir işleve ilişkin detaylar için aşağıdaki ilgili bölüme bakınız.',
+      'This table briefly describes available functions for this control. For details on a particular function, see the corresponding section below.' => 'Bu tablo, bu kontrol için mevcut işlevleri kısaca açıklamaktadır. Belirli bir işlevle ilgili ayrıntılar için aşağıdaki ilgili bölüme bakın.',
       'This source is not usable directly.' => 'Bu kaynak doğrudan kullanılamaz.',
       'Unable to parse function and arguments for token "%s".' => '"%s" anahtarı için işlev ve argümanlar ayrıştırılamıyor.',
       'Token Query' => 'Anahtar Sorgusu',

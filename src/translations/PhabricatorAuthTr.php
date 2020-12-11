@@ -549,7 +549,7 @@ final class PhabricatorAuthTr
       'Link Accounts' => 'Hesapları Bağla',
       'Create Admin Account' => 'Yönetici Hesabı Oluştur',
       'Create MFA Provider' => 'MFA Sağlayıcısı Oluştur',
-      'Log Out?' => 'Çıkış Yapılsın mı?',
+      'Log Out?' => 'Oturumu Kapatılsın mı?',
       'Recover access to an account if you have locked yourself out of Phabricator.' => 'Kendinizi Phabricator\'dan kilitlediyseniz bir hesaba erişimi kurtarın.',
       'You have not configured a primary contact number. Configure a contact number before adding SMS as an authentication factor.' => 'Birincil irtibat numarası yapılandırmadınız. Kimlik doğrulama faktörü olarak SMS eklemeden önce bir kişi numarasını yapılandırın.',
       'Unlink External Account' => 'Harici Hesabın Bağlantısını Kaldır',

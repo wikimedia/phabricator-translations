@@ -10,8 +10,8 @@ final class PhabricatorFavoritesFrFR
   protected function getTranslations() {
     return array(
       'Edit Favorites' => 'Modifier les favoris',
-      'Favorite Items' => 'Eléments favoris',
-      'Favorites Menu' => 'Menu des favoris',
+      'Favorite Items' => 'Éléments favoris',
+      'Favorites Menu' => 'Menu Favoris',
     );
   }
 

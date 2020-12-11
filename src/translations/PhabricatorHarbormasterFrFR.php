@@ -51,6 +51,7 @@ final class PhabricatorHarbormasterFrFR
       '%s Broken Test(s)' => '%s test(s) en échec',
       'Resuming' => 'En reprise',
       'Publishing "%s"...' => 'Publication en cours de «  %s » ...',
+      'Line Map for "%s"' => 'Plan de ligne pour « %s »',
       'The name of the build target.' => 'Nom de la cible construite.',
       'Edit Plan' => 'Modifier le plan',
       'Use %s instead.' => 'Utiliser %s à la place.',
@@ -76,6 +77,7 @@ final class PhabricatorHarbormasterFrFR
       'Unable to Restart Build' => 'Impossible de redémarrer la construction',
       'Unable to Load File' => 'Changement impossible du fichier',
       'Build Target' => 'Construire la cible',
+      'Unable to determine how to fetch changes: this buildable does not identify a commit or a staging ref. You may need to configure a repository staging area.' => 'Impossible de déterminer comment récupérer les modifications: ce buildable n\'identifie pas un commit ou une référence de staging. Vous devrez peut-être configurer une zone intermédiaire de référentiel.',
       'Failed to load build plan ("%s").' => 'Échec du chargement du plan de construction (« %s »).',
       'Run plan __id__ on __buildable__.' => 'Lancer le plan __id__ sur __buildable__.',
       'Step %d' => 'Etape %s',
@@ -128,6 +130,7 @@ final class PhabricatorHarbormasterFrFR
       'Make an authenticated HTTP %s request to %s.' => 'Faire une requête HTTP %s authentifiée vers %s.',
       'Line number in the file where the text which triggered the message first appears. The first line of the file is line 1, not line 0.' => 'Le numéro de ligne du fichier où le texte ayant activé le message apparaît en premier. La première ligne du fichier est la ligne 1, et non 0.',
       'Buildables' => 'Constructibles',
+      'Build step "%s" has step group key "%s", but no step group with that key exists.' => 'L\'étape de construction « %s » a la clé de groupe d\'étapes « %s », mais aucun groupe d\'étapes avec cette clé n\'existe.',
       'When Complete' => 'Une fois complété',
       'Show all logs.' => 'Montrer toutes les connexions.',
       'No builds can be aborted.' => 'Aucune construction ne peut être abandonnée.',
@@ -145,6 +148,7 @@ final class PhabricatorHarbormasterFrFR
       '%s created this build plan.' => '%s a créé ce plan de construction.',
       'Search for builds running a given build plan.' => 'Recherchez les constructions qui exécutent un plan de construction donné.',
       'You do not have permission to create Harbormaster build plans.' => 'Vous n’avez pas la permission de créer des plans de construction Harbormaster.',
+      'Epoch timestamp for target completion, if the target has completed.' => 'Horodatage de l\'époque pour l\'achèvement de la cible, si la cible est terminée.',
       'Build plan "%s" does not exist.' => 'Le plan de construction « %s » n’existe pas.',
       'Uploaded File' => 'Fichier téléversé',
       'Force the buildable to update even if no build status changes occur during normal update.' => 'Forcer les constructibles à se mettre à jour même si aucun changement d’état de construction n’a lieu pendant la mise à jour normale.',
@@ -162,6 +166,7 @@ final class PhabricatorHarbormasterFrFR
       'Plan %d' => 'Plan %s',
       'Drydock: Run Command' => 'Drydock : Exécuter la commande',
       'Coverage information for this test.' => 'Informations de couverture de ce test',
+      'This attachment exists solely to provide compatibility with the message format returned by an outdated API method. It will be taken away at some point and you should not rely on these fields being available.' => 'Cette pièce jointe existe uniquement pour assurer la compatibilité avec le format de message renvoyé par une méthode API obsolète. Il sera supprimé à un moment donné et vous ne devez pas vous fier à la disponibilité de ces champs.',
       'The build plan name.' => 'Le nom du plan de construction.',
       'You do not have permission to resume any builds.' => 'Vous n’avez pas la permission de reprendre des constructions.',
       'View Current Build' => 'Afficher le build courant',
@@ -194,6 +199,7 @@ final class PhabricatorHarbormasterFrFR
       'Search for builds started by someone or something in particular.' => 'Rechercher les constructions démarrées par quelqu’un ou quelque chose en particulier.',
       'Automatic `arc unit` step.' => 'Étape \'arc unit\' automatique.',
       'Build Plan' => 'Plan de construction',
+      'Drydock lease PHID "%s" does not correspond to a valid lease.' => 'Le bail de cale sèche PHID « %s » ne correspond pas à un bail valide.',
       'The name of this build.' => 'Le nom de cette construction.',
       'File PHID "%s" does not correspond to a valid file.' => 'Le PHID de fichier « %s » ne correspond pas à un fichier valide.',
       'Name one or more buildables to publish, like "B123".' => 'Indiquez un ou plusieurs builds à publier, comme  « B123 ».',
@@ -202,12 +208,15 @@ final class PhabricatorHarbormasterFrFR
       'Invalid Harbormaster build command "%s".' => 'Commande de construction Harbormaster « %s » non valide.',
       'All Builds' => 'Toutes les constructions',
       'No such object "%s" exists.' => 'Aucun objet « %s » n’existe.',
+      'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'L’objet (« %s ») prétend que « %s » est un URI de dépôt GitHub, mais le chemin (« %s ») n’a pas assez de composants (au moins deux attendus).',
       'Build Log %d (%s - %s)' => 'Journal de construction %s (%s - %s)',
+      'Lease Working Copy' => 'Copie de travail du bail',
       'Nameless Test (%d)' => 'Test non nommé (%s)',
       'Really restart build?' => 'Vraiment recommencer la construction ?',
       '%s renamed this build plan from "%s" to "%s".' => '%s a renommé ce plan de construction de « %s » en « %s ».',
       '%s resumed this buildable.' => '%s a repris l’exécution de ce constructible.',
       'Force logs to rebuild even if they appear to be in good shape already.' => 'Forcer la reconstruction des journaux même s\'ils paraissent déjà bien formatés.',
+      'You can not process build log chunks unless the log lock is held.' => 'Vous ne pouvez pas traiter de parties du journal de construction tant que le verrou du journal est détenu.',
       'Unit Tests' => 'Tests unitaires',
       'No buildables found.' => 'Aucun constructible trouvé.',
       'Invalid build log PHID "%s".' => 'PHID de journal de build non valide « %s ».',
@@ -261,9 +270,13 @@ final class PhabricatorHarbormasterFrFR
       'Bad Input Type' => 'Type d\'entrée incorrect',
       'True if this is a manual buildable.' => 'Vrai s\'il s\'agit d\'une construction manuelle.',
       'Upload %s from %s.' => 'Téléverser %s de %s.',
+      'You only have permission to restart some builds. Progress on builds you have permission to restart will be discarded and they will restart. Side effects of these builds will occur again. Really restart all builds?' => 'Vous n’avez le droit que de redémarrer certaines constructions. L’avancement sur les constructions que vous avez le droit de redémarrer sera annulé, et elles seront redémarrées. Les effets de bord de ces constructions se reproduiront. Vraiment redémarrer toutes les constructions ?',
       'Publish a buildable. This is primarily useful for developing and debugging applications which have buildable objects.' => 'Publier une table de build. Ceci est particulièrement utile pour développer et déboguer les applications qui ont des objets constructibles.',
+      'Search for builds running against particular buildables.' => 'Rechercher les constructions tournant sur des éléments particuliers.',
+      'Specify exactly one buildable object, by object name.' => 'Spécifier exactement un objet constructible, par nom d’objet.',
       'Can Create Build Plans' => 'Il est possible de créer des plans de construction',
       'Add Build Step' => 'Ajouter une étape de construction',
+      'No such build target "%s"!' => 'Pas de cible de version « %s » !',
       'My Builds' => 'Mes constructions',
       'Restarting' => 'Redémarrage',
       'Write rate must be more than 0 bytes/sec.' => 'Le débit en écriture doit être supérieur à 0 octet/seconde.',
@@ -271,6 +284,7 @@ final class PhabricatorHarbormasterFrFR
       'The current UNIX timestamp.' => 'Horodatage Unix actuel.',
       'Object "%s" is not a Harbormaster Buildable!' => 'L\'objet « %s » n\'est pas un objet Harbormaster constructible !',
       'Length of the log in bytes.' => 'Longueur du journal en octets.',
+      'Report that work on the target is ongoing. This message can be used to report partial results during a build.' => 'Signaler que le travail sur la cible est en cours. Ce message peut être utilisé pour signaler des résultats partiels lors d’une construction.',
       'This group has no available build steps.' => 'Ce groupe n\'a pas d\'étapes de construction disponibles.',
       'Stores a URI.
     With `ui.external`, you can use this artifact type to add links to build results in an external build system.' => 'Stocke un URI.
@@ -278,6 +292,7 @@ final class PhabricatorHarbormasterFrFR
       'CircleCI' => 'CircleCI',
       'Trigger a build in Buildkite.' => 'Déclencher une construction dans Buildkite.',
       'When' => 'Quand',
+      'Search for only manual or automatic buildables.' => 'Rechercher seulement les éléments de construction manuels ou automatiques.',
       'New plan name.' => 'Nouveau nom de plan.',
       'Harbormaster Build Targets' => 'Cibles de construction de Harbormaster',
       'Sleep for a specified number of seconds.' => 'Se mettre en veille pendant un nombre spécifique de secondes.',
@@ -293,6 +308,7 @@ final class PhabricatorHarbormasterFrFR
       'Use %s to specify a build plan to run.' => 'Utiliser %s pour spécifier un plan de construction à exécuter.',
       'Input Artifacts' => 'Artéfacts en entrée',
       'Unknown chunk encoding "%s"!' => 'Encodage de tronçon « %s » non reconnu !',
+      'Object ("%s") claims "%s" is a GitHub repository URI, but the domain does not appear to be GitHub.' => 'L’objet (« %s ») prétend que « %s » est un URI de dépôt GitHub, mais le domaine ne semble pas être GitHub.',
       'The name of this build plan.' => 'Le nom de ce plan de construction.',
       'Opened a new build log:' => 'Nouveau journal de construction ouvert :',
       'Unable to determine how to clone the repository for this buildable: it is not associated with a tracked repository.' => 'Impossible de déterminer comment cloner le dépôt de ce constructible : il n’est pas associé à un dépôt traçé.',
@@ -303,6 +319,7 @@ final class PhabricatorHarbormasterFrFR
       'Edit Step' => 'Étape de modification',
       'This build is already paused. You can not pause a build which has already been paused.' => 'Cette construction est déjà interrompue. Vous ne pouvez pas interrompre une construction qui a déjà été interrompue.',
       'The ID of the current build.' => 'L’ID de la construction actuelle.',
+      'Submit builds into the build queue normally instead of running them in the foreground.' => 'Soumettre normalement les constructions dans la file de construction plutôt que de les exécuter en premier plan.',
       '%s resumed this build.' => '%s a repris cette construction.',
       'This input is required, but not configured.' => 'Cette entrée est requise, mais n’est pas configurée.',
       'Really abort builds?' => 'Abandonner vraiment les constructions ?',
@@ -310,6 +327,7 @@ final class PhabricatorHarbormasterFrFR
       'Restart %s build(s)?' => 'Recommencer %s construction(s) ?',
       'This build log is already open!' => 'Ce journal de construction est déjà ouvert !',
       'Show Only Automated Builds' => 'N\'afficher que les constructions automatiques',
+      'Format for the text provided in "details". Valid values are "text" (default) or "remarkup". This controls how test details are rendered when shown to users.' => 'Mise en forme pour le texte fourni dans « détails ». Les  valeurs valides sont « text » (par défaut) ou « remarkup ». Cela contrôle comment les détails du test sont rendus quand ils sont affichés aux utilisateurs.',
       'Build Target ID' => 'ID de la cible de la construction',
       'Unable to load the file for this log. The file may have been destroyed.' => 'Impossible de charger le fichier pour ce journal. Le fichier a pu être détruit.',
       'Short test name, like "ExampleTest".' => 'Nom court du test, tel que « TestExemple ».',
@@ -317,12 +335,17 @@ final class PhabricatorHarbormasterFrFR
       'FAILED' => 'ÉCHEC',
       'Active Plans' => 'Plans actifs',
       'Unit %d' => 'Unité %s',
+      'Harbormaster build target "%s" is not a Buildkite build step. Only Buildkite steps may be updated via the Buildkite hook.' => 'La cible de construction de Harbormaster « %s » n’est pas une étape de construction Buildkite. Seules les étapes Buildkite peuvent être mises à jour via le hameçon Buildkite.',
       'New View (Prototype)' => 'Nouvelle vue (prototype)',
+      'Disable this build plan? It will no longer be executed automatically.' => 'Désactiver ce plan de construction ? Il ne sera plus exécuté automatiquement.',
       'Ship Some Freight' => 'Expédier du fret',
       'Buildable' => 'Constructible',
+      'Unable to find fetch!' => 'Impossible de trouver la récupération !',
+      'arc lint + arc unit' => 'arc lint + arc unit',
       '%s restarted this buildable.' => '%s a redémarré cette construction.',
       'Really abort build?' => 'Abandonner vraiment les constructions ?',
       'Browse Build Plans' => 'Afficher les plans de construction',
+      'The PHID of the user or Object that initiated the build, if applicable.' => 'Le PHID de l’utilisateur ou de l’objet qui a initialisé la construction, si c’est applicable.',
       'All Buildables' => 'Tous les constructibles',
       'Also Clone' => 'Cloner aussi',
       'Select all active builds.' => 'Sélectionner toutes les constructions actives.',
@@ -330,10 +353,12 @@ final class PhabricatorHarbormasterFrFR
       'Use --id or --active to select builds.' => 'Utiliser --id ou --active pour sélectionner les constructions.',
       'Build Plans' => 'Plans de construction',
       'Unable to load build target "%s".' => 'Impossible de charger le build cible « %s ».',
+      'Retrieve information about Harbormaster build plans.' => 'Récupérer l’information sur les plans de construction de Harbormaster.',
       'File to create an artifact from.' => 'Fichier à partir duquel créer une archive.',
       'Attempt to load log bytes (%d - %d) failed: the loaded range (%d - %d) does not span the requested range.' => 'Echec de la tentative de chargement d\'octets du journal (%s - %s): l\'intervalle chargé (%s - %s) ne couvre pas l\'intervalle demandé.',
+      'The current status of this buildable.' => 'L’état actuel de cet élément constructible.',
       'Standalone Fragment' => 'Fragment Autonome',
-      'Wait For Message' => 'En Attente de Message',
+      'Wait For Message' => 'Attendre un message',
       'Edit Build Plan' => 'Modifier le plan de construction',
       'Select one or more builds by ID.' => 'Sélectionnez une ou plusieurs construction par ID.',
       'Unable to find lines.' => 'Impossible de trouver les lignes.',
@@ -390,31 +415,120 @@ final class PhabricatorHarbormasterFrFR
       'Publishes File' => 'Publie le Fichier',
       'If true, display this URI in the UI as an link to additional build details in an external build system.' => 'Si vrai, affiche cet URI sur l’interface utilisateur en tant que lien vers des détails supplémentaires de construction dans un système de construction externe.',
       'Resume' => 'Reprendre',
+      'Write a new Harbormaster build log. This is primarily intended to make development and testing easier.' => 'Écrire un nouveau journal de construction Harbormaster. C’est initialement destiné à faciliter le développement et le test.',
+      'Update only this build.' => 'Mettre à jour seulement cette construction.',
+      'Pause Builds' => 'Mettre en pause les constructions',
+      'Run build plans' => 'Lancer les plans de construction',
       'Resume Builds' => 'Reprendre les constructions',
       'RESTARTING' => 'REDÉMARRAGE',
+      'This build step has since been deleted on the build plan.  Some information may be omitted.' => 'Cette étape de construction a depuis été supprimée du plan de construction. Certaines informations peuvent être absentes.',
+      'There is no implementation available for artifacts of type "%s".' => 'Il n’y a pas d’implémentation disponible pour les artefacts de type « %s ».',
       'Build Step' => 'Etape de construction',
+      '**publish** __buildable__ ...' => '**publier** __buildable__ ...',
       'Syntax Error' => 'Erreur de syntaxe',
       'This dependency specifies a build step which doesn\'t exist.' => 'Cette dépendance spécifie une étape de construction qui n\'existe pas.',
       'Valid Input' => 'Entrée valide',
+      'This input is bound to an artifact ("%s") which does not exist at this stage in the build process.' => 'Cette entrée est liée à un artefact (« %s ») qui n’existe pas à cette étape dans le processus de construction.',
+      'Unknown log chunk encoding ("%s")!' => 'Encodage du bloc de journal inconnu (« %s ») !',
       'No builds to restart.' => 'Pas de construction à redémarrer.',
+      'Build target ("%s") has the wrong type of build step. Only CircleCI build steps may be updated via the CircleCI webhook.' => 'La cible de construction (« %s ») a le mauvais type d’étape de construction. Seules les étapes de construction CircleCI peuvent être mises à jour via le hameçon web CircleCI.',
       'Completed at %s' => 'Terminé à %s',
       'Build' => 'Construire',
       'Make HTTP Request' => 'Faire une Requête HTTP',
       'Really pause build?' => 'Suspendre réellemnt la construction ?',
+      'If updating generates tasks, queue them for the daemons instead of executing them in this process.' => 'Si la mise à jour génère des tâches, les mettre dans la file pour les démons au lieu de les exécuter dans ce processus.',
       'Restart All Builds' => 'Recommencer toutes les constructions',
       'Type another build step name...' => 'Entrer le nom d\'une autre étape de construction...',
+      'Buildable %d' => 'Élément constructible %s',
       'Rename the plan.' => 'Renommer le plan.',
       'Build Failed' => 'Echec de build',
+      'File Artifact' => 'Artefact de fichier',
+      'References a working copy lease from Drydock.' => 'Fait référence à un bail de copie de travail de Drydock.',
+      'PHID of the build plan being run.' => 'PHID du plan de build en cours d\'exécution.',
       'Build Log %d' => 'Journal du build %s',
       'Queued at %s' => 'Mis en file d\'attente à %s',
       'Pipeline Name' => 'Nom de pipeline',
       'Data Hash' => 'Valeur de hachage des données',
+      'Automatic Buildable' => 'Constructible automatique',
       'Lines' => 'Lignes',
+      'The specified buildable does not have a build with ID "%s".' => 'Le buildable spécifié n\'a pas de build avec l\'ID «&nbsp;%s&nbsp;».',
+      'Find out information about builds.' => 'Découvrez des informations sur les builds.',
+      'You only have permission to pause some builds. Once the current steps complete, work will halt on builds you have permission to pause. You can resume the builds later.' => 'Vous n\'êtes autorisé qu\'à suspendre certaines compilations. Une fois les étapes en cours terminées, le travail s\'arrêtera sur les builds que vous êtes autorisé à mettre en pause. Vous pouvez reprendre les builds plus tard.',
       'You do not have permission to abort any builds.' => 'You do not have permission to abort any builds.',
       'Edit Harbormaster Build Plan Configurations' => 'Modifier les configurations des plans de construction Harbormaster',
+      'Buildkite request to target "%s" had the wrong authentication token. The Buildkite pipeline and Harbormaster build step must be configured with the same token.' => 'La requête Buildkite pour cibler "%s" avait le mauvais jeton d\'authentification. Le pipeline Buildkite et l\'étape de génération Harbormaster doivent être configurés avec le même jeton.',
       'Throw Exception' => 'Lever une exception',
+      'Harbormaster Query Builds' => 'Constructions de requêtes Harbormaster',
       'HTTP Method' => 'Méthode HTTP',
+      'Epoch timestamp for target start, if the target has started.' => 'Horodatage de l’époque pour le début de la cible, si la cible a démarré.',
+      'Build a working copy in Drydock.' => 'Créez une copie de travail dans Drydock.',
+      'Harbormaster Build Plans' => 'Plans de construction de Harbormaster',
+      'If you pause this build, work will halt once the current steps complete. You can resume the build later.' => 'Si vous suspendez cette compilation, le travail s\'arrêtera une fois les étapes actuelles terminées. Vous pouvez reprendre la construction plus tard.',
       'Harbormaster User Guide' => 'Guide utilisateur Harbormaster',
+      'Object ("%s") does not implement interface "%s". Only objects which implement this interface can be built with CircleCI.' => 'L\'objet ("%s") n\'implémente pas l\'interface "%s". Seuls les objets qui implémentent cette interface peuvent être construits avec CircleCI.',
+      'Build Target %d' => 'Objectif de construction de %s',
+      'Send a message about the status of a build target to Harbormaster, notifying the application of build results in an external system.
+    Sending Messages
+    ================
+    If you run external builds, you can use this method to publish build results back into Harbormaster after the external system finishes work or as it makes progress.
+    The simplest way to use this method is to call it once after the build finishes with a `pass` or `fail` message. This will record the build result, and continue the next step in the build if the build was waiting for a result.
+    When you send a status message about a build target, you can optionally include detailed `lint` or `unit` results alongside the message. See below for details.
+    If you want to report intermediate results but a build hasn\'t completed yet, you can use the `work` message. This message doesn\'t have any direct effects, but allows you to send additional data to update the progress of the build target. The target will continue waiting for a completion message, but the UI will update to show the progress which has been made.
+    Message Types
+    =============
+    When you send Harbormaster a message, you must include a `type`, which describes the overall state of the build. For example, use `pass` to tell Harbormaster that a build completed successfully.
+    Supported message types are:
+    %s
+    Unit Results
+    ============
+    You can report test results alongside a message. The simplest way to do this is to report all the results alongside a `pass` or `fail` message, but you can also send a `work` message to report intermediate results.
+    To provide unit test results, pass a list of results in the `unit` parameter. Each result should be a dictionary with these keys:
+    %s
+    The `result` parameter recognizes these test results:
+    %s
+    This is a simple, valid value for the `unit` parameter. It reports one passing test and one failing test:
+    ```lang=json
+    %s```
+    Lint Results
+    ============
+    Like unit test results, you can report lint results alongside a message. The `lint` parameter should contain results as a list of dictionaries with these keys:
+    %s
+    The `severity` parameter recognizes these severity levels:
+    %s
+    This is a simple, valid value for the `lint` parameter. It reports one error and one warning:
+    ```lang=json
+    %s```
+    ' => 'Envoyer un message concernant l’état d’une cible de construction à Harbormaster, en notifiant l’application de résultats de construction dans un système exertene.
+    Envoyer des messages
+    ================
+    Si vous exécutez des constructions externes, vous pouvez utiliser cette méthode pour publier les résultats dans Harbormaster une fois que le système externe a fini de travailler ou au fur et à mesure de sa progression.
+    La manière la plus simple d’utiliser cette méthode est de l’appeler une fois dès lors que la construction est terminée, avec un message `pass` (réussite) ou `fail` (échec). Cela enregistrera le résultat de la construction et fera poursuivre l’étape suivante de la construction si celle-ci était en attente d’un résultat.
+    Lorsque vous envoyer un message d’état à propos d’une cible de construction, vous pouvez éventuellement inclure les résultats `lint` ou `unit` détaillés avec le message. Regardez ci-dessous pour plus de détails.
+    Si vous voulez rapporter des résultats intermédiaires, alors qu’une construction ne s’est pas encore terminée, vous pouvez utiliser le message `work` (travail). Ce message n’a pas d’effet direct, mais vous permet d’envoyer des données complémentaires pour mettre à jour la progression de la cible de construction. La cible continuera en attendant un message d’achèvement, mais l’interface utilisateur sera mise à jour pour indiquer la progression réalisée.
+    Types de messages
+    =============
+    Lorsque vous envoyez un message à Harbormaster, vous incluez un `type` qui décrit l’état général de la construction. Par exemple, utilisez  `pass` pour indiquer à Harbormaster qu’une construction s’est terminée avec succès.
+    Les types de message pris en charge sont :
+    %s
+    Résultats unitaires
+    ============
+    Vous pouvez rapporter des résultats de tests avec un message. Le manière la plus simple de faire cela est de signaler tous les résultats avec un message `pass` (réussite) ou `fail` (échec), mais vous pouvez aussi envoyer un message `work` (travail) pour rapporter des résultats intermédiaires.
+    Pour fournir des résultats de tests unitaires, transmettez une liste de résultats dans le paramètre `unit`. Chaque résultat doit être un dictionnaire avec ces clés :
+    %s
+    Le paramètre `result` reconnait ces résultats de test :
+    %s
+    Voici une valeur simple et valide pour le paramètre `unit`. Elle rapporte un test réussi et un test échoué :
+    ```lang=json
+    %s```
+    Résultats de Lint
+    ============
+    Comme pour les résultats de tests unitaires, vous pouvez rapporter les résultats de lint avec un message. Le paramètre `lint` doit contenir les résultats sous forme d’une liste de dictionnaires avec ces clés :
+    %s
+    Le paramètre `severity` reconnait ces niveaux de gravité :
+    %s
+    Voici une valeur simple et valie pour le paramètre `lint`. Elle rapporte une erreur et un avertissement :
+    ```lang=json
+    %s```',
       'Download Log' => 'Journal des téléchargements',
       'Make an HTTP request.' => 'Faire une requête HTTP.',
       'Drydock Host' => 'Hôte Drydock',
@@ -423,26 +537,48 @@ final class PhabricatorHarbormasterFrFR
       'Run Plan Manually' => 'Exécuter le plan manuellement',
       'Unexpected Error' => 'Erreur inattendue',
       'Add Step' => 'Ajouter une étape',
+      'Processing Harbormaster build log #%d...' => 'Traitement du journal de construction de Harbormaster #%s...',
+      'No such implementation "%s" exists!' => 'Aucune implémentation de ce type "%s" n\'existe !',
       'Build Step %d: %s' => 'Construire l\'étape %s : %s',
+      'Started %s build(s): %s.' => 'Création(s) de %s : %s.',
+      '%s paused this buildable.' => '%s a repris l’exécution de ce constructible.',
+      'Create an artifact of this type by passing `%s` as the `artifactType`. When creating an artifact of this type, provide these parameters as a dictionary to `artifactData`:' => 'Créez un artefact de ce type en passant « %s » comme « artifactType ». Lors de la création d\'un artefact de ce type, fournissez ces paramètres sous forme de dictionnaire à `artifactData` :',
       'Choose an archival mode with --mode.' => 'Choisir un mode d\'archivage avec --mode.',
+      'After completing this build step Harbormaster can continue the build normally, or it can pause the build and wait for a message. If you are using this build step to trigger some work in an external system, you may want to have Phabricator wait for that system to perform the work and report results back.
+    If you select **Continue Build Normally**, the build plan will proceed once this step finishes.
+    If you select **Wait For Message**, the build plan will pause indefinitely once this step finishes. To resume the build, an external system must call `harbormaster.sendmessage` with the build target PHID, and either `"pass"` or `"fail"` to indicate the result for this step. After the result is recorded, the build plan will resume.' => 'Après avoir terminé cette étape de construction, Harbormaster peut poursuivre la construction normalement ou mettre en pause la construction et attendre un message. Si vous êtes en train d’utiliser cette étape de construction pour faire démarrer un travail dans un système externe, vous souhaitez peut-être que Phabricator attende que ce système effectue le travail et vienne rapporter les résultats.
+    Si vous choisissez **Poursuivre la construction normalement**, le plan de construction se poursuivra dès que l’étape sera achevée.
+    Si vous choisissez **Attendre un message**, le plan de construction sera mis en pause indéfiniment dès que l’étape sera achevée. Pour reprendre la construction, un système externe devra appeler `harbormaster.sendmessage` avec le PHID de la cible de construction et avec `"pass"` (réussite) ou `"fail"` (échec) pour indiquer le résultat de cette étape. Quand le résultat sera enregistré, le plan de construction reprendra.',
       'Build with CircleCI' => 'Construire avec CircleCI',
       'Can Not Run Plan' => 'Le plan ne peut être éxécuté.',
+      'Users must be able to see a build to view its build targets.' => 'Les utilisateurs doivent pouvoir voir une build pour afficher ses cibles de build.',
       'Build Variables' => 'Variables de construction',
       'The PHID of the current build target.' => 'PHID de la cible actuelle de la construction.',
       'Write completed. Closing log...' => 'Ecriture terminée. Fermeture du journal en cours...',
       'You are viewing an older run of this build. %s' => 'Vous consultez une version plus ancienne de ce build. %s',
       'You must choose a revision or commit to build.' => 'Vous devez choisir une révision ou une validation à construire.',
+      'No build step provides autotarget "%s"!' => 'Aucune étape de construction ne fournit une cible automatique "%s" !',
+      'Stored Chunks' => 'Morceaux stockés',
       'Restart Build' => 'Recommencer la construction',
       'No details provided.' => 'Aucun détail fourni.',
       'Other Build Steps' => 'Autres étapes de construction',
+      '%s Unsound Test(s)' => 'Test(s) non valable(s) à %s',
+      'Log data hashes differ! Something is tragically wrong!' => 'Les hachages des données du journal diffèrent ! Quelque chose est tragiquement mal !',
       'Step' => 'Etape',
       'Run command %s on %s.' => 'Exécuter la commande %s sur %s.',
+      'Show Only Manual Builds' => 'Afficher uniquement les versions manuelles',
+      'No line map.' => 'Pas de plan de ligne.',
+      'Report that the target is complete, and the target has failed.' => 'Signalez que la cible est terminée et que la cible a échoué.',
       'When building a revision, abort copies of this build plan which are currently running against older diffs.' => 'Lors de la construction d\'une version, aborter les copies de ce plan de construction qui s\'exécutent actuellement sur d\'anciens différentiels.',
       'Are you sure you want to delete this step? This can\'t be undone!' => 'Êtes-vous sûr de vouloir supprimer cette étape ? Cela ne pourra pas être annulé.',
       'Build messages have the same policies as their receivers.' => 'La construction des messages suit les mêmes règles que celles de leurs récepteurs.',
       'This build plan can not be run manually.' => 'Ce plan de construction ne peut pas être exécuté manuellement.',
+      'Report that the target is complete, and the target has passed.' => 'Signalez que la cible est complète et que la cible est passée.',
+      'Unable to Pause Builds' => 'Impossible d’interrompre la construction',
+      'This build plan has conflicts in one or more build steps. Examine the step list and resolve the listed errors.' => 'Ce plan de build présente des conflits dans une ou plusieurs étapes de build. Examinez la liste des étapes et résolvez les erreurs répertoriées.',
       'Containers' => 'Conteneurs',
       'The number of seconds to sleep for.' => 'Nombre de secondes de sommeil.',
+      'This input is bound to the wrong artifact type. It is bound to a "%s" artifact, but should be bound to a "%s" artifact.' => 'Cette saisie est liée au mauvais type d’article. Il est lié à un artefact « %s », mais il devrait être lié à un artefact « %s ».',
       'Stop Following Log' => 'Journal des interruptions de suivis',
       'Flow Control' => 'Contrôle de flux',
       'Manual Buildable' => 'Constructible manuellement',
@@ -450,17 +586,23 @@ final class PhabricatorHarbormasterFrFR
       'Built instantly' => 'Construire instantanément',
       'Save Build Step' => 'Sauvegarder l\'étape de la construction',
       'Enter the name of a revision or commit.' => 'Saisir le nom d\'une révision ou d\'une validation.',
-      'Continue Build Normally' => 'Continuer la construction normalement',
+      'Arcanist Lint Results' => 'Résultats de l\'arcaniste',
+      'Continue Build Normally' => 'Poursuivre la construction normalement',
+      'Drydock working copy lease to create an artifact from.' => 'Location de copie de travail Drydock à partir de laquelle créer un artefact.',
+      'Autoplan' => 'Planification automatique',
       'Unable to load repository with PHID "%s".' => 'Impossible de charger le dépôt avec le PHID « %s » .',
+      'Test engine running the test, like "JavascriptTestEngine". This primarily prevents collisions between tests with the same name in different test suites (for example, a Javascript test and a Python test).' => 'Moteur de test exécutant le test, comme « JavascriptTestEngine ». Ceci prévient principalement les collisions entre tests avec le même nom dans différentes suites de test (^par exemple un test Javascript et un test Python).',
       'Container' => 'Conteneur',
       'Choose a build log to rebuild with "--id", or rebuild all logs with "--all".' => 'Choisir un journal de build à reconstruire avec « --id  », ou reconstruire tous les journaux avec « --all ».',
       'No builds can be restarted.' => 'Aucune construction ne peut être recommencée.',
+      'Run build plans: %s.' => 'Exécuter les plans de construction : %s.',
       'Declining to make service call because `phabricator.silent` is enabled in configuration.' => 'Refus de faire appel au service parce que `phabricator.silent` est activé dans la configuration.',
       'Build Logs' => 'Journaux de build',
       'The person (or thing) that started this build.' => 'Personne (ou objet) ayant démarré cette construction.',
       'View Build' => 'Afficher la construction',
       'Pause All Builds' => 'Suspendre toutes les constructions',
       '(%d - %d)' => '(%s - %s)',
+      'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'L’objet « %s » n’implémente pas l’interface « %s ». Les cibles automatiques ne peuvent être demandées que pour les objets constructibles.',
       '%s enabled this build plan.' => '%s a activé ce plan de construction.',
       'Stored Bytes' => 'Octets sauvegardés',
       'Work will continue on the build. Really resume?' => 'La construction va continuer. Voulez-vous réellement reprendre ?',
@@ -474,22 +616,45 @@ final class PhabricatorHarbormasterFrFR
       'This build can not be paused.' => 'Cette construction ne peut pas être suspendue.',
       '%s Passed Test(s)' => '%s test(s) réussi(s)',
       'ERROR:' => 'ERREUR :',
+      'Builtins' => 'Inclus',
       'Build %d' => 'Construction %s',
+      'Harbormaster build target "%s" does not exist.' => 'La cible de construction « %s » de Harbormaster n’existe pas.',
+      'If you pause all builds, work will halt once the current steps complete. You can resume the builds later.' => 'Si vous mettez en pause toutes les constructions, le travail ne s’arrêtera que lorsque les étapes en cours seront terminées. Vous pouvez reprendre les constructions ultérieurement.',
+      'This build is already complete. You can not pause a completed build.' => 'Cette construction est déjà terminée. Vous ne pouvez pas mettre en pause une construction terminée.',
+      'Host Artifact' => 'Artefact hôte',
       'No Unit Tests' => 'Pas de tests unitaires',
       'All Targets' => 'Toutes cibles',
       'Throw an exception.' => 'Lever une exception.',
+      'Query Harbormaster builds.' => 'Requêter les constructions Harbormaster.',
       'Search for logs that belong to a particular build target.' => 'Recherche de journaux relatifs à une cible de construction particulière.',
       'Type the name of a user, application or Herald rule...' => 'Saisir un nom d\'utilisateur, d\'une application, ou d\'une règle Herald...',
+      'This build plan does not have any build steps yet.' => 'Ce plan de construction n’a pas encore d’étape de construction.',
       'Build Targets' => 'Construire les cibles',
       'Really resume build?' => 'Reprendre vraiment la construction ?',
+      'Build generation this target belongs to. When builds restart, a new generation with new targets is created.' => 'Génération de construction à laquelle appartient cette cible. Quand les constructions recommencent, une nouvelle génération avec de nouvelles cibles est créée.',
       'External Link' => 'Lien externe',
+      'Unknown build step field "%s"!' => 'Champ d~étape de construction « %s » inconnu !',
+      'URI "%s" does not have an allowable protocol. Configure protocols in `%s`. Allowed protocols are: %s.' => 'L’URL « %s » n’a pas de protocole valable. Configurer les protocoles en `%s`. Les protocoles autorisés sont : %s.',
+      'Wait for Previous Commits to Build' => 'Attendre que les validations précédentes se construisent',
+      'Disable Plan' => 'Désactiver le plan',
       'Enable this build plan?' => 'Activer ce plan de construction ?',
+      'Drydock Working Copy' => 'Copie de travail en cale sèche',
       'Show More (%s Bytes)' => 'Afficher davantage (%s octets)',
+      'A build inherits policies from its buildable.' => 'Une construction hérite des politiques de son élément constructible.',
       'No such build target!' => 'Cible inconnue pour la construction',
+      'Arcanist Unit Results' => 'Résultats unitaires d’Arcanist',
+      'This build is already restarting. You can not reissue a restart command to a restarting build.' => 'Cette construction est déjà en redémarrage. Vous ne pouvez pas rééditer une commande redémarrée pour une construction qui redémarre.',
+      'The following variables can be used in most fields. To reference a variable, use `%s` in a field.' => '%sLes variables suivantes peuvent être réutilisées dans la plupart des champs. Pour référencer une variable, utiliser `%1$s` dans un champ.',
+      'This engine is used to edit Harbormaster build plans.' => 'Ce moteur est utilisé pour modifier les plans de construction de Harbormaster.',
+      'This function definition is not a haiku.' => 'Cette définition de fonction n’est pas un haiku.',
       '(null)' => '(nul)',
       'Really pause builds?' => 'Suspendre réellement la construction ?',
+      'Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. Really restart build?' => 'La progression sur cette construction sera abandonnée, et la construction recommencera. Les effets de bord de cette construction se produiront de nouveau. Vraiment redémarrer la construction ?',
+      'Search for builds by buildable status.' => 'Rechercher des constructions par état d’élément constructible.',
       'Abort Builds' => 'Aborter les constructions',
+      'Send a message about the status of a build target to Harbormaster, notifying the application of build results in an external system.' => 'Envoyer un message sur l’état d’une cible de construction à Harbormaster, notifiant l’application des résultats de construction dans un système externe.',
       'Upload From Host' => 'Téléverser de l\'hôte',
+      'The build step the target runs.' => 'L’étape de construction qu’exécute la cible.',
     );
   }
 

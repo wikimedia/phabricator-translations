@@ -500,7 +500,7 @@ final class PhabricatorHarbormasterTr
     ================
     Dış yapıları çalıştırırsanız, dış sistemin çalışması bittikten sonra veya ilerleme kaydettikten sonra derleme sonuçlarını tekrar Harbormaster\'da yayınlamak için bu yöntemi kullanabilirsiniz.
     Bu yöntemi kullanmanın en basit yolu, derleme işlemi bir `pass` veya `fail` mesajı ile tamamladıktan sonra bir kez çağırmaktır. Bu derleme sonucunu kaydedecek ve derleme bir sonuç bekliyorsa derlemeye bir sonraki adıma devam edecektir.
-    Bir oluşturma hedefi hakkında bir durum mesajı gönderdiğinizde, isteğe bağlı olarak mesajın yanına ayrıntılı \'lint` veya `unit` sonuçları ekleyebilirsiniz. Detaylar için aşağıya bakınız.
+    Bir oluşturma hedefi hakkında bir durum mesajı gönderdiğinizde, isteğe bağlı olarak mesajın yanına ayrıntılı \'lint` veya `unit` sonuçları ekleyebilirsiniz. Ayrıntılar için aşağıya bakınız.
     Ara sonuçları bildirmek istiyorsanız ancak henüz bir yapı tamamlanmadıysa, `work` mesajını kullanabilirsiniz. Bu iletinin doğrudan etkileri yoktur, ancak derleme hedefinin ilerlemesini güncellemek için ek veri göndermenize olanak sağlar. Hedef, bir tamamlama mesajı beklemeye devam edecek, ancak UI, kaydedilen ilerlemeyi göstermek için güncellenecektir.
     Mesaj Türleri
     =============
