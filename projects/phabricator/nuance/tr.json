@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"00040bab8a787438": "İş",
@@ -25,7 +26,7 @@
 	"2426202e8c279afb": "Nuance Öğesi $1 Görev",
 	"2505be375236fa68": "PHID \"$1\" ile hiçbir öğe mevcut değil.",
 	"2810bf7aff959242": "Ref $1",
-	"2927b864c850a3e9": "Bu anahtarın $1 kalan API isteği var, limit $2 içinde sıfırlanıyor.",
+	"2927b864c850a3e9": "Bu anahtarın $1 kalan API isteği var, sınır $2 içinde sıfırlanıyor.",
 	"2bca2df9a85cc568": "GitHub Aktör",
 	"2eb56be3c2d93cda": "Kaynaklar",
 	"2f1873dfbe0d49dc": "Tüm Öğeler",
