@@ -101,7 +101,7 @@
 	"3366cf58a3742749": "Neyin sıkıştırılacağını göster.",
 	"3373860833f18d20": "Öbeklenmiş dosyanın görüntü boyutlarını değerlendirmeyi reddetmek.",
 	"33d5667cd57fb506": "Geçici",
-	"33d6b4dab1c5c259": "Phabricator, sadece yerel diskteki bir dizine dosya yazan bir yerel disk depolama motoru sağlar. Web sunucusu bu dizinde okuma/yazma izinlerine sahip olmalıdır. Bu, basittir ve çoğu kurulum için uygundur, ancak yol aslında bir NFS bağlantısı olmadıkça, bir web önyüzünü geçmeyecek şekilde ölçeklenmeyecektir; Yerel disk depolama motorunu kullanmak için burada bir dizinin yolunu belirtin. Devre dışı bırakmak için boş belirtin.",
+	"33d6b4dab1c5c259": "Phabricator, yalnızca yerel diskteki bir dizine dosya yazan bir yerel disk depolama motoru sağlar. Web sunucusu bu dizinde okuma/yazma izinlerine sahip olmalıdır. Bu, basittir ve çoğu kurulum için uygundur, ancak yol aslında bir NFS bağlantısı olmadıkça, bir web önyüzünü geçmeyecek şekilde ölçeklenmeyecektir; Yerel disk depolama motorunu kullanmak için burada bir dizinin yolunu belirtin. Devre dışı bırakmak için boş belirtin.",
 	"33e2f58786155eb3": "$1: Bilinmeyen depolama formatı \"$2\" kullanır.",
 	"33e635cd42a35df3": "Dosya Karıştırma Test Görevi",
 	"3417b49706e17d1b": "Bu yöntem donmuş ve sonunda kullanımdan kaldırılacak. Yeni kod yerine \"file.search\" kullanmalıdır.",

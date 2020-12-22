@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"197a62696ce8fbf0": "Marcat amb bandera de «$1».",
+	"1ca1a72255461c7b": "Consulta marcadors de bandera.",
+	"5d7071b20fcec93c": "Marca amb el marcador $1.",
+	"699642af97a5d952": "Els marcadors són privats.  Només podeu veure o modificar els vostres marcadors.",
+	"7168897d704726c7": "Ja marcat amb el marcador $1.",
+	"7dda51ce77f4eb5f": "No ets el creador d'aquest marcador.",
+	"94d23c9bf50bab36": "Crear o modificar un marcador.",
+	"b6829a09b18b33c4": "Podeu marcar aquest $1 si voleu recordar-lo més tard.",
+	"cdc6686dc53df49e": "ID de marcador incorrecte.",
+	"cf11ada077be2b0f": "Elimina el marcador $1",
+	"e0d0b82a322e167f": "Color del marcador",
+	"e22c254cc0a5cb8c": "Marca amb bandera"
+}

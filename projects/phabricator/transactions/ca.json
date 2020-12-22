@@ -3,7 +3,8 @@
 		"authors": [
 			"Dvdjaco",
 			"Fitoschido",
-			"Joseplluis"
+			"Joseplluis",
+			"Mguix"
 		]
 	},
 	"0011bad3ecc480f3": "Bloca/amaga els camps",
@@ -163,6 +164,7 @@
 	"be1666833000b25f": "Elimina el comentari",
 	"c1630af0f802b47c": "Edita els formularis",
 	"c326a4660b674d2f": "Camp",
+	"cfde7ab061359edb": "El marcador \"--overwrite\" no té cap efecte en sortir a stdout.",
 	"dd946d97f58de356": "<buit>",
 	"e1bcf3bf63662e60": "$1 ha reanomenat aquest formulari de \"$2\" a \"$3\".",
 	"e31a1d9fa48a4ca1": "Tots els formularis",
