@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Janezdrilc"
 		]
 	},
@@ -14,7 +15,7 @@
 	"14ea9a7faab3120f": "Nastavitve redakcij",
 	"17063c506b81a46c": "Sobota",
 	"17787c7178512d82": "Spremeni primarni naslov",
-	"1b3764974c6b2027": "Izberi si zapis datuma pri urejanjih.",
+	"1b3764974c6b2027": "Izberite si zapis datuma pri urejanjih.",
 	"1d9329e4dac12018": "Na manjših zaslonih",
 	"1db38a456830fe1e": "Poslan je bil potrditveni mejl. Klikni povezavo v mejlu, da potrdiš svoj naslov.",
 	"1e44025ca823c934": "Omogoči e-poštna obvestila",
@@ -89,7 +90,7 @@
 	"c66488ae6881e4ce": "Uporabniške nastavitve",
 	"c66fc1b3f4e996ba": "Brez zvokov",
 	"d166e844a3f3f871": "Petek",
-	"d39be6bc277afa3f": "Izberi si svoj lokalni časovni pas.",
+	"d39be6bc277afa3f": "Izberite si svoj lokalni časovni pas.",
 	"d6004bcf871abffb": "Klikni \"Shrani spremembe\" za uveljavitev teh sprememb.",
 	"d8471e87f65863e8": "Teden se začne na",
 	"dc2270702e582ef9": "Če spremeniš svoj primarni naslov, bo Fabrikant pošiljal vse mejle na $1.",

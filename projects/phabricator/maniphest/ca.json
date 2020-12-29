@@ -3,7 +3,8 @@
 		"authors": [
 			"ESM",
 			"Fitoschido",
-			"Joseplluis"
+			"Joseplluis",
+			"Mguix"
 		]
 	},
 	"00c7859ed071e887": "Crea una tasca",
@@ -78,7 +79,7 @@
 	"22c741259d944714": "Tasca assignada",
 	"252a9f4ae73fb1b3": "$1 ha actualitzat la imatge de $2.",
 	"26986cebd8a4ca67": "$1 ha actualitzat la descripció de la tasca per $2.",
-	"26b630e7f7a09cda": "Estat canviat a valor invàlid.",
+	"26b630e7f7a09cda": "Estat canviat a valor no vàlid.",
 	"26efb66fa9f8b6f9": "L'estat \"$1\" està marcat per defecte, però és un estat de tancament. L'estat per defecte hauria de ser un estat obert.",
 	"272aade3d8ec7e85": "[Maniphest]",
 	"27bbd0acd08c0023": "$1 ha rebaixat la prioritat de $2 de $3 a $4.",
@@ -221,7 +222,7 @@
 	"84379646553d024a": "Nova puntuació de la tasca.",
 	"8501d4b3a85a25a0": "La configuració no és vàlida. La configuració de punts de l'aplicació Maniphest ha de ser un diccionari.",
 	"855244c4e20a4394": "Retorna informació sobre les prioritats possibles de les tasques de l'aplicació Maniphest.",
-	"856d4870e4508fa7": "Un o més PHIDs eren invàlids per $1.",
+	"856d4870e4508fa7": "Un o més PHIDs no eren vàlids per $1.",
 	"85e12bc6f2e56024": "Mencions",
 	"86a599ef4df28ea3": "Selecciona-ho tot",
 	"86a91d9c74f1c025": "Aquesta tasca no té tasca mare i no té subtasques, així que no hi ha gràfica a dibuixar.",
@@ -254,7 +255,7 @@
 	"9014b1d5ca165987": "$1 ha afegit $2 subtasques per $3: $4.",
 	"915a5dd07c556d64": "Tasca mare",
 	"91ebfbc29dcd7948": "Tasques mare.",
-	"9575d72ebb5e5184": "Prioritat posada a un valor invàlid.",
+	"9575d72ebb5e5184": "Prioritat posada a un valor no vàlid.",
 	"95b8b8cb15bff5d9": "La puntuació ha de ser positiva.",
 	"963306403fcd6d40": "Indica un nom d'usuari o \"cap\"...",
 	"967a0b6982ad1270": "Nom de projecte caché de l'aplicació Maniphest",

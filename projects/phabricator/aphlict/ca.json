@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"04619b5d014f1cc6": "Enviar una notificació a un usuari.",
+	"08f9150056d8f33f": "El servidor de notificacions no s'ha d'executar com a arrel.",
+	"0ab7970d71c137fe": "Dos servidors (amb els índex «$1» i «$2») s'uneixen al mateix port («$3»). Cada servidor s'ha de vincular a un port únic.",
+	"11399b1faec2eb8e": "Error al $1!",
+	"197162c832f1d7fd": "ERROR: La funció PHP $1 no està habilitada. Heu d'habilitar-la per executar Aphlict en aquesta màquina.",
+	"2a74a7eaa12bf589": "Aturar el servidor de notificacions.",
+	"2bea7e7c0b236c1c": "El fitxer de configuració no té el format JSON adequat.  $1",
+	"314e761bb0191d43": "No s'ha trobat cap binari \"$1\" o \"$2\" a $3. Cal instal·lar Node.js per iniciar el servidor Aphlict.",
+	"43256ef7ad916881": "ERROR: L'extensió de PHP '$1' no està instal·lada.  Cal instal·lar-la per executar Aphlict en aquesta màquina.",
+	"4a6fab4d39af26a5": "No s'ha pogut crear el directori «$1» per al fitxer de registre especificat (amb l'índex «$2»). Hauríeu de crear manualment aquest directori o triar una ubicació diferent del fitxer de registre. $3",
+	"4c9c7a61da141fda": "El fitxer de configuració té claus de configuració incorrectes al nivell superior. $1",
+	"5884e7023c7e8b80": "L'Aphlict no s'està executant.",
+	"59c7d5844f411703": "En primer lloc haureu de $1!"
+}
