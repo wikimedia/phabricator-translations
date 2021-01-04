@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"0fb59422f6006b36": "Exemples",
+	"1b3d1f152ab0af85": "Subprocessos",
+	"1db7ceb187824c6b": "(Tot)",
+	"22a52227914bc55a": "Mostres ($1 - $2)",
+	"2b0351d0debf7e31": "Per ID",
+	"2c5dd77c7fad3691": "Època",
+	"300cf32a83d8202e": "Mostrador de rendiment",
+	"3a9c736b3175d657": "Taxa",
+	"5ae3c07ef5216380": "$1 Req",
+	"64ae43e8fe76204a": "Cost",
+	"81869807ec587c84": "Guia d'Usuari del Multímetre",
+	"8de60af14be27425": "$1 Unitat(s)",
+	"93c45b374e438968": "Per Petició",
+	"9f87ba915c488c5a": "Per Amfitrió",
+	"a4698c919126d5ab": "S'està intentant reprendre un multímetre actiu!",
+	"a55363a4b7f82dda": "Sol·licitud Web",
+	"a74d79fcf6b8b9ec": "Per Context",
+	"cdc93143c600bc90": "Mitjana",
+	"dad4cada470230f5": "Per Etiqueta",
+	"db4799e58d978303": "Multímetre",
+	"dbad9f126b33570e": "Visualitzador",
+	"e5423c9ba0cb621c": "$1 Event(s)",
+	"ea54c00c7eb26ed5": "Recurs Estàtic",
+	"f6cee853e660acd6": "Esdeveniments de Multímetre",
+	"fd0cd99480a72974": "Per Visualitzador"
+}

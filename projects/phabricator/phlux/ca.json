@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseplluis",
+			"Mguix"
+		]
+	},
+	"240e78f1aa62fbef": "Actualitza la variable",
+	"3074a4a63133c645": "El valor variable ha de ser de JSON vàlid.",
+	"307d4957be65dd3a": "Només lletres minúscules, dígits, punt i guió.",
+	"3d3684e1f79c7996": "Edita la variable: $1",
+	"45d41b3427ac820a": "Magatzem de configuració de claus / valors",
+	"5b3d65a8738a83f4": "Variable \"$1\"",
+	"8fbf110b5f9b11ca": "Variables Phlux",
+	"92ef2c479783f464": "Introduïu el valor com a JSON.",
+	"991a4cc218302b21": "La clau variable ha de ser única.",
+	"a19b4054a7bcb6ea": "Crea una Variable",
+	"adcd57ea4ea9ebf6": "Phlux",
+	"b971350e75202123": "$1 ha actualitzat aquesta variable.",
+	"c130b080f0d0694c": "$1 ha creat aquesta variable.",
+	"c73e063e2ac09a6e": "Edita la Variable",
+	"c75bafc134c47ab1": "Llista de Variables",
+	"ce39d9d87f4cf49a": "Cal una clau variable.",
+	"ced53994219494a6": "La clau variable \"$1\" només ha de contenir minúscules, números, punt i guió."
+}

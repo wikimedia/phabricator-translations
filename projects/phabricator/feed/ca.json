@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"027c66bf37c9a3b4": "Crideu a $1 abans de publicar!",
+	"20d3d91741172383": "Diccionari amb diverses dades de la història",
+	"355a429bd0ea65d5": "Totes les Històries",
+	"3ae912771fea48db": "Consulteu el canal de continguts per a obtenir històries",
+	"3b0838fee212bc19": "Creació (la Més Nova Primer)",
+	"3d1724997b3209bd": "El tipus d'història ha de ser un nom de classe vàlid i ha de subclassificar $1.  '$2' no és una subclasse de $3.",
+	"402cff085a9c09db": "Presentació HTML completa de la història",
+	"479b096dd515915f": "(No es pot renderitzar la història de la classe $1 per a Doorkeeper.)",
+	"496c5d9a5e9baa40": "La història no té cap objecte primari!",
+	"4d5f6edd9fafac64": "Republicant història...",
+	"52d4e024931e864b": "La història pregunta per un objecte que no ha demanat ('$1')!",
+	"554f3964d2e59e64": "Representació de la història en línia com a text sense format",
+	"6645eef5577e6001": "Incloure Projectes",
+	"6846b1412e00b179": "Publicar una història per al canal de continguts.",
+	"6cf9a5228fe4513a": "Especifiqueu una clau d'història per tornar a publicar.",
+	"6e214f4cf135ea1c": "La data especificada de \"Anterior\" és anterior en temps que la data especificada de \"Anterior\", de manera que aquesta consulta mai no pot coincidir amb cap resultat.",
+	"7564f953ff6cfa99": "Tornar a publicar un esdeveniment del canal de continguts a tots els consumidors.",
+	"823615fb92186f7c": "Incloure Usuaris",
+	"85e8e82b15302626": "La història del canal ha fallat en renderitzar ($1)",
+	"86b4ba2ff945b8f2": "Història",
+	"8db857fae6ccd2c3": "Diccionari de dades de l'historial complet més la renderització HTML"
+}

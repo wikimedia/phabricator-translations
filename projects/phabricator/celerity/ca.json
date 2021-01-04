@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"046419b845c2560f": "Utilitza Colors Estàndard",
+	"04cb07ada8365ae6": "No existeix cap font de recursos amb el nom «$1»!",
+	"0815b2ca68359582": "No s'ha pogut renderitzar el recurs «$1», que té un tipus desconegut «$2».",
+	"0a4a18b90fc1e8c9": "S'està escrivint el mapa «$1».",
+	"0ef5ab1cc4ef90ef": "Usa Colors d'Alt Contrast",
+	"0f1ed7dfb63fc1e2": "Mode Fosc (Experimental)",
+	"163ba1a9c26c97b1": "Utilitza una Mida de Lletra Més Gran",
+	"1ef1f25b6148dbd2": "S'han trobat $1 recursos binaris.",
+	"21cb4dca00942a97": "No existeix cap recurs amb el símbol «$1» a la font «$2»!",
+	"2371af702826eab1": "Celeritat",
+	"2e6ee0d3a1034bf1": "L'especificació del paquet per a «$1» inclou «$2», però aquest símbol no és $3 per cap recurs.",
+	"317174c8d84f6a62": "S'està intentant resoldre un recurs desconegut, \"$1\".",
+	"41fa90d128ffe8e0": "CSS de sintaxi \"$1\" reconstruïda.",
+	"4e71600bec1f4ac1": "El fitxer CSS '$1' té una variable desconeguda '$2'.",
+	"6131223242825fc5": "El literal $1 no està permès dins de l'script en línia.",
+	"66639f7d455dd71f": "Binari",
+	"7a75961209a5cf4d": "Utilitza els colors vermell/verd (Deuteranopia)",
+	"8369c2f9ebcad3bd": "El recurs \"$1\" ha de tenir $2 com a màxim un objectiu de Celeritat.",
+	"9adac865895dd02e": "S'ha detectat un cicle al gràfic de recursos: $1",
+	"a396d463559a8f47": "Sintaxi reconstruïda que ressalta CSS.",
+	"a5dcf9b3422f14a3": "Font de recursos defineix dos recursos amb el mateix nom, \"$1\".  Una es defineix en el mapa «$2»; l'altra en el mapa «$3».  Cada recurs ha de tenir un nom únic.",
+	"b1191c15b7b23ea8": "El recurs \"$1\" no té cap capçalera de document. Codifiqueu les dades de dependència en un bloc de doc de capçalera.",
+	"b8dcb7fb1787a65d": "L'especificació del paquet per a \"$1\" inclou recursos de diversos tipus ($2, $3). Cada paquet només pot contenir un tipus de recurs.",
+	"bf64f63e87e16ac3": "Reconstruint $1 font/s de recursos.",
+	"ca95d79472b5600e": "S'han trobat $1 recursos de text.",
+	"cd9aad37e951dff2": "S'esperava que el fitxer «$1» a «$2» fos una font d'sprite que acabés en «$3».",
+	"cf9d8c2551d59a7f": "Només es poden fer servir recursos estàtics.",
+	"d3909c664b071e68": "Reconstruint la font de recursos «$1» ($2)...",
+	"d83f92dffe9f937b": "El nom dels recursos «$1» no és vàlid; només ha de contenir lletres minúscules i dígits.",
+	"e67706bfcfb95cf8": "S'està intentant afegir més metadades després que s'hagin blocat les metadades.",
+	"f57fc09b17b11893": "Reconstrueix mapes de recursos estàtics.",
+	"fe5245cd89f00746": "Trobats $1 paquets."
+}

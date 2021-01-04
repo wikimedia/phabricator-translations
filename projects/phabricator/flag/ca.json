@@ -5,15 +5,27 @@
 		]
 	},
 	"197a62696ce8fbf0": "Marcat amb bandera de «$1».",
+	"1c3d8a33c4e3bcd5": "Adreces d'Interès Personals",
 	"1ca1a72255461c7b": "Consulta marcadors de bandera.",
+	"2086e095c964982b": "Esborrar un indicador.",
+	"32576f4fedc07f63": "Morat",
+	"4dc7c146812011ca": "Paràmetre de grup desconegut: $1",
 	"5d7071b20fcec93c": "Marca amb el marcador $1.",
 	"699642af97a5d952": "Els marcadors són privats.  Només podeu veure o modificar els vostres marcadors.",
+	"70fc3e4015e8e4f8": "Ha de passar un id o un objectPHID.",
 	"7168897d704726c7": "Ja marcat amb el marcador $1.",
+	"76dbf884271fdcfd": "Indicador per a més Endavant",
 	"7dda51ce77f4eb5f": "No ets el creador d'aquest marcador.",
+	"8828ce01607a48df": "Bandera $1",
 	"94d23c9bf50bab36": "Crear o modificar un marcador.",
+	"a12b4c41e336ccf7": "Crear una Bandera",
 	"b6829a09b18b33c4": "Podeu marcar aquest $1 si voleu recordar-lo més tard.",
+	"bafd3e5ad59b23e6": "No s'ha trobat cap bandera.",
 	"cdc6686dc53df49e": "ID de marcador incorrecte.",
 	"cf11ada077be2b0f": "Elimina el marcador $1",
+	"d1d3a0cd7c6910d9": "Tot Tipus d'Objecte",
+	"d4a822fc0ac4e4ad": "Ja Marcat",
 	"e0d0b82a322e167f": "Color del marcador",
-	"e22c254cc0a5cb8c": "Marca amb bandera"
+	"e22c254cc0a5cb8c": "Marca amb bandera",
+	"f8db8a172be6fab1": "Senyalat"
 }

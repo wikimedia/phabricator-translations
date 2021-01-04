@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"29efd0bdaa04ae91": "L'argument «$1» no coincideix amb el nom de cap generador.",
+	"300371d205bbeec3": "Un generador de lipsum està registrat amb la clau «$1».  Aquesta clau està reservada.",
+	"32332b3df8a3771d": "No s'ha pogut carregar un usuari aleatori. És possible que primer hàgiu de generar més usuaris de proves.",
+	"359c2782e2017bbc": "Genera objectes sense demanar confirmació.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "No s'ha pogut carregar el símbol $1: aquesta classe no existeix.",
+	"63017d2cc8fa35f7": "El generador («$1») no ha pogut generar un objecte.",
+	"6ad21d0a2036d6e8": "OOPS",
+	"7b8d8ae984b43bbd": "Aquesta ordre genera dades de prova sintètiques, inclosos els comptes d'usuari.  Està pensat per al seu ús en entorns de desenvolupament de manera que es puguin provar les funcions amb més facilitat.  No hi ha una manera fàcil d'esborrar aquestes dades o desfer els efectes d'aquesta ordre.  Si l'executeu en un entorn de producció, contaminarà les vostres dades amb grans quantitats d'escombraries sense sentit que no podreu desfer.",
+	"8cd3cac1380eb4ec": "Genera objectes de prova sintètics.",
+	"8d767bf5b72373d1": "classe",
+	"90a51575c9bd4563": "Generant objectes de prova sintètics per sempre.  Utilitzeu ^C per aturar-ho quan estigueu satisfet.",
+	"9922906d3c889107": "Generat «$1»: «$2»",
+	"a568df6c0fc85e72": "Trieu quin tipus o tipus de dades de prova voleu generar, o seleccioneu \"$1\".",
+	"b1b21337175c014d": "Genera objectes tan ràpid com sigui possible.",
+	"b5ff2d7e2727ab4b": "L'argument «$1» és ambigu, i coincideix amb múltiples generadors: $2.",
+	"c9fb502c220f5ec3": "lipsum és una eina de desenvolupament i prova i només es pot executar en instal·lacions en mode desenvolupador.  Activeu «$1» a la vostra configuració per a habilitar lipsum.",
+	"e92bac9cc25935f8": "Generadors seleccionats: $1.",
+	"e9f3727584c821b2": "GENERADORS",
+	"f335a7372135e4e7": "Confirmes que vols generar munts d'escombraries?"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"01e30de312eae0aa": "Mostres de XHProf",
+	"0a63ad781263be3f": "Mostrejat (1/$1)",
+	"2211e38509c4c39d": "Totes les mostres",
+	"28facfbf0193ea3e": "Trucades de Pare",
+	"2f3c9dc62cb2a85d": "Temps Transcorregut (Inclusiu)",
+	"3f84ef531f9db996": "Símbol",
+	"562ae0348cb47b8e": "Temps Transcorregut (Exclusiu)",
+	"5a9ebdb4ed44587e": "Temps total de temps dedicat en aquesta funció i tots els seus fills (els fills són altres funcions que va cridar mentre executava).",
+	"600c86c5195dfe24": "$1 μs",
+	"60bc9828c396a0ff": "Exemple Sense Nom",
+	"68d5ced71e82cd17": "Perfil $1",
+	"91e4fc2fd727793b": "El temps dedicat en aquesta funció, excloent el temps dedicat en fills (els fills són altres funcions que es criden mentre s'executa).",
+	"93bdcecc9624ca26": "Executar Manualment",
+	"a04ce39eb6a65a4b": "Arrossega i deixa anar fitxers .xhprof per importar-los.",
+	"aeb1f8e83b6fb6c1": "Eina PHP per a Crear Perfils",
+	"ba808f702b24f82c": "Mètriques per a aquesta Trucada",
+	"bffb93b89ee1e5b6": "No s'ha pogut anul·lar la sèrie del perfil XHProf!",
+	"c9aef90f3405db63": "Perfil XHProf",
+	"d2c039b48df9b8b5": "Col·loca arxius .xhprof per importar-los",
+	"dd3202d111eefb92": "Temps Transcorregut",
+	"f1ab222d43ba59b4": "Descàrrega el Perfil $1",
+	"fe6de32a0c1aa35b": "Trucades de Fills"
+}
