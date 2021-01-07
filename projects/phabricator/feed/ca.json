@@ -24,5 +24,22 @@
 	"823615fb92186f7c": "Incloure Usuaris",
 	"85e8e82b15302626": "La història del canal ha fallat en renderitzar ($1)",
 	"86b4ba2ff945b8f2": "Història",
-	"8db857fae6ccd2c3": "Diccionari de dades de l'historial complet més la renderització HTML"
+	"8db857fae6ccd2c3": "Diccionari de dades de l'historial complet més la renderització HTML",
+	"8e09cf4bb7eb73d0": "Especifiqueu exactament una clau d'història per tornar a publicar.",
+	"90d2444ec65ef49d": "Heu de trucar $1 si tu $2!",
+	"936b0b1bc5823242": "S'ha descarregat l'objecte '$1'",
+	"93a1e474113fc418": "No existeix cap història amb la clau «$1»!",
+	"9553d911b70ac7c1": "Opcions del canal de continguts.",
+	"998b94780e83652a": "Creació (més antiga primer)",
+	"9cecbbc1b9c4bed1": "Obsolet.",
+	"a418c6e77070bf09": "Cap Història.",
+	"ac176a12354104c8": "La història només conté el títol de la història",
+	"b514a33de5976d6f": "Tipus de vista no admès, els possibles són: $1",
+	"d71554dcbd4bcbf6": "S'està intentant recuperar la clau de camp de marcatge \"$1\", però aquesta història del canal de continguts no ha demanat que es representi.",
+	"db3e708141b47436": "Històries del Canal de Continguts",
+	"df541f9c771075dc": "Objectiu de renderització desconegut: $1",
+	"df64eb386033ce8a": "Inclou històries sobre projectes dels quals sóc membre.",
+	"f972df1e479c68f3": "El tipus d'història ha de ser un nom de classe vàlid i ha de subclassificar $1.  '$2' no és una classe carregable.",
+	"fc089d61f5c74d73": "La història del canal de continguts (amb la clau «$1») no existeix o no s'ha pogut carregar.",
+	"fe8f5568d1a9988f": "Revisa l'Activitat Recent"
 }
