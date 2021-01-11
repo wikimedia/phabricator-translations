@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"005b04a6a1c3f591": "Bir nesne adı gereklidir.",
@@ -214,7 +215,7 @@
 	"a4cce90a2dd177df": "Webhook'ları Oluşturabilir",
 	"a6d7b77b091f6728": "Yazar Aktif Değil",
 	"a737d01bda98a661": "Bir nesne için içerik kurallarını test edin. Web UI test konsolu gibi bir kuru çalışma gerçekleştirir.",
-	"a7902e706bf46413": "Kişisel kurallar sizi etkinlikler hakkında bilgilendirir. Onlara sahipsin ama onlar sadece seni etkileyebilir. Kişisel kurallar yalnızca görme izniniz olan nesneler için tetiklenir.",
+	"a7902e706bf46413": "Kişisel kurallar sizi olaylardan bildirir. Onlara sahipsiniz, ancak yalnızca sizi etkileyebilirler. Kişisel kurallar yalnızca görme izniniz olan nesneler için tetiklenir.",
 	"a93a2a5f91ea8afb": "$1 hedefi geçersiz veya yanlış türde: $2.",
 	"a9ac6d1c088e9258": "biraz",
 	"aa22da10fc071278": "Belirli bir nesne için işlemleri gönderin.",

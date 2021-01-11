@@ -179,7 +179,7 @@
 	"f40b27d6b8b9a4fc": "HTTP",
 	"f52698c28f0d2036": "HTTPS",
 	"f5f1a4f0639920d2": "Information concernant le valideur.",
-	"f7ebe611ce220b13": "Vous ne pouvez pas utiliser «  --promote » pour un service entier (« $1 »). Un seul appareil à la fois peut être promu.",
+	"f7ebe611ce220b13": "Vous ne pouvez pas utiliser « --promote » pour un service entier (« $1 »). Un seul appareil à la fois peut être promu.",
 	"f8327647855d86bf": "Ne réalisez aucune entrée/sortie.",
 	"fb88e0d7d1d2f4bb": "Rejet: fichier surdimensionné",
 	"fbbe499440c133d6": "Identification nécessaire",
