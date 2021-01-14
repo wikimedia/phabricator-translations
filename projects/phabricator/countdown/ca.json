@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"048a1e4654f636e4": "DETALLS DEL COMPTE ENRERE",
+	"092f99ea11a34a84": "Minuts",
+	"0e2a9d01aad502b0": "Data en què acaba el compte enrere.",
+	"1f26860c6c5e8e28": "Canvia la data de finalització del compte enrere.",
+	"2da25ad148405bd1": "Edita el compte enrere: $1",
+	"2de64b763edfa305": "Comptes enrere",
+	"3e7e30d4c9bd3f17": "Mostra només els comptes enrere imminents.",
+	"3e8aa17faec24ca8": "Política de visualització predeterminada per als comptes enrere nous.",
+	"403b65955c676903": "Editeu la descripció del compte enrere.",
+	"428e98f8a5ea2cfb": "Crea un compte enrere",
+	"45dbae5b84397116": "Utilitzeu totes les capacitats de la vostra ALU.",
+	"4918ffaa51eaba74": "Llançat el $1",
+	"4cf8876bdc95feea": "Els títols de compte enrere no poden excedir els $1 caràcters.",
+	"50e0861a96dfb4b2": "No s'ha trobat cap compte enrere.",
+	"523baab918efc25f": "S'està entrant",
+	"543cbeb2456a6a93": "Algú comenta en un compte enrere.",
+	"55ad67b37f1ca688": "Política d'edició per defecte per als nous comptes enrere.",
+	"55ea310cf51ef846": "$1 ha actualitzat la descripció del compte enrere per a $2.",
+	"587925a62430ba17": "Aplica les operacions per crear un compte enrere nou o editar-ne un d'existent.",
+	"5fbf5eab5e2b2ec7": "$1 ha actualitzat la descripció del compte enrere.",
+	"6023b91078f688e7": "El títol del compte enrere."
+}
