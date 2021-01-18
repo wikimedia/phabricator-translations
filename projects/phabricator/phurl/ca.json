@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseplluis",
+			"Mguix"
+		]
+	},
+	"04259816ace1ebe5": "Àlies",
+	"07220ddc07168239": "Editeu el Phurl",
+	"0e2d9b0777a485c1": "URL",
+	"10ca59433e17327a": "Tots els URL",
+	"1f7f74d9be3f7d02": "$1 ha canviat l'àlies de $2 a $3.",
+	"209742d500d13753": "L'àlies per donar l'URL.",
+	"2139440b699aeca2": "L'àlies que heu proporcionat ($1) ha de contenir com a mínim una lletra.",
+	"25a01dd2718388bb": "Configureu formularis de creació i edició a Phurl.",
+	"2a229462016518d5": "Descripció de l'URL nova.",
+	"3f8f76b785340677": "[Phurl]",
+	"4648d39861209ea9": "L'URL que cal escurçar.",
+	"472b421beaca3da4": "Selecciona un phurl ...",
+	"4b875bd0608f8079": "$1 ha canviat l'URL de destinació de $2 a $3.",
+	"519f027ec274a60b": "URL nou.",
+	"523eb1acc731ec7b": "Una descripció de l'URL.",
+	"5b156f312e74795a": "L'àlies que heu proporcionat ($1) només pot contenir lletres llatines, dígits, punts i guions.",
+	"5ff22d5a88c64bfb": "Aquest àlies ja està en ús.",
+	"649f19876e1b3f57": "Aquest domini només es pot utilitzar per obrir URL reduïts mitjançant l'aplicació Phurl. L'URL al qual intenteu accedir no té associat cap URL de Phurl.",
+	"6b3f63fdb60dcb9a": "Els Phurls han de tenir un nom.",
+	"6dfa6d8e50b39933": "Escurceu el vostre URL preferit.",
+	"7cb83145539e0d66": "No s'ha trobat cap URL.",
+	"811fec4b0e23bf8c": "El camí URL és obligatori",
+	"84b8a7289a111a0c": "$1 ha canviat el nom de $2 de $3 a $4.",
+	"89283ca91ebb357d": "Llegiu informació sobre els URL de Phurl.",
+	"d0159f0c302e6136": "$1 ha creat aquesta URL."
+}
