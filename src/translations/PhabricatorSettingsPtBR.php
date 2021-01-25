@@ -19,23 +19,6 @@ final class PhabricatorSettingsPtBR
       'Page Titles' => 'Títulos de Página',
       'Personal Account Settings' => 'Configurações de conta pessoal',
       'ISO 8601: 2000-02-28' => 'ISO 8601: 2000-02-28',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => 'Muitos editores de texto podem ser configurados como manipuladores de URI para protocolos especiais como `editor://`. Se você tiver esse editor, o Phabricator pode gerar links nos quais você pode clicar para abrir arquivos localmente.
-    Essas variáveis especiais são suportadas:
-    | Valor | Substituído por |
-    |-------|---------------|
-    | `%%f`  |Nome do arquivo |
-    | `%%l`  | Número da linha |
-    | `%%r`  | Indicativo de Repositório |
-    | `%%%%`  | Literal `%%` |
-    Para obter instruções completas sobre a configuração do editor, consulte **[[ %s | %s ]]**.',
       'Global Default Settings' => 'Configurações padrão globais',
       'Self Actions' => 'Auto ações',
       'Choose which language you would like the Phabricator UI to use.' => 'Escolha qual idioma você gostaria que a interface do Phabricator fosse usada.',
@@ -50,12 +33,10 @@ final class PhabricatorSettingsPtBR
       'On Small Screens' => 'Em telas pequenas',
       'A verification email has been sent. Click the link in the email to verify your address.' => 'Um email de verificação foi enviado. Clique no link no e-mail para confirmar seu endereço.',
       'Enable Email Notifications' => 'Ativar notificações por email',
-      'Edit Multiple Files' => 'Editar vários arquivos',
       'Edit global default settings for all users.' => 'Editar configurações padrão globais para todos os usuários.',
       'No settings panels are available.' => 'Nenhum painel de configurações está disponível.',
       'Empty string is not a valid setting for "%s".' => 'Cadeia vazia não é uma configuração válida para "%s".',
       'Adjust Timezone' => 'Ajustar o fuso horário',
-      'Show Filetree' => 'Mostrar árvore de arquivos',
       '%s updated her profile' => '%s atualizou o perfil dela',
       'Add Contact Number' => 'Adicionar número de contato',
       'Value "%s" is not valid for setting "%s": valid values are %s.' => 'O valor "%s" não é válido para definir "%s": os valores válidos são %s.',
@@ -147,13 +128,11 @@ final class PhabricatorSettingsPtBR
     Estas preferências **apenas** aplicam-se a objetos aos quais você está conectado (por exemplo, Revisões em que você é um revisor ou tarefas em que você está usando o CC). Para receber alertas de email quando outros objetos são criados, configure [[ /herald/ | Regras Herald  ]].',
       'You must enter your current password.' => 'Você deve digitar sua senha atual.',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
-      'Enable Filetree' => 'Ativar Filetree',
       'The old password you entered is incorrect.' => 'A senha antiga que você digitou está incorreta.',
       '◐ Notify' => '◐ Notificar',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Este navegador negou permissão para enviar notificações da área de trabalho para essa instância do Phabricator. Consulte as configurações/documentação do seu navegador para descobrir como limpar essa configuração, fazê-lo e, em seguida, visite novamente esta página para conceder permissão.',
       '%s updated his profile' => '%s atualizou seu perfil',
       'You can change your date and time preferences in Settings.' => 'Você pode alterar suas preferências de data e hora em Configurações.',
-      'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => 'Alguns editores suportam a abertura de vários arquivos com um único URI. Você pode especificar o comportamento do seu editor aqui.',
       'Timezone Calibrated' => 'O fuso horário foi calibrado',
       'Limited Translations' => 'Traduções limitadas',
       'Email Delivery' => 'Entrega de e-mail',
@@ -168,7 +147,6 @@ final class PhabricatorSettingsPtBR
       'DarkConsole' => 'Console escuro',
       'Filetree Width' => 'Largura do filtro',
       'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'O Phabricator normalmente mostra diffs em um layout lado a lado em telas grandes e alterna automaticamente para uma visão unificada em telas pequenas (como telefones celulares). Se você preferir os diffs unificados, mesmo em telas grandes, poderá selecioná-los para uso em todos os displays.',
-      'Supported, Separated by Spaces' => 'Suportado, Separado por espaços',
       'Search Scope' => 'Escopo de pesquisa',
       'Email Preferences' => 'Preferências de Email',
       'You don\'t have any active tokens.' => 'Você não tem nenhum token ativo.',
@@ -179,7 +157,6 @@ final class PhabricatorSettingsPtBR
     //Você ainda receberá alguns e-mails administrativos, como o e-mail de redefinição de senha.//',
       'Disable "Re:" Prefix' => 'Desativar prefixo "Re:"',
       'Conpherence Widget Pane Visible' => 'Painel de widget da conferência visível',
-      'Disable Filetree' => 'Desativar Filetree',
       'Disable Email Notifications' => 'Desativar notificações por e-mail',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator usa caracteres Unicode nos títulos das páginas como uma representação compacta do aplicativo atual. Se os caracteres não aparecerem no sistema, você poderá substituí-los por texto simples.',
       'Expired' => 'Expirado',
@@ -189,7 +166,6 @@ final class PhabricatorSettingsPtBR
       'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Sua senha está atualmente em hash usando um algoritmo que não está mais disponível nesta instalação.',
       'Send HTML Email' => 'Enviar email em HTML',
       'Translation' => 'Tradução',
-      'UTC+%d' => 'UTC+%s',
       'Settings %d' => 'Configurações %s',
       'Time Format' => 'Formato da hora',
       'Permission for desktop notifications was denied. Only application notifications will be sent.' => 'A permissão para notificações na área de trabalho foi negada. Apenas notificações de aplicativos serão enviadas.',
@@ -224,7 +200,6 @@ final class PhabricatorSettingsPtBR
       'Click "Save Preference" to persist these changes.' => 'Clique em "Salvar preferência" para persistir essas alterações.',
       'Week Starts On' => 'Semana começa em',
       'Remove Factor' => 'Remover fator',
-      'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => 'O link do editor tem um protocolo inválido ou ausente. Você deve usar um protocolo de editor na lista de permissões desta lista: %s. Para adicionar protocolos, atualize "%s" no Config.',
       'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Sua conta não possui atualmente uma senha definida. Você pode escolher uma senha executando uma redefinição de senha.',
       'Disabled (an administrator has disabled login for this account provider).' => 'Desativado (um administrador desativou a entrada para esse provedor de conta).',
       'If you change your primary address, Phabricator will send all email to %s.' => 'Se você alterar seu endereço principal, o Phabricator enviará todos os emails para %s.',
@@ -253,9 +228,7 @@ final class PhabricatorSettingsPtBR
       'Pinned Applications' => 'Aplicativos fixos',
       'Revoke All' => 'Revogar tudo',
       'No settings panel group with key "%s" exists!' => 'Nenhum grupo de painéis de configurações com a chave "%s" existe!',
-      'When viewing a revision or commit, you can enable a sidebar showing affected files. When this option is enabled, press {nav %s} to show or hide the sidebar.' => 'Ao visualizar uma revisão ou confirmação, você pode ativar uma barra lateral mostrando os arquivos afetados. Quando esta opção estiver ativada, pressione {nav %s} para mostrar ou ocultar a barra lateral.',
       'Linked Accounts and Authentication' => 'Contas vinculadas e autenticação',
-      'UTC-%d' => 'UTC-%s',
       'Choose the pronoun you prefer.' => 'Escolha o pronome que você preferir.',
       'Conflict Ignored' => 'Conflito ignorado',
       'This engine is used to edit settings.' => 'Este mecanismo é usado para editar configurações.',

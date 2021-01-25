@@ -49,7 +49,6 @@ final class PhabricatorLegalpadEl
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'Προβολή/Υπογραφή εγγράφου',
       'You must choose a user to exempt.' => 'Πρέπει να επιλέξετε ένα χρήστη για εξαίρεση.',
-      'Only admins may require signature.' => 'Μόνο οι διαχειριστές μπορούν να απαιτήσουν υπογραφή.',
       'You have already signed this document!' => 'Έχετε ήδη υπογράψει αυτό το έγγραφο!',
       'Verify Signature' => 'Επαλήθευση υπογραφής',
       'Signed Documents' => 'Υπογεγραμμένα έγγραφα',

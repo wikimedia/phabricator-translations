@@ -17,7 +17,6 @@ final class PhabricatorAphlictDa
       'Launching server:' => 'Igangsætter server:',
       'Starting Aphlict server in foreground...' => 'Starter Aphlict server i forgrunden...',
       'Server exited!' => 'Serveren afsluttedes!',
-      'No user with username "%s" exists.' => 'Der findes ingen bruger med brugernavnet "%s".',
       'Writing logs to: %s' => 'Skriver logs til: %s',
       'Reading configuration from: %s' => 'Læser konfigurationen fra: %s',
       'Aphlict Server started.' => 'Aphlict server startede.',

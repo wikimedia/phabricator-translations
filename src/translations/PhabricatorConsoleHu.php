@@ -11,7 +11,6 @@ final class PhabricatorConsoleHu
     return array(
       'Listener Class' => 'Hallgatózó osztály (?)',
       'Profiling was not enabled for this page. Use the button above to enable it.' => 'A profilozás nem engedélyezett erre az oldalra. A fenti gomb használatával engedélyezheti.',
-      'Event Type' => 'Eseménytípus',
       'Internal ID' => 'Belső ID',
       'Error Log (%d)' => 'Hibanapló (%s)',
       'Debugging console for real-time notifications.' => 'Hibaelhárító konzol valós idejű értesítésekhez.',

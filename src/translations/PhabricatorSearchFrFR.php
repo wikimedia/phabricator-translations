@@ -86,7 +86,6 @@ final class PhabricatorSearchFrFR
       'Profile Menu User Guide' => 'Manuel utilisateur du menu du profil',
       'Choose a valid export format.' => 'Choisissez un format d\'exportation valide.',
       'Search engine ("%s") exported the wrong number of objects, expected %s but got %s.' => 'Le moteur de recherche (« %s ») a exporté un mauvais nombre d\'objets, attendu %s mais obtenu %s.',
-      'Search' => 'Chercher',
       'Delete this menu item?' => 'Supprimer cet élément de menu ?',
       'Cats prefer vanilla ice cream.' => 'Les chats préfèrent la glace à la vanille.',
       'Export Results' => 'Exporter les résultats',
@@ -103,7 +102,6 @@ final class PhabricatorSearchFrFR
       'Export Data' => 'Exporter les données',
       'Circular Dependency' => 'Dépendance circulaire',
       'Threshold must be greater than 0.0 and less than 1.0.' => 'Le seuil doit être supérieur à 0,0 et inférieur à 1,0 .',
-      'Unknown search function "%s". Supported functions are: %s.' => 'Fonction de recherche « %s » inconnue. Les fonctions supportées sont : « %s »',
     );
   }
 

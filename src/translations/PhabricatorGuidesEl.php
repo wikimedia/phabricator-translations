@@ -13,7 +13,6 @@ final class PhabricatorGuidesEl
       'Create a Repository' => 'Δημιουργία νέου αποθηκευτηρίου',
       'If you are here for code review, let\'s set up your first repository.' => 'Αν είστε εδώ για μία αναθεώρηση κώδικα, ας ρυθμίσουμε το πρώτο αποθηκευτήριο σας.',
       'You\'ve configured at least one setting from the web interface.' => 'Έχετε ρυθμίσει τουλάχιστον μια ρύθμιση από την διεπαφή ιστού.',
-      'Customize the default homepage layout and items.' => 'Εξατομικεύστε την προκαθορισμένη διάταξη και αντικείμενα της αρχικής σελίδας.',
       'You\'ve created at least one task.' => 'Έχετε δημιουργήσει τουλάχιστον μία εργασία.',
       'Project tags define everything. Create them for teams, tags, or actual projects.' => 'Οι ετικέτες του εγχειρήματος ορίζουν το οτιδήποτε. Δημιουργήστε τα για ομάδες, ετικέτες ή πραγματικά εγχειρήματα.',
       'Explore Applications' => 'Εξερεύνηση εφαρμογών',

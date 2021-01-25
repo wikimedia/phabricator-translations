@@ -12,7 +12,7 @@ final class PhabricatorPhpastCa
       'PHPAST' => 'PHPAST',
       'Node %d: %s' => 'Node %s: %s',
       'Generate XHP AST' => 'Genera XHP AST',
-      'Token %d: %s' => 'Token %s: %s',
+      'Token %d: %s' => 'Testimoni %s: %s',
       'XHPAST View' => 'Vista XHPAST',
       'Parse' => 'Parseja',
       'No such AST!' => 'Cap AST!',

@@ -22,7 +22,6 @@ final class PhabricatorSubscriptionsPl
       'Remove yourself as a subscriber.' => 'Usuń siebie ze subskrybentów.',
       'Remove subscribers' => 'Usuń subskrybentów',
       'Added Subscribers' => 'Dodani subskrybenci',
-      'Unsubscribe' => 'Zrezygnuj z subskrypcji',
       'Mute Notifications' => 'Wycisz powiadomienia',
       'Add subscribers.' => 'Dodaj subskrybentów.',
     );

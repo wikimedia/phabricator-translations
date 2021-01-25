@@ -9,7 +9,7 @@ final class PhabricatorBaseKoKR
 
   protected function getTranslations() {
     return array(
-      'No application \'%s\'!' => '\'%s\' 애플리케이션이 업습니다!',
+      'No application \'%s\'!' => '\'%s\' 애플리케이션이 없습니다!',
       'Can Configure Application' => '애플리케이션 구성 가능',
       'Can Use Application' => '애플리케이션 사용 가능',
       'Public + configured' => '공개 + 구성됨',

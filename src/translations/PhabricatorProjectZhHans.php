@@ -121,7 +121,6 @@ final class PhabricatorProjectZhHans
       '%s removed %s project(s): %s.' => '%s移除了%s个项目：%s。',
       'Apply Filter' => '应用过滤器',
       'Select project tags for the object.' => '选择用于对象的项目标签。',
-      'Sort by Priority' => '按优先级排序',
       'Custom Filter' => '自定义过滤器',
       'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
     Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => '通过列举主题标签，添加一个或多个项目至对象。使用空格分隔项目。例如使用“!projects #ios #feature”添加两个相关项目。

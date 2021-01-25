@@ -11,7 +11,6 @@ final class PhabricatorFavoritesZhHans
     return array(
       'Edit Favorites' => '编辑收藏',
       'Favorite Items' => '收藏条目',
-      'Favorites Menu' => '收藏菜单',
     );
   }
 

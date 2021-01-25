@@ -18,7 +18,6 @@ final class PhabricatorCelerityHu
       'Use Larger Font Size' => 'Használjon nagyobb betűméretet',
       'Found %d binary resources.' => 'Találtam egy %s nevű bináris erőforrást.',
       'Rebuilt "%s" syntax CSS.' => 'Újraépített "%s" szintaxis CSS.',
-      'Binary' => 'Bináris',
       'Cycle detected in resource graph: %s' => 'Az erőforrás-grafikonban észlelt ciklus: %s',
       'Rebuild syntax highlighting CSS.' => 'A szintaxiskiemelő CSS újraépítése.',
       'Found %d text resources.' => 'Találtam egy %s nevű szöveges erőforrást.',

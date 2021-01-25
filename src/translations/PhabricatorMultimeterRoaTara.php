@@ -18,7 +18,6 @@ final class PhabricatorMultimeterRoaTara
       'Performance Sampler' => 'Cambionatore de prestaziune',
       'Rate' => 'Tasse',
       '%s Req' => '%s Req',
-      'Cost' => 'Coste',
       'Multimeter User Guide' => 'Guide de l\'utende de Multimeter',
       '%s Unit(s)' => '%s Aunità',
       'By Request' => 'Pe richieste',

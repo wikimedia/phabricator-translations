@@ -12,7 +12,6 @@ final class PhabricatorPhrictionKoKR
       'No such document.' => '해당 문서가 없습니다.',
       'Edit Older Version %s...' => '더 오래된 판 %s 편집...',
       'DOCUMENT DIFF' => '문서 차이',
-      'This document was moved from %s.' => '이 문서는 %s에서 이동되었습니다.',
       'A moved document can not be moved again.' => '이동한 문서는 다시 이동할 수 없습니다.',
       'Next Change »' => '다음 변경사항 »',
       'Publish Draft' => '초안 게시',

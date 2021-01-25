@@ -18,7 +18,6 @@ final class PhabricatorMultimeterEn
       'Performance Sampler' => 'Performance Sampler',
       'Rate' => 'Rate',
       '%s Req' => '%s Req',
-      'Cost' => 'Cost',
       'Multimeter User Guide' => 'Multimeter User Guide',
       '%s Unit(s)' => '%s Unit(s)',
       'By Request' => 'By Request',

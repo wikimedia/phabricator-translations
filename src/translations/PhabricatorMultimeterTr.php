@@ -18,7 +18,6 @@ final class PhabricatorMultimeterTr
       'Performance Sampler' => 'Performans Örnekleyici',
       'Rate' => 'Oyla',
       '%s Req' => '%s İst',
-      'Cost' => 'Maliyet',
       'Multimeter User Guide' => 'Multimetre Kullanıcı Kılavuzu',
       '%s Unit(s)' => '%s Birim',
       'By Request' => 'İsteğe göre',

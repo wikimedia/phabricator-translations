@@ -11,7 +11,6 @@ final class PhabricatorFavoritesUk
     return array(
       'Edit Favorites' => 'Редагування улюбленого',
       'Favorite Items' => 'Улюблені елементи',
-      'Favorites Menu' => 'Улюблене',
     );
   }
 

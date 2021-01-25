@@ -17,7 +17,6 @@ final class PhabricatorSubscriptionsKoKR
       'Add subscribers' => '구독자 추가',
       'Remove subscribers' => '구독자 제거',
       'Removed %s subscriber(s): %s.' => '구독자 %s명을 제거했습니다: %s.',
-      'Unsubscribe' => '구독 해지',
       'Bad Object' => '잘못된 오브젝트',
       'Add users or projects as subscribers.' => '사용자나 프로젝트를 구독자로 추가합니다.',
       'Add subscribers: %s.' => '구독자 추가: %s.',

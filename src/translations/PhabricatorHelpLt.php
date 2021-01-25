@@ -9,7 +9,6 @@ final class PhabricatorHelpLt
 
   protected function getTranslations() {
     return array(
-      'Change Settings' => 'Keisti nustatymus',
       '%s Help' => '%s pagalba',
     );
   }

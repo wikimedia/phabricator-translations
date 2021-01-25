@@ -128,7 +128,6 @@ final class PhabricatorProjectEl
       'Type a project name...' => 'Πληκτρολογείστε όνομα εγχειρήματος...',
       'Rename the project' => 'Μετονομασία του εγχειρήματος',
       'Test Project %d' => 'Δοκιμαστικό εγχείρημα %s',
-      'Column name is required.' => 'Το όνομα της στήλης απαιτείται.',
       'Ancestor Projects' => 'Προγονικά εγχειρήματα',
       'Get information about projects.' => 'Λάβετε πληροφορίες σχετικά με το εγχειρήματα.',
       'Save Column' => 'Αποθήκευση στήλης',

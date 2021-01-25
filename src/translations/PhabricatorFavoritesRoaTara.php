@@ -11,7 +11,6 @@ final class PhabricatorFavoritesRoaTara
     return array(
       'Edit Favorites' => 'Cange le preferite',
       'Favorite Items' => 'Vôsce de le preferite',
-      'Favorites Menu' => 'Menù de le preferite',
     );
   }
 

@@ -17,7 +17,6 @@ final class PhabricatorAuditFrFR
       'A commit\'s projects change.' => 'Modification des validations de projets.',
       '%s added subscribers: %s.' => '%s a ajouté des abonnés : %s.',
       'Query audit requests.' => 'Faire des demandes d\'audit.',
-      'COMMIT' => 'VALIDATION',
       'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => 'Spécifier « --all » pour tout affecter, ou une liste de validations ou de dépôts spécifiques à affecter.',
       'Update all commits in all repositories.' => 'Mettre à jour toutes les validations sur tous les dépôts.',
       '%s added subscribers...' => '%s a ajouté des abonnés…',

@@ -24,7 +24,6 @@ final class PhabricatorConpherenceZhHant
       'New Message' => '新訊息',
       '%s renamed this room from %s to %s.' => '%s將此聊天室從%s改名成%s。',
       'Conpherence Threads' => 'Conpherence 討論串',
-      'Bing' => '嗶',
       'Log In to Participate' => '登入來參與',
       'Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user.' => '要查詢對於已登入使用者的 Conpherence 討論串，您可以透過指定 Conpherence 討論串 ID 或 PHID 來查詢，或是指定限制與偏差，查詢對於已登入使用者的近期 Conpherence 聊天室更新。',
       'Create a Room' => '建立聊天室',

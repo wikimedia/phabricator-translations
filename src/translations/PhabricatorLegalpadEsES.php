@@ -80,7 +80,6 @@ final class PhabricatorLegalpadEsES
       'Only documents with signature type "individual" may require signing to use Phabricator.' => 'Solo los documentos con tipo de firma "individual" pueden requerir ser firmados para usar Phabricator.',
       'Mail receiver is not a LegalpadDocument!' => '¡El receptor del correo no es un LegalpadDocument!',
       'You must choose a user to exempt.' => 'Debes escoger a un usuario a eximir.',
-      'Only admins may require signature.' => 'Solo los administradores pueden requerir una firma.',
       'You have already signed this document!' => '¡Ya has firmado este documento!',
       'Verify Signature' => 'Verificar firma',
       'Signed Documents' => 'Documentos firmados',

@@ -17,7 +17,6 @@ final class PhabricatorAuditTr
       'A commit\'s projects change.' => 'Bir taahhüdün projeleri değişir.',
       '%s added subscribers: %s.' => '%s abone ekledi: %s.',
       'Query audit requests.' => 'Sorgu denetimi istekleri.',
-      'COMMIT' => 'TAHHÜT',
       'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => 'Her şeyi etkilemek için "--all" veya etkilenecek belirli taahhütlerin veya depoların bir listesini belirtin.',
       'Update all commits in all repositories.' => 'Tüm depolardaki tüm taahhütleri güncelleyin.',
       '%s added subscribers...' => '%s abone ekledi...',

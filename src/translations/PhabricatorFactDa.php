@@ -9,12 +9,9 @@ final class PhabricatorFactDa
 
   protected function getTranslations() {
     return array(
-      'Y-Axis' => 'Y-akse',
       'Dimension' => 'Dimension',
       'Processing %s...' => 'Bearbejder %s...',
-      'Zzz...' => 'Zzz...',
       '%sms' => '%sms',
-      'Chart' => 'Diagram',
       'Destroy all facts.' => 'Destruer alle fakta.',
       'Facts' => 'Fakta',
       'Not Stored' => 'Ikke lagret',

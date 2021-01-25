@@ -13,7 +13,6 @@ final class PhabricatorFactTr
       'Iterator \'%s\' does not exist.' => 'Yineleyici \'%s\' mevcut değil.',
       'Manually invoke fact analyzers.' => 'Gerçek analiz cihazlarını manüel olarak çağırın.',
       'No fact engines support generating facts for this object.' => 'Hiçbir gerçek motor bu amaç için gerçekler üretmeyi desteklememektedir.',
-      'Y-Axis' => 'Y-Ekseni',
       'Executing a fact query requires facts.' => 'Bir olgu sorgusu yürütmek gerçekleri gerektirir.',
       'Process only iterator __name__.' => 'Yalnızca yineleyici __adını__ işleyin.',
       'Cursor %s does not exist or is already reset.' => 'İmleç %s mevcut değil veya sıfırlandı.',
@@ -21,12 +20,10 @@ final class PhabricatorFactTr
       'Fact Extraction Report' => 'Gerçek Çıkarma Raporu',
       'Dimension' => 'Boyut',
       'Processing %s...' => '%s İşleniyor...',
-      'Zzz...' => 'Zzz...',
       'No Stored Datapoints' => 'Depolanan Veri Noktası Yok',
       '%sms' => '%sms',
       'Processing cursor \'%s\'.' => 'İmleç \'%s\' işleniyor.',
       'Show a list of fact engines.' => 'Gerçek motorlarının bir listesini göster.',
-      'Chart' => 'Grafik',
       'Chart and Analyze Data' => 'Verileri Grafikle ve Analiz Et',
       'Really destroy all facts? They will need to be rebuilt through analysis, which may take some time.' => 'Gerçekten tüm gerçekleri yok edilsin mi? Zaman alabilecek analizlerle yeniden yapı edilmeleri gerekecek.',
       '%s (Transactions)' => '%s (İşlemler)',
@@ -44,9 +41,7 @@ final class PhabricatorFactTr
       'Unknown fact ("%s") for engine "%s".' => '"%2$s" motoru için bilinmeyen gerçek ("%1$s").',
       'Fact "%s"' => 'Gerçek "%s"',
       'Consistent Fact' => 'Tutarlı Gerçekler',
-      'Count of %s' => '%s Sayısı',
       'Not Generated' => 'Oluşturulmamış',
-      'Plot Chart' => 'Grafik Çizimi',
     );
   }
 

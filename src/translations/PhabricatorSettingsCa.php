@@ -19,23 +19,6 @@ final class PhabricatorSettingsCa
       'Page Titles' => 'Títols de pàgina',
       'Personal Account Settings' => 'Configuracions de Compte Personal',
       'ISO 8601: 2000-02-28' => 'ISO 8601: 2000-02-28',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => 'Molts editors de text poden ser configurats com a gestors d\'URI per a protocols especials com per exemple `editor://`. Si teniu un editor així, Phabricator pot generar enllaços que podeu clicar per obrir arxius localment.
-    Aquestes variables especials són acceptades:
-    | Valor | Reemplaçat per |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    Per instruccions completes sobre la configuració de l\'editor, vegeu**[[ %s | %s ]]**.',
       'Global Default Settings' => 'Configuració Global per Defecte',
       'Self Actions' => 'Accions pròpies',
       'Choose which language you would like the Phabricator UI to use.' => 'Escolliu quina llengua t\'agradaria que utilitzés el Phabricator UI.',
@@ -50,7 +33,6 @@ final class PhabricatorSettingsCa
       'On Small Screens' => 'En pantalles petites',
       'A verification email has been sent. Click the link in the email to verify your address.' => 'S\'ha enviat un correu de verificació. Cliqueu l\'enllaç en el correu per verificar la vostra adreça.',
       'Enable Email Notifications' => 'Habilitar notificacions de correu electrònic',
-      'Edit Multiple Files' => 'Editar múltiples arxius',
       'Edit global default settings for all users.' => 'Editeu la configuració global per defecte per a tots els usuaris.',
       'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
     | Setting                | Example Mail Subject
@@ -64,7 +46,6 @@ final class PhabricatorSettingsCa
       'No settings panels are available.' => 'No hi ha cap plafó de configuració disponible.',
       'Empty string is not a valid setting for "%s".' => 'Cadena buida no és una configuració vàlida per "%s".',
       'Adjust Timezone' => 'Ajusta el fus horari',
-      'Show Filetree' => 'Mostra l\'arbre d\'arxius ("Filetree")',
       '%s updated her profile' => '%s ha actualitzat el seu perfil',
       'Add Contact Number' => 'Afegiu Número de Contacte',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
@@ -154,13 +135,13 @@ final class PhabricatorSettingsCa
       'Limited Translations' => 'Traduccions limitades',
       'Silly Translations' => 'Traduccions ximples',
       'Email Preferences' => 'Preferències de correu electrònic',
+      'You don\'t have any active tokens.' => 'No teniu cap testimoni actiu.',
       '24 Hour, 14:34' => '24 Hores, 14:34',
       'Expired' => 'Caducat',
       'No Notifications' => 'Sense notificacions',
       'Password Algorithms' => 'Algoritmes de contrasenya',
       'Send HTML Email' => 'Envia correu electrònic en HTML',
       'Translation' => 'Traducció',
-      'UTC+%d' => 'UTC+%s',
       'Time Format' => 'Forma d\'hora',
       'Send Notifications' => 'Envia notificacions',
       'Sunday' => 'Diumenge',
@@ -173,7 +154,6 @@ final class PhabricatorSettingsCa
       'Date and Time' => 'Dia i hora',
       '⚫ Email' => '⚫ Correu electrònic',
       'Pronoun' => 'Pronom',
-      'UTC-%d' => 'UTC-%s',
       'Conflict Ignored' => 'Conflicte ignorat',
     );
   }

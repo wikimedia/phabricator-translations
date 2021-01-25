@@ -25,7 +25,6 @@ final class PhabricatorSubscriptionsSrEC
       'All %d subscribers removed by %s' => 'Свих %s пратиоца уклонио је %s',
       'Added Subscribers' => 'Додати пратиоци',
       'Removed %s subscriber(s): %s.' => 'Уклонио %s пратиоца: %s.',
-      'Unsubscribe' => 'Откажи праћење',
       'Bad Object' => 'Лош објекат',
       'Add users or projects as subscribers.' => 'Додај кориснике или пројекте као пратиоце.',
       'Add subscribers: %s.' => 'Додати пратиоци: %s.',

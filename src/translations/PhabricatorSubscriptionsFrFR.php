@@ -32,7 +32,6 @@ final class PhabricatorSubscriptionsFrFR
       'Mute this object? You will no longer receive notifications or email about it.' => 'Taire cet objet ? Vous ne recevrez plus de notifications ni de courriels le concernant.',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Refus de réinscrire %s cible(s) car elles se sont désinscrites précédemment: %s.',
       'Removed %s subscriber(s): %s.' => '%s abonné(s) supprimé(s): %s.',
-      'Unsubscribe' => 'Se désabonner',
       'Bad Object' => 'Objet incorrect',
       'Add users or projects as subscribers.' => 'Ajouter des utilisateurs ou des projets en tant qu\'abonnés.',
       'Add subscribers: %s.' => 'Ajouter des abonnés: %s .',

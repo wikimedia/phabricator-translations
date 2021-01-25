@@ -18,7 +18,6 @@ final class PhabricatorMultimeterEl
       'Performance Sampler' => 'Δοκιμαστής απόδοσης',
       'Rate' => 'Βαθμολόγηση',
       '%s Req' => 'Απαιτείται %s',
-      'Cost' => 'Κόστος',
       'Multimeter User Guide' => 'Οδηγίες χρήστη πολυμέτρων',
       '%s Unit(s)' => 'Μονάδε(ς) %s',
       'By Request' => 'Ανά αίτημα',

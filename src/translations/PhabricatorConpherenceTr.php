@@ -24,7 +24,6 @@ final class PhabricatorConpherenceTr
       'New Message' => 'Yeni Mesaj',
       '%s renamed this room from %s to %s.' => '%s, bu odayı %s olarak %s değiştirdi.',
       'Conpherence Threads' => 'Conpherence İplikleri',
-      'Bing' => 'Bing',
       'Log In to Participate' => 'Katılmak için Giriş Yapın',
       'Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user.' => 'Oturum açmış kullanıcının Conpherence iş parçacığı için sorgu. Belirli Conpherence iş parçacıkları için kimliklere veya PHID\'lere göre sorgulayabilirsiniz. Aksi takdirde, oturum açmış kullanıcı için en son güncellenen Conferences\'ı sorgulamak için sınır ve ofseti belirtin.',
       'Create a Room' => 'Oda Oluşturun',

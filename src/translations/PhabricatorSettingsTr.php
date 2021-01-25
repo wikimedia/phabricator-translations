@@ -19,23 +19,6 @@ final class PhabricatorSettingsTr
       'Page Titles' => 'Sayfa Başlıkları',
       'Personal Account Settings' => 'Kişisel Hesap Ayarları',
       'ISO 8601: 2000-02-28' => 'ISO 8601: 2000-02-28',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => 'Pek çok metin editörü `editor://` gibi özel protokoller için URI işleyicileri olarak yapılandırılabilir. Böyle bir düzenleyiciniz varsa, Phabricator dosyaları yerel olarak açmak için tıklayabileceğiniz bağlantılar oluşturabilir.
-    Bu özel değişkenler desteklenir:
-    | Değer | Değiştirildi |
-    |-------|---------------|
-    | `%%f`  | Dosya Adı |
-    | `%%l`  | Satır Numarası |
-    | `%%r`  | Depo Çağrı Atama |
-    | `%%%%`  | Kelimesi Kelimesine `%%` |
-    Editör yapılandırmasıyla ilgili eksiksiz talimatlar için, **[[ %s | %s ]]** sayfasına bakın.',
       'Global Default Settings' => 'Genel Varsayılan Ayarlar',
       'Self Actions' => 'Öz Eylemler',
       'Choose which language you would like the Phabricator UI to use.' => 'Fiziksel Özellikleri Kullanıcı Arayüzünün hangi dili kullanmasını istediğinizi seçin.',
@@ -50,7 +33,6 @@ final class PhabricatorSettingsTr
       'On Small Screens' => 'Küçük Ekranlarda',
       'A verification email has been sent. Click the link in the email to verify your address.' => 'Bir doğrulama e-postası gönderildi. Adresinizi doğrulamak için e-postadaki bağlantıya tıklayın.',
       'Enable Email Notifications' => 'E-posta Bildirimlerini Etkinleştir',
-      'Edit Multiple Files' => 'Birden Çok Dosyayı Düzenleyin',
       'Edit global default settings for all users.' => 'Tüm kullanıcılar için genel varsayılan ayarları düzenleyin.',
       'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
     | Setting                | Example Mail Subject
@@ -64,7 +46,6 @@ final class PhabricatorSettingsTr
       'No settings panels are available.' => 'Hiçbir ayar paneli mevcut değil.',
       'Empty string is not a valid setting for "%s".' => 'Boş dize "%s" için geçerli bir ayar değil.',
       'Adjust Timezone' => 'Saat Dilimini Ayarla',
-      'Show Filetree' => 'Dosya Ağacını Göster',
       '%s updated her profile' => '%s profilini güncelledi (kadın)',
       'Add Contact Number' => 'İrtibat Numarası Ekleyin',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
@@ -167,13 +148,11 @@ final class PhabricatorSettingsTr
     Bu tercihler **yalnızca** bağlı olduğunuz nesneler için geçerlidir (örneğin, bir gözden geçirici olduğunuz Revizyonlar veya CC’de bulunduğunuz görevler). Başka nesneler oluşturulduğunda e-posta uyarıları almak için, [[ /herald/ | Herald Kuralları ]] yapılandır.',
       'You must enter your current password.' => 'Mevcut parolanızı girmelisiniz.',
       'Europe: 28-02-2000' => 'Avrupa: 28-02-2000',
-      'Enable Filetree' => 'Dosya Ağacı Etkinleştir',
       'The old password you entered is incorrect.' => 'Girdiğiniz eski parola yanlış.',
       '◐ Notify' => '◐ Bildirim',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Bu tarayıcı, bu Phabricator örneği için masaüstü bildirimleri gönderme iznini reddetti. Bu ayarın nasıl temizleneceğini bulmak için tarayıcı ayarlarınıza / belgelerinize bakın, yapın ve ardından izin vermek için bu sayfayı tekrar ziyaret edin.',
       '%s updated his profile' => '%s profilini güncelledi (erkek)',
       'You can change your date and time preferences in Settings.' => 'Tarih ve saat tercihlerinizi Ayarlar\'dan değiştirebilirsiniz.',
-      'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => 'Bazı editörler, tek bir URI ile birden fazla dosyayı açmayı destekler. Editörünüzün davranışını burada belirleyebilirsiniz.',
       'Timezone Calibrated' => 'Saat Dilimi Kalibre Edildi',
       'Limited Translations' => 'Sınırlı Tercümeler',
       'Email Delivery' => 'E-posta Teslimatı',
@@ -188,7 +167,6 @@ final class PhabricatorSettingsTr
       'DarkConsole' => 'DarkConsole',
       'Filetree Width' => 'Dosya Ağacı Genişliği',
       'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator normalde büyük ekranlarda yan yana bir düzende farklılıklar gösterir ve otomatik olarak küçük ekranlarda (cep telefonları gibi) birleşik görünüme geçer. Büyük ekranlarda bile birleştirilmiş farkları tercih ederseniz, bunları tüm ekranlarda kullanmak için seçebilirsiniz.',
-      'Supported, Separated by Spaces' => 'Desteklenen, Alanlarla Ayrılmış',
       'Search Scope' => 'Arama Kapsamı',
       'Email Preferences' => 'E-posta Tercihleri',
       'You don\'t have any active tokens.' => 'Aktif anahtarlarınız yok.',
@@ -199,7 +177,6 @@ final class PhabricatorSettingsTr
     //Parola sıfırlama e-postası gibi yine bir yönetim e-postası alacaksınız.//',
       'Disable "Re:" Prefix' => '"Yanıt:" Önekini Devre Dışı Bırak',
       'Conpherence Widget Pane Visible' => 'Conpherence Widget Bölmesi Görünür',
-      'Disable Filetree' => 'Dosya Ağacı Devre Dışı Bırak',
       'Disable Email Notifications' => 'E-posta Bildirimlerini Devre Dışı Bırak',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator mevcut uygulamanın kompakt bir gösterimini sağlamak için sayfa başlıklarında unicode glifleri kullanır. Bu glifler sisteminizde görüntülenmiyorsa, düz metin yerine kullanabilirsiniz.',
       'Expired' => 'Süre doldu',
@@ -209,7 +186,6 @@ final class PhabricatorSettingsTr
       'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Parolanız şu anda bu yüklemede bulunmayan bir algoritma kullanılarak paroloandırılmıştır.',
       'Send HTML Email' => 'HTML E-postası Gönder',
       'Translation' => 'Çeviri',
-      'UTC+%d' => 'UTC+%s',
       'Settings %d' => 'Ayarlar %s',
       'Time Format' => 'Zaman Biçimi',
       'Permission for desktop notifications was denied. Only application notifications will be sent.' => 'Masaüstü bildirimleri için izin verilmedi. Sadece başvuru bildirimleri gönderilecektir.',
@@ -244,7 +220,6 @@ final class PhabricatorSettingsTr
       'Click "Save Preference" to persist these changes.' => 'Bu değişiklikleri devam etmek için "Tercihi Kaydet"\'i tıklayın.',
       'Week Starts On' => 'Hafta Başlamasına',
       'Remove Factor' => 'Faktörü Kaldır',
-      'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => 'Editör bağlantısında geçersiz veya eksik bir protokol var. Bu listeden beyaz listeye alınmış bir editör protokolü kullanmalısınız: %s. Protokol eklemek için, "%s" yapılandırmasını güncelleyin.',
       'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Hesabınızda şu anda bir parola ayarlanmamış. Parola sıfırlama işlemini gerçekleştirerek bir parola seçebilirsiniz.',
       'Disabled (an administrator has disabled login for this account provider).' => 'Devre Dışı (bir yönetici bu hesap sağlayıcı için giriş yapmayı devre dışı bıraktı).',
       'If you change your primary address, Phabricator will send all email to %s.' => 'Birincil adresinizi değiştirirseniz, Phabricator tüm e-postayı %s gönderir.',
@@ -273,9 +248,7 @@ final class PhabricatorSettingsTr
       'Pinned Applications' => 'Sabitlenmiş Uygulamalar',
       'Revoke All' => 'Tümünü İptal Et',
       'No settings panel group with key "%s" exists!' => '"%s" anahtarlı ayar paneli grubu mevcut değil!',
-      'When viewing a revision or commit, you can enable a sidebar showing affected files. When this option is enabled, press {nav %s} to show or hide the sidebar.' => 'Bir revizyonu veya taahhüdü görüntülerken, etkilenen dosyaları gösteren bir kenar çubuğunu etkinleştirebilirsiniz. Bu seçenek etkinleştirildiğinde, kenar çubuğunu göstermek veya gizlemek için {nav %s} tuşuna basın.',
       'Linked Accounts and Authentication' => 'Bağlı Hesaplar ve Kimlik Doğrulama',
-      'UTC-%d' => 'UTC-%s',
       'Choose the pronoun you prefer.' => 'Tercih ettiğiniz zamiri seçin.',
       'Conflict Ignored' => 'Çakışma Yok Sayıldı',
       'This engine is used to edit settings.' => 'Bu motor ayarları düzenlemek için kullanılır.',

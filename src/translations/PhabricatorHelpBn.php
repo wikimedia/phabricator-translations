@@ -9,7 +9,6 @@ final class PhabricatorHelpBn
 
   protected function getTranslations() {
     return array(
-      'Change Settings' => 'সেটিংস পরিবর্তন করুন',
       '%s Help' => '%s সাহায্য',
       'Keyboard Shortcuts' => 'কীবোর্ড শর্টকাট',
     );

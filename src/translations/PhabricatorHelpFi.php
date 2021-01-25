@@ -9,7 +9,6 @@ final class PhabricatorHelpFi
 
   protected function getTranslations() {
     return array(
-      'Change Settings' => 'Muuta asetuksia',
       '%s Help' => '%s Ohje',
       'Keyboard Shortcuts' => 'Pikanäppäimet',
     );

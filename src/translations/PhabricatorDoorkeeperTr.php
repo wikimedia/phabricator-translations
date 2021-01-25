@@ -54,7 +54,6 @@ final class PhabricatorDoorkeeperTr
     ☠ Yaptığınız değişiklikler Phabricator\'a yansıtılmayacak.
     ☠ Durumunuz bir sonraki senkronize edildiğinde değişiklikleriniz yok edilir.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Alt görev kenarı %s kaldırılırsa, yabancı nesne görünmez.',
-      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Desteklenmeyen Kapıcı etiketi görüntüleme modu "%s". Desteklenen modlar: %s.',
       'Integration with Asana' => 'Asana ile Entegrasyon',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Kapıcı çalışanı \'%s\' etkin değil.',
       'Object has no followers or active/passive users.' => 'Nesnenin takipçisi veya aktif/pasif kullanıcısı yok.',

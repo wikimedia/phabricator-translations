@@ -832,7 +832,7 @@ final class ArcanistCoreTr
       'Always create a new revision.' => 'Her zaman yeni bir düzeltme oluşturun.',
       'You have incompletely checked out directories in this working copy. Fix them before proceeding.\'' => 'Bu çalışma kopyasındaki dizinleri tamamen teslim aldınız. Devam etmeden önce bunları düzeltin.',
       'Lint for %s:' => '%s için lint:',
-      'Exiting (Idle Limit)' => 'Çıkış (Boşta Limit)',
+      'Exiting (Idle Limit)' => 'Çıkarma (Boşta Sınır)',
       'Classes which should should not be used because they represent the unsafe usage of dynamic strings.' => 'Dinamik dizelerin güvensiz kullanımını temsil ettikleri için kullanılmaması gereken sınıflar.',
       'Expected \'Date:\'.' => 'Beklenen \'Tarih:\'.',
       'Close only if the repository is untracked and the revision is accepted. Continue even if the close can\'t happen. This is a soft version of \'\' used by other workflows.' => 'Yalnızca depo izlenmezse ve düzeltme kabul edilirse kapatın. Kapanış olmasa bile devam et. Bu, diğer iş akışları tarafından kullanılan yumuşak bir \'\' sürümüdür.',

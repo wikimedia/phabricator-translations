@@ -23,7 +23,6 @@ final class PhabricatorSubscriptionsZhHans
       'Remove subscribers' => '移除订阅者',
       'Added Subscribers' => '已添加订阅者',
       'Removed %s subscriber(s): %s.' => '已移除%s个订阅者：%s。',
-      'Unsubscribe' => '取消订阅',
       'Add subscribers: %s.' => '添加订阅者：%s。',
       'Removed Subscribers' => '已移除订阅者',
       'Add me as a subscriber' => '将我添加为订阅者',

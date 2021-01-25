@@ -10,14 +10,12 @@ final class PhabricatorRepositoryTr
   protected function getTranslations() {
     return array(
       'Repository "%s" is a non-hosted Subversion repository, which does not require a local working copy to be pulled.' => '"%s" deposu, yerel bir çalışma kopyasının çekilmesini gerektirmeyen, barındırılmayan bir Alt Sürüm deposudur.',
-      'Specify which steps to reparse with %s, or %s, %s, %s, or %s.' => 'Adımları %s veya %s, %s, %s veya %s ile satın alınacağını belirtin.',
       'Unknown repository type \'%s\'!' => 'Bilinmeyen depo türü \'%s\'!',
       'No importing commits found.' => 'Hiçbir aktarım taahhütü bulunamadı.',
       'The selected repository short name is already in use by another repository. Choose a unique short name.' => 'Seçilen depo kısa adı zaten başka bir depo tarafından kullanılıyor. Benzersiz bir kısa isim seçin.',
       'Waiting to acquire write lock for "%s"...' => '"%s" yazma kilidi almayı bekleniyor...',
       'Push Event' => 'Etkinlik Gönder',
       'This URI will be shown to users as a clone URI.' => 'Bu URI, kullanıcılara klon URI\'si olarak gösterilecektir.',
-      'Expected to find a git repository at \'%s\', but there is an empty directory there. Remove the directory: the daemon will run \'%s\' for you.' => '\'%s\' altında bir git havuzu bulması bekleniyor, ancak orada boş bir dizin var. Dizini kaldırın: arka plan programı sizin için \'%s\' çalıştıracak.',
       'The Almanac service for this repository is not bound to any interfaces.' => 'Bu depo için Almanak hizmeti hiçbir arayüze bağlı değildir.',
       'You have an old version of Mercurial (%s) which has a severe command injection security vulnerability. The remote URI for this repository (%s) is potentially unsafe. Upgrade Mercurial to at least 3.2.4 to clone it.' => 'Ciddi bir komut enjeksiyonu güvenlik açığı olan Mercurial\'ın (%s) eski bir sürümüne sahipsiniz. Bu depo için uzak URI (%s) potansiyel olarak güvensizdir. Klonlamak için Mercurial\'ı en az 3.2.4\'e yükseltin.',
       'Test Repo "%s"' => '"%s" Depoyu Test Et',
@@ -47,7 +45,6 @@ final class PhabricatorRepositoryTr
       'Unable to identify parent "%s"!' => '"%s" üst tanımlanamadı!',
       'branch' => 'dal',
       'Pulling "%s"...' => '"%s" gönderiliyor...',
-      'Unrecognized version control system.' => 'Tanınmayan sürüm kontrol sistemi.',
       'Hosted and Remote Repositories' => 'Barındırılan ve Uzak Depolar',
       'Repository Ref' => 'Depo Kaynağı',
       'Repository "%s" does not exist!' => '"%s" deposu mevcut değil!',
@@ -68,7 +65,6 @@ final class PhabricatorRepositoryTr
       'Oversized' => 'Büyük beden',
       'Skipping, this head is a known commit.' => 'Atlanıyor, bu kafa bilinen bir taahhüttür.',
       '%s changed the display type for this URI from "%s" to "%s".' => '%s bu URI ekran tipini "%s" ile "%s" değiştirdi.',
-      'Remote "origin" exists, but is pointed at the wrong URI, "%s". Resetting origin URI to "%s.' => 'Uzaktan "kaynak" var, ancak yanlış "URI", "%s" işaret ediyor. Menşe URI\'sini "%s" olarak sıfırlanıyor.',
       '%s set the touch limit for this repository to %s paths.' => '%s, bu deponun dokunma sınırını %s getirdi.',
       'Unable to read device public key while attempting to make authenticated method call within the Phabricator cluster. Use `%s` to register keys for this device. Exception: %s' => 'Phabricator kümesi içinde kimliği doğrulanmış yöntem çağrısı yapmaya çalışırken cihazın genel anahtarı okunamıyor. Bu cihazın anahtarlarını kaydetmek için `%s` kullanın. İstisna: %s',
       '%s set the credential for this URI to %s.' => '%s, bu URI için kimlik bilgilerini %s olarak ayarladı.',
@@ -109,7 +105,6 @@ final class PhabricatorRepositoryTr
       'Discovering commits in repository "%s".' => 'Keşif "%s" deposundaki taahhütler.',
       '<Response body omitted from Mercurial error message.>' => '<Mercurial hata mesajından yanıt gövdesi çıkarıldı.>',
       'Push __repository__ to mirrors.' => '__Depoyu__ aynalara doğru gönderin.',
-      'Reevaluate related commits for owners packages (may delete existing relationship entries between your package and some old commits!)' => 'Sahip paketleri için ilgili taahhütleri yeniden değerlendirin (paketiniz ile bazı eski taahhütler arasındaki mevcut ilişki girişlerini silebilir!)',
       'Read Only' => 'Yalnızca Oku',
       'Waiting for updates to complete...' => 'Güncellemelerin tamamlanması bekleniyor...',
       'Push ID' => 'Push Kimliği',
@@ -117,7 +112,6 @@ final class PhabricatorRepositoryTr
       'No Commits' => 'Taahhüt Yok',
       'Commits inherit the policies of the repository they belong to.' => 'Taahhütler ait oldukları depo politikalarını miras kalır.',
       'Found %s feed storie(s).' => '%s besleme hikayesi bulundu.',
-      'Reevaluate Herald rules (may send huge amounts of email!)' => 'Herald kurallarını yeniden değerlendirin (çok miktarda e-posta gönderebilir!)',
       'The name "%s" is not a valid repository short name. Repository short names must not be longer than 64 characters.' => '"%s" adı geçerli bir depo kısa adı değil. Depo kısa isimleri 64 karakterden uzun olmamalıdır.',
       'Skipping fetch because local and remote refs are already identical.' => 'Yerel ve uzak referanslar zaten aynı olduğundan getirme işlemi atlanıyor.',
       'Specify a list of repositories or "--all-repositories", but not both.' => 'Havuzların bir listesini veya "--all-repositories" belirtir, ancak ikisini birden değil.',
@@ -127,18 +121,11 @@ final class PhabricatorRepositoryTr
       'Rebuild identities across all repositories.' => 'Tüm depolarda kimlikleri yeniden oluşturun.',
       '%s ♻ %s' => '%s ♻ %s',
       'Expected a list of hints in JSON format: %s' => 'JSON formatında bir ipucu listesi bekleniyordu: %s',
-      'You must use --all if you specify --min-date
-    e.g.
-      repository reparse --all TEST --owners --min-date yesterday' => '- min-date belirtirseniz --all öğesini kullanmanız gerekir.
-    ör.
-      depo yeniden ayrıştırma --all TEST --owners --min-date dün',
       'Phabricator user: %s' => 'Phabricator kullanıcısı: %s',
       'Not enough process slots to schedule the other %s repository(s) for updates yet.' => 'Henüz güncelleme için diğer %s tutarındaki depoları programlamak için yeterli işlem alanı yok.',
       '%s disabled protection against dangerous changes.' => '%s tehlikeli değişikliklere karşı korumayı devre dışı bıraktı.',
       'Unexpected infinite loop in %s!' => '%s içinde beklenmeyen sonsuz döngü!',
-      'Expected to find a git repository at \'%s\', but there is a file there instead. Remove it and let the daemon clone a repository for you.' => '\'%s\' altında bir git deposu bulması bekleniyor, ancak bunun yerine orada bir dosya var. Onu kaldırın ve arka plan programı sizin için bir depo klonlamasını sağlayın.',
       'You can not change the version control system an existing repository uses. It can only be set when a repository is first created.' => 'Mevcut bir havuzun kullandığı sürüm kontrol sistemini değiştiremezsiniz. Sadece bir depo ilk oluşturulduğunda ayarlanabilir.',
-      'Expected to find a git repository at \'%s\', but there is a non-repository directory (with other stuff in it) there. Move or remove this directory (or reconfigure the repository to use a different directory), and then either clone a repository yourself or let the daemon do it.' => '\'%s\' altında bir git deposu bulması bekleniyor, ancak orada depoda olmayan bir dizin var (içinde başka şeyler var). Bu dizini taşıyın veya kaldırın (veya depoyu farklı bir dizin kullanacak şekilde yeniden yapılandırın) ve sonra bir havuzu kendiniz klonlayın veya arka planın çalışmasına izin verin.',
       'Specify one or more repositories to mark imported.' => 'İçe aktarılmış olarak işaretlemek için bir veya daha fazla depo belirtin.',
       'Query took %s ms.' => 'Sorgu %s aldı.',
       'Will unpublish %s commits.
@@ -162,7 +149,6 @@ final class PhabricatorRepositoryTr
     Supplied value: \'%s\'
     ' => 'Verilen -min-date geçerli değil. Geçerli örnekler için yardıma bakın.
     Verilen değer: \'%s\'',
-      '%s set this repository to autoclose on all branches.' => '%s bu depoyu tüm şubelerde otomatik kapanmaya ayarladı.',
       '(This is a write request.)' => '(Bu bir yazma isteğidir.)',
       'The Almanac service for this repository is not bound to any interfaces which support the required protocols (%s).' => 'Bu depoya yönelik Almanak hizmeti, gerekli protokolleri destekleyen (%s) herhangi bir arayüze bağlı değildir.',
       'Natural SVN root should work properly.' => 'Doğal SVN kökü düzgün çalışması gerekir.',
@@ -173,21 +159,18 @@ final class PhabricatorRepositoryTr
       '%s changed the callsign for this repository from %s to %s.' => '%s, bu depo çağrı işaretini %s ile %s değiştirdi.',
       'The Short Name of the repository in phabricator.' => 'Phabricator\'da deponun Kısa Adı.',
       'Error while updating the "%s" repository.' => '"%s" deposunu güncellerken hata oluştu.',
-      '%s set this repository to autoclose on branches: %s.' => '%s bu depoyu dallarda otomatik kapanma olarak ayarladı: %s.',
       '%s enabled this URI.' => '%s bu URI\'yı etkinleştirdi.',
       'Examining branch "%s" head "%s".' => 'Dal "%s" baş "%s" inceleniyor.',
       'Touches Too Many Paths' => 'Çok Fazla Yol Dokunuyor',
       'Canonical Path (ID, No Callsign): %s' => 'Kanonik Yol (Kimlik, Çağrı Yok): %s',
       '%s removed %s as the assignee of this identity.' => '%s, bu kimliğin devralanı olarak %s kaldırdı.',
       'Destroyed edge of type "%s" between "%s" and "%s".' => '"%2$s" ve "%3$s" arasında "%1$s" türünün kenarı yok edildi.',
-      'Specify --all or a list of repositories, but not both.' => '--all veya depoların listesini belirtin, ancak ikisini birden belirtmeyin.',
       'Show a list of repositories.' => 'Depoların bir listesini göster.',
       'Shows branches a commit appears on in email.' => 'Dallara e-postada bir taahhüt verildiğini gösterir.',
       'Repository "%s" is currently updating.' => '"%s" deposu şu anda güncellenmektedir.',
       'Installing commit hook to "%s"...' => '"%s" taahhüt kancası kuruluyor...',
       '%s changed the "Import Only" path from %s to %s.' => '%s "Sadece İçe Aktar" yolunu %s ile %s değiştirdi.',
       '%s changed tracked branches from %s to %s.' => '%s, izlenen dalları %s ile %s değiştirdi.',
-      'Expected \'%s\' in \'%s\'.' => '\'%2$s\' içinde \'%1$s\' bekleniyor.',
       'Specify a path to look up with `%s`.' => '`%s` ile aramak için bir yol belirtin.',
       'Patch generation took longer than configured limit ("%s") of %s second(s).' => 'Yama oluşturma işlemi %2$s saniye yapılandırılmış sınırdan ("%1$s") daha uzun sürdü.',
       'Some of the selected automation blueprints are invalid or restricted: %s.' => 'Seçilen otomasyon planlarından bazıları geçersiz veya kısıtlanmış: %s.',
@@ -196,7 +179,6 @@ final class PhabricatorRepositoryTr
       'Destroyed transaction "%s" on object "%s".' => '"%2$s" nesnesi üzerindeki "%1$s" işlemi yok edildi.',
       'CHANGES TO REPOSITORY DESCRIPTION' => 'DEPO AÇIKLAMASINDA YAPILAN DEĞİŞİKLİKLER',
       'Updated hint for "%s".' => '"%s" ipucusu güncellendi.',
-      'Reparse all commits in the specified repository. This mode queues parsers into the task queue; you must run taskmasters to actually do the parses. Use with __%s__ to run the tasks locally instead of with taskmasters.' => 'Belirtilen depodaki tüm taahhütleri geri al. Bu mod ayrıştırıcıları görev sırasına sıraya koyar; Ayrıştırmaları yapmak için görev yöneticileri çalıştırmalısınız. Görev yöneticileri yerine görevleri yerel olarak çalıştırmak için __ %s__ ile kullanın.',
       'Pull specific __repositories__ instead of all.' => 'Hepsi yerine belirli __depoları__ çekin.',
       'Failed to create a new ref cursor (for "%s", of type "%s", in repository "%s") because it collided with an existing cursor, but then failed to load that cursor.' => 'Mevcut bir imleçle çarpıştığından yeni bir kaynak imleci oluşturulamadı ("%2$s" türündeki "%1$s", "%2$s" türündeki "%3$s"), ancak imleci yüklenemedi.',
       'Override this identity\'s assignment.' => 'Bu kimliğin görevini geçersiz kıl.',
@@ -212,24 +194,6 @@ final class PhabricatorRepositoryTr
       'Applied changes.' => 'Uygulanan değişiklikler.',
       'Unknown commit "%s"!' => 'Bilinmeyen "%s" taahhüdü!',
       '<%s: %s>' => '<%s: %s>',
-      '%s enabled notifications and publishing for this repository.' => '%s, bu depo için bildirimleri ve yayınlamayı etkinleştirdi.',
-      '**reparse** __what__ __which_parts__ [--trace] [--force]
-    Rerun the Diffusion parser on specific commits and repositories. Mostly useful for debugging changes to Diffusion.
-    e.g. enqueue reparse owners in the TEST repo for all commits:
-    repository reparse --all TEST --owners
-    e.g. do same but exclude before yesterday (local time):
-    repository reparse --all TEST --owners --min-date yesterday
-    repository reparse --all TEST --owners --min-date "today -1 day".
-    e.g. do same but exclude before 03/31/2013 (local time):
-    repository reparse --all TEST --owners --min-date "03/31/2013"' => '**Yeniden inceleme** __parçalar__ [--trace] [--force]
-    Difüzyon çözümleyicisini belirli görevlerde ve depolarda yeniden çalıştırın. Difüzyondaki değişikliklerin hata ayıklaması için çoğunlukla yararlıdır.
-    ör. tüm taahhütler için TEST deposundaki yeniden satın alma sahiplerini isteyin:
-    depo yeniden inceleme --all TEST --owners
-    ör. aynısını yapın, ancak dünden önce hariç tutun (yerel saat):
-    depo yeniden inceleme --all TEST --owners --min-date dün
-    depo yeniden inceleme --all TEST --owners --min-date "bugün -1 gün".
-    ör. aynısını yapın, ancak 31.03.2013 tarihinden önce hariç tutun (yerel saat):
-    depo yeniden inceleme --all TEST --owners --min-date "03/31/2013"',
       'When hinting a commit ("%s") as unreadable, you must not provide a new commit ("%s").' => 'Okunamayan bir taahhüt ("%s") olduğunda, yeni bir taahhüt ("%s") vermemelisiniz.',
       'This script will unpublish all feed stories and notifications which a repository generated during import. This action can not be undone.' => 'Bu betik, içe aktarma sırasında bir deposu oluşturduğu tüm besleme öykülerini ve bildirimlerini yayınlayamaz. Bu işlem geri alınamaz.',
       'dangerous change' => 'tehlikeli değişim',
@@ -247,7 +211,6 @@ final class PhabricatorRepositoryTr
       'Read/Write' => 'Okuma/Yazma',
       'Cluster repository service in Almanac to move repositories into.' => 'Depoları içine taşıma Almanak\'daki küme depo hizmeti.',
       'Write Wait (us)' => 'Bekle Yaz (bize)',
-      'Expected to find repo at \'%s\', but the actual git repository root for this directory is \'%s\'. Something is misconfigured. The repository\'s \'Local Path\' should be set to some place where the daemon can check out a working copy, and should not be inside another git repository.' => '\'%s\' değerinde repo bulunması bekleniyor, ancak bu dizinin gerçek git veri deposu kökü \'%s\'. Bir şey yanlış yapılandırılmış. Deponun \'Yerel Yolu\', arka plan programının çalışan bir kopyayı kontrol edebileceği bir yere ayarlanmalı ve başka bir git deposunun içinde olmamalıdır.',
       'Repositories must have a name.' => 'Depoların bir adı olmalıdır.',
       'This repository request (for repository "%s") has been incorrectly routed to a cluster host (with device name "%s", and hostname "%s") which can not serve the request.
     The Almanac device address for the correct device may improperly point at this host, or the "device.id" configuration file on this host may be incorrect.
@@ -256,7 +219,6 @@ final class PhabricatorRepositoryTr
     Doğru cihaz için Almanak cihazı adresi bu ana makineye uygunsuz şekilde işaret edebilir veya bu ana bilgisayardaki "device.id" yapılandırma dosyası yanlış olabilir.
     Küme içinde Phabricator tarafından yönlendirilen taleplerin her zaman talebe hizmet edebilecek bir düğüme gönderilmesi beklenir. Döngüleri önlemek için bu istek tekrar proksize edilmeyecektir.
     %s',
-      'You are about to recreate the relationship entries between the commits and the packages they touch. This might delete some existing relationship entries for some old commits.' => 'Taahhütler ve dokundukları paketler arasındaki ilişki girişlerini yeniden yaratmak üzeresiniz. Bu, bazı eski taahhütler için varolan ilişki girişlerini silebilir.',
       'Do not perform discovery.' => 'Keşif yapmayın.',
       'Cache returned bogus result!' => 'Önbellek sahte sonuç döndürdü!',
       'COMMITS' => 'TAAHHÜTLER',
@@ -287,13 +249,11 @@ final class PhabricatorRepositoryTr
       'True if the commit is fully imported.' => 'Tamamen içe aktarılırsa geçerlidir.',
       'Create Identity' => 'Kimlik Oluştur',
       'Edit Identity: %s' => 'Kimlik Düzenlemesi: %s',
-      'QUEUEING TASKS (%s Commit(s)):' => 'KUYRUK GÖREVLERİ (%s Taahhüt):',
       'Demoted "%s" from leadership of repository "%s".' => '"%2$s" deposunun liderliğinden "%1$s" indirildi.',
       'Show simpler output.' => 'Daha basit çıkışı göster.',
       'Scheduling repository "%s" with an update window of %s second(s). Last update was %s second(s) ago.' => '%2$s bir güncelleme penceresi ile "%1$s" deposunun planlanması. Son güncelleme %s saniye önce yapıldı.',
       '%s disabled protection against enormous changes.' => '%s muazzam değişikliklere karşı korumayı devre dışı bıraktı.',
       'Rewrite' => 'Yeniden yaz',
-      'Unknown URI type "%s"!' => 'Bilinmeyen URI türü "%s"!',
       '%s changed the touch limit for this repository from %s paths to %s paths.' => '%s, bu deponun dokunma sınırını %s ile %s değiştirdi.',
       'Canonical Path (ID, Callsign): %s' => 'Kanonik Yol (Kimlik, Çağrı Arası): %s',
       'Replace matching prefixes with this string.' => 'Eşleşen önekleri bu dizeyle değiştirin.',
@@ -336,7 +296,6 @@ final class PhabricatorRepositoryTr
       '%s set the default branch to %s.' => '%s, varsayılan dalı %s olarak ayarlardı.',
       'Test Repo' => 'Test Deposu',
       'This repository does not support Git LFS, so Git LFS URIs can not be generated for it.' => 'Bu depo Git LFS\'yi desteklemiyor, bu nedenle Git LFS URI\'ları bunun için oluşturulamıyor.',
-      'Remote "origin" does not exist. Creating "origin", with URI "%s".' => 'Uzak "origin" yok. URI "%s" ile "origin" oluşturuyor.',
       'No test data for callsign \'%s\'. Expected an archive like \'%s\' in \'%s\'.' => '\'%s\' çağrısı için test verisi yok. \'%3$s\' içinde \'%2$s\' gibi bir arşiv bekleniyordu.',
       'Parsing "%s"...' => '"%s" ayrıştırılıyor...',
       'Pull Event %d' => '%s Etkinliği Gönder',
@@ -345,7 +304,6 @@ final class PhabricatorRepositoryTr
       '%s Commit(s)' => '%s Taahhüt',
       'The Almanac service for this repository does not have the correct service type.' => 'Bu depo Almanak servisi doğru servis tipine sahip değil.',
       'The commit message.' => 'Taahhüt mesajı.',
-      '%s enabled autoclose for this repository.' => '%s Bu depoyu etkinleştirilmiş otomatik kapanmayı etkinleştirdi.',
       '%s set storage for this repository to %s.' => 'Bu depo için %s depolama alanını %s olarak ayarladı.',
       'Examining commit %s...' => '%s taahhüttü inceleniyor...',
       'Raw committer string: %s' => 'Ham tüketici dizesi: %s',
@@ -355,9 +313,7 @@ final class PhabricatorRepositoryTr
       'The name "%s" is not a valid repository short name. Repository short names may not contain only numbers.' => '"%s" adı geçerli bir depo kısa adı değil. Depo kısa isimleri sadece rakam içermeyebilir.',
       'Phabricator is running in silent mode; declining to mirror.' => 'Phabricator sessiz modda çalışıyor; aynaya düşüyor.',
       'Error while pushing "%s" repository to mirrors.' => '"%s" deposunu yansıtmalara iterken hata oluştu.',
-      '%s changed autoclose branches from %s to %s.' => '%s, otomatik kapanış dallarını %s ile %s değiştirdi.',
       'SSH' => 'SSH',
-      'Normalized SVN path for "%s".' => '"%s" için normalleştirilmiş SVN yolu.',
       'Service "%s" is actively bound to more than one device (%s).' => '"%s" hizmeti aktif olarak birden fazla cihaza bağlı (%s).',
       'Artificial SVN root should fail.' => 'Yapay SVN kökü başarısız olmalı.',
       'No device or service named "%s" exists.' => '"%s" adlı bir cihaz veya servis mevcut değil.',
@@ -375,9 +331,6 @@ final class PhabricatorRepositoryTr
       'No repositories need updates right now, sleeping...' => 'Depoların şu anda güncellemeye ihtiyacı yok, uyuyor...',
       'A repository\'s sync events are visible to users who can see the repository.' => 'Bir deponun senkronizasyon etkinlikleri, depoyu görebilen kullanıcılar tarafından görülebilir.',
       'Unknown SVN file kind \'%s\'.' => 'Bilinmeyen SVN dosyası türü \'%s\'.',
-      '**NOTE**: This script will queue tasks to reparse the data. Once the tasks have been queued, you need to run Taskmaster daemons to execute them.
-    %s' => '**NOT**: Bu betik verileri yeniden almak için görevleri sıraya koyar. Görevler kuyruğa alındıktan sonra, yürütmek için Taskmaster arka planlarını çalıştırmanız gerekir.
-    %s',
       'Unknown hosted failed \'%s\'!' => 'Bilinmeyen barındırılan \'%s\' başarısız!',
       'Looking for new commits.' => 'Yeni taahhütler aranıyor.',
       'The Almanac Service that hosts this repository, if the repository is clustered.' => 'Depo kümelenmişse, bu depoya ev sahipliği yapan Almanak Hizmeti.',
@@ -390,7 +343,6 @@ final class PhabricatorRepositoryTr
       '%s set the short name of this repository to %s.' => '%s bu deponun kısa adını %s olarak ayarladı.',
       'Move paths with this prefix.' => 'Bu öneki olan yolları taşıyın.',
       'Repository "%s" is not due for an update for %s second(s).' => '"%s" deposu, %s saniyeye bir güncellemeye kaynaklanmadı.',
-      'Normalized Git path for "%s".' => '"%s" normalleştirilmiş Git yolu.',
       'Phabricator will observe changes to this URI and copy them.' => 'Phabricator bu URI\'de yapılan değişiklikleri gözlemleyecek ve kopyalayacaktır.',
       'Repository "%s" is already importing.' => '"%s" deposu zaten içe aktarılıyor.',
       '%s removed %s as the "Import Only" path.' => '%s, "Yalnızca İçe Aktar" yolu olarak %s kaldırdı.',
@@ -439,7 +391,6 @@ final class PhabricatorRepositoryTr
       'Removed repository "%s" from cluster service.' => 'Küme hizmetinden "%s" deposu kaldırıldı.',
       'Ref Type' => 'Kaynak Türü',
       '%s changed this URI from "%s" to "%s".' => '%s bu URI\'yi "%s" ile "%s" değiştirdi.',
-      'Unable to load commit data. The data for this task is invalid or no longer exists.' => 'Taahhüt verisi yüklenemiyor. Bu görevin verileri geçersiz veya artık yok.',
       'Track all branches by default.' => 'Tüm dalları varsayılan olarak izleyin.',
       'Expected exactly one archive matching callsign \'%s\', found too many: %s' => 'Tam olarak bir arşiv eşleştirme araması olan \'%s\' bekleniyordu, çok fazla bulundu: %s',
       'Do not track unlisted branches.' => 'Listelenmemiş dalları izlemeyin.',
@@ -454,7 +405,6 @@ final class PhabricatorRepositoryTr
       'Unknown repository "%s"!' => 'Bilinmeyen depo "%s"!',
       'Promoted "%s" to become a leader for "%s".' => '"%2$s" lider olmak üzere "%1$s" terfi edildi.',
       'This audit is attached to a commit, and inherits its policies.' => 'Bu denetim bir taahhüde eklenir ve politikalarını devralır.',
-      'Are you ready to continue?' => 'Devam etmeye hazır mısın?',
       'Phabricator will not push or pull any changes to this URI.' => 'Phabricator bu URI\'de herhangi bir değişikliği zorlamaz veya çekmez.',
       'Search for repositories by clone/checkout URI.' => 'Klonlama/satın alma URI\'si ile depoları arayın.',
       'Error updating working copy: %s' => 'Çalışma kopyası güncellenirken hata oluştu: %s',
@@ -523,23 +473,18 @@ final class PhabricatorRepositoryTr
       'Write hints about unusual (rewritten or unreadable) commits.' => 'Olağandışı (yeniden yazılmış veya okunamayan) taahhütler hakkında ipucu yazın.',
       'The VCS this repository uses ("git", "hg" or "svn").' => 'VCS bu depoyu kullanır ("git", "hg" veya "svn").',
       'Rejected: Touches Too Many Paths' => 'Reddedildi: Çok Fazla Yere Dokunuyor',
-      'Only used with __%s__, use this to make sure any pertinent diffs are closed regardless of configuration.' => 'Yalnızca __ %s__ ile kullanılır, yapılandırmaya bakılmaksızın ilgili farkların kapatıldığından emin olmak için bunu kullanın.',
       '%s changed %s automation blueprint(s), added %s: %s; removed %s: %s.' => '%s, %s otomasyon planını değiştirdi, %s: %s eklendi; %s: %s kaldırıldı.',
       'Specify one or more repositories to clusterize.' => 'Kümelenecek bir veya daha fazla depo belirtin.',
       'Skipping, this is not a commit.' => 'Atlanıyor, bu bir taahhüt değil.',
       'Unable to parse touch limit, specify a positive number of paths.' => 'Dokunma sınırı ayrıştırılamıyor, pozitif bir yol sayısı belirtin.',
       'REFERENCES' => 'KAYNAKLAR',
       'Skipping forced out-of-sync update because the last update was too recent (%s seconds ago).' => 'Son güncelleme çok yakın olduğu için senkronizasyon dışı bırakılmış güncelleme işleminin atlanması (%s saniye önce).',
-      '%s disabled notifications and publishing for this repository.' => '%s, bu depo bildirimleri ve yayınlamayı devre dışı bıraktı.',
       'Create a new Subversion repository.' => 'Yeni bir Subversion deposu oluşturun.',
-      'Reparse changes.' => 'Değişiklikleri geri al.',
-      'Working copy at "%s" has a mismatched origin URI, "%s". The expected origin URI is "%s". Fix your configuration, or set the remote URI correctly. To avoid breaking anything, Phabricator will not automatically fix this.' => '"%s" altında çalışan kopyada, "%s" eşleşmeyen bir kökeni URI\'sı var. Beklenen kökenli URI "%s"\'dır. Yapılandırmanızı düzeltin veya uzak URI\'yi doğru şekilde ayarlayın. Hiçbir şeyi kırmamak için, Phabricator bunu otomatik olarak düzeltmez.',
       'Information about the current audit status.' => 'Mevcut denetim durumu hakkında bilgi.',
       'Another process is currently discovering repository "%s", skipping discovery.' => 'Başka bir işlem şu anda keşfi atlayarak, "%s" deposunu keşfediyor.',
       'Sync Event' => 'Etkinliği Senkronize Et',
       'All Push Logs' => 'Tüm Push Günlükleri',
       'Query repositories.' => 'Sorgu depoları.',
-      'Expected to find a git repository at \'%s\', but did not.' => '\'%s\' altında bir git deposu bulması bekleniyor, ancak bulunamadı.',
       'Failed to parse line \'%s\'.' => '\'%s\' satırı ayrıştırılamadı.',
       'No local path is configured for repository "%s".' => '"%s" deposu için hiçbir yerel yol yapılandırılmamış.',
       'Not found in graph cache.' => 'Grafik önbelleğinde bulunamadı.',
@@ -562,16 +507,12 @@ final class PhabricatorRepositoryTr
       '%s disabled this URI.' => '%s bu URI\'yı devre dışı bıraktı.',
       'Expect %s to exist as a foreign stub.' => 'Yabancı bir taslağı olarak var olmak için %s bekliyor.',
       'A repository callsign must be at least one character long.' => 'Depo çağrısı en az bir karakter uzunluğunda olmalıdır.',
-      'Only used with __%s__, use this to run the tasks locally instead of deferring them to taskmaster daemons.' => 'Yalnızca __ %s__ ile kullanıldığında, görev yöneticisi görevlilerine ertelemek yerine, görevleri yerel olarak çalıştırmak için bunu kullanın.',
       'Marking repository "%s" as imported.' => '"%s" deposunu içe aktarılmış olarak işaretleniyor.',
       'Callsigns' => 'Çağrı işareti',
-      'Choosing steps with %s conflicts with flags which select specific steps.' => '%s olan basamakları seçmek, belirli adımları seçen bayraklarla çakışıyor.',
       'Error While Initializing Repository' => 'Depo Başlatılırken Hata Oluştu',
       '%s moved storage for this repository from %s to local.' => '%s bu depo için depolamayı %s ile yerel değere taşıdı.',
       'Apply these changes?' => 'Bu değişiklikleri uygulasın mı?',
-      '%s disabled autoclose for this repository.' => '%s bu depoyu otomatik kapatmayı devre dışı bırakıldı.',
       'Commit "%s" has edge of type "%s" to object "%s".' => '"%s" taahhüt, "%3$s" nesnesine "%2$s" tipinde bir kenara sahiptir.',
-      'Expected to find a Git working copy at path "%s", but the path exists and is not a valid working copy. If you remove this directory, the daemons will automatically recreate it correctly. Phabricator will not destroy the directory for you because it can not be sure that it does not contain important data.' => 'Git çalışan bir kopyayı "%s" yolunda bulmayı bekleniyor, ancak yol var ve geçerli bir çalışma kopyası değil. Bu dizini kaldırırsanız, arka plan programları otomatik olarak doğru şekilde yeniden oluşturulur. Phabricator sizin için dizini imha etmeyecektir, çünkü önemli veri içermediğinden emin olamaz.',
       'The remote URI is not formatted correctly. Remote URIs with an explicit protocol should be in the form \'%s\', not \'%s\'. The \'%s\' syntax is only valid in SCP-style URIs.' => 'Uzak URI doğru biçimlendirilmemiş. Açık bir protokol içeren uzak URI\'lar \'%2$s\' değil, \'%1$s\' şeklinde olmalıdır. \'%s\' sözdizimi yalnızca SCP stili URI\'lerde geçerlidir.',
       'Inactive Repositories' => 'Etkin Olmayan Depolar',
       'Unable to read device private key while attempting to make authenticated method call within the Phabricator cluster. Use `%s` to register keys for this device. Exception: %s' => 'Phabricator kümesinde kimliği doğrulanmış yöntem çağrısı yapmaya çalışırken özel anahtarı okuyamıyor. Bu cihazın anahtarlarını kaydetmek için `%s` kullanın. İstisna: %s',

@@ -17,7 +17,6 @@ final class PhabricatorAuditZhHant
       'A commit\'s projects change.' => '提交的專案更改。',
       '%s added subscribers: %s.' => '%s添加了訂閱者：%s。',
       'Query audit requests.' => '查詢稽查請求。',
-      'COMMIT' => '提交',
       'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => '指定「--all」來影響所有內容，或著是指定別的提交清單、版本庫來影響。',
       'Update all commits in all repositories.' => '更新在所有版本庫的所有提交。',
       '%s added subscribers...' => '%s添加了訂閱者…',

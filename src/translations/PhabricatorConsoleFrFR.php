@@ -11,7 +11,6 @@ final class PhabricatorConsoleFrFR
     return array(
       'Listener Class' => 'Classe d’écouteur',
       'Profiling was not enabled for this page. Use the button above to enable it.' => 'Le profilage n’a pas été activé pour cette page. Utiliser le bouton ci-dessus pour l’activer.',
-      'Event Type' => 'Type d’événement',
       'Internal ID' => 'ID interne',
       'Error Log (%d)' => 'Journal des erreurs (%s)',
       'Debugging console for real-time notifications.' => 'Console de débogage pour les notifications en temps réel.',

@@ -36,7 +36,6 @@ final class PhabricatorMacroKoKR
       'Macro' => '매크로',
       'Edit Audio' => '오디오 편집',
       'Create Macro' => '매크로 만들기',
-      'Behavior' => '동작',
       'Macro name.' => '매크로 이름입니다.',
       '%s disabled the audio for %s.' => '%s님이 %s의 오디오를 비활성화했습니다.',
       'Macro "%s"' => '매크로 "%s"',

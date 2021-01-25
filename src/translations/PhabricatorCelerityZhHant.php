@@ -24,7 +24,6 @@ final class PhabricatorCelerityZhHant
       'Rebuilt "%s" syntax CSS.' => '重新建置「%s」語法 CSS。',
       'CSS file \'%s\' has unknown variable \'%s\'.' => 'CSS 檔案「%s」有未知的變數「%s」。',
       'Literal %s is not allowed inside inline script.' => '在行內手稿不允許逐字%s。',
-      'Binary' => '二進位',
       'Use Red/Green (Deuteranopia) Colors' => '使用紅/綠（綠色盲）色彩',
       'Resource "%s" must %s at most one Celerity target.' => '資源「%s」必須%s在至少一個 Celerity 目標。',
       'Cycle detected in resource graph: %s' => '在資源圖表偵測到的循環：%s',

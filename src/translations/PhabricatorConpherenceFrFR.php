@@ -24,7 +24,6 @@ final class PhabricatorConpherenceFrFR
       'New Message' => 'Nouveau message',
       '%s renamed this room from %s to %s.' => '%s a renommé cette pièce de %s en %s.',
       'Conpherence Threads' => 'Fils de Conpherence',
-      'Bing' => 'Bing',
       'Log In to Participate' => 'Se connecter pour participer',
       'Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user.' => 'Requêtes pour les fils de Conpherence pour l’utilisateur connecté. Vous pouvez rechercher par ID ou PHID pour des fils de Conpherence spécifiques. Sinon, spécifier la limite et le décalage pour interroger les Conpherences les plus récemment mises à jour pour l’utilisateur connecté.',
       'Create a Room' => 'Créer une pièce',

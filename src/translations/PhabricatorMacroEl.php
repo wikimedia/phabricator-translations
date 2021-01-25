@@ -48,7 +48,6 @@ final class PhabricatorMacroEl
       'Macro' => 'Macro',
       'Edit Audio' => 'Επεξεργασία ήχου',
       'Create Macro' => 'Δημιουργία ενός Macro',
-      'Behavior' => 'Συμπεριφορά',
       'Macro name.' => 'Όνομα Macro',
       '%s disabled the audio for %s.' => 'Ο %s απενεργοποίησε τον ήχο για το %s.',
       'Macro "%s"' => '"%s" του Macro',

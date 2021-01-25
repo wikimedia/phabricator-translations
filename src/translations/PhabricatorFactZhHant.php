@@ -13,7 +13,6 @@ final class PhabricatorFactZhHant
       'Iterator \'%s\' does not exist.' => '疊代器「%s」不存在。',
       'Manually invoke fact analyzers.' => '手動調用實情分析器。',
       'No fact engines support generating facts for this object.' => '沒有支援此對象來產生實情的實情引擎。',
-      'Y-Axis' => 'Y 軸',
       'Executing a fact query requires facts.' => '執行實情查詢需要有實情。',
       'Process only iterator __name__.' => '僅處理疊代器 __name__。',
       'Cursor %s does not exist or is already reset.' => '游標%s不存在或是已被重新設定。',
@@ -21,12 +20,10 @@ final class PhabricatorFactZhHant
       'Fact Extraction Report' => '實情提取報告',
       'Dimension' => '尺寸',
       'Processing %s...' => '正在處理%s…',
-      'Zzz...' => 'Zzz...',
       'No Stored Datapoints' => '未有存儲的資料點',
       '%sms' => '%s ms',
       'Processing cursor \'%s\'.' => '正在游標「%s」…',
       'Show a list of fact engines.' => '顯示實情引擎清單。',
-      'Chart' => '圖表',
       'Chart and Analyze Data' => '圖表與分析資料',
       'Really destroy all facts? They will need to be rebuilt through analysis, which may take some time.' => '確定要銷毀所有實情？這些會需要透過分析來重新建置，並且會耗費一些時間。',
       '%s (Transactions)' => '%s（處理次數）',
@@ -44,9 +41,7 @@ final class PhabricatorFactZhHant
       'Unknown fact ("%s") for engine "%s".' => '引擎「%2$s」的未知實情（「%1$s」）',
       'Fact "%s"' => '實情「%s」',
       'Consistent Fact' => '實情一致',
-      'Count of %s' => '%s計數',
       'Not Generated' => '未產生',
-      'Plot Chart' => '繪線圖',
     );
   }
 

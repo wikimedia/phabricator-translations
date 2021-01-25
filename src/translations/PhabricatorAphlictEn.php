@@ -29,7 +29,6 @@ final class PhabricatorAphlictEn
       'Server exited!' => 'Server exited!',
       'Start the notifications server in the foreground and print large volumes of diagnostic information to the console.' => 'Start the notifications server in the foreground and print large volumes of diagnostic information to the console.',
       'A specified server (at index "%s", on port "%s") has an invalid type ("%s"). Valid types are: admin, client.' => 'A specified server (at index "%s", on port "%s") has an invalid type ("%s"). Valid types are: admin, client.',
-      'No user with username "%s" exists.' => 'No user with username "%s" exists.',
       'Configuration file specifies cluster peer "%s" more than once (at indexes "%s" and "%s"). Each peer must have a unique host and port combination.' => 'Configuration file specifies cluster peer "%s" more than once (at indexes "%s" and "%s"). Each peer must have a unique host and port combination.',
       'Show the status of the notification server.' => 'Show the status of the notification server.',
       'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.',

@@ -19,23 +19,6 @@ final class PhabricatorSettingsZhHans
       'Page Titles' => '页面标题',
       'Personal Account Settings' => '个人账户设置',
       'ISO 8601: 2000-02-28' => 'ISO 8601：2000-02-28',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => '许多文本编辑器可以被配置成特殊协议的 URI 处理器如 `editor://`。如果你有这样的编辑器，Phabricator 可以生成链接以便你在本地点击打开文件。
-    支持这些特殊的变量：
-    | 值       | 替换为 |
-    |-------|---------------|
-    | `%%f`   | 文件名 |
-    | `%%l`   | 行号 |
-    | `%%r`   | 仓库呼号 |
-    | `%%%%` | 文字 `%%` |
-    有关编辑器配置的完整说明，查看 **[[ %s | %s ]]**。',
       'Global Default Settings' => '全域默认设置',
       'Self Actions' => '自身操作',
       'Choose which language you would like the Phabricator UI to use.' => '选择您希望 Phabricator 用户界面使用的语言。',
@@ -50,7 +33,6 @@ final class PhabricatorSettingsZhHans
       'On Small Screens' => '在小屏幕上',
       'A verification email has been sent. Click the link in the email to verify your address.' => '一封验证邮件已经被发送。点击邮件中的链接以验证你的邮箱地址。',
       'Enable Email Notifications' => '启用电子邮件通知',
-      'Edit Multiple Files' => '编辑多个文件',
       'Edit global default settings for all users.' => '编辑所有用户的全域默认设置。',
       'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
     | Setting                | Example Mail Subject
@@ -64,7 +46,6 @@ final class PhabricatorSettingsZhHans
       'No settings panels are available.' => '无可用设置面板。',
       'Empty string is not a valid setting for "%s".' => '空字符串不是一个对“%s”有效的设置。',
       'Adjust Timezone' => '调整时区',
-      'Show Filetree' => '显示文件树',
       '%s updated her profile' => '%s 更新了她的个人资料',
       'Add Contact Number' => '添加联系人号码',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
@@ -167,13 +148,11 @@ final class PhabricatorSettingsZhHans
     这些参数设置**只**应用到您连接的对象（例如，你是评审人的修订或 CC 您的任务））。要在其他对象创建时接收电子邮件通知，请配置[[ /herald/ | 传令规则 ]]。',
       'You must enter your current password.' => '您必须输入正确的密码。',
       'Europe: 28-02-2000' => '欧洲：28-02-2000',
-      'Enable Filetree' => '启用文件树',
       'The old password you entered is incorrect.' => '您输入的旧密码不正确。',
       '◐ Notify' => '◐通知',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => '此浏览器已拒绝为此Phabricator实例发送桌面通知。请参考您的浏览器设置/文档，了解如何清除此设置，然后重新访问此页面以获得许可。',
       '%s updated his profile' => '%s 更新了他的个人资料',
       'You can change your date and time preferences in Settings.' => '您可以在设置中变更您的日期和时间参数设置。',
-      'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => '一些编辑器支持通过单一 URI 打开多个文件。您可以在这里指定您的编辑器行为。',
       'Timezone Calibrated' => '已校准时区',
       'Limited Translations' => '有限翻译',
       'Email Delivery' => '电子邮件投递',
@@ -188,7 +167,6 @@ final class PhabricatorSettingsZhHans
       'DarkConsole' => 'DarkConsole',
       'Filetree Width' => '文件树宽度',
       'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator 通常在大屏幕上以并排布局显示差异并自动在小屏幕（如手机）上切换到统一化视图。如果您即使在大屏幕上也更喜欢统一化的差异，您可以选择在所有显示器上使用它们。',
-      'Supported, Separated by Spaces' => '支持，以空格分割',
       'Search Scope' => '搜索范围',
       'Email Preferences' => '电子邮件参数设置',
       'You don\'t have any active tokens.' => '你没有任何活跃令牌。',
@@ -198,7 +176,6 @@ final class PhabricatorSettingsZhHans
     //You will still receive some administrative email, like password reset email.//' => '如果你禁用**邮件通知**，Phabricator 将永远不会发送提醒事件的邮件。这个设置会覆盖所有其他设置。',
       'Disable "Re:" Prefix' => '禁用“Re:”前缀',
       'Conpherence Widget Pane Visible' => 'Conpherence 小工具面板可见',
-      'Disable Filetree' => '禁用文件树',
       'Disable Email Notifications' => '禁用电子邮件通知',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator在页面标题中使用unicode字形，以提供当前应用的紧凑实现。如果字形在您的系统不显示，您可以替换成纯文本。',
       'Expired' => '已过期',
@@ -208,7 +185,6 @@ final class PhabricatorSettingsZhHans
       'Your password is currently hashed using an algorithm which is no longer available on this install.' => '你的密码当前使用了一个在当前安装中不再可用的算法进行了哈希。',
       'Send HTML Email' => '发送 HTML 电子邮件',
       'Translation' => '翻译',
-      'UTC+%d' => 'UTC+%s',
       'Settings %d' => '设置%s',
       'Time Format' => '时间格式',
       'Permission for desktop notifications was denied. Only application notifications will be sent.' => '桌面通知的权限被拒绝。只会发送应用程序通知。',
@@ -243,7 +219,6 @@ final class PhabricatorSettingsZhHans
       'Click "Save Preference" to persist these changes.' => '点击“保存设置”以持久化这些变更。',
       'Week Starts On' => '周始于',
       'Remove Factor' => '移除因素',
-      'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => '编辑器链接有一个无效或缺失的协议。您必须使用 %s 列表中的白名单编辑协议。要添加协议，请在配置中更新 "%s"。',
       'Your account does not currently have a password set. You can choose a password by performing a password reset.' => '您的账户目前没有设置密码。您可以通过执行密码重置来选择密码。',
       'Disabled (an administrator has disabled login for this account provider).' => '已禁用 (管理员已经禁用了此帐户提供者的登录)。',
       'If you change your primary address, Phabricator will send all email to %s.' => '如果您更改了您的主要地址，Phabricator将会把所有的电子邮件都发送到 %s。',
@@ -272,9 +247,7 @@ final class PhabricatorSettingsZhHans
       'Pinned Applications' => '固定的应用',
       'Revoke All' => '吊销所有',
       'No settings panel group with key "%s" exists!' => '不存在关键字为“%s”的设置面板组！',
-      'When viewing a revision or commit, you can enable a sidebar showing affected files. When this option is enabled, press {nav %s} to show or hide the sidebar.' => '当查看一个修订或提交时，你可以启用一个侧边栏显示受影响的文件。此选项被启用后，点击 {nav %s} 来显示或隐藏侧边栏。',
       'Linked Accounts and Authentication' => '关联帐户并认证',
-      'UTC-%d' => 'UTC-%s',
       'Choose the pronoun you prefer.' => '选择您喜欢的称谓。',
       'Conflict Ignored' => '已忽略冲突',
       'This engine is used to edit settings.' => '此引擎是用来编辑设置的。',

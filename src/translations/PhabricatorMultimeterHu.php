@@ -14,7 +14,6 @@ final class PhabricatorMultimeterHu
       '(All)' => '(mind)',
       'Samples (%s - %s)' => 'példák (%s - %s)',
       'By ID' => 'ID szerint',
-      'Cost' => 'Költség',
       '%s Unit(s)' => '%s egység(ek)',
       'By Request' => 'kérés szerint',
       'By Host' => 'kiszolgáló szerint',

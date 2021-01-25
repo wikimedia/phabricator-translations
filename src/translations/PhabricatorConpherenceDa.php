@@ -14,7 +14,6 @@ final class PhabricatorConpherenceDa
       'Leave Room' => 'Forlad rum',
       'All Rooms' => 'Alle rum',
       'New Message' => 'Ny besked',
-      'Bing' => 'Bing',
       'Log In to Participate' => 'Log på for at deltage',
       'Create a Room' => 'Opret et rum',
       '%s left the room.' => '%s forlod rummet.',

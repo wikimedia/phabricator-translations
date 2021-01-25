@@ -17,7 +17,6 @@ final class PhabricatorAuditAf
       'A commit\'s projects change.' => 'A commit se projekte verander.',
       '%s added subscribers: %s.' => 'Intekenare by %s bygevoeg:%s.',
       'Query audit requests.' => 'Navrae-ouditversoeke.',
-      'COMMIT' => 'Pleeg',
       'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => 'Spesifiseer "- alles" om alles te beïnvloed, of \'n lys met spesifieke verbindings of bewaarplekke om te beïnvloed.',
       'Update all commits in all repositories.' => 'Dateer alle opdragte in alle bewaarplekke op.',
       '%s added subscribers...' => 'Intekenare bygevoeg met %s...',

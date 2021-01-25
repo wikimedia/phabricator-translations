@@ -16,6 +16,7 @@ final class PhabricatorDoorkeeperEn
     NOTE: This feature is new and experimental.',
       'JIRA %s %s' => 'JIRA %s %s',
       'Workspace ID' => 'Workspace ID',
+      'DoorkeeperURIRef display mode "%s" is unknown.' => 'DoorkeeperURIRef display mode "%s" is unknown.',
       '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.',
       'Using publisher \'%s\'.' => 'Using publisher \'%s\'.',
       'Connect to Other Software' => 'Connect to Other Software',
@@ -44,6 +45,7 @@ final class PhabricatorDoorkeeperEn
       'Story is about an unsupported object type.' => 'Story is about an unsupported object type.',
       'No JIRA provider configured.' => 'No JIRA provider configured.',
       '%s could not be loaded.' => '%s could not be loaded.',
+      'Expected "getDoorkeeperURIRef()" to return "null" or an object of type "DoorkeeperURIRef", but got %s from provider "%s".' => 'Expected "getDoorkeeperURIRef()" to return "null" or an object of type "DoorkeeperURIRef", but got %s from provider "%s".',
       'External Object' => 'External Object',
       'JIRA %s' => 'JIRA %s',
       'Asana Task %s' => 'Asana Task %s',
@@ -55,7 +57,6 @@ final class PhabricatorDoorkeeperEn
     ☠ Your changes will not be reflected in Phabricator.
     ☠ Your changes will be destroyed the next time state is synchronized.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Removing subtask edge to %s, foreign object is not visible.',
-      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => 'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.',
       'Integration with Asana' => 'Integration with Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Doorkeeper worker \'%s\' is not enabled.',
       'Object has no followers or active/passive users.' => 'Object has no followers or active/passive users.',
@@ -74,6 +75,7 @@ final class PhabricatorDoorkeeperEn
       }
     ',
       'Synchronization of child task from Asana failed!' => 'Synchronization of child task from Asana failed!',
+      'Expected external Asana account to have exactly one external account identifier, found %s.' => 'Expected external Asana account to have exactly one external account identifier, found %s.',
       'Story is about an object with no linked JIRA issues.' => 'Story is about an object with no linked JIRA issues.',
       'GitHub User %s' => 'GitHub User %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".',

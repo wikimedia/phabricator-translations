@@ -11,7 +11,6 @@ final class PhabricatorConsoleTr
     return array(
       'Listener Class' => 'Dinleyici Sınıfı',
       'Profiling was not enabled for this page. Use the button above to enable it.' => 'Profil oluşturma bu sayfa için etkinleştirilmedi. Etkinleştirmek için yukarıdaki düğmeyi kullanın.',
-      'Event Type' => 'Etkinlik Tipi',
       'Internal ID' => 'Dahili Kimlik',
       'Error Log (%d)' => 'Hata Günlüğü (%s)',
       'Debugging console for real-time notifications.' => 'Gerçek zamanlı bildirimler için hata ayıklama konsolu.',

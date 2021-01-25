@@ -54,7 +54,6 @@ final class PhabricatorMacroFrFR
       'Edit Audio' => 'Modifier le clip audio',
       'Failed to imagecreatefromstring() image template data.' => 'Échec de imagecreatefromstring() avec les données du modèle d’image.',
       'Create Macro' => 'Créer une macro',
-      'Behavior' => 'Comportement',
       'Macro name.' => 'Nom de la macro.',
       '%s disabled the audio for %s.' => '%s a désactivé le son pour %s.',
       'Macro name "%s" be: at least three characters long; and contain only lowercase letters, digits, hyphens, colons, underscores, and emoji; and not be composed entirely of latin symbols.' => 'Le nome de macro « %s » doit être: d\'au moins trois caractères de long; et ne contenir que des lettres minuscules, des chiffres, des tirets, des points, des soulignés, ou des emojis; et ne peut pas être composé entièrement de symboles latins.',

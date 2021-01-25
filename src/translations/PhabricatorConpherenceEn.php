@@ -24,7 +24,6 @@ final class PhabricatorConpherenceEn
       'New Message' => 'New Message',
       '%s renamed this room from %s to %s.' => '%s renamed this room from %s to %s.',
       'Conpherence Threads' => 'Conpherence Threads',
-      'Bing' => 'Bing',
       'Log In to Participate' => 'Log In to Participate',
       'Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user.' => 'Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user.',
       'Create a Room' => 'Create a Room',

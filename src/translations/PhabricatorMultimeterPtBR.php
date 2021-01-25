@@ -15,7 +15,6 @@ final class PhabricatorMultimeterPtBR
       'Epoch' => 'Época',
       'Performance Sampler' => 'Amostrador de desempenho',
       'Rate' => 'Taxa',
-      'Cost' => 'Custo',
       'By Host' => 'Por host',
       'Web Request' => 'Solicitação da Web',
       'Avg' => 'Média',

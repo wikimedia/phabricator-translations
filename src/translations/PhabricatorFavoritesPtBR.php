@@ -11,7 +11,6 @@ final class PhabricatorFavoritesPtBR
     return array(
       'Edit Favorites' => 'Editar favoritos',
       'Favorite Items' => 'Itens Favoritos',
-      'Favorites Menu' => 'Menu de favoritos',
     );
   }
 

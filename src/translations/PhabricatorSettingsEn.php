@@ -14,28 +14,12 @@ final class PhabricatorSettingsEn
       'Default (%s)' => 'Default (%s)',
       'You haven\'t added any contact numbers to your account.' => 'You haven\'t added any contact numbers to your account.',
       'Conpherence Column Visible' => 'Conpherence Column Visible',
+      'External Editor' => 'External Editor',
       'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.' => 'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.',
       'Choose Factor Type' => 'Choose Factor Type',
       'Page Titles' => 'Page Titles',
       'Personal Account Settings' => 'Personal Account Settings',
       'ISO 8601: 2000-02-28' => 'ISO 8601: 2000-02-28',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => 'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.',
       'Global Default Settings' => 'Global Default Settings',
       'Self Actions' => 'Self Actions',
       'Choose which language you would like the Phabricator UI to use.' => 'Choose which language you would like the Phabricator UI to use.',
@@ -50,7 +34,7 @@ final class PhabricatorSettingsEn
       'On Small Screens' => 'On Small Screens',
       'A verification email has been sent. Click the link in the email to verify your address.' => 'A verification email has been sent. Click the link in the email to verify your address.',
       'Enable Email Notifications' => 'Enable Email Notifications',
-      'Edit Multiple Files' => 'Edit Multiple Files',
+      'Generic Editor' => 'Generic Editor',
       'Edit global default settings for all users.' => 'Edit global default settings for all users.',
       'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
     | Setting                | Example Mail Subject
@@ -64,7 +48,6 @@ final class PhabricatorSettingsEn
       'No settings panels are available.' => 'No settings panels are available.',
       'Empty string is not a valid setting for "%s".' => 'Empty string is not a valid setting for "%s".',
       'Adjust Timezone' => 'Adjust Timezone',
-      'Show Filetree' => 'Show Filetree',
       '%s updated her profile' => '%s updated her profile',
       'Add Contact Number' => 'Add Contact Number',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
@@ -85,6 +68,7 @@ final class PhabricatorSettingsEn
       'You can customize the font used when showing monospaced text, including source code. You should enter a valid CSS font declaration like: `13px Consolas`' => 'You can customize the font used when showing monospaced text, including source code. You should enter a valid CSS font declaration like: `13px Consolas`',
       'Enable Self Action Mail' => 'Enable Self Action Mail',
       'You haven\'t added any SSH Public Keys.' => 'You haven\'t added any SSH Public Keys.',
+      'MacVim' => 'MacVim',
       'All Messages' => 'All Messages',
       'This browser has been granted permission to send desktop notifications for this Phabricator instance.' => 'This browser has been granted permission to send desktop notifications for this Phabricator instance.',
       'Save Preference' => 'Save Preference',
@@ -100,6 +84,7 @@ final class PhabricatorSettingsEn
       'Delete Authentication Factor' => 'Delete Authentication Factor',
       '%s updated their profile' => '%s updated their profile',
       'Current Setting' => 'Current Setting',
+      'Visual Studio Code' => 'Visual Studio Code',
       'Provider: %s' => 'Provider: %s',
       'Use Variable-Width Font' => 'Use Variable-Width Font',
       'Use Plain Text: [Differential]' => 'Use Plain Text: [Differential]',
@@ -135,6 +120,8 @@ final class PhabricatorSettingsEn
       'You don\'t have any active sessions.' => 'You don\'t have any active sessions.',
       'Changes saved.' => 'Changes saved.',
       'Authentication factors must have a name to identify them.' => 'Authentication factors must have a name to identify them.',
+      'Choose the default behavior of the global search in the main menu.' => 'Choose the default behavior of the global search in the main menu.',
+      'Hypertext Transfer Protocol' => 'Hypertext Transfer Protocol',
       'Diffusion Blame' => 'Diffusion Blame',
       'The dialog asking for permission to send desktop notifications was closed without granting permission. Only application notifications will be sent.' => 'The dialog asking for permission to send desktop notifications was closed without granting permission. Only application notifications will be sent.',
       'Really delete address \'%s\'?' => 'Really delete address \'%s\'?',
@@ -149,6 +136,7 @@ final class PhabricatorSettingsEn
       'Change Timezone' => 'Change Timezone',
       'DarkConsole Visible' => 'DarkConsole Visible',
       'DarkConsole is a debugging console for developing and troubleshooting Phabricator applications. After enabling DarkConsole, press the {nav `} key on your keyboard to toggle it on or off.' => 'DarkConsole is a debugging console for developing and troubleshooting Phabricator applications. After enabling DarkConsole, press the {nav `} key on your keyboard to toggle it on or off.',
+      'Supported Protocol' => 'Supported Protocol',
       'You are adding too many email addresses to your account too quickly.' => 'You are adding too many email addresses to your account too quickly.',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
     | Setting | Effect
@@ -167,13 +155,11 @@ final class PhabricatorSettingsEn
     These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].',
       'You must enter your current password.' => 'You must enter your current password.',
       'Europe: 28-02-2000' => 'Europe: 28-02-2000',
-      'Enable Filetree' => 'Enable Filetree',
       'The old password you entered is incorrect.' => 'The old password you entered is incorrect.',
       '◐ Notify' => '◐ Notify',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.',
       '%s updated his profile' => '%s updated his profile',
       'You can change your date and time preferences in Settings.' => 'You can change your date and time preferences in Settings.',
-      'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => 'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.',
       'Timezone Calibrated' => 'Timezone Calibrated',
       'Limited Translations' => 'Limited Translations',
       'Email Delivery' => 'Email Delivery',
@@ -181,14 +167,27 @@ final class PhabricatorSettingsEn
       'Monospaced font value "%s" is unsafe. You may only enter letters, numbers, spaces, commas, periods, hyphens, forward slashes, and double quotes' => 'Monospaced font value "%s" is unsafe. You may only enter letters, numbers, spaces, commas, periods, hyphens, forward slashes, and double quotes',
       'Edit settings for your personal account.' => 'Edit settings for your personal account.',
       'Create Settings' => 'Create Settings',
+      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, Phabricator can generate links that you can click to open files locally.
+    Provide a URI pattern for building external editor URIs in your environment. For example, if you use TextMate on macOS, the pattern for your machine may look something like this:
+    ```name="Example: TextMate on macOS"
+    %s
+    ```
+    For complete instructions on editor configuration, see **[[ %s | %s ]]**.
+    See the tables below for a list of supported variables and protocols.' => 'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, Phabricator can generate links that you can click to open files locally.
+    Provide a URI pattern for building external editor URIs in your environment. For example, if you use TextMate on macOS, the pattern for your machine may look something like this:
+    ```name="Example: TextMate on macOS"
+    %s
+    ```
+    For complete instructions on editor configuration, see **[[ %s | %s ]]**.
+    See the tables below for a list of supported variables and protocols.',
       'Use Unicode Glyphs: ⚙' => 'Use Unicode Glyphs: ⚙',
       'Editor Link' => 'Editor Link',
       'Silly Translations' => 'Silly Translations',
       'Send Plain Text Email' => 'Send Plain Text Email',
       'DarkConsole' => 'DarkConsole',
       'Filetree Width' => 'Filetree Width',
+      'Hypertext Transfer Protocol over SSL' => 'Hypertext Transfer Protocol over SSL',
       'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.',
-      'Supported, Separated by Spaces' => 'Supported, Separated by Spaces',
       'Search Scope' => 'Search Scope',
       'Email Preferences' => 'Email Preferences',
       'You don\'t have any active tokens.' => 'You don\'t have any active tokens.',
@@ -198,18 +197,20 @@ final class PhabricatorSettingsEn
     //You will still receive some administrative email, like password reset email.//' => 'If you disable **Email Notifications**, Phabricator will never send email to notify you about events. This preference overrides all your other settings.
     //You will still receive some administrative email, like password reset email.//',
       'Disable "Re:" Prefix' => 'Disable "Re:" Prefix',
+      'Sublime Text' => 'Sublime Text',
       'Conpherence Widget Pane Visible' => 'Conpherence Widget Pane Visible',
-      'Disable Filetree' => 'Disable Filetree',
       'Disable Email Notifications' => 'Disable Email Notifications',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.',
+      'Invalidated.' => 'Invalidated.',
       'Expired' => 'Expired',
       'No Notifications' => 'No Notifications',
+      'Vim' => 'Vim',
       'Password Algorithms' => 'Password Algorithms',
       'This browser has not yet granted permission to send desktop notifications for this Phabricator instance.' => 'This browser has not yet granted permission to send desktop notifications for this Phabricator instance.',
       'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Your password is currently hashed using an algorithm which is no longer available on this install.',
+      'Replaced With' => 'Replaced With',
       'Send HTML Email' => 'Send HTML Email',
       'Translation' => 'Translation',
-      'UTC+%d' => 'UTC+%s',
       'Settings %d' => 'Settings %s',
       'Time Format' => 'Time Format',
       'Permission for desktop notifications was denied. Only application notifications will be sent.' => 'Permission for desktop notifications was denied. Only application notifications will be sent.',
@@ -221,6 +222,7 @@ final class PhabricatorSettingsEn
       'Web and Desktop' => 'Web and Desktop',
       'Sunday' => 'Sunday',
       'US: 2/28/2000' => 'US: 2/28/2000',
+      'External Editor URI Variables' => 'External Editor URI Variables',
       'User Guide: Configuring an External Editor' => 'User Guide: Configuring an External Editor',
       'You have no account setup issues.' => 'You have no account setup issues.',
       'Personal Settings' => 'Personal Settings',
@@ -231,6 +233,7 @@ final class PhabricatorSettingsEn
       'No Sounds' => 'No Sounds',
       'Create Global Defaults' => 'Create Global Defaults',
       'Enable Vary Subjects' => 'Enable Vary Subjects',
+      'TextMate' => 'TextMate',
       'No MFA Providers' => 'No MFA Providers',
       'There is no known application setting with key "%s".' => 'There is no known application setting with key "%s".',
       'Choose the default sound behavior for new Conpherence rooms.' => 'Choose the default sound behavior for new Conpherence rooms.',
@@ -243,11 +246,12 @@ final class PhabricatorSettingsEn
       'Note: Removing an email address from your account will invalidate any outstanding password reset links.' => 'Note: Removing an email address from your account will invalidate any outstanding password reset links.',
       'Click "Save Preference" to persist these changes.' => 'Click "Save Preference" to persist these changes.',
       'Week Starts On' => 'Week Starts On',
+      'Emacs' => 'Emacs',
       'Remove Factor' => 'Remove Factor',
-      'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => 'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.',
       'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Your account does not currently have a password set. You can choose a password by performing a password reset.',
       '' => '',
       'Disabled (an administrator has disabled login for this account provider).' => 'Disabled (an administrator has disabled login for this account provider).',
+      'IntelliJ IDEA' => 'IntelliJ IDEA',
       'If you change your primary address, Phabricator will send all email to %s.' => 'If you change your primary address, Phabricator will send all email to %s.',
       'Send Another Verification Email?' => 'Send Another Verification Email?',
       'Because the algorithm implementation is missing, your password can not be used or updated.' => 'Because the algorithm implementation is missing, your password can not be used or updated.',
@@ -256,6 +260,8 @@ final class PhabricatorSettingsEn
       'Add "Re:" Prefix' => 'Add "Re:" Prefix',
       'Desktop Only' => 'Desktop Only',
       'Account Settings' => 'Account Settings',
+      'View Configuration' => 'View Configuration',
+      'Supported Editor Protocols' => 'Supported Editor Protocols',
       'Add Authentication Factor' => 'Add Authentication Factor',
       'Choose which day a calendar week should begin on.' => 'Choose which day a calendar week should begin on.',
       'Account Activity Logs' => 'Account Activity Logs',
@@ -263,6 +269,7 @@ final class PhabricatorSettingsEn
       'Use Monospaced Font' => 'Use Monospaced Font',
       'The strength of your stored password hash can be upgraded. To upgrade, either: log out and log in using your password; or change your password.' => 'The strength of your stored password hash can be upgraded. To upgrade, either: log out and log in using your password; or change your password.',
       'Save Preferences' => 'Save Preferences',
+      'Phabricator is not configured to allow any editor protocols.' => 'Phabricator is not configured to allow any editor protocols.',
       '⚫ Email' => '⚫ Email',
       'New Setting' => 'New Setting',
       'Pronoun' => 'Pronoun',
@@ -274,9 +281,7 @@ final class PhabricatorSettingsEn
       'Pinned Applications' => 'Pinned Applications',
       'Revoke All' => 'Revoke All',
       'No settings panel group with key "%s" exists!' => 'No settings panel group with key "%s" exists!',
-      'When viewing a revision or commit, you can enable a sidebar showing affected files. When this option is enabled, press {nav %s} to show or hide the sidebar.' => 'When viewing a revision or commit, you can enable a sidebar showing affected files. When this option is enabled, press {nav %s} to show or hide the sidebar.',
       'Linked Accounts and Authentication' => 'Linked Accounts and Authentication',
-      'UTC-%d' => 'UTC-%s',
       'Choose the pronoun you prefer.' => 'Choose the pronoun you prefer.',
       'Conflict Ignored' => 'Conflict Ignored',
       'This engine is used to edit settings.' => 'This engine is used to edit settings.',

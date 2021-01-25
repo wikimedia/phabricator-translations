@@ -29,7 +29,6 @@ final class PhabricatorAphlictZhHant
       'Server exited!' => '伺服器已退出！',
       'Start the notifications server in the foreground and print large volumes of diagnostic information to the console.' => '在前景環境啟動通知伺服器，並列印出大量診斷訊息到主控台。',
       'A specified server (at index "%s", on port "%s") has an invalid type ("%s"). Valid types are: admin, client.' => '指定的伺服器（在索引「%s」，位於埠號「%s」）有無效類型（「%s」）。無效類型為：admin、client。',
-      'No user with username "%s" exists.' => '已存在帶有「%s」名稱的使用者。',
       'Configuration file specifies cluster peer "%s" more than once (at indexes "%s" and "%s"). Each peer must have a unique host and port combination.' => '設置檔案指定了叢集點「%s」（在索引「%s」，位於埠號「%s」）超過一次。各點應要有唯一不重複的主機與埠號結合。',
       'Show the status of the notification server.' => '顯示通知伺服器的狀態。',
       'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => '設置檔案未指定任何伺服器。若沒有接聽任何埠號，此服務無法與外界互動。您必須指定至少一台「%s」伺服器與至少一台「%s」伺服器。',

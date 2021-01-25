@@ -24,7 +24,6 @@ final class PhabricatorCelerityTr
       'Rebuilt "%s" syntax CSS.' => '"%s" sözdizimini CSS\'yi yeniden oluştur.',
       'CSS file \'%s\' has unknown variable \'%s\'.' => '\'%s\' CSS dosyasında \'%s\' değişkeni yok.',
       'Literal %s is not allowed inside inline script.' => 'Satır içi betikde %s değişmezine izin verilmez.',
-      'Binary' => 'İkili',
       'Use Red/Green (Deuteranopia) Colors' => 'Kırmızı/Yeşil (Deuteranopia) Renkleri Kullan',
       'Resource "%s" must %s at most one Celerity target.' => '"%s" kaynağı en fazla bir Sürat hedefinde %s olmalıdır.',
       'Cycle detected in resource graph: %s' => 'Kaynak grafikte tespit edilen döngü: %s',

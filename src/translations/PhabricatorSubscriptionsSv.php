@@ -25,7 +25,6 @@ final class PhabricatorSubscriptionsSv
       'All %d subscribers removed by %s' => 'Alla %s prenumeranter togs bort av %s',
       'Added Subscribers' => 'Lade till prenumeranter',
       'Removed %s subscriber(s): %s.' => 'Ta bort %s prenumerant(er): %s.',
-      'Unsubscribe' => 'Avsluta prenumeration',
       'Bad Object' => 'Trasigt objekt',
       'Add users or projects as subscribers.' => 'Lägg till användare eller projekt som prenumeranter.',
       'Add subscribers: %s.' => 'Lägg till prenumeranter: %s.',

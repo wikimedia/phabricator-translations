@@ -11,7 +11,6 @@ final class PhabricatorPhrictionDa
     return array(
       'The path to the document.' => 'Stien til dokumentet.',
       'No such document.' => 'Dokumentet findes ikke.',
-      'This document was moved from %s.' => 'Dette dokument blev flyttet fra %s.',
       'A moved document can not be moved again.' => 'Et flyttet dokument kan ikke flyttes igen.',
       'Next Change »' => 'Næste ændring »',
       'Last Edited' => 'Sidst redigeret',
@@ -48,7 +47,6 @@ final class PhabricatorPhrictionDa
       '%s edited the content of %s.' => '%s redigerede indholdet af %s.',
       '%s edited the content of this document.' => '%s redigerede indholdet af dette dokument.',
       '%s changed the title from %s to %s.' => '%s ændrede titlen fra %s til %s.',
-      '%s moved this document from %s' => '%s flyttede dette dokument fra %s',
       'Hierarchy' => 'Hierarki',
       'Edited by %s' => 'Redigeret af %s',
       'No Document Here' => 'Intet dokument her',

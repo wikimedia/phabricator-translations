@@ -54,7 +54,6 @@ final class PhabricatorPholioEn
       'Things before they were cool.' => 'Things before they were cool.',
       'Current Revision' => 'Current Revision',
       '[Pholio]' => '[Pholio]',
-      'New Inline Comment' => 'New Inline Comment',
       '%s opened mock %s.' => '%s opened mock %s.',
       'Mock Description' => 'Mock Description',
       '%s edited task(s), added %s: %s; removed %s: %s.' => '%s edited task(s), added %s: %s; removed %s: %s.',

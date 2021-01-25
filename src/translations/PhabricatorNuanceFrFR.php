@@ -49,7 +49,6 @@ final class PhabricatorNuanceFrFR
       'Source "%s" (of class "%s") returned an invalid value from method "%s": all values must be objects of class "%s".' => 'La source « %s » (de classe « %s ») a retourné une valeur non valide de la méthode « %s » : toutes les valeurs doivent être des objets de classe « %s ».',
       'You do not have permission to manage sources.' => 'Vous n’avez pas la permission de gérer des sources.',
       'Got a complaint? Complain here! We love complaints.' => 'Vous voulez vous plaindre ? Plaignez-vous ici ! Nous adorons les plaintes.',
-      'Items' => 'Éléments',
       'Removed Label: %s' => 'Libellé retiré : %s',
       'Importing all cursors: %s.' => 'Importation de tous les curseurs : %s.',
       'Can Manage Sources' => 'Peut gérer les sources',

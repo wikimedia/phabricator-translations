@@ -18,7 +18,6 @@ final class PhabricatorMultimeterFrFR
       'Performance Sampler' => 'Échantillonneur des performances',
       'Rate' => 'Taux',
       '%s Req' => '%s req',
-      'Cost' => 'Coût',
       'Multimeter User Guide' => 'Manuel d’utilisation de Multimètre',
       '%s Unit(s)' => '%s unité(s)',
       'By Request' => 'Par requête',

@@ -54,7 +54,6 @@ final class PhabricatorMacroTr
       'Edit Audio' => 'Sesi Düzenle',
       'Failed to imagecreatefromstring() image template data.' => 'Resim imagecreatefromstring() şablon verilerinden oluşturamadı.',
       'Create Macro' => 'Makro Oluştur',
-      'Behavior' => 'Davranış',
       'Macro name.' => 'Makro adı.',
       '%s disabled the audio for %s.' => '%s, sesi %s için devre dışı bıraktı.',
       'Macro name "%s" be: at least three characters long; and contain only lowercase letters, digits, hyphens, colons, underscores, and emoji; and not be composed entirely of latin symbols.' => 'Makro adı "%s" olabilir: en az üç karakter uzunluğunda; ve sadece küçük harfler, rakamlar, kısa çizgiler, iki nokta üst üste, alt çizgi ve emoji; ve tamamen latin sembollerinden oluşmaz.',

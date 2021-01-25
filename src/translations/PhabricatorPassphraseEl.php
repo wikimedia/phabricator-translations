@@ -36,7 +36,6 @@ final class PhabricatorPassphraseEl
       'Login/Username' => 'Σύνδεση / όνομα χρήστη',
       'Show Secret' => 'Εμφάνιση μυστικού',
       'Show Public Key' => 'Εμφάνιση δημόσιου κλειδιού',
-      'Incorrect' => 'Λάθος',
       'New Credential' => 'Νέο πιστοποιητικό',
       'Create a Credential' => 'Δημιουργία πιστοποιητικού',
       'Query credentials.' => 'Διαπιστευτήρια ερωτήματος.',

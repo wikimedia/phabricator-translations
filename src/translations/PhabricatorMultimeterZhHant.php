@@ -18,7 +18,6 @@ final class PhabricatorMultimeterZhHant
       'Performance Sampler' => '效能取樣',
       'Rate' => '速率',
       '%s Req' => '%s所需',
-      'Cost' => '耗時',
       'Multimeter User Guide' => 'Multimeter 使用者指南',
       '%s Unit(s)' => '%s 個單元',
       'By Request' => '依請求',

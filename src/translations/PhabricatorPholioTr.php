@@ -54,7 +54,6 @@ final class PhabricatorPholioTr
       'Things before they were cool.' => 'Her şey yolunda gitmeden önce.',
       'Current Revision' => 'Güncel Revizyon',
       '[Pholio]' => '[Pholio]',
-      'New Inline Comment' => 'Yeni Satır İçi Yorum',
       '%s opened mock %s.' => '%s, %s sahte açtı.',
       'Mock Description' => 'Sahte Açıklaması',
       '%s edited task(s), added %s: %s; removed %s: %s.' => '%s görevi düzenlendi, %s ekledi: %s; %s kaldırıldı: %s.',

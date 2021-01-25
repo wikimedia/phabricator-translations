@@ -11,7 +11,6 @@ final class PhabricatorFeedEl
     return array(
       'Call %s before publishing!' => 'Καλέστε το %s πριν τη δημοσίευση!',
       'All Stories' => 'Όλες οι ιστορίες',
-      'Creation (Newest First)' => 'Δημιουργία (το νεότερο πρώτα)',
       'Full HTML presentation of story' => 'Πλήρης παρουσίαση HTML της ιστορίας',
       'Republishing story...' => 'Αναδημοσίευση ιστορίας...',
       'Include Projects' => 'Συμπερίληψη εγχειρημάτων',

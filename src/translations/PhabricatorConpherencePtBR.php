@@ -12,7 +12,6 @@ final class PhabricatorConpherencePtBR
       'Leave Room' => 'Sair da sala',
       'Initial Participants' => 'Participantes Iniciais',
       'New Message' => 'Nova mensagem',
-      'Bing' => 'Bing',
       'Room Preferences' => 'Preferências da sala',
       '%s left the room.' => '%s saiu da sala',
       'Chat with Others' => 'Bate-papo com outros',

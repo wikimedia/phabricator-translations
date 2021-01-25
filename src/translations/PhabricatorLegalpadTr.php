@@ -81,7 +81,6 @@ final class PhabricatorLegalpadTr
       'Only documents with signature type "individual" may require signing to use Phabricator.' => 'Yalnızca "bireysel" imza türüne sahip belgeler, Phabricator\'ı kullanmak için imza gerektirebilir.',
       'Mail receiver is not a LegalpadDocument!' => 'Posta alıcısı LegalpadDocument değil!',
       'You must choose a user to exempt.' => 'Muaf tutulacak bir kullanıcı seçmelisiniz.',
-      'Only admins may require signature.' => 'Yalnızca hizmetliler imza gerektirebilir.',
       'You have already signed this document!' => 'Bu belgeyi zaten imzaladınız!',
       'Verify Signature' => 'İmzayı Doğrula',
       'Signed Documents' => 'İmzalı Belgeler',

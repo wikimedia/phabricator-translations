@@ -30,6 +30,7 @@ final class PhabricatorBaseEn
       'Admin Required' => 'Admin Required',
       'Email Verification Required, With Exception' => 'Email Verification Required, With Exception',
       'Allow Disabled' => 'Allow Disabled',
+      'Unable to find transaction query for object of class "%s".' => 'Unable to find transaction query for object of class "%s".',
     );
   }
 

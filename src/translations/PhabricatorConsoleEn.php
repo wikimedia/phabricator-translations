@@ -11,7 +11,6 @@ final class PhabricatorConsoleEn
     return array(
       'Listener Class' => 'Listener Class',
       'Profiling was not enabled for this page. Use the button above to enable it.' => 'Profiling was not enabled for this page. Use the button above to enable it.',
-      'Event Type' => 'Event Type',
       'Internal ID' => 'Internal ID',
       'Error Log (%d)' => 'Error Log (%s)',
       'Debugging console for real-time notifications.' => 'Debugging console for real-time notifications.',
@@ -33,6 +32,7 @@ final class PhabricatorConsoleEn
       'Whole Table' => 'Whole Table',
       'Repaint' => 'Repaint',
       'Small Table Scan' => 'Small Table Scan',
+      'Installation Guide' => 'Installation Guide',
       'Profile Permalink' => 'Profile Permalink',
       'Error Log' => 'Error Log',
       'Controller' => 'Controller',

@@ -80,6 +80,7 @@ final class PhabricatorFundEn
       'Initiative Closed' => 'Initiative Closed',
       '%s renamed this initiative from %s to %s.' => '%s renamed this initiative from %s to %s.',
       'Really close this initiative? Users will no longer be able to back it.' => 'Really close this initiative? Users will no longer be able to back it.',
+      'Merchant %d %s' => 'Merchant %s %s',
       'INITIATIVE DETAIL' => 'INITIATIVE DETAIL',
       '(Restricted Merchant)' => '(Restricted Merchant)',
       'Back Initiative' => 'Back Initiative',

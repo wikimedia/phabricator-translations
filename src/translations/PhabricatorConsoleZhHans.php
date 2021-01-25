@@ -11,7 +11,6 @@ final class PhabricatorConsoleZhHans
     return array(
       'Listener Class' => '听众类',
       'Profiling was not enabled for this page. Use the button above to enable it.' => '此页面未启用性能分析。使用上方的按钮启用它。',
-      'Event Type' => '活动类型',
       'Internal ID' => '内部ID',
       'Error Log (%d)' => '错误日志（%s）',
       'Debugging console for real-time notifications.' => '为实时通知调试控制台。',

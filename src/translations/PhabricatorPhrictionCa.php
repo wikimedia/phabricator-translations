@@ -9,7 +9,6 @@ final class PhabricatorPhrictionCa
 
   protected function getTranslations() {
     return array(
-      'This document was moved from %s.' => 'Aquest document es va moure des de %s.',
       'A moved document can not be moved again.' => 'Un document mogut no pot ser mogut un altre cop.',
       'Next Change »' => 'Següent canvi »',
       'Moved' => 'Mogut',
@@ -42,7 +41,6 @@ final class PhabricatorPhrictionCa
       'Version %s vs %s' => 'Versió %s vs %s',
       '%s edited the content of this document.' => '%s ha editat el contingut d\'aquest document.',
       '%s changed the title from %s to %s.' => '%s ha canviat el títol de %s a %s.',
-      '%s moved this document from %s' => '%s ha mogut aquest document des de %s',
       'Hierarchy' => 'Jerarquia',
       'Edited by %s' => 'Editat per %s',
       'No Document Here' => 'No hi ha documents aquí',

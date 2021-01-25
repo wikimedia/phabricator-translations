@@ -18,7 +18,6 @@ final class PhabricatorMultimeterDiq
       'Performance Sampler' => 'Misalwanê performansi',
       'Rate' => 'Rey bıde',
       '%s Req' => '%s Waşt',
-      'Cost' => 'Vaye',
       'Multimeter User Guide' => 'Multimetre Qlawuze Karberi',
       '%s Unit(s)' => '%s Unite(y)',
       'By Request' => 'Goreyê waştışi',

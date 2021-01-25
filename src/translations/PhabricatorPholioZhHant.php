@@ -54,7 +54,6 @@ final class PhabricatorPholioZhHant
       'Things before they were cool.' => '在事情看起來沒問題之前。',
       'Current Revision' => '目前修訂版本',
       '[Pholio]' => '[Pholio]',
-      'New Inline Comment' => '新行內註釋',
       '%s opened mock %s.' => '%s開放了畫面模型%s。',
       'Mock Description' => '畫面模型描述',
       '%s edited task(s), added %s: %s; removed %s: %s.' => '%s 編輯了任務，已添加%s：%s，已移除%s：%s。',

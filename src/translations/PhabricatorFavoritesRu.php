@@ -11,7 +11,6 @@ final class PhabricatorFavoritesRu
     return array(
       'Edit Favorites' => 'Редактировать Избранное',
       'Favorite Items' => 'Избранные элементы',
-      'Favorites Menu' => 'Избранное',
     );
   }
 

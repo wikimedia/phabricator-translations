@@ -15,7 +15,6 @@ final class PhabricatorCelerityEl
       'Dark Mode (Experimental)' => 'Σκοτεινή λειτουργία (Πειραματική)',
       'Use Larger Font Size' => 'Χρήση μεγαλύτερου μεγέθους γραμματοσειράς',
       'Found %d binary resources.' => 'Βρέθηκαν %s δυαδικοί πόροι.',
-      'Binary' => 'Δυαδικό',
       'Found %d text resources.' => 'Βρέθηκαν %s πόροι κειμένου.',
       'Found %d packages.' => 'Βρέθηκαν %s συσκευασίες.',
     );

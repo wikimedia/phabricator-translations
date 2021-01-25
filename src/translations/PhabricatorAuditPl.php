@@ -14,7 +14,6 @@ final class PhabricatorAuditPl
       '%s resigned from auditing %s.' => '%s zrezygnował z audytu %s.',
       'Specified maximum date must come after specified minimum date.' => 'Określona maksymalna data musi nastąpić po określonej minimalnej dacie.',
       'Query audit requests.' => 'Pobierz żądania audytu.',
-      'COMMIT' => 'ZATWIERDŹ',
       'Update all commits in all repositories.' => 'Zaktualizuj wszystkie zatwierdzenia we wszystkich repozytoriach.',
       'A commit is closed.' => 'Zatwierdzenie jest zamknięte.',
       'Updating "%s" (%s)...' => 'Aktualizacja "%s" (%s)...',

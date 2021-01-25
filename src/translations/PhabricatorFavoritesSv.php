@@ -11,7 +11,6 @@ final class PhabricatorFavoritesSv
     return array(
       'Edit Favorites' => 'Redigera favoriter',
       'Favorite Items' => 'Favoritföremål',
-      'Favorites Menu' => 'Favoritmeny',
     );
   }
 

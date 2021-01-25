@@ -26,7 +26,6 @@ final class PhabricatorSubscriptionsEl
       'All %d subscribers removed by %s' => 'Όλοι οι %s συνδρομητές αφαιρέθηκαν από τον %s',
       'Added Subscribers' => 'Προστέθηκαν συνδρομητές',
       'Removed %s subscriber(s): %s.' => 'Αφαιρέθηκαν %s συνδρομητής(-ές): %s',
-      'Unsubscribe' => 'Κατάργηση εγγραφής',
       'Bad Object' => 'Κακό αντικείμενο',
       'Add users or projects as subscribers.' => 'Προσθέστε χρήστες ή εγχειρήματα ως συνδρομητές',
       'Add subscribers: %s.' => 'Προσθήκη συνδρομητών: %s',

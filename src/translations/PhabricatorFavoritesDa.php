@@ -11,7 +11,6 @@ final class PhabricatorFavoritesDa
     return array(
       'Edit Favorites' => 'Rediger favoritter',
       'Favorite Items' => 'Favoritelementer',
-      'Favorites Menu' => 'Favoritmenu',
     );
   }
 

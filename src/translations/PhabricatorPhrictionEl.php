@@ -11,7 +11,6 @@ final class PhabricatorPhrictionEl
     return array(
       'No such document.' => 'Δεν υπάρχει τέτοιο έγγραφο.',
       'DOCUMENT DIFF' => 'Διαφορά εγγράφου',
-      'This document was moved from %s.' => 'Το έγγραφο μετακινήθηκε από το %s.',
       'A moved document can not be moved again.' => 'Ένα μετακινημένο έγγραφο δεν μπορεί να μετακινηθεί ξανά.',
       'Next Change »' => 'Επόμενη αλλαγή >>',
       'Moved' => 'Μετακινήθηκε',
@@ -30,7 +29,6 @@ final class PhabricatorPhrictionEl
       'To edit a wiki document, you must also be able to view all of its ancestors.' => 'Για να επεξεργαστείτε ένα έγγραφο του βίκι, θα πρέπει επίσης να έχετε την δυνατότητα να δείτε όλους τους γονείς του.',
       'Content Changes' => 'Αλλαγές περιεχομένου',
       'Document Hierarchy' => 'Ιεραρχία του εγγράφου',
-      'This document was moved from elsewhere.' => 'Αυτό το έγγραφο μετακινήθηκε από αλλού.',
       'More...' => 'Περισσότερα...',
       'A document\'s title changes.' => 'Ένας τίτλος εγγράφου αλλάζει.',
       'Current Path' => 'Τρέχουσα διαδρομή',
@@ -78,7 +76,6 @@ final class PhabricatorPhrictionEl
       '%s edited the content of this document.' => 'Ο %s επεξεργάστηκε το περιεχόμενο αυτού του εγγράφου.',
       'This document is already deleted. You must specify content to re-create the document and make further edits.' => 'Το έγγραφο έχει ήδη διαγραφεί. Πρέπει να προσδιορίσετε το περιεχόμενο για να επαναδημιουργήσετε το έγγραφο και να κάνετε περαιτέρω επεξεργασίες.',
       '%s changed the title from %s to %s.' => 'Ο %s άλλαξε τον τίτλο από %s σε %s.',
-      '%s moved this document from %s' => 'Ο %s μετακίνησε το έγγραφο από το %s',
       'Hierarchy' => 'Ιεραρχία',
       'Edited by %s' => 'Υπέστη επεξεργασία από τον %s',
       'No Document Here' => 'Κανένα έγγραφο εδώ',

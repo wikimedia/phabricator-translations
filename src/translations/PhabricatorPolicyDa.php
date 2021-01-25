@@ -19,7 +19,6 @@ final class PhabricatorPolicyDa
       'Object Policies' => 'Objektpolitikker',
       'Members of Project...' => 'Medlemmer af projekt...',
       'Advanced' => 'Avanceret',
-      '%s (Project)' => '%s (Projekt)',
       'By default, no one can take this action.' => 'Som standard kan ingen udføre denne handling.',
       'Deny' => 'Nægt',
       'Special Rules' => 'Specielle regler',
@@ -38,7 +37,6 @@ final class PhabricatorPolicyDa
       'Members of Project: %s' => 'Medlemmer af projekt: %s',
       'Basic Policies' => 'Grundlæggende politikker',
       'All Users' => 'Alle brugere',
-      'Rules' => 'Regler',
       'Administrators can take this action.' => 'Administratorer kan udføre denne handling.',
       'You do not have permission to view this object.' => 'Du har ikke tilladelse til at se dette objekt.',
       'With Extended Policy' => 'Med udvidet politik',
@@ -47,7 +45,6 @@ final class PhabricatorPolicyDa
       'is full' => 'er fuld',
       'View Policy' => 'Vis politik',
       'User Policy' => 'Brugerpolitik',
-      'New Rule' => 'Ny regel',
     );
   }
 

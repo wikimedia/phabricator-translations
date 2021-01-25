@@ -10,11 +10,13 @@ final class PhabricatorHelpEn
   protected function getTranslations() {
     return array(
       'Close any dialog, including this one.' => 'Close any dialog, including this one.',
-      'Unsupported Editor Protocol' => 'Unsupported Editor Protocol',
-      'Change Settings' => 'Change Settings',
-      'Your configured editor URI uses an unsupported protocol. Change your settings to use a supported protocol, or ask your administrator to add support for the chosen protocol by configuring: %s' => 'Your configured editor URI uses an unsupported protocol. Change your settings to use a supported protocol, or ask your administrator to add support for the chosen protocol by configuring: %s',
+      'Page Shortcuts' => 'Page Shortcuts',
       '%s Help' => '%s Help',
+      'Hiding Content' => 'Hiding Content',
+      'Editing Inline Comments' => 'Editing Inline Comments',
+      'Global Shortcuts' => 'Global Shortcuts',
       'Keyboard Shortcuts' => 'Keyboard Shortcuts',
+      'Diff Navigation' => 'Diff Navigation',
     );
   }
 

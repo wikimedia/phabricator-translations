@@ -54,7 +54,6 @@ final class PhabricatorDoorkeeperZhHant
     ☠ 您的更改內容不會反應在 Phabricator 上。
     ☠ 您的更改內容會在下一次狀態為同步時被消除。',
       'Removing subtask edge to %s, foreign object is not visible.' => '移除子任務邊際至%s，外來物件為不可見。',
-      'Unsupported Doorkeeper tag view mode "%s". Supported modes are: %s.' => '不支援的 Doorkeeper 標籤檢視模式「%s」。支援的模式為：%s。',
       'Integration with Asana' => '與 Asana 整合',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Doorkeeper 工作者「%s」未啟動。',
       'Object has no followers or active/passive users.' => '物件沒有關注者或積極/消極使用者。',

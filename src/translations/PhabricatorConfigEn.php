@@ -9,6 +9,8 @@ final class PhabricatorConfigEn
 
   protected function getTranslations() {
     return array(
+      'Review and modify configuration settings.' => 'Review and modify configuration settings.',
+      'Improve security by configuring an alternate file domain.' => 'Improve security by configuring an alternate file domain.',
       'Array containing list of uninstalled applications.' => 'Array containing list of uninstalled applications.',
       'Client Server' => 'Client Server',
       'Listeners receive callbacks when interesting things occur.' => 'Listeners receive callbacks when interesting things occur.',
@@ -26,7 +28,6 @@ final class PhabricatorConfigEn
       'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
     You must enable DarkConsole by setting \'%s\' before this option will have any effect.' => 'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
     You must enable DarkConsole by setting \'%s\' before this option will have any effect.',
-      'Modules' => 'Modules',
       'Repository %s has unreplicated changes (for %s).' => 'Repository %s has unreplicated changes (for %s).',
       'Phabricator now automatically discovers available storage engines at runtime.' => 'Phabricator now automatically discovers available storage engines at runtime.',
       'The controller or workflow which handled the request.' => 'The controller or workflow which handled the request.',
@@ -43,7 +44,6 @@ final class PhabricatorConfigEn
       'Marked activity "%s" as completed.' => 'Marked activity "%s" as completed.',
       'Configure Phabricator to run on a cluster of hosts.' => 'Configure Phabricator to run on a cluster of hosts.',
       'Repository %s has unreplicated changes.' => 'Repository %s has unreplicated changes.',
-      'MySQL %s Mode Set' => 'MySQL %s Mode Set',
       'If the web server responds to both HTTP and HTTPS requests but you want users to connect with only HTTPS, you can set this to `true` to make Phabricator redirect HTTP requests to HTTPS.
     Normally, you should just configure your server not to accept HTTP traffic, but this setting may be useful if you originally used HTTP and have now switched to HTTPS but don\'t want to break old links, or if your webserver sits behind a load balancer which terminates HTTPS connections and you can not reasonably configure more granular behavior there.
     IMPORTANT: Phabricator determines if a request is HTTPS or not by examining the PHP `%s` variable. If you run Apache/mod_php this will probably be set correctly for you automatically, but if you run Phabricator as CGI/FCGI (e.g., through nginx or lighttpd), you need to configure your web server so that it passes the value correctly based on the connection type.
@@ -70,7 +70,6 @@ final class PhabricatorConfigEn
     Phabricator sent a request to path "%s", and expected the webserver to decode and rewrite that path so that it received a request for "%s". However, it received a request for "%s" instead.
     Verify that your rewrite rules are configured correctly, following the instructions in the documentation. If path encoding is not working properly you will be unable to access files with unusual names in repositories, among other issues.
     (This problem can be caused by a missing "B" in your RewriteRule.)',
-      'Specify a value to set the key \'%s\' to.' => 'Specify a value to set the key \'%s\' to.',
       'Access log location.' => 'Access log location.',
       'Phabricator occasionally shells out to other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running Phabricator (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
     Note that you can also put binaries in `%s` (for example, by symlinking them).
@@ -88,11 +87,16 @@ final class PhabricatorConfigEn
       'Short' => 'Short',
       'Phabricator is not configured in cluster mode.' => 'Phabricator is not configured in cluster mode.',
       'Large File Storage Not Configured' => 'Large File Storage Not Configured',
+      'Use "bin/phd debug ..." to get a detailed daemon execution log.' => 'Use "bin/phd debug ..." to get a detailed daemon execution log.',
       'Migrating file-based config to more modern config...' => 'Migrating file-based config to more modern config...',
+      'Phabricator sent itself a test request and expected to get a bare JSON response back. It received a JSON response, but the response had extra whitespace at the beginning or end.
+    This usually means you have edited a file and left whitespace characters before the opening %s tag, or after a closing %s tag. Remove any leading whitespace, and prefer to omit closing tags.' => 'Phabricator sent itself a test request and expected to get a bare JSON response back. It received a JSON response, but the response had extra whitespace at the beginning or end.
+    This usually means you have edited a file and left whitespace characters before the opening %s tag, or after a closing %s tag. Remove any leading whitespace, and prefer to omit closing tags.',
       'Full' => 'Full',
       'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Run the storage upgrade script to setup databases (host "%s" has not been initialized).',
       'Unrecognized verb: %s' => 'Unrecognized verb: %s',
       'No REMOTE_ADDR is available, so Phabricator cannot determine the origin address for requests. This will prevent Phabricator from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'No REMOTE_ADDR is available, so Phabricator cannot determine the origin address for requests. This will prevent Phabricator from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.',
+      'Schemata Issues' => 'Schemata Issues',
       'Expected Collation' => 'Expected Collation',
       'Controls whether Phabricator sends one email with multiple recipients in the "To:" line, or multiple emails, each with a single recipient in the "To:" line.' => 'Controls whether Phabricator sends one email with multiple recipients in the "To:" line, or multiple emails, each with a single recipient in the "To:" line.',
       'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => 'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.',
@@ -124,12 +128,14 @@ final class PhabricatorConfigEn
       'Require all users to configure multi-factor authentication.' => 'Require all users to configure multi-factor authentication.',
       'Configuration Guide: Locked and Hidden Configuration' => 'Configuration Guide: Locked and Hidden Configuration',
       'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.',
+      'Wrote configuration key "%s" to local storage (in file "%s").' => 'Wrote configuration key "%s" to local storage (in file "%s").',
       '(%s%s) %s' => '(%s%s) %s',
       'Nonreplicating Replica' => 'Nonreplicating Replica',
       'Run these %d command(s):' => 'Run these %s command(s):',
       'Pattern' => 'Pattern',
       'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the Phabricator configuration value \'%s\' to specify one.' => 'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the Phabricator configuration value \'%s\' to specify one.',
       'Unknown \'%s\' Version' => 'Unknown \'%s\' Version',
+      'Require administrators to unlock the authentication provider configuration from the CLI before it can be edited.' => 'Require administrators to unlock the authentication provider configuration from the CLI before it can be edited.',
       'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'You are using an old version of MySQL (on host "%s"), and should upgrade.',
       'Feed Hooks Deprecated' => 'Feed Hooks Deprecated',
       'Purge Caches' => 'Purge Caches',
@@ -153,18 +159,9 @@ final class PhabricatorConfigEn
       'The HTTP method.' => 'The HTTP method.',
       'The webserver\'s host name.' => 'The webserver\'s host name.',
       'PHP Timezone Invalid' => 'PHP Timezone Invalid',
-      'The configuration value "%s" is locked (so it can not be edited from the web UI), but has a database value. Usually, this means that it was previously not locked, you set it using the web UI, and it later became locked.
-    You should copy this configuration value in a local configuration source (usually by using %s) and then remove it from the database with the command below.
-    For more information on locked and hidden configuration, including details about this setup issue, see %s.
-    This database value is currently respected, but a future version of Phabricator will stop respecting database values for locked configuration options.' => 'The configuration value "%s" is locked (so it can not be edited from the web UI), but has a database value. Usually, this means that it was previously not locked, you set it using the web UI, and it later became locked.
-    You should copy this configuration value in a local configuration source (usually by using %s) and then remove it from the database with the command below.
-    For more information on locked and hidden configuration, including details about this setup issue, see %s.
-    This database value is currently respected, but a future version of Phabricator will stop respecting database values for locked configuration options.',
+      'Branchpoint' => 'Branchpoint',
       'Phabricator Configuration' => 'Phabricator Configuration',
       'Integration with Recaptcha' => 'Integration with Recaptcha',
-      'Phabricator sent itself a test request and expected to get a bare JSON response back, but the response had extra whitespace at the beginning or end.
-    This usually means you have edited a file and left whitespace characters before the opening %s tag, or after a closing %s tag. Remove any leading whitespace, and prefer to omit closing tags.' => 'Phabricator sent itself a test request and expected to get a bare JSON response back, but the response had extra whitespace at the beginning or end.
-    This usually means you have edited a file and left whitespace characters before the opening %s tag, or after a closing %s tag. Remove any leading whitespace, and prefer to omit closing tags.',
       'Global cap for size of generated emails (bytes).' => 'Global cap for size of generated emails (bytes).',
       'Access Logs' => 'Access Logs',
       'This server has a known bad version of "%s" installed ("%s"). This version is not supported, or contains important bugs or security vulnerabilities which are fixed in a newer version.' => 'This server has a known bad version of "%s" installed ("%s"). This version is not supported, or contains important bugs or security vulnerabilities which are fixed in a newer version.',
@@ -184,9 +181,6 @@ final class PhabricatorConfigEn
     In these cases, you can use this option to force the page to abort after a smaller number of seconds (for example, 10), and dump a useful stack trace. This can provide useful information about why a page is hanging.
     To use this option, set it to a small number (like 10), and reload a hanging page. The page should exit after 10 seconds and give you a stack trace.
     You should turn this option off (set it to 0) when you are done with it. Leaving it on creates a small amount of overhead for all requests, even if they do not hit the time limit.',
-      'Config option \'%s\' is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like \'%s\'. 
-                You can find a list of valid identifiers here: %s' => 'Config option \'%s\' is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like \'%s\'. 
-                You can find a list of valid identifiers here: %s',
       'This option has been renamed to `%s` to emphasize the unfinished nature of many prototype applications. Your existing setting has been migrated.' => 'This option has been renamed to `%s` to emphasize the unfinished nature of many prototype applications. Your existing setting has been migrated.',
       'Clients' => 'Clients',
       'Expected Columns' => 'Expected Columns',
@@ -194,7 +188,6 @@ final class PhabricatorConfigEn
       'This configuration is locked and can not be edited from the web interface. Use %s in %s to edit it.' => 'This configuration is locked and can not be edited from the web interface. Use %s in %s to edit it.',
       'Multiple %s subclasses contain an option named \'%s\'!' => 'Multiple %s subclasses contain an option named \'%s\'!',
       'Pygments should be installed and enabled to provide advanced syntax highlighting.' => 'Pygments should be installed and enabled to provide advanced syntax highlighting.',
-      'Installed Versions' => 'Installed Versions',
       'Recaptcha public key, obtained by signing up for Recaptcha.' => 'Recaptcha public key, obtained by signing up for Recaptcha.',
       'Database Servers' => 'Database Servers',
       'Specify a configuration key to delete.' => 'Specify a configuration key to delete.',
@@ -216,6 +209,8 @@ final class PhabricatorConfigEn
     Disable safe mode to continue.',
       'Use Private Replies (More Secure)' => 'Use Private Replies (More Secure)',
       'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'' => 'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'',
+      'Other Services' => 'Other Services',
+      'Database Schemata' => 'Database Schemata',
       'Send as User Taking Action' => 'Send as User Taking Action',
       'Security options.' => 'Security options.',
       'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').',
@@ -231,6 +226,7 @@ final class PhabricatorConfigEn
       'This configuration is no longer relevant because daemons restart automatically on configuration changes.' => 'This configuration is no longer relevant because daemons restart automatically on configuration changes.',
       'The Differential revision list view age UI elements have been removed to simplify the interface.' => 'The Differential revision list view age UI elements have been removed to simplify the interface.',
       'Separate values with newlines.' => 'Separate values with newlines.',
+      'The request body that the server received had already been decompressed. This strongly suggests your webserver is configured to decompress requests inline, before they reach PHP.' => 'The request body that the server received had already been decompressed. This strongly suggests your webserver is configured to decompress requests inline, before they reach PHP.',
       'Exception Handlers' => 'Exception Handlers',
       'This schema has the wrong nullable setting.' => 'This schema has the wrong nullable setting.',
       'Config option \'%s\' is invalid. The URI must start with \'%s\' or \'%s\'.' => 'Config option \'%s\' is invalid. The URI must start with \'%s\' or \'%s\'.',
@@ -239,6 +235,9 @@ final class PhabricatorConfigEn
       'Require administrators to approve new accounts.' => 'Require administrators to approve new accounts.',
       'Health' => 'Health',
       'System user to run daemons as.' => 'System user to run daemons as.',
+      'When set to `true`, the authentication provider configuration for this instance can not be modified without first running `bin/auth unlock` from the command line. This is to reduce the security impact of a compromised administrator account. 
+    After running `bin/auth unlock` and making your changes to the authentication provider config, you should run `bin/auth lock`.' => 'When set to `true`, the authentication provider configuration for this instance can not be modified without first running `bin/auth unlock` from the command line. This is to reduce the security impact of a compromised administrator account. 
+    After running `bin/auth unlock` and making your changes to the authentication provider config, you should run `bin/auth lock`.',
       'Unknown schema status "%s"!' => 'Unknown schema status "%s"!',
       'MySQL May Run Slowly' => 'MySQL May Run Slowly',
       'Phabricator now manages typeahead strategies automatically.' => 'Phabricator now manages typeahead strategies automatically.',
@@ -246,7 +245,6 @@ final class PhabricatorConfigEn
       'List of Users Without MFA' => 'List of Users Without MFA',
       'No "Host" header present in request.' => 'No "Host" header present in request.',
       'Value for option "%s" of type "%s" must be either "true" or "false".' => 'Value for option "%s" of type "%s" must be either "true" or "false".',
-      'Cluster Search' => 'Cluster Search',
       'Footer configuration is not valid: value must be a list of items.' => 'Footer configuration is not valid: value must be a list of items.',
       'Edit "%s"' => 'Edit "%s"',
       'Don\'t embed YouTube videos' => 'Don\'t embed YouTube videos',
@@ -263,8 +261,12 @@ final class PhabricatorConfigEn
     %s
     Something is misconfigured or otherwise mangling responses.',
       'Enable Phabricator\'s debugging console.' => 'Enable Phabricator\'s debugging console.',
+      'The PHP "zip" extension is not installed. This extension is required by certain data export operations, including exporting data to Excel.
+    To clear this setup issue, install the extension and restart your webserver.
+    You may safely ignore this issue if you do not plan to export data in Zip archives or Excel spreadsheets, or intend to install the extension later.' => 'The PHP "zip" extension is not installed. This extension is required by certain data export operations, including exporting data to Excel.
+    To clear this setup issue, install the extension and restart your webserver.
+    You may safely ignore this issue if you do not plan to export data in Zip archives or Excel spreadsheets, or intend to install the extension later.',
       'Send Mail To All Recipients' => 'Send Mail To All Recipients',
-      'Launch daemons in \'trace\' mode by default.' => 'Launch daemons in \'trace\' mode by default.',
       'Your install has no current setup issues to resolve.' => 'Your install has no current setup issues to resolve.',
       'Subschemata Have Failures' => 'Subschemata Have Failures',
       'This request included an invalid "Host" header, with value "%s". Host headers must contain a dot ("."), like "example.com". This is required for some browsers to be able to set cookies.
@@ -284,10 +286,10 @@ final class PhabricatorConfigEn
       'Configure the access logs, which log HTTP/SSH requests.' => 'Configure the access logs, which log HTTP/SSH requests.',
       '%ss Behind' => '%ss Behind',
       'The PID of the server process.' => 'The PID of the server process.',
-      'Launch daemons in \'verbose\' mode by default. This creates a lot of output, but can help debug issues. Daemons launched in debug mode with \'%s\' are always launched in verbose mode. See also \'%s\'.' => 'Launch daemons in \'verbose\' mode by default. This creates a lot of output, but can help debug issues. Daemons launched in debug mode with \'%s\' are always launched in verbose mode. See also \'%s\'.',
       'Blacklist subnets to prevent user-initiated outbound requests.' => 'Blacklist subnets to prevent user-initiated outbound requests.',
       'No Outbound Requests' => 'No Outbound Requests',
       'Primary install URI, for multi-environment installs.' => 'Primary install URI, for multi-environment installs.',
+      'Your webserver is not handling compressed request bodies properly.' => 'Your webserver is not handling compressed request bodies properly.',
       'The mapping from VCS users to Phabricator users has changed and must be rebuilt.' => 'The mapping from VCS users to Phabricator users has changed and must be rebuilt.',
       'Whitelists editor protocols for "Open in Editor".' => 'Whitelists editor protocols for "Open in Editor".',
       'The "Re: Prefix" and "Vary Subjects" settings are now configured in global settings.' => 'The "Re: Prefix" and "Vary Subjects" settings are now configured in global settings.',
@@ -300,13 +302,13 @@ final class PhabricatorConfigEn
       'You can find more information about this new identity mapping here: %s' => 'You can find more information about this new identity mapping here: %s',
       'After rebuilding the index, run this command to clear this setup warning:' => 'After rebuilding the index, run this command to clear this setup warning:',
       'Footer item with index "%s" is invalid: %s' => 'Footer item with index "%s" is invalid: %s',
+      'Phabricator Version Information' => 'Phabricator Version Information',
       'Unknown Configuration Option "%s"' => 'Unknown Configuration Option "%s"',
       'Truncate at 1MB' => 'Truncate at 1MB',
       'Access key for Amazon S3.' => 'Access key for Amazon S3.',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not readable.' => 'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not readable.',
       'Maniphest fields are now loaded automatically. You can configure them with `%s`.' => 'Maniphest fields are now loaded automatically. You can configure them with `%s`.',
       'This key is expected to exist, but does not.' => 'This key is expected to exist, but does not.',
-      'Normal mode' => 'Normal mode',
       'Persistence' => 'Persistence',
       'This schema is expected to exist, but does not.' => 'This schema is expected to exist, but does not.',
       'Do Not Use Pygments' => 'Do Not Use Pygments',
@@ -325,6 +327,11 @@ final class PhabricatorConfigEn
       'Option "%s" is of type "%s", but the configured value is not a string.' => 'Option "%s" is of type "%s", but the configured value is not a string.',
       'User Guide: Amazon RDS' => 'User Guide: Amazon RDS',
       'Repository %s has an ambiguous leader.' => 'Repository %s has an ambiguous leader.',
+      'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
+    Leaving your authentication provider configuration unlocked increases the damage that a compromised administrator account can do to your install. For example, an attacker who compromises an administrator account can change authentication providers to point at a server they control and attempt to intercept usernames and passwords.
+    To prevent this attack, you should configure authentication, and then lock the configuration by running "bin/auth lock" from the command line. This will prevent changing the authentication config without first running "bin/auth unlock".' => 'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
+    Leaving your authentication provider configuration unlocked increases the damage that a compromised administrator account can do to your install. For example, an attacker who compromises an administrator account can change authentication providers to point at a server they control and attempt to intercept usernames and passwords.
+    To prevent this attack, you should configure authentication, and then lock the configuration by running "bin/auth lock" from the command line. This will prevent changing the authentication config without first running "bin/auth unlock".',
       'Configuration of the notification server has changed substantially. For discussion, see T10794.' => 'Configuration of the notification server has changed substantially. For discussion, see T10794.',
       'Read option value from stdin.' => 'Read option value from stdin.',
       'Database source is not configured properly' => 'Database source is not configured properly',
@@ -346,11 +353,11 @@ final class PhabricatorConfigEn
       'MySQL Native Driver Not Available' => 'MySQL Native Driver Not Available',
       'Unignore this setup issue?' => 'Unignore this setup issue?',
       'Configure Mail.' => 'Configure Mail.',
-      'Determines which URI protocols are auto-linked.' => 'Determines which URI protocols are auto-linked.',
       'You can update these %d value(s) here:' => 'You can update these %s value(s) here:',
       'Notification Servers' => 'Notification Servers',
       'extname' => 'extname',
       'Enable captchas with Recaptcha.' => 'Enable captchas with Recaptcha.',
+      'This suggests your webserver is configured to decompress or mangle compressed requests.' => 'This suggests your webserver is configured to decompress or mangle compressed requests.',
       'Add Multiple Paths' => 'Add Multiple Paths',
       'Specify an activity to mark as completed.' => 'Specify an activity to mark as completed.',
       'The environmental variable %s is empty. Phabricator needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in Phabricator configuration.' => 'The environmental variable %s is empty. Phabricator needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in Phabricator configuration.',
@@ -483,7 +490,6 @@ final class PhabricatorConfigEn
       'This option controls whether users can edit account email addresses and profile real names.
     If you set up Phabricator to automatically synchronize account information from some other authoritative system, you can prevent users from making these edits to ensure information remains consistent across both systems.' => 'This option controls whether users can edit account email addresses and profile real names.
     If you set up Phabricator to automatically synchronize account information from some other authoritative system, you can prevent users from making these edits to ensure information remains consistent across both systems.',
-      'MySQL is in ONLY_FULL_GROUP_BY mode (on host "%s"), but using this mode is strongly discouraged.' => 'MySQL is in ONLY_FULL_GROUP_BY mode (on host "%s"), but using this mode is strongly discouraged.',
       'The directory for local repositories (%s) does not exist, or is not readable by the webserver. Phabricator uses this directory to store information about repositories. If this directory does not exist, create it:
     %s
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'The directory for local repositories (%s) does not exist, or is not readable by the webserver. Phabricator uses this directory to store information about repositories. If this directory does not exist, create it:
@@ -508,6 +514,7 @@ final class PhabricatorConfigEn
       'Force users to connect via HTTPS instead of HTTP.' => 'Force users to connect via HTTPS instead of HTTP.',
       'Install the MySQLi extension to improve database behavior.' => 'Install the MySQLi extension to improve database behavior.',
       'Large Files' => 'Large Files',
+      'Compressed Requests Not Received Properly' => 'Compressed Requests Not Received Properly',
       'Mark a manual upgrade activity as complete.' => 'Mark a manual upgrade activity as complete.',
       '%s Not Set' => '%s Not Set',
       'This configuration option has been replaced with a modular handler. See T9346.' => 'This configuration option has been replaced with a modular handler. See T9346.',
@@ -521,26 +528,27 @@ final class PhabricatorConfigEn
       'Local Disk Storage' => 'Local Disk Storage',
       'The configuration option \'%s\' is not recognized. It may be misspelled, or it might have existed in an older version of Phabricator. It has no effect, and should be corrected or deleted.' => 'The configuration option \'%s\' is not recognized. It may be misspelled, or it might have existed in an older version of Phabricator. It has no effect, and should be corrected or deleted.',
       'Issue' => 'Issue',
+      'Determines which URI protocols are valid for links and redirects.' => 'Determines which URI protocols are valid for links and redirects.',
       'Configuration Guide: Configuring a File Domain' => 'Configuration Guide: Configuring a File Domain',
       'Activate DarkConsole on every page.' => 'Activate DarkConsole on every page.',
       'Enable verbose error reporting and disk reads.' => 'Enable verbose error reporting and disk reads.',
       'Mail object address hash keys are now generated automatically.' => 'Mail object address hash keys are now generated automatically.',
       'Too many arguments: expected one key and one value.' => 'Too many arguments: expected one key and one value.',
       'Settings History' => 'Settings History',
-      'MySQL is not in strict mode (on host "%s"), but using strict mode is strongly encouraged.' => 'MySQL is not in strict mode (on host "%s"), but using strict mode is strongly encouraged.',
       'Opcode' => 'Opcode',
       'To update these %d value(s), edit your PHP configuration file.' => 'To update these %s value(s), edit your PHP configuration file.',
+      'Auth provider config must be unlocked before editing' => 'Auth provider config must be unlocked before editing',
       'Enable Recaptcha' => 'Enable Recaptcha',
       'Prefix cookie with "%s"' => 'Prefix cookie with "%s"',
       'Migrated option "%s" from file to database config.' => 'Migrated option "%s" from file to database config.',
       'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that Phabricator imports or manages. This option is new and experimental.' => 'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that Phabricator imports or manages. This option is new and experimental.',
       'PHP Documentation' => 'PHP Documentation',
+      'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. Phabricator will not work properly until you do.' => 'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. Phabricator will not work properly until you do.',
       'Your webserver produced an unexpected response.' => 'Your webserver produced an unexpected response.',
       'Phabricator now automatically discovers available search engines at runtime.' => 'Phabricator now automatically discovers available search engines at runtime.',
       'Unable to determine the version number of "%s".' => 'Unable to determine the version number of "%s".',
       'If true, email addresses must be verified (by clicking a link in an email) before a user can login. By default, verification is optional unless @{config:auth.email-domains} is nonempty.' => 'If true, email addresses must be verified (by clicking a link in an email) before a user can login. By default, verification is optional unless @{config:auth.email-domains} is nonempty.',
       'PHP OPcache Documentation' => 'PHP OPcache Documentation',
-      'Config key "%s" is of type "%s". Specify it in JSON.' => 'Config key "%s" is of type "%s". Specify it in JSON.',
       'Cluster: Databases' => 'Cluster: Databases',
       'No Messages' => 'No Messages',
       'Footer item with index "%s" is invalid: each item must be a dictionary describing a footer item.' => 'Footer item with index "%s" is invalid: each item must be a dictionary describing a footer item.',
@@ -599,7 +607,6 @@ final class PhabricatorConfigEn
     If your install is completely public, or on a VPN, or users can only register with a trusted provider like LDAP, or you\'ve otherwise configured Phabricator to prevent unauthorized registration, you can disable the queue to reduce administrative overhead.
     NOTE: Before you disable the queue, make sure @{config:auth.email-domains} is configured correctly for your install!',
       'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.',
-      '%s at %s' => '%s at %s',
       'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'Your PHP configuration selects an invalid timezone. Select a valid timezone.',
       '%s deleted this configuration entry (again?).' => '%s deleted this configuration entry (again?).',
       'Unresolved Setup Issues' => 'Unresolved Setup Issues',
@@ -623,6 +630,7 @@ final class PhabricatorConfigEn
       'The framable public feed is no longer supported.' => 'The framable public feed is no longer supported.',
       'A random, unique string which identifies the request.' => 'A random, unique string which identifies the request.',
       'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. Phabricator can not determine the correct endpoint automatically because some endpoint locations are irregular.' => 'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. Phabricator can not determine the correct endpoint automatically because some endpoint locations are irregular.',
+      'Auth provider config can be edited without unlocking' => 'Auth provider config can be edited without unlocking',
       'Disable unsafe option "%s" in PHP configuration.' => 'Disable unsafe option "%s" in PHP configuration.',
       'Phabricator now always sends transaction mail with "Precedence: bulk" to improve deliverability.' => 'Phabricator now always sends transaction mail with "Precedence: bulk" to improve deliverability.',
       '%s Day(s)' => '%s Day(s)',
@@ -664,21 +672,10 @@ final class PhabricatorConfigEn
       'Whitelist 1.2.*.*' => 'Whitelist 1.2.*.*',
       'Highlight httpd.conf as "apacheconf".' => 'Highlight httpd.conf as "apacheconf".',
       'Database Value' => 'Database Value',
-      'On database host "%s", the global %s is set to %s. It is strongly encouraged that you disable this mode when running Phabricator.
-    With %s enabled, MySQL rejects queries for which the select list or (as of MySQL 5.0.23) %s list refer to nonaggregated columns that are not named in the %s clause. More importantly, Phabricator does not work properly with this mode enabled.
-    You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to change the %s in your %s file (in the %s section) and then restart %s:
-    %s
-    (Note that if you run other applications against the same database, they may not work with %s. Be careful about enabling it in these cases and consider migrating Phabricator to a different database.)' => 'On database host "%s", the global %s is set to %s. It is strongly encouraged that you disable this mode when running Phabricator.
-    With %s enabled, MySQL rejects queries for which the select list or (as of MySQL 5.0.23) %s list refer to nonaggregated columns that are not named in the %s clause. More importantly, Phabricator does not work properly with this mode enabled.
-    You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to change the %s in your %s file (in the %s section) and then restart %s:
-    %s
-    (Note that if you run other applications against the same database, they may not work with %s. Be careful about enabling it in these cases and consider migrating Phabricator to a different database.)',
       'US Mountain (MDT)' => 'US Mountain (MDT)',
       'This option has been replaced with `ui.logo`, which provides more flexible configuration options.' => 'This option has been replaced with `ui.logo`, which provides more flexible configuration options.',
       'Rebuild Search Index' => 'Rebuild Search Index',
-      '%s Configuration' => '%s Configuration',
       'Real' => 'Real',
-      'Launch daemons in \'verbose\' mode by default.' => 'Launch daemons in \'verbose\' mode by default.',
       'Partition: %s' => 'Partition: %s',
       'This is an override list of regular expressions which allows you to choose what language files are highlighted as. If your projects have certain rules about filenames or use unusual or ambiguous language extensions, you can create a mapping here. This is an ordered dictionary of regular expressions which will be tested against the filename. They should map to either an explicit language as a string value, or a numeric index into the captured groups as an integer.' => 'This is an override list of regular expressions which allows you to choose what language files are highlighted as. If your projects have certain rules about filenames or use unusual or ambiguous language extensions, you can create a mapping here. This is an ordered dictionary of regular expressions which will be tested against the filename. They should map to either an explicit language as a string value, or a numeric index into the captured groups as an integer.',
       'You can restrict allowed email addresses to certain domains (like `yourcompany.com`) by setting a list of allowed domains here.
@@ -686,6 +683,7 @@ final class PhabricatorConfigEn
     You should omit the `@` from domains. Note that the domain must match exactly. If you allow `yourcompany.com`, that permits `joe@yourcompany.com` but rejects `joe@mail.yourcompany.com`.' => 'You can restrict allowed email addresses to certain domains (like `yourcompany.com`) by setting a list of allowed domains here.
     Users will only be allowed to register using email addresses at one of the domains, and will only be able to add new email addresses for these domains. If you configure this, it implies @{config:auth.require-email-verification}.
     You should omit the `@` from domains. Note that the domain must match exactly. If you allow `yourcompany.com`, that permits `joe@yourcompany.com` but rejects `joe@mail.yourcompany.com`.',
+      'Show unresolved issues with setup and configuration.' => 'Show unresolved issues with setup and configuration.',
       'Options for Phurl.' => 'Options for Phurl.',
       'IMPORTANT: The upstream does not provide support for prototype applications.
     Phabricator includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing Phabricator or are interested in previewing upcoming features.
@@ -695,6 +693,7 @@ final class PhabricatorConfigEn
     To learn more about prototypes, see [[ %s | %s ]].
     After enabling prototypes, you can selectively uninstall them (like normal applications).',
       'For conduit, the Conduit method which was invoked.' => 'For conduit, the Conduit method which was invoked.',
+      'The request body Phabricator received began:' => 'The request body Phabricator received began:',
       'The configured PATH includes a component which is not usable. Phabricator will be unable to find or execute binaries located here:
     %s
     The user that the webserver runs as must be able to read all the directories in PATH in order to make use of them.' => 'The configured PATH includes a component which is not usable. Phabricator will be unable to find or execute binaries located here:
@@ -715,12 +714,11 @@ final class PhabricatorConfigEn
       'Missing Key' => 'Missing Key',
       'Expected Nullable' => 'Expected Nullable',
       'Disable SSH log.' => 'Disable SSH log.',
-      'Current Settings' => 'Current Settings',
       'No databases have any issues.' => 'No databases have any issues.',
-      'Trace mode' => 'Trace mode',
       'Option "%s" is of type "%s", but the configured value is not an integer.' => 'Option "%s" is of type "%s", but the configured value is not an integer.',
       'Notifications no longer have a dedicated debugging mode.' => 'Notifications no longer have a dedicated debugging mode.',
       'Daemon Running as Wrong User' => 'Daemon Running as Wrong User',
+      'MySQL is not in strict mode (on host "%s"), but using strict mode is recommended.' => 'MySQL is not in strict mode (on host "%s"), but using strict mode is recommended.',
       'Extending Phabricator' => 'Extending Phabricator',
       'This ancient extension point has been replaced with other mechanisms, including "AphrontSite".' => 'This ancient extension point has been replaced with other mechanisms, including "AphrontSite".',
       'You enabled Elasticsearch but the index does not exist.' => 'You enabled Elasticsearch but the index does not exist.',
@@ -729,6 +727,7 @@ final class PhabricatorConfigEn
       'Your `%s` configuration contains a port number, but this usage is deprecated. Instead, put the port number in `%s`.' => 'Your `%s` configuration contains a port number, but this usage is deprecated. Instead, put the port number in `%s`.',
       'Elasticsearch Index Schema Mismatch' => 'Elasticsearch Index Schema Mismatch',
       'Column has Wrong Autoincrement' => 'Column has Wrong Autoincrement',
+      'Specify the configuration key you want to set.' => 'Specify the configuration key you want to set.',
       'Memory Limit Restricts File Uploads' => 'Memory Limit Restricts File Uploads',
       'Cache Entries' => 'Cache Entries',
       'Unknown column type "%s"!' => 'Unknown column type "%s"!',
@@ -750,10 +749,10 @@ final class PhabricatorConfigEn
       'Request has bad "Host" header.' => 'Request has bad "Host" header.',
       'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.' => 'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.',
       'Elasticsearch is not reachable as configured.' => 'Elasticsearch is not reachable as configured.',
-      'Cluster Repository Status' => 'Cluster Repository Status',
       'Key has Wrong Uniqueness' => 'Key has Wrong Uniqueness',
       'Determines whether or not basic account information is editable.' => 'Determines whether or not basic account information is editable.',
       'Get a local configuration value.' => 'Get a local configuration value.',
+      'Authenticaton Configuration Unlocked' => 'Authenticaton Configuration Unlocked',
       'The base URI for this install is not configured. Many major features will not work properly until you configure it.' => 'The base URI for this install is not configured. Many major features will not work properly until you configure it.',
       'Unexpected \'diff\' Behavior' => 'Unexpected \'diff\' Behavior',
       'The \'%s\' binary on this system has unexpected behavior: it was expected to exit with a nonzero error code when passed differing files, but did not.' => 'The \'%s\' binary on this system has unexpected behavior: it was expected to exit with a nonzero error code when passed differing files, but did not.',
@@ -769,7 +768,6 @@ final class PhabricatorConfigEn
       'Migrated option "%s" from file to local config.' => 'Migrated option "%s" from file to local config.',
       'Shenanigans' => 'Shenanigans',
       'The path for local repositories does not exist, or is not readable by the webserver.' => 'The path for local repositories does not exist, or is not readable by the webserver.',
-      'Verbose mode' => 'Verbose mode',
       'Inbound and outbound mail is now configured with "cluster.mailers".' => 'Inbound and outbound mail is now configured with "cluster.mailers".',
       'Config \'%s\' Invalid' => 'Config \'%s\' Invalid',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.',
@@ -785,9 +783,9 @@ final class PhabricatorConfigEn
       'Multi-Factor Required' => 'Multi-Factor Required',
       'Host: %s' => 'Host: %s',
       'URI that Phurl will use to shorten URLs.' => 'URI that Phurl will use to shorten URLs.',
-      'Local Version' => 'Local Version',
       'Profile every request (slow)' => 'Profile every request (slow)',
       'Resolved Issue' => 'Resolved Issue',
+      'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => 'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.',
       'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'This option generally did not prove useful. Resource hash keys are now managed automatically.',
       'To enable the Phabricator access log, specify a path. The Phabricator access than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
     If not set, no log will be written.' => 'To enable the Phabricator access log, specify a path. The Phabricator access than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
@@ -817,7 +815,6 @@ final class PhabricatorConfigEn
       'Return to Open Issue List' => 'Return to Open Issue List',
       'Either the Phabricator schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.' => 'Either the Phabricator schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.',
       'Activate read-only mode for maintenance or disaster recovery.' => 'Activate read-only mode for maintenance or disaster recovery.',
-      'Specify a configuration key and a value to set it to.' => 'Specify a configuration key and a value to set it to.',
       'PHP also loaded these %s configuration file(s):' => 'PHP also loaded these %s configuration file(s):',
       'Reading value from stdin...' => 'Reading value from stdin...',
       'Option "%s" is of type "%s", but the value you provided is not a valid JSON list: when providing a set from the command line, specify it as a list of values in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'Option "%s" is of type "%s", but the value you provided is not a valid JSON list: when providing a set from the command line, specify it as a list of values in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').',
@@ -835,6 +832,13 @@ final class PhabricatorConfigEn
       'Unsafe MySQL "local_infile" Setting Enabled' => 'Unsafe MySQL "local_infile" Setting Enabled',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' does not exist.' => 'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' does not exist.',
       'The search index algorithm has been updated and the index needs be rebuilt.' => 'The search index algorithm has been updated and the index needs be rebuilt.',
+      'The configuration value "%s" is locked (so it can not be edited from the web UI), but has a database value. Usually, this means that it was previously not locked, you set it using the web UI, and it later became locked.
+    You should copy this configuration value to a local configuration source (usually by using %s) and then remove it from the database with the command below.
+    For more information on locked and hidden configuration, including details about this setup issue, see %s.
+    This database value is currently respected, but a future version of Phabricator will stop respecting database values for locked configuration options.' => 'The configuration value "%s" is locked (so it can not be edited from the web UI), but has a database value. Usually, this means that it was previously not locked, you set it using the web UI, and it later became locked.
+    You should copy this configuration value to a local configuration source (usually by using %s) and then remove it from the database with the command below.
+    For more information on locked and hidden configuration, including details about this setup issue, see %s.
+    This database value is currently respected, but a future version of Phabricator will stop respecting database values for locked configuration options.',
       'Phabricator has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Phabricator has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.',
       'The current PHP configuration has these %d value(s):' => 'The current PHP configuration has these %s value(s):',
       'This issue is currently ignored, and does not show a global warning.' => 'This issue is currently ignored, and does not show a global warning.',
@@ -848,12 +852,12 @@ final class PhabricatorConfigEn
       'Run Normally' => 'Run Normally',
       'Default key for HMAC digests where the key is not important (i.e., the hash itself is secret). You can change this if you want (to any other string), but doing so will break existing sessions and CSRF tokens. This option is deprecated. Newer code automatically manages HMAC keys.' => 'Default key for HMAC digests where the key is not important (i.e., the hash itself is secret). You can change this if you want (to any other string), but doing so will break existing sessions and CSRF tokens. This option is deprecated. Newer code automatically manages HMAC keys.',
       'Highlight %s as PHP.' => 'Highlight %s as PHP.',
-      'Launch daemons in \'trace\' mode by default. This creates an ENORMOUS amount of output, but can help debug issues. Daemons launched in debug mode with \'%s\' are always launched in trace mode. See also \'%s\'.' => 'Launch daemons in \'trace\' mode by default. This creates an ENORMOUS amount of output, but can help debug issues. Daemons launched in debug mode with \'%s\' are always launched in trace mode. See also \'%s\'.',
       'MySQL is Using Default Stopword File' => 'MySQL is Using Default Stopword File',
       'Pagespeed is enabled, but should be disabled.' => 'Pagespeed is enabled, but should be disabled.',
       'Paths to additional phutil libraries to load.' => 'Paths to additional phutil libraries to load.',
       'User Guide: Prototype Applications' => 'User Guide: Prototype Applications',
       'If you enable this, linked YouTube videos will be embedded inline. This has mild security implications (you\'ll leak referrers to YouTube) and is pretty silly (but sort of awesome).' => 'If you enable this, linked YouTube videos will be embedded inline. This has mild security implications (you\'ll leak referrers to YouTube) and is pretty silly (but sort of awesome).',
+      'Library' => 'Library',
       'The \'%s\' binary could not be located or executed.' => 'The \'%s\' binary could not be located or executed.',
       'Show Email Preferences Link' => 'Show Email Preferences Link',
       'Confirm before redirecting so DarkConsole can be examined.' => 'Confirm before redirecting so DarkConsole can be examined.',
@@ -869,6 +873,7 @@ final class PhabricatorConfigEn
     For instructions on installing and enabling Pygments, see the %s configuration option.
     If you do not want to install Pygments, you can ignore this issue.',
       'On host "%s", MySQL is configured with a small "%s" (%d), which may cause some large writes to fail. The recommended minimum value for this setting is "%d".' => 'On host "%s", MySQL is configured with a small "%s" (%s), which may cause some large writes to fail. The recommended minimum value for this setting is "%s".',
+      'Config option "%s" is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like "%s".' => 'Config option "%s" is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like "%s".',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not a directory.' => 'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not a directory.',
       'Unable to connect to MySQL!
     %s
@@ -879,13 +884,14 @@ final class PhabricatorConfigEn
     Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.' => 'Phabricator sent itself a test request with an "Authorization" HTTP header, and expected those credentials to be transmitted. However, they were absent or incorrect when received. Phabricator sent username "%s" with password "%s"; received username "%s" and password "%s".
     Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.',
       'After installing new PHP extensions, <strong>restart Phabricator for the changes to take effect</strong>. For help with restarting Phabricator, see %s in the documentation.' => 'After installing new PHP extensions, <strong>restart Phabricator for the changes to take effect</strong>. For help with restarting Phabricator, see %s in the documentation.',
+      'Missing "zip" Extension' => 'Missing "zip" Extension',
       'Set the language list which appears in dropdowns.' => 'Set the language list which appears in dropdowns.',
       'Inverse' => 'Inverse',
       'Deprecated Config Source' => 'Deprecated Config Source',
+      'The request body Phabricator sent began:' => 'The request body Phabricator sent began:',
       'Indefinite' => 'Indefinite',
       'You can rebuild the search index while Phabricator is running.' => 'You can rebuild the search index while Phabricator is running.',
       'Edge Types' => 'Edge Types',
-      '%s (branched from %s on %s)' => '%s (branched from %s on %s)',
       'Disable access log.' => 'Disable access log.',
       'Logo configuration is not valid: value must be a dictionary.' => 'Logo configuration is not valid: value must be a dictionary.',
       'Really ignore this setup issue?' => 'Really ignore this setup issue?',
@@ -900,7 +906,9 @@ final class PhabricatorConfigEn
       'Options relating to syntax highlighting source code.' => 'Options relating to syntax highlighting source code.',
       'Allow HTTP' => 'Allow HTTP',
       'The current Phabricator configuration has these %d value(s):' => 'The current Phabricator configuration has these %s value(s):',
+      'Phabricator sent itself a test request that was compressed with "Content-Encoding: gzip", but received different bytes than it sent.' => 'Phabricator sent itself a test request that was compressed with "Content-Encoding: gzip", but received different bytes than it sent.',
       'Simple Example' => 'Simple Example',
+      'Auth Config Unlocked' => 'Auth Config Unlocked',
       'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => 'Controls whether Phabricator allows the suppression of email from "maintenance" users.',
       'Synchronized' => 'Synchronized',
       'Access key for Amazon EC2.' => 'Access key for Amazon EC2.',
@@ -953,6 +961,7 @@ final class PhabricatorConfigEn
     If updating Phabricator does not fix this, you can report the issue to the upstream so we can adjust the parser.
     If you are confident you have a recent version of "%s" installed and working correctly, it is usually safe to ignore this warning.',
       'Internal.' => 'Internal.',
+      'Advanced Settings' => 'Advanced Settings',
       'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.' => 'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.',
       'SSH log format.' => 'SSH log format.',
       'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator may not be able to determine the MIME types of uploaded files.' => 'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator may not be able to determine the MIME types of uploaded files.',
@@ -965,13 +974,13 @@ final class PhabricatorConfigEn
       'PHP 7.0-7.1 Not Supported' => 'PHP 7.0-7.1 Not Supported',
       'List all configuration keys.' => 'List all configuration keys.',
       'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".',
+      'Configuration key "%s" is of type "%s". Specify it in JSON.' => 'Configuration key "%s" is of type "%s". Specify it in JSON.',
       'This will only affect the current web frontend. Daemons and any other web frontends may continue to use older, cached code from their opcache.' => 'This will only affect the current web frontend. Daemons and any other web frontends may continue to use older, cached code from their opcache.',
       'Configure real-time notifications.' => 'Configure real-time notifications.',
       'Surplus Key' => 'Surplus Key',
       'Make Phabricator even cooler!' => 'Make Phabricator even cooler!',
       'Cluster Setup' => 'Cluster Setup',
       'Obsolete Configuration Option "%s"' => 'Obsolete Configuration Option "%s"',
-      'Setup' => 'Setup',
       'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
     Upgrade %s to a patched version.
     To learn more about how this issue affects Phabricator, see %s.' => 'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
@@ -980,6 +989,7 @@ final class PhabricatorConfigEn
       'Expected Autoincrement' => 'Expected Autoincrement',
       'This version of Mercurial has a significant memory leak, fixed in 2.2.1. Pushing fails with this version as well; see %s.' => 'This version of Mercurial has a significant memory leak, fixed in 2.2.1. Pushing fails with this version as well; see %s.',
       'MySQL is configured (on host "%s") to only index words with at least %d characters.' => 'MySQL is configured (on host "%s") to only index words with at least %s characters.',
+      'Too many arguments: expected only a configuration key when using "--stdin".' => 'Too many arguments: expected only a configuration key when using "--stdin".',
       'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.',
       'Phabricator Setup Error' => 'Phabricator Setup Error',
       'Major Web/Database Clock Skew' => 'Major Web/Database Clock Skew',
@@ -987,6 +997,7 @@ final class PhabricatorConfigEn
       'No repository cluster services are configured.' => 'No repository cluster services are configured.',
       'Syntax Highlighting' => 'Syntax Highlighting',
       'This schema is not expected to exist.' => 'This schema is not expected to exist.',
+      'View status information for databases, caches, repositories, and other services.' => 'View status information for databases, caches, repositories, and other services.',
       'This configuration value is defined in these %d configuration source(s): %s.' => 'This configuration value is defined in these %s configuration source(s): %s.',
       'Specify a configuration key to get.' => 'Specify a configuration key to get.',
       'Can not compare two missing schemata!' => 'Can not compare two missing schemata!',
@@ -996,6 +1007,7 @@ final class PhabricatorConfigEn
       'Skipping config of source type %s...' => 'Skipping config of source type %s...',
       'No profiling' => 'No profiling',
       'PHID Types' => 'PHID Types',
+      'Wrote configuration key "%s" to database storage.' => 'Wrote configuration key "%s" to database storage.',
       'The environmental variable %s does not contain %s. You have enabled pygments, which requires %s to be available in your %s variable.' => 'The environmental variable %s does not contain %s. You have enabled pygments, which requires %s to be available in your %s variable.',
       'Use Pygments' => 'Use Pygments',
       'Amazon Web Services' => 'Amazon Web Services',
@@ -1017,13 +1029,11 @@ final class PhabricatorConfigEn
       'Require Administrators to Approve Accounts' => 'Require Administrators to Approve Accounts',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Set %s in your PHP configuration to at least 32MB to support large file uploads.',
       'The system sudo user.' => 'The system sudo user.',
-      'When users write comments which have URIs, they\'ll be automatically linked if the protocol appears in this set. This whitelist is primarily to prevent security issues like %s URIs.' => 'When users write comments which have URIs, they\'ll be automatically linked if the protocol appears in this set. This whitelist is primarily to prevent security issues like %s URIs.',
       'MySQL %s Mode Not Set' => 'MySQL %s Mode Not Set',
+      'If you are using Apache, your server may be configured with "SetInputFilter DEFLATE". This directive destructively mangles requests and emits them with "Content-Length" and "Content-Encoding" headers that no longer match the data in the request body.' => 'If you are using Apache, your server may be configured with "SetInputFilter DEFLATE". This directive destructively mangles requests and emits them with "Content-Length" and "Content-Encoding" headers that no longer match the data in the request body.',
       'Phabricator Daemons Are Not Running' => 'Phabricator Daemons Are Not Running',
       'A component of the configured PATH can not be used by the webserver: %s' => 'A component of the configured PATH can not be used by the webserver: %s',
-      'Directory that phd should use to track running daemons.' => 'Directory that phd should use to track running daemons.',
       'Use specific endpoint' => 'Use specific endpoint',
-      'Cluster' => 'Cluster',
       'Configure Recaptcha captchas.' => 'Configure Recaptcha captchas.',
       'Report this Issue to the Upstream' => 'Report this Issue to the Upstream',
       'Options relating to PHD (daemons).' => 'Options relating to PHD (daemons).',
@@ -1031,7 +1041,7 @@ final class PhabricatorConfigEn
       'Database configuration.' => 'Database configuration.',
       'Option "%s" is of type "%s", but the current value ("%s") is not a known, concrete subclass of base class "%s". Valid selections are: %s.' => 'Option "%s" is of type "%s", but the current value ("%s") is not a known, concrete subclass of base class "%s". Valid selections are: %s.',
       'Options for Phabricator developers, including debugging.' => 'Options for Phabricator developers, including debugging.',
-      'Increase security (and improve performance) by configuring a CDN or alternate file domain.' => 'Increase security (and improve performance) by configuring a CDN or alternate file domain.',
+      'Databases' => 'Databases',
       'Basic Example' => 'Basic Example',
       '%s In / %s Out' => '%s In / %s Out',
       'DarkConsole is a development and profiling tool built into Phabricator\'s web interface. You should leave it disabled unless you are developing or debugging Phabricator.
@@ -1041,6 +1051,8 @@ final class PhabricatorConfigEn
     DarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.',
       'The timezone Phabricator should use.' => 'The timezone Phabricator should use.',
       'Whitelist Specific Addresses' => 'Whitelist Specific Addresses',
+      'Other Version Information' => 'Other Version Information',
+      'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.',
       'Use `%s` instead of this option.' => 'Use `%s` instead of this option.',
       'Control how Phabricator renders user names in mail.' => 'Control how Phabricator renders user names in mail.',
       'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.',
@@ -1051,7 +1063,6 @@ final class PhabricatorConfigEn
       'Phabricator received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with Phabricator. You should disable it.' => 'Phabricator received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with Phabricator. You should disable it.',
       'External loaders have been replaced. Extend `%s` to implement new PHID and handle types.' => 'External loaders have been replaced. Extend `%s` to implement new PHID and handle types.',
       'Authenticating users based on "Reply-To" is no longer supported.' => 'Authenticating users based on "Reply-To" is no longer supported.',
-      'Cluster Notifications' => 'Cluster Notifications',
       'Option "%s" is of type "%s", but the configured value is not a list.' => 'Option "%s" is of type "%s", but the configured value is not a list.',
       'Cluster instance name, if configured.' => 'Cluster instance name, if configured.',
       'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.' => 'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.',
@@ -1066,12 +1077,9 @@ final class PhabricatorConfigEn
       'Daemons Not Running' => 'Daemons Not Running',
       'MySQL username to use when connecting to the database.' => 'MySQL username to use when connecting to the database.',
       'Secret key for Amazon EC2.' => 'Secret key for Amazon EC2.',
-      'Database Issues' => 'Database Issues',
       'Configure the MySQL Native Driver to improve database behavior.' => 'Configure the MySQL Native Driver to improve database behavior.',
       'You must start the Phabricator daemons to send email, rebuild search indexes, and do other background processing.' => 'You must start the Phabricator daemons to send email, rebuild search indexes, and do other background processing.',
-      'PHP requires that you set a timezone in your php.ini before using date functions, or it will emit a warning. If this isn\'t possible (for instance, because you are using HPHP) you can set some valid constant for %s here and Phabricator will set it on your behalf, silencing the warning.' => 'PHP requires that you set a timezone in your php.ini before using date functions, or it will emit a warning. If this isn\'t possible (for instance, because you are using HPHP) you can set some valid constant for %s here and Phabricator will set it on your behalf, silencing the warning.',
       'These %d configuration value(s) are related:' => 'These %s configuration value(s) are related:',
-      'Too many arguments: expected only a key when using "--stdin".' => 'Too many arguments: expected only a key when using "--stdin".',
       'Names must match to compare schemata!' => 'Names must match to compare schemata!',
       'Core Settings' => 'Core Settings',
       'Your MySQL server is configured with the "local_infile" option enabled. This option allows an attacker who finds an SQL injection hole to escalate their attack by copying files from the webserver into the database with "LOAD DATA LOCAL INFILE" queries, then reading the file content with "SELECT" queries.
@@ -1079,16 +1087,29 @@ final class PhabricatorConfigEn
     %s' => 'Your MySQL server is configured with the "local_infile" option enabled. This option allows an attacker who finds an SQL injection hole to escalate their attack by copying files from the webserver into the database with "LOAD DATA LOCAL INFILE" queries, then reading the file content with "SELECT" queries.
     You should disable this option in your %s file, in the %s section:
     %s',
-      'Set \'%s\' in %s configuration.' => 'Set \'%s\' in %s configuration.',
       'Setup Checks' => 'Setup Checks',
       'Database host "%s" is configured as a master, but is replicating another host. This is dangerous and can mangle or destroy data. Only replicas should be replicating. Stop replication on the host or reconfigure Phabricator.' => 'Database host "%s" is configured as a master, but is replicating another host. This is dangerous and can mangle or destroy data. Only replicas should be replicating. Stop replication on the host or reconfigure Phabricator.',
+      'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
+    Without this mode enabled, MySQL will silently ignore some error conditions, including inserts which attempt to store more data in a column than actually fits. This behavior is usually undesirable and can lead to data corruption (by truncating multibyte characters in the middle), data loss (by discarding the data which does not fit into the column), or security concerns (for example, by truncating keys or credentials).
+    Phabricator is developed and tested in "STRICT_ALL_TABLES" mode so you should normally never encounter these situations, but may run into them if you interact with the database directly, run third-party code, develop extensions, or just encounter a bug in the software.
+    Enabling "STRICT_ALL_TABLES" makes MySQL raise an explicit error if one of these unusual situations does occur. This is a safer behavior and prevents these situations from causing secret, subtle, and potentially serious issues later on.
+    You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to add this to your "my.cnf" file (in the "[mysqld]" section) and then restart "mysqld":
+    %s
+    Note that if you run other applications against the same database, they may not work in strict mode.
+    If you can not or do not want to enable "STRICT_ALL_TABLES", you can safely ignore this warning. Phabricator will work correctly with this mode enabled or disabled.' => 'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
+    Without this mode enabled, MySQL will silently ignore some error conditions, including inserts which attempt to store more data in a column than actually fits. This behavior is usually undesirable and can lead to data corruption (by truncating multibyte characters in the middle), data loss (by discarding the data which does not fit into the column), or security concerns (for example, by truncating keys or credentials).
+    Phabricator is developed and tested in "STRICT_ALL_TABLES" mode so you should normally never encounter these situations, but may run into them if you interact with the database directly, run third-party code, develop extensions, or just encounter a bug in the software.
+    Enabling "STRICT_ALL_TABLES" makes MySQL raise an explicit error if one of these unusual situations does occur. This is a safer behavior and prevents these situations from causing secret, subtle, and potentially serious issues later on.
+    You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to add this to your "my.cnf" file (in the "[mysqld]" section) and then restart "mysqld":
+    %s
+    Note that if you run other applications against the same database, they may not work in strict mode.
+    If you can not or do not want to enable "STRICT_ALL_TABLES", you can safely ignore this warning. Phabricator will work correctly with this mode enabled or disabled.',
       'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.',
       'Keys' => 'Keys',
       'No Auth Providers' => 'No Auth Providers',
       'Missing Required Extensions' => 'Missing Required Extensions',
       'The \'%s\' extension has support for only some image types. Phabricator will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => 'The \'%s\' extension has support for only some image types. Phabricator will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.',
       'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.' => 'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.',
-      '- at %s' => '- at %s',
       'Activity "%s" is not currently marked as required, so there is no need to complete it.' => 'Activity "%s" is not currently marked as required, so there is no need to complete it.',
       'The \'%s\' binary could not be found. Set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in the Phabricator configuration.' => 'The \'%s\' binary could not be found. Set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in the Phabricator configuration.',
       'To continue, resolve this problem and reload the page.' => 'To continue, resolve this problem and reload the page.',
@@ -1107,6 +1128,7 @@ final class PhabricatorConfigEn
       'To rebuild identities, run this command:' => 'To rebuild identities, run this command:',
       'Missing Repository Local Path' => 'Missing Repository Local Path',
       'An alternate resource map is no longer supported. Instead, use multiple maps. See T4222.' => 'An alternate resource map is no longer supported. Instead, use multiple maps. See T4222.',
+      'Repository Services' => 'Repository Services',
       'Inline comments are now always rendered with a limited amount of context.' => 'Inline comments are now always rendered with a limited amount of context.',
       'Your server is configured with \'%s\', which prevents Phabricator from opening files it requires access to.
     Disable this setting to continue.' => 'Your server is configured with \'%s\', which prevents Phabricator from opening files it requires access to.
@@ -1114,11 +1136,18 @@ final class PhabricatorConfigEn
       'Locked Configuration Option "%s" Has Database Value' => 'Locked Configuration Option "%s" Has Database Value',
       'Separate values with newlines or commas.' => 'Separate values with newlines or commas.',
       'Don\'t require email verification' => 'Don\'t require email verification',
+      'Configuration key "%s" is unknown. Use "bin/config list" to list all known keys.' => 'Configuration key "%s" is unknown. Use "bin/config list" to list all known keys.',
       'Alternate File Domain Not Configured' => 'Alternate File Domain Not Configured',
       'MySQLi Extension Not Available' => 'MySQLi Extension Not Available',
       'Unknown schema issue "%s"!' => 'Unknown schema issue "%s"!',
       'Embed Commons videos' => 'Embed Commons videos',
-      '%s » %s' => '%s » %s',
+      'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
+    This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
+    This set is also used to enforce valid redirect URIs. Phabricator will refuse to issue a HTTP "Location" redirect to a URI with a protocol not on this set.
+    Usually, "http" and "https" should be present in this set. If you remove one or both protocols, some Phabricator features which rely on links or redirects may not work.' => 'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
+    This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
+    This set is also used to enforce valid redirect URIs. Phabricator will refuse to issue a HTTP "Location" redirect to a URI with a protocol not on this set.
+    Usually, "http" and "https" should be present in this set. If you remove one or both protocols, some Phabricator features which rely on links or redirects may not work.',
       'Limit page execution time to debug hangs.' => 'Limit page execution time to debug hangs.',
       'Base URI Not Configured' => 'Base URI Not Configured',
       'Always Activate DarkConsole' => 'Always Activate DarkConsole',
@@ -1158,8 +1187,11 @@ final class PhabricatorConfigEn
       'Only allow registration from particular domains.' => 'Only allow registration from particular domains.',
       'Subschemata have setup failures.' => 'Subschemata have setup failures.',
       'Normally, Phabricator issues HTTP redirects after a successful POST. This can make it difficult to debug things which happen while processing the POST, because service and profiling information are lost. By setting this configuration option, Phabricator will show a page instead of automatically redirecting, allowing you to examine service and profiling information. It also makes the UX awful, so you should only enable it when debugging.' => 'Normally, Phabricator issues HTTP redirects after a successful POST. This can make it difficult to debug things which happen while processing the POST, because service and profiling information are lost. By setting this configuration option, Phabricator will show a page instead of automatically redirecting, allowing you to examine service and profiling information. It also makes the UX awful, so you should only enable it when debugging.',
+      'Phabricator Configuation' => 'Phabricator Configuation',
       'No performance sampling.' => 'No performance sampling.',
+      'Show installed extensions and modules.' => 'Show installed extensions and modules.',
       'Opcode Cache' => 'Opcode Cache',
+      'Specify a value to set the configuration key "%s" to, or use "--stdin" to read a value from stdin.' => 'Specify a value to set the configuration key "%s" to, or use "--stdin" to read a value from stdin.',
       'ID of the SSH key used to authenticate the request.' => 'ID of the SSH key used to authenticate the request.',
       'US East (EDT)' => 'US East (EDT)',
       'The HTTP referrer.' => 'The HTTP referrer.',
@@ -1170,19 +1202,9 @@ final class PhabricatorConfigEn
       'This setup issue has been resolved. ' => 'This setup issue has been resolved. ',
       'Additional configuration options to hide.' => 'Additional configuration options to hide.',
       'The logged-in username, if one is logged in.' => 'The logged-in username, if one is logged in.',
-      'On database host "%s", the global %s is not set to %s. It is strongly encouraged that you enable this mode when running Phabricator.
-    By default MySQL will silently ignore some types of errors, which can cause data loss and raise security concerns. Enabling strict mode makes MySQL raise an explicit error instead, and prevents this entire class of problems from doing any damage.
-    You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (Note that if you run other applications against the same database, they may not work in strict mode. Be careful about enabling it in these cases.)' => 'On database host "%s", the global %s is not set to %s. It is strongly encouraged that you enable this mode when running Phabricator.
-    By default MySQL will silently ignore some types of errors, which can cause data loss and raise security concerns. Enabling strict mode makes MySQL raise an explicit error instead, and prevents this entire class of problems from doing any damage.
-    You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (Note that if you run other applications against the same database, they may not work in strict mode. Be careful about enabling it in these cases.)',
       'No REMOTE_ADDR available' => 'No REMOTE_ADDR available',
       'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.' => 'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.',
       'The logged-in user PHID, if one is logged in.' => 'The logged-in user PHID, if one is logged in.',
-      'Version Information' => 'Version Information',
       'HTTP Path Rewriting Incorrect' => 'HTTP Path Rewriting Incorrect',
       'Surplus' => 'Surplus',
       'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.',
@@ -1208,7 +1230,9 @@ final class PhabricatorConfigEn
       'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => 'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.',
       'Installed on Burstable CPU Instance' => 'Installed on Burstable CPU Instance',
       'MySQL is Using Default Minimum Word Length' => 'MySQL is Using Default Minimum Word Length',
+      'Extensions/Modules' => 'Extensions/Modules',
       'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.',
+      'Phabricator daemons no longer use PID files.' => 'Phabricator daemons no longer use PID files.',
       'Unignore' => 'Unignore',
       'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.' => 'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.',
       'Text values that match this regex and are also object names will not be linked.' => 'Text values that match this regex and are also object names will not be linked.',

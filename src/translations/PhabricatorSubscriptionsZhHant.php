@@ -32,7 +32,6 @@ final class PhabricatorSubscriptionsZhHant
       'Mute this object? You will no longer receive notifications or email about it.' => '不要接收此對象？您將不會收到關於此對象的通知或電子郵件。',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => '拒絕重新訂閱 %s 個目標，因為它們先前已取消訂閱：%s。',
       'Removed %s subscriber(s): %s.' => '已移除 %s 位訂閱者：%s。',
-      'Unsubscribe' => '取消訂閱',
       'Bad Object' => '錯誤對象',
       'Add users or projects as subscribers.' => '添加使用者或專案為訂閱者。',
       'Add subscribers: %s.' => '添加訂閱者：%s。',

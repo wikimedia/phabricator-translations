@@ -148,6 +148,7 @@ final class PhabricatorConduitEn
       'Terminate API Token' => 'Terminate API Token',
       'Expected a list, but value is an object.' => 'Expected a list, but value is an object.',
       'Method to call.' => 'Method to call.',
+      'Force the request to execute in this process, rather than proxying to another host in the cluster.' => 'Force the request to execute in this process, rather than proxying to another host in the cluster.',
       'Callers' => 'Callers',
       'You do not have authorization to call this method.' => 'You do not have authorization to call this method.',
       'Cluster API Token' => 'Cluster API Token',

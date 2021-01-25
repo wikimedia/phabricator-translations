@@ -18,7 +18,6 @@ final class PhabricatorSubscriptionsDa
       'Remove subscribers' => 'Fjern abonnenter',
       'All %d subscribers removed by %s' => 'Alle %s abonnenter fjernet af %s',
       'Added Subscribers' => 'Tilføjede abonnenter',
-      'Unsubscribe' => 'Afmeld abonnement',
       'Removed Subscribers' => 'Fjernede abonnenter',
       'All %d subscribers added by %s' => 'Alle %s abonnenter tilføjet af %s',
       'Add me as a subscriber' => 'Tilføj mig som abonnent',

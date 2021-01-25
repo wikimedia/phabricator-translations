@@ -16,6 +16,7 @@ final class PhabricatorNotificationEn
       'Notification server configuration is invalid: it does not specify any enabled servers with type "admin". Notifications require at least one active "admin" server.' => 'Notification server configuration is invalid: it does not specify any enabled servers with type "admin". Notifications require at least one active "admin" server.',
       'Setting Up Client' => 'Setting Up Client',
       'Notification server configuration is invalid: it does not specify any enabled servers with type "client". Notifications require at least one active "client" server.' => 'Notification server configuration is invalid: it does not specify any enabled servers with type "client". Notifications require at least one active "client" server.',
+      'Phabricator is configured to use a notification server, but is not able to connect to it.' => 'Phabricator is configured to use a notification server, but is not able to connect to it.',
       'All unread notifications will be marked as read. You can not undo this action.' => 'All unread notifications will be marked as read. You can not undo this action.',
       'Unread Notifications' => 'Unread Notifications',
       'Unable to post message: this is not an admin server!' => 'Unable to post message: this is not an admin server!',

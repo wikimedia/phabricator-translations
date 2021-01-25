@@ -54,7 +54,6 @@ final class PhabricatorPholioFrFR
       'Things before they were cool.' => 'Les choses avant qu’elles étaient cool.',
       'Current Revision' => 'Version actuelle',
       '[Pholio]' => '[Pholio]',
-      'New Inline Comment' => 'Nouveau commentaire en ligne',
       '%s opened mock %s.' => '%s a ouvert la simulation %s.',
       'Mock Description' => 'Description de la simulation',
       '%s edited task(s), added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs tâches ; en a ajouté %s : %s ; en a retiré %s : %s.',

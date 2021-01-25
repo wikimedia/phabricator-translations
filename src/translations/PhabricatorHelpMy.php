@@ -9,7 +9,6 @@ final class PhabricatorHelpMy
 
   protected function getTranslations() {
     return array(
-      'Change Settings' => 'အပြင်အဆင်များ ပြောင်းလဲရန်',
       '%s Help' => '%s အကူအညီ',
     );
   }

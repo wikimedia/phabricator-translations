@@ -25,7 +25,6 @@ final class PhabricatorNuanceEl
       'Sources' => 'Πηγές',
       'All Items' => 'Όλα τα αντικείμενα',
       'View Form' => 'Προβολή φόρμας',
-      'Items' => 'Αντικείμενα',
       'Removed Label: %s' => 'Η ετικέτα αφαιρέθηκε: %s',
       'Can Manage Sources' => 'Μπορεί να διαχειριστεί πηγές',
       'Queue %d' => 'Ουρά %s',

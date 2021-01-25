@@ -32,7 +32,6 @@ final class PhabricatorSubscriptionsPtBR
       'Mute this object? You will no longer receive notifications or email about it.' => 'Silenciar esse objeto? Você não receberá mais notificações ou enviará um e-mail sobre isso.',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Recusou-se a inscrever novamente a(s) meta(s) de %s porque cancelou anteriormente a inscrição: %s.',
       'Removed %s subscriber(s): %s.' => 'Removido %s inscrito(s): %s.',
-      'Unsubscribe' => 'Cancelar inscrição',
       'Bad Object' => 'Objeto inválido',
       'Add users or projects as subscribers.' => 'Adicionar usuários ou projetos como assinantes.',
       'Add subscribers: %s.' => 'Adicionar assinantes: %s.',

@@ -81,7 +81,6 @@ final class PhabricatorLegalpadZhHant
       'Only documents with signature type "individual" may require signing to use Phabricator.' => '僅有以簽名類型為「個別」的文件在使用 Phabricator 會需要簽名。',
       'Mail receiver is not a LegalpadDocument!' => '郵件接收者不是 Legalpad 文件！',
       'You must choose a user to exempt.' => '您必須挑選要免除的使用者。',
-      'Only admins may require signature.' => '儘管理員可要求簽名。',
       'You have already signed this document!' => '您已簽名了此文件！',
       'Verify Signature' => '驗證簽名',
       'Signed Documents' => '已簽名文件',

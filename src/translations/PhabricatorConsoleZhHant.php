@@ -11,7 +11,6 @@ final class PhabricatorConsoleZhHant
     return array(
       'Listener Class' => '監聽類別',
       'Profiling was not enabled for this page. Use the button above to enable it.' => '此頁面未啟用分析，請使用上方按鈕來啟用。',
-      'Event Type' => '事件類型',
       'Internal ID' => '內部 ID',
       'Error Log (%d)' => '錯誤日誌（%s）',
       'Debugging console for real-time notifications.' => '用於即時通知的除錯主控台。',

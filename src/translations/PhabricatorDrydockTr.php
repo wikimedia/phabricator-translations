@@ -94,7 +94,6 @@ final class PhabricatorDrydockTr
       'Lease released.' => 'Kira yayınlandı.',
       'Unknown Repository' => 'Bilinmeyen Depo',
       'Lease "%s" does not exist.' => '"%s" kira sözleşmesi mevcut değil.',
-      'When this diff was generated, the server was running an older version of Phabricator which did not support staging areas for this version control system, so the chagne was not pushed to staging. Changes must be pushed to staging before they can be landed from the web.' => 'Bu fark oluşturulduğunda, sunucu Phabricator\'ın bu sürüm kontrol sistemi için hazırlama alanlarını desteklemeyen eski bir sürümünü çalıştırıyordu, bu yüzden değişik sahnelemeye itilmedi. Değişiklikler web\'den indirilmeden önce evrelemeye aktarılmalıdır.',
       'All blueprints failed to allocate a suitable new resource when trying to allocate lease ("%s").' => 'Tüm planlar kira tahsis etmeye çalışırken uygun bir yeni kaynak tahsis edemedi ("%s").',
       'Enable Blueprint' => 'Planı Etkinleştir',
       'When this diff was generated, the server was running an older version of Phabricator which did not support staging areas, so the change was not pushed to staging. Changes must be pushed to staging before they can be landed from the web.' => 'Bu fark üretildiğinde, sunucu hazırlama alanlarını desteklemeyen eski bir Phabricator sürümünü çalıştırıyordu, bu nedenle değişiklik aşamalandırmaya itilmedi. Değişiklikler web\'den indirilmeden önce evrelemeye aktarılmalıdır.',

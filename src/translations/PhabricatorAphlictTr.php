@@ -29,7 +29,6 @@ final class PhabricatorAphlictTr
       'Server exited!' => 'Sunucudan çıkıldı!',
       'Start the notifications server in the foreground and print large volumes of diagnostic information to the console.' => 'Bildirim sunucusunu ön planda başlatın ve çok sayıda tanılama bilgisini konsola yazdırın.',
       'A specified server (at index "%s", on port "%s") has an invalid type ("%s"). Valid types are: admin, client.' => 'Belirtilen bir sunucu ("%s" dizininde, "%s" bağlantı noktasında) geçersiz bir türe ("%s") sahip. Geçerli türler şunlardır: yönetici, istemci.',
-      'No user with username "%s" exists.' => '"%s" kullanıcı adına sahip kullanıcı yok.',
       'Configuration file specifies cluster peer "%s" more than once (at indexes "%s" and "%s"). Each peer must have a unique host and port combination.' => 'Yapılandırma dosyası, "%s" küme eşini bir kereden fazla belirtir ("%s" ve "%s" dizinlerinde). Her eşin benzersiz bir ana bilgisayar ve bağlantı noktası birleşimi olmalıdır.',
       'Show the status of the notification server.' => 'Bildirim sunucusunun durumunu göster.',
       'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'Yapılandırma dosyası herhangi bir sunucu belirtmiyor. Bu hizmet, herhangi bir bağlantı noktasını dinlemezse dış dünya ile etkileşime giremez. En az bir "%s" sunucusu ve en az bir "%s" sunucusu belirtmelisiniz.',

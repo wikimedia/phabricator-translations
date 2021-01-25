@@ -54,7 +54,6 @@ final class PhabricatorMacroZhHant
       'Edit Audio' => '編輯音訊',
       'Failed to imagecreatefromstring() image template data.' => 'imagecreatefromstring() 圖片模板資料失敗。',
       'Create Macro' => '建立表情圖',
-      'Behavior' => '行為',
       'Macro name.' => '表情圖名稱。',
       '%s disabled the audio for %s.' => '%s停用了用於%s的音訊。',
       'Macro name "%s" be: at least three characters long; and contain only lowercase letters, digits, hyphens, colons, underscores, and emoji; and not be composed entirely of latin symbols.' => '表情圖名稱「%s」為：至少三個字元長度，只能包含小寫字母、數字、連字號、冒號、底線、以及表情圖示，並且不能完全由拉丁文符號組成。',

@@ -24,7 +24,6 @@ final class PhabricatorCelerityEn
       'Rebuilt "%s" syntax CSS.' => 'Rebuilt "%s" syntax CSS.',
       'CSS file \'%s\' has unknown variable \'%s\'.' => 'CSS file \'%s\' has unknown variable \'%s\'.',
       'Literal %s is not allowed inside inline script.' => 'Literal %s is not allowed inside inline script.',
-      'Binary' => 'Binary',
       'Use Red/Green (Deuteranopia) Colors' => 'Use Red/Green (Deuteranopia) Colors',
       'Resource "%s" must %s at most one Celerity target.' => 'Resource "%s" must %s at most one Celerity target.',
       'Cycle detected in resource graph: %s' => 'Cycle detected in resource graph: %s',

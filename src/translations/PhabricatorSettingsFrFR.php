@@ -19,23 +19,6 @@ final class PhabricatorSettingsFrFR
       'Page Titles' => 'Titres de page',
       'Personal Account Settings' => 'Paramètres du compte personnel',
       'ISO 8601: 2000-02-28' => 'ISO 8601 : 2000-02-28',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have such an editor, Phabricator can generate links that you can click to open files locally.
-    These special variables are supported:
-    | Value | Replaced With |
-    |-------|---------------|
-    | `%%f`  | Filename |
-    | `%%l`  | Line Number |
-    | `%%r`  | Repository Callsign |
-    | `%%%%`  | Literal `%%` |
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => 'De nombreux éditeurs de texte peuvent être configurés comme gestionnaires d’URI pour des protocoles spéciaux comme par exemple `éditeur://`. Si vous avez un tel éditeur, Phabricator peut générer des liens que vous pouvez cliquer pour ouvrir localement des fichiers.
-    Les variables spéciales suivantes sont prises en charge :
-      | Valeur | Remplacée par                |
-      |--------|------------------------------|
-      | `%%f`   | Nom de fichier               |
-      | `%%l`   | Numéro de ligne              |
-      | `%%r`   | Identifiant d’appel du dépôt |
-      | `%%%%`   | Caractère `%%` littéral       |
-    Pour des instructions complètes sur la configuration d’un éditeur, consultez **[[%s|$%s]]**.',
       'Global Default Settings' => 'Paramètres par défaut globaux',
       'Self Actions' => 'Auto-actions',
       'Choose which language you would like the Phabricator UI to use.' => 'Choisir la langue dans laquelle vous voulez utiliser l\'interface utilisateur Phabricator.',
@@ -50,7 +33,6 @@ final class PhabricatorSettingsFrFR
       'On Small Screens' => 'Sur les petits écrans',
       'A verification email has been sent. Click the link in the email to verify your address.' => 'Un e-mail de vérification a été envoyé. Cliquez sur le lien dans l\'email pour vérifier votre adresse.',
       'Enable Email Notifications' => 'Activez les notifications par e-mail',
-      'Edit Multiple Files' => 'Modifier des fichiers multiples',
       'Edit global default settings for all users.' => 'Editer des paramètres par défaut globaux pour tous les utilisateurs.',
       'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
     | Setting                | Example Mail Subject
@@ -64,7 +46,6 @@ final class PhabricatorSettingsFrFR
       'No settings panels are available.' => 'Aucun panneau de paramètres n\'est disponible.',
       'Empty string is not a valid setting for "%s".' => 'Une chaîne vide n\'est pas un paramètre valide pour « %s ».',
       'Adjust Timezone' => 'Ajuster le fuseau horaire',
-      'Show Filetree' => 'Montrer l\'arborescence',
       '%s updated her profile' => '%s a mis à jour son profil',
       'Add Contact Number' => 'Ajouter un numéro de contact',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
@@ -167,13 +148,11 @@ final class PhabricatorSettingsFrFR
     Ces préférences ne s’appliquent **qu’aux seuls** objets auxquels vous êtes connecté (par exemple, les révisions dont vous étiez un relecteur ou les tâches où vous êtes un destinataire de copie). Pour recevoir des alertes par courriel quand d’autres objets sont créés, configurez les [[/herald/|Règles Herald]].',
       'You must enter your current password.' => 'Vous devez entrer votre mot de passe actuel.',
       'Europe: 28-02-2000' => 'Europe : 28-02-2000',
-      'Enable Filetree' => 'Activer l\'arborescence',
       'The old password you entered is incorrect.' => 'L\'ancien mot de passe que vous avez fourni est incorrect.',
       '◐ Notify' => '◐ Notifier',
       'This browser has denied permission to send desktop notifications for this Phabricator instance. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Ce navigateur a refusé à cette instance de Phabricator la permission d\'envoyer des notifications de bureau. Veuillez vous référer aux paramètres ou à la documentation de votre navigateur pour corriger ce réglage puis visitez de nouveau cette page pour accorder la permission.',
       '%s updated his profile' => '%s a mis à jour son profil',
       'You can change your date and time preferences in Settings.' => 'Vous pouvez changer vos préférences de date et d\'heure dans Paramètres.',
-      'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => 'Certains éditeurs de texte prennent en change l’ouverture de fichiers multiples dans une unique URI. Vous pouvez spécifier le comportement de votre éditeur ici.',
       'Timezone Calibrated' => 'Fuseau horaire aligné',
       'Limited Translations' => 'Traductions limitées',
       'Email Delivery' => 'Acheminement de courriel',
@@ -188,7 +167,6 @@ final class PhabricatorSettingsFrFR
       'DarkConsole' => 'DarkConsole',
       'Filetree Width' => 'Profondeur d\'arborescence',
       'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator affiche normalement les différences dans une disposition côte-à-côte sur les écrans large et bascule automatiquement à une vue unifiée sur les écrans étroits (comme les téléphones mobiles). Si vous préférez les différences unifiées même sur des écrans larges, vous pouvez les sélectionner pour les utiliser sur tous les affichages.',
-      'Supported, Separated by Spaces' => 'Pris en charge, séparé par des espaces',
       'Search Scope' => 'Portée des recherches',
       'Email Preferences' => 'Préférences de courriel',
       'You don\'t have any active tokens.' => 'Vous n’avez aucun jeton actif.',
@@ -199,7 +177,6 @@ final class PhabricatorSettingsFrFR
     //Vous recevrez encore certains courriels administratifs, tels que les courriels de réinitialisation de mot de passe.//',
       'Disable "Re:" Prefix' => 'Désactiver le préfixe "Re:"',
       'Conpherence Widget Pane Visible' => 'Panneau du widget Conpherence visible',
-      'Disable Filetree' => 'Désactiver l\'arborescence',
       'Disable Email Notifications' => 'Désactiver les notifications par courriel',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator utilise des glyphes unicode dans les titres de pages pour fournir une représentation compacte de l\'application courante. Vous pouvez les remplacer par du texte simple s\'ils ne s\'affichent pas sur votre système.',
       'Expired' => 'Expiré',
@@ -209,7 +186,6 @@ final class PhabricatorSettingsFrFR
       'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Votre mot de passe est actuellement haché en utilisant un algorithme qui n’est plus disponible sur cette installation.',
       'Send HTML Email' => 'Envoyer des courriels en HTML',
       'Translation' => 'Traduction',
-      'UTC+%d' => 'UTC+%s',
       'Settings %d' => 'Settings %s',
       'Time Format' => 'Format de l\'heure',
       'Permission for desktop notifications was denied. Only application notifications will be sent.' => 'Les notifications de bureau sont inhibées. Seules les notifications d\'applications seront envoyées.',
@@ -244,7 +220,6 @@ final class PhabricatorSettingsFrFR
       'Click "Save Preference" to persist these changes.' => 'Cliquez sur « Enregistrer les préférences » pour conserver ces changements.',
       'Week Starts On' => 'La semaine commence le',
       'Remove Factor' => 'Enlever la phase',
-      'Editor link has an invalid or missing protocol. You must use a whitelisted editor protocol from this list: %s. To add protocols, update "%s" in Config.' => 'Le lien vers l’éditeur indique un protocole non valide ou manquant. Vous devez utiliser un protocole d’éditeur approuvé depuis cette liste : %s. Pour ajouter des protocoles, mettez à jour «%s » dans la configuration.',
       'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Votre compte n\'a pas actuellement de mot de passe défini. Vous pouvez en choisir un en faisant une réinitialisation du mot de passe.',
       'Disabled (an administrator has disabled login for this account provider).' => 'Désactivé (un administrateur a désactivé la connexion pour ce fournisseur de compte).',
       'If you change your primary address, Phabricator will send all email to %s.' => 'Si vous changez votre adresse principale, Phabricator enverra tous les courriels à %s.',
@@ -273,9 +248,7 @@ final class PhabricatorSettingsFrFR
       'Pinned Applications' => 'Applications épinglées',
       'Revoke All' => 'Tout révoquer',
       'No settings panel group with key "%s" exists!' => 'Pas de groupe de panneaux de configuration ayant pour clé « %s » !',
-      'When viewing a revision or commit, you can enable a sidebar showing affected files. When this option is enabled, press {nav %s} to show or hide the sidebar.' => 'Lorsque vous visualisez une révision ou une soumission, vous pouvez activer une barre latérale montrant les fichiers affectés. Si cette option est activée, pressez {nav %s} pour afficher ou masquer la barre latérale.',
       'Linked Accounts and Authentication' => 'Comptes liés et authentication',
-      'UTC-%d' => 'UTC-%s',
       'Choose the pronoun you prefer.' => 'Choisissez le pronom que vous préférez.',
       'Conflict Ignored' => 'Conflit ignoré',
       'This engine is used to edit settings.' => 'Ce moteur est utilisé pour modifier les paramètres de configuration.',

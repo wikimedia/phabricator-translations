@@ -19,7 +19,6 @@ final class PhabricatorSettingsDeDE
       'Saturday' => 'Samstag',
       'On Small Screens' => 'Auf kleinen Bildschirmen',
       'Enable Email Notifications' => 'E-Mail Benachrichtigungen aktivieren',
-      'Edit Multiple Files' => 'Mehrere Dateien bearbeiten',
       'Edit global default settings for all users.' => 'Bearbeite globale Einstellungen für alle Benutzer.',
       'Adjust Timezone' => 'Zeitzone anpassen',
       '%s updated her profile' => '%s hat ihr Profil aktualisiert',
@@ -49,7 +48,6 @@ final class PhabricatorSettingsDeDE
       'Disable "Re:" Prefix' => '"Re:"-Präfix deaktivieren',
       'Disable Email Notifications' => 'E-Mail-Benachrichtigungen',
       'No Notifications' => 'Keine Benachrichtigungen',
-      'UTC+%d' => 'UTC+%s',
       'Time Format' => 'Zeitformat',
       'Send Notifications' => 'Benachrichtigungen senden',
       'Number' => 'Nummer',
@@ -66,7 +64,6 @@ final class PhabricatorSettingsDeDE
       '⚫ Email' => '⚫ E-Mail',
       'New Setting' => 'Neue Einstellung',
       'Pronoun' => 'Vorname',
-      'UTC-%d' => 'UTC-%s',
       'Default (Unknown, "%s")' => 'Stadard (Unbekannt, "%s")',
     );
   }

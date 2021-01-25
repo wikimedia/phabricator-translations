@@ -123,7 +123,6 @@ final class PhabricatorSearchZhHans
       'Edit Queries...' => '编辑查询...',
       'Browse Document Types' => '浏览文档类型',
       '(Restricted/Invalid Conpherence)' => '（受限制/无效的Conpherence）',
-      'Unknown search function "%s". Supported functions are: %s.' => '未知搜索函数“%s”。支持的函数有：%s。',
       'Engine Name' => '引擎名称',
     );
   }
