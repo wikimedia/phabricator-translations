@@ -7,9 +7,6 @@
 		]
 	},
 	"17b251be5661401b": "Fermer tous les dialogues, celui-ci inclus.",
-	"2e0984a922fef3db": "Protocole d'édition non supporté",
-	"40586493191bb270": "Modifier les paramètres",
-	"4da9b13fc11f66a8": "Votre éditeur d'URI configuré utilise un protocole non pris en charge. Modifiez vos paramètres pour utiliser un protocole supporté, ou demandez à votre administrateur d'ajouter la prise en charge du protocole choisi en configurant: $1",
 	"6bbbdac8f41b22d9": "Aide $1",
 	"b465751c05fbc426": "Raccourcis clavier"
 }

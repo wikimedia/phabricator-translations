@@ -24,7 +24,6 @@
 	"7b1c6f1c1209a55f": "Sunucudan çıkıldı!",
 	"7e9983dfa7bad024": "Bildirim sunucusunu ön planda başlatın ve çok sayıda tanılama bilgisini konsola yazdırın.",
 	"801f93fad5c1b6c0": "Belirtilen bir sunucu (\"$1\" dizininde, \"$2\" bağlantı noktasında) geçersiz bir türe (\"$3\") sahip. Geçerli türler şunlardır: yönetici, istemci.",
-	"815ddac6e56b96cb": "\"$1\" kullanıcı adına sahip kullanıcı yok.",
 	"8a6a12235fb934b6": "Yapılandırma dosyası, \"$1\" küme eşini bir kereden fazla belirtir (\"$2\" ve \"$3\" dizinlerinde). Her eşin benzersiz bir ana bilgisayar ve bağlantı noktası birleşimi olmalıdır.",
 	"8bc94a976bc4b3a4": "Bildirim sunucusunun durumunu göster.",
 	"8d93b1b51e918a37": "Yapılandırma dosyası herhangi bir sunucu belirtmiyor. Bu hizmet, herhangi bir bağlantı noktasını dinlemezse dış dünya ile etkileşime giremez. En az bir \"$1\" sunucusu ve en az bir \"$2\" sunucusu belirtmelisiniz.",

@@ -19,7 +19,6 @@
 	"41fa90d128ffe8e0": "CSS de sintaxi \"$1\" reconstruïda.",
 	"4e71600bec1f4ac1": "El fitxer CSS '$1' té una variable desconeguda '$2'.",
 	"6131223242825fc5": "El literal $1 no està permès dins de l'script en línia.",
-	"66639f7d455dd71f": "Binari",
 	"7a75961209a5cf4d": "Utilitza els colors vermell/verd (Deuteranopia)",
 	"8369c2f9ebcad3bd": "El recurs \"$1\" ha de tenir $2 com a màxim un objectiu de Celeritat.",
 	"9adac865895dd02e": "S'ha detectat un cicle al gràfic de recursos: $1",

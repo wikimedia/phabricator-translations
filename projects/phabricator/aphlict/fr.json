@@ -26,7 +26,6 @@
 	"7b1c6f1c1209a55f": "Serveur terminé !",
 	"7e9983dfa7bad024": "Démarrer le serveur de notifications en premier plan et afficher les gros volumes d’information de diagnostic sur la console.",
 	"801f93fad5c1b6c0": "Un serveur spécifié (à l’index « $1 », sur le port « $2 ») a un type non valide (« $3 »). Les types valides sont : admin, client.",
-	"815ddac6e56b96cb": "Il n'existe pas d'utilisateur ayant pour nom « $1 » .",
 	"8a6a12235fb934b6": "Le fichier de configuration spécifie le pair de grappe « $1 » plus d’une fois (aux index « $2 » et « $3 »). Chaque pair doit avoir une combinaison d’hôte et de port unique.",
 	"8bc94a976bc4b3a4": "Afficher l’état du serveur de notification.",
 	"8d93b1b51e918a37": "Le fichier de configuration ne spécifie aucun serveur. Ce service ne pourra pas interagir avec le monde extérieur s’il n’écoute aucun port. Vous devez spécifier au moins un serveur « $1 » et au moins un serveur « $2 ».",

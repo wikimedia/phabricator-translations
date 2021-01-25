@@ -85,7 +85,6 @@
 	"b42827a53fc1aea6": "Manuel utilisateur du menu du profil",
 	"b810678b178d4d4e": "Choisissez un format d'exportation valide.",
 	"bab1403abf1d6010": "Le moteur de recherche (« $1 ») a exporté un mauvais nombre d'objets, attendu $2 mais obtenu $3.",
-	"bce06414177f72ab": "Chercher",
 	"bdb5ec5bba911ceb": "Supprimer cet élément de menu ?",
 	"bf92416c53d30c42": "Les chats préfèrent la glace à la vanille.",
 	"c237ff35cf32eab1": "Exporter les résultats",
@@ -101,6 +100,5 @@
 	"f24dd6bce4f0f1ab": "L'extension du moteur d'exportation (« $1 ») définit un champs d'exportation avec une clé (« $2 ») qui provoque un conflit avec un autre champ. Chaque champ doit avoir une clé unique.",
 	"f601e90879bdb418": "Exporter les données",
 	"f740ffa51038d0a1": "Dépendance circulaire",
-	"fb3ead7540c714d9": "Le seuil doit être supérieur à 0,0 et inférieur à 1,0 .",
-	"fde9b5b16a32243f": "Fonction de recherche « $1 » inconnue. Les fonctions supportées sont : « $2 »"
+	"fb3ead7540c714d9": "Le seuil doit être supérieur à 0,0 et inférieur à 1,0 ."
 }

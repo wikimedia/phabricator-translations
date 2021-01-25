@@ -6,9 +6,6 @@
 		]
 	},
 	"17b251be5661401b": "Tanca qualsevol diàleg, incloent aquest.",
-	"2e0984a922fef3db": "No s’admet el protocol d’edició",
-	"40586493191bb270": "Canvia configuració",
-	"4da9b13fc11f66a8": "El teu editor URI configurat utilitza un protocol no suportat. Canvia la teva configuració per utilitzar un protocol suportat, o pregunta a l'administrador del sistema per afegir suport pel protocol escollit per configuració: $1",
 	"6bbbdac8f41b22d9": "Ajuda: $1",
 	"b465751c05fbc426": "Dreceres de teclat"
 }

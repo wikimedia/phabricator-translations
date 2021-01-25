@@ -96,7 +96,6 @@
 	"2b42cb3362f16749": "Bail relâché.",
 	"2bbbd5aa88a21f19": "Dépôt inconnu",
 	"2d68f35ccf32b66a": "Le bail « $1 » n’existe pas.",
-	"2eef34a08962e0de": "Quand ce diff a été généré, le serveur tournait avec une version plus ancienne de Phabricator qui ne prenait pas en charge les zones de mise en place pour ce système de gestion de configuration, donc la modification n’a pas été poussée en zone de mise en place. Les modifications doivent être poussées en zone de mise en place avant de pouvoir être récupérées depuis le web.",
 	"2ef84e6f961a48b2": "Tous les plans ont échoué à allouer une nouvelle ressource appropriée en essayant d’allouer le bail (« $1 »).",
 	"308e2cfbaee44303": "Activer le plan",
 	"317337da98b1ad4d": "Quand le diff a été généré, le serveur tournait avec une version plus ancienne de Phabricator qui ne prenait pas en charge les zones de mise en place, donc la modification n’avait pas été poussée en zone de mise en place. Les modifications doivent être poussées vers la zone de mise en place avant de pouvoir être récupérées depuis le web.",

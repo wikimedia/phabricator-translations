@@ -25,5 +25,6 @@
 	"d9b9a15e87d0d955": "Capacitat desconeguda '$1'!",
 	"daf366af13db9c61": "Es Requereix Administrador",
 	"dced58a261d6133b": "Es Requereix Verificació de Correu Electrònic, Amb Excepció",
-	"dfa4966710819f7d": "Permet la Deshabilitació"
+	"dfa4966710819f7d": "Permet la Deshabilitació",
+	"e5d6af967c265e3f": "No s'ha pogut trobar la consulta de transacció per a l'objecte de la classe \"$1\"."
 }

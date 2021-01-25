@@ -8,7 +8,6 @@
 	"09477b727f04e230": "Yineleyici '$1' mevcut değil.",
 	"0ef5d021f674ecb8": "Gerçek analiz cihazlarını manüel olarak çağırın.",
 	"1891c2c639dd8960": "Hiçbir gerçek motor bu amaç için gerçekler üretmeyi desteklememektedir.",
-	"1a717eee3d0f327a": "Y-Ekseni",
 	"322724a05c59a292": "Bir olgu sorgusu yürütmek gerçekleri gerektirir.",
 	"349aa7705dd0f5e1": "Yalnızca yineleyici __adını__ işleyin.",
 	"38c151affca2ef86": "İmleç $1 mevcut değil veya sıfırlandı.",
@@ -16,12 +15,10 @@
 	"4384d87192a03ac1": "Gerçek Çıkarma Raporu",
 	"45e147abd920eeb1": "Boyut",
 	"493d34ee9a6faacb": "$1 İşleniyor...",
-	"4b651451b653e31e": "Zzz...",
 	"4cd18078dbb04167": "Depolanan Veri Noktası Yok",
 	"5ded511d57b0065b": "$1ms",
 	"600b7712709b38eb": "İmleç '$1' işleniyor.",
 	"65313363140c52d7": "Gerçek motorlarının bir listesini göster.",
-	"66c7734789e19cbe": "Grafik",
 	"68ff38ff3badd89b": "Verileri Grafikle ve Analiz Et",
 	"7b6ed5e5a221e6b8": "Gerçekten tüm gerçekleri yok edilsin mi? Zaman alabilecek analizlerle yeniden yapı edilmeleri gerekecek.",
 	"7d6e797167bf385b": "$1 (İşlemler)",
@@ -39,7 +36,5 @@
 	"e24e1d449736078c": "\"$2\" motoru için bilinmeyen gerçek (\"$1\").",
 	"eace282eb718e701": "Gerçek \"$1\"",
 	"ecbfeca47bc61a56": "Tutarlı Gerçekler",
-	"eec1ed91c51a415b": "$1 Sayısı",
-	"f4a3e76da7c45bad": "Oluşturulmamış",
-	"fca1dc9454b79179": "Grafik Çizimi"
+	"f4a3e76da7c45bad": "Oluşturulmamış"
 }

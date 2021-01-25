@@ -21,7 +21,6 @@
 	"41fa90d128ffe8e0": "CSS de syntaxe « $1 » reconstruit.",
 	"4e71600bec1f4ac1": "Le fichier CSS '$1' a une variable inconnue '$2'.",
 	"6131223242825fc5": "Le littéral $1 n’est pas autorisé dans un script en ligne.",
-	"66639f7d455dd71f": "Binaire",
 	"7a75961209a5cf4d": "Utiliser des couleurs rouge/vert (Deutéranopie)",
 	"8369c2f9ebcad3bd": "La ressource « $1 » doit $2 à au moins une cible de Célérité.",
 	"9adac865895dd02e": "Cycle détecté dans le graphe de ressource : $1",

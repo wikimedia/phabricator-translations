@@ -61,7 +61,6 @@
 	"770442adfa338713": "Solo los documentos con tipo de firma \"individual\" pueden requerir ser firmados para usar Phabricator.",
 	"7c9b254eb0315b14": "¡El receptor del correo no es un LegalpadDocument!",
 	"7d24f287f6e230b4": "Debes escoger a un usuario a eximir.",
-	"7ec1392e9a97e4dd": "Solo los administradores pueden requerir una firma.",
 	"7f18e7d1720ff46c": "¡Ya has firmado este documento!",
 	"7f7c9fee1cc1fe51": "Verificar firma",
 	"837619947037a684": "Documentos firmados",

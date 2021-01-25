@@ -32,7 +32,6 @@
 	"9169b136e6c857c4": "ID de l'espai de treball Asana on publicar.",
 	"9440ddf3620e1a44": "⚠ NO EDITEU AQUESTA TASCA ⚠\n☠ Els canvis no es reflectiran en el Phabricator.\n☠ Els canvis es destruiran la propera vegada que es sincronitzi l'estat.",
 	"94ebdc31fea83b00": "Eliminant la vora de la subtasca a $1, l'objecte estrany no és visible.",
-	"95324064cecdbd4f": "No s'admet el mode de visualització d'etiquetes \"$1\" de Doorkeeper. Els modes compatibles són: $2.",
 	"95b7977d8579fb11": "Integració amb Asana",
 	"96985dc4a1f89fc4": "El treballador porter «$1» no està habilitat.",
 	"97000a567c110d9e": "L'objecte no té seguidors ni usuaris actius ni passius.",

@@ -89,7 +89,6 @@
 	"2b42cb3362f16749": "Kira yayınlandı.",
 	"2bbbd5aa88a21f19": "Bilinmeyen Depo",
 	"2d68f35ccf32b66a": "\"$1\" kira sözleşmesi mevcut değil.",
-	"2eef34a08962e0de": "Bu fark oluşturulduğunda, sunucu Phabricator'ın bu sürüm kontrol sistemi için hazırlama alanlarını desteklemeyen eski bir sürümünü çalıştırıyordu, bu yüzden değişik sahnelemeye itilmedi. Değişiklikler web'den indirilmeden önce evrelemeye aktarılmalıdır.",
 	"2ef84e6f961a48b2": "Tüm planlar kira tahsis etmeye çalışırken uygun bir yeni kaynak tahsis edemedi (\"$1\").",
 	"308e2cfbaee44303": "Planı Etkinleştir",
 	"317337da98b1ad4d": "Bu fark üretildiğinde, sunucu hazırlama alanlarını desteklemeyen eski bir Phabricator sürümünü çalıştırıyordu, bu nedenle değişiklik aşamalandırmaya itilmedi. Değişiklikler web'den indirilmeden önce evrelemeye aktarılmalıdır.",

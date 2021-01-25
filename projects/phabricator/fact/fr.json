@@ -11,7 +11,6 @@
 	"09477b727f04e230": "L'itérateur '$1' n'existe pas.",
 	"0ef5d021f674ecb8": "Invoquer manuellement les analyseurs de faits.",
 	"1891c2c639dd8960": "Aucun moteur de faits ne supporte la génération de faits pour cet objet.",
-	"1a717eee3d0f327a": "Axe Y",
 	"322724a05c59a292": "L’exécution d’une requête de faits nécessite des faits.",
 	"349aa7705dd0f5e1": "Traiter uniquement l’itérateur __name__.",
 	"38c151affca2ef86": "Le curseur $1 n’existe pas ou est déjà réinitialisé.",
@@ -19,12 +18,10 @@
 	"4384d87192a03ac1": "Rapport d’extraction de faits",
 	"45e147abd920eeb1": "Dimension",
 	"493d34ee9a6faacb": "Traitement de $1…",
-	"4b651451b653e31e": "Zzz...",
 	"4cd18078dbb04167": "Aucun point de donnée stocké",
 	"5ded511d57b0065b": "$1ms",
 	"600b7712709b38eb": "Traitement du curseur '$1'.",
 	"65313363140c52d7": "Montrer une liste de moteurs de faits.",
-	"66c7734789e19cbe": "Graphique",
 	"68ff38ff3badd89b": "Tracer et analyser les données",
 	"7b6ed5e5a221e6b8": "Vraiment détruire les faits ? Ils devront être reconstruits via l’analyse, ce qui peut prendre du temps.",
 	"7d6e797167bf385b": "$1 (transactions)",
@@ -42,7 +39,5 @@
 	"e24e1d449736078c": "Evénement inconnu (« $1 ») pour le moteur « $2 ».",
 	"eace282eb718e701": "Fait « $1 »",
 	"ecbfeca47bc61a56": "Fait concordant",
-	"eec1ed91c51a415b": "Nombre de $1",
-	"f4a3e76da7c45bad": "Non généré",
-	"fca1dc9454b79179": "Graphique par points"
+	"f4a3e76da7c45bad": "Non généré"
 }

@@ -32,7 +32,6 @@
 	"9169b136e6c857c4": "Yayınlanacak Asana Çalışma Alanı Kimliği.",
 	"9440ddf3620e1a44": "⚠ BU GÖREVİ DÜZENLEMEYİN ⚠\n☠ Yaptığınız değişiklikler Phabricator'a yansıtılmayacak.\n☠ Durumunuz bir sonraki senkronize edildiğinde değişiklikleriniz yok edilir.",
 	"94ebdc31fea83b00": "Alt görev kenarı $1 kaldırılırsa, yabancı nesne görünmez.",
-	"95324064cecdbd4f": "Desteklenmeyen Kapıcı etiketi görüntüleme modu \"$1\". Desteklenen modlar: $2.",
 	"95b7977d8579fb11": "Asana ile Entegrasyon",
 	"96985dc4a1f89fc4": "Kapıcı çalışanı '$1' etkin değil.",
 	"97000a567c110d9e": "Nesnenin takipçisi veya aktif/pasif kullanıcısı yok.",

@@ -1,5 +1,8 @@
 {
-  "26abab6249cc3135": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/application/PhabricatorHomeApplication.php$16 PhabricatorHomeApplication.php:16]\n",
-  "e28e8a725e21efaf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/menuitem/PhabricatorHomeLauncherProfileMenuItem.php$9 PhabricatorHomeLauncherProfileMenuItem.php:9]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/menuitem/PhabricatorHomeLauncherProfileMenuItem.php$13 PhabricatorHomeLauncherProfileMenuItem.php:13]\n",
-  "f1b8ecbca0034e1c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/menuitem/PhabricatorHomeProfileMenuItem.php$9 PhabricatorHomeProfileMenuItem.php:9]\n"
+	"@metadata": {
+		"authors": []
+	},
+	"26abab6249cc3135": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/application/PhabricatorHomeApplication.php$16 PhabricatorHomeApplication.php:16]",
+	"e28e8a725e21efaf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/menuitem/PhabricatorHomeLauncherProfileMenuItem.php$9 PhabricatorHomeLauncherProfileMenuItem.php:9]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/menuitem/PhabricatorHomeLauncherProfileMenuItem.php$13 PhabricatorHomeLauncherProfileMenuItem.php:13]",
+	"f1b8ecbca0034e1c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/home/menuitem/PhabricatorHomeProfileMenuItem.php$9 PhabricatorHomeProfileMenuItem.php:9]"
 }
