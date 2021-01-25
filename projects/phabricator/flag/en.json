@@ -1,4 +1,5 @@
 {
+  "075b45870ec7ec57": "Removed \"$1\" flag.",
   "197a62696ce8fbf0": "Marked with \"$1\" flag.",
   "1c3d8a33c4e3bcd5": "Personal Bookmarks",
   "1ca1a72255461c7b": "Query flag markers.",
@@ -9,11 +10,15 @@
   "699642af97a5d952": "Flags are private. Only you can view or edit your flags.",
   "70fc3e4015e8e4f8": "Must pass an id or an objectPHID.",
   "7168897d704726c7": "Already marked with $1 flag.",
+  "728fce1910953840": "Remove $1 flag.",
   "76dbf884271fdcfd": "Flag For Later",
+  "7b4e95c2e6f33f5e": "Remove flag",
   "7dda51ce77f4eb5f": "You are not the creator of this flag.",
   "8828ce01607a48df": "Flag $1",
+  "8993d3e323986eb5": "Removed Flag",
   "94d23c9bf50bab36": "Create or modify a flag.",
   "a12b4c41e336ccf7": "Create Flag",
+  "b2818290ebcc7204": "Marked with flag of the wrong color (\"$1\").",
   "b6829a09b18b33c4": "You can flag this $1 if you want to remember to look at it later.",
   "bafd3e5ad59b23e6": "No flags found.",
   "cdc6686dc53df49e": "Bad flag ID.",
@@ -22,5 +27,7 @@
   "d4a822fc0ac4e4ad": "Already Marked",
   "e0d0b82a322e167f": "Flag Color",
   "e22c254cc0a5cb8c": "Mark with flag",
+  "e2ab9f0d21594fe2": "Did Not Remove Flag",
+  "e76a6d33ff06b15e": "Not marked with any flag.",
   "f8db8a172be6fab1": "Flagged"
 }

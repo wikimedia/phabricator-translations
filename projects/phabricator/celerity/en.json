@@ -14,7 +14,6 @@
   "41fa90d128ffe8e0": "Rebuilt \"$1\" syntax CSS.",
   "4e71600bec1f4ac1": "CSS file '$1' has unknown variable '$2'.",
   "6131223242825fc5": "Literal $1 is not allowed inside inline script.",
-  "66639f7d455dd71f": "Binary",
   "7a75961209a5cf4d": "Use Red/Green (Deuteranopia) Colors",
   "8369c2f9ebcad3bd": "Resource \"$1\" must $2 at most one Celerity target.",
   "9adac865895dd02e": "Cycle detected in resource graph: $1",

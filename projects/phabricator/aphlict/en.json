@@ -19,7 +19,6 @@
   "7b1c6f1c1209a55f": "Server exited!",
   "7e9983dfa7bad024": "Start the notifications server in the foreground and print large volumes of diagnostic information to the console.",
   "801f93fad5c1b6c0": "A specified server (at index \"$1\", on port \"$2\") has an invalid type (\"$3\"). Valid types are: admin, client.",
-  "815ddac6e56b96cb": "No user with username \"$1\" exists.",
   "8a6a12235fb934b6": "Configuration file specifies cluster peer \"$1\" more than once (at indexes \"$2\" and \"$3\"). Each peer must have a unique host and port combination.",
   "8bc94a976bc4b3a4": "Show the status of the notification server.",
   "8d93b1b51e918a37": "Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one \"$1\" server and at least one \"$2\" server.",

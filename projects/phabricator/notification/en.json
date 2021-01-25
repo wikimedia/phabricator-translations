@@ -6,6 +6,7 @@
   "42acf1b5974ad9e6": "Notification server configuration is invalid: it does not specify any enabled servers with type \"admin\". Notifications require at least one active \"admin\" server.",
   "47bb223ad62d3256": "Setting Up Client",
   "572de068b2329b96": "Notification server configuration is invalid: it does not specify any enabled servers with type \"client\". Notifications require at least one active \"client\" server.",
+  "5a6238a14958e0a0": "Phabricator is configured to use a notification server, but is not able to connect to it.",
   "6776e111aef4227a": "All unread notifications will be marked as read. You can not undo this action.",
   "6faa4218ab931e0d": "Unread Notifications",
   "6fe51d8fad2a6ea4": "Unable to post message: this is not an admin server!",

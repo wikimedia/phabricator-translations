@@ -1,7 +1,6 @@
 {
   "13d815bd29a02c64": "Listener Class",
   "20c4efa6093294a8": "Profiling was not enabled for this page. Use the button above to enable it.",
-  "2e1d8fd9f8a5e965": "Event Type",
   "40dc448a962e5fe4": "Internal ID",
   "43e40156c805d177": "Error Log ($1)",
   "47a14aaa85b00e8f": "Debugging console for real-time notifications.",
@@ -23,6 +22,7 @@
   "8f54a634fa1f45c2": "Whole Table",
   "90cdbe2f76944665": "Repaint",
   "93ae9933d16f07fa": "Small Table Scan",
+  "985c60dcff79c62e": "Installation Guide",
   "9e882bcd588375bd": "Profile Permalink",
   "a2e6414c7c3da940": "Error Log",
   "a36a5ffa6e0dcfb6": "Controller",

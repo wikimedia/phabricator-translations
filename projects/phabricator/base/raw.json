@@ -19,5 +19,6 @@
   "d9b9a15e87d0d955": "Unknown capability '%s'!",
   "daf366af13db9c61": "Admin Required",
   "dced58a261d6133b": "Email Verification Required, With Exception",
-  "dfa4966710819f7d": "Allow Disabled"
+  "dfa4966710819f7d": "Allow Disabled",
+  "e5d6af967c265e3f": "Unable to find transaction query for object of class \"%s\"."
 }

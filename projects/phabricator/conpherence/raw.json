@@ -14,7 +14,6 @@
   "1c3b20d39ec83dd2": "New Message",
   "2525359b6e74c6ca": "%s renamed this room from %s to %s.",
   "25d6a1d6da6af480": "Conpherence Threads",
-  "271a389c22c7125d": "Bing",
   "2e89adf9d282aa8b": "Log In to Participate",
   "2f470f35219e81d3": "Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user.",
   "30461da962ef2b1d": "Create a Room",
