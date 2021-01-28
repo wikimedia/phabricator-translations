@@ -53,6 +53,7 @@
 	"55af9e24c9777536": "El missatge de validació fa referència a diverses sol·licituds Releeph, però les sol·licituds es troben en diferents branques: $1",
 	"5c1e51be5892e605": "Retorna la informació necessària per tallar una branca i triar i revertir $1.",
 	"74d7efcaf95d79e5": "La validació $1 no existeix en aquest repositori.",
+	"78c6277c78ed34dd": "$1 pertany al repositori '$2', que no forma part de cap projecte Releeph.",
 	"7ae3213a54f97daf": "Comenceu a escriure per completar automàticament el títol de validació o doneu a un identificador de validació de Phabricator com rFOO1234.",
 	"8532fa7744bced3f": "Esteu editant una petició de selecció existent!",
 	"89039925f2bd6a89": "No hi ha compromisos de validació de $1: $2",
@@ -64,12 +65,14 @@
 	"b52d6a51aa850c94": "Sol·licita que es triï una validació o diff a una branca.",
 	"b59c35dcf828296e": "$1 ha seleccionat aquesta sol·licitud i ha validat el resultat aigües amunt",
 	"c4c73b92c212b8f9": "La sol·licitud de $1 probablement no sigui una validació acceptable.",
+	"c628cafaaa32d0de": "El missatge de validació fa referència a $1 diverses vegades.",
 	"c8bcdc38c211a0ef": "$1 encara no té validació associada.",
 	"ca44c672b7ca255a": "$1 va revertir aquesta sol·licitud i ha validat el resultat aigües amunt",
 	"dcbe55efe393a313": "CONFUSIÓ: la validació de $1 a $2 conté $3 canvis de camí que formaven part d'una branca Releeph, però també tenen $4 canvis de camí que no formen part d'una branca Releeph.",
 	"e077be366bf2418f": "Aquesta revisió diferencial canvia el codi associat amb múltiples branques de Releepph.  Seleccioneu la branca on voleu que es triï aquest codi.",
 	"f0e7d81d50b2e0e7": "Un ID de validació per al vostre tipus de repo o un ID de difusió com \"rE123\"",
 	"f3c4859abc738d02": "La branca de desenvolupament, de la qual es recolliran les peticions.",
+	"f9fa2086fa5ea004": "$1 es troba en un repositori diferent al projecte Releeph ($2).",
 	"ff2b8a98dd43a5ea": "Triar instruccions",
 	"ffa11d44ed6a8bde": "Escollirà"
 }

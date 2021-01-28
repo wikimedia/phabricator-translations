@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseplluis"
+			"Joseplluis",
+			"Mguix"
 		]
 	},
 	"0f0973483d912464": "Silencia",
@@ -18,6 +19,7 @@
 	"3f20100a71906b67": "T'has subscrit automàticament en aquest objecte.",
 	"409841b0ee579c25": "Afegeix subscriptors",
 	"4db3423d5bd31e84": "Eliminar-me com a subscriptor",
+	"5664ad67ef70ff5d": "Mostra el(s) $1 subscriptor(s)",
 	"649fad34cf6e7781": "Cerca objectes amb certs subscriptors.",
 	"6ffaf2c2fa633fe1": "Els subscriptors poden prendre aquesta acció.",
 	"7044c3104095ed26": "Reactiva",

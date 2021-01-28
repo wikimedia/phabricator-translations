@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseplluis"
+			"Joseplluis",
+			"Mguix"
 		]
 	},
 	"07b032b56f7aa399": "Sense llegir",
@@ -11,6 +12,7 @@
 	"42acf1b5974ad9e6": "La configuració del servidor de notificacions és invàlida: no especifica cap servidor habilitat amb tipus \"admin\". Les notificacions requereixen com a mínim un servidor \"admin\" actiu.",
 	"47bb223ad62d3256": "Instal·lant client",
 	"572de068b2329b96": "La configuració del servidor de notificacions és invàlida: no especifica cap servidor habilitat amb tipus \"client\". Les notificacions requereixen com a mínim un servidor \"client\" actiu.",
+	"5a6238a14958e0a0": "Phabricator està configurat per utilitzar un servidor de notificacions, però no pot connectar-s'hi.",
 	"6776e111aef4227a": "Totes les notificacions no llegides seran marcades com a llegides. No podràs desfer aquesta acció.",
 	"6faa4218ab931e0d": "Notificacions no llegides",
 	"6fe51d8fad2a6ea4": "No es pot publicar el missatge: això no és un servidor administrador!",

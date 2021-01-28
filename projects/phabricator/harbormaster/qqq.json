@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pols12"
+		]
 	},
 	"00bb37fda5eb6c1d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/phid/HarbormasterBuildArtifactPHIDType.php$8 HarbormasterBuildArtifactPHIDType.php:8]",
 	"00cc2bd78e919197": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/phid/HarbormasterBuildPlanPHIDType.php$39 HarbormasterBuildPlanPHIDType.php:39]",
@@ -535,7 +537,7 @@
 	"d5443e61de53a591": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/storage/HarbormasterBuildableTransaction.php$40 HarbormasterBuildableTransaction.php:40]",
 	"d5879d9e1821ffaf": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/conduit/HarbormasterCreateArtifactConduitAPIMethod.php$61 HarbormasterCreateArtifactConduitAPIMethod.php:61]",
 	"d5ba37b9dc8094ec": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/management/HarbormasterManagementArchiveLogsWorkflow.php$35 HarbormasterManagementArchiveLogsWorkflow.php:35]",
-	"d6379c33c92bec84": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/customfield/HarbormasterBuildStepCoreCustomField.php$30 HarbormasterBuildStepCoreCustomField.php:30]",
+	"d6379c33c92bec84": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/customfield/HarbormasterBuildStepCoreCustomField.php$30 HarbormasterBuildStepCoreCustomField.php:30]\n\nMust be consistent with {{msg-phab|phabricator-harbormaster-e54845f42f6d02b4}} and {{msg-phab|phabricator-harbormaster-99a2fe703e9f4f98}}.",
 	"d654989b70b9ceee": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/step/HarbormasterCircleCIBuildStepImplementation.php$7 HarbormasterCircleCIBuildStepImplementation.php:7]",
 	"d797d257eb727809": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/controller/HarbormasterPlanRunController.php$23 HarbormasterPlanRunController.php:23]",
 	"d81699dfed1bfa1c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/harbormaster/storage/build/HarbormasterBuildTarget.php$358 HarbormasterBuildTarget.php:358]",

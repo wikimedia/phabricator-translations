@@ -55,5 +55,8 @@
 	"56b5907761aabb43": "Usuari $1",
 	"57ae4419c84a0f0b": "Especificar una font amb $1.",
 	"5956768f7cdfbd8a": "Formulari de queixa",
-	"7f80b35cc17f9f69": "$1 ha reanomenat aquesta cua de \"$2\" a \"$3\"."
+	"5a7d6ba3bfd7fa1b": "Sondeig del punt final de l'API del repositori de GitHub \"$1\".",
+	"7f80b35cc17f9f69": "$1 ha reanomenat aquesta cua de \"$2\" a \"$3\".",
+	"e094e875b612e151": "Importeu problemes i extracte de sol·licituds des d'un repositori de GitHub.",
+	"e5531adae3c84603": "Repositori GitHub"
 }

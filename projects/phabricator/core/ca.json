@@ -11,7 +11,7 @@
 	},
 	"002ff598115d8459": "Pregunta",
 	"00f66bc8102380a8": "No existeix el dipòsit «$1»",
-	"00fe8f0aa656124a": "Desa comissions relacionades",
+	"00fe8f0aa656124a": "Desa validacions relacionades",
 	"011a04a154da228b": "$1 va editar $2.",
 	"013085cdfc078d26": "Us donem la benvinguda al Phabricator",
 	"013cb069056a7c14": "La vista «$1» no admet fills.",
@@ -210,6 +210,7 @@
 	"3b9b0722d0d43e4d": "Cursiva",
 	"3bb4a4fa1c4b9120": "Preàmbul",
 	"3beb9ad4036d0f72": "Revisió",
+	"3c0881d86c79bfc5": "Importació del repositori",
 	"3dcfe8c501962b28": "Necessita atenció",
 	"3eebb38327cd8bbb": "Credencials invàlides",
 	"3f2ec03f4ce59969": "Autoritzat per",
@@ -277,6 +278,7 @@
 	"5d728758adcdd515": "Marcadors",
 	"5e426aedd4a28a42": "Es requereix HTTPS",
 	"5f1184f7df96c592": "Global",
+	"5f80d975dc4bd549": "ID del repositori",
 	"5f98c60a0f1c91b0": "Exemple: $1",
 	"5fb1db527825d299": "Segons",
 	"5fcebeefad3cdbbf": "Basics",
@@ -291,6 +293,7 @@
 	"6403f2b7eb2aaafe": "Nou",
 	"640ab2bae07bedc4": "Prova",
 	"64fbd995d3b6b156": "Canvi",
+	"650d962642016ae8": "Nom curt del repositori",
 	"655caf71d30ada22": "Copiat des de $1",
 	"65ba00e95e60fb89": "Columna",
 	"65de2e2a3bcb36da": "Parcial",
@@ -497,6 +500,7 @@
 	"c9ea7d7bee86125b": "Fitxers afectats",
 	"caadd138e6e8d159": "ANALITZA",
 	"cb0cb170d106f8e8": "Servidor",
+	"cb8b2ca6406e75c5": "Trucada del repositori",
 	"cbd19b5c397e027a": "Actor",
 	"cc9db3a795571c7e": "Vermell",
 	"cf723c59b62a1735": "Columnes",
@@ -566,5 +570,6 @@
 	"fa2984b367b8f2fc": "Desa els canvis",
 	"fb5fb7963635a706": "Optimitzador",
 	"fbc506535f46eeef": "Aquesta sol·licitud no té cap testimoni d'CSRF.",
-	"fc88f06a5cb79023": "Edita les validacions"
+	"fc88f06a5cb79023": "Edita les validacions",
+	"fded1c1a426cf718": "Descripció del repositori."
 }
