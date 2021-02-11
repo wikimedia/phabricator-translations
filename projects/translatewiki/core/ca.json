@@ -13,7 +13,7 @@
 	"17b6d98715597264": "Ignorant la cadena \"$1\"; no present en el fitxer origen de traducció.",
 	"2c22da08dc82f0ba": "Proporciona la ruta a una llibreria exacta per exportar traduccions.",
 	"38877d794cbf1943": "Proporciona un nom de projecte per exportar cadenes amb \"--as\".",
-	"3b87bed5eefca3c1": "Cadenes en brut",
+	"3b87bed5eefca3c1": "Cadenes raw",
 	"410147829602065c": "Nom del projecte pel qual s'està generant un fitxer de traducció.",
 	"418a2fbab13c3664": "S'estan extraient les cadenes de la biblioteca...",
 	"49427ff57fe09816": "GÈNERE",

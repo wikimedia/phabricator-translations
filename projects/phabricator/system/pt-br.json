@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad"
 		]
 	},
 	"0af1e82803f33761": "O Phabricator está atualmente configurado com nenhum banco de dados gravável (\"master\"), portanto, não pode gravar novas informações em lugar algum. O Phabricator será executado no modo somente leitura até que um administrador reconfigure-o com um banco de dados gravável.",
