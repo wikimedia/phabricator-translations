@@ -80,7 +80,7 @@
 	"6e494fbf60a13bb1": "$1 requereix que existeixi el directori '$2', però no existeix i no s'ha pogut crear. Creeu aquest directori o actualitzeu '$3' a la vostra configuració per apuntar a un directori existent.",
 	"706b738b57e68b14": "Especifiqueu una proporció de memòria de la màquina que ha d'estar lliure abans que creixin els grups d’escala automàtica. Per exemple, un valor de 0,25 significa que les agrupacions no creixeran tret que la màquina tingui almenys un 25 %% de RAM lliure.",
 	"70bbcffe1d2edbe4": "Reviseu els registres d’un bloqueig específic.",
-	"7290dfda06966ec3": "Per defecte, ** $1 ** alliberarà tots els contractes de tasques realitzats pel dimoni. Aquest pas s'ometrà amb aquest marcador.",
+	"7290dfda06966ec3": "Per defecte, **$1** alliberarà tots els contractes de tasques realitzats pel dimoni. Aquest pas s'ometrà amb aquest indicador de seguiment.",
 	"74ebe4b817272c6b": "Acabant amb el procés $1...",
 	"7931d9edd0663201": "Tasques completades recentment (darrers 15 m)",
 	"7b03cc758beaeba8": "No hi ha processos de dimoni en execució.",

@@ -437,7 +437,7 @@
 	"e976ffc1ec889772": "Llegeix informació sobre les tasques.",
 	"e9b325012d7f2f90": "Nova constant de prioritat de tasca.",
 	"ea931e9c1a511ace": "$1 ha reobert aquesta tasca com $2 en validar $3.",
-	"eb57ec4c530fa389": "Trieu una prioritat per defecte per a les tasques creades recentment.  Podeu revisar i ajustar les prioritats disponibles utilitzant l'opció de configuració $1.  El valor per defecte (`90`) correspon a la prioritat per defecte de «Necessitats de Triatge».",
+	"eb57ec4c530fa389": "Trieu una prioritat per defecte per a les tasques creades recentment. Podeu revisar i ajustar les prioritats disponibles utilitzant l'opció de configuració $1. El valor per defecte (`90`) correspon a la prioritat per defecte de «Necessitats de Triatge».",
 	"ebb670b74f5df6a0": "La tasca d'origen està associada amb la revisió de destiació.",
 	"ed4449dbc64ede3f": "Estat de tasca canviada",
 	"edf289278b752ec5": "Columna de projecte canviada",

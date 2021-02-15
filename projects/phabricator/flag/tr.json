@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"197a62696ce8fbf0": "\"$1\" işaretiyle işaretlenmiştir.",
@@ -14,7 +15,7 @@
 	"699642af97a5d952": "Bayraklar özeldir. Bayraklarınızı yalnızca siz görüntüleyebilir veya düzenleyebilirsiniz.",
 	"70fc3e4015e8e4f8": "Bir kimliği veya bir objectPHID geçirmesi gerekir.",
 	"7168897d704726c7": "Zaten $1 bayrakla işaretlendi.",
-	"76dbf884271fdcfd": "Daha Sonra Bayrak",
+	"76dbf884271fdcfd": "Daha Sonrası için İşaretle",
 	"7dda51ce77f4eb5f": "Sen bu bayrağın yaratıcısı değilsin.",
 	"8828ce01607a48df": "Bayrak $1",
 	"94d23c9bf50bab36": "Bir bayrak oluşturun veya değiştirin.",

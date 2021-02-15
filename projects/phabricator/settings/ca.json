@@ -110,6 +110,7 @@
 	"781b13031392e2f6": "Canvia el fus horari",
 	"79c6a1bb608f6490": "DarkConsole Visible",
 	"7a1af350e9b67868": "DarkConsole és una consola de depurar (\"debugging\") per aplicacions de Phabricator pel desenvolupament i resolució de problemes (\"troubleshooting\"). Després d'habilitar DarkConsole, cliqueu la tecla {nav`} en el vostre teclat per commutar entre on i off.",
+	"7cfdf1b0860d1c83": "Podeu ajustar la **Configuració de les aplicacions** aquí per personalitzar-vos quan esteu enviat per correu electrònic i notificat. \n\n| Configuració | Efecte \n| -------- | ---------- \n| Correu electrònic | Rebràs un correu electrònic i una notificació, però la notificació es marcarà com a \"llegida\". \n| Notifica | Només rebreu una notificació sense llegir. \n| Ignorar | No rebràs res. \n\n\nSi una actualització fa diversos canvis (com afegir CCs a una tasca, tancar-la i afegir un comentari) rebreu la notificació més forta que qualsevol dels canvis està configurat per lliurar. \n\nAquestes preferències **només** s'apliquen als objectes als quals esteu connectat (per exemple, les revisions on sou un revisor o les tasques en les quals esteu connectat).  Per rebre alertes de correu electrònic quan es creen altres objectes, configureu [[ /herald/ | Regles de l'Herald ]].",
 	"7dfb9bd8fd5d915f": "Europa: 28-02-2000",
 	"801cabd6132e73b5": "La contrasenya antiga que has proporcionat no és correcta.",
 	"8046b2c59389017a": "◐ Notifica",

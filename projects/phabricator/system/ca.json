@@ -31,7 +31,7 @@
 	"4b7d7e1069a59c87": "Veure com",
 	"4f17eb3453bbf2ad": "S'han destruït permanentment $1 objectes.",
 	"52aa5f90323d30f5": "Trieu la Codificació",
-	"556ac87365d4e095": "La destrucció d'objectes pot fer que els objectes relacionats deixin de funcionar i poden deixar referències disperses a objectes que ja no existeixen. En la majoria dels casos, és molt millor desactivar o arxivar objectes en lloc de destruir-los. \n\nAquest risc és més gran en suprimir objectes complexos o altament connectats com repositoris, projectes i usuaris. Aquestes vores esglaonades són una conseqüència esperada de destruir objectes i el Phabricator aigües amunt no us ajudarà a solucionar-los. En el seu lloc, es recomana desactivar o arxivar objectes.",
+	"556ac87365d4e095": "Destruir objectes pot fer que els objectes relacionats deixin de funcionar, i pot deixar referències disperses a objectes que ja no existeixen. En la majoria dels casos, és molt millor desactivar o arxivar els objectes en lloc de destruir-los. Aquest risc és més gran quan s'esborren objectes complexos o molt connectats, com repositoris, projectes i usuaris.\n\nAquests flancs trencats són una conseqüència esperada de la destrucció d'objectes, i el upstream de Phabricator no t'ajudarà a corregir-los. Recomanem encaridament desactivar o arxivar els objectes al seu lloc.",
 	"58bf20abc8cfcd7f": "IMPORTANT",
 	"61fa1232adb2e450": "Molt inestable",
 	"6302530881f5c892": "No pot desbloquejar el propietari de l'objecte: el motor de desbloqueig ('$1') d'aquest objecte no implementa un mecanisme de desbloqueig del propietari.",

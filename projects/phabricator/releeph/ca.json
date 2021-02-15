@@ -81,7 +81,7 @@
 	"53a7c3fb87da13b4": "Marca com a revertit",
 	"55af9e24c9777536": "El missatge de validació fa referència a diverses sol·licituds Releeph, però les sol·licituds es troben en diferents branques: $1",
 	"5756f513e9b518d0": "$1 ha volgut aquesta sol·licitud",
-	"590df8f431ea10ca": "No es pot analitzar un camp de Releep.",
+	"590df8f431ea10ca": "No es pot analitzar sintàcticament un camp de Releep.",
 	"5a94edf7b1a82c34": "Data de Punt del tall: $1",
 	"5c1e51be5892e605": "Retorna la informació necessària per tallar una branca i triar i revertir $1.",
 	"5f048578c19a1472": "Nom simbòlic",

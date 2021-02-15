@@ -10,7 +10,7 @@
 	"11399b1faec2eb8e": "Error al $1!",
 	"197162c832f1d7fd": "ERROR: La funció PHP $1 no està habilitada. Heu d'habilitar-la per executar Aphlict en aquesta màquina.",
 	"2a74a7eaa12bf589": "Aturar el servidor de notificacions.",
-	"2bea7e7c0b236c1c": "El fitxer de configuració no té el format JSON adequat.  $1",
+	"2bea7e7c0b236c1c": "El fitxer de configuració no té el format JSON adequat. $1",
 	"314e761bb0191d43": "No s'ha trobat cap binari \"$1\" o \"$2\" a $3. Cal instal·lar Node.js per iniciar el servidor Aphlict.",
 	"43256ef7ad916881": "ERROR: L'extensió de PHP '$1' no està instal·lada.  Cal instal·lar-la per executar Aphlict en aquesta màquina.",
 	"4a6fab4d39af26a5": "No s'ha pogut crear el directori «$1» per al fitxer de registre especificat (amb l'índex «$2»). Hauríeu de crear manualment aquest directori o triar una ubicació diferent del fitxer de registre. $3",

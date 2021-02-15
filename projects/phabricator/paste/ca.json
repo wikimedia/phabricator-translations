@@ -66,7 +66,7 @@
 	"b83c1543c456c873": "$1 ha actualitzat l'idioma de l'enganxat de $2 a $3.",
 	"bc63666214477f2b": "Heu de proporcionar contingut per crear un collage.",
 	"bdd31e131bfbefd6": "$1 ha actualitzat el títol per $2 de $3 a sense títol.",
-	"be301fed3f824880": "Idioma utilitzat per al ressaltat de sintaxi.  Per defecte, inferit del títol.",
+	"be301fed3f824880": "Idioma utilitzat per al ressaltat de sintaxi. Per defecte es dedueix del títol.",
 	"be3bf39c02a10b35": "Interaccionant amb Collages",
 	"bf0a5158d8772126": "Aquest mètode està congelat i finalment serà obsolet.  El codi nou hauria d'utilitzar «paste.search».",
 	"c823ffc5d45a4621": "Collages",

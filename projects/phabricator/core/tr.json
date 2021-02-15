@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"KediÇobanı",
 			"LuCKY",
 			"MuratTheTurkish",
@@ -1326,7 +1327,7 @@
 	"d00c2e68c3100b71": "Atanan",
 	"d01498d99a73dd49": "Bu komut yalnızca veritabanı yöneticilerinde çalışır, ancak seçilen veritabanı ana bilgisayarlarında yönetici olmaz.",
 	"d06b92c3f7f826f7": "\"$1\" URI geçerli bir bağlanabilir kaynak değil. Geçerli bir bağlanabilir kaynak URI'si bir etki alanı belirtmelidir.",
-	"d078ecea3f79ff65": "Yazdıran",
+	"d078ecea3f79ff65": "Yazan",
 	"d11d58b83186f0bb": "$1 çağırmadan önce bir IO kanalı ayarlayın!",
 	"d127f81ab4745109": "Durum belirtiminde \"anahtar\" yok.",
 	"d158550b8142ade1": "Bilinmeyen arama motoru sınıfı \"$1\".",
@@ -1590,7 +1591,7 @@
 	"f54c6359ca798218": "Bu istek geçersiz bir CSRF anahtarına sahipti.",
 	"f552c1585c63fee1": "PHID",
 	"f5619a6339e7765b": "Conduit API Anahtarları",
-	"f578227926a03a85": "Branşlar",
+	"f578227926a03a85": "Dallar",
 	"f5a04c107d6c5535": "Özel alan rolü \"$3\" olan \"$2\" sınıfındaki nesneler için \"$1\" alan anahtarına sahip alan yok.",
 	"f5a4b3b5545aa52e": "Tüm çöpleri toplama yapıldı.",
 	"f5cbdf6bfb51439b": "İçindekiler",
