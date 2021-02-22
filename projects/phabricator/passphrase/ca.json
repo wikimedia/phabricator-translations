@@ -21,7 +21,7 @@
 	"1fc04f066937ef8e": "$1 va examinar el text complet secret d'aquesta credencial.",
 	"20962c659a2b1ca7": "Secret de credencial ($1)",
 	"2319fd534ec767a5": "Tipus credencial",
-	"243b4839a8562de3": "Els usuaris que tinguin accés a aquesta credencial podran recuperar aquesta credencial mitjançant l'API Conduit. Només l'haureu d'activar per a les credencials a les quals cal accedir per programació (com ara des dels agents de compilació).",
+	"243b4839a8562de3": "Els usuaris que tinguin accés a aquesta credencial podran recuperar aquesta credencial mitjançant l'API Conduit. Només l'haureu d'activar per a les credencials a les quals cal accedir per programació (com ara des dels agents de construcció).",
 	"24a378c8346c4111": "La credencial està bloquejada",
 	"261204f8ce088975": "Gestió de credencials per a la seva reutilització en altres àrees de Phabricator o emmagatzematge general de secrets compartits.",
 	"28ce1c6c2e9696c7": "$1 ha destruït el secret per a aquesta credencial.",

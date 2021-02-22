@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"003e7968b57e3f4e": "Paneli Düzenle",
+	"01aef799362041d9": "Yeni ön panel simgesi.",
 	"02329d90baaa4732": "Panel Düzenlemesi: $1",
+	"026430c261376c9c": "Proje Menüsüne ekle",
 	"026e69c299e1704a": "Gösterge tablosu bulunamadı.",
+	"02f589d37d072aba": "Kişisel Ana Menüye ekle",
 	"05c624ed167edded": "\"$1\" sorgusu, uygulama arama motoru \"$2\" tarafından bilinmiyor!",
 	"076a790d8b1ef158": "Arşiv Paneli",
 	"17e78502fbd3a6ca": "Bu gösterge paneli tekrar etkin hale gelecek.",

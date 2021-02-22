@@ -117,7 +117,7 @@
 	"4fd661ad65b5f520": "Action invalide",
 	"510e0866dcc780f4": "Les points d'ancrage web doivent avoir une URI.",
 	"5285f1c20b038566": "URI du point d'ancrage web.",
-	"52a398f3b7b9fb82": "Type de règle invalide",
+	"52a398f3b7b9fb82": "Type de règle incorrect",
 	"52d9ee340c8acc59": "$1 cible(s) n’a/ont pas le droit de voir cet objet&nbsp;: $2.",
 	"52fd4a713c45cf80": "Clé HMAC de point d'ancrage web",
 	"535d10a55e45dfba": "$1 a modifié l'URI pour $2 de $3 en $4.",

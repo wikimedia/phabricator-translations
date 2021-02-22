@@ -12,7 +12,7 @@
 	"62242054e2063eb9": "No s'ha pogut carregar el símbol $1: aquesta classe no existeix.",
 	"63017d2cc8fa35f7": "El generador («$1») no ha pogut generar un objecte.",
 	"6ad21d0a2036d6e8": "OOPS",
-	"7b8d8ae984b43bbd": "Aquesta ordre genera dades de prova sintètiques, inclosos els comptes d'usuari.  Està pensat per al seu ús en entorns de desenvolupament de manera que es puguin provar les funcions amb més facilitat.  No hi ha una manera fàcil d'esborrar aquestes dades o desfer els efectes d'aquesta ordre.  Si l'executeu en un entorn de producció, contaminarà les vostres dades amb grans quantitats d'escombraries sense sentit que no podreu desfer.",
+	"7b8d8ae984b43bbd": "Aquesta ordre genera dades de prova sintètiques, inclosos els comptes d'usuari. Està pensat per al seu ús en entorns de desenvolupament de manera que es puguin provar les funcions amb més facilitat.  No hi ha una manera fàcil d'esborrar aquestes dades o desfer els efectes d'aquesta ordre. Si l'executeu en un entorn de producció, contaminarà les vostres dades amb grans quantitats d'escombraries sense sentit que no podreu desfer.",
 	"8cd3cac1380eb4ec": "Genera objectes de prova sintètics.",
 	"8d767bf5b72373d1": "classe",
 	"90a51575c9bd4563": "Generant objectes de prova sintètics per sempre.  Utilitzeu ^C per aturar-ho quan estigueu satisfet.",

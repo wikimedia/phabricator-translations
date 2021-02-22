@@ -39,7 +39,7 @@
 	"7d6e797167bf385b": "$1 (Transaccions)",
 	"854cffa7859038c9": "S'està intentant construir un conjunt de dades del tipus '$1', però es desconeix aquest tipus. Els tipus admesos són: $2.",
 	"8a3b484c6e7b7359": "constant(345)",
-	"8d88fcba720fd39a": "El gràfic utilitza una clau de motor desconeguda (\"$1\") i no es pot representar.",
+	"8d88fcba720fd39a": "El gràfic utilitza una clau de motor desconeguda (\"$1\") i no es pot renderitzar.",
 	"927dd24e89ebab23": "Mostra una llista d'iteradors de fet i cursors.",
 	"9629102da04386e7": "El valor de l'argument 'funció' ha de ser una llista natural que comenci amb un nom de funció com una cadena. El primer element de la llista té un tipus incorrecte, $1.",
 	"9ad6757a97c6ba82": "La funció '$1' espera $2 o més arguments, però només s'han proporcionat $3 arguments.",

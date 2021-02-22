@@ -223,7 +223,7 @@
 	"e73827343c64a0bb": "La requête « $1 » est inconnue. Pour exécuter une requête embarquée comme  « all » ou  « active », précisez également le moteur de recherche avec  « --class ».",
 	"e77b3d82ee5ad70c": "L'objet source a un commentaire indiquant l'objet destination.",
 	"ea664ebfc21ed9e7": "Tâche « $1 » configurée pour s'exécuter silencieusement.",
-	"eb57507fac827135": "$1 (« $2 »)",
+	"eb57507fac827135": "$1 (« $2 »)",
 	"ecd0a792402d9230": "'$1' est invalide pour la transaction de champs utilisateur; le champ '$2' est désactivé ou n'existe pas.",
 	"ef00cd8c39ae4188": "$1 action(s) sont sans effet",
 	"f0bbfef96075bc25": "Aucun des champs de cet objet ne peut être représenté par un modèle.",

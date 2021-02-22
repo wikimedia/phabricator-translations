@@ -148,6 +148,7 @@
 	"b25b1843b4eeaa47": "Jeton d’API résilié",
 	"b2961988e5b3f246": "Une liste est attendue, mais la valeur est un objet.",
 	"b58add6467b90d23": "Méthode à appeler.",
+	"b60969ac2981d577": "Forcer la requête à s’exécuter dans ce processus, plutôt que de la mandater à un autre hôte dans la grappe.",
 	"b6a2e760a99ca868": "Appelants",
 	"b700afaaf5bb5041": "Vous n’avez pas l’autorisation d’appeler cette méthode.",
 	"b7a40dc3fa6d4bd2": "Jeton de l’API de grappe",

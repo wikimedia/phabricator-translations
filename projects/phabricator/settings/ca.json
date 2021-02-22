@@ -34,7 +34,7 @@
 	"1e44025ca823c934": "Habilitar notificacions de correu electrònic",
 	"20db1ed52e4bef4d": "Editeu la configuració global per defecte per a tots els usuaris.",
 	"21287d841f61df0c": "La configuració **Add \"Re:\" Prefix**  afegeix \"Re:\" davant de tots els  missatges, fins i tot si no són respostes. Si utilitzeu *Mail.app** en Mac OS X, us pot ajudar a millorar els fils de correu.\n\n| Configuració | Exemple d'Assumpte de correu\n|------------------------|----------------\n| Enable \"Re:\" Prefix  | `Re: [Differential] [Accepted] D123: Example Revision`\n| Disable \"Re:\" Prefix | `[Differential] [Accepted] D123: Example Revision`",
-	"21eb7d6e16db18a3": "No hi ha cap plafó de configuració disponible.",
+	"21eb7d6e16db18a3": "No hi ha cap panell de configuració disponible.",
 	"223e06c52a7be78d": "Cadena buida no és una configuració vàlida per \"$1\".",
 	"22de712b363a08cc": "Ajusta el fus horari",
 	"2785923283c90225": "$1 ha actualitzat el seu perfil",
@@ -73,7 +73,7 @@
 	"4c361518ca33fc67": "S'ignorarà el conflicte entre el vostre navegador i la configuració de la zona horària del vostre perfil.",
 	"4cf08dfcbe513eb1": "Tancar totes les sessions",
 	"4d7d752801b96a85": "El vostre compte està enllaçat amb tots els proveïdors  disponibles.",
-	"4d8c1b67f7b15a7c": "Diferència entre zones horàries ignorada",
+	"4d8c1b67f7b15a7c": "S'ha ignorat el canvi de fus horari",
 	"4e75930e7897a6d9": "Comptes externs",
 	"4e8c37fe5337643e": "Si desactives **Self Accions**, Phabricator no et notificarà de les accions de què t'encarregues.",
 	"508d931cd080438f": "Correu electrònic de verificació enviat",
@@ -117,6 +117,7 @@
 	"82eee03b7377ded6": "$1 ha actualitzat el seu perfil",
 	"86e453c72368948e": "Traduccions limitades",
 	"9090d877b8e2071a": "Traduccions ximples",
+	"9580cf5c6caf5cd8": "Normalment, Phabricator mostra diferències en un disseny conjunt a pantalles grans i canvia automàticament a una vista unificada en pantalles petites (com ara els telèfons mòbils). Si preferiu diferències unificades fins i tot en pantalles grans, podeu seleccionar-les per utilitzar-les a totes les pantalles.",
 	"95e2f9fe1f4e7083": "Preferències de correu electrònic",
 	"96e07777e419e8f3": "No teniu cap testimoni actiu.",
 	"9a7e945e2737fe39": "24 Hores, 14:34",
@@ -137,5 +138,7 @@
 	"e6a0d7ebbfcfbca7": "Dia i hora",
 	"ee74a28e4c1ad1f1": "⚫ Correu electrònic",
 	"f01f76f5c38cf7d2": "Pronom",
-	"f79b6b4e52724216": "Conflicte ignorat"
+	"f3f39194d2f7b1f3": "No existeix cap grup de panells de paràmetres amb la clau «$1»!",
+	"f79b6b4e52724216": "Conflicte ignorat",
+	"f9e9c626c3501a82": "Aquest motor s’utilitza per editar la configuració."
 }

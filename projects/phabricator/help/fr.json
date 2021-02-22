@@ -2,12 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Hashar",
+			"Verdy p",
 			"Wladek92",
 			"Zarisi"
 		]
 	},
 	"17b251be5661401b": "Fermer tous les dialogues, celui-ci inclus.",
-	"6bbbdac8f41b22d9": "Aide $1",
+	"47d16aa0f68a0f68": "Raccourcis de page",
+	"6bbbdac8f41b22d9": "Aide de $1",
+	"74a0401e1c560ba1": "Masquage du contenu",
+	"8a384cf957e63a11": "Modification des commentaires en ligne",
 	"9b2c45900d277c38": "Raccourcis globaux",
-	"b465751c05fbc426": "Raccourcis clavier"
+	"b465751c05fbc426": "Raccourcis clavier",
+	"d113ddb855793cc5": "Navigation des différences"
 }

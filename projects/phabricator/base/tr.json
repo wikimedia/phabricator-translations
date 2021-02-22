@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"21909f6cc9658765": "'$1' uygulaması yok!",
@@ -24,5 +25,6 @@
 	"d9b9a15e87d0d955": "Bilinmeyen yetenek '$1'!",
 	"daf366af13db9c61": "Yönetici Gerekli",
 	"dced58a261d6133b": "İstisna ile Gerekli E-posta Doğrulaması",
-	"dfa4966710819f7d": "Devre Dışı Bırak"
+	"dfa4966710819f7d": "Devre Dışı Bırak",
+	"e5d6af967c265e3f": "\"$1\" sınıfındaki nesne için işlem sorgusu bulunamıyor."
 }

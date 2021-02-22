@@ -39,7 +39,7 @@
 	"c53b3cc01b6c1242": "El fitxer de configuració no especifica cap servidor administratiu. Aquest servei no podrà rebre missatges. Heu d'especificar com a mínim un servidor amb el tipus «$1».",
 	"cea3124adbe8bdfe": "Servidor d'Aphlict ($1) ha sortit normalment.",
 	"d3c6844361a2d518": "S'està llegint la configuració des de: $1",
-	"dc7bd081083334cc": "No s'ha pogut iniciar el servidor de notificacions perquè ja s'està executant.  Utilitzeu `$1` per reiniciar-lo.",
+	"dc7bd081083334cc": "No s'ha pogut iniciar el servidor de notificacions perquè ja s'està executant. Utilitzeu `$1` per reiniciar-lo.",
 	"e81031fd1ab36137": "Especifiqueu un missatge per enviar amb «--message».",
 	"e9b8eb62ee46ecb8": "Notificació enviada.",
 	"ecdb8b581842b4d5": "Utilitza un fitxer de configuració específic en lloc de la configuració per defecte.",
