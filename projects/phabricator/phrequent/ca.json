@@ -25,7 +25,7 @@
 	"7e187edf0490d5d4": "Temps de no seguiment",
 	"844224152bf032ae": "Tots rastrejats",
 	"8585319eb8dea0d5": "per data de finalització més allunyada",
-	"8bc02075f676b6e0": "Ordre «$1» desconeguda.",
+	"8bc02075f676b6e0": "Comanda «$1» desconeguda.",
 	"8cd6021e33d98ea4": "per data de finalització més propera",
 	"90303d8df23e3832": "Acabat",
 	"903fa10d5876c21c": "per data d'inici més allunyada",
@@ -42,7 +42,7 @@
 	"ce1326e3b245a7ca": "Si us plau escollir una data vàlida.",
 	"cfb0d0337bd9ee13": "Actualment no esteu fent el seguiment d'aquest objecte.",
 	"e6e10e7813ed7db5": "Atura el temps de seguiment en un objecte fent-lo emergir de la pila.",
-	"ee6718f487fe0b6a": "Comença el temps de seguiment en un objecte prement-lo a la pila de seguiment.",
+	"ee6718f487fe0b6a": "Comença el temps de seguiment d'un objecte introduint-lo a la pila de seguiment.",
 	"ef93054e5e8b026d": "El temps d'espera ha de ser posterior a l'hora d'inici.",
 	"f40dfd4ad054b7bc": "Actualment en seguiment",
 	"f6815b0ae9a8c37e": "No podeu començar a fer el seguiment en un moment futur.  Introduïu l'hora actual o una hora passada."

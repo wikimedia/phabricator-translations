@@ -51,7 +51,7 @@
 	"d5be24e8d6d70099": "Les extensions APC o APCu de PHP estan instal·lades, però no estan habilitades en la configuració de PHP. Si activeu aquestes extensions es millorarà el rendiment del Phabricator. Edita la configuració «$1» per habilitar aquestes extensions.",
 	"d5c91025d5afb445": "Quan utilitzeu \"--caches\", heu de seleccionar almenys una memòria cau vàlida per purgar.",
 	"d5e4407b496735f9": "Algunes versions de l'APC poden emetre errors innecessaris al registre d'errors sota la configuració actual de l'APC. Per resoldre això, activeu «$1» i desactiveu «$2» en la vostra configuració de PHP.",
-	"d77af897cf53c606": "La configuració de «$1» està desactivada actualment en la configuració de PHP, però el Phabricator s'està executant en mode de desenvolupament.  Aquesta opció normalment s'ha d'activar en el desenvolupament de manera que no cal reiniciar res després de fer canvis al codi.",
+	"d77af897cf53c606": "La configuració de «$1» està desactivada actualment en la configuració de PHP, però Phabricator s'està executant en mode de desenvolupament. Aquesta opció normalment s'ha d'activar en el desenvolupament de manera que no cal reiniciar res després de fer canvis al codi.",
 	"d82af8db2a581182": "En producció, l'OPcache s'ha de configurar per no tornar a validar el codi.  Això millorarà lleugerament el rendiment.  Per fer-ho, desactiveu \"$1\" en la configuració de PHP.",
 	"d87d135a91274091": "«$1» desactivat en el desenvolupament",
 	"e0148b541890a487": "OPcache no està configurat per al desenvolupament",

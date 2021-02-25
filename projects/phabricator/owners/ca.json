@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseplluis",
+			"Mguix"
+		]
+	},
+	"1073c87faa55b59a": "Activeu automàticament auditories per a validacions que afectin fitxers d’aquest paquet.",
+	"12a5c810247d87e4": "El camí existeix al repositori",
+	"194abf3ee921e035": "Comproveu les validacions sense revisar i les validacions sense implicació del propietari",
+	"2776e388fef762d9": "$1 ha canviat el propietari del paquet $2, ha afegit $3:$4; s'ha suprimit $5:$6.",
+	"36cca0e0571af402": "Revisió automàtica",
+	"42daec9d1ebf95b9": "Informació de revisió automàtica.",
+	"49b6dcfbea1e7357": "No es reconeix l'indicatiu de trucada del repositori $1",
+	"5dc733b7add4af5d": "Agrupa les seccions d'una base de codi en paquets per a la seva reutilització en altres àrees de Phabricator, com les normes de Herald.",
+	"5e2e9f7d124b174e": "Reviseu els canvis amb l'autor que no sigui propietari",
+	"5fc6e631f02aec35": "$1 ha reanomenat aquest paquet de \"$2\" a \"$3\".",
+	"5fdc0200d6c04f63": "Comproveu les validacions no revisades",
+	"66b94bcea0069976": "Llista de diccionaris, cadascun dels quals descriu un camí.",
+	"6dbe8b08f64c51d5": "$1 ha canviat $2 atribut(s), afegit $3:$4.",
+	"771fa1522b9854d1": "La llista d'especificacions de camins fa referència al repositori PHID \"$1\", però no és un repositori visible vàlid.",
+	"8f315c7497f2f2ed": "No es reconeix l'indicatiu de trucada del repositori.",
+	"97ff592ecbc35159": "Els noms dels paquets no poden contenir comes (',') ni signes d'exclamació ('!'). Aquests caràcters són ambigus quan els noms dels paquets s’analitzen sintàcticament des de la línia d’ordres.",
+	"98695d8950242ca1": "$1 ha canviat $2 atribut(s), afegit $3:$4; suprimit $5:$6.",
+	"9a17d47088965895": "Ignora els fitxers generats (només revisa).",
+	"9afe694eb62ff20b": "Activeu automàticament les ressenyes de les validacions que afectin fitxers d’aquest paquet.",
+	"9e39744be41ba0db": "Cap validació en aquest paquet.",
+	"9e5a4947ca506dca": "Reviseu tots els canvis",
+	"a8a8eb4cb9061060": "Revisa tots els canvis (bloqueig)",
+	"aa0a42c2ded882cd": "Cap regla Herald activa afegeix aquest paquet com a auditor, revisor o subscriptor.",
+	"b0929d63eeb8dee5": "Proporcioneu un únic propietari phid (usuari/projecte), un únic usuari afiliat phid (usuari), o un repositori/camí.",
+	"b3159660a5b918a0": "Cerqueu paquets als repositoris inclosos.",
+	"b39c780add62d098": "Auditar Totes Les Validacions",
+	"b45224497cd7faf5": "Validacions d'auditoria sense implicació del propietari",
+	"bccf0f25d64edc6f": "No hi ha cap repositori PHID per al camí \"$1\"!",
+	"c17ab6630d7c1e58": "Reviseu els canvis amb l'autor que no sigui propietari (bloqueig)",
+	"c36ec2d6a4f97684": "$1 ha afegit $2 propietaris: $3.",
+	"c6b1e06c12aaceb7": "$1 ha canviat $2 atribut(s), suprimit $3:$4.",
+	"e8f9b3b437a9b66e": "Aquest paquet no té cap validació oberta.",
+	"e9678973612b14ea": "$1 ha suprimit $2 propietaris: $3.",
+	"f21e1ba83e8ff6ac": "$1 ha canviat la regla d'auditoria d'aquest paquet de $2 a $3."
+}

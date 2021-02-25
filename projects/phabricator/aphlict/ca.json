@@ -24,7 +24,7 @@
 	"7b1c6f1c1209a55f": "El servidor ha sortit!",
 	"7e9983dfa7bad024": "Inicia el servidor de notificacions en primer pla i imprimeix grans volums d'informació de diagnòstic a la consola.",
 	"801f93fad5c1b6c0": "Un servidor especificat (a l'índex «$1», al port «$2») té un tipus invàlid («$3»).  Els tipus vàlids són: administrador, client.",
-	"8a6a12235fb934b6": "El fitxer de configuració especifica el parell de clústers «$1» més d'una vegada (a índexs «$2» i «$3»).  Cada parell ha de tenir una combinació única d'amfitrió i port.",
+	"8a6a12235fb934b6": "El fitxer de configuració especifica el parell de clústers «$1» més d'una vegada (a índexs «$2» i «$3»). Cada parell ha de tenir una combinació única d'amfitrió i port.",
 	"8bc94a976bc4b3a4": "Mostra l'estat del servidor de notificacions.",
 	"8d93b1b51e918a37": "El fitxer de configuració no especifica cap servidor.  Aquest servei no podrà interactuar amb el món exterior si no escolta cap port.  Heu d'especificar com a mínim un servidor «$1» i almenys un servidor «$2».",
 	"90a12173d6f5b1b1": "Inicia el servidor de notificacions.",

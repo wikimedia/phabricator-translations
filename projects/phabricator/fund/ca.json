@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseplluis",
+			"Mguix"
+		]
+	},
+	"0006324868d87fff": "Descripció llarga de la iniciativa.",
+	"09da16816c90724b": "Riscos i reptes de la iniciativa.",
+	"0c65384c668ba13b": "$1 ha tancat aquesta iniciativa.",
+	"0df1e70d42585378": "Cerca patrocinadors",
+	"131126db1d0ec867": "$1 ha creat aquesta iniciativa.",
+	"13c34960119d427a": "Crea una iniciativa",
+	"1b6864bd678747f7": "Les iniciatives han de tenir un nom.",
+	"1b7b622199d21863": "$1 ha actualitzat els riscos/reptes de la iniciativa per $2.",
+	"1bb2fbea87f0ff29": "Tanca la iniciativa",
+	"23a23ea6bf8ef315": "Es produeix una altra activitat d'iniciativa que no s'enumera més amunt.",
+	"267ef5e7c9936128": "Totes les iniciatives",
+	"26ac3f1c80c96ce1": "No pots donar suport a una iniciativa tancada.",
+	"2b43bd1cd7561a21": "Edita la iniciativa: $1",
+	"2f2c6f8ae8a896fc": "Nou venedor d'iniciatives.",
+	"2ff63d49f3db15b5": "Reobre la iniciativa",
+	"31332d46fa9c350b": "Pagable al venedor",
+	"34f0b08914211401": "Nom de la iniciativa.",
+	"3d8a9ebcfdb24479": "Finançar les iniciatives",
+	"5554ce77716f9f86": "Patrocinadors financers",
+	"5d6f6c0bec25a127": "Finançar <Unknown Initiative>",
+	"705770f5049f7cf4": "No teniu permís per crear iniciatives de finançament.",
+	"71ceafe77177743b": "$1 ha establert el venedor que rebia fons d'aquesta iniciativa en $2.",
+	"84b171722830d75f": "$1 ha canviat el venedor que rebia fons de $2 de $3 a $4.",
+	"9093e40fdf10e84d": "Finançament total",
+	"9ce636b0c03051a9": "Les iniciatives han de tenir un venedor a qui pagar.",
+	"9f727e1ef98f99a2": "Finançament $1 $2",
+	"a70277039afa65b3": "$1 ha canviat el venedor que rebia fons d'aquesta iniciativa de $2 a $3.",
+	"ad76e9a3e45067d3": "Configureu formularis de creació i modificació de patrocinis.",
+	"c16142fef7a95177": "NOTA: no controleu cap compte mercantil que pugui rebre pagaments d'aquesta iniciativa. Quan creeu una iniciativa, heu d'especificar un compte mercantil on es pagaran els fons. Creeu un compte mercantil a l'aplicació Phortune abans de crear una iniciativa de patrocini.",
+	"c341b4303d2f0328": "Venedor que porta la iniciativa.",
+	"cab3e02528db28ee": "$1 ha reanomenat aquesta iniciativa de \"$2\" a \"$3\".",
+	"cbe9285536836c4f": "Venedor $1 $2",
+	"d04483248ba0fb22": "(Venedor restringit)",
+	"d578e6cf37636781": "Heu d'especificar un compte mercantil que controleu com a destinatari dels fons d'aquesta iniciativa.",
+	"f032a5a005ba2bf4": "Configureu els formularis de financiació"
+}
