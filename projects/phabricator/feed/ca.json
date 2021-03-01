@@ -11,7 +11,7 @@
 	"3d1724997b3209bd": "El tipus d'història ha de ser un nom de classe vàlid i ha de subclassificar $1.  '$2' no és una subclasse de $3.",
 	"402cff085a9c09db": "Presentació HTML completa de la història",
 	"479b096dd515915f": "(No es pot renderitzar la història de la classe $1 per a Doorkeeper.)",
-	"496c5d9a5e9baa40": "La història no té cap objecte primari!",
+	"496c5d9a5e9baa40": "La història no té cap objecte principal!",
 	"4d5f6edd9fafac64": "Republicant història...",
 	"52d4e024931e864b": "La història pregunta per un objecte que no ha demanat ('$1')!",
 	"554f3964d2e59e64": "Representació de la història en línia com a text sense format",

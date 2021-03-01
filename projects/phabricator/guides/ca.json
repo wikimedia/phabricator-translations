@@ -16,7 +16,7 @@
 	"46f41c5aad565112": "Configureu els paràmetres del compte per a tots els usuaris o només per a tu.",
 	"515ad8ce9bb7eecf": "Canvieu el nom i afegiu el logotip de la companyia, només per donar-li un toc extra.",
 	"51d0e317b0f5ffa7": "El Phabricator s'ha instal·lat correctament.  Les guies següents us portaran a través de la configuració i la nova orientació d'usuari.  Aquests passos són opcionals, i es poden passar en qualsevol ordre.  Si voleu tornar a aquesta guia més endavant la podeu trobar a {icon globe} ** Applications** sota {icon map-o} **Guides**.",
-	"59fe7e60410f52d0": "Has instal·lat un servidor de notificació de temps real.",
+	"59fe7e60410f52d0": "Has instal·lat un servidor de notificacions de temps real.",
 	"5acfc0badb35c4e0": "Teniu alguns problemes de configuració pendents.",
 	"5d859a72a65406e6": "Crea alguna feina per als interns a Manifest.",
 	"5fc6ab5d69b0c1e8": "Si no coneixeu Phabricator, aquests passos opcionals us poden ajudar a aprendre els conceptes bàsics. Conceptualment, Phabricator s’estructura com un gràfic i tots els dipòsits, tasques i projectes són independents. No dubteu a configurar Phabricator a la vostra manera de treballar millor i a explorar aquestes funcions al vostre ritme.",

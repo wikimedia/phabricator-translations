@@ -100,7 +100,7 @@
 	"a0df229432a10dc9": "Aquesta pàgina documenta les ordres que podeu utilitzar per interactuar amb documents a Legalpad.",
 	"a25be7d9d381fe47": "Afegeix una exempció de signatura",
 	"a2bb29878a133283": "No cal signatura",
-	"a414b015a539e6c2": "Afegeix una exempció",
+	"a414b015a539e6c2": "Afegir una exempció",
 	"a51ebf4f2d6f972d": "L’autor d’un document sempre el pot visualitzar i editar.",
 	"a52a2892a2673deb": "Pot crear documents",
 	"a5789f1da3b5a0e8": "$1 ha eliminat $2 documents legals requerits des de $3: $4.",
@@ -108,5 +108,6 @@
 	"a6da5ca3461c41e3": "El preàmbul del document.",
 	"a89030d9c657885f": "$1 estableix que el document requereix signatures.",
 	"a96e829dca138c0f": "Particulars",
-	"bd56e749fc83f6fc": "No heu de signar aquest document. $1 us ha afegit una exempció de signatura en $2."
+	"bd56e749fc83f6fc": "No heu de signar aquest document. $1 us ha afegit una exempció de signatura en $2.",
+	"d6c66cc2a74e1657": "**Legalpad** és una aplicació senzilla per al seguiment de signatures i acords legals. De moment, està destinat principalment a ajudar els projectes de codi obert a fer un seguiment dels acords de llicència de col·laboradors."
 }

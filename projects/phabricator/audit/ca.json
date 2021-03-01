@@ -84,7 +84,7 @@
 	"bab45ef3a2afd551": "Suprimiu les sol·licituds d'auditoria que coincideixin amb paràmetres.",
 	"bb8371d73ca9b30d": "$1 ha tancat aquesta auditoria.",
 	"bbd7a513b2b93fd8": "Cerca validacions en repositoris particulars.",
-	"c1f3d10e49f3d5fa": "No hi ha cap usuari amb el nom d'usuari \"$1\"!",
+	"c1f3d10e49f3d5fa": "No existeix l'usuari amb el nom d'usuari \"$1\"!",
 	"cc53401e727580d3": "No existeix la validació «$1»!",
 	"ccd5ac0ce9da2689": "Eliminant l'auditoria $1...",
 	"df3d873088048f69": "Actualitzeu les validacions i els repositoris amb nom.",

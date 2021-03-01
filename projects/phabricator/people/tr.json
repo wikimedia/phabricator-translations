@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"LuCKY"
 		]
 	},
@@ -62,7 +63,7 @@
 	"315d77e6f0d040b8": "Kullanıcının gerçek adı.",
 	"317b20dd6e2eb719": "Yalnızca hizmetlileri bu yöntemi çağırabilir.",
 	"31dad2e865f469b1": "Posta Listelerini Gizle",
-	"323a032511a11096": "Kullanıcı hiçbir projeye ait değil.",
+	"323a032511a11096": "Kullanıcı hiçbir projeye dahil değil.",
 	"334904d98dfdb21f": "Daha Önce Katıldı",
 	"33d970aaff1b22a0": "Kullanıcı Etkinlik Günlükleri",
 	"341379a395ccc4d1": "Kullanıcıyı true olarak devre dışı bırakın.",
@@ -308,7 +309,7 @@
 	"f6e7d24fbd12c1e8": "\"MFA Has\" sorgusu kısıtı, saldırganların zayıf hesapları hedeflemekte kullanmasını önlemek için yalnızca yöneticiler tarafından kullanılabilir.",
 	"f72c6f66991e31bf": "Aktör PHID",
 	"f7af8c0392db3757": "Yönetici olmadığınız için hoş geldiniz postası gönderemezsiniz. Yalnızca yöneticiler hoş geldiniz postası gönderebilir.",
-	"f98db0153727189a": "Kullanıcıdan Beri",
+	"f98db0153727189a": "Kullanıcı oluşturma tarihi",
 	"f9a76abef3d379b9": "$1 bu kullanıcıyı etkinleştirdi",
 	"fbbc5881bce944be": "Bot Kullanıcısı Oluştur",
 	"fbe2d3909007d983": "İsteğe bağlı olarak e-postaya içten bir kişisel mesaj ekleyebilirsiniz.",

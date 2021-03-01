@@ -6,7 +6,7 @@
 	},
 	"0008bde8eebd806d": "Suport per ConduitResultInterface",
 	"004c3ad67ff7186a": "Registres de Conduit",
-	"00b93566bf7ce6cb": "Utilitzeu dades codificades per formularis per enviar paràmetres als punts finals de Conduit. Actualment no s’admet l’enviament d’un cos codificat JSON i la configuració de ‘Content-Type’:‘application/json’.",
+	"00b93566bf7ce6cb": "Utilitzeu dades codificades per formularis per enviar paràmetres als l'endpoints de Conduit. Actualment no s’admet l’enviament d’un cos codificat JSON i la configuració de ‘Content-Type’:‘application/json’.",
 	"0164281bb78268e3": "La clau de sessió no és vàlida.",
 	"016dc3c5ba28f58b": "trucada d'arc-conduit",
 	"01dc0ebd158e286d": "Feu una llista de capacitats, formats de cablejat i protocols d’autenticació disponibles en aquest servidor.",

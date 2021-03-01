@@ -20,7 +20,7 @@
 	"13a1272d3fe3ffc1": "Ruta d'escapada",
 	"13ed9bb8ec662652": "Configureu els formularis d'insígnies",
 	"1409102c84d3be6c": "Nous destinataris del premi de la insígnia.",
-	"15163433608ef421": "$1 ha canviat el nom de la insígnia $2 de $3 a $4.",
+	"15163433608ef421": "$1 ha reanomenat la insígnia $2 de $3 a $4.",
 	"1ca4eed206eb0a9e": "$1 ha actualitzat el text de la varietat $2 de $3 a $4.",
 	"1df8061315935e3c": "Aquesta insígnia no té destinataris.",
 	"1e295cba0bed114d": "$1 ha desactivat la insígnia $2.",
@@ -95,7 +95,7 @@
 	"b70164caf8f11eaf": "Realment voleu revocar la insígnia «$1» de $2?",
 	"b7e8916505bf72d3": "Llegendàri",
 	"ba62c3a07707d064": "$1 ha activat la insígnia $2.",
-	"bc0db4cd675f38cb": "Afegir Destinataris",
+	"bc0db4cd675f38cb": "Afegir destinataris",
 	"bc440f645cdff406": "Internacional",
 	"bcbe42926ff6037e": "Revocar els destinataris del premi.",
 	"bf72d6c6cc3aec02": "Marieta",
@@ -133,5 +133,5 @@
 	"f7a759717836bc1d": "Llegiu informació sobre insígnies.",
 	"fcfb12e032a2dfe8": "$1 ha revocat $2 per a $3 destinataris: $4.",
 	"fdec642085620e75": "Text variat",
-	"8176346296534767": "Afegir Destinatari"
+	"8176346296534767": "Afegir destinatari"
 }

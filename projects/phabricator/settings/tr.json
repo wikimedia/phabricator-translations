@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Elisa3626"
+			"Elisa3626",
+			"Joseph"
 		]
 	},
 	"005bfb7a94bf7cfb": "12 Saat, 2:34 ÖS",
@@ -17,10 +18,10 @@
 	"0a5ee85414fe08e2": "ISO 8601: 2000-02-28",
 	"0ccb7998ecc39302": "Genel Varsayılan Ayarlar",
 	"0d32db227630073a": "Öz Eylemler",
-	"117cb5da2ea671e9": "Fiziksel Özellikleri Kullanıcı Arayüzünün hangi dili kullanmasını istediğinizi seçin.",
+	"117cb5da2ea671e9": "Phabricator kullanıcı arayüzünün hangi dili kullanmasını istediğinizi seçin.",
 	"128113074a2daf0c": "E-posta Bildirimleri",
 	"12aad65c46eb9853": "Birleştirilmiş Farkları Göster",
-	"14ea9a7faab3120f": "Farklı Tercihleri",
+	"14ea9a7faab3120f": "Fark Tercihleri",
 	"17063c506b81a46c": "Cumartesi",
 	"17787c7178512d82": "Birincil Adresi Değiştir",
 	"1822a19d4526de58": "Pul Gönder",
@@ -188,7 +189,7 @@
 	"dc61c07908f739a0": "Başka Bir Doğrulama E-postası Gönderilsin mi?",
 	"dc6af3af1c478e38": "Algoritma uygulaması eksik olduğundan, şifreniz kullanılamaz veya güncellenemez.",
 	"dda6ac27b9d3b234": "Onayla",
-	"deb5fb222910c1f3": "Ayarlar Düzenlemesi: $1",
+	"deb5fb222910c1f3": "Ayarları Düzenle: $1",
 	"e0bf631389a5d3b8": "\"Yanıt:\" Öneki Ekle",
 	"e101251952d6b6bf": "Yalnızca Masaüstü",
 	"e32707613d1f53b9": "Hesap Ayarları",

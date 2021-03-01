@@ -6,7 +6,7 @@
 	},
 	"05fe7803b131a33c": "Recupera informació sobre un PHID arbitrari.",
 	"0a751e41cfcf8b01": "No s'ha carregat la referència «$1» sol·licitada.",
-	"131ada2c91031e5e": "Les referències han d’utilitzar el visor de referències de memòria cau.",
+	"131ada2c91031e5e": "Les referències han d’utilitzar el visor de referències de la caché.",
 	"1498233146466f1f": "Restringit $1",
 	"1db177fa2f0941e1": "S'està intentant silenciar un $1, però això no està permès; les llistes de referència són immutables.",
 	"40acf4c5cd86049e": "La classe \"$2\" de $1 conté una propietat de $3 no vàlida. Les constants PHID han de ser cadenes de caràcters formades per 4 lletres majúscules.",
