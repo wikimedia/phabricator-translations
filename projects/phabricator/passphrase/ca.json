@@ -33,7 +33,7 @@
 	"3798bbeab985d8f5": "La credencial està bloquejada",
 	"39e781d3da051b3e": "Emmagatzema el text pla d'una clau privada SSH.",
 	"3a04a90c98cbde56": "$1 ha actualitzat el secret per a aquesta credencial.",
-	"3c0df61350606aa5": "Camí al disc",
+	"3c0df61350606aa5": "Ruta al disc",
 	"3c53366feadb8bd6": "$1 ha creat aquesta credencial.",
 	"3eea8bd17ac57450": "Aquesta credencial no es pot mostrar perquè està bloquejada.",
 	"438d6727af5473cd": "Aquesta credencial no té cap secret associat.",
@@ -115,6 +115,6 @@
 	"fa23b7a3f9d3f2c1": "Inici de sessió: $1",
 	"fe132201c4a7565d": "$1 ha adjuntat un nou secret a $2.",
 	"fed54b2f7315993a": "$1 ha reanomenat aquesta credencial de $2 a $3.",
-	"ff6872136194a509": "Emmagatzemeu el camí al disc a una clau privada SSH.",
+	"ff6872136194a509": "Emmagatzemeu la ruta al disc a una clau privada SSH.",
 	"ffd352e7ebd8982e": "Voleu mostrar secret?"
 }

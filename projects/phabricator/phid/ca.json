@@ -9,7 +9,7 @@
 	"131ada2c91031e5e": "Les referències han d’utilitzar el visor de referències de la caché.",
 	"1498233146466f1f": "Restringit $1",
 	"1db177fa2f0941e1": "S'està intentant silenciar un $1, però això no està permès; les llistes de referència són immutables.",
-	"40acf4c5cd86049e": "La classe \"$2\" de $1 conté una propietat de $3 no vàlida. Les constants PHID han de ser cadenes de caràcters formades per 4 lletres majúscules.",
+	"40acf4c5cd86049e": "La classe \"$2\" de $1 conté una propietat de $3 no vàlida. Els PHID constants han de ser cadenes de caràcters formades per 4 lletres majúscules.",
 	"40f8045ec98d286b": "S'està intentant carregar el PHID «$1», però cap llista de referències l'ha demanat.",
 	"4270ca6ab8fde311": "Els objectes que heu llistat inclouen objectes del tipus incorrecte ($1).",
 	"5920c81577d44070": "Paquet de prova de consultes",
@@ -23,5 +23,5 @@
 	"d0636307d6924a2a": "Reemplaçat per 'phid.query'.",
 	"ea5edb74faa34ae6": "Els objectes que heu llistat inclouen objectes de tipus incorrecte ($1) i objectes que no existeixen ($2).",
 	"ebf8f6f3f90a4f6f": "No existeix aquest objecte.",
-	"f4d10da4d9776085": "No es pot generar el PHID sense tipus."
+	"f4d10da4d9776085": "No es pot generar un PHID sense tipus."
 }

@@ -31,7 +31,7 @@
 	"8bca6dbfde130bad": "Zend OPcache no està habilitat",
 	"8c2a0d70ef69b2d9": "APC sorollós",
 	"8de00c5a6ec224cd": "Buida les dades de la caché de lectura.",
-	"95d9273c36cd460b": "No es reconeix el purgador de caché «$1».  Les cachés disponibles són: $2.",
+	"95d9273c36cd460b": "No es reconeix el purgador de caché «$1». Les cachés disponibles són: $2.",
 	"967529ae1730771f": "OPcache Desactivat",
 	"9c55cae97baf5504": "APC/APCu desactivat",
 	"9f06221f48fc209c": "«$1» està habilitat actualment però probablement s'ha de desactivar.",

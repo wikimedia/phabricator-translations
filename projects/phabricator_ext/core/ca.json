@@ -95,7 +95,7 @@
 	"a68e1ae02896ac2c": "Bifurca `$1` i desplega en Wikis de $2.",
 	"aa3e95e369749c68": "**Pas 1 de 2**: proporcioneu el nom i l'URI per a la instal·lació de MediaWiki.\n\nAl següent pas, crearà un consumidor d’autorització a MediaWiki perquè Phabricator oauth l’utilitzi.",
 	"aa5fe7b0dc66e1b8": "Mode expert.",
-	"ae921fb953da171b": "No s'ha trobat el nom d'usuari/usuari PHID especificat",
+	"ae921fb953da171b": "No s'ha trobat el nom d'usuari/PHID d'usuari especificat",
 	"b1d64c591dc916ea": "Consulteu https://wikitech.wikimedia.org/wiki/Deployments per a la programació completa.",
 	"b3889d370766ca93": "Examineu els projectes de Gerrit",
 	"b3bc9a954751e569": "No podeu bloquejar aquesta tasca perquè ja està protegida per una política de seguretat personalitzada.",

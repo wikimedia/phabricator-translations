@@ -19,7 +19,7 @@
 	"2ecac2e2db1e7a89": "Estat de la base de dades del clúster",
 	"2f81b1b51a0ff80f": "Motor: Destrucció",
 	"3148b41a4f0c3ad9": "Object ('$1') no implementa la interfície '$2', de manera que aquest tipus d'objecte no es pot desbloquejar.",
-	"319a2f5027bcf03f": "Aquesta sol·licitud s'ha servit des d'una base de dades de rèpliques. Les bases de dades de rèpliques poden quedar enrere del mestre, de manera que és possible que l’activitat molt recent no es reflecteixi a la interfície d’usuari. Aquestes dades es restauraran si es restaura la base de dades mestra, però es poden haver perdut si la base de dades mestra s'ha reduït a un munt de cendres.",
+	"319a2f5027bcf03f": "Aquesta sol·licitud s'ha servit des d'una base de dades de rèplica. Les bases de dades de rèplica poden quedar enrere del mestre, de manera que és possible que l’activitat molt recent no es reflecteixi a la interfície d’usuari. Aquestes dades es restauraran si es restaura la base de dades mestra, però es poden haver perdut si la base de dades mestra s'ha reduït a un munt de cendres.",
 	"35f8b97d2a70bb5c": "Destrueix permanentment els objectes.",
 	"3b5e22ff29643ea6": "Trieu un ressaltat de sintaxi que vulgueu utilitzar.",
 	"3e3549849220a546": "$1 / hora",
