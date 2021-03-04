@@ -30,6 +30,7 @@ final class PhabricatorBaseRoaTara
       'Admin Required' => 'Richieste de l\'amministratore',
       'Email Verification Required, With Exception' => 'Verifeche de l\'email richeiste, cu Eccezzione',
       'Allow Disabled' => 'Permette \'a disabbilitazione',
+      'Unable to find transaction query for object of class "%s".' => 'Non ge riesche a acchià \'n\'inderrogazione pa transazione pe l\'oggette d\'a classe "%s".',
     );
   }
 

@@ -378,6 +378,7 @@ final class PhabricatorCoreDa
       'Properties' => 'Egenskaber',
       'Unknown' => 'Ukendt',
       'Next' => 'Næste',
+      'Search' => 'Søg',
       'AFFECTED FILES' => 'PÅVIRKEDE FILER',
       'Builtin' => 'Indbygget',
       'Manage' => 'Administrer',

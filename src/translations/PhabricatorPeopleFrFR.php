@@ -143,7 +143,7 @@ final class PhabricatorPeopleFrFR
       'Email is not verified!' => 'L’adresse de courriel n’est pas vérifiée !',
       'Approve or reject the user.' => 'Approuver ou rejeter l\'utilisateur.',
       'Old Username' => 'Ancien nom d\'utilisateur',
-      'Username is invalid! %s' => 'Le nom d\'utilisateur est invalide: %s',
+      'Username is invalid! %s' => 'Le nom d’utilisateur est incorrect : %s',
       'User Availability' => 'Disponibilité de l\'utilisateur',
       'Can Disable Users' => 'Peut désactiver des utilisateurs.',
       'Research' => 'Recherche',

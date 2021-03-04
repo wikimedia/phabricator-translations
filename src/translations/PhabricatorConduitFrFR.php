@@ -149,6 +149,7 @@ final class PhabricatorConduitFrFR
       'Terminate API Token' => 'Jeton d’API résilié',
       'Expected a list, but value is an object.' => 'Une liste est attendue, mais la valeur est un objet.',
       'Method to call.' => 'Méthode à appeler.',
+      'Force the request to execute in this process, rather than proxying to another host in the cluster.' => 'Forcer la requête à s’exécuter dans ce processus, plutôt que de la mandater à un autre hôte dans la grappe.',
       'Callers' => 'Appelants',
       'You do not have authorization to call this method.' => 'Vous n’avez pas l’autorisation d’appeler cette méthode.',
       'Cluster API Token' => 'Jeton de l’API de grappe',

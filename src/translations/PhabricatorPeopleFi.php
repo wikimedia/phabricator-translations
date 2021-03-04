@@ -9,6 +9,7 @@ final class PhabricatorPeopleFi
 
   protected function getTranslations() {
     return array(
+      'Delete User' => 'Poista käyttäjä',
       'The user\'s username.' => 'Käyttäjän käyttäjänimi',
       'Musician' => 'Muusikko',
       'Account Activity' => 'Tilin toiminta',
@@ -55,6 +56,7 @@ final class PhabricatorPeopleFi
       'Create a standard user account.' => 'Luo standardi käyttäjätili.',
       'Show Only Disabled Users' => 'Näytä vain käytöstä poistetut käyttäjät',
       'Edit Profile: %s' => 'Muokkaa profiilia: %s',
+      'Make Administrator' => 'Tee ylläpitäjä',
       'Anyone' => 'Kuka tahansa',
       'Joined After' => 'Liittynyt jälkeen',
       'Type a username...' => 'Kirjoita käyttäjänimi...',
@@ -62,6 +64,7 @@ final class PhabricatorPeopleFi
       'Old Username: %s' => 'Vanha käyttäjänimi: %s',
       'Edit Settings' => 'Muokkaa asetuksia',
       'Create Standard User' => 'Luo normaali käyttäjä',
+      '[Phabricator] Welcome to Phabricator' => '[Phabricator] Tervetuloa Phabricatoriin',
       'User does not own email!' => 'Käyttäjä ei omista sähköpostia!',
       'Create User' => 'Luo käyttäjä',
       'Change Username' => 'Vaihda käyttäjänimi',
@@ -81,6 +84,7 @@ final class PhabricatorPeopleFi
       'Invites' => 'Kutsut',
       'Show Only Administrators' => 'Näytä vain ylläpitäjät',
       'New Username' => 'Uusi käyttäjänimi',
+      'User Since' => 'Käyttäjä alkaen',
       'Create Bot User' => 'Luo bottikäyttäjä',
       'Account Type' => 'Tilin tyyppi',
       'Show Only Unapproved Users' => 'Näytä vain hyväksymättömät käyttäjät',

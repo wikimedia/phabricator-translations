@@ -14,9 +14,9 @@ final class PhabricatorPhpastCa
       'Generate XHP AST' => 'Genera XHP AST',
       'Token %d: %s' => 'Testimoni %s: %s',
       'XHPAST View' => 'Vista XHPAST',
-      'Parse' => 'Parseja',
+      'Parse' => 'Analitzar sintàcticament',
       'No such AST!' => 'Cap AST!',
-      'Visual PHP Parser' => 'Parser PHP visual',
+      'Visual PHP Parser' => 'Analitzador sintàctic PHP visual',
     );
   }
 

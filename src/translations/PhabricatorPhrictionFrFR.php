@@ -71,6 +71,7 @@ final class PhabricatorPhrictionFrFR
       'Edited by %s' => 'Modifié par %s',
       'No Document Here' => 'Aucun document ici',
       'Read information about Phriction document history.' => 'Lire les informations concernant l\'historique du document de Phriction.',
+      'Welcome' => 'Bienvenue',
       'Publish Older Version' => 'Publier une ancienne version',
       'Create this Document' => 'Créer ce document',
       'This engine is used to edit Phriction documents.' => 'Ce moteur est utilisé pour modifier des documents Phriction.',

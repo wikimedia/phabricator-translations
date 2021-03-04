@@ -97,7 +97,7 @@ final class PhabricatorManiphestFrFR
       'Valid setting' => 'Paramètre valide',
       'Open Subtasks' => 'Sous-tâches ouvertes',
       'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => 'Clore une tâche. Cela remplace le statut de la tâche par le statut fermé par défaut. Pour une façon plus puissante (mais moins concise) de remplacer les statuts de tâches, voir `%s`.',
-      '%s removed %s parent task(s): %s.' => '%s a supprimé %s tâche(s) parente(s) : %s.',
+      '%s removed %s parent task(s): %s.' => '%s a supprimé %s tâche(s) parente(s) : %s.',
       '%s added %s subtask(s): %s.' => '%s a ajouté %s sous-tâche(s): %s.',
       'Assign a task to a specific user.' => 'Affecter une tâche à un utilisateur spécifique.',
       'Date Closed (Latest First)' => 'Date de fermeture (la plus récente en premier)',

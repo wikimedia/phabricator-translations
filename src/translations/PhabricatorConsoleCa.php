@@ -10,10 +10,10 @@ final class PhabricatorConsoleCa
   protected function getTranslations() {
     return array(
       'Listener Class' => 'Classe d\'Oient',
-      'Profiling was not enabled for this page. Use the button above to enable it.' => 'No s\'ha habilitat el perfilat per a aquesta pàgina.  Utilitzeu el botó de dalt per activar-lo.',
+      'Profiling was not enabled for this page. Use the button above to enable it.' => 'No s\'ha habilitat el perfilat per a aquesta pàgina. Utilitzeu el botó de dalt per activar-lo.',
       'Internal ID' => 'ID intern',
       'Error Log (%d)' => 'Registre d\'errors (%s)',
-      'Debugging console for real-time notifications.' => 'S\'està depurant la consola per a notificacions en temps real.',
+      'Debugging console for real-time notifications.' => 'Consola de depuració per a notificacions en temps real.',
       'Provides detailed PHP profiling information through XHProf.' => 'Proporciona informació detallada de perfils de PHP a través de XHProf.',
       'Analyze Query Plans' => 'Analitza els Plans de Consulta',
       'Realtime' => 'Temps real',
@@ -32,6 +32,7 @@ final class PhabricatorConsoleCa
       'Whole Table' => 'Taula Sencera',
       'Repaint' => 'Torna a pintar',
       'Small Table Scan' => 'Exploració de Taules Petites',
+      'Installation Guide' => 'Guia d\'instal·lació',
       'Profile Permalink' => 'Perfil d\'Enllaç Permanent',
       'Error Log' => 'Registre d\'Errors',
       'Controller' => 'Controlador',

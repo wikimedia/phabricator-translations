@@ -9,7 +9,7 @@ final class PhabricatorFavoritesCa
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Edita els favorits',
+      'Edit Favorites' => 'Editar els favorits',
       'Favorite Items' => 'Elements favorits',
     );
   }

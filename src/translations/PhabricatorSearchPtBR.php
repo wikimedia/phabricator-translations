@@ -35,6 +35,7 @@ final class PhabricatorSearchPtBR
       'Open Documents' => 'Documentos abertos',
       'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.' => 'Encontre objetos correspondentes a uma consulta de pesquisa de texto completo. Consulte "Pesquisar guia do usuário" na documentação para obter detalhes.',
       'Global Saved Queries' => 'Consultas salvas globais',
+      'Profile Menu' => 'Menu do Perfil',
       'Configure Menu' => 'Configurar menu',
       'Query Errors' => 'Erros de consulta',
       'Mandatory Item' => 'Item obrigatório',

@@ -31,7 +31,7 @@ final class PhabricatorPhurlCa
       'Shorten your favorite URL.' => 'Escurceu el vostre URL preferit.',
       'No URLs found.' => 'No s\'ha trobat cap URL.',
       'URL path is required' => 'El camí URL és obligatori',
-      '%s changed the name of %s from %s to %s.' => '%s ha canviat el nom de %s de %s a %s.',
+      '%s changed the name of %s from %s to %s.' => '%s ha reanomenat %s de %s a %s.',
       'Read information about Phurl URLS.' => 'Llegiu informació sobre els URL de Phurl.',
       'Edit URL: %s' => 'Edita l\'URL: %s',
       'Can Create Phurl URLs' => 'Pot crear URL de Phurl',
@@ -70,7 +70,7 @@ final class PhabricatorPhurlCa
       'URL DETAIL' => 'DETALL d\'URL',
       'The alias can be no longer than %d characters.' => 'L\'àlies no pot contenir més de %s caràcters.',
       'Create URL' => 'Creeu un URL',
-      '%s changed the name of the URL from %s to %s.' => '%s ha canviat el nom de l\'URL de %s a %s.',
+      '%s changed the name of the URL from %s to %s.' => '%s ha reanomenat l\'URL de %s a %s.',
       'Create reusable, memorable, shorter URLs for easy accessibility.' => 'Creeu URL reutilitzables, memorables i més curts per facilitar l\'accessibilitat.',
     );
   }

@@ -19,7 +19,7 @@ final class PhabricatorTypeaheadDiq
       'Select' => 'Weçine',
       'Display Name' => 'Asaye Name',
       'More Results' => 'Zêde Neticeyi',
-      'Sprite' => 'Peri',
+      'Sprite' => 'Pêriye',
       'Auto' => 'Otomatik',
       'Browse Numbers' => 'Çımberze Amaran',
       'Priority Type' => 'Tewrê Veroriye',

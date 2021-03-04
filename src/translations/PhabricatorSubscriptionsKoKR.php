@@ -15,6 +15,7 @@ final class PhabricatorSubscriptionsKoKR
       'Automatically Subscribed' => '자동으로 구독됨',
       '%d other(s)' => '기타 %s명',
       'Add subscribers' => '구독자 추가',
+      'View All %d Subscriber(s)' => '모든 구독자 %s명 보기',
       'Remove subscribers' => '구독자 제거',
       'Removed %s subscriber(s): %s.' => '구독자 %s명을 제거했습니다: %s.',
       'Bad Object' => '잘못된 오브젝트',

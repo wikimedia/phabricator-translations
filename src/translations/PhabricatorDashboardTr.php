@@ -10,8 +10,11 @@ final class PhabricatorDashboardTr
   protected function getTranslations() {
     return array(
       'Edit Panel' => 'Paneli Düzenle',
+      'New dashboard icon.' => 'Yeni ön panel simgesi.',
       'Edit Panel: %s' => 'Panel Düzenlemesi: %s',
+      'Add to Project Menu' => 'Proje Menüsüne ekle',
       'No dashboards found.' => 'Gösterge tablosu bulunamadı.',
+      'Add to Personal Home Menu' => 'Kişisel Ana Menüye ekle',
       'Query "%s" is unknown to application search engine "%s"!' => '"%s" sorgusu, uygulama arama motoru "%s" tarafından bilinmiyor!',
       'Archive Panel' => 'Arşiv Paneli',
       'This dashboard will become active again.' => 'Bu gösterge paneli tekrar etkin hale gelecek.',

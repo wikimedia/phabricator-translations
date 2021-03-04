@@ -47,7 +47,7 @@ final class PhabricatorFilesTr
       'Failed to save builtin avatar image data (imagesetthickness).' => 'Yerleşik avatar resmi verileri kaydedilemedi (imagesetthickness).',
       'View as Jupyter Notebook' => 'Jüpyter Not Defteri olarak görüntüle',
       'Failures!' => 'Başarısızlık!',
-      'Preview (220px)' => 'Ön izleme (220px)',
+      'Preview (220px)' => 'Önizleme (220px)',
       'Configure Files Forms' => 'Dosya Formlarını Yapılandırma',
       'Specify an engine to migrate to with `%s`. Use `%s` to get a list of engines.' => '`%s` ile geçirilecek bir motor belirtin. Motorların bir listesini almak için `%s` kullanın.',
       '%s: Would update file dimensions (dry run)' => '%s: Dosya boyutlarını günceller (kuru çalıştırma)',

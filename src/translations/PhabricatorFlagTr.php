@@ -19,7 +19,7 @@ final class PhabricatorFlagTr
       'Flags are private. Only you can view or edit your flags.' => 'Bayraklar özeldir. Bayraklarınızı yalnızca siz görüntüleyebilir veya düzenleyebilirsiniz.',
       'Must pass an id or an objectPHID.' => 'Bir kimliği veya bir objectPHID geçirmesi gerekir.',
       'Already marked with %s flag.' => 'Zaten %s bayrakla işaretlendi.',
-      'Flag For Later' => 'Daha Sonra Bayrak',
+      'Flag For Later' => 'Daha Sonrası için İşaretle',
       'You are not the creator of this flag.' => 'Sen bu bayrağın yaratıcısı değilsin.',
       'Flag %s' => 'Bayrak %s',
       'Create or modify a flag.' => 'Bir bayrak oluşturun veya değiştirin.',

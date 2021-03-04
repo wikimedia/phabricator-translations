@@ -30,6 +30,7 @@ final class PhabricatorBaseTr
       'Admin Required' => 'Yönetici Gerekli',
       'Email Verification Required, With Exception' => 'İstisna ile Gerekli E-posta Doğrulaması',
       'Allow Disabled' => 'Devre Dışı Bırak',
+      'Unable to find transaction query for object of class "%s".' => '"%s" sınıfındaki nesne için işlem sorgusu bulunamıyor.',
     );
   }
 

@@ -127,6 +127,7 @@ final class PhabricatorPhrictionRu
       'Adjust Path' => 'Исправьте путь',
       'Read information about Phriction document history.' => 'Информация об истории Вики-страниц.',
       'Test rules which run when a wiki document is created or updated.' => 'Правила проверки, которые запускаются при создании или обновлении Вики-страницы.',
+      'Welcome' => 'Добро пожаловать',
       'A stub document can not be deleted.' => 'Заготовка не может быть удалена.',
       'Can not move document because the parent document with slug %s does not exist!' => 'Невозможно переместить страницу, потому что не существует предка «%s»!',
       '%s by %s, %s' => '%s в редакции %s, %s',

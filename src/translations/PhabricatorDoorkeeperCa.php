@@ -15,6 +15,7 @@ final class PhabricatorDoorkeeperCa
     NOTE: This feature is new and experimental.' => 'Per activar la sincronització a Asana, introduïu aquí un ID d\'espai de treball Asana. <br><br>NOTA: Aquesta característica és nova i experimental.',
       'JIRA %s %s' => 'JIRA %s %s',
       'Workspace ID' => 'ID de l\'espai de treball',
+      'DoorkeeperURIRef display mode "%s" is unknown.' => 'Es desconeix el mode de visualització DoorkeeperURIRef "%s".',
       '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s no té cap objecte visible a l\'altra banda; això indica que la tasca d\'Asana ha estat eliminada.',
       'Using publisher \'%s\'.' => 'S\'està utilitzant l\'editor «%s».',
       'Connect to Other Software' => 'Connecta a un altre programari',
@@ -36,11 +37,12 @@ final class PhabricatorDoorkeeperCa
       'Doorkeeper' => 'Porter',
       'Imported From' => 'Importat Des De',
       'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'Quan Phabricator crea tasques a Asana, pot afegir les tasques als projectes Asana basant-se en l\'aplicació de la qual prové l\'objecte corresponent a Phabricator.  Per exemple, podeu afegir revisions de codi a Asana a un projecte "Difencial". <br><br>NOTA: Aquesta característica és nova i experimental.',
+    NOTE: This feature is new and experimental.' => 'Quan Phabricator crea tasques a Asana, pot afegir les tasques als projectes Asana basant-se en l\'aplicació de la qual prové l\'objecte corresponent a Phabricator. Per exemple, podeu afegir revisions de codi a Asana a un projecte "Differential". <br><br>NOTA: Aquesta característica és nova i experimental.',
       'No related users have linked Asana accounts.' => 'Cap usuari relacionat té comptes Asana enllaçats.',
       'Story is about an unsupported object type.' => 'La història és sobre un tipus d\'objecte no admès.',
       'No JIRA provider configured.' => 'No s\'ha configurat cap proveïdor JIRA.',
       '%s could not be loaded.' => '%s no s\'ha pogut carregar.',
+      'Expected "getDoorkeeperURIRef()" to return "null" or an object of type "DoorkeeperURIRef", but got %s from provider "%s".' => 'S\'esperava que "getDoorkeeperURIRef()" retornés "null" o un objecte del tipus "DoorkeeperURIRef", però va obtenir %s del proveïdor "%s".',
       'External Object' => 'Objecte extern',
       'JIRA %s' => 'JIRA %s',
       'Asana Task %s' => 'Tasca Asana %s',
@@ -51,7 +53,7 @@ final class PhabricatorDoorkeeperCa
     ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ NO EDITEU AQUESTA TASCA ⚠
     ☠ Els canvis no es reflectiran en el Phabricator.
     ☠ Els canvis es destruiran la propera vegada que es sincronitzi l\'estat.',
-      'Removing subtask edge to %s, foreign object is not visible.' => 'Eliminant la vora de la subtasca a %s, l\'objecte estrany no és visible.',
+      'Removing subtask edge to %s, foreign object is not visible.' => 'Eliminant el flanc de la subtasca a %s, l\'objecte estrany no és visible.',
       'Integration with Asana' => 'Integració amb Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'El treballador porter «%s» no està habilitat.',
       'Object has no followers or active/passive users.' => 'L\'objecte no té seguidors ni usuaris actius ni passius.',
@@ -63,19 +65,20 @@ final class PhabricatorDoorkeeperCa
       {
         "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
       }
-    ' => 'Per especificar projectes per afegir tasques, introduïu un mapa JSON amb noms de classes editorials com a claus i una llista d\'identificadors de projectes com a valors.  Per exemple, per posar tasques diferencials en projectes Asana amb ID `123` i `456`, introduïu:
+    ' => 'Per especificar projectes per afegir tasques, introduïu un mapa JSON amb noms de classes editorials com a claus i una llista d\'identificadors de projectes com a valors.  Per exemple, per posar tasques diferencials en projectes Asana amb ID `123` i `456`, introduïu: 
       lang=txt
       {
         "DifferentialDoorkeeperRevisionFeedStoryPublisher" : [123, 456]
       }',
-      'Synchronization of child task from Asana failed!' => 'Ha fallat la sincronització de la tasca filla d\'Asana!',
+      'Synchronization of child task from Asana failed!' => 'Ha fallat la sincronització de la tasca fill d\'Asana!',
+      'Expected external Asana account to have exactly one external account identifier, found %s.' => 'S\'esperava que el compte extern d\'Asana tingués exactament un identificador de compte extern, s\'han trobat %s.',
       'Story is about an object with no linked JIRA issues.' => 'La història tracta sobre un objecte sense problemes de JIRA relacionats.',
       'GitHub User %s' => 'Usuari GitHub %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'L\'ID de la incidència de GitHub «%s» no està formatat correctament.  S\'esperava un ID en la forma «owner/repository#123».',
       'Workspace Name' => 'Nom de l\'espai de treball',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'No s\'ha pogut trobar cap usuari Asana amb credencials vàlides per treure un testimoni OAuth.',
       'Synchronization of parent task from Asana failed!' => 'Ha fallat la sincronització de la tasca pare d\'Asana!',
-      'Optional Asana projects to use as application tags.' => 'Opcional Projectes Asana a utilitzar com a etiquetes d\'aplicació.',
+      'Optional Asana projects to use as application tags.' => 'Projectes Asana opcionals per utilitzar com a etiquetes d\'aplicació.',
       'The Asana Workspaces your linked account has access to are:
     %s' => 'Els espais de treball Asana als quals té accés el vostre compte enllaçat són:
     %s',

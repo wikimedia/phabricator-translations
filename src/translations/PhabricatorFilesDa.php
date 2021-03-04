@@ -26,6 +26,7 @@ final class PhabricatorFilesDa
       'File Sources' => 'Fil kilder',
       'EUC-JP' => 'EUC-JP',
       'No such file "%s"!' => 'Der kan ikke findes en sådan fil med navnet "%s"!',
+      '%spx × %spx' => '%spx × %spx',
       'Standalone' => 'Enkeltstående',
       'Builtin ("%s")' => 'Indbygget ("%s")',
       'trophy' => 'trofæ',

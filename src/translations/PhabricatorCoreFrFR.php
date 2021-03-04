@@ -1269,6 +1269,7 @@ final class PhabricatorCoreFrFR
       'Database cluster configuration is invalid: it describes the same host ("%s") multiple times. Each host should appear only once in the list.' => 'La configuration de la grappe de base de données n’est pas valide : elle décrit le même hôte (« %s ») plusieurs fois. Chaque hôte ne doit apparaître qu’une seule fois dans la liste.',
       'Next' => 'Suivant',
       'This file %s component \'%s\' but does not use anything it provides.' => 'Ce fichier %s le composant « %s », mais n’utilise rien de ce qu’il fournit.',
+      'Search' => 'Chercher',
       'Database initialization on host "%s" applied no patches!' => 'L’initialisation de la base de données de l’hôte « %s » n’a appliqué aucune rustine !',
       'Debug' => 'Déboguer',
       'You were stopped here because %s is set in your configuration.' => 'Vous êtes arrêté ici car %s est positionné dans votre configuration.',

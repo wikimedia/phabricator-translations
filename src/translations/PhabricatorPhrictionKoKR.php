@@ -62,6 +62,7 @@ final class PhabricatorPhrictionKoKR
       'Save as Draft' => '초안으로 저장',
       'Edited by %s' => '편집자: %s',
       'No Document Here' => '여기에 문서가 없습니다',
+      'Welcome' => '환영합니다',
       'Publish Older Version' => '더 오래된 판 게시',
       'Create this Document' => '이 문서 만들기',
       'This engine is used to edit Phriction documents.' => 'Phriction 문서의 편집을 위해 이 엔진이 사용됩니다.',

@@ -11,7 +11,7 @@ final class PhabricatorPhidCa
     return array(
       'Retrieve information about an arbitrary PHID.' => 'Recupera informació sobre un PHID arbitrari.',
       'Requested handle "%s" was not loaded.' => 'No s\'ha carregat la referència «%s» sol·licitada.',
-      'Handles should use viewer handle pool cache.' => 'Les referències han d’utilitzar el visor de referències de memòria cau.',
+      'Handles should use viewer handle pool cache.' => 'Les referències han d’utilitzar el visor de referències de la caché.',
       'Restricted %s' => 'Restringit %s',
       'Trying to mutate a %s, but this is not permitted; handle lists are immutable.' => 'S\'està intentant silenciar un %s, però això no està permès; les llistes de referència són immutables.',
       '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.' => 'La classe "%2$s" de %1$s conté una propietat de %s no vàlida. Les constants PHID han de ser cadenes de caràcters formades per 4 lletres majúscules.',

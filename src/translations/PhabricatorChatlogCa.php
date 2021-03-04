@@ -17,7 +17,7 @@ final class PhabricatorChatlogCa
       'Older' => 'Més antic',
       'ChatLog' => 'Registre de discussió',
       'Channel List' => 'Llista de canals',
-      'Hide Dates' => 'Amagar les Dates',
+      'Hide Dates' => 'Oculta les dates',
       'Channel Log' => 'Registre del canal',
       'Search Dates' => 'Cercar Dates',
       'Newest' => 'El més nou',

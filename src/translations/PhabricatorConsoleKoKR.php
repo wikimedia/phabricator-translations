@@ -18,6 +18,7 @@ final class PhabricatorConsoleKoKR
       'Reconnect' => '다시 연결',
       'No errors.' => '오류가 없습니다.',
       'Event Log' => '이벤트 로그',
+      'Installation Guide' => '설치 가이드',
       'Error Log' => '오류 기록',
       'Controller' => '컨트롤러',
       'Information about services.' => '서비스에 관한 정보입니다.',

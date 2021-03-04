@@ -55,6 +55,7 @@ final class PhabricatorNuanceDa
       'Date Created' => 'Dato oprettet',
       'Watched' => 'Overvåget',
       'Added Milestone: %s' => 'Tilføjede milepæl: %s',
+      'Renamed' => 'Omdøbt',
       'Added Label: %s' => 'Tilføjede etiket: %s',
       'Submit Complaint' => 'Indsend klage',
       'Edit Source: %s' => 'Rediger kilde: %s',

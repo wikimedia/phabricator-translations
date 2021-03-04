@@ -10,7 +10,7 @@ final class PhabricatorPhluxCa
   protected function getTranslations() {
     return array(
       'Update Variable' => 'Actualitza la variable',
-      'Variable value must be valid JSON.' => 'El valor variable ha de ser de JSON vàlid.',
+      'Variable value must be valid JSON.' => 'El valor variable ha de ser JSON vàlid.',
       'Lowercase letters, digits, dot and hyphen only.' => 'Només lletres minúscules, dígits, punt i guió.',
       'Edit Variable: %s' => 'Edita la variable: %s',
       'Key/Value Configuration Store' => 'Magatzem de configuració de claus / valors',

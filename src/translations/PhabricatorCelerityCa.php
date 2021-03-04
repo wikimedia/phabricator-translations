@@ -23,7 +23,7 @@ final class PhabricatorCelerityCa
       'Attempting to resolve unknown resource, "%s".' => 'S\'està intentant resoldre un recurs desconegut, "%s".',
       'Rebuilt "%s" syntax CSS.' => 'CSS de sintaxi "%s" reconstruïda.',
       'CSS file \'%s\' has unknown variable \'%s\'.' => 'El fitxer CSS \'%s\' té una variable desconeguda \'%s\'.',
-      'Literal %s is not allowed inside inline script.' => 'El literal %s no està permès dins de l\'script en línia.',
+      'Literal %s is not allowed inside inline script.' => 'El literal de %s no està permès dins de l\'script en línia.',
       'Use Red/Green (Deuteranopia) Colors' => 'Utilitza els colors vermell/verd (Deuteranopia)',
       'Resource "%s" must %s at most one Celerity target.' => 'El recurs "%s" ha de tenir %s com a màxim un objectiu de Celeritat.',
       'Cycle detected in resource graph: %s' => 'S\'ha detectat un cicle al gràfic de recursos: %s',
