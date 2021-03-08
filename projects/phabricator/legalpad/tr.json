@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"04850b7990a815ff": "Tüm İmzalar",
@@ -32,7 +33,7 @@
 	"378ea7458fb40cd9": "Legalpad Belgeleriyle Etkileşim",
 	"4078e387a8c8d747": "$1 belge metnini güncelledi.",
 	"41a68e28926c35ed": "$1 Tarihinde İmzalandı",
-	"4214fb05eb152987": "$1, bu belgeyi $2 ile $3 yeniden adlandırdı.",
+	"4214fb05eb152987": "$1, bu belgeyi $2 iken $3 olarak yeniden adlandırdı.",
 	"43842ee6759bd097": "Belgenin metninin gövdesi.",
 	"443c3733754885af": "İmzalanmamış",
 	"44adde0ef8ef26df": "$1 belgesi zaten imzalandı: $2.",

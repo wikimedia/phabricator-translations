@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"032769c60d684b08": "$1, $2 için alan açıklamasını güncelledi.",
@@ -47,7 +48,7 @@
 	"bceefb80399498c1": "$1 bu alanı oluşturdu.",
 	"bedf81af3cfba8db": "Alan $1: $2",
 	"beea57ca0e1d4633": "Alanlara Erişim Yok",
-	"c824d24cc20aee0b": "$1, bu alanı $2 ile $3 yeniden adlandırdı.",
+	"c824d24cc20aee0b": "$1, bu alanı $2 iken $3 olarak yeniden adlandırdı.",
 	"cc691ef0443f3f15": "Alan bulunamadı.",
 	"cf1691e48a71748d": "Bu yükleme, nesneleri düzenlemek için boşluk kullanır, ancak oturumu kapatmış kullanıcılar herhangi bir alana erişemez.",
 	"d4ba413cc57e78b9": "Alanı Düzenle",

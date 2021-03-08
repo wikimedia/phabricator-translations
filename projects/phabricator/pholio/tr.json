@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"008c665e5fdb3368": "Bu sahte kapanacak.",
@@ -61,7 +62,7 @@
 	"9172fd261436d7ce": "Sahte Geçmişi",
 	"92a6f251ae8fc7ad": "E-posta Komutları: Sahteler",
 	"9537ddb0aa40128a": "PHID \"$1\" ile hiçbir resim yok.",
-	"993b1534e63a4914": "$1, $3 ile $4 arası bir görüntüyü ($2) yeniden adlandırdı.",
+	"993b1534e63a4914": "$1, bir görüntüyü ($2) $3 iken $4 olarak yeniden adlandırdı.",
 	"9f16b82b674a357d": "$1, bir resmin ($2) sırasını güncelledi.",
 	"a44fc0912e20eec4": "$1, $2 görüntü dizisini güncelledi.",
 	"b871919ebb82d8db": "$1 satır içi yorum ekledi.",

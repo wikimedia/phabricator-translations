@@ -7,11 +7,11 @@
 	"01e30de312eae0aa": "Mostrejos XHProf",
 	"0a63ad781263be3f": "Mostrejat (1/$1)",
 	"2211e38509c4c39d": "Tots els mostrejos",
-	"28facfbf0193ea3e": "Trucades de Pare",
+	"28facfbf0193ea3e": "Trucades pare",
 	"2f3c9dc62cb2a85d": "Temps Transcorregut (Inclusiu)",
 	"3f84ef531f9db996": "Símbol",
 	"562ae0348cb47b8e": "Temps Transcorregut (Exclusiu)",
-	"5a9ebdb4ed44587e": "Temps total de temps dedicat en aquesta funció i tots els seus fills (els fills són altres funcions que va trucar mentre executava).",
+	"5a9ebdb4ed44587e": "Total de temps dedicat en aquesta funció i tots els seus fills (els fills són altres funcions que han trucat mentre s'executava).",
 	"600c86c5195dfe24": "$1 μs",
 	"60bc9828c396a0ff": "Mostreig Sense Nom",
 	"68d5ced71e82cd17": "Perfil $1",
@@ -25,5 +25,5 @@
 	"d2c039b48df9b8b5": "Deixa anar arxius .xhprof per importar-los",
 	"dd3202d111eefb92": "Temps Transcorregut",
 	"f1ab222d43ba59b4": "Descàrrega el Perfil $1",
-	"fe6de32a0c1aa35b": "Trucades de Fills"
+	"fe6de32a0c1aa35b": "Trucades de fills"
 }

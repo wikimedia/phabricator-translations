@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"00376cc3bc87d6f7": "$1 altyazıyı $2 olarak ayarlardı.",
@@ -45,7 +46,7 @@
 	"21c3bbaf4a3ad2af": "Phame",
 	"2430d540db72f93f": "Blog oluşturma izniniz yok.",
 	"24a832968af6a6d3": "Gönderi Yayınla",
-	"2519f9125aff459f": "$1, bu blog gönderisini $2 ile $3 yeniden adlandırdı.",
+	"2519f9125aff459f": "$1, bu günlük gönderisini $2 iken $3 olarak yeniden adlandırdı.",
 	"251c6849257f67ae": "Başlığı Sil",
 	"2525fe8952a171fe": "$1 bu blog için profil resmini değiştirdi.",
 	"2581b628cba259f5": "Blog yayınları hakkında bilgi okuyun.",
@@ -78,7 +79,7 @@
 	"3eb800a9594bbf57": "Yeni blog durumu sabiti.",
 	"3f11c6eac93522cf": "Blog altyazısını değiştirin.",
 	"3f41938393db42c4": "Bu bir taslaktır ve yalnızca siz ve $1 düzenleyebilen diğer kullanıcılar tarafından görülebilir. Bu yayını yayınlamak için \"Yayınla\" kullanın.",
-	"4374d5f50df2e24b": "$1, $2 blog yazısını $3'den $4'e yeniden adlandırdı.",
+	"4374d5f50df2e24b": "$1, $2 günlük yazısını $3 iken $4 olarak yeniden adlandırdı.",
 	"43c4adb63b0278a5": "Özel alanların en az bir nokta içermesi gerekir (.) çünkü bazı tarayıcılar noktalara sahip olmayan alanlara çerezler koyamaz. Bunun yerine, \"$1\" gibi normal görünümlü bir etki alanı adı kullanın.",
 	"440a06e837b2cdab": "Yazı için slug.",
 	"46231616f5742eea": "Altyazı $1 karakterden uzun olamaz.",
@@ -100,7 +101,7 @@
 	"5326c7d856f69190": "Bu yayını arşivlerseniz, yalnızca $1’i düzenleyebilen kullanıcılar görülebilir.",
 	"53a4cd58d0b84466": "BLOG AÇIKLAMASI DEĞİŞTİRİYOR",
 	"55cab7d5b597d22d": "Phame Blog",
-	"562c21e0369d2ab4": "$1, bu blogu $2 ile $3 yeniden adlandırdı.",
+	"562c21e0369d2ab4": "$1, bu günlüğü $2 iken $3 olarak yeniden adlandırdı.",
 	"5736432cce18baf8": "Bir yayının içeriği değişir.",
 	"57de6ae9d76591d4": "Blog ana etki alanını değiştirin.",
 	"5808e31a51ff59da": "Gönderi Oluştur",

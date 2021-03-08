@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"00a3cc5b55d618dc": "Hizmet PHID'si.",
@@ -144,7 +145,7 @@
 	"66d48988ac489317": "Cihaz adı gerekli.",
 	"6731a2d222ea6400": "Arayüzlerin bir adresi olmalıdır.",
 	"6757bd27414496c4": "Bağlamayı devre dışı bırakmak için true.",
-	"688fddf1e0520a7a": "$1, bu hizmeti $2 üzerinden $3 yeniden adlandırdı.",
+	"688fddf1e0520a7a": "$1, bu hizmeti $2 iken $3 olarak yeniden adlandırdı.",
 	"69e73ef8cd9ce230": "Drydock Havuzu",
 	"6a336532e28aa911": "Var olmayan veya kısıtlanmış bir aygıta arabirim ekleyemezsiniz.",
 	"6ab7f4bf20d650e2": "Almanak hizmeti, cihaz, ağ, özellik ve ad alanı adlarında yalnızca rakam içeren bölümler olmayabilir.",
@@ -317,7 +318,7 @@
 	"e99822ea05ce5b64": "Yazmaya İzin Ver",
 	"ea139c90bef93ed7": "Bir Phabricator kümesinde kullanılacak bir depo hizmetini tanımlar.",
 	"eb105a2d127b0c5c": "Bu ana bilgisayar \"$1\" olarak kaydedildi ve güvenilir bir anahtar çifti kuruldu.",
-	"ec7d11e68e2d749d": "$1, bu cihazı $2 üzerinden $3 yeniden adlandırdı.",
+	"ec7d11e68e2d749d": "$1, bu cihazı $2 iken $3 olarak yeniden adlandırdı.",
 	"ed23859ecec487d3": "\"$1\" hizmeti mevcut değil veya yüklenemedi!",
 	"eda5b8bbc06a031a": "Belirli adlara sahip cihazları arayın.",
 	"eda8393b0a006704": "Almanak özelliklerini silerken, her özellik adı bir dize olmalıdır. \"$1\" dizinindeki değer bir dize değil.",

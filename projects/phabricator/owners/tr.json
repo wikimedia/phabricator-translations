@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"0081abdb3fb33586": "\"\" (boş dizi)",
@@ -38,7 +39,7 @@
 	"5aa365bf7056603a": "Paket açıklaması.",
 	"5dc733b7add4af5d": "Bir kod tabanının bölümlerini, Herald kuralları gibi Phabricator'ın diğer alanlarında yeniden kullanılmak üzere paketler halinde gruplayın.",
 	"5e2e9f7d124b174e": "Sahibi Olmayan Yazarla Değişiklikleri İncele",
-	"5fc6e631f02aec35": "$1 bu paketi $2 ile $3 yeniden adlandırdı.",
+	"5fc6e631f02aec35": "$1, bu paketi $2 iken $3 olarak yeniden adlandırdı.",
 	"5fdc0200d6c04f63": "İncelenmemiş Taahhütleri Denetle",
 	"609dcac2c813e4a7": "Bir paket adı veya işlevi yazın...",
 	"64c56f25bc35c49e": "Yolları Kaydet",
@@ -72,6 +73,7 @@
 	"a07fa4a37c43ef28": "Paketi arşivleyin veya etkinleştirin.",
 	"a20fb374d909e167": "Lore Paketi",
 	"a8a8eb4cb9061060": "Tüm Değişiklikleri İnceleyin (Engelleme)",
+	"aa0a42c2ded882cd": "Hiç bir aktif Herald kuralı bu paketi bir denetçi, gözden geçiren, ya da abone olarak eklemedi.",
 	"aa2e725f8aa7d25a": "Sahip Paketi",
 	"aded48491d0f572b": "Paketlere Sahibinden Göz Atın",
 	"afc82928d1db2cdb": "Paket hakimiyet kurallarını değiştirin.",

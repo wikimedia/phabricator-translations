@@ -4,7 +4,7 @@
 			"Mguix"
 		]
 	},
-	"05fe7803b131a33c": "Recupera informació sobre un PHID arbitrari.",
+	"05fe7803b131a33c": "Rescata informació sobre un PHID arbitrari.",
 	"0a751e41cfcf8b01": "No s'ha carregat la referència «$1» sol·licitada.",
 	"131ada2c91031e5e": "Les referències han d’utilitzar el visor de referències de la caché.",
 	"1498233146466f1f": "Restringit $1",
@@ -16,7 +16,7 @@
 	"6931f523cee8baba": "Correu Electrònic de l'Aplicació",
 	"6e5d870b8888a21e": "Cerca objectes pel nom.",
 	"7191d0b67d43f89e": "S'està intentant renderitzar una referència que no existeix!",
-	"750d3b61b047e337": "Recupera la informació sobre els PHID arbitraris.",
+	"750d3b61b047e337": "Rescata informació sobre els PHID arbitraris.",
 	"8c323456ce8fea71": "Objecte desconegut $1",
 	"9dc304f07ed386a3": "Els objectes que heu llistat inclouen objectes que no existeixen ($1).",
 	"ad333443813e6a77": "S'està intentant crear una nova subllista d'una llista de referències existent, però el PHID \"$1\" no apareix a la llista de pares.",

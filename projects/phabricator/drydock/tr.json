@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"0082e7ead2a36409": "Tüm İşlemler",
@@ -204,7 +205,7 @@
 	"7f28ad13e3f0389d": "Sağlar: $1",
 	"81292f5ab343f7e6": "Kira Etkinleştirildi",
 	"8144de8d257becb2": "Çalıştırılacak bir komut belirtin.",
-	"81cefa7c111a16aa": "$1, bu planı $2 olarak $3 yeniden adlandırdı.",
+	"81cefa7c111a16aa": "$1, bu planı $2 iken $3 olarak yeniden adlandırdı.",
 	"81f8ebefe0682c69": "Hiç bir kaynak \"$1\" kira için tahsis edebilecek hiçbir Drydock blueprint mevcut değildir.",
 	"820982afd351f363": "Kira Yayınlasın mı?",
 	"83d9fb62128da621": "Yetkilendirmeyi Onayla",

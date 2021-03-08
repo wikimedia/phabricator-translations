@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish"
 		]
 	},
@@ -200,7 +201,7 @@
 	"518ce29177da135d": "Çalışma Kopyası Kirala",
 	"527843c8ebc28618": "İsimsiz Testi ($1)",
 	"529c7bf2c2b24768": "Yapıyı gerçekten yeniden başlatılsın mı?",
-	"529e3649f8096514": "$1, bu yapı planını \"$2\" ile \"$3\" yeniden adlandırdı.",
+	"529e3649f8096514": "$1, bu yapı planını \"$2\" iken \"$3\" olarak yeniden adlandırdı.",
 	"542ef6e11af21fd9": "$1 bu yapılandırabiliri devam etti.",
 	"54479e4f725a236d": "Günlükleri zaten iyi durumda olsalar bile yeniden oluşturulmaya zorlayın.",
 	"545820f82c17dd8c": "Günlük kilidi tutulmadıkça derleme günlük parçalarını işleyemezsiniz.",

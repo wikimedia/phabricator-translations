@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"01ab47951fb99871": "İsyancı",
@@ -34,7 +35,7 @@
 	"40e41b1521f35f36": "Rozeti İptal Et",
 	"431f46517195c5a7": "Rozeti Düzenle",
 	"4553746d8f2bd856": "Rozet Simgesini Seçin",
-	"4970554e2bca5148": "$1, bu rozeti $2 olarak $3 yeniden adlandırdı.",
+	"4970554e2bca5148": "$1, bu rozeti $2 iken $3 olarak yeniden adlandırdı.",
 	"4a56d4c3c48ea764": "Zaten verildi",
 	"4cafe7f8df8281bc": "$1 bu rozeti oluşturdu.",
 	"4d08e5f0657450ab": "Bir Rozet Oluştur",

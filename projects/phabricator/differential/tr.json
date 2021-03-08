@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish",
 			"Satirdan kahraman"
 		]
@@ -193,6 +194,7 @@
 	"3247e6024e78fe56": "Tamamlama iletisinde \"$2\" değerine sahip bir \"$1\" alanı bulduk, ancak bu URI'deki alan adı, bu yükleme için yapılandırılmış alan olan \"$3\" ile eşleşmedi, bu nedenle, üçüncü bir taraf revizyon yoksaydık.",
 	"32db3c7260514ea4": "Bu revizyon geri bildirim için gözden geçirenlere iade edilecektir.",
 	"3329f820c283467a": "Bu dizin $1 kopyalandıktan sonra silindi.",
+	"33666f75c286a4c5": "Bahsedilen veya abone olan kullanıcılar bilgilendirilmeyecek.",
 	"3410b0934f74e110": "Zaten kapatılmış olduğundan bu düzeltmenin incelenmesini talep edemezsiniz. Yalnızca açık revizyonların gözden geçirilmesini isteyebilirsiniz.",
 	"34622dc1524a586e": "Bu bir ikili dosyadır.",
 	"347341d367af10aa": "TEST PLANI",
@@ -379,7 +381,7 @@
 	"6e6b0737074e1fe3": "Aktif fark PHID'si.",
 	"6e7684609a3f158c": "Bir revizyondan istifa edin.",
 	"6e7f709f1b2661ec": "\"$1\" alanı bir dize listesi bekliyor, ancak \"$2\" türünde bir değer aldı.",
-	"6ecce085da9fd6e5": "$1 bu revizyonu $2 ile $3 yeniden adlandırdı.",
+	"6ecce085da9fd6e5": "$1, bu revizyonun başlığını $2 iken $3 yaptı.",
 	"6fcd16a10724e43b": "Üst Revizyonları Kaydet",
 	"7029595baa3a64d5": "$1, $2 için $3 üst revizyon ekledi: $4.",
 	"706112b193db721c": "Revizyon Formlarını Yapılandır",

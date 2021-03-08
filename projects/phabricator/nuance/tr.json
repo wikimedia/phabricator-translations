@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish"
 		]
 	},
@@ -85,7 +86,7 @@
 	"7d15dd1bec2e055c": "Yönlendirme",
 	"7d1d02fe8ee9aace": "\"$1\" etkinliği önceden biliniyordu.",
 	"7eb46f1cfc617216": "JSON'da bir giriş bölümü, ardından JSON'da beklenen bir sonuç bölümü, \"~~~~~\" satırıyla ayrılmış, ancak ayırıcı dosyada mevcut değil, \"$1\" test dosyası bekleniyordu.",
-	"7f80b35cc17f9f69": "$1, bu sırayı $2 ile $3 yeniden adlandırdı.",
+	"7f80b35cc17f9f69": "$1, bu sırayı $2 iken $3 olarak yeniden adlandırdı.",
 	"82d778f4022b8875": "Eşitlenemiyor: harici nesne yok PHID.",
 	"83d2d01e0538a054": "Yalnızca belirli bir imleci içe aktarın.",
 	"83dbc32040459c6d": "Sıralar",
@@ -96,7 +97,7 @@
 	"8c9d99dbbfdc1af4": "Kaynak Oluştur",
 	"8e4b765c0848c91e": "Etiket $1",
 	"8f0d1e3e5e2d77e3": "Kaynak $1",
-	"8ffed986bc39019c": "$1, bu kaynağı $2 ile $3 yeniden adlandırdı.",
+	"8ffed986bc39019c": "$1, bu kaynağı $2 iken $3 olarak yeniden adlandırdı.",
 	"9093cad976d4ebb3": "Nuance Öğeleri",
 	"93e1a14e664a8c75": "Nuance",
 	"949af86d4ff52da5": "Şikayet",

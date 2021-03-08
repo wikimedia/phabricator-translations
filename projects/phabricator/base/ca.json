@@ -22,7 +22,7 @@
 	"c33a2a4cf022d6cc": "Aquesta aplicació és requerida per Phabricator per funcionar, així que tots els usuaris han de tenir accés a ella.",
 	"c3f9271638a0c8f6": "Espera a l'usuari '$1' per denegar accés a '$2'",
 	"d8c88db363a66211": "La petició inclou el paràmetre restringit \"$1\", però aquest controlador (\"$2\") no és a la llista blanca. Es rebutja servir aquesta petició perquè podria ser part d'un atac de redirecció.",
-	"d9b9a15e87d0d955": "Capacitat desconeguda '$1'!",
+	"d9b9a15e87d0d955": "Aptitud desconeguda '$1'!",
 	"daf366af13db9c61": "Es Requereix Administrador",
 	"dced58a261d6133b": "Es Requereix Verificació de Correu Electrònic, Amb Excepció",
 	"dfa4966710819f7d": "Permet la Deshabilitació",

@@ -57,7 +57,7 @@
 	"8e44575ca95ca7c4": "Darrera actualització $1",
 	"9bbd582523e397cf": "Veure la instantània",
 	"9e0a144b12df06b5": "Instantània \"$1\"",
-	"9ff33d45b7fe3ee6": "Veure els fragments fills",
+	"9ff33d45b7fe3ee6": "Veure els fragments fill",
 	"a1acd7a4d044f548": "Errors en crear el fragment",
 	"a479c9c34e878d07": "Descarregar",
 	"a48eee4e72fb9bd9": "Ruta de fragment",
@@ -77,12 +77,12 @@
 	"df6acb17c86166ca": "Quina instantània promoure?",
 	"e5760a885df762d5": "Supressió",
 	"eefb3c744e9087aa": "Promou una altra instantània cap aquí",
-	"f1e24d9078df47ee": "Substituïu les polítiques sobre fragments fill per les polítiques d'aquí dalt.",
+	"f1e24d9078df47ee": "Substituir les polítiques sobre fragments fill per les polítiques d'aquí dalt.",
 	"f1ed61f6676e059e": "No teniu permís per a crear fragments.",
 	"f29cb38a5c4b20b5": "Converteix a fitxer",
 	"f5e0f075ad1438ba": "Històrial del fragment",
 	"f6dab0cba65cc446": "Crea una instantània de $1",
 	"f6e0a4c4892d82b2": "No es pot crear l'arxiu ZIP!",
 	"f76ff9f14446a16d": "Fragment $1: $2",
-	"fee7817c7d016037": "Recupereu els pedaços per sol·licitar un determinat conjunt de fitxers."
+	"fee7817c7d016037": "Rescata els pedaços a aplicar a un determinat conjunt de fitxers."
 }

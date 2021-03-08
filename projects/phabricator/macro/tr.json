@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"0041a1ba739de8b5": "Makroyu ses kaynağı olarak kabul ederek sesi sürekli çalın. Ortam sesleri için en iyisi.",
@@ -27,7 +28,7 @@
 	"38597bdda18e7ef5": "Makro görüntülerin oluşturulmasını ve düzenlenmesini yapılandırın.",
 	"388497e6aa1ee2f7": "$1 Tarihinde Oluşturuldu",
 	"390bc0a283d1b123": "Makroları Yönetebilir",
-	"3a45e167bb30da2f": "$1, bu makrosu $2 ile $3 yeniden adlandırdı.",
+	"3a45e167bb30da2f": "$1, bu makroyu $2 iken $3 olarak yeniden adlandırdı.",
 	"3a85fe2bbb560565": "$1, sesi $2 olarak bir kez çalacak şekilde ayarladı.",
 	"3afc9238063f5c76": "Ses Düzenle: $1",
 	"44fd803934c651e0": "Yeni makro adı.",

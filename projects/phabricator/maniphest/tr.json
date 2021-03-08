@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Hedda"
+			"Hedda",
+			"Joseph"
 		]
 	},
 	"00c7859ed071e887": "Görev Oluştur",
@@ -322,7 +323,7 @@
 	"b579b7dfce7588cc": "İlgili Sahteleri Kaydet",
 	"b5ef3cf2710680c7": "Wontfix",
 	"b63ce8960e5a467f": "Dizi olarak görev PHID'lerinin listesi.",
-	"b6ce4de20742077f": "$1, bu görevi $2 ile $3 yeniden adlandırdı.",
+	"b6ce4de20742077f": "$1, bu görevi $2 iken $3 olarak yeniden adlandırdı.",
 	"b7a953d959f9ee0e": "Sonrasında Güncelleme",
 	"b81a74bcb3cfcfe5": "$1, $2 revizyon kaldırdı: $3.",
 	"b828e58d3035a095": "Bir görevin durumunu değiştirmek için, istediğiniz `$1` gibi bir durum belirtin. Bu tablo durum için yapılandırılmış adları gösterir.\n\n$2\n\nGeçersiz bir durum belirtirseniz, komut dikkate alınmaz. Bir durum belirtmezseniz bu komutun etkisi olmaz.\n\nBir görevi hızlıca kapatmak için, `$3` bakınız.",

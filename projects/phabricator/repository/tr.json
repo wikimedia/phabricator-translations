@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish",
 			"Sucsuzz"
 		]
@@ -336,7 +337,7 @@
 	"931d93a5db08c9fe": "\"$1\" deposunu içe aktarma olarak işaretleniyor.",
 	"94d589e0f9f3fd65": "$1 bu kimliği $2 atadı.",
 	"9538be7aae901e60": "Reddedildi: Dış Kanca",
-	"958f2b2b1691c707": "$1, bu depoyu $2 ile $3 yeniden adlandırdı.",
+	"958f2b2b1691c707": "$1, bu depoyu $2 iken $3 olarak yeniden adlandırdı.",
 	"95eca1f57b0bf160": "İlişkili depo PHID'si.",
 	"95fd0eef686efa42": "Keşfetmek için bir veya daha fazla depo belirtin.",
 	"9648463cba33df87": "Taahhüt, herhangi bir etiketin, dalın veya kaynağı atası değilse geçerlidir.",

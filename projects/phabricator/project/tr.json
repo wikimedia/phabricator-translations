@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish"
 		]
 	},
@@ -167,7 +168,7 @@
 	"4db10de865a2a08a": "Bu çalışma masası devre dışı bırakıldı, ancak eski ihtişamına geri döndürülebilir.",
 	"4e4ff419c4d80fdd": "Sınır Yok",
 	"4e76b7791d60cb3d": "Eklenen Projeler",
-	"4f98ae7b367aae87": "$1, $2 proje eklendi: $3.",
+	"4f98ae7b367aae87": "$1, $2 proje ekledi: $3.",
 	"504daa8cf3c05be8": "Bu proje için kilometre taşları oluşturulabilir.",
 	"5083b3e56944259f": "Proje üyelerini ayarlayın.",
 	"5167a22deb464b6c": "Projeler hakkında bilgi okuyun.",
@@ -238,7 +239,7 @@
 	"703cfd53fbb12238": "$1, $2 proje üyesi ekledi: $3.",
 	"704e5c08da5324a9": "Sütun: $1",
 	"7053fc642025b402": "$1 proje çalışma masası için varsayılan sıralama düzenini değiştirdi.",
-	"70ceb96b88abb2fc": "$1 bu projeyi $2 ile $3 yeniden adlandırdı.",
+	"70ceb96b88abb2fc": "$1, bu projeyi $2 iken $3 olarak yeniden adlandırdı.",
 	"70f5ed7d30ca197e": "$1, $2 üyesini kaldırdı: $3.",
 	"70fbddd23a9e5bb8": "Sığlar",
 	"70fca58a714c9e83": "Proje oluşturmak için formları yapılandırın.",

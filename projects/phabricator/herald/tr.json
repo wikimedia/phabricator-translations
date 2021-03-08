@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish"
 		]
 	},
@@ -329,7 +330,7 @@
 	"fb7f8e95a7cc81b0": "Bu kural artık aktif olmayacak.",
 	"fc5d3d59710e8aae": "yanlış",
 	"fcecf9274d10b35e": "İlk düzenli ifade geçersiz!",
-	"fd4b8529ea0d3441": "$1, bu webhook'u $2 ile $3 olarak yeniden adlandırdı.",
+	"fd4b8529ea0d3441": "$1, bu webhook'u $2 iken $3 olarak yeniden adlandırdı.",
 	"fda6fe27af5dd3c8": "Webhook'un adı.",
 	"fdfe2da709ca2c4f": "Webhook'lar",
 	"fe80802e39da3436": "\"$1\" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir.",
