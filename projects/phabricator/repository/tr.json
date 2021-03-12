@@ -4,6 +4,7 @@
 			"BaRaN6161 TURK",
 			"Joseph",
 			"MuratTheTurkish",
+			"SaldırganSincap",
 			"Sucsuzz"
 		]
 	},
@@ -182,7 +183,7 @@
 	"4d9c960d3f11c708": "Uygulanan değişiklikler.",
 	"4de1171551cb9775": "Bilinmeyen \"$1\" taahhüdü!",
 	"4e9627486c6e30e6": "<$1: $2>",
-	"4f90fc1b0cdca844": "Okunamayan bir taahhüt (\"$1\") olduğunda, yeni bir taahhüt (\"$2\") vermemelisiniz.",
+	"4f90fc1b0cdca844": "Bir işletmeyi (\"$1\") okunamaz olarak ima ederken, yeni bir işletme (\"$2\") sağlamamalısınız.",
 	"50d77b1a08348036": "Bu betik, içe aktarma sırasında bir deposu oluşturduğu tüm besleme öykülerini ve bildirimlerini yayınlayamaz. Bu işlem geri alınamaz.",
 	"512d1fecf536e4ae": "tehlikeli değişim",
 	"51308e00252086a6": "Depo Güncellemesi Gerekiyor",

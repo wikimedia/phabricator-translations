@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"Vito Genovese"
 		]
 	},
 	"00bb37fda5eb6c1d": "Yapıt Oluştur",
@@ -210,7 +211,7 @@
 	"559322c8e52c135f": "Geçersiz derleme günlüğü PHID \"$1\".",
 	"55bd80c0a37b8f77": "Referanslar Drydock firmasından bir ev sahibi kiralama.",
 	"55f5894bff02b4ce": "Bir yapı durumu adı yazın...",
-	"55fadf26e25384e7": "Kısa mesaj adı, \"Sözdizimi Hatası\" gibi.",
+	"55fadf26e25384e7": "Kısa mesaj adı, \"Sözdizim Hatası\" gibi.",
 	"567654dfd7a2cf93": "Adım Düzenle: $1",
 	"56fb21154566c7eb": "Bu test için isteğe bağlı ad alanı. Bu organizasyoneldir ve genellikle \"ExampleTestCase\" gibi bir sınıf veya modül adıdır.",
 	"56fc6e022009f396": "Buildkite",
@@ -408,7 +409,7 @@
 	"b6b23a03ab662757": "\"$1\" tipindeki eserler için uygulama yoktur.",
 	"b6bd3d48a489e878": "Adım Oluştur",
 	"b704339a99088809": "**yayınla** __buildable__ ...",
-	"b771db2cf3cbd0fe": "Sözdizimi Hatası",
+	"b771db2cf3cbd0fe": "Sözdizim Hatası",
 	"b7e8655e62b29a50": "Bu bağımlılık, var olmayan bir inşa adımını belirtir.",
 	"b8990b540b50a19d": "Geçerli Giriş",
 	"b9dd043b6f3cdfdd": "Bu giriş, derleme işleminde bu aşamada bulunmayan bir esere (\"$1\") bağlıdır.",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Eneelk",
+			"Motla",
 			"Noé",
 			"Tektasc",
 			"Thibaut120094",
@@ -155,6 +156,7 @@
 	"d3e8e92a94f192f4": "L'utilisateur est désactivé",
 	"d7f47bd5af71bd47": "Salut $1",
 	"d951de2f29a957f9": "Recherche de types particuliers d'activité.",
+	"db18bd8b31f5d6c8": "Déconnexion de $1",
 	"dbaca56e74398e04": "Configurer les formulaires de création et de modification pour les utilisateurs.",
 	"dc16f2b254daf60e": "Nom utilisateur: $1",
 	"dfc994a872ffcda8": "Créer une nouvelle liste de diffusion",

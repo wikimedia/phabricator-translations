@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Hedda"
+			"Hedda",
+			"Vito Genovese"
 		]
 	},
 	"0af1e82803f33761": "Phabricator şu anda yazılabilir (\"master\") veritabanıyla yapılandırılmamış, bu yüzden herhangi bir yerde yeni bilgiler yazamıyor. Phabricator bir yönetici tarafından yazılabilir bir veritabanı ile yeniden yapılandırılıncaya kadar salt okunur modda çalışır.",
@@ -18,7 +19,7 @@
 	"2f81b1b51a0ff80f": "Motor: İmha",
 	"319a2f5027bcf03f": "Bu istek bir çoğaltma veritabanından sunuldu. Çoğaltma veritabanları ana aygıtın gerisinde kalabilir, bu nedenle son etkinlik kullanıcı arayüzüne yansıtılmayabilir. Bu veri ana veri tabanı geri yüklenirse geri yüklenir, ancak ana veri tabanı bir kül yığınına düşürüldüğünde kaybedilmiş olabilir.",
 	"35f8b97d2a70bb5c": "Kalıcı olarak nesneleri yok et.",
-	"3b5e22ff29643ea6": "Kullanılacak vurgulamayı bir sözdizimi seçin.",
+	"3b5e22ff29643ea6": "Kullanılacak bir sözdizim vurgulaması seçin.",
 	"3e3549849220a546": "$1 / saat",
 	"40fcb3c8a156ed56": "Sunucu tarafında, kozmik radyasyon veya ürkütücü hayaletler gibi geçici bir ağ anomalisi varsa, bu olabilir. Bu başarısızlığa geçici bir hizmet kesintisi neden olmuşsa, Phabricator geçici olarak iyileşecektir.",
 	"422c87b46689da19": "Puan Sınırlama İşlemleri",
@@ -37,7 +38,7 @@
 	"6bebb0e6346bd254": "Bu mod aktiftir, çünkü \"$2\" yapılandırma seçeneğinde hiçbir veritabanında \"$1\" rolü yoktur.",
 	"7056a7ded33bce38": "Bu, daha ciddi bir başarısızlığın meydana geldiğini de gösterebilir. Bu kesinti kendi başına çözülmezse, Phabricator kalıcı bozulmayı tespit eder ve sorun çözülene kadar salt okunur moda geçer.",
 	"8140de1e81df20b1": "Karakter Kodlamasını Seçin",
-	"8399c288c999a027": "Sözdizimi Vurgulamayı Seçin",
+	"8399c288c999a027": "Sözdizim Vurgulamayı seçin",
 	"89fe6d3157dc3d41": "VERİLER KALICI OLARAK YOK EDİLECEKTİR",
 	"90ce40dfd99492ff": "Vurgulamayı Seçin",
 	"9603d4615c925382": "Bir yönetici Phabricator'ı salt okunur moda getirdi.",

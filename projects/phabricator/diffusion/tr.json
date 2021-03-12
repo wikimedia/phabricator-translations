@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Rapsar",
+			"SaldırganSincap",
 			"ToprakM"
 		]
 	},
@@ -431,7 +432,7 @@
 	"7ae9ce1d383429d5": "Kodun bir sürüm kontrol sisteminde olup olmadığını belirleyin.",
 	"7b17395d8e17b0d2": "Depolara SSH bağlantıları için bağlantı noktası.",
 	"7b3f983ae0e9a9fa": "Yalnızca bu dalları izleyin.",
-	"7b45ab6db9e5fed6": "Taahhüt henüz ayrıştırılmadığından taahhüt yüklenemedi.",
+	"7b45ab6db9e5fed6": "İşleme henüz ayrıştırılmadığı için işleme yüklenemedi.",
 	"7b81584078199964": "Referans adı",
 	"7c107b40dc9b9c88": "Şimdi Güncelle",
 	"7cc4922322638c60": "Ham Taahhütçü",

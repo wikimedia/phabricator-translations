@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Vito Genovese"
 		]
 	},
 	"01675fb1f0240d47": "$1, $2 için başlığı $3 ile $4 güncelledi.",
@@ -18,7 +19,7 @@
 	"2439957fc74c49c0": "Bir yapıştırın yazarı her zaman onu görüntüleyebilir ve düzenleyebilir.",
 	"26161ad7893f44ab": "Yeni Yapıştır Oluştur",
 	"271e88885ee5b1f8": "Yeni oluşturulan yapıştırlar için varsayılan düzenleme politikası.",
-	"27d35c7c82b77c30": "Sözdizimi vurgulama için kullanılan dili değiştirin.",
+	"27d35c7c82b77c30": "Sözdizim vurgulaması için kullanılan dili değiştirin.",
 	"2c5e28a2fee24dba": "(Bir Adsız Masterwork)",
 	"2c9e7f1c30140fa9": "Yapıştırı etkinleştirin veya arşivleyin.",
 	"2e0c1f769d6c21f1": "$1 bu yapıştırı oluşturdu.",
@@ -29,7 +30,7 @@
 	"35039e407ab8b6f0": "Nom Nom Nom Nom Nom",
 	"365ab4afbc4f0d0f": "Yeni oluşturulan pastalar için varsayılan görünüm politikası.",
 	"43ad944d6b4001c7": "Böyle bir yapıştır yok.",
-	"4521d13aa8627fed": "Sözdizimi vurgulama için kullanılacak dil.",
+	"4521d13aa8627fed": "Sözdizim vurgulaması için kullanılacak dil.",
 	"46ca871418c339a2": "Yapıştırmanın ana gövde metni.",
 	"492efe3253673858": "Belirli bir zamandan önce oluşturulan yapıştırları arayın.",
 	"4d2f011eae67cb4a": "Bir yapıştırmayı başarıyla oluşturdunuz.",
