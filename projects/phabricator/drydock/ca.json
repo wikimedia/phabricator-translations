@@ -121,7 +121,7 @@
 	"63e14493e474efba": "Crea un blueprint nou",
 	"6530feb1263e2dcd": "ID d'arrendament per actualitzar.",
 	"670a080f7d3de920": "Apliqueu transaccions per crear o editar un blueprint.",
-	"676235db58c10d84": "Allibera el recurs",
+	"676235db58c10d84": "Alliberar el recurs",
 	"6802745dc51db03f": "Voleu aprovar aquesta autorització? L'objecte podrà arrendar i assignar els recursos creats per aquest blueprint.",
 	"68e5660e3eab2ae5": "Una autorització hereta les polítiques del blueprint al qual autoritza l'accés.",
 	"6951256f74ba038d": "Alliberar amb força un arrendament pot interferir en el funcionament de qui reté l’arrendament i provocar la destrucció del recurs subjacent. No es pot desfer.",
