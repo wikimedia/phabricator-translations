@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Florian COLLIN",
+			"Motla",
 			"Noé",
 			"Pamputt",
 			"Thibaut120094",
@@ -381,7 +382,7 @@
 	"c8eea1b80ba437eb": "Anomalies",
 	"c9b77812480470f0": "Ajouter des membres",
 	"ca162b59ace9b527": "Choisir une icône et une couleur...",
-	"ca7870e353b0c340": "Pas de projet trouvé.",
+	"ca7870e353b0c340": "Aucun projet trouvé.",
 	"ca9432c2d8fe676f": "$1 a désactivé le tableau de bord pour ce projet.",
 	"cb446da0c37679dd": "Sélectionner et réordonner les champs du projet.",
 	"cdc01934e544fe69": "Observateurs",

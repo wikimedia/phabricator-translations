@@ -205,7 +205,7 @@
 	"6caf9d718c092f1b": "El tipus de clau pública ha de ser de: $1",
 	"6d4110eab766dff4": "Credencial API Duo",
 	"6dab7216458e25d1": "$1 ha modificat una propietat d'aquest proveïdor.",
-	"6e1a5072aee3c52e": "**Pas 2 de 2 - Configurar la instància OAuth de Phabricator** \n\nPer configurar OAuth Phabricator, creeu una aplicació nova aquí: \n\n$1/oauthserver/client/crear/ \n\nEn crear l'aplicació, utilitzeu aquests paràmetres: \n\n  - **Redirecció URI:** Establiu-ho a: `$2` \n\nDesprés de completar la configuració, copieu l'ID **Client** i **secret del client** als camps anteriors.  (Podeu haver de generar el secret del client fent clic a 'secret nou' primer.)",
+	"6e1a5072aee3c52e": "**Pas 2 de 2 - Configurar la instància OAuth de Phabricator** \n\nPer configurar OAuth Phabricator, creeu una aplicació nova aquí: \n\n$1/oauthserver/client/crear/ \n\nEn crear l'aplicació, utilitzeu aquests paràmetres: \n\n  - **URI de redirecció:** Establiu-ho a: `$2` \n\nDesprés de completar la configuració, copieu l'ID **Client** i **secret del client** als camps anteriors.  (Podeu haver de generar el secret del client fent clic a 'secret nou' primer.)",
 	"6e88228047200287": "Per verificar el vostre telèfon com a factor d’autenticació, s’enviarà un missatge de text amb un codi secret al número de telèfon que heu indicat com a número de contacte principal.",
 	"6f8e8eed597bcf7e": "DESACTIVA LA CUA D'APROVACIÓ",
 	"701248f1c99102d5": "Especifiqueu els factors específics amb \"--type\", o tots els factors amb \"--all-types\", però no els dos.",

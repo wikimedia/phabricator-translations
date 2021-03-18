@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"0f0973483d912464": "Sessize al",
@@ -18,6 +19,7 @@
 	"3f20100a71906b67": "Bu nesneye otomatik olarak abone oldunuz.",
 	"409841b0ee579c25": "Abone ekle",
 	"4db3423d5bd31e84": "Bir abone olarak kendinizi kaldırın.",
+	"5664ad67ef70ff5d": "Tüm $1 Üyeyi Gör",
 	"649fad34cf6e7781": "Belirli aboneleri olan nesneleri arayın.",
 	"6ffaf2c2fa633fe1": "Aboneler bu işlemi yapabilir.",
 	"7044c3104095ed26": "Sesi aç",
