@@ -48,7 +48,7 @@
 	"1c7b43d7182437c5": "Aquesta construcció no està en pausa. Només podeu reprendre una construcció en pausa.",
 	"1d184dfbcc0b823d": "No es pot interrompre la construcció",
 	"1da414dc0c9bfc10": "Construeix un objectiu",
-	"1ddcb26af9d388b4": "No es pot determinar com recuperar els canvis: aquesta referència construïble no identifica cap validació ni cap ref. És possible que hàgiu de configurar una àrea de prova del repositori.",
+	"1ddcb26af9d388b4": "No es pot determinar com recuperar els canvis: aquest construïble no identifica cap ref. de validació ni de preparació. És possible que hàgiu de configurar una àrea de preparació del repositori.",
 	"1de7cbb73c296758": "No s'ha pogut carregar el pla de construcció ('$1').",
 	"1e5a0b215da9a04f": "S'ha iniciat la construcció",
 	"1f06f92fdf87f311": "Construcció $1: $2",

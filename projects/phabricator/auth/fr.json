@@ -805,7 +805,7 @@
 	"e66a521620d69625": "Le nom de l’instance Phabricator ne doit contenir que des lettres minuscules, des chiffres et des points.",
 	"e694b4006659b51c": "Ceci est le seul compte de connexion externe lié à votre compte Phabricator. Si vous le retirez, vous ne pourrez plus vous connecter.",
 	"e6d1fd8f88d1c88c": "Vous n’avez pas encore complété votre inscription sur Duo. Complétez l’inscription, puis cliquez sur continuer.",
-	"e6f48364c27de81f": "Toujours Rechercher",
+	"e6f48364c27de81f": "Toujours rechercher",
 	"e7405cc90c702dd5": "Utiliser ce lien pour récupérer l’accès au compte « $1 » depuis l’interface web :",
 	"e74c925dcfef37a5": "Modifier le Message d’Inscription",
 	"e75a2315a44ba5f5": "Votre compte Phabricator est déjà lié à un compte externe pour ce fournisseur.",

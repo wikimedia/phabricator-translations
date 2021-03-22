@@ -155,6 +155,7 @@
 	"7c1c1a3ef01cb3c5": "El pagament amb Paypal no coincideix amb el càrrec de Phortune!",
 	"7c7599733c923353": "Nom del venedor.",
 	"7dfe573b123df701": "Configureu els formularis de creació i edició per a adreces de correu electrònic del compte mercantil de Phortune.",
+	"7f45e20fe52dc9fc": "La facturació manual duplicarà els comptes de pagament de factures si l’interval se superposa a una factura existent o futura. Aquest script està pensat per a proves i desenvolupament i no ha de formar part de les operacions de facturació rutinàries. Si continueu, podeu cobrar de manera no correcta els clients.",
 	"8182cf10beeb8c44": "Peu dels formularis de factura.",
 	"8229b90d9377ad1a": "$1 ha suprimit $2 gestors mercantils: $3.",
 	"869addefb593738a": "Targeta de crèdit / dèbit",

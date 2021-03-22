@@ -1631,6 +1631,7 @@
 	"fbed23bc25ae42fb": "Etkinlik Günlükleri",
 	"fbf1b975dfdacb7e": "Giriş Yap veya Kaydol",
 	"fc546a132eefdbea": "Kullanıcı yapma izni olmayan bir şey yapmaya çalıştığında oluşan ilke istisnalarını işler.",
+	"fc6556a7ab9565ea": "Yayımlanmamış",
 	"fc88f06a5cb79023": "Taahhütleri Düzenle",
 	"fc9314877cf01116": "\"any()\" yazın...",
 	"fcaf82dbe04066c5": "\"$1\" geçerli bir PHID dosyası değil.",
@@ -1644,6 +1645,7 @@
 	"fd3edc641024a335": "UYARI",
 	"fd520687b40bce3e": "Sabırla Bekle",
 	"fde3cbac11118c8f": "Statik tablolar senkronize ediliyor...",
+	"fded1c1a426cf718": "Depo açıklaması.",
 	"fe035157cda20b36": "Bağlantı noktası",
 	"fe06eb6459c87f0e": "Tab",
 	"fe3139f752d7c0d1": "Arama kümesi yapılandırmasında geçersiz bir ana bilgisayar belirtimi var (\"$1\" dizininde): $2.",
@@ -1657,6 +1659,7 @@
 	"ff96d0b509bcf621": "Gerçek ad gerekli.",
 	"ffa2dd881c30abe3": "$1 ile yeniden adlandırılacak ad alanını belirtin.",
 	"ffcbda70b0a715ef": "İleri revizyonda görüntüle",
+	"ffe0d5fb366b04eb": "Yeni Kural",
 	"5074280275801324": "Son $1 kilidi beklemek için harcanan, $2 fazladan başka işlem tarafından satın alındı, bu muhtemelen bir darboğaz. Günlük etkinliğini gözden geçirmek için \"bin/lock log --name $3\" kullanın.",
 	"5168412490264521": "bcrypt"
 }

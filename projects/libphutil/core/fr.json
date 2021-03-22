@@ -3,6 +3,7 @@
 		"authors": [
 			"Gomoko",
 			"Krwy",
+			"Motla",
 			"Patrick Star",
 			"Pvcnt",
 			"Thibaut120094",
@@ -43,7 +44,7 @@
 	"0b99cebe565822c6": "ERREUR",
 	"0c13f120e7ec6e12": "Échec de création d’un répertoire temporaire : le disque est plein.",
 	"0c2901827227d9bb": "Le gestionnaire de signal avec la clé « $1 » est déjà installé.",
-	"0c6b8ddc90d50355": "Résumé de la différence avec la dernière modification.",
+	"0c6b8ddc90d50355": "Résumé du diff avec la dernière modification.",
 	"0c95dc6163ff0d09": "PM",
 	"0cf5d4aaf070bef1": "Conversion depuis ISO-8859-1.",
 	"0d3b3cff1fe54645": "« Erreur de syntaxe » attendu dans stderr ou « $1 ».",
