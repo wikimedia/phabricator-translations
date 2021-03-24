@@ -12,7 +12,8 @@ final class PhabricatorDoorkeeperCa
       'Phabricator is running in silent mode.' => 'El Phabricator s\'està executant en mode silenciós.',
       'Available publishers class names are:' => 'Els noms de classe dels editors disponibles són:',
       'To enable synchronization into Asana, enter an Asana Workspace ID here.
-    NOTE: This feature is new and experimental.' => 'Per activar la sincronització a Asana, introduïu aquí un ID d\'espai de treball Asana. <br><br>NOTA: Aquesta característica és nova i experimental.',
+    NOTE: This feature is new and experimental.' => 'Per activar la sincronització a Asana, introduïu aquí un ID d\'espai de treball Asana.
+    NOTA: Aquesta funcionalitat és nova i experimental.',
       'JIRA %s %s' => 'JIRA %s %s',
       'Workspace ID' => 'ID de l\'espai de treball',
       'DoorkeeperURIRef display mode "%s" is unknown.' => 'Es desconeix el mode de visualització DoorkeeperURIRef "%s".',
@@ -37,7 +38,8 @@ final class PhabricatorDoorkeeperCa
       'Doorkeeper' => 'Porter',
       'Imported From' => 'Importat Des De',
       'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'Quan Phabricator crea tasques a Asana, pot afegir les tasques als projectes Asana basant-se en l\'aplicació de la qual prové l\'objecte corresponent a Phabricator. Per exemple, podeu afegir revisions de codi a Asana a un projecte "Differential". <br><br>NOTA: Aquesta característica és nova i experimental.',
+    NOTE: This feature is new and experimental.' => 'Quan Phabricator crea tasques a Asana, pot afegir les tasques als projectes Asana basant-se en l\'aplicació de la qual prové l\'objecte corresponent a Phabricator. Per exemple, podeu afegir revisions de codi a Asana a un projecte "Differential". <br>
+    NOTA: Aquesta funcionalitat és nova i experimental.',
       'No related users have linked Asana accounts.' => 'Cap usuari relacionat té comptes Asana enllaçats.',
       'Story is about an unsupported object type.' => 'La història és sobre un tipus d\'objecte no admès.',
       'No JIRA provider configured.' => 'No s\'ha configurat cap proveïdor JIRA.',

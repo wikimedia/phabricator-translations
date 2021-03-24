@@ -20,7 +20,7 @@ final class PhabricatorCountdownCa
       'Default view policy for new countdowns.' => 'Política de visualització predeterminada per als comptes enrere nous.',
       'Change the countdown description.' => 'Editeu la descripció del compte enrere.',
       'Create a Countdown' => 'Crea un compte enrere',
-      'Utilize the full capabilities of your ALU.' => 'Utilitzeu totes les capacitats de la vostra ALU.',
+      'Utilize the full capabilities of your ALU.' => 'Utilitzeu totes les aptituds de la vostra ALU.',
       'Launched on %s' => 'Llançat el %s',
       'Countdown titles must not be longer than %s character(s).' => 'Els títols de compte enrere no poden excedir els %s caràcters.',
       'No countdowns found.' => 'No s\'ha trobat cap compte enrere.',

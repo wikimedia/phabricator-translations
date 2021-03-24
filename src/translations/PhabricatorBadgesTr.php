@@ -39,7 +39,7 @@ final class PhabricatorBadgesTr
       'Revoke Badge' => 'Rozeti İptal Et',
       'Edit Badge' => 'Rozeti Düzenle',
       'Choose Badge Icon' => 'Rozet Simgesini Seçin',
-      '%s renamed this badge from %s to %s.' => '%s, bu rozeti %s olarak %s yeniden adlandırdı.',
+      '%s renamed this badge from %s to %s.' => '%s, bu rozeti %s iken %s olarak yeniden adlandırdı.',
       'Already awarded' => 'Zaten verildi',
       '%s created this badge.' => '%s bu rozeti oluşturdu.',
       'Create a Badge' => 'Bir Rozet Oluştur',

@@ -26,7 +26,7 @@ final class PhabricatorBaseCa
       'This application is required for Phabricator to operate, so all users must have access to it.' => 'Aquesta aplicació és requerida per Phabricator per funcionar, així que tots els usuaris han de tenir accés a ella.',
       'Expect user \'%s\' to be denied access to \'%s\'.' => 'Espera a l\'usuari \'%s\' per denegar accés a \'%s\'',
       'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => 'La petició inclou el paràmetre restringit "%s", però aquest controlador ("%s") no és a la llista blanca. Es rebutja servir aquesta petició perquè podria ser part d\'un atac de redirecció.',
-      'Unknown capability \'%s\'!' => 'Capacitat desconeguda \'%s\'!',
+      'Unknown capability \'%s\'!' => 'Aptitud desconeguda \'%s\'!',
       'Admin Required' => 'Es Requereix Administrador',
       'Email Verification Required, With Exception' => 'Es Requereix Verificació de Correu Electrònic, Amb Excepció',
       'Allow Disabled' => 'Permet la Deshabilitació',

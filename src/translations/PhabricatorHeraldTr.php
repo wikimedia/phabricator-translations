@@ -333,7 +333,7 @@ final class PhabricatorHeraldTr
       'This rule will no longer activate.' => 'Bu kural artık aktif olmayacak.',
       'is false' => 'yanlış',
       'First regular expression is invalid!' => 'İlk düzenli ifade geçersiz!',
-      '%s renamed this webhook from %s to %s.' => '%s, bu webhook\'u %s ile %s olarak yeniden adlandırdı.',
+      '%s renamed this webhook from %s to %s.' => '%s, bu webhook\'u %s iken %s olarak yeniden adlandırdı.',
       'Name of the webhook.' => 'Webhook\'un adı.',
       'Webhooks' => 'Webhook\'lar',
       'The regular expression pair "%s" must have exactly two elements.' => '"%s" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir.',

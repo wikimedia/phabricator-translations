@@ -9,7 +9,7 @@ final class PhabricatorAuthTr
 
   protected function getTranslations() {
     return array(
-      '%s renamed this provider from %s to %s.' => '%s bu sağlayıcıyı %s üzerinden %s yeniden adlandırdı.',
+      '%s renamed this provider from %s to %s.' => '%s bu sağlayıcıyı %s iken %s olarak yeniden adlandırdı.',
       '%s enabled login.' => '%s oturum açmayı etkinleştirdi.',
       'Disable Contact Number' => 'Kişi Numarasını Devre Dışı Bırak',
       'This key has been revoked. Choose or generate a new, unique key.' => 'Bu anahtar iptal edildi. Yeni, benzersiz bir anahtar seçin veya oluşturun.',
@@ -91,6 +91,7 @@ final class PhabricatorAuthTr
       'No public key was provided.' => 'Ortak anahtar sağlanmadı.',
       'Phabricator base URI should include protocol (like "%s").' => 'Phabricator temel URI\'si protokol içermelidir ("%s" gibi).',
       'Log In with LDAP' => 'LDAP ile giriş yapın',
+      'Expected verifier to finish OAuth handshake!' => 'Doğrulayıcının OAuth anlaşmasını bitirmesi bekleniyor!',
       'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => '"--yype" ile iptal edilecek kimlik bilgisi türünü veya "--everything" seçeneğini belirtin. Kullanılabilir kimlik bilgisi türlerini listelemek için "--list" kullanın.',
       'Start TLS after binding to the LDAP server.' => 'LDAP sunucusuna bağlandıktan sonra TLS\'yi başlatın.',
       'Duo providers must have an API hostname.' => 'İkili sağlayıcıların bir API ana bilgisayar adı olmalıdır.',
@@ -105,6 +106,11 @@ final class PhabricatorAuthTr
       'Too Short' => 'Çok Kısa',
       'You denied this request. Wait %s second(s) to try again.' => 'Bu isteği reddettiniz. Tekrar denemek için %s saniye bekleyin.',
       'Phabricator Base URI' => 'Phabricator Temel URI\'si',
+      'Guidance included in the mail message body when users request an email link to access their account.
+    For installs with password authentication enabled, users access this workflow by using the "Forgot your password?" link on the login screen.
+    For installs without password authentication enabled, users access this workflow by using the "Send a login link to your email address." link on the login screen. This workflow allows users to recover access to their account if there is an issue with an external login service.' => 'Kullanıcılar, hesaplarına erişmek için bir e-posta bağlantısı talep ettiğinde posta mesajı gövdesine dahil edilen rehberlik.
+    Parola kimlik doğrulamasının etkin olduğu kurulumlar için, kullanıcılar bu iş akışına "Parolanızı mı unuttunuz?" giriş ekranındaki bağlantıyı erişebilir.
+    Parola kimlik doğrulamasının etkinleştirilmediği kurulumlar için, kullanıcılar bu iş akışına "E-posta adresinize bir oturum açma bağlantısı gönder." giriş ekranındaki bağlantı seçeneğini kullanarak erişirler. Bu iş akışı, harici bir oturum açma hizmetiyle ilgili bir sorun olması durumunda kullanıcıların hesaplarına erişimi kurtarmalarına olanak tanır.',
       'The selected password is very weak: it is one of the most common passwords in use. Choose a stronger password.' => 'Seçilen parola çok zayıf: Kullanılan en yaygın şifrelerden biridir. Daha güçlü bir şifre seçin.',
       'LDAP Username: ' => 'LDAP Kullanıcı Adı:',
       'That email address is not verified, but the account it is connected to has at least one other verified address. When an account has at least one verified address, you can only send password reset links to one of the verified addresses. Try a verified address instead.' => 'Bu e-posta adresi doğrulanmadı, ancak bağlı olduğu hesapta en az bir tane daha doğrulanmış adres var. Bir hesabın en az bir doğrulanmış adresi olduğunda, yalnızca doğrulanmış adreslerden birine parola sıfırlama bağlantıları gönderebilirsiniz. Bunun yerine doğrulanmış bir adresi deneyin.',
@@ -222,6 +228,7 @@ final class PhabricatorAuthTr
     Parolalar yalnızca kaldırılmakla kalmaz, iptal edilir. Kullanıcılar daha önce kullandıkları şifreleri seçemez ve yeni, benzersiz parolalar seçmeleri gerekir.
     Şifreleri iptal etmek, olağanüstü giriş oturumlarını sonlandırmaz. Kullanıcıları tekrar oturum açmaya zorlamak için bu oturum değiştirici ile birlikte "oturum" iptal edicisini kullanın.',
       '%s set the OAuth consumer key for this provider to "%s".' => '%s, bu sağlayıcı için OAuth tüketici anahtarını "%s" olarak ayarlandı.',
+      'Guidance in the message body when users set a password on an account which did not previously have a password.' => 'Kullanıcılar daha önce parolası olmayan bir hesap için bir parola belirlediklerinde mesaj gövdesinde rehberlik.',
       'Connecting to LDAP...' => 'LDAP\'ye bağlanıyor ...',
       'Wait' => 'Bekle',
       'No matching SSH keys.' => 'Eşleşen SSH anahtarı yok.',
@@ -338,6 +345,7 @@ final class PhabricatorAuthTr
       'OAuth App Notes' => 'OAuth Uygulama Notları',
       'You have failed too many attempts to synchronize new multi-factor authentication methods in a short period of time.' => 'Kısa sürede yeni çok faktörlü kimlik doğrulama yöntemlerini senkronize etmek için çok fazla denemede başarısız oldunuz.',
       'Your Phabricator account is already connected to an external account on this provider ("%s"), but you are currently logged in to the provider with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Phabricator hesabınız zaten bu sağlayıcıdaki harici bir hesaba ("%s") bağlı, ancak şu anda sağlayıcıya farklı bir hesapla giriş yaptınız. Harici hizmet oturumunu kapatın, ardından hesap bağlantısını yenilemeden önce doğru hesapla tekrar oturum açın.',
+      'Expected token to finish OAuth handshake!' => 'Anahatarın OAuth anlaşmasını bitirmesi bekleniyor!',
       'Unable to start TLS connection when connecting to LDAP.' => 'LDAP\'ye bağlanırken TLS bağlantısı başlatılamıyor.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'Yetkilendirme sağlayıcı yapılandırması kilitlenmiş, ve açılmadan değiştirilemez.',
       'Factor type "%s" is unknown. Use `bin/auth list-factors` to get a list of known factor types.' => '"%s" faktör türü bilinmiyor. Bilinen faktör türlerinin bir listesini almak için `bin/auth list-factors` kullanın.',
@@ -1071,6 +1079,7 @@ final class PhabricatorAuthTr
       '%s enabled this contact number.' => '%s bu kişi numarasını etkinleştirdi.',
       'WordPress.com' => 'WordPress.com',
       'Default Message' => 'Varsayılan Mesaj',
+      'Guidance in the message body when users request an email link to access their account.' => 'Kullanıcılar, hesaplarına erişmek için bir e-posta bağlantısı istediğinde mesaj gövdesinde rehberlik.',
       'Refresh %s Account' => '%s Hesabı Yenile',
       'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => 'Giriş çerezi doğru bir şekilde ayarlandı, ancak giriş oturumunuz geçerli değil. Çerezleri temizlemeyi ve tekrar giriş yapmayı deneyin.',
       'Allow users to attach a mobile authenticator application (like Google Authenticator) to their account.' => 'Kullanıcıların hesaplarına bir mobil kimlik doğrulayıcı uygulaması (Google Authenticator gibi) eklemelerine izin ver.',

@@ -13,7 +13,7 @@ final class PhabricatorextCoreCa
       'Next: %s' => 'Següent: %s',
       'Provides instructions for applying a local patch using just git.' => 'Proporciona instruccions per aplicar un pedaç local amb només git.',
       'Standard Phabricator.' => 'Phabricator estàndard.',
-      'Auto-generated release schedule details.' => 'Detalls de la programació de versions generats automàticament.',
+      'Auto-generated release schedule details.' => 'Detalls de la planificació d\'alliberament generats automàticament.',
       '**MediaWiki Instance Name**
     Choose a permanent name for this instance of MediaWiki.Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
     Use lowercase letters, digits, and period. For example: 
@@ -30,9 +30,9 @@ final class PhabricatorextCoreCa
     After you register the consumer, a **Consumer Key** and **Consumer Secret** will be provided to you by MediaWiki. To complete configuration of phabricator, copy the provided keys into the corresponding fields above.
     NOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki admin must approve the oauth consumer registration using the form which can be found at the following url: %s' => '**Pas 2 de 2**: Crea un consumidor d\'autenticació MediaWiki per a aquesta instància de Phabricator. 
     NOTA: Proposa un consumidor amb el formulari en aquest URL: %s 
-    Proporcioneu les següents opcions al registre del consumidor: 
+    Proporcioneu els següents paràmetres al registre del consumidor: 
       - **URL de reserva:** Establiu-ho a: `%s` 
-      - **Grants:** .Drets bàsics. és tot el que es necessita per a l\'autenticació. 
+      - **Grants:** `Drets bàsics` és tot el que es necessita per a l\'autenticació. 
     Després de registrar el consumidor, MediaWiki us proporcionarà una **clau de Consum** i **Consumer Secret**.  Per completar la configuració del Phabricator, copieu les claus proporcionades als camps corresponents de dalt. 
     NOTA: Abans que Phabricator pugui autenticar-se amb èxit amb el vostre MediaWiki, un administrador del wiki ha d\'aprovar el registre del consumidor de l\'oauth utilitzant el formulari que es pot trobar a l\'URL següent: %s',
       'Gerrit Projects' => 'Projectes Gerrit',
@@ -46,7 +46,7 @@ final class PhabricatorextCoreCa
       'Related Links' => 'Enllaços relacionats',
       'No deployments on fridays' => 'No hi ha desplegaments els divendres',
       'You must provide either a username or userPHID' => 'Heu de proporcionar un nom d’usuari o un PHID d’usuari',
-      'MediaWiki base URI is required.' => 'Es requereix l\'URI base de MediaWiki.',
+      'MediaWiki base URI is required.' => 'Cal l\'URI base de MediaWiki.',
       'Unknown policies: %s' => 'Polítiques desconegudes: %s',
       'OAuth JWT nonce didn\'t match what we sent.' => 'El Nonce de JWT OAuth no va coincidir amb el que enviem.',
       'Protect as security issue' => 'Protegeix com a problema de seguretat',
@@ -54,7 +54,7 @@ final class PhabricatorextCoreCa
       'Secret Key' => 'Clau secreta',
       'This adds a link to search maniphest for open tasks which are tagged with this project.
     NOTE: This feature is provided by a Wikimedia-maintained extension, ProjectBurnupGraphProfileMenuItem. See {rPHEX} for the source.' => 'Això afegeix un enllaç a maniphest de cerca de tasques obertes etiquetades amb aquest projecte.
-    NOTA: Aquesta característica la proporciona una extensió mantinguda per Wikimedia, ProjectBurnupGraphProfileMenuItem. Consulteu la font {rPHEX}.',
+    NOTA: Aquesta funcionalitat la proporciona una extensió mantinguda per Wikimedia, ProjectBurnupGraphProfileMenuItem. Consulteu la font {rPHEX}.',
       'Show verbose output.' => 'Mostrar la sortida verbosa.',
       'OAuth JWT wasn\'t valid at this time' => 'OAuth JWT no era vàlid en aquest moment',
       'Any serious bugs affecting `%s` should be added as subtasks beneath this one.' => 'Qualsevol error greu que afecti \'%s\' s\'ha d\'afegir com a subtasques a sota d\'aquest.',
@@ -63,16 +63,16 @@ final class PhabricatorextCoreCa
       'Only admins can call this API' => 'Només els administradors poden trucar a aquest API',
       'OAuth provider returned an error response.' => 'El proveïdor OAuth va retornar una resposta d\'error.',
       'Ensure Security Task Policies are Enforced' => 'Assegureu-vos que es compleixen les polítiques de tasques de seguretat',
-      'Release Details' => 'Detalls de la versió',
+      'Release Details' => 'Detalls d\'alliberament',
       'Allow' => 'Permet',
-      'This MediaWiki Train Deployment is scheduled for the week of' => 'Aquest desplegament del tren de MediaWiki està previst per a la setmana del',
+      'This MediaWiki Train Deployment is scheduled for the week of' => 'Aquest desplegament del tren de MediaWiki està planificat per a la setmana del',
       'Query users by ldap username.' => 'Consulteu els usuaris mitjançant el nom d’usuari ldap.',
       'LDAP User' => 'Usuari d\'LDAP',
       'Invalid action \'%s\'!' => 'L\'acció \'%s\' no és vàlida.',
       'Shows the gerrit Change ID for a commit.' => 'Mostra l\'identificador de canvi de gerrit per a una validació.',
       'This adds a link to search maniphest for open tasks which are tagged with this project.
     NOTE: This feature is provided by a Wikimedia-maintained extension, ProjectOpenTasksProfileMenuItemextension. See {rPHEX} for the source.' => 'Això afegeix un enllaç a maniphest de cerca de tasques obertes etiquetades amb aquest projecte.
-    NOTA: Aquesta funció la proporciona una extensió mantinguda per Wikimedia, ProjectOpenTasksProfileMenuItemextension. Consulteu la font {rPHEX}.',
+    NOTA: Aquesta funcionalitat la proporciona una extensió mantinguda per Wikimedia, ProjectOpenTasksProfileMenuItemextension. Consulteu la font {rPHEX}.',
       'MediaWiki' => 'MediaWiki',
       'MediaWiki Base URI' => 'URI base MediaWiki',
       'The requested project does not exist' => 'El projecte sol·licitat no existeix',
@@ -92,7 +92,7 @@ final class PhabricatorextCoreCa
       'Disable ElasticSearch' => 'Desactiva ElasticSearch',
       'MediaWiki Instance Name' => 'Nom de la instància MediaWiki',
       'Limit the number of transaction rows to process. Default: 10000' => 'Limiteu el nombre de files de transaccions a processar. Valor per defecte: 10000',
-      'objectType is required.' => 'ObjectType és obligatori.',
+      'objectType is required.' => 'Cal un ObjectType.',
       'Unknown or missing ldap names: %s' => 'Noms d\'ldap desconeguts o que falten: %s',
       'NOTE: Copy the keys generated by the MediaWiki OAuth consumer registration and paste them here.' => 'NOTA: Copieu les claus generades pel registre del consumidor MediaWiki OAuth i enganxeu-les aquí.',
       'Invalid rule class \'%s\'!' => 'La classe de regla \'%s\' no és vàlida.',
@@ -123,8 +123,8 @@ final class PhabricatorextCoreCa
     In the next step, you will create an auth consumer in MediaWiki to be used by Phabricator oauth.' => '**Pas 1 de 2**: proporcioneu el nom i l\'URI per a la instal·lació de MediaWiki.
     Al següent pas, crearà un consumidor d’autorització a MediaWiki perquè Phabricator oauth l’utilitzi.',
       'Expert Mode.' => 'Mode expert.',
-      'The specified username / userPHID was not found' => 'No s\'ha trobat el nom d\'usuari/usuari PHID especificat',
-      'See https://wikitech.wikimedia.org/wiki/Deployments for full schedule.' => 'Consulteu https://wikitech.wikimedia.org/wiki/Deployments per a la programació completa.',
+      'The specified username / userPHID was not found' => 'No s\'ha trobat el nom d\'usuari/PHID de l\'usuari especificat',
+      'See https://wikitech.wikimedia.org/wiki/Deployments for full schedule.' => 'Consulteu https://wikitech.wikimedia.org/wiki/Deployments per a la planificació completa.',
       'Browse Gerrit Projects' => 'Examineu els projectes de Gerrit',
       'You cannot lock this task because it is already protected by a custom security policy.' => 'No podeu bloquejar aquesta tasca perquè ja està protegida per una política de seguretat personalitzada.',
       'Wikimedia Customizations' => 'Personalitzacions de Wikimedia',
@@ -136,7 +136,7 @@ final class PhabricatorextCoreCa
       'Use [[%s|this form]] to create one.' => 'Utilitzeu [[%s|aquest formulari]] per crear-ne un.',
       'MediaWiki User' => 'Usuari de MediaWiki',
       'Change type to' => 'Canvia el tipus a',
-      'Reset security settings' => 'Restableix la configuració de seguretat',
+      'Reset security settings' => 'Restablir els paràmetres de seguretat',
       'Open Tasks' => 'Tasques obertes',
       'Unknown' => 'Desconegut',
       'OAuth error: this account has been blocked in MediaWiki.' => 'Error d\'OAuth: aquest compte s\'ha bloquejat a MediaWiki.',

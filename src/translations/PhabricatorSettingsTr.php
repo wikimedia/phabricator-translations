@@ -14,6 +14,7 @@ final class PhabricatorSettingsTr
       'Default (%s)' => 'Varsayılan (%s)',
       'You haven\'t added any contact numbers to your account.' => 'Hesabınıza hiç kişi numarası eklemediniz.',
       'Conpherence Column Visible' => 'Conpherence Sütunu Görünür',
+      'External Editor' => 'Harici Düzenleyici',
       'This web browser does not support desktop notifications. Only application notifications will be sent for this browser regardless of this preference.' => 'Bu web tarayıcısı masaüstü bildirimlerini desteklemiyor. Bu tercihten bağımsız olarak, yalnızca tarayıcıya bu tarayıcı için uygulama bildirimleri gönderilir.',
       'Choose Factor Type' => 'Faktör Türünü Seçin',
       'Page Titles' => 'Sayfa Başlıkları',

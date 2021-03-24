@@ -16,7 +16,7 @@ final class PhabricatorHelpFrFR
       'Editing Inline Comments' => 'Modification des commentaires en ligne',
       'Global Shortcuts' => 'Raccourcis globaux',
       'Keyboard Shortcuts' => 'Raccourcis clavier',
-      'Diff Navigation' => 'Navigation des différences',
+      'Diff Navigation' => 'Navigation des diffs',
     );
   }
 

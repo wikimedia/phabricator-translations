@@ -11,10 +11,10 @@ final class PhabricatorChatlogCa
     return array(
       '(Deprecated)' => '(Obsolet)',
       'Jump' => 'Saltar',
-      'Retrieve chatter.' => 'Recuperar la conversa.',
-      'Newer' => 'Més nou',
+      'Retrieve chatter.' => 'Rescatar la conversa.',
+      'Newer' => 'Posterior',
       'Jump to Bottom' => 'Anar a Baix',
-      'Older' => 'Més antic',
+      'Older' => 'Anterior',
       'ChatLog' => 'Registre de discussió',
       'Channel List' => 'Llista de canals',
       'Hide Dates' => 'Oculta les dates',

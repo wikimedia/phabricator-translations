@@ -209,7 +209,7 @@ final class PhabricatorDrydockTr
       'Provides: %s' => 'Sağlar: %s',
       'Lease Activated' => 'Kira Etkinleştirildi',
       'Specify a command to run.' => 'Çalıştırılacak bir komut belirtin.',
-      '%s renamed this blueprint from %s to %s.' => '%s, bu planı %s olarak %s yeniden adlandırdı.',
+      '%s renamed this blueprint from %s to %s.' => '%s, bu planı %s iken %s olarak yeniden adlandırdı.',
       'No active Drydock blueprint exists which can ever allocate a resource for lease "%s".' => 'Hiç bir kaynak "%s" kira için tahsis edebilecek hiçbir Drydock blueprint mevcut değildir.',
       'Release Lease?' => 'Kira Yayınlasın mı?',
       'Approve Authorization' => 'Yetkilendirmeyi Onayla',

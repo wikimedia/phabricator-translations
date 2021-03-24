@@ -36,7 +36,7 @@ final class ArcanistCoreFrFR
       'Pick' => 'Prendre',
       'Lint all files in the project.' => 'Analyser les recommandations pour tous les fichiers dans le projet.',
       'Browse URI "%s"' => 'Afficher l’URI « %s »',
-      'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => 'La copie de travail comprend des modifications pour les  chemins « %s ». Ces changements ne seront pas inclus dans les différences parce que SVN ne peut pas valider les modifications « svn:external » en même temps que les modifications normales.',
+      'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => 'La copie de travail comprend des modifications pour les chemins « %s ». Ces changements ne seront pas inclus dans le fichier diff parce que SVN ne peut pas valider les modifications « svn:external » en même temps que les modifications normales.',
       'Base commit ruleset to invoke when determining the start of a commit range. See "Arcanist User Guide: Commit Ranges" for details.' => 'Ensemble de règles de validation de base à invoquer pour déterminer le début d’une plage de validation. Voyez le « Guide de l’utilisateur de Arcanist : plages de validation » pour plus de détails.',
       'Nowhere to load blob \'%s\' from!' => 'Aucun endroit depuis lequel charger le blob « %s » !',
       'Runtime Error' => 'Erreur d’exécution',
@@ -96,7 +96,7 @@ final class ArcanistCoreFrFR
       'Do you want to create a new commit with these %s change(s)?' => 'Voulez-vous créer une nouvelle validation avec ces %s modification(s) ?',
       'Unexpected "%s" section in property addition.' => 'Section « %s » non attendue dans l’ajout d’une propriété.',
       'Delete the flag on an object.' => 'Supprimer le drapeau d’un objet.',
-      'Diff Parse Exception: %s' => 'Exception d’analyse des différences : %s',
+      'Diff Parse Exception: %s' => 'Erreur de décodage du diff : %s',
       'Commit this revision anyway?' => 'Valider cette version malgré tout ?',
       'After creating the task, open it in a web browser.' => 'Après avoir créé la tâche, l’ouvrir dans un navigateur web.',
       'Lint does not currently support %s in SVN.' => 'Lint ne prend pas en charge actuellement %s dans SVN.',
@@ -105,7 +105,7 @@ final class ArcanistCoreFrFR
     Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Il y a plusieurs versions qui correspondent à la copie de travail :
     %s
     Utilisez « %s » pour en choisir une ou « %s » pour créer une nouvelle version.',
-      'Failed to decompose multicopy changeset in order to generate diff.' => 'Échec au découpage d’un ensemble de modifications multi-copies afin d’en générer les différences.',
+      'Failed to decompose multicopy changeset in order to generate diff.' => 'Échec de la décomposition d’un ensemble de modifications multi-copies afin d’en générer un diff.',
       'Unsound' => 'Instable',
       'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?' => 'Correctif %s de « %s » vers « %s », mais le chemin source n’existe pas dans la copie de travail. Continuer tout de même ?',
       'You have uncommitted changes in the working copy for this library:' => 'Vous avez invalidé des modifications dans la copie de travail pour cette bibliothèque :',
@@ -168,7 +168,7 @@ final class ArcanistCoreFrFR
       'Updating working copy...' => 'Mise à jour de la copie de travail...',
       'Language constructs do not require parentheses.' => 'Les constructions du langage ne nécessitent pas de parenthèses.',
       'Detects common misspellings of English words.' => 'Détecte les fautes de frappe courantes des mots anglais.',
-      'Unknown raw diff source.' => 'Source de différence brute inconnue.',
+      'Unknown raw diff source.' => 'Source brute du diff inconnue.',
       '\'%s\' failed and the rebase was aborted. This is most likely due to conflicts. Manually rebase %s onto %s, resolve the conflicts, then run \'%s\' again.' => '« %s » a échoué et le repositionnement aussi. Cela est très certainement dû à des conflits. Repositionnez manuellement %s sur %s, résolvez les conflits, puis lancez « %s » à nouveau.',
       'No linters to run.' => 'Aucun analyseur de recommandations (\'\'lint\'\') à exécuter.',
       'Modified' => 'Modifié',
@@ -211,7 +211,7 @@ final class ArcanistCoreFrFR
       '\'%s\' failed. You can abort with \'%s\', or resolve conflicts and use \'%s\' to continue forward. After resolving the rebase, run \'%s\' again.' => '« %s » a échoué. Vous pouvez l’annuler avec « %s », ou résoudre les conflits et utiliser « %s » pour continuer. Après avoir résolu le repositionnement, relancez « %s ».',
       'Unable to upload file: the server refused to accept file "%s". This usually means it is too large.' => 'Impossible de téléverser le fichier : le serveur a refusé d’accepter le fichier « %s ». Cela signifie en général qu’il est trop gros ou qu’il a été bloqué durant son transfert en raison d’un contenu détecté comme malveillant, abusif ou interdit.',
       'The name of a default unit test engine to use, if no unit test engine is specified by the current project.' => 'Le nom d’un moteur de test unitaire par défaut à utiliser, si aucun moteur n’est spécifié par le projet actuel.',
-      'Harbormaster is still building the active diff for this revision:' => 'Harbormaster est encore en train de construire la différence active pour cette version :',
+      'Harbormaster is still building the active diff for this revision:' => 'Harbormaster est toujours en train de construire le diff actif pour cette version :',
       'Failed to parse version from command.' => 'Échec d’analyse de la version dans la commande.',
       'Provide explanation to continue or press Enter to abort.' => 'Fournir l’explication pour continuer ou appuyer sur Entrée pour annuler.',
       'You can review build details here:' => 'Vous pouvez revoir les détails de construction ici :',
@@ -1357,7 +1357,7 @@ final class ArcanistCoreFrFR
       'Error in parsing \'%s\' file.' => 'Erreur dans l\'analyse du fichier \'%s\' .',
       'Trying rules from source \'%s\'.' => 'Essai des règles de la source \'%s\'.',
       'Specify one or more paths or objects to browse. Use the command "%s" if you want to browse this directory.' => 'Spécifier au moins un chemin ou objet à afficher. Utiliser la commande « %s » si vous voulez naviguer dans ce répertoire.',
-      'After creating a diff or revision, open it in a web browser.' => 'Après avoir créé une différence ou une révision, l’ouvrir dans un navigateur web.',
+      'After creating a diff or revision, open it in a web browser.' => 'Après avoir créé un diff ou une révision, ouvrez-le dans un navigateur web.',
       'Only show tasks that are not assigned (upforgrabs).' => 'Afficher uniquement les tâches qui ne sont pas affectées (upforgrabs).',
       'Automatic merge by \'%s\'' => 'Fusion automatique par \'%s\'',
       'Do you want to amend these %s change(s) to the current commit?' => array(
@@ -1423,7 +1423,7 @@ final class ArcanistCoreFrFR
       'Python PyFlakes' => 'PyFlakes Python',
       'The %s strategy does not update the feature branch.' => 'La stratégie %s ne met pas à jour la branche de fonctionnalité.',
       'it is the merge-base of \'%s\' and HEAD, as specified by \'%s\' in your %s \'base\' configuration.' => 'c’est la base de fusion entre \'%s\' et HEAD, comme spécifié par \'%s\' dans votre configuration \'base\' %s.',
-      'The specified commit range is empty, backward or invalid: the base (%s) is not an ancestor of the head (%s). You can not diff an empty or reversed commit range.' => 'La plage de validation spécifiée est vide, antérieure ou non valide : la base (%s) n’est pas un ancêtre de la tête (%s). Vous ne pouvez pas faire une différence d’une plage de validation vide ou inversée.',
+      'The specified commit range is empty, backward or invalid: the base (%s) is not an ancestor of the head (%s). You can not diff an empty or reversed commit range.' => 'La plage de validation spécifiée est vide, antérieure ou non valide : la base (%s) n’est pas un ancêtre de la tête (%s). Vous ne pouvez pas faire un diff d’une plage de validation vide ou inversée.',
       'Only run lint and unit tests. Intended for internal use.' => 'Lancer seulement lint et les tests unitaires. Prévu pour une utilisation interne.',
       'You are running an old version of %s. Please upgrade to version %s.' => 'Vous exécutez une ancienne version de %s. Veuillez mettre à jour vers la version %s.',
       'Since there are no revisions in Differential which match this working copy, a new revision will be **created** if you run \'%s\'.
@@ -1463,7 +1463,7 @@ final class ArcanistCoreFrFR
       'Unexpected tokens whilst processing `%s`.' => 'Jetons inattendus lors du traitement `%s`.',
       'Keyword Conventions' => 'Conventions de mot-clé',
       'Expected vs Actual Output Diff
-    %s' => 'Différence entre la sortie attendue et l\'effective
+    %s' => 'Diff de sortie Attendu contre Actuel
     %s',
       'Use of Echo Tag `%s`' => 'Utilisation de la balise écho `%s`',
       'Listening' => 'Écoute',
@@ -1538,7 +1538,7 @@ final class ArcanistCoreFrFR
       'Never apply patches suggested by lint.' => 'Ne jamais appliquer les patchs suggérés par Lint.',
       'Current Source' => 'Source actuelle',
       '`%s` Statement Namespace Prefix' => 'Préfixe d’espace de noms de la déclaration `%s`',
-      'Apply changes from a Differential diff. Normally you want to use %s to get the most recent changes, but you can specifically apply an out-of-date diff or a diff which was never attached to a revision by using this flag.' => 'Appliquer les modifications depuis une différence de Différentiel. Normalement, vous voudrez utiliser %s pour obtenir les modifications les plus récentes, mais vous pouvez appliquer spécifiquement un diff obsolète ou un diff qui n’a jamais été attaché à une révision, en utilisant ce drapeau.',
+      'Apply changes from a Differential diff. Normally you want to use %s to get the most recent changes, but you can specifically apply an out-of-date diff or a diff which was never attached to a revision by using this flag.' => 'Appliquer les modifications depuis un diff de Différentiel. Normalement, vous voudrez utiliser %s pour obtenir les modifications les plus récentes, mais vous pouvez appliquer spécifiquement un diff obsolète ou un diff qui n’a jamais été attaché à une révision, en utilisant cet indicateur.',
       'this is a new repository (all changes are outgoing).' => 'c’est un nouveau dépôt (toutes les modifications sont en partance).',
       'DONE' => 'TERMINÉ',
       'You\'re covered, your changes didn\'t touch anyone else\'s code.

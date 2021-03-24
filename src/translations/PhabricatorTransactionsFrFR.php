@@ -73,6 +73,12 @@ final class PhabricatorTransactionsFrFR
       'Mark Form' => 'Marquer le formulaire',
       'EditEngine ("%s") contains an invalid key character "/".' => 'EditEngine ("%s") contient un caractère de clé «&nbsp;/&nbsp;» invalide.',
       'Change Default Values' => 'Modifier les valeurs par défaut',
+      '%s added %s watcher(s) for %s: %s.' => array(
+        array(
+          '%s a ajouté %s observateur pour %s : %s.',
+          '%s a ajouté %s observateurs pour %s : %s.',
+        ),
+      ),
       'No default edit engine configuration for bulk edit.' => 'Il n\'existe pas de configuration par défaut du moteur de modification pour les éditions en masse.',
       'After running this command, reload this page to see the new setting.' => 'Après avoir exécuté cette commande, veuillez recharger cette page pour voir les nouveaux paramètres.',
       'Save Defaults' => 'Sauver les valeurs par défaut',
@@ -124,6 +130,7 @@ final class PhabricatorTransactionsFrFR
       'EMAIL PREFERENCES' => 'PRÉFÉRENCES DE COURRIEL',
       '%s edited this object (transaction type "%s").' => '%s a modifié cet objet (type de transaction « %s »).',
       'Mark as "Edit" Form' => 'Marquer comme formulaire de « Modification »',
+      '%s edited watcher(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs observateurs pour %s, ajouté %s : %s; supprimé %s : %s.',
       'You do not have permission to configure forms for this application.' => 'Vous n\'avez pas l\'autorisation de configurer les formulaires pour cette application.',
       'Configure bulk job __id__ to run silently (without sending mail or publishing notifications).' => 'Configurer la tâche de travail en masse __id__ pour qu\'elle s\'exécute en silence (sans envoyer de courriel ni publier de notification).',
       'Make Editable' => 'Rendre modifiable',
@@ -132,6 +139,12 @@ final class PhabricatorTransactionsFrFR
       'Duplicate Form' => 'Dupliquer le formulaire',
       '%s added %d subscriber(s): %s.' => '%s a ajouté %s abonné(s): %s.',
       '%s created this object in space %s.' => '%s a créé cet objet dans l’espace %s.',
+      '%s removed %s watcher(s) for %s: %s.' => array(
+        array(
+          '%s a retiré %s observateur pour %s : %s.',
+          '%s a retiré %s observateurs pour %s : %s.',
+        ),
+      ),
       '%s moved %s from %s to %s on the %s board.' => '%s a déplacé %s de %s vers %s sur le tableau %s.',
       'Show Only Create Forms' => 'Montrer uniquement les formulaires de création',
       'You can not interact with this object because it is locked.' => 'Vous ne pouvez pas agir sur cet objet car il est vérouillé.',
@@ -199,6 +212,12 @@ final class PhabricatorTransactionsFrFR
       'Use "--id" to choose a bulk job to make silent.' => 'Utiliser « --id » pour choisir une tâche de masse à rendre silencieuse.',
       'Change Form Subtype' => 'Modifier le sous-type de formulaire',
       '%s added %s contributor(s): %s.' => '%s a ajouté %s contributeur(s): %s .',
+      '%s removed %s watcher(s): %s.' => array(
+        array(
+          '%s a retiré %s observateur : %s.',
+          '%s a retiré %s observateurs : %s.',
+        ),
+      ),
       '%s created this object with edit policy "%s".' => '%s a créé cette objet avec les autorisations de modification « %s ».',
       'Unable to load bulk job with ID "%s".' => 'Impossible de charger la tâche de travail en masse avec l\'ID « %s ».',
       '%s added %s watcher(s): %s.' => '%s a ajouté %s observateur(s): %s.',
@@ -242,6 +261,7 @@ final class PhabricatorTransactionsFrFR
       'Custom field transaction has invalid \'%s\'; field \'%s\' is disabled or does not exist.' => '\'%s\' est invalide pour la transaction de champs utilisateur; le champ \'%s\' est désactivé ou n\'existe pas.',
       '%s Action(s) Have No Effect' => '%s action(s) sont sans effet',
       'None of the fields on this object support templating.' => 'Aucun des champs de cet objet ne peut être représenté par un modèle.',
+      '%s edited watcher(s), added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs observateurs, ajouté %s : %s ; supprimé %s : %s.',
       'Query "%s" is not a recognized query for class "%s".' => 'Query « %s » n\'est pas une requête reconnue pour la classe « %s ».',
       'Constraint "phids" to "transaction.search" requires nonempty list, empty list provided.' => 'La contrainte « phids » sur « transaction.search » demande une liste non vide, et une liste vide a été fournie.',
       'If you start work now, this edit will send mail and publish notifications normally.' => 'Si vous commencez le travail maintenant, ces modifications enverront les courriels et publieront les notifications normalement.',

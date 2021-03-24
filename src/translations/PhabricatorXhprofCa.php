@@ -12,11 +12,11 @@ final class PhabricatorXhprofCa
       'XHProf Samples' => 'Mostrejos XHProf',
       'Sampled (1/%d)' => 'Mostrejat (1/%s)',
       'All Samples' => 'Tots els mostrejos',
-      'Parent Calls' => 'Trucades de Pare',
+      'Parent Calls' => 'Trucades pare',
       'Wall Time (Inclusive)' => 'Temps Transcorregut (Inclusiu)',
       'Symbol' => 'Símbol',
       'Wall Time (Exclusive)' => 'Temps Transcorregut (Exclusiu)',
-      'Total wall time spent in this function and all of its children (children are other functions it called while executing).' => 'Temps total de temps dedicat en aquesta funció i tots els seus fills (els fills són altres funcions que va trucar mentre executava).',
+      'Total wall time spent in this function and all of its children (children are other functions it called while executing).' => 'Total de temps dedicat en aquesta funció i tots els seus fills (els fills són altres funcions que han trucat mentre s\'executava).',
       '%s μs' => '%s μs',
       'Unnamed Sample' => 'Mostreig Sense Nom',
       '%s Profile' => 'Perfil %s',
@@ -30,7 +30,7 @@ final class PhabricatorXhprofCa
       'Drop .xhprof Files to Import' => 'Deixa anar arxius .xhprof per importar-los',
       'Wall Time' => 'Temps Transcorregut',
       'Download %s Profile' => 'Descàrrega el Perfil %s',
-      'Child Calls' => 'Trucades de Fills',
+      'Child Calls' => 'Trucades de fills',
     );
   }
 

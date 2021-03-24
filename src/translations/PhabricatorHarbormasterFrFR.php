@@ -447,7 +447,7 @@ final class PhabricatorHarbormasterFrFR
       'Data Hash' => 'Valeur de hachage des données',
       'Automatic Buildable' => 'Constructible automatique',
       'Lines' => 'Lignes',
-      'The specified buildable does not have a build with ID "%s".' => 'Le buildable spécifié n\'a pas de build avec l\'ID «&nbsp;%s&nbsp;».',
+      'The specified buildable does not have a build with ID "%s".' => 'Le constructible spécifié n’a pas de build avec l’ID « %s ».',
       'Find out information about builds.' => 'Découvrez des informations sur les builds.',
       'You only have permission to pause some builds. Once the current steps complete, work will halt on builds you have permission to pause. You can resume the builds later.' => 'Vous n\'êtes autorisé qu\'à suspendre certaines compilations. Une fois les étapes en cours terminées, le travail s\'arrêtera sur les builds que vous êtes autorisé à mettre en pause. Vous pouvez reprendre les builds plus tard.',
       'You do not have permission to abort any builds.' => 'You do not have permission to abort any builds.',

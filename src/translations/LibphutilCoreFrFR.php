@@ -46,7 +46,7 @@ final class LibphutilCoreFrFR
       'ERROR' => 'ERREUR',
       'Failed to create a temporary directory: the disk is full.' => 'Échec de création d’un répertoire temporaire : le disque est plein.',
       'Signal handler with key "%s" is already installed.' => 'Le gestionnaire de signal avec la clé « %s » est déjà installé.',
-      'Summary diff with last change.' => 'Résumé de la différence avec la dernière modification.',
+      'Summary diff with last change.' => 'Résumé du diff avec la dernière modification.',
       'PM' => 'PM',
       'Conversion from ISO-8859-1.' => 'Conversion depuis ISO-8859-1.',
       'Expect "syntax error" in stderr or "%s".' => '« Erreur de syntaxe » attendu dans stderr ou « %s ».',

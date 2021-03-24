@@ -41,7 +41,7 @@ final class PhabricatorFeedCa
       'Unsupported view type, possibles are: %s' => 'Tipus de vista no admès, els possibles són: %s',
       'Object Types' => 'Tipus d\'Objecte',
       'Transaction Logs' => 'Registres de transaccions',
-      'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.' => 'S\'està intentant recuperar la clau de camp de marcatge "%s", però aquesta història de continguts no ha demanat que es renderitzi.',
+      'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.' => 'S\'està intentant rescatar la clau de camp de marcatge "%s", però aquesta història de continguts no ha demanat que es renderitzi.',
       'Feed Stories' => 'Històries del Canal de Continguts',
       'Unknown rendering target: %s' => 'Objectiu de renderització desconegut: %s',
       'Include stories about projects I am a member of.' => 'Inclou històries sobre projectes dels quals sóc membre.',

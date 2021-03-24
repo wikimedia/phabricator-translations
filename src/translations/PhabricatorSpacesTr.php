@@ -52,7 +52,7 @@ final class PhabricatorSpacesTr
       '%s created this space.' => '%s bu alanı oluşturdu.',
       'Space %s: %s' => 'Alan %s: %s',
       'No Access to Spaces' => 'Alanlara Erişim Yok',
-      '%s renamed this space from %s to %s.' => '%s, bu alanı %s ile %s yeniden adlandırdı.',
+      '%s renamed this space from %s to %s.' => '%s, bu alanı %s iken %s olarak yeniden adlandırdı.',
       'No spaces found.' => 'Alan bulunamadı.',
       'This install uses spaces to organize objects, but logged out users do not have access to any spaces.' => 'Bu yükleme, nesneleri düzenlemek için boşluk kullanır, ancak oturumu kapatmış kullanıcılar herhangi bir alana erişemez.',
       'Edit Space' => 'Alanı Düzenle',

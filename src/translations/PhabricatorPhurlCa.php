@@ -30,7 +30,7 @@ final class PhabricatorPhurlCa
       'Phurls must have a name.' => 'Els Phurls han de tenir un nom.',
       'Shorten your favorite URL.' => 'Escurceu el vostre URL preferit.',
       'No URLs found.' => 'No s\'ha trobat cap URL.',
-      'URL path is required' => 'El camí URL és obligatori',
+      'URL path is required' => 'La ruta URL és obligatoria',
       '%s changed the name of %s from %s to %s.' => '%s ha reanomenat %s de %s a %s.',
       'Read information about Phurl URLS.' => 'Llegiu informació sobre els URL de Phurl.',
       'Edit URL: %s' => 'Edita l\'URL: %s',

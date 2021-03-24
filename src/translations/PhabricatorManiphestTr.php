@@ -332,7 +332,7 @@ final class PhabricatorManiphestTr
       'Save Related Mocks' => 'İlgili Sahteleri Kaydet',
       'Wontfix' => 'Wontfix',
       'List of task PHIDs, as array.' => 'Dizi olarak görev PHID\'lerinin listesi.',
-      '%s renamed this task from %s to %s.' => '%s, bu görevi %s ile %s yeniden adlandırdı.',
+      '%s renamed this task from %s to %s.' => '%s, bu görevi %s iken %s olarak yeniden adlandırdı.',
       'Updated After' => 'Sonrasında Güncelleme',
       '%s removed %s revision(s): %s.' => '%s, %s revizyon kaldırdı: %s.',
       'To change the status of a task, specify the desired status, like `%s`. This table shows the configured names for statuses.

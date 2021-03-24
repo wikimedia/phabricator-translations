@@ -23,6 +23,7 @@ final class PhabricatorSubscriptionsTr
       'You are automatically subscribed to this object.' => 'Bu nesneye otomatik olarak abone oldunuz.',
       'Add subscribers' => 'Abone ekle',
       'Remove yourself as a subscriber.' => 'Bir abone olarak kendinizi kaldırın.',
+      'View All %d Subscriber(s)' => 'Tüm %s Üyeyi Gör',
       'Search for objects with certain subscribers.' => 'Belirli aboneleri olan nesneleri arayın.',
       'Subscribers can take this action.' => 'Aboneler bu işlemi yapabilir.',
       'Unmute' => 'Sesi aç',

@@ -32,7 +32,7 @@ final class PhabricatorMacroTr
       'Configure creation and editing of Macro images.' => 'Makro görüntülerin oluşturulmasını ve düzenlenmesini yapılandırın.',
       'Created on %s' => '%s Tarihinde Oluşturuldu',
       'Can Manage Macros' => 'Makroları Yönetebilir',
-      '%s renamed this macro from %s to %s.' => '%s, bu makrosu %s ile %s yeniden adlandırdı.',
+      '%s renamed this macro from %s to %s.' => '%s, bu makroyu %s iken %s olarak yeniden adlandırdı.',
       '%s set the audio for %s to play once.' => '%s, sesi %s olarak bir kez çalacak şekilde ayarladı.',
       'Edit Audio: %s' => 'Ses Düzenle: %s',
       'New macro name.' => 'Yeni makro adı.',

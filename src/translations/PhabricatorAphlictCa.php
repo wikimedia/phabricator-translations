@@ -45,7 +45,7 @@ final class PhabricatorAphlictCa
       'Aphlict Server (%s) exited normally.' => 'Servidor d\'Aphlict (%s) ha sortit normalment.',
       'Reading configuration from: %s' => 'S\'està llegint la configuració des de: %s',
       'Unable to start notifications server because it is already running. Use `%s` to restart it.' => 'No s\'ha pogut iniciar el servidor de notificacions perquè ja s\'està executant. Utilitzeu `%s` per reiniciar-lo.',
-      'Specify a message to send with "--message".' => 'Especifiqueu un missatge per enviar amb «--message».',
+      'Specify a message to send with "--message".' => 'Especifiqueu un missatge per enviar amb "--message".',
       'Sent notification.' => 'Notificació enviada.',
       'Use a specific configuration file instead of the default configuration.' => 'Utilitza un fitxer de configuració específic en lloc de la configuració per defecte.',
       'Configuration file specifies cluster peer ("%s", at index "%s") with an invalid protocol, "%s". Valid protocols are "%s" or "%s".' => 'L\'arxiu de configuració especifica el parell de clústers ("%s", a l\'índex "%s") amb un protocol no vàlid, "%s".  Els protocols vàlids són «%s» o «%s».',

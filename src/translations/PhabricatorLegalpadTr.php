@@ -37,7 +37,7 @@ final class PhabricatorLegalpadTr
       'Interacting with Legalpad Documents' => 'Legalpad Belgeleriyle Etkileşim',
       '%s updated the document text.' => '%s belge metnini güncelledi.',
       'Signed on %s' => '%s Tarihinde İmzalandı',
-      '%s renamed this document from %s to %s.' => '%s, bu belgeyi %s ile %s yeniden adlandırdı.',
+      '%s renamed this document from %s to %s.' => '%s, bu belgeyi %s iken %s olarak yeniden adlandırdı.',
       'The body of text of the document.' => 'Belgenin metninin gövdesi.',
       'Not Signed' => 'İmzalanmamış',
       '%s document(s) are already signed: %s.' => '%s belgesi zaten imzalandı: %s.',

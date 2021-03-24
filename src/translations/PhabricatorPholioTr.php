@@ -66,7 +66,7 @@ final class PhabricatorPholioTr
       'Mock History' => 'Sahte Geçmişi',
       'Email Commands: Mocks' => 'E-posta Komutları: Sahteler',
       'No image exists with PHID "%s".' => 'PHID "%s" ile hiçbir resim yok.',
-      '%s renamed an image (%s) from %s to %s.' => '%s, %3$s ile %4$s arası bir görüntüyü (%2$s) yeniden adlandırdı.',
+      '%s renamed an image (%s) from %s to %s.' => '%s, bir görüntüyü (%s) %s iken %s olarak yeniden adlandırdı.',
       '%s updated an image\'s (%s) sequence.' => '%s, bir resmin (%s) sırasını güncelledi.',
       '%s updated image sequence of %s.' => '%s, %s görüntü dizisini güncelledi.',
       '%s added inline comment(s).' => '%s satır içi yorum ekledi.',

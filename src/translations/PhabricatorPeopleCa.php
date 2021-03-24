@@ -34,9 +34,9 @@ final class PhabricatorPeopleCa
     After you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.
     Best Wishes,
     Phabricator
-    ' => 'Condolences per oblidar la seva contrasenya. Podeu utilitzar aquest enllaç per restablir-lo: 
+    ' => 'Condolències per oblidar la seva contrasenya. Podeu utilitzar aquest enllaç per restablir-la: 
       %s 
-    Després d\'establir una nova contrasenya, considereu escriure-la en una nota adhesiva i adjuntar-la al vostre monitor perquè no ho oblideu de nou!  Triar una contrasenya molt curta i fàcil de recordar com "cat" o "1234" també podria ajudar. 
+    Després d\'establir una nova contrasenya, considereu escriure-la en una nota adhesiva i adjuntar-la al vostre monitor perquè no ho oblideu de nou!  Trieu una contrasenya molt curta i fàcil de recordar com "cat" o "1234" també podria ajudar. 
     Els millors desitjos. 
     Phabricator',
       'Obsoleted by "%s".' => 'Obsolet per «%s».',
@@ -45,7 +45,7 @@ final class PhabricatorPeopleCa
       'User has not been awarded any badges.' => 'L\'usuari no ha rebut cap insígnia.',
       'Invite Users' => 'Convidar Usuaris',
       'Revise Invites' => 'Reviseu les invitacions',
-      'Type a log type name...' => 'Escriviu un nom de tipus de registre ...',
+      'Type a log type name...' => 'Tecleja un nom de tipus de registre ...',
       'Sort of a social utility.' => 'Una mena d’utilitat social.',
       '[Phabricator] Email Verification' => '[Phabricator] Verificació per correu electrònic',
       'Send Invitations' => 'Enviar Invitacions',
@@ -117,7 +117,7 @@ final class PhabricatorPeopleCa
       'Not a Normal User' => 'No és un usuari normal',
       'Search for actions by remote address.' => 'Cerqueu accions per adreça remota.',
       'Select results with any owner.' => 'Seleccioneu els resultats amb qualsevol propietari.',
-      'Roles' => 'Funcions',
+      'Roles' => 'Rols',
       'Hide Users With MFA' => 'Oculta els usuaris amb MFA',
       'User Picture' => 'Imatge de l\'usuari',
       'Choose User Icon' => 'Trieu la icona d\'usuari',
@@ -222,7 +222,7 @@ final class PhabricatorPeopleCa
       'User has no primary email address!' => 'L\'usuari no té cap adreça de correu electrònic principal.',
       'Empower %s as an administrator? They will be able to create users, approve users, make and remove administrators, delete accounts, and perform other administrative functions on this Phabricator install.' => 'Voleu habilitar %s com a administrador? Podran crear usuaris, aprovar-los, crear i eliminar administradors, suprimir comptes i realitzar altres funcions administratives en aquesta instal·lació de Phabricator.',
       '%s renamed this user from %s to %s.' => '%s ha reanomenat aquest usuari de "%s" a "%s".',
-      'Choose the type of user account to create. For a detailed explanation of user account types, see [[ %s | User Guide: Account Roles ]].' => 'Seleccioneu el tipus de compte d\'usuari que voleu crear. Per obtenir una explicació detallada dels tipus de comptes d\'usuari, consulteu [[%s | Guia de l\'usuari: funcions del compte]].',
+      'Choose the type of user account to create. For a detailed explanation of user account types, see [[ %s | User Guide: Account Roles ]].' => 'Seleccioneu el tipus de compte d\'usuari que voleu crear. Per obtenir una explicació detallada dels tipus de comptes d\'usuari, consulteu [[%s | Guia de l\'usuari: rols del compte]].',
       'Approve the user.' => 'Aprovar l\'usuari.',
       'Another user already has the username "%s".' => 'Un altre usuari ja té el nom d\'usuari \'%s\'.',
       'Recent Revisions' => 'Revisions recents',
@@ -251,9 +251,9 @@ final class PhabricatorPeopleCa
       'Search for activity by specific users.' => 'Cerqueu activitat per usuaris específics.',
       'Remove Administrator' => 'Eliminar l\'administrador',
       'You are creating a new **mailing list** user account.' => 'Esteu creant un nou compte d\'usuari de **llista de correu**.',
-      'Permanently disable specified users (admin only).' => 'Desactiveu permanentment els usuaris especificats (només administradors).',
+      'Permanently disable specified users (admin only).' => 'Desactiva permanentment els usuaris especificats (només administradors).',
       'Create a standard user account. These users can log in to Phabricator, use the web interface and API, and receive email.' => 'Creeu un compte d\'usuari estàndard. Aquests usuaris poden iniciar sessió a Phabricator, utilitzar la interfície web i l\'API i rebre correu electrònic.',
-      'If you rename this user, the old username will no longer be tied to the user account. Anything which uses the old username in raw text (like old commit messages) may no longer associate correctly.' => 'Si canvieu el nom d\'aquest usuari, el nom d\'usuari antic ja no estarà vinculat al compte d\'usuari. Qualsevol cosa que faci servir el nom d\'usuari antic en text raw (com els missatges de validació antics) potser ja no s\'associa correctament.',
+      'If you rename this user, the old username will no longer be tied to the user account. Anything which uses the old username in raw text (like old commit messages) may no longer associate correctly.' => 'Si canvieu el nom d\'aquest usuari, el nom d\'usuari antic ja no estarà vinculat al compte d\'usuari. Qualsevol cosa que faci servir el nom d\'usuari antic en text a pèl (com els missatges de validació antics) potser ja no s\'associa correctament.',
       'Activity Log %d' => 'Registre d\'activitats %s',
       'Make Administrator?' => 'Crear un administrador?',
       'Hide Administrators' => 'Oculta els administradors',
@@ -261,13 +261,13 @@ final class PhabricatorPeopleCa
       'You must be an administrator to rename users.' => 'Heu de ser administrador per canviar el nom dels usuaris.',
       'Select and reorder user profile fields.' => 'Seleccioneu i torneu a ordenar els camps del perfil d\'usuari.',
       'Empowered user account "%s".' => 'Compte d\'usuari empoderat «%s».',
-      'Type a username...' => 'Escriu un nom d\'usuari...',
+      'Type a username...' => 'Tecleja un nom d\'usuari...',
       'Send Welcome Email' => 'Envia un correu electrònic de benvinguda',
       'Search for activity in particular sessions.' => 'Cerqueu activitats en sessions concretes.',
       'Find results which are assigned to anyone.' => 'Cerqueu resultats assignats a qualsevol persona.',
       'Primary email addresses can not be reassigned.' => 'Les adreces de correu electrònic principals no es poden reassignar.',
       'Old Username: %s' => 'Nom d\'usuari antic: %s',
-      'Edit Settings' => 'Edita la configuració',
+      'Edit Settings' => 'Editar els paràmetres',
       'User Administration' => 'Administració d’usuaris',
       'Create Standard User' => 'Crea un Usuari Estàndard',
       '[Phabricator] Welcome to Phabricator' => '[Phabricator] Benvingut a Phabricator',
@@ -317,7 +317,7 @@ final class PhabricatorPeopleCa
       - If you send email //to// Phabricator on behalf of the     account, the address can identify the sender.
       - Some internal authentication functions depend on accounts     having an email address.
     The address will automatically be verified, so you do not need to be able to receive mail at this address, and can enter some invalid or nonexistent (but correctly formatted) address like `bot@yourcompany.com` if you prefer.' => '**Per què els comptes de bot necessiten una adreça de correu electrònic?** 
-    Encara que els robots normalment no reben correu electrònic de Phabricator, poden interactuar amb altres sistemes que requereixen una adreça de correu electrònic.  Els exemples inclouen: 
+    Encara que els robots normalment no reben correu electrònic de Phabricator, poden interactuar amb altres sistemes que requereixen una adreça de correu electrònic. Els exemples inclouen: 
       - Si el compte pren accions que //send/// e-mail, necessitem una adreça a utilitzar a la capçalera //De///. 
       - Si el compte crea validacions, Git i Mercurial requereixen una adreça de correu electrònic per a l\'autoria. 
       - Si envieu un correu electrònic //to/// Phabricator en nom del compte, l\'adreça pot identificar el remitent. 
@@ -325,7 +325,7 @@ final class PhabricatorPeopleCa
     L\'adreça es verificarà automàticament, de manera que no necessiteu rebre correu en aquesta adreça, i podeu introduir alguna adreça no vàlida o inexistent (però amb un format correcte) com `bot@yourcompany.com` si ho preferiu.',
       'Approval Queue' => 'Cua d\'aprovació',
       'Spy' => 'Espia',
-      'List of account roles.' => 'Llista de funcions del compte.',
+      'List of account roles.' => 'Llista de rols del compte.',
       'Mailing List' => 'Llista de correu',
       'Administrators can always view all activity.' => 'Els administradors sempre poden veure tota l\'activitat.',
       'Only you can edit your information.' => 'Només tu pots editar la teva informació.',
@@ -333,20 +333,20 @@ final class PhabricatorPeopleCa
       'Edit Profile' => 'Edita el Perfil',
       'Show Only Mailing Lists' => 'Mostra només les llistes de correu',
       'Verified email addresses can not be reassigned.' => 'Les adreces de correu electrònic verificades no es poden reassignar.',
-      'Browse Owners' => 'Navegar pels propietaris',
+      'Browse Owners' => 'Explorar pels que tenen propietari',
       'Enable a disabled user account.' => 'Activeu un compte d\'usuari desactivat.',
       'User is Disabled' => 'L\'usuari està desactivat',
       'Shows when a user is away or busy.' => 'L\'usuari està desactivat',
       'Send "Welcome to Phabricator" email with login instructions.' => 'Envieu un correu electrònic de \'Benvingut a Phabricator\' amb instruccions d\'inici de sessió.',
-      'Select a user account to act on with "--user <username>".' => 'Seleccioneu un compte d\'usuari per actuar amb "--user nom d\'usuari".',
+      'Select a user account to act on with "--user <username>".' => 'Seleccioneu un compte d\'usuari per actuar amb "--user <nom d\'usuari>".',
       'Hi %s' => 'Hola %s',
-      'Retrieve information about the logged-in user.' => 'Recupereu informació sobre l\'usuari que ha iniciat la sessió.',
+      'Retrieve information about the logged-in user.' => 'Rescata informació sobre l\'usuari que ha iniciat la sessió.',
       'Search for particular types of activity.' => 'Cerqueu tipus d\'activitat concrets.',
       'Log Out %s' => 'Tanca la sessió %s',
       'Disable %s? They will no longer be able to access Phabricator or receive email.' => 'Voleu desactivar %s? Ja no podran accedir a Phabricator ni rebre correus electrònics.',
       'This workflow will send this user ("%s") a copy of the "Welcome to Phabricator" email that users normally receive when their accounts are created by an administrator.' => 'Aquest flux de treball enviarà a aquest usuari ("%s") una còpia del correu electrònic "Benvingut a Phabricator" que normalment reben els usuaris quan els administradors creen els seus comptes.',
       'Configure creation and editing forms for users.' => 'Configureu els formularis de creació i edició per als usuaris.',
-      'Re-enable specified users (admin only).' => 'Torneu a habilitar els usuaris especificats (només administrador).',
+      'Re-enable specified users (admin only).' => 'Torna a habilitar els usuaris especificats (només administrador).',
       '    Username: %s' => '    Nom d\'usuari: %s',
       'Email Invitations' => 'Invitacions de correu electrònic',
       'Create New Mailing List' => 'Crea una nova llista de correu',
@@ -382,7 +382,7 @@ final class PhabricatorPeopleCa
       'Unapproved' => 'Sense aprovar',
       'Browse No Owner' => 'Explorar pels que no tenen propietari',
       'New Username' => 'Nom d\'usuari nou',
-      'User PHID' => 'Usuari PHID',
+      'User PHID' => 'PHID d\'usuari',
       'External accounts can only be edited by the account owner.' => 'El propietari del compte només pot editar els comptes externs.',
       'The "Has MFA" query constraint may only be used by administrators, to prevent attackers from using it to target weak accounts.' => 'La restricció de consulta \'Té MFA\' només pot ser utilitzada pels administradors per evitar que els atacants l\'utilitzin per dirigir-se a comptes dèbils.',
       'Actor PHID' => 'PHID d\'actor',

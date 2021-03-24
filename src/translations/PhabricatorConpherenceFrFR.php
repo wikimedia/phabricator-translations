@@ -110,7 +110,7 @@ final class PhabricatorConpherenceFrFR
       'Last updated %s' => 'Dernière mise à jour le %s',
       'Are you sure you want to leave this room?' => 'Êtes-vous sûr de vouloir quitter cette pièce ?',
       'Participants' => 'Participants',
-      'Welcome to Conpherence' => 'Bienvenue à Conpherence',
+      'Welcome to Conpherence' => 'Bienvenue sur Conpherence',
       'Notification settings are available after joining the room.' => 'Les paramètres de notification sont disponibles après avoir rejoint la pièce.',
       '%s removed the room topic.' => '%s a supprimé le sujet de la pièce.',
       'Minimize Window' => 'Minimiser la fenêtre',

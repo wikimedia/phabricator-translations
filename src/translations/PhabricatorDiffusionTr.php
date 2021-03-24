@@ -450,7 +450,7 @@ final class PhabricatorDiffusionTr
       'Determine if code exists in a version control system.' => 'Kodun bir sürüm kontrol sisteminde olup olmadığını belirleyin.',
       'Port for SSH connections to repositories.' => 'Depolara SSH bağlantıları için bağlantı noktası.',
       'Track only these branches.' => 'Yalnızca bu dalları izleyin.',
-      'Failed to load the commit because the commit has not been parsed yet.' => 'Taahhüt henüz ayrıştırılmadığından taahhüt yüklenemedi.',
+      'Failed to load the commit because the commit has not been parsed yet.' => 'İşleme henüz ayrıştırılmadığı için işleme yüklenemedi.',
       'Ref name' => 'Referans adı',
       'Update Now' => 'Şimdi Güncelle',
       'Raw Committer' => 'Ham Taahhütçü',
