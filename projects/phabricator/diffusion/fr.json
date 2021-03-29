@@ -6,6 +6,7 @@
 			"Thibaut120094",
 			"Tpt",
 			"Urhixidur",
+			"Verdy p",
 			"Wladek92",
 			"Zarisi"
 		]
@@ -339,7 +340,7 @@
 	"5e9cd577b07d3c55": "La référence « $1 » est ambigüe sur ce dépôt.",
 	"5ea60dff557e4b4a": "Phabricator supporte Git LFS, une extension Git pour ranger de gros fichiers dans un dépôt. Activez ce paramètre pour autoriser l'extension à enregistrer les données du fichier dans Phabricator.",
 	"5ec47b122c2dbaf1": "Vous ne pouvez pas définir à la fois un nom et un préfixe de nom!",
-	"5edaddc6df780b7b": "Lire / Ecrire",
+	"5edaddc6df780b7b": "Lecture / écriture",
 	"602153770746e333": "Impossible de trouver `$1` dans $2!",
 	"60cacf839cfc3327": "Aucun mot de passe défini",
 	"610610617469188c": "$1 n'est pas défini dans les variables d'environnement!",

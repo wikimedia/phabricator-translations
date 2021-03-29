@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"13d815bd29a02c64": "Dinleyici Sınıfı",
@@ -27,6 +28,7 @@
 	"8f54a634fa1f45c2": "Tüm Tablo",
 	"90cdbe2f76944665": "Yeniden Boya",
 	"93ae9933d16f07fa": "Küçük Tablo Tarama",
+	"985c60dcff79c62e": "Yükleme Rehberi",
 	"9e882bcd588375bd": "Profil Kalıcı Bağlantısı",
 	"a2e6414c7c3da940": "Hata Günlüğü",
 	"a36a5ffa6e0dcfb6": "Kontrolör",

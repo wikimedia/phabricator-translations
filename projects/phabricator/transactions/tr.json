@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Grkn gll",
+			"Joseph",
 			"Stonecy",
 			"Sucsuzz"
 		]
@@ -92,7 +93,7 @@
 	"31e4bc64fde77ae2": "$1 bir anahtarı iptal etti.",
 	"32238dd01732a528": "$1 bir anahtarı aldı.",
 	"337127b568b1195f": "Yeni nesne alt türü anahtarı.",
-	"34b5651e92f14c46": "$1, $2 ile bir yorum yaptı.",
+	"34b5651e92f14c46": "$1, $2 için bir yorum yaptı.",
 	"352d138b13459abb": "$1 kilitli ve gizli alanları değiştirdi.",
 	"355a40ac835c61a3": "$1 Formunu Düzenle: $2",
 	"3567e48aacaec9e3": "Çıkış yolu zaten var. Üzerine yazmak için \"--overwrite\" kullanın.",

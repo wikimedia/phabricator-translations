@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FF-11",
 			"FF11",
 			"Liuxinyu970226",
 			"Pyscowicz",
@@ -205,7 +206,7 @@
 	"204da4690e9f961b": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLandWorkflow.php$420 ArcanistLandWorkflow.php:420]",
 	"2059bc63effe9bee": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistUnnecessarySymbolAliasXHPASTLinterRule.php$34 ArcanistUnnecessarySymbolAliasXHPASTLinterRule.php:34]",
 	"20af414214ffd923": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistWhichWorkflow.php$247 ArcanistWhichWorkflow.php:247]",
-	"20b375076ae499f7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/browse/workflow/ArcanistBrowseWorkflow.php$98 ArcanistBrowseWorkflow.php:98]",
+	"20b375076ae499f7": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/browse/workflow/ArcanistBrowseWorkflow.php$98 ArcanistBrowseWorkflow.php:98]\n\nDon't translate text in quotation marks!",
 	"20b6df488fabd710": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/land/ArcanistGitLandEngine.php$408 ArcanistGitLandEngine.php:408]",
 	"20fecaf3796d0b74": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/xhpast/rules/ArcanistObjectOperatorSpacingXHPASTLinterRule.php$32 ArcanistObjectOperatorSpacingXHPASTLinterRule.php:32]",
 	"2114ab06befadc40": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$316 ArcanistDiffWorkflow.php:316]\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLintWorkflow.php$134 ArcanistLintWorkflow.php:134]",
@@ -822,7 +823,7 @@
 	"8789667b93fe0b61": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/lint/linter/ArcanistPuppetLintLinter.php$51 ArcanistPuppetLintLinter.php:51]",
 	"87a78341116fb63b": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistWorkflow.php$1843 ArcanistWorkflow.php:1843]",
 	"8818b27ae332c193": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLandWorkflow.php$275 ArcanistLandWorkflow.php:275]",
-	"88243163d0b509d4": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistPatchWorkflow.php$755 ArcanistPatchWorkflow.php:755]\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistPatchWorkflow.php$830 ArcanistPatchWorkflow.php:830]",
+	"88243163d0b509d4": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistPatchWorkflow.php$755 ArcanistPatchWorkflow.php:755]\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistPatchWorkflow.php$830 ArcanistPatchWorkflow.php:830]\n\n$1 looks like an action that happens to the patch.",
 	"883e44da0714454b": "Variable Types: NONE.\nUsed in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistDiffWorkflow.php$1731 ArcanistDiffWorkflow.php:1731]",
 	"88430b25d0572a49": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistLiberateWorkflow.php$60 ArcanistLiberateWorkflow.php:60]",
 	"8855ec86efd006b2": "Used in:\n\n[https://secure.phabricator.com/diffusion/ARC/browse/master/src/workflow/ArcanistPasteWorkflow.php$44 ArcanistPasteWorkflow.php:44]",

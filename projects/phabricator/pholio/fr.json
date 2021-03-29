@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Motla",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -12,7 +13,7 @@
 	"0a39b87a239bef85": "Modifier la simulation : $1",
 	"0e81e60d2288e5d0": "Afficher le Mock",
 	"0fc740c29f99e455": "Passer en revue les simulations et la conception",
-	"11c5582d3a7ff1d9": "$1 a ajouté $2 image(s) : $3.",
+	"11c5582d3a7ff1d9": "$1 a ajouté $2 image{{PLURAL:$2||s}} : $3.",
 	"1204bd0d3e25e01c": "Fermer la simulation",
 	"14712ada3745472a": "$1 a fermé la simulation $2.",
 	"1a202f4d7c72b59a": "Changements d’état d’une simulation.",
@@ -75,7 +76,7 @@
 	"c076079459852703": "Image « $1 » :",
 	"c575edb42770983f": "Fermer la simulation de Pholio",
 	"ca74323a8e5e8184": "$1 a mis à jour des images de $2.",
-	"d31c9884cf819408": "$1 a ajouté $2 tâche(s) pour $3 : $4.",
+	"d31c9884cf819408": "$1 a ajouté $2 tâche{{PLURAL:$2||s}} pour $3 : $4.",
 	"d76f149d5db4ae7b": "Vous devez ajouter au moins une image à la simulation.",
 	"d961a5ff4070dbde": "Cette page documente les commandes que vous pouvez utiliser pour interagir avec les simulations dans Pholio.",
 	"dc664603dc430f4c": "Impossible de charger l’image de remplacement (« $1 ») : $2",
