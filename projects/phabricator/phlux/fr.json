@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Motla",
 			"Wladek92",
 			"Zarisi"
 		]
 	},
-	"240e78f1aa62fbef": "Fixer une variable",
+	"240e78f1aa62fbef": "Mettre à jour la variable",
 	"3074a4a63133c645": "La valeur de la variable doit être du JSON valide.",
 	"307d4957be65dd3a": "Lettres minuscules, chiffres, points ou tirets uniquement.",
 	"3d3684e1f79c7996": "Modifier la variable: $1",

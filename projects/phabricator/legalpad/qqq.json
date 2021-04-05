@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pols12"
+			"Pols12",
+			"Verdy p"
 		]
 	},
 	"04337a696f9f2ee4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/storage/LegalpadDocumentSignature.php$105 LegalpadDocumentSignature.php:105]",
@@ -81,7 +82,7 @@
 	"86f737aa18791186": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/xaction/LegalpadDocumentTextTransaction.php$35 LegalpadDocumentTextTransaction.php:35]",
 	"86fc8b6b84d2ff7f": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/edge/LegalpadObjectNeedsSignatureEdgeType.php$60 LegalpadObjectNeedsSignatureEdgeType.php:60]",
 	"8758e045fb8fa31a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/controller/LegalpadDocumentSignController.php$585 LegalpadDocumentSignController.php:585]",
-	"88d349e56cee8ee4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/controller/LegalpadDocumentSignatureAddController.php$123 LegalpadDocumentSignatureAddController.php:123]",
+	"88d349e56cee8ee4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/legalpad/controller/LegalpadDocumentSignatureAddController.php$123 LegalpadDocumentSignatureAddController.php:123]",
 	"88dc1063a4a7714a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/controller/LegalpadDocumentSignController.php$631 LegalpadDocumentSignController.php:631]",
 	"8a42a57da0aaf5c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/controller/LegalpadDocumentSignatureViewController.php$85 LegalpadDocumentSignatureViewController.php:85]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/controller/LegalpadDocumentSignController.php$517 LegalpadDocumentSignController.php:517]",
 	"8a812d80dec51274": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/legalpad/controller/LegalpadDocumentManageController.php$104 LegalpadDocumentManageController.php:104]",

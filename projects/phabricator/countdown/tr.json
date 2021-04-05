@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"048a1e4654f636e4": "GERİ SAYIM DETAYI",
@@ -44,7 +45,7 @@
 	"bae712ef303bd144": "Birisi geri sayım ayrıntılarını değiştirir.",
 	"bcba56274bac5e53": "Yeni geri sayım bitiş tarihi.",
 	"c323c6d4bdbec49a": "Geri sayım adı.",
-	"c50203f296415ec6": "Geri sayımlarla ilgili bilgileri okuyun.",
+	"c50203f296415ec6": "Geri sayımlarla ilgili bilgi edinin.",
 	"c6ba9c4aa8e1937c": "GERİ SAYIM AÇIKLAMASI",
 	"d12eada5524a80a5": "Geri sayım oluşturur ve düzenler.",
 	"d882baa82d789826": "Geri sayımın bitiş tarihi.",

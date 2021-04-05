@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"01bf752be30f20c2": "Müzakerelere Girin",
@@ -26,6 +27,8 @@
 	"3b531959afc81edf": "Seçimleri rastgele sırayla göster.",
 	"3c101893709b6ac4": "$1, $2 açıklamasını ayarlardı.",
 	"4519105ec90bb267": "$1, bu anketin açıklamasını güncelledi.",
+	"4770c6eded685cc6": "Anketler hakkında bilgi edinin.",
+	"4cd896156ea4534b": "Anketin adı.",
 	"4f5b6255f29297ac": "Sonuçları görmek için oy kullanmalısınız.",
 	"509f35a4bc9ce07f": "Anket Düzenlemesi: $1",
 	"51147c523dccc0b3": "$1 bu anketi yeniden açtı.",
@@ -50,6 +53,7 @@
 	"9370fc1d7776a8d3": "Bir şeye oy vermelisin.",
 	"937162668b9c7cd7": "Müzakerelere Girin",
 	"942156e70104ad7a": "Oy Verildi",
+	"958115f04d0c4f41": "Oy verdi",
 	"970a7edd656ec762": "Bir anket hakkında bir dizi bilgi edinin.",
 	"9b098dcb76c14db1": "Yukarıda listelenmemiş diğer anket etkinlikleri gerçekleşmiştir.",
 	"9f3c1bff8dd2c328": "Karar vermeyi kolaylaştırmak için diğer kullanıcıları sorgulayın.",
@@ -72,7 +76,9 @@
 	"dbb696540d7428a4": "Bu ankette yalnızca bir seçeneğe oy verebilirsiniz.",
 	"ea9db4f747b082bc": "Oylama, kardiyovasküler dayanıklılığı arttırır.",
 	"ed88f05084ae3a06": "Bir Şeye Kal",
+	"ee30efffe1b14f59": "Anketin sahibi.",
 	"ef12a36163c48642": "Çoğulculuk (Tek Seçenek)",
+	"efe944848b371737": "\"slowvote.poll.search\" ile değiştirildi.",
 	"f3f94b43fe08990a": "$1 yanıt",
 	"fb6b16eb6b55464e": "Cevapları görmek için oy ver",
 	"fca77d0912a6568b": "Yeni anketler için varsayılan görünüm politikası."

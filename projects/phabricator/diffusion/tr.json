@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"Rapsar",
 			"SaldırganSincap",
 			"ToprakM"
@@ -281,7 +282,7 @@
 	"4ff558d26ebb72c7": "Bu deponun henüz taahhütleri yok.",
 	"501e32d7ed750e41": "Değişiklikler yüklenemedi: $1",
 	"50bdbce6a71caea5": "Tamamlama kancası olayları, yalnızca gönderme zamanında kullanılabilen ve test modunda çalıştırılamayan depo durumuna bağlıdır.",
-	"50c00efdc90328ad": "Depolar hakkındaki bilgileri okuyun.",
+	"50c00efdc90328ad": "Depolar hakkında bilgi edinin.",
 	"50c812bd1f1d97ce": "Denetim Kullanıcı Kılavuzu",
 	"50c8e82e28374b14": "Bu depo hala içe aktarılıyor. Geçmiş henüz mevcut değil.",
 	"50d96d815626e50e": "Cihaz Sürümünden",

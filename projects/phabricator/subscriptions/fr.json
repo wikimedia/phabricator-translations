@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Motla",
 			"Verdy p",
 			"Werewindle",
 			"Wladek92"
@@ -38,7 +39,7 @@
 	"9d08f560501d0de6": "Ajoutez moi en tant qu’abonné",
 	"a64875128ddb2808": "Taire les notifications",
 	"a8c6d7d08f2aa62d": "$1 cible(s) automatiquement abonnée(s)  n’ont pas été affectées : $2.",
-	"aef6e3c8b122d7aa": "Fixer les abonnés à",
+	"aef6e3c8b122d7aa": "Définir les abonnés à",
 	"b158357ebef346cb": "Choisir les abonnés.",
 	"b3af2cf1979c794a": "$1, $2, $3 et $4",
 	"bcf96ffc6ca2318b": "Désabonné précédemment",

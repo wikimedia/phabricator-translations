@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"04259816ace1ebe5": "Takma ad",
@@ -27,7 +28,7 @@
 	"7cb83145539e0d66": "URL bulunamadı.",
 	"811fec4b0e23bf8c": "URL yolu gerekli",
 	"84b8a7289a111a0c": "$1, $2 adını $3 ile $4 değiştirdi.",
-	"89283ca91ebb357d": "Phurl URL'leri hakkında bilgi okuyun.",
+	"89283ca91ebb357d": "Phurl URL'leri hakkında bilgi edinin.",
 	"8b23aa38cf79a45c": "URL düzenlemesi: $1",
 	"8c235996f9427b65": "Phurl URL'leri Oluşturabilir",
 	"8cb9f1e7c5ed4855": "URL adı.",

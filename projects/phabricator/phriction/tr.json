@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"Rapsar"
 		]
 	},
@@ -75,7 +76,7 @@
 	"7fb270d05669a23f": "$1, $2 yeni bir versiyonunu yayınladı.",
 	"80414c97b50c6eaa": "Böyle bir belge yok.",
 	"809f4f3336cab0fc": "Mevcut Belgeyi Düzenlensin mi?",
-	"811ef85eb406e74c": "Phriction belgeleriyle ilgili bilgileri okuyun.",
+	"811ef85eb406e74c": "Phriction belgeleriyle ilgili bilgi edinin.",
 	"83712b6a75530065": "$1 belgesi zaten var. Bunun yerine düzenlemek ister misiniz?",
 	"854881bc65e0be4c": "Silinen bir belge taşınamıyor.",
 	"85f96c586d1673b0": "Yazdırılabilir Sayfa",
@@ -121,7 +122,7 @@
 	"c40d7c2b1bbe0d01": "Bir belgenin içeriği değişir.",
 	"c44995b590a04761": "Taşınan bir belge silinemez.",
 	"c4d5543bec7dc838": "Yolu Ayarla",
-	"c6602a9e896c303f": "Phriction belge geçmişi hakkında bilgi okuyun.",
+	"c6602a9e896c303f": "Phriction belge geçmişi hakkında bilgi edinin.",
 	"c92dfc7cf2a114c6": "Bir viki belgesi oluşturulduğunda veya güncellendiğinde çalışan test kuralları.",
 	"cc059ea69f2b978e": "Bir taslak belgesi silinemez.",
 	"ce1c95cf11ce4d29": "$1 slug ile ana belge olmadığından belge taşınamıyor!",

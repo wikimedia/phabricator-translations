@@ -59,7 +59,7 @@
 	"0c214f1d184be6b9": "Déplacez les informations de port de « $1 » à « $2 » dans votre configuration.",
 	"0cfa41f9d45b672e": "Cette option ne peut pas être modifiée depuis l’IHM web. Utiliser $1 pour ajuster la politique du ramasse-miettes.",
 	"0cfa85c5c7d3788f": "Meilleur moteur de tables disponible",
-	"0d0e37c45b7cd60e": "Fixer une valeur de configuration locale.",
+	"0d0e37c45b7cd60e": "Définir une valeur de configuration locale.",
 	"0d3e7aa802a7545a": "Le stockage de gros fichiers n’a pas été configuré, ce qui limitera la taille maximale des fichiers téléversés. Voir $1 pour les instructions sur la configuration des téléversements et du stockage.",
 	"0da81f052ad46d4f": "$1 a supprimé $2 (de nouveau ?).",
 	"0dac4143d9108818": "Format du journal d’accès.",

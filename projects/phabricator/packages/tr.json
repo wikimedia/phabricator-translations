@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"000da3e13a570535": "Bir yayıncı oluşturulduktan sonra, anahtarı değiştirilemez.",
@@ -13,7 +14,7 @@
 	"122d35cb3b238cb7": "Paket Paketleri",
 	"1335e52a5f1e0c4e": "Yeni bir yayıncı oluşturmak veya işlemleri düzenlemek için işlemleri uygulayın.",
 	"14f174e01471a57b": "Paket Yayıncısı",
-	"1626f1b5e0d80ddf": "Sürümleri hakkında bilgi okuyun.",
+	"1626f1b5e0d80ddf": "Sürümler hakkında bilgi edinin.",
 	"1c42c3895ad05be2": "$1 bu sürümün adını $2'den $3'e değiştirdi.",
 	"1c658324bfe15ced": "Yayıncı Oluşturabilir",
 	"1c7109a0f0ed5a97": "Varsayılan Yayıncı Düzenleme Politikası",
@@ -69,7 +70,7 @@
 	"b04834e08290cdfe": "Yayıncı Anahtarı",
 	"b4bccd763f48a89a": "Yayıncı Oluştur",
 	"bd139dc8dbfc1420": "Bu sürüm için paket.",
-	"bf2c747717ab11b8": "Yayıncılarla ilgili bilgileri okuyun.",
+	"bf2c747717ab11b8": "Yayıncılarla ilgili bilgi edinin.",
 	"c07c7b35fef40dda": "\"$1\" paket anahtarı geçerli değil: paket anahtarları gerekli.",
 	"c945774084943135": "Yeni bir sürüm oluşturmak için işlemleri uygulayın veya mevcut olanı düzenleyin.",
 	"ca7015ddd7412225": "Bir paket oluşturulduktan sonra yayıncısı değiştirilemez.",
@@ -94,7 +95,7 @@
 	"f5d3ddf586b71c99": "Yayıncının adı.",
 	"f9b21982723b89f9": "Bir sürüm oluşturulduktan sonra, paketi değiştirilemez.",
 	"fa68ab3cf0f86800": "Paketin benzersiz anahtarı.",
-	"fb62bf649c60a2e1": "Paketler hakkında bilgi okuyun.",
+	"fb62bf649c60a2e1": "Paketler hakkında bilgi edinin.",
 	"fcc4b19dd88b4ac4": "Yayıncı tarafından sağlanan her paketin benzersiz bir paket anahtarı olması gerekir.",
 	"fe09fb3b6dbca6ee": "Bir yayıncı adı yazın..."
 }

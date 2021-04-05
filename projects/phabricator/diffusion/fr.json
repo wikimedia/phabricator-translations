@@ -773,6 +773,7 @@
 	"d30372e755e4b0d0": "Clé SSH",
 	"d3265db85478af57": "Mettre à vrai si vous voulez que les patches soient attachés aux notifications de validation de Diffusion.",
 	"d3eac92b4af0bb47": "Système de contrôle des versions",
+	"d400ea3b0a15629b": "Affecté à : $1",
 	"d432acf8196b9ae2": "Taille maximale autorisée pour les fichiers.",
 	"d44a76e011971d4c": "Si vous autorisez les modifications dangereuses, il sera possible de modifier les reprops dans ce dépôt, y compris les écritures arbitraires de messages de validation. Ces opérations peuvent altérer un dépôt d’une telle façon qu’il sera difficile de le récupérer.",
 	"d49c0d752c59a163": "Date de validation (la plus ancienne en premier)",
