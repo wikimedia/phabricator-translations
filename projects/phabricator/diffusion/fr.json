@@ -3,6 +3,7 @@
 		"authors": [
 			"Ash Crow",
 			"Gomoko",
+			"Motla",
 			"Thibaut120094",
 			"Tpt",
 			"Urhixidur",
@@ -551,7 +552,7 @@
 	"9b916a541a2cda0b": "Validations poussées",
 	"9bc056012feba5e2": "Interactions avec les validations",
 	"9cb7c48fc3804e51": "Dépôt vide",
-	"9cdd0dab5ea4ea68": "Voir le répôt",
+	"9cdd0dab5ea4ea68": "Voir le dépôt",
 	"9d21cb093c03bdbb": "URL du gestionnaire externe de bogues utilisé par Diffusion. $1 va être remplacé par l'ID du bogue.",
 	"9d391f9750dc4869": "En attente d'auditeurs",
 	"9d891a317bf9dbb1": "Événements de poussée dans le dépôt",
