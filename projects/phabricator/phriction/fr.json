@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Motla",
 			"Thibaut120094",
+			"Verdy p",
 			"Wladek92",
 			"Zarisi"
 		]
@@ -9,7 +11,7 @@
 	"01f55bf10a17e740": "Chemin du document.",
 	"0691c225d7708594": "Modifier une ancienne version $1 ...",
 	"0c79adcf41ecb0f3": "Dernière modification",
-	"0cb0697324e584a3": "Publier en tant que brouillon",
+	"0cb0697324e584a3": "Publier le brouillon",
 	"0fc28db091e83c15": "Déplacé",
 	"164545688f7cd5d9": "Version $1 de $2:",
 	"1e57779e9843e6d4": "CONTENU DU DOCUMENT",
@@ -48,7 +50,7 @@
 	"811ef85eb406e74c": "Lire les informations concernant les documents Phriction.",
 	"85f96c586d1673b0": "Page imprimable",
 	"867d681742c031b2": "Bienvenue sur Phriction",
-	"8906f3e5c78fa3b9": "Publier en tant que brouillon",
+	"8906f3e5c78fa3b9": "Publier le brouillon ?",
 	"8fe82457801b6ad1": "Voulez-vous supprimer le document?",
 	"92fb2b3740bb471e": "Document supprimé",
 	"932fab9482371f15": "Version de contenu.",
@@ -56,8 +58,8 @@
 	"98b219af6d77a4ff": "Brouillon $1",
 	"9c062d190c7fb27c": "Le document existe déjà!",
 	"9cfac843308844f9": "$1 a déplacé $2 vers $3.",
-	"ab240038516f0c16": "Afficher la version en tant que brouillon",
-	"ac4ccb43b8c170bf": "Ce document possède des modifications au brouillon non publiées.",
+	"ab240038516f0c16": "Afficher la version du brouillon",
+	"ac4ccb43b8c170bf": "Ce document possède des modifications du brouillon non publiées.",
 	"af3e28773d988a73": "Chemins des parents",
 	"af3f32e27eb9fddf": "$1 a publié une nouvelle version de ce document.",
 	"b58012337ad5b717": "Vous affichez la version actuellement publiée du document.",

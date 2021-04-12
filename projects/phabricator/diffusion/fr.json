@@ -240,7 +240,7 @@
 	"475fb2955d743051": "Cette règle peut se déclencher pour des **dépôts** ou des **projets**.",
 	"4789baabc60284f3": "Il n’y a pas de validation sur $1 qui ne soit pas déjà sur $2.",
 	"47b2dc999995d625": "Lecture seule",
-	"47bfc0aff3358e1b": "Créer le dépôt",
+	"47bfc0aff3358e1b": "Créer un dépôt",
 	"487d72642f7659be": "Si vous autorisez les modifications énormes, les utilisateurs peuvent pousser des validations qui sont trop grandes pour que Herald puisse leur appliquer les règles sur le contenu. Ceci peut permettre les utilisateurs à biaiser les règles de contenu implémentées dans Herald.",
 	"48855716c1c7b470": "Si vous acceptez le trafic SSH de Phabricator sur un hôte différent de celui du trafic web (par exemple, si vous utilisez des répartiteurs de charge SSH et web différents), vous pouvez définir le nom d’hôte SSH ici. C’est une option avancée.",
 	"49443c9d6dda3e6f": "Changer le comportement d’affichage.",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Moj",
 			"Pyscowicz"
 		]
 	},
@@ -11,6 +12,7 @@
 	"229981dd1dc44fcc": "Suhteet",
 	"315d77e6f0d040b8": "Käyttäjän oikea nimi.",
 	"31dad2e865f469b1": "Piilota postituslistat",
+	"323a032511a11096": "Käyttäjä ei ole mukana yhdessäkään projektissa.",
 	"334904d98dfdb21f": "Liittynyt ennen",
 	"3a3192e2791c5786": "Botti",
 	"3a7eab135187ac47": "Luo uusi botti",
