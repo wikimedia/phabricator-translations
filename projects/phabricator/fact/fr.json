@@ -39,7 +39,7 @@
 	"6e4f26e1d3f6b987": "Attendait que l’appel à `newArguments()` dans la classe « $1 » retourne une liste de spécifications d’arguments ; obtenu : $2.",
 	"79d0849ecc41c8f2": "La fonction « $1 » est inconnue. Les fonctions valides sont : $2.",
 	"7b6ed5e5a221e6b8": "Vraiment détruire les faits ? Ils devront être reconstruits via l’analyse, ce qui peut prendre du temps.",
-	"7c11e1f8da4ac9c6": "La valeur pour l’argument « fonction » doit être une définition de fonction, formattée comme une liste, telle que : [fn, arg1, arg, ...]. La valeur réelle était $1.",
+	"7c11e1f8da4ac9c6": "La valeur pour l’argument « fonction » doit être une définition de fonction, formatée comme une liste, telle que : [fn, arg1, arg, ...]. La valeur réelle était $1.",
 	"7d6e797167bf385b": "$1 (transactions)",
 	"854cffa7859038c9": "Tentative de construction d’un jeu de données de type « $1 », mais ce type est inconnu. Les types pris en charge sont : $2.",
 	"8a3b484c6e7b7359": "constante(345)",

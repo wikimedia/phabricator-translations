@@ -458,7 +458,7 @@
 	"47d65511680e0380": "Impossible de localiser le lanceur de la console xUnit. Le configurer avec l'option '$1' dans $2.",
 	"4802666cd26a487b": "La version « $1 : $2 » a été générée de « $3 », mais la copie courante de travail est « $4 ». Voulez-vous néanmoins valider cette version ?",
 	"48e6fe67607d2cc4": "Convention: un espace avant la parenthèse ouvrante dans la déclaration des fonctions anonymes.",
-	"48f7d2c47ec37e29": "Le jeton  « $1 »  n'est pas formatté correctement. Les jetons d'API valides doivent commencer par « cli- » et comporter 32 caractères. Assurez-vous d'avoir visité l'URI correcte et copié/collé le jeton correctement.",
+	"48f7d2c47ec37e29": "Le jeton  « $1 »  n'est pas formaté correctement. Les jetons d'API valides doivent commencer par « cli- » et comporter 32 caractères. Assurez-vous d'avoir visité l'URI correcte et copié/collé le jeton correctement.",
 	"493138a7cab47ba4": "Veuillez utiliser '$1' à la place.",
 	"4958c30c3a03011b": "Utilisation de la balise Close '$1'",
 	"49654dcbd95942ac": "À METTRE À JOUR : $1",
