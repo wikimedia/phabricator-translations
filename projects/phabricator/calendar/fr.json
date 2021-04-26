@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"JenyxGym",
 			"Motla",
 			"Thibaut120094",
 			"Urhixidur",
@@ -111,6 +112,7 @@
 	"3bbb5b6b8c64826d": "Guide : Exporter des événements",
 	"3bcc67cf40bacf9b": "L’hôte de cet événement peut effectuer cette action.",
 	"3d4a4f2617bc679c": "$1 a modifié l’hôte de cet événement de $2 en $3.",
+	"3d53b10b66c24431": "Listes de dates multiples.",
 	"3d74f49513e4b1b2": "La description de l’événement.",
 	"3eed9ab44fa505b9": "Champs de l’événement",
 	"3ef347b170102f60": "Nouveau mode d’exportation.",
