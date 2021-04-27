@@ -134,7 +134,7 @@ final class PhabricatorBadgesTr
       '%s changed the badge icon for %s from %s to %s.' => '%s, rozet simgesini %s için %s ile %s değiştirdi.',
       'Type a badge name...' => 'Rozet adı yazın...',
       'Default Edit Badges' => 'Varsayılan Düzenleme Rozetleri',
-      'Read information about badges.' => 'Rozetler hakkında bilgi okuyun.',
+      'Read information about badges.' => 'Rozetler hakkında bilgi edinin.',
       '%s revoked %s from %s recipient(s): %s.' => '%s, %3$s alıcıdan %2$s iptal etti: %s.',
       'Flavor Text' => 'Lezzet Metni',
       'Add Recipient' => 'Alıcı Ekle',

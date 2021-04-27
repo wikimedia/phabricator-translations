@@ -297,7 +297,7 @@ final class PhabricatorDiffusionTr
       'This repository does not have any commits yet.' => 'Bu deponun henüz taahhütleri yok.',
       'Failed to load changes: %s' => 'Değişiklikler yüklenemedi: %s',
       'Commit hook events depend on repository state which is only available at push time, and can not be run in test mode.' => 'Tamamlama kancası olayları, yalnızca gönderme zamanında kullanılabilen ve test modunda çalıştırılamayan depo durumuna bağlıdır.',
-      'Read information about repositories.' => 'Depolar hakkındaki bilgileri okuyun.',
+      'Read information about repositories.' => 'Depolar hakkında bilgi edinin.',
       'Audit User Guide' => 'Denetim Kullanıcı Kılavuzu',
       'This repository is still importing. History is not yet available.' => 'Bu depo hala içe aktarılıyor. Geçmiş henüz mevcut değil.',
       'From Device Version' => 'Cihaz Sürümünden',

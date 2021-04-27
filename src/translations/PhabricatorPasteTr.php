@@ -17,7 +17,7 @@ final class PhabricatorPasteTr
       'Configure creation and editing forms in Paste.' => 'Yapıştırma ve düzenleme formlarını Yapıştır seçeneğinde yapılandırın.',
       'New highlighting language.' => 'Yeni vurgulama dili.',
       '%s changed the title of this paste from %s to untitled.' => '%s bu yapıştırmanın başlığını %s\'den başsıza değiştirdi.',
-      'Read information about pastes.' => 'Yapıştırma hakkında bilgi okuyun.',
+      'Read information about pastes.' => 'Yapıştırma hakkında bilgi edinin.',
       '%s updated the title for %s from untitled to %s.' => '%s, %s için unvanı başlıksız %s\'e güncelledi.',
       'Paste language must be null or a nonempty string.' => 'Yapıştır dili boş veya boş bir dize olmalıdır.',
       'The author of a paste can always view and edit it.' => 'Bir yapıştırın yazarı her zaman onu görüntüleyebilir ve düzenleyebilir.',

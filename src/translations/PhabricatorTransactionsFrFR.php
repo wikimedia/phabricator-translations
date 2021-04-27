@@ -119,7 +119,12 @@ final class PhabricatorTransactionsFrFR
       'Subtype configuration is invalid: subtype with key "%s" specifies both child subtypes and child forms. Specify one or the other, but not both.' => 'La configuration du sous-type est non valide: le sous-type ayant pour clé « %s » spécifie à la fois des sous-types et des formulaires enfants. Choisissez l\'un ou l\'autre, mais non pas les deux.',
       'You can not sign a transaction group that has no other effects.' => 'Vous ne pouvez pas signer un groupe de transactions qui n\'a pas d\'autres effets.',
       'No Edit Forms' => 'Pas de formulaires de modification',
-      '%s added %s unsubscriber(s) for %s: %s.' => '%s a ajouté %s désabonné(s) pour %s: %s.',
+      '%s added %s unsubscriber(s) for %s: %s.' => array(
+        array(
+          '%s a ajouté %s désabonné pour %s : %s.',
+          '%s a ajouté %s désabonnés pour %s : %s.',
+        ),
+      ),
       'Edit Defaults' => 'Modifier les valeurs par défaut',
       'Encryption Required' => 'Cryptage nécessaire',
       'Form name is required.' => 'Nom de formulaire obligatoirement.',
@@ -137,7 +142,12 @@ final class PhabricatorTransactionsFrFR
       '%s disabled this form.' => '%s a désactivé ce formulaire.',
       '%s created an object: %s.' => '%s a créé un objet : %s.',
       'Duplicate Form' => 'Dupliquer le formulaire',
-      '%s added %d subscriber(s): %s.' => '%s a ajouté %s abonné(s): %s.',
+      '%s added %d subscriber(s): %s.' => array(
+        array(
+          '%s a ajouté %s abonné : %s.',
+          '%s a ajouté %s abonnés : %s.',
+        ),
+      ),
       '%s created this object in space %s.' => '%s a créé cet objet dans l’espace %s.',
       '%s removed %s watcher(s) for %s: %s.' => array(
         array(
@@ -167,7 +177,12 @@ final class PhabricatorTransactionsFrFR
       'Unsupported bulk edit type "%s".' => 'Type d\'édition de masse « %s » non supporté.',
       'Mentioned User' => 'Utilisateur mentionné',
       'List of PHIDs to set.' => 'Liste pour installer les PHIDs.',
-      '%s added %s unsubscriber(s): %s.' => '%s a ajouté %s désabonné(s): %s .',
+      '%s added %s unsubscriber(s): %s.' => array(
+        array(
+          '%s a ajouté %s désabonné : %s.',
+          '%s a ajouté %s désabonnés : %s.',
+        ),
+      ),
       'EDIT DETAILS' => 'MODIFIER LES DÉTAILS',
       'Remove Action: %s' => 'Supprimer l\'action : %s',
       'Edit Form: %s' => 'Modifier le formulaire : %s',
@@ -206,12 +221,22 @@ final class PhabricatorTransactionsFrFR
       'Export data to a flat file (JSON, CSV, Excel, etc).' => 'Exporter les données vers un fichier à plat (JSON, CSV, Excel, etc).',
       'Edit Forms' => 'Modifier les formulaires',
       '%s edited file(s), added %s: %s; removed %s: %s.' => '%s fichier(s) modifié(s), ajoouté(s) %s: %s; supprimé(s) %s: %s.',
-      '%s added %s subscriber(s): %s.' => '%s a ajouté %s abonné(s): %s .',
+      '%s added %s subscriber(s): %s.' => array(
+        array(
+          '%s a ajouté %s abonné : %s.',
+          '%s a ajouté %s abonnés : %s.',
+        ),
+      ),
       'Subtype "%s" is not valid: subtype keys may only contain lowercase latin letters ("a" through "z").' => 'Le sous-type \'\'%s\'\' n\'est pas valide: les clés du sous-type ne peuvent comporter que des caractères minuscules latins (de \'\'a\'\' à \'\'z\'\').',
       'Capability not supported.' => 'Possibilité non prise en charge.',
       'Use "--id" to choose a bulk job to make silent.' => 'Utiliser « --id » pour choisir une tâche de masse à rendre silencieuse.',
       'Change Form Subtype' => 'Modifier le sous-type de formulaire',
-      '%s added %s contributor(s): %s.' => '%s a ajouté %s contributeur(s): %s .',
+      '%s added %s contributor(s): %s.' => array(
+        array(
+          '%s a ajouté %s contributeur : %s.',
+          '%s a ajouté %s contributeurs : %s.',
+        ),
+      ),
       '%s removed %s watcher(s): %s.' => array(
         array(
           '%s a retiré %s observateur : %s.',
@@ -220,7 +245,12 @@ final class PhabricatorTransactionsFrFR
       ),
       '%s created this object with edit policy "%s".' => '%s a créé cette objet avec les autorisations de modification « %s ».',
       'Unable to load bulk job with ID "%s".' => 'Impossible de charger la tâche de travail en masse avec l\'ID « %s ».',
-      '%s added %s watcher(s): %s.' => '%s a ajouté %s observateur(s): %s.',
+      '%s added %s watcher(s): %s.' => array(
+        array(
+          '%s a ajouté %s observateur : %s.',
+          '%s a ajouté %s observateurs : %s.',
+        ),
+      ),
       'Task has no object PHID!' => 'La tâche n\'a pas de PHID d\'objet !',
       'Flag "--overwrite" has no effect when outputting to stdout.' => 'Le drapeau « --overwrite » n\'a pas d\'effet quand la sortie se fait sur stdout.',
       'Export the data selected by one or more queries.' => 'Exporter les données sélectionnées par une ou plusieurs requêtes.',

@@ -9,7 +9,7 @@ final class PhabricatorSubscriptionsFrFR
 
   protected function getTranslations() {
     return array(
-      'Mute' => 'Taire',
+      'Mute' => 'Mettre en sourdine',
       'Subscriber' => 'Abonné',
       'Unmute Notifications' => 'Démasquer les notifications',
       'subscribers' => 'abonnés',
@@ -30,7 +30,7 @@ final class PhabricatorSubscriptionsFrFR
       'Remove subscribers' => 'Enlever des abonnés',
       'All %d subscribers removed by %s' => 'Tous les %s abonnés enlevés par %s',
       'Added Subscribers' => 'Abonnés ajoutés',
-      'Mute this object? You will no longer receive notifications or email about it.' => 'Taire cet objet ? Vous ne recevrez plus de notifications ni de courriels le concernant.',
+      'Mute this object? You will no longer receive notifications or email about it.' => 'Mettre en sourdine cet objet ? Vous ne recevrez plus de notifications ni de courriels le concernant.',
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Refus de réinscrire %s cible(s) car elles se sont désinscrites précédemment : %s.',
       'Removed %s subscriber(s): %s.' => '%s abonné(s) supprimé(s) : %s.',
       'Bad Object' => 'Objet incorrect',
@@ -39,9 +39,9 @@ final class PhabricatorSubscriptionsFrFR
       'Removed Subscribers' => 'Abonnés enlevés',
       'All %d subscribers added by %s' => 'Tous les %s abonnés ajoutés par %s',
       'Add me as a subscriber' => 'Ajoutez moi en tant qu’abonné',
-      'Mute Notifications' => 'Taire les notifications',
+      'Mute Notifications' => 'Mettre en sourdine les notifications',
       '%s automatically subscribed target(s) were not affected: %s.' => '%s cible(s) automatiquement abonnée(s)  n’ont pas été affectées : %s.',
-      'Set subscribers to' => 'Fixer les abonnés à',
+      'Set subscribers to' => 'Définir les abonnés à',
       'Choose subscribers.' => 'Choisir les abonnés.',
       '%s, %s, %s and %s' => '%s, %s, %s et %s',
       'Previously Unsubscribed' => 'Désabonné précédemment',

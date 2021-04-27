@@ -189,7 +189,7 @@ final class PhabricatorPeopleTr
       'Login: Signed Required Legalpad Documents' => 'Giriş: İmzalı Gerekli Legalpad Belgeleri',
       'Your Phabricator account (%s) has been approved by %s. You can login here:' => 'Phabricator hesabınız (%s) %s tarafından onaylandı. Buradan giriş yapabilirsiniz:',
       '[Phabricator] Primary Address Changed' => '[Phabricator] Birincil Adres Değişti',
-      'Read information about users.' => 'Kullanıcılar hakkında bilgi okuyun.',
+      'Read information about users.' => 'Kullanıcılar hakkında bilgi edinin.',
       'Unknown CSS variable "%s"!' => 'Bilinmeyen CSS değişkeni "%s"!',
       'To log in to your account for the first time, follow this link:' => 'Hesabınıza ilk kez giriş yapmak için bu bağlantıyı izleyin:',
       'Email address must be at one of: %s' => 'E-posta adresi şunlardan birinde olmalıdır: %s',

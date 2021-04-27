@@ -16,6 +16,7 @@ final class PhabricatorPeopleFi
       'Relationships' => 'Suhteet',
       'The user\'s real name.' => 'Käyttäjän oikea nimi.',
       'Hide Mailing Lists' => 'Piilota postituslistat',
+      'User does not belong to any projects.' => 'Käyttäjä ei ole mukana yhdessäkään projektissa.',
       'Joined Before' => 'Liittynyt ennen',
       'Bot' => 'Botti',
       'Create New Bot' => 'Luo uusi botti',

@@ -32,6 +32,7 @@ final class PhabricatorConsoleTr
       'Whole Table' => 'Tüm Tablo',
       'Repaint' => 'Yeniden Boya',
       'Small Table Scan' => 'Küçük Tablo Tarama',
+      'Installation Guide' => 'Yükleme Rehberi',
       'Profile Permalink' => 'Profil Kalıcı Bağlantısı',
       'Error Log' => 'Hata Günlüğü',
       'Controller' => 'Kontrolör',

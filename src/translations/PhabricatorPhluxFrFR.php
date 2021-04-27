@@ -9,7 +9,7 @@ final class PhabricatorPhluxFrFR
 
   protected function getTranslations() {
     return array(
-      'Update Variable' => 'Fixer une variable',
+      'Update Variable' => 'Mettre à jour la variable',
       'Variable value must be valid JSON.' => 'La valeur de la variable doit être du JSON valide.',
       'Lowercase letters, digits, dot and hyphen only.' => 'Lettres minuscules, chiffres, points ou tirets uniquement.',
       'Edit Variable: %s' => 'Modifier la variable: %s',

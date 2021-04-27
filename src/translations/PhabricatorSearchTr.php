@@ -251,7 +251,7 @@ final class PhabricatorSearchTr
       'Disable Query?' => 'Sorguyu Devre Dışı Bırakılsın mı?',
       'No Bucketing' => 'Kova Yok',
       'Use Results' => 'Sonuçları Kullan',
-      'Order By' => 'Sıralamaya Göre',
+      'Order By' => 'Sıralama',
       'No new common ngrams exist for "%s".' => '"%s" yeni ortak şema yok.',
       'Cats purr when they are happy, upset, or asleep.' => 'Kediler mutlu, üzgün veya uyurken mutlu olurlar.',
       'Save this query as a global query, making it visible to all users.' => 'Bu sorguyu genel bir sorgu olarak kaydedin, tüm kullanıcılar tarafından görülebilir hale getirin.',

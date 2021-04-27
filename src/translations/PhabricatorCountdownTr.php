@@ -49,7 +49,7 @@ final class PhabricatorCountdownTr
       'Someone changes the countdown details.' => 'Birisi geri sayım ayrıntılarını değiştirir.',
       'New countdown end date.' => 'Yeni geri sayım bitiş tarihi.',
       'The countdown name.' => 'Geri sayım adı.',
-      'Read information about countdowns.' => 'Geri sayımlarla ilgili bilgileri okuyun.',
+      'Read information about countdowns.' => 'Geri sayımlarla ilgili bilgi edinin.',
       'COUNTDOWN DESCRIPTION' => 'GERİ SAYIM AÇIKLAMASI',
       'Creates and edits countdowns.' => 'Geri sayım oluşturur ve düzenler.',
       'The end date of the countdown.' => 'Geri sayımın bitiş tarihi.',

@@ -64,14 +64,24 @@ final class PhabricatorConpherenceFrFR
       'Unknown action: %s' => 'Action inconnue : %s',
       '%s updated the room image for %s.' => '%s a mis à jour l’image de la pièce pour %s.',
       'Log in to join this room and participate.' => 'Se connecter pour rejoindre cette pièce et participer.',
-      '%s added %d participant(s): %s.' => '%s a ajouté %s participant(s) : %s.',
+      '%s added %d participant(s): %s.' => array(
+        array(
+          '%s a ajouté %s participant : %s.',
+          '%s a ajouté %s participants : %s.',
+        ),
+      ),
       'See All Joined' => 'Voir tous ceux qui ont rejoint',
       'Create Room' => 'Créer la pièce',
       'They will be able to rejoin the room later.' => 'Ils pourront rejoindre la pièce plus tard.',
       'You must specify a room id or room PHID to query transactions from.' => 'Vous devez spécifier un id ou un PHID de pièce à partir duquel demander des transactions.',
       'New Room name.' => 'Nouveau nom de la pièce.',
       'Topic' => 'Sujet',
-      '%s removed %d participant(s): %s.' => '%s a supprimé %s participant(s) : %s.',
+      '%s removed %d participant(s): %s.' => array(
+        array(
+          '%s a supprimé %s participant : %s.',
+          '%s a supprimé %s participants : %s.',
+        ),
+      ),
       'Search %s...' => 'Rechercher %s…',
       'Participants in this room can take this action.' => 'Les participants dans cette pièce peuvent effectuer cette action.',
       'Create New Room' => 'Créer une nouvelle pièce',

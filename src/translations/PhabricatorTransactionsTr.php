@@ -94,7 +94,7 @@ final class PhabricatorTransactionsTr
       '%s rescinded a token.' => '%s bir anahtarı iptal etti.',
       '%s awarded a token.' => '%s bir anahtarı aldı.',
       'New object subtype key.' => 'Yeni nesne alt türü anahtarı.',
-      '%s added a comment to %s.' => '%s, %s ile bir yorum yaptı.',
+      '%s added a comment to %s.' => '%s, %s için bir yorum yaptı.',
       '%s changed locked and hidden fields.' => '%s kilitli ve gizli alanları değiştirdi.',
       'Edit Form %d: %s' => '%s Formunu Düzenle: %s',
       'Output path already exists. Use "--overwrite" to overwrite it.' => 'Çıkış yolu zaten var. Üzerine yazmak için "--overwrite" kullanın.',

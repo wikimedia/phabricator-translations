@@ -32,7 +32,7 @@ final class PhabricatorPhurlTr
       'No URLs found.' => 'URL bulunamadı.',
       'URL path is required' => 'URL yolu gerekli',
       '%s changed the name of %s from %s to %s.' => '%s, %s adını %s ile %s değiştirdi.',
-      'Read information about Phurl URLS.' => 'Phurl URL\'leri hakkında bilgi okuyun.',
+      'Read information about Phurl URLS.' => 'Phurl URL\'leri hakkında bilgi edinin.',
       'Edit URL: %s' => 'URL düzenlemesi: %s',
       'Can Create Phurl URLs' => 'Phurl URL\'leri Oluşturabilir',
       'URL name.' => 'URL adı.',

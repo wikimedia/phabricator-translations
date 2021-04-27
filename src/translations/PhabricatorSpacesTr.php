@@ -30,7 +30,7 @@ final class PhabricatorSpacesTr
       'Existing objects in this Space will be hidden from query results by default.' => 'Bu alandaki mevcut nesneler, varsayılan olarak sorgu sonuçlarından gizlenir.',
       '%s made this the default space.' => '%s bunu varsayılan alan yaptı.',
       '%s archived this space.' => '%s bu alanı arşivledi.',
-      'Type a space name...' => 'Bir boşluk adı yazın...',
+      'Type a space name...' => 'Bir alan adı yazın...',
       'Existing objects will no longer be hidden from query results.' => 'Mevcut nesneler artık sorgu sonuçlarından gizlenmeyecek.',
       'You do not have permission to create spaces.' => 'Boşluk oluşturma izniniz yok.',
       'Ask someone to give you access to a space so you can view and create objects.' => 'Birinden sizden bir alana erişim izni vermesini isteyin, böylece nesneleri görüntüleyip oluşturabilirsiniz.',
