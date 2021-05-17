@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Eneelk",
 			"JenyxGym",
 			"Motla",
@@ -43,7 +44,7 @@
 	"1ca9b7d7e21e5f2b": "$1 a donné les droits administrateur à cet utilisateur.",
 	"1cb4013146e4841e": "Musicien",
 	"1de842547dcf0ed0": "Rendre les noms réels obligatoires",
-	"1e1f385cac7cacb9": "Déja approuvé",
+	"1e1f385cac7cacb9": "Déjà approuvé",
 	"1ebfda0a59118764": "Après avoir configuré votre compte, vous pourrez vous connecter à l'avenir à Phabricator en allant ici :",
 	"1ed31f9e3fe3dd5e": "Après avoir défini un mot de passe, vous pourrez vous connecter à l'avenir à Phabricator en allant ici :",
 	"226329607d4cf3b1": "Activité du compte",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Alacabe",
 			"Derugon",
 			"Djiboun",
@@ -923,7 +924,7 @@
 	"8aee4c1dea2062d0": "Le verbe de mode d’insertion « $1 » n’est pas reconnu, utilisez INSERT ou REPLACE.",
 	"8b7722d8cf6f9825": "Versions actuelles",
 	"8b88eff95c816c10": "Plusieurs définitions d’états partagent la même clé (« $1 »).",
-	"8b9ea89061cb6676": "Pour éviter cette erreur, utilisez $1 pour construire les formats. Si vous utilisez déja $2, assurez-vous que le format « action » utilise une URI relative (par exemple commençant par « $3 »). Les formats qui utilisent des URI absolues n’incluent pas aucun jeton CSRF, pour éviter la fuite de jetons vers les sites externes.  \n\nSi cette page effectue des écritures qui n’ont pas besoin de la protection CSRF (habituellement, en remplissant le cache ou en journalisant), vous pouvez utiliser $4 pour sauter temporairement la protection CSRF durant le temps d’écriture. Vous ne devriez utiliser ceci uniquement pour des écritures qui ne peuvent pas être protégées par les mécanismes normaux des jetons CSRF.\n\nCertains éléments d’interface utilisateur (comme $5) ont aussi des méthodes qui vous permettront de faire le rendu des liens en tant que formulaires (comme $6).",
+	"8b9ea89061cb6676": "Pour éviter cette erreur, utilisez $1 pour construire les formats. Si vous utilisez déjà $2, assurez-vous que le format « action » utilise une URI relative (par exemple commençant par « $3 »). Les formats qui utilisent des URI absolues n’incluent pas aucun jeton CSRF, pour éviter la fuite de jetons vers les sites externes.  \n\nSi cette page effectue des écritures qui n’ont pas besoin de la protection CSRF (habituellement, en remplissant le cache ou en journalisant), vous pouvez utiliser $4 pour sauter temporairement la protection CSRF durant le temps d’écriture. Vous ne devriez utiliser ceci uniquement pour des écritures qui ne peuvent pas être protégées par les mécanismes normaux des jetons CSRF.\n\nCertains éléments d’interface utilisateur (comme $5) ont aussi des méthodes qui vous permettront de faire le rendu des liens en tant que formulaires (comme $6).",
 	"8b9f1a574049f7cb": "Liste de PHID séparés par des virgules.",
 	"8bb8783e3ed5e0e7": "Ajout en cours de multiples tâches dans la file de travail. Taper CTRL+C pour sortir.",
 	"8bc3b1ed449e35b9": "Voir l’historique",

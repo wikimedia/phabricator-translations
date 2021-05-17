@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Kenjiraw",
 			"Thibaut120094",
 			"Urhixidur",
@@ -23,12 +24,12 @@
 	"1a3721ccb8d63e75": "Surdimensionné",
 	"1b72e5691a78558a": "$1 a défini la limite d'accessibilité pour ce dépôt à $2 chemins.",
 	"1d75dc7d883e0bb7": "$1 a modifé la limite du temps de copie pour ce dépôt de $2 secondes à $3 secondes.",
-	"1eeae201554863fd": "Le dépôt de la grappe (« $1 ») est désynchronisé sur ce noeud (« $2 »).",
+	"1eeae201554863fd": "Le dépôt de la grappe (« $1 ») est désynchronisé sur ce nœud (« $2 »).",
 	"1f3f23a513811988": "Créer un dépôt Subversion",
 	"1ff5d475973f5d00": "Nom de résultat",
 	"20049bc069b0a044": "Exception",
 	"20512d10b7cfb705": "Annuler de manière permanente la publication de « $1 » ?",
-	"212a8f588c52f3d4": "Impossible de promouvoir « $1 » pour le dépôt « $2 »  car cette grappe possède déja un ou plusieurs meneurs non ambigüs : $3.",
+	"212a8f588c52f3d4": "Impossible de promouvoir « $1 » pour le dépôt « $2 »  car cette grappe possède déjà un ou plusieurs meneurs non ambigus : $3.",
 	"2250b24c8bd47652": "$1 a supprimé la branche par défaut $2 .",
 	"22b673420c88e3ec": "PHID de la personne qui a poussé",
 	"22bc488d117b2593": "Créer un nouveau dépôt Mercurial.",
@@ -92,7 +93,7 @@
 	"737f4f53719f6d60": "Noms des drapeaux",
 	"7675e233ae4bea59": "Validation la plus récente",
 	"76cdb950721642b6": "Déplacer",
-	"76d514b598b40181": "Le nom court du callsign ou du dépôt choisi est déja utilisé par un autre dépôt.",
+	"76d514b598b40181": "Le nom court du callsign ou du dépôt choisi est déjà utilisé par un autre dépôt.",
 	"76e8925995a3d495": "$1 a modifié l'encodage du dépôt de $2 en $3.",
 	"79566325f624860f": "Bloqué par",
 	"79a268b2cc26f2c4": "Impossible de déterminer l'utilisateur de Phabricator associé.",

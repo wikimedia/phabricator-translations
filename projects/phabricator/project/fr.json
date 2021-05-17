@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Florian COLLIN",
 			"Motla",
 			"Noé",
@@ -99,7 +100,7 @@
 	"2335915749d14687": "Etat inconnu de projet '$1' !",
 	"234df5f8e720cb96": "La création du premier sous-projet du projet **déplace tous les membres** pour devenir plutôt membres du sous-projet.\n\nConsultez le [[$1|Guide d’utilisation des projets]] dans la documentation pour plus de détails. Ce processus ne peut pas être défait.",
 	"23d692f07a3fb646": "Parent",
-	"2422a24491325c66": "Vous suivez déja le projet $1, ainsi qu'un ancêtre de ce projet, donc vous suivez tous ses sous-projets.",
+	"2422a24491325c66": "Vous suivez déjà le projet $1, ainsi qu'un ancêtre de ce projet, donc vous suivez tous ses sous-projets.",
 	"2472d7f47a789e43": "Nouveau tableau de bord vide",
 	"263eaf09f0fddab0": "Ajuster les couleurs du projet.",
 	"27151e1566100c7c": "$1 a retiré la limite en points pour cette colonne.",

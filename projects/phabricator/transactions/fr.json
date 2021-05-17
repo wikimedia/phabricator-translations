@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Derugon",
 			"KATRINE1992",
 			"Merlier Bertrand",
@@ -50,7 +51,7 @@
 	"21d1f9ed096e1b2c": "Il manque un type de paramètre Conduit pour le type de modification (avec la clé « $1 »).",
 	"2223c9fc6b0b5d28": "Vous allez appliquer une modification en masse qui converne $1 objet{{PLURAL:$1||s}}.",
 	"2297ad161b3a2f62": "Vous n'avez accès à aucun formulaire activé et marqué en tant que formulaire de modification.",
-	"23a9d37f9bbebad1": "Cette tâche est déja configurée pour s'exécuter silencieusement.",
+	"23a9d37f9bbebad1": "Cette tâche est déjà configurée pour s'exécuter silencieusement.",
 	"2803a14f3c91354f": "Parcourir les formulaires",
 	"2863a58b2859a210": "Spécifiez un format d'exportation avec « --format ».",
 	"296f8b58c6553d15": "Attendu une clé de requête ou un ensemble de contraintes de requête.",
@@ -87,7 +88,7 @@
 	"468a4dc5de6e1e05": "Supprimer effectivement ce commentaire ?",
 	"47a47420fbc1c00d": "Pas de MFA",
 	"4896c63a3c5bef4d": "Le format d'exportation (« $1 ») n'est pas activé.",
-	"4b1d0cf965f481ca": "Vous ne pourvez pas appliquer des transactions qui ont déja des IDs/PHIDs !",
+	"4b1d0cf965f481ca": "Vous ne pouvez pas appliquer des transactions qui ont déjà des IDs/PHIDs !",
 	"4bec9575721b2739": "Formulaires",
 	"4e48d1e38d986b43": "Masquer les formulaires d'édition",
 	"4ecd5928b588c4b9": "Désactiver le formulaire",
@@ -224,7 +225,7 @@
 	"e15fbe29391f39d6": "Ceci est une prévisualisation de la configuration actuelle du formulaire.",
 	"e236873b8dbe3af1": "$1 a modifié la politique de confidentialité de $2.",
 	"e31a1d9fa48a4ca1": "Tous les formulaires",
-	"e3377311620a729a": "Ce $1 a déja cette politique de visibilité.",
+	"e3377311620a729a": "Ce $1 a déjà cette politique de visibilité.",
 	"e73827343c64a0bb": "La requête « $1 » est inconnue. Pour exécuter une requête embarquée comme  « all » ou  « active », précisez également le moteur de recherche avec  « --class ».",
 	"e77b3d82ee5ad70c": "L'objet source a un commentaire indiquant l'objet destination.",
 	"ea664ebfc21ed9e7": "Tâche « $1 » configurée pour s'exécuter silencieusement.",
@@ -241,7 +242,7 @@
 	"fbdee780b50203ab": "L'objet source est mentionné dans un commentaire de l'objet destination.",
 	"fce9f8464f697d97": "Possibilité non prise en charge !",
 	"fd1ae53fdef9f192": "$1 a créé cet objet avec les autorisations de visibilité « $2 ».",
-	"fddedf164c9b6123": "Vous ne pourvez pas appliquer des transactions qui ont déja des commentVersions !",
+	"fddedf164c9b6123": "Vous ne pourvez pas appliquer des transactions qui ont déjà des commentVersions !",
 	"fde83e7c8697f9f6": "Objet Monogram",
 	"ff145ddc79509ae0": "$1 a retiré $2 abonné(s): $3.",
 	"ffa04dedac04fc48": "Quand vous appelez « transaction.search » , vous devez fournir un objet sur lequel récupérer les transactions.",

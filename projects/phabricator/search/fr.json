@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Derugon",
 			"Eneelk",
 			"Motla",
@@ -100,7 +101,7 @@
 	"afc47c4578170c6a": "Cette requête prend trop de temps. $1",
 	"b29f8014721a1064": "Actuellement, ce menu n'a pas d'éléments.",
 	"b3c8a1c8fb291e4e": "Types de document",
-	"b3d8c0b0eb9cf873": "Cet élément est déja défini comme élément par défaut pour ce menu.",
+	"b3d8c0b0eb9cf873": "Cet élément est déjà défini comme élément par défaut pour ce menu.",
 	"b42827a53fc1aea6": "Manuel utilisateur du menu du profil",
 	"b810678b178d4d4e": "Choisissez un format d'exportation valide.",
 	"bab1403abf1d6010": "Le moteur de recherche (« $1 ») a exporté un mauvais nombre d'objets, attendu $2 mais obtenu $3.",
