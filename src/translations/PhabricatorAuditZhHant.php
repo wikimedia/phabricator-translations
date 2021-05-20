@@ -41,7 +41,6 @@ final class PhabricatorAuditZhHant
       'A commit has an auditor resign.' => '提交有稽查者放棄。',
       'Find commits with given audit statuses.' => '尋找帶有指定稽查狀態的提交。',
       'Select only audits in the given status. By default, only open audits are selected.' => '僅選擇依照指定狀態的稽查。預設僅會選擇狀態為開放的稽查。',
-      'Auditors: %s' => '稽查者：%s',
       'Object "%s" is not a valid repository or commit.' => '物件「%s」不是有效的版本庫或提交。',
       'Unable to parse date "%s". Use a format like "%s".' => '無法解析日期「%s」。請使用像是「%s」的格式。',
       'Failed to load commit during transaction finalization!' => '在處理完成期間載入提交失敗！',

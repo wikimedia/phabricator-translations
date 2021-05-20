@@ -88,7 +88,6 @@ final class PhabricatorMetaZhHant
       'Show Applications w/o App Email Support' => '顯示沒有應用程式郵件支援的應用程式',
       'Are you absolutely certain you want to uninstall the Home application?' => '您確定要解除安裝首要應用程式？',
       'Configure creation and editing forms in Applications.' => '設置在應用程式的建立與編輯形式。',
-      'Provenance' => '出處',
       'Show Prototype Applications' => '顯示原型應用程式',
       'Edit Application: %s' => '編輯應用程式：%s',
       'Show Third-Party Applications' => '顯示第三方應用程式',

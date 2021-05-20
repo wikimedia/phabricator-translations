@@ -291,6 +291,7 @@ final class PhabricatorManiphestEn
       'Comma-separated list of task monograms.' => 'Comma-separated list of task monograms.',
       '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.' => '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.',
       'Set title to' => 'Set title to',
+      'Graph' => 'Graph',
       'Retrieve information about a Maniphest task, given its ID.' => 'Retrieve information about a Maniphest task, given its ID.',
       'Search for tasks owned by a user from a list.' => 'Search for tasks owned by a user from a list.',
       '%s assigned %s to %s.' => '%s assigned %s to %s.',

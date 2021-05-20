@@ -89,7 +89,6 @@ final class PhabricatorMetaFrFR
       'Are you absolutely certain you want to uninstall the Home application?' => 'Avez-vous la certitude absolue de vouloir désinstaller l’application Accueil ?',
       '%s changed the %s policy for application %s from %s to %s.' => '%s a changé la politique «  %s » pour l’application %s de « %s » en « %s ».',
       'Configure creation and editing forms in Applications.' => 'Configurer la création et la modification des formulaires dans les applications.',
-      'Provenance' => 'Provenance',
       'Show Prototype Applications' => 'Afficher les applications prototypes',
       '%s changed the %s policy from %s to %s.' => '%s a changé la politique «  %s » de « %s » en « %s ».',
       'Edit Application: %s' => 'Modifier l’application : %s',

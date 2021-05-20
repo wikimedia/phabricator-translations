@@ -259,23 +259,6 @@ final class PhabricatorAuthFrFR
       'Duo' => 'Duo',
       'Application ID is required.' => 'L’ID de l’application est obligatoire.',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'Vous n’avez pas de compte lié à ce fournisseur, et donc ne pouvez pas le rafraîchir.',
-      'To configure Facebook OAuth, create a new Facebook Application here:
-    https://developers.facebook.com/apps
-    You should use these settings in your application:
-      - **Site URL**: Set this to `%s`
-      - **Valid OAuth redirect URIs**: You should also set this to `%s`
-      - **Client OAuth Login**: Set this to **OFF**.
-      - **Embedded browser OAuth Login**: Set this to **OFF**.
-    Some of these settings may be in the **Advanced** tab.
-    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Pour configurer OAuth de Facebook, créer une nouvelle application Facebook ici :
-    https://developers.facebook.com/apps
-    Vous devez utiliser ces paramètres dans votre appolication :
-      - **URL du site**: La mettre à `%s`
-      - **URIs de redirection sur OAuth valide**: Vous devez aussi le mettre à  `%s`
-      - **Connexion OAuth client**: Le mettre à **OFF**.
-      - **Connexion OAuth de navigateur embarqué**: Le mettre à **OFF**.
-    Certains de ces paramètres peuvent se trouver dans l’onglet **Avancé**.
-    Après avoir créé votre nouvelle application, copier l’**App ID** et **App Secret** dans les champs ci-dessus.',
       'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => 'Utiliser le champ **OAuth App Notes** pour enregistrer des détails sur le compte sous lequel l’application externe est inscrite.',
       'firstname, lastname' => 'prénom, nom',
       'Minimum length of %d characters.' => 'Longueur minimale de %s caractères.',
@@ -371,7 +354,6 @@ final class PhabricatorAuthFrFR
       'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Cette installation Phabricator n’est configurée avec aucun fournisseur d’authentification activé, pouvant être utilisé à la connexion. Si vous vous êtes accidentellement bloqué en désactivant tous les fournisseurs, vous pouvez utiliser `%s` pour récupérer l’accès à un compte.',
       'Another user already has that email.' => 'Un autre utilisateur a déjà ce courriel.',
       'You already have a provider of this type.' => 'Vous avez déjà un fournisseur de ce type.',
-      '%s Require users to enable \'secure browsing\' on Facebook in order to use Facebook to authenticate with Phabricator. This improves security by preventing an attacker from capturing an insecure Facebook session and escalating it into a Phabricator session. Enabling it is recommended.' => '%s oblige les utilisateurs à activer la \'navigation sécurisée\' sur Facebook, afin de pouvoir utiliser Facebook pour s’authentifier avec Phabricator. Cela améliore la sécurité en empêchant un attaquant de capturer une session Facebook non sécurisée et de la faire escalader en une session Phabricator. Il est recommandé de l’activer.',
       'Type of the MFA provider.' => 'Type de fournisseur MFA.',
       'Your account has been disabled.' => 'Votre compte a été désactivé.',
       'JIRA base URI should include protocol (like "https://").' => 'L’URI de base de JIRA doit inclure le protocole (comme « https:// »).',
@@ -512,7 +494,6 @@ final class PhabricatorAuthFrFR
       'You are already logged in.' => 'Vous êtes déjà connecté.',
       'Wait For Approval Instructions' => 'Attendre les instructions d’approbation',
       'Link LDAP Account' => 'Lier le compte LDAP',
-      '%s turned "Require Secure Browsing" off.' => '%s a désactivé « Nécessite une navigation sécurisée ».',
       'ldap.example.com' => 'ldap.example.com',
       'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Ce mot de passe est associé avec un PHID d’objet (« %s ») pour un objet autre que celui fourni (« %s »).',
       'Disable Number' => 'Désactiver le numéro',
@@ -677,7 +658,6 @@ final class PhabricatorAuthFrFR
       'Auth Challenge' => 'Défi d’Authentification',
       'No Matching Sessions' => 'Aucune session correspondante',
       'Expected "newResultFromIssuedChallenges()" to return null or an object of class "%s"; got something else (in "%s").' => 'Le retour attendu de « newResultFromIssuedChallenge() » aurait dû être nul ou un objet de la classe « %s », mais autre chose a été obtenu (dans « %s »).',
-      'Require Secure Browsing:' => 'Nécessite une navigation sécurisée :',
       'Auth provider failed to load an account from %s!' => 'Le fournisseur d’authentification n’a pas réussi à charger un compte depuis %s !',
       'Provider Enabled' => 'Fournisseur activé',
       'Newly registered user "%s" is awaiting account approval by an administrator.' => 'L’utilisateur nouvellement inscrit « %s » attend une approbation de compte par un administrateur.',
@@ -867,7 +847,7 @@ final class PhabricatorAuthFrFR
       'Terminate all web login sessions. If called via OAuth, also terminate the current OAuth token.
     WARNING: This method does what it claims on the label. If you call this method via the test console in the web UI, it will log you out!' => 'Met fin à toutes les sessions web connectées. Si appelé par OAuth, invalide également le jeton OAuth.
     AVERTISSEMENT : Cette méthode fait ce qui est indiqué dans son libellé. Si vous appelez cette méthode via la console de test dans l’IHM web, vous serez déconnecté !',
-      'This contact number is already your primary contact number.' => 'Ce numéro de contact est déja votre numéro de contact primaire.',
+      'This contact number is already your primary contact number.' => 'Ce numéro de contact est déjà votre numéro de contact primaire.',
       'Authentication Tokens' => 'Jetons d’authentification',
       '%s upgraded the hash algorithm for this password from "%s" to "%s".' => '%s a mis à jour l’algorithme de hachage pour ce mot de passe de « %s » en « %s ».',
       'Multi-Factor Login' => 'Connexion à plusieurs facteurs',
@@ -895,8 +875,7 @@ final class PhabricatorAuthFrFR
       'Mobile App (TOTP)' => 'Application mobile (TOTP)',
       'Expected valid JSON response from Google account data request.' => 'Réponse JSON valide attendue pour la requête de données de compte Google.',
       'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Dire à Phabricator de ne pas faire confiance à un client OAuth. Phabricator redirige vers les clients OAuth de confiance que les utilisateurs ont autorisé, sans intervention de l’utilisateur.',
-      '%s turned "Require Secure Browsing" on.' => '%s active "Exploration sécurisée nécessaire".',
-      'The invite code in the link you clicked has already been accepted.' => 'Le code d\'invitation du lien sur lequel vous avez cliqué a déja été accepté.',
+      'The invite code in the link you clicked has already been accepted.' => 'Le code d\'invitation du lien sur lequel vous avez cliqué a déjà été accepté.',
       'No outbound mailer which can deliver SMS messages is configured.' => 'Aucune adresse courriel externe pouvant délivrer des messages SMS n’est configurée.',
       'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'Si vous quittez la haute sécurité, vous devrez vous authentifier de nouveau la prochaine fois que vous essayerez de faire une action de haute sécurité.',
       'NOTE: Amazon **requires** HTTPS, but your Phabricator install does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOTE: Amazon **nécessite** HTTPS, mais l\'installation de votre Phabricator n\'utilise pas HTTPS. **Vous ne pourrez pas ajouter Amazon comme fournisseur d\'authentication tant que vous n\'aurez pas configuré HTTPS sur cette installation**.',
@@ -922,12 +901,11 @@ final class PhabricatorAuthFrFR
       'Revokes temporary authentication tokens.
     Temporary tokens are used in password reset mail, welcome mail, and by some other systems like Git LFS. Revoking temporary tokens will invalidate existing links in password reset and invite mail that was sent before the revocation occurred.' => 'Révoque les jetons d’authentification temporaires.
     Les jetons temporaires sont utilisés dans le courriel de réinitialisation du mot de passe, le courriel de bienvenue, et par certains autres systèmes comme Git LFS. La révocation des jetons temporaires invalidera les liens existants dans les courriels de réinitialisation du mot de passe et d’invitation qui ont été envoyés avant que la révocation se soit produite.',
-      'The account you are attempting to link is already linked to your account.' => 'Le compte que vous essayez d\'associer est déja associé à votre compte.',
+      'The account you are attempting to link is already linked to your account.' => 'Le compte que vous essayez d\'associer est déjà associé à votre compte.',
       'Enter the code from the text message which was sent to your primary contact number.' => 'Entrer le code du message textuel envoyé à votre numéro de contact principal.',
       'JIRA Instance Name' => 'Nom de l\'instance JIRA',
       '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s a mis à jour l\'ID d\'application OAuth pour ce fournisseur, de « %s » à « %s ».',
       '%s enabled registration.' => '%s a activé l\'enregistrement.',
-      'This Phabricator install requires you to enable Secure Browsing on your Facebook account in order to use it to log in to Phabricator. For more information, see %s' => 'Cette installation de Phabricator exige que vous activiez la navigation privée sur votre compte Facebook afin de l’utiliser pour se connecter à Phabricator. Pour plus d’informations, consultez %s.',
       'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'L’extension \'openssl\' de PHP n’est pas installée. Vous devez installer cette extension pour pouvoir ajouter un fournisseur d’authentification JIRA, parce que OAuth de JIRA requiert l’utilisation de l’algorithme de signature RSA-SHA1. Installez l’extension \'openssl\', redémarrez Phabricator, et réessayez.',
       'Auth Message %d' => 'Message d’Authentification %s',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'Impossible de charger votre secret de jeton OAuth1 depuis le stockage. Il a peut-être expiré. Essayez de vous authentifier de nouveau.',
@@ -1015,7 +993,7 @@ final class PhabricatorAuthFrFR
       'Search Attributes' => 'Attributs recherchés',
       'You already have SMS authentication attached to your account.' => 'Vous avez déjà une authentification SMS attachée à votre compte.',
       'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Attacher une application d’authentificateur mobile (comme Authy ou Google Authentificator) à votre compte. Quand vous aurez besoin de vous authentifier, vous devrez entrer un code affiché sur votre téléphone.',
-      'The login link you clicked is invalid, out of date, or has already been used.' => 'Le lien de connexion sur lequel vous avez cliqué est invalide, obsolète, ou a déja été utilisé.',
+      'The login link you clicked is invalid, out of date, or has already been used.' => 'Le lien de connexion sur lequel vous avez cliqué est invalide, obsolète, ou a déjà été utilisé.',
       '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new Phabricator accounts and log in.' => '%s Vous n’avez pas encore ajouté de fournisseurs d’authentification. Utilisez « %s » pour ajouter un fournisseur, ce qui permettra aux utilisateurs d’inscrire de nouveaux comptes Phabricator et de se connecter avec.',
       'Message Text' => 'Texte du message',
       'Revoke all credentials types.' => 'Révoquer tous les types de certificats.',

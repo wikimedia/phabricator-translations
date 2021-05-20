@@ -88,7 +88,6 @@ final class PhabricatorMetaPtBR
       'Show Applications w/o App Email Support' => 'Mostrar aplicativos sem o suporte por e-mail do aplicativo',
       'Are you absolutely certain you want to uninstall the Home application?' => 'Tem certeza absoluta de que deseja desinstalar o aplicativo Home?',
       'Configure creation and editing forms in Applications.' => 'Configurar criação e edição de formulários em aplicativos.',
-      'Provenance' => 'Proveniência',
       'Show Prototype Applications' => 'Mostrar aplicativos de protótipo',
       'Edit Application: %s' => 'Editar aplicativo: %s',
       'Show Third-Party Applications' => 'Mostrar aplicativos de terceiros',

@@ -121,7 +121,7 @@ final class PhabricatorProjectFrFR
     See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.' => 'La création du premier sous-projet du projet **déplace tous les membres** pour devenir plutôt membres du sous-projet.
     Consultez le [[%s|Guide d’utilisation des projets]] dans la documentation pour plus de détails. Ce processus ne peut pas être défait.',
       'Parent' => 'Parent',
-      'You are already watching %s, an ancestor of this project, and are thus watching all of its subprojects.' => 'Vous suivez déja le projet %s, ainsi qu\'un ancêtre de ce projet, donc vous suivez tous ses sous-projets.',
+      'You are already watching %s, an ancestor of this project, and are thus watching all of its subprojects.' => 'Vous suivez déjà le projet %s, ainsi qu\'un ancêtre de ce projet, donc vous suivez tous ses sous-projets.',
       'New Empty Board' => 'Nouveau tableau de bord vide',
       'Adjust project colors.' => 'Ajuster les couleurs du projet.',
       '%s removed the point limit for this column.' => '%s a retiré la limite en points pour cette colonne.',

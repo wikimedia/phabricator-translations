@@ -20,7 +20,6 @@ final class PhabricatorAuditPl
       'Welcome to Audit' => 'Witaj w Audycie',
       'Audit Not Required' => 'Audyt nie jest wymagany',
       'All Commits' => 'Wszystkie zatwierdzenia',
-      'Auditors: %s' => 'Audytorzy: %s',
       'Failed to reload commit ("%s").' => 'Nie udało się ponownie załadować zatwierdzenia ("%s").',
       'Auditor' => 'Audytor',
       '%s closed the audit of %s.' => '%s zamknął weryfikację %s.',

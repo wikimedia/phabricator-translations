@@ -90,7 +90,6 @@ final class PhabricatorMetaEn
       'Are you absolutely certain you want to uninstall the Home application?' => 'Are you absolutely certain you want to uninstall the Home application?',
       '%s changed the %s policy for application %s from %s to %s.' => '%s changed the %s policy for application %s from %s to %s.',
       'Configure creation and editing forms in Applications.' => 'Configure creation and editing forms in Applications.',
-      'Provenance' => 'Provenance',
       'Show Prototype Applications' => 'Show Prototype Applications',
       '%s changed the %s policy from %s to %s.' => '%s changed the %s policy from %s to %s.',
       'Edit Application: %s' => 'Edit Application: %s',

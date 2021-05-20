@@ -201,7 +201,6 @@ final class PhabricatorSettingsEn
       'Conpherence Widget Pane Visible' => 'Conpherence Widget Pane Visible',
       'Disable Email Notifications' => 'Disable Email Notifications',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.',
-      'Invalidated.' => 'Invalidated.',
       'Expired' => 'Expired',
       'No Notifications' => 'No Notifications',
       'Vim' => 'Vim',

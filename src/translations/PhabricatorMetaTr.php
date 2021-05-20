@@ -88,7 +88,6 @@ final class PhabricatorMetaTr
       'Show Applications w/o App Email Support' => 'Uygulamaları Göster w/o Uygulama E-Posta Desteği',
       'Are you absolutely certain you want to uninstall the Home application?' => 'Ana uygulamasını kaldırmak istediğinizden kesinlikle emin misiniz?',
       'Configure creation and editing forms in Applications.' => 'Uygulamalar\'daki oluşturma ve düzenleme formlarını yapılandırın.',
-      'Provenance' => 'Kaynak',
       'Show Prototype Applications' => 'Prototip Uygulamaları Göster',
       'Edit Application: %s' => 'Uygulamayı Düzenle: %s',
       'Show Third-Party Applications' => 'Üçüncü Taraf Uygulamaları Göster',

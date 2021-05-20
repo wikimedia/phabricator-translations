@@ -89,7 +89,6 @@ final class PhabricatorMetaCa
       'Are you absolutely certain you want to uninstall the Home application?' => 'Esteu absolutament segur de voler desinstal·lar l\'aplicació Home?',
       '%s changed the %s policy for application %s from %s to %s.' => '%s ha canviat la política de %s per a l\'aplicació %s de %s a %s.',
       'Configure creation and editing forms in Applications.' => 'Configureu formularis de creació i edició a Aplicacions.',
-      'Provenance' => 'Procedència',
       'Show Prototype Applications' => 'Mostra aplicacions de prototipus',
       '%s changed the %s policy from %s to %s.' => '%s ha canviat la política de %s de %s a %s.',
       'Edit Application: %s' => 'Edita Aplicació: %s',

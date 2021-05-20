@@ -10,7 +10,6 @@ final class PhabricatorHeraldEl
   protected function getTranslations() {
     return array(
       'An object name is required.' => 'Απαιτείται ένα όνομα αντικειμένου.',
-      'Rule passed.' => 'Ο κανόνας πέρασε.',
       'No object exists by that name.' => 'Δεν υπάρχει αντικείμενο με αυτό το όνομα.',
       'Rule must have a name.' => 'Ο κανόνας πρέπει να έχουν ένα όνομα.',
       'Invalid Targets' => 'Μη έγκυροι στόχοι',
@@ -70,7 +69,6 @@ final class PhabricatorHeraldEl
       'This rule will become active again.' => 'Αυτός ο κανόνας θα γίνει ενεργός ξανά.',
       'Object Monograms' => 'Μονογράμματα αντικειμένου',
       'Personal Rule' => 'Προσωπικός κανόνας',
-      'Object state is not compatible with rule.' => 'Η κατάσταση του αντικειμένου δεν είναι συμβατή με τον κανόνα.',
       '%s enabled this rule.' => 'Ο %s ενεργοποίησε αυτό το κανόνα.',
       'Unknown condition "%s"!' => 'Άγνωστη κατάσταση "%s"!',
       'is true' => 'είναι αληθής',
@@ -79,7 +77,6 @@ final class PhabricatorHeraldEl
       'contains' => 'περιέχει',
       'Conditions were met for %s' => 'Οι καταστάσεις πληρούνται για το %s',
       '%s target(s) could not be loaded: %s.' => 'Οι %s στόχοι απέτυχαν να φορτωθούν: %s',
-      'Rule failed.' => 'Ο κανόνας απέτυχε',
       'Do nothing' => 'Μη κάνεις τίποτα',
       '%s %s %s' => '%s %s %s',
       '<Unknown Field "%s">' => '<Άγνωστο πεδίο "%s">',
@@ -105,7 +102,6 @@ final class PhabricatorHeraldEl
       'Unknown condition \'%s\'.' => 'Άγνωστη κατάσταση \'%s\'',
       'Regular expression pair is not valid JSON!' => 'Το ζευγάρι τακτικής έκφρασης δεν είναι έγκυρο JSON!',
       'is not any of' => 'δεν είναι κάποιο του',
-      'Field "%s" does not exist!' => 'Το πεδίο "%s" δεν υπάρχει',
       'View Full Transcript' => 'Προβολή πλήρης μεταγραφής',
       'No valid object provided for object rule!' => 'Δεν παρέχεται έγκυρο αντικείμενο για τον κανόνα αντικειμένου!',
       'This rule will no longer activate.' => 'Αυτός ο ρόλος δεν θα ενεργοποιείται πλέον.',

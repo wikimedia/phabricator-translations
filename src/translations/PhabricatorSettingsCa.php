@@ -201,7 +201,6 @@ final class PhabricatorSettingsCa
       'Conpherence Widget Pane Visible' => 'Panell de widgets Conpherence visible',
       'Disable Email Notifications' => 'Desactivar les notificacions per correu electrònic',
       'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator utilitza glifs unicode en títols de pàgina per proporcionar una representació compacta de l\'aplicació actual.  Podeu substituir el text sense format si aquests glifs no es mostren al vostre sistema.',
-      'Invalidated.' => 'Invalidat.',
       'Expired' => 'Caducat',
       'No Notifications' => 'Sense notificacions',
       'Vim' => 'Vim',

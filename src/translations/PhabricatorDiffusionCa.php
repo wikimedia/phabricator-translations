@@ -311,7 +311,6 @@ final class PhabricatorDiffusionCa
       'Parameter "%s" is required if "%s" is provided.' => 'El paràmetre "%s" és obligatori si es proporciona "%s".',
       'This path was a submodule at %s.' => 'Aquesta ruta era un submòdul a %s.',
       'Audit Actions' => 'Accions d\'Auditoria',
-      '%s vs %s' => '%s vs %s',
       'Disallow Git LFS' => 'No permetre Git LFS',
       '(This commit has not been fully parsed yet.)' => '(Aquesta validació encara no s\'ha analitzat sintàcticament al complet.)',
       'Branch Closed' => 'Branca tancada',
@@ -402,7 +401,6 @@ final class PhabricatorDiffusionCa
       'Git LFS operation "%s" is not supported by this server.' => 'Aquest servidor no admet l\'operació Git LFS \'%s\'.',
       'URI I/O behavior.' => 'Comportament d\'URI E/S.',
       'This credential will no longer be used to authenticate activity against this URI.' => 'Aquesta credencial ja no s\'utilitzarà per autenticar l\'activitat contra aquest URI.',
-      'Pushed' => 'Empès',
       'All Pull Logs' => 'Tots els registres d\'extracció',
       'Unknown Mercurial key namespace \'%s\', with key \'%s\' (%s -> %s). Rejecting push.' => 'Espai de noms de clau Mercurial desconegut «%s», amb clau \'%s\' (%s -> %s).  Rebutjant l\'extracció.',
       'The raw text of this change ("%s") is enormous (larger than %s bytes).' => 'El text a pèl d\'aquest canvi ("%s") és enorme (supera els %s bytes).',
@@ -532,7 +530,6 @@ final class PhabricatorDiffusionCa
       'You can not resign from this commit because you are not an active auditor.' => 'No podeu renunciar a aquesta validació perquè no sou un auditor actiu.',
       'Failed to load diff ("%s") for this change.' => 'No s\'ha pogut carregar les diff ("%s") d\'aquest canvi.',
       'Commit "%s" is not a valid commit in this repository.' => 'La validació "%s" no és una validació correcta en aquest repositori.',
-      'Authored by %s.' => 'Autoritzat per %s.',
       'No Audits' => 'Cap auditoria',
       'This function allows you to find results for any of the `.
               `repositories of a project:
@@ -809,7 +806,6 @@ final class PhabricatorDiffusionCa
       '%s (at %s)' => '%s (a %s)',
       'Remove Password' => 'Eliminar la contrasenya',
       'No commits are waiting for you to audit them.' => 'No hi ha validacions esperant que les auditeu.',
-      'History Graph' => 'Gràfic de l\'historial',
       'Still Importing...' => 'Encara important...',
       'Error %d: %s' => 'Error %s: %s',
       'Diffusion Repositories' => 'Repositoris de Difusió',

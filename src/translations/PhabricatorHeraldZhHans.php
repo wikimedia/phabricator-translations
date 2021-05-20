@@ -10,7 +10,6 @@ final class PhabricatorHeraldZhHans
   protected function getTranslations() {
     return array(
       'An object name is required.' => '需要对象名称。',
-      'Rule passed.' => '规则已跳过。',
       'No object exists by that name.' => '不存在该名称的对象。',
       'Rule must have a name.' => '规则必须有一个名称。',
       'Invalid Targets' => '无效目标',

@@ -256,23 +256,6 @@ final class PhabricatorAuthTr
       'Duo' => 'Duo',
       'Application ID is required.' => 'Uygulama kimliği gerekli.',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'Bu sağlayıcıda bağlı bir hesabınız yok ve bu nedenle yenileyemezsiniz.',
-      'To configure Facebook OAuth, create a new Facebook Application here:
-    https://developers.facebook.com/apps
-    You should use these settings in your application:
-      - **Site URL**: Set this to `%s`
-      - **Valid OAuth redirect URIs**: You should also set this to `%s`
-      - **Client OAuth Login**: Set this to **OFF**.
-      - **Embedded browser OAuth Login**: Set this to **OFF**.
-    Some of these settings may be in the **Advanced** tab.
-    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Facebook OAuth\'u yapılandırmak için burada yeni bir Facebook Uygulaması oluşturun:
-    https://developers.facebook.com/apps
-    Bu ayarları uygulamanızda kullanmalısınız:
-      - **Site URL\'si**: Bunu `%s` olarak ayarla
-      - **Geçerli OAuth yönlendirme URI\'leri**: Ayrıca bunu `%s` olarak ayarlamanız gerekir
-      - **İstemci OAuth Girişi**: Bunu **KAPALI** olarak ayarlayın.
-      - **Gömülü tarayıcı OAuth Giriş**: Bunu ** KAPALI ** olarak ayarlayın.
-    Bu ayarlardan bazıları **Gelişmiş** sekmesinde olabilir.
-    Yeni uygulamanızı oluşturduktan sonra **Uygulama Kimliği** ve **Uygulama Sırrı** yukarıdaki alanlara kopyalayın.',
       'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => 'Harici uygulamanın kaydedildiği hesapla ilgili ayrıntıları kaydetmek için **OAuth Uygulama Notları** alanını kullanın.',
       'firstname, lastname' => 'isim soyisim',
       'Minimum length of %d characters.' => 'Minimum uzunluk %s karakter.',
@@ -365,7 +348,6 @@ final class PhabricatorAuthTr
       'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Bu Phabricator yüklemesi, oturum açmak için kullanılabilecek etkinleştirilmiş herhangi bir kimlik doğrulama sağlayıcısıyla yapılandırılmamış. Yanlışlıkla tüm sağlayıcıları devre dışı bırakarak kendinizi kilitlediyseniz, bir hesaba erişimi kurtarmak için `%s` kullanabilirsiniz.',
       'Another user already has that email.' => 'Başka bir kullanıcının zaten bu e-postası var.',
       'You already have a provider of this type.' => 'Zaten bu türde bir sağlayıcınız var.',
-      '%s Require users to enable \'secure browsing\' on Facebook in order to use Facebook to authenticate with Phabricator. This improves security by preventing an attacker from capturing an insecure Facebook session and escalating it into a Phabricator session. Enabling it is recommended.' => '%s Kullanıcıların Facebook\'u Phabricator ile kimlik doğrulaması yapmak için kullanabilmeleri için Facebook\'ta \'güvenli tarama\'yı etkinleştirmelerini isteyin. Bu, bir saldırganın güvenli olmayan bir Facebook oturumu yakalamasını ve bir Phabricator oturumuna yükseltmesini önleyerek güvenliği artırır. Etkinleştirilmesi önerilir.',
       'Type of the MFA provider.' => 'MFA sağlayıcısının türü.',
       'Your account has been disabled.' => 'Hesabınız devre dışı bırakıldı.',
       'JIRA base URI should include protocol (like "https://").' => 'JIRA temel URI\'si protokol içermelidir ("https://" gibi).',
@@ -506,7 +488,6 @@ final class PhabricatorAuthTr
       'You are already logged in.' => 'Zaten oturum açtınız.',
       'Wait For Approval Instructions' => 'Onay Talimatlarını Bekleyin',
       'Link LDAP Account' => 'LDAP Hesabını Bağla',
-      '%s turned "Require Secure Browsing" off.' => '%s "Güvenli Tarama Gerekli" seçeneğini kapattı.',
       'ldap.example.com' => 'ldap.example.com',
       'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Bu parola, sağlanandan ("%2$s") farklı bir nesne için bir PHID nesnesiyle ("%1$s") ilişkilendirilir.',
       'Disable Number' => 'Numaraya Devre Dışı Bırak',
@@ -668,7 +649,6 @@ final class PhabricatorAuthTr
       'Auth Challenge' => 'Yetkilendirme Mücadelesi',
       'No Matching Sessions' => 'Eşleşen Oturum Yok',
       'Expected "newResultFromIssuedChallenges()" to return null or an object of class "%s"; got something else (in "%s").' => '"newResultFromIssuedChallenges()" öğesinin null değerini veya "%s" sınıfındaki bir nesneyi döndürmesi bekleniyor; başka bir şey var ("%s").',
-      'Require Secure Browsing:' => 'Güvenli Tarama Gerektir:',
       'Auth provider failed to load an account from %s!' => 'Yetkilendirme sağlayıcısı %s üzerinden bir hesap yüklenemedi!',
       'Provider Enabled' => 'Sağlayıcı Etkinleştirildi',
       'Newly registered user "%s" is awaiting account approval by an administrator.' => 'Yeni kayıtlı kullanıcı "%s" bir yönetici tarafından hesap onayını bekliyor.',
@@ -886,7 +866,6 @@ final class PhabricatorAuthTr
       'Mobile App (TOTP)' => 'Mobil Uygulama (TOTP)',
       'Expected valid JSON response from Google account data request.' => 'Google hesabı veri isteğinden geçerli JSON yanıtı bekleniyor.',
       'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Phabricator\'ı bir OAuth istemcisine güvenmeyecek şekilde ayarlayın. Phabricator, kullanıcıların kullanıcı müdahalesi olmadan yetkilendirdiği güvenilir OAuth istemcilerine yönlendirir.',
-      '%s turned "Require Secure Browsing" on.' => '%s "Güvenli Tarama Gerektir" seçeneğini açtı.',
       'The invite code in the link you clicked has already been accepted.' => 'Tıkladığınız bağlantıdaki davet kodu zaten kabul edildi.',
       'No outbound mailer which can deliver SMS messages is configured.' => 'SMS mesajı gönderebilen giden posta gönderisi yapılandırılmamıştır.',
       'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'Yüksek güvenlikten ayrılırsanız, bir sonraki yüksek güvenlik önlemi almaya çalıştığınızda tekrar kimlik doğrulamanız gerekir.',
@@ -918,7 +897,6 @@ final class PhabricatorAuthTr
       'JIRA Instance Name' => 'JIRA Örnek Adı',
       '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s, bu sağlayıcı için OAuth uygulama kimliğini "%s" üzerinden "%s" güncelledi.',
       '%s enabled registration.' => '%s kayıtı etkinleştirdi.',
-      'This Phabricator install requires you to enable Secure Browsing on your Facebook account in order to use it to log in to Phabricator. For more information, see %s' => 'Bu Phabricator yüklemesi, Phabricator\'da oturum açmak için Facebook hesabınızda Güvenli Tarama\'yı etkinleştirmenizi gerektirir. Daha fazla bilgi için %s bakınız',
       'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'PHP \'openssl\' uzantısı kurulu değil. JIRA OAuth istekleri RSA-SHA1 imzalama algoritmasını kullandığından, bir JIRA kimlik doğrulama sağlayıcısı eklemek için bu uzantıyı yüklemeniz gerekir. \'Openssl\' uzantısını yükleyin, Phabricator\'ı yeniden başlatın ve tekrar deneyin.',
       'Auth Message %d' => '%s Yetkilendirme Mesajı',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'OAuth1 jeton sırrınız depolama alanından yüklenemiyor. Süresi dolmuş olabilir. Kimlik doğrulamayı tekrar deneyin.',

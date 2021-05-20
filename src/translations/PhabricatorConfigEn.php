@@ -114,6 +114,7 @@ final class PhabricatorConfigEn
       'No "Host" Header' => 'No "Host" Header',
       'Do not install Phabricator on an instance class with burstable CPU.' => 'Do not install Phabricator on an instance class with burstable CPU.',
       'Activity "%s" did not need to be marked as complete.' => 'Activity "%s" did not need to be marked as complete.',
+      'SSH error log location.' => 'SSH error log location.',
       'The translation implementation has changed and providers are no longer used or supported.' => 'The translation implementation has changed and providers are no longer used or supported.',
       'Option "%s" is of type "%s", but the value you provided is not a valid JSON list. When setting a list option from the command line, specify the value in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'Option "%s" is of type "%s", but the value you provided is not a valid JSON list. When setting a list option from the command line, specify the value in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').',
       'The minimum supported version of Mercurial is 1.9, which was released in 2011.' => 'The minimum supported version of Mercurial is 1.9, which was released in 2011.',
@@ -359,6 +360,27 @@ final class PhabricatorConfigEn
       'Enable captchas with Recaptcha.' => 'Enable captchas with Recaptcha.',
       'This suggests your webserver is configured to decompress or mangle compressed requests.' => 'This suggests your webserver is configured to decompress or mangle compressed requests.',
       'Add Multiple Paths' => 'Add Multiple Paths',
+      'This option allows you to stop Phabricator from sending data to most external
+    services: it will disable email, SMS, repository mirroring, remote builds,
+    Doorkeeper writes, and webhooks.
+    This option is intended to allow a Phabricator instance to be exported, copied,
+    imported, and run in a test environment without impacting users. For example,
+    if you are migrating to new hardware, you could perform a test migration first
+    with this flag set, make sure things work, and then do a production cutover
+    later with higher confidence and less disruption.
+    Without making use of this flag to silence the temporary test environment,
+    users would receive duplicate email during the time the test instance and old
+    production instance were both in operation.' => 'This option allows you to stop Phabricator from sending data to most external
+    services: it will disable email, SMS, repository mirroring, remote builds,
+    Doorkeeper writes, and webhooks.
+    This option is intended to allow a Phabricator instance to be exported, copied,
+    imported, and run in a test environment without impacting users. For example,
+    if you are migrating to new hardware, you could perform a test migration first
+    with this flag set, make sure things work, and then do a production cutover
+    later with higher confidence and less disruption.
+    Without making use of this flag to silence the temporary test environment,
+    users would receive duplicate email during the time the test instance and old
+    production instance were both in operation.',
       'Specify an activity to mark as completed.' => 'Specify an activity to mark as completed.',
       'The environmental variable %s is empty. Phabricator needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in Phabricator configuration.' => 'The environmental variable %s is empty. Phabricator needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in Phabricator configuration.',
       'Set the URI where Phabricator is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.' => 'Set the URI where Phabricator is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.',
@@ -719,11 +741,15 @@ final class PhabricatorConfigEn
       'Notifications no longer have a dedicated debugging mode.' => 'Notifications no longer have a dedicated debugging mode.',
       'Daemon Running as Wrong User' => 'Daemon Running as Wrong User',
       'MySQL is not in strict mode (on host "%s"), but using strict mode is recommended.' => 'MySQL is not in strict mode (on host "%s"), but using strict mode is recommended.',
+      'To enable the Phabricator SSH error log, specify a path. Errors occurring in contexts where Phabricator is serving SSH requests will be written to this log.
+    If not set, no log will be written.' => 'To enable the Phabricator SSH error log, specify a path. Errors occurring in contexts where Phabricator is serving SSH requests will be written to this log.
+    If not set, no log will be written.',
       'Extending Phabricator' => 'Extending Phabricator',
       'This ancient extension point has been replaced with other mechanisms, including "AphrontSite".' => 'This ancient extension point has been replaced with other mechanisms, including "AphrontSite".',
       'You enabled Elasticsearch but the index does not exist.' => 'You enabled Elasticsearch but the index does not exist.',
       '%s Not Found' => '%s Not Found',
       'Phabricator PHP 7 Compatibility Information' => 'Phabricator PHP 7 Compatibility Information',
+      'Write SSH error log here.' => 'Write SSH error log here.',
       'Your `%s` configuration contains a port number, but this usage is deprecated. Instead, put the port number in `%s`.' => 'Your `%s` configuration contains a port number, but this usage is deprecated. Instead, put the port number in `%s`.',
       'Elasticsearch Index Schema Mismatch' => 'Elasticsearch Index Schema Mismatch',
       'Column has Wrong Autoincrement' => 'Column has Wrong Autoincrement',
@@ -1036,6 +1062,7 @@ final class PhabricatorConfigEn
       'Use specific endpoint' => 'Use specific endpoint',
       'Configure Recaptcha captchas.' => 'Configure Recaptcha captchas.',
       'Report this Issue to the Upstream' => 'Report this Issue to the Upstream',
+      'Disable SSH error log.' => 'Disable SSH error log.',
       'Options relating to PHD (daemons).' => 'Options relating to PHD (daemons).',
       'Repos' => 'Repos',
       'Database configuration.' => 'Database configuration.',
@@ -1202,6 +1229,19 @@ final class PhabricatorConfigEn
       'This setup issue has been resolved. ' => 'This setup issue has been resolved. ',
       'Additional configuration options to hide.' => 'Additional configuration options to hide.',
       'The logged-in username, if one is logged in.' => 'The logged-in username, if one is logged in.',
+      'PHP date functions will emit a warning if they are called when no default
+    server timezone is configured.
+    Usually, you configure a default timezone in `php.ini` by setting the
+    configuration value `date.timezone`.
+    If you prefer, you can configure a default timezone here instead. To configure
+    a default timezone, select a timezone from the
+    [[ %s | PHP List of Supported Timezones ]].' => 'PHP date functions will emit a warning if they are called when no default
+    server timezone is configured.
+    Usually, you configure a default timezone in `php.ini` by setting the
+    configuration value `date.timezone`.
+    If you prefer, you can configure a default timezone here instead. To configure
+    a default timezone, select a timezone from the
+    [[ %s | PHP List of Supported Timezones ]].',
       'No REMOTE_ADDR available' => 'No REMOTE_ADDR available',
       'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.' => 'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.',
       'The logged-in user PHID, if one is logged in.' => 'The logged-in user PHID, if one is logged in.',

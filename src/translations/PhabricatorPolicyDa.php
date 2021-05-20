@@ -43,7 +43,6 @@ final class PhabricatorPolicyDa
       'Save Policy' => 'Gem politik',
       'Unknown Policy' => 'Ukendt politik',
       'is full' => 'er fuld',
-      'View Policy' => 'Vis politik',
       'User Policy' => 'Brugerpolitik',
     );
   }

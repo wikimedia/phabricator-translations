@@ -163,23 +163,6 @@ final class PhabricatorAuthCa
       'Duo' => 'Duo',
       'Application ID is required.' => 'Cal l\'ID de l\'aplicació',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'No teniu cap compte enllaçat en aquest proveïdor i, per tant, no el podeu actualitzar.',
-      'To configure Facebook OAuth, create a new Facebook Application here:
-    https://developers.facebook.com/apps
-    You should use these settings in your application:
-      - **Site URL**: Set this to `%s`
-      - **Valid OAuth redirect URIs**: You should also set this to `%s`
-      - **Client OAuth Login**: Set this to **OFF**.
-      - **Embedded browser OAuth Login**: Set this to **OFF**.
-    Some of these settings may be in the **Advanced** tab.
-    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Per configurar Facebook OAuth, creeu una nova aplicació de Facebook aquí: 
-    https://developers.facebook.com/apps 
-    Hauríeu d\'utilitzar aquests paràmetres a l\'aplicació: 
-      - **URL del lloc**: Establiu-ho a `%s` 
-      - **URIs de redirecció OAuth vàlids**: També hauríeu d\'establir això a `%s` 
-      - **Client Inici de sessió OAuth**: Establiu-ho a **DESACTIVA**. 
-      - **Navegador incrustat d\'inici de sessió OAuth**: Establiu-ho a **DESACTIVAR**. 
-    Alguns d\'aquests paràmetres poden estar a la pestanya **Avançat**. 
-    Després de crear la vostra nova aplicació, copieu l\'**ID d\'Aplicació** i **Consell d\'App** als camps anteriors.',
       'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => 'Utilitzeu el camp **Notes de l\'aplicació OAuth** per registrar detalls sobre el compte al qual està registrada l\'aplicació externa.',
       'One-Time Login Token' => 'Testimoni d\'Inici de Sessió d\'Un Sol Ús',
       'Target "%s" is not a valid target to revoke credentials from. Usually, revoke from "@username".' => 'L\'objectiu «%s» no és un objectiu vàlid per revocar credencials. Normalment, es revoca per "@username".',
@@ -235,7 +218,6 @@ final class PhabricatorAuthCa
       'NOTE: Revoking passwords does not terminate existing sessions which were established using the old passwords. To terminate existing sessions, run the "session" revoker now.' => 'NOTA: La revocació de contrasenyes no posa fi a les sessions existents establertes mitjançant les contrasenyes antigues. Per finalitzar les sessions existents, executeu el revocador de \'sessió\' ara.',
       'Scan this QR code with the Duo application on your mobile phone:' => 'Escaneja aquest codi QR amb l’aplicació Duo del telèfon mòbil:',
       'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Aquesta instal·lació de Phabricator no està configurada amb cap proveïdor d\'autenticació habilitat que es pugui utilitzar per iniciar la sessió. Si us heu bloquejat accidentalment desactivant tots els proveïdors, podeu utilitzar "%s" per recuperar l\'accés a un compte.',
-      '%s Require users to enable \'secure browsing\' on Facebook in order to use Facebook to authenticate with Phabricator. This improves security by preventing an attacker from capturing an insecure Facebook session and escalating it into a Phabricator session. Enabling it is recommended.' => '%s requereix els usuaris que activin la "navegació segura" a Facebook per utilitzar Facebook per autenticar-se amb Phabricator. Això millora la seguretat evitant que un atacant capturi una sessió de Facebook insegura i la converteixi en una sessió de Phabricator. Es recomana habilitar-lo.',
       'JIRA base URI should include protocol (like "https://").' => 'L\'URI base JIRA ha d\'incloure un protocol (com ara \'https: //\').',
       'Authentication provider ("%s") encountered an error while attempting to log in. %s' => 'El proveïdor d\'autenticació ("%s") ha trobat un error en intentar iniciar la sessió. %s',
       'There are no matching factors to strip.' => 'No hi ha cap factor de coincidència per a despullar.',
@@ -551,7 +533,6 @@ final class PhabricatorAuthCa
       'The account you are attempting to link is already linked to your account.' => 'El compte que intenteu enllaçar ja està enllaçat amb el vostre compte.',
       'Enter the code from the text message which was sent to your primary contact number.' => 'Introduïu el codi del missatge de text que s\'ha enviat al vostre número de contacte principal.',
       'JIRA Instance Name' => 'Nom de la instància JIRA',
-      'This Phabricator install requires you to enable Secure Browsing on your Facebook account in order to use it to log in to Phabricator. For more information, see %s' => 'Aquesta instal·lació de Phabricator requereix que activeu la navegació segura al vostre compte de Facebook per utilitzar-la per iniciar la sessió a Phabricator. Per obtenir més informació, vegeu %s',
       'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'L\'extensió PHP \'openssl\' no està instal·lada. Heu d\'instal·lar aquesta extensió per afegir un proveïdor d\'autenticació JIRA, ja que les sol·licituds JAI OAuth utilitzen l\'algorisme de signatura RSA-SHA1. Instal·leu l\'extensió \'openssl\', reinicieu Phabricator i torneu-ho a provar.',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'No s\'ha pogut carregar el secret de testimonis OAuth1 des de l\'emmagatzematge.  Pot haver caducat. Torna a provar l\'autenticació.',
       'This private key requires a passphrase, but no passphrase was provided. Check that you supplied the correct key, or provide the passphrase.' => 'Aquesta clau privada requereix una contrasenya, però no s\'ha proporcionat cap contrasenya. Comproveu que heu proporcionat la clau correcta o proporcioneu la contrasenya.',

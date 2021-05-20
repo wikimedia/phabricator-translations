@@ -282,7 +282,6 @@ final class PhabricatorDiffusionTr
       'Parameter "%s" is required if "%s" is provided.' => '"%2$s" belirtilmişse "%1$s" parametresi gereklidir.',
       'This path was a submodule at %s.' => 'Bu yol %s değerinde bir alt modüldü.',
       'Audit Actions' => 'Denetim Eylemleri',
-      '%s vs %s' => '%s - %s',
       'Disallow Git LFS' => 'Git LFS\'ye izin verme',
       '(This commit has not been fully parsed yet.)' => '(Bu taahhüt henüz tam olarak ayrıştırılmadı.)',
       'Branch Closed' => 'Dal Kapalı',
@@ -369,7 +368,6 @@ final class PhabricatorDiffusionTr
       'Git LFS operation "%s" is not supported by this server.' => 'Git LFS işlemi "%s" bu sunucu tarafından desteklenmiyor.',
       'URI I/O behavior.' => 'URI I/O davranışı.',
       'This credential will no longer be used to authenticate activity against this URI.' => 'Bu kimlik bilgisi artık bu URI\'ye karşı etkinliğin kimliğini doğrulamak için kullanılmayacak.',
-      'Pushed' => 'Push yapıldı',
       'All Pull Logs' => 'Tüm Pull Günlükleri',
       'Unknown Mercurial key namespace \'%s\', with key \'%s\' (%s -> %s). Rejecting push.' => 'Bilinmeyen Mercurial anahtar ad alanı \'%s\', anahtar \'%s\' (%s -> %s). Push reddediliyor.',
       'The raw text of this change ("%s") is enormous (larger than %s bytes).' => 'Bu değişikliğin ham metni ("%s") çok büyük (%s bayttan büyük).',
@@ -491,7 +489,6 @@ final class PhabricatorDiffusionTr
       'You can not resign from this commit because you are not an active auditor.' => 'Aktif bir denetçi olmadığınız için bu taahhütten istifa edemezsiniz.',
       'Failed to load diff ("%s") for this change.' => 'Bu değişiklik için fark ("%s") yüklenemedi.',
       'Commit "%s" is not a valid commit in this repository.' => '"%s" taahhüdü bu depoda geçerli bir taahhüt değil.',
-      'Authored by %s.' => 'Yazar: %s.',
       'No Audits' => 'Denetim Yok',
       'This function allows you to find results for any of the `.
               `repositories of a project:
@@ -745,7 +742,6 @@ final class PhabricatorDiffusionTr
       'Diff is enormous' => 'Fark çok büyük',
       'Remove Password' => 'Parolayı Kaldır',
       'No commits are waiting for you to audit them.' => 'Onları denetlemenizi bekleyen hiçbir taahhüt yok.',
-      'History Graph' => 'Geçmiş Grafiği',
       'Still Importing...' => 'Hala İçe Aktarılıyor...',
       'Error %d: %s' => 'Hata %s: %s',
       'Diffusion Repositories' => 'Difüzyon Depoları',

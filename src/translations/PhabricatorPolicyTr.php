@@ -135,7 +135,6 @@ final class PhabricatorPolicyTr
       'Policy \'%s\' is not a global policy!' => '\'%s\' politikası küresel bir politika değil!',
       'You do not have permission to join this object.' => 'Bu nesneye katılma izniniz yok.',
       '%s with user %s should succeed.' => '%2$s kullanıcısı ile %1$s başarılı olmalı.',
-      'View Policy' => 'Politikayı Görüntüle',
       'This object has an unknown or invalid policy setting ("%s").' => 'Bu nesnenin bilinmeyen veya geçersiz bir politika ayarı var ("%s").',
       'This object has special rules which override normal object policy rules:' => 'Bu nesnenin normal nesne politikası kurallarını geçersiz kılan özel kuralları vardır:',
       'Can Join' => 'Katılabilir',

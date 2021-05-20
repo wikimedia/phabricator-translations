@@ -46,7 +46,6 @@ final class PhabricatorSearchZhHans
       'Search Ngram' => '搜索Ngram',
       'Enable Menu Item' => '启用菜单项',
       'Global Saved Queries' => '全域保存查询',
-      'Indexing %d object(s) of type %s.' => '正在索引%s个类型%s的项目。',
       'Configure Menu' => '配置菜单',
       'Bucket' => '桶',
       'Query Errors' => '查询错误',

@@ -77,7 +77,6 @@ final class PhabricatorextCoreFrFR
       'MediaWiki Base URI' => 'URI de la base MediaWiki',
       'The requested project does not exist' => 'Le projet demandé n’existe pas.',
       'Burnup Graph' => 'Graphique de consommation',
-      'Any open subtask(s) block the train from moving forward.This means no further deployments until the blockers are resolved.' => 'Toute sous-tâche ouverte bloquera l’avancement du train. Ceci signifie qu’il n’y aura plus d’autres déploiements tant que les éléments bloquants ne seront pas résolus.',
       'Change type to "%s."' => 'Changer le type en « %s ».',
       'Execute searches for Policies.' => 'Exécute des recherches de politiques.',
       'Find public transactions by a particular user.' => 'Trouver les transactions publiques d’un utilisateur donné.',

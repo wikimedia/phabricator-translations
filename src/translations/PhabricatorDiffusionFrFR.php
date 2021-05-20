@@ -300,7 +300,6 @@ final class PhabricatorDiffusionFrFR
       'Parameter "%s" is required if "%s" is provided.' => 'Le paramètre « %s » est requis si « %s » est fourni.',
       'This path was a submodule at %s.' => 'Ce chemin était un sous-module à %s.',
       'Audit Actions' => 'Actions d’Audit',
-      '%s vs %s' => '%s vs %s',
       'Disallow Git LFS' => 'Interdire Git LFS',
       '(This commit has not been fully parsed yet.)' => '(Cette validation n’a pas encore été complètement analysée.)',
       'Branch Closed' => 'Branche fermée',
@@ -390,7 +389,6 @@ final class PhabricatorDiffusionFrFR
       'Git LFS operation "%s" is not supported by this server.' => 'L\'opération Git LFS « %s » n\'est pas prise en charge par ce serveur.',
       'URI I/O behavior.' => 'Comportement d\'URI entrée/sortie.',
       'This credential will no longer be used to authenticate activity against this URI.' => 'Ce certificat ne sera plus utilisé pour authentifier l\'activité sur cet URI.',
-      'Pushed' => 'Poussé',
       'All Pull Logs' => 'Tous les journaux d’appels',
       'Unknown Mercurial key namespace \'%s\', with key \'%s\' (%s -> %s). Rejecting push.' => 'Clé Mercurial inconnue; espace de noms \'%s\', avec la clé \'%s\' (%s -> %s). Poussée refusée.',
       'The raw text of this change ("%s") is enormous (larger than %s bytes).' => 'Le texte brut de cette modification (« %s ») est énorme (plus grand que %s octets).',
@@ -526,7 +524,6 @@ final class PhabricatorDiffusionFrFR
       'You can not resign from this commit because you are not an active auditor.' => 'Vous ne pouvez pas démissionner de cette validation parce que voous n\'êtes pas un auditeur actif.',
       'Failed to load diff ("%s") for this change.' => 'Échec de chargement du diff (« %s ») pour cette modification.',
       'Commit "%s" is not a valid commit in this repository.' => 'La validation « %s » n’est pas valide dans ce dépôt.',
-      'Authored by %s.' => 'Détenu par %s.',
       'No Audits' => 'Aucun audit',
       'This function allows you to find results for any of the `.
               `repositories of a project:
@@ -837,7 +834,6 @@ final class PhabricatorDiffusionFrFR
       'Diff is enormous' => 'Le diff est énorme',
       'Remove Password' => 'Supprimer le mot de passe',
       'No commits are waiting for you to audit them.' => 'Aucune validation n’attend que vous l’auditiez.',
-      'History Graph' => 'Graphe de l’historique',
       'Still Importing...' => 'Toujours en cours d’importation…',
       'Error %d: %s' => 'Erreur %s : %s',
       'Diffusion Repositories' => 'Dépôts de Diffusion',

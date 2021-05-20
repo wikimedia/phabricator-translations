@@ -88,7 +88,6 @@ final class PhabricatorPolicyCa
     En activar aquest paràmetre s\'obriran immediatament algunes funcionalitats, com ara el directori d\'usuari. Qualsevol persona a Internet podrà accedir a aquestes funcionalitats. 
     Amb aquest paràmetre inhabilitat, la política "pública" no està disponible, i la política més oberta és "Tots els usuaris" (el que significa que els usuaris han de tenir comptes i estar connectats per veure les coses).',
       'Capability "%s" does not exist.' => 'L\'aptitud \'%s\' no existeix.',
-      'Unlock an object which has policies that prevent it from being viewed or edited.' => 'Desbloqueja un objecte que tingui polítiques que impedeixin la seva visualització o edició.',
       'OBJECT' => 'OBJECTE',
       'Note:' => 'Nota:',
       'You do not have permission to view policy details.' => 'No teniu permís per veure els detalls de la política.',
@@ -148,7 +147,6 @@ final class PhabricatorPolicyCa
       'You do not have permission to join this object.' => 'No teniu permís per unir aquest objecte.',
       'If no rules match, %s all other users.' => 'Si no hi ha regles coincidents, %s la resta d\'usuaris.',
       '%s with user %s should succeed.' => '%s amb l\'usuari %s hauria de tenir èxit.',
-      'View Policy' => 'Veure la política',
       'This object has an unknown or invalid policy setting ("%s").' => 'Aquest objecte té un paràmetre de política desconegut o no vàlid (\'%s\').',
       'UNLOCKED' => 'DESBLOQUEJAT',
       'This object has special rules which override normal object policy rules:' => 'Aquest objecte té regles especials que anul·len les regles normals de la política d\'objectes:',

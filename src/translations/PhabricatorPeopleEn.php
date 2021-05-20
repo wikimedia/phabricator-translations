@@ -237,6 +237,7 @@ final class PhabricatorPeopleEn
       'Save Profile' => 'Save Profile',
       'You do not have permission to disable or enable users.' => 'You do not have permission to disable or enable users.',
       'Pass true to find only bots, or false to omit bots.' => 'Pass true to find only bots, or false to omit bots.',
+      'This user can not see this object.' => 'This user can not see this object.',
       'To permanently destroy this user, run this command from the command line:' => 'To permanently destroy this user, run this command from the command line:',
       'No recent revisions.' => 'No recent revisions.',
       'Can\'t remove primary email!' => 'Can\'t remove primary email!',

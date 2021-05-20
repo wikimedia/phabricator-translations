@@ -246,6 +246,7 @@ final class PhabricatorAuthEn
       '(You can not terminate your current login session. To terminate it, log out.)' => '(You can not terminate your current login session. To terminate it, log out.)',
       'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => 'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.',
       'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)',
+      'Yes (Optional)' => 'Yes (Optional)',
       'Access token error: %s' => 'Access token error: %s',
       'Cached PKCS8 key for public key.' => 'Cached PKCS8 key for public key.',
       'Username Change Instructions' => 'Username Change Instructions',
@@ -256,23 +257,6 @@ final class PhabricatorAuthEn
       'Duo' => 'Duo',
       'Application ID is required.' => 'Application ID is required.',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'You do not have a linked account on this provider, and thus can not refresh it.',
-      'To configure Facebook OAuth, create a new Facebook Application here:
-    https://developers.facebook.com/apps
-    You should use these settings in your application:
-      - **Site URL**: Set this to `%s`
-      - **Valid OAuth redirect URIs**: You should also set this to `%s`
-      - **Client OAuth Login**: Set this to **OFF**.
-      - **Embedded browser OAuth Login**: Set this to **OFF**.
-    Some of these settings may be in the **Advanced** tab.
-    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'To configure Facebook OAuth, create a new Facebook Application here:
-    https://developers.facebook.com/apps
-    You should use these settings in your application:
-      - **Site URL**: Set this to `%s`
-      - **Valid OAuth redirect URIs**: You should also set this to `%s`
-      - **Client OAuth Login**: Set this to **OFF**.
-      - **Embedded browser OAuth Login**: Set this to **OFF**.
-    Some of these settings may be in the **Advanced** tab.
-    After creating your new application, copy the **App ID** and **App Secret** to the fields above.',
       'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => 'Use the **OAuth App Notes** field to record details about which account the external application is registered under.',
       'firstname, lastname' => 'firstname, lastname',
       'Minimum length of %d characters.' => 'Minimum length of %s characters.',
@@ -365,7 +349,6 @@ final class PhabricatorAuthEn
       'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.',
       'Another user already has that email.' => 'Another user already has that email.',
       'You already have a provider of this type.' => 'You already have a provider of this type.',
-      '%s Require users to enable \'secure browsing\' on Facebook in order to use Facebook to authenticate with Phabricator. This improves security by preventing an attacker from capturing an insecure Facebook session and escalating it into a Phabricator session. Enabling it is recommended.' => '%s Require users to enable \'secure browsing\' on Facebook in order to use Facebook to authenticate with Phabricator. This improves security by preventing an attacker from capturing an insecure Facebook session and escalating it into a Phabricator session. Enabling it is recommended.',
       'Type of the MFA provider.' => 'Type of the MFA provider.',
       'Your account has been disabled.' => 'Your account has been disabled.',
       'JIRA base URI should include protocol (like "https://").' => 'JIRA base URI should include protocol (like "https://").',
@@ -506,7 +489,6 @@ final class PhabricatorAuthEn
       'You are already logged in.' => 'You are already logged in.',
       'Wait For Approval Instructions' => 'Wait For Approval Instructions',
       'Link LDAP Account' => 'Link LDAP Account',
-      '%s turned "Require Secure Browsing" off.' => '%s turned "Require Secure Browsing" off.',
       'ldap.example.com' => 'ldap.example.com',
       'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").',
       'Disable Number' => 'Disable Number',
@@ -668,7 +650,6 @@ final class PhabricatorAuthEn
       'Auth Challenge' => 'Auth Challenge',
       'No Matching Sessions' => 'No Matching Sessions',
       'Expected "newResultFromIssuedChallenges()" to return null or an object of class "%s"; got something else (in "%s").' => 'Expected "newResultFromIssuedChallenges()" to return null or an object of class "%s"; got something else (in "%s").',
-      'Require Secure Browsing:' => 'Require Secure Browsing:',
       'Auth provider failed to load an account from %s!' => 'Auth provider failed to load an account from %s!',
       'Provider Enabled' => 'Provider Enabled',
       'Newly registered user "%s" is awaiting account approval by an administrator.' => 'Newly registered user "%s" is awaiting account approval by an administrator.',
@@ -759,6 +740,15 @@ final class PhabricatorAuthEn
       'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.' => 'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.',
       'Unable to find LDAP account!' => 'Unable to find LDAP account!',
       'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.',
+      'To configure Facebook OAuth, create a new Facebook Application here:
+    https://developers.facebook.com/apps
+    You should use these settings in your application:
+    %s
+    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'To configure Facebook OAuth, create a new Facebook Application here:
+    https://developers.facebook.com/apps
+    You should use these settings in your application:
+    %s
+    After creating your new application, copy the **App ID** and **App Secret** to the fields above.',
       'Too many login failures recently. You must submit a CAPTCHA with your login request.' => 'Too many login failures recently. You must submit a CAPTCHA with your login request.',
       'Specified pkcs8 keyfile "%s" does not exist!' => 'Specified pkcs8 keyfile "%s" does not exist!',
       'To configure Twitch.tv OAuth, create a new application here:
@@ -886,7 +876,6 @@ final class PhabricatorAuthEn
       'Mobile App (TOTP)' => 'Mobile App (TOTP)',
       'Expected valid JSON response from Google account data request.' => 'Expected valid JSON response from Google account data request.',
       'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.',
-      '%s turned "Require Secure Browsing" on.' => '%s turned "Require Secure Browsing" on.',
       'The invite code in the link you clicked has already been accepted.' => 'The invite code in the link you clicked has already been accepted.',
       'No outbound mailer which can deliver SMS messages is configured.' => 'No outbound mailer which can deliver SMS messages is configured.',
       'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'If you leave high security, you will need to authenticate again the next time you try to take a high security action.',
@@ -918,7 +907,6 @@ final class PhabricatorAuthEn
       'JIRA Instance Name' => 'JIRA Instance Name',
       '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s updated the OAuth application ID for this provider from "%s" to "%s".',
       '%s enabled registration.' => '%s enabled registration.',
-      'This Phabricator install requires you to enable Secure Browsing on your Facebook account in order to use it to log in to Phabricator. For more information, see %s' => 'This Phabricator install requires you to enable Secure Browsing on your Facebook account in order to use it to log in to Phabricator. For more information, see %s',
       'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.',
       'Auth Message %d' => 'Auth Message %s',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.',
