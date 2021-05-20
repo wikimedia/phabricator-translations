@@ -275,6 +275,7 @@
   "9a2e71f6909c82f5": "Comma-separated list of task monograms.",
   "9a45eade4f595805": "$1 edited $2 commit(s) for $3, added $4: $5; removed $6: $7.",
   "9a4aa98c3d363586": "Set title to",
+  "9a7405ebcedde5be": "Graph",
   "9b84c28800998bc2": "Retrieve information about a Maniphest task, given its ID.",
   "9c0ce18c242b3e1c": "Search for tasks owned by a user from a list.",
   "9c8abe490400d905": "$1 assigned $2 to $3.",

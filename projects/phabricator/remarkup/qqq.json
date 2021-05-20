@@ -1,8 +1,5 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"0d8ce2e5f2f5c697": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$14 RemarkupProcessConduitAPIMethod.php:14]",
-	"10b6fba9ee332699": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$24 RemarkupProcessConduitAPIMethod.php:24]",
-	"6321788d1438c68a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$23 RemarkupProcessConduitAPIMethod.php:23]"
+  "0d8ce2e5f2f5c697": "Used in:\n\nRemarkupProcessConduitAPIMethod.php:14\n",
+  "10b6fba9ee332699": "Used in:\n\nRemarkupProcessConduitAPIMethod.php:24\n",
+  "6321788d1438c68a": "Used in:\n\nRemarkupProcessConduitAPIMethod.php:23\n"
 }

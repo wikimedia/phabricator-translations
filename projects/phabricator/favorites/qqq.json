@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"2d8e5d1a2409c0e5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/favorites/engine/PhabricatorFavoritesProfileMenuEngine.php$40 PhabricatorFavoritesProfileMenuEngine.php:40]",
-	"7707d701c139b8c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/applications/favorites/application/PhabricatorFavoritesApplication.php$14 PhabricatorFavoritesApplication.php:14]"
+  "2d8e5d1a2409c0e5": "Used in:\n\nPhabricatorFavoritesProfileMenuEngine.php:40\n",
+  "7707d701c139b8c4": "Used in:\n\nPhabricatorFavoritesApplication.php:14\n"
 }
