@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"Melissadilara"
 		]
 	},
 	"04850b7990a815ff": "Tüm İmzalar",
@@ -10,6 +11,7 @@
 	"07d9050154b40d3c": "Yeni Belge Oluştur",
 	"0ad7861e87bf85e4": "Gerekli imza türü",
 	"0edd6d6666dbb904": "İmzalı",
+	"0eedf201cc2c098b": "İmzanın türü.",
 	"115148a2acf779f3": "İmza Türü",
 	"168214c86a5e4e8e": "$1 belge imza türünü güncelledi.",
 	"19bc711e97cf6980": "$1, $2 belgesini imza gerektirecek şekilde ayarladı.",
@@ -79,6 +81,7 @@
 	"8a812d80dec51274": "BELGE",
 	"8c3d210fcac4b618": "Belge imzaları iste: $1.",
 	"8cf8a1543b5f53fe": "Güncelleyen",
+	"90874762e414a229": "İmzalayanın adı.",
 	"99281f491a9a570f": "Belirtilen e-posta adresi bir hesapla ilişkili. Lütfen bu hesaba giriş yapın ve bu belgeyi tekrar imzalayın.",
 	"997a37493cf96984": "$1, belge giriş sayfasını güncelledi.",
 	"9af39884d0c3f332": "Şirketler",
@@ -106,6 +109,7 @@
 	"b5183148db646d44": "$1, başlangıçtaki belgeyi $2 güncelledi.",
 	"b6fc126a6919cdcb": "Legalpad Kullanıcı Kılavuzu",
 	"b8522b15bf083f3b": "$1, belgeyi imza gerektirmeyecek şekilde ayarlardı.",
+	"b87c9b5609c90c01": "İmzalayanın eposta adresi.",
 	"b9192159a1ba2d65": "Giriş yapmadığınız sürece bir şirket adına bir belge imzalayamazsınız.",
 	"ba22363e897c0d6d": "Muafiyet Eden",
 	"bcac1a3be20c12e5": "Kim İmzalamalı?",

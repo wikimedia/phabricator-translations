@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Melissadilara"
 		]
 	},
 	"0169751a40ee94eb": "HTML Gövde Kaldırıldı",
@@ -52,6 +53,7 @@
 	"297338f5e2f3f971": "Hesabınız (\"$1\") devre dışı, bu nedenle Phabricator ile e-posta üzerinden etkileşim kuramıyorsunuz.",
 	"2a7de9e9ff1b7720": "Bu posta, bir nesnenin genel e-posta adresine (\"$1\") yöneliktir, ancak bu Phabricator yüklemesinde genel yanıtlar etkin değildir. Bir yönetici bu ayarı yakın zamanda devre dışı bırakmış olabilir veya eski bir mesajı cevaplamış olabilirsiniz. Bunun yerine daha yeni bir mesaja cevap vermeye çalışın.",
 	"2b660b75a06907ce": "Bu alıcı, bazı teslimat ayarlarını geçersiz kılan Herald'da \"Bana E-posta Gönder\" kuralı ile eklendi.",
+	"2b6b3cb371bb40d9": "SMTP (AWS)",
 	"2c9245889356d11d": "\"Teslim Edildi\" aslında gönderilen e-postayı gösterir.",
 	"2e1928d0bf944cad": "PhabricatorMetaMTAApplication",
 	"2e4c13b671b53b30": "İlgili PHID",
@@ -98,6 +100,7 @@
 	"4c9e328d0ddaf3ac": "Etiket tercihi, alıcıları hariç tutar.",
 	"4d127347580a1da0": "Yinelenen Mesaj",
 	"4dc151785ef287ce": "Bu postanın içeriği duyarlıdır ve web kullanıcı arayüzünden görüntülenemez.",
+	"4e0edde0195ba362": "Amazon SES",
 	"4f5cf7a38b11450a": "Etkili Kural",
 	"4f60c630819f8170": "Bu e-mail adresi zaten kullanımda.",
 	"4f69912eb113dd44": "Bu kullanıcı bir bottur; bot hesapları posta alamaz.",

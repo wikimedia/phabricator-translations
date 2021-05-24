@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Elisa3626",
-			"Joseph"
+			"Joseph",
+			"Melissadilara"
 		]
 	},
 	"005bfb7a94bf7cfb": "12 Saat, 2:34 ÖS",
@@ -46,6 +47,7 @@
 	"2cceaf55d82ea2a5": "Kaynak kodu dahil, monospaced metin gösterilirken kullanılan yazı tipini özelleştirebilirsiniz. `13px Consolas` gibi bir geçerli CSS fontu bildirimi girmelisiniz:",
 	"2d3730312665bf0e": "Kendi Eylem Postasını Etkinleştir",
 	"2dcc1fdd35bf7ff3": "Herhangi bir SSH Genel Anahtarı eklemediniz.",
+	"2f3d79cce553b9ba": "MacVim",
 	"30b7fd73153b99d5": "Tüm Mesajlar",
 	"337e64d259e77cf6": "Bu tarayıcıya, bu Phabricator örneği için masaüstü bildirimleri gönderme izni verildi.",
 	"36117ed91792ecee": "Tercihi Kaydet",
@@ -110,6 +112,7 @@
 	"781b13031392e2f6": "Saat Dilimini Değiştir",
 	"79c6a1bb608f6490": "DarkConsole Görünür",
 	"7a1af350e9b67868": "DarkConsole, Phabricator uygulamalarını geliştirmek ve sorun gidermeye yönelik bir hata ayıklama konsoludur. DarkConsole'u etkinleştirdikten sonra, açıp kapatmak için klavyenizdeki {nav `} tuşuna basın.",
+	"7bc3e8644ee23191": "Desteklenen Protokol",
 	"7c4edd10b1b06961": "Hesabınıza çok hızlı bir şekilde çok fazla e-posta adresi ekliyorsunuz.",
 	"7cfdf1b0860d1c83": "E-posta ile gönderildiğinde ve bildirildiğinde kişiselleştirmek için **Uygulama Ayarları** ayarını yapabilirsiniz.\n\n| Ayar | Etki\n| ------- | -------\n| ;E-posta | Bir e-posta ve bir bildirim alacaksınız, ancak bildirim \"oku\" olarak işaretlenecek.\n| Bildirim | Yalnızca okunmamış bir bildirim alacaksınız.\n| Yoksay | Hiçbir şey almayacaksınız.\n\n\nBir güncelleme birkaç değişiklik yaparsa (bir göreve CC'ler eklemek, onu kapatmak ve bir yorum eklemek gibi), değişikliklerden herhangi birinin iletmek üzere yapılandırıldığı en güçlü bildirimi alırsınız.\n\nBu tercihler **yalnızca** bağlı olduğunuz nesneler için geçerlidir (örneğin, bir gözden geçirici olduğunuz Revizyonlar veya CC’de bulunduğunuz görevler). Başka nesneler oluşturulduğunda e-posta uyarıları almak için, [[ /herald/ | Herald Kuralları ]] yapılandır.",
 	"7d21dfb30b82c12c": "Mevcut parolanızı girmelisiniz.",

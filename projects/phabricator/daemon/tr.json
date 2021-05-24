@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Melissadilara"
 		]
 	},
 	"010f4cc420dbd262": "Geçici Arızalar",
@@ -28,6 +29,7 @@
 	"25f3eb06c021a83f": "Bu arka plan programı son zamanlarda bir hatayla karşılaştı ve yeniden başlatılması için bir dakika bekliyor.",
 	"267a976886d797ea": "Daemon $1 $2 [$3] $4",
 	"2914c3df87160a3a": "Yaklaşan etkinlik tetikleyicisi yok.",
+	"3259ad677ea8278a": "DURDUR",
 	"32a5e7d5e46eb3bd": "Hangi arka plan programının başlatılacağını belirtmelisiniz.",
 	"33a6bddbd490cf30": "Arka plan programı yapılandırılmış $1 yerine geçerli kullanıcı olarak çalıştırın",
 	"376fbfc9a4be4650": "Kilit günlüğünü etkinleştirme.",
@@ -56,6 +58,7 @@
 	"55fdfd8fa3a3ecd5": "Onay Bekliyor",
 	"56564dcb2a15c30e": "Görüldü",
 	"568ae0f9cfb6cd25": "Bu arka plan programı normal çalışıyor ve son zamanlarda bir durum güncellemesi bildirdi ($1 dahilinde). İşlem şu anda hazırda bekletme modunda olduğu veya bir hatayla karşılaştığı için yeniden başlatılmayı bekliyor.",
+	"58e003f5e94108b6": "YENİLE",
 	"5b3316dfe485313a": "$1 görev kiralaması serbest bırakıldı.",
 	"5d155655c6e23cea": "Tüm arka plan programları veya kimlikle tanımlanan bazı arka plan programlarının günlüklerini yazdırın. Web arabirimindeki Daemon Console'dan bir arka plan programı kimliği alabilirsiniz.",
 	"5d9dd13a55a19012": "Kira Süresi Doluyor",

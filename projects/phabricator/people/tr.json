@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
-			"LuCKY"
+			"LuCKY",
+			"Melissadilara"
 		]
 	},
 	"00c0cf3b69c5a54c": "Kitap",
@@ -277,6 +278,7 @@
 	"c1bc48ee436f0434": "Otomatik betikleriyle kullanmak için yeni bir kullanıcı oluşturun.",
 	"c1faabc1d40aaf24": "$1 bu kullanıcıyı reddetti.",
 	"c33ff01f3b013690": "Kullanıcıları onaylamak için yönetici olmanız gerekir.",
+	"c3954da065f4cf52": "Harici Hesap Tanımlayıcı",
 	"c4373b9d02051927": "Boru: Sertifikayı Oku",
 	"c43e4bf2f1c2cc2e": "**Bot hesaplarının neden bir e-posta adresine ihtiyacı var?**\n\nBotlar normalde Phabricator'dan e-posta almasalar da, e-posta adresi gerektiren diğer sistemlerle etkileşime girebilirler. Örnekler şunları içerir:\n\n  - Hesap e-posta gönderen eylemler gerçekleştirirse, başlığında kullanmak için bir adrese ihtiyacımız var.\n  - Hesap taahhüt ederse Git ve Mercurial, yazarlık için bir e-posta adresi ister.\n  - Hesap adına Phabricator'a e-posta gönderirseniz, adres göndereni tanımlayabilir.\n  - Bazı dahili kimlik doğrulama işlevleri, bir e-posta adresine sahip hesaplara bağlıdır.\n\n\nAdres otomatik olarak doğrulanacaktır, bu nedenle bu adreste posta alabilmeniz gerekmez ve eğer istersen `bot@yourcompany.com` gibi bazı geçersiz veya varolmayan (ancak doğru biçimlendirilmiş) bir adres girebilirsiniz.",
 	"c452adfe90e4ef26": "Onay Sırası",
@@ -285,10 +287,12 @@
 	"c4c061d266032ace": "Mail Listesi",
 	"c610920a5e753045": "Yöneticiler tüm etkinlikleri her zaman görüntüleyebilir.",
 	"c7ef2edb54168e52": "Bilgilerinizi yalnızca siz düzenleyebilirsiniz.",
+	"c97257c380c3a19b": "Kullanıcıyı silmek için çok iyi bir sebebin yoksa, silmek yerine pasifleştirmeyi düşünebilirsin.",
 	"cd280a41f75884f7": "Profil Düzenle",
 	"cf614f7522cb8544": "Yalnızca Posta Listelerini Göster",
 	"cfa1596297c15ab4": "Doğrulanmış e-posta adresleri atanamaz.",
 	"d0652d5a3d5daf73": "Sahiplere Göz At",
+	"d3e022ee9d599c29": "Pasifleştirilmiş kullanıcı hesabını etkinleştir.",
 	"d3e8e92a94f192f4": "Kullanıcı Devre Dışı",
 	"d4a0db84ae565c22": "Bir kullanıcının ne zaman uzakta veya meşgul olduğunu gösterir.",
 	"d56175f27b486f9b": "Giriş talimatlarını içeren \"Phabricator'a Hoş Geldiniz\" e-posta gönder.",

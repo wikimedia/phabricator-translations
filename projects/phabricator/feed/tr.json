@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Melissadilara"
 		]
 	},
 	"027c66bf37c9a3b4": "Yayınlamadan önce $1 arayın!",
@@ -33,10 +34,12 @@
 	"a418c6e77070bf09": "Hikaye Yok.",
 	"ac176a12354104c8": "Hikaye yalnızca hikayenin başlığını içerir",
 	"b514a33de5976d6f": "Desteklenmeyen görünüm türü, olasılıklar: $1",
+	"cbf8d5af41f5f940": "İşlem Kütüğü",
 	"d71554dcbd4bcbf6": "\"$1\" işaretleme alan anahtarını almaya çalışıyor, ancak bu yayın öyküsü oluşturulmasını istemedi.",
 	"db3e708141b47436": "Yayın Hikayeleri",
 	"df541f9c771075dc": "Bilinmeyen görüntü oluşturma hedefi: $1",
 	"df64eb386033ce8a": "Üyesi olduğum projelerle ilgili hikayeleri dahil et.",
+	"f46e1df2f8517c82": "Tüm İşlemler",
 	"f972df1e479c68f3": "Öykü türü geçerli bir sınıf adı olmalı ve $1 alt sınıfını almalıdır. '$2' yüklenebilir bir sınıf değil.",
 	"fc089d61f5c74d73": "Yayın hikayesi (\"$1\" tuşuyla) mevcut değil veya yüklenemedi.",
 	"fe8f5568d1a9988f": "Son Etkinliği İnceleyin"

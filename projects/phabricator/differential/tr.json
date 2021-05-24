@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
+			"Melissadilara",
 			"MuratTheTurkish",
 			"Satirdan kahraman"
 		]
@@ -156,6 +157,7 @@
 	"29f215607a30c85b": "Bu revizyonun deposunu değiştirin.",
 	"2a58ee1a16beef05": "Yorum ekle: $1.",
 	"2ab06e252c492cf3": "Kaydedilmedi",
+	"2ac3715b6b418a72": "Kimseye Söyleme",
 	"2acb961590089e1c": "Revizyon Oluştur",
 	"2ae8d8c145aa9520": "Bu revizyonda değişiklik planlayamazsınız çünkü ona sahip değilsiniz. Sadece bir revizyonun yazarı, üzerinde değişiklikler planlayabilir.",
 	"2aeeae044b178350": "Bu düzeltme için değişikliklerin devam etmesi gerekiyor.",
@@ -246,6 +248,7 @@
 	"42975e536f82d353": "$1, bu revizyonun deposunu $2 üzerinden $3 değiştirdi.",
 	"43c6d2769951d368": "İstenen İnceleme",
 	"44615e52f32d1f53": "Ek $1 ayrıştırılamadı; yalnızca \"diff\" komutları ile oluşturulan ekler (ve posta gövdeleri) ayrıştırılabilir.",
+	"44656685cee723b1": "Düzenleme Öner",
 	"4476b230538543d0": "Komutan bir revizyon.",
 	"44976b9d11d7abdf": "Bu revizyonun yazarı gerekli tüm yasal belgeleri imzalamamıştır. Belgeler imzalanıncaya kadar revizyon kabul edilemez.",
 	"44f7441a58f3fba4": "Kapalı olmadığı için bu düzeltmeyi yeniden açamazsınız. Yalnızca kapalı revizyonlar yeniden açılabilir.",
@@ -468,6 +471,7 @@
 	"8a31bf61f992029f": "Bir revizyonu kabul ederken, en az bir gözden geçiren adına kabul etmelisiniz.",
 	"8a5b668503b1d2df": "Taahhüt Öncesi İnceleme",
 	"8abd13c4b5611993": "Birden Fazla Kopyadan Sonra Silindi",
+	"8ae1c34bd37fad49": "Sol",
 	"8b6faf0ae76256bc": "Bu yorum ilk olarak $1 satırında göründü, ancak bu satır farkın bu sürümünde mevcut değil. En yakın hatta geri taşındı.",
 	"8b73008d34fe0cfa": "$1 derleme başarısız olduğu için bu taslak revizyon  incelemeye gönderilmeyecek: $2.",
 	"8b750e811c6abb62": "Belirli inceleyicileri revizyon bulun.",
@@ -509,6 +513,7 @@
 	"9481012fdefd34cd": "Bu dosya tamamen silindi.",
 	"94cf7541a6b75bec": "$1, $2 benimsedi.",
 	"952b36caa6cd76aa": "Revizyonu taslak gibi tutun.",
+	"954daa8b00335c66": "Sağ",
 	"95ef0340db4240ad": "$1 taahhüdü düzenledi, $2 eklendi: $3; $4 kaldırıldı: $5.",
 	"960cebdd4110bef3": "Normal olarak, Diferansiyel revizyonlar \"Kabul Edildiklerinde\" kontrol panelinde kalır ve yazar daha sonra düzeltmeyi \"Kapat\" ve gösterge tablosundan çıkarmak için değişiklikleri yapar.\n\nİşlem sonrası inceleme için Diferansiyelin kullanıldığı (normalde Phabricator'ın başka bir yerinde \"Denetim\" olarak adlandırılan) olağandışı bir iş akışınız varsa, bu bayrağı \"Kabul Edildi\" durumunu \"Kapalı\" durumu olarak ele alacak ve inceleme iş akışını sona erdirecek şekilde ayarlayabilirsiniz.\n\nBu tür bir iş akışı çok sıra dışı. Bu seçeneği değiştirmek için çok az kurulum gerekir.",
 	"968e6c981b4cd20e": "Asana'da revizyon temsilini gösterir.",

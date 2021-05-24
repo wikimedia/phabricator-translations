@@ -1,13 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Melissadilara"
 		]
 	},
 	"082d1ecea396e7c3": "İmleçleri yok sayarak baştan analiz edin.",
 	"09477b727f04e230": "Yineleyici '$1' mevcut değil.",
+	"0b356ea8e0756a91": "Veriyi Görüntüle",
 	"0ef5d021f674ecb8": "Gerçek analiz cihazlarını manüel olarak çağırın.",
 	"1891c2c639dd8960": "Hiçbir gerçek motor bu amaç için gerçekler üretmeyi desteklememektedir.",
+	"23eb4d3f4155395a": "Y",
 	"322724a05c59a292": "Bir olgu sorgusu yürütmek gerçekleri gerektirir.",
 	"349aa7705dd0f5e1": "Yalnızca yineleyici __adını__ işleyin.",
 	"38c151affca2ef86": "İmleç $1 mevcut değil veya sıfırlandı.",
@@ -16,12 +19,14 @@
 	"45e147abd920eeb1": "Boyut",
 	"493d34ee9a6faacb": "$1 İşleniyor...",
 	"4cd18078dbb04167": "Depolanan Veri Noktası Yok",
+	"562597441eed5621": "cos(x)",
 	"5ded511d57b0065b": "$1ms",
 	"600b7712709b38eb": "İmleç '$1' işleniyor.",
 	"65313363140c52d7": "Gerçek motorlarının bir listesini göster.",
 	"68ff38ff3badd89b": "Verileri Grafikle ve Analiz Et",
 	"7b6ed5e5a221e6b8": "Gerçekten tüm gerçekleri yok edilsin mi? Zaman alabilecek analizlerle yeniden yapı edilmeleri gerekecek.",
 	"7d6e797167bf385b": "$1 (İşlemler)",
+	"8a3b484c6e7b7359": "constant(345)",
 	"927dd24e89ebab23": "Gerçek yineleyiciler ve imleçlerin bir listesini göster.",
 	"9b1f4a23f4f45cb6": "\"$2\" boyut anahtarı için boyut kimliği (\"$1\") yüklenemedi ya da üretilemedi.",
 	"a9f2de63e9a59bb7": "Tüm gerçekleri yok et.",
@@ -29,6 +34,7 @@
 	"b3edf52b7321477f": "İmleci $1 sıfırlanıyor...",
 	"b986a866d46a17a0": "Depolanmadı",
 	"b9acddad56c34714": "__cursor__ imleci sıfırla.",
+	"c032adc1ff629c9b": "X",
 	"c2112b7b0b1bc085": "Toplam gerçeklerin analizini atla.",
 	"c39bbd05c5b2c7ce": "Motor Yok",
 	"d8ba3da431e0c55a": "'$1' tablosu yok ediliyor...",

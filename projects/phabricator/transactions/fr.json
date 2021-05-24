@@ -178,7 +178,7 @@
 	"b46130c578a02d86": "$1 a mentionné cela dans $2.",
 	"b4a8e39a83bc6cb1": "$1 a créé cet objet avec les autorisations d’abonnement « $2 ».",
 	"b5047a81c9db6a7b": "La configuration du sous-type est invalide: elle doit être une liste de spécifications de sous-types.",
-	"b531990183875f4a": "Utiliser un formulaire",
+	"b531990183875f4a": "Utiliser le formulaire",
 	"b58687c893855921": "La commande « !$1 » n'est pas une commande de courriel supportée. Les commandes valides pour cet objet sont : $2.",
 	"b5a18016ac01f9c2": "La parametre ''$1'' doit contenir de divers themes de transactions, mais le theme de cle ''$2'' n'est pas un dictionnaire.",
 	"b5ffeb5f637b29fa": "Modifier un commentaire",
