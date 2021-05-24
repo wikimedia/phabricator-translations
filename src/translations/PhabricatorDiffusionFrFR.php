@@ -175,7 +175,6 @@ final class PhabricatorDiffusionFrFR
       'Unknown version control system.' => 'Système inconnu de contrôle des versions.',
       'The version control system this repository uses does not support named references, so you can not resolve or list repository refs in this repository.' => 'Le système de gestion de configuration qu’utilise ce dépôt ne supporte pas les références nommées, donc vous ne pouvez pas résoudre ou lister des références de dépôt dans ce dépôt.',
       'Browse' => 'Parcourir',
-      'Enable Closing Audits' => 'Autoriser la fermeture des audits',
       'Get the commit identifiers for a commit\'s parent or parents.' => 'Obtenir les identifiants de validation pour le(s) parent(s) d’une validation.',
       'Pushed Via' => 'Poussé via',
       'Wrong Type' => 'Mauvais type',
@@ -400,7 +399,6 @@ final class PhabricatorDiffusionFrFR
         'Le texte brut de cette modification est énorme (plus de %s octet). Herald ne peut pas l\'analyser.',
         'Le texte brut de cette modification est énorme (plus de %s octets). Herald ne peut pas l\'analyser.',
       ),
-      'Recently Open Revisions' => 'Révisions ouvertes récemment',
       'This repository ("%s") is not a Mercurial repository. Use "%s" to interact with this repository.' => 'Ce dépôt (« %s ») n\'est pas un dépôt Mercurial. Utiliser « %s » pour interagir avec ce dépôt.',
       'Unexpected number of output lines from "git cat-file" when processing commit ("%s").' => 'Nombre inattendu de lignes générées par le « git cat-file » lors du traitement de la validation (« %s »).',
       'Failed to parse remote branch \'%s\'!' => 'Echec dans l\'analyse de la branche distante \'%s\'!',
@@ -416,7 +414,6 @@ final class PhabricatorDiffusionFrFR
       'Skip Past This Commit' => 'Sauter cette validation',
       'Via' => 'Via',
       'Unexpected command structure, expected \'%s\'.' => 'Structure de commande non attendue; attendu \'%s\'.',
-      'Controls whether Author can Close Audits.' => 'Vérifie si l\'auteur peut fermer les audits.',
       'String "%s" is invalid in path specification "%s".' => 'La chaîne « %s » est non valide dans la spécification de chemin « %s ».',
       'Push Log (Content)' => 'Journal des poussées (contenu)',
       '%s on %s.' => '%s sur %s',
@@ -444,6 +441,7 @@ final class PhabricatorDiffusionFrFR
           '%s a ajouté %s modifications d\'annulation : %s.',
         ),
       ),
+      'Editable By' => 'Modifiable par',
       'This Diffusion repository is configured to track only one subdirectory of the entire Subversion repository, and this commit didn\'t affect the tracked subdirectory (\'%s\'), so no information is available.' => 'Ce dépôt de Diffusion est configuré pour tracer seulement un sous-répertoire de tout le dépôt Subversion, et cette validation n’a pas affecté le sous-répertoire tracé (\'%s\'), donc aucune information n’est disponible.',
       'Failed to load comment "%d".' => 'Erreur au chargement du commentaire « %s ».',
       'Unknown repository VCS type.' => 'Type inconnu de dépôt VCS.',
@@ -1057,7 +1055,7 @@ final class PhabricatorDiffusionFrFR
       'Automation blueprints.' => 'Plans d’automatisation.',
       'Removed diff content' => 'Contenu du diff supprimé',
       'Repositories to link symbols from.' => 'Dépots à partir desquels lier les symboles.',
-      'Visible To' => 'Visible à',
+      'Visible To' => 'Visible par',
       'Provide the URI of a Mercurial repository. It should usually look like one of these examples:
     | Example Mercurial URIs
     |-----------------------
@@ -1081,7 +1079,6 @@ final class PhabricatorDiffusionFrFR
     | `svn://svn.example.net/svnroot/`
     Vous **DEVEZ** spécifier la racine du dépôt et non un sous-répertoire.',
       'This repository has no URIs.' => 'Ce dépôt ne possède pas d\'URIs.',
-      'Disable Closing Audits' => 'Désactiver la fermeture des audits',
       'New blueprint PHIDs.' => 'Nouveaux PHID de plans.',
       'Group Auditors' => 'Grouper des auditeurs',
       'Apply transactions to create a new repository or edit an existing one.' => 'Appliquer les transactions pour créer un nouveau dépôt ou modifier un existant.',

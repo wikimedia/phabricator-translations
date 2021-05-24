@@ -16,7 +16,6 @@ final class PhabricatorRepositoryTr
       'Waiting to acquire write lock for "%s"...' => '"%s" yazma kilidi almayı bekleniyor...',
       'Push Event' => 'Etkinlik Gönder',
       'This URI will be shown to users as a clone URI.' => 'Bu URI, kullanıcılara klon URI\'si olarak gösterilecektir.',
-      'The Almanac service for this repository is not bound to any interfaces.' => 'Bu depo için Almanak hizmeti hiçbir arayüze bağlı değildir.',
       'You have an old version of Mercurial (%s) which has a severe command injection security vulnerability. The remote URI for this repository (%s) is potentially unsafe. Upgrade Mercurial to at least 3.2.4 to clone it.' => 'Ciddi bir komut enjeksiyonu güvenlik açığı olan Mercurial\'ın (%s) eski bir sürümüne sahipsiniz. Bu depo için uzak URI (%s) potansiyel olarak güvensizdir. Klonlamak için Mercurial\'ı en az 3.2.4\'e yükseltin.',
       'Test Repo "%s"' => '"%s" Depoyu Test Et',
       'Information about builtin URIs.' => 'Yerleşik URI\'lar hakkında bilgi.',
@@ -205,6 +204,7 @@ final class PhabricatorRepositoryTr
       'Got an update message for repository "%s"!' => '"%s" deposu bir güncelleme mesajı aldı!',
       'Cluster repository service in Almanac to move repositories into.' => 'Depoları içine taşıma Almanak\'daki küme depo hizmeti.',
       'Write Wait (us)' => 'Bekle Yaz (bize)',
+      'EMAIL' => 'EPOSTA',
       'Repositories must have a name.' => 'Depoların bir adı olmalıdır.',
       'This repository request (for repository "%s") has been incorrectly routed to a cluster host (with device name "%s", and hostname "%s") which can not serve the request.
     The Almanac device address for the correct device may improperly point at this host, or the "device.id" configuration file on this host may be incorrect.
@@ -255,6 +255,7 @@ final class PhabricatorRepositoryTr
       'Append' => 'Ekle',
       'DATA AT RISK' => 'VERİ RİSKİ',
       'Diffusion Commit' => 'Difüzyon Taahhüdü',
+      'USER' => 'KULLANICI',
       'Ref New' => 'Yeni Kaynak',
       'This commit merges more than %d changes. Only the first %d are shown.
     ' => 'Bu taahhüt, %s fazla değişikliği birleştiriyor. Sadece ilk %s gösterilir.',
@@ -344,6 +345,7 @@ final class PhabricatorRepositoryTr
       'Unsupported VCS "%s"!' => 'Desteklenmeyen VCS "%s"!',
       'If you clusterize a repository onto this service it may be unclear which devices have up-to-date copies of the repository. If so, leader/follower ambiguity will freeze the repository. You may need to manually promote a device to unfreeze it. See "Ambiguous Leaders" in the documentation for discussion.' => 'Bu hizmete bir depo kümelendiriyorsanız, hangi cihazların deponun güncel kopyalarına sahip olduğu belirsiz olabilir. Eğer öyleyse, lider/takipçi belirsizliği depoyu dondurur. Bir cihazı çözmek için manüel olarak yükseltmeniz gerekebilir. Tartışma belgelerinde "Belirsiz Liderler" bölümüne bakın.',
       'Marking repository "%s" as importing.' => '"%s" deposunu içe aktarma olarak işaretleniyor.',
+      'Not a Branch' => 'Dal Değil',
       '%s assigned this identity to %s.' => '%s bu kimliği %s atadı.',
       'Rejected: External Hook' => 'Reddedildi: Dış Kanca',
       '%s renamed this repository from %s to %s.' => '%s, bu depoyu %s iken %s olarak yeniden adlandırdı.',
@@ -521,6 +523,7 @@ final class PhabricatorRepositoryTr
       'When creating a repository, you must specify a valid underlying version control system. Valid systems are: %s.' => 'Bir depo oluştururken geçerli bir temel sürüm kontrol sistemi belirlemelisiniz. Geçerli sistemler: %s.',
       'The name "%s" is not a valid repository short name. Repository short names must not end in ".git". This suffix will be added automatically in appropriate contexts.' => '"%s" adı geçerli bir depo kısa adı değil. Depo kısa isimleri ".git" ile bitmemelidir. Bu son ek uygun bağlamlarda otomatik olarak eklenecektir.',
       'Path was last changed at %s.' => 'Yol en son %s altında değiştirildi.',
+      'NULL' => 'BOŞ',
       'Specified version control system must be a VCS recognized by Phabricator. Valid systems are: %s.' => 'Belirtilen sürüm kontrol sistemi, Phabricator tarafından tanınan bir VCS olmalıdır. Geçerli sistemler: %s.',
       'Do not prompt for confirmation.' => 'Onay istemeyin.',
       'A repository\'s push logs are visible to users who can see the repository.' => 'Bir deponun itme günlükleri, depoyu görebilen kullanıcılar tarafından görülebilir.',

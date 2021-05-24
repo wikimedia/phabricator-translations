@@ -18,7 +18,6 @@ final class PhabricatorAuditPl
       'A commit is closed.' => 'Zatwierdzenie jest zamknięte.',
       'Updating "%s" (%s)...' => 'Aktualizacja "%s" (%s)...',
       'Welcome to Audit' => 'Witaj w Audycie',
-      'Audit Not Required' => 'Audyt nie jest wymagany',
       'All Commits' => 'Wszystkie zatwierdzenia',
       'Failed to reload commit ("%s").' => 'Nie udało się ponownie załadować zatwierdzenia ("%s").',
       'Auditor' => 'Audytor',

@@ -75,6 +75,47 @@ final class PhabricatorSearchEn
       'You must name the query.' => 'You must name the query.',
       'Choose Item Icon' => 'Choose Item Icon',
       'Cats will often bring you their prey because they feel sorry for your inability to hunt.' => 'Cats will often bring you their prey because they feel sorry for your inability to hunt.',
+      'You can apply custom constraints by passing a dictionary in `constraints`.
+    This will let you search for specific sets of results (for example, you may
+    want show only results with a certain state, status, or owner).
+    If you specify both a `queryKey` and `constraints`, the builtin or saved query
+    will be applied first as a starting point, then any additional values in
+    `constraints` will be applied, overwriting the defaults from the original query.
+    Different endpoints support different constraints. The constraints this method
+    supports are detailed below. As an example, you might specify constraints like
+    this:
+    ```lang=json, name="Example Custom Constraints"
+    {
+      ...
+      "constraints": {
+        "authorPHIDs": ["PHID-USER-1111", "PHID-USER-2222"],
+        "flavors": ["cherry", "orange"],
+        ...
+      },
+      ...
+    }
+    ```
+    This API endpoint supports these constraints:' => 'You can apply custom constraints by passing a dictionary in `constraints`.
+    This will let you search for specific sets of results (for example, you may
+    want show only results with a certain state, status, or owner).
+    If you specify both a `queryKey` and `constraints`, the builtin or saved query
+    will be applied first as a starting point, then any additional values in
+    `constraints` will be applied, overwriting the defaults from the original query.
+    Different endpoints support different constraints. The constraints this method
+    supports are detailed below. As an example, you might specify constraints like
+    this:
+    ```lang=json, name="Example Custom Constraints"
+    {
+      ...
+      "constraints": {
+        "authorPHIDs": ["PHID-USER-1111", "PHID-USER-2222"],
+        "flavors": ["cherry", "orange"],
+        ...
+      },
+      ...
+    }
+    ```
+    This API endpoint supports these constraints:',
       'Substring Search' => 'Substring Search',
       'Handle: %s' => 'Handle: %s',
       'This call does not support any attachments.' => 'This call does not support any attachments.',
@@ -91,6 +132,71 @@ final class PhabricatorSearchEn
       'Taco cat spelled backwards is taco cat.' => 'Taco cat spelled backwards is taco cat.',
       'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.' => 'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.',
       'Search Ngram' => 'Search Ngram',
+      'Objects matching your query are returned as a list of dictionaries in the
+    `data` property of the results. Each dictionary has some metadata and a
+    `fields` key, which contains the information about the object that most callers
+    will be interested in.
+    For example, the results may look something like this:
+    ```lang=json, name="Example Results"
+    {
+      ...
+      "data": [
+        {
+          "id": 123,
+          "phid": "PHID-WXYZ-1111",
+          "fields": {
+            "name": "First Example Object",
+            "authorPHID": "PHID-USER-2222"
+          }
+        },
+        {
+          "id": 124,
+          "phid": "PHID-WXYZ-3333",
+          "fields": {
+            "name": "Second Example Object",
+            "authorPHID": "PHID-USER-4444"
+          }
+        },
+        ...
+      ]
+      ...
+    }
+    ```
+    This result structure is standardized across all search methods, but the
+    available fields differ from application to application.
+    These are the fields available on this object type:' => 'Objects matching your query are returned as a list of dictionaries in the
+    `data` property of the results. Each dictionary has some metadata and a
+    `fields` key, which contains the information about the object that most callers
+    will be interested in.
+    For example, the results may look something like this:
+    ```lang=json, name="Example Results"
+    {
+      ...
+      "data": [
+        {
+          "id": 123,
+          "phid": "PHID-WXYZ-1111",
+          "fields": {
+            "name": "First Example Object",
+            "authorPHID": "PHID-USER-2222"
+          }
+        },
+        {
+          "id": 124,
+          "phid": "PHID-WXYZ-3333",
+          "fields": {
+            "name": "Second Example Object",
+            "authorPHID": "PHID-USER-4444"
+          }
+        },
+        ...
+      ]
+      ...
+    }
+    ```
+    This result structure is standardized across all search methods, but the
+    available fields differ from application to application.
+    These are the fields available on this object type:',
       'Enable Menu Item' => 'Enable Menu Item',
       'Engine: Hovercards' => 'Engine: Hovercards',
       'Search for objects with specific IDs.' => 'Search for objects with specific IDs.',
@@ -178,6 +284,43 @@ final class PhabricatorSearchEn
       'No objects selected to index.' => 'No objects selected to index.',
       'A cat can run seven times faster than a human, but only for a short distance.' => 'A cat can run seven times faster than a human, but only for a short distance.',
       'This engine is used to modify menu items on profiles.' => 'This engine is used to modify menu items on profiles.',
+      'You can choose a builtin or saved query as a starting point for filtering
+    results by selecting it with `queryKey`. If you don\'t specify a `queryKey`,
+    the query will start with no constraints.
+    For example, many applications have builtin queries like `"active"` or
+    `"open"` to find only active or enabled results. To use a `queryKey`, specify
+    it like this:
+    ```lang=json, name="Selecting a Builtin Query"
+    {
+      ...
+      "queryKey": "active",
+      ...
+    }
+    ```
+    The table below shows the keys to use to select builtin queries and your
+    saved queries, but you can also use **any** query you run via the web UI as a
+    starting point. You can find the key for a query by examining the URI after
+    running a normal search.
+    You can use these keys to select builtin queries and your configured saved
+    queries:' => 'You can choose a builtin or saved query as a starting point for filtering
+    results by selecting it with `queryKey`. If you don\'t specify a `queryKey`,
+    the query will start with no constraints.
+    For example, many applications have builtin queries like `"active"` or
+    `"open"` to find only active or enabled results. To use a `queryKey`, specify
+    it like this:
+    ```lang=json, name="Selecting a Builtin Query"
+    {
+      ...
+      "queryKey": "active",
+      ...
+    }
+    ```
+    The table below shows the keys to use to select builtin queries and your
+    saved queries, but you can also use **any** query you run via the web UI as a
+    starting point. You can find the key for a query by examining the URI after
+    running a normal search.
+    You can use these keys to select builtin queries and your configured saved
+    queries:',
       'No object relationship of type "%s" exists.' => 'No object relationship of type "%s" exists.',
       'Delete Menu Item' => 'Delete Menu Item',
       'Query is too long (%s bytes, maximum is %s bytes).' => 'Query is too long (%s bytes, maximum is %s bytes).',
@@ -192,6 +335,91 @@ final class PhabricatorSearchEn
       'Create Menu Item' => 'Create Menu Item',
       'No saved queries.' => 'No saved queries.',
       'Supports ID/PHID Queries' => 'Supports ID/PHID Queries',
+      'By default, only basic information about objects is returned. If you want
+    more extensive information, you can use available `attachments` to get more
+    information in the results (like subscribers and projects).
+    Generally, requesting more information means the query executes more slowly
+    and returns more data (in some cases, much more data). You should normally
+    request only the data you need.
+    To request extra data, specify which attachments you want in the `attachments`
+    parameter:
+    ```lang=json, name="Example Attachments Request"
+    {
+      ...
+      "attachments": {
+        "subscribers": true
+      },
+      ...
+    }
+    ```
+    This example specifies that results should include information about
+    subscribers. In the return value, each object will now have this information
+    filled out in the corresponding `attachments` value:
+    ```lang=json, name="Example Attachments Result"
+    {
+      ...
+      "data": [
+        {
+          ...
+          "attachments": {
+            "subscribers": {
+              "subscriberPHIDs": [
+                "PHID-WXYZ-2222",
+              ],
+              "subscriberCount": 1,
+              "viewerIsSubscribed": false
+            }
+          },
+          ...
+        },
+        ...
+      ],
+      ...
+    }
+    ```
+    These attachments are available:' => 'By default, only basic information about objects is returned. If you want
+    more extensive information, you can use available `attachments` to get more
+    information in the results (like subscribers and projects).
+    Generally, requesting more information means the query executes more slowly
+    and returns more data (in some cases, much more data). You should normally
+    request only the data you need.
+    To request extra data, specify which attachments you want in the `attachments`
+    parameter:
+    ```lang=json, name="Example Attachments Request"
+    {
+      ...
+      "attachments": {
+        "subscribers": true
+      },
+      ...
+    }
+    ```
+    This example specifies that results should include information about
+    subscribers. In the return value, each object will now have this information
+    filled out in the corresponding `attachments` value:
+    ```lang=json, name="Example Attachments Result"
+    {
+      ...
+      "data": [
+        {
+          ...
+          "attachments": {
+            "subscribers": {
+              "subscriberPHIDs": [
+                "PHID-WXYZ-2222",
+              ],
+              "subscriberCount": 1,
+              "viewerIsSubscribed": false
+            }
+          },
+          ...
+        },
+        ...
+      ],
+      ...
+    }
+    ```
+    These attachments are available:',
       'Term ngrams for: %s.' => 'Term ngrams for: %s.',
       'The word "catastrophe" has no etymological relationship to the word "cat".' => 'The word "catastrophe" has no etymological relationship to the word "cat".',
       'Edit Builtin Item' => 'Edit Builtin Item',
@@ -241,6 +469,33 @@ final class PhabricatorSearchEn
       'Fulltext Search' => 'Fulltext Search',
       'Drag items in this list to reorder them.' => 'Drag items in this list to reorder them.',
       'Prune ngrams present in more than this fraction of documents. Provide a value between 0.0 and 1.0.' => 'Prune ngrams present in more than this fraction of documents. Provide a value between 0.0 and 1.0.',
+      'Use `order` to choose an ordering for the results.
+    Either specify a single key from the builtin orders (these are a set of
+    meaningful, high-level, human-readable orders) or specify a custom list of
+    low-level columns.
+    To use a high-level order, choose a builtin order from the table below
+    and specify it like this:
+    ```lang=json, name="Choosing a Result Order"
+    {
+      ...
+      "order": "newest",
+      ...
+    }
+    ```
+    These builtin orders are available:' => 'Use `order` to choose an ordering for the results.
+    Either specify a single key from the builtin orders (these are a set of
+    meaningful, high-level, human-readable orders) or specify a custom list of
+    low-level columns.
+    To use a high-level order, choose a builtin order from the table below
+    and specify it like this:
+    ```lang=json, name="Choosing a Result Order"
+    {
+      ...
+      "order": "newest",
+      ...
+    }
+    ```
+    These builtin orders are available:',
       'This query took too long. %s' => 'This query took too long. %s',
       'The first cats evolved in swamps about 65 years ago.' => 'The first cats evolved in swamps about 65 years ago.',
       'You can tell how warm a cat is by examining the coloration: cooler areas are darker.' => 'You can tell how warm a cat is by examining the coloration: cooler areas are darker.',
@@ -325,6 +580,39 @@ final class PhabricatorSearchEn
       'Query offset is too large. offset+limit=%s (max=%s)' => 'Query offset is too large. offset+limit=%s (max=%s)',
       'Instead of indexing in this process, queue tasks for the daemons. This can improve performance, but makes it more difficult to debug search indexing.' => 'Instead of indexing in this process, queue tasks for the daemons. This can improve performance, but makes it more difficult to debug search indexing.',
       'Edit Queries...' => 'Edit Queries...',
+      'You can choose a low-level column order instead. To do this, provide a list
+    of columns instead of a single key. This is an advanced feature.
+    In a custom column order:
+      - each column may only be specified once;
+      - each column may be prefixed with `-` to invert the order;
+      - the last column must be a unique column, usually `id`; and
+      - no column other than the last may be unique.
+    To use a low-level order, choose a sequence of columns and specify them like
+    this:
+    ```lang=json, name="Using a Custom Order"
+    {
+      ...
+      "order": ["color", "-name", "id"],
+      ...
+    }
+    ```
+    These low-level columns are available:' => 'You can choose a low-level column order instead. To do this, provide a list
+    of columns instead of a single key. This is an advanced feature.
+    In a custom column order:
+      - each column may only be specified once;
+      - each column may be prefixed with `-` to invert the order;
+      - the last column must be a unique column, usually `id`; and
+      - no column other than the last may be unique.
+    To use a low-level order, choose a sequence of columns and specify them like
+    this:
+    ```lang=json, name="Using a Custom Order"
+    {
+      ...
+      "order": ["color", "-name", "id"],
+      ...
+    }
+    ```
+    These low-level columns are available:',
       'Builtin item ("%s") specifies a bad item key ("%s"); there is no corresponding item implementation available.' => 'Builtin item ("%s") specifies a bad item key ("%s"); there is no corresponding item implementation available.',
       'DEV: New User State' => 'DEV: New User State',
       'Export engine extension ("%s") defines an export field with a key ("%s") that collides with another field. Each field must have a unique key.' => 'Export engine extension ("%s") defines an export field with a key ("%s") that collides with another field. Each field must have a unique key.',
@@ -343,6 +631,99 @@ final class PhabricatorSearchEn
       'This dashboard is invalid and could not be loaded.' => 'This dashboard is invalid and could not be loaded.',
       'Function compilation of query: %s' => 'Function compilation of query: %s',
       'Enable the built-in query "%s"? It will appear in your menu again.' => 'Enable the built-in query "%s"? It will appear in your menu again.',
+      'Queries are limited to returning 100 results at a time. If you want fewer
+    results than this, you can use `limit` to specify a smaller limit.
+    If you want more results, you\'ll need to make additional queries to retrieve
+    more pages of results.
+    The result structure contains a `cursor` key with information you\'ll need in
+    order to fetch the next page of results. After an initial query, it will
+    usually look something like this:
+    ```lang=json, name="Example Cursor Result"
+    {
+      ...
+      "cursor": {
+        "limit": 100,
+        "after": "1234",
+        "before": null,
+        "order": null
+      }
+      ...
+    }
+    ```
+    The `limit` and `order` fields are describing the effective limit and order the
+    query was executed with, and are usually not of much interest. The `after` and
+    `before` fields give you cursors which you can pass when making another API
+    call in order to get the next (or previous) page of results.
+    To get the next page of results, repeat your API call with all the same
+    parameters as the original call, but pass the `after` cursor you received from
+    the first call in the `after` parameter when making the second call.
+    If you do things correctly, you should get the second page of results, and
+    a cursor structure like this:
+    ```lang=json, name="Second Result Page"
+    {
+      ...
+      "cursor": {
+        "limit": 5,
+        "after": "4567",
+        "before": "7890",
+        "order": null
+      }
+      ...
+    }
+    ```
+    You can now continue to the third page of results by passing the new `after`
+    cursor to the `after` parameter in your third call, or return to the previous
+    page of results by passing the `before` cursor to the `before` parameter. This
+    might be useful if you are rendering a web UI for a user and want to provide
+    "Next Page" and "Previous Page" links.
+    If `after` is `null`, there is no next page of results available. Likewise,
+    if `before` is `null`, there are no previous results available.' => 'Queries are limited to returning 100 results at a time. If you want fewer
+    results than this, you can use `limit` to specify a smaller limit.
+    If you want more results, you\'ll need to make additional queries to retrieve
+    more pages of results.
+    The result structure contains a `cursor` key with information you\'ll need in
+    order to fetch the next page of results. After an initial query, it will
+    usually look something like this:
+    ```lang=json, name="Example Cursor Result"
+    {
+      ...
+      "cursor": {
+        "limit": 100,
+        "after": "1234",
+        "before": null,
+        "order": null
+      }
+      ...
+    }
+    ```
+    The `limit` and `order` fields are describing the effective limit and order the
+    query was executed with, and are usually not of much interest. The `after` and
+    `before` fields give you cursors which you can pass when making another API
+    call in order to get the next (or previous) page of results.
+    To get the next page of results, repeat your API call with all the same
+    parameters as the original call, but pass the `after` cursor you received from
+    the first call in the `after` parameter when making the second call.
+    If you do things correctly, you should get the second page of results, and
+    a cursor structure like this:
+    ```lang=json, name="Second Result Page"
+    {
+      ...
+      "cursor": {
+        "limit": 5,
+        "after": "4567",
+        "before": "7890",
+        "order": null
+      }
+      ...
+    }
+    ```
+    You can now continue to the third page of results by passing the new `after`
+    cursor to the `after` parameter in your third call, or return to the previous
+    page of results by passing the `before` cursor to the `before` parameter. This
+    might be useful if you are rendering a web UI for a user and want to provide
+    "Next Page" and "Previous Page" links.
+    If `after` is `null`, there is no next page of results available. Likewise,
+    if `before` is `null`, there are no previous results available.',
       'Engine Name' => 'Engine Name',
     );
   }

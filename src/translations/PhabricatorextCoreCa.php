@@ -14,13 +14,6 @@ final class PhabricatorextCoreCa
       'Provides instructions for applying a local patch using just git.' => 'Proporciona instruccions per aplicar un pedaç local amb només git.',
       'Standard Phabricator.' => 'Phabricator estàndard.',
       'Auto-generated release schedule details.' => 'Detalls de la planificació d\'alliberament generats automàticament.',
-      '**MediaWiki Instance Name**
-    Choose a permanent name for this instance of MediaWiki.Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example: 
-    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.' => '**Nom de la instància MediaWiki**
-    Trieu un nom permanent per a aquesta instància de MediaWiki.Phabricator utilitza aquest nom internament per fer un seguiment d\'aquesta instància de MediaWiki, en cas que l\'URL canviï més endavant.
-    Utilitzeu minúscules, dígits i punt. Per exemple:
-    "mediawiki", "mediawiki.mycompany" o "mediawiki.engineering" són noms raonables.',
       'Merged' => 'Fusionat',
       '**Step 2 of 2**: Create a MediaWiki auth consumer for this Phabricator instance.
     NOTE: Propose a consumer with the form at this url: %s
@@ -146,6 +139,7 @@ final class PhabricatorextCoreCa
       'Query users by MediaWiki username.' => 'Consulteu els usuaris mitjançant el nom d’usuari de MediaWiki.',
       'Expand Instructions' => 'Expandir les instruccions',
       'You cannot roll back the activity of a privileged user.' => 'No podeu desfer l\'activitat d\'un usuari privilegiat.',
+      'Any open subtask(s) block the train from moving forward. This means no further deployments until the blockers are resolved.' => 'Alguna subtasca oberta bloqueja el tren per avançar. Això significa que no hi haurà més desplegaments fins que es resolguin els bloquejadors.',
       'Download zip' => 'Descarrega ZIP',
       'The full URL to your MediaWiki install, up to but not including "index.php"' => 'L\'URL complet de la vostra instal·lació de MediaWiki, fins a \'index.php\', però no inclòs',
       'Download Archive' => 'Baixa l\'arxiu',
@@ -166,7 +160,6 @@ final class PhabricatorextCoreCa
       'If something is serious enough to warrant a rollback then you should bring it to the attention of deployers on the [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].' => 'Si alguna cosa és prou greu com per justificar una recuperació, hauríeu de posar-la en coneixement dels desenvolupadors a [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel]].',
       'Link to Burnup Graph' => 'Enllaç a Burnup Graph',
       'Comments' => 'Comentaris',
-      'Skip OFFSET rows before processing the remaining tranactions.' => 'Omet les files OFFSET abans de processar les transaccions restants.',
       'Download tar.gz' => 'Baixa tar.gz',
       'Change type to "%s"' => 'Canvieu el tipus a "%s".',
     );

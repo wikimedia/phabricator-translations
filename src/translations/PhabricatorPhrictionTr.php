@@ -127,6 +127,7 @@ final class PhabricatorPhrictionTr
       'Adjust Path' => 'Yolu Ayarla',
       'Read information about Phriction document history.' => 'Phriction belge geçmişi hakkında bilgi edinin.',
       'Test rules which run when a wiki document is created or updated.' => 'Bir viki belgesi oluşturulduğunda veya güncellendiğinde çalışan test kuralları.',
+      'Welcome' => 'Hoş geldiniz',
       'A stub document can not be deleted.' => 'Bir taslak belgesi silinemez.',
       'Can not move document because the parent document with slug %s does not exist!' => '%s slug ile ana belge olmadığından belge taşınamıyor!',
       '%s by %s, %s' => '%s yapan %s, %s',

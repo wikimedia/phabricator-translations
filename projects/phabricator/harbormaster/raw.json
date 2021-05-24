@@ -90,6 +90,7 @@
   "200c0ac14cb36f41": "Publish a fragment based on a file artifact.",
   "206ec1f75484ace5": "When creating an artifact, you will choose an `artifactType` from this table. These types of artifacts are supported:",
   "20ab9763ce701943": "Aborting",
+  "212431921be5fae6": "Excuse:",
   "212952d912cdb450": "%s Other Test(s)",
   "217554f64cee93de": "A buildable inherits policies from the underlying object.",
   "21c7782925c04442": "Build Steps",

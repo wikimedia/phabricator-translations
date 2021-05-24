@@ -290,6 +290,7 @@ final class PhabricatorPeopleTr
       'Create a new user for use with automated scripts.' => 'Otomatik betikleriyle kullanmak için yeni bir kullanıcı oluşturun.',
       '%s rejected this user.' => '%s bu kullanıcıyı reddetti.',
       'You must be an administrator to approve users.' => 'Kullanıcıları onaylamak için yönetici olmanız gerekir.',
+      'External Account Identifier' => 'Harici Hesap Tanımlayıcı',
       'Conduit: Read Certificate' => 'Boru: Sertifikayı Oku',
       '**Why do bot accounts need an email address?**
     Although bots do not normally receive email from Phabricator, they can interact with other systems which require an email address. Examples include:
@@ -310,10 +311,12 @@ final class PhabricatorPeopleTr
       'Mailing List' => 'Mail Listesi',
       'Administrators can always view all activity.' => 'Yöneticiler tüm etkinlikleri her zaman görüntüleyebilir.',
       'Only you can edit your information.' => 'Bilgilerinizi yalnızca siz düzenleyebilirsiniz.',
+      'Unless you have a very good reason to delete this user, consider disabling them instead.' => 'Kullanıcıyı silmek için çok iyi bir sebebin yoksa, silmek yerine pasifleştirmeyi düşünebilirsin.',
       'Edit Profile' => 'Profil Düzenle',
       'Show Only Mailing Lists' => 'Yalnızca Posta Listelerini Göster',
       'Verified email addresses can not be reassigned.' => 'Doğrulanmış e-posta adresleri atanamaz.',
       'Browse Owners' => 'Sahiplere Göz At',
+      'Enable a disabled user account.' => 'Pasifleştirilmiş kullanıcı hesabını etkinleştir.',
       'User is Disabled' => 'Kullanıcı Devre Dışı',
       'Shows when a user is away or busy.' => 'Bir kullanıcının ne zaman uzakta veya meşgul olduğunu gösterir.',
       'Send "Welcome to Phabricator" email with login instructions.' => 'Giriş talimatlarını içeren "Phabricator\'a Hoş Geldiniz" e-posta gönder.',

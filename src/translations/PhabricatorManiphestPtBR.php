@@ -76,6 +76,7 @@ final class PhabricatorManiphestPtBR
       'Edit Parent Tasks' => 'Editar tarefas pai',
       'Email Commands: Tasks' => 'Comandos de e-mail: tarefas',
       'This task is directly connected to more than %s other tasks. Use %s to browse parents or subtasks, or %s to show more of the graph.' => 'Esta tarefa está diretamente conectada a mais de %s outras tarefas. Use %s para procurar ou subtarefas, ou %s para mostrar mais do gráfico.',
+      'Graph' => 'Gráfico',
       'Edit Task' => 'Editar tarefa',
       '%s closed %s, a subtask of %s, as %s.' => '%s fechou %s, uma subtarefa de %s, como %s.',
       'Low' => 'Baixo',

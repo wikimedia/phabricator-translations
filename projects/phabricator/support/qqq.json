@@ -1,6 +1,3 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"f32d5a3b17e61429": "Used in:\n\nPhabricatorSupportApplication.php:6"
+  "f32d5a3b17e61429": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/support/application/PhabricatorSupportApplication.php$6 PhabricatorSupportApplication.php:6]\n"
 }

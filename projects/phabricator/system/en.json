@@ -33,6 +33,7 @@
   "65fca1e4d02e4304": "Destruction Logs",
   "663a7169eba04995": "This likely indicates a severe misconfiguration or major service interruption.",
   "6a1114f49dc5b54a": "Destroying objects...",
+  "6b05887ec4628b19": "View Affected Path Index",
   "6b7eda7cc1fb653a": "Read-only mode was enabled by the explicit action of a human administrator, so you can get more information about why it has been turned on by rolling your chair away from your desk and yelling \"Hey! Why is Phabricator in read-only mode??!\" using your very loudest outside voice.",
   "6bebb0e6346bd254": "This mode is active because no database has a \"$1\" role in the configuration option \"$2\".",
   "7056a7ded33bce38": "This may also indicate that a more serious failure has occurred. If this interruption does not resolve on its own, Phabricator will soon detect the persistent disruption and degrade into read-only mode until the issue is resolved.",

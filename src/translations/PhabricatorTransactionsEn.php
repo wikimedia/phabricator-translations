@@ -16,6 +16,7 @@ final class PhabricatorTransactionsEn
       'Transactions have no effect:' => 'Transactions have no effect:',
       'This endpoint supports these types of transactions. See below for detailed information about each transaction type.' => 'This endpoint supports these types of transactions. See below for detailed information about each transaction type.',
       'To silence this edit, run this command:' => 'To silence this edit, run this command:',
+      'In call to "transaction.search", selected object (of type "%s") does not implement "%s", so transactions can not be loaded for it.' => 'In call to "transaction.search", selected object (of type "%s") does not implement "%s", so transactions can not be loaded for it.',
       'Builtin Form "%s"' => 'Builtin Form "%s"',
       '%s added a comment.' => '%s added a comment.',
       'Empty Comment' => 'Empty Comment',
@@ -33,6 +34,7 @@ final class PhabricatorTransactionsEn
       '%s moved %s to %s on the %s board.' => '%s moved %s to %s on the %s board.',
       '%s added %s file(s) for %s: %s.' => '%s added %s file(s) for %s: %s.',
       'To continue, configure multi-factor authentication in Settings.' => 'To continue, configure multi-factor authentication in Settings.',
+      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"' => 'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"',
       'SearchEngine class to export data from.' => 'SearchEngine class to export data from.',
       '%s added %s file(s): %s.' => '%s added %s file(s): %s.',
       'In %s, %s wrote:' => 'In %s, %s wrote:',
@@ -97,6 +99,7 @@ final class PhabricatorTransactionsEn
       'Query does not match any objects you have permission to edit.' => 'Query does not match any objects you have permission to edit.',
       'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.' => 'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.',
       'Query does not match any objects.' => 'Query does not match any objects.',
+      'Read transactions and comments for a particular object or an entire object type.' => 'Read transactions and comments for a particular object or an entire object type.',
       '✘ Hidden' => '✘ Hidden',
       'EditEngine BuiltinKey contains an invalid key character "/".' => 'EditEngine BuiltinKey contains an invalid key character "/".',
       '%s rescinded a token.' => '%s rescinded a token.',
@@ -177,10 +180,10 @@ final class PhabricatorTransactionsEn
       'Subtype configuration is invalid: subtype with key "%s" specifies both child subtypes and child forms. Specify one or the other, but not both.' => 'Subtype configuration is invalid: subtype with key "%s" specifies both child subtypes and child forms. Specify one or the other, but not both.',
       'You can not sign a transaction group that has no other effects.' => 'You can not sign a transaction group that has no other effects.',
       'Some of your %s action(s) have no effect:' => 'Some of your %s action(s) have no effect:',
-      'No object "%s" exists.' => 'No object "%s" exists.',
       'No Edit Forms' => 'No Edit Forms',
       'Mark this form as a create form? It will appear in the application "Create" menus by default.' => 'Mark this form as a create form? It will appear in the application "Create" menus by default.',
       '%s added %s unsubscriber(s) for %s: %s.' => '%s added %s unsubscriber(s) for %s: %s.',
+      'Calls to "transaction.search" must not specify both an "objectType" and an "objectIdentifier".' => 'Calls to "transaction.search" must not specify both an "objectType" and an "objectIdentifier".',
       'Edit Defaults' => 'Edit Defaults',
       'Encryption Required' => 'Encryption Required',
       'Form name is required.' => 'Form name is required.',
@@ -210,10 +213,10 @@ final class PhabricatorTransactionsEn
       'Make this builtin form editable?' => 'Make this builtin form editable?',
       'Duplicate Form' => 'Duplicate Form',
       'Drag and drop fields to change their priority for edits. When a user edits an object, they will be shown the first form in this list that they have permission to see.' => 'Drag and drop fields to change their priority for edits. When a user edits an object, they will be shown the first form in this list that they have permission to see.',
-      'Object "%s" (of type "%s") does not implement "%s", so transactions can not be loaded for it.' => 'Object "%s" (of type "%s") does not implement "%s", so transactions can not be loaded for it.',
       '%s added %d subscriber(s): %s.' => '%s added %s subscriber(s): %s.',
       'Unmark as "Create" Form' => 'Unmark as "Create" Form',
       'Exception when processing transaction of type "%s": %s' => 'Exception when processing transaction of type "%s": %s',
+      'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.' => 'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.',
       '%s created this object in space %s.' => '%s created this object in space %s.',
       'Engine: Edit' => 'Engine: Edit',
       '%s removed %s watcher(s) for %s: %s.' => '%s removed %s watcher(s) for %s: %s.',
@@ -335,7 +338,6 @@ final class PhabricatorTransactionsEn
       'Parameter "%s" must contain a list of transaction descriptions, but item with key "%s" is missing a "value" field. Each transaction must have a value field.' => 'Parameter "%s" must contain a list of transaction descriptions, but item with key "%s" is missing a "value" field. Each transaction must have a value field.',
       'Subtype "%s" is not valid: subtype keys may only contain lowercase latin letters ("a" through "z").' => 'Subtype "%s" is not valid: subtype keys may only contain lowercase latin letters ("a" through "z").',
       'Capability not supported.' => 'Capability not supported.',
-      'Read transactions and comments for an object.' => 'Read transactions and comments for an object.',
       'Use "--id" to choose a bulk job to make silent.' => 'Use "--id" to choose a bulk job to make silent.',
       'Change Form Subtype' => 'Change Form Subtype',
       '%s added %s contributor(s): %s.' => '%s added %s contributor(s): %s.',
@@ -384,11 +386,99 @@ final class PhabricatorTransactionsEn
       'Query "%s" is unknown. To run a builtin query like "all" or "active", also specify the search engine with "--class".' => 'Query "%s" is unknown. To run a builtin query like "all" or "active", also specify the search engine with "--class".',
       'The source object has a comment which mentions the destination object.' => 'The source object has a comment which mentions the destination object.',
       '%s removed %s unsubscriber(s) for %s: %s.' => '%s removed %s unsubscriber(s) for %s: %s.',
+      'When an object (like a task) is edited, Phabricator creates a "transaction"
+    and applies it. This list of transactions on each object is the basis for
+    essentially all edits and comments in Phabricator. Reviewing the transaction
+    record allows you to see who edited an object, when, and how their edit changed
+    things.
+    One common reason to call this method is that you\'re implmenting a webhook and
+    just received a notification that an object has changed. See the Webhooks
+    documentation for more detailed discussion of this use case.
+    One Object Type at a Time
+    =========================
+    This API method can query transactions for any type of object which supports
+    transactions, but only one type of object can be queried per call. For example:
+    you can retrieve transactions affecting Tasks, or you can retrieve transactions
+    affecting Revisions, but a single call can not retrieve both.
+    This is a technical limitation arising because (among other reasons) there is
+    no global ordering on transactions.
+    To find transactions for a specific object (like a particular task), pass the
+    object PHID or an appropriate object identifier (like `T123`) as an
+    `objectIdentifier`.
+    To find all transactions for an object type, pass the object type constant as
+    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
+    can quickly find an unknown type constant by looking at the PHID of an object
+    of that type.)
+    Constraints
+    ===========
+    These constraints are supported:
+      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
+        is most likely to be useful if you\'re responding to a webhook notification
+        and want to inspect only the related events.
+      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
+        authors.
+    Transaction Format
+    ==================
+    Each transaction has custom data describing what the transaction did. The
+    format varies from transaction to transaction. The easiest way to figure out
+    exactly what a particular transaction looks like is to make the associated kind
+    of edit to a test object, then query that object.
+    Not all transactions have data: by default, transactions have a `null` "type"
+    and no additional data. This API does not expose raw transaction data because
+    some of it is internal, oddly named, misspelled, confusing, not useful, or
+    could create security or policy problems to expose directly.
+    New transactions are exposed (with correctly spelled, comprehensible types and
+    useful, reasonable fields) as we become aware of use cases for them.
+    ' => 'When an object (like a task) is edited, Phabricator creates a "transaction"
+    and applies it. This list of transactions on each object is the basis for
+    essentially all edits and comments in Phabricator. Reviewing the transaction
+    record allows you to see who edited an object, when, and how their edit changed
+    things.
+    One common reason to call this method is that you\'re implmenting a webhook and
+    just received a notification that an object has changed. See the Webhooks
+    documentation for more detailed discussion of this use case.
+    One Object Type at a Time
+    =========================
+    This API method can query transactions for any type of object which supports
+    transactions, but only one type of object can be queried per call. For example:
+    you can retrieve transactions affecting Tasks, or you can retrieve transactions
+    affecting Revisions, but a single call can not retrieve both.
+    This is a technical limitation arising because (among other reasons) there is
+    no global ordering on transactions.
+    To find transactions for a specific object (like a particular task), pass the
+    object PHID or an appropriate object identifier (like `T123`) as an
+    `objectIdentifier`.
+    To find all transactions for an object type, pass the object type constant as
+    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
+    can quickly find an unknown type constant by looking at the PHID of an object
+    of that type.)
+    Constraints
+    ===========
+    These constraints are supported:
+      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
+        is most likely to be useful if you\'re responding to a webhook notification
+        and want to inspect only the related events.
+      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
+        authors.
+    Transaction Format
+    ==================
+    Each transaction has custom data describing what the transaction did. The
+    format varies from transaction to transaction. The easiest way to figure out
+    exactly what a particular transaction looks like is to make the associated kind
+    of edit to a test object, then query that object.
+    Not all transactions have data: by default, transactions have a `null` "type"
+    and no additional data. This API does not expose raw transaction data because
+    some of it is internal, oddly named, misspelled, confusing, not useful, or
+    could create security or policy problems to expose directly.
+    New transactions are exposed (with correctly spelled, comprehensible types and
+    useful, reasonable fields) as we become aware of use cases for them.
+    ',
       'For full details, run `/bin/mail show-inbound --id %d`' => 'For full details, run `/bin/mail show-inbound --id %s`',
       'This object is locked. Edit it anyway?' => 'This object is locked. Edit it anyway?',
       '%s Action(s) With No Effect' => '%s Action(s) With No Effect',
       'Configured job "%s" to run silently.' => 'Configured job "%s" to run silently.',
       'View Form Configurations' => 'View Form Configurations',
+      'In call to "transaction.search", specified "objectType" ("%s") is unknown. Valid object types are: %s.' => 'In call to "transaction.search", specified "objectType" ("%s") is unknown. Valid object types are: %s.',
       '%s ("%s")' => '%s ("%s")',
       'Comments are visible to users who can see the object which was commented on. Comments can be edited by their authors.' => 'Comments are visible to users who can see the object which was commented on. Comments can be edited by their authors.',
       'Object Has Files' => 'Object Has Files',
@@ -433,7 +523,6 @@ final class PhabricatorTransactionsEn
       'Will Copy' => 'Will Copy',
       '%s removed %s subscriber(s): %s.' => '%s removed %s subscriber(s): %s.',
       'Transaction comment must not yet have a PHID!' => 'Transaction comment must not yet have a PHID!',
-      'When calling "transaction.search", you must provide an object to retrieve transactions for.' => 'When calling "transaction.search", you must provide an object to retrieve transactions for.',
       '%s changed the visibility from "%s" to "%s".' => '%s changed the visibility from "%s" to "%s".',
       'Unable to load configuration for this EditEngine ("%s").' => 'Unable to load configuration for this EditEngine ("%s").',
       'Invalid \'%s\' value for PHID transaction. Value should contain only keys \'%s\' (add PHIDs), \'%s\' (remove PHIDs) and \'%s\' (set PHIDS).' => 'Invalid \'%s\' value for PHID transaction. Value should contain only keys \'%s\' (add PHIDs), \'%s\' (remove PHIDs) and \'%s\' (set PHIDS).',

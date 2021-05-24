@@ -82,6 +82,7 @@ final class PhabricatorConduitEn
       'A PHID.' => 'A PHID.',
       'List of strings.' => 'List of strings.',
       'Client/server version mismatch. Upgrade your client.' => 'Client/server version mismatch. Upgrade your client.',
+      'The key which signed this request is associated with a disabled device ("%s").' => 'The key which signed this request is associated with a disabled device ("%s").',
       'The challenge token you are authenticating with is outside of the allowed time range. Either your system clock is out of whack or you\'re executing a replay attack.' => 'The challenge token you are authenticating with is outside of the allowed time range. Either your system clock is out of whack or you\'re executing a replay attack.',
       'Really terminate this token? Any system using this token will no longer be able to make API requests.' => 'Really terminate this token? Any system using this token will no longer be able to make API requests.',
       'Conduit API method "%s" does not exist.' => 'Conduit API method "%s" does not exist.',

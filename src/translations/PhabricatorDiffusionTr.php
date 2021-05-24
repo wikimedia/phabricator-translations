@@ -31,6 +31,7 @@ final class PhabricatorDiffusionTr
       'Repository "%s" is not a valid repository.' => '"%s" deposu geçerli bir depo değil.',
       'You can selectively configure Herald by adding rules to prevent a subset of enormous changes (for example, based on who is trying to push the change).' => 'Herald\'ı, büyük değişikliklerin bir alt kümesini önlemek için kurallar ekleyerek (örneğin, değişikliği kimin itmeye çalıştığına bağlı olarak) seçerek yapılandırabilirsiniz.',
       'Unexpected line count from `%s`!' => '`%s` den beklenmeyen satır sayısı!',
+      '%s:%s' => '%s:%s',
       'This repository is hosted remotely. Phabricator is observing it.' => 'Bu depo uzaktan barındırılıyor. Phabricator bunu gözlemliyor.',
       'This repository will observe an existing remote repository. It will begin fetching changes from the remote.' => 'Bu depo, varolan uzak bir deposu gözlemleyecektir. Uzaktan kumandadan değişiklik getirmeye başlayacaktır.',
       'Add New URI' => 'Yeni URI Ekle',
@@ -56,6 +57,7 @@ final class PhabricatorDiffusionTr
       'Unable to Load Branches' => 'Dal Yüklenemiyor',
       'Branch Open' => 'Dal Açık',
       'Search for pull logs for specific repositories.' => 'Belirli depolar için çekme günlüklerini arayın.',
+      'All Branches' => 'Tüm Dallar',
       'Pushed At' => 'İtildi',
       'Tagged: %s' => 'Etiketli: %s',
       'Create Repository URI' => 'Depo URI\'si oluştur',
@@ -106,6 +108,7 @@ final class PhabricatorDiffusionTr
       'Diffusion User Guide' => 'Difüzyon Kullanıcı Kılavuzu',
       'Maximum permitted paths touched per commit.' => 'İşlem başına izin verilen maksimum yol sayısı.',
       'Unreadable Commit' => 'Okunamayan İşlem',
+      'Not Active' => 'Aktif Değil',
       'Test rules which run after a commit is discovered and imported.' => 'Bir taahhütten sonra çalışan test kuralları keşfedilir ve içe aktarılır.',
       'Choose which version control system to use when creating a repository.' => 'Depo oluştururken hangi sürüm kontrol sisteminin kullanılacağını seçin.',
       'Import or Observe an Existing Repository' => 'Mevcut Bir Depoyu İçe Aktar veya Gözlemle',
@@ -170,7 +173,6 @@ final class PhabricatorDiffusionTr
       'Unknown version control system.' => 'Bilinmeyen sürüm kontrol sistemi.',
       'The version control system this repository uses does not support named references, so you can not resolve or list repository refs in this repository.' => 'Bu deponun kullandığı sürüm kontrol sistemi adlandırılmış referansları desteklemediğinden, bu havuzdaki depo referanslarını çözemez veya listeleyemezsiniz.',
       'Browse' => 'Göz at',
-      'Enable Closing Audits' => 'Kapanış Denetimlerini Etkinleştir',
       'Get the commit identifiers for a commit\'s parent or parents.' => 'Bir taahhüdün ebeveyn veya ebeveynleri için taahhüt tanımlayıcılarını alın.',
       'Pushed Via' => 'Üzerinden İtti',
       'Wrong Type' => 'Yanlış Tür',
@@ -376,7 +378,6 @@ final class PhabricatorDiffusionTr
       'Found Binary %s' => 'İkili %s bulundu',
       'Extensions' => 'Uzantılar',
       'The raw text of this change is enormous (larger than %s byte(s)). Herald can not process it.' => 'Bu değişikliğin ham metni muazzamdır (%s bayttan daha büyük). Herald bunu işleyemez.',
-      'Recently Open Revisions' => 'Son zamanlarda Açık Düzeltmeler',
       'This repository ("%s") is not a Mercurial repository. Use "%s" to interact with this repository.' => 'Bu depo ("%s") bir Mercurial deposu değildir. Bu depoyla etkileşim kurmak için "%s" kullanın.',
       'Unexpected number of output lines from "git cat-file" when processing commit ("%s").' => 'İşlem tamamlanırken "git cat-file" dosyasından beklenmeyen sayıda çıkış satırı ("%s").',
       'Failed to parse remote branch \'%s\'!' => 'Uzak dal \'%s\' ayrıştırılamadı!',
@@ -392,7 +393,6 @@ final class PhabricatorDiffusionTr
       'Skip Past This Commit' => 'Bu Tamamlamayı Geç',
       'Via' => 'Üzerinden',
       'Unexpected command structure, expected \'%s\'.' => 'Beklenmeyen komut yapısı, beklenen \'%s\'.',
-      'Controls whether Author can Close Audits.' => 'Yazarın Denetimleri Kapatıp Kapatamayacağını denetler.',
       'String "%s" is invalid in path specification "%s".' => '"%s" dizesi, "%s" yol belirtiminde geçersiz.',
       'Push Log (Content)' => 'Push Günlüğü (İçerik)',
       '%s on %s.' => '%s üzerinde %s.',
@@ -582,6 +582,7 @@ final class PhabricatorDiffusionTr
       'Waiting on Auditors' => 'Denetçileri Bekliyor',
       'Repository Pull Events' => 'Depo Pull Etkinlikleri',
       'Browse Assignee' => 'Vekili Göz At',
+      'Storage' => 'Depolama',
       'Phabricator can serve repositories over HTTP, using HTTP basic auth.
     Because HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as Phabricator uses HTTPS, but it presents a much lower barrier to attackers than SSH does.
     Consider using SSH for authenticated access to repositories instead of HTTP.' => 'Phabricator, HTTP temel yetkilendirmesini kullanarak HTTP üzerinden depolar sunabilir.
@@ -612,6 +613,7 @@ final class PhabricatorDiffusionTr
       '%s added %s auditor(s): %s.' => '%s, %s denetçi ekledi: %s.',
       'New repository URI.' => 'Yeni depo URI\'sı.',
       'Failed to load repository cluster service.' => 'Depo kümesi hizmeti yüklenemedi.',
+      'Matching Users' => 'Eşleşen Kullanıcılar',
       'New notification setting.' => 'Yeni bildirim ayarı.',
       'Hard byte limit on including patches in email.' => 'Yamaları e-postaya dahil etmede sabit bayt sınırı.',
       'No commits are awaiting your verification.' => 'Doğrulama işleminizi bekleyen hiçbir taahhüt yok.',
@@ -683,6 +685,7 @@ final class PhabricatorDiffusionTr
     Bu depo ("%s"), herhangi bir işlemin etkileyebileceği maksimum yol sayısını kaplayan dokunulmuş bir dosya sınırıyla yapılandırılmıştır. Bu sınırı aşan bir değişikliği ("%s") zorluyorsunuz: %s yolları etkiler, ancak herhangi bir taahhüdün etkileyebileceği en fazla yol sayısı %s yollardır.',
       'Change Auditors' => 'Denetçileri Değiştir',
       'It will no longer be possible to delete branches from this repository, or %s push to this repository.' => 'Artık bu depodaki dalları silmek veya bu depoya %s itmek mümkün olmayacak.',
+      'View Branches' => 'Dalları Görüntüle',
       'You can not raise a concern with this commit because you are the commit author. You can only raise concerns with commits you did not author.' => 'Taahhüt yazarı olduğunuz için bu taahhütle ilgili bir endişe yaratamazsınız. Yalnızca yazmadığınız taahhütlerle ilgili endişelerinizi dile getirebilirsiniz.',
       'No Owners' => 'Sahip Yok',
       'This commit will be returned to the author for consideration.' => 'Bu taahhüt değerlendirilmek üzere yazara iade edilecektir.',
@@ -937,6 +940,7 @@ final class PhabricatorDiffusionTr
       'Unexpected number of output lines from "git diff-tree" when processing commit ("%s"): expected an even number of lines.' => 'İşlem yapılırken ("%s") "git diff-tree" den beklenmeyen sayıda çıkış satırı: çift sayıda satır bekleniyordu.',
       'You must log in to access repositories.' => 'Depolara erişmek için oturum açmalısınız.',
       'This commit now requires audit.' => 'Bu taahhüt şimdi denetim gerektiriyor.',
+      'Matches User: %s' => 'Eşleşen Kullanıcı: %s',
       'Edit Commit' => 'Taahhüttü Düzenle',
       'Having trouble coming up with a good password? Try this artisanal password, hand made in small batches by our expert craftspeople: 
     `%s`' => 'İyi bir şifre bulmakta zorlanıyor musunuz? Uzman zanaatkarlarımız tarafından küçük partiler halinde yapılan bu zanaat parolasını deneyin:
@@ -974,7 +978,6 @@ final class PhabricatorDiffusionTr
     | `svn://svn.example.net/svnroot/`
     Bir alt dizini değil, deponun kökünü **ZORUNLU** belirtmelisiniz.',
       'This repository has no URIs.' => 'Bu deponun URI\'si yok.',
-      'Disable Closing Audits' => 'Kapanış Denetimlerini Devre Dışı Bırak',
       'New blueprint PHIDs.' => 'Yeni plan PHID\'ler.',
       'Group Auditors' => 'Grup Denetçileri',
       'Apply transactions to create a new repository or edit an existing one.' => 'Yeni bir depo oluşturmak veya mevcut bir havuzu düzenlemek için işlemleri uygulayın.',

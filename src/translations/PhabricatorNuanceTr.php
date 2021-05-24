@@ -157,6 +157,7 @@ final class PhabricatorNuanceTr
       'This item type ("%s", of class "%s") can not update items.' => 'Bu öğe türü ("%2$s" sınıfındaki "%1$s") öğeleri güncelleyemez.',
       'Added Milestone: %s' => 'Kilometre Taşı Eklendi: %s',
       'GitHub Repository' => 'GitHub Deposu',
+      'Renamed' => 'Yeniden adlandırıldı',
       'Default Source Edit Policy' => 'Varsayılan Kaynak Düzenleme Politikası',
       'Trying to apply a command to the wrong item!' => 'Yanlış öğeye bir komut uygulamaya çalışıyor!',
       'Manage Item' => 'Öğeyi Yönet',

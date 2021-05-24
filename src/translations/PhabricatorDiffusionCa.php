@@ -187,7 +187,6 @@ final class PhabricatorDiffusionCa
       'Unknown version control system.' => 'Sistema de control de versions desconegut.',
       'The version control system this repository uses does not support named references, so you can not resolve or list repository refs in this repository.' => 'El sistema de control de versions que utilitza aquest repositori no admet referències anomenades, de manera que no podeu resoldre ni llistar referències de repositori en aquest repositori.',
       'Browse' => 'Explorar',
-      'Enable Closing Audits' => 'Habilitar el tancament d\'auditories',
       'Get the commit identifiers for a commit\'s parent or parents.' => 'Obté els identificadors de validació del pare o dels pares de la validació.',
       'Pushed Via' => 'Empès per',
       'Wrong Type' => 'Tipus incorrecte',
@@ -409,7 +408,6 @@ final class PhabricatorDiffusionCa
       'Found Binary %s' => 'S\'ha trobat el binari %s',
       'Extensions' => 'Extensions',
       'The raw text of this change is enormous (larger than %s byte(s)). Herald can not process it.' => 'El text a pèl d’aquest canvi és enorme (superior a %s bytes). Herald no el pot processar.',
-      'Recently Open Revisions' => 'Revisions obertes recentment',
       'This repository ("%s") is not a Mercurial repository. Use "%s" to interact with this repository.' => 'Aquest repositori ("%s") no és un repositori de Mercurial. Utilitzeu "%s" per interactuar amb aquest repositori.',
       'Unexpected number of output lines from "git cat-file" when processing commit ("%s").' => 'Nombre inesperat de línies de sortida de "git cat-file" en processar la validació ("%s").',
       'Failed to parse remote branch \'%s\'!' => 'No s\'ha pogut analitzar sintàcticament la branca remota \'%s\'!',
@@ -428,7 +426,6 @@ final class PhabricatorDiffusionCa
       'Unexpected command structure, expected \'%s\'.' => 'Estructura d\'ordres inesperada, s\'esperava "%s".',
       'Workflow has recorded more failures than attempts; there is a missing call to "didBeginRequest()".
     ' => 'El flux de treball ha registrat més errors que intents; falta una trucada a \'didBeginRequest()\'.',
-      'Controls whether Author can Close Audits.' => 'Controla si l\'autor pot tancar les auditories.',
       'String "%s" is invalid in path specification "%s".' => 'La cadena "%s" no és vàlida a l\'especificació de la ruta l camí "%s".',
       'Push Log (Content)' => 'Registre d\'empenta (Contingut)',
       '%s on %s.' => '%s a %s.',
@@ -1056,7 +1053,6 @@ final class PhabricatorDiffusionCa
     | `svn://svn.example.net/svnroot/`
     **HEU** d\'especificar l\'arrel del repositori, no un subdirectori.',
       'This repository has no URIs.' => 'Aquest repositori no té URI.',
-      'Disable Closing Audits' => 'Desactivar el tancament d\'auditories',
       'New blueprint PHIDs.' => 'Nous PHID dels blueprint.',
       'Group Auditors' => 'Agrupar els auditors',
       'Apply transactions to create a new repository or edit an existing one.' => 'Apliqueu transaccions per crear un repositori nou o editeu-ne un de ja existent.',

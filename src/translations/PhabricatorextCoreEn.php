@@ -14,13 +14,6 @@ final class PhabricatorextCoreEn
       'Provides instructions for applying a local patch using just git.' => 'Provides instructions for applying a local patch using just git.',
       'Standard Phabricator.' => 'Standard Phabricator.',
       'Auto-generated release schedule details.' => 'Auto-generated release schedule details.',
-      '**MediaWiki Instance Name**
-    Choose a permanent name for this instance of MediaWiki.Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example: 
-    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.' => '**MediaWiki Instance Name**
-    Choose a permanent name for this instance of MediaWiki.Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example: 
-    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.',
       'Merged' => 'Merged',
       '**Step 2 of 2**: Create a MediaWiki auth consumer for this Phabricator instance.
     NOTE: Propose a consumer with the form at this url: %s
@@ -80,6 +73,7 @@ final class PhabricatorextCoreEn
       'Change type to "%s."' => 'Change type to "%s."',
       'Execute searches for Policies.' => 'Execute searches for Policies.',
       'Find public transactions by a particular user.' => 'Find public transactions by a particular user.',
+      'Skip OFFSET rows before processing the remaining transactions.' => 'Skip OFFSET rows before processing the remaining transactions.',
       'Execute a rollback.' => 'Execute a rollback.',
       'Deny' => 'Deny',
       'Consumer Key is required' => 'Consumer Key is required',
@@ -139,6 +133,13 @@ final class PhabricatorextCoreEn
       'Open Tasks' => 'Open Tasks',
       'Unknown' => 'Unknown',
       'OAuth error: this account has been blocked in MediaWiki.' => 'OAuth error: this account has been blocked in MediaWiki.',
+      '**MediaWiki Instance Name**
+    Choose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example: 
+    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.' => '**MediaWiki Instance Name**
+    Choose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example: 
+    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.',
       'Global Accounts' => 'Global Accounts',
       'Milestone Navigation Links' => 'Milestone Navigation Links',
       'Patch without arc' => 'Patch without arc',
@@ -168,7 +169,6 @@ final class PhabricatorextCoreEn
       'If you have a risky change in this week\'s train add a comment to this task using the {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]' => 'If you have a risky change in this week\'s train add a comment to this task using the {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]',
       'Link to Burnup Graph' => 'Link to Burnup Graph',
       'Comments' => 'Comments',
-      'Skip OFFSET rows before processing the remaining tranactions.' => 'Skip OFFSET rows before processing the remaining tranactions.',
       'Download tar.gz' => 'Download tar.gz',
       'Change type to "%s"' => 'Change type to "%s"',
     );

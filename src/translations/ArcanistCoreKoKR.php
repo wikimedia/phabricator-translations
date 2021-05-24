@@ -276,6 +276,7 @@ final class ArcanistCoreKoKR
       'Subversion is not installed' => '서브버전이 설치되어 있지 않습니다',
       'Unable to Parse' => '구문을 분석할 수 없습니다',
       'Ruby' => '루비',
+      'ALIAS' => '다른 이름',
       'Unable to find %s or %s in %s!' => '%3$s에서 %1$s 또는 %2$s을(를) 찾을 수 없습니다!',
       'Use `%s` to detect syntax errors in JSON files.' => 'JSON 파일에서 문법 오류를 찾으려면 `%s`을(를) 사용하십시오.',
       'Auto-Fix' => '자동 수정',

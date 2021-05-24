@@ -4,16 +4,14 @@ libraries (including Phabricator) and Translatewiki.
 Setup
 =====
 
-Install Phabricator, then check this out next to it. Your directory should look
-like this:
+Clone the phabricator deployment repository {rPHDEP} and run `git submodule update --init --recursive`
+
+Then:
 
 ```
-$ ls
-arcanist/
-libphutil/
-phabricator/
-translatewiki/
+cd translations
 ```
+
 
 Exporting Strings
 =================
@@ -24,7 +22,7 @@ located in `projects/` if you don't need to regenerate up-to-date strings.
 To export up-to-date strings from Phabricator, run:
 
 ```
-$ ./bin/translatewiki export path/to/phabricator/src/ --as phabricator
+./export.sh
 ```
 
 This will update `projects/phabricator/en.json` and related files.
@@ -37,13 +35,24 @@ If you have a translated string file and want to convert it into a form that
 Phabricator can read, do this:
 
 ```
-$ ./bin/translatewiki generate \
-  --source path/to/your/strings.json \
-  --class YourLanguageTranslation \
-  --locale xx_YY \
-  --project phabricator \
-  --out path/to/YourLanguageTranslation.php
+./generate.php
 ```
 
-This will write a translation file to `path/to/YourLanguageTranslation.php`
-that Phabricator can read.
+Then run arcanist to update `__phutil_library_map__.php`:
+
+```
+../arcanist/bin/arc liberate
+```
+
+Finally, commit the changes and push.
+
+Adding a new language/locale to Phabricator
+===========================================
+
+To add a new language, copy one of the existing classes in `src/locales/` to a new file name.
+Then edit the new file, changing the class name as well as the values returned by
+`getLocaleCode` and `getLocaleName` to match the locale of the new language.
+
+run `./lint.sh` to verify that you haven't introduced any PHP errors.
+
+Finally run `../arcanist/bin/arc liberate` to update `__phutil_library_map__.php`

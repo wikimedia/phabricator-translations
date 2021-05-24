@@ -339,7 +339,6 @@ final class PhabricatorCoreEl
       'Copied from %s' => 'Αντιγράφηκε από %s',
       'Column' => 'Στήλη',
       'Partial' => 'Μερικό',
-      'Not Applicable' => 'Μη εφαρμόσιμο',
       'Not Unique' => 'Μη μοναδικό',
       'Unable to select tab ("%s") which does not exist.' => 'Αποτυχία στην επιλογή ετικέτας ("%s") που δεν υπάρχει.',
       'Analyzed %d table(s).' => 'Αναλύθηκαν %s πίνακας(-ες).',

@@ -373,6 +373,7 @@ final class ArcanistCorePtBR
       'CHOOSE' => 'ESCOLHER',
       'Spellchecker' => 'Revisão ortográfica',
       'NOTE' => 'NOTA',
+      'ALIAS' => 'Apelido',
       'Unknown' => 'Desconhecido',
       'Connected' => 'Conectado',
       'Changes:' => 'Alterações:',

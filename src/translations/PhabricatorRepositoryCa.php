@@ -16,7 +16,6 @@ final class PhabricatorRepositoryCa
       'Waiting to acquire write lock for "%s"...' => 'S\'està esperant per adquirir el bloqueig d\'escriptura per a «%s».',
       'Push Event' => 'Envia l\'esdeveniment',
       'This URI will be shown to users as a clone URI.' => 'Aquest URI es mostrarà als usuaris com un URI clonat.',
-      'The Almanac service for this repository is not bound to any interfaces.' => 'El servei Almanac d\'aquest repositori no està vinculat a cap interfície.',
       'You have an old version of Mercurial (%s) which has a severe command injection security vulnerability. The remote URI for this repository (%s) is potentially unsafe. Upgrade Mercurial to at least 3.2.4 to clone it.' => 'Teniu una versió antiga de Mercurial (%s) que té una forta vulnerabilitat de seguretat per injecció d\'ordres. L\'URI remot d\'aquest repositori (%s) és potencialment insegur. Actualitza Mercurial a almenys 3.2.4 per clonar-lo.',
       'Test Repo "%s"' => 'Repo de Proves "%s"',
       'Assigned user updated from "%s" to "%s".' => 'L\'usuari assignat s\'ha actualitzat de \'%s\' a \'%s\'.',

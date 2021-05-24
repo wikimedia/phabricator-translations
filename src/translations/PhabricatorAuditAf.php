@@ -32,7 +32,6 @@ final class PhabricatorAuditAf
       'Select only audits for commits on or after the given date.' => 'Kies slegs oudits vir begaan op of na die gegewe datum.',
       'Object "%s" is not a valid object.' => 'Voorwerp "%s" is nie \'n geldige objek nie.',
       'Hide Unreachable Commits' => 'Verberg onbereikbare verbindings',
-      'Audit Not Required' => 'Oudit is nie nodig nie',
       '%s committed %s (authored by %s).' => '%s het %s gepleeg (geskryf deur %s).',
       'Select only audits for commits on or before the given date.' => 'Kies slegs oudits vir begaan op of voor die gegewe datum.',
       'All Commits' => 'Almal verbind',

@@ -682,6 +682,7 @@ final class ArcanistCoreDeDE
       'PyLint is a Python source code analyzer which looks for programming errors, helps enforcing a coding standard and sniffs for some code smells.' => 'PyLint ist ein Phyton-Quelltest-Analysator, der nach Programmierfehlern sucht und beim Durchsetzen eines Programmierstandards hilft und schnuppert nach einigen Code-Gerüchen.',
       'Naming Conventions' => 'Namenskonventionen',
       'Certificate installed.' => 'Zertifikat installiert.',
+      'ALIAS' => 'Alias',
     );
   }
 

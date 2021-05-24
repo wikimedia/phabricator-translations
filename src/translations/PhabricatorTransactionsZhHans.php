@@ -121,7 +121,6 @@ final class PhabricatorTransactionsZhHans
       'Capability not supported!' => '不支持性能！',
       'You can not apply transactions which already have commentVersions!' => '您不能在已经有评论版本的情况下申请交易！',
       '%s removed %s subscriber(s): %s.' => '%s移除了%s个订阅者：%s。',
-      'When calling "transaction.search", you must provide an object to retrieve transactions for.' => '当调用“transaction.search”时，您必须提供要检索交易的对象。',
       '%s changed the visibility from "%s" to "%s".' => '%s将可见性从“%s”更改为“%s”。',
     );
   }

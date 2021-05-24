@@ -67,6 +67,7 @@ final class PhabricatorSettingsTr
       'You can customize the font used when showing monospaced text, including source code. You should enter a valid CSS font declaration like: `13px Consolas`' => 'Kaynak kodu dahil, monospaced metin gösterilirken kullanılan yazı tipini özelleştirebilirsiniz. `13px Consolas` gibi bir geçerli CSS fontu bildirimi girmelisiniz:',
       'Enable Self Action Mail' => 'Kendi Eylem Postasını Etkinleştir',
       'You haven\'t added any SSH Public Keys.' => 'Herhangi bir SSH Genel Anahtarı eklemediniz.',
+      'MacVim' => 'MacVim',
       'All Messages' => 'Tüm Mesajlar',
       'This browser has been granted permission to send desktop notifications for this Phabricator instance.' => 'Bu tarayıcıya, bu Phabricator örneği için masaüstü bildirimleri gönderme izni verildi.',
       'Save Preference' => 'Tercihi Kaydet',
@@ -131,6 +132,7 @@ final class PhabricatorSettingsTr
       'Change Timezone' => 'Saat Dilimini Değiştir',
       'DarkConsole Visible' => 'DarkConsole Görünür',
       'DarkConsole is a debugging console for developing and troubleshooting Phabricator applications. After enabling DarkConsole, press the {nav `} key on your keyboard to toggle it on or off.' => 'DarkConsole, Phabricator uygulamalarını geliştirmek ve sorun gidermeye yönelik bir hata ayıklama konsoludur. DarkConsole\'u etkinleştirdikten sonra, açıp kapatmak için klavyenizdeki {nav `} tuşuna basın.',
+      'Supported Protocol' => 'Desteklenen Protokol',
       'You are adding too many email addresses to your account too quickly.' => 'Hesabınıza çok hızlı bir şekilde çok fazla e-posta adresi ekliyorsunuz.',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
     | Setting | Effect

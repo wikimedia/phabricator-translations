@@ -28,6 +28,7 @@ final class PhabricatorTransactionsPtBR
       'Export format.' => 'Formato de exportação.',
       'Drag and drop fields to change the order in which they appear in the application "Create" menu.' => 'Arraste e solte os campos para alterar a ordem em que eles aparecem no menu "Criar" do aplicativo.',
       'This job is already configured to run silently.' => 'Este trabalho já está configurado para ser executado silenciosamente.',
+      'The source object is associated with the destination file.' => 'O objeto de origem está associado ao arquivo de destino.',
       'Specify an export format with "--format".' => 'Especifique um formato de exportação com "--format".',
       'Using HTTP Parameters' => 'Usando parâmetros HTTP',
       'Expected a query key or a set of query constraints.' => 'Esperado uma chave de consulta ou um conjunto de restrições de consulta.',

@@ -199,6 +199,7 @@ final class PhabricatorConfigTr
     Devam etmek için güvenli modu devre dışı bırakın.',
       'Use Private Replies (More Secure)' => 'Özel Yanıtları Kullan (Daha Güvenli)',
       'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'' => 'Tüm \'*.x.bak\' dosyasına \'.x\' olarak davranın. NOT: Eşlemeyi \'1\' olarak belirleyerek grup 1\'i yakalamak için eşleriz',
+      'Other Services' => 'Diğer Hizmetler',
       'Send as User Taking Action' => 'Kullanıcı Olarak Eylemi Gönder',
       'Security options.' => 'Güvenlik seçenekleri.',
       'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => '"%s" seçeneği "%s" türündedir ve komut satırında JSON değer listesi olarak belirtilmelidir. Kabuğunuzun değerini belirtmeniz gerekebilir (örneğin: \'["a", "b", ...]\').',

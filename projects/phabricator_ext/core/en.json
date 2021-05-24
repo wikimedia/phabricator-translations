@@ -4,7 +4,6 @@
   "0429cc67b7040492": "Provides instructions for applying a local patch using just git.",
   "0697a4a521e77f96": "Standard Phabricator.",
   "08445f7550173734": "Auto-generated release schedule details.",
-  "0a707be261722c0e": "**MediaWiki Instance Name**\n\nChoose a permanent name for this instance of MediaWiki.Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.\n\nUse lowercase letters, digits, and period. For example: \n\n`mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.",
   "0c44559824c1e156": "Merged",
   "0c65a84cf908d738": "**Step 2 of 2**: Create a MediaWiki auth consumer for this Phabricator instance.\n\nNOTE: Propose a consumer with the form at this url: $1\n\nProvide the following settings on the consumer registration:\n\n  - **Callback URL:** Set this to: `$2`\n  - **Grants:** `Basic Rights` is all that is needed for authentication.\n\n\nAfter you register the consumer, a **Consumer Key** and **Consumer Secret** will be provided to you by MediaWiki. To complete configuration of phabricator, copy the provided keys into the corresponding fields above.\n\nNOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki admin must approve the oauth consumer registration using the form which can be found at the following url: $3",
   "0ca12429c5bd6363": "Gerrit Projects",
@@ -48,6 +47,7 @@
   "51f99735e504752c": "Change type to \"$1.\"",
   "520a6c9d4adbe62d": "Execute searches for Policies.",
   "522cd9ae192cee70": "Find public transactions by a particular user.",
+  "52849e661a5743c5": "Skip OFFSET rows before processing the remaining transactions.",
   "530b9f080585471b": "Execute a rollback.",
   "53577bb5df0ee9b6": "Deny",
   "538e47fec42566c7": "Consumer Key is required",
@@ -105,6 +105,7 @@
   "bc67f6bb78373f52": "Open Tasks",
   "bc7819b34ff87570": "Unknown",
   "bdf3ec047fa8a739": "OAuth error: this account has been blocked in MediaWiki.",
+  "bdfae00c2df98e83": "**MediaWiki Instance Name**\n\nChoose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.\n\nUse lowercase letters, digits, and period. For example: \n\n`mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.",
   "be67844b013fc678": "Global Accounts",
   "c3d455c13c87a189": "Milestone Navigation Links",
   "cc7662e5aed24f19": "Patch without arc",
@@ -134,7 +135,6 @@
   "fa24d17f881e1087": "If you have a risky change in this week's train add a comment to this task using the {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]",
   "fc5658eac133d3fc": "Link to Burnup Graph",
   "fce06e20e5f7f74a": "Comments",
-  "ff26b02c19515334": "Skip OFFSET rows before processing the remaining tranactions.",
   "ff51f6bbe14ebe12": "Download tar.gz",
   "ff8213df8757cc4a": "Change type to \"$1\""
 }

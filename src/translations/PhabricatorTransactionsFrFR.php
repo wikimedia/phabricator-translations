@@ -205,7 +205,7 @@ final class PhabricatorTransactionsFrFR
       '%s mentioned this in %s.' => '%s a mentionné cela dans %s.',
       '%s created this object with join policy "%s".' => '%s a créé cet objet avec les autorisations d’abonnement « %s ».',
       'Subtype configuration is invalid: it must be a list of subtype specifications.' => 'La configuration du sous-type est invalide: elle doit être une liste de spécifications de sous-types.',
-      'Use Form' => 'Utiliser un formulaire',
+      'Use Form' => 'Utiliser le formulaire',
       'The command "!%s" is not a supported mail command. Valid commands for this object are: %s.' => 'La commande « !%s » n\'est pas une commande de courriel supportée. Les commandes valides pour cet objet sont : %s.',
       'Parameter "%s" must contain a list of transaction descriptions, but item with key "%s" is not a dictionary.' => 'La parametre \'\'%s\'\' doit contenir de divers themes de transactions, mais le theme de cle \'\'%s\'\' n\'est pas un dictionnaire.',
       'Edit Comment' => 'Modifier un commentaire',
@@ -303,7 +303,6 @@ final class PhabricatorTransactionsFrFR
       'You can not apply transactions which already have commentVersions!' => 'Vous ne pourvez pas appliquer des transactions qui ont déjà des commentVersions !',
       'Object Monogram' => 'Objet Monogram',
       '%s removed %s subscriber(s): %s.' => '%s a retiré %s abonné(s): %s.',
-      'When calling "transaction.search", you must provide an object to retrieve transactions for.' => 'Quand vous appelez « transaction.search » , vous devez fournir un objet sur lequel récupérer les transactions.',
       '%s changed the visibility from "%s" to "%s".' => '%s a changé la visibilité de « %s » à  « %s » .',
     );
   }
