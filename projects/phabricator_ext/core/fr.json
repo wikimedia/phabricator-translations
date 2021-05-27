@@ -13,7 +13,6 @@
 	"0429cc67b7040492": "Fournit des instructions pour appliquer un correctif local en utilisant juste « git ».",
 	"0697a4a521e77f96": "Phabricator standard.",
 	"08445f7550173734": "Détails de planification de version auto-générée.",
-	"0a707be261722c0e": "**Nom d’instance de MediaWiki**\n\nChoisissez un nom permanent pour cette instance de MediaWiki. Phabricator utilise ce nom interne pour garder la trace de cette instance de MediaWiki, au cas où l’URL change plus tard.\n\nN’utilisez que des lettres minuscules, des chiffres ou le point. Par exemple :\n\n`mediawiki`, `mediawiki.masociete` ou `mediawiki.ingenierie` sont des noms raisonnables.",
 	"0c44559824c1e156": "Fusionné",
 	"0c65a84cf908d738": "**Étape 2 sur 2 :** création d’un consommateur d’authentification MediaWiki pour cette instance de Phabricator.\n\nNOTE : proposez un consommateur avec le formulaire à cette URL : $1\n\nFournissez les paramètres suivants dans l’enregistrement du consommateur :\n\n  - **URL de rappel :** Set this to: `$2`\n  - **Grants:** `Basic Rights` is all that is needed for authentication.\n\nUne fois le consommateur enregistré, une  **Clé de consommateur** et un **Secret du consommateur** vous seront fournis par MediaWiki. Pour compléter la configuration de Phabricator, copiez les clés fournies dans les champs correspondants ci-dessus.\n\nNOTE : avant que Phabricator puisse réussir à s’authentifier sur votre wiki MediaWiki, un administrateur du wiki doit approuver l’enregistrement du consommateur OAuth en utilisant le formulaire qui peut être trouvé à l’URL suivante : $3",
 	"0ca12429c5bd6363": "Projets Gerrit",
@@ -57,6 +56,7 @@
 	"51f99735e504752c": "Changer le type en « $1 ».",
 	"520a6c9d4adbe62d": "Exécute des recherches de politiques.",
 	"522cd9ae192cee70": "Trouver les transactions publiques d’un utilisateur donné.",
+	"52849e661a5743c5": "Sauter le nombre de rangées indiqué en OFFSET avant de traiter les transactions restantes.",
 	"530b9f080585471b": "Entreprendre un retour en arrière.",
 	"53577bb5df0ee9b6": "Refuser",
 	"538e47fec42566c7": "La clé du consommateur est obligatoire",
@@ -114,6 +114,7 @@
 	"bc67f6bb78373f52": "Tâches ouvertes",
 	"bc7819b34ff87570": "Inconnu",
 	"bdf3ec047fa8a739": "Erreur OAuth : ce compte a été bloqué dans MediaWiki.",
+	"bdfae00c2df98e83": "**Nom d’instance de MediaWiki**\n\nChoisissez un nom permanent pour cette instance de MediaWiki. Phabricator utilise ce nom interne pour garder la trace de cette instance de MediaWiki, au cas où l’URL change plus tard.\n\nN’utilisez que des lettres minuscules, des chiffres ou le point. Par exemple :\n\n`mediawiki`, `mediawiki.masociete` ou `mediawiki.ingenierie` sont des noms raisonnables.",
 	"be67844b013fc678": "Comptes globaux",
 	"c3d455c13c87a189": "Liens de navigation des jalons",
 	"cc7662e5aed24f19": "Correctif sans arc",
@@ -142,7 +143,6 @@
 	"f888fcf4b493b0b9": "Si quelque chose est assez grave pour justifier un renversement, vous devriez alors la porter à l’attention des développeurs sur le [[ https://www.mediawiki.org/wiki/mediawiki_on_irc|canal IRC #wikimedia-operations]].",
 	"fc5658eac133d3fc": "Lien vers le graphique de consommation",
 	"fce06e20e5f7f74a": "Commentaires",
-	"ff26b02c19515334": "Sauter le nombre de rangées indiqué en OFFSET avant de traiter les transactions restantes.",
 	"ff51f6bbe14ebe12": "Télécharger le tar.gz",
 	"ff8213df8757cc4a": "Modifier le type en « $1 »"
 }

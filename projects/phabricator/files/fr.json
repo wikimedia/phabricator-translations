@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Alno",
 			"Derugon",
 			"Eihel",
@@ -65,6 +66,7 @@
 	"16d927646de187a1": "Acheter des choses",
 	"16f20a986e3f2881": "DANGEREUX",
 	"170fd7e84a1b2f97": "verre",
+	"1910e1df6652085d": "Texte alternatif",
 	"1afa76d7cb118c60": "Fichiers source",
 	"1b1393bb7f3a5128": "Type inconnu correspondant au type MIME de l’image.",
 	"1b8738a108e2c59a": "L’URI « $1 » ne correspond pas à un fichier d’image valide (le fichier obtenu a un type MIME « $2 »). Vous devez indiquer l’URI d’un fichier d’image valide.",

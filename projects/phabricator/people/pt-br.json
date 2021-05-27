@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Leonardo.guimaraes"
+			"Leonardo.guimaraes",
+			"Mpayansilva"
 		]
 	},
 	"00c0cf3b69c5a54c": "Sobre mim",
@@ -29,6 +30,7 @@
 	"15cfe9cf42e4f59d": "Convidar usuários",
 	"1679d1b94ac47018": "Revisar convites",
 	"175b566dd087c446": "Tipo de utilidade social.",
+	"192a3959f28e9961": "Aprova um usuário.",
 	"19e2e7d9a0031fcb": "[Phabricator] Verificação de Email",
 	"1a1707154be8a393": "Enviar convites",
 	"1a708cefc9bb762c": "Confirme a aprovação",

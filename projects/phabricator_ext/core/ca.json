@@ -10,7 +10,6 @@
 	"0429cc67b7040492": "Proporciona instruccions per aplicar un pedaç local amb només git.",
 	"0697a4a521e77f96": "Phabricator estàndard.",
 	"08445f7550173734": "Detalls de la planificació d'alliberament generats automàticament.",
-	"0a707be261722c0e": "**Nom de la instància MediaWiki**\n\nTrieu un nom permanent per a aquesta instància de MediaWiki.Phabricator utilitza aquest nom internament per fer un seguiment d'aquesta instància de MediaWiki, en cas que l'URL canviï més endavant.\n\nUtilitzeu minúscules, dígits i punt. Per exemple:\n\n\"mediawiki\", \"mediawiki.mycompany\" o \"mediawiki.engineering\" són noms raonables.",
 	"0c44559824c1e156": "Fusionat",
 	"0c65a84cf908d738": "**Pas 2 de 2**: Crea un consumidor d'autenticació MediaWiki per a aquesta instància de Phabricator. \n\nNOTA: Proposa un consumidor amb el formulari en aquest URL: $1 \n\nProporcioneu els següents paràmetres al registre del consumidor: \n\n  - **URL de reserva:** Establiu-ho a: `$2` \n  - **Grants:** `Drets bàsics` és tot el que es necessita per a l'autenticació. \n\n\nDesprés de registrar el consumidor, MediaWiki us proporcionarà una **clau de Consum** i **Consumer Secret**.  Per completar la configuració del Phabricator, copieu les claus proporcionades als camps corresponents de dalt. \n\nNOTA: Abans que Phabricator pugui autenticar-se amb èxit amb el vostre MediaWiki, un administrador del wiki ha d'aprovar el registre del consumidor de l'oauth utilitzant el formulari que es pot trobar a l'URL següent: $3",
 	"0ca12429c5bd6363": "Projectes Gerrit",
@@ -54,6 +53,7 @@
 	"51f99735e504752c": "Canvieu el tipus a '$1'.",
 	"520a6c9d4adbe62d": "Executeu cerques de polítiques.",
 	"522cd9ae192cee70": "Cerqueu transaccions públiques d'un usuari concret.",
+	"52849e661a5743c5": "Omet les files OFFSET abans de processar les transaccions restants.",
 	"530b9f080585471b": "Executeu un retrocés.",
 	"53577bb5df0ee9b6": "Denega",
 	"538e47fec42566c7": "Cal una clau de consumidor",
@@ -111,6 +111,7 @@
 	"bc67f6bb78373f52": "Tasques obertes",
 	"bc7819b34ff87570": "Desconegut",
 	"bdf3ec047fa8a739": "Error d'OAuth: aquest compte s'ha bloquejat a MediaWiki.",
+	"bdfae00c2df98e83": "**Nom de la instància MediaWiki**\n\nTrieu un nom permanent per a aquesta instància de MediaWiki.Phabricator utilitza aquest nom internament per fer un seguiment d'aquesta instància de MediaWiki, en cas que l'URL canviï més endavant.\n\nUtilitzeu minúscules, dígits i punt. Per exemple:\n\n\"mediawiki\", \"mediawiki.mycompany\" o \"mediawiki.engineering\" són noms raonables.",
 	"be67844b013fc678": "Comptes globals",
 	"c3d455c13c87a189": "Enllaços de navegació de fita",
 	"cc7662e5aed24f19": "Pedaç sense arc",
@@ -139,7 +140,6 @@
 	"f888fcf4b493b0b9": "Si alguna cosa és prou greu com per justificar una recuperació, hauríeu de posar-la en coneixement dels desenvolupadors a [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel]].",
 	"fc5658eac133d3fc": "Enllaç a Burnup Graph",
 	"fce06e20e5f7f74a": "Comentaris",
-	"ff26b02c19515334": "Omet les files OFFSET abans de processar les transaccions restants.",
 	"ff51f6bbe14ebe12": "Baixa tar.gz",
 	"ff8213df8757cc4a": "Canvieu el tipus a \"$1\"."
 }

@@ -245,6 +245,5 @@
 	"fddedf164c9b6123": "Vous ne pourvez pas appliquer des transactions qui ont déjà des commentVersions !",
 	"fde83e7c8697f9f6": "Objet Monogram",
 	"ff145ddc79509ae0": "$1 a retiré $2 abonné(s): $3.",
-	"ffa04dedac04fc48": "Quand vous appelez « transaction.search » , vous devez fournir un objet sur lequel récupérer les transactions.",
 	"ffcf8f8c53382dd8": "$1 a changé la visibilité de « $2 » à  « $3 » ."
 }
