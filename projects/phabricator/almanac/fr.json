@@ -3,6 +3,7 @@
 		"authors": [
 			"DSwissK",
 			"Gomoko",
+			"JenyxGym",
 			"Motla",
 			"Thibaut120094",
 			"TomT0m",
@@ -305,6 +306,7 @@
 	"d78d2d095ff6b0a4": "Naviguer dans les types de service",
 	"d83359101038a859": "Les noms du service Almanac, de l’appareil, de la propriété, du réseau et de l’espace de noms ne peuvent contenir que des lettres minuscules, des nombres, des tirets et des points.",
 	"d86d5ba9de438f2e": "Rechercher les services par partie de nom.",
+	"d877b79aaa1231c4": "Vrai si le dispositif est désactivé.",
 	"d889bea7fb9dc3f8": "Obtenir les liaisons d’Almanac pour le service.",
 	"da233d5a4c69383b": "Obtenir les propriétés Almanac de l’objet.",
 	"dc7858f4fc4bdbaf": "Vous n’avez pas le droit de créer de nouveaux services de grappe.",

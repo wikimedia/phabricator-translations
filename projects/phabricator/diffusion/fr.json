@@ -3,6 +3,7 @@
 		"authors": [
 			"Ash Crow",
 			"Gomoko",
+			"JenyxGym",
 			"Motla",
 			"Thibaut120094",
 			"Tpt",
@@ -610,6 +611,7 @@
 	"a72502067518684f": "Etat",
 	"a7881cac6e64abca": "Intégrations",
 	"a7e173eaaa4995a9": "Aucune copie de travail locale",
+	"a7eaac88effee00b": "Désactiver l’auto-acceptation",
 	"a8597e90aa068f4e": "Ce dépôt (« $1 ») n'est pas un dépôt Git.",
 	"a85e431b62b6bad4": "Journaux synchronisés",
 	"a860a16c1656b86b": "Normalement, Phabricator met à jour automatiquement les dépôts d’après le temps écoulé depuis la dernière validation. Cela aide à réduire la charge si vous avez beaucoup de dépôts, la plupart inactifs, ce qui est courant.",
@@ -897,6 +899,7 @@
 	"fbb396cd07f111dc": "Empêcher les modifications énormes",
 	"fbdfdfe6eda84f14": "Automatisation non configurée",
 	"fbe08c6b807c378b": "Cette validation est encore en train d'importer. Les modifications ne seront visibles que lorsque l'import sera terminé.",
+	"fc6556a7ab9565ea": "Non publié",
 	"fcdd5805116507a9": "Contenu du diff",
 	"fd15e34a7a77b4a5": "Entrer un nom de branche...",
 	"fd65cbd9e70340b0": "Vous ne pouvez pas demander la vérification de cette validation car aucun auditeur n'a signalé de problème la concernant.",

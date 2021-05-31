@@ -317,7 +317,7 @@
 	"8e611ce225890a1c": "$1 bu deponun kısa adını $2 olarak ayarladı.",
 	"8f170084ec462d49": "Bu öneki olan yolları taşıyın.",
 	"8f1b5f70d53e093e": "\"$1\" deposu, $2 saniyeye bir güncellemeye kaynaklanmadı.",
-	"900f76970416833b": "Bu depo için Almanak hizmeti hiçbir arayüze bağlı değildir.",
+	"900f76970416833b": "Bu depo için Almanak hizmeti, herhangi bir etkin arabirime bağlı değildir.",
 	"90129c5a062853de": "Phabricator bu URI'de yapılan değişiklikleri gözlemleyecek ve kopyalayacaktır.",
 	"90369f02c2199803": "\"$1\" deposu zaten içe aktarılıyor.",
 	"90b3901b20ccaadb": "$1, \"Yalnızca İçe Aktar\" yolu olarak $2 kaldırdı.",
