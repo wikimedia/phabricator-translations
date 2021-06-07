@@ -131,6 +131,7 @@
 	"22bf0ff5da0f4219": "Ce dépôt deviendra un nouveau dépôt hébergé. Il commencera à traiter du trafic en lecture et en écriture.",
 	"22cb35cde017d564": "Permettre l’authentification basique HTTP",
 	"236944b3bedd7568": "Si vous autoriser des modifications dangereuses, il sera possible de supprimer des branches et que $1 pousse ce dépôt. Ces opérations peuvent endommager un dépôt d’une manière difficilement récupérable.",
+	"2375b3c401d76d63": "Activer l’auto-acceptation",
 	"238e5b1ab3e3cc33": "Le dépôt « $1 » est sur le service de grappe « $2 », mais la liaison entre ce service et cet appareil (« $3 ») est désactivée, donc il ne peut pas être mis à jour sur cet hôte.",
 	"23ca71dddba6f7b2": "Cette poussée a été rejetée par la règle de poussée $1 de Herald.\nModification  : $2\n       Règle  : $3\n       Motif  : $4\nTranscription : $5",
 	"240680ffe8c61218": "Vous devez vous connecter pour accéder à ce dépôt.",
