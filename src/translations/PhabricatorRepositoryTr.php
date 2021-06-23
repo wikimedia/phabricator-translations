@@ -334,6 +334,7 @@ final class PhabricatorRepositoryTr
       '%s set the short name of this repository to %s.' => '%s bu deponun kısa adını %s olarak ayarladı.',
       'Move paths with this prefix.' => 'Bu öneki olan yolları taşıyın.',
       'Repository "%s" is not due for an update for %s second(s).' => '"%s" deposu, %s saniyeye bir güncellemeye kaynaklanmadı.',
+      'The Almanac service for this repository is not bound to any active interfaces.' => 'Bu depo için Almanak hizmeti, herhangi bir etkin arabirime bağlı değildir.',
       'Phabricator will observe changes to this URI and copy them.' => 'Phabricator bu URI\'de yapılan değişiklikleri gözlemleyecek ve kopyalayacaktır.',
       'Repository "%s" is already importing.' => '"%s" deposu zaten içe aktarılıyor.',
       '%s removed %s as the "Import Only" path.' => '%s, "Yalnızca İçe Aktar" yolu olarak %s kaldırdı.',

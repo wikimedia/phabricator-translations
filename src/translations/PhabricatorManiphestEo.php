@@ -62,6 +62,8 @@ final class PhabricatorManiphestEo
       'Merged In' => 'Kunfandita al',
       'Edit Related Tasks...' => 'Redakti rilatajn taskojn...',
       'Finished' => 'Finita',
+      'Assigned task to: %s.' => 'Asignita tasko al: %s',
+      'Subtask' => 'Subtasko',
       'Mentions' => 'Mencioj',
       'Select All' => 'Elekti ĉion',
       'Task Author' => 'Aŭtoro de la tasko',

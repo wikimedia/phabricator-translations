@@ -30,6 +30,7 @@ final class PhabricatorUiexampleFrFR
       'Color \'%s\'' => 'Couleur \'%s\'',
       'Top Navigation' => 'Pages les plus vues',
       'Unit (3/5)' => 'Unité (3/5)',
+      'Spain' => 'Espagne',
       'Box' => 'Boîte',
       '%s bought an apple.' => '%s a acheté une pomme.',
       'Property List' => 'Liste des propriétés',

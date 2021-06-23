@@ -73,6 +73,7 @@ final class PhabricatorextCoreCa
       'Change type to "%s."' => 'Canvieu el tipus a \'%s\'.',
       'Execute searches for Policies.' => 'Executeu cerques de polítiques.',
       'Find public transactions by a particular user.' => 'Cerqueu transaccions públiques d\'un usuari concret.',
+      'Skip OFFSET rows before processing the remaining transactions.' => 'Omet les files OFFSET abans de processar les transaccions restants.',
       'Execute a rollback.' => 'Executeu un retrocés.',
       'Deny' => 'Denega',
       'Consumer Key is required' => 'Cal una clau de consumidor',
@@ -132,6 +133,13 @@ final class PhabricatorextCoreCa
       'Open Tasks' => 'Tasques obertes',
       'Unknown' => 'Desconegut',
       'OAuth error: this account has been blocked in MediaWiki.' => 'Error d\'OAuth: aquest compte s\'ha bloquejat a MediaWiki.',
+      '**MediaWiki Instance Name**
+    Choose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example: 
+    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.' => '**Nom de la instància MediaWiki**
+    Trieu un nom permanent per a aquesta instància de MediaWiki.Phabricator utilitza aquest nom internament per fer un seguiment d\'aquesta instància de MediaWiki, en cas que l\'URL canviï més endavant.
+    Utilitzeu minúscules, dígits i punt. Per exemple:
+    "mediawiki", "mediawiki.mycompany" o "mediawiki.engineering" són noms raonables.',
       'Global Accounts' => 'Comptes globals',
       'Milestone Navigation Links' => 'Enllaços de navegació de fita',
       'Patch without arc' => 'Pedaç sense arc',

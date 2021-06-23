@@ -494,9 +494,11 @@ final class PhabricatorCoreTr
       'List of strings, as array.' => 'Dizi olarak dizelerin listesi.',
       'Previous' => 'Önceki',
       'Version %s' => 'Sürüm %s',
+      'bcrypt' => 'bcrypt',
       'Path' => 'Yol',
       'Down Right' => 'Aşağı Sağ',
       'Expected an array from %s for object of class \'%s\'.' => '\'%2$s\' sınıfı nesnesi için %1$s üzerinden bir dizi bekleniyordu.',
+      'During the last %s second(s) spent waiting for the lock, more than %s other process(es) acquired it, so this is likely a bottleneck. Use "bin/lock log --name %s" to review log activity.' => 'Son %s kilidi beklemek için harcanan, %s fazladan başka işlem tarafından satın alındı, bu muhtemelen bir darboğaz. Günlük etkinliğini gözden geçirmek için "bin/lock log --name %s" kullanın.',
       'Current database namespace used by dumpfile.' => 'Döküm dosyası tarafından kullanılan geçerli veritabanı ad alanı.',
       'Stopped' => 'Durduruldu',
       'Mixture of usernames and PHIDs.' => 'Kullanıcı adları ve PHID\'lerin karışımı.',
@@ -1700,8 +1702,6 @@ final class PhabricatorCoreTr
       'Specify namespace to rename from with %s.' => '%s ile yeniden adlandırılacak ad alanını belirtin.',
       'View on forward revision' => 'İleri revizyonda görüntüle',
       'New Rule' => 'Yeni Kural',
-      'During the last %s second(s) spent waiting for the lock, more than %s other process(es) acquired it, so this is likely a bottleneck. Use "bin/lock log --name %s" to review log activity.' => 'Son %s kilidi beklemek için harcanan, %s fazladan başka işlem tarafından satın alındı, bu muhtemelen bir darboğaz. Günlük etkinliğini gözden geçirmek için "bin/lock log --name %s" kullanın.',
-      'bcrypt' => 'bcrypt',
     );
   }
 

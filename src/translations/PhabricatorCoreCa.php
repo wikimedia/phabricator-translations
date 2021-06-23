@@ -569,9 +569,11 @@ final class PhabricatorCoreCa
       'List of strings, as array.' => 'Llista de cadenes, com a vector.',
       'Previous' => 'Anterior',
       'Version %s' => 'Versió %s',
+      'bcrypt' => 'bcrypt',
       'Path' => 'Ruta',
       'Down Right' => 'A la part inferior dreta',
       'Expected an array from %s for object of class \'%s\'.' => 'S\'esperava un vector de %s per a l\'objecte de la classe \'%s\'.',
+      'During the last %s second(s) spent waiting for the lock, more than %s other process(es) acquired it, so this is likely a bottleneck. Use "bin/lock log --name %s" to review log activity.' => 'Durant els darrers %s segons invertits esperant el bloqueig, més de %s altres processos el van adquirir, de manera que probablement sigui un coll d\'ampolla. Utilitzeu "bin/lock log --name %s" per revisar el registre d\'activitat.',
       'Current database namespace used by dumpfile.' => 'Espai de noms de base de dades actual utilitzat per dumpfile.',
       'Stopped' => 'Aturat',
       'Mixture of usernames and PHIDs.' => 'Mescla de noms d’usuari i PHID.',
@@ -1967,8 +1969,6 @@ final class PhabricatorCoreCa
       'Specify namespace to rename from with %s.' => 'Especifiqueu l\'espai de noms per canviar el nom amb %s.',
       'View on forward revision' => 'Visualitzar en la revisió anterior',
       'New Rule' => 'Regla nova',
-      'During the last %s second(s) spent waiting for the lock, more than %s other process(es) acquired it, so this is likely a bottleneck. Use "bin/lock log --name %s" to review log activity.' => 'Durant els darrers %s segons invertits esperant el bloqueig, més de %s altres processos el van adquirir, de manera que probablement sigui un coll d\'ampolla. Utilitzeu "bin/lock log --name %s" per revisar el registre d\'activitat.',
-      'bcrypt' => 'bcrypt',
     );
   }
 

@@ -32,6 +32,7 @@ final class PhabricatorPeoplePtBR
       'Invite Users' => 'Convidar usuários',
       'Revise Invites' => 'Revisar convites',
       'Sort of a social utility.' => 'Tipo de utilidade social.',
+      'Approves a user.' => 'Aprova um usuário.',
       '[Phabricator] Email Verification' => '[Phabricator] Verificação de Email',
       'Send Invitations' => 'Enviar convites',
       'Confirm Approval' => 'Confirme a aprovação',

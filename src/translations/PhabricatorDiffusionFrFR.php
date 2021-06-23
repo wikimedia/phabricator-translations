@@ -134,6 +134,7 @@ final class PhabricatorDiffusionFrFR
       'This repository will become a new hosted repository. It will begin serving read and write traffic.' => 'Ce dépôt deviendra un nouveau dépôt hébergé. Il commencera à traiter du trafic en lecture et en écriture.',
       'Allow HTTP Basic Auth' => 'Permettre l’authentification basique HTTP',
       'If you allow dangerous changes, it will be possible to delete branches and %s push this repository. These operations can alter a repository in a way that is difficult to recover from.' => 'Si vous autoriser des modifications dangereuses, il sera possible de supprimer des branches et que %s pousse ce dépôt. Ces opérations peuvent endommager un dépôt d’une manière difficilement récupérable.',
+      'Enable Self-Accept' => 'Activer l’auto-acceptation',
       'Repository "%s" is on cluster service "%s", but the binding between that service and this device ("%s") is disabled, so it can not be updated on this host.' => 'Le dépôt « %s » est sur le service de grappe « %s », mais la liaison entre ce service et cet appareil (« %s ») est désactivée, donc il ne peut pas être mis à jour sur cet hôte.',
       'This push was rejected by Herald push rule %s.
         Change: %s
@@ -706,6 +707,7 @@ final class PhabricatorDiffusionFrFR
       'State' => 'Etat',
       'Integrations' => 'Intégrations',
       'No Local Working Copy' => 'Aucune copie de travail locale',
+      'Disable Self-Accept' => 'Désactiver l’auto-acceptation',
       'This repository ("%s") is not a Git repository.' => 'Ce dépôt (« %s ») n\'est pas un dépôt Git.',
       'Sync Logs' => 'Journaux synchronisés',
       'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normalement, Phabricator met à jour automatiquement les dépôts d’après le temps écoulé depuis la dernière validation. Cela aide à réduire la charge si vous avez beaucoup de dépôts, la plupart inactifs, ce qui est courant.',
@@ -1086,6 +1088,7 @@ final class PhabricatorDiffusionFrFR
       'Prevent Enormous Changes' => 'Empêcher les modifications énormes',
       'Automation Not Configured' => 'Automatisation non configurée',
       'This commit is still importing. Changes will be visible once the import finishes.' => 'Cette validation est encore en train d\'importer. Les modifications ne seront visibles que lorsque l\'import sera terminé.',
+      'Unpublished' => 'Non publié',
       'Diff content' => 'Contenu du diff',
       'Type a branch name...' => 'Entrer un nom de branche...',
       'You can not request verification of this commit because no auditors have raised concerns with it.' => 'Vous ne pouvez pas demander la vérification de cette validation car aucun auditeur n\'a signalé de problème la concernant.',

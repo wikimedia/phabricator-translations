@@ -16,6 +16,7 @@ final class PhabricatorPeopleKoKR
       'Event Date' => '이벤트 날짜',
       'Stores the real name of the user, like "Abraham Lincoln".' => '"에이브러햄 링컨"처럼 사용자의 실명을 저장합니다.',
       'You must be an administrator to create administrators.' => '관리자를 만들려면 관리자여야 합니다.',
+      'Approves a user.' => '사용자를 승인합니다.',
       '[Phabricator] Email Verification' => '[파브리케이터] 이메일 확인',
       'Send Invitations' => '초대 보내기',
       'User has not been created yet!' => '사용자가 아직 생성되지 않았습니다!',

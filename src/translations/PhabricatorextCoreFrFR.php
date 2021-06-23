@@ -73,6 +73,7 @@ final class PhabricatorextCoreFrFR
       'Change type to "%s."' => 'Changer le type en « %s ».',
       'Execute searches for Policies.' => 'Exécute des recherches de politiques.',
       'Find public transactions by a particular user.' => 'Trouver les transactions publiques d’un utilisateur donné.',
+      'Skip OFFSET rows before processing the remaining transactions.' => 'Sauter le nombre de rangées indiqué en OFFSET avant de traiter les transactions restantes.',
       'Execute a rollback.' => 'Entreprendre un retour en arrière.',
       'Deny' => 'Refuser',
       'Consumer Key is required' => 'La clé du consommateur est obligatoire',
@@ -131,6 +132,13 @@ final class PhabricatorextCoreFrFR
       'Open Tasks' => 'Tâches ouvertes',
       'Unknown' => 'Inconnu',
       'OAuth error: this account has been blocked in MediaWiki.' => 'Erreur OAuth : ce compte a été bloqué dans MediaWiki.',
+      '**MediaWiki Instance Name**
+    Choose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example: 
+    `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.' => '**Nom d’instance de MediaWiki**
+    Choisissez un nom permanent pour cette instance de MediaWiki. Phabricator utilise ce nom interne pour garder la trace de cette instance de MediaWiki, au cas où l’URL change plus tard.
+    N’utilisez que des lettres minuscules, des chiffres ou le point. Par exemple :
+    `mediawiki`, `mediawiki.masociete` ou `mediawiki.ingenierie` sont des noms raisonnables.',
       'Global Accounts' => 'Comptes globaux',
       'Milestone Navigation Links' => 'Liens de navigation des jalons',
       'Patch without arc' => 'Correctif sans arc',

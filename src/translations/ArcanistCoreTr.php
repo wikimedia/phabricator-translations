@@ -14,9 +14,18 @@ final class ArcanistCoreTr
       'Should throw on empty input' => 'Boş veri girişine verilmeli',
       'Lint Disabler' => 'Lint Disabler',
       'A linter for Composer related files.' => 'Yazar ile ilgili dosyalar için bir linter.',
+      '(No messages.)' => '(Mesaj yok.)',
+      'Saved "%s" as "%s".' => '"%s", "%s" olarak kaydedildi.',
+      'Night has fallen. The moon overhead is waxing, and provides just enough light that you can make out your surroundings. It is quite cold.' => 'Gece düştü. Ayın tepesi büyüyor ve çevrenizi görebileceğiniz kadar ışık sağlıyor. Hava oldukça soğuk.',
+      '(This message was raised at line %s, but the file only has %s line(s).)' => '(Bu mesaj %s satırında oluşturuldu, ancak dosyada sadece %s satır var.)',
       'Not parsing!' => 'Sözdizimsel analiz yok!',
+      'Portuguese (Portugal)' => 'Portekizce (Portekiz)',
+      'File Symbol "%s"' => 'Dosya Sembolü "%s"',
       'Try running your arc command again.' => 'Ark komutunu tekrar çalıştırmayı deneyin.',
+      'Local commit "%s" does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.' => '"%s" yerel taahhüdü "%s" ile net bir şekilde birleşmez. Temiz bir şekilde birleştirebilmeleri için yerel değişiklikleri yeniden temel alın veya birleştirin.',
       'CC: %s' => 'CC: %s',
+      'Failed to write file data.' => 'Dosya verileri yazılamadı.',
+      'Regenerate shell completion rules, without installing any configuration.' => 'Herhangi bir yapılandırma yüklemeden kabuk tamamlama kurallarını yeniden oluşturun.',
       'If the file is not a text file, you can mark it \'binary\'. Mark this file as \'binary\' and continue?' => 'Dosya bir metin dosyası değilse, \'ikili\' olarak işaretleyebilirsiniz. Bu dosyayı \'ikili\' olarak işaretleyin ve devam edin?',
       'Rule \'%s\' is invalid, it must have a type and name like \'%s\'.' => '\'%s\' kuralı geçersiz. \'%s\' gibi bir tür ve adı olmalıdır.',
       'None of the configured interpreters can be located.' => 'Yapılandırılmış tercümanların hiçbiri bulunamıyor.',
@@ -40,6 +49,7 @@ final class ArcanistCoreTr
       '%s assertion(s) passed.' => '%s iddia geçti.',
       'Do not copy changes to the staging area.' => 'Hazırlama alanındaki değişiklikleri kopyalamayın.',
       'Phutil Library Linter' => 'Phutil Kütüphanesi Linter',
+      'Empty key is invalid!' => 'Boş anahtar geçersiz!',
       '%s does not currently support custom severity levels, because rules can\'t be identified from messages in output.' => '%s şu anda özel önem düzeylerini desteklememektedir, çünkü çıktıdaki iletilerden kurallar tanımlanamaz.',
       'These tests should either fail or skip.' => 'Bu testlerin başarısız olması veya atlanması gerekir.',
       'Unknown Symbol' => 'Bilinmeyen sembol',
@@ -57,6 +67,7 @@ final class ArcanistCoreTr
       'This `%s` or `%s` has a nonempty block which does not end with `%s`, `%s`, `%s`, `%s` or `%s`. Did you forget to add one of those? If you intend to fall through, add a `%s` comment to silence this warning.' => 'Bu `%s` veya `%s`, `%s`, `%s`, `%s`, `%s` veya `%s` ile bitmeyen boş bir blok içerir. Bunlardan birini eklemeyi unuttunuz mu? Düşmek istiyorsanız, bu uyarıyı susturmak için bir `%s` yorum ekleyin.',
       'Provide a map of regular expressions to severity levels. All matching codes have their severity adjusted.' => 'Şiddet seviyelerine düzenli ifadeler haritası sağlayın. Tüm eşleşen kodların şiddeti ayarlanmıştır.',
       'In most cases, arc can be upgraded automatically.' => 'Çoğu durumda ark otomatik olarak yükseltilebilir.',
+      'Continue without loading library?' => 'Kitaplık yüklenmeden devam edilsin mi?',
       'Throwing Exception in `%s` Method' => '`%s` Yönteminde İstisna Atanıyor',
       'More than one revision exists in the working copy:
     %s
@@ -83,6 +94,7 @@ final class ArcanistCoreTr
       'Commit this revision anyway?' => 'Bu düzeltmeyi yine de yapılsın mı?',
       'After creating the task, open it in a web browser.' => 'Görevi oluşturduktan sonra bir web tarayıcısında açın.',
       'Lint does not currently support %s in SVN.' => 'Lint şu anda SVN\'de %s desteklemiyor.',
+      'Load a library.' => 'Bir kitaplık yükleyin.',
       'There are several revisions which match the working copy:
     %s
     Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Çalışan kopyayla eşleşen birkaç düzeltme vardır:

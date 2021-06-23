@@ -40,6 +40,7 @@ final class PhabricatorSystemZhHans
       'Destruction Logs' => '破坏日志',
       'This likely indicates a severe misconfiguration or major service interruption.' => '这很可能表明严重的配置错误，或主要服务中断。',
       'Destroying objects...' => '正在毁坏对象...',
+      'View Affected Path Index' => '查看受影响的路径索引。',
       'Read-only mode was enabled by the explicit action of a human administrator, so you can get more information about why it has been turned on by rolling your chair away from your desk and yelling "Hey! Why is Phabricator in read-only mode??!" using your very loudest outside voice.' => '由于有人类管理员通过明确操作启用了只读模式，因此您可以从您的办公桌和椅子上起来，然后以您最响亮的声音向外面大喊“嘿！为什么Phabricator处于只读模式？？！”来获取更多信息。',
       'This mode is active because no database has a "%s" role in the configuration option "%s".' => '此模式已激活，因为在配置选项“%2$s”中没有数据库有“%1$s”角色。',
       'This may also indicate that a more serious failure has occurred. If this interruption does not resolve on its own, Phabricator will soon detect the persistent disruption and degrade into read-only mode until the issue is resolved.' => '这也可能表明发生了更严重的故障。如果这种中断不能自行解决，Phabricator会很快检测到持续的中断并降级到只读模式，直到问题解决。',

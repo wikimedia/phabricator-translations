@@ -405,6 +405,7 @@ final class PhabricatorRepositoryCa
       '%s set the short name of this repository to %s.' => '%s estableix el nom curt d\'aquest repositori en %s.',
       'Move paths with this prefix.' => 'Moveu rutes amb aquest prefix.',
       'Repository "%s" is not due for an update for %s second(s).' => 'El repositori "%s" no s\'ha d\'actualitzar durant %s segon(s).',
+      'The Almanac service for this repository is not bound to any active interfaces.' => 'El servei Almanac d\'aquest repositori no està vinculat a cap interfície.',
       'Phabricator will observe changes to this URI and copy them.' => 'Phabricator observarà els canvis d’aquest URI i els copiarà.',
       'Repository "%s" is already importing.' => 'El repositori "%s" ja s\'està importat.',
       'This ref is not a branch.' => 'Aquesta referència no és una branca.',

@@ -541,9 +541,20 @@ final class PhabricatorCoreFrFR
       'List of strings, as array.' => 'Liste de chaînes, en tant que tableau.',
       'Previous' => 'Précédent',
       'Version %s' => 'Version %s',
+      'bcrypt' => 'bcrypt',
       'Path' => 'Chemin',
       'Down Right' => 'En bas à droite',
       'Expected an array from %s for object of class \'%s\'.' => 'Tableau de %s attendu pour l\'objet de classe « %s ».',
+      'During the last %s second(s) spent waiting for the lock, more than %s other process(es) acquired it, so this is likely a bottleneck. Use "bin/lock log --name %s" to review log activity.' => array(
+        array(
+          'Durant la dernière seconde passée à attendre le verrou, plus d’un autre processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %3$s » pour passer en revue le journal d’activité.',
+          'Durant la dernière seconde passée à attendre le verrou, plus de %2$s autres processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %3$s » pour passer en revue le journal d’activité.',
+        ),
+        array(
+          'Durant les %s dernières secondes passées à attendre le verrou, plus d’un autre processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %3$s » pour passer en revue le journal d’activité.',
+          'Durant les %s dernières secondes passées à attendre le verrou, plus de %s autres processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %s » pour passer en revue le journal d’activité.',
+        ),
+      ),
       'Current database namespace used by dumpfile.' => 'Espace de noms actuel de la base de données utilisé par le fichier de vidage.',
       'Stopped' => 'Arrêté',
       'Mixture of usernames and PHIDs.' => 'Mélange de noms d’utilisateurs et de PHID.',
@@ -1778,17 +1789,6 @@ final class PhabricatorCoreFrFR
       'Real name is required.' => 'Le nom réel est requis.',
       'Specify namespace to rename from with %s.' => 'Précisez l’espace de noms à renommer avec %s.',
       'View on forward revision' => 'Afficher sur une révision ultérieure',
-      'During the last %s second(s) spent waiting for the lock, more than %s other process(es) acquired it, so this is likely a bottleneck. Use "bin/lock log --name %s" to review log activity.' => array(
-        array(
-          'Durant la dernière seconde passée à attendre le verrou, plus d’un autre processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %3$s » pour passer en revue le journal d’activité.',
-          'Durant la dernière seconde passée à attendre le verrou, plus de %2$s autres processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %3$s » pour passer en revue le journal d’activité.',
-        ),
-        array(
-          'Durant les %s dernières secondes passées à attendre le verrou, plus d’un autre processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %3$s » pour passer en revue le journal d’activité.',
-          'Durant les %s dernières secondes passées à attendre le verrou, plus de %s autres processus l’ont acquis, c’est donc probablement un goulot d’étranglement. Utilisez « bin/lock --name %s » pour passer en revue le journal d’activité.',
-        ),
-      ),
-      'bcrypt' => 'bcrypt',
     );
   }
 

@@ -301,6 +301,7 @@ final class PhabricatorDifferentialFrFR
       'Commandeer a revision.' => 'Prendre la main sur une version.',
       'The author of this revision has not signed all the required legal documents. The revision can not be accepted until the documents are signed.' => 'L’auteur de la version n’a pas signé tous les documents légaux requis. La version ne peut pas être acceptée tant que ces documents ne sont pas signés.',
       'You can not reopen this revision because it is not closed. Only closed revisions can be reopened.' => 'Vous ne pouvez pas rouvrir cette version car elle n’est pas close. Seules les versions closes peuvent être rouvertes.',
+      'Legacy Value' => 'Valeur légale',
       'View Unified Diff' => 'Voir les diffs unifiés',
       '%s explained the test plan for this revision.' => '%s a expliqué le plan de test pour cette version.',
       'Diff Detail' => 'Détails du diff',
@@ -315,6 +316,7 @@ final class PhabricatorDifferentialFrFR
       'A revision is closed.' => 'Une version est close.',
       'Find results which have no reviewers.' => 'Chercher les résultats n’ayant aucun relecteur.',
       'This submodule was moved to %s.' => 'Ce sous-module a été déplacé vers %s.',
+      'Tag Color' => 'Couleur d’indicateur',
       'The content of this revision is hidden until the author has signed all of the required legal agreements.' => 'Le contenu de cette version est masqué tant que l’auteur n’a pas signé tous les accords légaux requis.',
       'Tabs to Spaces: %s' => 'Tabulations en espaces : %s',
       'Lint was skipped when generating these changes.' => 'Lint a été ignoré lors de la génération de ces changements.',
@@ -767,6 +769,7 @@ final class PhabricatorDifferentialFrFR
       'MIME Type' => 'Type MIME',
       'This file contains generated code, which does not normally need to be reviewed.' => 'Ce fichier contient du code généré, qui n’a normalement pas besoin d’être relu.',
       'Discard Edit' => 'Abandonner la modification',
+      'Tests Passed' => 'Tests réussis',
       'Creation of this diff was rejected by Herald rule %s.
       Rule: %s
     Reason: %s' => 'La création de ce diff a été rejetée par la règle %s de Herald.
@@ -798,6 +801,7 @@ final class PhabricatorDifferentialFrFR
       'Select a blocking reviewer.' => 'Sélectionner un relecteur de blocage.',
       'Rejected by Herald' => 'Rejeté par Herald',
       'This symlink was copied to %s.' => 'Ce lien symbolique a été copié de %s.',
+      'Open/Closed' => 'Ouvert/Fermé',
       'Revision summary.' => 'Résumé de la révision.',
       'We found a "%s" field with value "%s" in the commit message, and the domain on the URI matches this install, so we linked this commit to %s.' => 'Nous avons trouvé un champ « %s » avec la valeur « %s » dans le message de validation, et le domaine de l’URI correspond à cette installation, donc nous avons lié cette validation à %s.',
       'This file was moved to %s.' => 'Ce fichier a été déplacé en %s.',
@@ -876,6 +880,7 @@ final class PhabricatorDifferentialFrFR
       'Declined to add revision author as reviewer: %s.' => 'A refusé d\'ajouter l\'auteur de la révision comme relecteur: %s.',
       '%s (branched from %s)' => '%s (branché à partir de %s)',
       'The differential revision ID, if applicable.' => 'L\'ID Differential du diff, si applicable.',
+      'New author.' => 'Nouvel auteur.',
       'Show revisions the current viewer is responsible for. This function includes revisions the viewer is responsible for through membership in projects and packages.' => 'Montrer les révisions dont l\'observateur courant est responsable. Cette fonction inclut celles pour lesquelles il est responsable à travers son adhésion à des projets et à des paquets.',
       'Treat Accepted Revisions as "Open"' => 'Traiter les révisions acceptées comme « Open »',
       'Converted hunk %d to "%s" storage (with format "%s").' => 'Bloc %s converti dans le stockage « %s » (au format « %s »).',
@@ -957,6 +962,7 @@ final class PhabricatorDifferentialFrFR
       'The update which triggered Herald was an automatic update in response to discovering a commit, so builds will not run.' => 'La mise à jour qui a déclenché Herald était une mise à jour automatique en réponse à la découverte d\'une validation, les constructions ne seront donc pas lancées.',
       'Revision "%s" does not exist.' => 'La révision « %s » n’existe pas.',
       'Diff not found.' => 'Diff non trouvé.',
+      'Tests Not Applicable' => 'Tests non-applicables',
       'Hunk %d would be rewritten (storage: "%s" -> "%s"; format: "%s" -> "%s").' => 'Le bloc %s serait réécrit (storage: « %s » -> « %s »; format: « %s » -> « %s »).',
       '%s added %d JIRA issue(s): %s.' => array(
         array(
