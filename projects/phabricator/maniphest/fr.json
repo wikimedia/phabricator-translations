@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Alno",
 			"Derugon",
 			"Eneelk",
@@ -302,6 +303,7 @@
 	"c4f1f5b1d49f90d5": "Ouverte",
 	"c5fab9301ac6b03d": "$1 a supprimé $2 tâche(s) parente(s) pour $3 : $4.",
 	"c6291ca1de65576b": "Modifier les maquettes associées",
+	"c7302c72215e98ec": "Par l'utilisateur",
 	"c9c5e2648f2e6345": "Modifier l’état d’une tâche.",
 	"cc79072941a7d985": "Affecter à",
 	"d22457813b46665a": "Fermée après",

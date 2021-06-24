@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Gomoko",
 			"Motla",
 			"Tektasc",
@@ -26,6 +27,7 @@
 	"1e8d1aaa8f4424f0": "$1 a activé ce tableau de bord.",
 	"1fb921cf77637860": "Modifier le tableau de bord : $1",
 	"2458372dcf23269c": "Choisir l’icône du tableau de bord",
+	"256feba4900d867b": "Nouvel portail",
 	"25b1a7d86acbf93a": "Modifier le tableau de bord",
 	"2675818b4c327cb8": "Cet onglet a un type « $1 », mais ce type d’onglet est inconnu de Phabricator.",
 	"27fa594cc9193c81": "A soi-même",
@@ -58,6 +60,7 @@
 	"54c45c033f5eb914": "Blocs",
 	"5595c722b9a00929": "Panneau restreint",
 	"5717ea9f534e46f8": "Requête personnalisée (« $1 »)",
+	"57f5f5efbc5990f5": "Menu",
 	"593067b73a815cdf": "Rester éveillé",
 	"5aee5886d7c5c8bc": "Cet onglet sera archivé et n’apparaîtra plus dans les listes des onglets actifs.",
 	"5b3e0de4f97dd64a": "Les noms de panneau ne doivent pas être plus longs que $1 caractères.",
@@ -87,6 +90,7 @@
 	"95624aaeb16b11b7": "Archiver les panneaux?",
 	"9f0a2c67190002a7": "Ajouter un panneau",
 	"9f3b78224d494123": "(Aucun)",
+	"a0c88242e813893a": "Portails",
 	"a1eb0d2ffc2fa84b": "Vous devez choisir un panneau valide.",
 	"a6078b202556b0f3": "Type de panneau",
 	"a7062b7bdfc6d5c3": "Voir les détails du panneau",
@@ -98,6 +102,7 @@
 	"b06442f5bcd226cc": "Le panneau n’est pas valide ou n’existe pas. Il a peut-être été supprimé.",
 	"b2e5169b93c63e99": "Recherche pour",
 	"b4ec106799582c10": "Sans fil",
+	"b55223c7bdc7651d": "Portail",
 	"b84c4392b11f6527": "$1 a archivé cet onglet.",
 	"ba42ab0d4209de88": "Ajouter le tableau de bord au menu",
 	"bb06e312600c954e": "Sélectionner le panneau du tableau de bord",

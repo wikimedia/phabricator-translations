@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92",
@@ -134,6 +135,7 @@
 	"718a7e8a582e982e": "Corps",
 	"7858ac3ff63354f3": "Envoyer",
 	"7d9ff4f0de398581": "Visibilité",
+	"c2f42c6ad3d6747d": "À propos de $1",
 	"d78b9d3283b39499": "Entête de téléversement",
 	"e159d05a124cfbe6": "Sous-titre",
 	"fdb384d9f2767f3a": "Vous devez choisir un fichier quand vous téléversez un nouvel entête de billet."

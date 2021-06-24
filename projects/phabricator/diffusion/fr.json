@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Ash Crow",
 			"Gomoko",
 			"JenyxGym",
@@ -35,6 +36,7 @@
 	"0340b25614c9481d": "Le dépôt « $1 » n’est pas un dépôt valide.",
 	"03542bedf10f4c85": "Vous pouvez configurer Herald sélectivement en ajoutant des règles afin d'empêcher un sous-ensemble de modifications énormes (par exemple, basé sur qui essaie de pousser la modification).",
 	"042dd077d65e7153": "Numéro de ligne inattendu de `$1` !",
+	"04bf1775bdb5d5e2": "$1 : $2",
 	"04c088a92a451b40": "Ce dépôt est hébergé en externe. Phabricator l’observe.",
 	"04c9e2c4296800ec": "Ce dépôt observera un dépôt distant existant. Il va commencer à récupérer les modifications du serveur distant.",
 	"059acb56d214ec84": "Ajouter un nouvel URI",
@@ -157,6 +159,7 @@
 	"2b4bd787f8f41887": "Attente expirée sur clonage/recherche",
 	"2b5750a2d23b895d": "Cette validation fusionne un grand nombre de modifications. Seules les $1 premières sont affichées.",
 	"2bcf90cd7c976b85": "Modifier le mot de passe",
+	"2be88ca4242c76e8": "nul",
 	"2d0e651d0e38d27f": "Git LFS n’est pas activé pour ce dépôt.",
 	"2d19e3d79157eea7": "Contre",
 	"2dabb8334b6cbbc1": "Écriture en cours",
@@ -695,6 +698,7 @@
 	"bd855b478f721a9d": "Réf. « $1 »",
 	"bde9a1347d5bfc55": "Nouveau sous-chemin à importer.",
 	"be186dc88f880471": "Le diff est énorme",
+	"be650bbf4e57fd46": "$1 (à $2)",
 	"be9887b3f234d940": "Supprimer le mot de passe",
 	"bea77753223589c5": "Aucune validation n’attend que vous l’auditiez.",
 	"bec7a89e772c5128": "Toujours en cours d’importation…",
@@ -770,6 +774,7 @@
 	"d2eb4de099b578a9": "Autres balises...",
 	"d30372e755e4b0d0": "Clé SSH",
 	"d3265db85478af57": "Mettre à vrai si vous voulez que les patches soient attachés aux notifications de validation de Diffusion.",
+	"d3dacf895c16c92e": "·",
 	"d3eac92b4af0bb47": "Système de contrôle des versions",
 	"d400ea3b0a15629b": "Affecté à : $1",
 	"d432acf8196b9ae2": "Taille maximale autorisée pour les fichiers.",
