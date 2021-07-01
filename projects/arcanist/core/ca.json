@@ -4,7 +4,8 @@
 			"Alan Mena",
 			"Dvdgmz",
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Vfc"
 		]
 	},
 	"00003a701ef56dd7": "Hi ha hagut una interrupció a causa d'un error en pujar el fitxer. Es pot utilitzar $1 per ometre les càrregues binàries.",
@@ -12,9 +13,12 @@
 	"0036a9c91e10fbf2": "Hauria de ser llançat sobre una entrada buida",
 	"008e572e126baa15": "Desactivador de lint",
 	"013b0fec777a1671": "Un linter per a fitxers relacionats de Composer.",
+	"013ec8933730fcd3": "«$1» (<$2)",
+	"016cde189902b433": "(Cap missatge)",
 	"01e963ab91acb9c1": "No s'està analitzant sintàcticament!",
 	"026f05f8f44cf2b4": "Intenta tornar a executar l'ordre arc.",
 	"02a00dc7faefa712": "A/c: $1",
+	"02b0fb123bd4347e": "No s'han pogut escriure les dades del fitxer.",
 	"031c5310ec3ea154": "Si l'arxiu no és un fitxer de text, es pot marcar \"binari\". Marcar aquest fitxer com a «binari» i continuar?",
 	"031f35637d39aee4": "La regla '$1' no és vàlida, ha de tenir un tipus i nom com '$2'.",
 	"037cb36a85dc225f": "No es pot localitzar cap dels intèrprets configurats.",
@@ -30,6 +34,7 @@
 	"0593c20bb78ea188": "Cap lloc des del qual carregar el «$1»!",
 	"059d9011f031d260": "Error d'execució",
 	"0626932d7cb8da9a": "Sortida d'informació de càrrega en format JSON.",
+	"062d8a9dec0fa507": "port",
 	"0632cbe6a983b23f": "HTML en línia",
 	"06363ad632b4651d": "Repositori remot",
 	"0647eb5374f507e3": "Certificat buit en credencials.",
@@ -43,6 +48,7 @@
 	"07abd5694625c417": "Símbol desconegut",
 	"07b61143a4ee97fb": "Contra quina comissió?",
 	"07c209f12f1a9558": "missatge de validació",
+	"080683c8639ecefe": "Arxiu de configuració del projecte",
 	"0867ebfd23ae8fcf": "L'URI d'una instal·lació de Phabricator per estar-hi connectat  per defecte, si s'executa $1 en un projecte sense un URI de Phabricator o s'inicia fora d'un projecte.",
 	"08e55ac73e3843e0": "HLint és un linter per al codi en Haskell.",
 	"08e803d8d11ee22e": "Cap abast pare",
