@@ -92,6 +92,7 @@ final class PhabricatorHarbormasterFrFR
       'Publish a fragment based on a file artifact.' => 'Publier un fragment basé sur un artéfact de fichier.',
       'When creating an artifact, you will choose an `artifactType` from this table. These types of artifacts are supported:' => 'En créant un artéfact, vous choisirez un \'artifactType\' de ce tableau. Ces types d’artéfacts sont pris en charge :',
       'Aborting' => 'Abandon',
+      'Excuse:' => 'Excuse :',
       '%s Other Test(s)' => '%s autre(s) test(s)',
       'A buildable inherits policies from the underlying object.' => 'Un constructible hérite des politiques de l’objet souligné.',
       'Build Steps' => 'Construire les étapes',

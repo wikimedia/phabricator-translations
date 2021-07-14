@@ -333,6 +333,7 @@ final class PhabricatorManiphestFrFR
       'Opened' => 'Ouverte',
       '%s removed %s parent task(s) for %s: %s.' => '%s a supprimé %s tâche(s) parente(s) pour %s : %s.',
       'Edit Related Mocks' => 'Modifier les maquettes associées',
+      'By User' => 'Par l\'utilisateur',
       'Change the status of a task.' => 'Modifier l’état d’une tâche.',
       'Assign to' => 'Affecter à',
       'Closed After' => 'Fermée après',

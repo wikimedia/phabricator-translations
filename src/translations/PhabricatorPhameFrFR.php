@@ -136,6 +136,7 @@ final class PhabricatorPhameFrFR
       'Body' => 'Corps',
       'Post' => 'Envoyer',
       'Visibility' => 'Visibilité',
+      'About %s' => 'À propos de %s',
       'Upload Header' => 'Entête de téléversement',
       'Subtitle' => 'Sous-titre',
       'You must choose a file when uploading a new post header.' => 'Vous devez choisir un fichier quand vous téléversez un nouvel entête de billet.',

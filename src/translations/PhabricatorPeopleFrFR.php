@@ -146,6 +146,7 @@ final class PhabricatorPeopleFrFR
       'Create a standard user account.' => 'Créer un compte utilisateur standard.',
       'Show Only Disabled Users' => 'Afficher seulement les utilisateurs désactivés',
       'Edit Profile: %s' => 'Modifier le profil : %s',
+      'Anyone' => 'N\'importe qui',
       'Joined After' => 'Inscrit Après',
       'Search for activity by specific users.' => 'Rechercher des activités par utilisateur spécifique.',
       'Remove Administrator' => 'Supprimer l’administrateur',

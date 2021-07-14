@@ -171,6 +171,7 @@ final class PhabricatorFilesFrFR
       'info-circle' => 'info-cercle',
       'Edit File: %s' => 'Modifier le fichier : %s',
       'Too many redirects trying to fetch remote URI.' => 'Trop de redirections pour atteindre l’URI distante.',
+      '%d×%d px' => '%s × %s px',
       'Podcasting' => 'Podcasting',
       'Partial Upload' => 'Téléversement partiel',
       'Shift JIS' => 'Shift JIS',
