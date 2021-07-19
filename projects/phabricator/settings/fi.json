@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MITO",
 			"Nike",
 			"Pyscowicz"
 		]
@@ -8,6 +9,8 @@
 	"005bfb7a94bf7cfb": "12-tuntinen, 2:34 PM",
 	"029d918e892243c4": "Oletus ($1)",
 	"048ab01caf511511": "Ulkoinen muokkain",
+	"07f43e8ed0175df2": "Sivujen otsikot",
+	"081214afa5e61766": "Henkilökohtaiset asetukset",
 	"0a5ee85414fe08e2": "ISO 8601: 2000-02-28",
 	"0ccb7998ecc39302": "Globaalit oletusasetukset",
 	"117cb5da2ea671e9": "Valitse kieli, jota haluat käyttää Phabricatorin käyttöliittymässä.",
@@ -74,6 +77,7 @@
 	"ac26a7a94ea2e664": "Käännös",
 	"afc27b2e7d567b61": "Asetukset $1",
 	"b53bcdaddd0539de": "Aikamuoto",
+	"b7baa1d40c4ea29a": "Numero",
 	"b99af60bf33d1d6b": "Verkko ja työpöytä",
 	"bc5dd045b8623ddf": "Sunnuntai",
 	"c24825afdcaa6550": "Henkilökohtaiset asetukset",
@@ -85,11 +89,13 @@
 	"d8471e87f65863e8": "Viikko alkaa päivästä",
 	"d89a5ec1140ce5dd": "Emacs",
 	"da544d1418799d25": "IntelliJ IDEA",
+	"dda6ac27b9d3b234": "Vahvista",
 	"deb5fb222910c1f3": "Muokkaa asetuksia: $1",
 	"e101251952d6b6bf": "Vain työpöytä",
 	"e32707613d1f53b9": "Tunnusasetukset",
 	"e68e1b58e7d3f7b5": "Tilin toimintalokit",
 	"e6a0d7ebbfcfbca7": "Päiväys ja aika",
+	"e9fdd1691b726c9e": "Tallenna setukset",
 	"ee74a28e4c1ad1f1": "⚫ Sähköposti",
 	"ef8c27a1af0d9e8c": "Uusi asetus",
 	"f01f76f5c38cf7d2": "Sukupuoli käyttöliittymäviesteissä",
