@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Motla",
 			"Thibaut120094",
 			"Verdy p",
 			"Zarisi"
@@ -62,14 +63,14 @@
 	"820dfebf41af18d9": "Le nom d’utilisateur ne peut pas dépasser $1 caractères.",
 	"872fc079b28438ff": "Nouveau certificat",
 	"8880740dc72fb636": "Créer un certificat",
-	"89950c9c18f1aef5": "Phrase de passe",
+	"89950c9c18f1aef5": "Phrase secrète",
 	"8d644d8678e18a64": "Consulter des certificats.",
 	"9493cfd062592ea1": "Fichier de clé privée SSH",
 	"964b7465a72c2d24": "Les certificats doivent avoir un nom.",
 	"96e379c53b07c20c": "Le certificat n’a aucune clé publique !",
 	"981625e3c014d5ed": "Vous devez choisir un type de certificat.",
 	"99f1902eed898cb3": "Mettez vos secrets dans un coffre-fort.",
-	"9abf643a4ed8ee74": "Certificats de phrase de passe",
+	"9abf643a4ed8ee74": "Certificats de Phrase secrète",
 	"9de1796f7fb25576": "$1 a mis a jour la description de ce certificat.",
 	"a08d3098e318d3ff": "Clé publique ($1)",
 	"a1e82f03b2c9f0b5": "Échec du chargement du certificat « $1 » !",
@@ -93,7 +94,7 @@
 	"c9037df0e6a26517": "$1 a permis l’accès par l’API de Conduit à ce certificat.",
 	"cb0edb6aac4b0ad1": "Nouveau certificat : $1",
 	"cb57cee51cc4a9ec": "$1 (certificat restreint)",
-	"cedc4f9f00c97341": "Certificat de phrase de passe",
+	"cedc4f9f00c97341": "Certificat de Phrase secrète",
 	"cf1e833b1e0789d1": "Mot de passe de la clé",
 	"d2a1a6809a7f6402": "Empêcher le secret d’être révélé ou changé.",
 	"d62ce83cbe29825a": "$1 a examiné le texte en clair du secret pour le certificat $2.",

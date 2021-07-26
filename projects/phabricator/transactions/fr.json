@@ -105,6 +105,7 @@
 	"55d0758aebfc273a": "Activer ce formulaire ? Les utilisateurs qui peuvent le voir pourront l'utiliser et créer des objets.",
 	"56e6fb3bcbebd2b2": "Spécifiez une ou plusieurs requêtes à exporter avec  « --query ».",
 	"5898be8d2992f2a7": "Vous ne pouvez pas selectionner cette politique $1, car vous ne pourrez plus $2 l'objet.",
+	"5899026d27daddf2": "La suppression d'un commentaire empêche quiconque (y compris vous) de le lire. La suppression d'un commentaire masque également l'historique des modifications du commentaire et l'empêche d'être modifié.",
 	"58a333a91c4854c7": "$1 a enlevé $2 éditeur(s): $3 .",
 	"59b51036ffc54c19": "$1 a créé $2 dans l'espace $3 .",
 	"5b066d3a55a01b60": "$1 a ajouté ce formulaire au menu  « Création » .",
