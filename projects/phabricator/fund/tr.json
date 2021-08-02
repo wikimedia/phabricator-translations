@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
 	"0006324868d87fff": "Girişimsel uzun açıklama.",
@@ -75,6 +76,7 @@
 	"cab1e2a32e72c57e": "Girişim Kapandı",
 	"cab3e02528db28ee": "$1 bu girişimi $2 ile $3 değiştirdi.",
 	"cb124c8ca107f157": "Bu girişimi gerçekten kapatılsın mı? Kullanıcılar artık bunu geri alamayacak.",
+	"cbe9285536836c4f": "Tüccar $1 $2",
 	"ce7cb6c7dad9da16": "GİRİŞİM DETAYI",
 	"d04483248ba0fb22": "(Sınırlı Tüccar)",
 	"d23d5b2a45a044fc": "Geri Girişimi",

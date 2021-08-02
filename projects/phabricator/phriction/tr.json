@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Joseph",
 			"Melissadilara",
-			"Rapsar"
+			"Rapsar",
+			"SaldırganSincap"
 		]
 	},
 	"01f55bf10a17e740": "Belgenin yolu.",
@@ -53,6 +54,7 @@
 	"53bbb77bdd2c0e62": "Belge İçeriği",
 	"546d5cdcb6a3f042": "Sürüm $1",
 	"55f2250615fec200": "Son Yazar",
+	"58689508a548f566": "Yayımlanan belge değiştirildi",
 	"58e79958a276d352": "Düzenlemeye başladıktan sonra başka bir kullanıcı bu belgede değişiklikler yaptı. Değişikliklerinin üzerine yazmak ister misiniz? (Değişikliklerinin üzerine yazmayı seçerseniz, üzerine ne yazdığınızı görmek için belge düzenleme geçmişini gözden geçirmeli ve ardından değişiklikleri birleştirmek için başka bir düzenleme yapmalısınız.)",
 	"594ba7ef8ba87500": "$1 slug ile ana belge mevcut olmadığı için belge oluşturulamıyor!",
 	"5b6b529c575ccc48": "Phriction Belge Yapılandırmaları Düzenle",
@@ -73,6 +75,7 @@
 	"7206f23a2cfbd3ad": "Bu yöntem donmuş ve sonunda kullanımdan kaldırılacak. Yeni kodun yerine \"phriction.content.search\" kullanılmalıdır.",
 	"7311115efa31a1c8": "Zaten silinmiş bir belge silinemez.",
 	"76e01e2b390f592d": "Taslak",
+	"7d0c382ba03ba9c1": "$1, bu belgeyi $2 üzerinden taşıdı.",
 	"7ec274078a73991a": "Bu yöntem donmuş ve sonunda kullanımdan kaldırılacak. Yeni kodun yerine \"phriction.document.search\" kullanılmalıdır.",
 	"7fb270d05669a23f": "$1, $2 yeni bir versiyonunu yayınladı.",
 	"80414c97b50c6eaa": "Böyle bir belge yok.",

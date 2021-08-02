@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"0081abdb3fb33586": "\"\" (boş dizi)",
@@ -29,6 +30,7 @@
 	"428e4ae9b0245e17": "Paketler: Geçersiz Sahip",
 	"42daec9d1ebf95b9": "Otomatik inceleme bilgisi.",
 	"43bf45889ef7f59c": "Varsayılan Dalda Bulunmayan Yol",
+	"4528dd3348b2e58c": "Herald Kuralları Tarafından Etkilendi",
 	"456b2bfa2d850402": "Paketin sahibi olan kullanıcılar ve projeler.",
 	"47d48fb4a761c223": "Parametre bir phid olmalıdır.",
 	"49b6dcfbea1e7357": "$1 deposu çağrı işareti tanınmıyor",

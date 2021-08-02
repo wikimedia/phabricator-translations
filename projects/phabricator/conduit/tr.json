@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
 	"0008bde8eebd806d": "ConduitResultInterface desteği",
@@ -77,6 +78,7 @@
 	"665dbb890098bbd2": "PHID.",
 	"6a538ed03258aa8a": "Dizelerin listesi.",
 	"6b70bd7f6659ea45": "İstemci/sunucu sürümü uyuşmazlığı. İstemcinizi yükseltin.",
+	"6c174513db44e3a4": "Bu isteği imzalayan anahtar, devre dışı bırakılmış bir cihazla (\"$1\") ilişkilendirilmiştir.",
 	"6d315776e44f9a3c": "Kimlik doğrulaması yaptığınız zorluk belirteci, izin verilen zaman aralığının dışında. Sistem saatiniz dolmuyor veya bir yeniden saldırı gerçekleştiriyorsunuz.",
 	"6ec35d609231fa7e": "Bu anahtarı gerçekten sonlandırır mısın? Bu anahtarı kullanan hiçbir sistem artık API isteği yapamayacak.",
 	"6ec67e47b05f64f5": "Conduit API yöntemi \"$1\" mevcut değil.",
@@ -143,6 +145,7 @@
 	"b25b1843b4eeaa47": "API Simgesini Sonlandır",
 	"b2961988e5b3f246": "Bir liste bekleniyordu, ancak değer bir nesnedir.",
 	"b58add6467b90d23": "Çağrı yöntemi.",
+	"b60969ac2981d577": "Kümedeki başka bir ana bilgisayara proxy yapmak yerine, isteği bu işlemde yürütmeye zorlayın.",
 	"b6a2e760a99ca868": "Çağrılar",
 	"b700afaaf5bb5041": "Bu yöntemi arama yetkiniz yok.",
 	"b7a40dc3fa6d4bd2": "Küme API Simgesi",

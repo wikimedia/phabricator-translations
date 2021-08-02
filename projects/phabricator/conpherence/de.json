@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Leon95",
 			"Umlaut"
 		]
 	},
@@ -64,6 +65,7 @@
 	"7e796b5ac953990a": "$1 entfernte $2 Teilnehmer: $3 .",
 	"7fdb54c18ff20c59": "Suchen nach $1...",
 	"8517db9dd6315e88": "Neuen Raum erstellen",
+	"87093c6e5b844c30": "Das Senden einer Nachricht bewirkt auch das Beitretren des Raumes.",
 	"889baf9b2bb65381": "Sie sind noch keinem Raum beigetreten.",
 	"8ecff24e43c3204a": "Conpherence Räume",
 	"8f4e872a475f1b43": "Treten Sie einem Raum bei",
@@ -85,6 +87,7 @@
 	"b969680a4943d3e0": "Warnung",
 	"be373f9f5732fb6b": "Nur ein Benutzer kann sich selbst aus einem Raum entfernen.",
 	"c04640995b54b653": "CONPHERENCE DETAILS",
+	"c064322ad3308e55": "Raum-Aktionen",
 	"c1e68746a7e963d4": "Kein Ton",
 	"c5d24864ed2d2d69": "Raumteilnehmer",
 	"c94956e6eb072901": "$1 ist dem Raum beigetreten.",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"0082e7ead2a36409": "Tüm İşlemler",
@@ -46,6 +47,7 @@
 	"12b84950453fb74a": "\"$1\" ile güncellenecek bir veya daha fazla kaynak kimliği belirtin.",
 	"13c02e6a39467287": "\"$1\" ile yayınlanacak bir veya daha fazla kiralama kimliği belirtin.",
 	"14a275cde86685b3": "Yalnızca Engelli Planları Göster",
+	"14d584b7a9d7ed16": "Drydock kaynakları hakkında bilgi alın.",
 	"1550402ef853f360": "Bir kaynak adı yazın...",
 	"15cc9061f84023a3": "Detayları Gizle",
 	"160a941905e25a51": "Drydock Yetkilendirme",
@@ -77,6 +79,7 @@
 	"2172cd64006a78b3": "Fark bir ham giriş kaynağından üretildi, bu nedenle değişiklik evrelemeye itilemedi. Değişiklikler web'den indirilmeden önce evrelemeye aktarılmalıdır.",
 	"224510732866b75a": "Ev sahibi ($1)",
 	"224aea87ec639c0b": "Drydock Depo İşlemleri",
+	"24c6733752a253a8": "Kaynağa göre kiralama arayın.",
 	"25c179baa0e6db15": "Blueprints Araştır",
 	"26a469c7c842b9ab": "Hiçbir nesnenin bu planı kullanmak için etkin yetkileri yoktur.",
 	"27993de08fc65001": "Drydock planları oluşturma izniniz yok.",
@@ -97,6 +100,7 @@
 	"3261a91887d51a25": "Bir veya daha fazla plan yeni bir kaynak vaat etti, ancak ayırırken başarısız oldu: [$1] $2",
 	"3266bfab786da498": "Revizyon Kapalı",
 	"335e424872d2799d": "Bir kaynağı güncelleyin.",
+	"3566d5c27ecaa6b9": "Belirli planlar tarafından oluşturulan kaynakları arayın.",
 	"373d195d3864a66a": "Kira zaten yayınlandı!",
 	"3768e45060e2454a": "Kira sözleşmesi bozuldu!",
 	"3854a4903895b4f4": "Bu revizyon zaten başlıyor.",
@@ -286,6 +290,7 @@
 	"c54179bb67f46857": "otomatik değiştirme",
 	"c6fb86c455cd2687": "Aktivasyon Bekleniyor",
 	"c773da3897791531": "Planların bir adı olmalıdır.",
+	"c7d94f92538f1b4d": "Kaynak durumu hakkında bilgi.",
 	"c7df0a7d955798fd": "Daemonların kiralamayı aktif hale getirmesi bekleniyor...",
 	"c89e45212ec68582": "Zaten Yetkili",
 	"c8e806a74eae89b0": "\"$1\" türünde kaynak arabirimi oluşturulamıyor.",
@@ -294,6 +299,7 @@
 	"c9fab2e880bd0ad1": "Kaynaklar, planlarının politikalarını devralır.",
 	"cb28eb043b3e19ea": "Aktif Planlar",
 	"cba1c671ee3ab410": "Bir plan oluştururken, türü ayarlayın.",
+	"cbedddea98ba1c93": "Bu fark oluşturulduğunda, sunucu Phabricator'un bu sürüm kontrol sistemi için hazırlama alanlarını desteklemeyen eski bir sürümünü çalıştırıyordu, bu nedenle değişiklik hazırlamaya gönderilmedi. Değişiklikler, web'den indirilmeden önce aşamaya aktarılmalıdır.",
 	"cc5d9eefe02d2943": "Günlük ayrıntılarını görüntülemek için, ilişkili tüm planları, kaynakları, kiraları ve depo işlemlerini görüntüleyebilmeniz gerekir.",
 	"ccb2bbd7354d586b": "Ham Fark Kaynağı",
 	"cd0df7030ba7d745": "Drydock Plan Yapılandırmalarını Düzenle",
@@ -302,6 +308,7 @@
 	"d0ea7b77f68e69e0": "Herhangi bir kaynak için \"$1\" kira alınamıyor.",
 	"d2105d313c5ac212": "Kiralama \"$1\" güncelleniyor.",
 	"d24b08053e3abf18": "Kira zaten imha edildi!",
+	"d57d6d42467393c4": "Bu kaynağı oluşturan plan.",
 	"d58d748ad6535f17": "Plan Oluştur",
 	"d5fb68ec80e6275a": "Drydock yetkilendirmeleri hakkında bilgi alın.",
 	"d6da6d1d042c8eff": "Depo Yapılandırılmamış",
