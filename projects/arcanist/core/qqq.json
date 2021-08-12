@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ajeje Brazorf"
+		]
 	},
 	"00003a701ef56dd7": "Variable Types: NONE.\nUsed in:\n\nArcanistDiffWorkflow.php:2558",
 	"0008687c919b007e": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistMercurialLandEngine.php:551\nArcanistGitLandEngine.php:1443",
@@ -823,7 +825,7 @@
 	"4caf213d00ddb6cb": "Used in:\n\nArcanistImplicitVisibilityXHPASTLinterRule.php:47",
 	"4cb662491da3b457": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nArcanistLandEngine.php:1461",
 	"4d37a942465de3f8": "Variable Types: NONE.\nUsed in:\n\nArcanistGitAPI.php:373",
-	"4d4ce41fb9b4f16e": "Variable Types: NONE.\nUsed in:\n\nPhutilPhtTestCase.php:12\nPhutilPhtTestCase.php:21\nPhutilPhtTestCase.php:30",
+	"4d4ce41fb9b4f16e": "Variable Types: NONE.\nUsed in:\n\nPhutilPhtTestCase.php:12\nPhutilPhtTestCase.php:21\nPhutilPhtTestCase.php:30\n\n{{Identical|Beer}}",
 	"4da6f5e8dd3ddb76": "Variable Types: NONE.\nUsed in:\n\nArcanistXHPASTLintNamingHookTestCase.php:44",
 	"4db0d852b7a7b15b": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistSingleLintEngine.php:22",
 	"4de7b7ed7aac36ce": "Used in:\n\nArcanistTodoWorkflow.php:50",
@@ -1009,7 +1011,7 @@
 	"5fa3a98e1482d5cc": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistPhutilLibraryLinter.php:147",
 	"5ffcc4dda6689ca6": "Used in:\n\nArcanistLiberateWorkflow.php:170",
 	"600638abb3d4b097": "Used in:\n\nArcanistAmendWorkflow.php:31",
-	"600982cf9c0c41e1": "Used in:\n\nPhutilPhtTestCase.php:11",
+	"600982cf9c0c41e1": "Used in:\n\nPhutilPhtTestCase.php:11\n\n{{Identical|Beer}}",
 	"6017d6fd0374b33d": "Variable Types: NONE, PLURAL, NONE.\nUsed in:\n\nArcanistDownloadWorkflow.php:128",
 	"601b93f971b905ff": "Variable Types: NONE.\nUsed in:\n\nArcanistSettings.php:270",
 	"602bea4a06b4238d": "Used in:\n\nArcanistDiffWorkflow.php:286",

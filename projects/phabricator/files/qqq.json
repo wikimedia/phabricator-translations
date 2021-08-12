@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ajeje Brazorf"
+		]
 	},
 	"00bb89e9c8a3cde1": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/favicon/PhabricatorFaviconRef.php$403 PhabricatorFaviconRef.php:403]",
 	"01129f5fffd790a6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$177 PhabricatorFilesComposeIconBuiltinFile.php:177]",
@@ -54,7 +56,7 @@
 	"16b674860b0a5a34": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/conduit/FileConduitAPIMethod.php$86 FileConduitAPIMethod.php:86]",
 	"16d927646de187a1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$179 PhabricatorFilesComposeIconBuiltinFile.php:179]",
 	"16f20a986e3f2881": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/management/PhabricatorFilesManagementIntegrityWorkflow.php$112 PhabricatorFilesManagementIntegrityWorkflow.php:112]",
-	"170fd7e84a1b2f97": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$209 PhabricatorFilesComposeIconBuiltinFile.php:209]",
+	"170fd7e84a1b2f97": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$209 PhabricatorFilesComposeIconBuiltinFile.php:209]\n\n{{Identical|Glass}}",
 	"1910e1df6652085d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/editor/PhabricatorFileEditEngine.php$80 PhabricatorFileEditEngine.php:80]",
 	"1afa76d7cb118c60": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/controller/PhabricatorFileTransformListController.php$119 PhabricatorFileTransformListController.php:119]",
 	"1b1393bb7f3a5128": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/storage/PhabricatorFile.php$994 PhabricatorFile.php:994]",
