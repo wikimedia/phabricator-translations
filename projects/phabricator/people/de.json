@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Leon95",
+			"Rechnerfuchs",
 			"Tobi 406"
 		]
 	},
@@ -107,7 +108,7 @@
 	"aed3b8c6a7c0fbbd": "Bestätigt",
 	"b25c91fe6103401c": "Benutzer erstellen",
 	"b34e9360db16298e": "Benutzernamen ändern",
-	"b59c7540fc590ccf": "Bitte bestätige, dass du diese Email besitzt. Benutze dazu den folgenden Link:",
+	"b59c7540fc590ccf": "Bitte bestätige, dass du diese Email besitzt ($1). Benutze dazu den folgenden Link:",
 	"b5c499421051e6e7": "Den Benutzer deaktivieren.",
 	"b77755b0ae2bc810": "E-Mail ist nicht verifziert!",
 	"b8fc1450c62d174c": "Alter Benutzername",

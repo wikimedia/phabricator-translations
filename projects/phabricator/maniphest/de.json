@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Leon95",
+			"Rechnerfuchs",
 			"Sushi",
 			"Tobi 406"
 		]
@@ -118,7 +119,7 @@
 	"cb1dabc78a825b01": "Schließe und führe Aufgaben zusammen",
 	"cbbfccf48a518a4b": "Prioritäten durchsuchen",
 	"cc79072941a7d985": "Zuweisen an",
-	"cd059ca86b1c433d": "$1 bearbeitete Revisionen für $3, hinzugefügt: $5; entfernt $7.",
+	"cd059ca86b1c433d": "$1 bearbeitete $2 von $3, hinzugefügt $4: $5; entfernt $6: $7.",
 	"cd8ce68202e4714a": "Der Aufgabenstatus wird geändert.",
 	"cdc43d26b7a4411d": "Die Aufgabe umbennenen",
 	"d22457813b46665a": "Geschlossen nach",
