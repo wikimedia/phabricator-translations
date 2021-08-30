@@ -1797,7 +1797,7 @@
 	"a8948c794dc2768b": "Used in:\n\nArcanistMergeConflictLinter.php:16",
 	"a898caba35cdf4d2": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nPhutilEditDistanceMatrixTestCase.php:179",
 	"a89f5968eb2b6f9b": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nArcanistMercurialAPI.php:779",
-	"a8ad860c15810cce": "Used in:\n\nArcanistShellCompleteWorkflow.php:153\nArcanistHLintLinter.php:75",
+	"a8ad860c15810cce": "Used in:\n\nArcanistShellCompleteWorkflow.php:153\nArcanistHLintLinter.php:75\n\n{{Identical|Note}}",
 	"a8befe3bc383d808": "Variable Types: NONE.\nUsed in:\n\nArcanistConduitCallFuture.php:24",
 	"a8c20c8c2f868ccc": "Variable Types: NONE.\nUsed in:\n\nPHPASTParserTestCase.php:73",
 	"a8cb94e619e9cca6": "Used in:\n\nArcanistDiffParser.php:392",

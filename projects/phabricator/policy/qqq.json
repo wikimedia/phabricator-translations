@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ajeje Brazorf"
+		]
 	},
 	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$904 PhabricatorPolicyFilter.php:904]",
 	"021dfd70b626a618": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/__tests__/PhabricatorPolicyTestCase.php$84 PhabricatorPolicyTestCase.php:84]",
@@ -77,7 +79,7 @@
 	"797b2c9b22aa47b1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PhabricatorPolicyConfigOptions.php$40 PhabricatorPolicyConfigOptions.php:40]",
 	"7c1c30041d2f2a8b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PolicyLockOptionType.php$18 PolicyLockOptionType.php:18]",
 	"828f2a22520c1086": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementShowWorkflow.php$57 PhabricatorPolicyManagementShowWorkflow.php:57]",
-	"83423c198b6099ed": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/view/PHUIPolicySectionView.php$84 PHUIPolicySectionView.php:84]",
+	"83423c198b6099ed": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/view/PHUIPolicySectionView.php$84 PHUIPolicySectionView.php:84]\n\n{{Identical|Note}}",
 	"85f437a86ad48b04": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/view/PhabricatorPolicyRef.php$93 PhabricatorPolicyRef.php:93]",
 	"88fd881df8116595": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/capability/PhabricatorPolicyCanEditCapability.php$9 PhabricatorPolicyCanEditCapability.php:9]",
 	"8a04ae8bee11253a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/__tests__/PhabricatorPolicyTestCase.php$113 PhabricatorPolicyTestCase.php:113]",

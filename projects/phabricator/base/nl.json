@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -24,5 +25,5 @@
 	"d9b9a15e87d0d955": "Onverwachte functie \"$1\"!",
 	"daf366af13db9c61": "Beheerder verplicht",
 	"dced58a261d6133b": "E-mailverificatie verplicht, met uitzondering",
-	"dfa4966710819f7d": "Toestaan uitgeschakeld"
+	"dfa4966710819f7d": "Uitgeschakeld toestaan"
 }
