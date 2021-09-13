@@ -431,6 +431,7 @@
 	"31182fe43c61912b": "Avant PHP 5.4, `$1` échoue quand il reçoit des tableaux vides. Il est préférable d’écrire `$2` sous la forme `$3`.",
 	"3134519876584aab": "Dans le module `$1`, déclaration `$2`.",
 	"3143750cba14c03a": "Espace après l’opérateur unaire en préfixe",
+	"3150ecd5e0294534": "chemin",
 	"3169646ae2fc96bf": "Mise en réserve des modifications non validées (vous pouvez les rétablir avec `$1`).",
 	"3255411d3e2bc059": "INSTALLÉ",
 	"325c26ccc5a08a07": "Modifications mises en réserve restaurées dans le répertoire de travail.",
