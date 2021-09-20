@@ -534,6 +534,7 @@
 	"548600346bf139e3": "Metronom ofseti 0 veya daha fazla olmalıdır.",
 	"54e07aad9d8e5b8e": "Geçersiz",
 	"54e4583d47533929": "Paket Oluştur",
+	"54fbc1f4a81c7572": "Okuma/Yazma",
 	"54ff4ddeb0c8106a": "Gerekli bir veritabanına veya tabloya erişilemiyor. Bu neredeyse her zaman bağlandığınız kullanıcının (\"$1\") MySQL'de yeterli izinlere sahip olmadığı anlamına gelir. İzin verilen tüm veritabanlarının bir listesini almak için `bin/storage databases` kullanabilirsiniz.",
 	"550212db5464ac46": "Test durumlarında, tüm uygulamalar varsayılan olarak kurulu olmalıdır.",
 	"551f8332aaafa364": "Toplu İş",

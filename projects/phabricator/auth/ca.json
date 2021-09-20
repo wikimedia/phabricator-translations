@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arnaugir",
 			"Joseplluis",
 			"Mguix"
 		]
 	},
-	"00a64a49b8cbf97e": "$1 ha reanomenat aquest proveïdor de $2 to $3.",
+	"00a64a49b8cbf97e": "$1 ha reanomenat aquest proveïdor de $2 a $3.",
 	"012f3cfd29d66d76": "$1 ha habilitat l'inici de sessió.",
 	"01624f96a6a6bfa4": "Aquesta clau s'ha revocat. Trieu o genereu una nova clau única.",
 	"01a57dca3e44b680": "Accions clau SSH",

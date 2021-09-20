@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"Melissadilara"
 		]
 	},
 	"00a3cc5b55d618dc": "Hizmet PHID'si.",
@@ -314,6 +315,7 @@
 	"e67cbe8d3fcb2d06": "Fiziksel ve sanal ana bilgisayarların ve cihazların bir envanterini oluşturun.",
 	"e6ad38fc394c033a": "Küme Deposu",
 	"e850377b88132b21": "Hizmetleri türe göre bulun.",
+	"e9038c87b2dfbe58": "Etkin Cihazlar",
 	"e931cb5b030b0b23": "Ağlar",
 	"e99822ea05ce5b64": "Yazmaya İzin Ver",
 	"ea139c90bef93ed7": "Bir Phabricator kümesinde kullanılacak bir depo hizmetini tanımlar.",
