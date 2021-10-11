@@ -39,6 +39,7 @@
 	"65fca1e4d02e4304": "Destrucció de registres",
 	"663a7169eba04995": "És probable que això indiqui una configuració errònia greu o una interrupció important del servei.",
 	"6a1114f49dc5b54a": "Destruint objectes...",
+	"6b05887ec4628b19": "Mostra l'índex del camí afectat",
 	"6b7eda7cc1fb653a": "El mode de només lectura es va habilitar amb l'acció explícita d'un administrador humà, de manera que podeu obtenir més informació sobre per què s'ha activat estirant la cadira de l'escriptori i cridant \"Ei! Per què Phabricator està en mode de només lectura? ?! \" utilitzant la vostra veu exterior més forta.",
 	"6bebb0e6346bd254": "Aquest mode està actiu perquè cap base de dades té un rol \"$1\" a l'opció de configuració \"$2\".",
 	"7056a7ded33bce38": "Això també pot indicar que s'ha produït un error més greu. Si aquesta interrupció no es resol per si sola, Phabricator aviat detectarà la interrupció persistent i es degradarà al mode de només lectura fins que es resolgui el problema.",

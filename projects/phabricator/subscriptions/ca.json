@@ -44,7 +44,7 @@
 	"c1594affebc7bd2f": "Eliminar els subscriptors: $1.",
 	"c1b8396b730a5058": "Canviar els subscriptors",
 	"c763d0330358f587": "No es pot subscriure a aquest objecte.",
-	"ceb64b545e328f3b": "Afegeix un o més subscriptors a l'objecte. Pots afegir usuaris proporcionant els seus noms d'usuari, o afegir projectes afegint les seves etiquetes. Per exemple, utilitza `$1` per afegir l'usuari `alincoln` i el projecte amb l'etiqueta `#ios` com a subscriptors.\n\nEls subscriptors que estan com a no vàlids o no reconeguts seran ignorats. Aquesta ordre no té cap efecte si no especifiques cap subscriptor.\n\nEls usuaris que estan A/c en el correu electrònic també es subscriuen automàticament si Phabricator coneix quins comptes estan enllaçats a les seves adreces de correu electrònic.",
+	"ceb64b545e328f3b": "Afegeix un o més subscriptors a l'objecte. Pots afegir usuaris proporcionant els seus noms d'usuari, o afegir projectes afegint els seus hashtags. Per exemple, utilitza `$1` per afegir l'usuari `alincoln` i el projecte amb el hashtag `#ios` com a subscriptors.\n\nEls subscriptors que estan com a no vàlids o no reconeguts seran ignorats. Aquesta ordre no té cap efecte si no especifiques cap subscriptor.\n\nEls usuaris que estan A/c en el correu electrònic també es subscriuen automàticament si Phabricator coneix quins comptes estan enllaçats a les seves adreces de correu electrònic.",
 	"f3b69c880c1a2411": "Afegeix el regla de l'autor com a subscriptor.",
 	"f4000e0c96c12a99": "S'han afegit $1 subscriptors: $2.",
 	"f5df5d6884fac5c0": "Elimina la regla d'autor com a subscriptor.",

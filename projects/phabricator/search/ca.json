@@ -51,6 +51,7 @@
 	"29a4431c512825e9": "Els primers gats van evolucionar a la sabana fa uns 8.000 anys.",
 	"2a4c535674f704fc": "Heu de posar un nom a la consulta.",
 	"2b29b18d48695f09": "Els gats sovint et porten les seves preses perquè senten llàstima per la teva incapacitat per caçar.",
+	"2b8840cfc8df126e": "Podeu aplicar restriccions personalitzades passant un diccionari a\n\"restriccions\". Això us permetrà cercar conjunts de resultats específics (per\nexemple, és possible que vulgueu mostrar només resultats amb un estat, estat o\npropietari determinats).\n\n\nSi especifiqueu tant \"queryKey\" com \"constraints\", la consulta integrada o\ndesada s'aplicarà primer com a punt de partida, llavors s'aplicaran els valors\naddicionals de \"constraints\", sobreescrivint els valors predeterminats de la\nconsulta original.\n\nEls diferents punts finals admeten restriccions diferents. A continuació es\ndetallen les restriccions que admet aquest mètode. Com a exemple, podeu\nespecificar restriccions com aquesta:\n\n```lang=json, name=\"Exemple de restriccions personalitzades\"\n{\n  ...\n  \"constraints\": {\n    \"authorPHIDs\": [\"PHID-USER-1111\", \"PHID-USER-2222\"],\n    \"flavors\": [\"cherry\", \"orange\"],\n    ...\n  },\n  ...\n}\n```\n\nAquest punt final de l'API admet aquestes restriccions:",
 	"2c33effb32a9316a": "Aquesta trucada no admet cap fitxer adjunt.",
 	"2c5e391c41f8d146": "Stem de corpus de: $1",
 	"2ca7f537e2c60ee9": "Suprimir la consulta \"$1\"? No es pot desfer. Recordeu tots els moments fantàstics en què heu filtrat els resultats junts?",
@@ -69,7 +70,7 @@
 	"4329a7c2771cca43": "No compatible.",
 	"43772ecd1f445c23": "La consulta conté un testimoni (\"$1\") sense terme de cerca. Les fitxes de consulta especifiquen text a cercar.",
 	"481e63e8ab09e8c3": "La classe del motor és nul·la.",
-	"49a0d548c5079bc7": "Consulta a pèl per executar.",
+	"49a0d548c5079bc7": "Consulta en brut per executar.",
 	"4ae5c9d7560104a4": "Dues especificacions de camp comparteixen la mateixa clau ('$1'). Cada especificació ha de tenir una clau única.",
 	"4bb86fecce6ee4c2": "Heu de triar un URI per enllaçar-lo.",
 	"4bcdb94f34b204c0": "Camp present: $1",
@@ -107,6 +108,7 @@
 	"72acb25df8875427": "Compilació de la consulta Stemmed: $1",
 	"762f36b7c7cf9ba9": "Un gat pot córrer set vegades més ràpid que un ésser humà, però només distància curta.",
 	"7661a07ddf968876": "Aquest motor s’utilitza per modificar els elements del menú als perfils.",
+	"76b4098d967083a4": "Podeu triar una consulta integrada o desada com a punt de partida per filtrar\nels resultats seleccionant-la amb `queryKey`. Si no especifiqueu un `queryKey`,\nla consulta s'iniciarà sense restriccions.\n\nPer exemple, moltes aplicacions tenen consultes integrades com ara `\"active\"` o\n`\"open\"` per trobar només resultats actius o activats. Per utilitzar un\n`queryKey`, especifiqueu-ho així:\n\n```lang=json, name=\"Selecció d'una consulta integrada\"\n{\n  ...\n  \"queryKey\": \"active\",\n  ...\n}\n```\n\nLa taula següent mostra les claus que cal utilitzar per seleccionar consultes\nintegrades i les vostres consultes desades, però també podeu utilitzar **\nqualsevol ** consulta que executeu a través de la IU web com a punt de partida.\nPodeu trobar la clau per a una consulta examinant l’URI després d’executar una\ncerca normal.\n\nPodeu utilitzar aquestes tecles per seleccionar consultes integrades i les\nvostres consultes desades configurades:",
 	"7774208a4b22d501": "La consulta és massa llarga ($1 bytes, el màxim és de $2 bytes).",
 	"77bbb17c930a6eae": "La clau del camp del motor de cerca Ferret ('$1') no és vàlida. Les claus de camp han de tenir exactament quatre caràcters i contenir només lletres llatines minúscules.",
 	"785d2ecf4f7686ee": "Els gats passen gran part del seu temps conspirant per matar el seu propietari.",
@@ -186,5 +188,6 @@
 	"fb0adfc36149a663": "$1 documents en cua per indexar en segon pla.",
 	"fb9f9e3cbda521f4": "Aquest quadre de comandament no és vàlid i no s'ha pogut carregar.",
 	"fc2185a946454ea4": "Compilació de funcions de consulta: $1",
+	"fdb5e8af3a825fd3": "Les consultes es limiten a retornar 100 resultats alhora. Si voleu menys resultats, \npodeu utilitzar `limit` per especificar un límit més petit.\n\nSi voleu obtenir més resultats, haureu de fer consultes addicionals per recuperar \nmés pàgines de resultats.\n\nL'estructura de resultats conté una tecla \"cursor\" amb la informació que necessiteu \nper obtenir la següent pàgina de resultats. Després d'una primera consulta, normalment \ntindrà un aspecte semblant a aquest:\n\n```lang=json, name=\"Example Cursor Result\"\n{\n  ...\n  \"cursor\": {\n    \"limit\": 100,\n    \"after\": \"1234\",\n    \"before\": null,\n    \"order\": null\n  }\n  ...\n}\n```\n\nEls camps `limit` i `order` estan descrivint el límit efectiu i l'ordre amb què \ns'ha executat la consulta, i no solen ser de gran interès. Els camps `after` \ni `before` us proporcionen cursors que podeu passar quan feu una altra trucada a l'API \nper obtenir la pàgina de resultats següent (o anterior).\n\nPer obtenir la següent pàgina de resultats, repetiu la vostra trucada API amb els \nmateixos paràmetres que la trucada original, però passeu el cursor `after` que heu \nrebut de la primera trucada al paràmetre `after` quan feu la segona trucada.\n\nSi feu les coses correctament, hauríeu d'obtenir la segona pàgina de resultats i una estructura del cursor com aquesta:\n\n```lang=json, name=\"Second Result Page\"\n{\n  ...\n  \"cursor\": {\n    \"limit\": 5,\n    \"after\": \"4567\",\n    \"before\": \"7890\",\n    \"order\": null\n  }\n  ...\n}\n```\n\nAra podeu continuar a la tercera pàgina de resultats passant el cursor nou `after`\n al paràmetre `after` de la vostra tercera trucada o tornar a la pàgina anterior \nde resultats passant el cursor `before` al paràmetre `before`. Això pot ser útil \nsi esteu representant una IU web per a un usuari i voleu proporcionar enllaços \n\"Pàgina següent\" i \"Pàgina anterior\".\n\nSi `after` és `null`, no hi haurà cap pàgina següent de resultats disponibles. \nDe la mateixa manera, si \"abans\" és `null`, no hi ha cap resultat anterior disponible.",
 	"ff381893cb8bd911": "Nom del motor"
 }

@@ -138,6 +138,7 @@
 	"f4fd5c0c5a1dfe1e": "Gerrit",
 	"f833adbd55be04c8": "S'han afegit $1 línies",
 	"f888fcf4b493b0b9": "Si alguna cosa és prou greu com per justificar una recuperació, hauríeu de posar-la en coneixement dels desenvolupadors a [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel]].",
+	"fa24d17f881e1087": "Si teniu un canvi arriscat al tren d'aquesta setmana, afegiu un comentari a aquesta tasca mitjançant la icona {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]",
 	"fc5658eac133d3fc": "Enllaç a Burnup Graph",
 	"fce06e20e5f7f74a": "Comentaris",
 	"ff51f6bbe14ebe12": "Baixa tar.gz",

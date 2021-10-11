@@ -77,6 +77,7 @@
 	"665dbb890098bbd2": "Un PHID.",
 	"6a538ed03258aa8a": "Llista de cadenes.",
 	"6b70bd7f6659ea45": "La versió del client/servidor no coincideix. Actualitzeu el vostre client.",
+	"6c174513db44e3a4": "La clau que ha signat aquesta sol·licitud està associada amb un dispositiu inhabilitat («$1»).",
 	"6d315776e44f9a3c": "El testimoni de desafiament amb el qual esteu autenticant està fora de l'interval de temps permès.  O el rellotge del sistema està fora de combat o esteu executant un atac de repetició.",
 	"6ec35d609231fa7e": "Vols finalitzar aquest testimoni?  Qualsevol sistema que utilitzi aquest testimoni ja no podrà fer peticions API.",
 	"6ec67e47b05f64f5": "El mètode de l'API Conduit \"$1\" no existeix.",

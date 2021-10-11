@@ -59,7 +59,7 @@
 	"cb9f45a57adcf940": "Les configuracions de gràfics no es poden modificar. No podeu actualitzar ni sobreescriure una configuració de gràfics existent.",
 	"cedffb9f1f6012f2": "El valor de l'argument 'funció' ha de ser una llista natural, no un diccionari. El valor real és '$1'.",
 	"d8ba3da431e0c55a": "Destruint la taula '$1'...",
-	"da433cd41e7fb7cd": "A pèl",
+	"da433cd41e7fb7cd": "En brut",
 	"df9b78791092e646": "No es poden generar zero passos lineals entre dos valors.",
 	"e0930077f2b14881": "Fets",
 	"e24e1d449736078c": "Fet  (\"$1\") desconegut per al motor \"$2\".",
