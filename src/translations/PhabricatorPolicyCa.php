@@ -21,6 +21,9 @@ final class PhabricatorPolicyCa
     Aquest paràmetre permet "bloquejar" aquestes polítiques de manera que no es poden fer més edicions sobre una base per política.',
       'when the moon' => 'quan la lluna',
       'Specify the name of an object to unlock.' => 'Especifica el nom del objecte a desbloquejar.',
+      'Identify each __object__ by passing an object name (like "T123") or a PHID (like "PHID-ABCD-1234...").
+    Not every type of object has an editable view policy, edit policy, or owner, so not all modes will work with all objects. ' => 'Identifica cada __objecte__ passant un nom d\'objecte (com "T123") o un PHID (com "PHID-ABCD-1234...").
+    No tots els tipus d\'objecte tenen una política de vista editable, política d\'edició o propietari, de manera que no tots els modes funcionaran amb tots els objectes.',
       'Unknown user spec \'%s\'.' => 'Especificació d\'usuari desconeguda \'%s\'.',
       'Lock Create User Policy To Admins' => 'Bloqueja la política de creació d\'usuari per als administradors',
       'Limit + offset work.' => 'Límit + treball de l\'òfset.',
@@ -37,6 +40,7 @@ final class PhabricatorPolicyCa
       'CAPABILITIES' => 'APTITUDS',
       'No Extended Policy' => 'Sense política ampliada',
       'Map of capabilities to current policies.' => 'Mapa d\'aptituds de les polítiques actuals.',
+      'Capability "%s" for user "%s" on object "%s" is being resolved, but was never queued with "addCapability()".' => 'La capacitat «%s» per a l\'usuari «%s» en l\'objecte «%s» s\'està resolent, però mai es va consultar amb «addCapability()».',
       'Other: %s' => 'Altre: %s',
       'Can View' => 'Pot veure',
       'Lock specific application policies so they can not be edited.' => 'Bloqueja les polítiques d\'aplicació específiques perquè no es puguin editar.',
@@ -44,6 +48,7 @@ final class PhabricatorPolicyCa
       'Limits work.' => 'Limita el treball.',
       'Invalid action \'%s\'!' => 'L\'acció \'%s\' no és vàlida.',
       'Admin Policy' => 'Política d\'admin',
+      'Unlock one or more objects by changing their view policies, edit policies, or owners.' => 'Desbloqueja un o més objectes canviant les seves polítiques de vista, polítiques d\'edició o propietaris.',
       'Allow Public Visibility' => 'Permet la visibilitat pública',
       'Object Policies' => 'Polítiques d\'objecte',
       'Members of Project...' => 'Membres de projecte...',
@@ -93,6 +98,7 @@ final class PhabricatorPolicyCa
       'You do not have permission to view policy details.' => 'No teniu permís per veure els detalls de la política.',
       'Can Edit' => 'Pot editar',
       'Offset pages through visible objects only.' => 'Desplaça les pàgines només a través dels objectes visibles.',
+      'Unable to perform capability tests on an object (of class "%s") with no PHID.' => 'No es poden realitzar proves de capacitat en un objecte (de classe «%s») sense PHID.',
       'Edit Policy' => 'Editar la política',
       'Invisible objects are ignored.' => 'Els objectes invisibles són ignorats.',
       'Controls who can view the object.' => 'Controls que poden veure l\'objecte.',

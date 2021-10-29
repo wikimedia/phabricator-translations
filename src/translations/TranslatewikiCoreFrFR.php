@@ -11,7 +11,7 @@ final class TranslatewikiCoreFrFR
     return array(
       'Provide the path to a library to export translations from.' => 'Fournit le chemin d’une bibliothèque dont les traductions sont à exporter.',
       'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Impossible d’extraire la chaîne car le motif « %% » n’est pas reconnu, « %s » : %s.',
-      'NONE' => 'NÉANT',
+      'NONE' => 'AUCUN',
       'Provide a locale code with "--locale".' => 'Indiquez un code d’internationalisation avec « --locale ».',
       'Ignoring string "%s"; not present in translation source file.' => 'Chaîne « %s » ignorée ; absente du fichier source de traduction.',
       'Provide the path to exactly one library to export translations from.' => 'Indique le chemin vers exactement une bibliothèque d’où les traductions sont exportées.',

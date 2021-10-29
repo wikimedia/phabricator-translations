@@ -55,6 +55,49 @@ final class PhabricatorSearchCa
       'The first cats evolved on the savannah about 8,000 years ago.' => 'Els primers gats van evolucionar a la sabana fa uns 8.000 anys.',
       'You must name the query.' => 'Heu de posar un nom a la consulta.',
       'Cats will often bring you their prey because they feel sorry for your inability to hunt.' => 'Els gats sovint et porten les seves preses perquè senten llàstima per la teva incapacitat per caçar.',
+      'You can apply custom constraints by passing a dictionary in `constraints`.
+    This will let you search for specific sets of results (for example, you may
+    want show only results with a certain state, status, or owner).
+    If you specify both a `queryKey` and `constraints`, the builtin or saved query
+    will be applied first as a starting point, then any additional values in
+    `constraints` will be applied, overwriting the defaults from the original query.
+    Different endpoints support different constraints. The constraints this method
+    supports are detailed below. As an example, you might specify constraints like
+    this:
+    ```lang=json, name="Example Custom Constraints"
+    {
+      ...
+      "constraints": {
+        "authorPHIDs": ["PHID-USER-1111", "PHID-USER-2222"],
+        "flavors": ["cherry", "orange"],
+        ...
+      },
+      ...
+    }
+    ```
+    This API endpoint supports these constraints:' => 'Podeu aplicar restriccions personalitzades passant un diccionari a
+    "restriccions". Això us permetrà cercar conjunts de resultats específics (per
+    exemple, és possible que vulgueu mostrar només resultats amb un estat, estat o
+    propietari determinats).
+    Si especifiqueu tant "queryKey" com "constraints", la consulta integrada o
+    desada s\'aplicarà primer com a punt de partida, llavors s\'aplicaran els valors
+    addicionals de "constraints", sobreescrivint els valors predeterminats de la
+    consulta original.
+    Els diferents punts finals admeten restriccions diferents. A continuació es
+    detallen les restriccions que admet aquest mètode. Com a exemple, podeu
+    especificar restriccions com aquesta:
+    ```lang=json, name="Exemple de restriccions personalitzades"
+    {
+      ...
+      "constraints": {
+        "authorPHIDs": ["PHID-USER-1111", "PHID-USER-2222"],
+        "flavors": ["cherry", "orange"],
+        ...
+      },
+      ...
+    }
+    ```
+    Aquest punt final de l\'API admet aquestes restriccions:',
       'This call does not support any attachments.' => 'Aquesta trucada no admet cap fitxer adjunt.',
       'Corpus stem of: %s' => 'Stem de corpus de: %s',
       'Really delete the query "%s"? You can not undo this. Remember all the great times you had filtering results together?' => 'Suprimir la consulta "%s"? No es pot desfer. Recordeu tots els moments fantàstics en què heu filtrat els resultats junts?',
@@ -73,7 +116,7 @@ final class PhabricatorSearchCa
       'Not supported.' => 'No compatible.',
       'Query contains a token ("%s") with no search term. Query tokens specify text to search for.' => 'La consulta conté un testimoni ("%s") sense terme de cerca. Les fitxes de consulta especifiquen text a cercar.',
       'Engine class is null.' => 'La classe del motor és nul·la.',
-      'Raw query to execute.' => 'Consulta a pèl per executar.',
+      'Raw query to execute.' => 'Consulta en brut per executar.',
       'Two field specifications share the same key ("%s"). Each specification must have a unique key.' => 'Dues especificacions de camp comparteixen la mateixa clau (\'%s\'). Cada especificació ha de tenir una clau única.',
       'You must choose a URI to link to.' => 'Heu de triar un URI per enllaçar-lo.',
       'Field Present: %s' => 'Camp present: %s',
@@ -111,6 +154,44 @@ final class PhabricatorSearchCa
       'Stemmed compilation of query: %s' => 'Compilació de la consulta Stemmed: %s',
       'A cat can run seven times faster than a human, but only for a short distance.' => 'Un gat pot córrer set vegades més ràpid que un ésser humà, però només distància curta.',
       'This engine is used to modify menu items on profiles.' => 'Aquest motor s’utilitza per modificar els elements del menú als perfils.',
+      'You can choose a builtin or saved query as a starting point for filtering
+    results by selecting it with `queryKey`. If you don\'t specify a `queryKey`,
+    the query will start with no constraints.
+    For example, many applications have builtin queries like `"active"` or
+    `"open"` to find only active or enabled results. To use a `queryKey`, specify
+    it like this:
+    ```lang=json, name="Selecting a Builtin Query"
+    {
+      ...
+      "queryKey": "active",
+      ...
+    }
+    ```
+    The table below shows the keys to use to select builtin queries and your
+    saved queries, but you can also use **any** query you run via the web UI as a
+    starting point. You can find the key for a query by examining the URI after
+    running a normal search.
+    You can use these keys to select builtin queries and your configured saved
+    queries:' => 'Podeu triar una consulta integrada o desada com a punt de partida per filtrar
+    els resultats seleccionant-la amb `queryKey`. Si no especifiqueu un `queryKey`,
+    la consulta s\'iniciarà sense restriccions.
+    Per exemple, moltes aplicacions tenen consultes integrades com ara `"active"` o
+    `"open"` per trobar només resultats actius o activats. Per utilitzar un
+    `queryKey`, especifiqueu-ho així:
+    ```lang=json, name="Selecció d\'una consulta integrada"
+    {
+      ...
+      "queryKey": "active",
+      ...
+    }
+    ```
+    La taula següent mostra les claus que cal utilitzar per seleccionar consultes
+    integrades i les vostres consultes desades, però també podeu utilitzar **
+    qualsevol ** consulta que executeu a través de la IU web com a punt de partida.
+    Podeu trobar la clau per a una consulta examinant l’URI després d’executar una
+    cerca normal.
+    Podeu utilitzar aquestes tecles per seleccionar consultes integrades i les
+    vostres consultes desades configurades:',
       'Query is too long (%s bytes, maximum is %s bytes).' => 'La consulta és massa llarga (%s bytes, el màxim és de %s bytes).',
       'Ferret search engine field key ("%s") is invalid. Field keys must be exactly four characters long and contain only lowercase latin letters.' => 'La clau del camp del motor de cerca Ferret (\'%s\') no és vàlida. Les claus de camp han de tenir exactament quatre caràcters i contenir només lletres llatines minúscules.',
       'Cats spend most of their time plotting to kill their owner.' => 'Els gats passen gran part del seu temps conspirant per matar el seu propietari.',
@@ -190,6 +271,98 @@ final class PhabricatorSearchCa
       'Queued %s document(s) for background indexing.' => '%s documents en cua per indexar en segon pla.',
       'This dashboard is invalid and could not be loaded.' => 'Aquest quadre de comandament no és vàlid i no s\'ha pogut carregar.',
       'Function compilation of query: %s' => 'Compilació de funcions de consulta: %s',
+      'Queries are limited to returning 100 results at a time. If you want fewer
+    results than this, you can use `limit` to specify a smaller limit.
+    If you want more results, you\'ll need to make additional queries to retrieve
+    more pages of results.
+    The result structure contains a `cursor` key with information you\'ll need in
+    order to fetch the next page of results. After an initial query, it will
+    usually look something like this:
+    ```lang=json, name="Example Cursor Result"
+    {
+      ...
+      "cursor": {
+        "limit": 100,
+        "after": "1234",
+        "before": null,
+        "order": null
+      }
+      ...
+    }
+    ```
+    The `limit` and `order` fields are describing the effective limit and order the
+    query was executed with, and are usually not of much interest. The `after` and
+    `before` fields give you cursors which you can pass when making another API
+    call in order to get the next (or previous) page of results.
+    To get the next page of results, repeat your API call with all the same
+    parameters as the original call, but pass the `after` cursor you received from
+    the first call in the `after` parameter when making the second call.
+    If you do things correctly, you should get the second page of results, and
+    a cursor structure like this:
+    ```lang=json, name="Second Result Page"
+    {
+      ...
+      "cursor": {
+        "limit": 5,
+        "after": "4567",
+        "before": "7890",
+        "order": null
+      }
+      ...
+    }
+    ```
+    You can now continue to the third page of results by passing the new `after`
+    cursor to the `after` parameter in your third call, or return to the previous
+    page of results by passing the `before` cursor to the `before` parameter. This
+    might be useful if you are rendering a web UI for a user and want to provide
+    "Next Page" and "Previous Page" links.
+    If `after` is `null`, there is no next page of results available. Likewise,
+    if `before` is `null`, there are no previous results available.' => 'Les consultes es limiten a retornar 100 resultats alhora. Si voleu menys resultats, 
+    podeu utilitzar `limit` per especificar un límit més petit.
+    Si voleu obtenir més resultats, haureu de fer consultes addicionals per recuperar 
+    més pàgines de resultats.
+    L\'estructura de resultats conté una tecla "cursor" amb la informació que necessiteu 
+    per obtenir la següent pàgina de resultats. Després d\'una primera consulta, normalment 
+    tindrà un aspecte semblant a aquest:
+    ```lang=json, name="Example Cursor Result"
+    {
+      ...
+      "cursor": {
+        "limit": 100,
+        "after": "1234",
+        "before": null,
+        "order": null
+      }
+      ...
+    }
+    ```
+    Els camps `limit` i `order` estan descrivint el límit efectiu i l\'ordre amb què 
+    s\'ha executat la consulta, i no solen ser de gran interès. Els camps `after` 
+    i `before` us proporcionen cursors que podeu passar quan feu una altra trucada a l\'API 
+    per obtenir la pàgina de resultats següent (o anterior).
+    Per obtenir la següent pàgina de resultats, repetiu la vostra trucada API amb els 
+    mateixos paràmetres que la trucada original, però passeu el cursor `after` que heu 
+    rebut de la primera trucada al paràmetre `after` quan feu la segona trucada.
+    Si feu les coses correctament, hauríeu d\'obtenir la segona pàgina de resultats i una estructura del cursor com aquesta:
+    ```lang=json, name="Second Result Page"
+    {
+      ...
+      "cursor": {
+        "limit": 5,
+        "after": "4567",
+        "before": "7890",
+        "order": null
+      }
+      ...
+    }
+    ```
+    Ara podeu continuar a la tercera pàgina de resultats passant el cursor nou `after`
+     al paràmetre `after` de la vostra tercera trucada o tornar a la pàgina anterior 
+    de resultats passant el cursor `before` al paràmetre `before`. Això pot ser útil 
+    si esteu representant una IU web per a un usuari i voleu proporcionar enllaços 
+    "Pàgina següent" i "Pàgina anterior".
+    Si `after` és `null`, no hi haurà cap pàgina següent de resultats disponibles. 
+    De la mateixa manera, si "abans" és `null`, no hi ha cap resultat anterior disponible.',
       'Engine Name' => 'Nom del motor',
     );
   }

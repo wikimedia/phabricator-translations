@@ -120,6 +120,7 @@ final class PhabricatorRepositoryFrFR
       'This repository is still importing.' => 'Ce dépôt est encore en cours d’importation.',
       'The Almanac Service that hosts this repository, if the repository is clustered.' => 'Le service Almanac qui héberge ce dépôt, si le dépôt est en grappe.',
       'Show additional debugging information.' => 'Afficher davantage d\'informations de débogage.',
+      'All Repositories' => 'Tous les dépôts',
       'DETECTED PHID' => 'PHID DÉTECTÉ',
       '%s set the short name of this repository to %s.' => '%s a défini le nom court de ce dépôt à %s.',
       '%s removed %s as the "Import Only" path.' => '%s a supprimé %s en tant que chemin d\' « Importation seulement ».',

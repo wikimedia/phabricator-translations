@@ -15,39 +15,71 @@ final class PhabricatorSettingsDeDE
       'Personal Account Settings' => 'Persönliche Benutzerkonteneinstellungen',
       'ISO 8601: 2000-02-28' => 'ISO 8601: 2000-02-28',
       'Global Default Settings' => 'Globale Standardeinstellungen',
+      'Self Actions' => 'Eigene Aktionen',
       'Email Notifications' => 'E-Mail-Benachrichtigungen',
       'Saturday' => 'Samstag',
+      'Select the format you prefer for editing dates.' => 'Wähle das Format welches du zum Bearbeiten von Daten vorziehst.',
       'On Small Screens' => 'Auf kleinen Bildschirmen',
       'Enable Email Notifications' => 'E-Mail Benachrichtigungen aktivieren',
       'Edit global default settings for all users.' => 'Bearbeite globale Einstellungen für alle Benutzer.',
       'Adjust Timezone' => 'Zeitzone anpassen',
       '%s updated her profile' => '%s hat ihr Profil aktualisiert',
       'Extra Settings' => 'Extra Einstellungen',
+      'Enable Self Action Mail' => 'Mail für Eigene Aktionen aktivieren',
       'You haven\'t added any SSH Public Keys.' => 'Du hast keine öffentlichen SSH-Schlüssel hinzugefügt.',
       'All Messages' => 'Alle Nachrichten',
+      'This browser has been granted permission to send desktop notifications for this Phabricator instance.' => 'Dieser Browser hat dieser Phabricator Instanz die Berechtigung für Benachrichtigungen gewährt.',
       'Save Preference' => 'Einstellung speichern',
+      'Changing your password will terminate any other outstanding login sessions.' => 'Das Ändern deines Passworts wird alle anderen Sitzungen beenden.',
       'Edit Global Settings' => 'Globale Einstellungen bearbeiten',
+      '%s updated their profile' => '%s haben ihr Profil aktualisiert',
       'Current Setting' => 'Aktuelle Einstellung',
       '⚪ Ignore' => '⚪ Ignorieren',
       'Date Format' => 'Datumsformat',
+      'Select the format you prefer for editing and displaying time.' => 'Wähle das Format für die Zeitdarstellung.',
       'External Accounts' => 'Externe Benutzerkonten',
+      'If you disable **Self Actions**, Phabricator will not notify you about actions you take.' => 'Wenn du **Eigene Aktionen** deaktivierst, wird dich Phabricator nicht über deine eigenen Aktionen informieren.',
       'Verification Email Sent' => 'Bestätigungs-E-Mail gesendet',
       'Add External Account' => 'Externes Benutzerkonto hinzufügen',
+      'Disable Self Action Mail' => 'Mail für Eigene Aktionen deaktivieren',
       'Old Password' => 'Altes Passwort',
+      'Display Preferences' => 'Anzeige konfigurieren',
       'Changes saved.' => 'Änderungen gespeichert.',
       'Really delete address \'%s\'?' => 'Wirklich Addresse "%s" löschen?',
       'Another user already has this email.' => 'Ein anderer Benutzer hat diese E-Mail schon.',
       'Global Defaults' => 'Globale Standards',
+      'Phabricator can send real-time notifications to your web browser or to your desktop. Select where you want to receive these real-time updates.' => 'Phabricator kann Echtzeitbenachritungen an deinen Browser oder deinen Desktop senden. Wähle wo du deine Benachrichtigungen erhalten willst.',
       'Change Timezone' => 'Zeitzone ändern',
+      'You can adjust **Application Settings** here to customize when you are emailed and notified.
+    | Setting | Effect
+    | ------- | -------
+    | Email | You will receive an email and a notification, but the notification will be marked "read".
+    | Notify | You will receive an unread notification only.
+    | Ignore | You will receive nothing.
+    If an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.
+    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'Du kannst die **Programm Einstellungen** hier ändern, um einzustellen, wann du eine Email bekommst und wann du nur eine Benachrictigung erhältst:
+    | Einstellung | Auswirkung
+    | ------- | -------
+    | Email | Du wirst eine Email und eine Web Benachrichtigung erhalten, die Benachrichtigung wird jedoch als "gelesen" markiert.
+    | Benachrichtigen | Du wirst nur eine ungelesene Benachtigung erhalten.
+    | Ignorieren | Du wirst nichts erhalten.
+    Wenn ein Ereignis mehrere Änderungen umfasst (wie Abonennten einer Aufgabe ändern, sie schließen und einen Kommentar hinzufügen) wirst du die stärkste Meldung der Änderungen erhalten.
+    Diese Einstellungen treffen **nur** auf Objekte zu, mit denen du verknüpft bist (zum Beispiel, Revisionen bei denen du ein Gutachter bist oder Aufgaben, die du abonniert hast). Um Email Benachrichtigungen zu erhalten, wenn neue Objekte erstellt werden, benutze [[ /herald/ | Herald Regeln ]].',
       'You must enter your current password.' => 'Du musst dein aktuelles Passwort eingeben.',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
       '◐ Notify' => '◐ Benachrichtigen',
       '%s updated his profile' => '%s hat sein Profil aktualisiert',
+      'Email Delivery' => 'Email Zustellung',
+      'Send Test Notification' => 'Test Meldung senden',
       'Email Preferences' => 'E-Mail-Einstellungen',
       '24 Hour, 14:34' => '24 Stunden, 14:34',
+      'If you disable **Email Notifications**, Phabricator will never send email to notify you about events. This preference overrides all your other settings.
+    //You will still receive some administrative email, like password reset email.//' => 'Wenn du **Email Benachrichtigungen** deaktivierst, wird Phabricator niemals eine Email senden, um dich über Ereignisse zu informieren. Diese Einstellung überschreibt all deine anderen Einstellungen weiter unten.
+    //Du erhältst weiterhin administrative Mails, wie z.B. eine Mail zum Passwort zurücksetzten.//',
       'Disable "Re:" Prefix' => '"Re:"-Präfix deaktivieren',
       'Disable Email Notifications' => 'E-Mail-Benachrichtigungen',
       'No Notifications' => 'Keine Benachrichtigungen',
+      'This browser has not yet granted permission to send desktop notifications for this Phabricator instance.' => 'Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt',
       'Time Format' => 'Zeitformat',
       'Send Notifications' => 'Benachrichtigungen senden',
       'Number' => 'Nummer',
@@ -60,10 +92,16 @@ final class PhabricatorSettingsDeDE
       'Friday' => 'Freitag',
       'Select your local timezone.' => 'Wähle deine lokale Zeitzone aus.',
       'Week Starts On' => 'Woche beginnt am',
+      'Edit Settings: %s' => 'Einstellungen von %s bearbeiten',
+      'Account Settings' => 'Profil Einstellungen',
+      'Choose which day a calendar week should begin on.' => 'Wähle an welchem Tag die Kalenderwoche beginnt.',
       'Date and Time' => 'Datum und Uhrzeit',
+      'Save Preferences' => 'Einstellungen speichern',
       '⚫ Email' => '⚫ E-Mail',
       'New Setting' => 'Neue Einstellung',
       'Pronoun' => 'Vorname',
+      'Sessions and Logs' => 'Sitzungen und Potokolle',
+      'Choose the pronoun you prefer.' => 'Wähle deine bevorzugte Ansprache:',
       'Default (Unknown, "%s")' => 'Stadard (Unbekannt, "%s")',
     );
   }

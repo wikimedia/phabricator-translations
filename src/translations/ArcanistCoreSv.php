@@ -94,6 +94,7 @@ final class ArcanistCoreSv
       'This is never reached.' => 'Detta nås aldrig.',
       'Both sides of this expression are identical, so it always evaluates to a constant.' => 'Båda sidorna av detta uttryck är identiska, så den alltid beräknas till en konstant.',
       'Conflicts in working copy:' => 'Konflikter i fungerande kopia:',
+      'Unknown error.' => 'Okänt fel.',
       'Type of setting \'%s\' must be boolean.' => 'Inställningstypen "%s" måste vara boolesk.',
       'Spaces Inside Parentheses' => 'Mellanrum inom parenteser',
       'This file contains a syntax error: %s' => 'Denna fil innehåller ett syntaxfel: %s',

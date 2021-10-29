@@ -82,6 +82,7 @@ final class PhabricatorConduitCa
       'A PHID.' => 'Un PHID.',
       'List of strings.' => 'Llista de cadenes.',
       'Client/server version mismatch. Upgrade your client.' => 'La versió del client/servidor no coincideix. Actualitzeu el vostre client.',
+      'The key which signed this request is associated with a disabled device ("%s").' => 'La clau que ha signat aquesta sol·licitud està associada amb un dispositiu inhabilitat («%s»).',
       'The challenge token you are authenticating with is outside of the allowed time range. Either your system clock is out of whack or you\'re executing a replay attack.' => 'El testimoni de desafiament amb el qual esteu autenticant està fora de l\'interval de temps permès.  O el rellotge del sistema està fora de combat o esteu executant un atac de repetició.',
       'Really terminate this token? Any system using this token will no longer be able to make API requests.' => 'Vols finalitzar aquest testimoni?  Qualsevol sistema que utilitzi aquest testimoni ja no podrà fer peticions API.',
       'Conduit API method "%s" does not exist.' => 'El mètode de l\'API Conduit "%s" no existeix.',

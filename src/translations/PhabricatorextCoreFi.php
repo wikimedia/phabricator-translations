@@ -43,7 +43,7 @@ final class PhabricatorextCoreFi
       'Change type to' => 'Vaihda tyypiksi',
       'Open Tasks' => 'Avoimet tehtävät',
       'Unknown' => 'Tuntematon',
-      'Global Accounts' => 'Järjestelmänlaajuiset tunnukset:',
+      'Global Accounts' => 'Järjestelmänlaajuiset tunnukset',
       'Previous: %s' => 'Edellinen: %s',
       'Download zip' => 'Lataa zip',
       'Download Archive' => 'Lataa arkisto',

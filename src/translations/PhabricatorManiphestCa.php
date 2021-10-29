@@ -289,6 +289,7 @@ final class PhabricatorManiphestCa
       'Comma-separated list of task monograms.' => 'Llista dels monogrames de tasca separada per comes.',
       '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.' => '%s ha editat %s validacions per %s, ha afegit %s: %s; ha eliminat %s: %s.',
       'Set title to' => 'Canvia el títol a',
+      'Graph' => 'Gràfic',
       'Retrieve information about a Maniphest task, given its ID.' => 'Rescata informació sobre una tasca de Maniphest, donat el seu ID.',
       'Search for tasks owned by a user from a list.' => 'Cerca les tasques assignades a un usuari d\'una llista.',
       '%s assigned %s to %s.' => '%s ha assignat %s a %s.',

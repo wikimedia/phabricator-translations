@@ -49,7 +49,7 @@ final class PhabricatorPackagesZhHant
       'The publisher key "%s" is already in use by another publisher.' => '發布者鍵「%s」已被其他發布者使用。',
       'Package Publishers' => '套件發布者',
       'Name of the publisher.' => '發布者名稱。',
-      'Applications and Extensions' => '應用程式與擴充',
+      'Applications and Extensions' => '應用程式與擴充功能',
       'Packages must have a name.' => '套件必須要有名稱。',
       'Edit Version: %s' => '編輯版本：%s',
       'Publisher for this package.' => '此套件的發布者。',

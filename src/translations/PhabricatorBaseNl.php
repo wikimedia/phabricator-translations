@@ -29,7 +29,7 @@ final class PhabricatorBaseNl
       'Unknown capability \'%s\'!' => 'Onverwachte functie "%s"!',
       'Admin Required' => 'Beheerder verplicht',
       'Email Verification Required, With Exception' => 'E-mailverificatie verplicht, met uitzondering',
-      'Allow Disabled' => 'Toestaan uitgeschakeld',
+      'Allow Disabled' => 'Uitgeschakeld toestaan',
     );
   }
 

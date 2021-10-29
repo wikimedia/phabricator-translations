@@ -532,6 +532,7 @@ final class PhabricatorCoreTr
       'Metronome offset must be 0 or more.' => 'Metronom ofseti 0 veya daha fazla olmalıdır.',
       'Invalid' => 'Geçersiz',
       'Create Package' => 'Paket Oluştur',
+      'Read/Write' => 'Okuma/Yazma',
       'Unable to access a required database or table. This almost always means that the user you are connecting with ("%s") does not have sufficient permissions granted in MySQL. You can use `bin/storage databases` to get a list of all databases permission is required on.' => 'Gerekli bir veritabanına veya tabloya erişilemiyor. Bu neredeyse her zaman bağlandığınız kullanıcının ("%s") MySQL\'de yeterli izinlere sahip olmadığı anlamına gelir. İzin verilen tüm veritabanlarının bir listesini almak için `bin/storage databases` kullanabilirsiniz.',
       'In test cases, all applications should default to installed.' => 'Test durumlarında, tüm uygulamalar varsayılan olarak kurulu olmalıdır.',
       'Bulk Job' => 'Toplu İş',

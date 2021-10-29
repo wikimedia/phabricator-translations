@@ -263,6 +263,28 @@ final class PhabricatorConfigCa
       'MySQL Native Driver Not Available' => 'El controlador natiu MySQL no està disponible',
       'Enable captchas with Recaptcha.' => 'Activeu captchas amb Recaptcha.',
       'This suggests your webserver is configured to decompress or mangle compressed requests.' => 'Això suggereix que el seu servidor web està configurat per descomprimir o destrossar les sol·licituds comprimides.',
+      'This option allows you to stop Phabricator from sending data to most external
+    services: it will disable email, SMS, repository mirroring, remote builds,
+    Doorkeeper writes, and webhooks.
+    This option is intended to allow a Phabricator instance to be exported, copied,
+    imported, and run in a test environment without impacting users. For example,
+    if you are migrating to new hardware, you could perform a test migration first
+    with this flag set, make sure things work, and then do a production cutover
+    later with higher confidence and less disruption.
+    Without making use of this flag to silence the temporary test environment,
+    users would receive duplicate email during the time the test instance and old
+    production instance were both in operation.' => 'Aquesta opció permet aturar el Phabricator d\'enviar dades a la majoria de
+    serveis externs: inhabilitarà correu electrònic, SMS, mirall de repositoris,
+    construccions remotes, escrits del Doorkeeper i webhooks.
+    Aquesta opció està destinada a permetre que una instància del Phabricator sigui
+    exportada, copiada, importada i executada en un entorn de prova sense impactar
+    als usuaris. Per exemple, si esteu migrant a un nou maquinari, podeu realitzar
+    una migració de proves primer amb aquesta bandera fixada, assegurar-vos que les
+    coses funcionen, i després fer un tall de producció més tard amb major confiança
+    i menys pertorbació.
+    Sense fer ús d\'aquesta bandera per silenciar l\'entorn temporal de proves, els
+    usuaris rebrien un correu electrònic duplicat durant el temps que la instància
+    de prova i la instància de producció antiga estaven en funcionament.',
       'The environmental variable %s is empty. Phabricator needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in Phabricator configuration.' => 'La variable d\'entorn %s està buida. Phabricator ha d\'executar algunes ordres del sistema, com ara "%s", "%s", "%s" i "%s". Per executar aquestes ordres, els binaris han d\'estar disponibles al %s del servidor web. Podeu establir camins addicionals a la configuració de Phabricator.',
       'Set the URI where Phabricator is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.' => 'Definiu l\'URI on s\'ha instal·lat Phabricator. Establir-ho millora la seguretat evitant que es configurin galetes en altres dominis i permet als dimonis enviar correus electrònics amb enllaços que tinguin el domini correcte.',
       'Define a Phabricator cluster by providing a whitelist of host addresses that are part of the cluster.
@@ -471,6 +493,7 @@ final class PhabricatorConfigCa
       'This schema can use a better collation.' => 'Aquest esquema pot utilitzar una millor confrontació.',
       'The environmental variable %s is empty. Phabricator will not be able to execute some commands.' => 'La variable d\'entorn %s està buida. Phabricator no podrà executar algunes ordres.',
       'Really Clear Cache' => 'Esborrar la caché',
+      'Unexpected \'%s\' Behavior' => 'Comportament «%s» inesperat',
       'Mail thread IDs are now generated automatically.' => 'Ara els identificadors de fil de correu es generen automàticament.',
       'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
     For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
@@ -545,6 +568,7 @@ final class PhabricatorConfigCa
       'Key has Wrong Uniqueness' => 'La clau té una singularitat incorrecta',
       'Determines whether or not basic account information is editable.' => 'Determina si la informació bàsica del compte és editable o no.',
       'The base URI for this install is not configured. Many major features will not work properly until you configure it.' => 'L\'URI base per a aquesta instal·lació no està configurat. Moltes funcionalitats importants no funcionaran correctament fins que no la configureu.',
+      'Unexpected \'diff\' Behavior' => 'Comportament «diff» inesperat',
       'The \'%s\' binary on this system has unexpected behavior: it was expected to exit with a nonzero error code when passed differing files, but did not.' => 'El binari \'%s\' en aquest sistema té un comportament inesperat: s\'esperava que sortís amb un codi d\'error diferent de zero quan se li passessin arxius diferents, però no ho va fer.',
       'PHP is currently configured to honor requests from any MySQL server it connects to for the content of any local file.
     This capability supports MySQL "LOAD DATA LOCAL INFILE" queries, but allows a malicious MySQL server read access to the local disk: the server can ask the client to send the content of any local file, and the client will comply.
@@ -586,7 +610,7 @@ final class PhabricatorConfigCa
       'This request did not include a "Host" header. This may mean that your webserver (like nginx or apache) is misconfigured so the "Host" header is not making it to Phabricator, or that you are making a raw request without a "Host" header using a tool or library.
     If you are using a web browser, check your webserver configuration. If you are using a tool or library, check how the request is being constructed.
     It is also possible (but very unlikely) that some other network device (like a load balancer) is stripping the header.
-    Requests must include a valid "Host" header.' => 'Aquesta sol·licitud no inclou cap capçalera "amfitrió". Això pot significar que el vostre servidor web (com ara nginx o apache) està mal configurat, de manera que la capçalera "Host" no es subministra a Phabricator o que feu una sol·licitud a pèl "Host" mitjançant una eina o una biblioteca.
+    Requests must include a valid "Host" header.' => 'Aquesta sol·licitud no inclou cap capçalera "amfitrió". Això pot significar que el vostre servidor web (com ara nginx o apache) està mal configurat, de manera que la capçalera "Host" no es subministra a Phabricator o que feu una sol·licitud en brut "Host" mitjançant una eina o una biblioteca.
     Si utilitzeu un navegador web, comproveu la configuració del servidor web. Si feu servir una eina o una biblioteca, comproveu com es construeix la consulta.
     També és possible (però molt poc probable) que un altre element de xarxa (com ara un equilibrador de càrrega) estigui despullant la capçalera.
     Les sol·licituds han d\'incloure una capçalera "amfitrió" vàlida.',
@@ -749,6 +773,7 @@ final class PhabricatorConfigCa
       'The timezone Phabricator should use.' => 'Hauria d’utilitzar-se el fus horari de Phabricator.',
       'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Actualment la configuració d\'autenticació està desbloquejada. Un cop acabeu de configurar l\'autenticació, l\'hauríeu de bloquejar.',
       'Control how Phabricator renders user names in mail.' => 'Controleu com Phabricator renderitza els noms d\'usuari al correu.',
+      'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'Encara no heu configurat cap proveïdor d\'autenticació. Heu d\'afegir un proveïdor (com nom d\'usuari/contrasenya, LDAP o GitHub OAuth) perquè els usuaris puguin registrar-se i iniciar sessió. Podeu afegir i configurar proveïdors utilitzant l\'Aplicació Autenticada.',
       'MySQL' => 'MySQL',
       'Phabricator received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with Phabricator. You should disable it.' => 'Phabricator ha rebut una capçalera HTTP "X-Mod-Pagespeed" o "X-Page-Speed" en aquesta sol·licitud, que indica que heu activat "mod_pagespeed" en aquest servidor. Aquest mòdul no és compatible amb Phabricator. Haureu de desactivar-lo.',
       'External loaders have been replaced. Extend `%s` to implement new PHID and handle types.' => 'S\'han substituït els carregadors externs. Amplieu "%s" per implementar nous tipus de PHID i manegadors.',

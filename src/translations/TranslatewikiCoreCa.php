@@ -16,7 +16,7 @@ final class TranslatewikiCoreCa
       'Ignoring string "%s"; not present in translation source file.' => 'Ignorant la cadena "%s"; no present en el fitxer origen de traducció.',
       'Provide the path to exactly one library to export translations from.' => 'Proporciona la ruta a una llibreria exacta per exportar traduccions.',
       'Provide a project name to export strings under with "--as".' => 'Proporciona un nom de projecte per exportar cadenes amb "--as".',
-      'Raw strings' => 'Cadenes a pèl',
+      'Raw strings' => 'Cadenes en brut',
       'Name of the project that a translation file is being generated for.' => 'Nom del projecte pel qual s\'està generant un fitxer de traducció.',
       'Extracting library strings...' => 'S\'estan extraient les cadenes de la biblioteca...',
       'GENDER' => 'GÈNERE',

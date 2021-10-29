@@ -27,7 +27,7 @@ final class PhabricatorTypeaheadCa
       'All arguments to "%s(...)" must be integers, found "%s" in position %d.' => 'Tots els arguments a "%s(...)" han de ser enters, trobats "%s" en la posició %s.',
       'Invalid Parameters' => 'Paràmetres no vàlids!',
       'Source Class' => 'Classe de Font',
-      'Raw Query' => 'Consulta a pèl',
+      'Raw Query' => 'Consulta en brut',
       'Token Results (%s)' => 'Resultats del testimoni (%s)',
       'Configured datasource class "%s" must be a valid subclass of "%s".' => 'La classe «%s» configurada ha de ser una subclasse vàlida de «%s».',
       'Token Name' => 'Nom del Testimoni',

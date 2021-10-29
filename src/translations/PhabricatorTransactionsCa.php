@@ -16,6 +16,7 @@ final class PhabricatorTransactionsCa
       'Transactions have no effect:' => 'Les transaccions no tenen cap efecte:',
       'This endpoint supports these types of transactions. See below for detailed information about each transaction type.' => 'Aquest endpoint suporta aquests tipus de transaccions. Veieu més a baix la informació detallada sobre cada tipus de transacció.',
       'To silence this edit, run this command:' => 'Per silenciar aquesta edició, executeu aquesta ordre:',
+      'In call to "transaction.search", selected object (of type "%s") does not implement "%s", so transactions can not be loaded for it.' => 'En la crida a «transaction.search», l\'objecte seleccionat (de tipus «%s») no implementa «%s» de manera que les operacions no es poden carregar per a ell.',
       'Builtin Form "%s"' => ' "%s" formulari incorporat',
       '%s added a comment.' => '%s ha afegit un comentari.',
       'Empty Comment' => 'Comentari buit',
@@ -33,6 +34,7 @@ final class PhabricatorTransactionsCa
       '%s moved %s to %s on the %s board.' => '%s ha mogut %s a %s en el tauler %s.',
       '%s added %s file(s) for %s: %s.' => '%s ha afegit %s fitxer(s) per %s: %s.',
       'To continue, configure multi-factor authentication in Settings.' => 'Per continuar, configureu l\'autenticació de factors múltiples a Configuració.',
+      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"' => 'Les crides a «transaction.search» han d\'especificar un «objectType» o un «objectIdentifier»',
       'SearchEngine class to export data from.' => 'La classe SearchEngine des de la que exportar les dades.',
       '%s added %s file(s): %s.' => '%s ha afegit %s fitxer(s): %s.',
       'In %s, %s wrote:' => 'En %s, %s ha escrit:',
@@ -82,6 +84,7 @@ final class PhabricatorTransactionsCa
       'This job is already configured to run silently.' => 'Aquesta feina ja està configurada per a córrer silenciosament.',
       'Failed to base64 encode value for key "%s".' => 'Fallat codificar en base64 el valor per la clau "%s".',
       'This form ("%s") has been disabled, so it can not be used.' => 'Aquest formulari ("%s") ha estat deshabilitat, per tant no pot ser utilitzat.',
+      'The source object is associated with the destination file.' => 'L\'objecte font està associat amb el fitxer de destinació.',
       'Browse Forms' => 'Explorar els formularis',
       'Constraint "authorPHIDs" to "transaction.search" requires nonempty list, empty list provided.' => 'La restricció "authorPHIDs" a "transaction.search" requereix una llista no buida; es proporciona una llista buida.',
       'Specify an export format with "--format".' => 'Especifiqueu un format d\'exportació amb "--format".',
@@ -96,6 +99,7 @@ final class PhabricatorTransactionsCa
       'Query does not match any objects you have permission to edit.' => 'La consulta no coincideix amb cap objecte que tingueu permís per editar.',
       'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.' => 'Voleu marcar aquest formulari com a formulari d\'edició? Els usuaris que el poden veure podran fer-lo servir per editar objectes.',
       'Query does not match any objects.' => 'La consulta no coincideix amb cap objecte.',
+      'Read transactions and comments for a particular object or an entire object type.' => 'Llegeix les transaccions i els comentaris d\'un objecte particular o d\'un tipus d\'objecte sencer.',
       '✘ Hidden' => '✘ Ocult',
       'EditEngine BuiltinKey contains an invalid key character "/".' => 'La BuiltinKey del EditEngine conté una clau de caràcter no vàlid "/".',
       '%s rescinded a token.' => '%s ha rescindit un testimoni.',
@@ -179,6 +183,7 @@ final class PhabricatorTransactionsCa
       'No Edit Forms' => 'No hi ha formularis d\'edició',
       'Mark this form as a create form? It will appear in the application "Create" menus by default.' => 'Voleu marcar aquest formulari com a formulari de creació? Apareixerà als menús de l\'aplicació "Crear" per defecte.',
       '%s added %s unsubscriber(s) for %s: %s.' => '%s ha afegit %s baixes per a %s: %s.',
+      'Calls to "transaction.search" must not specify both an "objectType" and an "objectIdentifier".' => 'Les crides a «transaction.search» no han d\'especificar tant un «objectType» com un «objectIdentifier».',
       'Edit Defaults' => 'Edita els valors predeterminats',
       'Encryption Required' => 'Cal encriptació',
       'Form name is required.' => 'Cal el nom del formulari',
@@ -211,6 +216,7 @@ final class PhabricatorTransactionsCa
       '%s added %d subscriber(s): %s.' => '%s ha afegit %s subscriptor(s): %s.',
       'Unmark as "Create" Form' => 'Desmarcar com a formulari \'Crear\'',
       'Exception when processing transaction of type "%s": %s' => 'Excepció en processar la transacció del tipus "%s": %s',
+      'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.' => 'A la crida a «transaction.search», especificada «objectIdentifier» («%s») no existeix.',
       '%s created this object in space %s.' => '%s ha creat aquest objecte en l\'espai %s.',
       'Engine: Edit' => 'Motor: Edita',
       '%s removed %s watcher(s) for %s: %s.' => '%s ha eliminat %s vigilants per %s: %s.',
@@ -233,7 +239,7 @@ final class PhabricatorTransactionsCa
       'Unable to load query for transaction object "%s"!' => 'No es pot carregar la consulta de l\'objecte de transacció "%s"!',
       'Changed Subscribers' => 'Subscriptors canviats',
       'Comment for this transaction was not loaded.' => 'El comentari sobre aquesta transacció no s\'ha carregat.',
-      'Raw Comment' => 'Comentari a pèl',
+      'Raw Comment' => 'Comentari en brut',
       'Save Create Order' => 'Desar l\'ordre de creació',
       '%s updated subscribers of %s.' => '%s ha actualitzat subscriptors de %s.',
       '%s created this object.' => '%s ha creat aquest objecte.',
@@ -380,13 +386,76 @@ final class PhabricatorTransactionsCa
       'Query "%s" is unknown. To run a builtin query like "all" or "active", also specify the search engine with "--class".' => 'Es desconeix la consulta \'%s\'. Per executar una consulta incorporada com "all" o "active", també especifiqueu el motor de cerca amb "--class".',
       'The source object has a comment which mentions the destination object.' => 'L\'objecte d\'origen té un comentari que menciona l\'objecte de destinació.',
       '%s removed %s unsubscriber(s) for %s: %s.' => '%s ha suprimit %s baixes per a %s: %s.',
+      'When an object (like a task) is edited, Phabricator creates a "transaction"
+    and applies it. This list of transactions on each object is the basis for
+    essentially all edits and comments in Phabricator. Reviewing the transaction
+    record allows you to see who edited an object, when, and how their edit changed
+    things.
+    One common reason to call this method is that you\'re implmenting a webhook and
+    just received a notification that an object has changed. See the Webhooks
+    documentation for more detailed discussion of this use case.
+    One Object Type at a Time
+    =========================
+    This API method can query transactions for any type of object which supports
+    transactions, but only one type of object can be queried per call. For example:
+    you can retrieve transactions affecting Tasks, or you can retrieve transactions
+    affecting Revisions, but a single call can not retrieve both.
+    This is a technical limitation arising because (among other reasons) there is
+    no global ordering on transactions.
+    To find transactions for a specific object (like a particular task), pass the
+    object PHID or an appropriate object identifier (like `T123`) as an
+    `objectIdentifier`.
+    To find all transactions for an object type, pass the object type constant as
+    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
+    can quickly find an unknown type constant by looking at the PHID of an object
+    of that type.)
+    Constraints
+    ===========
+    These constraints are supported:
+      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
+        is most likely to be useful if you\'re responding to a webhook notification
+        and want to inspect only the related events.
+      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
+        authors.
+    Transaction Format
+    ==================
+    Each transaction has custom data describing what the transaction did. The
+    format varies from transaction to transaction. The easiest way to figure out
+    exactly what a particular transaction looks like is to make the associated kind
+    of edit to a test object, then query that object.
+    Not all transactions have data: by default, transactions have a `null` "type"
+    and no additional data. This API does not expose raw transaction data because
+    some of it is internal, oddly named, misspelled, confusing, not useful, or
+    could create security or policy problems to expose directly.
+    New transactions are exposed (with correctly spelled, comprehensible types and
+    useful, reasonable fields) as we become aware of use cases for them.
+    ' => 'Quan s\'edita un objecte (com una tasca), Phabricator crea una "transacció" i l\'aplica. Aquesta llista de transaccions en cada objecte és la base essencialment de totes les edicions i comentaris en el Phabricator. Revisar el registre de transaccions permet veure qui va editar un objecte, quan i com la seva edició va canviar les coses.
+    Una raó comuna per anomenar aquest mètode és que esteu implmentant un webhook i acabeu de rebre una notificació que un objecte ha canviat. Consulteu la documentació de Webhooks per a una discussió més detallada d\'aquest cas d\'ús.
+    Un tipus d\'objecte a la vegada
+    ==============================
+    Aquest mètode de l\'API pot consultar transaccions per a qualsevol tipus d\'objecte que suporti transaccions, però només es pot consultar un tipus d\'objecte per crida. Per exemple: es poden recuperar les transaccions que afecten les tasques, o es poden recuperar les transaccions que afecten les revisions, però una sola trucada no es pot recuperar ambdues.
+    Es tracta d\'una limitació tècnica que sorgeix perquè (entre altres raons) no hi ha una ordre global en les transaccions.
+    Per trobar transaccions per a un objecte específic (com una tasca particular), passa l\'objecte PHID o un identificador d\'objecte apropiat (com `T123) com un  an `objectIdentifier`.
+    Per trobar totes les transaccions d\'un tipus d\'objecte, passa la constant de tipus d\'objecte com a `objectType`. Per exemple, l\'identificador correcte per a les tasques és `TASK`. (Podeu trobar ràpidament una constant desconeguda mirant la PHID d\'un objecte d\'aquest tipus.)
+    Restriccions
+    ===========
+    Aquestes limitacions són compatibles:
+      - `phids` //Llista opcional<phid>.// Cerca transaccions específiques per PHID. Això és molt probable que sigui útil si responeu a una notificació de webhook i només voleu inspeccionar els esdeveniments relacionats.
+      - `authorPHIDs //Llista opcional<phid>.// Cerca transaccions amb autors particulars.
+    Format de transacció
+    ====================
+    Cada transacció té dades personalitzades que descriuen el que va fer l\'operació. El format varia d\'assentament a assentament. La forma més fàcil d\'esbrinar exactament com és una transacció en particular és fer el tipus d\'edició associat a un objecte de prova, després consultar aquest objecte.
+    No totes les transaccions tenen dades: per defecte, les transaccions tenen un `null` "type". i no hi ha dades addicionals. Aquesta API no exposa les dades de transacció crua perquè algunes d\'elles són internes, amb nom estrany, mal escrites, confuses, no útils, o poden crear problemes de seguretat o política per exposar directament.
+    Les noves transaccions estan exposades (amb tipus correctes, comprensibles i camps útils i raonables) ja que som conscients dels casos d\'ús per a elles.',
       'For full details, run `/bin/mail show-inbound --id %d`' => 'Per obtenir més informació, executeu `/bin/mail show-inbound --id %s`',
       'This object is locked. Edit it anyway?' => 'Aquest objecte està bloquejat. Voleu editar-lo de totes maneres?',
       '%s Action(s) With No Effect' => '%s accions sense efecte',
       'Configured job "%s" to run silently.' => 'Feina configurada \'%s\' per executar-se en silenci.',
       'View Form Configurations' => 'Veure la configuració dels formularis',
+      'In call to "transaction.search", specified "objectType" ("%s") is unknown. Valid object types are: %s.' => 'A la crida a «transaction.search» s\'ha especificat «objectType» («%s») desconegut. Els tipus d\'objectes vàlids són: %s.',
       '%s ("%s")' => '%s ("%s")',
       'Comments are visible to users who can see the object which was commented on. Comments can be edited by their authors.' => 'Els comentaris són visibles per als usuaris que poden veure l\'objecte que s\'ha comentat. Els seus autors poden editar els comentaris.',
+      'Object Has Files' => 'L\'objecte té fitxers',
       'Custom field transaction has invalid \'%s\'; field \'%s\' is disabled or does not exist.' => 'La transacció de camp personalitzat té "%s" no vàlid; el camp \'%s\' està desactivat o no existeix.',
       'This object has no fields with aliases.' => 'Aquest objecte no té camps amb àlies.',
       'Do you want to post your comment anyway?' => 'Voleu publicar el vostre comentari de tota manera?',

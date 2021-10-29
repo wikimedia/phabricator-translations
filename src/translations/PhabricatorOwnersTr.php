@@ -33,6 +33,7 @@ final class PhabricatorOwnersTr
       'Packages: Invalid Owner' => 'Paketler: Geçersiz Sahip',
       'Auto review information.' => 'Otomatik inceleme bilgisi.',
       'Path Not Found On Default Branch' => 'Varsayılan Dalda Bulunmayan Yol',
+      'Affected By Herald Rules' => 'Herald Kuralları Tarafından Etkilendi',
       'Users and projects which own the package.' => 'Paketin sahibi olan kullanıcılar ve projeler.',
       'Parameter should be a phid.' => 'Parametre bir phid olmalıdır.',
       'Repository callsign %s not recognized' => '%s deposu çağrı işareti tanınmıyor',

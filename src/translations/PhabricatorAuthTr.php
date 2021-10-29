@@ -246,6 +246,7 @@ final class PhabricatorAuthTr
       '(You can not terminate your current login session. To terminate it, log out.)' => '(Geçerli giriş oturumunuzu sonlandıramazsınız. Sonlandırmak için oturumu kapatın.)',
       'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => 'Hesabınız oluşturuldu, ancak bir yönetici tarafından onaylanması gerekiyor. Hesabınız onaylandıktan sonra bir e-posta alacaksınız.',
       'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Yeni yayınlanan MFA zorluklarının gelecekteki bir TTL\'si olmalıdır. Bu faktör kötü bir TTL ("%s") yayınladı. (Bir çağ yerine göreli bir zaman kullandınız mı?)',
+      'Yes (Optional)' => 'Evet (İsteğe bağlı)',
       'Access token error: %s' => 'Erişim anahtarı hatası: %s',
       'Cached PKCS8 key for public key.' => 'Ortak anahtar için önbelleğe alınan PKCS8 anahtarı.',
       'Username Change Instructions' => 'Kullanıcı Adı Değiştime Talimatı',
@@ -739,6 +740,15 @@ final class PhabricatorAuthTr
       'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.' => 'Kullanıcıların bu sağlayıcıya ilişkin hesap kimlik bilgilerinin mevcut Phabricator hesaplarıyla bağlantısını kaldırmasına izin ver. Bunu devre dışı bırakırsanız, Phabricator hesapları kalıcı olarak sağlayıcı hesaplarına bağlanır.',
       'Unable to find LDAP account!' => 'LDAP hesabı bulunamadı!',
       'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'Bu iş akışı yeni bir SSH anahtar çifti oluşturacak, genel anahtarı ekleyecek ve özel anahtarı indirmenize izin verecektir.',
+      'To configure Facebook OAuth, create a new Facebook Application here:
+    https://developers.facebook.com/apps
+    You should use these settings in your application:
+    %s
+    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Facebook OAuth\'u yapılandırmak için burada yeni bir Facebook Uygulaması oluşturun:
+    https://developers.facebook.com/apps
+    Uygulamanızda bu ayarları kullanmalısınız:
+    %s
+    Yeni uygulamanızı oluşturduktan sonra, **Uygulama Kimliği** ve **Uygulama Sırrı**\'nı yukarıdaki alanlara kopyalayın.',
       'Too many login failures recently. You must submit a CAPTCHA with your login request.' => 'Son zamanlarda çok fazla giriş hatası. Giriş isteğinizle birlikte bir CAPTCHA göndermeniz gerekir.',
       'Specified pkcs8 keyfile "%s" does not exist!' => 'Belirtilen pkcs8 anahtar dosyası "%s" mevcut değil!',
       'To configure Twitch.tv OAuth, create a new application here:

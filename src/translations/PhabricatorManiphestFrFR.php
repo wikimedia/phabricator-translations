@@ -336,6 +336,7 @@ final class PhabricatorManiphestFrFR
       'By User' => 'Par l\'utilisateur',
       'Change the status of a task.' => 'Modifier l’état d’une tâche.',
       'Assign to' => 'Affecter à',
+      'The owner of a task can always view and edit it.' => 'L\'auteur d\'une tâche peut toujours la voir et l\'éditer.',
       'Closed After' => 'Fermée après',
       'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here.' => 'Cette tâche est connectée à plus de %s autres tâches. Seuls les parents directs et les sous-tâches sont représentés ici.',
       'Search for tasks closed by certain users.' => 'Rechercher les tâches fermées par certains utilisateurs.',

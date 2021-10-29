@@ -50,7 +50,7 @@ final class PhabricatorSubscriptionsCa
       'This object is not subscribable.' => 'No es pot subscriure a aquest objecte.',
       'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
-    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => 'Afegeix un o més subscriptors a l\'objecte. Pots afegir usuaris proporcionant els seus noms d\'usuari, o afegir projectes afegint les seves etiquetes. Per exemple, utilitza `%s` per afegir l\'usuari `alincoln` i el projecte amb l\'etiqueta `#ios` com a subscriptors.
+    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => 'Afegeix un o més subscriptors a l\'objecte. Pots afegir usuaris proporcionant els seus noms d\'usuari, o afegir projectes afegint els seus hashtags. Per exemple, utilitza `%s` per afegir l\'usuari `alincoln` i el projecte amb el hashtag `#ios` com a subscriptors.
     Els subscriptors que estan com a no vàlids o no reconeguts seran ignorats. Aquesta ordre no té cap efecte si no especifiques cap subscriptor.
     Els usuaris que estan A/c en el correu electrònic també es subscriuen automàticament si Phabricator coneix quins comptes estan enllaçats a les seves adreces de correu electrònic.',
       'Add rule author as subscriber.' => 'Afegeix el regla de l\'autor com a subscriptor.',

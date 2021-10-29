@@ -11,7 +11,7 @@ final class PhabricatorFlagCa
     return array(
       'Removed "%s" flag.' => 'S\'ha eliminat l\'indicador de seguiment «%s».',
       'Marked with "%s" flag.' => 'Marcat amb l\'indicador de seguiment «%s».',
-      'Personal Bookmarks' => 'Adreces d\'Interès Personals',
+      'Personal Bookmarks' => 'Marcadors personals',
       'Query flag markers.' => 'Consulta dels indicadors de seguiment.',
       'Clear a flag.' => 'Esborrar un indicador.',
       'Purple' => 'Morat',

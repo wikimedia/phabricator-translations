@@ -64,7 +64,7 @@ final class PhabricatorFactCa
       'Chart configurations are not mutable. You can not update or overwrite an existing chart configuration.' => 'Les configuracions de gràfics no es poden modificar. No podeu actualitzar ni sobreescriure una configuració de gràfics existent.',
       'Value for "function" argument must be a natural list, not a dictionary. Actual value is "%s".' => 'El valor de l\'argument \'funció\' ha de ser una llista natural, no un diccionari. El valor real és \'%s\'.',
       'Destroying table \'%s\'...' => 'Destruint la taula \'%s\'...',
-      'Raw' => 'A pèl',
+      'Raw' => 'En brut',
       'Can not generate zero linear steps between two values!' => 'No es poden generar zero passos lineals entre dos valors.',
       'Fact' => 'Fets',
       'Unknown fact ("%s") for engine "%s".' => 'Fet  ("%s") desconegut per al motor "%s".',

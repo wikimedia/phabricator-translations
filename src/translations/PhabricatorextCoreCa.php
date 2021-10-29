@@ -166,6 +166,7 @@ final class PhabricatorextCoreCa
       'Gerrit' => 'Gerrit',
       '%s Line(s) added' => 'S\'han afegit %s línies',
       'If something is serious enough to warrant a rollback then you should bring it to the attention of deployers on the [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].' => 'Si alguna cosa és prou greu com per justificar una recuperació, hauríeu de posar-la en coneixement dels desenvolupadors a [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel]].',
+      'If you have a risky change in this week\'s train add a comment to this task using the {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]' => 'Si teniu un canvi arriscat al tren d\'aquesta setmana, afegiu un comentari a aquesta tasca mitjançant la icona {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]',
       'Link to Burnup Graph' => 'Enllaç a Burnup Graph',
       'Comments' => 'Comentaris',
       'Download tar.gz' => 'Baixa tar.gz',

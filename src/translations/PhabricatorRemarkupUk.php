@@ -11,7 +11,7 @@ final class PhabricatorRemarkupUk
     return array(
       'Process text through remarkup in Phabricator context.' => 'Форматувати текст згідно з особливостями Phabricator.',
       'Invalid markup engine.' => 'Некоректний рушій розмітки.',
-      'Content may not be empty.' => 'Вміст не може бути пустим.',
+      'Content may not be empty.' => 'Вміст не може бути порожнім.',
     );
   }
 

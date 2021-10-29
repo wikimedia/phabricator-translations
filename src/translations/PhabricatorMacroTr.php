@@ -12,6 +12,7 @@ final class PhabricatorMacroTr
       'Play audio continuously, treating the macro as an audio source. Best for ambient sounds.' => 'Makroyu ses kaynağı olarak kabul ederek sesi sürekli çalın. Ortam sesleri için en iyisi.',
       'This page documents the commands you can use to interact with image macros.' => 'Bu sayfa, görüntü makrolarıyla etkileşimde bulunmak için kullanabileceğiniz komutları belgeler.',
       'Create Meme' => 'Mem Oluştur',
+      'Masterfully imagined by %s in ages long past.' => 'Çok uzun zaman önce %s ile ustaca hayal edildi.',
       'Active Macros' => 'Aktif Makrolar',
       'Validity of macro "%s"' => '"%s" makrosunun geçerliliği',
       'Upload New Audio' => 'Yeni Ses Yükle',

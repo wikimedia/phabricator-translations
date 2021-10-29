@@ -318,6 +318,7 @@ final class PhabricatorAlmanacTr
       'Create an inventory of physical and virtual hosts and devices.' => 'Fiziksel ve sanal ana bilgisayarların ve cihazların bir envanterini oluşturun.',
       'Cluster Repository' => 'Küme Deposu',
       'Find services by type.' => 'Hizmetleri türe göre bulun.',
+      'Active Devices' => 'Etkin Cihazlar',
       'Networks' => 'Ağlar',
       'Allow Writes' => 'Yazmaya İzin Ver',
       'Defines a repository service for use in a Phabricator cluster.' => 'Bir Phabricator kümesinde kullanılacak bir depo hizmetini tanımlar.',

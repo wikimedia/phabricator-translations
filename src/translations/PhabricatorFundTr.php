@@ -80,6 +80,7 @@ final class PhabricatorFundTr
       'Initiative Closed' => 'Girişim Kapandı',
       '%s renamed this initiative from %s to %s.' => '%s bu girişimi %s ile %s değiştirdi.',
       'Really close this initiative? Users will no longer be able to back it.' => 'Bu girişimi gerçekten kapatılsın mı? Kullanıcılar artık bunu geri alamayacak.',
+      'Merchant %d %s' => 'Tüccar %s %s',
       'INITIATIVE DETAIL' => 'GİRİŞİM DETAYI',
       '(Restricted Merchant)' => '(Sınırlı Tüccar)',
       'Back Initiative' => 'Geri Girişimi',
