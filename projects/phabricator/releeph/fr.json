@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Motla",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92",
@@ -59,6 +60,7 @@
 	"3e2af1d5ea35f032": "Rejeté par",
 	"41eded0ee5e52ae6": "Créé par : $1",
 	"518c95c239ee8b3d": "Toutes les requêtes",
+	"53a7c3fb87da13b4": "Marquer comme annulé",
 	"64081ee7d39f0a68": "(Toutes les requêtes)",
 	"6a0f4e5ce091358c": "$1 et $2",
 	"6fbc29bbbefd1669": "Les branches ne peuvent pas commencer ni se terminer par « $1 »",

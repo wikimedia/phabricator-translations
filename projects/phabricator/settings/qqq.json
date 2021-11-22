@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ajeje Brazorf"
+		]
 	},
 	"005bfb7a94bf7cfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorTimeFormatSetting.php$34 PhabricatorTimeFormatSetting.php:34]",
 	"0072987915909d17": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorOlderInlinesSetting.php$25 PhabricatorOlderInlinesSetting.php:25]",
@@ -19,7 +21,7 @@
 	"128113074a2daf0c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorEmailNotificationsSetting.php$12 PhabricatorEmailNotificationsSetting.php:12]",
 	"12aad65c46eb9853": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorUnifiedDiffsSetting.php$12 PhabricatorUnifiedDiffsSetting.php:12]",
 	"14ea9a7faab3120f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php$9 PhabricatorDiffPreferencesSettingsPanel.php:9]",
-	"17063c506b81a46c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorWeekStartDaySetting.php$37 PhabricatorWeekStartDaySetting.php:37]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/calendar/PHUICalendarMonthView.php$371 PHUICalendarMonthView.php:371]",
+	"17063c506b81a46c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorWeekStartDaySetting.php$37 PhabricatorWeekStartDaySetting.php:37]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/calendar/PHUICalendarMonthView.php$371 PHUICalendarMonthView.php:371]\n\n{{Identical|Saturday}}",
 	"17787c7178512d82": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php$408 PhabricatorEmailAddressesSettingsPanel.php:408]",
 	"1822a19d4526de58": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorEmailStampsSetting.php$12 PhabricatorEmailStampsSetting.php:12]",
 	"1ad88c1c8050de18": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorOlderInlinesSetting.php$12 PhabricatorOlderInlinesSetting.php:12]",
