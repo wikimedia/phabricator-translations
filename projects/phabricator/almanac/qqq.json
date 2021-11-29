@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ajeje Brazorf"
+		]
 	},
 	"00a3cc5b55d618dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacBindingEditEngine.php$144 AlmanacBindingEditEngine.php:144]",
 	"01579ede2f125abd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/management/AlmanacManagementTrustKeyWorkflow.php$26 AlmanacManagementTrustKeyWorkflow.php:26]",
@@ -8,7 +10,7 @@
 	"02a9a0412b384fbf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacServiceEditEngine.php$132 AlmanacServiceEditEngine.php:132]",
 	"02c7ceea8dd3ed83": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacBindingEditEngine.php$83 AlmanacBindingEditEngine.php:83]",
 	"036f6e580c8da706": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/management/AlmanacManagementRegisterWorkflow.php$196 AlmanacManagementRegisterWorkflow.php:196]",
-	"0449e1003dd0cdd9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacNamespaceEditEngine.php$57 AlmanacNamespaceEditEngine.php:57]",
+	"0449e1003dd0cdd9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacNamespaceEditEngine.php$57 AlmanacNamespaceEditEngine.php:57]\n\n{{Identical|Namespace}}",
 	"047be01fb538cccb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacPropertyEditController.php$87 AlmanacPropertyEditController.php:87]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacController.php$152 AlmanacController.php:152]",
 	"05e4ae6bf10aad59": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/engineextension/AlmanacPropertiesEditEngineExtension.php$32 AlmanacPropertiesEditEngineExtension.php:32]",
 	"06b03b97d72a803c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacController.php$27 AlmanacController.php:27]",
