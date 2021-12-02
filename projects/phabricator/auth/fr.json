@@ -207,6 +207,7 @@
 	"37b1ceaddafed9f2": "(Vous ne pouvez pas terminer votre session de connexion actuelle. Pour la terminer, déconnectez-vous.)",
 	"3831ac31da3608cc": "Votre compte a été créé, mais doit être approuvé par un administrateur. Vous recevrez un courriel une fois que votre compte sera approuvé.",
 	"3838b1a202e09b9d": "Les défis MFA récemment levés doivent avoir un TTL dans le futur. Ce facteur a levé un mauvais TTL (« $1 ») (avez-vous utilisé une heure relative plutôt qu’un temps ?).",
+	"385969d12b70feb2": "Oui (facultatif)",
 	"387f4b51dfba0029": "Erreur de jeton d’accès : $1",
 	"38de2df3a71ecfd9": "Clé PKCS8 en cache pour la clé publique.",
 	"3965739777faa637": "Instructions de modification de nom d’utilisateur",

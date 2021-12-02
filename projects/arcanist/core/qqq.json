@@ -967,7 +967,7 @@
 	"5b805447d00e7303": "Variable Types: PLURAL, PLURAL.\nUsed in:\n\nArcanistGitCommitSymbolCommitHardpointQuery.php:41",
 	"5b83ff8fc5da1085": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistClassExtendsObjectXHPASTLinterRule.php:32",
 	"5b85c6489367b8d6": "Used in:\n\nArcanistWorkflow.php:1469",
-	"5baa61e4c9b93f3f": "Used in:\n\nPhutilURITestCase.php:12\nPhutilURITestCase.php:36",
+	"5baa61e4c9b93f3f": "Used in:\n\nPhutilURITestCase.php:12\nPhutilURITestCase.php:36\n\n{{Identical|Password}}",
 	"5bcde4744f50b826": "Variable Types: NONE.\nUsed in:\n\nArcanistPatchWorkflow.php:274",
 	"5be4049a2125d8d8": "Variable Types: NONE.\nUsed in:\n\nArcanistAliasEngine.php:236",
 	"5bf09f3b0920da02": "Variable Types: NONE.\nUsed in:\n\nArcanistUnitWorkflow.php:50",
