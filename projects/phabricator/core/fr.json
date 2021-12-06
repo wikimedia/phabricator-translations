@@ -1539,6 +1539,7 @@
 	"e98c4c61c95dcadb": "Cette méthode est gelée et deviendra éventuellement obsolète. Le nouveau code doit utiliser « diffusion.commit.search » à la place.",
 	"e9b450d14bc2363d": "Terminé",
 	"e9cc6d0e9a61da7c": "Aucun résultat trouvé.",
+	"ea1d3df298ca8410": "Contrôle",
 	"ea4be26f8654ac4d": "(masqué)",
 	"eaa096affc42b0b0": "Phabricator est configuré avec des bases de données maître multiples, mais il manque une clé de configuration « partition » au maître « $1 » pour définir le partitionnement de l’application.",
 	"eaa4187bcb0bfa14": "Le hachage produit du mot de passe « $1 » est de longueur $2 alors qu’une longueur maximale de $3 était attendue.",

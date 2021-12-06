@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Motla",
 			"Thibaut120094",
 			"Verdy p",
@@ -54,6 +55,7 @@
 	"8fe82457801b6ad1": "Voulez-vous supprimer le document?",
 	"92fb2b3740bb471e": "Document supprimé",
 	"932fab9482371f15": "Version de contenu.",
+	"96a9105f070e8b82": "« $1 » <$2>",
 	"9837ef4032a3aed8": "Historique du document",
 	"98b219af6d77a4ff": "Brouillon $1",
 	"9c062d190c7fb27c": "Le document existe déjà!",
