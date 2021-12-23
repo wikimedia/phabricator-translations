@@ -1527,7 +1527,7 @@
 	"915cf6248091ff24": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistDictionaryConfigurationSource.php:24",
 	"915e947510e0464d": "Variable Types: PLURAL.\nUsed in:\n\nArcanistGitLandEngine.php:1025",
 	"918faa99c5f3a815": "Used in:\n\nHTTPSFuture.php:276",
-	"9197c7b7c329a97d": "Variable Types: NONE.\nUsed in:\n\nArcanistInstallCertificateWorkflow.php:171",
+	"9197c7b7c329a97d": "Variable Types: NONE.\nUsed in:\n\nArcanistInstallCertificateWorkflow.php:171\n\n{{Identical|Writing}}",
 	"91e8b8fdeb93af49": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistImplicitVisibilityXHPASTLinterRule.php:69",
 	"91fd468e238e615d": "Variable Types: NONE.\nUsed in:\n\nArcanistGitLandEngine.php:791",
 	"921ac48d298a7641": "Variable Types: NONE.\nUsed in:\n\nArcanistMercurialLandEngine.php:254",
