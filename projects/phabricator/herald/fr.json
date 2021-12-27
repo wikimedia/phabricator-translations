@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Actualisateur",
+			"Ajeje Brazorf",
 			"Derugon",
 			"Eihel",
 			"Gomoko",
@@ -208,7 +209,7 @@
 	"8cb2df53e22e1bf3": "Modifier le point d'ancrage web",
 	"8ccaec6ba1580f55": "Aucune mise en œuvre disponible pour la règle « $1 ».",
 	"8ccb6b0ab3976db4": "Les règles Herald ne s’enclencheront pas avant l’activation du suivi.",
-	"8da2bf8c0e3d6481": "Modifier le point d'ancrage web: $1",
+	"8da2bf8c0e3d6481": "Modifier le point d'ancrage web : $1",
 	"8e11f9bde98701e0": "Créer la règle Herald : $1",
 	"8e23b48275fcc2f5": "Les règles Herald globales peuvent être modifiées pas les utilisateurs ayant le droit d’application Herald « Peut gérer des règles globales ».",
 	"8fa6985cc534e9f2": "$1 (désactivé)",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Dgom",
 			"Dvdjaco",
 			"Fitoschido",
@@ -261,7 +262,7 @@
 	"2508d573173bdec2": "PHID del dispositiu",
 	"251edc0eb5a82064": "Metadades",
 	"2529a1e0277f0fe1": "Vista actual",
-	"257c0e17706a671b": "Mostrar els  canvis anteriors",
+	"257c0e17706a671b": "Mostrar els canvis anteriors",
 	"25b34d74a771ab6b": "Algorisme actual",
 	"25cfa8808684ef0e": "No es pot inserir ni actualitzar l'objecte de la classe $1, el camp '$2' té un valor no escalar.",
 	"25f3d92405b91a25": "Punt de control de seguretat",

@@ -544,7 +544,7 @@
 	"9a394c276f9e2412": "Vous n’avez actuellement pas de mot de passe VCS défini. Si vous en mettez un, vous pourrez le supprimer ici plus tard.",
 	"9a5cdea8c177d956": "Nouvelles langues du symbole.",
 	"9a6f9c8b6bdd8dae": "Relecteur (obsolète)",
-	"9a99d768e6f413ab": "$1: URI $2",
+	"9a99d768e6f413ab": "$1 : URI $2",
 	"9ae43d9a420e736a": "Impossible de déterminer la branche!",
 	"9b1fd08d56261f54": "Échec d’analyse de la sortie de `$1` : $2",
 	"9b2c226a89fe1fc8": "Modifier les règles pour pousser sur ce dépôt.",
