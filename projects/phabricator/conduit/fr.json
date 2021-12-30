@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Gomoko",
 			"Thibaut120094",
 			"TomT0m",
@@ -9,7 +10,7 @@
 			"Wladek92"
 		]
 	},
-	"0008bde8eebd806d": "Prise en charge de  ConduitResultInterface",
+	"0008bde8eebd806d": "Prise en charge de ConduitResultInterface",
 	"004c3ad67ff7186a": "Journaux de Conduit",
 	"00b93566bf7ce6cb": "Utilisez les données encodées de formulaire pour soumettre les paramètres aux points de terminaison de Conduit. L’envoi d’un contenu encodé JSON avec « Content-Type:  application/json » n’est  actuellement pas pris en charge.",
 	"0164281bb78268e3": "La clé de session n’est pas valide.",
