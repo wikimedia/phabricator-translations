@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"Rapsar"
 		]
 	},
 	"000da3e13a570535": "Bir yayıncı oluşturulduktan sonra, anahtarı değiştirilemez.",
@@ -29,7 +30,7 @@
 	"35d9cd8d35f4271d": "\"$1\" paket anahtarı zaten bu yayıncı tarafından sağlanan başka bir paket tarafından kullanılıyor.",
 	"37f6f064733bd1aa": "Paketi tanımlamak için benzersiz bir anahtar.",
 	"3b3f0321331bb4a9": "Ad alt dizgisine göre yayıncıları arayın.",
-	"3bf31ca4e5843df9": "Yazılım Yayınla",
+	"3bf31ca4e5843df9": "Yazılım Yayımla",
 	"3e35df2c04358e61": "Yeni oluşturulan yayıncılar için varsayılan düzenleme politikası.",
 	"40ab4c0ce406dbf7": "Tüm Sürümler",
 	"474e4ce64b3b0153": "\"$1\" sürüm adı geçerli değil: sürüm adları nokta veya kısa çizgi ile başlayamaz veya bitmeyebilir.",

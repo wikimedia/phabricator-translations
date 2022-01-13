@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"Rapsar"
 		]
 	},
 	"00376cc3bc87d6f7": "$1 altyazıyı $2 olarak ayarlardı.",
@@ -45,7 +46,7 @@
 	"1fe3384969882441": "Yeni bir blog başlığı yüklerken bir dosya seçmelisiniz.",
 	"21c3bbaf4a3ad2af": "Phame",
 	"2430d540db72f93f": "Blog oluşturma izniniz yok.",
-	"24a832968af6a6d3": "Gönderi Yayınla",
+	"24a832968af6a6d3": "Gönderi Yayımla",
 	"2519f9125aff459f": "$1, bu günlük gönderisini $2 iken $3 olarak yeniden adlandırdı.",
 	"251c6849257f67ae": "Başlığı Sil",
 	"2525fe8952a171fe": "$1 bu blog için profil resmini değiştirdi.",
@@ -69,7 +70,7 @@
 	"3454c4ae2ae66c39": "Görünür blog yazısı yok.",
 	"34c153562b5f23b7": "Yeni gönderi başlığı.",
 	"3685b61dac16f010": "[Blog Yok]",
-	"39a878eb854d50ff": "Tarihi Yayınla",
+	"39a878eb854d50ff": "Tarihi Yayımla",
 	"39b3be67aea12f3e": "Phame'de blogların nasıl oluşturulacağını ve düzenleneceğini yapılandırın.",
 	"39ebf98af7e46956": "Bu yayın, yayınladığınızda yayına girecek.",
 	"3a56871e5a6c55b3": "Blog Gönderi Formlarını Yapılandır",
@@ -78,7 +79,7 @@
 	"3ea51b57f6b8a1e3": "Ana Site Adı",
 	"3eb800a9594bbf57": "Yeni blog durumu sabiti.",
 	"3f11c6eac93522cf": "Blog altyazısını değiştirin.",
-	"3f41938393db42c4": "Bu bir taslaktır ve yalnızca siz ve $1 düzenleyebilen diğer kullanıcılar tarafından görülebilir. Bu yayını yayınlamak için \"Yayınla\" kullanın.",
+	"3f41938393db42c4": "Bu bir taslaktır ve yalnızca siz ve $1 düzenleyebilen diğer kullanıcılar tarafından görülebilir. Bu gönderiyi yayımlamak için \"Yayımla\" kullanın.",
 	"4374d5f50df2e24b": "$1, $2 günlük yazısını $3 iken $4 olarak yeniden adlandırdı.",
 	"43c4adb63b0278a5": "Özel alanların en az bir nokta içermesi gerekir (.) çünkü bazı tarayıcılar noktalara sahip olmayan alanlara çerezler koyamaz. Bunun yerine, \"$1\" gibi normal görünümlü bir etki alanı adı kullanın.",
 	"440a06e837b2cdab": "Yazı için slug.",
@@ -173,7 +174,7 @@
 	"9cd802f405ac83e3": "Blog açıklamasını değiştirin.",
 	"a0197edbdf496f4a": "Gönderi altyazısını değiştirin.",
 	"a01db43fb62253bf": "$1, $2 gönderisinin başlık resmini değiştirdi.",
-	"a02656a63ef27c42": "Bu blog yazıyı yayınla.",
+	"a02656a63ef27c42": "Bu blog yazıyı yayımla.",
 	"a14ddebdef0e7a08": "Ana Site URI'si",
 	"a223a076881cfd2a": "Gönderi Yaz",
 	"a423f5662b366033": "$1, $2 blogun ana etki alanını $3 olarak ayarladı.",

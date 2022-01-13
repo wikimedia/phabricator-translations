@@ -5,6 +5,7 @@
 			"Joseph",
 			"Melissadilara",
 			"MuratTheTurkish",
+			"Rapsar",
 			"Satirdan kahraman"
 		]
 	},
@@ -292,7 +293,7 @@
 	"539af8bee549241a": "$1 bu revizyonun incelenmesini istedi.",
 	"53c6879ff220ba07": "Bunu true olarak ayarlarsanız, herhangi bir kullanıcı kapatıldığı sürece bir düzeltmeyi yeniden açabilir. Bu, bir revizyon yanlışlıkla kapatılırsa veya bir geliştirici bir revizyonu kapattıktan sonra fikrini değiştirirse yararlı olabilir. False ise, yeniden açmaya izin verilmez.",
 	"53ee75970bdf5d01": "Bu resim $1 üzerinden kopyalandı.",
-	"5434910b96eef89c": "Revizyonu Yayınla",
+	"5434910b96eef89c": "Revizyonu Yayımla",
 	"544b0f4581622c33": "Posta gövdesi ayrıştırılamadı; yalnızca \"diff\" komutları ile oluşturulan posta gövdeleri (ve ekleri) ayrıştırılabilir.",
 	"545f8a5088118c68": "Bu dosya $1 kopyalandı.",
 	"5474af1a17ea3494": "Revizyonu oluşturmak veya güncellemek için yeni fark.",

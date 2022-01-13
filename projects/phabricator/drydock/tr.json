@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
+			"Rapsar",
 			"SaldırganSincap"
 		]
 	},
@@ -25,7 +26,7 @@
 	"06f507de8e633e9c": "Aşama Alanı Atlandı",
 	"07306b1c9e0b0227": "Bu değişikliğin gerçekleştirilmesi başarısız oldu. Çoktan birleştirilmiş olabilir.",
 	"0737e97c5c8664a1": "Drydock Planları",
-	"07efddd49946ef8e": "Bir kira yayınla.",
+	"07efddd49946ef8e": "Bir kira yayımla.",
 	"0823012f87bd18b7": "Aktivasyon için sıraya alınmış kira:",
 	"083c7db7fd651c75": "Bu kiralamayı onaylayan nesnenin PHID'si.",
 	"0875b08202c88106": "Kira sona erme süresini ayarlayın.",
@@ -177,7 +178,7 @@
 	"655c0bb38500ba59": "Aktivasyon Başarısız",
 	"668341763e41043d": "Zaten Reddedildi",
 	"670a080f7d3de920": "Bir plan oluşturmak veya düzenlemek için işlemleri uygulayın.",
-	"676235db58c10d84": "Kaynağı Yayınla",
+	"676235db58c10d84": "Kaynağı Yayımla",
 	"6802745dc51db03f": "Bu yetkilendirme onaylasın mı? Nesne, bu plan tarafından oluşturulan kaynakları kiralayabilecek ve tahsis edebilecektir.",
 	"68e5660e3eab2ae5": "Bir yetkilendirme, erişim yetkisi verdiği planın politikalarını devralır.",
 	"6951256f74ba038d": "Bir kiranın zorla serbest bırakılması, kiralama sahibinin çalışmasına müdahale edebilir ve temeldeki kaynağın tahrip olmasını tetikleyebilir. Geri alınamaz.",
@@ -328,7 +329,7 @@
 	"e143ba4b3091153c": "Bu revizyon çoktan başladı.",
 	"e2bb49200c680413": "Bu fark oluşturulduğunda, bilinmeyen bir nedenden dolayı sahnelemeye itilmedi (durum kodu \"$1\" idi). Değişiklikler web'den indirilmeden önce evrelemeye aktarılmalıdır. Sunucu Phabricator'ın eski bir sürümünü kullanıyor olabilir ve güncelleme bu hata hakkında daha fazla bilgi sağlayabilir.",
 	"e3795cdb729ca8cf": "Edinimde Etkinleştirildi",
-	"e51ed070298d0806": "Kiralamayı Yayınla",
+	"e51ed070298d0806": "Kiralamayı Yayımla",
 	"e5351e8b3cea7117": "Bu motor Drydock planlarını düzenlemek için kullanılır.",
 	"e7ec91275a05f63e": "Varsa, bu kiralama işleminin süresinin dolduğu dönem.",
 	"e9c270913826cdae": "Bir plan adı yazın...",
