@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"DDPAT"
 		]
 	},
 	"00061bade7e1c5b9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$74 PhabricatorRepositoryPullEngine.php:74]",
@@ -88,7 +89,7 @@
 	"1ee29d305562bfcb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/storage/PhabricatorRepositoryURI.php$539 PhabricatorRepositoryURI.php:539]",
 	"1eeae201554863fd": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/daemon/PhabricatorRepositoryPullLocalDaemon.php$115 PhabricatorRepositoryPullLocalDaemon.php:115]",
 	"1f3f23a513811988": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/constants/PhabricatorRepositoryType.php$44 PhabricatorRepositoryType.php:44]",
-	"1f584cf46364ca0f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/customfield/PhabricatorCommitTagsField.php$48 PhabricatorCommitTagsField.php:48]\n\n{{Identical|Tag}}",
+	"1f584cf46364ca0f": "The name of one filter in the advanced search\n\n{{Identical|Tag}}",
 	"1faaf2907e452ee7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$320 PhabricatorRepositoryPullEngine.php:320]",
 	"1fcf6e600abfd5a3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/conduit/RepositoryQueryConduitAPIMethod.php$16 RepositoryQueryConduitAPIMethod.php:16]",
 	"1ff5d475973f5d00": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/query/PhabricatorRepositoryPushLogSearchEngine.php$161 PhabricatorRepositoryPushLogSearchEngine.php:161]",
