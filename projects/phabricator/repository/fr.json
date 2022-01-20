@@ -33,6 +33,7 @@
 	"2250b24c8bd47652": "$1 a supprimé la branche par défaut $2 .",
 	"22b673420c88e3ec": "PHID de la personne qui a poussé",
 	"22bc488d117b2593": "Créer un nouveau dépôt Mercurial.",
+	"22eebae0562e0743": "L'expression « $1 » n'est pas une expression régulière valide. Notez que vous devez inclure les délimiteurs.",
 	"260775119b04ac08": "Pas encore implémenté.",
 	"276364a9ec2658de": "$1 a modifé la limite de la taille maximale des fichiers pour ce dépôt de $2 octets à $3 bytes.",
 	"288a87e9f4882dfe": "$1 a défini le chemin d' « Importation seulement » à $2 .",

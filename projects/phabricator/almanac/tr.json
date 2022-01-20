@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Joseph",
 			"Melissadilara"
 		]
@@ -222,6 +223,7 @@
 	"9d434c4f5809ec17": "Hizmet Türünü Seçin",
 	"9d6ef558eb018083": "$1, bu ad alanını $2 üzerinden $3 değiştirdi.",
 	"9ec5cde20cae74be": "Yeni bir arayüz oluşturmak veya mevcut bir arayüzü düzenlemek için işlemleri uygulayın.",
+	"9f054bbc3d4e0bd2": "Cihaz Devre Dışı",
 	"9f7f5d9379b8fe5c": "Bu motor Almanak özelliklerini düzenlemek için kullanılır.",
 	"9f8a62fd724a3fc3": "Bu cihaza hiçbir hizmet bağlı değil.",
 	"9fa4900186d4cca1": "Arayüzler ağ, cihaz, adres ve portun benzersiz bir kombinasyonuna sahip olmalıdır.",
@@ -302,6 +304,7 @@
 	"d86d5ba9de438f2e": "Hizmetleri ad dizgisine göre arayın.",
 	"d889bea7fb9dc3f8": "Hizmet için Almanak bağları alın.",
 	"da233d5a4c69383b": "Nesne için Almanak özelliklerini alın.",
+	"dc135b7128982d67": "Cihaz durumu.",
 	"dc7858f4fc4bdbaf": "Yeni küme hizmetleri oluşturma izniniz yok.",
 	"ddf840bd5ee277bc": "Almanak Cihazı",
 	"de0809f2d9b76df5": "$1, bu arayüzün adresini $2 üzerinden $3 değiştirdi.",

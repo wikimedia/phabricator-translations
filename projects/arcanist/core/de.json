@@ -5,6 +5,7 @@
 			"FF-11",
 			"Gyteck",
 			"Leon95",
+			"MarcoFalke",
 			"Metalhead64",
 			"Mutante",
 			"Sushi",
@@ -14,7 +15,9 @@
 		]
 	},
 	"00003a701ef56dd7": "Wegen eines Uploadfehler abgebrochen. Du kannst $1 benutzen, um binäre Uploads zu überspringen.",
+	"0008687c919b007e": "Der Zweig \"$1\" existiert nicht im remoten \"$2\".",
 	"002c2a90a11d5b80": "Diese Arbeitskopie ist mit dem Repository $1 verknüpft.",
+	"0034df47f76f0aef": "Kürzung von $1",
 	"0036a9c91e10fbf2": "Soll einen Fehler bei fehlender Eingabe auslösen",
 	"008e572e126baa15": "Lint-Deaktivierer",
 	"00d4c70e036c7f07": "Rufe Conduit-API-Methoden auf.",

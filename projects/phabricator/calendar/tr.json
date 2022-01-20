@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Hedda",
 			"Joseph",
 			"Melissadilara",
@@ -386,6 +387,7 @@
 	"ca2bfd73cbe60121": "Etkinlikleri İçe Aktarma",
 	"cbb60471baf0d0a5": "Etkinlik Davetlileri",
 	"cc11e96771f3e251": ".ics Dosyasını İçe Aktar",
+	"cc7059fd1d34206a": "Basit günlük etkinlik.",
 	"cd49a408abbe1551": "$1 bu etkinliği haftalık olarak tekrarlayacak şekilde ayarladı.",
 	"cea7a4decf2b446a": "Bu olay örneği henüz oluşturulmadı. Oluşturmak için giriş yapın.",
 	"cf70dad2722659e8": "$1, bitiş tarihini $2 için $3 üzerinden $4 değiştirdi.",
@@ -419,6 +421,7 @@
 	"dd124f03138018f9": "Evden Çalışmak",
 	"dd656cf2f85133d9": "Etkinliği tüm gün süren bir etkinlik yapın.",
 	"ddca79d4e58092d1": "$1, bu etkinliği günlük olarak tekrarlanacak şekilde ayarladı.",
+	"de8e9f4b2baa7cde": "Basit tarih listesi",
 	"ded96f37a1e1ccbc": "Dışa aktarmayı iptal etmek için true.",
 	"df2fd86b85cb825e": "$1 bu dışa aktarmayı devre dışı bıraktı.",
 	"df4a0dd186e3048f": "Tüm Aktarımlar",
