@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Melissadilara"
 		]
 	},
@@ -66,6 +67,7 @@
 	"620ee8ce413205a6": "Bu arka plan programı son zamanlarda durumunu bildirmedi. Kirli çıkmış olabilir.",
 	"64e035f7d178a914": "Maksimum havuz boyutu.",
 	"64f937487373b1e0": "Bilinmeyen durum \"$1\"!",
+	"6614451687ab9964": "Kullanımdan kalktı. Etkisi yok.",
 	"662c0b09866952be": "Bu iş, görevlerin sıraya alınmasını bekliyor.",
 	"66a69dcf67eda0ef": "HATA: $1 PHP işlevi devre dışı. Bu makinede arka plan programları çalıştırmak için etkinleştirmeniz gerekir.",
 	"68971ee0d218f55b": "Kira Durumu",
@@ -117,6 +119,7 @@
 	"b89504a36656cbb5": "Ortalama Süre",
 	"b9450b4b4cb35b8c": "Arka plan programları \"$2\" yapılandırma seçeneğinde \"$1\" kullanıcısı olarak çalışacak şekilde yapılandırıldı, ancak geçerli kullanıcı \"$3\" ve `phd` `sudo` ile doğru kullanıcıya geçemedi. Komut çıkışı:\n\n$4",
 	"bdcd6844c303959e": "Herhangi bir arka plan programı için günlük kaydı yok.",
+	"bf7789816be1555b": "PID $1 durdurulamadı (\"$2\").",
 	"c4ad7fd1ecc8c5c8": "Arka Plan Programı Süreçleri",
 	"c58935192e1d7a52": "PID \"$1\", bilinen bir Phabricator arka plan programı PID'si değildir.",
 	"c805c03ecb13a183": "Etkin görev kuyruğuna dokunmama kiraları.",

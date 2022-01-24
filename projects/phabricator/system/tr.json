@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Hedda",
 			"Vito Genovese"
 		]
@@ -26,11 +27,13 @@
 	"464c7e7834d9d7bd": "Vurgulama",
 	"46ef097ca8f49509": "Ustaya Ulaşılamıyor",
 	"4ab649906e0efba5": "Phabricator, bu isteği yerine getirirken yazılabilir (\"master\") veritabanına bağlanamadı ve otomatik olarak salt okunur moda düşürüldü.",
+	"4b7d7e1069a59c87": "Olarak Görüntüle",
 	"4f17eb3453bbf2ad": "$1 nesneyi kalıcı olarak imha etti.",
 	"52aa5f90323d30f5": "Kodlamayı Seçin",
 	"556ac87365d4e095": "Nesnelerin yok edilmesi, ilgili nesnelerin çalışmamasına neden olabilir ve artık bulunmayan nesnelere dağılmış kaynaklar bırakabilir. Çoğu durumda, nesneleri yok etmek yerine devre dışı bırakmak veya arşivlemek çok daha iyidir. Bu risk, depolar, projeler ve kullanıcılar gibi karmaşık veya yüksek oranda birbirine bağlı nesneleri silerken en fazladır.\n\nYırtık pürüzlü kenarlar nesneleri yok etmenin beklenen bir sonucudur ve üst kısımdaki Phabricator onları düzeltmenize yardımcı olmaz. Bunun yerine nesneleri devre dışı bırakmanızı veya arşivlemenizi şiddetle öneririz.",
 	"58bf20abc8cfcd7f": "ÖNEMLİ",
 	"61fa1232adb2e450": "Oldukça Rahatsız",
+	"635d7fdafe19e1b2": "Kullanılacak belge motoru seçiniz.",
 	"65fca1e4d02e4304": "İmha Günlükleri",
 	"663a7169eba04995": "Bu, ciddi bir yanlış yapılandırma veya büyük servis kesintisine işaret ediyor.",
 	"6a1114f49dc5b54a": "Nesneleri yok ediyor...",
@@ -67,5 +70,6 @@
 	"ec0f51ba7916ac99": "Yönetici olarak, durum bilgilerini $1 kontrol panelinden inceleyebilirsiniz. Bu, mevcut durum hakkında daha fazla bilgi sağlayabilir.",
 	"ef4d482fe615435e": "Her ne kadar bu yanlış bir yapılandırma veya işlemsel hatanın sonucu olsa da, bu aynı zamanda bir meteor yakın zamanda bir veri merkezini takılıyorsa ulaştığınız durumdur.",
 	"f01e13d061b6ba20": "\"$1\" nesnesi var, ancak yönlendirilecek bir URI yok.",
-	"f0cd9813b64afd83": "Yok edilecek bir veya daha fazla nesne belirtin."
+	"f0cd9813b64afd83": "Yok edilecek bir veya daha fazla nesne belirtin.",
+	"f5bb0f9a9c2a0888": "Motor Seçin"
 }

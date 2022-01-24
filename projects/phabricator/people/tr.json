@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Joseph",
 			"LuCKY",
 			"Melissadilara"
@@ -146,6 +147,7 @@
 	"64314c70d7a0770a": "Kullanıcıyı Devre Dışı Bırak",
 	"674866c78d05d6ad": "$1'den Resim",
 	"67b9a45d59be8d5f": "Yalnızca engelli kullanıcıları bulmak için ruet, engelli kullanıcıları atlamak için false kullanın.",
+	"67ee1a176ed50720": "Onaylı kullanıcı hesabı \"$1\".",
 	"681b5b5ae10b994e": "Kullanılabilirlik",
 	"6891303c1246fef1": "$1 bu Phabricator kurulumuna erişmesine izin verilsin mi?",
 	"68941ae5f1c3c276": "e-postalar",
@@ -207,6 +209,8 @@
 	"909bf3e80731a458": "Profili Kaydet",
 	"90ca83349d56e661": "Kullanıcıları devre dışı bırakmak veya etkinleştirmek için izniniz yok.",
 	"91492fcbf1d11323": "Sadece botları bulmak için true, botları atlamak için false.",
+	"914f8c1df0eb54eb": "Bu kullanıcı bu nesneyi göremez.",
+	"91ee5e7dee4e9de3": "Bu kullanıcıyı kalıcı olarak imha etmek için şu komutu komut satırında çalıştırın:",
 	"9211cbbad4df078c": "Son revizyon yok.",
 	"92c0612237a06a19": "Birincil e-posta kaldırılamıyor!",
 	"92d0e65449810eaa": "Kullanıcı Hesapları",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Melissadilara",
 			"Rapsar"
 		]
@@ -121,6 +122,7 @@
 	"58507087f19da5c2": "Hiçbir posta yapılandırılmamış.",
 	"5c0f3e71b87713f4": "Benzer Cevap",
 	"5cdf1ee71218493e": "Bu kullanıcı devre dışı; engelli kullanıcılar posta alamazlar.",
+	"5ef41b4002408852": "SMTP (Yerel)",
 	"6063f7fd047f29ab": "Yalnızca \"e-posta\" türündeki dış hesaplar teslim edilebilir; bu hesabın farklı bir türü var.",
 	"60914850df88eb57": "Boş Posta",
 	"60f6314604875691": "METİN GÖVDESİ",

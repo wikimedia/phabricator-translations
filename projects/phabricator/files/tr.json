@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Cobija",
 			"Hedda",
 			"Melissadilara",
@@ -22,6 +23,7 @@
 	"04bf886e8ac26aef": "çan",
 	"0577618ba6736dd9": "Bu seçenek, görüntüleri büyütmek için Imagemagick'i kullanır, böylece animasyonlu GIF'ler küçük resimlerle görüntülenebilir ve profil resimleri olarak ayarlanabilir. Imagemagick yüklü olmalı ve bunun çalışması için \"$1\" ikili web sunucusu tarafından kullanılabilir olmalıdır.",
 	"05853b2689b6d2a8": "Yerleşik avatar resmi verileri kaydedilemedi (imagefill).",
+	"0608e6a53b86211e": "Yeni alternatif metin.",
 	"0654a028e5aea48c": "YOK",
 	"066bf76df7f0a14f": "Dosyaları ad dizine göre arayın.",
 	"067f7a2b414b9c54": "Bu belge UTF8 değil ve metin kodlaması otomatik olarak algılanamadı. Bir kodlama seçmek için \"Metin Kodlamasını Değiştir...\" seçeneğini kullanın.",
@@ -156,6 +158,7 @@
 	"54afedfed2f10891": "$1x $2 boyutları için arka plan şablonu kaynağı bulunamadı.",
 	"54d68f2958619279": "Bu resim (boyutlarıyla $1 piksel x $2 piksel) dönüştürülemeyecek kadar büyük. Görüntünün $3 pikseli vardır, ancak dönüşümler $4 veya daha az pikseli olan resimlerle sınırlıdır.",
 	"551c5765765c765a": "Bir şifreleme anahtarı oluşturun.",
+	"555db8f05eb21bea": "Depolama Motoru",
 	"55d8727a05eb80b0": "görevler",
 	"55f7d1f71091501a": "küp",
 	"56de864c10462679": "'$1' belirtilmedi!",
@@ -353,6 +356,7 @@
 	"b5cda7edbfdca392": "Adlandırılmış depolama motoruna geçin.",
 	"b7382bb47f75a0d8": "Hexdump Olarak Görüntüle",
 	"b7b2fb7443bcfed3": "hediye",
+	"b7dc63fe1c4740da": "Depolama Biçimi",
 	"b894d7ee521a8d5e": "Desteklenmeyen veri kodlaması.",
 	"b94a6243c63b656b": "Bu belge tamamen satır içi olarak işlenemeyecek kadar büyük. İlk $1 bayt gösterilir.",
 	"b97b21600655dc1e": "$1: Görüntü boyutları zaten var.",

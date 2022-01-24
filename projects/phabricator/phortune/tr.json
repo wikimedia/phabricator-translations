@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Joseph",
 			"Melissadilara"
 		]
@@ -183,6 +184,7 @@
 	"552cfb43222311c5": "$1, $3'e $2 tüccar yöneticisi ekledi: $4.",
 	"559ef5544c825815": "PayPal",
 	"562341fecf5aeb44": "Hiçbir tüccar hesabını kontrol etmiyorsunuz. Satıcı hesapları, ödemeleri almak için kullanılır.",
+	"5675bcb778c6ec87": "Bu fatura ödeme için hazırdır.",
 	"57bd64498fc769c4": "Özel Ürün",
 	"595309c18a6b8e11": "İlk tüccar yöneticileri.",
 	"5b1a9d8e91a54b87": "Ödeme Yöntemi Ekle",
@@ -257,6 +259,7 @@
 	"878bae99dd28cb1c": "Yeni Fatura",
 	"87eec34183bddbe6": "Kullanıcı Seç",
 	"88729d57eb599c58": "Bir stripe.com hesabı ile kredi kartı veya bankamatik kartı ödemelerini kabul etmenizi sağlar.",
+	"89a80aae3fc74293": "\"$1\" Olarak Görüntüleniyor",
 	"8a048c4c5a36a290": "Logo Yükle",
 	"8a0e825a558d2418": "Desteklenmeyen para birimi (\"$1\")!",
 	"8b39630285e58cbb": "$1 bu hesap epostasını oluşturdu.",
@@ -306,6 +309,7 @@
 	"9eb5d9e270ad8ba9": "Bu sipariş, satıcı tarafından manüel işlem için işaretlendi.",
 	"9eeb8b7ab0d126cb": "Abonelikte fatura dönemi bilgileri eksik.",
 	"9fed393b3f8acde4": "Hiçbir ödeme hesabına üye değilsiniz. Ödeme hesapları, alışveriş yapmak için kullanılır.",
+	"a0bdf958d8b3a722": "$1 bu ödeme yöntemini oluşturdu.",
 	"a15b0b10d14c2e81": "Sipariş Durumu",
 	"a1f2134c1df858b5": "Para birimlerinin aksine işlem yapmaya çalışıyor (\"$1\" ve \"$2\")!",
 	"a20ebac9a755f6bf": "Kısa sürede ödeme yöntemleri eklemek için çok fazla girişimde bulunuyorsunuz.",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Joseph",
 			"Melissadilara",
 			"MuratTheTurkish",
@@ -325,6 +326,7 @@
 	"8c6d7075363f89ac": "bilinmeyen komut $1",
 	"8d33f3064fd0cf2a": "BAŞARISIZ",
 	"8d669a5196b60b4d": "Aktif Planlar",
+	"8e0ad5a483812ad6": "Yeniden başlatılabilir",
 	"8e5b3c758b2919c0": "$1 Birim",
 	"8e73e4fc47d8baa0": "Harbormaster yapı hedefi \"$1\" bir Buildkite yapı adımı değil. Buildkite kancasıyla yalnızca Buildkite adımları güncellenebilir.",
 	"8ec79a7771e2c666": "Yeni Görünüm (Prototip)",
@@ -403,6 +405,7 @@
 	"b1590d210090d3ec": "İptal Edildi",
 	"b1b454547025357c": "Yapı Adımı Oluştur",
 	"b21bd06982174d77": "Dosyayı Yayımlar",
+	"b22ba5dcb96132b3": "Plan Davranışları",
 	"b379c5c457f54e24": "True ise, bu URI'yı bir harici derleme sistemindeki ek derleme ayrıntılarına bağlantı olarak UI'de görüntüleyin.",
 	"b3bd0b5a70497bec": "Devam Et",
 	"b42cddc97eeaa042": "Yeni bir Harbormaster derleme günlüğü yaz. Bu öncelikle geliştirme ve test etmeyi kolaylaştırmak için tasarlanmıştır.",

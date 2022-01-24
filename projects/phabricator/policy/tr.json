@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Can"
 		]
 	},
 	"002aa6b71775a72f": "Erişim Reddedildi: $1",
@@ -10,6 +11,7 @@
 	"056cfca86add4e51": "azalıyor",
 	"07c02304013bf0f0": "Diğer Nesnelerde Gerekli Olanaklar",
 	"08c15f46074369df": "Giriş yapan kullanıcılar bu işlemi yapabilir.",
+	"0a4ed4a464cfa463": "Nesne URI",
 	"0b19da3648947eae": "Phabricator, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.\n\nBu ayar, bu politikaların \"kilitlenmesini\" sağlar, böylece politika başına başka düzenleme yapılamaz.",
 	"0bb2e1d44d97441b": "ne zaman ay",
 	"0e3e41241d8cbd68": "Kilitlenecek nesnenin adını belirtin.",
@@ -69,6 +71,7 @@
 	"7c1c30041d2f2a8b": "\"$1\" yeteneği mevcut değil.",
 	"828f2a22520c1086": "NESNE",
 	"83423c198b6099ed": "Not:",
+	"85f437a86ad48b04": "Politika ayrıntılarını görüntülemek için izniniz yok.",
 	"88fd881df8116595": "Düzenleyebilir",
 	"8a04ae8bee11253a": "Sayfaları yalnızca görünür nesneler üzerinden kaydırın.",
 	"90813cc99732cf61": "Politikayı Düzenle",
