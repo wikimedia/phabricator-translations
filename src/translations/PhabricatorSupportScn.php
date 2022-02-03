@@ -1,6 +1,6 @@
 <?php
 
-final class PhabricatorHomeScn
+final class PhabricatorSupportScn
   extends PhutilTranslation {
 
   public function getLocaleCode() {
@@ -9,7 +9,7 @@ final class PhabricatorHomeScn
 
   protected function getTranslations() {
     return array(
-      'More Applications' => 'Àutri appricazzioni',
+      'Support' => 'Supportu',
     );
   }
 

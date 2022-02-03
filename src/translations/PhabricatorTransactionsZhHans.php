@@ -91,6 +91,7 @@ final class PhabricatorTransactionsZhHans
       'List of PHIDs to remove.' => '要移除的PHID列表。',
       'Create New Form' => '创建新表单',
       'Transaction requires handles and it did not load them.' => '交易要求处理，但它并未加载它们。',
+      '(Show Details)' => '（显示详情）',
       '%s edited this %s.' => '%s编辑了此%s。',
       'Apply remaining actions?' => '应用剩余的操作么？',
       'Transaction Type: %s' => '交易类型：%s',

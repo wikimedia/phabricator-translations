@@ -70,6 +70,7 @@ final class PhabricatorDaemonTr
       'This daemon has not reported its status recently. It may have exited uncleanly.' => 'Bu arka plan programı son zamanlarda durumunu bildirmedi. Kirli çıkmış olabilir.',
       'Maximum pool size.' => 'Maksimum havuz boyutu.',
       'Unknown status "%s"!' => 'Bilinmeyen durum "%s"!',
+      'Deprecated. Has no effect.' => 'Kullanımdan kalktı. Etkisi yok.',
       'This job is waiting for tasks to be queued.' => 'Bu iş, görevlerin sıraya alınmasını bekliyor.',
       'ERROR: The PHP function %s is disabled. You must enable it to run daemons on this machine.
     ' => 'HATA: %s PHP işlevi devre dışı. Bu makinede arka plan programları çalıştırmak için etkinleştirmeniz gerekir.',
@@ -124,6 +125,7 @@ final class PhabricatorDaemonTr
     %s' => 'Arka plan programları "%2$s" yapılandırma seçeneğinde "%1$s" kullanıcısı olarak çalışacak şekilde yapılandırıldı, ancak geçerli kullanıcı "%s" ve `phd` `sudo` ile doğru kullanıcıya geçemedi. Komut çıkışı:
     %s',
       'No log records exist for any daemons.' => 'Herhangi bir arka plan programı için günlük kaydı yok.',
+      'Unable to stop PID %d ("%s").' => 'PID %s durdurulamadı ("%s").',
       'Daemon Processes' => 'Arka Plan Programı Süreçleri',
       'PID "%d" is not a known Phabricator daemon PID.' => 'PID "%s", bilinen bir Phabricator arka plan programı PID\'si değildir.',
       'Not touching active task queue leases.' => 'Etkin görev kuyruğuna dokunmama kiraları.',

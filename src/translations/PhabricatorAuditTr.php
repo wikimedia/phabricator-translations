@@ -78,6 +78,7 @@ final class PhabricatorAuditTr
       'This is a dry run, so no changes will be made.' => 'Bu kuru bir çalışmadır, bu nedenle değişiklik yapılmaz.',
       'Audits' => 'Denetimler',
       'Unreachable' => 'Ulaşılamıyor',
+      'Permanent' => 'Kalıcı',
       'Active Audits' => 'Aktif Denetimler',
       'Browse and Audit Commits' => 'Taahhüt ve Denetim Taahhütleri',
       'Delete audit requests matching parameters.' => 'Parametrelere uyan denetim isteklerini silin.',

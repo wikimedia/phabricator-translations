@@ -24,7 +24,7 @@ final class PhabricatorSettingsHe
       'Edit global default settings for all users.' => 'עריכת ההגדרות הכלליות עבור כלל המשתמשים.',
       'Adjust Timezone' => 'שינוי איזור זמן',
       'Extra Settings' => 'הגדרות נוספות',
-      'Are you sure you want to delete this address? You will no longer be able to use it to login.' => 'האם אכן ברצונך למחוק כתובת זו? לאחר מחיקת כתובת זו לא תהיה באפשרותך להשתמש בה על מנת להתחבר.',
+      'Are you sure you want to delete this address? You will no longer be able to use it to login.' => 'האם אכן ברצונך למחוק את הכתובת הזאת? לאחר מחיקת הכתובת הזאת לא תהיה לך אפשרות להשתמש בה כדי להתחבר.',
       'All Messages' => 'כל ההודעות',
       'Save Preference' => 'שמירת העדפות',
       'Email Format' => 'מבנה דוא"ל',

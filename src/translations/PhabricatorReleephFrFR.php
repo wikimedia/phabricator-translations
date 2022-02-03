@@ -61,6 +61,7 @@ final class PhabricatorReleephFrFR
       'Rejected By' => 'Rejeté par',
       'Created By: %s' => 'Créé par : %s',
       'All Requests' => 'Toutes les requêtes',
+      'Mark as Reverted' => 'Marquer comme annulé',
       '(All Requests)' => '(Toutes les requêtes)',
       '%s and %s' => '%s et %s',
       'Branches cannot begin or end with \'%s\'' => 'Les branches ne peuvent pas commencer ni se terminer par « %s »',

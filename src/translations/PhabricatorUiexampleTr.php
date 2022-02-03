@@ -193,7 +193,6 @@ final class PhabricatorUiexampleTr
       'Disabled Object' => 'Engelli Nesne',
       'Holidays' => 'Bayram',
       'Long Text Body' => 'Uzun Metin Gövdesi',
-      '<script>alert(1);</script>' => 'uyarı(1);',
       'This is a major timeline event.' => 'Bu büyük bir zaman çizelgesi olayıdır.',
       'Create a fanciful list of objects and prismatic donuts.' => 'Fantezi bir nesne listesi ve prizmatik çörek oluşturun.',
       'Remarkup' => 'Açıklama',

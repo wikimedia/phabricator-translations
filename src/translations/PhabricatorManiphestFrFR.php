@@ -353,6 +353,7 @@ final class PhabricatorManiphestFrFR
       'Create a new Maniphest task.' => 'Nouvelle tâche Maniphest.',
       'Create New Task' => 'Créer une nouvelle tâche',
       'Mentioned Here' => 'Mentionné ici',
+      'Page Size' => 'Taille de la page',
       'Lock Error' => 'Erreur de verrouillage',
       'Tasks and Bugs' => 'Tâches et erreurs',
       'Assign / Claim' => 'Affecter / réclamer',

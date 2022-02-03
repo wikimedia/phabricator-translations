@@ -33,7 +33,7 @@ final class PhabricatorConduitTr
       'Reading input from stdin...' => 'Stdin\'den giriş okunuyor...',
       'All Call Logs' => 'Tüm Çağrı Kayıtları',
       'File to read parameters from, or "-" to read from stdin.' => 'Parametreleri okumak için dosya veya stdin\'den okumak için "-".',
-      'List of integers.' => 'Tamsayıların listesi.',
+      'List of integers.' => 'Tamsayı listesi.',
       'You have made too many invalid token requests recently. Wait before making more.' => 'Son zamanlarda çok fazla geçersiz anahtar isteği yaptınız. Daha fazlasını yapmadan önce bekleyin.',
       'API token "%s" has the wrong format. API tokens should be 32 characters long and begin with one of these prefixes: %s.' => '"%s" API anahtarı yanlış biçime sahip. API anahtarı 32 karakter uzunluğunda olmalı ve şu öneklerden biriyle başlamalıdır: %s.',
       'No such user "%s" exists.' => 'Böyle bir "%s" kullanıcısı yok.',

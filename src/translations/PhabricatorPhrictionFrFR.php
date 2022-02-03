@@ -55,6 +55,7 @@ final class PhabricatorPhrictionFrFR
       'Delete Document?' => 'Voulez-vous supprimer le document?',
       'Document Deleted' => 'Document supprimé',
       'Content version.' => 'Version de contenu.',
+      '"%s" <%s>' => '« %s » <%s>',
       'Document History' => 'Historique du document',
       'Draft %d' => 'Brouillon %s',
       'Document already exists!' => 'Le document existe déjà!',

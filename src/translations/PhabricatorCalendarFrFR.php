@@ -187,6 +187,7 @@ final class PhabricatorCalendarFrFR
       'One-Time Event' => 'Evénement ponctuel',
       'Change the export query key.' => 'Modifier la clé de la requête d’exportation.',
       '%s imported an ICS file.' => '%s a importé un fichier ICS.',
+      'Unexpected BOOLEAN value "%s".' => 'Valeur BOOLÉENNE inattendue « %s ».',
       'All Day Event' => 'Evénément durant toute la journée',
       'New import name.' => 'Nouveau nom d\'import.',
       'Multiple lists, one result.' => 'Listes multiples, un résultat.',

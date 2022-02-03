@@ -249,6 +249,7 @@ final class PhabricatorAuthFrFR
       '(You can not terminate your current login session. To terminate it, log out.)' => '(Vous ne pouvez pas terminer votre session de connexion actuelle. Pour la terminer, déconnectez-vous.)',
       'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => 'Votre compte a été créé, mais doit être approuvé par un administrateur. Vous recevrez un courriel une fois que votre compte sera approuvé.',
       'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Les défis MFA récemment levés doivent avoir un TTL dans le futur. Ce facteur a levé un mauvais TTL (« %s ») (avez-vous utilisé une heure relative plutôt qu’un temps ?).',
+      'Yes (Optional)' => 'Oui (facultatif)',
       'Access token error: %s' => 'Erreur de jeton d’accès : %s',
       'Cached PKCS8 key for public key.' => 'Clé PKCS8 en cache pour la clé publique.',
       'Username Change Instructions' => 'Instructions de modification de nom d’utilisateur',

@@ -30,6 +30,7 @@ final class PhabricatorSystemTr
       'Highlighting' => 'Vurgulama',
       'Unable to Reach Master' => 'Ustaya Ulaşılamıyor',
       'Phabricator was unable to connect to the writable ("master") database while handling this request, and automatically degraded into read-only mode.' => 'Phabricator, bu isteği yerine getirirken yazılabilir ("master") veritabanına bağlanamadı ve otomatik olarak salt okunur moda düşürüldü.',
+      'View As' => 'Olarak Görüntüle',
       'Permanently destroyed %s object(s).' => '%s nesneyi kalıcı olarak imha etti.',
       'Choose Encoding' => 'Kodlamayı Seçin',
       'Destroying objects may cause related objects to stop working, and may leave scattered references to objects which no longer exist. In most cases, it is much better to disable or archive objects instead of destroying them. This risk is greatest when deleting complex or highly connected objects like repositories, projects and users.
@@ -37,6 +38,7 @@ final class PhabricatorSystemTr
     Yırtık pürüzlü kenarlar nesneleri yok etmenin beklenen bir sonucudur ve üst kısımdaki Phabricator onları düzeltmenize yardımcı olmaz. Bunun yerine nesneleri devre dışı bırakmanızı veya arşivlemenizi şiddetle öneririz.',
       'IMPORTANT' => 'ÖNEMLİ',
       'Quite Unsettling' => 'Oldukça Rahatsız',
+      'Choose a document engine to use.' => 'Kullanılacak belge motoru seçiniz.',
       'Destruction Logs' => 'İmha Günlükleri',
       'This likely indicates a severe misconfiguration or major service interruption.' => 'Bu, ciddi bir yanlış yapılandırma veya büyük servis kesintisine işaret ediyor.',
       'Destroying objects...' => 'Nesneleri yok ediyor...',
@@ -74,6 +76,7 @@ final class PhabricatorSystemTr
       'Although this may be the result of a misconfiguration or operational error, this is also the state you reach if a meteor recently obliterated a datacenter.' => 'Her ne kadar bu yanlış bir yapılandırma veya işlemsel hatanın sonucu olsa da, bu aynı zamanda bir meteor yakın zamanda bir veri merkezini takılıyorsa ulaştığınız durumdur.',
       'Object "%s" exists, but does not have a URI to redirect to.' => '"%s" nesnesi var, ancak yönlendirilecek bir URI yok.',
       'Specify one or more objects to destroy.' => 'Yok edilecek bir veya daha fazla nesne belirtin.',
+      'Choose Engine' => 'Motor Seçin',
     );
   }
 

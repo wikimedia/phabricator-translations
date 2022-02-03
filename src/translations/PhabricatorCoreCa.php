@@ -263,7 +263,7 @@ final class PhabricatorCoreCa
       'Device PHID' => 'PHID del dispositiu',
       'Metadata' => 'Metadades',
       'Current Viewer' => 'Vista actual',
-      'Show Older Changes' => 'Mostrar els  canvis anteriors',
+      'Show Older Changes' => 'Mostrar els canvis anteriors',
       'Current Algorithm' => 'Algorisme actual',
       'Unable to insert or update object of class %s, field \'%s\' has a non-scalar value.' => 'No es pot inserir ni actualitzar l\'objecte de la classe %s, el camp \'%s\' té un valor no escalar.',
       'Security Checkpoint' => 'Punt de control de seguretat',

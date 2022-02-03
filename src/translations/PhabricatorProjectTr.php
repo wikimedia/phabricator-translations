@@ -150,7 +150,9 @@ final class PhabricatorProjectTr
       'Remove Watcher' => 'İzleyiciyi Kaldır',
       'Normal Project' => 'Normal Proje',
       'Parent Projects' => 'Üst Projeler',
+      'Remove project tags: %s.' => 'Proje etiketlerini kaldır: %s.',
       'Type a user, project name, or function...' => 'Bir kullanıcı, proje adı veya işlev yazın...',
+      'Used on %s.' => '%s üzerinde kullanıldı.',
       '%s set the color for %s to %s.' => '%s, rengini %s ile %s ayarladı.',
       'Browse Members' => 'Üyelere Göz At',
       'Show Only Archived Projects' => 'Yalnızca Arşivlenmiş Projeleri Göster',
@@ -158,6 +160,7 @@ final class PhabricatorProjectTr
       'Type only()...' => 'Yalnızca yazın()...',
       'Find results in any of several projects.' => 'Projelerin herhangi birinde sonuçları bulun.',
       'Show Only Milestones' => 'Yalnızca Kilometre Taşlarını Göster',
+      'No triggers found.' => 'Hiçbir tetikleyici bulunmadı.',
       'The display name of the column.' => 'Sütunun görünen adı.',
       'This column is hidden because it represents an archived subproject. Do you want to activate the subproject so the column is visible again?' => 'Bu sütun gizlidir çünkü arşivlenmiş bir alt projeyi temsil eder. Alt projeyi aktif hale getirmek ister misiniz, böylece sütun tekrar görünür olur?',
       'When creating a project, specify a maximum of one parent project or milestone project. A project can not be both a subproject and a milestone.' => 'Bir proje oluştururken, en fazla bir ana proje veya dönüm noktası projesi belirtin. Bir proje hem alt proje hem de dönüm noktası olamaz.',
@@ -167,6 +170,7 @@ final class PhabricatorProjectTr
       'Project tag color.' => 'Proje etiketi rengi.',
       'Joined' => 'Katıldı',
       'No Milestones' => 'Kilometre Taşları Yok',
+      'Project tags added' => 'Proje etiketleri eklendi',
       'Blue Sky' => 'Mavi Gökyüzü',
       'Search for projects with particular slugs. (Slugs are the same as project hashtags.)' => 'Belirli slug içeren projeleri arayın. (Sluglar proje kareleriyle aynıdır.)',
       'Value for index "%s" should be a dictionary.' => '"%s" dizininin değeri sözlük olmalı.',
@@ -215,6 +219,7 @@ final class PhabricatorProjectTr
       'The project icon marked as the default icon ("%s") must not be disabled.' => 'Varsayılan simge ("%s") olarak işaretlenmiş proje simgesi devre dışı bırakılmamalıdır.',
       '%s added %s project(s) for %s: %s.' => '%s, %3$s için %2$s proje eklendi: %s.',
       'Add Column' => 'Sütun Ekle',
+      'Remove Project Tags' => 'Proje Etiketlerini Kaldır',
       'Projects are flexible storage containers used as tags, teams, projects, or anything you need to group.' => 'Projeler, etiketler, ekipler, projeler veya gruplandırmanız gereken herhangi bir şey olarak kullanılan esnek saklama kaplarıdır.',
       'Assumption that projects are default visible to any user when created.' => 'Projelerin, oluşturulduğunda herhangi bir kullanıcı tarafından varsayılan olarak görülebilir olduğu varsayımı.',
       'Reef' => 'Resif',
@@ -263,6 +268,7 @@ final class PhabricatorProjectTr
       'Save Column' => 'Sütunu Kaydet',
       'Project icons must have unique keys, but two icons share the same key ("%s").' => 'Proje simgeleri benzersiz anahtarlara sahip olmalı, ancak iki simge aynı anahtarı paylaşıyor ("%s").',
       '%s created this trigger.' => '%s bu tetikleyiciyi oluşturdu.',
+      'Change task status to %s.' => 'Görev durumunu %s olarak değiştir.',
       'This function allows you to find results which are not in one or more projects. For example, use this query to find results which are not associated with a specific project:
     > not(vanilla)
     You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
@@ -274,6 +280,7 @@ final class PhabricatorProjectTr
     > not(vanilla), not(chocolate)
     Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz. Örneğin, hata olmayan iOS sonuçlarını bulmak için bu sorguyu kullanın:
     > ios, not(bug)',
+      'Closed Tasks' => 'Kapalı Görevler',
       'Add project tags: %s.' => 'Proje etiketi ekle: %s',
       'Into The Expanse' => 'Genişlemenin İçine',
       '%s added %d project member(s): %s.' => '%s, %s proje üyesi ekledi: %s.',
@@ -603,6 +610,7 @@ final class PhabricatorProjectTr
       '%s set the icon for %s to %s.' => '%s, simgesini %s ile %s ayarlandı.',
       'Watching a project will let you monitor it closely. You will receive email and notifications about changes to every object tagged with projects you watch.' => 'Bir projeyi izlemek onu yakından izlemenize izin verecektir. İzlediğiniz projelerle etiketlenen her nesnede yapılan değişikliklerle ilgili e-posta ve bildirimler alacaksınız.',
       'Play sound' => 'Sesi oynat',
+      'Update' => 'Güncelle',
       'Browse Only' => 'Yalnızca Göz At',
       '%s removed %d %s hashtag(s): %s.' => '%s, %s %s kare kaldırıldı: %s.',
       '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s, %s projeyi düzenledi, %s eklendi; %s; %s kaldırıldı: %s.',

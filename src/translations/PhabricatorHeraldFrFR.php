@@ -201,7 +201,7 @@ final class PhabricatorHeraldFrFR
       'Edit Webhook' => 'Modifier le point d\'ancrage web',
       'No implementation is available for rule "%s".' => 'Aucune mise en œuvre disponible pour la règle « %s ».',
       'Herald rules will not trigger until tracking is enabled.' => 'Les règles Herald ne s’enclencheront pas avant l’activation du suivi.',
-      'Edit Webhook: %s' => 'Modifier le point d\'ancrage web: %s',
+      'Edit Webhook: %s' => 'Modifier le point d\'ancrage web : %s',
       'Create Herald Rule: %s' => 'Créer la règle Herald : %s',
       'Global Herald rules can be edited by users with the "Can Manage Global Rules" Herald application permission.' => 'Les règles Herald globales peuvent être modifiées pas les utilisateurs ayant le droit d’application Herald « Peut gérer des règles globales ».',
       '%s (Disabled)' => '%s (désactivé)',

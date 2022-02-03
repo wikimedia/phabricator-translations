@@ -11,7 +11,7 @@ final class PhabricatorMetaTr
     return array(
       'Information' => 'Bilgi',
       'This application cannot be uninstalled, because it is required for Phabricator to work.' => 'Bu uygulama, Phabricator\'un çalışması için gerekli olduğu için kaldırılamaz.',
-      'Syntax' => 'Syntax',
+      'Syntax' => 'Sözdizim',
       'You cannot install an installed application.' => 'Zaten yüklü olan bir uygulamayı yükleyemezsiniz.',
       'Show First-Party Applications' => 'Birinci Taraf Uygulamaları Göster',
       'Create Application' => 'Uygulama Oluştur',

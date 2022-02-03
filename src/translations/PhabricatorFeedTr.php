@@ -38,6 +38,7 @@ final class PhabricatorFeedTr
       'No Stories.' => 'Hikaye Yok.',
       'Story contains only the title of the story' => 'Hikaye yalnızca hikayenin başlığını içerir',
       'Unsupported view type, possibles are: %s' => 'Desteklenmeyen görünüm türü, olasılıklar: %s',
+      'Object Types' => 'Nesne Türleri',
       'Transaction Logs' => 'İşlem Kütüğü',
       'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.' => '"%s" işaretleme alan anahtarını almaya çalışıyor, ancak bu yayın öyküsü oluşturulmasını istemedi.',
       'Feed Stories' => 'Yayın Hikayeleri',

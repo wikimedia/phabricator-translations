@@ -116,6 +116,7 @@ final class PhabricatorManiphestEn
       'Bulk Edit Selected »' => 'Bulk Edit Selected »',
       'No tasks found.' => 'No tasks found.',
       'Can Bulk Edit Tasks' => 'Can Bulk Edit Tasks',
+      'project must be a valid phid or hashtag.' => 'project must be a valid phid or hashtag.',
       'Finished' => 'Finished',
       'Estimated number of hours this will take.' => 'Estimated number of hours this will take.',
       '(Up For Grabs)' => '(Up For Grabs)',
@@ -229,6 +230,7 @@ final class PhabricatorManiphestEn
       '%s added %s revision(s): %s.' => '%s added %s revision(s): %s.',
       '(Ungrouped)' => '(Ungrouped)',
       'Task' => 'Task',
+      'This method is new and unstable.' => 'This method is new and unstable.',
       'Test rules which run when a task is created or updated.' => 'Test rules which run when a task is created or updated.',
       'React to tasks being created or updated.' => 'React to tasks being created or updated.',
       'Blocker' => 'Blocker',
@@ -300,6 +302,9 @@ final class PhabricatorManiphestEn
       'Default edit policy for newly created tasks.' => 'Default edit policy for newly created tasks.',
       'Change the priority of a task.' => 'Change the priority of a task.',
       '%s closed %s, a subtask of %s, as %s.' => '%s closed %s, a subtask of %s, as %s.',
+      'Retrieve Maniphest task transactions for tasks that are now
+         or were previously in a given project.' => 'Retrieve Maniphest task transactions for tasks that are now
+         or were previously in a given project.',
       'The source task has had the destination task closed as a duplicate and merged into it.' => 'The source task has had the destination task closed as a duplicate and merged into it.',
       'Mixture of PHIDs, IDs and monograms.' => 'Mixture of PHIDs, IDs and monograms.',
       'Send email to these addresses to create tasks. %s' => 'Send email to these addresses to create tasks. %s',

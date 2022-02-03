@@ -34,6 +34,7 @@ final class PhabricatorRepositoryFrFR
       '%s removed %s as the default branch.' => '%s a supprimé la branche par défaut %s .',
       'Pusher PHID' => 'PHID de la personne qui a poussé',
       'Create a new Mercurial repository.' => 'Créer un nouveau dépôt Mercurial.',
+      'Expression "%s" is not a valid regular expression. Note that you must include delimiters.' => 'L\'expression « %s » n\'est pas une expression régulière valide. Notez que vous devez inclure les délimiteurs.',
       'No support yet.' => 'Pas encore implémenté.',
       '%s changed the filesize limit for this repository from %s bytes to %s bytes.' => '%s a modifé la limite de la taille maximale des fichiers pour ce dépôt de %s octets à %s bytes.',
       '%s set the repository "Import Only" path to %s.' => '%s a défini le chemin d\' « Importation seulement » à %s .',

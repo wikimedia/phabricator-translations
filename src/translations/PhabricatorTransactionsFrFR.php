@@ -11,6 +11,7 @@ final class PhabricatorTransactionsFrFR
     return array(
       'Lock / Hide Fields' => 'Verrouiller / Cacher des champs',
       'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.' => 'Vous n\'avez aucun facteur MFA attaché à votre compte, vous ne pouvez donc pas signer ce groupe de transactions avec MFA. Ajoutez MFA à votre compte dans la configuration.',
+      'Unmark as "Edit" Form' => 'Démarquer comme formulaire de "Modification"',
       'To silence this edit, run this command:' => 'Pour faire taire cette modification, exécutez cette commande:',
       '%s added a comment.' => '%s a ajouté un commentaire.',
       'Empty Comment' => 'Commentaire vide',
@@ -28,6 +29,8 @@ final class PhabricatorTransactionsFrFR
       'SearchEngine class to export data from.' => 'Classe SearchEngine pour exporter les données.',
       '%s added %s file(s): %s.' => '%s a ajouté %s fichier(s) : %s.',
       'In %s, %s wrote:' => 'Dans %s, %s a écrit :',
+      'Unmark as Create Form' => 'Démarquer comme formulaire de création',
+      'Mark as Edit Form' => 'Marquer comme formulaire de modification',
       '%s changed the default value for field %s.' => '%s a modifié la valeur par défaut du champ %s.',
       '%s marked %s inline comment(s) as done.' => '%s a marqué %s commentaire(s) en ligne comme fait(s).',
       'Email Body Text' => 'Texte du corps du courriel',
@@ -120,6 +123,7 @@ final class PhabricatorTransactionsFrFR
       '%s created %s in the %s space.' => '%s a créé %s dans l\'espace %s .',
       '%s added this form to the "Create" menu.' => '%s a ajouté ce formulaire au menu  « Création » .',
       'You will be required to provide multi-factor credentials to make changes.' => 'Vous devrez fournir les certificats multi-facteurs pour faire des modifications.',
+      'Unmark as Edit Form' => 'Démarquer comme formulaire de modification',
       'No Default Create Forms' => 'Aucun formulaire de création par défaut',
       'Subtype configuration is invalid: subtype with key "%s" specifies both child subtypes and child forms. Specify one or the other, but not both.' => 'La configuration du sous-type est non valide: le sous-type ayant pour clé « %s » spécifie à la fois des sous-types et des formulaires enfants. Choisissez l\'un ou l\'autre, mais non pas les deux.',
       'You can not sign a transaction group that has no other effects.' => 'Vous ne pouvez pas signer un groupe de transactions qui n\'a pas d\'autres effets.',
@@ -139,7 +143,7 @@ final class PhabricatorTransactionsFrFR
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => 'L\'extension « %s » définit un goupe d\'édition de masse avec la même clé (« %s ») que l\'éditeur principal ou une autre extension. Chaque groupe d\'édition de masse doit avoir une clé unique.',
       'EMAIL PREFERENCES' => 'PRÉFÉRENCES DE COURRIEL',
       '%s edited this object (transaction type "%s").' => '%s a modifié cet objet (type de transaction « %s »).',
-      'Mark as "Edit" Form' => 'Marquer comme formulaire de « Modification »',
+      'Mark as "Edit" Form' => 'Marquer comme formulaire de "Modification"',
       '%s edited watcher(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs observateurs pour %s, ajouté %s : %s; supprimé %s : %s.',
       'You do not have permission to configure forms for this application.' => 'Vous n\'avez pas l\'autorisation de configurer les formulaires pour cette application.',
       'Configure bulk job __id__ to run silently (without sending mail or publishing notifications).' => 'Configurer la tâche de travail en masse __id__ pour qu\'elle s\'exécute en silence (sans envoyer de courriel ni publier de notification).',
@@ -153,6 +157,7 @@ final class PhabricatorTransactionsFrFR
           '%s a ajouté %s abonnés : %s.',
         ),
       ),
+      'Unmark as "Create" Form' => 'Démarquer comme formulaire de "Création"',
       '%s created this object in space %s.' => '%s a créé cet objet dans l’espace %s.',
       '%s removed %s watcher(s) for %s: %s.' => array(
         array(
@@ -226,6 +231,7 @@ final class PhabricatorTransactionsFrFR
       'Remove Comment' => 'Retirer le commentaire',
       'Export data to a flat file (JSON, CSV, Excel, etc).' => 'Exporter les données vers un fichier à plat (JSON, CSV, Excel, etc).',
       'Edit Forms' => 'Formulaires d\'édition',
+      'Mark as Create Form' => 'Marquer comme formulaire de création',
       '%s edited file(s), added %s: %s; removed %s: %s.' => '%s fichier(s) modifié(s), ajoouté(s) %s: %s; supprimé(s) %s: %s.',
       '%s added %s subscriber(s): %s.' => array(
         array(
@@ -270,7 +276,7 @@ final class PhabricatorTransactionsFrFR
       '%s signed these changes with MFA.' => '%s a signé ces modifications avec MFA.',
       'SearchEngine class ("%s") does not support data export.' => 'La classe SearchEngine (« %s ») ne supporte pas l\'exportation de données.',
       'Multiple search engines match "%s": %s.' => 'Plusieurs moteurs de recherche ont trouvé la concordance « %s » : %s.',
-      'Mark as "Create" Form' => 'Marquer comme « Créer » un formulaire',
+      'Mark as "Create" Form' => 'Marquer comme formulaire de "Création"',
       'Failed to base64_decode() value for key "%s".' => 'Erreur de valeur dans base64_decode() pour la clé « %s ».',
       'This EditField does not provide a Bulk EditType with key "%s".' => 'Ce champ d\'édition ne génère pas un type d\'édition de masse ayant pour clé « %s ».',
       '%s marked %s inline comment(s) as done and %s inline comment(s) as not done.' => array(

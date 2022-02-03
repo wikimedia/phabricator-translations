@@ -9,7 +9,7 @@ final class PhabricatorConduitFrFR
 
   protected function getTranslations() {
     return array(
-      'Support for ConduitResultInterface' => 'Prise en charge de  ConduitResultInterface',
+      'Support for ConduitResultInterface' => 'Prise en charge de ConduitResultInterface',
       'Conduit Logs' => 'Journaux de Conduit',
       'Use form-encoded data to submit parameters to Conduit endpoints. Sending a JSON-encoded body and setting \'Content-Type\': \'application/json\' is not currently supported.' => 'Utilisez les données encodées de formulaire pour soumettre les paramètres aux points de terminaison de Conduit. L’envoi d’un contenu encodé JSON avec « Content-Type:  application/json » n’est  actuellement pas pris en charge.',
       'Session key is invalid.' => 'La clé de session n’est pas valide.',

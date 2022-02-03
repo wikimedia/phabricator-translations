@@ -56,7 +56,7 @@ final class PhabricatorCoreEl
       'Author: %s' => 'Συγγραφέας: %s',
       'Revoke' => 'Ανάκληση',
       'Administrators' => 'Διαχειριστές',
-      'Normalization of \'%s\'' => 'Κανονικοποίηση του \'%s\'.',
+      'Normalization of \'%s\'' => 'Κανονικοποίηση του \'%s\'',
       'Merchant' => 'Έμπορος',
       '%s removed %s as %s.' => 'Ο %s αφαίρεσε τον %s ως %s.',
       'Overview' => 'Επισκόπηση',

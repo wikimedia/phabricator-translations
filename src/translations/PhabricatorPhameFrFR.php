@@ -136,6 +136,7 @@ final class PhabricatorPhameFrFR
       'Body' => 'Corps',
       'Post' => 'Envoyer',
       'Visibility' => 'Visibilité',
+      'This blog is not visible to logged out users, so it can not be visited from a custom domain.' => 'Ce blog n\'est pas visible par les utilisateurs non connectés, il ne peut donc pas être accédé à partir d\'un domaine personnalisé.',
       'About %s' => 'À propos de %s',
       'Upload Header' => 'Entête de téléversement',
       'Subtitle' => 'Sous-titre',

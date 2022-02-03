@@ -683,7 +683,7 @@ final class PhabricatorConfigFrFR
     Les utilisateurs ne seront autorisés à s’inscrire qu’en utilisant des adresses de messagerie d’un de ces domaines, et ne pourront ajouter de nouvelles adresses de messagerie que pour ces domaines. Si vous le configurez, cela implique @{config:auth.require-email-verification}.
     Vous devez omettre le « @ » des domaines. Notez que le domaine doit correspondre exactement. Si vous autorisez « example.com », cela autorise « joe@example.com » mais rejette « joe@mail.example.com ».',
       'Show unresolved issues with setup and configuration.' => 'Afficher les problèmes non résolus dans l’installation et la configuration.',
-      'Options for Phurl.' => 'Options pour Phurl',
+      'Options for Phurl.' => 'Options pour Phurl.',
       'IMPORTANT: The upstream does not provide support for prototype applications.
     Phabricator includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing Phabricator or are interested in previewing upcoming features.
     To learn more about prototypes, see [[ %s | %s ]].
@@ -1035,6 +1035,7 @@ final class PhabricatorConfigFrFR
       'Use specific endpoint' => 'Utiliser le point de terminaison spécifique',
       'Configure Recaptcha captchas.' => 'Configurer les captchas de Recaptcha.',
       'Report this Issue to the Upstream' => 'Signaler ce problème en amont',
+      'Disable SSH error log.' => 'Désactiver le journal des erreurs SSH.',
       'Options relating to PHD (daemons).' => 'Options relatives à PHD (démons).',
       'Repos' => 'Dépôts',
       'Database configuration.' => 'Configuration de la base de données.',

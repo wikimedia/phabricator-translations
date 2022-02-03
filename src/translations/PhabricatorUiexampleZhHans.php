@@ -192,7 +192,6 @@ final class PhabricatorUiexampleZhHans
       'Disabled Object' => '禁用的对象',
       'Holidays' => '假日',
       'Long Text Body' => '长文本正文',
-      '<script>alert(1);</script>' => '<script>提醒（1）；</script>',
       'Remarkup' => '附注',
       'Normal Object' => '一般对象',
       'Token Story' => '令牌故事',

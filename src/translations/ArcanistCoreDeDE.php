@@ -10,7 +10,9 @@ final class ArcanistCoreDeDE
   protected function getTranslations() {
     return array(
       'Aborted due to file upload failure. You can use %s to skip binary uploads.' => 'Wegen eines Uploadfehler abgebrochen. Du kannst %s benutzen, um binäre Uploads zu überspringen.',
+      'Ref "%s" does not exist in remote "%s".' => 'Der Zweig "%s" existiert nicht im remoten "%s".',
       'This working copy is associated with the %s repository.' => 'Diese Arbeitskopie ist mit dem Repository %s verknüpft.',
+      'Shortening of %s' => 'Kürzung von %s',
       'Should throw on empty input' => 'Soll einen Fehler bei fehlender Eingabe auslösen',
       'Lint Disabler' => 'Lint-Deaktivierer',
       'Call Conduit API methods.' => 'Rufe Conduit-API-Methoden auf.',

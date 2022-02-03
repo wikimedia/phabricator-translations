@@ -58,7 +58,6 @@ final class PhabricatorUiexampleKoKR
       'Default Project Profile Image' => '기본 프로젝트 프로파일 그림',
       'this is a pasta' => '이것은 파스타입니다',
       'Holidays' => '휴일',
-      '<script>alert(1);</script>' => '<script>alert(1);</script>',
       'Debugging' => '디버깅',
       'General' => '일반',
       'Smith' => '스미스',

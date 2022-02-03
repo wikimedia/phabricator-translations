@@ -15,6 +15,7 @@ final class PhabricatorPolicyTr
       'is waning' => 'azalıyor',
       'Required Capabilities on Other Objects' => 'Diğer Nesnelerde Gerekli Olanaklar',
       'Logged in users can take this action.' => 'Giriş yapan kullanıcılar bu işlemi yapabilir.',
+      'Object URI' => 'Nesne URI',
       'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. 
     This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Phabricator, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.
     Bu ayar, bu politikaların "kilitlenmesini" sağlar, böylece politika başına başka düzenleme yapılamaz.',
@@ -82,6 +83,7 @@ final class PhabricatorPolicyTr
       'Capability "%s" does not exist.' => '"%s" yeteneği mevcut değil.',
       'OBJECT' => 'NESNE',
       'Note:' => 'Not:',
+      'You do not have permission to view policy details.' => 'Politika ayrıntılarını görüntülemek için izniniz yok.',
       'Can Edit' => 'Düzenleyebilir',
       'Offset pages through visible objects only.' => 'Sayfaları yalnızca görünür nesneler üzerinden kaydırın.',
       'Edit Policy' => 'Politikayı Düzenle',

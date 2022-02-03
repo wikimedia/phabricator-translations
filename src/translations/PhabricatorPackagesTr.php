@@ -33,7 +33,7 @@ final class PhabricatorPackagesTr
       'The package key "%s" is already in use by another package provided by this publisher.' => '"%s" paket anahtarı zaten bu yayıncı tarafından sağlanan başka bir paket tarafından kullanılıyor.',
       'Unique key to identify the package.' => 'Paketi tanımlamak için benzersiz bir anahtar.',
       'Search for publishers by name substring.' => 'Ad alt dizgisine göre yayıncıları arayın.',
-      'Publish Software' => 'Yazılım Yayınla',
+      'Publish Software' => 'Yazılım Yayımla',
       'Default edit policy for newly created publishers.' => 'Yeni oluşturulan yayıncılar için varsayılan düzenleme politikası.',
       'All Versions' => 'Tüm Sürümler',
       'Version name "%s" is not valid: version names may not start or end with a period or hyphen.' => '"%s" sürüm adı geçerli değil: sürüm adları nokta veya kısa çizgi ile başlayamaz veya bitmeyebilir.',
