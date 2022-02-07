@@ -20,6 +20,7 @@
 	"0034df47f76f0aef": "$1 kısaltması",
 	"0036a9c91e10fbf2": "Boş veri girişine verilmeli",
 	"008e572e126baa15": "Lint Disabler",
+	"0099091670df1068": "\"posix_getpgid(...)\" çağrısı başarısız!",
 	"0130cf996815555d": "\"$1\" sembolü geçerli bir revizyonu tanımlamıyor.",
 	"013b0fec777a1671": "Yazar ile ilgili dosyalar için bir linter.",
 	"013ec8933730fcd3": "\"$1\" ($2)",
