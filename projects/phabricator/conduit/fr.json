@@ -83,6 +83,7 @@
 	"665dbb890098bbd2": "Un PHID.",
 	"6a538ed03258aa8a": "Liste de chaînes.",
 	"6b70bd7f6659ea45": "Les versions du client et du serveur ne correspondent pas. Mettez à jour votre client.",
+	"6c174513db44e3a4": "La clé qui a signé cette requête est associée à un dispositif désactivé (« $1 »).",
 	"6d315776e44f9a3c": "Le jeton de défi avec lequel vous vous authentifiez est en dehors de la plage de durée permise. Soit votre horloge système est déréglée, soit vous exécutez une attaque de rejeu.",
 	"6ec35d609231fa7e": "Vraiment résilier ce jeton ? Tout système utilisant ce jeton ne pourra plus faire de requêtes à l’API.",
 	"6ec67e47b05f64f5": "La méthode de l’API Conduit « $1 » n’existe pas.",

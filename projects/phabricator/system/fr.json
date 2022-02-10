@@ -44,6 +44,7 @@
 	"65fca1e4d02e4304": "Journaux de destruction",
 	"663a7169eba04995": "Cela indique probablement une mauvaise configuration ou une interruption majeure du service.",
 	"6a1114f49dc5b54a": "Objets en cours de destruction...",
+	"6b05887ec4628b19": "Afficher l’index du chemin affecté",
 	"6b7eda7cc1fb653a": "Le mode lecture seule a été explicitement activé par un administrateur humain. Vous pouvez donc obtenir plus d’informations sur cette activation en reculant votre chaise de bureau et en criant « Hé ! Pourquoi Phabricator est-il en mode lecture seule ??! » avec votre plus forte voix extérieure.",
 	"6bebb0e6346bd254": "Ce mode est actif car aucune base de données n’a de rôle « $1 » dans l’option de configuration « $2 ».",
 	"7056a7ded33bce38": "Ceci peut aussi signifier qu’une erreur plus grave est survenue. Si l’interruption ne se résout pas seule, Phabricator détectera bientôt la panne persistante et activera le mode lecture seule jusqu’à ce que le problème soit résolu.",

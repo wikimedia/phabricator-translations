@@ -613,6 +613,7 @@
 	"a9b6d7f6802718b0": "Permettre aux utilisateurs de supprimer le lien des certificats de compte pour ce fournisseur depuis des comptes Phabricator existants. Si vous désactivez cela, les comptes Phabricator seront liés de façon permanente aux comptes du fournisseur.",
 	"a9b893701eff7096": "Impossible de trouver le compte LDAP !",
 	"a9c31b2ba160ccc6": "Ce processus de travail générera une nouvelle paire de clés SSH, ajoutera la clé publique, et vous laissera télécharger la clé privée.",
+	"aa950682392885ab": "Pour configurer Facebook OAuth, créez une nouvelle application de Facebook ici :\n\nhttps://developers.facebook.com/apps\n\nVous devrez utiliser les paramètres suivants dans votre application :\n\n$1\n\n\nAprès avoir créé votre nouvelle application, copiez les valeurs de *App ID** et de *App Secret** dans les champs sus-mentionnés.",
 	"aaa365c48e86a4fe": "Trop d’échecs de connexion récemment. Vous devez soumettre un CAPTCHA avec votre demande de connexion.",
 	"aaafe971de1f3fcf": "Le fichier de clé pkcs8 « $1 » n’existe pas !",
 	"aaf6ad0fa99fb063": "Pour configurer OAuth de Twitch.tv, créer une nouvelle application ici :\n\nhttp://www.twitch.tv/settings/applications\n\nLors de sa création, utiliser ces paramètres :\n\n  - **URI de redirection :** La mettre à : `$1`\n\nAprès avoir terminé al configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus (vous devrez générer le secret du client en cliquant d’abord sur 'Nouveau Secret').",

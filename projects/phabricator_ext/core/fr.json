@@ -4,6 +4,7 @@
 			"Jhammock",
 			"LittleNemo",
 			"Thibaut120094",
+			"Urhixidur",
 			"Verdy p",
 			"Wladek92"
 		]
@@ -141,6 +142,7 @@
 	"f4fd5c0c5a1dfe1e": "Gerrit",
 	"f833adbd55be04c8": "$1 ligne(s) ajoutée(s)",
 	"f888fcf4b493b0b9": "Si quelque chose est assez grave pour justifier un renversement, vous devriez alors la porter à l’attention des développeurs sur le [[ https://www.mediawiki.org/wiki/mediawiki_on_irc|canal IRC #wikimedia-operations]].",
+	"fa24d17f881e1087": "Si vous avez un changement risqué dans le train de cette semaine, ajoutez un commentaire à cette tâche en utilisant les icônes {icon train spin}{icon fire color=red} [[https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template|Modèle de rustine risquée]]",
 	"fc5658eac133d3fc": "Lien vers le graphique de consommation",
 	"fce06e20e5f7f74a": "Commentaires",
 	"ff51f6bbe14ebe12": "Télécharger le tar.gz",

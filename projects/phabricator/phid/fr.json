@@ -3,6 +3,7 @@
 		"authors": [
 			"Derugon",
 			"Motla",
+			"Urhixidur",
 			"Verdy p",
 			"Wladek92",
 			"Zarisi"
@@ -13,6 +14,8 @@
 	"131ada2c91031e5e": "Les références doivent utiliser l'afficheur des références du cache.",
 	"1498233146466f1f": "$1 restreint",
 	"1db177fa2f0941e1": "Tentative pour muter un $1, mais cela n'est pas permis; les listes de références ne sont pas mutables.",
+	"28c017ce59a791e5": "Tentative de test de capacité « $1 » pour un indicateur de type « $2 », mais cette capacité n’y est pas attachée.",
+	"367af0d526a97933": "L’objet (de classe « $1 ») n’a aucun PHID, de sorte que les indicateurs ne peuvent pas interagir avec ses capacités potentielles.",
 	"40acf4c5cd86049e": "La classe « $2 » de $1 contient une propriété $3 incorrecte. Les constantes PHID doivent être des chaînes de caractères composées de 4 majuscules.",
 	"40f8045ec98d286b": "Tentative de chargement du PHID « $1 », mais il n’a été demandé par aucune liste de pointeurs.",
 	"4270ca6ab8fde311": "Les objets que vous avez listés comportent des objets d'un mauvais type ($1)",
@@ -24,6 +27,7 @@
 	"8c323456ce8fea71": "Objet inconnu ($1)",
 	"9dc304f07ed386a3": "Les objets que vous avez listés comportent des objets qui n'existe pas ($1)",
 	"ad333443813e6a77": "Tentative de création d’une nouvelle sous-liste d’une liste de pointeurs existante, mais le PHID \"$1\" n’apparaît pas dans la liste parent.",
+	"cbee6361b4dd6129": "Tentative d’attachement de la capacité (« $1 ») à prendre en charge par l’objet (« $2 »), mais cet indicateur (de type « $3 ») ne peut pas avoir de capacités.",
 	"d0636307d6924a2a": "Remplacé par 'phid.query'.",
 	"ea5edb74faa34ae6": "Les objets que vous avez listés comportent des objets d'un mauvais type ($1) et des objets qui n'existent pas ($2).",
 	"ebf8f6f3f90a4f6f": "Pas d'objets de ce type.",
