@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"00a64a49b8cbf97e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/xaction/PhabricatorAuthFactorProviderNameTransaction.php$32 PhabricatorAuthFactorProviderNameTransaction.php:32]",

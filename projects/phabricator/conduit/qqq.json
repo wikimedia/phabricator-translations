@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"0008bde8eebd806d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/query/ConduitResultSearchEngineExtension.php$17 ConduitResultSearchEngineExtension.php:17]",
