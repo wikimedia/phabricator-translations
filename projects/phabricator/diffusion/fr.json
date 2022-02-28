@@ -612,7 +612,7 @@
 	"a6efd5a8919c14a9": "Vous ne pouvez pas définir cet URI pour utiliser Observe IO parce qu’un autre URI pour ce dépôt est déjà configuré en mode lecture/écriture IO. Un dépôt ne peut pas en même temps être modifiable et observer un serveur distant. Désactiver d’abord IO pour l’autre URI.",
 	"a70170630b2c0d38": "Copie de travail OK",
 	"a71cf0eb0f94ba0b": "$1 a ajouté $2 modification{{PLURAL:$2||s}} annulée{{PLURAL:$2||s}} pour $3: $4.",
-	"a72502067518684f": "Etat",
+	"a72502067518684f": "État",
 	"a7881cac6e64abca": "Intégrations",
 	"a7e173eaaa4995a9": "Aucune copie de travail locale",
 	"a7eaac88effee00b": "Désactiver l’auto-acceptation",

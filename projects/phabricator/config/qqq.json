@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Verdy p"
+		]
 	},
 	"00c94cc9d03ac122": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/PhabricatorConfigConsoleController.php$21 PhabricatorConfigConsoleController.php:21]",
 	"00e372a760e50279": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/check/PhabricatorSecuritySetupCheck.php$61 PhabricatorSecuritySetupCheck.php:61]",
@@ -143,7 +145,7 @@
 	"2ad965e7357d3c05": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorRecaptchaConfigOptions.php$41 PhabricatorRecaptchaConfigOptions.php:41]",
 	"2aef4eb2f4ce4e3c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigServicesController.php$15 PhabricatorConfigServicesController.php:15]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigClusterDatabasesController.php$9 PhabricatorConfigClusterDatabasesController.php:9]",
 	"2b41bfb7de9a0474": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/management/PhabricatorConfigManagementDeleteWorkflow.php$32 PhabricatorConfigManagementDeleteWorkflow.php:32]",
-	"2b4ca27129e4dd07": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigServicesController.php$50 PhabricatorConfigServicesController.php:50]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigClusterSearchController.php$7 PhabricatorConfigClusterSearchController.php:7]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigClusterSearchController.php$102 PhabricatorConfigClusterSearchController.php:102]",
+	"2b4ca27129e4dd07": "This is the name for a type of servers used for searches.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigServicesController.php$50 PhabricatorConfigServicesController.php:50]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigClusterSearchController.php$7 PhabricatorConfigClusterSearchController.php:7]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigClusterSearchController.php$102 PhabricatorConfigClusterSearchController.php:102]",
 	"2b8e49846ff2e912": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/check/PhabricatorMySQLSetupCheck.php$344 PhabricatorMySQLSetupCheck.php:344]",
 	"2bbdbea834a4f49f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorMetaMTAConfigOptions.php$224 PhabricatorMetaMTAConfigOptions.php:224]",
 	"2bd7ef8a551d5bf2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/check/PhabricatorMySQLSetupCheck.php$362 PhabricatorMySQLSetupCheck.php:362]",
