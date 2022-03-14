@@ -1161,7 +1161,7 @@
 	"9f8a2389a20ca075": "Utilisateur",
 	"9fc53e8a4a5a1cac": "Démarrage du processus.",
 	"9fdfbd37e107b3bc": "Nom d’entête pour : $1",
-	"9fe00acebc106e4d": "But",
+	"9fe00acebc106e4d": "Objectif",
 	"a01185e8e489e4d5": "Déclencher le détecteur comme si l’heure actuelle était l’heure programmée. Ceci vous permet de tester le comportement d’un déclencheur lors de son activation, soit passée ou à venir. Par défaut il s’agit de l’heure courante.",
 	"a03ea3773fc903ab": "Refus d’émettre la réponse avec un nom d’entête HTTP mal formaté : $1",
 	"a061106e963e1922": "$1 µs",
