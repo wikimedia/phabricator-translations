@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Verdy p"
+		]
 	},
 	"0eb5ed506e4923c2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$85 PhabricatorApplicationUninstallController.php:85]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$114 PhabricatorApplicationUninstallController.php:114]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/PHUIIconCircleView.php$101 PHUIIconCircleView.php:101]",
 	"13f5a9342308a4f0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$117 PhabricatorApplicationUninstallController.php:117]",
@@ -45,7 +47,7 @@
 	"9b12e7ec33bdb052": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationEmailCommandsController.php$125 PhabricatorApplicationEmailCommandsController.php:125]",
 	"9de39281631e684c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/editor/PhabricatorApplicationEditEngine.php$17 PhabricatorApplicationEditEngine.php:17]",
 	"a722f9fe33bdf0af": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/query/PhabricatorAppSearchEngine.php$149 PhabricatorAppSearchEngine.php:149]",
-	"a735da1d32d75e3e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$110 PhabricatorApplicationUninstallController.php:110]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationDetailViewController.php$180 PhabricatorApplicationDetailViewController.php:180]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationDetailViewController.php$204 PhabricatorApplicationDetailViewController.php:204]",
+	"a735da1d32d75e3e": "{{Identical|Uninstall}}\n\nUsed in:\n: [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$110 PhabricatorApplicationUninstallController.php:110]\n: [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationDetailViewController.php$180 PhabricatorApplicationDetailViewController.php:180]\n: [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationDetailViewController.php$204 PhabricatorApplicationDetailViewController.php:204]",
 	"a766812dcb994aed": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationEmailCommandsController.php$38 PhabricatorApplicationEmailCommandsController.php:38]",
 	"b2ebf2c968674391": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/xactions/PhabricatorApplicationPolicyChangeTransaction.php$103 PhabricatorApplicationPolicyChangeTransaction.php:103]",
 	"b824dffa82b93665": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/typeahead/PhabricatorApplicationDatasource.php$11 PhabricatorApplicationDatasource.php:11]",
