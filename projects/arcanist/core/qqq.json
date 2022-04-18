@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Verdy p"
 		]
 	},
 	"00003a701ef56dd7": "Variable Types: NONE.\nUsed in:\n\nArcanistDiffWorkflow.php:2558",
@@ -833,7 +834,7 @@
 	"4e34e9e3531ebfe1": "Used in:\n\nArcanistInstallCertificateWorkflow.php:127",
 	"4e40fce1bad2a33d": "Variable Types: NONE.\nUsed in:\n\nArcanistConfigurationManager.php:326",
 	"4e4e668a5e4ad3f8": "Variable Types: NONE.\nUsed in:\n\nPhutilJSONParserTestCase.php:40\nPhutilJSONParserTestCase.php:126",
-	"4e6302ed03494c90": "Used in:\n\nArcanistDiffWorkflow.php:2553",
+	"4e6302ed03494c90": "{{Identical|Continue}}\n\nUsed in:\n: ArcanistDiffWorkflow.php:2553",
 	"4e6cec00f9f66b77": "Used in:\n\nArcanistDiffWorkflow.php:2734",
 	"4ec4bf8a809a9f7e": "Used in:\n\nArcanistGitAPI.php:216",
 	"4f14da18e5084431": "Variable Types: NONE.\nUsed in:\n\nArcanistConsoleLintRenderer.php:44",
