@@ -514,7 +514,7 @@
 	"310449f605e0bfe3": "Variable Types: NONE.\nUsed in:\n\nArcanistLintMessageTestCase.php:75",
 	"3108ab90474d08ee": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\nArcanistUnitWorkflow.php:376",
 	"31182fe43c61912b": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nArcanistArrayCombineXHPASTLinterRule.php:35",
-	"3119f17b3b50c21d": "Used in:\n\nPhutilPhtTestCase.php:58",
+	"3119f17b3b50c21d": "'''FIXME''': see [[Thread:Support/About Phabricator:arcanist-core-3119f17b3b50c21d/en]]\n\nUsed in:\n* PhutilPhtTestCase.php:58",
 	"312cc1b44d3355bb": "Used in:\n\nArcanistAmendWorkflow.php:177",
 	"3134519876584aab": "Variable Types: NONE, NONE.\nUsed in:\n\nArcanistHLintLinter.php:81",
 	"313a35085f57409d": "Variable Types: NONE.\nUsed in:\n\nPhutilUTF8TestCase.php:645",
