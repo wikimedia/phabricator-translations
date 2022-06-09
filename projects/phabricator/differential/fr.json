@@ -841,7 +841,7 @@
 	"e666b8acf8ff5402": "Ces modifications ont fait échouer la construction.",
 	"e7cd06e0c6c24970": "Autoriser la réouverture",
 	"e7f61238140c57b0": "Ouvrir dans l'éditeur",
-	"e862e83bb73ef4ea": "Le bloc a un type de données « $1 » non supporté !",
+	"e862e83bb73ef4ea": "Le tronçon a un type de données « $1 » non pris en charge !",
 	"e91a1327db0e110b": "Utilisateur exact : utilisateur invalide",
 	"e9452d1754723156": "Vous ne pouvez pas demander des modifications pour une ébauche de révision.",
 	"e952e793e11e623f": "Actions réalisées pour vérifier le comportement de la modification.",

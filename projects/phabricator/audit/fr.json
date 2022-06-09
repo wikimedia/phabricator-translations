@@ -5,12 +5,13 @@
 			"Gomoko",
 			"Thibaut120094",
 			"TomT0m",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
 	"06a611b1ebbb1abd": "Une validation est créée.",
 	"099b14e7d52d3f8b": "UTILISATEURS",
-	"09aadb07f34da95b": "Trouver les validations avec des identifiants particuliers (en général, des hachages). Supporte les identifiants complets ou partiels (comme « abcd12340987… » ou « abcd1234 ») et les identifiants qualifiés ou non (comme « rXabcd1234 » ou « abcd1234 »).",
+	"09aadb07f34da95b": "Trouve des validations ayant des identifiants particuliers (en général, des hachages). Prend en charge les identifiants complets ou partiels (comme « abcd12340987… » ou « abcd1234 ») et les identifiants qualifiés ou non (comme « rXabcd1234 » ou « abcd1234 »).",
 	"0de6d35bf080350d": "$1 a renoncé à auditer $2.",
 	"0e9a10954f2571c8": "La date maximale spécifiée doit être postérieure à la date minimale spécifiée.",
 	"0eb70949c203d567": "Modification des validations de projets.",

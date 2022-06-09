@@ -3,6 +3,7 @@
 		"authors": [
 			"Gomoko",
 			"Thibaut120094",
+			"Urhixidur",
 			"Verdy p",
 			"Wladek92",
 			"Zarisi"
@@ -14,7 +15,7 @@
 	"0ef5d021f674ecb8": "Invoquer manuellement des analyseurs de faits.",
 	"1185578b1fb52e24": "L’argument « $1 » (en position « $2 ») de la fonction « $3 » n’est pas valide : $4",
 	"129085b61203d83c": "La valeur de l’argument « fait-clé » doit être une chaîne ; obtenu : $1.",
-	"1891c2c639dd8960": "Aucun moteur de faits ne supporte la génération de faits pour cet objet.",
+	"1891c2c639dd8960": "Aucun moteur de faits ne prend en charge la génération de faits pour cet objet.",
 	"23eb4d3f4155395a": "Y",
 	"284c0344ff71e3b4": "La valeur de l’argument « fonction » doit être une liste avec un nom de fonction ; une liste vite a été obtenue.",
 	"2fc2a64c6b08c082": "Le type d’argument « $1 » de fonction de graphique est inconnu. Les types valides sont : $2.",

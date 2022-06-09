@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Verdy p"
 		]
 	},
 	"00a3cc5b55d618dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacBindingEditEngine.php$144 AlmanacBindingEditEngine.php:144]",
@@ -151,13 +152,13 @@
 	"69e73ef8cd9ce230": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/servicetype/AlmanacDrydockPoolServiceType.php$8 AlmanacDrydockPoolServiceType.php:8]",
 	"6a336532e28aa911": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/xaction/AlmanacInterfaceDeviceTransaction.php$51 AlmanacInterfaceDeviceTransaction.php:51]",
 	"6ab7f4bf20d650e2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/util/AlmanacNames.php$31 AlmanacNames.php:31]",
-	"6bb011630498ca8e": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/phid/AlmanacNamespacePHIDType.php$38 AlmanacNamespacePHIDType.php:38]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/query/AlmanacNamespaceSearchEngine.php$76 AlmanacNamespaceSearchEngine.php:76]",
+	"6bb011630498ca8e": "Variable Types: NONE.\nUsed in:\n:[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/phid/AlmanacNamespacePHIDType.php$38 AlmanacNamespacePHIDType.php:38]\n:[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/query/AlmanacNamespaceSearchEngine.php$76 AlmanacNamespaceSearchEngine.php:76]\n{{Identical|Namespace}}",
 	"6c397ced6bf83d38": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacInterfaceEditEngine.php$31 AlmanacInterfaceEditEngine.php:31]",
 	"6ca6d68fe8f4921a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacInterfaceDeleteController.php$31 AlmanacInterfaceDeleteController.php:31]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/xaction/AlmanacInterfaceDestroyTransaction.php$24 AlmanacInterfaceDestroyTransaction.php:24]",
 	"6e15379fd7d66cdc": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacServiceEditEngine.php$95 AlmanacServiceEditEngine.php:95]",
 	"6eabe52595c2f318": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacConsoleController.php$73 AlmanacConsoleController.php:73]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacConsoleController.php$84 AlmanacConsoleController.php:84]",
 	"6ebc82024275a0e4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/typeahead/AlmanacInterfaceDatasource.php$7 AlmanacInterfaceDatasource.php:7]",
-	"6f4d949c6d80d44c": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacNamespaceViewController.php$22 AlmanacNamespaceViewController.php:22]",
+	"6f4d949c6d80d44c": "Variable Types: NONE.\nUsed in:\n:[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacNamespaceViewController.php$22 AlmanacNamespaceViewController.php:22]\n{{Identical|Namespace}}",
 	"6fa2da707b37aedf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/phid/AlmanacBindingPHIDType.php$8 AlmanacBindingPHIDType.php:8]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacBindingEditor.php$7 AlmanacBindingEditor.php:7]",
 	"6ff44bab3dae76ef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/xaction/AlmanacInterfacePortTransaction.php$44 AlmanacInterfacePortTransaction.php:44]",
 	"70a02e66bd9951d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/engineextension/AlmanacPropertiesEditEngineExtension.php$39 AlmanacPropertiesEditEngineExtension.php:39]",
@@ -262,7 +263,7 @@
 	"bca35cad89c68fcb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/storage/AlmanacDevice.php$280 AlmanacDevice.php:280]",
 	"bcd8e9ba7edf556f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/management/AlmanacManagementRegisterWorkflow.php$174 AlmanacManagementRegisterWorkflow.php:174]",
 	"bd6ca7516b1c0d4f": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/xaction/AlmanacInterfaceDeviceTransaction.php$18 AlmanacInterfaceDeviceTransaction.php:18]",
-	"be09a63bd1995e99": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacConsoleController.php$50 AlmanacConsoleController.php:50]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacNamespaceController.php$9 AlmanacNamespaceController.php:9]",
+	"be09a63bd1995e99": "Used in:\n:[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacConsoleController.php$50 AlmanacConsoleController.php:50]\n:[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacNamespaceController.php$9 AlmanacNamespaceController.php:9]\n{{Identical|Namespace}}",
 	"bf1487561d0c93c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/controller/AlmanacConsoleController.php$35 AlmanacConsoleController.php:35]",
 	"bfd3d979c1349947": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/query/AlmanacServiceSearchEngine.php$70 AlmanacServiceSearchEngine.php:70]",
 	"c24f4992c4506bed": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/servicetype/AlmanacDrydockPoolServiceType.php$17 AlmanacDrydockPoolServiceType.php:17]",
