@@ -71,7 +71,7 @@
 	"68e50bfeb6b71437": "Limiter le nombre de lignes de transaction à traiter. Par défaut : 10 000",
 	"69c910ba4808a06d": "objectType est obligatoire.",
 	"6aab8dd16ee10d3c": "Noms LDAP inconnus ou manquants : $1",
-	"6b4b9ec590034229": "NOTE : copiez les clés générées par l’enregistrement du consommateur OAuth Mediawiki et collez-les ici.",
+	"6b4b9ec590034229": "NOTE : copiez les clés générées par l’enregistrement du consommateur OAuth MediaWiki et collez-les ici.",
 	"6dedd7fb2950f1f3": "Classe de règle « $1 » incorrecte !",
 	"6e36be07e5dab13f": "Outil d’annulation de transaction de Phabricator.",
 	"6f34fd85d107c51b": "Activer ceci pour utiliser la recherche backend expérimentale en texte intégral ElasticSearch.",

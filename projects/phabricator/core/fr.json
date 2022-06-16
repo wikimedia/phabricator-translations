@@ -372,7 +372,7 @@
 	"3320c5fd0e0b24be": "Cette partie n’est pas une variable !",
 	"336d16952cd755ac": "Certains tests ont appelé $1, mais il détient toujours une référence sur l’environnement ciblé !",
 	"33a405066f566545": "L’élément de menu « $1 » n’est pas un libellé !",
-	"33c5225e7c12b757": "Menu d’édition",
+	"33c5225e7c12b757": "Modifier le menu",
 	"33d30632848d3fd0": "En attente",
 	"33fbdc58f1843fbb": "Vous n’avez pas encore initialisé la base de données. Vous devez initialiser la base de données avant de pouvoir ajuster le schéma. Lancez « $1 » pour initialiser la base de données.",
 	"342fa2580c88659a": "Utilisateur actif",
