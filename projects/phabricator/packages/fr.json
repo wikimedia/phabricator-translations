@@ -67,7 +67,7 @@
 	"a3fdfbfe3ce45efb": "Appliquer les transactions pour créer un nouveau paquetage ou en modifier un existant.",
 	"a8284e9e29a06107": "Aucune version trouvée.",
 	"a8303693d74b54e5": "Politique d’édition de paquetage par défaut",
-	"a966cc82de2e498f": "Le paquetage « $1 » est incorrect : le paquetage doit exister et vous devez avoir la permission de le modifier afin de créer un nouveau paquetage.",
+	"a966cc82de2e498f": "Le paquet « $1 » n’est pas valide : le paquet doit exister et vous devez avoir la permission de le modifier afin de créer un nouveau paquet.",
 	"ac433d41a1bc58e6": "Les versions doivent avoir un nom.",
 	"ad2c35fd35252e79": "Le nom de version « $1 » est incorrect : les noms de version ne peuvent contenir que des lettres latines, chiffres, points ou traits d’union.",
 	"b04834e08290cdfe": "Clé de l’éditeur",

@@ -9,7 +9,7 @@
 			"Wladek92"
 		]
 	},
-	"007590c1cd808d4a": "$1 participant(s) modifié(s), $2 ajouté(s) : $3 ; $4 supprimé(s) : $5.",
+	"007590c1cd808d4a": "$1 participant(s) modifié(s) ; $2 ajouté(s) : $3 ; $4 retiré(s) : $5.",
 	"02f47fb34831fb55": "Afficher les messages plus récents",
 	"084f66f5247a2022": "Nom de la pièce.",
 	"0ac4659d3e4d707c": "Quitter la pièce",
@@ -71,7 +71,7 @@
 	"7d54dca3eead4351": "Vous devez spécifier un id ou un PHID de pièce à partir duquel demander des transactions.",
 	"7d7231307963e914": "Nouveau nom de la pièce.",
 	"7e13bd176f89a12f": "Sujet",
-	"7e796b5ac953990a": "$1 a supprimé $2 participant{{PLURAL:$2||s}} : $3.",
+	"7e796b5ac953990a": "$1 a retiré $2 participant{{PLURAL:$2||s}} : $3.",
 	"7fdb54c18ff20c59": "Rechercher $1…",
 	"80d1e02d2842d943": "Les participants dans cette pièce peuvent effectuer cette action.",
 	"8517db9dd6315e88": "Créer une nouvelle pièce",

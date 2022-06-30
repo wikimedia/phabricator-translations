@@ -483,7 +483,7 @@
 	"7df8ae5849713a0b": "La configuration de votre PHP a sélectionné un fuseau horaire invalide. Sélectionnez un fuseau horaire valide.",
 	"7e17a69d5096c5bb": "$1 a supprimé cette entrée de configuration (de nouveau ?).",
 	"7e67081358e0ecc2": "Problèmes d’installation non résolus",
-	"7f392e75b41cc9c7": "Fuseau horaire du serveur not configuré",
+	"7f392e75b41cc9c7": "Fuseau horaire du serveur non configuré",
 	"7f42bc880fd513e2": "L’expression rationnelle suivante est mal écrite et ne pourra pas être utilisée : $1",
 	"7fb894f745adffc9": "Utiliser le $1 pour gérer des applications installées.",
 	"7fd0894f7e01e83b": "Les domaines de gestionnaire de réponse à l’application individuelle ont été supprimés. Configurer un domaine de réponse avec « $1 ».",

@@ -205,7 +205,7 @@
 	"c0e7c8e1e1beca14": "Exporter les données vers un fichier à plat (JSON, CSV, Excel, etc).",
 	"c1630af0f802b47c": "Formulaires d'édition",
 	"c46598d158750c69": "Marquer comme formulaire de création",
-	"c4b211411c5f712d": "$1 fichier(s) modifié(s), ajoouté(s) $2: $3; supprimé(s) $4: $5.",
+	"c4b211411c5f712d": "$1 fichier(s) modifié(s) ; ajouté(s) $2: $3 ; retiré(s) $4 : $5.",
 	"c4b245e2ddd076de": "$1 a ajouté $2 abonné{{PLURAL:$2||s}} : $3.",
 	"c53489f1edd68e27": "Le sous-type ''$1'' n'est pas valide: les clés du sous-type ne peuvent comporter que des caractères minuscules latins (de ''a'' à ''z'').",
 	"c6177aaa7e9f02a7": "Possibilité non prise en charge.",
