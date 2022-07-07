@@ -14,7 +14,7 @@
 	"0832d97d98fd6967": "Écriture du cache graphique.",
 	"0b2906f6a7490d1a": "Modifier les bases",
 	"10434f555ce25bf4": "Cet interface n'est pas documenté.",
-	"1539738899fc9b91": "Entrer un nom de livre...",
+	"1539738899fc9b91": "Saisissez un nom de livre...",
 	"1608ae410aa375f3": "La documentation utilise '$1', mais devrait utiliser '$2'.",
 	"17be9775cd944e16": "L’atome « $1 » est précédé par un commentaire contenant `$2`, mais le commentaire n’est pas un commentaire de documentation. Les commentaires de documentation doivent commencer par `$3`, suivi par un saut de ligne. Vouliez-vous utiliser un commentaire de documentation (comme le commentaire n’est pas un commentaire de documentation, il sera ignoré) ?",
 	"186c3688a96286f3": "Pas d’atome '$1' !",
@@ -40,7 +40,7 @@
 	"459bb1690a2acf65": "Cet article n’est pas documenté.",
 	"4a7fdd8c17425252": "Livres",
 	"502b668f6fc0f10e": "Cet atome n’existe plus.",
-	"517cd9e7378bebed": "Pas de livres trouvés.",
+	"517cd9e7378bebed": "Aucun livre trouvé.",
 	"564f83b7b78af6c9": "Cet appel prend $1 paramètre(s), mais seulement $2 sont documentés.",
 	"572fe27d74015382": "Écriture du cache d’atomes.",
 	"58823af05ebe1ba3": "Hérité",
@@ -106,6 +106,6 @@
 	"fa49b0f73f3bf151": "Génération terminée de \"$1\".",
 	"fbc149cc2a53e16d": "Atomisation de $1 fichier(s).",
 	"fc92502bedd47965": "Atome n’a pas d’entrée de table de symbole !",
-	"fd5b509f71c7929c": "Naviguer dans les livres",
+	"fd5b509f71c7929c": "Parcourir les livres",
 	"ff4887f16541eff7": "RECHERCHE DES LIVRES DE DOCUMENTATION"
 }

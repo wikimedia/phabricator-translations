@@ -17,7 +17,7 @@
 	"122d35cb3b238cb7": "Paquetage de paquetages",
 	"1335e52a5f1e0c4e": "Appliquer les transactions pour créer un nouvel éditeur ou en modifier un existant.",
 	"14f174e01471a57b": "Éditeur du paquetage",
-	"1626f1b5e0d80ddf": "Lire les informations sur les versions.",
+	"1626f1b5e0d80ddf": "Lire les informations concernant les versions.",
 	"1c42c3895ad05be2": "$1 a modifié le nom de cette version de $2 en $3.",
 	"1c658324bfe15ced": "Peut créer des éditeurs",
 	"1c7109a0f0ed5a97": "Politique de modification d’éditeur par défaut",
@@ -73,7 +73,7 @@
 	"b04834e08290cdfe": "Clé de l’éditeur",
 	"b4bccd763f48a89a": "Créer un éditeur",
 	"bd139dc8dbfc1420": "Le paquetage de cette version.",
-	"bf2c747717ab11b8": "Lire les informations sur les éditeurs.",
+	"bf2c747717ab11b8": "Lire les informations concernant les éditeurs de publication.",
 	"c07c7b35fef40dda": "La clé de paquetage « $1 » est incorrecte : les clés de paquetage sont obligatoires.",
 	"c945774084943135": "Appliquer les transactions pour créer une nouvelle version ou en modifier une existante.",
 	"ca7015ddd7412225": "Une fois qu’un paquetage est créé, son éditeur ne peut être changé.",
@@ -98,7 +98,7 @@
 	"f5d3ddf586b71c99": "Le nom de l’éditeur.",
 	"f9b21982723b89f9": "Une fois qu’une version est créée, son paquetage ne peut être changé.",
 	"fa68ab3cf0f86800": "La clé unique du paquetage.",
-	"fb62bf649c60a2e1": "Lire les informations sur les paquetages.",
+	"fb62bf649c60a2e1": "Lire les informations concernant les paquets.",
 	"fcc4b19dd88b4ac4": "Chaque paquetage fourni par un éditeur doit avoir une clé de paquetage unique.",
 	"fe09fb3b6dbca6ee": "Entrer un nom d’éditeur..."
 }
