@@ -86,7 +86,7 @@
 	"bc4bc4e53dbb68d2": "La documentation spécifie `$1` plusieurs fois.",
 	"bd78af9823ef42af": "EFFACEMENT DES CACHES",
 	"c29a932d7384d3f8": "Guide d’utilisateur de Diviner",
-	"c3697347eb13ef55": "Modifier le livre : $1",
+	"c3697347eb13ef55": "Modifier le livre : $1",
 	"c3cf94d6068604c9": "$1 fichier{{PLURAL:$1||s}} trouvé{{PLURAL:$1||s}} à atomiser.",
 	"c80d7b188b4d616d": "$1 fichier{{PLURAL:$1||s}} non atomisé{{PLURAL:$1||s}} et non en cache trouvé{{PLURAL:$1||s}}.",
 	"d0487cd477f6ad74": "La méthode `$1` a documenté `$2` de façon explicite. La méthode `$3` renvoie toujours `$4`. Diviner documente implicitement cela.",

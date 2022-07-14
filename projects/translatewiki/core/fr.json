@@ -10,7 +10,7 @@
 	},
 	"0294e4a93c79fe48": "Fournit le chemin d’une bibliothèque dont les traductions sont à exporter.",
 	"057a91bd9d909212": "Impossible d’extraire la chaîne car le motif « % » n’est pas reconnu, « $1 » : $2.",
-	"0654a028e5aea48c": "AUCUN",
+	"0654a028e5aea48c": "NÉANT",
 	"124328edcc87415b": "Indiquez un code d’internationalisation avec « --locale ».",
 	"17b6d98715597264": "Chaîne « $1 » ignorée ; absente du fichier source de traduction.",
 	"2c22da08dc82f0ba": "Indique le chemin vers exactement une bibliothèque d’où les traductions sont exportées.",

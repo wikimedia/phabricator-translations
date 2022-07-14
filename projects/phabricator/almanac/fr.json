@@ -63,7 +63,7 @@
 	"2b9353609c08cd7f": "Grappe Phabricator : base de données",
 	"2be0f6e2cf1dfeeb": "Réseaux Almanac",
 	"2d0c6d99b1e1e1ca": "Vous devez pouvoir afficher le réseau sur lequel réside une interface pour pouvoir afficher l’interface.",
-	"2d7023e2c7f9f10c": "Les noms de service, d’appareil, de propriété, de réseau et d’espace de noms d’Almanac doivent avoir au moins 3 caractères.",
+	"2d7023e2c7f9f10c": "Les noms de service, d’appareil, de propriété, de réseau et d’espace de noms d’Almanac doivent comporter au moins 3 caractères.",
 	"2e87516317bb6667": "Modifier l’espace de noms",
 	"2ead23d87de02ff8": "Réseau $1",
 	"2eecc6e1dad465ff": "Les propriétés héritent des politiques de leur objet.",
