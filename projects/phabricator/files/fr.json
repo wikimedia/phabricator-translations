@@ -119,7 +119,7 @@
 	"33d6b4dab1c5c259": "Phabricator fournit un moteur de stockage sur disque local qui écrit uniquement les fichiers dans un répertoire du disque local. Le serveur Web doit avoir des autorisations de lecture et écriture sur ce répertoire. Ceci est simple et convient à la plupart des installations, mais cela ne permet pas de dépasser un unique frontal web à moins que le chemin ne soit en réalité un montage NFS, car vous finirez avec certains fichiers écrits sur chacun des frontaux web et aucun moyen de les partager. Pour utiliser le moteur de stockage sur disque local, spécifiez le chemin d’accès à un répertoire ici. Pour le désactiver, spécifiez « null ».",
 	"33e2f58786155eb3": "$1 : utilise un format de stockage inconnu « $2 ».",
 	"33e635cd42a35df3": "Tâche de test de brouillage de fichier",
-	"3417b49706e17d1b": "Cette méthode est gelée et sera éventuellement obsolète. Le nouveau code doit utiliser « file.search » à la place.",
+	"3417b49706e17d1b": "Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « file.search » à la place.",
 	"346d34a0f0d96dda": "ticket",
 	"34f3e96540239bed": "La configuration de l’anneau de clés n’est pas valide : chaque entrée dans la liste doit être un dictionnaire décrivant une clé de chiffrement, mais la valeur à l’index « $1 » n’est pas un dictionnaire.",
 	"3633987da18079d2": "Sélectionner une icône",

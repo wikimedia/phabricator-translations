@@ -686,7 +686,7 @@
 	"aa1a6e2da41d74e6": "L'auditeur « $1 » doit être un utilisateur, un paquet ou un projet.",
 	"aa548faaf8d7d8fd": "Aucune construction",
 	"aa7e68da626ac37d": "Le dépôt associé à un URI est immuable et ne peut pas être modifié après la création de l’URI.",
-	"aa91c63ce347f917": "$1 a modifié $2 auditeur{{PLURAL:$2||s}} pour $3, en a supprimé $4 : $5 ; en a ajouté $6 : $7.",
+	"aa91c63ce347f917": "$1 a modifié $2 auditeur{{PLURAL:$2||s}} pour $3 ; en a retiré $4 : $5 ; en a ajouté $6 : $7.",
 	"aab4ad8530abd6d7": "Le dépôt « $1 » est sur le service de grappe « $2 », mais ce service n’a pas pu être chargé, donc le dépôt ne sera pas mis à jour sur cet hôte.",
 	"aacbaad9f69632d8": "Dernière mise à jour le $1 (il y a $2).",
 	"aad02b62fa74cf7d": "$1 a ajouté $2 modification{{PLURAL:$2||s}} annulées : $3.",
