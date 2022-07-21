@@ -76,7 +76,7 @@
 	"c076079459852703": "Image « $1 » :",
 	"c575edb42770983f": "Fermer la simulation de Pholio",
 	"ca74323a8e5e8184": "$1 a mis à jour des images de $2.",
-	"d31c9884cf819408": "$1 a ajouté $2 tâche{{PLURAL:$2||s}} pour $3 : $4.",
+	"d31c9884cf819408": "$1 a ajouté $2 tâche(s) pour $3 : $4.",
 	"d76f149d5db4ae7b": "Vous devez ajouter au moins une image à la simulation.",
 	"d961a5ff4070dbde": "Cette page documente les commandes que vous pouvez utiliser pour interagir avec les maquettes dans Pholio.",
 	"dc664603dc430f4c": "Impossible de charger l’image de remplacement (« $1 ») : $2",

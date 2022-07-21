@@ -753,7 +753,7 @@
 	"cba827a5512399db": "Impossible de définir l’option LDAP « $1 » à la valeur « $2 » !",
 	"cbf964ff00a0a7de": "LDAP : échec de récupération de l’enregistrement de l’utilisateur « $1 » lors de la recherche. Les utilisateurs certifiés pourraient ne pouvoir faire aucune recherche sur votre serveur LDAP. Essayez de configurer des certificats anonymes ou des attachements entièrement anonymes.",
 	"cd537e86003e0f57": "Échec d’attachement au serveur LDAP (sans nom d’utilisateur).",
-	"cdcac6340e3ab87d": "$1 a changé la valeur de \"$2\" de \"$3\" en \"$4\".",
+	"cdcac6340e3ab87d": "$1 a changé la valeur de « $2 » de « $3 » en « $4 ».",
 	"cdf2cc76b7040fe5": "Vous avez annulé l'authentication.",
 	"cdf8fcd13aa741e1": "Un lien de réinitialisation du mode de passe sera envoyé à votre adresse courriel principale. Suivez le lien pour définir un nouveau mot de passe à votre compte.",
 	"ce36cd512ad24e9e": "Accepté par",

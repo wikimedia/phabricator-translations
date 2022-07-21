@@ -22,7 +22,7 @@
 	"5920c81577d44070": "Paquet de test des requêtes",
 	"6931f523cee8baba": "Courriel d'application",
 	"6e5d870b8888a21e": "Recherche d'objets par leur nom.",
-	"7191d0b67d43f89e": "Tentative de rendu d'une référence qui n'existe pas !",
+	"7191d0b67d43f89e": "Tentative de rendu d’un descripteur qui n’existe pas !",
 	"750d3b61b047e337": "Récupérer les informations concernant des PHID arbitraires.",
 	"8c323456ce8fea71": "Objet inconnu ($1)",
 	"9dc304f07ed386a3": "Les objets que vous avez listés comportent des objets qui n'existe pas ($1)",

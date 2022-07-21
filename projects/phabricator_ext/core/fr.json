@@ -110,7 +110,7 @@
 	"b90df6d9b7342d23": "Créer des objets de politique de contrôle d’accès personnalisés.",
 	"ba51487edf1c05f5": "Utiliser [[$1|ce formulaire]] pour en créer une.",
 	"bb640aa769e1bc55": "Utilisateur MediaWiki",
-	"bb9c0847cef2709e": "Modifier le type en",
+	"bb9c0847cef2709e": "Changer le type en",
 	"bbca19f462a0b062": "Réinitialiser les paramètres de sécurité",
 	"bc67f6bb78373f52": "Tâches ouvertes",
 	"bc7819b34ff87570": "Inconnu",
@@ -146,5 +146,5 @@
 	"fc5658eac133d3fc": "Lien vers le graphique de consommation",
 	"fce06e20e5f7f74a": "Commentaires",
 	"ff51f6bbe14ebe12": "Télécharger le tar.gz",
-	"ff8213df8757cc4a": "Modifier le type en « $1 »"
+	"ff8213df8757cc4a": "Changer le type en « $1 »"
 }

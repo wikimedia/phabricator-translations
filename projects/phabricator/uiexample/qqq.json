@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Verdy p"
 		]
 	},
 	"010b85ad56b34c34": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIListExample.php$58 PHUIListExample.php:58]",
@@ -117,7 +118,7 @@
 	"503d46db37b0db45": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIButtonExample.php$6 PHUIButtonExample.php:6]",
 	"5090a9e78c899272": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/MacroEmojiExample.php$6 MacroEmojiExample.php:6]",
 	"516a9a7c2dd2ef7d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIBigInfoExample.php$40 PHUIBigInfoExample.php:40]",
-	"5256fffffb868a37": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIInfoExample.php$23 PHUIInfoExample.php:23]",
+	"5256fffffb868a37": "Type of severity. Please distinguish translations for \"Error\", \"Warning\", \"No data\", \"Notice\" and \"Success\".\n\nUsed in:\n: [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIInfoExample.php$23 PHUIInfoExample.php:23]",
 	"532fbd486ceea6ca": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIObjectItemListExample.php$95 PHUIObjectItemListExample.php:95]",
 	"533132c45db47487": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PhabricatorPagerUIExample.php$67 PhabricatorPagerUIExample.php:67]",
 	"536012190d3d4515": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PhabricatorPagerUIExample.php$6 PhabricatorPagerUIExample.php:6]",
