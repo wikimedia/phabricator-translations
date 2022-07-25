@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Paucabot"
 		]
 	},
 	"01f55bf10a17e740": "La ruta al document.",
@@ -19,7 +20,7 @@
 	"1e57779e9843e6d4": "CONTINGUT DEL DOCUMENT",
 	"1f0154eb3c8889db": "MODIFICAR LES NOTES",
 	"224d7f7f9d62d04d": "Avantpassat desaparegut",
-	"227e42d4c2a35a22": "Aquest document s'ha mogut a $1. Podeu modifica-lo per afegir contingut nou aquí o fer servir l'historial per tornar a una versió anterior.",
+	"227e42d4c2a35a22": "Aquest document s'ha mogut a $1. Podeu modificar-lo per afegir contingut nou aquí o fer servir l'historial per tornar a una versió anterior.",
 	"23b14eff25f9e7e8": "Rescata informació sobre un document de Fricció.",
 	"247274012e802c74": "Un canvi d’un subscriptor de documents.",
 	"24753df10adddc21": "Estat del document «$1» desconegut!",

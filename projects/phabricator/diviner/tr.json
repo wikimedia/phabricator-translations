@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Cobija"
 		]
 	},
 	"03d15fc7d961504b": "Makalede $1 yok!",
@@ -10,7 +11,7 @@
 	"10434f555ce25bf4": "Bu arayüz belgelenmemiştir.",
 	"1539738899fc9b91": "Bir kitap adı yazın...",
 	"1608ae410aa375f3": "Belgelerde `$1` kullanılır, ancak `$2` kullanılmalıdır.",
-	"17be9775cd944e16": "Atom \"$1\" öğesinden önce \"$2\" içeren bir yorum gelir, ancak yorum bir belge yorumu değildir. Dokümantasyon yorumları \"$3\" ile başlamalı, ardından bir satırsonu gelmelidir. Bir dokümantasyon yorumu mu kullanmak istediniz? (Yorum bir belge yorumu olmadığından yok sayılır.)",
+	"17be9775cd944e16": "Atom \"$1\" öğesinden önce \"$2\" içeren bir yorum gelir ancak yorum bir belge yorumu değildir. Belgeleme yorumları \"$3\" ile başlamalı, ardından bir satırsonu gelmelidir. Bir belgeleme yorumu mu kullanmak istediniz? (Yorum bir belge yorumu olmadığından yok sayılır.)",
 	"186c3688a96286f3": "Böyle bir '$1' atomu yok!",
 	"18e06bb6f6bef7d2": "İlahi Atom",
 	"1924ef4d44efee76": "$1 kitap bulundu.",
@@ -38,7 +39,7 @@
 	"564f83b7b78af6c9": "Bu çağrı $1 parametresi alır, ancak yalnızca $2 dokümante edilir.",
 	"572fe27d74015382": "Atom önbelleği yazma.",
 	"58823af05ebe1ba3": "Miras",
-	"5a612ba7bd81ec0e": "Dokümantasyon Uyarıları",
+	"5a612ba7bd81ec0e": "Belgeleme Uyarıları",
 	"5ba5d80dac36c389": "Falcı Kitapları",
 	"5ec292ec9f489c5d": "\"$1\" kitabı oluşturuluyor...",
 	"625bedcb78576f6f": "Bu görev için yöntem yok.",

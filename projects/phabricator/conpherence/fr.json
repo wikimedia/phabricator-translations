@@ -127,7 +127,7 @@
 	"f03d34e0e823043c": "Afficher dans Conpherence",
 	"f3adf7d54448098e": "Vous ne pourrez pas rejoindre la salle par vous-même, mais quelqu’un d’autre peut vous y inviter plus tard.",
 	"f8c0387223ced9fc": "Poche",
-	"fc8d44e10d8511d4": "Le sujet ne peut pas dépasser $1 caractères.",
+	"fc8d44e10d8511d4": "Le sujet ne peut pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"fd0bf50c90680c30": "$1 a mis à jour l’image de la salle.",
 	"fda25492c9a7642a": "Conpherence vous permet de créer des salles publiques ou des salons privés pour communiquer avec les autres.",
 	"ff210658aa960ff2": "Vous devez spécifier un titre."

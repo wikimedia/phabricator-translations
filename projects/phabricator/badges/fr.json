@@ -57,7 +57,7 @@
 	"5ca6efcfd602116b": "Rectangle rayonnant",
 	"5cbad0883370cca6": "Rareté (le plus courant en premier)",
 	"5eb994010fd16808": "La qualité du badge n’est pas valide.",
-	"6169addc6ab5ba95": "Le texte de la variété ne peut pas dépasser $1 caractères.",
+	"6169addc6ab5ba95": "Le texte de la variété ne peut pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"616d6d7390a6e283": "Cercle d’écume",
 	"630e0b25835dd276": "Rare",
 	"63bc54923dcc99d0": "Le PHID « $1 » du destinataire n’est pas un PHID utilisateur valide.",

@@ -60,7 +60,7 @@
 	"7d6cbe92094c0814": "Ne montrer que les certificats actifs",
 	"7fd0257c136bc2e1": "Ce certificat est déjà verrouillé.",
 	"8116054768632d63": "Ce certificat et son secret ne pourront plus être récupérés en utilisant la méthode `$1` dans Conduit.",
-	"820dfebf41af18d9": "Le nom d’utilisateur ne peut pas dépasser $1 caractères.",
+	"820dfebf41af18d9": "Le nom d’utilisateur ne peut pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"872fc079b28438ff": "Nouveau certificat",
 	"8880740dc72fb636": "Créer un certificat",
 	"89950c9c18f1aef5": "Phrase secrète",

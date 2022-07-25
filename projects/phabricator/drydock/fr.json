@@ -267,7 +267,7 @@
 	"aebca9bff7e912a1": "Seuls les certificats de clé privée sont pris en charge.",
 	"af3090d14500d63e": "Nouveau plan",
 	"af83c77782e87e44": "Essai d’activation de bail sur une ressource en attente.",
-	"b0037ac1ccf98f39": "Les noms de plans ne peuvent dépasser $1 caractères.",
+	"b0037ac1ccf98f39": "Les noms de plans ne peuvent pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"b11eb58b5c744fb5": "Échec permanent dans l'activation de la ressource (« $1 ») : $2",
 	"b24ef8c7cc03f171": "Bail",
 	"b3fcc71ed64a9b41": "Bail non relâchable",

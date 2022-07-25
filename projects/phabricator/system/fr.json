@@ -10,11 +10,11 @@
 			"Wladek92"
 		]
 	},
-	"0af1e82803f33761": "Phabricator est actuellement configuré sans base de données modifiable (« principale »), aussi vous ne pouvez inscrire  nulle part de nouvelles informations. Phabricator fonctionnera en lecture seule jusqu’a ce qu’un administrateur le reconfigure avec une base de données modifiable.",
+	"0af1e82803f33761": "Phabricator est actuellement configuré sans base de données modifiable (« principale »), aussi vous ne pouvez inscrire nulle part de nouvelles informations. Phabricator fonctionnera en lecture seule jusqu’à ce qu’un administrateur le reconfigure avec une base de données modifiable.",
 	"0b06f65a8ccab6ac": "L’extension « $1 » n’est pas installée sur ce système, les codages de caractères ne sont donc pas pris en charge. Installez « $2 » pour activer cette fonctionnalité.",
 	"0b0eef56faff5d89": "Ce mode est actif car il est activé par l’option de configuration « $1 ».",
 	"0cc06ea98df1b9dd": "Panique !",
-	"0fd9797123d90a50": "Voir le Handle",
+	"0fd9797123d90a50": "Voir le descripteur",
 	"11a8e6be14c3dffe": "Aucune base de données disponible en écriture",
 	"1cb5f5cf31a0ab68": "Destruction de $1 **$2**...",
 	"23a7b8321b13ebd3": "L’objet « $1 » ne peut pas être détruit (il ne met pas en œuvre $2).",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
-			"Ice bulldog"
+			"Ice bulldog",
+			"Verdy p"
 		]
 	},
 	"0169751a40ee94eb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php$399 PhabricatorMetaMTAMailTestCase.php:399]",
@@ -246,7 +247,7 @@
 	"ce9ff5f1beca28d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/herald/PhabricatorMetaMTAEmailHeraldAction.php$73 PhabricatorMetaMTAEmailHeraldAction.php:73]",
 	"cefdcaf06d47115b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/PhabricatorMetaMTAMail.php$580 PhabricatorMetaMTAMail.php:580]",
 	"cfc6df923150d9d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/management/PhabricatorMailManagementShowInboundWorkflow.php$62 PhabricatorMailManagementShowInboundWorkflow.php:62]",
-	"d08f88df745fa795": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/management/PhabricatorMailManagementListOutboundWorkflow.php$39 PhabricatorMailManagementListOutboundWorkflow.php:39]",
+	"d08f88df745fa795": "Symbol in a narrow column header specifying that an mail must be encrypted.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/management/PhabricatorMailManagementListOutboundWorkflow.php$39 PhabricatorMailManagementListOutboundWorkflow.php:39]",
 	"d09e4632b987c458": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/management/PhabricatorMailManagementShowOutboundWorkflow.php$17 PhabricatorMailManagementShowOutboundWorkflow.php:17]",
 	"d167fa58b7d29990": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/query/PhabricatorMetaMTAActor.php$156 PhabricatorMetaMTAActor.php:156]",
 	"d193b842dbaf4767": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/typeahead/PhabricatorMetaMTAApplicationEmailDatasource.php$12 PhabricatorMetaMTAApplicationEmailDatasource.php:12]",
