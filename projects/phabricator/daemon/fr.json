@@ -163,7 +163,7 @@
 	"e41f8d66389be8b5": "Nouvelle tentative après",
 	"e60369f4ccce009a": "Démarrer en avant-plan le __service d’arrière-plan__ et afficher un grand volume d’informations de diagnostic dans la console.",
 	"e962a6150b25d509": "Tâche $1 : $2",
-	"efa9acf3a1fe1626": "Vous essayez d’exécuter un service d’arrière-plan en tant qu’utilisateur non standard, et `$1` n’a pas pu `$2` vers le bon utilisateur.\nPhabricator est configuré pour lancer les services d’arrière-plan en tant que « $3 », mais l’utilisateur actuel est « $4 ».\nUtiliser `$5` pour lancer avec un autre utilisateur, passer `$6` pour ignorer cet avertissement, ou bien modifier `$7` pour changer la configuration.",
+	"efa9acf3a1fe1626": "Vous essayez d’exécuter un service d’arrière-plan en tant qu’utilisateur non standard et `$1` n’a pas pu `$2` vers le bon utilisateur.\nPhabricator est configuré pour lancer les services d’arrière-plan en tant que « $3 », mais l’utilisateur actuel est « $4 ».\nUtiliser `$5` pour exécuter en tant qu’un autre utilisateur, passer `$6` pour ignorer cet avertissement, ou bien modifier `$7` pour changer la configuration.",
 	"f1cade6c2ee6ea8d": "Plus d’autres tentatives.",
 	"f347686d83f25ac7": "Il n’existe aucun enregistrement de journal pour un service d’arrière-plan avec l’ID « $1 ».",
 	"f5b06267d5866393": "Tâche $1 manquante",

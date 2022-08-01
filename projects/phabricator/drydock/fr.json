@@ -234,7 +234,7 @@
 	"92d667533417f6b9": "Relâcher une ressource.",
 	"942c95a7dc25427a": "Bail acquis.",
 	"94aea12606a816e6": "Échec inattendu en détruisant la ressource (« $1 »).",
-	"9504201cae49c99c": "ATTENTION: Il y a $1 autorisation(s) non approuvée(s)!",
+	"9504201cae49c99c": "ATTENTION : il y a $1 autorisation{{PLURAL:||$1||s}} non approuvée{{PLURAL:||$1||s}} !",
 	"9516d2ecd769f6fb": "Le plan « $1 » (de type « $2 ») n’est pas implémenté correctement : $3 doit actuellement allouer la ressource qu’il renvoie.",
 	"95b06dc287293478": "Aucune commande émise.",
 	"95e4692425fca5ce": "Révision atterrie en $1.",

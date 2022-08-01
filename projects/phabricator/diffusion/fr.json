@@ -74,7 +74,7 @@
 	"0cf03469c521eb09": "Créer l’URI du dépôt",
 	"0cfb7b2f19489d25": "Le dépôt « $1 » se synchronise sur l’appareil « $2 », mais cet appareil n’est pas lié au service de grappe correspondant (« $3 »).",
 	"0d037834d1630947": "Attendu une liste d'objets PhabricatorRepositorySymbol de la source de symboles externe « $1 ».",
-	"0d07f60fbf6f380f": "(AVERTISSEMENT) {icon exclamation-triangle} La version de « git » (« $1«») installée sur ce serveur ne prend pas en charge « --batch-check=<format> », une fonctionnalité nécessaire pour renforcer les limites de taille de fichier. Mettez à niveau « git » vers une version $2 ou ultérieure pour utiliser cette fonctionnalité.",
+	"0d07f60fbf6f380f": "{icon exclamation-triangle} AVERTISSEMENT : la version de « git » (« $1 ») installée sur ce serveur ne prend pas en charge « --batch-check=<format> », une fonctionnalité nécessaire pour renforcer les limites de taille de fichier. Mettez à niveau « git » vers une version $2 ou ultérieure pour utiliser cette fonctionnalité.",
 	"0d29ddd7c32fc6ec": "Saisir un nom de dépôt ou une fonction…",
 	"0d71ef1f4a803973": "Aucun dépôt n’a été trouvé.",
 	"0da73a8fda54a79f": "Modifier la limite de la taille des fichiers.",
