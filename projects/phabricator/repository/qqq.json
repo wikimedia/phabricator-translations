@@ -3,7 +3,8 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"DDPAT",
-			"Ice bulldog"
+			"Ice bulldog",
+			"Verdy p"
 		]
 	},
 	"00061bade7e1c5b9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$74 PhabricatorRepositoryPullEngine.php:74]",
@@ -30,7 +31,7 @@
 	"0824209d205b0fe0": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$366 PhabricatorRepositoryPullEngine.php:366]",
 	"08b8024b328db73e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/storage/__tests__/PhabricatorRepositoryTestCase.php$44 PhabricatorRepositoryTestCase.php:44]",
 	"08df0d785abc2217": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$128 PhabricatorRepositoryPullEngine.php:128]",
-	"0aa6d1dab7584fcc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php$12 PhabricatorRepositoryManagementReparseWorkflow.php:12]",
+	"0aa6d1dab7584fcc": "The furst line shows the syntax to run a command. It contains some words between **double asterisks** used as markup for make them rendered in '''bold''' characters, or between __double underscores__ to make them appear in ''italic''. The words \"reparse\", and the options \"--trace\" or \"--force\" must not be translated.\n\nFurther lines also contain examples of syntax of this command, starting with the verbatim keyword \"repository\", and with additional flags \"--all\", \"--change\", \"--min_date\" that must not be translated. As well the values indicated after \"--min-date\" are dates given in a syntax supporting only English words, such as \"yesterday\", \"today\", \"day\", or formatted dates values in English such as \"03/31/2013\" (do not alter the order: month/day/year). However you can translate the leading description lines.\n\nUsed in:\n: [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php$12 PhabricatorRepositoryManagementReparseWorkflow.php:12]",
 	"0aef5734fc401bcb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/daemon/PhabricatorRepositoryPullLocalDaemon.php$252 PhabricatorRepositoryPullLocalDaemon.php:252]",
 	"0af6a9dfdb712985": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$58 PhabricatorRepositoryPullEngine.php:58]",
 	"0b33998f0b54d51e": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/xaction/PhabricatorRepositoryTrackOnlyTransaction.php$22 PhabricatorRepositoryTrackOnlyTransaction.php:22]",

@@ -2646,7 +2646,7 @@
 	"fa606aa8cf351142": "Used in:\n\nArcanistConduitCallFuture.php:65",
 	"fa67775de973fffc": "Variable Types: NONE.\nUsed in:\n\nPhutilSimpleOptionsTestCase.php:95",
 	"fa692bc15fcc477b": "Used in:\n\nArcanistLintWorkflow.php:61",
-	"fa6af6e97d010a98": "Used in:\n\nPhutilPhtTestCase.php:60",
+	"fa6af6e97d010a98": "'''FIXME''': see [[Thread:Support/About Phabricator:arcanist-core-3119f17b3b50c21d/en]]\n\nUsed in:\n* PhutilPhtTestCase.php:60",
 	"fa8d22a203bf435a": "Variable Types: NONE.\nUsed in:\n\nPhutilFileLock.php:74",
 	"fa9d63e1828eff71": "Used in:\n\nArcanistClassFilenameMismatchXHPASTLinterRule.php:14",
 	"faa80e15a9bec56d": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nArcanistDiffWorkflow.php:125\nArcanistDiffWorkflow.php:130",

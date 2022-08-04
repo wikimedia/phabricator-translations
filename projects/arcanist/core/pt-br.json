@@ -91,6 +91,7 @@
 	"075b6d93c7bca510": "Neste momento, $1 não suporta níveis de gravidade personalizados, porque não é possível identificar regras a partir das mensagens na saída.",
 	"07632d53b947dc33": "Esses testes devem falhar ou ignorar.",
 	"0789789930c83f8c": "Diversas fontes de configuração estão definindo um atalho (alias) para “$1 $2”. A última definição na fonte mais específica (“$3”) será utilizada.",
+	"07a8d0664f7ef3d1": "A ramificação \"$1\" não faz o rebase de forma limpa de \"$2\" para \"$3\", pulando.",
 	"07abd5694625c417": "Símbolo desconhecido",
 	"07b61143a4ee97fb": "Contra qual commit?",
 	"07c209f12f1a9558": "mensagem de commit",
