@@ -7,7 +7,8 @@
 			"Melissadilara",
 			"MuratTheTurkish",
 			"Rapsar",
-			"Satirdan kahraman"
+			"Satirdan kahraman",
+			"ToprakM"
 		]
 	},
 	"0063efbde77d19e7": "Doğru olup olmadığını görmek için farkı inceleyin. Memnun kaldığınızda, **yeni bir revizyon oluşturun** veya **mevcut bir revizyonu güncelleyin**.",
@@ -523,7 +524,7 @@
 	"960cebdd4110bef3": "Normal olarak, Diferansiyel revizyonlar \"Kabul Edildiklerinde\" kontrol panelinde kalır ve yazar daha sonra düzeltmeyi \"Kapat\" ve gösterge tablosundan çıkarmak için değişiklikleri yapar.\n\nİşlem sonrası inceleme için Diferansiyelin kullanıldığı (normalde Phabricator'ın başka bir yerinde \"Denetim\" olarak adlandırılan) olağandışı bir iş akışınız varsa, bu bayrağı \"Kabul Edildi\" durumunu \"Kapalı\" durumu olarak ele alacak ve inceleme iş akışını sona erdirecek şekilde ayarlayabilirsiniz.\n\nBu tür bir iş akışı çok sıra dışı. Bu seçeneği değiştirmek için çok az kurulum gerekir.",
 	"968e6c981b4cd20e": "Asana'da revizyon temsilini gösterir.",
 	"96ab7da81758d497": "Bu revizyonun  yazarı değilsiniz.",
-	"9730d4326a7b8a0d": "İçerikler Tablosu",
+	"9730d4326a7b8a0d": "İçindekiler",
 	"9731d2c13ed9d2d3": "Değişiklik kümesi üzerinde yorum görünmüyor!",
 	"973f7f7c02e3ade2": "$1, $2 depo için depoyu $3 üzerinden $4 değiştirdi.",
 	"974fc8b3fd3d2ad8": "Revizyon yüklenemedi.",
