@@ -1099,6 +1099,7 @@
 	"6eae3a5b062c6d0d": "…",
 	"6f3653a63261eff9": "Erreur d’orthographe possible",
 	"6f479248d681d2a2": "Déplacé",
+	"6f91b976763a5b23": "Modèle global non valide.",
 	"6fa24f70e4ae89ec": "$1 n’est pas compatible avec la version installée de pylint. Version minimale : $2 ; version installée : $3 .",
 	"70215eb70fc330d6": "Ces versions différentielles correspondent aux modifications dans cette copie de travail :",
 	"7023efb449d8a360": "Passer un chemin de fichier jshintignore personnalisé.",
