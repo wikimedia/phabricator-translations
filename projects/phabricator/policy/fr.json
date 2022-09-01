@@ -12,7 +12,7 @@
 	"021dfd70b626a618": "Aucune politique",
 	"02cb0b417bdaad52": "$1 avec l’utilisateur $2 devrait échouer.",
 	"056cfca86add4e51": "est décroissante",
-	"07c02304013bf0f0": "Capacités requises sur d’autres objets",
+	"07c02304013bf0f0": "Capacités exigées sur d’autres objets",
 	"08c15f46074369df": "Les utilisateurs connectés peuvent effectuer cette action.",
 	"0a4ed4a464cfa463": "URI d’objet",
 	"0b19da3648947eae": "Phabricator a des politiques d’application qui peuvent dicter si les utilisateurs peuvent effectuer certaines actions, telles que la création de nouveaux utilisateurs. \n\nCe paramètre permet de « verrouiller » ces politiques de sorte qu’aucune autre modification ne puisse être effectuée sur une base propre à chaque politique.",

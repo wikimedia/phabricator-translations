@@ -125,7 +125,7 @@
 	"418177ee3ec2a7a1": "Essai d’activation d’une ressource dans un mauvais état. L’état doit être « $1 », mais est en fait « $2 ».",
 	"41b989367ecf2682": "Récupérer des informations sur les baux Drydock.",
 	"430d32076eb256f0": "Opération",
-	"4420899ab4d58305": "« $1 » (appartient à « $2 »)",
+	"4420899ab4d58305": "« $1 » (appartenant à « $2 »)",
 	"44b3ec5115df7301": "Toutes les ressources",
 	"44e9affca4adde21": "La constante chaîne et le nom de cet état de bail.",
 	"453b5dfe0a7c4361": "Assistance client indisponible",

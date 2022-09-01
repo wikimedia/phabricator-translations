@@ -116,7 +116,7 @@
 	"91a9d1d01d8a5c30": "Connexion obligatoire : Cette méthode nécessite une authentification. Vous devez vous connecter avant de pouvoir faire des appels à celle-ci.",
 	"91d1d7775a03e4ba": "Saisir les paramètres en utilisant **JSON**. Par exemple, pour entrer une liste, taper: `$1`",
 	"91e95b380bb6e68f": "Une chaîne.",
-	"91f922c8302c704e": "La méthode '$1' appartient à l’application '$2', qui n’est pas installée.",
+	"91f922c8302c704e": "La méthode « $1 » appartient à l’application « $2 », qui n’est pas installée.",
 	"924f7cbe6055282b": "Unique colonne PHID.",
 	"93590f4618aa3de8": "Format de sortie",
 	"939f868537a1088b": "Gelé",

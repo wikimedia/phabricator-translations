@@ -57,7 +57,7 @@
 	"8582a8610bca4a86": "$1 a modifié une ou plusieurs tâches ; en a ajouté $2 : $3 ; en a retiré $4 : $5.",
 	"8b1cb782c8dccb43": "$1 a mis à jour la description d’une image ($2).",
 	"8cb6f1f272aa5f7a": "Ouvrir la simulation",
-	"8cdd959291c1b73d": "L’image remplacée (« $1 ») appartient à la mauvaise simulation (« $2 », attendu « $3 »).",
+	"8cdd959291c1b73d": "L’image remplacée (« $1 ») appartient à la mauvaise simulation (« $2 » obtenu, « $3 » attendu).",
 	"8d7d389ac8197e06": "D’autres activités de simulation non listées ci-dessus ont lieu.",
 	"8f067f16a3838c32": "DÉTAIL DE LA SIMULATION",
 	"8fd9492e02b27f37": "$1 a ouvert cette simulation.",

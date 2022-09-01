@@ -389,7 +389,7 @@
 	"b94a6243c63b656b": "Ce document est trop grand pour être complètement rendu en ligne. Les $1 premiers octets sont affichés.",
 	"b97b21600655dc1e": "$1 : les dimensions de l’image existent déjà.",
 	"b99ee178ab87834d": "Supprimer les empreintes d’intégrité est dangereux et rend les fichiers vulnérables à la corruption ou à la falsification.",
-	"ba15725fbe4b1ea9": "Vous devez sauvegarder un fichier avant de pouvoir générer une vue URI.",
+	"ba15725fbe4b1ea9": "Vous devez enregistrer un fichier avant de pouvoir générer une URI de visualisation.",
 	"ba633af5a683ea86": "$1 fichier(s) traité(s), $2 erreur(s) rencontrée(s).",
 	"ba7a990f83dd5f56": "Le hachage du contenu du fichier n’est pas disponible.",
 	"bb73aaafa1596e54": "téléverser",

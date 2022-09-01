@@ -41,7 +41,7 @@
 	"06bff1b871d75326": "Construction réussie",
 	"078bc97b7926cef0": "Reprendre la construction",
 	"085f8021ea11a4f9": "Récupérer les informations sur les cibles de construction de Harbormaster.",
-	"08b3e1a96088030b": "Impossible d’identifier le protocole de l’URI « $1 ». Les URIs doivent être pleinement qualifiés et avoir un protocole identifiable.",
+	"08b3e1a96088030b": "Impossible d’identifier le protocole de l’URI « $1 ». Les URI doivent être pleinement qualifiées et avoir un protocole identifiable.",
 	"08f5b13bfb3c808a": "Vous n’avez la permission de recommencer que certaines constructions.",
 	"0910a821892ecec6": "Journal non finalisé",
 	"096e3947d01e8067": "Le PHID de l’objet généré par cette construction.",
