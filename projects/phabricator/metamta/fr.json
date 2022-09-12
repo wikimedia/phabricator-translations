@@ -227,7 +227,7 @@
 	"c0619b35ec1584db": "Envoyer à nouveau le courrier.",
 	"c166e55dafd3be72": "Lister les messages sortants envoyés par Phabricator.",
 	"c16c8c14106f3810": "« De » inclut les destinataires sans courriel lorsqu’ils sont forcés.",
-	"c210daaf8f0d4d0f": "Ce mail est adressé à un objet (« $1 »), mais l’adresse n’est pas correcte (le hachage de sécurité est erroné). Vérifiez que l’adresse est correcte.",
+	"c210daaf8f0d4d0f": "Ce courriel est adressé à un objet (« $1 »), mais l’adresse n’est pas correcte (le hachage de sécurité est erroné). Vérifiez que l’adresse est correcte.",
 	"c2672925288b12f7": "Cette adresse de courriel est réservée. Choisissez une adresse différente.",
 	"c2e7987655fcf602": "L’argument « $1 » n’est pas un identifiant de message valide.",
 	"c2f43669498d8516": "Modifier les courriels d’application : $1",
