@@ -578,7 +578,7 @@
 	"9c183382e10369c1": "Elasticsearch mal configuré",
 	"9d33df4cbd01cb82": "Amazon S3 n'est que partiellement configuré",
 	"9d6fa285df9deb95": "Phabricator ne prend plus en charge la personnalisation globale des polices à chasse fixe.",
-	"9dcf3a82632084ed": "<none>",
+	"9dcf3a82632084ed": "<aucun>",
 	"9dfa143c16628357": "Personnaliser les favicons.",
 	"9e0230ee43e55ce2": "Le composant PATH '$1' (qui est traduit dans le chemin absolu '$2') n’est pas utilisable parce qu’il ne peut pas être traversé (son bit de droit '$3' n’est pas mis).",
 	"9e58e005b25867aa": "Aucun dépôt",
