@@ -82,7 +82,7 @@
 	"eb8d81d4d4ee2b99": "$1 / seconde",
 	"ec0f51ba7916ac99": "En tant qu’administrateur, vous pouvez examiner les informations d’état depuis le tableau de bord de $1. Ce dernier peut fournir plus d’informations sur la situation actuelle.",
 	"ef4d482fe615435e": "Bien que ceci puisse être le résultat d’une configuration inadéquate ou d’une erreur opérationnelle, c’est aussi l’état qui serait atteint si une météorite avait récemment anéanti un centre de données.",
-	"f01e13d061b6ba20": "L’objet « $1 » existe mais n’a aucun URI auquel rediriger.",
+	"f01e13d061b6ba20": "L’objet « $1 » existe mais n’a aucune URI auquel rediriger.",
 	"f0cd9813b64afd83": "Spécifier un ou plusieurs objets à détruire.",
 	"f5bb0f9a9c2a0888": "Choisir le moteur"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Verdy p"
 		]
 	},
 	"0007d61d3fd18c30": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionCommitEditEngine.php$66 DiffusionCommitEditEngine.php:66]",
@@ -28,7 +29,7 @@
 	"03542bedf10f4c85": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionRepositoryEditEnormousController.php$63 DiffusionRepositoryEditEnormousController.php:63]",
 	"03cd3e9c4edf06d5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/worker/DiffusionUpdateObjectAfterCommitWorker.php$19 DiffusionUpdateObjectAfterCommitWorker.php:19]",
 	"042dd077d65e7153": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/query/lowlevel/DiffusionLowLevelResolveRefsQuery.php$143 DiffusionLowLevelResolveRefsQuery.php:143]",
-	"04bf1775bdb5d5e2": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/view/DiffusionSourceLinkView.php$170 DiffusionSourceLinkView.php:170]",
+	"04bf1775bdb5d5e2": "Variable Types: NONE, NONE.\n\nFormat a reference to a line number of a source file to render the text of a link displayed in the web interface. You probably don't need to change the default.\n\n* $1: the path of the source file\n* $2: a line number\n\nUsed in:\n* [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/view/DiffusionSourceLinkView.php$170 DiffusionSourceLinkView.php:170]",
 	"04c088a92a451b40": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryURIsManagementPanel.php$145 DiffusionRepositoryURIsManagementPanel.php:145]",
 	"04c9e2c4296800ec": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionRepositoryEditActivateController.php$60 DiffusionRepositoryEditActivateController.php:60]",
 	"04f93d154947c33d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryStorageManagementPanel.php$270 DiffusionRepositoryStorageManagementPanel.php:270]",

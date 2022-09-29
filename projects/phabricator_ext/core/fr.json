@@ -38,7 +38,7 @@
 	"2e46f1d16340105d": "L’authentification par OAuth JWT n’était pas valide à l’heure actuelle",
 	"2f361488dc92d55a": "Toute sérieuse anomalie qui affecte `$1` devrait être ajoutée en tant que sous-tâche en dessous de celle-ci.",
 	"32b9e4245f21e239": "Le nom d’utilisateur de qui des transactions devraient être renversées.",
-	"33d9a3a13a32e73e": "ID de modif",
+	"33d9a3a13a32e73e": "Identifiant de modification",
 	"368ac8ae3c535b5a": "Seuls les administrateurs peuvent appeler cette API",
 	"378955d3f3c1ad41": "Le fournisseur OAuth a retourné une réponse d’erreur.",
 	"39b1b183efdd6e83": "Assurez-vous que les politiques de tâches de sécurité sont renforcées.",

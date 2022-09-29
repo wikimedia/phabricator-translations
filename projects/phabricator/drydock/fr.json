@@ -66,7 +66,7 @@
 	"1a186b9206608f22": "Ressources Drydock",
 	"1a48388229113d49": "Type de ressource",
 	"1aa2d9643bf0e3b1": "L’objet qui a autorisé ce bail ($1) n’est pas autorisé à utiliser un des plans que liste le bail. Approuver les autorisations avant d’utiliser le bail.",
-	"1b1419ef2fdf2ae4": "Le diff (« $1 ») a un mauvais ID de version (« $2 », « $3 » attendu).",
+	"1b1419ef2fdf2ae4": "Le diff (« $1 ») a un mauvais identifiant de révision (« $2 », « $3 » attendu).",
 	"1b26b65f6521d353": "Essai d’acquisition d’un bail (« $1 ») sur une ressource (« $2 ») dans le mauvais état (« $3 »).",
 	"1b65f4b1b687a3c6": "Autorisation Drydock $1",
 	"1beee4ef14ecf4de": "Ce plan n’a aucune ressource active.",

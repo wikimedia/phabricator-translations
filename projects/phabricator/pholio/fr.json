@@ -69,7 +69,7 @@
 	"a44fc0912e20eec4": "$1 a mis à jour la séquence d’images de $2.",
 	"b871919ebb82d8db": "$1 a ajouté des commentaires en ligne.",
 	"b9aaa6ebefcef313": "Les noms d’image de maquette ne doivent pas dépasser $1 caractère{{PLURAL:$1||s}}.",
-	"ba19102c76fbee7b": "Inconnu (ID $1)",
+	"ba19102c76fbee7b": "Inconnu (identifiant $1)",
 	"ba25ca451dd7a6d1": "Modifier la simulation",
 	"bb3dbd7326775cf5": "Par $1 sur $2",
 	"bf416827c9b32d32": "Les maquettes doivent avoir un nom.",

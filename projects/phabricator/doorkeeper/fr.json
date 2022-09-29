@@ -16,7 +16,7 @@
 	"0a776c937debb469": "Les noms de classe d’éditeur disponibles sont :",
 	"0cf4ab87df9edb87": "Pour activer la synchronisation dans Asana, saisir un ID d’espace de travail Asana ici.\n\nNOTE : cette fonctionnalité est nouvelle et expérimentale.",
 	"0e8f9f24b6888746": "JIRA $1 $2",
-	"14fb665a53033c0b": "ID de l'espace de travail",
+	"14fb665a53033c0b": "Identifiant d’espace de travail",
 	"1ad116c8ffd7242a": "Le mode d ’affichage de DoorkeeperURIRef « $1 » est inconnu.",
 	"1dbe92bcf4dc6bb3": "$1 n’a aucun objet visible de l’autre côté ; cela signifie sans doute que la tâche Asana a été supprimée.",
 	"21325fc653810a8d": "Utilisation de l’éditeur « $1 ».",

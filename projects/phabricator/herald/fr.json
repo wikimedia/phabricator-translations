@@ -320,7 +320,7 @@
 	"cc8a90c055ded1b9": "Deux HeraldActions (des classes « $1 » et « $2 ») ont la même clé d’action (« $3 ») après expansion pour un objet de classe « $4 » dans l’adaptateur « $5 ». Chaque action doit avoir une clé d’action unique.",
 	"ccac6e8c54e8442d": "Les règles d’objet peuvent informer tout le monde à propos d’un évènement. Elles sont liées à un objet (tel qu’un dépôt) et peuvent seulement agir sur cet objet. Vous devez avoir le droit de modifier un objet pour lui créer des règles d’objet. Les autres utilisateurs qui peuvent modifier l’objet peuvent modifier ses règles.",
 	"cd6a035faf02fe27": "Les conditions ont été respectées pour $1",
-	"cdc5e7df6794e597": "ID de transcription",
+	"cdc5e7df6794e597": "Identifiants de transcription",
 	"cdf5f6d5fb622477": "Le résultat de l’évaluation de la règle est inconnu.",
 	"ce0c1b73da8f5d6d": "Appel du crochet web...",
 	"ce46c821c5b0d019": "L’expression rationnelle « $1 » n’est pas valide. Les expressions rationnelles doivent encadrées par un même caractère délimiteur (par ex. « @/path/to/file@ » et pas « /path/to/file ») et être syntaxiquement correctes.",
