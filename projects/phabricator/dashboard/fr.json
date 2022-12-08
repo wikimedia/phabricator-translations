@@ -28,7 +28,7 @@
 	"0cb1c1bc2cee0aab": "Utilisez « Modifier le menu » pour ajouter des éléments de menu à ce portail.",
 	"0ea38831c69b2b07": "Ajouter le tableau de bord aux favoris personnels",
 	"1254500b6941b5a6": "Deux colonnes : 50 % / 50 %",
-	"174a2b9d6c1649e0": "Enlever l’onglet ?",
+	"174a2b9d6c1649e0": "Retirer l’onglet ?",
 	"17e78502fbd3a6ca": "Ce tableau de bord deviendra actif à nouveau.",
 	"18fa09731a00e1af": "Ajouter ce tableau de bord au menu de la page d’accueil.",
 	"197565b74736aa12": "Tableaux de bord",
@@ -94,7 +94,7 @@
 	"4e29580ef6903ce8": "$1 a activé ce panneau.",
 	"4eda7a8f97539c7a": "Ajouter au projet",
 	"4ef6bde288ced8a8": "(Tous les types)",
-	"4f6673905e22f2a9": "Enlever le panneau",
+	"4f6673905e22f2a9": "Retirer le panneau",
 	"4f9ae6ea1abe1190": "Impossible !",
 	"5039947a49838c8e": "(Panneau non valide)",
 	"52992a50d65e757d": "Bœuf salé",
@@ -164,7 +164,7 @@
 	"90a80d5953a18375": "Déplacer l’onglet",
 	"912053256256cfb7": "Conteneurs de panneau de tableau de bord",
 	"915ab25be57bbd29": "Les panneaux doivent avoir un titre.",
-	"917fbd54df3b0d3d": "Enlever le panneau $1 du tableau de bord $2 ?",
+	"917fbd54df3b0d3d": "Retirer le panneau $1 du tableau de bord $2 ?",
 	"92d27975bd0918a7": "Ajouter un onglet...",
 	"94a4d04cf7483b17": "Activer les panneaux",
 	"95624aaeb16b11b7": "Archiver le panneau ?",
@@ -269,5 +269,5 @@
 	"fb10d962baac8a8e": "Onglet sans nom",
 	"fb12e20253aed17b": "Activer le panneau",
 	"fb88218db7fdd020": "Saisissez un nom de tableau de bord...",
-	"fdb587f6aef9fcaf": "Enlever l’onglet"
+	"fdb587f6aef9fcaf": "Retirer l’onglet"
 }

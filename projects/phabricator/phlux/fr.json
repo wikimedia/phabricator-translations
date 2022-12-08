@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Motla",
+			"Verdy p",
 			"Wladek92",
 			"Zarisi"
 		]
@@ -9,7 +10,7 @@
 	"240e78f1aa62fbef": "Mettre à jour la variable",
 	"3074a4a63133c645": "La valeur de la variable doit être du JSON valide.",
 	"307d4957be65dd3a": "Lettres minuscules, chiffres, points ou tirets uniquement.",
-	"3d3684e1f79c7996": "Modifier la variable: $1",
+	"3d3684e1f79c7996": "Modifier la variable : $1",
 	"45d41b3427ac820a": "Enregistrement de Clé/Valeur de configuration",
 	"5b3d65a8738a83f4": "Variable « $1 »",
 	"8fbf110b5f9b11ca": "Variables de Phlux",
@@ -21,6 +22,6 @@
 	"c130b080f0d0694c": "$1 a créé cette variable.",
 	"c73e063e2ac09a6e": "Éditer une variable",
 	"c75bafc134c47ab1": "Liste de variables",
-	"ce39d9d87f4cf49a": "La clé de la variable est requise.",
+	"ce39d9d87f4cf49a": "La clé de la variable est obligatoire.",
 	"ced53994219494a6": "La clé de variable « $1 » ne doit contenir que des lettres minuscules, chiffres, point et tiret."
 }

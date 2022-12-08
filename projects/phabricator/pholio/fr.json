@@ -63,7 +63,7 @@
 	"8fd9492e02b27f37": "$1 a ouvert cette simulation.",
 	"9172fd261436d7ce": "Historique de la simulation",
 	"92a6f251ae8fc7ad": "Commandes de courriel : maquettes",
-	"9537ddb0aa40128a": "Il n’existe aucune image avec le PHID « $1 ».",
+	"9537ddb0aa40128a": "Aucune image n’existe avec le PHID « $1 ».",
 	"993b1534e63a4914": "$1 a renommé une image ($2) de « $3 » en « $4 ».",
 	"9f16b82b674a357d": "$1 a mis à jour la séquence d’une image ($2).",
 	"a44fc0912e20eec4": "$1 a mis à jour la séquence d’images de $2.",

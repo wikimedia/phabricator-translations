@@ -11,6 +11,7 @@
 			"Otefenli",
 			"SaldırganSincap",
 			"Satirdan kahraman",
+			"ToprakM",
 			"Uncitoyen",
 			"Uğurkent"
 		]
@@ -1099,7 +1100,7 @@
 	"a239107ef28f6efe": "Sürümler",
 	"a276dfcfab0005d0": "Bilinmeyen durum özelliğine (\"$1\") erişilmeye çalışılıyor.",
 	"a285a96249672249": "Verilerin tutulacağı pozitif gün sayısını belirtin.",
-	"a29746a2f5f1995c": "'$1' yaması varolmayan bağımlılıktan bahsediyor, '$2'. Yamalar sadece gerçekte var olan yamalara bağlı olabilir.",
+	"a29746a2f5f1995c": "'$1' yaması var olmayan bağımlılıktan bahsediyor, '$2'. Yamalar sadece gerçekte var olan yamalara bağlı olabilir.",
 	"a2a1b4ca576c6778": "CVC",
 	"a2bb9d34b8a1a796": "Bitiş",
 	"a2c6f5338adb120e": "$1, $2 arşivledi.",

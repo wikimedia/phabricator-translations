@@ -906,7 +906,7 @@
 	"f29a4d565d6c7f5a": "Afficher les extensions et modules installés.",
 	"f36a227ecb81f7a3": "Cache de Opcode",
 	"f37bd3eb5b302f54": "Spécifiez une valeur pour définir la clé de configuration « $1 », ou bien utilisez « --stdin » pour lire en valeur depuis le flux d’entrée standard.",
-	"f37eb5d7f91d58df": "ID de la clé SSH utilisée pour authentifier la requête.",
+	"f37eb5d7f91d58df": "Identifiant de la clé SSH utilisée pour authentifier la requête.",
 	"f3acd6a83943b3e7": "États-Unis Est (EDT)",
 	"f3c6e9127363e82f": "Le référent HTTP.",
 	"f3d2a276584b3191": "Paramètres HTTP non transmis",

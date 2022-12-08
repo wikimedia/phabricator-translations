@@ -82,7 +82,7 @@
 	"662c0b09866952be": "Ce travail attend que des tâches soient ajoutées dans la file.",
 	"66a69dcf67eda0ef": "ERREUR : la fonction PHP $1 est désactivée. Vous devez l’activer pour exécuter des services d’arrière-plan sur cette machine.",
 	"68971ee0d218f55b": "État du bail",
-	"6e27d5bc7de24060": "Afficher les journaux pour les services d’arrière-plan avec leur(s) ID donné(s).",
+	"6e27d5bc7de24060": "Afficher les journaux pour les services d’arrière-plan avec leur(s) identifiant(s) donné(s).",
 	"6e494fbf60a13bb1": "$1 exige l’existence du répertoire « $2 », mais il n’existe pas et n’a pas pu être créé. Créez ce répertoire ou mettez à jour « $3 » dans votre configuration pour pointer vers un répertoire existant.",
 	"706b738b57e68b14": "Spécifier une proportion de la mémoire de la machine qui doit rester libre avant d’agrandir les réserves dimensionnées automatiquement. Par exemple, une valeur « 0,25 » indique que les réserves ne grandiront pas tant que la machine n’a pas au moins 25 %% de mémoire libre.",
 	"70bbcffe1d2edbe4": "Vérifier les journaux pour un verrou particulier.",

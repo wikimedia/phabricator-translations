@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Can",
 			"Joseph",
-			"Melissadilara"
+			"Melissadilara",
+			"ToprakM"
 		]
 	},
 	"00a3cc5b55d618dc": "Hizmet PHID'si.",
@@ -43,7 +44,7 @@
 	"1cccf994aa11b668": "Almanak hizmetleri oluşturma izniniz yok.",
 	"1f05c7441d7d8172": "Almanak hizmeti, cihazı, özelliği, ağı ve ad alanı adları noktalara bitişik kısa çizgiler içeremez.",
 	"1f89b3c75de1b453": "$1 kimliğine sahip ortak anahtara zaten güveniliyor.",
-	"2069cacc0bc1498f": "Varolmayan veya kısıtlanmış bir hizmeti bağlayamazsınız.",
+	"2069cacc0bc1498f": "Var olmayan veya kısıtlanmış bir hizmeti bağlayamazsınız.",
 	"2189b0092b7bc0a1": "$1 bu bağlayıcıyı etkinleştirdi.",
 	"2208e282e34d3837": "Anahtarlar zaten diskte olsa bile bu ana bilgisayarı kaydedin.",
 	"222ebe28a3e0c1fe": "Arayüz PHID.",
@@ -278,7 +279,7 @@
 	"cb8cedd40865e9e4": "Almanak Ağları bulunamadı.",
 	"cc6dd1afbaa61d4d": "Almanak Ağı",
 	"cc82cc5abe427ee3": "Küme hizmetlerini yönetme izniniz yok.",
-	"cc8615da9f010953": "Varolmayan veya kısıtlı bir ağa arabirim koyamazsınız.",
+	"cc8615da9f010953": "Var olmayan veya kısıtlı bir ağa arabirim koyamazsınız.",
 	"ccae75cdd4db3216": "$1:$2 ($3 üzerinde $4)",
 	"cd133e6ca8e371d4": "Arayüz Oluştur",
 	"ceef0530e6a41257": "Ağları ad dizgisine göre arayın.",

@@ -9,7 +9,7 @@
 		]
 	},
 	"0072617b574af150": "Branche Releeph inconnue.",
-	"0101706cb0f24a8c": "Aucun ID de validation n’a été fourni.",
+	"0101706cb0f24a8c": "Aucun identifiant de validation n’a été fourni.",
 	"02f5cd413b47d7ac": "Requête Releeph",
 	"036f592ba651039b": "Obtenir un message de validation suite à la validation d’une branche Releeph.",
 	"04bdc175519cec89": "Modifier la requête de tirage",
@@ -218,7 +218,7 @@
 	"ed02cec283522233": "Retourne des informations pour aider à récupérer / scinder une branche Releeph.",
 	"eec61924d62ed8c1": "Un autre produit utilise déjà ce nom.",
 	"f0d7eaea5e4df14e": "Demandeurs",
-	"f0e7d81d50b2e0e7": "Un ID de validation pour votre type de dépôt, ou un ID de diffusion comme « rE123 »",
+	"f0e7d81d50b2e0e7": "Un identifiant de validation pour votre type de dépôt, ou bien un identifiant de diffusion comme « rE123 »",
 	"f219cc0614ae6860": "Motif",
 	"f322de9ad950a446": "restauré",
 	"f3c4859abc738d02": "La branche de développement, de laquelle seront choisies les requêtes.",

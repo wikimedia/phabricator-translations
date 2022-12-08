@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"ThisCarthing",
 			"Tobi 406"
 		]
 	},
-	"6bbbdac8f41b22d9": "$1 Hilfe"
+	"17b251be5661401b": "Schließe alle Dialoge, auch diesen.",
+	"47d16aa0f68a0f68": "Seitenkürzel",
+	"6bbbdac8f41b22d9": "$1 Hilfe",
+	"74a0401e1c560ba1": "Inhalt ausblenden",
+	"9b2c45900d277c38": "Globale Kürzel",
+	"b465751c05fbc426": "Tastaturkürzel"
 }

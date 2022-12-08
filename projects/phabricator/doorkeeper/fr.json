@@ -39,7 +39,7 @@
 	"8a53c9dbe1f9588d": "JIRA $1",
 	"8ae9f68045c127b9": "Tâche Asana $1",
 	"8ce8fb11e536b936": "Problème GitHub $1",
-	"9169b136e6c857c4": "ID de l’espace de travail Asana dans lequel publier.",
+	"9169b136e6c857c4": "Identifiant de l’espace de travail Asana dans lequel publier.",
 	"9440ddf3620e1a44": "⚠ NE PAS MODIFIER CETTE TÂCHE ⚠\n☠ Vos modifications ne se répercuteront pas dans Phabricator.\n☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.",
 	"94ebdc31fea83b00": "Suppression de l’arête de la sous-tâche vers $1, l’objet étranger n’est pas visible.",
 	"95b7977d8579fb11": "Intégration avec Asana",

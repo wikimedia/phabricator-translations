@@ -680,7 +680,7 @@
 	"f8f4433d383354f6": "Désactiver le plan",
 	"f961e039d1675f95": "Activer ce plan de construction ?",
 	"f9ed1aa27b801ced": "Copie de travail de Drydock",
-	"fa54acbe2055e753": "Afficher davantage ($1 octets)",
+	"fa54acbe2055e753": "Afficher davantage ($1 octets)",
 	"fa56989955e94381": "L’état global d’un constructible (comme une validation ou une version) est normalement l’agrégation des états individuels de toutes les constructions qui s'y sont exécutées.\n\nLes constructibles restent « en cours de construction » tant que toutes les constructions ne sont pas passées (ce qui change leur état en « réussi ») ou que des constructions ont échoué (ce qui change leur état en « échoué »).\n\nVous pouvez changer ce comportement si vous ne voulez pas attendre cette construction ou si ne vous souciez pas qu’elle échoue.",
 	"fa6ab34af3278125": "La construction peut être recommencée si elle a échouée.",
 	"fa7fb32792dd8370": "Une construction hérite des politiques de son constructible.",

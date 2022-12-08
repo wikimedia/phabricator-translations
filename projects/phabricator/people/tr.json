@@ -5,7 +5,8 @@
 			"Can",
 			"Joseph",
 			"LuCKY",
-			"Melissadilara"
+			"Melissadilara",
+			"ToprakM"
 		]
 	},
 	"00c0cf3b69c5a54c": "Kitap",
@@ -284,7 +285,7 @@
 	"c33ff01f3b013690": "Kullanıcıları onaylamak için yönetici olmanız gerekir.",
 	"c3954da065f4cf52": "Harici Hesap Tanımlayıcı",
 	"c4373b9d02051927": "Boru: Sertifikayı Oku",
-	"c43e4bf2f1c2cc2e": "**Bot hesaplarının neden bir e-posta adresine ihtiyacı var?**\n\nBotlar normalde Phabricator'dan e-posta almasalar da, e-posta adresi gerektiren diğer sistemlerle etkileşime girebilirler. Örnekler şunları içerir:\n\n  - Hesap e-posta gönderen eylemler gerçekleştirirse, başlığında kullanmak için bir adrese ihtiyacımız var.\n  - Hesap taahhüt ederse Git ve Mercurial, yazarlık için bir e-posta adresi ister.\n  - Hesap adına Phabricator'a e-posta gönderirseniz, adres göndereni tanımlayabilir.\n  - Bazı dahili kimlik doğrulama işlevleri, bir e-posta adresine sahip hesaplara bağlıdır.\n\n\nAdres otomatik olarak doğrulanacaktır, bu nedenle bu adreste posta alabilmeniz gerekmez ve eğer istersen `bot@yourcompany.com` gibi bazı geçersiz veya varolmayan (ancak doğru biçimlendirilmiş) bir adres girebilirsiniz.",
+	"c43e4bf2f1c2cc2e": "**Bot hesaplarının neden bir e-posta adresine ihtiyacı var?**\n\nBotlar normalde Phabricator'dan e-posta almasalar da, e-posta adresi gerektiren diğer sistemlerle etkileşime girebilirler. Örnekler şunları içerir:\n\n  - Hesap e-posta gönderen eylemler gerçekleştirirse, başlığında kullanmak için bir adrese ihtiyacımız var.\n  - Hesap taahhüt ederse Git ve Mercurial, yazarlık için bir e-posta adresi ister.\n  - Hesap adına Phabricator'a e-posta gönderirseniz, adres göndereni tanımlayabilir.\n  - Bazı dahili kimlik doğrulama işlevleri, bir e-posta adresine sahip hesaplara bağlıdır.\n\n\nAdres otomatik olarak doğrulanacaktır, bu nedenle bu adreste posta alabilmeniz gerekmez ve eğer istersen `bot@yourcompany.com` gibi bazı geçersiz veya var olmayan (ancak doğru biçimlendirilmiş) bir adres girebilirsiniz.",
 	"c452adfe90e4ef26": "Onay Sırası",
 	"c4aff31a83bb2341": "Casus",
 	"c4b5e97b440a70e0": "Hesap rollerinin listesi.",

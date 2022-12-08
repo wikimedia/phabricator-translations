@@ -119,7 +119,7 @@
 	"ae5e91af5ddac2e1": "$1 a rerouté cet élément de $2 à $3.",
 	"ae6ba26ea1683c14": "Les détenteurs d’un élément peuvent toujours le visualiser.",
 	"af3ed0a69a64b09d": "Événement brut",
-	"b0e633effe943872": "Il n’existe aucun élément de Nuance avec le PHID « $1 ».",
+	"b0e633effe943872": "Aucun élément de Nuance n’existe avec le PHID « $1 ».",
 	"b1b6108e947daee7": "Toutes les sources",
 	"b230a7c87c22a55e": "Exception lors du décodage des données de test pour le test « $1 ».",
 	"b2d76f9d2cf87c5e": "Vous essayez d’agir sur cet élément depuis la mauvaise file : il est dans une file différente.",

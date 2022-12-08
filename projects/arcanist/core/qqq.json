@@ -2460,7 +2460,7 @@
 	"e759b94db2a34bad": "Used in:\n\nArcanistMercurialAPI.php:173",
 	"e7730ebdeb74cc2f": "Used in:\n\nArcanistPromptsWorkflow.php:85",
 	"e7797d88508060b4": "Used in:\n\nArcanistArcToolset.php:12",
-	"e782e7728e490d1a": "Used in:\n\nArcanistLandEngine.php:1323\nArcanistGitLandEngine.php:449\nArcanistLiberateWorkflow.php:92\nArcanistDownloadWorkflow.php:185\nArcanistPasteWorkflow.php:156",
+	"e782e7728e490d1a": "Used in:\n* [https://github.com/phacility/arcanist/blob/master/src/land/engine/ArcanistLandEngine.php ArcanistLandEngine.php:1323]\n* [https://github.com/phacility/arcanist/blob/master/src/land/engine/ArcanistGitLandEngine.php ArcanistGitLandEngine.php:449]\n* [https://github.com/phacility/arcanist/blob/master/src/workflow/ArcanistLiberateWorkflow.php ArcanistLiberateWorkflow.php:92]\n* [https://github.com/phacility/arcanist/blob/master/src/workflow/ArcanistDownloadWorkflow.php ArcanistDownloadWorkflow.php:185]\n* [https://github.com/phacility/arcanist/blob/master/src/workflow/ArcanistPasteWorkflow.php ArcanistPasteWorkflow.php:156]",
 	"e7931017eefda2f3": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\nArcanistMercurialLandEngine.php:538\nArcanistGitLandEngine.php:1430",
 	"e79e6fbe26bdd1ea": "Used in:\n\nArcanistCoverWorkflow.php:130",
 	"e7cc6f40e0ffaeba": "Used in:\n\nArcanistDiffWorkflow.php:109",

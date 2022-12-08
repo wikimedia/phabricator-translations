@@ -5,6 +5,7 @@
 			"FF-11",
 			"FF11",
 			"Leon95",
+			"ThisCarthing",
 			"Tobi 406"
 		]
 	},
@@ -46,6 +47,7 @@
 	"5ffbaf136a4c7cae": "Änderungen gespeichert.",
 	"6af17d6765d56e22": "Wirklich Addresse \"$1\" löschen?",
 	"6d7d0ee12d2368d5": "Ein anderer Benutzer hat diese E-Mail schon.",
+	"70478ae1190e3b97": "HTML-E-Mail",
 	"729209787c563056": "Globale Standards",
 	"742f34eb9b4157fb": "Phabricator kann Echtzeitbenachritungen an deinen Browser oder deinen Desktop senden. Wähle wo du deine Benachrichtigungen erhalten willst.",
 	"781b13031392e2f6": "Zeitzone ändern",
@@ -62,7 +64,9 @@
 	"9c906025ce106f89": "\"Re:\"-Präfix deaktivieren",
 	"a3e8d4eec273b412": "E-Mail-Benachrichtigungen",
 	"a72159dd179122d2": "Keine Benachrichtigungen",
+	"a78ad27761617081": "Vim",
 	"a8834e2accac9d14": "Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt",
+	"ac26a7a94ea2e664": "Übersetzung",
 	"b53bcdaddd0539de": "Zeitformat",
 	"b67d3ce6b6818eb6": "Benachrichtigungen senden",
 	"b7baa1d40c4ea29a": "Nummer",
