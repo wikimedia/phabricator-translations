@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"捍粵者"
 		]
 	},
 	"01e30de312eae0aa": "XHProf 樣本",
@@ -18,7 +19,7 @@
 	"68d5ced71e82cd17": "$1分析",
 	"91e4fc2fd727793b": "此功能花費的經過時間，有將子項所花費的時間給排除（子項是在呼叫此時，執行期間的其它功能）。",
 	"93bdcecc9624ca26": "手動運行",
-	"a04ce39eb6a65a4b": "拖放 .xhprof 檔案來匯入它們。",
+	"a04ce39eb6a65a4b": "拖放.xhprof檔來匯入它們。",
 	"aeb1f8e83b6fb6c1": "PHP 性能分析工具",
 	"ba808f702b24f82c": "此呼叫的測量",
 	"bffb93b89ee1e5b6": "反序列化 XHProf 分析失敗！",
