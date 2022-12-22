@@ -143,7 +143,7 @@
 	"7ce21ab65d3b10fb": "Ce tableau de bord va être marqué comme archivé.",
 	"7d7ec8d4b39c4f14": "Ce moteur est utilisé pour modifier les portails.",
 	"7e3c816bcbf7950c": "Les moteurs de recherche d’application de la classe « $1 » ne peuvent pas être utilisés pour construire des onglets de tableaux de bord.",
-	"8218f78fdff868d0": "Le paramètre obligatoire `parentPanelPHIDs` est absent dans la requête.",
+	"8218f78fdff868d0": "Le paramètre obligatoire `parentPanelPHIDs` est manquant dans la requête.",
 	"82eee5c89a71d8e2": "Déplacer cet onglet vers la droite ?",
 	"8337a7f6e0ec698e": "Découverte de chemin",
 	"83bd3c0c0cd9b54a": "PHP est en vie",

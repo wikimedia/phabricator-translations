@@ -936,7 +936,7 @@
 	"fe50f65d906998b3": "Confirmer le lien du compte $1",
 	"fe53e09d0ff6362e": "Vous n’avez pas configuré de boîte courriel SMS sortante. Vous devez en configurer une avant de pouvoir utiliser les SMS. Voir : $1",
 	"fe684fdd110aa64a": "Fournisseur déjà configuré",
-	"fe71474bc99537ca": "Le témoin de l'ID client est absent.",
+	"fe71474bc99537ca": "Le témoin de l’identifiant client est manquant.",
 	"fe84a8f290883b60": "Pour chercher un enregistrement LDAP avant de s’authentifier, cocher soit la case **Toujours rechercher**, ou saisir un nom d’utilisateur anonyme et un mot de passe à utiliser pour effectuer la recherche.",
 	"fec64c6e984c23be": "Compte duo d’inscription : $1",
 	"ff360bddb0e45712": "Ignoré, le fournisseur n'est pas un fournisseur OAuth2.",

@@ -907,7 +907,7 @@
 	"e28404715e97313c": "N'est pas un dépôt hébergé",
 	"e287277b92d60652": "La valeur « $1 » n’est pas un paramètre IO valide pour cet URI. Les types disponibles pour cet URI sont : $2.",
 	"e29165ff0b835039": "Refus d'ajouter l'auteur de la validation en tant qu'auditeur : $1.",
-	"e297ef1378a456cc": "Binaire $1 absent",
+	"e297ef1378a456cc": "Binaire $1 manquant",
 	"e2f3b806504b80c1": "Impossible de charger le service de grappe.",
 	"e3b2b9e99b3a5d09": "Utilise les symboles de",
 	"e3cc910df1e0135f": "Ce chemin était un répertoire vide sur $1.",

@@ -1426,7 +1426,7 @@
 	"b4f298a9a8e78cdd": "COMMENTAIRES EN LIGNE",
 	"b4f2bf3c98052d91": "Vous avez un schéma en surplus (tables ou colonnes supplémentaires que Phabricator n’attend pas). Pour savoir comment résoudre ces problèmes, voyez la section « Schéma en surplus » de l’article « Gestion des ajustements du stockage » dans la documentation.",
 	"b4f4972423060c9c": "État actif ou inactif.",
-	"b501d73e19971f22": "Paramètre absent ou mal formaté.",
+	"b501d73e19971f22": "Paramètre manquant ou mal formaté.",
 	"b50602254f85ed9b": "Êtes-vous complètement sûr{{GENDER:||e}} de réellement vouloir détruire définitivement la totalité de l’espace de stockage des données de Phabricator sur l’hôte « $1 » ? Cette opération est irréversible et vos données ne pourront pas être récupérées si vous le faites.",
 	"b52b36b7269fbfc5": "Retour",
 	"b54cc20901666436": "$1 a signalé un problème avec cette validation.",
