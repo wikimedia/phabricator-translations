@@ -3,6 +3,7 @@
 		"authors": [
 			"0x3C33",
 			"FF-11",
+			"Felix3qH4",
 			"Gyteck",
 			"Leon95",
 			"MarcoFalke",
@@ -21,6 +22,7 @@
 	"0034df47f76f0aef": "Kürzung von $1",
 	"0036a9c91e10fbf2": "Soll einen Fehler bei fehlender Eingabe auslösen",
 	"008e572e126baa15": "Lint-Deaktivierer",
+	"0099091670df1068": "Aufruf von \"posix_getpgid(...)\" fehlgeschlagen!",
 	"00d4c70e036c7f07": "Rufe Conduit-API-Methoden auf.",
 	"0130cf996815555d": "Das Symbol \"$1\" kennzeichnet keine gültige Revision.",
 	"013b0fec777a1671": "Ein Linter für Dateien mit Bezug auf Composer.",
