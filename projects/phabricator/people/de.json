@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Justman10000",
 			"Leon95",
 			"Rechnerfuchs",
 			"Tobi 406"
@@ -127,6 +128,7 @@
 	"ea424d38af72dd13": "IP",
 	"ed7e09ad1efa8821": "Nur Administratoren anzeigen",
 	"f3afff1f70d65daa": "Neuer Benutzername",
+	"f98db0153727189a": "Benutzer seit",
 	"f9a76abef3d379b9": "$1 aktivierte diesen Benutzer.",
 	"fbbc5881bce944be": "Bot-Benutzer erstellen",
 	"ff69626f5c7ab4d3": "Kontotyp"
