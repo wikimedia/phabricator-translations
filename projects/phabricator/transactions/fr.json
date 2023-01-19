@@ -91,7 +91,7 @@
 	"27c7ad05c1f81d66": "L’objet source est associé au fichier de destination.",
 	"2803a14f3c91354f": "Parcourir les formulaires",
 	"285b25e7330caad2": "La contrainte « authorPHIDs » (PHID des auteurs) passée à « transaction.search » nécessite une liste non vide, mais une liste vide a été fournie.",
-	"2863a58b2859a210": "Spécifiez un format d'exportation avec « --format ».",
+	"2863a58b2859a210": "Spécifiez un format d’exportation avec « --format ».",
 	"28874d2ba2441b0a": "Utilisation des paramètres HTTP",
 	"294c388440b4ed39": "Le sous-type « $1 » n’est pas valide : les clés de sous-type doivent avoir une longueur minimale de 3 octets.",
 	"296f8b58c6553d15": "Attendu une clé de requête ou un ensemble de contraintes de requête.",
