@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Justman10000",
 			"Leon95",
 			"Umlaut"
 		]
@@ -19,7 +20,7 @@
 	"1c3b20d39ec83dd2": "Neue Nachricht",
 	"2525359b6e74c6ca": "$1 hat diesen Raum von $2 in $3 umbenannt.",
 	"2e89adf9d282aa8b": "Melden Sie sich an, um teilzunehmen",
-	"30461da962ef2b1d": "Erstellen Sie einen Raum",
+	"30461da962ef2b1d": "Einen Raum erstellen",
 	"3144c1cdf1c85b02": "Raumeinstellungen",
 	"346da4a38fa2d77b": "$1 hat den Raum verlassen.",
 	"34dddd91f55985fe": "Mit anderen chatten",
