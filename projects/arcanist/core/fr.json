@@ -2410,7 +2410,7 @@
 	"e0a361cdd033920c": "<... $1 validation{{PLURAL:$1||s}} supplémentaire{{PLURAL:$1||s}}...>",
 	"e0ac3c4e0da81dab": "j M Y",
 	"e0b1afbef5c2fc60": "Vous êtes couvert, vous n’avez rien modifié.",
-	"e0df539df0461ab4": "Lint en cours…",
+	"e0df539df0461ab4": "Analyse Lint en cours...",
 	"e10887efa9b40e6b": "Clé dupliquée dans le tableau",
 	"e1115c3f5ca1e50d": "RuboCop est un analyseur de code Ruby statique, basé sur le guide de style Ruby de la communauté.",
 	"e13e50515c0f559f": "Nouveau diff de Différentiel créé :",
