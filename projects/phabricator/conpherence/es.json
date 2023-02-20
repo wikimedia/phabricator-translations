@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kunatai",
 			"MarcoAurelio"
 		]
 	},
@@ -55,7 +56,11 @@
 	"76f453d343cd6254": "Inicia sesión para unirte a esta sala y participar.",
 	"7a913eaae63dd764": "Crear sala",
 	"7ca80e6bc217790e": "Serán capaces de entrar en la sala de nuevo.",
+	"7e13bd176f89a12f": "Asunto",
 	"8517db9dd6315e88": "Crear nueva sala",
+	"8ecff24e43c3204a": "Salas de Conpherence",
+	"90e2fca9e9906b83": "Sala",
+	"cd56e0839d06af74": "Participantes",
 	"e8153b6866c30559": "Ocultar ventana",
 	"fc8d44e10d8511d4": "El asunto no puede tener más de $1 caracteres.",
 	"fd0bf50c90680c30": "$1 actualizó la imagen de la sala.",
