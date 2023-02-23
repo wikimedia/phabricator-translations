@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Justman10000",
+			"Kunatai",
 			"Leon95",
 			"Umlaut"
 		]
@@ -15,6 +16,7 @@
 	"1408ab9c24709ceb": "$1 änderte das Raumthema zu $2 .",
 	"17298d8fe4862507": "Alle Räume",
 	"17346b0adc64aec8": "Raumbild",
+	"185b5eae3c48e62c": "Sie müssen die PHIDs der Teilnehmer eingeben.",
 	"18d8e9d4a76669d2": "Raum bearbeiten: $1",
 	"1b9c455a44290f72": "$1 aus diesem Raum entfernen?",
 	"1c3b20d39ec83dd2": "Neue Nachricht",
