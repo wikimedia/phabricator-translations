@@ -305,7 +305,7 @@
 	"28a3b5b122806fe3": "Pour utiliser MD5 de façon itérée, rendre disponible la fonction md5().",
 	"28ac64e4e73abb89": "Aucun problème.",
 	"28bdcbff2bcab3fa": "Un espace de noms ne peut contenir aucun deux-points.",
-	"28fe3da18e520ce3": "Cette requête (de classe « $1 ») n’implémente pas newResultObject(), mais elle doit implémenter cette méthode pour activer la prise en charge des Espaces.",
+	"28fe3da18e520ce3": "Cette requête (de classe « $1 ») ne met pas en œuvre la méthode newResultObject(), mais elle doit le faire pour activer la prise en charge des Espaces.",
 	"2907503b867bd1d7": "Mettre en valeur comme...",
 	"29505906c12dc092": "$1 a modifié les métadonnées de l’arête.",
 	"29e4ededb97fbfcc": "Exception attendue pour les paires d’entête de : $1",
