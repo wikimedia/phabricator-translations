@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"000da3e13a570535": "Kun julkaisija on luotu, sen avainta ei voi muuttaa.",
+	"02ca2bb505ef0916": "Julkaisijoita ei löytynyt.",
+	"107e7fab79b95c8f": "Julkaisijat",
+	"1c658324bfe15ced": "Voi luoda julkaisijoita",
+	"1da68c9ee9b2b9d5": "$1 loi tämän paketin.",
+	"3bf31ca4e5843df9": "Julkaise ohjelmisto",
+	"40ab4c0ce406dbf7": "Kaikki versiot",
+	"5c67ac1a912e8141": "$1 loi tämän julkaisijan.",
+	"61d70d6e8feec4a2": "Julkaisija",
+	"70bb3dc1d1826369": "Paketeilla tulee olla nimi.",
+	"73601ac53e8b90c5": "Muokkaa versiota: $1",
+	"76c3796f3c68c12b": "Julkaisijoilla on oltava nimi.",
+	"86e81faccdbe5c5a": "Luo versio",
+	"a8284e9e29a06107": "Versioita ei löytynyt.",
+	"ac433d41a1bc58e6": "Versioilla on oltava nimi.",
+	"b4bccd763f48a89a": "Luo julkaisija",
+	"bd139dc8dbfc1420": "Paketti tälle versiolle.",
+	"d3b96521c70e2a50": "Version nimi.",
+	"d9140af29e2a77ad": "Version nimi.",
+	"e671f72cc2f8cd55": "$1 loi tämän version.",
+	"f4e71c2ab338a7a7": "Muokkaa julkaisijaa",
+	"f5d3ddf586b71c99": "Julkaisijan nimi.",
+	"f9b21982723b89f9": "Kun versio on luotu, sen pakettia ei voi muuttaa.",
+	"fe09fb3b6dbca6ee": "Kirjoita julkaisijan nimi..."
+}
