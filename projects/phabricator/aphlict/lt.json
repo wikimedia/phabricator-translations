@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"04619b5d014f1cc6": "Nusiųsti pranešimą naudotojui.",
+	"11399b1faec2eb8e": "Nepavyko $1!",
+	"197162c832f1d7fd": "KLAIDA: PHP funkcija $1 išjungta. Turite ją įjungti, kad galėtumėte paleisti Aphlict šiame įrenginyje.",
+	"2a74a7eaa12bf589": "Sustabdyti pranešimų serverį.",
+	"2bea7e7c0b236c1c": "Konfigūracijos failas nėra tinkamai suformatuotas JSON. $1",
+	"43256ef7ad916881": "KLAIDA: PHP plėtinys „$1“ neįdiegtas. Norėdami paleisti Aphlict šiame įrenginyje, turite jį įdiegti.",
+	"4a6fab4d39af26a5": "Nepavyko sukurti katalogo „$1“ nurodytam žurnalo failui (su indeksu „$2“). Turėtumėte rankiniu būdu sukurti šį katalogą arba pasirinkti kitą žurnalo failo vietą. $3",
+	"5884e7023c7e8b80": "Aphlict šiuo metu neveikia.",
+	"59c7d5844f411703": "Pirmiausia turite $1!",
+	"7284ce8f9f3ef857": "Paleidžiamas serveris:",
+	"7b1c6f1c1209a55f": "Serveris išjungtas!",
+	"8bc94a976bc4b3a4": "Rodyti pranešimų serverio būseną.",
+	"8d93b1b51e918a37": "Konfigūracijos failas nenurodo jokių serverių. Ši paslauga negalės sąveikauti su išoriniu pasauliu, jei neklausys jokiuose prievaduose. Turite nurodyti bent vieną „$1“ serverį ir bent vieną „$2“ serverį.",
+	"90a12173d6f5b1b1": "Paleisti pranešimų serverį.",
+	"98c6c6c1b5b17ce4": "Naudotojas, kuriam pranešti.",
+	"9c283944e8b5c91f": "Sustabdyti, tada paleisti pranešimų serverį.",
+	"a301322c9af125fc": "Nepavyko nuskaityti konfigūracijos failo. $1",
+	"a8721c186dac05cb": "Įrašomi žurnalai į: $1",
+	"ac84f97164a13e1b": "Nurodykite naudotoją, kuriam pranešti naudodami „--user“.",
+	"c3e64797a0f467cd": "Pranešimas siuntimui.",
+	"cea3124adbe8bdfe": "Aphlict serveris ($1) išsijungė normaliai.",
+	"d3c6844361a2d518": "Skaitoma konfigūracija iš: $1",
+	"dc7bd081083334cc": "Nepavyko paleisti pranešimų serverio, nes jis jau veikia. Norėdami jį iš naujo paleisti, naudokite `$1`.",
+	"e81031fd1ab36137": "Nurodykite pranešimą, kurį norite siųsti su „--message“.",
+	"e9b8eb62ee46ecb8": "Išsiųstas pranešimas.",
+	"ef767ed0bf9b70c0": "Aphlict serveris paleistas.",
+	"f1570b670f1047c5": "Stabdomas Aphlict serveris ($1)...",
+	"f9bbe9286badce6f": "Nepavyko sukurti katalogo „$1“ nurodytam PID failui. Turėtumėte rankiniu būdu sukurti šį katalogą arba pasirinkti kitą PID failo vietą. $2",
+	"9842684281972986": "Aphlict ($1) veikia."
+}
