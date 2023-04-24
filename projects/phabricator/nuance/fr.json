@@ -12,7 +12,7 @@
 	"0bd62b4788088d92": "Modifier la file",
 	"0e7d18e16a7d114e": "$1 a défini une propriété sur cet élément.",
 	"0f2ac3ee18a8f0dc": "Formulaire Phabricator",
-	"10cb837d48c4ecc0": "Non assigné : $1",
+	"10cb837d48c4ecc0": "Désaffecté : $1",
 	"1373628a7cdde812": "$1 a changé la file par défaut pour cette source de $2 en $3.",
 	"13a2066f8c1d0e44": "Cette source (« $1 ») n’a aucun curseur « $2 ». Curseurs disponibles : $3.",
 	"13a2a0cff6783ead": "Branche $1",
