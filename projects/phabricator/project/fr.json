@@ -274,7 +274,7 @@
 	"6087957f1c89ecf8": "Exploration seulement",
 	"60ba019503bfecea": "Rapports de projet",
 	"60e73fcb4599b6bd": "Le déclencheur \"$1\" n'est pas un déclencheur valide, ou vous n'avez pas la permission de l'afficher.",
-	"6162d9d6b90639a7": "(Obsolète.) Recherche des projets avec un nom donné ou un hashtag à l'aide des règles de concordance des requêtes de l'analyseur de balises ou de la source de données. Ceci est obsolète en faveur des contraintes plus puissantes de \"query\".",
+	"6162d9d6b90639a7": "(Obsolète.) Recherche des projets avec un nom donné ou un mot-dièse à l’aide des règles de concordance des requêtes de l’analyseur de balises ou de la source de données. Ceci est obsolète en faveur de plus puissantes contraintes pour « query ».",
 	"61dcc4cbd43a0766": "$1 a retiré $2 membre(s) pour $3 : $4.",
 	"622c41bcb9b8e85f": "$1 a défini l’image pour $2 à $3.",
 	"622d5cf77bf872f0": "Ajout de $1 projet{{PLURAL:$1||s}}: $2.",
