@@ -3,6 +3,7 @@
 		"authors": [
 			"0x3C33",
 			"Abcdefg",
+			"DraconicDark",
 			"FF-11",
 			"Felix3qH4",
 			"Gyteck",
@@ -33,6 +34,7 @@
 	"013ec8933730fcd3": "\"$1\" ($2)",
 	"016cde189902b433": "(Keine Nachrichten.)",
 	"018bfac259f28112": "\"$1\" wurde als \"$2\" gespeichert.",
+	"0195007b017e9f88": "Die Nacht ist hereingebrochen. Der zunehmende Mond spendet gerade so viel Licht, dass du deine Umgebung erkennen kannst. Es ist ziemlich kalt.",
 	"01e963ab91acb9c1": "Nicht geparst!",
 	"0210d3ef06cf7ebe": "Portugiesisch (Portugal)",
 	"02286621a3a3189e": "Dateisymbol \"$1\"",
@@ -72,6 +74,7 @@
 	"07b61143a4ee97fb": "Gegen welchen Commit?",
 	"07c209f12f1a9558": "Commit-Nachricht",
 	"0867ebfd23ae8fcf": "Der URI einer Phabricator-Installation, zu der standardmäßig verbunden werden soll, wen $1 in einem Projket ohne Phabricator-URI oder außerhalb eines Projektes ausgeführt wird.",
+	"08a5fa3619ddf212": "Du stehst in der Mitte einer kleinen Lichtung.",
 	"08e55ac73e3843e0": "HLint ist ein Linter für Haskell-Code.",
 	"08e803d8d11ee22e": "Kein übergeordneter Bereich",
 	"09412de8b30c879e": "Aktualisiere die lokale Arbeitskopie, bevor du den Patch anwendest.",
