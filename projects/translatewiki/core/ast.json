@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"0294e4a93c79fe48": "Da'l camín a una biblioteca de la qu'esportar traducciones",
@@ -22,7 +23,7 @@
 	"79e0ecf9d32e5b43": "Datos de frecuencia",
 	"7c0edb1e7c0dcf2a": "Da un ficheru fonte en JSON con «--source».",
 	"8657976c47adf8f2": "Xenerar un ficheru de clase de traducción de Phabricator.",
-	"8941bccc95e2dd69": "Ficheru fonte en JSON que contien cadenes de traducción.",
+	"8941bccc95e2dd69": "Ficheru fonte en JSON que contién cadenes de traducción.",
 	"9cb7bf6f5a17cea5": "Esportar cadenes de traducción dende una biblioteca libphutil.",
 	"b230c79422fb6249": "Escribiendo datos ($1, $2) a «$3»…",
 	"b4f0d48e2f52605e": "Esperábase la estraición de cadenes de la biblioteca pa xenerar el ficheru «$1», pero'l ficheru nun esiste.",
