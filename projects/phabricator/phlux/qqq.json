@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"240e78f1aa62fbef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$148 PhluxEditController.php:148]",
 	"3074a4a63133c645": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$58 PhluxEditController.php:58]",
 	"307d4957be65dd3a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$119 PhluxEditController.php:119]",

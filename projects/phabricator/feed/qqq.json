@@ -1,8 +1,6 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"027c66bf37c9a3b4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/PhabricatorFeedStoryPublisher.php$89 PhabricatorFeedStoryPublisher.php:89]",
+	"0b694d2612ffe0c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/config/PhabricatorFeedConfigOptions.php$23 PhabricatorFeedConfigOptions.php:23]",
 	"20d3d91741172383": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/conduit/FeedQueryConduitAPIMethod.php$34 FeedQueryConduitAPIMethod.php:34]",
 	"355a429bd0ea65d5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/query/PhabricatorFeedSearchEngine.php$113 PhabricatorFeedSearchEngine.php:113]",
 	"3ae912771fea48db": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/conduit/FeedQueryConduitAPIMethod.php$14 FeedQueryConduitAPIMethod.php:14]",
@@ -14,7 +12,6 @@
 	"52d4e024931e864b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/story/PhabricatorFeedStory.php$239 PhabricatorFeedStory.php:239]",
 	"554f3964d2e59e64": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/conduit/FeedQueryConduitAPIMethod.php$37 FeedQueryConduitAPIMethod.php:37]",
 	"6645eef5577e6001": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/query/PhabricatorFeedSearchEngine.php$31 PhabricatorFeedSearchEngine.php:31]",
-	"6846b1412e00b179": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/conduit/FeedPublishConduitAPIMethod.php$14 FeedPublishConduitAPIMethod.php:14]",
 	"6cf9a5228fe4513a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/management/PhabricatorFeedManagementRepublishWorkflow.php$29 PhabricatorFeedManagementRepublishWorkflow.php:29]",
 	"6d2be6376a506a6d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/query/PhabricatorFeedTransactionSearchEngine.php$56 PhabricatorFeedTransactionSearchEngine.php:56]",
 	"6e214f4cf135ea1c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/query/PhabricatorFeedSearchEngine.php$94 PhabricatorFeedSearchEngine.php:94]",

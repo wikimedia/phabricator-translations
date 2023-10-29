@@ -1,5 +1,6 @@
 {
   "027c66bf37c9a3b4": "Call %s before publishing!",
+  "0b694d2612ffe0c4": "IMPORTANT: Feed hooks are deprecated and have been replaced by Webhooks.\n\nYou can configure Webhooks in Herald. This configuration option will be removed\nin a future version of the software.\n\n(This legacy option may be configured with a list of URIs; feed stories will\nsend to these URIs.)",
   "20d3d91741172383": "Dictionary with various data of the story",
   "355a429bd0ea65d5": "All Stories",
   "3ae912771fea48db": "Query the feed for stories",
@@ -11,7 +12,6 @@
   "52d4e024931e864b": "Story is asking for an object it did not request ('%s')!",
   "554f3964d2e59e64": "Simple one-line plain text representation of story",
   "6645eef5577e6001": "Include Projects",
-  "6846b1412e00b179": "Publish a story to the feed.",
   "6cf9a5228fe4513a": "Specify a story key to republish.",
   "6d2be6376a506a6d": "The specified \"Created Before\" date is earlier in time than the specified \"Created After\" date, so this query can never match any results.",
   "6e214f4cf135ea1c": "The specified \"Occurs Before\" date is earlier in time than the specified \"Occurs After\" date, so this query can never match any results.",

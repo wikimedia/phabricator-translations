@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"08189b0386c8a9c6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/engineextension/PhrequentCurtainExtension.php$55 PhrequentCurtainExtension.php:55]",
 	"0bb685943889897c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/query/PhrequentUserTimeQuery.php$248 PhrequentUserTimeQuery.php:248]",
 	"10e0739fd63c014e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$82 PhrequentTrackController.php:82]",
