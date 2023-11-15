@@ -345,7 +345,7 @@ final class TranslatewikiManagementExportWorkflow
       $help[] = implode("\n", $usage)."\n";
     }
 
-    return implode('', $help);
+    return trim( implode('', $help) );
   }
 
   private function getTranslatewikiGroup(array $spec) {
