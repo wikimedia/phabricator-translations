@@ -1,13 +1,7 @@
 {
-	"@metadata": {
-		"authors": [
-			"DDPAT",
-			"Ice bulldog"
-		]
-	},
 	"08551bfd5a6bcbf3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$392 PhabricatorTypeaheadModularDatasourceController.php:392]",
 	"170409168d52d100": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/application/PhabricatorTypeaheadApplication.php$6 PhabricatorTypeaheadApplication.php:6]",
-	"20ff1176780f707c": "Variable Types: NONE, NONE.\n\nUsed if you logged in to Owned Documents anonymously",
+	"20ff1176780f707c": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadDatasource.php$503 PhabricatorTypeaheadDatasource.php:503]",
 	"24725aa7bb11e312": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$150 PhabricatorTypeaheadFunctionHelpController.php:150]",
 	"28449a5348d1d494": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$113 PhabricatorTypeaheadFunctionHelpController.php:113]",
 	"34cfe49ccc9216f0": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/__tests__/PhabricatorTypeaheadTestNumbersDatasource.php$42 PhabricatorTypeaheadTestNumbersDatasource.php:42]",
@@ -24,7 +18,7 @@
 	"8d6b34815ba43d25": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$373 PhabricatorTypeaheadModularDatasourceController.php:373]",
 	"955060c24efafff9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$106 PhabricatorTypeaheadFunctionHelpController.php:106]",
 	"95eeffb5f4e285b1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadRuntimeCompositeDatasource.php$13 PhabricatorTypeaheadRuntimeCompositeDatasource.php:13]",
-	"9d3d21faa06febbe": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadDatasource.php$487 PhabricatorTypeaheadDatasource.php:487]",
+	"9d3d21faa06febbe": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadDatasource.php$491 PhabricatorTypeaheadDatasource.php:491]",
 	"a2ffe2e525f50b27": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$357 PhabricatorTypeaheadModularDatasourceController.php:357]",
 	"a37d2706eddada6e": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadDatasource.php$284 PhabricatorTypeaheadDatasource.php:284]",
 	"a62bbd6f671f2a93": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$152 PhabricatorTypeaheadModularDatasourceController.php:152]",
