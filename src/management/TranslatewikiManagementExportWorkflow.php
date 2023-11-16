@@ -198,9 +198,7 @@ final class TranslatewikiManagementExportWorkflow
           $data = id(new PhutilJSON())
             ->encodeFormatted($data);
         }
-        if ($write['name'] == 'qqq.json') {
-          $data = str_replace("\n  ","\n\t", $data);
-        }
+
         Filesystem::writeFile($path, $data);
       }
     }
