@@ -4,15 +4,14 @@
 			"Tothasze"
 		]
 	},
-	"09542fd1209ec021": "A Phabricator csendes üzemmódban fut.",
 	"0a776c937debb469": "Elérhető kiadók osztálynevei:",
 	"0e8f9f24b6888746": "JIRA $1 $2",
 	"14fb665a53033c0b": "Munkaterület ID",
+	"23ac387e185e4544": "Amikor a Phabricator feladatait Asana-ban hozza létre, hozzáadhatja a feladatokat az Asana projektekhez, attól függően, hogy melyik alkalmazásból származik a megfelelő objektum a Phabricator-ban. Például kódváltozatokat adhat az Asanában egy \"Differenciál\" projekthez.\nMEGJEGYZÉS: Ez a szolgáltatás új és kísérleti jellegű.",
 	"4abcab3948408ed9": "Az Asana szolgáltató nincs konfigurálva.",
 	"4c7e3895c330ac46": "Asana integrációs lehetőségek.",
 	"54df12d0eccdb308": "A JIRA integráció úgy van beállítva, hogy ne küldjön semmit.",
 	"5e93674cdb7847a6": "A fő feladat frissítésének átugrása után az objektum már nem látható.",
-	"8070f5f6d1a4c74f": "Amikor a Phabricator feladatait Asana-ban hozza létre, hozzáadhatja a feladatokat az Asana projektekhez, attól függően, hogy melyik alkalmazásból származik a megfelelő objektum a Phabricator-ban. Például kódváltozatokat adhat az Asanában egy \"Differenciál\" projekthez.\nMEGJEGYZÉS: Ez a szolgáltatás új és kísérleti jellegű.",
 	"80f6f2ce18cd3dd1": "Nem kapcsolódó felhasználók kapcsolták össze az Asana fiókokat.",
 	"81b2fee2681a21fb": "A történet egy nem támogatott objektumtípusról szól.",
 	"84a3da6f0924f4ed": "Nincs beállítva a JIRA szolgáltató.",
@@ -26,6 +25,7 @@
 	"9ccc701cb24b4d45": "Nem sikerült a külső objektum betöltése az ütközés után.",
 	"b2ea4ec66688a7bc": "GitHub felhasználó $1",
 	"b829918c2ae05911": "Munkaterület neve",
+	"bae1bb67b6757c26": "A Phabricator csendes üzemmódban fut.",
 	"d429befdc980db2a": "Opcionális Asana projektek használata alkalmazáscímkeként.",
 	"e73766e5515e7dab": "Nincsenek felhasználók, akik a kapcsolt JIRA objektumokon tevékenykedhetnek."
 }

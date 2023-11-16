@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ice bulldog"
+		]
+	},
 	"00a64a49b8cbf97e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/xaction/PhabricatorAuthFactorProviderNameTransaction.php$32 PhabricatorAuthFactorProviderNameTransaction.php:32]",
 	"012f3cfd29d66d76": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/storage/PhabricatorAuthProviderConfigTransaction.php$86 PhabricatorAuthProviderConfigTransaction.php:86]",
 	"014c82cd910f7392": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/controller/contact/PhabricatorAuthContactNumberDisableController.php$68 PhabricatorAuthContactNumberDisableController.php:68]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/controller/contact/PhabricatorAuthContactNumberViewController.php$116 PhabricatorAuthContactNumberViewController.php:116]",

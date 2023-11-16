@@ -110,7 +110,6 @@
 	"238f8c1ff1206b7a": "Ange en kort beskrivning av ändringarna som finns i denna uppdatering.",
 	"23bff055bf92024b": "\"$1\" är en okänd biblioteksversion!",
 	"24369e690555a039": "\"$1\" är en okänd egenskapsstatus!",
-	"2478eac5797d04f2": "Uppdaterades!",
 	"247db254adb929d9": "Radera ett objekt från S3.",
 	"2481224b330ae054": "Skriv: $1",
 	"24a36a026ddf118a": "Konfigurationsvärdet \"$1\" ändrades till \"$2\".",
@@ -224,12 +223,10 @@
 	"538e78c855921565": "Ytterligare regler för att bestämma grundrevisionen.",
 	"53f376577267b8d3": "Användning av `$1` föredras över `$2`.",
 	"54cf27fba7ad5998": "Ogiltig standardparameter",
-	"554866adafe453e7": "DU MÅSTE __INSTALLERA ETT CERTIFIKAT__ FÖR ATT LOGGA IN PÅ PHABRICATOR",
 	"55c368a0c2eea954": "Stoppar all regelbearbetning.",
 	"5656b9b79b0316fc": "Onsdag",
 	"56d0f6b317e7c745": "Fungerande kopia",
 	"573361f7e350088d": "Laddar ned binär data för \"$1\"...",
-	"57e5ecbef316c13f": "LOGGA IN PÅ PHABRICATOR",
 	"587b648c037dd2a8": "UNDANTAG",
 	"5905691dbbd0af20": "Ändrat innehåll",
 	"5a23d2aa37bc67c7": "Använd `$1` för lokala statiska medlemsreferenser.",
@@ -348,7 +345,6 @@
 	"ab001baef200c02c": "Ignorera dessa $1 ospårad(e) fil(er) och fortsätta?",
 	"ab647ff7403bfcc9": "Skriver \"$1\" till \"$2\"...",
 	"abf8ab38706c0a33": "Fungerande kopia: Sökvägen \"$1\" är en del av `$2`:s fungerande kopia \"$3\".",
-	"ac0591eaf77c2d7e": "Uppgraderar $1...",
 	"acd4ca5bbb162a18": "Kommentarsstil",
 	"af21f374f1febe37": "Subversion är inte installerad",
 	"af755983d2327d3f": "Använd `$1` för att kontrollera om strängen börjar med någonting.",
@@ -410,5 +406,6 @@
 	"facf19dbacad5c42": "Denna kommentar har en TODO.",
 	"fd3edc641024a335": "VARNING",
 	"fe1b1b0aa8c2bb86": "\"Name\", \"Added\", \"Deleted\" eller \"Modified\" förväntades.",
-	"fe74160175239465": "TILLGÄNGLIG"
+	"fe74160175239465": "TILLGÄNGLIG",
+	"ffdefc1b62912faa": "DU MÅSTE __INSTALLERA ETT CERTIFIKAT__ FÖR ATT LOGGA IN PÅ PHABRICATOR"
 }

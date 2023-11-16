@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"13d815bd29a02c64": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/console/plugin/DarkConsoleEventPlugin.php$55 DarkConsoleEventPlugin.php:55]",
 	"20c4efa6093294a8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/console/plugin/DarkConsoleXHProfPlugin.php$95 DarkConsoleXHProfPlugin.php:95]",
 	"40dc448a962e5fe4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/console/plugin/DarkConsoleEventPlugin.php$54 DarkConsoleEventPlugin.php:54]",

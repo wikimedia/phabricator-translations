@@ -4,7 +4,6 @@
 			"Warchlak"
 		]
 	},
-	"0af1e82803f33761": "Phabricator jest obecnie skonfigurowany bez bazy danych do zapisu (\"master\"), więc nie może nigdzie zapisywać nowych informacji. Phabricator będzie działał w trybie tylko do odczytu, dopóki administrator nie skonfiguruje go ponownie z bazą danych do zapisu.",
 	"0b06f65a8ccab6ac": "Ten system nie ma zainstalowanego rozszerzenia \"$1\", więc kodowanie znaków nie jest obsługiwane. Zainstaluj \"$2\", aby włączyć obsługę.",
 	"0cc06ea98df1b9dd": "Panika!",
 	"11a8e6be14c3dffe": "Brak zapisywalnej bazy danych",
@@ -25,6 +24,7 @@
 	"bf771825913e3d92": "Zbyt szybko wykonujesz zbyt wiele czynności.",
 	"c1031336b338baab": "Wybierz kodowanie tekstu do użycia.",
 	"cd1cfba595365834": "Te $1 obiekty zostaną zniszczone na zawsze:",
+	"d302241ddb0e12d2": "Phabricator jest obecnie skonfigurowany bez bazy danych do zapisu (\"master\"), więc nie może nigdzie zapisywać nowych informacji. Phabricator będzie działał w trybie tylko do odczytu, dopóki administrator nie skonfiguruje go ponownie z bazą danych do zapisu.",
 	"e4fdfba6be0afcb4": "$1 / min",
 	"e67e845c51f43680": "Niszcz obiekty bez potwierdzenia."
 }

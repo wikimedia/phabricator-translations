@@ -4,15 +4,14 @@
 			"Saederup92"
 		]
 	},
+	"0b890da5a58e8041": "Ødelæg Phabricator fuldstændigt",
 	"0eb5ed506e4923c2": "Information",
-	"13f5a9342308a4f0": "Denne applikation kan ikke afinstalleres, fordi den er krævet for at Phabricator kan fungere.",
 	"17c7ba7676ad1ad6": "Syntaks",
 	"17d9db7fe8e99037": "Du kan ikke installere en installeret applikation.",
 	"1c12fb0a9fa4de6f": "Opret applikation",
 	"20337ba273d1c2bc": "Vil du virkelig afinstallere applikationen?",
 	"2375b7cd960c45e5": "Vil du virkelig afinstallere applikationen $1?",
 	"26f6988cfc328947": "Politikken findes ikke.",
-	"32024503d6c17bc8": "Ødelæg Phabricator fuldstændigt",
 	"327554cca68ed762": "$1 installerede denne applikation.",
 	"3424edc2354c7c55": "Bekræftelse",
 	"344870a1f143310e": "Udforsk flere applikationer",
@@ -27,13 +26,12 @@
 	"6b46d43f319bdff9": "Validering mislykkedes",
 	"6c6b7f66587fd4f1": "Vis installerede applikationer",
 	"6c83cbd13a054afb": "$1 afinstallerede denne applikation.",
-	"792c81a4cfdcb5b4": "Konfigurér",
 	"88f5211d80264697": "$1 afinstallerede $2.",
 	"93fd54aac0120f83": "$1 installerede $2.",
 	"a735da1d32d75e3e": "Afinstaller",
+	"b4548d4f60ef7a38": "Denne applikation kan ikke afinstalleres, fordi den er krævet for at Phabricator kan fungere.",
 	"b824dffa82b93665": "Indtast et applikationsnavn...",
 	"bb0420ccc66dd78c": "Installer applikationen $1?",
 	"ea738b0d96b97f84": "Rediger applikation: $1",
-	"f6f473c54e1f5293": "Vis alle applikationer",
-	"fd6c3ebf7befca9f": "Installer"
+	"f6f473c54e1f5293": "Vis alle applikationer"
 }

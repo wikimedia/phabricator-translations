@@ -86,7 +86,6 @@
 	"c80d7b188b4d616d": "找到 $1 個未原子化、未被快取的檔案。",
 	"d0487cd477f6ad74": "方法「$1」已明確記錄了「$2」。「$3」方法會永遠回傳「$4」。Diviner 已暗中將此記錄。",
 	"da7c4f2a02624ec6": "從來源建置原子",
-	"dbbc286505aba70e": "（註） **是否在尋找 Phabricator 文件？** 如果您正在尋找有關 Phabricator 的說明與資訊，您可以在現在的站台上[[https://secure.phabricator.com/diviner/ |瀏覽 Phabricator 公開文件]]。\n\nDiviner 是用來建置 Phabricator 文件的文件產生器。\n\n您目前尚未產生過任何 Diviner 文件書籍，所以在此不會顯示出任何內容。如果您想要產生您個人的 Phabricator 文件本地端副本，並且想將內容呈現於此，請執行此指令：\n\n  $1",
 	"dcfcb2a168e45ff3": "此功能沒有被記錄。",
 	"df251b06eefdaa93": "查找",
 	"dfc61fffa8906502": "其它方法",

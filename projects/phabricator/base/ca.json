@@ -6,6 +6,7 @@
 		]
 	},
 	"21909f6cc9658765": "Cap aplicació '$1'!",
+	"2b864b4aa73d7545": "Aquesta aplicació és requerida per Phabricator per funcionar, així que tots els usuaris han de tenir accés a ella.",
 	"40b9d5b3ede68efe": "Espera a l'usuari '$1' per tenir permisos d'accés a '$2'.",
 	"473a2b8ae0fda34b": "Pot configurar l'aplicació",
 	"5065c3a197c9ae53": "Pot utilitzar l'aplicació",
@@ -19,7 +20,6 @@
 	"a6fdeee1d42216f6": "Requereix verificació de correu electrònic",
 	"a962417b15c14e3a": "Controlador d'aplicacions, no requereix inici de sessió",
 	"b0608ab1bd963593": "Eines de Desenvolupador",
-	"c33a2a4cf022d6cc": "Aquesta aplicació és requerida per Phabricator per funcionar, així que tots els usuaris han de tenir accés a ella.",
 	"c3f9271638a0c8f6": "Espera a l'usuari '$1' per denegar accés a '$2'",
 	"d8c88db363a66211": "La petició inclou el paràmetre restringit \"$1\", però aquest controlador (\"$2\") no és a la llista blanca. Es rebutja servir aquesta petició perquè podria ser part d'un atac de redirecció.",
 	"d9b9a15e87d0d955": "Aptitud desconeguda '$1'!",

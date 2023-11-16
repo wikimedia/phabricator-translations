@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"17b251be5661401b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$25 PhabricatorHelpKeyboardShortcutController.php:25]",
 	"47d16aa0f68a0f68": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$31 PhabricatorHelpKeyboardShortcutController.php:31]",
 	"6bbbdac8f41b22d9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpDocumentationController.php$23 PhabricatorHelpDocumentationController.php:23]",

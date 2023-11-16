@@ -85,7 +85,6 @@
 	"c80d7b188b4d616d": "S'han trobat $1 fitxers ni atomitzats ni en caché.",
 	"d0487cd477f6ad74": "El mètode \"$1\" ha documentat explícitament \"$2\". El mètode \"$3\" sempre retorna \"$4\". Diviner ho documenta implícitament.",
 	"da7c4f2a02624ec6": "Construeix àtoms des de la font.",
-	"dbbc286505aba70e": "(NOTA) **Cerqueu documentació de Phabricator?** Si busqueu informació i ajuda de Phabricator, podeu [[https://secure.phabricator.com/diviner/| navegueu per la documentació pública de Phabricator]] al lloc en directe.\n\nDiviner és el generador de documentació utilitzat per construir la documentació de Phabricator.\n\nEncara no heu generat cap llibre Diviner, de manera que no hi ha res a mostrar aquí. Si voleu generar la vostra pròpia còpia local de la documentació de Phabricator i que aparegui aquí, executeu aquesta ordre:\n\n  $1",
 	"dcfcb2a168e45ff3": "Aquesta funció no està documentada.",
 	"df251b06eefdaa93": "Cerca",
 	"dfc61fffa8906502": "Altres Mètodes",

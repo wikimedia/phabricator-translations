@@ -6,6 +6,7 @@
 		]
 	},
 	"21909f6cc9658765": "Geen toepassing \"$1\"!",
+	"2b864b4aa73d7545": "Deze toepassing is nodig zodat Phabricator kan werken, dus alle gebruikers moeten er toegang toe hebben.",
 	"40b9d5b3ede68efe": "Verwacht dat gebruiker \"$1\" toegang heeft tot \"$2\".",
 	"473a2b8ae0fda34b": "Kan toepassing instellen",
 	"5065c3a197c9ae53": "Kan toepassing gebruiken",
@@ -19,7 +20,6 @@
 	"a6fdeee1d42216f6": "E-mailverificatie verplicht",
 	"a962417b15c14e3a": "Toepassingbeheer, aanmelden niet verplicht",
 	"b0608ab1bd963593": "Ontwikkelaarshulpmiddelen",
-	"c33a2a4cf022d6cc": "Deze toepassing is nodig zodat Phabricator kan werken, dus alle gebruikers moeten er toegang toe hebben.",
 	"c3f9271638a0c8f6": "Verwacht dat gebruiker \"$1\" geen toegang heeft tot \"$2\".",
 	"d8c88db363a66211": "Het verzoek bevat de beperkte parameter \"$1\", maar deze staat voor deze controller (\"$2\") niet op de witte lijst. Dit verzoek wordt niet gehonoreerd omdat het onderdeel kan zijn van een doorverwijzingsaanval.",
 	"d9b9a15e87d0d955": "Onverwachte functie \"$1\"!",

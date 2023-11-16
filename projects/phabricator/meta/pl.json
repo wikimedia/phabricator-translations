@@ -5,7 +5,6 @@
 		]
 	},
 	"0eb5ed506e4923c2": "Informacja",
-	"13f5a9342308a4f0": "Nie można odinstalować tej aplikacji, ponieważ jest ona wymagana do działania Phabricatora.",
 	"17c7ba7676ad1ad6": "Składnia",
 	"17d9db7fe8e99037": "Nie można zainstalować zainstalowanej aplikacji.",
 	"1c12fb0a9fa4de6f": "Utwórz aplikację",
@@ -18,11 +17,10 @@
 	"5fb1934cadd57ceb": "Utwórz nową aplikację",
 	"659087d3ca23db6a": "Rozszerzenie",
 	"6c6b7f66587fd4f1": "Pokaż zainstalowane aplikacje",
-	"792c81a4cfdcb5b4": "Konfiguruj",
 	"7bc06bc00fb0bf2e": "Pokaż uruchamialne aplikacje",
 	"7e8d418a03dc44cd": "Pokaż wydane aplikacje",
 	"a735da1d32d75e3e": "Odinstaluj",
+	"b4548d4f60ef7a38": "Nie można odinstalować tej aplikacji, ponieważ jest ona wymagana do działania Phabricatora.",
 	"b824dffa82b93665": "Wpisz nazwę aplikacji...",
-	"f6f473c54e1f5293": "Pokaż wszystkie aplikacje",
-	"fd6c3ebf7befca9f": "Instaluj"
+	"f6f473c54e1f5293": "Pokaż wszystkie aplikacje"
 }

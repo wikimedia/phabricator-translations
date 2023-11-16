@@ -86,7 +86,6 @@
 	"c80d7b188b4d616d": "$1 yetkisiz, önbelleğe alınmamış dosya bulundu.",
 	"d0487cd477f6ad74": "`$1` yöntemi açıkça `$2` belgeledi. `$3` yöntemi her zaman `$4` değerini döndürür. Falcı bunu örtük olarak belgeler.",
 	"da7c4f2a02624ec6": "Atomları kaynaktan oluşturun.",
-	"dbbc286505aba70e": "(NOTE) **Phabricator belgelerini mi arıyorsunuz?** Phabricator hakkında yardım ve bilgi arıyorsanız, canlı sitede [[https://secure.phabricator.com/diviner/ | herkese açık Phabricator belgelerine göz atın]].\n\nFalcı, Phabricator belgelerini oluşturmak için kullanılan belge üreticisidir.\n\nHenüz herhangi bir Falcı belge kitabı oluşturmadınız, bu nedenle burada gösterilecek bir şey yok. Phabricator belgelerinin kendi yerel kopyasını oluşturmak ve burada görünmesini istiyorsanız, şu komutu çalıştırın:\n\n  $1",
 	"dcfcb2a168e45ff3": "Bu işlev belgelenmemiştir.",
 	"df251b06eefdaa93": "Bul",
 	"dfc61fffa8906502": "Diğer Yöntemler",

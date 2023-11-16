@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
 	"005bfb7a94bf7cfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorTimeFormatSetting.php$34 PhabricatorTimeFormatSetting.php:34]",
 	"029d918e892243c4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorOptionGroupSetting.php$27 PhabricatorOptionGroupSetting.php:27]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorSelectSetting.php$15 PhabricatorSelectSetting.php:15]",
 	"03900398fbeb4eeb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorContactNumbersSettingsPanel.php$62 PhabricatorContactNumbersSettingsPanel.php:62]",
@@ -8,7 +13,7 @@
 	"057651d93a4ad672": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php$249 PhabricatorMultiFactorSettingsPanel.php:249]",
 	"07f43e8ed0175df2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorTitleGlyphsSetting.php$12 PhabricatorTitleGlyphsSetting.php:12]",
 	"081214afa5e61766": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/query/PhabricatorUserPreferencesSearchEngine.php$80 PhabricatorUserPreferencesSearchEngine.php:80]",
-	"0a5ee85414fe08e2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorDateFormatSetting.php$35 PhabricatorDateFormatSetting.php:35]",
+	"0a5ee85414fe08e2": "{{Optional}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorDateFormatSetting.php$35 PhabricatorDateFormatSetting.php:35]",
 	"0ccb7998ecc39302": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/storage/PhabricatorUserPreferences.php$176 PhabricatorUserPreferences.php:176]",
 	"0d32db227630073a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorEmailSelfActionsSetting.php$12 PhabricatorEmailSelfActionsSetting.php:12]",
 	"1195203f8cbb6fb4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorAccessibilitySetting.php$22 PhabricatorAccessibilitySetting.php:22]",
@@ -41,7 +46,7 @@
 	"2cceaf55d82ea2a5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorMonospacedFontSetting.php$22 PhabricatorMonospacedFontSetting.php:22]",
 	"2d3730312665bf0e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorEmailSelfActionsSetting.php$35 PhabricatorEmailSelfActionsSetting.php:35]",
 	"2dcc1fdd35bf7ff3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorSSHKeysSettingsPanel.php$43 PhabricatorSSHKeysSettingsPanel.php:43]",
-	"2f3d79cce553b9ba": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$102 PhabricatorExternalEditorSettingsPanel.php:102]",
+	"2f3d79cce553b9ba": "{{Optional}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$102 PhabricatorExternalEditorSettingsPanel.php:102]",
 	"30b7fd73153b99d5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorConpherenceSoundSetting.php$77 PhabricatorConpherenceSoundSetting.php:77]",
 	"34cba567c8ba35c0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorDarkConsoleSetting.php$29 PhabricatorDarkConsoleSetting.php:29]",
 	"36117ed91792ecee": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorNotificationsSettingsPanel.php$158 PhabricatorNotificationsSettingsPanel.php:158]",
@@ -145,7 +150,7 @@
 	"a3e8d4eec273b412": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorEmailNotificationsSetting.php$40 PhabricatorEmailNotificationsSetting.php:40]",
 	"a689a999a5e62055": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorTokensSettingsPanel.php$53 PhabricatorTokensSettingsPanel.php:53]",
 	"a72159dd179122d2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorNotificationsSetting.php$22 PhabricatorNotificationsSetting.php:22]",
-	"a78ad27761617081": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$104 PhabricatorExternalEditorSettingsPanel.php:104]",
+	"a78ad27761617081": "{{Optional}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$104 PhabricatorExternalEditorSettingsPanel.php:104]",
 	"a8634c9de37ec29b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorPasswordSettingsPanel.php$206 PhabricatorPasswordSettingsPanel.php:206]",
 	"aa0c7e7d7cb7679c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorPasswordSettingsPanel.php$142 PhabricatorPasswordSettingsPanel.php:142]",
 	"aa89fd1d693daa8f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$83 PhabricatorExternalEditorSettingsPanel.php:83]",
@@ -188,11 +193,11 @@
 	"d607573d65daf8a0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorNotificationsSettingsPanel.php$87 PhabricatorNotificationsSettingsPanel.php:87]",
 	"d6c6368d1031db73": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorNotificationsSettingsPanel.php$92 PhabricatorNotificationsSettingsPanel.php:92]",
 	"d8471e87f65863e8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorWeekStartDaySetting.php$9 PhabricatorWeekStartDaySetting.php:9]",
-	"d89a5ec1140ce5dd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$105 PhabricatorExternalEditorSettingsPanel.php:105]",
+	"d89a5ec1140ce5dd": "{{Optional}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$105 PhabricatorExternalEditorSettingsPanel.php:105]",
 	"d8b1af2cba2c1fbd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorOlderInlinesSetting.php$25 PhabricatorOlderInlinesSetting.php:25]",
 	"d99c8329b0d84eef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php$443 PhabricatorMultiFactorSettingsPanel.php:443]",
 	"da2cf679ba35fc9f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorPasswordSettingsPanel.php$228 PhabricatorPasswordSettingsPanel.php:228]",
-	"da39a3ee5e6b4b0d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorSessionsSettingsPanel.php$107 PhabricatorSessionsSettingsPanel.php:107]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorTokensSettingsPanel.php$69 PhabricatorTokensSettingsPanel.php:69]",
+	"da39a3ee5e6b4b0d": "{{Ignored}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorSessionsSettingsPanel.php$107 PhabricatorSessionsSettingsPanel.php:107]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorTokensSettingsPanel.php$69 PhabricatorTokensSettingsPanel.php:69]",
 	"da493c5260cdf58f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php$60 PhabricatorExternalAccountsSettingsPanel.php:60]",
 	"da544d1418799d25": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$108 PhabricatorExternalEditorSettingsPanel.php:108]",
 	"dc61c07908f739a0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php$353 PhabricatorEmailAddressesSettingsPanel.php:353]",

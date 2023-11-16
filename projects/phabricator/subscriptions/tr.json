@@ -44,7 +44,7 @@
 	"c1594affebc7bd2f": "Aboneleri kaldır: $1.",
 	"c1b8396b730a5058": "Aboneleri Değiştir",
 	"c763d0330358f587": "Bu nesne abone değil.",
-	"ceb64b545e328f3b": "Nesneye bir veya daha fazla abone ekleyin. Kullanıcı adlarını vererek kullanıcılar ekleyebilir veya karelerini ekleyerek projeler ekleyebilirsiniz. Örneğin, kullanıcıyı \"alincoln\" ve \"#ios\" etiketli projeyi abone olarak eklemek için `$1` kullanın.\n\nGeçersiz veya tanınmayan aboneler dikkate alınmaz. Aboneler belirtmezseniz bu komutun bir etkisi olmaz.\n\nPhabricator hangi hesapların e-posta adreslerine bağlı olduğunu bilirse, e-postada CC'de olan kullanıcılar da otomatik olarak abone olur.",
+	"dffa3fb785bfdd13": "Nesneye bir veya daha fazla abone ekleyin. Kullanıcı adlarını vererek kullanıcılar ekleyebilir veya karelerini ekleyerek projeler ekleyebilirsiniz. Örneğin, kullanıcıyı \"alincoln\" ve \"#ios\" etiketli projeyi abone olarak eklemek için `$1` kullanın.\n\nGeçersiz veya tanınmayan aboneler dikkate alınmaz. Aboneler belirtmezseniz bu komutun bir etkisi olmaz.\n\nPhabricator hangi hesapların e-posta adreslerine bağlı olduğunu bilirse, e-postada CC'de olan kullanıcılar da otomatik olarak abone olur.",
 	"f3b69c880c1a2411": "Abone olarak kural yazarı ekleyin.",
 	"f4000e0c96c12a99": "Eklenen $1 abone: $2.",
 	"f5df5d6884fac5c0": "Kural yazarı abone olarak kaldırın.",

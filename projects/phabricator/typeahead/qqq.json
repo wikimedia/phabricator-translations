@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"08551bfd5a6bcbf3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$392 PhabricatorTypeaheadModularDatasourceController.php:392]",
 	"170409168d52d100": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/application/PhabricatorTypeaheadApplication.php$6 PhabricatorTypeaheadApplication.php:6]",
 	"20ff1176780f707c": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadDatasource.php$503 PhabricatorTypeaheadDatasource.php:503]",

@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"010b85ad56b34c34": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIListExample.php$58 PHUIListExample.php:58]",
 	"012f8f179c6f858d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIInfoExample.php$6 PHUIInfoExample.php:6]",
 	"013ebba353f1c8f6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIImageMaskExample.php$6 PHUIImageMaskExample.php:6]",

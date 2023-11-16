@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"1d0b5687f0771685": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/chatlog/application/PhabricatorChatLogApplication.php$14 PhabricatorChatLogApplication.php:14]",
 	"1eba140fdd9c6860": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/chatlog/controller/PhabricatorChatLogChannelLogController.php$195 PhabricatorChatLogChannelLogController.php:195]",
 	"3480cf36b6c36a32": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/chatlog/conduit/ChatLogQueryConduitAPIMethod.php$14 ChatLogQueryConduitAPIMethod.php:14]",
