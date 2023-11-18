@@ -110,6 +110,10 @@ final class TranslatewikiManagementExportWorkflow
     $result_qqq = array();
     $result_raw = array();
     $frequency = array();
+
+    $translatewiki_root = phutil_get_library_root('translations');
+    $projects_root = "{$translatewiki_root}/../projects/{$as}/";
+    $read_qqq = array();
     foreach ($strings_data as $string => $spec) {
       $string_key = $this->getStringKey($string);
 
@@ -122,18 +126,29 @@ final class TranslatewikiManagementExportWorkflow
       }
 
       $group = $this->getTranslatewikiGroup($spec);
-
+      if (!isset($read_qqq[$group])) {
+        if ($group == '<global>') {
+          $group_path = null;
+        } else {
+          $group_path = $group.'/';
+        }
+        $qqq_path = $projects_root.$group_path.'qqq.json';
+        if (Filesystem::pathExists($qqq_path)) {
+          $read_qqq[$group] = phutil_json_decode(Filesystem::readFile($qqq_path));
+        } else {
+          $read_qqq[$group] = array();
+        }
+      }
+      
       $result_raw[$group][$string_key] = $string;
       $result_en[$group][$string_key] = $translatewiki_string;
       $result_qqq[$group][$string_key] = $this->getTranslatewikiContext(
         $string,
-        $spec);
+        $spec,
+        $read_qqq[$group][$string_key] ?? '');
 
       $frequency['<global>'][$string_key] = 0;
     }
-
-    $translatewiki_root = phutil_get_library_root('translations');
-    $projects_root = "{$translatewiki_root}/../projects/{$as}/";
 
     $writes = array(
       array(
@@ -299,9 +314,18 @@ final class TranslatewikiManagementExportWorkflow
     return (string)$string;
   }
 
-  private function getTranslatewikiContext($string, array $spec) {
+  private function getTranslatewikiContext($string, array $spec, $old) {
     $help = array();
-
+    $regex = '/\n*(Variable Types: .*\n+)?Used in:\n\n?(.*\.php\]?:[0-9]+\]?\n?)+/';
+    $count = 0;
+    $replaced = preg_replace($regex, '', $old, -1, $count);
+    if ($old !== '' && $count === 0) {
+      return $old;
+    }
+    if ($replaced) {
+      $help[] = $replaced;
+      $help[] = "\n\n";
+    }
     $usage = array();
     foreach ($spec['uses'] as $use) {
       $name = basename($use['file']);
@@ -344,8 +368,7 @@ final class TranslatewikiManagementExportWorkflow
       $help[] = "\n\n";
       $help[] = implode("\n", $usage)."\n";
     }
-
-    return trim( implode('', $help) );
+    return trim(implode('', $help));
   }
 
   private function getTranslatewikiGroup(array $spec) {
