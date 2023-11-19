@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"0044ef32593f0678": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/customfield/DifferentialJIRAIssuesField.php$168 DifferentialJIRAIssuesField.php:168]",
 	"0063efbde77d19e7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/controller/DifferentialDiffViewController.php$98 DifferentialDiffViewController.php:98]",
 	"01ad6994a4ed7cf0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/editor/DifferentialRevisionEditEngine.php$250 DifferentialRevisionEditEngine.php:250]",
@@ -539,7 +536,7 @@
 	"8c4340f5b350938f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/render/DifferentialChangesetHTMLRenderer.php$143 DifferentialChangesetHTMLRenderer.php:143]",
 	"8cb81e753a4c2fec": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/controller/DifferentialRevisionViewController.php$199 DifferentialRevisionViewController.php:199]",
 	"8cba2a876fda9954": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/controller/DifferentialRevisionViewController.php$268 DifferentialRevisionViewController.php:268]",
-	"8cbaabee6d1d8f69": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/field/DifferentialGitSVNIDCommitMessageField.php$9 DifferentialGitSVNIDCommitMessageField.php:9]",
+	"8cbaabee6d1d8f69": "'''Do not translate''', this is an internal name of an input form field, not displayed on the user interface.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/field/DifferentialGitSVNIDCommitMessageField.php$9 DifferentialGitSVNIDCommitMessageField.php:9]",
 	"8d145bace11c753b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/conduit/DifferentialCloseConduitAPIMethod.php$36 DifferentialCloseConduitAPIMethod.php:36]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/conduit/DifferentialGetCommitMessageConduitAPIMethod.php$30 DifferentialGetCommitMessageConduitAPIMethod.php:30]",
 	"8d81ed97947a11c0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/field/DifferentialTitleCommitMessageField.php$35 DifferentialTitleCommitMessageField.php:35]",
 	"8e0be2a013bf6713": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/parser/DifferentialChangesetParser.php$924 DifferentialChangesetParser.php:924]",

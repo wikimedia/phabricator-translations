@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"00040bab8a787438": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/controller/NuanceQueueWorkController.php$22 NuanceQueueWorkController.php:22]",
 	"013f20f131f47ded": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/management/NuanceManagementUpdateWorkflow.php$10 NuanceManagementUpdateWorkflow.php:10]",
 	"03445b3b17a46b27": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/github/NuanceGitHubRawEvent.php$303 NuanceGitHubRawEvent.php:303]",
@@ -129,7 +126,7 @@
 	"c057b0965734b19b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/source/NuanceSourceDefinition.php$53 NuanceSourceDefinition.php:53]",
 	"c3f5bd533fd90f53": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/controller/NuanceItemActionController.php$67 NuanceItemActionController.php:67]",
 	"c5d3bf1f822ed30d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/management/NuanceManagementImportWorkflow.php$16 NuanceManagementImportWorkflow.php:16]",
-	"ca3cf977ec6a09e1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/controller/NuanceSourceViewController.php$80 NuanceSourceViewController.php:80]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/editor/NuanceSourceEditEngine.php$70 NuanceSourceEditEngine.php:70]",
+	"ca3cf977ec6a09e1": "{{Identical|Edit source}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/controller/NuanceSourceViewController.php$80 NuanceSourceViewController.php:80]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/editor/NuanceSourceEditEngine.php$70 NuanceSourceEditEngine.php:70]",
 	"cb7eedb381626783": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/source/NuanceSourceDefinition.php$95 NuanceSourceDefinition.php:95]",
 	"ccc2c0067c433da6": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/github/NuanceGitHubRawEvent.php$352 NuanceGitHubRawEvent.php:352]",
 	"cd639058450a8734": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/query/NuanceQueueSearchEngine.php$72 NuanceQueueSearchEngine.php:72]",
@@ -164,7 +161,7 @@
 	"f4dec436b97e11b9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/github/NuanceGitHubRawEvent.php$307 NuanceGitHubRawEvent.php:307]",
 	"f737f218e4073be1": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/management/NuanceManagementWorkflow.php$91 NuanceManagementWorkflow.php:91]",
 	"f76ebbfaec993d05": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/source/NuancePhabricatorFormSourceDefinition.php$63 NuancePhabricatorFormSourceDefinition.php:63]",
-	"f7de96f78a638b66": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/editor/NuanceSourceEditEngine.php$66 NuanceSourceEditEngine.php:66]",
+	"f7de96f78a638b66": "{{Identical|Edit source}}\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/editor/NuanceSourceEditEngine.php$66 NuanceSourceEditEngine.php:66]",
 	"fa7f98dfc385448d": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/github/__tests__/NuanceGitHubRawEventTestCase.php$87 NuanceGitHubRawEventTestCase.php:87]",
 	"fb88030a098c599d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/query/NuanceItemSearchEngine.php$85 NuanceItemSearchEngine.php:85]",
 	"fd20a420c8d7a09b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/phid/NuanceImportCursorPHIDType.php$8 NuanceImportCursorPHIDType.php:8]",

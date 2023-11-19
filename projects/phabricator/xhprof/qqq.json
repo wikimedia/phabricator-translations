@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"01e30de312eae0aa": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$7 PhabricatorXHProfSampleSearchEngine.php:7]",
 	"0a63ad781263be3f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$84 PhabricatorXHProfSampleSearchEngine.php:84]",
 	"2211e38509c4c39d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$34 PhabricatorXHProfSampleSearchEngine.php:34]",

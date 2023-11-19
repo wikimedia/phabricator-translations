@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"0007d61d3fd18c30": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionCommitEditEngine.php$66 DiffusionCommitEditEngine.php:66]",
 	"003e9f65338133c4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionBrowseController.php$1018 DiffusionBrowseController.php:1018]",
 	"004dbc40ba3e61c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/request/DiffusionRequest.php$527 DiffusionRequest.php:527]",
@@ -26,7 +23,7 @@
 	"03542bedf10f4c85": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionRepositoryEditEnormousController.php$63 DiffusionRepositoryEditEnormousController.php:63]",
 	"03cd3e9c4edf06d5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/worker/DiffusionUpdateObjectAfterCommitWorker.php$19 DiffusionUpdateObjectAfterCommitWorker.php:19]",
 	"042dd077d65e7153": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/query/lowlevel/DiffusionLowLevelResolveRefsQuery.php$143 DiffusionLowLevelResolveRefsQuery.php:143]",
-	"04bf1775bdb5d5e2": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/view/DiffusionSourceLinkView.php$170 DiffusionSourceLinkView.php:170]",
+	"04bf1775bdb5d5e2": "Variable Types: NONE, NONE.\n\nFormat a reference to a line number of a source file to render the text of a link displayed in the web interface. You probably don't need to change the default.\n\n* $1: the path of the source file\n* $2: a line number\n\nVariable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/view/DiffusionSourceLinkView.php$170 DiffusionSourceLinkView.php:170]",
 	"04c9e2c4296800ec": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionRepositoryEditActivateController.php$60 DiffusionRepositoryEditActivateController.php:60]",
 	"04f93d154947c33d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryStorageManagementPanel.php$274 DiffusionRepositoryStorageManagementPanel.php:274]",
 	"054869b17bef8fc8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/query/DiffusionRepositoryIdentitySearchEngine.php$43 DiffusionRepositoryIdentitySearchEngine.php:43]",
@@ -169,7 +166,7 @@
 	"2cbfc1ffd316d783": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryStorageManagementPanel.php$352 DiffusionRepositoryStorageManagementPanel.php:352]",
 	"2d0e651d0e38d27f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/gitlfs/DiffusionGitLFSAuthenticateWorkflow.php$74 DiffusionGitLFSAuthenticateWorkflow.php:74]",
 	"2d19e3d79157eea7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionCompareController.php$220 DiffusionCompareController.php:220]",
-	"2dabb8334b6cbbc1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryStorageManagementPanel.php$231 DiffusionRepositoryStorageManagementPanel.php:231]",
+	"2dabb8334b6cbbc1": "{{Identical|Writing}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryStorageManagementPanel.php$231 DiffusionRepositoryStorageManagementPanel.php:231]",
 	"2e4a1982a07e8697": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionCompareController.php$202 DiffusionCompareController.php:202]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionCompareController.php$203 DiffusionCompareController.php:203]",
 	"2e6fbce1447a52b1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/management/DiffusionRepositoryBasicsManagementPanel.php$636 DiffusionRepositoryBasicsManagementPanel.php:636]",
 	"2e87a1b896640437": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionServeController.php$430 DiffusionServeController.php:430]",
