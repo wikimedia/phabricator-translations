@@ -6,7 +6,7 @@
 		]
 	},
 	"21909f6cc9658765": "Geen toepassing \"$1\"!",
-	"2b864b4aa73d7545": "Deze toepassing is nodig zodat Phabricator kan werken, dus alle gebruikers moeten er toegang toe hebben.",
+	"2b864b4aa73d7545": "Deze toepassing is vereist, dus alle gebruikers moeten er toegang toe hebben.",
 	"40b9d5b3ede68efe": "Verwacht dat gebruiker \"$1\" toegang heeft tot \"$2\".",
 	"473a2b8ae0fda34b": "Kan toepassing instellen",
 	"5065c3a197c9ae53": "Kan toepassing gebruiken",
@@ -25,5 +25,6 @@
 	"d9b9a15e87d0d955": "Onverwachte functie \"$1\"!",
 	"daf366af13db9c61": "Beheerder verplicht",
 	"dced58a261d6133b": "E-mailverificatie verplicht, met uitzondering",
-	"dfa4966710819f7d": "Uitgeschakeld toestaan"
+	"dfa4966710819f7d": "Uitgeschakeld toestaan",
+	"e5d6af967c265e3f": "Kan geen transactiequery vinden voor object van klasse “$1”."
 }
