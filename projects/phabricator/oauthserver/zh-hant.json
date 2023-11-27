@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
-	"0151c85868c3a4ae": "以 Phabricator 登入",
+	"0151c85868c3a4ae": "使用$1帳號登入",
 	"04852e522970a284": "啟用 OAuth 應用程式",
 	"076a9d109c3f1a23": "伺服器錯誤",
 	"0b7624a00f95c0ed": "OAuth 應用程式「$1」已停用。",
