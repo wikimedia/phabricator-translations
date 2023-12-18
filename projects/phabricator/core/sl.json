@@ -247,7 +247,7 @@
 	"23d33e22acfcb9ec": "Osnutek",
 	"24158e5e2e1771c5": "Identiteta shrambe",
 	"24345a14377fd821": "Danes",
-	"2438b7878f55e24b": "$1 je preveril/a $2.",
+	"2438b7878f55e24b": "$1 je preveril_a $2.",
 	"2446ec9559da1d73": "To ključavnico je zadnji pridobil postopek ($1) pred $2 sekundo(ami).",
 	"24635e62e8ddd92f": "SHRAMBA",
 	"250ddde898b9609a": "Ni dovoljenja za zagon »PRIKAŽI STANJE PODREJENEGA«. Uporabniku podelite dovoljenje »REPLICATION CLIENT«, da boste strežniku omogočili spremljanje stanja replike.",
