@@ -91,7 +91,7 @@
 	"c1f3d10e49f3d5fa": "Aucun utilisateur n’existe avec le nom « $1 » !",
 	"cc53401e727580d3": "Validation « $1 » non trouvée !",
 	"ccd5ac0ce9da2689": "Suppression de l’audit $1...",
-	"d8de960f1cc3d44b": "Une validation a une préoccupation levée contre elle.",
+	"d8de960f1cc3d44b": "Une validation a reçu une remarque la concernant.",
 	"df3d873088048f69": "Mettre à jour les validations et dépôts nommés.",
 	"e1d64f9058571a76": "$1 a ajouté des auditeurs : $2.",
 	"e23e94bc03898714": "Modification des abonnés d’une validation.",
