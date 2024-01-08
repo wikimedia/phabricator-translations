@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Crochet.david",
 			"Gomoko",
 			"Thibaut120094",
 			"Wladek92"
@@ -29,6 +30,7 @@
 	"b1191c15b7b23ea8": "La ressource « $1 » n’a pas de commentaire de doc en entête. Encoder les données de dépendance dans un bloc de doc en entête.",
 	"b8dcb7fb1787a65d": "La spécification du paquet pour « $1 » inclut des ressources de divers types ($2, $3). Chaque paquet ne peut contenir qu’un type de ressource.",
 	"bf64f63e87e16ac3": "Reconstruction de $1 source(s) de ressources.",
+	"c7084bd4c856466a": "Optimisation...",
 	"ca95d79472b5600e": "$1 ressources de texte trouvées.",
 	"cd9aad37e951dff2": "Le fichier '$1' dans '$2' est censé être une source de sprite finissant en '$3'.",
 	"cf9d8c2551d59a7f": "Seules les ressources statiques peuvent être servies.",

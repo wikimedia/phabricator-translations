@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Iketsi",
 			"Thibaut120094",
 			"Trizek",
 			"Verdy p",
@@ -9,7 +10,7 @@
 		]
 	},
 	"21909f6cc9658765": "Aucune application « $1 » !",
-	"2b864b4aa73d7545": "Cette application est nécessaire pour que Phabricator puisse fonctionner, donc tous les utilisateurs doivent y avoir accès.",
+	"2b864b4aa73d7545": "Cette application est nécessaire, donc tous les utilisateurs doivent y avoir accès.",
 	"40b9d5b3ede68efe": "L’utilisateur « $1 » est sensé être autorisé à accéder à « $2 ».",
 	"473a2b8ae0fda34b": "Peut configurer l’application",
 	"5065c3a197c9ae53": "Peut utiliser l’application",

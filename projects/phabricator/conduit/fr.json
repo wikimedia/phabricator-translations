@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Crochet.david",
 			"Gomoko",
 			"Thibaut120094",
 			"TomT0m",
@@ -108,6 +109,7 @@
 	"887c1d970f6da06a": "Méthodes obsolètes",
 	"8959a627c8e0a92a": "Journaux des appels obsolètes",
 	"8b799336fa3990a5": "Aucun utilisateur ou appareil n’est associé avec la clé publique « $1 ».",
+	"8cedc55085467f4d": "Description de la méthode",
 	"8d34972e44415778": "Le jeton n’existe pas ou a expiré.",
 	"8edae248f822a140": "Jeton d’API en ligne de commande",
 	"904ee8cfd4ba83cf": "Résilier les jetons",

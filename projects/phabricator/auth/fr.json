@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Crochet.david",
 			"Derugon",
 			"Gomoko",
 			"Motla",
@@ -191,7 +192,7 @@
 	"34dac9a591827dc5": "Connexion à LDAP...",
 	"34dbd5c4c8a64801": "Attendre",
 	"34f43ce7378fef45": "Pas de clés SSH correspondantes.",
-	"3510629086a5f438": "Utiliser le nom d’utilisateur de Phabricator",
+	"3510629086a5f438": "Utilisez le nom d'utilisateur $1",
 	"3515913fa308aecc": "Erreur d'authentification",
 	"3537fbc2c8b8c5e0": "Une paire de clés a été générée, et la clé publique a été ajoutée comme clé reconnue.",
 	"35588f4fd79819bc": "$1 a nommé ce fournisseur $2.",
@@ -311,7 +312,7 @@
 	"55de51d2e7052a05": "Révoquer la clé publique",
 	"55e68a8a4e13d7a1": "Vous (ou quelqu’un qui se fait passer pour vous) a récemment demandé qu’un lien de récupération de compte soit envoyé à cette adresse de courriel. Si vous n’avez pas effectué cette demande, vous pouvez ignorer ce message.",
 	"55fde337cb186237": "Utiliser l'adresse courriel primaire",
-	"563c2f661f823c4e": "Nom de l'instance Phabricator",
+	"563c2f661f823c4e": "Nom du serveur",
 	"569d5d998e077ac5": "Si vous perdez l'accès à votre compte, vous pouvez le récupérer en envoyant à vous-même un courriel comportant un lien de connexion, à partir de l'écran de connexion.",
 	"56ea4f784b26c213": "La validation de la connexion n’a pas le paramètre obligatoire (« $1 »).",
 	"56ee2ff379dcf74f": "Personnaliser les messages",
