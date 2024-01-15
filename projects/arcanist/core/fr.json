@@ -311,6 +311,7 @@
 	"1bbea4579ca308fe": "S’attendre à ce que l’analyseur de recommandations (''lint'') ne soit pas arrêté.",
 	"1bc5a1a99b676463": "Une réponse JSON était attendue de GitHub.",
 	"1c145ea6dd62de56": "Aucun identifiant de type pour le nom de type de nœud « $1 » dans l’abstraction d’arbre syntaxique abstrait « $2 ».",
+	"1c1741649570797c": "Mettez à jour les commentaires de révision, puis enregistrez et quittez.",
 	"1c2838c6e76630bf": "L’appel de fonction doit être trans-typé",
 	"1c2eb8f52fa7f51c": "`$1` non fiable",
 	"1c463b74c74d61e5": "Le flux de travail n’a pas de nom !",
