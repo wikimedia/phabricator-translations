@@ -250,7 +250,7 @@
 	"2438b7878f55e24b": "$1 je preveril_a $2.",
 	"2446ec9559da1d73": "To ključavnico je zadnji pridobil postopek ($1) pred $2 sekundo(ami).",
 	"24635e62e8ddd92f": "SHRAMBA",
-	"250ddde898b9609a": "Ni dovoljenja za zagon »PRIKAŽI STANJE PODREJENEGA«. Uporabniku podelite dovoljenje »REPLICATION CLIENT«, da boste strežniku omogočili spremljanje stanja replike.",
+	"250ddde898b9609a": "Ni dovoljenja za zagon »PRIKAŽI STANJE PODREJENEGA«. Podelite uporabniku dovoljenje »REPLICATION CLIENT«, da boste strežniku omogočili spremljanje stanja replike.",
 	"251edc0eb5a82064": "Metapodatki",
 	"257c0e17706a671b": "Prikaži starejše spremembe",
 	"25eee349d7bf6976": "Če razvijate $1, te napake običajno pomenijo, da se vaše specifikacije sheme ne ujemajo s shemami, ki jih vaša koda dejansko zgradi.",
