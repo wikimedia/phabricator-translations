@@ -13,7 +13,7 @@
 	"0a751e41cfcf8b01": "La référence demandée « $1 » n'a pas été chargée.",
 	"131ada2c91031e5e": "Les références doivent utiliser l'afficheur des références du cache.",
 	"1498233146466f1f": "$1 restreint",
-	"1db177fa2f0941e1": "Tentative pour muter un $1, mais cela n'est pas permis; les listes de références ne sont pas mutables.",
+	"1db177fa2f0941e1": "Tentative de mutation d’un $1, mais cela n’est pas permis ; les listes de références ne sont pas mutables.",
 	"28c017ce59a791e5": "Tentative de test de capacité « $1 » pour un indicateur de type « $2 », mais cette capacité n’y est pas attachée.",
 	"367af0d526a97933": "L’objet (de classe « $1 ») n’a aucun PHID, de sorte que les indicateurs ne peuvent pas interagir avec ses capacités potentielles.",
 	"40acf4c5cd86049e": "La classe « $2 » de $1 contient une propriété $3 incorrecte. Les constantes PHID doivent être des chaînes de caractères composées de 4 majuscules.",
