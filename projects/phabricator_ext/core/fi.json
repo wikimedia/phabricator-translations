@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nike"
+			"Nike",
+			"Pyscowicz"
 		]
 	},
 	"021f6fec2f98c532": "Seuraava: $1",
@@ -16,6 +17,7 @@
 	"33d9a3a13a32e73e": "ChangeId",
 	"3a8163072c6b6b8f": "Julkaisun tiedot",
 	"3ad0e3698278f45b": "Salli",
+	"3d35c21c19562820": "LDAP-käyttäjä",
 	"429f9802c2088c4c": "MediaWiki",
 	"4ab9fcd02a0672af": "Pyydettyä projektia ei ole",
 	"51f99735e504752c": "Vaihda tyypiksi ”$1”.",
