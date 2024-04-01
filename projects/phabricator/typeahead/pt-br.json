@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"3ecdb4ea82e2c72e": "Parâmetros inválidos",
+	"8598222918d3c6e5": "Selecionar",
+	"9d3d21faa06febbe": "Não é possível analisar função e argumentos para token \"$1\".",
+	"b77fab12356a0f67": "O parâmetro HTTP chamado \"parameters\" para essa solicitação não é um parâmetro JSON válido. JSON é obrigatório. Exceção: $1",
+	"bc64eb3be73d0b52": "Função de referência rápida",
+	"ec617c453f59f5aa": "Procurar números"
+}

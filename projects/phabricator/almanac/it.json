@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"02a9a0412b384fbf": "Nome del servizio",
+	"0449e1003dd0cdd9": "Namespace",
+	"047be01fb538cccb": "Aggiungi proprietà",
+	"093321228c96ab06": "Nome del network.",
+	"0978c3592d43767a": "Gestici network pubblici e privati.",
+	"0c199bb6c4acc625": "Network per l'interfaccia.",
+	"1014f5db26547beb": "Aggiungi interfaccia",
+	"1c5a8c58a5ac4629": "Crea servizio",
+	"2b40bc264ff50f73": "Servizio personalizzato",
+	"2e87516317bb6667": "Modifica namespace",
+	"2ead23d87de02ff8": "Network $1",
+	"33ade4854222f465": "Nome del namespace",
+	"3db9a69c16f71ef8": "Indirizzo del servizio.",
+	"44c57abd888a66b3": "Reimposta",
+	"49d2c9c065a6d0ad": "Modifica network",
+	"4becf080f28c92dd": "Crea namespace",
+	"52545532d7900049": "Interfaccia $1",
+	"6bb011630498ca8e": "Namespace $1",
+	"9109cec1d70311d8": "Almanacco",
+	"926527594f94772f": "IMPORTANTE!",
+	"be09a63bd1995e99": "Namespace",
+	"ccae75cdd4db3216": "$1:$2 ($3 su $4)"
+}

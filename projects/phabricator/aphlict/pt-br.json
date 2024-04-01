@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"04619b5d014f1cc6": "Enviar uma notificação para um usuário.",
+	"98c6c6c1b5b17ce4": "Usuário para notificar.",
+	"ac84f97164a13e1b": "Especifique um usuário para notificar com \"--user\".",
+	"c3e64797a0f467cd": "Mensagem para enviar.",
+	"e81031fd1ab36137": "Especifique uma mensagem para enviar com \"--message\".",
+	"e9b8eb62ee46ecb8": "Notificação enviada."
+}

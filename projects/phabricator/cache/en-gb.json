@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"95d9273c36cd460b": "Cache purger \"$1\" is not recognised. Available caches are: $2.",
+	"c2f4cddcb35ce4da": "Serialising cache can not write objects (for key \"$1\")!"
+}

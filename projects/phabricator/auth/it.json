@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"ArTrix",
+			"Beta16"
+		]
+	},
+	"02c8304104610b98": "Password",
+	"02f02485ab679a90": "Algoritmo",
+	"05266310cbbb3d4f": "Devi confermare la password selezionata.",
+	"2b681c0a24baff88": "Google",
+	"2ee30cf2c2908397": "Modifica messaggio",
+	"34dbd5c4c8a64801": "Aspetta",
+	"3515913fa308aecc": "Errore d'autenticazione",
+	"385969d12b70feb2": "Sì (facoltativo)",
+	"3d641283c8bb7d71": "Lunghezza minima di $1 caratteri.",
+	"45496f4fb8951339": "Disqus",
+	"4a40922929c06527": "Salta questo passaggio",
+	"52008468434b79df": "La tua utenza è stata disabilitata.",
+	"5392c950bdde4be7": "Twitter",
+	"55de51d2e7052a05": "Revoca chiave pubblica",
+	"5cc41c2d9eefe7c2": "Non installato",
+	"7252e3fdb361aab5": "ldap.example.com",
+	"730232c60ac8ec09": "Revoca chiave SSH pubblica",
+	"74c0fda1054b04bf": "Amazon",
+	"7b66c2d59b36bad1": "Uscire?",
+	"82da67b211249624": "Facebook",
+	"85f17ac049c42182": "Revocato",
+	"8cc16d224c154022": "Revoca chiave SSH",
+	"a1de0fec262bf00b": "Scarica chiave privata ($1)",
+	"ae70ab8ea4fa1049": "$1 ha creato questa password.",
+	"c369dd998d49e4ea": "ldaps://ldaps.example.com/",
+	"d104d1016cecd3b3": "$1 ha revocato questa chiave.",
+	"d527bf3db3dc8af6": "Entra",
+	"e9312bd1b14ea040": "Captcha",
+	"f3465d0a99e191c6": "WordPress.com",
+	"fcd761054089234d": "Ancora"
+}

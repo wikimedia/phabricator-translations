@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"1d9329e4dac12018": "En pantallas pequeñas",
+	"20db1ed52e4bef4d": "Editar la configuración global predeterminada para todos los usuarios.",
+	"22de712b363a08cc": "Ajustar huso horario",
+	"2dcc1fdd35bf7ff3": "No has añadido ninguna clave pública de SSH.",
+	"36117ed91792ecee": "Guardar preferencia",
+	"367368adf7d2c076": "Formato de correo electrónico",
+	"39eed5b84977adff": "Editar factor de autenticación",
+	"3df8bcd366638096": "Editar configuración global",
+	"3e7981359eabb320": "Eliminar fase de autenticación",
+	"4c361518ca33fc67": "Se pasará por alto el conflicto entre tu navegador y la configuración de huso horario del perfil.",
+	"5ffbaf136a4c7cae": "Se guardaron los cambios.",
+	"6af17d6765d56e22": "¿De verdad quieres eliminar la dirección «$1»?",
+	"781b13031392e2f6": "Cambiar huso horario",
+	"8046b2c59389017a": "◐ Notificar",
+	"866166feba27470f": "Se calibró el huso horario",
+	"8ee9a791ca0de28f": "Utilizar caracteres de Unicode: ⚙",
+	"9090d877b8e2071a": "Traducciones absurdas",
+	"95e2f9fe1f4e7083": "Preferencias de correo electrónico",
+	"a3e8d4eec273b412": "Desactivar notificaciones por correo electrónico",
+	"ac26a7a94ea2e664": "Traducción",
+	"b53bcdaddd0539de": "Formato horario",
+	"c2c414ad4cf4d6f4": "Phabricator utiliza caracteres de Unicode en los títulos de las páginas como una representación compacta de la aplicación actual. Si los caracteres no aparecen en tu sistema, puedes sustituirlos por texto sencillo.",
+	"d166e844a3f3f871": "Viernes",
+	"d99c8329b0d84eef": "Quitar fase",
+	"e537fe766e532ae9": "Añadir fase de autenticación",
+	"e6a0d7ebbfcfbca7": "Fecha y hora",
+	"e9fdd1691b726c9e": "Guardar preferencias",
+	"f396bac8205c2c03": "Revocar todo",
+	"f547c22e965628d3": "Cuentas enlazadas y autenticación",
+	"f9e9c626c3501a82": "Este motor se utiliza para modificar la configuración."
+}

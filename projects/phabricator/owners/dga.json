@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Linus Konkor"
+		]
+	},
+	"0ffc9e85f23f16c8": "Leɛre pakegye soobo begere.",
+	"1f255a5a518a25d3": "Soobo sɛgeroo duoro.",
+	"3cc047323deaff5d": "$1 dɔgle pakegye soobo begere yi $2 te tɔ $3",
+	"430c9321688e90b4": "Poŋ koodibeesi vori gbulo eŋ pakegyere ko na leɛ-toŋ aplikaasenne mine, aŋa Herald begere.",
+	"5cbd0f3de3f93cc6": "Kpeɛŋaa (Package Owns Paths)",
+	"9d940230d83e9b00": "Bale (Package Watches Paths)",
+	"d6e22a79b9684e4d": "Soobo sɛgeroo \"$1\" ba tona. Sɛgeroo mine naŋ tona la: $2.",
+	"f1760e79ebadce4f": "Ka foŋ wa apdeetere sori ko a pakegye, paase disinare pɛll aŋa ŋa na e `value` ko a daroŋ:\n\n```lang=json, name=\"Aseŋ sori tegeroŋ\"\n[\n  {\n    \"repositoryPHID\": \"PHID-REPO-1234\",\n    \"path\": \"/path/to/directory/\",\n    \"excluded\": false\n  },\n  {\n    \"repositoryPHID\": \"PHID-REPO-1234\",\n    \"path\": \"/another/example/path/\",\n    \"excluded\": false\n  }\n]\n```\n\nA daroŋ ŋa na sɛte la a sori gaa a pɛll fo naŋ tere, ana taa faŋa zuo sori zaa naŋ daŋ bebe.\n\nYageroŋ lɛ, fo na boɔle la `owners.search` fɔrɔ na nyɛ pampana soe\n(which are provided in the same format), wane tɛgebo, a pãã apdeeti a ka foŋ aplaai a daroŋ ŋa tɔ."
+}

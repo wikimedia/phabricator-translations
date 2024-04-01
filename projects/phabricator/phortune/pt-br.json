@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"157f779c299902dc": "O nome do faturamento não pode ter mais de $1 caracteres.",
+	"176e369ed544fb50": "Método de pagamento da Phortune",
+	"1bb1e4002229c46a": "Ocorreu um erro ao adicionar este método de pagamento:",
+	"1f7cbc2916b6b64c": "$1 removeu o nome de faturamento desta conta ($2).",
+	"214f3257d23c0606": "Endereço de cobrança da conta.",
+	"28faf17003285a9f": "Código de declínio",
+	"41e11602d593908c": "Descrição do comerciante.",
+	"4a3049fd85aa5444": "$1 mudou o nome de faturamento desta conta de $2 para $3.",
+	"5b50c0a7667b5652": "VISÃO GERAL DA CONTA",
+	"5da25ad570031cfc": "Tipo de erro",
+	"6912612ad201d65f": "Nome da conta para fins de faturamento.",
+	"6c720e762b948e08": "Novo endereço de cobrança da conta.",
+	"83be1fe5d262b263": "$1 define o nome de faturamento desta conta como $2.",
+	"91f02b97a2aeaa4a": "Parâmetro de erro",
+	"9554632dfc52e4c6": "Projeto de lei para:",
+	"a20ebac9a755f6bf": "Você está fazendo muitas tentativas para adicionar métodos de pagamento em um curto período de tempo.",
+	"a6e4dd148a858483": "Editar método de pagamento",
+	"b9cc18e1f6b08acb": "MUDANÇAS NO ENDEREÇO DE FATURAMENTO",
+	"c1cf67492424f3f3": "$1 atualizou o endereço de cobrança da conta.",
+	"c4d63e4c56f1d2b7": "De:",
+	"ca873970a12ca3f6": "Novo nome de faturamento da conta.",
+	"d44b06772872f38e": "Detalhes adicionais sobre este erro:",
+	"e621bd6e9ff3eeaa": "Nome de cobrança",
+	"f383f6a23c878e97": "Método de pagamento",
+	"f75ad773988ea805": "Erro de código"
+}

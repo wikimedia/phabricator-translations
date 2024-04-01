@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"0691c225d7708594": "Editar versão mais antiga $1...",
+	"0cb0697324e584a3": "Publicar esboço",
+	"13f5b08328d27bcc": "Outra atividade de documento não listada acima ocorre.",
+	"164545688f7cd5d9": "Versão $1 de $2:",
+	"2f71dc178c3b1ab8": "Documento da Phriction",
+	"42324a059b503ec2": "Salvar e publicar",
+	"4eb2c082653c8e10": "$1 moveu este documento para $2.",
+	"525ffd3e4b74abba": "Reverter a versão publicada deste documento para uma versão mais antiga?",
+	"546d5cdcb6a3f042": "Versão $1",
+	"5b6b529c575ccc48": "Editar configurações do documento phriction",
+	"5d14eb94b19412b2": "O objeto de conteúdo \"$1\" não pode ser publicado porque pertence a um documento diferente.",
+	"5d303d091f912156": "Editar versão atual $1...",
+	"69068fa8718451b6": "Documentos Wiki",
+	"6abcea27f878afc8": "Editar versão de rascunho $1...",
+	"6cf6e0d91a8abee7": "Você está visualizando um rascunho não publicado deste documento.",
+	"7fb270d05669a23f": "$1 publicou uma nova versão de $2.",
+	"8906f3e5c78fa3b9": "Publicar esboço?",
+	"98b219af6d77a4ff": "Rascunho $1",
+	"9cfac843308844f9": "$1 movimentou $2 para $3.",
+	"ab240038516f0c16": "Visualizar versão de rascunho",
+	"ac4ccb43b8c170bf": "Este documento tem alterações de rascunho não publicadas.",
+	"af3f32e27eb9fddf": "$1 publicou uma nova versão deste documento.",
+	"b58012337ad5b717": "Você está vendo a versão atual publicada deste documento.",
+	"b63cdeb4d5e38fd3": "Atualizar a versão publicada deste documento para esta versão mais recente?",
+	"b725bf3f57421947": "Publicar versão mais antiga?",
+	"c031325de7d7d3a7": "Salvar como esboço",
+	"d41b84d90b5e3658": "Publicar uma versão mais antiga",
+	"d7ad6e9bb987056f": "Este mecanismo é usado para editar documentos da Phriction.",
+	"da494e8452bfdde4": "Já publicado",
+	"daf2a7740bb01235": "Não é possível carregar o objeto de conteúdo com o PHID \"$1\".",
+	"f3bd0e00f4463ce4": "Você não pode criar um documento que não tenha um mestre."
+}

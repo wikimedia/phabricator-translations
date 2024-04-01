@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"10d735e581f1e250": "forgrening",
+	"141ec6a1eabff4c9": "bogmærke:",
+	"1ff5d475973f5d00": "Resultatnavn",
+	"20032083a17999e8": "bogmærke",
+	"260775119b04ac08": "Endnu ikke understøttet.",
+	"350a2ea9323a0c6d": "$1 ♻ $2",
+	"38a45ec5d090553c": "Forespørgsel tog $1 ms.",
+	"3bcb0ed7210a105a": "Korte navne",
+	"41e9874e9bc5920d": "$1 aktiverede dette URI.",
+	"512d1fecf536e4ae": "farlig ændring",
+	"543524eac1cdeea8": "Enorm",
+	"65036a1c76a9293e": "Opret identitet",
+	"681a11933147075c": "Omskriv",
+	"6d15ff6459b44393": "DATA I FARE",
+	"76cdb950721642b6": "Flyt",
+	"79566325f624860f": "Blokeret af",
+	"839226786b62bf95": "SSH",
+	"9120423983b0359c": "DETALJER",
+	"918a549da7ec5bb9": "Mercurial",
+	"b0dfb69e7933fcc6": "Afvist: Farlig",
+	"b6f762feb0ebb7b3": "Forventede '$1', fik $2.",
+	"b8d8ed04089d845c": "Afvist: Enorm",
+	"b962334ba532421a": "Farlig(t)",
+	"ba51e2df22c702b4": "Protokol for '$1'.",
+	"c99a2bcf3e71c435": "Observer",
+	"c9d6929b8fdf24ea": "Opdager \"$1\"...",
+	"d4730753022e62db": "REFERENCER",
+	"da9a875447235025": "tag:",
+	"e9b9e0e9344de724": "GRENE",
+	"f40b27d6b8b9a4fc": "HTTP",
+	"f52698c28f0d2036": "HTTPS"
+}

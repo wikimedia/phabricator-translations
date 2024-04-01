@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"002aa6b71775a72f": "Acesso negado: $1",
+	"021dfd70b626a618": "Nenhuma política",
+	"18751622f503d778": "Essas regras são processadas em ordem.",
+	"24cea5eae0db51f4": "Políticas do usuário",
+	"2f2de884ae395f6b": "Você não tem permissão para editar este objeto.",
+	"35f3475bee7078e3": "Pode ver",
+	"43d425ea1bd228b0": "Políticas de objeto",
+	"460a9850b100cc44": "Membros do projeto...",
+	"4d064726954a1748": "Avançado",
+	"4fef05fb42f4ce11": "Testando o recurso \"$1\" em um objeto (\"$2\") que não suporta esse recurso.",
+	"53b6d518edb90714": "Regras especiais",
+	"5b83b3d2f7e85a79": "Política de objetos",
+	"5d83cb68d4c07acc": "Os membros do projeto \"$1\" podem realizar essa ação.",
+	"61fac6d1372ab49d": "Este objeto é público e pode ser visualizado por qualquer pessoa, mesmo que não possua uma conta Phabricator.",
+	"83423c198b6099ed": "Nota",
+	"b0a11e62b0a03885": "Política personalizada",
+	"b4f25a14263364e1": "Todos os usuários",
+	"c07dedde20aee2f5": "Os administradores podem executar essa ação.",
+	"c390c810d31b5684": "Detalhes da política: $1",
+	"c5b62e2d9424838c": "$1 todos os outros usuários.",
+	"caf1bfe4b242d2f5": "Se nenhuma correspondência de regras",
+	"dc5cf9660865fe3a": "Em detalhes, isso significa que esses usuários podem executar esta ação, desde que passem em todas as verificações descritas acima primeiro:",
+	"de525bf255edb027": "Salvar política",
+	"e3821a020a9519f2": "Política desconhecida",
+	"e55cdac36b987038": "Altere a política de junção do objeto.",
+	"f88a24e096f919c5": "Este objeto possui regras especiais que substituem as regras normais de diretiva de objeto:",
+	"f965b290a4b98d39": "Esse objeto tem uma política personalizada controlando quem pode realizar essa ação.",
+	"fc38e5eb788d9d3a": "Políticas do usuário"
+}

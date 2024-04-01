@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"0eb5ed506e4923c2": "Informatiounen",
+	"17c7ba7676ad1ad6": "Syntax",
+	"17d9db7fe8e99037": "Dir kënnt installéiert Applikatiounen net installéieren.",
+	"20337ba273d1c2bc": "Applikatioun wierklech desinstalléieren?",
+	"2375b7cd960c45e5": "D'Applikatioun $1 wierklech desinstalléieren?",
+	"37510d95565c399d": "Desinstalléiert",
+	"419a96aeba9f1d10": "Desinstalléiert Applikatioune weisen",
+	"6c6b7f66587fd4f1": "Installéiert Applikatioune weisen",
+	"a735da1d32d75e3e": "Desinstalléieren",
+	"b4548d4f60ef7a38": "Dës Applikatioun kann net desinstalléiert ginn, well se gebraucht gëtt, fir datt Phabricator leeft."
+}

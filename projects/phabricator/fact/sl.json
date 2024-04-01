@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"45e147abd920eeb1": "Mera",
+	"493d34ee9a6faacb": "Obdelovanje $1 ...",
+	"600b7712709b38eb": "Kazalec obdelave »$1«.",
+	"9b1f4a23f4f45cb6": "Ni bilo mogoče naložiti ali ustvariti ID-ja (»$1«) mere za ključ »$2« mere.",
+	"cb9f45a57adcf940": "Konfiguracije grafikonov niso spremenljive. Obstoječe konfiguracije grafikona ne morete posodobiti ali prepisati."
+}

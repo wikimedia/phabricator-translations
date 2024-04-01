@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"00b93566bf7ce6cb": "Use dados codificados por formulário para enviar parâmetros aos pontos de extremidade do Conduit. Enviar um corpo codificado em JSON e configurar 'Content-Type': 'application/json' não é atualmente suportado.",
+	"0f35829946ddb923": "Chamado depois",
+	"25f5e0c56cb4a521": "Nenhum usuário desse tipo \"$1\" existe.",
+	"287ff830e4c9c1bc": "Token de API padrão",
+	"2c3d680a580b5db4": "Canalização",
+	"383060ab6eb0da2b": "Duração da chamada (nós)",
+	"49e8c27b9f390a39": "PHID do chamador",
+	"959810e2640d2995": "Tokens de API ativos",
+	"a7c54bb68a56dd9e": "Você não tem nenhum token de API ativo.",
+	"a9da85f65ef3d36e": "Gerar token de API",
+	"aa74dc1683312956": "Gerar um novo token de API?",
+	"ad6362babc3bcfe4": "Chamado antes",
+	"b04106423dbaaa2b": "API do desenvolvedor",
+	"b064364c7db19c94": "Execute a chamada como o usuário especificado. (Se omitido, a chamada será executada como um usuário onipotente.)",
+	"b98008c9398b488a": "Visualizar o token da API",
+	"c4ad0ec9fd44e3e0": "Resultado do método",
+	"f9488c3887141955": "Gerar token"
+}

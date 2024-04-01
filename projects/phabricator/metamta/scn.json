@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"0169751a40ee94eb": "Corpu HTML livatu",
+	"12242284e25550cf": "ID: $1",
+	"1fd6a880ee16bb33": "Cc",
+	"2b6b3cb371bb40d9": "SMTP (AWS)",
+	"473558393914486d": "Email",
+	"5ef41b4002408852": "SMTP (Lucali)",
+	"60914850df88eb57": "Mail vacanti",
+	"60f6314604875691": "CORPU DÛ TESTU",
+	"6ab0dda48f7f10e3": "Statu: $1",
+	"7046eabb3c47b236": "Nnirizzu: $1",
+	"755383dbdc21d178": "Missaggiu: $1",
+	"b082575a018d84e1": "CORPA",
+	"b6c9a32987710809": "E164 di: $1",
+	"bf8f7ce06ff6cb30": "CORPU HTML",
+	"cb6161f1e64897f6": "Mutivu scanusciutu (\"$1\")",
+	"cba25fe748045d94": "Corpu \"$1\"",
+	"cfc6df923150d9d6": "MISSAGGIU",
+	"d08f88df745fa795": "#",
+	"db6aa25a5c0bd83e": "(Stu missaggiu nun havi nu corpu di testu.)",
+	"e3ea75729f362e7f": "(Stu missaggiu nun havi nu corpu HTML.)",
+	"e7e7ca0aaf293e63": "Lu nnirizzu \"$1\" è scanusciutu.",
+	"e8445cbd327abc56": "Nnirizzu $1"
+}

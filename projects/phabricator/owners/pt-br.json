@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"b2e1ff69cfde37aa": "[Pacote]",
+	"b39c780add62d098": "Auditoria de todos as validações",
+	"b45224497cd7faf5": "Auditoria se validação sem envolvimento do proprietário",
+	"b62ff5ccd122308d": "Possuído",
+	"c74d6fd2852686f5": "Encontre resultados em qualquer um dos pacotes do proprietário.",
+	"d3974ce24463624b": "Sem auditoria",
+	"ebf0167ce96b28e3": "Editar caminhos: $1",
+	"f21e1ba83e8ff6ac": "$1 mudou a regra de auditoria para este pacote de $2 para $3.",
+	"f4610974c0efc565": "Pacotes ativos"
+}

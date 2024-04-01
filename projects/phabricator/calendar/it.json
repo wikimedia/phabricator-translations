@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"0e65bd96a6474594": "Film",
+	"158f3da592759369": "Settimanale",
+	"22fb76e46f645ef6": "Viaggio",
+	"364169bc457a0d37": "$1 da $2",
+	"728298d3dbf4fb2c": "Giornaliero",
+	"7622eb5aa42dee6e": "Annuale",
+	"7d3c1a025bda70b6": "Prossimo aggiornamento",
+	"a15e435c9663d551": "Vacanza",
+	"b59cf9ed55bb5bd9": "Rifiuta",
+	"bb54db510a92908a": "Accetta",
+	"d31edb7b8a94bbaf": "Mensile",
+	"e3007085f4dc72bc": "$1 - $2",
+	"ffe9a529aa1d76d5": "Esporta $1 $2"
+}

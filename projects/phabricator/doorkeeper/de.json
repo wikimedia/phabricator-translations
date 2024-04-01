@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umlaut"
+		]
+	},
+	"0e8f9f24b6888746": "JIRA $1 $2",
+	"4abcab3948408ed9": "Kein Asana-Provider konfiguriert.",
+	"4c7e3895c330ac46": "Optionen für die Integration von Asana.",
+	"6f0407282328c749": "Importiert von",
+	"84a3da6f0924f4ed": "Kein JIRA-Provider konfiguriert.",
+	"85aa8b4cee412c6f": "$1 konnte nicht geladen werden.",
+	"88dcef233724f0e8": "Externes Objekt",
+	"8a53c9dbe1f9588d": "JIRA $1",
+	"95b7977d8579fb11": "Integration mit Asana",
+	"9b2f931c941a7615": "Asana: $1"
+}

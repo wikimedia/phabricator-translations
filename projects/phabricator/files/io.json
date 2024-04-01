@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"0608e6a53b86211e": "Nova alt text.",
+	"0aaab8c973d2933b": "$1 efacis l'alternanta texto por ca arkivo (ol esis $2).",
+	"1910e1df6652085d": "Alt Texto",
+	"69767caa8bdc514e": "Custom Alt Text",
+	"fb3efe13bfbbeda2": "$1 modifikis l'alternanta texto por $2 de $3 a(d) $4.",
+	"fefe5fe8efee8c32": "Failed to \"json_decode(...)\" JSON document after successfully decoding it with \"phutil_json_decode(...)."
+}

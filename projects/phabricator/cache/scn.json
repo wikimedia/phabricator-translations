@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"083e9daf755017eb": "APCu",
+	"1bfe152b965a4a3b": "APC",
+	"30eab4800596ed9d": "Cache ginirali (TTL)",
+	"5795d215104d012e": "Cache ginirali",
+	"57d65a67da803ff0": "Furmatu di cache scanusciutu.",
+	"a5532e7c04c99d3b": "Cache utenti APC",
+	"b9aca39fb5dd90ed": "OPcache"
+}

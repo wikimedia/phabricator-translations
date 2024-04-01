@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"0484745cc7badf2f": "Correio forçado",
+	"16821e6e6ddd63ef": "Mensagem PHID",
+	"2894dd0f236e49ff": "Esta é uma mensagem mais antiga que antecede a gravação de informações de entrega, portanto, nenhuma está disponível.",
+	"309cadbed6ab4378": "Digite um nome de usuário, projeto, lista de discussão, pacote ou função...",
+	"388250a7a39487c5": "Exceção não tratada",
+	"400ed7b86e444d7d": "Nenhuma regra de roteamento aplicada ao entregar esta mensagem para você.",
+	"44caf74675ceb79b": "Caixa de entrada",
+	"4f5cf7a38b11450a": "Regra efetiva",
+	"4f80bb88d56031dc": "Conteúdo enviado por correio eletrônico, também conhecido como e-mail.",
+	"520de7443d00d6ff": "Cabeçalhos",
+	"52e3000e957f9b92": "Regras de roteamento",
+	"704a1970f54a81f6": "Não é possível enviar uma mensagem com um tipo de mensagem desconhecido \"$1\".",
+	"81aa68f3d076964c": "Sua mensagem não contém texto ou anexos do corpo, portanto, o Phabricator não pode fazer nada de útil com ela. Verifique se o texto do comentário aparece na parte superior da sua mensagem: respostas citadas, texto embutido e assinaturas são descartadas e ignoradas.",
+	"9575e528904c9d3c": "Especifique um ou mais usuários para enviar uma mensagem para \"--to\" e/ou \"--cc\".",
+	"9631af52c66f1a5c": "Entrega",
+	"9ff8892af04610d6": "Exceção não tratada: $1",
+	"ab678caf3b8f66be": "CABEÇALHOS",
+	"c3bf84287c91e2a0": "Razões",
+	"d1b140aa3baf7ca1": "Este destinatário desativou todas as notificações por e-mail (Configurações> Preferências de e-mail> Notificações por e-mail).",
+	"d5a2e2146e560316": "Digite um nome de usuário, projeto, pacote ou lista de discussão...",
+	"e16e7c2a0786eecf": "Nenhuma regra especial afetou este e-mail.",
+	"ed668ded07e91141": "Objeto relacionado",
+	"eea956cde875f0a6": "Entregue",
+	"f0f2767f4ace005d": "As razões de entrega são listadas do mais fraco ao mais forte.",
+	"f5d15de21946d092": "Enviar e receber e-mail",
+	"f9a567a4d8896a4d": "A entrega deste e-mail é forçada e ignora as preferências de entrega. O correio que usa entrega forçada geralmente está relacionado ao gerenciamento de contas ou autenticação. Por exemplo, o e-mail de redefinição de senha ignora as preferências de e-mail.",
+	"fd55ed6d3a21b8ba": "Procurar inscritos"
+}

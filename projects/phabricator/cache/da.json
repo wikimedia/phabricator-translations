@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"083e9daf755017eb": "APCu",
+	"0e313deeb5268c5d": "\"$1\" deaktiveret",
+	"1bfe152b965a4a3b": "APC",
+	"492a43e524b486a2": "\"$1\" aktiveret",
+	"57d65a67da803ff0": "Ukendt cache-format.",
+	"712bf67f120d05cd": "Ryd alle cacher.",
+	"967529ae1730771f": "OPcache deaktiveret",
+	"9c55cae97baf5504": "APC/APCu deaktiveret",
+	"9f06221f48fc209c": "\"$1\" er på nuværende tidspunkt aktiveret, men bør sikkert være deaktiveret.",
+	"ef5e48136600c11f": "PHP-udvidelsen 'APC' er ikke installeret"
+}

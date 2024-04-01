@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"FF-11",
+			"Justman10000",
+			"Leon95",
+			"Sushi",
+			"Tobi 406",
+			"Wolfdietmann"
+		]
+	},
+	"2bcab289f2c5c402": "Keine Commits",
+	"350a2ea9323a0c6d": "$1 ♻ $2",
+	"38a45ec5d090553c": "Query dauerte $1 ms.",
+	"3bcb0ed7210a105a": "Kurze Namen",
+	"41e9874e9bc5920d": "$1 aktivierte diese URI.",
+	"46c4d368953d53f1": "Einige der ausgewählten Automatisierungspläne sind ungültig oder beschränkt: $1.",
+	"47783bfa7e067ee0": "Zerstörte Überweisung \"$1\" auf Objekt \"$2\".",
+	"4d643d09b1c63f38": "($1) $2",
+	"4de1171551cb9775": "Unbekannter Commit \"$1\"!",
+	"4e9627486c6e30e6": "<$1: $2>",
+	"543524eac1cdeea8": "Umfangreich",
+	"5b06532e9bea151c": "Kein I/O",
+	"5e739e34eb21a735": "Unbekanntes VCS \"$1\"!",
+	"637fe8aade6a5c68": "Die Flags \"--all-identities\" und \"--raw\" sind nicht kompatibel.",
+	"65036a1c76a9293e": "Erstelle Identität",
+	"65174113040b5448": "Bearbeite Identität: $1",
+	"681a11933147075c": "Umschreiben",
+	"6b3a602280be24f5": "Anhängen",
+	"714efb1a3f958f23": "Neues Repository",
+	"737f4f53719f6d60": "Flaggennamen",
+	"7675e233ae4bea59": "Neuestem Commit",
+	"79566325f624860f": "Blockiert von",
+	"811521a883cef518": "Identitäten in einem Repository wiederherstellen.",
+	"839226786b62bf95": "SSH",
+	"86d11151c58bab85": "$1 aktivierter Schutz gegen umfangreiche Veränderung.",
+	"8dd4871b598b732c": "Alle Repositories",
+	"b0dfb69e7933fcc6": "Abgelehnt: Gefährlich",
+	"b962334ba532421a": "Gefährlich",
+	"efce2f3809f85795": "Frage nicht nach einer Bestätigung.",
+	"f40b27d6b8b9a4fc": "HTTP",
+	"f52698c28f0d2036": "HTTPS"
+}

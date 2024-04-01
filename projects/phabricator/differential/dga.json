@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"ANTHONY DERY",
+			"Joachim Yirkang",
+			"Linus Konkor"
+		]
+	},
+	"0044ef32593f0678": "Fo koŋ baŋ paale JIRA yɛlɛ $1 eŋ a leɛkaabo ŋa bonso fo $2 die daga ba liŋk JIRA die daga.",
+	"1627510b242fdd96": "Leɛ.",
+	"3beb9ad4036d0f72": "Leɛ kannoo",
+	"6de2ed1ba9cfe6a3": "Ka fo sɛte ŋa gaa yelmeŋ, pekyere na paale la a mail tɛɛtɛɛ (as text attachment). A ŋa koŋ toŋ toma ka foŋ tona ne SendGrid naŋ e fo mail adapta.",
+	"aa0d870d74722b68": "Fo koŋ baŋ nare tɛgebo ko a leɛkaabo ŋa bonso o ta daŋ pɔgɛɛ la.",
+	"c43c3c6bc39f54de": "A senne lɛ, tɛɛtɛɛloŋ leɛkaabore kpalle la a dasibɔɔde ka ba naŋ wa \"sage a\" ka a sɛgerɛ pãã kɔmente a tɛgebo na \"pɔge o\" a leɛkaabo a kyɛ tage o yi a dasibɔɔde.\n\nKa foŋ taa wɛkfuloo naŋ ba tori zie tɛɛtɛɛloŋ naŋ maŋ e posi-kɔmente leɛkaabo (ba naŋ maŋ boɔle \"Audit\" zie kaŋa), fo na baŋ sɛte la a flag ŋa na terɛte a \"Accepted\" beebo ka o e \"Closed\" beebo a kyɛ baare a leɛkaabo wɛkfuloo fɔŋ..\n\nA wɛkfuloo ŋa tɔ maŋ erɛ la. Furi awola la na boɔrɔ ka a tɛge a dairaa ŋa.",
+	"cd93f1c57563b888": "Nyɛge leɛ teɛroŋ taa ka o e ekaabo",
+	"ce01aefb2abc6a72": "A lɛ fo naŋ na maale yel-tɛɛtɛɛ e ka fo tonne a $1 wulibu-dɔlɔ boma",
+	"d84115d569d7027a": "$1 leɛbo yuori $2 yineŋ $3",
+	"f34fb6e3669dfd5b": "Bare"
+}

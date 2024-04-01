@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"00bb89e9c8a3cde1": "Ni najdenega vira predloge (za emblem »$1«) z merami $2 × $3.",
+	"0608e6a53b86211e": "Novo alternativno besedilo",
+	"0b99cebe565822c6": "NAPAKA",
+	"13f243f6445f81b7": "Predogled (220 px)",
+	"15de3ff3371e62eb": "$1: Posodobil bi mere slike (suhi zagon)",
+	"1910e1df6652085d": "Alternativno besedilo",
+	"246b693999879c80": "{{PLURAL:$1|Obdelana|Obdelani|Obdelane|Obdelanih}} $1 {{PLURAL:$1|datoteka|datoteki|datoteke|datotek}}, brez napak.",
+	"26b59e789e8e6375": "Shrani sliko",
+	"3373860833f18d20": "Zavrnitev ocene mer slike razkosane datoteke.",
+	"3c9040162f1fcece": "Nalaganje datoteke ni uspelo.",
+	"4dbc82e4f8be5e26": "palični grafikon",
+	"54afedfed2f10891": "Ni najdenega vira predloge ozadja za mere $1 × $2.",
+	"54d68f2958619279": "Ta slika (z merami $1 px × $2 px) je prevelika za preoblikovanje. Slika ima $3 slikovnih pik, vendar so transformacije omejene na slike s $4 ali manj slikovnih pik.",
+	"58bf58f91d88c078": "info-krog",
+	"5f18ca229b73f5ae": "Privzeto alternativno besedilo",
+	"69767caa8bdc514e": "Alternativno besedilo po meri",
+	"69bd4ef9fbd0894a": "Ogled",
+	"828faa0861f5adf0": "Datoteka je večja od $1, zato je bilo označevanje skladnje preskočeno.",
+	"9b89edbed33072bc": "Ogled kot PDF",
+	"9f073fc050b1b45c": "besedilo datoteke",
+	"9f4ca9ec08715def": "Mere",
+	"aeffebb4f41dd9d1": "PREPIŠI",
+	"afc75655092d00ff": "Ni mogoče določiti mer slike z imagesx()/imagesy(): $1",
+	"b240ea4c8e4b5129": "Sestavi sliko",
+	"b7dc63fe1c4740da": "Format shranjevanja",
+	"b97b21600655dc1e": "$1: mere slike že obstajajo.",
+	"c96b1c74ef74897e": "Vidnost datoteke",
+	"db99c814842e1224": "Široko odprto nebo",
+	"e11523c5ff23fc16": "jezik",
+	"e4d0938022c5ee70": "Ni mogoče ustvariti slike z nepozitivnimi merami.",
+	"eea2f4fa0cbbb59c": "Obnovi informacije o merah slike.",
+	"f4b1b2dfe1abbf7c": "Izberite barvo ozadja",
+	"f895c037588a16db": "Zavrnitev ocene mer slike kosa datoteke."
+}

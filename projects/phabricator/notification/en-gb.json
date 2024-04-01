@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"7c97fc57d0663517": "Notification server configuration describes an invalid host (\"$1\", at index \"$2\") with an unrecognised type (\"$3\"). Valid types are \"$4\" or \"$5\"."
+}

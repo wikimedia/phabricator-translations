@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad",
+			"Felipe L. Ewald"
+		]
+	},
+	"03a68b7d8b854f2e": "Uso de memória",
+	"0424f6e7026fa4bc": "Tabela",
+	"0b8e953c1065714c": "Nenhum repositório ativo possui erros pendentes.",
+	"1647b9db6c01fdfd": "Acesso negado",
+	"1b89d4f8e0ff277c": "Esta tabela pode usar um mecanismo de tabela melhor.",
+	"2760308a0f6d1684": "Conjunto de caracteres",
+	"311a29efbcad3b2b": "Você pode encontrar mais informações sobre como reconstruir o índice de pesquisa aqui: $1",
+	"4028c0c8b470f545": "Não disponível",
+	"5a77699e8640e420": "Não habilitado",
+	"66befa8a4fb57dd5": "Problema resolvido",
+	"681cd222368609f7": "Esta coluna tem a configuração de autoincremento incorreta.",
+	"681e6e1056b635bd": "Permite adicionar links no rodapé na maioria das páginas.",
+	"684302d05a739f1c": "Região de USWest",
+	"69dbeefe153f6cf2": "Configurando e-mails de saída",
+	"6a02bdd01c0a0578": "Os endereços de correio de entrada agora estão configurados para cada aplicativo na ferramenta Aplicativos.",
+	"6aafa80cab6f4d80": "Tempo de atividade",
+	"6ba08131fb3b08cc": "Marque as atividades completas, mesmo se não houver uma necessidade pendente de concluí-las.",
+	"79b48f70762fbba7": "O algoritmo de indexação para o índice de pesquisa de texto completo foi atualizado e o índice precisa ser recriado. Até você reconstruir o índice, a pesquisa global (e outra pesquisa de texto completo) não funcionará corretamente.",
+	"7df8ae5849713a0b": "Sua configuração do PHP seleciona um fuso horário inválido. Selecione um fuso horário válido.",
+	"8851142da56fd885": "Configuração",
+	"8e459cf20e324eec": "Esta é uma lista de substituição de expressões regulares que permite escolher quais arquivos de idioma são destacados como. Se seus projetos tiverem determinadas regras sobre nomes de arquivos ou usarem extensões de idioma incomuns ou ambíguas, você poderá criar um mapeamento aqui. Este é um dicionário ordenado de expressões regulares que será testado contra o nome do arquivo. Eles devem mapear para uma linguagem explícita como um valor de cadeia ou um índice numérico para os grupos capturados como um inteiro.",
+	"985c31000340fef5": "Você ativou o Elasticsearch, mas o índice não existe.",
+	"9c183382e10369c1": "Elasticsearch mal configurado",
+	"b1895b2e540743ae": "O algoritmo do índice de pesquisa foi atualizado e o índice precisa ser reconstruído.",
+	"c7b0aa24062129ce": "Fuso Horário do PHP",
+	"d485fb1b8a1e4854": "$1 Ativo",
+	"ed5170cd339b4047": "Interface de usuário",
+	"fb45d5513ed72de2": "Ativar o modo de desenvolvedor"
+}

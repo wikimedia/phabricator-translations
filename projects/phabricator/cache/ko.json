@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"083e9daf755017eb": "APCu",
+	"1bfe152b965a4a3b": "APC",
+	"30eab4800596ed9d": "일반 캐시 (TTL)",
+	"5795d215104d012e": "일반 캐시",
+	"57d65a67da803ff0": "알 수 없는 캐시 포맷입니다.",
+	"712bf67f120d05cd": "모든 캐시를 지웁니다.",
+	"76a32e50c9ff6caf": "\"--all\" 또는 \"--caches\" 중 하나만 지정하십시오.",
+	"a5532e7c04c99d3b": "APC 사용자 캐시",
+	"abf132f47abe84c6": "OPcache 구성",
+	"b9aca39fb5dd90ed": "OPcache"
+}

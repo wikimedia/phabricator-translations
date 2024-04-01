@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"0978c3592d43767a": "Gerenciar redes públicas e privadas.",
+	"1014f5db26547beb": "Adicionar interface",
+	"2e87516317bb6667": "Editar espaço nominal",
+	"317cb7dd10287fe1": "Este serviço ainda não foi vinculado a nenhuma interface de dispositivo.",
+	"36e6fd21188f1ba3": "Procurar serviços",
+	"3f159192dc1f4ed7": "Controlar quem pode criar novos serviços e dispositivos nomeados.",
+	"49d2c9c065a6d0ad": "Editar rede",
+	"4b4cc5e7b840935d": "Editar serviço",
+	"53ebc572b4a44802": "Rede",
+	"555d04c86e10c134": "Criar rede",
+	"574ce1ec7e24d425": "Interfaces de dispositivos",
+	"5b7faa9d6112e815": "Editar dispositivo",
+	"5c524600736c98d4": "Todas as redes",
+	"625cc88bec54c232": "$1 criou este serviço.",
+	"688fddf1e0520a7a": "$1 renomeou esse serviço de $2 para $3.",
+	"6eabe52595c2f318": "Console Almanaque",
+	"71604c9186b5e02f": "Digite um nome de tipo de serviço...",
+	"7394b292ead3f3e4": "Pode criar serviços",
+	"81437d8707e97bda": "Diretório de serviços",
+	"85946f146cec51d8": "$1 removeu a interface para essa ligação.",
+	"8941e9f98c519e0d": "Tipo de serviço",
+	"b5ee050ed3908c47": "$1 criou esta rede.",
+	"bb6271a9e9f17664": "Todos os espaços nominais",
+	"be09a63bd1995e99": "Espaços nominais",
+	"bf1487561d0c93c4": "Criar e atualizar serviços e mapear para interfaces em dispositivos.",
+	"bfd3d979c1349947": "Todos os serviços",
+	"c2f3a87f363b7c4f": "$1 define a interface para essa ligação como $2.",
+	"d14c62aa3625f2d2": "Todos os dispositivos",
+	"d4ffbfcbe2c60398": "$1 criou este espaço nominal.",
+	"e67cbe8d3fcb2d06": "Criar um inventário de hospedeiro e dispositivos físicos e virtuais.",
+	"f70911dba3713f0a": "Tipo de serviço."
+}

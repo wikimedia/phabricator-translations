@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agent",
+			"Carlosmg.dg",
+			"Mpayansilva"
+		]
+	},
+	"44c57abd888a66b3": "Restablecer",
+	"49d2c9c065a6d0ad": "Edita red",
+	"4b4cc5e7b840935d": "Edita servicio",
+	"4becf080f28c92dd": "Crear un espacio de nombre",
+	"53ebc572b4a44802": "Red",
+	"5c524600736c98d4": "Todas las redes",
+	"5f52e5b4cb4ed27e": "Elimina propiedad",
+	"60103c71d5195b07": "Información del estado del dispositivo.",
+	"9109cec1d70311d8": "Almanaque",
+	"9f054bbc3d4e0bd2": "Dispositivo inhabilitado",
+	"a0368b398c46db22": "Configurar el dispositivo.",
+	"a3b6343c54632ae6": "Todas las interfaces",
+	"c942586ce1a5edbc": "Interfaz de almanaque",
+	"cd133e6ca8e371d4": "Crea interfaz",
+	"d14c62aa3625f2d2": "Todos los dispositivos",
+	"d6dfb09f4519c89f": "Puede crear dispositivos",
+	"d877b79aaa1231c4": "Cierto si el dispositivo está inhabilitado.",
+	"dc135b7128982d67": "Estado del dispositivo.",
+	"e9038c87b2dfbe58": "Dispositivos activos",
+	"e931cb5b030b0b23": "Redes",
+	"f70911dba3713f0a": "Tipo de servicio."
+}

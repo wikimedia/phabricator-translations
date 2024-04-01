@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"0cf0421f43bf39a5": "Authorise Application",
+	"12e90f1337b9e627": "The authorisation server encountered an unexpected condition which prevented it from fulfilling the request.",
+	"1a7c9f39ff0af94f": "Authorisation code $1 not found.",
+	"1b67ef4e468168b1": "Redirect URI in request must exactly match redirect URI from authorisation code.",
+	"3381d1d1de925e10": "Revoke Authorisation",
+	"3aae4b071c76a8e7": "OAuth Authorisations",
+	"4958f31ac9700d62": "Invalid authorisation code $1.",
+	"61250284f87a57e7": "OAuth Application Authorisations",
+	"63bfbcf5eb7e57d2": "Authorise Access",
+	"6b36bdfc7076e653": "This application also requested additional unrecognised permissions. These permissions may have existed in an older version of Phabricator, or may be from a future version of Phabricator. They will not be granted.",
+	"776b642d8502e8b3": "This will create an authorisation and OAuth token, permitting $1 to access your account.",
+	"7fb637b2ac8030db": "Do you want to authorise the external application \"$1\" to access your Phabricator account data, including your primary email address?",
+	"8379a90c624a3cca": "Do Not Authorise",
+	"914cb53099586d6a": "Authorisation for \"$1\" confirmed, redirecting...",
+	"946431482509d3f6": "Redirect URI in request and no redirect URI in authorisation code. The two must exactly match.",
+	"9c9b6a53d30d04b3": "You haven't authorised any OAuth applications.",
+	"a281259ccff60430": "Revoke Authorisation?",
+	"b5ae7abca4d47a70": "Authorise Application?",
+	"ba2232f02f2b4c10": "Authorise \"$1\"?",
+	"c8f19ee49e5cd248": "This application (\"$1\") is authorised to use your Phabricator credentials. Continue to complete the authentication workflow.",
+	"d1b2381f69ca381d": "This application has requested these additional permissions. Authorising it will grant it the permissions it requests:",
+	"d1be3d5182ccb47c": "OAuth Authorisation",
+	"d1e16945cc8e6b3f": "Authorisations can only be viewed by the authorising user.",
+	"f4c4d4b4e88022bd": "The user declined to authorise this application.",
+	"f70e77bfebc73871": "You do not have access to OAuth authorisations."
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joachim Yirkang",
+			"Linus Konkor"
+		]
+	},
+	"1c5f9f6d1d923f3d": "[$1] die daga kpeɛbo liŋk",
+	"1d9fae9fe9155678": "[$1] Die daga gbori biri liŋk",
+	"3095ca88d109037a": "[$1] tontona yuori tɛgɛɛ la",
+	"310d6a35d1c262c3": "[$1] peramere adrɛse tɛgɛɛ la",
+	"35febdaad02a5328": "Sa weoŋ,$1",
+	"37e5372bdb491ad7": "Ka foŋ wa sɛte gbori biri baare, fo na baŋ la maale kpɛ la a puoriŋ ka foŋ gaa kyɛ:",
+	"40df0eec058db961": "Toɔle \"waabo yaane ko $1\" eemail ne kpeɛbo mannewulii.",
+	"4376e186d426e0a6": "[$1] Ne fo kyɛ $2 waabo yaane",
+	"580926e4815bf237": "Eŋ $1? Ba na tõɔ asɛses la a sɛva ŋa a la maale deɛ eemail.",
+	"6217b5e4abfb73ae": "Fo na baŋ de la kpeɛbo liŋk ŋa na leɛnyɛ asɛses gaa fo die daga:\n\n  $1",
+	"64f1c4e884fc8819": "Ka foŋ na kpɛ, tu liŋk ŋa a sɛte gbori biri:",
+	"65635557e911fb3f": "Iri $1 ka o ta la e administeeta? Ba ko la baŋ tõɔ toŋ administeeti tontonne a sɛva ŋa poɔ.",
+	"6fda705db92db276": "A eemail adrɛse ŋa ($1) ba la e fo peramere eemail adrɛse. A yi ŋaa kyɛ gɛrɛ, eemail zaa na maŋ toɔle wa la fo peramere eemail adrɛse paalaa ($2).",
+	"8c2c958b89d89af9": "Pampana ŋa la fo peramere eemail adrɛse ($1). A yi ŋaa kyɛ gɛrɛ, eemail zaa na maŋ toɔle wa la kyɛ.",
+	"8e853d002c9feb18": "[$1] Email vɛrefikaaseŋ",
+	"8edd37e41ee7c109": "Ko $1 sori ka o e administeeta? Ba na baŋ tõɔ kuri la tontonneba, sage tontonneba, maale ane iri adminiteetare, sãã die dabare, ane toŋ adminiteeti tontonne mine a sɛva ŋa eŋɛ.",
+	"96848d023a5abe83": "Fo na baŋ tu la a liŋk ŋa a leɛ sɛte fo gbori biri:\n\n\n$1",
+	"9da6a6c5ec63eecf": "Fo $1 die daga ($2) sage de $3 o la. Fo na baŋ kpɛ la kyɛ",
+	"abd34c0732ee642b": "**Bonzuiŋ ka boti die daga seŋ ka o taa eemail adrɛse?**\n\nAne a zaa ka boti ba maŋ dereɛ eemail, a na baŋ yeli la yɛlɛ ne sisitem yobo naŋ derɛ eemail adrɛse. Aseŋ:\n\n  - ka a dieŋ e eebo kaŋa naŋ na //send// eemail, te na boɔrɔ la adrɛse na toŋ ne a //From// zu poɔ.\n  - ka a die daga kuri kɔment, Git ane Mercurial na boɔrɔ la eemail adrɛse na ko soora.\n  - ka foŋ toɔle eemail //to// sɛva ŋa a die daga yuori eŋɛ, a adrɛse na baŋ wuli la a toɔla.\n  - entɛɛnal ɔtentikaasenne mine tontonne maŋ are la die dagere naŋ taa eemail adrɛse.\n\n\nA adrɛse na vɛrefaa la  omeŋɛ, a lɛ na a ba seŋ ka fo na baŋ de mail a adrɛse ŋa poɔ, ane fo na baŋ kpɛ ne la adrɛse na ba tori bee ba tona (but correctly formatted) aŋa `bot@yourcompany.com` ka foŋ boɔrɔ.",
+	"adef5035f1e717b8": "Nombu,\n$1",
+	"b09850ab4376d41c": "$1 Die daga \"$2\" sage de",
+	"cc679a9e53b0f37a": "Bare o vuo $1 ka o asɛses sɛva ŋa?",
+	"d39c03dae082a48d": "Kuri standaate tontona die daga. Tontonneba bama na baŋ kpɛ la, de a wɛb niŋe ane API, a nyɛ eemail.",
+	"e4d246294029449b": "Ka foŋ wa sɛt fo die daga yɛlɛ baare, fo na baŋ la maale kpɛ la nandaare ka foŋ gaa kyɛ:",
+	"ec82c70113a21f6e": "ŋmaa $1? Ba ko la baŋ tõɔ asɛses a sɛva ŋa bee nyɛ eemail.",
+	"f6a628af1a94ddfe": "$1 ($2) leɛre la fo $3 tontoŋyuori."
+}

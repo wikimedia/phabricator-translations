@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"2b0ccd8f5dae45d5": "An authorisation request will be pushed to the Duo application on your phone.",
+	"33cf03732851902e": "A text message with an authorisation code will be sent to your primary contact number.",
+	"3537fbc2c8b8c5e0": "A keypair has been generated, and the public key has been added as a recognised key.",
+	"35b71aff1eb4cd2d": "You may optionally customise the enrollment message users are presented with by providing a replacement message below:",
+	"47d41f7fec9db6fd": "You have failed too many attempts to synchronise new multi-factor authentication methods in a short period of time.",
+	"56ee2ff379dcf74f": "Customise Messages",
+	"78cdab3abf9dc85d": "Customised",
+	"7a556d163c57b5de": "If you do not recognise this change, it may indicate your account has been compromised.",
+	"8305d0bed00d1382": "Really revoke all tokens? Among other temporary authorisations, this will disable any outstanding password reset or account recovery links.",
+	"85595ce1133020cd": "Analyse and diagnose issues with LDAP configuration.",
+	"a23ea4ee82b8c99f": "Really revoke this token? Any temporary authorisation it enables will be disabled.",
+	"b444aff5788b2d45": "Customise Enroll Message",
+	"d510e5be34868617": "Your account has too many outstanding, incomplete MFA synchronisation attempts. Wait an hour and try again.",
+	"f7617420f8cd168a": "Customise Message"
+}

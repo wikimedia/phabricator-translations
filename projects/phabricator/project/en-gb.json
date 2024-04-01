@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dreamy Jazz",
+			"Lcawte",
+			"Reedy"
+		]
+	},
+	"0238408d1f7fc57b": "$1 set this project's colour to $2.",
+	"041726833d5e1537": "Edit Background Colour",
+	"04460916da2fde91": "New project tag colour.",
+	"171b8f0836aae36b": "Column status \"$1\" is unrecognised, valid statuses are: $2.",
+	"263eaf09f0fddab0": "Adjust project colours.",
+	"3e94505700f9668d": "$1 set the colour for $2 to $3.",
+	"42a398604bab3ff3": "Project tag colour.",
+	"4917eb42b43b64f5": "Information about the project colour.",
+	"519255ae1f74ffc5": "Organisation",
+	"550a71f54dda6eb7": "Change the project tag colour.",
+	"7722da513494e2be": "Configuration must be a list of project colour specifications.",
+	"874df4e774343ace": "Background Colour",
+	"9425009906c245f5": "Solid Colours",
+	"aa0d2604c9946e87": "Two different colours (\"$1\", \"$2\") are marked as the default colour. Only one colour may be marked as the default.",
+	"b0b8f32a131981cc": "Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.\n\nProjects which are invalid or unrecognised will be ignored. This command has no effect if you do not specify any projects.",
+	"bb1773266e8d6383": "Project colours must include one colour marked as the \"$1\" colour, but no such colour exists.",
+	"bb1c84aa806c588f": "Change Background Colour",
+	"ca162b59ace9b527": "Choose Icon and Colour...",
+	"d7852547c7bc77b9": "Icon special attribute \"$1\" is not valid. Recognised special attributes are: $2.",
+	"daee3fc0d8990d8a": "$1 changed the background colour of the project workboard.",
+	"e357cb345e064752": "Project colours must have unique keys, but two icons share the same key (\"$1\").",
+	"e630c947a7957344": "Colour key \"$1\" is not a valid colour key. The supported colour keys are: $2.",
+	"e739e13d2f73b942": "Project name, hashtags, icon, image, or colour changes.",
+	"ed248995252b9b6c": "Use Icon and Colour"
+}

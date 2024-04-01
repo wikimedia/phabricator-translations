@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elroy",
+			"Mainframe98",
+			"McDutchie"
+		]
+	},
+	"02c8304104610b98": "Wachtwoorden",
+	"1792d2c4ae206e7c": "Te kort",
+	"19166f670db6efac": "LDAP-gebruikersnaam:",
+	"2b681c0a24baff88": "Google",
+	"3d50952990f6f796": "voornaam, achternaam",
+	"3d641283c8bb7d71": "Minimaal $1 tekens lang.",
+	"430b38bf6daa7f91": "Slack",
+	"5392c950bdde4be7": "Twitter",
+	"574f02b7da654e06": "Volgende stap",
+	"5cc41c2d9eefe7c2": "Niet geïnstalleerd",
+	"67295f5a51004cda": "Er bestaat geen gebruiker met de gebruikersnaam \"$1\".",
+	"74c0fda1054b04bf": "Amazon",
+	"7b66c2d59b36bad1": "Afmelden?",
+	"82da67b211249624": "Facebook",
+	"83826acafae51f6d": "LDAP-versie",
+	"85f17ac049c42182": "Ingetrokken",
+	"8d884d6c8bcb3934": "Account uitgeschakeld",
+	"8e79d5b106832aa0": "LDAP wachtwoord",
+	"8fc89afea3d19a2c": "Gebruikersnaam of wachtwoord is onjuist.",
+	"97c2c650a605574e": "Weet u zeker dat u zich wilt afmelden?",
+	"9b39985a692a3541": "E-mail verzonden",
+	"9b6f4cc9bd844348": "Twitch.tv",
+	"a027e0314e6b80cd": "Verstuurd door",
+	"a1de0fec262bf00b": "Persoonlijke sleutel ophalen ($1)",
+	"a2725bce75ce53b2": "Profielwachtwoord instellen",
+	"a2f060b7363f54c9": "Wachtwoord vergeten?",
+	"a654e1b5e82f01ce": "Aanmelden verplicht",
+	"a98885cf6cc04a5d": "Bitbucket",
+	"a9b893701eff7096": "Kan het LDAP-account niet vinden!",
+	"af3e29f0651ddf5a": "Nieuw account aanmaken",
+	"b37c5cfc5d44a034": "Erg zwak"
+}

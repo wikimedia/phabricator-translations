@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"0d414d66fe088997": "ICS-tiedosto",
+	"0e16537914a0163e": "Viennit",
+	"0e790231b22f0ebe": "Tuotuja tapahtumia ei voi muokata Phabricatorissa.",
+	"158f3da592759369": "Viikoittain",
+	"17dc9a83744348b2": "Kokous",
+	"233eba16d55d0a75": "Tuonut",
+	"326113bacd6ff94c": "Tuo $1",
+	"4544e8cfe4f4a3e0": ".ics tiedosto",
+	"47fd09f8b75f9cc5": "[Kalenteri]",
+	"53a956b04d61bd54": "Luo tapahtuma",
+	"74068d206fedf8af": "Kuukausinäkymä",
+	"7622eb5aa42dee6e": "Vuosittain",
+	"7d3c1a025bda70b6": "Seuraava päivitys",
+	"7d85ef4b5f578ed8": "$1 loi tämän tapahtuman.",
+	"7f14d90b874e184d": "Kaikki tapahtumat",
+	"8134534ffba5ebde": "Saatavuus: $1",
+	"8611720e10202c2c": "Luo uusi tapahtuma",
+	"94c99aa1abfca10c": "Kalenterin käyttäjäopas",
+	"9af976e948824920": "Tuntematon viesti",
+	"a15e435c9663d551": "Loma",
+	"a3e280a74efffd10": "Muokkaa vain tätä tapahtumaa",
+	"ae5374e17da2656c": "Vie .ics-muodossa",
+	"ae88acefda9740ca": "Orpo",
+	"bb54db510a92908a": "Hyväksy",
+	"d31edb7b8a94bbaf": "Kuukausittain",
+	"da9fb400dd20d980": "Lähdetiedosto",
+	"dc95981e000acb76": "$1 perui tämän tapahtuman.",
+	"e0d73143de80d17e": "Liity",
+	"e3007085f4dc72bc": "$1 - $2",
+	"e42328ac01cd03a4": "Tuonnit",
+	"eb8b50882d106084": "Tuntematon viesti \"$1\"",
+	"ffe9a529aa1d76d5": "Vie $1 $2"
+}

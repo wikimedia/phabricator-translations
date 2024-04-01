@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lcawte",
+			"Reedy"
+		]
+	},
+	"270aa2928cc52994": "No services need initialisation.",
+	"40421219d61783cb": "Service initialisation complete.",
+	"4c17ecfe7def5613": "Initialise or repair a search service.",
+	"7cbeec83e435479c": "Customise Query: $1",
+	"a4521d9ee1da2660": "Initialising search service \"$1\".",
+	"b1f257d2bbe5cc3c": "You can tell how warm a cat is by examining the colouration: cooler areas are darker."
+}

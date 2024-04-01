@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"011267c8fa653b24": "Palauttanut",
+	"02bbfa623c372026": "VCS-salasana",
+	"032efa14d45b3111": "Aseta VCS-salasana",
+	"068e253bd6f197f9": "Poista VCS-salasana",
+	"0f3d4450aa69fd8a": "Vahvista VCS-salasana",
+	"0faf7d31c173994d": "Uusi VCS-salasana",
+	"22ad664e9eb98b75": "Symbolit",
+	"2bcf90cd7c976b85": "Hallinnoi salasanaa",
+	"2be88ca4242c76e8": "null",
+	"2f3b5c55bc27cdf8": "Selaa",
+	"35481f60cee7a087": "Kelpaamaton JSON: $1",
+	"41bd242d2f703533": "Tuntematon VCS.",
+	"43df3046ba76aa87": "Viimeisin muutos",
+	"445be66090836dfc": "Tuntematon VCS '$1!'",
+	"47b2dc999995d625": "Vain luku",
+	"4d5967896006c8a6": "Nykyinen salasana",
+	"512480821db5ca82": "Tuodaan ( $1 )...",
+	"574ff9b0c49cdeb5": "Näyttö",
+	"580e6b861f60ad4c": "Näytä listana",
+	"60cacf839cfc3327": "Salasanaa ei asetettu",
+	"8e6b86dce8c4fbac": "Ongelmat",
+	"9cdd0dab5ea4ea68": "Näytä koodivaranto",
+	"9ebf9a99d96c49b4": "Raakatiedosto",
+	"a1c25ea8f6af0845": "Avaa tiedosto",
+	"a41427462a495a80": "Näytä kaikki muutokset",
+	"abd28e4ea76f8f67": "Salasana päivitetty",
+	"b7849f2882363b5f": "Tiedosto uudelleennimetty",
+	"b80113882cc39288": "Hallitse SSH-avaimia",
+	"be9887b3f234d940": "Poista salasana",
+	"d30372e755e4b0d0": "SSH-avain",
+	"d8cdb573350de785": "Kloonaa",
+	"e6e27efe41689342": "Selaa symboleita"
+}

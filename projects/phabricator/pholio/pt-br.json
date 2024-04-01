@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"0a39b87a239bef85": "Editar Mock: $1",
+	"0e81e60d2288e5d0": "Ver Mock",
+	"0fc740c29f99e455": "Rever Mocks e Design",
+	"1204bd0d3e25e01c": "Fechar Mock",
+	"1a2aa2f44c550df6": "Mocks abertos",
+	"4635136ad77d9a37": "Imagem (\"$1\") não especifica qual imagem ela substitui.",
+	"48a5d0172599ed01": "Imagem (\"$1\") pertence ao objeto errado (\"$2\", esperado \"$3\").",
+	"542725ea308a29d4": "Você não pode consultar comentários in-line sem consultar as imagens.",
+	"62a40c85b3b360ac": "Criar Mock",
+	"6550e18a511f51cb": "Clique aqui ou arraste e solte as imagens para adicioná-las à mock.",
+	"738da5323c0ca0ff": "Carregamento completo...",
+	"78e43e7c8ebe4812": "[Pholio]",
+	"9172fd261436d7ce": "Histórico do Mock",
+	"9537ddb0aa40128a": "Nenhuma imagem existe com PHID \"$1\".",
+	"ba19102c76fbee7b": "Desconhecido (ID $1)",
+	"ba25ca451dd7a6d1": "Editar Mock",
+	"c076079459852703": "Imagem \"$1\":",
+	"dc664603dc430f4c": "Não é possível carregar a imagem de substituição (\"$1\"): $2",
+	"eb4b1ee7d2d5a029": "Não é possível carregar a imagem substituída (\"$1\"): $2",
+	"f5ceff0850893d27": "Criar Mock"
+}

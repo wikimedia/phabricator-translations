@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil",
+			"Patrik L."
+		]
+	},
+	"00c7859ed071e887": "Vytvořit úkol",
+	"013ec284eed0cb93": "Zatřídit",
+	"013ffcc0bfc10d89": "Definice podtypů úkolů.",
+	"01b0110fed6b1693": "Priorita úkolu.",
+	"049e3ce5476a39c3": "Řešitel",
+	"07d93e5bc3b14cdc": "$1 uzavřel $2 jako $3.",
+	"08dc166255143315": "Tento úkol byl uzamčen.",
+	"0b38838ff53e4bea": "DETAILY ÚKOLU",
+	"0c44559824c1e156": "Sloučeno",
+	"134526a2e4670fc0": "Náhled popisu",
+	"173312c6e2592de7": "Podúkoly",
+	"1b37a17c20d446cb": "Potřebuje zatřídit",
+	"1ed75797f28f8da0": "Příběhové body",
+	"1f63356a7d83e7b1": "Uzavřeno, Truc",
+	"21cdae45006fc3af": "Nedávno uzavřené",
+	"2c20481a349c4973": "Platné nastavení",
+	"2fd3d35306b61542": "Sloučeno",
+	"7bb0ddf9221c03b8": "Úkol",
+	"85e12bc6f2e56024": "Zmínky",
+	"86a599ef4df28ea3": "Vybrat vše",
+	"889a9cca7b59b20e": "Duplikáty",
+	"88b6b0e1818f2f0c": "Úkol uzamčen",
+	"89bb5ce0cf5602a5": "Editovat úkol: $1",
+	"9d0e05d653ce25e7": "Editovat úkol",
+	"a124947cbd2d1d92": "Nízká",
+	"b1a5954a483f8f8b": "Vysoká",
+	"c4f1f5b1d49f90d5": "Otevřený",
+	"c545ba42921d2c55": "$1 uzavřel $2 jako duplikát.",
+	"cdc43d26b7a4411d": "Přejmenovat úkol.",
+	"d3fd1ebbeb826bc8": "Přání"
+}

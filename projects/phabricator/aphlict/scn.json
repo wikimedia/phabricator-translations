@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"04619b5d014f1cc6": "Manna na nutìfica a n'utenti.",
+	"08f9150056d8f33f": "Lu server di nutìfica nun devi èssiri eseguitu comu root.",
+	"0ab7970d71c137fe": "Dui server (a l'ìnnici \"$1\" e \"$2\") sunnu lijati â stissa porta (\"$3\"). Ogni server devi èssiri lijatu a n'ùnica porta.",
+	"2bea7e7c0b236c1c": "Lu file du configurazzioni nun è nu JSON furmattatu beni. $1",
+	"314e761bb0191d43": "Nuddu binariu `$1` o `$2` fu attruvatu supra $3. Devi nstallari Node.js p'abbiari lu server Aphlict.",
+	"c3e64797a0f467cd": "Missaggiu da mannari.",
+	"e9b8eb62ee46ecb8": "Nutìfica mannata."
+}

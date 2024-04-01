@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"39e10a16d93b1238": "Search authorisations from specific objects.",
+	"3dc12e03b808bb3e": "All Authorisations",
+	"4cbb048decdc2f10": "No Authorisations",
+	"50fc8b208ef61024": "Authorisation state of this request.",
+	"5670d81c42b0474b": "Drydock Authorisations",
+	"5699ab7a338a84c7": "Search authorisations for specific blueprints.",
+	"5c05fa707dea2c53": "Decline this authorisation? The object will not be able to lease or allocate resources created by this blueprint.",
+	"6802745dc51db03f": "Approve this authorisation? The object will be able to lease and allocate resources created by this blueprint.",
+	"68e5660e3eab2ae5": "An authorisation inherits the policies of the blueprint it authorises access to.",
+	"7551c6cc2858509f": "Authorisation state of the requesting object.",
+	"7934a6ab601a0786": "This authorisation has already been declined.",
+	"83d9fb62128da621": "Approve Authorisation",
+	"9504201cae49c99c": "WARNING: There are $1 unapproved authorisation(s)!",
+	"991f4cba924d2d67": "Authorised",
+	"a4a5d7313bcdd8b5": "Decline Authorisation",
+	"abf7849f13467b15": "Authorisations",
+	"bcedabe1d8635720": "This authorisation has already been approved.",
+	"c497d65312b4baca": "Blueprint type \"$1\" is unrecognised. Valid types are: $2.",
+	"c89e45212ec68582": "Already Authorised",
+	"d5fb68ec80e6275a": "Retrieve information about Drydock authorisations.",
+	"f7d51714dc306476": "Trying to queue a lease for activation without an authorising object. Use \"$1\" to specify the PHID of the authorising object. The authorising object must be approved to use the allowed blueprints."
+}

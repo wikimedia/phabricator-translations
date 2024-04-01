@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"304747ac00cb4edb": "No synchronisation changes for \"$1\".",
+	"56d8c070a89ce6c8": "Failed to load commit during transaction finalisation!",
+	"837a6d5babee70d2": "Synchronising \"$1\": \"$2\" -> \"$3\"."
+}

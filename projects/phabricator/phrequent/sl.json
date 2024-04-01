@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"130b6112a817550a": "Čas ustavitve",
+	"41c1074ddb72ef2d": "Čas začetka",
+	"6be593a56af52a36": "Porabljeni čas",
+	"7766b4bface288d0": "Čas Phrequenta",
+	"9e253470c876ee6d": "Ustavi",
+	"b195946f55feedbc": "$1 (pred $2)",
+	"ef93054e5e8b026d": "Čas zaustavitve mora biti po času začetka."
+}

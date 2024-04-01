@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"0151c85868c3a4ae": "Log på med Phabricator",
+	"076a9d109c3f1a23": "Serverfejl",
+	"13e9967e164ae1b1": "Ingen klienter fundet.",
+	"2cacad6a076b8f83": "Klient-PHID",
+	"8ce1713d4d681e91": "Omdøb applikationen.",
+	"a60c184fbe8810e4": "Fortsæt til applikationen",
+	"c5523ed34d07c5ac": "OAuth er ikke tilgængelig",
+	"da003b8eb21ad9cc": "OAuth-server",
+	"f6a621985c2660b2": "Rediger applikation"
+}

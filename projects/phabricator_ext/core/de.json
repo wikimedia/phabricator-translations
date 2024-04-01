@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"HajFunk",
+			"Leon95",
+			"Wolfdietmann"
+		]
+	},
+	"0697a4a521e77f96": "Standard-Phabricator.",
+	"0c44559824c1e156": "Zusammengeführt",
+	"0ca12429c5bd6363": "Gerrit-Projekte",
+	"0ec5ac08bc4d21de": "Ungelöste Code-Review-Kommentare: $1",
+	"16121b92df54c50d": "Verwandte Patches anzeigen",
+	"18c4324ad93e783f": "Du musst entweder einen Benutzernamen oder eine userPHID angeben",
+	"1e0d38745c10e6eb": "Unbekannte Richtlinien: $1",
+	"4ab9fcd02a0672af": "Das angeforderte Projekt ist nicht vorhanden.",
+	"51f99735e504752c": "Ändere den Typ auf \"$1.\"",
+	"538e47fec42566c7": "Kundenschlüssel erforderlich",
+	"54e07aad9d8e5b8e": "Ungültig",
+	"5675b2bb3eceb365": "Bei Code-Review blockiert",
+	"56e4cd1b87174f82": "Ansichtenwechsel in Gerrit",
+	"57aa236e8a2261d2": "Link zu offenen Aufgaben",
+	"5ff169cf748b49e3": "MediaWiki Instance Name",
+	"68e50bfeb6b71437": "Begrenze die Anzahl der zu verarbeitenden Transaktionszeilen. Standart: 10000",
+	"6f34fd85d107c51b": "Aktiviere dies, um das experimentelle ElasticSearch-Volltext-Backend zu verwenden.",
+	"98104d0ac3ffcbe8": "Code-Review begonnen",
+	"b895a8c34e80089e": "Wie das funktioniert",
+	"ba51487edf1c05f5": "Verwende [[$1|this form]], um eines zu erzeugen.",
+	"bb640aa769e1bc55": "MediaWiki-Benutzer",
+	"bc67f6bb78373f52": "Offene Aufgaben",
+	"bdf3ec047fa8a739": "OAuth-Fehler: Dieses Konto wurde in MediaWiki gesperrt.",
+	"be67844b013fc678": "Globales Benutzerkonto:",
+	"cc7662e5aed24f19": "Patch ohne arc",
+	"d3996a5cc700c668": "Du kannst die Aktivität eines privilegierten Benutzers nicht zurücksetzen.",
+	"e01dad0522007502": "Die vollständige URL zu deiner MediaWiki-Installation, bis zu aber nicht einschließlich \"index.php\"",
+	"e07350d7b9791f85": "Download-Archiv",
+	"e20bdc892a74ee50": "Expertenmodus",
+	"e360b2c8470aeb30": "MediaWiki-Name fehlt oder unbekannt: $1",
+	"eed6bfb41051ed5b": "Erforderlich",
+	"f1885356a4ddbfb1": "Anzahl der überfälligen Aufgaben",
+	"fce06e20e5f7f74a": "Kommentare",
+	"ff8213df8757cc4a": "Ändere den Typ auf \"$1\""
+}

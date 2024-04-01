@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"0011bad3ecc480f3": "Lås/dölj fält",
+	"02e3ce1b7013fdb7": "Alla användare prenumererar redan på detta $1.",
+	"04f05bd129e98cda": "$1 tog bort $2 prenumerant(er) för $3: $4.",
+	"09d04b85cb93ff12": "I $1 skrev $2:",
+	"1430f976c5967952": "Varningar",
+	"14c01f3d47c9e261": "$1 redigerade prenumerant(er), lade till $2: $3; tog bort $4: $5.",
+	"1b4b1927f2fbf386": "Primära fält",
+	"1e460e3c69fc845e": "Exportera format.",
+	"1fe1c5bcdd6f9ac4": "Nytt objekt",
+	"32238dd01732a528": "$1 tilldelade en pollett.",
+	"34b5651e92f14c46": "$1 lade till en kommentar på $2.",
+	"3626fea91a505ffe": "Ändra undertyp",
+	"3670622c87a88e0c": "$1 tog bort $2 prenumerant(er): $3.",
+	"3760dc37d2e71bfb": "Inte ett redigeringsformulär",
+	"51713409935576d6": "exportera",
+	"619075c31ebd1c0c": "$1 lade till $2 prenumerant(er) för $3: $4.",
+	"65872df75f1b45f1": "$1 skrev:",
+	"70bd08725a77c550": "$1 inaktiverade detta formulär.",
+	"77a9a57d7933c64e": "$1 lade till $2 prenumerant(er): $3.",
+	"8b0db4461b9b2025": "Ändrade prenumeranter",
+	"8d3ff43651f416dc": "$1 uppdaterade prenumeranter i $2.",
+	"9982c0d7a2185b7e": "$1 redigerade prenumerant(er) för $2, lade till $3: $4; tog bort $5: $6.",
+	"b1e19eafeaba6087": "$1 redigerade prenumerant(er), lade till $2: $3; tog bort $4: $5.",
+	"b42db985262fa285": "$1 lade till $2 prenumerant(er) för $3: $4.",
+	"b8b07ce541fd2d9b": "Tyst redigering",
+	"bd905315182de6ba": "Uppdaterade $1 prenumeranter...",
+	"c4b245e2ddd076de": "$1 lade till $2 prenumerant(er): $3.",
+	"d6f2985c9173a3bd": "Lägg till en annan åtgärd",
+	"eb57507fac827135": "$1 (\"$2\")",
+	"fd1ae53fdef9f192": "$1 skapade detta objekt med synlighet \"$2\".",
+	"ff145ddc79509ae0": "$1 tog bort $2 prenumerant(er): $3."
+}

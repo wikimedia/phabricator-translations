@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"03289516cf5f8d62": "Não é possível pausar a compilação",
+	"12b73c2f1ce7c3e9": "Publicando \"$1\"...",
+	"1d184dfbcc0b823d": "Não é possível abortar a compilação",
+	"3abcb72b954677e5": "INVÁLIDO",
+	"3f55f18b4a2336ac": "O trabalho continuará em todas as compilações. Realmente retomar?",
+	"44ab85a252adb7ad": "Origem",
+	"47272a007af9ba7e": "Este destino não possui artefatos associados.",
+	"5fa41a5c4d54d6ea": "Não é possível continuar a compilação",
+	"69d3257595abf94c": "PHID de destino da construção",
+	"85eab50a1f808626": "Se você abortar todas as compilações, o trabalho será interrompido imediatamente. O trabalho será descartado e as compilações devem ser completamente reiniciadas.",
+	"8b896c8fe692c381": "ID de segmentação de construção",
+	"8d669a5196b60b4d": "Planos ativos",
+	"8ec79a7771e2c666": "Nova visão (protótipo)",
+	"92447fc102c0fec5": "Todos os Buildables",
+	"9b5cfb40c1e1aa68": "$1 registros vazios estão ocultos.",
+	"a5b79f5961a2874f": "Artefatos",
+	"ac018db1f7b00972": "Variáveis",
+	"af4c624ba9148ea0": "Pesquise destinos criados em ou após uma data específica.",
+	"c6a7050f7116b476": "Compilação automática",
+	"c6fd3870c86e7422": "Linhas",
+	"e6443af99d2f470f": "Contêiner",
+	"f19fa269f6f0713e": "Se você pausar todas as compilações, o trabalho será interrompido assim que as etapas atuais forem concluídas. Você pode retomar as compilações posteriormente."
+}

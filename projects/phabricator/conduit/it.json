@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Beta16"
+		]
+	},
+	"031a4e76f0b39d0d": "JSON",
+	"3cfbdfa506ab1f05": "Specifica un file da cui leggere i parametri con \"--input\".",
+	"805e86a8cbf628e3": "Errori",
+	"87491c9d490da143": "Nome utente.",
+	"8b799336fa3990a5": "Nessun utente o dispositivo è associato alla chiave pubblica \"$1\".",
+	"b58add6467b90d23": "Metodo da chiamare.",
+	"e1e710e56756b3d0": "Specifica un metodo da chiamare con \"--method\"."
+}

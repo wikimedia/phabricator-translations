@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"178483710b612c6f": "Ponudnik identifikatorja OAuth",
+	"1a7c9f39ff0af94f": "Pooblastitvena koda $1 ni bila najdena.",
+	"26aa5f5a13a26561": "Manjka obvezni parameter zahtevka $1.",
+	"97ed85d9b205eb7d": "Manjka obvezni parameter $1.",
+	"cb11156ea2458afe": "Novo ime aplikacije.",
+	"cef7e5ca541d21ee": "Aplikacija onemogočena",
+	"e2a1c6a4e50f1ad3": "Preusmeritveni URI",
+	"eb806ca894d1e37b": "Manjka obvezna koda parametra."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"33ed2ce4ec2060e8": "Žeton za dostop ne obstaja.",
+	"3ba6d97e29487624": "Ali res želite prekineti vse aktivne API-žetone? Zahtevkov API ne bodo mogli več izvajati nobeni sistemi, ki uporabljajo te žetone.",
+	"4785f2554022aa37": "Neveljaven JSON-vnos.",
+	"63fe040051567460": "Zahtevku manjka obvezni parameter »$1«.",
+	"805e86a8cbf628e3": "Napake",
+	"806d228c380f3420": "PHID uporabnika.",
+	"93590f4618aa3de8": "Izhodni format",
+	"e1a9e5b766c11e7f": "Presežek celega števila.",
+	"f9a0635f6623095b": "Ukini žeton"
+}

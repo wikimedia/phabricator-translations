@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"04619b5d014f1cc6": "Lähetä ilmoitus käyttäjälle.",
+	"08f9150056d8f33f": "Ilmoituspalvelinta ei tule käyttää pääkäyttäjänä.",
+	"197162c832f1d7fd": "VIRHE: PHP-toiminto $1 on poistettu käytöstä. Sinun on otettava se käyttöön, jotta Aphlict voidaan suorittaa tässä laitteessa.",
+	"2a74a7eaa12bf589": "Pysäytä ilmoituspalvelin.",
+	"5884e7023c7e8b80": "Aphlict ei ole käynnissä.",
+	"59c7d5844f411703": "Sinun täytyy ensin $1!",
+	"8bc94a976bc4b3a4": "Näytä ilmoituspalvelimen tila.",
+	"9842684281972986": "Aphlict ($1) on käynnissä."
+}

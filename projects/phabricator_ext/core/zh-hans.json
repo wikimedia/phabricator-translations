@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC"
+		]
+	},
+	"52849e661a5743c5": "在处理完其他事务之前跳过OFFSET行。",
+	"bdfae00c2df98e83": "**MediaWiki实例名称**\n\n为此MediaWiki实例选择一个永久的名称。Phabricator在内部使用此名称以跟踪此MediaWiki实例，以防之后的URL更改。\n\n使用小写字母、数字和句点。例如：\n\n`mediawiki`、`mediawiki.mycompany`或者`mediawiki.engineering`都是合理的名称。"
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agent",
+			"Fitoschido"
+		]
+	},
+	"034565a8bd030b9a": "Demasiados resultados conseguidos ($1) para el commit \"$2\", se esperaba $3.",
+	"10d735e581f1e250": "rama",
+	"193d51140e501abb": "El repositorio («$1») no existe o no tienes permiso de verlo.",
+	"374dc8a8d3305638": "Data de la tarea no tiene \"commitPHID\".",
+	"3dc4b66bd7da76fe": "Ya se importó el repositorio «$1».",
+	"41e9874e9bc5920d": "$1 activó este URI.",
+	"445a801563b5f0e7": "Mostrar una lista de repositorios.",
+	"44a97a6943169489": "Se está actualizando el repositorio «$1».",
+	"4d9c960d3f11c708": "Se aplicaron los cambios.",
+	"512d1fecf536e4ae": "cambio peligroso",
+	"58b93a3b9194c76e": "Descubre commits en __repository__.",
+	"76cdb950721642b6": "Trasladar",
+	"7d021a6e67c07b18": "¿Aceptas la posibilidad de que se produzca una pérdida permanente de datos?",
+	"8d5988976f7670f5": "Commit \"$1\" (con PHID \"$2\") ya no es alcanzable por medio de ningúna rama, etiqueta o referencia en este repositorio, y por lo tanto no será importado. Esto usualmente significa que la rama en el cual el commit estaba ha sido borrada o sobreescrita.",
+	"900f76970416833b": "El servicio de Almanaque para este repositorio no está atado a ninguna interfaz activa.",
+	"9120423983b0359c": "DETALLES",
+	"9ac7d091b3cc8dbd": "Crear repositorio Git",
+	"9c7c969e2ce2fd80": "Crear un repositorio Git nuevo.",
+	"9faf36bdaeb8fee1": "Descubre todos los commits, incluso si son antepasados de commits ya conocidos. Estos pueden reparar vacíos en la historia del repositorio.",
+	"ac93c59b6978ee42": "Se desconoce el repositorio «$1».",
+	"b27f6a54342db55d": "¡Tipo de repositorio desconocido: \"$1\"!",
+	"c0e19659aa3d87be": "Pull incluso si el repositorio no debiera de estar presente en el servidor según la configuración de grupo del repositorio.",
+	"c77b9b9ab44ff8b2": "Incapaz de obtener el récord CommitRef del commit \"$1\".",
+	"c99a2bcf3e71c435": "Observar"
+}

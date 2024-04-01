@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brettchenweber",
+			"Justman10000",
+			"ThisCarthing",
+			"Umlaut"
+		]
+	},
+	"02a9a0412b384fbf": "Name des Dienstes.",
+	"047be01fb538cccb": "Eigenschaft hinzufügen",
+	"093321228c96ab06": "Name des Netzwerks.",
+	"2069cacc0bc1498f": "Du kannst einen nicht existierenden oder eingeschränkten Dienst nicht binden.",
+	"2be0f6e2cf1dfeeb": "Almanac-Netzwerke",
+	"2ead23d87de02ff8": "Netzwerk $1",
+	"374cda4417a55200": "Du kannst einen Dienst nicht an eine ungültige oder eingeschränkte Schnittstelle binden.",
+	"382674217414e703": "Lies Informationen über Almanac-Netzwerke.",
+	"49d2c9c065a6d0ad": "Netzwerk bearbeiten",
+	"52545532d7900049": "Schnittstelle $1",
+	"53ebc572b4a44802": "Netzwerk",
+	"555d04c86e10c134": "Netzwerk erstellen",
+	"572faf69610721e0": "Der Name des Netzwerks.",
+	"5c524600736c98d4": "Alle Netzwerke",
+	"6338e696fcccdc78": "Du bist nicht berechtigt, Almanac-Netzwerke zu erstellen.",
+	"6a336532e28aa911": "Du kannst eine Schnittstelle nicht mit einem nicht existierenden oder eingeschränkten Gerät verbinden.",
+	"9109cec1d70311d8": "Almanac",
+	"91fb4b893225bf6e": "Almanac-Namensräume",
+	"cc8615da9f010953": "Du kannst eine Schnittstelle nicht an ein nicht existierendes oder eingeschränktes Netzwerk anschließen.",
+	"f6aa19da8b4c7150": "Das Gerät \"$1\" wird nicht erkannt, ist eingeschränkt oder du hast nicht die Erlaubnis, es zu bearbeiten."
+}

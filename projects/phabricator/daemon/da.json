@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"151025d73291f920": "Lukker ned",
+	"16dc2ab16f3aa02e": "Kører som",
+	"4d8c637f374bb88f": "Ikke afsluttet",
+	"56564dcb2a15c30e": "Set",
+	"64f937487373b1e0": "Ukendt status \"$1\"!",
+	"7fea1fe6dd1c76fc": "Næste i køen",
+	"891ebccd5baa32da": "Lås",
+	"9f8a73ef1399d06a": "Død",
+	"d1c69a859a9638b2": "Sidste",
+	"dde57e820d65c87a": "PID",
+	"fa84b320a83c72ff": "PID '$1' er ikke et gyldigt PID.",
+	"faa9e7e7ef5a264c": "Påbegyndt"
+}

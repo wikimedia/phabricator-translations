@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"225aa91d98feb7a3": "Lista över heltal.",
+	"65fdbbb2e638ef1c": "Lista över projekttaggar.",
+	"b064364c7db19c94": "Kör anropet som den angivna användaren. (Om detta utelämnas kommer anropet köras som en omnipotent användare.)",
+	"f9dec19745a9e0ba": "Denna server kräver autentisering."
+}

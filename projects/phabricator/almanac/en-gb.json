@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"02c7ceea8dd3ed83": "Service \"$1\" is unrecognised, restricted, or you do not have permission to edit it.",
+	"4f054aee2d3e910c": "Service type \"$1\" is unrecognised. Valid types are: $2.",
+	"691c7a7edf7f57ef": "Almanac device status \"$1\" is unrecognised. Valid status values are: $2.",
+	"f6aa19da8b4c7150": "Device \"$1\" is unrecognised, restricted, or you do not have permission to edit it."
+}

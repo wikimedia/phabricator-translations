@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"041726833d5e1537": "Uredi barvo ozadja",
+	"082bc378cd60e17a": "Mesec",
+	"0c86b8ff9cd9d455": "$1 mesec(i)",
+	"0e63afe24dee7b40": "Dodajte projekte",
+	"127739f2c46976e3": "Člani: $1",
+	"1cb449c1126609b4": "Člani",
+	"1fbcabde4a6a73f9": "Konfigurirajte projekte.",
+	"1fe3af46d323384f": "Zaostanek",
+	"272c2796406a53bb": "Spremembe članstva v projektih.",
+	"29f6a0e9b154a1d3": "Opazujem projekt?",
+	"36e6da4d4f47c22c": "Opazuj projekt",
+	"3b719c7e6665cefd": "$1 je zapustil_a ta projekt.",
+	"3c4eea10e5ca4baf": "Nadrejeni projekti",
+	"3f005afb896ba9c7": "Prikaži samo arhivirane projekte",
+	"4486ea1ec435dc37": "Modro nebo",
+	"4e76b7791d60cb3d": "Dodani projekti",
+	"6853c98a6f4358bb": "Član",
+	"6cc3973fbc18dbe8": "Predniški projekti",
+	"704e5c08da5324a9": "Stolpec: $1",
+	"762384cb201bc760": "Uporabi nadrejeno ozadje (privzeto)",
+	"7ea4baad30a6488a": "Odleti na nov planet",
+	"7f50e823886c0a18": "Odstranite projekte",
+	"8696a7ad58641cc9": "Razvrsti po naslovu",
+	"874df4e774343ace": "Barva ozadja",
+	"8c7d31ba4f70a21c": "$1 je arhiviral_a ta projekt.",
+	"989a5af337627895": "Matrika polj po meri za projekte.",
+	"a4673dbb4907456f": "Projekt $1",
+	"a4ba40346c60270c": "Prebrskajte projekte",
+	"aa3dea27391ba83e": "Uporabi filter",
+	"aff3d573c3fead81": "Projekti: ...",
+	"b2a8be6360b05211": "Korenski projekti",
+	"bb1c84aa806c588f": "Spremeni barvo ozadja",
+	"beb0e06973518a67": "Omejitev iskanja »minDepth« ne sme biti večja od omejitve iskanja »maxDepth«.",
+	"c32f3c8245d5c972": "(Privzeto)",
+	"e47fc484f6e2f4bb": "Brez ozadja",
+	"f72039a55c1a8525": "Odstranjeni projekti"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Beta16"
+		]
+	},
+	"02e8104f1f15520d": "$1 / $2",
+	"1f35bf416fd15494": "($1$2) $3",
+	"24131f3e1ac0aa6b": "Foto",
+	"28e22fe3dde53ce0": "Clienti",
+	"3703cd216881d330": "Salute",
+	"39b21bbf479712ca": "Modifica \"$1\"",
+	"3fd293a9d6152d26": "$1 di $2",
+	"400f08b84d5e87d7": "($1)",
+	"50338b3b242845e2": "Cache",
+	"5cae88ddf5336e6a": "Siti",
+	"6512ee1541e9a6c5": "Connessione",
+	"665e92a6c2593b55": "$1 = 0",
+	"ac9041e76816a34a": "Automatico",
+	"ba8f0ec3bc0712af": "Configura $1",
+	"bcd939e4e0cf37d5": "Infinito",
+	"c5de61ee3345f29c": "$1.$2 ($3)",
+	"db4d6848484d7048": "$1 Dentro / $2 Fuori",
+	"e85fac6647247c00": "$1.$2",
+	"e880bd97d80e61c9": "$1.$2.$3",
+	"f42ebadef9811c77": "Vedi \"$1\""
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"04b4ef32c8d15ec3": "Nombre del blog.",
+	"04e73e39046c4847": "El URI del dominio personalizado debe incluir un protocolo válido (por ejemplo, «$1»). Los protocolos válidos son «http» y «https».",
+	"0b9d2b2362bc3358": "Blog",
+	"121e1619b93435d2": "Descripción del blog.",
+	"19e03f67f213f4a5": "PHID del blog.",
+	"1c5e25896115c292": "Subtítulo del blog.",
+	"1ea38735b6d23837": "Blogs internos y externos",
+	"30060691b25bae4c": "Todos los blogs",
+	"31341c6f0c7af677": "Cabecera",
+	"39a878eb854d50ff": "Fecha de publicación",
+	"3f11c6eac93522cf": "Cambiar el subtítulo del blog.",
+	"4d91986fd792a447": "Cabecera del blog",
+	"52c9e35eb2b1081c": "Editar cabecera del blog",
+	"53a4cd58d0b84466": "CAMBIOS A LA DESCRIPCIÓN DEL BLOG",
+	"5a1f694ac79982c2": "Blogs activos",
+	"5aee5d9254f38d5b": "Blog local",
+	"c2f42c6ad3d6747d": "Acerca de $1",
+	"c6187d71b030639c": "El nombre del blog.",
+	"e62d3c2b6a6d43a9": "Dominio completo"
+}

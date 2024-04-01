@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"He7d3r"
+		]
+	},
+	"00c7859ed071e887": "Criar Tarefa",
+	"013ec284eed0cb93": "Triagem",
+	"013ffcc0bfc10d89": "Definir subtipos de tarefa.",
+	"01b0110fed6b1693": "Prioridade da tarefa.",
+	"02bdc3a530797d02": "Campos da Tarefa",
+	"05754d82da3f08b0": "Atualizar uma tarefa existente do Maniphest.",
+	"0698b681d6918121": "Uma alteração dos inscritos na tarefa.",
+	"07d93e5bc3b14cdc": "$1 fechou $2 as $3.",
+	"0a58233aaff27572": "$1 adicionou $2 submissão(ões) para $3: $4.",
+	"0b38838ff53e4bea": "DETALHE DA TAREFA",
+	"0c94a3e16a363d86": "Fechado depois de $1",
+	"0ccd06ce7fcd42a4": "Mudou a Prioridade da Tarefa",
+	"146f80df848acbd1": "Tarefa aberta mais antiga.",
+	"173312c6e2592de7": "Subtarefas",
+	"17851e067eceac3d": "Atualização não tem efeito.",
+	"17aa683b081edb65": "○ $1",
+	"17c4635da5e08288": "Relatórios do Maniphest",
+	"19fe826cc8c594de": "Do e-mail",
+	"1b37a17c20d446cb": "Precisa de Triagem",
+	"1c270dfe16ad271a": "Mencionado Em",
+	"22c741259d944714": "Tarefas atribuídas",
+	"2c8c411e5cdf5e8a": "Subtarefas abertas",
+	"3c59fcf1170a05e0": "Atribuiu a tarefa a: $1.",
+	"4b2a6a3149566c82": "Pontos",
+	"51b9ff2c84fd5031": "Tarefa Sem Título",
+	"53df657c8cd59e09": "Editar Subtarefas",
+	"662f8b64d8ac6965": "Subtarefas.",
+	"7a7049940cdd1733": "(Não atribuída)",
+	"c4f1f5b1d49f90d5": "Aberta",
+	"dd1242a8fc293466": "Subscrito",
+	"e24e824b68118fff": "Atribuída"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"0cf4ab87df9edb87": "To enable synchronisation into Asana, enter an Asana Workspace ID here.\n\nNOTE: This feature is new and experimental.",
+	"a778bce62f556807": "Synchronisation of child task from Asana failed!",
+	"d2dd84605747c879": "Synchronisation of parent task from Asana failed!"
+}

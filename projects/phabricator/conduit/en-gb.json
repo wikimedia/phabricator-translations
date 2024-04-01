@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"a870cf6440687482": "This will authorise the requesting script to act on your behalf permanently, like giving the script your account password.",
+	"b700afaaf5bb5041": "You do not have authorisation to call this method.",
+	"ddf7649515c009ea": "Provided \"$1\" (\"$2\") is not recognised."
+}

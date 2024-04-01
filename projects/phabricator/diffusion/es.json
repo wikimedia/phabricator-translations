@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agent",
+			"Ovruni"
+		]
+	},
+	"00aa0d5c05dc6ece": "Repositorios: Proyecto no válido",
+	"09a0beeb061e7d94": "Escriba un nombre de usuario, proyecto o paquete...",
+	"5a264266e15c754b": "Buscar resultados de los repositorios de un proyecto.",
+	"8abc5b4be712359a": "Fecha de commit",
+	"aa1a6e2da41d74e6": "El auditor \"$1\" debe ser un usuario, un paquete o un proyecto.",
+	"ac5a2fe6bcce63bc": "Explorar el Repositorio",
+	"c7b3a0bb463ff8f8": "Seleccionar repositorios etiquetados con este proyecto.",
+	"ef66a1e540dbd2e5": "Descubriendo…",
+	"f225e6bdb0889359": "Tipo etiquetado (<proyecto>)...",
+	"f2cc920e0ebdfb28": "Escrito el $1",
+	"fc6556a7ab9565ea": "Sin publicar"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"005b04a6a1c3f591": "Et objektnavn er påkrævet.",
+	"0101e7547ce910cb": "Der findes intet objekt med det navn.",
+	"27ce803659bf5f5d": "HMAC-nøgle",
+	"28a8c9dd6aa3f76b": "indeholder ikke",
+	"293978801be00175": "Ugyldig indholdstype",
+	"423a790fb2f81f1e": "Gør intet.",
+	"4d68c8f13459c0ed": "findes",
+	"4fd661ad65b5f520": "Ugyldig handling",
+	"59db6ba4a6aff5ed": "findes ikke",
+	"6e206f1240ffbd40": "Ny handling",
+	"7013b4aceaf1d5f3": "Ingen effekt",
+	"7239671758a55c9a": "Vis HMAC-nøgle",
+	"74f73ca52be61923": "Gør intet.",
+	"863ed7dbce405adc": "Indholdstype",
+	"9031dbe396264863": "Tilføj kommentar",
+	"a2b5b2e4955eb960": "Gør intet",
+	"b2da6b442428419c": "Tilføj kommentar: $1",
+	"caeb909ae4ff4ee2": "indeholder",
+	"d268ba5209c487d7": "Gør intet",
+	"de15f753728a0803": "Indholdstype",
+	"e82fdbe87df063bb": "er ikke"
+}

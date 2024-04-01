@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agent"
+		]
+	},
+	"0608e6a53b86211e": "Nuevo texto alternativo.",
+	"0aaab8c973d2933b": "$1 removió el texto alternativo de este archivo (era $2).",
+	"1578b2bcae5ce40d": "$1 removió el texto alternativo para $2 (era $3).",
+	"1910e1df6652085d": "Texto alternativo",
+	"5f18ca229b73f5ae": "Texto alternativo predeterminado",
+	"6672b815dc387b62": "No aplicable",
+	"69767caa8bdc514e": "Texto alternativo personalizado",
+	"8d721004d3ebf3f1": "$1 cambió el texto alternativo para este archivo de $2 a $3.",
+	"8ee3a46e541e9ad1": "Description legible por humanos para el archivo.",
+	"a2a180b9a76e1139": "El texto alternativo para el archivo no debe ser más grande de $1 caracteres.",
+	"c6f254b56800a133": "$1 estableció el texto alternativo para este archivo a $2.",
+	"db90bc866b3baaf6": "Establece el texto alternativo para el archivo.",
+	"fb3efe13bfbbeda2": "$1 cambio el texto alternativo para $2 de $3 a $4."
+}

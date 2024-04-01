@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dreamy Jazz",
+			"Reedy"
+		]
+	},
+	"0cfb7b2f19489d25": "Repository \"$1\" is being synchronised on device \"$2\", but this device is not bound to the corresponding cluster service (\"$3\").",
+	"0fbbc96e77a5b4ff": "New display behaviour.",
+	"247f71f6f1be49cf": "Client transmitted more than 1MB of data without transmitting a recognisable protocol frame.",
+	"261605f5a0d344c9": "Initialisation Error",
+	"49443c9d6dda3e6f": "Change display behaviour.",
+	"52130492d06ce49d": "Repository \"$1\" does not have a working copy on this device yet, so it can not be synchronised. Wait for the daemons to construct one or run `bin/repository update $2` on this host (\"$3\") to build it explicitly.",
+	"58a1adb8bfcfafc8": "Trying to synchronise after write, but not holding a write lock!",
+	"5a55990593e7c7de": "Synchronising this device (\"$1\") from cluster leader (\"$2\").",
+	"62b2df0ff318258b": "Unrecognised hook \"$1\"!",
+	"7ac10014eba5c2e9": "Synchronisation of \"$1\" from leader \"$2\" failed: $3",
+	"88fab1f8e12060d5": "Prioritised",
+	"8c9bbd2956eb1c78": "URI display behaviour.",
+	"90273032956bfab8": "Daemons are initialising the working copy.",
+	"9e93288a6edef673": "Unrecognised repository path \"$1\". Expected a path like \"$2\", \"$3\", or \"$4\".",
+	"ba212e7905acc498": "Initialising Working Copy",
+	"bfc5bbae72f5a450": "Synchronisation of \"$1\" from remote failed: $2",
+	"deadbfafa3fec2a0": "Device \"$1\" is already a cluster leader and does not need to be synchronised."
+}

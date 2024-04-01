@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"031a4e76f0b39d0d": "JSON",
+	"06a3fcd1cd5d3952": "Tutti li mètudi",
+	"07f3e70f8f474fe4": "Mètudu API: $1",
+	"0a3987eb526c8de6": "cURL",
+	"3b6cc9e7a914315d": "Lista dî nomi di li utenti.",
+	"4b4f9c98b3897c59": "<tekon-api>",
+	"4da6af4aa85e5485": "Talìa lu missaggiu d'erruri pi cchiù dittagghî.",
+	"5a67a30a47cb7d99": "Elencu dî PHID di l'utenti.",
+	"606e1e2e1094b047": "Elencu dî PHID.",
+	"65fdbbb2e638ef1c": "Elencu di l'etichetti dû pruggettu.",
+	"665dbb890098bbd2": "Nu PHID.",
+	"6a538ed03258aa8a": "Elencu di stringhi.",
+	"805e86a8cbf628e3": "Errura",
+	"806d228c380f3420": "PHID di l'utenti.",
+	"87491c9d490da143": "Nomu utenti.",
+	"91e95b380bb6e68f": "Na stringa.",
+	"959810e2640d2995": "Token API attivi",
+	"9ec376e2e2f01143": "Lu token API \"$1\" nun è vàlidu.",
+	"b04106423dbaaa2b": "API dû sviluppaturi",
+	"b98008c9398b488a": "Talìa lu token API",
+	"d71575928c6d03c6": "Elencu dî PHID di culonna.",
+	"d7da5b0301ea5a2f": "Elencu dî PHID di pruggettu.",
+	"ddc315b6143ceee1": "Nu booleanu."
+}

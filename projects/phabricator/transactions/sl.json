@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"02b254f09eb025ca": "Prazen komentar",
+	"10861e8682a0fb38": "Besedilo telesa e-pošte",
+	"1762ad8041f0515b": "Obrazec onemogočen",
+	"1e460e3c69fc845e": "Format izvoza.",
+	"21e01fb19ea64886": "Napake validacije",
+	"2863a58b2859a210": "Določite format izvoza z »--format«.",
+	"2a3a45a4c37cb9d0": "Omogoči obrazec",
+	"2c05100cdcc88fa3": "Ustvari obrazce",
+	"337127b568b1195f": "Nov ključ podtipa objekta.",
+	"3567e48aacaec9e3": "Izhodna pot že obstaja. Uporabite »--overwrite«, da jo prepišete.",
+	"37d1edcc7eff2b62": "Označi obrazec",
+	"3b0f0802991df69e": "Vrstni red obrazca",
+	"4a42295d332ff444": "Pravilnik spremenjen",
+	"54cc0b907d18376d": "Objavi komentar",
+	"8b0db4461b9b2025": "Naročniki spremenjeni",
+	"8bd87272f8af0c74": "Neobdelani komentar",
+	"90d08c0ea1195dd6": "Zgodovina komentarja",
+	"988d64ff4ebe5ff3": "Predogled komentarja",
+	"9a39e63cb31e9f5d": "Napake pri preverjanju:",
+	"ac54e652d5b464e7": "Če izhodna datoteka že obstaja, jo prepiši namesto sporočtve napake.",
+	"b5ffeb5f637b29fa": "Uredi komentar",
+	"be1666833000b25f": "Odstrani komentar",
+	"cfde7ab061359edb": "Zastavica »--overwrite« nima učinka pri izpisu v stdout.",
+	"e15fbe29391f39d6": "To je predogled trenutne konfiguracije obrazca.",
+	"f4e73c22eb64421f": "Predogled obrazca"
+}

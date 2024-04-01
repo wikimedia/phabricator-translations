@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"13076d6ccfbf2ed8": "Izberite predpomnilnike za počiščenje z »--all« ali »--caches«. Razpoložljivi predpomnilniki so: $1.",
+	"33ce117f0b3a51ef": "Če boste omogočili APC/APCu, boste izboljšali delovanje.",
+	"57d65a67da803ff0": "Neznan format pomnilnika.",
+	"712bf67f120d05cd": "Počisti vse predpomnilnike.",
+	"afe98d8965cb023c": "Prilagodite nastavitve APC, da utišate nepotrebne napake.",
+	"d37ea82d5c0d9b06": "Počisti določen nabor predpomnilnikov.",
+	"d5c91025d5afb445": "Pri uporabi »--caches« morate izbrati vsaj en veljaven predpomnilnik za počiščenje.",
+	"ea785c9d610450b7": "Če boste omogočili OPcache, boste daramatično izboljšali delovanje."
+}

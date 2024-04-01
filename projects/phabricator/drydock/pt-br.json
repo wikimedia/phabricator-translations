@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"02c57c62390693ad": "Mostrar detalhes",
+	"08ecbfa63b75e0dc": "Autorizações ativas",
+	"3261a91887d51a25": "Um ou mais projetos prometiam um novo recurso, mas falharam ao alocar: [$1] $2",
+	"430d32076eb256f0": "Operação",
+	"97ded7fd7eee6b0a": "Alocação falhada",
+	"a0b861f6121344b6": "Ativado",
+	"b0037ac1ccf98f39": "Os nomes dos projetos não podem ter mais de $1 caracteres.",
+	"dc244ee9522b7174": "Você deve selecionar um tipo de blueprint ao criar um blueprint.",
+	"e9c270913826cdae": "Digite um nome de blueprint..."
+}

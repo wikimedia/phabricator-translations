@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"4ab9fcd02a0672af": "Zahtevani projekt ne obstaja",
+	"52849e661a5743c5": "Pred obdelavo preostalih transakcij preskoči vrstice OFFSET.",
+	"54e07aad9d8e5b8e": "Neveljavno",
+	"5675b2bb3eceb365": "Blokiran pri pregledu kode",
+	"68e50bfeb6b71437": "Omeji število transakcijskih vrstic na proces. Privzeto: 10.000.",
+	"6aab8dd16ee10d3c": "Neznana ali manjkajoča imena ldap: $1",
+	"98104d0ac3ffcbe8": "Pregled kode se je začel",
+	"9b3b5fdba2d39508": "Spremenjena vrsta",
+	"aa5fe7b0dc66e1b8": "Strokovni način.",
+	"b501d73e19971f22": "Manjkajoč ali napačno oblikovan parameter.",
+	"bc7819b34ff87570": "Neznano",
+	"be67844b013fc678": "Globalni računi",
+	"d3996a5cc700c668": "Aktivnosti privilegiranega uporabnika ne morete vrniti.",
+	"e20bdc892a74ee50": "Strokovni način",
+	"e360b2c8470aeb30": "Neznana ali manjkajoča imena MediaWiki: $1",
+	"f34fb6e3669dfd5b": "Opuščeno"
+}

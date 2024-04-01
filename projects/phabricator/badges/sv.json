@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"1409102c84d3be6c": "Nya mottagare för emblempriser.",
+	"15163433608ef421": "$1 bytte namn på emblemet $2 från $3 till $4.",
+	"22be275f3ad2da7f": "Mottagaren med PHID \"$1\" har inte tilldelats.",
+	"40b21e35b7e04966": "$1 tilldelade detta emblem till $2 mottagare: $3.",
+	"4a56d4c3c48ea764": "Redan tilldelad",
+	"64358c5665b2fa66": "$1 tilldelade $2 till $3 mottagare: $4.",
+	"77baa9b601ac57f2": "Emblempris",
+	"7cd5ea20860fb57a": "Emblem låter dig tilldela och särskilja speciella användare i din installation.",
+	"9d8f12189394d5e6": "$1 har redan tilldelats denna emblem.",
+	"9f094fedb59140f9": "Pris",
+	"9f5b3cdeab5d3058": "Tilldelades av $1 den $2",
+	"bcbe42926ff6037e": "Återkalla mottagare av emblempris.",
+	"e98730bc50761064": "Prismottagare"
+}

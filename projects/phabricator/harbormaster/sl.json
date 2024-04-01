@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"0b01dadca7e2c70e": "Artefakt »$1« ni bil najden!",
+	"1758356db21759f7": "ali",
+	"2ae95bca39663745": "Interakcija z znunanjimi gradilniki",
+	"2ea2297e7791df65": "Spremljaj dnevnik",
+	"36bea0db992c7c60": "**rebuild-log** --id __id__ [__options__]\n**rebuild-log** --all",
+	"3abcb72b954677e5": "NEVELJAVNO",
+	"3ffbcf280b279d62": "Že v vnovičnem zagonu",
+	"46e583bd82460e69": "Manjkajoča odvisnost",
+	"5aaf9b7bcacf854d": "Dnevnik gradnje",
+	"61dd15d28af6b124": "Neveljaven ID konstrukcije »$1«.",
+	"957717b44bfde445": "Izberi vse aktivne konstrukcije.",
+	"ca975843a87bf5fe": "Izvrzi izjemo",
+	"ce026d2c1810ebf8": "Prenesi dnevnik",
+	"d5ba37b9dc8094ec": "Izberite način arhiviranja z --mode.",
+	"f079aa290d02b3da": "NAPAKA:",
+	"f457981f42fa9923": "Izvrzi izjemo.",
+	"f887f8d148358ccb": "Zunanja povezava"
+}
