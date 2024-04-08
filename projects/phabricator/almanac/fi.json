@@ -9,7 +9,10 @@
 	"0449e1003dd0cdd9": "Nimiavaruus",
 	"047be01fb538cccb": "Lisää ominaisuus",
 	"093321228c96ab06": "Verkon nimi",
+	"0d2a0a7ef2b33d75": "Laite $1",
+	"1c5a8c58a5ac4629": "Luo palvelu",
 	"2e87516317bb6667": "Muokkaa nimiavaruutta",
+	"2ead23d87de02ff8": "Verkko $1",
 	"33ade4854222f465": "Nimiavaruuden nimi",
 	"36e6fd21188f1ba3": "Selaa palveluita",
 	"49d2c9c065a6d0ad": "Muokkaa verkkoa",
@@ -38,6 +41,7 @@
 	"78c555f768295ceb": "Luo ominaisuus",
 	"8941e9f98c519e0d": "Palvelun tyyppi",
 	"8ae76199807665a1": "Muokkaa nimiavaruutta: $1",
+	"9109cec1d70311d8": "Almanakka",
 	"91e6a4f50ffaed9b": "Nimiavaruuden nimi.",
 	"91f6af0ab97e14ee": "Kirjoita palvelun nimi...",
 	"91fb4b893225bf6e": "Almanac-nimiavaruudet",
@@ -53,5 +57,6 @@
 	"cf507cd5c74a49f6": "Laitteen nimi",
 	"d4ca73ba99031e99": "Kirjoita käyttöliittymä nimi...",
 	"d4ffbfcbe2c60398": "$1 loi tämän nimiavaruuden.",
-	"f3e3d8721b56e299": "Muokkaa laitetta: $1"
+	"f3e3d8721b56e299": "Muokkaa laitetta: $1",
+	"f491634a5dbdf13c": "Laite $1"
 }

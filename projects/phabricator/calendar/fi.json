@@ -10,10 +10,15 @@
 	"158f3da592759369": "Viikoittain",
 	"17dc9a83744348b2": "Kokous",
 	"233eba16d55d0a75": "Tuonut",
+	"2b10388fce63a2a6": "Muokkaa tapahtumaa",
 	"326113bacd6ff94c": "Tuo $1",
+	"35f63a51173ac709": "Peruutetut tapahtumat",
+	"434eb26f4835b699": "Tuotu",
 	"4544e8cfe4f4a3e0": ".ics tiedosto",
 	"47fd09f8b75f9cc5": "[Kalenteri]",
 	"53a956b04d61bd54": "Luo tapahtuma",
+	"592a9d1678c2e62f": "Kiireinen",
+	"66e896f93e4a1f77": "Poistettu tapahtuma",
 	"74068d206fedf8af": "Kuukausinäkymä",
 	"7622eb5aa42dee6e": "Vuosittain",
 	"7d3c1a025bda70b6": "Seuraava päivitys",
@@ -35,5 +40,6 @@
 	"e3007085f4dc72bc": "$1 - $2",
 	"e42328ac01cd03a4": "Tuonnit",
 	"eb8b50882d106084": "Tuntematon viesti \"$1\"",
+	"f4572c56acc87fd0": "Tuotu tapahtuma",
 	"ffe9a529aa1d76d5": "Vie $1 $2"
 }
