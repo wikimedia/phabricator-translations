@@ -35,7 +35,7 @@ final class PhabricatorPhrictionZhHant
       'Stubbed' => '已存根',
       'There is no document here, but you may create it.' => '在此沒有文件，而您可以來建立一份。',
       'Edit Notes' => '編輯註解',
-      'Phriction Wiki Document' => 'Phriction Wiki 文件',
+      'Phriction Wiki Document' => 'Phriction wiki 文件',
       'Phriction Document' => 'Phriction 文件',
       'You can not move this document there, because it would overwrite an existing document which is already at that location. Move or delete the existing document first.' => '您無法移動此文件到那裡，因為這會覆寫已在該位置上的現有文件。請先移動或刪除現有文件。',
       'To edit a wiki document, you must also be able to view all of its ancestors.' => '要編輯一份 wiki 文件，您必須要有權限能檢視該文件的所有源始。',
@@ -65,7 +65,7 @@ final class PhabricatorPhrictionZhHant
       'Document History: %s' => '文件歷史：%s',
       'Ancestor Paths' => '源始路徑',
       'To view a wiki document, you must also be able to view all of its ancestors. The most-restrictive view policy of this document\'s ancestors is "%s".' => '要檢視 wiki 文件，您必須也要能夠檢視該文件的所有源始。此文件源始的最嚴格檢視方針為「%s」。',
-      'Wiki Documents' => 'Wiki 文件',
+      'Wiki Documents' => 'wiki 文件',
       'This document has been moved. You can edit it to put new content here, or use history to revert to an earlier version.' => '此文件已被移動。您可以編輯它來放入新的內容，或是使用歷史功能來還原成較舊的版本。',
       'Edit Draft Version %s...' => '編輯草稿版本 %s…',
       'Document this content is for.' => '此內容的文件。',
@@ -160,7 +160,7 @@ final class PhabricatorPhrictionZhHant
       'Most Recent Change' => '最近更改',
       'Really delete this document? You can recover it later by reverting to a previous version.' => '確定要刪除此文件？您可以事後透過還原功能來恢復成之前的版本。',
       'This document has been deleted. You can edit it to put new content here, or use history to revert to an earlier version.' => '此文件已被刪除。您可以編輯它來放入新的內容，或是使用歷史功能來還原成較舊的版本。',
-      'Wiki Document %d' => 'Wiki 文件：%s',
+      'Wiki Document %d' => 'wiki 文件：%s',
       'Move Away' => '移走',
     );
   }

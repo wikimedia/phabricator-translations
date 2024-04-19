@@ -9,26 +9,32 @@ final class PhabricatorDivinerFrFR
 
   protected function getTranslations() {
     return array(
-      'Article has no %s!' => 'L\'article n\'a pas de %s!',
-      'Writing graph cache.' => 'Écriture du cache graphique.',
+      'Article has no %s!' => 'L’article n’a aucun %s !',
+      'Writing graph cache.' => 'Écriture du cache de graphe.',
       'Edit Basics' => 'Modifier les bases',
       'This interface is not documented.' => 'Cet interface n\'est pas documenté.',
-      'Type a book name...' => 'Entrer un nom de livre...',
+      'Type a book name...' => 'Saisissez un nom de livre...',
       'Documentation uses `%s`, but should use `%s`.' => 'La documentation utilise \'%s\', mais devrait utiliser \'%s\'.',
       'Atom "%s" is preceded by a comment containing `%s`, but the comment is not a documentation comment. Documentation comments must begin with `%s`, followed by a newline. Did you mean to use a documentation comment? (As the comment is not a documentation comment, it will be ignored.)' => 'L’atome « %s » est précédé par un commentaire contenant `%s`, mais le commentaire n’est pas un commentaire de documentation. Les commentaires de documentation doivent commencer par `%s`, suivi par un saut de ligne. Vouliez-vous utiliser un commentaire de documentation (comme le commentaire n’est pas un commentaire de documentation, il sera ignoré) ?',
-      'No such atom \'%s\'!' => 'Pas d’atome \'%s\' !',
+      'No such atom \'%s\'!' => 'Pas d’atome « %s » !',
       'Diviner Atom' => 'Atome de Diviner',
-      'Found %s book(s).' => 'Trouvé %s livre(s).',
+      'Found %s book(s).' => array(
+        '%s livre trouvé.',
+        '%s livres trouvés.',
+      ),
       'Propagating changes through the graph.' => 'Propagation des modifications dans le graphe.',
       'Atoms inherit the policies of the books they are part of.' => 'Les atomes héritent des politiques des livres auxquels ils appartiennent.',
-      'Deleting %s document(s).' => 'Suppression de %s document(s).',
-      'Rule \'%s\' is not a valid regular expression.' => 'La règle \'%s\' n’est pas une expression rationnelle valide.',
+      'Deleting %s document(s).' => array(
+        'Suppression d’un document.',
+        'Suppression de %s documents.',
+      ),
+      'Rule \'%s\' is not a valid regular expression.' => 'La règle « %s » n’est pas une expression rationnelle valide.',
       'Return' => 'Retour',
       'Found %s file(s) in project.' => '%s fichier(s) trouvé(s) dans le projet.',
       'PUBLISHING DOCUMENTATION' => 'PUBLICATION DE LA DOCUMENTATION',
       'All Atoms' => 'Tous les atomes',
       'Book configuration \'%s\' has name \'%s\', but book names must include only lowercase letters and hyphens.' => 'La configuration du livre \'%s\' a pour nom \'%s\', mais les noms des livres ne doivent comprendre que des minuscules et des tirets.',
-      'Read More Documentation' => 'Lire plus de documentation',
+      'Read More Documentation' => 'Lire davantage de documentation',
       'Specify a Diviner book configuration file with %s.' => 'Spécifier un fichier de configuration de livre de Diviner avec %s.',
       'Creating %s document(s).' => 'Création de %s document(s).',
       'Diviner' => 'Diviner',
@@ -39,7 +45,7 @@ final class PhabricatorDivinerFrFR
       'This article is not documented.' => 'Cet article n’est pas documenté.',
       'Books' => 'Livres',
       'This atom no longer exists.' => 'Cet atome n’existe plus.',
-      'No books found.' => 'Pas de livres trouvés.',
+      'No books found.' => 'Aucun livre trouvé.',
       'This call takes %s parameter(s), but only %s are documented.' => 'Cet appel prend %s paramètre(s), mais seulement %s sont documentés.',
       'Writing atom cache.' => 'Écriture du cache d’atomes.',
       'Inherited' => 'Hérité',
@@ -62,7 +68,7 @@ final class PhabricatorDivinerFrFR
       'Child hashes have already been computed!' => 'Les hachages enfant ont déjà été calculés !',
       'Defined' => 'Défini',
       'Clear the caches before generating documentation.' => 'Effacer les caches avant de générer la documentation.',
-      'Implements' => 'Implémente',
+      'Implements' => 'Met en œuvre',
       'Parent hash has already been computed!' => 'Le hachage parent a déjà été calculé !',
       'Free Radicals' => 'Radicaux libres',
       'Generate documentation.' => 'Générer la documentation',
@@ -91,7 +97,7 @@ final class PhabricatorDivinerFrFR
       'Documentation specifies `%s` multiple times.' => 'La documentation spécifie `%s` plusieurs fois.',
       'CLEARING CACHES' => 'EFFACEMENT DES CACHES',
       'Diviner User Guide' => 'Guide d’utilisateur de Diviner',
-      'Edit Book: %s' => 'Modifier le livre : %s',
+      'Edit Book: %s' => 'Modifier le livre : %s',
       'Found %s file(s) to atomize.' => array(
         '%s fichier trouvé à atomiser.',
         '%s fichiers trouvés à atomiser.',
@@ -102,14 +108,6 @@ final class PhabricatorDivinerFrFR
       ),
       'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.' => 'La méthode `%s` a documenté `%s` de façon explicite. La méthode `%s` renvoie toujours `%s`. Diviner documente implicitement cela.',
       'Build atoms from source.' => 'Construire les atomes depuis la source.',
-      '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
-    Diviner is the documentation generator used to build the Phabricator documentation.
-    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
-      %s
-    ' => '(NOTE) **Vous cherchez de la documentation sur Phabricator ?** Si vous cherchez de l’aide et de l’information sur Phabricator, Vous pouvez [[https://secure.phabricator.com/diviner/ | naviguer dans la documentation publique de Phabricator]] sur le site en direct.
-    Diviner est le générateur de documentation utilisé pour construire la documentation de Phabricator.
-    Vous n’avez pas encore généré de livre Diviner, donc il n’y a rien à afficher ici. Si vous voulez générer votre propre copie locale de la documentation de Phabricator et qu’elle apparaisse ici, lancez cette commande :
-      %s',
       'This function is not documented.' => 'Cette fonction n\'est pas documentée.',
       'Find' => 'Rechercher',
       'Other Methods' => 'Autres méthodes',
@@ -124,7 +122,7 @@ final class PhabricatorDivinerFrFR
       'Completed generation of "%s".' => 'Génération terminée de "%s".',
       'Atomizing %s file(s).' => 'Atomisation de %s fichier(s).',
       'Atom has no symbol map entry!' => 'Atome n’a pas d’entrée de table de symbole !',
-      'Browse Books' => 'Naviguer dans les livres',
+      'Browse Books' => 'Parcourir les livres',
       'FINDING DOCUMENTATION BOOKS' => 'RECHERCHE DES LIVRES DE DOCUMENTATION',
     );
   }

@@ -10,7 +10,6 @@ final class PhabricatorMetaEl
   protected function getTranslations() {
     return array(
       'Information' => 'Πληροφορία',
-      'This application cannot be uninstalled, because it is required for Phabricator to work.' => 'Αυτή η εφαρμογή δεν μπορεί να απεγκατασταθεί, επειδή απαιτείται για να δουλέψει ο Phabricator.',
       'Syntax' => 'Επισήμανση',
       'You cannot install an installed application.' => 'Δεν μπορείτε να εγκαταστήσετε μια εγκατεστημένη εφαρμογή.',
       'Create Application' => 'Δημιουργία εφαρμογής',
@@ -27,16 +26,15 @@ final class PhabricatorMetaEl
       'Extension' => 'Επέκταση',
       'Validation Failed' => 'Η Επικύρωση Απέτυχε',
       'Show Installed Applications' => 'Εμφάνιση Εγκατεστημένων Εφαρμογών',
-      'Configure' => 'Ρυθμίστε',
       'Mail Commands Overview' => 'Επισκόπηση Εντολών Ταχυδρομείου',
       'Uninstall' => 'Απεγκατάσταση',
+      'This application is required and cannot be uninstalled.' => 'Αυτή η εφαρμογή δεν μπορεί να απεγκατασταθεί, επειδή απαιτείται για να δουλέψει ο Phabricator.',
       'Install %s application?' => 'Εγκατάσταση της εφαρμογής %s;',
       'Quick Reference' => 'Γρήγορη αναφορά',
       'Show Prototype Applications' => 'Εμφάνιση Πρωτότυπων Εφαρμογών',
       'Edit Application: %s' => 'Επεξεργασία εφαρμογής: %s',
       'Show Third-Party Applications' => 'Εμφάνιση εφαρμογών τρίτου μέρους',
       'Show All Applications' => 'Εγκατάσταση όλων των εφαρμογών',
-      'Install' => 'Εγκατάσταση',
     );
   }
 

@@ -24,7 +24,7 @@ final class PhabricatorSubscriptionsZhHant
       'Add subscribers' => '添加訂閱者',
       'Remove yourself as a subscriber.' => '將您自己從訂閱者裡移除。',
       'Search for objects with certain subscribers.' => '以特定訂閱者來搜尋對象。',
-      'Subscribers can take this action.' => '訂閱者可進行此操作。',
+      'Subscribers can take this action.' => '訂閱者可執行此操作',
       'Unmute' => '取消關閉',
       'Remove subscribers' => '移除訂閱者',
       'All %d subscribers removed by %s' => '%2$s 移除了所有 %1$s 位訂閱者',
@@ -49,7 +49,7 @@ final class PhabricatorSubscriptionsZhHant
       'This object is not subscribable.' => '此對象不可訂閱。',
       'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
-    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => '添加一位或多位訂閱者至對象。您可以透過提供他們的使用者名稱來添加使用者，或是透過添加他們的主題標籤來添加專案。例如，使用「%s」來添加使用者「alincoln」帶有「#ios」主題標籤的專案來成為訂閱者。
+    Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => '添加一位或多位訂閱者至對象。您可以透過提供他們的使用者名稱來添加使用者，或是透過添加他們的主題標籤來添加專案。例如，使用「%s」來添加使用者「alincoln」帶有「#ios」主題標籤的專案來成為訂閱者。
     無效或是未被認可的訂閱者會被忽略。若您沒有指定任何訂閱者，此命令不會有任何影響。
     若 Phabricator 知道哪位帳號有連結到他們的電子郵件位址，在電子郵件裡接收複本的使用者也會自動訂閱。',
       'Add rule author as subscriber.' => '添加規則作者為訂閱者。',

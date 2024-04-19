@@ -21,7 +21,6 @@ final class PhabricatorFeedPtBR
       'Story is asking for an object it did not request (\'%s\')!' => 'A história está pedindo um objeto que não solicitou (\'%s\')!',
       'Simple one-line plain text representation of story' => 'Representação de texto simples de uma linha simples da história',
       'Include Projects' => 'Incluir projetos',
-      'Publish a story to the feed.' => 'Publique uma história no feed.',
       'Specify a story key to republish.' => 'Especifique uma chave de história para republicar.',
       'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.' => 'A data "Ocorre antes" especificada é anterior no tempo que a data "Ocorre Após" especificada, portanto, essa consulta nunca poderá corresponder a nenhum resultado.',
       'Republish a feed event to all consumers.' => 'Republicar um evento de feed para todos os consumidores.',

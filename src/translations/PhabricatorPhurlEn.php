@@ -19,6 +19,7 @@ final class PhabricatorPhurlEn
       'Configure creation and editing forms in Phurl.' => 'Configure creation and editing forms in Phurl.',
       'New URL description.' => 'New URL description.',
       '[Phurl]' => '[Phurl]',
+      'Created By' => 'Created By',
       'The URL to shorten.' => 'The URL to shorten.',
       'Select a phurl...' => 'Select a phurl...',
       '%s changed the destination URL from %s to %s.' => '%s changed the destination URL from %s to %s.',

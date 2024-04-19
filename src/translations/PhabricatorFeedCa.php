@@ -21,7 +21,6 @@ final class PhabricatorFeedCa
       'Story is asking for an object it did not request (\'%s\')!' => 'La història pregunta per un objecte que no ha demanat (\'%s\')!',
       'Simple one-line plain text representation of story' => 'Representació de la història en línia com a text sense format',
       'Include Projects' => 'Incloure Projectes',
-      'Publish a story to the feed.' => 'Publicar una història per al canal de continguts.',
       'Specify a story key to republish.' => 'Especifiqueu una clau d\'història per tornar a publicar.',
       'The specified "Created Before" date is earlier in time than the specified "Created After" date, so this query can never match any results.' => 'La data especificada "Creada abans" és anterior a la data especificada "Creada després", de manera que aquesta consulta no pot donar cap resultat.',
       'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.' => 'La data especificada de "Anterior" és anterior en temps que la data especificada de "Anterior", de manera que aquesta consulta mai no pot coincidir amb cap resultat.',

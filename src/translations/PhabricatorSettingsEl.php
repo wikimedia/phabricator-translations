@@ -40,7 +40,6 @@ final class PhabricatorSettingsEl
       'External Accounts' => 'Εξωτερικοί λογαριασμοί',
       'Add External Account' => 'Προσθήκη εξωτερικού λογαριασμού',
       'Filetree Visible' => 'Ορατό δέντρο αρχείων',
-      'Grant Permission' => 'Παραχώρηση άδειας',
       'Edit Settings Configurations' => 'Επεξεργασία ρυθμίσεων των ρυθμίσεων',
       'Old Password' => 'Παλιός κωδικός',
       'Display Preferences' => 'Εμφάνιση προτιμήσεων',

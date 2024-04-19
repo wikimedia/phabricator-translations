@@ -9,6 +9,7 @@ final class PhabricatorSystemEl
 
   protected function getTranslations() {
     return array(
+      'An Administrator has placed this server into read-only mode.' => 'Ένας διαχειριστής έθεσε το Phabricator σε λειτουργία μόνο για ανάγνωση.',
       'Panic!' => 'Πανικός!',
       'No Writable Database' => 'Χωρίς γράψιμη βάση δεδομένων',
       'Destroying %s **%s**...
@@ -32,13 +33,12 @@ final class PhabricatorSystemEl
       'Select Character Encoding' => 'Επιλογή κωδικοποίησης χαρακτήρων',
       'DATA WILL BE PERMANENTLY DESTROYED' => 'Τα δεδομένα θα καταστραφούν για πάντα',
       'Choose Highlighting' => 'Επιλογή Σύνταξης',
-      'An administrator has placed Phabricator into read-only mode.' => 'Ένας διαχειριστής έθεσε το Phabricator σε λειτουργία μόνο για ανάγνωση.',
+      'As an Administrator, you can review status information from the %s control panel. This may provide more information about the current state of affairs.' => 'Ως διαχειριστής, μπορείτε να αναθεωρείτε πληροφορίες καταστάσεων από το πίνακα ελέγχου %s. Αυτό ίσως παράσχει περισσότερες πληροφορίες για την τρέχουσα κατάσταση των πραγμάτων.',
       'System' => 'Σύστημα',
       '%d / minute' => '%s ανά λεπτό',
       'The maximum allowed rate for this action is %s. You are taking actions at a rate of %s.' => 'Η μέγιστη επιτρεπόμενη τιμή για αυτήν την ενέργεια είναι %s. Προωθείτε ενέργειες στην τιμή %s.',
       'Administrative Read-Only Mode' => 'Διαχειριστική λειτουργία μόνο για ανάγνωση',
       '%d / second' => '%s ανά δευτερόλεπτο',
-      'As an administrator, you can review status information from the %s control panel. This may provide more information about the current state of affairs.' => 'Ως διαχειριστής, μπορείτε να αναθεωρείτε πληροφορίες καταστάσεων από το πίνακα ελέγχου %s. Αυτό ίσως παράσχει περισσότερες πληροφορίες για την τρέχουσα κατάσταση των πραγμάτων.',
       'Specify one or more objects to destroy.' => 'Ορίστε ένα ή περισσότερα αντικείμενα για καταστροφή.',
     );
   }

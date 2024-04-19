@@ -9,7 +9,6 @@ final class PhabricatorSystemPl
 
   protected function getTranslations() {
     return array(
-      'Phabricator is currently configured with no writable ("master") database, so it can not write new information anywhere. Phabricator will run in read-only mode until an administrator reconfigures it with a writable database.' => 'Phabricator jest obecnie skonfigurowany bez bazy danych do zapisu ("master"), więc nie może nigdzie zapisywać nowych informacji. Phabricator będzie działał w trybie tylko do odczytu, dopóki administrator nie skonfiguruje go ponownie z bazą danych do zapisu.',
       'This system does not have the "%s" extension installed, so character encodings are not supported. Install "%s" to enable support.' => 'Ten system nie ma zainstalowanego rozszerzenia "%s", więc kodowanie znaków nie jest obsługiwane. Zainstaluj "%s", aby włączyć obsługę.',
       'Panic!' => 'Panika!',
       'No Writable Database' => 'Brak zapisywalnej bazy danych',
@@ -31,6 +30,7 @@ final class PhabricatorSystemPl
       'You are performing too many actions too quickly.' => 'Zbyt szybko wykonujesz zbyt wiele czynności.',
       'Choose a text encoding to use.' => 'Wybierz kodowanie tekstu do użycia.',
       'These %s object(s) will be destroyed forever:' => 'Te %s obiekty zostaną zniszczone na zawsze:',
+      'This server is currently configured with no writable ("master") database, so it can not write new information anywhere. This server will run in read-only mode until an administrator reconfigures it with a writable database.' => 'Phabricator jest obecnie skonfigurowany bez bazy danych do zapisu ("master"), więc nie może nigdzie zapisywać nowych informacji. Phabricator będzie działał w trybie tylko do odczytu, dopóki administrator nie skonfiguruje go ponownie z bazą danych do zapisu.',
       '%d / minute' => '%s / min',
       'Destroy objects without prompting.' => 'Niszcz obiekty bez potwierdzenia.',
     );

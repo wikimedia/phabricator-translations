@@ -13,7 +13,6 @@ final class PhabricatorFeedSv
       'All Stories' => 'Alla berättelser',
       'Republishing story...' => 'Återpublicerar berättelse...',
       'Include Projects' => 'Inkludera projekt',
-      'Publish a story to the feed.' => 'Publicera en berättelse i matningen.',
       'Specify a story key to republish.' => 'Ange en berättelsenyckel att återpublicera.',
       'Include Users' => 'Inkludera användare',
       'Story' => 'Berättelse',

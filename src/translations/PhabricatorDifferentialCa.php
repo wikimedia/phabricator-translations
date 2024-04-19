@@ -9,6 +9,7 @@ final class PhabricatorDifferentialCa
 
   protected function getTranslations() {
     return array(
+      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'No podeu afegir incidències de JIRA (%s) a aquesta revisió perquè el vostre compte de Phabricator no està enllaçat a cap compte de JIRA.',
       'Review the diff for correctness. When you are satisfied, either **create a new revision** or **update an existing revision**.' => 'Reviseu la diferència per veure si és correcta. Quan estigueu satisfet, **creeu una nova revisió** o **actualitzeu una revisió existent**.',
       'New repository.' => 'Repositori nou.',
       'This revision can not be accepted until the required legal agreements have been signed.' => 'Aquesta revisió no es pot acceptar fins que no s\'hagin signat els acords legals requerits.',
@@ -386,6 +387,7 @@ final class PhabricatorDifferentialCa
       'Commit "%s" is not valid.' => 'La validació "%s" no és correcta.',
       'You can not commandeer this revision because you already own it.' => 'No podeu comandar aquesta revisió perquè ja la teniu.',
       'Unknown renderer type "%s"!' => 'Tipus de renderitzador desconegut \'%s\'!',
+      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Si ho definiu com a cert, Phabricator adjuntarà pegats al correu diferencial (com a fitxers adjunts de text).  Això no funcionarà si utilitzeu SendGrid com a adaptador de correu.',
       'Must Review' => 'Cal revisar',
       'Load all diffs for given revisions from Differential.' => 'Carrega totes les diffs de determinades revisions des de Differential.',
       'Options "--to" (to choose a specific storage format) and "--auto" (to select a storage format automatically) are mutually exclusive.' => 'Les opcions "--to" (per triar un format d\'emmagatzematge específic) i "--auto" (per seleccionar un format d\'emmagatzematge automàticament) són mútuament excloents.',
@@ -464,18 +466,13 @@ final class PhabricatorDifferentialCa
       '%s set this revision to automatically submit once builds complete.' => '%s estableix aquesta revisió perquè s\'enviï automàticament un cop s\'hagin completat les construccions.',
       'Show Directory in Repository' => 'Mostra el directori al repositori.',
       '%s reclaimed this revision.' => '%s ha recuperat aquesta revisió.',
-      'You can not plan changes to this this revision because it has already been closed.' => 'No podeu planificar canvis en aquesta revisió perquè ja s\'ha tancat.',
       'If you set this to true, users can accept their own revisions. This action is disabled by default because it\'s most likely not a behavior you want, but it proves useful if you are working alone on a project and want to make use of all of differential\'s features.' => 'Si establiu això a cert, els usuaris poden acceptar les seves pròpies revisions. Aquesta acció està desactivada per defecte perquè és molt probable que no sigui un comportament que vulgueu, però resulta útil si esteu treballant sol en un projecte i voleu fer ús de totes les funcionalitats de differential.',
       'Differential Changesets' => 'Conjunt de canvis de Differential',
       'This method is frozen and will eventually be deprecated. New code should use "differential.revision.search" instead.' => 'Aquest mètode està congelat i finalment quedarà obsolet. El codi nou hauria d\'utilitzar «diffusion.repository.search».',
       'Hold as Draft' => 'Reté com esborrany',
       'Reviewers' => 'Revisors',
       '%s commandeered %s.' => '%s comandava %s.',
-      'Hold revision as as draft.' => 'Retenir la revisió com a esborrany.',
       '%s edited commit(s), added %s: %s; removed %s: %s.' => '%s ha canviat les validacions, afegit %s: %s; eliminat %s: %s.',
-      'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
-    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere in Phabricator), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
-    This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normalment, les revisions diferencials romanen en el quadre de comandament quan són "Acceptats", i l\'autor després comet els canvis per "Tancar" la revisió i moure-la del quadre de comandament. <br><br>Si teniu un flux de treball inusual en el qual S\'utilitza Diferencial per a la revisió post-validació (normalment anomenat "Audit", en altres llocs de Phabricator), podeu establir aquest indicador de seguiment per tractar l\'estat "Accepted" com un estat "Closed" i posar fi al flux de treball de revisió abans. <br><br>Aquest tipus de flux de treball és molt inusual.  Molt poques instal·lacions haurien de canviar aquesta opció.',
       'Shows revision representation in Asana.' => 'Mostra la representació de la revisió a Asana.',
       'Show path in repository.' => 'Mostra la ruta al repositori.',
       'Table of Contents' => 'Taula de continguts',
@@ -501,7 +498,6 @@ final class PhabricatorDifferentialCa
       'Configure Differential code review.' => 'Configureu la revisió del codi Differential.',
       'You can not resign from this revision because it has already been closed. You can only resign from open revisions.' => 'No es pot renunciar a aquesta revisió perquè ja s\'ha tancat. Només es pot renunciar a revisions obertes.',
       'Instructions for reverting/undoing this change.' => 'Instruccions per revertir/desfer aquest canvi.',
-      'If you set this to true, Phabricator will attach patches to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Si ho definiu com a cert, Phabricator adjuntarà pegats al correu diferencial (com a fitxers adjunts de text).  Això no funcionarà si utilitzeu SendGrid com a adaptador de correu.',
       '%s failed remote builds in %s for %s!' => '%s ha fallat en les construccions remotes a %s per %s.',
       'This revision needs review, but all specified reviewers are disabled or inactive.' => 'Cal revisar aquesta revisió, però tots els revisors especificats estan inhabilitats o inactius.',
       'Failed to migrate hunk %d: %s' => 'No s\'ha pogut migrar la peça %s: %s',
@@ -530,6 +526,7 @@ final class PhabricatorDifferentialCa
       'Change autosubmission from draft state after builds finish.' => 'Canvieu l\'enviament automàtic de l\'estat d\'esborrany un cop acabades les construccions',
       '%s removed %s parent revision(s): %s.' => '%s ha suprimit %s revisions pare: %s.',
       'You can not commandeer this revision because you are already the author.' => 'No podeu comandar aquesta revisió perquè ja sou l\'autor.',
+      'You can not plan changes to this revision because it has already been closed.' => 'No podeu planificar canvis en aquesta revisió perquè ja s\'ha tancat.',
       'Request Review' => 'Sol·licita revisió',
       '%s added an inline comment.' => '%s ha afegit un comentari en línia.',
       '%s created this revision.' => '%s ha creat aquesta revisió.',
@@ -572,6 +569,9 @@ final class PhabricatorDifferentialCa
       'Allows commits to trigger audits explicitly.' => 'Permet que les validacions activin auditories explícitament.',
       'This file has a very large number of changes (%s lines).' => 'Aquest fitxer té un nombre molt gran de canvis (%s línies).',
       'You can not close this revision because you are not the author. You can only close revisions you own. You can change this behavior by adjusting the "%s" setting in Config.' => 'No podeu tancar aquesta revisió perquè no sou l\'autor. Només podeu tancar les revisions que tingueu. Podeu canviar aquest comportament ajustant el paràmetre "%s" a Configuració.',
+      'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
+    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
+    This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normalment, les revisions diferencials romanen en el quadre de comandament quan són "Acceptats", i l\'autor després comet els canvis per "Tancar" la revisió i moure-la del quadre de comandament. <br><br>Si teniu un flux de treball inusual en el qual S\'utilitza Diferencial per a la revisió post-validació (normalment anomenat "Audit", en altres llocs de Phabricator), podeu establir aquest indicador de seguiment per tractar l\'estat "Accepted" com un estat "Closed" i posar fi al flux de treball de revisió abans. <br><br>Aquest tipus de flux de treball és molt inusual.  Molt poques instal·lacions haurien de canviar aquesta opció.',
       'Load the content of a revision from Differential.' => 'Carrega el contingut d\'una revisió des de Differential.',
       'Get the reviewers for each revision.' => 'Obteniu els revisors de cada revisió.',
       'Stack (%s Open)' => 'Pila (%s obert)',
@@ -588,6 +588,7 @@ final class PhabricatorDifferentialCa
       'Object "%s" specified by "--revision" must be a Differential revision.' => 'L\'objecte "%s" especificat per "--revision" ha de ser una revisió de Differential.',
       'Failed to load file ("%s") with hunk data.' => 'No s\'ha pogut carregar el fitxer (\'%s\') amb dades de peces.',
       'Waiting on Review' => 'Esperant la revisió',
+      'Hold revision as draft.' => 'Retenir la revisió com a esborrany.',
       'Normally, when revisions that have been "Accepted" are updated, they remain "Accepted". This allows reviewers to suggest minor alterations when accepting, and encourages authors to update if they make minor changes in response to this feedback.
     If you want updates to always require re-review, you can disable the "stickiness" of the "Accepted" status with this option. This may make the process for minor changes much more burdensome to both authors and reviewers.' => 'Normalment, quan s\'actualitzen les revisions que s\'han \'Acceptat\', romanen \'Acceptades\'. Això permet als revisors suggerir modificacions menors en acceptar i anima els autors a actualitzar-se si fan canvis menors en resposta a aquest suggeriment.
     Si voleu que les actualitzacions sempre requereixin una revisió, podeu desactivar la \'viscositat\' de l\'estat \'Acceptat\' amb aquesta opció. Això pot fer que el procés de canvis menors sigui molt més pesat tant per als autors com per als revisors.',
@@ -625,7 +626,6 @@ final class PhabricatorDifferentialCa
       'This binary file was deleted.' => 'Aquest fitxer binari s\'ha suprimit.',
       'Change associated parent revisions.' => 'Canvia les revisions pare associades.',
       'This diff ("%s") is associated with a repository ("%s") that does not have a Staging Area configured. You must configure a Staging Area to use CircleCI integration.' => 'Aquesta diferència ("%s") està associada a un repositori ("%s") que no té una àrea de preparació configurada. Heu de configurar una àrea de preparació per utilitzar la integració CircleCI.',
-      'You can not add JIRA issues (%s) to this revision because your Phabricator account is not linked to a JIRA account.' => 'No podeu afegir incidències de JIRA (%s) a aquesta revisió perquè el vostre compte de Phabricator no està enllaçat a cap compte de JIRA.',
       'Allows any user to reopen a closed revision.' => 'Permet a qualsevol usuari tornar a obrir una revisió tancada.',
       'Revision Has Commit' => 'La Revisió Té Validació',
       '%s removed %s as the repository for this revision.' => '%s ha eliminat %s com a repositori per a aquesta revisió.',

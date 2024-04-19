@@ -39,7 +39,7 @@ final class PhabricatorConpherenceZhHant
       'Rooms' => '聊天室',
       'Edit Room' => '編輯聊天室',
       'No topic set' => '沒有設定話題',
-      'Add Participants' => '添加參與者',
+      'Add Participants' => '新增參與者',
       'Rooms must have a title.' => '聊天室必須要有標題。',
       'Send a message...' => '發送訊息…',
       'Room participants.' => '聊天室參與者。',

@@ -25,14 +25,14 @@ final class PhabricatorNotificationPtBR
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => 'A configuração do servidor de notificação descreve um host inválido ("%s", no índice "%s") com um protocolo inválido ("%s"). Os protocolos válidos são "%s" ou "%s".',
       'No notifications to mark as read.' => 'Nenhuma notificação para marcar como lida.',
       'Notification Server Down' => 'Notificação de servidor offline',
+      'This server is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
+    %s' => 'O Phabricator está configurado para usar um servidor de notificação, mas não consegue se conectar a ele. Você deve resolver esse problema ou desabilitar o servidor de notificação. Pode ser útil verificar novamente sua configuração ou reiniciar o servidor usando o comando abaixo.
+    %s',
       'Unable to test client on an admin server!' => 'Não é possível testar o cliente em um servidor de administrador!',
       'Notification server configuration describes an invalid host ("%s", at index "%s"). This is an "admin" service but it has a "path" property. This property is only valid for "client" services.' => 'A configuração do servidor de notificação descreve um host inválido ("%s", no índice "%s"). Este é um serviço "admin", mas tem uma propriedade "path". Esta propriedade é válida apenas para serviços "cliente".',
       'Real-Time Updates and Alerts' => 'Atualizações e alertas em tempo real',
       'You can\'t ignore your problems forever, you know.' => 'Você não pode ignorar seus problemas para sempre, você sabe.',
       'Unable to Connect to Notification Server' => 'Não é possível conectar-se ao servidor de notificação',
-      'Phabricator is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
-    %s' => 'O Phabricator está configurado para usar um servidor de notificação, mas não consegue se conectar a ele. Você deve resolver esse problema ou desabilitar o servidor de notificação. Pode ser útil verificar novamente sua configuração ou reiniciar o servidor usando o comando abaixo.
-    %s',
       'Notification server not enabled' => 'Servidor de notificação não ativado',
       'This is a test notification, sent at %s.' => 'Esta é uma notificação de teste enviada em %s.',
       '(To start the server, run this command.)

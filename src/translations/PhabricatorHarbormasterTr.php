@@ -37,8 +37,6 @@ final class PhabricatorHarbormasterTr
       'Run a command on Drydock resource.' => 'Drydock kaynağında bir komut çalıştır.',
       '%s Skipped Test(s)' => '%s Testi Atlandı',
       'Severity of the message.' => 'Mesajın ciddiyeti.',
-      'Really restart builds?' => 'Yapılar gerçekten yeniden başlatılsın mı?',
-      'You only have permission to resume some builds. Work will continue on builds you have permission to resume.' => 'Yalnızca bazı yapılara devam etmek için izniniz var. Devam etme izniniz olan yapılar üzerinde çalışmaya devam edeceksiniz.',
       'Unsound' => 'Çürük',
       'Run a build in CircleCI.' => 'CircleCI\'da bir yapı çalıştırın.',
       'View External Build Results' => 'Dış Yapı Sonuçlarını Görüntüleyin',
@@ -57,18 +55,14 @@ final class PhabricatorHarbormasterTr
       'Browse Builds' => 'Yapılara Göz Atın',
       'Expected "%s" property to contain a dictionary.' => 'Sözlük içermesi beklenen "%s" özelliği.',
       'Really Delete Step?' => 'Gerçekten Adımı Silinsin mi?',
-      'Unable to Restart Builds' => 'Yapılar Yeniden Başlatılamıyor',
       'or' => 'veya',
       'Completed' => 'Tamamlandı',
       'Output Artifacts' => 'Çıktı Eserleri',
-      'Stores a reference to file data which has been uploaded to Phabricator.' => 'Phabricator\'a yüklenen dosya verisine bir başvuru saklar.',
       'Manage Build Plans' => 'Yapı Planlarını Yönet',
       'Default Build Plan View Policy' => 'Varsayılan Yapı Planı Görüntüleme Politikası',
-      'No builds can be resumed.' => 'Hiçbir yapıya devam edilemez.',
       'Choose a build target to attach the log to with "--target".' => 'Günlüğü "--target" ile eklemek için bir oluşturma hedefi seçin.',
       'Build Preparing' => 'Hazırlama Oluştur',
       'Specify exactly one buildable, by object name.' => 'Nesne adına göre tam olarak bir tane oluşturulabilir belirtin.',
-      'This build is not paused. You can only resume a paused build.' => 'Bu yapı duraklatılmadı. Yalnızca duraklatılmış bir yapıya devam edebilirsiniz.',
       'Enable Plan' => 'Planı Etkinleştir',
       'Unable to Abort Build' => 'Yapı İptal Edilemiyor',
       'Unable to Load File' => 'Dosya Yüklenemiyor',
@@ -85,7 +79,6 @@ final class PhabricatorHarbormasterTr
       'Search for targets of a given build.' => 'Belirli bir yapının hedeflerini arayın.',
       'Enable Build Plan' => 'Yapı Planını Etkinleştir',
       'Webhook Token' => 'Webhook Jetonu',
-      'Publish a fragment based on a file artifact.' => 'Bir dosya yapısına dayanan bir parça yayınlayın.',
       'When creating an artifact, you will choose an `artifactType` from this table. These types of artifacts are supported:' => 'Bir yapay eser oluştururken, bu tablodan bir `artifactType` seçeceksiniz. Bu tür eserler desteklenir:',
       'Aborting' => 'Durduruluyor',
       '%s Other Test(s)' => '%s Diğer Test',
@@ -104,7 +97,6 @@ final class PhabricatorHarbormasterTr
       'Use "plain" to remove encoding, or "compress" to compress logs.' => 'Kodlamayı kaldırmak için "düz" veya günlükleri sıkıştırmak için "sıkıştır" kullanın.',
       'Default Build Plan Edit Policy' => 'Varsayılan Yapı Planı Düzenleme Politikası',
       'Unused Output' => 'Kullanılmayan Çıkış',
-      'You do not have permission to pause any builds.' => 'Herhangi bir yapıyı duraklatma izniniz yok.',
       'Abort Older Builds' => 'Eski Yapıları İptal Et',
       'Pause Build' => 'Yapıyı Durdur',
       'Interacting with External Build Systems' => 'Dış Yapı Sistemleri ile Etkileşim',
@@ -115,7 +107,6 @@ final class PhabricatorHarbormasterTr
       '%s Failed Test(s)' => '%s Test Başarısız Oldu',
       'Unknown mode "%s". Valid modes are: %s.' => 'Bilinmeyen mod "%s". Geçerli modlar: %s.',
       'Wait for previous commits to finish building the current plan before continuing.' => 'Devam etmeden önce mevcut planın oluşturulmasını önceki taahhütlerin beklemesini bekleyin.',
-      '%s created this build.' => '%s bu yapıyı oluşturdu.',
       'Follow Log' => 'Günlüğü İzle',
       'Explicitly update the builds for __buildable__.' => '__buildable__ için sürümleri açıkça güncelleyin.',
       'Path to the file where the test is declared, relative to the project root.' => 'Proje köküne göre testin bildirildiği dosyanın yolu.',
@@ -128,11 +119,9 @@ final class PhabricatorHarbormasterTr
       'Build step "%s" has step group key "%s", but no step group with that key exists.' => 'Derleme "%s", "%s" adım grubu anahtarına sahiptir, ancak bu anahtarla hiçbir adım grubu yoktur.',
       'When Complete' => 'Tamamlandığında',
       'Show all logs.' => 'Tüm günlükleri göster.',
-      'No builds can be aborted.' => 'Hiçbir yapı iptal edilemez.',
       'Invalid buildable PHID "%s".' => 'Geçersiz oluşturulabilir PHID "%s".',
       'Find out information about buildables.' => 'Yapılabilirler hakkında bilgi edinin.',
       'ID of build plan to run.' => 'Çalıştırılacak yapı planının kimliği.',
-      'This build is already resuming. You can not reissue a resume command to a resuming build.' => 'Bu yapı zaten devam ediyor. Bir özgeçmiş komutunu bir özgeçmiş derlemesine yeniden gönderemezsiniz.',
       'Run Build Plan Manually' => 'Yapı Planını Manüel Olarak Çalıştır',
       'Limit the rate at which the log is written, to test live log streaming.' => 'Canlı günlük akışını test etmek için günlüğün yazılma hızını sınırlayın.',
       'Running for %s' => '%s için Çalışıyor',
@@ -148,8 +137,6 @@ final class PhabricatorHarbormasterTr
       'Uploaded File' => 'Yüklenmiş Dosya',
       'Force the buildable to update even if no build status changes occur during normal update.' => 'Normal güncelleme sırasında derleme durumu değişikliği yapılmasa bile kurmayı güncellemeye zorlayın.',
       'INVALID' => 'GEÇERSİZ',
-      'You only have permission to abort some builds. Work will halt immediately on builds you have permission to abort. Progress will be discarded, and builds must be completely restarted if you want them to complete.' => 'Sadece bazı yapıları iptal etme izniniz var. İş iptal etme izniniz olduğu inşaatlarda derhal durur. İlerleme iptal edilecek ve tamamlanmalarını istiyorsanız, derlemeler tamamen yeniden başlatılmalıdır.',
-      'Not Restartable' => 'Tekrar Başlatılamaz',
       'Request OK
     ' => 'Tamam İste',
       'Logs must be fully written and processed before they can be downloaded. This log is still being written or processed.' => 'Günlükler indirilmeden önce tamamen yazılmalı ve işlenmelidir. Bu günlük hala yazılıyor veya işleniyor.',
@@ -164,7 +151,6 @@ final class PhabricatorHarbormasterTr
       'Coverage information for this test.' => 'Bu test için kapsama bilgisi.',
       'This attachment exists solely to provide compatibility with the message format returned by an outdated API method. It will be taken away at some point and you should not rely on these fields being available.' => 'Bu ek, yalnızca eski bir API yöntemiyle döndürülen ileti biçimiyle uyumluluk sağlamak için bulunmaktadır. Bir noktada alınacak ve bu alanların mevcut olduğuna güvenmemelisiniz.',
       'The build plan name.' => 'Yapı planı adı.',
-      'You do not have permission to resume any builds.' => 'Herhangi bir yapıyı devam ettirmek için izniniz yok.',
       'View Current Build' => 'Mevcut Yapıyı Bakın',
       'Next Steps' => 'Sonraki Adımlar',
       'Build target this log is attached to.' => 'Bu günlüğün bağlı olduğu derleme hedefi.',
@@ -177,7 +163,6 @@ final class PhabricatorHarbormasterTr
       'Rebuild the file and summary for a log. This is primarily intended to make it easier to develop new log summarizers.' => 'Bir günlük için dosyayı ve özeti yeniden oluşturun. Bu öncelikle yeni log özetleyicileri geliştirmeyi kolaylaştırmak için tasarlanmıştır.',
       'Standalone Log Fragment' => 'Bağımsız Günlük Parçası',
       'Harbormaster Build Steps' => 'Harbormaster Adımları Oluştur',
-      'All Harbormaster APIs are new and subject to change.' => 'Tüm Harbormaster API\'leri yenidir ve değişebilir.',
       'Origin' => 'Menşei',
       'Build Status' => 'Durumu Oluştur',
       'Run At' => 'Çalıştır',
@@ -202,7 +187,6 @@ final class PhabricatorHarbormasterTr
       'Name one or more buildables to publish, like "B123".' => '"B123" gibi yayınlanacak bir veya daha fazla faturalandırılabilir dosya adı verin.',
       'Pausing' => 'Durduruluyor',
       'Manual' => 'Manüel',
-      'Invalid Harbormaster build command "%s".' => 'Geçersiz Harbormaster yapı komutu "%s".',
       'All Builds' => 'Tüm Yapılar',
       'No such object "%s" exists.' => 'Böyle bir "%s" nesnesi yok.',
       'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'Nesne ("%s") "%s" ifadesinin GitHub deposu URI\'si olduğunu iddia ediyor, ancak yol ("%s") yeterince bileşen içermiyor (en az iki tane bekleniyor).',
@@ -220,14 +204,12 @@ final class PhabricatorHarbormasterTr
       'References a host lease from Drydock.' => 'Referanslar Drydock firmasından bir ev sahibi kiralama.',
       'Type a build status name...' => 'Bir yapı durumu adı yazın...',
       'Short message name, like "Syntax Error".' => 'Kısa mesaj adı, "Sözdizim Hatası" gibi.',
+      'Stores a reference to file data.' => 'Phabricator\'a yüklenen dosya verisine bir başvuru saklar.',
       'Edit Step: %s' => 'Adım Düzenle: %s',
       'Optional namespace for this test. This is organizational and is often a class or module name, like "ExampleTestCase".' => 'Bu test için isteğe bağlı ad alanı. Bu organizasyoneldir ve genellikle "ExampleTestCase" gibi bir sınıf veya modül adıdır.',
       'Buildkite' => 'Buildkite',
-      'Really resume builds?' => 'Gerçekten yapıları devam ettirsin mi?',
       'Built for %s' => '%s için Yapıldı',
-      'Use one of --id or --active to select builds, but not both.' => 'Yapıları seçmek için --id veya --active öğelerini kullanın, ancak ikisini birden kullanmayın.',
       'Create a build artifact.' => 'Bir yapı eseri oluşturun.',
-      'This build is already pausing. You can not reissue a pause command to a pausing build.' => 'Bu yapı zaten duraklatılmış durumda. Duraklatma komutunu duraklatma derlemesine yeniden gönderemezsiniz.',
       'Step Type' => 'Adım Tipi',
       'You must openBuildLog() before you can closeBuildLog().' => 'openBuildLog() uygulamasını kapatmadan önce closeBuildLog() öğesini açmalısınız.',
       'Unknown Input' => 'Bilinmeyen Giriş',
@@ -292,9 +274,7 @@ final class PhabricatorHarbormasterTr
       'New plan name.' => 'Yeni plan adı.',
       'Harbormaster Build Targets' => 'Harbormaster Yapı Hedefleri',
       'Sleep for a specified number of seconds.' => 'Belirtilen sayıda saniye uyu.',
-      '%s created this buildable.' => '%s bu yapılandırabiliri oluşturdu',
       'The current status of this build.' => 'Bu yapının şu anki durumu.',
-      'Pause' => 'Duraklat',
       'Make an HTTP %s request to %s.' => '%s\'e bir HTTP %s isteği yapın.',
       'A file containing the log data.' => 'Günlük verilerini içeren bir dosya.',
       '<Invalid URI>' => '<Geçersiz URI>',
@@ -308,17 +288,14 @@ final class PhabricatorHarbormasterTr
       'The name of this build plan.' => 'Bu inşa planının adı.',
       'Opened a new build log:' => 'Yeni bir derleme günlüğü açıldı:',
       'Unable to determine how to clone the repository for this buildable: it is not associated with a tracked repository.' => 'Bu oluşturulabilir deponun klonunun nasıl klonlanacağını belirleyemiyor: izlenen bir havuzla ilişkili değil.',
-      'SUCCESS' => 'BAŞARILI',
       'You must choose a name for your build plan.' => 'Yapı planınız için bir isim seçmelisiniz.',
       'If you abort all builds, work will halt immediately. Work will be discarded, and builds must be completely restarted.' => 'Tüm yapıları iptal ederseniz, iş derhal durur. İşler atılacak ve yapımlar tamamen yeniden başlatılmalıdır.',
       'Argument "%s" does not name a buildable. Provide one or more valid buildable monograms or PHIDs.' => '"%s" bağımsız değişkeni oluşturulabilir adı vermiyor. Bir veya daha fazla geçerli oluşturulabilir monogram veya PHID sağlayın.',
       'Edit Step' => 'Adım Düzenle',
-      'This build is already paused. You can not pause a build which has already been paused.' => 'Bu yapı zaten duraklatıldı. Zaten duraklatılmış bir yapıyı duraklatamazsınız.',
       'The ID of the current build.' => 'Geçerli yapının kimliği.',
       'Submit builds into the build queue normally instead of running them in the foreground.' => 'Gönder, ön planda çalıştırmak yerine normal olarak yapı kuyruğuna gönderir.',
       '%s resumed this build.' => '%s bu yapıyı devam etti.',
       'This input is required, but not configured.' => 'Bu giriş gerekli, ancak yapılandırılmamış.',
-      'Really abort builds?' => 'Gerçekten yapıları iptal edilsin mi?',
       'Bad build target ID "%d".' => 'Hatalı yapı hedef kimliği "%s".',
       'Restart %s build(s)?' => '%s yapı yeniden başlatılsın mı?',
       'This build log is already open!' => 'Bu yapı günlüğü zaten açık!',
@@ -327,8 +304,6 @@ final class PhabricatorHarbormasterTr
       'Build Target ID' => 'Hedef Kimliği Oluştur',
       'Unable to load the file for this log. The file may have been destroyed.' => 'Bu günlük için dosya yüklenemiyor. Dosya tahrip olmuş olabilir.',
       'Short test name, like "ExampleTest".' => '"ExampleTest" gibi kısa bir test adı.',
-      'Unknown command %s' => 'bilinmeyen komut %s',
-      'FAILED' => 'BAŞARISIZ',
       'Active Plans' => 'Aktif Planlar',
       'Restartable' => 'Yeniden başlatılabilir',
       'Unit %d' => '%s Birim',
@@ -348,7 +323,6 @@ final class PhabricatorHarbormasterTr
       'Also Clone' => 'Ayrıca Klon',
       'Select all active builds.' => 'Tüm aktif yapıları seçin.',
       'Preparing' => 'Hazırlanıyor',
-      'Use --id or --active to select builds.' => 'Yapıları seçmek için --id veya --active kullanın.',
       'Build Plans' => 'Planlar Oluştur',
       'Unable to load build target "%s".' => '"%s" yapı hedefi yüklenemiyor.',
       'Retrieve information about Harbormaster build plans.' => 'Harbormaster yapı planları hakkında bilgi edinin.',
@@ -363,7 +337,6 @@ final class PhabricatorHarbormasterTr
       '%s empty logs are hidden.' => '%s boş günlükler gizlendi.',
       'Delete Step' => 'Adımı Sil',
       'No builds found.' => 'Yapı bulunamadı.',
-      'No builds can be paused.' => 'Hiçbir yapı duraklatılamaz.',
       'OK: Processed event.' => 'Tamam: İşlenmiş etkinlik.',
       'Status for the build target.' => 'Yapı hedefinin durumu.',
       'CircleCI did not return a "%s"!' => 'CircleCI "%s" döndürmedi!',
@@ -377,7 +350,6 @@ final class PhabricatorHarbormasterTr
       'View in Buildkite' => 'Buildkite\'de Görüntüle',
       'No implementation is specified!' => 'Uygulama belirtilmedi!',
       '(This is an explicit exception.)' => '(Bu açık bir istisnadır.)',
-      'You can not abort this build.' => 'Bu yapıyı iptal edemezsiniz.',
       'Abort Build' => 'Oluşturmayı İptal Et',
       'Artifacts' => 'Eserleri',
       'Invalid Implementation ("%s")!' => 'Geçersiz Uygulama ("%s")!',
@@ -386,32 +358,23 @@ final class PhabricatorHarbormasterTr
       'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => 'İletiyi tetikleyen metnin başladığı satırdaki bayt konumu. Satırdaki ilk bayt 1\'dir, bayt 0 değil. Bu konum bayt tabanlıdır (karakter tabanlıdır) çünkü tüm sıralanabilir dosyalar geçerli bir karakter kodlamasına sahip değildir.',
       'Unable to inflate log chunk!' => 'Günlük öbeğini şişiremiyor!',
       'Testing Utilities' => 'Test Araçları',
-      'Cannot be restarted.' => 'Yeniden başlatılamıyor.',
       'Search for builds with given statuses.' => 'Verilen durumlara sahip yapıları arayın.',
-      'Publish file artifact %s as fragment %s.' => '%s parçasını %s parçası olarak yayınlayın.',
       'Restart Harbormaster builds.' => 'Harbormaster yapıları yeniden  başlat.',
       'Automatic `arc lint` step.' => 'Otomatik `arc lint` adım.',
       'PHID of the object containing this buildable.' => 'Bu oluşturulabilir nesnenin PHID\'si.',
-      'You do not have permission to restart any builds.' => 'Herhangi bir yapıyı yeniden başlatma izniniz yok.',
       'Variables' => 'Değişkenler',
       'Unknown Unit Message ("%s")' => 'Bilinmeyen Ünite Mesajı ("%s")',
       '%s: %s -> %s' => '%s: %s -> %s',
-      'Publish Fragment' => 'Parçayı Yayımla',
       'Search for builds of particular objects.' => 'Belirli nesnelerin yapılarını arayın.',
       'Show More Below' => 'Aşağıda Daha Fazla Göster',
-      'Unable to Resume Builds' => 'Yapılar Devam Edilemiyor',
       'Build Target ID to attach the log to.' => 'Günlüğü eklemek için Hedef Kimliği oluşturun.',
       'Restart Builds' => 'Yapıları Yeniden Başlat',
       'Additional human-readable information about the failure.' => 'Arıza hakkında insan tarafından okunabilen ek bilgiler.',
-      'Unable to Abort Builds' => 'Yapıları İptal Edilmiyor',
-      'Restart' => 'Yeniden Başlat',
       'Trigger a build in CircleCI.' => 'CircleCI\'da bir yapıyı tetikleyin.',
       'Aborted' => 'İptal Edildi',
       'Create Build Step' => 'Yapı Adımı Oluştur',
-      'Publishes File' => 'Dosyayı Yayımlar',
       'Plan Behaviors' => 'Plan Davranışları',
       'If true, display this URI in the UI as an link to additional build details in an external build system.' => 'True ise, bu URI\'yı bir harici derleme sistemindeki ek derleme ayrıntılarına bağlantı olarak UI\'de görüntüleyin.',
-      'Resume' => 'Devam Et',
       'Write a new Harbormaster build log. This is primarily intended to make development and testing easier.' => 'Yeni bir Harbormaster derleme günlüğü yaz. Bu öncelikle geliştirme ve test etmeyi kolaylaştırmak için tasarlanmıştır.',
       'Update only this build.' => 'Yalnızca bu yapıyı güncelle.',
       'Pause Builds' => 'Yapıları Durdur',
@@ -438,7 +401,6 @@ final class PhabricatorHarbormasterTr
       'Buildable %d' => 'Yapılandırabilir %s',
       'Rename the plan.' => 'Planı yeniden adlandır.',
       'Build Failed' => 'Yapı Başarısız Oldu',
-      'File Artifact' => 'Dosya Eseri',
       'References a working copy lease from Drydock.' => 'Drydock\'tan çalışan bir kopyası.',
       'PHID of the build plan being run.' => 'Çalışan yapı planının PHID\'si.',
       'Build Log %d' => 'Yap Günlüğü %s',
@@ -449,8 +411,6 @@ final class PhabricatorHarbormasterTr
       'Lines' => 'Çizgiler',
       'The specified buildable does not have a build with ID "%s".' => 'Belirtilen oluşturulabilir kod "%s" kimliğine sahip bir yapıya sahip değil.',
       'Find out information about builds.' => 'Yapılar hakkında bilgi edinin.',
-      'You only have permission to pause some builds. Once the current steps complete, work will halt on builds you have permission to pause. You can resume the builds later.' => 'Yalnızca bazı yapıları duraklatma izniniz var. Geçerli adımlar tamamlandığında, duraklatma izniniz olan yapılar üzerinde durur. Yapıları daha sonra devam ettirebilirsiniz.',
-      'You do not have permission to abort any builds.' => 'Herhangi bir yapıyı iptal etmek için izniniz yok.',
       'Edit Harbormaster Build Plan Configurations' => 'Harbormaster Yapı Planı Yapılandırmalarını Düzenle',
       'Buildkite request to target "%s" had the wrong authentication token. The Buildkite pipeline and Harbormaster build step must be configured with the same token.' => '"%s" hedefine yönelik Buildkite isteği, yanlış kimlik doğrulama belirtecine sahipti. Buildkite boru hattı ve Harbormaster yapı adımı aynı jetonla yapılandırılmalıdır.',
       'Throw Exception' => 'İstisna Atma',
@@ -464,68 +424,6 @@ final class PhabricatorHarbormasterTr
       'Object ("%s") does not implement interface "%s". Only objects which implement this interface can be built with CircleCI.' => 'Nesne ("%s"), "%s" arabirimini uygulamıyor. Yalnızca bu arayüzü uygulayan nesneler CircleCI ile oluşturulabilir.',
       'If Editable' => 'Eğer Düzenlenebiliyorsa',
       'Build Target %d' => 'Hedef %s Oluşturun',
-      'Send a message about the status of a build target to Harbormaster, notifying the application of build results in an external system.
-    Sending Messages
-    ================
-    If you run external builds, you can use this method to publish build results back into Harbormaster after the external system finishes work or as it makes progress.
-    The simplest way to use this method is to call it once after the build finishes with a `pass` or `fail` message. This will record the build result, and continue the next step in the build if the build was waiting for a result.
-    When you send a status message about a build target, you can optionally include detailed `lint` or `unit` results alongside the message. See below for details.
-    If you want to report intermediate results but a build hasn\'t completed yet, you can use the `work` message. This message doesn\'t have any direct effects, but allows you to send additional data to update the progress of the build target. The target will continue waiting for a completion message, but the UI will update to show the progress which has been made.
-    Message Types
-    =============
-    When you send Harbormaster a message, you must include a `type`, which describes the overall state of the build. For example, use `pass` to tell Harbormaster that a build completed successfully.
-    Supported message types are:
-    %s
-    Unit Results
-    ============
-    You can report test results alongside a message. The simplest way to do this is to report all the results alongside a `pass` or `fail` message, but you can also send a `work` message to report intermediate results.
-    To provide unit test results, pass a list of results in the `unit` parameter. Each result should be a dictionary with these keys:
-    %s
-    The `result` parameter recognizes these test results:
-    %s
-    This is a simple, valid value for the `unit` parameter. It reports one passing test and one failing test:
-    ```lang=json
-    %s```
-    Lint Results
-    ============
-    Like unit test results, you can report lint results alongside a message. The `lint` parameter should contain results as a list of dictionaries with these keys:
-    %s
-    The `severity` parameter recognizes these severity levels:
-    %s
-    This is a simple, valid value for the `lint` parameter. It reports one error and one warning:
-    ```lang=json
-    %s```
-    ' => 'Bir derleme hedefinin durumu hakkında, bir dış sistemdeki derleme sonuçlarının uygulandığını bildiren Harbormaster\'a bir mesaj gönderin.
-    Mesaj Gönderme
-    ================
-    Dış yapıları çalıştırırsanız, dış sistemin çalışması bittikten sonra veya ilerleme kaydettikten sonra derleme sonuçlarını tekrar Harbormaster\'da yayınlamak için bu yöntemi kullanabilirsiniz.
-    Bu yöntemi kullanmanın en basit yolu, derleme işlemi bir `pass` veya `fail` mesajı ile tamamladıktan sonra bir kez çağırmaktır. Bu derleme sonucunu kaydedecek ve derleme bir sonuç bekliyorsa derlemeye bir sonraki adıma devam edecektir.
-    Bir oluşturma hedefi hakkında bir durum mesajı gönderdiğinizde, isteğe bağlı olarak mesajın yanına ayrıntılı \'lint` veya `unit` sonuçları ekleyebilirsiniz. Ayrıntılar için aşağıya bakınız.
-    Ara sonuçları bildirmek istiyorsanız ancak henüz bir yapı tamamlanmadıysa, `work` mesajını kullanabilirsiniz. Bu iletinin doğrudan etkileri yoktur, ancak derleme hedefinin ilerlemesini güncellemek için ek veri göndermenize olanak sağlar. Hedef, bir tamamlama mesajı beklemeye devam edecek, ancak UI, kaydedilen ilerlemeyi göstermek için güncellenecektir.
-    Mesaj Türleri
-    =============
-    Harbormaster\'a bir mesaj gönderdiğinizde, derlemenin genel durumunu tanımlayan bir `type` eklemelisiniz. Örneğin Harbormaster\'a bir yapının başarıyla tamamlandığını bildirmek için `pass` kullanın.
-    Desteklenen mesaj türleri:
-    %s
-    Birim Sonuçları
-    ============
-    Test sonuçlarını bir mesajla birlikte rapor edebilirsiniz. Bunu yapmanın en basit yolu, tüm sonuçları bir `pass` veya `fail` mesajı ile birlikte rapor etmektir, fakat ayrıca ara sonuçları rapor etmek için bir `work` mesajı da gönderebilirsiniz.
-    Birim test sonuçlarını sağlamak için, `unit` parametresindeki bir sonuç listesini iletin. Her sonuç şu anahtarlara sahip bir sözlük olmalıdır:
-    %s
-    `result` parametresi bu test sonuçlarını tanır:
-    %s
-    Bu `unit` parametresi için basit, geçerli bir değerdir. Bir başarılı test ve bir başarısız test olduğunu bildirir:
-    ```lang=json
-    %s```
-    Lint Sonuçlar
-    ============
-    Birim test sonuçları gibi, lint sonuçlarını bir mesajın yanında rapor edebilirsiniz. `lint` parametresi, bu anahtarlara sahip sözlüklerin bir listesi olarak sonuçları içermelidir:
-    %s
-    `severity` parametresi şu ciddiyet seviyelerini tanır:
-    %s
-    Bu `lint` parametresi için basit, geçerli bir değerdir. Bir hata ve bir uyarı veriyor:
-    ```lang=json
-    %s```',
       'Download Log' => 'Günlüğü İndir',
       'Make an HTTP request.' => 'Bir HTTP isteği yapın.',
       'Drydock Host' => 'Drydock Sahibi',
@@ -538,17 +436,11 @@ final class PhabricatorHarbormasterTr
       'Processing Harbormaster build log #%d...' => 'Harbormaster işlem günlüğü #%s oluşturuyor...',
       'Targets' => 'Hedefler',
       'No such implementation "%s" exists!' => 'Böyle bir uygulama "%s" mevcut değil!',
-      'Cancelled.' => 'İptal edildi.',
       'Build Step %d: %s' => 'Adım Oluştur %s: %s',
       'Started %s build(s): %s.' => '%s yapı oluşturuldu: %s.',
       '%s paused this buildable.' => '%s bu yapılandırabiliri durdurdu.',
       'Create an artifact of this type by passing `%s` as the `artifactType`. When creating an artifact of this type, provide these parameters as a dictionary to `artifactData`:' => '`%s` `artifactType` olarak geçirerek bu türde bir yapı oluşturun. Bu türden bir eser yaratırken, bu parametreleri `artifactData` için bir sözlük olarak sağlayın:',
       'Choose an archival mode with --mode.' => '--mode ile bir arşiv modu seçin.',
-      'After completing this build step Harbormaster can continue the build normally, or it can pause the build and wait for a message. If you are using this build step to trigger some work in an external system, you may want to have Phabricator wait for that system to perform the work and report results back.
-    If you select **Continue Build Normally**, the build plan will proceed once this step finishes.
-    If you select **Wait For Message**, the build plan will pause indefinitely once this step finishes. To resume the build, an external system must call `harbormaster.sendmessage` with the build target PHID, and either `"pass"` or `"fail"` to indicate the result for this step. After the result is recorded, the build plan will resume.' => 'Bu derleme adımını tamamladıktan sonra Harbourmaster derlemeye normal şekilde devam edebilir veya yapıyı duraklatabilir ve bir mesaj bekleyebilir. Harici bir sistemde bazı işleri tetiklemek için bu derleme adımını kullanıyorsanız, Phabricator\'ın bu sistemin işi yapmasını beklemesini ve sonuçları geri bildirmesini isteyebilirsiniz.
-    **Normal Yapmaya Devam Et** seçeneğini belirlerseniz, bu adım tamamlandıktan sonra yapım planı devam eder.
-    **Mesaj Bekle** seçeneğini belirlerseniz, bu adım tamamlandıktan sonra yapım planı süresiz olarak duraklatılır. Derlemeye devam etmek için, harici bir sistem derleme hedefi PHID ile birlikte `harbormaster.sendmessage`, `"pass"`  ya da `"fail"` ifadelerini kullanmalı ve bu adımın sonucunu belirtmelidir. Sonuç kaydedildikten sonra yapım planı devam edecektir.',
       'Build with CircleCI' => 'CircleCI ile Oluştur',
       'Can Not Run Plan' => 'Plan Çalıştırılamıyor',
       'Users must be able to see a build to view its build targets.' => 'Kullanıcılar, yapı hedeflerini görebilmek için bir yapı görebilmelidir.',
@@ -574,7 +466,6 @@ final class PhabricatorHarbormasterTr
       'Build messages have the same policies as their receivers.' => 'Mesaj oluşturma, alıcılarıyla aynı politikalara sahiptir.',
       'This build plan can not be run manually.' => 'Bu derleme planı manüel olarak çalıştırılamaz.',
       'Report that the target is complete, and the target has passed.' => 'Hedefin tamamlandığını ve hedefin geçtiğini bildirin.',
-      'Unable to Pause Builds' => 'Yapılar Duraklatılamıyor',
       'This build plan has conflicts in one or more build steps. Examine the step list and resolve the listed errors.' => 'Bu derleme planının bir veya daha fazla derleme adımında çakışmaları var. Adım listesini inceleyin ve listelenen hataları çözün.',
       'Containers' => 'Kaplar',
       'The number of seconds to sleep for.' => 'Uyumak için saniye sayısı.',
@@ -595,7 +486,6 @@ final class PhabricatorHarbormasterTr
       'Test engine running the test, like "JavascriptTestEngine". This primarily prevents collisions between tests with the same name in different test suites (for example, a Javascript test and a Python test).' => '"JavascriptTestEngine" gibi, testi çalıştıran test motoru. Bu, öncelikle farklı test takımlarında aynı isimdeki testler arasındaki çarpışmaları önler (örneğin, bir JavaScript testi ve bir Python testi).',
       'Container' => 'Konteyner',
       'Choose a build log to rebuild with "--id", or rebuild all logs with "--all".' => '"--id" ile yeniden oluşturmak için bir derleme günlüğü seçin veya "--all" ile tüm günlükleri yeniden oluşturun.',
-      'No builds can be restarted.' => 'Hiçbir yapı yeniden başlatılamaz.',
       'Run build plans: %s.' => 'Oluşturma planlarını çalıştırın: %s.',
       'Declining to make service call because `phabricator.silent` is enabled in configuration.' => 'Yapılandırmada `phabricator.silent` etkin olduğundan servis çağrısı yapmayı reddetme.',
       'Build Logs' => 'Günlükleri Oluştur',
@@ -607,20 +497,17 @@ final class PhabricatorHarbormasterTr
       'Stored Bytes' => 'Depolanan Bayt',
       'Work will continue on the build. Really resume?' => 'İş yapı devam edecek. Gerçekten devam mı?',
       'Log to rebuild.' => 'Yeniden oluşturmak için giriş yapın.',
-      'Upload a file from a host to Phabricator.' => 'Ana bilgisayardan Phabricator\'a dosya yükleyin.',
       'Edit Behavior: %s' => 'Davranışı Düzenle: %s',
       'Result of the test.' => 'Testin sonucu.',
       'Unable to load build log "%s".' => '"%s" yapı günlüğü yüklenemiyor.',
       'Unable to load API token ("%s")!' => 'API kodu yüklenemedi ("%s")!',
       'Find out information about build logs.' => 'Yapı günlükleri hakkında bilgi edinin.',
-      'This build can not be paused.' => 'Bu yapı duraklatılamaz.',
       '%s Passed Test(s)' => '%s Testi Geçti',
       'ERROR:' => 'HATA:',
       'Builtins' => 'Yerleşikler',
       'Build %d' => 'Yapı %s',
       'Harbormaster build target "%s" does not exist.' => 'Harbormaster yapı hedefi "%s" mevcut değil.',
       'If you pause all builds, work will halt once the current steps complete. You can resume the builds later.' => 'Tüm yapıları duraklatırsanız, mevcut adımlar tamamlandıktan sonra iş durur. Yapıları daha sonra devam ettirebilirsiniz.',
-      'This build is already complete. You can not pause a completed build.' => 'Bu yapı zaten tamamlandı. Tamamlanmış bir yapıyı duraklatamazsınız.',
       'Host Artifact' => 'Konak Eseri',
       'No Unit Tests' => 'Ünite Testi Yok',
       'All Targets' => 'Tüm Hedefler',
@@ -641,18 +528,15 @@ final class PhabricatorHarbormasterTr
       'Drydock Working Copy' => 'Drydock Çalışma Kopyası',
       'Show More (%s Bytes)' => 'Daha Fazla Göster (%s Bayt)',
       'A build inherits policies from its buildable.' => 'Bir yapı, oluşturulabilir politikalardan miras alır.',
-      'No such build target!' => 'Böyle bir yapı hedefi yok!',
       'Arcanist Unit Results' => 'Eserli Birim Sonuçları',
       'This build is already restarting. You can not reissue a restart command to a restarting build.' => 'Bu yapı zaten yeniden başlatılıyor. Bir yeniden başlatma komutunu yeniden başlatma yapısına yeniden gönderemezsiniz.',
       'The following variables can be used in most fields. To reference a variable, use `%s` in a field.' => 'Aşağıdaki değişkenler çoğu alanda kullanılabilir. Bir değişkeni referans almak için bir alanda `%s` kullanın.',
       'This engine is used to edit Harbormaster build plans.' => 'Bu motor Harbormaster inşa planlarını düzenlemek için kullanılır.',
       'This function definition is not a haiku.' => 'Bu fonksiyon tanımı bir haiku değil.',
       '(null)' => '(boş)',
-      'Really pause builds?' => 'Yapıları gerçekten durdurulsun mu?',
       'Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. Really restart build?' => 'Bu derlemedeki ilerleme atılacak ve derleme yeniden başlayacaktır. Yapının yan etkileri tekrar ortaya çıkacaktır. Gerçekten yapıyı yeniden başlatılsın mı?',
       'Search for builds by buildable status.' => 'Yapılabilir duruma göre yapıları arayın.',
       'Abort Builds' => 'Yapıları İptal Et',
-      'Send a message about the status of a build target to Harbormaster, notifying the application of build results in an external system.' => 'Bir derleme hedefinin durumu hakkında, bir dış sistemdeki derleme sonuçlarının uygulandığını bildiren Harbormaster\'a bir mesaj gönderin.',
       'Upload From Host' => 'Ana Bilgisayardan Yükle',
       'The build step the target runs.' => 'Hedefin oluşturduğu yapı adımı.',
     );

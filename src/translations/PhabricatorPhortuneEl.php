@@ -1,0 +1,80 @@
+<?php
+
+final class PhabricatorPhortuneEl
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'el';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'You must provide a cost for this purchase.' => 'Πρέπει να παρέχετε ένα κόστος για αυτή την αγορά.',
+      'Use Logo' => 'Χρησιμοποίηση λογοτύπου',
+      'View All Orders' => 'Προβολή όλων των παραγγελιών',
+      'Product List' => 'Κατάλογος προϊόντων',
+      'PayPal API Password is required.' => 'Ο κωδικός πρόσβασης PayPal API είναι υποχρεωτικός.',
+      'Phortune Cart' => 'Καλάθι Phortune',
+      'Phortune Purchase' => 'Αγορά Phortune',
+      'subscription creation' => 'δημιουργία συνδρομής',
+      'Edit Merchant' => 'Επεξεργασία εμπόρου',
+      'New Merchant name.' => 'Νέο όνομα εμπόρου.',
+      'Phortune Charges' => 'Χρεώσεις Phortune',
+      'Add Credit or Debit Card (US and Canada)' => 'Προσθήκη πιστωτικής ή χρεωστικής κάρτας (ΗΠΑ και Καναδάς)',
+      'No products.' => 'Χωρίς προϊόντα.',
+      'Pay With' => 'Πληρωμή με',
+      'Merchant %d' => 'Έμπορος %s',
+      'Merchant Manager' => 'Διαχειριστής εμπόρου',
+      'nothing' => 'τίποτα',
+      'Create Merchant' => 'Δημιουργία εμπόρου',
+      'Unable to Cancel Order' => 'Αποτυχία ακύρωσης παραγγελίας.',
+      'Pay Now' => 'Πληρώστε τώρα',
+      'Qty.' => 'Ποιότητα.',
+      'Fully Refunded' => 'Πλήρως επαναχρηματοδοτημένο',
+      'Purchase' => 'Αγορά',
+      'This order was created.' => 'Αυτή η παραγγελία δημιουργήθηκε.',
+      'Past Invoices' => 'Παρελθοντικές τιμολογήσεις',
+      'Invoice Description' => 'Περιγραφή τιμολόγησης',
+      'This order was invoiced.' => 'Αυτή η παραγγελία τιμολογήθηκε.',
+      'Merchant Account Managers' => 'Διαχειριστές λογαριασμού εμπόρου',
+      'Can Create Merchants' => 'Μπορεί να δημιουργήσει εμπόρους',
+      'Phortune Charge' => 'Χρέωση Phortune',
+      'Ready' => 'Έτοιμο',
+      'Remove Payment Method' => 'Αφαίρεση μεθόδου πληρωμής',
+      'All Subscriptions' => 'Όλες οι συνδρομές',
+      'Default Account' => 'Προεπιλεγμένος λογαριασμός',
+      'Unsupported currency \'%s\'!' => 'Μη υποστηριζόμενο νόμισμα \'%s\'!',
+      'Unable to load subscription with PHID "%s".' => 'Αποτυχία φόρτωσης συνδρομής με PHID "%s".',
+      'The email can be no longer than %s characters.' => 'Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν μπορεί να είναι μεγαλύτερη από %s χαρακτήρες.',
+      'All Charges' => 'Όλες οι χρεώσεις',
+      'Payments are processed securely by Stripe.' => 'Οι πληρωμές επεξεργάζονται με ασφάλεια από το Stripe.',
+      'No email address set' => 'Δεν έχει οριστεί διεύθυνση ηλεκτρονικού ταχυδρομείου.',
+      'Set merchant managers.' => 'Ορισμός διαχειριστών εμπόρου.',
+      '%s created this account.' => 'Ο %s δημιούργησε το λογαριασμό.',
+      'Add New Payment Method' => 'Προσθήκη νέας μεθόδου πληρωμής',
+      'Unknown cart status "%s"!' => 'Άγνωστη κατάσταση καλαθιού "%s"!',
+      'Phortune Orders' => 'Παραγγελίες Phortune',
+      'Incomplete Cart' => 'Ανολοκλήρωτο Καλάθι',
+      'Accounts' => 'Λογαριασμοί',
+      'Merchants' => 'Έμποροι',
+      'Hold' => 'Κράτημα',
+      'Price' => 'Τιμή',
+      'Paypal API Password' => 'Κωδικός API Paypal',
+      'Account name.' => 'Όνομα λογαριασμού.',
+      'Merchant description.' => 'Περιγραφή εμπόρου.',
+      'Cart' => 'Καλάθι',
+      'PAY NOW' => 'Πληρωμή τώρα',
+      'Quantity' => 'Ποσότητα',
+      'View All Charges' => 'Προβολή όλων των χρεώσεων',
+      'Live Mode' => 'Ζωντανή λειτουργία',
+      'Order %d: %s' => 'Παραγγελία %s: %s',
+      'New account name.' => 'Νέο όνομα λογαριασμού.',
+      'Edit Merchant: %s' => 'Επεξεργασία εμπόρου: %s',
+      'Managers' => 'Διαχειριστές',
+      'Update Status' => 'Αλλαγή Κατάστασης',
+      'Add Manager' => 'Προσθήκη διαχειριστή',
+      'PayPal' => 'PayPal',
+    );
+  }
+
+}

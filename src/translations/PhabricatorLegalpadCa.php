@@ -9,16 +9,12 @@ final class PhabricatorLegalpadCa
 
   protected function getTranslations() {
     return array(
-      'The PHID of the document signed by this signature.' => 'El PHID del document signat amb aquesta signatura.',
       'All Signatures' => 'Totes les signatures',
       'Unverified Email' => 'Correu electrònic no verificat',
       'Create New Document' => 'Crea un document nou',
-      'Indicates if the signature is verified.' => 'Indica si es verifica la signatura.',
-      'The version of the document that was signed.' => 'La versió del document que es va signar.',
       'Type of signature required' => 'Tipus de signatura requerida',
       'Only administrators may change whether a document requires a signature.' => 'Només els administradors poden canviar si un document requereix una signatura.',
       'Signed At' => 'Signat a',
-      'The type of signature.' => 'El tipus de signatura.',
       'Signature Type' => 'Tipus de signatura',
       '%s updated the document signature type.' => '%s ha actualitzat el tipus de signatura del document.',
       '%s set the document %s to require signatures.' => '%s ha establert el document %s per requerir signatures.',
@@ -33,10 +29,12 @@ final class PhabricatorLegalpadCa
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s ha editat %s documents legals requerits, afegit %s: %s; suprimit %s: %s.',
       'Document Title.' => 'Títol del document.',
       'A valid email is required.' => 'Cal un correu electrònic vàlid.',
+      'Only documents with signature type "individual" may require signing to log in.' => 'Només els documents amb tipus de signatura "particular" poden requerir signar per utilitzar Phabricator.',
       'Unable to Verify Signature' => 'No es pot verificar la signatura',
       'Signed By' => 'Signat per',
       'Contact Email' => 'Correu electrònic del contacte',
       'Document Body' => 'Cos del document',
+      'The PHID of the signer' => 'El PHID del signant.',
       'Contact name is required.' => 'Cal un nom de contacte.',
       'No signatures match the query.' => 'No hi ha signatures que coincideixin amb la consulta.',
       'Interacting with Legalpad Documents' => 'Interacció amb documents Legalpad',
@@ -52,42 +50,23 @@ final class PhabricatorLegalpadCa
       'Email Contains' => 'El correu electrònic conté',
       'Signature Already Verified' => 'Signatura ja verificada',
       'You do not have permission to create new documents.' => 'No teniu permís per crear documents nous.',
-      '%s:
-    This email address was used to sign a Legalpad document in Phabricator:
-      %s
-    Please verify you own this email address and accept the agreement by clicking this link:
-      %s
-    Your signature is not valid until you complete this verification step.
-    You can review the document here:
-      %s
-    ' => '%s: 
-    Aquesta adreça de correu electrònic es va utilitzar per signar un document Legalpad a Phabricator: 
-      %s 
-    Verifiqueu que teniu aquesta adreça de correu electrònic i accepteu l\'acord fent clic en aquest enllaç: 
-      %s 
-    La teva signatura no és vàlida fins que completis aquest pas de verificació. 
-    Podeu revisar el document aquí: 
-      %s',
       'This document has an unknown signature type ("%s").' => 'Aquest document té un tipus de signatura desconegut (\'%s\').',
       '[Legalpad]' => '[Legalpad]',
+      'The name used by the signer.' => 'El nom del signant.',
       'Legalpad Documents' => 'Documents Legalpad',
       'Legalpad Signatures' => 'Signatures Legalpad',
       'You signed this document on %s.' => 'Heu signat aquest document el %s.',
       'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Gràcies per signar aquest document. Comproveu el vostre correu electrònic per verificar la vostra signatura i completeu el procés.',
-      'Create documents and track signatures. Can also be re-used in other areas of Phabricator, like CLAs.' => 'Creeu documents i feu un seguiment de signatures. També es pot tornar a utilitzar en altres àrees de Phabricator, com ara els CLA.',
       'Last Updated' => 'Última actualització',
       'Read information about legalpad documents.' => 'Llegiu informació sobre documents de legalpad.',
       'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => 'Aquest document requereix un signant corporatiu. Heu d\'iniciar la sessió per acceptar aquest document en nom d\'una empresa que representeu.',
-      'Search for signatures with an email that contains a given string.' => 'Cerca signatures amb un correu electrònic que conté una cadena determinada.',
-      'Search for signatures with a name that contains a given string.' => 'Cerqueu signatures amb un nom que contingui una cadena determinada.',
       'Not Signable' => 'No es pot signar',
       'Signed' => 'Signat',
       'The signature is now verified.' => 'Ara la signatura ja està verificada.',
       'Notes' => 'Notes',
+      'Signature Required to Log In' => 'Cal la signatura per utilitzar Phabricator',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'Veure/signar el document',
-      'Only documents with signature type "individual" may require signing to use Phabricator.' => 'Només els documents amb tipus de signatura "particular" poden requerir signar per utilitzar Phabricator.',
-      'The PHID of the signer.' => 'El PHID del signant.',
       'Mail receiver is not a LegalpadDocument!' => 'El receptor de correu no és un LegalpadDocument!',
       'You must choose a user to exempt.' => 'Heu de triar un usuari per eximir.',
       'You have already signed this document!' => 'Ja heu signat aquest document.',
@@ -101,13 +80,13 @@ final class PhabricatorLegalpadCa
       '%s updated the document text for %s.' => '%s ha actualitzat el text del document per %s.',
       '%s added %s required legal document(s) to %s: %s.' => '%s ha afegit %s documents legals requerits a %s: %s.',
       'Email field is required.' => 'Cal un camp de correu electrònic.',
+      'The email used by the signer.' => 'L\'adreça electrònica del signant.',
       'Exempt User' => 'Usuari exempt',
       'Company address is required.' => 'Cal una adreça de l\'empresa.',
       'Contact Name' => 'Nom de contacte',
       'DOCUMENT' => 'DOCUMENT',
       'Require document signatures: %s.' => 'Requereix les signatures del document: %s.',
       'Updated By' => 'Actualitzat per',
-      'The name of the signer.' => 'El nom del signant.',
       'The email address specified is associated with an account. Please login to that account and sign this document again.' => 'L\'adreça de correu especificada està associada amb un compte. Inicieu la sessió a aquest compte i torneu a signar aquest document.',
       '%s updated the document preamble.' => '%s ha actualitzat el preàmbul del document.',
       'Corporations' => 'Empreses',
@@ -127,7 +106,6 @@ final class PhabricatorLegalpadCa
       'The preamble of the document.' => 'El preàmbul del document.',
       '%s set the document to require signatures.' => '%s estableix que el document requereix signatures.',
       'Individuals' => 'Particulars',
-      'Signature Required to use Phabricator' => 'Cal la signatura per utilitzar Phabricator',
       'New document title.' => 'Nou títol de document.',
       'Configure creation and editing documents in Legalpad.' => 'Configura la creació i l\'edició de documents a Legalpad.',
       'Signature Verified' => 'Signatura verificada',
@@ -135,12 +113,10 @@ final class PhabricatorLegalpadCa
       '%s updated the document preamble for %s.' => '%s ha actualitzat el preàmbul del document per %s.',
       'Legalpad User Guide' => 'Guia de l\'usuari de Legalpad',
       '%s set the document to not require signatures.' => '%s ha establert el document per no requerir signatures.',
-      'The email address of the signer.' => 'L\'adreça electrònica del signant.',
       'You can not sign a document on behalf of a corporation unless you are logged in.' => 'No podeu signar un document en nom d’una corporació tret que hi hàgiu iniciat la sessió.',
       'Exemption By' => 'Exempció per',
       'Who Should Sign?' => 'Qui hauria de signar?',
       'Name field is required.' => 'Cal un camp del nom.',
-      'Read information about legalpad signatures.' => 'Llegiu informació sobre les signatures de legalpad.',
       'You do not need to sign this document. %s added a signature exemption for you on %s.' => 'No heu de signar aquest document. %s us ha afegit una exempció de signatura en %s.',
       'New document preamble.' => 'Nou preàmbul del document.',
       'Find Signatures' => 'Cercar signatures',

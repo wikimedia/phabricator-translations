@@ -38,7 +38,6 @@ final class PhabricatorUiexampleEn
       'Title / Text Story' => 'Title / Text Story',
       'Today, I went to the store. I bought an apple. I bought a banana. I bought a cherry. I paid for my goods, then I returned home.' => 'Today, I went to the store. I bought an apple. I bought a banana. I bought a cherry. I paid for my goods, then I returned home.',
       'PHUIObjectBoxView' => 'PHUIObjectBoxView',
-      'Phabricator User' => 'Phabricator User',
       'Lint (Warn)' => 'Lint (Warn)',
       'Invalid Token' => 'Invalid Token',
       'A major event with no title.' => 'A major event with no title.',
@@ -51,6 +50,35 @@ final class PhabricatorUiexampleEn
       'A modern description with lots of frills.' => 'A modern description with lots of frills.',
       'Reading is a common way to learn about things.' => 'Reading is a common way to learn about things.',
       'AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel' => 'AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel',
+      'This is some **remarkup text** using ~~exactly one style~~ //various styles//.
+      - Fruit
+        - Apple
+        - Banana
+        - Cherry
+      - Vegetables
+        1. Carrot
+        2. Celery
+    NOTE: This is a note.
+    (NOTE) This is also a note.
+    WARNING: This is a warning.
+    (WARNING) This is also a warning.
+    IMPORTANT: This is not really important.
+    (IMPORTANT) This isn\'t important either.
+    ' => 'This is some **remarkup text** using ~~exactly one style~~ //various styles//.
+      - Fruit
+        - Apple
+        - Banana
+        - Cherry
+      - Vegetables
+        1. Carrot
+        2. Celery
+    NOTE: This is a note.
+    (NOTE) This is also a note.
+    WARNING: This is a warning.
+    (WARNING) This is also a warning.
+    IMPORTANT: This is not really important.
+    (IMPORTANT) This isn\'t important either.
+    ',
       'Setup Issue' => 'Setup Issue',
       'Top Navigation' => 'Top Navigation',
       'Unit (3/5)' => 'Unit (3/5)',
@@ -70,14 +98,13 @@ final class PhabricatorUiexampleEn
       'Property List' => 'Property List',
       'Cardigan' => 'Cardigan',
       'Easter' => 'Easter',
-      'Builtin Project Images that ship with Phabricator.' => 'Builtin Project Images that ship with Phabricator.',
       'Task Master' => 'Task Master',
       'Minor Red Event' => 'Minor Red Event',
       'Wrote code that was acceptable' => 'Wrote code that was acceptable',
       '%s bought a cherry.' => '%s bought a cherry.',
+      'Direct Award' => 'Direct Award',
       'Funder' => 'Funder',
       'Send a Message' => 'Send a Message',
-      'Phacility High Command' => 'Phacility High Command',
       'agoat' => 'agoat',
       'Inline' => 'Inline',
       'Colors and Transforms' => 'Colors and Transforms',
@@ -89,7 +116,6 @@ final class PhabricatorUiexampleEn
       'Object Item List' => 'Object Item List',
       'Typeaheads' => 'Typeaheads',
       'Extras' => 'Extras',
-      'Direct Award (epriestley)' => 'Direct Award (epriestley)',
       'Feed Story' => 'Feed Story',
       '%s went to the store.' => '%s went to the store.',
       'Colors of the Rainbow' => 'Colors of the Rainbow',
@@ -118,6 +144,7 @@ final class PhabricatorUiexampleEn
       'The human cardiovascular system includes the heart, lungs, and some other parts; most of these parts are pretty squishy.' => 'The human cardiovascular system includes the heart, lungs, and some other parts; most of these parts are pretty squishy.',
       'PHUIBadgeMiniView' => 'PHUIBadgeMiniView',
       'It\'s a fancy or non-fancy box. Put stuff in it.' => 'It\'s a fancy or non-fancy box. Put stuff in it.',
+      'High Command' => 'High Command',
       'UIExamples' => 'UIExamples',
       'Buttons' => 'Buttons',
       'Emoji' => 'Emoji',
@@ -148,6 +175,7 @@ final class PhabricatorUiexampleEn
       'Launch Instance' => 'Launch Instance',
       'Writing code is much more fun with friends!' => 'Writing code is much more fun with friends!',
       'Closed over 100 tasks' => 'Closed over 100 tasks',
+      'Improve Mobile Experience' => 'Improve Mobile Experience',
       'Easily render icons or images with links and sprites.' => 'Easily render icons or images with links and sprites.',
       'Status Story' => 'Status Story',
       'Zucchini' => 'Zucchini',
@@ -207,6 +235,7 @@ final class PhabricatorUiexampleEn
       'Joe' => 'Joe',
       'Warm!' => 'Warm!',
       'Remarkup Example' => 'Remarkup Example',
+      'Lead Developer of Software' => 'Lead Developer of Software',
       'Shades' => 'Shades',
       'Maybe this is what you\'re likely here for.' => 'Maybe this is what you\'re likely here for.',
       'General' => 'General',
@@ -215,7 +244,6 @@ final class PhabricatorUiexampleEn
       'Such Wow' => 'Such Wow',
       'Royal Flush!' => 'Royal Flush!',
       'Smith' => 'Smith',
-      'Improve Mobile Experience for Phabricator' => 'Improve Mobile Experience for Phabricator',
       'Such Fancy, Nice Box, Many Corners.' => 'Such Fancy, Nice Box, Many Corners.',
       'Environmental!' => 'Environmental!',
       'Unstyled' => 'Unstyled',
@@ -266,7 +294,6 @@ final class PhabricatorUiexampleEn
       'Show Notification' => 'Show Notification',
       'PHUIX' => 'PHUIX',
       'This event is red!' => 'This event is red!',
-      'Lead Developer of Phabricator' => 'Lead Developer of Phabricator',
       'A panel with strong tendencies for inciting ACTION!' => 'A panel with strong tendencies for inciting ACTION!',
       'Postal Code' => 'Postal Code',
       'Big Info View' => 'Big Info View',
@@ -279,6 +306,7 @@ final class PhabricatorUiexampleEn
       'Pinboard Image Event' => 'Pinboard Image Event',
       'Highlighted' => 'Highlighted',
       'Use %s to comments and transactions.' => 'Use %s to comments and transactions.',
+      'Builtin Project Images.' => 'Builtin Project Images.',
       'Bleh!' => 'Bleh!',
       'This is a sample of some text.' => 'This is a sample of some text.',
       'Rainbow Bars' => 'Rainbow Bars',

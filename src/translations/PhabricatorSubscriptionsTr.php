@@ -50,7 +50,7 @@ final class PhabricatorSubscriptionsTr
       'This object is not subscribable.' => 'Bu nesne abone değil.',
       'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
-    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => 'Nesneye bir veya daha fazla abone ekleyin. Kullanıcı adlarını vererek kullanıcılar ekleyebilir veya karelerini ekleyerek projeler ekleyebilirsiniz. Örneğin, kullanıcıyı "alincoln" ve "#ios" etiketli projeyi abone olarak eklemek için `%s` kullanın.
+    Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => 'Nesneye bir veya daha fazla abone ekleyin. Kullanıcı adlarını vererek kullanıcılar ekleyebilir veya karelerini ekleyerek projeler ekleyebilirsiniz. Örneğin, kullanıcıyı "alincoln" ve "#ios" etiketli projeyi abone olarak eklemek için `%s` kullanın.
     Geçersiz veya tanınmayan aboneler dikkate alınmaz. Aboneler belirtmezseniz bu komutun bir etkisi olmaz.
     Phabricator hangi hesapların e-posta adreslerine bağlı olduğunu bilirse, e-postada CC\'de olan kullanıcılar da otomatik olarak abone olur.',
       'Add rule author as subscriber.' => 'Abone olarak kural yazarı ekleyin.',

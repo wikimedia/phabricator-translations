@@ -14,7 +14,6 @@ final class PhabricatorLegalpadTr
       'Create New Document' => 'Yeni Belge Oluştur',
       'Type of signature required' => 'Gerekli imza türü',
       'Signed At' => 'İmzalı',
-      'The type of signature.' => 'İmzanın türü.',
       'Signature Type' => 'İmza Türü',
       '%s updated the document signature type.' => '%s belge imza türünü güncelledi.',
       '%s set the document %s to require signatures.' => '%s, %s belgesini imza gerektirecek şekilde ayarladı.',
@@ -29,6 +28,7 @@ final class PhabricatorLegalpadTr
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s, %s gerekli yasa belgeyi düzenledi, %s eklendi: %s; %s kaldırıldı: %s.',
       'Document Title.' => 'Belge Başlığı.',
       'A valid email is required.' => 'Geçerli bir e-posta gerekli.',
+      'Only documents with signature type "individual" may require signing to log in.' => 'Yalnızca "bireysel" imza türüne sahip belgeler, Phabricator\'ı kullanmak için imza gerektirebilir.',
       'Unable to Verify Signature' => 'İmza Doğrulanamadı',
       'Signed By' => 'İmzalayan',
       'Contact Email' => 'İletişim E-posta',
@@ -48,38 +48,22 @@ final class PhabricatorLegalpadTr
       'Email Contains' => 'E-posta İçeriyor',
       'Signature Already Verified' => 'İmza Zaten Doğrulandı',
       'You do not have permission to create new documents.' => 'Yeni belgeler oluşturma izniniz yok.',
-      '%s:
-    This email address was used to sign a Legalpad document in Phabricator:
-      %s
-    Please verify you own this email address and accept the agreement by clicking this link:
-      %s
-    Your signature is not valid until you complete this verification step.
-    You can review the document here:
-      %s
-    ' => '%s:
-    Bu e-posta adresi, Phabricator\'da bir Legalpad belgesini imzalamak için kullanıldı:
-      %s
-    Lütfen bu e-posta adresinin size ait olduğunu doğrulayın ve bu bağlantıyı tıklayarak sözleşmeyi kabul edin:
-      %s
-    Bu doğrulama adımını tamamlayana kadar imzanız geçerli değildir.
-    Belgeyi buradan inceleyebilirsiniz:
-      %s',
       'This document has an unknown signature type ("%s").' => 'Bu belgede bilinmeyen bir imza türü var ("%s").',
       '[Legalpad]' => '[Legalpad]',
+      'The name used by the signer.' => 'İmzalayanın adı.',
       'Legalpad Documents' => 'Legalpad Belgeleri',
       'Legalpad Signatures' => 'Legalpad İmzaları',
       'You signed this document on %s.' => 'Bu dokümanı %s imzaladınız.',
       'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Bu belgeyi imzaladığınız için teşekkür ederiz. İmzanızı doğrulamak ve işlemi tamamlamak için lütfen e-postanızı kontrol edin.',
-      'Create documents and track signatures. Can also be re-used in other areas of Phabricator, like CLAs.' => 'Belgeler oluşturun ve imzaları izleyin. CLA\'lar gibi diğer Phabricator alanlarında da tekrar kullanılabilir.',
       'Last Updated' => 'Son Güncelleme',
       'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => 'Bu belge kurumsal bir imza sahibi gerektiriyor. Temsil ettiğiniz bir şirket adına bu belgeyi kabul etmek için giriş yapmalısınız.',
       'Not Signable' => 'İmzalanamaz',
       'Signed' => 'İmzalanmış',
       'The signature is now verified.' => 'İmza şimdi doğrulandı.',
       'Notes' => 'Notlar',
+      'Signature Required to Log In' => 'Phabricator Kullanmak İçin Gerekli İmza',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'Belgeyi Görüntüle/İmzala',
-      'Only documents with signature type "individual" may require signing to use Phabricator.' => 'Yalnızca "bireysel" imza türüne sahip belgeler, Phabricator\'ı kullanmak için imza gerektirebilir.',
       'Mail receiver is not a LegalpadDocument!' => 'Posta alıcısı LegalpadDocument değil!',
       'You must choose a user to exempt.' => 'Muaf tutulacak bir kullanıcı seçmelisiniz.',
       'You have already signed this document!' => 'Bu belgeyi zaten imzaladınız!',
@@ -93,13 +77,13 @@ final class PhabricatorLegalpadTr
       '%s updated the document text for %s.' => '%s, belge metnini %s için güncelledi.',
       '%s added %s required legal document(s) to %s: %s.' => '%s, %s gerekli yasal belgeyi %s\'e ekledi: %s.',
       'Email field is required.' => 'E-posta alanı zorunludur.',
+      'The email used by the signer.' => 'İmzalayanın eposta adresi.',
       'Exempt User' => 'Muaf Kullanıcı',
       'Company address is required.' => 'Şirket adresi gerekli.',
       'Contact Name' => 'İletişim Adı',
       'DOCUMENT' => 'BELGE',
       'Require document signatures: %s.' => 'Belge imzaları iste: %s.',
       'Updated By' => 'Güncelleyen',
-      'The name of the signer.' => 'İmzalayanın adı.',
       'The email address specified is associated with an account. Please login to that account and sign this document again.' => 'Belirtilen e-posta adresi bir hesapla ilişkili. Lütfen bu hesaba giriş yapın ve bu belgeyi tekrar imzalayın.',
       '%s updated the document preamble.' => '%s, belge giriş sayfasını güncelledi.',
       'Corporations' => 'Şirketler',
@@ -119,7 +103,6 @@ final class PhabricatorLegalpadTr
       'The preamble of the document.' => 'Belgenin başlangıç sayfası.',
       '%s set the document to require signatures.' => '%s belgeyi imza gerektirecek şekilde ayarlardı.',
       'Individuals' => 'Bireyler',
-      'Signature Required to use Phabricator' => 'Phabricator Kullanmak İçin Gerekli İmza',
       'New document title.' => 'Yeni belge başlığı.',
       'Configure creation and editing documents in Legalpad.' => 'Legalpad\'de belge oluşturma ve düzenleme işlemini yapılandırın.',
       'Signature Verified' => 'İmza Doğrulandı',
@@ -127,7 +110,6 @@ final class PhabricatorLegalpadTr
       '%s updated the document preamble for %s.' => '%s, başlangıçtaki belgeyi %s güncelledi.',
       'Legalpad User Guide' => 'Legalpad Kullanıcı Kılavuzu',
       '%s set the document to not require signatures.' => '%s, belgeyi imza gerektirmeyecek şekilde ayarlardı.',
-      'The email address of the signer.' => 'İmzalayanın eposta adresi.',
       'You can not sign a document on behalf of a corporation unless you are logged in.' => 'Giriş yapmadığınız sürece bir şirket adına bir belge imzalayamazsınız.',
       'Exemption By' => 'Muafiyet Eden',
       'Who Should Sign?' => 'Kim İmzalamalı?',

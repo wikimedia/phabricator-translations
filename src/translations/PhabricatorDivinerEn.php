@@ -31,6 +31,15 @@ final class PhabricatorDivinerEn
       'Read More Documentation' => 'Read More Documentation',
       'Specify a Diviner book configuration file with %s.' => 'Specify a Diviner book configuration file with %s.',
       'Creating %s document(s).' => 'Creating %s document(s).',
+      '(NOTE) **Looking for documentation?** If you\'re looking for help and information about %s, you can [[https://secure.phabricator.com/diviner/ | browse the public %s documentation]] on the live site.
+    Diviner is the documentation generator used to build this documentation.
+    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the documentation and have it appear here, run this command:
+      %s
+    ' => '(NOTE) **Looking for documentation?** If you\'re looking for help and information about %s, you can [[https://secure.phabricator.com/diviner/ | browse the public %s documentation]] on the live site.
+    Diviner is the documentation generator used to build this documentation.
+    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the documentation and have it appear here, run this command:
+      %s
+    ',
       'Diviner' => 'Diviner',
       'Specify a subclass of %s.' => 'Specify a subclass of %s.',
       'Atom names must not be in the form \'%s\'. This pattern is reserved for disambiguating atoms with similar names.' => 'Atom names must not be in the form \'%s\'. This pattern is reserved for disambiguating atoms with similar names.',
@@ -90,15 +99,6 @@ final class PhabricatorDivinerEn
       'Found %s unatomized, uncached file(s).' => 'Found %s unatomized, uncached file(s).',
       'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.' => 'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.',
       'Build atoms from source.' => 'Build atoms from source.',
-      '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
-    Diviner is the documentation generator used to build the Phabricator documentation.
-    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
-      %s
-    ' => '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
-    Diviner is the documentation generator used to build the Phabricator documentation.
-    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
-      %s
-    ',
       'This function is not documented.' => 'This function is not documented.',
       'Find' => 'Find',
       'Other Methods' => 'Other Methods',

@@ -15,7 +15,7 @@ final class PhabricatorFactFrFR
       'Manually invoke fact analyzers.' => 'Invoquer manuellement des analyseurs de faits.',
       'Argument "%s" (in position "%s") to function "%s" is invalid: %s' => 'L’argument « %s » (en position « %s ») de la fonction « %s » n’est pas valide : %s',
       'Value for "fact-key" argument must be a string, got %s.' => 'La valeur de l’argument « fait-clé » doit être une chaîne ; obtenu : %s.',
-      'No fact engines support generating facts for this object.' => 'Aucun moteur de faits ne supporte la génération de faits pour cet objet.',
+      'No fact engines support generating facts for this object.' => 'Aucun moteur de faits ne prend en charge la génération de faits pour cet objet.',
       'Y' => 'Y',
       'Value for "function" argument must be a list with a function name; got an empty list.' => 'La valeur de l’argument « fonction » doit être une liste avec un nom de fonction ; une liste vite a été obtenue.',
       'Chart function argument type "%s" is unknown. Valid types are: %s.' => 'Le type d’argument « %s » de fonction de graphique est inconnu. Les types valides sont : %s.',

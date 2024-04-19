@@ -9,6 +9,7 @@ final class PhabricatorOauthserverEl
 
   protected function getTranslations() {
     return array(
+      'Log In with %s' => 'Σύνδεση με το Phabricator',
       'Enable OAuth Application' => 'Ενεργοποίηση εφαρμογής OAuth',
       'Server Error' => 'Σφάλμα διακομιστή',
       'OAuth application "%s" has been disabled.' => 'Η εφαρμογή του OAuth "%s" έχει απενεργοποιηθεί.',
@@ -27,7 +28,6 @@ final class PhabricatorOauthserverEl
       'Scope' => 'Πεδίο εφαρμογής',
       'Application %d' => 'Εφαρμογή %s',
       'Enable Application' => 'Ενεργοποίηση εφαρμογής',
-      'Log In with Phabricator' => 'Σύνδεση με το Phabricator',
       'OAuth Clients' => 'Πελάτες OAuth',
       'The name of the OAuth application.' => 'Το όνομα της εφαρμογής OAuth.',
       'OAuth: %s' => 'OAuth: %s',

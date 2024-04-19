@@ -9,8 +9,8 @@ final class PhabricatorRemarkupUk
 
   protected function getTranslations() {
     return array(
-      'Process text through remarkup in Phabricator context.' => 'Форматувати текст згідно з особливостями Phabricator.',
       'Invalid markup engine.' => 'Некоректний рушій розмітки.',
+      'Process text through remarkup.' => 'Обробити текст із допомогою розширеної розмітки.',
       'Content may not be empty.' => 'Вміст не може бути порожнім.',
     );
   }

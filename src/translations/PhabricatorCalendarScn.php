@@ -1,0 +1,82 @@
+<?php
+
+final class PhabricatorCalendarScn
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'scn';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'No events found.' => 'Nuddu eventu attruvatu.',
+      'New event icon.' => 'Cona nova d\'eventu.',
+      'Change the event icon.' => 'Cancia la cona d\'eventu.',
+      'Read information about events.' => 'Leggi nfurmazzioni supra li eventi.',
+      'ICS File' => 'File ICS',
+      'Event icon.' => 'Cona di l\'eventu',
+      'Cancel this event?' => 'Cancillari st\'eventu?',
+      'Weekly' => 'Simanerri',
+      'Imported Events' => 'Eventi mportati',
+      '.ics URI' => 'URI d\'.ics',
+      'Travel' => 'Viaggiu',
+      'Cancel the event.' => 'Annulla l\'eventu.',
+      'Import %d %s' => 'Mporta %s %s',
+      'Edit Event' => 'Cancia l\'eventu',
+      'Original Event' => 'Eventu orìgginali',
+      'Import %d' => 'Mporta %s',
+      'Cancelled Events' => 'Eventi annullati',
+      'New event name.' => 'Nomu novu d\'eventu.',
+      'The event description.' => 'La discrizzioni di l\'eventu.',
+      'Import Events' => 'Mporta eventi',
+      '.ics File' => 'File .ics',
+      '[Calendar]' => '[Calannariu]',
+      'URI to import.' => 'URI da mpurtari.',
+      'Name of the event.' => 'Nomu di l\'eventu.',
+      'Create Event' => 'Crea eventu',
+      '%s imported an ICS file.' => '%s mportau nu file ICS.',
+      'New import name.' => 'Nomu novu di mpurtazzioni.',
+      'Name of the import.' => 'Nomu dâ mpurtazzioni.',
+      '%s cancelled %s.' => '%s annullau %s.',
+      'Sequence "%s" is not valid for event!' => 'La siquenza "%s" nun è vàlida pi l\'eventu!',
+      'ICS file to import.' => 'File ICS da mpurtari.',
+      'Yearly' => 'Annuali',
+      'Create Import' => 'Crea mpurtazzioni',
+      'Import Type' => 'Tipu di mpurtazzioni',
+      'All Events' => 'Tutti li eventi',
+      'ICS URI' => 'URI d\'ICS',
+      'Cancel Event' => 'Annulla eventu',
+      'Choose Import Type' => 'Scegghi tipu di mpurtazzioni',
+      'Unknown Message' => 'Missaggiu scanusciutu',
+      'Source URI' => 'URI surgenti',
+      'RSVP' => 'RSVP',
+      'EVENT DETAIL' => 'DITTAGGHIU DI L\'EVENTU',
+      'Holiday' => 'Vacanza',
+      'Create New Import' => 'Crea na mpurtazzioni nova',
+      'EVENT DESCRIPTION' => 'DISCRIZZIONI DI L\'EVENTU',
+      'Edit Only This Event' => 'Cancia sulu st\'eventu',
+      'New URI.' => 'URI nova.',
+      'Cancel Only This Event' => 'Annulla sulu st\'eventu',
+      'The name of the event.' => 'Lu nomu di l\'eventu.',
+      'Edit Import: %s' => 'Cancia mpurtazzioni: %s',
+      '%s created this import.' => '%s criau sta mpurtazzioni.',
+      'Update the event description.' => 'Aggiorna la discrizzioni di l\'eventu.',
+      'ICS File "%s"' => 'File ICS "%s"',
+      'ICS: %s' => 'ICS: %s',
+      'Import .ics File' => 'Mporta file .ics',
+      'Yearly event.' => 'Eventu annuali.',
+      'Monthly' => 'Minsili',
+      'New event description.' => 'Discrizzioni nova di l\'eventu.',
+      'All Imports' => 'Tutti li mpurtazzioni',
+      'Source File' => 'File surgenti',
+      'Log Messages' => 'Missaggi dû riggistru',
+      '%s cancelled this event.' => '%s annullau st\'eventu.',
+      'Import .ics URI' => 'Mporta l\'URI .ics',
+      '%s - %s' => '%s - %s',
+      'CHANGES TO EVENT DESCRIPTION' => 'CANCIAMENTI DÂ DISCRIZZIONI DI L\'EVENTU',
+      'Imports' => 'Mpurtazzioni',
+      'Unknown Message "%s"' => 'Missaggiu "%s" scanusciutu',
+    );
+  }
+
+}

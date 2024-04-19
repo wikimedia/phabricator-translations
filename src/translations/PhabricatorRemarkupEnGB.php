@@ -9,8 +9,8 @@ final class PhabricatorRemarkupEnGB
 
   protected function getTranslations() {
     return array(
-      'Process text through remarkup in Phabricator context.' => 'Process text through remarkup in Phabricator context.',
       'Invalid markup engine.' => 'Invalid markup engine.',
+      'Process text through remarkup.' => 'Process text through remarkup in Phabricator context.',
       'Content may not be empty.' => 'Content may not be empty.',
     );
   }

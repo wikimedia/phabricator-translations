@@ -16,7 +16,6 @@ final class PhabricatorUiexampleKoKR
       'Setup errors and warnings.' => '설치 오류와 경고.',
       'Status Tabs' => '상태 탭',
       'PHUIObjectBoxView' => 'PHUIObjectBoxView',
-      'Phabricator User' => '파브리케이터 사용자',
       'Invalid Token' => '유효하지 않은 토큰',
       'Color \'%s\'' => '색 \'%s\'',
       'Reading is a common way to learn about things.' => '독서는 사물에 관해 배우는 일반적인 방법입니다.',

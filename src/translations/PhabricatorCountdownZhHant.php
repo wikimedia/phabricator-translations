@@ -20,7 +20,7 @@ final class PhabricatorCountdownZhHant
       'Change the countdown description.' => '更改倒數描述。',
       'Create a Countdown' => '建立倒數',
       'Utilize the full capabilities of your ALU.' => '利用您的 ALU 完整功能。',
-      'Launched on %s' => '實行於%s',
+      'Launched on %s' => '在%s實行',
       'Countdown titles must not be longer than %s character(s).' => '倒數標題不可超過 %s 個字元。',
       'No countdowns found.' => '查無倒數',
       'Upcoming' => '即將到來',

@@ -19,13 +19,13 @@ final class PhabricatorAuthTr
     Genel olarak, bu seçeneği yalnızca ssh-keygen\'in bozulduğu ve düzeltmenin zor olduğu bir geliştirme ortamında kullanmalısınız ve yalnızca riskleri anladığınızdan eminseniz. Kendiniz oluşturmadığınız bir PKCS8 dosyasını hiçbir zaman önbelleğe almamalısınız.',
       'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => 'Bu sağlayıcı ("%s") zaten var ve birden fazla örneği ekleyemezsiniz. Mevcut sağlayıcıyı düzenleyebilir veya farklı bir sağlayıcı seçebilirsiniz.',
       'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => 'Bir Duo faktörü eklemek için, önce Duo uygulamasını indirip telefonunuza yükleyin. Uygulamayı başlattıktan ve kurulumu gerçekleştirmeye hazır olduğunuzda, devam düğmesini tıklayın.',
-      'Specify an OAuth client id with %s.' => '%s ile bir OAuth istemci kimliği belirtin.',
       'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => 'Girdiğiniz doğrulama kodu yanlış veya e-posta adresi kaldırılmış veya e-posta adresi başka bir kullanıcıya ait. E-postadaki bağlantıyı doğru bir şekilde izlediğinizden ve e-posta adresiyle ilişkili kullanıcı hesabıyla oturum açtığınızdan emin olun.',
       'Edit Contact Number' => 'Kişi Numarasını Düzenle',
       'Passwords' => 'Parolalar',
       'Algorithm' => 'Algoritma',
       'You must specify the username of the account to recover.' => 'Kurtarılacak hesabın kullanıcı adını belirtmelisiniz.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'Yetkilendirme sağlayıcı yapılandırması kilitlenmiş, ve açılmadan değiştirilemez. Ayrıntılar için %s yapılandırma ayarına bakın.',
+      'Server name must contain only lowercase letters, digits, and periods.' => 'Phabricator örnek adı yalnızca küçük harf, rakam ve nokta içermelidir.',
       'Revoke Tokens' => 'Anahtarları İptal Et',
       'There are too many configured default registration providers.' => 'Çok fazla yapılandırılmış varsayılan kayıt sağlayıcısı var.',
       'Unlink "%s" Account?' => '"%s" hesabının bağlantısı kaldırılsın mı?',
@@ -47,7 +47,7 @@ final class PhabricatorAuthTr
     **Tüketici Ekle** seçeneğini tıklayın ve yeni bir uygulama oluşturun.
     Yapılandırmayı tamamladıktan sonra **Anahtar** ve **Gizli** tuşlarını yukarıdaki alanlara kopyalayın.',
       'The account you are attempting to register or link is already linked to another user.' => 'Kaydetmeye veya bağlantı oluşturmaya çalıştığınız hesap zaten başka bir kullanıcıya bağlı.',
-      'The email address associated with this external account ("%s") is not a valid email address and can not be used to register a Phabricator account. Choose a different, valid address.' => 'Bu harici hesapla ilişkilendirilmiş e-posta adresi ("%s") geçerli bir e-posta adresi değil ve bir Phabricator hesabını kaydetmek için kullanılamaz. Farklı, geçerli bir adres seçin.',
+      'Base URI should include protocol (like "%s").' => 'Phabricator temel URI\'si protokol içermelidir ("%s" gibi).',
       'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Bir hesaba zaten eklenmiş olan doğrulanmamış bir e-posta adresini doğrulayın. Bu aynı zamanda önceden doğrulanmış adresler için olay kancalarını yeniden yürütür.',
       'Must Verify Email' => 'E-posta Doğrulanmalıdır',
       'Expected "newResultForPrompt()" to return an object of class "%s", but it returned something else ("%s"; in "%s").' => '"newResultForPrompt()" sonucunda "%s" sınıfında bir nesne döndürülmesi bekleniyordu, ancak başka bir şey döndürüldü ("%s"; "%s" içinde).',
@@ -56,15 +56,14 @@ final class PhabricatorAuthTr
       'Edit MFA Provider' => 'MFA Sağlayıcısını Düzenle',
       'SSH Key Type' => 'SSH Anahtar Türü',
       '%s enabled auto login.' => '%s etkin otomatik giriş.',
-      'The email address ("%s") associated with the external account is already in use by an existing Phabricator account. Multiple Phabricator accounts may not have the same email address, so you can not use this email address to register a new Phabricator account.' => 'Harici hesapla ilişkilendirilmiş e-posta adresi ("%s") mevcut bir Phabricator hesabı tarafından kullanılıyor. Birden çok Phabricator hesabı aynı e-posta adresine sahip olmayabilir, bu nedenle yeni bir Phabricator hesabı kaydetmek için bu e-posta adresini kullanamazsınız.',
+      'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:' => 'Kaydolmaya çalıştığınız hesabın geçersiz bir e-posta adresi (%s) var. Bu Phabricator yüklemesi yalnızca belirli e-posta adresleriyle kayda izin verir:',
       'Invalid OAuth Access Token' => 'Geçersiz OAuth Erişim Anahtarı',
       'Create Auth Message' => 'Yetkilendirme Mesajı Oluştur',
       'Verify Email' => 'E-postayı Doğrula',
       'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Belirtilen nesne için kimlik bilgilerini iptal et. Bir kullanıcının kimlik bilgilerini iptal etmek için "@kullanıcıadı" kullanın.',
       'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Hangi kullanıcının faktörleri çıkaracağını belirtmek için "--user <kullanıcı adı>" veya tüm kullanıcıların faktörlerini ayırmak için "--all-users" kullanın.',
-      'Phabricator already trusts OAuth client "%s".' => 'Phabricator zaten "%s" OAuth istemcisine güveniyor.',
       'This factor recently issued a challenge which has expired. A new challenge can not be issued yet. Wait %s second(s) for the code to cycle, then try again.' => 'Bu faktör yakın zamanda sona eren bir zorluk yayınladı. Henüz yeni bir meydan okuma düzenlenemez. Kodun dönmesi için %s saniye bekleyin, ardından tekrar deneyin.',
-      'Phabricator will skip email verification for accounts registered through this provider.' => 'Phabricator, bu sağlayıcı aracılığıyla kayıtlı hesaplar için e-posta doğrulamasını atlayacaktır.',
+      'This is a terse test text message (from "%s").' => 'Bu Phabricator\'dan (%s) kısa bir test mesajıdır.',
       'Path to public keyfile.' => 'Genel anahtar dosyasının yolu.',
       'Strip all factors, regardless of type.' => 'Türüne bakılmaksızın tüm faktörleri soyun.',
       'Enable the contact number %s?' => '%s irtibat numarası etkinleştirilsin mi?',
@@ -72,9 +71,9 @@ final class PhabricatorAuthTr
       'Sign this transaction group with MFA.' => 'Bu işlem grubunu MFA ile imzalayın.',
       '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => '(Bazı simge türleri iptal edilemez ve süresi dolmuş anahtarları iptal edemezsiniz.)',
       'You have not configured any multi-factor providers yet.' => 'Henüz çok faktörlü sağlayıcı yapılandırmadınız.',
-      'The external account ("%s") you just authenticated with is not configured to allow account linking on this Phabricator install. An administrator may have recently disabled it.' => 'Kimlik doğrulaması yaptığınız harici hesap ("%s"), bu Phabricator yüklemesinde hesap bağlantısına izin verecek şekilde yapılandırılmamış. Bir yönetici yakın zamanda devre dışı bırakmış olabilir.',
       'Unable to Log In' => 'Giriş Yapılamıyor',
-      'If you want to link an existing Phabricator account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Mevcut bir Phabricator hesabını bu harici hesaba bağlamak istiyorsanız devam etmeyin. Bunun yerine: mevcut hesabınıza giriş yapın, ardından "Ayarlar"\'a gidin ve "Harici Hesaplar" panelinde hesabı bağlayın.',
+      'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'Giriş yapmak için kullandığınız harici hesap ("%s") başka bir Phabricator kullanıcı hesabıyla zaten ilişkilendirilmiş. Diğer Phabricator hesabında oturum açın ve yeni bir Phabricator hesabına bağlamadan önce harici hesabın bağlantısını kaldırın.',
+      'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Phabricator\'ı kullanabilmeniz için hesabınıza çok faktörlü kimlik doğrulaması eklemeniz gerekir. Çok faktörlü kimlik doğrulama, saldırganların erişim kazanmasını veya hassas işlemler yapmasını zorlaştırarak hesabınızın güvenliğini sağlamaya yardımcı olur.',
       'Session has already signed required legalpad documents!' => 'Oturum zaten gerekli legalpad belgelerini imzaladı!',
       'On the plus side, that purple notification bubble will disappear.' => 'Artı tarafta, bu mor bildirim balonu kaybolacak.',
       'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'Bu hesap ("%s") web oturumu açamıyor, bu nedenle işlevsel bir kurtarma bağlantısı oluşturmak mümkün değil. Daemonlar ve posta listeleri gibi özel hesaplar web kullanıcı arayüzü üzerinden giriş yapamaz.',
@@ -83,13 +82,11 @@ final class PhabricatorAuthTr
       'Expected valid JSON response from Disqus account data request.' => 'Disqus hesabı veri isteğinden geçerli bir JSON cevabı bekleniyor.',
       'LDAP Port' => 'LDAP Bağlantı Noktası',
       'Really trust this PKCS8 keyfile?' => 'Bu PKCS8 anahtar dosyasına gerçekten güveniyor musunuz?',
-      'Use Phabricator Username' => 'Phabricator Kullanıcı Adını Kullan',
       '%s updated the OAuth consumer key for this provider from "%s" to "%s".' => '%s, bu sağlayıcı için OAuth tüketici anahtarını "%s" üzerinden "%s" güncelledi.',
       'Contact number is already in use.' => 'İletişim numarası zaten kullanılıyor.',
       'No such user "%s" to recover.' => 'Böyle bir "%s" kullanıcı kurtarılmıyor.',
       'Expected \'%s\' to be \'%s\'!' => '\'%s\' yerine \'%s\' bekleniyor!',
       'No public key was provided.' => 'Ortak anahtar sağlanmadı.',
-      'Phabricator base URI should include protocol (like "%s").' => 'Phabricator temel URI\'si protokol içermelidir ("%s" gibi).',
       'Log In with LDAP' => 'LDAP ile giriş yapın',
       'Expected verifier to finish OAuth handshake!' => 'Doğrulayıcının OAuth anlaşmasını bitirmesi bekleniyor!',
       'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => '"--yype" ile iptal edilecek kimlik bilgisi türünü veya "--everything" seçeneğini belirtin. Kullanılabilir kimlik bilgisi türlerini listelemek için "--list" kullanın.',
@@ -105,7 +102,6 @@ final class PhabricatorAuthTr
       '%s disabled email trust.' => '%s e-posta güveni devre dışı bıraktı.',
       'Too Short' => 'Çok Kısa',
       'You denied this request. Wait %s second(s) to try again.' => 'Bu isteği reddettiniz. Tekrar denemek için %s saniye bekleyin.',
-      'Phabricator Base URI' => 'Phabricator Temel URI\'si',
       'Guidance included in the mail message body when users request an email link to access their account.
     For installs with password authentication enabled, users access this workflow by using the "Forgot your password?" link on the login screen.
     For installs without password authentication enabled, users access this workflow by using the "Send a login link to your email address." link on the login screen. This workflow allows users to recover access to their account if there is an issue with an external login service.' => 'Kullanıcılar, hesaplarına erişmek için bir e-posta bağlantısı talep ettiğinde posta mesajı gövdesine dahil edilen rehberlik.
@@ -118,24 +114,37 @@ final class PhabricatorAuthTr
       'Allow users to log in using this provider. If you disable login, users can still use account integrations for this provider.' => 'Kullanıcıların bu sağlayıcıyı kullanarak oturum açmasına izin ver. Oturum açmayı devre dışı bırakırsanız, kullanıcılar bu sağlayıcı için hesap entegrasyonlarını kullanmaya devam edebilir.',
       'Allow Login:' => 'Girişe İzin Ver:',
       'Terminate Session?' => 'Oturumu Sonlandırılsın mı?',
+      '%s (%s) MFA Code: %s' => 'Phabricator (%s) MFA Kodu: %s',
       'Wrong Account' => 'Yanlış Hesap',
       'Refresh tokens for a given user.' => 'Belirli bir kullanıcı için anahtarları yenileyin.',
       'Status ("%s") is not a valid contact number status. Valid status constants are: %s.' => 'Durum ("%s") geçerli bir irtibat numarası durumu değil. Geçerli durum sabitleri: %s.',
       'Already Registered' => 'Zaten Kayıtlı',
-      'Allow users to register new Phabricator accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.' => 'Kullanıcıların bu sağlayıcıyı kullanarak yeni Phabricator hesapları kaydetmesine izin ver. Kaydı devre dışı bırakırsanız, kullanıcılar bu sağlayıcıyı mevcut hesaplara giriş yapmak için kullanabilir, ancak yeni hesap oluşturamazlar.',
       'SECURITY WARNING' => 'GÜVENLİK UYARI',
       'This public key is already associated with another user or device. Each key must unambiguously identify a single unique owner.' => 'Bu ortak anahtar zaten başka bir kullanıcı veya cihazla ilişkilendirilmiş. Her anahtarın tek bir benzersiz sahibi açıkça tanımlaması gerekir.',
+      'Allow users to unlink account credentials for this provider from existing accounts. If you disable this, accounts will be permanently bound to provider accounts.' => 'Kullanıcıların bu sağlayıcıya ilişkin hesap kimlik bilgilerinin mevcut Phabricator hesaplarıyla bağlantısını kaldırmasına izin ver. Bunu devre dışı bırakırsanız, Phabricator hesapları kalıcı olarak sağlayıcı hesaplarına bağlanır.',
       'When you need to authenticate, a request will be pushed to the Duo application on your phone.' => 'Kimlik doğrulamanız gerektiğinde, telefonunuzdaki Duo uygulamasına bir istek gönderilir.',
       'SMS is weak, and relatively easy for attackers to compromise. Strongly consider using a different MFA provider.' => 'SMS zayıftır ve saldırganların taviz vermesi nispeten kolaydır. Farklı bir MFA sağlayıcısı kullanmayı kesinlikle düşünün.',
       'Revoke credentials without prompting.' => 'Sormadan kimlik bilgilerini iptal et.',
       '%s set the OAuth consumer secret for this provider.' => '%s, bu sağlayıcı için OAuth tüketici sırrını belirledi.',
       'You are logged in as %s, but the email address (%s) you just clicked a link from is already associated with another account (%s). You can log out to switch accounts, or verify the address and attach it to your current account. Attach email address %s to user account %s?' => '%s olarak giriş yaptınız, ancak bir bağlantıyı tıkladığınız e-posta adresi (%s) başka bir hesapla (%s) zaten ilişkilendirilmiş. Hesap değiştirmek için oturumu kapatabilir veya adresi doğrulayıp mevcut hesabınıza ekleyebilirsiniz. %5$s kullanıcı hesabına %4$s e-posta adresi eklensin mi?',
+      'NOTE: Any user who can browse to this install\'s login page will be able to register an account. To restrict who can register an account, configure [[ %s | %s ]].' => 'NOT: Bu yüklemenin giriş sayfasına göz atabilen herhangi bir kullanıcı bir Phabricator hesabı kaydedebilir. Bir hesabı kimlerin kaydedebileceğini kısıtlamak için [[ %s | %s ]] yapılandırın.',
       'Auth Provider %d' => 'Kimlik Doğrulama Sağlayıcısı %s',
-      'Phabricator already does not trust OAuth client "%s".' => 'Phabricator zaten OAuth istemcisine "%s" güvenmiyor.',
       'Set Test Message' => 'Test Mesajını Ayarla',
       'Contact number is invalid: %s' => 'İletişim numarası geçersiz: %s',
+      'To configure WordPress.com OAuth, create a new WordPress.com Application here:
+    https://developer.wordpress.com/apps/new/.
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Redirect URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'WordPress.com OAuth\'u yapılandırmak için burada yeni bir WordPress.com Uygulaması oluşturun:
+    https://developer.wordpress.com/apps/new/.
+    Bu ayarları uygulamanızda kullanmalısınız:
+      - **URL:** Bunu protokolle tam alan adınıza ayarlayın. Bu Phabricator kurulumu için doğru değer: `%s`
+      - **URL Yönlendirmesi**: Bunu şu şekilde ayarlayın: `%s`
+    Bir uygulama oluşturduktan sonra, **Müşteri Kimliği** ve **Müşteri Sırrı** yukarıdaki alanlara kopyalayın.',
       'Username Attribute' => 'Kullanıcı Adı Özelliği',
       'Unlink Your Only Login Account?' => 'Tek Giriş Hesabınızın Bağlantısı Kaldırılsın mı?',
+      'Specify an OAuth client id with "--id".' => '%s ile bir OAuth istemci kimliği belirtin.',
       'Your account has no primary contact number.' => 'Hesabınızda birincil iletişim numarası yok.',
       'JIRA base URI is required.' => 'JIRA temel URI\'si gerekli.',
       'Config Locked' => 'Yapılandırma Kilitlendi',
@@ -143,7 +152,6 @@ final class PhabricatorAuthTr
       'Recover directly into a full session without requiring MFA or other login checks.' => 'MFA veya diğer oturum açma denetimleri gerektirmeden doğrudan tam oturumda kurtar.',
       'Always bind and search, even without a username and password.' => 'Kullanıcı adı ve parola olmadan bile her zaman bağlanın ve arayın.',
       'Skipping, provider is not enabled or does not exist.' => 'Atlanıyor, sağlayıcı etkin değil veya mevcut değil.',
-      'Allow users to link account credentials for this provider to existing Phabricator accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Kullanıcıların, bu sağlayıcı için hesap kimlik bilgilerini mevcut Phabricator hesaplarına bağlamasına izin verin. Bir sağlayıcıdan uzaklaşmaya çalışmadığınız ve kullanıcıların yeni hesap bağlantıları oluşturmasını durdurmak istemediğiniz sürece normalde bunu devre dışı bırakmak için bir neden yoktur.',
       'Does Not Allow Registration' => 'Kayda İzin Vermiyor',
       '/settings/panel/contact/' => '/settings/panel/contact/',
       'Path to corresponding PKCS8 key.' => 'Karşılık gelen PKCS8 anahtarının yolu.',
@@ -163,42 +171,17 @@ final class PhabricatorAuthTr
       'The response token for this challenge is invalid: response tokens may not include spaces.' => 'Bu sınama için yanıt anahtarı geçersiz: yanıt anahtarları boşluk içeremez.',
       'Anonymous Password' => 'Anonim Parola',
       'Use the button below to log in as: %s' => 'Şu şekilde oturum açmak için aşağıdaki düğmeyi kullanın: %s',
-      '**Step 2 of 2**: In this step, you will configure JIRA.
-    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
-      - **Server URL**: `%s`
-      - Then, click **Next**. On the second page:
-      - **Application Name**: `Phabricator`
-      - **Application Type**: `Generic Application`
-      - Then, click **Create**.
-    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
-      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
-      - **Consumer Name**: `Phabricator`
-      - **Public Key**: Set this to the "Public Key" value in the form above.
-      - **Consumer Callback URL**: `%s`
-    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Adım 2/2**: Bu adımda, JIRA\'yı yapılandıracaksınız.
-    **JIRA Uygulaması Oluştur**: JIRA\'da oturum açın ve **Yönetim**, ardından **Eklentiler**, ardından **Uygulama Bağlantıları** bölümüne gidin. **Uygulama Bağlantısı Ekle** etiketli düğmeyi tıklayın ve bir uygulama oluşturmak için bu ayarları kullanın:
-      - **URL sunucu**: `%s`
-      - Ardından, **Sonraki** düğmesine tıklayın. İkinci sayfada:
-      - **Uygulama Adı**: `Phabricator`
-      - **Uygulama Türü**: `Genel Uygulama`
-      - Ardından **Oluştur**\'u tıklayın.
-    **Uygulamanızı Yapılandırın**: Tabloda yeni oluşturduğunuz uygulamayı bulun ve **Eylemler** altındaki **Yapılandır** bağlantısını tıklayın. **Gelen Kimlik Doğrulama**\'yı seçin ve **OAuth** sekmesine tıklayın (varsayılan olarak seçilebilir). Ardından şu ayarları kullanın:
-      - **Tüketici Anahtarı**: Bunu, yukarıdaki formdaki "Tüketici Anahtarı" değerine ayarlayın.
-      - **Tüketici Adı**: `Phabricator`
-      - **Ortak Anahtar**: Bunu yukarıdaki formdaki "Ortak Anahtar" değerine ayarlayın.
-      - **Tüketici Geri Arama URL\'si**: `%s`
-    JIRA\'da **Kaydet**\'i tıklayın. Kimlik doğrulama şimdi yapılandırılmalı ve bu sağlayıcı doğru bir şekilde çalışmalıdır.',
       'Active OAuth Token' => 'Etkin OAuth Anahtarı',
       'An authorization request will be pushed to the Duo application on your phone.' => 'Telefonunuzdaki Duo uygulamasına bir yetkilendirme isteği gönderilir.',
       'Administrative approvals are disabled, so users who register will be able to use their accounts immediately. To enable approvals, configure %s.' => 'Yönetici onayları devre dışı bırakıldığından, kaydolan kullanıcılar hesaplarını hemen kullanabilirler. Onayları etkinleştirmek için %s yapılandırın.',
       'Google' => 'Google',
-      'Updated; Phabricator trusts OAuth client %s.' => 'Güncellenmiş; Phabricator, OAuth istemcisine %s güveniyor.',
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'Şu anda birincil iletişim numaranıza bağlı olan çok faktörlü kimlik doğrulamanız ("%s") var. Yeni bir birincil irtibat numarası atamadan önce bu kimlik doğrulama faktörünü kaldırmanız gerekir.',
       'Failed to decode OAuth access token response: %s' => 'OAuth erişim anahtarı yanıtı çözülemedi: %s',
       'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.' => 'İsteğe bağlı olarak, yeni bir hesap kaydederken "Gerçek Ad" alanını doldurmak için kullanılacak virgülle ayrılmış bir veya daha fazla özellik belirtin. Bu tamamen kozmetiktir ve giriş sürecini etkilemez, ancak kaydı biraz daha kolay hale getirebilir.',
       'You must enter an LDAP password.' => 'Bir LDAP parolası girmelisiniz.',
       'Generate New Keypair' => 'Yeni Anahtar Çifti Oluştur',
       'MFA Provider' => 'MFA Sağlayıcısı',
+      'The private key will not be retained.' => 'Phabricator özel anahtarın bir kopyasını saklamaz.',
       'MFA Provider %d' => 'MFA Sağlayıcısı %s',
       'This challenge already has a response token; you can not set a new response token.' => 'Bu meydan okuma zaten bir yanıt anahtarına sahiptir; yeni bir yanıt belirteci ayarlayamazsınız.',
       'Invite action is not a send action!' => 'Davet eylemi bir gönderme eylemi değildir!',
@@ -206,7 +189,6 @@ final class PhabricatorAuthTr
       'Edit Message' => 'Mesajı Düzenle',
       'user=%s, verified=%s, primary=%s, should_verify=%s' => 'user=%s, verified=%s, primary=%s, should_verify=%s',
       'Expected valid JSON response from Facebook account data request.' => 'Facebook hesap verisi isteğinden geçerli JSON yanıtı bekleniyor.',
-      'NOTE: Any user who can browse to this install\'s login page will be able to register a Phabricator account. To restrict who can register an account, configure [[ %s | %s ]].' => 'NOT: Bu yüklemenin giriş sayfasına göz atabilen herhangi bir kullanıcı bir Phabricator hesabı kaydedebilir. Bir hesabı kimlerin kaydedebileceğini kısıtlamak için [[ %s | %s ]] yapılandırın.',
       'Add Multi-Factor Auth' => 'Çok Faktörlü Kimlik Doğrulama Ekle',
       'The contact number.' => 'İrtibat numarası.',
       'You must enter an LDAP username.' => 'Bir LDAP kullanıcı adı girmelisiniz.',
@@ -215,6 +197,17 @@ final class PhabricatorAuthTr
       'The password and confirmation do not match.' => 'Parola ve onay uyuşmuyor.',
       'Reset action counters so a user can continue taking rate-limited actions.' => 'Bir kullanıcının hız sınırlı işlemler yapmaya devam edebilmesi için işlem sayaçlarını sıfırlayın.',
       '%s disabled this contact number.' => '%s bu kişi numarasını devre dışı bıraktı.',
+      'To configure GitHub OAuth, create a new GitHub Application here:
+    https://github.com/settings/applications/new
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Callback URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'GitHub OAuth\'u yapılandırmak için burada yeni bir GitHub Uygulaması oluşturun:
+    https://github.com/settings/applications/new
+    Bu ayarları uygulamanızda kullanmalısınız:
+      - **URL:** Bunu protokolle tam alan adınıza ayarlayın. Bu Phabricator kurulumu için doğru değer: `%s`
+      - **URL Geri Çağrısı**: Bunu şu şekilde ayarlayın: `%s`
+    Bir uygulama oluşturduktan sonra, **İstemci Kimliği** ve **İstemci Sırrı** yukarıdaki alanlara kopyalayın.',
       'No Providers Configured:' => 'Yapılandırılmış Sağlayıcı Yok:',
       'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Devam ederseniz yeni bir hesap oluşturacaksınız. Bu harici hesabı mevcut bir hesaba bağlayamazsınız.',
       'A text message with an authorization code will be sent to your primary contact number.' => 'Birincil irtibat numaranıza yetki kodu içeren bir kısa mesaj gönderilir.',
@@ -232,6 +225,7 @@ final class PhabricatorAuthTr
       'Connecting to LDAP...' => 'LDAP\'ye bağlanıyor ...',
       'Wait' => 'Bekle',
       'No matching SSH keys.' => 'Eşleşen SSH anahtarı yok.',
+      'Use %s Username' => 'Phabricator Kullanıcı Adını Kullan',
       'Authentication Error' => 'Doğrulama Hatası',
       'A keypair has been generated, and the public key has been added as a recognized key.' => 'Bir anahtar çifti oluşturuldu ve ortak anahtar, tanınan bir anahtar olarak eklendi.',
       '%s named this provider %s.' => '%s bu sağlayıcıyı %s seçti.',
@@ -239,8 +233,15 @@ final class PhabricatorAuthTr
       'Mail Body: Email Login' => 'Posta Gövdesi: E-posta Girişi',
       'Send a test message to %s?' => '%s bir test mesajı gönderilsin mi?',
       'Auth' => 'Auth',
+      'Confirm the link with this %s account. This account will be able to log in to your %s account.' => 'Bu %s hesapla bağlantıyı onaylayın. Bu hesap Phabricator hesabınıza giriş yapabilecektir.',
+      '**JIRA Instance Name**
+    Choose a permanent name for this instance of JIRA. This name is used internally to keep track of this particular instance of JIRA, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.' => '**JIRA Örnek Adı**
+    Bu JIRA örneği için kalıcı bir ad seçin. Phabricator, URL\'nin daha sonra değişmesi durumunda bu adı JIRA örneğini takip etmek için dahili olarak kullanır.
+    Küçük harfler, rakamlar ve nokta kullanın. Örneğin, `jira`, `jira.mycompany` veya `jira.engineering` mantıklı isimlerdir.',
       'Text Message (SMS)' => 'Kısa Mesaj (SMS)',
       '%s removed the name (%s) of this provider.' => '%s bu sağlayıcının adını (%s) kaldırdı.',
+      'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart everything, and try again.' => 'PHP \'openssl\' uzantısı kurulu değil. JIRA OAuth istekleri RSA-SHA1 imzalama algoritmasını kullandığından, bir JIRA kimlik doğrulama sağlayıcısı eklemek için bu uzantıyı yüklemeniz gerekir. \'Openssl\' uzantısını yükleyin, Phabricator\'ı yeniden başlatın ve tekrar deneyin.',
       'Provided public key is not properly formatted.' => 'Sağlanan ortak anahtar düzgün biçimlendirilmemiş.',
       'Multi-Factor Authentication is Misconfigured' => 'Çok Faktörlü Kimlik Doğrulaması Yanlış Yapılandırılmış',
       '(You can not terminate your current login session. To terminate it, log out.)' => '(Geçerli giriş oturumunuzu sonlandıramazsınız. Sonlandırmak için oturumu kapatın.)',
@@ -248,12 +249,13 @@ final class PhabricatorAuthTr
       'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Yeni yayınlanan MFA zorluklarının gelecekteki bir TTL\'si olmalıdır. Bu faktör kötü bir TTL ("%s") yayınladı. (Bir çağ yerine göreli bir zaman kullandınız mı?)',
       'Yes (Optional)' => 'Evet (İsteğe bağlı)',
       'Access token error: %s' => 'Erişim anahtarı hatası: %s',
+      'The URI where the OAuth server is installed. For example: %s' => 'Phabricator\'ın OAuth sunucusu örneğinin yüklendiği URI. Örneğin: %s',
       'Cached PKCS8 key for public key.' => 'Ortak anahtar için önbelleğe alınan PKCS8 anahtarı.',
       'Username Change Instructions' => 'Kullanıcı Adı Değiştime Talimatı',
       'Custom Enroll Message' => 'Özel Kayıt Mesajı',
+      'You must verify your email address to log in. You should have a new email message with verification instructions in your inbox (%s).' => 'Giriş yapmak için e-posta adresinizi doğrulamanız gerekir. Gelen kutunuzdaki doğrulama talimatlarını içeren (%s) Phabricator\'dan yeni bir e-posta mesajınız olmalıdır.',
       'Refreshing token, current token expires in %s seconds.' => 'Yenileme anahtarı, geçerli anahtarı süresi %s saniye.',
       'Allows Registration' => 'Kayıt İşlemine İzin Verir',
-      'You can link your Phabricator account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.' => 'Gelecekte daha kolay oturum açabilmeniz için Phabricator hesabınızı harici bir hesaba bağlayabilirsiniz. Devam etmek için aşağıdan bağlanacak bir hesap seçin. Hesabınızı bağlamamayı tercih ediyorsanız, bu adımı atlayabilirsiniz.',
       'Duo' => 'Duo',
       'Application ID is required.' => 'Uygulama kimliği gerekli.',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'Bu sağlayıcıda bağlı bir hesabınız yok ve bu nedenle yenileyemezsiniz.',
@@ -267,10 +269,10 @@ final class PhabricatorAuthTr
       'Newly issued MFA challenges must have a valid TTL!' => 'Yeni verilen MFA zorluklarının geçerli bir TTL\'si olmalıdır!',
       'Target "%s" is not a valid target to revoke credentials from. Usually, revoke from "@username".' => '"%s" hedefi, kimlik bilgilerini iptal etmek için geçerli bir hedef değil. Genellikle, "@kullanıcıadı"\'dan iptal edin.',
       '%d-Bit Secret' => '%s Bit Sırrı',
-      'Set Phabricator to trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Phabricator\'ı bir OAuth istemcisine güvenecek şekilde ayarlayın. Phabricator, kullanıcıların kullanıcı müdahalesi olmadan yetkilendirdiği güvenilir OAuth istemcilerine yönlendirir.',
       'Duo is not requiring a challenge, which defeats the purpose of MFA. Duo must be configured to challenge you.' => 'Duo, MFA\'nın amacını yenen bir meydan okuma gerektirmez. Duo, size meydan okuyacak şekilde yapılandırılmalıdır.',
       'The email address you just clicked a link from is already associated with a registered account (%s), but is not verified. Log in to that account to continue. If you can not log in, you can register a new account.' => 'Bir bağlantıyı yeni tıkladığınız e-posta adresi zaten kayıtlı bir hesapla (%s) ilişkilendirilmiş, ancak doğrulanmadı. Devam etmek için bu hesaba giriş yapın. Giriş yapamıyorsanız, yeni bir hesap kaydedebilirsiniz.',
       'You are destroying an entire class of credentials. This may be very disruptive to users. You should normally do this only if you suspect there has been a widespread compromise which may have impacted everyone.' => 'Tüm bir kimlik bilgileri sınıfını yok ediyorsunuz. Bu kullanıcılar için çok rahatsız edici olabilir. Normalde bunu ancak herkesi etkilemiş olabilecek yaygın bir uzlaşma olduğundan şüpheleniyorsanız yapmalısınız.',
+      'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Mevcut bir Phabricator hesabını bu harici hesaba bağlamak istiyorsanız devam etmeyin. Bunun yerine: mevcut hesabınıza giriş yapın, ardından "Ayarlar"\'a gidin ve "Harici Hesaplar" panelinde hesabı bağlayın.',
       'You responded to this challenge correctly.' => 'Bu soruna doğru cevap verdiniz.',
       'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => '"--provider" ile belirli faktörleri veya "--all-types" olan tüm faktörleri belirtin, ancak ikisini birden belirtmeyin.',
       'To configure Disqus OAuth, create a new application here:
@@ -286,17 +288,6 @@ final class PhabricatorAuthTr
       'Login Screen Instructions' => 'Giriş Ekranı Talimatları',
       'Mail Body: Welcome' => 'Posta Gövdesi: Hoşgeldiniz',
       'Revoke Token?' => 'Anahtar İptal Edilsin mi?',
-      'To configure WordPress.com OAuth, create a new WordPress.com Application here:
-    https://developer.wordpress.com/apps/new/.
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Redirect URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'WordPress.com OAuth\'u yapılandırmak için burada yeni bir WordPress.com Uygulaması oluşturun:
-    https://developer.wordpress.com/apps/new/.
-    Bu ayarları uygulamanızda kullanmalısınız:
-      - **URL:** Bunu protokolle tam alan adınıza ayarlayın. Bu Phabricator kurulumu için doğru değer: `%s`
-      - **URL Yönlendirmesi**: Bunu şu şekilde ayarlayın: `%s`
-    Bir uygulama oluşturduktan sonra, **Müşteri Kimliği** ve **Müşteri Sırrı** yukarıdaki alanlara kopyalayın.',
       'Asana' => 'Asana',
       'MFA' => 'MFA',
       'Terminate all login sessions.' => 'Tüm oturumları sonlandırın.',
@@ -306,10 +297,10 @@ final class PhabricatorAuthTr
       'Allow Account Linking' => 'Hesap Bağlamaya İzin Ver',
       'Provider names can not be longer than %s characters.' => 'Sağlayıcı adları %s karakterden uzun olamaz.',
       'No Account Linked' => 'Bağlı Hesap Yok',
+      'Allow users to link account credentials for this provider to existing accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Kullanıcıların, bu sağlayıcı için hesap kimlik bilgilerini mevcut Phabricator hesaplarına bağlamasına izin verin. Bir sağlayıcıdan uzaklaşmaya çalışmadığınız ve kullanıcıların yeni hesap bağlantıları oluşturmasını durdurmak istemediğiniz sürece normalde bunu devre dışı bırakmak için bir neden yoktur.',
       'Slack' => 'Slack',
       'This request improperly specifies an MFA challenge token ("%s") multiple times and can not be processed.' => 'Bu istek bir MFA deneme anahtarını ("%s") birden çok kez belirtiyor ve işlenemiyor.',
       'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.' => 'Kısa süre önce bu faktöre bir yanıt verdiniz. Yanıtlar tekrar kullanılamaz. Kodun dönmesi için %s saniye bekleyin, ardından tekrar deneyin.',
-      'The external account ("%s") you just used to log in is already associated with another Phabricator user account. Log in to the other Phabricator account and unlink the external account before linking it to a new Phabricator account.' => 'Giriş yapmak için kullandığınız harici hesap ("%s") başka bir Phabricator kullanıcı hesabıyla zaten ilişkilendirilmiş. Diğer Phabricator hesabında oturum açın ve yeni bir Phabricator hesabına bağlamadan önce harici hesabın bağlantısını kaldırın.',
       'Refresh OAuth access tokens. This is primarily useful for development and debugging.' => 'OAuth erişim belirteçlerini yenileyin. Bu öncelikle geliştirme ve hata ayıklama için kullanışlıdır.',
       'The OAuth provider returned an error: %s' => 'OAuth sağlayıcısı bir hata döndürdü: %s',
       'Registration Failed' => 'Kayıt Başarısız',
@@ -324,11 +315,11 @@ final class PhabricatorAuthTr
       'Installation is complete. Register your administrator account below to log in. You will be able to configure options and add authentication mechanisms later on.' => 'Kurulum tamamlandı. Giriş yapmak için aşağıdan yönetici hesabınızı kaydedin. Daha sonra seçenekleri yapılandırabilir ve kimlik doğrulama mekanizmaları ekleyebilirsiniz.',
       'This request has timed out because you took too long to respond.' => 'Yanıtlamak çok uzun sürdüğünüz için bu istek zaman aşımına uğradı.',
       'All Keys' => 'Tüm Anahtarlar',
+      'The external account you are registering with has an email address that is already in use ("%s") by an existing %s account. Choose a new, valid email address to register a new account.' => 'Kayıt yaptırdığınız harici hesabın, mevcut bir Phabricator hesabı tarafından zaten kullanılmakta olan bir e-posta adresi ("%s") var. Yeni bir Phabricator hesabı kaydetmek için yeni, geçerli bir e-posta adresi seçin.',
       'Terminate Sessions' => 'Oturumları Sonlandır',
       'Upload Public Key' => 'Genel Anahtarı Yükle',
       'OAuth App Notes' => 'OAuth Uygulama Notları',
       'You have failed too many attempts to synchronize new multi-factor authentication methods in a short period of time.' => 'Kısa sürede yeni çok faktörlü kimlik doğrulama yöntemlerini senkronize etmek için çok fazla denemede başarısız oldunuz.',
-      'Your Phabricator account is already connected to an external account on this provider ("%s"), but you are currently logged in to the provider with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Phabricator hesabınız zaten bu sağlayıcıdaki harici bir hesaba ("%s") bağlı, ancak şu anda sağlayıcıya farklı bir hesapla giriş yaptınız. Harici hizmet oturumunu kapatın, ardından hesap bağlantısını yenilemeden önce doğru hesapla tekrar oturum açın.',
       'Expected token to finish OAuth handshake!' => 'Anahatarın OAuth anlaşmasını bitirmesi bekleniyor!',
       'Unable to start TLS connection when connecting to LDAP.' => 'LDAP\'ye bağlanırken TLS bağlantısı başlatılamıyor.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'Yetkilendirme sağlayıcı yapılandırması kilitlenmiş, ve açılmadan değiştirilemez.',
@@ -344,32 +335,34 @@ final class PhabricatorAuthTr
       '%s enabled account linking.' => '%s hesap bağlantısını etkinleştirdi.',
       'Scan this QR code with the Duo application on your mobile phone:' => 'Bu QR kodunu cep telefonunuzdaki Duo uygulamasıyla tarayın:',
       'Contact Number %d' => 'İletişim Numarası %s',
-      'You can not unlink this account because the administrator has configured Phabricator to make links to "%s" accounts permanent.' => 'Yönetici Phabricator\'ı "%s" hesaplarına kalıcı bağlantılar oluşturacak şekilde yapılandırdığı için bu hesabın bağlantısını kaldıramazsınız.',
       'Account Already Linked' => 'Hesap Zaten Bağlı',
-      'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Bu Phabricator yüklemesi, oturum açmak için kullanılabilecek etkinleştirilmiş herhangi bir kimlik doğrulama sağlayıcısıyla yapılandırılmamış. Yanlışlıkla tüm sağlayıcıları devre dışı bırakarak kendinizi kilitlediyseniz, bir hesaba erişimi kurtarmak için `%s` kullanabilirsiniz.',
       'Another user already has that email.' => 'Başka bir kullanıcının zaten bu e-postası var.',
       'You already have a provider of this type.' => 'Zaten bu türde bir sağlayıcınız var.',
+      '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new accounts and log in.' => '%s Henüz kimlik doğrulama sağlayıcıları eklemediniz. Kullanıcıların yeni Phabricator hesapları kaydetmesine ve giriş yapmasına olanak tanıyan bir sağlayıcı eklemek için "%s" kullanın.',
       'Type of the MFA provider.' => 'MFA sağlayıcısının türü.',
       'Your account has been disabled.' => 'Hesabınız devre dışı bırakıldı.',
       'JIRA base URI should include protocol (like "https://").' => 'JIRA temel URI\'si protokol içermelidir ("https://" gibi).',
       'Authentication provider ("%s") encountered an error while attempting to log in. %s' => 'Kimlik doğrulama sağlayıcısı ("%s") giriş yapmaya çalışırken bir hatayla karşılaştı. %s',
       'There are no matching factors to strip.' => 'Şeritlemek için eşleşen bir faktör yoktur.',
       'The invite code in the link you clicked is invalid. Check that you followed the link correctly.' => 'Tıkladığınız bağlantıdaki davet kodu geçersiz. Bağlantıyı doğru takip ettiğinizden emin olun.',
+      'Mark an OAuth client as trusted. Trusted OAuth clients may be reauthorized without requiring users to manually confirm the action.' => 'Phabricator\'ı bir OAuth istemcisine güvenmeyecek şekilde ayarlayın. Phabricator, kullanıcıların kullanıcı müdahalesi olmadan yetkilendirdiği güvenilir OAuth istemcilerine yönlendirir.',
       'Twitter' => 'Twitter',
       'Unable to Generate Keys' => 'Anahtarlar Oluşturulamıyor',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere".' => 'Kimlik bilgilerini iptal etmek istediğiniz hedefi "--from" ile belirtin veya "--everywhere" seçeneğini belirtin.',
       'Unlocked the authentication provider configuration.' => 'Yetkilendirme sağlayıcı yapılandırması açıldı.',
+      'You can link your %s account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.' => 'Gelecekte daha kolay oturum açabilmeniz için Phabricator hesabınızı harici bir hesaba bağlayabilirsiniz. Devam etmek için aşağıdan bağlanacak bir hesap seçin. Hesabınızı bağlamamayı tercih ediyorsanız, bu adımı atlayabilirsiniz.',
       'Log In or Register with LDAP' => 'LDAP ile Giriş Yapın veya Kayıt Olun',
-      'The external account you are registering with has an email address that is already in use ("%s") by an existing Phabricator account. Choose a new, valid email address to register a new Phabricator account.' => 'Kayıt yaptırdığınız harici hesabın, mevcut bir Phabricator hesabı tarafından zaten kullanılmakta olan bir e-posta adresi ("%s") var. Yeni bir Phabricator hesabı kaydetmek için yeni, geçerli bir e-posta adresi seçin.',
       'Expected JSON response from Duo.' => 'Duo\'dan JSON yanıtı bekleniyor.',
       'Display name for the MFA provider.' => 'MFA sağlayıcısının görünen adı.',
       'Revoke Public Key' => 'Genel Anahtarı İptal Et',
       'You (or someone pretending to be you) recently requested an account recovery link be sent to this email address. If you did not make this request, you can ignore this message.' => 'Siz (ya da sizi taklit eden birisi) yakın zamanda bu e-posta adresine hesap kurtarma bağlantısı gönderilmesini istedi. Bu isteği siz yapmadıysanız, bu mesajı dikkate almayın.',
       'Use Primary Email Address' => 'Birincil E-posta Adresini Kullan',
+      'Server Name' => 'Phabricator Örnek Adı',
       'If you lose access to your account, you can recover access by sending yourself an email login link from the login screen.' => 'Hesabınıza erişimi kaybederseniz, giriş ekranından kendinize bir e-posta giriş bağlantısı göndererek erişimi kurtarabilirsiniz.',
       'Login validation is missing expected parameter ("%s").' => 'Giriş doğrulamasında beklenen parametre eksik ("%s").',
       'Customize Messages' => 'Mesajları Özelleştir',
       'Next Step' => 'Sonraki Adım',
+      'You can not unlink this account because the administrator has configured this server to make links to "%s" accounts permanent.' => 'Yönetici Phabricator\'ı "%s" hesaplarına kalıcı bağlantılar oluşturacak şekilde yapılandırdığı için bu hesabın bağlantısını kaldıramazsınız.',
       'Designate %s as your primary contact number?' => 'Birincil irtibat numaranız olarak %s belirlensin mi?',
       'Message Preview' => 'Mesaj Önizleme',
       'This engine is used to edit MFA providers.' => 'Bu motor MFA sağlayıcılarını düzenlemek için kullanılır.',
@@ -383,6 +376,7 @@ final class PhabricatorAuthTr
       'Found %s account(s) to refresh.' => 'Yenilemek için %s hesap bulundu.',
       'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.' => 'Bu kaydı henüz telefonunuzdaki Duo uygulamasında etkinleştirmediniz. Etkinleştirmeyi tamamlayın, ardından devam et\'i tıklayın.',
       'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.' => 'Bu faktör son zamanlarda farklı bir giriş oturumuna meydan okudu. Kodun dönmesi için %s saniye bekleyin, ardından tekrar deneyin.',
+      'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a Conduit method is "%s" (for example, "%s"). Check your configuration.' => 'HATA: "%s" için bir Conduit API isteği yapıyorsunuz, ancak bir Conduit yöntemine erişmek için kullanılacak doğru HTTP istek yolu "%s" (örneğin, "%s"). Yapılandırmanızı kontrol edin.',
       '%s updated the enroll message.' => '%s kayıt mesajını güncelledi.',
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can modify or disable your primary contact number.' => 'Şu anda birincil iletişim numaranıza bağlı olan çok faktörlü kimlik doğrulamanız ("%s") var. Birincil irtibat numaranızı değiştirmeden veya devre dışı bırakmadan önce bu kimlik doğrulama faktörünü kaldırmanız gerekir.',
       'Duo API hostname ("%s") is invalid, hostname must be "*.duosecurity.com".' => 'Duo API ana makine adı ("%s") geçersiz, ana makine adı "*.duosecurity.com" olmalıdır.',
@@ -400,6 +394,7 @@ final class PhabricatorAuthTr
       'Choose Provider Type' => 'Sağlayıcı Türünü Seçin',
       'Revoke credentials which may have been leaked or disclosed.' => 'Sızan veya ifşa edilmiş olabilecek kimlik bilgilerini iptal edin.',
       'Destroyed %s credential(s) of type "%s".' => '"%2$s" türünde %1$s kimlik bilgisi yok edildi.',
+      'Server name is required.' => 'Phabricator örnek adı gerekli.',
       'List information about available credential revokers.' => 'Kullanılabilir kimlik bilgisi iptali hakkında bilgileri listeleyin.',
       'No message type exists with key "%s".' => '"%s" anahtarıyla ileti türü yok.',
       'You will be prompted to provide MFA when you submit.' => 'Gönderdiğinizde MFA vermeniz istenir.',
@@ -424,6 +419,7 @@ final class PhabricatorAuthTr
          - **Yetkili yönlendirme URI\'si**: Bunu `%s` olarak ayarlayın.
     Yapılandırmayı tamamladıktan sonra, Google Client\'tan **Müşteri Kimliği** ve **Müşteri Sırrı** yukarıdaki alanlara kopyalayın.',
       'Skipping, provider does not support token refresh.' => 'Atlanıyor, sağlayıcı anahtar yenilemeyi desteklemez.',
+      'This factor has been removed from your device, so this server can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'Bu faktör cihazınızdan kaldırıldı, bu yüzden Phabricator size bir meydan okuma gönderemez. Devam etmek için bir yöneticinin bu faktörü hesabınızdan çıkarması gerekir.',
       'Attempting to upgrade password hasher, but the password for the upgrade is not the stored credential!' => 'Parola yükseltmeye çalışıyor, ancak yükseltme parolası saklanan kimlik bilgisi değil!',
       'Your Duo account ("%s") requires enrollment. Contact your Duo administrator for help. Duo status message: %s' => 'Duo hesabınız ("%s") kayıt gerektiriyor. Yardım için Duo yöneticinize başvurun. İkili durum mesajı: %s',
       'The OAuth provider failed to retrieve an account ID.' => 'OAuth sağlayıcısı bir hesap kimliği alamadı.',
@@ -433,12 +429,6 @@ final class PhabricatorAuthTr
       '%s changed this contact number from %s to %s.' => '%s, bu kişi numarasını %s üzerinden %s değiştirdi.',
       'Welcome, %s. To complete the process of logging in, provide your multi-factor credentials.' => 'Hoş geldiniz, %s. Oturum açma işlemini tamamlamak için çok faktörlü kimlik bilgilerinizi girin.',
       'Already Accepted Invite' => 'Davet Zaten Kabul Edildi',
-      '**JIRA Instance Name**
-    Choose a permanent name for this instance of JIRA. Phabricator uses this name internally to keep track of this instance of JIRA, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.' => '**JIRA Örnek Adı**
-    Bu JIRA örneği için kalıcı bir ad seçin. Phabricator, URL\'nin daha sonra değişmesi durumunda bu adı JIRA örneğini takip etmek için dahili olarak kullanır.
-    Küçük harfler, rakamlar ve nokta kullanın. Örneğin, `jira`, `jira.mycompany` veya `jira.engineering` mantıklı isimlerdir.',
-      'This is a terse test text message from Phabricator (%s).' => 'Bu Phabricator\'dan (%s) kısa bir test mesajıdır.',
       'No user exists with username "%s".' => '"%s" kullanıcı adıyla kullanıcı yok.',
       'Unlock the authentication provider config, to make it possible to edit the config using the web UI. Make sure to do **bin/auth lock** when done editing the configuration.' => 'Web kullanıcı arayüzü ile yapılandırmayı değiştirebilmek için yetkilendirme sağlayıcı yapılandırmasının kilidini açın. Yapılandırma değişikliğiniz bittiğinde **bin/auth lock** yaptığınızdan emin olun.',
       'Account does not match provider!' => 'Hesap sağlayıcıyla eşleşmiyor!',
@@ -448,15 +438,17 @@ final class PhabricatorAuthTr
       'Strip a specific factor type. Use `bin/auth list-factors` for a list of factor types.' => 'Belirli bir faktör türünü soyun. Faktör türlerinin listesi için `bin/auth list-factors` kullanın.',
       'Provide Multi-Factor Credentials' => 'Çok Faktörlü Kimlik Bilgileri Sağla',
       'Edit Contact Numbers' => 'Kişi Numaralarını Düzenle',
+      'Skip email verification for accounts registered through this provider.' => 'Phabricator, bu sağlayıcı aracılığıyla kayıtlı hesaplar için e-posta doğrulamasını atlayacaktır.',
+      '[%s] New User "%s" Awaiting Approval' => 'Yeni Kullanıcı "%s" Onay Bekliyor',
       'You have failed to enter the correct account password too often in a short period of time.' => 'Kısa bir süre içinde doğru hesap parolası çok sık giremediniz.',
       'Add Multi-Factor Authentication' => 'Çok Faktörlü Kimlik Doğrulama Ekle',
       'JIRA instance name must contain only lowercase letters, digits, and period.' => 'JIRA örnek adı yalnızca küçük harfler, rakamlar ve nokta içermelidir.',
+      'The external service ("%s") you just authenticated with is not configured to allow account linking on this server. An administrator may have recently disabled it.' => 'Kimlik doğrulaması yaptığınız harici hesap ("%s"), bu Phabricator yüklemesinde oturum açmaya izin verecek şekilde yapılandırılmamış. Bir yönetici yakın zamanda devre dışı bırakmış olabilir.',
       'Terminate Session' => 'Oturumu Sonlandır',
       'You must choose a password.' => 'Bir parola seçmelisiniz.',
       'Failed to find an OAuth client with id %s.' => '%s kimliğine sahip bir OAuth istemcisi bulunamadı.',
       'This engine is used to edit contact numbers.' => 'Bu motor, kişi numaralarını düzenlemek için kullanılır.',
       'You can not set the response digest for a challenge directly. Instead, set a response token. A response digest will be computed automatically.' => 'Bir sınama için yanıt özetini doğrudan ayarlayamazsınız. Bunun yerine bir yanıt anahtarı ayarlayın. Bir yanıt özeti otomatik olarak hesaplanacaktır.',
-      'Expected valid JSON response from Phabricator %s request.' => 'Phabricator %s isteğinden geçerli JSON yanıtı bekleniyor.',
       '%s created this contact number.' => '%s bu kişi numarasını oluşturdu.',
       'Duo providers must have an API credential.' => 'Duo sağlayıcıların API kimlik bilgileri olmalıdır.',
       'You can only verify one address at a time.' => 'Bir kerede yalnızca bir adresi doğrulayabilirsiniz.',
@@ -467,25 +459,12 @@ final class PhabricatorAuthTr
       'Duo API Credential' => 'Duo API Kimliği',
       '%s edited a property of this provider.' => '%s bu sağlayıcının bir özelliğini düzenledi.',
       'Auth Email Invites' => 'Yetkilendirme E-posta Davetleri',
-      '**Step 2 of 2 - Configure Phabricator OAuth Instance**
-    To configure Phabricator OAuth, create a new application here:
-    %s/oauthserver/client/create/
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Adım 2/2 - Phabricator OAuth Örneğini Yapılandırma**
-    Phabricator OAuth\'u yapılandırmak için burada yeni bir uygulama oluşturun:
-    %s/oauthserver/client/create/
-    Uygulamanızı oluştururken şu ayarları kullanın:
-      - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `%s`
-    Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**\'nı yukarıdaki alanlara kopyalayın. (Önce \'Yeni Gizli\'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)',
-      'Welcome to Phabricator' => 'Phabricator\'a Hoş geldiniz',
       'Address Verified' => 'Adres Doğrulandı',
       'To verify your phone as an authentication factor, a text message with a secret code will be sent to the phone number you have listed as your primary contact number.' => 'Telefonunuzu bir kimlik doğrulama faktörü olarak doğrulamak için, birincil irtibat numaranız olarak listelediğiniz telefon numarasına gizli kod içeren bir kısa mesaj gönderilir.',
-      'Phabricator (%s) MFA Code: %s' => 'Phabricator (%s) MFA Kodu: %s',
-      'You will no longer be able to use your %s account to log in to Phabricator.' => 'Artık Phabricator\'da oturum açmak için %s hesabınızı kullanamayacaksınız.',
       'DISABLE APPROVAL QUEUE' => 'ONAYLAMA SIRASINI DEVRE DIŞI BIRAK',
       'Specify either specific factors with "--type", or all factors with "--all-types", but not both.' => '"--type" ile belirli faktörleri veya "--all-type" ile tüm faktörleri belirtin, ancak her ikisini birden belirtmeyin.',
       'No OAuth Access Token' => 'OAuth Erişim Anahtarı Yok',
+      'Your account is already linked to an external account for this provider.' => 'Phabricator hesabınız zaten bu sağlayıcı için harici bir hesaba bağlı.',
       'You are already logged in.' => 'Zaten oturum açtınız.',
       'Wait For Approval Instructions' => 'Onay Talimatlarını Bekleyin',
       'Link LDAP Account' => 'LDAP Hesabını Bağla',
@@ -493,12 +472,13 @@ final class PhabricatorAuthTr
       'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Bu parola, sağlanandan ("%2$s") farklı bir nesne için bir PHID nesnesiyle ("%1$s") ilişkilendirilir.',
       'Disable Number' => 'Numaraya Devre Dışı Bırak',
       'Username or Email' => 'Kullanıcı Adı veya E-posta',
+      'Your %s account is already connected to an external account on this service ("%s"), but you are currently logged in to the service with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Phabricator hesabınız zaten bu sağlayıcıdaki harici bir hesaba ("%s") bağlı, ancak şu anda sağlayıcıya farklı bir hesapla giriş yaptınız. Harici hizmet oturumunu kapatın, ardından hesap bağlantısını yenilemeden önce doğru hesapla tekrar oturum açın.',
       'Verify this email address (%s) and attach it to your account (%s)?' => 'Bu e-posta adresini (%s) doğrulayın ve hesabınıza eklensin mi(%s)?',
       'Revoke SSH Public Key' => 'SSH Genel Anahtarını İptal Et',
       'Edit MFA Providers' => 'MFA Sağlayıcıları Düzenle',
       'Before you can set up or use LDAP, you need to install the PHP LDAP extension. It is not currently installed, so PHP can not talk to LDAP. Usually you can install it with `%s`, `%s`, or a similar package manager command.' => 'LDAP\'yi kurmadan veya kullanmadan önce PHP LDAP uzantısını yüklemeniz gerekir. Şu anda yüklü değil, bu yüzden PHP LDAP ile konuşamıyor. Genellikle "%s", "%s" veya benzer bir paket yöneticisi komutuyla yükleyebilirsiniz.',
       '%s failed!' => '%s başarısız!',
-      'Anyone who can browse to this Phabricator install will be able to register an account. To add email domain restrictions, configure %s.' => 'Bu Phabricator kurulumuna göz atabilen herkes bir hesap kaydedebilir. E-posta alan adı kısıtlamaları eklemek için %s yapılandırın.',
+      'This server is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => 'Phabricator, bir e-posta alan beyaz listesiyle (%s içinde) yapılandırılır, bu nedenle yalnızca bu %s alanından birinde doğrulanmış e-posta adresine sahip kullanıcılar bir hesap kaydedebilir: %s',
       'To configure Slack OAuth, create a new application here:
     https://api.slack.com/docs/sign-in-with-slack#create_slack_app
     When creating your application, use these settings:
@@ -511,17 +491,21 @@ final class PhabricatorAuthTr
       'A challenge has been sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Telefonunuza bir meydan okuma gönderildi. Duo uygulamasını açın ve meydan okumayı onaylayın, ardından devam edin.',
       'Amazon' => 'Amazon',
       'MFA Sync Token' => 'MFA Senkronizasyon Anahtarı',
+      'OAuth client "%s" is now trusted.' => 'Güncellenmiş; Phabricator, OAuth istemcisine %s güveniyor.',
       'Your browser did not submit a registration key with the request. You must use the same browser to begin and complete registration. Check that cookies are enabled and try again.' => 'Tarayıcınız istekte bulunan bir kayıt anahtarı göndermedi. Kaydı başlatmak ve tamamlamak için aynı tarayıcıyı kullanmanız gerekir. Çerezlerin etkin olup olmadığını kontrol edin ve tekrar deneyin.',
       'Not Complete' => 'Tamamlanmadı',
+      '**Step 1 of 2 - Name Remote Server**
+    Choose a permanent name for the remote server you want to connect to. This name is used internally to keep track of the remote server, in case the URL changes later.' => '**Adım 1/2 - Adı Phabricator OAuth Örneği**
+    Phabricator\'ın OAuth sunucusu örneği için kalıcı bir ad seçin. //Bu// Phabricator örneği, URL\'nin daha sonra değişmesi durumunda Phabricator\'ın OAuth sunucusu örneğini izlemek için bu adı dahili olarak kullanır.',
       'Unlink Account' => 'Hesabın Bağlantısını Kaldır',
       'You must specify the path to a public keyfile with %s.' => 'Genel anahtar dosyasının yolunu %s ile belirtmelisiniz.',
       'Remove multi-factor authentication from an account.' => 'Bir hesaptan çok faktörlü kimlik doğrulamayı kaldırın.',
       'Edit Existing Provider' => 'Mevcut Sağlayıcıyı Düzenle',
-      'Do you want to enable this provider? Users will be able to log in to Phabricator using linked accounts.' => 'Bu sağlayıcıyı etkinleştirmek istiyor musunuz? Kullanıcılar, bağlı hesapları kullanarak Phabricator\'da oturum açabilir.',
       '%s changed the credential for this provider from %s to %s.' => '%s, bu sağlayıcı için kimlik bilgilerini %s üzerinden %s değiştirdi.',
+      'You are creating a new account linked to an existing external account.' => 'Phabricator\'ın dışından mevcut bir harici hesaba bağlı yeni bir Phabricator hesabı oluşturuyorsunuz.',
       'Signing session legalpad documents of user with no session!' => 'Oturum olmadan kullanıcının legalpad belgelerinin imzalanması!',
       '%s updated the message text.' => '%s mesaj metnini güncelledi.',
-      'Phabricator base URI is required.' => 'Phabricator temel URI\'si gereklidir.',
+      'NOTE: Amazon **requires** HTTPS, but this service does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOT: Amazon HTTPS **gerektirir**, ancak Phabricator yüklemeniz HTTPS kullanmaz. **Bu kurulumda HTTPS yapılandırılmadan Amazon\'u bir kimlik doğrulama sağlayıcısı olarak ekleyemezsiniz**.',
       'Verify this email address (%s) and attach it to your account?' => 'Bu e-posta adresini doğrulayın (%s) ve hesabınıza eklensin mi?',
       'No Linkable External Providers' => 'Bağlanabilir Harici Sağlayıcı Yok',
       'This account is not linkable.' => 'Bu hesap bağlanamaz.',
@@ -537,34 +521,19 @@ final class PhabricatorAuthTr
       'Revoked SSH keys can not be edited or reinstated.' => 'İptal edilen SSH anahtarları düzenlenemez veya eski durumuna getirilemez.',
       'Follow referrals. Disable this for Windows AD 2003.' => 'Tavsiyelere uyun. Windows AD 2003 için bunu devre dışı bırakın.',
       'user=%s, should_verify=%s' => 'user=%s, should_verify=%s',
-      'The external account you just logged in with is not associated with a valid Phabricator user.' => 'Yeni giriş yaptığınız harici hesap geçerli bir Phabricator kullanıcısıyla ilişkili değil.',
       'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'UYARI: Henüz herhangi bir yetkilendirme sağlayıcısını ayarlamadınız, bu nedenle hesabınızın giriş bilgileri yok. Şimdi çıkış yaparsanız, tekrar normal olarak giriş yapamayabilirsiniz.',
       'If you do not recognize this change, it may indicate your account has been compromised.' => 'Bu değişikliği tanımıyorsanız, hesabınızın güvenliği ihlal edildiğini gösterebilir.',
       'Link Accounts' => 'Hesapları Bağla',
       'Create Admin Account' => 'Yönetici Hesabı Oluştur',
       'Create MFA Provider' => 'MFA Sağlayıcısı Oluştur',
       'Log Out?' => 'Oturumu Kapatılsın mı?',
-      'Recover access to an account if you have locked yourself out of Phabricator.' => 'Kendinizi Phabricator\'dan kilitlediyseniz bir hesaba erişimi kurtarın.',
       'You have not configured a primary contact number. Configure a contact number before adding SMS as an authentication factor.' => 'Birincil irtibat numarası yapılandırmadınız. Kimlik doğrulama faktörü olarak SMS eklemeden önce bir kişi numarasını yapılandırın.',
       'Unlink External Account' => 'Harici Hesabın Bağlantısını Kaldır',
-      'You must verify your email address to log in. You should have a new email message from Phabricator with verification instructions in your inbox (%s).' => 'Giriş yapmak için e-posta adresinizi doğrulamanız gerekir. Gelen kutunuzdaki doğrulama talimatlarını içeren (%s) Phabricator\'dan yeni bir e-posta mesajınız olmalıdır.',
       '%s made this the primary contact number.' => '%s bunu birincil irtibat numarası yaptı.',
-      'The external account ("%s") you just authenticated with is not configured to allow logins on this Phabricator install. An administrator may have recently disabled it.' => 'Kimlik doğrulaması yaptığınız harici hesap ("%s"), bu Phabricator yüklemesinde oturum açmaya izin verecek şekilde yapılandırılmamış. Bir yönetici yakın zamanda devre dışı bırakmış olabilir.',
+      'Automatically log in with this provider if it is the only available provider.' => 'Phabricator, mevcut tek sağlayıcıysa bu sağlayıcıyla otomatik olarak oturum açar.',
       '%s changed the enrollment policy for this provider from %s to %s.' => '%s, bu sağlayıcı için kayıt politikasını %s üzerinden %s değiştirdi.',
       'Currently, there are no configured external auth providers which you can link your account to.' => 'Şu anda, hesabınızı bağlayabileceğiniz yapılandırılmış harici kimlik doğrulama sağlayıcıları yok.',
-      'To configure GitHub OAuth, create a new GitHub Application here:
-    https://github.com/settings/applications/new
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Callback URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'GitHub OAuth\'u yapılandırmak için burada yeni bir GitHub Uygulaması oluşturun:
-    https://github.com/settings/applications/new
-    Bu ayarları uygulamanızda kullanmalısınız:
-      - **URL:** Bunu protokolle tam alan adınıza ayarlayın. Bu Phabricator kurulumu için doğru değer: `%s`
-      - **URL Geri Çağrısı**: Bunu şu şekilde ayarlayın: `%s`
-    Bir uygulama oluşturduktan sonra, **İstemci Kimliği** ve **İstemci Sırrı** yukarıdaki alanlara kopyalayın.',
       '%s disabled account linking.' => '%s hesağ bağlantısı devre dışı bıraktı.',
-      'Confirm the link with this %s account. This account will be able to log in to your Phabricator account.' => 'Bu %s hesapla bağlantıyı onaylayın. Bu hesap Phabricator hesabınıza giriş yapabilecektir.',
       'Number Already Primary' => 'Sayı Zaten Birincil',
       'Strip these authentication factors?' => 'Bu kimlik doğrulama faktörleri kaldırılsın mı?',
       'The OAuth provider did not return a "code" parameter in its response.' => 'OAuth sağlayıcısı yanıtında bir "code" parametresi döndürmedi.',
@@ -572,10 +541,10 @@ final class PhabricatorAuthTr
       'Locked the authentication provider configuration.' => 'Yetkilendirme sağlayıcı yapılandırması kilitlendi.',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Kimlik bilgilerini iptal etmek için hedefi "--from" ile belirtin veya "--everywhere" seçeneğini belirtin, ancak ikisini birden belirtmeyin.',
       'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Tarayıcınız, bu hesapla ilişkili olandan farklı bir kayıt anahtarı gönderdi. Çerezlerinizi temizlemeniz gerekebilir.',
+      'Log in to %s' => 'Phabricator\'da oturum açın',
       'Make Primary Number' => 'Birincil Numara Yap',
       'Strip factors from all users.' => 'Tüm kullanıcılardan faktörleri ayırın.',
       'Duo username pairing mode ("%s") is not supported.' => 'Duo kullanıcı adı eşleme modu ("%s") desteklenmiyor.',
-      'You are creating a new Phabricator account linked to an existing external account from outside Phabricator.' => 'Phabricator\'ın dışından mevcut bir harici hesaba bağlı yeni bir Phabricator hesabı oluşturuyorsunuz.',
       'Facebook' => 'Facebook',
       'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Gerçekten tüm anahtarları iptal ettiniz mi? Diğer geçici yetkilerin yanı sıra, bekleyen parola sıfırlama veya hesap kurtarma bağlantılarını devre dışı bırakır.',
       'LDAP Version' => 'LDAP Sürümü',
@@ -597,9 +566,9 @@ final class PhabricatorAuthTr
       'After logging in you should set a password for your account, or link your account to an external account that you can use to authenticate in the future.' => 'Giriş yaptıktan sonra hesabınız için bir parola ayarlamanız veya hesabınızı gelecekte kimlik doğrulaması yapmak için kullanabileceğiniz harici bir hesaba bağlamanız gerekir.',
       'Analyze and diagnose issues with LDAP configuration.' => 'LDAP yapılandırmasıyla ilgili sorunları analiz edin ve teşhis edin.',
       'Your session is no longer in high security.' => 'Oturumunuz artık yüksek güvenlik altında değil.',
+      'Anyone who can browse to this this server will be able to register an account. To add email domain restrictions, configure %s.' => 'Bu Phabricator kurulumuna göz atabilen herkes bir hesap kaydedebilir. E-posta alan adı kısıtlamaları eklemek için %s yapılandırın.',
       'Revoked' => 'İptal edildi',
       'Disable the contact number %s?' => '%s kişi numarası devre dışı bırakılsın mı?',
-      'The URI where the OAuth server instance of Phabricator is installed. For example: %s' => 'Phabricator\'ın OAuth sunucusu örneğinin yüklendiği URI. Örneğin: %s',
       'Factor Name: %s' => 'Faktör Adı: %s',
       'Providers' => 'Sağlayıcılar',
       'Address Duplicated in Input' => 'Adres Girişte Çoğaltıldı',
@@ -617,9 +586,11 @@ final class PhabricatorAuthTr
       'Refreshing account #%d.' => '#%s hesabı yenileniyor.',
       'You can not make a disabled number your primary contact number.' => 'Devre dışı bırakılmış bir numarayı birincil irtibat numaranız yapamazsınız.',
       'Failed to bind to LDAP server (as user "%s").' => 'LDAP sunucusuna bağlanılamadı ("%s" kullanıcısıyla).',
-      'The external account ("%s") you just authenticated with is not configured to allow registration on this Phabricator install. An administrator may have recently disabled it.' => 'Yeni kimlik doğrulaması yaptığınız harici hesap ("%s"), bu Phabricator yüklemesinde kayda izin verecek şekilde yapılandırılmamış. Bir yönetici yakın zamanda devre dışı bırakmış olabilir.',
+      'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in.' => 'Kullanıcıların Phabricator\'da oturum açmak için LDAP kimlik bilgilerini kullanabilmeleri için bir LDAP sunucusuna bağlantı yapılandırın.',
       'No email exists with address "%s"!' => '"%s" adresine sahip e-posta yok!',
       'Revoke SSH Key' => 'SSH Anahtarını İptal Et',
+      'The email address associated with this external account ("%s") is not a valid email address and can not be used to register an account. Choose a different, valid address.' => 'Bu harici hesapla ilişkilendirilmiş e-posta adresi ("%s") geçerli bir e-posta adresi değil ve bir Phabricator hesabını kaydetmek için kullanılamaz. Farklı, geçerli bir adres seçin.',
+      'OAuth client "%s" is already untrusted.' => 'Phabricator zaten OAuth istemcisine "%s" güvenmiyor.',
       'Onboarding' => 'Onboarding',
       'Request did not include account key.' => 'İstek, hesap anahtarını içermiyordu.',
       'Account Disabled' => 'Hesap Devre Dışı Bırakıldı',
@@ -629,8 +600,8 @@ final class PhabricatorAuthTr
       'Edit SSH Public Key' => 'SSH Genel Anahtarını Düzenle',
       'Generated' => 'Oluşturuldu',
       '%s updated the OAuth application secret for this provider.' => '%s, bu sağlayıcı için OAuth uygulama sırrını güncelledi.',
+      'Base URI' => 'Phabricator Temel URI\'si',
       'Leaving High Security' => 'Yüksek Güvenlikten Ayrılıyor',
-      '**Post a comment** in the JIRA task, similar to the emails Phabricator sends.' => '**Yorum gönder** JIRA görevinde, Phabricator\'ın gönderdiği e-postalara benzer.',
       'Consumer key is required.' => 'Tüketici anahtarı gerekli.',
       'Username or password are incorrect.' => 'Kullanıcı adı veya parola yanlış.',
       'Attempted to set \'%s\' cookie to \'%s\', but your browser did not accept the cookie. Check that cookies are enabled, clear them, and try again.' => '\'%s\' çerezi \'%s\' olarak ayarlamaya çalışıldı, ancak tarayıcınız çerezi kabul etmedi. Çerezlerin etkin olup olmadığını kontrol edin, temizleyin ve tekrar deneyin.',
@@ -658,6 +629,7 @@ final class PhabricatorAuthTr
       'No accounts match the arguments!' => 'Bağımsız değişkenlerle eşleşen hesap yok!',
       'Register New Account' => 'Yeni Hesap Aç',
       'SSH KEY DETAIL' => 'SSH ANAHTAR DETAYI',
+      'Recover access to an account if you have locked yourself out.' => 'Kendinizi Phabricator\'dan kilitlediyseniz bir hesaba erişimi kurtarın.',
       'Failed to convert public key into PKCS8 format. If you are developing on OSX, you may be able to use `%s` to work around this issue. %s' => 'Genel anahtar PKCS8 biçimine dönüştürülemedi. OSX üzerinde geliştiriyorsanız, bu soruna geçici bir çözüm bulmak için "%s" kullanabilirsiniz. %s',
       'Send Test Message' => 'Test Mesajı Gönder',
       'An email has been sent containing a link you can use to set a password for your account.' => 'Hesabınız için bir şifre belirlemek üzere kullanabileceğiniz bir bağlantı içeren bir e-posta gönderildi.',
@@ -689,19 +661,19 @@ final class PhabricatorAuthTr
       'Auth Messages' => 'Yetkilendirme Mesajları',
       'Auth Password' => 'Yetkilendirme Parolası',
       'SSH Key %d: %s' => 'SSH Anahtarı %s: %s',
-      'Phabricator will not retain a copy of the private key.' => 'Phabricator özel anahtarın bir kopyasını saklamaz.',
+      'The external account you just logged in with is not associated with a valid %s user account.' => 'Yeni giriş yaptığınız harici hesap geçerli bir Phabricator kullanıcısıyla ilişkili değil.',
       'Refreshed token, new token expires in %s seconds.' => 'Yenilenen anahtar, yeni anahtarın süresi %s saniye.',
       'SMS' => 'SMS',
       '%s set the OAuth application secret for this provider.' => '%s, bu sağlayıcı için OAuth uygulama sırrını ayarladı.',
       '%s, exception=%s' => '%s, exception=%s',
       'Reset %s action(s).' => '%s eylemi sıfırla.',
       'Address Already Verified' => 'Adres Zaten Doğrulandı',
+      'OAuth client "%s" is already trusted.' => 'Phabricator zaten "%s" OAuth istemcisine güveniyor.',
       'When users click the "Change Username" action on their profile pages but do not have the required permissions, they will be presented with a message explaining that they are not authorized to make the edit.
     You can optionally provide additional instructions here to help users request a username change, if there is someone specific they should contact or a particular workflow they should use.' => 'Kullanıcılar profil sayfalarındaki "Kullanıcı İsmini Değiştir"e tıkladığında, gerekli izinleri yoksa, değişikliği yapamayacaklarını açıklayan bir mesajla karşılaşırlar.
     İsteğe bağlı olarak, kullanıcıların ad değişiklik isteklerine yardımcı olmak için iletişim kurabilecekleri belirli biri varsa ya da kullanacakları özel bir akış varsa, ek talimatları burada sağlayabilirsiniz.',
       'You are trying to gain access to an account ("%s") that can not establish a web session.' => 'Web oturumu açamayan bir hesaba ("%s") erişmeye çalışıyorsunuz.',
       'Sent By' => 'Gönderen:',
-      'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new Phabricator account. Choose a different, valid address.' => 'Bu hesapla ilişkilendirilmiş e-posta adresi ("%s") zaten bir uygulama tarafından kullanılıyor ve yeni bir Phabricator hesabı kaydetmek için kullanılamıyor. Farklı, geçerli bir adres seçin.',
       'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Telefonunuza gönderilen meydan okumayı onaylamanız gerekir. Duo uygulamasını açın ve meydan okumayı onaylayın, ardından devam edin.',
       'Download Private Key (%s)' => 'Özel Anahtarı İndir (%s)',
       'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.' => 'Tüm bağlantıyı tarayıcınıza kopyalayıp yapıştırdığınızdan emin olun. Giriş bağlantıları sadece 24 saat geçerlidir ve yalnızca bir kez kullanılabilir.',
@@ -721,7 +693,6 @@ final class PhabricatorAuthTr
       'Query public keys.' => 'Ortak anahtarları sorgula.',
       'After logging in, you can use the "Auth" application to add or restore authentication providers and allow normal logins to succeed.' => 'Giriş yaptıktan sonra, kimlik doğrulama sağlayıcıları eklemek veya geri yüklemek ve normal girişlerin başarılı olmasına izin vermek için "Yetkilendirme" uygulamasını kullanabilirsiniz.',
       'Authentication Canceled' => 'Kimlik Doğrulama İptal Edildi',
-      'Phabricator Instance Name' => 'Phabricator Örnek Adı',
       'Will Ignore Address' => 'Adresi Yoksayır',
       'Custom text for the message.' => 'Mesaj için özel metin.',
       'Number Disabled' => 'Sayı Devre Dışı',
@@ -733,11 +704,11 @@ final class PhabricatorAuthTr
       'Login Required' => 'Oturum Açma Gerekli',
       'Sign With MFA' => 'MFA ile Oturum Açın',
       'To choose a different primary contact number, make that number primary (instead of trying to demote this one).' => 'Farklı bir birincil irtibat numarası seçmek için, bu numarayı birincil yapın (numarayı indirmeye çalışmak yerine).',
+      '**Post a comment** in the JIRA task.' => '**Yorum gönder** JIRA görevinde, Phabricator\'ın gönderdiği e-postalara benzer.',
       'Verified User Email' => 'Doğrulanmış Kullanıcı E-postası',
       'Email Login' => 'E-posta Girişi',
       'Trust Email Addresses' => 'E-posta Adresleri Güvenle',
       'Bitbucket' => 'Bitbucket',
-      'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.' => 'Kullanıcıların bu sağlayıcıya ilişkin hesap kimlik bilgilerinin mevcut Phabricator hesaplarıyla bağlantısını kaldırmasına izin ver. Bunu devre dışı bırakırsanız, Phabricator hesapları kalıcı olarak sağlayıcı hesaplarına bağlanır.',
       'Unable to find LDAP account!' => 'LDAP hesabı bulunamadı!',
       'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'Bu iş akışı yeni bir SSH anahtar çifti oluşturacak, genel anahtarı ekleyecek ve özel anahtarı indirmenize izin verecektir.',
       'To configure Facebook OAuth, create a new Facebook Application here:
@@ -760,8 +731,6 @@ final class PhabricatorAuthTr
     Uygulamanızı oluştururken şu ayarları kullanın:
       - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `%s`
     Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemcı Sırrı**\'nı yukarıdaki alanlara kopyalayın. (Önce \'Yeni Gizli\'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)',
-      'Do you want to enable this provider? Users will be able to use their existing external accounts to register new Phabricator accounts and log in using linked accounts.' => 'Bu sağlayıcıyı etkinleştirmek istiyor musunuz? Kullanıcılar, yeni Phabricator harici telefon hesaplarını kaydetmek ve bağlı hesapları kullanarak oturum açmak için mevcut harici hesaplarını kullanabilir.',
-      'This factor has been removed from your device, so Phabricator can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'Bu faktör cihazınızdan kaldırıldı, bu yüzden Phabricator size bir meydan okuma gönderemez. Devam etmek için bir yöneticinin bu faktörü hesabınızdan çıkarması gerekir.',
       'An email has been sent containing a link you can use to log in to your account.' => 'Hesabınıza giriş yapmak için kullanabileceğiniz bir bağlantı içeren bir e-posta gönderildi.',
       'You have already accepted this invitation.' => 'Bu daveti zaten kabul ettiniz.',
       'You must choose a password or skip this step.' => 'Bir şifre seçmeli veya bu adımı atlamalısınız.',
@@ -780,14 +749,37 @@ final class PhabricatorAuthTr
     Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**\'nı yukarıdaki alanlara kopyalayın.',
       'CAPTCHA was not entered correctly.' => 'CAPTCHA doğru girilmedi.',
       'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => 'JIRA OAuth\'u yapılandırın. NOT: Yalnızca JIRA 6\'yı destekler.',
-      'The account you are attempting to register with has an invalid email address (%s). This Phabricator install only allows registration with specific email addresses:' => 'Kaydolmaya çalıştığınız hesabın geçersiz bir e-posta adresi (%s) var. Bu Phabricator yüklemesi yalnızca belirli e-posta adresleriyle kayda izin verir:',
       'If you did not receive an email, you can click the button below to try sending another one.' => 'Bir e-posta almadıysanız, başka bir e-posta göndermeyi denemek için aşağıdaki düğmeyi tıklayabilirsiniz.',
       'Invite template does not include invite URI!' => 'Davet şablonu davet URI\'sı içermez!',
       'Password providers can\'t be linked.' => 'Parola sağlayıcıları bağlanamaz.',
       'Found LDAP Account: %s' => 'Bulunan LDAP Hesabı: %s',
       '%s reinstated this key.' => '%s bu anahtarı eski haline getirdi.',
+      '**Step 2 of 2**: In this step, you will configure JIRA.
+    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
+      - **Server URL**: `%s`
+      - Then, click **Next**. On the second page:
+      - **Application Name**: `%s`
+      - **Application Type**: `Generic Application`
+      - Then, click **Create**.
+    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
+      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
+      - **Consumer Name**: `%s`
+      - **Public Key**: Set this to the "Public Key" value in the form above.
+      - **Consumer Callback URL**: `%s`
+    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Adım 2/2**: Bu adımda, JIRA\'yı yapılandıracaksınız.
+    **JIRA Uygulaması Oluştur**: JIRA\'da oturum açın ve **Yönetim**, ardından **Eklentiler**, ardından **Uygulama Bağlantıları** bölümüne gidin. **Uygulama Bağlantısı Ekle** etiketli düğmeyi tıklayın ve bir uygulama oluşturmak için bu ayarları kullanın:
+      - **URL sunucu**: `%s`
+      - Ardından, **Sonraki** düğmesine tıklayın. İkinci sayfada:
+      - **Uygulama Adı**: `Phabricator`
+      - **Uygulama Türü**: `Genel Uygulama`
+      - Ardından **Oluştur**\'u tıklayın.
+    **Uygulamanızı Yapılandırın**: Tabloda yeni oluşturduğunuz uygulamayı bulun ve **Eylemler** altındaki **Yapılandır** bağlantısını tıklayın. **Gelen Kimlik Doğrulama**\'yı seçin ve **OAuth** sekmesine tıklayın (varsayılan olarak seçilebilir). Ardından şu ayarları kullanın:
+      - **Tüketici Anahtarı**: Bunu, yukarıdaki formdaki "Tüketici Anahtarı" değerine ayarlayın.
+      - **Tüketici Adı**: `Phabricator`
+      - **Ortak Anahtar**: Bunu yukarıdaki formdaki "Ortak Anahtar" değerine ayarlayın.
+      - **Tüketici Geri Arama URL\'si**: `%s`
+    JIRA\'da **Kaydet**\'i tıklayın. Kimlik doğrulama şimdi yapılandırılmalı ve bu sağlayıcı doğru bir şekilde çalışmalıdır.',
       'Confirm Account Link' => 'Hesap Bağlantısını Onayla',
-      'Before you can use Phabricator, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Phabricator\'ı kullanabilmeniz için hesabınıza çok faktörlü kimlik doğrulaması eklemeniz gerekir. Çok faktörlü kimlik doğrulama, saldırganların erişim kazanmasını veya hassas işlemler yapmasını zorlaştırarak hesabınızın güvenliğini sağlamaya yardımcı olur.',
       'Verify Email Address' => 'Eposta Adresini Doğrula',
       'Duo account ("%s") is fully enrolled.' => 'Duo hesabı ("%s") tamamen kaydedildi.',
       'You must log in to take this action.' => 'Bu işlemi yapmak için giriş yapmalısınız.',
@@ -825,10 +817,12 @@ final class PhabricatorAuthTr
       'Mobile Phone App (TOTP)' => 'Cep Telefonu Uygulaması (TOTP)',
       'Support for Duo push authentication.' => 'Duo push kimlik doğrulaması desteği.',
       'Normal Security Restored' => 'Normal Güvenlik Geri Yüklendi',
+      'Allow users to register new accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.' => 'Kullanıcıların bu sağlayıcıyı kullanarak yeni Phabricator hesapları kaydetmesine izin ver. Kaydı devre dışı bırakırsanız, kullanıcılar bu sağlayıcıyı mevcut hesaplara giriş yapmak için kullanabilir, ancak yeni hesap oluşturamazlar.',
       'Verify %s' => '%s onayla',
       'No Password Auth' => 'Parola Doğrulaması Yok',
       'Create **Issue Link** to the Revision, as an "implemented in" relationship.' => '"İçinde uygulandı" ilişkisi olarak Revizyon için **Sorunlu Bağlantı** oluşturun.',
       'Authentication Challenges' => 'Kimlik Doğrulama Zorlukları',
+      'Do you want to enable this provider? Users will be able to use their existing external accounts to register new accounts and log in using linked accounts.' => 'Bu sağlayıcıyı etkinleştirmek istiyor musunuz? Kullanıcılar, yeni Phabricator harici telefon hesaplarını kaydetmek ve bağlı hesapları kullanarak oturum açmak için mevcut harici hesaplarını kullanabilir.',
       'Password Reset Token' => 'Parola Sıfırlama Simgesi',
       'Allow Account Unlinking' => 'Hesap Koparmaya İzin Ver',
       'The selected password is too short. Passwords must be a minimum of %s characters long.' => 'Seçilen parola çok kısa. Parolalar en az %s karakter uzunluğunda olmalıdır.',
@@ -875,15 +869,12 @@ final class PhabricatorAuthTr
       'Edit Auth Message' => 'Yetkilendirme Mesajını Düzenle',
       'Mobile App (TOTP)' => 'Mobil Uygulama (TOTP)',
       'Expected valid JSON response from Google account data request.' => 'Google hesabı veri isteğinden geçerli JSON yanıtı bekleniyor.',
-      'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Phabricator\'ı bir OAuth istemcisine güvenmeyecek şekilde ayarlayın. Phabricator, kullanıcıların kullanıcı müdahalesi olmadan yetkilendirdiği güvenilir OAuth istemcilerine yönlendirir.',
       'The invite code in the link you clicked has already been accepted.' => 'Tıkladığınız bağlantıdaki davet kodu zaten kabul edildi.',
       'No outbound mailer which can deliver SMS messages is configured.' => 'SMS mesajı gönderebilen giden posta gönderisi yapılandırılmamıştır.',
       'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'Yüksek güvenlikten ayrılırsanız, bir sonraki yüksek güvenlik önlemi almaya çalıştığınızda tekrar kimlik doğrulamanız gerekir.',
-      'NOTE: Amazon **requires** HTTPS, but your Phabricator install does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOT: Amazon HTTPS **gerektirir**, ancak Phabricator yüklemeniz HTTPS kullanmaz. **Bu kurulumda HTTPS yapılandırılmadan Amazon\'u bir kimlik doğrulama sağlayıcısı olarak ekleyemezsiniz**.',
       'Link %s Account' => '%s Hesabı Bağla',
       'The LDAP authentication provider is not enabled.' => 'LDAP kimlik doğrulama sağlayıcısı etkin değil.',
       'Active Phone Number' => 'Aktif Telefon Numarası',
-      'New User "%s" Awaiting Approval' => 'Yeni Kullanıcı "%s" Onay Bekliyor',
       'Enroll in MFA' => 'MFA\'ya kaydolun',
       'Really destroy credentials everywhere?' => 'Gerçekten her yerde kimlik bilgilerini yok edilsin mi?',
       'Contact Number' => 'İletişim Numarası',
@@ -904,10 +895,10 @@ final class PhabricatorAuthTr
     Geçici anahtarlar parola sıfırlama postasında, karşılama postasında ve Git LFS gibi diğer bazı sistemlerde kullanılır. Geçici belirteçleri iptal etmek, parola sıfırlamada ki mevcut bağlantıları geçersiz kılar ve iptal gerçekleşmeden önce gönderilen postaları davet eder.',
       'The account you are attempting to link is already linked to your account.' => 'Bağlamaya çalıştığınız hesap zaten hesabınıza bağlı.',
       'Enter the code from the text message which was sent to your primary contact number.' => 'Birincil irtibat numaranıza gönderilen kısa mesajdaki kodu girin.',
+      'Do you want to enable this provider? Users will be able to log in using linked accounts.' => 'Bu sağlayıcıyı etkinleştirmek istiyor musunuz? Kullanıcılar, bağlı hesapları kullanarak Phabricator\'da oturum açabilir.',
       'JIRA Instance Name' => 'JIRA Örnek Adı',
       '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s, bu sağlayıcı için OAuth uygulama kimliğini "%s" üzerinden "%s" güncelledi.',
       '%s enabled registration.' => '%s kayıtı etkinleştirdi.',
-      'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'PHP \'openssl\' uzantısı kurulu değil. JIRA OAuth istekleri RSA-SHA1 imzalama algoritmasını kullandığından, bir JIRA kimlik doğrulama sağlayıcısı eklemek için bu uzantıyı yüklemeniz gerekir. \'Openssl\' uzantısını yükleyin, Phabricator\'ı yeniden başlatın ve tekrar deneyin.',
       'Auth Message %d' => '%s Yetkilendirme Mesajı',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'OAuth1 jeton sırrınız depolama alanından yüklenemiyor. Süresi dolmuş olabilir. Kimlik doğrulamayı tekrar deneyin.',
       'This private key requires a passphrase, but no passphrase was provided. Check that you supplied the correct key, or provide the passphrase.' => 'Bu özel anahtar için bir parola gerekli, ancak parola sağlanmadı. Doğru anahtarı sağladığınızı kontrol edin, ya da bir parola sağlayın.',
@@ -928,9 +919,8 @@ final class PhabricatorAuthTr
       '%s revoked this key.' => '%s bu anahtarı iptal etti.',
       'There are no configured multi-factor providers.' => 'Yapılandırılmış çok faktörlü sağlayıcı yok.',
       'OAuth1 Handshake Token' => 'OAuth1 El Sıkışma Anahtarı',
-      '**Step 1 of 2 - Name Phabricator OAuth Instance**
-    Choose a permanent name for the OAuth server instance of Phabricator. //This// instance of Phabricator uses this name internally to keep track of the OAuth server instance of Phabricator, in case the URL changes later.' => '**Adım 1/2 - Adı Phabricator OAuth Örneği**
-    Phabricator\'ın OAuth sunucusu örneği için kalıcı bir ad seçin. //Bu// Phabricator örneği, URL\'nin daha sonra değişmesi durumunda Phabricator\'ın OAuth sunucusu örneğini izlemek için bu adı dahili olarak kullanır.',
+      'This server is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Bu Phabricator yüklemesi, oturum açmak için kullanılabilecek etkinleştirilmiş herhangi bir kimlik doğrulama sağlayıcısıyla yapılandırılmamış. Yanlışlıkla tüm sağlayıcıları devre dışı bırakarak kendinizi kilitlediyseniz, bir hesaba erişimi kurtarmak için `%s` kullanabilirsiniz.',
+      'The email address ("%s") associated with the external account is already in use by an existing %s account. Multiple %s accounts may not have the same email address, so you can not use this email address to register a new account.' => 'Harici hesapla ilişkilendirilmiş e-posta adresi ("%s") mevcut bir Phabricator hesabı tarafından kullanılıyor. Birden çok Phabricator hesabı aynı e-posta adresine sahip olmayabilir, bu nedenle yeni bir Phabricator hesabı kaydetmek için bu e-posta adresini kullanamazsınız.',
       'Failed to get LDAP entries from search result.' => 'Arama sonucundan LDAP girdileri alınamadı.',
       'Captcha response is incorrect, try again.' => 'Captcha yanıtı yanlış, tekrar deneyin.',
       'Add Auth Provider' => 'Kimlik Doğrulama Sağlayıcısı Ekle',
@@ -948,7 +938,6 @@ final class PhabricatorAuthTr
       'Log In' => 'Oturum Aç',
       'Temporary Token Types' => 'Geçici Simge Türleri',
       'Guidance shown after a user logs in with an email link and is prompted to link an external account.' => 'Bir kullanıcı bir e-posta bağlantısıyla oturum açtıktan ve harici bir hesabı bağlaması istendiğinde gösterilen kılavuz.',
-      'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a COnduit method is "%s" (for example, "%s"). Check your configuration.' => 'HATA: "%s" için bir Conduit API isteği yapıyorsunuz, ancak bir Conduit yöntemine erişmek için kullanılacak doğru HTTP istek yolu "%s" (örneğin, "%s"). Yapılandırmanızı kontrol edin.',
       'Register' => 'Kaydol',
       'Anonymous Username' => 'Anonim Kullanıcı Adı',
       'Allow users to receive a code via SMS.' => 'Kullanıcıların SMS yoluyla kod almasına izin ver.',
@@ -964,13 +953,24 @@ final class PhabricatorAuthTr
       'Log Out Anyway' => 'Yine de Çıkış Yap',
       'Set Primary Contact Number' => 'Birincil İletişim Numarasını Ayarla',
       'You are logged in as %s, but the email address you just clicked a link from is already verified and associated with another account (%s). Switch accounts, then try again.' => '%s olarak giriş yaptınız, ancak bir bağlantıyı yeni tıkladığınız e-posta adresi zaten doğrulandı ve başka bir hesapla (%s) ilişkilendirildi. Hesaplar arasında geçiş yapın, ardından tekrar deneyin.',
+      'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.' => 'Kimlik doğrulaması yaptığınız harici hesap ("%s"), bu Phabricator yüklemesinde hesap bağlantısına izin verecek şekilde yapılandırılmamış. Bir yönetici yakın zamanda devre dışı bırakmış olabilir.',
       'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.' => 'Önce daha güçlü algoritmalar listelenir. Vurgulanan algoritma yeni karmaları saklarken kullanılacaktır. Eski karmalar zaman içinde en iyi algoritmaya yükseltilir.',
       'These auth factors will be stripped:' => 'Bu kimlik doğrulama faktörleri kaldırılacaktır:',
       'Contact numbers must have a contact number.' => 'İrtibat numaralarının bir irtibat numarası olmalıdır.',
       'Engine: Session' => 'Motor: Oturum',
+      '**Step 2 of 2 - Configure OAuth Server**
+    To configure OAuth, create a new application here:
+    %s/oauthserver/client/create/
+    When creating your application, use these settings:
+      - **Redirect URI:** Set this to: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Adım 2/2 - Phabricator OAuth Örneğini Yapılandırma**
+    Phabricator OAuth\'u yapılandırmak için burada yeni bir uygulama oluşturun:
+    %s/oauthserver/client/create/
+    Uygulamanızı oluştururken şu ayarları kullanın:
+      - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `%s`
+    Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**\'nı yukarıdaki alanlara kopyalayın. (Önce \'Yeni Gizli\'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)',
       'Require Existing Duo Account' => 'Mevcut Duo Hesap İste',
       'Upload SSH Public Key' => 'SSH Genel Anahtarını Yükle',
-      'Phabricator will automatically login with this provider if it is the only available provider.' => 'Phabricator, mevcut tek sağlayıcıysa bu sağlayıcıyla otomatik olarak oturum açar.',
       'No such user "%s"!' => 'Böyle bir "%s" kullanıcı yok!',
       '%s changed the hostname for this provider from %s to %s.' => '%s, bu sağlayıcı için ana makine adını %s üzerinden %s olarak değiştirdi.',
       'Wait for Approval' => 'Onay için Bekle',
@@ -981,8 +981,6 @@ final class PhabricatorAuthTr
       'Application secret is required.' => 'Uygulama sırrı gereklidir.',
       'Authentication Failure' => 'Kimlik Doğrulama Hatası',
       'Use %s to choose a user to reset actions for.' => 'İşlemleri sıfırlayacak bir kullanıcı seçmek için %s kullanın.',
-      'Continue to Phabricator' => 'Phabricator\'a devam et',
-      'Log in to Phabricator' => 'Phabricator\'da oturum açın',
       'LDAP Username' => 'LDAP Kullanıcı Adı',
       'Parsed Address' => 'Ayrıştırılmış Adres',
       'Login and Registration Providers' => 'Giriş ve Kayıt Sağlayıcıları',
@@ -995,7 +993,6 @@ final class PhabricatorAuthTr
       'You already have SMS authentication attached to your account.' => 'Hesabınıza zaten SMS kimlik doğrulaması eklenmiş durumda.',
       'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Hesabınıza bir mobil kimlik doğrulayıcı uygulaması (Authy veya Google Authenticator gibi) ekleyin. Kimlik doğrulamanız gerektiğinde, telefonunuzda gösterilen bir kodu girersiniz.',
       'The login link you clicked is invalid, out of date, or has already been used.' => 'Tıkladığınız giriş bağlantısı geçersiz, eski veya zaten kullanılmış.',
-      '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new Phabricator accounts and log in.' => '%s Henüz kimlik doğrulama sağlayıcıları eklemediniz. Kullanıcıların yeni Phabricator hesapları kaydetmesine ve giriş yapmasına olanak tanıyan bir sağlayıcı eklemek için "%s" kullanın.',
       'Message Text' => 'Mesaj Metni',
       'Revoke all credentials types.' => 'Tüm kimlik bilgileri türlerini iptal edin.',
       'Good password should match.' => 'İyi parola eşleşmelidir.',
@@ -1003,8 +1000,6 @@ final class PhabricatorAuthTr
       'Previously Invited' => 'Önceden Davet Edildi',
       'LDAP search failed.' => 'LDAP araması başarısız oldu.',
       'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Bu özel anahtar sağlanan parola ile açılamıyor. Bu parolanın yanlış olduğu ya da anahtarın doğru biçimlenmediği anlamına gelebilir. Geçerli bir özel anahtarın tüm metnini ve doğru parolayı sağladığınızı kontrol edin.',
-      'Updated; Phabricator does not trust OAuth client %s.' => 'Güncellenmiş; Phabricator, OAuth istemcisine %s güvenmiyor.',
-      'Phabricator is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => 'Phabricator, bir e-posta alan beyaz listesiyle (%s içinde) yapılandırılır, bu nedenle yalnızca bu %s alanından birinde doğrulanmış e-posta adresine sahip kullanıcılar bir hesap kaydedebilir: %s',
       'Allow Auto Login' => 'Otomatik Girişe İzin Ver',
       'Expected invite accepted (%s).' => 'Beklenen davet kabul edildi (%s).',
       'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Not: Bir kimlik doğrulama sağlayıcısının bağlantısının kaldırılması, diğer tüm etkin oturumları sonlandırır.',
@@ -1013,19 +1008,17 @@ final class PhabricatorAuthTr
       'Allow Linking Accounts' => 'Hesapları Bağlamaya İzin Ver',
       '%s created this MFA provider.' => '%s bu MFA sağlayıcısını oluşturdu.',
       'To enable the login flow, follow setup guidance and configure at least one authentication provider, then associate credentials with your account. After completing these steps, you will be able to log out and log back in normally.' => 'Giriş akışını etkinleştirmek için, kurulum rehberini takip edin ve en azından bir tane yetkilendirme sağlayıcısı ayarlayın, ardından hesabınızla kimlik bilgilerini eşleştirin. Bu adımları tamamladıktan sonra, çıkış yapıp normal olarak giriş yapabilirsiniz.',
-      'Phabricator instance name must contain only lowercase letters, digits, and periods.' => 'Phabricator örnek adı yalnızca küçük harf, rakam ve nokta içermelidir.',
       'This is the only external login account linked to your Phabicator account. If you remove it, you may no longer be able to log in.' => 'Bu, Phabicator hesabınıza bağlı tek harici giriş hesabıdır. Kaldırırsanız, artık giriş yapamayabilirsiniz.',
       'You have not completed Duo enrollment yet. Complete enrollment, then click continue.' => 'Duo kaydını henüz tamamlamadınız. Kaydı tamamlayın, ardından devam et\'i tıklayın.',
       'Always Search' => 'Her Zaman Ara',
       'Allow Registration' => 'Kayda İzin Ver',
       'Use this link to recover access to the "%s" account from the web interface:' => 'Web arayüzünden "%s" hesabına erişimi kurtarmak için bu bağlantıyı kullanın:',
       'Change Enroll Message' => 'Kayıt Mesajını Değiştir',
-      'Your Phabricator account is already linked to an external account for this provider.' => 'Phabricator hesabınız zaten bu sağlayıcı için harici bir hesaba bağlı.',
       'You can safely ignore these warnings if the install itself has access controls (for example, it is deployed on a VPN) or if all of the configured providers have access controls (for example, they are all private LDAP or OAuth servers).' => 'Yüklemenin kendisinde erişim denetimleri varsa (örneğin, bir VPN\'de dağıtılmışsa) veya yapılandırılan tüm sağlayıcıların erişim denetimleri varsa (örneğin, tümü özel LDAP veya OAuth sunucularıysa) bu uyarıları güvenle yok sayabilirsiniz.',
+      'The external service ("%s") you just authenticated with is not configured to allow registration on this server. An administrator may have recently disabled it.' => 'Yeni kimlik doğrulaması yaptığınız harici hesap ("%s"), bu Phabricator yüklemesinde kayda izin verecek şekilde yapılandırılmamış. Bir yönetici yakın zamanda devre dışı bırakmış olabilir.',
       'SSH keys inherit the policies of the user or object they authenticate.' => 'SSH anahtarları, kimlik doğrulaması yaptıkları kullanıcının veya nesnenin ilkelerini devralır.',
       'Duo Username: %s' => 'Duo Kullanıcı Adı: %s',
       'Check Your Email' => 'E-postanı Kontrol Et',
-      'Phabricator instance name is required.' => 'Phabricator örnek adı gerekli.',
       'Captcha' => 'Captcha',
       'Email record has invalid user PHID!' => 'E-posta kaydında geçersiz kullanıcı PHID\'si var!',
       'No Matching Tokens' => 'Eşleşen Anahtar Yok',
@@ -1046,6 +1039,7 @@ final class PhabricatorAuthTr
       'Unable to refresh token!' => 'Anahtar yenilenemiyor!',
       '%s changed the status of this provider from %s to %s.' => '%s, bu sağlayıcının durumunu %s üzerinden %s değiştirdi.',
       'Consumer Key' => 'Tüketici Anahtarı',
+      'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.' => 'Bu hesapla ilişkilendirilmiş e-posta adresi ("%s") zaten bir uygulama tarafından kullanılıyor ve yeni bir Phabricator hesabı kaydetmek için kullanılamıyor. Farklı, geçerli bir adres seçin.',
       'Logging in will verify %s as an email address you own.' => 'Giriş yaptığınızda, %s size ait bir e-posta adresi olarak doğrulanacaktır.',
       'Not a Valid Email Address' => 'Geçerli Olmayan E-posta Adresi',
       'SSH Keys' => 'SSH Anahtarları',
@@ -1079,6 +1073,7 @@ final class PhabricatorAuthTr
       'You can not make a disabled number a primary contact number.' => 'Devre dışı bırakılmış bir numarayı birincil kişi numarası yapamazsınız.',
       'Use TLS' => 'TLS kullanın',
       'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'Bu kurulumda "%s" yapılandırma seçeneği etkin, ancak yapılandırılmış etkin çok faktörlü sağlayıcı yok. Bu MFA eklemeniz gerektiği anlamına gelir, ancak bunu yapmanız da önlenir. Bir yöneticinin "%s" işlevini devre dışı bırakması veya devam edebilmeniz için bir MFA sağlayıcısını etkinleştirmesi gerekir.',
+      'You will no longer be able to use your %s account to log in.' => 'Artık Phabricator\'da oturum açmak için %s hesabınızı kullanamayacaksınız.',
       'Auth Invite' => 'Yetkilendirme Daveti',
       'Instructions on the "Wait For Approval" screen, shown to users who have registered an account that has not yet been approved by an administrator.' => '"Onay Bekleyin" ekranındaki talimatlar, bir hesap oluşturmuş ancak hesabı bir yönetici tarafından henüz onaylanmamış olan kullanıcılara gösterilir.',
       'Username/Password' => 'Kullanıcı Adı/Parola',
@@ -1087,7 +1082,6 @@ final class PhabricatorAuthTr
       'CHANGES TO ENROLL MESSAGE' => 'MESAJ KAYDETME DEĞİŞİKLİKLERİ',
       'Duo enrollment mode ("%s") is not supported.' => 'Duo kayıt modu ("%s") desteklenmiyor.',
       'Duo Username' => 'Duo Kullanıcı Adı',
-      'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => 'Kullanıcıların Phabricator\'da oturum açmak için LDAP kimlik bilgilerini kullanabilmeleri için bir LDAP sunucusuna bağlantı yapılandırın.',
       'Status "%s" is invalid. Valid statuses are: %s.' => '"%s" durumu geçersiz. Geçerli durumlar: %s.',
       'Email Address Already in Use' => 'E-posta Adresi Zaten Kullanımda',
       'Administrative approvals are enabled (in %s), so all new users must have their accounts approved by an administrator.' => 'Yönetici onayları etkinleştirilir (%s içinde), bu nedenle tüm yeni kullanıcıların hesaplarını bir yönetici tarafından onaylaması gerekir.',
@@ -1101,7 +1095,7 @@ final class PhabricatorAuthTr
     JIRA görevlerinde Revizyonların nasıl kaydedileceğini yapılandırın.
     Bunun etkili olması için arka plan pencerelerini yeniden başlatmanız gerektiğini unutmayın.',
       'Credential ("%s") is not valid.' => 'Kimlik bilgisi ("%s") geçerli değil.',
-      '[Phabricator] %s has invited you to join Phabricator' => '[Phabricator] %s sizi Phabricator\'a katılmaya davet etti',
+      'Base URI is required.' => 'Phabricator temel URI\'si gereklidir.',
       'No valid linkable account.' => 'Bağlanabilir geçerli bir hesap yok.',
       'There are no configured default registration providers.' => 'Yapılandırılmış varsayılan kayıt sağlayıcısı yok.',
       'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.' => 'Kimlik doğrulama sağlayıcısı yanıtında doğru istemci durumu parametresini döndürmedi. Bu sorun devam ederse, çerezlerinizi temizlemeniz gerekebilir.',

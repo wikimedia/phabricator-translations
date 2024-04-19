@@ -14,21 +14,18 @@ final class PhabricatorHarbormasterCa
       'Updating build %d of buildable %s...' => 'S\'està actualitzant la construcció %s del %s construïble...',
       'Unable to Pause Build' => 'No es pot posar en pausa la construcció',
       'Search for builds by containing revision or repository.' => 'Cerqueu construccions contenint una revisió o un repositori.',
-      'You do not have permission to restart this build.' => 'No teniu permís per reiniciar aquesta construcció.',
       'Buildkite did not return a "%s"!' => 'Buildkite no ha retornat cap \'%s\'!',
       'Behavior: %s' => 'Comportament: %s',
       'Build Passed' => 'Construcció aprovada',
+      'You can only restart some builds.' => 'Només teniu permís per reiniciar algunes construccions.',
       'Resume Build' => 'Reprèn la construcció',
       'Retrieve information about Harbormaster build targets.' => 'Rescata informació sobre els objectius de construcció de Harbormaster.',
       'Unable to identify the protocol for URI "%s". URIs must be fully qualified and have an identifiable protocol.' => 'No es pot identificar el protocol per a l\'URI "%s". Els URI han d’estar completament qualificats i tenir un protocol identificable.',
-      'You only have permission to restart some builds.' => 'Només teniu permís per reiniciar algunes construccions.',
       'PHID of the object this build is building.' => 'PHID de l\'objecte que està construint aquesta construcció.',
       'No build plans found.' => 'No s\'ha trobat cap pla de construcció.',
       'Artifact "%s" not found!' => 'Artefacte "%s" no trobat!',
       'Run a command on Drydock resource.' => 'Executeu una ordre al recurs Drydock.',
       'Severity of the message.' => 'Severitat del missatge.',
-      'Really restart builds?' => 'Voleu reiniciar les construccions?',
-      'You only have permission to resume some builds. Work will continue on builds you have permission to resume.' => 'Només teniu permís per reprendre algunes construccions. Es continuarà treballant en les construccions que tingueu permís per reprendre.',
       'Unsound' => 'Dubtós',
       'Run a build in CircleCI.' => 'Executeu una construcció a CircleCI.',
       'View External Build Results' => 'Visualitza els resultats de la construcció externa',
@@ -39,19 +36,15 @@ final class PhabricatorHarbormasterCa
       'Browse Builds' => 'Navega per les construccions',
       'Expected "%s" property to contain a dictionary.' => 'S\'esperava que la propietat \'%s\' contingués un diccionari.',
       'You must have edit permission on this build plan to pause, abort, resume, or restart it.' => 'Heu de tenir permís d\'edició en aquest pla de construcció per aturar-lo, avortar-lo, reprendre\'l o reiniciar-lo.',
-      'Unable to Restart Builds' => 'No es pot reiniciar les construccions',
       'Revisions are not sent for review until the build completes, but they will be sent for review even if it fails.' => 'Les revisions no s’envien a revisió fins que no s’acaba la construcció, però s’enviaran a revisió fins i tot si falla.',
       'Output Artifacts' => 'Artefactes de sortida',
-      'Stores a reference to file data which has been uploaded to Phabricator.' => 'Emmagatzema una referència a les dades de fitxers que s\'han carregat a Phabricator.',
       'Manage Build Plans' => 'Gestioneu els plans de construcció',
       'Default Build Plan View Policy' => 'Política de visualització del pla de construcció predeterminat',
-      'No builds can be resumed.' => 'No es pot reprendre cap construcció.',
       'Choose a build target to attach the log to with "--target".' => 'Trieu un objectiu de construcció al qual associar el registre amb "--target".',
       'Build Preparing' => 'Preparació de la construcció',
       'This test result has %s bytes of Remarkup test details. Remarkup blocks longer than %s bytes are not rendered inline when showing test summaries.' => 'Aquest resultat de la prova té %s bytes de detalls de la prova de ressaltat. Els blocs de notes de més de %s bytes no es renderitzen en línia quan es mostren resums de proves.',
       'This build can not be restarted because it is an automatic build.' => 'Aquesta construcció no es pot reiniciar perquè és una construcció automàtica.',
       'Specify exactly one buildable, by object name.' => 'Especifiqueu exactament un de construïble, per nom d\'objecte.',
-      'This build is not paused. You can only resume a paused build.' => 'Aquesta construcció no està en pausa. Només podeu reprendre una construcció en pausa.',
       'Unable to Abort Build' => 'No es pot interrompre la construcció',
       'Build Target' => 'Construeix un objectiu',
       'Unable to determine how to fetch changes: this buildable does not identify a commit or a staging ref. You may need to configure a repository staging area.' => 'No es pot determinar com recuperar els canvis: aquest construïble no identifica cap ref. de validació ni de preparació. És possible que hàgiu de configurar una àrea de preparació del repositori.',
@@ -63,7 +56,6 @@ final class PhabricatorHarbormasterCa
       'Search for targets of a given build.' => 'Cerqueu objectius d\'una construcció determinada.',
       'Enable Build Plan' => 'Activa el pla de construcció',
       'Webhook Token' => 'Testimoni de Webhook',
-      'Publish a fragment based on a file artifact.' => 'Publicar un fragment basat en un artefacte de fitxer.',
       'When creating an artifact, you will choose an `artifactType` from this table. These types of artifacts are supported:' => 'Quan creeu un artefacte, escollireu un "artifactType" en aquesta taula. S’admeten aquests tipus d’artefactes:',
       'Aborting' => 'Avortant',
       'A buildable inherits policies from the underlying object.' => 'Un construïble hereta les polítiques de l\'objecte subjacent.',
@@ -76,7 +68,6 @@ final class PhabricatorHarbormasterCa
       'Compress, decompress, store or destroy build logs.' => 'Comprimir, descomprimir, emmagatzemar o destruir registres de construcció.',
       'The build the target is associated with.' => 'La construcció a la qual s\'associa l\'objectiu.',
       'Default Build Plan Edit Policy' => 'Política d\'edició del pla de construcció predeterminada',
-      'You do not have permission to pause any builds.' => 'No teniu permís per aturar cap construcció.',
       'Abort Older Builds' => 'Avorta les construccions anteriors',
       'Pause Build' => 'Pausa la construcció',
       'Interacting with External Build Systems' => 'Interacció amb sistemes de construcció externs',
@@ -86,7 +77,6 @@ final class PhabricatorHarbormasterCa
       'No artifacts found.' => 'No s\'ha trobat cap artefacte.',
       'A build step has the same policies as its build plan.' => 'Una etapa de construcció té les mateixes polítiques que el seu pla de construcció.',
       'Wait for previous commits to finish building the current plan before continuing.' => 'Espereu les validacions anteriors per acabar de construir el pla actual abans de continuar.',
-      '%s created this build.' => '%s ha creat aquesta construcció.',
       'Explicitly update the builds for __buildable__.' => 'Actualitzeu explícitament les construccions de __buildable__.',
       'Path to the file where the test is declared, relative to the project root.' => 'Ruta d\'accés al fitxer on es declara la prova, en relació amb l\'arrel del projecte.',
       'Lint message code identifying the type of message, like "ERR123".' => 'Codi de missatge del lint que identifica el tipus de missatge, com ara "ERR123".',
@@ -97,11 +87,9 @@ final class PhabricatorHarbormasterCa
       'Buildables' => 'Construïbles',
       'The artifact key.' => 'La clau de l\'artefacte.',
       'Build step "%s" has step group key "%s", but no step group with that key exists.' => 'L\'etapa de construcció «%s» té la clau de grup d\'etapes «%s», però no existeix cap grup d\'etapes amb aquesta clau.',
-      'No builds can be aborted.' => 'No es pot interrompre cap construcció.',
       'Invalid buildable PHID "%s".' => 'El PHID del construïble \'%s\' no és vàlid.',
       'Find out information about buildables.' => 'Obteniu informació sobre construïbles.',
       'ID of build plan to run.' => 'Identificador del pla de construcció per executar.',
-      'This build is already resuming. You can not reissue a resume command to a resuming build.' => 'Aquesta construcció ja s\'està reprenent. No podeu tornar a emetre una ordre de represa a una construcció que ja ho està fent.',
       'Run Build Plan Manually' => 'Executeu el pla de construcció manualment',
       'Limit the rate at which the log is written, to test live log streaming.' => 'Limiteu la velocitat amb què s’escriu el registre per provar la transmissió de registres en directe.',
       '%s created this build plan.' => '%s ha creat aquest pla de construcció.',
@@ -110,7 +98,6 @@ final class PhabricatorHarbormasterCa
       'Epoch timestamp for target completion, if the target has completed.' => 'Segell de temps d\'època per a la realització de l\'objectiu, si l\'objectiu s\'ha completat.',
       'Build plan "%s" does not exist.' => 'El pla de construcció \'%s\' no existeix.',
       'Force the buildable to update even if no build status changes occur during normal update.' => 'Força l\'actualització del construïble fins i tot si no hi ha canvis d\'estat de construcció durant l\'actualització normal.',
-      'You only have permission to abort some builds. Work will halt immediately on builds you have permission to abort. Progress will be discarded, and builds must be completely restarted if you want them to complete.' => 'Només teniu permís per interrompre algunes construccions. El treball s’aturarà immediatament a les construccions que tingueu permís per avortar. El progrés es descartarà i les construccions s\'han de reiniciar completament si voleu que es completin.',
       'Request OK
     ' => 'OK la sol·licitud',
       '%s restarted this build.' => '%s ha reiniciat aquesta construcció.',
@@ -120,7 +107,6 @@ final class PhabricatorHarbormasterCa
       'Drydock: Run Command' => 'Drydock: executa l\'ordre',
       'This attachment exists solely to provide compatibility with the message format returned by an outdated API method. It will be taken away at some point and you should not rely on these fields being available.' => 'Aquest adjunt només existeix per proporcionar compatibilitat amb el format de missatge retornat per un mètode API obsolet. S\'emportarà en algun moment i no ha de confiar que aquests àmbits estiguin disponibles.',
       'The build plan name.' => 'El nom del pla de construcció.',
-      'You do not have permission to resume any builds.' => 'No teniu permís per reprendre cap construcció.',
       'View Current Build' => 'Visualitza la construcció actual',
       'Build target this log is attached to.' => 'Objectiu de construcció adjunt a aquest registre.',
       'Work will continue on all builds. Really resume?' => 'El treball continuarà en totes les construccions. Segur que voleu reprendre\'l?',
@@ -148,7 +134,6 @@ final class PhabricatorHarbormasterCa
       'The name of this build.' => 'El nom d\'aquesta construcció.',
       'File PHID "%s" does not correspond to a valid file.' => 'El PHID de fitxer \'%s\' no correspon a cap fitxer vàlid.',
       'Name one or more buildables to publish, like "B123".' => 'Nom un o més construïbles per publicar, com "B123".',
-      'Invalid Harbormaster build command "%s".' => 'Ordre de construcció "%s" de Harbormaster no vàlida.',
       'All Builds' => 'Totes les construccions',
       'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'L\'objecte ("%s") afirma que "%s" és un URI del repositori GitHub, però la ruta d\'accés ("%s") no té prou components (s\'espera almenys dos).',
       'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
@@ -166,7 +151,6 @@ final class PhabricatorHarbormasterCa
       'No behavior with key "%s" exists. Valid keys are: %s.' => 'No existeix cap comportament amb la clau «%s». Les claus vàlides són: %s.',
       'Really restart build?' => 'Reiniciar la construcció?',
       '%s renamed this build plan from "%s" to "%s".' => '%s ha reanomenat aquest pla de construcció de \'%s\' a \'%s\'.',
-      'Expected to be unable to restart build.' => 'S\'esperava no poder reiniciar la construcció.',
       '%s resumed this buildable.' => '%s ha reprès aquest construïble.',
       'You can not process build log chunks unless the log lock is held.' => 'No podeu processar trossos de registre de construcció tret que el bloqueig del registre estigui retingut.',
       'No buildables found.' => 'No s\'ha trobat cap construïble.',
@@ -174,11 +158,9 @@ final class PhabricatorHarbormasterCa
       'References a host lease from Drydock.' => 'Fa referència a un arrendament d’amfitrió de Drydock.',
       'Type a build status name...' => 'Tecleja un nom d\'estat de construcció...',
       'Short message name, like "Syntax Error".' => 'Nom del missatge curt, com ara "Error de sintaxi".',
+      'Stores a reference to file data.' => 'Emmagatzema una referència a les dades de fitxers que s\'han carregat a Phabricator.',
       'Buildkite' => 'Buildkite',
-      'Really resume builds?' => 'Voleu reprendre les construccions?',
-      'Use one of --id or --active to select builds, but not both.' => 'Utilitzeu un de --id o --active per seleccionar construccions, però no totes dues.',
       'Create a build artifact.' => 'Crear un artefacte de construcció.',
-      'This build is already pausing. You can not reissue a pause command to a pausing build.' => 'Aquesta construcció ja està en pausa. No podeu tornar a publicar una ordre de pausa a una construcció en pausa.',
       'HTTP Request' => 'Sol·licitud HTTP',
       'Optional label for this URI.' => 'Etiqueta opcional per a aquest URI.',
       'Build Log' => 'Registre de construcció',
@@ -224,7 +206,6 @@ final class PhabricatorHarbormasterCa
       'Trigger a build in Buildkite.' => 'Activeu una construcció a Buildkite.',
       'Search for only manual or automatic buildables.' => 'Cerca només els construïbles manuals o automàtics.',
       'Harbormaster Build Targets' => 'Objectius de construcció de Harbormaster',
-      '%s created this buildable.' => '%s ha creat aquesta construcció.',
       'The current status of this build.' => 'L\'estat actual d\'aquesta construcció.',
       'Make an HTTP %s request to %s.' => 'Feu una sol·licitud HTTP de %s a %s.',
       'Status "%s" is not a valid build plan status. Valid statuses are: %s.' => 'L\'estat \'%s\' no és un estat de pla de construcció vàlid. Els estats vàlids són: %s.',
@@ -252,12 +233,10 @@ final class PhabricatorHarbormasterCa
       'You must choose a name for your build plan.' => 'Heu de triar un nom per al vostre pla de construcció.',
       'If you abort all builds, work will halt immediately. Work will be discarded, and builds must be completely restarted.' => 'Si avorteu totes les construccions, el treball s\'aturarà immediatament. Es descartarà el treball i s’hauran de reiniciar completament les construccions.',
       'Argument "%s" does not name a buildable. Provide one or more valid buildable monograms or PHIDs.' => 'L\'argument "%s" no anomena un constructor. Proporcioneu un o més monogrames construïbles i vàlids o PHID.',
-      'This build is already paused. You can not pause a build which has already been paused.' => 'Aquesta construcció ja està en pausa. No podeu posar en pausa una construcció que ja s\'ha aturat.',
       'The ID of the current build.' => 'L\'identificador de la construcció actual.',
       'Progress on running builds will be discarded.' => 'Es descartarà el progrés de les construccions en execució.',
       'Submit builds into the build queue normally instead of running them in the foreground.' => 'Envieu les construccions a la cua de construcció normalment en lloc d’executar-les en primer pla.',
       '%s resumed this build.' => '%s ha reprès aquesta construcció.',
-      'Really abort builds?' => 'Interrompre les construccions?',
       'Bad build target ID "%d".' => 'ID d\'objectiu de construcció «%s» incorrecte.',
       'Restart %s build(s)?' => 'Reprendre %s construccions?',
       'This build log is already open!' => 'Aquest registre de construcció ja està obert!',
@@ -279,7 +258,6 @@ final class PhabricatorHarbormasterCa
       'Query information about build artifacts.' => 'Consulteu informació sobre artefactes de construcció.',
       'No behavior option is marked as the default option (for behavior "%s"). Exactly one option must be marked as the default option.' => 'No s\'ha marcat cap opció de comportament com a opció predeterminada (per al comportament «%s»). Cal marcar exactament una opció com a opció per defecte.',
       'Select all active builds.' => 'Seleccioneu totes les construccions actives.',
-      'Use --id or --active to select builds.' => 'Utilitzeu --id o --active per seleccionar construccions.',
       'Build Plans' => 'Plans de construcció',
       'Unable to load build target "%s".' => 'No es pot carregar l\'objectiu de construcció \'%s\'.',
       'Retrieve information about Harbormaster build plans.' => 'Rescata informació sobre els plans de construcció de Harbormaster.',
@@ -290,7 +268,6 @@ final class PhabricatorHarbormasterCa
       'Edit Build Plan' => 'Edita el pla de construcció',
       'Select one or more builds by ID.' => 'Seleccioneu una o més construccions per identificador.',
       'No builds found.' => 'No s\'ha trobat cap construcció.',
-      'No builds can be paused.' => 'No es pot posar en pausa cap construcció.',
       'Status for the build target.' => 'Estat de l\'objectiu de construcció.',
       'Artifact Type' => 'Tipus d\'artefacte',
       'Object "%s" is not a HarbormasterBuildable (it is a "%s"). Name one or more buildables to publish, like "B123".' => 'L\'objecte \'%s\' no és un HarbormasterBuildable (és un \'%s\'). Anomeneu un o més elements construïbles per publicar, com ara \'B123\'.',
@@ -303,7 +280,6 @@ final class PhabricatorHarbormasterCa
       'Edit Build Plan: %s' => 'Edita el pla de construcció: %s',
       'View in Buildkite' => 'Veure a Buildkit',
       'Multiple behavior options (for behavior "%s") have the same key ("%s"). Each option must have a unique key.' => 'Les opcions múltiples de comportament (per al comportament «%s») tenen la mateixa clau («%s»). Cada opció ha de tenir una clau única.',
-      'You can not abort this build.' => 'No podeu interrompre aquesta construcció.',
       'Abort Build' => 'Interromp la construcció',
       'Artifacts' => 'Artefactes',
       '<Unknown Artifact Type>' => '<Unknown Artifact Type>',
@@ -313,25 +289,19 @@ final class PhabricatorHarbormasterCa
       'Unable to inflate log chunk!' => 'No es pot inflar el tros de registre!',
       'Search for artifacts attached to particular build targets.' => 'Cerqueu artefactes adjunts a objectius de construcció concrets.',
       'Search for builds with given statuses.' => 'Cerqueu construccions amb estats determinats.',
-      'Publish file artifact %s as fragment %s.' => 'Publica l\'artefacte de fitxer %s com a fragment %s.',
       'Restart Harbormaster builds.' => 'Reiniciar les construccions de Harbormaster.',
       'Value "%s" is not a valid option for behavior "%s". Valid options are: %s.' => 'El valor "%s" no és una opció vàlida per al comportament "%s".  Les opcions vàlides són: %s.',
       'Automatic `arc lint` step.' => 'Pas automàtic `arc lint`.',
       'PHID of the object containing this buildable.' => 'El PHID de l\'objecte que conté aquest construïble.',
-      'You do not have permission to restart any builds.' => 'No teniu permís per reiniciar cap construcció.',
       'The buildable does not wait for the build.' => 'El construïble no espera la construcció.',
-      'Publish Fragment' => 'Publica el fragment',
       'Search for builds of particular objects.' => 'Cerqueu construccions d\'objectes concrets.',
-      'Unable to Resume Builds' => 'No es poden reprendre les construccions',
       'Build Target ID to attach the log to.' => 'Creeu un identificador de destinació al qual adjuntar el registre.',
       'Restart Builds' => 'Reinicia les construccions',
-      'Unable to Abort Builds' => 'No es poden interrompre les construccions',
       'Trigger a build in CircleCI.' => 'Activeu una construcció a CircleCI.',
       'Aborted' => 'Interromput',
       'Create Build Step' => 'Crea una etapa de construcció',
       'Plan Behaviors' => 'Comportaments del pla',
       'If true, display this URI in the UI as an link to additional build details in an external build system.' => 'Si és cert, mostreu aquest URI a la IU com a enllaç a detalls de construcció addicionals en un sistema de construcció extern.',
-      'Resume' => 'Reprendre',
       'Write a new Harbormaster build log. This is primarily intended to make development and testing easier.' => 'Escriu un nou registre de construcció de Harbormaster. Es tracta principalment de facilitar el desenvolupament i les proves.',
       'Pause Builds' => 'Posa en pausa les construccions',
       'Resume Builds' => 'Reprèn les construccions',
@@ -350,7 +320,6 @@ final class PhabricatorHarbormasterCa
       'Type another build step name...' => 'Tecleja un altre nom d\'etapa de construcció...',
       '"arc land" warns if the build is still running, but ignores the build if it has failed.' => '\'arc land\' adverteix si la construcció segueix funcionant, però ignora la construcció si ha fallat.',
       'Users must be able to see a build target to see its artifacts.' => 'Els usuaris han de poder veure un objectiu de construcció per veure els seus artefactes.',
-      'File Artifact' => 'Artefacte d\'arxiu',
       'The buildable waits for the build, and fails if the build fails.' => 'El construïble espera la construcció i falla si la construcció falla.',
       'References a working copy lease from Drydock.' => 'Fa referència a un arrendament de còpia de treball de Drydock.',
       'PHID of the build plan being run.' => 'El PHID del pla de construcció que s\'està executant.',
@@ -359,8 +328,6 @@ final class PhabricatorHarbormasterCa
       'Data Hash' => 'Valor de hash de dades',
       'The specified buildable does not have a build with ID "%s".' => 'El construïble especificat no té una construcció amb l\'identificador \'%s\'.',
       'Find out information about builds.' => 'Obteniu informació sobre les construccions.',
-      'You only have permission to pause some builds. Once the current steps complete, work will halt on builds you have permission to pause. You can resume the builds later.' => 'Només teniu permís per aturar algunes construccions. Un cop finalitzades les etapes actuals, el treball s\'aturarà a les construccions que tingueu permís per aturar. Podeu reprendre les construccions més endavant.',
-      'You do not have permission to abort any builds.' => 'No teniu permís per avortar cap construcció.',
       'Buildkite request to target "%s" had the wrong authentication token. The Buildkite pipeline and Harbormaster build step must be configured with the same token.' => 'La sol·licitud de Buildkit per a la destinació «%s» tenia un testimoni d\'autenticació incorrecte. El pas de construcció de Buillkite i Harbormaster ha de configurar-se amb el mateix testimoni.',
       'Harbormaster Query Builds' => 'Construccions de consultes de Harbormaster',
       'HTTP Method' => 'Mètode d\'HTTP',
@@ -371,68 +338,6 @@ final class PhabricatorHarbormasterCa
       'If you pause this build, work will halt once the current steps complete. You can resume the build later.' => 'Si atureu aquesta construcció, el treball s\'aturarà un cop finalitzades les etapes actuals. Podeu reprendre la construcció més endavant.',
       'Object ("%s") does not implement interface "%s". Only objects which implement this interface can be built with CircleCI.' => 'L\'objecte (\'%s\') no implementa la interfície \'%s\'. Només es poden construir objectes que implementin aquesta interfície amb CircleCI.',
       'Build Target %d' => 'Objectiu de construcció de %s',
-      'Send a message about the status of a build target to Harbormaster, notifying the application of build results in an external system.
-    Sending Messages
-    ================
-    If you run external builds, you can use this method to publish build results back into Harbormaster after the external system finishes work or as it makes progress.
-    The simplest way to use this method is to call it once after the build finishes with a `pass` or `fail` message. This will record the build result, and continue the next step in the build if the build was waiting for a result.
-    When you send a status message about a build target, you can optionally include detailed `lint` or `unit` results alongside the message. See below for details.
-    If you want to report intermediate results but a build hasn\'t completed yet, you can use the `work` message. This message doesn\'t have any direct effects, but allows you to send additional data to update the progress of the build target. The target will continue waiting for a completion message, but the UI will update to show the progress which has been made.
-    Message Types
-    =============
-    When you send Harbormaster a message, you must include a `type`, which describes the overall state of the build. For example, use `pass` to tell Harbormaster that a build completed successfully.
-    Supported message types are:
-    %s
-    Unit Results
-    ============
-    You can report test results alongside a message. The simplest way to do this is to report all the results alongside a `pass` or `fail` message, but you can also send a `work` message to report intermediate results.
-    To provide unit test results, pass a list of results in the `unit` parameter. Each result should be a dictionary with these keys:
-    %s
-    The `result` parameter recognizes these test results:
-    %s
-    This is a simple, valid value for the `unit` parameter. It reports one passing test and one failing test:
-    ```lang=json
-    %s```
-    Lint Results
-    ============
-    Like unit test results, you can report lint results alongside a message. The `lint` parameter should contain results as a list of dictionaries with these keys:
-    %s
-    The `severity` parameter recognizes these severity levels:
-    %s
-    This is a simple, valid value for the `lint` parameter. It reports one error and one warning:
-    ```lang=json
-    %s```
-    ' => 'Envia un missatge sobre l\'estat d\'un objectiu de construcció a Harbormaster, notificant l\'aplicació de la construcció resulta en un sistema extern. 
-    Enviant missatges
-    ================
-    Si executeu construccions externes, podeu utilitzar aquest mètode per publicar els resultats de construcció de nou a Harbormaster després que el sistema extern acabi de funcionar o a mesura que avança. 
-    La manera més simple d\'utilitzar aquest mètode és trucar-lo una vegada després que la construcció acabi amb un missatge `pass` o `fail`. Això registrarà el resultat de la construcció, i continuarà el següent pas en la construcció si la construcció estava esperant un resultat. 
-    Quan envieu un missatge d\'estat sobre un objectiu de construcció podeu incloure de manera opcional els resultats detallats d\' `lint` o `unit` al costat del missatge. Vegeu a continuació per a més detalls. 
-    Si voleu informar de resultats intermedis però encara no s\'ha completat una construcció podeu utilitzar el missatge `treball`. Aquest missatge no té cap efecte directe, però permet enviar dades addicionals per actualitzar el progrés de l\'objectiu de construcció. L\'objectiu continuarà esperant un missatge de finalització, però la IU s\'actualitzarà per a mostrar el progrés realitzat. 
-    Tipus de missatges
-    ==============
-    Quan envieu un missatge a Harbormaster, heu d\'incloure un `tipus`, que descriu l\'estat general de construcció. Per exemple, utilitzeu `pass` per dir-li a Harbormaster que una construcció s\'ha completat amb èxit. 
-    Els tipus de missatges compatibles són: 
-    %s 
-    Resultats de la unitat
-    ============
-    Podeu informar dels resultats de la prova al costat d\'un missatge. La manera més simple de fer-ho és informar de tots els resultats juntament amb un missatge `pass` o `fall`, però també podeu enviar un missatge `work` per informar de resultats intermedis. 
-    Per proporcionar resultats de prova unitaris, passa una llista de resultats en el paràmetre `unit`. Cada resultat hauria de ser un diccionari amb aquestes claus: 
-    %s 
-    El paràmetre `resultat` reconeix aquests resultats de prova: 
-    %s 
-    Aquest és un valor simple i vàlid per al paràmetre `unit`. Informa d\'una prova de pas i d\'una prova de fracàs:
-    ```lang=json
-    %s```
-     Resultats del lint
-    ===================
-    Igual que els resultats de les proves unitàries, es poden informar de resultats lint al costat d\'un missatge. El paràmetre `lint` hauria de contenir resultats com una llista de diccionaris amb aquestes claus: 
-    %s 
-    El paràmetre `severity` reconeix aquests nivells de gravetat: 
-    %s
-    Aquest és un valor simple i vàlid per al paràmetre `lint`. Informa d\'un error i un avís:
-    ```lang=json
-    %s```',
       'Make an HTTP request.' => 'Marca una sol·licitud HTTP',
       'Drydock Host' => 'Amfitrió del Drydock',
       'When users create revisions in Differential, the default behavior is to hold them in the "Draft" state until all builds pass. Once builds pass, the revisions promote and are sent for review, which notifies reviewers.
@@ -447,11 +352,6 @@ final class PhabricatorHarbormasterCa
       'Build Step %d: %s' => 'Etapa de construcció %s: %s',
       'Started %s build(s): %s.' => 'S\'han iniciat %s construccions: %s.',
       'Create an artifact of this type by passing `%s` as the `artifactType`. When creating an artifact of this type, provide these parameters as a dictionary to `artifactData`:' => 'Creeu un artefacte d\'aquest tipus passant "%s" com a "artifactType". Quan creeu un artefacte d\'aquest tipus, proporcioneu aquests paràmetres com a diccionari a "artifactData":',
-      'After completing this build step Harbormaster can continue the build normally, or it can pause the build and wait for a message. If you are using this build step to trigger some work in an external system, you may want to have Phabricator wait for that system to perform the work and report results back.
-    If you select **Continue Build Normally**, the build plan will proceed once this step finishes.
-    If you select **Wait For Message**, the build plan will pause indefinitely once this step finishes. To resume the build, an external system must call `harbormaster.sendmessage` with the build target PHID, and either `"pass"` or `"fail"` to indicate the result for this step. After the result is recorded, the build plan will resume.' => 'Després de completar aquest pas de construcció, Harbormaster pot continuar la construcció normalment, o pot aturar la construcció i esperar un missatge. Si esteu utilitzant aquest pas de construcció per activar alguna feina en un sistema extern, potser voldreu tenir Phabricator esperant que aquest sistema realitzi la feina i informe els resultats. 
-    Si seleccioneu **Continua la construcció normalment**, el pla de construcció procedirà un cop aquest pas acabi. 
-    Si seleccioneu **Accepta per al missatge**, el pla de construcció es posarà en pausa indefinidament una vegada que aquest pas acabi.  Per reprendre la construcció, un sistema extern ha de trucar. `harbormaster.sendmessage` amb el PHID de la construcció, i `"pass"` o `"fail"`per indicar el resultat d\'aquest pas. Després de registrar el resultat, el pla de construcció es reprendrà.',
       'Build with CircleCI' => 'Construeix amb CircleCI',
       'Users must be able to see a build to view its build targets.' => 'Els usuaris han de poder veure una construcció per veure els seus objectius de construcció.',
       'The PHID of the current build target.' => 'El PHID de l\'objectiu de construcció actual.',

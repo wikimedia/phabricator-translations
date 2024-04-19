@@ -9,7 +9,6 @@ final class PhabricatorDoorkeeperCa
 
   protected function getTranslations() {
     return array(
-      'Phabricator is running in silent mode.' => 'El Phabricator s\'està executant en mode silenciós.',
       'Available publishers class names are:' => 'Els noms de classe dels editors disponibles són:',
       'To enable synchronization into Asana, enter an Asana Workspace ID here.
     NOTE: This feature is new and experimental.' => 'Per activar la sincronització a Asana, introduïu aquí un ID d\'espai de treball Asana.
@@ -20,6 +19,9 @@ final class PhabricatorDoorkeeperCa
       '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s no té cap objecte visible a l\'altra banda; això indica que la tasca d\'Asana ha estat eliminada.',
       'Using publisher \'%s\'.' => 'S\'està utilitzant l\'editor «%s».',
       'Connect to Other Software' => 'Connecta a un altre programari',
+      'When %s creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in %s comes from. For example, you can add code reviews in Asana to a "Differential" project.
+    NOTE: This feature is new and experimental.' => 'Quan Phabricator crea tasques a Asana, pot afegir les tasques als projectes Asana basant-se en l\'aplicació de la qual prové l\'objecte corresponent a Phabricator. Per exemple, podeu afegir revisions de codi a Asana a un projecte "Differential". <br>
+    NOTA: Aquesta funcionalitat és nova i experimental.',
       'Failed to update object %s using user %s.' => 'No s\'ha pogut actualitzar l\'objecte %s utilitzant l\'usuari %s.',
       'You can find an Asana project ID by clicking the project in Asana and then examining the URL:
       lang=txt
@@ -33,13 +35,15 @@ final class PhabricatorDoorkeeperCa
                             Aquest és l\'ID a usar.',
       'No Asana provider configured.' => 'No s\'ha configurat cap proveïdor Asana.',
       'Asana integration options.' => 'Opcions d\'integració d\'Asana.',
+      '⚠ DO NOT EDIT THIS TASK ⚠
+    ☠ Your changes will not be reflected in %s.
+    ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ NO EDITEU AQUESTA TASCA ⚠
+    ☠ Els canvis no es reflectiran en el Phabricator.
+    ☠ Els canvis es destruiran la propera vegada que es sincronitzi l\'estat.',
       'JIRA integration is configured not to post anything.' => 'La integració de JIRA està configurada per no publicar res.',
       'Skipping main task update, object is no longer visible.' => 'Ometent l\'actualització principal de la tasca, l\'objecte ja no és visible.',
       'Doorkeeper' => 'Porter',
       'Imported From' => 'Importat Des De',
-      'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'Quan Phabricator crea tasques a Asana, pot afegir les tasques als projectes Asana basant-se en l\'aplicació de la qual prové l\'objecte corresponent a Phabricator. Per exemple, podeu afegir revisions de codi a Asana a un projecte "Differential". <br>
-    NOTA: Aquesta funcionalitat és nova i experimental.',
       'No related users have linked Asana accounts.' => 'Cap usuari relacionat té comptes Asana enllaçats.',
       'Story is about an unsupported object type.' => 'La història és sobre un tipus d\'objecte no admès.',
       'No JIRA provider configured.' => 'No s\'ha configurat cap proveïdor JIRA.',
@@ -50,11 +54,6 @@ final class PhabricatorDoorkeeperCa
       'Asana Task %s' => 'Tasca Asana %s',
       'GitHub Issue %s' => 'Error de GitHub %s',
       'Asana Workspace ID to publish into.' => 'ID de l\'espai de treball Asana on publicar.',
-      '⚠ DO NOT EDIT THIS TASK ⚠
-    ☠ Your changes will not be reflected in Phabricator.
-    ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ NO EDITEU AQUESTA TASCA ⚠
-    ☠ Els canvis no es reflectiran en el Phabricator.
-    ☠ Els canvis es destruiran la propera vegada que es sincronitzi l\'estat.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Eliminant el flanc de la subtasca a %s, l\'objecte estrany no és visible.',
       'Integration with Asana' => 'Integració amb Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'El treballador porter «%s» no està habilitat.',
@@ -78,6 +77,7 @@ final class PhabricatorDoorkeeperCa
       'GitHub User %s' => 'Usuari GitHub %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'L\'ID de la incidència de GitHub «%s» no està formatat correctament.  S\'esperava un ID en la forma «owner/repository#123».',
       'Workspace Name' => 'Nom de l\'espai de treball',
+      'This software is running in silent mode.' => 'El Phabricator s\'està executant en mode silenciós.',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'No s\'ha pogut trobar cap usuari Asana amb credencials vàlides per treure un testimoni OAuth.',
       'Synchronization of parent task from Asana failed!' => 'Ha fallat la sincronització de la tasca pare d\'Asana!',
       'Optional Asana projects to use as application tags.' => 'Projectes Asana opcionals per utilitzar com a etiquetes d\'aplicació.',

@@ -23,7 +23,7 @@ final class PhabricatorPasteZhHant
       'The author of a paste can always view and edit it.' => '張貼的作者可以對其查看與編輯。',
       'Create New Paste' => '建立新的張貼',
       'Default edit policy for newly created pastes.' => '新建立張貼的預設編輯方針。',
-      'Change language used for syntax highlighting.' => '更改用於語法凸顯的語言。',
+      'Change language used for syntax highlighting.' => '變更用於語法醒目標示的語言。',
       '(An Untitled Masterwork)' => '（未帶有標題的傑作）',
       'Active or archive the paste.' => '生效或封存張貼。',
       '%s created this paste.' => '%s建立了此張貼。',

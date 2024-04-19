@@ -22,7 +22,6 @@ final class PhabricatorOwnersZhHant
       'Auto review information.' => '自動檢閱資訊。',
       'Path Not Found On Default Branch' => '在預設分支找不到路徑',
       'Users and projects which own the package.' => '擁有該套件的使用者與專案。',
-      'Parameter should be a phid.' => '參數應為 phid。',
       'Packages: %s' => '套件：%s',
       'owner' => '擁有者',
       'The package description.' => '套件描述。',

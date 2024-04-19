@@ -45,7 +45,7 @@ final class PhabricatorFundFrFR
       'Back %s %s' => 'Soutenir %s %s.',
       '%s refunded %s to %s for %s.' => '%s a de nouveau financé %s à %s pour %s.',
       'Backers' => 'Soutiens',
-      'You do not have permission to create Fund initiatives.' => 'Vous n’avez pas le droit de créer des initiatives de financement.',
+      'You do not have permission to create Fund initiatives.' => 'Vous n’avez pas la permission de créer des initiatives de financement.',
       '%s set the merchant receiving funds from this initiative to %s.' => '%s a défini le marchand recevant les financements de cette initiative à %s.',
       'Unable to load %s!' => 'Impossible de charger %s !',
       '%s backed %s with %s.' => '%s a soutenu %s avec %s.',

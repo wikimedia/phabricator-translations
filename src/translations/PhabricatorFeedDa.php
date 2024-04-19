@@ -13,7 +13,6 @@ final class PhabricatorFeedDa
       'Story has no primary object!' => 'Historien har intet primære objekt!',
       'Republishing story...' => 'Genudgiver historie...',
       'Include Projects' => 'Inkluder projekter',
-      'Publish a story to the feed.' => 'Udgiv en historie til feedet.',
       'Include Users' => 'Inkluder brugere',
       'Story' => 'Historie',
       'No Stories.' => 'Ingen historier.',

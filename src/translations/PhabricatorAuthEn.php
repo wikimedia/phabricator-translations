@@ -19,13 +19,13 @@ final class PhabricatorAuthEn
     Generally, you should use this option only in a development environment where ssh-keygen is broken and it is inconvenient to fix it, and only if you are certain you understand the risks. You should never cache a PKCS8 file you did not generate yourself.',
       'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => 'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.',
       'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => 'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.',
-      'Specify an OAuth client id with %s.' => 'Specify an OAuth client id with %s.',
       'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => 'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.',
       'Edit Contact Number' => 'Edit Contact Number',
       'Passwords' => 'Passwords',
       'Algorithm' => 'Algorithm',
       'You must specify the username of the account to recover.' => 'You must specify the username of the account to recover.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.',
+      'Server name must contain only lowercase letters, digits, and periods.' => 'Server name must contain only lowercase letters, digits, and periods.',
       'Revoke Tokens' => 'Revoke Tokens',
       'There are too many configured default registration providers.' => 'There are too many configured default registration providers.',
       'Unlink "%s" Account?' => 'Unlink "%s" Account?',
@@ -47,7 +47,7 @@ final class PhabricatorAuthEn
     Click **Add Consumer** and create a new application.
     After completing configuration, copy the **Key** and **Secret** to the fields above.',
       'The account you are attempting to register or link is already linked to another user.' => 'The account you are attempting to register or link is already linked to another user.',
-      'The email address associated with this external account ("%s") is not a valid email address and can not be used to register a Phabricator account. Choose a different, valid address.' => 'The email address associated with this external account ("%s") is not a valid email address and can not be used to register a Phabricator account. Choose a different, valid address.',
+      'Base URI should include protocol (like "%s").' => 'Base URI should include protocol (like "%s").',
       'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.',
       'Must Verify Email' => 'Must Verify Email',
       'Expected "newResultForPrompt()" to return an object of class "%s", but it returned something else ("%s"; in "%s").' => 'Expected "newResultForPrompt()" to return an object of class "%s", but it returned something else ("%s"; in "%s").',
@@ -56,15 +56,14 @@ final class PhabricatorAuthEn
       'Edit MFA Provider' => 'Edit MFA Provider',
       'SSH Key Type' => 'SSH Key Type',
       '%s enabled auto login.' => '%s enabled auto login.',
-      'The email address ("%s") associated with the external account is already in use by an existing Phabricator account. Multiple Phabricator accounts may not have the same email address, so you can not use this email address to register a new Phabricator account.' => 'The email address ("%s") associated with the external account is already in use by an existing Phabricator account. Multiple Phabricator accounts may not have the same email address, so you can not use this email address to register a new Phabricator account.',
+      'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:' => 'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:',
       'Invalid OAuth Access Token' => 'Invalid OAuth Access Token',
       'Create Auth Message' => 'Create Auth Message',
       'Verify Email' => 'Verify Email',
       'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".',
       'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.',
-      'Phabricator already trusts OAuth client "%s".' => 'Phabricator already trusts OAuth client "%s".',
       'This factor recently issued a challenge which has expired. A new challenge can not be issued yet. Wait %s second(s) for the code to cycle, then try again.' => 'This factor recently issued a challenge which has expired. A new challenge can not be issued yet. Wait %s second(s) for the code to cycle, then try again.',
-      'Phabricator will skip email verification for accounts registered through this provider.' => 'Phabricator will skip email verification for accounts registered through this provider.',
+      'This is a terse test text message (from "%s").' => 'This is a terse test text message (from "%s").',
       'Path to public keyfile.' => 'Path to public keyfile.',
       'Strip all factors, regardless of type.' => 'Strip all factors, regardless of type.',
       'Enable the contact number %s?' => 'Enable the contact number %s?',
@@ -72,9 +71,9 @@ final class PhabricatorAuthEn
       'Sign this transaction group with MFA.' => 'Sign this transaction group with MFA.',
       '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)',
       'You have not configured any multi-factor providers yet.' => 'You have not configured any multi-factor providers yet.',
-      'The external account ("%s") you just authenticated with is not configured to allow account linking on this Phabricator install. An administrator may have recently disabled it.' => 'The external account ("%s") you just authenticated with is not configured to allow account linking on this Phabricator install. An administrator may have recently disabled it.',
       'Unable to Log In' => 'Unable to Log In',
-      'If you want to link an existing Phabricator account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'If you want to link an existing Phabricator account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.',
+      'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.',
+      'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.',
       'Session has already signed required legalpad documents!' => 'Session has already signed required legalpad documents!',
       'On the plus side, that purple notification bubble will disappear.' => 'On the plus side, that purple notification bubble will disappear.',
       'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.',
@@ -83,13 +82,11 @@ final class PhabricatorAuthEn
       'Expected valid JSON response from Disqus account data request.' => 'Expected valid JSON response from Disqus account data request.',
       'LDAP Port' => 'LDAP Port',
       'Really trust this PKCS8 keyfile?' => 'Really trust this PKCS8 keyfile?',
-      'Use Phabricator Username' => 'Use Phabricator Username',
       '%s updated the OAuth consumer key for this provider from "%s" to "%s".' => '%s updated the OAuth consumer key for this provider from "%s" to "%s".',
       'Contact number is already in use.' => 'Contact number is already in use.',
       'No such user "%s" to recover.' => 'No such user "%s" to recover.',
       'Expected \'%s\' to be \'%s\'!' => 'Expected \'%s\' to be \'%s\'!',
       'No public key was provided.' => 'No public key was provided.',
-      'Phabricator base URI should include protocol (like "%s").' => 'Phabricator base URI should include protocol (like "%s").',
       'Log In with LDAP' => 'Log In with LDAP',
       'Expected verifier to finish OAuth handshake!' => 'Expected verifier to finish OAuth handshake!',
       'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => 'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.',
@@ -105,7 +102,6 @@ final class PhabricatorAuthEn
       '%s disabled email trust.' => '%s disabled email trust.',
       'Too Short' => 'Too Short',
       'You denied this request. Wait %s second(s) to try again.' => 'You denied this request. Wait %s second(s) to try again.',
-      'Phabricator Base URI' => 'Phabricator Base URI',
       'Guidance included in the mail message body when users request an email link to access their account.
     For installs with password authentication enabled, users access this workflow by using the "Forgot your password?" link on the login screen.
     For installs without password authentication enabled, users access this workflow by using the "Send a login link to your email address." link on the login screen. This workflow allows users to recover access to their account if there is an issue with an external login service.' => 'Guidance included in the mail message body when users request an email link to access their account.
@@ -118,24 +114,37 @@ final class PhabricatorAuthEn
       'Allow users to log in using this provider. If you disable login, users can still use account integrations for this provider.' => 'Allow users to log in using this provider. If you disable login, users can still use account integrations for this provider.',
       'Allow Login:' => 'Allow Login:',
       'Terminate Session?' => 'Terminate Session?',
+      '%s (%s) MFA Code: %s' => '%s (%s) MFA Code: %s',
       'Wrong Account' => 'Wrong Account',
       'Refresh tokens for a given user.' => 'Refresh tokens for a given user.',
       'Status ("%s") is not a valid contact number status. Valid status constants are: %s.' => 'Status ("%s") is not a valid contact number status. Valid status constants are: %s.',
       'Already Registered' => 'Already Registered',
-      'Allow users to register new Phabricator accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.' => 'Allow users to register new Phabricator accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.',
       'SECURITY WARNING' => 'SECURITY WARNING',
       'This public key is already associated with another user or device. Each key must unambiguously identify a single unique owner.' => 'This public key is already associated with another user or device. Each key must unambiguously identify a single unique owner.',
+      'Allow users to unlink account credentials for this provider from existing accounts. If you disable this, accounts will be permanently bound to provider accounts.' => 'Allow users to unlink account credentials for this provider from existing accounts. If you disable this, accounts will be permanently bound to provider accounts.',
       'When you need to authenticate, a request will be pushed to the Duo application on your phone.' => 'When you need to authenticate, a request will be pushed to the Duo application on your phone.',
       'SMS is weak, and relatively easy for attackers to compromise. Strongly consider using a different MFA provider.' => 'SMS is weak, and relatively easy for attackers to compromise. Strongly consider using a different MFA provider.',
       'Revoke credentials without prompting.' => 'Revoke credentials without prompting.',
       '%s set the OAuth consumer secret for this provider.' => '%s set the OAuth consumer secret for this provider.',
       'You are logged in as %s, but the email address (%s) you just clicked a link from is already associated with another account (%s). You can log out to switch accounts, or verify the address and attach it to your current account. Attach email address %s to user account %s?' => 'You are logged in as %s, but the email address (%s) you just clicked a link from is already associated with another account (%s). You can log out to switch accounts, or verify the address and attach it to your current account. Attach email address %s to user account %s?',
+      'NOTE: Any user who can browse to this install\'s login page will be able to register an account. To restrict who can register an account, configure [[ %s | %s ]].' => 'NOTE: Any user who can browse to this install\'s login page will be able to register an account. To restrict who can register an account, configure [[ %s | %s ]].',
       'Auth Provider %d' => 'Auth Provider %s',
-      'Phabricator already does not trust OAuth client "%s".' => 'Phabricator already does not trust OAuth client "%s".',
       'Set Test Message' => 'Set Test Message',
       'Contact number is invalid: %s' => 'Contact number is invalid: %s',
+      'To configure WordPress.com OAuth, create a new WordPress.com Application here:
+    https://developer.wordpress.com/apps/new/.
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Redirect URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'To configure WordPress.com OAuth, create a new WordPress.com Application here:
+    https://developer.wordpress.com/apps/new/.
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Redirect URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.',
       'Username Attribute' => 'Username Attribute',
       'Unlink Your Only Login Account?' => 'Unlink Your Only Login Account?',
+      'Specify an OAuth client id with "--id".' => 'Specify an OAuth client id with "--id".',
       'Your account has no primary contact number.' => 'Your account has no primary contact number.',
       'JIRA base URI is required.' => 'JIRA base URI is required.',
       'Config Locked' => 'Config Locked',
@@ -143,7 +152,6 @@ final class PhabricatorAuthEn
       'Recover directly into a full session without requiring MFA or other login checks.' => 'Recover directly into a full session without requiring MFA or other login checks.',
       'Always bind and search, even without a username and password.' => 'Always bind and search, even without a username and password.',
       'Skipping, provider is not enabled or does not exist.' => 'Skipping, provider is not enabled or does not exist.',
-      'Allow users to link account credentials for this provider to existing Phabricator accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Allow users to link account credentials for this provider to existing Phabricator accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.',
       'Does Not Allow Registration' => 'Does Not Allow Registration',
       '/settings/panel/contact/' => '/settings/panel/contact/',
       'Path to corresponding PKCS8 key.' => 'Path to corresponding PKCS8 key.',
@@ -163,42 +171,17 @@ final class PhabricatorAuthEn
       'The response token for this challenge is invalid: response tokens may not include spaces.' => 'The response token for this challenge is invalid: response tokens may not include spaces.',
       'Anonymous Password' => 'Anonymous Password',
       'Use the button below to log in as: %s' => 'Use the button below to log in as: %s',
-      '**Step 2 of 2**: In this step, you will configure JIRA.
-    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
-      - **Server URL**: `%s`
-      - Then, click **Next**. On the second page:
-      - **Application Name**: `Phabricator`
-      - **Application Type**: `Generic Application`
-      - Then, click **Create**.
-    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
-      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
-      - **Consumer Name**: `Phabricator`
-      - **Public Key**: Set this to the "Public Key" value in the form above.
-      - **Consumer Callback URL**: `%s`
-    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Step 2 of 2**: In this step, you will configure JIRA.
-    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
-      - **Server URL**: `%s`
-      - Then, click **Next**. On the second page:
-      - **Application Name**: `Phabricator`
-      - **Application Type**: `Generic Application`
-      - Then, click **Create**.
-    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
-      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
-      - **Consumer Name**: `Phabricator`
-      - **Public Key**: Set this to the "Public Key" value in the form above.
-      - **Consumer Callback URL**: `%s`
-    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.',
       'Active OAuth Token' => 'Active OAuth Token',
       'An authorization request will be pushed to the Duo application on your phone.' => 'An authorization request will be pushed to the Duo application on your phone.',
       'Administrative approvals are disabled, so users who register will be able to use their accounts immediately. To enable approvals, configure %s.' => 'Administrative approvals are disabled, so users who register will be able to use their accounts immediately. To enable approvals, configure %s.',
       'Google' => 'Google',
-      'Updated; Phabricator trusts OAuth client %s.' => 'Updated; Phabricator trusts OAuth client %s.',
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.',
       'Failed to decode OAuth access token response: %s' => 'Failed to decode OAuth access token response: %s',
       'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.' => 'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.',
       'You must enter an LDAP password.' => 'You must enter an LDAP password.',
       'Generate New Keypair' => 'Generate New Keypair',
       'MFA Provider' => 'MFA Provider',
+      'The private key will not be retained.' => 'The private key will not be retained.',
       'MFA Provider %d' => 'MFA Provider %s',
       'This challenge already has a response token; you can not set a new response token.' => 'This challenge already has a response token; you can not set a new response token.',
       'Invite action is not a send action!' => 'Invite action is not a send action!',
@@ -206,7 +189,6 @@ final class PhabricatorAuthEn
       'Edit Message' => 'Edit Message',
       'user=%s, verified=%s, primary=%s, should_verify=%s' => 'user=%s, verified=%s, primary=%s, should_verify=%s',
       'Expected valid JSON response from Facebook account data request.' => 'Expected valid JSON response from Facebook account data request.',
-      'NOTE: Any user who can browse to this install\'s login page will be able to register a Phabricator account. To restrict who can register an account, configure [[ %s | %s ]].' => 'NOTE: Any user who can browse to this install\'s login page will be able to register a Phabricator account. To restrict who can register an account, configure [[ %s | %s ]].',
       'Add Multi-Factor Auth' => 'Add Multi-Factor Auth',
       'The contact number.' => 'The contact number.',
       'You must enter an LDAP username.' => 'You must enter an LDAP username.',
@@ -215,6 +197,17 @@ final class PhabricatorAuthEn
       'The password and confirmation do not match.' => 'The password and confirmation do not match.',
       'Reset action counters so a user can continue taking rate-limited actions.' => 'Reset action counters so a user can continue taking rate-limited actions.',
       '%s disabled this contact number.' => '%s disabled this contact number.',
+      'To configure GitHub OAuth, create a new GitHub Application here:
+    https://github.com/settings/applications/new
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Callback URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'To configure GitHub OAuth, create a new GitHub Application here:
+    https://github.com/settings/applications/new
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Callback URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.',
       'No Providers Configured:' => 'No Providers Configured:',
       'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'If you continue, you will create a new account. You will not be able to link this external account to an existing account.',
       'A text message with an authorization code will be sent to your primary contact number.' => 'A text message with an authorization code will be sent to your primary contact number.',
@@ -232,6 +225,7 @@ final class PhabricatorAuthEn
       'Connecting to LDAP...' => 'Connecting to LDAP...',
       'Wait' => 'Wait',
       'No matching SSH keys.' => 'No matching SSH keys.',
+      'Use %s Username' => 'Use %s Username',
       'Authentication Error' => 'Authentication Error',
       'A keypair has been generated, and the public key has been added as a recognized key.' => 'A keypair has been generated, and the public key has been added as a recognized key.',
       '%s named this provider %s.' => '%s named this provider %s.',
@@ -239,8 +233,15 @@ final class PhabricatorAuthEn
       'Mail Body: Email Login' => 'Mail Body: Email Login',
       'Send a test message to %s?' => 'Send a test message to %s?',
       'Auth' => 'Auth',
+      'Confirm the link with this %s account. This account will be able to log in to your %s account.' => 'Confirm the link with this %s account. This account will be able to log in to your %s account.',
+      '**JIRA Instance Name**
+    Choose a permanent name for this instance of JIRA. This name is used internally to keep track of this particular instance of JIRA, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.' => '**JIRA Instance Name**
+    Choose a permanent name for this instance of JIRA. This name is used internally to keep track of this particular instance of JIRA, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.',
       'Text Message (SMS)' => 'Text Message (SMS)',
       '%s removed the name (%s) of this provider.' => '%s removed the name (%s) of this provider.',
+      'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart everything, and try again.' => 'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart everything, and try again.',
       'Provided public key is not properly formatted.' => 'Provided public key is not properly formatted.',
       'Multi-Factor Authentication is Misconfigured' => 'Multi-Factor Authentication is Misconfigured',
       '(You can not terminate your current login session. To terminate it, log out.)' => '(You can not terminate your current login session. To terminate it, log out.)',
@@ -248,12 +249,13 @@ final class PhabricatorAuthEn
       'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)',
       'Yes (Optional)' => 'Yes (Optional)',
       'Access token error: %s' => 'Access token error: %s',
+      'The URI where the OAuth server is installed. For example: %s' => 'The URI where the OAuth server is installed. For example: %s',
       'Cached PKCS8 key for public key.' => 'Cached PKCS8 key for public key.',
       'Username Change Instructions' => 'Username Change Instructions',
       'Custom Enroll Message' => 'Custom Enroll Message',
+      'You must verify your email address to log in. You should have a new email message with verification instructions in your inbox (%s).' => 'You must verify your email address to log in. You should have a new email message with verification instructions in your inbox (%s).',
       'Refreshing token, current token expires in %s seconds.' => 'Refreshing token, current token expires in %s seconds.',
       'Allows Registration' => 'Allows Registration',
-      'You can link your Phabricator account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.' => 'You can link your Phabricator account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.',
       'Duo' => 'Duo',
       'Application ID is required.' => 'Application ID is required.',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'You do not have a linked account on this provider, and thus can not refresh it.',
@@ -267,10 +269,11 @@ final class PhabricatorAuthEn
       'Newly issued MFA challenges must have a valid TTL!' => 'Newly issued MFA challenges must have a valid TTL!',
       'Target "%s" is not a valid target to revoke credentials from. Usually, revoke from "@username".' => 'Target "%s" is not a valid target to revoke credentials from. Usually, revoke from "@username".',
       '%d-Bit Secret' => '%s-Bit Secret',
-      'Set Phabricator to trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Set Phabricator to trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.',
       'Duo is not requiring a challenge, which defeats the purpose of MFA. Duo must be configured to challenge you.' => 'Duo is not requiring a challenge, which defeats the purpose of MFA. Duo must be configured to challenge you.',
+      'Remove trust from an OAuth client. Users must manually confirm reauthorization of untrusted OAuth clients.' => 'Remove trust from an OAuth client. Users must manually confirm reauthorization of untrusted OAuth clients.',
       'The email address you just clicked a link from is already associated with a registered account (%s), but is not verified. Log in to that account to continue. If you can not log in, you can register a new account.' => 'The email address you just clicked a link from is already associated with a registered account (%s), but is not verified. Log in to that account to continue. If you can not log in, you can register a new account.',
       'You are destroying an entire class of credentials. This may be very disruptive to users. You should normally do this only if you suspect there has been a widespread compromise which may have impacted everyone.' => 'You are destroying an entire class of credentials. This may be very disruptive to users. You should normally do this only if you suspect there has been a widespread compromise which may have impacted everyone.',
+      'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.',
       'You responded to this challenge correctly.' => 'You responded to this challenge correctly.',
       'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => 'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.',
       'To configure Disqus OAuth, create a new application here:
@@ -286,17 +289,6 @@ final class PhabricatorAuthEn
       'Login Screen Instructions' => 'Login Screen Instructions',
       'Mail Body: Welcome' => 'Mail Body: Welcome',
       'Revoke Token?' => 'Revoke Token?',
-      'To configure WordPress.com OAuth, create a new WordPress.com Application here:
-    https://developer.wordpress.com/apps/new/.
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Redirect URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'To configure WordPress.com OAuth, create a new WordPress.com Application here:
-    https://developer.wordpress.com/apps/new/.
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Redirect URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.',
       'Asana' => 'Asana',
       'MFA' => 'MFA',
       'Terminate all login sessions.' => 'Terminate all login sessions.',
@@ -306,10 +298,10 @@ final class PhabricatorAuthEn
       'Allow Account Linking' => 'Allow Account Linking',
       'Provider names can not be longer than %s characters.' => 'Provider names can not be longer than %s characters.',
       'No Account Linked' => 'No Account Linked',
+      'Allow users to link account credentials for this provider to existing accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Allow users to link account credentials for this provider to existing accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.',
       'Slack' => 'Slack',
       'This request improperly specifies an MFA challenge token ("%s") multiple times and can not be processed.' => 'This request improperly specifies an MFA challenge token ("%s") multiple times and can not be processed.',
       'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.' => 'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.',
-      'The external account ("%s") you just used to log in is already associated with another Phabricator user account. Log in to the other Phabricator account and unlink the external account before linking it to a new Phabricator account.' => 'The external account ("%s") you just used to log in is already associated with another Phabricator user account. Log in to the other Phabricator account and unlink the external account before linking it to a new Phabricator account.',
       'Refresh OAuth access tokens. This is primarily useful for development and debugging.' => 'Refresh OAuth access tokens. This is primarily useful for development and debugging.',
       'The OAuth provider returned an error: %s' => 'The OAuth provider returned an error: %s',
       'Registration Failed' => 'Registration Failed',
@@ -324,11 +316,11 @@ final class PhabricatorAuthEn
       'Installation is complete. Register your administrator account below to log in. You will be able to configure options and add authentication mechanisms later on.' => 'Installation is complete. Register your administrator account below to log in. You will be able to configure options and add authentication mechanisms later on.',
       'This request has timed out because you took too long to respond.' => 'This request has timed out because you took too long to respond.',
       'All Keys' => 'All Keys',
+      'The external account you are registering with has an email address that is already in use ("%s") by an existing %s account. Choose a new, valid email address to register a new account.' => 'The external account you are registering with has an email address that is already in use ("%s") by an existing %s account. Choose a new, valid email address to register a new account.',
       'Terminate Sessions' => 'Terminate Sessions',
       'Upload Public Key' => 'Upload Public Key',
       'OAuth App Notes' => 'OAuth App Notes',
       'You have failed too many attempts to synchronize new multi-factor authentication methods in a short period of time.' => 'You have failed too many attempts to synchronize new multi-factor authentication methods in a short period of time.',
-      'Your Phabricator account is already connected to an external account on this provider ("%s"), but you are currently logged in to the provider with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Your Phabricator account is already connected to an external account on this provider ("%s"), but you are currently logged in to the provider with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.',
       'Expected token to finish OAuth handshake!' => 'Expected token to finish OAuth handshake!',
       'Unable to start TLS connection when connecting to LDAP.' => 'Unable to start TLS connection when connecting to LDAP.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'Authentication provider configuration is locked, and can not be changed without being unlocked.',
@@ -344,32 +336,34 @@ final class PhabricatorAuthEn
       '%s enabled account linking.' => '%s enabled account linking.',
       'Scan this QR code with the Duo application on your mobile phone:' => 'Scan this QR code with the Duo application on your mobile phone:',
       'Contact Number %d' => 'Contact Number %s',
-      'You can not unlink this account because the administrator has configured Phabricator to make links to "%s" accounts permanent.' => 'You can not unlink this account because the administrator has configured Phabricator to make links to "%s" accounts permanent.',
       'Account Already Linked' => 'Account Already Linked',
-      'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.',
       'Another user already has that email.' => 'Another user already has that email.',
       'You already have a provider of this type.' => 'You already have a provider of this type.',
+      '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new accounts and log in.' => '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new accounts and log in.',
       'Type of the MFA provider.' => 'Type of the MFA provider.',
       'Your account has been disabled.' => 'Your account has been disabled.',
       'JIRA base URI should include protocol (like "https://").' => 'JIRA base URI should include protocol (like "https://").',
       'Authentication provider ("%s") encountered an error while attempting to log in. %s' => 'Authentication provider ("%s") encountered an error while attempting to log in. %s',
       'There are no matching factors to strip.' => 'There are no matching factors to strip.',
       'The invite code in the link you clicked is invalid. Check that you followed the link correctly.' => 'The invite code in the link you clicked is invalid. Check that you followed the link correctly.',
+      'Mark an OAuth client as trusted. Trusted OAuth clients may be reauthorized without requiring users to manually confirm the action.' => 'Mark an OAuth client as trusted. Trusted OAuth clients may be reauthorized without requiring users to manually confirm the action.',
       'Twitter' => 'Twitter',
       'Unable to Generate Keys' => 'Unable to Generate Keys',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere".' => 'Specify the target to revoke credentials from with "--from" or specify "--everywhere".',
       'Unlocked the authentication provider configuration.' => 'Unlocked the authentication provider configuration.',
+      'You can link your %s account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.' => 'You can link your %s account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.',
       'Log In or Register with LDAP' => 'Log In or Register with LDAP',
-      'The external account you are registering with has an email address that is already in use ("%s") by an existing Phabricator account. Choose a new, valid email address to register a new Phabricator account.' => 'The external account you are registering with has an email address that is already in use ("%s") by an existing Phabricator account. Choose a new, valid email address to register a new Phabricator account.',
       'Expected JSON response from Duo.' => 'Expected JSON response from Duo.',
       'Display name for the MFA provider.' => 'Display name for the MFA provider.',
       'Revoke Public Key' => 'Revoke Public Key',
       'You (or someone pretending to be you) recently requested an account recovery link be sent to this email address. If you did not make this request, you can ignore this message.' => 'You (or someone pretending to be you) recently requested an account recovery link be sent to this email address. If you did not make this request, you can ignore this message.',
       'Use Primary Email Address' => 'Use Primary Email Address',
+      'Server Name' => 'Server Name',
       'If you lose access to your account, you can recover access by sending yourself an email login link from the login screen.' => 'If you lose access to your account, you can recover access by sending yourself an email login link from the login screen.',
       'Login validation is missing expected parameter ("%s").' => 'Login validation is missing expected parameter ("%s").',
       'Customize Messages' => 'Customize Messages',
       'Next Step' => 'Next Step',
+      'You can not unlink this account because the administrator has configured this server to make links to "%s" accounts permanent.' => 'You can not unlink this account because the administrator has configured this server to make links to "%s" accounts permanent.',
       'Designate %s as your primary contact number?' => 'Designate %s as your primary contact number?',
       'Message Preview' => 'Message Preview',
       'This engine is used to edit MFA providers.' => 'This engine is used to edit MFA providers.',
@@ -383,6 +377,7 @@ final class PhabricatorAuthEn
       'Found %s account(s) to refresh.' => 'Found %s account(s) to refresh.',
       'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.' => 'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.',
       'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.' => 'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.',
+      'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a Conduit method is "%s" (for example, "%s"). Check your configuration.' => 'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a Conduit method is "%s" (for example, "%s"). Check your configuration.',
       '%s updated the enroll message.' => '%s updated the enroll message.',
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can modify or disable your primary contact number.' => 'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can modify or disable your primary contact number.',
       'Duo API hostname ("%s") is invalid, hostname must be "*.duosecurity.com".' => 'Duo API hostname ("%s") is invalid, hostname must be "*.duosecurity.com".',
@@ -400,6 +395,7 @@ final class PhabricatorAuthEn
       'Choose Provider Type' => 'Choose Provider Type',
       'Revoke credentials which may have been leaked or disclosed.' => 'Revoke credentials which may have been leaked or disclosed.',
       'Destroyed %s credential(s) of type "%s".' => 'Destroyed %s credential(s) of type "%s".',
+      'Server name is required.' => 'Server name is required.',
       'List information about available credential revokers.' => 'List information about available credential revokers.',
       'No message type exists with key "%s".' => 'No message type exists with key "%s".',
       'You will be prompted to provide MFA when you submit.' => 'You will be prompted to provide MFA when you submit.',
@@ -424,6 +420,7 @@ final class PhabricatorAuthEn
          - **Authorized redirect URI**: Set this to `%s`.
     After completing configuration, copy the **Client ID** and **Client Secret** from the Google console to the fields above.',
       'Skipping, provider does not support token refresh.' => 'Skipping, provider does not support token refresh.',
+      'This factor has been removed from your device, so this server can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'This factor has been removed from your device, so this server can not send you a challenge. To continue, an administrator must strip this factor from your account.',
       'Attempting to upgrade password hasher, but the password for the upgrade is not the stored credential!' => 'Attempting to upgrade password hasher, but the password for the upgrade is not the stored credential!',
       'Your Duo account ("%s") requires enrollment. Contact your Duo administrator for help. Duo status message: %s' => 'Your Duo account ("%s") requires enrollment. Contact your Duo administrator for help. Duo status message: %s',
       'The OAuth provider failed to retrieve an account ID.' => 'The OAuth provider failed to retrieve an account ID.',
@@ -433,12 +430,6 @@ final class PhabricatorAuthEn
       '%s changed this contact number from %s to %s.' => '%s changed this contact number from %s to %s.',
       'Welcome, %s. To complete the process of logging in, provide your multi-factor credentials.' => 'Welcome, %s. To complete the process of logging in, provide your multi-factor credentials.',
       'Already Accepted Invite' => 'Already Accepted Invite',
-      '**JIRA Instance Name**
-    Choose a permanent name for this instance of JIRA. Phabricator uses this name internally to keep track of this instance of JIRA, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.' => '**JIRA Instance Name**
-    Choose a permanent name for this instance of JIRA. Phabricator uses this name internally to keep track of this instance of JIRA, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.',
-      'This is a terse test text message from Phabricator (%s).' => 'This is a terse test text message from Phabricator (%s).',
       'No user exists with username "%s".' => 'No user exists with username "%s".',
       'Unlock the authentication provider config, to make it possible to edit the config using the web UI. Make sure to do **bin/auth lock** when done editing the configuration.' => 'Unlock the authentication provider config, to make it possible to edit the config using the web UI. Make sure to do **bin/auth lock** when done editing the configuration.',
       'Account does not match provider!' => 'Account does not match provider!',
@@ -448,15 +439,17 @@ final class PhabricatorAuthEn
       'Strip a specific factor type. Use `bin/auth list-factors` for a list of factor types.' => 'Strip a specific factor type. Use `bin/auth list-factors` for a list of factor types.',
       'Provide Multi-Factor Credentials' => 'Provide Multi-Factor Credentials',
       'Edit Contact Numbers' => 'Edit Contact Numbers',
+      'Skip email verification for accounts registered through this provider.' => 'Skip email verification for accounts registered through this provider.',
+      '[%s] New User "%s" Awaiting Approval' => '[%s] New User "%s" Awaiting Approval',
       'You have failed to enter the correct account password too often in a short period of time.' => 'You have failed to enter the correct account password too often in a short period of time.',
       'Add Multi-Factor Authentication' => 'Add Multi-Factor Authentication',
       'JIRA instance name must contain only lowercase letters, digits, and period.' => 'JIRA instance name must contain only lowercase letters, digits, and period.',
+      'The external service ("%s") you just authenticated with is not configured to allow account linking on this server. An administrator may have recently disabled it.' => 'The external service ("%s") you just authenticated with is not configured to allow account linking on this server. An administrator may have recently disabled it.',
       'Terminate Session' => 'Terminate Session',
       'You must choose a password.' => 'You must choose a password.',
       'Failed to find an OAuth client with id %s.' => 'Failed to find an OAuth client with id %s.',
       'This engine is used to edit contact numbers.' => 'This engine is used to edit contact numbers.',
       'You can not set the response digest for a challenge directly. Instead, set a response token. A response digest will be computed automatically.' => 'You can not set the response digest for a challenge directly. Instead, set a response token. A response digest will be computed automatically.',
-      'Expected valid JSON response from Phabricator %s request.' => 'Expected valid JSON response from Phabricator %s request.',
       '%s created this contact number.' => '%s created this contact number.',
       'Duo providers must have an API credential.' => 'Duo providers must have an API credential.',
       'You can only verify one address at a time.' => 'You can only verify one address at a time.',
@@ -467,25 +460,12 @@ final class PhabricatorAuthEn
       'Duo API Credential' => 'Duo API Credential',
       '%s edited a property of this provider.' => '%s edited a property of this provider.',
       'Auth Email Invites' => 'Auth Email Invites',
-      '**Step 2 of 2 - Configure Phabricator OAuth Instance**
-    To configure Phabricator OAuth, create a new application here:
-    %s/oauthserver/client/create/
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Step 2 of 2 - Configure Phabricator OAuth Instance**
-    To configure Phabricator OAuth, create a new application here:
-    %s/oauthserver/client/create/
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)',
-      'Welcome to Phabricator' => 'Welcome to Phabricator',
       'Address Verified' => 'Address Verified',
       'To verify your phone as an authentication factor, a text message with a secret code will be sent to the phone number you have listed as your primary contact number.' => 'To verify your phone as an authentication factor, a text message with a secret code will be sent to the phone number you have listed as your primary contact number.',
-      'Phabricator (%s) MFA Code: %s' => 'Phabricator (%s) MFA Code: %s',
-      'You will no longer be able to use your %s account to log in to Phabricator.' => 'You will no longer be able to use your %s account to log in to Phabricator.',
       'DISABLE APPROVAL QUEUE' => 'DISABLE APPROVAL QUEUE',
       'Specify either specific factors with "--type", or all factors with "--all-types", but not both.' => 'Specify either specific factors with "--type", or all factors with "--all-types", but not both.',
       'No OAuth Access Token' => 'No OAuth Access Token',
+      'Your account is already linked to an external account for this provider.' => 'Your account is already linked to an external account for this provider.',
       'You are already logged in.' => 'You are already logged in.',
       'Wait For Approval Instructions' => 'Wait For Approval Instructions',
       'Link LDAP Account' => 'Link LDAP Account',
@@ -493,12 +473,13 @@ final class PhabricatorAuthEn
       'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").',
       'Disable Number' => 'Disable Number',
       'Username or Email' => 'Username or Email',
+      'Your %s account is already connected to an external account on this service ("%s"), but you are currently logged in to the service with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Your %s account is already connected to an external account on this service ("%s"), but you are currently logged in to the service with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.',
       'Verify this email address (%s) and attach it to your account (%s)?' => 'Verify this email address (%s) and attach it to your account (%s)?',
       'Revoke SSH Public Key' => 'Revoke SSH Public Key',
       'Edit MFA Providers' => 'Edit MFA Providers',
       'Before you can set up or use LDAP, you need to install the PHP LDAP extension. It is not currently installed, so PHP can not talk to LDAP. Usually you can install it with `%s`, `%s`, or a similar package manager command.' => 'Before you can set up or use LDAP, you need to install the PHP LDAP extension. It is not currently installed, so PHP can not talk to LDAP. Usually you can install it with `%s`, `%s`, or a similar package manager command.',
       '%s failed!' => '%s failed!',
-      'Anyone who can browse to this Phabricator install will be able to register an account. To add email domain restrictions, configure %s.' => 'Anyone who can browse to this Phabricator install will be able to register an account. To add email domain restrictions, configure %s.',
+      'This server is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => 'This server is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s',
       'To configure Slack OAuth, create a new application here:
     https://api.slack.com/docs/sign-in-with-slack#create_slack_app
     When creating your application, use these settings:
@@ -511,17 +492,21 @@ final class PhabricatorAuthEn
       'A challenge has been sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'A challenge has been sent to your phone. Open the Duo application and confirm the challenge, then continue.',
       'Amazon' => 'Amazon',
       'MFA Sync Token' => 'MFA Sync Token',
+      'OAuth client "%s" is now trusted.' => 'OAuth client "%s" is now trusted.',
       'Your browser did not submit a registration key with the request. You must use the same browser to begin and complete registration. Check that cookies are enabled and try again.' => 'Your browser did not submit a registration key with the request. You must use the same browser to begin and complete registration. Check that cookies are enabled and try again.',
       'Not Complete' => 'Not Complete',
+      '**Step 1 of 2 - Name Remote Server**
+    Choose a permanent name for the remote server you want to connect to. This name is used internally to keep track of the remote server, in case the URL changes later.' => '**Step 1 of 2 - Name Remote Server**
+    Choose a permanent name for the remote server you want to connect to. This name is used internally to keep track of the remote server, in case the URL changes later.',
       'Unlink Account' => 'Unlink Account',
       'You must specify the path to a public keyfile with %s.' => 'You must specify the path to a public keyfile with %s.',
       'Remove multi-factor authentication from an account.' => 'Remove multi-factor authentication from an account.',
       'Edit Existing Provider' => 'Edit Existing Provider',
-      'Do you want to enable this provider? Users will be able to log in to Phabricator using linked accounts.' => 'Do you want to enable this provider? Users will be able to log in to Phabricator using linked accounts.',
       '%s changed the credential for this provider from %s to %s.' => '%s changed the credential for this provider from %s to %s.',
+      'You are creating a new account linked to an existing external account.' => 'You are creating a new account linked to an existing external account.',
       'Signing session legalpad documents of user with no session!' => 'Signing session legalpad documents of user with no session!',
       '%s updated the message text.' => '%s updated the message text.',
-      'Phabricator base URI is required.' => 'Phabricator base URI is required.',
+      'NOTE: Amazon **requires** HTTPS, but this service does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOTE: Amazon **requires** HTTPS, but this service does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.',
       'Verify this email address (%s) and attach it to your account?' => 'Verify this email address (%s) and attach it to your account?',
       'No Linkable External Providers' => 'No Linkable External Providers',
       'This account is not linkable.' => 'This account is not linkable.',
@@ -537,34 +522,19 @@ final class PhabricatorAuthEn
       'Revoked SSH keys can not be edited or reinstated.' => 'Revoked SSH keys can not be edited or reinstated.',
       'Follow referrals. Disable this for Windows AD 2003.' => 'Follow referrals. Disable this for Windows AD 2003.',
       'user=%s, should_verify=%s' => 'user=%s, should_verify=%s',
-      'The external account you just logged in with is not associated with a valid Phabricator user.' => 'The external account you just logged in with is not associated with a valid Phabricator user.',
       'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.',
       'If you do not recognize this change, it may indicate your account has been compromised.' => 'If you do not recognize this change, it may indicate your account has been compromised.',
       'Link Accounts' => 'Link Accounts',
       'Create Admin Account' => 'Create Admin Account',
       'Create MFA Provider' => 'Create MFA Provider',
       'Log Out?' => 'Log Out?',
-      'Recover access to an account if you have locked yourself out of Phabricator.' => 'Recover access to an account if you have locked yourself out of Phabricator.',
       'You have not configured a primary contact number. Configure a contact number before adding SMS as an authentication factor.' => 'You have not configured a primary contact number. Configure a contact number before adding SMS as an authentication factor.',
       'Unlink External Account' => 'Unlink External Account',
-      'You must verify your email address to log in. You should have a new email message from Phabricator with verification instructions in your inbox (%s).' => 'You must verify your email address to log in. You should have a new email message from Phabricator with verification instructions in your inbox (%s).',
       '%s made this the primary contact number.' => '%s made this the primary contact number.',
-      'The external account ("%s") you just authenticated with is not configured to allow logins on this Phabricator install. An administrator may have recently disabled it.' => 'The external account ("%s") you just authenticated with is not configured to allow logins on this Phabricator install. An administrator may have recently disabled it.',
+      'Automatically log in with this provider if it is the only available provider.' => 'Automatically log in with this provider if it is the only available provider.',
       '%s changed the enrollment policy for this provider from %s to %s.' => '%s changed the enrollment policy for this provider from %s to %s.',
       'Currently, there are no configured external auth providers which you can link your account to.' => 'Currently, there are no configured external auth providers which you can link your account to.',
-      'To configure GitHub OAuth, create a new GitHub Application here:
-    https://github.com/settings/applications/new
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Callback URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'To configure GitHub OAuth, create a new GitHub Application here:
-    https://github.com/settings/applications/new
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Callback URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.',
       '%s disabled account linking.' => '%s disabled account linking.',
-      'Confirm the link with this %s account. This account will be able to log in to your Phabricator account.' => 'Confirm the link with this %s account. This account will be able to log in to your Phabricator account.',
       'Number Already Primary' => 'Number Already Primary',
       'Strip these authentication factors?' => 'Strip these authentication factors?',
       'The OAuth provider did not return a "code" parameter in its response.' => 'The OAuth provider did not return a "code" parameter in its response.',
@@ -572,10 +542,10 @@ final class PhabricatorAuthEn
       'Locked the authentication provider configuration.' => 'Locked the authentication provider configuration.',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.',
       'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.',
+      'Log in to %s' => 'Log in to %s',
       'Make Primary Number' => 'Make Primary Number',
       'Strip factors from all users.' => 'Strip factors from all users.',
       'Duo username pairing mode ("%s") is not supported.' => 'Duo username pairing mode ("%s") is not supported.',
-      'You are creating a new Phabricator account linked to an existing external account from outside Phabricator.' => 'You are creating a new Phabricator account linked to an existing external account from outside Phabricator.',
       'Facebook' => 'Facebook',
       'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.',
       'LDAP Version' => 'LDAP Version',
@@ -597,9 +567,9 @@ final class PhabricatorAuthEn
       'After logging in you should set a password for your account, or link your account to an external account that you can use to authenticate in the future.' => 'After logging in you should set a password for your account, or link your account to an external account that you can use to authenticate in the future.',
       'Analyze and diagnose issues with LDAP configuration.' => 'Analyze and diagnose issues with LDAP configuration.',
       'Your session is no longer in high security.' => 'Your session is no longer in high security.',
+      'Anyone who can browse to this this server will be able to register an account. To add email domain restrictions, configure %s.' => 'Anyone who can browse to this this server will be able to register an account. To add email domain restrictions, configure %s.',
       'Revoked' => 'Revoked',
       'Disable the contact number %s?' => 'Disable the contact number %s?',
-      'The URI where the OAuth server instance of Phabricator is installed. For example: %s' => 'The URI where the OAuth server instance of Phabricator is installed. For example: %s',
       'Factor Name: %s' => 'Factor Name: %s',
       'Providers' => 'Providers',
       'Address Duplicated in Input' => 'Address Duplicated in Input',
@@ -617,9 +587,11 @@ final class PhabricatorAuthEn
       'Refreshing account #%d.' => 'Refreshing account #%s.',
       'You can not make a disabled number your primary contact number.' => 'You can not make a disabled number your primary contact number.',
       'Failed to bind to LDAP server (as user "%s").' => 'Failed to bind to LDAP server (as user "%s").',
-      'The external account ("%s") you just authenticated with is not configured to allow registration on this Phabricator install. An administrator may have recently disabled it.' => 'The external account ("%s") you just authenticated with is not configured to allow registration on this Phabricator install. An administrator may have recently disabled it.',
+      'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in.' => 'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in.',
       'No email exists with address "%s"!' => 'No email exists with address "%s"!',
       'Revoke SSH Key' => 'Revoke SSH Key',
+      'The email address associated with this external account ("%s") is not a valid email address and can not be used to register an account. Choose a different, valid address.' => 'The email address associated with this external account ("%s") is not a valid email address and can not be used to register an account. Choose a different, valid address.',
+      'OAuth client "%s" is already untrusted.' => 'OAuth client "%s" is already untrusted.',
       'Onboarding' => 'Onboarding',
       'Request did not include account key.' => 'Request did not include account key.',
       'Account Disabled' => 'Account Disabled',
@@ -629,8 +601,8 @@ final class PhabricatorAuthEn
       'Edit SSH Public Key' => 'Edit SSH Public Key',
       'Generated' => 'Generated',
       '%s updated the OAuth application secret for this provider.' => '%s updated the OAuth application secret for this provider.',
+      'Base URI' => 'Base URI',
       'Leaving High Security' => 'Leaving High Security',
-      '**Post a comment** in the JIRA task, similar to the emails Phabricator sends.' => '**Post a comment** in the JIRA task, similar to the emails Phabricator sends.',
       'Consumer key is required.' => 'Consumer key is required.',
       'Username or password are incorrect.' => 'Username or password are incorrect.',
       'Attempted to set \'%s\' cookie to \'%s\', but your browser did not accept the cookie. Check that cookies are enabled, clear them, and try again.' => 'Attempted to set \'%s\' cookie to \'%s\', but your browser did not accept the cookie. Check that cookies are enabled, clear them, and try again.',
@@ -658,6 +630,7 @@ final class PhabricatorAuthEn
       'No accounts match the arguments!' => 'No accounts match the arguments!',
       'Register New Account' => 'Register New Account',
       'SSH KEY DETAIL' => 'SSH KEY DETAIL',
+      'Recover access to an account if you have locked yourself out.' => 'Recover access to an account if you have locked yourself out.',
       'Failed to convert public key into PKCS8 format. If you are developing on OSX, you may be able to use `%s` to work around this issue. %s' => 'Failed to convert public key into PKCS8 format. If you are developing on OSX, you may be able to use `%s` to work around this issue. %s',
       'Send Test Message' => 'Send Test Message',
       'An email has been sent containing a link you can use to set a password for your account.' => 'An email has been sent containing a link you can use to set a password for your account.',
@@ -689,19 +662,19 @@ final class PhabricatorAuthEn
       'Auth Messages' => 'Auth Messages',
       'Auth Password' => 'Auth Password',
       'SSH Key %d: %s' => 'SSH Key %s: %s',
-      'Phabricator will not retain a copy of the private key.' => 'Phabricator will not retain a copy of the private key.',
+      'The external account you just logged in with is not associated with a valid %s user account.' => 'The external account you just logged in with is not associated with a valid %s user account.',
       'Refreshed token, new token expires in %s seconds.' => 'Refreshed token, new token expires in %s seconds.',
       'SMS' => 'SMS',
       '%s set the OAuth application secret for this provider.' => '%s set the OAuth application secret for this provider.',
       '%s, exception=%s' => '%s, exception=%s',
       'Reset %s action(s).' => 'Reset %s action(s).',
       'Address Already Verified' => 'Address Already Verified',
+      'OAuth client "%s" is already trusted.' => 'OAuth client "%s" is already trusted.',
       'When users click the "Change Username" action on their profile pages but do not have the required permissions, they will be presented with a message explaining that they are not authorized to make the edit.
     You can optionally provide additional instructions here to help users request a username change, if there is someone specific they should contact or a particular workflow they should use.' => 'When users click the "Change Username" action on their profile pages but do not have the required permissions, they will be presented with a message explaining that they are not authorized to make the edit.
     You can optionally provide additional instructions here to help users request a username change, if there is someone specific they should contact or a particular workflow they should use.',
       'You are trying to gain access to an account ("%s") that can not establish a web session.' => 'You are trying to gain access to an account ("%s") that can not establish a web session.',
       'Sent By' => 'Sent By',
-      'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new Phabricator account. Choose a different, valid address.' => 'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new Phabricator account. Choose a different, valid address.',
       'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.',
       'Download Private Key (%s)' => 'Download Private Key (%s)',
       'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.' => 'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.',
@@ -721,7 +694,6 @@ final class PhabricatorAuthEn
       'Query public keys.' => 'Query public keys.',
       'After logging in, you can use the "Auth" application to add or restore authentication providers and allow normal logins to succeed.' => 'After logging in, you can use the "Auth" application to add or restore authentication providers and allow normal logins to succeed.',
       'Authentication Canceled' => 'Authentication Canceled',
-      'Phabricator Instance Name' => 'Phabricator Instance Name',
       'Will Ignore Address' => 'Will Ignore Address',
       'Custom text for the message.' => 'Custom text for the message.',
       'Number Disabled' => 'Number Disabled',
@@ -733,11 +705,11 @@ final class PhabricatorAuthEn
       'Login Required' => 'Login Required',
       'Sign With MFA' => 'Sign With MFA',
       'To choose a different primary contact number, make that number primary (instead of trying to demote this one).' => 'To choose a different primary contact number, make that number primary (instead of trying to demote this one).',
+      '**Post a comment** in the JIRA task.' => '**Post a comment** in the JIRA task.',
       'Verified User Email' => 'Verified User Email',
       'Email Login' => 'Email Login',
       'Trust Email Addresses' => 'Trust Email Addresses',
       'Bitbucket' => 'Bitbucket',
-      'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.' => 'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.',
       'Unable to find LDAP account!' => 'Unable to find LDAP account!',
       'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.',
       'To configure Facebook OAuth, create a new Facebook Application here:
@@ -760,8 +732,6 @@ final class PhabricatorAuthEn
     When creating your application, use these settings:
       - **Redirect URI:** Set this to: `%s`
     After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)',
-      'Do you want to enable this provider? Users will be able to use their existing external accounts to register new Phabricator accounts and log in using linked accounts.' => 'Do you want to enable this provider? Users will be able to use their existing external accounts to register new Phabricator accounts and log in using linked accounts.',
-      'This factor has been removed from your device, so Phabricator can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'This factor has been removed from your device, so Phabricator can not send you a challenge. To continue, an administrator must strip this factor from your account.',
       'An email has been sent containing a link you can use to log in to your account.' => 'An email has been sent containing a link you can use to log in to your account.',
       'You have already accepted this invitation.' => 'You have already accepted this invitation.',
       'You must choose a password or skip this step.' => 'You must choose a password or skip this step.',
@@ -780,14 +750,37 @@ final class PhabricatorAuthEn
     After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.',
       'CAPTCHA was not entered correctly.' => 'CAPTCHA was not entered correctly.',
       'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => 'Configure JIRA OAuth. NOTE: Only supports JIRA 6.',
-      'The account you are attempting to register with has an invalid email address (%s). This Phabricator install only allows registration with specific email addresses:' => 'The account you are attempting to register with has an invalid email address (%s). This Phabricator install only allows registration with specific email addresses:',
       'If you did not receive an email, you can click the button below to try sending another one.' => 'If you did not receive an email, you can click the button below to try sending another one.',
       'Invite template does not include invite URI!' => 'Invite template does not include invite URI!',
       'Password providers can\'t be linked.' => 'Password providers can\'t be linked.',
       'Found LDAP Account: %s' => 'Found LDAP Account: %s',
       '%s reinstated this key.' => '%s reinstated this key.',
+      '**Step 2 of 2**: In this step, you will configure JIRA.
+    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
+      - **Server URL**: `%s`
+      - Then, click **Next**. On the second page:
+      - **Application Name**: `%s`
+      - **Application Type**: `Generic Application`
+      - Then, click **Create**.
+    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
+      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
+      - **Consumer Name**: `%s`
+      - **Public Key**: Set this to the "Public Key" value in the form above.
+      - **Consumer Callback URL**: `%s`
+    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Step 2 of 2**: In this step, you will configure JIRA.
+    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
+      - **Server URL**: `%s`
+      - Then, click **Next**. On the second page:
+      - **Application Name**: `%s`
+      - **Application Type**: `Generic Application`
+      - Then, click **Create**.
+    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
+      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
+      - **Consumer Name**: `%s`
+      - **Public Key**: Set this to the "Public Key" value in the form above.
+      - **Consumer Callback URL**: `%s`
+    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.',
       'Confirm Account Link' => 'Confirm Account Link',
-      'Before you can use Phabricator, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Before you can use Phabricator, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.',
       'Verify Email Address' => 'Verify Email Address',
       'Duo account ("%s") is fully enrolled.' => 'Duo account ("%s") is fully enrolled.',
       'You must log in to take this action.' => 'You must log in to take this action.',
@@ -825,10 +818,12 @@ final class PhabricatorAuthEn
       'Mobile Phone App (TOTP)' => 'Mobile Phone App (TOTP)',
       'Support for Duo push authentication.' => 'Support for Duo push authentication.',
       'Normal Security Restored' => 'Normal Security Restored',
+      'Allow users to register new accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.' => 'Allow users to register new accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.',
       'Verify %s' => 'Verify %s',
       'No Password Auth' => 'No Password Auth',
       'Create **Issue Link** to the Revision, as an "implemented in" relationship.' => 'Create **Issue Link** to the Revision, as an "implemented in" relationship.',
       'Authentication Challenges' => 'Authentication Challenges',
+      'Do you want to enable this provider? Users will be able to use their existing external accounts to register new accounts and log in using linked accounts.' => 'Do you want to enable this provider? Users will be able to use their existing external accounts to register new accounts and log in using linked accounts.',
       'Password Reset Token' => 'Password Reset Token',
       'Allow Account Unlinking' => 'Allow Account Unlinking',
       'The selected password is too short. Passwords must be a minimum of %s characters long.' => 'The selected password is too short. Passwords must be a minimum of %s characters long.',
@@ -875,15 +870,12 @@ final class PhabricatorAuthEn
       'Edit Auth Message' => 'Edit Auth Message',
       'Mobile App (TOTP)' => 'Mobile App (TOTP)',
       'Expected valid JSON response from Google account data request.' => 'Expected valid JSON response from Google account data request.',
-      'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.',
       'The invite code in the link you clicked has already been accepted.' => 'The invite code in the link you clicked has already been accepted.',
       'No outbound mailer which can deliver SMS messages is configured.' => 'No outbound mailer which can deliver SMS messages is configured.',
       'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'If you leave high security, you will need to authenticate again the next time you try to take a high security action.',
-      'NOTE: Amazon **requires** HTTPS, but your Phabricator install does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOTE: Amazon **requires** HTTPS, but your Phabricator install does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.',
       'Link %s Account' => 'Link %s Account',
       'The LDAP authentication provider is not enabled.' => 'The LDAP authentication provider is not enabled.',
       'Active Phone Number' => 'Active Phone Number',
-      'New User "%s" Awaiting Approval' => 'New User "%s" Awaiting Approval',
       'Enroll in MFA' => 'Enroll in MFA',
       'Really destroy credentials everywhere?' => 'Really destroy credentials everywhere?',
       'Contact Number' => 'Contact Number',
@@ -896,6 +888,7 @@ final class PhabricatorAuthEn
       'sn' => 'sn',
       'A passphrase was provided for this private key, but it does not require a passphrase. Check that you supplied the correct key, or omit the passphrase.' => 'A passphrase was provided for this private key, but it does not require a passphrase. Check that you supplied the correct key, or omit the passphrase.',
       'This provider is not configured to allow linking.' => 'This provider is not configured to allow linking.',
+      'Expected valid JSON response from "user.whoami" request.' => 'Expected valid JSON response from "user.whoami" request.',
       '%s created this provider.' => '%s created this provider.',
       'Multi-Factor' => 'Multi-Factor',
       'This contact number is already in use.' => 'This contact number is already in use.',
@@ -904,10 +897,10 @@ final class PhabricatorAuthEn
     Temporary tokens are used in password reset mail, welcome mail, and by some other systems like Git LFS. Revoking temporary tokens will invalidate existing links in password reset and invite mail that was sent before the revocation occurred.',
       'The account you are attempting to link is already linked to your account.' => 'The account you are attempting to link is already linked to your account.',
       'Enter the code from the text message which was sent to your primary contact number.' => 'Enter the code from the text message which was sent to your primary contact number.',
+      'Do you want to enable this provider? Users will be able to log in using linked accounts.' => 'Do you want to enable this provider? Users will be able to log in using linked accounts.',
       'JIRA Instance Name' => 'JIRA Instance Name',
       '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s updated the OAuth application ID for this provider from "%s" to "%s".',
       '%s enabled registration.' => '%s enabled registration.',
-      'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.',
       'Auth Message %d' => 'Auth Message %s',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.',
       'This private key requires a passphrase, but no passphrase was provided. Check that you supplied the correct key, or provide the passphrase.' => 'This private key requires a passphrase, but no passphrase was provided. Check that you supplied the correct key, or provide the passphrase.',
@@ -928,9 +921,8 @@ final class PhabricatorAuthEn
       '%s revoked this key.' => '%s revoked this key.',
       'There are no configured multi-factor providers.' => 'There are no configured multi-factor providers.',
       'OAuth1 Handshake Token' => 'OAuth1 Handshake Token',
-      '**Step 1 of 2 - Name Phabricator OAuth Instance**
-    Choose a permanent name for the OAuth server instance of Phabricator. //This// instance of Phabricator uses this name internally to keep track of the OAuth server instance of Phabricator, in case the URL changes later.' => '**Step 1 of 2 - Name Phabricator OAuth Instance**
-    Choose a permanent name for the OAuth server instance of Phabricator. //This// instance of Phabricator uses this name internally to keep track of the OAuth server instance of Phabricator, in case the URL changes later.',
+      'This server is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'This server is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.',
+      'The email address ("%s") associated with the external account is already in use by an existing %s account. Multiple %s accounts may not have the same email address, so you can not use this email address to register a new account.' => 'The email address ("%s") associated with the external account is already in use by an existing %s account. Multiple %s accounts may not have the same email address, so you can not use this email address to register a new account.',
       'Failed to get LDAP entries from search result.' => 'Failed to get LDAP entries from search result.',
       'Captcha response is incorrect, try again.' => 'Captcha response is incorrect, try again.',
       'Add Auth Provider' => 'Add Auth Provider',
@@ -948,7 +940,6 @@ final class PhabricatorAuthEn
       'Log In' => 'Log In',
       'Temporary Token Types' => 'Temporary Token Types',
       'Guidance shown after a user logs in with an email link and is prompted to link an external account.' => 'Guidance shown after a user logs in with an email link and is prompted to link an external account.',
-      'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a COnduit method is "%s" (for example, "%s"). Check your configuration.' => 'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a COnduit method is "%s" (for example, "%s"). Check your configuration.',
       'Register' => 'Register',
       'Anonymous Username' => 'Anonymous Username',
       'Allow users to receive a code via SMS.' => 'Allow users to receive a code via SMS.',
@@ -964,13 +955,24 @@ final class PhabricatorAuthEn
       'Log Out Anyway' => 'Log Out Anyway',
       'Set Primary Contact Number' => 'Set Primary Contact Number',
       'You are logged in as %s, but the email address you just clicked a link from is already verified and associated with another account (%s). Switch accounts, then try again.' => 'You are logged in as %s, but the email address you just clicked a link from is already verified and associated with another account (%s). Switch accounts, then try again.',
+      'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.' => 'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.',
       'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.' => 'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.',
       'These auth factors will be stripped:' => 'These auth factors will be stripped:',
       'Contact numbers must have a contact number.' => 'Contact numbers must have a contact number.',
       'Engine: Session' => 'Engine: Session',
+      '**Step 2 of 2 - Configure OAuth Server**
+    To configure OAuth, create a new application here:
+    %s/oauthserver/client/create/
+    When creating your application, use these settings:
+      - **Redirect URI:** Set this to: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Step 2 of 2 - Configure OAuth Server**
+    To configure OAuth, create a new application here:
+    %s/oauthserver/client/create/
+    When creating your application, use these settings:
+      - **Redirect URI:** Set this to: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)',
       'Require Existing Duo Account' => 'Require Existing Duo Account',
       'Upload SSH Public Key' => 'Upload SSH Public Key',
-      'Phabricator will automatically login with this provider if it is the only available provider.' => 'Phabricator will automatically login with this provider if it is the only available provider.',
       'No such user "%s"!' => 'No such user "%s"!',
       '%s changed the hostname for this provider from %s to %s.' => '%s changed the hostname for this provider from %s to %s.',
       'Wait for Approval' => 'Wait for Approval',
@@ -981,8 +983,6 @@ final class PhabricatorAuthEn
       'Application secret is required.' => 'Application secret is required.',
       'Authentication Failure' => 'Authentication Failure',
       'Use %s to choose a user to reset actions for.' => 'Use %s to choose a user to reset actions for.',
-      'Continue to Phabricator' => 'Continue to Phabricator',
-      'Log in to Phabricator' => 'Log in to Phabricator',
       'LDAP Username' => 'LDAP Username',
       'Parsed Address' => 'Parsed Address',
       'Login and Registration Providers' => 'Login and Registration Providers',
@@ -995,7 +995,6 @@ final class PhabricatorAuthEn
       'You already have SMS authentication attached to your account.' => 'You already have SMS authentication attached to your account.',
       'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.',
       'The login link you clicked is invalid, out of date, or has already been used.' => 'The login link you clicked is invalid, out of date, or has already been used.',
-      '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new Phabricator accounts and log in.' => '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new Phabricator accounts and log in.',
       'Message Text' => 'Message Text',
       'Revoke all credentials types.' => 'Revoke all credentials types.',
       'Good password should match.' => 'Good password should match.',
@@ -1003,8 +1002,6 @@ final class PhabricatorAuthEn
       'Previously Invited' => 'Previously Invited',
       'LDAP search failed.' => 'LDAP search failed.',
       'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.',
-      'Updated; Phabricator does not trust OAuth client %s.' => 'Updated; Phabricator does not trust OAuth client %s.',
-      'Phabricator is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => 'Phabricator is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s',
       'Allow Auto Login' => 'Allow Auto Login',
       'Expected invite accepted (%s).' => 'Expected invite accepted (%s).',
       'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Note: Unlinking an authentication provider will terminate any other active login sessions.',
@@ -1013,19 +1010,17 @@ final class PhabricatorAuthEn
       'Allow Linking Accounts' => 'Allow Linking Accounts',
       '%s created this MFA provider.' => '%s created this MFA provider.',
       'To enable the login flow, follow setup guidance and configure at least one authentication provider, then associate credentials with your account. After completing these steps, you will be able to log out and log back in normally.' => 'To enable the login flow, follow setup guidance and configure at least one authentication provider, then associate credentials with your account. After completing these steps, you will be able to log out and log back in normally.',
-      'Phabricator instance name must contain only lowercase letters, digits, and periods.' => 'Phabricator instance name must contain only lowercase letters, digits, and periods.',
       'This is the only external login account linked to your Phabicator account. If you remove it, you may no longer be able to log in.' => 'This is the only external login account linked to your Phabicator account. If you remove it, you may no longer be able to log in.',
       'You have not completed Duo enrollment yet. Complete enrollment, then click continue.' => 'You have not completed Duo enrollment yet. Complete enrollment, then click continue.',
       'Always Search' => 'Always Search',
       'Allow Registration' => 'Allow Registration',
       'Use this link to recover access to the "%s" account from the web interface:' => 'Use this link to recover access to the "%s" account from the web interface:',
       'Change Enroll Message' => 'Change Enroll Message',
-      'Your Phabricator account is already linked to an external account for this provider.' => 'Your Phabricator account is already linked to an external account for this provider.',
       'You can safely ignore these warnings if the install itself has access controls (for example, it is deployed on a VPN) or if all of the configured providers have access controls (for example, they are all private LDAP or OAuth servers).' => 'You can safely ignore these warnings if the install itself has access controls (for example, it is deployed on a VPN) or if all of the configured providers have access controls (for example, they are all private LDAP or OAuth servers).',
+      'The external service ("%s") you just authenticated with is not configured to allow registration on this server. An administrator may have recently disabled it.' => 'The external service ("%s") you just authenticated with is not configured to allow registration on this server. An administrator may have recently disabled it.',
       'SSH keys inherit the policies of the user or object they authenticate.' => 'SSH keys inherit the policies of the user or object they authenticate.',
       'Duo Username: %s' => 'Duo Username: %s',
       'Check Your Email' => 'Check Your Email',
-      'Phabricator instance name is required.' => 'Phabricator instance name is required.',
       'Captcha' => 'Captcha',
       'Email record has invalid user PHID!' => 'Email record has invalid user PHID!',
       'No Matching Tokens' => 'No Matching Tokens',
@@ -1046,6 +1041,7 @@ final class PhabricatorAuthEn
       'Unable to refresh token!' => 'Unable to refresh token!',
       '%s changed the status of this provider from %s to %s.' => '%s changed the status of this provider from %s to %s.',
       'Consumer Key' => 'Consumer Key',
+      'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.' => 'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.',
       'Logging in will verify %s as an email address you own.' => 'Logging in will verify %s as an email address you own.',
       'Not a Valid Email Address' => 'Not a Valid Email Address',
       'SSH Keys' => 'SSH Keys',
@@ -1079,6 +1075,7 @@ final class PhabricatorAuthEn
       'You can not make a disabled number a primary contact number.' => 'You can not make a disabled number a primary contact number.',
       'Use TLS' => 'Use TLS',
       'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.',
+      'You will no longer be able to use your %s account to log in.' => 'You will no longer be able to use your %s account to log in.',
       'Auth Invite' => 'Auth Invite',
       'Instructions on the "Wait For Approval" screen, shown to users who have registered an account that has not yet been approved by an administrator.' => 'Instructions on the "Wait For Approval" screen, shown to users who have registered an account that has not yet been approved by an administrator.',
       'Username/Password' => 'Username/Password',
@@ -1087,7 +1084,6 @@ final class PhabricatorAuthEn
       'CHANGES TO ENROLL MESSAGE' => 'CHANGES TO ENROLL MESSAGE',
       'Duo enrollment mode ("%s") is not supported.' => 'Duo enrollment mode ("%s") is not supported.',
       'Duo Username' => 'Duo Username',
-      'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => 'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.',
       'Status "%s" is invalid. Valid statuses are: %s.' => 'Status "%s" is invalid. Valid statuses are: %s.',
       'Email Address Already in Use' => 'Email Address Already in Use',
       'Administrative approvals are enabled (in %s), so all new users must have their accounts approved by an administrator.' => 'Administrative approvals are enabled (in %s), so all new users must have their accounts approved by an administrator.',
@@ -1101,7 +1097,7 @@ final class PhabricatorAuthEn
     Configure how to record Revisions on JIRA tasks.
     Note you\'ll have to restart the daemons for this to take effect.',
       'Credential ("%s") is not valid.' => 'Credential ("%s") is not valid.',
-      '[Phabricator] %s has invited you to join Phabricator' => '[Phabricator] %s has invited you to join Phabricator',
+      'Base URI is required.' => 'Base URI is required.',
       'No valid linkable account.' => 'No valid linkable account.',
       'There are no configured default registration providers.' => 'There are no configured default registration providers.',
       'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.' => 'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.',
@@ -1110,6 +1106,7 @@ final class PhabricatorAuthEn
       'Again' => 'Again',
       'Expected valid JSON response from GitHub account data request.' => 'Expected valid JSON response from GitHub account data request.',
       '%s disabled account unlinking.' => '%s disabled account unlinking.',
+      '[%s] %s has invited you to join %s' => '[%s] %s has invited you to join %s',
       'Revoke Tokens?' => 'Revoke Tokens?',
       'Confirm %s Account Link' => 'Confirm %s Account Link',
       'You have not configured an outbound SMS mailer. You must configure one before you can set up SMS. See: %s' => 'You have not configured an outbound SMS mailer. You must configure one before you can set up SMS. See: %s',

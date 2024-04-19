@@ -1,0 +1,82 @@
+<?php
+
+final class PhabricatorCalendarHu
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'hu';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'No events found.' => 'Nem található esemény.',
+      'New event icon.' => 'Új esemény ikon.',
+      'Change the event icon.' => 'Az esemény ikon módosítása.',
+      'Read information about events.' => 'Olvassa el az eseményekkel kapcsolatos információkat.',
+      'Drag and drop .ics files to upload them and import them into Calendar.' => 'A feltölteni kívánt .ics fájlokat húzza a feltöltésbe, és importálja azokat naptárba.',
+      'Configure Calendar Event Forms' => 'Naptár eseményformák konfigurálása',
+      'Import Disabled' => 'Import kikapcsolva',
+      'Calendar Import' => 'Naptár import',
+      'ICS File' => 'ICS fájl',
+      'Event Host' => 'Esemény kiszolgáló',
+      'Unable to Disable' => 'Nem lehet kikapcsolni',
+      'Exports' => 'Exportálás',
+      'Movie' => 'Film',
+      'Event icon.' => 'Esemény ikon.',
+      'Too Frequent' => 'Túl gyakori',
+      'Cancel this event?' => 'Ez az esemény törölhető?',
+      'Uses Import Policy' => 'Használj importálási házirendet',
+      'Weekly' => 'Heti',
+      'Anyone who knows the URI for this export can view all event details as though they were logged in with your account.' => 'Bárki, aki ismeri az exportáláshoz használt URI-t, az összes esemény részletét megtekintheti úgy, mintha a fiókjával jelentkezett volna be.',
+      'Export private data.' => 'Személyes adatok exportálása.',
+      'Meeting' => 'Találkozó',
+      'Upcoming Events' => 'Közelgő események',
+      'Adjust export mode.' => 'Export üzemmód beállítása.',
+      'Imported Events' => 'Importált események',
+      '.ics URI' => '.ics URI',
+      'Travel' => 'Utazás',
+      'Calendar Import Logs' => 'Naptár importálási naplók',
+      'Disable Export' => 'Export kikapcsolva',
+      'Cancel the event.' => 'Az esemény törlése.',
+      'Change the end time of the event.' => 'Módosítsa az esemény befejezési idejét.',
+      'Import %d %s' => 'Import %s %s',
+      'Update frequency constant.' => 'Frekvencia állandó frissítése.',
+      'True if the event is an all day event.' => 'Igaz, ha az esemény egy egész napos esemény.',
+      'Edit Event' => 'Esemény szerkesztése',
+      'event host' => 'Esemény kiszolgáló',
+      'Event Start' => 'Esemény kezdete',
+      'Import %d' => 'Import %s',
+      'Invitees' => 'Meghívottak',
+      'Recurring' => 'Ismétlődő',
+      'Cancelled Events' => 'Törölt események',
+      'New event name.' => 'Új esemény neve.',
+      'Create Export' => 'Exportálás létrehozása',
+      'Edit Export' => 'Exportálás szerkesztése',
+      'No Automatic Updates' => 'Nincs automatikus frissítés',
+      'Reload Events' => 'Események újratöltése',
+      'The event description.' => 'Az esemény leírása.',
+      'Event Fields' => 'Esemény mezők',
+      'New export mode.' => 'Új export mód.',
+      'Make the event recurring.' => 'Az esemény ismétlődővé tétele.',
+      'Description of the event.' => 'A esemény leírása.',
+      'Started background processing.' => 'Elindult a háttér feldolgozás.',
+      'New Import' => 'Új import',
+      'Would you like to decline this event?' => 'Szeretné visszautasítani ezt az eseményt?',
+      'Enable Export' => 'Export bekapcsolva',
+      'Imported' => 'Importált',
+      'Import Events' => 'Import események',
+      'Only publicly available data is exported.' => 'Csak a nyilvánosan elérhető adatok kerülnek exportálásra.',
+      'Calendar Imports' => 'Naptár import',
+      'End date is invalid.' => 'A befejezés dátuma érvénytelen.',
+      '[Calendar]' => '[Naptár]',
+      'Name of the event.' => 'Az esemény neve.',
+      'Calendar Export' => 'Naptár export',
+      'Busy' => 'Foglalt',
+      'This event repeats every week.' => 'Ez az esemény minden héten ismétlődik.',
+      'New event host.' => 'Új esemény kiszolgáló.',
+      'Marks this as an all day event.' => 'Ez egy megjelölt egész napos esemény.',
+      'EVENT DETAIL' => 'ESEMÉNY RÉSZLETEI',
+    );
+  }
+
+}

@@ -33,7 +33,7 @@ final class PhabricatorSearchZhHans
       'Global Menu Items' => '全域菜单项',
       'You must choose a label name.' => '您必须选择标签名称。',
       'Edit the menu for your personal account.' => '为您的个人账户编辑菜单。',
-      'Specify either --reset or --threshold.' => '指定--重置或--阀值。',
+      'Specify either --reset or --threshold.' => '指定--reset或--threshold。',
       'Queries' => '查询',
       'Already Default' => '已作为默认',
       'No services need initialization.' => '没有需要初始化的服务。',
@@ -56,6 +56,7 @@ final class PhabricatorSearchZhHans
       'Current Default' => '当前默认值',
       'Query Name' => '查询名',
       'Object Fields' => '对象字段',
+      'Constraints' => '约束',
       'Result Ordering' => '重置排序',
       'Edit Saved Query' => '编辑保存的查询',
       'Motivator' => '动力',
@@ -221,7 +222,7 @@ final class PhabricatorSearchZhHans
     }
     ```
     These builtin orders are available:' => '使用`order`来为结果选择一个顺序。
-    要么指定一个从内置结果中选择‘single key\' （那里有一系列的有意义的，高等级，人类可读的顺序) 或自定一个自定义的低等级列的清单。
+    要么指定一个从内置结果中选择‘single key\'（那里有一系列的有意义的，高等级，人类可读的顺序）或自定一个自定义的低等级列的清单。
     为使用一个高等级的顺序，从下方表格选择一个内置的顺序
     并像这样指定:
     ```lang=json, name="Choosing a Result Order"
@@ -236,7 +237,6 @@ final class PhabricatorSearchZhHans
       'Profile Menu User Guide' => '详情菜单用户指导',
       'Saved Queries' => '保存的查询',
       '(Restricted/Invalid Form)' => '（受限制/无效表单）',
-      'Custom Query Constraints' => '自定义查询约束',
       'All Objects' => '所有对象',
       'Link' => '链接',
       'Enable Query' => '启用查询',

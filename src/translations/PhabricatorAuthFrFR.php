@@ -19,13 +19,13 @@ final class PhabricatorAuthFrFR
     En général, vous ne devriez utiliser cette option que dans un environnement de développement où ssh-keygen ne fonctionne pas et où il est difficile de le réparer, et seulement si vous êtes certain d’en comprendre les risques. Vous ne devez jamais mettre en cache un fichier PKCS8 que vous n’avez pas généré vous-même.',
       'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => 'Ce fournisseur (« %s ») existe déjà et vous ne pouvez pas en ajouter plus d’une instance. Vous pouvez modifier le fournisseur existant, ou bien choisir un autre fournisseur.',
       'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => 'Pour ajouter un facteur Duo, veuillez d’abord télécharger et installer l’application Duo sur votre téléphone. Une fois l’application lancée et que vous êtes prêt à réaliser l’installation, cliquez sur « Continuer ».',
-      'Specify an OAuth client id with %s.' => 'Spécifier un ID de client OAuth avec %s.',
       'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => 'Le code de vérification que vous avez fourni est incorrect, ou bien l’adresse de messagerie a été supprimée ou appartient à un autre utilisateur. Assurez-vous d’avoir correctement suivi le lien dans le courriel et que vous êtes connecté avec le compte utilisateur associé avec l’adresse de messagerie.',
       'Edit Contact Number' => 'Modifier le numéro de contact',
       'Passwords' => 'Mots de passe',
       'Algorithm' => 'Algorithme',
       'You must specify the username of the account to recover.' => 'Vous devez spécifier le nom d’utilisateur du compte à récupérer.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'La configuration du fournisseur d’authentification est verrouillée, et ne peut pas être modifiée sans être déverrouillée. Voir le paramètre de configuration %s pour les détails.',
+      'Server name must contain only lowercase letters, digits, and periods.' => 'Le nom de l’instance Phabricator ne doit contenir que des lettres minuscules, des chiffres et des points.',
       'Revoke Tokens' => 'Révoquer des jetons',
       'There are too many configured default registration providers.' => 'Il y a trop de fournisseurs d’abonnement par défaut configurés.',
       'Unlink "%s" Account?' => 'Détacher le compte « %s » ?',
@@ -47,7 +47,7 @@ final class PhabricatorAuthFrFR
     Cliquez sur **Ajouter un consommateur** et créez une nouvelle application.
     Après avoir achevé la configuration, copiez la **Clé** et le **Secret** dans les champs ci-dessus.',
       'The account you are attempting to register or link is already linked to another user.' => 'Le compte que vous tentez d’enregistrer ou de lier est déjà lié à un autre utilisateur.',
-      'The email address associated with this external account ("%s") is not a valid email address and can not be used to register a Phabricator account. Choose a different, valid address.' => 'L’adresse de courriel associée avec ce compte externe (« %s ») n’est pas une adresse de messagerie valide et ne peut pas être utilisée pour enregistrer un compte Phabricator. Choisir une adresse différente valide.',
+      'Base URI should include protocol (like "%s").' => 'L’URI de base de Phabricator doit inclure le protocole (tel que « %s »).',
       'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Vérifier une l’adresse de messagerie non vérifiée qui est déjà attachée à un compte. Cela réexécutera également les crochets d’événements pour les adresses déjà vérifiées.',
       'Must Verify Email' => 'Exiger la vérification d’adresse de courriel',
       'Expected "newResultForPrompt()" to return an object of class "%s", but it returned something else ("%s"; in "%s").' => '« newResultForPrompt() » est supposé renvoyer un objet de classe « %s », mais il a renvoyé quelque chose d’autre (« %s » ; dans « %s »).',
@@ -56,15 +56,14 @@ final class PhabricatorAuthFrFR
       'Edit MFA Provider' => 'Modifier le fournisseur MFA',
       'SSH Key Type' => 'Type de clé SSH',
       '%s enabled auto login.' => '%s a activé la connexion automatique.',
-      'The email address ("%s") associated with the external account is already in use by an existing Phabricator account. Multiple Phabricator accounts may not have the same email address, so you can not use this email address to register a new Phabricator account.' => 'L’adresse de messagerie (« %s ») associée avec le compte externe est déjà utilisée par un compte Phabricator existant. Plusieurs comptes Phabricator ne peuvent pas avoir la même adresse de messagerie, vous en pouvez donc pas utiliser cette adresse pour enregistrer un nouveau compte Phabricator.',
+      'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:' => 'Le compte avec lequel vous essayez de vous inscrire a une adresse de courriel non valide (%s). Cette installation de Phabricator ne permet l’inscription qu’avec des adresses de courriel spécifiques :',
       'Invalid OAuth Access Token' => 'Jeton d’accès OAuth non valide',
       'Create Auth Message' => 'Créer un message d’authentification',
       'Verify Email' => 'Vérifier l’adresse courriel',
       'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Révoquer les certificats pour l’objet spécifié. Pour révoquer les certificats pour un utilisateur, utiliser « @username ».',
       'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Utiliser « --user <nom utilisateur> » pour spécifier l’utilisateur duquel retirer des facteurs, ou bien « --all-users » pour retirer des facteurs de tous les utilisateurs.',
-      'Phabricator already trusts OAuth client "%s".' => 'Phabricator fait déjà confiance au client OAuth « %s ».',
       'This factor recently issued a challenge which has expired. A new challenge can not be issued yet. Wait %s second(s) for the code to cycle, then try again.' => 'Ce facteur a récemment lancé un défi qui a expiré. Un nouveau défi ne peut pas encore être lancé. Attendez %s seconde(s) pour que le code passe au cycle suivant, puis essayez à nouveau.',
-      'Phabricator will skip email verification for accounts registered through this provider.' => 'Phabricator sautera la vérification par courriel pour les comptes enregistrés via ce fournisseur.',
+      'This is a terse test text message (from "%s").' => 'Ceci est un message textuel concis de test de Phabricator (%s).',
       'Path to public keyfile.' => 'Chemin vers le fichier de clé publique.',
       'Strip all factors, regardless of type.' => 'Retirer tous les facteurs, quel que soit leur type.',
       'Enable the contact number %s?' => 'Activer le numéro de contact %s ?',
@@ -72,9 +71,9 @@ final class PhabricatorAuthFrFR
       'Sign this transaction group with MFA.' => 'Signer ce groupe de transactions avec MFA.',
       '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => '(Certains types de jeton ne peuvent pas être révoqués et vous ne pouvez pas révoquer des jetons qui ont déjà expiré.)',
       'You have not configured any multi-factor providers yet.' => 'Vous n’avez encore configuré aucun fournisseur de facteurs multiples.',
-      'The external account ("%s") you just authenticated with is not configured to allow account linking on this Phabricator install. An administrator may have recently disabled it.' => 'Le compte externe (« %s ») que vous venez d’authentifier n’est pas configuré pour autoriser la liaison sur cette installation de Phabricator. Un administrateur l’a peut-être récemment désactivé.',
       'Unable to Log In' => 'Connexion impossible',
-      'If you want to link an existing Phabricator account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Si vous voulez vous lier un compte Phabricator existant à ce compte externe, ne continuez pas. À la place : connectez-vous sur votre compte existant, puis allez dans « Paramètres » et liez le compte dans le panneau « Comptes externes ».',
+      'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'Le compte externe (« %s ») que vous venez d’utiliser pour vous connecter est déjà associé avec un autre compte utilisateur Phabricator. Connectez-vous à l’autre compte Phabricator et supprimez le compte externe avant de le lier avec un nouveau compte Phabricator.',
+      'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Avant d’utiliser Phabricator, vous devez ajouter une authentification multi-facteurs à votre compte. Celle-ci permet de le sécuriser en rendant plus difficile son accès et la réalisation d’actions sensibles aux attaquants.',
       'Session has already signed required legalpad documents!' => 'La session a déjà signé les documents Legalpad nécessaires !',
       'On the plus side, that purple notification bubble will disappear.' => 'Du côté positif, cette bulle pourpre de notification disparaîtra.',
       'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'Ce compte (« %s ») ne peut pas établir de sessions web, il n’est donc pas possible de générer un lien de récupération fonctionnel. Les comptes spéciaux comme les services d’arrière-plan et les listes de diffusion ne peuvent se connecter via l’interface utilisateur sur le web.',
@@ -83,13 +82,11 @@ final class PhabricatorAuthFrFR
       'Expected valid JSON response from Disqus account data request.' => 'Réponse JSON valide attendue de la demande de données de compte Disqus.',
       'LDAP Port' => 'Port LDAP',
       'Really trust this PKCS8 keyfile?' => 'Vraiment faire confiance à ce fichier de clé PKCS8 ?',
-      'Use Phabricator Username' => 'Utiliser le nom d’utilisateur de Phabricator',
       '%s updated the OAuth consumer key for this provider from "%s" to "%s".' => '%s a mis à jour la clé du consommateur OAuth pour ce fournisseur de « %s » en « %s ».',
       'Contact number is already in use.' => 'Le numéro de contact est déjà utilisé.',
       'No such user "%s" to recover.' => 'Il n’y aucun utilisateur nommé « %s » à récupérer.',
       'Expected \'%s\' to be \'%s\'!' => '« %s » est censé être « %s » !',
       'No public key was provided.' => 'Aucune clé publique n’a été fournie.',
-      'Phabricator base URI should include protocol (like "%s").' => 'L’URI de base de Phabricator doit inclure le protocole (tel que « %s »).',
       'Log In with LDAP' => 'Connexion avec LDAP',
       'Expected verifier to finish OAuth handshake!' => 'Le vérificateur est censé terminer la poignée de mains OAuth !',
       'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => 'Spécifier le type de certificat à révoquer avec « --type » ou spécifier « --everything ». Utiliser « --list » pour lister les types de certificats disponibles.',
@@ -108,7 +105,6 @@ final class PhabricatorAuthFrFR
         'Vous avez refusé cette requête. Attendez %s seconde avant d’essayer à nouveau.',
         'Vous avez refusé cette requête. Attendez %s secondes avant d’essayer à nouveau.',
       ),
-      'Phabricator Base URI' => 'URI de base de Phabricator',
       'Guidance included in the mail message body when users request an email link to access their account.
     For installs with password authentication enabled, users access this workflow by using the "Forgot your password?" link on the login screen.
     For installs without password authentication enabled, users access this workflow by using the "Send a login link to your email address." link on the login screen. This workflow allows users to recover access to their account if there is an issue with an external login service.' => 'Guide inclus dans le corps du message du courriel quand les utilisateurs demandent un lien par courriel pour accéder à leur compte.
@@ -121,24 +117,37 @@ final class PhabricatorAuthFrFR
       'Allow users to log in using this provider. If you disable login, users can still use account integrations for this provider.' => 'Permettre aux utilisateurs d’utiliser ce fournisseur. Si vous désactivez la connexion, les utilisateurs pourront encore utiliser les intégrations de compte depuis ce fournisseur.',
       'Allow Login:' => 'Autoriser la connexion :',
       'Terminate Session?' => 'Fermer la session ?',
+      '%s (%s) MFA Code: %s' => 'Code MFA de Phabricator (%s) : %s',
       'Wrong Account' => 'Compte erroné',
       'Refresh tokens for a given user.' => 'Actualiser les jetons pour un utilisateur donné.',
       'Status ("%s") is not a valid contact number status. Valid status constants are: %s.' => 'L’état (« %s ») n’est pas un état valide de numéro de contact. Les constantes d’état valides sont : %s.',
       'Already Registered' => 'Déjà enregistré',
-      'Allow users to register new Phabricator accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.' => 'Permettre aux utilisateurs d’enregistrer de nouveaux comptes Phabricator en utilisant ce fournisseur. Si vous désactivez les inscriptions, les utilisateurs pourront toujours utiliser ce fournisseur pour se connecter à des comptes existants, mais ne pourront pas créer de nouveaux comptes.',
       'SECURITY WARNING' => 'AVERTISSEMENT DE SÉCURITÉ',
       'This public key is already associated with another user or device. Each key must unambiguously identify a single unique owner.' => 'Cette clé publique est déjà associée avec un autre utilisateur ou un autre appareil. Chaque clé doit identifier sans ambiguïté un seul et unique utilisateur.',
+      'Allow users to unlink account credentials for this provider from existing accounts. If you disable this, accounts will be permanently bound to provider accounts.' => 'Permettre aux utilisateurs de supprimer le lien des certificats de compte pour ce fournisseur depuis des comptes Phabricator existants. Si vous désactivez cela, les comptes Phabricator seront liés de façon permanente aux comptes du fournisseur.',
       'When you need to authenticate, a request will be pushed to the Duo application on your phone.' => 'Quand vous devrez vous authentifier, une demande sera poussée vers l’application Duo sur votre téléphone.',
       'SMS is weak, and relatively easy for attackers to compromise. Strongly consider using a different MFA provider.' => 'Le SMS est faible et relativement facile à compromettre pour les attaquants. Envisagez sérieusement d’utiliser un fournisseur MFA différent.',
       'Revoke credentials without prompting.' => 'Révoquer des certificats sans demande de confirmation.',
       '%s set the OAuth consumer secret for this provider.' => '%s a défini le secret du consommateur OAuth pour ce fournisseur.',
       'You are logged in as %s, but the email address (%s) you just clicked a link from is already associated with another account (%s). You can log out to switch accounts, or verify the address and attach it to your current account. Attach email address %s to user account %s?' => 'Vous êtes connecté(e) en tant que %s, mais l’adresse de courriel (%s) depuis laquelle vous avez cliqué un lien est déjà associée avec un autre compte (%s). Vous pouvez vous déconnecter pour passer à un autre compte, ou bien vérifier l’adresse et l’attacher au compte que vous utilisez actuellement. Souhaitez-vous rattacher l’adresse de courriel %s au compte utilisateur %s ?',
+      'NOTE: Any user who can browse to this install\'s login page will be able to register an account. To restrict who can register an account, configure [[ %s | %s ]].' => 'NOTE : Tout utilisateur qui peut naviguer jusqu’à cette page de connexion d’installation pourra inscrire un compte Phabricator. Pour restreindre qui peut inscrire un compte, configurer [[ %s | %s ]].',
       'Auth Provider %d' => 'Fournisseur d’authentification %s',
-      'Phabricator already does not trust OAuth client "%s".' => 'Phabricator ne fait pas encore confiance au client OAuth « %s ».',
       'Set Test Message' => 'Définir le message de test',
       'Contact number is invalid: %s' => 'Le numéro de contact n’est pas valide : %s',
+      'To configure WordPress.com OAuth, create a new WordPress.com Application here:
+    https://developer.wordpress.com/apps/new/.
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Redirect URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Pour configurer OAuth de WordPress.com, créer une nouvelle application WordPress.com ici :
+    https://developer.wordpress.com/apps/new/.
+    Vous devez utiliser ces paramètres dans votre application :
+      - **URL :** La mettre à votre domaine complet avec son protocole. Pour cette installation de Phabricator, la bonne valeur est : `%s`
+      - **URL de redirection** : La mettre à : `%s`
+    Une fois l’application créée, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'Username Attribute' => 'Attributs du nom d’utilisateur',
       'Unlink Your Only Login Account?' => 'Délier votre seul compte de connexion ?',
+      'Specify an OAuth client id with "--id".' => 'Spécifier un identifiant de client OAuth avec %s.',
       'Your account has no primary contact number.' => 'Votre compte n’a pas de principal numéro de contact.',
       'JIRA base URI is required.' => 'L’URI de base de JIRA est obligatoire.',
       'Config Locked' => 'Configuration verrouillée',
@@ -146,62 +155,36 @@ final class PhabricatorAuthFrFR
       'Recover directly into a full session without requiring MFA or other login checks.' => 'Récupérer directement dans une session complète, sans exiger de vérifications de connexion par MFA ou autres moyens.',
       'Always bind and search, even without a username and password.' => 'Toujours lier et rechercher, même sans nom d’utilisateur et mot de passe.',
       'Skipping, provider is not enabled or does not exist.' => 'Sauter, le fournisseur n’est pas activé ou n’existe pas.',
-      'Allow users to link account credentials for this provider to existing Phabricator accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Permettre aux utilisateurs de lier des certificats de compte pour ce fournisseur à des comptes Phabricator existants. Il n’y a normalement aucune raison pour désactiver cela, sauf si vous essayez d’écarter un fournisseur et voulez arrêter la création de nouveaux liens de compte par les utilisateurs.',
       'Does Not Allow Registration' => 'Ne permet pas l’inscription',
       '/settings/panel/contact/' => '/settings/panel/contact/',
       'Path to corresponding PKCS8 key.' => 'Chemin vers la clé PKCS8 correspondante.',
       'Strength' => 'Force',
       'Enter LDAP Credentials' => 'Saisir les identifiants LDAP',
       'LDAP record query returned more than one result. The query must uniquely identify a record.' => 'La requête d’enregistrement LDAP a renvoyé plus d’un résultat. La requête doit identifier un enregistrement unique.',
-      'Email record ("%s") has bad associated user PHID ("%s").' => 'L\'adresse de courriel enregistrée (%s) a un PHID utilisateur mal associé (%s).',
+      'Email record ("%s") has bad associated user PHID ("%s").' => 'L’adresse de courriel enregistrée (%s) a un PHID utilisateur mal associé (%s).',
       'This email address has already been verified.' => 'Cette adresse de courriel a déjà été confirmée.',
       'The password you entered is the same as another password associated with your account. Each password must be unique.' => 'Le mot de passe que vous avez saisi est le même qu’un autre mot de passe associé avec votre compte. Chaque mot de passe doit être unique.',
-      'The email address you just clicked a link from is already the primary email address for a registered account (%s). Log in to continue.' => 'L\'adresse de courriel depuis laquelle vous avez cliqué sur un lien est déjà l\'adresse primaire pour un compte enregistré (%s). Connectez-vous pour continuer.',
-      'Guidance shown on the main login screen before users log in or register.' => 'Guide affiché sur l’écran de connexion principal avant que les utilisateurs ne se connectent ou s’inscrivent.',
-      'Cache the PKCS8 format of a public key. When developing on OSX, this can be used to work around issues with ssh-keygen. Use `%s` to generate a PKCS8 key to feed to this command.' => 'Mettre en cache le format PKCS8 d’une clé publique. En développant sur OSX, cela peut être utilisé pour contourner les problèmes avec ssh-keygen. Utiliser `%s` pour générer une clé PKCS8 pour alimenter cette commande.',
-      'Revoke from all credential owners.' => 'Révoquer tous les possesseurs de certificats.',
-      'Invite has invalid author PHID ("%s").' => 'L’invité a un PHID d’auteur non valide (« %s »).',
+      'The email address you just clicked a link from is already the primary email address for a registered account (%s). Log in to continue.' => 'L’adresse de courriel depuis laquelle vous avez cliqué sur un lien est déjà l’adresse primaire pour un compte enregistré (%s). Connectez-vous pour continuer.',
+      'Guidance shown on the main login screen before users log in or register.' => 'Guide affiché sur l’écran de connexion principal avant que les utilisateurs ne se connectent ou ne s’inscrivent.',
+      'Cache the PKCS8 format of a public key. When developing on OSX, this can be used to work around issues with ssh-keygen. Use `%s` to generate a PKCS8 key to feed to this command.' => 'Mettre en cache le format PKCS8 d’une clé publique. En développant sur OSX, cela peut être utilisé pour contourner les problèmes avec « ssh-keygen ». Utiliser `%s` pour générer une clé PKCS8 pour alimenter cette commande.',
+      'Revoke from all credential owners.' => 'Révoquer tous les possesseurs d’identifiants.',
+      'Invite has invalid author PHID ("%s").' => 'L’invité a un PHID d’auteur non valide (« %s »).',
       'Unable to Make Primary' => 'Impossible de faire un principal',
-      'Use lowercase letters, digits, and periods. For example: %s' => 'Utilisez des minuscules, des chiffres et des points. Par exemple : %s',
-      'The response token for this challenge is invalid: response tokens may not include spaces.' => 'Le jeton de réponse pour ce défi n’est pas valide : les jetons de réponse ne doivent pas comprendre d’espaces.',
+      'Use lowercase letters, digits, and periods. For example: %s' => 'Utilisez des minuscules, des chiffres et des points. Par exemple : %s',
+      'The response token for this challenge is invalid: response tokens may not include spaces.' => 'Le jeton de réponse pour ce défi n’est pas valide : les jetons de réponse ne doivent comprendre aucune espace.',
       'Anonymous Password' => 'Mot de passe anonyme',
-      'Use the button below to log in as: %s' => 'Utiliser le bouton ci-dessous pour vous connecter en tant que : %s',
-      '**Step 2 of 2**: In this step, you will configure JIRA.
-    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
-      - **Server URL**: `%s`
-      - Then, click **Next**. On the second page:
-      - **Application Name**: `Phabricator`
-      - **Application Type**: `Generic Application`
-      - Then, click **Create**.
-    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
-      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
-      - **Consumer Name**: `Phabricator`
-      - **Public Key**: Set this to the "Public Key" value in the form above.
-      - **Consumer Callback URL**: `%s`
-    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Étape 2 sur 2**: Dans cette étape, vous configurerez JIRA.
-    **Créer une application JIRA**: Se connecter à JIRA et aller dans **Administration**, puis **Modules**, puis **Liens d’application**. Cliquer sur le bouton intitulé **Ajouter un lien d’application**, et utiliser ces paramètres pour créer une application :
-      - **URL du serveur** : `%s`
-      - Puis cliquer sur **Suivant**. Sur la deuxième page :
-      - **Nom de l’application** : `Phabricator`
-      - **Type de l’application** : `Application générique`
-      - Puis cliquer sur **Créer**.
-    **Configurer votre application**: Trouver l’application que vous venez de créer dans le tableau, et vliquer sur le lien **Configurer** sous **Actions**. Sélectionner **Authentification entrante** et cliquer sur l’onglet **OAuth** (il devrait être sélectionné par défaut). Puis utiliser ces paramètres :
-      - **Clé du consommateur** : Mettre cela à la valeur de « Clé du consommateur » dans le formulaire ci-dessus.
-      - **Nom du consommateur** : `Phabricator`
-      - **Clé publique** : Mettre cela à la valeur de « Clé publique » du formulaire ci-dessus.
-      - **URL de rappel du consommateur** : `%s`
-    Cliquer sur **Enregistrer** dans JIRA. L’authentification devrait maintenant être configurée, et ce fournisseur fonctionner correctement.',
+      'Use the button below to log in as: %s' => 'Utiliser le bouton ci-dessous pour vous connecter en tant que : %s',
       'Active OAuth Token' => 'Activer le jeton OAuth',
       'An authorization request will be pushed to the Duo application on your phone.' => 'Une demande d’autorisation sera poussée vers l’application Duo sur votre téléphone.',
       'Administrative approvals are disabled, so users who register will be able to use their accounts immediately. To enable approvals, configure %s.' => 'Les approbations des administrateurs sont désactivées, donc les utilisateurs qui s’inscriront pourront utiliser immédiatement leurs comptes. Pour activer les approbations, configurer %s.',
       'Google' => 'Google',
-      'Updated; Phabricator trusts OAuth client %s.' => 'Mis à jour ; Phabricator fait confiance au client OAuth %s.',
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'Vous avez actuellement une authentification à plusieurs facteurs (« %s ») qui dépend de votre numéro de contact principal. Vous devez supprimer ce facteur d’authentification avant de pouvoir définir un nouveau numéro de contact principal.',
       'Failed to decode OAuth access token response: %s' => 'Échec à décoder la réponse de jeton d’accès OAuth : %s',
       'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.' => 'De façon facultative, spécifier un attribut ou plus séparés par des virgules pour utiliser le champ prérempli « Nom réel » lors de l’inscription d’un nouveau compte. C’est purement cosmétique, et n’affecte pas le processus de connexion, mais peut faciliter un peu l’inscription.',
-      'You must enter an LDAP password.' => 'Vous devez entrer un mot de passe LDAP.',
+      'You must enter an LDAP password.' => 'Vous devez saisir un mot de passe LDAP.',
       'Generate New Keypair' => 'Générer une nouvelle paire de clés',
       'MFA Provider' => 'Fournisseur MFA',
+      'The private key will not be retained.' => 'Phabricator ne conservera pas une copie de la clé privée.',
       'MFA Provider %d' => 'Fournisseur MFA %s',
       'This challenge already has a response token; you can not set a new response token.' => 'Ce défi a déjà un jeton de réponse ; vous ne pouvez pas définir de nouveau jeton de réponse.',
       'Invite action is not a send action!' => 'L\'action de l’invité n’est pas une action d\'envoi !',
@@ -209,15 +192,25 @@ final class PhabricatorAuthFrFR
       'Edit Message' => 'Modifier le message',
       'user=%s, verified=%s, primary=%s, should_verify=%s' => 'utilisateur=%s, vérifié=%s, principal=%s, à_vérifier=%s',
       'Expected valid JSON response from Facebook account data request.' => 'Réponse JSON valide attendue de la requête de données de compte Facebook.',
-      'NOTE: Any user who can browse to this install\'s login page will be able to register a Phabricator account. To restrict who can register an account, configure [[ %s | %s ]].' => 'NOTE : Tout utilisateur qui peut naviguer jusqu’à cette page de connexion d’installation pourra inscrire un compte Phabricator. Pour restreindre qui peut inscrire un compte, configurer [[ %s | %s ]].',
       'Add Multi-Factor Auth' => 'Ajouter l\'authentification multi-facteur',
       'The contact number.' => 'Le numéro de contact.',
-      'You must enter an LDAP username.' => 'Vous devez entrer un nom d\'utilisateur LDAP.',
+      'You must enter an LDAP username.' => 'Vous devez saisir un nom d’utilisateur LDAP.',
       'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%d), expected exactly one.' => 'Réponse à une validation de défi TOTP avec un nombre non attendu de défis non expirés (%s), un seul est attendu.',
       'Refresh LDAP Account' => 'Rafraîchir le compte LDAP',
       'The password and confirmation do not match.' => 'Le mot de passe et la confirmation ne correspondent pas.',
       'Reset action counters so a user can continue taking rate-limited actions.' => 'Réinitialiser les compteurs d’action pour qu’un utilisateur puisse continuer à prendre des actions avec un taux limité.',
       '%s disabled this contact number.' => '%s a désactivé ce numéro de contact.',
+      'To configure GitHub OAuth, create a new GitHub Application here:
+    https://github.com/settings/applications/new
+    You should use these settings in your application:
+      - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
+      - **Callback URL**: Set this to: `%s`
+    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Pour configurer OAuth de GitHub, créer une nouvelle application GitHub ici :
+    https://github.com/settings/applications/new
+    Vous devez utiliser ces paramètres dans votre application :
+      - **URL :** La définir avec votre domaine complet avec le protocole. Pour cette installation de Phabricator, la bonne valeur est : `%s`
+      - **URL de rappel**: La mettre à : `%s`
+    Une fois l’application créée, copiez le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'No Providers Configured:' => 'Aucun fournisseur configuré :',
       'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Si vous continuez, vous créerez un nouveau compte. Vous ne pourrez pas lier ce compte externe à un compte existant.',
       'A text message with an authorization code will be sent to your primary contact number.' => 'Un message texte avec un code d’autorisation sera envoyé à votre numéro de contact principal.',
@@ -235,6 +228,7 @@ final class PhabricatorAuthFrFR
       'Connecting to LDAP...' => 'Connexion à LDAP...',
       'Wait' => 'Attendre',
       'No matching SSH keys.' => 'Pas de clés SSH correspondantes.',
+      'Use %s Username' => 'Utilisez le nom d\'utilisateur %s',
       'Authentication Error' => 'Erreur d\'authentification',
       'A keypair has been generated, and the public key has been added as a recognized key.' => 'Une paire de clés a été générée, et la clé publique a été ajoutée comme clé reconnue.',
       '%s named this provider %s.' => '%s a nommé ce fournisseur %s.',
@@ -242,21 +236,29 @@ final class PhabricatorAuthFrFR
       'Mail Body: Email Login' => 'Corps du courriel : Courriel de connexion',
       'Send a test message to %s?' => 'Envoyer un message de test à %s ?',
       'Auth' => 'Auth',
+      'Confirm the link with this %s account. This account will be able to log in to your %s account.' => 'Confirmer le lien avec ce compte %s. Ce compte pourra se connecter à votre compte Phabricator.',
+      '**JIRA Instance Name**
+    Choose a permanent name for this instance of JIRA. This name is used internally to keep track of this particular instance of JIRA, in case the URL changes later.
+    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.' => '**Nom d’instance JIRA**
+    Choisir un nom permanent pour cette instance de JIRA. Phabricator utilise ce nom en interne pour garder trace de cette instance de JIRA, au cas où l’URL change plus tard.
+    Utiliser des lettres minuscules, des chiffres et des points. Par exemple, `jira`, `jira.macompagnie` ou `jira.ingenierie` sont des noms acceptables.',
       'Text Message (SMS)' => 'Message texte (SMS)',
       '%s removed the name (%s) of this provider.' => '%s a supprimé le nom (%s) de ce fournisseur.',
+      'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart everything, and try again.' => 'L’extension \'openssl\' de PHP n’est pas installée. Vous devez installer cette extension pour pouvoir ajouter un fournisseur d’authentification JIRA, parce que OAuth de JIRA requiert l’utilisation de l’algorithme de signature RSA-SHA1. Installez l’extension \'openssl\', redémarrez Phabricator, et réessayez.',
       'Provided public key is not properly formatted.' => 'La clé publique fournie n’est pas au bon format.',
       'Multi-Factor Authentication is Misconfigured' => 'L’authentification multi-facteurs est mal configurée',
       '(You can not terminate your current login session. To terminate it, log out.)' => '(Vous ne pouvez pas terminer votre session de connexion actuelle. Pour la terminer, déconnectez-vous.)',
       'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => 'Votre compte a été créé, mais doit être approuvé par un administrateur. Vous recevrez un courriel une fois que votre compte sera approuvé.',
-      'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Les défis MFA récemment levés doivent avoir un TTL dans le futur. Ce facteur a levé un mauvais TTL (« %s ») (avez-vous utilisé une heure relative plutôt qu’un temps ?).',
+      'Newly issued MFA challenges must have a future TTL. This factor issued a bad TTL ("%s"). (Did you use a relative time instead of an epoch?)' => 'Les défis MFA récemment levés doivent avoir une TTL (limite de temps de validité) placée dans le futur. Ce facteur a émis une TTL (« %s ») incorrecte. (Avez-vous utilisé un temps relatif au lieu d’un instant absolu ?)',
       'Yes (Optional)' => 'Oui (facultatif)',
       'Access token error: %s' => 'Erreur de jeton d’accès : %s',
+      'The URI where the OAuth server is installed. For example: %s' => 'L’URI où l’instance du serveur OAuth de Phabricator est installée. Par exemple : %s',
       'Cached PKCS8 key for public key.' => 'Clé PKCS8 en cache pour la clé publique.',
       'Username Change Instructions' => 'Instructions de modification de nom d’utilisateur',
       'Custom Enroll Message' => 'Message d’inscription personnalisé',
+      'You must verify your email address to log in. You should have a new email message with verification instructions in your inbox (%s).' => 'Vous devez vérifier votre adresse de courriel pour vous connecter. Vous devez avoir reçu un nouveau courriel de Phabricator avec des instructions pour la vérification dans votre boîte de réception (%s).',
       'Refreshing token, current token expires in %s seconds.' => 'Rafraîchir le jeton, le jeton courant expire dans %s secondes.',
       'Allows Registration' => 'Permet l’inscription',
-      'You can link your Phabricator account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.' => 'Vous pouvez lier votre compte Phabricator à un compte externe pour vous permettre de vous connecter plus facilement dans le futur. Pour continuer, choisir un compte à lier ci-dessous. Si vous préférez ne pas lier votre compte, vous pouvez sauter cette étape.',
       'Duo' => 'Duo',
       'Application ID is required.' => 'L’ID de l’application est obligatoire.',
       'You do not have a linked account on this provider, and thus can not refresh it.' => 'Vous n’avez pas de compte lié à ce fournisseur, et donc ne pouvez pas le rafraîchir.',
@@ -270,10 +272,10 @@ final class PhabricatorAuthFrFR
       'Newly issued MFA challenges must have a valid TTL!' => 'Les défis MFA nouvellement lancés doivent avoir un TTL valide !',
       'Target "%s" is not a valid target to revoke credentials from. Usually, revoke from "@username".' => 'La cible « %s » n’est pas une cible valide depuis laquelle révoquer les certificats. En général, révoquer depuis « @username ».',
       '%d-Bit Secret' => 'Secret à %s bit',
-      'Set Phabricator to trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Configurer Phabricator pour faire confiance à un client OAuth. Phabricator redirige vers les clients OAuth de confiance que les utilisateurs ont autorisés, sans intervention de leur part.',
       'Duo is not requiring a challenge, which defeats the purpose of MFA. Duo must be configured to challenge you.' => 'Duo ne nécessite pas de défi, ce qui va à l’encontre du but de MFA. Duo doit être configuré pour vous défier.',
       'The email address you just clicked a link from is already associated with a registered account (%s), but is not verified. Log in to that account to continue. If you can not log in, you can register a new account.' => 'L’adresse de messagerie depuis laquelle vous venez de cliquer sur un lien est déjà associée à un compte inscrit (%s), mais n’est pas vérifiée. Connectez-vous  à ce compte pour continuer. Si vous ne pouvez pas vous connecter, vous pouvez enregistrer un nouveau compte.',
       'You are destroying an entire class of credentials. This may be very disruptive to users. You should normally do this only if you suspect there has been a widespread compromise which may have impacted everyone.' => 'Vous êtes en train de détruire toute une classe de certificats. Cela peut être perturbant pour les utilisateurs. Vous devez normalement faire cela uniquement si vous suspectez qu’il y a eu compromis général qui peut avoir impacté tout le monde.',
+      'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Si vous voulez vous lier un compte Phabricator existant à ce compte externe, ne continuez pas. À la place : connectez-vous sur votre compte existant, puis allez dans « Paramètres » et liez le compte dans le panneau « Comptes externes ».',
       'You responded to this challenge correctly.' => 'Vous avez répondu correctement à ce défi.',
       'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => 'Spécifier soit des facteurs spécifiques avec « --provider », ou tous les facteurs avec « --all-types », mais pas les deux.',
       'To configure Disqus OAuth, create a new application here:
@@ -289,17 +291,6 @@ final class PhabricatorAuthFrFR
       'Login Screen Instructions' => 'Instructions de l\'écran de connexion',
       'Mail Body: Welcome' => 'Corps du courriel : Bienvenue',
       'Revoke Token?' => 'Révoquer le jeton ?',
-      'To configure WordPress.com OAuth, create a new WordPress.com Application here:
-    https://developer.wordpress.com/apps/new/.
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Redirect URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Pour configurer OAuth de WordPress.com, créer une nouvelle application WordPress.com ici :
-    https://developer.wordpress.com/apps/new/.
-    Vous devez utiliser ces paramètres dans votre application :
-      - **URL :** La mettre à votre domaine complet avec son protocole. Pour cette installation de Phabricator, la bonne valeur est : `%s`
-      - **URL de redirection** : La mettre à : `%s`
-    Une fois l’application créée, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'Asana' => 'Asana',
       'MFA' => 'MFA',
       'Terminate all login sessions.' => 'Terminer toutes les sessions connectées.',
@@ -308,14 +299,14 @@ final class PhabricatorAuthFrFR
       'Failed to find an OAuth client with ID %s.' => 'Échec de recherche d’un client OAuth avec l’ID %s.',
       'Allow Account Linking' => 'Permettre le lien de compte',
       'Provider names can not be longer than %s characters.' => array(
-        'Le nom des fournisseurs ne peut dépasser %s caractère.',
-        'Le nom des fournisseurs ne peut dépasser %s caractères.',
+        'Les noms de fournisseur ne peuvent pas dépasser %s caractère.',
+        'Les noms de fournisseur ne peuvent pas dépasser %s caractères.',
       ),
       'No Account Linked' => 'Aucun compte lié',
+      'Allow users to link account credentials for this provider to existing accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Permettre aux utilisateurs de lier des certificats de compte pour ce fournisseur à des comptes Phabricator existants. Il n’y a normalement aucune raison pour désactiver cela, sauf si vous essayez d’écarter un fournisseur et voulez arrêter la création de nouveaux liens de compte par les utilisateurs.',
       'Slack' => 'Slack',
       'This request improperly specifies an MFA challenge token ("%s") multiple times and can not be processed.' => 'Cette requête spécifie de façon incorrecte un jeton de défi MFA (« %s ») plusieurs fois, et ne peut être traitée.',
       'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.' => 'Vous avez récemment fourni une réponse à ce facteur. Les réponses ne peuvent pas être réutilisées. Attendez %s seconde(s) pour que le code boucle, puis réessayez.',
-      'The external account ("%s") you just used to log in is already associated with another Phabricator user account. Log in to the other Phabricator account and unlink the external account before linking it to a new Phabricator account.' => 'Le compte externe (« %s ») que vous venez d’utiliser pour vous connecter est déjà associé avec un autre compte utilisateur Phabricator. Connectez-vous à l’autre compte Phabricator et supprimez le compte externe avant de le lier avec un nouveau compte Phabricator.',
       'Refresh OAuth access tokens. This is primarily useful for development and debugging.' => 'Rafraîchir les jetons d’accès OAuth. Ceci est surtout utile pour le développement et le débogage.',
       'The OAuth provider returned an error: %s' => 'Le fournisseur OAuth a renvoyé une erreur : %s',
       'Registration Failed' => 'Échec de l’inscription',
@@ -330,11 +321,11 @@ final class PhabricatorAuthFrFR
       'Installation is complete. Register your administrator account below to log in. You will be able to configure options and add authentication mechanisms later on.' => 'L’installation est terminée. Enregistrez votre compte administrateur ci-dessous pour vous connecter. Vous pourrez configurer les options et ajouter les mécanismes d’authentification plus tard.',
       'This request has timed out because you took too long to respond.' => 'Cette requête a expiré car vous avez mis trop de temps à répondre.',
       'All Keys' => 'Toutes les clés',
+      'The external account you are registering with has an email address that is already in use ("%s") by an existing %s account. Choose a new, valid email address to register a new account.' => 'Le compte externe avec lequel vous vous êtes inscrit a une adresse de courriel qui est déjà utilisée (« %s ») par un compte Phabricator existant. Choisir une nouvelle adresse de courriel valide pour enregistrer un nouveau compte Phabricator.',
       'Terminate Sessions' => 'Terminer les sessions',
       'Upload Public Key' => 'Téléverser la clé publique',
       'OAuth App Notes' => 'Notes de l’application OAuth',
       'You have failed too many attempts to synchronize new multi-factor authentication methods in a short period of time.' => 'Vous avez échoué trop de fois à synchroniser les nouvelles méthodes d’authentification à plusieurs facteurs dans une courte période de temps.',
-      'Your Phabricator account is already connected to an external account on this provider ("%s"), but you are currently logged in to the provider with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Votre compte Phabricator est déjà connecté à un compte externe sur ce fournisseur (« %s »), mais vous êtes actuellement connecté sur ce fournisseur avec un autre compte. Déconnectez-vous du service externe, puis reconnectez-vous avec le bon compte avant de rafraîchir le lien du compte.',
       'Expected token to finish OAuth handshake!' => 'Jeton attendu pour terminer la poignée de mains OAuth !',
       'Unable to start TLS connection when connecting to LDAP.' => 'Impossible de démarrer la connexion TLS en se connectant à LDAP.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'La configuration du fournisseur d’authentification est verrouillée et ne peut pas être modifiée sans être déverrouillée.',
@@ -350,32 +341,34 @@ final class PhabricatorAuthFrFR
       '%s enabled account linking.' => '%s a activé la liaison de compte.',
       'Scan this QR code with the Duo application on your mobile phone:' => 'Lire ce code QR avec l’application Duo sur votre téléphone mobile :',
       'Contact Number %d' => 'Numéro de contact %s',
-      'You can not unlink this account because the administrator has configured Phabricator to make links to "%s" accounts permanent.' => 'Vous ne pouvez pas dissocier ce compte car l\'administrateur a configuré Phabricator pour que les liens vers les comptes « %s » soient permanents.',
       'Account Already Linked' => 'Compte déjà lié',
-      'This Phabricator install is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Cette installation Phabricator n’est configurée avec aucun fournisseur d’authentification activé, pouvant être utilisé à la connexion. Si vous vous êtes accidentellement bloqué en désactivant tous les fournisseurs, vous pouvez utiliser `%s` pour récupérer l’accès à un compte.',
       'Another user already has that email.' => 'Un autre utilisateur a déjà ce courriel.',
       'You already have a provider of this type.' => 'Vous avez déjà un fournisseur de ce type.',
+      '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new accounts and log in.' => '%s Vous n’avez pas encore ajouté de fournisseurs d’authentification. Utilisez « %s » pour ajouter un fournisseur, ce qui permettra aux utilisateurs d’inscrire de nouveaux comptes Phabricator et de se connecter avec.',
       'Type of the MFA provider.' => 'Type de fournisseur MFA.',
       'Your account has been disabled.' => 'Votre compte a été désactivé.',
       'JIRA base URI should include protocol (like "https://").' => 'L’URI de base de JIRA doit inclure le protocole (comme « https:// »).',
       'Authentication provider ("%s") encountered an error while attempting to log in. %s' => 'Le fournisseur d’authentification (« %s ») a rencontré une erreur en tentant de se connecter. %s',
-      'There are no matching factors to strip.' => 'Il n’y a pas de facteur correspondant à enlever.',
+      'There are no matching factors to strip.' => 'Il n’y a aucun facteur correspondant à retirer.',
       'The invite code in the link you clicked is invalid. Check that you followed the link correctly.' => 'Le code d’invitation dans le lien sur lequel vous avez cliqué n’est pas valide. Vérifiez que vous avez suivi le bon lien.',
+      'Mark an OAuth client as trusted. Trusted OAuth clients may be reauthorized without requiring users to manually confirm the action.' => 'Dire à Phabricator de ne pas faire confiance à un client OAuth. Phabricator redirige vers les clients OAuth de confiance que les utilisateurs ont autorisé, sans intervention de l’utilisateur.',
       'Twitter' => 'Twitter',
       'Unable to Generate Keys' => 'Impossible de générer les clés',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere".' => 'Spécifier la cible pour laquelle révoquer les certificats avec « --from » ou spécifier « --everywhere ».',
       'Unlocked the authentication provider configuration.' => 'Déverrouiller la configuration du fournisseur d’authentification.',
+      'You can link your %s account to an external account to allow you to log in more easily in the future. To continue, choose an account to link below. If you prefer not to link your account, you can skip this step.' => 'Vous pouvez lier votre compte Phabricator à un compte externe pour vous permettre de vous connecter plus facilement à l’avenir. Pour continuer, choisissez un compte à lier ci-dessous. Si vous préférez ne pas lier votre compte, vous pouvez sauter cette étape.',
       'Log In or Register with LDAP' => 'Se connecter ou s\'enregistrer avec LDAP',
-      'The external account you are registering with has an email address that is already in use ("%s") by an existing Phabricator account. Choose a new, valid email address to register a new Phabricator account.' => 'Le compte externe avec lequel vous vous êtes inscrit a une adresse de messagerie qui est déjà utilisée (« %s ») par un compte Phabricator existant. Choisir une nouvelle adresse de messagerie  valide pour enregistrer un nouveau compte Phabricator.',
-      'Expected JSON response from Duo.' => 'Réponse JSON attendue de Duo.',
+      'Expected JSON response from Duo.' => 'Une réponse JSON était attendue de Duo.',
       'Display name for the MFA provider.' => 'Afficher le nom du fournisseur MFA.',
       'Revoke Public Key' => 'Révoquer la clé publique',
-      'You (or someone pretending to be you) recently requested an account recovery link be sent to this email address. If you did not make this request, you can ignore this message.' => 'Vous (ou quelqu’un qui se fait passer pour vous) a récemment demandé qu’un lien de récupération de compte soit envoyé à cette adresse de messagerie. Si vous n’avez pas fait cette demande, vous pouvez ignorer ce message.',
+      'You (or someone pretending to be you) recently requested an account recovery link be sent to this email address. If you did not make this request, you can ignore this message.' => 'Vous (ou quelqu’un qui se fait passer pour vous) a récemment demandé qu’un lien de récupération de compte soit envoyé à cette adresse de courriel. Si vous n’avez pas effectué cette demande, vous pouvez ignorer ce message.',
       'Use Primary Email Address' => 'Utiliser l\'adresse courriel primaire',
+      'Server Name' => 'Nom du serveur',
       'If you lose access to your account, you can recover access by sending yourself an email login link from the login screen.' => 'Si vous perdez l\'accès à votre compte, vous pouvez le récupérer en envoyant à vous-même un courriel comportant un lien de connexion, à partir de l\'écran de connexion.',
       'Login validation is missing expected parameter ("%s").' => 'La validation de la connexion n’a pas le paramètre obligatoire (« %s »).',
       'Customize Messages' => 'Personnaliser les messages',
       'Next Step' => 'Étape suivante',
+      'You can not unlink this account because the administrator has configured this server to make links to "%s" accounts permanent.' => 'Vous ne pouvez pas dissocier ce compte car l\'administrateur a configuré Phabricator pour que les liens vers les comptes « %s » soient permanents.',
       'Designate %s as your primary contact number?' => 'Designer %s comme votre numéro de contact primaire ?',
       'Message Preview' => 'Aperçu du message',
       'This engine is used to edit MFA providers.' => 'Ce moteur est utilisé pour modifier les fournisseurs MFA.',
@@ -389,6 +382,7 @@ final class PhabricatorAuthFrFR
       'Found %s account(s) to refresh.' => '%s compte(s) trouvé(s) devant être mis à jour.',
       'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.' => 'Vous n’avez pas encore activé cette inscription sur l’application Duo de votre téléphone. Réalisez l’activation, puis cliquez sur continuer.',
       'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.' => 'Ce facteur a récemment causé des problèmes à une session de connexion différente. Attendez %s seconde(s) que le code se répète, puis essayez à nouveau.',
+      'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a Conduit method is "%s" (for example, "%s"). Check your configuration.' => 'ERREUR : Vous faites une requête d’API Conduit à « %s », mais le chemin de requête HTTP correct pour accéder à une méthode de Conduit est « %s » (par exemple, « %s »). Vérifiez votre configuration.',
       '%s updated the enroll message.' => '%s a mis à jour le message de souscription.',
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can modify or disable your primary contact number.' => 'Vous avez actuellement une authentification multifactorielle (« %s ») qui dépend du numéro de votre premier contact. Vous devez retirer ce facteur d’authentification avant de pouvoir modifier ou désactiver le numéro de votre premier contact.',
       'Duo API hostname ("%s") is invalid, hostname must be "*.duosecurity.com".' => 'Le nom d’hôte de l’API Duo (« %s ») est incorrect, il doit respecter la forme « *.duosecurity.com ».',
@@ -406,6 +400,7 @@ final class PhabricatorAuthFrFR
       'Choose Provider Type' => 'Choisir un type de fournisseur',
       'Revoke credentials which may have been leaked or disclosed.' => 'Révoquer les certificats qui peuvent avoir fuité ou avoir été divulgués.',
       'Destroyed %s credential(s) of type "%s".' => '%s certificat(s) de type « %s » détruit(s).',
+      'Server name is required.' => 'Le nom de l’instance Phabricator est obligatoire.',
       'List information about available credential revokers.' => 'Lister les informations sur les révocateurs de certificat disponibles.',
       'No message type exists with key "%s".' => 'Il n’existe pas de type de message avec la clé « %s ».',
       'You will be prompted to provide MFA when you submit.' => 'Vous serez incité à fournir une authentification multi-facteurs à la validation.',
@@ -429,23 +424,18 @@ final class PhabricatorAuthFrFR
          - **Origines JavaScript autorisées**: Laisser vide.
          - **URI de redirection autorisée**: Le mettre à `%s`.
     Après avoir terminé la configuration, copiez le **Client ID** et le **Client Secret** de la console Google dans les champs ci-dessus.',
-      'Skipping, provider does not support token refresh.' => 'Sauté, le fournisseur ne supporte pas le rafraîchissement de jeton.',
+      'Skipping, provider does not support token refresh.' => 'Sauté, le fournisseur ne prend pas en charge le rafraîchissement de jetons.',
+      'This factor has been removed from your device, so this server can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'Ce facteur a été retiré de votre appareil, donc Phabricator ne peut pas vous envoyer de défi. Pour continuer, un administrateur doit retirer ce facteur de votre compte.',
       'Attempting to upgrade password hasher, but the password for the upgrade is not the stored credential!' => 'Essai de mise à jour du hacheur de mots de passe, mais le mot de passe pour la mise à jour n’est pas le certificat stocké !',
       'Your Duo account ("%s") requires enrollment. Contact your Duo administrator for help. Duo status message: %s' => 'Votre compte Duo (« %s ») nécessite une inscription. Contactez votre administrateur Duo pour obtenir de l’aide. Message de statut Duo : %s',
-      'The OAuth provider failed to retrieve an account ID.' => 'Le fournisseur OAuth n’a pas pu retrouver un ID de compte.',
+      'The OAuth provider failed to retrieve an account ID.' => 'Le fournisseur OAuth a échoué à récupérer un identifiant de compte.',
       'Reset action counters for this user.' => 'Réinitialiser les compteurs d’action pour cet utilisateur.',
       'Edit SSH Key' => 'Modifier la clé SSH',
       'Attempting to set an empty password!' => 'Tentative de définition d’un mot de passe vide !',
       '%s changed this contact number from %s to %s.' => '%s a modifié ce numéro de contact de %s en %s.',
       'Welcome, %s. To complete the process of logging in, provide your multi-factor credentials.' => 'Bienvenue %s. Pour finaliser le processus de connexion, fournissez vos informations d\'authentification multi-facteur.',
       'Already Accepted Invite' => 'Invitation déjà acceptée',
-      '**JIRA Instance Name**
-    Choose a permanent name for this instance of JIRA. Phabricator uses this name internally to keep track of this instance of JIRA, in case the URL changes later.
-    Use lowercase letters, digits, and period. For example, `jira`, `jira.mycompany` or `jira.engineering` are reasonable names.' => '**Nom d’instance JIRA**
-    Choisir un nom permanent pour cette instance de JIRA. Phabricator utilise ce nom en interne pour garder trace de cette instance de JIRA, au cas où l’URL change plus tard.
-    Utiliser des lettres minuscules, des chiffres et des points. Par exemple, `jira`, `jira.macompagnie` ou `jira.ingenierie` sont des noms acceptables.',
-      'This is a terse test text message from Phabricator (%s).' => 'Ceci est un message textuel concis de test de Phabricator (%s).',
-      'No user exists with username "%s".' => 'Il n’existe pas d\'utilisateur avec le nom « %s ».',
+      'No user exists with username "%s".' => 'Aucun utilisateur n’existe avec le nom « %s ».',
       'Unlock the authentication provider config, to make it possible to edit the config using the web UI. Make sure to do **bin/auth lock** when done editing the configuration.' => 'Déverrouiller la configuration du fournisseur d’authentification, afin de rendre possible la modification de la configuration en utilisant l’interface utilisateur web. Assurez-vous de lancer **bin/auth lock** quand vous avez terminé la modification de la configuration.',
       'Account does not match provider!' => 'Le compte ne correspond pas au fournisseur !',
       'Too many account recovery email links have been sent to this account in a short period of time.' => 'De trop nombreux liens de récupération de compte ont été envoyés par courriel à ce compte durant une courte période de temps.',
@@ -454,15 +444,17 @@ final class PhabricatorAuthFrFR
       'Strip a specific factor type. Use `bin/auth list-factors` for a list of factor types.' => 'Retire un type de facteur spécifique. Utiliser `bin/auth list-factors` pour obtenir une liste des types de facteurs.',
       'Provide Multi-Factor Credentials' => 'Fournir des certificats à plusieurs facteurs',
       'Edit Contact Numbers' => 'Modifier les numéros de contact',
+      'Skip email verification for accounts registered through this provider.' => 'Phabricator sautera la vérification par courriel pour les comptes enregistrés via ce fournisseur.',
+      '[%s] New User "%s" Awaiting Approval' => 'Nouvel utilisateur "%s" en attente d\'approbation',
       'You have failed to enter the correct account password too often in a short period of time.' => 'Vous avez trop souvent échoué durant une courte période de temps avant d\'entrer le mot de passe correct du compte.',
       'Add Multi-Factor Authentication' => 'Ajouter une authentification à plusieurs facteurs',
       'JIRA instance name must contain only lowercase letters, digits, and period.' => 'Le nom de l’instance JIRA ne doit contenir que des lettres minuscules, des chiffres et des points.',
+      'The external service ("%s") you just authenticated with is not configured to allow account linking on this server. An administrator may have recently disabled it.' => 'Le compte externe (« %s ») avec lequel vous venez de vous authentifier n’est pas configuré pour autoriser les connexions sur cette installation de Phabricator. Un administrateur l’a peut-être désactivé récemment.',
       'Terminate Session' => 'Terminer la session',
       'You must choose a password.' => 'Vous devez choisir un mot de passe.',
       'Failed to find an OAuth client with id %s.' => 'Impossible de trouver un client OAuth avec l’id %s.',
       'This engine is used to edit contact numbers.' => 'Ce moteur est utilisé pour modifier les numéros de contact.',
       'You can not set the response digest for a challenge directly. Instead, set a response token. A response digest will be computed automatically.' => 'Vous ne pouvez pas définir directement de résumé de réponse à un défi. À la place, définissez un motif de réponse. Un résumé de réponse sera généré automatiquement.',
-      'Expected valid JSON response from Phabricator %s request.' => 'Réponse JSON valide attendue de la requête %s à Phabricator.',
       '%s created this contact number.' => '%s a créé ce numéro de contact.',
       'Duo providers must have an API credential.' => 'Les fournisseurs Duo doivent avoir une accréditation de l’API.',
       'You can only verify one address at a time.' => 'Vous ne pouvez vérifier qu’une adresse à la fois.',
@@ -473,25 +465,12 @@ final class PhabricatorAuthFrFR
       'Duo API Credential' => 'Accréditation de l’API de Duo.',
       '%s edited a property of this provider.' => '%s a modifié une propriété de ce fournisseur.',
       'Auth Email Invites' => 'Invitations de courriel d’authentification',
-      '**Step 2 of 2 - Configure Phabricator OAuth Instance**
-    To configure Phabricator OAuth, create a new application here:
-    %s/oauthserver/client/create/
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Étape 2 sur 2 - Configurer l’instance OAuth de Phabricator**
-    Pour configurer OAuth de Phabricator, créer une nouvelle application ici :
-    %s/oauthserver/client/create/
-    En créant votre application, utiliser ces paramètres :
-      - **URI de redirection :** La mettre à : `%s`
-    Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dan sles champs ci-dessus (vous aurez peut-être besoin de générer le secret du client en cliquant d’abord sur \'Nouveau Secret\').',
-      'Welcome to Phabricator' => 'Bienvenue sur Phabricator',
       'Address Verified' => 'Adresse vérifiée',
       'To verify your phone as an authentication factor, a text message with a secret code will be sent to the phone number you have listed as your primary contact number.' => 'Pour vérifier votre téléphone avec un facteur d’authentification, un message textuel contenant un code secret sera envoyé au numéro téléphonique listé comme premier numéro de contact.',
-      'Phabricator (%s) MFA Code: %s' => 'Code MFA de Phabricator (%s) : %s',
-      'You will no longer be able to use your %s account to log in to Phabricator.' => 'Vous ne pourrez plus utiliser votre compte %s pour vous connecter à Phabricator.',
       'DISABLE APPROVAL QUEUE' => 'DÉSACTIVER LA FILE D’APPROBATION',
       'Specify either specific factors with "--type", or all factors with "--all-types", but not both.' => 'Spécifier soit des facteurs spécifiques avec « --type », soit tous les facteurs avec « --all-types », mais pas les deux.',
       'No OAuth Access Token' => 'Aucun jeton d’accès OAuth',
+      'Your account is already linked to an external account for this provider.' => 'Votre compte Phabricator est déjà lié à un compte externe pour ce fournisseur.',
       'You are already logged in.' => 'Vous êtes déjà connecté.',
       'Wait For Approval Instructions' => 'Attendre les instructions d’approbation',
       'Link LDAP Account' => 'Lier le compte LDAP',
@@ -499,12 +478,18 @@ final class PhabricatorAuthFrFR
       'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Ce mot de passe est associé avec un PHID d’objet (« %s ») pour un objet autre que celui fourni (« %s »).',
       'Disable Number' => 'Désactiver le numéro',
       'Username or Email' => 'Nom d’utilisateur ou adresse de courriel',
-      'Verify this email address (%s) and attach it to your account (%s)?' => 'Vérifier cette adresse de messagerie (%s) et l’attacher à votre compte (%s) ?',
+      'Your %s account is already connected to an external account on this service ("%s"), but you are currently logged in to the service with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'Votre compte Phabricator est déjà connecté à un compte externe sur ce fournisseur (« %s »), mais vous êtes actuellement connecté sur ce fournisseur avec un autre compte. Déconnectez-vous du service externe, puis reconnectez-vous avec le bon compte avant de rafraîchir le lien du compte.',
+      'Verify this email address (%s) and attach it to your account (%s)?' => 'Vérifier cette adresse de courriel (%s) et l’attacher à votre compte (%s) ?',
       'Revoke SSH Public Key' => 'Supprimer la clé publique SSH',
       'Edit MFA Providers' => 'Modifier les fournisseurs MFA',
       'Before you can set up or use LDAP, you need to install the PHP LDAP extension. It is not currently installed, so PHP can not talk to LDAP. Usually you can install it with `%s`, `%s`, or a similar package manager command.' => 'Avant de pouvoir définir ou utiliser le LDAP, vous devez installer l’extension LDAP de PHP. Elle n’est pas installée pour l’instant, donc PHP ne peut pas discuter avec un LDAP. En général, vous pouvez l’installer avec `%s`, `%s`, ou la commande similaire d’un gestionnaire de paquet.',
       '%s failed!' => '%s a échoué !',
-      'Anyone who can browse to this Phabricator install will be able to register an account. To add email domain restrictions, configure %s.' => 'Quiconque peut naviguer vers cette installation de Phabricator pourra enregistrer un compte. Pour ajouter des restrictions de domaine de courriel, configurer %s.',
+      'This server is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => array(
+        array(
+          'Phabricator est configuré avec une liste de domaines de courriel autorisés (dans %s), donc seuls les utilisateurs avec une adresse de courriel vérifiée sur le domaine autorisé suivant pourront inscrire un compte : %3$s',
+          'Phabricator est configuré avec une liste de domaines de courriel autorisés (dans %s), donc seuls les utilisateurs avec une adresse de courriel vérifiée sur un des %s domaines autorisés suivants pourront inscrire un compte : %s',
+        ),
+      ),
       'To configure Slack OAuth, create a new application here:
     https://api.slack.com/docs/sign-in-with-slack#create_slack_app
     When creating your application, use these settings:
@@ -517,25 +502,29 @@ final class PhabricatorAuthFrFR
       'A challenge has been sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Un défi a été envoyé à votre téléphone. Ouvrez l\'application Duo et validez le défi, puis continuez',
       'Amazon' => 'Amazon',
       'MFA Sync Token' => 'Jeton de synchronisation MFA',
+      'OAuth client "%s" is now trusted.' => 'Mis à jour ; Phabricator fait confiance au client OAuth %s.',
       'Your browser did not submit a registration key with the request. You must use the same browser to begin and complete registration. Check that cookies are enabled and try again.' => 'Votre navigateur n’a pas envoyé de clé d’inscription avec la requête. Vous devez utiliser le même navigateur pour commencer et terminer une inscription. Vérifiez que les cookies sont activés et réessayez.',
       'Not Complete' => 'Incomplet',
+      '**Step 1 of 2 - Name Remote Server**
+    Choose a permanent name for the remote server you want to connect to. This name is used internally to keep track of the remote server, in case the URL changes later.' => '**Étape 1 sur 2 - Nom de l’instance OAuth de Phabricator**
+    Choisir un nom permanent pour l’instance du serveur OAuth de Phabricator. //Cette// instance de Phabricator utilise ce nom en interne pour garder trace de l’instance du serveur OAuth de Phabricator, au cas où l’URL change ultérieurement.',
       'Unlink Account' => 'Dissocier le compte',
       'You must specify the path to a public keyfile with %s.' => 'Vous devez spécifier le chemin vers un fichier de clé publique avec %s.',
       'Remove multi-factor authentication from an account.' => 'Supprimer l’authentification à plusieurs facteurs d’un compte.',
       'Edit Existing Provider' => 'Modifier un fournisseur existant',
-      'Do you want to enable this provider? Users will be able to log in to Phabricator using linked accounts.' => 'Voulez-vous activer ce fournisseur ? Les utilisateurs pourront se connecter à Phabricator en utilisant les comptes liés.',
       '%s changed the credential for this provider from %s to %s.' => '%s a passé l’accréditation de ce fournisseur de %s à %s.',
+      'You are creating a new account linked to an existing external account.' => 'Vous êtes en train de créer un nouveau compte Phabricator lié à un compte externe existant depuis l’extérieur de Phabricator.',
       'Signing session legalpad documents of user with no session!' => 'Signature des documents legalpad de session de l’utilisateur sans session !',
       '%s updated the message text.' => '%s a mis à jour le texte du message.',
-      'Phabricator base URI is required.' => 'L\'URI de la base Phabricator est nécessaire.',
-      'Verify this email address (%s) and attach it to your account?' => 'Vérifier cette adresse de messagerie (%s) et l’attacher à votre compte ?',
+      'NOTE: Amazon **requires** HTTPS, but this service does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOTE: Amazon **nécessite** HTTPS, mais l\'installation de votre Phabricator n\'utilise pas HTTPS. **Vous ne pourrez pas ajouter Amazon comme fournisseur d\'authentication tant que vous n\'aurez pas configuré HTTPS sur cette installation**.',
+      'Verify this email address (%s) and attach it to your account?' => 'Vérifier cette adresse de courriel (%s) et l’attacher à votre compte ?',
       'No Linkable External Providers' => 'Pas de fournisseurs externes attachables',
       'This account is not linkable.' => 'Ce compte n\'est pas associable.',
       'Allow Unlinking Accounts' => 'Permettre de supprimer la liaison des comptes',
       'This request included an improperly formatted MFA challenge token and can not be processed.' => 'Cette requête inclut un motif de défi d’authentification multi-facteurs mal-formaté et ne peut être traitée.',
       'Contact numbers can not be longer than %s characters.' => array(
-        'Le numéro de contact ne peut dépasser %s caractère.',
-        'Le numéro de contact ne peut dépasser %s caractères.',
+        'Les numéros de contact ne peuvent pas dépasser %s caractère.',
+        'Les numéros de contact ne peuvent pas dépasser %s caractères.',
       ),
       'OAuth1 Account' => 'Compte OAuth1',
       'Customized' => 'Personnalisé',
@@ -546,45 +535,30 @@ final class PhabricatorAuthFrFR
       'Revoked SSH keys can not be edited or reinstated.' => 'Les clés SSH révoquées ne peuvent être ni modifiées ni réactivées.',
       'Follow referrals. Disable this for Windows AD 2003.' => 'Suivez les recommandations. Désactivez cela pour Windows AD 2003.',
       'user=%s, should_verify=%s' => 'user=%s, should_verify=%s',
-      'The external account you just logged in with is not associated with a valid Phabricator user.' => 'Le compte externe avec lequel vous venez de vous connecter n’est pas associé avec un utilisateur Phabricator valide.',
       'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'ATTENTION : vous n’avez encore configuré aucun fournisseur d’authentification, donc votre compte n’a aucun certificat de connexion. Si vous vous déconnectez maintenant, vous ne pourrez pas vous reconnecter normalement.',
       'If you do not recognize this change, it may indicate your account has been compromised.' => 'Si vous ne reconnaissez pas cette modification, cela peut vouloir dire que votre compte a été compromis.',
       'Link Accounts' => 'Associer des comptes',
       'Create Admin Account' => 'Créer un compte administrateur',
       'Create MFA Provider' => 'Créer un fournisseur MFA',
       'Log Out?' => 'Se déconnecter ?',
-      'Recover access to an account if you have locked yourself out of Phabricator.' => 'Récupérer l’accès à un compte si vous vous êtes bloqué hors de Phabricator.',
       'You have not configured a primary contact number. Configure a contact number before adding SMS as an authentication factor.' => 'Vous n’avez pas configuré de premier numéro de contact. Configurez un numéro de contact avant d’ajouter de facteur d’authentification SMS.',
       'Unlink External Account' => 'Détacher le compte externe',
-      'You must verify your email address to log in. You should have a new email message from Phabricator with verification instructions in your inbox (%s).' => 'Vous devez vérifier votre adresse de messagerie pour vous connecter. Vous devez avoir reçu un nouveau message de Phabricator avec des instructions pour la vérification dans votre boîte de réception (%s).',
       '%s made this the primary contact number.' => '%s en a fait le numéro de contact primaire.',
-      'The external account ("%s") you just authenticated with is not configured to allow logins on this Phabricator install. An administrator may have recently disabled it.' => 'Le compte externe (« %s ») avec lequel vous venez de vous authentifier n’est pas configuré pour autoriser les connexions sur cette installation de Phabricator. Un administrateur l’a peut-être désactivé récemment.',
+      'Automatically log in with this provider if it is the only available provider.' => 'Phabricator se connectera automatiquement avec ce fournisseur si c’est le seul disponible.',
       '%s changed the enrollment policy for this provider from %s to %s.' => '%s a passé la politique d’embauche de ce fournisseur de %s à %s.',
       'Currently, there are no configured external auth providers which you can link your account to.' => 'Actuellement, il n’y a pas de fournisseurs d’authentification externes configurés auxquels vous pouvez lier votre compte.',
-      'To configure GitHub OAuth, create a new GitHub Application here:
-    https://github.com/settings/applications/new
-    You should use these settings in your application:
-      - **URL:** Set this to your full domain with protocol. For this     Phabricator install, the correct value is: `%s`
-      - **Callback URL**: Set this to: `%s`
-    Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Pour configurer OAuth de GitHub, créer une nouvelle application GitHub ici :
-    https://github.com/settings/applications/new
-    Vous devez utiliser ces paramètres dans votre application :
-      - **URL :** La définir avec votre domaine complet avec le protocole. Pour cette installation de Phabricator, la bonne valeur est : `%s`
-      - **URL de rappel**: La mettre à : `%s`
-    Une fois l’application créée, copiez le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       '%s disabled account linking.' => '%s a inhibé l\'association de compte.',
-      'Confirm the link with this %s account. This account will be able to log in to your Phabricator account.' => 'Confirmer le lien avec ce compte %s. Ce compte pourra se connecter à votre compte Phabricator.',
       'Number Already Primary' => 'Numéro déjà primaire',
-      'Strip these authentication factors?' => 'Enlever ces facteurs d’authentification ?',
+      'Strip these authentication factors?' => 'Éliminer ces facteurs d’authentification ?',
       'The OAuth provider did not return a "code" parameter in its response.' => 'Le fournisseur OAuth n’a pas renvoyé de paramètre « code » dans sa réponse.',
       'Your Duo account ("%s") has not completed Duo enrollment. Check your email and complete enrollment to continue.' => 'Votre compte Duo (« %s ») n’a pas complété l’inscription de Duo. Veuillez vérifier vos courriels et compléter l’inscription pour continuer.',
       'Locked the authentication provider configuration.' => 'Configuration du fournisseur d’authentification verrouillée.',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Spécifier la cible pour laquelle révoquer les certificats avec « --from », ou spécifier « --everywhere », mais pas les deux.',
       'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Votre navigateur a soumis une clé d’inscription différente de celle associée avec ce compte. Vous devez peut-être supprimer vos cookies.',
+      'Log in to %s' => 'Connexion à Phabricator',
       'Make Primary Number' => 'Désigner comme numéro primaire',
-      'Strip factors from all users.' => 'Enlever les facteurs de tous les utilisateurs.',
+      'Strip factors from all users.' => 'Éliminer les facteurs de tous les utilisateurs.',
       'Duo username pairing mode ("%s") is not supported.' => 'Le mode d’association de noms d’utilisateur Duo (« %s ») n’est pas pris en charge.',
-      'You are creating a new Phabricator account linked to an existing external account from outside Phabricator.' => 'Vous êtes en train de créer un nouveau compte Phabricator lié à un compte externe existant depuis l’extérieur de Phabricator.',
       'Facebook' => 'Facebook',
       'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Vraiment révoquer tous les jetons ? Parmi d’autres autorisations temporaires, cela désactivera toute réinitialisation de mot de passe en suspens ou tous les liens de récupération de compte.',
       'LDAP Version' => 'Version LDAP',
@@ -603,12 +577,12 @@ final class PhabricatorAuthFrFR
       - **URL de redirection :** La mettre à : `%s`
     Après avoir achevé la configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'After you download the private key, it will be destroyed. You will not be able to retrieve it if you lose your copy.' => 'Après avoir téléchargé la clé privée, elle sera détruite. Vous ne pourrez plus la récupérer si vous perdez votre copie.',
-      'After logging in you should set a password for your account, or link your account to an external account that you can use to authenticate in the future.' => 'Après vous être connecté, vous devrez définir un mot de passe pour votre compte, ou lier votre compte à un compte externe que vous pourrez utiliser pour vous authentifier ultérieurement.',
+      'After logging in you should set a password for your account, or link your account to an external account that you can use to authenticate in the future.' => 'Après vous être connecté, vous devrez définir un mot de passe pour votre compte, ou bien lier votre compte à un compte externe que vous pourrez utiliser pour vous authentifier ultérieurement.',
       'Analyze and diagnose issues with LDAP configuration.' => 'Analyser et diagnostiquer les problèmes avec la configuration LDAP.',
       'Your session is no longer in high security.' => 'Votre session n\'est plus en sécurité haute.',
+      'Anyone who can browse to this this server will be able to register an account. To add email domain restrictions, configure %s.' => 'Quiconque peut naviguer vers cette installation de Phabricator pourra enregistrer un compte. Pour ajouter des restrictions de domaine de courriel, configurer %s.',
       'Revoked' => 'Révoquée',
       'Disable the contact number %s?' => 'Désactiver le numéro de contact %s  ?',
-      'The URI where the OAuth server instance of Phabricator is installed. For example: %s' => 'L’URI où l’instance du serveur OAuth de Phabricator est installée. Par exemple : %s',
       'Factor Name: %s' => 'Nom du facteur : %s',
       'Providers' => 'Fournisseurs',
       'Address Duplicated in Input' => 'Adresse dupliquée dans l’entrée',
@@ -616,7 +590,7 @@ final class PhabricatorAuthFrFR
       'The account you are attempting to register with uses a disabled authentication provider ("%s"). An administrator may have recently disabled this provider.' => 'Le compte avec lequel vous tentez de vous enregistrer utilise un fournisseur d’authentification désactivé (« %s »). Un administrateur peut avoir désactivé récemment ce fournisseur.',
       'Register an Account' => 'Enregistrer un compte',
       'Can Not Edit Trusted Key' => 'Impossible de modifier la clé de confiance',
-      'OAuth App ID' => 'ID de l’application OAuth',
+      'OAuth App ID' => 'Identifiant de l’application OAuth',
       'Invites are visible to administrators, the inviting user, users with an invite code, and the user who accepts the invite.' => 'Les invitations sont visibles des administrateurs, de l’utilisateur invitant, des utilisateurs ayant un code d’invitation, et de l’utilisateur qui accepte l’invitation.',
       'Specified public keyfile "%s" does not exist!' => 'Le fichier de clé publique spécifié, « %s », n’existe pas !',
       'You must specify the email to verify.' => 'Vous devez fournir une adresse courriel à vérifier.',
@@ -626,9 +600,11 @@ final class PhabricatorAuthFrFR
       'Refreshing account #%d.' => 'Actualisation du compte nº %s.',
       'You can not make a disabled number your primary contact number.' => 'Vous ne pouvez pas faire d\'un numéro désactivé, un numéro de contact primaire.',
       'Failed to bind to LDAP server (as user "%s").' => 'Échec d’attachement au serveur LDAP (en tant qu’utilisateur « %s »).',
-      'The external account ("%s") you just authenticated with is not configured to allow registration on this Phabricator install. An administrator may have recently disabled it.' => 'Le compte externe (« %s ») avec lequel vous venez de vous authentifier n’est pas configuré pour permettre l’inscription sur cette installation de Phabricator. Un administrateur l’a peut-être récemment désactivé.',
+      'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in.' => 'Configurer une connexion à un serveur LDAP pour que les utilisateurs puissent utiliser leurs certificats LDAP pour se connecter à Phabricator.',
       'No email exists with address "%s"!' => 'Aucun courriel n’existe avec l’adresse « %s » !',
       'Revoke SSH Key' => 'Révoquer la clé SSH',
+      'The email address associated with this external account ("%s") is not a valid email address and can not be used to register an account. Choose a different, valid address.' => 'L’adresse de courriel associée avec ce compte externe (« %s ») n’est pas une adresse de messagerie valide et ne peut pas être utilisée pour inscrire un compte Phabricator. Choisissez une adresse différente valide.',
+      'OAuth client "%s" is already untrusted.' => 'Phabricator ne fait pas encore confiance au client OAuth « %s ».',
       'Onboarding' => 'Embarquement',
       'Request did not include account key.' => 'La requête n’inclut pas la clé du compte.',
       'Account Disabled' => 'Compte désactivé',
@@ -638,15 +614,15 @@ final class PhabricatorAuthFrFR
       'Edit SSH Public Key' => 'Éditer la clé publique SSH',
       'Generated' => 'Généré',
       '%s updated the OAuth application secret for this provider.' => '%s a mis à jour le secret de l’application OAuth pour ce fournisseur.',
+      'Base URI' => 'URI de base de Phabricator',
       'Leaving High Security' => 'Quitter la haute sécurité',
-      '**Post a comment** in the JIRA task, similar to the emails Phabricator sends.' => '**Poster un commentaire** dans la tâche JIRA, similaire aux courriels qu’envoie Phabricator.',
       'Consumer key is required.' => 'La clé du consommateur est requise.',
       'Username or password are incorrect.' => 'Le nom d’utilisateur ou le mot de passe n’est pas correct.',
       'Attempted to set \'%s\' cookie to \'%s\', but your browser did not accept the cookie. Check that cookies are enabled, clear them, and try again.' => 'Tentative de mettre le cookie \'%s\' à \'%s\', mais votre navigateur n’a pas accepté le cookie. Vérifiez que les cookies sont activés, nettoyez-les, et réessayez.',
       'Unable to load Duo API credential ("%s").' => 'Impossible de charger les paramètres de connexion de  l\'API Duo (« %s »).',
       'The authentication provider did not return a client state parameter in its response, but one was expected. If this problem persists, you may need to clear your cookies.' => 'Le fournisseur d’authentification n’a pas renvoyé de paramètre d’état du client dans sa réponse, et il était attendu. Si ce problème persiste, vous devrez supprimer vos cookies.',
       'One-Time Login' => 'Connexion unique',
-      'NOTE: This provider **only supports JIRA 6**. It will not work with JIRA 5 or earlier.' => 'NOTE : Ce fournisseur **supporte uniquement JIRA 6**. Il ne fonctionnera pas avec JIRA 5 ou antérieur.',
+      'NOTE: This provider **only supports JIRA 6**. It will not work with JIRA 5 or earlier.' => 'NOTE : ce fournisseur **prend en charge uniquement JIRA 6**. Il ne fonctionnera pas avec JIRA 5 ou antérieur.',
       'SSH key name is required.' => 'Le nom de la clé SSH est requis.',
       'Revokes all active login sessions.
     Affected users will be logged out and need to log in again.' => 'Révoque toutes les sessions de connexion actives.
@@ -654,7 +630,7 @@ final class PhabricatorAuthFrFR
       'Consumer secret is required.' => 'Le secret du consommateur est obligatoire.',
       'Address Error' => 'Erreur d\'adresse',
       'Password authentication is not enabled and you are already logged in. There is nothing for you here.' => 'L’authentification par mot de passe n’est pas activée car vous êtes déjà connecté. Vous n’avez rien à faire ici.',
-      'Strip factors without prompting.' => 'Enlever des facteurs sans demander.',
+      'Strip factors without prompting.' => 'Éliminer des facteurs sans demander.',
       'Auth Message' => 'Message d’Authentification',
       'Auth Challenge' => 'Défi d’Authentification',
       'No Matching Sessions' => 'Aucune session correspondante',
@@ -667,17 +643,18 @@ final class PhabricatorAuthFrFR
       'No accounts match the arguments!' => 'Aucun compte ne correspond aux arguments !',
       'Register New Account' => 'Enregistrer un nouveau compte',
       'SSH KEY DETAIL' => 'DÉTAIL DE LA CLÉ SSH',
+      'Recover access to an account if you have locked yourself out.' => 'Récupérer l’accès à un compte si vous vous êtes bloqué hors de Phabricator.',
       'Failed to convert public key into PKCS8 format. If you are developing on OSX, you may be able to use `%s` to work around this issue. %s' => 'Échec de conversion de la clé publique au format PKCS8. Si vous développez sur OSX, vous devez pouvoir utiliser `%s` pour contourner ce problème. %s',
       'Send Test Message' => 'Envoyer un Message de Test',
       'An email has been sent containing a link you can use to set a password for your account.' => 'Un courriel contenant un lien utilisable pour définir un mot de passe à votre compte a été envoyé.',
       'Actual exception: %s' => 'Exception actuelle : %s',
-      'Are you sure you want to log out?' => 'Êtes-vous sûr de vouloir vous déconnecter ?',
+      'Are you sure you want to log out?' => 'Êtes-vous sûr(e) de vouloir vous déconnecter ?',
       '(WARNING) Examine the table below for information on how password hashes will be stored in the database.
-    (NOTE) You can select a minimum password length by setting `%s` in configuration.' => '(AVERTISSEMENT) Examiner le tableau ci-dessous pour des informations sur comment les hachages de mot de passe seront stockés dans la base de données.
-    (NOTE) Vous pouvez sélectionner une longueur minimale de mot de passe en mettant `%s` dans la configuration.',
+    (NOTE) You can select a minimum password length by setting `%s` in configuration.' => '(AVERTISSEMENT) Examinez le tableau ci-dessous pour plus d’informations sur la façon dont les hachages de mot de passe seront stockés dans la base de données.
+    (NOTE) Vous pouvez sélectionner une longueur minimale de mot de passe en définissant `%s` dans la configuration.',
       'Link Account' => 'Lier le compte',
       'Bad password should not match.' => 'Un mauvais mot de passe ne devrait pas fonctionner.',
-      'Login/Registration' => 'Connexion/Inscription',
+      'Login/Registration' => 'Connexion / Inscription',
       'List available multi-factor authentication providers.' => 'Lister les fournisseurs d’authentification multi-facteurs disponibles.',
       'List available multi-factor authentication factors.' => 'Lister les facteurs d’authentification à plusieurs facteurs.',
       'Account Recovery' => 'Récupération de compte',
@@ -690,27 +667,27 @@ final class PhabricatorAuthFrFR
       'Email Sent' => 'Courriel envoyé',
       'Twitch.tv' => 'Twitch.tv',
       'This engine is used to edit authentication messages.' => 'Ce moteur est utilisé pour modifier les messages d’authentification.',
-      'Show factors, but do not strip them.' => 'Afficher les facteurs, mais ne pas les enlever.',
+      'Show factors, but do not strip them.' => 'Afficher les facteurs, mais ne pas les éliminer.',
       'Pattern "%s" is not valid.' => 'Le modèle « %s » n’est pas valide.',
       'Add Multi-Factor Authentication To Your Account' => 'Ajouter une authentification à plusieurs facteurs à votre compte',
       'Auth Providers' => 'Fournisseurs d\'authentification',
       'View Active Keys' => 'Afficher les clés actives',
-      'Auth Messages' => 'Messages d’Authentification',
+      'Auth Messages' => 'Messages d’authentification',
       'Auth Password' => 'Mot de passe d’authentification',
       'SSH Key %d: %s' => 'Clé SSH %s : %s',
-      'Phabricator will not retain a copy of the private key.' => 'Phabricator ne conservera pas une copie de la clé privée.',
+      'The external account you just logged in with is not associated with a valid %s user account.' => 'Le compte externe avec lequel vous venez de vous connecter n’est pas associé avec un utilisateur Phabricator valide.',
       'Refreshed token, new token expires in %s seconds.' => 'Rafraîchir le jeton, le nouveau jeton expire dans %s secondes.',
       'SMS' => 'SMS',
       '%s set the OAuth application secret for this provider.' => '%s a défini le secret de l’application OAuth pour ce fournisseur.',
       '%s, exception=%s' => '%s, exception=%s',
       'Reset %s action(s).' => 'Réinitialiser %s action(s).',
       'Address Already Verified' => 'Adresse déjà vérifiée',
+      'OAuth client "%s" is already trusted.' => 'Phabricator fait déjà confiance au client OAuth « %s ».',
       'When users click the "Change Username" action on their profile pages but do not have the required permissions, they will be presented with a message explaining that they are not authorized to make the edit.
     You can optionally provide additional instructions here to help users request a username change, if there is someone specific they should contact or a particular workflow they should use.' => 'Quand des utilisateurs cliquent l’action « Changer le nom d’utilisateur » sur leur page de profil sans avoir les permissions nécessaires, un message leur sera présenté expliquant qu’ils ne sont pas autorisés à faire la modification.
     Vous pouvez facultativement fournir ici des instructions supplémentaires pour aider les utilisateurs à demander un changement de nom d’utilisateur, s’il y a des personnes spécifiques à contacter ou une procédure particulière qu’ils devraient utiliser.',
       'You are trying to gain access to an account ("%s") that can not establish a web session.' => 'Vous essayez d’obtenir l’accès à un compte (« %s ») qui ne peut pas établir une session web.',
       'Sent By' => 'Envoyé par',
-      'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new Phabricator account. Choose a different, valid address.' => 'L’adresse de messagerie associée avec ce compte (« %s ») est déjà utilisée par une application et ne peut pas être utilisée pour enregistrer un nouveau compte Phabricator. Choisir une autre adresse valide.',
       'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Vous devez approuver le défi envoyé sur votre téléphone. Ouvrez l’application Duo et complétez le défi, puis continuez.',
       'Download Private Key (%s)' => 'Télécharger la clef privée (%s)',
       'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.' => 'Assurez-vous de copier-coller tout le lien dans votre navigateur. Les liens de connexion ne sont valides que pendant 24 heures, et ne peuvent être utilisés qu’une fois.',
@@ -730,7 +707,6 @@ final class PhabricatorAuthFrFR
       'Query public keys.' => 'Requêter les clés publiques.',
       'After logging in, you can use the "Auth" application to add or restore authentication providers and allow normal logins to succeed.' => 'Après connexion, vous pouvez utiliser l’application « Auth » pour ajouter ou restaurer des fournisseurs d’authentification et permettre aux connexions normales d’aboutir.',
       'Authentication Canceled' => 'Authentification annulée',
-      'Phabricator Instance Name' => 'Nom de l\'instance Phabricator',
       'Will Ignore Address' => 'Ignorera l’adresse',
       'Custom text for the message.' => 'Texte personnalisé pour le message.',
       'Number Disabled' => 'Nombre désactivé',
@@ -742,13 +718,22 @@ final class PhabricatorAuthFrFR
       'Login Required' => 'Connexion nécessaire',
       'Sign With MFA' => 'Signer avec MFA',
       'To choose a different primary contact number, make that number primary (instead of trying to demote this one).' => 'Pour choisir un différent numéro de contact principal, rendez le principal (au lieu d’essayer de retirer celui-ci).',
+      '**Post a comment** in the JIRA task.' => '**Publier un commentaire** dans la tâche JIRA, similaire aux courriels qu’envoie Phabricator.',
       'Verified User Email' => 'Courriel de l’utilisateur vérifié',
       'Email Login' => 'Courriel de connexion',
-      'Trust Email Addresses' => 'Faire confiance aux adresses de messagerie',
+      'Trust Email Addresses' => 'Faire confiance aux adresses de courriel',
       'Bitbucket' => 'Bitbucket',
-      'Allow users to unlink account credentials for this provider from existing Phabricator accounts. If you disable this, Phabricator accounts will be permanently bound to provider accounts.' => 'Permettre aux utilisateurs de supprimer le lien des certificats de compte pour ce fournisseur depuis des comptes Phabricator existants. Si vous désactivez cela, les comptes Phabricator seront liés de façon permanente aux comptes du fournisseur.',
-      'Unable to find LDAP account!' => 'Impossible de trouver le compte LDAP !',
+      'Unable to find LDAP account!' => 'Impossible de trouver le compte LDAP !',
       'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'Ce processus de travail générera une nouvelle paire de clés SSH, ajoutera la clé publique, et vous laissera télécharger la clé privée.',
+      'To configure Facebook OAuth, create a new Facebook Application here:
+    https://developers.facebook.com/apps
+    You should use these settings in your application:
+    %s
+    After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Pour configurer Facebook OAuth, créez une nouvelle application de Facebook ici :
+    https://developers.facebook.com/apps
+    Vous devrez utiliser les paramètres suivants dans votre application :
+    %s
+    Après avoir créé votre nouvelle application, copiez les valeurs de *App ID** et de *App Secret** dans les champs sus-mentionnés.',
       'Too many login failures recently. You must submit a CAPTCHA with your login request.' => 'Trop d’échecs de connexion récemment. Vous devez soumettre un CAPTCHA avec votre demande de connexion.',
       'Specified pkcs8 keyfile "%s" does not exist!' => 'Le fichier de clé pkcs8 « %s » n’existe pas !',
       'To configure Twitch.tv OAuth, create a new application here:
@@ -760,8 +745,6 @@ final class PhabricatorAuthFrFR
     Lors de sa création, utiliser ces paramètres :
       - **URI de redirection :** La mettre à : `%s`
     Après avoir terminé al configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus (vous devrez générer le secret du client en cliquant d’abord sur \'Nouveau Secret\').',
-      'Do you want to enable this provider? Users will be able to use their existing external accounts to register new Phabricator accounts and log in using linked accounts.' => 'Voulez-vous activer ce fournisseur ? Les utilisateurs pourront utiliser leurs comptes externes existants pour enregistrer de nouveaux comptes Phabricator et se connecter en utilisant les comptes liés.',
-      'This factor has been removed from your device, so Phabricator can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'Ce facteur a été retiré de votre appareil, donc Phabricator ne peut pas vous envoyer de défi. Pour continuer, un administrateur doit retirer ce facteur de votre compte.',
       'An email has been sent containing a link you can use to log in to your account.' => 'Un courriel contenant un lien utilisable pour vous connecter à votre compte a été envoyé.',
       'You have already accepted this invitation.' => 'Vous avez déjà accepté cette invitation.',
       'You must choose a password or skip this step.' => 'Vous devez choisir un mot de passe ou sauter cette étape.',
@@ -779,15 +762,38 @@ final class PhabricatorAuthFrFR
       - **URL de retour permises :** Ajouter cela : `%s`
     Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'CAPTCHA was not entered correctly.' => 'Le CAPTCHA n\'a pas été entré correctement.',
-      'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => 'Configurer OAuth de JIRA. NOTE : Supporte seulement JIRA 6.',
-      'The account you are attempting to register with has an invalid email address (%s). This Phabricator install only allows registration with specific email addresses:' => 'Le compte avec lequel vous essayez de vous enregistrer a une adresse de messagerie non valide (%s). Cette installation de Phabricator ne permet l’inscription qu’avec des adresses de messagerie spécifiques :',
+      'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => 'Configurer OAuth pour JIRA. NOTE : seulement JIRA 6 est pris en charge.',
       'If you did not receive an email, you can click the button below to try sending another one.' => 'Si vous n\'avez pas reçu de courriel, vous pouvez cliquer sur le bouton ci-dessous pour essayer d’en envoyer un autre.',
       'Invite template does not include invite URI!' => 'Le modèle d’invitation n’inclut pas l’URI d’invitation !',
       'Password providers can\'t be linked.' => 'Les fournisseurs de mot de passe ne peuvent être liés.',
       'Found LDAP Account: %s' => 'Compte LDAP trouvé : %s',
       '%s reinstated this key.' => '%s a réinstallé cette clé.',
+      '**Step 2 of 2**: In this step, you will configure JIRA.
+    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
+      - **Server URL**: `%s`
+      - Then, click **Next**. On the second page:
+      - **Application Name**: `%s`
+      - **Application Type**: `Generic Application`
+      - Then, click **Create**.
+    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
+      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
+      - **Consumer Name**: `%s`
+      - **Public Key**: Set this to the "Public Key" value in the form above.
+      - **Consumer Callback URL**: `%s`
+    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Étape 2 sur 2** : dans cette étape, vous configurerez JIRA.
+    **Créez une application JIRA** : connectez-vous à JIRA et allez dans **Administration**, puis **Modules** et **Liens d’application**. Cliquez sur le bouton intitulé **Ajouter un lien d’application** et utilisez les paramètres suivants pour créer une application :
+      - **URL du serveur** : `%s`
+      - Puis cliquez sur **Suivant**. Sur la deuxième page :
+      - **Nom de l’application** : `Phabricator`
+      - **Type de l’application** : `Application générique`
+      - Enfin cliquez sur **Créer**.
+    **Configurez votre application** : trouvez l’application que vous venez de créer dans le tableau, et cliquez sur le lien **Configurer** sous **Actions**. Sélectionnez **Authentification entrante** et cliquez sur l’onglet **OAuth** (il devrait être sélectionné par défaut). Utilisez alors les paramètres suivants :
+      - **Clé du consommateur** : mettez cela à la valeur de la « Clé du consommateur » dans le formulaire ci-dessus.
+      - **Nom du consommateur** : `Phabricator`
+      - **Clé publique** : mettez cela à la valeur de la « Clé publique » dans le formulaire ci-dessus.
+      - **URL de rappel du consommateur** : `%s`
+    Cliquez sur **Enregistrer** dans JIRA. L’authentification devrait maintenant être configurée et ce fournisseur fonctionner correctement.',
       'Confirm Account Link' => 'Lien de confirmation de compte',
-      'Before you can use Phabricator, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Avant d’utiliser Phabricator, vous devez ajouter une authentification multi-facteurs à votre compte. Celle-ci permet de le sécuriser en rendant plus difficile son accès et la réalisation d’actions sensibles aux attaquants.',
       'Verify Email Address' => 'Vérifiez l\'adresse de courriel',
       'Duo account ("%s") is fully enrolled.' => 'Le compte Duo (« %s ») est entièrement enregistré.',
       'You must log in to take this action.' => 'Vous devez vous connecter pour réaliser cette action.',
@@ -798,8 +804,8 @@ final class PhabricatorAuthFrFR
       'Duo (%s)' => 'Duo (%s)',
       'Create a New Account' => 'Créer un nouveau compte',
       'Example: %s%sFor LDAPS, use: %s' => 'Exemple : %s%sPour LDAPS, utiliser : %s',
-      'A completed challenge was provided as an answered challenge. The underlying factor is implemented improperly, challenges may not be reused.' => 'Un défi complété a obtenu une réponse. Le facteur souligné n’est pas implémenté proprement, les défis peuvent ne pas être réutilisés.',
-      'There is no account associated with that email address.' => 'Il n’y a pas de compte associé avec cette adresse de messagerie.',
+      'A completed challenge was provided as an answered challenge. The underlying factor is implemented improperly, challenges may not be reused.' => 'Un défi complété a obtenu une réponse. Mais le facteur sous-jacent est incorrectement mis en œuvre, les défis ne peuvent pas être réutilisés.',
+      'There is no account associated with that email address.' => 'Il n’y a aucun compte associé avec cette adresse de courriel.',
       'Revoke Token' => 'Révoquer des jetons',
       'Refresh Account Link' => 'Rafraîchir le lien du compte',
       'Enable Referrals' => 'Activer les référents',
@@ -817,7 +823,7 @@ final class PhabricatorAuthFrFR
       'ActiveDirectory Domain' => 'Domaine ActiveDirectory',
       'Very Weak' => 'Très faible',
       'Wait For Approval' => 'En attente d\'approbation',
-      'If you want to register a new account, continue with this registration workflow and choose a new, unique email address for the new account.' => 'Si vous voulez déclarer un nouveau compte, continuez avec ce processus d’inscription et choisissez une nouvelle adresse de messagerie unique pour le nouveau compte.',
+      'If you want to register a new account, continue with this registration workflow and choose a new, unique email address for the new account.' => 'Si vous voulez vous inscrire avec un nouveau compte, continuez avec ce processus d’inscription et choisissez une nouvelle adresse de courriel unique pour le nouveau compte.',
       'If you log out now, you can still regain access to your account later by using the account recovery workflow. The login screen will prompt you with recovery instructions.' => 'Si vous vous déconnectez maintenant, vous pourrez regagner l’accès à votre compte plus tard en utilisant la procédure de récupération de compte. L’écran de connexion vous demandera de suivre des instructions de récupération.',
       'Your Duo account ("%s") is not permitted to access this system. Contact your Duo administrator for help. The Duo preauth API responded with status message ("%s"): %s' => 'Votre compte Duo (« %s ») n’a pas l’autorisation d’accéder à ce système. Contactez votre administrateur Duo pour de l’aide. L’API de pré-authentification de Duo à répondu avec le message d’état (« %s ») : %s',
       'Customize Enroll Message' => 'Message d’Inscription Personnalisé',
@@ -825,10 +831,12 @@ final class PhabricatorAuthFrFR
       'Mobile Phone App (TOTP)' => 'Application téléphone mobile (TOTP)',
       'Support for Duo push authentication.' => 'Assistance pour l’authentification sur Duo Push.',
       'Normal Security Restored' => 'Sécurité normale rétablie',
+      'Allow users to register new accounts using this provider. If you disable registration, users can still use this provider to log in to existing accounts, but will not be able to create new accounts.' => 'Permettre aux utilisateurs d’enregistrer de nouveaux comptes Phabricator en utilisant ce fournisseur. Si vous désactivez les inscriptions, les utilisateurs pourront toujours utiliser ce fournisseur pour se connecter à des comptes existants, mais ne pourront pas créer de nouveaux comptes.',
       'Verify %s' => 'Vérifier %s',
       'No Password Auth' => 'Pas d’Authentification par Mot de Passe',
-      'Create **Issue Link** to the Revision, as an "implemented in" relationship.' => 'Créer **Lien de problème** vers la révision, comme une relation « implémenté dans ».',
+      'Create **Issue Link** to the Revision, as an "implemented in" relationship.' => 'Créer **Lien de problème** vers la révision, comme une relation « mis en œuvre dans ».',
       'Authentication Challenges' => 'Défis d’Authentification',
+      'Do you want to enable this provider? Users will be able to use their existing external accounts to register new accounts and log in using linked accounts.' => 'Voulez-vous activer ce fournisseur ? Les utilisateurs pourront utiliser leurs comptes externes existants pour enregistrer de nouveaux comptes Phabricator et se connecter en utilisant les comptes liés.',
       'Password Reset Token' => 'Jeton de réinitialisation du mot de passe',
       'Allow Account Unlinking' => 'Permettre de détacher un compte',
       'The selected password is too short. Passwords must be a minimum of %s characters long.' => 'Le mot de passe sélectionné est trop court. Les mots de passe doivent faire au moins %s caractères de long.',
@@ -840,14 +848,14 @@ final class PhabricatorAuthFrFR
       'Use "--type <type>" or "--provider <phid>" to specify which factors to strip, or "--all-types" to strip all factors. Use `bin/auth list-factors` to show the available factor types or `bin/auth list-mfa-providers` to show available providers.' => 'Utiliser « --type <type> » ou « --provider <phid> » pour spécifier les facteurs à retirer, ou « --all-types » pour tous les retirer. Utiliser `bin/auth list-factors` pour montrer les types de facteurs disponibles ou `bin/auth list-mfa-providers` pour montrer les fournisseurs disponibles.',
       'Session is not partial!' => 'La session n’est pas partielle !',
       'Create Contact Number' => 'Créer un numéro de contact',
-      'Users will only be able to register with a verified email address at one of the configured [[ %s | %s ]] domains: **%s**' => 'Les utilisateurs pourront seulement s’inscrire avec une adresse de messagerie vérifiée sur un des domaines configurés [[ %s | %s ]] : **%s**',
+      'Users will only be able to register with a verified email address at one of the configured [[ %s | %s ]] domains: **%s**' => 'Les utilisateurs pourront seulement s’inscrire avec une adresse de courriel vérifiée sur un des domaines [[ %s | %s ]] configurés : **%s**',
       'You are logged in as %s, but the email address you just clicked a link from is already the primary email address for another account (%s). Switch accounts, then try again.' => 'Vous êtes connecté en tant que %s, mais l’adresse de messagerie depuis laquelle vous venez de cliquer sur un lien est déjà l’adresse de messagerie principale d’un autre compte (%s). Changez de compte, puis réessayez.',
       '%s set the "%s" value to "%s".' => '%s a mis la valeur « %s » à « %s ».',
       'Validity of password "%s".' => 'Validité du mot de passe « %s » .',
       'Confirm External Account Link' => 'Confirmer le lien de compte externe',
       'Terminate all web login sessions. If called via OAuth, also terminate the current OAuth token.
-    WARNING: This method does what it claims on the label. If you call this method via the test console in the web UI, it will log you out!' => 'Met fin à toutes les sessions web connectées. Si appelé par OAuth, invalide également le jeton OAuth.
-    AVERTISSEMENT : Cette méthode fait ce qui est indiqué dans son libellé. Si vous appelez cette méthode via la console de test dans l’IHM web, vous serez déconnecté !',
+    WARNING: This method does what it claims on the label. If you call this method via the test console in the web UI, it will log you out!' => 'Met fin à toutes les sessions web connectées. Si appelé par OAuth, met fin également à la validité du jeton OAuth.
+    AVERTISSEMENT : cette méthode fait ce qui est indiqué dans son libellé. Si vous appelez cette méthode via la console de test dans l’IHM sur le web, vous serez déconnecté{{GENDER:||e}} !',
       'This contact number is already your primary contact number.' => 'Ce numéro de contact est déjà votre numéro de contact primaire.',
       'Authentication Tokens' => 'Jetons d’authentification',
       '%s upgraded the hash algorithm for this password from "%s" to "%s".' => '%s a mis à jour l’algorithme de hachage pour ce mot de passe de « %s » en « %s ».',
@@ -862,11 +870,11 @@ final class PhabricatorAuthFrFR
     https://dev.twitter.com/apps
     When creating your application, use these settings:
       - **Callback URL:** Set this to: `%s`
-    After completing configuration, copy the **Consumer Key** and **Consumer Secret** to the fields above.' => 'Pour configurer OAuth de Twitter, créer une nouvelle application ici :
+    After completing configuration, copy the **Consumer Key** and **Consumer Secret** to the fields above.' => 'Pour configurer OAuth de Twitter, créez une nouvelle application ici :
     https://dev.twitter.com/apps
-    En créant votre application, utiliser ces paramètres :
-      - **URL de rappel :** La mettre à : `%s`
-    Une fois la configuration achevée, copier la **Clé du consommateur** et le **Secret du consommateur** dans les champs ci-dessus.',
+    En créant votre application, utilisez ces paramètres :
+      - **URL de rappel :** lui donner cette valeur : `%s`
+    Une fois la configuration achevée, copiez la **Clé du consommateur** et le **Secret du consommateur** dans les champs ci-dessus.',
       '%s updated the public key material for this SSH key.' => '%s a remis à jour les éléments de la clé publique pour cette clé SSH.',
       'Unlinked Account Instructions' => 'Instruction pour un Compte non Lié',
       '%s created this key.' => '%s a créé cette clé.',
@@ -875,15 +883,12 @@ final class PhabricatorAuthFrFR
       'Edit Auth Message' => 'Modifier le Message d’Authentification',
       'Mobile App (TOTP)' => 'Application mobile (TOTP)',
       'Expected valid JSON response from Google account data request.' => 'Réponse JSON valide attendue pour la requête de données de compte Google.',
-      'Set Phabricator to not trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => 'Dire à Phabricator de ne pas faire confiance à un client OAuth. Phabricator redirige vers les clients OAuth de confiance que les utilisateurs ont autorisé, sans intervention de l’utilisateur.',
       'The invite code in the link you clicked has already been accepted.' => 'Le code d\'invitation du lien sur lequel vous avez cliqué a déjà été accepté.',
       'No outbound mailer which can deliver SMS messages is configured.' => 'Aucune adresse courriel externe pouvant délivrer des messages SMS n’est configurée.',
       'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'Si vous quittez la haute sécurité, vous devrez vous authentifier de nouveau la prochaine fois que vous essayerez de faire une action de haute sécurité.',
-      'NOTE: Amazon **requires** HTTPS, but your Phabricator install does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOTE: Amazon **nécessite** HTTPS, mais l\'installation de votre Phabricator n\'utilise pas HTTPS. **Vous ne pourrez pas ajouter Amazon comme fournisseur d\'authentication tant que vous n\'aurez pas configuré HTTPS sur cette installation**.',
       'Link %s Account' => 'Associer le compte %s',
       'The LDAP authentication provider is not enabled.' => 'Le fournisseur d’authentification LDAP n’est pas activé.',
       'Active Phone Number' => 'Numéro Téléphonique Actif',
-      'New User "%s" Awaiting Approval' => 'Nouvel utilisateur "%s" en attente d\'approbation',
       'Enroll in MFA' => 'S’inscrire sur l’authentification multi-facteurs',
       'Really destroy credentials everywhere?' => 'Vraiment détruire les certificats partout ?',
       'Contact Number' => 'Numéro de contact',
@@ -904,10 +909,10 @@ final class PhabricatorAuthFrFR
     Les jetons temporaires sont utilisés dans le courriel de réinitialisation du mot de passe, le courriel de bienvenue, et par certains autres systèmes comme Git LFS. La révocation des jetons temporaires invalidera les liens existants dans les courriels de réinitialisation du mot de passe et d’invitation qui ont été envoyés avant que la révocation se soit produite.',
       'The account you are attempting to link is already linked to your account.' => 'Le compte que vous essayez d\'associer est déjà associé à votre compte.',
       'Enter the code from the text message which was sent to your primary contact number.' => 'Entrer le code du message textuel envoyé à votre numéro de contact principal.',
+      'Do you want to enable this provider? Users will be able to log in using linked accounts.' => 'Voulez-vous activer ce fournisseur ? Les utilisateurs pourront se connecter à Phabricator en utilisant les comptes liés.',
       'JIRA Instance Name' => 'Nom de l\'instance JIRA',
       '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s a mis à jour l\'ID d\'application OAuth pour ce fournisseur, de « %s » à « %s ».',
       '%s enabled registration.' => '%s a activé l\'enregistrement.',
-      'The PHP \'openssl\' extension is not installed. You must install this extension in order to add a JIRA authentication provider, because JIRA OAuth requests use the RSA-SHA1 signing algorithm. Install the \'openssl\' extension, restart Phabricator, and try again.' => 'L’extension \'openssl\' de PHP n’est pas installée. Vous devez installer cette extension pour pouvoir ajouter un fournisseur d’authentification JIRA, parce que OAuth de JIRA requiert l’utilisation de l’algorithme de signature RSA-SHA1. Installez l’extension \'openssl\', redémarrez Phabricator, et réessayez.',
       'Auth Message %d' => 'Message d’Authentification %s',
       'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'Impossible de charger votre secret de jeton OAuth1 depuis le stockage. Il a peut-être expiré. Essayez de vous authentifier de nouveau.',
       'This private key requires a passphrase, but no passphrase was provided. Check that you supplied the correct key, or provide the passphrase.' => 'Cette clé privée nécessite une phrase secrète, mais aucune phrase secrète n\'a été fournie. Vérifiez que vous avez fourni la bonne clé ou fournissez la phrase secrète.',
@@ -919,7 +924,7 @@ final class PhabricatorAuthFrFR
       'Unable to set LDAP option \'%s\' to value \'%s\'!' => 'Impossible de définir l’option LDAP « %s » à la valeur « %s » !',
       'LDAP: Failed to retrieve record for user "%s" when searching. Credentialed users may not be able to search your LDAP server. Try configuring anonymous credentials or fully anonymous binds.' => 'LDAP : échec de récupération de l’enregistrement de l’utilisateur « %s » lors de la recherche. Les utilisateurs certifiés pourraient ne pouvoir faire aucune recherche sur votre serveur LDAP. Essayez de configurer des certificats anonymes ou des attachements entièrement anonymes.',
       'Failed to bind to LDAP server (without username).' => 'Échec d’attachement au serveur LDAP (sans nom d’utilisateur).',
-      '%s changed the "%s" value from "%s" to "%s".' => '%s a changé la valeur de "%s" de "%s" en "%s".',
+      '%s changed the "%s" value from "%s" to "%s".' => '%s a changé la valeur de « %s » de « %s » en « %s ».',
       'You canceled authentication.' => 'Vous avez annulé l\'authentication.',
       'A password reset link will be sent to your primary email address. Follow the link to set an account password.' => 'Un lien de réinitialisation du mode de passe sera envoyé à votre adresse courriel principale. Suivez le lien pour définir un nouveau mot de passe à votre compte.',
       'Accepted By' => 'Accepté par',
@@ -928,9 +933,8 @@ final class PhabricatorAuthFrFR
       '%s revoked this key.' => '%s a révoqué cette clé.',
       'There are no configured multi-factor providers.' => 'Il n’y a pas de fournisseurs multi-facteurs configurés.',
       'OAuth1 Handshake Token' => 'Jeton de poignée de main OAuth1',
-      '**Step 1 of 2 - Name Phabricator OAuth Instance**
-    Choose a permanent name for the OAuth server instance of Phabricator. //This// instance of Phabricator uses this name internally to keep track of the OAuth server instance of Phabricator, in case the URL changes later.' => '**Étape 1 sur 2 - Nom de l’instance OAuth de Phabricator**
-    Choisir un nom permanent pour l’instance du serveur OAuth de Phabricator. //Cette// instance de Phabricator utilise ce nom en interne pour garder trace de l’instance du serveur OAuth de Phabricator, au cas où l’URL change ultérieurement.',
+      'This server is not configured with any enabled authentication providers which can be used to log in. If you have accidentally locked yourself out by disabling all providers, you can use `%s` to recover access to an account.' => 'Cette installation Phabricator n’est configurée avec aucun fournisseur d’authentification activé, pouvant être utilisé à la connexion. Si vous vous êtes accidentellement bloqué en désactivant tous les fournisseurs, vous pouvez utiliser `%s` pour récupérer l’accès à un compte.',
+      'The email address ("%s") associated with the external account is already in use by an existing %s account. Multiple %s accounts may not have the same email address, so you can not use this email address to register a new account.' => 'L’adresse de courriel (« %s ») associée avec le compte externe est déjà utilisée par un compte Phabricator existant. Plusieurs comptes Phabricator différents ne peuvent pas avoir la même adresse de courriel, vous en pouvez donc pas utiliser cette adresse pour enregistrer un nouveau compte Phabricator.',
       'Failed to get LDAP entries from search result.' => 'Échec de récupération des entrées LDAP d’un résultat de recherche.',
       'Captcha response is incorrect, try again.' => 'La réponse au Captcha est incorrecte, veuillez réessayer.',
       'Add Auth Provider' => 'Ajouter un fournisseur d\'authentication',
@@ -948,7 +952,6 @@ final class PhabricatorAuthFrFR
       'Log In' => 'Se connecter',
       'Temporary Token Types' => 'Types de jetons temporaires',
       'Guidance shown after a user logs in with an email link and is prompted to link an external account.' => 'Conseils affichés après que l\'utilisateur se soit connecté par un lien de son courriel et son invitation à lier un compte externe.',
-      'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a COnduit method is "%s" (for example, "%s"). Check your configuration.' => 'ERREUR : Vous faites une requête d’API Conduit à « %s », mais le chemin de requête HTTP correct pour accéder à une méthode de Conduit est « %s » (par exemple, « %s »). Vérifiez votre configuration.',
       'Register' => 'S’enregistrer',
       'Anonymous Username' => 'Utilisateur anonyme',
       'Allow users to receive a code via SMS.' => 'Autoriser les utilisateurs à recevoir un code via SMS.',
@@ -957,20 +960,31 @@ final class PhabricatorAuthFrFR
       'LDAP' => 'LDAP',
       'The account you are attempting to register with uses an authentication provider ("%s") which does not allow registration. An administrator may have recently disabled registration with this provider.' => 'Le compte avec lequel vous tentez de vous inscrire utilise un fournisseur d’authentification (« %s ») qui ne permet pas l’inscription. Un administrateur a peut-être récemment désactivé les inscriptions avec ce fournisseur.',
       'Already Accepted' => 'Déjà accepté',
-      'Specify an OAuth client ID with %s.' => 'Spécifiez un ID client OAuth avec %s.',
+      'Specify an OAuth client ID with %s.' => 'Spécifiez un identifiant de client OAuth avec %s.',
       'LDAP Exception: %s
     LDAP Error #%d: %s' => 'Exception LDAP : %s
     Erreur LDAP nº %s : %s',
       'Log Out Anyway' => 'Se déconnecter malgré tout',
       'Set Primary Contact Number' => 'Définir le numéro de contact primaire',
       'You are logged in as %s, but the email address you just clicked a link from is already verified and associated with another account (%s). Switch accounts, then try again.' => 'Vous êtes connecté en tant que %s, mais l’adresse de messagerie depuis laquelle vous venez de cliquer sur un lien est déjà vérifiée et associée avec un autre compte (%s). Changez de compte, puis réessayez.',
+      'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.' => 'Le compte externe (« %s ») que vous venez d’authentifier n’est pas configuré pour autoriser la liaison sur cette installation de Phabricator. Un administrateur l’a peut-être récemment désactivé.',
       'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.' => 'Les algorithmes les plus forts sont listés en premier. L’algorithme surligné sera utilisé pour stocker les nouveaux hachages. Les anciens hachages seront mis à jour avec le meilleur algorithme au fur et à mesure.',
       'These auth factors will be stripped:' => 'Ces facteurs d’authentification seront enlevés :',
       'Contact numbers must have a contact number.' => 'Les numéros de contact doivent posséder un numéro de contact.',
       'Engine: Session' => 'Moteur: session',
+      '**Step 2 of 2 - Configure OAuth Server**
+    To configure OAuth, create a new application here:
+    %s/oauthserver/client/create/
+    When creating your application, use these settings:
+      - **Redirect URI:** Set this to: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Étape 2 sur 2 - Configurer l’instance OAuth de Phabricator**
+    Pour configurer OAuth de Phabricator, créer une nouvelle application ici :
+    %s/oauthserver/client/create/
+    En créant votre application, utiliser ces paramètres :
+      - **URI de redirection :** La mettre à : `%s`
+    Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dan sles champs ci-dessus (vous aurez peut-être besoin de générer le secret du client en cliquant d’abord sur \'Nouveau Secret\').',
       'Require Existing Duo Account' => 'Nécessite un compte Duo existant',
       'Upload SSH Public Key' => 'Téléverser la clé publique SSH',
-      'Phabricator will automatically login with this provider if it is the only available provider.' => 'Phabricator se connectera automatiquement avec ce fournisseur si c’est le seul disponible.',
       'No such user "%s"!' => 'Aucun utilisateur « %s » !',
       '%s changed the hostname for this provider from %s to %s.' => '%s a modifié les nom d\'hôte pour ce fournisseur de %s vers %s.',
       'Wait for Approval' => 'Veuillez attendre l\'acceptation',
@@ -981,8 +995,6 @@ final class PhabricatorAuthFrFR
       'Application secret is required.' => 'Le secret de l’application est obligatoire.',
       'Authentication Failure' => 'Échec d’authentification',
       'Use %s to choose a user to reset actions for.' => 'Utiliser %s pour choisir l’utilisateur pour lequel réinitialiser les actions.',
-      'Continue to Phabricator' => 'Poursuivre vers Phabricator',
-      'Log in to Phabricator' => 'Connexion à Phabricator',
       'LDAP Username' => 'Nom d\'utilisateur LDAP',
       'Parsed Address' => 'Adresse analysée',
       'Login and Registration Providers' => 'Fournisseurs d’inscription et de connexion',
@@ -995,7 +1007,6 @@ final class PhabricatorAuthFrFR
       'You already have SMS authentication attached to your account.' => 'Vous avez déjà une authentification SMS attachée à votre compte.',
       'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Attacher une application d’authentificateur mobile (comme Authy ou Google Authentificator) à votre compte. Quand vous aurez besoin de vous authentifier, vous devrez entrer un code affiché sur votre téléphone.',
       'The login link you clicked is invalid, out of date, or has already been used.' => 'Le lien de connexion sur lequel vous avez cliqué est invalide, obsolète, ou a déjà été utilisé.',
-      '%s You have not added authentication providers yet. Use "%s" to add a provider, which will let users register new Phabricator accounts and log in.' => '%s Vous n’avez pas encore ajouté de fournisseurs d’authentification. Utilisez « %s » pour ajouter un fournisseur, ce qui permettra aux utilisateurs d’inscrire de nouveaux comptes Phabricator et de se connecter avec.',
       'Message Text' => 'Texte du message',
       'Revoke all credentials types.' => 'Révoquer tous les types de certificats.',
       'Good password should match.' => 'Les bons mots de passe doivent correspondre.',
@@ -1003,8 +1014,6 @@ final class PhabricatorAuthFrFR
       'Previously Invited' => 'Invité précédemment',
       'LDAP search failed.' => 'La recherche LDAP a échoué.',
       'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Cette clé privée n’a pas pu être ouverte avec la phrase secrète fournie. Cela peut signifier que la phrase secrète est incorrecte ou que la clé n’est pas formatée correctement. Vérifiez que vous avez fourni le texte complet d’une clé privée valide et la phrase secrète correcte.',
-      'Updated; Phabricator does not trust OAuth client %s.' => 'Mis à jour ; Phabricator ne fait pas confiance au client OAuth %s.',
-      'Phabricator is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => 'Phabricator est configuré avec une liste blanche de domaine de courriel (dans %s), donc seuls les utilisateurs avec une adresse de messagerie vérifiée sur un de ces domaines autorisés %s pourront inscrire un compte : %s',
       'Allow Auto Login' => 'Autoriser la connexion automatique',
       'Expected invite accepted (%s).' => 'Invitation attendue acceptée (%s) .',
       'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Note: dissocier un fournisseur d\'authentification terminera toutes les autres sessions connectées.',
@@ -1013,19 +1022,17 @@ final class PhabricatorAuthFrFR
       'Allow Linking Accounts' => 'Autoriser l\'association de comptes',
       '%s created this MFA provider.' => '%s a créé ce fournisseur MFA.',
       'To enable the login flow, follow setup guidance and configure at least one authentication provider, then associate credentials with your account. After completing these steps, you will be able to log out and log back in normally.' => 'Pour activer la procédure de connexion, suivez les instructions de configuration et configurez au moins un fournisseur d’authentification, ensuite associez les certificats à votre compte. Après complété ces étapes, vous pourrez vous déconnecter et vous reconnecter normalement.',
-      'Phabricator instance name must contain only lowercase letters, digits, and periods.' => 'Le nom de l’instance Phabricator ne doit contenir que des lettres minuscules, des chiffres et des points.',
       'This is the only external login account linked to your Phabicator account. If you remove it, you may no longer be able to log in.' => 'Ceci est le seul compte de connexion externe lié à votre compte Phabricator. Si vous le retirez, vous ne pourrez plus vous connecter.',
       'You have not completed Duo enrollment yet. Complete enrollment, then click continue.' => 'Vous n’avez pas encore complété votre inscription sur Duo. Complétez l’inscription, puis cliquez sur continuer.',
       'Always Search' => 'Toujours rechercher',
       'Allow Registration' => 'Permettre l’inscription',
       'Use this link to recover access to the "%s" account from the web interface:' => 'Utiliser ce lien pour récupérer l’accès au compte « %s » depuis l’interface web :',
       'Change Enroll Message' => 'Modifier le Message d’Inscription',
-      'Your Phabricator account is already linked to an external account for this provider.' => 'Votre compte Phabricator est déjà lié à un compte externe pour ce fournisseur.',
       'You can safely ignore these warnings if the install itself has access controls (for example, it is deployed on a VPN) or if all of the configured providers have access controls (for example, they are all private LDAP or OAuth servers).' => 'Vous pouvez ignorer sans souci ces avertissements. Si l’installation elle-même a des contrôles d’accès (par exemple, elle est déployée sur un VPN), ou si tous les fournisseurs configurés ont des contrôles d’accès (par exemple, ce sont tous des serveurs LDAP ou OAuth privés).',
+      'The external service ("%s") you just authenticated with is not configured to allow registration on this server. An administrator may have recently disabled it.' => 'Le compte externe (« %s ») avec lequel vous venez de vous authentifier n’est pas configuré pour permettre l’inscription sur cette installation de Phabricator. Un administrateur l’a peut-être récemment désactivé.',
       'SSH keys inherit the policies of the user or object they authenticate.' => 'Les clés SSH héritent des politiques de l’utilisateur ou de l’objet qu’elles authentifient.',
       'Duo Username: %s' => 'Nom d’utilisateur Duo : %s',
       'Check Your Email' => 'Vérifiez votre courriel',
-      'Phabricator instance name is required.' => 'Le nom de l’instance Phabricator est obligatoire.',
       'Captcha' => 'Captcha',
       'Email record has invalid user PHID!' => 'L’enregistrement du courriel a un PHID d’utilisateur non valide !',
       'No Matching Tokens' => 'Aucun jeton correspondant',
@@ -1044,9 +1051,10 @@ final class PhabricatorAuthFrFR
       'If you are currently using your phone to view this page, click this button to open the Duo application:' => 'Si vous utilisez actuellement votre téléphone pour voir cette page, cliquez sur ce bouton pour ouvrir l’application Duo :',
       'Specify either specific users with %s, or all users with %s, but not both.' => 'Spécifier soit des utilisateurs spécifiques avec %s, ou tous les utilisateurs avec %s, mais pas les deux.',
       'Unable to refresh token!' => 'Impossible de remettre à jour le jeton.',
-      '%s changed the status of this provider from %s to %s.' => '%s a passé le statut de ce fournisseur de %s à %s.',
+      '%s changed the status of this provider from %s to %s.' => '%s a passé l’état de ce fournisseur de %s à %s.',
       'Consumer Key' => 'Clé du consommateur',
-      'Logging in will verify %s as an email address you own.' => 'La connexion vérifiera %s comme une adresse de messagerie que vous possédez.',
+      'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.' => 'L’adresse de messagerie associée avec ce compte (« %s ») est déjà utilisée par une application et ne peut pas être utilisée pour enregistrer un nouveau compte Phabricator. Choisir une autre adresse valide.',
+      'Logging in will verify %s as an email address you own.' => 'La connexion vérifiera que vous possédez bien %s en tant qu’adresse de courriel.',
       'Not a Valid Email Address' => 'Adresse courriel non valide',
       'SSH Keys' => 'Clés SSH',
       'Active OAuth Token (Expires: %s)' => 'Activer le jeton OAuth (expire à : %s)',
@@ -1079,6 +1087,7 @@ final class PhabricatorAuthFrFR
       'You can not make a disabled number a primary contact number.' => 'Vous ne pouvez pas faire d\'un numéro désactivé, un numéro de contact primaire.',
       'Use TLS' => 'Utiliser TLS',
       'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'Cette configuration a l’option de configuration « %s » d’activée, mais n’a aucun fournisseur actif configuré pour l’authentification multifactorielle. Cela signifie que vous devez en ajouter un, mais que vous n’en avez pas non plus les droits. Un administrateur doit désactiver « %s » ou activer un fournisseur d’authentification multifactorielle pour vous permettre de continuer.',
+      'You will no longer be able to use your %s account to log in.' => 'Vous ne pourrez plus utiliser votre compte %s pour vous connecter à Phabricator.',
       'Auth Invite' => 'Invite d\'authentication',
       'Instructions on the "Wait For Approval" screen, shown to users who have registered an account that has not yet been approved by an administrator.' => 'Instructions sur l’écran « Attente d’approbation », affichées aux utilisateurs ayant inscrit un compte pas encore approuvé par un administrateur.',
       'Username/Password' => 'Nom d\'utilisateur/Mot de passe',
@@ -1087,7 +1096,6 @@ final class PhabricatorAuthFrFR
       'CHANGES TO ENROLL MESSAGE' => 'MODIFICATIONS AU MESSAGE D’INSCRIPTION',
       'Duo enrollment mode ("%s") is not supported.' => 'Le mode d’inscription de Duo (« %s ») n’est pas pris en charge.',
       'Duo Username' => 'Nom d’Utilisateur Duo',
-      'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => 'Configurer une connexion à un serveur LDAP pour que les utilisateurs puissent utiliser leurs certificats LDAP pour se connecter à Phabricator.',
       'Status "%s" is invalid. Valid statuses are: %s.' => 'L’état « %s » est incorrect. Les états valides sont : %s.',
       'Email Address Already in Use' => 'Adresse de courriel déjà utilisée',
       'Administrative approvals are enabled (in %s), so all new users must have their accounts approved by an administrator.' => 'L\'approbation par les administrateurs est activée (dans %s), donc tous les nouveaux comptes doivent être approuvés par un administrateur.',
@@ -1101,7 +1109,7 @@ final class PhabricatorAuthFrFR
     Configurer comment enregistrer les Révisions sur les tâches JIRA.
     Note : Vous aurez à redémarrer les démons pour que cela prenne effet.',
       'Credential ("%s") is not valid.' => 'L’accréditation (« %s ») n’est pas valide.',
-      '[Phabricator] %s has invited you to join Phabricator' => '[Phabricator] %s vous a invité à rejoindre Phabricator',
+      'Base URI is required.' => 'L’URI de base de Phabricator est nécessaire.',
       'No valid linkable account.' => 'N\'est pas un compte associable valide.',
       'There are no configured default registration providers.' => 'Il y a pas de fournisseurs d\'abonnement configurés par défaut.',
       'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.' => 'Le fournisseur d’authentification n’a pas renvoyé le bon paramètre d’état client dans sa réponse. Si ce problème persiste, vous devrez nettoyer vos cookies.',
@@ -1114,7 +1122,7 @@ final class PhabricatorAuthFrFR
       'Confirm %s Account Link' => 'Confirmer le lien du compte %s',
       'You have not configured an outbound SMS mailer. You must configure one before you can set up SMS. See: %s' => 'Vous n’avez pas configuré de boîte courriel SMS sortante. Vous devez en configurer une avant de pouvoir utiliser les SMS. Voir : %s',
       'Provider Already Configured' => 'Fournisseur déjà configuré',
-      'Missing Client ID Cookie' => 'Le témoin de l\'ID client est absent.',
+      'Missing Client ID Cookie' => 'Le témoin de l’identifiant client est manquant.',
       'To search for an LDAP record before authenticating, either check the **Always Search** checkbox or enter an anonymous username and password to use to perform the search.' => 'Pour chercher un enregistrement LDAP avant de s’authentifier, cocher soit la case **Toujours rechercher**, ou saisir un nom d’utilisateur anonyme et un mot de passe à utiliser pour effectuer la recherche.',
       'Enroll Duo Account: %s' => 'Compte duo d’inscription : %s',
       'Skipping, provider is not an OAuth2 provider.' => 'Ignoré, le fournisseur n\'est pas un fournisseur OAuth2.',

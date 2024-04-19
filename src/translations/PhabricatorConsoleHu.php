@@ -22,13 +22,13 @@ final class PhabricatorConsoleHu
       'Calls to External Services' => 'Külső szolgáltatások hívása',
       'Machine' => 'Számítógép (?)',
       'Reconnect' => 'Újracsatlakozás',
-      'Information about Phabricator events and event listeners.' => 'Információk Phabricator eseményekről és az eseményt hallgatókról.',
       'No errors.' => 'Nincsenek hibák.',
       'Error Log' => 'Hibanapló',
       'Information about services.' => 'Információk a szolgáltatásokról.',
       'Unknown event: %s' => 'Ismeretlen esemény: %s',
       'Can\'t Analyze' => 'Nem lehet elemezni',
       'Events' => 'Események',
+      'Information about events and event listeners.' => 'Információk Phabricator eseményekről és az eseményt hallgatókról.',
       'No Tables' => 'Nincsenek táblák',
     );
   }

@@ -32,6 +32,7 @@ final class PhabricatorCelerityFrFR
       'Resource "%s" does not have a header doc comment. Encode dependency data in a header docblock.' => 'La ressource « %s » n’a pas de commentaire de doc en entête. Encoder les données de dépendance dans un bloc de doc en entête.',
       'Package specification for "%s" includes resources of multiple types (%s, %s). Each package may only contain one type of resource.' => 'La spécification du paquet pour « %s » inclut des ressources de divers types (%s, %s). Chaque paquet ne peut contenir qu’un type de ressource.',
       'Rebuilding %d resource source(s).' => 'Reconstruction de %s source(s) de ressources.',
+      'Optimizing...' => 'Optimisation...',
       'Found %d text resources.' => '%s ressources de texte trouvées.',
       'Expected file \'%s\' in \'%s\' to be a sprite source ending in \'%s\'.' => 'Le fichier \'%s\' dans \'%s\' est censé être une source de sprite finissant en \'%s\'.',
       'Only static resources may be served.' => 'Seules les ressources statiques peuvent être servies.',

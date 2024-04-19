@@ -10,7 +10,6 @@ final class PhabricatorMetaPl
   protected function getTranslations() {
     return array(
       'Information' => 'Informacja',
-      'This application cannot be uninstalled, because it is required for Phabricator to work.' => 'Nie można odinstalować tej aplikacji, ponieważ jest ona wymagana do działania Phabricatora.',
       'Syntax' => 'Składnia',
       'You cannot install an installed application.' => 'Nie można zainstalować zainstalowanej aplikacji.',
       'Create Application' => 'Utwórz aplikację',
@@ -23,13 +22,12 @@ final class PhabricatorMetaPl
       'Create New Application' => 'Utwórz nową aplikację',
       'Extension' => 'Rozszerzenie',
       'Show Installed Applications' => 'Pokaż zainstalowane aplikacje',
-      'Configure' => 'Konfiguruj',
       'Show Launchable Applications' => 'Pokaż uruchamialne aplikacje',
       'Show Released Applications' => 'Pokaż wydane aplikacje',
       'Uninstall' => 'Odinstaluj',
+      'This application is required and cannot be uninstalled.' => 'Nie można odinstalować tej aplikacji, ponieważ jest ona wymagana do działania Phabricatora.',
       'Type an application name...' => 'Wpisz nazwę aplikacji...',
       'Show All Applications' => 'Pokaż wszystkie aplikacje',
-      'Install' => 'Instaluj',
     );
   }
 

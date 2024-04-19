@@ -13,7 +13,6 @@ final class PhabricatorSettingsDeDE
       'Default (%s)' => 'Standard (%s)',
       'Page Titles' => 'Seitentitel',
       'Personal Account Settings' => 'Persönliche Benutzerkonteneinstellungen',
-      'ISO 8601: 2000-02-28' => 'ISO 8601: 2000-02-28',
       'Global Default Settings' => 'Globale Standardeinstellungen',
       'Self Actions' => 'Eigene Aktionen',
       'Email Notifications' => 'E-Mail-Benachrichtigungen',
@@ -23,12 +22,14 @@ final class PhabricatorSettingsDeDE
       'Enable Email Notifications' => 'E-Mail Benachrichtigungen aktivieren',
       'Edit global default settings for all users.' => 'Bearbeite globale Einstellungen für alle Benutzer.',
       'Adjust Timezone' => 'Zeitzone anpassen',
+      'If you disable **Email Notifications**, this server will never send email to notify you about events. This preference overrides all your other settings.
+    //You will still receive some administrative email, like password reset email.//' => 'Wenn du **Email Benachrichtigungen** deaktivierst, wird Phabricator niemals eine Email senden, um dich über Ereignisse zu informieren. Diese Einstellung überschreibt all deine anderen Einstellungen weiter unten.
+    //Du erhältst weiterhin administrative Mails, wie z.B. eine Mail zum Passwort zurücksetzten.//',
       '%s updated her profile' => '%s hat ihr Profil aktualisiert',
       'Extra Settings' => 'Extra Einstellungen',
       'Enable Self Action Mail' => 'Mail für Eigene Aktionen aktivieren',
       'You haven\'t added any SSH Public Keys.' => 'Du hast keine öffentlichen SSH-Schlüssel hinzugefügt.',
       'All Messages' => 'Alle Nachrichten',
-      'This browser has been granted permission to send desktop notifications for this Phabricator instance.' => 'Dieser Browser hat dieser Phabricator Instanz die Berechtigung für Benachrichtigungen gewährt.',
       'Save Preference' => 'Einstellung speichern',
       'Changing your password will terminate any other outstanding login sessions.' => 'Das Ändern deines Passworts wird alle anderen Sitzungen beenden.',
       'Edit Global Settings' => 'Globale Einstellungen bearbeiten',
@@ -38,7 +39,6 @@ final class PhabricatorSettingsDeDE
       'Date Format' => 'Datumsformat',
       'Select the format you prefer for editing and displaying time.' => 'Wähle das Format für die Zeitdarstellung.',
       'External Accounts' => 'Externe Benutzerkonten',
-      'If you disable **Self Actions**, Phabricator will not notify you about actions you take.' => 'Wenn du **Eigene Aktionen** deaktivierst, wird dich Phabricator nicht über deine eigenen Aktionen informieren.',
       'Verification Email Sent' => 'Bestätigungs-E-Mail gesendet',
       'Add External Account' => 'Externes Benutzerkonto hinzufügen',
       'Disable Self Action Mail' => 'Mail für Eigene Aktionen deaktivieren',
@@ -47,9 +47,11 @@ final class PhabricatorSettingsDeDE
       'Changes saved.' => 'Änderungen gespeichert.',
       'Really delete address \'%s\'?' => 'Wirklich Addresse "%s" löschen?',
       'Another user already has this email.' => 'Ein anderer Benutzer hat diese E-Mail schon.',
+      'HTML Email' => 'HTML-E-Mail',
       'Global Defaults' => 'Globale Standards',
-      'Phabricator can send real-time notifications to your web browser or to your desktop. Select where you want to receive these real-time updates.' => 'Phabricator kann Echtzeitbenachritungen an deinen Browser oder deinen Desktop senden. Wähle wo du deine Benachrichtigungen erhalten willst.',
       'Change Timezone' => 'Zeitzone ändern',
+      'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Wenn du **Eigene Aktionen** deaktivierst, wird dich Phabricator nicht über deine eigenen Aktionen informieren.',
+      'Your browser has not yet granted this server permission to send desktop notifications.' => 'Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
     | Setting | Effect
     | ------- | -------
@@ -73,13 +75,10 @@ final class PhabricatorSettingsDeDE
       'Send Test Notification' => 'Test Meldung senden',
       'Email Preferences' => 'E-Mail-Einstellungen',
       '24 Hour, 14:34' => '24 Stunden, 14:34',
-      'If you disable **Email Notifications**, Phabricator will never send email to notify you about events. This preference overrides all your other settings.
-    //You will still receive some administrative email, like password reset email.//' => 'Wenn du **Email Benachrichtigungen** deaktivierst, wird Phabricator niemals eine Email senden, um dich über Ereignisse zu informieren. Diese Einstellung überschreibt all deine anderen Einstellungen weiter unten.
-    //Du erhältst weiterhin administrative Mails, wie z.B. eine Mail zum Passwort zurücksetzten.//',
       'Disable "Re:" Prefix' => '"Re:"-Präfix deaktivieren',
-      'Disable Email Notifications' => 'E-Mail-Benachrichtigungen',
+      'Disable Email Notifications' => 'E-Mail-Benachrichtigungen deaktivieren',
       'No Notifications' => 'Keine Benachrichtigungen',
-      'This browser has not yet granted permission to send desktop notifications for this Phabricator instance.' => 'Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt',
+      'Translation' => 'Übersetzung',
       'Time Format' => 'Zeitformat',
       'Send Notifications' => 'Benachrichtigungen senden',
       'Number' => 'Nummer',
@@ -91,6 +90,7 @@ final class PhabricatorSettingsDeDE
       'User Preferences' => 'Benutzereinstellungen',
       'Friday' => 'Freitag',
       'Select your local timezone.' => 'Wähle deine lokale Zeitzone aus.',
+      'Your browser has granted this server permission to send desktop notifications.' => 'Dieser Browser hat dieser Phabricator Instanz die Berechtigung für Benachrichtigungen gewährt.',
       'Week Starts On' => 'Woche beginnt am',
       'Edit Settings: %s' => 'Einstellungen von %s bearbeiten',
       'Account Settings' => 'Profil Einstellungen',
@@ -101,6 +101,7 @@ final class PhabricatorSettingsDeDE
       'New Setting' => 'Neue Einstellung',
       'Pronoun' => 'Vorname',
       'Sessions and Logs' => 'Sitzungen und Potokolle',
+      'This server can send real-time notifications to your web browser or to your desktop. Select where you want to receive these real-time updates.' => 'Phabricator kann Echtzeitbenachritungen an deinen Browser oder deinen Desktop senden. Wähle wo du deine Benachrichtigungen erhalten willst.',
       'Choose the pronoun you prefer.' => 'Wähle deine bevorzugte Ansprache:',
       'Default (Unknown, "%s")' => 'Stadard (Unbekannt, "%s")',
     );
