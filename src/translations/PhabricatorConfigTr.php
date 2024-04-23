@@ -18,38 +18,52 @@ final class PhabricatorConfigTr
       'Configuring File Storage' => 'Dosya Deposunu Yapılandırma',
       '%s / %s' => '%s / %s',
       'Address ranges of cluster hosts.' => 'Küme ana bilgisayarlarının adres aralıkları.',
+      'This request did not include a "Host" header. This may mean that your webserver (like nginx or apache) is misconfigured so the "Host" header is not making it to this software, or that you are making a raw request without a "Host" header using a tool or library.
+    If you are using a web browser, check your webserver configuration. If you are using a tool or library, check how the request is being constructed.
+    It is also possible (but very unlikely) that some other network device (like a load balancer) is stripping the header.
+    Requests must include a valid "Host" header.' => 'Bu istek, "%s" değerine sahip geçersiz bir "Ana Bilgisayar" başlığı içeriyordu. Ana bilgisayar üstbilgileri, "example.com" gibi bir nokta (".") İçermelidir. Bu, bazı tarayıcıların çerez ayarlayabilmesi için gereklidir.
+    Bu temel URI\'nin yanlış yapılandırıldığı anlamına gelebilir. Phabricator\'a çıplak bir alan adı değil ("https://phabricator/" gibi) değil, nokta içeren bir temel URI\'den ("https://phabricator.sirketim.com" gibi) hizmet vermelisiniz. Çıplak bir alan adı kullanmaya çalışıyorsanız, bunun yerine noktalı bir tam alan adı kullanmak için yapılandırmanızı değiştirin.
+    Bu aynı zamanda web sunucunuzun (veya yük dengeleyici gibi başka bir ağ aygıtının) "Ana Bilgisayar" başlığını yönettiği veya bir isteği manüel olarak vermek ve yanlış "Ana Bilgisayar" üstbilgisini ayarlamak için bir araç veya kitaplık kullandığınız anlamına da gelebilir.
+    İstekler, geçerli bir "Ana Bilgisayar" başlığı içermelidir.',
       'Suppress mail from maintenance users.' => 'Bakım kullanıcılarının postalarını engelle.',
       'Memory Usage' => 'Hafıza Kullanımı',
+      'IMPORTANT: The upstream does not provide support for prototype applications.
+    This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
+    To learn more about prototypes, see [[ %s | %s ]].
+    After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'ÖNEMLİ: Yukarı akış, prototip uygulamaları için destek sağlamaz.
+    Phabricator, **gelişimin erken safhasında** olan prototip uygulamaları içerir. Varsayılan olarak, prototip uygulamaları yüklenmez, çünkü genellikle henüz kullanılabilir olacak kadar gelişmemiştir. Phabricator geliştiriyorsanız veya yaklaşan özellikleri önizlemek istiyorsanız bu seçeneği yüklemek için bu seçeneği etkinleştirebilirsiniz.
+    Prototipler hakkında daha fazla bilgi edinmek için, [[ %s | %s ]] sayfasına bakın.
+    Prototipleri etkinleştirdikten sonra, bunları normal olarak kaldırabilirsiniz (normal uygulamalar gibi).',
       'Impersonating users over the API is no longer supported.' => 'Kullanıcıların API üzerinden taklit edilmesi artık desteklenmemektedir.',
       'Table' => 'Tablo',
+      'The best available MYSQL implementation is now selected automatically.' => 'Phabricator artık otomatik olarak mevcut en iyi MySQL uygulamasını seçiyor.',
       'Ignore Setup Issue' => 'Kurulum Sorununu Yoksay',
       'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
     You must enable DarkConsole by setting \'%s\' before this option will have any effect.' => 'Bu seçenek, oturumu kapatmış kullanıcılar için bile her sayfada DarkConsole\'u etkinleştirmenizi sağlar. Bu yalnızca çıkış yapmış bir sayfada bir hata ayıklamanız gerektiğinde yararlıdır. Üretimde bu seçeneği etkinleştirmemelisiniz.
     Bu seçeneğin herhangi bir etkisi olması için \'%s\' ayarlayarak DarkConsole\'u etkinleştirmeniz gerekir.',
+      'Alternative URIs that can access this service.' => 'Phabricator\'a erişebilen alternatif URI\'ler.',
       'Repository %s has unreplicated changes (for %s).' => '%s deposu çoğaltılmamış değişikliklere sahip (%s için).',
-      'Phabricator now automatically discovers available storage engines at runtime.' => 'Phabricator artık çalışma zamanında kullanılabilir depolama motorlarını otomatik olarak keşfediyor.',
       'The controller or workflow which handled the request.' => 'İsteği işleyen denetleyici veya iş akışı.',
       'Option "%s" is of type "%s", but the value at index "%s" of the list is not "true".' => '"%s" seçeneği "%s" türündedir, ancak listenin "%s" dizinindeki değer "true" değildir.',
       'Applications application' => 'Uygulamalar uygulama',
-      'The namespace that Phabricator databases should use.' => 'Phabricator veritabanlarının kullanması gereken ad alanı.',
+      'This server is not configured in cluster mode.' => 'Phabricator, küme modunda yapılandırılmamış.',
       '%s created this configuration entry.' => '%s bu yapılandırma girişini oluşturdu.',
       'You have enabled pygments and the %s script is available, but does not seem to work.' => 'Pigmentleri etkinleştirdiniz ve %s betiği kullanılabilir, ancak çalışmıyor gibi görünüyor.',
       'This column is missing a type specification.' => 'Bu sütunda bir tür belirtimi eksik.',
-      'Configure the Phabricator UI, including colors.' => 'Renkler de dahil olmak üzere Phabricator kullanıcı arayüzünü yapılandırın.',
+      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
+    This software will work with the older extension, but upgrading to the newer extension is recommended.
+    You may be able to install the extension with a command like: %s' => 'PHP şu anda veritabanıyla etkileşim kurmak için çok eski "mysql" uzantısını kullanıyor. Davranışları iyileştirmek için daha yeni "mysqli" uzantısını yüklemelisiniz (hata işleme ve sorgu zaman aşımları gibi).
+    Phabricator eski uzantıyla çalışacak, ancak yeni uzantıya yükseltme yapılması önerilir.
+    Uzantıyı aşağıdaki gibi bir komutla yükleyebilirsiniz: %s',
+      'The current configuration has these %d value(s):' => 'Mevcut Phabricator yapılandırması şu %s değerine sahiptir:',
       'Column Has No Specification' => 'Sütunun Özellikleri Yok',
       'Delete configuration in the database instead of in local configuration.' => 'Yerel yapılandırma yerine veritabanındaki yapılandırmayı silin.',
       'No Email Preferences Link' => 'E-posta Tercihleri Bağlantısı Yok',
       'Marked activity "%s" as completed.' => '"%s" etkinliği tamamlandı olarak işaretlendi.',
-      'Configure Phabricator to run on a cluster of hosts.' => 'Phabricator\'ı bir ana bilgisayar kümesinde çalışacak şekilde yapılandırın.',
       'Repository %s has unreplicated changes.' => '%s deposu çoğaltılmamış değişikliklere sahip.',
-      'If the web server responds to both HTTP and HTTPS requests but you want users to connect with only HTTPS, you can set this to `true` to make Phabricator redirect HTTP requests to HTTPS.
-    Normally, you should just configure your server not to accept HTTP traffic, but this setting may be useful if you originally used HTTP and have now switched to HTTPS but don\'t want to break old links, or if your webserver sits behind a load balancer which terminates HTTPS connections and you can not reasonably configure more granular behavior there.
-    IMPORTANT: Phabricator determines if a request is HTTPS or not by examining the PHP `%s` variable. If you run Apache/mod_php this will probably be set correctly for you automatically, but if you run Phabricator as CGI/FCGI (e.g., through nginx or lighttpd), you need to configure your web server so that it passes the value correctly based on the connection type.
-    If you configure Phabricator in cluster mode, note that this setting is ignored by intracluster requests.' => 'Web sunucusu hem HTTP hem de HTTPS isteklerine yanıt veriyorsa ancak kullanıcıların yalnızca HTTPS ile bağlantı kurmasını istiyorsanız, Phabricator\'ın HTTP isteklerini HTTPS\'ye yönlendirmesi için bunu `true` olarak ayarlayabilirsiniz.
-    Normalde, sunucunuzu HTTP trafiğini kabul etmeyecek şekilde yapılandırmanız gerekir, ancak başlangıçta HTTP kullandıysanız ve şimdi HTTPS\'ye geçtiyseniz, ancak eski bağlantıları koparmak istemiyorsanız veya web sunucunuz bir yük dengeleyicinin arkasındaysa bu ayar yararlı olabilir HTTPS bağlantılarını sonlandırır ve burada daha ayrıntılı davranışları makul bir şekilde yapılandıramazsınız.
-    ÖNEMLİ: Phabricator, PHP `%s` değişkenini inceleyerek bir isteğin HTTPS olup olmadığını belirler. Apache/mod_php çalıştırırsanız, bu muhtemelen sizin için otomatik olarak doğru bir şekilde ayarlanır, ancak Phabricator\'ı CGI/FCGI olarak çalıştırırsanız (örneğin, nginx veya lighttpd aracılığıyla), web sunucunuzu değeri doğru şekilde geçecek şekilde yapılandırmanız gerekir. bağlantı türü.
-    Phabricator\'ı küme modunda yapılandırırsanız, bu ayarın intlusluster istekleri tarafından yoksayıldığını unutmayın.',
-      'This version of Mercurial returns a bad exit code after a successful pull.' => 'Mercurial\'ın bu sürümü, başarılı bir çekimden sonra bozuk bir çıkış kodu döndürür.',
+      'You have \'%s\' enabled in your PHP configuration.
+    This option is not compatible with this software. Remove \'%s\' from your configuration to continue.' => 'PHP yapılandırmanızda \'%s\' etkin.
+    Bu seçenek Phabricator ile uyumlu değildir. Devam etmek için yapılandırmanızdan \'%s\' değerini kaldırın.',
       'The \'%s\' binary on this system has unexpected behavior: it was expected to exit without an error code when passed identical files, but exited with code %d.' => 'Bu sistemdeki \'%s\' ikili dosyasının beklenmedik bir davranışı var: özdeş dosyalar iletildiğinde hata kodu olmadan çıkması bekleniyordu, ancak %s koduyla çıkıldı.',
       'No active repositories have outstanding errors.' => 'Hiçbir etkin depoda olağanüstü hatalar yoktur.',
       'Usage' => 'Kullanım',
@@ -59,40 +73,33 @@ final class PhabricatorConfigTr
       'Better Table Engine Available' => 'Daha İyi Masa Motoru Var',
       'Set a local configuration value.' => 'Yerel bir yapılandırma değeri belirleyin.',
       'Large file storage has not been configured, which will limit the maximum size of file uploads. See %s for instructions on configuring uploads and storage.' => 'Büyük dosya depolama alanı yapılandırılmadı, bu da maksimum dosya yükleme boyutunu sınırlayacak. Yüklemeleri ve depolamayı yapılandırma talimatları için %s bakın.',
+      'This option controls whether users can edit account email addresses and profile real names.
+    If you set things up to automatically synchronize account information from some other authoritative system, you can prevent users from making these edits to ensure information remains consistent across both systems.' => 'Bu seçenek, kullanıcıların hesap e-posta adreslerini ve profil gerçek adlarını düzenleyip düzenleyemediklerini kontrol eder.
+    Phabricator\'ı başka bir yetkili sistemden hesap bilgilerini otomatik olarak senkronize edecek şekilde ayarladıysanız, bilgilerin her iki sistemde de tutarlı kalmasını sağlamak için kullanıcıların bu düzenlemeleri yapmasını engelleyebilirsiniz.',
       '%s deleted %s (again?).' => '%s, %s sildi (yine mi?).',
       'Access log format.' => 'Erişim günlüğü biçimi.',
-      'Phabricator sent itself a test request with an unusual path, to test if your webserver is rewriting paths correctly. The path was not transmitted correctly.
-    Phabricator sent a request to path "%s", and expected the webserver to decode and rewrite that path so that it received a request for "%s". However, it received a request for "%s" instead.
-    Verify that your rewrite rules are configured correctly, following the instructions in the documentation. If path encoding is not working properly you will be unable to access files with unusual names in repositories, among other issues.
-    (This problem can be caused by a missing "B" in your RewriteRule.)' => 'Phabricator, web sunucunuzun yolları doğru şekilde yeniden yazıp yazmadığını test etmek için alışılmadık bir yolla bir test isteği gönderdi. Yol doğru bir şekilde iletilmedi.
-    Phabricator, "%s" yoluna bir istek gönderdi ve web sunucusunun "%s" için bir istek alması için bu yolun kodunu çözmesini ve yeniden yazmasını bekledi. Ancak, bunun yerine "%s" için bir istek aldı.
-    Yeniden yazma kurallarınızın, belgelerdeki talimatları izleyerek doğru yapılandırıldığını doğrulayın. Yol kodlaması düzgün çalışmıyorsa, diğer sorunların yanı sıra depolarda olağandışı adlara sahip dosyalara erişemezsiniz.
-    (Bu soruna RewriteRule\'unuzdaki eksik "B" neden olabilir.)',
+      'Use Pygments to highlight code?' => 'Phabricator, kodu vurgulamak için Pygment\'leri kullanmalı mı?',
       'Access log location.' => 'Erişim günlüğü konumu.',
-      'Phabricator occasionally shells out to other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running Phabricator (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s' => 'Phabricator zaman zaman sunucudaki diğer ikili dosyalara kabuk oluşturur. Buna bir örnek, PHP dışındaki dillerde yazılan kodu sözdizimi-vurgulamak için kullanılan `%s` komutudur. Varsayılan olarak, bu ikili dosyaların Phabricator\'ı çalıştıran kullanıcının %s üzerindeolduğu varsayılır (normalde \'apache\', \'httpd\' veya \'nobody\'). Burada, bu ikili dosyalar standart olmayan konumlarda olduğunda %s ortam değişkenine ekstra dizinler ekleyebilirsiniz.
-    İkili dosyaları "%s" üzerinde koyabileceğinizi unutmayın (örneğin, işaretleyerek).
-    Yapılandırma uygulandıktan sonra geçerli PATH değeri:
-      lang=text
-      %s',
+      'You have \'%s\' enabled in your PHP configuration.
+    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => 'PHP yapılandırmanızda \'%s\' etkin.
+    Bu seçenek Phabricator ile uyumlu değildir. Devam etmek için PHP yapılandırmanızdaki \'%s\' değerini devre dışı bırakın.',
       'Your webserver is not handling GET parameters properly.' => 'Web sunucunuz GET parametrelerini düzgün işlemiyor.',
       'Repository Errors' => 'Depo Hataları',
       'Option "%s" is of type "%s", but the configured value is not the name of a known class. Valid selections are: %s.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bilinen bir sınıfın adı değildir. Geçerli seçimler: %s.',
-      'Phabricator no longer shows reply hints in mail.' => 'Phabricator artık postadaki yanıt ipuçlarını göstermiyor.',
       'Short' => 'Kısa',
-      'Phabricator is not configured in cluster mode.' => 'Phabricator, küme modunda yapılandırılmamış.',
       'Large File Storage Not Configured' => 'Büyük Dosya Depolama Yapılandırılmamış',
       'Migrating file-based config to more modern config...' => 'Dosya tabanlı yapılandırmayı daha modern yapılandırmaya geçiriyor...',
       'Full' => 'Dolu',
       'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Veritabanlarını ayarlamak için depolama yükseltme komut dosyasını çalıştırın (ana bilgisayar "%s" başlatılmadı).',
+      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
+    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
+    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'PHP sürümü %s çalıştırıyorsunuz. Phabricator, 7.0 ve 7.1 arasındaki PHP sürümlerini desteklemez.
+    PHP, Phabricator\'ın PHP 7.0\'da gerektirdiği sinyal işleme özelliklerini kaldırdı ve PHP 7.1\'e kadar geri yüklemedi.
+    PHP 7.1 veya daha yenisine (önerilir) yükseltin veya PHP 5\'in eski bir sürümüne (önerilmez) yükseltin.',
+      'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Henüz postaları yapılandırmadınız, bu nedenle Phabricator giden posta gönderemez veya gelen posta alamaz. Ayrıntılar için cluster.mailers yapılandırma ayarına bakın.',
       'Unrecognized verb: %s' => 'Tanınmayan fiil: %s',
-      'No REMOTE_ADDR is available, so Phabricator cannot determine the origin address for requests. This will prevent Phabricator from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'Kullanılabilir REMOTE_ADDR yok, bu nedenle Phabricator istekler için başlangıç adresini belirleyemiyor. Bu, Phabricator\'ın önemli güvenlik kontrolleri yapmasını engelleyecektir. Bu en sık, başlangıç senaryosunda bir hata olduğu anlamına gelir. Dokümanlara (%s) bakın ve komut dosyasının doğru yazıldığını tekrar kontrol edin.',
       'Schemata Issues' => 'Schemata Sorunları',
       'Expected Collation' => 'Beklenen Harmanlama',
-      'Controls whether Phabricator sends one email with multiple recipients in the "To:" line, or multiple emails, each with a single recipient in the "To:" line.' => 'Phabricator\'ın "Kime:" satırında birden çok alıcı içeren bir e-posta mı yoksa her biri "Kime:" satırında tek bir alıcısı olan birden fazla e-posta gönderip göndermeyeceğini denetler.',
       'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => '"%s" seçeneği "%s" türündedir, ancak değer bir liste değildir: doğal olmayan veya seyrek anahtarları olan bir haritadır.',
       'Use Normal HTTP Redirects' => 'Normal HTTP Yönlendirmelerini Kullan',
       'Configuration key \'%s\' is not set in %s configuration!' => '\'%s\' yapılandırma anahtarı %s yapılandırmasında ayarlanmadı!',
@@ -106,12 +113,10 @@ final class PhabricatorConfigTr
       'Nullable' => 'Sıfırlanabilir',
       'The "%s" key is set to some value other than "-1" in your PHP configuration. This can cause PHP to raise deprecation warnings during process startup. Set this option to "-1" to prevent these warnings from appearing.' => '"%s" anahtarı PHP yapılandırmanızda "-1" dışında bir değere ayarlanmış. Bu, PHP\'nin işlem başlatma sırasında kullanımdan kaldırma uyarılarını yükseltmesine neden olabilir. Bu uyarıların görünmesini önlemek için bu seçeneği "-1" olarak ayarlayın.',
       'No "Host" Header' => '"Ana Bilgisayar" Üstbilgisi Yok',
-      'Do not install Phabricator on an instance class with burstable CPU.' => 'Phabricator\'ı bükülebilir CPU içeren bir örnek sınıfına kurmayın.',
       'Activity "%s" did not need to be marked as complete.' => '"%s" etkinliğinin tamamlanmış olarak işaretlenmesi gerekmez.',
       'SSH error log location.' => 'SSH hata günlüğü konumu.',
       'The translation implementation has changed and providers are no longer used or supported.' => 'Çeviri uygulaması değişti ve sağlayıcılar artık kullanılmıyor veya desteklenmiyor.',
       'Option "%s" is of type "%s", but the value you provided is not a valid JSON list. When setting a list option from the command line, specify the value in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => '"%s" seçeneği "%s" türündedir, ancak sağladığınız değer geçerli bir JSON listesi değil. Komut satırından bir liste seçeneği ayarlarken, değeri JSON\'da belirtin. Kabuğunuzun değerini belirtmeniz gerekebilir (örneğin: \'["a", "b", ...]\').',
-      'The minimum supported version of Mercurial is 1.9, which was released in 2011.' => 'Mercurial\'ın desteklenen en düşük sürümü, 2011\'de piyasaya sürülen 1.9\'dur.',
       'Format for the SSH access log. Use %s to set the path. Available variables are:' => 'SSH erişim günlüğü biçimi. Yolu ayarlamak için %s kullanın. Mevcut değişkenler:',
       'This table can use a better table engine.' => 'Bu tablo daha iyi bir tablo motoru kullanabilir.',
       'PHP post_max_size Not Configured' => 'PHP post_max_size Yapılandırılmadı',
@@ -121,20 +126,20 @@ final class PhabricatorConfigTr
       'Profile 0.1%% of all requests' => 'Profil tüm istekleri %%0.1\'i',
       'This option has been replaced with the more granular option `%s`.' => 'Bu seçenek daha ayrıntılı seçenek olan `%s` ile değiştirildi.',
       'Require all users to configure multi-factor authentication.' => 'Tüm kullanıcıların çok faktörlü kimlik doğrulamasını yapılandırmasını zorunlu kılın.',
+      'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator yüklenen dosyaların MIME türlerini belirleyemeyebilir.',
+      'Stop this software from sending any email, etc.' => 'Phabricator\'ın herhangi bir e-posta vb. göndermesini durdurun.',
+      'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' ikili dosyası bulunamadı. \'%s\' simgesine dokunun veya web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya Phabricator yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
       'Configuration Guide: Locked and Hidden Configuration' => 'Yapılandırma Kılavuzu: Kilitli ve Gizli Yapılandırma',
       'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Bu seçenek ayrıntılı hata raporlamayı (yığın izleri, hata bilgileri) etkinleştirir ve her yeniden yüklemede statik varlıkların disk okumalarını zorlar.',
       '(%s%s) %s' => '(%s%s) %s',
       'Nonreplicating Replica' => 'Çoğaltılmayan Çoğaltma',
       'Run these %d command(s):' => 'Bu %s komutunu çalıştırın:',
       'Pattern' => 'Desen',
-      'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the Phabricator configuration value \'%s\' to specify one.' => 'Yapılandırmanız bir sunucu saat dilimi belirtemiyor. PHP yapılandırma değerini \'%s\' veya Phabricator yapılandırma değerini \'%s\' olarak ayarlayabilirsiniz.',
       'Unknown \'%s\' Version' => 'Bilinmeyen \'%s\' Sürümü',
       'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'MySQL\'in eski bir sürümünü kullanıyorsunuz ("%s" sunucusunda) ve yükseltmeniz gerekiyor.',
       'Feed Hooks Deprecated' => 'Besleme Kancaları Kullanımdan Kaldırıldı',
       'Purge Caches' => 'Önbellekleri Temizle',
-      'WARNING: This is a prototype option and the description below is currently pure fantasy.
-    Switch Phabricator to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'UYARI: Bu bir prototip seçeneğidir ve aşağıdaki açıklama şu anda saf hayal ürünüdür.
-    Phabricator\'ı salt okunur moda geçirin. Bu modda kullanıcılar yeni veri yazamaz. Normalde, küme veritabanı yöneticisine erişilemediğini algıladığında otomatik olarak bu moda geçer, ancak bakım veya test yapılandırması gerçekleştirmek için el ile etkinleştirebilirsiniz.',
+      'Configure services to run on a cluster of hosts.' => 'Phabricator\'ı bir ana bilgisayar kümesinde çalışacak şekilde yapılandırın.',
       'Adjust %s in your PHP configuration to at least 32MB. When set to smaller value, large file uploads may not work properly.' => 'PHP yapılandırmanızda %s en az 32MB olarak ayarlayın. Daha küçük bir değere ayarlandığında, büyük dosya yüklemeleri düzgün çalışmayabilir.',
       'Show Recipient Hints' => 'Alıcı İpuçlarını Göster',
       'Recaptcha private key, obtained by signing up for Recaptcha.' => 'Recaptcha\'ya kaydolarak elde edilen Recaptcha özel anahtarı.',
@@ -152,13 +157,13 @@ final class PhabricatorConfigTr
       'The HTTP method.' => 'HTTP yöntemi.',
       'The webserver\'s host name.' => 'Web sunucusunun ana bilgisayar adı.',
       'PHP Timezone Invalid' => 'PHP Saat Dilimi Geçersiz',
-      'Phabricator Configuration' => 'Phabricator Yapılandırması',
+      'The environmental variable %s is empty. This server needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in configuration.' => 'Çevresel değişken %s boş. Phabricator\'ın `%s`, `%s`, `%s` ve `%s` gibi bazı sistem komutlarını yürütmesi gerekir. Bu komutları yürütmek için, ikili dosyaların web sunucusunun %s mevcut olması gerekir. Phabricator yapılandırmasında ek yollar ayarlayabilirsiniz.',
       'Integration with Recaptcha' => 'Recaptcha ile Entegrasyon',
       'Global cap for size of generated emails (bytes).' => 'Oluşturulan e-postaların boyutu (bayt) için genel sınır.',
       'Access Logs' => 'Erişim Günlükleri',
       'This server has a known bad version of "%s" installed ("%s"). This version is not supported, or contains important bugs or security vulnerabilities which are fixed in a newer version.' => 'Bu sunucuda bilinen "%s" kötü sürümü ("%s") var. Bu sürüm desteklenmiyor veya daha yeni bir sürümde düzeltilen önemli hatalar veya güvenlik açıkları içeriyor.',
+      'URI where this software is installed.' => 'Phabricator\'ın kurulu olduğu URI.',
       'Character Set' => 'Karakter Seti',
-      'Phabricator puts databases in a namespace, which defaults to \'phabricator\' -- for instance, the Differential database is named \'phabricator_differential\' by default. You can change this namespace if you want. Normally, you should not do this unless you are developing Phabricator and using namespaces to separate multiple sandbox datasets.' => 'Phabricator, veritabanlarını varsayılan olarak \'phabricator\' olan bir ad alanına koyar -- örneğin, Diferansiyel veritabanı varsayılan olarak \'phabricator_differential\' olarak adlandırılır. İsterseniz bu ad alanını değiştirebilirsiniz. Normal olarak, Phabricator geliştirmiyor ve birden çok sanal alan veri kümesini ayırmak için ad alanları kullanmıyorsanız bunu yapmamalısınız.',
       'Formats' => 'Biçimler',
       'Ambiguous Leader' => 'Belirsiz Lider',
       'Config key "%s" is locked and can only be set in local configuration. To learn more, see "%s" in the documentation.' => '"%s" yapılandırma anahtarı kilitli ve yalnızca yerel yapılandırmada ayarlanabilir. Daha fazla bilgi için belgelerdeki "%s" başlığına bakın.',
@@ -187,35 +192,42 @@ final class PhabricatorConfigTr
       'This web host ("%s") is set to a very different time than a database host "%s".' => 'Bu web barındırıcısı ("%s") "%s" veritabanı barındırıcısından çok farklı bir zamana ayarlanmış.',
       'Send Mail To Each Recipient' => 'Her Alıcıya Posta Gönder',
       'The MySQL "local_infile" option is enabled. This option is unsafe.' => 'MySQL "local_infile" seçeneği etkin. Bu seçenek güvensizdir.',
+      'Either the schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.' => 'Elasticsearch için Phabricator şeması değişti veya Elasticsearch dizini otomatik olarak oluşturdu. Dizini yeniden oluşturmak için aşağıdaki komutu kullanın.',
       'Remove Custom Logo' => 'Özel Logoyu Kaldır',
       'No notification servers are configured.' => 'Hiçbir bildirim sunucusu yapılandırılmamış.',
       '(Not Supported)' => '(Desteklenmiyor)',
+      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
+    This software will work with the older driver, but upgrading to the native driver is recommended.
+    You may be able to install the native driver with a command like: %s' => 'PHP şu anda daha yeni MySQL yerel sürücüsü yerine eski MySQL harici sürücüsünü kullanıyor. Eski sürücü, Phabricator\'ın veritabanıyla daha iyi etkileşime girmesini sağlayan seçenekler ve özelliklerden (sorgu zaman aşımı desteği gibi) yoksundur.
+    Phabricator eski sürücü ile çalışacaktır, ancak yerel sürücüye yükseltme yapılması önerilir.
+    Yerel sürücüyü şu komutla yükleyebilirsiniz: %s',
       'Nonstandard port' => 'Standart dışı bağlantı noktası',
       'Don\'t embed Commons videos' => 'Commons videolarını yerleştirme',
       'This configuration has been removed. You can safely delete it.
     %s' => 'Bu yapılandırma kaldırıldı. Güvenli bir şekilde silebilirsiniz.
     %s',
       'Options relating to translations.' => 'Çeviri ile ilgili seçenekler.',
-      'You have \'%s\' enabled in your PHP configuration, but Phabricator will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
-    Disable safe mode to continue.' => 'PHP yapılandırmanızda \'%s\' etkin, ancak Phabricator güvenli modda çalışmaz. Güvenli mod PHP 5.3\'te kullanımdan kaldırılmış ve PHP 5.4\'te kaldırılmıştır.
-    Devam etmek için güvenli modu devre dışı bırakın.',
+      'Configure the UI, including colors.' => 'Renkler de dahil olmak üzere Phabricator kullanıcı arayüzünü yapılandırın.',
+      'The \'%s\' extension has support for only some image types. This server will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => '\'%s\' uzantısı yalnızca bazı resim türlerini destekliyor. Phabricator, siz onları destekleyerek \'%s\' oluşturana kadar eksik türdeki görüntüleri işleyemez. Desteklenen türler: %s. Eksik türler: %s.',
       'Use Private Replies (More Secure)' => 'Özel Yanıtları Kullan (Daha Güvenli)',
       'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'' => 'Tüm \'*.x.bak\' dosyasına \'.x\' olarak davranın. NOT: Eşlemeyi \'1\' olarak belirleyerek grup 1\'i yakalamak için eşleriz',
       'Other Services' => 'Diğer Hizmetler',
+      'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that this software imports or manages. This option is new and experimental.' => 'Daemon\'ları çalıştıracak bir sistem kullanıcısı belirtin. Öncelikle, bu kullanıcı Phabricator\'ın ithal ettiği veya yönettiği havuzların çalışma kopyalarına sahip olacaktır. Bu seçenek yeni ve deneyseldir.',
       'Send as User Taking Action' => 'Kullanıcı Olarak Eylemi Gönder',
       'Security options.' => 'Güvenlik seçenekleri.',
       'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => '"%s" seçeneği "%s" türündedir ve komut satırında JSON değer listesi olarak belirtilmelidir. Kabuğunuzun değerini belirtmeniz gerekebilir (örneğin: \'["a", "b", ...]\').',
       'Expected Unique' => 'Beklenen Benzersiz',
       'Old MySQL Version' => 'Eski MySQL Sürümü',
-      'If you have multiple Phabricator environments (like a development/staging environment for working on testing Phabricator, and a production environment for deploying it), set the production environment URI here so that emails and other durable URIs will always generate with links pointing at the production environment. If unset, defaults to `%s`. Most installs do not need to set this option.' => 'Birden fazla Phabricator ortamınız varsa (Phabricator\'ı test etmek için bir geliştirme/hazırlama ortamı ve dağıtmak için bir üretim ortamı gibi), burada üretim ortamı URI\'sini e-postaların ve diğer dayanıklı URI\'ların her zaman üretime işaret eden bağlantılarla üretecek şekilde ayarlayın ortamı. Ayarlanmazsa, varsayılan olarak `%s` olur. Çoğu kurulumun bu seçeneği ayarlaması gerekmez.',
       'Configuring a Preamble Script' => 'Bir Başlangıç Betik Yapılandırma',
       'Default Partition' => 'Varsayılan Bölüm',
       'Domain used for reply email addresses.' => 'Yanıt e-posta adresleri için kullanılan alan adı.',
       'You can find more information about rebuilding the search index here: %s' => 'Arama dizinini yeniden oluşturma hakkında daha fazla bilgiyi burada bulabilirsiniz: %s',
       'Prevent editing' => 'Düzenlemeyi önle',
       'Whitelist 1.2.3.*' => 'Beyaz liste 1.2.3.*',
+      'Control how user names are rendered in mail.' => 'Phabricator\'ın kullanıcı adlarını postada nasıl görüntüleyeceğini kontrol edin.',
       'This configuration is no longer relevant because daemons restart automatically on configuration changes.' => 'Bu yapılandırma artık ilgili değildir, çünkü arka plan yapılandırma değişikliklerinde arka plan otomatik olarak yeniden başlatılır.',
       'The Differential revision list view age UI elements have been removed to simplify the interface.' => 'Arayüzü basitleştirmek için Diferansiyel revizyon listesi görünüm yaşı kullanıcı arayüzü öğeleri kaldırıldı.',
+      'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be installed on an entire domain; it can not be installed on a path.' => '\'%s\' yapılandırma seçeneği geçersiz. URI\'nin bir yolu OLMAMALIDIR, ör. \'%s\' iyidir, ancak \'%s\' doğru değil. Phabricator tüm bir alana kurulmalıdır; bir yola kurulamaz.',
       'Separate values with newlines.' => 'Değerleri yeni satırlarla ayırın.',
       'Exception Handlers' => 'İstisna İşleyicileri',
       'This schema has the wrong nullable setting.' => 'Bu şema yanlış boş değer ayarına sahip.',
@@ -227,43 +239,42 @@ final class PhabricatorConfigTr
       'System user to run daemons as.' => 'Sistem kullanıcısı olarak daemonları çalıştıracak.',
       'Unknown schema status "%s"!' => 'Bilinmeyen şema durumu "%s"!',
       'MySQL May Run Slowly' => 'MySQL Yavaş Çalışabilir',
-      'Phabricator now manages typeahead strategies automatically.' => 'Phabricator artık daktilo stratejilerini otomatik olarak yönetiyor.',
       'Too many arguments: expected one key.' => 'Çok fazla argüman: beklenen bir anahtar.',
       'List of Users Without MFA' => 'MFA\'sız Kullanıcıların Listesi',
       'No "Host" header present in request.' => 'İstekte "Ana Bilgisayar" başlığı yok.',
       'Value for option "%s" of type "%s" must be either "true" or "false".' => '"%2$s" türündeki "%1$s" seçeneğinin değeri "true" veya "false" olmalıdır.',
+      'Storage engines are now discovered automatically at runtime.' => 'Phabricator artık çalışma zamanında kullanılabilir depolama motorlarını otomatik olarak keşfediyor.',
+      'This software appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. This software regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => 'Phabricator, bükülebilir CPU ile çok küçük bir EC2 örneğine ("%s" sınıfı) yüklenmiş gibi görünüyor. Bu kesinlikle önerilmez. Phabricator\'ın düzenli olarak CPU\'ya ihtiyacı vardır ve bu örnekler genellikle CPU kısıtlamasıyla boğulur. Bunun yerine normal CPU\'lu bir örnek kullanın.',
       'Footer configuration is not valid: value must be a list of items.' => 'Altbilgi yapılandırması geçerli değil: değer bir öğe listesi olmalıdır.',
       'Edit "%s"' => '"%s" düzenle',
       'Don\'t embed YouTube videos' => 'YouTube videolarını yerleştirme',
       'Disable PHP %s' => 'PHP %s devre dışı bırak',
       'Configure master encryption keys.' => 'Ana şifreleme anahtarlarını yapılandırın.',
       'Mailers Not Configured' => 'Yapılandırılmayan Postalar',
-      'Phabricator now has meaningful global access controls. See `%s`.' => 'Phabricator artık anlamlı küresel erişim denetimlerine sahiptir. `%s` bakın.',
+      'Daemons no longer use PID files.' => 'Phabricator arkaplan uygulamaları artık PID dosyalarını kullanmıyor.',
       'Database replica "%s" is listed as a replica, but is not currently replicating. You are vulnerable to data loss if the master fails.' => '"%s" veritabanı eşlemesi eşleme olarak listeleniyor, ancak şu anda eşlenmiyor. Master başarısız olursa veri kaybına karşı savunmasızsınız.',
       'Garbage Collectors' => 'Çöp Toplayıcılar',
       '%s edited this configuration entry.' => '%s bu yapılandırma girişini düzenledi.',
-      'Phabricator sent itself a test request with the "X-Phabricator-SelfCheck" header and expected to get a valid JSON response back. Instead, the response begins:
-    %s
-    Something is misconfigured or otherwise mangling responses.' => 'Phabricator, "X-Phabricator-SelfCheck" üstbilgisiyle bir test isteği gönderdi ve geçerli bir JSON yanıtı alması bekleniyor. Bunun yerine, yanıt başlar:
-    %s
-    Bir şey yanlış yapılandırılmış veya yanıtları başka şekillerde yönetiyor.',
-      'Enable Phabricator\'s debugging console.' => 'Phabricator\'ın hata ayıklama konsolunu etkinleştirin.',
+      'To enable the SSH log, specify a path. This log can provide more detailed information about SSH access than a normal SSH log (for instance, it can show logged-in users, commands, and other application data).
+    If not set, no log will be written.' => 'Phabricator SSH günlüğünü etkinleştirmek için bir yol belirtin. Erişim günlüğü, SSH erişimi hakkında normal bir SSH günlüğünden daha ayrıntılı bilgi sağlayabilir (örneğin, oturum açmış kullanıcıları, komutları ve diğer uygulama verilerini gösterebilir).
+    Ayarlanmazsa, günlük yazılmaz.',
       'Send Mail To All Recipients' => 'Tüm Alıcılara Posta Gönder',
+      'This software sent itself a test request with an unusual path, to test if your webserver is rewriting paths correctly. The path was not transmitted correctly.
+    This software sent a request to path "%s", and expected the webserver to decode and rewrite that path so that it received a request for "%s". However, it received a request for "%s" instead.
+    Verify that your rewrite rules are configured correctly, following the instructions in the documentation. If path encoding is not working properly you will be unable to access files with unusual names in repositories, among other issues.
+    (This problem can be caused by a missing "B" in your RewriteRule.)' => 'Phabricator, web sunucunuzun yolları doğru şekilde yeniden yazıp yazmadığını test etmek için alışılmadık bir yolla bir test isteği gönderdi. Yol doğru bir şekilde iletilmedi.
+    Phabricator, "%s" yoluna bir istek gönderdi ve web sunucusunun "%s" için bir istek alması için bu yolun kodunu çözmesini ve yeniden yazmasını bekledi. Ancak, bunun yerine "%s" için bir istek aldı.
+    Yeniden yazma kurallarınızın, belgelerdeki talimatları izleyerek doğru yapılandırıldığını doğrulayın. Yol kodlaması düzgün çalışmıyorsa, diğer sorunların yanı sıra depolarda olağandışı adlara sahip dosyalara erişemezsiniz.
+    (Bu soruna RewriteRule\'unuzdaki eksik "B" neden olabilir.)',
       'Your install has no current setup issues to resolve.' => 'Yüklemenizde çözülecek güncel kurulum sorunu yok.',
       'Subschemata Have Failures' => 'Subschemata Arızaları Var',
-      'This request included an invalid "Host" header, with value "%s". Host headers must contain a dot ("."), like "example.com". This is required for some browsers to be able to set cookies.
-    This may mean the base URI is configured incorrectly. You must serve Phabricator from a base URI with a dot (like "https://phabricator.mycompany.com"), not a bare domain (like "https://phabricator/"). If you are trying to use a bare domain, change your configuration to use a full domain with a dot in it instead.
-    This might also mean that your webserver (or some other network device, like a load balancer) is mangling the "Host" header, or you are using a tool or library to issue a request manually and setting the wrong "Host" header.
-    Requests must include a valid "Host" header.' => 'Bu istek, "%s" değerine sahip geçersiz bir "Ana Bilgisayar" başlığı içeriyordu. Ana bilgisayar üstbilgileri, "example.com" gibi bir nokta (".") İçermelidir. Bu, bazı tarayıcıların çerez ayarlayabilmesi için gereklidir.
-    Bu temel URI\'nin yanlış yapılandırıldığı anlamına gelebilir. Phabricator\'a çıplak bir alan adı değil ("https://phabricator/" gibi) değil, nokta içeren bir temel URI\'den ("https://phabricator.sirketim.com" gibi) hizmet vermelisiniz. Çıplak bir alan adı kullanmaya çalışıyorsanız, bunun yerine noktalı bir tam alan adı kullanmak için yapılandırmanızı değiştirin.
-    Bu aynı zamanda web sunucunuzun (veya yük dengeleyici gibi başka bir ağ aygıtının) "Ana Bilgisayar" başlığını yönettiği veya bir isteği manüel olarak vermek ve yanlış "Ana Bilgisayar" üstbilgisini ayarlamak için bir araç veya kitaplık kullandığınız anlamına da gelebilir.
-    İstekler, geçerli bir "Ana Bilgisayar" başlığı içermelidir.',
       'Save Config Entry' => 'Yapılandırma Girişini Kaydet',
       '%s of %s' => '%s - %s',
       'Setup MySQL Schema' => 'MySQL Şemasını Kur',
       ' (%s)' => ' (%s)',
       'Not Available' => 'Mevcut Değil',
-      'This option has been removed, you can use Dashboards to provide homepage customization. See T11533 for more details.' => 'Bu seçenek kaldırıldı, ana sayfa özelleştirmesi sağlamak için Gösterge Tabloları\'nı kullanabilirsiniz. Daha fazla bilgi için T11533\'e bakın.',
+      'If those commands don\'t work, try Google. The process of installing PHP extensions is not specific to this software, and any instructions you can find for installing them on your system should work. On Mac OS X, you might want to try Homebrew.' => 'Bu komutlar işe yaramazsa Google\'ı deneyin. PHP uzantılarını yükleme işlemi Phabricator\'a özgü değildir ve bunları sisteminize yüklemek için bulabileceğiniz tüm talimatlar çalışmalıdır. Mac OS X\'te Homebrew\'u denemek isteyebilirsiniz.',
+      'This option has been removed, you can use Dashboards to provide homepage customization. See T11533 for more details.' => 'Bu seçenek kaldırıldı, anasayfa özelleştirmesi sağlamak için Gösterge Tabloları\'nı kullanabilirsiniz. Daha fazla bilgi için T11533\'e bakın.',
       'Data Cache' => 'Veri Önbelleği',
       'Configure the access logs, which log HTTP/SSH requests.' => 'HTTP/SSH isteklerini kaydeden erişim günlüklerini yapılandırın.',
       '%ss Behind' => '%s Arkasında',
@@ -271,19 +282,24 @@ final class PhabricatorConfigTr
       'Blacklist subnets to prevent user-initiated outbound requests.' => 'Kullanıcı tarafından başlatılan giden istekleri önlemek için alt ağları kara listeye alın.',
       'No Outbound Requests' => 'Giden İstek Yok',
       'Primary install URI, for multi-environment installs.' => 'Çok ortamlı yüklemeler için birincil yükleme URI\'si.',
-      'The mapping from VCS users to Phabricator users has changed and must be rebuilt.' => 'VCS kullanıcılarından Phabricator kullanıcılarına eşleme değişti ve yeniden oluşturulması gerekiyor.',
+      'Global access controls now exist, see `%s`.' => 'Phabricator artık anlamlı küresel erişim denetimlerine sahiptir. `%s` bakın.',
       'Whitelists editor protocols for "Open in Editor".' => '"Editör\'de Aç" için beyaz listeler düzenleyici protokolleri.',
+      'Unable to connect to MySQL!
+    %s
+    Make sure databases connection information and MySQL are correctly configured.' => 'Mysql\'e bağlanılamıyor!
+    %s
+    Phabricator ve MySQL\'in doğru yapılandırıldığından emin olun.',
       'The "Re: Prefix" and "Vary Subjects" settings are now configured in global settings.' => '"Re: Prefix" ve "Vary Subject" ayarları artık genel ayarlarda yapılandırıldı.',
       'You have no unresolved setup issues.' => 'Çözümlenmemiş kurulum sorunlarınız yok.',
       'This configuration is hidden and can not be edited or viewed from the web interface.' => 'Bu yapılandırma gizlidir ve web arayüzünden düzenlenemez veya görüntülenemez.',
       'Local Disk Storage Not Readable/Writable' => 'Yerel Disk Depolama Okunabilir/Yazılabilir Değil',
       'Override translations.' => 'Çevirileri geçersiz kıl.',
       'Cluster Configuration Out of Sync' => 'Küme Yapılandırması Senkronize Değil',
+      'Cookies set for x.com are also sent for y.x.com. Assuming instances are running on both domains, this will create a collision preventing you from logging in.' => 'x.com için ayarlanan çerezler de y.x.com için gönderilir. Phabricator örneklerinin her iki alanda da çalıştığını varsayarsak, bu, oturum açmanızı engelleyen bir çarpışma oluşturur.',
       'This option has been removed. You may delete it at your convenience.' => 'Bu seçenek kaldırıldı. İstediğiniz zaman silebilirsiniz.',
       'You can find more information about this new identity mapping here: %s' => 'Bu yeni kimlik haritalaması hakkında daha fazla bilgiyi burada bulabilirsiniz: %s',
       'After rebuilding the index, run this command to clear this setup warning:' => 'Dizini yeniden oluşturduktan sonra, bu kurulum uyarısını silmek için şu komutu çalıştırın:',
       'Footer item with index "%s" is invalid: %s' => '"%s" dizinine sahip altbilgi öğesi geçersiz: %s',
-      'Phabricator Version Information' => 'Phabricator Sürümü Bilgisi',
       'Unknown Configuration Option "%s"' => 'Bilinmeyen Yapılandırma Seçeneği "%s"',
       'Truncate at 1MB' => '1 MB\'ta kes',
       'Access key for Amazon S3.' => 'Amazon S3 için erişim anahtarı.',
@@ -292,6 +308,7 @@ final class PhabricatorConfigTr
       'This key is expected to exist, but does not.' => 'Bu anahtarın olması beklenir, ancak yoktur.',
       'Persistence' => 'Süreklilik',
       'This schema is expected to exist, but does not.' => 'Bu şemanın olması bekleniyor, ancak yok.',
+      'You can provide a custom highlighter engine by extending class %s.' => 'Phabricator, varsayılan olarak PHP\'yi vurgulayabilir ve etkinleştirilirse diğer diller için Pygments\'ı kullanabilir. %s sınıfını genişleterek özel bir vurgulayıcı motoru sağlayabilirsiniz.',
       'Do Not Use Pygments' => 'Pigment Kullanmayın',
       'Up to Date' => 'Güncel',
       'Configure core options, including URIs.' => 'URI\'ler dahil temel seçenekleri yapılandırın.',
@@ -303,56 +320,65 @@ final class PhabricatorConfigTr
       'Bad "Host" Header' => 'Bozuk "Ana Bilgisayar" Başlığı',
       'Option "%s" is of type "%s", but the item at index "%s" of the list is not a string.' => '"%s" seçeneği "%s" türündedir, ancak listenin "%s" dizinindeki öğe bir dize değildir.',
       'MySQL port to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL portu.',
-      'URI where Phabricator is installed.' => 'Phabricator\'ın kurulu olduğu URI.',
       'Trying to add duplicate key "%s"!' => 'Yinelenen anahtar "%s" eklenmeye çalışılıyor!',
       'Option "%s" is of type "%s", but the configured value is not a string.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bir dize değildir.',
       'User Guide: Amazon RDS' => 'Kullanım Kılavuzu: Amazon RDS',
       'Repository %s has an ambiguous leader.' => '%s deponun belirsiz bir lideri var.',
+      'When you upload a file via drag-and-drop or the API, chunks must be buffered into memory before being written to permanent storage. This server needs memory available to store these chunks while they are uploaded, but PHP is currently configured to severely limit the available memory.
+    PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
+    (Note that the application itself must also fit in available memory, so not all of the memory under the memory limit is available for running workloads.)
+    The easiest way to resolve this issue is to set %s to %s in your PHP configuration, to disable the memory limit. There is usually little or no value to using this option to limit process memory.
+    You can also increase the limit or ignore this issue and accept that you may encounter problems uploading large files and processing large requests.' => 'Sürükle ve bırak veya API yoluyla bir dosya yüklediğinizde, parçalar kalıcı depolama alanına yazılmadan önce belleğe alınmalıdır. Phabricator, yüklenirken bu parçaları saklamak için belleğe ihtiyaç duyar, ancak PHP şu anda kullanılabilir belleği ciddi şekilde sınırlayacak şekilde yapılandırılmıştır.
+    PHP işlemleri şu anda çok az boş hafıza alanına sahiptir (%s). İyi çalışmak için süreçlerin en az %s olması gerekir.
+    (Uygulamanın kendisinin de kullanılabilir belleğe sığması gerektiğini unutmayın, bu nedenle bellek sınırının altındaki belleğin tamamı iş yüklerini çalıştırmak için kullanılamaz.)
+    Bu sorunu çözmenin en kolay yolu, PHP yapılandırmanızda bellek sınırını devre dışı bırakmak için %s %s ayarlamaktır. Phabricator işlem belleğini sınırlamak için bu seçeneğin kullanılmasında genellikle çok az değer vardır veya hiç değer yoktur.
+    Ayrıca sınırı artırabilir veya bu sorunu göz ardı edebilir ve büyük dosyaların yüklenmesi ve büyük isteklerin işlenmesi ile ilgili sorunlarla karşılaşabileceğinizi kabul edebilirsiniz.',
       'Configuration of the notification server has changed substantially. For discussion, see T10794.' => 'Bildirim sunucusunun yapılandırması önemli ölçüde değişti. Tartışma için T10794\'e bakınız.',
       'Read option value from stdin.' => 'Seçenek değerini stdin\'den okuyun.',
       'Database source is not configured properly' => 'Veritabanı kaynağı düzgün yapılandırılmamış',
-      'Phabricator sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
-    This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'Phabricator, "Accept-Encoding: gzip" ile bir istek gönderdi, ancak sıkıştırılmamış bir yanıt aldı.
-    Bu, web sunucunuzun yanıtları sıkıştırmak için yapılandırılmadığını gösterebilir. Öyleyse sıkıştırmayı etkinleştirmelisiniz. Sıkıştırma, özellikle daha az bant genişliğine sahip müşteriler için performansı önemli ölçüde artırabilir.',
       'Don\'t Require Manual Approval' => 'Manüel Onay Gerektirmez',
       'Column Type' => 'Sütun Türü',
       'Truncate at 512KB' => '512KB\'de kısalt',
-      'Should Phabricator use Pygments to highlight code?' => 'Phabricator, kodu vurgulamak için Pygment\'leri kullanmalı mı?',
       'Cache' => 'Önbellek',
       'Automatically profile some percentage of pages.' => 'Sayfaların bazı yüzdelerini otomatik olarak profillendirin.',
+      'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. This software can not determine the correct endpoint automatically because some endpoint locations are irregular.' => 'Kullanmak için açık S3 uç noktası. Bu, `amazon-s3.region` da seçtiğiniz bölgeye karşılık gelen uç nokta olmalıdır. Bazı uç nokta konumları düzensiz olduğundan, Phabricator doğru uç noktasını otomatik olarak belirleyemez.',
       'Admin Server' => 'Yönetici Sunucusu',
       'Wrong Column Type' => 'Yanlış Sütun Türü',
       'Embed YouTube videos' => 'YouTube videolarını gömme',
       'Add One Path' => 'Bir Yol Ekle',
-      'You haven\'t configured mailers yet, so Phabricator won\'t be able to send outbound mail or receive inbound mail. See the configuration setting cluster.mailers for details.' => 'Henüz postaları yapılandırmadınız, bu nedenle Phabricator giden posta gönderemez veya gelen posta alamaz. Ayrıntılar için cluster.mailers yapılandırma ayarına bakın.',
       'Clear Cache' => 'Önbelleği Temizle',
       'MySQL Native Driver Not Available' => 'MySQL Yerel Sürücüsü Kullanılamıyor',
       'Unignore this setup issue?' => 'Bu kurulum sorununu yoksayı kaldırılsın mı?',
       'Configure Mail.' => 'Postayı Yapılandır.',
       'You can update these %d value(s) here:' => 'Bu %s değerini buradan güncelleyebilirsiniz:',
       'Notification Servers' => 'Bildirim Sunucuları',
+      'To enable the HTTP access log, specify a path. This log is more detailed than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
+    If not set, no log will be written.' => 'Phabricator erişim günlüğünü etkinleştirmek için bir yol belirtin. Phabricator erişimi normal HTTP erişim günlüklerine göre (örneğin, oturum açmış kullanıcıları, denetleyicileri ve diğer uygulama verilerini gösterebilir).
+    Ayarlanmazsa, günlük yazılmaz.',
       'extname' => 'extname',
       'Enable captchas with Recaptcha.' => 'Recaptcha ile captcha\'ları etkinleştirin.',
       'Add Multiple Paths' => 'Birden Çok Yol Ekle',
       'Specify an activity to mark as completed.' => 'Tamamlandı olarak işaretlemek için bir etkinlik belirtin.',
-      'The environmental variable %s is empty. Phabricator needs to execute some system commands, like `%s`, `%s`, `%s`, and `%s`. To execute these commands, the binaries must be available in the webserver\'s %s. You can set additional paths in Phabricator configuration.' => 'Çevresel değişken %s boş. Phabricator\'ın `%s`, `%s`, `%s` ve `%s` gibi bazı sistem komutlarını yürütmesi gerekir. Bu komutları yürütmek için, ikili dosyaların web sunucusunun %s mevcut olması gerekir. Phabricator yapılandırmasında ek yollar ayarlayabilirsiniz.',
-      'Set the URI where Phabricator is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.' => 'Phabricator\'ın kurulu olduğu URI\'yı ayarlayın. Bunu ayarlamak, çerezlerin diğer alanlarda ayarlanmasını önleyerek güvenliği artırır ve artalanların doğru etki alanına sahip bağlantıları olan e-postalar göndermesine izin verir.',
-      'Define a Phabricator cluster by providing a whitelist of host addresses that are part of the cluster.
-    Hosts on this whitelist have special powers. These hosts are permitted to bend security rules, and misconfiguring this list can make your install less secure. For more information, see **[[ %s | %s ]]**.
-    Define a list of CIDR blocks which whitelist all hosts in the cluster and no additional hosts. See the examples below for details.
-    When cluster addresses are defined, Phabricator hosts will also reject requests to interfaces which are not whitelisted.' => 'Kümenin parçası olan ana bilgisayar adreslerinin bir beyaz listesini sağlayarak bir Phabricator kümesi tanımlayın.
-    Bu beyaz listedeki sunucuların özel yetkileri vardır. Bu ana makinelerin güvenlik kurallarını bükmesine izin verilir ve bu listenin yanlış yapılandırılması yüklemenizi daha az güvenli hale getirebilir. Daha fazla bilgi için, **[[ %s | %s ]]** sayfasına bakın.
-    Kümedeki tüm ana bilgisayarları beyaz listeye ekleyen ve ek ana bilgisayar içermeyen CIDR bloklarının bir listesini tanımlayın. Ayrıntılar için aşağıdaki örneklere bakın.
-    Küme adresleri tanımlandığında, Phabricator ana bilgisayarları da beyaz listedeki olmayan arabirimlere yönelik istekleri reddeder.',
+      'By default, this software links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Varsayılan olarak, Phabricator Yeniden Açıklama alanlarındaki nesne adlarını ilgili nesneye bağlar. Bu normal ifade bu davranışı değiştirmek için kullanılabilir; bu normal ifadeyle eşleşen nesne adları bağlanmayacak.',
       'This server has a known bad version of "%s".' => 'Bu sunucunun bilinen bir "%s" sürümü var.',
       'Require DarkConsole Activation' => 'DarkConsole Aktivasyonu Gerektir',
       'Notifications Status' => 'Bildirim Durumu',
       'Current Configuration' => 'Geçerli Yapılandırma',
       'Replicating Master' => 'Master Kopyalama',
+      'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
+    Upgrade %s to a patched version.
+    To learn more about how this issue affects this software, see %s.' => 'Bu sistemdeki %s sürümü güncel değil ve büyük, geniş ölçüde açıklanan büyük bir güvenlik açığı içeriyor ("Shellshock" güvenlik açığı).
+    %s yamalı bir sürüme yükseltin.
+    Bu sorunun Phabricator\'ı nasıl etkilediği hakkında daha fazla bilgi için %s bakın.',
       'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Yapılandırılmış bir saat dilimi olmadan PHP, tarihlerle çalışırken uyarılar gönderir ve tarihler ve saatler doğru görüntülenmeyebilir.',
       'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => '"%s" seçeneği "%s" türündedir ve geçerli normal ifadeler listesine ayarlanmalıdır, ancak "%s" geçerli bir normal ifade değildir.',
       'This schema can use a better character set.' => 'Şema daha iyi bir karakter seti kullanabilir.',
       'Configuration value "%s" is locked, but has a value in the database.' => '"%s" konfigürasyon değeri kullanılamıyor ancak veritabanında bir değeri var.',
+      'Newly registered accounts can either be placed into a manual approval queue for administrative review, or automatically activated immediately. The approval queue is enabled by default because it gives you greater control over who can register an account and access the server.
+    If your install is completely public, or on a VPN, or users can only register with a trusted provider like LDAP, or you\'ve otherwise configured the server to prevent unauthorized registration, you can disable the queue to reduce administrative overhead.
+    NOTE: Before you disable the queue, make sure @{config:auth.email-domains} is configured correctly for your install!' => 'Yeni kaydedilen Phabricator hesapları, yönetim incelemesi için manüel onay kuyruğuna yerleştirilebilir veya hemen otomatik olarak etkinleştirilebilir. Onay kuyruğu varsayılan olarak etkindir, çünkü bir hesabı kimlerin kaydedebileceği ve Phabricator\'a erişebileceği üzerinde daha fazla kontrol sağlar.
+    Yüklemeniz tamamen herkese açıksa veya bir VPN\'de ise veya kullanıcılar yalnızca LDAP gibi güvenilir bir sağlayıcıya kaydolabilirse veya Phabricator\'ı yetkisiz kaydı önlemek için başka bir şekilde yapılandırdıysanız, yönetim yükünü azaltmak için kuyruğu devre dışı bırakabilirsiniz.
+    NOT: Kuyruğu devre dışı bırakmadan önce, yüklemeniz için @{config:auth.email-domains} doğru yapılandırıldığından emin olun!',
       'Determines whether or not YouTube videos get embedded.' => 'Youtube videolarının gömülü olup olmayacağına karar verir.',
       'Allows you to add a footer with links in it to most pages. You might want to use these links to point at legal information or an about page.
     Specify a list of dictionaries. Each dictionary describes a footer item. These keys are supported:
@@ -363,7 +389,11 @@ final class PhabricatorConfigTr
       - `href` İsteğe bağlı olarak, öğenin bağlantı hedefi. Bir telif hakkı bildirimi gibi bir metin parçası istiyorsanız bunu atlayabilirsiniz.',
       'The known issues with this old version are:' => 'Eski versiyondaki bilinen sorunlar şunlardır:',
       'Not Enabled' => 'Etkinleştirilmedi',
+      'This software sent itself a test request with an "Authorization" HTTP header, and expected those credentials to be transmitted. However, they were absent or incorrect when received. This software sent username "%s" with password "%s"; received username "%s" and password "%s".
+    Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.' => 'Phabricator, kendisine "Yetkilendirme" HTTP üstbilgisi ile bir test isteği gönderdi ve bu kimlik bilgilerinin iletilmesini bekledi. Bununla birlikte, alındıklarında eksik veya yanlıştılar. Phabricator "%2$s" parolası ile "%1$s" kullanıcı adını gönderdi; "%s" kullanıcı adı ve "%s" parolasını aldı.
+    Web sunucunuz HTTP temel kimlik doğrulamasını iletecek şekilde yapılandırılmamış olabilir. Temel kimlik doğrulamayı kullanmayı planlıyorsanız (örneğin, depolara erişmek için) yeniden yapılandırmanız gerekir.',
       'If you are using Amazon RDS, some of the instructions above may not apply to you. See %s for discussion of Amazon RDS.' => 'Amazon RDS kullanıyorsanız, yukarıdaki bazı talimatlar size uymayabilir. Bunun için Amazon RDS\'deki %s tartışmasına bakın.',
+      'Controls whether email is sent "From" users.' => 'Phabricator\'ın "Kimden" kullanıcılarına e-posta gönderip göndermeyeceğini denetler.',
       'The notification server no longer requires root permissions. Start the server as the user you want it to run under.' => 'Bildirim serveri artık root izinlerini gerektirmiyor. Serveri altında çalışmasını istediğiniz kullanıcı ile başlatın.',
       'This issue will no longer be suppressed, and will return to its rightful place as a global setup warning.' => 'Bu sorun artık bastırılmayacak ve genel kurulum uyarısı olarak doğru yerine dönecektir.',
       'Allows you to remove levity and jokes from the UI.' => 'Kullanıcı arayüzünden düzensizlik ve şakaları kaldırmanıza olanak tanır.',
@@ -383,161 +413,71 @@ final class PhabricatorConfigTr
     We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'Eski bir MySQL sürümü kullanıyorsunuz ("%s" sunucusunda) ve unicode desteği zayıf ("utf8mb4" harmanlama kümesini desteklemiyor). Bazı unicode verilerle çalışırken sınırlamalarla karşılaşacaksınız.
     MySQL 5.5 veya daha yeni bir sürüme geçmenizi önemle tavsiye ederiz.',
       'Trying to add duplicate column "%s"!' => '"%s" sütununu eklemeye çalışıyor!',
-      'The Multimeter application collects performance samples. You can use this data to help you understand what Phabricator is spending time and resources doing, and to identify problematic access patterns.
-    This option controls how frequently sampling activates. Set it to some positive integer N to sample every 1 / N pages.
-    For most installs, the default value (1 sample per 1000 pages) should collect enough data to be useful without requiring much storage or meaningfully impacting performance. If you\'re investigating performance issues, you can adjust the rate in order to collect more data.' => 'Multimetre uygulaması performans örnekleri toplar. Bu verileri, Phabricator\'ın zaman ve kaynak için ne harcadığını anlamanıza ve sorunlu erişim modellerini tanımlamanıza yardımcı olması için kullanabilirsiniz.
-    Bu seçenek, örneklemenin ne sıklıkta etkinleştirileceğini denetler. Her 1 / N sayfayı örneklemek için bazı pozitif tamsayı N\'ye ayarlayın.
-    Çoğu yükleme için varsayılan değer (1000 sayfa başına 1 örnek) fazla depolama alanı gerektirmeden veya performansı önemli ölçüde etkilemeden yararlı olacak yeterli veri toplamalıdır. Performans sorunlarını araştırıyorsanız, daha fazla veri toplamak için hızı ayarlayabilirsiniz.',
       'Minimum password length.' => 'Minimum parola uzunluğu.',
       'Required PHP extensions are not installed.' => 'Gerekli PHP uzantıları kurulu değil.',
       'Database' => 'Veritabanı',
       'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.' => 'SAĞLIKSIZ: Bu veritabanı son sağlık kontrollerinde başarısız oldu. Trafik kurtarılana kadar ona gönderilmez.',
       'Request input, in bytes.' => 'Bayt cinsinden girdi iste.',
+      'PHP 7 Compatibility Information' => 'Phabricator PHP 7 Uyumluluk Bilgisi',
       'You enabled pygments but the %s script is not actually available, your %s is probably broken.' => 'Pigmentleri etkinleştirdiniz, ancak %s betiği aslında kullanılamıyor, %s muhtemelen bozuk.',
       'Application Settings' => 'Uygulama Ayarları',
       'Show email preferences link in email.' => 'E-postada e-posta tercihleri bağlantısını göster.',
       'Your webserver may have compression disabled.' => 'Web sunucunuzda sıkıştırma devre dışı bırakılmış olabilir.',
-      'Alternative URIs that can access Phabricator.' => 'Phabricator\'a erişebilen alternatif URI\'ler.',
-      'After editing the PHP configuration, <strong>restart Phabricator for the changes to take effect</strong>. For help with restarting Phabricator, see %s in the documentation.' => 'PHP yapılandırmasını düzenledikten sonra, <strong>değişikliklerin etkili olması için Phabricator\'ı yeniden başlatın</strong>. Phabricator\'ı yeniden başlatmayla ilgili yardım için belgelerdeki %s bakın.',
+      'The configured PATH includes a component which is not usable. This server will be unable to find or execute binaries located here:
+    %s
+    The user that the webserver runs as must be able to read all the directories in PATH in order to make use of them.' => 'Yapılandırma edilen PATH, kullanılamayan bir bileşen içerir. Phabricator, burada bulunan ikili dosyaları bulamaz veya yürütemez:
+    %s
+    Web sunucusunun çalıştığı kullanıcı, bundan faydalanabilmek için PATH içindeki tüm dizinleri okuyabilmelidir.',
       'You can set a limit for the maximum byte size of outbound mail. Mail which is larger than this limit will be truncated before being sent. This can be useful if your MTA rejects mail which exceeds some limit (this is reasonably common). Specify a value in bytes.' => 'Giden postanın maksimum bayt boyutu için bir sınır belirleyebilirsiniz. Bu sınırdan daha büyük olan postalar gönderilmeden önce kesilir. MTA\'nız bir sınırı aşan postaları reddederse (bu oldukça yaygındır) bu yararlı olabilir. Bayt cinsinden bir değer belirleyin.',
       'Multiple %s subclasses have the same key (\'%s\'): %s, %s.' => 'Birden fazla %s alt sınıfı aynı anahtara (\'%s\') sahiptir: %s, %s.',
       'Your webserver is rewriting paths improperly.' => 'Web sunucunuz yolları yanlış yeniden yazıyor.',
+      'You can rebuild repository identities while the server is running.' => 'Phabricator çalışırken depo kimliklerini yeniden oluşturabilirsiniz.',
+      'Customize the logo image and text which appears in the main site header:
+      - **Logo Image**: Upload a new 80 x 80px image to replace the logo in the site header.
+      - **Wordmark**: Choose new text to display next to the logo. By default, the header displays //%s//.
+    ' => 'Ana site başlığında görünen logo resmini ve metni özelleştirin:
+      - **Logo Resmi**: Site başlığındaki Phabricator logosunu değiştirmek için yeni bir 80 x 80 piksel resim yükleyin.
+      - **Marka**: Logonun yanında görüntülenecek yeni metni seçin. Varsayılan olarak, başlıkta //Phabricator// görüntülenir.',
       'Trying to add duplicate table "%s"!' => 'Yinelenen tablo "%s" eklemeye çalışıyor!',
       'No Authentication Providers Configured' => 'Yapılandırılmış Kimlik Doğrulama Sağlayıcısı Yok',
       'Run Silently' => 'Sessizce Çalıştır',
       'You can find more information about PHP configuration values in the %s.' => 'PHP yapılandırma değerleri hakkında daha fazla bilgiyi %s içinde bulabilirsiniz.',
       'Skipping option "%s"; already in local config.' => '"%s" atlama seçeneği; zaten yerel yapılandırmada.',
-      'Cookies set for x.com are also sent for y.x.com. Assuming Phabricator instances are running on both domains, this will create a collision preventing you from logging in.' => 'x.com için ayarlanan çerezler de y.x.com için gönderilir. Phabricator örneklerinin her iki alanda da çalıştığını varsayarsak, bu, oturum açmanızı engelleyen bir çarpışma oluşturur.',
       'Public email is now accepted if the associated address has a default author, and rejected otherwise.' => 'İlişkili adresin varsayılan bir yazarı varsa genel e-posta kabul edilir ve aksi halde reddedilir.',
       'Setup Issues' => 'Kurulum sorunları',
       'Require email verification' => 'E-posta doğrulaması gerektir',
       'Resource minification is now managed automatically.' => 'Kaynak küçültme artık otomatik olarak yönetiliyor.',
       'Whitespace rendering is now handled automatically.' => 'Beyaz alan oluşturma artık otomatik olarak gerçekleştiriliyor.',
       '%s Not Working' => '%s Çalışmıyor',
+      'This configuration option is unknown. It may be misspelled, or have existed in a previous version of the software.' => 'Bu yapılandırma seçeneği bilinmiyor. Yanlış yazılmış olabilir veya Phabricator\'ın önceki bir sürümünde mevcut olabilir.',
       'You can use \'%s\' if you don\'t want to create a full translation to give users an option for switching to it and you just want to override some strings in the default translation.' => 'Kullanıcılara geçiş yapma seçeneği sunmak için tam bir çeviri oluşturmak istemiyorsanız ve yalnızca varsayılan çevirideki bazı dizeleri geçersiz kılmak istiyorsanız \'%s\' kullanabilirsiniz.',
-      'Phabricator appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. Phabricator regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => 'Phabricator, bükülebilir CPU ile çok küçük bir EC2 örneğine ("%s" sınıfı) yüklenmiş gibi görünüyor. Bu kesinlikle önerilmez. Phabricator\'ın düzenli olarak CPU\'ya ihtiyacı vardır ve bu örnekler genellikle CPU kısıtlamasıyla boğulur. Bunun yerine normal CPU\'lu bir örnek kullanın.',
-      'Phabricator sent itself a test request with an HTTP GET parameter, but the parameter was not transmitted. Sent "%s" with value "%s", got "%s" with value "%s".
-    Your webserver is configured incorrectly and large parts of Phabricator will not work until this issue is corrected.
-    (This problem can be caused by a missing "QSA" in your RewriteRule.)' => 'Phabricator, bir HTTP GET parametresi ile kendisine bir test isteği gönderdi, ancak parametre iletilmedi. "%2$s" değeri ile "%1$s" gönderilen, "%4$s" değeri ile "%3$s" var.
-    Web sunucunuz yanlış yapılandırılmış ve bu sorun düzeltilene kadar Phabricator\'ın büyük bölümleri çalışmayacak.
-    (Bu soruna RewriteRule dosyanızdaki eksik "QSA" neden olabilir.)',
       'Connection' => 'Bağlantı',
       'Placeholder recipients are now generated automatically.' => 'Yer tutucu alıcılar artık otomatik olarak oluşturuluyor.',
+      'Elasticsearch is configured (with the %s setting) but an exception was encountered when trying to test the index.
+    %s' => 'Elasticsearch yapılandırıldı (%s ayarıyla), ancak Phabricator dizini test etmeye çalışırken bir istisna ile karşılaştı.
+    %s',
       'SSH keys are now actually useful, so they are always enabled.' => 'SSH anahtarları artık gerçekten kullanışlıdır, bu nedenle her zaman etkindir.',
       'Request output, in bytes.' => 'Bayt cinsinden çıkış isteyin.',
       'Configure integration with AWS (EC2, SES, S3, etc).' => 'AWS (EC2, SES, S3, vb.) ile entegrasyonu yapılandırın.',
       'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => '\'%s\' yapılandırma seçeneği geçersiz. URI sadece \'%3$s\' gibi çıplak bir isim değil, \'%2$s\' gibi bir nokta (\'.\') içermelidir. Bazı web tarayıcıları, TLD bulunmayan alanlarda çerez ayarlamaz.',
+      'The Multimeter application collects performance samples. You can use this data to help you understand what the software is spending time and resources doing, and to identify problematic access patterns.
+    This option controls how frequently sampling activates. Set it to some positive integer N to sample every 1 / N pages.
+    For most installs, the default value (1 sample per 1000 pages) should collect enough data to be useful without requiring much storage or meaningfully impacting performance. If you\'re investigating performance issues, you can adjust the rate in order to collect more data.' => 'Multimetre uygulaması performans örnekleri toplar. Bu verileri, Phabricator\'ın zaman ve kaynak için ne harcadığını anlamanıza ve sorunlu erişim modellerini tanımlamanıza yardımcı olması için kullanabilirsiniz.
+    Bu seçenek, örneklemenin ne sıklıkta etkinleştirileceğini denetler. Her 1 / N sayfayı örneklemek için bazı pozitif tamsayı N\'ye ayarlayın.
+    Çoğu yükleme için varsayılan değer (1000 sayfa başına 1 örnek) fazla depolama alanı gerektirmeden veya performansı önemli ölçüde etkilemeden yararlı olacak yeterli veri toplamalıdır. Performans sorunlarını araştırıyorsanız, daha fazla veri toplamak için hızı ayarlayabilirsiniz.',
       'Cache namespace.' => 'Önbellek ad alanı.',
       '%s = 0' => '%s = 0',
       'Unsafe PHP "Local Infile" Configuration' => 'Güvensiz PHP "Yerel Dosya" Yapılandırması',
       'Custom remarkup rules are now added by subclassing %s or %s.' => 'Özel yeniden pazarlama kuralları artık %s veya %s alt sınıflandırma ile eklenmektedir.',
-      'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in the Phabricator configuration.' => '\'%s\' ikili dosyası bulunamadı. \'%s\' simgesine dokunun veya web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya Phabricator yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
       'Issue Resolved' => 'Sorun Çözüldü',
       'If you enable this, linked Commons videos will be embedded inline.' => 'Bunu etkinleştirirseniz, bağlı Commons videoları satır içine gömülür.',
-      'Allow Phabricator to use a single mailbox for all replies.' => 'Phabricator\'ın tüm yanıtlar için tek bir posta kutusu kullanmasına izin ver.',
       'Garbage collectors are now configured with "%s".' => 'Çöp toplayıcılar artık "%s" ile yapılandırıldı.',
       'Unknown configuration option type "%s".' => 'Bilinmeyen yapılandırma seçeneği türü "%s".',
       'Trying to add duplicate database "%s"!' => 'Yinelenen veritabanı "%s" eklemeye çalışıyor!',
       'This column has the wrong autoincrement setting.' => 'Bu sütun yanlış otomatik ayar ayarına sahip.',
       'Allows you to add footer links on most pages.' => 'Çoğu sayfaya altbilgi bağlantısı eklemenizi sağlar.',
       'USWest Region' => 'USWest Bölgesi',
-      'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Manifest alanları artık "%s" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.',
-      'Enable Prototypes' => 'Prototipleri Etkinleştir',
-      'Elasticsearch is now configured with "%s".' => 'Elasticsearch artık "%s" ile yapılandırıldı.',
-      'Configuring Outbound Email' => 'Giden E-postayı Yapılandırma',
-      'Inbound mail addresses are now configured for each application in the Applications tool.' => 'Gelen posta adresleri artık Uygulamalar aracındaki her uygulama için yapılandırılmıştır.',
-      'Partial \'%s\' Support' => 'Kısmi \'%s\' Desteği',
-      'Subschemata have setup warnings.' => 'Subschemata kurulum uyarılarına sahiptir.',
-      'Uptime' => 'Çalışma süresi',
-      'Normally, Phabricator profiles pages only when explicitly requested via DarkConsole. However, it may be useful to profile some pages automatically.
-    Set this option to a positive integer N to profile 1 / N pages automatically. For example, setting it to 1 will profile every page, while setting it to 1000 will profile 1 page per 1000 requests (i.e., 0.1%% of requests).
-    Since profiling is slow and generates a lot of data, you should set this to 0 in production (to disable it) or to a large number (to collect a few samples, if you\'re interested in having some data to look at eventually). In development, it may be useful to set it to 1 in order to debug performance problems.
-    NOTE: You must install XHProf for profiling to work.' => 'Normalde Phabricator, sayfaları yalnızca DarkConsole aracılığıyla açıkça istendiğinde profil oluşturur. Ancak, bazı sayfaların otomatik olarak profillenmesi yararlı olabilir.
-    Bu seçeneği otomatik olarak profil 1 / N sayfalarına pozitif bir N tamsayısına ayarlayın. Örneğin, 1 olarak ayarlandığında her sayfa profillenirken, 1000 olarak ayarlandığında 1000 istek başına 1 sayfa (yani, isteklerin %%0.1\'i) profillenir.
-    Profil oluşturma yavaş olduğundan ve çok fazla veri oluşturduğundan, bunu üretimde 0 olarak (devre dışı bırakmak için) veya çok sayıda olarak ayarlamanız gerekir (sonunda örnek olarak bakmak için bazı verilerinizle ilgileniyorsanız birkaç örnek toplamak için). Geliştirme sırasında, performans sorunlarını ayıklamak için 1\'e ayarlamak yararlı olabilir.
-    NOT: Profil oluşturmanın çalışması için XHProf\'u yüklemeniz gerekir.',
-      'MySQL (on host "%s") is using a default stopword file, which will prevent searching for many common words.' => 'MySQL ("%s" sunucusunda), birçok yaygın kelimeyi aramayı engelleyecek varsayılan bir parola dosyası kullanıyor.',
-      'Two setup checks raised an issue with key \'%s\'!' => 'İki kurulum denetimi \'%s\' tuşuyla ilgili bir sorun yarattı!',
-      'Mark activities complete even if there is no outstanding need to complete them.' => 'Tamamlamak için olağanüstü bir ihtiyaç olmasa bile faaliyetleri tamamlayın.',
-      'You likely enabled cluster.search without creating the index. Use the following command to create a new index.' => 'Büyük olasılıkla dizini oluşturmadan cluster.search özelliğini etkinleştirdiniz. Yeni bir dizin oluşturmak için aşağıdaki komutu kullanın.',
-      'Without \'%s\', Phabricator can not test for the availability of other binaries.' => '\'%s\' olmadan, Phabricator diğer ikili dosyaların kullanılabilirliğini test edemez.',
-      'Skipping option "%s"; already in database config.' => '"%s" atlama seçeneği; zaten veritabanı yapılandırmasında.',
-      'This option controls whether users can edit account email addresses and profile real names.
-    If you set up Phabricator to automatically synchronize account information from some other authoritative system, you can prevent users from making these edits to ensure information remains consistent across both systems.' => 'Bu seçenek, kullanıcıların hesap e-posta adreslerini ve profil gerçek adlarını düzenleyip düzenleyemediklerini kontrol eder.
-    Phabricator\'ı başka bir yetkili sistemden hesap bilgilerini otomatik olarak senkronize edecek şekilde ayarladıysanız, bilgilerin her iki sistemde de tutarlı kalmasını sağlamak için kullanıcıların bu düzenlemeleri yapmasını engelleyebilirsiniz.',
-      'The directory for local repositories (%s) does not exist, or is not readable by the webserver. Phabricator uses this directory to store information about repositories. If this directory does not exist, create it:
-    %s
-    If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'Yerel depolar dizini (%s) mevcut değil veya web sunucusu tarafından okunamıyor. Phabricator, depolar hakkında bilgi depolamak için bu dizini kullanır. Bu dizin yoksa oluşturun:
-    %s
-    Bu dizin varsa, web sunucusu tarafından okunabilir hale getirin. Başka bir dizini kullanmak için aşağıdaki yapılandırmayı da düzenleyebilirsiniz.',
-      'Customize the logo image and text which appears in the main site header:
-      - **Logo Image**: Upload a new 80 x 80px image to replace the Phabricator logo in the site header.
-      - **Wordmark**: Choose new text to display next to the logo. By default, the header displays //Phabricator//.
-    ' => 'Ana site başlığında görünen logo resmini ve metni özelleştirin:
-      - **Logo Resmi**: Site başlığındaki Phabricator logosunu değiştirmek için yeni bir 80 x 80 piksel resim yükleyin.
-      - **Marka**: Logonun yanında görüntülenecek yeni metni seçin. Varsayılan olarak, başlıkta //Phabricator// görüntülenir.',
-      'The Phabricator daemons are not running, so Phabricator will not be able to perform background processing (including sending email, rebuilding search indexes, importing commits, cleaning up old data, and running builds).
-    Use %s to start daemons. See %s for more information.' => 'Phabricator arka plan programı çalışmıyor, bu nedenle Phabricator arka plan işleme gerçekleştiremeyecek (e-posta gönderme, arama dizinlerini yeniden oluşturma, taahhütleri içe aktarma, eski verileri temizleme ve yapıları çalıştırma dahil).
-    Daemons başlatmak için %s kullanın. Daha fazla bilgi için %s bakın.',
-      '%s Stats' => '%s Durumlar',
-      'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'Subversion\'un desteklenen en düşük sürümü, 2008\'de yayınlanan 1.5\'tir.',
-      'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'PHP bellek sınırınız, büyük dosyalar yüklemenizi veya büyük istekleri işlemenizi engelleyebilecek şekilde yapılandırılmıştır.',
-      'The system user.' => 'Sistem kullanıcısı.',
-      'Reload Page' => 'Sayfayı Yenile',
-      'Phabricator now automatically selects the best available MySQL implementation.' => 'Phabricator artık otomatik olarak mevcut en iyi MySQL uygulamasını seçiyor.',
-      'Force users to connect via HTTPS instead of HTTP.' => 'Kullanıcıları HTTP yerine HTTPS üzerinden bağlanmaya zorlayın.',
-      'Install the MySQLi extension to improve database behavior.' => 'Veritabanı davranışını iyileştirmek için MySQLi uzantısını yükleyin.',
-      'Large Files' => 'Büyük Dosyalar',
-      'Mark a manual upgrade activity as complete.' => 'Manüel yükseltme etkinliğini tamamlandı olarak işaretleyin.',
-      '%s Not Set' => '%s Ayarlanmadı',
-      'This configuration option has been replaced with a modular handler. See T9346.' => 'Bu yapılandırma seçeneği, modüler bir işleyici ile değiştirildi. T9346 sayfasına bakın.',
-      'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded. (Did you forget to quote a string?)' => 'JSON\'da "%s" seçeneğinin değeri ("%s" türünde) belirtilmelidir, ancak girdinin kodu çözülemedi. (Bir dize teklifi vermeyi unuttunuz mu?)',
-      'Configuration option \'%s\' has invalid value and was restored to the default: %s' => '\'%s\' yapılandırma seçeneği geçersiz değere sahip ve varsayılan değere geri yüklendi: %s',
-      'To update these %d value(s), edit your PHP configuration file, located here:' => 'Bu %s değerini güncellemek için, burada bulunan PHP yapılandırma dosyanızı düzenleyin:',
-      'Collation' => 'Karşılaştırma',
-      'Replication' => 'Kopya',
-      'The HTTP response code or process exit code.' => 'HTTP yanıt kodu veya işlem çıkış kodu.',
-      'Obsolete; use standard rendering events instead.' => 'Eski; bunun yerine standart oluşturma etkinlikleri kullanın.',
-      'Local Disk Storage' => 'Yerel Disk Depolama',
-      'The configuration option \'%s\' is not recognized. It may be misspelled, or it might have existed in an older version of Phabricator. It has no effect, and should be corrected or deleted.' => '\'%s\' yapılandırma seçeneği tanınmıyor. Yanlış yazılmış olabilir veya Phabricator\'ın daha eski bir sürümünde mevcut olabilir. Etkisi yoktur ve düzeltilmesi veya silinmesi gerekir.',
-      'Issue' => 'Sorun',
-      'Configuration Guide: Configuring a File Domain' => 'Yapılandırma Kılavuzu: Bir Dosya Etki Alanını Yapılandırma',
-      'Activate DarkConsole on every page.' => 'Her sayfada DarkConsole\'i etkinleştirin.',
-      'Enable verbose error reporting and disk reads.' => 'Ayrıntılı hata raporlamayı ve disk okumalarını etkinleştirin.',
-      'Mail object address hash keys are now generated automatically.' => 'Posta nesnesi adres karması anahtarları artık otomatik olarak oluşturulur.',
-      'Too many arguments: expected one key and one value.' => 'Çok fazla argüman: bir anahtar ve bir değer bekleniyor.',
-      'Settings History' => 'Ayarlar Geçmişi',
-      'Opcode' => 'İşlemkodu',
-      'To update these %d value(s), edit your PHP configuration file.' => 'Bu %s değerini güncellemek için PHP yapılandırma dosyanızı düzenleyin.',
-      'Enable Recaptcha' => 'Recaptcha\'yı etkinleştir',
-      'Prefix cookie with "%s"' => '"%s" ile önek tanımlama bilgisi',
-      'Migrated option "%s" from file to database config.' => 'Dosyadan veritabanı yapılandırmasına "%s" seçeneği taşındı.',
-      'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that Phabricator imports or manages. This option is new and experimental.' => 'Daemon\'ları çalıştıracak bir sistem kullanıcısı belirtin. Öncelikle, bu kullanıcı Phabricator\'ın ithal ettiği veya yönettiği havuzların çalışma kopyalarına sahip olacaktır. Bu seçenek yeni ve deneyseldir.',
-      'PHP Documentation' => 'PHP Belgelemesi',
-      'Your webserver produced an unexpected response.' => 'Web sunucunuz beklenmedik bir yanıt verdi.',
-      'Phabricator now automatically discovers available search engines at runtime.' => 'Phabricator artık çalışma zamanında mevcut arama motorlarını otomatik olarak keşfediyor.',
-      'Unable to determine the version number of "%s".' => '"%s" sürüm numarası belirlenemedi.',
-      'If true, email addresses must be verified (by clicking a link in an email) before a user can login. By default, verification is optional unless @{config:auth.email-domains} is nonempty.' => 'True ise, kullanıcının giriş yapabilmesi için önce e-posta adreslerinin doğrulanması gerekir (e-postadaki bir bağlantıyı tıklayarak). @{Config:auth.email-domains} boş değilse varsayılan olarak doğrulama isteğe bağlıdır.',
-      'PHP OPcache Documentation' => 'PHP OPcache Belgeleri',
-      'Cluster: Databases' => 'Küme: Veritabanları',
-      'No Messages' => 'Mesaj Yok',
-      'Footer item with index "%s" is invalid: each item must be a dictionary describing a footer item.' => '"%s" dizinine sahip altbilgi öğesi geçersiz: her öğe, bir altbilgi öğesini açıklayan bir sözlük olmalıdır.',
-      'None of the caches on this page can be cleared.' => 'Bu sayfadaki önbelleklerin hiçbiri temizlenemez.',
-      'Require email verification before a user can log in.' => 'Bir kullanıcının oturum açabilmesi için e-posta doğrulaması iste.',
-      'Master' => 'Usta',
-      'Sets the default color scheme of Phabricator.' => 'Phabricator\'ın varsayılan renk düzenini ayarlar.',
-      'A Troublesome Encounter!' => 'Sorunlu bir Karşılaşma!',
-      'The indexing algorithm for the fulltext search index has been updated and the index needs to be rebuilt. Until you rebuild the index, global search (and other fulltext search) will not function correctly.' => 'Tam metin arama dizini için dizin oluşturma algoritması güncellendi ve dizinin yeniden oluşturulması gerekiyor. Dizini yeniden oluşturuncaya kadar, genel arama (ve diğer tam metin araması) düzgün çalışmaz.',
-      'Maximum taskmaster daemon pool size.' => 'Maksimum görev yöneticisi arka plan havuzu boyutu.',
-      'Replica' => 'Kopya',
-      'Use Public Replies (Less Secure)' => 'Genel Yanıtları Kullan (Daha Az Güvenli)',
-      'MySQL password to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL parolası.',
-      'If a variable isn\'t available (for example, %%m appears in the file format but the request is not a Conduit request), it will be rendered as \'-\'' => 'Bir değişken kullanılamıyorsa (örneğin, dosya biçiminde %%m görünür ancak istek bir İletken isteği değilse), \'-\' olarak işlenir.',
-      'Set a string Phabricator should use to prefix cookie names.' => 'Phabricator\'ın çerez adlarını önek olarak kullanması için bir dize ayarlayın.',
-      'If those commands don\'t work, try Google. The process of installing PHP extensions is not specific to Phabricator, and any instructions you can find for installing them on your system should work. On Mac OS X, you might want to try Homebrew.' => 'Bu komutlar işe yaramazsa Google\'ı deneyin. PHP uzantılarını yükleme işlemi Phabricator\'a özgü değildir ve bunları sisteminize yüklemek için bulabileceğiniz tüm talimatlar çalışmalıdır. Mac OS X\'te Homebrew\'u denemek isteyebilirsiniz.',
-      'CSRF HMAC keys are now managed automatically.' => 'CSRF HMAC anahtarları artık otomatik olarak yönetiliyor.',
-      'Database Status' => 'Veritabanı Durumu',
-      'Database host "%s" is using the builtin stopword file for building search indexes. This can make Phabricator\'s search feature less useful.
+      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
     Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
     To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
     To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
@@ -552,13 +492,90 @@ final class PhabricatorConfigTr
     (İsterseniz farklı bir dosya da kullanabilirsiniz. Yukarıda önerilen dosya en yaygın İngilizce kelimelerin yaklaşık 50\'sine sahiptir.)
     Son olarak, yeni kuralları kullanarak dizinleri yeniden oluşturmak için bu komutu çalıştırın:
     %s',
+      'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Manifest alanları artık "%s" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.',
+      'Enable Prototypes' => 'Prototipleri Etkinleştir',
+      'Elasticsearch is now configured with "%s".' => 'Elasticsearch artık "%s" ile yapılandırıldı.',
+      'Configuring Outbound Email' => 'Giden E-postayı Yapılandırma',
+      'Inbound mail addresses are now configured for each application in the Applications tool.' => 'Gelen posta adresleri artık Uygulamalar aracındaki her uygulama için yapılandırılmıştır.',
+      'Partial \'%s\' Support' => 'Kısmi \'%s\' Desteği',
+      'Subschemata have setup warnings.' => 'Subschemata kurulum uyarılarına sahiptir.',
+      'Uptime' => 'Çalışma süresi',
+      'MySQL (on host "%s") is using a default stopword file, which will prevent searching for many common words.' => 'MySQL ("%s" sunucusunda), birçok yaygın kelimeyi aramayı engelleyecek varsayılan bir parola dosyası kullanıyor.',
+      'Two setup checks raised an issue with key \'%s\'!' => 'İki kurulum denetimi \'%s\' tuşuyla ilgili bir sorun yarattı!',
+      'Mark activities complete even if there is no outstanding need to complete them.' => 'Tamamlamak için olağanüstü bir ihtiyaç olmasa bile faaliyetleri tamamlayın.',
+      'You likely enabled cluster.search without creating the index. Use the following command to create a new index.' => 'Büyük olasılıkla dizini oluşturmadan cluster.search özelliğini etkinleştirdiniz. Yeni bir dizin oluşturmak için aşağıdaki komutu kullanın.',
+      'Skipping option "%s"; already in database config.' => '"%s" atlama seçeneği; zaten veritabanı yapılandırmasında.',
+      'The "InnoDB" engine is not available in MySQL (on host "%s"). Enable InnoDB in your MySQL configuration.
+    (If you already created tables, MySQL incorrectly used some other engine to create them. You need to convert them or drop and reinitialize them.)' => '"InnoDB" motoru MySQL\'de mevcut değildir ("%s" sunucusunda). MySQL yapılandırmanızda InnoDB\'yi etkinleştirin.
+    (Tabloları her zaman oluşturduysanız, MySQL bunları oluşturmak için yanlış bir şekilde başka bir motor kullandı. Bunları dönüştürmeniz veya bırakıp yeniden başlatmanız gerekir.)',
+      'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
+    Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Phabricator şu anda doğrudan diğer içeriklerle aynı alandan kullanıcı yüklemeleri sunacak şekilde yapılandırılmıştır. Bu bir güvenlik riskidir.
+    Bu riski ortadan kaldırmak için bir CDN (veya alternatif dosya etki alanı) yapılandırın. CDN kullanmak performansı da artıracaktır. Talimatlar için aşağıdaki kılavuza bakın.',
+      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator, varsayılan olarak birkaç dili vurgulayan sözdizimini destekler, ancak daha birçok dile destek sağlamak için Pygments\'ı (üçüncü taraf sözdizimi vurgulama aracı) yükleyebilirsiniz.
+    Pygments\'ı yüklemek için [[ http://pygments.org | pygments.org ]] ve indirme ve yükleme talimatlarını izleyin.
+    Pygments yüklendikten sonra, Phabricator\'ın kaynak kodunu vurgularken Pygments kullanmasını sağlamak için bu seçeneği (`pygments.enabled`) etkinleştirin.
+    Pygments\' yükleyip etkinleştirdikten sonra, yeni oluşturulan kaynak kodunun (diffs ve macunlar gibi) doğru şekilde vurgulanması gerekir. Önceden var olan kaynak kodunu vurgulamak için Phabricator\'ın önbelleklerini temizlemeniz gerekebilir. Önbellekleri yönetmeyle ilgili talimatlar için, [[ %s | Önbellekleri Yönetme ]] sayfasına bakın.',
+      '%s Stats' => '%s Durumlar',
+      'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'Subversion\'un desteklenen en düşük sürümü, 2008\'de yayınlanan 1.5\'tir.',
+      'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'PHP bellek sınırınız, büyük dosyalar yüklemenizi veya büyük istekleri işlemenizi engelleyebilecek şekilde yapılandırılmıştır.',
+      'The system user.' => 'Sistem kullanıcısı.',
+      'Reload Page' => 'Sayfayı Yenile',
+      'Force users to connect via HTTPS instead of HTTP.' => 'Kullanıcıları HTTP yerine HTTPS üzerinden bağlanmaya zorlayın.',
+      'Install the MySQLi extension to improve database behavior.' => 'Veritabanı davranışını iyileştirmek için MySQLi uzantısını yükleyin.',
+      'Large Files' => 'Büyük Dosyalar',
+      'The namespace that databases should use.' => 'Phabricator veritabanlarının kullanması gereken ad alanı.',
+      'Mark a manual upgrade activity as complete.' => 'Manüel yükseltme etkinliğini tamamlandı olarak işaretleyin.',
+      '%s Not Set' => '%s Ayarlanmadı',
+      'This configuration option has been replaced with a modular handler. See T9346.' => 'Bu yapılandırma seçeneği, modüler bir işleyici ile değiştirildi. T9346 sayfasına bakın.',
+      'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded. (Did you forget to quote a string?)' => 'JSON\'da "%s" seçeneğinin değeri ("%s" türünde) belirtilmelidir, ancak girdinin kodu çözülemedi. (Bir dize teklifi vermeyi unuttunuz mu?)',
+      'Configuration option \'%s\' has invalid value and was restored to the default: %s' => '\'%s\' yapılandırma seçeneği geçersiz değere sahip ve varsayılan değere geri yüklendi: %s',
+      'To update these %d value(s), edit your PHP configuration file, located here:' => 'Bu %s değerini güncellemek için, burada bulunan PHP yapılandırma dosyanızı düzenleyin:',
+      'Collation' => 'Karşılaştırma',
+      'Replication' => 'Kopya',
+      'The HTTP response code or process exit code.' => 'HTTP yanıt kodu veya işlem çıkış kodu.',
+      'Obsolete; use standard rendering events instead.' => 'Eski; bunun yerine standart oluşturma etkinlikleri kullanın.',
+      'Local Disk Storage' => 'Yerel Disk Depolama',
+      'Issue' => 'Sorun',
+      'Configuration Guide: Configuring a File Domain' => 'Yapılandırma Kılavuzu: Bir Dosya Etki Alanını Yapılandırma',
+      'Activate DarkConsole on every page.' => 'Her sayfada DarkConsole\'i etkinleştirin.',
+      'Enable verbose error reporting and disk reads.' => 'Ayrıntılı hata raporlamayı ve disk okumalarını etkinleştirin.',
+      'Mail object address hash keys are now generated automatically.' => 'Posta nesnesi adres karması anahtarları artık otomatik olarak oluşturulur.',
+      'Too many arguments: expected one key and one value.' => 'Çok fazla argüman: bir anahtar ve bir değer bekleniyor.',
+      'Settings History' => 'Ayarlar Geçmişi',
+      'Opcode' => 'İşlemkodu',
+      'To update these %d value(s), edit your PHP configuration file.' => 'Bu %s değerini güncellemek için PHP yapılandırma dosyanızı düzenleyin.',
+      'Enable Recaptcha' => 'Recaptcha\'yı etkinleştir',
+      'Prefix cookie with "%s"' => '"%s" ile önek tanımlama bilgisi',
+      'The configuration option "%s" is not recognized. It may be misspelled, or it might have existed in an older version of the software. It has no effect, and should be corrected or deleted.' => '\'%s\' yapılandırma seçeneği tanınmıyor. Yanlış yazılmış olabilir veya Phabricator\'ın daha eski bir sürümünde mevcut olabilir. Etkisi yoktur ve düzeltilmesi veya silinmesi gerekir.',
+      'You can rebuild the search index while the server is running.' => 'Phabricator çalışırken arama dizinini yeniden oluşturabilirsiniz.',
+      'Migrated option "%s" from file to database config.' => 'Dosyadan veritabanı yapılandırmasına "%s" seçeneği taşındı.',
+      'PHP Documentation' => 'PHP Belgelemesi',
+      'Your webserver produced an unexpected response.' => 'Web sunucunuz beklenmedik bir yanıt verdi.',
+      'Unable to determine the version number of "%s".' => '"%s" sürüm numarası belirlenemedi.',
+      'If true, email addresses must be verified (by clicking a link in an email) before a user can login. By default, verification is optional unless @{config:auth.email-domains} is nonempty.' => 'True ise, kullanıcının giriş yapabilmesi için önce e-posta adreslerinin doğrulanması gerekir (e-postadaki bir bağlantıyı tıklayarak). @{Config:auth.email-domains} boş değilse varsayılan olarak doğrulama isteğe bağlıdır.',
+      'PHP OPcache Documentation' => 'PHP OPcache Belgeleri',
+      'Daemons Are Not Running' => 'Phabricator Daemonlar Çalışmıyor',
+      'Cluster: Databases' => 'Küme: Veritabanları',
+      'No Messages' => 'Mesaj Yok',
+      'Footer item with index "%s" is invalid: each item must be a dictionary describing a footer item.' => '"%s" dizinine sahip altbilgi öğesi geçersiz: her öğe, bir altbilgi öğesini açıklayan bir sözlük olmalıdır.',
+      'None of the caches on this page can be cleared.' => 'Bu sayfadaki önbelleklerin hiçbiri temizlenemez.',
+      'Require email verification before a user can log in.' => 'Bir kullanıcının oturum açabilmesi için e-posta doğrulaması iste.',
+      'Master' => 'Usta',
+      'A Troublesome Encounter!' => 'Sorunlu bir Karşılaşma!',
+      'The indexing algorithm for the fulltext search index has been updated and the index needs to be rebuilt. Until you rebuild the index, global search (and other fulltext search) will not function correctly.' => 'Tam metin arama dizini için dizin oluşturma algoritması güncellendi ve dizinin yeniden oluşturulması gerekiyor. Dizini yeniden oluşturuncaya kadar, genel arama (ve diğer tam metin araması) düzgün çalışmaz.',
+      'Maximum taskmaster daemon pool size.' => 'Maksimum görev yöneticisi arka plan havuzu boyutu.',
+      'Replica' => 'Kopya',
+      'Use Public Replies (Less Secure)' => 'Genel Yanıtları Kullan (Daha Az Güvenli)',
+      'MySQL password to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL parolası.',
+      'If a variable isn\'t available (for example, %%m appears in the file format but the request is not a Conduit request), it will be rendered as \'-\'' => 'Bir değişken kullanılamıyorsa (örneğin, dosya biçiminde %%m görünür ancak istek bir İletken isteği değilse), \'-\' olarak işlenir.',
+      'CSRF HMAC keys are now managed automatically.' => 'CSRF HMAC anahtarları artık otomatik olarak yönetiliyor.',
+      'Database Status' => 'Veritabanı Durumu',
       'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded: %s' => 'JSON\'da "%s" seçeneğinin değeri ("%s" türünde) belirtilmelidir, ancak girdinin kodu çözülemedi: %s',
       'Database host "%s" has a configured cluster state which disagrees with the state on this host ("%s"). Run `bin/storage partition` to commit local state to the cluster. This host may have started with an out-of-date configuration.' => 'Veritabanı ana bilgisayarı "%s", bu ana bilgisayardaki durumla aynı fikirde olmayan ("%s") yapılandırılmış bir küme durumuna sahip. Kümeye yerel durum bildirmek için `bin/storage partition` çalıştırın. Bu ana makine eski bir yapılandırma ile başlamış olabilir.',
-      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    Phabricator will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s' => 'PHP şu anda veritabanıyla etkileşim kurmak için çok eski "mysql" uzantısını kullanıyor. Davranışları iyileştirmek için daha yeni "mysqli" uzantısını yüklemelisiniz (hata işleme ve sorgu zaman aşımları gibi).
-    Phabricator eski uzantıyla çalışacak, ancak yeni uzantıya yükseltme yapılması önerilir.
-    Uzantıyı aşağıdaki gibi bir komutla yükleyebilirsiniz: %s',
+      'Normally, this software issues HTTP redirects after a successful POST. This can make it difficult to debug things which happen while processing the POST, because service and profiling information are lost. By setting this configuration option, an interstitial page will be shown instead of automatically redirecting, allowing you to examine service and profiling information. It also makes the UX awful, so you should only enable it when debugging.' => 'Normalde, Phabricator başarılı bir POST sonrasında HTTP yönlendirmeleri yayınlar. Bu, hizmet ve profil oluşturma bilgileri kaybolduğundan POST işlenirken gerçekleşen hataların ayıklanmasını zorlaştırabilir. Bu yapılandırma seçeneğini ayarlayarak Phabricator, otomatik olarak yeniden yönlendirmek yerine bir sayfa göstererek hizmet ve profil oluşturma bilgilerini incelemenize olanak tanır. Ayrıca UX\'i korkunç hale getirir, bu yüzden yalnızca hata ayıklama sırasında etkinleştirmelisiniz.',
       'Largest' => 'En büyük',
       'Maximum number of taskmaster daemons to run at once. Raising this can increase the maximum throughput of the task queue. The pool will automatically scale down when unutilized.
     If you are running a cluster, this limit applies separately to each instance of `phd`. For example, if this limit is set to `4` and you have three hosts running daemons, the effective global limit will be 12.
@@ -566,16 +583,6 @@ final class PhabricatorConfigTr
     Bir küme çalıştırıyorsanız, bu sınır her `phd` örneği için ayrı ayrı geçerlidir. Örneğin, bu sınır `4` olarak ayarlanmışsa ve üç ana sunucunuz varsa, etkin genel sınır 12 olacaktır.
     Bu değeri değiştirdikten sonra, arka plan pencerelerini yeniden başlatmanız gerekir. Çoğu yapılandırma değişikliği otomatik olarak arka plan programı tarafından alınır, ancak havuz boyutları yeniden başlatmadan değiştirilemez.',
       'Set the URI that Phurl will use to share shortened URLs.' => 'Phurl\'un kısaltılmış URL\'leri paylaşmak için kullanacağı URI\'yi ayarlayın.',
-      'Phabricator users can make requests to other services from the Phabricator host in some circumstances (for example, by creating a repository with a remote URL or having Phabricator fetch an image from a remote server).
-    This may represent a security vulnerability if services on the same subnet will accept commands or reveal private information over unauthenticated HTTP GET, based on the source IP address. In particular, all hosts in EC2 have access to such a service.
-    This option defines a list of netblocks which Phabricator will decline to connect to. Generally, you should list all private IP space here.' => 'Phabricator kullanıcıları bazı durumlarda Phabricator ana bilgisayarından diğer hizmetlere istekte bulunabilir (örneğin, uzak URL ile bir havuz oluşturarak veya Phabricator\'ın uzak bir sunucudan bir görüntü getirmesini sağlayarak).
-    Aynı alt ağdaki hizmetler, kaynak IP adresine bağlı olarak kimliği doğrulanmamış HTTP GET üzerinden komutları kabul ederse veya özel bilgileri ortaya çıkarırsa, bu bir güvenlik açığı olabilir. Özellikle, EC2\'deki tüm ana bilgisayarlar böyle bir hizmete erişebilir.
-    Bu seçenek, Phabricator\'ın bağlanmayı reddedeceği netblock\'ların listesini tanımlar. Genel olarak, tüm özel IP alanlarını burada listelemelisiniz.',
-      'Newly registered Phabricator accounts can either be placed into a manual approval queue for administrative review, or automatically activated immediately. The approval queue is enabled by default because it gives you greater control over who can register an account and access Phabricator.
-    If your install is completely public, or on a VPN, or users can only register with a trusted provider like LDAP, or you\'ve otherwise configured Phabricator to prevent unauthorized registration, you can disable the queue to reduce administrative overhead.
-    NOTE: Before you disable the queue, make sure @{config:auth.email-domains} is configured correctly for your install!' => 'Yeni kaydedilen Phabricator hesapları, yönetim incelemesi için manüel onay kuyruğuna yerleştirilebilir veya hemen otomatik olarak etkinleştirilebilir. Onay kuyruğu varsayılan olarak etkindir, çünkü bir hesabı kimlerin kaydedebileceği ve Phabricator\'a erişebileceği üzerinde daha fazla kontrol sağlar.
-    Yüklemeniz tamamen herkese açıksa veya bir VPN\'de ise veya kullanıcılar yalnızca LDAP gibi güvenilir bir sağlayıcıya kaydolabilirse veya Phabricator\'ı yetkisiz kaydı önlemek için başka bir şekilde yapılandırdıysanız, yönetim yükünü azaltmak için kuyruğu devre dışı bırakabilirsiniz.
-    NOT: Kuyruğu devre dışı bırakmadan önce, yüklemeniz için @{config:auth.email-domains} doğru yapılandırıldığından emin olun!',
       'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'MySQL sürümünüz ("%s" veritabanı ana bilgisayarında), bir parola dosyası yapılandırmasını desteklemiyor. Sık kullanılan kelimeler için arama sonuçları bulamazsınız.',
       'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'PHP yapılandırmanız geçersiz bir saat dilimi seçiyor. Geçerli bir saat dilimi seçin.',
       '%s deleted this configuration entry (again?).' => '%s bu yapılandırma girişini sildi (tekrar?).',
@@ -584,26 +591,20 @@ final class PhabricatorConfigTr
       'The following regex is malformed and cannot be used: %s' => 'Aşağıdaki normal ifade hatalı biçimlendirilmiş ve kullanılamaz: %s',
       'Use the %s to manage installed applications.' => 'Yüklü uygulamaları yönetmek için %s kullanın.',
       'Individual application reply handler domains have been removed. Configure a reply domain with "%s".' => 'Bireysel başvuru yanıt işleyicisi etki alanları kaldırıldı. "%s" ile bir yanıt alan adı yapılandırın.',
-      'When you upload a file via drag-and-drop or the API, chunks must be buffered into memory before being written to permanent storage. Phabricator needs memory available to store these chunks while they are uploaded, but PHP is currently configured to severely limit the available memory.
-    PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
-    (Note that the application itself must also fit in available memory, so not all of the memory under the memory limit is available for running workloads.)
-    The easiest way to resolve this issue is to set %s to %s in your PHP configuration, to disable the memory limit. There is usually little or no value to using this option to limit Phabricator process memory.
-    You can also increase the limit or ignore this issue and accept that you may encounter problems uploading large files and processing large requests.' => 'Sürükle ve bırak veya API yoluyla bir dosya yüklediğinizde, parçalar kalıcı depolama alanına yazılmadan önce belleğe alınmalıdır. Phabricator, yüklenirken bu parçaları saklamak için belleğe ihtiyaç duyar, ancak PHP şu anda kullanılabilir belleği ciddi şekilde sınırlayacak şekilde yapılandırılmıştır.
-    PHP işlemleri şu anda çok az boş hafıza alanına sahiptir (%s). İyi çalışmak için süreçlerin en az %s olması gerekir.
-    (Uygulamanın kendisinin de kullanılabilir belleğe sığması gerektiğini unutmayın, bu nedenle bellek sınırının altındaki belleğin tamamı iş yüklerini çalıştırmak için kullanılamaz.)
-    Bu sorunu çözmenin en kolay yolu, PHP yapılandırmanızda bellek sınırını devre dışı bırakmak için %s %s ayarlamaktır. Phabricator işlem belleğini sınırlamak için bu seçeneğin kullanılmasında genellikle çok az değer vardır veya hiç değer yoktur.
-    Ayrıca sınırı artırabilir veya bu sorunu göz ardı edebilir ve büyük dosyaların yüklenmesi ve büyük isteklerin işlenmesi ile ilgili sorunlarla karşılaşabileceğinizi kabul edebilirsiniz.',
       'Preflight' => 'Ön kontrol',
       'Install these %d PHP extension(s):' => 'Şunu %s PHP uzantısını yükleyin:',
       'Missing \'%s\' Binary' => '\'%s\' İkili Eksik',
       'Charset' => 'Karakter kümesi',
       'The framable public feed is no longer supported.' => 'Çerçevelenebilir genel yayın artık desteklenmiyor.',
       'A random, unique string which identifies the request.' => 'İsteği tanımlayan rastgele, benzersiz bir dize.',
-      'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. Phabricator can not determine the correct endpoint automatically because some endpoint locations are irregular.' => 'Kullanmak için açık S3 uç noktası. Bu, `amazon-s3.region` da seçtiğiniz bölgeye karşılık gelen uç nokta olmalıdır. Bazı uç nokta konumları düzensiz olduğundan, Phabricator doğru uç noktasını otomatik olarak belirleyemez.',
       'Disable unsafe option "%s" in PHP configuration.' => 'PHP yapılandırmasında güvenli olmayan "%s" seçeneğini devre dışı bırakın.',
-      'Phabricator now always sends transaction mail with "Precedence: bulk" to improve deliverability.' => 'Phabricator artık teslim edilebilirliği artırmak için her zaman "Öncelik: toplu" işlem postası gönderiyor.',
       '%s Day(s)' => '%s Gün',
       'No search servers are configured.' => 'Hiçbir arama sunucusu yapılandırılmamış.',
+      'DarkConsole is a development and profiling tool built into the web interface. You should leave it disabled unless you are developing or debugging %s.
+    Once you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.
+    DarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.' => 'DarkConsole, Phabricator\'ın web arayüzünde yerleşik bir geliştirme ve profil oluşturma aracıdır. Phabricator\'ı geliştirmediyseniz veya hata ayıklamadığınız sürece devre dışı bırakmalısınız.
+    Yükleme için DarkConsole\'u etkinleştirdikten sonra, **gerçekten sayfalarda görünmeden önce hesabınız için etkinleştirmeniz gerekir.** Bunu Ayarlar > Geliştirici Ayarları\'ndan yapabilirsiniz.
+    DarkConsole potansiyel olarak hassas verileri (sorgular, yığın izleri ve yapılandırma gibi) ortaya koyar, böylece genellikle üretimde açmamalısınız.',
       'This key is too long for utf8mb4.' => 'Bu anahtar utf8mb4 için çok uzun.',
       'Expected Character Set' => 'Beklenen Karakter Kümesi',
       'Repository Servers' => 'Depo Sunucuları',
@@ -613,9 +614,7 @@ final class PhabricatorConfigTr
       'Install Pygments to Improve Syntax Highlighting' => 'Sözdizim Vurgulamasını Geliştirmek için Pigmentleri Yükle',
       'Sessions now expire and are garbage collected rather than having an arbitrary concurrency limit.' => 'Oturumlar artık keyfi bir eşzamanlılık sınırına sahip olmak yerine sona eriyor ve çöp topluyor.',
       'Logo Image' => 'Logo Resmi',
-      'The environmental variable %s is empty. Phabricator will not be able to execute some commands.' => 'Çevresel değişken %s boş. Phabricator bazı komutları yürütemez.',
       'Really Clear Cache' => 'Gerçekten Açık Önbellek',
-      'Stop Phabricator from sending any email, etc.' => 'Phabricator\'ın herhangi bir e-posta vb. göndermesini durdurun.',
       'Unexpected \'%s\' Behavior' => 'Beklenmeyen \'%s\' Davranışı',
       'Mail thread IDs are now generated automatically.' => 'Posta dizisi kimlikleri artık otomatik olarak oluşturuluyor.',
       'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
@@ -631,12 +630,14 @@ final class PhabricatorConfigTr
     %s
     Son olarak, yeni kuralları kullanarak dizinleri yeniden oluşturmak için bu komutu çalıştırın:
     %s',
+      'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the %s configuration value \'%s\' to specify one.' => 'Yapılandırmanız bir sunucu saat dilimi belirtemiyor. PHP yapılandırma değerini \'%s\' veya Phabricator yapılandırma değerini \'%s\' olarak ayarlayabilirsiniz.',
       'Enable HTTP Strict Transport Security (HSTS).' => 'HTTP Sıkı Aktarım Güvenliğini (HSTS) etkinleştirin.',
+      'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Phabricator %2$s içinde %1$s kullanılabilir, ancak ikilik %s olarak çalıştırıldığında bir hata kodu ile çıkıldı. Doğru takıldığından emin olun.',
       'Users can configure a URI pattern to open files in a text editor. The URI must use a protocol on this whitelist.' => 'Kullanıcılar dosyaları bir metin düzenleyicisinde açmak için bir URI kalıbı yapılandırabilir. URI, bu beyaz listede bir protokol kullanmalıdır.',
       'Config' => 'Yapılandırma',
+      'Transaction mail is now always sent with "Precedence: bulk" to improve deliverability.' => 'Phabricator artık teslim edilebilirliği artırmak için her zaman "Öncelik: toplu" işlem postası gönderiyor.',
       'Retention Policy' => 'Alıkoyma Politikası',
-      'You can rebuild repository identities while Phabricator is running.' => 'Phabricator çalışırken depo kimliklerini yeniden oluşturabilirsiniz.',
-      'This configuration option is unknown. It may be misspelled, or have existed in a previous version of Phabricator.' => 'Bu yapılandırma seçeneği bilinmiyor. Yanlış yazılmış olabilir veya Phabricator\'ın önceki bir sürümünde mevcut olabilir.',
+      'Without \'%s\', this software can not test for the availability of other binaries.' => '\'%s\' olmadan, Phabricator diğer ikili dosyaların kullanılabilirliğini test edemez.',
       'HTTP Basic Auth Not Configured' => 'HTTP Temel Kimlik Doğrulaması Yapılandırılmadı',
       'Whitelist 1.2.*.*' => 'Beyaz liste 1.2. *.*',
       'Highlight httpd.conf as "apacheconf".' => 'httpd.conf dosyasını "apacheconf" olarak vurgulayın.',
@@ -644,6 +645,7 @@ final class PhabricatorConfigTr
       'US Mountain (MDT)' => 'ABD Dağı (MDT)',
       'This option has been replaced with `ui.logo`, which provides more flexible configuration options.' => 'Bu seçenek daha esnek yapılandırma seçenekleri sağlayan `ui.logo` ile değiştirildi.',
       'Rebuild Search Index' => 'Arama Dizini\'ni Yeniden Oluştur',
+      'Do not install this software on an instance class with burstable CPU.' => 'Phabricator\'ı bükülebilir CPU içeren bir örnek sınıfına kurmayın.',
       'Real' => 'Gerçek',
       'Partition: %s' => 'Bölme: %s',
       'This is an override list of regular expressions which allows you to choose what language files are highlighted as. If your projects have certain rules about filenames or use unusual or ambiguous language extensions, you can create a mapping here. This is an ordered dictionary of regular expressions which will be tested against the filename. They should map to either an explicit language as a string value, or a numeric index into the captured groups as an integer.' => 'Bu dil dosyalarının vurgulanacağını seçmenizi sağlayan normal ifadelerin geçersiz kılma listesidir. Projelerinizin dosya adları hakkında belirli kuralları varsa veya olağandışı veya belirsiz dil uzantıları kullanıyorsanız, burada bir eşleme oluşturabilirsiniz. Bu, dosya adına karşı test edilecek düzenli ifadelerin sıralı bir sözlüğüdür. Yakalanan gruplara tamsayı olarak açık bir dile veya sayısal bir dizine eşlemelidirler.',
@@ -653,19 +655,16 @@ final class PhabricatorConfigTr
     Kullanıcıların yalnızca alan adlarından birinde e-posta adresleri kullanarak kaydolmasına izin verilir ve yalnızca bu alan adları için yeni e-posta adresleri ekleyebilir. Bunu yapılandırırsanız, @{config:auth.require-email-verification} anlamına gelir.
     Alan adlarından `@` işaretini çıkarmalısınız. Alan adının tam olarak eşleşmesi gerektiğini unutmayın. "yourcompany.com" izin verirseniz, bu `joe@sirketiniz.com` izin verir, ancak `joe@mail.sirketiniz.com` reddeder.',
       'Options for Phurl.' => 'Phurl için seçenekler.',
-      'IMPORTANT: The upstream does not provide support for prototype applications.
-    Phabricator includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing Phabricator or are interested in previewing upcoming features.
-    To learn more about prototypes, see [[ %s | %s ]].
-    After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'ÖNEMLİ: Yukarı akış, prototip uygulamaları için destek sağlamaz.
-    Phabricator, **gelişimin erken safhasında** olan prototip uygulamaları içerir. Varsayılan olarak, prototip uygulamaları yüklenmez, çünkü genellikle henüz kullanılabilir olacak kadar gelişmemiştir. Phabricator geliştiriyorsanız veya yaklaşan özellikleri önizlemek istiyorsanız bu seçeneği yüklemek için bu seçeneği etkinleştirebilirsiniz.
-    Prototipler hakkında daha fazla bilgi edinmek için, [[ %s | %s ]] sayfasına bakın.
-    Prototipleri etkinleştirdikten sonra, bunları normal olarak kaldırabilirsiniz (normal uygulamalar gibi).',
+      'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
+    Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
+    You may be able to resolve this issue by updating this server, since a newer version of the software is likely to be able to parse the newer version string.
+    If updating the software does not fix this, you can report the issue to the upstream so we can adjust the parser.
+    If you are confident you have a recent version of "%s" installed and working correctly, it is usually safe to ignore this warning.' => '"%s" sürüm numarası belirlenemedi. Genellikle bu, programın son zamanlarda sürüm biçimi dizesini değiştirdiği ve Phabricator\'ın yeni olanı henüz ayrıştırmadığını bilmediği, ancak çok eski (veya bozuk) bir ikili dosyaya sahip olduğunuzu gösterebileceği anlamına gelir.
+    Sürüm numarasını belirleyemediğimiz için, minimum ve bilinen kötü sürümlere karşı kontroller atlanacaktır, bu nedenle uyumsuz bir ikili dosyayı tespit edemeyebiliriz.
+    Phabricator\'ın daha yeni bir sürümü daha yeni sürüm dizesini ayrıştırabileceğinden, bu sorunu Phabricator\'ı güncelleyerek çözebilirsiniz.
+    Phabricator\'ı güncellemek bu sorunu çözmezse, ayrıştırıcıyı ayarlayabilmemiz için sorunu yukarı akışa bildirebilirsiniz.
+    "%s" dosyasının son sürümünün kurulu ve doğru şekilde çalıştığından eminseniz, bu uyarıyı yok saymak genellikle güvenlidir.',
       'For conduit, the Conduit method which was invoked.' => 'Boru için, çağrılan Boru yöntemi.',
-      'The configured PATH includes a component which is not usable. Phabricator will be unable to find or execute binaries located here:
-    %s
-    The user that the webserver runs as must be able to read all the directories in PATH in order to make use of them.' => 'Yapılandırma edilen PATH, kullanılamayan bir bileşen içerir. Phabricator, burada bulunan ikili dosyaları bulamaz veya yürütemez:
-    %s
-    Web sunucusunun çalıştığı kullanıcı, bundan faydalanabilmek için PATH içindeki tüm dizinleri okuyabilmelidir.',
       'The configuration option \'%s\' is not set.' => '\'%s\' yapılandırma seçeneği ayarlanmamış.',
       'Enable recaptcha to require users solve captchas after a few failed login attempts. This hinders brute-force attacks against user passwords. For more information, see http://recaptcha.net/' => 'Birkaç başarısız giriş denemesinden sonra kullanıcıların captcha\'ları çözmesini istemek için recaptcha\'yı etkinleştirin. Bu, kullanıcı parolalarına karşı kaba kuvvet saldırılarını engeller. Daha fazla bilgi için, http://recaptcha.net/ bağlantıya bakın',
       'Stop Before HTTP Redirect' => 'HTTP Yönlendirmesinden Önce Durdur',
@@ -673,62 +672,93 @@ final class PhabricatorConfigTr
       'Remove PHP %s' => 'PHP %s kaldır',
       'Missing' => 'Eksik',
       'Classes must match to compare schemata!' => 'Sınıflar şemayı karşılaştırmak için eşleşmelidir!',
+      'Set the URI where this software is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.' => 'Phabricator\'ın kurulu olduğu URI\'yı ayarlayın. Bunu ayarlamak, çerezlerin diğer alanlarda ayarlanmasını önleyerek güvenliği artırır ve artalanların doğru etki alanına sahip bağlantıları olan e-postalar göndermesine izin verir.',
       'Elasticsearch Index Not Found' => 'Elasticsearch Enkdesi Bulunamadı',
       'Unit test value.' => 'Birim test değeri.',
       'A daemon is running as user %s, but daemons should be running as %s.
     Either adjust the configuration setting %s or restart the daemons. Daemons should attempt to run as the proper user when restarted.' => 'Bir daemon %s kullanıcısı olarak çalışıyor, ancak daemonlar %s olarak çalışıyor olmalıdır.
     Ya %s yapılandırma ayarını yapın ya da arka plan pencerelerini yeniden başlatın. Daemonlar, yeniden başlatıldığında uygun kullanıcı olarak çalışmaya çalışmalıdır.',
       'Missing Key' => 'Eksik Anahtar',
+      'Database host "%s" is configured with a very small %s (%s). This may cause poor database performance and lock exhaustion.
+    There are no hard-and-fast rules to setting an appropriate value, but a reasonable starting point for a standard install is something like 40%% of the total memory on the machine. For example, if you have 4GB of RAM on the machine you have installed this software on, you might set this value to %s.
+    You can read more about this option in the MySQL documentation to help you make a decision about how to configure it for your use case. There are no concerns specific to this software which make it different from normal workloads with respect to this setting.
+    To adjust the setting, add something like this to your %s file (in the %s section), replacing %s with an appropriate value for your host and use case. Then restart %s:
+    %s
+    If you\'re satisfied with the current setting, you can safely ignore this setup warning.' => 'Veritabanı ana bilgisayarı "%s" çok küçük bir %s (%s) ile yapılandırıldı. Bu, kötü veritabanı performansına ve kilit tükenmesine neden olabilir.
+    Uygun bir değer ayarlamak için zor ve hızlı kurallar yoktur, ancak standart bir kurulum için makul bir başlangıç noktası, makinedeki toplam belleğin %%40\'ı gibi bir şeydir. Örneğin, Phabricator\'ı yüklediğiniz makinede 4GB RAM varsa, bu değeri %s olarak ayarlayabilirsiniz.
+    Kullanım durumunuz için nasıl yapılandıracağınıza karar vermenize yardımcı olması için MySQL belgelerinde bu seçenek hakkında daha fazla bilgi edinebilirsiniz. Bu ortama göre normal iş yüklerinden farklı kılan Phabricator\'a özgü hiçbir endişe yoktur.
+    Ayarı yapmak için %s dosyanıza (%s bölümünde) buna benzer bir şey ekleyin; %s ana makineniz ve kullanım durumunuz için uygun bir değerle değiştirin. Sonra %s yeniden başlatın:
+    %s
+    Geçerli ayardan memnunsanız, bu kurulum uyarısını güvenle yok sayabilirsiniz.',
       'Expected Nullable' => 'Beklenen Sıfırlanabilir',
       'Disable SSH log.' => 'SSH günlüğünü devre dışı bırakın.',
+      'Set a string this software should use to prefix cookie names.' => 'Phabricator\'ın çerez adlarını önek olarak kullanması için bir dize ayarlayın.',
       'No databases have any issues.' => 'Hiçbir veritabanının sorunu yoktur.',
+      'If the web server responds to both HTTP and HTTPS requests but you want users to connect with only HTTPS, you can set this to `true` to make this service redirect HTTP requests to HTTPS.
+    Normally, you should just configure your server not to accept HTTP traffic, but this setting may be useful if you originally used HTTP and have now switched to HTTPS but don\'t want to break old links, or if your webserver sits behind a load balancer which terminates HTTPS connections and you can not reasonably configure more granular behavior there.
+    IMPORTANT: A request is identified as HTTP or HTTPS by examining the PHP `%s` variable. If you run Apache/mod_php this will probably be set correctly for you automatically, but if you run as CGI/FCGI (e.g., through nginx or lighttpd), you need to configure your web server so that it passes the value correctly based on the connection type.
+    If you configure clustering, note that this setting is ignored by intracluster requests.' => 'Web sunucusu hem HTTP hem de HTTPS isteklerine yanıt veriyorsa ancak kullanıcıların yalnızca HTTPS ile bağlantı kurmasını istiyorsanız, Phabricator\'ın HTTP isteklerini HTTPS\'ye yönlendirmesi için bunu `true` olarak ayarlayabilirsiniz.
+    Normalde, sunucunuzu HTTP trafiğini kabul etmeyecek şekilde yapılandırmanız gerekir, ancak başlangıçta HTTP kullandıysanız ve şimdi HTTPS\'ye geçtiyseniz, ancak eski bağlantıları koparmak istemiyorsanız veya web sunucunuz bir yük dengeleyicinin arkasındaysa bu ayar yararlı olabilir HTTPS bağlantılarını sonlandırır ve burada daha ayrıntılı davranışları makul bir şekilde yapılandıramazsınız.
+    ÖNEMLİ: Phabricator, PHP `%s` değişkenini inceleyerek bir isteğin HTTPS olup olmadığını belirler. Apache/mod_php çalıştırırsanız, bu muhtemelen sizin için otomatik olarak doğru bir şekilde ayarlanır, ancak Phabricator\'ı CGI/FCGI olarak çalıştırırsanız (örneğin, nginx veya lighttpd aracılığıyla), web sunucunuzu değeri doğru şekilde geçecek şekilde yapılandırmanız gerekir. bağlantı türü.
+    Phabricator\'ı küme modunda yapılandırırsanız, bu ayarın intlusluster istekleri tarafından yoksayıldığını unutmayın.',
       'Option "%s" is of type "%s", but the configured value is not an integer.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bir tamsayı değildir.',
       'Notifications no longer have a dedicated debugging mode.' => 'Bildirimler artık özel bir hata ayıklama moduna sahip değil.',
       'Daemon Running as Wrong User' => 'Daemon Yanlış Kullanıcı Olarak Çalışıyor',
-      'Extending Phabricator' => 'Genişleyen Phabricator',
+      'This software sent itself a test request with an HTTP GET parameter, but the parameter was not transmitted. Sent "%s" with value "%s", got "%s" with value "%s".
+    Your webserver is configured incorrectly and large parts of this software will not work until this issue is corrected.
+    (This problem can be caused by a missing "QSA" in your RewriteRule.)' => 'Phabricator, bir HTTP GET parametresi ile kendisine bir test isteği gönderdi, ancak parametre iletilmedi. "%2$s" değeri ile "%1$s" gönderilen, "%4$s" değeri ile "%3$s" var.
+    Web sunucunuz yanlış yapılandırılmış ve bu sorun düzeltilene kadar Phabricator\'ın büyük bölümleri çalışmayacak.
+    (Bu soruna RewriteRule dosyanızdaki eksik "QSA" neden olabilir.)',
       'This ancient extension point has been replaced with other mechanisms, including "AphrontSite".' => 'Bu eski uzatma noktasının yerini "AphrontSite" dahil olmak üzere diğer mekanizmalar almıştır.',
       'You enabled Elasticsearch but the index does not exist.' => 'Elasticsearch\'ü etkinleştirdiniz, ancak dizin mevcut değil.',
       '%s Not Found' => '%s Bulunamadı',
-      'Phabricator PHP 7 Compatibility Information' => 'Phabricator PHP 7 Uyumluluk Bilgisi',
       'Write SSH error log here.' => 'SSH hata günlüğünü buraya yazın.',
       'Your `%s` configuration contains a port number, but this usage is deprecated. Instead, put the port number in `%s`.' => '`%s` yapılandırmanız bir bağlantı noktası numarası içeriyor, ancak bu kullanım kullanımdan kaldırıldı. Bunun yerine, bağlantı noktası numarasını `%s` olarak girin.',
       'Elasticsearch Index Schema Mismatch' => 'Elasticsearch Dizin Şeması Uyumsuzluğu',
       'Column has Wrong Autoincrement' => 'Sütunda Yanlış Otomatik Aralık var',
+      'Enable the debugging console.' => 'Phabricator\'ın hata ayıklama konsolunu etkinleştirin.',
       'Specify the configuration key you want to set.' => 'Ayarlamak istediğiniz yapılandırma anahtarını belirtiniz.',
       'Memory Limit Restricts File Uploads' => 'Bellek Sınırı Dosya Yüklemelerini Kısıtlıyor',
       'Cache Entries' => 'Önbellek Girişleri',
       'Unknown column type "%s"!' => 'Bilinmeyen sütun türü "%s"!',
       'Configured location for storing uploaded files on disk ("%s") does not exist, or is not readable or writable. Verify the directory exists and is readable and writable by the webserver.' => 'Yüklenen dosyaları diskte saklamak için yapılandırılmış konum ("%s") mevcut değil veya okunamıyor veya yazılabilir değil. Dizinin var olduğunu ve web sunucusu tarafından okunabilir ve yazılabilir olduğunu doğrulayın.',
       'Notifications User Guide: Setup and Configuration' => 'Bildirimler Kullanıcı Kılavuzu: Kurulum ve Yapılandırma',
+      'This software sent itself a test request with the "X-Setup-SelfCheck" header and expected to get a valid JSON response back. Instead, the response begins:
+    %s
+    Something is misconfigured or otherwise mangling responses.' => 'Phabricator, "X-Phabricator-SelfCheck" üstbilgisiyle bir test isteği gönderdi ve geçerli bir JSON yanıtı alması bekleniyor. Bunun yerine, yanıt başlar:
+    %s
+    Bir şey yanlış yapılandırılmış veya yanıtları başka şekillerde yönetiyor.',
       'Key is Too Long' => 'Anahtar Çok Uzun',
       '\'%s\' Missing' => '\'%s\' Eksik',
       'Configure database read replicas.' => 'Veritabanı okuma kopyalarını yapılandırın.',
       'Elasticsearch Misconfigured' => 'Elasticsearch Yanlış Yapılandırıldı',
       'Amazon S3 is Only Partially Configured' => 'Amazon S3 Yalnızca Kısmen Yapılandırılmış',
-      'Phabricator no longer supports global customization of monospaced fonts.' => 'Phabricator artık sabit aralıklı yazı tiplerinin küresel olarak özelleştirilmesini desteklemiyor.',
       '<none>' => '<hiçbiri>',
       'Customize favicons.' => 'Faviconları özelleştirin.',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because it is not traversable (its \'%s\' permission bit is not set).' => 'PATH bileşeni \'%s\' (mutlak yol \'%s\' olarak çözülür) kullanılamaz çünkü kullanılamaz (\'%s\' izin biti ayarlanmamıştır).',
       'No Repositories' => 'Depo Yok',
       '%s deleted this configuration entry.' => '%s bu yapılandırma girişini sildi.',
       'After rebuilding repository identities, run this command to clear this setup warning:' => 'depo kimliklerini yeniden oluşturduktan sonra, bu kurulum uyarısını silmek için şu komutu çalıştırın:',
+      'The timezone this software should use by default.' => 'Saat dilimi Phabricator kullanmalıdır.',
       'Mail is now always delivered by the daemons.' => 'Mail artık her zaman daemon tarafından teslim ediliyor.',
       'Request has bad "Host" header.' => 'İstekte kötü "Ana Bilgisayar" başlığı var.',
       'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.' => 'Subversion\'un bu sürümü, 1.7.2\'de düzeltilen rN\'ye (Subversion sorunu #2873) eklenen dosyalar için `%s` çalışmadığı bir hataya sahip.',
       'Elasticsearch is not reachable as configured.' => 'Elasticsearch\'e yapılandırıldığı gibi ulaşılamıyor.',
       'Key has Wrong Uniqueness' => 'Anahtarın Tekliği Yanlış',
+      'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
+    Note that you can also put binaries in `%s` (for example, by symlinking them).
+    The current value of PATH after configuration is applied is:
+      lang=text
+      %s' => 'Phabricator zaman zaman sunucudaki diğer ikili dosyalara kabuk oluşturur. Buna bir örnek, PHP dışındaki dillerde yazılan kodu sözdizimi-vurgulamak için kullanılan `%s` komutudur. Varsayılan olarak, bu ikili dosyaların Phabricator\'ı çalıştıran kullanıcının %s üzerindeolduğu varsayılır (normalde \'apache\', \'httpd\' veya \'nobody\'). Burada, bu ikili dosyalar standart olmayan konumlarda olduğunda %s ortam değişkenine ekstra dizinler ekleyebilirsiniz.
+    İkili dosyaları "%s" üzerinde koyabileceğinizi unutmayın (örneğin, işaretleyerek).
+    Yapılandırma uygulandıktan sonra geçerli PATH değeri:
+      lang=text
+      %s',
       'Determines whether or not basic account information is editable.' => 'Temel hesap bilgilerinin düzenlenebilir olup olmadığını belirler.',
       'Get a local configuration value.' => 'Yerel bir yapılandırma değeri edinin.',
       'The base URI for this install is not configured. Many major features will not work properly until you configure it.' => 'Bu yükleme için temel URI yapılandırılmadı. Pek çok ana özellik siz yapılandırıncaya kadar düzgün çalışmaz.',
       'Unexpected \'diff\' Behavior' => 'Beklenmedik \'diff\' Davranışı',
       'The \'%s\' binary on this system has unexpected behavior: it was expected to exit with a nonzero error code when passed differing files, but did not.' => 'Bu sistemdeki \'%s\' ikili dosyasının beklenmedik bir davranışı var: farklı dosyalar iletildiğinde sıfır olmayan bir hata kodu ile çıkması bekleniyordu, ancak olmadı.',
-      'PHP is currently configured to honor requests from any MySQL server it connects to for the content of any local file.
-    This capability supports MySQL "LOAD DATA LOCAL INFILE" queries, but allows a malicious MySQL server read access to the local disk: the server can ask the client to send the content of any local file, and the client will comply.
-    Although it is normally difficult for an attacker to convince Phabricator to connect to a malicious MySQL server, you should disable this option: this capability is unnecessary and inherently dangerous.
-    To disable this option, set: %s' => 'PHP şu anda herhangi bir yerel dosyanın içeriği için bağlandığı herhangi bir MySQL sunucusundan gelen istekleri karşılayacak şekilde yapılandırılmıştır.
-    Bu özellik MySQL "VERİ YEREL DOSYASI YÜKLE" sorgularını destekler, ancak kötü amaçlı bir MySQL sunucusunun yerel diske okuma erişimine izin verir: sunucu istemciden herhangi bir yerel dosyanın içeriğini göndermesini isteyebilir ve istemci uyumlu olacaktır.
-    Bir saldırganın Phabricator\'ı kötü amaçlı bir MySQL sunucusuna bağlanmaya ikna etmesi normalde zor olsa da, bu seçeneği devre dışı bırakmalısınız: bu özellik gereksizdir ve doğası gereği tehlikelidir.
-    Bu seçeneği devre dışı bırakmak için şunu ayarlayın: %s',
       'You can ignore an issue if you don\'t want to fix it, or plan to fix it later. Ignored issues won\'t appear on every page but will still be shown in the list of open issues.' => 'Düzeltmek istemiyorsanız bir sorunu yoksayabilir veya daha sonra düzeltmeyi planlayabilirsiniz. Yok sayılan sorunlar her sayfada görünmez, ancak yine de açık sorunlar listesinde gösterilir.',
       'Enter value in JSON.' => 'JSON\'a değer girin.',
       'Migrated option "%s" from file to local config.' => 'Dosyadan yerel yapılandırmaya "%s" seçeneği taşındı.',
@@ -737,6 +767,7 @@ final class PhabricatorConfigTr
       'Inbound and outbound mail is now configured with "cluster.mailers".' => 'Gelen ve giden postalar artık "cluster.mailers" ile yapılandırıldı.',
       'Config \'%s\' Invalid' => '\'%s\' Yapılandırması Geçersiz',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'Bir veritabanı ana bilgisayarı ("%s") ve bu web ana makinesi ("%s") şimdiki zamana 60 saniyeden fazla katılmıyor (mutlak eğrilik %s). Geçerli saatin her yerde doğru ayarlandığını kontrol edin.',
+      'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator görüntüleri işleyemez veya yeniden boyutlandıramaz (örneğin, küçük resimler oluşturmak için). \'%s\' yükleyin veya etkinleştirin.',
       'Never suppress email' => 'Asla e-postayı bastırmayın',
       'No Recipient Hints' => 'Alıcı İpucu Yok',
       'Sample 0.1%% of requests.' => 'Örnek taleplerin %%0.1\'i.',
@@ -749,17 +780,12 @@ final class PhabricatorConfigTr
       'Multi-Factor Required' => 'Çok Faktör Gerekli',
       'Host: %s' => 'Ev Sahibi: %s',
       'URI that Phurl will use to shorten URLs.' => 'Phurl\'un URL\'leri kısaltmak için kullanacağı URI.',
+      'Reply hints are no longer shown in mail.' => 'Phabricator artık postadaki yanıt ipuçlarını göstermiyor.',
       'Profile every request (slow)' => 'Her isteği profil haline getir (yavaş)',
       'Resolved Issue' => 'Çözülen Sorun',
       'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Bu seçenek genellikle yararlı olmadı. Kaynak karması anahtarları artık otomatik olarak yönetiliyor.',
-      'To enable the Phabricator access log, specify a path. The Phabricator access than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
-    If not set, no log will be written.' => 'Phabricator erişim günlüğünü etkinleştirmek için bir yol belirtin. Phabricator erişimi normal HTTP erişim günlüklerine göre (örneğin, oturum açmış kullanıcıları, denetleyicileri ve diğer uygulama verilerini gösterebilir).
-    Ayarlanmazsa, günlük yazılmaz.',
       'Schema Status' => 'Şema Durumu',
       'To update these %d value(s), run these command(s) from the command line:' => 'Bu %s değerini güncellemek için komut satırından şu komutu çalıştırın:',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with Phabricator. Remove \'%s\' from your configuration to continue.' => 'PHP yapılandırmanızda \'%s\' etkin.
-    Bu seçenek Phabricator ile uyumlu değildir. Devam etmek için yapılandırmanızdan \'%s\' değerini kaldırın.',
       'Cache Storage' => 'Önbellek Depolama',
       'At least one daemon is currently running as the wrong user.' => 'En az bir arka plan programı şu anda yanlış kullanıcı olarak çalışıyor.',
       'Data Type' => 'Veri Türü',
@@ -777,28 +803,34 @@ final class PhabricatorConfigTr
       'Install applications which are still under development.' => 'Hala geliştirilmekte olan uygulamaları yükleyin.',
       'Dark' => 'Koyu',
       'GZip Compression May Not Be Enabled' => 'GZip Sıkıştırması Etkinleştirilmeyebilir',
+      'Typeahead strategies are now managed automatically.' => 'Phabricator artık daktilo stratejilerini otomatik olarak yönetiyor.',
       'Return to Open Issue List' => 'Açık Sayı Listesine Dön',
-      'Either the Phabricator schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.' => 'Elasticsearch için Phabricator şeması değişti veya Elasticsearch dizini otomatik olarak oluşturdu. Dizini yeniden oluşturmak için aşağıdaki komutu kullanın.',
       'Activate read-only mode for maintenance or disaster recovery.' => 'Bakım veya olağanüstü durum kurtarma için salt okunur modu etkinleştirin.',
       'PHP also loaded these %s configuration file(s):' => 'PHP ayrıca bu %s yapılandırma dosyasını da yükledi:',
       'Reading value from stdin...' => 'Stdin\'den değeri okunuyor...',
       'Option "%s" is of type "%s", but the value you provided is not a valid JSON list: when providing a set from the command line, specify it as a list of values in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => '"%s" seçeneği "%s" türündedir, ancak sağladığınız değer geçerli bir JSON listesi değil: komut satırından bir küme sağlarken, bunu JSON\'daki değerlerin listesi olarak belirtin. Kabuğunuzun değerini belirtmeniz gerekebilir (örneğin: \'["a", "b", ...]\').',
       'To rebuild the index, run this command:' => 'Dizini yeniden oluşturmak için şu komutu çalıştırın:',
+      'This software can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. 
+    For instructions on installing and enabling Pygments, see the %s configuration option.
+    If you do not want to install Pygments, you can ignore this issue.' => 'Phabricator varsayılan olarak birkaç dili vurgulayabilir, ancak Pygments\'ı (üçüncü taraf vurgulama aracı) yüklemek ve etkinleştirmek, daha fazla dil için sözdizimi vurgulaması ekleyecektir.
+    Pygments\'ı yükleme ve etkinleştirme talimatları için %s yapılandırma seçeneğine bakın.
+    Pygments\'ı yüklemek istemiyorsanız, bu sorunu göz ardı edebilirsiniz.',
       'Disable Recaptcha' => 'Recaptcha\'yı devre dışı bırak',
-      'This request did not include a "Host" header. This may mean that your webserver (like nginx or apache) is misconfigured so the "Host" header is not making it to Phabricator, or that you are making a raw request without a "Host" header using a tool or library.
-    If you are using a web browser, check your webserver configuration. If you are using a tool or library, check how the request is being constructed.
-    It is also possible (but very unlikely) that some other network device (like a load balancer) is stripping the header.
-    Requests must include a valid "Host" header.' => 'Bu istek bir "Ana Bilgisayar" başlığı içermiyordu. Bu, web sunucunuzun (nginx veya apache gibi) yanlış yapılandırıldığı ve "Ana Bilgisayar" üstbilgisinin Phabricator\'a gelmediği veya bir araç veya kitaplık kullanarak "Ana Bilgisayar" üstbilgisi olmadan ham istekte bulunduğunuz anlamına gelebilir.
-    Bir web tarayıcısı kullanıyorsanız, web sunucusu yapılandırmanızı kontrol edin. Bir araç veya kitaplık kullanıyorsanız, isteğin nasıl oluşturulduğunu kontrol edin.
-    Başka bir ağ cihazının (bir yük dengeleyici gibi) başlığı çıkarması da mümkündür (ancak pek olası değildir).
-    İstekler, geçerli bir "Ana Bilgisayar" başlığı içermelidir.',
       'Sample every request (slow).' => 'Her talebi örnekleyin (yavaş).',
+      'The daemons are not running, background processing (including sending email, rebuilding search indexes, importing commits, cleaning up old data, and running builds) can not be performed.
+    Use %s to start daemons. See %s for more information.' => 'Phabricator arka plan programı çalışmıyor, bu nedenle Phabricator arka plan işleme gerçekleştiremeyecek (e-posta gönderme, arama dizinlerini yeniden oluşturma, taahhütleri içe aktarma, eski verileri temizleme ve yapıları çalıştırma dahil).
+    Daemons başlatmak için %s kullanın. Daha fazla bilgi için %s bakın.',
       '\'%s\' binary not found or Imagemagick is not installed.' => '\'%s\' ikili bulunamadı veya Imagemagick kurulu değil.',
       'Unsafe MySQL "local_infile" Setting Enabled' => 'Güvenli Olmayan MySQL "local_infile" Ayarı Etkin',
+      'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of the software.
+    You can configure Webhooks in Herald.
+    To resolve this issue, remove all URIs from "feed.http-hooks".' => '"feed.http-hooks" seçeneği Webhooks lehine kullanımdan kaldırılmıştır. Bu seçenek Phabricator\'ın gelecekteki bir sürümünde kaldırılacak.
+    Webhook\'ları Herald\'da yapılandırabilirsiniz.
+    Bu sorunu gidermek için, tüm beslemeleri "feed.http-hooks" klasöründen kaldırın.',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' does not exist.' => 'PATH bileşeni \'%s\' (\'%s\' mutlak yolu olarak çözülür) kullanılamaz çünkü \'%s\' mevcut değildir.',
       'The search index algorithm has been updated and the index needs be rebuilt.' => 'Arama dizini algoritması güncellendi ve dizinin yeniden oluşturulması gerekiyor.',
-      'Phabricator has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Phabricator %2$s içinde %1$s kullanılabilir, ancak ikilik %s olarak çalıştırıldığında bir hata kodu ile çıkıldı. Doğru takıldığından emin olun.',
       'The current PHP configuration has these %d value(s):' => 'Geçerli PHP yapılandırması şu %s değerine sahiptir:',
+      'Database host "%s" is configured as a master, but is replicating another host. This is dangerous and can mangle or destroy data. Only replicas should be replicating. Stop replication on the host or adjust configuration.' => 'Veritabanı ana bilgisayarı "%s" bir ana sunucu olarak yapılandırıldı, ancak başka bir ana bilgisayarı çoğaltıyor. Bu tehlikelidir ve verileri değiştirebilir veya yok edebilir. Yalnızca kopyalar çoğaltılmalıdır. Ana bilgisayarda çoğaltmayı durdurun veya Phabricator\'ı yeniden yapılandırın.',
       'This issue is currently ignored, and does not show a global warning.' => 'Bu sorun şu anda yok sayılıyor ve genel bir uyarı göstermiyor.',
       'Cache Status' => 'Önbellek Durumu',
       'You have at least one repository configured which uses this version control system. It will not work without the VCS binary.' => 'Bu sürüm kontrol sistemini kullanan en az bir deponuz yapılandırılmış. VCS ikili olmadan çalışmaz.',
@@ -819,112 +851,75 @@ final class PhabricatorConfigTr
       'The \'%s\' binary could not be located or executed.' => '\'%s\' ikili dosyası bulunamadı veya yürütülemedi.',
       'Show Email Preferences Link' => 'E-posta Tercihleri Bağlantısını Göster',
       'Confirm before redirecting so DarkConsole can be examined.' => 'DarkConsole\'un incelenebilmesi için yönlendirmeden önce onaylayın.',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with Phabricator. Disable \'%s\' in your PHP configuration to continue.' => 'PHP yapılandırmanızda \'%s\' etkin.
-    Bu seçenek Phabricator ile uyumlu değildir. Devam etmek için PHP yapılandırmanızdaki \'%s\' değerini devre dışı bırakın.',
-      'WARNING: This is a very advanced option, and only useful for hosting providers running multi-tenant clusters.
-    If you provide an instance identifier here (normally by injecting it with a `%s`), Phabricator will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'UYARI: Bu çok gelişmiş bir seçenektir ve yalnızca çok kiracılı kümeler çalıştıran sağlayıcılar için yararlıdır.
-    Burada bir örnek tanımlayıcı sağlarsanız (normalde bunu `%s` ile enjekte ederek), Phabricator bunu alt işlemlere geçirir ve `%s` çevresel değişkenindeki kancaları işler.',
-      'Phabricator can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. 
-    For instructions on installing and enabling Pygments, see the %s configuration option.
-    If you do not want to install Pygments, you can ignore this issue.' => 'Phabricator varsayılan olarak birkaç dili vurgulayabilir, ancak Pygments\'ı (üçüncü taraf vurgulama aracı) yüklemek ve etkinleştirmek, daha fazla dil için sözdizimi vurgulaması ekleyecektir.
-    Pygments\'ı yükleme ve etkinleştirme talimatları için %s yapılandırma seçeneğine bakın.
-    Pygments\'ı yüklemek istemiyorsanız, bu sorunu göz ardı edebilirsiniz.',
+      'Define a cluster by providing a whitelist of host addresses that are part of the cluster.
+    Hosts on this whitelist have special powers. These hosts are permitted to bend security rules, and misconfiguring this list can make your install less secure. For more information, see **[[ %s | %s ]]**.
+    Define a list of CIDR blocks which whitelist all hosts in the cluster and no additional hosts. See the examples below for details.
+    When cluster addresses are defined, hosts will also reject requests to interfaces which are not whitelisted.' => 'Kümenin parçası olan ana bilgisayar adreslerinin bir beyaz listesini sağlayarak bir Phabricator kümesi tanımlayın.
+    Bu beyaz listedeki sunucuların özel yetkileri vardır. Bu ana makinelerin güvenlik kurallarını bükmesine izin verilir ve bu listenin yanlış yapılandırılması yüklemenizi daha az güvenli hale getirebilir. Daha fazla bilgi için, **[[ %s | %s ]]** sayfasına bakın.
+    Kümedeki tüm ana bilgisayarları beyaz listeye ekleyen ve ek ana bilgisayar içermeyen CIDR bloklarının bir listesini tanımlayın. Ayrıntılar için aşağıdaki örneklere bakın.
+    Küme adresleri tanımlandığında, Phabricator ana bilgisayarları da beyaz listedeki olmayan arabirimlere yönelik istekleri reddeder.',
       'On host "%s", MySQL is configured with a small "%s" (%d), which may cause some large writes to fail. The recommended minimum value for this setting is "%d".' => '"%s" ana bilgisayarında, MySQL küçük bir "%s" (%s) ile yapılandırılır, bu da bazı büyük yazma işlemlerinin başarısız olmasına neden olabilir. Bu ayar için önerilen minimum değer "%s".',
       'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not a directory.' => '\'%s\' bir dizin olmadığından PATH bileşeni \'%3$s\' (\'%2$s\' mutlak yolu olarak çözülür) kullanılamaz.',
-      'Unable to connect to MySQL!
-    %s
-    Make sure Phabricator and MySQL are correctly configured.' => 'Mysql\'e bağlanılamıyor!
-    %s
-    Phabricator ve MySQL\'in doğru yapılandırıldığından emin olun.',
-      'Phabricator sent itself a test request with an "Authorization" HTTP header, and expected those credentials to be transmitted. However, they were absent or incorrect when received. Phabricator sent username "%s" with password "%s"; received username "%s" and password "%s".
-    Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.' => 'Phabricator, kendisine "Yetkilendirme" HTTP üstbilgisi ile bir test isteği gönderdi ve bu kimlik bilgilerinin iletilmesini bekledi. Bununla birlikte, alındıklarında eksik veya yanlıştılar. Phabricator "%2$s" parolası ile "%1$s" kullanıcı adını gönderdi; "%s" kullanıcı adı ve "%s" parolasını aldı.
-    Web sunucunuz HTTP temel kimlik doğrulamasını iletecek şekilde yapılandırılmamış olabilir. Temel kimlik doğrulamayı kullanmayı planlıyorsanız (örneğin, depolara erişmek için) yeniden yapılandırmanız gerekir.',
-      'After installing new PHP extensions, <strong>restart Phabricator for the changes to take effect</strong>. For help with restarting Phabricator, see %s in the documentation.' => 'Yeni PHP uzantılarını yükledikten sonra, <strong>değişikliklerin etkili olması için Phabricator\'ı yeniden başlatın</strong>. Phabricator\'ı yeniden başlatmayla ilgili yardım için belgelerdeki %s bakın.',
+      'Normally, pages are profiled only when explicitly requested via DarkConsole. However, it may be useful to profile some pages automatically.
+    Set this option to a positive integer N to profile 1 / N pages automatically. For example, setting it to 1 will profile every page, while setting it to 1000 will profile 1 page per 1000 requests (i.e., 0.1%% of requests).
+    Since profiling is slow and generates a lot of data, you should set this to 0 in production (to disable it) or to a large number (to collect a few samples, if you\'re interested in having some data to look at eventually). In development, it may be useful to set it to 1 in order to debug performance problems.
+    NOTE: You must install XHProf for profiling to work.' => 'Normalde Phabricator, sayfaları yalnızca DarkConsole aracılığıyla açıkça istendiğinde profil oluşturur. Ancak, bazı sayfaların otomatik olarak profillenmesi yararlı olabilir.
+    Bu seçeneği otomatik olarak profil 1 / N sayfalarına pozitif bir N tamsayısına ayarlayın. Örneğin, 1 olarak ayarlandığında her sayfa profillenirken, 1000 olarak ayarlandığında 1000 istek başına 1 sayfa (yani, isteklerin %%0.1\'i) profillenir.
+    Profil oluşturma yavaş olduğundan ve çok fazla veri oluşturduğundan, bunu üretimde 0 olarak (devre dışı bırakmak için) veya çok sayıda olarak ayarlamanız gerekir (sonunda örnek olarak bakmak için bazı verilerinizle ilgileniyorsanız birkaç örnek toplamak için). Geliştirme sırasında, performans sorunlarını ayıklamak için 1\'e ayarlamak yararlı olabilir.
+    NOT: Profil oluşturmanın çalışması için XHProf\'u yüklemeniz gerekir.',
       'Missing "zip" Extension' => 'Eksik "zip" Uzantısı',
       'Set the language list which appears in dropdowns.' => 'Açılır pencerelerde görünen dil listesini ayarlayın.',
       'Inverse' => 'Ters',
       'Deprecated Config Source' => 'Kullanımdan Kaldırılmış Yapılandırma Kaynağı',
       'Indefinite' => 'Süresiz',
-      'You can rebuild the search index while Phabricator is running.' => 'Phabricator çalışırken arama dizinini yeniden oluşturabilirsiniz.',
       'Edge Types' => 'Kenar Türleri',
       'Disable access log.' => 'Erişim günlüğünü devre dışı bırakın.',
       'Logo configuration is not valid: value must be a dictionary.' => 'Logo yapılandırması geçerli değil: değer bir sözlük olmalıdır.',
       'Really ignore this setup issue?' => 'Bu kurulum sorununu gerçekten yok sayıyor musunuz?',
       'Config option "%s" is invalid. The URI must start with "%s" or "%s".' => 'Yapılandırma seçeneği "%s" geçersiz. URI "%s" veya "%s" ile başlamalıdır.',
-      'Phabricator supports syntax highlighting a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make Phabricator use Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear Phabricator\'s caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator, varsayılan olarak birkaç dili vurgulayan sözdizimini destekler, ancak daha birçok dile destek sağlamak için Pygments\'ı (üçüncü taraf sözdizimi vurgulama aracı) yükleyebilirsiniz.
-    Pygments\'ı yüklemek için [[ http://pygments.org | pygments.org ]] ve indirme ve yükleme talimatlarını izleyin.
-    Pygments yüklendikten sonra, Phabricator\'ın kaynak kodunu vurgularken Pygments kullanmasını sağlamak için bu seçeneği (`pygments.enabled`) etkinleştirin.
-    Pygments\' yükleyip etkinleştirdikten sonra, yeni oluşturulan kaynak kodunun (diffs ve macunlar gibi) doğru şekilde vurgulanması gerekir. Önceden var olan kaynak kodunu vurgulamak için Phabricator\'ın önbelleklerini temizlemeniz gerekebilir. Önbellekleri yönetmeyle ilgili talimatlar için, [[ %s | Önbellekleri Yönetme ]] sayfasına bakın.',
       'Options relating to syntax highlighting source code.' => 'Sözdizimi vurgulama kaynak kodu ile ilgili seçenekler.',
       'Allow HTTP' => 'HTTP\'ye izin ver',
-      'The current Phabricator configuration has these %d value(s):' => 'Mevcut Phabricator yapılandırması şu %s değerine sahiptir:',
       'Simple Example' => 'Basit Örnek',
       'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => 'Phabricator\'ın "bakım" kullanıcılarından gelen e-postaların bastırılmasına izin verip vermediğini kontrol eder.',
       'Synchronized' => 'Senkronize',
+      'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'Kullanılabilir REMOTE_ADDR yok, bu nedenle Phabricator istekler için başlangıç adresini belirleyemiyor. Bu, Phabricator\'ın önemli güvenlik kontrolleri yapmasını engelleyecektir. Bu en sık, başlangıç senaryosunda bir hata olduğu anlamına gelir. Dokümanlara (%s) bakın ve komut dosyasının doğru yazıldığını tekrar kontrol edin.',
       'Access key for Amazon EC2.' => 'Amazon EC2 için erişim anahtarı.',
       '%s Component Unusable' => '%s Bileşen Kullanılamıyor',
       'Unsynchronized' => 'Eşitlenmemiş',
+      'Available search engines are now automatically discovered at runtime.' => 'Phabricator artık çalışma zamanında mevcut arama motorlarını otomatik olarak keşfediyor.',
       'Key for HMAC digests.' => 'HMAC özetlerinin anahtarı.',
       'The request duration, in microseconds.' => 'Mikrosaniye cinsinden istek süresi.',
-      'Phabricator now supports arbitrarily large files. Consult the documentation for configuration details.' => 'Phabricator artık büyük dosyaları desteklemektedir. Yapılandırma ayrıntıları için belgelere bakın.',
       'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.' => 'S3 grubunuzun bulunduğu Amazon S3 bölgesi. Bir bölge belirttiğinizde, `amazon-s3.endpoint` ile karşılık gelen bir bitiş noktası da belirtmelisiniz. Kullanılabilir bölgelerin ve uç noktaların bir listesini AWS belgelerinde bulabilirsiniz.',
-      'To enable the Phabricator SSH log, specify a path. The access log can provide more detailed information about SSH access than a normal SSH log (for instance, it can show logged-in users, commands, and other application data).
-    If not set, no log will be written.' => 'Phabricator SSH günlüğünü etkinleştirmek için bir yol belirtin. Erişim günlüğü, SSH erişimi hakkında normal bir SSH günlüğünden daha ayrıntılı bilgi sağlayabilir (örneğin, oturum açmış kullanıcıları, komutları ve diğer uygulama verilerini gösterebilir).
-    Ayarlanmazsa, günlük yazılmaz.',
       'MySQL %s Not Supported' => 'MySQL %s Desteklenmiyor',
-      'The "InnoDB" engine is not available in MySQL (on host "%s"). Enable InnoDB in your MySQL configuration.
-    (If you aleady created tables, MySQL incorrectly used some other engine to create them. You need to convert them or drop and reinitialize them.)' => '"InnoDB" motoru MySQL\'de mevcut değildir ("%s" sunucusunda). MySQL yapılandırmanızda InnoDB\'yi etkinleştirin.
-    (Tabloları her zaman oluşturduysanız, MySQL bunları oluşturmak için yanlış bir şekilde başka bir motor kullandı. Bunları dönüştürmeniz veya bırakıp yeniden başlatmanız gerekir.)',
       'Option "%s" is of type "%s", but the current value ("%s") is not among the set of valid values: %s.' => '"%s" seçeneği "%s" türündedir, ancak geçerli değer ("%s") geçerli değerler kümesi arasında değil: %s.',
-      'Controls whether Phabricator sends email "From" users.' => 'Phabricator\'ın "Kimden" kullanıcılarına e-posta gönderip göndermeyeceğini denetler.',
       'Auth Application' => 'Kimlik Doğrulama Uygulaması',
+      'The environmental variable %s is empty. This server will not be able to execute some commands.' => 'Çevresel değişken %s boş. Phabricator bazı komutları yürütemez.',
       '%s.%s (%s)' => '%s.%s (%s)',
       'All Differential fields are now managed through the configuration option "%s". Use that option to configure which fields are shown.' => 'Tüm Diferansiyel alanlar artık "%s" yapılandırma seçeneği ile yönetilmektedir. Hangi alanların gösterileceğini yapılandırmak için bu seçeneği kullanın.',
-      'By default, Phabricator includes some flavor text in the UI, like a prompt to "Weigh In" rather than "Add Comment" in Maniphest. If you\'d prefer more traditional UI strings like "Add Comment", you can set this flag to disable most of the extra flavor.' => 'Varsayılan olarak, Phabricator, Maniphest\'te "Yorum Ekle" yerine "Tartım" istemi gibi kullanıcı arayüzünde bazı lezzet metinleri içerir. "Yorum Ekle" gibi daha geleneksel kullanıcı arayüzü dizelerini tercih ediyorsanız, bu bayrağı ekstra lezzetin çoğunu devre dışı bırakacak şekilde ayarlayabilirsiniz.',
       'Use HSTS' => 'HSTS Kullan',
       'The current MySQL configuration has these %d value(s):' => 'Geçerli MySQL yapılandırması şu %s değerlere sahiptir:',
-      'Database host "%s" is configured with a very small %s (%s). This may cause poor database performance and lock exhaustion.
-    There are no hard-and-fast rules to setting an appropriate value, but a reasonable starting point for a standard install is something like 40%% of the total memory on the machine. For example, if you have 4GB of RAM on the machine you have installed Phabricator on, you might set this value to %s.
-    You can read more about this option in the MySQL documentation to help you make a decision about how to configure it for your use case. There are no concerns specific to Phabricator which make it different from normal workloads with respect to this setting.
-    To adjust the setting, add something like this to your %s file (in the %s section), replacing %s with an appropriate value for your host and use case. Then restart %s:
-    %s
-    If you\'re satisfied with the current setting, you can safely ignore this setup warning.' => 'Veritabanı ana bilgisayarı "%s" çok küçük bir %s (%s) ile yapılandırıldı. Bu, kötü veritabanı performansına ve kilit tükenmesine neden olabilir.
-    Uygun bir değer ayarlamak için zor ve hızlı kurallar yoktur, ancak standart bir kurulum için makul bir başlangıç noktası, makinedeki toplam belleğin %%40\'ı gibi bir şeydir. Örneğin, Phabricator\'ı yüklediğiniz makinede 4GB RAM varsa, bu değeri %s olarak ayarlayabilirsiniz.
-    Kullanım durumunuz için nasıl yapılandıracağınıza karar vermenize yardımcı olması için MySQL belgelerinde bu seçenek hakkında daha fazla bilgi edinebilirsiniz. Bu ortama göre normal iş yüklerinden farklı kılan Phabricator\'a özgü hiçbir endişe yoktur.
-    Ayarı yapmak için %s dosyanıza (%s bölümünde) buna benzer bir şey ekleyin; %s ana makineniz ve kullanım durumunuz için uygun bir değerle değiştirin. Sonra %s yeniden başlatın:
-    %s
-    Geçerli ayardan memnunsanız, bu kurulum uyarısını güvenle yok sayabilirsiniz.',
       'Show "To:" and "Cc:" footer hints in email.' => 'E-postada "Alıcı:" ve "Bilgi:" altbilgisi ipuçlarını göster.',
       'Write SSH log here.' => 'SSH günlüğünü buraya yazın.',
       'Migrate From "feed.http-hooks" to Webhooks' => '"feed.http-hooks" klasöründen Webhook\'ları geçiş',
       'You can find more information about configuring OPcache in the %s.' => 'OPcache yapılandırması hakkında daha fazla bilgiyi %s içinde bulabilirsiniz.',
       'PHP Timezone' => 'PHP Zaman Dilimi',
       'This option is not recognized. It may be misspelled.' => 'Bu seçenek tanınmıyor. Yanlış yazılmış olabilir.',
-      'Customized settings for Phabricator applications.' => 'Phabricator uygulamaları için özelleştirilmiş ayarlar.',
-      'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and Phabricator does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
-    Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
-    You may be able to resolve this issue by updating Phabricator, since a newer version of Phabricator is likely to be able to parse the newer version string.
-    If updating Phabricator does not fix this, you can report the issue to the upstream so we can adjust the parser.
-    If you are confident you have a recent version of "%s" installed and working correctly, it is usually safe to ignore this warning.' => '"%s" sürüm numarası belirlenemedi. Genellikle bu, programın son zamanlarda sürüm biçimi dizesini değiştirdiği ve Phabricator\'ın yeni olanı henüz ayrıştırmadığını bilmediği, ancak çok eski (veya bozuk) bir ikili dosyaya sahip olduğunuzu gösterebileceği anlamına gelir.
-    Sürüm numarasını belirleyemediğimiz için, minimum ve bilinen kötü sürümlere karşı kontroller atlanacaktır, bu nedenle uyumsuz bir ikili dosyayı tespit edemeyebiliriz.
-    Phabricator\'ın daha yeni bir sürümü daha yeni sürüm dizesini ayrıştırabileceğinden, bu sorunu Phabricator\'ı güncelleyerek çözebilirsiniz.
-    Phabricator\'ı güncellemek bu sorunu çözmezse, ayrıştırıcıyı ayarlayabilmemiz için sorunu yukarı akışa bildirebilirsiniz.
-    "%s" dosyasının son sürümünün kurulu ve doğru şekilde çalıştığından eminseniz, bu uyarıyı yok saymak genellikle güvenlidir.',
+      'You have \'%s\' enabled in your PHP configuration, but this software will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
+    Disable safe mode to continue.' => 'PHP yapılandırmanızda \'%s\' etkin, ancak Phabricator güvenli modda çalışmaz. Güvenli mod PHP 5.3\'te kullanımdan kaldırılmış ve PHP 5.4\'te kaldırılmıştır.
+    Devam etmek için güvenli modu devre dışı bırakın.',
       'Internal.' => 'Dahili.',
       'Advanced Settings' => 'Gelişmiş Ayarlar',
-      'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.' => 'Phabricator, varsayılan olarak PHP\'yi vurgulayabilir ve etkinleştirilirse diğer diller için Pygments\'ı kullanabilir. %s sınıfını genişleterek özel bir vurgulayıcı motoru sağlayabilirsiniz.',
       'SSH log format.' => 'SSH günlük biçimi.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator may not be able to determine the MIME types of uploaded files.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator yüklenen dosyaların MIME türlerini belirleyemeyebilir.',
+      'After installing new PHP extensions, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'Yeni PHP uzantılarını yükledikten sonra, <strong>değişikliklerin etkili olması için Phabricator\'ı yeniden başlatın</strong>. Phabricator\'ı yeniden başlatmayla ilgili yardım için belgelerdeki %s bakın.',
       'Default address used when generating mail.' => 'Posta oluşturulurken kullanılan varsayılan adres.',
+      'By default, this software serves files from the same domain the application is served from. This is convenient, but presents a security risk.
+    You should configure a CDN or alternate file domain to mitigate this risk. Configuring a CDN will also improve performance. See [[ %s | %s ]] for instructions.' => 'Varsayılan olarak Phabricator, uygulamanın sunulduğu aynı etki alanından dosyalar sunar. Bu uygundur, ancak bir güvenlik riski oluşturur.
+    Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırmalısınız. Bir CDN\'nin yapılandırılması da performansı artıracaktır. Talimatlar için [[ %s | %s ]] bakın.',
       'Learn more about locked and hidden options.' => 'Kilitli ve gizli seçenekler hakkında daha fazla bilgi edinin.',
-      'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. Phabricator must be installed on an entire domain; it can not be installed on a path.' => '\'%s\' yapılandırma seçeneği geçersiz. URI\'nin bir yolu OLMAMALIDIR, ör. \'%s\' iyidir, ancak \'%s\' doğru değil. Phabricator tüm bir alana kurulmalıdır; bir yola kurulamaz.',
+      'You must start the daemons to send email, rebuild search indexes, and do other background processing.' => 'E-posta göndermek, arama dizinlerini yeniden oluşturmak ve diğer arka plan işlemlerini yapmak için Phabricator cinlerini başlatmanız gerekir.',
+      'After editing the PHP configuration, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'PHP yapılandırmasını düzenledikten sonra, <strong>değişikliklerin etkili olması için Phabricator\'ı yeniden başlatın</strong>. Phabricator\'ı yeniden başlatmayla ilgili yardım için belgelerdeki %s bakın.',
       'Repository Status' => 'Depo Durumu',
       'Do Not Use HSTS' => 'HSTS Kullanmayın',
-      'Phabricator now has application-level management of partitioning and replicas.' => 'Phabricator artık bölümleme ve kopyaları uygulama düzeyinde yönetmektedir.',
       'PHP 7.0-7.1 Not Supported' => 'PHP 7.0-7.1 Desteklenmemektedir',
       'List all configuration keys.' => 'Tüm yapılandırma anahtarlarını listeleyin.',
       'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'Uygulama başına posta konusu öneki özelleştirmesi artık doğrudan desteklenmemektedir. Ön ekler ve diğer dizeler "translation.override" ile özelleştirilebilir.',
@@ -932,22 +927,14 @@ final class PhabricatorConfigTr
       'This will only affect the current web frontend. Daemons and any other web frontends may continue to use older, cached code from their opcache.' => 'Bu yalnızca geçerli web kullanıcı arabirimini etkiler. Daemonlar ve diğer web ön uçları, opcache\'lerinden daha eski, önbelleğe alınmış kod kullanmaya devam edebilir.',
       'Configure real-time notifications.' => 'Gerçek zamanlı bildirimleri yapılandırın.',
       'Surplus Key' => 'Fazlalık Anahtar',
-      'Make Phabricator even cooler!' => 'Phabricator\'ı daha da havalı yapın!',
       'Cluster Setup' => 'Küme Kurulumu',
       'Obsolete Configuration Option "%s"' => 'Eski Yapılandırma Seçeneği "%s"',
-      'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-    Upgrade %s to a patched version.
-    To learn more about how this issue affects Phabricator, see %s.' => 'Bu sistemdeki %s sürümü güncel değil ve büyük, geniş ölçüde açıklanan büyük bir güvenlik açığı içeriyor ("Shellshock" güvenlik açığı).
-    %s yamalı bir sürüme yükseltin.
-    Bu sorunun Phabricator\'ı nasıl etkilediği hakkında daha fazla bilgi için %s bakın.',
+      'The \'%s\' binary could not be found. Set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' ikili dosyası bulunamadı. Web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya Phabricator yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
       'Expected Autoincrement' => 'Beklenen Otomatik Artış',
-      'This version of Mercurial has a significant memory leak, fixed in 2.2.1. Pushing fails with this version as well; see %s.' => 'Mercurial\'ın bu sürümü, 2.2.1\'de sabitlenen önemli bir bellek sızıntısına sahiptir. Bu sürümde de itme başarısız oluyor; %s bakın.',
       'MySQL is configured (on host "%s") to only index words with at least %d characters.' => 'MySQL ("%s" sunucusunda) yalnızca en az %s karakter içeren kelimeleri endeksleyecek şekilde yapılandırılmıştır.',
       'Too many arguments: expected only a configuration key when using "--stdin".' => 'Çok fazla değişken: "--stdin" kullanılırken yalnızca bir yapılandırma anahtarı bekleniyordu.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, Phabricator will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator görüntüleri işleyemez veya yeniden boyutlandıramaz (örneğin, küçük resimler oluşturmak için). \'%s\' yükleyin veya etkinleştirin.',
-      'Phabricator Setup Error' => 'Phabricator Kurulum Hatası',
+      'Global customization of monospaced fonts is no longer supported.' => 'Phabricator artık sabit aralıklı yazı tiplerinin küresel olarak özelleştirilmesini desteklemiyor.',
       'Major Web/Database Clock Skew' => 'Büyük Web/Veritabanı Saati Eğriltme',
-      'The way Phabricator attributes VCS activity to Phabricator users has changed. There is a new indirection layer between the strings that appear as VCS authors and committers (such as "John Developer <johnd@bigcorp.com>") and the Phabricator user that gets associated with VCS commits. This is to support situations where users are incorrectly associated with commits by Phabricator making bad guesses about the identity of the corresponding Phabricator user. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with future Phabricator features which will rely on the existence of these identities.' => 'Phabricator\'ın VCS aktivitesini Phabricator kullanıcılarıyla ilişkilendirme şekli değişti. VCS yazarları ve iştirakçileri olarak görünen dizeler ("John Developer <johnd@bigcorp.com>" gibi) ile VCS işleyişleriyle ilişkili olan Phabricator kullanıcısı arasında yeni bir dolaylama katmanı vardır. Bu kullanıcıların ilgili Phabricator kullanıcısının kimliği hakkında kötü tahminler yaparak Phabricator tarafından yapılan taahhütlerle yanlış ilişkilendirildiği durumları desteklemek içindir. Bu aynı zamanda, mevcut depoların söz konusu depodaki tüm komiteler için hesap oluşturmadan içe aktarıldığı durumlarda da yardımcı olur. Bu depo kimliklerini yeniden inşa edene kadar, bu kimliklerin varlığına dayanan gelecekteki Phabricator özelliklerinde sorunlarla karşılaşmanız muhtemeldir.',
       'No repository cluster services are configured.' => 'Hiçbir depo kümesi hizmeti yapılandırılmamış.',
       'Syntax Highlighting' => 'Sözdizim Vurgulama',
       'This schema is not expected to exist.' => 'Bu şemanın olması beklenmemektedir.',
@@ -959,18 +946,41 @@ final class PhabricatorConfigTr
       'S3 Partially Configured' => 'S3 Kısmen Yapılandırılmış',
       'Migrate file-based configuration to more modern storage.' => 'Dosya tabanlı yapılandırmayı daha modern depolamaya taşıyın.',
       'Skipping config of source type %s...' => '%s kaynak türünün yapılandırması atlanıyor ...',
+      'This server received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with this software. You should disable the module.' => 'Phabricator, bu istekte bu sunucuda "mod_pagespeed"\'i etkinleştirdiğinizi belirten bir "X-Mod-Pagespeed" veya "X-Page-Speed" HTTP üstbilgisi aldı. Bu modül Phabricator ile uyumlu değildir. Devre dışı bırakmalısınız.',
       'No profiling' => 'Profil oluşturma yok',
       'PHID Types' => 'PHID Türleri',
       'Wrote configuration key "%s" to database storage.' => '"%s" yapılandırma anahtarını veritabanına yaz.',
       'The environmental variable %s does not contain %s. You have enabled pygments, which requires %s to be available in your %s variable.' => 'Çevresel değişken %s, %s içermez. Pıhtıları etkinleştirdiniz; bu, %4$s değişkeninizde %3$s olmasını gerektirir.',
       'Use Pygments' => 'Pigmentleri Kullanın',
       'Amazon Web Services' => 'Amazon Web Servisleri',
+      'Customized settings for applications.' => 'Phabricator uygulamaları için özelleştirilmiş ayarlar.',
       'US Central (CDT)' => 'ABD Merkez (CDT)',
       'Config option "%s" is invalid. The URI must contain a dot ("%s"), like "%s", not just a bare name like "%s". Some web browsers will not set cookies on domains with no TLD.' => 'Yapılandırma seçeneği "%s" geçersiz. URI yalnızca "%4$s" gibi çıplak bir ad değil, "%s" gibi bir nokta ("%2$s") içermelidir. Bazı web tarayıcıları, TLD bulunmayan alanlarda çerez ayarlamaz.',
       '%s Active' => '%s Aktif',
       'Subschemata Have Warnings' => 'Subschemata Uyarıları Var',
+      'Require Administrators to Approve Accounts' => 'Yöneticilerin Hesapları Onaylamalarını Gerektir',
+      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.' => 'Phabricator\'ın "Kime:" satırında birden çok alıcı içeren bir e-posta mı yoksa her biri "Kime:" satırında tek bir alıcısı olan birden fazla e-posta gönderip göndermeyeceğini denetler.',
+      'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Büyük dosya yüklemelerini desteklemek için PHP yapılandırmanızda %s en az 32MB olarak ayarlayın.',
+      'The system sudo user.' => 'Sistem sudo kullanıcısı.',
+      'MySQL %s Mode Not Set' => 'MySQL %s Modu Ayarlanmadı',
+      'Options for platform developers, including debugging.' => 'Hata ayıklama dahil olmak üzere Phabricator geliştiricileri için seçenekler.',
+      'A component of the configured PATH can not be used by the webserver: %s' => 'Yapılandırılmış PATH\'nin bir bileşeni web sunucusu tarafından kullanılamaz: %s',
+      'Allow a single mailbox to be used for all replies.' => 'Phabricator\'ın tüm yanıtlar için tek bir posta kutusu kullanmasına izin ver.',
+      'Use specific endpoint' => 'Belirli bir son nokta kullan',
+      'Configure Recaptcha captchas.' => 'Recaptcha captcha\'larını yapılandırın.',
+      'Report this Issue to the Upstream' => 'Bu Sorunu Membaya Bildirin',
+      'Disable SSH error log.' => 'SSH hata günlüğünü devre dışı bırak.',
+      'Options relating to PHD (daemons).' => 'Doktora ile ilgili seçenekler (daemonlar).',
+      'Repos' => 'Depolar',
+      'Database configuration.' => 'Veritabanı Yapılandırması',
+      'Option "%s" is of type "%s", but the current value ("%s") is not a known, concrete subclass of base class "%s". Valid selections are: %s.' => '"%s" seçeneği "%s" türündedir, ancak geçerli değer ("%s"), "%s" temel sınıfının bilinen, somut bir alt sınıfı değildir. Geçerli seçimler: %s.',
+      'Databases' => 'Veritabanları',
+      'Basic Example' => 'Temel Örnek',
+      '%s In / %s Out' => '%s Açık / %s Kapalı',
+      'Whitelist Specific Addresses' => 'Beyaz Listeye Özgü Adresler',
+      'Other Version Information' => 'Diğer Sürüm Bilgisi',
       'The base URI for this install is not configured, and major features will not work properly until you configure it.
-    You should set the base URI to the URI you will use to access Phabricator, like "http://phabricator.example.com/".
+    You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
     Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
     Based on this request, it appears that the correct setting is:
     %s
@@ -980,51 +990,20 @@ final class PhabricatorConfigTr
     Bu isteğe bağlı olarak, doğru ayarın aşağıdaki gibi olduğu görülmektedir:
     %s
     Temel URI\'yı yapılandırmak için, aşağıda gösterilen komutu çalıştırın.',
-      'Require Administrators to Approve Accounts' => 'Yöneticilerin Hesapları Onaylamalarını Gerektir',
-      'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Büyük dosya yüklemelerini desteklemek için PHP yapılandırmanızda %s en az 32MB olarak ayarlayın.',
-      'The system sudo user.' => 'Sistem sudo kullanıcısı.',
-      'MySQL %s Mode Not Set' => 'MySQL %s Modu Ayarlanmadı',
-      'Phabricator Daemons Are Not Running' => 'Phabricator Daemonlar Çalışmıyor',
-      'A component of the configured PATH can not be used by the webserver: %s' => 'Yapılandırılmış PATH\'nin bir bileşeni web sunucusu tarafından kullanılamaz: %s',
-      'Use specific endpoint' => 'Belirli bir son nokta kullan',
-      'Configure Recaptcha captchas.' => 'Recaptcha captcha\'larını yapılandırın.',
-      'Report this Issue to the Upstream' => 'Bu Sorunu Membaya Bildirin',
-      'Disable SSH error log.' => 'SSH hata günlüğünü devre dışı bırak.',
-      'Options relating to PHD (daemons).' => 'Doktora ile ilgili seçenekler (daemonlar).',
-      'Repos' => 'Depolar',
-      'Database configuration.' => 'Veritabanı Yapılandırması',
-      'Option "%s" is of type "%s", but the current value ("%s") is not a known, concrete subclass of base class "%s". Valid selections are: %s.' => '"%s" seçeneği "%s" türündedir, ancak geçerli değer ("%s"), "%s" temel sınıfının bilinen, somut bir alt sınıfı değildir. Geçerli seçimler: %s.',
-      'Options for Phabricator developers, including debugging.' => 'Hata ayıklama dahil olmak üzere Phabricator geliştiricileri için seçenekler.',
-      'Databases' => 'Veritabanları',
-      'Basic Example' => 'Temel Örnek',
-      '%s In / %s Out' => '%s Açık / %s Kapalı',
-      'DarkConsole is a development and profiling tool built into Phabricator\'s web interface. You should leave it disabled unless you are developing or debugging Phabricator.
-    Once you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.
-    DarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.' => 'DarkConsole, Phabricator\'ın web arayüzünde yerleşik bir geliştirme ve profil oluşturma aracıdır. Phabricator\'ı geliştirmediyseniz veya hata ayıklamadığınız sürece devre dışı bırakmalısınız.
-    Yükleme için DarkConsole\'u etkinleştirdikten sonra, **gerçekten sayfalarda görünmeden önce hesabınız için etkinleştirmeniz gerekir.** Bunu Ayarlar > Geliştirici Ayarları\'ndan yapabilirsiniz.
-    DarkConsole potansiyel olarak hassas verileri (sorgular, yığın izleri ve yapılandırma gibi) ortaya koyar, böylece genellikle üretimde açmamalısınız.',
-      'The timezone Phabricator should use.' => 'Saat dilimi Phabricator kullanmalıdır.',
-      'Whitelist Specific Addresses' => 'Beyaz Listeye Özgü Adresler',
-      'Other Version Information' => 'Diğer Sürüm Bilgisi',
+      'The mapping from VCS users to %s users has changed and must be rebuilt.' => 'VCS kullanıcılarından Phabricator kullanıcılarına eşleme değişti ve yeniden oluşturulması gerekiyor.',
       'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Yetkilendirme yapılandırmasının kilidi şu anda açık. Yetkilendirme ayarını bitirdikten sonra kilitlemelisiniz.',
       'Use `%s` instead of this option.' => 'Bu seçenek yerine `%s` kullanın.',
-      'Control how Phabricator renders user names in mail.' => 'Phabricator\'ın kullanıcı adlarını postada nasıl görüntüleyeceğini kontrol edin.',
       'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'Henüz herhangi bir kimlik doğrulama sağlayıcısı yapılandırmadınız. Kullanıcıların kaydolup giriş yapabilmesi için bir sağlayıcı (kullanıcı adı/parola, LDAP veya GitHub OAuth gibi) eklemeniz gerekir. Yetkilendirme Uygulamasını kullanarak sağlayıcılar ekleyebilir ve yapılandırabilirsiniz.',
       'Run the storage upgrade script to upgrade databases (host "%s" is out of date). Missing patches: %s.' => 'Veritabanlarını yükseltmek için depolama yükseltme komut dosyasını çalıştırın (ana bilgisayar "%s" güncel değil). Eksik yamalar: %s.',
       'Resource deflation is now managed automatically.' => 'Kaynak küçültme artık otomatik olarak yönetiliyor.',
       'MySQL' => 'MySQL',
+      'Databases are created in a namespace, which defaults to \'phabricator\' -- for instance, the Differential database is named \'phabricator_differential\' by default. You can change this namespace if you want. Normally, you should not do this unless you are developing extensions and using namespaces to separate multiple sandbox datasets.' => 'Phabricator, veritabanlarını varsayılan olarak \'phabricator\' olan bir ad alanına koyar -- örneğin, Diferansiyel veritabanı varsayılan olarak \'phabricator_differential\' olarak adlandırılır. İsterseniz bu ad alanını değiştirebilirsiniz. Normal olarak, Phabricator geliştirmiyor ve birden çok sanal alan veri kümesini ayırmak için ad alanları kullanmıyorsanız bunu yapmamalısınız.',
       'Serious business' => 'Ciddi İş',
-      'Phabricator received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with Phabricator. You should disable it.' => 'Phabricator, bu istekte bu sunucuda "mod_pagespeed"\'i etkinleştirdiğinizi belirten bir "X-Mod-Pagespeed" veya "X-Page-Speed" HTTP üstbilgisi aldı. Bu modül Phabricator ile uyumlu değildir. Devre dışı bırakmalısınız.',
       'External loaders have been replaced. Extend `%s` to implement new PHID and handle types.' => 'Harici yükleyiciler değiştirildi. Yeni PHID ve tanıtıcı türlerini uygulamak için `%s` değerini uzatın.',
       'Authenticating users based on "Reply-To" is no longer supported.' => 'Kullanıcıların "Yanıtla" temel alınarak kimlik doğrulaması artık desteklenmemektedir.',
       'Option "%s" is of type "%s", but the configured value is not a list.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bir liste değildir.',
       'Cluster instance name, if configured.' => 'Yapılandırılmışsa küme örneği adı.',
       'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.' => 'REMOTE_ADDR\'nin artık boş olmaması için başlangıç betiğinizi düzeltmeniz gerekiyor.',
-      'You are running PHP version %s. Phabricator does not support PHP versions between 7.0 and 7.1.
-    PHP removed signal handling features that Phabricator requires in PHP 7.0, and did not restore them until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'PHP sürümü %s çalıştırıyorsunuz. Phabricator, 7.0 ve 7.1 arasındaki PHP sürümlerini desteklemez.
-    PHP, Phabricator\'ın PHP 7.0\'da gerektirdiği sinyal işleme özelliklerini kaldırdı ve PHP 7.1\'e kadar geri yüklemedi.
-    PHP 7.1 veya daha yenisine (önerilir) yükseltin veya PHP 5\'in eski bir sürümüne (önerilmez) yükseltin.',
       'Unknown Config' => 'Bilinmeyen Ayar',
       'Restarting Phabricator' => 'Phabricator Yeniden Başlatılıyor',
       'Detected %s serious issue(s) with the schemata.' => 'Şemada %s ciddi bir sorun tespit edildi.',
@@ -1032,9 +1011,17 @@ final class PhabricatorConfigTr
       'MySQL username to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL kullanıcısı.',
       'Secret key for Amazon EC2.' => 'Amazon EC2 için gizli anahtar.',
       'Configure the MySQL Native Driver to improve database behavior.' => 'MySQL Yerel Sürücüsünü veritabanı davranışını iyileştirmek için yapılandırın.',
-      'You must start the Phabricator daemons to send email, rebuild search indexes, and do other background processing.' => 'E-posta göndermek, arama dizinlerini yeniden oluşturmak ve diğer arka plan işlemlerini yapmak için Phabricator cinlerini başlatmanız gerekir.',
       'These %d configuration value(s) are related:' => 'Bu %s yapılandırma değeri aşağıdakilerle ilgilidir:',
+      'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
+    This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'Phabricator, "Accept-Encoding: gzip" ile bir istek gönderdi, ancak sıkıştırılmamış bir yanıt aldı.
+    Bu, web sunucunuzun yanıtları sıkıştırmak için yapılandırılmadığını gösterebilir. Öyleyse sıkıştırmayı etkinleştirmelisiniz. Sıkıştırma, özellikle daha az bant genişliğine sahip müşteriler için performansı önemli ölçüde artırabilir.',
+      'If you have multiple %s environments (like a development/staging environment and a production environment), set the production environment URI here so that emails and other durable URIs will always generate with links pointing at the production environment. If unset, defaults to `%s`. Most installs do not need to set this option.' => 'Birden fazla Phabricator ortamınız varsa (Phabricator\'ı test etmek için bir geliştirme/hazırlama ortamı ve dağıtmak için bir üretim ortamı gibi), burada üretim ortamı URI\'sini e-postaların ve diğer dayanıklı URI\'ların her zaman üretime işaret eden bağlantılarla üretecek şekilde ayarlayın ortamı. Ayarlanmazsa, varsayılan olarak `%s` olur. Çoğu kurulumun bu seçeneği ayarlaması gerekmez.',
       'Names must match to compare schemata!' => 'Şemaları karşılaştırmak için isimler eşleşmelidir!',
+      'Users can make requests to other services from service hosts in some circumstances (for example, by creating a repository with a remote URL).
+    This may represent a security vulnerability if services on the same subnet will accept commands or reveal private information over unauthenticated HTTP GET, based on the source IP address. In particular, all hosts in EC2 have access to such a service.
+    This option defines a list of netblocks which requests will never be issued to. Generally, you should list all private IP space here.' => 'Phabricator kullanıcıları bazı durumlarda Phabricator ana bilgisayarından diğer hizmetlere istekte bulunabilir (örneğin, uzak URL ile bir havuz oluşturarak veya Phabricator\'ın uzak bir sunucudan bir görüntü getirmesini sağlayarak).
+    Aynı alt ağdaki hizmetler, kaynak IP adresine bağlı olarak kimliği doğrulanmamış HTTP GET üzerinden komutları kabul ederse veya özel bilgileri ortaya çıkarırsa, bu bir güvenlik açığı olabilir. Özellikle, EC2\'deki tüm ana bilgisayarlar böyle bir hizmete erişebilir.
+    Bu seçenek, Phabricator\'ın bağlanmayı reddedeceği netblock\'ların listesini tanımlar. Genel olarak, tüm özel IP alanlarını burada listelemelisiniz.',
       'Core Settings' => 'Temel Ayarlar',
       'Your MySQL server is configured with the "local_infile" option enabled. This option allows an attacker who finds an SQL injection hole to escalate their attack by copying files from the webserver into the database with "LOAD DATA LOCAL INFILE" queries, then reading the file content with "SELECT" queries.
     You should disable this option in your %s file, in the %s section:
@@ -1042,24 +1029,26 @@ final class PhabricatorConfigTr
     Bu seçeneği %s dosyanızdaki %s bölümünde devre dışı bırakmalısınız:
     %s',
       'Setup Checks' => 'Kurulum Kontrolleri',
-      'Database host "%s" is configured as a master, but is replicating another host. This is dangerous and can mangle or destroy data. Only replicas should be replicating. Stop replication on the host or reconfigure Phabricator.' => 'Veritabanı ana bilgisayarı "%s" bir ana sunucu olarak yapılandırıldı, ancak başka bir ana bilgisayarı çoğaltıyor. Bu tehlikelidir ve verileri değiştirebilir veya yok edebilir. Yalnızca kopyalar çoğaltılmalıdır. Ana bilgisayarda çoğaltmayı durdurun veya Phabricator\'ı yeniden yapılandırın.',
       'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Bu sistem, Bash\'in işlenmemiş ve yaygın bir şekilde açıklanmış bir güvenlik açığına sahip eşsiz bir sürümüne sahiptir.',
       'Keys' => 'Anahtarlar',
       'No Auth Providers' => 'Kimlik Doğrulama Sağlayıcısı Yok',
       'Missing Required Extensions' => 'Eksik Gerekli Uzantılar',
-      'The \'%s\' extension has support for only some image types. Phabricator will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => '\'%s\' uzantısı yalnızca bazı resim türlerini destekliyor. Phabricator, siz onları destekleyerek \'%s\' oluşturana kadar eksik türdeki görüntüleri işleyemez. Desteklenen türler: %s. Eksik türler: %s.',
       'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.' => 'Bu seçenek "Yetkilendirme" uygulamasına taşındı. Eski yapılandırmanız hala yürürlükte, ancak şimdi yapılandırma yerine "Yetkilendirme" de depolanıyor. Bundan sonra, kimlik doğrulamasını web arayüzünden yönetebilirsiniz.',
+      'PHP is currently configured to honor requests from any MySQL server it connects to for the content of any local file.
+    This capability supports MySQL "LOAD DATA LOCAL INFILE" queries, but allows a malicious MySQL server read access to the local disk: the server can ask the client to send the content of any local file, and the client will comply.
+    Although it is normally difficult for an attacker to convince this software to connect to a malicious MySQL server, you should disable this option: this capability is unnecessary and inherently dangerous.
+    To disable this option, set: %s' => 'PHP şu anda herhangi bir yerel dosyanın içeriği için bağlandığı herhangi bir MySQL sunucusundan gelen istekleri karşılayacak şekilde yapılandırılmıştır.
+    Bu özellik MySQL "VERİ YEREL DOSYASI YÜKLE" sorgularını destekler, ancak kötü amaçlı bir MySQL sunucusunun yerel diske okuma erişimine izin verir: sunucu istemciden herhangi bir yerel dosyanın içeriğini göndermesini isteyebilir ve istemci uyumlu olacaktır.
+    Bir saldırganın Phabricator\'ı kötü amaçlı bir MySQL sunucusuna bağlanmaya ikna etmesi normalde zor olsa da, bu seçeneği devre dışı bırakmalısınız: bu özellik gereksizdir ve doğası gereği tehlikelidir.
+    Bu seçeneği devre dışı bırakmak için şunu ayarlayın: %s',
       'Activity "%s" is not currently marked as required, so there is no need to complete it.' => '"%s" etkinliği şu anda gerektiği gibi işaretlenmediğinden, tamamlanmasına gerek yok.',
-      'The \'%s\' binary could not be found. Set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in the Phabricator configuration.' => '\'%s\' ikili dosyası bulunamadı. Web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya Phabricator yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
       'To continue, resolve this problem and reload the page.' => 'Devam etmek için bu sorunu çözün ve sayfayı yeniden yükleyin.',
-      'Phabricator is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
-    Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Phabricator şu anda doğrudan diğer içeriklerle aynı alandan kullanıcı yüklemeleri sunacak şekilde yapılandırılmıştır. Bu bir güvenlik riskidir.
-    Bu riski ortadan kaldırmak için bir CDN (veya alternatif dosya etki alanı) yapılandırın. CDN kullanmak performansı da artıracaktır. Talimatlar için aşağıdaki kılavuza bakın.',
       'Wordmark' => 'Marka',
+      'WARNING: This is a prototype option and the description below is currently pure fantasy.
+    Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'UYARI: Bu bir prototip seçeneğidir ve aşağıdaki açıklama şu anda saf hayal ürünüdür.
+    Phabricator\'ı salt okunur moda geçirin. Bu modda kullanıcılar yeni veri yazamaz. Normalde, küme veritabanı yöneticisine erişilemediğini algıladığında otomatik olarak bu moda geçer, ancak bakım veya test yapılandırması gerçekleştirmek için el ile etkinleştirebilirsiniz.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Ciddi Güvenlik Açığı: Toplu Olmayan Bash',
       'Force HTTPS' => 'HTTPS\'yi zorla',
-      'Without \'%s\', Phabricator will not be able to generate or render diffs in multiple applications.' => '\'%s\' olmadan, Phabricator birden fazla uygulamada fark üretemez veya oluşturamaz.',
-      'Send as Phabricator' => 'Phabricator olarak gönder',
       'This key is not expected to exist.' => 'Bu anahtarın olması beklenmez.',
       '%s.%s' => '%s.%s',
       '%s.%s.%s' => '%s.%s.%s',
@@ -1069,9 +1058,6 @@ final class PhabricatorConfigTr
       'An alternate resource map is no longer supported. Instead, use multiple maps. See T4222.' => 'Alternatif bir kaynak haritası artık desteklenmemektedir. Bunun yerine, birden fazla harita kullanın. T4222 bakın.',
       'Repository Services' => 'Depo Hizmetleri',
       'Inline comments are now always rendered with a limited amount of context.' => 'Satır içi yorumlar artık her zaman sınırlı miktarda içerikle oluşturulmaktadır.',
-      'Your server is configured with \'%s\', which prevents Phabricator from opening files it requires access to.
-    Disable this setting to continue.' => 'Sunucunuz, Phabricator\'ın erişim gerektirdiği dosyaları açmasını engelleyen \'%s\' ile yapılandırıldı.
-    Devam etmek için bu ayarı devre dışı bırakın.',
       'Locked Configuration Option "%s" Has Database Value' => 'Kilitli Yapılandırma Seçeneği "%s" Veritabanı Değerine Sahip',
       'Separate values with newlines or commas.' => 'Değerleri satırsonu veya virgülle ayırın.',
       'Don\'t require email verification' => 'E-posta doğrulaması gerektirme',
@@ -1080,17 +1066,26 @@ final class PhabricatorConfigTr
       'MySQLi Extension Not Available' => 'MySQLi Uzantısı Mevcut Değil',
       'Unknown schema issue "%s"!' => 'Bilinmeyen şema sorunu "%s"!',
       'Embed Commons videos' => 'Gömülü Commons videoları',
+      'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
+    Disable this setting to continue.' => 'Sunucunuz, Phabricator\'ın erişim gerektirdiği dosyaları açmasını engelleyen \'%s\' ile yapılandırıldı.
+    Devam etmek için bu ayarı devre dışı bırakın.',
       'Limit page execution time to debug hangs.' => 'Askıda hata ayıklamak için sayfa yürütme süresini sınırlayın.',
       'Base URI Not Configured' => 'Temel URI Yapılandırılmadı',
       'Always Activate DarkConsole' => 'DarkConsole\'i Her Zaman Etkinleştir',
+      'This request included an invalid "Host" header, with value "%s". Host headers must contain a dot ("."), like "example.com". This is required for some browsers to be able to set cookies.
+    This may mean the base URI is configured incorrectly. You must serve this software from a base URI with a dot (like "https://devtools.example.com"), not a bare domain (like "https://devtools/"). If you are trying to use a bare domain, change your configuration to use a full domain with a dot in it instead.
+    This might also mean that your webserver (or some other network device, like a load balancer) is mangling the "Host" header, or you are using a tool or library to issue a request manually and setting the wrong "Host" header.
+    Requests must include a valid "Host" header.' => 'Bu istek bir "Ana Bilgisayar" başlığı içermiyordu. Bu, web sunucunuzun (nginx veya apache gibi) yanlış yapılandırıldığı ve "Ana Bilgisayar" üstbilgisinin Phabricator\'a gelmediği veya bir araç veya kitaplık kullanarak "Ana Bilgisayar" üstbilgisi olmadan ham istekte bulunduğunuz anlamına gelebilir.
+    Bir web tarayıcısı kullanıyorsanız, web sunucusu yapılandırmanızı kontrol edin. Bir araç veya kitaplık kullanıyorsanız, isteğin nasıl oluşturulduğunu kontrol edin.
+    Başka bir ağ cihazının (bir yük dengeleyici gibi) başlığı çıkarması da mümkündür (ancak pek olası değildir).
+    İstekler, geçerli bir "Ana Bilgisayar" başlığı içermelidir.',
       'User Interface' => 'Kullanıcı Arayüzü',
       'No Schema Issues' => 'Şema Sorunu Yok',
       'MySQL database hostname.' => 'MySQL veritabanı ana bilgisayar adı.',
       'Obsolete Config' => 'Eski Yapılandırma',
+      'Sets the default color scheme.' => 'Phabricator\'ın varsayılan renk düzenini ayarlar.',
       'Clustering Introduction' => 'Kümelenmeye Giriş',
-      'By default, Phabricator serves files from the same domain the application is served from. This is convenient, but presents a security risk.
-    You should configure a CDN or alternate file domain to mitigate this risk. Configuring a CDN will also improve performance. See [[ %s | %s ]] for instructions.' => 'Varsayılan olarak Phabricator, uygulamanın sunulduğu aynı etki alanından dosyalar sunar. Bu uygundur, ancak bir güvenlik riski oluşturur.
-    Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırmalısınız. Bir CDN\'nin yapılandırılması da performansı artıracaktır. Talimatlar için [[ %s | %s ]] bakın.',
+      'By default, this software includes some flavor text in the UI, like a prompt to "Weigh In" rather than "Add Comment" in Maniphest. If you\'d prefer more traditional UI strings like "Add Comment", you can set this flag to disable most of the extra flavor.' => 'Varsayılan olarak, Phabricator, Maniphest\'te "Yorum Ekle" yerine "Tartım" istemi gibi kullanıcı arayüzünde bazı lezzet metinleri içerir. "Yorum Ekle" gibi daha geleneksel kullanıcı arayüzü dizelerini tercih ediyorsanız, bu bayrağı ekstra lezzetin çoğunu devre dışı bırakacak şekilde ayarlayabilirsiniz.',
       'MySQL on this machine' => 'Bu makinede MySQL',
       'No such configuration key \'%s\'! Use `%s` to list all keys.' => 'Böyle bir yapılandırma anahtarı \'%s\' yok! Tüm tuşları listelemek için `%s` tuşunu kullanın.',
       'You can respond to various application events by installing listeners, which will receive callbacks when interesting things occur. Specify a list of classes which extend PhabricatorEventListener here.' => 'İlginç şeyler olduğunda geri çağrı alacak dinleyicileri yükleyerek çeşitli uygulama olaylarına yanıt verebilirsiniz. Burada PhabricatorEventListener\'ı genişleten sınıfların bir listesini belirtin.',
@@ -1099,31 +1094,16 @@ final class PhabricatorConfigTr
       'Your webserver is not forwarding credentials.' => 'Web sunucunuz kimlik bilgilerini iletmiyor.',
       'Default non-pygments syntax highlighter engine.' => 'Varsayılan pigment olmayan sözdizim vurgulayıcı motoru.',
       'HTTP Parameter Types' => 'HTTP Parametre Türleri',
-      'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of Phabricator.
-    You can configure Webhooks in Herald.
-    To resolve this issue, remove all URIs from "feed.http-hooks".' => '"feed.http-hooks" seçeneği Webhooks lehine kullanımdan kaldırılmıştır. Bu seçenek Phabricator\'ın gelecekteki bir sürümünde kaldırılacak.
-    Webhook\'ları Herald\'da yapılandırabilirsiniz.
-    Bu sorunu gidermek için, tüm beslemeleri "feed.http-hooks" klasöründen kaldırın.',
       'Mangled Webserver Response' => 'Karışık Web Sunucusu Yanıtı',
-      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow Phabricator to interact better with the database.
-    Phabricator will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s' => 'PHP şu anda daha yeni MySQL yerel sürücüsü yerine eski MySQL harici sürücüsünü kullanıyor. Eski sürücü, Phabricator\'ın veritabanıyla daha iyi etkileşime girmesini sağlayan seçenekler ve özelliklerden (sorgu zaman aşımı desteği gibi) yoksundur.
-    Phabricator eski sürücü ile çalışacaktır, ancak yerel sürücüye yükseltme yapılması önerilir.
-    Yerel sürücüyü şu komutla yükleyebilirsiniz: %s',
       'Setup issues to ignore.' => 'Yok sayılması gereken kurulum sorunları.',
-      'By default, Phabricator links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Varsayılan olarak, Phabricator Yeniden Açıklama alanlarındaki nesne adlarını ilgili nesneye bağlar. Bu normal ifade bu davranışı değiştirmek için kullanılabilir; bu normal ifadeyle eşleşen nesne adları bağlanmayacak.',
       'Directory that the daemons should use to store log files.' => 'Günlüklerin depolanması için arka plan programlarının kullanması gereken dizin.',
-      'Elasticsearch is configured (with the %s setting) but Phabricator encountered an exception when trying to test the index.
-    %s' => 'Elasticsearch yapılandırıldı (%s ayarıyla), ancak Phabricator dizini test etmeye çalışırken bir istisna ile karşılaştı.
-    %s',
       'Only allow registration from particular domains.' => 'Yalnızca belirli alan adlarından kayıt yapılmasına izin verin.',
       'Subschemata have setup failures.' => 'Subschemata kurulum hataları var.',
-      'Normally, Phabricator issues HTTP redirects after a successful POST. This can make it difficult to debug things which happen while processing the POST, because service and profiling information are lost. By setting this configuration option, Phabricator will show a page instead of automatically redirecting, allowing you to examine service and profiling information. It also makes the UX awful, so you should only enable it when debugging.' => 'Normalde, Phabricator başarılı bir POST sonrasında HTTP yönlendirmeleri yayınlar. Bu, hizmet ve profil oluşturma bilgileri kaybolduğundan POST işlenirken gerçekleşen hataların ayıklanmasını zorlaştırabilir. Bu yapılandırma seçeneğini ayarlayarak Phabricator, otomatik olarak yeniden yönlendirmek yerine bir sayfa göstererek hizmet ve profil oluşturma bilgilerini incelemenize olanak tanır. Ayrıca UX\'i korkunç hale getirir, bu yüzden yalnızca hata ayıklama sırasında etkinleştirmelisiniz.',
-      'Phabricator Configuation' => 'Phabricator Yapılandırması',
       'No performance sampling.' => 'Performans örneklemesi yok.',
       'Show installed extensions and modules.' => 'Yüklü uzantıları ve birimleri göster.',
       'Opcode Cache' => 'Opcode Önbelleği',
       'ID of the SSH key used to authenticate the request.' => 'İsteğin kimliğini doğrulamak için kullanılan SSH anahtarının kimliği.',
+      'You can usually install a PHP extension using %s, %s, or %s. A common package name is %s. Try commands like these:' => 'Bir PHP uzantısını genellikle %s veya %s kullanarak yükleyebilirsiniz. Genel paket adları %s veya %s. Bunun gibi komutları deneyin:',
       'US East (EDT)' => 'ABD Doğu (EDT)',
       'The HTTP referrer.' => 'HTTP yönlendireni.',
       'HTTP Parameters Not Transmitting' => 'İletilmeyen HTTP Parametreleri',
@@ -1136,6 +1116,10 @@ final class PhabricatorConfigTr
       'No REMOTE_ADDR available' => 'REMOTE_ADDR yok',
       'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.' => 'Amazon S3\'teki dosya depolama alanı kısmen yapılandırıldı, ancak gerekli bazı ayarlar eksik. S3, yapılandırmayı tamamlayana kadar dosyaları depolamak için kullanılamaz. S3\'ü tamamen yapılandırın veya kısmi yapılandırmayı kaldırın.',
       'The logged-in user PHID, if one is logged in.' => 'Oturum açmışsa, oturum açan kullanıcı PHID\'si.',
+      'WARNING: This is a very advanced option, and only useful for hosting providers running multi-tenant clusters.
+    If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'UYARI: Bu çok gelişmiş bir seçenektir ve yalnızca çok kiracılı kümeler çalıştıran sağlayıcılar için yararlıdır.
+    Burada bir örnek tanımlayıcı sağlarsanız (normalde bunu `%s` ile enjekte ederek), Phabricator bunu alt işlemlere geçirir ve `%s` çevresel değişkenindeki kancaları işler.',
+      'Version Information' => 'Sürüm Bilgisi',
       'HTTP Path Rewriting Incorrect' => 'HTTP Yolu Yeniden Yazma Yanlış',
       'Surplus' => 'Fazlalık',
       'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Yapılandırmanızda Imagemagick\'i etkinleştirdiniz, ancak \'%s\' ikili dosyası web sunucusunun %s değil. Imagemagick\'i devre dışı bırakın veya web sunucusu için kullanılabilir hale getirin.',
@@ -1144,26 +1128,32 @@ final class PhabricatorConfigTr
       'Unignore Setup Issue' => 'Kurulum Sorunu Yoksaymasını Çıkar',
       'Automatically sample some fraction of requests.' => 'İsteklerin bir kısmını otomatik olarak örnekleyin.',
       'SSH log location.' => 'SSH günlük konumu.',
+      'Arbitrarily large files are now supported. Consult the documentation for configuration details.' => 'Phabricator artık büyük dosyaları desteklemektedir. Yapılandırma ayrıntıları için belgelere bakın.',
       'Delete a local configuration value.' => 'Yerel bir yapılandırma değerini silin.',
-      'Phabricator can use less-secure but mailing list friendly public reply addresses.' => 'Phabricator, daha az güvenli ancak posta listesi dostu genel yanıt adresleri kullanabilir.',
       'These paths get appended to your %s environment variable.' => 'Bu yollar %s ortam değişkeninize eklenir.',
-      'These alternative URIs will be able to access \'normal\' pages on your Phabricator install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Bu alternatif URI\'ler Phabricator kurulumunuzdaki \'normal\' sayfalara erişebilecek. OAuth gibi diğer özellikler çalışmaz. Bunun en önemli kullanım alanı, yüklemeleri etki alanları arasında taşımaktır.',
       'Epoch timestamp.' => 'Dönem zaman damgası.',
       'Blindigo' => 'Blindigo',
       'Expected Column Type' => 'Beklenen Sütun Türü',
       'Enable developer mode' => 'Geliştirici modunu etkinleştir',
       'Woe! This request had its journey cut short by unexpected circumstances (%s).' => 'Vah! Bu talebin yolculuğu beklenmedik koşullarda kısaldı (%s).',
       'Customizes retention policies for garbage collectors.' => 'Çöp toplayıcılar için saklama politikalarını özelleştirir.',
-      'You can usually install a PHP extension using %s or %s. Common package names are %s or %s. Try commands like these:' => 'Bir PHP uzantısını genellikle %s veya %s kullanarak yükleyebilirsiniz. Genel paket adları %s veya %s. Bunun gibi komutları deneyin:',
       'This schema can use a better column type.' => 'Bu şema daha iyi bir sütun türü kullanabilir.',
+      'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => '\'%s\' olmadan, Phabricator birden fazla uygulamada fark üretemez veya oluşturamaz.',
       'The request date.' => 'İstek tarihi.',
       'Reply handlers can no longer be overridden with configuration.' => 'Yanıt işleyicileri artık yapılandırmayla geçersiz kılınamaz.',
       'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => 'Varsayılan biçimin gelecekte değişebileceğini unutmayın; bu nedenle günlük biçimine güveniyorsanız, açıkça belirtin.',
+      'Send as %s' => 'Phabricator olarak gönder',
+      'Setup Error' => 'Phabricator Kurulum Hatası',
       'Installed on Burstable CPU Instance' => 'Burstable CPU Eşgörünümüne Yüklendi',
       'MySQL is Using Default Minimum Word Length' => 'MySQL Varsayılan Minimum Kelime Uzunluğunu Kullanıyor',
       'Extensions/Modules' => 'Uzantılar/Birimler',
+      'The directory for local repositories (%s) does not exist, or is not readable by the webserver. This software uses this directory to store information about repositories. If this directory does not exist, create it:
+    %s
+    If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'Yerel depolar dizini (%s) mevcut değil veya web sunucusu tarafından okunamıyor. Phabricator, depolar hakkında bilgi depolamak için bu dizini kullanır. Bu dizin yoksa oluşturun:
+    %s
+    Bu dizin varsa, web sunucusu tarafından okunabilir hale getirin. Başka bir dizini kullanmak için aşağıdaki yapılandırmayı da düzenleyebilirsiniz.',
+      'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Bu alternatif URI\'ler Phabricator kurulumunuzdaki \'normal\' sayfalara erişebilecek. OAuth gibi diğer özellikler çalışmaz. Bunun en önemli kullanım alanı, yüklemeleri etki alanları arasında taşımaktır.',
       'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'Sözdizimi vurgulama koduna bir açılır liste görüntülediğimiz yerlerde, bu liste tanımlanır.',
-      'Phabricator daemons no longer use PID files.' => 'Phabricator arkaplan uygulamaları artık PID dosyalarını kullanmıyor.',
       'Unignore' => 'Yoksaymayı geri al',
       'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.' => 'Kullanım dışı bırakma uyarılarını önlemek için PHP "%s" ayarı "-1" olarak ayarlanmalıdır.',
       'Text values that match this regex and are also object names will not be linked.' => 'Bu normal ifadeyle eşleşen ve aynı zamanda nesne adları olan metin değerleri bağlanmayacaktır.',

@@ -31,7 +31,6 @@ final class PhabricatorPolicyKoKR
       'Invisible objects are ignored.' => '보이지 않는 오브젝트는 무시됩니다.',
       '[%s] (%s) %s // %s' => '[%s] (%s) %s // %s',
       'Invalid Policy' => '유효하지 않은 정책',
-      '[%s] %s' => '[%s] %s',
       'Members of Project: %s' => '프로젝트의 회원: %s',
       'Custom "%s" Policy' => '사용자 지정 "%s" 정책',
       'Custom Policy' => '사용자 지정 정책',

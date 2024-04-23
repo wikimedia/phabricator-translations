@@ -31,7 +31,6 @@ final class PhabricatorSlowvoteEl
       'Edit Poll: %s' => 'Επεξεργασία δημοσκόπησης: %s',
       'Reopen' => 'Ξανάνοιγμα',
       'Responses' => 'Απαντήσεις',
-      '%s changed who can see the responses of %s.' => '%s άλλαξε αυτόν που μπορεί να δει τις απαντήσεις του %s.',
       '%s (%d / %d)' => '%s (%s / %s)',
       'Only you can see the results.' => 'Μόνο εσείς μπορείτε να δείτε τα αποτελέσματα.',
       'Response %d' => 'Απάντηση %s',

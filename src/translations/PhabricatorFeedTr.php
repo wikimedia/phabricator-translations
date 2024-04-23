@@ -21,7 +21,6 @@ final class PhabricatorFeedTr
       'Story is asking for an object it did not request (\'%s\')!' => 'Öykü, istemediği bir nesneyi istiyor (\'%s\')!',
       'Simple one-line plain text representation of story' => 'Hikayenin basit tek satırlık düz metin gösterimi',
       'Include Projects' => 'Projeleri Dahil Et',
-      'Publish a story to the feed.' => 'Yayına bir hikaye yayınlayın.',
       'Specify a story key to republish.' => 'Yeniden yayınlamak için bir hikaye anahtarı belirtin.',
       'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.' => 'Belirtilen "Önce Oluşur" tarihi, belirtilen "Oluştuktan Sonra" tarihinden daha erkendir, bu nedenle bu sorgu hiçbir sonuçla eşleşemez.',
       'Republish a feed event to all consumers.' => 'Bir yayın etkinliğini tüm tüketicilere yeniden yayınlayın.',

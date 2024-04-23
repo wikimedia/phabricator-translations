@@ -22,7 +22,7 @@ final class PhabricatorXhprofZhHant
       '%s Profile' => '%s分析',
       'Wall time spent in this function, excluding time spent in children (children are other functions it called while executing).' => '此功能花費的經過時間，有將子項所花費的時間給排除（子項是在呼叫此時，執行期間的其它功能）。',
       'Manual Run' => '手動運行',
-      'Drag and drop .xhprof files to import them.' => '拖放 .xhprof 檔案來匯入它們。',
+      'Drag and drop .xhprof files to import them.' => '拖放.xhprof檔來匯入它們。',
       'PHP Profiling Tool' => 'PHP 性能分析工具',
       'Metrics for this Call' => '此呼叫的測量',
       'Failed to unserialize XHProf profile!' => '反序列化 XHProf 分析失敗！',

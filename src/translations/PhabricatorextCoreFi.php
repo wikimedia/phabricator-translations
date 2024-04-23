@@ -21,6 +21,7 @@ final class PhabricatorextCoreFi
       'ChangeId' => 'ChangeId',
       'Release Details' => 'Julkaisun tiedot',
       'Allow' => 'Salli',
+      'LDAP User' => 'LDAP-käyttäjä',
       'MediaWiki' => 'MediaWiki',
       'The requested project does not exist' => 'Pyydettyä projektia ei ole',
       'Change type to "%s."' => 'Vaihda tyypiksi ”%s”.',

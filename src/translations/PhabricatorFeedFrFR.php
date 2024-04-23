@@ -21,7 +21,6 @@ final class PhabricatorFeedFrFR
       'Story is asking for an object it did not request (\'%s\')!' => 'L’histoire demande un objet qu’elle n’a pas requêté (« %s ») !',
       'Simple one-line plain text representation of story' => 'Représentation de l’histoire sous forme de texte simple en ligne',
       'Include Projects' => 'Inclure les projets',
-      'Publish a story to the feed.' => 'Publier une histoire dans le fil.',
       'Specify a story key to republish.' => 'Spécifier une clé d’histoire à republier.',
       'The specified "Created Before" date is earlier in time than the specified "Created After" date, so this query can never match any results.' => 'La date spécifiée « Créé avant » est antérieure à la date spécifiée « Créé après », donc cette requête ne peut jamais correspondre à un résultat.',
       'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.' => 'La date spécifiée « Se produit avant » est antérieure à la date spécifiée « Se produit après », cette requête ne peut donc jamais correspondre à un résultat.',

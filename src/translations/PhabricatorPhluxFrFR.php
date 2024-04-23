@@ -12,7 +12,7 @@ final class PhabricatorPhluxFrFR
       'Update Variable' => 'Mettre à jour la variable',
       'Variable value must be valid JSON.' => 'La valeur de la variable doit être du JSON valide.',
       'Lowercase letters, digits, dot and hyphen only.' => 'Lettres minuscules, chiffres, points ou tirets uniquement.',
-      'Edit Variable: %s' => 'Modifier la variable: %s',
+      'Edit Variable: %s' => 'Modifier la variable : %s',
       'Key/Value Configuration Store' => 'Enregistrement de Clé/Valeur de configuration',
       'Variable "%s"' => 'Variable « %s »',
       'Phlux Variables' => 'Variables de Phlux',
@@ -24,7 +24,7 @@ final class PhabricatorPhluxFrFR
       '%s created this variable.' => '%s a créé cette variable.',
       'Edit Variable' => 'Éditer une variable',
       'Variable List' => 'Liste de variables',
-      'Variable key is required.' => 'La clé de la variable est requise.',
+      'Variable key is required.' => 'La clé de la variable est obligatoire.',
       'Variable key "%s" must contain only lowercase letters, digits, period, and hyphen.' => 'La clé de variable « %s » ne doit contenir que des lettres minuscules, chiffres, point et tiret.',
     );
   }

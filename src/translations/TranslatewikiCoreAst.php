@@ -27,7 +27,7 @@ final class TranslatewikiCoreAst
       'Frequency Data' => 'Datos de frecuencia',
       'Provide a JSON source file with "--source".' => 'Da un ficheru fonte en JSON con «--source».',
       'Generate a Phabricator translation classfile.' => 'Xenerar un ficheru de clase de traducción de Phabricator.',
-      'JSON source file containing translation strings.' => 'Ficheru fonte en JSON que contien cadenes de traducción.',
+      'JSON source file containing translation strings.' => 'Ficheru fonte en JSON que contién cadenes de traducción.',
       'Export translation strings from a libphutil library.' => 'Esportar cadenes de traducción dende una biblioteca libphutil.',
       'Writing data (%s, %s) to "%s"...' => 'Escribiendo datos (%s, %s) a «%s»…',
       'Expected library string extraction to genrate file "%s", but no such file exists!' => 'Esperábase la estraición de cadenes de la biblioteca pa xenerar el ficheru «%s», pero\'l ficheru nun esiste.',

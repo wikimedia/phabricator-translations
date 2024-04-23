@@ -9,6 +9,7 @@ final class PhabricatorDifferentialTr
 
   protected function getTranslations() {
     return array(
+      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'Phabricator hesabınız bir JIRA hesabına bağlı olmadığından, bu düzeltmeye JIRA sorunları (%s) ekleyemezsiniz.',
       'Review the diff for correctness. When you are satisfied, either **create a new revision** or **update an existing revision**.' => 'Doğru olup olmadığını görmek için farkı inceleyin. Memnun kaldığınızda, **yeni bir revizyon oluşturun** veya **mevcut bir revizyonu güncelleyin**.',
       'New repository.' => 'Yeni depo.',
       'This revision can not be accepted until the required legal agreements have been signed.' => 'Bu revizyon, gerekli yasal anlaşmalar imzalanıncaya kadar kabul edilemez.',
@@ -386,6 +387,7 @@ final class PhabricatorDifferentialTr
       'You can not commandeer this revision because you already own it.' => 'Bu revizyona sahip olamazsınız çünkü zaten ona sahipsiniz.',
       '%s abandoned %s.' => '%s, %s terk etti.',
       'Unknown renderer type "%s"!' => 'Bilinmeyen oluşturucu türü "%s"!',
+      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Bunu true olarak ayarlarsanız, Phabricator, Diferansiyel postaya yama ekler (metin eki olarak). Posta bağdaştırıcınız olarak SendGrid kullanıyorsanız bu çalışmaz.',
       'Must Review' => 'İncelenmeli',
       'Load all diffs for given revisions from Differential.' => 'Diferansiyelden verilen revizyonlar için tüm farkları yükleyin.',
       'Options "--to" (to choose a specific storage format) and "--auto" (to select a storage format automatically) are mutually exclusive.' => '"--to" (belirli bir depolama biçimini seçmek için) ve "--auto" (otomatik olarak bir depolama biçimini seçmek için) seçenekleri birbirini dışlar.',
@@ -510,7 +512,6 @@ final class PhabricatorDifferentialTr
       '%s set this revision to automatically submit once builds complete.' => '%s, bu düzeltmeyi derleme tamamlandığında otomatik olarak gönderilecek şekilde ayarladı.',
       '%s reclaimed this revision.' => '%s bu revizyonu yeniden talep etti.',
       'Differential Diffs' => 'Diferansiyel Farkları',
-      'You can not plan changes to this this revision because it has already been closed.' => 'Zaten kapatılmış olduğu için bu revizyonda değişiklik planlayamazsınız.',
       'Update Diff' => 'Farkı Güncelle',
       'Plan changes to a revision.' => 'Revizyon değişiklikleri planlayın.',
       'If you set this to true, users can accept their own revisions. This action is disabled by default because it\'s most likely not a behavior you want, but it proves useful if you are working alone on a project and want to make use of all of differential\'s features.' => 'Bunu true olarak ayarlarsanız, kullanıcılar kendi düzeltmelerini kabul edebilir. Bu eylem varsayılan olarak devre dışıdır, çünkü büyük olasılıkla istediğiniz bir davranış değildir, ancak bir proje üzerinde tek başına çalışıyorsanız ve diferansiyelin tüm özelliklerinden yararlanmak istiyorsanız yararlı olur.',
@@ -521,17 +522,11 @@ final class PhabricatorDifferentialTr
       'Reviewers' => 'İnceleyiciler',
       'This file was completely deleted.' => 'Bu dosya tamamen silindi.',
       '%s commandeered %s.' => '%s, %s benimsedi.',
-      'Hold revision as as draft.' => 'Revizyonu taslak gibi tutun.',
       'Right' => 'Sağ',
       '%s edited commit(s), added %s: %s; removed %s: %s.' => '%s taahhüdü düzenledi, %s eklendi: %s; %s kaldırıldı: %s.',
-      'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
-    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere in Phabricator), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
-    This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normal olarak, Diferansiyel revizyonlar "Kabul Edildiklerinde" kontrol panelinde kalır ve yazar daha sonra düzeltmeyi "Kapat" ve gösterge tablosundan çıkarmak için değişiklikleri yapar.
-    İşlem sonrası inceleme için Diferansiyelin kullanıldığı (normalde Phabricator\'ın başka bir yerinde "Denetim" olarak adlandırılan) olağandışı bir iş akışınız varsa, bu bayrağı "Kabul Edildi" durumunu "Kapalı" durumu olarak ele alacak ve inceleme iş akışını sona erdirecek şekilde ayarlayabilirsiniz.
-    Bu tür bir iş akışı çok sıra dışı. Bu seçeneği değiştirmek için çok az kurulum gerekir.',
       'Shows revision representation in Asana.' => 'Asana\'da revizyon temsilini gösterir.',
       'You are not the author of this revision.' => 'Bu revizyonun  yazarı değilsiniz.',
-      'Table of Contents' => 'İçerikler Tablosu',
+      'Table of Contents' => 'İçindekiler',
       'Comment is not visible on changeset!' => 'Değişiklik kümesi üzerinde yorum görünmüyor!',
       '%s changed the repository for %s from %s to %s.' => '%s, %s depo için depoyu %s üzerinden %s değiştirdi.',
       'Unable to load revision.' => 'Revizyon yüklenemedi.',
@@ -563,7 +558,6 @@ final class PhabricatorDifferentialTr
       'You can not resign from this revision because it has already been closed. You can only resign from open revisions.' => 'Zaten kapatılmış olduğundan bu revizyondan istifa edemezsiniz. Yalnızca açık revizyonlardan istifa edebilirsiniz.',
       'Instructions for reverting/undoing this change.' => 'Bu değişikliği geri alma talimatları.',
       'Revision Actions' => 'Revizyon Eylemleri',
-      'If you set this to true, Phabricator will attach patches to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Bunu true olarak ayarlarsanız, Phabricator, Diferansiyel postaya yama ekler (metin eki olarak). Posta bağdaştırıcınız olarak SendGrid kullanıyorsanız bu çalışmaz.',
       '%s failed remote builds in %s for %s!' => '%s, %3$s için %2$s uzak yapılara başarısız oldu!',
       'You must select a comment to edit.' => 'Düzenlemek için bir yorum seçmelisiniz.',
       'This revision needs review, but all specified reviewers are disabled or inactive.' => 'Bu revizyonun incelenmesi gerekiyor, ancak belirtilen tüm gözden geçirenler devre dışı veya etkin değil.',
@@ -605,6 +599,7 @@ final class PhabricatorDifferentialTr
       'Change autosubmission from draft state after builds finish.' => 'Derlemeler bittikten sonra otomatik sunumu taslak durumdan değiştirin.',
       '%s removed %s parent revision(s): %s.' => '%s, %s üst revizyondan kaldırıldı: %s.',
       'You can not commandeer this revision because you are already the author.' => 'Zaten yazar olduğunuz için bu düzeltmeyi ele alamazsınız.',
+      'You can not plan changes to this revision because it has already been closed.' => 'Zaten kapatılmış olduğu için bu revizyonda değişiklik planlayamazsınız.',
       'Request Review' => 'İnceleme İste',
       '%s added an inline comment.' => '%s bir satır içi yorumu ekledi.',
       '%s created this revision.' => '%s bu revizyonu oluşturdu.',
@@ -681,6 +676,11 @@ final class PhabricatorDifferentialTr
       'This file has a very large number of changes (%s lines).' => 'Bu dosyada çok fazla değişiklik var (%s satır).',
       'Unexpected leading character "%s" at line index %s!' => '%2$s satır dizininde beklenmeyen baş karakter "%1$s"!',
       'You can not close this revision because you are not the author. You can only close revisions you own. You can change this behavior by adjusting the "%s" setting in Config.' => 'Bu revizyonu kapatamazsınız çünkü yazar değilsiniz. Yalnızca sahip olduğunuz revizyonları kapatabilirsiniz. Bu davranışı, Yapılandırma\'daki "%s" ayarını değiştirebilirsiniz.',
+      'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
+    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
+    This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normal olarak, Diferansiyel revizyonlar "Kabul Edildiklerinde" kontrol panelinde kalır ve yazar daha sonra düzeltmeyi "Kapat" ve gösterge tablosundan çıkarmak için değişiklikleri yapar.
+    İşlem sonrası inceleme için Diferansiyelin kullanıldığı (normalde Phabricator\'ın başka bir yerinde "Denetim" olarak adlandırılan) olağandışı bir iş akışınız varsa, bu bayrağı "Kabul Edildi" durumunu "Kapalı" durumu olarak ele alacak ve inceleme iş akışını sona erdirecek şekilde ayarlayabilirsiniz.
+    Bu tür bir iş akışı çok sıra dışı. Bu seçeneği değiştirmek için çok az kurulum gerekir.',
       'Load the content of a revision from Differential.' => 'Diferansiyel\'den bir revizyonun içeriğini yükleyin.',
       'This symlink was deleted.' => 'Bu simge bağlantısı silindi.',
       'Get the reviewers for each revision.' => 'Her revizyon için inceleyecileri alın.',
@@ -714,7 +714,9 @@ final class PhabricatorDifferentialTr
       'Failed to load file ("%s") with hunk data.' => 'Yığın verilerle dosya ("%s") yüklenemedi.',
       'Waiting on Review' => 'İncelenmeyi Bekliyor',
       'This submodule was added.' => 'Bu alt modülü eklendi.',
+      'Hold revision as draft.' => 'Revizyonu taslak gibi tutun.',
       'Parent revisions of this revision.' => 'Bu revizyonun üst revizyonları.',
+      'The best way to create a diff is to use the %s command-line tool.' => 'Fark yaratmanın en iyi yolu Arcanist komut satırı aracını kullanmaktır.',
       'Normally, when revisions that have been "Accepted" are updated, they remain "Accepted". This allows reviewers to suggest minor alterations when accepting, and encourages authors to update if they make minor changes in response to this feedback.
     If you want updates to always require re-review, you can disable the "stickiness" of the "Accepted" status with this option. This may make the process for minor changes much more burdensome to both authors and reviewers.' => 'Normalde, "Kabul edildi" düzeltmeleri güncellendiğinde, "Kabul edildi" olarak kalırlar. Bu, gözden geçirenlerin kabul ederken küçük değişiklikler önermelerini sağlar ve yazarları bu geri bildirime yanıt olarak küçük değişiklikler yapıp yapmadıklarını güncellemeye teşvik eder.
     Güncellemelerin her zaman yeniden gözden geçirilmesini gerektiriyorsa, bu seçenekle "Kabul edildi" durumunun "yapışkanlığını" devre dışı bırakabilirsiniz. Bu, küçük değişiklikler sürecini hem yazarlar hem de hakemler için çok daha külfetli hale getirebilir.',
@@ -773,7 +775,6 @@ final class PhabricatorDifferentialTr
       'Change associated parent revisions.' => 'İlişkili üst revizyonları değiştirin.',
       'This diff ("%s") is associated with a repository ("%s") that does not have a Staging Area configured. You must configure a Staging Area to use CircleCI integration.' => 'Bu fark ("%s"), bir Aşama Alanı yapılandırılmamış bir depoyla ("%s") ilişkilendirilir. CircleCI entegrasyonunu kullanmak için bir Hazırlama Alanı yapılandırmanız gerekir.',
       'Jump to next change.' => 'Sonraki değişikliğe atla.',
-      'You can not add JIRA issues (%s) to this revision because your Phabricator account is not linked to a JIRA account.' => 'Phabricator hesabınız bir JIRA hesabına bağlı olmadığından, bu düzeltmeye JIRA sorunları (%s) ekleyemezsiniz.',
       'Show Last %s Line(s)' => 'Son %s Satırı Göster',
       'Select storage format automatically.' => 'Depolama biçimini otomatik olarak seçin.',
       'Allows any user to reopen a closed revision.' => 'Herhangi bir kullanıcının kapalı bir revizyonu yeniden açmasına izin verir.',
@@ -857,7 +858,6 @@ final class PhabricatorDifferentialTr
       'Replace the default title line with a human-readable revision title which describes the changes you are making.' => 'Varsayılan başlık satırını, yaptığınız değişiklikleri açıklayan, okunabilir bir revizyon başlığı ile değiştirin.',
       'Needs Review' => 'İnceleme Gerekiyor',
       'Invalid changeset ID "%s"!' => 'Geçersiz değişiklik kümesi kimliği "%s"!',
-      'The best way to create a diff is to use the Arcanist command-line tool.' => 'Fark yaratmanın en iyi yolu Arcanist komut satırı aracını kullanmaktır.',
       'Rebuild changesets for a revision.' => 'Bir revizyon için değişiklik kümelerini yeniden oluşturun.',
       'This revision was not accepted when it landed; it landed in state %s.' => 'Bu revizyon indiğinde kabul edilmedi; durum %s indi.',
       'Review Requested' => 'İnceleme Talep Edildi',

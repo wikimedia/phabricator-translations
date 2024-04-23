@@ -68,7 +68,7 @@ final class PhabricatorManiphestSrEC
       '%s lowered the priority of %s from %s to %s.' => '%s је смањио приоритет задатка %s са %s на %s.',
       'Search for tasks with given statuses.' => 'Претражи задатке са одређеним стањем.',
       'Task Has Revision' => 'Задатак има ревизију',
-      'Unbreak Now!' => 'Поправи одмах!',
+      'Unbreak Now!' => 'Поправити одмах!',
       'Change Story Points' => 'Измени поене за причу',
       'This task is locked. Edit it anyway?' => 'Овај задатак је закључан. Свеједно га уредити?',
       'Create a task in a workboard column.' => 'Направи задатак у колони радне табеле.',

@@ -30,7 +30,7 @@ final class PhabricatorSpacesFrFR
       'Existing objects in this Space will be hidden from query results by default.' => 'Les objets existant dans cet espace seront masqués par défaut dans les résultats de requêtes.',
       '%s made this the default space.' => '%s a fait de ceci l’espace par défaut.',
       '%s archived this space.' => '%s a archivé cet espace.',
-      'Type a space name...' => 'Entrer un nom d’espace...',
+      'Type a space name...' => 'Saisissez un nom d’espace...',
       'Existing objects will no longer be hidden from query results.' => 'Les objets existants ne seront plus masqués dans les résultats de requêtes.',
       'You do not have permission to create spaces.' => 'Vous n’avez pas la permission de créer des espaces.',
       'Ask someone to give you access to a space so you can view and create objects.' => 'Demandez à quelqu’un de vous donner l’accès à un espace afin que vous puissiez y voir et y créer des objets.',

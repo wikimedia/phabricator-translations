@@ -9,8 +9,8 @@ final class PhabricatorRemarkupTr
 
   protected function getTranslations() {
     return array(
-      'Process text through remarkup in Phabricator context.' => 'Phabricator bağlamında yorumlama yoluyla metin işleyin.',
       'Invalid markup engine.' => 'Geçersiz biçimlendirme motoru.',
+      'Process text through remarkup.' => 'Phabricator bağlamında yorumlama yoluyla metin işleyin.',
       'Content may not be empty.' => 'İçerik boş bırakılamaz.',
     );
   }

@@ -59,8 +59,10 @@ final class PhabricatorextCoreEn
       'Release Details' => 'Release Details',
       'Allow' => 'Allow',
       'This MediaWiki Train Deployment is scheduled for the week of' => 'This MediaWiki Train Deployment is scheduled for the week of',
+      'WIP - Work in Progress' => 'WIP - Work in Progress',
       'Query users by ldap username.' => 'Query users by ldap username.',
       'LDAP User' => 'LDAP User',
+      'Related Changes in GitLab:' => 'Related Changes in GitLab:',
       'Invalid action \'%s\'!' => 'Invalid action \'%s\'!',
       'Shows the gerrit Change ID for a commit.' => 'Shows the gerrit Change ID for a commit.',
       'This adds a link to search maniphest for open tasks which are tagged with this project.
@@ -78,6 +80,7 @@ final class PhabricatorextCoreEn
       'Deny' => 'Deny',
       'Consumer Key is required' => 'Consumer Key is required',
       'Invalid' => 'Invalid',
+      'Blocked on Code Review - Needs Changes' => 'Blocked on Code Review - Needs Changes',
       'View Change in Gerrit' => 'View Change in Gerrit',
       'You must disable the user before rolling back their activity' => 'You must disable the user before rolling back their activity',
       'Link to Open Tasks' => 'Link to Open Tasks',
@@ -93,6 +96,8 @@ final class PhabricatorextCoreEn
       'Enable this to use the experimental ElasticSearch fulltext backend.' => 'Enable this to use the experimental ElasticSearch fulltext backend.',
       'This task has no related gerrit patches.' => 'This task has no related gerrit patches.',
       'Gerrit Patches' => 'Gerrit Patches',
+      'This task has no related GitLab merge requests.' => 'This task has no related GitLab merge requests.',
+      'Customize query in GitLab' => 'Customize query in GitLab',
       'You must provide either --user or --user-phid' => 'You must provide either --user or --user-phid',
       'For more info about deployment blockers, see [[ https://wikitech.wikimedia.org/wiki/Deployments/Holding_the_train | Holding the train ]].' => 'For more info about deployment blockers, see [[ https://wikitech.wikimedia.org/wiki/Deployments/Holding_the_train | Holding the train ]].',
       'Sort by Last Update' => 'Sort by Last Update',
@@ -123,7 +128,6 @@ final class PhabricatorextCoreEn
       'Wikimedia Customizations' => 'Wikimedia Customizations',
       'Missing or malformed parameter.' => 'Missing or malformed parameter.',
       'MediaWiki base URI should include protocol (like "https://").' => 'MediaWiki base URI should include protocol (like "https://").',
-      'Blocked on Code Review' => 'Blocked on Code Review',
       'How this works' => 'How this works',
       'Create custom access control policy objects.' => 'Create custom access control policy objects.',
       'Use [[%s|this form]] to create one.' => 'Use [[%s|this form]] to create one.',
@@ -140,6 +144,7 @@ final class PhabricatorextCoreEn
     Choose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
     Use lowercase letters, digits, and period. For example: 
     `mediawiki`, `mediawiki.mycompany` or `mediawiki.engineering` are reasonable names.',
+      'GitLab Patches' => 'GitLab Patches',
       'Global Accounts' => 'Global Accounts',
       'Milestone Navigation Links' => 'Milestone Navigation Links',
       'Patch without arc' => 'Patch without arc',

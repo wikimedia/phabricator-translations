@@ -28,6 +28,7 @@ final class PhabricatorLegalpadEsES
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s editó %s documento(s) legal(es) requerido(s), añadido %s: %s; retirado %s: %s.',
       'Document Title.' => 'Título del documento.',
       'A valid email is required.' => 'Se requiere un correo electrónico válido.',
+      'Only documents with signature type "individual" may require signing to log in.' => 'Solo los documentos con tipo de firma "individual" pueden requerir ser firmados para usar Phabricator.',
       'Unable to Verify Signature' => 'No se puede verificar la firma',
       'Signed By' => 'Firmado por',
       'Contact Email' => 'Correo electrónico de contacto',
@@ -47,37 +48,20 @@ final class PhabricatorLegalpadEsES
       'Email Contains' => 'El correo electrónico contiene',
       'Signature Already Verified' => 'Firma ya verificada',
       'You do not have permission to create new documents.' => 'No tienes permiso para crear nuevos documentos.',
-      '%s:
-    This email address was used to sign a Legalpad document in Phabricator:
-      %s
-    Please verify you own this email address and accept the agreement by clicking this link:
-      %s
-    Your signature is not valid until you complete this verification step.
-    You can review the document here:
-      %s
-    ' => '%s:
-    Esta dirección de correo electrónico fue usada para firmar un documento Legalpad en Phabricator:
-      %s
-    Por favor verifica si posees esa dirección de correo electrónico y acepta el acuerdo haciendo clic en el siguiente enlace:
-      %s
-    Tu firma no será válida hasta que no completes este proceso de verificación.
-    Puedes revisar el documento aquí:
-      %s',
       'This document has an unknown signature type ("%s").' => 'Este documento tiene un tipo de firma desconocida ("%s").',
       'Legalpad Documents' => 'Documentos de Legalpad',
       'Legalpad Signatures' => 'Firmas de Legalpad',
       'You signed this document on %s.' => 'Has firmado este documento con fecha %s.',
       'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Gracias por firmar este documento. Por favor revisa tu correo electrónico para verificar la firma y completar el proceso.',
-      'Create documents and track signatures. Can also be re-used in other areas of Phabricator, like CLAs.' => 'Crear documentos y controlar firmas. También puede ser reutilizado para otras áreas en Phabricator, como los "Contributor License Agreements".',
       'Last Updated' => 'Última actualización',
       'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => 'Este documento requiere un firmante corporativo. Debes iniciar sesión para firmar este documento en nombre de la compañía a la que representas.',
       'Not Signable' => 'No firmable',
       'Signed' => 'Firmado',
       'The signature is now verified.' => 'La firma está ahora verificada.',
       'Notes' => 'Notas',
+      'Signature Required to Log In' => 'Firma requerida para usar Phabricator',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'Ver o firmar el documento',
-      'Only documents with signature type "individual" may require signing to use Phabricator.' => 'Solo los documentos con tipo de firma "individual" pueden requerir ser firmados para usar Phabricator.',
       'Mail receiver is not a LegalpadDocument!' => '¡El receptor del correo no es un LegalpadDocument!',
       'You must choose a user to exempt.' => 'Debes escoger a un usuario a eximir.',
       'You have already signed this document!' => '¡Ya has firmado este documento!',
@@ -116,7 +100,6 @@ final class PhabricatorLegalpadEsES
       'The preamble of the document.' => 'El preámbulo del documento.',
       '%s set the document to require signatures.' => '%s ajustó el documento para requerir firmas.',
       'Individuals' => 'Individuales',
-      'Signature Required to use Phabricator' => 'Firma requerida para usar Phabricator',
       'New document title.' => 'Nuevo título del documento.',
       'Configure creation and editing documents in Legalpad.' => 'Configurar la creación y edición de documentos en Legalpad.',
       'Signature Verified' => 'Firma verificada',

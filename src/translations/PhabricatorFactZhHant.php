@@ -13,7 +13,7 @@ final class PhabricatorFactZhHant
       'Iterator \'%s\' does not exist.' => '疊代器「%s」不存在。',
       'Manually invoke fact analyzers.' => '手動調用實情分析器。',
       'No fact engines support generating facts for this object.' => '沒有支援此對象來產生實情的實情引擎。',
-      'Executing a fact query requires facts.' => '執行實情查詢需要有實情。',
+      'Executing a fact query requires facts.' => '有事實才可查詢。',
       'Process only iterator __name__.' => '僅處理疊代器 __name__。',
       'Cursor %s does not exist or is already reset.' => '游標%s不存在或是已被重新設定。',
       'No cursors.' => '沒有游標。',

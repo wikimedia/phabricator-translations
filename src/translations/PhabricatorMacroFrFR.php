@@ -22,7 +22,7 @@ final class PhabricatorMacroFrFR
       'Image File' => 'Fichier de l’image',
       'Name of the macro.' => 'Nom de la macro.',
       'Create a Macro' => 'Créer une macro',
-      'Type an emoji name...' => 'Entrer un nom d\'emoji...',
+      'Type an emoji name...' => 'Saisissez un nom d’émoji...',
       'Apply transactions to create a new macro or edit an existing one.' => 'Appliquer les transactions pour créer une nouvelle macro ou en modifier une existante.',
       'Do not play audio.' => 'Ne pas jouer le son.',
       'Edit Macro %s' => 'Modifier la macro %s',
@@ -103,7 +103,7 @@ final class PhabricatorMacroFrFR
       'You do not have permission to manage image macros.' => 'Vous n’avez pas le droit de gérer les macros d’image.',
       'Template "%s" is not a valid template.' => 'Le modèle « %s » n’est pas un modèle valide.',
       'Email Commands: Macros' => 'Commandes de courriel : macros',
-      'Type a macro name...' => 'Entrer le nom d’une macro...',
+      'Type a macro name...' => 'Saisissez le nom d’une macro...',
       'Macro "%s" already exists.' => 'La macro « %s » existe déjà.',
       'Play Once' => 'Jouer une seule fois',
     );

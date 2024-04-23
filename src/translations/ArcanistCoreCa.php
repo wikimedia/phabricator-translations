@@ -76,7 +76,6 @@ final class ArcanistCoreCa
       'Conduit API login required.' => 'Cal un inici de sessió de l\'API de Conduit.',
       'Rule \'%s\' matched a zero-length token and causes no state transition.' => 'La regla \'%s\' coincideix amb un token de longitud zero i no causa cap transició d\'estat.',
       'Empty certificate in credentials.' => 'Certificat buit en credencials.',
-      'Phabricator install to connect to.' => 'Instal·lació del Phabricator per connectar-se.',
       'Confirms that revisions you did not author should land.' => 'Confirma que les revisions que no heu escrit han d\'aterrar.',
       'No tests to run.' => 'Cap prova per executar.',
       'Order: Global' => 'Comanda: Global',
@@ -104,8 +103,8 @@ final class ArcanistCoreCa
       'Local branch "%s" tracks an upstream, but following it leads to a local cycle; ignoring branch upstream.' => 'La branca local "%s" fa un seguiment aigües amunt, però després d\'ella es produeix un cicle local; ignorant la branca aigües amunt.',
       'Project Config File' => 'Arxiu de configuració del projecte',
       'Expected to match pattern "%s" against line "%s" in raw commit blob: %s' => 'S\'esperava que coincidís amb el patró «%s» contra la línia «%s» en el blob de validació en brut: %s',
-      'The URI of a Phabricator install to connect to by default, if %s is run in a project without a Phabricator URI or run outside of a project.' => 'L\'URI d\'una instal·lació de Phabricator per estar-hi connectat  per defecte, si s\'executa %s en un projecte sense un URI de Phabricator o s\'inicia fora d\'un projecte.',
       'You stand in the middle of a small clearing.' => 'Estàs al mig d\'una petita neteja.',
+      'Unable to find a browser command to run. Set "browser" in your configuration to specify a command to use.' => 'No s\'ha pogut trobar una ordre del navegador per executar-la. Establiu \'%s\' a la configuració d\'Arcanist per especificar una ordre que cal utilitzar.',
       'Try/catch block catches "Exception", but does not catch "Throwable". In PHP7 and newer, some runtime exceptions will escape this block.' => 'Un bloc try/catch captura "Exception", però no captura "Throwable". A PHP7 i versions posteriors, algunes excepcions en temps d\'execució escaparan d\'aquest bloc.',
       'HLint is a linter for Haskell code.' => 'HLint és un linter per al codi en Haskell.',
       'No Parent Scope' => 'Cap abast principal',
@@ -117,7 +116,6 @@ final class ArcanistCoreCa
       '`%s` Statement Must Be The First Statement' => 'La declaració "%s" ha de ser la primera declaració',
       'Argument "%s" is unrecognized. Use "%s" to indicate the end of flags.' => 'L\'argument «%s» no es reconeix. Useu «%s» per indicar el final de les banderes.',
       'Assertion failed, expected \'%s\' (at %s:%d): %s' => 'L\'asserció ha fallat, s\'esperava \'%s\' (a %s:%s): %s',
-      'Phabricator does not support staging areas for this repository.' => 'Phabricator no admet àrees de preparació per a aquest repositori.',
       'Test case \'%s\' was expected to raise an exception, but it did not throw anything.' => 'S\'esperava que el cas de prova «%s» aportés una excepció, però no va llançar res.',
       'Attempting to make an HTTP request, but query string data begins with "%s". Prior to PHP 5.2.0 this reads files off disk, which creates a wide attack window for security vulnerabilities. Upgrade PHP or avoid making cURL requests which begin with "%s".' => 'Intentant fer una petició HTTP, però les dades de la cadena de consulta comencen amb «%s». Abans de PHP 5.2.0 això llegeix arxius fora del disc, que crea una àmplia finestra d\'atac per a vulnerabilitats de seguretat. Actualitzeu PHP o eviteu fer peticions cURL que comencen per "%s".',
       'Land %s revision(s) in the wrong state?' => 'Voleu aterrar les %s revisions en un estat equivocat?',
@@ -145,7 +143,6 @@ final class ArcanistCoreCa
       'ERROR' => 'ERROR',
       'Do not upload binaries (like images).' => 'No pugis binaris (com ara imatges).',
       'Default value for parameters with `%s` type hint can only be `%s`.' => 'El valor per defecte dels paràmetres amb la indicació de tipus "%s" només pot ser "%s".',
-      'Arcanist HTTPS Trusted Domains' => 'Dominis HTTPS de confiança d\'Arcanist',
       'Use of Variable Variable' => 'Utilitzant una variable Variable',
       'Only one output format allowed' => 'Només es permet un format de sortida',
       'Arrange tasks based on priority, created, or modified, default is priority.' => 'Organitzeu les tasques segons la seva prioritat (opció predeterminada), la data de creació o la data de modificació.',
@@ -165,7 +162,6 @@ final class ArcanistCoreCa
       'Unexpected "%s" section in property addition.' => 'Secció "%s" inesperada en afegir una propietat.',
       'Failed to load library at location "%s". This library is specified by "%s". Check that the setting is correct and the library is located in the right place.' => 'No s\'ha pogut carregar la biblioteca a la ubicació "%s". Aquesta biblioteca està especificada per "%s". Comproveu que la configuració sigui correcta i que la biblioteca estigui al lloc adequat.',
       'Expect "syntax error" in stderr or "%s".' => 'Espereu "error de sintaxi" a stderr o "%s".',
-      'You have specified "--draft", but the version of Phabricator on the server is too old to support draft revisions. Omit the flag or upgrade the server software.' => 'Heu especificat "--draft", però la versió de Phabricator al servidor és massa antiga per admetre les revisions d\'esborrany. Omet la marca o actualitza el programari del servidor.',
       'Diff Parse Exception: %s' => 'Excepció d\'anàlisi sintàctic de diferències: %s',
       'Commit this revision anyway?' => 'Validar aquesta revisió de totes maneres?',
       'After creating the task, open it in a web browser.' => 'Després de crear la tasca, obriu-la en un navegador web.',
@@ -181,16 +177,14 @@ final class ArcanistCoreCa
       'Saved uncommitted changes from working copy.' => 'S\'han desat els canvis no validats de la còpia de treball.',
       'Unsound' => 'Dubtós',
       'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?' => 'Pedaç %s \'%s\' a \'%s\', però la ruta d\'origen no existeix a la còpia de treball. Voleu continuar igualment?',
+      'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'L\'URI d\'una instal·lació de Phabricator per estar-hi connectat  per defecte, si s\'executa %s en un projecte sense un URI de Phabricator o s\'inicia fora d\'un projecte.',
       'Double Write' => 'Doble escriptura',
       'Loading library from "%s"...' => 'Carregant la biblioteca de "%s"...',
       'Remote branch has multiple heads.' => 'La branca remota té diversos caps.',
-      'You have uncommitted changes in the working copy for this library:' => 'Heu invalidat els canvis de la còpia de treball d\'aquesta biblioteca:',
-      'Loading symbol cache...' => 'S\'està carregant la caché de símbols...',
       'Duplicate case in switch statement. PHP will ignore all but the first case.' => 'Cas duplicat a la sentència "switch". PHP ignorarà tots els casos després del primer.',
       'Unable to identify the revision in the working copy. Use \'%s\' to select a revision.' => 'No s\'ha pogut identificar la revisió a la còpia de treball.  Utilitzeu «%s» per seleccionar una revisió.',
       'IP address "%s" is not properly formatted: an address must contain exactly 8 segments, or omit a subsequence of segments with "::".' => 'L\'adreça IP «%s» no té un format adequat: una adreça ha de contenir exactament 8 segments, o ometre una subseqüència de segments amb «::».',
       'Binary integer literals are not available before PHP 5.4.' => 'Els literals enters binaris no estan disponibles abans de PHP 5.4.',
-      'Path to a custom CA bundle file to be used for arcanist\'s cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.' => 'Ruta d\'accés a un fitxer bundle de certificats personalitzat per a ús de les trucades cURL d\'Arcanist. S’utilitza principalment quan l\'endpoint del conducte es troba darrere d’un HTTPS signat pel certificat intern de la vostra organització.',
       'Failed to match remote pattern against line "%s".' => 'No s\'ha pogut aparellar el patró remot amb la línia "%s".',
       '%s is not a valid JSON object.' => '%s no és un objecte JSON vàlid.',
       'Checking out bookmark "%s".' => 'S\'està comprovant el marcador "%s".',
@@ -222,8 +216,6 @@ final class ArcanistCoreCa
       'Space found before semicolon.' => 'Espai trobat abans del punt i coma.',
       'Use `%s` for checking if the string contains something.' => 'Utilitzeu `%s` per a comprovar si la cadena conté alguna cosa.',
       'Perforce mode does not support the "merge" land strategy. Use the "squash" land strategy when landing to a Perforce remote (you can use "--squash" to select this strategy).' => 'El mode Perforce no dóna suport a l\'estratègia de terra "merge". Utilitzeu l\'estratègia de terra "squash" quan aterreu a un remot de Perforce (podeu utilitzar "--squash" per seleccionar aquesta estratègia).',
-      '  Note arcanist failed to load the commit message from differential for revision %s.' => 'Recordeu que Arcanist no ha pogut carregar el missatge de confirmació de diferència per a la revisió %s.',
-      'Associates this working copy with a specific installation of Phabricator.' => 'Associa aquesta còpia de treball amb una instal·lació específica de Phabricator.',
       'Use "--types" to select between alternatives.' => 'Utilitzeu "--types" per seleccionar entre alternatives.',
       'user' => 'Usuari/a',
       'Revision "%s" does not exist, or you do not have permission to see it.' => 'La revisió ("%s") no existeix, o no teniu permís per veure-la.',
@@ -234,7 +226,6 @@ final class ArcanistCoreCa
       'Array item with key \'%s\' must be an instance of %s, %s given.' => 'L\'element d\'array amb la clau «%s» ha de ser una instància de %s, donat %s.',
       'Aborted generation of gigantic diff.' => 'S\'ha interromput la generació d\'una diferència gegantesca.',
       'This line will be added:' => 'Aquesta línia serà afegida:',
-      'Open this page in your browser and login to Phabricator if necessary:' => 'Obriu aquesta pàgina al vostre navegador i inicieu la sessió al Phabricator si cal:',
       'Multiple "abstract" modifiers are not allowed.' => 'No es permeten múltiples modificadors «abstractes».',
       'Expected value to be a list, got "%s".' => 'S\'esperava que el valor fos una llista, s\'ha obtingut «%s».',
       'Reading data from stdin...' => 'S\'estan llegint les dades de stdin...',
@@ -272,7 +263,6 @@ final class ArcanistCoreCa
       'Saving local state (at "%s" on branch "%s").' => 'S\'està desant l\'estat local (a «%s» a la branca «%s»).',
       'Stash these changes and continue?' => 'Voleu amagar aquests canvis i continuar?',
       'Push to a remote other than the default.' => 'Feu clic a un remot diferent del predeterminat.',
-      'Analyzing %s file(s) with %s subprocess(es)...' => 'S\'estan analitzant %s fitxer(s) amb %s subprocessos...',
       'Shift/reduce conflict: from state \'%s\', when a \'%s\' is encountered, shifting conflicts with reducing \'%s\'.' => 'Conflicte de desplaçament/reducció: de l\'estat «%s», quan es troba un \'%s\', desplaçant els conflictes amb la reducció de \'%s\'.',
       'Expected hunk header \'%s\'.' => 'S\'esperava una peça de capçalera «%s».',
       'Unexpected node of type \'%s\'!' => 'Node inesperat del tipus \'%s\'!',
@@ -307,7 +297,6 @@ final class ArcanistCoreCa
       'Specify an AWS S3 object key to access with --key.' => 'Especifiqueu una clau d\'objecte AWS S3 per accedir amb --key.',
       'This client version does not support staging this repository.' => 'Aquesta versió del client no admet la preparació d\'aquest repositori.',
       'Run an external script, then parse its output with a regular expression. This is a generic binding that can be used to run custom lint scripts.' => 'Executa un script extern, després analitza sintàcticament la seva sortida amb una expressió regular. Aquesta és una vinculació genèrica que es pot utilitzar per executar scripts de lint personalitzats.',
-      'You are running one copy of Arcanist (at path "%s") against another copy of Arcanist (at path "%s"). Code in the current working directory will not be loaded or executed.' => 'Esteu executant una còpia d\'Arcanist (al camí "%s") contra una altra còpia d\'Arcanist (al camí "%s"). El codi del directori de treball actual no es carregarà ni s’executarà.',
       'Unable to detect any supported shell, so autocompletion rules can not be installed. Use "--shell" to select a shell.' => 'No es pot detectar cap shell compatible, de manera que no es poden instal·lar les regles d\'autocompleció. Utilitzeu «--shell» per seleccionar un shell.',
       'You are updating a revision ("%s") with the "--draft" flag, but this revision has already been published for review. You can not turn a revision back into a draft once it has been published.' => 'Esteu actualitzant una revisió ("%s") amb el senyalador "--draft", però aquesta revisió ja s\'ha publicat per revisar-la. No es pot convertir una revisió en un esborrany un cop s\'hagi publicat.',
       'Future graph is stalled: some futures are held, but no futures are waiting or working. The graph can never resolve.' => 'El gràfic futur està aturat: es mantenen alguns futurs, però no hi ha futurs que esperen ni funcionen. El gràfic mai no es pot resoldre.',
@@ -322,7 +311,6 @@ final class ArcanistCoreCa
       '`%s` Unreliable' => '"%s" No fiable',
       'Workflow has no name!' => 'El flux de treball no té nom!',
       'September' => 'Setembre',
-      'Lookup of encoding in arcanist project failed: %s' => 'Ha fallat la cerca de codificació en un projecte Arcanist: %s',
       'Confused by empty line' => 'Confús per una línia buida',
       'Follow naming conventions: parameters should be named using `%s`' => 'Seguiu les convencions de denominació: als paràmetres s’els hi han de posar noms amb `%s`',
       'Argument "%s" conflicts with argument "%s"%s' => 'L\'argument "%s" entra en conflicte amb l\'argument "%s"%s',
@@ -349,7 +337,6 @@ final class ArcanistCoreCa
       'Jump' => 'Saltar',
       'Uploaded binary data for "%s".' => 'Dades binàries carregades per "%s".',
       'The symbol map for library \'%s\' (at \'%s\') claims this %s is defined in \'%s\', but loading that source file did not cause the %s to become defined.' => 'El mapa de símbols per a la biblioteca \'%s\' (a \'%s\') afirma que aquest %s està definit en \'%s\', però carregar aquest fitxer d\'origen no va provocar que es definissin els %s.',
-      'Associate the working copy with a specific Phabricator repository. Normally, %s can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associa la còpia de treball amb un repositori específic de Phabricator. Normalment, %s pot definir aquesta associació per si sola, però si la vostra configuració és inusual utilitzeu aquesta opció per dir-li quin és el valor desitjat.',
       'Future has already started; futures can not start more than once.' => 'El futur ja ha començat; els futurs no poden començar més d’una vegada.',
       'Unable to upload file: the server refused to accept file "%s". This usually means it is too large.' => 'No es pot carregar el fitxer: el servidor es va negar a acceptar el fitxer "%s". Normalment, això significa que és massa gran.',
       'Configuration option "%s" is not valid. Configuration options passed with command line flags must be in the form "name=value".' => 'L\'opció de configuració "%s" no és vàlida. Les opcions de configuració aprovades amb els indicadors de línia d\'ordres han de tenir la forma "nom = valor".',
@@ -405,7 +392,6 @@ final class ArcanistCoreCa
       'REPOSITORY' => 'REPOSITORI',
       'No pushable remote "%s" exists. Use the "--onto-remote" flag to choose a valid, pushable remote to land changes onto.' => 'No existeix cap remot "%s". Utilitzeu el senyalador "--onto-remote" per triar un remot vàlid que pugui fer canvis.',
       'You must specify AWS credentials. Use --access-key and --secret-key to provide root credentials.' => 'Heu d\'especificar les credencials d\'AWS. Utilitzeu --access-key i --secret-key per proporcionar credencials d’arrel.',
-      'Updated!' => 'Actualitzat!',
       'Delete an object from S3.' => 'Eliminar un objecte de S3.',
       'Workflow "%s" is unknown. Supported workflows are: %s.' => 'Es desconeix el flux de treball "%s". Els fluxos de treball admesos són: %s.',
       'Write: %s' => 'Escriu: %s',
@@ -430,7 +416,6 @@ final class ArcanistCoreCa
       'TO INSTALL: %s' => 'PER INSTAL·LAR: %s',
       'Reuse of Iterator References' => 'Reutilització de referències iteradores',
       'Choose a workflow!' => 'Trieu un flux de treball.',
-      'Dropping symbol cache...' => 'S\'està buidant la caché de símbols...',
       '`%s` Operator' => 'Operador \'%s\'',
       '%s %s' => '%s %s',
       'No working copy to write config into!' => 'Cap còpia de treball on escriure la configuració.',
@@ -454,13 +439,12 @@ final class ArcanistCoreCa
       'REBASE CONFLICT' => 'REBASEU EL CONFLICTE',
       'argv: %s' => 'argv: %s',
       'Raw input file was written to: %s' => 'El fitxer d\'entrada en brut s\'ha escrit a: %s',
-      'Arcanist toolset "%s" is unknown. The Arcanist binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Es desconeix el conjunt d\'eines arcanistes "%s". El binari Arcanist s\'hauria d\'executar de manera que "argv [0]" identifiqui un conjunt d\'eines admès. Canvieu el nom del binari o instal·leu la biblioteca que proporciona el conjunt d’eines desitjat. Conjunts d\'eines disponibles actuals: %s.',
-      'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a preprebuilt command, you must not pass arguments.' => 'L\'ordre (de la classe "%s") es va construir amb un "PhutilCommandString", però també va passar arguments. Quan utilitzeu una ordre preconstruïda, no heu de passar arguments.',
       'Parser output for "%s".' => 'Sortida de l\'analitzador sintàctic de «%s».',
       'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with the alias of another configuration option ("%s"). The key and aliases of each option must be unique.' => 'L\'opció de configuració ("%s") definida per l\'extensió "%s" té un àlies ("%s") que entra en conflicte amb l\'àlies d\'una altra opció de configuració ("%s"). La clau i els àlies de cada opció han de ser únics.',
       'Enter a commit message.' => 'Entrar un missatge de validació.',
       'Cover changes since a specific revision.' => 'Canvis de cobertura des d\'una revisió específica.',
       'Implicit Constructor' => 'Creador per defecte',
+      'Read diff from stdin, not from the working copy. This disables many features which depend on having access to the working copy.' => 'Llegiu la diferència de stdin, no de la còpia de treball. Això desactiva moltes funcionalitats d\'Arcanist/Phabricator que depenen de tenir accés a la còpia de treball.',
       'Command to use to invoke a web browser.' => 'Ordre que cal utilitzar per invocar un navegador web.',
       'Value "%s" is not valid, specify a JSON list: %s' => 'El valor "%s" no és vàlid; especifiqueu una llista JSON: %s',
       'Specify at most one revision name.' => 'Especifica com a màxim un nom de revisió.',
@@ -600,7 +584,6 @@ final class ArcanistCoreCa
       'Updating local branch "%s"...' => 'Actualitzant la branca local "%s"...',
       'Unable to identify the current branch in the working copy.' => 'No es pot identificar la branca actual a la còpia de treball.',
       'Type of setting \'%s\' must be boolean.' => 'El tipus de paràmetre "%s" ha de ser booleà.',
-      'This version of Arcanist is more recent than the version of Phabricator you are connecting to: the Phabricator install is out of date and does not have support for identifying repositories by callsign or URI. Update Phabricator to enable these features.' => 'Aquesta versió d\'Arcanist és més recent que la versió de Phabricator a la qual esteu connectant: la instal·lació de Phabricator està obsoleta i no admet la identificació de repositoris mitjançant indicatiu de trucada o URI. Actualitzeu Phabricator per habilitar aquestes funcionalitats.',
       'No type name for node type ID \'%s\' in \'%s\' AAST.' => 'No hi ha cap nom de tipus per a l\'identificador de tipus de node "%s" a AAST "%s".',
       'Search for linters. Search is case-insensitive, and is performed against name and description of each linter.' => 'Cerca linters. La cerca no distingeix entre majúscules i minúscules, i es realitza contra el nom i la descripció de cada linter.',
       'Call-time pass-by-reference calls are prohibited.' => 'Estan prohibides les trucades fetes per referència en el moment de la trucada.',
@@ -611,6 +594,7 @@ final class ArcanistCoreCa
       'Filesystem path "%s" can not be accessed because a parent directory ("%s") is not executable (the current process does not have "+x" permission).' => 'No es pot accedir al camí del sistema de fitxers "%s" perquè no es pot executar un directori principal ("%s") (el procés actual no té permís "+x").',
       'File "%s" does not exist, or you do not have permission to view it.' => 'L\'arxiu ("%s") no existeix, o no teniu permís per veure\'l.',
       'Included commits in branch %s:' => 'Validacions incloses a la branca %s:',
+      '  NOTE: Failed to load the commit message from Differential (for revision "%s".)' => 'Recordeu que Arcanist no ha pogut carregar el missatge de confirmació de diferència per a la revisió %s.',
       'Spaces Inside Parentheses' => 'Espais dins de parèntesis',
       'Configuration (%s)' => 'Configuració (%s)',
       'This file contains a syntax error: %s' => 'Aquest fitxer conté un error de sintaxi: %s',
@@ -631,11 +615,11 @@ final class ArcanistCoreCa
       'Night has fallen, and the thin sliver of moon overhead offers no comfort. It is almost pitch black. The night is bitter cold. It will be difficult to look around in these conditions.' => 'La nit ha caigut, i la fina lluna no ofereix consol. Tot és gairebé negre. La nit és fred amarg. Serà difícil mirar al voltant en aquestes condicions.',
       'Future has already resolved. Futures may not resolve more than once.' => 'El futur ja s’ha resolt. Els futurs no es poden resoldre més d’una vegada.',
       '**version**' => '**versió**',
-      'Writing map...' => 'S\'està escrivint el mapa...',
       'Broken' => 'Trencat',
       'Length must be larger than 0!' => 'La longitud ha de ser superior a 0!',
       'The "SHELL" environment variable does not match any recognized shell.' => 'La variable d\'entorn «SHELL» no coincideix amb cap shell reconegut.',
       'All reviewers are away until %s:' => 'Tots els revisors no hi són fins a %s:',
+      'Server to connect to.' => 'Instal·lació del Phabricator per connectar-se.',
       'Created a new Differential revision:' => 'S\'ha creat una nova revisió Differential:',
       'Expected "~~~~~~~~~~" delimiter in test "%s".' => 'S\'esperava un delimitador "~~~~~~~~~~" a la prova "%s".',
       'When creating a revision, try to use the working copy commit message verbatim, without prompting to edit it. When updating a revision, update some fields from the local commit message.' => 'En crear una revisió, proveu d\'utilitzar el missatge de validació de la còpia de treball literalment, sense demanar-li que l\'editi.  En actualitzar una revisió, actualitza alguns camps del missatge de validació local.',
@@ -657,6 +641,7 @@ final class ArcanistCoreCa
       'Glob Magic, .tesseract' => 'Glob Magic, .tesseract',
       'PHP files must only contain PHP code.' => 'Els arxius de PHP només han de contenir codi PHP.',
       'Lock \'%s is not locked by this process!' => 'El bloqueig «%s» no està bloquejat per aquest procés!',
+      'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.' => 'Aquesta versió d\'Arcanist és més recent que la versió de Phabricator a la qual esteu connectant: la instal·lació de Phabricator està obsoleta i no admet la identificació de repositoris mitjançant indicatiu de trucada o URI. Actualitzeu Phabricator per habilitar aquestes funcionalitats.',
       'Setting an imaginary locale should raise an exception.' => 'Establir una configuració local imaginària hauria de generar una excepció.',
       '<Process was terminated by signal %s (%d).>
     ' => '<El procés es va acabar amb el senyal %s (%s).>',
@@ -667,16 +652,7 @@ final class ArcanistCoreCa
       'Source code should contain only ASCII bytes with ordinal decimal values between 32 and 126 inclusive, plus linefeed. Do not use UTF-8 or other multibyte charsets.' => 'El codi font només hauria de contenir bytes ASCII amb valors decimals ordinaris entre 32 i 126 inclosos, a més d\'alimentació de línia. No utilitzeu UTF-8 ni altres conjunts de caràcters multibyte.',
       'There are no changes to generate a diff from!' => 'No hi ha modificacions per generar una diferència.',
       'Type' => 'Tipus',
-      'Attempting to run unit tests on a libphutil library which has not been loaded, at:
-        %s
-    This probably means one of two things:
-        - You may need to add this library to %s.
-        - You may be running tests on a copy of libphutil or arcanist using a different copy of libphutil or arcanist. This operation is not supported.
-    ' => 'S\'està intentant executar proves unitàries en una biblioteca libphutil que no s\'ha carregat, a: 
-        %s 
-    Probablement això significa una de dues coses: 
-        - Potser heu d\'afegir aquesta biblioteca a %s. 
-        - Podeu estar executant proves en una còpia de libphutil o arcanist utilitzant una còpia diferent de libphutil o arcanist.  Aquesta operació no és compatible.',
+      'Toolset "%s" is unknown. The binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Es desconeix el conjunt d\'eines arcanistes "%s". El binari Arcanist s\'hauria d\'executar de manera que "argv [0]" identifiqui un conjunt d\'eines admès. Canvieu el nom del binari o instal·leu la biblioteca que proporciona el conjunt d’eines desitjat. Conjunts d\'eines disponibles actuals: %s.',
       'Rule \'%s\' can never be reduced: it recurses indefinitely and reaches no production of terminals.' => 'La regla "%s" no pot ser reduïda mai: fa un bucle indefinidament i no proporciona cap terminal.',
       'Surrogate filtering: %s' => 'Filtratge substitut: %s',
       'Translating legacy name \'%s\' to \'%s\'' => 'S\'està traduint el nom heretat \'%s\' a \'%s\'',
@@ -687,7 +663,6 @@ final class ArcanistCoreCa
       'The name or path of the coding standard to use.' => 'El nom o la ruta d\'accés de l\'estàndard de codificació que cal utilitzar.',
       'Enabled verbose mode.' => 'El mode verbós està habilitat.',
       'PHP Syntax Error!' => 'Error de Sintaxi del PHP!',
-      '%s must be in its git working copy to be automatically upgraded. This copy of %s (in \'%s\') is not in a git working copy.' => '%s ha d\'estar en la seva còpia de treball git per ser actualitzada automàticament. Aquesta còpia de %s (en \'%s\') no està en una còpia de treball de git.',
       'INVALID CREDENTIALS' => 'CREDENCIALS NO VÀLIDES',
       'Attempting to rebase changes.' => 'Intentant tornar a modificar els canvis.',
       'Cannot access `%s` when current class scope has no parent.' => 'No es pot accedir a %s quan l\'abast de la classe actual no té cap principal.',
@@ -830,6 +805,7 @@ final class ArcanistCoreCa
       'Methods should have their visibility declared explicitly.' => 'La visibilitat dels mètodes s’ha de declarar explícitament.',
       'Relative commit \'%s\' is not the name of a commit!' => 'La validació relativa "%s" no és el nom d\'una validació.',
       '%d beer(s)' => '%s cerveses',
+      'Associates this working copy with a specific server.' => 'Associa aquesta còpia de treball amb una instal·lació específica de Phabricator.',
       'lowercase_with_underscores: \'%s\'' => 'minúscules_amb_guions_baixos: \'%s\'',
       'You must configure \'%s\' with the name of a linter in order to use %s.' => 'Heu de configurar \'%s\' amb el nom d\'un linter per tal d\'utilitzar %s.',
       'Projects to assign to the task.' => 'Projectes per assignar a la tasca.',
@@ -885,7 +861,6 @@ final class ArcanistCoreCa
       'The test failed, but this change is probably not what broke it. For example, it might have already been failing.' => 'La prova ha fallat, però aquest canvi probablement no és el que l\'ha trencat. Per exemple, pot ser que ja estigués fallant.',
       'Invalid Default Parameter' => 'Paràmetre predeterminat no vàlid',
       'String components of a sort vector must not contain NULL bytes.' => 'Els components de cadena d’un vector d’ordenació no han de contenir bytes NULL.',
-      'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOGIN TO PHABRICATOR' => 'CAL QUE__INSTAL·LALIS UN CERTIFICAT__ PER INICIAR SESSIÓ A PHABRICATOR',
       'The `%s` syntax was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `%s`.' => 'La sintaxi `%s` no es va introduir fins a PHP 5.4, però aquesta base de codi té com a objectiu una versió anterior de PHP. Es pot reescriure aquesta expressió utilitzant `%s`.',
       'Prompts the user to stash changes and continue when the working copy has untracked, uncommitted, or unstaged changes.' => 'Demana a l\'usuari que amagui els canvis i continuï quan la còpia de treball hagi realitzat canvis sense rastrejar, sense comprometre o sense modificar.',
       'Not a symlink!' => 'No és un enllaç simbòlic!',
@@ -907,7 +882,6 @@ final class ArcanistCoreCa
       'Downloading binary data for \'%s\'...' => 'S\'estan baixant dades binàries per \'%s\'...',
       '**upload** [__options__] -- __file__ [__file__ ...]' => '**upload** [__options__] -- __file__ [__file__ ...]',
       '%s returned an unexpected number of bytes (got %s, expected %s)!' => '%s ha retornat un nombre inesperat de bytes (s\'ha rebut %s, s\'esperava %s)!',
-      'LOGIN TO PHABRICATOR' => 'INICIAR SESSIÓ A PHABRICATOR',
       'Unrecognized key \'%s\' in argument specification. Recognized keys are: %s.' => 'Clau no reconeguda \'%s\' a l\'especificació d\'arguments. Les claus reconegudes són: %s.',
       'The SSL CA Bundles that we tried to use could not be read or are not formatted correctly.' => 'Els bundles de CA SSL que intentem utilitzar no es poden llegir o no tenen un bon format.',
       'DATA' => 'DADA',
@@ -988,6 +962,7 @@ final class ArcanistCoreCa
       'Magic constants should be uppercase.' => 'Les constants màgiques han de ser majúscules.',
       'CASCADE' => 'CASCADA',
       'You are not the author of \'%s: %s\'. Commit this revision anyway?' => 'No sou l\'autor de \'%s: %s\'. Voleu validar aquesta revisió de totes maneres?',
+      'Lookup of encoding in project failed: %s' => 'Ha fallat la cerca de codificació en un projecte Arcanist: %s',
       'Concatenation Spacing' => 'Espaiat de concatenació',
       'Array item with key \'%s\' must be of type array, %s given.' => 'L\'element vector amb la clau \'%s\' ha de ser de tipus vector, obtingut %s.',
       'Ignore the changes to these %s submodule(s) and continue?' => 'Ignorar els canvis a aquest(s) submòdul(s) %s i continuar?',
@@ -1072,7 +1047,6 @@ final class ArcanistCoreCa
       'Unrecognized lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".' => 'Codi de missatge del lint "%s" no reconegut. S\'esperava un codi lint JSHint vàlid com "%s" o "%s".',
       'color' => 'color',
       'This patch has binary data. The PHP zlib extension is required to apply patches with binary data to git. Install the PHP zlib extension to continue.' => 'Aquest pedaç té dades binàries. L\'extensió PHP zlib és necessària per aplicar pedaços amb dades binàries al git. Instal·leu l\'extensió PHP zlib per continuar.',
-      'You can learn more about how Phabricator handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the Phabricator documentation.' => 'Es pot obtenir més informació sobre com Phabricator gestiona les codificacions de caràcters (i com configurar els paràmetres de codificació i detectar i corregir problemes de codificació) llegint la "Guia de l\'usuari: UTF-8 i codificació de caràcters" a la documentació de Phabricator.',
       'CONNECT' => 'CONNECTAR',
       'Unable to parse unit specification (expected a specification in the form "%s"): %s' => 'No es pot analitzar sintàcticament l\'especificació de la unitat (s\'esperava una especificació en forma \'%s\'): %s',
       'The shell "%s" is not supported. Supported shells are: %s.' => 'No s\'admet el shell «%s». Els shells suportats són: %s.',
@@ -1092,6 +1066,7 @@ final class ArcanistCoreCa
       'Hardpoint data (for hardpoint "%s") is not attached.' => 'Les dades del punt d\'ancoratge (per al punt d\'ancoratge "%s") no estan adjuntades.',
       'Type of setting \'%s\' must be string.' => 'El tipus de paràmetre \'%s\' ha de ser una cadena.',
       'Received error from Postmark: (%s) %s' => 'Error rebut de Postmark: (%s) %s',
+      '"arc upgrade" can only upgrade clean working copies.' => '\'arc upgrade\' només pot actualitzar còpies de treball netes.',
       'Spec validity for: %s' => 'Validesa de l\'especificació per a: %s',
       'Name' => 'Nom',
       'Unit testing raised errors!' => 'La prova d’unitat ha generat errors!',
@@ -1120,7 +1095,6 @@ final class ArcanistCoreCa
       'SAVE STATE' => 'SALVA ESTAT',
       '<placeholder>' => '<placeholder>',
       '%s failed!' => 'Ha fallat %s!',
-      'Arcanist does not support this version of %s (it is newer). You can try upgrading Arcanist with `%s`.' => 'Arcanist no admet aquesta versió de %s (és posterior). Es pot provar d\'actualitzar Arcanist amb "%s".',
       'Expected %s to return array, got %s.' => 'S\'esperava %s per retornar l\'array, s\'ha obtingut %s.',
       'The dependencies for this patch have a cycle. Applying them is not guaranteed to work. Continue anyway?' => 'Les dependències d’aquest pedaç tenen un cicle. No es garanteix que funcioni si l\'apliqueu. Voleu continuar igualment?',
       'Local commit "%s" (%s) does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.' => 'La validació local "%s" (%s) no es combina netament amb "%s". Torneu a crear o fusionar els canvis locals perquè es puguin fusionar netament.',
@@ -1175,6 +1149,25 @@ final class ArcanistCoreCa
       'This codebase targets PHP %s, but `%s` was not introduced until PHP %s.' => 'Aquesta base de codis té com a objectiu PHP %s, però %s no es van introduir fins PHP %s.',
       'Use of `%s` Properties' => 'Ús de les propietats de "%s"',
       'Chinese (Simplified)' => 'Xinès (Simplificat)',
+      'Begin or resume work on a branch, bookmark, task, or revision.
+    The __symbol__ may be a branch or bookmark name, a revision name (like "D123"),
+    a task name (like "T123"), or a new symbol.
+    If you provide a symbol which currently does not identify any ongoing work,
+    a new branch or bookmark will be created with the name you provide.
+    If you provide the name of an existing branch or bookmark, the working copy
+    will be switched to that branch or bookmark.
+    If you provide the name of a revision or task, the workflow will look for a
+    related branch or bookmark that already exists in the working copy. If one is
+    found, it will switch to it. If it does not find one, it will attempt to create
+    a new branch or bookmark.
+    When "arc work" creates a branch or bookmark, it will use **--start** as the
+    branchpoint if it is provided. Otherwise, the current working copy state will
+    serve as the starting point.' => 'Comenceu o torneu a treballar en una branca, un marcador, una tasca o una revisió.
+    El __symbol__ pot ser un nom de branca o marcador, un nom de revisió (com ara "D123"), un nom de tasca (com "T123") o un símbol nou.
+    Si proporcioneu un símbol que actualment no identifica cap treball en curs, Arcanist crearà una nova branca o marcador amb el nom que proporcioneu.
+    Si proporcioneu el nom d\'una adreça o adreça d\'interès existent, Arcanist canviarà a aquesta adreça o marcador.
+    Si proporcioneu el nom d\'una revisió o tasca, Arcanist cercarà una branca o un marcador relacionat que hi hagi a la còpia de treball. Si en troba un, hi canviarà. Si no en troba cap, intentarà crear una nova branca o marcador.
+    Quan "arc work" crea una branca o un marcador, s\'utilitzarà **--start** com a punt de branca si es proporciona. En cas contrari, l’estat actual de la còpia de treball servirà de punt de partida.',
       'Unknown patch type \'%s\'!' => 'Tipus de pedaç desconegut \'%s\'.',
       'Expected list of rules for state \'%s\' in %s, got %s.' => 'S\'esperava una llista de regles per a l\'estat \'%s\' a %s, obtingut %s.',
       'This codebase targets PHP %s, but short ternary was not introduced until PHP 5.3.' => 'Aquesta base de codis té com a objectiu PHP %s, però el ternari curt no es va introduir fins a PHP 5.3.',
@@ -1205,7 +1198,6 @@ final class ArcanistCoreCa
     En la majoria dels casos, el millor valor predeterminat és "%s". També es pot seleccionar "%s" per preservar el comportament anterior o algun altre remot o branca. Però gairebé segur que voleu seleccionar "origen"/ mestre".
     (Tècnicament: la base de fusió de la revisió i HEAD seleccionats s’utilitza per determinar l’inici del rang de validació).',
       '\'%s\' vs \'%s\'' => '\'%s\' vs \'%s\'',
-      'Finding source files...' => 'S\'estan cercant fitxers font...',
       'Other locations: %s' => 'Altres ubicacions: %s',
       'UNIT ERRORS' => 'ERRORS DE LA UNITAT',
       'Upload complete.' => 'Càrrega finalitzada.',
@@ -1219,26 +1211,8 @@ final class ArcanistCoreCa
       'There should be no whitespace after the object operator.' => 'No hauria d\'haver cap espai en blanc després de l\'operador d\'objectes.',
       'Checks for syntax errors in PHP files.' => 'Comprova si hi ha errors de sintaxi als fitxers PHP.',
       'HTTP Basic Auth is not supported by %s.' => '%s no admet l\'autenticació bàsica HTTP.',
-      'Begin or resume work on a branch, bookmark, task, or revision.
-    The __symbol__ may be a branch or bookmark name, a revision name (like "D123"),
-    a task name (like "T123"), or a new symbol.
-    If you provide a symbol which currently does not identify any ongoing work,
-    Arcanist will create a new branch or bookmark with the name you provide.
-    If you provide the name of an existing branch or bookmark, Arcanist will switch
-    to that branch or bookmark.
-    If you provide the name of a revision or task, Arcanist will look for a related
-    branch or bookmark that exists in the working copy. If it finds one, it will
-    switch to it. If it does not find one, it will attempt to create a new branch
-    or bookmark.
-    When "arc work" creates a branch or bookmark, it will use **--start** as the
-    branchpoint if it is provided. Otherwise, the current working copy state will
-    serve as the starting point.' => 'Comenceu o torneu a treballar en una branca, un marcador, una tasca o una revisió.
-    El __symbol__ pot ser un nom de branca o marcador, un nom de revisió (com ara "D123"), un nom de tasca (com "T123") o un símbol nou.
-    Si proporcioneu un símbol que actualment no identifica cap treball en curs, Arcanist crearà una nova branca o marcador amb el nom que proporcioneu.
-    Si proporcioneu el nom d\'una adreça o adreça d\'interès existent, Arcanist canviarà a aquesta adreça o marcador.
-    Si proporcioneu el nom d\'una revisió o tasca, Arcanist cercarà una branca o un marcador relacionat que hi hagi a la còpia de treball. Si en troba un, hi canviarà. Si no en troba cap, intentarà crear una nova branca o marcador.
-    Quan "arc work" crea una branca o un marcador, s\'utilitzarà **--start** com a punt de branca si es proporciona. En cas contrari, l’estat actual de la còpia de treball servirà de punt de partida.',
       'Did you mean:' => 'Volíeu dir:',
+      'This software is now up to date.' => 'La vostra còpia d\'arc està actualitzada.',
       'Message has unresolved errors.' => 'El missatge té errors no resolts.',
       'Error' => 'Error',
       'Object Operator Spacing' => 'Espai de l\'operador d\'objectes',
@@ -1250,6 +1224,7 @@ final class ArcanistCoreCa
       'Learn More:' => 'Aprèn-ne més:',
       'This syntax indicates there is an unresolved merge conflict.' => 'Aquesta sintaxi indica que hi ha un conflicte de fusió sense resoldre.',
       'State has multiple ambiguous revisions refs.' => 'L’Estat té múltiples referències ambigües.',
+      'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a prebuilt command, you must not pass arguments.' => 'L\'ordre (de la classe "%s") es va construir amb un "PhutilCommandString", però també va passar arguments. Quan utilitzeu una ordre preconstruïda, no heu de passar arguments.',
       'Windows can not write files with sufficiently absurd names.' => 'Windows no pot escriure arxius amb suficientment noms absurds.',
       'Newline After PHP Open Tag' => 'Línia nova després de l\'etiqueta Open PHP',
       'Hardpoint ("%s") is not registered on this object (of type "%s") so the definition object does not exist. Hardpoints are: %s.' => 'El punt d\'ancoratge ("%s") no està registrat en aquest objecte (del tipus "%s"), de manera que l\'objecte de definició no existeix. Els punts d\'ancoratge són: %s.',
@@ -1292,7 +1267,6 @@ final class ArcanistCoreCa
       'Set After Write' => 'Configurar després d\'escriure',
       'List Assignment' => 'Assignació de llistes',
       '`%s` Should Be `%s`' => '\'%s\' ha de ser \'%s\'',
-      'Unable to find a browser command to run. Set \'%s\' in your Arcanist config to specify a command to use.' => 'No s\'ha pogut trobar una ordre del navegador per executar-la. Establiu \'%s\' a la configuració d\'Arcanist per especificar una ordre que cal utilitzar.',
       'ACTUAL VALUE' => 'VALOR EXACTE',
       'No HTTP engine extension exists with extension key "%s".' => 'No existeix cap extensió de motor HTTP amb la clau d\'extensió "%s".',
       'P4 SYNC' => 'P4 SYNC',
@@ -1431,6 +1405,7 @@ final class ArcanistCoreCa
       'This version control system does not support commit ranges.' => 'Aquest sistema de control de versions no admet rangs de validació.',
       'Class Not `%s` Or `%s`' => 'La classe no és ni %s ni %s',
       'it is the merge-base of the upstream of the current branch and HEAD, and matched the rule \'%s\' in your %s \'base\' configuration.' => 'és la base de fusió de l\'ascendent de la branca actual i HEAD, i coincideix amb la regla \'%s\' a la vostra configuració \'base\' %s.',
+      'Open this page in your browser and log in if necessary:' => 'Obriu aquesta pàgina al vostre navegador i inicieu la sessió al Phabricator si cal:',
       'Specify one of \'%s\', \'%s\' or \'%s\' to choose an export format.' => 'Especifica un entre \'%s\', \'%s\' o \'%s\' per escollir un format d\'exportació.',
       'Export change as an arc bundle. This format can represent all changes. These bundles can be applied with \'%s\'.' => 'Exporta el canvi com a arc bundle. Aquest format pot representar tots els canvis. Aquests bundles es poden aplicar amb \'%s\'.',
       'When linting git repositories, amend HEAD with all patches suggested by lint without prompting.' => 'Quan es fan lints els repositoris git, esmeneu HEAD amb tots els pedaços suggerits pel lint sense preguntar.',
@@ -1498,19 +1473,18 @@ final class ArcanistCoreCa
       'You can not reference `%s` inside a static method.' => 'No s pot fer referència a \'%s\' dins d\'un mètode estàtic.',
       'Unary postfix operators should not be prefixed by whitespace.' => 'Els operadors de postfix unaris no haurien de ser prefixats per espais en blanc.',
       'Enable strict math, which only processes mathematical expressions inside extraneous parentheses.' => 'Activeu les matemàtiques estrictes, que només processen expressions matemàtiques dins de parèntesis aliens.',
-      'Specify the end of the commit range. This disables many Arcanist/Phabricator features which depend on having access to the working copy.' => 'Especifiqueu el final del rang de validació. Això desactiva moltes funcionalitats d\'Arcanist/Phabricator que depenen de tenir accés a la còpia de treball.',
       'Spellchecker' => 'Corrector ortogràfic',
       'The `%s` function should be avoided. It is potentially unsafe and makes debugging more difficult.' => 'S\'ha d\'evitar la funció "%s". Potencialment no és segur i dificulta la depuració.',
       'Parsed one change:
     %s' => 'S\'ha analitzat sintàcticament un canvi:
     %s',
       'Invalid severity code \'%s\', should begin with \'%s.\'.' => 'Codi de severitat \'%s\' no vàlid, ha de començar per \'%s.\'.',
-      'Generate diff by executing a specified command, not from the working copy. This disables many Arcanist/Phabricator features which depend on having access to the working copy.' => 'Genereu diferències executant una ordre especificada, no a partir de la còpia de treball. Això desactiva moltes funcionalitats d\'Arcanist / Phabricator que depenen de tenir accés a la còpia de treball.',
       'No such project: "%s"' => 'No existeix el projecte: «%s»',
       'Custom configuration file.' => 'Arxiu de configuració personalitzat.',
       'PUSHING' => 'EMPENYENT',
       'Linter "%s" generated a lint message that is invalid because it does not have a name. Lint messages must have a name.' => 'El linter «%s» va generar un missatge no vàlid perquè no té nom. Els missatges del lint han de tenir noms.',
       'Pass in a custom %s file path.' => 'Passeu en una ruta d\'arxiu personalitzada %s.',
+      'In order to keep StyleCop integration with IDEs and other tools consistent with lint results, you aren\'t permitted to disable StyleCop rules within \'%s\'. Instead configure the severity using the StyleCop settings dialog (usually accessible from within your IDE). StyleCop settings for your project will be used when linting.' => 'Per tal de mantenir la integració StyleCop amb IDE i altres eines coherents amb els resultats d\'Arcanist, no podeu desactivar les regles StyleCop a \'%s\'. En lloc d’això, configureu la severitat mitjançant el diàleg de configuració de StyleCop (normalment accessible des del vostre IDE). La configuració de StyleCop per al vostre projecte s\'utilitzarà quan linting per Arcanist.',
       'Filename' => 'Nom del fitxer',
       'Default behavior is ambiguous.' => 'El comportament predeterminat és ambigu.',
       'Patch Failed!' => 'El pedaç ha fallat!',
@@ -1519,6 +1493,7 @@ final class ArcanistCoreCa
       'Hardpoint (at index "%s") has no hardpoint key. Each hardpoint must have a key that is unique among hardpoints on the object.' => 'El punt d\'ancoratge (a l\'índex "%s") no té cap clau de punt d\'ancoratge. Cada punt d\'ancoratge ha de tenir una clau única entre els punts d\'ancoratge de l\'objecte.',
       'Apply changes from a Differential revision, using the most recent diff that has been attached to it. You can run \'%s\' as a shorthand.' => 'Apliqueu els canvis d\'una revisió Differential, utilitzant la diferència més recent que se li ha adjuntat. Es pot executar \'%s\' com a abreviatura.',
       'Expected resource "%s" to be an instance of "%s"!' => 'S\'esperava que el recurs \'%s\' fos una instància de \'%s\'.',
+      'Invalid "Differential Revision" field in commit message. This field should have a revision identifier like "%s" or a server URI like "%s", but has "%s".' => 'El camp "Revisió diferencial" no és vàlid al missatge de validació. Aquest camp hauria de tenir un identificador de revisió com "%s" o un URI de Phabricator com "%s", però té "%s".',
       'Merging local "%s" into "%s" produces an empty diff. This usually means these changes have already landed.' => 'Fusionant el «%s» local amb «%s» produeix un diff buit.  Això normalment significa que aquestes modificacions ja s\'han completat.',
       'Checking out "%s".' => '"%s" està comprovat.',
       'Order: Args' => 'Comanda: Args',
@@ -1567,7 +1542,6 @@ final class ArcanistCoreCa
       'This line is %s characters long, but the convention is %s characters.' => 'Aquesta línia té %s de caràcters, però la convenció és %s.',
       'Working Copy: Path "%s" is part of `%s` working copy "%s".' => 'Còpia de treball: la ruta \'%s\' forma part de la còpia de treball \'%3$s\' de \'%2$s\'.',
       'Linter failed to parse output!' => 'El linter ha fallat en analitzar sintàcticament la sortida!',
-      'Upgrading %s...' => 'S\'està actualitzant %s...',
       'Failed to load XUnit report; Input starts with:' => 'No s\'ha pogut carregar l\'informe XUnit; L’entrada comença per:',
       'Assertion failed, expected values to be equal (at %s:%d).' => 'Ha fallat l\'afirmació, els valors esperats seran iguals (a %s:%s).',
       'No query exists which can load hardpoint "%s" for object (with key "%s" of type "%s").' => 'No existeix cap consulta que pugui carregar el punt d\'ancoratge "%s" per a l\'objecte (amb la clau "%s" del tipus "%s").',
@@ -1650,6 +1624,7 @@ final class ArcanistCoreCa
       'Created task %s: \'%s\' at %s
     ' => 'Tasca creada %s: \'%s\' a %s',
       'cover does not currently support %s in svn.' => 'la cobertura actualment no admet %s a svn.',
+      'You have specified "--draft", but the software version on the server is too old to support draft revisions. Omit the flag or upgrade the server software.' => 'Heu especificat "--draft", però la versió de Phabricator al servidor és massa antiga per admetre les revisions d\'esborrany. Omet la marca o actualitza el programari del servidor.',
       'Status' => 'Estat',
       'Formatted String' => 'Cadena formatada',
       'Unnecessary `%s` modifier in `%s` class.' => 'Modificador "%s" innecessari a la classe "%s".',
@@ -1668,7 +1643,6 @@ final class ArcanistCoreCa
       '`%s` Method Cannot Be Declared `%s`' => 'El mètode \'%s\' no es pot declarar \'%s\'',
       'PASS' => 'PASS',
       'Skip checks for untracked files in the working copy.' => 'Omet les comprovacions de fitxers no rastrejats a la còpia de treball.',
-      'Invalid "Differential Revision" field in commit message. This field should have a revision identifier like "%s" or a Phabricator URI like "%s", but has "%s".' => 'El camp "Revisió diferencial" no és vàlid al missatge de validació. Aquest camp hauria de tenir un identificador de revisió com "%s" o un URI de Phabricator com "%s", però té "%s".',
       'Spacing Before Array Index' => 'Espai abans de l\'índex d\'arrays',
       'Tautological Expression' => 'Expressió tautològica',
       'Pushing changes to staging area...' => 'Empenyant els canvis a l\'àrea de preparació...',
@@ -1701,11 +1675,13 @@ final class ArcanistCoreCa
       'Only show tasks assigned to the given username, also accepts %s to show all, default is you.' => 'Mostra només les tasques assignades al nom d\'usuari donat, també accepta %s per mostrar-ho tot, per defecte ets tu.',
       'New Version Available!' => 'Nova versió disponible!',
       'Command to use to invoke an interactive editor, like `%s` or `%s`. This setting overrides the %s environmental variable.' => 'Ordre que cal utilitzar per invocar un editor interactiu, com ara \'%s\' o \'%s\'. Aquest paràmetre substitueix la variable d\'entorn de %s.',
+      'The server does not support staging areas for this repository.' => 'Phabricator no admet àrees de preparació per a aquest repositori.',
       'Install cpplint.py using `%s`, and place it in your path with the appropriate permissions set.' => 'Instal·leu cpplint.py mitjançant `%s` i col·loqueu-lo a la vostra ruta amb els permisos adequats establerts.',
       'Specify either setData() or setPath() when building a file data reference, but not both.' => 'Especifiqueu setData() o setPath() quan creeu una referència de dades de fitxer, però no tots dos.',
       'Expect %s has been called once.' => 'Sembla que s\'ha trucat a %s una vegada.',
       '`%s` method cannot be declared `%s`. This construct will cause a fatal error.' => 'El mètode "%s" no es pot declarar "%s". Aquesta construcció provocarà un error fatal.',
       '\'%s\' files should not be executable.' => 'Els fitxers \'%s\' no haurien de ser executables.',
+      'Path to a custom CA bundle file to be used for cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.' => 'Ruta d\'accés a un fitxer bundle de certificats personalitzat per a ús de les trucades cURL d\'Arcanist. S’utilitza principalment quan l\'endpoint del conducte es troba darrere d’un HTTPS signat pel certificat intern de la vostra organització.',
       'JSHint returned unparseable output.' => 'JShint ha retornat una sortida analitzable amb unparser.',
       'Disables lint for files that are marked as "%s", indicating that they contain generated code.' => 'Desactiva el lint per a fitxers marcats com a "%s", indicant que contenen codi generat.',
       'Revision \'%s\' does not exist.' => 'La revisió \'%s\' no existeix.',
@@ -1733,9 +1709,10 @@ final class ArcanistCoreCa
       'Halt' => 'Atura',
       'Unknown lint message!' => 'Missatge del lint desconegut!',
       '"%s" name' => 'Nom de "%s"',
-      'lowerCamelCase: \'%s\'' => 'lowerCamelCase: \'%s\'',
+      'lowerCamelCase: \'%s\'' => 'minusculeCasseChameau : « %s »',
       'The UUID for this working copy is "%s".' => 'La UUID d\'aquesta còpia de treball és \'%s\'.',
       'MATCHING REVISIONS' => 'APARELLANT REVISIONS',
+      'You can learn more about how this software handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the documentation.' => 'Es pot obtenir més informació sobre com Phabricator gestiona les codificacions de caràcters (i com configurar els paràmetres de codificació i detectar i corregir problemes de codificació) llegint la "Guia de l\'usuari: UTF-8 i codificació de caràcters" a la documentació de Phabricator.',
       'No unit test engine is configured for this project.' => 'No hi ha cap motor de prova unitària configurat per a aquest projecte.',
       'When creating a revision, read revision information from this file.' => 'Quan creeu una revisió, llegiu la informació de revisió d’aquest fitxer.',
       'Invalid octal numeric scalar. `%s` is not a valid octal and will be interpreted as `%d`.' => 'Escalar numèric octal no vàlid. \'%s\' no és un octal vàlid i s\'interpretarà com a \'%s\'.',
@@ -1747,6 +1724,7 @@ final class ArcanistCoreCa
       'Error in parsing \'%s\' file.' => 'Error en analitzar sintàcticament el fitxer "%s".',
       'Trying rules from source \'%s\'.' => 'S\'estan provant les regles de la font "%s".',
       'After creating a diff or revision, open it in a web browser.' => 'Després de crear una diferència o una revisió, obriu-la al navegador web.',
+      'Generate diff by executing a specified command, not from the working copy. This disables many features which depend on having access to the working copy.' => 'Genereu diferències executant una ordre especificada, no a partir de la còpia de treball. Això desactiva moltes funcionalitats d\'Arcanist / Phabricator que depenen de tenir accés a la còpia de treball.',
       'Only show tasks that are not assigned (upforgrabs).' => 'Mostra només tasques no assignades (upforgrabs).',
       'Do you want to amend these %s change(s) to the current commit?' => 'Voleu modificar aquests %s canvi(s) a la validació actual?',
       'You have missing files in this working copy. Revert or formally remove them (with `%s`) before proceeding.' => 'Us falten fitxers en aquesta còpia de treball. Revertir-los o eliminar-los formalment (amb `%s`) abans de continuar.',
@@ -1766,7 +1744,6 @@ final class ArcanistCoreCa
       'In Preparation' => 'En preparació',
       'Expected Open Tag' => 'S\'esperava una etiqueta oberta',
       'Updating to the revision\'s base commit' => 'S\'està actualitzant a la validació base de la revisió',
-      'Read diff from stdin, not from the working copy. This disables many Arcanist/Phabricator features which depend on having access to the working copy.' => 'Llegiu la diferència de stdin, no de la còpia de treball. Això desactiva moltes funcionalitats d\'Arcanist/Phabricator que depenen de tenir accés a la còpia de treball.',
       'Detecting current shell...' => 'S\'està detectant el shell actual ...',
       'There was an error negotiating the SSL connection. This usually indicates that the remote host has a bad SSL certificate, or your local host has some sort of SSL misconfiguration which prevents it from accepting the CA. If you are using a self-signed certificate, see instructions in "%s".' => 'Hi ha hagut un error en negociar la connexió SSL. Normalment això indica que l\'amfitrió remot té un certificat SSL incorrecte, o el vostre host local té algun tipus de desconfiguració SSL que impedeix que accepti l\'AC. Si esteu utilitzant un certificat autosignat, consulteu instruccions a «%s».',
       'LINT OKAY' => 'LINT CORRECTA',
@@ -1801,6 +1778,7 @@ final class ArcanistCoreCa
       'No test cases for working copy \'%s\'!' => 'No hi ha casos de prova per a la còpia de treball \'%s\'!',
       '%s: %s' => '%s: %s',
       'Updated an existing Differential revision:' => 'S\'ha actualitzat una revisió de Differential existent:',
+      'This command needs to communicate with a server, but no server URI is configured.' => 'Aquesta ordre ha de comunicar-se amb Phabricator, però no hi ha cap URI de Phabricator configurat.',
       'Use `%s` to perform static analysis on C/C++ code.' => 'Utilitzeu `%s` per realitzar anàlisis estàtiques del C/C++ code.',
       'Mercurial is not installed' => 'Mercurial no està instal·lat',
       '%s requires a revision number.' => '%s requereix un número de revisió.',
@@ -1833,7 +1811,6 @@ final class ArcanistCoreCa
       'Included commits:' => 'Validacions incloses:',
       'Unable to upload file data: %s' => 'No es poden carregar les dades del fitxer: %s',
       'Use `%s` to check that your Puppet manifests conform to the style guide.' => 'Utilitzeu "%s" per comprovar que el vostre Puppet es manifesta conforme a la guia d\'estils.',
-      'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an Arcanist operation causes an unrecoverable error.' => 'Si %s ha de permetre l\'amagatall automàtic dels canvis al directori de treball quan es requereix una còpia de treball neta. Aquesta opció només s’ha d’utilitzar quan els usuaris entenguin com restaurar el directori de treball des de l’emmagatzematge local si una operació Arcanist provoca un error irrecuperable.',
       'Show detailed information, including options.' => 'Mostra informació detallada, incloses les opcions.',
       'File as patched by lint did not match the expected patched file.' => 'El fitxer apedaçat pel lint no coincideix amb el fitxer apedaçat esperat.',
       'committed' => 'validat',
@@ -1893,10 +1870,8 @@ final class ArcanistCoreCa
       'Install JSHint using `%s`.' => 'Instal·leu JSHint utilitzant `%s`.',
       'Warning' => 'Advertència',
       'NO PATH TO REMOTE' => 'NO HI HA CAMÍ AL REMOT',
-      '`arc upgrade` can only upgrade clean working copies.' => '\'arc upgrade\' només pot actualitzar còpies de treball netes.',
       'Test case \'%s\' threw, as expected.' => 'Com es preveia, es va llançar el cas de prova "%s".',
       'Created and checked out bookmark %s.' => 'S\'ha creat i comprovat el marcador %s.',
-      'Your copy of arc is now up to date.' => 'La vostra còpia d\'arc està actualitzada.',
       'PREVIEW' => 'VISTA PRÈVIA',
       'Unexpected copy source in %s, \'%s\'.' => 'Còpia de font inesperada a %s, \'%s\'.',
       'UPPERCASE_WITH_UNDERSCORES: \'%s\'' => 'MAJÚSCULES_AMB_SUBRATLLATS: \'%s\'',
@@ -1904,6 +1879,8 @@ final class ArcanistCoreCa
       'This commit includes the directory \'%s\', but it contains a modified path (\'%s\') which is NOT included in the commit. Subversion can not handle this operation and will commit the path anyway. You need to sort out the working copy changes to \'%s\' before you may proceed with the commit.' => 'Aquesta validació inclou el directori \'%s\', però conté una ruta modificada (\'%s\') que NO s\'inclou a la validació. Subversion no pot gestionar aquesta operació i comprometrà la ruta de totes maneres. Cal ordenar els canvis de la còpia de treball a "%s" abans de continuar amb la validació.',
       '`%s` Function' => 'Funció `%s`',
       'Error in parsing \'%s\' file, in key \'%s\' for linter \'%s\'.' => 'Error en analitzar sintàcticament el fitxer "%s", en clau \'%s\' pel lint "%s".',
+      'You are running one copy of this software (at path "%s") against another copy of this software (at path "%s"). Code in the current working directory will not be loaded or executed.' => 'Esteu executant una còpia d\'Arcanist (al camí "%s") contra una altra còpia d\'Arcanist (al camí "%s"). El codi del directori de treball actual no es carregarà ni s’executarà.',
+      'Specify the end of the commit range. This disables many features which depend on having access to the working copy.' => 'Especifiqueu el final del rang de validació. Això desactiva moltes funcionalitats d\'Arcanist/Phabricator que depenen de tenir accés a la còpia de treball.',
       'Choose a name for the new library.' => 'Trieu un nom per a la nova biblioteca.',
       'Do you want to mark these %s file(s) as binary and continue?' => 'Voleu marcar aquests %s fitxers com binaris i continuar?',
       'No lint problems.' => 'Cap problema del lint.',
@@ -1919,6 +1896,7 @@ final class ArcanistCoreCa
       'Other users to CC on the new task.' => 'Altres usuaris a CC en la nova tasca.',
       'XHPAST Lint' => 'Lint XHPAST',
       'Reading diff from stdin...' => 'S\'està llegint les diferències des d\'stdin...',
+      'HTTPS Trusted Domains' => 'Dominis HTTPS de confiança d\'Arcanist',
       'Non-conventional modifier ordering.' => 'Ordre de modificadors no convencionals.',
       'Specify an explicit URI or run this command from within a project which is configured with a %s.' => 'Especifiqueu un URI explícit o executeu aquesta ordre des d\'un projecte configurat amb un %s.',
       'Git ref selector "%s" is not a valid selector and can not be passed to the Git CLI safely in the general case.' => 'El selector de ref de Git «%s» no és un selector vàlid i no es pot passar al Git CLI amb seguretat en el cas general.',
@@ -1930,6 +1908,7 @@ final class ArcanistCoreCa
       'Reuse of Iterator Variable' => 'Reutilització de la variable iteradora',
       'Use the `%s` mode provided by `%s` to detect errors in Less source files.' => 'Utilitzeu el mode "%s" que proporciona "%s" per detectar errors a fitxers font de Less.',
       'Reason' => 'Motiu',
+      'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.' => 'Si %s ha de permetre l\'amagatall automàtic dels canvis al directori de treball quan es requereix una còpia de treball neta. Aquesta opció només s’ha d’utilitzar quan els usuaris entenguin com restaurar el directori de treball des de l’emmagatzematge local si una operació Arcanist provoca un error irrecuperable.',
       'Test case \'%s\' did not throw, as expected.' => 'El cas de prova "%s" no es va llançar, com s\'esperava.',
       'Signal handlers raised exceptions while handling "%s".' => 'Els controladors de senyals han generat excepcions mentre controlaven "%s".',
       'Imbalanced calls to shared futures: each call to %s for a path must be paired with a call to %s.' => 'Trucades desequilibrades a futurs compartits: cada trucada a %s per una ruta s\'ha d\'aparellar amb una trucada a %s.',
@@ -1966,6 +1945,14 @@ final class ArcanistCoreCa
       'PHP version to target.' => 'Versió PHP per a l\'objectiu.',
       'Bad blame? `%s\'' => 'Mala traçabilitat? "%s"',
       'Needs Review' => 'Necessita revisió',
+      'Attempting to run unit tests on a library which has not been loaded, at:
+        %s
+    Make sure this library is configured to load.
+    (In rare cases, this may be because you are attempting to run one copy of this software against a different copy of this software. This operation is not supported.)' => 'S\'està intentant executar proves unitàries en una biblioteca libphutil que no s\'ha carregat, a: 
+        %s 
+    Probablement això significa una de dues coses: 
+        - Potser heu d\'afegir aquesta biblioteca a %s. 
+        - Podeu estar executant proves en una còpia de libphutil o arcanist utilitzant una còpia diferent de libphutil o arcanist.  Aquesta operació no és compatible.',
       'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => 'Aquesta diferència inclou %s fitxers que no són UTF-8 vàlids (contenen seqüències de bytes no vàlides). Es pot aturar aquest flux de treball i corregir aquests fitxers o continuar. Si continueu, aquests fitxers es marcaran com a binaris.',
       'Slow Construct' => 'Construcció lenta',
       'Saving local state (at "%s" on branch "%s", bookmarked as "%s").' => 'S\'està desant l\'estat local (a "%s" a la branca "%s", marcat com a "%s").',
@@ -1987,7 +1974,6 @@ final class ArcanistCoreCa
       'Load all object hardpoints.' => 'Carregueu tots els punts d\'ancoratge dels objectes.',
       'No local copy of ref "%s" in remote "%s" exists, attempting fetch...' => 'No existeix cap còpia local de la referència "%s" al remot "%s", intentant recuperar...',
       'Convention: no spaces before opening parentheses.' => 'Convenció: cap espai abans d\'obrir parèntesis.',
-      'In order to keep StyleCop integration with IDEs and other tools consistent with Arcanist results, you aren\'t permitted to disable StyleCop rules within \'%s\'. Instead configure the severity using the StyleCop settings dialog (usually accessible from within your IDE). StyleCop settings for your project will be used when linting for Arcanist.' => 'Per tal de mantenir la integració StyleCop amb IDE i altres eines coherents amb els resultats d\'Arcanist, no podeu desactivar les regles StyleCop a \'%s\'. En lloc d’això, configureu la severitat mitjançant el diàleg de configuració de StyleCop (normalment accessible des del vostre IDE). La configuració de StyleCop per al vostre projecte s\'utilitzarà quan linting per Arcanist.',
       'The current working directory is not part of a working copy for a supported version control system (Git, Subversion or Mercurial).' => 'El directori de treball actual no forma part d’una còpia de treball d’un sistema de control de versions compatible (Git, Subversion o Mercurial).',
       'WARNING' => 'AVÍS',
       'LINT NOTICE' => 'AVÍS DEL LINT',
@@ -1995,7 +1981,6 @@ final class ArcanistCoreCa
       'Hardpoint ("%s") is not registered on this object (of type "%s"). Hardpoints are: %s.' => 'El punt d\'ancoratge ("%s") no està registrat en aquest objecte (del tipus "%s"). Els punts d\'ancoratge són: %s.',
       'Unknown Mercurial status \'%s\'.' => 'Estat mercurial desconegut "%s".',
       'Expected \'Name\', \'Added\', \'Deleted\', or \'Modified\'.' => 'S\'esperava \'Nom\', \'Afegit\', \'Suprimit\' o \'Modificat\'.',
-      'This command needs to communicate with Phabricator, but no Phabricator URI is configured.' => 'Aquesta ordre ha de comunicar-se amb Phabricator, però no hi ha cap URI de Phabricator configurat.',
       'Script to execute.' => 'Script per executar.',
       '`%s` should be separated from code by an empty line.' => '"%s" s\'hauria de separar del codi per una línia buida.',
       'AVAILABLE' => 'DISPONIBLE',
@@ -2006,6 +1991,7 @@ final class ArcanistCoreCa
       'This iterator variable is a previously declared local variable. To avoid overwriting locals, do not reuse them as iterator variables.' => 'Aquesta variable iteradora és una variable local prèviament declarada. Per evitar sobreescriure els locals, no els torneu a utilitzar com a variables iteradores.',
       'Fatal Error' => 'Error fatal',
       'No remote "%s" exists in this repository.' => 'No hi ha cap «%s» remot en aquest repositori.',
+      'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOG IN' => 'CAL QUE__INSTAL·LALIS UN CERTIFICAT__ PER INICIAR SESSIÓ A PHABRICATOR',
     );
   }
 

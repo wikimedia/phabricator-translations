@@ -28,6 +28,7 @@ final class PhabricatorLegalpadZhHant
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s編輯了%s需要合法文件，已添加%s：%s，已移除%s：%s。',
       'Document Title.' => '文件標題。',
       'A valid email is required.' => '需要驗證的電子郵件',
+      'Only documents with signature type "individual" may require signing to log in.' => '僅有以簽名類型為「個別」的文件在使用 Phabricator 會需要簽名。',
       'Unable to Verify Signature' => '無法驗證簽名',
       'Signed By' => '簽名由',
       'Contact Email' => '聯絡人電子郵件',
@@ -38,7 +39,7 @@ final class PhabricatorLegalpadZhHant
       '%s updated the document text.' => '%s更新了文件文字。',
       'Signed on %s' => '簽名在%s',
       '%s renamed this document from %s to %s.' => '%s將此文件從%s改名成%s。',
-      'The body of text of the document.' => '文件的正文文字。',
+      'The body of text of the document.' => '文件正文文字。',
       'Not Signed' => '尚未簽名',
       '%s document(s) are already signed: %s.' => '%s 份文件已簽名：%s。',
       'You must choose a company to add an exemption for.' => '您必須挑選用來添加免除的公司。',
@@ -47,38 +48,21 @@ final class PhabricatorLegalpadZhHant
       'Email Contains' => '電子郵件包含',
       'Signature Already Verified' => '簽名已驗證',
       'You do not have permission to create new documents.' => '您沒有權限建立新的文件。',
-      '%s:
-    This email address was used to sign a Legalpad document in Phabricator:
-      %s
-    Please verify you own this email address and accept the agreement by clicking this link:
-      %s
-    Your signature is not valid until you complete this verification step.
-    You can review the document here:
-      %s
-    ' => '%s:
-    此電子郵件位址用來千名在 Phabricator 上的 Legalpad 文件：
-      %s
-    請確認您確實擁有此電子郵件位址，並透過點擊此連結來接受協議：
-      %s
-    在完成驗證步驟之前，您的簽名無效。
-    您可以在此檢視文件：
-      %s',
       'This document has an unknown signature type ("%s").' => '此文件有不明的簽名類型（「%s」）。',
       '[Legalpad]' => '[Legalpad]',
       'Legalpad Documents' => 'Legalpad 文件',
       'Legalpad Signatures' => 'Legalpad 簽名',
       'You signed this document on %s.' => '您在%s簽名了此文件。',
       'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => '感謝您簽名此文件。請檢查您的電子郵件來驗證您的簽名並完成流程。',
-      'Create documents and track signatures. Can also be re-used in other areas of Phabricator, like CLAs.' => '建立文件與追蹤簽名。另外可在 Phabricator 的其它部分重新使用，像是 CLAs。',
       'Last Updated' => '上次更新',
       'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => '此文件需要公司簽名。您必須要登入才能代表您隸屬的公司來接受此文件。',
       'Not Signable' => '不可簽名',
       'Signed' => '已簽名',
       'The signature is now verified.' => '簽名現在已驗證',
       'Notes' => '備註',
+      'Signature Required to Log In' => '需要使用 Phabricator 的簽名',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => '檢視/簽名文件',
-      'Only documents with signature type "individual" may require signing to use Phabricator.' => '僅有以簽名類型為「個別」的文件在使用 Phabricator 會需要簽名。',
       'Mail receiver is not a LegalpadDocument!' => '郵件接收者不是 Legalpad 文件！',
       'You must choose a user to exempt.' => '您必須挑選要免除的使用者。',
       'You have already signed this document!' => '您已簽名了此文件！',
@@ -117,7 +101,6 @@ final class PhabricatorLegalpadZhHant
       'The preamble of the document.' => '文件的導言。',
       '%s set the document to require signatures.' => '%s將文件設定成需要簽名。',
       'Individuals' => '個別',
-      'Signature Required to use Phabricator' => '需要使用 Phabricator 的簽名',
       'New document title.' => '新文件標題。',
       'Configure creation and editing documents in Legalpad.' => '設置在 Legalpad 的建立與編輯文件。',
       'Signature Verified' => '簽名已驗證',

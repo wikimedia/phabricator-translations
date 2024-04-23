@@ -13,6 +13,7 @@ final class PhabricatorDaemonEn
       'Clock' => 'Clock',
       'Show daemon processes on this host.' => 'Show daemon processes on this host.',
       'Leased' => 'Leased',
+      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.',
       'Starting daemons as %s' => 'Starting daemons as %s',
       'SURVIVED' => 'SURVIVED',
       'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.',
@@ -38,9 +39,15 @@ final class PhabricatorDaemonEn
       'There are no upcoming event triggers.' => 'There are no upcoming event triggers.',
       'There are no running daemons for the current instance ("%s"). Use "--force" to stop daemons for all instances.' => 'There are no running daemons for the current instance ("%s"). Use "--force" to stop daemons for all instances.',
       'Stop daemon processes on this host, then start the standard daemon loadout.' => 'Stop daemon processes on this host, then start the standard daemon loadout.',
+      'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
+    The daemons are configured to run as "%s", but the current user is "%s". 
+    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
+    The daemons are configured to run as "%s", but the current user is "%s". 
+    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.',
       'STOP' => 'STOP',
       'You must specify which daemon to launch.' => 'You must specify which daemon to launch.',
       'Run the daemon as the current user instead of the configured %s' => 'Run the daemon as the current user instead of the configured %s',
+      'PID "%d" is not a known daemon PID.' => 'PID "%s" is not a known daemon PID.',
       'Enabling the lock log.' => 'Enabling the lock log.',
       'Reloading process %d...' => 'Reloading process %s...',
       'Lock Logs' => 'Lock Logs',
@@ -63,7 +70,6 @@ final class PhabricatorDaemonEn
       'This task may have recently been garbage collected.' => 'This task may have recently been garbage collected.',
       'No matching lock logs.' => 'No matching lock logs.',
       'Grace period for daemons to attempt a clean shutdown, in seconds. Defaults to __15__ seconds.' => 'Grace period for daemons to attempt a clean shutdown, in seconds. Defaults to __15__ seconds.',
-      'Start the standard configured collection of Phabricator daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Start the standard configured collection of Phabricator daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.',
       'Daemon Class' => 'Daemon Class',
       'Bulk Job %d' => 'Bulk Job %s',
       'Waiting For Confirmation' => 'Waiting For Confirmation',
@@ -87,12 +93,14 @@ final class PhabricatorDaemonEn
       '%s requires the directory \'%s\' to exist, but it does not exist and could not be created. Create this directory or update \'%s\' in your configuration to point to an existing directory.' => '%s requires the directory \'%s\' to exist, but it does not exist and could not be created. Create this directory or update \'%s\' in your configuration to point to an existing directory.',
       'Specify a proportion of machine memory which must be free before autoscale pools will grow. For example, a value of 0.25 means that pools will not grow unless the machine has at least 25%%%% of its RAM free.' => 'Specify a proportion of machine memory which must be free before autoscale pools will grow. For example, a value of 0.25 means that pools will not grow unless the machine has at least 25%%%% of its RAM free.',
       'Review logs for a specific lock.' => 'Review logs for a specific lock.',
+      'Stop all daemon processes on this host, even if they belong to another instance.' => 'Stop all daemon processes on this host, even if they belong to another instance.',
       'By default, **%s** will free all task leases held by the daemons. With this flag, this step will be skipped.' => 'By default, **%s** will free all task leases held by the daemons. With this flag, this step will be skipped.',
       'Killing process %d...' => 'Killing process %s...',
       'Recently Completed Tasks (Last 15m)' => 'Recently Completed Tasks (Last 15m)',
       'There are no running daemon processes.' => 'There are no running daemon processes.',
       'Maximum Retries' => 'Maximum Retries',
       'Task %d' => 'Task %s',
+      'Manage Daemons' => 'Manage Daemons',
       'Next In Queue' => 'Next In Queue',
       'Disabling the lock log.' => 'Disabling the lock log.',
       'Retries Forever' => 'Retries Forever',
@@ -141,7 +149,6 @@ final class PhabricatorDaemonEn
       'No log records exist for any daemons.' => 'No log records exist for any daemons.',
       'Unable to stop PID %d ("%s").' => 'Unable to stop PID %s ("%s").',
       'Daemon Processes' => 'Daemon Processes',
-      'PID "%d" is not a known Phabricator daemon PID.' => 'PID "%s" is not a known Phabricator daemon PID.',
       'Not touching active task queue leases.' => 'Not touching active task queue leases.',
       'Failure Count' => 'Failure Count',
       'Queue Utilization (Approximate)' => 'Queue Utilization (Approximate)',
@@ -154,7 +161,6 @@ final class PhabricatorDaemonEn
       'NO DAEMONS' => 'NO DAEMONS',
       'Bulk Jobs' => 'Bulk Jobs',
       'This job is complete.' => 'This job is complete.',
-      'Manage Phabricator Daemons' => 'Manage Phabricator Daemons',
       'PID' => 'PID',
       'ERROR: The PHP extension \'%s\' is not installed. You must install it to run daemons on this machine.
     ' => 'ERROR: The PHP extension \'%s\' is not installed. You must install it to run daemons on this machine.
@@ -168,17 +174,11 @@ final class PhabricatorDaemonEn
       'Retries After' => 'Retries After',
       'Start __daemon__ in the foreground and print large volumes of diagnostic information to the console.' => 'Start __daemon__ in the foreground and print large volumes of diagnostic information to the console.',
       'Task %d: %s' => 'Task %s: %s',
-      'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
-    Phabricator is configured to run daemons as "%s", but the current user is "%s". 
-    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
-    Phabricator is configured to run daemons as "%s", but the current user is "%s". 
-    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.',
       'No More Retries' => 'No More Retries',
       'No log record exists for a daemon with ID "%s".' => 'No log record exists for a daemon with ID "%s".',
       'Task %d Missing' => 'Task %s Missing',
       'Task queue is empty.' => 'Task queue is empty.',
       '%s ago (%s)' => '%s ago (%s)',
-      'Stop all daemon processes on this host, even if they belong to another Phabricator instance.' => 'Stop all daemon processes on this host, even if they belong to another Phabricator instance.',
       'Daemon %s' => 'Daemon %s',
       'PID \'%s\' is not a valid PID.' => 'PID \'%s\' is not a valid PID.',
       'Started' => 'Started',

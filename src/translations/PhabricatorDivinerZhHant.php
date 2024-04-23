@@ -90,14 +90,6 @@ final class PhabricatorDivinerZhHant
       'Found %s unatomized, uncached file(s).' => '找到 %s 個未原子化、未被快取的檔案。',
       'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.' => '方法「%s」已明確記錄了「%s」。「%s」方法會永遠回傳「%s」。Diviner 已暗中將此記錄。',
       'Build atoms from source.' => '從來源建置原子',
-      '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
-    Diviner is the documentation generator used to build the Phabricator documentation.
-    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
-      %s
-    ' => '（註） **是否在尋找 Phabricator 文件？** 如果您正在尋找有關 Phabricator 的說明與資訊，您可以在現在的站台上[[https://secure.phabricator.com/diviner/ |瀏覽 Phabricator 公開文件]]。
-    Diviner 是用來建置 Phabricator 文件的文件產生器。
-    您目前尚未產生過任何 Diviner 文件書籍，所以在此不會顯示出任何內容。如果您想要產生您個人的 Phabricator 文件本地端副本，並且想將內容呈現於此，請執行此指令：
-      %s',
       'This function is not documented.' => '此功能沒有被記錄。',
       'Find' => '查找',
       'Other Methods' => '其它方法',

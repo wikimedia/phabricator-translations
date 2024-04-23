@@ -10,6 +10,7 @@ final class PhabricatorBaseRoaTara
   protected function getTranslations() {
     return array(
       'No application \'%s\'!' => 'Nisciuna applecazione \'%s\'!',
+      'This application is required, so all users must have access to it.' => 'Sta applecazione jè obbligatorie, accussì tutte le utinde onna trasè.',
       'Expect user \'%s\' to be allowed access to \'%s\'.' => 'Utende attese \'%s\' da dà l\'accesse a \'%s\'.',
       'Can Configure Application' => 'Pozze Configurà l\'Applicazione',
       'Can Use Application' => 'Pozze Ausà l\'Applicazione',
@@ -23,7 +24,6 @@ final class PhabricatorBaseRoaTara
       'Email Verification Required' => 'Verifeche email richieste',
       'Application Controller, No Login Required' => 'Condroller de l\'applicazione, no ge t\'a collegà pe forze',
       'Developer Tools' => 'Struminde pu sveluppatore',
-      'This application is required for Phabricator to operate, so all users must have access to it.' => 'Sta applecazione jè obbligatorie pe ausà Phabricator, accussì tutte le utinde onna trasè.',
       'Expect user \'%s\' to be denied access to \'%s\'.' => 'Utende attese \'%s\' da luà l\'accesse a \'%s\'.',
       'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => '\'A richieste \'nglude \'u parametre de restrizione "%s", ma stu condroller ("%s") non g\'u tène jndr\'à lista vianghe. Non ge vole sta richieste purcé pare ca jè parte de \'n\'attacche de redirezionamende.',
       'Unknown capability \'%s\'!' => 'Capacità scanusciute \'%s\'!',

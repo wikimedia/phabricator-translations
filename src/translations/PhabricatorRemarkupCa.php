@@ -9,8 +9,8 @@ final class PhabricatorRemarkupCa
 
   protected function getTranslations() {
     return array(
-      'Process text through remarkup in Phabricator context.' => 'Processa el text ressaltat en el context de Phabricator.',
       'Invalid markup engine.' => 'Motor de marcatge no vàlid.',
+      'Process text through remarkup.' => 'Processa el text ressaltat en el context de Phabricator.',
       'Content may not be empty.' => 'El contingut no pot estar buit.',
     );
   }

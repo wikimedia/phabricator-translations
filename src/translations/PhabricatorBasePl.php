@@ -9,12 +9,12 @@ final class PhabricatorBasePl
 
   protected function getTranslations() {
     return array(
+      'This application is required, so all users must have access to it.' => 'Ta aplikacja jest wymagana do działania Phabricatora, więc wszyscy użytkownicy muszą mieć do niej dostęp.',
       'Can Configure Application' => 'Może konfigurować aplikacje',
       'Can Use Application' => 'Może korzystać z aplikacji',
       'Application Controller' => 'Kontroler aplikacji',
       'Public Access' => 'Dostęp publiczny',
       'Developer Tools' => 'Narzędzia programistyczne',
-      'This application is required for Phabricator to operate, so all users must have access to it.' => 'Ta aplikacja jest wymagana do działania Phabricatora, więc wszyscy użytkownicy muszą mieć do niej dostęp.',
     );
   }
 

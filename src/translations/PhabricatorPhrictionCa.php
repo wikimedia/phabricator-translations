@@ -23,7 +23,7 @@ final class PhabricatorPhrictionCa
       'DOCUMENT CONTENT' => 'CONTINGUT DEL DOCUMENT',
       'EDIT NOTES' => 'MODIFICAR LES NOTES',
       'Missing Ancestor' => 'Avantpassat desaparegut',
-      'This document has been moved to %s. You can edit it to put new content here, or use history to revert to an earlier version.' => 'Aquest document s\'ha mogut a %s. Podeu modifica-lo per afegir contingut nou aquí o fer servir l\'historial per tornar a una versió anterior.',
+      'This document has been moved to %s. You can edit it to put new content here, or use history to revert to an earlier version.' => 'Aquest document s\'ha mogut a %s. Podeu modificar-lo per afegir contingut nou aquí o fer servir l\'historial per tornar a una versió anterior.',
       'Retrieve information about a Phriction document.' => 'Rescata informació sobre un document de Fricció.',
       'A document\'s subscribers change.' => 'Un canvi d’un subscriptor de documents.',
       'Unknown document status \'%s\'!' => 'Estat del document «%s» desconegut!',

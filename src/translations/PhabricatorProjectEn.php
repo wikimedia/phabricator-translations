@@ -162,6 +162,7 @@ final class PhabricatorProjectEn
       'Invalid Rule' => 'Invalid Rule',
       'Watching Ancestor' => 'Watching Ancestor',
       'Support for Projects' => 'Support for Projects',
+      'See Subprojects' => 'See Subprojects',
       'Change task priority to %s.' => 'Change task priority to %s.',
       'Tasks Moved Into Project' => 'Tasks Moved Into Project',
       'This One Is Purple' => 'This One Is Purple',
@@ -453,6 +454,27 @@ final class PhabricatorProjectEn
       'Used on %s and %s other active column(s).' => 'Used on %s and %s other active column(s).',
       'Array of custom fields for Projects.' => 'Array of custom fields for Projects.',
       'The project image ("%s") specified for ("%s") was not found in the folder "resources/builtin/projects/".' => 'The project image ("%s") specified for ("%s") was not found in the folder "resources/builtin/projects/".',
+      'Allows you to relabel project colors.
+    The list of available colors can not be expanded, but the existing colors may
+    be given labels.
+    Configure a list of color specifications. Each color specification should be a
+    dictionary, which may contain these keys:
+      - `key` //Required string.// The internal key identifying the color.
+      - `name` //Required string.// Human-readable label for the color.
+      - `default` //Optional bool.// Selects the default color used when creating
+        new projects. Exactly one color must be selected as the default.
+    You can look at the default configuration below for an example of a valid
+    configuration.' => 'Allows you to relabel project colors.
+    The list of available colors can not be expanded, but the existing colors may
+    be given labels.
+    Configure a list of color specifications. Each color specification should be a
+    dictionary, which may contain these keys:
+      - `key` //Required string.// The internal key identifying the color.
+      - `name` //Required string.// Human-readable label for the color.
+      - `default` //Optional bool.// Selects the default color used when creating
+        new projects. Exactly one color must be selected as the default.
+    You can look at the default configuration below for an example of a valid
+    configuration.',
       'This project has no milestones.' => 'This project has no milestones.',
       'Project watcher list changes.' => 'Project watcher list changes.',
       'Users with access may join this project, but may not leave.' => 'Users with access may join this project, but may not leave.',
@@ -542,6 +564,9 @@ final class PhabricatorProjectEn
       'Diplomatic Meeting' => 'Diplomatic Meeting',
       'Move Tasks to Project' => 'Move Tasks to Project',
       'Browse Viewer Projects' => 'Browse Viewer Projects',
+      'Allows you to define project subtypes. For a more detailed description of
+    subtype configuration, see @{config:maniphest.subtypes}.' => 'Allows you to define project subtypes. For a more detailed description of
+    subtype configuration, see @{config:maniphest.subtypes}.',
       'See full report.' => 'See full report.',
       'Locked Project' => 'Locked Project',
       'Not In: ...' => 'Not In: ...',
@@ -614,6 +639,41 @@ final class PhabricatorProjectEn
       'Move to column %s.' => 'Move to column %s.',
       'Choose a project to import columns from:' => 'Choose a project to import columns from:',
       'PHID of the parent project.' => 'PHID of the parent project.',
+      'Allows you to change and customize the available project icons.
+    You can find a list of available icons in {nav UIExamples > Icons and Images}.
+    Configure a list of icon specifications. Each icon specification should be
+    a dictionary, which may contain these keys:
+      - `key` //Required string.// Internal key identifying the icon.
+      - `name` //Required string.// Human-readable icon name.
+      - `icon` //Required string.// Specifies which actual icon image to use.
+      - `image` //Optional string.// Selects a default image. Select an image from
+        `resources/builtins/projects/`.
+      - `default` //Optional bool.// Selects a default icon. Exactly one icon must
+        be selected as the default.
+      - `disabled` //Optional bool.// If true, this icon will no longer be
+        available for selection when creating or editing projects.
+      - `special` //Optional string.// Marks an icon as a special icon:
+        - `milestone` This is the icon for milestones. Exactly one icon must be
+          selected as the milestone icon.
+    You can look at the default configuration below for an example of a valid
+    configuration.' => 'Allows you to change and customize the available project icons.
+    You can find a list of available icons in {nav UIExamples > Icons and Images}.
+    Configure a list of icon specifications. Each icon specification should be
+    a dictionary, which may contain these keys:
+      - `key` //Required string.// Internal key identifying the icon.
+      - `name` //Required string.// Human-readable icon name.
+      - `icon` //Required string.// Specifies which actual icon image to use.
+      - `image` //Optional string.// Selects a default image. Select an image from
+        `resources/builtins/projects/`.
+      - `default` //Optional bool.// Selects a default icon. Exactly one icon must
+        be selected as the default.
+      - `disabled` //Optional bool.// If true, this icon will no longer be
+        available for selection when creating or editing projects.
+      - `special` //Optional string.// Marks an icon as a special icon:
+        - `milestone` This is the icon for milestones. Exactly one icon must be
+          selected as the milestone icon.
+    You can look at the default configuration below for an example of a valid
+    configuration.',
       'Project name generates the same hashtag ("%s") as another existing project. Choose a unique name.' => 'Project name generates the same hashtag ("%s") as another existing project. Choose a unique name.',
       'Project names must contain at least one letter or number.' => 'Project names must contain at least one letter or number.',
       'This function matches results in any of the current viewing user\'s projects:

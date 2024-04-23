@@ -9,16 +9,29 @@ final class PhabricatorLegalpadEn
 
   protected function getTranslations() {
     return array(
-      'The PHID of the document signed by this signature.' => 'The PHID of the document signed by this signature.',
+      '%s:
+    This email address was used to sign a Legalpad document in %s:
+      %s
+    Please verify you own this email address and accept the agreement by clicking this link:
+      %s
+    Your signature is not valid until you complete this verification step.
+    You can review the document here:
+      %s
+    ' => '%s:
+    This email address was used to sign a Legalpad document in %s:
+      %s
+    Please verify you own this email address and accept the agreement by clicking this link:
+      %s
+    Your signature is not valid until you complete this verification step.
+    You can review the document here:
+      %s
+    ',
       'All Signatures' => 'All Signatures',
       'Unverified Email' => 'Unverified Email',
       'Create New Document' => 'Create New Document',
-      'Indicates if the signature is verified.' => 'Indicates if the signature is verified.',
-      'The version of the document that was signed.' => 'The version of the document that was signed.',
       'Type of signature required' => 'Type of signature required',
       'Only administrators may change whether a document requires a signature.' => 'Only administrators may change whether a document requires a signature.',
       'Signed At' => 'Signed At',
-      'The type of signature.' => 'The type of signature.',
       'Signature Type' => 'Signature Type',
       '%s updated the document signature type.' => '%s updated the document signature type.',
       '%s set the document %s to require signatures.' => '%s set the document %s to require signatures.',
@@ -33,10 +46,16 @@ final class PhabricatorLegalpadEn
       '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s edited %s required legal document(s), added %s: %s; removed %s: %s.',
       'Document Title.' => 'Document Title.',
       'A valid email is required.' => 'A valid email is required.',
+      'Only documents with signature type "individual" may require signing to log in.' => 'Only documents with signature type "individual" may require signing to log in.',
+      'Document signers' => 'Document signers',
       'Unable to Verify Signature' => 'Unable to Verify Signature',
+      'Legalpad Document Body' => 'Legalpad Document Body',
       'Signed By' => 'Signed By',
+      'Read information about legalpad document signatures.' => 'Read information about legalpad document signatures.',
+      'Get the full content for each document.' => 'Get the full content for each document.',
       'Contact Email' => 'Contact Email',
       'Document Body' => 'Document Body',
+      'The PHID of the signer' => 'The PHID of the signer',
       'Contact name is required.' => 'Contact name is required.',
       'No signatures match the query.' => 'No signatures match the query.',
       'Interacting with Legalpad Documents' => 'Interacting with Legalpad Documents',
@@ -52,43 +71,26 @@ final class PhabricatorLegalpadEn
       'Email Contains' => 'Email Contains',
       'Signature Already Verified' => 'Signature Already Verified',
       'You do not have permission to create new documents.' => 'You do not have permission to create new documents.',
-      '%s:
-    This email address was used to sign a Legalpad document in Phabricator:
-      %s
-    Please verify you own this email address and accept the agreement by clicking this link:
-      %s
-    Your signature is not valid until you complete this verification step.
-    You can review the document here:
-      %s
-    ' => '%s:
-    This email address was used to sign a Legalpad document in Phabricator:
-      %s
-    Please verify you own this email address and accept the agreement by clicking this link:
-      %s
-    Your signature is not valid until you complete this verification step.
-    You can review the document here:
-      %s
-    ',
+      'This user who created this document' => 'This user who created this document',
       'This document has an unknown signature type ("%s").' => 'This document has an unknown signature type ("%s").',
       '[Legalpad]' => '[Legalpad]',
+      'The name used by the signer.' => 'The name used by the signer.',
       'Legalpad Documents' => 'Legalpad Documents',
       'Legalpad Signatures' => 'Legalpad Signatures',
       'You signed this document on %s.' => 'You signed this document on %s.',
+      'Create documents and track signatures.' => 'Create documents and track signatures.',
       'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Thank you for signing this document. Please check your email to verify your signature and complete the process.',
-      'Create documents and track signatures. Can also be re-used in other areas of Phabricator, like CLAs.' => 'Create documents and track signatures. Can also be re-used in other areas of Phabricator, like CLAs.',
       'Last Updated' => 'Last Updated',
       'Read information about legalpad documents.' => 'Read information about legalpad documents.',
       'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => 'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.',
-      'Search for signatures with an email that contains a given string.' => 'Search for signatures with an email that contains a given string.',
-      'Search for signatures with a name that contains a given string.' => 'Search for signatures with a name that contains a given string.',
       'Not Signable' => 'Not Signable',
       'Signed' => 'Signed',
       'The signature is now verified.' => 'The signature is now verified.',
       'Notes' => 'Notes',
+      'Signature Required to Log In' => 'Signature Required to Log In',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'View/Sign Document',
-      'Only documents with signature type "individual" may require signing to use Phabricator.' => 'Only documents with signature type "individual" may require signing to use Phabricator.',
-      'The PHID of the signer.' => 'The PHID of the signer.',
+      'Legalpad Signature' => 'Legalpad Signature',
       'Mail receiver is not a LegalpadDocument!' => 'Mail receiver is not a LegalpadDocument!',
       'You must choose a user to exempt.' => 'You must choose a user to exempt.',
       'You have already signed this document!' => 'You have already signed this document!',
@@ -102,13 +104,13 @@ final class PhabricatorLegalpadEn
       '%s updated the document text for %s.' => '%s updated the document text for %s.',
       '%s added %s required legal document(s) to %s: %s.' => '%s added %s required legal document(s) to %s: %s.',
       'Email field is required.' => 'Email field is required.',
+      'The email used by the signer.' => 'The email used by the signer.',
       'Exempt User' => 'Exempt User',
       'Company address is required.' => 'Company address is required.',
       'Contact Name' => 'Contact Name',
       'DOCUMENT' => 'DOCUMENT',
       'Require document signatures: %s.' => 'Require document signatures: %s.',
       'Updated By' => 'Updated By',
-      'The name of the signer.' => 'The name of the signer.',
       'The email address specified is associated with an account. Please login to that account and sign this document again.' => 'The email address specified is associated with an account. Please login to that account and sign this document again.',
       '%s updated the document preamble.' => '%s updated the document preamble.',
       'Corporations' => 'Corporations',
@@ -128,20 +130,21 @@ final class PhabricatorLegalpadEn
       'The preamble of the document.' => 'The preamble of the document.',
       '%s set the document to require signatures.' => '%s set the document to require signatures.',
       'Individuals' => 'Individuals',
-      'Signature Required to use Phabricator' => 'Signature Required to use Phabricator',
+      'Whether or not this signature is an exemption' => 'Whether or not this signature is an exemption',
+      'Search for signatures with a name containing the given string.' => 'Search for signatures with a name containing the given string.',
+      'The PHID of the document' => 'The PHID of the document',
       'New document title.' => 'New document title.',
       'Configure creation and editing documents in Legalpad.' => 'Configure creation and editing documents in Legalpad.',
       'Signature Verified' => 'Signature Verified',
+      'The number of versions of this document' => 'The number of versions of this document',
       'NOTE: You can only see your own signatures and signatures on documents you have permission to edit.' => 'NOTE: You can only see your own signatures and signatures on documents you have permission to edit.',
       '%s updated the document preamble for %s.' => '%s updated the document preamble for %s.',
       'Legalpad User Guide' => 'Legalpad User Guide',
       '%s set the document to not require signatures.' => '%s set the document to not require signatures.',
-      'The email address of the signer.' => 'The email address of the signer.',
       'You can not sign a document on behalf of a corporation unless you are logged in.' => 'You can not sign a document on behalf of a corporation unless you are logged in.',
       'Exemption By' => 'Exemption By',
       'Who Should Sign?' => 'Who Should Sign?',
       'Name field is required.' => 'Name field is required.',
-      'Read information about legalpad signatures.' => 'Read information about legalpad signatures.',
       'You do not need to sign this document. %s added a signature exemption for you on %s.' => 'You do not need to sign this document. %s added a signature exemption for you on %s.',
       'New document preamble.' => 'New document preamble.',
       'Find Signatures' => 'Find Signatures',
@@ -150,6 +153,7 @@ final class PhabricatorLegalpadEn
       'Configure Legalpad Forms' => 'Configure Legalpad Forms',
       'The signature verification code is incorrect, or the signature has been invalidated. Make sure you followed the link in the email correctly.' => 'The signature verification code is incorrect, or the signature has been invalidated. Make sure you followed the link in the email correctly.',
       'Agreements and Signatures' => 'Agreements and Signatures',
+      'Search for signatures on the given documents' => 'Search for signatures on the given documents',
       '%s updated the document signature type for %s.' => '%s updated the document signature type for %s.',
       'Required Signature' => 'Required Signature',
       'Verify Signature?' => 'Verify Signature?',
@@ -161,6 +165,7 @@ final class PhabricatorLegalpadEn
       'New document body.' => 'New document body.',
       'Search for signatures by given users.' => 'Search for signatures by given users.',
       'Marks this document as required signing.' => 'Marks this document as required signing.',
+      'The title of this document' => 'The title of this document',
       'Signers' => 'Signers',
       'Search for documents with given contributors.' => 'Search for documents with given contributors.',
       'Signatures' => 'Signatures',
@@ -169,6 +174,8 @@ final class PhabricatorLegalpadEn
       'Signed Older Version' => 'Signed Older Version',
       'CHANGES TO DOCUMENT TEXT' => 'CHANGES TO DOCUMENT TEXT',
       'Version %d (%s)' => 'Version %s (%s)',
+      'Get the signer list for the project.' => 'Get the signer list for the project.',
+      'Whether signatures on this doc are required to use this install' => 'Whether signatures on this doc are required to use this install',
       'You have not signed this document yet.' => 'You have not signed this document yet.',
       'Require signatures' => 'Require signatures',
       'Contact email is required.' => 'Contact email is required.',
@@ -177,8 +184,10 @@ final class PhabricatorLegalpadEn
       'Verified, Current' => 'Verified, Current',
       'Signing User' => 'Signing User',
       'That user has already signed this document.' => 'That user has already signed this document.',
+      'Search for signatures with an email containing the given string.' => 'Search for signatures with an email containing the given string.',
       'New document signature type.' => 'New document signature type.',
       'Sign Document' => 'Sign Document',
+      'The PHID of the user who granted the exemption' => 'The PHID of the user who granted the exemption',
     );
   }
 

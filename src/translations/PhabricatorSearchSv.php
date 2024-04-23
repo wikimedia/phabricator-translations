@@ -1,0 +1,81 @@
+<?php
+
+final class PhabricatorSearchSv
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'sv';
+  }
+
+  protected function getTranslations() {
+    return array(
+      'No results.' => 'Inga resultat.',
+      'This menu item is very important, and can not be disabled.' => 'Detta menyföremål är riktigt viktigt och kan inte inaktiveras.',
+      'Enable Query?' => 'Aktivera sökfråga?',
+      'Personal Menu Items' => 'Personliga menyföremål',
+      'Format' => 'Format',
+      'The queries you have saved are private. Only you can view or edit them.' => 'Sökfrågorna du sparat är privata. Bara du kan se eller redigera dem.',
+      'cat -A can find mice hiding in files.' => 'cat -A kan hitta möss som gömmer sig i filer.',
+      'Export Format Not Available' => 'Exportformat är inte tillgängligt',
+      'Compilation of query: %s' => 'Sammanställning av sökfråga: %s',
+      'Readable' => 'Läsbar',
+      'Search Engines' => 'Sökmotorer',
+      'Form "%s" is not a valid form which you have permission to see.' => 'Formulär "%s" är inte ett giltigt formulär som du har behörighet att se.',
+      'Reset all common ngram records.' => 'Återställ alla vanliga ngram-inspelningar.',
+      'N/A' => 'N/A',
+      'You must choose a room.' => 'Du måste välja ett rum.',
+      'Add to Dashboard' => 'Lägg till i kontrollpanelen',
+      'You must choose a dashboard.' => 'Du måste välja en kontrollpanel.',
+      'Query: %s' => 'Sökfråga: %s',
+      '—' => '—',
+      'Queries' => 'Sökfrågor',
+      'Already Default' => 'Redan standard',
+      'You must name the query.' => 'Du måste namnge sökfrågan.',
+      'Choose Item Icon' => 'Välj föremålsikon',
+      'Open Documents' => 'Öppna dokument',
+      'Search Ngram' => 'Sök efter Ngram',
+      'Enable Menu Item' => 'Aktivera menyobjekt',
+      'Engine: Hovercards' => 'Motor: Hovercards',
+      'Search for objects with specific IDs.' => 'Sök efter objekt med specifika ID:n',
+      'Global Saved Queries' => 'Globalt sparade sökfrågor',
+      'Profile Menu' => 'Profilmeny',
+      'Configure Menu' => 'Konfigurera meny',
+      'Query Errors' => 'Sökfrågefel',
+      'Unsupported item action "%s".' => 'Åtgärden "%s" stöds inte.',
+      'Not supported.' => 'Stöds inte.',
+      'Profile Menu Items' => 'Profilmenyföremål',
+      'Current Default' => 'Standard för tillfället',
+      'Query Name' => 'Sökfrågenamn',
+      'No search engines available.' => 'Inga sökmotorer tillgängliga.',
+      'Menu Items' => 'Menyföremål',
+      'NO OBJECTS' => 'INGA OBJEKT',
+      'Select a document type...' => 'Välj en dokumenttyp...',
+      '(See table below.)' => '(Se tabellen nedan.)',
+      'Full Name' => 'Fullständigt namn',
+      'Document Status' => 'Dokumentstatus',
+      'Profile Menu Item' => 'Profilmenyföremål',
+      '"2022-12-25" or "7 days ago"...' => '"2022-12-25" eller "7 dagar sedan"...',
+      'Delete Menu Item' => 'Radera menyföremål',
+      'Cats spend most of their time plotting to kill their owner.' => 'Katter spenderar större delen av sin tid med att planera att döda sin ägare.',
+      'Edit Related Objects...' => 'Redigera relaterade objekt...',
+      'Create Menu Item' => 'Skapa menyföremål',
+      'All Open Objects' => 'Alla öppna föremål',
+      'Manage Menu' => 'Hantera meny',
+      'There is nothing here.' => 'Det finns inget här.',
+      'IDs' => 'ID:n',
+      'Edit Menu Item' => 'Redigera menyelement',
+      'NOTE' => 'OBS',
+      '"%s" must be a date before "%s".' => '"%s" måste vara ett datum innan "%s".',
+      'Document Types' => 'Dokumenttyper',
+      'Export Results' => 'Exportera resultat',
+      'All Objects' => 'Alla objekt',
+      'Link' => 'Länk',
+      'Exact Search' => 'Exakt sökning',
+      'Created By Me' => 'Skapades av mig',
+      '%s (Not Available)' => '%s (inte tillgänglig)',
+      'Export Data' => 'Exportera data',
+      'Browse Document Types' => 'Bläddra dokumenttyper',
+    );
+  }
+
+}

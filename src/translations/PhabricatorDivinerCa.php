@@ -90,14 +90,6 @@ final class PhabricatorDivinerCa
       'Found %s unatomized, uncached file(s).' => 'S\'han trobat %s fitxers ni atomitzats ni en caché.',
       'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.' => 'El mètode "%s" ha documentat explícitament "%s". El mètode "%s" sempre retorna "%s". Diviner ho documenta implícitament.',
       'Build atoms from source.' => 'Construeix àtoms des de la font.',
-      '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
-    Diviner is the documentation generator used to build the Phabricator documentation.
-    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
-      %s
-    ' => '(NOTA) **Cerqueu documentació de Phabricator?** Si busqueu informació i ajuda de Phabricator, podeu [[https://secure.phabricator.com/diviner/| navegueu per la documentació pública de Phabricator]] al lloc en directe.
-    Diviner és el generador de documentació utilitzat per construir la documentació de Phabricator.
-    Encara no heu generat cap llibre Diviner, de manera que no hi ha res a mostrar aquí. Si voleu generar la vostra pròpia còpia local de la documentació de Phabricator i que aparegui aquí, executeu aquesta ordre:
-      %s',
       'This function is not documented.' => 'Aquesta funció no està documentada.',
       'Find' => 'Cerca',
       'Other Methods' => 'Altres Mètodes',

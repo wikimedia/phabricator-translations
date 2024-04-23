@@ -12,6 +12,7 @@ final class PhabricatorDaemonTr
       'Temporary Failures' => 'Geçici Arızalar',
       'Clock' => 'Saat',
       'Leased' => 'Kiralanan',
+      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Standart yapılandırılmış Phabricator artalan koleksiyonunu başlatın. Bu çoğu kurulum için uygundur. Hangi cinlerin başlatılacağını özelleştirmek için **%s** kullanın.',
       'Starting daemons as %s' => '%s olarak daemon başlatılıyor',
       'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Kaynaktaki değişiklikleri almak için daemon işlemlerini yerinde yeniden başlatın. Bu, çalışan işleri aksatmaz. Bu gelişmiş bir iş akışıdır; çoğu kurulum __ %s__ kullanmalıdır.',
       'Retries' => 'Yeniden denemeler',
@@ -33,9 +34,15 @@ final class PhabricatorDaemonTr
       'This daemon encountered an error recently and is waiting a moment to restart.' => 'Bu arka plan programı son zamanlarda bir hatayla karşılaştı ve yeniden başlatılması için bir dakika bekliyor.',
       'Daemon %d %s [%s] %s' => 'Daemon %s %s [%s] %s',
       'There are no upcoming event triggers.' => 'Yaklaşan etkinlik tetikleyicisi yok.',
+      'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
+    The daemons are configured to run as "%s", but the current user is "%s". 
+    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Standart olmayan bir kullanıcı olarak bir arka plan programı çalıştırmaya çalışıyorsunuz ve `%s`, doğru kullanıcıya `%s` alamadı.
+    Phabricator, arka plan programları "%s" olarak çalıştıracak şekilde yapılandırıldı, ancak geçerli kullanıcı "%s".
+    Farklı bir kullanıcı olarak çalıştırmak için `%s` kullanın, bu uyarıyı yoksaymak için `%s` iletin veya yapılandırmayı değiştirmek için `%s` düzenleyin.',
       'STOP' => 'DURDUR',
       'You must specify which daemon to launch.' => 'Hangi arka plan programının başlatılacağını belirtmelisiniz.',
       'Run the daemon as the current user instead of the configured %s' => 'Arka plan programı yapılandırılmış %s yerine geçerli kullanıcı olarak çalıştırın',
+      'PID "%d" is not a known daemon PID.' => 'PID "%s", bilinen bir Phabricator arka plan programı PID\'si değildir.',
       'Enabling the lock log.' => 'Kilit günlüğünü etkinleştirme.',
       'Reloading process %d...' => 'İşlem %s yeniden yükleniyor...',
       'Lock Logs' => 'Kilit Günlükleri',
@@ -56,7 +63,6 @@ final class PhabricatorDaemonTr
       'This task may have recently been garbage collected.' => 'Bu görev yakın zamanda çöp toplanmış olabilir.',
       'No matching lock logs.' => 'Eşleşen kilit günlüğü yok.',
       'Grace period for daemons to attempt a clean shutdown, in seconds. Defaults to __15__ seconds.' => 'Cömertlerin saniyeler içinde temiz bir kapanma girişiminde bulunmaları için ek süre. Varsayılan değer __15__ saniyedir.',
-      'Start the standard configured collection of Phabricator daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Standart yapılandırılmış Phabricator artalan koleksiyonunu başlatın. Bu çoğu kurulum için uygundur. Hangi cinlerin başlatılacağını özelleştirmek için **%s** kullanın.',
       'Daemon Class' => 'Arka Plan Programı Sınıfı',
       'Bulk Job %d' => 'Toplu İş %s',
       'Waiting For Confirmation' => 'Onay Bekliyor',
@@ -83,6 +89,7 @@ final class PhabricatorDaemonTr
       'Recently Completed Tasks (Last 15m)' => 'Son Tamamlanan Görevler (Son 15 dk)',
       'Maximum Retries' => 'Maksimum Yeniden Deneme',
       'Task %d' => 'Görev %s',
+      'Manage Daemons' => 'Phabricator Arka Plan Programını Yönetin',
       'Next In Queue' => 'Sıradaki Sonraki',
       'Disabling the lock log.' => 'Kilit günlüğünü devre dışı bırakıyor.',
       'Retries Forever' => 'Sonsuza Dek Yeniden Dener',
@@ -127,7 +134,6 @@ final class PhabricatorDaemonTr
       'No log records exist for any daemons.' => 'Herhangi bir arka plan programı için günlük kaydı yok.',
       'Unable to stop PID %d ("%s").' => 'PID %s durdurulamadı ("%s").',
       'Daemon Processes' => 'Arka Plan Programı Süreçleri',
-      'PID "%d" is not a known Phabricator daemon PID.' => 'PID "%s", bilinen bir Phabricator arka plan programı PID\'si değildir.',
       'Not touching active task queue leases.' => 'Etkin görev kuyruğuna dokunmama kiraları.',
       'Failure Count' => 'Arıza Sayısı',
       'Queue Utilization (Approximate)' => 'Kuyruk Kullanımı (Yaklaşık)',
@@ -138,7 +144,6 @@ final class PhabricatorDaemonTr
       'This daemon exited cleanly.' => 'Bu arka plan program temiz bir şekilde çıktı.',
       'Bulk Jobs' => 'Toplu İşler',
       'This job is complete.' => 'Bu iş tamamlandı',
-      'Manage Phabricator Daemons' => 'Phabricator Arka Plan Programını Yönetin',
       'PID' => 'PID',
       'ERROR: The PHP extension \'%s\' is not installed. You must install it to run daemons on this machine.
     ' => 'HATA: \'%s\' PHP uzantısı kurulu değil. Bu makinede arka plan programı çalıştırmak için yüklemeniz gerekir.',
@@ -149,11 +154,6 @@ final class PhabricatorDaemonTr
       'Retries After' => 'Sonra Yeniden Dener',
       'Start __daemon__ in the foreground and print large volumes of diagnostic information to the console.' => '__Arka plan programı__ ön planda başlatın ve konsola büyük miktarda tanılama bilgisi yazdırın.',
       'Task %d: %s' => 'Görev %s: %s',
-      'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
-    Phabricator is configured to run daemons as "%s", but the current user is "%s". 
-    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Standart olmayan bir kullanıcı olarak bir arka plan programı çalıştırmaya çalışıyorsunuz ve `%s`, doğru kullanıcıya `%s` alamadı.
-    Phabricator, arka plan programları "%s" olarak çalıştıracak şekilde yapılandırıldı, ancak geçerli kullanıcı "%s".
-    Farklı bir kullanıcı olarak çalıştırmak için `%s` kullanın, bu uyarıyı yoksaymak için `%s` iletin veya yapılandırmayı değiştirmek için `%s` düzenleyin.',
       'No More Retries' => 'Başka Deneme Yok',
       'No log record exists for a daemon with ID "%s".' => '"%s" kimliğine sahip bir arka plan programı için günlük kaydı yok.',
       'Task %d Missing' => '%s Görevi Eksik',

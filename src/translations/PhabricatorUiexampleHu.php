@@ -26,7 +26,6 @@ final class PhabricatorUiexampleHu
       'Status Tabs' => 'Státuszfülek',
       'This event is green!' => 'Ez az esemény zöld!',
       'PHUIObjectBoxView' => 'PHUIObjectBoxView',
-      'Phabricator User' => 'Phabricator felhasználó',
       'Invalid Token' => 'Érvénytelen token',
       'A major event with no title.' => 'Nagy esemény, amelynek nincs címe.',
       'Too much salt.' => 'Túl sok só.',

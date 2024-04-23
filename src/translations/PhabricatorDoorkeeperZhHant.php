@@ -9,7 +9,6 @@ final class PhabricatorDoorkeeperZhHant
 
   protected function getTranslations() {
     return array(
-      'Phabricator is running in silent mode.' => 'Phabricator 在安靜模式下運行。',
       'Available publishers class names are:' => '可用的發布者類別名稱為：',
       'To enable synchronization into Asana, enter an Asana Workspace ID here.
     NOTE: This feature is new and experimental.' => '要啟動同步到 Asana，請在此輸入 Asana 工作空間 ID。
@@ -19,6 +18,9 @@ final class PhabricatorDoorkeeperZhHant
       '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s 在另一端沒有可見的物件，這可能表示著 Asana 任務已被刪除。',
       'Using publisher \'%s\'.' => '使用發布者「%s」。',
       'Connect to Other Software' => '連接到其它軟體',
+      'When %s creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in %s comes from. For example, you can add code reviews in Asana to a "Differential" project.
+    NOTE: This feature is new and experimental.' => '當%s在 Asana 建立工單時，會依據相應來自%s物件的應用程式，將工單新增至 Asana 專案。例如，您可以添加在 Asana 代碼檢視到「Differential」專案。
+    註：此為新的實驗功能。',
       'Failed to update object %s using user %s.' => '使用用戶 %2$s 來更新物件 %1$s 失敗。',
       'You can find an Asana project ID by clicking the project in Asana and then examining the URL:
       lang=txt
@@ -32,13 +34,15 @@ final class PhabricatorDoorkeeperZhHant
                             這是要使用的 ID。',
       'No Asana provider configured.' => '沒有設置 Asana 提供者。',
       'Asana integration options.' => 'Asana 整合選項。',
+      '⚠ DO NOT EDIT THIS TASK ⚠
+    ☠ Your changes will not be reflected in %s.
+    ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ 不要編輯此工單 ⚠
+    ☠ 您的變更內容不會反映在%s上。
+    ☠ 您的變更內容會在下一次同步狀態時被消除。',
       'JIRA integration is configured not to post anything.' => 'JIRA 整合被設置成不發布任何事物。',
       'Skipping main task update, object is no longer visible.' => '忽略主任務更新，物件將不再可見。',
       'Doorkeeper' => 'Doorkeeper',
       'Imported From' => '匯入自',
-      'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => '當 Phabricator 在 Asana 建立任務時，會依據相應來自 Phabricator 物件的應用程式，來添加任務到 Asana 專案。例如，您可以添加在 Asana 代碼檢視到「Differential」專案。
-    註：此為新的實驗功能。',
       'No related users have linked Asana accounts.' => '沒有已連結到 Asana 帳號的關聯使用者。',
       'Story is about an unsupported object type.' => 'Story 是有關未支援的物件類型。',
       'No JIRA provider configured.' => '沒有設置 JIRA 提供者。',
@@ -48,11 +52,6 @@ final class PhabricatorDoorkeeperZhHant
       'Asana Task %s' => 'Asana 任務 %s',
       'GitHub Issue %s' => 'GitHub 問題 %s',
       'Asana Workspace ID to publish into.' => '要發布到的 Asana 工作空間 ID。',
-      '⚠ DO NOT EDIT THIS TASK ⚠
-    ☠ Your changes will not be reflected in Phabricator.
-    ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ 不要編輯此任務 ⚠
-    ☠ 您的更改內容不會反應在 Phabricator 上。
-    ☠ 您的更改內容會在下一次狀態為同步時被消除。',
       'Removing subtask edge to %s, foreign object is not visible.' => '移除子任務邊際至%s，外來物件為不可見。',
       'Integration with Asana' => '與 Asana 整合',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Doorkeeper 工作者「%s」未啟動。',
@@ -75,13 +74,14 @@ final class PhabricatorDoorkeeperZhHant
       'GitHub User %s' => 'GitHub 使用者 %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'GitHub 問題 ID「%s」格式不正確 。預期形式的 ID 為「owner/repository#123」。',
       'Workspace Name' => '工作空間名稱',
+      'This software is running in silent mode.' => '此軟體正在安靜模式下運行。',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => '無法找到任何帶有能取出 OAuth 權杖之有效憑證的 Asana 使用者。',
       'Synchronization of parent task from Asana failed!' => '從 Asana 同步上級任務失敗！',
       'Optional Asana projects to use as application tags.' => '使用為應用程式標籤的選用 Asana 專案。',
       'The Asana Workspaces your linked account has access to are:
     %s' => '您的連結帳號能存取的 Asana 工作空間為：
     %s',
-      'No users to act on linked JIRA objects.' => '沒有使用者可以對連結的 JIRA 物件進行操作。',
+      'No users to act on linked JIRA objects.' => '沒有使用者可以操作連結的JIRA物件。',
       'Updating main task.' => '更新主要任務中。',
       'Story object has no corresponding external JIRA objects.' => 'Story 物件沒有相應的外部 JIRA 物件。',
     );

@@ -16,9 +16,6 @@ final class PhabricatorPolicyCa
       'Required Capabilities on Other Objects' => 'Aptituds necessàries en altres objectes',
       'Logged in users can take this action.' => 'Els usuaris connectats poden dur a terme aquesta acció.',
       'Object URI' => 'URI d\'objecte',
-      'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. 
-    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Phabricator té polítiques d\'aplicació que poden dictar si els usuaris poden prendre certes accions, com la creació de nous usuaris.  
-    Aquest paràmetre permet "bloquejar" aquestes polítiques de manera que no es poden fer més edicions sobre una base per política.',
       'when the moon' => 'quan la lluna',
       'Specify the name of an object to unlock.' => 'Especifica el nom del objecte a desbloquejar.',
       'Identify each __object__ by passing an object name (like "T123") or a PHID (like "PHID-ABCD-1234...").
@@ -28,6 +25,9 @@ final class PhabricatorPolicyCa
       'Lock Create User Policy To Admins' => 'Bloqueja la política de creació d\'usuari per als administradors',
       'Limit + offset work.' => 'Límit + treball de l\'òfset.',
       'These rules are processed in order.' => 'Aquestes regles es processen per ordre.',
+      'This software has application policies which can dictate whether users can take certain actions, such as creating new users. 
+    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Phabricator té polítiques d\'aplicació que poden dictar si els usuaris poden prendre certes accions, com la creació de nous usuaris.  
+    Aquest paràmetre permet "bloquejar" aquestes polítiques de manera que no es poden fer més edicions sobre una base per política.',
       'Users who can see objects in this space:' => 'Usuaris que poden veure objectes en aquest espai:',
       'After a user passes space policy checks, they must still pass object policy checks.' => 'Després que un usuari passi les comprovacions de la política espacial, encara ha de passar les comprovacions de la política d\'objectes.',
       'Modified object policies.' => 'Polítiques d\'objecte modificades.',
@@ -35,6 +35,13 @@ final class PhabricatorPolicyCa
       'Shift the object between spaces.' => 'Desplaça l\'objecte entre espais.',
       'You Shall Not Pass: %s' => 'No passareu: %s',
       'is waxing' => 'encerant',
+      'This software allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
+    This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
+    Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
+    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Phabricator us permet establir la visibilitat dels objectes (com repositoris i tasques) a «Public», el que significa que **qualsevol persona a Internet els pot veure, sense necessitat d\'iniciar sessió o tenir un compte**. 
+    Això està pensat per a projectes de codi obert.  Moltes instal·lacions mai volen fer públic res, de manera que aquesta política està inhabilitada per defecte.  Ho podeu habilitar aquí, la qual cosa us permetrà definir la política dels objectes com a "públics". 
+    En activar aquest paràmetre s\'obriran immediatament algunes funcionalitats, com ara el directori d\'usuari. Qualsevol persona a Internet podrà accedir a aquestes funcionalitats. 
+    Amb aquest paràmetre inhabilitat, la política "pública" no està disponible, i la política més oberta és "Tots els usuaris" (el que significa que els usuaris han de tenir comptes i estar connectats per veure les coses).',
       'Unable to find any object with the specified name ("%s").' => 'No s\'ha pogut trobar cap objecte amb el nom especificat (\'%s\').',
       'You do not have permission to edit this object.' => 'No teniu permís per editar aquest objecte.',
       'CAPABILITIES' => 'APTITUDS',
@@ -71,6 +78,7 @@ final class PhabricatorPolicyCa
       'UNLOCKING' => 'DESBLOQUEIG',
       'Members of a particular project can take this action. (You can not see this object, so the name of this project is restricted.)' => 'Els membres d\'un projecte concret poden emprendre aquesta acció.  (No podeu veure aquest objecte, de manera que el nom d\'aquest projecte està restringit).',
       'Specify the name of exactly one object to show policy information for.' => 'Especifica el nom d\'un objecte per a mostrar la informació de la política.',
+      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Aquest objecte és públic i pot ser vist per qualsevol persona, fins i tot si no té un compte de Phabricator.',
       'You do not have the required capability ("%s") to do whatever you are trying to do.' => 'No teniu l\'aptitud necessària (\'%s\') per fer tot el que intenteu fer.',
       'Support for Policies' => 'Suport a les polítiques',
       'Allow users to set object visibility to public.' => 'Permet als usuaris establir la visibilitat de l\'objecte com a pública.',
@@ -85,13 +93,6 @@ final class PhabricatorPolicyCa
       'Unlocking: %s' => 'Desbloqueig: %s',
       'Change the view policy of an object so that the specified user may view it.' => 'Canvi la política de visualització d\'un objecte de manera que l\'usuari especificat el pugui veure.',
       '%s can take this action.' => '%s pot fer aquesta acció.',
-      'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
-    This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
-    Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
-    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Phabricator us permet establir la visibilitat dels objectes (com repositoris i tasques) a «Public», el que significa que **qualsevol persona a Internet els pot veure, sense necessitat d\'iniciar sessió o tenir un compte**. 
-    Això està pensat per a projectes de codi obert.  Moltes instal·lacions mai volen fer públic res, de manera que aquesta política està inhabilitada per defecte.  Ho podeu habilitar aquí, la qual cosa us permetrà definir la política dels objectes com a "públics". 
-    En activar aquest paràmetre s\'obriran immediatament algunes funcionalitats, com ara el directori d\'usuari. Qualsevol persona a Internet podrà accedir a aquestes funcionalitats. 
-    Amb aquest paràmetre inhabilitat, la política "pública" no està disponible, i la política més oberta és "Tots els usuaris" (el que significa que els usuaris han de tenir comptes i estar connectats per veure les coses).',
       'Capability "%s" does not exist.' => 'L\'aptitud \'%s\' no existeix.',
       'OBJECT' => 'OBJECTE',
       'Note:' => 'Nota:',
@@ -107,7 +108,6 @@ final class PhabricatorPolicyCa
       'To access this object, users must have first have access capabilities on these other objects:' => 'Per accedir a aquest objecte, els usuaris han de tenir primer aptituds d\'accés a aquests altres objectes:',
       '[%s] (%s) %s // %s' => '[%s] (%s) %s // %s',
       'Invalid Policy' => 'Política no vàlida',
-      '[%s] %s' => '[%s] %s',
       'Members of Project: %s' => 'Membres del projecte: %s',
       'Offsets work correctly.' => 'Els òfsets funcionen correctament.',
       'Public Policy (Enabled in Config)' => 'Política pública (habilitada a configuració)',
@@ -146,7 +146,6 @@ final class PhabricatorPolicyCa
       'Spaces Documentation' => 'Documentació d’espais',
       'Unknown Policy' => 'Política desconeguda',
       'Change the join policy of the object.' => 'Canvieu la política d\'unió de l\'objecte.',
-      'This object is public and can be viewed by anyone, even if they do not have a Phabricator account.' => 'Aquest objecte és públic i pot ser vist per qualsevol persona, fins i tot si no té un compte de Phabricator.',
       'is full' => 'està ple',
       'You can not make that edit, because it would remove your ability to \'%s\' the object.' => 'No podeu fer aquesta edició, perquè us eliminaria la possibilitat de \'%s\' l\'objecte.',
       'Policy \'%s\' is not a global policy!' => 'La política "%s" no és una política global.',

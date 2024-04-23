@@ -36,6 +36,7 @@ final class PhabricatorMacroEn
       '%s renamed this macro from %s to %s.' => '%s renamed this macro from %s to %s.',
       '%s set the audio for %s to play once.' => '%s set the audio for %s to play once.',
       'Edit Audio: %s' => 'Edit Audio: %s',
+      'Unknown status \'%s\'!' => 'Unknown status \'%s\'!',
       'New macro name.' => 'New macro name.',
       'No matching flags.' => 'No matching flags.',
       'Audio Behavior' => 'Audio Behavior',

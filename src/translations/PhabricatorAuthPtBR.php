@@ -1,0 +1,111 @@
+<?php
+
+final class PhabricatorAuthPtBR
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'pt_BR';
+  }
+
+  protected function getTranslations() {
+    return array(
+      '%s enabled login.' => '%s entrada habilitada.',
+      'This key has been revoked. Choose or generate a new, unique key.' => 'Esta chave foi revogada. Escolha ou gere uma nova chave exclusiva.',
+      'SSH Key Actions' => 'Ações de chave SSH',
+      'Adding a PKCS8 keyfile to the cache can be very dangerous. If the PKCS8 file really encodes a different public key than the one specified, an attacker could use it to gain unauthorized access.
+    Generally, you should use this option only in a development environment where ssh-keygen is broken and it is inconvenient to fix it, and only if you are certain you understand the risks. You should never cache a PKCS8 file you did not generate yourself.' => 'Adicionar um arquivo-chave PKCS8 ao cache pode ser muito perigoso. Se o arquivo PKCS8 realmente codificar uma chave pública diferente da especificada, um invasor poderá usá-lo para obter acesso não autorizado.
+    Geralmente, você deve usar esta opção apenas em um ambiente de desenvolvimento em que o ssh-keygen esteja corrompido e seja inconveniente corrigi-lo, e somente se tiver certeza de que compreende os riscos. Você nunca deve armazenar em cache um arquivo PKCS8 que você não tenha gerado.',
+      'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => 'Este provedor ("%s") já existe e você não pode adicionar mais de uma instância dele. Você pode editar o provedor existente ou escolher um provedor diferente.',
+      'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => 'O código de verificação que você forneceu está incorreto ou o endereço de e-mail foi removido ou o endereço de e-mail pertence a outro usuário. Certifique-se de que você seguiu o link no e-mail corretamente e está logado com a conta de usuário associada ao endereço de e-mail.',
+      'Passwords' => 'Senhas',
+      'Algorithm' => 'Algoritmo',
+      'You must specify the username of the account to recover.' => 'Você deve especificar o nome de usuário da conta para recuperar.',
+      'Revoke Tokens' => 'Revogar Tokens',
+      'There are too many configured default registration providers.' => 'Existem muitos provedores de registro padrão configurados.',
+      'Unlink "%s" Account?' => 'Desassociar a conta "%s"?',
+      'Strip factors from specified users.' => 'Descarte fatores de usuários especificados.',
+      'You must confirm the selected password.' => 'Você deve confirmar a senha selecionada.',
+      'Unknown session type "%s".' => 'Tipo de sessão desconhecida "%s".',
+      'Setup Admin Account' => 'Configurar conta de administrador',
+      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Para adicionar um fator TOTP à sua conta, você primeiro precisará instalar um aplicativo autenticador móvel em seu telefone. Dois aplicativos que funcionam bem são o **Google Autenticador** e o **Authy**, mas qualquer outro aplicativo TOTP também deve funcionar.
+    Se ainda não o fez, baixe e instale um aplicativo TOTP no seu telefone agora. Depois de iniciar o aplicativo e estar pronto para adicionar um novo código TOTP, continue na próxima etapa.',
+      'The account you are attempting to register or link is already linked to another user.' => 'A conta que você está tentando registrar ou vincular já está vinculada a outro usuário.',
+      'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Verifique um endereço de e-mail não verificado que já esteja conectado a uma conta. Isso também re-executará ganchos de evento para endereços que já foram verificados.',
+      'Must Verify Email' => 'Deve verificar o e-mail',
+      'SSH Key Type' => 'Tipo de chave SSH',
+      'Verify Email' => 'Verificar e-mail',
+      'Account is already registered or linked.' => 'A conta já está registrada ou vinculada.',
+      'Sign this transaction group with MFA.' => 'Assine este grupo de transações com o MFA.',
+      '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => '(Alguns tipos de token não podem ser revogados e você não pode revogar tokens que já expiraram.)',
+      'Unable to Log In' => 'Incapaz de entrar',
+      'Session has already signed required legalpad documents!' => 'A sessão já assinou os documentos legais necessários!',
+      'On the plus side, that purple notification bubble will disappear.' => 'No lado positivo, essa bolha de notificação roxa desaparecerá.',
+      'TOTP Code' => 'Código TOTP',
+      'You can only recover the username for one account.' => 'Você só pode recuperar o nome de usuário de uma conta.',
+      'There are no matching tokens to revoke.' => 'Não há tokens correspondentes para revogar.',
+      'LDAP Username: ' => 'Nome de usuário LDAP',
+      'Terminate Session?' => 'Terminar sessão?',
+      'Specify an OAuth client id with "--id".' => 'Especifique um ID do cliente OAuth com %s.',
+      'Generate New Keypair' => 'Gerar um novo par de chaves',
+      'The private key will not be retained.' => 'O Phabricator não reterá uma cópia da chave privada.',
+      'A keypair has been generated, and the public key has been added as a recognized key.' => 'Um par de chaves foi gerado e a chave pública foi adicionada como uma chave reconhecida.',
+      'Auth' => 'Autenticador',
+      'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Se você quiser vincular uma conta Phabricator existente a essa conta externa, não continue. Em vez disso: faça login na sua conta existente, acesse "Configurações" e vincule a conta no painel "Contas externas".',
+      'Revoke Token?' => 'Revogar token?',
+      'Upload Public Key' => 'Carregar chave pública',
+      'Log In or Register with LDAP' => 'Entrar ou registre-se com o LDAP',
+      'Next Step' => 'Próximo passo',
+      'Leave high security and return your session to normal security levels?' => 'Deixar alta segurança e retornar sua sessão aos níveis normais de segurança?',
+      'Revokes all SSH public keys.
+    SSH public keys are revoked, not just removed. Users will need to generate and upload new, unique keys before they can access repositories or other services over SSH.' => 'Revoga todas as chaves públicas do SSH.
+    Chaves públicas SSH são revogadas, e não apenas removidas. Os usuários precisarão gerar e fazer upload de chaves novas e exclusivas antes de poderem acessar repositórios ou outros serviços por meio do SSH.',
+      'Terminate Sessions?' => 'Terminar sessões?',
+      'You will be prompted to provide MFA when you submit.' => 'Você será solicitado a fornecer o MFA ao enviar.',
+      'Edit Contact Numbers' => 'Editar números de contato',
+      'Skip email verification for accounts registered through this provider.' => 'O Phabricator irá ignorar a verificação de e-mail para contas registradas através deste provedor.',
+      'You must choose a password.' => 'Você deve escolher uma senha.',
+      'App Code' => 'Código do aplicativo',
+      'Link LDAP Account' => 'Vincular Conta LDAP',
+      'MFA Sync Token' => 'Token de Sincronização MFA',
+      'Link Accounts' => 'Vincular contas',
+      'Unlink External Account' => 'Desassociar conta externa',
+      'After you download the private key, it will be destroyed. You will not be able to retrieve it if you lose your copy.' => 'Depois de baixar a chave privada, ela será destruída. Você não poderá recuperá-lo se perder sua cópia.',
+      'Your session is no longer in high security.' => 'Sua sessão não está mais em alta segurança.',
+      'Factor Name: %s' => 'Nome do fator: %s',
+      'Scan the QR code or manually enter the key shown below into the application.' => 'Digitalize o código QR ou insira manualmente a chave mostrada abaixo no aplicativo.',
+      'LDAP Password' => 'Senha LDAP',
+      'Leaving High Security' => 'Deixando alta segurança',
+      'Username or password are incorrect.' => 'Nome de usuário ou senha estão incorretos.',
+      'SSH key name is required.' => 'O nome da chave SSH é obrigatório.',
+      'Login/Registration' => 'Login/Registo',
+      'Download Private Key (%s)' => 'Baixar chave privada (%s)',
+      'Unverified User Email' => 'E-mail não verificado do usuário',
+      'Download Private Key' => 'Baixar chave privada',
+      'Sign With MFA' => 'Cadastre-se com MFA',
+      'Verified User Email' => 'E-mail do usuário verificado',
+      'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'Esse fluxo de trabalho gerará um novo par de chaves SSH, adicionará a chave pública e permitirá que você baixe a chave privada.',
+      'You must choose a password or skip this step.' => 'Você deve escolher uma senha ou pular esta etapa.',
+      'Stay' => 'Ficar',
+      'Mobile Phone App (TOTP)' => 'Aplicativo para celular (TOTP)',
+      'Normal Security Restored' => 'Segurança normal restaurada',
+      'Really terminate all sessions? (Your current login session will not be terminated.)' => 'Realmente terminar todas as sessões? (Sua sessão de login atual não será finalizada.)',
+      'Create Contact Number' => 'Criar número de contato',
+      'Confirm External Account Link' => 'Confirme o link da conta externa',
+      'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'Se você deixar alta segurança, precisará autenticar novamente na próxima vez que tentar executar uma ação de alta segurança.',
+      'Active Phone Number' => 'Número de telefone ativo',
+      'Contact Number' => 'Número de contato',
+      'Generate Keypair' => 'Gerar par de chaves',
+      'Upload SSH Public Key' => 'Carregar chave pública SSH',
+      'SSH key material is required.' => 'O material da chave SSH é obrigatório.',
+      'LDAP Username' => 'Nome de usuário LDAP',
+      'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Anexe um aplicativo de autenticador móvel (como Authy ou Google Authenticator) à sua conta. Quando você precisar autenticar, você digitará um código exibido no seu telefone.',
+      'No Matching Tokens' => 'Não há tokens correspondentes',
+      'After entering the key, the application should display a numeric code. Enter that code below to confirm that you have configured the authenticator correctly:' => 'Depois de inserir a chave, o aplicativo deve exibir um código numérico. Digite o código abaixo para confirmar que você configurou o autenticador corretamente:',
+      '(If given an option, select that this key is "Time Based", not "Counter Based".)' => '(Se tiver uma opção, selecione que essa chave seja "Com base no tempo" e não "Com base no contador").',
+      'LDAP Password: ' => 'Senha LDAP',
+      'Allow users to log in or register using a username and password.' => 'Permitir que os usuários façam login ou registrem-se usando um nome de usuário e senha.',
+    );
+  }
+
+}

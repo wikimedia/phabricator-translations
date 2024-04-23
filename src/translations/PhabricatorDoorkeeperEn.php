@@ -9,7 +9,6 @@ final class PhabricatorDoorkeeperEn
 
   protected function getTranslations() {
     return array(
-      'Phabricator is running in silent mode.' => 'Phabricator is running in silent mode.',
       'Available publishers class names are:' => 'Available publishers class names are:',
       'To enable synchronization into Asana, enter an Asana Workspace ID here.
     NOTE: This feature is new and experimental.' => 'To enable synchronization into Asana, enter an Asana Workspace ID here.
@@ -20,6 +19,9 @@ final class PhabricatorDoorkeeperEn
       '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.' => '%s has no visible object on the other side; this likely indicates the Asana task has been deleted.',
       'Using publisher \'%s\'.' => 'Using publisher \'%s\'.',
       'Connect to Other Software' => 'Connect to Other Software',
+      'When %s creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in %s comes from. For example, you can add code reviews in Asana to a "Differential" project.
+    NOTE: This feature is new and experimental.' => 'When %s creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in %s comes from. For example, you can add code reviews in Asana to a "Differential" project.
+    NOTE: This feature is new and experimental.',
       'Failed to update object %s using user %s.' => 'Failed to update object %s using user %s.',
       'You can find an Asana project ID by clicking the project in Asana and then examining the URL:
       lang=txt
@@ -34,13 +36,15 @@ final class PhabricatorDoorkeeperEn
     ',
       'No Asana provider configured.' => 'No Asana provider configured.',
       'Asana integration options.' => 'Asana integration options.',
+      '⚠ DO NOT EDIT THIS TASK ⚠
+    ☠ Your changes will not be reflected in %s.
+    ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ DO NOT EDIT THIS TASK ⚠
+    ☠ Your changes will not be reflected in %s.
+    ☠ Your changes will be destroyed the next time state is synchronized.',
       'JIRA integration is configured not to post anything.' => 'JIRA integration is configured not to post anything.',
       'Skipping main task update, object is no longer visible.' => 'Skipping main task update, object is no longer visible.',
       'Doorkeeper' => 'Doorkeeper',
       'Imported From' => 'Imported From',
-      'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'When Phabricator creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in Phabricator comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.',
       'No related users have linked Asana accounts.' => 'No related users have linked Asana accounts.',
       'Story is about an unsupported object type.' => 'Story is about an unsupported object type.',
       'No JIRA provider configured.' => 'No JIRA provider configured.',
@@ -51,11 +55,6 @@ final class PhabricatorDoorkeeperEn
       'Asana Task %s' => 'Asana Task %s',
       'GitHub Issue %s' => 'GitHub Issue %s',
       'Asana Workspace ID to publish into.' => 'Asana Workspace ID to publish into.',
-      '⚠ DO NOT EDIT THIS TASK ⚠
-    ☠ Your changes will not be reflected in Phabricator.
-    ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ DO NOT EDIT THIS TASK ⚠
-    ☠ Your changes will not be reflected in Phabricator.
-    ☠ Your changes will be destroyed the next time state is synchronized.',
       'Removing subtask edge to %s, foreign object is not visible.' => 'Removing subtask edge to %s, foreign object is not visible.',
       'Integration with Asana' => 'Integration with Asana',
       'Doorkeeper worker \'%s\' is not enabled.' => 'Doorkeeper worker \'%s\' is not enabled.',
@@ -80,6 +79,7 @@ final class PhabricatorDoorkeeperEn
       'GitHub User %s' => 'GitHub User %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".',
       'Workspace Name' => 'Workspace Name',
+      'This software is running in silent mode.' => 'This software is running in silent mode.',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'Unable to find any Asana user with valid credentials to pull an OAuth token out of.',
       'Synchronization of parent task from Asana failed!' => 'Synchronization of parent task from Asana failed!',
       'Optional Asana projects to use as application tags.' => 'Optional Asana projects to use as application tags.',

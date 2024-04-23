@@ -15,6 +15,7 @@ final class PhabricatorOwnersEn
       'Create New Package' => 'Create New Package',
       'Tales of adventure for this package.' => 'Tales of adventure for this package.',
       'Search for active or archived packages.' => 'Search for active or archived packages.',
+      'Change package authority rules.' => 'Change package authority rules.',
       'Automatically trigger audits for commits affecting files in this package.' => 'Automatically trigger audits for commits affecting files in this package.',
       'Include' => 'Include',
       'Path Exists in Repository' => 'Path Exists in Repository',
@@ -22,6 +23,7 @@ final class PhabricatorOwnersEn
       'Audit Unreviewed Commits and Commits With No Owner Involvement' => 'Audit Unreviewed Commits and Commits With No Owner Involvement',
       'No exclusion value for path "%s"!' => 'No exclusion value for path "%s"!',
       'Search for packages by name substrings.' => 'Search for packages by name substrings.',
+      'Authority setting information.' => 'Authority setting information.',
       'Changeset attribute "%s" is not valid. Valid changeset attributes are: %s.' => 'Changeset attribute "%s" is not valid. Valid changeset attributes are: %s.',
       'Owners Packages' => 'Owners Packages',
       'Select and reorder package fields.' => 'Select and reorder package fields.',
@@ -30,19 +32,19 @@ final class PhabricatorOwnersEn
       '%s changed %s package owner(s), added %s: %s; removed %s: %s.' => '%s changed %s package owner(s), added %s: %s; removed %s: %s.',
       '%s updated paths for this package.' => '%s updated paths for this package.',
       'Auto Review' => 'Auto Review',
+      '%s adjusted package authority rules from %s to %s.' => '%s adjusted package authority rules from %s to %s.',
       'Packages: Invalid Owner' => 'Packages: Invalid Owner',
       'Auto review information.' => 'Auto review information.',
+      'Group sections of a codebase into packages for re-use in other applications, like Herald rules.' => 'Group sections of a codebase into packages for re-use in other applications, like Herald rules.',
       'Path Not Found On Default Branch' => 'Path Not Found On Default Branch',
       'Affected By Herald Rules' => 'Affected By Herald Rules',
       'Users and projects which own the package.' => 'Users and projects which own the package.',
-      'Parameter should be a phid.' => 'Parameter should be a phid.',
-      'Repository callsign %s not recognized' => 'Repository callsign %s not recognized',
       'Subscribe to Changes With Non-Owner Author' => 'Subscribe to Changes With Non-Owner Author',
       'Specify the files and directories which comprise this package.' => 'Specify the files and directories which comprise this package.',
       'Packages: %s' => 'Packages: %s',
       'owner' => 'owner',
       'The package description.' => 'The package description.',
-      'Group sections of a codebase into packages for re-use in other areas of Phabricator, like Herald rules.' => 'Group sections of a codebase into packages for re-use in other areas of Phabricator, like Herald rules.',
+      'Strong (Package Owns Paths)' => 'Strong (Package Owns Paths)',
       'Review Changes With Non-Owner Author' => 'Review Changes With Non-Owner Author',
       '%s renamed this package from %s to %s.' => '%s renamed this package from %s to %s.',
       'Audit Unreviewed Commits' => 'Audit Unreviewed Commits',
@@ -62,7 +64,6 @@ final class PhabricatorOwnersEn
       'Ignored attribute information.' => 'Ignored attribute information.',
       'Weak' => 'Weak',
       'Strong (Control All Paths)' => 'Strong (Control All Paths)',
-      'The repository callsign is not recognized.' => 'The repository callsign is not recognized.',
       'Custom Owners fields.' => 'Custom Owners fields.',
       'Own Source Code' => 'Own Source Code',
       'Search for packages with specific owners.' => 'Search for packages with specific owners.',
@@ -73,6 +74,7 @@ final class PhabricatorOwnersEn
       'Automatically trigger reviews for commits affecting files in this package.' => 'Automatically trigger reviews for commits affecting files in this package.',
       'Dominion setting information.' => 'Dominion setting information.',
       'Owners of a package may always view it.' => 'Owners of a package may always view it.',
+      'Weak (Package Watches Paths)' => 'Weak (Package Watches Paths)',
       'No commits in this package.' => 'No commits in this package.',
       'Review All Changes' => 'Review All Changes',
       'Archive or enable the package.' => 'Archive or enable the package.',
@@ -84,7 +86,6 @@ final class PhabricatorOwnersEn
       'Change package dominion rules.' => 'Change package dominion rules.',
       'No Autoreview' => 'No Autoreview',
       'Create a Package' => 'Create a Package',
-      'Provide one of a single owner phid (user/project), a single affiliated user phid (user), or a repository/path.' => 'Provide one of a single owner phid (user/project), a single affiliated user phid (user), or a repository/path.',
       '[Package]' => '[Package]',
       'Search for packages by included repositories.' => 'Search for packages by included repositories.',
       'Audit All Commits' => 'Audit All Commits',
@@ -107,11 +108,11 @@ final class PhabricatorOwnersEn
       'Auditing' => 'Auditing',
       'This package does not contain any paths yet. Use "Edit Paths" to add some.' => 'This package does not contain any paths yet. Use "Edit Paths" to add some.',
       'Overwrite existing package paths with new paths.' => 'Overwrite existing package paths with new paths.',
-      'Obsolete; use "owners.search" instead.' => 'Obsolete; use "owners.search" instead.',
       'Strong' => 'Strong',
       'No Auditing' => 'No Auditing',
       'Map of custom fields for Owners packages. For details on adding custom fields to Owners, see "Configuring Custom Fields" in the documentation.' => 'Map of custom fields for Owners packages. For details on adding custom fields to Owners, see "Configuring Custom Fields" in the documentation.',
       'Packages: ...' => 'Packages: ...',
+      'Authority setting "%s" is not valid. Valid settings are: %s.' => 'Authority setting "%s" is not valid. Valid settings are: %s.',
       'Activate Package' => 'Activate Package',
       'This package will become active again.' => 'This package will become active again.',
       '%s updated the description for this package.' => '%s updated the description for this package.',
@@ -125,7 +126,6 @@ final class PhabricatorOwnersEn
       '%s activated this package.' => '%s activated this package.',
       'List of package owners.' => 'List of package owners.',
       'Active or archived status of the package.' => 'Active or archived status of the package.',
-      'Expected user/project PHID for owner, got %s.' => 'Expected user/project PHID for owner, got %s.',
       'Apply transactions to create a new Owners package or edit an existing one.' => 'Apply transactions to create a new Owners package or edit an existing one.',
       'This package has no open problem commits.' => 'This package has no open problem commits.',
       'PACKAGE DETAIL' => 'PACKAGE DETAIL',
@@ -136,8 +136,48 @@ final class PhabricatorOwnersEn
       'Autoreview setting "%s" is not valid. Valid settings are: %s.' => 'Autoreview setting "%s" is not valid. Valid settings are: %s.',
       'Edit Paths: %s' => 'Edit Paths: %s',
       'Package %d' => 'Package %s',
-      'Query for Owners packages. Obsoleted by "owners.search".' => 'Query for Owners packages. Obsoleted by "owners.search".',
       'Add New Path' => 'Add New Path',
+      'When updating the paths for a package, pass a list of dictionaries like
+    this as the `value` for the transaction:
+    ```lang=json, name="Example Paths Value"
+    [
+      {
+        "repositoryPHID": "PHID-REPO-1234",
+        "path": "/path/to/directory/",
+        "excluded": false
+      },
+      {
+        "repositoryPHID": "PHID-REPO-1234",
+        "path": "/another/example/path/",
+        "excluded": false
+      }
+    ]
+    ```
+    This transaction will set the paths to the list you provide, overwriting any
+    previous paths.
+    Generally, you will call `owners.search` first to get a list of current paths
+    (which are provided in the same format), make changes, then update them by
+    applying a transaction of this type.' => 'When updating the paths for a package, pass a list of dictionaries like
+    this as the `value` for the transaction:
+    ```lang=json, name="Example Paths Value"
+    [
+      {
+        "repositoryPHID": "PHID-REPO-1234",
+        "path": "/path/to/directory/",
+        "excluded": false
+      },
+      {
+        "repositoryPHID": "PHID-REPO-1234",
+        "path": "/another/example/path/",
+        "excluded": false
+      }
+    ]
+    ```
+    This transaction will set the paths to the list you provide, overwriting any
+    previous paths.
+    Generally, you will call `owners.search` first to get a list of current paths
+    (which are provided in the same format), make changes, then update them by
+    applying a transaction of this type.',
       '%s changed the audit rule for this package from %s to %s.' => '%s changed the audit rule for this package from %s to %s.',
       'Active Packages' => 'Active Packages',
       'Exclude' => 'Exclude',

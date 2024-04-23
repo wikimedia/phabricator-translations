@@ -31,7 +31,7 @@ final class PhabricatorextCoreFa
       'Invalid' => 'بی اعتبار',
       'View Change in Gerrit' => 'مشاهدهٔ تغییر در گریت',
       'Link to Open Tasks' => 'پیوند به وظیفه‌های باز',
-      'Sort by Last Update' => 'مرتب سازی بر اساس آخرین به روزرسانی',
+      'Sort by Last Update' => 'مرتب سازی بر اساس آخرین به‌روزرسانی',
       '%s Line(s) removed' => '%s سطر حذف شد',
       'Related Changes in Gerrit:' => 'تغییرات مرتبط در گریت:',
       'Code Review Started' => 'بازبینی کد آغاز شد',

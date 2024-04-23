@@ -16,9 +16,6 @@ final class PhabricatorPolicyEn
       'Required Capabilities on Other Objects' => 'Required Capabilities on Other Objects',
       'Logged in users can take this action.' => 'Logged in users can take this action.',
       'Object URI' => 'Object URI',
-      'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. 
-    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. 
-    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.',
       'when the moon' => 'when the moon',
       'Specify the name of an object to unlock.' => 'Specify the name of an object to unlock.',
       'Identify each __object__ by passing an object name (like "T123") or a PHID (like "PHID-ABCD-1234...").
@@ -26,8 +23,12 @@ final class PhabricatorPolicyEn
     Not every type of object has an editable view policy, edit policy, or owner, so not all modes will work with all objects. ',
       'Unknown user spec \'%s\'.' => 'Unknown user spec \'%s\'.',
       'Lock Create User Policy To Admins' => 'Lock Create User Policy To Admins',
+      'Interact Policy' => 'Interact Policy',
       'Limit + offset work.' => 'Limit + offset work.',
       'These rules are processed in order.' => 'These rules are processed in order.',
+      'This software has application policies which can dictate whether users can take certain actions, such as creating new users. 
+    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'This software has application policies which can dictate whether users can take certain actions, such as creating new users. 
+    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.',
       'Users who can see objects in this space:' => 'Users who can see objects in this space:',
       'After a user passes space policy checks, they must still pass object policy checks.' => 'After a user passes space policy checks, they must still pass object policy checks.',
       'Modified object policies.' => 'Modified object policies.',
@@ -35,6 +36,13 @@ final class PhabricatorPolicyEn
       'Shift the object between spaces.' => 'Shift the object between spaces.',
       'You Shall Not Pass: %s' => 'You Shall Not Pass: %s',
       'is waxing' => 'is waxing',
+      'This software allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
+    This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
+    Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
+    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'This software allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
+    This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
+    Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
+    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).',
       'Unable to find any object with the specified name ("%s").' => 'Unable to find any object with the specified name ("%s").',
       'You do not have permission to edit this object.' => 'You do not have permission to edit this object.',
       'CAPABILITIES' => 'CAPABILITIES',
@@ -50,6 +58,7 @@ final class PhabricatorPolicyEn
       'Admin Policy' => 'Admin Policy',
       'Unlock one or more objects by changing their view policies, edit policies, or owners.' => 'Unlock one or more objects by changing their view policies, edit policies, or owners.',
       'Allow Public Visibility' => 'Allow Public Visibility',
+      'Controls who can interact with the object.' => 'Controls who can interact with the object.',
       'Object Policies' => 'Object Policies',
       'Members of Project...' => 'Members of Project...',
       'Two policy rules (of classes "%s" and "%s") define the same object policy key ("%s"), but each object policy rule must use a unique key.' => 'Two policy rules (of classes "%s" and "%s") define the same object policy key ("%s"), but each object policy rule must use a unique key.',
@@ -71,6 +80,7 @@ final class PhabricatorPolicyEn
       'UNLOCKING' => 'UNLOCKING',
       'Members of a particular project can take this action. (You can not see this object, so the name of this project is restricted.)' => 'Members of a particular project can take this action. (You can not see this object, so the name of this project is restricted.)',
       'Specify the name of exactly one object to show policy information for.' => 'Specify the name of exactly one object to show policy information for.',
+      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'This object is public and can be viewed by anyone, even if they do not have an account on this server.',
       'You do not have the required capability ("%s") to do whatever you are trying to do.' => 'You do not have the required capability ("%s") to do whatever you are trying to do.',
       'Support for Policies' => 'Support for Policies',
       'Allow users to set object visibility to public.' => 'Allow users to set object visibility to public.',
@@ -85,13 +95,6 @@ final class PhabricatorPolicyEn
       'Unlocking: %s' => 'Unlocking: %s',
       'Change the view policy of an object so that the specified user may view it.' => 'Change the view policy of an object so that the specified user may view it.',
       '%s can take this action.' => '%s can take this action.',
-      'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
-    This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
-    Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
-    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
-    This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
-    Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
-    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).',
       'Capability "%s" does not exist.' => 'Capability "%s" does not exist.',
       'OBJECT' => 'OBJECT',
       'Note:' => 'Note:',
@@ -107,7 +110,6 @@ final class PhabricatorPolicyEn
       'To access this object, users must have first have access capabilities on these other objects:' => 'To access this object, users must have first have access capabilities on these other objects:',
       '[%s] (%s) %s // %s' => '[%s] (%s) %s // %s',
       'Invalid Policy' => 'Invalid Policy',
-      '[%s] %s' => '[%s] %s',
       'Members of Project: %s' => 'Members of Project: %s',
       'Offsets work correctly.' => 'Offsets work correctly.',
       'Public Policy (Enabled in Config)' => 'Public Policy (Enabled in Config)',
@@ -146,7 +148,6 @@ final class PhabricatorPolicyEn
       'Spaces Documentation' => 'Spaces Documentation',
       'Unknown Policy' => 'Unknown Policy',
       'Change the join policy of the object.' => 'Change the join policy of the object.',
-      'This object is public and can be viewed by anyone, even if they do not have a Phabricator account.' => 'This object is public and can be viewed by anyone, even if they do not have a Phabricator account.',
       'is full' => 'is full',
       'You can not make that edit, because it would remove your ability to \'%s\' the object.' => 'You can not make that edit, because it would remove your ability to \'%s\' the object.',
       'Policy \'%s\' is not a global policy!' => 'Policy \'%s\' is not a global policy!',
@@ -162,6 +163,7 @@ final class PhabricatorPolicyEn
       'Capability "%s" has invalid policy "%s".' => 'Capability "%s" has invalid policy "%s".',
       'You do not have permission to interact with this object.' => 'You do not have permission to interact with this object.',
       'User Policy' => 'User Policy',
+      'Change the interaction policy of the object.' => 'Change the interaction policy of the object.',
     );
   }
 

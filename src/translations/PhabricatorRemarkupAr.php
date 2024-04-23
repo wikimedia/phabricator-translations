@@ -10,6 +10,7 @@ final class PhabricatorRemarkupAr
   protected function getTranslations() {
     return array(
       'Invalid markup engine.' => 'محرك تعليم غير صحيح.',
+      'Process text through remarkup.' => 'معالجة النص من خلال الملاحظة في سياق Phabricator.',
       'Content may not be empty.' => 'المحتوى لا ينبغي أن يكون فارغا.',
     );
   }

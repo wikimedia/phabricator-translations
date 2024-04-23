@@ -24,7 +24,7 @@ final class PhabricatorSpacesZhHans
       'CHANGES TO SPACE DESCRIPTION' => '对空间描述的更改',
       'Spaces' => '空间',
       'Create Space' => '创建空间',
-      'Policy Namespaces' => '方针名字空间',
+      'Policy Namespaces' => '方针命名空间',
       '%s activated space %s.' => '%s激活了空间%s。',
       '%s created this space.' => '%s创建了此空间。',
       'Space %s: %s' => '空间%s：%s',

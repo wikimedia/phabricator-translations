@@ -18,7 +18,6 @@ final class PhabricatorUiexampleDa
       'Rain' => 'Regn',
       '%s paid for his goods.' => '%s betalte for sine varer.',
       'This event is green!' => 'Denne begivenhed er grøn!',
-      'Phabricator User' => 'Phabricatorbruger',
       'A major event with no title.' => 'En større begivenhed uden titel.',
       'Too much salt.' => 'For meget salt.',
       'Unit (3/5)' => 'Enhed (3/5)',

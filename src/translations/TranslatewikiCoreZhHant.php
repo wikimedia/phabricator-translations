@@ -22,7 +22,7 @@ final class TranslatewikiCoreZhHant
       'GENDER' => '性別',
       'Locale code for the generated source.' => '用於所產生來源碼的地區代碼。',
       'Provide a classname with "--class".' => '以「--class」來提供類別名稱。',
-      'Read %s string(s).' => '讀取 %s 個字串。',
+      'Read %s string(s).' => '讀取%s串字串。',
       'Class name to generate.' => '要產生的類別名稱。',
       'Frequency Data' => '頻率資料',
       'Provide a JSON source file with "--source".' => '以「--source」來提供 JSON 來源。',

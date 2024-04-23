@@ -10,6 +10,15 @@ final class PhabricatorFeedEn
   protected function getTranslations() {
     return array(
       'Call %s before publishing!' => 'Call %s before publishing!',
+      'IMPORTANT: Feed hooks are deprecated and have been replaced by Webhooks.
+    You can configure Webhooks in Herald. This configuration option will be removed
+    in a future version of the software.
+    (This legacy option may be configured with a list of URIs; feed stories will
+    send to these URIs.)' => 'IMPORTANT: Feed hooks are deprecated and have been replaced by Webhooks.
+    You can configure Webhooks in Herald. This configuration option will be removed
+    in a future version of the software.
+    (This legacy option may be configured with a list of URIs; feed stories will
+    send to these URIs.)',
       'Dictionary with various data of the story' => 'Dictionary with various data of the story',
       'All Stories' => 'All Stories',
       'Query the feed for stories' => 'Query the feed for stories',
@@ -21,7 +30,6 @@ final class PhabricatorFeedEn
       'Story is asking for an object it did not request (\'%s\')!' => 'Story is asking for an object it did not request (\'%s\')!',
       'Simple one-line plain text representation of story' => 'Simple one-line plain text representation of story',
       'Include Projects' => 'Include Projects',
-      'Publish a story to the feed.' => 'Publish a story to the feed.',
       'Specify a story key to republish.' => 'Specify a story key to republish.',
       'The specified "Created Before" date is earlier in time than the specified "Created After" date, so this query can never match any results.' => 'The specified "Created Before" date is earlier in time than the specified "Created After" date, so this query can never match any results.',
       'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.' => 'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.',

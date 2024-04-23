@@ -10,6 +10,7 @@ final class PhabricatorBaseEn
   protected function getTranslations() {
     return array(
       'No application \'%s\'!' => 'No application \'%s\'!',
+      'This application is required, so all users must have access to it.' => 'This application is required, so all users must have access to it.',
       'Expect user \'%s\' to be allowed access to \'%s\'.' => 'Expect user \'%s\' to be allowed access to \'%s\'.',
       'Can Configure Application' => 'Can Configure Application',
       'Can Use Application' => 'Can Use Application',
@@ -23,7 +24,6 @@ final class PhabricatorBaseEn
       'Email Verification Required' => 'Email Verification Required',
       'Application Controller, No Login Required' => 'Application Controller, No Login Required',
       'Developer Tools' => 'Developer Tools',
-      'This application is required for Phabricator to operate, so all users must have access to it.' => 'This application is required for Phabricator to operate, so all users must have access to it.',
       'Expect user \'%s\' to be denied access to \'%s\'.' => 'Expect user \'%s\' to be denied access to \'%s\'.',
       'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => 'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.',
       'Unknown capability \'%s\'!' => 'Unknown capability \'%s\'!',

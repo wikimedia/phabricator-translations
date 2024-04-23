@@ -9,6 +9,7 @@ final class PhabricatorDifferentialEn
 
   protected function getTranslations() {
     return array(
+      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.',
       'Review the diff for correctness. When you are satisfied, either **create a new revision** or **update an existing revision**.' => 'Review the diff for correctness. When you are satisfied, either **create a new revision** or **update an existing revision**.',
       'New repository.' => 'New repository.',
       'Tests Skipped' => 'Tests Skipped',
@@ -106,6 +107,7 @@ final class PhabricatorDifferentialEn
       'New Diff' => 'New Diff',
       'Display project reviewers.' => 'Display project reviewers.',
       'Asana Task Deleted' => 'Asana Task Deleted',
+      'Branch' => 'Branch',
       'Change associated tasks.' => 'Change associated tasks.',
       'Fix build failures and update the revision.' => 'Fix build failures and update the revision.',
       'You must select source text to create a new inline comment.' => 'You must select source text to create a new inline comment.',
@@ -251,6 +253,7 @@ final class PhabricatorDifferentialEn
       'Add me as a reviewer' => 'Add me as a reviewer',
       'You have no draft revisions.' => 'You have no draft revisions.',
       '%s updated the diff for %s.' => '%s updated the diff for %s.',
+      'Revision' => 'Revision',
       'Test rules which run when a revision is created or updated.' => 'Test rules which run when a revision is created or updated.',
       '%s ERROR(S)' => '%s ERROR(S)',
       'The differential diff ID, if applicable.' => 'The differential diff ID, if applicable.',
@@ -424,6 +427,7 @@ final class PhabricatorDifferentialEn
       'You can not commandeer this revision because you already own it.' => 'You can not commandeer this revision because you already own it.',
       '%s abandoned %s.' => '%s abandoned %s.',
       'Unknown renderer type "%s"!' => 'Unknown renderer type "%s"!',
+      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.',
       'Must Review' => 'Must Review',
       'Load all diffs for given revisions from Differential.' => 'Load all diffs for given revisions from Differential.',
       'Options "--to" (to choose a specific storage format) and "--auto" (to select a storage format automatically) are mutually exclusive.' => 'Options "--to" (to choose a specific storage format) and "--auto" (to select a storage format automatically) are mutually exclusive.',
@@ -448,6 +452,17 @@ final class PhabricatorDifferentialEn
       'No Reviewers' => 'No Reviewers',
       'Open Revisions' => 'Open Revisions',
       'Requested A Review Of' => 'Requested A Review Of',
+      'To include patches inline in email bodies, set this option to a positive
+    integer. Patches will be inlined if they are at most that many lines and at
+    most 256 times that many bytes.
+    For example, a value of 100 means "inline patches if they are at not more than
+    100 lines long and not more than 25,600 bytes large".
+    By default, patches are not inlined.' => 'To include patches inline in email bodies, set this option to a positive
+    integer. Patches will be inlined if they are at most that many lines and at
+    most 256 times that many bytes.
+    For example, a value of 100 means "inline patches if they are at not more than
+    100 lines long and not more than 25,600 bytes large".
+    By default, patches are not inlined.',
       'Retrieve a raw diff' => 'Retrieve a raw diff',
       'CHANGES TO REVISION SUMMARY' => 'CHANGES TO REVISION SUMMARY',
       'Failed to load revision for Herald adapter construction!' => 'Failed to load revision for Herald adapter construction!',
@@ -567,7 +582,6 @@ final class PhabricatorDifferentialEn
       'Show Directory in Repository' => 'Show Directory in Repository',
       '%s reclaimed this revision.' => '%s reclaimed this revision.',
       'Differential Diffs' => 'Differential Diffs',
-      'You can not plan changes to this this revision because it has already been closed.' => 'You can not plan changes to this this revision because it has already been closed.',
       'Update Diff' => 'Update Diff',
       'Plan changes to a revision.' => 'Plan changes to a revision.',
       'If you set this to true, users can accept their own revisions. This action is disabled by default because it\'s most likely not a behavior you want, but it proves useful if you are working alone on a project and want to make use of all of differential\'s features.' => 'If you set this to true, users can accept their own revisions. This action is disabled by default because it\'s most likely not a behavior you want, but it proves useful if you are working alone on a project and want to make use of all of differential\'s features.',
@@ -580,14 +594,8 @@ final class PhabricatorDifferentialEn
       'View URI for the revision.' => 'View URI for the revision.',
       'This file was completely deleted.' => 'This file was completely deleted.',
       '%s commandeered %s.' => '%s commandeered %s.',
-      'Hold revision as as draft.' => 'Hold revision as as draft.',
       'Right' => 'Right',
       '%s edited commit(s), added %s: %s; removed %s: %s.' => '%s edited commit(s), added %s: %s; removed %s: %s.',
-      'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
-    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere in Phabricator), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
-    This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
-    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere in Phabricator), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
-    This sort of workflow is very unusual. Very few installs should need to change this option.',
       'Author "%s" is not a valid user.' => 'Author "%s" is not a valid user.',
       'Shows revision representation in Asana.' => 'Shows revision representation in Asana.',
       'Show path in repository.' => 'Show path in repository.',
@@ -634,7 +642,6 @@ final class PhabricatorDifferentialEn
       'Instructions for reverting/undoing this change.' => 'Instructions for reverting/undoing this change.',
       'This revision has no indexed affected paths.' => 'This revision has no indexed affected paths.',
       'Revision Actions' => 'Revision Actions',
-      'If you set this to true, Phabricator will attach patches to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'If you set this to true, Phabricator will attach patches to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.',
       '%s commandeered this revision from %s.' => '%s commandeered this revision from %s.',
       '%s failed remote builds in %s for %s!' => '%s failed remote builds in %s for %s!',
       'You must select a comment to edit.' => 'You must select a comment to edit.',
@@ -678,6 +685,7 @@ final class PhabricatorDifferentialEn
       'Change autosubmission from draft state after builds finish.' => 'Change autosubmission from draft state after builds finish.',
       '%s removed %s parent revision(s): %s.' => '%s removed %s parent revision(s): %s.',
       'You can not commandeer this revision because you are already the author.' => 'You can not commandeer this revision because you are already the author.',
+      'You can not plan changes to this revision because it has already been closed.' => 'You can not plan changes to this revision because it has already been closed.',
       'Request Review' => 'Request Review',
       '%s added an inline comment.' => '%s added an inline comment.',
       '%s created this revision.' => '%s created this revision.',
@@ -765,6 +773,11 @@ final class PhabricatorDifferentialEn
       'This file has a very large number of changes (%s lines).' => 'This file has a very large number of changes (%s lines).',
       'Unexpected leading character "%s" at line index %s!' => 'Unexpected leading character "%s" at line index %s!',
       'You can not close this revision because you are not the author. You can only close revisions you own. You can change this behavior by adjusting the "%s" setting in Config.' => 'You can not close this revision because you are not the author. You can only close revisions you own. You can change this behavior by adjusting the "%s" setting in Config.',
+      'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
+    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
+    This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
+    If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
+    This sort of workflow is very unusual. Very few installs should need to change this option.',
       'Load the content of a revision from Differential.' => 'Load the content of a revision from Differential.',
       'This symlink was deleted.' => 'This symlink was deleted.',
       'Get the reviewers for each revision.' => 'Get the reviewers for each revision.',
@@ -800,7 +813,9 @@ final class PhabricatorDifferentialEn
       'Failed to load file ("%s") with hunk data.' => 'Failed to load file ("%s") with hunk data.',
       'Waiting on Review' => 'Waiting on Review',
       'This submodule was added.' => 'This submodule was added.',
+      'Hold revision as draft.' => 'Hold revision as draft.',
       'Parent revisions of this revision.' => 'Parent revisions of this revision.',
+      'The best way to create a diff is to use the %s command-line tool.' => 'The best way to create a diff is to use the %s command-line tool.',
       'Normally, when revisions that have been "Accepted" are updated, they remain "Accepted". This allows reviewers to suggest minor alterations when accepting, and encourages authors to update if they make minor changes in response to this feedback.
     If you want updates to always require re-review, you can disable the "stickiness" of the "Accepted" status with this option. This may make the process for minor changes much more burdensome to both authors and reviewers.' => 'Normally, when revisions that have been "Accepted" are updated, they remain "Accepted". This allows reviewers to suggest minor alterations when accepting, and encourages authors to update if they make minor changes in response to this feedback.
     If you want updates to always require re-review, you can disable the "stickiness" of the "Accepted" status with this option. This may make the process for minor changes much more burdensome to both authors and reviewers.',
@@ -840,6 +855,7 @@ final class PhabricatorDifferentialEn
       'Blocked diff.' => 'Blocked diff.',
       'This image was deleted after being copied to %s.' => 'This image was deleted after being copied to %s.',
       'CHANGES TO TEST PLAN' => 'CHANGES TO TEST PLAN',
+      '%s retitled %s from %s' => '%s retitled %s from %s',
       'This directory was copied to %s.' => 'This directory was copied to %s.',
       'This revision has already been closed.' => 'This revision has already been closed.',
       'Show All Context' => 'Show All Context',
@@ -865,7 +881,6 @@ final class PhabricatorDifferentialEn
       'Change associated parent revisions.' => 'Change associated parent revisions.',
       'This diff ("%s") is associated with a repository ("%s") that does not have a Staging Area configured. You must configure a Staging Area to use CircleCI integration.' => 'This diff ("%s") is associated with a repository ("%s") that does not have a Staging Area configured. You must configure a Staging Area to use CircleCI integration.',
       'Jump to next change.' => 'Jump to next change.',
-      'You can not add JIRA issues (%s) to this revision because your Phabricator account is not linked to a JIRA account.' => 'You can not add JIRA issues (%s) to this revision because your Phabricator account is not linked to a JIRA account.',
       'Show Last %s Line(s)' => 'Show Last %s Line(s)',
       'Select storage format automatically.' => 'Select storage format automatically.',
       'Allows any user to reopen a closed revision.' => 'Allows any user to reopen a closed revision.',
@@ -942,6 +957,7 @@ final class PhabricatorDifferentialEn
     ',
       '%s wrote in %s' => '%s wrote in %s',
       'Show All %s Block(s)' => 'Show All %s Block(s)',
+      'Abandoned' => 'Abandoned',
       'Apply transactions to create or update a revision.' => 'Apply transactions to create or update a revision.',
       '%s edited %s reviewer(s), added %s: %s; removed %s: %s.' => '%s edited %s reviewer(s), added %s: %s; removed %s: %s.',
       'Changeset List' => 'Changeset List',
@@ -958,7 +974,6 @@ final class PhabricatorDifferentialEn
       'Replace the default title line with a human-readable revision title which describes the changes you are making.' => 'Replace the default title line with a human-readable revision title which describes the changes you are making.',
       'Needs Review' => 'Needs Review',
       'Invalid changeset ID "%s"!' => 'Invalid changeset ID "%s"!',
-      'The best way to create a diff is to use the Arcanist command-line tool.' => 'The best way to create a diff is to use the Arcanist command-line tool.',
       'Rebuild changesets for a revision.' => 'Rebuild changesets for a revision.',
       'This revision was not accepted when it landed; it landed in state %s.' => 'This revision was not accepted when it landed; it landed in state %s.',
       'Review Requested' => 'Review Requested',

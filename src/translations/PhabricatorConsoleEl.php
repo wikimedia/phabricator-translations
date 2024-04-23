@@ -15,7 +15,6 @@ final class PhabricatorConsoleEl
       'Calls to External Services' => 'Κλήσεις σε εξωτερικές υπηρεσίες',
       'Machine' => 'Μηχανή',
       'Reconnect' => 'Επανασύνδεση',
-      'Information about Phabricator events and event listeners.' => 'Πληροφορίες για τα γεγονότα του Phabricator και ακροατές γεγονότων.',
       'No errors.' => 'Χωρίς σφάλματα.',
       'Startup' => 'Εκκίνηση',
       'Information about %s and %s.' => 'Πληροφορίες σχετικά με το %s και το %s.',
@@ -28,6 +27,7 @@ final class PhabricatorConsoleEl
       'Shows errors and warnings.' => 'Εμφάνιση σφαλμάτων και προειδοποιήσεων.',
       'Can\'t Analyze' => 'Δεν μπορεί να αναλυθεί',
       'Events' => 'Συμβάντα',
+      'Information about events and event listeners.' => 'Πληροφορίες για τα γεγονότα του Phabricator και ακροατές γεγονότων.',
       'Registered Event Listeners' => 'Εγγεγραμμένοι ακροατές συμβάντος',
       'No Tables' => 'Χωρίς πίνακες',
     );

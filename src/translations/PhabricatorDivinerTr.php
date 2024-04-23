@@ -15,7 +15,7 @@ final class PhabricatorDivinerTr
       'This interface is not documented.' => 'Bu arayüz belgelenmemiştir.',
       'Type a book name...' => 'Bir kitap adı yazın...',
       'Documentation uses `%s`, but should use `%s`.' => 'Belgelerde `%s` kullanılır, ancak `%s` kullanılmalıdır.',
-      'Atom "%s" is preceded by a comment containing `%s`, but the comment is not a documentation comment. Documentation comments must begin with `%s`, followed by a newline. Did you mean to use a documentation comment? (As the comment is not a documentation comment, it will be ignored.)' => 'Atom "%s" öğesinden önce "%s" içeren bir yorum gelir, ancak yorum bir belge yorumu değildir. Dokümantasyon yorumları "%s" ile başlamalı, ardından bir satırsonu gelmelidir. Bir dokümantasyon yorumu mu kullanmak istediniz? (Yorum bir belge yorumu olmadığından yok sayılır.)',
+      'Atom "%s" is preceded by a comment containing `%s`, but the comment is not a documentation comment. Documentation comments must begin with `%s`, followed by a newline. Did you mean to use a documentation comment? (As the comment is not a documentation comment, it will be ignored.)' => 'Atom "%s" öğesinden önce "%s" içeren bir yorum gelir ancak yorum bir belge yorumu değildir. Belgeleme yorumları "%s" ile başlamalı, ardından bir satırsonu gelmelidir. Bir belgeleme yorumu mu kullanmak istediniz? (Yorum bir belge yorumu olmadığından yok sayılır.)',
       'No such atom \'%s\'!' => 'Böyle bir \'%s\' atomu yok!',
       'Diviner Atom' => 'İlahi Atom',
       'Found %s book(s).' => '%s kitap bulundu.',
@@ -43,7 +43,7 @@ final class PhabricatorDivinerTr
       'This call takes %s parameter(s), but only %s are documented.' => 'Bu çağrı %s parametresi alır, ancak yalnızca %s dokümante edilir.',
       'Writing atom cache.' => 'Atom önbelleği yazma.',
       'Inherited' => 'Miras',
-      'Documentation Warnings' => 'Dokümantasyon Uyarıları',
+      'Documentation Warnings' => 'Belgeleme Uyarıları',
       'Diviner Books' => 'Falcı Kitapları',
       'Generating book "%s"...' => '"%s" kitabı oluşturuluyor...',
       'No methods for this task.' => 'Bu görev için yöntem yok.',
@@ -90,14 +90,6 @@ final class PhabricatorDivinerTr
       'Found %s unatomized, uncached file(s).' => '%s yetkisiz, önbelleğe alınmamış dosya bulundu.',
       'Method `%s` has explicitly documented `%s`. The `%s` method always returns `%s`. Diviner documents this implicitly.' => '`%s` yöntemi açıkça `%s` belgeledi. `%s` yöntemi her zaman `%s` değerini döndürür. Falcı bunu örtük olarak belgeler.',
       'Build atoms from source.' => 'Atomları kaynaktan oluşturun.',
-      '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
-    Diviner is the documentation generator used to build the Phabricator documentation.
-    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:
-      %s
-    ' => '(NOTE) **Phabricator belgelerini mi arıyorsunuz?** Phabricator hakkında yardım ve bilgi arıyorsanız, canlı sitede [[https://secure.phabricator.com/diviner/ | herkese açık Phabricator belgelerine göz atın]].
-    Falcı, Phabricator belgelerini oluşturmak için kullanılan belge üreticisidir.
-    Henüz herhangi bir Falcı belge kitabı oluşturmadınız, bu nedenle burada gösterilecek bir şey yok. Phabricator belgelerinin kendi yerel kopyasını oluşturmak ve burada görünmesini istiyorsanız, şu komutu çalıştırın:
-      %s',
       'This function is not documented.' => 'Bu işlev belgelenmemiştir.',
       'Find' => 'Bul',
       'Other Methods' => 'Diğer Yöntemler',

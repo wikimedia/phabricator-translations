@@ -76,7 +76,6 @@ final class ArcanistCoreEn
       'Conduit API login required.' => 'Conduit API login required.',
       'Rule \'%s\' matched a zero-length token and causes no state transition.' => 'Rule \'%s\' matched a zero-length token and causes no state transition.',
       'Empty certificate in credentials.' => 'Empty certificate in credentials.',
-      'Phabricator install to connect to.' => 'Phabricator install to connect to.',
       'Confirms that revisions you did not author should land.' => 'Confirms that revisions you did not author should land.',
       'No tests to run.' => 'No tests to run.',
       'Order: Global' => 'Order: Global',
@@ -86,6 +85,7 @@ final class ArcanistCoreEn
     These entries differ: %s.',
       '%s assertion(s) passed.' => '%s assertion(s) passed.',
       'NOTHING TO LAND' => 'NOTHING TO LAND',
+      'Expected to find a byte unit for meminfo key "%s" in meminfo source "%s", found no unit.' => 'Expected to find a byte unit for meminfo key "%s" in meminfo source "%s", found no unit.',
       'Do not copy changes to the staging area.' => 'Do not copy changes to the staging area.',
       'There was an error verifying the SSL connection. This usually indicates that the remote host has an SSL certificate for a different domain name than you are connecting with. Make sure the certificate you have installed is signed for the correct domain.' => 'There was an error verifying the SSL connection. This usually indicates that the remote host has an SSL certificate for a different domain name than you are connecting with. Make sure the certificate you have installed is signed for the correct domain.',
       'Expected a list!' => 'Expected a list!',
@@ -104,8 +104,8 @@ final class ArcanistCoreEn
       'Local branch "%s" tracks an upstream, but following it leads to a local cycle; ignoring branch upstream.' => 'Local branch "%s" tracks an upstream, but following it leads to a local cycle; ignoring branch upstream.',
       'Project Config File' => 'Project Config File',
       'Expected to match pattern "%s" against line "%s" in raw commit blob: %s' => 'Expected to match pattern "%s" against line "%s" in raw commit blob: %s',
-      'The URI of a Phabricator install to connect to by default, if %s is run in a project without a Phabricator URI or run outside of a project.' => 'The URI of a Phabricator install to connect to by default, if %s is run in a project without a Phabricator URI or run outside of a project.',
       'You stand in the middle of a small clearing.' => 'You stand in the middle of a small clearing.',
+      'Unable to find a browser command to run. Set "browser" in your configuration to specify a command to use.' => 'Unable to find a browser command to run. Set "browser" in your configuration to specify a command to use.',
       'Try/catch block catches "Exception", but does not catch "Throwable". In PHP7 and newer, some runtime exceptions will escape this block.' => 'Try/catch block catches "Exception", but does not catch "Throwable". In PHP7 and newer, some runtime exceptions will escape this block.',
       'HLint is a linter for Haskell code.' => 'HLint is a linter for Haskell code.',
       'No Parent Scope' => 'No Parent Scope',
@@ -117,7 +117,6 @@ final class ArcanistCoreEn
       '`%s` Statement Must Be The First Statement' => '`%s` Statement Must Be The First Statement',
       'Argument "%s" is unrecognized. Use "%s" to indicate the end of flags.' => 'Argument "%s" is unrecognized. Use "%s" to indicate the end of flags.',
       'Assertion failed, expected \'%s\' (at %s:%d): %s' => 'Assertion failed, expected \'%s\' (at %s:%s): %s',
-      'Phabricator does not support staging areas for this repository.' => 'Phabricator does not support staging areas for this repository.',
       'Test case \'%s\' was expected to raise an exception, but it did not throw anything.' => 'Test case \'%s\' was expected to raise an exception, but it did not throw anything.',
       'Attempting to make an HTTP request, but query string data begins with "%s". Prior to PHP 5.2.0 this reads files off disk, which creates a wide attack window for security vulnerabilities. Upgrade PHP or avoid making cURL requests which begin with "%s".' => 'Attempting to make an HTTP request, but query string data begins with "%s". Prior to PHP 5.2.0 this reads files off disk, which creates a wide attack window for security vulnerabilities. Upgrade PHP or avoid making cURL requests which begin with "%s".',
       'Land %s revision(s) in the wrong state?' => 'Land %s revision(s) in the wrong state?',
@@ -147,7 +146,6 @@ final class ArcanistCoreEn
       'ERROR' => 'ERROR',
       'Do not upload binaries (like images).' => 'Do not upload binaries (like images).',
       'Default value for parameters with `%s` type hint can only be `%s`.' => 'Default value for parameters with `%s` type hint can only be `%s`.',
-      'Arcanist HTTPS Trusted Domains' => 'Arcanist HTTPS Trusted Domains',
       'Use of Variable Variable' => 'Use of Variable Variable',
       'Only one output format allowed' => 'Only one output format allowed',
       'Arrange tasks based on priority, created, or modified, default is priority.' => 'Arrange tasks based on priority, created, or modified, default is priority.',
@@ -167,7 +165,6 @@ final class ArcanistCoreEn
       'Unexpected "%s" section in property addition.' => 'Unexpected "%s" section in property addition.',
       'Failed to load library at location "%s". This library is specified by "%s". Check that the setting is correct and the library is located in the right place.' => 'Failed to load library at location "%s". This library is specified by "%s". Check that the setting is correct and the library is located in the right place.',
       'Expect "syntax error" in stderr or "%s".' => 'Expect "syntax error" in stderr or "%s".',
-      'You have specified "--draft", but the version of Phabricator on the server is too old to support draft revisions. Omit the flag or upgrade the server software.' => 'You have specified "--draft", but the version of Phabricator on the server is too old to support draft revisions. Omit the flag or upgrade the server software.',
       'Diff Parse Exception: %s' => 'Diff Parse Exception: %s',
       'Commit this revision anyway?' => 'Commit this revision anyway?',
       'After creating the task, open it in a web browser.' => 'After creating the task, open it in a web browser.',
@@ -185,16 +182,14 @@ final class ArcanistCoreEn
       'Saved uncommitted changes from working copy.' => 'Saved uncommitted changes from working copy.',
       'Unsound' => 'Unsound',
       'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?' => 'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?',
+      'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.',
       'Double Write' => 'Double Write',
       'Loading library from "%s"...' => 'Loading library from "%s"...',
       'Remote branch has multiple heads.' => 'Remote branch has multiple heads.',
-      'You have uncommitted changes in the working copy for this library:' => 'You have uncommitted changes in the working copy for this library:',
-      'Loading symbol cache...' => 'Loading symbol cache...',
       'Duplicate case in switch statement. PHP will ignore all but the first case.' => 'Duplicate case in switch statement. PHP will ignore all but the first case.',
       'Unable to identify the revision in the working copy. Use \'%s\' to select a revision.' => 'Unable to identify the revision in the working copy. Use \'%s\' to select a revision.',
       'IP address "%s" is not properly formatted: an address must contain exactly 8 segments, or omit a subsequence of segments with "::".' => 'IP address "%s" is not properly formatted: an address must contain exactly 8 segments, or omit a subsequence of segments with "::".',
       'Binary integer literals are not available before PHP 5.4.' => 'Binary integer literals are not available before PHP 5.4.',
-      'Path to a custom CA bundle file to be used for arcanist\'s cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.' => 'Path to a custom CA bundle file to be used for arcanist\'s cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.',
       'Failed to match remote pattern against line "%s".' => 'Failed to match remote pattern against line "%s".',
       '%s is not a valid JSON object.' => '%s is not a valid JSON object.',
       'Checking out bookmark "%s".' => 'Checking out bookmark "%s".',
@@ -226,8 +221,6 @@ final class ArcanistCoreEn
       'Space found before semicolon.' => 'Space found before semicolon.',
       'Use `%s` for checking if the string contains something.' => 'Use `%s` for checking if the string contains something.',
       'Perforce mode does not support the "merge" land strategy. Use the "squash" land strategy when landing to a Perforce remote (you can use "--squash" to select this strategy).' => 'Perforce mode does not support the "merge" land strategy. Use the "squash" land strategy when landing to a Perforce remote (you can use "--squash" to select this strategy).',
-      '  Note arcanist failed to load the commit message from differential for revision %s.' => '  Note arcanist failed to load the commit message from differential for revision %s.',
-      'Associates this working copy with a specific installation of Phabricator.' => 'Associates this working copy with a specific installation of Phabricator.',
       'Use "--types" to select between alternatives.' => 'Use "--types" to select between alternatives.',
       'user' => 'user',
       'Revision "%s" does not exist, or you do not have permission to see it.' => 'Revision "%s" does not exist, or you do not have permission to see it.',
@@ -238,7 +231,6 @@ final class ArcanistCoreEn
       'Array item with key \'%s\' must be an instance of %s, %s given.' => 'Array item with key \'%s\' must be an instance of %s, %s given.',
       'Aborted generation of gigantic diff.' => 'Aborted generation of gigantic diff.',
       'This line will be added:' => 'This line will be added:',
-      'Open this page in your browser and login to Phabricator if necessary:' => 'Open this page in your browser and login to Phabricator if necessary:',
       'Multiple "abstract" modifiers are not allowed.' => 'Multiple "abstract" modifiers are not allowed.',
       'Expected value to be a list, got "%s".' => 'Expected value to be a list, got "%s".',
       'Reading data from stdin...' => 'Reading data from stdin...',
@@ -276,7 +268,6 @@ final class ArcanistCoreEn
       'Saving local state (at "%s" on branch "%s").' => 'Saving local state (at "%s" on branch "%s").',
       'Stash these changes and continue?' => 'Stash these changes and continue?',
       'Push to a remote other than the default.' => 'Push to a remote other than the default.',
-      'Analyzing %s file(s) with %s subprocess(es)...' => 'Analyzing %s file(s) with %s subprocess(es)...',
       'Shift/reduce conflict: from state \'%s\', when a \'%s\' is encountered, shifting conflicts with reducing \'%s\'.' => 'Shift/reduce conflict: from state \'%s\', when a \'%s\' is encountered, shifting conflicts with reducing \'%s\'.',
       'Expected hunk header \'%s\'.' => 'Expected hunk header \'%s\'.',
       'Unexpected node of type \'%s\'!' => 'Unexpected node of type \'%s\'!',
@@ -304,6 +295,7 @@ final class ArcanistCoreEn
       'Some reviewers are currently away:' => 'Some reviewers are currently away:',
       'Do you want to edit the message?' => 'Do you want to edit the message?',
       'Partition of "%s"' => 'Partition of "%s"',
+      'Use of Product Name Literal' => 'Use of Product Name Literal',
       'Merging with "%s" strategy, the default strategy.' => 'Merging with "%s" strategy, the default strategy.',
       'Override configured lint engine for this project.' => 'Override configured lint engine for this project.',
       '%s can not load additional nodes at runtime. Tried to load: %s' => '%s can not load additional nodes at runtime. Tried to load: %s',
@@ -313,7 +305,6 @@ final class ArcanistCoreEn
       'Specify an AWS S3 object key to access with --key.' => 'Specify an AWS S3 object key to access with --key.',
       'This client version does not support staging this repository.' => 'This client version does not support staging this repository.',
       'Run an external script, then parse its output with a regular expression. This is a generic binding that can be used to run custom lint scripts.' => 'Run an external script, then parse its output with a regular expression. This is a generic binding that can be used to run custom lint scripts.',
-      'You are running one copy of Arcanist (at path "%s") against another copy of Arcanist (at path "%s"). Code in the current working directory will not be loaded or executed.' => 'You are running one copy of Arcanist (at path "%s") against another copy of Arcanist (at path "%s"). Code in the current working directory will not be loaded or executed.',
       'Unable to detect any supported shell, so autocompletion rules can not be installed. Use "--shell" to select a shell.' => 'Unable to detect any supported shell, so autocompletion rules can not be installed. Use "--shell" to select a shell.',
       'You are updating a revision ("%s") with the "--draft" flag, but this revision has already been published for review. You can not turn a revision back into a draft once it has been published.' => 'You are updating a revision ("%s") with the "--draft" flag, but this revision has already been published for review. You can not turn a revision back into a draft once it has been published.',
       'Future graph is stalled: some futures are held, but no futures are waiting or working. The graph can never resolve.' => 'Future graph is stalled: some futures are held, but no futures are waiting or working. The graph can never resolve.',
@@ -324,11 +315,11 @@ final class ArcanistCoreEn
       'Expect linter to not be stopped.' => 'Expect linter to not be stopped.',
       'Expected JSON response from GitHub.' => 'Expected JSON response from GitHub.',
       'No type ID for node type name \'%s\' in \'%s\' AAST.' => 'No type ID for node type name \'%s\' in \'%s\' AAST.',
+      'Update the revision comments, then save and exit.' => 'Update the revision comments, then save and exit.',
       'Function Call Should Be Type Cast' => 'Function Call Should Be Type Cast',
       '`%s` Unreliable' => '`%s` Unreliable',
       'Workflow has no name!' => 'Workflow has no name!',
       'September' => 'September',
-      'Lookup of encoding in arcanist project failed: %s' => 'Lookup of encoding in arcanist project failed: %s',
       'Confused by empty line' => 'Confused by empty line',
       'Follow naming conventions: parameters should be named using `%s`' => 'Follow naming conventions: parameters should be named using `%s`',
       'Argument "%s" conflicts with argument "%s"%s' => 'Argument "%s" conflicts with argument "%s"%s',
@@ -351,11 +342,11 @@ final class ArcanistCoreEn
       'Working Copy: Path "%s" is not in any working copy.' => 'Working Copy: Path "%s" is not in any working copy.',
       'This codebase targets PHP %s, but anonymous functions were not introduced until PHP 5.3.' => 'This codebase targets PHP %s, but anonymous functions were not introduced until PHP 5.3.',
       'Bookmark "%s"' => 'Bookmark "%s"',
+      'Use of Removed Function "each()"' => 'Use of Removed Function "each()"',
       'Land %s revision(s) anyway, despite ongoing and failed builds?' => 'Land %s revision(s) anyway, despite ongoing and failed builds?',
       'Jump' => 'Jump',
       'Uploaded binary data for "%s".' => 'Uploaded binary data for "%s".',
       'The symbol map for library \'%s\' (at \'%s\') claims this %s is defined in \'%s\', but loading that source file did not cause the %s to become defined.' => 'The symbol map for library \'%s\' (at \'%s\') claims this %s is defined in \'%s\', but loading that source file did not cause the %s to become defined.',
-      'Associate the working copy with a specific Phabricator repository. Normally, %s can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associate the working copy with a specific Phabricator repository. Normally, %s can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.',
       'Future has already started; futures can not start more than once.' => 'Future has already started; futures can not start more than once.',
       'Unable to upload file: the server refused to accept file "%s". This usually means it is too large.' => 'Unable to upload file: the server refused to accept file "%s". This usually means it is too large.',
       'Configuration option "%s" is not valid. Configuration options passed with command line flags must be in the form "name=value".' => 'Configuration option "%s" is not valid. Configuration options passed with command line flags must be in the form "name=value".',
@@ -374,6 +365,7 @@ final class ArcanistCoreEn
       'Argument "--force" for "arc browse" is deprecated. Use "--type %s" instead.' => 'Argument "--force" for "arc browse" is deprecated. Use "--type %s" instead.',
       'CHECKOUT' => 'CHECKOUT',
       'There should be no whitespace before the object operator.' => 'There should be no whitespace before the object operator.',
+      'Failed to update library: %s' => 'Failed to update library: %s',
       'Land %s revision(s) with changes planned?' => 'Land %s revision(s) with changes planned?',
       'When linting git repositories, amend HEAD with autofix patches suggested by lint without prompting.' => 'When linting git repositories, amend HEAD with autofix patches suggested by lint without prompting.',
       'Base commit is not in local repository; trying to fetch.' => 'Base commit is not in local repository; trying to fetch.',
@@ -396,6 +388,7 @@ final class ArcanistCoreEn
       '<bytes = %s>' => '<bytes = %s>',
       'Branch "%s"' => 'Branch "%s"',
       'Alias resolved to "%s", but this is not a valid workflow or alias name. This alias or workflow might have previously existed and been removed.' => 'Alias resolved to "%s", but this is not a valid workflow or alias name. This alias or workflow might have previously existed and been removed.',
+      'Expected exception (in class(es): %s), got exception of class "%s".' => 'Expected exception (in class(es): %s), got exception of class "%s".',
       'Wed' => 'Wed',
       'Argument "%s" requires a parameter.' => 'Argument "%s" requires a parameter.',
       'One test was expected to skip.' => 'One test was expected to skip.',
@@ -411,7 +404,6 @@ final class ArcanistCoreEn
       'REPOSITORY' => 'REPOSITORY',
       'No pushable remote "%s" exists. Use the "--onto-remote" flag to choose a valid, pushable remote to land changes onto.' => 'No pushable remote "%s" exists. Use the "--onto-remote" flag to choose a valid, pushable remote to land changes onto.',
       'You must specify AWS credentials. Use --access-key and --secret-key to provide root credentials.' => 'You must specify AWS credentials. Use --access-key and --secret-key to provide root credentials.',
-      'Updated!' => 'Updated!',
       'Delete an object from S3.' => 'Delete an object from S3.',
       'Workflow "%s" is unknown. Supported workflows are: %s.' => 'Workflow "%s" is unknown. Supported workflows are: %s.',
       'Write: %s' => 'Write: %s',
@@ -419,6 +411,7 @@ final class ArcanistCoreEn
       'Mon' => 'Mon',
       'Describe the changes in this new revision.' => 'Describe the changes in this new revision.',
       'NEW BOOKMARK' => 'NEW BOOKMARK',
+      'Commit symbol "%s" contains a newline. This is not a valid character in a Mercurial commit symbol.' => 'Commit symbol "%s" contains a newline. This is not a valid character in a Mercurial commit symbol.',
       'Install JSCS using `%s`.' => 'Install JSCS using `%s`.',
       'Invalid Octal Numeric Scalar' => 'Invalid Octal Numeric Scalar',
       '%s failed to parse file data %d: %s' => '%s failed to parse file data %s: %s',
@@ -436,7 +429,6 @@ final class ArcanistCoreEn
       'TO INSTALL: %s' => 'TO INSTALL: %s',
       'Reuse of Iterator References' => 'Reuse of Iterator References',
       'Choose a workflow!' => 'Choose a workflow!',
-      'Dropping symbol cache...' => 'Dropping symbol cache...',
       '`%s` Operator' => '`%s` Operator',
       '%s %s' => '%s %s',
       'No working copy to write config into!' => 'No working copy to write config into!',
@@ -446,6 +438,7 @@ final class ArcanistCoreEn
       'Option \'%s\' is not supported under %s.' => 'Option \'%s\' is not supported under %s.',
       'The coding standard(s) to apply.' => 'The coding standard(s) to apply.',
       'Fail' => 'Fail',
+      'Expected no exception, got exception of class "%s".' => 'Expected no exception, got exception of class "%s".',
       'Subversion does not use base commits.' => 'Subversion does not use base commits.',
       'Do not use the PHP closing tag, `%s`.' => 'Do not use the PHP closing tag, `%s`.',
       'it is the first ancestor of %s that either has a bookmark, or is already in the remote and it matched the rule %s in your %s \'base\' configuration' => 'it is the first ancestor of %s that either has a bookmark, or is already in the remote and it matched the rule %s in your %s \'base\' configuration',
@@ -460,17 +453,17 @@ final class ArcanistCoreEn
       'REBASE CONFLICT' => 'REBASE CONFLICT',
       'argv: %s' => 'argv: %s',
       'Raw input file was written to: %s' => 'Raw input file was written to: %s',
-      'Arcanist toolset "%s" is unknown. The Arcanist binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Arcanist toolset "%s" is unknown. The Arcanist binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.',
-      'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a preprebuilt command, you must not pass arguments.' => 'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a preprebuilt command, you must not pass arguments.',
       'Parser output for "%s".' => 'Parser output for "%s".',
       'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with the alias of another configuration option ("%s"). The key and aliases of each option must be unique.' => 'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with the alias of another configuration option ("%s"). The key and aliases of each option must be unique.',
       'Enter a commit message.' => 'Enter a commit message.',
       'Cover changes since a specific revision.' => 'Cover changes since a specific revision.',
       'Implicit Constructor' => 'Implicit Constructor',
+      'Read diff from stdin, not from the working copy. This disables many features which depend on having access to the working copy.' => 'Read diff from stdin, not from the working copy. This disables many features which depend on having access to the working copy.',
       'Command to use to invoke a web browser.' => 'Command to use to invoke a web browser.',
       'Value "%s" is not valid, specify a JSON list: %s' => 'Value "%s" is not valid, specify a JSON list: %s',
       'Specify at most one revision name.' => 'Specify at most one revision name.',
       'Two argument specifications have the same short alias ("%s").' => 'Two argument specifications have the same short alias ("%s").',
+      'Call to "assertCaught(..., <junk>, ...)" passed bad value for test result. Expected null, Exception, or Throwable; got: %s.' => 'Call to "assertCaught(..., <junk>, ...)" passed bad value for test result. Expected null, Exception, or Throwable; got: %s.',
       'You may land one branches and any number of bookmarks in a single operation.' => 'You may land one branches and any number of bookmarks in a single operation.',
       'Unknown lint severity "%s". Valid severities are: %s.' => 'Unknown lint severity "%s". Valid severities are: %s.',
       'You have untracked files in this working copy.' => 'You have untracked files in this working copy.',
@@ -606,7 +599,6 @@ final class ArcanistCoreEn
       'Updating local branch "%s"...' => 'Updating local branch "%s"...',
       'Unable to identify the current branch in the working copy.' => 'Unable to identify the current branch in the working copy.',
       'Type of setting \'%s\' must be boolean.' => 'Type of setting \'%s\' must be boolean.',
-      'This version of Arcanist is more recent than the version of Phabricator you are connecting to: the Phabricator install is out of date and does not have support for identifying repositories by callsign or URI. Update Phabricator to enable these features.' => 'This version of Arcanist is more recent than the version of Phabricator you are connecting to: the Phabricator install is out of date and does not have support for identifying repositories by callsign or URI. Update Phabricator to enable these features.',
       'No type name for node type ID \'%s\' in \'%s\' AAST.' => 'No type name for node type ID \'%s\' in \'%s\' AAST.',
       'Search for linters. Search is case-insensitive, and is performed against name and description of each linter.' => 'Search for linters. Search is case-insensitive, and is performed against name and description of each linter.',
       'Call-time pass-by-reference calls are prohibited.' => 'Call-time pass-by-reference calls are prohibited.',
@@ -617,6 +609,7 @@ final class ArcanistCoreEn
       'Filesystem path "%s" can not be accessed because a parent directory ("%s") is not executable (the current process does not have "+x" permission).' => 'Filesystem path "%s" can not be accessed because a parent directory ("%s") is not executable (the current process does not have "+x" permission).',
       'File "%s" does not exist, or you do not have permission to view it.' => 'File "%s" does not exist, or you do not have permission to view it.',
       'Included commits in branch %s:' => 'Included commits in branch %s:',
+      '  NOTE: Failed to load the commit message from Differential (for revision "%s".)' => '  NOTE: Failed to load the commit message from Differential (for revision "%s".)',
       'Spaces Inside Parentheses' => 'Spaces Inside Parentheses',
       'Configuration (%s)' => 'Configuration (%s)',
       'This file contains a syntax error: %s' => 'This file contains a syntax error: %s',
@@ -637,11 +630,11 @@ final class ArcanistCoreEn
       'Night has fallen, and the thin sliver of moon overhead offers no comfort. It is almost pitch black. The night is bitter cold. It will be difficult to look around in these conditions.' => 'Night has fallen, and the thin sliver of moon overhead offers no comfort. It is almost pitch black. The night is bitter cold. It will be difficult to look around in these conditions.',
       'Future has already resolved. Futures may not resolve more than once.' => 'Future has already resolved. Futures may not resolve more than once.',
       '**version**' => '**version**',
-      'Writing map...' => 'Writing map...',
       'Broken' => 'Broken',
       'Length must be larger than 0!' => 'Length must be larger than 0!',
       'The "SHELL" environment variable does not match any recognized shell.' => 'The "SHELL" environment variable does not match any recognized shell.',
       'All reviewers are away until %s:' => 'All reviewers are away until %s:',
+      'Server to connect to.' => 'Server to connect to.',
       'Created a new Differential revision:' => 'Created a new Differential revision:',
       'Expected "~~~~~~~~~~" delimiter in test "%s".' => 'Expected "~~~~~~~~~~" delimiter in test "%s".',
       'When creating a revision, try to use the working copy commit message verbatim, without prompting to edit it. When updating a revision, update some fields from the local commit message.' => 'When creating a revision, try to use the working copy commit message verbatim, without prompting to edit it. When updating a revision, update some fields from the local commit message.',
@@ -663,6 +656,7 @@ final class ArcanistCoreEn
       'Glob Magic, .tesseract' => 'Glob Magic, .tesseract',
       'PHP files must only contain PHP code.' => 'PHP files must only contain PHP code.',
       'Lock \'%s is not locked by this process!' => 'Lock \'%s is not locked by this process!',
+      'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.' => 'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.',
       'Setting an imaginary locale should raise an exception.' => 'Setting an imaginary locale should raise an exception.',
       '<Process was terminated by signal %s (%d).>
     ' => '<Process was terminated by signal %s (%s).>
@@ -674,17 +668,7 @@ final class ArcanistCoreEn
       'Source code should contain only ASCII bytes with ordinal decimal values between 32 and 126 inclusive, plus linefeed. Do not use UTF-8 or other multibyte charsets.' => 'Source code should contain only ASCII bytes with ordinal decimal values between 32 and 126 inclusive, plus linefeed. Do not use UTF-8 or other multibyte charsets.',
       'There are no changes to generate a diff from!' => 'There are no changes to generate a diff from!',
       'Type' => 'Type',
-      'Attempting to run unit tests on a libphutil library which has not been loaded, at:
-        %s
-    This probably means one of two things:
-        - You may need to add this library to %s.
-        - You may be running tests on a copy of libphutil or arcanist using a different copy of libphutil or arcanist. This operation is not supported.
-    ' => 'Attempting to run unit tests on a libphutil library which has not been loaded, at:
-        %s
-    This probably means one of two things:
-        - You may need to add this library to %s.
-        - You may be running tests on a copy of libphutil or arcanist using a different copy of libphutil or arcanist. This operation is not supported.
-    ',
+      'Toolset "%s" is unknown. The binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Toolset "%s" is unknown. The binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.',
       'Rule \'%s\' can never be reduced: it recurses indefinitely and reaches no production of terminals.' => 'Rule \'%s\' can never be reduced: it recurses indefinitely and reaches no production of terminals.',
       'Surrogate filtering: %s' => 'Surrogate filtering: %s',
       'Translating legacy name \'%s\' to \'%s\'' => 'Translating legacy name \'%s\' to \'%s\'',
@@ -695,7 +679,6 @@ final class ArcanistCoreEn
       'The name or path of the coding standard to use.' => 'The name or path of the coding standard to use.',
       'Enabled verbose mode.' => 'Enabled verbose mode.',
       'PHP Syntax Error!' => 'PHP Syntax Error!',
-      '%s must be in its git working copy to be automatically upgraded. This copy of %s (in \'%s\') is not in a git working copy.' => '%s must be in its git working copy to be automatically upgraded. This copy of %s (in \'%s\') is not in a git working copy.',
       'INVALID CREDENTIALS' => 'INVALID CREDENTIALS',
       'Attempting to rebase changes.' => 'Attempting to rebase changes.',
       'Cannot access `%s` when current class scope has no parent.' => 'Cannot access `%s` when current class scope has no parent.',
@@ -745,6 +728,7 @@ final class ArcanistCoreEn
       'Rules are already up to date for "%s" in: %s' => 'Rules are already up to date for "%s" in: %s',
       'Installing shell completion support for "%s" into "%s".' => 'Installing shell completion support for "%s" into "%s".',
       'Export change as a git patch. This format is more complete than unified, but less complete than arc bundles. These patches can be applied with \'%s\' or \'%s\'.' => 'Export change as a git patch. This format is more complete than unified, but less complete than arc bundles. These patches can be applied with \'%s\' or \'%s\'.',
+      'Expected to find meminfo key "%s" in meminfo source "%s".' => 'Expected to find meminfo key "%s" in meminfo source "%s".',
       'Will merge into empty state, selected with the "--into-empty" flag.' => 'Will merge into empty state, selected with the "--into-empty" flag.',
       'Use parentheses when invoking a constructor.' => 'Use parentheses when invoking a constructor.',
       '\'%s\' vs \'%s\' (utf8)' => '\'%s\' vs \'%s\' (utf8)',
@@ -770,6 +754,7 @@ final class ArcanistCoreEn
       'Show the changes that will land. Does not modify the working copy or the remote.' => 'Show the changes that will land. Does not modify the working copy or the remote.',
       'PUSH STAGING' => 'PUSH STAGING',
       'SUBMITTING' => 'SUBMITTING',
+      'Associate the working copy with a specific repository. Normally, %s can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associate the working copy with a specific repository. Normally, %s can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.',
       'Fetch URI: %s' => 'Fetch URI: %s',
       'Remote "%s" was selected with the "--onto-remote" flag.' => 'Remote "%s" was selected with the "--onto-remote" flag.',
       'it is the greatest common ancestor of the working directory and the commit you specified explicitly.' => 'it is the greatest common ancestor of the working directory and the commit you specified explicitly.',
@@ -808,12 +793,14 @@ final class ArcanistCoreEn
       'Unable to access %s or `%s` on this system to get system memory information.' => 'Unable to access %s or `%s` on this system to get system memory information.',
       'Unable to locate xUnit console runner. Configure it with the `%s\' option in %s.' => 'Unable to locate xUnit console runner. Configure it with the `%s\' option in %s.',
       'This working copy is configured to have an immutable local history, using the "history.immutable" configuration option. Amending the working copy will mutate local history.' => 'This working copy is configured to have an immutable local history, using the "history.immutable" configuration option. Amending the working copy will mutate local history.',
+      'You have uncommitted changes in the working copy ("%s") for this library ("%s"):' => 'You have uncommitted changes in the working copy ("%s") for this library ("%s"):',
       'Set key "%s" = %s in %s config (was %s).' => 'Set key "%s" = %s in %s config (was %s).',
       'Function %s is not implemented!' => 'Function %s is not implemented!',
       'Revision \'%s: %s\' was generated from \'%s\', but current working copy root is \'%s\'. Commit this revision anyway?' => 'Revision \'%s: %s\' was generated from \'%s\', but current working copy root is \'%s\'. Commit this revision anyway?',
       '(Discarded) %s' => '(Discarded) %s',
       'Unable to write configuration: more than one writable source exists in the "%s" scope.' => 'Unable to write configuration: more than one writable source exists in the "%s" scope.',
       'mt_rand() range is smaller than the requested range.' => 'mt_rand() range is smaller than the requested range.',
+      'Class "%s" implements method "%s" with the wrong visibility. The method has visibility "%s", but it is defined in parent "%s" with visibility "%s". A method which overrides another must always have the same visibility.' => 'Class "%s" implements method "%s" with the wrong visibility. The method has visibility "%s", but it is defined in parent "%s" with visibility "%s". A method which overrides another must always have the same visibility.',
       'AWS region.' => 'AWS region.',
       'Sun' => 'Sun',
       'Convention: space before opening parenthesis in anonymous function declarations.' => 'Convention: space before opening parenthesis in anonymous function declarations.',
@@ -865,6 +852,7 @@ final class ArcanistCoreEn
       'Merge strategy "%s" specified in "%s" configuration is unknown. Supported merge strategies are: %s.' => 'Merge strategy "%s" specified in "%s" configuration is unknown. Supported merge strategies are: %s.',
       'Relative commit \'%s\' is not the name of a commit!' => 'Relative commit \'%s\' is not the name of a commit!',
       '%d beer(s)' => '%s beer(s)',
+      'Associates this working copy with a specific server.' => 'Associates this working copy with a specific server.',
       'lowercase_with_underscores: \'%s\'' => 'lowercase_with_underscores: \'%s\'',
       'You must configure \'%s\' with the name of a linter in order to use %s.' => 'You must configure \'%s\' with the name of a linter in order to use %s.',
       'Projects to assign to the task.' => 'Projects to assign to the task.',
@@ -874,6 +862,7 @@ final class ArcanistCoreEn
       'Parsing JSON: %s' => 'Parsing JSON: %s',
       'Continue?' => 'Continue?',
       'Failed to push changes to staging area. Correct the issue, or use --skip-staging to skip this step.' => 'Failed to push changes to staging area. Correct the issue, or use --skip-staging to skip this step.',
+      'Execution of "hg log" emitted an unexpected line ("%s").' => 'Execution of "hg log" emitted an unexpected line ("%s").',
       'you explicitly specified the empty tree.' => 'you explicitly specified the empty tree.',
       'Apply this patch to %s?' => 'Apply this patch to %s?',
       'Commit Message' => 'Commit Message',
@@ -898,6 +887,7 @@ final class ArcanistCoreEn
       'Expected JSON response from WordPress.com.' => 'Expected JSON response from WordPress.com.',
       'Oct' => 'Oct',
       '`%s` expects an object instance, constant given.' => '`%s` expects an object instance, constant given.',
+      'Launching editor "%s"...' => 'Launching editor "%s"...',
       'Language Construct Parentheses' => 'Language Construct Parentheses',
       'Force targets to be interpreted as naming particular types of resources.' => 'Force targets to be interpreted as naming particular types of resources.',
       'fragment' => 'fragment',
@@ -932,13 +922,14 @@ final class ArcanistCoreEn
       'Name of a concrete subclass of `%s` which enforces more granular naming convention rules for symbols.' => 'Name of a concrete subclass of `%s` which enforces more granular naming convention rules for symbols.',
       'Convention: logical and arithmetic operators should be surrounded by whitespace.' => 'Convention: logical and arithmetic operators should be surrounded by whitespace.',
       'Space Before Unary Postfix Operator' => 'Space Before Unary Postfix Operator',
+      'Expected any exception, got no exception.' => 'Expected any exception, got no exception.',
+      'Discard these changes before running "arc upgrade".' => 'Discard these changes before running "arc upgrade".',
       'Failed to copy file from "%s" to "%s": %s' => 'Failed to copy file from "%s" to "%s": %s',
       'The test failed, but this change is probably not what broke it. For example, it might have already been failing.' => 'The test failed, but this change is probably not what broke it. For example, it might have already been failing.',
       'Just Directories' => 'Just Directories',
       'Invalid Default Parameter' => 'Invalid Default Parameter',
       'String components of a sort vector must not contain NULL bytes.' => 'String components of a sort vector must not contain NULL bytes.',
       'Using saved response to prompt "%s".' => 'Using saved response to prompt "%s".',
-      'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOGIN TO PHABRICATOR' => 'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOGIN TO PHABRICATOR',
       'The `%s` syntax was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `%s`.' => 'The `%s` syntax was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `%s`.',
       'Prompts the user to stash changes and continue when the working copy has untracked, uncommitted, or unstaged changes.' => 'Prompts the user to stash changes and continue when the working copy has untracked, uncommitted, or unstaged changes.',
       'This file contains unnecessary trailing whitespace.' => 'This file contains unnecessary trailing whitespace.',
@@ -964,7 +955,6 @@ final class ArcanistCoreEn
       'Downloading binary data for \'%s\'...' => 'Downloading binary data for \'%s\'...',
       '**upload** [__options__] -- __file__ [__file__ ...]' => '**upload** [__options__] -- __file__ [__file__ ...]',
       '%s returned an unexpected number of bytes (got %s, expected %s)!' => '%s returned an unexpected number of bytes (got %s, expected %s)!',
-      'LOGIN TO PHABRICATOR' => 'LOGIN TO PHABRICATOR',
       'Unrecognized key \'%s\' in argument specification. Recognized keys are: %s.' => 'Unrecognized key \'%s\' in argument specification. Recognized keys are: %s.',
       'The SSL CA Bundles that we tried to use could not be read or are not formatted correctly.' => 'The SSL CA Bundles that we tried to use could not be read or are not formatted correctly.',
       'DATA' => 'DATA',
@@ -998,7 +988,6 @@ final class ArcanistCoreEn
       'No library currently exists at the path "%s"...' => 'No library currently exists at the path "%s"...',
       'Show committed and abandoned revisions.' => 'Show committed and abandoned revisions.',
       'Unable to locate %s.' => 'Unable to locate %s.',
-      '%s must be on branch \'%s\' to be automatically upgraded. This copy of %s (in \'%s\') is on branch \'%s\'.' => '%s must be on branch \'%s\' to be automatically upgraded. This copy of %s (in \'%s\') is on branch \'%s\'.',
       'SAVE STASH' => 'SAVE STASH',
       'No test case to handle file \'%s\'!' => 'No test case to handle file \'%s\'!',
       'Wildcard arguments may not specify a parameter.' => 'Wildcard arguments may not specify a parameter.',
@@ -1047,6 +1036,7 @@ final class ArcanistCoreEn
       'No repositories matched the query. Check that your configuration is correct, or use "%s" to select a repository explicitly.' => 'No repositories matched the query. Check that your configuration is correct, or use "%s" to select a repository explicitly.',
       'Unable to upload file: path "%s" is not readable.' => 'Unable to upload file: path "%s" is not readable.',
       'Examining paths for linter \'%s\'.' => 'Examining paths for linter \'%s\'.',
+      'Expected to find an integer value for meminfo key "%s" in meminfo source "%s", found "%s".' => 'Expected to find an integer value for meminfo key "%s" in meminfo source "%s", found "%s".',
       'Unable to list contents of directory \'%s\'.' => 'Unable to list contents of directory \'%s\'.',
       'You can not read the result buffer while streaming results to disk: there is no in-memory buffer to read.' => 'You can not read the result buffer while streaming results to disk: there is no in-memory buffer to read.',
       'File \'%s\' declares more than one class or interface (%s). A file which declares a class or interface MUST declare nothing else.' => 'File \'%s\' declares more than one class or interface (%s). A file which declares a class or interface MUST declare nothing else.',
@@ -1056,6 +1046,7 @@ final class ArcanistCoreEn
       'Downloading "%s" (%s byte(s)) to "%s"...' => 'Downloading "%s" (%s byte(s)) to "%s"...',
       'Type of setting \'%s\' must be list.' => 'Type of setting \'%s\' must be list.',
       'When creating a revision, add CCs.' => 'When creating a revision, add CCs.',
+      'Expected exception for "%s".' => 'Expected exception for "%s".',
       'Replacing a parameter should overwrite other instances of the key.' => 'Replacing a parameter should overwrite other instances of the key.',
       'Specify a string (or list of strings) identifying the binary which should be invoked to execute this linter. This overrides the default binary. If you provide a list of possible binaries, the first one which exists will be used.' => 'Specify a string (or list of strings) identifying the binary which should be invoked to execute this linter. This overrides the default binary. If you provide a list of possible binaries, the first one which exists will be used.',
       'Failed to open file!' => 'Failed to open file!',
@@ -1075,9 +1066,11 @@ final class ArcanistCoreEn
       'CASCADE' => 'CASCADE',
       '%s REVISION(S) HAVE CHANGES PLANNED' => '%s REVISION(S) HAVE CHANGES PLANNED',
       'You are not the author of \'%s: %s\'. Commit this revision anyway?' => 'You are not the author of \'%s: %s\'. Commit this revision anyway?',
+      'Lookup of encoding in project failed: %s' => 'Lookup of encoding in project failed: %s',
       'Concatenation Spacing' => 'Concatenation Spacing',
       'Array item with key \'%s\' must be of type array, %s given.' => 'Array item with key \'%s\' must be of type array, %s given.',
       'No mode provided for path "%s".' => 'No mode provided for path "%s".',
+      'LOG IN' => 'LOG IN',
       'Ignore the changes to these %s submodule(s) and continue?' => 'Ignore the changes to these %s submodule(s) and continue?',
       'Yield + Return' => 'Yield + Return',
       'Variable Reused As Iterator' => 'Variable Reused As Iterator',
@@ -1085,6 +1078,7 @@ final class ArcanistCoreEn
       '%s requires the PHP OpenSSL extension to be installed and enabled to access an entropy source. On Windows, this extension is usually installed but not enabled by default. Enable it in your "php.ini".' => '%s requires the PHP OpenSSL extension to be installed and enabled to access an entropy source. On Windows, this extension is usually installed but not enabled by default. Enable it in your "php.ini".',
       'Always update a specific revision.' => 'Always update a specific revision.',
       'Partial Catch' => 'Partial Catch',
+      'Call to "assertCaught(<junk>, ...)" passed bad expected value. expected result. Expected null, Exception, or Throwable; got: %s.' => 'Call to "assertCaught(<junk>, ...)" passed bad expected value. expected result. Expected null, Exception, or Throwable; got: %s.',
       'Name of the S3 bucket to access.' => 'Name of the S3 bucket to access.',
       'Example Value' => 'Example Value',
       'You have saved the response "%s" to this prompt.' => 'You have saved the response "%s" to this prompt.',
@@ -1132,6 +1126,7 @@ final class ArcanistCoreEn
       'Unknown URI type "%s"!' => 'Unknown URI type "%s"!',
       'it is the merge-base of \'%s\' and HEAD, as specified in \'%s\'.' => 'it is the merge-base of \'%s\' and HEAD, as specified in \'%s\'.',
       'Specify a file to download.' => 'Specify a file to download.',
+      'Parameter provided to argument "--%s" is too large to parse as an integer.' => 'Parameter provided to argument "--%s" is too large to parse as an integer.',
       'Expected a list or dictionary!' => 'Expected a list or dictionary!',
       'Conversion with bogus encoding.' => 'Conversion with bogus encoding.',
       'Invalid Content Encoding (Non-UTF8)' => 'Invalid Content Encoding (Non-UTF8)',
@@ -1146,6 +1141,7 @@ final class ArcanistCoreEn
       'Simple Graph' => 'Simple Graph',
       'Lint can not be output into "%s" format because the PHP "%s" extension is not installed. Install the extension or choose a different output format.' => 'Lint can not be output into "%s" format because the PHP "%s" extension is not installed. Install the extension or choose a different output format.',
       'Emoji (Internet)' => 'Emoji (Internet)',
+      'Call to phutil_nonempty_string() expected null or a string, got: %s.' => 'Call to phutil_nonempty_string() expected null or a string, got: %s.',
       'Your version of \'%s\' is unbuilt or out of date. Run this script to build it.' => 'Your version of \'%s\' is unbuilt or out of date. Run this script to build it.',
       'Failed to copy file from "%s" to "%s".' => 'Failed to copy file from "%s" to "%s".',
       'August' => 'August',
@@ -1195,7 +1191,6 @@ final class ArcanistCoreEn
       'Unrecognized lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".' => 'Unrecognized lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".',
       'color' => 'color',
       'This patch has binary data. The PHP zlib extension is required to apply patches with binary data to git. Install the PHP zlib extension to continue.' => 'This patch has binary data. The PHP zlib extension is required to apply patches with binary data to git. Install the PHP zlib extension to continue.',
-      'You can learn more about how Phabricator handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the Phabricator documentation.' => 'You can learn more about how Phabricator handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the Phabricator documentation.',
       'Parameter ("%s") passed to "%s" when constructing a lint message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'Parameter ("%s") passed to "%s" when constructing a lint message must be a string with a maximum length of %s bytes, but is %s bytes in length.',
       'CONNECT' => 'CONNECT',
       'Unable to parse unit specification (expected a specification in the form "%s"): %s' => 'Unable to parse unit specification (expected a specification in the form "%s"): %s',
@@ -1206,6 +1201,7 @@ final class ArcanistCoreEn
       '...' => '...',
       'Dictionary key "%s" is not valid UTF8, and cannot be JSON encoded.' => 'Dictionary key "%s" is not valid UTF8, and cannot be JSON encoded.',
       'Unsupported escape sequence "%s" found in pattern: %s' => 'Unsupported escape sequence "%s" found in pattern: %s',
+      'Upgrading "%s" (on branch "%s").' => 'Upgrading "%s" (on branch "%s").',
       'The request took too long to complete.' => 'The request took too long to complete.',
       '"arc amend" must be run from inside a working copy of a repository using a version control system that supports amending commits, like Git or Mercurial.' => '"arc amend" must be run from inside a working copy of a repository using a version control system that supports amending commits, like Git or Mercurial.',
       'Possible Spelling Mistake' => 'Possible Spelling Mistake',
@@ -1222,7 +1218,9 @@ final class ArcanistCoreEn
       'Hardpoint data (for hardpoint "%s") is not attached.' => 'Hardpoint data (for hardpoint "%s") is not attached.',
       'Type of setting \'%s\' must be string.' => 'Type of setting \'%s\' must be string.',
       'Received error from Postmark: (%s) %s' => 'Received error from Postmark: (%s) %s',
+      '"arc upgrade" can only upgrade clean working copies.' => '"arc upgrade" can only upgrade clean working copies.',
       'Spec validity for: %s' => 'Spec validity for: %s',
+      'Call to phutil_nonempty_stringlike() expected a string or stringlike object, got: %s.' => 'Call to phutil_nonempty_stringlike() expected a string or stringlike object, got: %s.',
       'Name' => 'Name',
       'Unit testing raised errors!' => 'Unit testing raised errors!',
       '... (%s more byte(s)) ...' => '... (%s more byte(s)) ...',
@@ -1258,12 +1256,13 @@ final class ArcanistCoreEn
       'SAVE STATE' => 'SAVE STATE',
       '<placeholder>' => '<placeholder>',
       '%s failed!' => '%s failed!',
-      'Arcanist does not support this version of %s (it is newer). You can try upgrading Arcanist with `%s`.' => 'Arcanist does not support this version of %s (it is newer). You can try upgrading Arcanist with `%s`.',
       'Preparing to run a command in directory "%s", but that path is not a directory.' => 'Preparing to run a command in directory "%s", but that path is not a directory.',
       'Expected %s to return array, got %s.' => 'Expected %s to return array, got %s.',
+      'Assertion of caught exception failed (at %s:%d in test case "%s").' => 'Assertion of caught exception failed (at %s:%s in test case "%s").',
       'The dependencies for this patch have a cycle. Applying them is not guaranteed to work. Continue anyway?' => 'The dependencies for this patch have a cycle. Applying them is not guaranteed to work. Continue anyway?',
       'Local commit "%s" (%s) does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.' => 'Local commit "%s" (%s) does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.',
       'Non-tree graph' => 'Non-tree graph',
+      'MethodCallFuture: getSum()' => 'MethodCallFuture: getSum()',
       '<%s> %s' => '<%s> %s',
       '%s requires exactly one revision.' => '%s requires exactly one revision.',
       'Unable to read file permissions for "%s"!' => 'Unable to read file permissions for "%s"!',
@@ -1315,6 +1314,7 @@ final class ArcanistCoreEn
       'Robustly fuse files together.' => 'Robustly fuse files together.',
       'it is the greatest common ancestor of \'%s\' and %s, as specified by \'%s\' in your %s \'base\' configuration.' => 'it is the greatest common ancestor of \'%s\' and %s, as specified by \'%s\' in your %s \'base\' configuration.',
       'Test (%s)' => 'Test (%s)',
+      'MethodCallFuture: exceptions raise at resolution.' => 'MethodCallFuture: exceptions raise at resolution.',
       'Use `%s` to detect issues with JavaScript source files.' => 'Use `%s` to detect issues with JavaScript source files.',
       'Attempting to convert a string encoding, but no target encoding was provided. Explicitly provide the target encoding.' => 'Attempting to convert a string encoding, but no target encoding was provided. Explicitly provide the target encoding.',
       'Landed changes.' => 'Landed changes.',
@@ -1322,6 +1322,33 @@ final class ArcanistCoreEn
       'Use of `%s` Properties' => 'Use of `%s` Properties',
       'INTO TARGET' => 'INTO TARGET',
       'Chinese (Simplified)' => 'Chinese (Simplified)',
+      'Begin or resume work on a branch, bookmark, task, or revision.
+    The __symbol__ may be a branch or bookmark name, a revision name (like "D123"),
+    a task name (like "T123"), or a new symbol.
+    If you provide a symbol which currently does not identify any ongoing work,
+    a new branch or bookmark will be created with the name you provide.
+    If you provide the name of an existing branch or bookmark, the working copy
+    will be switched to that branch or bookmark.
+    If you provide the name of a revision or task, the workflow will look for a
+    related branch or bookmark that already exists in the working copy. If one is
+    found, it will switch to it. If it does not find one, it will attempt to create
+    a new branch or bookmark.
+    When "arc work" creates a branch or bookmark, it will use **--start** as the
+    branchpoint if it is provided. Otherwise, the current working copy state will
+    serve as the starting point.' => 'Begin or resume work on a branch, bookmark, task, or revision.
+    The __symbol__ may be a branch or bookmark name, a revision name (like "D123"),
+    a task name (like "T123"), or a new symbol.
+    If you provide a symbol which currently does not identify any ongoing work,
+    a new branch or bookmark will be created with the name you provide.
+    If you provide the name of an existing branch or bookmark, the working copy
+    will be switched to that branch or bookmark.
+    If you provide the name of a revision or task, the workflow will look for a
+    related branch or bookmark that already exists in the working copy. If one is
+    found, it will switch to it. If it does not find one, it will attempt to create
+    a new branch or bookmark.
+    When "arc work" creates a branch or bookmark, it will use **--start** as the
+    branchpoint if it is provided. Otherwise, the current working copy state will
+    serve as the starting point.',
       'Unknown patch type \'%s\'!' => 'Unknown patch type \'%s\'!',
       'Expected list of rules for state \'%s\' in %s, got %s.' => 'Expected list of rules for state \'%s\' in %s, got %s.',
       'Rebasing "%s" onto landed state...' => 'Rebasing "%s" onto landed state...',
@@ -1333,6 +1360,7 @@ final class ArcanistCoreEn
       'You have no open Differential revisions.' => 'You have no open Differential revisions.',
       '<null>' => '<null>',
       'Expect %s depth to be one.' => 'Expect %s depth to be one.',
+      'PHP Coding Standards for Wikimedia Phorge libraries.' => 'PHP Coding Standards for Wikimedia Phorge libraries.',
       'You are landing %s revision(s) which are already in the state "%s", indicating that they have previously landed:' => 'You are landing %s revision(s) which are already in the state "%s", indicating that they have previously landed:',
       'Local branches and bookmarks have not been changed, and are still in the same state as before.' => 'Local branches and bookmarks have not been changed, and are still in the same state as before.',
       'January' => 'January',
@@ -1371,10 +1399,10 @@ final class ArcanistCoreEn
     In most cases, the best default is \'%s\'. You can also select \'%s\' to preserve the old behavior, or some other remote or branch. But you almost certainly want to select \'origin/master\'.
     (Technically: the merge-base of the selected revision and HEAD is used to determine the start of the commit range.)',
       '\'%s\' vs \'%s\'' => '\'%s\' vs \'%s\'',
-      'Finding source files...' => 'Finding source files...',
       'Configuration option ("%s") specified with "--config" flag is not a recognized option.' => 'Configuration option ("%s") specified with "--config" flag is not a recognized option.',
       'Other locations: %s' => 'Other locations: %s',
       'UNIT ERRORS' => 'UNIT ERRORS',
+      'Associates this working copy with a specific installation of %s (or compatible software).' => 'Associates this working copy with a specific installation of %s (or compatible software).',
       'Upload complete.' => 'Upload complete.',
       'When using \'%s\' to update a revision, specify an update message with \'%s\'. (Normally, we\'d launch an editor to ask you for a message, but can not do that because stdin is the diff source.)' => 'When using \'%s\' to update a revision, specify an update message with \'%s\'. (Normally, we\'d launch an editor to ask you for a message, but can not do that because stdin is the diff source.)',
       'Remote "%s" was selected by reading "%s" configuration.' => 'Remote "%s" was selected by reading "%s" configuration.',
@@ -1388,35 +1416,10 @@ final class ArcanistCoreEn
       'Checks for syntax errors in PHP files.' => 'Checks for syntax errors in PHP files.',
       'HTTP Basic Auth is not supported by %s.' => 'HTTP Basic Auth is not supported by %s.',
       'Local Config File' => 'Local Config File',
-      'Begin or resume work on a branch, bookmark, task, or revision.
-    The __symbol__ may be a branch or bookmark name, a revision name (like "D123"),
-    a task name (like "T123"), or a new symbol.
-    If you provide a symbol which currently does not identify any ongoing work,
-    Arcanist will create a new branch or bookmark with the name you provide.
-    If you provide the name of an existing branch or bookmark, Arcanist will switch
-    to that branch or bookmark.
-    If you provide the name of a revision or task, Arcanist will look for a related
-    branch or bookmark that exists in the working copy. If it finds one, it will
-    switch to it. If it does not find one, it will attempt to create a new branch
-    or bookmark.
-    When "arc work" creates a branch or bookmark, it will use **--start** as the
-    branchpoint if it is provided. Otherwise, the current working copy state will
-    serve as the starting point.' => 'Begin or resume work on a branch, bookmark, task, or revision.
-    The __symbol__ may be a branch or bookmark name, a revision name (like "D123"),
-    a task name (like "T123"), or a new symbol.
-    If you provide a symbol which currently does not identify any ongoing work,
-    Arcanist will create a new branch or bookmark with the name you provide.
-    If you provide the name of an existing branch or bookmark, Arcanist will switch
-    to that branch or bookmark.
-    If you provide the name of a revision or task, Arcanist will look for a related
-    branch or bookmark that exists in the working copy. If it finds one, it will
-    switch to it. If it does not find one, it will attempt to create a new branch
-    or bookmark.
-    When "arc work" creates a branch or bookmark, it will use **--start** as the
-    branchpoint if it is provided. Otherwise, the current working copy state will
-    serve as the starting point.',
+      'Update the details for a revision, then save and exit.' => 'Update the details for a revision, then save and exit.',
       'Will merge into target "%s", selected with the "--into" flag.' => 'Will merge into target "%s", selected with the "--into" flag.',
       'Did you mean:' => 'Did you mean:',
+      'This software is now up to date.' => 'This software is now up to date.',
       'Message has unresolved errors.' => 'Message has unresolved errors.',
       'Error' => 'Error',
       'Object Operator Spacing' => 'Object Operator Spacing',
@@ -1428,6 +1431,8 @@ final class ArcanistCoreEn
       'Learn More:' => 'Learn More:',
       'This syntax indicates there is an unresolved merge conflict.' => 'This syntax indicates there is an unresolved merge conflict.',
       'State has multiple ambiguous revisions refs.' => 'State has multiple ambiguous revisions refs.',
+      'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a prebuilt command, you must not pass arguments.' => 'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a prebuilt command, you must not pass arguments.',
+      'Upload one or more files from local disk.' => 'Upload one or more files from local disk.',
       'Windows can not write files with sufficiently absurd names.' => 'Windows can not write files with sufficiently absurd names.',
       'Newline After PHP Open Tag' => 'Newline After PHP Open Tag',
       'Hardpoint ("%s") is not registered on this object (of type "%s") so the definition object does not exist. Hardpoints are: %s.' => 'Hardpoint ("%s") is not registered on this object (of type "%s") so the definition object does not exist. Hardpoints are: %s.',
@@ -1446,12 +1451,14 @@ final class ArcanistCoreEn
       'Always create a new revision.' => 'Always create a new revision.',
       'User Symbol "%s"' => 'User Symbol "%s"',
       'Class or interface symbol "%s" should be written as "%s".' => 'Class or interface symbol "%s" should be written as "%s".',
+      'Linter "%s" can not run.' => 'Linter "%s" can not run.',
       'Press ^C again to exit.' => 'Press ^C again to exit.',
       'You have incompletely checked out directories in this working copy. Fix them before proceeding.\'' => 'You have incompletely checked out directories in this working copy. Fix them before proceeding.\'',
       'Expected cowsay test file "%s" to contain a line of tildes separating the template from the test parameters.' => 'Expected cowsay test file "%s" to contain a line of tildes separating the template from the test parameters.',
       'Lint for %s:' => 'Lint for %s:',
       'Exiting (Idle Limit)' => 'Exiting (Idle Limit)',
       'Cowsay Test Case "%s"' => 'Cowsay Test Case "%s"',
+      'Call to phutil_nonempty_scalar() expected: a string; or stringlike object; or int; or float. Got: %s.' => 'Call to phutil_nonempty_scalar() expected: a string; or stringlike object; or int; or float. Got: %s.',
       'SURPLUS MESSAGES' => 'SURPLUS MESSAGES',
       'Expected \'Date:\'.' => 'Expected \'Date:\'.',
       'JSON protocol message must be an array, got some other type ("%s").' => 'JSON protocol message must be an array, got some other type ("%s").',
@@ -1461,37 +1468,7 @@ final class ArcanistCoreEn
       'Unable to resolve startpoint "%s".' => 'Unable to resolve startpoint "%s".',
       'The remote host refused the connection. This usually means the host is not running an HTTP server, or the network is blocking connections from this machine. Verify you can connect to the remote host from this host.' => 'The remote host refused the connection. This usually means the host is not running an HTTP server, or the network is blocking connections from this machine. Verify you can connect to the remote host from this host.',
       'The server does not support staging areas.' => 'The server does not support staging areas.',
-      'Common causes are:
-      - Your copy of Arcanist is out of date.
-        This is the most common cause.
-        Update this copy of Arcanist:
-          %s
-      - Some other library is out of date.
-        Update the library this symbol appears in.
-      - The symbol is misspelled.
-        Spell the symbol name correctly.
-      - You added the symbol recently, but have not updated
-        the symbol map for the library.
-        Run "arc liberate" in the library where the symbol is
-        defined.
-      - This symbol is defined in an external library.
-        Use "@phutil-external-symbol" to annotate it.
-        Use "grep" to find examples of usage.' => 'Common causes are:
-      - Your copy of Arcanist is out of date.
-        This is the most common cause.
-        Update this copy of Arcanist:
-          %s
-      - Some other library is out of date.
-        Update the library this symbol appears in.
-      - The symbol is misspelled.
-        Spell the symbol name correctly.
-      - You added the symbol recently, but have not updated
-        the symbol map for the library.
-        Run "arc liberate" in the library where the symbol is
-        defined.
-      - This symbol is defined in an external library.
-        Use "@phutil-external-symbol" to annotate it.
-        Use "grep" to find examples of usage.',
+      'Connect to server specified by __uri__.' => 'Connect to server specified by __uri__.',
       'Expected type \'%s\', got type \'%s\'.' => 'Expected type \'%s\', got type \'%s\'.',
       'Credential censoring for: %s' => 'Credential censoring for: %s',
       'Normalized SVN path for "%s".' => 'Normalized SVN path for "%s".',
@@ -1513,7 +1490,6 @@ final class ArcanistCoreEn
       'Set After Write' => 'Set After Write',
       'List Assignment' => 'List Assignment',
       '`%s` Should Be `%s`' => '`%s` Should Be `%s`',
-      'Unable to find a browser command to run. Set \'%s\' in your Arcanist config to specify a command to use.' => 'Unable to find a browser command to run. Set \'%s\' in your Arcanist config to specify a command to use.',
       'ACTUAL VALUE' => 'ACTUAL VALUE',
       'No HTTP engine extension exists with extension key "%s".' => 'No HTTP engine extension exists with extension key "%s".',
       'P4 SYNC' => 'P4 SYNC',
@@ -1543,6 +1519,7 @@ final class ArcanistCoreEn
       'This repository has no VCS UUID (this is normal for git/hg).' => 'This repository has no VCS UUID (this is normal for git/hg).',
       'Call to "proc_open()" to open a subprocess failed: %s' => 'Call to "proc_open()" to open a subprocess failed: %s',
       'AWS access key.' => 'AWS access key.',
+      'Library "%s" (in "%s") is on branch "%s", but this branch is not supported for automatic upgrades. Supported branches are: %s.' => 'Library "%s" (in "%s") is on branch "%s", but this branch is not supported for automatic upgrades. Supported branches are: %s.',
       'Successfully %s patch.' => 'Successfully %s patch.',
       'Unable to find any local branches to update, staying on detached head.' => 'Unable to find any local branches to update, staying on detached head.',
       'A copy was saved to %s.' => 'A copy was saved to %s.',
@@ -1592,6 +1569,7 @@ final class ArcanistCoreEn
       'You can see the exact changes that will be sent by running this command:' => 'You can see the exact changes that will be sent by running this command:',
       'Upload files.' => 'Upload files.',
       'You can fix these paths by running \'%s\' on them.' => 'You can fix these paths by running \'%s\' on them.',
+      'Call to "assertCaught(..., <junk>, ...)" for test case "%s" passed bad value for test result. Expected null, Exception, or Throwable; got: %s.' => 'Call to "assertCaught(..., <junk>, ...)" for test case "%s" passed bad value for test result. Expected null, Exception, or Throwable; got: %s.',
       'Certificate installed.' => 'Certificate installed.',
       'Merging with "%s" strategy, configured with "%s".' => 'Merging with "%s" strategy, configured with "%s".',
       'SKIP STAGING' => 'SKIP STAGING',
@@ -1623,6 +1601,7 @@ final class ArcanistCoreEn
       'Untracked changes in working copy:' => 'Untracked changes in working copy:',
       'Committer in case "%s".' => 'Committer in case "%s".',
       'Hardpoint generator (for query "%s") yielded an unexpected value (of type "%s").' => 'Hardpoint generator (for query "%s") yielded an unexpected value (of type "%s").',
+      'The "execute()" method of "PhutilExecPassthru" is deprecated and calls should be replaced with "resolve()". See T13660.' => 'The "execute()" method of "PhutilExecPassthru" is deprecated and calls should be replaced with "resolve()". See T13660.',
       'List of prompt responses.' => 'List of prompt responses.',
       'Then paste the API Token on that page below.' => 'Then paste the API Token on that page below.',
       'Peforce remote "%s" was selected because the existence of this remote implies this working copy was synchronized from a Perforce repository.' => 'Peforce remote "%s" was selected because the existence of this remote implies this working copy was synchronized from a Perforce repository.',
@@ -1681,6 +1660,7 @@ final class ArcanistCoreEn
       'Specify a key to delete.' => 'Specify a key to delete.',
       'Can not draw a grid with no columns!' => 'Can not draw a grid with no columns!',
       '%s suppresses unassigned' => '%s suppresses unassigned',
+      'MethodCallFuture: getSum(1, 2, 3)' => 'MethodCallFuture: getSum(1, 2, 3)',
       'French (France)' => 'French (France)',
       'Unable to write log "%s" to path "%s" because the path is not writable.' => 'Unable to write log "%s" to path "%s" because the path is not writable.',
       'Included changes:' => 'Included changes:',
@@ -1712,7 +1692,39 @@ final class ArcanistCoreEn
       '%s %s -> %s %s %s' => '%s %s -> %s %s %s',
       'Original text for "%s".' => 'Original text for "%s".',
       'Expected %s for %%P conversion.' => 'Expected %s for %%P conversion.',
+      'Provide the details for a new revision, then save and exit.' => 'Provide the details for a new revision, then save and exit.',
       'am' => 'am',
+      'Common causes are:
+      - Your copy of %s is out of date.
+        This is the most common cause.
+        Update this copy of %s:
+          %s
+      - Some other library is out of date.
+        Update the library this symbol appears in.
+      - The symbol is misspelled.
+        Spell the symbol name correctly.
+      - You added the symbol recently, but have not updated
+        the symbol map for the library.
+        Run "arc liberate" in the library where the symbol is
+        defined.
+      - This symbol is defined in an external library.
+        Use "@phutil-external-symbol" to annotate it.
+        Use "grep" to find examples of usage.' => 'Common causes are:
+      - Your copy of %s is out of date.
+        This is the most common cause.
+        Update this copy of %s:
+          %s
+      - Some other library is out of date.
+        Update the library this symbol appears in.
+      - The symbol is misspelled.
+        Spell the symbol name correctly.
+      - You added the symbol recently, but have not updated
+        the symbol map for the library.
+        Run "arc liberate" in the library where the symbol is
+        defined.
+      - This symbol is defined in an external library.
+        Use "@phutil-external-symbol" to annotate it.
+        Use "grep" to find examples of usage.',
       'The revision associated with commit "%s" (an ancestor of: %s) is ambiguous. These %s revision(s) are associated with the commit:' => 'The revision associated with commit "%s" (an ancestor of: %s) is ambiguous. These %s revision(s) are associated with the commit:',
       'Possible spelling error. You wrote \'%s\', but did you mean \'%s\'?' => 'Possible spelling error. You wrote \'%s\', but did you mean \'%s\'?',
       'See <%s>. The default merge strategy under Git with "history.immutable" has changed from "merge" to "squash". Your configuration is ambiguous under this behavioral change. (Use "--strategy" or configure "arc.land.strategy" to bypass this check.)' => 'See <%s>. The default merge strategy under Git with "history.immutable" has changed from "merge" to "squash". Your configuration is ambiguous under this behavioral change. (Use "--strategy" or configure "arc.land.strategy" to bypass this check.)',
@@ -1730,6 +1742,7 @@ final class ArcanistCoreEn
       'Second hash argument must be a string.' => 'Second hash argument must be a string.',
       'it is the merge-base of the upstream of the current branch and HEAD, and matched the rule \'%s\' in your %s \'base\' configuration.' => 'it is the merge-base of the upstream of the current branch and HEAD, and matched the rule \'%s\' in your %s \'base\' configuration.',
       'LOAD' => 'LOAD',
+      'Open this page in your browser and log in if necessary:' => 'Open this page in your browser and log in if necessary:',
       'Attempting to reduce and rebase changes.' => 'Attempting to reduce and rebase changes.',
       'A definition of "%s %s" in "%s" will be ignored.' => 'A definition of "%s %s" in "%s" will be ignored.',
       'With Files And Directories' => 'With Files And Directories',
@@ -1761,6 +1774,7 @@ final class ArcanistCoreEn
       'These branches were selected:' => 'These branches were selected:',
       'You must provide a commit message.' => 'You must provide a commit message.',
       'What do you want to name this library?' => 'What do you want to name this library?',
+      'Preparing to upgrade "%s"...' => 'Preparing to upgrade "%s"...',
       'No changes found. (Did you specify the wrong commit range?)' => 'No changes found. (Did you specify the wrong commit range?)',
       'Request specifies two values for key "%s", but parameter names must be unique if you are posting file data due to limitations with cURL.' => 'Request specifies two values for key "%s", but parameter names must be unique if you are posting file data due to limitations with cURL.',
       'DETECT' => 'DETECT',
@@ -1784,6 +1798,7 @@ final class ArcanistCoreEn
       'These commits will be included in the diff:' => 'These commits will be included in the diff:',
       '%s REVISION(S) ARE NOT ACCEPTED' => '%s REVISION(S) ARE NOT ACCEPTED',
       'HOLD CHANGES' => 'HOLD CHANGES',
+      'Expected unit for meminfo key "%s" in meminfo source "%s" to be "kB", found "%s".' => 'Expected unit for meminfo key "%s" in meminfo source "%s" to be "kB", found "%s".',
       'The cURL library raised an error while making a request. You may be able to find more information about this error (error code: %d) on the cURL site: %s' => 'The cURL library raised an error while making a request. You may be able to find more information about this error (error code: %s) on the cURL site: %s',
       'Unable to upload file: failed to read %d bytes after offset %d from file at path "%s".' => 'Unable to upload file: failed to read %s bytes after offset %s from file at path "%s".',
       'Duplicate Case Statements' => 'Duplicate Case Statements',
@@ -1800,7 +1815,7 @@ final class ArcanistCoreEn
       'INFO' => 'INFO',
       'You are using "--hold", so execution will stop before the %s branche(s) are actually created. You will be given instructions to create the branches.' => 'You are using "--hold", so execution will stop before the %s branche(s) are actually created. You will be given instructions to create the branches.',
       'Trying to create a %s without a working copy!' => 'Trying to create a %s without a working copy!',
-      'Create or update an Arcanist library.' => 'Create or update an Arcanist library.',
+      'PREPARING' => 'PREPARING',
       'Korean (Republic of Korea)' => 'Korean (Republic of Korea)',
       'Stifles developer creativity by requiring files have uninspired names containing only letters, numbers, period, hyphen and underscore.' => 'Stifles developer creativity by requiring files have uninspired names containing only letters, numbers, period, hyphen and underscore.',
       'Use `%s` instead of `%s`. The former is a language construct whereas the latter is a function call, which has additional overhead.' => 'Use `%s` instead of `%s`. The former is a language construct whereas the latter is a function call, which has additional overhead.',
@@ -1825,6 +1840,7 @@ final class ArcanistCoreEn
       'Paste API Token from that page:' => 'Paste API Token from that page:',
       'User Config File' => 'User Config File',
       'it is the merge-base of \'%s\' (the Git upstream of the current branch) HEAD.' => 'it is the merge-base of \'%s\' (the Git upstream of the current branch) HEAD.',
+      'Call to "assertCaught(<junk>, ...)" for test case "%s" passed bad expected value. Expected bool, class name as a string, or a list of class names. Got: %s.' => 'Call to "assertCaught(<junk>, ...)" for test case "%s" passed bad expected value. Expected bool, class name as a string, or a list of class names. Got: %s.',
       'The format of user symbol "%s" is unrecognized. Expected a username like "alice" or "@alice", or a user PHID, or a user ID, or a special function like "viewer()".' => 'The format of user symbol "%s" is unrecognized. Expected a username like "alice" or "@alice", or a user PHID, or a user ID, or a special function like "viewer()".',
       'Checks the permissions on files and ensures that they are not made to be executable unnecessarily. In particular, a file should not be executable unless it is either binary or contain a shebang.' => 'Checks the permissions on files and ensures that they are not made to be executable unnecessarily. In particular, a file should not be executable unless it is either binary or contain a shebang.',
       'Use XHPAST to enforce coding conventions on PHP source files.' => 'Use XHPAST to enforce coding conventions on PHP source files.',
@@ -1858,7 +1874,6 @@ final class ArcanistCoreEn
       'Enable strict math, which only processes mathematical expressions inside extraneous parentheses.' => 'Enable strict math, which only processes mathematical expressions inside extraneous parentheses.',
       'UNCOMMITTED CHANGES' => 'UNCOMMITTED CHANGES',
       'Your stored credentials for the server you are trying to connect to ("%s") are not valid.' => 'Your stored credentials for the server you are trying to connect to ("%s") are not valid.',
-      'Specify the end of the commit range. This disables many Arcanist/Phabricator features which depend on having access to the working copy.' => 'Specify the end of the commit range. This disables many Arcanist/Phabricator features which depend on having access to the working copy.',
       'Expected a string for "method" context, got "%s".' => 'Expected a string for "method" context, got "%s".',
       'Build Plan Symbol "%s"' => 'Build Plan Symbol "%s"',
       'Edit distance of \'%s\' -> \'%s\' with costs (%s).' => 'Edit distance of \'%s\' -> \'%s\' with costs (%s).',
@@ -1872,7 +1887,6 @@ final class ArcanistCoreEn
     %s',
       'MERGE STRATEGY IS AMBIGUOUS' => 'MERGE STRATEGY IS AMBIGUOUS',
       'Invalid severity code \'%s\', should begin with \'%s.\'.' => 'Invalid severity code \'%s\', should begin with \'%s.\'.',
-      'Generate diff by executing a specified command, not from the working copy. This disables many Arcanist/Phabricator features which depend on having access to the working copy.' => 'Generate diff by executing a specified command, not from the working copy. This disables many Arcanist/Phabricator features which depend on having access to the working copy.',
       'No such project: "%s"' => 'No such project: "%s"',
       'English (Great Britain)' => 'English (Great Britain)',
       'Custom configuration file.' => 'Custom configuration file.',
@@ -1881,6 +1895,7 @@ final class ArcanistCoreEn
       'The format of symbol "%s" is unrecognized. Expected a monogram like "X123", or an ID like "123", or a PHID.' => 'The format of symbol "%s" is unrecognized. Expected a monogram like "X123", or an ID like "123", or a PHID.',
       'Linter "%s" generated a lint message that is invalid because it does not have a name. Lint messages must have a name.' => 'Linter "%s" generated a lint message that is invalid because it does not have a name. Lint messages must have a name.',
       'Pass in a custom %s file path.' => 'Pass in a custom %s file path.',
+      'In order to keep StyleCop integration with IDEs and other tools consistent with lint results, you aren\'t permitted to disable StyleCop rules within \'%s\'. Instead configure the severity using the StyleCop settings dialog (usually accessible from within your IDE). StyleCop settings for your project will be used when linting.' => 'In order to keep StyleCop integration with IDEs and other tools consistent with lint results, you aren\'t permitted to disable StyleCop rules within \'%s\'. Instead configure the severity using the StyleCop settings dialog (usually accessible from within your IDE). StyleCop settings for your project will be used when linting.',
       'Restoring local state (at "%s" on branch "%s").' => 'Restoring local state (at "%s" on branch "%s").',
       'Filename' => 'Filename',
       'Default behavior is ambiguous.' => 'Default behavior is ambiguous.',
@@ -1893,6 +1908,7 @@ final class ArcanistCoreEn
     ' => 'Across the grove, a stream flows north toward **published** commits.
     ',
       'You can not use "--shell" when completing arguments.' => 'You can not use "--shell" when completing arguments.',
+      'Parameter provided to argument "--%s" must be an integer.' => 'Parameter provided to argument "--%s" must be an integer.',
       'Filesystem path "%s" does not exist.' => 'Filesystem path "%s" does not exist.',
       'Hardpoint (at index "%s") has no hardpoint key. Each hardpoint must have a key that is unique among hardpoints on the object.' => 'Hardpoint (at index "%s") has no hardpoint key. Each hardpoint must have a key that is unique among hardpoints on the object.',
       'Requires target encoding.' => 'Requires target encoding.',
@@ -1901,9 +1917,11 @@ final class ArcanistCoreEn
       'Apply changes from a Differential revision, using the most recent diff that has been attached to it. You can run \'%s\' as a shorthand.' => 'Apply changes from a Differential revision, using the most recent diff that has been attached to it. You can run \'%s\' as a shorthand.',
       'Specify the pager command to use when displaying documentation.' => 'Specify the pager command to use when displaying documentation.',
       'Expected resource "%s" to be an instance of "%s"!' => 'Expected resource "%s" to be an instance of "%s"!',
+      'Invalid "Differential Revision" field in commit message. This field should have a revision identifier like "%s" or a server URI like "%s", but has "%s".' => 'Invalid "Differential Revision" field in commit message. This field should have a revision identifier like "%s" or a server URI like "%s", but has "%s".',
       'Merging local "%s" into "%s" produces an empty diff. This usually means these changes have already landed.' => 'Merging local "%s" into "%s" produces an empty diff. This usually means these changes have already landed.',
       'Checking out "%s".' => 'Checking out "%s".',
       'Parameter "timeout" to "Future->resolve()" is no longer supported. Update the caller so it no longer passes a timeout.' => 'Parameter "timeout" to "Future->resolve()" is no longer supported. Update the caller so it no longer passes a timeout.',
+      'Unknown Mercurial Extension: "%s".' => 'Unknown Mercurial Extension: "%s".',
       'There is no **%s** workflow.' => 'There is no **%s** workflow.',
       'AWS Errors:' => 'AWS Errors:',
       'Order: Args' => 'Order: Args',
@@ -1914,6 +1932,7 @@ final class ArcanistCoreEn
       'Protocol channel expected %s-character, zero-padded numeric frame length, got something else ("%s"). Full buffer (of length %s) begins: %s' => 'Protocol channel expected %s-character, zero-padded numeric frame length, got something else ("%s"). Full buffer (of length %s) begins: %s',
       'Failed to read file \'%s\'.' => 'Failed to read file \'%s\'.',
       'FETCH' => 'FETCH',
+      'Create or update a library.' => 'Create or update a library.',
       'Parsed:
     %s' => 'Parsed:
     %s',
@@ -1942,7 +1961,6 @@ final class ArcanistCoreEn
       'You must use ONLY Unix linebreaks ("%s") in source code.' => 'You must use ONLY Unix linebreaks ("%s") in source code.',
       'NAME' => 'NAME',
       'June' => 'June',
-      'Found %s files.' => 'Found %s files.',
       'Unknown attribute label "%s" in line "%s" while parsing raw commit blob: %s' => 'Unknown attribute label "%s" in line "%s" while parsing raw commit blob: %s',
       'Unknown Mercurial log field \'%s\'!' => 'Unknown Mercurial log field \'%s\'!',
       '%s returned unexpected error code: %d
@@ -1976,13 +1994,13 @@ final class ArcanistCoreEn
       'Working Copy: Path "%s" is part of `%s` working copy "%s".' => 'Working Copy: Path "%s" is part of `%s` working copy "%s".',
       '"%s" is not an exact quantity.' => '"%s" is not an exact quantity.',
       'Linter failed to parse output!' => 'Linter failed to parse output!',
-      'Upgrading %s...' => 'Upgrading %s...',
       'Failed to load XUnit report; Input starts with:' => 'Failed to load XUnit report; Input starts with:',
       'Multiple "static" modifiers are not allowed.' => 'Multiple "static" modifiers are not allowed.',
       'Assertion failed, expected values to be equal (at %s:%d).' => 'Assertion failed, expected values to be equal (at %s:%s).',
       'No query exists which can load hardpoint "%s" for object (with key "%s" of type "%s").' => 'No query exists which can load hardpoint "%s" for object (with key "%s" of type "%s").',
       'Waiting for input on stdin...' => 'Waiting for input on stdin...',
       'Attempting to wait on a hardpoint request (with index "%s", for hardpoint "%s") that is part of a different engine.' => 'Attempting to wait on a hardpoint request (with index "%s", for hardpoint "%s") that is part of a different engine.',
+      'Do not use "each()". This function was deprecated in PHP 7.2 and removed in PHP 8.0' => 'Do not use "each()". This function was deprecated in PHP 7.2 and removed in PHP 8.0',
       'Some linters failed:' => 'Some linters failed:',
       'There is no revision %s.' => 'There is no revision %s.',
       'Comment Style' => 'Comment Style',
@@ -2000,6 +2018,7 @@ final class ArcanistCoreEn
       'Unable to verify request signature, no "%s" present in request protocol information.' => 'Unable to verify request signature, no "%s" present in request protocol information.',
       'To log in and save valid credentials for this server, run this command:' => 'To log in and save valid credentials for this server, run this command:',
       'Tab Literal' => 'Tab Literal',
+      'Encountered duplicate meminfo key "%s" in meminfo source "%s".' => 'Encountered duplicate meminfo key "%s" in meminfo source "%s".',
       'Failed to JSON encode value: %s.' => 'Failed to JSON encode value: %s.',
       'Encoding UTF8 codepoint "%s" is not supported.' => 'Encoding UTF8 codepoint "%s" is not supported.',
       'Order: Local' => 'Order: Local',
@@ -2016,6 +2035,7 @@ final class ArcanistCoreEn
       'Correct throw on unparse of bad input.' => 'Correct throw on unparse of bad input.',
       'Request specifies a file with key "%s", but that key is also defined by normal request data. Due to limitations with cURL, requests that post file data must use unique keys.' => 'Request specifies a file with key "%s", but that key is also defined by normal request data. Due to limitations with cURL, requests that post file data must use unique keys.',
       'Failed to set stream nonblocking.' => 'Failed to set stream nonblocking.',
+      'This version of %s is not supported (it is too new). You can try upgrading with `%s`.' => 'This version of %s is not supported (it is too new). You can try upgrading with `%s`.',
       'Expected JSON.' => 'Expected JSON.',
       'TODO: Ambiguous ref.' => 'TODO: Ambiguous ref.',
       '<paths = %s>' => '<paths = %s>',
@@ -2047,7 +2067,6 @@ final class ArcanistCoreEn
       'Linter `%s` configured in \'%s\' MUST be a subclass of `%s`.' => 'Linter `%s` configured in \'%s\' MUST be a subclass of `%s`.',
       'Unable to find %s or %s in %s!' => 'Unable to find %s or %s in %s!',
       'Use `%s` to detect syntax errors in JSON files.' => 'Use `%s` to detect syntax errors in JSON files.',
-      'Upload one or more files from local disk to Phabricator.' => 'Upload one or more files from local disk to Phabricator.',
       'Branch name %s already exists; trying a new name.' => 'Branch name %s already exists; trying a new name.',
       'UNSOUND' => 'UNSOUND',
       'Found a unique matching repository.' => 'Found a unique matching repository.',
@@ -2065,6 +2084,7 @@ final class ArcanistCoreEn
       'Glob Magic, With Globs + Suffix' => 'Glob Magic, With Globs + Suffix',
       'Use of unknown function symbol "%s".' => 'Use of unknown function symbol "%s".',
       'Switching to source \'%s\'.' => 'Switching to source \'%s\'.',
+      'Unable to parse line in meminfo source "%s": "%s".' => 'Unable to parse line in meminfo source "%s": "%s".',
       'Data has fewer than %d lines.' => 'Data has fewer than %s lines.',
       'Expected \'%s\'.' => 'Expected \'%s\'.',
       'Rebase onto %s failed!' => 'Rebase onto %s failed!',
@@ -2081,6 +2101,7 @@ final class ArcanistCoreEn
       'In PHP, `%s` is the string concatenation operator, not `%s`. This expression uses `%s` with a string literal as an operand.' => 'In PHP, `%s` is the string concatenation operator, not `%s`. This expression uses `%s` with a string literal as an operand.',
       'Failed to write to buffer.' => 'Failed to write to buffer.',
       'Uses `%s` to run several linters (PyFlakes, pep8, and a McCabe complexity checker) on Python source files.' => 'Uses `%s` to run several linters (PyFlakes, pep8, and a McCabe complexity checker) on Python source files.',
+      'Upgrade this program to the latest version.' => 'Upgrade this program to the latest version.',
       'Phutil XHPAST' => 'Phutil XHPAST',
       'You have uncommitted changes in this working copy.' => 'You have uncommitted changes in this working copy.',
       'You\'ve enabled code coverage but XDebug is not installed.' => 'You\'ve enabled code coverage but XDebug is not installed.',
@@ -2131,6 +2152,7 @@ final class ArcanistCoreEn
       'cover does not currently support %s in svn.' => 'cover does not currently support %s in svn.',
       'Closing revision "%s"...' => 'Closing revision "%s"...',
       'Expected option key passed to "addCurlOption(<key>, ...)" to be a scalar, got "%s".' => 'Expected option key passed to "addCurlOption(<key>, ...)" to be a scalar, got "%s".',
+      'You have specified "--draft", but the software version on the server is too old to support draft revisions. Omit the flag or upgrade the server software.' => 'You have specified "--draft", but the software version on the server is too old to support draft revisions. Omit the flag or upgrade the server software.',
       'Status' => 'Status',
       'Can only add execute actions to an agent.' => 'Can only add execute actions to an agent.',
       'Formatted String' => 'Formatted String',
@@ -2160,12 +2182,15 @@ final class ArcanistCoreEn
       'The logical value of this expression is static. Did you forget to remove some debugging code?' => 'The logical value of this expression is static. Did you forget to remove some debugging code?',
       'There are no commits reachable from the specified sources (%s) which are not already present in the state you are merging into ("%s"), so nothing can land.' => 'There are no commits reachable from the specified sources (%s) which are not already present in the state you are merging into ("%s"), so nothing can land.',
       'Please provide a summary.' => 'Please provide a summary.',
+      'Supply a commit message for this patch, then save and exit.' => 'Supply a commit message for this patch, then save and exit.',
+      'Avoid use of product name literals in "pht()": use generic language or an appropriate method from the "PlatformSymbols" class instead so the software can be forked. String uses names: %s.' => 'Avoid use of product name literals in "pht()": use generic language or an appropriate method from the "PlatformSymbols" class instead so the software can be forked. String uses names: %s.',
       'Graph already has a node "%s"!' => 'Graph already has a node "%s"!',
       '`%s` Method Cannot Be Declared `%s`' => '`%s` Method Cannot Be Declared `%s`',
       'Channel closed!' => 'Channel closed!',
       'PASS' => 'PASS',
       'Argument "%s" appears after the first non-flag argument. This special argument must appear before other arguments.' => 'Argument "%s" appears after the first non-flag argument. This special argument must appear before other arguments.',
       'class or interface' => 'class or interface',
+      'UPGRADED' => 'UPGRADED',
       'Switching to local branch "%s".' => 'Switching to local branch "%s".',
       'Expected an array for %%L%s conversion.' => 'Expected an array for %%L%s conversion.',
       'You have selected multiple branches to push changes onto. Pushing to multiple branches is not supported by "arc land" in Mercurial: Mercurial commits may only belong to one branch, so this operation can not be executed atomically.' => 'You have selected multiple branches to push changes onto. Pushing to multiple branches is not supported by "arc land" in Mercurial: Mercurial commits may only belong to one branch, so this operation can not be executed atomically.',
@@ -2176,7 +2201,6 @@ final class ArcanistCoreEn
       'Skip checks for untracked files in the working copy.' => 'Skip checks for untracked files in the working copy.',
       'Trivial Cycle' => 'Trivial Cycle',
       'Confirms use of a revision that you are not the author of.' => 'Confirms use of a revision that you are not the author of.',
-      'Invalid "Differential Revision" field in commit message. This field should have a revision identifier like "%s" or a Phabricator URI like "%s", but has "%s".' => 'Invalid "Differential Revision" field in commit message. This field should have a revision identifier like "%s" or a Phabricator URI like "%s", but has "%s".',
       'Created a new paste.' => 'Created a new paste.',
       'Apr' => 'Apr',
       'Spacing Before Array Index' => 'Spacing Before Array Index',
@@ -2207,14 +2231,12 @@ final class ArcanistCoreEn
       'Argument "%s" was provided twice.' => 'Argument "%s" was provided twice.',
       'This test can not currently run under Windows.' => 'This test can not currently run under Windows.',
       'Show a detailed coverage report on the CLI. Implies %s.' => 'Show a detailed coverage report on the CLI. Implies %s.',
-      'Unable to save the cache!' => 'Unable to save the cache!',
       'function' => 'function',
       'Convention: no spaces before closing parentheses.' => 'Convention: no spaces before closing parentheses.',
       'Unable to infer linter class name.' => 'Unable to infer linter class name.',
       'Config File' => 'Config File',
       'Command to execute.' => 'Command to execute.',
       'Connected' => 'Connected',
-      'Class "%s" implements method "%s" with the wrong visibility. The method has visibility "%s", but it is defined in parent "%s" with visibility "%s". In Phabricator, a method which overrides another must always have the same visibility.' => 'Class "%s" implements method "%s" with the wrong visibility. The method has visibility "%s", but it is defined in parent "%s" with visibility "%s". In Phabricator, a method which overrides another must always have the same visibility.',
       '<opaque envelope>' => '<opaque envelope>',
       'The remote host returned something other than an HTTP response: %s' => 'The remote host returned something other than an HTTP response: %s',
       'You have merge conflicts in this working copy. Resolve merge conflicts before proceeding.' => 'You have merge conflicts in this working copy. Resolve merge conflicts before proceeding.',
@@ -2249,6 +2271,7 @@ final class ArcanistCoreEn
       'Expected workflow ("%s", of class "%s") to return an "ArcanistWorkflowInformation" object from call to "getWorkflowInformation()", got %s.' => 'Expected workflow ("%s", of class "%s") to return an "ArcanistWorkflowInformation" object from call to "getWorkflowInformation()", got %s.',
       'Parameter has invalid type.' => 'Parameter has invalid type.',
       'Noncanonical Symbol' => 'Noncanonical Symbol',
+      'The server does not support staging areas for this repository.' => 'The server does not support staging areas for this repository.',
       'Install cpplint.py using `%s`, and place it in your path with the appropriate permissions set.' => 'Install cpplint.py using `%s`, and place it in your path with the appropriate permissions set.',
       'Specify either setData() or setPath() when building a file data reference, but not both.' => 'Specify either setData() or setPath() when building a file data reference, but not both.',
       'Parameter \'%s\' has invalid type.' => 'Parameter \'%s\' has invalid type.',
@@ -2258,6 +2281,7 @@ final class ArcanistCoreEn
       'BUILD FAILURES' => 'BUILD FAILURES',
       '`%s` method cannot be declared `%s`. This construct will cause a fatal error.' => '`%s` method cannot be declared `%s`. This construct will cause a fatal error.',
       '\'%s\' files should not be executable.' => '\'%s\' files should not be executable.',
+      'Path to a custom CA bundle file to be used for cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.' => 'Path to a custom CA bundle file to be used for cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.',
       'JSHint returned unparseable output.' => 'JSHint returned unparseable output.',
       'Disables lint for files that are marked as "%s", indicating that they contain generated code.' => 'Disables lint for files that are marked as "%s", indicating that they contain generated code.',
       'Revision \'%s\' does not exist.' => 'Revision \'%s\' does not exist.',
@@ -2265,6 +2289,7 @@ final class ArcanistCoreEn
       'Follow naming conventions: classes should be named using `%s`.' => 'Follow naming conventions: classes should be named using `%s`.',
       'Failed to install signal handler!' => 'Failed to install signal handler!',
       'Depends on %s. ' => 'Depends on %s. ',
+      '**upgrade**' => '**upgrade**',
       'This class is neither `%s` nor `%s`, and does not have a docblock marking it `%s`.' => 'This class is neither `%s` nor `%s`, and does not have a docblock marking it `%s`.',
       'Avoid `%s` unless the second parameter is specified. It is confusing and hinders static analysis.' => 'Avoid `%s` unless the second parameter is specified. It is confusing and hinders static analysis.',
       'Commit %s has no change assertions!' => 'Commit %s has no change assertions!',
@@ -2320,6 +2345,7 @@ final class ArcanistCoreEn
       'The UUID for this working copy is "%s".' => 'The UUID for this working copy is "%s".',
       'Searching for libraries in the current working directory...' => 'Searching for libraries in the current working directory...',
       'MATCHING REVISIONS' => 'MATCHING REVISIONS',
+      'You can learn more about how this software handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the documentation.' => 'You can learn more about how this software handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the documentation.',
       'Command exited with nonzero error code.' => 'Command exited with nonzero error code.',
       'No unit test engine is configured for this project.' => 'No unit test engine is configured for this project.',
       'When creating a revision, read revision information from this file.' => 'When creating a revision, read revision information from this file.',
@@ -2330,6 +2356,7 @@ final class ArcanistCoreEn
       'Data parameter must be an array or string.' => 'Data parameter must be an array or string.',
       'Resuming work on revision:' => 'Resuming work on revision:',
       'Only agent actions may be added to a plan.' => 'Only agent actions may be added to a plan.',
+      'Assertion of caught exception failed (at %s:%d).' => 'Assertion of caught exception failed (at %s:%s).',
       'NEW DIFFERENTIAL REVISION' => 'NEW DIFFERENTIAL REVISION',
       'Argument' => 'Argument',
       'Message in case "%s".' => 'Message in case "%s".',
@@ -2338,6 +2365,7 @@ final class ArcanistCoreEn
       'Trying rules from source \'%s\'.' => 'Trying rules from source \'%s\'.',
       'After creating a diff or revision, open it in a web browser.' => 'After creating a diff or revision, open it in a web browser.',
       'Missing required "--" in argument list.' => 'Missing required "--" in argument list.',
+      'Generate diff by executing a specified command, not from the working copy. This disables many features which depend on having access to the working copy.' => 'Generate diff by executing a specified command, not from the working copy. This disables many features which depend on having access to the working copy.',
       'Only show tasks that are not assigned (upforgrabs).' => 'Only show tasks that are not assigned (upforgrabs).',
       'Do you want to amend these %s change(s) to the current commit?' => 'Do you want to amend these %s change(s) to the current commit?',
       'You have missing files in this working copy. Revert or formally remove them (with `%s`) before proceeding.' => 'You have missing files in this working copy. Revert or formally remove them (with `%s`) before proceeding.',
@@ -2374,7 +2402,6 @@ final class ArcanistCoreEn
       'snowman' => 'snowman',
       'Updating to the revision\'s base commit' => 'Updating to the revision\'s base commit',
       'You can not specify paths with %s. The %s flag lints every tracked file in the working copy.' => 'You can not specify paths with %s. The %s flag lints every tracked file in the working copy.',
-      'Read diff from stdin, not from the working copy. This disables many Arcanist/Phabricator features which depend on having access to the working copy.' => 'Read diff from stdin, not from the working copy. This disables many Arcanist/Phabricator features which depend on having access to the working copy.',
       'Expected a non-null return from call to "%s->saveStash()".' => 'Expected a non-null return from call to "%s->saveStash()".',
       'Detecting current shell...' => 'Detecting current shell...',
       'There was an error negotiating the SSL connection. This usually indicates that the remote host has a bad SSL certificate, or your local host has some sort of SSL misconfiguration which prevents it from accepting the CA. If you are using a self-signed certificate, see instructions in "%s".' => 'There was an error negotiating the SSL connection. This usually indicates that the remote host has a bad SSL certificate, or your local host has some sort of SSL misconfiguration which prevents it from accepting the CA. If you are using a self-signed certificate, see instructions in "%s".',
@@ -2463,6 +2490,7 @@ final class ArcanistCoreEn
       'Successfully applied patch.' => 'Successfully applied patch.',
       'JSON command \'%s\' did not produce a valid JSON object on stdout: %s' => 'JSON command \'%s\' did not produce a valid JSON object on stdout: %s',
       'Updated an existing Differential revision:' => 'Updated an existing Differential revision:',
+      'This command needs to communicate with a server, but no server URI is configured.' => 'This command needs to communicate with a server, but no server URI is configured.',
       'Use `%s` to perform static analysis on C/C++ code.' => 'Use `%s` to perform static analysis on C/C++ code.',
       'Mercurial is not installed' => 'Mercurial is not installed',
       '%s requires a revision number.' => '%s requires a revision number.',
@@ -2505,6 +2533,7 @@ final class ArcanistCoreEn
       'No staging area is configured for this repository.' => 'No staging area is configured for this repository.',
       'Message to Mercurial server should be an array.' => 'Message to Mercurial server should be an array.',
       'Message with severity "%s" at "%s:%s" (%s)' => 'Message with severity "%s" at "%s:%s" (%s)',
+      'Result for "%s".' => 'Result for "%s".',
       'Merge using a particular strategy. Supported strategies are "squash" and "merge".' => 'Merge using a particular strategy. Supported strategies are "squash" and "merge".',
       'When calling "implode()", pass the "glue" argument first. (The other parameter order is deprecated in PHP 7.4 and raises a warning.)' => 'When calling "implode()", pass the "glue" argument first. (The other parameter order is deprecated in PHP 7.4 and raises a warning.)',
       'CIDR block "%s" is not formatted correctly. The IP block mask ("%s") must not have leading zeroes.' => 'CIDR block "%s" is not formatted correctly. The IP block mask ("%s") must not have leading zeroes.',
@@ -2523,7 +2552,6 @@ final class ArcanistCoreEn
       'Workflow ("%s") is requesting a prompt ("%s") but it did not generate any prompt with that name in "newPrompts()".' => 'Workflow ("%s") is requesting a prompt ("%s") but it did not generate any prompt with that name in "newPrompts()".',
       'Dictionary value at key "%s" is not valid UTF8, and cannot be JSON encoded: %s' => 'Dictionary value at key "%s" is not valid UTF8, and cannot be JSON encoded: %s',
       'Will merge into target "%s" by default, because this is the "onto" target.' => 'Will merge into target "%s" by default, because this is the "onto" target.',
-      'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an Arcanist operation causes an unrecoverable error.' => 'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an Arcanist operation causes an unrecoverable error.',
       'Expected value to be a list of objects which are instances of "%s", but item with index "%s" is "%s".' => 'Expected value to be a list of objects which are instances of "%s", but item with index "%s" is "%s".',
       'July' => 'July',
       'Show detailed information, including options.' => 'Show detailed information, including options.',
@@ -2536,6 +2564,7 @@ final class ArcanistCoreEn
       'Convention: no spaces before index access.' => 'Convention: no spaces before index access.',
       '< ... %s more commits ... >' => '< ... %s more commits ... >',
       'M j Y' => 'M j Y',
+      'The "upgrade" workflow uses "git pull" to upgrade, but the software directory (in "%s") is not a Git working copy. You must leave this directory as a Git working copy to use "arc upgrade".' => 'The "upgrade" workflow uses "git pull" to upgrade, but the software directory (in "%s") is not a Git working copy. You must leave this directory as a Git working copy to use "arc upgrade".',
       'You\'re covered, you didn\'t change anything.' => 'You\'re covered, you didn\'t change anything.',
       'Linting...' => 'Linting...',
       'Duplicate Keys in Array' => 'Duplicate Keys in Array',
@@ -2546,13 +2575,11 @@ final class ArcanistCoreEn
       'a node of type %s: "%s"' => 'a node of type %s: "%s"',
       'Commit Symbol "%s"' => 'Commit Symbol "%s"',
       'Future has not yet resolved. Resolve futures before retrieving results.' => 'Future has not yet resolved. Resolve futures before retrieving results.',
-      'Found %s files in cache.' => 'Found %s files in cache.',
       'This codebase targets PHP %s, but parameter %d of `%s()` was not introduced until PHP %s.' => 'This codebase targets PHP %s, but parameter %s of `%s()` was not introduced until PHP %s.',
       'It is not possible to throw an `%s` from within the `%s` method.' => 'It is not possible to throw an `%s` from within the `%s` method.',
       'Show tasks that are open or closed, default is open.' => 'Show tasks that are open or closed, default is open.',
       'For consistency, write binary integers with a leading `%s`.' => 'For consistency, write binary integers with a leading `%s`.',
       'Streaming reads are not currently supported by the streaming parser.' => 'Streaming reads are not currently supported by the streaming parser.',
-      'Building library map...' => 'Building library map...',
       'Nonscalar HTTP values should throw.' => 'Nonscalar HTTP values should throw.',
       'Review' => 'Review',
       '%s lints all files' => '%s lints all files',
@@ -2567,6 +2594,7 @@ final class ArcanistCoreEn
       'Unable to install signal handler, pcntl_signal() unavailable. Continuing without signal handling.' => 'Unable to install signal handler, pcntl_signal() unavailable. Continuing without signal handling.',
       'JSON report file is empty, it probably means that phpunit failed to run tests. Try running %s with %s option and then run generated phpunit command yourself, you might get the answer.' => 'JSON report file is empty, it probably means that phpunit failed to run tests. Try running %s with %s option and then run generated phpunit command yourself, you might get the answer.',
       'you have no outgoing commits, so arc assumes you intend to submit uncommitted changes in the working copy.' => 'you have no outgoing commits, so arc assumes you intend to submit uncommitted changes in the working copy.',
+      'UPGRADING' => 'UPGRADING',
       'Generating shell completion rules...' => 'Generating shell completion rules...',
       'Argument must be scalar or object which implements %s!' => 'Argument must be scalar or object which implements %s!',
       'Merging with "%s" strategy, selected with "--strategy".' => 'Merging with "%s" strategy, selected with "--strategy".',
@@ -2604,8 +2632,8 @@ final class ArcanistCoreEn
       '`%s` Statement Namespace Prefix' => '`%s` Statement Namespace Prefix',
       'Apply changes from a Differential diff. Normally you want to use %s to get the most recent changes, but you can specifically apply an out-of-date diff or a diff which was never attached to a revision by using this flag.' => 'Apply changes from a Differential diff. Normally you want to use %s to get the most recent changes, but you can specifically apply an out-of-date diff or a diff which was never attached to a revision by using this flag.',
       'this is a new repository (all changes are outgoing).' => 'this is a new repository (all changes are outgoing).',
+      'Unable to set stream nonblocking.' => 'Unable to set stream nonblocking.',
       'This workflow does not have any prompts.' => 'This workflow does not have any prompts.',
-      'Connect to Phabricator install specified by __uri__.' => 'Connect to Phabricator install specified by __uri__.',
       'DONE' => 'DONE',
       'Preparing merge into "%s" from remote "%s", at commit "%s".' => 'Preparing merge into "%s" from remote "%s", at commit "%s".',
       'You\'re covered, your changes didn\'t touch anyone else\'s code.
@@ -2623,7 +2651,6 @@ final class ArcanistCoreEn
       'Unable to create temporary file in %s.' => 'Unable to create temporary file in %s.',
       'Bad return value from mt_rand().' => 'Bad return value from mt_rand().',
       'Expected a string (at index "%s"), found "%s".' => 'Expected a string (at index "%s"), found "%s".',
-      'Unable to set stdin nonblocking.' => 'Unable to set stdin nonblocking.',
       'Install JSHint using `%s`.' => 'Install JSHint using `%s`.',
       'SOURCE' => 'SOURCE',
       'Warning' => 'Warning',
@@ -2631,12 +2658,10 @@ final class ArcanistCoreEn
       'NO PATH TO REMOTE' => 'NO PATH TO REMOTE',
       'MULTIPLE REVISIONS IN WORKING COPY' => 'MULTIPLE REVISIONS IN WORKING COPY',
       'HTTP query parameter value (for key "%s") must be a scalar.' => 'HTTP query parameter value (for key "%s") must be a scalar.',
-      '`arc upgrade` can only upgrade clean working copies.' => '`arc upgrade` can only upgrade clean working copies.',
       'Test case \'%s\' threw, as expected.' => 'Test case \'%s\' threw, as expected.',
       'NEW BRANCH' => 'NEW BRANCH',
       'Completed preview of land operation.' => 'Completed preview of land operation.',
       'Created and checked out bookmark %s.' => 'Created and checked out bookmark %s.',
-      'Your copy of arc is now up to date.' => 'Your copy of arc is now up to date.',
       'AWS Request Failed' => 'AWS Request Failed',
       'PREVIEW' => 'PREVIEW',
       'Unexpected copy source in %s, \'%s\'.' => 'Unexpected copy source in %s, \'%s\'.',
@@ -2653,6 +2678,8 @@ final class ArcanistCoreEn
       'Rule \'%s\' in state \'%s\' in %s has unknown option \'%s\'.' => 'Rule \'%s\' in state \'%s\' in %s has unknown option \'%s\'.',
       'Error in parsing \'%s\' file, in key \'%s\' for linter \'%s\'.' => 'Error in parsing \'%s\' file, in key \'%s\' for linter \'%s\'.',
       'You must generate at least 1 byte of entropy.' => 'You must generate at least 1 byte of entropy.',
+      'You are running one copy of this software (at path "%s") against another copy of this software (at path "%s"). Code in the current working directory will not be loaded or executed.' => 'You are running one copy of this software (at path "%s") against another copy of this software (at path "%s"). Code in the current working directory will not be loaded or executed.',
+      'Specify the end of the commit range. This disables many features which depend on having access to the working copy.' => 'Specify the end of the commit range. This disables many features which depend on having access to the working copy.',
       'PCNTL' => 'PCNTL',
       'Choose a name for the new library.' => 'Choose a name for the new library.',
       'To use "--xprofile", you must install XHProf.' => 'To use "--xprofile", you must install XHProf.',
@@ -2676,6 +2703,7 @@ final class ArcanistCoreEn
       'Specify one or more paths to files you want to upload.' => 'Specify one or more paths to files you want to upload.',
       'To push changes manually, run this command:' => 'To push changes manually, run this command:',
       'Reading diff from stdin...' => 'Reading diff from stdin...',
+      'HTTPS Trusted Domains' => 'HTTPS Trusted Domains',
       'Working Copy' => 'Working Copy',
       'Provide only one path to "arc liberate". The path should identify a directory where you want to create or update a library.' => 'Provide only one path to "arc liberate". The path should identify a directory where you want to create or update a library.',
       'Signal router has not been initialized!' => 'Signal router has not been initialized!',
@@ -2704,7 +2732,9 @@ final class ArcanistCoreEn
       'Locale "%s" is part of a cycle of locales which fall back on one another in a loop (%s). Locales which fall back on other locales must not loop.' => 'Locale "%s" is part of a cycle of locales which fall back on one another in a loop (%s). Locales which fall back on other locales must not loop.',
       'Reason' => 'Reason',
       'Use a specific authentication token.' => 'Use a specific authentication token.',
+      'Associate the working copy with a specific repository. Normally, this association can be determined automatically, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associate the working copy with a specific repository. Normally, this association can be determined automatically, but if your setup is unusual you can use this option to tell it what the desired value is.',
       'Arguments are preserved for input: %s' => 'Arguments are preserved for input: %s',
+      'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.' => 'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.',
       'Test case \'%s\' did not throw, as expected.' => 'Test case \'%s\' did not throw, as expected.',
       'Failed to set streams nonblocking.' => 'Failed to set streams nonblocking.',
       'Use of unknown class symbol "%s".' => 'Use of unknown class symbol "%s".',
@@ -2742,6 +2772,7 @@ final class ArcanistCoreEn
       'Committing \'%s: %s\'...
     ' => 'Committing \'%s: %s\'...
     ',
+      'Wikimedia XHPAST' => 'Wikimedia XHPAST',
       'Large truncation.' => 'Large truncation.',
       'Unable to apply patch!' => 'Unable to apply patch!',
       'Bad Filename' => 'Bad Filename',
@@ -2781,7 +2812,14 @@ final class ArcanistCoreEn
       'Floating on the water, you see published commits:' => 'Floating on the water, you see published commits:',
       'Bad blame? `%s\'' => 'Bad blame? `%s\'',
       'Needs Review' => 'Needs Review',
-      'Associate the working copy with a specific Phabricator repository. Normally, Arcanist can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associate the working copy with a specific Phabricator repository. Normally, Arcanist can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.',
+      'Supply commit message for uncommitted changes, then save and exit.' => 'Supply commit message for uncommitted changes, then save and exit.',
+      'Attempting to run unit tests on a library which has not been loaded, at:
+        %s
+    Make sure this library is configured to load.
+    (In rare cases, this may be because you are attempting to run one copy of this software against a different copy of this software. This operation is not supported.)' => 'Attempting to run unit tests on a library which has not been loaded, at:
+        %s
+    Make sure this library is configured to load.
+    (In rare cases, this may be because you are attempting to run one copy of this software against a different copy of this software. This operation is not supported.)',
       'Methods may not be both "private" and "final".' => 'Methods may not be both "private" and "final".',
       'Restoring uncommitted changes to working copy.' => 'Restoring uncommitted changes to working copy.',
       'Glob Magic, With Globs' => 'Glob Magic, With Globs',
@@ -2824,7 +2862,6 @@ final class ArcanistCoreEn
       'No data provided for path "%s".' => 'No data provided for path "%s".',
       'The changes you are landing depend on %s open parent revision(s). Usually, you should land parent revisions before landing the changes which depend on them. These parent revisions are open:' => 'The changes you are landing depend on %s open parent revision(s). Usually, you should land parent revisions before landing the changes which depend on them. These parent revisions are open:',
       'Convention: no spaces before opening parentheses.' => 'Convention: no spaces before opening parentheses.',
-      'In order to keep StyleCop integration with IDEs and other tools consistent with Arcanist results, you aren\'t permitted to disable StyleCop rules within \'%s\'. Instead configure the severity using the StyleCop settings dialog (usually accessible from within your IDE). StyleCop settings for your project will be used when linting for Arcanist.' => 'In order to keep StyleCop integration with IDEs and other tools consistent with Arcanist results, you aren\'t permitted to disable StyleCop rules within \'%s\'. Instead configure the severity using the StyleCop settings dialog (usually accessible from within your IDE). StyleCop settings for your project will be used when linting for Arcanist.',
       'The current working directory is not part of a working copy for a supported version control system (Git, Subversion or Mercurial).' => 'The current working directory is not part of a working copy for a supported version control system (Git, Subversion or Mercurial).',
       'Use the "prompts" workflow to review prompt responses.' => 'Use the "prompts" workflow to review prompt responses.',
       'System has some identifiable locale.' => 'System has some identifiable locale.',
@@ -2838,7 +2875,6 @@ final class ArcanistCoreEn
       'Call %s before calling %s!' => 'Call %s before calling %s!',
       'Unknown Mercurial status \'%s\'.' => 'Unknown Mercurial status \'%s\'.',
       'Expected \'Name\', \'Added\', \'Deleted\', or \'Modified\'.' => 'Expected \'Name\', \'Added\', \'Deleted\', or \'Modified\'.',
-      'This command needs to communicate with Phabricator, but no Phabricator URI is configured.' => 'This command needs to communicate with Phabricator, but no Phabricator URI is configured.',
       'Script to execute.' => 'Script to execute.',
       '`%s` should be separated from code by an empty line.' => '`%s` should be separated from code by an empty line.',
       'AVAILABLE' => 'AVAILABLE',
@@ -2852,6 +2888,7 @@ final class ArcanistCoreEn
       'Fatal Error' => 'Fatal Error',
       'No remote "%s" exists in this repository.' => 'No remote "%s" exists in this repository.',
       'String does not parse into exactly one statement!' => 'String does not parse into exactly one statement!',
+      'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOG IN' => 'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOG IN',
       'Expected channel to close.' => 'Expected channel to close.',
     );
   }

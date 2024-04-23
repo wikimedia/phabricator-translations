@@ -49,7 +49,7 @@ final class PhabricatorSubscriptionsPtBR
       'This object is not subscribable.' => 'Este objeto não é assinável.',
       'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
-    Users who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => 'Adicionar um ou mais inscrições ao objeto. Você pode adicionar usuários fornecendo seus nomes de usuário ou adicionar projetos adicionando suas hashtags. Por exemplo, use `%s` para adicionar o usuário `alincoln` e o projeto com a hashtag `#ios` como assinantes.
+    Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => 'Adicionar um ou mais inscrições ao objeto. Você pode adicionar usuários fornecendo seus nomes de usuário ou adicionar projetos adicionando suas hashtags. Por exemplo, use `%s` para adicionar o usuário `alincoln` e o projeto com a hashtag `#ios` como assinantes.
     Inscrições  inválidos ou não reconhecidos serão ignorados. Este comando não tem efeito se você não especificar nenhum assinante.
     Os usuários que são certificados pelo próprio e-mail também são automaticamente inscritos se o Phabricator souber quais contas estão vinculadas a seus endereços de e-mail.',
       'Add rule author as subscriber.' => 'Adicione o autor da regra como assinante.',

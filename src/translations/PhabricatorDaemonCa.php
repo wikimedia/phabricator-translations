@@ -13,6 +13,7 @@ final class PhabricatorDaemonCa
       'Clock' => 'Rellotge',
       'Show daemon processes on this host.' => 'Mostra els processos del dimoni en aquest amfitrió.',
       'Leased' => 'Arrendat',
+      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Inicieu la col·lecció estàndard configurada de dimonis Phabricator. Això és adequat per a la majoria d\'instal·lacions. Utilitzeu **%s** per personalitzar quins dimonis es llancen.',
       'Starting daemons as %s' => 'Iniciant dimonis com %s',
       'SURVIVED' => 'SOBREVISCUT',
       'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Reinicieu els processos del dimoni al lloc per recollir els canvis a la font. Això no alterarà les feines en execució. Aquest és un flux de treball avançat; la majoria de les instal·lacions haurien d\'utilitzar __%s__.',
@@ -38,9 +39,15 @@ final class PhabricatorDaemonCa
       'There are no upcoming event triggers.' => 'No hi ha cap disparador d\'esdeveniments propvinents.',
       'There are no running daemons for the current instance ("%s"). Use "--force" to stop daemons for all instances.' => 'No hi ha dimonis en execució per a la instància actual ("%s"). Utilitzeu "--force" per aturar els dimonis en totes les instàncies.',
       'Stop daemon processes on this host, then start the standard daemon loadout.' => 'Atureu els processos del dimoni en aquest amfitrió i, a continuació, inicieu la càrrega estàndard del dimoni.',
+      'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
+    The daemons are configured to run as "%s", but the current user is "%s". 
+    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Esteu intentant executar un dimoni com a usuari no estàndard i "%s" no ha estat capaç de "%s" per a l\'usuari correcte.
+    Phabricator està configurat per executar dimonis com a "%s", però l\'usuari actual és "%s".
+    Utilitzeu `%s` per executar-vos com un usuari diferent, passeu`%s` per ignorar aquesta advertència o editeu `%s` per canviar la configuració.',
       'STOP' => 'STOP',
       'You must specify which daemon to launch.' => 'Heu d\'especificar quin dimoni cal llançar.',
       'Run the daemon as the current user instead of the configured %s' => 'Executeu el dimoni com a usuari actual en lloc del %s configurat',
+      'PID "%d" is not a known daemon PID.' => 'El PID "%s" no és un PID de dimoni Phabricator conegut.',
       'Enabling the lock log.' => 'S\'està activant el registre de bloqueig.',
       'Reloading process %d...' => 'S\'està carregant el procés %s ...',
       'Lock Logs' => 'Registres de bloqueig.',
@@ -63,7 +70,6 @@ final class PhabricatorDaemonCa
       'This task may have recently been garbage collected.' => 'Aquesta tasca pot haver estat recollida recentment de la paperera.',
       'No matching lock logs.' => 'No hi ha registres de bloqueig coincidents.',
       'Grace period for daemons to attempt a clean shutdown, in seconds. Defaults to __15__ seconds.' => 'Període de gràcia perquè els dimonis intentin un tancament net, en segons. Els valors predeterminats són __15__ segons.',
-      'Start the standard configured collection of Phabricator daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Inicieu la col·lecció estàndard configurada de dimonis Phabricator. Això és adequat per a la majoria d\'instal·lacions. Utilitzeu **%s** per personalitzar quins dimonis es llancen.',
       'Daemon Class' => 'Classe del dimoni',
       'Bulk Job %d' => 'Feina massiva %s',
       'Waiting For Confirmation' => 'Esperant Per Confirmació',
@@ -86,12 +92,14 @@ final class PhabricatorDaemonCa
       '%s requires the directory \'%s\' to exist, but it does not exist and could not be created. Create this directory or update \'%s\' in your configuration to point to an existing directory.' => '%s requereix que existeixi el directori \'%s\', però no existeix i no s\'ha pogut crear. Creeu aquest directori o actualitzeu \'%s\' a la vostra configuració per apuntar a un directori existent.',
       'Specify a proportion of machine memory which must be free before autoscale pools will grow. For example, a value of 0.25 means that pools will not grow unless the machine has at least 25%%%% of its RAM free.' => 'Especifiqueu una proporció de memòria de la màquina que ha d\'estar lliure abans que creixin els grups d’escala automàtica. Per exemple, un valor de 0,25 significa que les agrupacions no creixeran tret que la màquina tingui almenys un 25 %%%% de RAM lliure.',
       'Review logs for a specific lock.' => 'Reviseu els registres d’un bloqueig específic.',
+      'Stop all daemon processes on this host, even if they belong to another instance.' => 'Atureu tots els processos de dimoni en aquest host, fins i tot si pertanyen a una altra instància de Phabricator.',
       'By default, **%s** will free all task leases held by the daemons. With this flag, this step will be skipped.' => 'Per defecte, **%s** alliberarà tots els arrendaments de tasques retinguts pel dimoni. Aquest pas s\'ometrà amb aquest indicador de seguiment.',
       'Killing process %d...' => 'Acabant amb el procés %s...',
       'Recently Completed Tasks (Last 15m)' => 'Tasques completades recentment (darrers 15 m)',
       'There are no running daemon processes.' => 'No hi ha processos de dimoni en execució.',
       'Maximum Retries' => 'Reintents màxims',
       'Task %d' => 'Tasca %s',
+      'Manage Daemons' => 'Gestiona els dimonis de Phabricator',
       'Next In Queue' => 'Següent a la cua',
       'Disabling the lock log.' => 'Desactivant el registre de bloqueig.',
       'Retries Forever' => 'Rescatar per sempre',
@@ -140,7 +148,6 @@ final class PhabricatorDaemonCa
       'No log records exist for any daemons.' => 'No hi ha registre per a cap dimoni.',
       'Unable to stop PID %d ("%s").' => 'No es pot aturar PID %s ("%s").',
       'Daemon Processes' => 'Processos de dimonis',
-      'PID "%d" is not a known Phabricator daemon PID.' => 'El PID "%s" no és un PID de dimoni Phabricator conegut.',
       'Not touching active task queue leases.' => 'No tocar els arrendaments de cues actives.',
       'Failure Count' => 'Nombre d\'errors',
       'Queue Utilization (Approximate)' => 'Utilització de la cua (aproximada)',
@@ -153,7 +160,6 @@ final class PhabricatorDaemonCa
       'NO DAEMONS' => 'CAP DIMONI',
       'Bulk Jobs' => 'Feines massives',
       'This job is complete.' => 'Aquest treball està completat.',
-      'Manage Phabricator Daemons' => 'Gestiona els dimonis de Phabricator',
       'PID' => 'PID',
       'ERROR: The PHP extension \'%s\' is not installed. You must install it to run daemons on this machine.
     ' => 'ERROR: l\'extensió PHP \'%s\' no està instal·lada. Heu d\'instal·lar-la per executar dimonis en aquesta màquina.',
@@ -166,17 +172,11 @@ final class PhabricatorDaemonCa
       'Retries After' => 'Rescatar-ho després',
       'Start __daemon__ in the foreground and print large volumes of diagnostic information to the console.' => 'Inicieu el __dimoni__en primer pla i mostreu una gran quantitat d\'informació de diagnòstic a la consola.',
       'Task %d: %s' => 'Tasca %s: %s',
-      'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
-    Phabricator is configured to run daemons as "%s", but the current user is "%s". 
-    Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Esteu intentant executar un dimoni com a usuari no estàndard i "%s" no ha estat capaç de "%s" per a l\'usuari correcte.
-    Phabricator està configurat per executar dimonis com a "%s", però l\'usuari actual és "%s".
-    Utilitzeu `%s` per executar-vos com un usuari diferent, passeu`%s` per ignorar aquesta advertència o editeu `%s` per canviar la configuració.',
       'No More Retries' => 'No més rescats',
       'No log record exists for a daemon with ID "%s".' => 'No existeix cap registre per a un dimoni amb l\'identificador \'%s\'.',
       'Task %d Missing' => 'Falta la tasca %s',
       'Task queue is empty.' => 'La cua de tasques està buida.',
       '%s ago (%s)' => 'Hi ha %s (%s)',
-      'Stop all daemon processes on this host, even if they belong to another Phabricator instance.' => 'Atureu tots els processos de dimoni en aquest host, fins i tot si pertanyen a una altra instància de Phabricator.',
       'Daemon %s' => 'Dimoni %s',
       'PID \'%s\' is not a valid PID.' => 'El PID \'%s\' no és un PID vàlid.',
       'Started' => 'Iniciat',

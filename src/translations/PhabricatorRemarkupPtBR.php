@@ -9,8 +9,8 @@ final class PhabricatorRemarkupPtBR
 
   protected function getTranslations() {
     return array(
-      'Process text through remarkup in Phabricator context.' => 'Processar texto através de observação no contexto do Phabricator.',
       'Invalid markup engine.' => 'Mecanismo de marcação inválido.',
+      'Process text through remarkup.' => 'Processar texto através de observação no contexto do Phabricator.',
       'Content may not be empty.' => 'O conteúdo pode não estar vazio.',
     );
   }

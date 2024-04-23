@@ -14,7 +14,7 @@ final class PhabricatorCelerityZhHans
       'Unable to render resource "%s", which has unknown type "%s".' => '无法渲染资源“%s”，它拥有未知类型“%s”。',
       'Writing map "%s".' => '正在写入地图“%s”。',
       'Use High Contrast Colors' => '使用高对比度颜色',
-      'Dark Mode (Experimental)' => '黑暗模式（实验）',
+      'Dark Mode (Experimental)' => '深色模式（实验功能）',
       'Use Larger Font Size' => '使用更大的字体大小',
       'Found %d binary resources.' => '找到%s个二进制资源。',
       'No resource with symbol "%s" exists in source "%s"!' => '在来源“%2$s”中不存在符号为“%1$s”的资源！',
@@ -28,6 +28,7 @@ final class PhabricatorCelerityZhHans
       'Resource "%s" must %s at most one Celerity target.' => '资源“%s”必须%s至少一个敏捷目标。',
       'Cycle detected in resource graph: %s' => '在资源图表中检测到循环：%s',
       'Rebuild syntax highlighting CSS.' => '重组语法高亮CSS',
+      'Optimizing...' => '正在优化...',
       'Found %d text resources.' => '找到%s个文本资源。',
       'Found %d packages.' => '找到%s个包。',
     );

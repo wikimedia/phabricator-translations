@@ -25,14 +25,14 @@ final class PhabricatorNotificationTr
       'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => 'Bildirim sunucusu yapılandırması geçersiz bir protokolle ("%3$s") geçersiz bir ana bilgisayarı ("%s" dizininde "%1$s") tanımlar. Geçerli protokoller "%s" veya "%s" şeklindedir.',
       'No notifications to mark as read.' => 'Okunmuş olarak bildirilecek bildirim yok.',
       'Notification Server Down' => 'Bildirim Sunucusu Aşağı',
+      'This server is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
+    %s' => 'Phabricator bir bildirim sunucusu kullanacak şekilde yapılandırılmış, ancak bağlanamıyor. Bu sorunu çözmeli veya bildirim sunucusunu devre dışı bırakmalısınız. Yapılandırmanızı iki kez kontrol etmeniz veya aşağıdaki komutu kullanarak sunucuyu yeniden başlatmanız yararlı olabilir.
+    %s',
       'Unable to test client on an admin server!' => 'İstemci bir yönetici sunucusunda test edilemiyor!',
       'Notification server configuration describes an invalid host ("%s", at index "%s"). This is an "admin" service but it has a "path" property. This property is only valid for "client" services.' => 'Bildirim sunucusu yapılandırması geçersiz bir ana bilgisayarı ("%2$s" dizininde "%1$s") açıklar. Bu bir "yönetici" servisidir ancak "yol" özelliğine sahiptir. Bu özellik yalnızca "müşteri" hizmetleri için geçerlidir.',
       'Real-Time Updates and Alerts' => 'Gerçek Zamanlı Güncellemeler ve Uyarılar',
       'You can\'t ignore your problems forever, you know.' => 'Sonsuza dek problemlerini görmezden gelemezsin, biliyorsun.',
       'Unable to Connect to Notification Server' => 'Bildirim Sunucusuna Bağlanılamıyor',
-      'Phabricator is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
-    %s' => 'Phabricator bir bildirim sunucusu kullanacak şekilde yapılandırılmış, ancak bağlanamıyor. Bu sorunu çözmeli veya bildirim sunucusunu devre dışı bırakmalısınız. Yapılandırmanızı iki kez kontrol etmeniz veya aşağıdaki komutu kullanarak sunucuyu yeniden başlatmanız yararlı olabilir.
-    %s',
       'Notification server not enabled' => 'Bildirim sunucusu etkin değil',
       'This is a test notification, sent at %s.' => 'Bu, %s olarak gönderilen bir test bildirimidir.',
       '(To start the server, run this command.)
