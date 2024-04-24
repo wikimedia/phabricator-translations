@@ -105,7 +105,6 @@ final class ArcanistCoreMnw
       'Upload complete.' => 'ပတိုန် တုဲဒှ်.',
       'Did you mean:' => 'မၞး မိက်ဂွံဟီုဂှ်',
       'Error' => 'ဗၠေတ်',
-      'AM' => 'နူဂယး',
       'Advice' => 'ကသပ်',
       '`%s` Should Be `%s`' => '`%s` ထေက်ကဵုဒှ် `%s`',
       'October' => 'အံက်တဝ်ဗါ',
