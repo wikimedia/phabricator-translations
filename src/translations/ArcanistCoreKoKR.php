@@ -290,7 +290,6 @@ final class ArcanistCoreKoKR
       'Did you mean:' => '이것을 찾으셨나요:',
       'Message has unresolved errors.' => '메시지에 해결할 수 없는 오류가 있습니다.',
       'Error' => '오류',
-      'AM' => '오전',
       'File "%s"' => '파일 "%s"',
       'Test Case: "%s" vs "%s"' => '테스트 케이스: "%s" vs "%s"',
       'Unable to write to logfile "%s"!' => '"%s" 로그 파일에 쓸 수 없습니다!',
