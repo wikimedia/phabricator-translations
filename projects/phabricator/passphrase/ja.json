@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chqaz",
 			"Shirayuki"
 		]
 	},
 	"a08d3098e318d3ff": "公開鍵 ($1)",
-	"e7428d0baf791e2f": "SSH 秘密鍵"
+	"e7428d0baf791e2f": "SSH 秘密鍵",
+	"fa23b7a3f9d3f2c1": "ログイン: $1"
 }
