@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Leonardo.guimaraes"
@@ -69,7 +70,7 @@
 	"8f0f10d2a3206a77": "Salvar subtarefas",
 	"9014b1d5ca165987": "$1 adicionou $2 subtarefas por $3: $4.",
 	"915a5dd07c556d64": "Tarefa principal",
-	"963306403fcd6d40": "Digite um nome de usuário ou \"nenhum\"...",
+	"963306403fcd6d40": "Digite um nome de usuário ou \"none\"...",
 	"9923a3dcaa13cd3d": "Editar tarefas pai",
 	"99c13bfd4fb65dd1": "Comandos de e-mail: tarefas",
 	"99e41be0174f4778": "Esta tarefa está diretamente conectada a mais de $1 outras tarefas. Use $2 para procurar ou subtarefas, ou $3 para mostrar mais do gráfico.",
