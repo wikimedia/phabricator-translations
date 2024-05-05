@@ -56,7 +56,7 @@ final class TranslatewikiManagementExportWorkflow
     }
 
     $as = $args->getArg('as');
-    if (!strlen($as)) {
+    if (!phutil_nonempty_string($as)) {
       throw new PhutilArgumentUsageException(
         pht(
           'Provide a project name to export strings under with "--as".'));
