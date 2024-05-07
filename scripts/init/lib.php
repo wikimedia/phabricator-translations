@@ -14,7 +14,7 @@ function init_translatewiki_script(array $options = array()) {
   if (!$ok) {
     echo
       'FATAL ERROR: Unable to load the "Arcanist" library. '.
-      'Put "arcanist/" next to "phabricator/" on disk.';
+      'Put "arcanist/" next to "phorge/" or "phabricator/" on disk.';
     echo "\n";
     exit(1);
   }
@@ -22,6 +22,8 @@ function init_translatewiki_script(array $options = array()) {
   $root = dirname(__FILE__).'/../../';
   phutil_load_library($root.'/src/');
 
-  phutil_load_library('arcanist/src');
-  phutil_load_library('phabricator/src');
+  $path_arcanist = PlatformSymbols::getPlatformClientPath();
+  $path_phorge = PlatformSymbols::getPlatformServerPath();
+  phutil_load_library($path_arcanist . 'src');
+  phutil_load_library($path_phorge . 'src');
 }
