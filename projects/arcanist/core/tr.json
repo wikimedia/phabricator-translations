@@ -293,7 +293,7 @@
 	"299521e8592e5f5c": "Bir taahhüt mesajı girin.",
 	"299907f499e51955": "Belirli bir revizyondan bu yana kapak değişiklikleri.",
 	"29a8f4046fcde677": "Örtük Yapıcı",
-	"29d434dcfd3d4a7f": "Çalışma kopyasından değil, stdin'den farkı okuyun. Bu, çalışma kopyasına erişime bağlı olan birçok Arcanist/Phabricator özelliğini devre dışı bırakır.",
+	"29d434dcfd3d4a7f": "Farkı çalışan kopyadan değil, stdin'den okuyun. Bu, çalışma kopyasına erişime bağlı olan birçok özelliği devre dışı bırakır.",
 	"29dbdf77d83d9918": "Bir web tarayıcısını çağırmak için kullanılacak komut.",
 	"2a0e4e1bdce44674": "En fazla bir düzeltme adı belirtin.",
 	"2a85c9e9faf938df": "Bilinmeyen tiftik şiddeti \"$1\". Geçerli şiddetler: $2.",
