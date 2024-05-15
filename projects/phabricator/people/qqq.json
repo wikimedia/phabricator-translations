@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"00c0cf3b69c5a54c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/customfield/PhabricatorUserBlurbField.php$21 PhabricatorUserBlurbField.php:21]",
 	"00cd69a399cafa6f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/query/PhabricatorPeopleLogSearchEngine.php$88 PhabricatorPeopleLogSearchEngine.php:88]",
 	"0122e9c739631483": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/controller/PhabricatorPeopleNewController.php$158 PhabricatorPeopleNewController.php:158]",

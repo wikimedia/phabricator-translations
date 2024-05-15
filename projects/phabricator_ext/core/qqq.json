@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"012bb11a52bc141c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phab-extensions/browse/wmf%252Fstable//src/policy/WMFLockTaskController.php$244 WMFLockTaskController.php:244]",
 	"021f6fec2f98c532": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phab-extensions/browse/wmf%252Fstable//src/customfields/ReleaseDetailsCustomField.php$184 ReleaseDetailsCustomField.php:184]\n[https://phabricator.wikimedia.org/source/phab-extensions/browse/wmf%252Fstable//src/panel/PhabricatorMilestoneNavProfileMenuItem.php$89 PhabricatorMilestoneNavProfileMenuItem.php:89]",
 	"0429cc67b7040492": "Used in:\n\n[https://phabricator.wikimedia.org/source/phab-extensions/browse/wmf%252Fstable//src/customfields/DifferentialApplyPatchWithOnlyGitField.php$15 DifferentialApplyPatchWithOnlyGitField.php:15]",

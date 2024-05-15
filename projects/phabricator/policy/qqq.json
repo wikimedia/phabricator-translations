@@ -1,15 +1,12 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$904 PhabricatorPolicyFilter.php:904]",
 	"021dfd70b626a618": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/__tests__/PhabricatorPolicyTestCase.php$84 PhabricatorPolicyTestCase.php:84]",
 	"02cb0b417bdaad52": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/__tests__/PhabricatorPolicyTestCase.php$489 PhabricatorPolicyTestCase.php:489]",
-	"056cfca86add4e51": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$45 PhabricatorLunarPhasePolicyRule.php:45]",
+	"056cfca86add4e51": "'''FIXME:''' [[Thread:Support/About Phabricator:phabricator-policy-29cfbeec9a497809/en: typo as \"waxing\", change to \"waning\"? or to \"declining\"?]]\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$45 PhabricatorLunarPhasePolicyRule.php:45]",
 	"07c02304013bf0f0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$211 PhabricatorPolicyExplainController.php:211]",
 	"08c15f46074369df": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/storage/PhabricatorPolicy.php$253 PhabricatorPolicy.php:253]",
 	"0a4ed4a464cfa463": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$131 PhabricatorPolicyManagementUnlockWorkflow.php:131]",
-	"0bb2e1d44d97441b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$11 PhabricatorLunarPhasePolicyRule.php:11]",
+	"0bb2e1d44d97441b": "'''FIXME:''' see [[Thread:Support/About Phabricator:phabricator-policy-29cfbeec9a497809/en: typo as \"waxing\", change to \"waning\"? or to \"declining\"?]]\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$11 PhabricatorLunarPhasePolicyRule.php:11]",
 	"0e3e41241d8cbd68": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$56 PhabricatorPolicyManagementUnlockWorkflow.php:56]",
 	"0fe53951beb17cad": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$15 PhabricatorPolicyManagementUnlockWorkflow.php:15]",
 	"101109bdfda50808": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/__tests__/PhabricatorPolicyTestCase.php$532 PhabricatorPolicyTestCase.php:532]",
@@ -24,7 +21,7 @@
 	"24cea5eae0db51f4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/constants/PhabricatorPolicyType.php$31 PhabricatorPolicyType.php:31]",
 	"255aa8fa056c4e73": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/editor/PhabricatorPolicyEditEngineExtension.php$148 PhabricatorPolicyEditEngineExtension.php:148]",
 	"2607db2eab121ef7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$908 PhabricatorPolicyFilter.php:908]",
-	"29cfbeec9a497809": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$44 PhabricatorLunarPhasePolicyRule.php:44]",
+	"29cfbeec9a497809": "'''FIXME:''' [[Thread:Support/About Phabricator:phabricator-policy-29cfbeec9a497809/en: typo as \"waxing\", change to \"waning\"? or to \"declining\"?]]\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$44 PhabricatorLunarPhasePolicyRule.php:44]",
 	"2e40ccf6b8fc6c5f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PhabricatorPolicyConfigOptions.php$40 PhabricatorPolicyConfigOptions.php:40]",
 	"2ecc43547ba936fd": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$71 PhabricatorPolicyManagementUnlockWorkflow.php:71]",
 	"2f2de884ae395f6b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/capability/PhabricatorPolicyCanEditCapability.php$13 PhabricatorPolicyCanEditCapability.php:13]",

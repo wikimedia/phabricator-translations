@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"01ad122ef5d1a3df": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$19 PhabricatorSystemReadOnlyController.php:19]",
 	"0b06f65a8ccab6ac": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemSelectEncodingController.php$18 PhabricatorSystemSelectEncodingController.php:18]",
 	"0b0eef56faff5d89": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$31 PhabricatorSystemReadOnlyController.php:31]",
@@ -29,7 +26,7 @@
 	"4f17eb3453bbf2ad": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$168 PhabricatorSystemRemoveDestroyWorkflow.php:168]",
 	"52aa5f90323d30f5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemSelectEncodingController.php$54 PhabricatorSystemSelectEncodingController.php:54]",
 	"52cf53a0b80a30dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$104 PhabricatorSystemRemoveDestroyWorkflow.php:104]",
-	"58bf20abc8cfcd7f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$93 PhabricatorSystemRemoveDestroyWorkflow.php:93]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$100 PhabricatorSystemRemoveDestroyWorkflow.php:100]",
+	"58bf20abc8cfcd7f": "{{Identical|Important}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$93 PhabricatorSystemRemoveDestroyWorkflow.php:93]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$100 PhabricatorSystemRemoveDestroyWorkflow.php:100]",
 	"61fa1232adb2e450": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$69 PhabricatorSystemReadOnlyController.php:69]",
 	"6302530881f5c892": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/engine/PhabricatorUnlockEngine.php$62 PhabricatorUnlockEngine.php:62]",
 	"635d7fdafe19e1b2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemSelectViewAsController.php$56 PhabricatorSystemSelectViewAsController.php:56]",
