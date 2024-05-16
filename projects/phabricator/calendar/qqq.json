@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"00106df7cb2c4d04": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/query/PhabricatorCalendarEventSearchEngine.php$356 PhabricatorCalendarEventSearchEngine.php:356]",
 	"03888d8f39449ba0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/editor/PhabricatorCalendarEventEditEngine.php$200 PhabricatorCalendarEventEditEngine.php:200]",
 	"045bc9f1dcd940dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/editor/PhabricatorCalendarEventEditEngine.php$199 PhabricatorCalendarEventEditEngine.php:199]",
