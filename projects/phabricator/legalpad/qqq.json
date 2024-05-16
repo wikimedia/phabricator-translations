@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pols12"
-		]
-	},
 	"031037ebeb4a2aba": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$682 LegalpadDocumentSignController.php:682]",
 	"04850b7990a815ff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$191 LegalpadDocumentSignatureSearchEngine.php:191]",
 	"06994f287d5e8b1a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$247 LegalpadDocumentSignatureSearchEngine.php:247]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$257 LegalpadDocumentSignatureSearchEngine.php:257]",
@@ -16,7 +11,7 @@
 	"19bc711e97cf6980": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/xaction/LegalpadDocumentRequireSignatureTransaction.php$44 LegalpadDocumentRequireSignatureTransaction.php:44]",
 	"1c2d07a40aeb5bdd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$447 LegalpadDocumentSignController.php:447]",
 	"201d67b78d4bce9e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignatureViewController.php$100 LegalpadDocumentSignatureViewController.php:100]",
-	"2207834e6cdda293": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/application/PhabricatorLegalpadApplication.php$92 PhabricatorLegalpadApplication.php:92]",
+	"2207834e6cdda293": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/application/PhabricatorLegalpadApplication.php$96 PhabricatorLegalpadApplication.php:96]",
 	"22d74fdcd2f3f004": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/edge/LegalpadObjectNeedsSignatureEdgeType.php$17 LegalpadObjectNeedsSignatureEdgeType.php:17]",
 	"23d61efdfefef858": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignatureAddController.php$53 LegalpadDocumentSignatureAddController.php:53]",
 	"2496ba749538b39c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSearchEngine.php$26 LegalpadDocumentSearchEngine.php:26]",
@@ -37,7 +32,7 @@
 	"32c6a803fbf9edc2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/storage/LegalpadDocumentSignature.php$120 LegalpadDocumentSignature.php:120]",
 	"35597ff99eda07f2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$640 LegalpadDocumentSignController.php:640]",
 	"360e5da378cf57d0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$311 LegalpadDocumentSignatureSearchEngine.php:311]",
-	"378ea7458fb40cd9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/application/PhabricatorLegalpadApplication.php$93 PhabricatorLegalpadApplication.php:93]",
+	"378ea7458fb40cd9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/application/PhabricatorLegalpadApplication.php$97 PhabricatorLegalpadApplication.php:97]",
 	"4078e387a8c8d747": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/xaction/LegalpadDocumentTextTransaction.php$28 LegalpadDocumentTextTransaction.php:28]",
 	"41a68e28926c35ed": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSearchEngine.php$148 LegalpadDocumentSearchEngine.php:148]",
 	"4214fb05eb152987": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/xaction/LegalpadDocumentTitleTransaction.php$28 LegalpadDocumentTitleTransaction.php:28]",
@@ -98,7 +93,7 @@
 	"9d95572f984e823c": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/xaction/LegalpadDocumentTextTransaction.php$24 LegalpadDocumentTextTransaction.php:24]",
 	"9dbde697a669ccc3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$179 LegalpadDocumentSignController.php:179]",
 	"9e4f257f4828b2c6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$700 LegalpadDocumentSignController.php:700]",
-	"a0df229432a10dc9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/application/PhabricatorLegalpadApplication.php$96 PhabricatorLegalpadApplication.php:96]",
+	"a0df229432a10dc9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/application/PhabricatorLegalpadApplication.php$100 PhabricatorLegalpadApplication.php:100]",
 	"a25be7d9d381fe47": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignatureAddController.php$147 LegalpadDocumentSignatureAddController.php:147]",
 	"a2bb29878a133283": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/editor/LegalpadDocumentEditEngine.php$133 LegalpadDocumentEditEngine.php:133]",
 	"a414b015a539e6c2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignatureAddController.php$157 LegalpadDocumentSignatureAddController.php:157]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$344 LegalpadDocumentSignatureSearchEngine.php:344]",
@@ -124,7 +119,7 @@
 	"ba22363e897c0d6d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignatureViewController.php$60 LegalpadDocumentSignatureViewController.php:60]",
 	"bcac1a3be20c12e5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/editor/LegalpadDocumentEditEngine.php$112 LegalpadDocumentEditEngine.php:112]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/editor/LegalpadDocumentEditEngine.php$122 LegalpadDocumentEditEngine.php:122]",
 	"bcdeaf079604fa4e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$570 LegalpadDocumentSignController.php:570]",
-	"bd56e749fc83f6fc": "Variables: $1, $2 (a date).\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src/applications/legalpad/controller/LegalpadDocumentSignController.php$108 LegalpadDocumentSignController.php:108]",
+	"bd56e749fc83f6fc": "Variables: $1, $2 (a date).\n\nVariable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$108 LegalpadDocumentSignController.php:108]",
 	"bd8a246bc716063c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/editor/LegalpadDocumentEditEngine.php$149 LegalpadDocumentEditEngine.php:149]",
 	"bdee82ff1061917b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadController.php$20 LegalpadController.php:20]",
 	"c1512f915310996f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSearchEngine.php$32 LegalpadDocumentSearchEngine.php:32]",

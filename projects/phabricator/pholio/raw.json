@@ -73,6 +73,7 @@
   "d961a5ff4070dbde": "This page documents the commands you can use to interact with mocks in Pholio.",
   "dc664603dc430f4c": "Unable to load replacement image (\"%s\"): %s",
   "de76e65c84df596f": "%s renamed this mock from %s to %s.",
+  "df42534003de3299": "Comment cannot be empty.",
   "e315496e790d89bb": "Test rules which run when a mock is created or updated.",
   "e6dafce978c901ea": "Inline Comment",
   "e71d424834c128ee": "Mock names must not be longer than %s character(s).",
