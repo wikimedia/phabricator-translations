@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ahecht",
 			"Reedy"
 		]
 	},
@@ -15,7 +16,7 @@
 	"8305d0bed00d1382": "Really revoke all tokens? Among other temporary authorisations, this will disable any outstanding password reset or account recovery links.",
 	"85595ce1133020cd": "Analyse and diagnose issues with LDAP configuration.",
 	"a23ea4ee82b8c99f": "Really revoke this token? Any temporary authorisation it enables will be disabled.",
-	"b444aff5788b2d45": "Customise Enroll Message",
+	"b444aff5788b2d45": "Customise Enrol Message",
 	"d510e5be34868617": "Your account has too many outstanding, incomplete MFA synchronisation attempts. Wait an hour and try again.",
 	"f7617420f8cd168a": "Customise Message"
 }
