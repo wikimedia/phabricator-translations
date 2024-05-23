@@ -83,5 +83,5 @@
 	"f3f94b43fe08990a": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/controller/PhabricatorSlowvoteEditController.php$180 PhabricatorSlowvoteEditController.php:180]",
 	"fb03dbdacff361a5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/constants/SlowvotePollResponseVisibility.php$70 SlowvotePollResponseVisibility.php:70]",
 	"fb6b16eb6b55464e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/constants/SlowvotePollResponseVisibility.php$66 SlowvotePollResponseVisibility.php:66]",
-	"fca77d0912a6568b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/application/PhabricatorSlowvoteApplication.php$66 PhabricatorSlowvoteApplication.php:66]"
+	"fca77d0912a6568b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/application/PhabricatorSlowvoteApplication.php$70 PhabricatorSlowvoteApplication.php:70]"
 }
