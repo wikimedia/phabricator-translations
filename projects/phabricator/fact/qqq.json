@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"082d1ecea396e7c3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$20 PhabricatorFactManagementAnalyzeWorkflow.php:20]",
 	"09477b727f04e230": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$47 PhabricatorFactManagementAnalyzeWorkflow.php:47]",
 	"0b356ea8e0756a91": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/engine/PhabricatorChartRenderingEngine.php$200 PhabricatorChartRenderingEngine.php:200]",

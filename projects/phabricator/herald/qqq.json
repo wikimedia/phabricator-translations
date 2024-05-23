@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"005b04a6a1c3f591": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldTestConsoleController.php$86 HeraldTestConsoleController.php:86]",
 	"0101e7547ce910cb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldNewController.php$65 HeraldNewController.php:65]",
 	"0261f481b08181d7": "Variable Types: PLURAL, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/engine/HeraldEngine.php$966 HeraldEngine.php:966]",

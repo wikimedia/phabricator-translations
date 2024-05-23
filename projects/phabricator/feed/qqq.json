@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"027c66bf37c9a3b4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/PhabricatorFeedStoryPublisher.php$89 PhabricatorFeedStoryPublisher.php:89]",
 	"0b694d2612ffe0c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/config/PhabricatorFeedConfigOptions.php$23 PhabricatorFeedConfigOptions.php:23]",
 	"20d3d91741172383": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/feed/conduit/FeedQueryConduitAPIMethod.php$34 FeedQueryConduitAPIMethod.php:34]",

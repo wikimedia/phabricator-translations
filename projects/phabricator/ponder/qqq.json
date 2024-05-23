@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"02fc4e2708e20a21": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/editor/PonderQuestionEditEngine.php$37 PonderQuestionEditEngine.php:37]",
 	"04cf8c77ea56466f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/xaction/PonderAnswerStatusTransaction.php$20 PonderAnswerStatusTransaction.php:20]",
 	"050762667fad1abf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/controller/PonderQuestionViewController.php$97 PonderQuestionViewController.php:97]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/editor/PonderQuestionEditEngine.php$90 PonderQuestionEditEngine.php:90]",

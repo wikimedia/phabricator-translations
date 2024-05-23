@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"00a3cc5b55d618dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/editor/AlmanacBindingEditEngine.php$144 AlmanacBindingEditEngine.php:144]",
 	"01579ede2f125abd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/management/AlmanacManagementTrustKeyWorkflow.php$26 AlmanacManagementTrustKeyWorkflow.php:26]",
 	"01d1a67b7d3e15c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/almanac/engineextension/AlmanacSetPropertyEditType.php$14 AlmanacSetPropertyEditType.php:14]",
