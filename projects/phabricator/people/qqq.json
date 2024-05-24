@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"00c0cf3b69c5a54c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/customfield/PhabricatorUserBlurbField.php$21 PhabricatorUserBlurbField.php:21]",
 	"00cd69a399cafa6f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/query/PhabricatorPeopleLogSearchEngine.php$88 PhabricatorPeopleLogSearchEngine.php:88]",
 	"0122e9c739631483": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/controller/PhabricatorPeopleNewController.php$158 PhabricatorPeopleNewController.php:158]",
@@ -98,7 +95,6 @@
 	"44967735048e4e18": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/userlog/PhabricatorRemoveEmailUserLogType.php$9 PhabricatorRemoveEmailUserLogType.php:9]",
 	"44c78ceeac7010c1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/capability/PeopleBrowseUserDirectoryCapability.php$17 PeopleBrowseUserDirectoryCapability.php:17]",
 	"456befef2aa3e57b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/customfield/PhabricatorUserTitleField.php$25 PhabricatorUserTitleField.php:25]",
-	"4626d31591f6c63e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/customfield/PhabricatorUserBlurbField.php$88 PhabricatorUserBlurbField.php:88]",
 	"46667b46465565cf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/mail/PhabricatorPeopleEmailLoginMailEngine.php$19 PhabricatorPeopleEmailLoginMailEngine.php:19]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/mail/PhabricatorPeopleWelcomeMailEngine.php$39 PhabricatorPeopleWelcomeMailEngine.php:39]",
 	"472b81d5f4f65864": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/query/PhabricatorPeopleLogSearchEngine.php$89 PhabricatorPeopleLogSearchEngine.php:89]",
 	"4761aad2dd2d6d37": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/typeahead/PhabricatorPeopleAnyOwnerDatasource.php$66 PhabricatorPeopleAnyOwnerDatasource.php:66]",

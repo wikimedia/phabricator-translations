@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"010ab196e754b769": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/receiver/PhabricatorObjectMailReceiver.php$74 PhabricatorObjectMailReceiver.php:74]",
 	"0169751a40ee94eb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php$399 PhabricatorMetaMTAMailTestCase.php:399]",
 	"0484745cc7badf2f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/herald/PhabricatorMetaMTAEmailHeraldAction.php$78 PhabricatorMetaMTAEmailHeraldAction.php:78]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/query/PhabricatorMetaMTAActor.php$115 PhabricatorMetaMTAActor.php:115]",
@@ -206,7 +203,7 @@
 	"b8ee83583a5e1cda": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/engine/PhabricatorMailEmailEngine.php$26 PhabricatorMailEmailEngine.php:26]",
 	"b97a9e8b05091297": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/engine/PhabricatorMailSMSEngine.php$14 PhabricatorMailSMSEngine.php:14]",
 	"b9e78ced88a4641f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/query/PhabricatorMetaMTAActor.php$120 PhabricatorMetaMTAActor.php:120]",
-	"ba1f03a65e2972e3": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/PhabricatorMetaMTAWorker.php$37 PhabricatorMetaMTAWorker.php:37]",
+	"ba1f03a65e2972e3": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/PhabricatorMetaMTAWorker.php$38 PhabricatorMetaMTAWorker.php:38]",
 	"bad329d4dd3bd84b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php$78 PhabricatorMetaMTAMailTestCase.php:78]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php$96 PhabricatorMetaMTAMailTestCase.php:96]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php$122 PhabricatorMetaMTAMailTestCase.php:122]",
 	"bb65b2b5bf819822": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/controller/PhabricatorMetaMTAMailViewController.php$228 PhabricatorMetaMTAMailViewController.php:228]",
 	"bb6e56bd6bbc0e60": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/constants/MetaMTAReceivedMailStatus.php$28 MetaMTAReceivedMailStatus.php:28]",

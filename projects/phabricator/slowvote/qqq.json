@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"01bf752be30f20c2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/controller/PhabricatorSlowvotePollController.php$151 PhabricatorSlowvotePollController.php:151]",
 	"0370b3c2ebef0246": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/controller/PhabricatorSlowvoteCloseController.php$54 PhabricatorSlowvoteCloseController.php:54]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/controller/PhabricatorSlowvotePollController.php$97 PhabricatorSlowvotePollController.php:97]",
 	"0b867e3d3426fb2b": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/slowvote/xaction/PhabricatorSlowvoteQuestionTransaction.php$44 PhabricatorSlowvoteQuestionTransaction.php:44]",

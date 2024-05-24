@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"0035403387839cb4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/search/management/PhabricatorSearchManagementQueryWorkflow.php$49 PhabricatorSearchManagementQueryWorkflow.php:49]",
 	"01b86a4d55b3406f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/search/engine/PhabricatorProfileMenuEngine.php$1002 PhabricatorProfileMenuEngine.php:1002]",
 	"01d0283e8122b9b5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/search/controller/PhabricatorSearchDeleteController.php$80 PhabricatorSearchDeleteController.php:80]",

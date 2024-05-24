@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"005bfb7a94bf7cfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorTimeFormatSetting.php$34 PhabricatorTimeFormatSetting.php:34]",
 	"029d918e892243c4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorOptionGroupSetting.php$27 PhabricatorOptionGroupSetting.php:27]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorSelectSetting.php$15 PhabricatorSelectSetting.php:15]",
 	"03900398fbeb4eeb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorContactNumbersSettingsPanel.php$74 PhabricatorContactNumbersSettingsPanel.php:74]",

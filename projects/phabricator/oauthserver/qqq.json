@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"0151c85868c3a4ae": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/oauthserver/application/PhabricatorOAuthServerApplication.php$27 PhabricatorOAuthServerApplication.php:27]",
 	"04852e522970a284": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/oauthserver/controller/client/PhabricatorOAuthClientDisableController.php$51 PhabricatorOAuthClientDisableController.php:51]",
 	"076a9d109c3f1a23": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/oauthserver/controller/PhabricatorOAuthServerAuthController.php$142 PhabricatorOAuthServerAuthController.php:142]",

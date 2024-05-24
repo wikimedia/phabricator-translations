@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"01ab47951fb99871": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$35 PhabricatorBadgesIconSet.php:35]",
 	"01de591f9a7842d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/application/PhabricatorBadgesApplication.php$22 PhabricatorBadgesApplication.php:22]",
 	"01f2f217dafe127a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditEngine.php$49 PhabricatorBadgesEditEngine.php:49]",
