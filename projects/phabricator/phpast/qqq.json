@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"05e30d2a45e77780": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phpast/application/PhabricatorPHPASTApplication.php$6 PhabricatorPHPASTApplication.php:6]",
 	"1d2d5262d9a87a79": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phpast/controller/PhabricatorXHPASTViewTreeController.php$32 PhabricatorXHPASTViewTreeController.php:32]",
 	"1e0c281ce4e49361": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phpast/controller/PhabricatorXHPASTViewRunController.php$49 PhabricatorXHPASTViewRunController.php:49]",

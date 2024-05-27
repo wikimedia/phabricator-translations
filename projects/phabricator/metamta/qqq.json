@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"010ab196e754b769": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/receiver/PhabricatorObjectMailReceiver.php$74 PhabricatorObjectMailReceiver.php:74]",
 	"0169751a40ee94eb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php$399 PhabricatorMetaMTAMailTestCase.php:399]",
 	"0484745cc7badf2f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/herald/PhabricatorMetaMTAEmailHeraldAction.php$78 PhabricatorMetaMTAEmailHeraldAction.php:78]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/metamta/query/PhabricatorMetaMTAActor.php$115 PhabricatorMetaMTAActor.php:115]",

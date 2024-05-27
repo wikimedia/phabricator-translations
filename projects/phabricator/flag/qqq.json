@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"075b45870ec7ec57": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$74 PhabricatorFlagRemoveFlagHeraldAction.php:74]",
 	"197a62696ce8fbf0": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$72 PhabricatorFlagAddFlagHeraldAction.php:72]",
 	"1c3d8a33c4e3bcd5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/application/PhabricatorFlagsApplication.php$10 PhabricatorFlagsApplication.php:10]",

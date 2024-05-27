@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"00bb89e9c8a3cde1": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/favicon/PhabricatorFaviconRef.php$403 PhabricatorFaviconRef.php:403]",
 	"01129f5fffd790a6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$191 PhabricatorFilesComposeIconBuiltinFile.php:191]",
 	"01e438c7c6d998d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/management/PhabricatorFilesManagementGenerateKeyWorkflow.php$26 PhabricatorFilesManagementGenerateKeyWorkflow.php:26]",

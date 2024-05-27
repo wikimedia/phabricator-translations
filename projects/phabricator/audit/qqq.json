@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"06a611b1ebbb1abd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/editor/PhabricatorAuditEditor.php$701 PhabricatorAuditEditor.php:701]",
 	"099b14e7d52d3f8b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/editor/PhabricatorAuditEditor.php$588 PhabricatorAuditEditor.php:588]",
 	"09aadb07f34da95b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/query/PhabricatorCommitSearchEngine.php$157 PhabricatorCommitSearchEngine.php:157]",
