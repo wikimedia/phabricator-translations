@@ -1,5 +1,5 @@
 if [ -d "../arcanist/src/" ]; then
-  ./bin/translatewiki export ../arcanist/src/ --as arcanist
+  ./bin/translatewiki export ../arcanist/src/ --as arcanist --browse-uri https://phabricator.wikimedia.org/source/arcanist/browse/wmf%252Fstable/src/
 else
   echo "FATAL ERROR: Unable to load 'Arcanist' library."
 fi
