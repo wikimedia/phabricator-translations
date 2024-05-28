@@ -18,4 +18,10 @@ else
   echo "WARNING: Unable to load WMF 'libext/misc' library; skipping."
 fi
 
+if [ -d "../libext/ava" ]; then
+  ./bin/translatewiki export ../libext/ava/src --as phabricator_ava --browse-uri https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src/
+else
+  echo "WARNING: Unable to load WMF 'libext/ava' library; skipping."
+fi
+
 ./bin/translatewiki export ./src --as translatewiki --browse-uri https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src

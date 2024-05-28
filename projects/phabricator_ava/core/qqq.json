@@ -1,0 +1,21 @@
+{
+	"00b7400dccc94de0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$59 AntiVandalismConfigOptions.php:59]",
+	"09858ae94db095dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$7 AntiVandalismConfigOptions.php:7]",
+	"0f14b2b49300d680": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//workflow/AntivandalismScoreWorkflow.php$11 AntivandalismScoreWorkflow.php:11]",
+	"13b79979748bc524": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$77 AntiVandalismAction.php:77]",
+	"32b9e4245f21e239": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//workflow/AntivandalismScoreWorkflow.php$26 AntivandalismScoreWorkflow.php:26]",
+	"34341b9c44b90404": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$92 AntiVandalismAction.php:92]",
+	"3e3256409c23cb9f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$31 AntiVandalismConfigOptions.php:31]",
+	"43d2887d271d42fe": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$57 AntiVandalismConfigOptions.php:57]",
+	"57688ae6dc82ea98": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$90 AntiVandalismAction.php:90]",
+	"6c5c90c9a588b819": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$27 AntiVandalismConfigOptions.php:27]",
+	"75192b8a0064c97a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//workflow/AntivandalismScoreWorkflow.php$52 AntivandalismScoreWorkflow.php:52]",
+	"762ca6690cc5f6e9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$11 AntiVandalismConfigOptions.php:11]",
+	"9d27f0e6eb15e9ee": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$35 AntiVandalismConfigOptions.php:35]",
+	"ae921fb953da171b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//workflow/AntivandalismScoreWorkflow.php$60 AntivandalismScoreWorkflow.php:60]",
+	"c87f0b0117f8b84f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$69 AntiVandalismAction.php:69]",
+	"c8e32e0e61bd8e64": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//workflow/AntivandalismScoreWorkflow.php$19 AntivandalismScoreWorkflow.php:19]",
+	"c918ee254f7290e8": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//feed/AntiVandalismFeedStory.php$44 AntiVandalismFeedStory.php:44]",
+	"f34ac77f7e82d8ff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$82 AntiVandalismAction.php:82]",
+	"faa0b89058a6fbd0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$11 AntiVandalismAction.php:11]"
+}
