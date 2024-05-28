@@ -51,6 +51,7 @@
 	"6d7d0ee12d2368d5": "Ta mejl uporablja že nek drug uporabnik.",
 	"6eec83851ebc6a44": "Spremenim primarni e-poštni naslov?",
 	"70478ae1190e3b97": "HTML e-pošte",
+	"781b13031392e2f6": "Spremeni časovni pas",
 	"7cfdf1b0860d1c83": "Tu lahko spremenite **Nastavitve aplikacije**, da si prilagodite dogodke za pošiljanje e-pošte in obvestil.\n\n| Nastavitev | Učinek\n| ------- | -------\n| E-pošta | Prejeli boste e-pismo in obvestilo, vendar bo obvestilo označeno kot »prebrano«.\n| Obvesti | Prejeli boste samo neprebrano obvestilo.\n| Prezri | Prejeli ne boste ničesar.\n\n\nČe je pri posodobitvi opravljenih več sprememb (npr. dodajanje naslovnika kopije, zapiranje opravila in dodajanje komentarja), boste prejeli najmočnejše obvestilo o kateri koli spremembi, ki je konfigurirana za dostavo.\n\nTe preference veljajo **samo** za objekte, s katerimi ste povezani (npr. redakcije, pri katerih ste pregledovalec, ali opravila, pri katerih prejemate kopije). Za prejem e-poštnih opomnikov,  kadar so ustvarjeni drugi predmeti, konfigurirajte [[ /herald/ | pravila Herald ]].",
 	"7d21dfb30b82c12c": "Vnesti morate svoje trenutno geslo.",
 	"7dfb9bd8fd5d915f": "Evropa: 28-02-2000",

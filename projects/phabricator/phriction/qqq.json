@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"01f55bf10a17e740": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phriction/storage/PhrictionDocument.php$288 PhrictionDocument.php:288]",
 	"045bc6c93af84113": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phriction/conduit/PhrictionCreateConduitAPIMethod.php$29 PhrictionCreateConduitAPIMethod.php:29]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phriction/conduit/PhrictionEditConduitAPIMethod.php$40 PhrictionEditConduitAPIMethod.php:40]",
 	"0691c225d7708594": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phriction/controller/PhrictionDiffController.php$204 PhrictionDiffController.php:204]",

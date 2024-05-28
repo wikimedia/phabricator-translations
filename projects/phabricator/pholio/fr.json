@@ -2,7 +2,6 @@
 	"@metadata": {
 		"authors": [
 			"Motla",
-			"SleaY",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -82,7 +81,6 @@
 	"d961a5ff4070dbde": "Cette page documente les commandes que vous pouvez utiliser pour interagir avec les maquettes dans Pholio.",
 	"dc664603dc430f4c": "Impossible de charger l’image de remplacement (« $1 ») : $2",
 	"de76e65c84df596f": "$1 a renommé cette simulation de « $2 » en « $3 ».",
-	"df42534003de3299": "Le commentaire ne peut pas être vide.",
 	"e315496e790d89bb": "Règles de test qui s’exécutent quand une simulation est créée ou mise à jour.",
 	"e6dafce978c901ea": "Commentaire en ligne",
 	"e71d424834c128ee": "Les noms de maquette ne doivent pas dépasser $1 caractère{{PLURAL:$1||s}}.",

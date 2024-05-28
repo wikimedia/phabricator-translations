@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"031037ebeb4a2aba": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$682 LegalpadDocumentSignController.php:682]",
 	"04850b7990a815ff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$191 LegalpadDocumentSignatureSearchEngine.php:191]",
 	"06994f287d5e8b1a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$247 LegalpadDocumentSignatureSearchEngine.php:247]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$257 LegalpadDocumentSignatureSearchEngine.php:257]",

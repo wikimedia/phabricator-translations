@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"00040bab8a787438": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/controller/NuanceQueueWorkController.php$22 NuanceQueueWorkController.php:22]",
 	"013f20f131f47ded": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/management/NuanceManagementUpdateWorkflow.php$10 NuanceManagementUpdateWorkflow.php:10]",
 	"03445b3b17a46b27": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/nuance/github/NuanceGitHubRawEvent.php$303 NuanceGitHubRawEvent.php:303]",

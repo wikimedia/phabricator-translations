@@ -176,6 +176,7 @@
 	"400f2c01f856746a": "Met à jour le __dépôt__. Cela exécute les opérations __pull__ (tirage), __discover__ (découverte), __refs__ (mise à jour des références) et __mirror__ (mise en miroir) et est principalement un flux de travail interne.",
 	"40e22d31504d17fd": "La référence $1 « $2 » n’existe plus.",
 	"41223ea65d9ea13f": "$1 a modifié le préfixe pour ce dépôt de $2 en $3.",
+	"412caac1a662992f": "Le nom court du dépôt dans Phabricator.",
 	"4172237763c9a72e": "Erreur lors de la mise à jour du dépôt « $1 ».",
 	"41e9874e9bc5920d": "$1 a activé cette URI.",
 	"428b8360a0c8282d": "Examen de la tête « $2 » de la branche « $1 ».",

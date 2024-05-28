@@ -318,6 +318,7 @@
 	"36df4d54bc4e1dc6": "Eine spezifische Version committen. Wen du keine Version angibst, wird arc nach commitbaren Versionen suchen.",
 	"36eae037facb9ef6": "Anstatt Änderungen von der Arbeitskopie zu exportieren, exportiere sie von einer Differential-Version.",
 	"37056c8544ea1b16": "$1 Untermodul(e) haben umcommittierte oder unverfolgte Änderungen:",
+	"3716d64264f90039": "Unbekannter Fehler.",
 	"374cd110892c722f": "Normalerweise werden unter git/hg, wenn der Patch erfolgreich ist, die Änderungen in die Arbeitsgruppe committiert. Dieses Flag verhindert den Commit.",
 	"37a197ba99dbe13c": "Der Typ der Einstellung '$1' muss Boolean sein.",
 	"383a319b06fee490": "Aufrufeit-Referenzparameter-Aufrufe sind verboten.",

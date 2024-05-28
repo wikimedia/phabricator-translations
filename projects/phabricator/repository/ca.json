@@ -170,6 +170,7 @@
 	"400f2c01f856746a": "Actualitza __repository__. Això realitza les operacions __pull__, __discover__, __refs__ i __mirror__ i és principalment un flux de treball intern.",
 	"40e22d31504d17fd": "La referència $1 '$2' ja no existeix.",
 	"41223ea65d9ea13f": "$1 ha canviat l'indicatiu de trucada d'aquest repositori de $2 a $3.",
+	"412caac1a662992f": "El nom curt del repositori a phabricator.",
 	"4172237763c9a72e": "Error en actualitzar el repositori \"$1\".",
 	"41e9874e9bc5920d": "$1 ha activat aquesta URI.",
 	"428b8360a0c8282d": "Examinant la branca «$1» HEAD «$2».\n\nS'està inspeccionant la capçalera '$2' de la branca '$1'.",

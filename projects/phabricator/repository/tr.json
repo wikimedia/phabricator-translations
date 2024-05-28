@@ -144,6 +144,7 @@
 	"400f2c01f856746a": "__Depoyu__ güncelleyin. Bu __gönderi__, __keşif__, __kaynaklar__ ve __ayna__ işlemlerini gerçekleştirir ve öncelikle bir iç iş akışıdır.",
 	"40e22d31504d17fd": "Kaynak $1 \"$2\" artık mevcut değil.",
 	"41223ea65d9ea13f": "$1, bu depo çağrı işaretini $2 ile $3 değiştirdi.",
+	"412caac1a662992f": "Phabricator'da deponun Kısa Adı.",
 	"4172237763c9a72e": "\"$1\" deposunu güncellerken hata oluştu.",
 	"41e9874e9bc5920d": "$1 bu URI'yı etkinleştirdi.",
 	"428b8360a0c8282d": "Dal \"$1\" baş \"$2\" inceleniyor.",

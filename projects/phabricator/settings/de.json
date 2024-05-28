@@ -48,6 +48,7 @@
 	"6d7d0ee12d2368d5": "Ein anderer Benutzer hat diese E-Mail schon.",
 	"70478ae1190e3b97": "HTML-E-Mail",
 	"729209787c563056": "Globale Standards",
+	"781b13031392e2f6": "Zeitzone ändern",
 	"7c29506dcbcd7f0e": "Wenn du **Eigene Aktionen** deaktivierst, wird dich Phabricator nicht über deine eigenen Aktionen informieren.",
 	"7ce15b05d3ab684b": "Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt",
 	"7cfdf1b0860d1c83": "Du kannst die **Programm Einstellungen** hier ändern, um einzustellen, wann du eine Email bekommst und wann du nur eine Benachrictigung erhältst:\n\n| Einstellung | Auswirkung\n| ------- | -------\n| Email | Du wirst eine Email und eine Web Benachrichtigung erhalten, die Benachrichtigung wird jedoch als \"gelesen\" markiert.\n| Benachrichtigen | Du wirst nur eine ungelesene Benachtigung erhalten.\n| Ignorieren | Du wirst nichts erhalten.\n\n\nWenn ein Ereignis mehrere Änderungen umfasst (wie Abonennten einer Aufgabe ändern, sie schließen und einen Kommentar hinzufügen) wirst du die stärkste Meldung der Änderungen erhalten.\n\nDiese Einstellungen treffen **nur** auf Objekte zu, mit denen du verknüpft bist (zum Beispiel, Revisionen bei denen du ein Gutachter bist oder Aufgaben, die du abonniert hast). Um Email Benachrichtigungen zu erhalten, wenn neue Objekte erstellt werden, benutze [[ /herald/ | Herald Regeln ]].",

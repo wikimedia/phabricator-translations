@@ -366,6 +366,7 @@
 	"36df4d54bc4e1dc6": "Belirli bir revizyon yapın. Bir revizyon belirtmezseniz, ark yüklenebilir revizyonları arayacaktır.",
 	"36eae037facb9ef6": "Değişiklikleri çalışan kopyadan dışa aktarmak yerine, Diferansiyel revizyondan dışa aktarın.",
 	"37056c8544ea1b16": "$1 alt modülün taahhüt edilmemiş veya izlenmemiş değişiklikleri var:",
+	"3716d64264f90039": "Bilinmeyen hata.",
 	"374cd110892c722f": "Normalde git/hg altında, düzeltme eki başarılı olursa, değişiklikler çalışan kopyaya kaydedilir. Bu bayrak taahhüdü önler.",
 	"37a197ba99dbe13c": "'$1' ayarının türü boole olmalıdır.",
 	"383a319b06fee490": "Çağrı zamanını referans ile arama yapmak yasaktır.",

@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"032769c60d684b08": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/spaces/xaction/PhabricatorSpacesNamespaceDescriptionTransaction.php$24 PhabricatorSpacesNamespaceDescriptionTransaction.php:24]",
 	"038e435cc8ba7cb4": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/spaces/controller/PhabricatorSpacesNoAccessController.php$36 PhabricatorSpacesNoAccessController.php:36]",
 	"10b1c36ab8c3e88a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/spaces/application/PhabricatorSpacesApplication.php$40 PhabricatorSpacesApplication.php:40]",

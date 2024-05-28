@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"00c0cf3b69c5a54c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/customfield/PhabricatorUserBlurbField.php$21 PhabricatorUserBlurbField.php:21]",
 	"00cd69a399cafa6f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/query/PhabricatorPeopleLogSearchEngine.php$88 PhabricatorPeopleLogSearchEngine.php:88]",
 	"0122e9c739631483": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/controller/PhabricatorPeopleNewController.php$158 PhabricatorPeopleNewController.php:158]",
@@ -25,7 +20,7 @@
 	"0f2a4c5ee51338f4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/customfield/PhabricatorUserRealNameField.php$25 PhabricatorUserRealNameField.php:25]",
 	"11a92710ecabfdb0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/query/PhabricatorPeopleSearchEngine.php$74 PhabricatorPeopleSearchEngine.php:74]",
 	"13730074ae976099": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/xaction/PhabricatorUserEmpowerTransaction.php$44 PhabricatorUserEmpowerTransaction.php:44]",
-	"148aaf2e06c62283": "Message sent as part of an email when a user forgets their password. $1 is an link. \n\nThe second paragraph of this message is intended as a joke and is not to be taken seriously (Phabricator won't actually let you use \"1234\" or \"cat\" as a password).\n \nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/mail/PhabricatorPeopleEmailLoginMailEngine.php$84 PhabricatorPeopleEmailLoginMailEngine.php:84]",
+	"148aaf2e06c62283": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/mail/PhabricatorPeopleEmailLoginMailEngine.php$84 PhabricatorPeopleEmailLoginMailEngine.php:84]",
 	"14c3714d8ec7e130": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/conduit/UserFindConduitAPIMethod.php$14 UserFindConduitAPIMethod.php:14]",
 	"153fb870fbe026b4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/application/PhabricatorPeopleApplication.php$10 PhabricatorPeopleApplication.php:10]",
 	"158d004175ef1680": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/people/userlog/PhabricatorPartialLoginUserLogType.php$9 PhabricatorPartialLoginUserLogType.php:9]",

@@ -12,6 +12,7 @@
 	"33d5667cd57fb506": "Temporário",
 	"3633987da18079d2": "Escolher ícone",
 	"372f548bb4eb5a35": "Não é possível fazer o carregamento do arquivo: esse servidor não está configurado com nenhum mecanismo de armazenamento que possa armazenar arquivos grandes.",
+	"55d8727a05eb80b0": "tarefas",
 	"634c2bfa2e07aac7": "Escolher ícone...",
 	"6672b815dc387b62": "Não aplicável",
 	"74c14faeffc448ca": "O arquivo foi transferido apenas parcialmente, o upload não foi concluído.",
@@ -22,5 +23,6 @@
 	"a3ba20301b2fa62a": "Solte arquivos para enviar",
 	"a675ee4529fbba8d": "Visualizar como remarcação",
 	"e0dc39394b6c6c78": "Carregue um arquivo para o servidor.",
+	"e11523c5ff23fc16": "Idioma",
 	"f0db08100fbeb95e": "Não é possível fazer o carregamento do arquivo: esse arquivo é muito grande para qualquer mecanismo de armazenamento configurado."
 }

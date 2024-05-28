@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"04ed5a30ea0bcc04": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/guides/module/PhabricatorGuideQuickStartModule.php$27 PhabricatorGuideQuickStartModule.php:27]",
 	"0efe2f85cd67c809": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/guides/module/PhabricatorGuideQuickStartModule.php$41 PhabricatorGuideQuickStartModule.php:41]",
 	"1e5fe3e3f95ec0bc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/guides/module/PhabricatorGuideInstallModule.php$93 PhabricatorGuideInstallModule.php:93]",

@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"01ab47951fb99871": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$35 PhabricatorBadgesIconSet.php:35]",
 	"01de591f9a7842d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/application/PhabricatorBadgesApplication.php$22 PhabricatorBadgesApplication.php:22]",
 	"01f2f217dafe127a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditEngine.php$49 PhabricatorBadgesEditEngine.php:49]",
@@ -98,7 +93,7 @@
 	"bcbe42926ff6037e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditEngine.php$138 PhabricatorBadgesEditEngine.php:138]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditEngine.php$139 PhabricatorBadgesEditEngine.php:139]",
 	"bf72d6c6cc3aec02": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$16 PhabricatorBadgesIconSet.php:16]",
 	"bff724afa04528a6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/capability/PhabricatorBadgesCreateCapability.php$13 PhabricatorBadgesCreateCapability.php:13]",
-	"c1942e8efd66938a": "\"Dedicated\" in this context means \"devoted, loyal, conscientious\" rather than \"intended for a special purpose\". This message is deliberately written in a humorous style. \n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/controller/PhabricatorBadgesArchiveController.php$56 PhabricatorBadgesArchiveController.php:56]",
+	"c1942e8efd66938a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/controller/PhabricatorBadgesArchiveController.php$56 PhabricatorBadgesArchiveController.php:56]",
 	"c2741a635a6bb943": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$30 PhabricatorBadgesIconSet.php:30]",
 	"c52baf759b2d361c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditor.php$116 PhabricatorBadgesEditor.php:116]",
 	"ca5b5d25820e4d02": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$33 PhabricatorBadgesIconSet.php:33]",

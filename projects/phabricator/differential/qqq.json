@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"0044ef32593f0678": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/customfield/DifferentialJIRAIssuesField.php$168 DifferentialJIRAIssuesField.php:168]",
 	"0063efbde77d19e7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/controller/DifferentialDiffViewController.php$98 DifferentialDiffViewController.php:98]",
 	"01ad6994a4ed7cf0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/editor/DifferentialRevisionEditEngine.php$256 DifferentialRevisionEditEngine.php:256]",
@@ -314,7 +309,7 @@
 	"4e1af076acc75c98": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/conduit/DifferentialRevisionSearchConduitAPIMethod.php$15 DifferentialRevisionSearchConduitAPIMethod.php:15]",
 	"4e571753790b93bf": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/editor/DifferentialRevisionEditEngine.php$58 DifferentialRevisionEditEngine.php:58]",
 	"4e6aef4db7fc7021": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/management/PhabricatorDifferentialAttachCommitWorkflow.php$10 PhabricatorDifferentialAttachCommitWorkflow.php:10]",
-	"4e7c673b0e277aa7": "\"Revert Plan\" means \"Plan to revert (these changes)\". See [https://we.phorge.it/book/phorge/article/differential_test_plans/ upstream documentation on Differential Test Plans]\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/customfield/DifferentialRevertPlanField.php$15 DifferentialRevertPlanField.php:15]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/field/DifferentialRevertPlanCommitMessageField.php$9 DifferentialRevertPlanCommitMessageField.php:9]",
+	"4e7c673b0e277aa7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/customfield/DifferentialRevertPlanField.php$15 DifferentialRevertPlanField.php:15]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/field/DifferentialRevertPlanCommitMessageField.php$9 DifferentialRevertPlanCommitMessageField.php:9]",
 	"4ea386c333a127f1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/herald/DifferentialReviewersHeraldAction.php$123 DifferentialReviewersHeraldAction.php:123]",
 	"4f18241667446bd0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/constants/DifferentialChangeType.php$107 DifferentialChangeType.php:107]",
 	"505de934e658d404": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/differential/editor/DifferentialRevisionEditEngine.php$154 DifferentialRevisionEditEngine.php:154]",

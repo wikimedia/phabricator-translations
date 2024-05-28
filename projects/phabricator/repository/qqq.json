@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"00061bade7e1c5b9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryPullEngine.php$74 PhabricatorRepositoryPullEngine.php:74]",
 	"00f7adcfa5b54e66": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/engine/PhabricatorRepositoryRefEngine.php$525 PhabricatorRepositoryRefEngine.php:525]",
 	"0286d764bd0adc27": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/repository/management/PhabricatorRepositoryManagementImportingWorkflow.php$82 PhabricatorRepositoryManagementImportingWorkflow.php:82]",

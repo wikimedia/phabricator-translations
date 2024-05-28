@@ -1,16 +1,13 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"048a1e4654f636e4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditor.php$65 PhabricatorCountdownEditor.php:65]",
 	"092f99ea11a34a84": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/view/PhabricatorCountdownView.php$33 PhabricatorCountdownView.php:33]",
 	"0e2a9d01aad502b0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditEngine.php$100 PhabricatorCountdownEditEngine.php:100]",
 	"1f26860c6c5e8e28": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditEngine.php$101 PhabricatorCountdownEditEngine.php:101]",
-	"24cf04baa7e0fb03": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$55 PhabricatorCountdownApplication.php:55]",
+	"24cf04baa7e0fb03": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$59 PhabricatorCountdownApplication.php:59]",
 	"2da25ad148405bd1": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditEngine.php$46 PhabricatorCountdownEditEngine.php:46]",
 	"2de64b763edfa305": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditEngine.php$13 PhabricatorCountdownEditEngine.php:13]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/query/PhabricatorCountdownSearchEngine.php$7 PhabricatorCountdownSearchEngine.php:7]",
 	"3e7e30d4c9bd3f17": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/query/PhabricatorCountdownSearchEngine.php$42 PhabricatorCountdownSearchEngine.php:42]",
-	"3e8aa17faec24ca8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$58 PhabricatorCountdownApplication.php:58]",
+	"3e8aa17faec24ca8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$62 PhabricatorCountdownApplication.php:62]",
 	"403b65955c676903": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditEngine.php$110 PhabricatorCountdownEditEngine.php:110]",
 	"428e98f8a5ea2cfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/query/PhabricatorCountdownSearchEngine.php$149 PhabricatorCountdownSearchEngine.php:149]",
 	"45dbae5b84397116": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$26 PhabricatorCountdownApplication.php:26]",
@@ -19,7 +16,7 @@
 	"50e0861a96dfb4b2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/query/PhabricatorCountdownSearchEngine.php$141 PhabricatorCountdownSearchEngine.php:141]",
 	"523baab918efc25f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/query/PhabricatorCountdownSearchEngine.php$53 PhabricatorCountdownSearchEngine.php:53]",
 	"543cbeb2456a6a93": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/editor/PhabricatorCountdownEditor.php$37 PhabricatorCountdownEditor.php:37]",
-	"55ad67b37f1ca688": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$63 PhabricatorCountdownApplication.php:63]",
+	"55ad67b37f1ca688": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/application/PhabricatorCountdownApplication.php$67 PhabricatorCountdownApplication.php:67]",
 	"55ea310cf51ef846": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/xaction/PhabricatorCountdownDescriptionTransaction.php$24 PhabricatorCountdownDescriptionTransaction.php:24]",
 	"57579dc01239c0e5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/capability/PhabricatorDashboardCreateCapability.php$9 PhabricatorDashboardCreateCapability.php:9]",
 	"587925a62430ba17": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/countdown/conduit/CountdownEditConduitAPIMethod.php$16 CountdownEditConduitAPIMethod.php:16]",
