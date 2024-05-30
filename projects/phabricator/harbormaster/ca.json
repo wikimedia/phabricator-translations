@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"00bb37fda5eb6c1d": "Artefacte de construcció",
@@ -226,6 +227,7 @@
 	"8c2855ba9ce702b8": "Nom curt de la prova, com ara \"ExampleTest\".",
 	"8e73e4fc47d8baa0": "L'objectiu de construcció Harbormaster '$1' no és un pas de construcció de Buildkite. Només es poden actualitzar els passos de Buildkite mitjançant el hook Buildkite.",
 	"8e8d6703aa895eeb": "Trieu un comportament del pla de construcció per a '$1'.",
+	"8f785b8b65c2e580": "Després de completar aquest pas de construcció, Harbormaster pot continuar la construcció normalment, o pot aturar la construcció i esperar un missatge. Si esteu utilitzant aquest pas de construcció per activar alguna feina en un sistema extern, potser voldreu tenir Phabricator esperant que aquest sistema realitzi la feina i informe els resultats. \n\nSi seleccioneu **Continua la construcció normalment**, el pla de construcció procedirà un cop aquest pas acabi. \n\nSi seleccioneu **Accepta per al missatge**, el pla de construcció es posarà en pausa indefinidament una vegada que aquest pas acabi.  Per reprendre la construcció, un sistema extern ha de trucar. `harbormaster.sendmessage` amb el PHID de la construcció, i `\"pass\"` o `\"fail\"`per indicar el resultat d'aquest pas. Després de registrar el resultat, el pla de construcció es reprendrà.",
 	"90121b323b3c6e23": "Voleu desactivar aquest pla de construcció?  Ja no s'executarà automàticament.",
 	"904e0b169fbb29d0": "'arc land' adverteix si la construcció segueix funcionant o ha fallat.",
 	"907e0b103ecb5601": "Construïble",

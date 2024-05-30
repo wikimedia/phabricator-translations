@@ -1,15 +1,20 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"01e30de312eae0aa": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$7 PhabricatorXHProfSampleSearchEngine.php:7]",
 	"0a63ad781263be3f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$84 PhabricatorXHProfSampleSearchEngine.php:84]",
 	"2211e38509c4c39d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$34 PhabricatorXHProfSampleSearchEngine.php:34]",
 	"28facfbf0193ea3e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileSymbolView.php$65 PhabricatorXHProfProfileSymbolView.php:65]",
 	"2f3c9dc62cb2a85d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php$99 PhabricatorXHProfProfileTopLevelView.php:99]",
-	"3f84ef531f9db996": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileSymbolView.php$105 PhabricatorXHProfProfileSymbolView.php:105]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php$85 PhabricatorXHProfProfileTopLevelView.php:85]",
+	"3f84ef531f9db996": "{{identical|Symbol}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileSymbolView.php$105 PhabricatorXHProfProfileSymbolView.php:105]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php$85 PhabricatorXHProfProfileTopLevelView.php:85]",
 	"562ae0348cb47b8e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php$113 PhabricatorXHProfProfileTopLevelView.php:113]",
 	"5a9ebdb4ed44587e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php$93 PhabricatorXHProfProfileTopLevelView.php:93]",
 	"600c86c5195dfe24": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$71 PhabricatorXHProfSampleSearchEngine.php:71]",
 	"60bc9828c396a0ff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/storage/PhabricatorXHProfSample.php$50 PhabricatorXHProfSample.php:50]",
-	"68d5ced71e82cd17": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/controller/PhabricatorXHProfProfileController.php$48 PhabricatorXHProfProfileController.php:48]",
+	"68d5ced71e82cd17": "{{identical|Profile}}\n\n\"Profile\" refers to [[w:Profiling (computer programming)|profiling in the computer programming sense]]\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/controller/PhabricatorXHProfProfileController.php$48 PhabricatorXHProfProfileController.php:48]",
 	"91e4fc2fd727793b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php$107 PhabricatorXHProfProfileTopLevelView.php:107]",
 	"93bdcecc9624ca26": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/query/PhabricatorXHProfSampleSearchEngine.php$82 PhabricatorXHProfSampleSearchEngine.php:82]",
 	"a04ce39eb6a65a4b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/xhprof/controller/PhabricatorXHProfDropController.php$30 PhabricatorXHProfDropController.php:30]",

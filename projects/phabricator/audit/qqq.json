@@ -1,6 +1,11 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"06a611b1ebbb1abd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/editor/PhabricatorAuditEditor.php$701 PhabricatorAuditEditor.php:701]",
-	"099b14e7d52d3f8b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/editor/PhabricatorAuditEditor.php$588 PhabricatorAuditEditor.php:588]",
+	"099b14e7d52d3f8b": "{{identical|User}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/editor/PhabricatorAuditEditor.php$588 PhabricatorAuditEditor.php:588]",
 	"09aadb07f34da95b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/query/PhabricatorCommitSearchEngine.php$157 PhabricatorCommitSearchEngine.php:157]",
 	"0de6d35bf080350d": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/storage/PhabricatorAuditTransaction.php$412 PhabricatorAuditTransaction.php:412]",
 	"0e9a10954f2571c8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/audit/management/PhabricatorAuditManagementDeleteWorkflow.php$75 PhabricatorAuditManagementDeleteWorkflow.php:75]",

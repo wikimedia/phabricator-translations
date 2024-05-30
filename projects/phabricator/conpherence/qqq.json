@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"007590c1cd808d4a": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$58 ConpherenceThreadParticipantsTransaction.php:58]",
 	"02f47fb34831fb55": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/ConpherenceTransactionRenderer.php$177 ConpherenceTransactionRenderer.php:177]",
 	"084f66f5247a2022": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/editor/ConpherenceEditEngine.php$86 ConpherenceEditEngine.php:86]",

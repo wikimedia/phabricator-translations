@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"00106df7cb2c4d04": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/query/PhabricatorCalendarEventSearchEngine.php$351 PhabricatorCalendarEventSearchEngine.php:351]",
 	"03888d8f39449ba0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/editor/PhabricatorCalendarEventEditEngine.php$200 PhabricatorCalendarEventEditEngine.php:200]",
 	"045bc9f1dcd940dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/editor/PhabricatorCalendarEventEditEngine.php$199 PhabricatorCalendarEventEditEngine.php:199]",
@@ -20,7 +25,7 @@
 	"0d414d66fe088997": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/import/PhabricatorCalendarICSFileImportEngine.php$45 PhabricatorCalendarICSFileImportEngine.php:45]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/import/PhabricatorCalendarICSFileImportEngine.php$62 PhabricatorCalendarICSFileImportEngine.php:62]",
 	"0d6036b9b64a0317": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/policyrule/PhabricatorCalendarEventHostPolicyRule.php$11 PhabricatorCalendarEventHostPolicyRule.php:11]",
 	"0d8a45ae56b90fc7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/controller/PhabricatorCalendarImportDisableController.php$28 PhabricatorCalendarImportDisableController.php:28]",
-	"0e16537914a0163e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/controller/PhabricatorCalendarExportViewController.php$19 PhabricatorCalendarExportViewController.php:19]",
+	"0e16537914a0163e": "{{identical|Export}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/controller/PhabricatorCalendarExportViewController.php$19 PhabricatorCalendarExportViewController.php:19]",
 	"0e36766bab5171ef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/editor/PhabricatorCalendarExportEditEngine.php$109 PhabricatorCalendarExportEditEngine.php:109]",
 	"0e65bd96a6474594": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/icon/PhabricatorCalendarIconSet.php$25 PhabricatorCalendarIconSet.php:25]",
 	"0e790231b22f0ebe": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/codex/PhabricatorCalendarEventPolicyCodex.php$74 PhabricatorCalendarEventPolicyCodex.php:74]",
@@ -40,7 +45,7 @@
 	"1491a65a086d1aab": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/xaction/PhabricatorCalendarImportICSURITransaction.php$38 PhabricatorCalendarImportICSURITransaction.php:38]",
 	"14b82d404873eabd": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/controller/PhabricatorCalendarEventViewController.php$500 PhabricatorCalendarEventViewController.php:500]",
 	"1530b268ec81c0d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/codex/PhabricatorCalendarEventPolicyCodex.php$13 PhabricatorCalendarEventPolicyCodex.php:13]",
-	"158f3da592759369": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/storage/PhabricatorCalendarEvent.php$470 PhabricatorCalendarEvent.php:470]",
+	"158f3da592759369": "{{identical|Weekly}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/storage/PhabricatorCalendarEvent.php$470 PhabricatorCalendarEvent.php:470]",
 	"15b055f7a2e27c55": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/storage/PhabricatorCalendarExport.php$83 PhabricatorCalendarExport.php:83]",
 	"15fbe6f6e630ac65": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/parser/data/PhutilCalendarRecurrenceSet.php$31 PhutilCalendarRecurrenceSet.php:31]",
 	"16592bb51c8a46f8": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/calendar/command/PhabricatorCalendarEventRSVPEmailCommand.php$33 PhabricatorCalendarEventRSVPEmailCommand.php:33]",

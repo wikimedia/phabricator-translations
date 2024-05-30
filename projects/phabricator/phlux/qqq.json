@@ -1,10 +1,15 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"240e78f1aa62fbef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$148 PhluxEditController.php:148]",
 	"3074a4a63133c645": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$58 PhluxEditController.php:58]",
 	"307d4957be65dd3a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$119 PhluxEditController.php:119]",
 	"3d3684e1f79c7996": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$158 PhluxEditController.php:158]",
 	"45d41b3427ac820a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/application/PhabricatorPhluxApplication.php$14 PhabricatorPhluxApplication.php:14]",
-	"5b3d65a8738a83f4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/phid/PhluxVariablePHIDType.php$38 PhluxVariablePHIDType.php:38]",
+	"5b3d65a8738a83f4": "{{identical|Variable}}\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/phid/PhluxVariablePHIDType.php$38 PhluxVariablePHIDType.php:38]",
 	"8fbf110b5f9b11ca": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/editor/PhluxVariableEditor.php$11 PhluxVariableEditor.php:11]",
 	"92ef2c479783f464": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$126 PhluxEditController.php:126]",
 	"991a4cc218302b21": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phlux/controller/PhluxEditController.php$91 PhluxEditController.php:91]",

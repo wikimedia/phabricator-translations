@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"00bb89e9c8a3cde1": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/favicon/PhabricatorFaviconRef.php$403 PhabricatorFaviconRef.php:403]",
 	"01129f5fffd790a6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$191 PhabricatorFilesComposeIconBuiltinFile.php:191]",
 	"01e438c7c6d998d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/management/PhabricatorFilesManagementGenerateKeyWorkflow.php$26 PhabricatorFilesManagementGenerateKeyWorkflow.php:26]",
@@ -185,7 +190,7 @@
 	"6971340ea3b8b62c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$173 PhabricatorFilesComposeIconBuiltinFile.php:173]",
 	"69767caa8bdc514e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/controller/PhabricatorFileViewController.php$315 PhabricatorFileViewController.php:315]",
 	"69b114e49126ec60": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$218 PhabricatorFilesComposeIconBuiltinFile.php:218]",
-	"69bd4ef9fbd0894a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/controller/PhabricatorFileTransformListController.php$102 PhabricatorFileTransformListController.php:102]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//infrastructure/diff/view/PHUIDiffInlineCommentDetailView.php$185 PHUIDiffInlineCommentDetailView.php:185]",
+	"69bd4ef9fbd0894a": "{{identical|View}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/controller/PhabricatorFileTransformListController.php$102 PhabricatorFileTransformListController.php:102]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//infrastructure/diff/view/PHUIDiffInlineCommentDetailView.php$185 PHUIDiffInlineCommentDetailView.php:185]",
 	"69fa3028df1839dc": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/document/PhabricatorJupyterDocumentEngine.php$336 PhabricatorJupyterDocumentEngine.php:336]",
 	"6a0c53ff045419fe": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/conduit/FileUploadHashConduitAPIMethod.php$20 FileUploadHashConduitAPIMethod.php:20]",
 	"6a10966fc789ebaa": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/config/PhabricatorFilesConfigOptions.php$163 PhabricatorFilesConfigOptions.php:163]",
@@ -480,7 +485,7 @@
 	"f1a13578b51a59d5": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/query/PhabricatorFileSearchEngine.php$158 PhabricatorFileSearchEngine.php:158]",
 	"f20ce81d5ad5da2f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/editor/PhabricatorFileEditor.php$60 PhabricatorFileEditor.php:60]",
 	"f2dd5fc2b1d12efc": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesOnDiskBuiltinFile.php$37 PhabricatorFilesOnDiskBuiltinFile.php:37]",
-	"f2f3d66a7978c207": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$203 PhabricatorFilesComposeIconBuiltinFile.php:203]",
+	"f2f3d66a7978c207": "{{identical|School}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php$203 PhabricatorFilesComposeIconBuiltinFile.php:203]",
 	"f3d9d24a9fa13548": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/conduit/FileConduitAPIMethod.php$44 FileConduitAPIMethod.php:44]",
 	"f4b1b2dfe1abbf7c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/controller/PhabricatorFileComposeController.php$169 PhabricatorFileComposeController.php:169]",
 	"f4c0014f2ec18e09": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/files/management/PhabricatorFilesManagementCompactWorkflow.php$51 PhabricatorFilesManagementCompactWorkflow.php:51]",

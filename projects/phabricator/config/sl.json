@@ -51,6 +51,7 @@
 	"bfa362f7819bbfa5": "Možnosti označevanja skladnje izvorne kode.",
 	"c8fef35bb0051188": "Napredne nastavitve",
 	"ca04332fe3fbc2d0": "Dnevniški format SSH.",
+	"cb0d2ffd61eb4383": "Več o zaklenjenih in skritih možnostih.",
 	"d27b4fd727666f53": "Označevanje skladnje",
 	"d3079f098678b02f": "Dveh manjkajočih shem ni mogoče preverjati!",
 	"e319643c63fc440e": "Uporabniki Phabricatorja lahko v nekaterih okoliščinah zahtevajo druge storitve iz gostitelja Phabricatorja (na primer tako, da ustvarijo repozitorij z oddaljenim URL-jem ali da Phabricator pridobi sliko iz oddaljenega strežnika).\n\nTo lahko pomeni varnostno ranljivost, če bodo storitve v istem podomrežju sprejele ukaze ali razkrile zasebne informacije prek nepreverjenega HTTP GET na podlagi izvornega IP-naslova. Do takšne storitve imajo dostop zlasti vsi gostitelji v EC2.\n\nTa možnost določa seznam omrežnih blokiranj, s katerimi bo Phabricator zavrnil povezavo. Na splošno bi morali tukaj navesti ves zasebni IP-prostor.",

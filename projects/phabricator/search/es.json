@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Agent",
+			"AnupamM",
 			"Fitoschido"
 		]
 	},
@@ -66,5 +67,6 @@
 	"e6eca4854e6396e7": "(Aplicación restringida/no válida)",
 	"ea8ca7248416cdea": "Reindexar objetos previamente indexados con una versión específica del indexados.",
 	"ec0e81f62b408e46": "¿De verdad quieres eliminar la consulta?",
-	"f740ffa51038d0a1": "Dependencia circular"
+	"f740ffa51038d0a1": "Dependencia circular",
+	"f925f9bea399a4c9": "Más información"
 }

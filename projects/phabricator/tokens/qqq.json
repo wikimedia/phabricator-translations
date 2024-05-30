@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"02f99a0b10e068c7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$39 PhabricatorTokenQuery.php:39]",
 	"201f624acb6e2323": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$41 PhabricatorTokenQuery.php:41]",
 	"2ce276d1fbcefd61": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$35 PhabricatorTokenQuery.php:35]",
@@ -45,7 +50,7 @@
 	"df41295409f2b544": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/storage/PhabricatorTokensToken.php$134 PhabricatorTokensToken.php:134]",
 	"dfcd3454bbea788a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$58 PhabricatorTokenQuery.php:58]",
 	"e282a85b4cea99a5": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/controller/PhabricatorTokenLeaderController.php$39 PhabricatorTokenLeaderController.php:39]",
-	"e4f81994fed009c2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$55 PhabricatorTokenQuery.php:55]",
+	"e4f81994fed009c2": "{{identical|Cookie}}\n\nThis is not the small technical token stored in browsers to trace web sessions, but the small cake stuffed with sugar and chocolate, that children appreciate so much, and offered after their good actions. Name of a fun token awarded to others and made visible on their public user profile or in discussions.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$55 PhabricatorTokenQuery.php:55]",
 	"e50ed88c9d3e9183": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$53 PhabricatorTokenQuery.php:53]",
 	"efc984777fe5a4e1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$31 PhabricatorTokenQuery.php:31]",
 	"f3943b58e9305bb3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$42 PhabricatorTokenQuery.php:42]",

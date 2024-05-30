@@ -1,4 +1,10 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ice bulldog",
+			"Pppery"
+		]
+	},
 	"0008bde8eebd806d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/query/ConduitResultSearchEngineExtension.php$17 ConduitResultSearchEngineExtension.php:17]",
 	"004c3ad67ff7186a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/garbagecollector/ConduitLogGarbageCollector.php$9 ConduitLogGarbageCollector.php:9]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/query/PhabricatorConduitLogSearchEngine.php$7 PhabricatorConduitLogSearchEngine.php:7]",
 	"00b93566bf7ce6cb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/controller/PhabricatorConduitAPIController.php$635 PhabricatorConduitAPIController.php:635]",
@@ -88,7 +94,7 @@
 	"7e7e89f0f2a3a089": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/parametertype/ConduitPointsParameterType.php$35 ConduitPointsParameterType.php:35]",
 	"7e8c320a3af06c46": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/query/PhabricatorConduitLogSearchEngine.php$83 PhabricatorConduitLogSearchEngine.php:83]",
 	"7f344395bba53083": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/parametertype/ConduitWildParameterType.php$18 ConduitWildParameterType.php:18]",
-	"805e86a8cbf628e3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/controller/PhabricatorConduitConsoleController.php$270 PhabricatorConduitConsoleController.php:270]",
+	"805e86a8cbf628e3": "{{identical|Error}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/controller/PhabricatorConduitConsoleController.php$270 PhabricatorConduitConsoleController.php:270]",
 	"806d228c380f3420": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/parametertype/ConduitUserParameterType.php$33 ConduitUserParameterType.php:33]",
 	"80a74009cf03864b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/parametertype/ConduitParameterType.php$139 ConduitParameterType.php:139]",
 	"82084d55098abe67": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/controller/PhabricatorConduitAPIController.php$591 PhabricatorConduitAPIController.php:591]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conduit/controller/PhabricatorConduitAPIController.php$604 PhabricatorConduitAPIController.php:604]",

@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
+			"Pppery",
 			"Shizhao",
 			"Zhang8569"
 		]
 	},
 	"0008bde8eebd806d": "Conduit结果界面的支持",
 	"004c3ad67ff7186a": "Conduit日志",
-	"0164281bb78268e3": "会话关键字无效。",
+	"0164281bb78268e3": "会话键无效。",
 	"016dc3c5ba28f58b": "arc调用-conduit",
 	"031a4e76f0b39d0d": "JSON",
 	"06a3fcd1cd5d3952": "所有方法",

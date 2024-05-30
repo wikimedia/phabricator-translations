@@ -1,7 +1,12 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"082d1ecea396e7c3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$20 PhabricatorFactManagementAnalyzeWorkflow.php:20]",
 	"09477b727f04e230": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$47 PhabricatorFactManagementAnalyzeWorkflow.php:47]",
-	"0b356ea8e0756a91": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/engine/PhabricatorChartRenderingEngine.php$200 PhabricatorChartRenderingEngine.php:200]",
+	"0b356ea8e0756a91": "Action verb for the label of a button linking to a page to showing a view of the data.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/engine/PhabricatorChartRenderingEngine.php$200 PhabricatorChartRenderingEngine.php:200]",
 	"0ef5d021f674ecb8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$9 PhabricatorFactManagementAnalyzeWorkflow.php:9]",
 	"1185578b1fb52e24": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/chart/PhabricatorChartFunctionArgumentParser.php$167 PhabricatorChartFunctionArgumentParser.php:167]",
 	"129085b61203d83c": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/chart/PhabricatorChartFunctionArgument.php$63 PhabricatorChartFunctionArgument.php:63]",
