@@ -582,5 +582,16 @@
 	"fec64c6e984c23be": "Inscripció al compte de Duo: $1",
 	"ff47e3a73a177d95": "La sessió d'inici de sessió no és vàlida i no s'ha pogut esborrar la galeta de sessió. Proveu d'esborrar les galetes del navegador.",
 	"ff5d7e2e4e305441": "OAuth Secret del consumidor",
-	"8132865068671351": "La contrasenya que heu introduït s'ha revocat. No podeu tornar a utilitzar una contrasenya revocada. Trieu una contrasenya nova."
+	"8132865068671351": "La contrasenya que heu introduït s'ha revocat. No podeu tornar a utilitzar una contrasenya revocada. Trieu una contrasenya nova.",
+	"4824e489d353ae99": "No es pot iniciar la connexió TLS en connectar-se a LDAP.",
+	"8aaf29ef6b809a9d": "No s'ha pogut enllaçar amb el servidor LDAP (com a usuari \"$1\").",
+	"95234e834cee36b3": "No es pot connectar al servidor LDAP ($1:$2).",
+	"cba827a5512399db": "No es pot establir l'opció LDAP \"$1\" per valorar \"$2\"!",
+	"cd537e86003e0f57": "No s'ha pogut enllaçar amb el servidor LDAP (sense nom d'usuari).",
+	"ceba78a1a300689b": "S'esperava '$1' en la resposta!",
+	"d2cf4ed7e03b340a": "No s'han pogut obtenir les entrades LDAP del resultat de la cerca.",
+	"d5057af3cb1da0b5": "Es requereix $1!",
+	"d9f4bfce5ed5b358": "Excepció LDAP: $1\nError LDAP #$2: $3",
+	"e356d1783ca23827": "Excepció LDAP: $1",
+	"e376ee552a708614": "La cerca LDAP ha fallat."
 }

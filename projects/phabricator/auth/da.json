@@ -115,5 +115,9 @@
 	"f3566cd0b39f71cf": "Standardbesked",
 	"f5c26334c3707c99": "Brug TLS",
 	"f72cbb45464d4870": "Brugernavn/Adgangskode",
-	"fcd761054089234d": "Igen"
+	"fcd761054089234d": "Igen",
+	"1295f3e050ccd893": "Forventede '$1' at være '$2'!",
+	"95234e834cee36b3": "Kunne ikke forbinde til LDAP-serveren ($1:$2).",
+	"ceba78a1a300689b": "Forventede '$1' som svar!",
+	"d5057af3cb1da0b5": "$1 er påkrævet!"
 }
