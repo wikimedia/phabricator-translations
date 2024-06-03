@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Antonla",
+			"Pppery",
 			"Saederup92"
 		]
 	},
@@ -33,6 +34,7 @@
 	"13e68259d0372c1d": "Kopieret her",
 	"15a4fdd8540e8691": "Installer PEP8 ved at bruge `$1`.",
 	"17063c506b81a46c": "Lørdag",
+	"1741aa32bf194b0b": "Argumentet \"$1\" er i konflikt med sig selv!",
 	"17c6dff093dca177": "Uventet node af typen '$1'!",
 	"17cea2025f493cf8": "    $1 $2",
 	"182fb1eabf732cc3": "Installer flake8 ved at bruge `$1`.",
@@ -60,6 +62,7 @@
 	"2da600bf94048431": "Version",
 	"2e216b0c6dc076fa": "Udførslen af '$1' mislykkedes!",
 	"2ec3f86266c825fc": "Dynamisk `$1`",
+	"2fa7a3aaf9b89f28": "Ikke genkendt argument '$1'.",
 	"2ff4e53e2b802e1e": "Globale variabler",
 	"302074a782b9c50a": "Filer bør slutte med en ny linje.",
 	"30a296e8f4942789": "Ønsker du at bruge denne besked?",
@@ -153,6 +156,7 @@
 	"7c41e5e9f47bd36f": "ENHEDSFEJL",
 	"7f1aa718be9b2dea": "Mente du:",
 	"7f2f6a15cf8da2b2": "Fejl",
+	"813e7423cf1c7632": "Kunne ikke skrive til logfilen \"$1\"!",
 	"82610b432a397965": "Forventede 'Date:'.",
 	"8295b736050208f7": "Råd",
 	"83e39656dc7ac717": "FORÆLDET",
@@ -227,6 +231,7 @@
 	"bc7819b34ff87570": "Ukendt",
 	"bcea146a58c5971c": "Installer PHP.",
 	"c1c4571fae365817": "Aliasfunktioner",
+	"c1d2709a3bd31ee4": "Argumentet \"$1\" blev givet to gange.",
 	"c218e39efa2e1aae": "funktion",
 	"c2f9b7b4897f03f9": "Forbundet",
 	"c3c121da35ed667a": "Installer RuboCop ved at bruge `$1`.",
@@ -268,6 +273,8 @@
 	"e9c45563358e813f": "Advarsel",
 	"ebcd4a43a97b680a": "Funktionen `$1`",
 	"ecc669c179339e7c": "Vælg et navn til det nye bibliotek.",
+	"ecc6eb766eab97aa": "For at bruge \"--xprofile\", skal du installere XHProf.",
+	"f09f76d85c75f19a": "Låsen '$1' er ikke låst af denne process!",
 	"f219cc0614ae6860": "Begrundelse",
 	"f4103eb665ada311": "Installer PyLint ved at bruge `$1`.",
 	"f4f4473df8cb59f0": "Deaktiveret",

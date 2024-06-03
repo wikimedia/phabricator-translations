@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Gomoko",
+			"Graineahumus",
 			"Motla",
 			"Tektasc",
 			"Thibaut120094",
@@ -265,5 +266,6 @@
 	"fb10d962baac8a8e": "Onglet sans nom",
 	"fb12e20253aed17b": "Activer le panneau",
 	"fb88218db7fdd020": "Saisissez un nom de tableau de bord...",
-	"fdb587f6aef9fcaf": "Retirer l’onglet"
+	"fdb587f6aef9fcaf": "Retirer l’onglet",
+	"fff91637e3e3c883": "Stratégie de création par défaut pour les tableaux de bord."
 }

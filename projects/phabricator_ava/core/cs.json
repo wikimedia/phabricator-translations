@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Polda18"
+		]
+	},
+	"09858ae94db095dc": "Antivandalismus",
+	"0f14b2b49300d680": "vypočítat skóre pro dané transakce.",
+	"13b79979748bc524": "Zjištěn vandalismus",
+	"32b9e4245f21e239": "Uživatelské jméno, pro které budou transakce vráceny zpět.",
+	"34341b9c44b90404": "Nebyl zjištěn vandalismus.",
+	"3e3256409c23cb9f": "Časové období zkoumané při hodnocení úprav provedených uživatelem.",
+	"43d2887d271d42fe": "Upravte základní skóre pro každý typ transakce",
+	"57688ae6dc82ea98": "Dejte do karantény vandalský účet.",
+	"6c5c90c9a588b819": "Počet úkonů, které může nový uživatel provést, než zareagujeme.",
+	"762ca6690cc5f6e9": "Možnosti ladění antivandalistického filtru.",
+	"9d27f0e6eb15e9ee": "Při překročení těchto limitů deaktivujte účty vandalů",
+	"ae921fb953da171b": "Zadané uživatelské jméno / userPHID nebylo nalezeno",
+	"c87f0b0117f8b84f": "Zakázat vandalské účty.",
+	"c8e32e0e61bd8e64": "Uživatelské jméno, pro které budou transakce hodnoceny.",
+	"c918ee254f7290e8": "$1 {{GENDER:$1|spustil|spustila}} protiopatření proti vandalismu ($2) editací $3.",
+	"f34ac77f7e82d8ff": "Žádná akce",
+	"faa0b89058a6fbd0": "Zkontrolujte vandalismus"
+}

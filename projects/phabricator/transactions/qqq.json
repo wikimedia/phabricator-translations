@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pppery"
+		]
 	},
 	"0011bad3ecc480f3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/controller/PhabricatorEditEngineConfigurationLockController.php$113 PhabricatorEditEngineConfigurationLockController.php:113]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/controller/PhabricatorEditEngineConfigurationViewController.php$158 PhabricatorEditEngineConfigurationViewController.php:158]",
 	"0046d5690d69508d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/editor/PhabricatorApplicationTransactionEditor.php$3212 PhabricatorApplicationTransactionEditor.php:3212]",
@@ -103,7 +105,7 @@
 	"34b5651e92f14c46": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/storage/PhabricatorApplicationTransaction.php$1360 PhabricatorApplicationTransaction.php:1360]",
 	"352d138b13459abb": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/xaction/PhabricatorEditEngineLocksTransaction.php$18 PhabricatorEditEngineLocksTransaction.php:18]",
 	"355a40ac835c61a3": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/editor/PhabricatorEditEngineConfigurationEditEngine.php$62 PhabricatorEditEngineConfigurationEditEngine.php:62]",
-	"3567e48aacaec9e3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/bulk/management/PhabricatorBulkManagementExportWorkflow.php$103 PhabricatorBulkManagementExportWorkflow.php:103]",
+	"3567e48aacaec9e3": "Don't translate \"--overwrite\"\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/bulk/management/PhabricatorBulkManagementExportWorkflow.php$103 PhabricatorBulkManagementExportWorkflow.php:103]",
 	"3626fea91a505ffe": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/engineextension/PhabricatorSubtypeEditEngineExtension.php$59 PhabricatorSubtypeEditEngineExtension.php:59]",
 	"3634f0afb31795f2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/controller/PhabricatorEditEngineConfigurationReorderController.php$104 PhabricatorEditEngineConfigurationReorderController.php:104]",
 	"3670622c87a88e0c": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/storage/PhabricatorApplicationTransaction.php$1053 PhabricatorApplicationTransaction.php:1053]",

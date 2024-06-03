@@ -5,6 +5,7 @@
 			"Joseph",
 			"LuCKY",
 			"MuratTheTurkish",
+			"Pppery",
 			"SaldırganSincap",
 			"ToprakM"
 		]
@@ -724,6 +725,7 @@
 	"c3ecef83d0685167": "sn",
 	"c433dacd8c745d9e": "Bu özel anahtar için gerekli olmadığı halde bir parola sağlandı. Doğru anahtarı sağladığınızı kontrol edin, ya da parolayı çıkarın.",
 	"c43c1350569f1f51": "Bu sağlayıcı bağlantıya izin verecek şekilde yapılandırılmamış.",
+	"c4f676587bbf8ed1": "Phabricator \"user.whoami\" isteğinden geçerli JSON yanıtı bekleniyor.",
 	"c5027eb526603212": "$1 bu sağlayıcıyı oluşturdu.",
 	"c53ad797ece9dddf": "Çok Faktör",
 	"c53b8ac55061a379": "Bu iletişim numarası zaten kullanılıyor.",

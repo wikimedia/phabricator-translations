@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pppery"
+		]
 	},
 	"02c2a0c48898b578": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseController.php$12 PassphraseController.php:12]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseController.php$33 PassphraseController.php:33]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseCredentialEditController.php$367 PassphraseCredentialEditController.php:367]",
 	"05e5d7263e6c8f40": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseCredentialLockController.php$33 PassphraseCredentialLockController.php:33]",
@@ -109,7 +111,7 @@
 	"f0aab7cbfa6fb809": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/xaction/PassphraseCredentialDescriptionTransaction.php$42 PassphraseCredentialDescriptionTransaction.php:42]",
 	"f0f31255f2031cdf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/credentialtype/PassphrasePasswordCredentialType.php$22 PassphrasePasswordCredentialType.php:22]",
 	"f87d2b297a38cc3f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseCredentialViewController.php$101 PassphraseCredentialViewController.php:101]",
-	"fa23b7a3f9d3f2c1": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/query/PassphraseCredentialSearchEngine.php$91 PassphraseCredentialSearchEngine.php:91]",
+	"fa23b7a3f9d3f2c1": "{{identical|Login}}\nThis shows a username.\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/query/PassphraseCredentialSearchEngine.php$91 PassphraseCredentialSearchEngine.php:91]",
 	"fe132201c4a7565d": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/xaction/PassphraseCredentialSecretIDTransaction.php$37 PassphraseCredentialSecretIDTransaction.php:37]",
 	"fed54b2f7315993a": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/xaction/PassphraseCredentialNameTransaction.php$24 PassphraseCredentialNameTransaction.php:24]",
 	"ff6872136194a509": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/credentialtype/PassphraseSSHPrivateKeyFileCredentialType.php$17 PassphraseSSHPrivateKeyFileCredentialType.php:17]",

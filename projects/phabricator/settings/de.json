@@ -7,7 +7,8 @@
 			"KimKelting",
 			"Leon95",
 			"ThisCarthing",
-			"Tobi 406"
+			"Tobi 406",
+			"XanonymusX"
 		]
 	},
 	"005bfb7a94bf7cfb": "12 Stunden, 2:34 PM",
@@ -50,7 +51,7 @@
 	"729209787c563056": "Globale Standards",
 	"7c29506dcbcd7f0e": "Wenn du **Eigene Aktionen** deaktivierst, wird dich Phabricator nicht über deine eigenen Aktionen informieren.",
 	"7ce15b05d3ab684b": "Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt",
-	"7cfdf1b0860d1c83": "Du kannst die **Programm Einstellungen** hier ändern, um einzustellen, wann du eine Email bekommst und wann du nur eine Benachrictigung erhältst:\n\n| Einstellung | Auswirkung\n| ------- | -------\n| Email | Du wirst eine Email und eine Web Benachrichtigung erhalten, die Benachrichtigung wird jedoch als \"gelesen\" markiert.\n| Benachrichtigen | Du wirst nur eine ungelesene Benachtigung erhalten.\n| Ignorieren | Du wirst nichts erhalten.\n\n\nWenn ein Ereignis mehrere Änderungen umfasst (wie Abonennten einer Aufgabe ändern, sie schließen und einen Kommentar hinzufügen) wirst du die stärkste Meldung der Änderungen erhalten.\n\nDiese Einstellungen treffen **nur** auf Objekte zu, mit denen du verknüpft bist (zum Beispiel, Revisionen bei denen du ein Gutachter bist oder Aufgaben, die du abonniert hast). Um Email Benachrichtigungen zu erhalten, wenn neue Objekte erstellt werden, benutze [[ /herald/ | Herald Regeln ]].",
+	"7cfdf1b0860d1c83": "Du kannst die **Programm Einstellungen** hier ändern, um einzustellen, wann du eine E-Mail bekommst und wann du nur eine Benachrichtigung erhältst:\n\n| Einstellung | Auswirkung\n| ------- | -------\n| E-Mail | Du wirst eine E-Mail und eine Web-Benachrichtigung erhalten, die Benachrichtigung wird jedoch als „gelesen“ markiert.\n| Benachrichtigen | Du wirst nur eine ungelesene Benachrichtigung erhalten.\n| Ignorieren | Du wirst nichts erhalten.\n\n\nWenn ein Ereignis mehrere Änderungen umfasst (wie Abonnenten einer Aufgabe ändern, sie schließen und einen Kommentar hinzufügen) wirst du die stärkste Meldung der Änderungen erhalten.\n\nDiese Einstellungen treffen **nur** auf Objekte zu, mit denen du verknüpft bist (zum Beispiel, Revisionen bei denen du ein Gutachter bist oder Aufgaben, die du abonniert hast). Um E-Mail-Benachrichtigungen zu erhalten, wenn neue Objekte erstellt werden, benutze [[ /herald/ | Herald Regeln ]].",
 	"7d21dfb30b82c12c": "Du musst dein aktuelles Passwort eingeben.",
 	"7dfb9bd8fd5d915f": "Europa: 28-02-2000",
 	"8046b2c59389017a": "◐ Benachrichtigen",

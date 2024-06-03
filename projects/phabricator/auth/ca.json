@@ -3,7 +3,8 @@
 		"authors": [
 			"Arnaugir",
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"00a64a49b8cbf97e": "$1 ha reanomenat aquest proveïdor de $2 a $3.",
@@ -474,6 +475,7 @@
 	"c1e7587a5253ec19": "Voleu destruir les credencials a tot arreu?",
 	"c27aa467ce47507b": "$1 ha canviat la política d'usuari per a aquest proveïdor de $2 a $3.",
 	"c433dacd8c745d9e": "S'ha proporcionat una frase de contrasenya per a aquesta clau privada, però no requereix una contrasenya. Comproveu que heu proporcionat la clau correcta o ometeu la contrasenya.",
+	"c4f676587bbf8ed1": "S'esperava una resposta JSON vàlida de la sol·licitud user.whoami.",
 	"c5027eb526603212": "$1 ha creat aquest proveïdor.",
 	"c5b2be7f42c32a7e": "Revoca els testimonis d'autenticació temporals. <br><br>Els testimonis temporals s'utilitzen en el correu de restabliment de contrasenya, el correu de benvinguda i altres sistemes com Git LFS.  La revocació de testimonis temporals invalidarà els enllaços existents en el restabliment de la contrasenya i convidarà el correu que s'hagi enviat abans de la revocació.",
 	"c61f89dc801f1c3e": "El compte que intenteu enllaçar ja està enllaçat amb el vostre compte.",
