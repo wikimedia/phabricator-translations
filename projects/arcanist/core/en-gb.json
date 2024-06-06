@@ -74,5 +74,6 @@
 	"e1115c3f5ca1e50d": "RuboCop is a Ruby static code analyser, based on the community Ruby style guide.",
 	"ebc11646f0be2681": "Ignoring unrecognised configuration option (\"$1\") from source: $2.",
 	"ef4e3cc135c989c0": "Signal router has not been initialised!",
-	"f2d58f7ea575d084": "Serialisation of PHP-object JSON values."
+	"f2d58f7ea575d084": "Serialisation of PHP-object JSON values.",
+	"4b380e034a2773e3": "Disable ANSI terminal codes, printing plain text with no colour or style."
 }

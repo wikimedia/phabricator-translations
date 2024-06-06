@@ -41,5 +41,8 @@
 	"ec10ec68a45bf5e1": "LDAP-värdnamn",
 	"f1593c22d34e92a2": "LDAP-lösenord:",
 	"f261ca7e00cdccda": "Låter användare logga in eller registrera med ett användarnamn och lösenord.",
-	"ff47e3a73a177d95": "Din inloggningssession är ogiltig och det gick inte att rensa sessionskakorna. Försök att rensa dina webbläsarkakor."
+	"ff47e3a73a177d95": "Din inloggningssession är ogiltig och det gick inte att rensa sessionskakorna. Försök att rensa dina webbläsarkakor.",
+	"1295f3e050ccd893": "Förväntade \"$1\" att vara \"$2\"!",
+	"95234e834cee36b3": "Det gick inte att ansluta till LDAP-servern ($1:$2).",
+	"e356d1783ca23827": "LDAP-undantag: $1"
 }

@@ -114,5 +114,6 @@
 	"f2b4a62c32eb1163": "Apenas eventos ativos",
 	"f34df763b1b6b11b": "$1 mudou a data final deste evento de $2 para $3.",
 	"f7d63bb600a6484c": "Junte-se ao evento",
-	"fa55309cb8d19c02": "Esta página documenta os comandos que você pode usar para interagir com eventos no Calendário. Esses comandos funcionam ao criar novas tarefas por e-mail e ao responder a tarefas existentes."
+	"fa55309cb8d19c02": "Esta página documenta os comandos que você pode usar para interagir com eventos no Calendário. Esses comandos funcionam ao criar novas tarefas por e-mail e ao responder a tarefas existentes.",
+	"935b3abf8d10eb3c": "A hora da data não possui fuso horário ou visualizador."
 }

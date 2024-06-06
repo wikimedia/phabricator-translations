@@ -544,5 +544,14 @@
 	"fb2d4e10e9f18e51": "Guardar los resultados del optimizador en un archivo. De manera predeterminada, este es stdout.",
 	"fd109879adde5ae6": "El directorio de trabajo actual no forma parte de una copia de trabajo para un sistema de control de versiones compatible (Git, Subversión o Mercurial).",
 	"ff718f7467263f27": "No se puede ubicar el binario «$1» para ejecutar el optimizador $2. Puede que necesites instalar el binario o ajustar la configuración del optimizador.",
-	"ffdefc1b62912faa": "ES NECESARIO __INSTALAR UN CERTIFICADO__ PARA ACCEDER A PHABRICATOR"
+	"ffdefc1b62912faa": "ES NECESARIO __INSTALAR UN CERTIFICADO__ PARA ACCEDER A PHABRICATOR",
+	"0c2901827227d9bb": "Ya está instalado el manejador de señales con la clave «$1».",
+	"3b9e8bed5092ad99": "Eliminado \"$1\".",
+	"7525cb51303f7be5": "checo (República Checa)",
+	"76597b600df4e78c": "$1 invalido en $2",
+	"80d305c58f97edfa": "a. m.",
+	"c4dcbb4b94a41194": "pm",
+	"df97a42549e5c0e1": "julio",
+	"efed3690ea2243f5": "ene",
+	"f9d4009e7cbbd725": "No se pudo cambiar el nombre de «$1» a «$2»."
 }
