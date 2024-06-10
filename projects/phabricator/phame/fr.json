@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"SleaY",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92",
@@ -215,7 +216,7 @@
 	"d700bc571156942f": "$1 a mis à jour le sous-titre du blogue à « $2 ».",
 	"d7347523b9ac6545": "Définissez l’URI de domaine complet si vous prévoyez de diffuser ce blogue sur un autre domaine hébergé. Le nom du site parent et l’URI du site parent sont facultatifs mais utiles car ils fournissent un lien du blogue vers votre site parent.",
 	"d78b9d3283b39499": "Entête de téléversement",
-	"d9c18657249afd98": "Pour que les domaines personnalisés fonctionnent, cette instance de Phabricator doit être configurée pour autoriser la politique d’accès public. Configurez ce paramètre $1 ou demandez à un administrateur de configurer ce paramètre. Le domaine peut être spécifié ultérieurement une fois ce paramètre modifié.",
+	"d9c18657249afd98": "Pour que les domaines personnalisés fonctionnent, ce serveur doit être configuré pour autoriser la politique d’accès public. Configurez ce paramètre $1 ou demandez à un administrateur de configurer ce paramètre. Le domaine peut être spécifié ultérieurement une fois ce paramètre modifié.",
 	"dd061d90e4db8e54": "Le domaine parent ne peut pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"dda26958039a08e6": "$1 a changé l’image d’entête pour le blogue $2.",
 	"ddb083f7ff93c2f5": "Ne plus publier le billet",

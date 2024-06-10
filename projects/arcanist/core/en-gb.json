@@ -44,6 +44,7 @@
 	"3a02d4fc27c250fd": "Base commit rule '$1' (from source '$2') is not a recognised rule.",
 	"3afa3a7faa86d125": "The \"SHELL\" environment variable does not match any recognised shell.",
 	"4afec916d4e1cc75": "Overlong form canonicalisation of: $1",
+	"4b380e034a2773e3": "Disable ANSI terminal codes, printing plain text with no colour or style.",
 	"4b5726b282aa5927": "Unrecognised argument '$1'. Try '$2'.",
 	"4f3b1df2728ef42a": "Unrecognised lint message code \"$1\".",
 	"57e6ec713493cdd9": "Unrecognised key '$1' in argument specification. Recognized keys are: $2.",
@@ -74,6 +75,5 @@
 	"e1115c3f5ca1e50d": "RuboCop is a Ruby static code analyser, based on the community Ruby style guide.",
 	"ebc11646f0be2681": "Ignoring unrecognised configuration option (\"$1\") from source: $2.",
 	"ef4e3cc135c989c0": "Signal router has not been initialised!",
-	"f2d58f7ea575d084": "Serialisation of PHP-object JSON values.",
-	"4b380e034a2773e3": "Disable ANSI terminal codes, printing plain text with no colour or style."
+	"f2d58f7ea575d084": "Serialisation of PHP-object JSON values."
 }

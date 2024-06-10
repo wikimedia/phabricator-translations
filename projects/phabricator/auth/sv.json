@@ -8,6 +8,7 @@
 	"02f02485ab679a90": "Algoritm",
 	"10a01d3dab17312c": "Kunde inte logga in",
 	"1228ab62258a2cb8": "LDAP-port",
+	"1295f3e050ccd893": "Förväntade \"$1\" att vara \"$2\"!",
 	"13c4e1d738794cb4": "Logga in med LDAP",
 	"19166f670db6efac": "LDAP-användarnamn:",
 	"1b23c88cdc541997": "Avsluta session?",
@@ -26,6 +27,7 @@
 	"812e1fc6ca8c4f61": "Logga in på Phabricator",
 	"889fac82e7ff3ffc": "Registrera ett konto",
 	"8e79d5b106832aa0": "LDAP-lösenord",
+	"95234e834cee36b3": "Det gick inte att ansluta till LDAP-servern ($1:$2).",
 	"9651b251f1e71e2e": "Registrera ett nytt konto",
 	"a654e1b5e82f01ce": "Inloggning krävs",
 	"add90766f53524e2": "Bekräfta kontolänk",
@@ -37,12 +39,10 @@
 	"d527bf3db3dc8af6": "Logga in",
 	"d8343c683ae1584c": "LDAP",
 	"dec890ee79bb237b": "LDAP-användarnamn",
+	"e356d1783ca23827": "LDAP-undantag: $1",
 	"e3757e79634f1fe6": "Tidigare inbjudna",
 	"ec10ec68a45bf5e1": "LDAP-värdnamn",
 	"f1593c22d34e92a2": "LDAP-lösenord:",
 	"f261ca7e00cdccda": "Låter användare logga in eller registrera med ett användarnamn och lösenord.",
-	"ff47e3a73a177d95": "Din inloggningssession är ogiltig och det gick inte att rensa sessionskakorna. Försök att rensa dina webbläsarkakor.",
-	"1295f3e050ccd893": "Förväntade \"$1\" att vara \"$2\"!",
-	"95234e834cee36b3": "Det gick inte att ansluta till LDAP-servern ($1:$2).",
-	"e356d1783ca23827": "LDAP-undantag: $1"
+	"ff47e3a73a177d95": "Din inloggningssession är ogiltig och det gick inte att rensa sessionskakorna. Försök att rensa dina webbläsarkakor."
 }

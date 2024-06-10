@@ -14,6 +14,7 @@
 	"0b3982ada86d2f61": "",
 	"110b0c5394900023": "",
 	"148aa57832032b98": "",
+	"174ad4e4436c0f9c": "Atributo Extra",
 	"197b4e64419ef963": "Este servidor pensa que você está usando $1 , mas seu cliente está convencido de que está usando $2 . Esta é uma configuração errada",
 	"1c542e79c9b4257e": "Setembro",
 	"218be0dfc4b62b9d": "",
@@ -21,6 +22,7 @@
 	"22e9d098c2d1efba": "",
 	"250ddde898b9609a": "",
 	"25eee349d7bf6976": "Se você estiver desenvolvendo $1 , esses erros geralmente indicam que as especificações do seu esquema não concordam com os esquemas que seu código realmente constrói.",
+	"2645a884f580e943": "Classe Em Falta",
 	"2af01db370dc1e2c": "Defina um ' $1 ' na sua configuração!",
 	"2b35e7d9fb60fbfb": "Inunde a fila com tarefas de teste. Este comando deve ser usado durante o desenvolvimento e a depuração.",
 	"2f8ae1342ed316d7": "Este servidor não está configurado para atender solicitações de cluster. Defina `cluster.addresses` na configuração para colocar hosts de cluster na lista de permissões antes de enviar solicitações que usam um mecanismo de autenticação de cluster.",
@@ -87,7 +89,5 @@
 	"f38d53519197909c": "Pesquisa avançada",
 	"f4f4473df8cb59f0": "Desativado",
 	"fd6c3ebf7befca9f": "Instalar",
-	"feeaf50c5ec762c8": "Alguns desses erros são causados por esquemas excedentes (tabelas ou colunas extras que este software não espera). Isso não é sério. Para obter informações sobre como resolver esses problemas, consulte a seção \"Esquemas excedentes\" no artigo \"Gerenciando ajustes de armazenamento\" na documentação.",
-	"174ad4e4436c0f9c": "Atributo Extra",
-	"2645a884f580e943": "Classe Em Falta"
+	"feeaf50c5ec762c8": "Alguns desses erros são causados por esquemas excedentes (tabelas ou colunas extras que este software não espera). Isso não é sério. Para obter informações sobre como resolver esses problemas, consulte a seção \"Esquemas excedentes\" no artigo \"Gerenciando ajustes de armazenamento\" na documentação."
 }

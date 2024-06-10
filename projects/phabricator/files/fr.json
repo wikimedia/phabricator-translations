@@ -273,6 +273,7 @@
 	"929c13fb3abb44ab": "Chiffré (AES-256-CBC)",
 	"930bf66078bfa4eb": "Total d’octets migrés : $1",
 	"951b175b059733e2": "Détection d’une collision de clé dupliquée lors de l’enregistrement de l’image mandatée, mais échec du chargement de la rangée dupliquée (pour l’URI « $1 »).",
+	"9528258cb03cbdcf": "Dispositif de communication",
 	"953acbf1b2f9b7d6": "ÉPURÉ",
 	"96e930300eb555e0": "Boum !",
 	"973d884447749371": "Déterminant du stockage",

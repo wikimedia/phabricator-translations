@@ -92,6 +92,7 @@
 	"7f14d90b874e184d": "Todos os eventos",
 	"8134534ffba5ebde": "Disponibilidade: $1",
 	"8611720e10202c2c": "Criar novo evento",
+	"935b3abf8d10eb3c": "A hora da data não possui fuso horário ou visualizador.",
 	"949546df6feeeaf5": "$1 atualizou a descrição do evento.",
 	"98ef250308f75761": "Cancelar evento",
 	"9f0a132fb8af51f0": "Evento recorrente",
@@ -114,6 +115,5 @@
 	"f2b4a62c32eb1163": "Apenas eventos ativos",
 	"f34df763b1b6b11b": "$1 mudou a data final deste evento de $2 para $3.",
 	"f7d63bb600a6484c": "Junte-se ao evento",
-	"fa55309cb8d19c02": "Esta página documenta os comandos que você pode usar para interagir com eventos no Calendário. Esses comandos funcionam ao criar novas tarefas por e-mail e ao responder a tarefas existentes.",
-	"935b3abf8d10eb3c": "A hora da data não possui fuso horário ou visualizador."
+	"fa55309cb8d19c02": "Esta página documenta os comandos que você pode usar para interagir com eventos no Calendário. Esses comandos funcionam ao criar novas tarefas por e-mail e ao responder a tarefas existentes."
 }

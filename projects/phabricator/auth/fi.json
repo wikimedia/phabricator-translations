@@ -94,6 +94,7 @@
 	"c33966cf0997d849": "SMS-koodi",
 	"ca547e6d2c63e4e8": "Rekisteröi tili",
 	"ce36cd512ad24e9e": "Hyväksynyt",
+	"d5057af3cb1da0b5": "$1 on pakollinen!",
 	"d510ae63f2dc4696": "Luo uusi käyttäjätunnus",
 	"d527bf3db3dc8af6": "Kirjaudu sisään",
 	"d97ab566dce7f2fd": "Jo hyväksytty",
@@ -116,6 +117,5 @@
 	"f668d5a5a8d6904c": "Et voi enää käyttää $1-tiliäsi kirjautuaksesi Phabricatoriin.",
 	"f72cbb45464d4870": "Käyttäjänimi/Salasana",
 	"f91800bc6bdae448": "Sähköpostiosoite on jo käytössä",
-	"fcd761054089234d": "Uudelleen",
-	"d5057af3cb1da0b5": "$1 on pakollinen!"
+	"fcd761054089234d": "Uudelleen"
 }

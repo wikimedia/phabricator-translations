@@ -1,9 +1,25 @@
 {
+	"@metadata": {
+		"authors": [
+			"Luku123",
+			"Pppery",
+			"Rzuwig",
+			"Stojex",
+			"Warchlak"
+		]
+	},
+	"00003a701ef56dd7": "Przerwano z powodu niepowodzenia przesyłania pliku. Możesz użyć $1 aby pominąć przesyłanie plików binarnych.",
+	"0008687c919b007e": "Ref \"$1\" nie istnieje w zdalnym \"$2\".",
+	"002c2a90a11d5b80": "Ta działająca kopia jest powiązana z repozytorium $1.",
+	"0034df47f76f0aef": "Skrócenie $1",
+	"016cde189902b433": "(Brak wiadomości.)",
+	"018bfac259f28112": "Zapisano \"$1\" jako \"$2\".",
 	"0210d3ef06cf7ebe": "Portugalski (Portugalia)",
 	"02b0fb123bd4347e": "Nie można zapisać danych pliku.",
 	"0475dff7846b6d50": "Ścieżka '$1' jest niemożliwa do odczytania.",
 	"04829987055905e6": "Angielski (piracki)",
 	"062d8a9dec0fa507": "port",
+	"0659835625602b10": "Brak testów do uruchomienia.",
 	"072081883973bd52": "Pusty klucz jest nieprawidłowy!",
 	"0b126000b8497001": "Angielski (Kanada)",
 	"0b99cebe565822c6": "BŁĄD",
@@ -14,6 +30,8 @@
 	"1c542e79c9b4257e": "Wrzesień",
 	"23408b19b29e8e84": "Śr",
 	"24b2a0993d0cfa93": "Pn",
+	"2da600bf94048431": "Wersja",
+	"2fa7a3aaf9b89f28": "Nierozpoznany argument \"$1\".",
 	"3593ccd96f6c0fad": "Cz",
 	"3c5bf776f5efcaa2": "Listopad",
 	"42e43b612a5dfae5": "Wtorek",
@@ -47,6 +65,7 @@
 	"9cfdf6c097325ccd": "Koreański (Republika Korei)",
 	"a9d371451b6909ac": "NAZWA",
 	"a9db906761699b31": "Czerwiec",
+	"b28c1e89bcdccffd": "Alias",
 	"b33ae975f527f9f9": "Hiszpański (Hiszpania)",
 	"b737558468d75ca5": "Lip",
 	"bb9bfefd5391f52b": "Lis",

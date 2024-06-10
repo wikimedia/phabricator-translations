@@ -13,6 +13,7 @@
 	"0bb627242dbb3c75": "SSH-nøgletype",
 	"0e484e84a1307497": "Sti til offentlig nøglefil.",
 	"10a01d3dab17312c": "Kan ikke logge ind",
+	"1295f3e050ccd893": "Forventede '$1' at være '$2'!",
 	"13c4e1d738794cb4": "Log på med LDAP",
 	"1792d2c4ae206e7c": "For kort",
 	"19166f670db6efac": "LDAP-brugernavn:",
@@ -67,6 +68,7 @@
 	"8d884d6c8bcb3934": "Konto deaktiveret",
 	"8e79d5b106832aa0": "LDAP-kodeord",
 	"8eefdd52ad2d9b9b": "Genereret",
+	"95234e834cee36b3": "Kunne ikke forbinde til LDAP-serveren ($1:$2).",
 	"9651b251f1e71e2e": "Registrer ny konto",
 	"987d754a4135f62a": "Login/Registrering",
 	"99f7ed543bf3747d": "Pålidelig",
@@ -94,6 +96,8 @@
 	"ca547e6d2c63e4e8": "Registrer konto",
 	"ca6ca17b1b8bc4b9": "Fedt",
 	"ce36cd512ad24e9e": "Accepteret af",
+	"ceba78a1a300689b": "Forventede '$1' som svar!",
+	"d5057af3cb1da0b5": "$1 er påkrævet!",
 	"d510ae63f2dc4696": "Opret ny konto",
 	"d527bf3db3dc8af6": "Log på",
 	"d672995a14650d0e": "Registrer",
@@ -115,9 +119,5 @@
 	"f3566cd0b39f71cf": "Standardbesked",
 	"f5c26334c3707c99": "Brug TLS",
 	"f72cbb45464d4870": "Brugernavn/Adgangskode",
-	"fcd761054089234d": "Igen",
-	"1295f3e050ccd893": "Forventede '$1' at være '$2'!",
-	"95234e834cee36b3": "Kunne ikke forbinde til LDAP-serveren ($1:$2).",
-	"ceba78a1a300689b": "Forventede '$1' som svar!",
-	"d5057af3cb1da0b5": "$1 er påkrævet!"
+	"fcd761054089234d": "Igen"
 }
