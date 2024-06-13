@@ -520,7 +520,6 @@
 	"5d93165a361bbb4d": "Dateiteilstücke konnten nicht hochgeladen werden: $1",
 	"5dba577e13051429": "Reihenfolge: Projekt",
 	"5e2d2e882438afe7": "Lesen eines Patches von stdin fehlgeschlagen!",
-	"5e600d46ea8aa7ce": "#$1: $2",
 	"5e613aaed881aa2a": "Server-URI \"$1\" muss ein Protokoll und eine Domain enthlten. Er sollte in der Form \"$2\" sein.",
 	"5e9537a423dbfcc4": "PHP-Kodierungsformat für Phutil-Bibliotheken.",
 	"5eb3d1e13f1118d3": "Gib einen String (oder eine Liste von Strings) an, der/die den Interpreter, der zum Aufrufen der Linter-Binary verwendet werden soll, identifiziert. Wenn du eine Liste von möglichen Interpretern angibst, wird der erste vorhandene verwendet.",

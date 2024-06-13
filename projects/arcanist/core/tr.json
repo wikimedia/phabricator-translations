@@ -717,7 +717,6 @@
 	"5dba577e13051429": "Sıra: Proje",
 	"5de4ab001e02794f": "parametre sorgusu",
 	"5e2d2e882438afe7": "Stdin'den yama okunamadı!",
-	"5e600d46ea8aa7ce": "#$1: $2",
 	"5e613aaed881aa2a": "Sunucu URI \"$1\" bir protokol ve etki alanı içermelidir. \"$2\" biçiminde olmalıdır.",
 	"5e9537a423dbfcc4": "Phutil kütüphaneleri için PHP Kodlama Standartları.",
 	"5eb3d1e13f1118d3": "Linter ikili dosyasını çağırmak için kullanılması gereken yorumlayıcıyı tanımlayan bir dize (veya dize listesi) belirtin. Olası tercümanların bir listesini sağlarsanız, var olan ilk tercümanlar kullanılır.",

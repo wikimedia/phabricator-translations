@@ -911,7 +911,6 @@
 	"5dba577e13051429": "Comanda: Projecte",
 	"5de4ab001e02794f": "paràmetres de consulta",
 	"5e2d2e882438afe7": "No s'ha pogut llegir el pedaç de stdin.",
-	"5e600d46ea8aa7ce": "#$1: $2",
 	"5e613aaed881aa2a": "L'URI del servidor '$1' ha d'incloure un protocol i un domini. Ha de tenir la forma \"$2\".",
 	"5e9537a423dbfcc4": "Estàndards de codificació PHP per a biblioteques Phutil.",
 	"5eb3d1e13f1118d3": "Especifiqueu una cadena (o una llista de cadenes) que identifiqui l’intèrpret que s’hauria d’utilitzar per invocar el linter binari. Si proporcioneu una llista de possibles intèrprets, s'utilitzarà el primer que existeixi.",
