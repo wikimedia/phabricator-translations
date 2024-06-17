@@ -14,7 +14,7 @@
 	"021f6fec2f98c532": "Suivant : $1",
 	"0697a4a521e77f96": "Phabricator standard.",
 	"08445f7550173734": "Détails de planification de version auto-générée.",
-	"095071d082bb595e": "Clé du consommateur",
+	"095071d082bb595e": "Jeton du consommateur",
 	"097bb4b171903e78": "Ceci ajoute un lien vers un maniphest de recherche pour les tâches ouvertes qui sont balisées par ce projet.\n\nNOTE : cette fonctionnalité est fournie par une extension maintenue par Wikimédia, ProjectOpenTasksProfileMenuItemextension. Voir {rPHEX} pour la source.",
 	"0c44559824c1e156": "Fusionné",
 	"0ca12429c5bd6363": "Projets Gerrit",

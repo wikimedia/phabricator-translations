@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Robby",
 			"Volvox"
 		]
 	},
@@ -11,7 +12,8 @@
 	"2375b7cd960c45e5": "D'Applikatioun $1 wierklech desinstalléieren?",
 	"37510d95565c399d": "Desinstalléiert",
 	"419a96aeba9f1d10": "Desinstalléiert Applikatioune weisen",
+	"659087d3ca23db6a": "Erweiderung",
 	"6c6b7f66587fd4f1": "Installéiert Applikatioune weisen",
 	"a735da1d32d75e3e": "Desinstalléieren",
-	"b4548d4f60ef7a38": "Dës Applikatioun kann net desinstalléiert ginn, well se gebraucht gëtt, fir datt Phabricator leeft."
+	"b4548d4f60ef7a38": "Dës Applikatioun ass erfuerderlech a kann net desinstalléiert ginn."
 }

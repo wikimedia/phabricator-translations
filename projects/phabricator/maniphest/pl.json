@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Warchlak",
+			"Woytecr"
+		]
+	},
+	"00c7859ed071e887": "Utwórz zadanie",
+	"018f8c914cdf6df4": "$1 usunął $2 jako osobę przypisaną do tego zadania.",
+	"01b0110fed6b1693": "Priorytet zadania.",
+	"049e3ce5476a39c3": "Przypisany",
+	"051ef08cc816d2c4": "Otwarte nadrzędne",
+	"0697a7ab4b4e8e82": "Lista kolumn, do których należy przenieść zadanie.",
+	"0698b681d6918121": "Zmiana subskrybentów zadania.",
+	"07d93e5bc3b14cdc": "$1 zamknął $2 jako $3.",
+	"08dc166255143315": "To zadanie zostało zablokowane.",
+	"0b31a4a60cadd2a7": "$1 podjął $2.",
+	"0b38838ff53e4bea": "SZCZEGÓŁY ZADANIA",
+	"0bc13bbebd1b6acf": "To zadanie ma już wybranego właściciela.",
+	"0ccd06ce7fcd42a4": "Zmieniono priorytet zadania",
+	"1017d8914055f0a8": "Zmieniono priorytet zadania na „$1”.",
+	"1082b53c4b606649": "Zadania muszą mieć tytuł.",
+	"1b37a17c20d446cb": "Wymaga zakwalifikowania",
+	"1c270dfe16ad271a": "Wspomniano w",
+	"2005c6e06dcd0722": "$1 zamknął to zadanie jako duplikat $2.",
+	"3278124a4e4bd510": "Zmień powiązane zadania...",
+	"f6881c1e21f3618c": "Zadania i błędy"
+}
