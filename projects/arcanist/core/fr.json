@@ -1187,7 +1187,6 @@
 	"6e6ae4ed5f446547": "Confirme l’utilisation d’une révision qui ne semble pas être présente dans la copie de travail.",
 	"6e9b4af64b7aeed1": "protocole",
 	"6ea3baebf909d4d1": "VERS LA VALIDATION",
-	"6eae3a5b062c6d0d": "...",
 	"6eaecadb05cb1e77": "La clé de dictionnaire « $1 » n’est pas une chaîne UTF-8 valide et ne peut pas être encodée en JSON.",
 	"6ed91f278dfc72b7": "Séquence d’échappement non prise en charge « $1 » trouvée dans le modèle : $2",
 	"6ee1c62d083e74df": "Mise à niveau de « $1 » (sur la branche « $2 »).",
