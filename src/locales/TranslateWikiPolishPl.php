@@ -1,7 +1,7 @@
 <?php
 
 /**
- * TranslateWiki Locale for Swedish localization in Phabricator
+ * TranslateWiki Locale for Polish localization in Phabricator
  */
 final class TranslateWikiPolishPl extends PhutilLocale {
     public function getLocaleCode() {

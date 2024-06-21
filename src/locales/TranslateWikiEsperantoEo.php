@@ -1,7 +1,7 @@
 <?php
 
 /**
- * TranslateWiki Locale for Greek (Greece) localization in Phabricator
+ * TranslateWiki Locale for Esperanto localization in Phabricator
  */
 final class TranslateWikiEsperantoEo extends PhutilLocale {
     public function getLocaleCode() {

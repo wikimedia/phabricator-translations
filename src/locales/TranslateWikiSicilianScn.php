@@ -12,6 +12,10 @@ final class TranslateWikiSicilianScn extends PhutilLocale {
       return pht('Sicilian');
   }
 
+  public function getFallbackLocaleCode() {
+    return 'it';
+  }
+
 }
 
 

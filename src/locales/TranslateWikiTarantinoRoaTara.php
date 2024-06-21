@@ -12,6 +12,9 @@ final class TranslateWikiTarantinoRoaTara extends PhutilLocale {
       return pht('Tarantino');
   }
 
+  public function getFallbackLocaleCode() {
+    return 'it';
+  }
 }
 
 
