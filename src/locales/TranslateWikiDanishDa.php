@@ -1,7 +1,7 @@
 <?php
 
 /**
- * TranslateWiki Locale for Greek (Greece) localization in Phabricator
+ * TranslateWiki Locale for Danish localization in Phabricator
  */
 final class TranslateWikiDanishDa extends PhutilLocale {
     public function getLocaleCode() {

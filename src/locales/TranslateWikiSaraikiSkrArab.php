@@ -12,4 +12,8 @@ final class TranslateWikiSaraikiSkrArab extends PhutilLocale {
         return pht('Saraiki (Arabic Script)');
     }
 
+    public function getFallbackLocaleCode() {
+        // None of the fallback languages defined on MediaWiki have locale files for Phabricator
+        return 'en_US';
+    }
 }
