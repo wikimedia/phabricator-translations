@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"005bfb7a94bf7cfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorTimeFormatSetting.php$34 PhabricatorTimeFormatSetting.php:34]",
 	"029d918e892243c4": "{{identical|Default}}\nThis is an entry in a dropdown menu allowing the user to select a setting, and $1 is the name of the default setting in that dropdown.\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorOptionGroupSetting.php$27 PhabricatorOptionGroupSetting.php:27]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorSelectSetting.php$15 PhabricatorSelectSetting.php:15]",
 	"03900398fbeb4eeb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorContactNumbersSettingsPanel.php$74 PhabricatorContactNumbersSettingsPanel.php:74]",
@@ -165,7 +160,7 @@
 	"b812b60b64ca4282": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/controller/PhabricatorSettingsIssueController.php$88 PhabricatorSettingsIssueController.php:88]",
 	"b8cd232a0cd46eec": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php$172 PhabricatorMultiFactorSettingsPanel.php:172]",
 	"b99af60bf33d1d6b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorNotificationsSetting.php$20 PhabricatorNotificationsSetting.php:20]",
-	"bc5dd045b8623ddf": "{{Related|Phabricator dates}}\n{{identical|Sunday}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorWeekStartDaySetting.php$31 PhabricatorWeekStartDaySetting.php:31]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/calendar/PHUICalendarMonthView.php$365 PHUICalendarMonthView.php:365]",
+	"bc5dd045b8623ddf": "{{Related|Phabricator dates}}\n{{identical|Sunday}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorWeekStartDaySetting.php$31 PhabricatorWeekStartDaySetting.php:31]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/calendar/PHUICalendarMonthView.php$365 PHUICalendarMonthView.php:365]",
 	"bc637e145af40254": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorDateFormatSetting.php$36 PhabricatorDateFormatSetting.php:36]",
 	"bd152f650dd7c90e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$95 PhabricatorExternalEditorSettingsPanel.php:95]",
 	"bd24db5b55ed57c7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/setting/PhabricatorEditorSetting.php$41 PhabricatorEditorSetting.php:41]",
@@ -199,7 +194,7 @@
 	"da2cf679ba35fc9f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorPasswordSettingsPanel.php$228 PhabricatorPasswordSettingsPanel.php:228]",
 	"da39a3ee5e6b4b0d": "{{Ignored}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorSessionsSettingsPanel.php$107 PhabricatorSessionsSettingsPanel.php:107]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorTokensSettingsPanel.php$69 PhabricatorTokensSettingsPanel.php:69]",
 	"da493c5260cdf58f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php$60 PhabricatorExternalAccountsSettingsPanel.php:60]",
-	"da544d1418799d25": "{{optional}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$108 PhabricatorExternalEditorSettingsPanel.php:108]",
+	"da544d1418799d25": "{{optional}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorExternalEditorSettingsPanel.php$108 PhabricatorExternalEditorSettingsPanel.php:108]",
 	"dc61c07908f739a0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php$353 PhabricatorEmailAddressesSettingsPanel.php:353]",
 	"dc6af3af1c478e38": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorPasswordSettingsPanel.php$145 PhabricatorPasswordSettingsPanel.php:145]",
 	"dda6ac27b9d3b234": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php$73 PhabricatorEmailAddressesSettingsPanel.php:73]",

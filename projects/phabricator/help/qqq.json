@@ -1,15 +1,10 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"17b251be5661401b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$25 PhabricatorHelpKeyboardShortcutController.php:25]",
 	"47d16aa0f68a0f68": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$31 PhabricatorHelpKeyboardShortcutController.php:31]",
-	"6bbbdac8f41b22d9": "{{identical|Help}}\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpDocumentationController.php$23 PhabricatorHelpDocumentationController.php:23]",
+	"6bbbdac8f41b22d9": "{{identical|Help}}\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpDocumentationController.php$23 PhabricatorHelpDocumentationController.php:23]",
 	"74a0401e1c560ba1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$39 PhabricatorHelpKeyboardShortcutController.php:39]",
 	"8a384cf957e63a11": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$43 PhabricatorHelpKeyboardShortcutController.php:43]",
 	"9b2c45900d277c38": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$51 PhabricatorHelpKeyboardShortcutController.php:51]",
-	"b465751c05fbc426": "{{identical|Keyboard shortcut}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$124 PhabricatorHelpKeyboardShortcutController.php:124]",
+	"b465751c05fbc426": "{{identical|Keyboard shortcut}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$124 PhabricatorHelpKeyboardShortcutController.php:124]",
 	"d113ddb855793cc5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/help/controller/PhabricatorHelpKeyboardShortcutController.php$35 PhabricatorHelpKeyboardShortcutController.php:35]"
 }

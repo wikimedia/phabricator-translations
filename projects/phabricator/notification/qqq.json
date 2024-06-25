@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"07b032b56f7aa399": "Used at https://phabricator.wikimedia.org/notification/query/advanced/ (requires login)\n\n{{identical|Unread}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/notification/query/PhabricatorNotificationSearchEngine.php$43 PhabricatorNotificationSearchEngine.php:43]",
 	"14dd2a4656a89116": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/notification/client/PhabricatorNotificationServerRef.php$209 PhabricatorNotificationServerRef.php:209]",
 	"215ed57ea00cd4b2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/notification/query/PhabricatorNotificationSearchEngine.php$58 PhabricatorNotificationSearchEngine.php:58]",

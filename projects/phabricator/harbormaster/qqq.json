@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"00bb37fda5eb6c1d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/phid/HarbormasterBuildArtifactPHIDType.php$8 HarbormasterBuildArtifactPHIDType.php:8]",
 	"00cc2bd78e919197": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/phid/HarbormasterBuildPlanPHIDType.php$39 HarbormasterBuildPlanPHIDType.php:39]",
 	"013ba87b38d1b5c6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/storage/build/HarbormasterBuildTarget.php$39 HarbormasterBuildTarget.php:39]",
@@ -342,7 +337,7 @@
 	"743a2d5609a7296d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/integration/circleci/HarbormasterCircleCIBuildStepImplementation.php$88 HarbormasterCircleCIBuildStepImplementation.php:88]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/integration/circleci/HarbormasterCircleCIBuildStepImplementation.php$197 HarbormasterCircleCIBuildStepImplementation.php:197]",
 	"75f334b72a604b9b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/integration/buildkite/HarbormasterBuildkiteBuildStepImplementation.php$11 HarbormasterBuildkiteBuildStepImplementation.php:11]",
 	"7692bf72c13e40f1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/conduit/HarbormasterSendMessageConduitAPIMethod.php$521 HarbormasterSendMessageConduitAPIMethod.php:521]",
-	"769bb19e615b7f8e": "{{identical|When}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/controller/HarbormasterBuildViewController.php$210 HarbormasterBuildViewController.php:210]",
+	"769bb19e615b7f8e": "{{identical|When}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/controller/HarbormasterBuildViewController.php$210 HarbormasterBuildViewController.php:210]",
 	"76af05d2a9ccc1ae": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/query/HarbormasterBuildableSearchEngine.php$42 HarbormasterBuildableSearchEngine.php:42]",
 	"76f6d0c923d65942": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/editor/HarbormasterBuildPlanEditEngine.php$89 HarbormasterBuildPlanEditEngine.php:89]",
 	"7763f3ea3036905b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/xaction/build/HarbormasterBuildMessageAbortTransaction.php$52 HarbormasterBuildMessageAbortTransaction.php:52]",
@@ -707,7 +702,7 @@
 	"fc3e91954dd86b91": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/editor/HarbormasterBuildPlanEditEngine.php$21 HarbormasterBuildPlanEditEngine.php:21]",
 	"fc7545a68b10c84c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/conduit/HarbormasterSendMessageConduitAPIMethod.php$436 HarbormasterSendMessageConduitAPIMethod.php:436]",
 	"fddb985dc4fdbdfb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/xaction/build/HarbormasterBuildMessageResumeTransaction.php$102 HarbormasterBuildMessageResumeTransaction.php:102]",
-	"fde49aa00f4966a6": "{{identical|Null}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/controller/HarbormasterPlanViewController.php$312 HarbormasterPlanViewController.php:312]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/step/HarbormasterBuildStepImplementation.php$227 HarbormasterBuildStepImplementation.php:227]",
+	"fde49aa00f4966a6": "{{identical|Null}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/controller/HarbormasterPlanViewController.php$312 HarbormasterPlanViewController.php:312]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/step/HarbormasterBuildStepImplementation.php$227 HarbormasterBuildStepImplementation.php:227]",
 	"fe88c6fac900555d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/xaction/build/HarbormasterBuildMessageRestartTransaction.php$27 HarbormasterBuildMessageRestartTransaction.php:27]",
 	"fea1d610091ad318": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/query/HarbormasterBuildableSearchEngine.php$37 HarbormasterBuildableSearchEngine.php:37]",
 	"ff7d3857c92dd1bd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/xaction/build/HarbormasterBuildMessageAbortTransaction.php$14 HarbormasterBuildMessageAbortTransaction.php:14]",

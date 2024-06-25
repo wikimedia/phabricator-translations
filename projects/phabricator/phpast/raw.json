@@ -1,10 +1,10 @@
 {
-  "05e30d2a45e77780": "PHPAST",
-  "1d2d5262d9a87a79": "Node %d: %s",
-  "1e0c281ce4e49361": "Generate XHP AST",
-  "384fb8001a431c5c": "Token %d: %s",
-  "58e322d16b8289d8": "XHPAST View",
-  "b7e45a36ff3610e0": "Parse",
-  "bd1b30579c4c7a5a": "No such AST!",
-  "bd3361abd5561576": "Visual PHP Parser"
+	"05e30d2a45e77780": "PHPAST",
+	"1d2d5262d9a87a79": "Node %d: %s",
+	"1e0c281ce4e49361": "Generate XHP AST",
+	"384fb8001a431c5c": "Token %d: %s",
+	"58e322d16b8289d8": "XHPAST View",
+	"b7e45a36ff3610e0": "Parse",
+	"bd1b30579c4c7a5a": "No such AST!",
+	"bd3361abd5561576": "Visual PHP Parser"
 }

@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"005b04a6a1c3f591": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldTestConsoleController.php$86 HeraldTestConsoleController.php:86]",
 	"0101e7547ce910cb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldNewController.php$65 HeraldNewController.php:65]",
 	"0261f481b08181d7": "Variable Types: PLURAL, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/engine/HeraldEngine.php$966 HeraldEngine.php:966]",
@@ -66,7 +61,7 @@
 	"2f9f2e1af4abd2f8": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/engine/HeraldEngine.php$119 HeraldEngine.php:119]",
 	"3003f1542e312141": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldTranscriptController.php$432 HeraldTranscriptController.php:432]",
 	"30accf9d3772108e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/storage/transcript/HeraldRuleResult.php$174 HeraldRuleResult.php:174]",
-	"31b379eded664541": "{{optional}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/editor/HeraldRuleEditor.php$67 HeraldRuleEditor.php:67]",
+	"31b379eded664541": "{{optional}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/editor/HeraldRuleEditor.php$67 HeraldRuleEditor.php:67]",
 	"31da1961bbfc7c4d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldTranscriptController.php$729 HeraldTranscriptController.php:729]",
 	"31ef42a5385a43d3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldNewController.php$186 HeraldNewController.php:186]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/storage/transcript/HeraldRuleResult.php$172 HeraldRuleResult.php:172]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/view/HeraldRuleListView.php$43 HeraldRuleListView.php:43]",
 	"3215b81ce0bb107c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldRuleController.php$163 HeraldRuleController.php:163]",
@@ -137,7 +132,7 @@
 	"5f2ed8c4d6bd94d4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/storage/HeraldWebhookRequest.php$235 HeraldWebhookRequest.php:235]",
 	"5fe1e28c41f78ac8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/adapter/HeraldAdapter.php$411 HeraldAdapter.php:411]",
 	"5fe263a2810b6a80": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldTestConsoleController.php$111 HeraldTestConsoleController.php:111]",
-	"5ffe533b830f08a0": "{{identical|True}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/value/HeraldBoolFieldValue.php$24 HeraldBoolFieldValue.php:24]",
+	"5ffe533b830f08a0": "{{identical|True}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/value/HeraldBoolFieldValue.php$24 HeraldBoolFieldValue.php:24]",
 	"600bd5beed3bfc0e": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/storage/HeraldRule.php$248 HeraldRule.php:248]",
 	"60e14164be4e7c95": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldTranscriptController.php$380 HeraldTranscriptController.php:380]",
 	"60e9a48849fcfd28": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/xaction/HeraldWebhookNameTransaction.php$39 HeraldWebhookNameTransaction.php:39]",
@@ -175,7 +170,7 @@
 	"7ac542346a879375": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldDisableController.php$49 HeraldDisableController.php:49]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/controller/HeraldRuleViewController.php$94 HeraldRuleViewController.php:94]",
 	"7b1905b963626c6d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/management/HeraldRuleManagementWorkflow.php$19 HeraldRuleManagementWorkflow.php:19]",
 	"7b5d9a33822fb2fe": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/xaction/HeraldRuleNameTransaction.php$40 HeraldRuleNameTransaction.php:40]",
-	"7cb6efb98ba5972a": "{{identical|False}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/value/HeraldBoolFieldValue.php$26 HeraldBoolFieldValue.php:26]",
+	"7cb6efb98ba5972a": "{{identical|False}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/value/HeraldBoolFieldValue.php$26 HeraldBoolFieldValue.php:26]",
 	"7d482386bbf6bfd1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/management/HeraldRuleManagementWorkflow.php$27 HeraldRuleManagementWorkflow.php:27]",
 	"7d4b479d36f7b8f3": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/view/HeraldRuleListView.php$57 HeraldRuleListView.php:57]",
 	"7d74c37cb856b5db": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/herald/adapter/HeraldAdapter.php$212 HeraldAdapter.php:212]",

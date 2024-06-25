@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"0006324868d87fff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$134 FundInitiativeEditEngine.php:134]",
 	"09da16816c90724b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$142 FundInitiativeEditEngine.php:142]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$143 FundInitiativeEditEngine.php:143]",
 	"0c65384c668ba13b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/xaction/FundInitiativeStatusTransaction.php$19 FundInitiativeStatusTransaction.php:19]",
@@ -55,7 +50,7 @@
 	"8998e1389dfe9094": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/query/FundBackerSearchEngine.php$129 FundBackerSearchEngine.php:129]",
 	"8bb95f22bf97e9c8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/controller/FundInitiativeViewController.php$108 FundInitiativeViewController.php:108]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$141 FundInitiativeEditEngine.php:141]",
 	"9093e40fdf10e84d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/controller/FundInitiativeViewController.php$93 FundInitiativeViewController.php:93]",
-	"95345e276ffbb748": "{{identical|Donate}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/application/PhabricatorFundApplication.php$14 PhabricatorFundApplication.php:14]",
+	"95345e276ffbb748": "{{identical|Donate}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/application/PhabricatorFundApplication.php$14 PhabricatorFundApplication.php:14]",
 	"97a967ba9b4d7cb8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/storage/FundBacker.php$105 FundBacker.php:105]",
 	"98cfe2504cb86544": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/xaction/FundInitiativeStatusTransaction.php$23 FundInitiativeStatusTransaction.php:23]",
 	"9ce636b0c03051a9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/xaction/FundInitiativeMerchantTransaction.php$60 FundInitiativeMerchantTransaction.php:60]",

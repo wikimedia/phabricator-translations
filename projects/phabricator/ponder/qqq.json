@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"02fc4e2708e20a21": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/editor/PonderQuestionEditEngine.php$37 PonderQuestionEditEngine.php:37]",
 	"04cf8c77ea56466f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/xaction/PonderAnswerStatusTransaction.php$20 PonderAnswerStatusTransaction.php:20]",
 	"050762667fad1abf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/controller/PonderQuestionViewController.php$97 PonderQuestionViewController.php:97]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/editor/PonderQuestionEditEngine.php$90 PonderQuestionEditEngine.php:90]",
@@ -69,7 +64,7 @@
 	"9d873cf986bcd664": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/editor/PonderAnswerEditor.php$79 PonderAnswerEditor.php:79]",
 	"9e5aa49cd927cd7a": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/xaction/PonderAnswerStatusTransaction.php$24 PonderAnswerStatusTransaction.php:24]",
 	"9e82ca6107bf9082": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/xaction/PonderAnswerStatusTransaction.php$33 PonderAnswerStatusTransaction.php:33]",
-	"a16a4eda7cb2c8e9": "{{identical|Answer}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/controller/PonderAnswerEditController.php$81 PonderAnswerEditController.php:81]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/controller/PonderAnswerEditController.php$101 PonderAnswerEditController.php:101]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/view/PonderAddAnswerView.php$59 PonderAddAnswerView.php:59]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/view/PonderAddAnswerView.php$81 PonderAddAnswerView.php:81]",
+	"a16a4eda7cb2c8e9": "{{identical|Answer}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/controller/PonderAnswerEditController.php$81 PonderAnswerEditController.php:81]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/controller/PonderAnswerEditController.php$101 PonderAnswerEditController.php:101]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/view/PonderAddAnswerView.php$59 PonderAddAnswerView.php:59]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/view/PonderAddAnswerView.php$81 PonderAddAnswerView.php:81]",
 	"a25651da156e8c3d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/view/PonderFooterView.php$39 PonderFooterView.php:39]",
 	"a3f31f465f196ae3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/constants/PonderQuestionStatus.php$46 PonderQuestionStatus.php:46]",
 	"a47ef0eb7bb5e3de": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/ponder/editor/PonderQuestionEditor.php$133 PonderQuestionEditor.php:133]",

@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"008c665e5fdb3368": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockArchiveController.php$54 PholioMockArchiveController.php:54]",
 	"036231930e29da3d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockEditController.php$293 PholioMockEditController.php:293]",
 	"04070cb3952d9f7c": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioImageReplaceTransaction.php$32 PholioImageReplaceTransaction.php:32]",
@@ -26,7 +21,7 @@
 	"3a554040d7e89117": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/herald/HeraldPholioMockAdapter.php$12 HeraldPholioMockAdapter.php:12]",
 	"4635136ad77d9a37": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioImageReplaceTransaction.php$102 PholioImageReplaceTransaction.php:102]",
 	"473d386d7e084468": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/query/PholioMockSearchEngine.php$146 PholioMockSearchEngine.php:146]",
-	"47431307b9cd9a9a": "{{identical|Pholio}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/application/PhabricatorPholioApplication.php$6 PhabricatorPholioApplication.php:6]",
+	"47431307b9cd9a9a": "{{identical|Pholio}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/application/PhabricatorPholioApplication.php$6 PhabricatorPholioApplication.php:6]",
 	"48a5d0172599ed01": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/editor/PholioMockEditor.php$231 PholioMockEditor.php:231]",
 	"49b548bd87c5761c": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioMockDescriptionTransaction.php$18 PholioMockDescriptionTransaction.php:18]",
 	"4a04b71639fe8869": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioImageDescriptionTransaction.php$37 PholioImageDescriptionTransaction.php:37]",
@@ -48,7 +43,7 @@
 	"738da5323c0ca0ff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockEditController.php$291 PholioMockEditController.php:291]",
 	"74bb5e0ce56bf81c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/application/PhabricatorPholioApplication.php$26 PhabricatorPholioApplication.php:26]",
 	"777f919b9bf55810": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/view/PholioMockThumbGridView.php$80 PholioMockThumbGridView.php:80]",
-	"78e43e7c8ebe4812": "{{identical|Pholio}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/editor/PholioMockEditor.php$142 PholioMockEditor.php:142]",
+	"78e43e7c8ebe4812": "{{identical|Pholio}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/editor/PholioMockEditor.php$142 PholioMockEditor.php:142]",
 	"839724218713295c": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioMockStatusTransaction.php$40 PholioMockStatusTransaction.php:40]",
 	"84792578b52006b6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockViewController.php$186 PholioMockViewController.php:186]",
 	"8582a8610bca4a86": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/edge/PholioMockHasTaskEdgeType.php$48 PholioMockHasTaskEdgeType.php:48]",
@@ -70,7 +65,7 @@
 	"ba25ca451dd7a6d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockViewController.php$129 PholioMockViewController.php:129]",
 	"bb3dbd7326775cf5": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/query/PholioMockSearchEngine.php$121 PholioMockSearchEngine.php:121]",
 	"bf416827c9b32d32": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioMockNameTransaction.php$71 PholioMockNameTransaction.php:71]",
-	"c076079459852703": "{{identical|Image}}\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/editor/PholioMockEditor.php$136 PholioMockEditor.php:136]",
+	"c076079459852703": "{{identical|Image}}\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/editor/PholioMockEditor.php$136 PholioMockEditor.php:136]",
 	"c575edb42770983f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockArchiveController.php$53 PholioMockArchiveController.php:53]",
 	"ca74323a8e5e8184": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioImageFileTransaction.php$79 PholioImageFileTransaction.php:79]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioImageReplaceTransaction.php$40 PholioImageReplaceTransaction.php:40]",
 	"d31c9884cf819408": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/edge/PholioMockHasTaskEdgeType.php$63 PholioMockHasTaskEdgeType.php:63]",

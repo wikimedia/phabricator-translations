@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"003e7968b57e3f4e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/controller/panel/PhabricatorDashboardPanelViewController.php$104 PhabricatorDashboardPanelViewController.php:104]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/editor/PhabricatorDashboardPanelEditEngine.php$129 PhabricatorDashboardPanelEditEngine.php:129]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/editor/PhabricatorDashboardPanelEditEngine.php$133 PhabricatorDashboardPanelEditEngine.php:133]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/engine/PhabricatorDashboardPanelRenderingEngine.php$376 PhabricatorDashboardPanelRenderingEngine.php:376]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/paneltype/PhabricatorDashboardTabsPanelType.php$210 PhabricatorDashboardTabsPanelType.php:210]",
 	"01aef799362041d9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/editor/PhabricatorDashboardEditEngine.php$96 PhabricatorDashboardEditEngine.php:96]",
 	"02329d90baaa4732": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/editor/PhabricatorDashboardPanelEditEngine.php$125 PhabricatorDashboardPanelEditEngine.php:125]",
@@ -97,7 +92,7 @@
 	"55e60145f714008b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/install/PhabricatorDashboardHomeInstallWorkflow.php$78 PhabricatorDashboardHomeInstallWorkflow.php:78]",
 	"5717ea9f534e46f8": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/editfield/PhabricatorDashboardQueryPanelQueryEditField.php$42 PhabricatorDashboardQueryPanelQueryEditField.php:42]",
 	"5735de7276f5e771": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/editor/PhabricatorDashboardPortalEditor.php$15 PhabricatorDashboardPortalEditor.php:15]",
-	"57f5f5efbc5990f5": "{{identical|Menu}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/controller/dashboard/PhabricatorDashboardViewController.php$180 PhabricatorDashboardViewController.php:180]",
+	"57f5f5efbc5990f5": "{{identical|Menu}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/controller/dashboard/PhabricatorDashboardViewController.php$180 PhabricatorDashboardViewController.php:180]",
 	"58de53187e583d9f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/engine/PhabricatorDashboardPanelRenderingEngine.php$143 PhabricatorDashboardPanelRenderingEngine.php:143]",
 	"593067b73a815cdf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/icon/PhabricatorDashboardIconSet.php$30 PhabricatorDashboardIconSet.php:30]",
 	"5aee5886d7c5c8bc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/dashboard/controller/panel/PhabricatorDashboardPanelArchiveController.php$49 PhabricatorDashboardPanelArchiveController.php:49]",

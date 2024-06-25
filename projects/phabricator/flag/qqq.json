@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"075b45870ec7ec57": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$74 PhabricatorFlagRemoveFlagHeraldAction.php:74]",
 	"197a62696ce8fbf0": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$72 PhabricatorFlagAddFlagHeraldAction.php:72]",
 	"1c3d8a33c4e3bcd5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/application/PhabricatorFlagsApplication.php$10 PhabricatorFlagsApplication.php:10]",
@@ -19,7 +14,7 @@
 	"76dbf884271fdcfd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/events/PhabricatorFlagsUIEventListener.php$49 PhabricatorFlagsUIEventListener.php:49]",
 	"7b4e95c2e6f33f5e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$12 PhabricatorFlagRemoveFlagHeraldAction.php:12]",
 	"7dda51ce77f4eb5f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/conduit/FlagDeleteConduitAPIMethod.php$27 FlagDeleteConduitAPIMethod.php:27]",
-	"8828ce01607a48df": "{{identical|Flag}}\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/controller/PhabricatorFlagEditController.php$41 PhabricatorFlagEditController.php:41]",
+	"8828ce01607a48df": "{{identical|Flag}}\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/controller/PhabricatorFlagEditController.php$41 PhabricatorFlagEditController.php:41]",
 	"8993d3e323986eb5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$52 PhabricatorFlagRemoveFlagHeraldAction.php:52]",
 	"94d23c9bf50bab36": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/conduit/FlagEditConduitAPIMethod.php$10 FlagEditConduitAPIMethod.php:10]",
 	"a12b4c41e336ccf7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/controller/PhabricatorFlagEditController.php$81 PhabricatorFlagEditController.php:81]",

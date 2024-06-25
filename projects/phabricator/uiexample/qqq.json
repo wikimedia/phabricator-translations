@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"010b85ad56b34c34": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIListExample.php$58 PHUIListExample.php:58]",
 	"012f8f179c6f858d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIInfoExample.php$6 PHUIInfoExample.php:6]",
 	"013ebba353f1c8f6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIImageMaskExample.php$6 PHUIImageMaskExample.php:6]",
@@ -135,7 +130,7 @@
 	"570c92b0d465030a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIColorPalletteExample.php$106 PHUIColorPalletteExample.php:106]",
 	"571f8e130229a349": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIImageMaskExample.php$69 PHUIImageMaskExample.php:69]",
 	"573dd2c2ed953b97": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIPropertyListExample.php$27 PHUIPropertyListExample.php:27]",
-	"57c9502a7d7d48fd": "{{identical|List}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIListExample.php$6 PHUIListExample.php:6]",
+	"57c9502a7d7d48fd": "{{identical|List}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIListExample.php$6 PHUIListExample.php:6]",
 	"58974a0179553a5f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITypeaheadExample.php$32 PHUITypeaheadExample.php:32]",
 	"58e406e8754a615a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIImageMaskExample.php$65 PHUIImageMaskExample.php:65]",
 	"5a06580dbe3d1f84": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIHovercardUIExample.php$52 PHUIHovercardUIExample.php:52]",
@@ -167,7 +162,7 @@
 	"6fee66aef13e10d1": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITagExample.php$11 PHUITagExample.php:11]",
 	"70b207c3cd0bee61": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIButtonExample.php$69 PHUIButtonExample.php:69]",
 	"714d059eb0beeac8": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIObjectItemListExample.php$11 PHUIObjectItemListExample.php:11]",
-	"71d42a062410ea66": "{{identical|Outline}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITagExample.php$226 PHUITagExample.php:226]",
+	"71d42a062410ea66": "{{identical|Outline}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITagExample.php$226 PHUITagExample.php:226]",
 	"72348400d3583927": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUILeftRightExample.php$6 PHUILeftRightExample.php:6]",
 	"727e6f1a4e63d422": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITypeaheadExample.php$27 PHUITypeaheadExample.php:27]",
 	"72f12cfc264c3aa0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PhabricatorStatusUIExample.php$37 PhabricatorStatusUIExample.php:37]",
@@ -188,7 +183,7 @@
 	"7e25f8401bbd6dc6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITypeaheadExample.php$22 PHUITypeaheadExample.php:22]",
 	"80729cc5d8e09e32": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITagExample.php$214 PHUITagExample.php:214]",
 	"80a831f12a22aa22": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITimelineExample.php$124 PHUITimelineExample.php:124]",
-	"80d8b8cf2291a90b": "{{ignored}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIBadgeExample.php$96 PHUIBadgeExample.php:96]",
+	"80d8b8cf2291a90b": "{{ignored}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIBadgeExample.php$96 PHUIBadgeExample.php:96]",
 	"81938157df932457": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUITimelineExample.php$38 PHUITimelineExample.php:38]",
 	"829a49841c64d30b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PHUIListExample.php$10 PHUIListExample.php:10]",
 	"82fe68b8ee66be8e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/uiexample/examples/PhabricatorRemarkupUIExample.php$6 PhabricatorRemarkupUIExample.php:6]",

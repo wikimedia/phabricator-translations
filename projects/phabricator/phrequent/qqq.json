@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"08189b0386c8a9c6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/engineextension/PhrequentCurtainExtension.php$55 PhrequentCurtainExtension.php:55]",
 	"0bb685943889897c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/query/PhrequentUserTimeQuery.php$248 PhrequentUserTimeQuery.php:248]",
 	"10e0739fd63c014e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$82 PhrequentTrackController.php:82]",
@@ -33,7 +28,7 @@
 	"a998035d23ac0f44": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/engineextension/PhrequentCurtainExtension.php$67 PhrequentCurtainExtension.php:67]",
 	"ac70cb7d44af5b54": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$138 PhrequentTrackController.php:138]",
 	"ad8ba3a7f40fb139": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$28 PhrequentTrackController.php:28]",
-	"b195946f55feedbc": "{{identical|Ago}}\nVariable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$132 PhrequentTrackController.php:132]",
+	"b195946f55feedbc": "{{identical|Ago}}\n\nVariable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$132 PhrequentTrackController.php:132]",
 	"b2514a3ad6d6c318": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$31 PhrequentTrackController.php:31]",
 	"b68c6afc37da1634": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/controller/PhrequentTrackController.php$30 PhrequentTrackController.php:30]",
 	"b8af539b8e934ece": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phrequent/application/PhabricatorPhrequentApplication.php$6 PhabricatorPhrequentApplication.php:6]",
