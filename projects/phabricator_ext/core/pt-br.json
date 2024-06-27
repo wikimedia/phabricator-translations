@@ -12,7 +12,6 @@
 	"08445f7550173734": "Detalhes da programação de lançamentos gerados automaticamente.",
 	"095071d082bb595e": "Chave do consumidor",
 	"0c44559824c1e156": "Fundida",
-	"0ca12429c5bd6363": "Projetos no Gerrit",
 	"0ec5ac08bc4d21de": "Comentários de revisão de código não resolvidos: $1",
 	"0ffcfff67f23b16e": "Não é Possível Trancar a Tarefa",
 	"10cbc6000e93bab8": "Implantar '$1' à Wikis $2",
@@ -33,7 +32,6 @@
 	"3e23efbcb5cf65ab": "Ação inválida '$1'!",
 	"429f9802c2088c4c": "MediaWiki",
 	"46d8b46923d1248d": "URI de base do MediaWiki",
-	"4ab9fcd02a0672af": "O projeto solicitado não existe",
 	"51f99735e504752c": "Alterar tipo para \"$1.\"",
 	"522cd9ae192cee70": "Encontre transações públicas por um usuário específico.",
 	"5349bc5f15aeaa1d": "Passo 2 de 2: Crie um consumidor de autenticação MediaWiki para essa instância do Phabricator.\n\nNOTA: Proponha um consumidor com a forma nesse url: $1\n\nProvidencie as seguintes configurações no registro do consumidor:\n\n-Revogar URL:Coloque em $2\n-Permissões:'Direitos Básicos' é só que precisa de autenticação.\n\nDepois de registrar o consumidor, uma \"Chave de Consumidor\" e um \"Segredo de Consumidor\" vão ser fornecidas para você pela MediaWiki. Para completar a configuração do Phabricator, copie as chaves fornecidas nos campos correspondentes acima.\n\nNOTA:Antes que o Phabricator possa autenticar com sucesso seu MediaWiki, um administrador wiki deve aprovar o registro do consumidor oauth usando a forma que pode ser encontrada no seguinte url: $3",
@@ -79,9 +77,7 @@
 	"cf9f482831ac6e9f": "Anterior: $1",
 	"d354e975d96e4a44": "Expandir instruções",
 	"d3996a5cc700c668": "Você não pode reverter a atividade de um usuário privilegiado.",
-	"ddfeb4ed5095a1d2": "Baixar zip",
 	"e01dad0522007502": "O URL completo para a instalação do seu MediaWiki, até mas sem incluir \"index.php\"",
-	"e07350d7b9791f85": "Baixar arquivo",
 	"e1114637354ee0ee": "Este painel mostra links de navegação para outros marcos da mesma série.",
 	"e20bdc892a74ee50": "Modo especialista",
 	"e360b2c8470aeb30": "Nomes de mediawiki desconhecidos ou ausentes: $1",
@@ -94,6 +90,5 @@
 	"f833adbd55be04c8": "Linha(s) $1 adicionada(s)",
 	"f888fcf4b493b0b9": "Se algo é sério o suficiente para justificar uma reversão então você deve alertar os implantadores em[[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].",
 	"fce06e20e5f7f74a": "Comentários",
-	"ff51f6bbe14ebe12": "Baixar tar.gz",
 	"ff8213df8757cc4a": "Alterar tipo para \"$1\""
 }

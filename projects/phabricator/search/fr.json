@@ -247,7 +247,6 @@
 	"a61c1a9ca2ad289e": "La valeur de date pour « $1 » ne peut pas être analysée.",
 	"a8ad860c15810cce": "NOTE",
 	"ab5406b8508263b8": "« $1 » doit être une date antérieure à « $2 ».",
-	"ab7ad9c6ee4f7116": "Trop de relations ($1, de type « $2 »).",
 	"abd3fe0ae120caa7": "Recherche en texte intégral",
 	"ad51e3c9a42b9ca2": "Faites glisser les éléments de cette liste pour les réorganiser.",
 	"ad996cbc83f84b87": "Élaguer les n-grammes présents dans plus que cette fraction des documents. Indiquer une valeur comprise entre 0,0 et 1,0.",

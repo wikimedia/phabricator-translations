@@ -1,4 +1,10 @@
 {
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Pppery"
+		]
+	},
 	"006ecd0b269da44a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorSecurityConfigOptions.php$170 PhabricatorSecurityConfigOptions.php:170]",
 	"00ae349f1ce0e6f9": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/check/PhabricatorExtraConfigSetupCheck.php$148 PhabricatorExtraConfigSetupCheck.php:148]",
 	"00c94cc9d03ac122": "Hint text shown when hoverring a menu item.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/PhabricatorConfigConsoleController.php$21 PhabricatorConfigConsoleController.php:21]",

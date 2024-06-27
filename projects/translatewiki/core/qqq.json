@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"0294e4a93c79fe48": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$48 TranslatewikiManagementExportWorkflow.php:48]",
 	"04a422d38c95415c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiSwedishSv.php$12 TranslateWikiSwedishSv.php:12]",
 	"057a91bd9d909212": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$276 TranslatewikiManagementExportWorkflow.php:276]",

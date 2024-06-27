@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"00acc4853f2fbead": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/__tests__/PhabricatorProjectCoreTestCase.php$1023 PhabricatorProjectCoreTestCase.php:1023]",
 	"00bacf55615d1518": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/typeahead/PhabricatorProjectNoProjectsDatasource.php$7 PhabricatorProjectNoProjectsDatasource.php:7]",
 	"018514a3d58aa083": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/icon/PhabricatorProjectIconSet.php$50 PhabricatorProjectIconSet.php:50]",

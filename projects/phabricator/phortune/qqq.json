@@ -1,4 +1,10 @@
 {
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Pppery"
+		]
+	},
 	"003cffcec51407e8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phortune/controller/merchant/PhortuneMerchantInvoiceCreateController.php$137 PhortuneMerchantInvoiceCreateController.php:137]",
 	"008098f22c2e5658": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phortune/controller/merchant/PhortuneMerchantPictureController.php$171 PhortuneMerchantPictureController.php:171]",
 	"00d0ff824fde171b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phortune/editor/PhortuneCartEditor.php$143 PhortuneCartEditor.php:143]",

@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"0011bad3ecc480f3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/controller/PhabricatorEditEngineConfigurationLockController.php$113 PhabricatorEditEngineConfigurationLockController.php:113]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/controller/PhabricatorEditEngineConfigurationViewController.php$158 PhabricatorEditEngineConfigurationViewController.php:158]",
 	"0046d5690d69508d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/editor/PhabricatorApplicationTransactionEditor.php$3212 PhabricatorApplicationTransactionEditor.php:3212]",
 	"0072838ce7dea87e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/transactions/controller/PhabricatorEditEngineConfigurationViewController.php$213 PhabricatorEditEngineConfigurationViewController.php:213]",

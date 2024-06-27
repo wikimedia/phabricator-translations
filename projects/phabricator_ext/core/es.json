@@ -6,12 +6,9 @@
 			"Rodney Araujo"
 		]
 	},
-	"0ca12429c5bd6363": "Proyectos en Gerrit",
-	"4ab9fcd02a0672af": "El proyecto solicitado no existe",
 	"bb640aa769e1bc55": "Usuario de MediaWiki",
 	"bc67f6bb78373f52": "Tareas abiertas",
 	"bdfae00c2df98e83": "**Nombre de instancia de MediaWiki**\n\nEscoge un nombre permanente para esta instancia de MediaWiki. Phabricator utiliza este nombre internamente para llevar un registro de esta instancia de MediaWiki, en caso de que el URL cambie más tarde.\n\nUsa letras minúsculas, dígitos, y puntos. Por ejemplo: \n\n`mediawiki`, `mediawiki.micompania` o `mediawiki.ingenieria` son nombres razonables.",
 	"be67844b013fc678": "Cuentas globales",
-	"d4e68ee11abaf593": "Cualquier tarea(s) abierta(s) bloquea(n) al tren para avanzar. Esto significa que ningún despliegue  más se hará hasta que se resuelvan los bloqueadores.",
-	"e07350d7b9791f85": "Archivo de descargas"
+	"d4e68ee11abaf593": "Cualquier tarea(s) abierta(s) bloquea(n) al tren para avanzar. Esto significa que ningún despliegue  más se hará hasta que se resuelvan los bloqueadores."
 }

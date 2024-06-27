@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"0b890da5a58e8041": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$103 PhabricatorApplicationUninstallController.php:103]",
 	"0eb5ed506e4923c2": "{{Identical|Information}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$85 PhabricatorApplicationUninstallController.php:85]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$114 PhabricatorApplicationUninstallController.php:114]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/PHUIIconCircleView.php$101 PHUIIconCircleView.php:101]",
 	"17c7ba7676ad1ad6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationEmailCommandsController.php$99 PhabricatorApplicationEmailCommandsController.php:99]",

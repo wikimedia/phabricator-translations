@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"008c665e5fdb3368": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockArchiveController.php$54 PholioMockArchiveController.php:54]",
 	"036231930e29da3d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/controller/PholioMockEditController.php$293 PholioMockEditController.php:293]",
 	"04070cb3952d9f7c": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/pholio/xaction/PholioImageReplaceTransaction.php$32 PholioImageReplaceTransaction.php:32]",
