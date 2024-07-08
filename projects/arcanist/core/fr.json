@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"AnatoleeSV",
 			"Ash Crow",
 			"Cigaryno",
 			"Crochet.david",
@@ -1144,6 +1145,7 @@
 	"6a88869cad747109": "Les appels aux fonctions PHP intégrées doivent être en minuscules.",
 	"6ab0dda48f7f10e3": "État : $1",
 	"6ac786f7aedcfb68": "Suivre les conventions de nommage : les fonctions doivent être nommées en utilisant `$1`.",
+	"6ace1bbd5a4c6b65": "Type de valeur donnée inattendue pour un champ HREF - $1. Veuillez partager cette trace d'appel en tant que commentaire dans la tâche $2",
 	"6ae45a01672f0f60": "L’index d’argument n’est pas un scalaire.",
 	"6b3dfafb8f6fb1f3": "Le test a réussi.",
 	"6b3ebc40e783881f": "Erreur reçue de Twitch : $1",
@@ -1634,7 +1636,7 @@
 	"96d28d8d1b096d89": "$1 attendu pour la conversion %P.",
 	"96e05388ffc33396": "Mettez à jour les détails d'une révision, puis enregistrez et quittez.",
 	"96e8155732e8324a": "am",
-	"96fb46f8f85c08b3": "Les causes courantes sont :\n – Votre copie d’Arcanist n’est plus à jour.\n  C’est la cause la plus fréquente.\n  Mettez à jour cette copie d’Arcanist :\n\n      $1\n\n – Une autre bibliothèque est obsolète.\n  Mettez à jour la bibliothèque dans laquelle apparaît ce symbole.\n\n – Le symbole est mal orthographié.\n  Épelez correctement le nom du symbole.\n\n – Vous avez ajouté le symbole récemment, mais vous n’avez pas mis à jour\n  la carte des symboles de la bibliothèque.\n  Exécutez « arc liberate » dans la bibliothèque où se trouve le symbole\n  défini.\n\n – Ce symbole est défini dans une bibliothèque externe.\n  Utilisez « @phutil-external-symbol » pour l’annoter.\n  Utilisez « grep » pour trouver des exemples d’utilisation.",
+	"96fb46f8f85c08b3": "Les causes courantes sont :\n\n – Votre copie de $1 n’est plus à jour.\n   C’est la cause la plus fréquente.\n   Mettez à jour cette copie $2:\n\n – Une autre bibliothèque est obsolète.\n   Mettez à jour la bibliothèque dans laquelle \n   apparaît ce symbole.\n\n – Le symbole est mal orthographié.\n   Épelez correctement le nom du symbole.\n\n – Vous avez ajouté le symbole récemment, mais \n   vous n’avez pas mis à jour\n   la carte des symboles de la bibliothèque.\n   Exécutez « arc liberate » dans la \n   bibliothèque où se trouve le symbole\n   défini.\n\n – Ce symbole est défini dans une bibliothèque \n   externe.\n   Utilisez « @phutil-external-symbol » pour \n   l’annoter.\n   Utilisez « grep » pour trouver des exemples \n   d’utilisation.",
 	"97050a16cfb44a28": "La révision associée à la validation « $1 » (ancêtre de : $2) est ambiguë. L{{PLURAL:$3|a|es $3}} révision{{PLURAL:$3||s}} suivante{{PLURAL:$3||s}} {{PLURAL:$3|es|son}}t associée{{PLURAL:$3||s}} à la validation :",
 	"972498a785e88d85": "Erreur d’orthographe possible. Vous avez écrit « $1 », mais vouliez-vous dire « $2 » ?",
 	"972aba71bece18ec": "Voir <$1>. La stratégie de fusion par défaut sous Git avec « history.immutable » est passée de « merge » (fusionner) à « squash » (écraser). Votre configuration est ambiguë suite à ce changement de comportement. (Utilisez « --strategy » ou configurez « arc.land.strategy » pour contourner cette vérification.)",

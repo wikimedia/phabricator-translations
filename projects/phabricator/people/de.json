@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Justman10000",
 			"Leon95",
 			"Rechnerfuchs",
@@ -103,7 +104,7 @@
 	"a901bea47bfb2da4": "Alter Benutzername: $1",
 	"a9414b4e4c1232c2": "Einstellungen bearbeiten",
 	"a99f8e066a656c95": "Benutzeradministration",
-	"adef5035f1e717b8": "Viele Grüße,\n$1",
+	"adef5035f1e717b8": "Viele Grüße\n$1",
 	"aed3b8c6a7c0fbbd": "Bestätigt",
 	"b09850ab4376d41c": "Phabricator-Konto \"$1\" bestätigt",
 	"b25c91fe6103401c": "Benutzer erstellen",
