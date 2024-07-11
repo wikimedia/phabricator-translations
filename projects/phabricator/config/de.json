@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Justman10000",
+			"TMg",
 			"Tobi 406",
 			"Umlaut"
 		]
@@ -70,7 +71,7 @@
 	"608444cf93316163": "Mindestlänge des Passworts.",
 	"60eb9b2e0c7fdbd9": "Erforderliche PHP-Erweiterungen sind nicht installiert.",
 	"61074f1c958d6cdd": "Datenbank",
-	"618e67b52c1d503c": "Phabricator PHP 7-Kompatibilitätsinformationen",
+	"618e67b52c1d503c": "PHP 7-Kompatibilitätsinformationen",
 	"634a79070baf78f0": "Mehrere $1 Unterklassen haben den gleichen Schlüssel ('$2'): $3, $4.",
 	"6512ee1541e9a6c5": "Verbindung",
 	"665e92a6c2593b55": "$1 = 0",
@@ -205,5 +206,5 @@
 	"f42ebadef9811c77": "\"$1\" anzeigen",
 	"f6ab31476cfe47f6": "WARNUNG: Dies ist eine sehr erweiterte Option und nur nützlich für Hostinganbieter, die Cluster mit mehreren Mandanten ausführen.\n\nWenn Sie hier einen Instanzbezeichner angeben (normalerweise durch Injizieren mit einem '$1'), übergibt Phabricator ihn an Unterprozesse und commit Hooks in der '$2' Umgebungsvariable.",
 	"f86b969bb9831a26": "MySQL-Schema aktualisieren",
-	"fd5da5edf408a871": "Fehler bei der Einrichtung des Phabricators"
+	"fd5da5edf408a871": "Fehler bei der Einrichtung"
 }
