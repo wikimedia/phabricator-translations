@@ -149,6 +149,25 @@ final class TranslatewikiManagementExportWorkflow
 
       $frequency['<global>'][$string_key] = 0;
     }
+    if ( $as === 'arcanist' ) {
+      # Add extra date elements not found by the translation extractor
+      # Not May because the full month extracted from Phabricator is reused
+      $extra = [
+        "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep",
+        "Oct", "Nov", "Dec",
+        # Uncomment once https://we.phorge.it/T15811 is fixed and Wikimedia
+        # pulls in the release with the fix
+        # "AM", "PM", "am", "pm"
+      ];
+      foreach ($extra as $string) {
+        $string_key = $this->getStringKey($string);
+        $result_raw['core'][$string_key] = $string;
+        $result_en['core'][$string_key] = $string;
+        if (isset($read_qqq['core'][$string_key])) {
+          $result_qqq['core'][$string_key] = $read_qqq['core'][$string_key];
+        }
+      }
+    }
 
     $writes = array(
       array(
