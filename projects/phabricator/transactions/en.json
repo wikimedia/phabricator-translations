@@ -188,7 +188,6 @@
 	"65872df75f1b45f1": "$1 wrote:",
 	"6587c38638333aff": "Change subtype to",
 	"67914f459b387037": "Extension \"$1\" defines a bulk edit group with the same key (\"$2\") as the main editor or another extension. Each bulk edit group must have a unique key.",
-	"67c941fc2ca21b8a": "Subtype Key \"$1\"",
 	"67e43ee9d9fe3642": "Save Edit Order",
 	"683b25f94eb09c3e": "File \"$1\" is invalid: it could not be loaded, or you do not have permission to view it. You must be able to see a file to attach it to an object.",
 	"68aedd360d004d32": "$1 removed $2 unsubscriber(s): $3.",

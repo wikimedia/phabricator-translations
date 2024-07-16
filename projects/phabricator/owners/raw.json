@@ -93,7 +93,6 @@
 	"c76aee492f8ea56f": "Get the paths for each package.",
 	"c76d1efa24cabf49": "Search for packages affecting specific paths.",
 	"c8147b0d0fbe2617": "Subscribe to All Changes",
-	"c830fcb2e9bd2448": "Ruleset \"%s\" for Identical Ownership",
 	"cb094dc22933629f": "Human-readable description of the package.",
 	"cb5cc8e2ad788820": "Auditing",
 	"cbfeca95ab26dba6": "This package does not contain any paths yet. Use \"Edit Paths\" to add some.",

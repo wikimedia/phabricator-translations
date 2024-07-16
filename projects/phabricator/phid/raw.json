@@ -1,7 +1,6 @@
 {
 	"05fe7803b131a33c": "Retrieve information about an arbitrary PHID.",
 	"0a751e41cfcf8b01": "Requested handle \"%s\" was not loaded.",
-	"131ada2c91031e5e": "Handles should use viewer handle pool cache.",
 	"1498233146466f1f": "Restricted %s",
 	"1db177fa2f0941e1": "Trying to mutate a %s, but this is not permitted; handle lists are immutable.",
 	"28c017ce59a791e5": "Attempting to test capability \"%s\" for handle of type \"%s\", but this capability has not been attached.",
@@ -9,7 +8,6 @@
 	"40acf4c5cd86049e": "%s class \"%s\" has an invalid %s property. PHID constants must be a four character uppercase string.",
 	"40f8045ec98d286b": "Attempting to load PHID \"%s\", but it was not requested by any handle list.",
 	"4270ca6ab8fde311": "The objects you have listed include objects of the wrong type (%s).",
-	"5920c81577d44070": "Query Test Package",
 	"6931f523cee8baba": "Application Email",
 	"6e5d870b8888a21e": "Look up objects by name.",
 	"7191d0b67d43f89e": "Trying to render a handle which does not exist!",

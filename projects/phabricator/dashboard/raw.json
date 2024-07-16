@@ -73,6 +73,7 @@
 	"49647ef763c7e49a": "You must select a valid panel.",
 	"4988899e8350acb3": "Manage Portal",
 	"49c48fb005ba20ad": "Use tabs to switch between several other panels.",
+	"4b7878ccdd0f048f": "You must log in to access this panel.",
 	"4c6ba26bee60e75b": "Type a portal name...",
 	"4d48ea27bb72f942": "Apple Blueberry",
 	"4d6e967870e419b2": "Add to Personal Favorites",
@@ -256,6 +257,7 @@
 	"fb10d962baac8a8e": "Unnamed Tab",
 	"fb12e20253aed17b": "Activate Panel",
 	"fb88218db7fdd020": "Type a dashboard name...",
+	"fda3d44b774cbb42": "%s updated the panel text.",
 	"fdb587f6aef9fcaf": "Remove Tab",
 	"fff91637e3e3c883": "Default create policy for Dashboards."
 }

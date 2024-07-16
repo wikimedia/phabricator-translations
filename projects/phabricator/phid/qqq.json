@@ -1,10 +1,6 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"05fe7803b131a33c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/conduit/PHIDInfoConduitAPIMethod.php$18 PHIDInfoConduitAPIMethod.php:18]",
 	"0a751e41cfcf8b01": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/handle/pool/PhabricatorHandleList.php$55 PhabricatorHandleList.php:55]",
-	"131ada2c91031e5e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/handle/pool/__tests__/PhabricatorHandlePoolTestCase.php$55 PhabricatorHandlePoolTestCase.php:55]",
 	"1498233146466f1f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/PhabricatorObjectHandle.php$170 PhabricatorObjectHandle.php:170]",
 	"1db177fa2f0941e1": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/handle/pool/PhabricatorHandleList.php$192 PhabricatorHandleList.php:192]",
 	"28c017ce59a791e5": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/PhabricatorObjectHandle.php$447 PhabricatorObjectHandle.php:447]",
@@ -12,7 +8,6 @@
 	"40acf4c5cd86049e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/type/PhabricatorPHIDType.php$11 PhabricatorPHIDType.php:11]",
 	"40f8045ec98d286b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/handle/pool/PhabricatorHandlePool.php$56 PhabricatorHandlePool.php:56]",
 	"4270ca6ab8fde311": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/query/PhabricatorObjectListQuery.php$187 PhabricatorObjectListQuery.php:187]",
-	"5920c81577d44070": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/query/__tests__/PhabricatorObjectListQueryTestCase.php$42 PhabricatorObjectListQueryTestCase.php:42]",
 	"6931f523cee8baba": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/PhabricatorMetaMTAApplicationEmailPHIDType.php$9 PhabricatorMetaMTAApplicationEmailPHIDType.php:9]",
 	"6e5d870b8888a21e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/conduit/PHIDLookupConduitAPIMethod.php$10 PHIDLookupConduitAPIMethod.php:10]",
 	"7191d0b67d43f89e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/handle/pool/PhabricatorHandleList.php$118 PhabricatorHandleList.php:118]",

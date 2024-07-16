@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"075b45870ec7ec57": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$74 PhabricatorFlagRemoveFlagHeraldAction.php:74]",
 	"197a62696ce8fbf0": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$72 PhabricatorFlagAddFlagHeraldAction.php:72]",
 	"1c3d8a33c4e3bcd5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/application/PhabricatorFlagsApplication.php$10 PhabricatorFlagsApplication.php:10]",
@@ -32,5 +29,5 @@
 	"e22c254cc0a5cb8c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$12 PhabricatorFlagAddFlagHeraldAction.php:12]",
 	"e2ab9f0d21594fe2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$48 PhabricatorFlagRemoveFlagHeraldAction.php:48]",
 	"e76a6d33ff06b15e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$66 PhabricatorFlagRemoveFlagHeraldAction.php:66]",
-	"f8db8a172be6fab1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$54 PhabricatorFlagAddFlagHeraldAction.php:54]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$76 PhabricatorFlagSearchEngine.php:76]"
+	"f8db8a172be6fab1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$76 PhabricatorFlagSearchEngine.php:76]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$54 PhabricatorFlagAddFlagHeraldAction.php:54]"
 }

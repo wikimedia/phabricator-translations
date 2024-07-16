@@ -1,13 +1,9 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"08551bfd5a6bcbf3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$392 PhabricatorTypeaheadModularDatasourceController.php:392]",
 	"170409168d52d100": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/application/PhabricatorTypeaheadApplication.php$6 PhabricatorTypeaheadApplication.php:6]",
 	"20ff1176780f707c": "Used if you logged in to Owned Documents anonymously\n\nVariable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/PhabricatorTypeaheadDatasource.php$503 PhabricatorTypeaheadDatasource.php:503]",
 	"24725aa7bb11e312": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$150 PhabricatorTypeaheadFunctionHelpController.php:150]",
 	"28449a5348d1d494": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$113 PhabricatorTypeaheadFunctionHelpController.php:113]",
-	"34cfe49ccc9216f0": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/__tests__/PhabricatorTypeaheadTestNumbersDatasource.php$42 PhabricatorTypeaheadTestNumbersDatasource.php:42]",
 	"3ecdb4ea82e2c72e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$47 PhabricatorTypeaheadModularDatasourceController.php:47]",
 	"445f05dd9fa1f619": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$338 PhabricatorTypeaheadModularDatasourceController.php:338]",
 	"539b3475e6f40740": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$349 PhabricatorTypeaheadModularDatasourceController.php:349]",
@@ -30,11 +26,8 @@
 	"b6b52cb47d127a3d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$379 PhabricatorTypeaheadModularDatasourceController.php:379]",
 	"b77fab12356a0f67": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$50 PhabricatorTypeaheadModularDatasourceController.php:50]",
 	"bc64eb3be73d0b52": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$104 PhabricatorTypeaheadFunctionHelpController.php:104]",
-	"c1bceb0f86ca289b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/__tests__/PhabricatorTypeaheadDatasourceTestCase.php$88 PhabricatorTypeaheadDatasourceTestCase.php:88]",
 	"c614ba7c453cdcd4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$383 PhabricatorTypeaheadModularDatasourceController.php:383]",
 	"d1c319f3fef91def": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$161 PhabricatorTypeaheadModularDatasourceController.php:161]",
-	"e1fdf7aecaeb7b1d": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/__tests__/PhabricatorTypeaheadDatasourceTestCase.php$48 PhabricatorTypeaheadDatasourceTestCase.php:48]",
-	"ec617c453f59f5aa": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/datasource/__tests__/PhabricatorTypeaheadTestNumbersDatasource.php$7 PhabricatorTypeaheadTestNumbersDatasource.php:7]",
 	"f095757f3b8e277d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php$376 PhabricatorTypeaheadModularDatasourceController.php:376]",
 	"f3f785f939dae680": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php$111 PhabricatorTypeaheadFunctionHelpController.php:111]"
 }

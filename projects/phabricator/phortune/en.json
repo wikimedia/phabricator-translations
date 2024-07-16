@@ -454,7 +454,6 @@
 	"d6dadec06672efa8": "Receipts",
 	"d6f2db841552f048": "$1 updated the merchant invoice footer for $2.",
 	"d6fbc7a82d1c9314": "Refunded",
-	"d70a512226f7c571": "Creation of default account for users with no accounts.",
 	"d83f888afe473b67": "New merchant description.",
 	"d874688bbde41caa": "There was an error with the payment token submitted by the client. Expected a valid dictionary, received: $1.",
 	"d888ac3789ca4c4a": "Order Not in Review",
