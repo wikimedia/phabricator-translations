@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"07b18e8f8d3474fe": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/cache/PhabricatorCaches.php$458 PhabricatorCaches.php:458]",
 	"083e9daf755017eb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/cache/spec/PhabricatorDataCacheSpec.php$49 PhabricatorDataCacheSpec.php:49]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/cache/spec/PhabricatorDataCacheSpec.php$78 PhabricatorDataCacheSpec.php:78]",
 	"0e313deeb5268c5d": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/cache/spec/PhabricatorOpcodeCacheSpec.php$95 PhabricatorOpcodeCacheSpec.php:95]",
