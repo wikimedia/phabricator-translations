@@ -30,6 +30,7 @@
 	"2c01d7e92de167d9": "Очікується передача об’єкта результату класу \"LiskDAO\" в \"newExternalCursorStringForResult()\", насправді передано \"$1\". Повернути об’єкти зберігання з \"loadPage()\" або замінити \"newExternalCursorStringForResult()\".",
 	"2dacf65959849884": "Надіслати",
 	"2f6ff466c449ed35": "Усі документи",
+	"308945a8e2e60424": "Параметр для трансформації \"$1\" в \"qsprintf (...)\" не є прикладом AphrontDatabaseTableRefInterface.",
 	"309028a9e01273ac": "Цитувати",
 	"33c4f085bf9299d8": "Дані не можна експортувати в Excel, оскільки бібліотека PHPExcel не\nвстановлена. Цей програмний компонент потрібен для створення файлів Excel.\n\nВи можете встановити PHPExcel з GitHub:\n\n> https://github.com/PHPOffice/PHPExcel\n\nКоротко:\n  - Клонуйте це сховище десь на сервері\n   (як `/шлях/до/прикладу/PHPExcel`).\n  - Оновіть налаштування PHP `$1` (у \n   `php.ini`), щоб включити PHPExcel\n    Каталог `Classes` (на зразок `/path/to/example/PHPExcel/Classes`).",
 	"33c5225e7c12b757": "Редагувати меню",

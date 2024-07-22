@@ -5,7 +5,6 @@
 		]
 	},
 	"002aa6b71775a72f": "Acesso negado: $1",
-	"021dfd70b626a618": "Nenhuma política",
 	"18751622f503d778": "Essas regras são processadas em ordem.",
 	"24cea5eae0db51f4": "Políticas do usuário",
 	"2f2de884ae395f6b": "Você não tem permissão para editar este objeto.",
@@ -30,6 +29,5 @@
 	"e3821a020a9519f2": "Política desconhecida",
 	"e55cdac36b987038": "Altere a política de junção do objeto.",
 	"f88a24e096f919c5": "Este objeto possui regras especiais que substituem as regras normais de diretiva de objeto:",
-	"f965b290a4b98d39": "Esse objeto tem uma política personalizada controlando quem pode realizar essa ação.",
-	"fc38e5eb788d9d3a": "Políticas do usuário"
+	"f965b290a4b98d39": "Esse objeto tem uma política personalizada controlando quem pode realizar essa ação."
 }

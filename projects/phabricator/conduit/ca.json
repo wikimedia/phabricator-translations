@@ -64,7 +64,6 @@
 	"530b396dddc85626": "Literalment nul.",
 	"56b25d16dd5faa9f": "No hi ha cap testimoni API per finalitzar.",
 	"5a67a30a47cb7d99": "Llista de PHID d'usuaris.",
-	"5a74ebbafe0dbf21": "$1 hauria de requerir autenticació.",
 	"5bbb305f5d214312": "La vostra versió de client «$1» és «$2», que és posterior a la versió del servidor, «$3». Actualitza la instal·lació de Phabricator.",
 	"5ceaa9d4b9d6d653": "S'esperava una cadena, hi ha alguna altra cosa.",
 	"5f04c5f67d3da93e": "Segell de temps d'època, com a un enter.",

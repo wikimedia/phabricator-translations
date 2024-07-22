@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"00bacf55615d1518": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/typeahead/PhabricatorProjectNoProjectsDatasource.php$7 PhabricatorProjectNoProjectsDatasource.php:7]",
 	"018514a3d58aa083": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/icon/PhabricatorProjectIconSet.php$50 PhabricatorProjectIconSet.php:50]",
 	"01f6881d6a151ece": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/controller/PhabricatorProjectArchiveController.php$53 PhabricatorProjectArchiveController.php:53]",

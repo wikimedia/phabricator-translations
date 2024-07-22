@@ -7,7 +7,6 @@
 		]
 	},
 	"0997d22f68916227": "Trying to read configuration \"$1\" before configuration has been initialised.",
-	"0e36297b5792d7b8": "Normalisation of '$1'",
 	"1a7209f8e50be173": "Database cluster configuration describes an invalid host (\"$1\", at index \"$2\") with an unrecognised role (\"$3\"). Valid roles are \"$4\" or \"$5\".",
 	"1a7a458bc1fbb9c7": "Analysing tables...",
 	"1d0c8304baedcf8e": "Colour",
@@ -34,10 +33,8 @@
 	"973397537887c7f2": "Reprioritised $1 task(s).",
 	"9791baab1fa15967": "Storage initialised.",
 	"a7a94ebf70406445": "There is no database storage initialised in the current storage namespace (\"$1\"). Use \"bin/storage upgrade\" to initialise storage or use \"--namespace\" to choose a different namespace.",
-	"acc0673c2465294d": "Hashtag normalisation of \"$1\"",
 	"afb8bf2335ff6aca": "Storage patch \"$1\" specifies it should apply in phase \"$2\", but this phase is unrecognised. Valid phases are: $3.",
 	"b56a8aaad2b48e23": "Completed optimisations, reclaimed $1 of disk space.",
-	"b9fc941160f1b039": "Localisation",
 	"bd58f23f848126bc": "Database initialisation on host \"$1\" applied no patches!",
 	"c8fa2a4b43ee1040": "Storage on host \"$1\" has not been initialised yet. You must initialise storage before selectively applying patches.",
 	"f3061b6cc7a51092": "Declining to synchronise static tables.",

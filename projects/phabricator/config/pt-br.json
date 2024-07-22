@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Flaviane da Silva"
 		]
 	},
 	"03a68b7d8b854f2e": "Uso de memória",
@@ -31,6 +32,7 @@
 	"b1895b2e540743ae": "O algoritmo do índice de pesquisa foi atualizado e o índice precisa ser reconstruído.",
 	"c7b0aa24062129ce": "Fuso Horário do PHP",
 	"d485fb1b8a1e4854": "$1 Ativo",
+	"e7b010d51e943b36": "Você está rodando a versão PHP $1. Versões PHP entre 7.0 e 7.1 não são suportadas\n\nPHP removeu recursos necessários de manipulação de sinal no PHP 7.0, e não restaurou um mecanismo equivalente até o PHP 7.1.\n\nAtualize para o PHP 7.1 ou mais recente (recomendado) ou baixe uma versão mais antiga do PHP 5 (não recomendado).",
 	"ed5170cd339b4047": "Interface de usuário",
 	"fb45d5513ed72de2": "Ativar o modo de desenvolvedor"
 }

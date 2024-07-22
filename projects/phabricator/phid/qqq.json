@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"05fe7803b131a33c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/conduit/PHIDInfoConduitAPIMethod.php$18 PHIDInfoConduitAPIMethod.php:18]",
 	"0a751e41cfcf8b01": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/handle/pool/PhabricatorHandleList.php$55 PhabricatorHandleList.php:55]",
 	"1498233146466f1f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/phid/PhabricatorObjectHandle.php$170 PhabricatorObjectHandle.php:170]",

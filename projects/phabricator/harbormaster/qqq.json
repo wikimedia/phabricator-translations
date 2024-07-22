@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"00bb37fda5eb6c1d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/phid/HarbormasterBuildArtifactPHIDType.php$8 HarbormasterBuildArtifactPHIDType.php:8]",
 	"00cc2bd78e919197": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/phid/HarbormasterBuildPlanPHIDType.php$39 HarbormasterBuildPlanPHIDType.php:39]",
 	"013ba87b38d1b5c6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/harbormaster/storage/build/HarbormasterBuildTarget.php$39 HarbormasterBuildTarget.php:39]",

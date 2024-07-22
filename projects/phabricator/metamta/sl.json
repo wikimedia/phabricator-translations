@@ -12,9 +12,7 @@
 	"473558393914486d": "E-poštni naslovi",
 	"60f6314604875691": "TELO BESEDILA",
 	"6ab0dda48f7f10e3": "Stanje: $1",
-	"7287cea49432477b": "Izravnavanje obremenitve med dvema poštnima strežnikoma ni izbralo obeh strežnikov po absurdnem številu poskusov.",
 	"72b459f8cc3e050f": "LASTNOSTI",
-	"8086943d7cb6a03a": "Izjema zaradi: $1",
 	"8440117d3fd9bf1b": "Zahtevek je spodletel z napakami: $1.",
 	"9ff8892af04610d6": "Neobravnavana izjema: $1",
 	"b66f7b994de12220": "Prejemnik onemogočen",
@@ -22,6 +20,5 @@
 	"c3bf84287c91e2a0": "Razlogi",
 	"dd96880fa45f5ba0": "Izjema pri obdelavi",
 	"f0f2767f4ace005d": "Razlogi za dostavo so navedeni od najšibkejšega do najmočnejšega.",
-	"f14e2ece9dbfb64b": "Pošiljatelj onemogočen",
-	"fe512c8d37db2e54": "Telo besedila porezano"
+	"f14e2ece9dbfb64b": "Pošiljatelj onemogočen"
 }

@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$903 PhabricatorPolicyFilter.php:903]",
 	"056cfca86add4e51": "For waxing and waning, see [[w:Lunar phase]]. This message is displayed as a dropdown menu completing a sentence with {{msg-phab|phabricator-policy-0bb2e1d44d97441b}}. The ability to customize Phabricator policies based on the phase of the moon is intended by upstream as a joke with little practical utility.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$45 PhabricatorLunarPhasePolicyRule.php:45]",
 	"07c02304013bf0f0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$211 PhabricatorPolicyExplainController.php:211]",

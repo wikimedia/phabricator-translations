@@ -65,7 +65,6 @@
 	"530b396dddc85626": "Değişmez boş.",
 	"56b25d16dd5faa9f": "Sonlandırılacak API anahtar yok.",
 	"5a67a30a47cb7d99": "Kullanıcı PHID'lerinin listesi.",
-	"5a74ebbafe0dbf21": "$1 kimlik doğrulaması gerektirmelidir.",
 	"5bbb305f5d214312": "'$1' istemci sürümünüz '$3' adlı sunucu sürümünden daha yeni olan '$2'. Phabricator kurulumunuzu yükseltin.",
 	"5ceaa9d4b9d6d653": "Beklenen dize, başka bir şey var.",
 	"5f04c5f67d3da93e": "Tam sayı olarak zaman damgası ekler.",
