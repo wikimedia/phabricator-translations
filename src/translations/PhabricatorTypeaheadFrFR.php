@@ -24,7 +24,6 @@ final class PhabricatorTypeaheadFrFR
     %s
     Quand cette requête est réellement affichée dans le contrôle, elle paraît plutôt sous cette forme :
     %s',
-      'All arguments to "%s(...)" must be integers, found "%s" in position %d.' => 'Tous les arguments de « %s(...) » doivent être des entiers : « %s » trouvé en position %s.',
       'Invalid Parameters' => 'Paramètres non valides',
       'Source Class' => 'Classe source',
       'Raw Query' => 'Requête brute',
@@ -51,11 +50,8 @@ final class PhabricatorTypeaheadFrFR
       'Sprite' => 'Icône',
       'The HTTP parameter named "parameters" for this request is not a valid JSON parameter. JSON is required. Exception: %s' => 'Le paramètre HTTP appelé « parameters » pour cette requête n’est pas un paramètre JSON valide. JSON est obligatoire. Erreur : %s',
       'Function Quick Reference' => 'Référence rapide des fonctions',
-      'Constraints for input "%s".' => 'Contraintes pour l’entrée « %s ».',
       'Auto' => 'Auto',
       'You reach the edge of the abyss.' => 'Vous atteignez le bord de l’abysse.',
-      'Tokenization of "%s"' => 'Lexicalisation de « %s »',
-      'Browse Numbers' => 'Explorer les nombres',
       'Priority Type' => 'Type de priorité',
       'Using Typeahead Functions' => 'Utilisation des fonctions de saisie semi-automatique',
     );

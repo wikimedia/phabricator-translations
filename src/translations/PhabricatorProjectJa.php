@@ -39,8 +39,10 @@ final class PhabricatorProjectJa
       'Fullscreen' => '全画面',
       'Change Background Color' => '背景色を変更',
       '%s added %d %s hashtag(s): %s.' => '%s が %s 件の %s ハッシュタグを追加しました: %s。',
+      'Bugs' => 'バグ',
       '%s changed the background color of the project workboard.' => '%s がプロジェクト ワークボードの背景色を変更しました。',
       'Change Project Tags' => 'プロジェクト タグを変更',
+      'Milestone' => 'マイルストーン',
       '%s removed %d %s hashtag(s): %s.' => '%s が %s 件の %s ハッシュタグを除去しました: %s。',
     );
   }

@@ -144,7 +144,6 @@ final class PhabricatorPhameFrFR
       'Body' => 'Corps',
       '%s changed the profile image for blog %s.' => '%s a changé l’image de profil pour le blogue %s.',
       'No parent site' => 'Aucun site parent',
-      'For custom domains to work, this this server must be configured to allow the public access policy. Configure this setting %s, or ask an administrator to configure this setting. The domain can be specified later once this setting has been changed.' => 'Pour que les domaines personnalisés fonctionnent, cette instance de Phabricator doit être configurée pour autoriser la politique d’accès public. Configurez ce paramètre %s ou demandez à un administrateur de configurer ce paramètre. Le domaine peut être spécifié ultérieurement une fois ce paramètre modifié.',
       'New post subtitle.' => 'Nouveau sous-titre de billet.',
       'Create New Post' => 'Créer un nouveau billet',
       'No blogs found.' => 'Aucun blogue trouvé.',
@@ -223,6 +222,7 @@ final class PhabricatorPhameFrFR
       '%s updated the blog\'s subtitle to "%s".' => '%s a mis à jour le sous-titre du blogue à « %s ».',
       'Set Full Domain URI if you plan to serve this blog on another hosted domain. Parent Site Name and Parent Site URI are optional but helpful since they provide a link from the blog back to your parent site.' => 'Définissez l’URI de domaine complet si vous prévoyez de diffuser ce blogue sur un autre domaine hébergé. Le nom du site parent et l’URI du site parent sont facultatifs mais utiles car ils fournissent un lien du blogue vers votre site parent.',
       'Upload Header' => 'Entête de téléversement',
+      'For custom domains to work, this server must be configured to allow the public access policy. Configure this setting %s, or ask an administrator to configure this setting. The domain can be specified later once this setting has been changed.' => 'Pour que les domaines personnalisés fonctionnent, ce serveur doit être configuré pour autoriser la politique d’accès public. Configurez ce paramètre %s ou demandez à un administrateur de configurer ce paramètre. Le domaine peut être spécifié ultérieurement une fois ce paramètre modifié.',
       'The parent domain can be no longer than %s characters.' => array(
         'Le domaine parent ne peut pas dépasser %s caractère.',
         'Le domaine parent ne peut pas dépasser %s caractères.',

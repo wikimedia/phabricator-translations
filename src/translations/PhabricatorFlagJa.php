@@ -9,6 +9,7 @@ final class PhabricatorFlagJa
 
   protected function getTranslations() {
     return array(
+      'Removed "%s" flag.' => '%sフラグを除去しました。',
       'Marked with "%s" flag.' => '"%s"フラグでマークされています。',
       'Personal Bookmarks' => '個人ブックマーク',
       'Clear a flag.' => 'フラグをクリアします。',
@@ -24,6 +25,7 @@ final class PhabricatorFlagJa
       'All Object Types' => 'すべてのオブジェクト種類',
       'Already Marked' => 'すでにマーク済み',
       'Flag Color' => 'フラグの色',
+      'Mark with flag' => 'フラグでマーク',
       'Flagged' => 'フラグ付き',
     );
   }

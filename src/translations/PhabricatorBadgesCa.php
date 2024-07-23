@@ -14,7 +14,6 @@ final class PhabricatorBadgesCa
       'Create Badge' => 'Crear insígnia',
       '%s updated the quality from %s to %s.' => '%s ha actualitzat la qualitat de %s a %s.',
       'Active Badges' => 'Insígnies actives',
-      'Leica Enthusiast' => 'Entusiasta de Leica',
       'New badge description.' => 'Nova descripció de la insígnia.',
       'Edit Badge: %s' => 'Edita la insígnia: %s',
       'Badges must have a name.' => 'Les insígnies han de tenir un nom.',

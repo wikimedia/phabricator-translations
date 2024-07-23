@@ -17,8 +17,6 @@ final class PhabricatorTypeaheadZhHans
       'Sprite' => '雪碧',
       'Function Quick Reference' => '函数快速参考',
       'Auto' => '自动',
-      'Tokenization of "%s"' => '“%s”的令牌化',
-      'Browse Numbers' => '浏览成员',
       'Priority Type' => '优先级类型',
       'Using Typeahead Functions' => '使用Typeahead函数',
     );

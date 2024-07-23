@@ -9,7 +9,6 @@ final class PhabricatorProjectSv
 
   protected function getTranslations() {
     return array(
-      'With afterPHIDs' => 'Med afterPHIDs',
       'Timeline' => 'Tidslinje',
       'Really activate project?' => 'Vill du verkligen aktivera projektet?',
       '%s changed project member(s), added %d: %s; removed %d: %s.' => '%s ändrade projektmedlemmar, lade till %s: %s; tog bort %s: %s.',

@@ -34,7 +34,6 @@ final class PhabricatorSettingsIt
       'Another user already has this email.' => 'Un altro utente utilizza questa email.',
       'HTML Email' => 'Email HTML',
       'Enable "Re:" Prefix' => 'Abilita prefisso "Re:"',
-      'Change Timezone' => 'Modifica fuso orario',
       'You must enter your current password.' => 'Devi inserire la tua password attuale.',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
       '24 Hour, 14:34' => '24 Ore, 14:34',

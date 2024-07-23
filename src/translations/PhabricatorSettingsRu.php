@@ -34,7 +34,6 @@ final class PhabricatorSettingsRu
       'Changes saved.' => 'Изменения сохранены.',
       'Global Defaults' => 'Глобальные значения по умолчанию',
       'Enable "Re:" Prefix' => 'Включить префикс «Re:»',
-      'Change Timezone' => 'Изменить часовой пояс',
       'Europe: 28-02-2000' => 'Европа: 28-02-2000',
       '%s updated his profile' => '%s обновил свой профиль',
       'Create Settings' => 'Создать настройки',

@@ -18,7 +18,6 @@ final class PhabricatorTypeaheadDa
       'More Results' => 'Flere resultater',
       'Browse Objects' => 'Gennemse objekter',
       'Auto' => 'Automatisk',
-      'Browse Numbers' => 'Gennemse numre',
       'Priority Type' => 'Prioritetstype',
     );
   }

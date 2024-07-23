@@ -67,7 +67,7 @@ final class PhabricatorTransactionsDeDE
       '%s mentioned this in %s.' => '%s erwähnte dies in %s.',
       'Edit Comment' => 'Kommentar bearbeiten',
       'Add Action...' => 'Aktion hinzufügen...',
-      '%s updated subscribers...' => '%s aktualisierte Abonennten...',
+      '%s updated subscribers...' => '%s aktualisierte Abonnenten …',
       'Remove Comment' => 'Kommentar entfernen',
       'Export data to a flat file (JSON, CSV, Excel, etc).' => 'Exportiere die Daten in eine flache Datei (JSON, CSV, Exel, etc.).',
       'Edit Forms' => 'Formulare bearbeiten',

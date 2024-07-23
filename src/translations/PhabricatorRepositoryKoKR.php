@@ -32,7 +32,6 @@ final class PhabricatorRepositoryKoKR
       '%s removed %s as the default branch.' => '%s님이 기본 브랜치로서 %s을(를) 제거했습니다.',
       'Create a new Mercurial repository.' => '새로운 Mercurial 저장소를 만듭니다.',
       'Expression "%s" is not a valid regular expression. Note that you must include delimiters.' => '"%s" 식은 유효한 정규 표현식이 아닙니다. 구분 문자를 포함해야 합니다.',
-      'No support yet.' => '아직 지원하지 않습니다.',
       'Starting update for repository "%s".' => '"%s" 저장소의 업데이트를 시작합니다.',
       '%s set the repository "Import Only" path to %s.' => '%s님이 "가져오기 전용" 패스를 %s(으)로 설정했습니다.',
       'Failed to read stdin.' => 'stdin 읽기를 실패했습니다.',

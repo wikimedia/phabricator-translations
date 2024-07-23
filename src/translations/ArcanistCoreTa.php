@@ -9,7 +9,6 @@ final class ArcanistCoreTa
 
   protected function getTranslations() {
     return array(
-      'Jump' => 'தாவு',
       'File Error' => 'கோப்பு பிழை',
       'Fail' => 'தோல்வி',
       'Version' => 'பதிப்பு',
@@ -29,7 +28,6 @@ final class ArcanistCoreTa
       'Reviewers: %s' => 'மதிப்பீட்டாளர்கள்: %s',
       'Title' => 'தலைப்பு',
       'Disconnected' => 'இணைப்பு துண்டிக்கப்பட்டது',
-      '\'%s\' vs \'%s\'' => '\'%s\' எதிர் \'%s\'',
       'Other locations: %s' => 'பிற இடங்கள்: %s',
       'Advice' => 'அறிவுரை',
       'Priority' => 'முன்னுரிமை',

@@ -17,7 +17,6 @@ final class PhabricatorSearchSv
       'The queries you have saved are private. Only you can view or edit them.' => 'Sökfrågorna du sparat är privata. Bara du kan se eller redigera dem.',
       'cat -A can find mice hiding in files.' => 'cat -A kan hitta möss som gömmer sig i filer.',
       'Export Format Not Available' => 'Exportformat är inte tillgängligt',
-      'Compilation of query: %s' => 'Sammanställning av sökfråga: %s',
       'Readable' => 'Läsbar',
       'Search Engines' => 'Sökmotorer',
       'Form "%s" is not a valid form which you have permission to see.' => 'Formulär "%s" är inte ett giltigt formulär som du har behörighet att se.',

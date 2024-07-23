@@ -23,7 +23,6 @@ final class PhabricatorSettingsLb
       'Old Password' => 'Aalt Passwuert',
       'Display Preferences' => 'Astellunge weisen',
       'Changes saved.' => 'Ännerunge gespäichert.',
-      'Change Timezone' => 'Zäitzon änneren',
       'You must enter your current password.' => 'Dir musst Äert aktuellt Passwuert eraginn.',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
       '%s updated his profile' => '%s huet säi Profil aktualiséiert',

@@ -52,7 +52,6 @@ final class PhabricatorHarbormasterFrFR
       '%s Broken Test(s)' => '%s test(s) incorrect(s)',
       'Resuming' => 'Reprend le travail...',
       'Publishing "%s"...' => 'Publication en cours de « %s »...',
-      'Line Map for "%s"' => 'Correspondance des lignes pour « %s »',
       'The name of the build target.' => 'Nom de la cible construite.',
       'Edit Plan' => 'Modifier le plan',
       'Use %s instead.' => 'Utiliser %s à la place.',
@@ -309,7 +308,6 @@ final class PhabricatorHarbormasterFrFR
       'Add Build Step' => 'Ajouter une étape de construction',
       'No such build target "%s"!' => 'Cible de construction « %s » inexistante !',
       'My Builds' => 'Mes constructions',
-      'Restarting' => 'Recommencement',
       'Write rate must be more than 0 bytes/sec.' => 'Le débit en écriture doit être supérieur à 0 octet/seconde.',
       'Required Input' => 'Entrée obligatoire',
       'The current UNIX timestamp.' => 'L’horodatage Unix actuel.',
@@ -376,6 +374,11 @@ final class PhabricatorHarbormasterFrFR
       'Harbormaster build target "%s" is not a Buildkite build step. Only Buildkite steps may be updated via the Buildkite hook.' => 'La cible de construction de Harbormaster « %s » n’est pas une étape de construction Buildkite. Seules les étapes Buildkite peuvent être mises à jour via le crochet Buildkite.',
       'Choose a build plan behavior for "%s".' => 'Choisissez un comportement de plan de construction pour « %s ».',
       'New View (Prototype)' => 'Nouvelle vue (prototype)',
+      'After completing this build step Harbormaster can continue the build normally, or it can pause the build and wait for a message. If you are using this build step to trigger some work in an external system, you may want wait for that system to perform the work and report results back.
+    If you select **Continue Build Normally**, the build plan will proceed once this step finishes.
+    If you select **Wait For Message**, the build plan will pause indefinitely once this step finishes. To resume the build, an external system must call `harbormaster.sendmessage` with the build target PHID, and either `"pass"` or `"fail"` to indicate the result for this step. After the result is recorded, the build plan will resume.' => 'Après avoir terminé cette étape de construction, Harbormaster peut poursuivre la construction normalement ou la suspendre en attendant un message. Si vous utilisez cette étape de construction pour déclencher un travail dans un système externe, vous souhaitez peut-être que Phabricator attende que ce système effectue le travail et vienne rapporter les résultats.
+    Si vous choisissez **Poursuivre la construction normalement**, le plan de construction se poursuivra dès que l’étape sera achevée.
+    Si vous choisissez **Attendre un message**, le plan de construction sera suspendu indéfiniment dès que cette étape est achevée. Pour reprendre la construction, un système externe devra appeler `harbormaster.sendmessage` avec le PHID de la cible de construction et avec `"pass"` (réussite) ou `"fail"` (échec) pour indiquer le résultat de cette étape. Une fois ce résultat enregistré, le plan de construction reprendra.',
       'Disable this build plan? It will no longer be executed automatically.' => 'Désactiver ce plan de construction’? Il ne sera plus exécuté automatiquement.',
       'Ship Some Freight' => 'Expédier du fret',
       '"arc land" warns if the build is still running or has failed.' => '« arc land » avertit si la construction est toujours en cours ou a échoué.',

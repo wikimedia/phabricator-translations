@@ -16,8 +16,6 @@ final class PhabricatorPeoplePtBR
       'Disable User?' => 'Desativar usuário?',
       'Multi-Factor: Remove Factor' => 'Fator Múltiplo: Remover fator',
       'Manage User' => 'Gerenciar usuário',
-      'Confirm' => 'Confirme',
-      'Validity of \'%s\'.' => 'Validade de \'%s\'.',
       'Make real names optional' => 'Criar opcionalmente nomes reais',
       'Hisec: Exit' => 'Hisec: Saída',
       'Delete User' => 'Deletar usuário',

@@ -98,7 +98,6 @@ final class PhabricatorOwnersCa
       'Get the paths for each package.' => 'Obté els camins de cada paquet.',
       'Search for packages affecting specific paths.' => 'Cerca paquets que afectin camins específics.',
       'Subscribe to All Changes' => 'Subscrivir-se a tots els canvis',
-      'Ruleset "%s" for Identical Ownership' => 'Conjunt de regles "%s" per a propietats idèntiques',
       'Human-readable description of the package.' => 'Descripció llegible del paquet.',
       'Auditing' => 'Auditoria',
       'This package does not contain any paths yet. Use "Edit Paths" to add some.' => 'Aquest paquet encara no conté cap camí d\'accés. Utilitzeu \'Edita camins\' per afegir-ne alguns.',

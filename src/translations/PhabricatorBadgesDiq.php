@@ -12,7 +12,6 @@ final class PhabricatorBadgesDiq
       'Rebel' => 'İsyankar',
       'Create Badge' => 'Rozet vıraze',
       'Active Badges' => 'Rozetê aktivi',
-      'Leica Enthusiast' => 'Meraqwanê Leica',
       'New badge description.' => 'İzahatê rozetê neweyi',
       'Edit Badge: %s' => 'Rozeti bıvurnê:%s',
       'Badges must have a name.' => 'Roxeta rê name lazımo',

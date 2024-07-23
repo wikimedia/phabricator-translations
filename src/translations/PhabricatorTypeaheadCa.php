@@ -24,7 +24,6 @@ final class PhabricatorTypeaheadCa
     %s 
     Quan aquesta consulta es mostri realment en el control, es veurà més així: 
     %s',
-      'All arguments to "%s(...)" must be integers, found "%s" in position %d.' => 'Tots els arguments a "%s(...)" han de ser enters, trobats "%s" en la posició %s.',
       'Invalid Parameters' => 'Paràmetres no vàlids!',
       'Source Class' => 'Classe de Font',
       'Raw Query' => 'Consulta en brut',
@@ -51,11 +50,8 @@ final class PhabricatorTypeaheadCa
       'Sprite' => 'Sprite',
       'The HTTP parameter named "parameters" for this request is not a valid JSON parameter. JSON is required. Exception: %s' => 'El paràmetre HTTP anomenat "paràmetres" per aquesta petició no és un paràmetre JSON vàlid. Es requereix JSON. Excepció: %s',
       'Function Quick Reference' => 'Funció de Referència Ràpida',
-      'Constraints for input "%s".' => 'Restriccions per a l\'entrada «%s».',
       'Auto' => 'Automàtic',
       'You reach the edge of the abyss.' => 'Arribes al flanc l’abisme.',
-      'Tokenization of "%s"' => 'Lexicalització de "%s"',
-      'Browse Numbers' => 'Navega pels números',
       'Priority Type' => 'Tipus de Prioritat',
       'Using Typeahead Functions' => 'Ús de funcions d\'escriptura anticipada',
     );

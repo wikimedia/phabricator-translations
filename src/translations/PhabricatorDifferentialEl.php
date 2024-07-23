@@ -34,7 +34,6 @@ final class PhabricatorDifferentialEl
       'Differential Diff' => 'Διαφορετική διαφορά',
       'Allow self-accept' => 'Να επιτρέπεται η αυτο-αποδοχή',
       'Jump to next file.' => 'Πήδηση στο επόμενο αρχείο.',
-      'Merged Revisions' => 'Συγχωνευμένες αναθεωρήσεις.',
       'Load File' => 'Φόρτωση αρχείου',
       'This is a directory.' => 'Αυτό είναι ένα αποθηκευτήριο.',
       'Copied Here' => 'Αντιγράφτηκε εδώ.',

@@ -72,6 +72,7 @@ final class PhabricatorSearchEsES
       'Reindex objects previously indexed with a particular version of the indexer.' => 'Reindexar objetos previamente indexados con una versión específica del indexados.',
       'Really Delete Query?' => '¿De verdad quieres eliminar la consulta?',
       'Circular Dependency' => 'Dependencia circular',
+      'More information' => 'Más información',
     );
   }
 

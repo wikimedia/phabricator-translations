@@ -14,7 +14,6 @@ final class PhabricatorAuthEl
       'Algorithm' => 'Αλγόριθμος',
       'You must specify the username of the account to recover.' => 'Πρέπει να προσδιορίσετε το όνομα χρήστη του λογαριασμού για ανάκτηση.',
       'Must Verify Email' => 'Η διεύθυνση ηλ. ταχυδρομείου πρέπει να επαληθευτεί',
-      'SSH Key Type' => 'Τύπος κλειδιού SSH',
       '%s enabled auto login.' => 'Ο %s ενεργοποίησε την αυτόματη σύνδεση.',
       'Verify Email' => 'Επιβεβαίωση διεύθυνσης ηλ. ταχυδρομείου',
       'Account is already registered or linked.' => 'Ο λογαριασμός είναι ήδη εγγεγραμμένος ή συνδεδεμένος.',
@@ -25,6 +24,7 @@ final class PhabricatorAuthEl
       'Asana' => 'Asana',
       'Disqus' => 'Disqus',
       'OAuth client "%s" is already trusted.' => 'Ο Phabricator ήδη εμπιστεύεται τον πελάτη του OAuth "%s".',
+      '%s is required!' => 'το %s απαιτείται!',
     );
   }
 

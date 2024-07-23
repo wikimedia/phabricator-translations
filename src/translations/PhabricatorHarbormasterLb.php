@@ -12,6 +12,7 @@ final class PhabricatorHarbormasterLb
       'For example:' => 'Zum Beispill:',
       'Behavior: %s' => 'Verhalen: %s',
       'HTTP Request' => 'HTTP Ufro',
+      'Skipped' => 'Iwwersprongen',
       'Show More Below' => 'Méi hei drënner weisen',
       'Syntax Error' => 'Syntaxfeeler',
       'Lines' => 'Linnen',

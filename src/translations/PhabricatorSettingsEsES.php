@@ -21,7 +21,6 @@ final class PhabricatorSettingsEsES
       'The conflict between your browser and profile timezone settings will be ignored.' => 'Se pasará por alto el conflicto entre tu navegador y la configuración de huso horario del perfil.',
       'Changes saved.' => 'Se guardaron los cambios.',
       'Really delete address \'%s\'?' => '¿De verdad quieres eliminar la dirección «%s»?',
-      'Change Timezone' => 'Cambiar huso horario',
       '◐ Notify' => '◐ Notificar',
       'Timezone Calibrated' => 'Se calibró el huso horario',
       'Use Unicode Glyphs: ⚙' => 'Utilizar caracteres de Unicode: ⚙',

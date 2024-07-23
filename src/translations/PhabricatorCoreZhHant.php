@@ -61,7 +61,6 @@ final class PhabricatorCoreZhHant
       'Users' => '使用者',
       'Edit Picture' => '編輯圖片',
       'Design' => '設計',
-      'Time formatting' => '時間格式',
       '?' => '？',
       'URIs' => 'URI',
       'Example: %s' => '範例：%s',

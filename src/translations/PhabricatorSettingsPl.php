@@ -94,7 +94,6 @@ final class PhabricatorSettingsPl
       'Global Defaults' => 'Globalne wartości domyślne',
       'Conpherence Sound' => 'Dźwięk konpherencji',
       'Enable "Re:" Prefix' => 'Włącz przedrostek "Re:"',
-      'Change Timezone' => 'Zmień strefę czasową',
       'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Jeśli wyłączysz **Własne akcje**, Phabricator nie powiadomi Cię o działaniach, które podejmiesz.',
       'You are adding too many email addresses to your account too quickly.' => 'Zbyt szybko dodajesz do swojego konta zbyt wiele adresów e-mail.',
       'Your browser has not yet granted this server permission to send desktop notifications.' => 'Ta przeglądarka jeszcze nie udzieliła zgody na wysyłanie powiadomień na pulpicie dla tej instancji Phabricatora.',

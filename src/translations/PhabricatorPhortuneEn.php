@@ -472,7 +472,6 @@ final class PhabricatorPhortuneEn
       'Receipts' => 'Receipts',
       '%s updated the merchant invoice footer for %s.' => '%s updated the merchant invoice footer for %s.',
       'Refunded' => 'Refunded',
-      'Creation of default account for users with no accounts.' => 'Creation of default account for users with no accounts.',
       'New merchant description.' => 'New merchant description.',
       'There was an error with the payment token submitted by the client. Expected a valid dictionary, received: %s.' => 'There was an error with the payment token submitted by the client. Expected a valid dictionary, received: %s.',
       'Order Not in Review' => 'Order Not in Review',

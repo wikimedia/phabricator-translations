@@ -13,10 +13,8 @@ final class PhabricatorextCoreEo
       'Deny' => 'Malaprobi',
       'Invalid' => 'Nevalida',
       'Unknown' => 'Nekonata',
-      'Download zip' => 'Elŝuti zip',
       'Required' => 'Deviga',
       'Abandoned' => 'Forlasita',
-      'Download tar.gz' => 'Elŝuti tar.gz',
     );
   }
 

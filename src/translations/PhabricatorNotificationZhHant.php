@@ -26,7 +26,7 @@ final class PhabricatorNotificationZhHant
       'No notifications to mark as read.' => '沒有可標記為已讀的通知。',
       'Notification Server Down' => '通知伺服器停機',
       'This server is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
-    %s' => 'Phabricator 被設置為通知伺服器使用，但無法連接到。您應解決此問題或是停用通知伺服器。重新仔細確認您的設置，或是使用下方指定來重新啟動伺服器應有幫助。
+    %s' => '該伺服器被設置為通知伺服器使用，但無法連接到。您應解決此問題或是停用通知伺服器。重新仔細確認您的設置，或是使用下方指定來重新啟動伺服器應有幫助。
     %s',
       'Unable to test client on an admin server!' => '無法在管理員伺服器上測試客戶端！',
       'Notification server configuration describes an invalid host ("%s", at index "%s"). This is an "admin" service but it has a "path" property. This property is only valid for "client" services.' => '通知伺服器設置描述出一台無效的主機（「%s」，位在索引「%s」）。此為管理員服務但帶有「path」屬性，此屬性僅適用於客戶端服務',

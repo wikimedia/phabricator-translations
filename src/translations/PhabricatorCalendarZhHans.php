@@ -112,7 +112,7 @@ final class PhabricatorCalendarZhHans
       'Party' => '聚会',
       'One-Time Event' => '一次活动',
       'All Day Event' => '全日活动',
-      'New export query key.' => '新导出的查询关键字。',
+      'New export query key.' => '新的导出查询密钥。',
       'Deleted Event' => '删除的活动',
       'Name of the import.' => '导入名称。',
       'Enable Import' => '启用导入',
@@ -146,6 +146,7 @@ final class PhabricatorCalendarZhHans
       'Create New Import' => '创建新导入',
       'EVENT DESCRIPTION' => '活动描述',
       'New URI.' => '新URI。',
+      'Expected ISO8601 duration in the format "P12DT3H4M5S", found "%s".' => '预期为ISO8601持续时间，格式“P12DT3H4M5S”，找到“%s”。',
       'Both Cancelled and Active Events' => '取消和活跃的活动',
       'Log Messages' => '日志消息',
     );

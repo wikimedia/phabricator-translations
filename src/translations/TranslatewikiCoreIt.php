@@ -9,6 +9,10 @@ final class TranslatewikiCoreIt
 
   protected function getTranslations() {
     return array(
+      'Ukrainian' => 'Ucraino',
+      'Finnish' => 'Finlandese',
+      'Greek' => 'Greco',
+      'Russian' => 'Russo',
       'Done.' => 'Fatto.',
     );
   }

@@ -21,7 +21,6 @@ final class PhabricatorTypeaheadDiq
       'More Results' => 'Zêde Neticeyi',
       'Sprite' => 'Pêriye',
       'Auto' => 'Otomatik',
-      'Browse Numbers' => 'Çımberze Amaran',
       'Priority Type' => 'Tewrê Veroriye',
       'Using Typeahead Functions' => 'Fonksiyonê Typeahead Karnayışi',
     );

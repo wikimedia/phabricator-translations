@@ -10,7 +10,6 @@ final class PhabricatorTypeaheadNl
   protected function getTranslations() {
     return array(
       'Invalid Parameters' => 'Ongeldige parameters',
-      'Browse Numbers' => 'Door getallen bladeren',
     );
   }
 

@@ -23,7 +23,6 @@ final class PhabricatorTypeaheadDeDE
       'Unable to parse function and arguments for token "%s".' => 'Unfähig, die Funktion und die Argumente für den Token "%s" zu parsen.',
       'Invalid Function: %s' => 'Ungültige Funktion: %s',
       'More Results' => 'Weitere Ergebnisse',
-      'Browse Numbers' => 'Nummern durchsuchen',
     );
   }
 

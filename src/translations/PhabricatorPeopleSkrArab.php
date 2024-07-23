@@ -9,7 +9,6 @@ final class PhabricatorPeopleSkrArab
 
   protected function getTranslations() {
     return array(
-      'Confirm' => 'تصدیق',
       'Bot' => 'ٻوٹ',
       'Create New Bot' => 'نواں ٻوٹ بݨاؤ',
       'Approved' => 'منظور تھی ڳیا',

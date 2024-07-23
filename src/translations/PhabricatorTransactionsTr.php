@@ -175,7 +175,6 @@ final class PhabricatorTransactionsTr
       '%s wrote:' => '%s yazdı:',
       'Change subtype to' => 'Alt türünü değiştir',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => '"%s" uzantısı, ana düzenleyici veya başka bir uzantıyla aynı tuşa ("%s") sahip bir toplu düzenleme grubunu tanımlar. Her toplu düzenleme grubunun benzersiz bir anahtarı olmalıdır.',
-      'Subtype Key "%s"' => 'Alt Tür Anahtarı "%s"',
       'Save Edit Order' => 'Düzenleme Sıralamasını Kaydet',
       '%s removed %s unsubscriber(s): %s.' => '%s, %s aboneyi kaldırdı: %s.',
       'EMAIL PREFERENCES' => 'E-POSTA TERCİHLERİ',

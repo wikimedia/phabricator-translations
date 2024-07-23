@@ -10,7 +10,6 @@ final class PhabricatorPolicyPtBR
   protected function getTranslations() {
     return array(
       'Access Denied: %s' => 'Acesso negado: %s',
-      'No One Policy' => 'Nenhuma política',
       'These rules are processed in order.' => 'Essas regras são processadas em ordem.',
       'User Policies' => 'Políticas do usuário',
       'You do not have permission to edit this object.' => 'Você não tem permissão para editar este objeto.',
@@ -36,7 +35,6 @@ final class PhabricatorPolicyPtBR
       'Change the join policy of the object.' => 'Altere a política de junção do objeto.',
       'This object has special rules which override normal object policy rules:' => 'Este objeto possui regras especiais que substituem as regras normais de diretiva de objeto:',
       'This object has a custom policy controlling who can take this action.' => 'Esse objeto tem uma política personalizada controlando quem pode realizar essa ação.',
-      'User Policy' => 'Políticas do usuário',
     );
   }
 

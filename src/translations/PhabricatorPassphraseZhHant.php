@@ -95,7 +95,7 @@ final class PhabricatorPassphraseZhHant
       '%s allowed Conduit API access to this credential.' => '%s允許了 Conduit API 存取此憑證。',
       'New Credential: %s' => '新憑證：%s',
       '%s (Restricted Credential)' => '%s（受限制憑證）',
-      'Credential management and general storage of shared secrets.' => '用於在 Phabricator 其它區域重複利用，或是共享金鑰常規儲存的憑證管理。',
+      'Credential management and general storage of shared secrets.' => '用於共享金鑰常規儲存的憑證管理。',
       'Passphrase Credential' => 'Passphrase 憑證',
       'Password for Key' => '金鑰密碼',
       'Prevent the secret from being revealed or changed.' => '防止密鑰洩露或更改。',

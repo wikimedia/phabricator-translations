@@ -17,7 +17,6 @@ final class PhabricatorSearchCa
       'The queries you have saved are private. Only you can view or edit them.' => 'Les consultes que heu desat són privades. Només tu podeu visualitzar-les o editar-les.',
       'cat -A can find mice hiding in files.' => 'gat -Un pot trobar ratolins amagats en arxius.',
       'Export Format Not Available' => 'Format d\'exportació no disponible',
-      'Compilation of query: %s' => 'Compilació de la consulta: %s',
       'Readable' => 'Llegible',
       'Search Engines' => 'Motors de cerca',
       'Form "%s" is not a valid form which you have permission to see.' => 'El formulari "%s" no és un formulari vàlid que pugueu veure.',
@@ -98,7 +97,6 @@ final class PhabricatorSearchCa
     ```
     Aquest punt final de l\'API admet aquestes restriccions:',
       'This call does not support any attachments.' => 'Aquesta trucada no admet cap fitxer adjunt.',
-      'Corpus stem of: %s' => 'Stem de corpus de: %s',
       'Really delete the query "%s"? You can not undo this. Remember all the great times you had filtering results together?' => 'Suprimir la consulta "%s"? No es pot desfer. Recordeu tots els moments fantàstics en què heu filtrat els resultats junts?',
       'Not all cats can retract their claws, but most of them can.' => 'No tots els gats poden amagar les seves urpes, però la majoria poden.',
       'Restricted Dashboard' => 'Quadre de comandament restringit',
@@ -152,7 +150,6 @@ final class PhabricatorSearchCa
       'Query has an invalid sequence of operators ("%s").' => 'La consulta té una seqüència d\'operadors no vàlida (\'%s\').',
       'Constraint "%s" is not a valid constraint for this query.' => 'La restricció \'%s\' no és una restricció vàlida per a aquesta consulta.',
       'Engine: Search' => 'Motor: Recerca',
-      'Stemmed compilation of query: %s' => 'Compilació de la consulta Stemmed: %s',
       'A cat can run seven times faster than a human, but only for a short distance.' => 'Un gat pot córrer set vegades més ràpid que un ésser humà, però només distància curta.',
       'This engine is used to modify menu items on profiles.' => 'Aquest motor s’utilitza per modificar els elements del menú als perfils.',
       'You can choose a builtin or saved query as a starting point for filtering
@@ -254,7 +251,6 @@ final class PhabricatorSearchCa
       'Cats purr when they are happy, upset, or asleep.' => 'Els gats purguen quan són feliços, molestos o adormits.',
       'Save this query as a global query, making it visible to all users.' => 'Deseu aquesta consulta com a consulta global, fent-la visible a tots els usuaris.',
       'Edit Query' => 'Editar la consulta',
-      'Token stem of "%s".' => 'Stem del testimoni de «%s».',
       'No results found for this query.' => 'No s\'ha trobat cap resultat en aquesta consulta.',
       'Cats with high self-esteem seek out high perches to launch their attacks. Watch out!' => 'Els gats amb alta autoestima busquen altes perses per llançar els seus atacs. Compte!',
       'This dashboard has been archived.' => 'Aquest quadre de comandament s\'ha arxivat.',
@@ -270,7 +266,6 @@ final class PhabricatorSearchCa
       'Unable to Render Dashboard' => 'No es pot renderitzar el quadre de comandament',
       'Queued %s document(s) for background indexing.' => '%s documents en cua per indexar en segon pla.',
       'This dashboard is invalid and could not be loaded.' => 'Aquest quadre de comandament no és vàlid i no s\'ha pogut carregar.',
-      'Function compilation of query: %s' => 'Compilació de funcions de consulta: %s',
       'Queries are limited to returning 100 results at a time. If you want fewer
     results than this, you can use `limit` to specify a smaller limit.
     If you want more results, you\'ll need to make additional queries to retrieve

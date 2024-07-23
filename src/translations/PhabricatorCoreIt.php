@@ -12,7 +12,6 @@ final class PhabricatorCoreIt
       'Question' => 'Domanda',
       'OPTIMIZE' => 'OTTIMIZZA',
       'DESTROY' => 'DISTRUGGI',
-      '%s has an effect' => '%s ha un effetto',
       '%s (Preview)' => '%s (Anteprima)',
       '%s MB' => '%s MB',
       'Inactive' => 'Inattivo',

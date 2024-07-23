@@ -11,7 +11,7 @@ final class PhabricatorConfigZhHans
     return array(
       'Array containing list of uninstalled applications.' => '包含未安装应用列表的数组。',
       'Client Server' => '客户端服务器',
-      'Column/Key' => '列/关键字',
+      'Column/Key' => '列/键',
       '%s / %s' => '%s / %s',
       'Table' => '表格',
       'Ignore Setup Issue' => '忽略配置问题',
@@ -29,6 +29,9 @@ final class PhabricatorConfigZhHans
       '(%s%s) %s' => '（%s%s）%s',
       'Unknown \'%s\' Version' => '未知“%s”版本',
       'Purge Caches' => '刷新缓存',
+      'Allow editing' => '允许编辑',
+      'The HTTP method.' => 'HTTP方法。',
+      'PHP Timezone Invalid' => 'PHP时区无效',
       'This option can help debug pages which are taking a very long time (more than 30 seconds) to render.
     If a page is slow to render (but taking less than 30 seconds), the best tools to use to figure out why it is slow are usually the DarkConsole service call profiler and XHProf.
     However, if a request takes a very long time to return, some components (like Apache, nginx, or PHP itself) may abort the request before it finishes. This can prevent you from using profiling tools to understand page performance in detail.
@@ -47,7 +50,6 @@ final class PhabricatorConfigZhHans
     如果未设置，那么将不会写入日志。',
       'Done. Migrated %d keys.' => '完成。已迁移%s个密钥。',
       'Disable access log.' => '禁用访问日志。',
-      'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => '控制Phabricator是否允许阻止来自“维护”用户的电子邮件。',
       'Activity "%s" is not currently marked as required, so there is no need to complete it.' => '活动“%s”当前并未标记为必需，因此不需要完成它。',
       'Determines whether Wikimedia Commons videos get embedded.' => '决定是否嵌入维基共享资源的视频。',
       'SSH log location.' => 'SSH日志位置。',

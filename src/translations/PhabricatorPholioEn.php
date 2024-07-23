@@ -83,6 +83,7 @@ final class PhabricatorPholioEn
       'This page documents the commands you can use to interact with mocks in Pholio.' => 'This page documents the commands you can use to interact with mocks in Pholio.',
       'Unable to load replacement image ("%s"): %s' => 'Unable to load replacement image ("%s"): %s',
       '%s renamed this mock from %s to %s.' => '%s renamed this mock from %s to %s.',
+      'Comment cannot be empty.' => 'Comment cannot be empty.',
       'Test rules which run when a mock is created or updated.' => 'Test rules which run when a mock is created or updated.',
       'Inline Comment' => 'Inline Comment',
       'Mock names must not be longer than %s character(s).' => 'Mock names must not be longer than %s character(s).',

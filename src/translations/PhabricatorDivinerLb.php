@@ -12,6 +12,7 @@ final class PhabricatorDivinerLb
       'Article' => 'Artikel',
       'Books' => 'Bicher',
       'Defined' => 'Definéiert',
+      'Documentation Not Found' => 'Dokumentatioun net fonnt',
       'Book' => 'Buch',
     );
   }

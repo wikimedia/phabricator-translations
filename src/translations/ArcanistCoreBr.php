@@ -10,7 +10,6 @@ final class ArcanistCoreBr
   protected function getTranslations() {
     return array(
       '"%s" (%s)' => '"%s" (%s)',
-      '(No messages.)' => '(Kemennadenn ebet.)',
       'Saved "%s" as "%s".' => '"%s" enrollet evel "%s".',
       'Not parsing!' => 'Dielfennadenn ebet !',
       'CC: %s' => 'CC : %s',
@@ -22,7 +21,6 @@ final class ArcanistCoreBr
       'Runtime Error' => 'Fazi seveniñ',
       'Inline HTML' => 'HTML enlinenn',
       'No tests to run.' => 'Prouad ebet da seveniñ',
-      'Order: Global' => 'Urzh : Hollek',
       'Do not copy changes to the staging area.' => 'Arabat eilañ ar c\'hemmoù en takad lakaat e plas.',
       'Unknown Symbol' => 'Arouez dianav',
       'ERROR' => 'FAZI',
@@ -82,12 +80,10 @@ final class ArcanistCoreBr
       'Current Value' => 'Talvoud red',
       'UPDATE' => 'HIZIVAAT',
       'EXCEPTION' => 'NEMEDENN',
-      'Order: Project' => 'Urzh : Raktres',
       'Accepted' => 'Degemeret',
       'Lookup of encoding in project failed: %s' => 'C\'hwitet eo an enklask enkodañ er raktres Arcanist : %s',
       'SUCCESS!' => 'BARREK !',
       'CONNECT' => 'KEVREAÑ',
-      '...' => '...',
       'Name' => 'Anv',
       'Title' => 'Titl',
       'Disconnected' => 'Digevreet',

@@ -24,7 +24,6 @@ final class PhabricatorTypeaheadZhHant
     %s
     當查詢實際上顯示在控件時，應像是：
     %s',
-      'All arguments to "%s(...)" must be integers, found "%s" in position %d.' => '「%s(...)」的所有引數必須是整數，在位置 %3$s 偵測到「%2$s」。',
       'Invalid Parameters' => '無效參數',
       'Source Class' => '來源類別',
       'Raw Query' => '原始查詢',
@@ -51,11 +50,8 @@ final class PhabricatorTypeaheadZhHant
       'Sprite' => '拼合圖',
       'The HTTP parameter named "parameters" for this request is not a valid JSON parameter. JSON is required. Exception: %s' => '用於此請求，名為「parameters」的 HTTP 參數不是有效的 JSON 參數。JSON 為必需。例外：%s',
       'Function Quick Reference' => '函式快速參照',
-      'Constraints for input "%s".' => '輸入「%s」的限制。',
       'Auto' => '自動',
       'You reach the edge of the abyss.' => '您抵達了深淵的邊際。',
-      'Tokenization of "%s"' => '「%s」的表示化',
-      'Browse Numbers' => '瀏覽數目',
       'Priority Type' => '優先類型',
       'Using Typeahead Functions' => '使用 Typeahead 函式',
     );

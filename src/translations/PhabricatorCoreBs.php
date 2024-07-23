@@ -60,7 +60,6 @@ final class PhabricatorCoreBs
       'Duplicate' => 'Duplikat',
       '%s renamed %s from %s to %s.' => '%s preimenovao/-la je %s sa %s na %s.',
       'data' => 'podaci',
-      'Supported formats: %s' => 'Podržani formati: %s',
       'Calendar' => 'Kalendar',
       'List Item' => 'Stavka spiska',
       'Administration' => 'Administracija',

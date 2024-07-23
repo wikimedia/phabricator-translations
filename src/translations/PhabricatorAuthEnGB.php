@@ -20,7 +20,7 @@ final class PhabricatorAuthEnGB
       'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Really revoke all tokens? Among other temporary authorisations, this will disable any outstanding password reset or account recovery links.',
       'Analyze and diagnose issues with LDAP configuration.' => 'Analyse and diagnose issues with LDAP configuration.',
       'Really revoke this token? Any temporary authorization it enables will be disabled.' => 'Really revoke this token? Any temporary authorisation it enables will be disabled.',
-      'Customize Enroll Message' => 'Customise Enroll Message',
+      'Customize Enroll Message' => 'Customise Enrol Message',
       'Your account has too many outstanding, incomplete MFA synchronization attempts. Wait an hour and try again.' => 'Your account has too many outstanding, incomplete MFA synchronisation attempts. Wait an hour and try again.',
       'Customize Message' => 'Customise Message',
     );

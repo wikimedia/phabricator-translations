@@ -18,7 +18,7 @@ final class PhabricatorAuthFa
       'The contact number.' => 'شمارهٔ تماس.',
       'Wait' => 'صبر کنید',
       'Text Message (SMS)' => 'پیام متنی (پیامک)',
-      'Twitter' => 'توئیتر',
+      'Twitter' => 'توییتر',
       'Next Step' => 'گام بعدی',
       'Message Preview' => 'پیش‌نمایش پیام',
       'Send SMS' => 'ارسال پیامک',

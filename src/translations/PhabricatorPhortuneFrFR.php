@@ -480,7 +480,6 @@ final class PhabricatorPhortuneFrFR
       'Receipts' => 'Reçus',
       '%s updated the merchant invoice footer for %s.' => '%s a mis à jour le pied de page de la facture du commerçant pour %s.',
       'Refunded' => 'Remboursé',
-      'Creation of default account for users with no accounts.' => 'Création d’un compte par défaut pour les utilisateurs sans compte.',
       'New merchant description.' => 'Nouvelle description du commerçant.',
       'There was an error with the payment token submitted by the client. Expected a valid dictionary, received: %s.' => 'Une erreur s’est produite avec le jeton de paiement soumis par le client. Un dictionnaire valide était attendu, mais « %s » a été reçu.',
       'Order Not in Review' => 'Commande non en cours de passage en revue',

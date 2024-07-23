@@ -46,7 +46,7 @@ final class PhabricatorAphlictZhHant
       'Reading configuration from: %s' => '讀取設置自：%s',
       'Unable to start notifications server because it is already running. Use `%s` to restart it.' => '因為已在運作中，所以無法啟動通知伺服器。使用 `%s` 來重新啟動。',
       'Specify a message to send with "--message".' => '以「--message」來指定要通知的訊息。',
-      'Sent notification.' => '發送通知。',
+      'Sent notification.' => '傳送通知。',
       'Use a specific configuration file instead of the default configuration.' => '使用指定的設置檔案來取代預設設置。',
       'Configuration file specifies cluster peer ("%s", at index "%s") with an invalid protocol, "%s". Valid protocols are "%s" or "%s".' => '設置檔案以無效的傳輸協定「%3$s」指定了叢集點（在索引「%1$s」，位於埠號「%2$s」）。有效的傳輸協定為「%s」或「%s」。',
       'Aphlict Server started.' => 'Aphlict 伺服器已啟動。',

@@ -22,7 +22,6 @@ final class PhabricatorSpacesEl
       'Support for Spaces' => 'Υποστήριξη για χώρους',
       '%s renamed space %s from %s to %s.' => 'Ο %s μετονόμασε τον χώρο %s από %s σε %s.',
       'Create a Space' => 'Δημιουργία χώρου',
-      'Alternate Space' => 'Εναλλακτικός χώρος',
       '%s activated this space.' => 'Ο %s ενεργοποίησε αυτό τον χώρο.',
       'Archive Space: %s' => 'Αρχειοθέτηση χώρου: %s',
       'Spaces must have a name.' => 'Οι χώροι πρέπει να έχουν ένα όνομα.',
@@ -49,11 +48,9 @@ final class PhabricatorSpacesEl
       '%s renamed this space from %s to %s.' => 'Ο %s μετονόμασε αυτό τον χώρο από %s σε %s.',
       'No spaces found.' => 'Δεν βρέθηκαν χώροι.',
       'Edit Space' => 'Επεξεργασία χώρου',
-      'Test Space' => 'Δοκιμαστικός χώρος',
       '%s made space %s the default space.' => 'Ο %s όρισε τον χώρο %s ως τον προεπιλεγμένο χώρο.',
       'Activate Space' => 'Ενεργοποίηση χώρου',
       '%s created space %s.' => 'Ο %s δημιούργησε τον χώρο %s.',
-      'Default Space #2' => 'Προεπιλεγμένος χώρος #2',
       'Active Spaces' => 'Ενεργοί χώροι',
     );
   }

@@ -188,7 +188,6 @@ final class PhabricatorTransactionsCa
       '%s wrote:' => '%s ha escrit:',
       'Change subtype to' => 'Canviar el subtipus a',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => 'L\'extensió \'%s\' defineix un grup d\'edició massiva amb la mateixa clau (\'%s\') que l\'editor principal o una altra extensió. Cada grup d\'edició massiva ha de tenir una clau única.',
-      'Subtype Key "%s"' => 'Clau de subtipus \'%s\'',
       'Save Edit Order' => 'Desar l\'ordre d\'edició',
       '%s removed %s unsubscriber(s): %s.' => '%s ha suprimit %s baixes: %s.',
       'EMAIL PREFERENCES' => 'PREFERÈNCIES DE CORREU ELECTRÒNIC',

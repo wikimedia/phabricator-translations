@@ -35,6 +35,11 @@ final class PhabricatorConfigPtBR
       'The search index algorithm has been updated and the index needs be rebuilt.' => 'O algoritmo do índice de pesquisa foi atualizado e o índice precisa ser reconstruído.',
       'PHP Timezone' => 'Fuso Horário do PHP',
       '%s Active' => '%s Ativo',
+      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
+    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
+    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'Você está rodando a versão PHP %s. Versões PHP entre 7.0 e 7.1 não são suportadas
+    PHP removeu recursos necessários de manipulação de sinal no PHP 7.0, e não restaurou um mecanismo equivalente até o PHP 7.1.
+    Atualize para o PHP 7.1 ou mais recente (recomendado) ou baixe uma versão mais antiga do PHP 5 (não recomendado).',
       'User Interface' => 'Interface de usuário',
       'Enable developer mode' => 'Ativar o modo de desenvolvedor',
     );

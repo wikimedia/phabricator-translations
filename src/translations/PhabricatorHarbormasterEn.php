@@ -51,7 +51,6 @@ final class PhabricatorHarbormasterEn
       '%s Broken Test(s)' => '%s Broken Test(s)',
       'Resuming' => 'Resuming',
       'Publishing "%s"...' => 'Publishing "%s"...',
-      'Line Map for "%s"' => 'Line Map for "%s"',
       'The name of the build target.' => 'The name of the build target.',
       'Edit Plan' => 'Edit Plan',
       'Use %s instead.' => 'Use %s instead.',
@@ -290,6 +289,7 @@ final class PhabricatorHarbormasterEn
       'Force the buildable to update even if no build status changes occur during normal update.' => 'Force the buildable to update even if no build status changes occur during normal update.',
       'INVALID' => 'INVALID',
       'Unable to load object "%s" to receive message.' => 'Unable to load object "%s" to receive message.',
+      'No such variable \'%s\'!' => 'No such variable \'%s\'!',
       'Request OK
     ' => 'Request OK
     ',
@@ -509,6 +509,7 @@ final class PhabricatorHarbormasterEn
       'Started Before' => 'Started Before',
       'The URI to store.' => 'The URI to store.',
       'Type a build plan name...' => 'Type a build plan name...',
+      'Test' => 'Test',
       'Harbormaster Build %s ("%s") for %s' => 'Harbormaster Build %s ("%s") for %s',
       'Updating Build Targets' => 'Updating Build Targets',
       'Delete Build Step' => 'Delete Build Step',
@@ -540,7 +541,6 @@ final class PhabricatorHarbormasterEn
       'No such build target "%s"!' => 'No such build target "%s"!',
       'My Builds' => 'My Builds',
       'Insufficent Build Plan Permission' => 'Insufficent Build Plan Permission',
-      'Restarting' => 'Restarting',
       'Write rate must be more than 0 bytes/sec.' => 'Write rate must be more than 0 bytes/sec.',
       'Required Input' => 'Required Input',
       'The current UNIX timestamp.' => 'The current UNIX timestamp.',

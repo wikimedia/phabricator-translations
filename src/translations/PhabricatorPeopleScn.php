@@ -9,7 +9,6 @@ final class PhabricatorPeopleScn
 
   protected function getTranslations() {
     return array(
-      'Confirm' => 'Cunferma',
       'Invite Users' => 'Ammita utenti',
       'Musician' => 'Musicista',
       'Show Only Bots' => 'Ammustra sulu li bot',

@@ -34,7 +34,7 @@ final class PhabricatorAuthRu
       'Authentication Error' => 'Ошибка аутентификации',
       'Your account has been disabled.' => 'Ваш аккаунт был отключено.',
       'Account Disabled' => 'Учётная запись отключена',
-      'OAuth client "%s" is already trusted.' => 'Phabricator уже доверяет клиенту OAuth "%s".',
+      'OAuth client "%s" is already trusted.' => 'OAuth-клиент «%s» уже является доверенным.',
       '%s disabled login.' => '%s отключён логин.',
       '%s disabled registration.' => '%s отключён регистрация.',
       '%s disabled auto login.' => '%s отключён автоматическая авторизация.',

@@ -11,7 +11,6 @@ final class PhabricatorPeopleDa
     return array(
       'Disable User?' => 'Deaktiver bruger?',
       'Manage User' => 'Administrer bruger',
-      'Confirm' => 'Bekræft',
       'Delete User' => 'Slet bruger',
       'User Accounts and Profiles' => 'Brugerkonti og profiler',
       'Invite Users' => 'Inviter brugere',

@@ -29,6 +29,7 @@ final class PhabricatorCalendarEl
       'Event icon.' => 'Εικονίδιο γεγονότος.',
       'Too Frequent' => 'Πολύ συχνό',
       'Cancel this event?' => 'Ακύρωση του γεγονότος;',
+      'Unable to decode base64 data: %s' => 'Αποτυχία στην αποκωδικοποίηση δεδομένων του base64: %s',
       'Uses Import Policy' => 'Χρησιμοποιεί την πολιτική εισαγωγής',
       'Weekly' => 'Εβδομαδιαίο',
       'Export private data.' => 'Εξαγωγή ιδιωτικών δεδομένων.',

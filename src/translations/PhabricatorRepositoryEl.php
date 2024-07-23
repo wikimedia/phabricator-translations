@@ -11,7 +11,6 @@ final class PhabricatorRepositoryEl
     return array(
       'Unknown repository type \'%s\'!' => 'Άγνωστος τύπος αποθηκευτηρίου \'%s\'!',
       'Unknown VCS \'%s\'!' => 'Άγνωστο VCS \'%s\'!',
-      'Commit Epochs' => 'Εποχές παραπομπής',
       'branch' => 'παράρτημα',
       'Repository Ref' => 'Παραπομπή αποθηκευτηρίου',
       'Repository "%s" does not exist!' => 'Το αποθετήριο \'\'\'%s\'\'\' δεν υπάρχει!',
@@ -21,7 +20,6 @@ final class PhabricatorRepositoryEl
       'bookmark' => 'σελιδοδείκτης',
       'Active and Inactive Repositories' => 'Ενεργά και ανενεργά αποθηκευτήρια',
       'Dst' => 'Προορ',
-      'No support yet.' => 'Δεν υπάρχει υποστήριξη ακόμα.',
       '%s ♻ %s' => '%s ♻ %s',
       'Rewrite' => 'Ξαναγράψιμο',
     );

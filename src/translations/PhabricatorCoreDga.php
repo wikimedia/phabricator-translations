@@ -49,7 +49,6 @@ final class PhabricatorCoreDga
       'March' => 'Maakye',
       'Query class ("%s") did not return the correct type of object from "newResultObject()" (expected a subclass of "PhabricatorLiskDAO", found "%s"). Return an object of the expected type (this is common), or implement a custom "loadPage()" method (this is unusual in modern code).' => 'Soore Karendie ("%s") ba leɛ tere a ɔbgyɛt parɛɛ toraa yi "newResultObject()" (ŋmaara la "PhabricatorLiskDAO", karendebile naŋ be "%s"). Leɛ a ɔbgyɛte ŋmaaraa paree tere (a ŋaa porɛɛ la), bee empliment yelbegere "loadpage()" sobi-bulo (aŋaa ba tu mɔɔdiŋ koodi poɔ).',
       'If you are not developing %s itself, report this issue to the upstream.' => 'Ka fooŋ ba maala a %s meŋɛ, de a yɛlɛ ko a maale maalba.',
-      'phabricator/' => 'Wuoro/',
       'Grant Permission' => 'Tere sori',
       'S|M|T|W|T|F|S' => 'S
     |M|T|W|T|F|S',
@@ -61,7 +60,6 @@ final class PhabricatorCoreDga
       'August' => 'Ɔɔgere',
       '%s changed the status of %s from %s to %s.' => '%s leɛre la a waaloŋ ko %s yineŋ %s te tɔ %s.',
       'Unable to establish a write-mode connection (to application database "%s") because this server is in read-only mode. Whatever you are trying to do does not function correctly in read-only mode.' => 'Ba toɔŋ maale a sʋgere moodi gyɔɔnoo( a apulikase daatabaasi \'\'%s\'\') bonso a sɛɛva ŋa be la moodi yoŋ. Lɛ zaa fo boɔrɔ ka fo e ba tɔnnɔ soŋ a kannoo yoŋ moodi.',
-      'arcanist/' => 'arcanist/',
       'Pause' => 'Are a be',
       'Configure' => 'Leɛre',
       'January' => 'Gyɛnoɔre',
@@ -82,7 +80,6 @@ final class PhabricatorCoreDga
       'This server is in read-only mode (unreachable master).' => 'A sɛva ŋa e la kannoo yoŋ waaloŋ (koŋ baŋ pɔge Masa).',
       'Attempting to compare a password saved with the "%s" hash. No such hasher is known.' => 'Boɔraa ka fo kaa fo meŋɛ gu bonne a biŋ o "%s" faŋa. Anaŋ na faŋa yɛlɛ ba kyɛ kyɛ.',
       'The PHID of the repository.' => 'A PHID a leɛ emmo.',
-      'The variable %s received an unexpected type: %s. Please share this stack trace as comment in Task %s' => 'A vaarable %s de la naŋ ba teɛre pare: %s. Sɔroo po a staki bɔgere ka a e yel-eŋ a kɔ-nɔzu %s poɔ',
       '[%s] %s' => '[%s] %s',
       'April' => 'Kyapiril',
       'Download' => 'Daŋloodi',

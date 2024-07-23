@@ -46,7 +46,6 @@ final class PhabricatorDifferentialZhHans
       'Must Review' => '必须复核',
       'Unknown revision status filter constant "%s".' => '未知修订状态过滤器常量“%s”。',
       'Unknown change filter \'%s\'.' => '未知的更改过滤器“%s”。',
-      'git-svn-id' => 'git-svn-id',
       '%s edited commit(s), added %s: %s; removed %s: %s.' => '%s编辑了提交，添加了%s个：%s；移除了%s个：%s。',
       'Block diff with message: %s' => '阻断差异并发送消息：%s',
       'Block diff with message' => '阻断差异并发送消息',

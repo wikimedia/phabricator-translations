@@ -10,7 +10,6 @@ final class PhabricatorPolicyZhHans
   protected function getTranslations() {
     return array(
       'Access Denied: %s' => '访问被拒绝：%s',
-      'No One Policy' => '没有一个方针',
       'Space:' => '空间：',
       'Note:' => '注意：',
       'All Users' => '所有用户',

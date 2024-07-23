@@ -67,7 +67,6 @@ final class PhabricatorSettingsSrEC
       'HTML Email' => 'HTML мејлови',
       'Global Defaults' => 'Глобално подразумеване вредности',
       'Enable "Re:" Prefix' => 'Омогући „Re:” префикс',
-      'Change Timezone' => 'Промени временску зону',
       'You are adding too many email addresses to your account too quickly.' => 'Пребрзо додајете велики број мејл адреса на Ваш налог.',
       'You must enter your current password.' => 'Морате да унесете тренутну лозинку.',
       'Europe: 28-02-2000' => 'Европа: 28-02-2000',

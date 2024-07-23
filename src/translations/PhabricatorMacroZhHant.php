@@ -13,7 +13,6 @@ final class PhabricatorMacroZhHant
       'This page documents the commands you can use to interact with image macros.' => '此頁面記錄了您可與表情圖圖片互動的指令。',
       'Create Meme' => '建立迷因',
       'Active Macros' => '有效表情圖',
-      'Validity of macro "%s"' => '表情圖「%s」的效度',
       'Upload New Audio' => '上傳新音訊',
       'Image Macro "%s"' => '表情圖圖片「%s」',
       'MACRO DETAIL' => '表情圖詳細資訊',

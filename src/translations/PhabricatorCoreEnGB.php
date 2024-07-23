@@ -10,7 +10,6 @@ final class PhabricatorCoreEnGB
   protected function getTranslations() {
     return array(
       'Trying to read configuration "%s" before configuration has been initialized.' => 'Trying to read configuration "%s" before configuration has been initialised.',
-      'Normalization of \'%s\'' => 'Normalisation of \'%s\'',
       'Database cluster configuration describes an invalid host ("%s", at index "%s") with an unrecognized role ("%s"). Valid roles are "%s" or "%s".' => 'Database cluster configuration describes an invalid host ("%s", at index "%s") with an unrecognised role ("%s"). Valid roles are "%s" or "%s".',
       'Analyzing tables...' => 'Analysing tables...',
       'Color' => 'Colour',
@@ -37,10 +36,8 @@ final class PhabricatorCoreEnGB
       'Reprioritized %s task(s).' => 'Reprioritised %s task(s).',
       'Storage initialized.' => 'Storage initialised.',
       'There is no database storage initialized in the current storage namespace ("%s"). Use "bin/storage upgrade" to initialize storage or use "--namespace" to choose a different namespace.' => 'There is no database storage initialised in the current storage namespace ("%s"). Use "bin/storage upgrade" to initialise storage or use "--namespace" to choose a different namespace.',
-      'Hashtag normalization of "%s"' => 'Hashtag normalisation of "%s"',
       'Storage patch "%s" specifies it should apply in phase "%s", but this phase is unrecognized. Valid phases are: %s.' => 'Storage patch "%s" specifies it should apply in phase "%s", but this phase is unrecognised. Valid phases are: %s.',
       'Completed optimizations, reclaimed %s of disk space.' => 'Completed optimisations, reclaimed %s of disk space.',
-      'Localization' => 'Localisation',
       'Database initialization on host "%s" applied no patches!' => 'Database initialisation on host "%s" applied no patches!',
       'Storage on host "%s" has not been initialized yet. You must initialize storage before selectively applying patches.' => 'Storage on host "%s" has not been initialised yet. You must initialise storage before selectively applying patches.',
       'Declining to synchronize static tables.' => 'Declining to synchronise static tables.',

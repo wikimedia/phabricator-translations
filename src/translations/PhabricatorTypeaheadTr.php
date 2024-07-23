@@ -24,7 +24,6 @@ final class PhabricatorTypeaheadTr
     %s
     Bu sorgu gerçekte kontrolde gösterildiğinde, şöyle görünecektir:
     %s',
-      'All arguments to "%s(...)" must be integers, found "%s" in position %d.' => '"%s(...)" için tüm argümanlar tamsayı olmalı, "%s" konumunda %s konumunda bulundu.',
       'Invalid Parameters' => 'Geçersiz Parametreler',
       'Source Class' => 'Kaynak Sınıfı',
       'Raw Query' => 'Ham Sorgu',
@@ -51,11 +50,8 @@ final class PhabricatorTypeaheadTr
       'Sprite' => 'Peri',
       'The HTTP parameter named "parameters" for this request is not a valid JSON parameter. JSON is required. Exception: %s' => 'Bu istek "parametreler" adlı HTTP parametresi geçerli bir JSON parametresi değil. JSON gereklidir. İstisna: %s',
       'Function Quick Reference' => 'İşlev Hızlı Kaynağı',
-      'Constraints for input "%s".' => '"%s" girişi kısıtlaması.',
       'Auto' => 'Otomatik',
       'You reach the edge of the abyss.' => 'Uçurumun kenarına ulaştınız.',
-      'Tokenization of "%s"' => '"%s" etiketinin simgesi',
-      'Browse Numbers' => 'Numaralara Göz At',
       'Priority Type' => 'Öncelik Türü',
       'Using Typeahead Functions' => 'Typeahead İşlevlerini Kullanma',
     );

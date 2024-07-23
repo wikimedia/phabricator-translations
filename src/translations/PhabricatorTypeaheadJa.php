@@ -11,7 +11,6 @@ final class PhabricatorTypeaheadJa
     return array(
       'Token Name' => 'トークン名',
       'This source is not usable directly.' => 'このソースは直接使用できません。',
-      'Tokenization of "%s"' => '"%s"のトークン化',
     );
   }
 

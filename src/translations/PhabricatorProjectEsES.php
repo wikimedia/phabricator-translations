@@ -60,7 +60,7 @@ final class PhabricatorProjectEsES
       'Information about the project color.' => 'Información acerca de los colores de los proyectos.',
       'Unsupported Project' => 'Proyecto sin servicio técnico',
       'Archive Subproject' => 'Archivar subproyecto',
-      'Whether this is the default column.' => 'Si esta es la columna predeterminada.',
+      'True if this is the default column.' => 'Si esta es la columna predeterminada.',
     );
   }
 

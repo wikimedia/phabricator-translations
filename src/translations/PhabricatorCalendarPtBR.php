@@ -96,6 +96,7 @@ final class PhabricatorCalendarPtBR
       'All Events' => 'Todos os eventos',
       'Availability: %s' => 'Disponibilidade: %s',
       'Create New Event' => 'Criar novo evento',
+      'Datetime has no timezone or viewer timezone.' => 'A hora da data não possui fuso horário ou visualizador.',
       '%s updated the event description.' => '%s atualizou a descrição do evento.',
       'Cancel Event' => 'Cancelar evento',
       'Recurring Event' => 'Evento recorrente',

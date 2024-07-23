@@ -103,7 +103,6 @@ final class PhabricatorOwnersEn
       'Get the paths for each package.' => 'Get the paths for each package.',
       'Search for packages affecting specific paths.' => 'Search for packages affecting specific paths.',
       'Subscribe to All Changes' => 'Subscribe to All Changes',
-      'Ruleset "%s" for Identical Ownership' => 'Ruleset "%s" for Identical Ownership',
       'Human-readable description of the package.' => 'Human-readable description of the package.',
       'Auditing' => 'Auditing',
       'This package does not contain any paths yet. Use "Edit Paths" to add some.' => 'This package does not contain any paths yet. Use "Edit Paths" to add some.',

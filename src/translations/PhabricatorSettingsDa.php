@@ -43,7 +43,6 @@ final class PhabricatorSettingsDa
       'Another user already has this email.' => 'En anden bruger har allerede denne email.',
       'Change primary email address?' => 'Ændre primære email adresse?',
       'Global Defaults' => 'Globale standarder',
-      'Change Timezone' => 'Ændre tidszone',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
       'The old password you entered is incorrect.' => 'Den gamle adgangskode du indtastede er forkert.',
       '%s updated his profile' => '%s opdaterede hans profil',

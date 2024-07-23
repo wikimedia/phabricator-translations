@@ -16,9 +16,10 @@ final class PhabricatorMetaLb
       'Really uninstall the %s application?' => 'D\'Applikatioun %s wierklech desinstalléieren?',
       'Uninstalled' => 'Desinstalléiert',
       'Show Uninstalled Applications' => 'Desinstalléiert Applikatioune weisen',
+      'Extension' => 'Erweiderung',
       'Show Installed Applications' => 'Installéiert Applikatioune weisen',
       'Uninstall' => 'Desinstalléieren',
-      'This application is required and cannot be uninstalled.' => 'Dës Applikatioun kann net desinstalléiert ginn, well se gebraucht gëtt, fir datt Phabricator leeft.',
+      'This application is required and cannot be uninstalled.' => 'Dës Applikatioun ass erfuerderlech a kann net desinstalléiert ginn.',
     );
   }
 

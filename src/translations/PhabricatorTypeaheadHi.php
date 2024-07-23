@@ -11,7 +11,6 @@ final class PhabricatorTypeaheadHi
     return array(
       'Typeahead' => 'आगे लिखें',
       'This source is not usable directly.' => 'यह स्रोत सीधे प्रयोग करने योग्य नहीं है|',
-      'Tokenization of "%s"' => '"%s" का टोकन बनाना',
     );
   }
 

@@ -36,7 +36,6 @@ final class PhabricatorDifferentialScn
       'Diff %d' => 'Diff %s',
       'Exact: ...' => 'Asattu: ...',
       'Left' => 'Manca',
-      'git-svn-id' => 'git-svn-id',
       'This is an empty file.' => 'Chistu ccà è nu file vacanti.',
       'Lint Errors' => 'Errura di lint',
       'View URI for the revision.' => 'Talìa l\'URI pâ virsioni.',

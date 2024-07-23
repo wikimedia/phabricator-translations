@@ -25,7 +25,6 @@ final class PhabricatorHarbormasterDa
       'Waiting for %s' => 'Venter på %s',
       'All Plans' => 'Alle planer',
       'Local Name' => 'Lokalt navn',
-      'Restarting' => 'Genstarter',
       'When' => 'Når',
       'New plan name.' => 'Nyt plannavn.',
       'Active Plans' => 'Aktive planer',

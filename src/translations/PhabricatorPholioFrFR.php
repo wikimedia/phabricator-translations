@@ -91,6 +91,7 @@ final class PhabricatorPholioFrFR
       'This page documents the commands you can use to interact with mocks in Pholio.' => 'Cette page documente les commandes que vous pouvez utiliser pour interagir avec les maquettes dans Pholio.',
       'Unable to load replacement image ("%s"): %s' => 'Impossible de charger l’image de remplacement (« %s ») : %s',
       '%s renamed this mock from %s to %s.' => '%s a renommé cette simulation de « %s » en « %s ».',
+      'Comment cannot be empty.' => 'Le commentaire ne peut pas être vide.',
       'Test rules which run when a mock is created or updated.' => 'Règles de test qui s’exécutent quand une simulation est créée ou mise à jour.',
       'Inline Comment' => 'Commentaire en ligne',
       'Mock names must not be longer than %s character(s).' => array(

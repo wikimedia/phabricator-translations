@@ -22,6 +22,7 @@ final class PhabricatorAuthLb
       'Log In' => 'Aloggen',
       'Anonymous Username' => 'Anonymme Benotzernumm',
       'Username/Password' => 'Benotzernumm/Passwuert',
+      'Again' => 'Nach eng Kéier',
     );
   }
 

@@ -10,7 +10,6 @@ final class PhabricatorSpacesBr
   protected function getTranslations() {
     return array(
       'Edit Space' => 'Aozañ ar bajenn',
-      'Test Space' => 'Arnodiñ ar bajenn',
     );
   }
 

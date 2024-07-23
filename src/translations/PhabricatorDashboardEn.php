@@ -83,6 +83,7 @@ final class PhabricatorDashboardEn
       'You must select a valid panel.' => 'You must select a valid panel.',
       'Manage Portal' => 'Manage Portal',
       'Use tabs to switch between several other panels.' => 'Use tabs to switch between several other panels.',
+      'You must log in to access this panel.' => 'You must log in to access this panel.',
       'Type a portal name...' => 'Type a portal name...',
       'Apple Blueberry' => 'Apple Blueberry',
       'Add to Personal Favorites' => 'Add to Personal Favorites',
@@ -266,7 +267,9 @@ final class PhabricatorDashboardEn
       'Unnamed Tab' => 'Unnamed Tab',
       'Activate Panel' => 'Activate Panel',
       'Type a dashboard name...' => 'Type a dashboard name...',
+      '%s updated the panel text.' => '%s updated the panel text.',
       'Remove Tab' => 'Remove Tab',
+      'Default create policy for Dashboards.' => 'Default create policy for Dashboards.',
     );
   }
 

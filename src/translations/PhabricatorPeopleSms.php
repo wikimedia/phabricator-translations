@@ -9,7 +9,6 @@ final class PhabricatorPeopleSms
 
   protected function getTranslations() {
     return array(
-      'Confirm' => 'Priim',
       'Delete User' => 'Jaukkâd õõʹnni',
       'Email: Add Address' => 'E-pååʹšt: lââʹzzet addrõõzz',
       'The user\'s username.' => 'Õõʹnni õõʹnninõmm.',

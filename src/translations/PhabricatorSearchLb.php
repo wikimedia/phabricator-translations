@@ -35,6 +35,7 @@ final class PhabricatorSearchLb
       'All Objects' => 'All Objeten',
       'Link' => 'Link',
       '%s (Not Available)' => '%s (Net Disponibel)',
+      'More information' => 'Méi Informatiounen',
     );
   }
 

@@ -14,7 +14,6 @@ final class PhabricatorMacroCa
       'Create Meme' => 'Crea un Mem',
       'Masterfully imagined by %s in ages long past.' => 'Magistralment imaginat per %s en èpoques passades.',
       'Active Macros' => 'Activar Macros',
-      'Validity of macro "%s"' => 'Validació de la macro «%s»',
       'Upload New Audio' => 'Puja un àudio nou',
       'Image Macro "%s"' => 'Macro d\'imatge «%s»',
       'MACRO DETAIL' => 'DETALL DE MACRO',

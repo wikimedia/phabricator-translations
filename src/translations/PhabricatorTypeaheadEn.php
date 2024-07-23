@@ -24,7 +24,6 @@ final class PhabricatorTypeaheadEn
     %s
     When this query is actually shown in the control, it will look more like this:
     %s',
-      'All arguments to "%s(...)" must be integers, found "%s" in position %d.' => 'All arguments to "%s(...)" must be integers, found "%s" in position %s.',
       'Invalid Parameters' => 'Invalid Parameters',
       'Source Class' => 'Source Class',
       'Raw Query' => 'Raw Query',
@@ -51,11 +50,8 @@ final class PhabricatorTypeaheadEn
       'Sprite' => 'Sprite',
       'The HTTP parameter named "parameters" for this request is not a valid JSON parameter. JSON is required. Exception: %s' => 'The HTTP parameter named "parameters" for this request is not a valid JSON parameter. JSON is required. Exception: %s',
       'Function Quick Reference' => 'Function Quick Reference',
-      'Constraints for input "%s".' => 'Constraints for input "%s".',
       'Auto' => 'Auto',
       'You reach the edge of the abyss.' => 'You reach the edge of the abyss.',
-      'Tokenization of "%s"' => 'Tokenization of "%s"',
-      'Browse Numbers' => 'Browse Numbers',
       'Priority Type' => 'Priority Type',
       'Using Typeahead Functions' => 'Using Typeahead Functions',
     );

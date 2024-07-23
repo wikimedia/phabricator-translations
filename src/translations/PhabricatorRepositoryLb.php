@@ -11,7 +11,6 @@ final class PhabricatorRepositoryLb
     return array(
       'bookmark:' => 'Lieszeechen:',
       'Oversized' => 'Ze grouss',
-      'No support yet.' => 'Nach keng Ënnerstëtzung.',
       'Short Names' => 'Kuerz Nimm',
       'Enormous' => 'Enorm',
       'EMAIL' => 'E-MAIL',

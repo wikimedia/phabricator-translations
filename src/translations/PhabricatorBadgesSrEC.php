@@ -13,7 +13,6 @@ final class PhabricatorBadgesSrEC
       'Build self esteem through gamification.' => 'Добијте самопоуздање кроз играње.',
       'Create Badge' => 'Направи значку',
       'Active Badges' => 'Активне значке',
-      'Leica Enthusiast' => 'Ентузијаста',
       'New badge description.' => 'Опис нове значке.',
       'Edit Badge: %s' => 'Промени значку: %s',
       'Badges must have a name.' => 'Значке морају имати назив.',

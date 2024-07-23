@@ -21,6 +21,7 @@ final class PhabricatorBadgesJa
       'Quality' => '品質',
       'You do not have permission to create badges.' => 'バッジを作成する権限がありません。',
       '%s changed the badge icon from %s to %s.' => '%s がバッジ アイコンを「%s」から「%s」に変更しました。',
+      'Create New Badge' => '新しいバッジを作成',
       '%s changed the badge icon for %s from %s to %s.' => '%s が %s のバッジ アイコンを %s から %s に変更しました。',
       'Type a badge name...' => 'バッジ名を入力...',
     );

@@ -69,7 +69,6 @@ final class PhabricatorConduitTr
       'Literal null.' => 'Değişmez boş.',
       'There are no API tokens to terminate.' => 'Sonlandırılacak API anahtar yok.',
       'List of user PHIDs.' => 'Kullanıcı PHID\'lerinin listesi.',
-      '%s should require authentication.' => '%s kimlik doğrulaması gerektirmelidir.',
       'Your \'%s\' client version is \'%d\', which is newer than the server version, \'%d\'. Upgrade your server.' => '\'%s\' istemci sürümünüz \'%3$s\' adlı sunucu sürümünden daha yeni olan \'%2$s\'. Phabricator kurulumunuzu yükseltin.',
       'Expected string, got something else.' => 'Beklenen dize, başka bir şey var.',
       'Epoch timestamp, as an integer.' => 'Tam sayı olarak zaman damgası ekler.',

@@ -12,7 +12,6 @@ final class PhabricatorMetamtaSkrArab
       'Inbox' => 'ان باکس',
       'Emails' => 'ای میل',
       'Status: %s' => 'حیثیت:%s',
-      'Address: %s' => 'پتہ: %s',
       'Message: %s' => 'سنیہا: %s',
       'Subject' => 'موضوع',
     );

@@ -28,7 +28,6 @@ final class PhabricatorFeedCa
       'Include Users' => 'Incloure Usuaris',
       'Feed Story Failed to Render (%s)' => 'La història de continguts ha fallat en renderitzar (%s)',
       'Story' => 'Història',
-      'Full dictionary of story data plus rendered HTML' => 'Diccionari de dades de l\'historial complet més la renderització HTML',
       'Specify exactly one story key to republish.' => 'Especifiqueu exactament una clau d\'història per tornar a publicar.',
       'You must call %s if you %s!' => 'Heu de trucar %s si tu %s!',
       'Unloaded Object \'%s\'' => 'S\'ha descarregat l\'objecte \'%s\'',

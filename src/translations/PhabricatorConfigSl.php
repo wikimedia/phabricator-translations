@@ -86,6 +86,7 @@ final class PhabricatorConfigSl
       'Options relating to syntax highlighting source code.' => 'Možnosti označevanja skladnje izvorne kode.',
       'Advanced Settings' => 'Napredne nastavitve',
       'SSH log format.' => 'Dnevniški format SSH.',
+      'Learn more about locked and hidden options.' => 'Več o zaklenjenih in skritih možnostih.',
       'Syntax Highlighting' => 'Označevanje skladnje',
       'Can not compare two missing schemata!' => 'Dveh manjkajočih shem ni mogoče preverjati!',
       'Users can make requests to other services from service hosts in some circumstances (for example, by creating a repository with a remote URL).

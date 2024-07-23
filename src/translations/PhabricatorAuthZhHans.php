@@ -20,7 +20,6 @@ final class PhabricatorAuthZhHans
       'Unlink "%s" Account?' => '取消链接“%s”账户？',
       'Setup Admin Account' => '配置管理员账户',
       'Must Verify Email' => '必须验证电子邮件',
-      'SSH Key Type' => 'SSH公钥类型',
       '%s enabled auto login.' => '%s启用了自动登录。',
       'Invalid OAuth Access Token' => '无效的OAuth访问令牌',
       'Verify Email' => '验证电子邮件',

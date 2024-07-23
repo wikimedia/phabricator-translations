@@ -9,6 +9,7 @@ final class PhabricatorPhortuneLb
 
   protected function getTranslations() {
     return array(
+      'Ready' => 'Prett',
       'New email address.' => 'Nei E-Mail-Adress.',
       'Invoices' => 'Rechnungen',
       'Email address.' => 'E-Mail-Adress.',

@@ -37,7 +37,6 @@ final class PhabricatorFeedEn
       'Include Users' => 'Include Users',
       'Feed Story Failed to Render (%s)' => 'Feed Story Failed to Render (%s)',
       'Story' => 'Story',
-      'Full dictionary of story data plus rendered HTML' => 'Full dictionary of story data plus rendered HTML',
       'Specify exactly one story key to republish.' => 'Specify exactly one story key to republish.',
       'You must call %s if you %s!' => 'You must call %s if you %s!',
       'Unloaded Object \'%s\'' => 'Unloaded Object \'%s\'',

@@ -42,7 +42,6 @@ final class PhabricatorSettingsKn
       'Another user already has this email.' => 'ಬೇರೆ ಬಳಕೆದಾರರು ಆಗಲೇ ಈ ಇ-ಅಂಚೆ ಹೊಂದಿದ್ದಾರೆ.',
       'Change primary email address?' => 'ಪ್ರಾಥಮಿಕ ಇ-ಅಂಚೆ ವಿಳಾಸವನ್ನು ಬದಲಾಯಿಸಬೇಕೇ?',
       'HTML Email' => 'ಹೆಚ್‌ಟಿಎಂಎಲ್ ಇ-ಅಂಚೆ',
-      'Change Timezone' => 'ಸಮಯ ವಲಯ ಬದಲಾಯಿಸಿ',
       'Europe: 28-02-2000' => 'ಯುರೋಪ್: ೨೮-೦೨-೨೦೦೦',
       'The old password you entered is incorrect.' => 'ನೀವು ನಮೂದಿಸಿರುವ ಹಳೆಯ ಪ್ರವೇಶಪದ ತಪ್ಪಾಗಿದೆ.',
       'Send Test Notification' => 'ಪರೀಕ್ಷಾರ್ಥ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ',

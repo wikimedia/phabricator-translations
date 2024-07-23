@@ -11,7 +11,6 @@ final class PhabricatorPeopleSl
     return array(
       'Blurb' => 'Spremno sporočilo',
       'Multi-Factor: Remove Factor' => 'Večfaktorsko: odstrani faktor',
-      'Confirm' => 'Potrdite',
       'Pass true to find only mailing lists, or false to omit mailing lists.' => 'Podajte »true«, če želite poiskati samo dopisne sezname, ali »false«, če želite dopisne sezname izpustiti.',
       'Login: Partial Login' => 'Prijava: delna prijava',
       'Confirm Approval' => 'Potrdite odobritev',
@@ -35,7 +34,6 @@ final class PhabricatorPeopleSl
       'emails' => 'e-poštni naslovi',
       'Login: Failure' => 'Prijava: napaka',
       'Hisec: Failed Attempt' => 'Hisec: neuspešen poskus',
-      'Add new simple fields to user profiles.' => 'Dodajte uporabniškim profilom nova preprosta polja.',
       'Hide Disabled Users' => 'Skrij onemogočene uporabnike',
       'Not Approved' => 'Niso odobreni',
       'Recent Revisions' => 'Nedavne redakcije',

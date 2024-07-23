@@ -85,11 +85,6 @@ final class PhabricatorConfigDga
      - `paaleŋ`: \'gwashington (George Washington) <gwashington@example.com>\'
     A yelbulo `paaleŋ`.',
       'The minimum supported version of Mercurial is 2.4, which was released in 2012.' => 'Ana na ba seŋ bonne la 2.4, la da yi a yuoni 2012.',
-      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'Fo tona ne la PHP vɛɛseŋ %s. PHP vɛɛsenne yi 7.0 te tɔ 7.1 ba teɛ.
-    PHP iri la irikɔɛ bomannaa taabo nandaare 7.0 PHP poɔ, ane o ba leɛ biŋ manne taa mɛkaneseŋ te ta PHP 7.1.
-    Apgyeredi gaa PHP 7.1 bee paalaa (recommended) bee ŋmaa sigi gaa PHP 5 vɛɛseŋ koroo (discouraged).',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Fo ba taa konfigere maali pampana, lɛ zuiŋ a sɛɛva koŋ toɔŋ sɛɛdi maali naŋ be yoŋe bee poɔŋ maali. Nyɛ a konfigere sɛɛtere \'\'kluutare.maaliri\'\' neŋ ditaali.',
       'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. This software will not work properly until you do.' => 'Iri a lambori na a fo saseɛ  miri poɔ yɛlɛ bimmo naŋ ba tõɔ sagera sɔroo bee pɔge o bare. A saseɛ miri kop toŋ toma soŋ kyɛ guru ka foo wa e o.',
       'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => 'A \'%s\' tage yɔloo ba taa arezie.ka \'%s\', ba soŋ teɛ, a sɔtwaɛ koŋ baŋ tõɔ wuli a MIME ɔplood gampɛlɛ iruŋ.',
@@ -192,6 +187,7 @@ final class PhabricatorConfigDga
     Vɛŋ ka dɛtabeesi nyɔgebo duoro ane MySQL konfigie toree la.',
       'Cookies set for x.com are also sent for y.x.com. Assuming instances are running on both domains, this will create a collision preventing you from logging in.' => 'Kookisi sɛɛte ko x.com meŋ toɔle tere la ko y.x.com. Kaa  nyɛ ka a zaa da tona, ŋa na maale la koleesi naŋ na gu yineŋ a kpeɛbo poɔŋ.',
       'You can provide a custom highlighter engine by extending class %s.' => 'Fo na baŋ tere la kɔsetɔŋ kyaane wuolaa mansiŋ yi %s karendie tage gaabo.',
+      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipient in the "To:" line.' => 'Daane wuli ka eemail na toɔle ko noba yaga na e la masɛgye boŋyeni kuribo, ka neɛzaa be a "To:" sɔɔmaa, bee masɛgyere yaga ka kaŋa zaa taa derɛ boŋyeni a "To:" poɔ sɔɔmaa.',
       'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
     If not set, no log will be written.' => 'Ka foŋ na eŋ a SSH ɛɛrɔ lɔɔge, wuli sobiri. Ɛɛrɔre naŋ erɛ kontɛse poɔ, be a sɔtwaɛ ŋa naŋ sɛverɛ SSH irikɔse na sɛge ko la a lɔɔge ŋa.
     Ka lɛ naane sɛte, lɔɔge zaa koŋ sɛge.',
@@ -339,15 +335,6 @@ final class PhabricatorConfigDga
     %s
     Boŋkaŋa ba maale kyaane SOP bee mine kaŋa leɛ a sagebo.',
       'The timezone this software should use by default.' => 'A wagere zie a saseɛ miri ŋa seŋ ka o toŋ neŋ difaali.',
-      'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s' => 'Thhi sɔtwaɛ wagere kaŋa maŋ ɛzikiti la bainare yobo a sɛva eŋɛ. A Bondemannewullaa la a ŋa `%s` tannoo, naŋ maŋ de sentase-kyaane koodi naŋ sɛge kɔkɔɛ poɔ a gaŋ a PHP. Difiliti poɔ, o teɛre ka a bainare ama be la a %s ko a tontona naŋ kaara a sɔtwaɛ ŋa (a meŋɛ naŋ \'apache\', \'httpd\', bee \'neɛzaa kyebe\'). Kyɛ fo na baŋ poɔ la peɛre ko a %s gbaŋgbale vaarabole, ka ana bainare ama ba wa be bakaabo bezie.
-    Baŋ ka fo meŋ na baŋ poɔ la bainare kyɛ `%s` (a seŋ, by symlinking them).
-    PATH pampana tegeroŋ konfigiriseŋ na wa aplaai e la:
-      lang=text
-      %s',
       'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'A \'%s\' yɔllɔɔ ba e entɔɔle. Ka \'%s\' ba kyebee, sommo, a sɛɛva ŋa koŋ toɔŋ to a toma bee maale a enfuoni eŋ( aseŋ, nubi-pɛgɛ maaloo). Entɔɔli bee yuo \'%s\'.',
       'Reply hints are no longer shown in mail.' => 'Nu-iri yeltuuri mine ba la be a maali poɔŋ.',
       'If you want to use a single mailbox for reply mail, you can use this
@@ -431,7 +418,6 @@ final class PhabricatorConfigDga
       'Reply addresses can either be private (more secure) or public (which works better with mailing lists).' => 'Nɔ-iri bambo mine naŋ tõɔŋ e la meŋɛ taabo (nyɛ a) bee gyamaa(a tontonneba naŋ maŋ tona neŋ maali yeltare).',
       'This server received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with this software. You should disable the module.' => 'A sɛva ŋa nyɛ la "x-Mod-Pagespeed" bee "x-page-Speed" HTTP zu a boɔbo ŋa eŋɛ, naŋ wullo ka fo eŋ la "mod_pagespeed" a sɛva ŋa eŋɛ. A module ŋa ba tõna na tona ne a sɔtwaɛ ŋa. Aseŋ ka fo ŋmaa a module.',
       'Customized settings for applications.' => 'Zi balɛɛ mine ko a boɔbo.',
-      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.' => 'Daane wuli ka eemail na toɔle ko noba yaga na e la masɛgye boŋyeni kuribo, ka neɛzaa be a "To:" sɔɔmaa, bee masɛgyere yaga ka kaŋa zaa taa derɛ boŋyeni a "To:" poɔ sɔɔmaa.',
       'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller
     messages.' => 'Fo naŋ toɔŋ pɔge la a \'\'te tɔ:\'\' ane \'\'Cc:\'\' baare yineŋ maali ka tontonneba wa boɔrɔ a yelbilii.',
       'Options for platform developers, including debugging.' => 'Iribu sere ko pilaafɛlɔm maaleba, te poɔ dibaagi.',

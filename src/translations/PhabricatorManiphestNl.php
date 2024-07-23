@@ -18,7 +18,6 @@ final class PhabricatorManiphestNl
       '%s closed %s as %s.' => '%s heeft %s gesloten als %s.',
       'Unblock' => 'Deblokkeren',
       'Mentioned In' => 'Vermeld in',
-      'Finished' => 'Voltooid',
       'Closer' => 'Sluiter',
       'Set priority to' => 'Voorrang instellen op',
       'Closed Before' => 'Gesloten vóór',

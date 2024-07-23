@@ -14,7 +14,6 @@ final class PhabricatorMacroEn
       'Create Meme' => 'Create Meme',
       'Masterfully imagined by %s in ages long past.' => 'Masterfully imagined by %s in ages long past.',
       'Active Macros' => 'Active Macros',
-      'Validity of macro "%s"' => 'Validity of macro "%s"',
       'Upload New Audio' => 'Upload New Audio',
       'Image Macro "%s"' => 'Image Macro "%s"',
       'MACRO DETAIL' => 'MACRO DETAIL',

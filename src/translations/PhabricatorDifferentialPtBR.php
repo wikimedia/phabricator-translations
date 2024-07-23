@@ -27,7 +27,6 @@ final class PhabricatorDifferentialPtBR
       'You must specify an initial diff when creating a revision.' => 'Você deve especificar um diff inicial ao criar uma revisão.',
       'Type a user, project, or package name, or function...' => 'Digite um usuário, projeto ou nome do pacote ou função...',
       'Show Raw File (Right)' => 'Mostrar arquivo bruto (à direita)',
-      'Open Revisions' => 'Revisões abertas',
       'All Context Shown' => 'Todo o contexto mostrado',
       'Pre-Commit Review' => 'Revisão pré-validação',
       'Differential Changesets' => 'Mudanças diferenciais',

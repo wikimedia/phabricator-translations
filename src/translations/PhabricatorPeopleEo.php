@@ -11,7 +11,6 @@ final class PhabricatorPeopleEo
     return array(
       'Filter IP' => 'Filtri IP-Adreson',
       'Manage User' => 'Mastrumi Uzanton',
-      'Confirm' => 'Konfirmi',
       'Delete User' => 'Forigi Uzanton',
       'Email: Add Address' => 'Retpoŝto: Aldoni Retadreson',
       'Invite Users' => 'Inviti Uzantojn',

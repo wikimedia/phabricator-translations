@@ -20,7 +20,6 @@ final class ArcanistCoreEnGB
       'Remote Repository' => 'Dépôt distant',
       'Empty certificate in credentials.' => 'Le certificat est vide.',
       'No tests to run.' => 'Aucun test à lancer.',
-      'Order: Global' => 'Ordre : global',
       '%s assertion(s) passed.' => '%s assertion(s) valide(s).',
       'Unknown Symbol' => 'Symbole inconnu',
       'HLint is a linter for Haskell code.' => 'HLint est un linter pour du code Haskell.',
@@ -46,7 +45,7 @@ final class ArcanistCoreEnGB
       'Unrecognized symbol name.' => 'Unrecognised symbol name.',
       'Base commit rule \'%s\' (from source \'%s\') is not a recognized rule.' => 'Base commit rule \'%s\' (from source \'%s\') is not a recognised rule.',
       'The "SHELL" environment variable does not match any recognized shell.' => 'The "SHELL" environment variable does not match any recognised shell.',
-      'Overlong form canonicalization of: %s' => 'Overlong form canonicalisation of: %s',
+      'Disable ANSI terminal codes, printing plain text with no color or style.' => 'Disable ANSI terminal codes, printing plain text with no colour or style.',
       'Unrecognized argument \'%s\'. Try \'%s\'.' => 'Unrecognised argument \'%s\'. Try \'%s\'.',
       'Unrecognized lint message code "%s".' => 'Unrecognised lint message code "%s".',
       'Unrecognized key \'%s\' in argument specification. Recognized keys are: %s.' => 'Unrecognised key \'%s\' in argument specification. Recognized keys are: %s.',
@@ -56,10 +55,8 @@ final class ArcanistCoreEnGB
       'Unrecognized lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".' => 'Unrecognised lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".',
       'Configuration option ("%s") specified with "--config" flag is not a recognized option.' => 'Configuration option ("%s") specified with "--config" flag is not a recognised option.',
       'Unrecognized item status \'%s\'.' => 'Unrecognised item status \'%s\'.',
-      'Normalized SVN path for "%s".' => 'Normalised SVN path for "%s".',
       'Failed to unserialize object: %s' => 'Failed to unserialise object: %s',
       'PyLint is a Python source code analyzer which looks for programming errors, helps enforcing a coding standard and sniffs for some code smells.' => 'PyLint is a Python source code analyser which looks for programming errors, helps enforcing a coding standard and sniffs for some code smells.',
-      'Normalized Git path for "%s".' => 'Normalised Git path for "%s".',
       'Open this page in your browser and log in if necessary:' => 'Ouvrez cette page dans votre navigateur et connectez-vous à Phabricator si nécessaire :',
       'The format of user symbol "%s" is unrecognized. Expected a username like "alice" or "@alice", or a user PHID, or a user ID, or a special function like "viewer()".' => 'The format of user symbol "%s" is unrecognised. Expected a username like "alice" or "@alice", or a user PHID, or a user ID, or a special function like "viewer()".',
       'The format of symbol "%s" is unrecognized. Expected a monogram like "X123", or an ID like "123", or a PHID.' => 'The format of symbol "%s" is unrecognised. Expected a monogram like "X123", or an ID like "123", or a PHID.',
@@ -70,8 +67,6 @@ final class ArcanistCoreEnGB
       'Amend the working copy, synchronizing the local commit message.' => 'Amend the working copy, synchronising the local commit message.',
       'Unrecognized lint message code "%s". Expected a valid Pylint lint code like "%s", or "%s", or "%s".' => 'Unrecognised lint message code "%s". Expected a valid Pylint lint code like "%s", or "%s", or "%s".',
       'Duplicate key in array initializer. PHP will ignore all but the last entry.' => 'Duplicate key in array initialiser. PHP will ignore all but the last entry.',
-      'Normalized domain for "%s".' => 'Normalised domain for "%s".',
-      'Empty arrays should serialize as `%s`, not `%s`.' => 'Empty arrays should serialise as `%s`, not `%s`.',
       'Synchronizing "%s" from Perforce...' => 'Synchronising "%s" from Perforce...',
       'Amend the working copy, synchronizing the local commit message from
     Differential.
@@ -81,7 +76,6 @@ final class ArcanistCoreEnGB
       'RuboCop is a Ruby static code analyzer, based on the community Ruby style guide.' => 'RuboCop is a Ruby static code analyser, based on the community Ruby style guide.',
       'Ignoring unrecognized configuration option ("%s") from source: %s.' => 'Ignoring unrecognised configuration option ("%s") from source: %s.',
       'Signal router has not been initialized!' => 'Signal router has not been initialised!',
-      'Serialization of PHP-object JSON values.' => 'Serialisation of PHP-object JSON values.',
     );
   }
 

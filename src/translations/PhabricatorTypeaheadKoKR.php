@@ -19,7 +19,6 @@ final class PhabricatorTypeaheadKoKR
       'More Results' => '더 많은 결과',
       'Sprite' => '스프라이트',
       'Auto' => '자동',
-      'Tokenization of "%s"' => '"%s"의 토큰화',
     );
   }
 

@@ -72,7 +72,7 @@ final class PhabricatorManiphestPtBR
       'Save Subtasks' => 'Salvar subtarefas',
       '%s added %s subtask(s) for %s: %s.' => '%s adicionou %s subtarefas por %s: %s.',
       'Parent Task' => 'Tarefa principal',
-      'Type a username or "none"...' => 'Digite um nome de usuário ou "nenhum"...',
+      'Type a username or "none"...' => 'Digite um nome de usuário ou "none"...',
       'Edit Parent Tasks' => 'Editar tarefas pai',
       'Email Commands: Tasks' => 'Comandos de e-mail: tarefas',
       'This task is directly connected to more than %s other tasks. Use %s to browse parents or subtasks, or %s to show more of the graph.' => 'Esta tarefa está diretamente conectada a mais de %s outras tarefas. Use %s para procurar ou subtarefas, ou %s para mostrar mais do gráfico.',

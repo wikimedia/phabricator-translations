@@ -120,7 +120,6 @@ final class PhabricatorConfigFi
       'Key on Wrong Columns' => 'Avain väärissä sarakkeissa',
       'Databases' => 'Tietokannat',
       'Unknown Config' => 'Tuntematon kokoonpano',
-      'Restarting Phabricator' => 'Käynnistetään Phabricatoria uudelleen',
       'Daemons Not Running' => 'Taustaohjelmia ei käynnissä',
       'Core Settings' => 'Ydinasetukset',
       'Setup Checks' => 'Asennuksen tarkistukset',

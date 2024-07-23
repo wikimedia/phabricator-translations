@@ -17,6 +17,7 @@ final class PhabricatorAlmanacJa
       'Type a service name...' => 'サービス名を入力...',
       'IMPORTANT!' => '重要!',
       '%s created this device.' => '%s がこのデバイスを作成しました。',
+      'You have permission to create cluster services.' => 'クラスターサービスを作成する権限があります。',
       '%s created this network.' => '%s がこのネットワークを作成しました。',
       'Delete Interface' => 'インターフェースを削除',
       'Type an interface name...' => 'インターフェイス名を入力...',

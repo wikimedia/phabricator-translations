@@ -11,7 +11,6 @@ final class PhabricatorPhidFrFR
     return array(
       'Retrieve information about an arbitrary PHID.' => 'Récupérer les informations concernant un PHID arbitraire.',
       'Requested handle "%s" was not loaded.' => 'La référence demandée « %s » n\'a pas été chargée.',
-      'Handles should use viewer handle pool cache.' => 'Les références doivent utiliser l\'afficheur des références du cache.',
       'Restricted %s' => '%s restreint',
       'Trying to mutate a %s, but this is not permitted; handle lists are immutable.' => 'Tentative de mutation d’un %s, mais cela n’est pas permis ; les listes de références ne sont pas mutables.',
       'Attempting to test capability "%s" for handle of type "%s", but this capability has not been attached.' => 'Tentative de test de capacité « %s » pour un indicateur de type « %s », mais cette capacité n’y est pas attachée.',
@@ -19,7 +18,6 @@ final class PhabricatorPhidFrFR
       '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.' => 'La classe « %2$s » de %1$s contient une propriété %s incorrecte. Les constantes PHID doivent être des chaînes de caractères composées de 4 majuscules.',
       'Attempting to load PHID "%s", but it was not requested by any handle list.' => 'Tentative de chargement du PHID « %s », mais il n’a été demandé par aucune liste de pointeurs.',
       'The objects you have listed include objects of the wrong type (%s).' => 'Les objets que vous avez listés comportent des objets d\'un mauvais type (%s)',
-      'Query Test Package' => 'Paquet de test des requêtes',
       'Application Email' => 'Courriel d\'application',
       'Look up objects by name.' => 'Recherche d\'objets par leur nom.',
       'Trying to render a handle which does not exist!' => 'Tentative de rendu d’un descripteur qui n’existe pas !',

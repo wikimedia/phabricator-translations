@@ -108,7 +108,6 @@ final class PhabricatorConfigDa
       '%s In / %s Out' => '%s Ind / %s Ud',
       'MySQL' => 'MySQL',
       'Unknown Config' => 'Ukendt konfiguration',
-      'Restarting Phabricator' => 'Genstarter Phabricator',
       'Keys' => 'Nøgler',
       'User Interface' => 'Brugergrænseflade',
       'MySQL on this machine' => 'MySQL på denne maskine',

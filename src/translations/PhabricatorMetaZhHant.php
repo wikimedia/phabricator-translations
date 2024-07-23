@@ -9,7 +9,7 @@ final class PhabricatorMetaZhHant
 
   protected function getTranslations() {
     return array(
-      'Completely Break Everything' => '完全中斷 Phabricator',
+      'Completely Break Everything' => '完全中斷',
       'Information' => '資訊',
       'Syntax' => '語法',
       'You cannot install an installed application.' => '您不能安裝已安裝過的應用程式。',
@@ -39,15 +39,15 @@ final class PhabricatorMetaZhHant
     !close
     I just talked to @alincoln, and he showed me that he fixed this.
     ```
-    ' => '在設置完 Phabricator 處理站內郵件之後，您可以用郵件與對象（像是任務與修訂版本）互動。有關設置 Phabricator 的資訊，請查看**[[ %s |設置站內郵件]]**。
-    在多數情況下，您可以回覆從 Phabricator 收到的郵件來留下評註。您也可以使用**郵件指令**，以不需透過登入到網頁使用介面來進行更多範圍的操作（像是聲明任務或是請求對修訂版本更改）。
+    ' => '在設置完處理站內郵件之後，您可以用郵件與對象（像是任務與修訂版本）互動。有關設置站內郵件的資訊，請查看**[[ %s |設置站內郵件]]**。
+    在多數情況下，您可以回覆從此伺服器收到的郵件來留下評註。您也可以使用**郵件指令**，以不需透過登入到網頁使用介面來進行更多範圍的操作（像是聲明任務或是請求對修訂版本更改）。
     郵件指令是以驚歎號為開頭的關鍵字，像是 `!claim`。有些指令會需要補充參數，比如 `!assign alincoln`.
     郵件指令的使用，是在您的郵件訊息的開頭或結尾處編寫一行指令。例如，您可以在任務郵件的回覆中編寫以下內容來聲明任務：
     ```
     !claim
     I\'ll take care of this.
     ```
-    當 Phabricator 收到您的郵件，會優先處理任何指令，然後將剩餘的訊息正文以評註發布。另外您可以一次執行多個指令：
+    當%s收到您的郵件，會優先處理任何指令，然後將剩餘的訊息正文以評註發布。另外您可以一次執行多個指令：
     ```
     !assign alincoln
     !close
@@ -58,7 +58,7 @@ final class PhabricatorMetaZhHant
       'Launchable' => '可執行',
       'Save Policies' => '儲存方針',
       'Browse Applications' => '瀏覽應用程式',
-      'To manage prototypes, enable them by setting %s in your configuration.' => '要管理原型，請透過在您的 Phabricator 設置裡，設定%s來啓動它們',
+      'To manage prototypes, enable them by setting %s in your configuration.' => '要管理原型，請透過在您的設置裡設定%s來啓動它們。',
       'Prototype' => '原型',
       'Edit Policies: %s' => '編輯方針：%s',
       'Create New Application' => '建立新的應用程式',
@@ -72,14 +72,14 @@ final class PhabricatorMetaZhHant
       'Show Released Applications' => '顯示已釋出的應用程式',
       'Show Non-Launchable Applications' => '顯示無法執行的應用程式',
       '%s uninstalled %s.' => '%s 解除安裝了%s。',
-      'This is very unusual and will leave you without any content on the home page. You should only do this if you are certain you know what you are doing.' => '這樣做是不尋常的，因為不會在 Phabricator 首頁留下任何內容。您應該要確定清楚您在做什麼再進行。',
+      'This is very unusual and will leave you without any content on the home page. You should only do this if you are certain you know what you are doing.' => '這樣做是不尋常的，因為不會在首頁留下任何內容。您應該要確定清楚您在做什麼再進行。',
       'Can\'t set non-public policies to public.' => '不能設定非公共方針為公共。',
       '%s installed %s.' => '%s 安裝了%s。',
       'Configure Application Forms' => '設置應用程式形式',
       'Show Applications w/ App Email Support' => '顯示有應用程式郵件支援的應用程式',
       'Uninstall' => '解除安裝',
       'Can\'t set the policy to a policy you can\'t view!' => '無法將方針設定成您無法檢視的方針！',
-      'This application is required and cannot be uninstalled.' => '此應用程式無法被解除安裝，因為在 Phabricator 運作上有所需要。',
+      'This application is required and cannot be uninstalled.' => '該應用程式是必需的，無法被解除安裝。',
       'Type an application name...' => '輸入應用程式名稱…',
       'Install %s application?' => '安裝應用程式%s？',
       'Quick Reference' => '快速參考',
@@ -87,7 +87,7 @@ final class PhabricatorMetaZhHant
       'Are you absolutely certain you want to uninstall the Home application?' => '您確定要解除安裝首要應用程式？',
       'Configure creation and editing forms in Applications.' => '設置在應用程式的建立與編輯形式。',
       'Show Prototype Applications' => '顯示原型應用程式',
-      'This server is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => 'Phabricator 目前未設置接受站內郵件。在站內郵件設定好之前，您無法與對象互動。',
+      'This server is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => '該伺服器目前未設置接受站內郵件。在站內郵件設定好之前，您無法與對象互動。',
       'Edit Application: %s' => '編輯應用程式：%s',
       'Show Third-Party Applications' => '顯示第三方應用程式',
       'This table summarizes the available mail commands. For details on a specific command, see the command section below.' => '此表格總結了可用的郵件指令。有關特定指令的詳細內容，請查看以下指令段落。',

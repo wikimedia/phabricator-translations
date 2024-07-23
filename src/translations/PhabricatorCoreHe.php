@@ -20,6 +20,7 @@ final class PhabricatorCoreHe
       'Custom' => 'מותאם אישית',
       '%s (Preview)' => '%s (תצוגה מקדימה)',
       'Tasks' => 'מטלות',
+      'Too many calls to %s!' => 'יותר מדי קריאות ל%s!',
       'Inactive' => 'לא פעיל',
       'View Email Body' => 'לצפייה בתוכן הדוא״ל',
       'Email Addresses' => 'כתובות דוא״ל',
@@ -49,7 +50,11 @@ final class PhabricatorCoreHe
       'Badges' => 'סמלים',
       'Note' => 'הערה',
       'Folder' => 'תיקייה',
+      'Empty' => 'ריק',
+      'Yes' => 'כן',
+      'No' => 'לא',
       'DELAY' => 'השהיה',
+      'Too many calls to %s or %s!' => 'יותר מדי קריאות ל%s או ל%s!',
     );
   }
 

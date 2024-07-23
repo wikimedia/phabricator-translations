@@ -13,7 +13,6 @@ final class PhabricatorAuthScn
       'Edit Contact Number' => 'Cancia lu nùmmiru di cuntattu',
       'Passwords' => 'Password',
       'Algorithm' => 'Alguritmu',
-      'SSH Key Type' => 'Tipu di chiavi SSH',
       'Invalid OAuth Access Token' => 'Token d\'accessu OAuth nun vàlidu',
       'Log In with LDAP' => 'Trasi cu LDAP',
       'TOTP Code' => 'Còdici TOTP',

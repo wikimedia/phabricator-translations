@@ -14,7 +14,6 @@ final class PhabricatorBadgesFrFR
       'Create Badge' => 'Créer un insigne',
       '%s updated the quality from %s to %s.' => '%s a mis à jour la qualité de %s en %s.',
       'Active Badges' => 'Badges actifs',
-      'Leica Enthusiast' => 'Admirateur de Leica',
       'New badge description.' => 'Nouvelle description d’insigne.',
       'Edit Badge: %s' => 'Modifier l’insigne : %s',
       'Badges must have a name.' => 'Les badges doivent avoir un nom.',

@@ -24,6 +24,7 @@ final class PhabricatorDiffusionJa
       'Parameter "%s" is required if "%s" is provided.' => '「%2$s」を入力した場合はパラメーター「%1$s」は必須です。',
       'Type a repository name...' => 'リポジトリ名を入力...',
       'No Password Set' => 'パスワードが設定されていません',
+      'Task T123' => 'タスク T123',
       'Git LFS Token' => 'Git LFS トークン',
       'Import Date (Newest First)' => 'インポート日 (新しい順)',
       'One of "%s" and "%s" is required.' => '「%s」と「%s」のいずれかが必須です。',

@@ -14,7 +14,7 @@ final class PhabricatorManiphestDeDE
       'Priority of the task.' => 'Priorität der Aufgabe.',
       'Weigh In' => 'Äußere dich...',
       'Assignee' => 'Zugewiesener',
-      'A task\'s subscribers change.' => 'Die Abonennten werden geändert.',
+      'A task\'s subscribers change.' => 'Die Abonnenten werden geändert.',
       '%s closed %s as %s.' => '%s schloss %s als %s.',
       'This task has been locked.' => 'Diese Aufgabe wurde gesperrt.',
       '%s added %s commit(s) to %s: %s.' => '%s füge %s Commit(s) zu %s hinzu: %s.',

@@ -12,7 +12,6 @@ final class PhabricatorBadgesEl
       'Create Badge' => 'Δημιουργία σήματος',
       '%s updated the quality from %s to %s.' => 'Ο %s ενημέρωσε την ποιότητα από %s σε %s.',
       'Active Badges' => 'Ενεργά σήματα',
-      'Leica Enthusiast' => 'Ενθουσιαστής της Leica',
       'New badge description.' => 'Νέα περιγραφή σήματος.',
       'Edit Badge: %s' => 'Επεξεργασία σήματος: %s',
       'Badges must have a name.' => 'Τα σήματα πρέπει να έχουν ένα όνομα.',

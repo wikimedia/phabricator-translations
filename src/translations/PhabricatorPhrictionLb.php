@@ -22,6 +22,7 @@ final class PhabricatorPhrictionLb
       'Welcome' => 'Wëllkomm',
       'Publish Older Version' => 'Méi al Versioun publizéieren',
       'Already Published' => 'Scho verëffentlecht',
+      'Page Not Found' => 'Säit net fonnt',
     );
   }
 

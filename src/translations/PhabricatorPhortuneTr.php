@@ -408,7 +408,6 @@ final class PhabricatorPhortuneTr
       'Receipts' => 'Faturalar',
       '%s updated the merchant invoice footer for %s.' => '%s, satıcı faturası altbilgisini %s olarak güncelledi.',
       'Refunded' => 'İade Edildi',
-      'Creation of default account for users with no accounts.' => 'Hesabı olmayan kullanıcılar için varsayılan hesap oluşturma.',
       'New merchant description.' => 'Yeni tüccar açıklaması.',
       'There was an error with the payment token submitted by the client. Expected a valid dictionary, received: %s.' => 'Müşteri tarafından gönderilen ödeme belirtecinde bir hata oluştu. Geçerli bir sözlük bekleniyor, alınan: %s.',
       'Order Not in Review' => 'Sipariş İncelenmedi',

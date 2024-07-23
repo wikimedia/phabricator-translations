@@ -21,6 +21,7 @@ final class PhabricatorConfigIt
       'Sites' => 'Siti',
       'Connection' => 'Connessione',
       '%s = 0' => '%s = 0',
+      'PHP version: %s' => 'Versione PHP: %s',
       'Automatic' => 'Automatico',
       'Configure %s' => 'Configura %s',
       'Indefinite' => 'Infinito',

@@ -17,7 +17,6 @@ final class PhabricatorDifferentialDeDE
       'Changes Planned' => 'Geplante Änderungen',
       '%s updated the test plan for %s.' => '%s hat den Testplan für %s aktualisiert.',
       'Jump to next file.' => 'Zur nächsten Datei springen.',
-      'Merged Revisions' => 'Vereinige Versionen',
       'Load File' => 'Datei laden',
       'This is a directory.' => 'Dies ist ein Verzeichnis.',
       'Copied Here' => 'Hierher kopiert',

@@ -17,7 +17,6 @@ final class PhabricatorSearchFrFR
       'The queries you have saved are private. Only you can view or edit them.' => 'Les requêtes que vous avez enregistrées sont privées. Vous seul pouvez les voir ou les modifier.',
       'cat -A can find mice hiding in files.' => 'cat -A peut trouver des souris cachées dans les fichiers.',
       'Export Format Not Available' => 'Le format d’exportation n’est pas disponible',
-      'Compilation of query: %s' => 'Compilation de la requête : %s',
       'Readable' => 'Lisible',
       'Search Engines' => 'Moteurs de recherche',
       'Form "%s" is not a valid form which you have permission to see.' => 'Le formulaire « %s » n’est pas un formulaire valide que vous avez la permission de voir.',
@@ -54,7 +53,6 @@ final class PhabricatorSearchFrFR
       'You must choose a link name.' => 'Vous devez choisir un nom de lien.',
       'Recompute common ngrams. This is an advanced workflow that can harm search quality if used improperly.' => 'Recalculer les n-grammes communs. Il s’agit d’un flux de travail avancé qui peut nuire à la qualité de la recherche s’il n’est pas correctement utilisé.',
       'Engine: Fulltext' => 'Moteur : texte intégral',
-      'Terms corpus for: %s' => 'Corpus de termes pour : %s',
       'Global Menu Items' => 'Éléments du menu global',
       'No visible menu items can render content.' => 'Aucun élément de menu visible ne peut rendre le contenu.',
       'This query specifies an invalid parameter. Review the query parameters and correct errors.' => 'Cette requête spécifie un paramètre non valide. Vérifiez les paramètres de la requête et corrigez les erreurs.',
@@ -117,7 +115,6 @@ final class PhabricatorSearchFrFR
       'Substring Search' => 'Recherche de sous-chaîne',
       'Handle: %s' => 'Descripteur : %s',
       'This call does not support any attachments.' => 'Cet appel ne prend en charge aucune pièce jointe.',
-      'Corpus stem of: %s' => 'Radical de corpus de : %s',
       'Really delete the query "%s"? You can not undo this. Remember all the great times you had filtering results together?' => 'Voulez-vous vraiment supprimer la requête « %s » ? Vous ne pourrez pas annuler cela. Souvenez-vous de tous les bons moments où vous avez eu des résultats de filtrage réunis ?',
       'Edit Menu Item: %s' => 'Modification de l’élément de menu : %s',
       'Not all cats can retract their claws, but most of them can.' => 'Tous les chats ne peuvent pas rétracter leurs griffes, mais la plupart d’entre eux le peuvent.',
@@ -278,7 +275,6 @@ final class PhabricatorSearchFrFR
       'Engine: Search' => 'Moteur : recherche',
       'Profile Menu Item' => 'Eléments du menu Profil',
       '"2022-12-25" or "7 days ago"...' => '« 2022-12-25 » (pour le 25 décembre 2022) ou « 7 days ago » (il y a 7 jours)...',
-      'Stemmed compilation of query: %s' => 'Compilation des radicaux de la requête : %s',
       'Paging and Limits' => 'Pagination et limites',
       'No objects selected to index.' => 'Aucun objet sélectionné à indexer.',
       'A cat can run seven times faster than a human, but only for a short distance.' => 'Un chat peut courir sept fois plus vite qu’un humain, mais seulement sur une courte distance.',
@@ -428,7 +424,6 @@ final class PhabricatorSearchFrFR
     }
     ```
     Les pièces jointes suivantes sont disponibles :',
-      'Term ngrams for: %s.' => 'N-grammes de termes pour : %s.',
       'The word "catastrophe" has no etymological relationship to the word "cat".' => 'Le mot « catastrophe » n’a aucun rapport étymologique avec le mot « chat ».',
       'Edit Builtin Item' => 'Modifier l’élément intégré',
       'Two different fulltext engine extensions ("%s" and "%s") both define a search function with the same name ("%s"). Each function must have a unique name.' => 'Deux extensions de moteur en texte intégral (« %s » et « %s ») définissent toutes deux une fonction de recherche portant le même nom (« %s »). Chaque fonction doit avoir un nom unique.',
@@ -482,7 +477,6 @@ final class PhabricatorSearchFrFR
       'Date value for "%s" can not be parsed.' => 'La valeur de date pour « %s » ne peut pas être analysée.',
       'NOTE' => 'NOTE',
       '"%s" must be a date before "%s".' => '« %s » doit être une date antérieure à « %s ».',
-      'Too many relationships (%s, of type "%s").' => 'Trop de relations (%s, de type « %s »).',
       'Fulltext Search' => 'Recherche en texte intégral',
       'Drag items in this list to reorder them.' => 'Faites glisser les éléments de cette liste pour les réorganiser.',
       'Prune ngrams present in more than this fraction of documents. Provide a value between 0.0 and 1.0.' => 'Élaguer les n-grammes présents dans plus que cette fraction des documents. Indiquer une valeur comprise entre 0,0 et 1,0.',
@@ -598,7 +592,6 @@ final class PhabricatorSearchFrFR
       'Save this query as a global query, making it visible to all users.' => 'Enregistrer cette requête en tant que requête globale pour la rendre visible pour tous les utilisateurs.',
       'You can not create a relationship to object "%s" because the object does not exist or could not be loaded.' => 'Vous ne pouvez créer aucune relation vers l’objet « %s », car l’objet n’existe pas ou n’a pas pu être chargé.',
       'Edit Query' => 'Modifier la requête',
-      'Token stem of "%s".' => 'Radical de jeton de « %s ».',
       'No results found for this query.' => 'Aucun résultat trouvé pour cette requête.',
       'Searched For:' => 'Recherché :',
       'Force a complete rebuild of the entire index instead of an incremental update.' => 'Force une reconstruction complète de l’index tout entier au lieu d’une mise à jour incrémentielle.',
@@ -664,6 +657,7 @@ final class PhabricatorSearchFrFR
       'Circular Dependency' => 'Dépendance circulaire',
       'Cats use a special type of magnetism to help them land on their feet.' => 'Les chats utilisent un type spécial de magnétisme pour les aider à atterrir sur leurs pattes.',
       'Lisk Builtin Properties' => 'Propriétés intégrées de Lisk',
+      'More information' => 'Plus d’information',
       'Unable to Render Dashboard' => 'Impossible de rendre le tableau de bord',
       'Browse Document Types' => 'Parcourir les types de documents',
       'Queued %s document(s) for background indexing.' => array(
@@ -673,7 +667,6 @@ final class PhabricatorSearchFrFR
       '(Restricted/Invalid Conpherence)' => '(Conpherence restreinte ou non valide)',
       'Threshold must be greater than 0.0 and less than 1.0.' => 'Le seuil doit être supérieur à 0,0 et inférieur à 1,0.',
       'This dashboard is invalid and could not be loaded.' => 'Ce tableau de bord n’est pas valide et n’a pas pu être chargé.',
-      'Function compilation of query: %s' => 'Compilation de la fonction de requête : %s',
       'Enable the built-in query "%s"? It will appear in your menu again.' => 'Voulez-vous activer la requête intégrée « %s » ? Elle apparaîtra à nouveau dans votre menu.',
       'Queries are limited to returning 100 results at a time. If you want fewer
     results than this, you can use `limit` to specify a smaller limit.

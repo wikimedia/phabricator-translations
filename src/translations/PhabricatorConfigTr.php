@@ -25,7 +25,6 @@ final class PhabricatorConfigTr
     Bu temel URI\'nin yanlış yapılandırıldığı anlamına gelebilir. Phabricator\'a çıplak bir alan adı değil ("https://phabricator/" gibi) değil, nokta içeren bir temel URI\'den ("https://phabricator.sirketim.com" gibi) hizmet vermelisiniz. Çıplak bir alan adı kullanmaya çalışıyorsanız, bunun yerine noktalı bir tam alan adı kullanmak için yapılandırmanızı değiştirin.
     Bu aynı zamanda web sunucunuzun (veya yük dengeleyici gibi başka bir ağ aygıtının) "Ana Bilgisayar" başlığını yönettiği veya bir isteği manüel olarak vermek ve yanlış "Ana Bilgisayar" üstbilgisini ayarlamak için bir araç veya kitaplık kullandığınız anlamına da gelebilir.
     İstekler, geçerli bir "Ana Bilgisayar" başlığı içermelidir.',
-      'Suppress mail from maintenance users.' => 'Bakım kullanıcılarının postalarını engelle.',
       'Memory Usage' => 'Hafıza Kullanımı',
       'IMPORTANT: The upstream does not provide support for prototype applications.
     This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
@@ -91,11 +90,6 @@ final class PhabricatorConfigTr
       'Migrating file-based config to more modern config...' => 'Dosya tabanlı yapılandırmayı daha modern yapılandırmaya geçiriyor...',
       'Full' => 'Dolu',
       'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Veritabanlarını ayarlamak için depolama yükseltme komut dosyasını çalıştırın (ana bilgisayar "%s" başlatılmadı).',
-      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'PHP sürümü %s çalıştırıyorsunuz. Phabricator, 7.0 ve 7.1 arasındaki PHP sürümlerini desteklemez.
-    PHP, Phabricator\'ın PHP 7.0\'da gerektirdiği sinyal işleme özelliklerini kaldırdı ve PHP 7.1\'e kadar geri yüklemedi.
-    PHP 7.1 veya daha yenisine (önerilir) yükseltin veya PHP 5\'in eski bir sürümüne (önerilmez) yükseltin.',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Henüz postaları yapılandırmadınız, bu nedenle Phabricator giden posta gönderemez veya gelen posta alamaz. Ayrıntılar için cluster.mailers yapılandırma ayarına bakın.',
       'Unrecognized verb: %s' => 'Tanınmayan fiil: %s',
       'Schemata Issues' => 'Schemata Sorunları',
@@ -318,6 +312,7 @@ final class PhabricatorConfigTr
       'Additional configuration options to lock.' => 'Kilitlemek için ek yapılandırma seçenekleri.',
       'Override what language files (based on filename) highlight as.' => 'Hangi dil dosyalarının (dosya adına bağlı olarak) vurgulanacağını geçersiz kılın.',
       'Bad "Host" Header' => 'Bozuk "Ana Bilgisayar" Başlığı',
+      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipient in the "To:" line.' => 'Phabricator\'ın "Kime:" satırında birden çok alıcı içeren bir e-posta mı yoksa her biri "Kime:" satırında tek bir alıcısı olan birden fazla e-posta gönderip göndermeyeceğini denetler.',
       'Option "%s" is of type "%s", but the item at index "%s" of the list is not a string.' => '"%s" seçeneği "%s" türündedir, ancak listenin "%s" dizinindeki öğe bir dize değildir.',
       'MySQL port to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL portu.',
       'Trying to add duplicate key "%s"!' => 'Yinelenen anahtar "%s" eklenmeye çalışılıyor!',
@@ -745,15 +740,6 @@ final class PhabricatorConfigTr
       'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.' => 'Subversion\'un bu sürümü, 1.7.2\'de düzeltilen rN\'ye (Subversion sorunu #2873) eklenen dosyalar için `%s` çalışmadığı bir hataya sahip.',
       'Elasticsearch is not reachable as configured.' => 'Elasticsearch\'e yapılandırıldığı gibi ulaşılamıyor.',
       'Key has Wrong Uniqueness' => 'Anahtarın Tekliği Yanlış',
-      'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s' => 'Phabricator zaman zaman sunucudaki diğer ikili dosyalara kabuk oluşturur. Buna bir örnek, PHP dışındaki dillerde yazılan kodu sözdizimi-vurgulamak için kullanılan `%s` komutudur. Varsayılan olarak, bu ikili dosyaların Phabricator\'ı çalıştıran kullanıcının %s üzerindeolduğu varsayılır (normalde \'apache\', \'httpd\' veya \'nobody\'). Burada, bu ikili dosyalar standart olmayan konumlarda olduğunda %s ortam değişkenine ekstra dizinler ekleyebilirsiniz.
-    İkili dosyaları "%s" üzerinde koyabileceğinizi unutmayın (örneğin, işaretleyerek).
-    Yapılandırma uygulandıktan sonra geçerli PATH değeri:
-      lang=text
-      %s',
       'Determines whether or not basic account information is editable.' => 'Temel hesap bilgilerinin düzenlenebilir olup olmadığını belirler.',
       'Get a local configuration value.' => 'Yerel bir yapılandırma değeri edinin.',
       'The base URI for this install is not configured. Many major features will not work properly until you configure it.' => 'Bu yükleme için temel URI yapılandırılmadı. Pek çok ana özellik siz yapılandırıncaya kadar düzgün çalışmaz.',
@@ -768,7 +754,6 @@ final class PhabricatorConfigTr
       'Config \'%s\' Invalid' => '\'%s\' Yapılandırması Geçersiz',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'Bir veritabanı ana bilgisayarı ("%s") ve bu web ana makinesi ("%s") şimdiki zamana 60 saniyeden fazla katılmıyor (mutlak eğrilik %s). Geçerli saatin her yerde doğru ayarlandığını kontrol edin.',
       'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator görüntüleri işleyemez veya yeniden boyutlandıramaz (örneğin, küçük resimler oluşturmak için). \'%s\' yükleyin veya etkinleştirin.',
-      'Never suppress email' => 'Asla e-postayı bastırmayın',
       'No Recipient Hints' => 'Alıcı İpucu Yok',
       'Sample 0.1%% of requests.' => 'Örnek taleplerin %%0.1\'i.',
       'No Issues' => 'Hata Yok',
@@ -789,7 +774,6 @@ final class PhabricatorConfigTr
       'Cache Storage' => 'Önbellek Depolama',
       'At least one daemon is currently running as the wrong user.' => 'En az bir arka plan programı şu anda yanlış kullanıcı olarak çalışıyor.',
       'Data Type' => 'Veri Türü',
-      'Allow suppressing email from certain users' => 'Belirli kullanıcılardan gelen e-postaların bastırılmasına izin ver',
       'Better Character Set Available' => 'Daha İyi Karakter Seti Mevcut',
       'Small MySQL "%s"' => 'Küçük MySQL "%s"',
       'Value for option "%s" must be an integer.' => '"%s" seçeneği için değer bir tamsayı olmalıdır.',
@@ -880,7 +864,6 @@ final class PhabricatorConfigTr
       'Options relating to syntax highlighting source code.' => 'Sözdizimi vurgulama kaynak kodu ile ilgili seçenekler.',
       'Allow HTTP' => 'HTTP\'ye izin ver',
       'Simple Example' => 'Basit Örnek',
-      'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => 'Phabricator\'ın "bakım" kullanıcılarından gelen e-postaların bastırılmasına izin verip vermediğini kontrol eder.',
       'Synchronized' => 'Senkronize',
       'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'Kullanılabilir REMOTE_ADDR yok, bu nedenle Phabricator istekler için başlangıç adresini belirleyemiyor. Bu, Phabricator\'ın önemli güvenlik kontrolleri yapmasını engelleyecektir. Bu en sık, başlangıç senaryosunda bir hata olduğu anlamına gelir. Dokümanlara (%s) bakın ve komut dosyasının doğru yazıldığını tekrar kontrol edin.',
       'Access key for Amazon EC2.' => 'Amazon EC2 için erişim anahtarı.',
@@ -959,7 +942,6 @@ final class PhabricatorConfigTr
       '%s Active' => '%s Aktif',
       'Subschemata Have Warnings' => 'Subschemata Uyarıları Var',
       'Require Administrators to Approve Accounts' => 'Yöneticilerin Hesapları Onaylamalarını Gerektir',
-      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.' => 'Phabricator\'ın "Kime:" satırında birden çok alıcı içeren bir e-posta mı yoksa her biri "Kime:" satırında tek bir alıcısı olan birden fazla e-posta gönderip göndermeyeceğini denetler.',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Büyük dosya yüklemelerini desteklemek için PHP yapılandırmanızda %s en az 32MB olarak ayarlayın.',
       'The system sudo user.' => 'Sistem sudo kullanıcısı.',
       'MySQL %s Mode Not Set' => 'MySQL %s Modu Ayarlanmadı',
@@ -1005,7 +987,6 @@ final class PhabricatorConfigTr
       'Cluster instance name, if configured.' => 'Yapılandırılmışsa küme örneği adı.',
       'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.' => 'REMOTE_ADDR\'nin artık boş olmaması için başlangıç betiğinizi düzeltmeniz gerekiyor.',
       'Unknown Config' => 'Bilinmeyen Ayar',
-      'Restarting Phabricator' => 'Phabricator Yeniden Başlatılıyor',
       'Detected %s serious issue(s) with the schemata.' => 'Şemada %s ciddi bir sorun tespit edildi.',
       'Daemons Not Running' => 'Daemon Çalışmıyor',
       'MySQL username to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL kullanıcısı.',

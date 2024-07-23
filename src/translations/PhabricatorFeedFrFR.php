@@ -28,7 +28,6 @@ final class PhabricatorFeedFrFR
       'Include Users' => 'Inclure les utilisateurs',
       'Feed Story Failed to Render (%s)' => 'L’histoire du flux a échoué à être rendue (%s)',
       'Story' => 'Histoire',
-      'Full dictionary of story data plus rendered HTML' => 'Dictionnaire complet des données de l’histoire plus HTML rendu',
       'Specify exactly one story key to republish.' => 'Spécifier exactement une clé d’histoire à publier à nouveau.',
       'You must call %s if you %s!' => 'Vous devez appeler %s si vous %s !',
       'Unloaded Object \'%s\'' => 'Objet « %s » déchargé',

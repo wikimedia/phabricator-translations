@@ -37,7 +37,6 @@ final class PhabricatorProjectFi
       'Change Owner' => 'Vaihda omistajaa',
       'Change status to %s.' => 'Vaihda tilaksi %s.',
       'Create New Project' => 'Luo uusi projekti',
-      'Simple move' => 'Yksinkertainen siirto',
       'Move to Column' => 'Siirry sarakkeeseen',
       'Remove projects' => 'Poista projekteja',
       'Projects must have a name.' => 'Projekteilla täytyy olla nimi.',

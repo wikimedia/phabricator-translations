@@ -10,7 +10,6 @@ final class PhabricatorextCoreScn
   protected function getTranslations() {
     return array(
       'Merged' => 'Junciutu',
-      'Gerrit Projects' => 'Pruggetti Gerrit',
       'Unknown objectType \'%s\'' => 'Tipu d\'uggettu scanusciutu \'%s\'',
       'Unknown policies: %s' => 'Pulìtichi scanusciuti: %s',
       'LDAP User' => 'Utenti LDAP',
@@ -21,11 +20,7 @@ final class PhabricatorextCoreScn
       '%s Line(s) removed' => '%s Linìa/i livatu/i',
       'Unknown' => 'Scanusciutu',
       'Global Accounts' => 'Cunti glubbali',
-      'Download zip' => 'Scàrrica zip',
-      'Download Archive' => 'Scàrrica archiviu',
-      'Gerrit' => 'Gerrit',
       'Comments' => 'Cummenti',
-      'Download tar.gz' => 'Scàrrica tar.gz',
     );
   }
 

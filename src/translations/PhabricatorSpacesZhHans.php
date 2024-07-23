@@ -16,7 +16,6 @@ final class PhabricatorSpacesZhHans
       'Activate Space: %s' => '激活空间：%s',
       'Support for Spaces' => '空间支持',
       'Create a Space' => '创建空间',
-      'Alternate Space' => '备用空间',
       'Spaces must have a name.' => '空间必须有一个名称。',
       'Existing objects in this Space will be hidden from query results by default.' => '此空间中的现有对象将从查询结果中默认隐藏。',
       '%s archived this space.' => '%s存档了此空间。',
@@ -30,10 +29,8 @@ final class PhabricatorSpacesZhHans
       'Space %s: %s' => '空间%s：%s',
       'No spaces found.' => '找不到空间。',
       'Edit Space' => '编辑空间',
-      'Test Space' => '测试空间',
       '%s made space %s the default space.' => '%s将空间%s设置为默认空间。',
       'Activate Space' => '激活空间',
-      'PhabricatorSpacesApplication' => 'Phabricator空间应用',
       'Show Only Active Spaces' => '只显示激活的空间',
       'Active Spaces' => '激活空间',
     );

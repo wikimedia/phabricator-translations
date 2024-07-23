@@ -14,7 +14,6 @@ final class PhabricatorBadgesEn
       'Create Badge' => 'Create Badge',
       '%s updated the quality from %s to %s.' => '%s updated the quality from %s to %s.',
       'Active Badges' => 'Active Badges',
-      'Leica Enthusiast' => 'Leica Enthusiast',
       'New badge description.' => 'New badge description.',
       'Edit Badge: %s' => 'Edit Badge: %s',
       'Badges must have a name.' => 'Badges must have a name.',

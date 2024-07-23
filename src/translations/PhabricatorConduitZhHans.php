@@ -11,7 +11,7 @@ final class PhabricatorConduitZhHans
     return array(
       'Support for ConduitResultInterface' => 'Conduit结果界面的支持',
       'Conduit Logs' => 'Conduit日志',
-      'Session key is invalid.' => '会话关键字无效。',
+      'Session key is invalid.' => '会话键无效。',
       'arc call-conduit' => 'arc调用-conduit',
       'JSON' => 'JSON',
       'All Methods' => '所有方法',

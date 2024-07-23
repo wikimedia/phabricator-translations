@@ -12,13 +12,10 @@ final class PhabricatorFilesSmn
       'ERROR' => 'FEILÂ',
       'View' => 'Čääiti',
       'Failed!' => 'Ij luhostum!',
-      'download' => 'luođii',
       'Upload' => 'Vuorkkii',
-      'upload' => 'vuorkkii',
       'Video' => 'Video',
       '[File]' => '[Tiätuvuárkká]',
       'Delete File' => 'Siho tiätuvuárhá',
-      'language' => 'kielâ',
     );
   }
 

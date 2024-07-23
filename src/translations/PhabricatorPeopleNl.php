@@ -9,7 +9,6 @@ final class PhabricatorPeopleNl
 
   protected function getTranslations() {
     return array(
-      'Confirm' => 'Bevestigen',
       'users' => 'gebruikers',
       'New Username: %s' => 'Nieuwe gebruikersnaam: %s',
       'Approve' => 'Goedkeuren',

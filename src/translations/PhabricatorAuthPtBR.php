@@ -33,7 +33,6 @@ final class PhabricatorAuthPtBR
       'The account you are attempting to register or link is already linked to another user.' => 'A conta que você está tentando registrar ou vincular já está vinculada a outro usuário.',
       'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Verifique um endereço de e-mail não verificado que já esteja conectado a uma conta. Isso também re-executará ganchos de evento para endereços que já foram verificados.',
       'Must Verify Email' => 'Deve verificar o e-mail',
-      'SSH Key Type' => 'Tipo de chave SSH',
       'Verify Email' => 'Verificar e-mail',
       'Account is already registered or linked.' => 'A conta já está registrada ou vinculada.',
       'Sign this transaction group with MFA.' => 'Assine este grupo de transações com o MFA.',

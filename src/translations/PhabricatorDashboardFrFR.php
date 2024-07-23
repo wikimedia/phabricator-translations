@@ -45,7 +45,7 @@ final class PhabricatorDashboardFrFR
       'Edit Dashboard' => 'Modifier le tableau de bord',
       '%s changed the layout mode for this dashboard from %s to %s.' => '%s a modifié le mode de mise en page pour ce tableau de bord de %s en %s.',
       'This is already the first tab. It can not move any farther to the left.' => 'C’est déjà le premier onglet. Il ne peut pas être déplacé plus loin vers la gauche.',
-      'To Self' => 'A soi-même',
+      'To Self' => 'À soi-même',
       'Archive Dashboard' => 'Archiver le tableau de bord',
       'Kaboom' => 'Kaboom',
       'Customize Query' => 'Personnaliser la requête',
@@ -263,6 +263,7 @@ final class PhabricatorDashboardFrFR
       'Activate Panel' => 'Activer le panneau',
       'Type a dashboard name...' => 'Saisissez un nom de tableau de bord...',
       'Remove Tab' => 'Retirer l’onglet',
+      'Default create policy for Dashboards.' => 'Stratégie de création par défaut pour les tableaux de bord.',
     );
   }
 

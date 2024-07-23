@@ -26,7 +26,7 @@ final class PhabricatorCacheZhHant
       'Unknown cache format.' => '未知快取格式。',
       'Two objects (of classes "%s" and "%s") generate the same map value ("%s"). Each object must generate a unique map value.' => '兩個對象（類別「%s」與「%s」）產生相同的對應值（%s）。任一對象都應產生唯一不重複的對應值。',
       'OPcache Not Configured for Production' => '未設置 OPcache 用於生產環境',
-      'The PHP "Zend OPcache" extension is installed, but not enabled in your PHP configuration. Enabling it will dramatically improve performance. Edit the "%s" setting to enable the extension.' => 'PHP 的「Zend OPcache」擴充套件已安裝，但未在您的 PHP 設置上啟用。啟用它將會顯著地提升 Phabricator 效能。編輯「%s」設定可啟用此擴充套件。',
+      'The PHP "Zend OPcache" extension is installed, but not enabled in your PHP configuration. Enabling it will dramatically improve performance. Edit the "%s" setting to enable the extension.' => 'PHP 的「Zend OPcache」擴充套件已安裝，但未在您的 PHP 設置上啟用。啟用它將會顯著地提升效能。編輯「%s」設定可啟用此擴充套件。',
       'Installing the "Zend OPcache" extension will dramatically improve performance.' => '安裝「Zend OPcache」擴充套件將會顯著地增進效能。',
       'Only strings may be written to the DB cache!' => '僅字串能被寫入到 DB 快取！',
       'Purge all caches.' => '清除所有快取。',
@@ -37,12 +37,12 @@ final class PhabricatorCacheZhHant
       'Noisy APC' => 'Noisy APC',
       'Drop data from readthrough caches.' => '通讀快取來去除資料。',
       'Cache purger "%s" is not recognized. Available caches are: %s.' => '無法識別快取清除器「%s」。可用的快取為：%s。',
-      'Installing the "APCu" PHP extension will improve performance. This extension is strongly recommended. Without it, this software must rely on a very inefficient disk-based cache.' => '安裝「APCu」PHP 擴充套件將會增進效能。此擴充套件被強烈建議使用。若不使用的話，Phabricator 就只能依靠效率低的磁碟快取。',
+      'Installing the "APCu" PHP extension will improve performance. This extension is strongly recommended. Without it, this software must rely on a very inefficient disk-based cache.' => '安裝「APCu」PHP 擴充套件將會增進效能。此擴充套件被強烈建議使用。若不使用的話，該軟體就只能依靠效率低的磁碟快取。',
       'OPcache Disabled' => 'OPcache 已停用',
       'APC/APCu Disabled' => 'APC/APCu 已停用',
       '"%s" is currently enabled, but should probably be disabled.' => '「%s」目前為啟用，但應該將其停用。',
       'APC User Cache' => 'APC 使用者快取',
-      'The APC or APCu PHP extensions are installed, but not enabled in your PHP configuration. Enabling these extensions will improve performance. Edit the "%s" setting to enable these extensions.' => 'APC 或 APCu PHP 擴充套件已安裝，但未在您的 PHP 設置上啟用。啟用這些將會提升 Phabricator 效能。編輯「%s」設定可啟用這些擴充套件。',
+      'The APC or APCu PHP extensions are installed, but not enabled in your PHP configuration. Enabling these extensions will improve performance. Edit the "%s" setting to enable these extensions.' => 'APC 或 APCu PHP 擴充套件已安裝，但未在您的 PHP 設置上啟用。啟用這些將會提升效能。編輯「%s」設定可啟用這些擴充套件。',
       'OPcache Config' => 'OPcache 設定',
       'Adjust APC settings to quiet unnecessary errors.' => '調整 APC 設定來停止不必要的錯誤。',
       'OPcache is not configured ideally for production.' => '未恰當設置 OPcache 用於生產環境。',
@@ -63,7 +63,7 @@ final class PhabricatorCacheZhHant
       'Zend OPcache' => 'Zend OPcache',
       'Enabling OPcache will dramatically improve performance.' => '啟用OPcache會顯著增進效能。',
       'PHP Extension \'APC\' Not Installed' => '未安裝「APC」PHP 擴充套件',
-      'The "%s" setting is currently disabled in your PHP configuration, but this software is running in development mode. This option should normally be enabled in development so you do not need to restart anything after making changes to the code.' => '「%s」設定目前在您的 PHP 設置裡為停用，不過 Phabricator 是在開發模式下運行。正常情況下，此選項在開發模式應為啟用，以便讓您在更改代碼時不需要重新開啟任何項目。',
+      'The "%s" setting is currently disabled in your PHP configuration, but this software is running in development mode. This option should normally be enabled in development so you do not need to restart anything after making changes to the code.' => '「%s」設定目前在您的 PHP 設置裡為停用，不過該軟體是在開發模式下運行。正常情況下，此選項在開發模式應為啟用，以便讓您在更改代碼時不需要重新開啟任何項目。',
     );
   }
 

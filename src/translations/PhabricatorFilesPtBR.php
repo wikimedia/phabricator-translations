@@ -16,7 +16,6 @@ final class PhabricatorFilesPtBR
       'Temporary' => 'Temporário',
       'Choose Icon' => 'Escolher ícone',
       'Unable to upload file: this server is not configured with any storage engine which can store large files.' => 'Não é possível fazer o carregamento do arquivo: esse servidor não está configurado com nenhum mecanismo de armazenamento que possa armazenar arquivos grandes.',
-      'tasks' => 'tarefas',
       'Choose Icon...' => 'Escolher ícone...',
       'Not Applicable' => 'Não aplicável',
       'File was only partially transferred, upload did not complete.' => 'O arquivo foi transferido apenas parcialmente, o upload não foi concluído.',
@@ -27,7 +26,6 @@ final class PhabricatorFilesPtBR
       'Drop Files to Upload' => 'Solte arquivos para enviar',
       'View as Remarkup' => 'Visualizar como remarcação',
       'Upload a file to the server.' => 'Carregue um arquivo para o servidor.',
-      'language' => 'Idioma',
       'Unable to upload file: this file is too large for any configured storage engine.' => 'Não é possível fazer o carregamento do arquivo: esse arquivo é muito grande para qualquer mecanismo de armazenamento configurado.',
     );
   }

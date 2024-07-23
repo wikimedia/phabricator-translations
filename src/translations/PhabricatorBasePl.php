@@ -12,8 +12,6 @@ final class PhabricatorBasePl
       'This application is required, so all users must have access to it.' => 'Ta aplikacja jest wymagana do działania Phabricatora, więc wszyscy użytkownicy muszą mieć do niej dostęp.',
       'Can Configure Application' => 'Może konfigurować aplikacje',
       'Can Use Application' => 'Może korzystać z aplikacji',
-      'Application Controller' => 'Kontroler aplikacji',
-      'Public Access' => 'Dostęp publiczny',
       'Developer Tools' => 'Narzędzia programistyczne',
     );
   }

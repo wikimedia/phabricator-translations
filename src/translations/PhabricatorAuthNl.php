@@ -40,6 +40,7 @@ final class PhabricatorAuthNl
       'Unable to find LDAP account!' => 'Kan het LDAP-account niet vinden!',
       'Create a New Account' => 'Nieuw account aanmaken',
       'Very Weak' => 'Erg zwak',
+      '%s is required!' => '%s is verplicht!',
     );
   }
 

@@ -10,7 +10,6 @@ final class PhabricatorPeopleFi
   protected function getTranslations() {
     return array(
       'Manage User' => 'Hallitse käyttäjää',
-      'Confirm' => 'Vahvista',
       'Delete User' => 'Poista käyttäjä',
       'User Accounts and Profiles' => 'Käyttäjätilit ja profiilit',
       'Login: Partial Login' => 'Kirjautuminen: Osittainen kirjautuminen',

@@ -9,7 +9,6 @@ final class PhabricatorextCoreSl
 
   protected function getTranslations() {
     return array(
-      'The requested project does not exist' => 'Zahtevani projekt ne obstaja',
       'Skip OFFSET rows before processing the remaining transactions.' => 'Pred obdelavo preostalih transakcij preskoči vrstice OFFSET.',
       'Invalid' => 'Neveljavno',
       'Blocked on Code Review - Needs Changes' => 'Blokiran pri pregledu kode',

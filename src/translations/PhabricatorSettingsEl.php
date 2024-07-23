@@ -48,7 +48,6 @@ final class PhabricatorSettingsEl
       'HTML Email' => 'Διεύθυνση ηλεκτρονικού ταχυδρομείου HTML',
       'Global Defaults' => 'καθολικό προεπιλεγμένο',
       'Conpherence Sound' => 'Ήχος Conpherence',
-      'Change Timezone' => 'Αλλαγή ζώνης ώρας',
       'Europe: 28-02-2000' => 'Ευρώπη: 28-02-2000',
       'The old password you entered is incorrect.' => 'Ο παλιός κωδικός πρόσβασης που δώσατε είναι εσφαλμένος.',
       '◐ Notify' => '◐ Ειδοποίηση',

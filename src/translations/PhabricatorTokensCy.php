@@ -1,15 +1,16 @@
 <?php
 
-final class PhabricatorBaseSv
+final class PhabricatorTokensCy
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'sv';
+    return 'cy';
   }
 
   protected function getTranslations() {
     return array(
-      'No Login Required' => 'Ingen inloggning krävs',
+      'Unicorn!' => 'Uncorn!',
+      'Fox' => 'Llwynog',
     );
   }
 

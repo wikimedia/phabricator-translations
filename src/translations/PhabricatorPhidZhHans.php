@@ -11,13 +11,11 @@ final class PhabricatorPhidZhHans
     return array(
       'Retrieve information about an arbitrary PHID.' => '检索有关任意PHID的信息。',
       'Requested handle "%s" was not loaded.' => '请求的处理“%s”并未加载。',
-      'Handles should use viewer handle pool cache.' => '控键应使用查看器处理池缓存。',
       'Restricted %s' => '受限制的%s',
       'Trying to mutate a %s, but this is not permitted; handle lists are immutable.' => '尝试改变%s，但这并不允许；处理列表不可变。',
       '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.' => '%s类的“%s”有无效的%s属性。PHID常量必须是由四个大写字母组成的字符串。',
       'Attempting to load PHID "%s", but it was not requested by any handle list.' => '试图加载PHID“%s”，但没有任何处理列表请求它。',
       'The objects you have listed include objects of the wrong type (%s).' => '您列出的对象中有一些包含了错误的类型（%s）。',
-      'Query Test Package' => '查询测试包',
       'Application Email' => '应用电子邮件',
       'Look up objects by name.' => '按名称查找对象。',
       'Trying to render a handle which does not exist!' => '试图渲染一个不存在的句柄！',

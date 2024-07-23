@@ -103,7 +103,6 @@ final class PhabricatorOwnersFrFR
       'Get the paths for each package.' => 'Obtenir le chemin de chaque paquet.',
       'Search for packages affecting specific paths.' => 'Recherche des paquets qui affectent des chemins spécifiques.',
       'Subscribe to All Changes' => 'S’abonner à toutes les modifications',
-      'Ruleset "%s" for Identical Ownership' => 'Ensemble de règles « %s » pour une même propriété',
       'Human-readable description of the package.' => 'Description lisible par un humain du paquet.',
       'Auditing' => 'Audit',
       'This package does not contain any paths yet. Use "Edit Paths" to add some.' => 'Ce paquet ne contient encore aucun chemin. Utilisez « Modifier les chemins » pour en ajouter.',

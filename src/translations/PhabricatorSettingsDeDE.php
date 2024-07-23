@@ -49,7 +49,6 @@ final class PhabricatorSettingsDeDE
       'Another user already has this email.' => 'Ein anderer Benutzer hat diese E-Mail schon.',
       'HTML Email' => 'HTML-E-Mail',
       'Global Defaults' => 'Globale Standards',
-      'Change Timezone' => 'Zeitzone ändern',
       'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Wenn du **Eigene Aktionen** deaktivierst, wird dich Phabricator nicht über deine eigenen Aktionen informieren.',
       'Your browser has not yet granted this server permission to send desktop notifications.' => 'Dieser Browser hat noch keine Berechtigung für Banachtigungen für dies Phabricator Instanz gewährt',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
@@ -59,14 +58,14 @@ final class PhabricatorSettingsDeDE
     | Notify | You will receive an unread notification only.
     | Ignore | You will receive nothing.
     If an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.
-    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'Du kannst die **Programm Einstellungen** hier ändern, um einzustellen, wann du eine Email bekommst und wann du nur eine Benachrictigung erhältst:
+    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'Du kannst die **Programm Einstellungen** hier ändern, um einzustellen, wann du eine E-Mail bekommst und wann du nur eine Benachrichtigung erhältst:
     | Einstellung | Auswirkung
     | ------- | -------
-    | Email | Du wirst eine Email und eine Web Benachrichtigung erhalten, die Benachrichtigung wird jedoch als "gelesen" markiert.
-    | Benachrichtigen | Du wirst nur eine ungelesene Benachtigung erhalten.
+    | E-Mail | Du wirst eine E-Mail und eine Web-Benachrichtigung erhalten, die Benachrichtigung wird jedoch als „gelesen“ markiert.
+    | Benachrichtigen | Du wirst nur eine ungelesene Benachrichtigung erhalten.
     | Ignorieren | Du wirst nichts erhalten.
-    Wenn ein Ereignis mehrere Änderungen umfasst (wie Abonennten einer Aufgabe ändern, sie schließen und einen Kommentar hinzufügen) wirst du die stärkste Meldung der Änderungen erhalten.
-    Diese Einstellungen treffen **nur** auf Objekte zu, mit denen du verknüpft bist (zum Beispiel, Revisionen bei denen du ein Gutachter bist oder Aufgaben, die du abonniert hast). Um Email Benachrichtigungen zu erhalten, wenn neue Objekte erstellt werden, benutze [[ /herald/ | Herald Regeln ]].',
+    Wenn ein Ereignis mehrere Änderungen umfasst (wie Abonnenten einer Aufgabe ändern, sie schließen und einen Kommentar hinzufügen) wirst du die stärkste Meldung der Änderungen erhalten.
+    Diese Einstellungen treffen **nur** auf Objekte zu, mit denen du verknüpft bist (zum Beispiel, Revisionen bei denen du ein Gutachter bist oder Aufgaben, die du abonniert hast). Um E-Mail-Benachrichtigungen zu erhalten, wenn neue Objekte erstellt werden, benutze [[ /herald/ | Herald Regeln ]].',
       'You must enter your current password.' => 'Du musst dein aktuelles Passwort eingeben.',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',
       '◐ Notify' => '◐ Benachrichtigen',

@@ -13,7 +13,6 @@ final class PhabricatorDifferentialDiq
       ', ...' => ', ...',
       '%s] [%s' => '%s] [%s',
       'TEST PLAN' => 'TEST PLAN',
-      'git-svn-id' => 'git-svn-id',
       'Lint Errors' => 'Xeteyê linti',
       'Tree' => 'Dare',
       'In Asana' => 'Asana de',

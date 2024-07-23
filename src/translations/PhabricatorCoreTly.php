@@ -10,7 +10,7 @@ final class PhabricatorCoreTly
   protected function getTranslations() {
     return array(
       'Orange' => 'Nonc',
-      'Old Value' => 'Kána Natija',
+      'Old Value' => 'Kanə Nətičə',
       'Today' => 'Imruj',
       'Yellow' => 'Zard',
       'All Settings' => 'Həmə Nizomonon',
@@ -25,11 +25,11 @@ final class PhabricatorCoreTly
       'All Day' => 'Həmə Rüjon',
       'To' => 'Bə',
       'Added' => 'Əlovə be',
-      'Read more...' => 'Hánde davom kárde...',
+      'Read more...' => 'Hande dəvom karde...',
       'Red' => 'Sı',
-      'Old World' => 'Kána Dınyo',
+      'Old World' => 'Kanə Dynjo',
       'Export' => 'İxroc',
-      'Old' => 'Kána',
+      'Old' => 'Kanə',
     );
   }
 

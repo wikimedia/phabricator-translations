@@ -27,7 +27,6 @@ final class PhabricatorFeedTr
       'Include Users' => 'Kullanıcıları Dahil Et',
       'Feed Story Failed to Render (%s)' => 'Yayın Hikayesi Oluşturulamadı (%s)',
       'Story' => 'Hikaye',
-      'Full dictionary of story data plus rendered HTML' => 'Hikaye verilerinin tam sözlüğü ve işlenmiş HTML',
       'Specify exactly one story key to republish.' => 'Yeniden yayınlamak için tam olarak bir hikaye anahtarı belirtin.',
       'You must call %s if you %s!' => '%2$s iseniz %1$s\'i aramalısınız!',
       'Unloaded Object \'%s\'' => 'Yüklenmemiş Nesne \'%s\'',

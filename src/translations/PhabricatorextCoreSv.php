@@ -12,7 +12,6 @@ final class PhabricatorextCoreSv
       'MediaWiki' => 'MediaWiki',
       'Use [[%s|this form]] to create one.' => 'Använd [[%s|det här formuläret]] för att skapa ett.',
       'Global Accounts' => 'Globala konton',
-      'Download Archive' => 'Ladda ner arkiv',
     );
   }
 

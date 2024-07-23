@@ -44,7 +44,7 @@ final class PhabricatorConsoleZhHant
       'Replay' => '重播',
       'Can\'t Analyze' => '無法分析',
       'Events' => '事件',
-      'Information about events and event listeners.' => '有關 Phabricator 事件與事件監聽的資訊。',
+      'Information about events and event listeners.' => '有關事件與事件監聽的資訊。',
       'Page Weight' => '頁面權重',
       'Hostname' => '主機名稱',
       'Registered Event Listeners' => '已註冊事件監聽',

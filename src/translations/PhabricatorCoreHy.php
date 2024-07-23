@@ -9,6 +9,7 @@ final class PhabricatorCoreHy
 
   protected function getTranslations() {
     return array(
+      'Confirm' => 'Հաստատել',
       'September' => 'Սեպտեմբեր',
       'Edit Menu' => 'Խմբագրել ընտրացանկը',
       'November' => 'Նոյեմբեր',
@@ -23,6 +24,7 @@ final class PhabricatorCoreHy
       'January' => 'Հունվար',
       'SUCCESS' => 'ՀԱՋՈՂՈՒԹՅՈՒՆ',
       'Username' => 'Օգտանուն',
+      'Select active tasks.' => 'Ընտրեք ակտիվ առաջադրանքներ:',
       'October' => 'Հոկտեմբեր',
       'Language' => 'Լեզու',
       'Translations' => 'Թարգմանություններ',

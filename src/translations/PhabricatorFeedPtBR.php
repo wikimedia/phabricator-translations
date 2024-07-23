@@ -27,7 +27,6 @@ final class PhabricatorFeedPtBR
       'Include Users' => 'Incluir usuários',
       'Feed Story Failed to Render (%s)' => 'Feed Story não conseguiu renderizar (%s)',
       'Story' => 'História',
-      'Full dictionary of story data plus rendered HTML' => 'Dicionário completo de dados da história e HTML renderizado',
       'Specify exactly one story key to republish.' => 'Especifique exatamente uma chave de história para republicar.',
       'You must call %s if you %s!' => 'Você deve chamar %s se você %s!',
       'Unloaded Object \'%s\'' => 'Objeto descarregado \'%s\'',

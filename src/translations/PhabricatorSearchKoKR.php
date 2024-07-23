@@ -124,6 +124,7 @@ final class PhabricatorSearchKoKR
       'Really Delete Query?' => '쿼리를 정말로 삭제할까요?',
       'Export Data' => '데이터 내보내기',
       'Circular Dependency' => '순환 의존',
+      'More information' => '자세한 정보',
       'Unable to Render Dashboard' => '대시보드를 렌더링할 수 없습니다',
       'Engine Name' => '엔진 이름',
     );

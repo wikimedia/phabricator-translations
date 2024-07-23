@@ -9,8 +9,6 @@ final class PhabricatorextCoreEsES
 
   protected function getTranslations() {
     return array(
-      'Gerrit Projects' => 'Proyectos en Gerrit',
-      'The requested project does not exist' => 'El proyecto solicitado no existe',
       'MediaWiki User' => 'Usuario de MediaWiki',
       'Open Tasks' => 'Tareas abiertas',
       '**MediaWiki Instance Name**
@@ -22,7 +20,6 @@ final class PhabricatorextCoreEsES
     `mediawiki`, `mediawiki.micompania` o `mediawiki.ingenieria` son nombres razonables.',
       'Global Accounts' => 'Cuentas globales',
       'Any open subtask(s) block the train from moving forward. This means no further deployments until the blockers are resolved.' => 'Cualquier tarea(s) abierta(s) bloquea(n) al tren para avanzar. Esto significa que ningún despliegue  más se hará hasta que se resuelvan los bloqueadores.',
-      'Download Archive' => 'Archivo de descargas',
     );
   }
 

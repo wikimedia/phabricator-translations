@@ -98,7 +98,6 @@ final class PhabricatorOwnersTr
       'Get the paths for each package.' => 'Her paket için yolları alın.',
       'Search for packages affecting specific paths.' => 'Belirli yolları etkileyen paketleri arayın.',
       'Subscribe to All Changes' => 'Tüm Değişikliklere Abone Ol',
-      'Ruleset "%s" for Identical Ownership' => 'Aynı Mülkiyet için "%s"',
       'Human-readable description of the package.' => 'Paketin insan tarafından okunabilir açıklaması.',
       'Auditing' => 'Denetleme',
       'This package does not contain any paths yet. Use "Edit Paths" to add some.' => 'Bu paket henüz bir yol içermiyor. Bazıları eklemek için "Yolları Düzenle"\'yi kullanın.',

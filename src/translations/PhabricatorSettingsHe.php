@@ -62,7 +62,6 @@ final class PhabricatorSettingsHe
       'Monospaced Font' => 'גופן ברוחב קבוע',
       'Global Defaults' => 'ברירות המחדל הכלליות',
       'Enable "Re:" Prefix' => 'הפעלת תחילית "Re:"',
-      'Change Timezone' => 'שינוי אזור זמן',
       'Supported Protocol' => 'פרוטוקול נתמך',
       'Europe: 28-02-2000' => 'אירופה: 28-02-2000',
       'The old password you entered is incorrect.' => 'הסיסמה הישנה שהזנת איננה נכונה.',

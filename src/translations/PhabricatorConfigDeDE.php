@@ -77,7 +77,7 @@ final class PhabricatorConfigDeDE
       'Minimum password length.' => 'Mindestlänge des Passworts.',
       'Required PHP extensions are not installed.' => 'Erforderliche PHP-Erweiterungen sind nicht installiert.',
       'Database' => 'Datenbank',
-      'PHP 7 Compatibility Information' => 'Phabricator PHP 7-Kompatibilitätsinformationen',
+      'PHP 7 Compatibility Information' => 'PHP 7-Kompatibilitätsinformationen',
       'Multiple %s subclasses have the same key (\'%s\'): %s, %s.' => 'Mehrere %s Unterklassen haben den gleichen Schlüssel (\'%s\'): %s, %s.',
       'Connection' => 'Verbindung',
       '%s = 0' => '%s = 0',
@@ -200,7 +200,6 @@ final class PhabricatorConfigDeDE
       'Use `%s` instead of this option.' => 'Verwenden Sie `%s` anstelle dieser Option.',
       'MySQL' => 'MySQL',
       'Unknown Config' => 'Unbekannte Konfiguration',
-      'Restarting Phabricator' => 'Phabricator neu starten',
       'Keys' => 'Schlüssel',
       'Wordmark' => 'Wortmarke',
       '%s.%s' => '%s.%s',
@@ -219,7 +218,7 @@ final class PhabricatorConfigDeDE
     If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'WARNUNG: Dies ist eine sehr erweiterte Option und nur nützlich für Hostinganbieter, die Cluster mit mehreren Mandanten ausführen.
     Wenn Sie hier einen Instanzbezeichner angeben (normalerweise durch Injizieren mit einem \'%s\'), übergibt Phabricator ihn an Unterprozesse und commit Hooks in der \'%s\' Umgebungsvariable.',
       'Upgrade MySQL Schema' => 'MySQL-Schema aktualisieren',
-      'Setup Error' => 'Fehler bei der Einrichtung des Phabricators',
+      'Setup Error' => 'Fehler bei der Einrichtung',
     );
   }
 

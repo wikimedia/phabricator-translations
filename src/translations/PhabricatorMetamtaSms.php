@@ -13,7 +13,6 @@ final class PhabricatorMetamtaSms
       'PARAMETERS' => 'PARAMETTAR',
       'Status: %s' => 'Status: %s',
       'Delete Address' => 'Jaukkâd addrõõzz',
-      'Address: %s' => 'Addrõs: %s',
       'Message: %s' => 'Saakk: %s',
       'ATTACHMENTS' => 'MEÂLDDÕÕZZ',
       'MESSAGE' => 'SAAKK',

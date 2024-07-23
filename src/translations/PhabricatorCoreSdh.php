@@ -141,7 +141,6 @@ final class PhabricatorCoreSdh
       'Address' => 'ناونیشان',
       'Yesterday' => 'دۊەکە',
       'Languages' => 'زوانەیل',
-      'Simple' => 'سادە',
       'Depth' => 'قووڵی',
       'Document' => 'بەڵگە',
       'New Address' => 'ناونیشان تازە',

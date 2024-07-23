@@ -14,7 +14,6 @@ final class PhabricatorBadgesTr
       'Create Badge' => 'Rozet Oluştur',
       '%s updated the quality from %s to %s.' => '%s, kaliteyi %s olarak %s güncelledi.',
       'Active Badges' => 'Etkin Rozetler',
-      'Leica Enthusiast' => 'Leica Meraklısı',
       'New badge description.' => 'Yeni rozet açıklaması.',
       'Edit Badge: %s' => 'Rozet Düzenle: %s',
       'Badges must have a name.' => 'Rozetlerin bir adı olmalıdır.',

@@ -11,10 +11,10 @@ final class PhabricatorFilesSe
     return array(
       'File Metadata' => 'Fiilla metadata',
       'View' => 'Čájet',
+      'Sitemap' => 'Siidokárta',
       'Video' => 'Video',
       '[File]' => '[Fiila]',
       'Delete File' => 'Sihko fiilla',
-      'language' => 'giella',
     );
   }
 

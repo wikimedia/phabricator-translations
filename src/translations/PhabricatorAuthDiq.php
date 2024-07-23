@@ -15,7 +15,6 @@ final class PhabricatorAuthDiq
       'Revoke Tokens' => 'Kılita Bıtexelne',
       'Must Verify Email' => 'Eposta Gani Anewe bo',
       'MFA Providers' => 'MFA Ardoğ',
-      'SSH Key Type' => 'SSH Tewrê Kıliti',
       'LDAP Port' => 'LDAP Port',
       'TOTP Code' => 'TOTP Kode',
       'LDAP Username: ' => 'LDAP nameykarberi:',

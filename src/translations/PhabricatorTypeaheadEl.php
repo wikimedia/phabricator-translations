@@ -24,9 +24,7 @@ final class PhabricatorTypeaheadEl
       'Invalid Function: %s' => 'Μη έγκυρη λειτουργία: %s',
       'More Results' => 'Περισσότερα αποτελέσματα',
       'Browse Objects' => 'Περιήγηση αντικειμένων',
-      'Constraints for input "%s".' => 'Προβλήματα εισαγωγής "%s".',
       'Auto' => 'Αυτόματο',
-      'Browse Numbers' => 'Αναζήτηση Αριθμών',
       'Priority Type' => 'Τύπος προτεραιότητας',
       'Using Typeahead Functions' => 'Χρησιμοποιώντας λειτουργίες Typeahead',
     );

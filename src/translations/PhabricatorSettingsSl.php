@@ -38,7 +38,7 @@ final class PhabricatorSettingsSl
       'Active Login Sessions' => 'Aktivne prijavljene seje',
       'Edit Global Settings' => 'Uredi globalne nastavitve',
       'Ignore Conflict' => 'Prezri težavo',
-      '%s updated their profile' => '%s so posodobili svoj profil',
+      '%s updated their profile' => '%s je posodobil_a svoj profil',
       'Current Setting' => 'Trenutna nastavitev',
       '⚪ Ignore' => '⚪ Prezri',
       'Date Format' => 'Zapis datuma',
@@ -49,12 +49,12 @@ final class PhabricatorSettingsSl
       'Old Password' => 'Staro geslo',
       'Display Preferences' => 'Prikaži nastavitve',
       'You don\'t have any active sessions.' => 'Nimaš aktivnih sej.',
-      'Changes saved.' => 'Spremembe shranjene.',
+      'Changes saved.' => 'Spremembe so shranjene.',
+      'Choose which language you would like the UI to use.' => 'Izberite jezik, ki naj ga uporablja uporabniški vmesnik.',
       'Really delete address \'%s\'?' => 'Res izbrišem naslov \'%s\'?',
       'Another user already has this email.' => 'Ta mejl uporablja že nek drug uporabnik.',
       'Change primary email address?' => 'Spremenim primarni e-poštni naslov?',
       'HTML Email' => 'HTML e-pošte',
-      'Change Timezone' => 'Spremeni časovni pas',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
     | Setting | Effect
     | ------- | -------
@@ -125,8 +125,10 @@ final class PhabricatorSettingsSl
       'Save Preferences' => 'Shrani nastavitve',
       '⚫ Email' => '⚫ E-pošta',
       'New Setting' => 'Nova nastavitev',
+      'Pronoun' => 'Zaimek',
       'Sessions and Logs' => 'Seje in dnevniki',
       'Your primary email address is unverified. You will not be able to receive email until you verify it.' => 'Vaš primarni e-poštni naslov ni potrjen. Dokler ga ne potrdite, ne boste mogli prejemati e-pošte.',
+      'Choose the pronoun you prefer.' => 'Izberite zaimek, ki vam ustreza.',
       'Conflict Ignored' => 'Težava prezrta',
       'Primary Email Unverified' => 'Primarni naslov nepotrjen',
     );

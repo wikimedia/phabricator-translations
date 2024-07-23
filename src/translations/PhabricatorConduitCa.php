@@ -69,7 +69,6 @@ final class PhabricatorConduitCa
       'Literal null.' => 'Literalment nul.',
       'There are no API tokens to terminate.' => 'No hi ha cap testimoni API per finalitzar.',
       'List of user PHIDs.' => 'Llista de PHID d\'usuaris.',
-      '%s should require authentication.' => '%s hauria de requerir autenticació.',
       'Your \'%s\' client version is \'%d\', which is newer than the server version, \'%d\'. Upgrade your server.' => 'La vostra versió de client «%s» és «%s», que és posterior a la versió del servidor, «%s». Actualitza la instal·lació de Phabricator.',
       'Expected string, got something else.' => 'S\'esperava una cadena, hi ha alguna altra cosa.',
       'Epoch timestamp, as an integer.' => 'Segell de temps d\'època, com a un enter.',

@@ -11,7 +11,6 @@ final class PhabricatorPeopleKoKR
     return array(
       'You are creating a new **standard** user account.' => '새로운 **표준** 사용자 계정을 만들고 있습니다.',
       'Users can not be permanently destroyed from the web interface. See %s in the documentation for more information.' => '사용자는 웹 인터페이스에서 영구적으로 제거될 수 없습니다. 더 자세한 정보는 문서의 %s 항목을 참고하십시오.',
-      'Confirm' => '확인',
       'You can not change usernames because you are not an administrator. Only administrators can change usernames.' => '관리자가 아니기 때문에 사용자 이름을 변경할 수 없습니다. 오직 관리자만 사용자 이름을 변경할 수 있습니다.',
       'Event Date' => '이벤트 날짜',
       'Stores the real name of the user, like "Abraham Lincoln".' => '"에이브러햄 링컨"처럼 사용자의 실명을 저장합니다.',
@@ -39,7 +38,6 @@ final class PhabricatorPeopleKoKR
       'Approved' => '승인됨',
       '[%s] Welcome to %s' => '[파브리케이터] 파브리케이터에 오신 것을 환영합니다',
       'You do not have permission to browse the user directory.' => '사용자 디렉터리를 둘러볼 권한이 없습니다.',
-      'This account has been disabled.' => '이 계정은 비활성화되었습니다.',
       'Roles' => '역할',
       'Enabled user account "%s".' => '"%s" 사용자 계정을 활성화했습니다.',
       'Usernames' => '사용자 이름',

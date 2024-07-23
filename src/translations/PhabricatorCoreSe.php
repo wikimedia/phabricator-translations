@@ -33,6 +33,7 @@ final class PhabricatorCoreSe
       'Tags' => 'Gilkorat',
       'Email' => 'E-poastačujuhus',
       'Username' => 'Geavaheaddjinamma',
+      'Find User:' => 'Oza geavaheaddji:',
       'Language' => 'Giella',
       'Password' => 'Beassansátni',
       'Edit Address' => 'Rievdat čujuhusa',

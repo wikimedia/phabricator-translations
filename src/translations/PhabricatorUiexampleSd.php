@@ -26,7 +26,7 @@ final class PhabricatorUiexampleSd
       'This event is green!' => 'ھي واقعو سائو آھي!',
       'Title / Text Story' => 'عنوان / متن ڪھاڻي',
       'Too much salt.' => 'تمام گھڻو لوڻ.',
-      'Item #%d' => 'شيءِ #%s',
+      'Item #%d' => 'اسم #%s',
       'Color \'%s\'' => 'رنگ \'%s\'',
       'AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel' => 'ھڪ.تمام.تمام.تمام.تمام.تمام.تمام.تمام.تمام.تمام.تمام.ڊگھواڻڀڳل.مڪليتي.ليبل',
       'Unit (3/5)' => 'ايڪو (3/5)',

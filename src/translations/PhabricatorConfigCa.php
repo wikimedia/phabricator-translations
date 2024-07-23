@@ -40,7 +40,6 @@ final class PhabricatorConfigCa
     Això pot significar que l\'URI de base no s\'ha configurat correctament. Cal publicar Phabricator des d\'un URI base amb un punt (com ara "https://phabricator.mycompany.com"), no un domini (com ara "https://phabricator.mycompany.com"). Si intenteu utilitzar un domini senzill, canvieu la configuració per a utilitzar un domini complet amb un punt.
     Això també pot significar que el vostre servidor web (o algun altre dispositiu de xarxa, com un equilibrador de càrrega) està manipulant la capçalera "Amfitrió" o que utilitzeu una eina o una biblioteca per emetre una sol·licitud manualment i establint una capçalera "Amfitrió" incorrecta.
     Les sol·licituds han d\'incloure una capçalera "amfitrió" vàlida.',
-      'Suppress mail from maintenance users.' => 'Suprimeix el correu dels usuaris de manteniment.',
       'Memory Usage' => 'Ús de Memòria',
       'The request body that was sent began:' => 'El cos de la petició que Phabricator ha enviat en començar:',
       'IMPORTANT: The upstream does not provide support for prototype applications.
@@ -120,11 +119,6 @@ final class PhabricatorConfigCa
       'Migrating file-based config to more modern config...' => 'S\'està migrant la configuració basada en fitxers a una configuració més moderna...',
       'Full' => 'Ple',
       'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Executa l\'script d\'actualització de l\'emmagatzematge per configurar bases de dades (el host «%s» no s\'ha inicialitzat).',
-      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'Esteu executant la versió de PHP %s. Phabricator no és compatible amb versions PHP entre 7.0 i 7.1. 
-    PHP ha eliminat les funcionalitats de manipulació de senyals que Phabricator requereix en PHP 7.0, i no les va restaurar fins a PHP 7.1. 
-    Actualitza a PHP 7.1 o posterior (recomanat) o baixa a una versió anterior de PHP 5 (desaconsellat).',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Encara no heu configurat la plataforma de correu, de manera que Phabricator no podrà enviar missatges de sortida ni rebre missatges de correu entrant. Consulteu els paràmetres de configuració de cluster.mailers per obtenir més informació.',
       'Unrecognized verb: %s' => 'Verb no reconegut: %s',
       'Schemata Issues' => 'Problemes amb els esquemes',
@@ -284,6 +278,7 @@ final class PhabricatorConfigCa
       'This key has the wrong uniqueness setting.' => 'Aquesta clau té un paràmetre de singularitat incorrecte.',
       'Additional configuration options to lock.' => 'Opcions de configuració addicionals per bloquejar.',
       'Override what language files (based on filename) highlight as.' => 'Substitueix com es ressalten els fitxers d\'idioma (basats en el nom del fitxer).',
+      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipient in the "To:" line.' => 'Controla si Phabricator envia un correu electrònic a múltiples destinataris a la línia "Per a:", o múltiples correus electrònics, cadascun amb un únic destinatari a la línia "Per a:".',
       'MySQL port to use when connecting to the database.' => 'Port MySQL per utilitzar en connectar-se a la base de dades.',
       'Trying to add duplicate key "%s"!' => 'S\'està intentant afegir la clau duplicada \'%s\'.',
       'Repository %s has an ambiguous leader.' => 'El repositori %s té un líder ambigu.',
@@ -599,15 +594,6 @@ final class PhabricatorConfigCa
       'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.' => 'Aquesta versió de Subversió té un error en què "%s" no funciona per als fitxers afegits a rN (Incidència de Subversió # 2873), solucionat a 1.7.2.',
       'Elasticsearch is not reachable as configured.' => 'Elasticsearch no es pot accedir tal com està configurat.',
       'Key has Wrong Uniqueness' => 'La clau té una singularitat incorrecta',
-      'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s' => 'De vegades, Phabricator llança altres fitxers binaris al servidor. Un exemple és l\'ordre "%s", que s\'utilitza per ressaltar el codi escrit en altres idiomes que no siguin PHP. Per defecte, se suposa que aquests binaris es troben en els %s de l\'usuari que executa Phabricator (normalment "apache", "httpd" o "cap"). Podeu afegir directoris addicionals aquí a la variable d\'entorn %s, en cas que aquests fitxers binaris es trobin a ubicacions no estàndard.
-    Tingueu en compte que també podeu posar binaris a "%s" (per exemple, enllaçant-los simbòlicament).
-    El valor actual de "PATH" després d\'aplicar la configuració és:
-       lang = text
-       %s',
       'Determines whether or not basic account information is editable.' => 'Determina si la informació bàsica del compte és editable o no.',
       'The base URI for this install is not configured. Many major features will not work properly until you configure it.' => 'L\'URI base per a aquesta instal·lació no està configurat. Moltes funcionalitats importants no funcionaran correctament fins que no la configureu.',
       'Unexpected \'diff\' Behavior' => 'Comportament «diff» inesperat',
@@ -689,7 +675,6 @@ final class PhabricatorConfigCa
       'Edge Types' => 'Tipus de flanc',
       'Logo configuration is not valid: value must be a dictionary.' => 'La configuració del logotip no és vàlida: el valor ha de ser un diccionari.',
       'Allow HTTP' => 'Permet HTTP',
-      'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => 'Controla si el Phabricator permet la supressió del correu electrònic dels usuaris "manteniment".',
       'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'No hi ha disponible cap REMOTE_ADDR, de manera que Phabricator no pot determinar l\'adreça d\'origen per a sol·licituds.  Això evitarà que Phabricator realitzi importants comprovacions de seguretat.  Això vol dir que teniu un error en el vostre guió del preàmbul.  Consulteu la documentació (%s) i feu doble comprovació que l\'script està escrit correctament.',
       'Access key for Amazon EC2.' => 'Clau d\'accés per a Amazon EC2.',
       'Available search engines are now automatically discovered at runtime.' => 'Ara Phabricator descobreix automàticament els motors de cerca disponibles en temps d\'execució.',
@@ -739,7 +724,6 @@ final class PhabricatorConfigCa
       'The environmental variable %s does not contain %s. You have enabled pygments, which requires %s to be available in your %s variable.' => 'La variable d\'entorn %s no conté %s. Heu habilitat pygments, que requereix que %s estigui disponible a la vostra variable %s.',
       'Customized settings for applications.' => 'Paràmetres personalitzats per a aplicacions de Phabricator.',
       'Config option "%s" is invalid. The URI must contain a dot ("%s"), like "%s", not just a bare name like "%s". Some web browsers will not set cookies on domains with no TLD.' => 'L\'opció de configuració \'%s\' no és vàlida. L\'URI ha de contenir un punt (\'%s\'), com ara \'%s\', no només un nom simple com \'%s\'. Alguns navegadors web no configuraran galetes en dominis sense TLD.',
-      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.' => 'Controla si Phabricator envia un correu electrònic a múltiples destinataris a la línia "Per a:", o múltiples correus electrònics, cadascun amb un únic destinatari a la línia "Per a:".',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Establiu %s a la configuració de PHP com a mínim a 32 MB per admetre fitxers de grans dimensions.',
       'MySQL %s Mode Not Set' => 'El mode %s de MySQL no està habilitat',
       'If you are using Apache, your server may be configured with "SetInputFilter DEFLATE". This directive destructively mangles requests and emits them with "Content-Length" and "Content-Encoding" headers that no longer match the data in the request body.' => 'Si utilitzeu Apache, és possible que el servidor estigui configurat amb \'SetInputFilter DEFLATE\'. Aquesta directiva mangles destructivament sol·licita i les emet amb capçaleres \'Content-Length\' i \'Content-Encoding\' que ja no coincideixen amb les dades del cos de sol·licitud.',

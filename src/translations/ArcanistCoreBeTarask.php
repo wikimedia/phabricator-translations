@@ -11,7 +11,6 @@ final class ArcanistCoreBeTarask
     return array(
       'Aborted due to file upload failure. You can use %s to skip binary uploads.' => 'Спынена праз памылку загрузкі файлу. Вы можаце ўжыць %s для пропуску бінарных загрузак.',
       'This working copy is associated with the %s repository.' => 'Гэтая працоўная копія злучаная з сховішчам %s.',
-      'Should throw on empty input' => 'Будзе кідацца пры пустых уваходных зьвестках',
       'Lint Disabler' => 'Адключэньне Lint',
       'Do not call %s or %s directly on a %s. Instead, call %s or %s.' => 'Не выклікаць %s або %s непасрэдна на %s. Наўзамен выклікайце %s або %s.',
       'A linter for Composer related files.' => 'Linter для файлаў, зьвязаных з Composer',
@@ -33,7 +32,6 @@ final class ArcanistCoreBeTarask
       'Remote Repository' => 'Аддаленае сховішча',
       'Empty certificate in credentials.' => 'Пусты сэртыфікат ва ўліковых зьвестках.',
       'No tests to run.' => 'Няма тэстаў для запуску.',
-      'Order: Global' => 'Парадак: глябальны',
       'Unknown Symbol' => 'Невядомы сымбаль',
       '`%s` Statement Must Be The First Statement' => 'Сьцьверджаньне «%s» мусіць быць першым сьцьверджаньнем',
       'In most cases, arc can be upgraded automatically.' => 'У большасьці выпадкаў arc можа быць абноўлены аўтаматычна.',
@@ -62,7 +60,6 @@ final class ArcanistCoreBeTarask
       'Constants should be uppercase.' => 'Канстанты павінныя быць у верхнім рэгістры.',
       'Diff URI:' => 'URI-адрас розьніцы:',
       'Revision %s' => 'Вэрсія %s',
-      'Jump' => 'Перайсьці',
       'File Error' => 'Памылка файлу',
       'Avoid the use of inner functions.' => 'Пазьбягайце ўжываньня ўнутраных функцыяў.',
       'Install PHPCS with `%s`.' => 'Усталяваць PHPCS з дапамогай «%s».',

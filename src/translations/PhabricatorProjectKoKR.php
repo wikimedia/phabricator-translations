@@ -9,7 +9,6 @@ final class PhabricatorProjectKoKR
 
   protected function getTranslations() {
     return array(
-      'With afterPHIDs' => 'afterPHIDs 포함',
       'Timeline' => '타임라인',
       'Really activate project?' => '정말로 프로젝트를 활성화하시겠습니까?',
       'Play Sound' => '소리 재생',
@@ -85,7 +84,6 @@ final class PhabricatorProjectKoKR
       'Unsupported Project' => '지원하지 않는 프로젝트',
       'Type a project name...' => '프로젝트 이름을 입력하십시오...',
       'Rename the project' => '프로젝트의 이름을 변경합니다',
-      'Test Project %d' => '테스트 프로젝트 %s',
       'You do not have permission to create new projects.' => '새 프로젝트를 만들 권한이 없습니다.',
       'Get information about projects.' => '프로젝트에 관한 정보를 가져옵니다.',
       'Project icons must have unique keys, but two icons share the same key ("%s").' => '프로젝트 아이콘은 유일한 키를 가져야 하지만 두 개의 아이콘은 동일한 키("%s")를 공유합니다.',
@@ -113,7 +111,6 @@ final class PhabricatorProjectKoKR
       'Advanced Filter' => '고급 필터',
       'Edit Trigger' => '트리거 편집',
       'Watching' => '주시 중',
-      'With beforePHIDs' => 'beforePHIDs 포함',
       'Save as Default' => '기본값으로 저장',
       'Browse Users and Projects' => '사용자 및 프로젝트 찾아보기',
       'All Triggers' => '모든 트리거',
@@ -145,13 +142,11 @@ final class PhabricatorProjectKoKR
       '(Unknown Rule)' => '(알 수 없는 규칙)',
       '(Default)' => '(기본값)',
       'Trigger Rules' => '트리거 규칙',
-      '%s / All' => '%s / 모두',
       'Bugs' => '버그',
       'Add Members' => '회원 추가',
       'No projects found.' => '프로젝트를 찾을 수 없습니다.',
       'Watchers' => '주시자',
       'This is a trigger rule with a unknown type ("%s").' => '알 수 없는 유형("%s")의 트리거 규칙입니다.',
-      '%s / Any' => '%s / 모두',
       'Add project tags.' => '프로젝트 태그를 추가합니다.',
       'User PHID ("%s") is not a valid user.' => '사용자 PHID("%s")는 유효한 사용자가 아닙니다.',
       'Trigger' => '트리거',

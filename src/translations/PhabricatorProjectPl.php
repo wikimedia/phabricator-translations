@@ -30,7 +30,6 @@ final class PhabricatorProjectPl
       'This project does not have any watchers.' => 'Ten projekt nie ma żadnych obserwatorów.',
       'Change the project tag color.' => 'Zmień kolor etykiety projektu.',
       'Type a project name...' => 'Wpisz nazwę projektu...',
-      'Test Project %d' => 'Projekt testowy %s',
       'You do not have permission to create new projects.' => 'Nie masz uprawnień do tworzenia nowych projektów.',
       'Parent Project' => 'Nadrzędny projekt',
       'Can Create Projects' => 'Może tworzyć projekty',

@@ -13,7 +13,6 @@ final class PhabricatorPeopleRoaTara
       'Filter IP' => 'Filtre l\'IP',
       'You are creating a new **standard** user account.' => 'Ste ccrèje \'nu cunde utende nuève **standard**.',
       'Manage User' => 'Gestisce l\'utende',
-      'Confirm' => 'Conferme',
       'Musician' => 'Museciste',
       'Relationships' => 'Relaziune',
     );

@@ -10,7 +10,6 @@ final class PhabricatorManiphestSkrArab
   protected function getTranslations() {
     return array(
       '○ %s' => '○ %s',
-      'Finished' => 'مُک ڳیا',
       'All Time' => 'سارے ویلے',
       'Points' => 'نقطے',
       'Search...' => 'ڳولو۔۔۔',

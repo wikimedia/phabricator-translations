@@ -11,7 +11,6 @@ final class PhabricatorPhidEn
     return array(
       'Retrieve information about an arbitrary PHID.' => 'Retrieve information about an arbitrary PHID.',
       'Requested handle "%s" was not loaded.' => 'Requested handle "%s" was not loaded.',
-      'Handles should use viewer handle pool cache.' => 'Handles should use viewer handle pool cache.',
       'Restricted %s' => 'Restricted %s',
       'Trying to mutate a %s, but this is not permitted; handle lists are immutable.' => 'Trying to mutate a %s, but this is not permitted; handle lists are immutable.',
       'Attempting to test capability "%s" for handle of type "%s", but this capability has not been attached.' => 'Attempting to test capability "%s" for handle of type "%s", but this capability has not been attached.',
@@ -19,7 +18,6 @@ final class PhabricatorPhidEn
       '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.' => '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.',
       'Attempting to load PHID "%s", but it was not requested by any handle list.' => 'Attempting to load PHID "%s", but it was not requested by any handle list.',
       'The objects you have listed include objects of the wrong type (%s).' => 'The objects you have listed include objects of the wrong type (%s).',
-      'Query Test Package' => 'Query Test Package',
       'Application Email' => 'Application Email',
       'Look up objects by name.' => 'Look up objects by name.',
       'Trying to render a handle which does not exist!' => 'Trying to render a handle which does not exist!',

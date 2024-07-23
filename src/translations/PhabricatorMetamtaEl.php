@@ -45,7 +45,6 @@ final class PhabricatorMetamtaEl
       'Status: %s' => 'Κατάσταση: %s',
       'Delete Address' => 'Διαγραφή διεύθυνσης',
       'Mail (Sent)' => 'Ταχυδρομείο (εστάλη)',
-      'Address: %s' => 'Διεύθυνση: %s',
       'PROPERTIES' => 'Ιδιότητες',
       'Message: %s' => 'Μήνυμα: %s',
       'No Such Object' => 'Δεν υπάρχει τέτοιο αντικείμενο',

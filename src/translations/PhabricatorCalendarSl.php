@@ -15,7 +15,6 @@ final class PhabricatorCalendarSl
       'Imported Events' => 'Uvoženi dogodki',
       'Imported By' => 'Uvoznik',
       'Cancel the event.' => 'Prekliči dogodek.',
-      'Multiple date lists.' => 'Več seznamov datumov.',
       'Started background processing.' => 'V ozadju se je začela obdelava.',
       'Would you like to decline this event?' => 'Ali želite odkloniti ta dogodek?',
       'Imported' => 'Uvoženo',
@@ -25,7 +24,6 @@ final class PhabricatorCalendarSl
       'Can Not Edit Imported Event' => 'Uvožene dogodka ni mogoče urejati',
       'One-Time Event' => 'Enkratni dogodek',
       '%s imported an ICS file.' => '%s je bilo uvoženo kot datoteka ICS.',
-      'Multiple lists, one result.' => 'Več seznamov, en rezultat.',
       'True to delete imported events.' => '»Res« za izbris uvoženih dogodkov.',
       'New export query key.' => 'Nov ključ zahtevka za izvoz.',
       'Edit this event and all events in the series which occur on or after %s. This will overwrite previous edits!' => 'Uredi ta dogodek in vse dogodke v nizu, ki se zgodijo %s ali pozneje. To bo prepisalo prejšnje spremembe!',
@@ -43,7 +41,6 @@ final class PhabricatorCalendarSl
       'Unnamed Imported Event' => 'Nepoimenovani uvoženi dogodek',
       'Cancel or restore the event.' => 'Prekličite ali obnovite dogodek.',
       'Log Messages' => 'Sporočila dnevnika',
-      'Multiple lists, time window.' => 'Več seznamov, časovno okno.',
       'Imported Event' => 'Uvoženi dogodek',
       'List View' => 'Pogled seznama',
     );

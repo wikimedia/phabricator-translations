@@ -41,7 +41,6 @@ final class PhabricatorConfigEn
     If you are using a web browser, check your webserver configuration. If you are using a tool or library, check how the request is being constructed.
     It is also possible (but very unlikely) that some other network device (like a load balancer) is stripping the header.
     Requests must include a valid "Host" header.',
-      'Suppress mail from maintenance users.' => 'Suppress mail from maintenance users.',
       'Memory Usage' => 'Memory Usage',
       'The request body that was sent began:' => 'The request body that was sent began:',
       'IMPORTANT: The upstream does not provide support for prototype applications.
@@ -149,11 +148,6 @@ final class PhabricatorConfigEn
       'Migrating file-based config to more modern config...' => 'Migrating file-based config to more modern config...',
       'Full' => 'Full',
       'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Run the storage upgrade script to setup databases (host "%s" has not been initialized).',
-      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.',
       'Unrecognized verb: %s' => 'Unrecognized verb: %s',
       'WARNING: This is a prototype option and the description below is currently pure
@@ -367,6 +361,7 @@ final class PhabricatorConfigEn
     This software sent a request to path "%s", and expected the webserver to decode and rewrite that path so that it received a request for "%s". However, it received a request for "%s" instead.
     Verify that your rewrite rules are configured correctly, following the instructions in the documentation. If path encoding is not working properly you will be unable to access files with unusual names in repositories, among other issues.
     (This problem can be caused by a missing "B" in your RewriteRule.)',
+      'Recorded items (sample):' => 'Recorded items (sample):',
       'Your install has no current setup issues to resolve.' => 'Your install has no current setup issues to resolve.',
       'Subschemata Have Failures' => 'Subschemata Have Failures',
       'Save Config Entry' => 'Save Config Entry',
@@ -491,6 +486,7 @@ final class PhabricatorConfigEn
       'Additional configuration options to lock.' => 'Additional configuration options to lock.',
       'Override what language files (based on filename) highlight as.' => 'Override what language files (based on filename) highlight as.',
       'Bad "Host" Header' => 'Bad "Host" Header',
+      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipient in the "To:" line.' => 'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipient in the "To:" line.',
       'Option "%s" is of type "%s", but the item at index "%s" of the list is not a string.' => 'Option "%s" is of type "%s", but the item at index "%s" of the list is not a string.',
       'MySQL port to use when connecting to the database.' => 'MySQL port to use when connecting to the database.',
       'Trying to add duplicate key "%s"!' => 'Trying to add duplicate key "%s"!',
@@ -630,6 +626,15 @@ final class PhabricatorConfigEn
       'Setup Issues' => 'Setup Issues',
       'Require email verification' => 'Require email verification',
       'Resource minification is now managed automatically.' => 'Resource minification is now managed automatically.',
+      'This software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
+    Note that you can also put binaries in `%s` (for example, by symlinking them).
+    The current value of PATH after configuration is applied is:
+      lang=text
+      %s' => 'This software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
+    Note that you can also put binaries in `%s` (for example, by symlinking them).
+    The current value of PATH after configuration is applied is:
+      lang=text
+      %s',
       'Whitespace rendering is now handled automatically.' => 'Whitespace rendering is now handled automatically.',
       '%s Not Working' => '%s Not Working',
       'This configuration option is unknown. It may be misspelled, or have existed in a previous version of the software.' => 'This configuration option is unknown. It may be misspelled, or have existed in a previous version of the software.',
@@ -775,6 +780,7 @@ final class PhabricatorConfigEn
       'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.',
       'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'Your PHP configuration selects an invalid timezone. Select a valid timezone.',
       '%s deleted this configuration entry (again?).' => '%s deleted this configuration entry (again?).',
+      'There is some deprecated code found in the code-base.' => 'There is some deprecated code found in the code-base.',
       'Unresolved Setup Issues' => 'Unresolved Setup Issues',
       'Server Timezone Not Configured' => 'Server Timezone Not Configured',
       'The following regex is malformed and cannot be used: %s' => 'The following regex is malformed and cannot be used: %s',
@@ -806,6 +812,7 @@ final class PhabricatorConfigEn
       'Auth provider config can be edited without unlocking' => 'Auth provider config can be edited without unlocking',
       'Disable unsafe option "%s" in PHP configuration.' => 'Disable unsafe option "%s" in PHP configuration.',
       '%s Day(s)' => '%s Day(s)',
+      'PHP version: %s' => 'PHP version: %s',
       'No search servers are configured.' => 'No search servers are configured.',
       'DarkConsole is a development and profiling tool built into the web interface. You should leave it disabled unless you are developing or debugging %s.
     Once you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.
@@ -955,15 +962,6 @@ final class PhabricatorConfigEn
       'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.' => 'This version of Subversion has a bug where `%s` does not work for files added in rN (Subversion issue #2873), fixed in 1.7.2.',
       'Elasticsearch is not reachable as configured.' => 'Elasticsearch is not reachable as configured.',
       'Key has Wrong Uniqueness' => 'Key has Wrong Uniqueness',
-      'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s' => 'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s',
       'Determines whether or not basic account information is editable.' => 'Determines whether or not basic account information is editable.',
       'Get a local configuration value.' => 'Get a local configuration value.',
       'Authenticaton Configuration Unlocked' => 'Authenticaton Configuration Unlocked',
@@ -992,7 +990,6 @@ final class PhabricatorConfigEn
       'Config \'%s\' Invalid' => 'Config \'%s\' Invalid',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.',
       'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.',
-      'Never suppress email' => 'Never suppress email',
       'No Recipient Hints' => 'No Recipient Hints',
       'Sample 0.1%% of requests.' => 'Sample 0.1%% of requests.',
       'No Issues' => 'No Issues',
@@ -1029,7 +1026,6 @@ final class PhabricatorConfigEn
       'Cache Storage' => 'Cache Storage',
       'At least one daemon is currently running as the wrong user.' => 'At least one daemon is currently running as the wrong user.',
       'Data Type' => 'Data Type',
-      'Allow suppressing email from certain users' => 'Allow suppressing email from certain users',
       'Better Character Set Available' => 'Better Character Set Available',
       'Small MySQL "%s"' => 'Small MySQL "%s"',
       'Value for option "%s" must be an integer.' => 'Value for option "%s" must be an integer.',
@@ -1136,7 +1132,6 @@ final class PhabricatorConfigEn
       'Allow HTTP' => 'Allow HTTP',
       'Simple Example' => 'Simple Example',
       'Auth Config Unlocked' => 'Auth Config Unlocked',
-      'Controls whether Phabricator allows the suppression of email from "maintenance" users.' => 'Controls whether Phabricator allows the suppression of email from "maintenance" users.',
       'Synchronized' => 'Synchronized',
       'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.',
       'Access key for Amazon EC2.' => 'Access key for Amazon EC2.',
@@ -1277,7 +1272,6 @@ final class PhabricatorConfigEn
       '%s Active' => '%s Active',
       'Subschemata Have Warnings' => 'Subschemata Have Warnings',
       'Require Administrators to Approve Accounts' => 'Require Administrators to Approve Accounts',
-      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.' => 'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Set %s in your PHP configuration to at least 32MB to support large file uploads.',
       'The system sudo user.' => 'The system sudo user.',
       'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller
@@ -1348,7 +1342,6 @@ final class PhabricatorConfigEn
       'Cluster instance name, if configured.' => 'Cluster instance name, if configured.',
       'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.' => 'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.',
       'Unknown Config' => 'Unknown Config',
-      'Restarting Phabricator' => 'Restarting Phabricator',
       'Detected %s serious issue(s) with the schemata.' => 'Detected %s serious issue(s) with the schemata.',
       'Daemons Not Running' => 'Daemons Not Running',
       'MySQL username to use when connecting to the database.' => 'MySQL username to use when connecting to the database.',
@@ -1406,6 +1399,11 @@ final class PhabricatorConfigEn
     Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Severe Security Vulnerability: Unpatched Bash',
       'Force HTTPS' => 'Force HTTPS',
+      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
+    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
+    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
+    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
+    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).',
       'This key is not expected to exist.' => 'This key is not expected to exist.',
       '%s.%s' => '%s.%s',
       '%s.%s.%s' => '%s.%s.%s',
@@ -1428,6 +1426,11 @@ final class PhabricatorConfigEn
     Disable this setting to continue.',
       'Limit page execution time to debug hangs.' => 'Limit page execution time to debug hangs.',
       'Base URI Not Configured' => 'Base URI Not Configured',
+      'Cannot identify the version of the %s repository because the webserver does not trust it (more info on Task %s).
+    Try this system resolution:
+    sudo git config --system --add safe.directory %s' => 'Cannot identify the version of the %s repository because the webserver does not trust it (more info on Task %s).
+    Try this system resolution:
+    sudo git config --system --add safe.directory %s',
       'Always Activate DarkConsole' => 'Always Activate DarkConsole',
       'This request included an invalid "Host" header, with value "%s". Host headers must contain a dot ("."), like "example.com". This is required for some browsers to be able to set cookies.
     This may mean the base URI is configured incorrectly. You must serve this software from a base URI with a dot (like "https://devtools.example.com"), not a bare domain (like "https://devtools/"). If you are trying to use a bare domain, change your configuration to use a full domain with a dot in it instead.
@@ -1460,6 +1463,7 @@ final class PhabricatorConfigEn
       'Only allow registration from particular domains.' => 'Only allow registration from particular domains.',
       'Subschemata have setup failures.' => 'Subschemata have setup failures.',
       'No performance sampling.' => 'No performance sampling.',
+      '%s\'s home page' => '%s\'s home page',
       'Show installed extensions and modules.' => 'Show installed extensions and modules.',
       'Opcode Cache' => 'Opcode Cache',
       'Specify a value to set the configuration key "%s" to, or use "--stdin" to read a value from stdin.' => 'Specify a value to set the configuration key "%s" to, or use "--stdin" to read a value from stdin.',
@@ -1474,6 +1478,7 @@ final class PhabricatorConfigEn
       'This setup issue has been resolved. ' => 'This setup issue has been resolved. ',
       'Additional configuration options to hide.' => 'Additional configuration options to hide.',
       'The logged-in username, if one is logged in.' => 'The logged-in username, if one is logged in.',
+      'Deprecated Code' => 'Deprecated Code',
       'PHP date functions will emit a warning if they are called when no default
     server timezone is configured.
     Usually, you configure a default timezone in `php.ini` by setting the
@@ -1509,12 +1514,26 @@ final class PhabricatorConfigEn
       'Blindigo' => 'Blindigo',
       'Expected Column Type' => 'Expected Column Type',
       'Enable developer mode' => 'Enable developer mode',
+      '%s, occurrences: %s' => '%s, occurrences: %s',
       'Woe! This request had its journey cut short by unexpected circumstances (%s).' => 'Woe! This request had its journey cut short by unexpected circumstances (%s).',
       'Customizes retention policies for garbage collectors.' => 'Customizes retention policies for garbage collectors.',
       'This schema can use a better column type.' => 'This schema can use a better column type.',
       'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => 'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.',
       'The request date.' => 'The request date.',
       'Reply handlers can no longer be overridden with configuration.' => 'Reply handlers can no longer be overridden with configuration.',
+      'There is some deprecated code found in the %s code-base.
+    This isn\'t a problem yet, but it means that %s might stop working if you upgrade PHP version.
+    This page records a sample of the cases since last server restart. 
+    To solve this issue, either:
+    - Visit %s, file bug report with the information below, or
+    - Ignore this issue using the `Ignore` button below.
+    ' => 'There is some deprecated code found in the %s code-base.
+    This isn\'t a problem yet, but it means that %s might stop working if you upgrade PHP version.
+    This page records a sample of the cases since last server restart. 
+    To solve this issue, either:
+    - Visit %s, file bug report with the information below, or
+    - Ignore this issue using the `Ignore` button below.
+    ',
       'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => 'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.',
       'Send as %s' => 'Send as %s',
       'Setup Error' => 'Setup Error',

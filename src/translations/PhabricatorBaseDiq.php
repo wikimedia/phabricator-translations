@@ -11,7 +11,6 @@ final class PhabricatorBaseDiq
     return array(
       'No application \'%s\'!' => 'Aplikasyonê \'%s\' çıniyo!',
       '%s Application' => '%s Aplikasyon',
-      'Email Verification Required' => 'Araştkerdışê e-postey lazımo',
     );
   }
 

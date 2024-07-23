@@ -11,6 +11,7 @@ final class PhabricatorPeopleLb
     return array(
       'Delete User' => 'Benotzer läschen',
       'Invite Users' => 'Benotzer invitéieren',
+      'MediaWiki username.' => 'MediaWiki-Benotzernumm.',
       'The user\'s username.' => 'Dem Benotzer säi Benotzernumm.',
       'Musician' => 'Museker',
       'Account Activity' => 'Kontoaktivitéit',

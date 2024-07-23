@@ -10,12 +10,16 @@ final class PhabricatorDashboardZhHans
   protected function getTranslations() {
     return array(
       'Edit Panel' => '编辑面板',
+      'New dashboard icon.' => '新的仪表板图标。',
       'Edit Panel: %s' => '编辑面板：%s',
       'Add to Project Menu' => '添加到项目菜单',
       'No dashboards found.' => '找不到控制面板。',
+      'Add to Personal Home Menu' => '添加到个人主菜单',
       'Archive Panel' => '存档面板',
       'Dashboards' => '仪表板',
       'Browse Dashboards' => '浏览仪表板',
+      'Edit Dashboard' => '编辑仪表板',
+      'View Chart' => '查看图表',
       'Add the dashboard %s to the menu for project %s?' => '要将仪表板%s添加到项目%s的菜单中吗？',
       'Add Dashboard to Project Menu' => '将仪表板添加到项目菜单',
       'Create Custom Pages' => '创建自定义页面',

@@ -14,7 +14,6 @@ final class PhabricatorMacroTr
       'Create Meme' => 'Mem Oluştur',
       'Masterfully imagined by %s in ages long past.' => 'Çok uzun zaman önce %s ile ustaca hayal edildi.',
       'Active Macros' => 'Aktif Makrolar',
-      'Validity of macro "%s"' => '"%s" makrosunun geçerliliği',
       'Upload New Audio' => 'Yeni Ses Yükle',
       'Image Macro "%s"' => 'Resim Makrosu "%s"',
       'MACRO DETAIL' => 'MAKRO DETAYI',

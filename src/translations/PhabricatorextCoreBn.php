@@ -12,7 +12,6 @@ final class PhabricatorextCoreBn
       'MediaWiki' => 'মিডিয়াউইকি',
       'Invalid' => 'অবৈধ',
       'Required' => 'বাধ্যতামূলক',
-      'Gerrit' => 'গেরিট',
       'Comments' => 'মন্তব্যসমূহ',
     );
   }

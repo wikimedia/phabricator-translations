@@ -15,7 +15,6 @@ final class PhabricatorPolicyKoKR
       'You do not have permission to edit this object.' => '이 프로젝트를 편집할 권한이 없습니다.',
       'Can View' => '볼 수 있음',
       'Only User: %s' => '사용자 전용: %s',
-      'Admin Policy' => '관리자 정책',
       'Members of Project...' => '프로젝트의 회원...',
       'Advanced' => '고급',
       'Other Policies' => '다른 정책',
@@ -28,9 +27,7 @@ final class PhabricatorPolicyKoKR
       'Note:' => '참고:',
       'You do not have permission to view policy details.' => '정책의 세부 정보를 볼 권한이 없습니다.',
       'Can Edit' => '편집할 수 있음',
-      'Invisible objects are ignored.' => '보이지 않는 오브젝트는 무시됩니다.',
       '[%s] (%s) %s // %s' => '[%s] (%s) %s // %s',
-      'Invalid Policy' => '유효하지 않은 정책',
       'Members of Project: %s' => '프로젝트의 회원: %s',
       'Custom "%s" Policy' => '사용자 지정 "%s" 정책',
       'Custom Policy' => '사용자 지정 정책',
@@ -43,7 +40,6 @@ final class PhabricatorPolicyKoKR
       'This object has an unknown or invalid policy setting ("%s").' => '이 오브젝트는 알 수 없거나 유효하지 않은 정책 설정("%s")을 가지고 있습니다.',
       'Can Join' => '가입할 수 있음',
       'You do not have permission to interact with this object.' => '이 오브젝트와 상호작용할 권한이 없습니다.',
-      'User Policy' => '사용자 정책',
     );
   }
 

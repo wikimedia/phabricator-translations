@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorTypeaheadEnGB
+final class PhabricatorCacheSe
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'en_GB';
+    return 'se';
   }
 
   protected function getTranslations() {
     return array(
-      'Tokenization of "%s"' => 'Tokenisation of "%s"',
+      'Purge all caches.' => 'Gurre buot gaskamuittuid.',
     );
   }
 

@@ -31,7 +31,6 @@ final class PhabricatorManiphestEl
       'New task name.' => 'Νέο όνομα εργασίας',
       'Tasks must have a title.' => 'Οι εργασίας πρέπει να έχουν τίτλο.',
       'Oldest (Pri)' => 'Παλαιότερο',
-      'Bad Key' => 'Ακατάλληλο κλειδί',
       'Unblock' => 'Άρση φραγής',
       'Select and reorder task fields.' => 'Επιλογή και επαναδιάταξη πεδίων εργασίας.',
       'Description Preview' => 'Προεπισκόπηση περιγραφής',
@@ -46,7 +45,6 @@ final class PhabricatorManiphestEl
       'Recently Closed' => 'Έκλεισε πρόσφατα',
       'Merged In' => 'Συγχωνεύτηκε σε',
       '%s created subtask %s.' => 'Ο %s δημιούργησε την υποεργασία %s.',
-      'Finished' => 'Τελείωσε',
       'Estimated number of hours this will take.' => 'Εκτιμώμενος αριθμός ωρών που αυτό θα πάρει.',
       'All Time' => 'Όλων των εποχών',
       'Subtask' => 'Υποεργασία',
@@ -56,8 +54,6 @@ final class PhabricatorManiphestEl
       'Subtasks.' => 'Υποεργασίες.',
       'Updated Before' => 'Ενημερώθηκε πριν από',
       'Search...' => 'Αναζήτηση...',
-      'Invalid Key' => 'Μη έγκυρο κλειδί',
-      '%s added %s revision(s): %s.' => 'Ο %s πρόσθεσε %s αναθεωρήσεις(-ες): %s.',
       'Task' => 'Εργασία',
     );
   }

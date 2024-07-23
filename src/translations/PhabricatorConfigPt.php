@@ -63,9 +63,6 @@ final class PhabricatorConfigPt
      - `full`: \'gwashington (George Washington) <gwashington@example.com>\'
     The default is `full`.' => '',
       'The minimum supported version of Mercurial is 2.4, which was released in 2012.' => 'A versão mínima suportada do Mercurial é 2.4, lançada em 2012.',
-      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed reqiured signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => '',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => '',
       'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. This software will not work properly until you do.' => '',
       'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => '',
@@ -154,6 +151,7 @@ final class PhabricatorConfigPt
     Make sure databases connection information and MySQL are correctly configured.' => '',
       'Cookies set for x.com are also sent for y.x.com. Assuming instances are running on both domains, this will create a collision preventing you from logging in.' => 'Os cookies definidos para x.com também são enviados para y.x.com. Supondo que as instâncias estejam em execução nos dois domínios, isso criará uma colisão impedindo você de fazer login.',
       'You can provide a custom highlighter engine by extending class %s.' => 'Você pode fornecer um mecanismo de realce personalizado estendendo a classe %s .',
+      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipient in the "To:" line.' => 'Controla se o e-mail para vários destinatários é enviado criando uma mensagem com todos na linha "Para:" ou várias mensagens, cada uma com um único Recipeint na linha "Para:".',
       'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
     If not set, no log will be written.' => 'Para ativar o log de erros SSH, especifique um caminho. Erros que ocorrem em contextos onde este software está atendendo solicitações SSH serão gravados neste log.
     Se não for definido, nenhum log será gravado.',
@@ -289,11 +287,6 @@ final class PhabricatorConfigPt
      %s 
     Algo está configurado incorretamente ou distorcendo as respostas.',
       'The timezone this software should use by default.' => 'O fuso horário que este software deve usar por padrão.',
-      'Thhi software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
-    Note that you can also put binaries in `%s` (for example, by symlinking them).
-    The current value of PATH after configuration is applied is:
-      lang=text
-      %s' => '',
       'By default, this software allows users to add multi-factor authentication to
     their accounts, but does not require it. By enabling this option, you can
     force all users to add at least one authentication factor before they can use
@@ -399,7 +392,6 @@ final class PhabricatorConfigPt
       'Reply addresses can either be private (more secure) or public (which works better with mailing lists).' => 'Os endereços de resposta podem ser privados (mais seguros) ou públicos (o que funciona melhor com listas de e-mail).',
       'This server received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with this software. You should disable the module.' => 'Este servidor recebeu um cabeçalho HTTP "X-Mod-Pagespeed" ou "X-Page-Speed" nesta solicitação, o que indica que você ativou "mod_pagespeed" neste servidor. Este módulo não é compatível com este software. Você deve desabilitar o módulo.',
       'Customized settings for applications.' => 'Configurações personalizadas para aplicativos.',
-      'Controls whether email for multiple recipients is sent by creating one message with everyone in the "To:" line, or multiple messages that each have a single recipeint in the "To:" line.' => 'Controla se o e-mail para vários destinatários é enviado criando uma mensagem com todos na linha "Para:" ou várias mensagens, cada uma com um único Recipeint na linha "Para:".',
       'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller
     messages.' => 'Você pode desativar os rodapés "Para:" e "Cc:" no e-mail se os usuários preferirem mensagens
      menores.',
