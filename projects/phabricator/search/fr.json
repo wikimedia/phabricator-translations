@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Assorted-Interests",
 			"Derugon",
 			"Eneelk",
 			"JenyxGym",
@@ -200,6 +201,7 @@
 	"7da0ea1cc0590ff0": "Par défaut, seules les informations de base sur les objets sont renvoyées. Si vous voulez\nplus d’informations détaillées, vous pouvez utiliser les « pièces jointes » disponibles pour obtenir plus\nd’informations dans les résultats (comme les abonnés et les projets).\n\nGénéralement, demander plus d’informations signifie que la requête s’exécute plus lentement\net renvoie plus de données (dans certains cas, beaucoup plus de données). Vous ne devriez normalement\ndemander que les données dont vous avez besoin.\n\nPour demander des données supplémentaires, spécifiez les pièces jointes souhaitées dans le\nparamètre `attachments` :\n\n```lang= json, name=\"Exemple de demande de pièces jointes\" \n{\n  ...\n  \"attachments\": {\n    \"subscribers\": true\n  },\n  ...\n}\n```\n\nCet exemple spécifie que les résultats doivent inclure des informations sur les\nabonnés. Dans la valeur de retour, chaque objet aura désormais ces informations \nremplies dans la valeur `attachments` correspondante : \n\n```lang=json, name=\"Example de pièces jointes dans les résultats\"\n{\n  ...\n  \"data\": [\n    {\n      ...\n      \"attachments\": {\n        \"subscribers\": {\n          \"subscriberPHIDs\": [\n            \"PHID-WXYZ-2222\",\n          ],\n          \"subscriberCount\": 1,\n          \"viewerIsSubscribed\": false\n        }\n      },\n      ...\n    },\n    ...\n  ],\n  ...\n}\n```\nLes pièces jointes suivantes sont disponibles :",
 	"7f907fd22dca5199": "Le mot « catastrophe » n’a aucun rapport étymologique avec le mot « chat ».",
 	"7fee42fc8b259e3e": "Modifier l’élément intégré",
+	"806dd800890d46d1": "La valeur de texte pour « $1 » ne peut pas être analysée.",
 	"80c565e16ee8d28d": "Deux extensions de moteur en texte intégral (« $1 » et « $2 ») définissent toutes deux une fonction de recherche portant le même nom (« $3 »). Chaque fonction doit avoir un nom unique.",
 	"811bce84086aa18a": "« $1 » n’est pas le nom d’un objet connu.",
 	"81d85f59e1765821": "Vous devez déléguer à ce contrôleur, pas l’invoquer directement.",

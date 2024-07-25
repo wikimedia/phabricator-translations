@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Joseph"
 		]
 	},
 	"046419b845c2560f": "Standart Renkleri Kullan",
@@ -9,7 +10,7 @@
 	"0815b2ca68359582": "\"$2\" türü bilinmeyen kaynak \"$1\" oluşturulamıyor.",
 	"0a4a18b90fc1e8c9": "Harita yazılıyor \"$1\".",
 	"0ef5ab1cc4ef90ef": "Yüksek Kontrast Renkleri Kullan",
-	"0f1ed7dfb63fc1e2": "Karanlık Mod (Deneysel)",
+	"0f1ed7dfb63fc1e2": "Koyu Kip (Deneysel)",
 	"163ba1a9c26c97b1": "Daha Büyük Yazı Tipi Boyutu Kullan",
 	"1ef1f25b6148dbd2": "$1 ikili kaynak bulundu.",
 	"21cb4dca00942a97": "\"$2\" sembolünde hiçbir kaynak \"$1\" kaynağında mevcut değil!",
