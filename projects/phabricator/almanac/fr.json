@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Crochet.david",
 			"DSwissK",
 			"Gomoko",
 			"JenyxGym",
@@ -216,7 +217,7 @@
 	"8dcac61810f31dbb": "La constante du type de service.",
 	"8f4e502042107a05": "Le nom de propriété « $1 » n’est pas valide. Cette propriété ne peut pas être modifiée.",
 	"9109cec1d70311d8": "Almanac",
-	"911873d915182b53": "La clé publique correspondant à la clé privée donnée n’est pas encore connue de Phabricator. Associer la clé publique avec un appareil Almanac dans l’interface web avant d’inscrire des hôtes avec.",
+	"911873d915182b53": "La clé publique correspondant à la clé privée donnée est inconnue. Associer la clé publique avec un appareil Almanac dans l’interface web avant d’inscrire des hôtes avec.",
 	"9158df7fd82579a1": "Peut gérer des services en grappe",
 	"91783af4d2758450": "Aucune clé publique n’existe avec l’identifiant « $1 ».",
 	"91e6a4f50ffaed9b": "Nom de l’espace de noms.",
@@ -270,7 +271,7 @@
 	"b8c058b96e21fe13": "$1 a renommé ce réseau de « $2 » en « $3 ».",
 	"b8da85717d840060": "$1 a modifié l’interface pour ce couplage de $2 en $3.",
 	"bb6271a9e9f17664": "Tous les espaces de noms",
-	"bc002aad317e4a82": "Définit un service de dépôt à utiliser dans une grappe Phabricator.",
+	"bc002aad317e4a82": "Définit un service de dépôt à utiliser dans une grappe.",
 	"bca35cad89c68fcb": "Le nom de l’appareil.",
 	"bcd8e9ba7edf556f": "La clé publique correspondant à la clé privée fournie est bien associée avec l’appareil, mais n’a pas encore été marquée comme fiable. Faire confiance à cette clé avant d’inscrire des appareils avec.",
 	"bd6ca7516b1c0d4f": "$1 a modifié l’appareil de cette interface de $2 en $3.",
