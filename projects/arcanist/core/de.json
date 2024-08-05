@@ -18,6 +18,7 @@
 			"ThisCarthing",
 			"ToBeFree",
 			"Tobi 406",
+			"TomatoCake",
 			"Umlaut"
 		]
 	},
@@ -62,11 +63,11 @@
 	"04e4ea73341e0956": "Durchsuche URI \"$1\"",
 	"04f12eb0c2204857": "Diese Arbeitskopie enthält Änderungen an '$1'-Pfaden. Diese Änderungen wierden nicht in der Unterschiedsanzeige enthalten sein, weil SVN 'svn:externals' nicht zusammen mit normalen Änderungen commiteten kann.",
 	"0520ab958b98f60e": "Basis-Commit-Regelsatz, der aufgerufen werden soll, wen der Anfang eines Commit-Bereiches herausgefunden werden soll. Siehe \"Arcanist User Guide: Commit Ranges\" für Details.",
-	"052f100722e80042": "$1 ist nicht mit deiner PHP-Version kompatibel ($2). Diese Funktion wird nur von PHP-Versionen unterstützt, die neuer als 5.3.0 sind.",
+	"052f100722e80042": "$1 ist nicht mit deiner PHP-Version ($2) kompatibel. Diese Funktion wird nur von PHP-Versionen unterstützt, die neuer als 5.3.0 sind.",
 	"058e8acd653dd87e": "**Lesezeichen**",
 	"0593c20bb78ea188": "'$1' kann von nirgendwo geladen werden!",
 	"059d9011f031d260": "Laufzeitfehler",
-	"05b83dee51193cec": "Das Argument \"$1\" nimmt keinen Parameter an.",
+	"05b83dee51193cec": "Das Argument „$1“ nimmt keinen Parameter an.",
 	"05eb3c317921a094": "GROSSES ARBEITSPAKET",
 	"0626932d7cb8da9a": "Gebe die Upload-Informationen im JSON-Format aus.",
 	"062b45fc77a9bda9": "LANDUNG",

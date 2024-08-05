@@ -5,6 +5,7 @@
 			"Gomoko",
 			"Graineahumus",
 			"Motla",
+			"Méthodes Bulebe Hangi",
 			"Tektasc",
 			"Thibaut120094",
 			"TomT0m",
@@ -86,6 +87,7 @@
 	"49647ef763c7e49a": "Vous devez sélectionner un panneau valide.",
 	"4988899e8350acb3": "Gérer le portail",
 	"49c48fb005ba20ad": "Utiliser les onglets pour basculer entre plusieurs autres panneaux.",
+	"4b7878ccdd0f048f": "Vous devez vous connecter pour accéder à ce panneau.",
 	"4c6ba26bee60e75b": "Saisissez un nom de portail...",
 	"4d48ea27bb72f942": "Apple Blueberry",
 	"4d6e967870e419b2": "Ajouter aux favoris personnels",
@@ -266,6 +268,7 @@
 	"fb10d962baac8a8e": "Onglet sans nom",
 	"fb12e20253aed17b": "Activer le panneau",
 	"fb88218db7fdd020": "Saisissez un nom de tableau de bord...",
+	"fda3d44b774cbb42": "$1 a mis à jour le texte du message.",
 	"fdb587f6aef9fcaf": "Retirer l’onglet",
 	"fff91637e3e3c883": "Stratégie de création par défaut pour les tableaux de bord."
 }
