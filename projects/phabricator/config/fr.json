@@ -851,6 +851,7 @@
 	"e74c6aa61d3ea934": "AVERTISSEMENT : ceci est une option de prototype et la description ci-dessous est actuellement une pure fantaisie.\n\nBasculer Phabricator en mode de lecture seule. Dans ce mode, les utilisateurs ne pourront ni modifier, ni supprimer aucune donnée, ni en ajouter de nouvelles. Normalement, la grappe passe dans ce mode automatiquement quand elle détecte que le maître de la base de données est inatteignable, mais vous pouvez l’activer manuellement afin d’effectuer de la maintenance ou tester une configuration.",
 	"e77b1d7323c4a938": "Faille de sécurité grave : Bash non patché",
 	"e78a7761a913bbb4": "Forcer HTTPS",
+	"e7b010d51e943b36": "Vous exécutez PHP en version $1. Les versions entre 7.0 et 7.1 ne sont pas prises en charge/\n\nLes fonctionnalités de gestion de signaux nécessaires ont été retirées dans PHP 7.0 et le langage n'a pas restauré de mécanisme équivalent jusqu'à PHP 7.1.",
 	"e83e600d8697e426": "Cette clé n’est pas censé exister.",
 	"e85fac6647247c00": "$1.$2",
 	"e880bd97d80e61c9": "$1.$2.$3",
