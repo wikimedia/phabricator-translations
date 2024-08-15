@@ -3,6 +3,7 @@
 		"authors": [
 			"Justman10000",
 			"Leon95",
+			"Tacsipacsi",
 			"Tobi 406"
 		]
 	},
@@ -22,7 +23,7 @@
 	"7d9171c083b45e5c": "Die Konfiguration des Benachrichtigungsservers beschreibt einen ungültigen Host (\"$1\", bei Index \"$2\") mit einem ungültigen Protokoll (\"$3\"). Gültige Protokolle sind \"$4\" oder \"$5\".",
 	"7f02a61559647c50": "Keine Benachrichtigungen zum Markieren als gelesen.",
 	"8b0d4e583fdf3c6f": "Benachrichtigungsserver ausgefallen",
-	"8f3ba9d089600a85": "Phabricator ist für die Verwendung eines Benachrichtigungsservers konfiguriert, kann sich aber nicht mit ihm verbinden. Du solltest dieses Problem beheben oder den Benachrichtigungsserver deaktivieren. Es kann hilfreich sein, deine Konfiguration zu überprüfen oder den Server mit dem folgenden Befehl neu zu starten.\n\n$1",
+	"8f3ba9d089600a85": "Dieser Server ist für die Verwendung eines Benachrichtigungsservers konfiguriert, kann sich aber nicht mit ihm verbinden. Du solltest dieses Problem beheben oder den Benachrichtigungsserver deaktivieren. Es kann hilfreich sein, deine Konfiguration zu überprüfen oder den Server mit dem folgenden Befehl neu zu starten.\n\n$1",
 	"9079b8d8b6937a45": "Der Client kann nicht auf einem Admin-Server getestet werden!",
 	"91f51c0177b70233": "Die Konfiguration des Benachrichtigungsservers beschreibt einen ungültigen Host (\"$1\", bei Index \"$2\"). Dies ist ein \"Admin\"-Dienst, aber er hat eine \"Pfad\"-Eigenschaft. Diese Eigenschaft ist nur für \"Client\"-Dienste gültig.",
 	"921af3bf3920d823": "Updates und Warnungen in Echtzeit",
@@ -37,7 +38,7 @@
 	"e540ed16437675ca": "Die Konfiguration des Benachrichtigungsservers ist ungültig: Sie beschreibt denselben Host und Port (\"$1\") mehrfach. Jede Host- und Portkombination sollte nur einmal in der Liste erscheinen.",
 	"e5f613432959373a": "Alle als gelesen markiere",
 	"e6fe34ea1c47c080": "Nur ungelesene Benachrichtigungen anzeigen.",
-	"f0846d0cf749155d": "Phabricator ist für die Verwendung eines Benachrichtigungsservers konfiguriert, kann sich aber nicht mit ihm verbinden.",
+	"f0846d0cf749155d": "Dieser Server ist für die Verwendung eines Benachrichtigungsservers konfiguriert, kann sich aber nicht mit ihm verbinden.",
 	"f8af5efb9493e17b": "Die Konfiguration des Benachrichtigungsservers ist nicht gültig: Jeder Eintrag in der Liste muss ein Wörterbuch sein, das einen Dienst beschreibt, der Wert mit dem Index \"$1\" ist jedoch kein Wörterbuch.",
 	"f8c3443911adbd1f": "Die Konfiguration des Benachrichtigungsservers verfügt über eine ungültige Dienstspezifikation (bei Index \"$1\"): $2.",
 	"f9b6f64d81b3eed1": "Du hast keine Benachrichtigungen."

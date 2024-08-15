@@ -3,6 +3,7 @@
 		"authors": [
 			"HajFunk",
 			"Leon95",
+			"Tacsipacsi",
 			"Wolfdietmann"
 		]
 	},
@@ -14,7 +15,7 @@
 	"1e0d38745c10e6eb": "Unbekannte Richtlinien: $1",
 	"51f99735e504752c": "Ändere den Typ auf \"$1.\"",
 	"54e07aad9d8e5b8e": "Ungültig",
-	"5675b2bb3eceb365": "Bei Code-Review blockiert",
+	"5675b2bb3eceb365": "Bei Code-Review blockiert – Benötigt Änderungen",
 	"56e4cd1b87174f82": "Ansichtenwechsel in Gerrit",
 	"57aa236e8a2261d2": "Link zu offenen Aufgaben",
 	"5ff169cf748b49e3": "MediaWiki Instance Name",

@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hanna Tardos"
+			"Hanna Tardos",
+			"Tacsipacsi"
 		]
 	},
 	"021f6fec2f98c532": "Következő: $1",
-	"095071d082bb595e": "Fogyasztói kulcs",
+	"095071d082bb595e": "Fogyasztói token",
 	"0c44559824c1e156": "Összevonva",
 	"181a415a001731a3": "Kapcsolódó hivatkozások",
 	"3ad0e3698278f45b": "Engedélyezés",
 	"429f9802c2088c4c": "MediaWiki",
 	"53577bb5df0ee9b6": "Megtagad",
 	"54e07aad9d8e5b8e": "Érvénytelen",
-	"64f446ed535838cf": "Titkos kulcs",
+	"64f446ed535838cf": "Titkos token",
 	"bb640aa769e1bc55": "MediaWiki felhasználó",
 	"bc7819b34ff87570": "Ismeretlen",
 	"e61eb466f42dbeba": "Nincs engedély",

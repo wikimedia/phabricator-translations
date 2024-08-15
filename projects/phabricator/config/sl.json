@@ -45,6 +45,7 @@
 	"985ea3b57a8fc6f5": "$1 ni najdeno",
 	"9c0d5fe6465e44ef": "»$1« manjka",
 	"aca851b5d634f676": "Napaka povezave",
+	"ae1ef01432946b89": "Temno",
 	"af9657fb1640f1cb": "Phabricator lahko po privzetem označuje nekaj jezikov, z namestitvijo in omogočenjem orodja Pygments (označevalnega orodja tretje osebe) pa lahko dodate označevanje še za številne druge jezike.\n\nZa navodila za namestitev in omogočenje orodja Pygments glejte nastavitveno možnost $1.\n\nČe orodja Pygments ne želite namestiti, lahko to zadevo prezrete.",
 	"b917424a5a56f3cc": "Definirajte gručo Phabricator tako, da zagotovite seznam dovoljenih naslovov gostiteljev, ki so del gruče.\n\nGostitelji na tem seznamu dovoljenih imajo posebna pooblastila. Tem gostiteljem je dovoljeno spreminjati varnostna pravila in napačna konfiguracija tega seznama lahko zmanjša varnost vaše namestitve. Za več informacij glejte **[[ $1 | $2 ]]**.\n\nDoločite seznam blokiranj CIDR, ki na beli seznam dodajajo vse gostitelje v gruči in nobenih dodatnih gostiteljev. Za podrobnosti si oglejte spodnje primere.\n\nKo bodo naslovi gruče definirani, bodo gostitelji Phabricatorja zavrnili tudi zahtevke za vmesnike, ki niso na beli listi.",
 	"baed2ade4d4f4e0c": "Manjka razširitev »zip«",

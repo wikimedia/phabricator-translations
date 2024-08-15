@@ -1,9 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Siebrand"
 		]
 	},
+	"00b7400dccc94de0": "Voor elke handeling die door een gebruiker wordt ondernomen, registreert phabricator een of meer transacties. Het type transactie weerspiegelt welke actie is ondernomen. Wanneer Antivandalism reageert op gebruikersactiviteit, wordt aan elke transactie een basisscore toegekend en worden de scores vervolgens bij elkaar opgeteld en vermenigvuldigd met een factor op basis van de frequentie van de activiteit die de gebruiker heeft gegenereerd. Sneller bewerken levert een grotere multiplier op. De uiteindelijke score wordt vergeleken met de waarde in **antivandalism.max-score**. Als de score te hoog is, wordt het account ofwel afgemeld bij alle sessies of uitgeschakeld. Om scores aan te passen, moet u een json-geformatteerde map van transactietypesleutels met drijvende-kommawaarden opgeven. Voor de meeste doeleinden moeten waarden tussen 0,0 en 1,0 liggen voor alle transactietypen.",
+	"09858ae94db095dc": "Anti-vandalisme",
+	"0f14b2b49300d680": "bereken de score voor bepaalde transacties.",
 	"13b79979748bc524": "Vandalisme gedetecteerd",
-	"34341b9c44b90404": "Geen vandalisme gedetecteerd."
+	"32b9e4245f21e239": "De gebruikersnaam voor wie transacties worden teruggedraaid.",
+	"34341b9c44b90404": "Geen vandalisme gedetecteerd.",
+	"3e3256409c23cb9f": "De periode waarin de bewerkingen van een gebruiker worden beoordeeld.",
+	"43d2887d271d42fe": "Pas de basisscores voor elk transactietype aan",
+	"57688ae6dc82ea98": "Zet het vandalenaccount in quarantaine.",
+	"6c5c90c9a588b819": "Het aantal taken dat een nieuwe gebruiker kan bewerken alvorens te reageren.",
+	"75192b8a0064c97a": "U moet --user of --user-phid opgeven",
+	"762ca6690cc5f6e9": "Opties voor het afstellen van het antivandalismefilter.",
+	"9d27f0e6eb15e9ee": "Schakel de accounts van vandalen uit wanneer deze limieten worden overschreden",
+	"ae921fb953da171b": "De opgegeven gebruikersnaam / userPHID is niet gevonden",
+	"c87f0b0117f8b84f": "Vandaalaccounts uitschakelen.",
+	"c8e32e0e61bd8e64": "De gebruikersnaam voor wie transacties worden gescoord.",
+	"c918ee254f7290e8": "$1 heeft vandalismebestrijding geactiveerd ($2) door $3 te bewerken.",
+	"f34ac77f7e82d8ff": "Geen handeling",
+	"faa0b89058a6fbd0": "Scannen op vandalisme"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tacsipacsi",
 			"Tothasze"
 		]
 	},
@@ -23,6 +24,6 @@
 	"aeeba730751ee3d0": "Ismeretlen esemény: $1",
 	"c2c604447f0ec813": "Nem lehet elemezni",
 	"c5497bca58468ae6": "Események",
-	"c6dbfd5cd23d54d0": "Információk Phabricator eseményekről és az eseményt hallgatókról.",
+	"c6dbfd5cd23d54d0": "Információk eseményekről és eseményhallgatókról.",
 	"d41d0e4903685471": "Nincsenek táblák"
 }

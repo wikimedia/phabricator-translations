@@ -3,6 +3,7 @@
 		"authors": [
 			"Justman10000",
 			"TMg",
+			"Tacsipacsi",
 			"Tobi 406",
 			"Umlaut"
 		]
@@ -11,10 +12,10 @@
 	"0146637b5690e538": "Spalte/Schlüssel",
 	"02e8104f1f15520d": "$1 / $2",
 	"0424f6e7026fa4bc": "Tabelle",
-	"0433632f1024e44d": "Phabricator wählt jetzt automatisch die beste verfügbare MySQL-Implementierung aus.",
-	"06743d7f00acb9ae": "Phabricator ist nicht im Cluster-Modus konfiguriert.",
+	"0433632f1024e44d": "Die beste verfügbare MySQL-Implementierung wird jetzt automatisch ausgewählt.",
+	"06743d7f00acb9ae": "Dieser Server ist nicht im Cluster-Modus konfiguriert.",
 	"0da81f052ad46d4f": "$1 löschte $2 (erneut?).",
-	"0dd9f6545e57a059": "Sollte Phabricator Pygments verwenden, um Code hervorzuheben?",
+	"0dd9f6545e57a059": "Sollte Pygments verwendet werden, um Code hervorzuheben?",
 	"0fe7d82f25a30150": "Kurz",
 	"0ff69342bb44a283": "Speicher für große Dateien nicht konfiguriert",
 	"10b28a8c1e445017": "Voll",
@@ -85,7 +86,7 @@
 	"747b7d4401fa730f": "Einstellungsverlauf",
 	"74d23243f911dfb2": "Opcode",
 	"7541c28d058703f2": "Recaptcha aktivieren",
-	"75edc148465db044": "Sie können den Suchindex neu erstellen, während Phabricator ausgeführt wird.",
+	"75edc148465db044": "Du kannst den Suchindex neu erstellen, während der Server ausgeführt wird.",
 	"765b946b0057f3ae": "PHP-Dokumentation",
 	"778e672da8380f4d": "PHP OPcache-Dokumentation",
 	"77fb474df4497fbf": "Cluster: Datenbanken",
@@ -104,7 +105,7 @@
 	"85005beb5f9f6084": "Cache wirklich leeren?",
 	"8851142da56fd885": "Konfiguration",
 	"89146d51b27513ca": "Aufbewahrungsrichtlinie",
-	"8a5de78655f6f8f1": "Ohne ' $1 ' kann Phabricator die Verfügbarkeit anderer Binärdateien nicht testen.",
+	"8a5de78655f6f8f1": "Ohne „$1“ kann diese Software die Verfügbarkeit anderer Binärdateien nicht testen.",
 	"8bbfc05a18904c4a": "Datenbankwert",
 	"8d00bea90948c29b": "Suchindex neu aufbauen",
 	"8e3dd7b540621328": "Partition: $1",
@@ -143,7 +144,7 @@
 	"ae34cf673f12eee1": "GZip-Komprimierung ist möglicherweise nicht aktiviert",
 	"aea3def365e1a2e2": "Zurück zur Liste der offenen Probleme",
 	"af8acae468aa6f85": "Führen Sie diesen Befehl aus, um den Index neu zu erstellen:",
-	"af9657fb1640f1cb": "Phabricator kann standardmäßig einige Sprachen hervorheben, aber das Installieren und Aktivieren von Pygments (einem Hervorhebungstool eines Drittanbieters) fügt Syntaxhervorhebung für viele weitere Sprachen hinzu. \n\nAnweisungen zum Installieren und Aktivieren von Pygments finden Sie in der $1 .\n\nWenn Sie Pygments nicht installieren möchten, können Sie dieses Problem ignorieren.",
+	"af9657fb1640f1cb": "Diese Software kann standardmäßig einige Sprachen hervorheben, aber das Installieren und Aktivieren von Pygments (ein Hervorhebungstool eines Drittanbieters) fügt Syntaxhervorhebung für viele weitere Sprachen hinzu.\n\nAnweisungen zum Installieren und Aktivieren von Pygments findest du bei der Konfigurationsoption $1.\n\nWenn du Pygments nicht installieren möchtest, kannst du dieses Problem ignorieren.",
 	"afc542d9c0774bb6": "Recaptcha deaktivieren",
 	"b02295e3b4dabd10": "'$1' Binärdatei wurde nicht gefunden oder Imagemagick ist nicht installiert.",
 	"b0cc639ee1eec4e1": "Unsichere MySQL-Einstellung \"local_infile\" aktiviert",
@@ -204,7 +205,7 @@
 	"f012eb9fc9a96834": "HTTP-Parametertypen",
 	"f1b745c5c664a08a": "Unterschemata weisen Setup-Fehler auf.",
 	"f42ebadef9811c77": "\"$1\" anzeigen",
-	"f6ab31476cfe47f6": "WARNUNG: Dies ist eine sehr erweiterte Option und nur nützlich für Hostinganbieter, die Cluster mit mehreren Mandanten ausführen.\n\nWenn Sie hier einen Instanzbezeichner angeben (normalerweise durch Injizieren mit einem '$1'), übergibt Phabricator ihn an Unterprozesse und commit Hooks in der '$2' Umgebungsvariable.",
+	"f6ab31476cfe47f6": "WARNUNG: Dies ist eine sehr erweiterte Option und nur nützlich für Hostinganbieter, die Cluster mit mehreren Mandanten ausführen.\n\nWenn du hier einen Instanzbezeichner angibst (normalerweise durch Injizieren mit einem `$1`), übergibt der Server ihn an Unterprozesse und commit Hooks in der Umgebungsvariable `$2`.",
 	"f86b969bb9831a26": "MySQL-Schema aktualisieren",
 	"fd5da5edf408a871": "Fehler bei der Einrichtung"
 }
