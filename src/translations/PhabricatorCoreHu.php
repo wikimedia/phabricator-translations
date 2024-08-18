@@ -25,7 +25,7 @@ final class PhabricatorCoreHu
       '%s updated the description.' => '%s frissítette a leírást.',
       'Subtype' => 'Altípus',
       'Settings' => 'Beállítások',
-      'Assigned To' => 'Fefelős',
+      'Assigned To' => 'Felelős',
       'Edit Related Commits' => 'Kapcsolódó commitok szerkesztése',
       'Subtypes' => 'Altípusok',
       'Edit Related Revisions' => 'Kapcsolódó változatok szerkesztése',

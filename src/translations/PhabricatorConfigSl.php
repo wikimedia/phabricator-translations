@@ -70,6 +70,7 @@ final class PhabricatorConfigSl
       '%s Not Found' => '%s ni najdeno',
       '\'%s\' Missing' => '»%s« manjka',
       'Connection Error' => 'Napaka povezave',
+      'Dark' => 'Temno',
       'This software can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. 
     For instructions on installing and enabling Pygments, see the %s configuration option.
     If you do not want to install Pygments, you can ignore this issue.' => 'Phabricator lahko po privzetem označuje nekaj jezikov, z namestitvijo in omogočenjem orodja Pygments (označevalnega orodja tretje osebe) pa lahko dodate označevanje še za številne druge jezike.

@@ -39,6 +39,7 @@ final class PhabricatorTransactionsJa
       'Show Only Edit Forms' => '編集フォームのみを表示',
       'Edit Form: %s' => '編集フォーム: %s',
       '%s moved this task from %s to %s on the %s board.' => '%s がこのタスクを %4$s ボードの %2$s から %3$s に移動しました。',
+      '(Show Details)' => '(詳細を表示)',
       '%s edited this %s.' => '%s がこの %s を編集しました。',
       'Apply remaining actions?' => '残りのアクションを適用しますか？',
       'Use Form' => 'フォームを使用',

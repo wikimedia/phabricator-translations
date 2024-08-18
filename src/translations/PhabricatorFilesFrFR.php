@@ -120,6 +120,8 @@ final class PhabricatorFilesFrFR
       'File is not an uploaded file.' => 'Le fichier n’est pas un fichier téléversé.',
       'Not Actually Edible' => 'Pas comestible actuellement',
       'Request to "%s" failed: %s' => 'La requête à « %s » a échoué : %s',
+      'Unable to convert from requested encoding %s to UTF8.' => 'Impossible de convertir de la codage demandé %s à UTF8.',
+      'The first argument must be a phid of a file.' => 'Le premier argument doit être un fichier.',
       'View as Source' => 'Voir la source',
       'Files (TTL)' => 'Fichiers (TTL)',
       'File size, in bytes.' => 'Taille du fichier, en octets.',

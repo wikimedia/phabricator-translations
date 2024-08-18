@@ -513,6 +513,7 @@ final class PhabricatorProjectFrFR
       'Depths' => 'Profondeurs',
       'Default Join Policy' => 'Politique de participation par défaut',
       'For subprojects and milestones, depth of this project in the tree. Root projects have depth 0.' => 'Pour les sous-projets et jalons, la profondeur de ce projet dans l’arbre. Les projets racines ont une profondeur à 0.',
+      'Coin' => 'Pièce d\'argent',
       'This project will become active again.' => 'Ce projet redeviendra actif.',
       'Two different colors ("%s", "%s") are marked as the default color. Only one color may be marked as the default.' => 'Deux couleurs différentes (« %s », « %s ») sont marquées comme couleur par défaut. Une seule couleur peut être marquée comme par défaut.',
       'Project members can take this action.' => 'Les membres du projet peuvent effectuer cette action.',
@@ -668,6 +669,12 @@ final class PhabricatorProjectFrFR
       'Remove %s as a watcher of %s?' => 'Supprimer %s en tant qu\'observateur de %s ?',
       '%s changed the background color of the project workboard.' => '%s a changé la couleur de fond du tableau de bord du projet.',
       'Expected "newSortVectorsForObjects()" on "%s" to return a map of vectors, but got "%s".' => 'Attendait que « newSortVectorsForObjects() » sur « %s » renvoie une correspondance de vecteurs de tri, mais « %s » a été obtenu.',
+      'List of custom fields for project tags.
+    For details on adding new fields, see [[ %s | %s ]] in the
+    documentation.' => 'Liste des champs personnalisés pour les étiquettes de projet
+    .
+    Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la
+    documentation.',
       'Workboard: %s' => 'Tableau de bord : %s',
       'Tasks completed this %s: %d' => 'Tâches terminées ce %s : %s',
       'This project does not have any members.' => 'Ce projet ne comprend aucun membre.',

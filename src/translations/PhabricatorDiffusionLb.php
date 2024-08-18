@@ -15,6 +15,7 @@ final class PhabricatorDiffusionLb
       'Identities' => 'Identitéiten',
       'Limits' => 'Limitten',
       'Changes' => 'Ännerungen',
+      'External' => 'Extern',
       'Integrations' => 'Integratiounen',
       'Edit Symbols' => 'Symboler änneren',
       'Enormous Changes' => 'Grouss Ännerungen',

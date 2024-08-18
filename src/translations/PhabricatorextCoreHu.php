@@ -10,14 +10,14 @@ final class PhabricatorextCoreHu
   protected function getTranslations() {
     return array(
       'Next: %s' => 'Következő: %s',
-      'Consumer Token' => 'Fogyasztói kulcs',
+      'Consumer Token' => 'Fogyasztói token',
       'Merged' => 'Összevonva',
       'Related Links' => 'Kapcsolódó hivatkozások',
       'Allow' => 'Engedélyezés',
       'MediaWiki' => 'MediaWiki',
       'Deny' => 'Megtagad',
       'Invalid' => 'Érvénytelen',
-      'Secret Token' => 'Titkos kulcs',
+      'Secret Token' => 'Titkos token',
       'MediaWiki User' => 'MediaWiki felhasználó',
       'Unknown' => 'Ismeretlen',
       'No Permission' => 'Nincs engedély',

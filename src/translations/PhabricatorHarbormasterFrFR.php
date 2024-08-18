@@ -282,6 +282,7 @@ final class PhabricatorHarbormasterFrFR
       'Started Before' => 'Commencé avant',
       'The URI to store.' => 'L’URI à stocker.',
       'Type a build plan name...' => 'Saisissez un nom de plan de construction...',
+      'Test' => 'Test',
       'Harbormaster Build %s ("%s") for %s' => 'Construction Harbormaster %s (« %s ») pour %s',
       'Delete Build Step' => 'Supprimer une étape de construction',
       'Step %d.%d' => 'Étape %s.%s',

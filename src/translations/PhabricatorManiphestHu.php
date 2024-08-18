@@ -180,7 +180,7 @@ final class PhabricatorManiphestHu
       'The source object has the destination object as a parent.' => 'A forrásobjektumnak szülője a célobjektum.',
       'Maniphest Task' => 'Maniphest feladat',
       'List of parent task PHIDs.' => 'A szülőfeladatok PHID-jinak listája.',
-      'Assign to' => 'Fefelős',
+      'Assign to' => 'Felelős',
       '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' => '%s szerkesztette %3$s %2$s változatát, hozzáadva %s: %s; eltávolítva %s: %s.',
       'The owner of a task can always view and edit it.' => 'A feladat tulajdonosa mindig megtekintheti és szerkesztheti azt.',
       '%s added %s parent task(s) for %s: %s.' => '%s hozzáadott %s szülőfeladatot a(z) %s feladathoz: %s.',

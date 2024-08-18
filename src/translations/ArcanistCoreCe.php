@@ -16,7 +16,7 @@ final class ArcanistCoreCe
       'Portuguese (Portugal)' => 'Portuguese (Португалхойн)',
       'File Symbol "%s"' => 'Файлан билгало «%s»',
       'CC: %s' => 'CC: %s',
-      'No match found. Try `%s %s` to search for a linter.' => 'Хӏумма а ца карийна. Лелайе `%s %s`, линтер карорхьама.',
+      'No match found. Try `%s %s` to search for a linter.' => 'ХӀумма а ца карийна. Лелайе `%s %s`, линтер карорхьама.',
       'English (Pirate)' => 'English (Pirate)',
       'Pick' => 'Катоха',
       'Runtime Error' => 'Кхочушдеш гӀалат даьлла',

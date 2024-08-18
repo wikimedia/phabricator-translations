@@ -506,6 +506,15 @@ final class PhabricatorConfigFrFR
       'Setup Issues' => 'Problèmes d’installation',
       'Require email verification' => 'Nécessite une vérification de courriel',
       'Resource minification is now managed automatically.' => 'La minimisation des ressources est maintenant gérée automatiquement.',
+      'This software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
+    Note that you can also put binaries in `%s` (for example, by symlinking them).
+    The current value of PATH after configuration is applied is:
+      lang=text
+      %s' => 'Phabricator lance occasionnellement d’autres binaires sur le serveur. Un exemple en est la commande « %s », utilisée pour mettre en évidence le code écrit dans d’autres langages que PHP. Par défaut, il est supposé que ces binaires sont dans le %s de l’utilisateur exécutant Phabricator (normalement « apache », « httpd », ou « nobody »). Vous pouvez ajouter ici des répertoires supplémentaires à la variable d’environnement %s, pour le cas où ces binaires sont dans des emplacements non standards.
+    Notez que vous pouvez aussi mettre des binaires dans « %s » (par exemple, en faisant un lien symbolique vers eux).
+    La valeur actuelle de « PATH » après application de la configuration est :
+      lang=text
+      %s',
       'Whitespace rendering is now handled automatically.' => 'Le rendu des espaces est maintenant géré automatiquement.',
       '%s Not Working' => '%s ne fonctionne pas',
       'This configuration option is unknown. It may be misspelled, or have existed in a previous version of the software.' => 'Cette option de configuration est inconnue. Elle est peut-être mal écrite, et a existé dans une version précédente de Phabricator.',
@@ -1135,6 +1144,10 @@ final class PhabricatorConfigFrFR
     Basculer Phabricator en mode de lecture seule. Dans ce mode, les utilisateurs ne pourront ni modifier, ni supprimer aucune donnée, ni en ajouter de nouvelles. Normalement, la grappe passe dans ce mode automatiquement quand elle détecte que le maître de la base de données est inatteignable, mais vous pouvez l’activer manuellement afin d’effectuer de la maintenance ou tester une configuration.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Faille de sécurité grave : Bash non patché',
       'Force HTTPS' => 'Forcer HTTPS',
+      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
+    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
+    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'Vous exécutez PHP en version %s. Les versions entre 7.0 et 7.1 ne sont pas prises en charge/
+    Les fonctionnalités de gestion de signaux nécessaires ont été retirées dans PHP 7.0 et le langage n\'a pas restauré de mécanisme équivalent jusqu\'à PHP 7.1.',
       'This key is not expected to exist.' => 'Cette clé n’est pas censé exister.',
       '%s.%s' => '%s.%s',
       '%s.%s.%s' => '%s.%s.%s',

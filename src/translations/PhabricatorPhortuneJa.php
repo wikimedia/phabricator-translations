@@ -17,6 +17,7 @@ final class PhabricatorPhortuneJa
       'Mode is required.' => 'モードは必須です。',
       'Switch Accounts' => 'アカウントを切り替える',
       'Current Logo' => '現在のロゴ',
+      'UNSUBSCRIBE' => '購読解除',
     );
   }
 

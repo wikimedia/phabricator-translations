@@ -25,7 +25,7 @@ final class PhabricatorAuthFrFR
       'Algorithm' => 'Algorithme',
       'You must specify the username of the account to recover.' => 'Vous devez spécifier le nom d’utilisateur du compte à récupérer.',
       'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'La configuration du fournisseur d’authentification est verrouillée, et ne peut pas être modifiée sans être déverrouillée. Voir le paramètre de configuration %s pour les détails.',
-      'Server name must contain only lowercase letters, digits, and periods.' => 'Le nom de l’instance Phabricator ne doit contenir que des lettres minuscules, des chiffres et des points.',
+      'Server name must contain only lowercase letters, digits, and periods.' => 'Le nom du serveur ne doit contenir que des lettres minuscules, des chiffres et des points.',
       'Revoke Tokens' => 'Révoquer des jetons',
       'There are too many configured default registration providers.' => 'Il y a trop de fournisseurs d’abonnement par défaut configurés.',
       'Unlink "%s" Account?' => 'Détacher le compte « %s » ?',
@@ -47,7 +47,7 @@ final class PhabricatorAuthFrFR
     Cliquez sur **Ajouter un consommateur** et créez une nouvelle application.
     Après avoir achevé la configuration, copiez la **Clé** et le **Secret** dans les champs ci-dessus.',
       'The account you are attempting to register or link is already linked to another user.' => 'Le compte que vous tentez d’enregistrer ou de lier est déjà lié à un autre utilisateur.',
-      'Base URI should include protocol (like "%s").' => 'L’URI de base de Phabricator doit inclure le protocole (tel que « %s »).',
+      'Base URI should include protocol (like "%s").' => 'L’URI de base doit inclure le protocole (tel que « %s »).',
       'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Vérifier une l’adresse de messagerie non vérifiée qui est déjà attachée à un compte. Cela réexécutera également les crochets d’événements pour les adresses déjà vérifiées.',
       'Must Verify Email' => 'Exiger la vérification d’adresse de courriel',
       'Expected "newResultForPrompt()" to return an object of class "%s", but it returned something else ("%s"; in "%s").' => '« newResultForPrompt() » est supposé renvoyer un objet de classe « %s », mais il a renvoyé quelque chose d’autre (« %s » ; dans « %s »).',
