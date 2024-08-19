@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Ajeje Brazorf",
 			"Alno",
 			"Derugon",
@@ -128,7 +129,7 @@
 	"3d3ed1790f2831bd": "Pas comestible actuellement",
 	"4070baf84aff4796": "La requête à « $1 » a échoué : $2",
 	"40a44e486f53448b": "Impossible de convertir de la codage demandé $1 à UTF8.",
-	"4138116715860aa3": "Le premier argument doit être un fichier.",
+	"4138116715860aa3": "Le premier argument doit être un phid d'un fichier.",
 	"4214d495a6dfa047": "Voir la source",
 	"43e31ef4dd6b68e2": "Fichiers (TTL)",
 	"445759d389c9c5e7": "Taille du fichier, en octets.",

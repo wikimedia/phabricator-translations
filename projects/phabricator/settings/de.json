@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Brettchenweber",
 			"FF-11",
 			"FF11",
 			"KimKelting",
@@ -25,7 +26,7 @@
 	"1e44025ca823c934": "E-Mail Benachrichtigungen aktivieren",
 	"20db1ed52e4bef4d": "Bearbeite globale Einstellungen für alle Benutzer.",
 	"22de712b363a08cc": "Zeitzone anpassen",
-	"251d63f759a35fd3": "Wenn du **E-Mail-Benachrichtigungen** deaktivierst, wird dieser Server niemals eine E-Mail senden, um dich über Ereignisse zu informieren. Diese Einstellung überschreibt all deine anderen Einstellungen weiter unten.\n\n//Du erhältst weiterhin administrative Mails, wie z.B. eine Mail zum Passwort zurücksetzten.//",
+	"251d63f759a35fd3": "Wenn du **E-Mail-Benachrichtigungen** deaktivierst, wird dieser Server niemals eine E-Mail senden, um dich über Ereignisse zu informieren. Diese Einstellung überschreibt all deine anderen Einstellungen weiter unten.\n\n//Du erhältst weiterhin administrative Mails, wie z. B. eine Mail, um dein Passwort zurückzusetzten.//",
 	"2785923283c90225": "$1 hat ihr Profil aktualisiert",
 	"2bcbafa80faeb97b": "Extra Einstellungen",
 	"2d3730312665bf0e": "Mail für Eigene Aktionen aktivieren",

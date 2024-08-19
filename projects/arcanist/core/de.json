@@ -3,6 +3,7 @@
 		"authors": [
 			"0x3C33",
 			"Abcdefg",
+			"Brettchenweber",
 			"DraconicDark",
 			"FF-11",
 			"Felix3qH4",
@@ -130,7 +131,7 @@
 	"0e5727c453328a72": "Nicht festgeschriebene Änderungen aus der Arbeitskopie gespeichert.",
 	"0e683d0c1771359f": "Stumm",
 	"0e7b225c7b45b09d": "Der Patch $1 '$2' zu '$3', aber der Quellpfad existiert nicht in der Arbeitskopie. Dennoch fortfahren?",
-	"0e821d26fae79fa7": "Der URI eines Servers, zu dem standardmäßig verbunden werden soll, wenn $1 in einem Projekt ohne konfiguriertem URI oder außerhalb eines Projektes ausgeführt wird.",
+	"0e821d26fae79fa7": "Der URI eines Servers, zu dem standardmäßig verbunden werden soll, wenn $1 in einem Projekt ohne konfigurierten URI oder außerhalb eines Projektes ausgeführt wird.",
 	"0eb61a444299fee9": "Laden der Bibliothek von \"$1\"...",
 	"0efde177bbe7affc": "Duplikat-Fall in einer Switch-Verzweigung. PHP wird alle außer dem ersten Fall ignorieren.",
 	"0f0dc058071e4310": "Die Version konnte in der Arbeitskopie nicht identifiziert werden. Benutze '$1', um eine Version auszuwählen.",
