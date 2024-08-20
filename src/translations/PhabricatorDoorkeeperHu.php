@@ -32,7 +32,7 @@ final class PhabricatorDoorkeeperHu
       'Failed to load external object after collision.' => 'Nem sikerült a külső objektum betöltése az ütközés után.',
       'GitHub User %s' => 'GitHub felhasználó %s',
       'Workspace Name' => 'Munkaterület neve',
-      'This software is running in silent mode.' => 'A Phabricator csendes üzemmódban fut.',
+      'This software is running in silent mode.' => 'Ez a szoftver csendes üzemmódban fut.',
       'Optional Asana projects to use as application tags.' => 'Opcionális Asana projektek használata alkalmazáscímkeként.',
       'No users to act on linked JIRA objects.' => 'Nincsenek felhasználók, akik a kapcsolt JIRA objektumokon tevékenykedhetnek.',
     );

@@ -17,7 +17,7 @@ final class PhabricatorextCoreDeDE
       'Unknown policies: %s' => 'Unbekannte Richtlinien: %s',
       'Change type to "%s."' => 'Ändere den Typ auf "%s."',
       'Invalid' => 'Ungültig',
-      'Blocked on Code Review - Needs Changes' => 'Bei Code-Review blockiert',
+      'Blocked on Code Review - Needs Changes' => 'Bei Code-Review blockiert – Benötigt Änderungen',
       'View Change in Gerrit' => 'Ansichtenwechsel in Gerrit',
       'Link to Open Tasks' => 'Link zu offenen Aufgaben',
       'MediaWiki Instance Name' => 'MediaWiki Instance Name',

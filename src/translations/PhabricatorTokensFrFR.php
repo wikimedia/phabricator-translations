@@ -53,6 +53,7 @@ final class PhabricatorTokensFrFR
       'Baby Tequila' => 'Baby de Tequila',
       'No such token "%s"!' => 'Pas de tel jeton « %s » !',
       'The name of the token.' => 'Le nom du jeton.',
+      'Blobhaj' => 'Blobhaj',
       'Fox' => 'Renard',
       'Tokens: %s' => 'Jetons : %s',
       'Cookie' => 'Biscuit',

@@ -28,7 +28,7 @@ final class PhabricatorConsoleHu
       'Unknown event: %s' => 'Ismeretlen esemény: %s',
       'Can\'t Analyze' => 'Nem lehet elemezni',
       'Events' => 'Események',
-      'Information about events and event listeners.' => 'Információk Phabricator eseményekről és az eseményt hallgatókról.',
+      'Information about events and event listeners.' => 'Információk eseményekről és eseményhallgatókról.',
       'No Tables' => 'Nincsenek táblák',
     );
   }

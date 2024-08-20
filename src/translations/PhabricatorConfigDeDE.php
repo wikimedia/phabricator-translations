@@ -13,10 +13,10 @@ final class PhabricatorConfigDeDE
       'Column/Key' => 'Spalte/Schlüssel',
       '%s / %s' => '%s / %s',
       'Table' => 'Tabelle',
-      'The best available MYSQL implementation is now selected automatically.' => 'Phabricator wählt jetzt automatisch die beste verfügbare MySQL-Implementierung aus.',
-      'This server is not configured in cluster mode.' => 'Phabricator ist nicht im Cluster-Modus konfiguriert.',
+      'The best available MYSQL implementation is now selected automatically.' => 'Die beste verfügbare MySQL-Implementierung wird jetzt automatisch ausgewählt.',
+      'This server is not configured in cluster mode.' => 'Dieser Server ist nicht im Cluster-Modus konfiguriert.',
       '%s deleted %s (again?).' => '%s löschte %s (erneut?).',
-      'Use Pygments to highlight code?' => 'Sollte Phabricator Pygments verwenden, um Code hervorzuheben?',
+      'Use Pygments to highlight code?' => 'Sollte Pygments verwendet werden, um Code hervorzuheben?',
       'Short' => 'Kurz',
       'Large File Storage Not Configured' => 'Speicher für große Dateien nicht konfiguriert',
       'Full' => 'Voll',
@@ -91,7 +91,7 @@ final class PhabricatorConfigDeDE
       'Settings History' => 'Einstellungsverlauf',
       'Opcode' => 'Opcode',
       'Enable Recaptcha' => 'Recaptcha aktivieren',
-      'You can rebuild the search index while the server is running.' => 'Sie können den Suchindex neu erstellen, während Phabricator ausgeführt wird.',
+      'You can rebuild the search index while the server is running.' => 'Du kannst den Suchindex neu erstellen, während der Server ausgeführt wird.',
       'PHP Documentation' => 'PHP-Dokumentation',
       'PHP OPcache Documentation' => 'PHP OPcache-Dokumentation',
       'Cluster: Databases' => 'Cluster: Datenbanken',
@@ -110,7 +110,7 @@ final class PhabricatorConfigDeDE
       'Really Clear Cache' => 'Cache wirklich leeren?',
       'Config' => 'Konfiguration',
       'Retention Policy' => 'Aufbewahrungsrichtlinie',
-      'Without \'%s\', this software can not test for the availability of other binaries.' => 'Ohne \' %s \' kann Phabricator die Verfügbarkeit anderer Binärdateien nicht testen.',
+      'Without \'%s\', this software can not test for the availability of other binaries.' => 'Ohne „%s“ kann diese Software die Verfügbarkeit anderer Binärdateien nicht testen.',
       'Database Value' => 'Datenbankwert',
       'Rebuild Search Index' => 'Suchindex neu aufbauen',
       'Partition: %s' => 'Partition: %s',
@@ -151,9 +151,9 @@ final class PhabricatorConfigDeDE
       'To rebuild the index, run this command:' => 'Führen Sie diesen Befehl aus, um den Index neu zu erstellen:',
       'This software can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. 
     For instructions on installing and enabling Pygments, see the %s configuration option.
-    If you do not want to install Pygments, you can ignore this issue.' => 'Phabricator kann standardmäßig einige Sprachen hervorheben, aber das Installieren und Aktivieren von Pygments (einem Hervorhebungstool eines Drittanbieters) fügt Syntaxhervorhebung für viele weitere Sprachen hinzu. 
-    Anweisungen zum Installieren und Aktivieren von Pygments finden Sie in der %s .
-    Wenn Sie Pygments nicht installieren möchten, können Sie dieses Problem ignorieren.',
+    If you do not want to install Pygments, you can ignore this issue.' => 'Diese Software kann standardmäßig einige Sprachen hervorheben, aber das Installieren und Aktivieren von Pygments (ein Hervorhebungstool eines Drittanbieters) fügt Syntaxhervorhebung für viele weitere Sprachen hinzu.
+    Anweisungen zum Installieren und Aktivieren von Pygments findest du bei der Konfigurationsoption %s.
+    Wenn du Pygments nicht installieren möchtest, kannst du dieses Problem ignorieren.',
       'Disable Recaptcha' => 'Recaptcha deaktivieren',
       '\'%s\' binary not found or Imagemagick is not installed.' => '\'%s\' Binärdatei wurde nicht gefunden oder Imagemagick ist nicht installiert.',
       'Unsafe MySQL "local_infile" Setting Enabled' => 'Unsichere MySQL-Einstellung "local_infile" aktiviert',
@@ -216,7 +216,7 @@ final class PhabricatorConfigDeDE
       'View "%s"' => '"%s" anzeigen',
       'WARNING: This is a very advanced option, and only useful for hosting providers running multi-tenant clusters.
     If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'WARNUNG: Dies ist eine sehr erweiterte Option und nur nützlich für Hostinganbieter, die Cluster mit mehreren Mandanten ausführen.
-    Wenn Sie hier einen Instanzbezeichner angeben (normalerweise durch Injizieren mit einem \'%s\'), übergibt Phabricator ihn an Unterprozesse und commit Hooks in der \'%s\' Umgebungsvariable.',
+    Wenn du hier einen Instanzbezeichner angibst (normalerweise durch Injizieren mit einem `%s`), übergibt der Server ihn an Unterprozesse und commit Hooks in der Umgebungsvariable `%s`.',
       'Upgrade MySQL Schema' => 'MySQL-Schema aktualisieren',
       'Setup Error' => 'Fehler bei der Einrichtung',
     );

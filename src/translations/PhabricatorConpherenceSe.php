@@ -10,6 +10,7 @@ final class PhabricatorConpherenceSe
   protected function getTranslations() {
     return array(
       'Send a message...' => 'Sádde dieđu...',
+      'Send' => 'Sádde',
       'Hide Window' => 'Čiega láse',
     );
   }

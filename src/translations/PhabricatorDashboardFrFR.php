@@ -82,6 +82,7 @@ final class PhabricatorDashboardFrFR
       'You must select a valid panel.' => 'Vous devez sélectionner un panneau valide.',
       'Manage Portal' => 'Gérer le portail',
       'Use tabs to switch between several other panels.' => 'Utiliser les onglets pour basculer entre plusieurs autres panneaux.',
+      'You must log in to access this panel.' => 'Vous devez vous connecter pour accéder à ce panneau.',
       'Type a portal name...' => 'Saisissez un nom de portail...',
       'Apple Blueberry' => 'Apple Blueberry',
       'Add to Personal Favorites' => 'Ajouter aux favoris personnels',
@@ -262,6 +263,7 @@ final class PhabricatorDashboardFrFR
       'Unnamed Tab' => 'Onglet sans nom',
       'Activate Panel' => 'Activer le panneau',
       'Type a dashboard name...' => 'Saisissez un nom de tableau de bord...',
+      '%s updated the panel text.' => '%s a mis à jour le texte du message.',
       'Remove Tab' => 'Retirer l’onglet',
       'Default create policy for Dashboards.' => 'Stratégie de création par défaut pour les tableaux de bord.',
     );

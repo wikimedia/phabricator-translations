@@ -97,7 +97,7 @@ final class PhabricatorCoreIt
       'PHP' => 'PHP',
       'Identity' => 'Identità',
       'Error' => 'Errore',
-      'Default' => 'Predifinto',
+      'Default' => 'Predefinito',
       'Email' => 'Email',
       'Username' => 'Nome utente',
       'Language' => 'Lingua',

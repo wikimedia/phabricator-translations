@@ -426,6 +426,7 @@ final class PhabricatorSearchFrFR
     Les pièces jointes suivantes sont disponibles :',
       'The word "catastrophe" has no etymological relationship to the word "cat".' => 'Le mot « catastrophe » n’a aucun rapport étymologique avec le mot « chat ».',
       'Edit Builtin Item' => 'Modifier l’élément intégré',
+      'Text value for "%s" can not be parsed.' => 'La valeur de texte pour « %s » ne peut pas être analysée.',
       'Two different fulltext engine extensions ("%s" and "%s") both define a search function with the same name ("%s"). Each function must have a unique name.' => 'Deux extensions de moteur en texte intégral (« %s » et « %s ») définissent toutes deux une fonction de recherche portant le même nom (« %s »). Chaque fonction doit avoir un nom unique.',
       '\'%s\' is not the name of a known object.' => '« %s » n’est pas le nom d’un objet connu.',
       'You must delegate to this controller, not invoke it directly.' => 'Vous devez déléguer à ce contrôleur, pas l’invoquer directement.',

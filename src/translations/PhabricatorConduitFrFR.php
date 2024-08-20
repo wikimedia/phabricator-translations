@@ -155,6 +155,7 @@ final class PhabricatorConduitFrFR
       'You do not have authorization to call this method.' => 'Vous n’avez pas l’autorisation d’appeler cette méthode.',
       'Cluster API Token' => 'Jeton de l’API de grappe',
       'View API Token' => 'Afficher le jeton de l’API',
+      'Required int param not provided: %s' => 'Paramètre int requis non fourni: %s',
       'Expected PHID or null, got something else.' => 'PHID ou null attendu, obtenu quelque chose d\'autre.',
       'List of position dictionaries.' => 'Liste des dictionnaires de position.',
       'Call Method' => 'Appeler la méthode',

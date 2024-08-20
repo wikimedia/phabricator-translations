@@ -116,6 +116,7 @@ final class PhabricatorPeopleFrFR
       'Information on user profiles on this install is publicly visible.' => 'Les informations sur les profils d’utilisateurs de cette installation sont visibles publiquement.',
       '[%s] Welcome to %s' => '[%s] Bienvenue sur %s',
       'Email: Remove Address' => 'Courriel : retirer une adresse',
+      'New username cannot be the old username.' => 'Le nouveau nom d\'utilisateur ne peut pas être l\'ancien.',
       'You do not have permission to browse the user directory.' => 'Vous n’avez pas la permission de parcourir le répertoire des utilisateurs.',
       'User title, like "CEO" or "Assistant to the Manager".' => 'Titre de l’utilisateur, comme « direct·eur/rice général(e) », « assistant(e) de direction ».',
       'Not a Normal User' => 'Pas un utilisateur normal',
@@ -353,6 +354,12 @@ final class PhabricatorPeopleFrFR
       'Retrieve information about the logged-in user.' => 'Récupérer les informations à propos de l’utilisateur connecté.',
       'Search for particular types of activity.' => 'Recherche de types particuliers d’activité.',
       'Log Out %s' => 'Déconnexion de %s',
+      'List of custom fields for user profiles.
+    For details on adding new fields, see [[ %s | %s ]] in the
+    documentation.' => 'Liste des champs personnalisés pour les profils d\'utilisateurs
+    .
+    Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la
+    documentation',
       'Configure creation and editing forms for users.' => 'Configurer les formulaires de création et de modification pour les utilisateurs.',
       'Re-enable specified users (admin only).' => 'Réactiver les utilisateurs spécifiés (administrateur uniquement).',
       '    Username: %s' => 'Nom d’utilisateur : %s',

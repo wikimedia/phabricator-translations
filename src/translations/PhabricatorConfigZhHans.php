@@ -51,6 +51,11 @@ final class PhabricatorConfigZhHans
       'Done. Migrated %d keys.' => '完成。已迁移%s个密钥。',
       'Disable access log.' => '禁用访问日志。',
       'Activity "%s" is not currently marked as required, so there is no need to complete it.' => '活动“%s”当前并未标记为必需，因此不需要完成它。',
+      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
+    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
+    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => '您正在运行的PHP版本是%s。版本号在7.0和7.1之间的PHP版本不受支持。
+    PHP在7.0版本中移除了需要用到的信号处理功能，且直到7.1版本才恢复了能够实现同样功能的机制。
+    请升级7.1或更新的PHP版本（推荐）或降级到更老版本的PHP 5（不推荐）。',
       'Determines whether Wikimedia Commons videos get embedded.' => '决定是否嵌入维基共享资源的视频。',
       'SSH log location.' => 'SSH日志位置。',
     );

@@ -358,6 +358,7 @@ final class PhabricatorManiphestFrFR
     %s 
     Si vous spécifiez un état non valide, la commande est ignorée. Cette commande n’a aucun effet si vous ne spécifiez pas d’état.
     Pour fermer rapidement une tâche, voir `%s`.',
+      'There was an unexpected error displaying the task graph. Use %s to browse parents or subtasks, or %s to show the graph.' => 'Il y avait une erreur inattendue dans le graphique des tâches. Utilisez %s pour parcourir les parents ou les sous-tâches, ou %s pour afficher le graphique.',
       'TASK DESCRIPTION' => 'DESCRIPTION DE LA TÂCHE',
       '%s closed %s as %s by committing %s.' => '%s a fermé %s %s en validant %s.',
       'Read information about task priorities.' => 'Lire les informations sur les priorités de tâche.',

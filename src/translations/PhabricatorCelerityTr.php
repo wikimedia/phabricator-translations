@@ -14,7 +14,7 @@ final class PhabricatorCelerityTr
       'Unable to render resource "%s", which has unknown type "%s".' => '"%2$s" türü bilinmeyen kaynak "%1$s" oluşturulamıyor.',
       'Writing map "%s".' => 'Harita yazılıyor "%s".',
       'Use High Contrast Colors' => 'Yüksek Kontrast Renkleri Kullan',
-      'Dark Mode (Experimental)' => 'Karanlık Mod (Deneysel)',
+      'Dark Mode (Experimental)' => 'Koyu Kip (Deneysel)',
       'Use Larger Font Size' => 'Daha Büyük Yazı Tipi Boyutu Kullan',
       'Found %d binary resources.' => '%s ikili kaynak bulundu.',
       'No resource with symbol "%s" exists in source "%s"!' => '"%2$s" sembolünde hiçbir kaynak "%1$s" kaynağında mevcut değil!',

@@ -22,6 +22,7 @@ final class PhabricatorHarbormasterLb
       'Result of the test.' => 'Resultat vum Test.',
       'ERROR:' => 'FEELER:',
       'All Targets' => 'all Ziler',
+      'External Link' => 'Externe Link',
     );
   }
 

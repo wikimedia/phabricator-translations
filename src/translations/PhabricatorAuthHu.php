@@ -53,7 +53,7 @@ final class PhabricatorAuthHu
       'The contact number.' => 'A kapcsolattartási szám.',
       'Wait' => 'Várakozás',
       'No matching SSH keys.' => 'Nincs passzoló SSH kulcs.',
-      'Use %s Username' => 'Phabricator felhasználónév használata',
+      'Use %s Username' => '%s-felhasználónév használata',
       'Authentication Error' => 'Hitelesítési hiba',
       'Text Message (SMS)' => 'SMS üzenet',
       'Allows Registration' => 'Regisztráció engedélyezése',

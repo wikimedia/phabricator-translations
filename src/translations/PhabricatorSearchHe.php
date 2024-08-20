@@ -37,6 +37,7 @@ final class PhabricatorSearchHe
       'Document Status' => 'סטטוס מסמך',
       'Delete Menu Item' => 'מחיקת פריט בתפריט',
       'Create Menu Item' => 'יצירת פריט בתפריט',
+      'Text value for "%s" can not be parsed.' => 'לא ניתן לפענח את ערך הטקסט עבור %s.',
       'Manage Menu' => 'ניהול תפריט',
       'Order By' => 'למיין לפי:',
       'Edit Query' => 'עריכת השאילתה',

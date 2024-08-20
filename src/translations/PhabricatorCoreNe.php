@@ -33,6 +33,7 @@ final class PhabricatorCoreNe
       'Parents' => 'अविभावकहरू',
       'Note' => 'टिप्पणी',
       'Plus' => 'जाेड',
+      'Revisions' => 'संशोधनहरू',
       'Empty' => 'खाली',
       'Yellow' => 'पहेँलाे',
       'Thu' => 'बिही',

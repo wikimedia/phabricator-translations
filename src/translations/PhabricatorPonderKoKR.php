@@ -22,7 +22,7 @@ final class PhabricatorPonderKoKR
       'Questions must have a title.' => '질문에는 제목이 필수입니다.',
       'QUESTION DETAIL' => '질문 세부 사항',
       'Status of the question.' => '질문의 상태입니다.',
-      '%s updated the answer wiki.' => '%s는 답변 위키를 업데이트했습니다.',
+      '%s updated the answer wiki.' => '%s님이 답변 위키를 업데이트했습니다.',
       'No questions found.' => '질문을 찾을 수 없습니다.',
       'Ask Question' => '질문하기',
       'This answer has been hidden.' => '이 답변은 숨겨졌습니다.',

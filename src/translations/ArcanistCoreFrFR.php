@@ -1595,6 +1595,7 @@ final class ArcanistCoreFrFR
      – Votre copie de %s n’est plus à jour.
        C’est la cause la plus fréquente.
        Mettez à jour cette copie %s:
+    %s
      – Une autre bibliothèque est obsolète.
        Mettez à jour la bibliothèque dans laquelle 
        apparaît ce symbole.
@@ -2628,8 +2629,8 @@ final class ArcanistCoreFrFR
       'Locale "%s" is part of a cycle of locales which fall back on one another in a loop (%s). Locales which fall back on other locales must not loop.' => 'La configuration de paramètres régionaux « %s » fait partie d’un cycle de configuration qui se replient les unes sur les autres dans une boucle ( %s ). Les configurations de paramètres régionaux qui se replient sur d’autres configurations ne doivent pas former de boucle.',
       'Reason' => 'Raison',
       'Use a specific authentication token.' => 'Utilisez un jeton d’authentification spécifique.',
-      'Associate the working copy with a specific repository. Normally, this association can be determined automatically, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associer la copie de travail à un dépôt Phabricator spécifique. Normalement, Arcanist peut déterminer cette association par lui-même, mais si votre configuration est inhabituelle, vous pouvez utiliser cette option pour lui dire quelle est la valeur souhaitée.',
-      'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.' => 'Si %s doit permettre la mise en place automatique des modifications dans le répertoire de travail lorsqu’une copie de travail propre est demandée. Cette option doit être utilisée uniquement quand les utilisateurs comprennent comment restaurer leur répertoire de travail depuis le cache local, si une opération de Arcanist provoque une erreur irrécupérable.',
+      'Associate the working copy with a specific repository. Normally, this association can be determined automatically, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Associer la copie de travail à un dépôt spécifique. Normalement, cette association peut être déterminé automatiquement, mais si votre configuration est inhabituelle, vous pouvez utiliser cette option pour lui dire quelle est la valeur souhaitée.',
+      'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.' => 'Si %s doit permettre la mise en place automatique des modifications dans le répertoire de travail lorsqu’une copie de travail propre est demandée. Cette option doit être utilisée uniquement quand les utilisateurs comprennent comment restaurer leur répertoire de travail depuis le cache local si une opération provoque une erreur irrécupérable.',
       'Test case \'%s\' did not throw, as expected.' => 'Le cas de test \'%s\' ne s’est pas lancé, comme prévu.',
       'Failed to set streams nonblocking.' => 'Échec de mise des flux en mode non bloquant.',
       'Use of unknown class symbol "%s".' => 'Utilisation d’un symbole de classe « %s » inconnu.',
@@ -2702,11 +2703,10 @@ final class ArcanistCoreFrFR
       'Attempting to run unit tests on a library which has not been loaded, at:
         %s
     Make sure this library is configured to load.
-    (In rare cases, this may be because you are attempting to run one copy of this software against a different copy of this software. This operation is not supported.)' => 'Tentative d’exécuter des tests unitaires sur une bibliothèque libphutil qui n’a pas été chargée, à :
+    (In rare cases, this may be because you are attempting to run one copy of this software against a different copy of this software. This operation is not supported.)' => 'Tentative d\'exécution de tests unitaires sur une bibliothèque qui n\'a pas été chargée, à :
         %s
-    Cela veut probablement dire une des deux choses suivantes :
-        - vous pourriez avoir besoin d’ajouter d’abord cette bibliothèque à %s ;
-        - vous tentez peut-être d’exécuter des tests sur une copie de libphutil ou d’arcanist en utilisant une copie différente de ces bibliothèques : cette opération n’est pas prise en charge.',
+    Assurez-vous que cette bibliothèque est configurée pour être chargée.
+    (Dans de rares cas, cela peut être dû au fait que vous essayez d\'exécuter une copie de ce logiciel contre une autre copie de ce logiciel. Cette opération n\'est pas prise en charge).',
       'Methods may not be both "private" and "final".' => 'Les méthodes ne peuvent pas être à la fois « private » (privées) et « final » (finales).',
       'Restoring uncommitted changes to working copy.' => 'Restauration des modifications non validées dans la copie de travail.',
       'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => array(
