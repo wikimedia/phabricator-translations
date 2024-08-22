@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Leon95",
 			"Tobi 406",
 			"Umlaut"
@@ -44,10 +45,10 @@
 	"63bee73572a841a0": "Ganztägiger Termin",
 	"64953d9d0e5af3cc": "$1 - $2, täglich",
 	"6f54cc9b96288d2f": "$1 brach $2 ab.",
-	"707f2e8c86ff9566": "Zeige nur kommende Termine",
+	"707f2e8c86ff9566": "Zeige nur kommende Termine.",
 	"71bb5909247a229b": "$1 nimmt teil.",
 	"728298d3dbf4fb2c": "Täglich",
-	"74068d206fedf8af": "Monats Ansicht",
+	"74068d206fedf8af": "Monatsansicht",
 	"7622eb5aa42dee6e": "Jährlich",
 	"7ba4c3ae6badabf5": "(+$1 mehr...)",
 	"7d85ef4b5f578ed8": "$1 hat dieses Event erstellt.",
@@ -59,14 +60,14 @@
 	"98ef250308f75761": "Event abbrechen",
 	"9af976e948824920": "Unbekannte Nachricht",
 	"9beef4449dbea76b": "$1, täglich",
-	"a0233b628b8f2bae": "Tages Ansicht",
+	"a0233b628b8f2bae": "Tagesansicht",
 	"a1301377fd8bce05": "$1 benannte diesen Import von $2 zu $3 um.",
 	"a15e435c9663d551": "Ferien",
 	"a38cc1b1236fcff2": "Termin Beschreibung",
 	"a48beb0ce76eee30": "Neue URI.",
 	"a75c65b67ef33f58": "$1 hat diesen Export erstellt.",
 	"aa0334bf824ecf9e": "$1 deaktivierte den Ganztagstermin status.",
-	"ad7a5a23b3991c08": "Kaffee Runde",
+	"ad7a5a23b3991c08": "Kaffeerunde",
 	"ae5374e17da2656c": "Als .ics exportieren",
 	"b02d11da24f2599f": "[Erinnerung]",
 	"b3c46d2328d70d61": "Veranstaltet von $1 am $2.",
@@ -88,7 +89,7 @@
 	"f7d63bb600a6484c": "Teilnehmen",
 	"f947fb43c61700ca": "Ausflug",
 	"f9a57273aba190ba": "Möchtest du an diesem Termin teilnehmen?",
-	"fb1bde1b6c262f9f": "Listen Ansicht",
-	"fd9c3c21d4f211de": "Tier Aktivität",
+	"fb1bde1b6c262f9f": "Listenansicht",
+	"fd9c3c21d4f211de": "Tier-Aktivität",
 	"fe363a7dfbf08563": "$1 hat $2 wiederhergestellt"
 }
