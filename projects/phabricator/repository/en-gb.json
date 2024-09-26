@@ -5,7 +5,7 @@
 			"Reedy"
 		]
 	},
-	"1050436763bfe170": "Specified version control system must be a VCS recognised by Phabricator. Valid systems are: $1.",
+	"1050436763bfe170": "Specified version control system must be a VCS recognised by this software. Valid systems are: $1.",
 	"3c9e4e7773a88d7b": "Matching function \"$1(...)\" is not recognised. Valid functions are: regexp(...).",
 	"4aa3133279b9b68c": "Demote a device (or all devices in a service) discarding unsynchronised changes. Clears stuck write locks and recovers from lost leaders.",
 	"5952025a6162b764": "Use default behaviour.",

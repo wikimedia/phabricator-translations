@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lcawte"
+			"Lcawte",
+			"Reedy"
 		]
 	},
 	"1c739694c042d1ae": "Colour '$1'",
 	"2e870435c5ae63a8": "Colours and Transforms",
 	"3edbbe85e6837d3b": "Colours of the Rainbow",
 	"570c92b0d465030a": "Colour Palette",
+	"5d58745357ed5263": "Courgette",
 	"6732136f4e0d20ea": "Colourless",
 	"727e6f1a4e63d422": "Object with Colour",
 	"7954992544eae9ec": "A Standard Palette of Colours for use."

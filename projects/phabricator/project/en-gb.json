@@ -19,6 +19,7 @@
 	"7722da513494e2be": "Configuration must be a list of project colour specifications.",
 	"874df4e774343ace": "Background Colour",
 	"9425009906c245f5": "Solid Colours",
+	"98fd625c4504ea59": "Allows you to relabel project colours.\n\nThe list of available colours can not be expanded, but the existing colors may\nbe given labels.\n\nConfigure a list of colour specifications. Each colour specification should be a\ndictionary, which may contain these keys:\n\n  - `key` //Required string.// The internal key identifying the colour.\n  - `name` //Required string.// Human-readable label for the color.\n  - `default` //Optional bool.// Selects the default color used when creating\n    new projects. Exactly one colour must be selected as the default.\n\nYou can look at the default configuration below for an example of a valid\nconfiguration.",
 	"aa0d2604c9946e87": "Two different colours (\"$1\", \"$2\") are marked as the default colour. Only one colour may be marked as the default.",
 	"b0b8f32a131981cc": "Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.\n\nProjects which are invalid or unrecognised will be ignored. This command has no effect if you do not specify any projects.",
 	"bb1773266e8d6383": "Project colours must include one colour marked as the \"$1\" colour, but no such colour exists.",
