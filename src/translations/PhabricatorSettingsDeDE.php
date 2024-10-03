@@ -24,7 +24,7 @@ final class PhabricatorSettingsDeDE
       'Adjust Timezone' => 'Zeitzone anpassen',
       'If you disable **Email Notifications**, this server will never send email to notify you about events. This preference overrides all your other settings.
     //You will still receive some administrative email, like password reset email.//' => 'Wenn du **E-Mail-Benachrichtigungen** deaktivierst, wird dieser Server niemals eine E-Mail senden, um dich über Ereignisse zu informieren. Diese Einstellung überschreibt all deine anderen Einstellungen weiter unten.
-    //Du erhältst weiterhin administrative Mails, wie z.B. eine Mail zum Passwort zurücksetzten.//',
+    //Du erhältst weiterhin administrative Mails, wie z. B. eine Mail, um dein Passwort zurückzusetzten.//',
       '%s updated her profile' => '%s hat ihr Profil aktualisiert',
       'Extra Settings' => 'Extra Einstellungen',
       'Enable Self Action Mail' => 'Mail für Eigene Aktionen aktivieren',

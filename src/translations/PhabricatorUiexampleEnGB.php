@@ -13,6 +13,7 @@ final class PhabricatorUiexampleEnGB
       'Colors and Transforms' => 'Colours and Transforms',
       'Colors of the Rainbow' => 'Colours of the Rainbow',
       'Color Palette' => 'Colour Palette',
+      'Zucchini' => 'Courgette',
       'Colorless' => 'Colourless',
       'Object with Color' => 'Object with Colour',
       'A Standard Palette of Colors for use.' => 'A Standard Palette of Colours for use.',

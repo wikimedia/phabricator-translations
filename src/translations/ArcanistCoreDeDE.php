@@ -67,7 +67,9 @@ final class ArcanistCoreDeDE
       'Conduit API login required.' => 'Conduit API-Anmeldung erforderlich.',
       'Rule \'%s\' matched a zero-length token and causes no state transition.' => 'Die Regel "%s" hat ein Token der Länge Null gefunden und verursacht keinen Zustandsübergang.',
       'Empty certificate in credentials.' => 'Leeres Zertifikat in den Anmeldeinformationen.',
+      'Confirms that revisions you did not author should land.' => 'Bestätigt, dass Versionen, die du nicht verfasst hast, ankommen sollen.',
       'No tests to run.' => 'Keine auszuführenden Tests.',
+      'Expected JSON response from Slack.' => 'Erwartete JSON-Antwort von Slack.',
       '%s assertion(s) passed.' => array(
         'one=Eine Behauptung hat bestanden',
         '%s Behauptungen haben bestanden',
@@ -134,7 +136,7 @@ final class ArcanistCoreDeDE
       'Saved uncommitted changes from working copy.' => 'Nicht festgeschriebene Änderungen aus der Arbeitskopie gespeichert.',
       'Unsound' => 'Stumm',
       'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?' => 'Der Patch %s \'%s\' zu \'%s\', aber der Quellpfad existiert nicht in der Arbeitskopie. Dennoch fortfahren?',
-      'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'Der URI eines Servers, zu dem standardmäßig verbunden werden soll, wenn %s in einem Projekt ohne konfiguriertem URI oder außerhalb eines Projektes ausgeführt wird.',
+      'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'Der URI eines Servers, zu dem standardmäßig verbunden werden soll, wenn %s in einem Projekt ohne konfigurierten URI oder außerhalb eines Projektes ausgeführt wird.',
       'Loading library from "%s"...' => 'Laden der Bibliothek von "%s"...',
       'Duplicate case in switch statement. PHP will ignore all but the first case.' => 'Duplikat-Fall in einer Switch-Verzweigung. PHP wird alle außer dem ersten Fall ignorieren.',
       'Unable to identify the revision in the working copy. Use \'%s\' to select a revision.' => 'Die Version konnte in der Arbeitskopie nicht identifiziert werden. Benutze \'%s\', um eine Version auszuwählen.',

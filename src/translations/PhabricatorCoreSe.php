@@ -27,6 +27,7 @@ final class PhabricatorCoreSe
       'Description' => 'Govvádus',
       'Users' => 'Geavaheaddjit',
       'New' => 'Ođđa',
+      'Column' => 'Čuolda',
       'Files' => 'Fiillat',
       'Cancel' => 'Gaskkalduhte',
       'Error' => 'Meattáhus',

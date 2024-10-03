@@ -68,7 +68,7 @@ final class PhabricatorPeopleDeDE
       'Availability' => 'Verfügbarkeit',
       'administrators' => 'Administratoren',
       'Enable User' => 'Benutzer aktivieren',
-      'This email address (%s) is no longer your primary email address. Going forward, all email will be sent to your new primary email address (%s).' => 'Diese E-Mail-Adresse (%s) ist nicht mehr deine Primäre E-Mail-Adresse. Ab jetzt werden alle E-Mails an deine neue Primäradresse (%s) gesendet werden.',
+      'This email address (%s) is no longer your primary email address. Going forward, all email will be sent to your new primary email address (%s).' => 'Diese E-Mail-Adresse (%s) ist nicht mehr deine primäre E-Mail-Adresse. Ab jetzt werden alle E-Mails an deine neue Primäradresse (%s) gesendet werden.',
       'Animal' => 'Tier',
       'Email: Change Primary' => 'E-Mail: Primäre andern',
       'New Username: %s' => 'Neuer Benutzernume: %s',

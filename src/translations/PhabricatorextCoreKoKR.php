@@ -9,7 +9,10 @@ final class PhabricatorextCoreKoKR
 
   protected function getTranslations() {
     return array(
+      'Escalate' => '상승하다',
       'Next: %s' => '다음: %s',
+      'Standard Phabricator.' => '표준 파브리케이터.',
+      'Auto-generated release schedule details.' => '자동 생성 릴리스 일정 세부 정보',
       'Consumer Token' => '컨슈머 토큰',
       'Merged' => '병합됨',
       'Customize query in gerrit' => '게릿 내 쿼리 사용자 지정',

@@ -22,6 +22,27 @@ final class PhabricatorProjectEnGB
       'Configuration must be a list of project color specifications.' => 'Configuration must be a list of project colour specifications.',
       'Background Color' => 'Background Colour',
       'Solid Colors' => 'Solid Colours',
+      'Allows you to relabel project colors.
+    The list of available colors can not be expanded, but the existing colors may
+    be given labels.
+    Configure a list of color specifications. Each color specification should be a
+    dictionary, which may contain these keys:
+      - `key` //Required string.// The internal key identifying the color.
+      - `name` //Required string.// Human-readable label for the color.
+      - `default` //Optional bool.// Selects the default color used when creating
+        new projects. Exactly one color must be selected as the default.
+    You can look at the default configuration below for an example of a valid
+    configuration.' => 'Allows you to relabel project colours.
+    The list of available colours can not be expanded, but the existing colors may
+    be given labels.
+    Configure a list of colour specifications. Each colour specification should be a
+    dictionary, which may contain these keys:
+      - `key` //Required string.// The internal key identifying the colour.
+      - `name` //Required string.// Human-readable label for the color.
+      - `default` //Optional bool.// Selects the default color used when creating
+        new projects. Exactly one colour must be selected as the default.
+    You can look at the default configuration below for an example of a valid
+    configuration.',
       'Two different colors ("%s", "%s") are marked as the default color. Only one color may be marked as the default.' => 'Two different colours ("%s", "%s") are marked as the default colour. Only one colour may be marked as the default.',
       'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
     Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.

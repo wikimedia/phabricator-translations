@@ -58,6 +58,7 @@ final class PhabricatorCoreSms
       'HTTPS Required' => 'HTTPS lij pääkklaž',
       'Global' => 'Riâžldõkveiddsõs',
       'New' => 'Ođđ',
+      'Column' => 'Ceäggčuʹǩǩ',
       'name' => 'nõmm',
       'Files' => 'Teâttõõzz',
       'Download File' => 'Laadd teâttõõzz',

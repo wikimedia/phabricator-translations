@@ -9,6 +9,7 @@ final class PhabricatorFlagEnGB
 
   protected function getTranslations() {
     return array(
+      'Marked with flag of the wrong color ("%s").' => 'Marked with flag of the wrong colour ("%s").',
       'Flag Color' => 'Flag Colour',
     );
   }

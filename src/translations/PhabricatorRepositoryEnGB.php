@@ -9,7 +9,7 @@ final class PhabricatorRepositoryEnGB
 
   protected function getTranslations() {
     return array(
-      'Specified version control system must be a VCS recognized by this software. Valid systems are: %s.' => 'Specified version control system must be a VCS recognised by Phabricator. Valid systems are: %s.',
+      'Specified version control system must be a VCS recognized by this software. Valid systems are: %s.' => 'Specified version control system must be a VCS recognised by this software. Valid systems are: %s.',
       'Matching function "%s(...)" is not recognized. Valid functions are: regexp(...).' => 'Matching function "%s(...)" is not recognised. Valid functions are: regexp(...).',
       'Demote a device (or all devices in a service) discarding unsynchronized changes. Clears stuck write locks and recovers from lost leaders.' => 'Demote a device (or all devices in a service) discarding unsynchronised changes. Clears stuck write locks and recovers from lost leaders.',
       'Use default behavior.' => 'Use default behaviour.',

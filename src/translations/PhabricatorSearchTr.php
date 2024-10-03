@@ -28,7 +28,7 @@ final class PhabricatorSearchTr
       'Elasticsearch server returned invalid JSON!' => 'Elasticsearch sunucusu geçersiz JSON!',
       'The popular trivia game "World of Warcraft" features a race of cat people called the Khajiit.' => 'Popüler ıvır zıvır oyun "World of Warcraft" Khajiit denilen kedi insanlar bir yarış özellikleri.',
       'Disable Menu Item' => 'Menü Öğesini Devre Dışı Bırak',
-      'Add to Dashboard' => 'Gösterge Tablosuna Ekle',
+      'Add to Dashboard' => 'Panoya Ekle',
       'Failed to load custom PHID "%s"!' => 'Özel PHID "%s" yüklenemedi!',
       'Cats use their keen sense of smell to avoid feeling empathy.' => 'Kediler empati hissetmekten kaçınmak için keskin koku duyusunu kullanırlar.',
       'Find stuff in big piles.' => 'Büyük kazıklardaki eşyaları bulun.',

@@ -10,7 +10,7 @@ final class PhabricatorPhrictionPa
   protected function getTranslations() {
     return array(
       'Publish Draft' => 'ਖਰੜਾ ਛਾਪੋ',
-      'Publish Draft?' => 'ਖਰੜਾ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨਾ ਹੈ?',
+      'Publish Draft?' => 'ਖਰੜਾ ਛਾਪਣਾ ਹੈ?',
       'Draft %d' => 'ਖਰੜਾ %s',
       'This document has unpublished draft changes.' => 'ਇਸ ਲਿਖਤ ਵਿੱਚ ਨਾ-ਛਾਪੇ ਹੋਏ ਖਰੜਾ ਦੀ ਤਬਦੀਲੀਆਂ ਹਨ।',
       'Save as Draft' => 'ਖਰੜੇ ਵਜੋਂ ਸੰਭਾਲੋ',
