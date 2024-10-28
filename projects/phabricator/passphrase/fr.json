@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"Motla",
 			"Thibaut120094",
 			"Verdy p",
@@ -93,7 +94,7 @@
 	"c9037df0e6a26517": "$1 a permis l’accès par l’API de Conduit à ce certificat.",
 	"cb0edb6aac4b0ad1": "Nouveau certificat : $1",
 	"cb57cee51cc4a9ec": "$1 (certificat restreint)",
-	"cbb126cf3b568b43": "Gestion de certificats pour leur réutilisation dans d’autres domaines de Phabricator ou pour le stockage général de secrets partagés.",
+	"cbb126cf3b568b43": "Gestion des informations d'identification et stockage général des secrets partagés.",
 	"cedc4f9f00c97341": "Certificat de Phrase secrète",
 	"cf1e833b1e0789d1": "Mot de passe de la clé",
 	"d2a1a6809a7f6402": "Empêcher le secret d’être révélé ou changé.",

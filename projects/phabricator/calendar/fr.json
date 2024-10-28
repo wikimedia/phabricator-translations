@@ -3,6 +3,7 @@
 		"authors": [
 			"Gomoko",
 			"JenyxGym",
+			"Mahabarata",
 			"Motla",
 			"Raphoraph",
 			"Thibaut120094",
@@ -33,7 +34,7 @@
 	"0e16537914a0163e": "Exportations",
 	"0e36766bab5171ef": "Requête à exécuter.",
 	"0e65bd96a6474594": "Film",
-	"0e790231b22f0ebe": "Les événements importés ne peuvent pas être modifiés dans Phabricator.",
+	"0e790231b22f0ebe": "Les événements importés ne peuvent pas être modifiés.",
 	"0f0376d60eb8b727": "Occupation officielle",
 	"0f9949105d1c2a08": "Afficher les invitations auxquelles le visiteur actuel est invité. Cette fonction inclut les événements auxquels l’utilisateur est invité parce qu’un projet dont il est membre est invité.",
 	"112267b12f02f3bd": "Date et heure de fin de l’événement.",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -43,7 +44,7 @@
 	"c0f85d6679730ccd": "Rejouer",
 	"c2c604447f0ec813": "Analyse impossible",
 	"c5497bca58468ae6": "Événements",
-	"c6dbfd5cd23d54d0": "Information à propos des événements de Phabricator et des écouteurs d’événements.",
+	"c6dbfd5cd23d54d0": "Informations à propos des événements et des écouteurs d’événements.",
 	"c7102c8c300e7e00": "Poids de la page",
 	"c983a1551dcbdb6f": "Nom d’hôte",
 	"d2cf1d0f65c750d8": "Écouteur d’événements enregistrés",
