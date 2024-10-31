@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Mahabarata",
 			"Motla",
 			"Thibaut120094",
 			"Verdy p",
@@ -29,6 +30,7 @@
 	"24753df10adddc21": "État du projet inconnu « $1 » !",
 	"251cc6c566d6fde4": "Écraser les changements.",
 	"26f7b3ad79583865": "Impossible de supprimer le document !",
+	"272607a7bd015aa5": "Rétablir",
 	"273de30017e2329a": "Aucun chemin de parent / ancêtre spécifié.",
 	"27823bb42bb74e84": "Type d’URI « $1 » inconnu !",
 	"282d35c4109ce145": "Le chemin de document « $1 » n’est pas un chemin valide. La forme normalisée de ce chemin est « $2 ».",
@@ -100,6 +102,7 @@
 	"96a9105f070e8b82": "« $1 » <$2>",
 	"9837ef4032a3aed8": "Historique du document",
 	"98b219af6d77a4ff": "Ébauche $1",
+	"98bea23cdd672c36": "Document wiki",
 	"9a8585f1acc0aebe": "Changement original",
 	"9a9c9742caa17809": "Document parent vide",
 	"9c062d190c7fb27c": "Le document existe déjà !",

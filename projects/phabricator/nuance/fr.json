@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -21,6 +22,7 @@
 	"1a92c0e3e058ba4f": "Aucune source trouvée.",
 	"1aa0f08a1e5fa78c": "Nom de la file.",
 	"1d3411a7c642822e": "Exécution en cours",
+	"1ef48a3c258da931": "Demandeur",
 	"1f830a7bef0b1566": "(Utilisez « --cursor » pour n’importer qu’un curseur particulier.)",
 	"203481222394cb70": "Type d’événement inconnu (« $1 »)",
 	"2426202e8c279afb": "Tâche de l’élément de Nuance $1",
@@ -52,7 +54,7 @@
 	"508abc58febf1711": "Gérer les files de Nuance.",
 	"529bc0f79db7763f": "Importer des données d’une source.",
 	"55ef4827a9e63268": "Modifier la file : $1",
-	"564dc75d7062696c": "Formulaire Phabricator",
+	"564dc75d7062696c": "Formulaire Internet",
 	"56b5907761aabb43": "Utilisateur $1",
 	"57ae4419c84a0f0b": "Spécifiez une source avec $1.",
 	"5956768f7cdfbd8a": "Formulaire de plainte",

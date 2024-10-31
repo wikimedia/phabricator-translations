@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Mahabarata",
 			"Motla",
 			"Thibaut120094",
 			"Verdy p",
@@ -357,6 +358,7 @@
 	"9eeb8b7ab0d126cb": "Les informations sur la période de facturation sont manquantes pour l’abonnement.",
 	"9fed393b3f8acde4": "Vous n’êtes membre d’aucun compte de paiement. Les comptes de paiement sont utilisés pour effectuer des achats.",
 	"a050023878d85e30": "Pour accéder aux informations sur ce compte de paiement, suivez un lien plus récent ou demandez à un utilisateur disposant d’un accès de vous donner un lien mis à jour.",
+	"a0b51f0db75aace6": "Créer un produit",
 	"a0bdf958d8b3a722": "$1 a créé ce mode de paiement.",
 	"a0f7383d37144e8a": "Vous essayez d’accéder à ce compte de paiement en tant que : $1",
 	"a13b515a798e4fed": "Choisir un ou plusieurs utilisateurs à ajouter en tant que gestionnaires de compte. Les gestionnaires ont le contrôle total du compte.",

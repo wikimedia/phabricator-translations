@@ -3,6 +3,7 @@
 		"authors": [
 			"Derugon",
 			"Gomoko",
+			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92",
@@ -10,6 +11,7 @@
 		]
 	},
 	"027c66bf37c9a3b4": "Appelez $1 avant de publier !",
+	"0b694d2612ffe0c4": "IMPORTANT : les hooks de flux sont obsolètes et ont été remplacés par des Webhooks.\n\nVous pouvez configurer des Webhooks dans Herald. Cette option de configuration\nsera supprimée dans une future version du logiciel.\n\n(Cette option héritée peut être configurée avec une liste d'URI ; les articles\nde flux seront envoyés à ces URI.)",
 	"20d3d91741172383": "Dictionnaire avec diverses données de l’histoire",
 	"355a429bd0ea65d5": "Toutes les histoires",
 	"3ae912771fea48db": "Interroger le flux pour les histoires",
