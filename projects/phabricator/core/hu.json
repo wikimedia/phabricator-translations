@@ -9,6 +9,7 @@
 	"280cfd1a5bc6d8fd": "Szülők",
 	"288cc10e2c1f51b7": "Egyszerű altípusok",
 	"309608fd247b6a7c": "Altípusok böngészése",
+	"4e8131ca3794e49a": "Kijelentkezés",
 	"55f8ebc805e65b5b": "Leírás",
 	"5b2e28bb4179bf70": "DOKUMENTUM RÉSZLETEI",
 	"6993a16188fa7ba4": "Kapcsolódó feladatok szerkesztése",
@@ -20,10 +21,13 @@
 	"9b40517666983c98": "Közvetlen szülő",
 	"a1d54ae3f813313e": "$1 frissítette a leírást.",
 	"a729bbac0e27785a": "Altípus",
+	"bf58d17e561b1b85": "Kezelés",
 	"c7f73bb54d928922": "Beállítások",
 	"d00c2e68c3100b71": "Felelős",
 	"d7d812e50268074f": "Kapcsolódó commitok szerkesztése",
+	"dc3decbb93847518": "Részletek",
 	"e096a8de9c832a55": "Altípusok",
 	"f2318d2e7ebc4ef5": "Kapcsolódó változatok szerkesztése",
-	"fa7769c1d26ba2a7": "Kapcsolódó feladatok mentése"
+	"fa7769c1d26ba2a7": "Kapcsolódó feladatok mentése",
+	"ff4fc0276e960c34": "Profil"
 }
