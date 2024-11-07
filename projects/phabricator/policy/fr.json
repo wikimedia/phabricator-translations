@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"Motla",
 			"Reception123",
 			"Thibaut120094",
@@ -17,8 +18,9 @@
 	"0e3e41241d8cbd68": "Spécifiez le nom de l’objet à déverrouiller.",
 	"0fe53951beb17cad": "Identifie chaque object (__object__) en transmettant un nom d’objet (comme « T123 ») ou un PHID (comme « PHID-ABCD-1234... »).\n\nLes types d’objets n’ont pas tous une politique modifiable de visualisation, de modification ou du propriétaire, donc les modes ne fonctionneront pas tous avec tous les objets.",
 	"117f770f989b87f1": "Verrouiller la création de politique utilisateur pour les administrateurs",
+	"11c8de63863dbd23": "Politique d'interaction",
 	"18751622f503d778": "Ces règles sont traitées dans l’ordre.",
-	"1fce159eba71dca8": "Phabricator a des politiques d’application qui peuvent dicter si les utilisateurs peuvent effectuer certaines actions, telles que la création de nouveaux utilisateurs. \n\nCe paramètre permet de « verrouiller » ces politiques de sorte qu’aucune autre modification ne puisse être effectuée sur une base propre à chaque politique.",
+	"1fce159eba71dca8": "Ce logiciel a des politiques d’application qui peuvent dicter si les utilisateurs peuvent effectuer certaines actions, telles que la création de nouveaux utilisateurs. \n\nCe paramètre permet de « verrouiller » ces politiques de sorte qu’aucune autre modification ne puisse être effectuée sur une base propre à chaque politique.",
 	"21418411947c2375": "Utilisateurs qui peuvent voir les objets dans cet espace :",
 	"22ee8959b161f13b": "Une fois qu’un utilisateur a passé les contrôles de la politique de l’espace, il doit encore passer les contrôles de la politique de l’objet.",
 	"246103ba1e6d5a8d": "Politiques d’objet modifiées.",
@@ -26,7 +28,7 @@
 	"255aa8fa056c4e73": "Déplace l’objet entre les espaces.",
 	"2607db2eab121ef7": "Vous ne devez pas passer : $1",
 	"29cfbeec9a497809": "est croissante",
-	"2e40ccf6b8fc6c5f": "Phabricator vous permet de définir la visibilité des objets (comme les dépôts et les tâches) comme « Publique », ce qui signifie que **n'importe qui sur Internet peut les voir, sans avoir besoin de se connecter ou d’avoir un compte**.\n\nCeci est destiné aux projets en source ouverte. De nombreuses installations ne voudront jamais rendre quoi que ce soit public, cette politique est donc désactivée par défaut. Vous pouvez l’activer ici, ce qui vous permettra de définir la politique des objets comme « Publique ».\n\nL’activation de ce paramètre ouvrira immédiatement certaines fonctionnalités, comme le répertoire des utilisateurs. N’importe qui sur Internet pourra accéder à ces fonctionnalités.\n\nAvec ce paramètre désactivé, la politique « Publique » n’est pas disponible et la politique la plus ouverte est « Tous les utilisateurs » (ce qui signifie que les utilisateurs doivent avoir des comptes et être connectés pour voir les choses).",
+	"2e40ccf6b8fc6c5f": "Ce logiciel vous permet de définir la visibilité des objets (comme les dépôts et les tâches) sur « Publique », ce qui signifie que **n'importe qui sur Internet peut les voir, sans avoir besoin de se connecter ou d’avoir un compte**.\n\nCeci est destiné aux projets en source ouverte. De nombreuses installations ne voudront jamais rendre quoi que ce soit public, cette politique est donc désactivée par défaut. Vous pouvez l’activer ici, ce qui vous permettra de définir la politique des objets comme « Publique ».\n\nL’activation de ce paramètre ouvrira immédiatement certaines fonctionnalités, comme le répertoire des utilisateurs. N’importe qui sur Internet pourra accéder à ces fonctionnalités.\n\nAvec ce paramètre désactivé, la politique « Publique » n’est pas disponible et la politique la plus ouverte est « Tous les utilisateurs » (ce qui signifie que les utilisateurs doivent avoir des comptes et être connectés pour voir les choses).",
 	"2ecc43547ba936fd": "Objet introuvable avec le nom spécifié (« $1 »).",
 	"2f2de884ae395f6b": "Vous n’avez pas la permission de modifier cet objet.",
 	"2fbbf64505dd0777": "CAPACITÉS",
@@ -39,6 +41,7 @@
 	"3e23efbcb5cf65ab": "Action « $1 » non valide !",
 	"4294883586fc891b": "Déverrouiller un ou plusieurs objets en modifiant leurs politiques de visualisation, de modification ou leurs propriétaires.",
 	"4346259d624a73ac": "Autoriser la visibilité publique",
+	"438fa22543063b0f": "Contrôle qui peut interagir avec l'objet.",
 	"43d425ea1bd228b0": "Politiques d’objet",
 	"460a9850b100cc44": "Membres du projet...",
 	"470c393d8184ed0c": "Deux règles de politique (de classes « $1 » et « $2 ») définissent la même clé de politique d’objet (« $3 »), mais chaque règle de politique d’objet doit utiliser une clé unique.",
@@ -58,7 +61,7 @@
 	"5db5e65feb07d859": "DÉVERROUILLAGE EN COURS",
 	"5faf52958547f4df": "Les membres d’un projet particulier peuvent effectuer cette action. (Vous ne pouvez pas voir cet objet, donc le nom de ce projet est restreint.)",
 	"61719b5264144019": "Spécifiez le nom d’exactement un objet pour lequel afficher les informations de politique.",
-	"61fac6d1372ab49d": "Cet objet est public et peut être consulté par n’importe qui, même ceux sans compte Phabricator.",
+	"61fac6d1372ab49d": "Cet objet est public et peut être consulté par n’importe qui, même ceux sans compte sur ce serveur.",
 	"65b28cf2e4c3b8d7": "Vous n’avez pas la capacité requise (« $1 ») pour effectuer ce que vous tentez de faire.",
 	"664ca65d01881bbf": "Prise en charge des politiques",
 	"66bef3b78fe80de4": "Autoriser les utilisateurs à définir comme publique la visibilité des objets.",
@@ -129,5 +132,6 @@
 	"f965b290a4b98d39": "Cet objet a une politique personnalisée contrôlant qui peut effectuer cette action.",
 	"fae5f7f8ff51e5eb": "PHID du nouvel espace.",
 	"faf14d89df0c1119": "La capacité « $1 » a une politique « $2 » non valide.",
-	"fb759a857d22a710": "Vous n’avez pas la permission d’interagir avec cet objet."
+	"fb759a857d22a710": "Vous n’avez pas la permission d’interagir avec cet objet.",
+	"fe1652bb8e2fdbef": "Modifier la politique d'interaction de l'objet."
 }

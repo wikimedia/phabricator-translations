@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"Pols12",
 			"Thibaut120094",
 			"Verdy p",
@@ -13,9 +14,9 @@
 	"1e5fe3e3f95ec0bc": "Vous avez configuré au moins un paramètre depuis l’interface Web.",
 	"2705f94c32d8e8bc": "Vous avez créé au moins une tâche.",
 	"2912f9b92d7431d2": "Les balises de projet définissent tout. Créez-les pour les équipes, les balises ou les projets actuels.",
-	"29e1ac3c2434129a": "Voir toutes les applications incluses dans Phabricator.",
+	"29e1ac3c2434129a": "Voir toutes les applications disponibles.",
 	"38f627566dda6f37": "Explorer les applications",
-	"3bd7ef732e4ec546": "Phabricator a été installé avec succès. Les prochains guides vous assisteront pour la configuration et l’orientation d’un nouvel utilisateur. Ces étapes sont facultatives et vous pouvez les passer dans un ordre quelconque. Si vous souhaitez revenir à ces guides plus tard, vous pouvez les trouver dans {icon globe} **Applications** sous {icon map-o} **Guides**.",
+	"3bd7ef732e4ec546": "$1 a été installé avec succès. Les prochains guides vous assisteront pour la configuration et l’initiation d’un nouvel utilisateur. Ces étapes sont facultatives et vous pouvez les passer dans un ordre quelconque. Si vous souhaitez revenir à ces guides plus tard, vous pouvez les trouver dans {icon globe} **Applications** sous {icon map-o} **Guides**.",
 	"3da474537ac378c6": "Sauter",
 	"455083cac2ae96ea": "Démarrage rapide",
 	"46f41c5aad565112": "Configurer les paramètres des comptes pour tous les utilisateurs ou juste pour vous-même",
@@ -26,14 +27,14 @@
 	"6bb896b77607ac76": "Vos invitations ont été acceptées. Vous ne serez pas seul dans cette aventure.",
 	"6fe26b1373ab767d": "Vous avez configuré au moins un fournisseur d’authentification.",
 	"76018fc96e754bd4": "Tutoriels courts",
-	"7bed49546c4f7ce3": "Si vous êtes nouveau sur Phabricator, ces étapes facultatives peuvent vous aider à apprendre les bases. Conceptuellement, Phabricator est structuré sous forme d’un graphe qui lie les dépôts, les tâches et les projets, tous indépendants les uns des autres. Soyez libre d’installer Phabricator selon la façon avec laquelle vous travaillez le mieux et explorez ces fonctionnalités à votre propre rythme.",
+	"7bed49546c4f7ce3": "Si vous êtes nouveau sur ce logiciel, ces étapes facultatives peuvent vous aider à apprendre les bases. N'hésitez pas à installer des choses selon vos habitudes de travail et explorez ces fonctionnalités à votre propre rythme.",
 	"7e11e4c66d7f235a": "Vous avez créé au moins un dépôt.",
 	"929a28d261428029": "Guides",
-	"9996bca0cdf61984": "Apprendre comment configurer les courriels et autres options dans Phabricator.",
-	"9f99c9fd6e043aff": "Inviter le reste de votre équipe à commencer sur Phabricator.",
+	"9996bca0cdf61984": "Apprenez comment configurer les courriels et autres options.",
+	"9f99c9fd6e043aff": "Invitez le reste de votre équipe à se lancer.",
 	"a1867bd6bfd5b2ad": "Paramètres du compte utilisateur",
 	"b3bd51b127ff1311": "Vous avez ajusté au moins un paramètre dans votre compte.",
-	"b42a237a5f96cad0": "Phabricator peut délivrer des notifications en temps réel avec des WebSockets.",
+	"b42a237a5f96cad0": "Les notifications en temps réel peuvent être délivrées avec WebSockets.",
 	"b5a15bad1cc08996": "Personnaliser votre installation",
 	"b801b9ccdc229d9a": "Inviter des collaborateurs",
 	"c217cb0f9b995a3d": "Vous avez créé au moins un projet.",
@@ -41,6 +42,6 @@
 	"d8d1d5a6042642e8": "Deux extensions d’assistance ont généré une assistance avec la même clé (« $1 »). Chaque pièce d’assistance doit avoir une clé unique.",
 	"e7643788502a37ce": "Serveur de notification",
 	"f023a66281396c8e": "Résoudre les problèmes d’installation",
-	"f80e61793246923f": "Les fournisseurs d’authentification permettent aux utilisateurs de s’inscrire avec leur compte et de se connecter à Phabricator.",
+	"f80e61793246923f": "Les fournisseurs d’authentification permettent aux utilisateurs de s’inscrire et de se connecter.",
 	"fa9a5794e77589de": "Vous avez résolu (ou ignoré) tous les problèmes d’installation non résolus."
 }
