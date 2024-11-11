@@ -133,6 +133,7 @@
 	"ebf0167ce96b28e3": "Modifier les chemins : $1",
 	"ec4c1048188f4b55": "Paquet $1",
 	"f121f03b346dc72f": "Ajouter un nouveau chemin",
+	"f1760e79ebadce4f": "Lors de la mise à jour des chemins d'accès d'un paquet, transmettez une liste de dictionnaires en tant que `valeur` pour la transaction comme ceci :\n\n```lang=json, name=\"Exemple de valeur des chemins\"\n[\n {\n \"repositoryPHID\": \"PHID-REPO-1234\",\n \"path\": \"/path/to/directory/\",\n \"excluded\": false\n },\n {\n \"repositoryPHID\": \"PHID-REPO-1234\",\n \"path\": \"/another/example/path/\",\n \"excluded\": false\n }\n]\n```\n\nCette transaction définira les chemins selon la liste que vous fournissez, en écrasant tous les chemins précédents.\n\nEn général, vous appellerez d'abord `owners.search` pour obtenir une liste des chemins actuels (qui sont fournis dans le même format), apporterez des modifications, puis les mettrez à jour en appliquant une transaction de ce type.",
 	"f21e1ba83e8ff6ac": "$1 a modifié la règle d’audit de ce paquet de $2 en $3.",
 	"f4610974c0efc565": "Activer les paquets",
 	"f4c16b17ee40f587": "Exclure",

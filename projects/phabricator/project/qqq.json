@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pppery"
+		]
 	},
 	"00bacf55615d1518": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/typeahead/PhabricatorProjectNoProjectsDatasource.php$7 PhabricatorProjectNoProjectsDatasource.php:7]",
 	"018514a3d58aa083": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/icon/PhabricatorProjectIconSet.php$50 PhabricatorProjectIconSet.php:50]",
@@ -395,7 +397,7 @@
 	"97cab9677dd0c4e5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/herald/PhabricatorProjectHeraldFieldGroup.php$8 PhabricatorProjectHeraldFieldGroup.php:8]",
 	"98210afcfab46037": "Variable Types: NONE, PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/query/PhabricatorProjectTriggerSearchEngine.php$112 PhabricatorProjectTriggerSearchEngine.php:112]",
 	"98f32ae2e7e4558d": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/icon/PhabricatorProjectIconSet.php$279 PhabricatorProjectIconSet.php:279]",
-	"98fd625c4504ea59": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/config/PhabricatorProjectConfigOptions.php$55 PhabricatorProjectConfigOptions.php:55]",
+	"98fd625c4504ea59": "The single line breaks can be ignored by translators as Phabricator will replace them with spaces anyway.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/config/PhabricatorProjectConfigOptions.php$55 PhabricatorProjectConfigOptions.php:55]",
 	"9a6d4aab7ab38c45": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/controller/PhabricatorProjectSubprojectsController.php$70 PhabricatorProjectSubprojectsController.php:70]",
 	"9b8c4d3131ab0027": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/editor/PhabricatorProjectTransactionEditor.php$154 PhabricatorProjectTransactionEditor.php:154]",
 	"9bfc4b09b69f88d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/project/controller/PhabricatorProjectMembersViewController.php$188 PhabricatorProjectMembersViewController.php:188]",

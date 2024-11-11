@@ -1,13 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"SleaY"
 		]
 	},
+	"00b7400dccc94de0": "Pour chaque action effectuée par un utilisateur, phabricator enregistre une ou plusieurs transactions. Le type de transaction reflète l'action effectuée. Lorsque Antivandalism analyse l'activité de l'utilisateur, un score de base est attribué à chaque transaction, puis les scores sont additionnés et multipliés par un facteur basé sur la rapidité de l'action effectuée par l'utilisateur. Une édition plus rapide produit un multiplicateur plus important. Le score final est comparé à la valeur dans **antivandalism.max-score**. Si le score est trop élevé, le compte est alors soit déconnecté de toutes les sessions, soit désactivé. Pour personnaliser les scores, fournissez une carte au format json des clés de type de transaction avec des valeurs à virgule flottante. Dans la plupart des cas, les valeurs doivent être comprises entre 0,0 et 1,0 pour tous les types de transaction.",
 	"09858ae94db095dc": "Anti-Vandalisme",
+	"0f14b2b49300d680": "calcule le score pour les transactions déterminées.",
 	"13b79979748bc524": "Vandalisme détecté",
+	"32b9e4245f21e239": "Le nom d'utilisateur pour lequel les transactions seront annulées.",
 	"34341b9c44b90404": "Aucun vandalisme détecté.",
+	"3e3256409c23cb9f": "La période de temps examinée pour la notation des modifications effectuées par un utilisateur.",
+	"43d2887d271d42fe": "Ajustez les scores de base pour chaque type de transaction",
+	"57688ae6dc82ea98": "Mettez en quarantaine le compte vandale.",
+	"6c5c90c9a588b819": "Nombre de tâches qu'un nouvel utilisateur peut modifier avant que nous réagissions.",
+	"75192b8a0064c97a": "Vous devez fournir soit --user, soit --user-phid",
+	"762ca6690cc5f6e9": "Options de réglage du filtre antivandalism.",
+	"9d27f0e6eb15e9ee": "Désactive les comptes des vandales lorsque ces limites sont dépassées",
+	"ae921fb953da171b": "Le nom ou le PHID de l’utilisateur spécifié n’a pas été trouvé",
 	"c87f0b0117f8b84f": "Désactivez les comptes vandales.",
+	"c8e32e0e61bd8e64": "Le nom d'utilisateur pour lequel les transactions seront calculées.",
+	"c918ee254f7290e8": "$1 a déclenché des contre-mesures de vandalisme ($2) en modifiant $3.",
 	"f34ac77f7e82d8ff": "Aucune action",
 	"faa0b89058a6fbd0": "Scan pour le vandalisme"
 }
