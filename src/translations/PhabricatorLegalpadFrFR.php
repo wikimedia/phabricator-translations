@@ -9,6 +9,22 @@ final class PhabricatorLegalpadFrFR
 
   protected function getTranslations() {
     return array(
+      '%s:
+    This email address was used to sign a Legalpad document in %s:
+      %s
+    Please verify you own this email address and accept the agreement by clicking this link:
+      %s
+    Your signature is not valid until you complete this verification step.
+    You can review the document here:
+      %s
+    ' => '%s :
+    L\'adresse courriel suivante a été utilisée pour signer un document Legalpad sur %s :
+      %s 
+    Veuillez vérifier que vous êtes le propriétaire de cette adresse courriel et accepter l\'accord en cliquant sur ce lien :
+      %s 
+    Votre signature ne sera pas valide tant que vous n\'aurez pas terminé cette étape de vérification.
+    Vous pouvez consulter le document ici :
+      %s',
       'All Signatures' => 'Toutes les signatures',
       'Unverified Email' => 'Adresse de courriel non vérifiée',
       'Create New Document' => 'Créer un nouveau document',
@@ -30,11 +46,15 @@ final class PhabricatorLegalpadFrFR
       'Document Title.' => 'Titre du document.',
       'A valid email is required.' => 'Une adresse de courriel valide est exigée.',
       'Only documents with signature type "individual" may require signing to log in.' => 'Seuls les documents avec le type de signature « individuelle » peuvent exiger une signature pour se connecter.',
+      'Document signers' => 'Signataires du document',
       'Unable to Verify Signature' => 'Impossible de vérifier la signature',
+      'Legalpad Document Body' => 'Corps du document Legalpad',
       'Signed By' => 'Signé par',
+      'Read information about legalpad document signatures.' => 'Lire des informations concernant les signatures du document Legalpad.',
+      'Get the full content for each document.' => 'Obtenir le contenu complet de chaque document.',
       'Contact Email' => 'Courriel de contact',
       'Document Body' => 'Corps du document',
-      'The PHID of the signer' => 'Le PHID du signataire.',
+      'The PHID of the signer' => 'Le PHID du signataire',
       'Contact name is required.' => 'Le nom de contact est exigé.',
       'No signatures match the query.' => 'Aucune signature ne correspond à la requête.',
       'Interacting with Legalpad Documents' => 'En interaction avec des documents Legalpad',
@@ -44,18 +64,20 @@ final class PhabricatorLegalpadFrFR
       'The body of text of the document.' => 'Le corps de texte du document.',
       'Not Signed' => 'Non signé',
       '%s document(s) are already signed: %s.' => '%s document(s) est/sont déjà signé(s) : %s.',
-      'You must choose a company to add an exemption for.' => 'Vous devez choisir une entreprise pour laquelle il faut ajouter une exemption.',
+      'You must choose a company to add an exemption for.' => 'Vous devez choisir une entreprise pour laquelle il faut ajouter une dispense.',
       '%s set the document %s to not require signatures.' => '%s a modifié le document %s pour ne plus exiger de signatures.',
       '%s edited %s required legal document(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s document(s) juridique(s) exigé(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
       'Email Contains' => 'Le courriel contient',
       'Signature Already Verified' => 'Signature déjà vérifiée',
       'You do not have permission to create new documents.' => 'Vous n’avez pas la permission de créer de nouveaux documents.',
+      'This user who created this document' => 'L\'utilisateur qui a créé ce document',
       'This document has an unknown signature type ("%s").' => 'Ce document a un type de signature inconnu (« %s »).',
       '[Legalpad]' => '[Legalpad]',
-      'The name used by the signer.' => 'Le nom du signataire.',
+      'The name used by the signer.' => 'Le nom utilisé par le signataire.',
       'Legalpad Documents' => 'Documents Legalpad',
       'Legalpad Signatures' => 'Signatures Legalpad',
       'You signed this document on %s.' => 'Vous avez signé ce document le %s.',
+      'Create documents and track signatures.' => 'Créez des documents et suivez les signatures.',
       'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Merci de signer ce document. Veuillez consulter vos courriels pour vérifier votre signature et compléter le processus.',
       'Last Updated' => 'Dernière mise à jour',
       'Read information about legalpad documents.' => 'Lire les informations concernant les documents de Legalpad.',
@@ -67,6 +89,7 @@ final class PhabricatorLegalpadFrFR
       'Signature Required to Log In' => 'Signature exigée pour se connecter',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'Voir / signer le document',
+      'Legalpad Signature' => 'Signature Legalpad',
       'Mail receiver is not a LegalpadDocument!' => 'Le destinataire du courriel n’est pas un document Legalpad valide (\'\'LegalpadDocument\'\') !',
       'You must choose a user to exempt.' => 'Vous devez choisir un utilisateur à exempter.',
       'You have already signed this document!' => 'Vous avez déjà signé ce document !',
@@ -80,7 +103,7 @@ final class PhabricatorLegalpadFrFR
       '%s updated the document text for %s.' => '%s a mis à jour le texte du document %s.',
       '%s added %s required legal document(s) to %s: %s.' => '%s a ajouté %s document(s) juridique(s) exigé(s) à %s : %s.',
       'Email field is required.' => 'Le champ d’adresse de courriel est exigé.',
-      'The email used by the signer.' => 'L’adresse courriel du signataire.',
+      'The email used by the signer.' => 'L’adresse courriel utilisée par le signataire.',
       'Exempt User' => 'Utilisateur dispensé',
       'Company address is required.' => 'L’adresse de l\'entreprise est exigée.',
       'Contact Name' => 'Nom de contact',
@@ -106,9 +129,13 @@ final class PhabricatorLegalpadFrFR
       'The preamble of the document.' => 'Le préambule du document.',
       '%s set the document to require signatures.' => '%s a défini que le document exige des signatures.',
       'Individuals' => 'Individuels',
+      'Whether or not this signature is an exemption' => 'Si cette signature est ou non une dispense',
+      'Search for signatures with a name containing the given string.' => 'Rechercher des signatures avec un nom contenant une chaîne donnée.',
+      'The PHID of the document' => 'Le PHID du document',
       'New document title.' => 'Nouveau titre de document.',
       'Configure creation and editing documents in Legalpad.' => 'Configurer la création et la modification de documents dans Legalpad.',
       'Signature Verified' => 'Signature vérifiée',
+      'The number of versions of this document' => 'Le nombre de versions de ce document',
       'NOTE: You can only see your own signatures and signatures on documents you have permission to edit.' => 'Remarque : vous ne pouvez voir que vos propres signatures et les signatures sur les documents que vous êtes autorisé(e) à modifier.',
       '%s updated the document preamble for %s.' => '%s a mis à jour le préambule du document %s.',
       'Legalpad User Guide' => 'Guide utilisateur de Legalpad',
@@ -125,6 +152,7 @@ final class PhabricatorLegalpadFrFR
       'Configure Legalpad Forms' => 'Configurer les formulaires de Legalpad',
       'The signature verification code is incorrect, or the signature has been invalidated. Make sure you followed the link in the email correctly.' => 'Le code de vérification de la signature est incorrect, ou bien la signature a été invalidée. Assurez-vous d’avoir correctement suivi le lien inclus dans le courriel.',
       'Agreements and Signatures' => 'Accords et signatures',
+      'Search for signatures on the given documents' => 'Rechercher des signatures sur les documents indiqués',
       '%s updated the document signature type for %s.' => '%s a mis à jour le type de signature du document pour %s.',
       'Required Signature' => 'Signature exigée',
       'Verify Signature?' => 'Vérifier la signature ?',
@@ -136,6 +164,7 @@ final class PhabricatorLegalpadFrFR
       'New document body.' => 'Nouveau corps de document.',
       'Search for signatures by given users.' => 'Rechercher des signatures par des utilisateurs donnés.',
       'Marks this document as required signing.' => 'Marque ce document comme devant être signé.',
+      'The title of this document' => 'Le titre de ce document',
       'Signers' => 'Signataires',
       'Search for documents with given contributors.' => 'Rechercher des documents avec des contributeurs donnés.',
       'Signatures' => 'Signatures',
@@ -144,6 +173,8 @@ final class PhabricatorLegalpadFrFR
       'Signed Older Version' => 'Ancienne version signée',
       'CHANGES TO DOCUMENT TEXT' => 'CHANGEMENTS AU TEXTE DU DOCUMENT',
       'Version %d (%s)' => 'Version %s (%s)',
+      'Get the signer list for the project.' => 'Obtenir la liste des signataires de ce projet.',
+      'Whether signatures on this doc are required to use this install' => 'Si des signatures sur ce document sont requises pour utiliser cette installation',
       'You have not signed this document yet.' => 'Vous n’avez pas encore signé ce document.',
       'Require signatures' => 'Exiger des signatures',
       'Contact email is required.' => 'L’adresse de courriel de contact est nécessaire.',
@@ -152,8 +183,10 @@ final class PhabricatorLegalpadFrFR
       'Verified, Current' => 'Vérifiée, version actuelle',
       'Signing User' => 'Utilisateur signataire',
       'That user has already signed this document.' => 'Cet utilisateur a déjà signé ce document.',
+      'Search for signatures with an email containing the given string.' => 'Rechercher des signatures avec un courriel contenant une chaîne donnée.',
       'New document signature type.' => 'Nouveau type de signature du document.',
       'Sign Document' => 'Signer le document',
+      'The PHID of the user who granted the exemption' => 'Le PHID de l\'utilisateur qui a accordé la dispense',
     );
   }
 

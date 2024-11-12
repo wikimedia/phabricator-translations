@@ -72,6 +72,96 @@ final class PhabricatorManiphestFrFR
       '%s changed file(s), attached %s: %s; detached %s: %s.' => '%s a modifié des fichiers, en a attaché %s : %s ; en a détaché %s : %s.',
       '%s closed this task as a duplicate of %s.' => '%s a clos cette tâche en tant que doublon de %s.',
       'Set Sail for Adventure' => 'Lever l’ancre pour l’aventure',
+      'Allows you to edit, add, or remove the task statuses available in Maniphest,
+    like "Open", "Resolved" and "Invalid". The configuration should contain a map
+    of status constants to status specifications (see defaults below for examples).
+    The constant for each status should be 1-12 characters long and  contain only
+    lowercase letters and digits. Valid examples are "open", "closed", and
+    "invalid". Users will not normally see these values.
+    The keys you can provide in a specification are:
+      - `name` //Required string.// Name of the status, like "Invalid".
+      - `name.full` //Optional string.// Longer name, like "Closed, Invalid". This
+        appears on the task detail view in the header.
+      - `name.action` //Optional string.// Action name for email subjects, like
+        "Marked Invalid".
+      - `closed` //Optional bool.// Statuses are either "open" or "closed".
+        Specifying `true` here will mark the status as closed (like "Resolved" or
+        "Invalid"). By default, statuses are open.
+      - `special` //Optional string.// Mark this status as special. The special
+        statuses are:
+        - `default` This is the default status for newly created tasks. You must
+          designate one status as default, and it must be an open status.
+        - `closed` This is the default status for closed tasks (for example, tasks
+          closed via the "!close" action in email or via the quick close button in
+          Maniphest). You must designate one status as the default closed status,
+          and it must be a closed status.
+        - `duplicate` This is the status used when tasks are merged into one
+          another as duplicates. You must designate one status for duplicates,
+          and it must be a closed status.
+      - `transaction.icon` //Optional string.// Allows you to choose a different
+        icon to use for this status when showing status changes in the transaction
+        log. Please see UIExamples, Icons and Images for a list.
+      - `transaction.color` //Optional string.// Allows you to choose a different
+        color to use for this status when showing status changes in the transaction
+        log.
+      - `silly` //Optional bool.// Marks this status as silly, and thus wholly
+        inappropriate for use by serious businesses.
+      - `prefixes` //Optional list<string>.// Allows you to specify a list of
+        text prefixes which will trigger a task transition into this status
+        when mentioned in a commit message. For example, providing "closes" here
+        will allow users to move tasks to this status by writing `Closes T123` in
+        commit messages.
+      - `suffixes` //Optional list<string>.// Allows you to specify a list of
+        text suffixes which will trigger a task transition into this status
+        when mentioned in a commit message, after a valid prefix. For example,
+        providing "as invalid" here will allow users to move tasks
+        to this status by writing `Closes T123 as invalid`, even if another status
+        is selected by the "Closes" prefix.
+      - `keywords` //Optional list<string>.// Allows you to specify a list
+        of keywords which can be used with `!status` commands in email to select
+        this status.
+      - `disabled` //Optional bool.// Marks this status as no longer in use so
+        tasks can not be created or edited to have this status. Existing tasks with
+        this status will not be affected, but you can batch edit them or let them
+        die out on their own.
+      - `claim` //Optional bool.// By default, closing an unassigned task claims
+        it. You can set this to `false` to disable this behavior for a particular
+        status.
+      - `locked` //Optional string.// Lock tasks in this status. Specify "comments"
+        to lock comments (users who can edit the task may override this lock).
+        Specify "edits" to prevent anyone except the task owner from making edits.
+      - `mfa` //Optional bool.// Require all edits to this task to be signed with
+        multi-factor authentication.
+    Statuses will appear in the UI in the order specified. Note the status marked
+    `special` as `duplicate` is not settable directly and will not appear in UI
+    elements, and that any status marked `silly` does not appear if the software
+    is configured with `phabricator.serious-business` set to true.
+    Examining the default configuration and examples below will probably be helpful
+    in understanding these options.
+    ' => 'Vous permet de modifier, ajouter ou supprimer les statuts des tâches disponibles dans Maniphest, comme
+    « Ouvert », « Résolu » ou « Invalide ». La configuration doit contenir une carte des constantes de statut avec les spécifications de statut (voir les valeurs par défaut ci-dessous pour des exemples).
+    La constante de chaque statut doit comporter entre 1 et 12 caractères et ne contenir que des lettres minuscules et des chiffres. Les exemples valides sont « ouvert », « fermé » et « invalide ». Les utilisateurs ne verront normalement pas ces valeurs.
+    Les clés que vous pouvez fournir dans une spécification sont :
+      - `name` //Chaîne obligatoire.// Nom du statut, comme « Invalide ».
+      - `name.full` //Chaîne facultative.// Nom plus long, comme « Fermé, Invalide ». Cela apparaît dans la vue détaillée de la tâche dans l\'en-tête.
+      - `name.action` //Chaîne facultative.// Nom de l\'action pour les sujets des e-mails, comme « Marqué comme invalide ».
+      - `closed` //Booléen facultatif.// Les statuts sont soit « ouvert » soit « fermé ». En spécifiant `true` ici, le statut sera marqué comme fermé (comme avec « Résolu » ou « Invalide »). Par défaut, les statuts sont ouverts.
+      - `special` //Chaîne facultative.// Marque ce statut comme spécial. Les statuts spéciaux sont :
+        * `default` Il s\'agit du statut par défaut pour les tâches nouvellement créées. Vous devez désigner un statut le statut par default, et il doit s\'agir d\'un statut ouvert.
+        * `closed` Il s\'agit du statut par défaut pour les tâches fermées (par exemple, les tâches fermées via l\'action "!close" dans l\'e-mail ou via le bouton de fermeture rapide dans Maniphest). Vous devez désigner un statut comme le statut fermé par défaut, et il doit s\'agir d\'un statut fermé.
+        * `duplicate` Il s\'agit du statut utilisé lorsque des tâches sont fusionnées les unes dans les autres en tant que doublons. Vous devez désigner un statut pour les doublons, et il doit s\'agir d\'un statut fermé.
+      - `transaction.icon` //Chaîne facultative.// Vous permet de choisir une autre icône à utiliser pour ce statut lors de l\'affichage des changements de statut dans le journal des transactions. Veuillez consulter UIExamples, Icons and Images pour une liste.
+      - `transaction.color` //Chaîne facultative.// Vous permet de choisir une autre couleur à utiliser pour ce statut lors de l\'affichage des changements de statut dans le journal des transactions.
+      - `silly` //Booléen facultatif.// Marque ce statut comme stupide, et donc totalement inapproprié pour une utilisation dans des activités sérieuses.
+      - `prefixes` //Liste facultative<chaîne>.// Vous permet de spécifier une liste de préfixes textuels qui déclencheront une transition de tâche vers ce statut lorsqu\'ils sont mentionnés dans un message de validation. Par exemple, fournir "closes" ici permettra aux utilisateurs de déplacer des tâches vers ce statut en écrivant `Closes T123` dans les messages de validation.
+      - `suffixes` //Liste facultative<chaîne>.// Permet de spécifier une liste de suffixes textuels qui déclencheront une transition de tâche vers cet état lorsqu\'ils sont mentionnés dans un message de validation, après un préfixe valide. Par exemple, fournir "as invalide" ici permettra aux utilisateurs de déplacer des tâches vers cet état en écrivant `Closes T123 as invalide`, même si un autre état est sélectionné par le préfixe "Closes".
+      - `keywords` //Liste facultative<chaîne>.// Permet de spécifier une liste de mots-clés qui peuvent être utilisés avec les commandes `!status` dans l\'e-mail pour sélectionner cet état.
+      - `disabled` //Booléen facultatif.// Marque cet état comme n\'étant plus utilisé, les tâches ne peuvent donc pas être créées ou modifiées pour avoir cet état. Les tâches existantes avec cet état ne seront pas affectées, mais vous pouvez les modifier par lots ou les laisser s\'éteindre d\'elles-mêmes.
+      - `claim` //Booléen facultatif.// Par défaut, la fermeture d\'une tâche non attribuée la revendique. Vous pouvez définir cette valeur sur `false` pour désactiver ce comportement pour un état particulier.
+      - `locked` //Chaîne facultative.// Verrouille les tâches dans cet état. Spécifiez "comments" pour verrouiller les commentaires (les utilisateurs qui peuvent modifier la tâche peuvent outrepasser ce verrou). Spécifiez "edits" pour empêcher quiconque, à l\'exception du propriétaire de la tâche, d\'effectuer des modifications.
+      - `mfa` //Booléen facultatif.// Exige que toutes les modifications apportées à cette tâche soient signées avec l\'authentification multifacteur.
+    Les statuts apparaîtront dans l\'interface utilisateur dans l\'ordre spécifié. Notez que les statuts marqués `special` et `duplicate` ne sont pas paramétrables directement et n\'apparaîtront pas dans les éléments de l\'interface utilisateur, et que tout état marqué `silly` n\'apparaît pas si le logiciel est configuré avec `phabricator.serious-business` défini sur true.
+    L’examen de la configuration par défaut et des exemples ci-dessous sera probablement utile pour comprendre ces options.',
       'Recently Closed' => 'Fermé récemment',
       'One of a task\'s subtasks changes status.' => 'Une des sous-tâches d’une tâche a changé d’état.',
       'Assigned Task' => 'Tâche affectée',
@@ -79,6 +169,22 @@ final class PhabricatorManiphestFrFR
       '%s updated the cover image for %s.' => '%s a modifié l’image de couverture pour %s.',
       'Transaction specifies both "beforePHID" and "beforePHIDs". Specify only "beforePHIDs".' => 'La transaction spécifie à la fois « beforePHID » et « beforePHIDs » (avant et après les PHID). Spécifiez uniquement « beforePHIDs ».',
       '%s updated the task description for %s.' => '%s a modifié la description de la tâche pour %s.',
+      'Activates a points field on tasks. You can use points for estimation or
+    planning. If configured, points will appear on workboards.
+    To activate points, set this value to a map with these keys:
+      - `enabled` //Optional bool.// Use `true` to enable points, or
+        `false` to disable them.
+      - `label` //Optional string.// Label for points, like "Story Points" or
+        "Estimated Hours". If omitted, points will be called "Points".
+      - `action` //Optional string.// Label for the action which changes points
+        in Maniphest, like "Change Estimate". If omitted, the action will
+        be called "Change Points".
+    See the example below for a starting point.' => 'Active un champ de points sur les tâches. Vous pouvez utiliser des points pour l\'estimation ou la planification. S\'ils sont configurés, les points apparaîtront sur les tableaux de travail.
+    Pour activer les points, définissez cette valeur sur une carte avec ces clés :
+    - `enabled` //Booléen facultatif.// Utilisez `true` pour activer les points ou `false` pour les désactiver.
+    - `label` //Chaîne facultative.// Libellé pour les points, comme « Points d\'histoire » ou « Heures estimées ». S\'il est omis, les points seront appelés « Points ».
+    - `action` //Chaîne facultative.// Libellé pour l\'action qui modifie les points dans Maniphest, comme « Change Estimate ». S\'il est omis, l\'action sera appelée « Change Estimate ».
+    Voir l\'exemple ci-dessous comme point de départ.',
       'Status set to invalid value.' => 'État défini à une valeur invalide.',
       'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => 'L’état « %s » est marqué comme par défaut, mais c’est un état fermé. L’état par défaut doit être un état ouvert.',
       '[Maniphest]' => '[Maniphest]',
@@ -215,8 +321,93 @@ final class PhabricatorManiphestFrFR
       '%s changed the point value for %s from %s to %s.' => '%s a modifié la valeur du point pour %s de %s en %s.',
       '%s removed %s mock(s) for %s: %s.' => '%s a retiré %s simulateur(s) pour %s : %s.',
       '%s created this task.' => '%s a créé cette tâche.',
+      'You can use this transaction type to create a task into a particular workboard
+    column, or move an existing task between columns.
+    The transaction value can be specified in several forms. Some are simpler but
+    less powerful, while others are more complex and more powerful.
+    The simplest valid value is a single column PHID:
+    ```lang=json
+    "PHID-PCOL-1111"
+    ```
+    This will move the task into that column, or create the task into that column
+    if you are creating a new task. If the task is currently on the board, it will
+    be moved out of any exclusive columns. If the task is not currently on the
+    board, it will be added to the board.
+    You can also perform multiple moves at the same time by passing a list of
+    PHIDs:
+    ```lang=json
+    ["PHID-PCOL-2222", "PHID-PCOL-3333"]
+    ```
+    This is equivalent to performing each move individually.
+    The most complex and most powerful form uses a dictionary to provide additional
+    information about the move, including an optional specific position within the
+    column.
+    The target column should be identified as `columnPHID`, and you may select a
+    position by passing either `beforePHIDs` or `afterPHIDs`, specifying the PHIDs
+    of tasks currently in the column that you want to move this task before or
+    after:
+    ```lang=json
+    [
+      {
+        "columnPHID": "PHID-PCOL-4444",
+        "beforePHIDs": ["PHID-TASK-5555"]
+      }
+    ]
+    ```
+    When you specify multiple PHIDs, the task will be moved adjacent to the first
+    valid PHID found in either of the lists. This allows positional moves to
+    generally work as users expect even if the client view of the board has fallen
+    out of date and some of the nearby tasks have moved elsewhere.' => 'Vous pouvez utiliser ce type de transaction pour créer une tâche dans une colonne particulière du tableau de travail ou déplacer une tâche existante entre les colonnes.
+    La valeur de la transaction peut être spécifiée sous plusieurs formes. Certaines sont plus simples mais moins puissantes, tandis que d\'autres sont plus complexes et plus puissantes.
+    La valeur valide la plus simple est une colonne unique PHID :
+    ```lang=json
+    !"PHID-PCOL-1111"
+    ```
+    Cela déplacera la tâche dans cette colonne ou créera la tâche dans cette colonne si vous créez une nouvelle tâche. Si la tâche est actuellement sur le tableau, elle sera déplacée hors de toutes les autres colonnes. Si la tâche n\'est pas actuellement sur le tableau, elle sera ajoutée au tableau.
+    Vous pouvez également effectuer plusieurs déplacements en même temps en transmettant une liste de PHID :
+    ```lang=json
+    ["PHID-PCOL-2222", "PHID-PCOL-3333"]
+    ```
+    Cela équivaut à effectuer chaque déplacement individuellement.
+    La forme la plus complexe et la plus puissante utilise un dictionnaire pour fournir des informations supplémentaires sur le déplacement, y compris une position spécifique facultative dans la colonne.
+    La colonne cible doit être identifiée comme `columnPHID`, et vous pouvez sélectionner une position en transmettant soit `beforePHIDs` soit `afterPHIDs`, en spécifiant les PHID des tâches actuellement dans la colonne avant lesquelles vous souhaitez déplacer cette tâche ou après :
+    ```lang=json
+    [
+      {
+        "columnPHID": "PHID-PCOL-4444",
+        "beforePHIDs": ["PHID-TASK-5555"]
+      }
+    ]
+    ```
+    Lorsque vous spécifiez plusieurs PHID, la tâche sera déplacée à côté du premier PHID valide trouvé dans l\'une des listes. Cela permet aux déplacements positionnels de fonctionner généralement comme les utilisateurs s\'y attendent, même si la vue client du tableau est devenue obsolète et que certaines des tâches à proximité ont été déplacées ailleurs.',
       'Search...' => 'Rechercher…',
       'Task Graph' => 'Graphique de la tâche',
+      'Allows you to edit or override the default priorities available in Maniphest,
+    like "High", "Normal" and "Low". The configuration should contain a map of
+    numeric priority values (where larger numbers correspond to higher priorities)
+    to priority specifications (see defaults below for examples).
+    The keys you can define for a priority are:
+      - `name` //Required string.// Name of the priority.
+      - `keywords` //Required list<string>.// List of unique keywords which identify
+        this priority, like "high" or "low". Each priority must have at least one
+        keyword and two priorities may not share the same keyword.
+      - `short` //Optional string.// Alternate shorter name, used in UIs where
+        there is less space available.
+      - `color` //Optional string.// Color for this priority, like "red" or
+        "blue".
+      - `disabled` //Optional bool.// Set to true to prevent users from choosing
+        this priority when creating or editing tasks. Existing tasks will not be
+        affected, and can be batch edited to a different priority or left to
+        eventually die out.
+    You can choose the default priority for newly created tasks with
+    "maniphest.default-priority".' => 'Vous permet de modifier ou de remplacer les priorités par défaut disponibles dans Maniphest, comme « Haute », « Normale » et « Basse ». La configuration doit contenir une carte de valeurs de priorité numériques (les nombres les plus élevés correspondant à des priorités plus élevées) aux spécifications de priorité (voir les valeurs par défaut ci-dessous pour des exemples).
+    Les clés que vous pouvez définir pour une priorité sont :
+      - `name` //Chaîne obligatoire.// Nom de la priorité.
+      - `keywords` //Liste obligatoire<chaîne> .// Liste de mots-clés uniques qui identifient cette priorité, comme « haute » ou « basse ». Chaque priorité doit avoir au moins un mot-clé et deux priorités ne peuvent pas partager le même mot-clé.
+      - `short` //Chaîne facultative.// Nom plus court alternatif, utilisé dans les interfaces utilisateur où il y a moins d\'espace disponible.
+      - `color` //Chaîne facultative.// Couleur pour cette priorité, comme « rouge » ou « bleu ».
+      - `disabled` //Booléen facultatif.// Définissez sur true pour empêcher les utilisateurs de choisir cette priorité lors de la création ou de la modification de tâches. Les tâches existantes ne seront pas affectées et peuvent être modifiées par lots avec une priorité différente ou laissées s\'éteindre éventuellement.
+    Vous pouvez choisir la priorité par défaut pour les tâches nouvellement créées avec "maniphest.default-priority".',
       'Parent IDs' => 'IDs parents',
       'Wishlist' => 'Liste de souhaits',
       'When moving objects between columns on a board, columns must be identified by PHIDs. This transaction uses "%s" to identify a column, but that is not a valid column PHID.' => 'En déplaçant les objets entre les colonnes d’un tableau, les colonnes doivent être identifiées avec des PHID. Cette transaction utilise « %s » pour identifier une colonne, mais ce n’est pas un PHID de colonne valide.',
@@ -235,6 +426,10 @@ final class PhabricatorManiphestFrFR
       '(Ungrouped)' => '(Non groupé)',
       'Task' => 'Tâche',
       'Test rules which run when a task is created or updated.' => 'Règles de test qui s’exécutent quand une tâche est créée ou mise à jour.',
+      'List of custom fields for Maniphest tasks.
+    For details on adding custom fields to Maniphest, see [[ %s | %s ]] in the
+    documentation.' => 'Liste des champs personnalisés pour les tâches Maniphest.
+    Pour plus de détails sur l\'ajout de champs personnalisés à Maniphest, voir [[ %s | %s ]] dans la documentation.',
       'React to tasks being created or updated.' => 'Réagir aux tâches créées ou mises à jour.',
       'Blocker' => 'Bloqueur',
       'Type a task priority name...' => 'Saisir un nom de priorité de tâche...',
@@ -339,13 +534,13 @@ final class PhabricatorManiphestFrFR
       '%s raised the priority of %s from %s to %s.' => '%s a augmenté la priorité de %s de %s à %s.',
       'Edit Mocks' => 'Modifier les maquettes',
       'High' => 'Haute',
-      'Move on Workboard' => 'Déplacer sur le tableau de bord',
+      'Move on Workboard' => 'Déplacer sur le tableau de travail',
       'Search for tasks with given subtypes.' => 'Rechercher les tâches avec les sous-types donnés.',
       'Closer PHID' => 'PHID du clôtureur',
       'The title of the task.' => 'Le titre de la tâche.',
       'Changed Status' => 'État changé',
       'Comma-separated list of task PHIDs.' => 'Liste de PHID de tâche séparés par des virgules.',
-      'Column move transaction specifies column PHID "%s", but there is no corresponding column with this PHID.' => 'La transaction de déplacement de colonne spécifie la colonne PHID « %s », mais il n’y a aucune colonne correspondante avec ce PHID.',
+      'Column move transaction specifies column PHID "%s", but there is no corresponding column with this PHID.' => 'La transaction de déplacement de colonne spécifie la colonne PHID « %s » mais il n’y a aucune colonne correspondante avec ce PHID.',
       'Save Related Mocks' => 'Enregistrer les maquettes associées',
       'Wontfix' => 'Ne sera pas corrigé',
       'List of task PHIDs, as array.' => 'Liste de PHID de tâche, sous forme de tableau.',
@@ -455,6 +650,166 @@ final class PhabricatorManiphestFrFR
       'Closed By' => 'Fermée par',
       'This page documents the commands you can use to interact with tasks in Maniphest. These commands work when creating new tasks via email and when replying to existing tasks.' => 'Cette page documente les commandes que vous pouvez utiliser pour interagir avec les tâches dans Maniphest. Ces commandes fonctionnent lors de la création de nouvelles tâches par courriel et lors des réponses à des tâches existantes.',
       '%s closed this task as %s by committing %s.' => '%s a fermé cette tâche en tant que %s en validant %s.',
+      'Allows you to define task subtypes. Subtypes let you hide fields you don\'t
+    need to simplify the workflows for editing tasks.
+    To define subtypes, provide a list of subtypes. Each subtype should be a
+    dictionary with these keys:
+      - `key` //Required string.// Internal identifier for the subtype, like
+        "task", "feature", or "bug".
+      - `name` //Required string.// Human-readable name for this subtype, like
+        "Task", "Feature Request" or "Bug Report".
+      - `tag` //Optional string.// Tag text for this subtype.
+      - `color` //Optional string.// Display color for this subtype.
+      - `icon` //Optional string.// Icon for the subtype.
+      - `children` //Optional map.// Configure options shown to the user when
+         they "Create Subtask". See below.
+      - `fields` //Optional map.// Configure field behaviors. See below.
+      - `mutations` //Optional list.// Configure which subtypes this subtype
+        can easily be converted to by using the "Change Subtype" action. See below.
+    Each subtype must have a unique key, and you must define a subtype with
+    the key "%s", which is used as a default subtype.
+    The tag text (`tag`) is used to set the text shown in the subtype tag on list
+    views and workboards. If you do not configure it, the default subtype will have
+    no subtype tag and other subtypes will use their name as tag text.
+    The `children` key allows you to configure which options are presented to the
+    user when they "Create Subtask" from a task of this subtype. You can specify
+    these keys:
+      - `subtypes`: //Optional list<string>.// Show users creation forms for these
+        task subtypes.
+      - `forms`: //Optional list<string|int>.// Show users these specific forms,
+        in order.
+    If you don\'t specify either constraint, users will be shown creation forms
+    for the same subtype.
+    For example, if you have a "quest" subtype and do not configure `children`,
+    users who click "Create Subtask" will be presented with all create forms for
+    "quest" tasks.
+    If you want to present them with forms for a different task subtype or set of
+    subtypes instead, use `subtypes`:
+    ```
+      {
+        ...
+        "children": {
+          "subtypes": ["objective", "boss", "reward"]
+        }
+        ...
+      }
+    ```
+    If you want to present them with specific forms, use `forms` and specify form
+    IDs:
+    ```
+      {
+        ...
+        "children": {
+          "forms": [12, 16]
+        }
+        ...
+      }
+    ```
+    When specifying forms by ID explicitly, the order you specify the forms in will
+    be used when presenting options to the user.
+    If only one option would be presented, the user will be taken directly to the
+    appropriate form instead of being prompted to choose a form.
+    The `fields` key can configure the behavior of custom fields on specific
+    task subtypes. For example:
+    ```
+      {
+        ...
+        "fields": {
+          "custom.some-field": {
+            "disabled": true
+          }
+        }
+        ...
+      }
+    ```
+    Each field supports these options:
+      - `disabled` //Optional bool.// Allows you to disable fields on certain
+        subtypes.
+      - `name` //Optional string.// Custom name of this field for the subtype.
+    The `mutations` key allows you to control the behavior of the "Change Subtype"
+    action above the comment area. By default, this action allows users to change
+    the task subtype into any other subtype.
+    If you\'d prefer to make it more difficult to change subtypes or offer only a
+    subset of subtypes, you can specify the list of subtypes that "Change Subtypes"
+    offers. For example, if you have several similar subtypes and want to allow
+    tasks to be converted between them but not easily converted to other types,
+    you can make the "Change Subtypes" control show only these options like this:
+    ```
+      {
+        ...
+        "mutations": ["bug", "issue", "defect"]
+        ...
+      }
+    ```
+    If you specify an empty list, the "Change Subtypes" action will be completely
+    hidden.
+    This mutation list is advisory and only configures the UI. Tasks may still be
+    converted across subtypes freely by using the Bulk Editor or API.
+    ' => 'vous permet de définir des sous-types de tâches. Les sous-types vous permettent de masquer les champs dont vous n\'avez pas besoin pour simplifier les processus de travail pour l\'édition des tâches.
+    Pour définir des sous-types, fournissez une liste de sous-types. Chaque sous-type doit être un dictionnaire avec ces clés :
+      - `key` //Chaîne obligatoire.// Identifiant interne du sous-type, comme « task », « feature » ou « bug ».
+      - `name` //Chaîne obligatoire.// Nom lisible par l\'homme pour ce sous-type, comme « task », « Feature Request » ou « Bug Report ».
+      - `tag` //Chaîne facultative.// Texte de balise pour ce sous-type.
+      - `color` //Chaîne facultative.// Couleur d\'affichage pour ce sous-type.
+      - `icon` //Chaîne facultative.// Icône du sous-type.
+      - `children` //Carte facultative.// Configure les options affichées à l\'utilisateur lorsqu\'il crée une sous-tâche avec « Create Subtask ». Voir plus loin.
+      - `fields` //Carte facultative.// Configure les comportements des champs. Voir plus loin.
+      - `mutations` //Liste facultative.// Configure les sous-types vers lesquels ce sous-type peut facilement être converti en utilisant l\'action « Change Subtype ». Voir plus loin.
+    Chaque sous-type doit avoir une clé unique, et vous devez définir un sous-type avec la clé « %s » qui est utilisée comme sous-type par défaut.
+    Le texte de la balise (`tag`) est utilisé pour définir le texte affiché dans la balise de sous-type sur les vues de liste et les tableaux de travail. Si vous ne le configurez pas, le sous-type par défaut n\'aura aucune balise de sous-type et les autres sous-types utiliseront leur nom comme texte de balise.
+    La clé `children` vous permet de configurer les options présentées à l\'utilisateur lorsqu\'il « Crée une sous-tâche » à partir d\'une tâche de ce sous-type. Vous pouvez spécifier ces clés :
+      - `subtypes` : //Liste facultative de type chaîne.// Affiche les formulaires de création d\'utilisateurs pour ces sous-types de tâches.
+      - `forms`: //Liste facultative de type chaîne ou entier.// Affiche aux utilisateurs ces formulaires spécifiques, dans l\'ordre.
+    Si vous ne spécifiez aucune contrainte, les formulaires de création seront présentés aux utilisateurs à l\'identique du sous-type.
+    Par exemple, si vous avez un sous-type « quest » et que vous ne configurez pas « children », les utilisateurs qui cliquent sur « Create Subtask » se verront présenter tous les formulaires de création des tâches « quest ».
+    Sinon si vous souhaitez leur présenter des formulaires pour un sous-type de tâche différent ou un ensemble de sous-types, utilisez « subtypes » :
+    ```
+      {
+        ...
+        "children": {
+          "subtypes": ["objective", "boss", "reward"]
+        }
+        ...
+      }
+    ```
+    Si vous souhaitez leur présenter des formulaires spécifiques, utilisez `forms` et spécifiez les ID de formulaire :
+    ```
+      {
+        ...
+        "children": {
+          "forms": [12, 16]
+        }
+        ...
+      }
+    ```
+    Lorsque vous spécifiez explicitement des formulaires par ID, l\'ordre dans lequel vous spécifiez les formulaires sera utilisé lors de la présentation des options à l\'utilisateur.
+    Si une seule option est présentée, l\'utilisateur sera directement dirigé vers le formulaire approprié au lieu d\'être invité à choisir un formulaire.
+    La clé `fields` peut configurer le comportement des champs personnalisés pour des sous-types de tâches spécifiques. Par exemple :
+    ```
+      {
+        ...
+        "fields": {
+          "custom.some-field": {
+            "disabled": true
+          }
+        }
+        ...
+      }
+    ```
+    Chaque champ prend en charge ces options :
+      - `disabled` //Booléen facultatif.// Permet de désactiver les champs sur certains sous-types.
+      - `name` //Chaîne facultative.// Nom personnalisé de ce champ pour le sous-type.
+    La clé `mutations` permet de contrôler le comportement de l\'action « Change Subtype » au-dessus de la zone de commentaire. Par défaut, cette action permet aux utilisateurs de changer le sous-type de tâche en n\'importe quel autre sous-type.
+    Si vous préférez rendre plus difficile la modification des sous-types ou proposer uniquement un sous-ensemble de sous-types, vous pouvez spécifier la liste des sous-types que « Change Subtypes » propose. Par exemple, si vous avez plusieurs sous-types similaires et que vous souhaitez autoriser la conversion des tâches entre ceux-ci mais pas leur conversion facile vers d\'autres types, vous pouvez faire en sorte que le contrôle « Change Subtypes » n\'affiche que ces options comme ceci :
+    ...
+      {
+        ...
+        "mutations": ["bug", "issue", "defect"]
+        ...
+      }
+    ```
+    Si vous spécifiez une liste vide, l\'action « Change Subtypes » sera complètement masquée.
+    Cette liste de mutations est consultative et configure uniquement l\'interface utilisateur. Les tâches peuvent toujours être converties librement entre les sous-types à l\'aide de l\'éditeur Bulk ou de l\'API.',
       '%s changed the subtype of this task from "%s" to "%s".' => '%s a changé le sous-type de cette tâche de « %s » en « %s ».',
       'Create a new Maniphest task.' => 'Nouvelle tâche Maniphest.',
       'Create New Task' => 'Créer une nouvelle tâche',

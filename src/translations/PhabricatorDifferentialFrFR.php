@@ -9,7 +9,7 @@ final class PhabricatorDifferentialFrFR
 
   protected function getTranslations() {
     return array(
-      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'Vous ne pouvez ajouter aucun problème JIRA (%s) à cette révision car votre compte Phabricator n’est pas lié à un compte JIRA.',
+      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'Vous ne pouvez pas ajouter de problèmes JIRA (%s) à cette révision car votre compte %s n\'est pas lié à un compte JIRA.',
       'Review the diff for correctness. When you are satisfied, either **create a new revision** or **update an existing revision**.' => 'Passez en revue ce diff pour vous assurer que tout est correct. Quand vous serez satisfait, **créez une nouvelle révision**, ou bien **mettez à jour une révision existante**.',
       'New repository.' => 'Nouveau dépôt.',
       'Tests Skipped' => 'Tests sautés',
@@ -266,6 +266,7 @@ final class PhabricatorDifferentialFrFR
       'Add me as a reviewer' => 'M’ajouter en tant que relecteur',
       'You have no draft revisions.' => 'Vous n’avez aucune version en ébauche.',
       '%s updated the diff for %s.' => '%s a mis à jour le diff pour %s.',
+      'Revision' => 'Révision',
       'Test rules which run when a revision is created or updated.' => 'Règles de test qui s’exécutent quand une version est créée ou mise à jour.',
       '%s ERROR(S)' => array(
         '%s ERREUR',
@@ -455,7 +456,7 @@ final class PhabricatorDifferentialFrFR
       'Commit "%s" is not valid.' => 'La validation « %s » n’est pas valide.',
       'You can not commandeer this revision because you already own it.' => 'Vous ne pouvez pas prendre la main sur cette version car vous la possédez déjà.',
       '%s abandoned %s.' => '%s a abandonné %s.',
-      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Si vous mettez cela à vrai, Phabricator attachera les rustines au courriel de Differential (sous forme de textes en pièces jointes). Cela ne fonctionnera pas si vous utilisez SendGrid comme votre adaptateur de messagerie.',
+      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Si vous mettez cela à true, les correctifs seront attachés au courriel de Differential (sous forme de textes en pièces jointes). Cela ne fonctionnera pas si vous utilisez SendGrid comme adaptateur de messagerie.',
       'Must Review' => 'Doit être relu',
       'Load all diffs for given revisions from Differential.' => 'Charger tous les diffs pour les versions de Differential données.',
       'Options "--to" (to choose a specific storage format) and "--auto" (to select a storage format automatically) are mutually exclusive.' => 'Les options « --to » (pour choisir un format de stockage spécifique) et « --auto » (pour sélectionner automatiquement un format de stockage approprié) sont mutuellement exclusives.',
@@ -479,6 +480,14 @@ final class PhabricatorDifferentialFrFR
       'Unknown revision status filter constant "%s".' => 'Constante de filtre d’état de révision « %s » inconnue.',
       'No Reviewers' => 'Aucun relecteur',
       'Requested A Review Of' => 'Relecture requise de',
+      'To include patches inline in email bodies, set this option to a positive
+    integer. Patches will be inlined if they are at most that many lines and at
+    most 256 times that many bytes.
+    For example, a value of 100 means "inline patches if they are at not more than
+    100 lines long and not more than 25,600 bytes large".
+    By default, patches are not inlined.' => 'Pour inclure des correctifs en ligne dans le corps des courriels, remplissez cette option avec un entier positif. Les correctifs seront intégrés s\'ils contiennent au maximum ce nombre de lignes et au maximum 256 fois ce nombre d\'octets.
+    Par exemple, une valeur de 100 signifie « correctifs intégrés s\'ils ne font pas plus de 100 lignes de long et pas plus de 25 600 octets ».
+    Par défaut, les correctifs ne sont pas intégrés.',
       'Retrieve a raw diff' => 'Récupérer un diff brut',
       'CHANGES TO REVISION SUMMARY' => 'CHANGEMENTS AU RÉSUMÉ DE RÉVISION',
       'Failed to load revision for Herald adapter construction!' => 'Échec du chargement de la version pour la construction de l’adaptateur Herald !',
@@ -754,7 +763,7 @@ final class PhabricatorDifferentialFrFR
       'Change autosubmission from draft state after builds finish.' => 'Changer la soumission automatique depuis l’état de brouillon une fois les constructions terminées.',
       '%s removed %s parent revision(s): %s.' => '%s a retiré %s révision(s) parente(s) : %s.',
       'You can not commandeer this revision because you are already the author.' => 'Vous ne pouvez pas réquisitionner cette version parce que vous en êtes déjà l’auteur.',
-      'You can not plan changes to this revision because it has already been closed.' => 'Vous ne pouvez planifier aucune modification de cette version parce qu’elle a déjà été clôturée.',
+      'You can not plan changes to this revision because it has already been closed.' => 'Vous ne pouvez planifier de modification à cette révision parce qu’elle a déjà été fermée.',
       'Request Review' => 'Demande de relecture',
       '%s added an inline comment.' => '%s a ajouté un commentaire inclus.',
       '%s created this revision.' => '%s a créé cette version.',
@@ -858,7 +867,7 @@ final class PhabricatorDifferentialFrFR
       'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
     If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
     This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normalement, les révisions sous Differential restent sur le tableau de bord lorsqu’elles sont « Acceptées », l’auteur valide ensuite les changements pour « Fermer » la révision et la retirer du tableau de bord.
-    Si vous avez un flux de travail inhabituel, où Differential est utilisé pour la relecture post-validation (normalement appelée « Audit » ailleurs dans Phabricator), vous pouvez régler cet indicateur pour considérer l’état « Accepté » en tant qu’état «Fermé » et mettre fin au flux de travail de relecture de façon anticipée.
+    Si vous avez un flux de travail inhabituel, où Differential est utilisé pour la relecture post-validation (généralement appelée « Audit » ailleurs), vous pouvez régler cet indicateur pour considérer l’état « Accepté » en tant qu’état «Fermé » et mettre fin au flux de travail de relecture de façon anticipée.
     Ce genre de flux de travail est très inhabituel. Très peu d’installations nécessitent de changer cette option.',
       'Load the content of a revision from Differential.' => 'Charger le contenu d’une révision de Differential.',
       'This symlink was deleted.' => 'Ce lien symbolique a été supprimé.',
@@ -895,9 +904,9 @@ final class PhabricatorDifferentialFrFR
       'Failed to load file ("%s") with hunk data.' => 'Échec du chargement du fichier (« %s ») avec des données en tronçon.',
       'Waiting on Review' => 'En attente de relecture',
       'This submodule was added.' => 'Ce sous-module a été ajouté.',
-      'Hold revision as draft.' => 'Conserver la version comme ébauche.',
+      'Hold revision as draft.' => 'Conserve la révision en tant que brouillon.',
       'Parent revisions of this revision.' => 'Versions parentes de cette version.',
-      'The best way to create a diff is to use the %s command-line tool.' => 'Le meilleur moyen de créer un diff est d’utiliser l’outil en ligne de commande Arcanist.',
+      'The best way to create a diff is to use the %s command-line tool.' => 'Le meilleur moyen de créer un diff est d’utiliser l’outil en ligne de commande %s.',
       'Normally, when revisions that have been "Accepted" are updated, they remain "Accepted". This allows reviewers to suggest minor alterations when accepting, and encourages authors to update if they make minor changes in response to this feedback.
     If you want updates to always require re-review, you can disable the "stickiness" of the "Accepted" status with this option. This may make the process for minor changes much more burdensome to both authors and reviewers.' => 'Normalement, quand les révisions qui ont été « Acceptées » sont mises à jour, elles restent « Acceptées ». Cela permet aux relecteurs de suggérer des changements mineurs lors de l’acceptation et d’encourager les auteurs à effectuer des mises à jour s’ils doivent encore effectuer des modifications mineures en réponse à ces avis.
     Si vous souhaitez que les mises à jour soient systématiquement accompagnées d’une nouvelle relecture, vous pouvez désactiver la « persistance » de l’état « Accepté » avec cette option. Cela peut rendre le processus encore plus fastidieux pour les changements mineurs, à la fois pour les auteurs et pour les relecteurs.',
@@ -936,6 +945,7 @@ final class PhabricatorDifferentialFrFR
       'Blocked diff.' => 'Diff bloqué.',
       'This image was deleted after being copied to %s.' => 'Cette image a été supprimée après avoir été copiée vers %s.',
       'CHANGES TO TEST PLAN' => 'MODIFICATIONS DU PLAN DE TEST',
+      '%s retitled %s from %s' => '%s a renommé %s (anciennement %s)',
       'This directory was copied to %s.' => 'Ce répertoire a été copié vers %s.',
       'This revision has already been closed.' => 'Cette révision a déjà été fermée.',
       'Show All Context' => 'Afficher le contexte complet',

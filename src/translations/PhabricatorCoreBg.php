@@ -30,6 +30,7 @@ final class PhabricatorCoreBg
       'OK' => 'Добре',
       'User' => 'Потребител',
       'Back' => 'Назад',
+      'Read more...' => 'Прочетете повече...',
       'Close' => 'Затваряне',
       'Next' => 'Следваща',
       'Search' => 'Търсене',

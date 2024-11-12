@@ -33,6 +33,7 @@ final class PhabricatorTransactionsFrFR
         'Les %s actions que vous prenez n’ont aucun effet :',
       ),
       '%s removed %s subscriber(s) for %s: %s.' => '%s a retiré %s abonné(s) pour %s : %s .',
+      'New Mode' => 'Nouveau mode',
       'Engine: Editor' => 'Moteur : éditeur',
       '%s moved %s to %s on the %s board.' => '%s a déplacé %s vers %s sur le tableau %s.',
       'To continue, configure multi-factor authentication in Settings.' => 'Pour continuer, configurez l’identification à facteurs multiples dans vos Paramètres.',
@@ -65,6 +66,8 @@ final class PhabricatorTransactionsFrFR
       'EditField (with key "%s", of class "%s") is generating transactions, but has no EditType.' => 'Le champ de modification (« EditField » avec la clé « %s », de classe « %s ») génère des transactions, mais n’a aucun type de modification (« EditType »).',
       'Bulk Edit Actions' => 'Actions de modification en masse',
       'Primary Fields' => 'Champs primaires',
+      '%s updated %s attached file(s), removed %s: %s; modified %s: %s.' => '%s a mis à jour %s fichier(s) joint(s), à savoir %s a/ont été supprimé(s) : %s ; et %s modifié(s) : %s.',
+      '%s attached %s referenced file(s): %s.' => '%s a joint %s fichier(s) référencé(s) : %s .',
       '%s moved %s on %s board(s): %s.' => '%s a déplacé %s sur %s tableau(x) : %s.',
       'Export format.' => 'Format d\'exportation.',
       'Drag and drop fields to change the order in which they appear in the application "Create" menu.' => 'Glissez et déposez des champs pour modifier l’ordre dans lequel ils apparaissent dans le menu « Créer » de l’application.',
@@ -99,6 +102,7 @@ final class PhabricatorTransactionsFrFR
       'Create Forms' => 'Formulaires de création',
       'Post as Comment' => 'Publier en tant que commentaire',
       'Edit Configuration' => 'Modifier la configuration',
+      '%s updated %s attached file(s), added %s: %s; modified %s: %s.' => '%s a mis à jour %s fichier(s) joint(s), à savoir %s a/ont été ajouté(s) : %s ; et %s modifié(s) : %s.',
       'Query does not match any objects you have permission to edit.' => 'La requête ne concerne aucun objet que vous pouvez modifier.',
       'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.' => 'Marquer ce formulaire comme un formulaire de modification ? Les utilisateurs qui peuvent le voir pourront l’utiliser pour modifier des objets.',
       'Query does not match any objects.' => 'La requête ne concerne aucun objet.',
@@ -132,12 +136,48 @@ final class PhabricatorTransactionsFrFR
       'Edit Engines' => 'Modifier les moteurs',
       'Disable this form? Users will no longer be able to use it.' => 'Désactiver ce formulaire ? Les utilisateurs ne pourront plus l’utiliser.',
       'Bulk Editor' => 'Rédacteur en masse',
+      'Aliases
+    -------
+    Aliases are alternate recognized keys for a field. For example, a field with
+    a complex key like `examplePHIDs` might be have a simple version of that key
+    as an alias, like `example`.
+    Aliases work just like the primary key when prefilling forms. They make it
+    easier to remember and use HTTP parameters by providing more natural ways to do
+    some prefilling.
+    For example, if a field has `examplePHIDs` as a key but has aliases `example`
+    and `examples`, these three URIs will all do the same thing:
+    ```
+    %s?examplePHIDs=...
+    %s?examples=...
+    %s?example=...
+    ```
+    If a URI specifies multiple default values for a field, the value using the
+    primary key has precedence. Generally, you can not mix different aliases in
+    a single URI.
+    ' => 'Alias
+    -------
+    Les alias sont des clés alternatives reconnues pour un champ. Par exemple, un champ avec une clé complexe comme `examplePHIDs` peut avoir une version simple de cette clé comme alias, comme `example`.
+    Les alias fonctionnent exactement comme la clé primaire lors du pré-remplissage des formulaires. Ils facilitent la mémorisation et l\'utilisation des paramètres HTTP en fournissant des moyens plus naturels de faire certains pré-remplissages.
+    Par exemple, si un champ a `examplePHIDs` comme clé mais a les alias `example` et `examples`, ces trois URI feront tous la même chose :
+    ```
+     %s?examplePHIDs=...
+     %s?examples=...
+     %s?example=...
+    ```
+    Si un URI spécifie plusieurs valeurs par défaut pour un champ, la valeur utilisant la clé primaire a la priorité. En règle générale, vous ne pouvez pas mélanger différents alias dans un seul URI.',
       'Transaction edge specification contains unexpected key "%s".' => 'La spécification d’arête de transaction contient une clé inattendue « %s ».',
       'Support Applications' => 'Prendre en charge des applications',
+      'File attachment mode "%s" (for file "%s") is invalid. Valid modes are: %s.' => 'Le mode pour les pièces jointes « %s » (pour le fichier « %s ») n\'est pas valide. Les modes valides sont : %s.',
       'Transaction must have a PHID before calling %s!' => 'La transaction doit avoir un PHID avant d’appeler %s !',
       'EditEngine ("%s") returned no builtin engine configurations, but an edit engine must have at least one configuration.' => 'Le moteur de modification (« %s ») n’a renvoyé aucune configuration de moteur intégrée, mais un moteur de modification doit avoir au moins une configuration.',
       'This transaction group requires MFA to apply, but the Editor was not configured with a Request. This workflow can not perform an MFA check.' => 'Ce groupe de transactions exige une authentification à facteurs multiples (MFA) pour s’appliquer, mais l’éditeur n’a pas été configuré avec une requête. Ce flux de travail ne peut effectuer aucun contrôle MFA.',
       'Working Set' => 'Ensemble de travail',
+      'Field Types
+    -----------
+    Fields in this form have the types described in the table below. This table
+    shows how to format values for each field type.' => 'Types de champs
+    -----------
+    Les types de champs de ce formulaire sont décrits dans le tableau ci-dessous. Ce tableau montre comment formater les valeurs pour chaque type de champ.',
       'Subtype configuration is invalid: there is no subtype defined with key "%s". This subtype is required and must be defined.' => 'La configuration du sous-type n’est pas valide : aucun sous-type n’est défini avec la clé « %s ». Ce sous-type est obligatoire et doit être défini.',
       'Make comments.' => 'Faire des commentaires.',
       'No Manage Permission' => 'Aucune autorisation de gestion',
@@ -151,6 +191,7 @@ final class PhabricatorTransactionsFrFR
       'Changed Policy' => 'Politique changée',
       'You can not apply transactions which already have IDs/PHIDs!' => 'Vous ne pouvez appliquer aucune transaction ayant déjà un identifiant ou PHID !',
       'Forms' => 'Formulaires',
+      'File attachment mode (for file "%s") is invalid. Expected a string, found "%s".' => 'Le mode pour les pièces jointes (pour le fichier « %s ») n\'est pas valide. Une chaîne était attendue, il a été trouvé « %s ».',
       'Hide Edit Forms' => 'Masquer les formulaires de modification',
       'Disable Form' => 'Désactiver le formulaire',
       'This form ("%s") is not marked as an edit form, so it can not be used to edit objects.' => 'Ce formulaire (« %s ») n’est pas marqué comme formulaire de modification, il ne peut donc pas être utilisé pour modifier des objets.',
@@ -174,9 +215,17 @@ final class PhabricatorTransactionsFrFR
       'Editor method "queuePublishing()" was called, but no publishable object is present. This Editor is not ready to publish.' => 'La méthode « queuePublishing() » de l’éditeur de publication a été appelée, mais aucun objet publiable n’est présent. Cet éditeur de publication n’est pas prêt à publier.',
       '%s created %s in the %s space.' => '%s a créé %s dans l\'espace %s .',
       '%s added this form to the "Create" menu.' => '%s a ajouté ce formulaire au menu « Création ».',
+      'This %s already has that interact policy.' => '%s a déjà cette politique d\'interaction.',
       'You will be required to provide multi-factor credentials to make changes.' => 'Vous devrez fournir les certificats multi-facteurs pour faire des modifications.',
       '%s renamed this form from %s to %s.' => '%s a renommé ce formulaire de « %s » en « %s ».',
       'Transaction edge data must either be the edge PHID or an edge specification dictionary.' => 'Les données d’arête de transaction doivent être soit le PHID de l’arête, soit un dictionnaire de spécification d’arête.',
+      '**Locked** fields are visible in the form, but their values can not be changed
+    by the user.
+    **Hidden** fields are not visible in the form.
+    Any assigned default values are still respected, even if the field is locked
+    or hidden.' => 'Les champs **verrouillés** sont visibles dans le formulaire, mais leurs valeurs ne peuvent pas être modifiées par l\'utilisateur.
+    Les champs **masqués** ne sont pas visibles dans le formulaire.
+    Les valeurs par défaut attribuées restent prises en compte même si le champ est verrouillé ou masqué.',
       'Unmark as Edit Form' => 'Démarquer comme formulaire de modification',
       'Method Details' => 'Détails de la méthode',
       'No Default Create Forms' => 'Aucun formulaire de création par défaut',
@@ -195,6 +244,7 @@ final class PhabricatorTransactionsFrFR
       'Change subtype to' => 'Modification du sous-type en',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => 'L’extension « %s » définit un groupe de modification en masse avec la même clé (« %s ») que l’éditeur principal ou une autre extension. Chaque groupe de modification en masse doit avoir une clé unique.',
       'Save Edit Order' => 'Enregistrer la modification de l’ordre',
+      'File "%s" is invalid: it could not be loaded, or you do not have permission to view it. You must be able to see a file to attach it to an object.' => 'Le fichier « %s » n\'est pas valide : il n\'a pas pu être chargé ou vous n\'avez pas l\'autorisation de le visualiser. Vous devez pouvoir voir un fichier pour l\'attacher à un objet.',
       '%s removed %s unsubscriber(s): %s.' => '%s a retiré %s abonné(s) : %s.',
       'EMAIL PREFERENCES' => 'PRÉFÉRENCES DE COURRIEL',
       '%s edited this object (transaction type "%s").' => '%s a modifié cet objet (type de transaction « %s »).',
@@ -204,6 +254,7 @@ final class PhabricatorTransactionsFrFR
       'Conversation Locked' => 'Conversation verrouillée',
       'You do not have permission to configure forms for this application.' => 'Vous n’avez pas la permission de configurer les formulaires pour cette application.',
       'Transaction ("%s", of type "%s") requires a handle ("%s") that it did not load.' => 'La transaction (« %s », de type « %s ») exige un descripteur (« %s ») qu’elle n’a pas chargé.',
+      'Choose the object **subtype** that this form should create and edit.' => 'Choisissez l’objet **sous-type** (subtype) que ce formulaire doit créer et modifier.',
       'Unmark this form as an edit form? It will no longer be able to be used to edit objects.' => 'Ne plus marquer ce formulaire comme formulaire de modification ? Il ne pourra plus être utilisé pour modifier des objets.',
       'Configure bulk job __id__ to run silently (without sending mail or publishing notifications).' => 'Configurer la tâche de travail en masse __id__ pour qu’elle s\'exécute silencieusement (sans envoyer de courriel ni émettre des notifications).',
       'User Guide: Customizing Forms' => 'Guide de l’utilisateur : personnalisation des formulaires',
@@ -219,6 +270,7 @@ final class PhabricatorTransactionsFrFR
       'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.' => 'Dans l’appel à « transaction.search », l’identifiant d’objet (« objectIdentifier ») spécifié (« %s ») n’existe pas.',
       '%s created this object in space %s.' => '%s a créé cet objet dans l’espace %s.',
       'Engine: Edit' => 'Moteur : modifier',
+      '%s changed the interact policy for %s.' => '%s a modifié la politique d\'interaction de %s.',
       '%s removed %s watcher(s) for %s: %s.' => '%s a retiré %s suiveur(s) pour %s : %s.',
       'When an object (like a task) is edited, the relevant application creates a
     "transaction" and applies it. This list of transactions on each object is the
@@ -263,52 +315,29 @@ final class PhabricatorTransactionsFrFR
     could create security or policy problems to expose directly.
     New transactions are exposed (with correctly spelled, comprehensible types and
     useful, reasonable fields) as we become aware of use cases for them.
-    ' => 'Lorsqu’un objet (comme une tâche) est modifié, Phabricator crée une « transaction »
-    et l\'applique. Cette liste de transactions sur chaque objet est la base d’essentiellement
-    toutes les modifications et tous les commentaires dans Phabricator. La relecture de l’enregistrement
-    de la transaction vous permet de voir qui a modifié un objet, quand et comment sa modification
-    a changé des choses.
-    Un motif fréquent pour appeler cette méthode est que vous mettez en œuvre un crochet web et 
-    venez de recevoir une notification indiquant qu’un objet a été modifié. Consultez la documentation
-    des crochet web pour une discussion plus détaillée de ce cas d’utilisation.
+    ' => 'Lorsqu’un objet (comme une tâche) est modifié, l\'application concernée crée une « transaction » et l\'applique. Cette liste de transactions sur chaque objet est la base d’essentiellement toutes les modifications et tous les commentaires. La relecture de l’enregistrement de la transaction vous permet de voir qui a modifié un objet, quand et comment sa modification a changé des choses.
+    Un motif fréquent pour appeler cette méthode est que vous mettez en œuvre une accroche Internet (webhook) et venez de recevoir une notification indiquant qu’un objet a été modifié. Consultez la documentation des accroches Internet pour plus de détails sur ce cas d’utilisation.
     Un type d’objet à la fois
-    =================== ======
-    Cette méthode de l’API peut interroger des transactions pour tout type d’objet prenant en charge
-    les transactions, mais un seul type d’objet peut être interrogé par appel. Par exemple :
-    vous pouvez récupérer des transactions affectant des tâches, ou vous pouvez récupérer des transactions
-    affectant des révisions, mais un seul appel ne peut pas récupérer les deux.
-    Il s’agit d’une limitation technique due au fait (entre autres raisons) qu’il n’y a
-    aucun ordonnancement global sur les transactions.
-    Pour rechercher des transactions pour un objet spécifique (comme une tâche particulière), transmettez
-    le PHID ou l’identifiant d’un objet approprié (comme `T123`) en tant que `objectIdentifier`.
-    Pour trouver toutes les transactions pour un type d’objet, transmettez la constante de type d’objet
-    en tant que `objectType`. Par exemple, l’identifiant correct pour les tâches est `TASK`. (Vous
-    pouvez rapidement trouver une constante de type inconnu en consultant le PHID d’un objet
-    de ce type.)
+    =========================
+    Cette méthode de l’API peut interroger des transactions pour tout type d’objet prenant en charge les transactions, mais un seul type d’objet peut être interrogé par appel. Par exemple : vous pouvez récupérer des transactions affectant des tâches, ou vous pouvez récupérer des transactions affectant des révisions, mais un seul appel ne peut pas récupérer les deux en même temps.
+    Il s’agit d’une limitation technique due au fait (entre autres raisons) qu’il n’y a aucun ordonnancement global sur les transactions.
+    Pour rechercher des transactions pour un objet spécifique (comme une tâche particulière), transmettez le PHID ou l’identifiant d’un objet approprié (comme `T123`) en tant que `objectIdentifier`.
+    Pour trouver toutes les transactions pour un type d’objet, transmettez la constante du type d’objet en tant que `objectType`. Par exemple, l’identifiant correct pour les tâches est `TASK` (vous pouvez rapidement trouver une constante de type inconnu en consultant le PHID d’un objet de ce type).
     Contraintes
     ===========
     Les contraintes suivantes sont prises en charge :
-     - `phids` //Liste<phid> facultative. // Trouver des transactions spécifiques par PHID. Ceci
-     est plus susceptible d’être utile si vous répondez à une notification de crochet web
-     et souhaitez inspecter uniquement les événements associés.
-     - `authorPHIDs` //Liste<phid> facultative. // Trouver des transactions avec des
-     auteurs particuliers.
+      - `phids` //Liste<phid> facultative. // Trouve des transactions spécifiques par PHID. Ceci est plus susceptible d’être utile si vous répondez à une notification d\'accroche Internet et souhaitez inspecter uniquement les événements associés.
+      - `authorPHIDs` //Liste<phid> facultative. // Trouve les transactions d\'auteurs particuliers.
     Format de transaction
-    =================
-    Chaque transaction a des données personnalisées décrivant ce que la transaction a fait. Le
-    format varie d’une transaction à l’autre. Le moyen le plus simple de déterminer à quoi
-    exactement ressemble une transaction particulière consiste à réaliser le type de
-    modification associé sur un objet de test, puis à interroger cet objet.
-    Toutes les transactions ne contiennent pas de données : par défaut, les transactions ont un « type » `null`
-    et aucune donnée supplémentaire. Cette API n’expose pas les données de transaction brutes car 
-    certaines d’entre elles sont internes, portent des noms étranges, mal orthographiés, prêtant à confusion,
-    pas utiles, ou pourraient créer des problèmes de sécurité ou de politique pour les exposer directement.
-    Les nouvelles transactions sont exposées (avec des types compréhensibles correctement orthographiés
-    et des champs utiles et raisonnables) au fur et à mesure que nous prenons connaissance de leurs cas d’utilisation.',
+    =====================
+    Chaque transaction a des données personnalisées décrivant ce que la transaction a fait. Le format varie d’une transaction à l’autre. Le moyen le plus simple de déterminer à quoi exactement ressemble une transaction particulière consiste à réaliser le type de modification associé sur un objet de test, puis à interroger cet objet.
+    Certaines transactions peuvent être vides : par défaut, les transactions ont un « type » `null` et aucune donnée supplémentaire. Cette API ne fournit pas les données de transaction brutes car certaines d’entre elles sont internes, portent des noms étranges, mal orthographiés, prêtant à confusion, pas utiles ou pourraient créer des problèmes de sécurité ou de respect des règles si exposées directement.
+    Des transactions sont améliorées (avec des types compréhensibles correctement orthographiés et des champs utiles et raisonnables) au fur et à mesure que nous prenons connaissance de leur utilisation.',
       '%s moved %s from %s to %s on the %s board.' => '%s a déplacé %s de %s vers %s sur le tableau %s.',
       'EditEngine "%s" created or loaded an invalid object: object must actually be an object, but is of some other type ("%s").' => 'Le moteur de modification « %s » a créé ou chargé un objet non valide : l’objet doit réellement être un objet, mais il est d’un autre type (« %s »).',
       '%s edited unsubscriber(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs désabonné(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
       'Attempting to apply a transaction (of class "%s", with type "%s") which has not been constructed correctly: %s' => 'Tentative d’application d’une transaction (de classe « %s », avec le type « %s ») qui n’a pas été correctement construite : %s',
+      '%s modified %s attached file(s): %s.' => '%s a modifié %s fichier(s) joint(s) : %s .',
       'Unable to load transactions: %s.' => 'Impossible de charger les transactions : %s.',
       'Subtype configuration is invalid: subtype with key "%s" has no name. Subtypes must have a name.' => 'La configuration du sous-type n’est pas valide : le sous-type avec la clé « %s » n\'a aucun nom. Les sous-types doivent avoir un nom.',
       'Comment to add, formatted as remarkup.' => 'Commentaire à ajouter, formaté en « remarkup ».',
@@ -319,12 +348,14 @@ final class PhabricatorTransactionsFrFR
       'Expected "newTimelineView()" to return an object of class "%s" (in engine "%s").' => 'Attendait que « newTimelineView() » renvoie un objet de classe « %s » (dans le moteur « %s »).',
       'This %s already has that join policy.' => 'Ce %s a déjà cette politique d’adhésion.',
       '%s shifted this object from the %s space to the %s space.' => '%s a déplacé cet objet de l’espace %s vers l’espace %s.',
+      '%s changed the interact policy from "%s" to "%s".' => '%s a modifié la politique d\'interaction de « %s » à « %s ».',
       'Create Form' => 'Créer un formulaire',
       '%s moved this task on %s board(s): %s.' => '%s a déplacé cette tâche sur %s tableau(x) : %s.',
       'Unable to load query for transaction object "%s"!' => 'Impossible de charger la requête pour l’objet de transaction « %s » !',
       'Changed Subscribers' => 'Abonnés modifiés',
       'Comment for this transaction was not loaded.' => 'Le commentaire pour cette transaction n’a pas été chargé.',
       'Raw Comment' => 'Commentaire brut',
+      '%s created this object with interact policy "%s".' => '%s a créé cet objet avec la politique d\'interaction « %s ».',
       'Save Create Order' => 'Enregistrer la création d’un ordre',
       '%s updated subscribers of %s.' => '%s a modifié des abonnés de %s.',
       '%s created this object.' => '%s a créé cet objet.',
@@ -364,6 +395,14 @@ final class PhabricatorTransactionsFrFR
       'List of PHIDs to remove.' => 'Liste des PHID à retirer.',
       'Create New Form' => 'Créer un nouveau formulaire',
       'This application is not configured with any forms for creating objects that are visible to you and enabled.' => 'Cette application n’est configurée avec aucun formulaire de création d’objets qui soit visible par vous et activé.',
+      'Select Fields
+    -------------
+    Some fields support selection from a specific set of values. When prefilling
+    these fields, use the value in the **Value** column to select the appropriate
+    setting.
+    ' => 'Sélection prédéfinie de champs
+    -------------
+    Certains champs prennent en charge la sélection à partir d\'un ensemble spécifique de valeurs. Lorsque vous préremplissez ces champs, utilisez la valeur de la colonne **Valeur** (Value) pour sélectionner le paramètre approprié.',
       'Transaction requires handles and it did not load them.' => 'La transaction exige des descripteurs mais ne les a pas chargées.',
       '(Show Details)' => '(Afficher les détails)',
       '%s edited this %s.' => '%s a modifié ce %s.',
@@ -381,12 +420,15 @@ final class PhabricatorTransactionsFrFR
       'Exported data to "%s".' => 'Exporter les données vers « %s ».',
       '%s edited subscriber(s), added %d: %s; removed %d: %s.' => '%s a modifié un ou plusieurs abonnés ; en a ajouté %s : %s ; en a retiré %s : %s.',
       'Mail extension ("%s") defines a stamp template with the same key ("%s") as another template. Each stamp template must have a unique key.' => 'L’extension de courrier (« %s ») définit un modèle de timbre avec la même clé (« %s ») qu’un autre modèle. Chaque modèle de timbre doit avoir une clé unique.',
+      'File attachment transaction must have a map of files to attachment modes, found "%s".' => 'La transaction de pièces jointes doit contenir une table (array) des fichiers en mode de pièces jointes, trouvée « %s ».',
+      '%s updated %s attached file(s), added %s: %s; removed %s: %s.' => '%s a mis à jour %s fichier(s) joint(s), à savoir %s a/ont été ajouté(s) : %s ; %s supprimé(s) : %s.',
       '%s changed the order in which this form appears in the "Create" menu.' => '%s a changé l’ordre dans lequel ce formulaire apparaît dans le menu « Créer ».',
       '%s named this form %s.' => '%s a nommé ce formulaire %s.',
       '%s added %s subscriber(s) for %s: %s.' => '%s a ajouté %s abonné(s) pour %s : %s.',
       '%s mentioned this in %s.' => '%s a mentionné ceci dans %s.',
       '%s created this object with join policy "%s".' => '%s a créé cet objet avec la politique d’abonnement « %s ».',
       'Subtype configuration is invalid: it must be a list of subtype specifications.' => 'La configuration du sous-type n’est pas valide : elle doit être une liste de spécifications du sous-type.',
+      'Transaction Summary' => 'Résumé de la transaction',
       'Use Form' => 'Utiliser le formulaire',
       'The command "!%s" is not a supported mail command. Valid commands for this object are: %s.' => 'La commande « !%s » n’est pas une commande de courriel prise en charge. Les commandes valides pour cet objet sont : %s.',
       'Parameter "%s" must contain a list of transaction descriptions, but item with key "%s" is not a dictionary.' => 'La paramètre « %s » doit contenir une liste de descriptions de transaction, mais l’élément avec la clé « %s » n’est pas un dictionnaire.',
@@ -400,6 +442,7 @@ final class PhabricatorTransactionsFrFR
       'Reorder Fields' => 'Réordonner les champs',
       'Task has invalid task data.' => 'La tâche contient des données de tâche non valides.',
       'Add Action...' => 'Ajouter une action...',
+      'Detached' => 'Détaché',
       'This transaction should generate its %s automatically, but has already had one set!' => 'Cette transaction devrait générer son %s automatiquement, mais en a déjà un défini !',
       '%s removed this form from the "Create" menu.' => '%s a retiré ce formulaire du menu « Création ».',
       'Type a form name...' => 'Saisissez un nom de formulaire...',
@@ -435,6 +478,8 @@ final class PhabricatorTransactionsFrFR
       '%s added %s watcher(s): %s.' => '%s a ajouté %s suiveur(s) : %s.',
       'Task has no object PHID!' => 'La tâche n’a aucun PHID d’objet !',
       'Transaction type \'%s\' is missing an internal apply implementation!' => 'Il manque au type de transaction « %s » une mise en œuvre interne pour l’appliquer !',
+      '%s attached files...' => '%s a joint des fichiers...',
+      'Old Mode' => 'Ancien mode',
       'Flag "--overwrite" has no effect when outputting to stdout.' => 'Le drapeau « --overwrite » (écraser) n’a aucun effet lors de la sortie vers le flux de sortie standard.',
       'You do not have permission to create these objects.' => 'Vous n’avez pas la permission de créer ces objets.',
       'Export the data selected by one or more queries.' => 'Exporter les données sélectionnées par une ou plusieurs requêtes.',
@@ -445,10 +490,79 @@ final class PhabricatorTransactionsFrFR
       'EditEngine ("%s") returned builtin engine configurations, but at least two specify the same builtin key ("%s"). Engines must have unique builtin keys.' => 'Le moteur de modification (« %s ») a renvoyé des configurations de moteur intégrées, mais au moins deux spécifient la même clé intégrée (« %s »). Les moteurs doivent avoir des clés intégrées uniques.',
       'This comment has been deleted.' => 'Ce commentaire a été supprimé.',
       'Add Another Action' => 'Ajouter une autre action',
+      'Template Objects
+    ----------------
+    Instead of specifying each field value individually, you can specify another
+    object to use as a template. Some of the initial fields will be copied from the
+    template object.
+    Specify a template object with the `template` parameter. You can use an ID,
+    PHID, or monogram (for objects which have monograms). For example, you might
+    use URIs like these:
+    ```
+    %s?template=123
+    %s?template=PHID-WXYZ-abcdef...
+    %s?template=T123
+    ```
+    You can combine the `template` parameter with HTTP parameters: the template
+    object will be copied first, then any HTTP parameters will be read.
+    When using `template`, these fields will be copied:' => 'Objets de modèle
+    ----------------
+    Au lieu de spécifier chaque valeur de champ individuellement, vous pouvez spécifier un autre objet à utiliser comme un modèle. Certains des champs initiaux seront copiés à partir de l\'objet de modèle.
+    Spécifiez un objet de modèle avec le paramètre `template`. Vous pouvez utiliser un ID, un PHID ou un monogramme (pour les objets qui ont des monogrammes). Par exemple, vous pouvez utiliser des URI comme ceux-ci :
+    ```
+    %s?template=123
+    %s?template=PHID-WXYZ-abcdef...
+    %s?template=T123
+    ```
+    Vous pouvez combiner le paramètre `template` avec des paramètres HTTP : l\'objet de modèle sera copié en premier, puis tous les paramètres HTTP seront lus.
+    Lorsque vous utilisez `template`, ces champs seront copiés :',
       'Hide Create Forms' => 'Masquer les formulaires de création',
       'Configure a bulk job to execute silently.' => 'Configurer une tâche en masse pour qu’elle s’exécute silencieusement.',
       'Custom field transaction has no \'%s\'!' => 'La transaction de champ personnalisé n’a aucun « %s » !',
       '%s signed these changes with MFA.' => '%s a signé ces modifications avec MFA.',
+      'When creating objects in the web interface, you can use HTTP parameters to
+    prefill fields in the form. This allows you to quickly create a link to a
+    form with some of the fields already filled in with default values.
+    To prefill a form, start by finding the URI for the form you want to prefill.
+    Do this by navigating to the relevant application, clicking the "Create" button
+    for the type of object you want to create, and then copying the URI out of your
+    browser\'s address bar. It will usually look something like this:
+    ```
+    %s
+    ```
+    However, `your.install.com` will be the domain where your copy of this software
+    is installed, and `application/` will be the URI for an application. Some
+    applications have multiple forms for creating objects or URIs that look a little
+    different than this example, so the URI may not look exactly like this.
+    To prefill the form, add properly encoded HTTP parameters to the URI. You
+    should end up with something like this:
+    ```
+    %s?title=Platyplus&body=Ornithopter
+    ```
+    If the form has `title` and `body` fields of the correct types, visiting this
+    link will prefill those fields with the values "Platypus" and "Ornithopter"
+    respectively.
+    The rest of this document shows which parameters you can add to this form and
+    how to format them.
+    Supported Fields
+    ----------------
+    This form supports these fields:
+    ' => 'Lors de la création d\'objets dans l\'interface Internet, vous pouvez utiliser des paramètres HTTP pour préremplir les champs du formulaire. Cela vous permet de créer rapidement un lien vers un formulaire dont certains champs sont déjà remplis avec des valeurs par défaut.
+    Pour préremplir un formulaire, commencez par trouver l\'URI du formulaire que vous souhaitez préremplir. Pour ce faire, accédez à l\'application concernée, cliquez sur le bouton « Créer » (Create) pour le type d\'objet que vous souhaitez créer, puis copiez l\'URI depuis la barre d\'adresse de votre navigateur. Cela ressemblera généralement à ceci :
+    ```
+    %s
+    ```
+    Cependant, `your.install.com` sera le domaine où votre copie de ce logiciel est installée, et `application/` sera l\'URI d\'une application. Certaines applications ont plusieurs formulaires pour créer des objets ou des URI qui semblent un peu
+    différents de cet exemple, donc l\'URI peut ne pas ressembler exactement à ceci.
+    Pour préremplir le formulaire, ajoutez des paramètres HTTP correctement codés à l\'URI. Vous devriez obtenir quelque chose comme ceci :
+    ```
+    %s?title=Platypus&body=Ornithopter
+    ```
+    Si le formulaire comporte des champs `title` et `body` de types corrects, la visite de ce lien préremplira ces champs avec respectivement les valeurs « Platypus » et « Ornithopter ».
+    Le reste de ce document montre quels paramètres vous pouvez ajouter à ce formulaire et comment les formater.
+    Champs pris en charge
+    ----------------
+    Ce formulaire prend en charge les champs suivants :',
       'SearchEngine class ("%s") does not support data export.' => 'La classe SearchEngine (« %s ») ne prend pas en charge l’exportation de données.',
       '%s unmarked this form as an edit form.' => '%s a démarqué ce formulaire en tant que formulaire de modification.',
       'Multiple search engines match "%s": %s.' => 'Plusieurs moteurs de recherche correspondent à « %s » : %s.',
@@ -491,6 +605,7 @@ final class PhabricatorTransactionsFrFR
       'Configured job "%s" to run silently.' => 'Tâche « %s » configurée pour s’exécuter silencieusement.',
       'View Form Configurations' => 'Afficher les configurations de formulaire',
       'In call to "transaction.search", specified "objectType" ("%s") is unknown. Valid object types are: %s.' => 'Dans l’appel à « transaction.search », le type d’objet (« objectType ») spécifié (« %s ») est inconnu. Les types d’objet valides sont : %s.',
+      '%s removed %s attached file(s): %s.' => '%s a supprimé %s fichier(s) joint(s) : %s.',
       '%s ("%s")' => '%s (« %s »)',
       'Comments are visible to users who can see the object which was commented on. Comments can be edited by their authors.' => 'Les commentaires sont visibles par les utilisateurs qui peuvent voir l’objet qui a été commenté. Les commentaires peuvent être modifiés par leurs auteurs.',
       'Custom field transaction has invalid \'%s\'; field \'%s\' is disabled or does not exist.' => '« %s » n’est pas valide pour la transaction de champ utilisateur ; le champ « %s » est désactivé ou n’existe pas.',
@@ -519,6 +634,7 @@ final class PhabricatorTransactionsFrFR
       '%s edited contributor(s), added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs contributeur(s) ; en a ajouté %s : %s ; en a supprimé %s : %s.',
       'Transaction type \'%s\' is missing an external apply implementation!' => 'Il manque au type de transaction « %s » une mise en œuvre externe pour l’appliquer !',
       'The subtype "%s" is not a valid subtype.' => 'Le sous-type « %s » n\'est pas un sous-type valide.',
+      '%s updated %s attached file(s), added %s: %s; removed %s: %s; modified %s: %s.' => '%s a mis à jour %s fichier(s) joint(s), à savoir %s a/ont été ajouté(s) : %s ; %s supprimé(s) : %s ; %s modifié(s) : %s.',
       'Form %d' => 'Formulaire %s',
       'Configure Forms for Configuring Forms' => 'Configurer des formulaires pour configurer les formulaires',
       '%s added %s contributor(s) for %s: %s.' => '%s a ajouté %s contributeur(s) pour %s : %s.',

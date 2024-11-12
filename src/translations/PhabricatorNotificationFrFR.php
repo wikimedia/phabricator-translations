@@ -29,7 +29,7 @@ final class PhabricatorNotificationFrFR
       'No notifications to mark as read.' => 'Aucune notification à marquer comme lue.',
       'Notification Server Down' => 'Serveur de notification arrêté',
       'This server is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
-    %s' => 'Phabricator est configuré pour utiliser un serveur de notifications, mais est incapable de s’y connecter. Vous devriez résoudre ce problème ou désactiver le serveur de notifications. Il peut être utile de vérifier à nouveau votre configuration ou de redémarrer le serveur en utilisant la commande ci-dessous.
+    %s' => 'Ce serveur est configuré pour utiliser un serveur de notifications mais il ne peut pas s’y connecter. Résolvez ce problème ou désactivez le serveur de notifications. Il peut être utile de revérifier votre configuration ou de redémarrer le serveur en utilisant la commande ci-dessous.
     %s',
       'Unable to test client on an admin server!' => 'Impossible de tester le client sur un serveur d’administration !',
       'Notification server configuration describes an invalid host ("%s", at index "%s"). This is an "admin" service but it has a "path" property. This property is only valid for "client" services.' => 'La configuration du serveur de notifications décrit un hôte incorrect (« %s », à l’index « %s »). Ceci est un service « administrateur » mais qui a une propriété « path ». Cette propriété n’est valide que pour les services « client ».',
@@ -47,7 +47,7 @@ final class PhabricatorNotificationFrFR
       'Notification server configuration is invalid: it describes the same host and port ("%s") multiple times. Each host and port combination should appear only once in the list.' => 'La configuration du serveur de notifications est incorrecte : elle décrit plusieurs fois la même combinaison d’hôte et de port (« %s »). Chaque combinaison d’hôte et de port ne doit apparaître qu’une seule fois dans la liste.',
       'Mark All Read' => 'Tout marquer comme lu',
       'Show only unread notifications.' => 'Montrer seulement les notifications non lues.',
-      'This server is configured to use a notification server, but is not able to connect to it.' => 'Phabricator est configuré pour utiliser un serveur de notifications, mais il ne peut pas s’y connecter.',
+      'This server is configured to use a notification server, but is not able to connect to it.' => 'Ce serveur est configuré pour utiliser un serveur de notification mais il ne peut pas s\'y connecter.',
       'Notification server configuration is not valid: each entry in the list must be a dictionary describing a service, but the value with index "%s" is not a dictionary.' => 'La configuration du serveur de notifications est incorrecte : chaque entrée de la liste doit être un dictionnaire décrivant un service, mais la valeur à l’index « %s » n’est pas un dictionnaire.',
       'Notification server configuration has an invalid service specification (at index "%s"): %s.' => 'La configuration du serveur de notifications a une spécification de service incorrecte (à l’index « %s ») : %s.',
       'You have no notifications.' => 'Vous n’avez aucune notification.',

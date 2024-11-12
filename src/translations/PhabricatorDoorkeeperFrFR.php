@@ -20,7 +20,7 @@ final class PhabricatorDoorkeeperFrFR
       'Using publisher \'%s\'.' => 'Utilisation de l’éditeur « %s ».',
       'Connect to Other Software' => 'Connecter avec un autre logiciel',
       'When %s creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in %s comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'Quand Phabricator crée des tâches dans Asana, il peut ajouter les tâches aux projets d’Asana selon l’application depuis laquelle provient l’objet correspondant dans Phabricator. Par exemple, vous pouvez ajouter des revues de code dans Asana à un projet « Differential ».
+    NOTE: This feature is new and experimental.' => 'Quand %s crée des tâches dans Asana, il peut ajouter les tâches aux projets d’Asana selon l’application depuis laquelle provient l’objet correspondant dans %s. Par exemple, vous pouvez ajouter des revues de code dans Asana à un projet « Differential ».
     NOTE : cette fonctionnalité est nouvelle et expérimentale.',
       'Failed to update object %s using user %s.' => 'Échec de mise à jour de l’objet %s au moyen de l’utilisateur %s.',
       'You can find an Asana project ID by clicking the project in Asana and then examining the URL:
@@ -38,7 +38,7 @@ final class PhabricatorDoorkeeperFrFR
       '⚠ DO NOT EDIT THIS TASK ⚠
     ☠ Your changes will not be reflected in %s.
     ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ NE PAS MODIFIER CETTE TÂCHE ⚠
-    ☠ Vos modifications ne se répercuteront pas dans Phabricator.
+    ☠ Vos modifications ne se répercuteront pas dans %s.
     ☠ Vos modifications seront détruites à la prochaine synchronisation de l’état.',
       'JIRA integration is configured not to post anything.' => 'L’intégration de JIRA est configurée pour ne rien publier.',
       'Skipping main task update, object is no longer visible.' => 'Saut de la mise à jour de la tâche principale, l’objet n’est plus visible.',
@@ -77,7 +77,7 @@ final class PhabricatorDoorkeeperFrFR
       'GitHub User %s' => 'Utilisateur GitHub %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'Le problème GitHub d’ID « %s » n’a pas le bon format. Un ID est attendu, de la forme « propriétaire/dépôt#123 ».',
       'Workspace Name' => 'Nom de l’espace de travail',
-      'This software is running in silent mode.' => 'Phabricator fonctionne en mode silencieux.',
+      'This software is running in silent mode.' => 'Ce logiciel fonctionne en mode silencieux.',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'Impossible de trouver un utilisateur Asana avec des certificats valides pour en obtenir un jeton OAuth.',
       'Synchronization of parent task from Asana failed!' => 'La synchronisation de la tâche parente depuis Asana a échoué !',
       'Optional Asana projects to use as application tags.' => 'Projets facultatifs d’Asana à utiliser comme balises de l’application.',

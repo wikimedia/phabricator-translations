@@ -45,7 +45,7 @@ final class PhabricatorConsoleFrFR
       'Replay' => 'Rejouer',
       'Can\'t Analyze' => 'Analyse impossible',
       'Events' => 'Événements',
-      'Information about events and event listeners.' => 'Information à propos des événements de Phabricator et des écouteurs d’événements.',
+      'Information about events and event listeners.' => 'Informations à propos des événements et des écouteurs d’événements.',
       'Page Weight' => 'Poids de la page',
       'Hostname' => 'Nom d’hôte',
       'Registered Event Listeners' => 'Écouteur d’événements enregistrés',

@@ -26,7 +26,7 @@ final class PhabricatorCacheFrFR
       'Unknown cache format.' => 'Format de cache inconnu.',
       'Two objects (of classes "%s" and "%s") generate the same map value ("%s"). Each object must generate a unique map value.' => 'Deux objets (de classe « %s » et « %s ») ont généré la même valeur de correspondance (« %s »). Chaque objet doit générer une valeur de correspondance unique.',
       'OPcache Not Configured for Production' => 'OPcache non configuré pour la production',
-      'The PHP "Zend OPcache" extension is installed, but not enabled in your PHP configuration. Enabling it will dramatically improve performance. Edit the "%s" setting to enable the extension.' => 'L\'extension « Zend OPcache » est installée, mais n’est pas activée dans votre configuration PHP. En l’activant, vous allez grandement améliorer les performances de Phabricator. Modifiez la valeur de « %s » pour activer l’extension.',
+      'The PHP "Zend OPcache" extension is installed, but not enabled in your PHP configuration. Enabling it will dramatically improve performance. Edit the "%s" setting to enable the extension.' => 'L\'extension « Zend OPcache » est installée mais n’est pas activée dans votre configuration PHP. En l’activant, vous allez grandement améliorer les performances. Modifiez le paramètre « %s » pour activer l’extension.',
       'Installing the "Zend OPcache" extension will dramatically improve performance.' => 'Installer l’extension « Zend OPcache » améliorera grandement les performances.',
       'Only strings may be written to the DB cache!' => 'Seules des chaînes peuvent être écrites dans le cache de la base de données !',
       'Purge all caches.' => 'Purger tous les caches.',
@@ -37,12 +37,12 @@ final class PhabricatorCacheFrFR
       'Noisy APC' => 'APC bruyant',
       'Drop data from readthrough caches.' => 'Retirer les données des caches de lecture.',
       'Cache purger "%s" is not recognized. Available caches are: %s.' => 'Le purgeur de cache « %s » n’est pas reconnu. Les caches disponibles sont : %s.',
-      'Installing the "APCu" PHP extension will improve performance. This extension is strongly recommended. Without it, this software must rely on a very inefficient disk-based cache.' => 'Installer l’extension PHP « APCu » améliorera les performances. Cette extension est fortement recommandée. Sans elle, Phabricator ne peut compter que sur un cache disque beaucoup moins efficace.',
+      'Installing the "APCu" PHP extension will improve performance. This extension is strongly recommended. Without it, this software must rely on a very inefficient disk-based cache.' => 'Installer l’extension PHP « APCu » améliorera les performances. Cette extension est fortement recommandée. Sans elle, ce logiciel ne peut compter que sur un cache disque beaucoup moins efficace.',
       'OPcache Disabled' => 'OPcache désactivé',
       'APC/APCu Disabled' => 'APC/APCu désactivé',
       '"%s" is currently enabled, but should probably be disabled.' => '« %s » est actuellement activé, mais devrait probablement être désactivé.',
       'APC User Cache' => 'Cache utilisateur APC',
-      'The APC or APCu PHP extensions are installed, but not enabled in your PHP configuration. Enabling these extensions will improve performance. Edit the "%s" setting to enable these extensions.' => 'Les extensions PHP APC ou APCu sont installées, mais pas activées dans votre configuration PHP. Activer ces extensions améliorera la performance de Phabricator. Modifiez le paramètre « %s » pour activer ces extensions.',
+      'The APC or APCu PHP extensions are installed, but not enabled in your PHP configuration. Enabling these extensions will improve performance. Edit the "%s" setting to enable these extensions.' => 'Les extensions PHP APC ou APCu sont installées mais pas activées dans votre configuration PHP. Activer ces extensions améliorera les performances. Modifiez le paramètre « %s » pour activer ces extensions.',
       'OPcache Config' => 'Configuration d’OPcache',
       'Adjust APC settings to quiet unnecessary errors.' => 'Ajuster les paramètres d’APC pour ne plus voir les erreurs inutiles.',
       'OPcache is not configured ideally for production.' => 'La configuration d’OPcache n’est pas optimale pour la production.',
@@ -63,7 +63,7 @@ final class PhabricatorCacheFrFR
       'Zend OPcache' => 'Zend OPcache',
       'Enabling OPcache will dramatically improve performance.' => 'L’activation d’OPcache améliorera grandement les performances.',
       'PHP Extension \'APC\' Not Installed' => 'Extension PHP « APC » non installée',
-      'The "%s" setting is currently disabled in your PHP configuration, but this software is running in development mode. This option should normally be enabled in development so you do not need to restart anything after making changes to the code.' => 'Le paramètre « %s » est actuellement désactivé dans votre configuration PHP, mais Phabricator fonctionne en mode de développement. Cette option devrait normalement être activée en cours de développement, afin que vous n’ayez pas besoin de redémarrer quoi que ce soit après avoir effectué des modifications dans le code.',
+      'The "%s" setting is currently disabled in your PHP configuration, but this software is running in development mode. This option should normally be enabled in development so you do not need to restart anything after making changes to the code.' => 'Le paramètre « %s » est actuellement désactivé dans votre configuration PHP mais ce logiciel fonctionne en mode développement. Cette option devrait normalement être activée dans ce mode afin que vous n’ayez pas besoin de redémarrer quoi que ce soit après avoir modifié le code.',
     );
   }
 

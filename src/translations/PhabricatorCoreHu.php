@@ -13,6 +13,7 @@ final class PhabricatorCoreHu
       'Parents' => 'Szülők',
       'Simple Subtypes' => 'Egyszerű altípusok',
       'Browse Subtypes' => 'Altípusok böngészése',
+      'Log Out' => 'Kijelentkezés',
       'Description' => 'Leírás',
       'DOCUMENT DETAIL' => 'DOKUMENTUM RÉSZLETEI',
       'Edit Related Tasks' => 'Kapcsolódó feladatok szerkesztése',
@@ -24,12 +25,15 @@ final class PhabricatorCoreHu
       'Direct Parent' => 'Közvetlen szülő',
       '%s updated the description.' => '%s frissítette a leírást.',
       'Subtype' => 'Altípus',
+      'Manage' => 'Kezelés',
       'Settings' => 'Beállítások',
       'Assigned To' => 'Felelős',
       'Edit Related Commits' => 'Kapcsolódó commitok szerkesztése',
+      'Details' => 'Részletek',
       'Subtypes' => 'Altípusok',
       'Edit Related Revisions' => 'Kapcsolódó változatok szerkesztése',
       'Save Related Tasks' => 'Kapcsolódó feladatok mentése',
+      'Profile' => 'Profil',
     );
   }
 

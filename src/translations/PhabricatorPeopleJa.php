@@ -28,6 +28,7 @@ final class PhabricatorPeopleJa
       'Edit Settings' => '設定を編集',
       'Change Username' => 'ユーザー名を変更',
       'Edit Profile' => 'プロフィールを編集',
+      'Log Out %s' => '%sからログアウト',
       'User Since' => 'ユーザー登録日時',
     );
   }

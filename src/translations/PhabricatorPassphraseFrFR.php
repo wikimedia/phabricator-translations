@@ -98,7 +98,7 @@ final class PhabricatorPassphraseFrFR
       '%s allowed Conduit API access to this credential.' => '%s a permis l’accès par l’API de Conduit à ce certificat.',
       'New Credential: %s' => 'Nouveau certificat : %s',
       '%s (Restricted Credential)' => '%s (certificat restreint)',
-      'Credential management and general storage of shared secrets.' => 'Gestion de certificats pour leur réutilisation dans d’autres domaines de Phabricator ou pour le stockage général de secrets partagés.',
+      'Credential management and general storage of shared secrets.' => 'Gestion des informations d\'identification et stockage général des secrets partagés.',
       'Passphrase Credential' => 'Certificat de Phrase secrète',
       'Password for Key' => 'Mot de passe de la clé',
       'Prevent the secret from being revealed or changed.' => 'Empêcher le secret d’être révélé ou changé.',

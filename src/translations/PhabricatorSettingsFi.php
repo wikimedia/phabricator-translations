@@ -30,7 +30,6 @@ final class PhabricatorSettingsFi
       'Your browser timezone and profile timezone are now in agreement (%s).' => 'Selaimesi aikavyöhyke ja profiilin aikavyöhyke ovat nyt samat ( %s ).',
       'You have no linked accounts.' => 'Sinulla ei ole linkitettyjä tilejä.',
       'Edit Global Settings' => 'Muokkaa globaaleja asetuksia',
-      '%s updated their profile' => '%s updated their profile',
       'Current Setting' => 'Nykyiset asetukset',
       'Visual Studio Code' => 'Visual Studio Code',
       'Date Format' => 'Päiväyksen muoto',

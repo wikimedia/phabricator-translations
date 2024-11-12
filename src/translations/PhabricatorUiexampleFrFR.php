@@ -50,6 +50,34 @@ final class PhabricatorUiexampleFrFR
       'A modern description with lots of frills.' => 'Une description moderne avec beaucoup de fioritures.',
       'Reading is a common way to learn about things.' => 'La lecture est un moyen courant d’apprendre plein de choses.',
       'AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel' => 'UnTrèsTrèsTrèsTrèsTrèsTrèsTrèsTrèsTrèsTrèsLongLibelléIninterrompuDePropriété',
+      'This is some **remarkup text** using ~~exactly one style~~ //various styles//.
+      - Fruit
+        - Apple
+        - Banana
+        - Cherry
+      - Vegetables
+        1. Carrot
+        2. Celery
+    NOTE: This is a note.
+    (NOTE) This is also a note.
+    WARNING: This is a warning.
+    (WARNING) This is also a warning.
+    IMPORTANT: This is not really important.
+    (IMPORTANT) This isn\'t important either.
+    ' => 'Ceci est un **texte Remarkup** utilisant ~~exactement un style~~ //divers styles//.
+     - Fruit 
+       - Pomme 
+       - Banane 
+       - Cerise 
+     - Légumes 
+       1. Carotte 
+       2. Céleri 
+    NOTE: Ceci est une note.
+    (NOTE) Ceci est également une note.
+    WARNING: Ceci est un avertissement.
+    (WARNING) Ceci est également un avertissement.
+    IMPORTANT: Ceci n\'est pas vraiment important.
+    (IMPORTANT) Ceci n\'est pas important non plus.',
       'Setup Issue' => 'Problème d’installation',
       'Top Navigation' => 'Pages les plus vues',
       'Unit (3/5)' => 'Unité (3/5)',
@@ -74,7 +102,7 @@ final class PhabricatorUiexampleFrFR
       'Minor Red Event' => 'Événement mineur rouge',
       'Wrote code that was acceptable' => 'A écrit un code acceptable',
       '%s bought a cherry.' => '%s a acheté une cerise.',
-      'Direct Award' => 'Récompense directe (epriestley)',
+      'Direct Award' => 'Récompense directe',
       'Funder' => 'Fondateur',
       'Send a Message' => 'Envoyer un message',
       'agoat' => 'une chèvre',
@@ -116,7 +144,7 @@ final class PhabricatorUiexampleFrFR
       'The human cardiovascular system includes the heart, lungs, and some other parts; most of these parts are pretty squishy.' => 'Le système cardiovasculaire humain comprend le cœur, les poumons et quelques autres organes ; la plupart de ces organes sont assez spongieux.',
       'PHUIBadgeMiniView' => 'MiniVueDeBadgePHUI',
       'It\'s a fancy or non-fancy box. Put stuff in it.' => 'C\'est une boîte fantaisie ou non fantaisie. Mettez-y des bidules.',
-      'High Command' => 'Haut commandement de Phacility',
+      'High Command' => 'Haut commandement',
       'UIExamples' => 'ExemplesDInterfaceUtilisateur',
       'Buttons' => 'Boutons',
       'Emoji' => 'Émoji',
@@ -147,7 +175,7 @@ final class PhabricatorUiexampleFrFR
       'Launch Instance' => 'Lancer les instances',
       'Writing code is much more fun with friends!' => 'Écrire du code est beaucoup plus amusant avec des amis !',
       'Closed over 100 tasks' => 'A fermé plus de 100 tâches',
-      'Improve Mobile Experience' => 'Améliorer l’expérience mobile pour Phabricator',
+      'Improve Mobile Experience' => 'Améliorer l’expérience mobile',
       'Easily render icons or images with links and sprites.' => 'Générez facilement des icônes ou des images avec des liens et des sprites.',
       'Status Story' => 'Historique d’état',
       'Zucchini' => 'Zucchini',
@@ -195,7 +223,7 @@ final class PhabricatorUiexampleFrFR
       'Long Text Body' => 'Long corps de texte',
       'This is a major timeline event.' => 'Ceci est un événement majeur de la chronologie.',
       'Create a fanciful list of objects and prismatic donuts.' => 'Créer une liste fantaisiste d’objets et de beignets prismatiques.',
-      'Remarkup' => 'Remarquer',
+      'Remarkup' => 'Remarkup',
       'Normal Object' => 'Objet normal',
       'Simply Slim' => 'Simplement svelte',
       'Font Awesome by Dave Gandy - %s' => 'Fonte Awesome par Dave Gandy - %s',
@@ -207,7 +235,7 @@ final class PhabricatorUiexampleFrFR
       'Warm!' => 'Chaud !',
       'Text copied into clipboard.' => 'Texte copié dans le presse-papiers.',
       'Remarkup Example' => 'Exemple de balisage « Remarkup »',
-      'Lead Developer of Software' => 'Principal développeur de Phabricator',
+      'Lead Developer of Software' => 'Principal développeur du logiciel',
       'Shades' => 'Nuances',
       'Maybe this is what you\'re likely here for.' => 'C’est probablement pour cela que vous êtes ici.',
       'General' => 'Général',
@@ -278,7 +306,7 @@ final class PhabricatorUiexampleFrFR
       'Pinboard Image Event' => 'Evénément d\'image du tableau de bord',
       'Highlighted' => 'Mis en évidence',
       'Use %s to comments and transactions.' => 'Utilisez %s pour les commentaires et les transactions.',
-      'Builtin Project Images.' => 'Images de projet intégrées fournies avec Phabricator.',
+      'Builtin Project Images.' => 'Images de projet intégrées.',
       'Bleh!' => 'Bof !',
       'This is a sample of some text.' => 'Ceci est un exemple de texte.',
       'Rainbow Bars' => 'Barres arc-en-ciel',

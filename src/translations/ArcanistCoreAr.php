@@ -66,7 +66,7 @@ final class ArcanistCoreAr
       'Files must end in a newline.' => 'الملفات يجب أن تنتهي في سطر جديد',
       'The test failed.' => 'فشل الاختبار.',
       'Broken' => 'مكسور',
-      'Server to connect to.' => 'تثبيت Phabricator للاتصال به.',
+      'Server to connect to.' => 'الخادم الذي سيتم الاتصال به.',
     );
   }
 

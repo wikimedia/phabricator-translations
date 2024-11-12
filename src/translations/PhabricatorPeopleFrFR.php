@@ -227,7 +227,7 @@ final class PhabricatorPeopleFrFR
       'Recent Revisions' => 'Versions récentes',
       'Shows roles like "Administrator" and "Disabled".' => 'Affiche des rôles tels que « Administrateur » et « Désactivé ».',
       '[%s] Email Verification' => '[%s] Vérification de l’adresse de courriel',
-      'Empower %s as an administrator? They will be able to create users, approve users, make and remove administrators, delete accounts, and perform other administrative functions on this server.' => 'Promouvoir %s en tant qu’administrateur ? Il pourra créer des utilisateurs, approuver des utilisateurs, promouvoir et retirer des administrateurs, supprimer des comptes et effectuer d’autres fonctions administratives sur cette installation de Phabricator.',
+      'Empower %s as an administrator? They will be able to create users, approve users, make and remove administrators, delete accounts, and perform other administrative functions on this server.' => 'Promouvoir %s en tant qu’administrateur ? Il pourra créer et approuver des utilisateurs, promouvoir et limoger des administrateurs, supprimer des comptes et effectuer d’autres fonctions administratives sur ce serveur.',
       'Edit Profile Picture' => 'Modifier l’avatar',
       'Has MFA' => 'A un MFA',
       'Projects (%s)' => 'Projets (%s)',
@@ -245,7 +245,7 @@ final class PhabricatorPeopleFrFR
       'Find user accounts created after a given time.' => 'Trouver des comptes d’utilisateurs créés après un instant donné.',
       'You can use this link to reset your password:
       %s
-    ' => 'Vous pouvez utiliser ce lien pour réinitialiser votre mot de passe sur Phabricator :
+    ' => 'Vous pouvez utiliser ce lien pour réinitialiser votre mot de passe :
      %s',
       'Edit Profile: %s' => 'Modifier le profil : %s',
       'Make Administrator' => 'Promouvoir en administrateur',
@@ -255,11 +255,11 @@ final class PhabricatorPeopleFrFR
       'Anyone' => 'N’importe qui',
       'Joined After' => 'Inscrit(e) après',
       'Search for activity by specific users.' => 'Rechercher des activités par utilisateur ou utilisatrice spécifique.',
-      'Your %s account (%s) has been approved by %s. You can login here:' => 'Votre compte Phabricator (%s) a été approuvé par %s. Vous pouvez vous connecter ici :',
+      'Your %s account (%s) has been approved by %s. You can login here:' => 'Votre compte sur %s (%s) a été approuvé par %s. Vous pouvez vous connecter ici :',
       'Remove Administrator' => 'Retirer l’administrateur ou l’administratrice',
       'You are creating a new **mailing list** user account.' => 'Vous êtes en train de créer un nouveau compte d’utilisateur pour une **liste de diffusion**.',
       'Permanently disable specified users (admin only).' => 'Désactiver définitivement les utilisateurs spécifiés (administrateur uniquement).',
-      'To invite users, enter their email addresses below. Separate addresses with commas or newlines.' => 'Pour inviter des utilisateurs à Phabricator, saisissez leurs adresses de courriel ci-dessous. Séparez les adresses par des virgules ou des retours à la ligne.',
+      'To invite users, enter their email addresses below. Separate addresses with commas or newlines.' => 'Pour inviter des utilisateurs, saisissez leurs adresses de courriel ci-dessous. Séparez les adresses par des virgules ou des retours à la ligne.',
       'If you rename this user, the old username will no longer be tied to the user account. Anything which uses the old username in raw text (like old commit messages) may no longer associate correctly.' => 'Si vous renommez cet utilisateur, l’ancien nom d’utilisateur ne sera plus lié au compte d’utilisateur. Tout ce qui utilise l’ancien nom d’utilisateur dans le texte brut (comme les anciens messages de validation) peut ne plus s’associer correctement.',
       'Activity Log %d' => 'Journal d’activité %s',
       'Make Administrator?' => 'Promouvoir en administrateur ?',
@@ -284,24 +284,24 @@ final class PhabricatorPeopleFrFR
       - If you send email //to// this server on behalf of the     account, the address can identify the sender.
       - Some internal authentication functions depend on accounts     having an email address.
     The address will automatically be verified, so you do not need to be able to receive mail at this address, and can enter some invalid or nonexistent (but correctly formatted) address like `bot@yourcompany.com` if you prefer.' => '**Pourquoi les comptes de robot ont-ils besoin d’une adresse de courriel ?**
-    Bien que les bots ne reçoivent normalement aucun courriel de Phabricator, ils peuvent interagir avec d’autres systèmes nécessitant une adresse de courriel. Des exemples incluent :
-      – si le compte entreprend des actions qui //envoient// un courriel, nous avons besoin d’une adresse d’expéditeur à utiliser dans l’en-tête //De// ;
+    Bien que les robots ne reçoivent normalement aucun courriel, ils peuvent interagir avec d’autres systèmes nécessitant une adresse de courriel. Par exemple :
+      – si le compte entreprend des actions qui //envoient// un courriel, nous avons besoin d’une adresse à utiliser dans l’en-tête //De// ;
       – si le compte crée des validations, Git et Mercurial exigent une adresse de courriel pour la paternité.
-      – si vous envoyez un courriel //à// Phabricator au nom du compte, l’adresse peut identifier l’expéditeur.
+      – si vous envoyez un courriel //à// ce serveur au nom du compte, l’adresse peut identifier l’expéditeur.
       – certaines fonctions d’authentification internes dépendent de comptes ayant une adresse de courriel.
-    L’adresse sera vérifiée automatiquement, il n’est donc pas nécessaire que vous puissiez recevoir du courrier à cette adresse et vous pouvez saisir une adresse non valide ou inexistante (mais correctement formatée) telle que `robot@votreentreprise.racine` si vous préférez.',
+    L’adresse sera vérifiée automatiquement, il n’est donc pas nécessaire que vous puissiez recevoir du courrier à cette adresse et vous pouvez saisir une adresse non valide ou inexistante (mais correctement formatée) telle que `robot@votreentreprise.fr` si vous préférez.',
       'None of the provided addresses are valid invite recipients. Review the table below for details. Revise the address list to continue.' => 'Aucune des adresses fournies n’est un destinataire d’invitation valide. Consultez le tableau ci-dessous pour plus de détails. Révisez la liste d’adresses pour continuer.',
       '%s defrocked %s.' => '%s a retiré le rôle de %s.',
       'User Email' => 'Adresse courriel de l’utilisateur ou l’utilisatrice',
       'Non existent user PHID.' => 'PHID d’utilisateur inexistant.',
       'Love,
-    %s' => 'Amour,
-    Phabricator',
+    %s' => 'Cordialement,
+    %s',
       'User does not own email!' => 'L’utilisateur ne possède pas de courriel !',
       'Verified' => 'Vérifié',
       'Browse Log Types' => 'Examiner les types de journaux',
       'This method is frozen and will eventually be deprecated. New code should use "user.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « paste.search » à la place.',
-      '%s Account "%s" Approved' => 'Compte Phabricator « %s » approuvé',
+      '%s Account "%s" Approved' => 'Compte « %2$s » sur %1$s approuvé',
       'Login: Upgrade to Full' => 'Connexion : mise à niveau complète',
       'Create User' => 'Créer un utilisateur',
       'Unapproved Account' => 'Compte non approuvé',
@@ -340,12 +340,12 @@ final class PhabricatorPeopleFrFR
       'Administrators can always view all activity.' => 'Les administrateurs peuvent toujours voir toutes les activités.',
       'Only you can edit your information.' => 'Vous seul pouvez modifier vos informations.',
       'Unless you have a very good reason to delete this user, consider disabling them instead.' => 'À moins que vous n’ayez une très bonne raison de supprimer cet utilisateur, envisagez plutôt de le désactiver.',
-      'Allow %s to access this server?' => 'Autoriser %s à accéder à cette installation de Phabricator ?',
+      'Allow %s to access this server?' => 'Autoriser %s à accéder à ce serveur ?',
       'Edit Profile' => 'Modifier le profil',
       'Show Only Mailing Lists' => 'Afficher seulement les listes de diffusion.',
       'Verified email addresses can not be reassigned.' => 'Les adresses de courriel vérifiées ne peuvent pas être réaffectées.',
       'Browse Owners' => 'Parcourir les propriétaires',
-      'Create a standard user account. These users can log in, use the web interface and API, and receive email.' => 'Créer un compte d’utilisateur standard. Ces utilisateurs peuvent se connecter à Phabricator, utiliser l’interface Web et l’API, ainsi que recevoir des courriels.',
+      'Create a standard user account. These users can log in, use the web interface and API, and receive email.' => 'Créer un compte utilisateur standard. Ces utilisateurs peuvent se connecter, utiliser l’interface Internet et l’API ainsi que recevoir des courriels.',
       'Enable a disabled user account.' => 'Activer un compte utilisateur désactivé.',
       'User is Disabled' => 'L’utilisateur ou l’utilisatrice est désactivé(e)',
       'Shows when a user is away or busy.' => 'S’affiche lorsqu’un utilisateur est absent ou occupé.',
@@ -367,7 +367,7 @@ final class PhabricatorPeopleFrFR
       'Create New Mailing List' => 'Créer une nouvelle liste de diffusion',
       'You can not enable or disable your own account.' => 'Vous ne pouvez pas activer ou désactiver votre propre compte.',
       'Logout' => 'Déconnexion',
-      'After you set up your account, you can log in again in the future by going here:' => 'Après avoir configuré votre compte, vous pourrez à l’avenir vous connecter à Phabricator en allant ici :',
+      'After you set up your account, you can log in again in the future by going here:' => 'Après avoir créé votre compte, vous pourrez vous connecter ensuite en allant ici :',
       'Approve Account' => 'Approuver le compte',
       'Email has not been created yet!' => 'Le courriel n’a pas encore été créé !',
       'This function includes results which have no owner. Use a query like this to find unassigned results:
@@ -385,7 +385,7 @@ final class PhabricatorPeopleFrFR
       'Apply transactions to edit a user. (Users can not be created via the API.)' => 'Appliquer des transactions pour modifier un utilisateur. (Les utilisateurs ne peuvent pas être créés via l’API.)',
       'Needs Approval' => 'Approbation requise',
       'Show Only Users With MFA' => 'Afficher uniquement les utilisateurs avec MFA',
-      'Disable %s? They will no longer be able to access this server or receive email.' => 'Désactiver %s ? Il ou elle ne pourra plus accéder à Phabricator, ni recevoir aucun courriel.',
+      'Disable %s? They will no longer be able to access this server or receive email.' => 'Désactiver %s ? Il ou elle ne pourra plus accéder à ce serveur ni recevoir de courriel.',
       'Invites' => 'Invités',
       'Show Only Administrators' => 'Afficher seulement les administrateurs',
       'Something Stays Your Hand' => 'Quelque chose retient votre main',
@@ -394,7 +394,7 @@ final class PhabricatorPeopleFrFR
       'New Username' => 'Nouveau nom d’utilisateur',
       'User PHID' => 'PHID de l’utilisateur ou l’utilisatrice',
       'External accounts can only be edited by the account owner.' => 'Les comptes externes ne peuvent être modifiés que par le propriétaire du compte.',
-      '%s (%s) has changed your %s username.' => '%s (%s) a changé votre nom d’utilisateur sur Phabricator.',
+      '%s (%s) has changed your %s username.' => '%s (%s) a changé votre nom d’utilisateur sur %s.',
       'The "Has MFA" query constraint may only be used by administrators, to prevent attackers from using it to target weak accounts.' => 'La contrainte de requête « A un MFA » ne peut être utilisée que par les administrateurs, pour empêcher les attaquants de l’utiliser pour cibler les comptes faibles.',
       'Actor PHID' => 'PHID de l’acteur ou l’actrice',
       'You can not send welcome mail because you are not an administrator. Only administrators may send welcome mail.' => 'Vous ne pouvez pas envoyer de courriel de bienvenue car vous n’êtes pas administrateur. Seuls les administrateurs peuvent envoyer un courriel de bienvenue.',

@@ -31,7 +31,7 @@ final class PhabricatorMetamtaKoKR
       'Mail Properties' => '메일 속성',
       'User Mismatch' => '사용자 불일치',
       'No Address' => '주소 없음',
-      'Sent by %s' => '파브리케이터가 보냄',
+      'Sent by %s' => '%s로 보냄',
       'Email address is not formatted properly.' => '이메일 주소 형식이 올바르지 않습니다.',
       'ATTACHMENTS' => '첨부',
       'Mail signature is not valid. Check your Mailgun API key.' => '메일 서명이 유효하지 않습니다. Mailgun API 키를 확인하십시오.',

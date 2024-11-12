@@ -173,7 +173,7 @@ final class PhabricatorConfigKoKR
       'Version Information' => '버전 정보',
       'Enable developer mode' => '개발자 모드 활성화',
       'The request date.' => '요청일입니다.',
-      'Send as %s' => '파브리케이터로 보내기',
+      'Send as %s' => '%s로 보내기',
       'Extensions/Modules' => '확장 기능/모듈',
     );
   }

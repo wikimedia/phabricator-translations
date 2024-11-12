@@ -15,6 +15,7 @@ final class PhabricatorOwnersFrFR
       'Create New Package' => 'Créer un nouveau paquet',
       'Tales of adventure for this package.' => 'Contes d’aventure pour ce paquet.',
       'Search for active or archived packages.' => 'Rechercher les paquets actifs ou archivés.',
+      'Change package authority rules.' => 'Modifier les règles d\'autorité du paquet.',
       'Automatically trigger audits for commits affecting files in this package.' => 'Déclencher automatiquement des audits pour les validations affectant des fichiers de ce paquet.',
       'Include' => 'Inclure',
       'Path Exists in Repository' => 'Le chemin existe dans le dépôt',
@@ -22,6 +23,7 @@ final class PhabricatorOwnersFrFR
       'Audit Unreviewed Commits and Commits With No Owner Involvement' => 'Auditer les validations non passées en revue et celles sans implication du propriétaire',
       'No exclusion value for path "%s"!' => 'Aucune valeur d’exclusion pour le chemin « %s » !',
       'Search for packages by name substrings.' => 'Rechercher des paquets avec une partie du nom.',
+      'Authority setting information.' => 'Informations sur les paramètres d\'autorité.',
       'Changeset attribute "%s" is not valid. Valid changeset attributes are: %s.' => 'L’attribut « %s » de l’ensemble de modifications n’est pas valide. Les attributs valides d’ensemble de modifications sont : %s.',
       'Owners Packages' => 'Paquets des propriétaires',
       'Select and reorder package fields.' => 'Sélectionner et réordonner les champs des paquets.',
@@ -30,9 +32,10 @@ final class PhabricatorOwnersFrFR
       '%s changed %s package owner(s), added %s: %s; removed %s: %s.' => '%s a modifié %s propriétaire(s) de paquet ; en a ajouté %s : %s ; en a retiré %s : %s.',
       '%s updated paths for this package.' => '%s a mis à jour les chemins pour ce paquet.',
       'Auto Review' => 'Relecture automatique',
+      '%s adjusted package authority rules from %s to %s.' => '%s a ajusté les règles d\'autorité du package de %s à %s .',
       'Packages: Invalid Owner' => 'Paquets : propriétaire non valide',
       'Auto review information.' => 'Informations de passage en revue automatique.',
-      'Group sections of a codebase into packages for re-use in other applications, like Herald rules.' => 'Groupe les sections d’une base de code en paquets réutilisables dans d’autres aires de Phabricator, comme les règles Herald.',
+      'Group sections of a codebase into packages for re-use in other applications, like Herald rules.' => 'Groupe les sections d’une base de code en paquets réutilisables dans d’autres applications, comme les règles Herald.',
       'Path Not Found On Default Branch' => 'Chemin introuvable sur la branche par défaut',
       'Affected By Herald Rules' => 'Affecté par les règles Herald',
       'Users and projects which own the package.' => 'Utilisateurs et projets responsables du paquet.',
@@ -41,6 +44,7 @@ final class PhabricatorOwnersFrFR
       'Packages: %s' => 'Paquets : %s',
       'owner' => 'propriétaire',
       'The package description.' => 'Description du paquet.',
+      'Strong (Package Owns Paths)' => 'Fort (le paquet est propriétaire des chemins)',
       'Review Changes With Non-Owner Author' => 'Passer en revue les changements par des auteurs non propriétaires',
       '%s renamed this package from %s to %s.' => '%s a renommé ce paquet de %s en %s.',
       'Audit Unreviewed Commits' => 'Auditer les validations non passées en revue',
@@ -70,6 +74,7 @@ final class PhabricatorOwnersFrFR
       'Automatically trigger reviews for commits affecting files in this package.' => 'Déclencher automatiquement des passages en revue pour les validations affectant des fichiers de ce paquet.',
       'Dominion setting information.' => 'Informations sur le réglage Dominion.',
       'Owners of a package may always view it.' => 'Les propriétaires d’un paquet peuvent toujours le visualiser.',
+      'Weak (Package Watches Paths)' => 'Faible (le paquet est observateur des chemins)',
       'No commits in this package.' => 'Aucune validation dans ce paquet.',
       'Review All Changes' => 'Relire toutes les modifications',
       'Archive or enable the package.' => 'Archiver ou activer le paquet.',
@@ -111,6 +116,7 @@ final class PhabricatorOwnersFrFR
       'No Auditing' => 'Aucun audit',
       'Map of custom fields for Owners packages. For details on adding custom fields to Owners, see "Configuring Custom Fields" in the documentation.' => 'Correspondance des champs personnalisés pour les paquets de propriétaires. Pour plus de détails sur l’ajout de champs personnalisés aux propriétaires, consultez « Configuration de champs personnalisés » dans la documentation.',
       'Packages: ...' => 'Paquets : ...',
+      'Authority setting "%s" is not valid. Valid settings are: %s.' => 'Le paramètre d\'autorité « %s » n\'est pas valide. Les paramètres valides sont : %s.',
       'Activate Package' => 'Activer le paquet',
       'This package will become active again.' => 'Ce paquet redeviendra actif.',
       '%s updated the description for this package.' => '%s a mis à jour la description de ce paquet.',
@@ -134,6 +140,43 @@ final class PhabricatorOwnersFrFR
       'Edit Paths: %s' => 'Modifier les chemins : %s',
       'Package %d' => 'Paquet %s',
       'Add New Path' => 'Ajouter un nouveau chemin',
+      'When updating the paths for a package, pass a list of dictionaries like
+    this as the `value` for the transaction:
+    ```lang=json, name="Example Paths Value"
+    [
+      {
+        "repositoryPHID": "PHID-REPO-1234",
+        "path": "/path/to/directory/",
+        "excluded": false
+      },
+      {
+        "repositoryPHID": "PHID-REPO-1234",
+        "path": "/another/example/path/",
+        "excluded": false
+      }
+    ]
+    ```
+    This transaction will set the paths to the list you provide, overwriting any
+    previous paths.
+    Generally, you will call `owners.search` first to get a list of current paths
+    (which are provided in the same format), make changes, then update them by
+    applying a transaction of this type.' => 'Lors de la mise à jour des chemins d\'accès d\'un paquet, transmettez une liste de dictionnaires en tant que `valeur` pour la transaction comme ceci :
+    ```lang=json, name="Exemple de valeur des chemins"
+    [
+     {
+     "repositoryPHID": "PHID-REPO-1234",
+     "path": "/path/to/directory/",
+     "excluded": false
+     },
+     {
+     "repositoryPHID": "PHID-REPO-1234",
+     "path": "/another/example/path/",
+     "excluded": false
+     }
+    ]
+    ```
+    Cette transaction définira les chemins selon la liste que vous fournissez, en écrasant tous les chemins précédents.
+    En général, vous appellerez d\'abord `owners.search` pour obtenir une liste des chemins actuels (qui sont fournis dans le même format), apporterez des modifications, puis les mettrez à jour en appliquant une transaction de ce type.',
       '%s changed the audit rule for this package from %s to %s.' => '%s a modifié la règle d’audit de ce paquet de %s en %s.',
       'Active Packages' => 'Activer les paquets',
       'Exclude' => 'Exclure',
