@@ -3,6 +3,7 @@
 		"authors": [
 			"Agent",
 			"AnupamM",
+			"Danielyepezgarces",
 			"Fitoschido",
 			"MarcoAurelio",
 			"Ovruni"
@@ -60,12 +61,15 @@
 	"64314c70d7a0770a": "Desactivar usuario",
 	"65635557e911fb3f": "¿Quieres eliminar los permisos de administrador a $1? No podrá en lo sucesivo realizar acciones administrativas en esta instalación de Phabricator.",
 	"67ee1a176ed50720": "Cuenta de usuario \"$1\" aprobado.",
+	"681b5b5ae10b994e": "Disponibilidad",
 	"69189a95ef784fb8": "administradores",
 	"8e853d002c9feb18": "[Phabricator] Confirmación de la dirección de correo electrónico",
 	"906bd1cb190869c5": "Proyectos ($1)",
 	"9778204166e095f3": "Hacer administrador",
 	"a1924aaadbcff174": "¿Hacer administrador?",
+	"a6935da6add92db1": "Escriba un nombre de usuario...",
 	"ac76b969a840d99b": "$1 eliminó los permisos de administrador a $2.",
+	"b34e9360db16298e": "Cambiar nombre de usuario",
 	"b37554f695b15005": "Personas",
 	"f6a628af1a94ddfe": "$1 ($2) cambió su nombre de usuario en Phabricator."
 }
