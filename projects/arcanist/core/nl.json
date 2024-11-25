@@ -16,6 +16,7 @@
 	"002c2a90a11d5b80": "Deze werkkopie is gekoppeld aan de $1-repository.",
 	"008e572e126baa15": "Lint-uitschakelaar",
 	"0099091670df1068": "Aanroep van \"posix_getpgid(...)\" mislukt!",
+	"00ccdc30a8fb3ff3": "Bij de “squash”-strategie worden meerdere lokale commits samengevouwen tot één commit bij het publiceren. Daardoor wordt de openbare commitgeschiedenis lineair (maar worden lokale checkpoint-commits verwijderd). Dit is de standaardstrategie.",
 	"01350f4ff3237a24": "Roep $1 of $2 niet direct aan op een $3. Roep in plaats daarvan $4 of $5 aan.",
 	"013b0fec777a1671": "Een linter voor Composer-gerelateerde bestanden.",
 	"013ec8933730fcd3": "\"$1\" ($2)",
