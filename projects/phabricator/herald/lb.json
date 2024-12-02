@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"3275700e492079d5": "Desaktivéiert Reegelen",
 	"3997176e56bf67f9": "Reegel aktivéieren",
 	"5ffe533b830f08a0": "wouer",
+	"62556d50d4f41b5e": "Reegel späicheren",
 	"7cb6efb98ba5972a": "falsch",
 	"8fa6985cc534e9f2": "$1 (Desaktivéiert)",
 	"add2e4a4b8a46a34": "Feld: $1",
