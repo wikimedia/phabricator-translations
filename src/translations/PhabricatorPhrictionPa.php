@@ -14,6 +14,8 @@ final class PhabricatorPhrictionPa
       'Draft %d' => 'ਖਰੜਾ %s',
       'This document has unpublished draft changes.' => 'ਇਸ ਲਿਖਤ ਵਿੱਚ ਨਾ-ਛਾਪੇ ਹੋਏ ਖਰੜਾ ਦੀ ਤਬਦੀਲੀਆਂ ਹਨ।',
       'Save as Draft' => 'ਖਰੜੇ ਵਜੋਂ ਸੰਭਾਲੋ',
+      'Welcome' => 'ਜੀ ਆਇਆਂ ਨੂੰ',
+      'Edits' => 'ਸੋਧਾਂ',
     );
   }
 

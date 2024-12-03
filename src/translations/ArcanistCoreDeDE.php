@@ -63,11 +63,11 @@ final class ArcanistCoreDeDE
       'Output upload information in JSON format.' => 'Gebe die Upload-Informationen im JSON-Format aus.',
       'LANDING' => 'LANDUNG',
       'Inline HTML' => 'Integriertes HTML',
-      'Remote Repository' => 'Entferntes Repository',
+      'Remote Repository' => 'Remote-Repository',
       'Conduit API login required.' => 'Conduit API-Anmeldung erforderlich.',
       'Rule \'%s\' matched a zero-length token and causes no state transition.' => 'Die Regel "%s" hat ein Token der Länge Null gefunden und verursacht keinen Zustandsübergang.',
       'Empty certificate in credentials.' => 'Leeres Zertifikat in den Anmeldeinformationen.',
-      'Confirms that revisions you did not author should land.' => 'Bestätigt, dass Versionen, die du nicht verfasst hast, ankommen sollen.',
+      'Confirms that revisions you did not author should land.' => 'Bestätigt, dass Versionen, die du nicht verfasst hast, landen sollen.',
       'No tests to run.' => 'Keine auszuführenden Tests.',
       'Expected JSON response from Slack.' => 'Erwartete JSON-Antwort von Slack.',
       '%s assertion(s) passed.' => array(
@@ -635,10 +635,10 @@ final class ArcanistCoreDeDE
     Previously, arc assumed you meant \'%s\' when you did not specify a start revision, but this behavior does not make much sense in most workflows outside of Facebook\'s historic %s workflow.
     arc no longer assumes \'%s\'. You must specify a relative commit explicitly when you invoke a command (e.g., `%s`, not just `%s`) or select a default for this working copy.
     In most cases, the best default is \'%s\'. You can also select \'%s\' to preserve the old behavior, or some other remote or branch. But you almost certainly want to select \'origin/master\'.
-    (Technically: the merge-base of the selected revision and HEAD is used to determine the start of the commit range.)' => 'Du führst einen Befehl aus, der auf einem Bereich von Versionen arbeitet (normalerweise, von irgendeiner Version bis HEAD) aber hast nicht die Version, die den Anfang des Bereiches festlegen soll, angegeben.
-    Früher dachte Arc, dass du \'%s\' meintest, wenn du keine Anfangsversion angegeben hattest, aber dieses Verhalten macht keinen Sinn in den meisten Workflows außerhalb von Facebooks historischem %s-Workflow.
-    Arc nimmt nicht mehr \'%s\' an. Du musst einen relativen Commit explizit angeben, wenn du einen Befehl ausführst (z.B. `%s`, nicht nur `%s`), oder einen Standard für diese Arbeitskopie wählen.
-    In den meisten Fällen ist der beste Standard \'%s\'. Du kannst auch \'%s\' auswählen, um das alte Verhalten zu bewahren, oder irgendein Remote oder Zweig. Aber du möchtest nahe zu sicher \'origin/master\' auswählen.
+    (Technically: the merge-base of the selected revision and HEAD is used to determine the start of the commit range.)' => 'Du führst einen Befehl aus, der auf einem Bereich von Versionen arbeitet (normalerweise, von irgendeiner Version bis HEAD), aber hast nicht die Version, die den Anfang des Bereiches festlegen soll, angegeben.
+    Früher dachte Arc, dass du \'%s\' meintest, wenn du keine Anfangsversion angegeben hattest, aber dieses Verhalten ergibt in den meisten Workflows außerhalb von Facebooks historischem %s-Workflow keinen Sinn.
+    Arc nimmt nicht mehr \'%s\' an. Du musst einen relativen Commit explizit angeben, wenn du einen Befehl ausführst (z. B. `%s`, nicht nur `%s`), oder einen Standard für diese Arbeitskopie wählen.
+    In den meisten Fällen ist der beste Standard \'%s\'. Du kannst auch \'%s\' auswählen, um das alte Verhalten zu bewahren, oder einen anderen Remote oder Zweig. Aber du möchtest höchstwahrscheinlich \'origin/master\' auswählen.
     (Technisch: Die Zusammenführungsbasis der gewählten Version und HEAD werden benutzt, um den Anfang des Commit-Bereiches festzulegen.)',
       'Other locations: %s' => 'Andere Orte: %s',
       'UNIT ERRORS' => 'EINHEITENFEHLER',

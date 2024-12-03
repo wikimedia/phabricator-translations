@@ -187,7 +187,7 @@ final class PhabricatorCoreEsES
       'Restarting' => 'Reiniciando',
       'EXECUTE' => 'EJECUTAR',
       'You must choose a project.' => 'Debes seleccionar un proyecto.',
-      'Welcome to %s!' => '¡Te damos la bienvenida a Phabricator!',
+      'Welcome to %s!' => '¡Le damos la bienvenida a %s!',
       'No' => 'No',
       '%s was delayed until "%s".' => '%s fue demorado hasta "%s".',
       'No tasks selected to delay.' => 'Ningúna tarea seleccionada para demorar.',

@@ -13,8 +13,8 @@ final class PhabricatorDaemonFrFR
       'Clock' => 'Horloge',
       'Show daemon processes on this host.' => 'Affiche les processus de services d’arrière-plan sur cet hôte.',
       'Leased' => 'Emprunté',
-      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Démarrer la collection configurée standard des services d’arrière-plan de Phabricator. C\'est ce qui convient à la plupart des installations. Utilisez **%s** pour personnaliser les services à lancer.',
-      'Starting daemons as %s' => 'Démarrage des démons en tant que %s',
+      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Démarrer la collection configurée standard des services d’arrière-plan. C\'est ce qui convient à la plupart des installations. Utilisez **%s** pour personnaliser les services à lancer.',
+      'Starting daemons as %s' => 'Démarrage des services d’arrière-plan en tant que %s',
       'SURVIVED' => 'A SURVÉCU',
       'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Redémarrer en douceur et sur place les processus de services d’arrière-plan pour prendre en compte les modifications dans les sources. Cela ne perturbera pas les tâches en cours d’exécution. Ceci est une méthode avancée ; la plupart des installations devraient utiliser __%s__.',
       'Retries' => 'Nouvelles tentatives',
@@ -42,12 +42,12 @@ final class PhabricatorDaemonFrFR
       'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
     The daemons are configured to run as "%s", but the current user is "%s". 
     Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Vous essayez d’exécuter un service d’arrière-plan en tant qu’utilisateur non standard et `%s` n’a pas pu `%s` vers le bon utilisateur.
-    Phabricator est configuré pour lancer les services d’arrière-plan en tant que « %s », mais l’utilisateur actuel est « %s ».
-    Utiliser `%s` pour exécuter en tant qu’un autre utilisateur, passer `%s` pour ignorer cet avertissement, ou bien modifier `%s` pour changer la configuration.',
+    Les services d’arrière-plan sont configurés pour s\'exécuter en tant que « %s » mais l’utilisateur actuel est « %s ».
+    Utilisez `%s` pour exécuter avec un autre utilisateur, passez `%s` pour ignorer cet avertissement ou bien modifiez `%s` pour changer la configuration.',
       'STOP' => 'ARRÊTER',
       'You must specify which daemon to launch.' => 'Vous devez spécifier quel service d’arrière-plan lancer.',
       'Run the daemon as the current user instead of the configured %s' => 'Lancer le service d’arrière-plan avec l’utilisateur actuel plutôt que celui (%s) configuré',
-      'PID "%d" is not a known daemon PID.' => 'Le PID « %s » n’est pas un PID de service d’arrière-plan de Phabricator connu.',
+      'PID "%d" is not a known daemon PID.' => 'Le PID « %s » n’est pas un PID de service d’arrière-plan connu.',
       'Enabling the lock log.' => 'Activer le journal des verrous.',
       'Reloading process %d...' => 'Rechargement du processus %s...',
       'Lock Logs' => 'Journaux des verrous',
@@ -95,14 +95,14 @@ final class PhabricatorDaemonFrFR
       '%s requires the directory \'%s\' to exist, but it does not exist and could not be created. Create this directory or update \'%s\' in your configuration to point to an existing directory.' => '%s exige l’existence du répertoire « %s », mais il n’existe pas et n’a pas pu être créé. Créez ce répertoire ou mettez à jour « %s » dans votre configuration pour pointer vers un répertoire existant.',
       'Specify a proportion of machine memory which must be free before autoscale pools will grow. For example, a value of 0.25 means that pools will not grow unless the machine has at least 25%%%% of its RAM free.' => 'Spécifier une proportion de la mémoire de la machine qui doit rester libre avant d’agrandir les réserves dimensionnées automatiquement. Par exemple, une valeur « 0,25 » indique que les réserves ne grandiront pas tant que la machine n’a pas au moins 25 %%%% de mémoire libre.',
       'Review logs for a specific lock.' => 'Vérifier les journaux pour un verrou particulier.',
-      'Stop all daemon processes on this host, even if they belong to another instance.' => 'Arrêter tous les processus de services d’arrière-plan sur cet hôte, même s’ils appartiennent à une autre instance de Phabricator.',
+      'Stop all daemon processes on this host, even if they belong to another instance.' => 'Arrêter tous les processus de services d’arrière-plan sur cet hôte même s’ils appartiennent à une autre instance.',
       'By default, **%s** will free all task leases held by the daemons. With this flag, this step will be skipped.' => 'Par défaut, **%s** libérera tous les baux de tâche détenus par les services d’arrière-plan. Avec ce drapeau, cette étape sera sautée.',
       'Killing process %d...' => 'Processus %s en train d’être tué...',
       'Recently Completed Tasks (Last 15m)' => 'Tâches récemment terminées (dans les 15 dernières minutes)',
       'There are no running daemon processes.' => 'Il n’y a aucun processus de service d’arrière-plan en cours d’exécution.',
       'Maximum Retries' => 'Nombre maximum de tentatives',
       'Task %d' => 'Tâche %s',
-      'Manage Daemons' => 'Gérer les services d’arrière-plan de Phabricator',
+      'Manage Daemons' => 'Gérer les services d’arrière-plan',
       'Next In Queue' => 'Suivant en file d’attente',
       'Disabling the lock log.' => 'Désactivation du journal des verrous.',
       'Retries Forever' => 'Retente indéfiniment',

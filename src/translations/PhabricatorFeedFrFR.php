@@ -10,6 +10,15 @@ final class PhabricatorFeedFrFR
   protected function getTranslations() {
     return array(
       'Call %s before publishing!' => 'Appelez %s avant de publier !',
+      'IMPORTANT: Feed hooks are deprecated and have been replaced by Webhooks.
+    You can configure Webhooks in Herald. This configuration option will be removed
+    in a future version of the software.
+    (This legacy option may be configured with a list of URIs; feed stories will
+    send to these URIs.)' => 'IMPORTANT : les hooks de flux sont obsolètes et ont été remplacés par des Webhooks.
+    Vous pouvez configurer des Webhooks dans Herald. Cette option de configuration
+    sera supprimée dans une future version du logiciel.
+    (Cette option héritée peut être configurée avec une liste d\'URI ; les articles
+    de flux seront envoyés à ces URI.)',
       'Dictionary with various data of the story' => 'Dictionnaire avec diverses données de l’histoire',
       'All Stories' => 'Toutes les histoires',
       'Query the feed for stories' => 'Interroger le flux pour les histoires',

@@ -80,6 +80,7 @@ final class PhabricatorFundZhHant
       'Initiative Closed' => '新行動已關閉',
       '%s renamed this initiative from %s to %s.' => '%s將此新行動從%s改名成%s。',
       'Really close this initiative? Users will no longer be able to back it.' => '確定要關閉此新活動？使用者將不再能對此做出贊助。',
+      'Merchant %d %s' => '商家 %s %s',
       'INITIATIVE DETAIL' => '新活動詳情',
       '(Restricted Merchant)' => '（受限商家）',
       'Back Initiative' => '贊助新行動',

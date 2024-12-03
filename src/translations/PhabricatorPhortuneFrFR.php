@@ -371,6 +371,7 @@ final class PhabricatorPhortuneFrFR
       'Subscription is missing billing period information.' => 'Les informations sur la période de facturation sont manquantes pour l’abonnement.',
       'You are not a member of any payment accounts. Payment accounts are used to make purchases.' => 'Vous n’êtes membre d’aucun compte de paiement. Les comptes de paiement sont utilisés pour effectuer des achats.',
       'To access information about this payment account, follow a more recent link or ask a user with access to give you an updated link.' => 'Pour accéder aux informations sur ce compte de paiement, suivez un lien plus récent ou demandez à un utilisateur disposant d’un accès de vous donner un lien mis à jour.',
+      'Create Product' => 'Créer un produit',
       '%s created this payment method.' => '%s a créé ce mode de paiement.',
       'You are trying to access this payment account as: %s' => 'Vous essayez d’accéder à ce compte de paiement en tant que : %s',
       'Choose one or more users to add as account managers. Managers have full control of the account.' => 'Choisir un ou plusieurs utilisateurs à ajouter en tant que gestionnaires de compte. Les gestionnaires ont le contrôle total du compte.',

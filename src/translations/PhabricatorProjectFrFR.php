@@ -176,6 +176,7 @@ final class PhabricatorProjectFrFR
       'Invalid Rule' => 'Règle incorrecte',
       'Watching Ancestor' => 'Voir les ancêtres',
       'Support for Projects' => 'Prises en charge pour les projets',
+      'See Subprojects' => 'Voir les sous-projets',
       'Change task priority to %s.' => 'Modifier la priorité de la tâche à %s.',
       'Tasks Moved Into Project' => 'Tâches transférées au projet',
       'This One Is Purple' => 'Celui-ci est pourpre',
@@ -468,6 +469,23 @@ final class PhabricatorProjectFrFR
         ),
       ),
       'The project image ("%s") specified for ("%s") was not found in the folder "resources/builtin/projects/".' => 'L’image de projet (« %s ») spécifiée for « %s » n’a pas été trouvée dans le dossier « resources/builtin/projects/ ».',
+      'Allows you to relabel project colors.
+    The list of available colors can not be expanded, but the existing colors may
+    be given labels.
+    Configure a list of color specifications. Each color specification should be a
+    dictionary, which may contain these keys:
+      - `key` //Required string.// The internal key identifying the color.
+      - `name` //Required string.// Human-readable label for the color.
+      - `default` //Optional bool.// Selects the default color used when creating
+        new projects. Exactly one color must be selected as the default.
+    You can look at the default configuration below for an example of a valid
+    configuration.' => 'Permet de réétiqueter les couleurs du projet.
+    La liste des couleurs disponibles ne peut pas être étendue, mais les couleurs existantes peuvent recevoir des étiquettes.
+    Configurez une liste de spécifications de couleurs. Chaque spécification de couleur doit être un dictionnaire, qui peut contenir ces clés :
+     - `key` //Chaîne obligatoire.// La clé interne identifiant la couleur.
+     - `name` //Chaîne obligatoire.// Étiquette lisible par l\'homme pour la couleur.
+     - `default` //Booléen facultatif.// Sélectionne la couleur par défaut utilisée lors de la création de nouveaux projets. Une seule couleur doit être définie avec ce paramètre.
+    Vous pouvez consulter la configuration par défaut ci-dessous pour un exemple de configuration valide.',
       'This project has no milestones.' => 'Ce projet n’a aucun jalon.',
       'Project watcher list changes.' => 'La liste des personnes qui suivent ce projet a été modifiée.',
       'Users with access may join this project, but may not leave.' => 'Les utilisateurs pouvant accéder peuvent rejoindre ce projet, mais ne peuvent pas le quitter.',
@@ -539,7 +557,8 @@ final class PhabricatorProjectFrFR
       'Projects User Guide' => 'Guide utilisateur des projets',
       'Projects: ...' => 'Projets : ...',
       'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
-    Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Ajoutez un ou plusieurs projets à l’objet en listant leurs balises. Séparez les projets par des espaces. Par exemple, utilisez `!projects #ios #fonctionnalités` pour ajouter les deux projets liés.',
+    Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Ajoutez un ou plusieurs projets à l\'objet en listant leurs hashtags. Séparez les projets par des espaces. Par exemple, utilisez `!projects #ios #feature` pour ajouter les deux projets associés.
+    Les projets invalides ou inconnus seront ignorés. Cette commande n\'a aucun effet si vous ne spécifiez aucun projet.',
       'Find projects with a given minimum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Trouver des projets avec une profondeur minimale donnée. Les projets racines ont la profondeur 0, leurs enfants immédiats ont la profondeur 1, etc.',
       'Group by Status' => 'Grouper par état',
       'Join Project' => 'Rejoindre le projet',
@@ -565,11 +584,13 @@ final class PhabricatorProjectFrFR
       'Can Not Hide Default Column' => 'Impossible de masquer la colonne par défaut',
       'This function allows you to find results for any of the members of a project:
     > members(frontend)' => 'Cette fonction vous permet de trouver des résultats pour chacun des membres d’un projet :
-    > members(frontal)',
+    > members(nom du projet)',
       'Workboard Already Has Columns' => 'Le tableau de bord comprend déjà des colonnes',
       'Project History' => 'Historique du projet',
       'Move Tasks to Project' => 'Transférer les tâches au projet',
       'Browse Viewer Projects' => 'Parcourir les projets du lecteur',
+      'Allows you to define project subtypes. For a more detailed description of
+    subtype configuration, see @{config:maniphest.subtypes}.' => 'Permet de définir des sous-types de projet. Pour une description plus détaillée de la configuration des sous-types, voir @{config:maniphest.subtypes}.',
       'See full report.' => 'Voir le rapport entier.',
       'Locked Project' => 'Projet verrouillé',
       'Not In: ...' => 'Pas dans : ...',
@@ -648,6 +669,37 @@ final class PhabricatorProjectFrFR
       'Move to column %s.' => 'Aller à la colonne %s.',
       'Choose a project to import columns from:' => 'Choisissez un projet d’où sélectionner les colonnes à importer :',
       'PHID of the parent project.' => 'PHID du projet parent.',
+      'Allows you to change and customize the available project icons.
+    You can find a list of available icons in {nav UIExamples > Icons and Images}.
+    Configure a list of icon specifications. Each icon specification should be
+    a dictionary, which may contain these keys:
+      - `key` //Required string.// Internal key identifying the icon.
+      - `name` //Required string.// Human-readable icon name.
+      - `icon` //Required string.// Specifies which actual icon image to use.
+      - `image` //Optional string.// Selects a default image. Select an image from
+        `resources/builtins/projects/`.
+      - `default` //Optional bool.// Selects a default icon. Exactly one icon must
+        be selected as the default.
+      - `disabled` //Optional bool.// If true, this icon will no longer be
+        available for selection when creating or editing projects.
+      - `special` //Optional string.// Marks an icon as a special icon:
+        - `milestone` This is the icon for milestones. Exactly one icon must be
+          selected as the milestone icon.
+    You can look at the default configuration below for an example of a valid
+    configuration.' => 'Vous permet de modifier et de personnaliser les icônes de projet disponibles.
+    Vous pouvez trouver une liste des icônes disponibles dans {nav UIExamples > Icons and Images}.
+    Configurer une liste de spécifications d\'icône. Chaque spécification d\'icône doit être un dictionnaire qui peut contenir ces clés :
+     - `key` //Chaîne requise.// Clé interne identifiant l\'icône.
+     - `name` //Chaîne requise.// Nom d\'icône lisible par l\'homme.
+     - `icon` //Chaîne requise.// Spécifie l\'image de l\'icône à utiliser.
+     - `image` //Chaîne facultative.// Sélectionne une image par défaut. Sélectionnez une image et une seule dans
+     `resources/builtins/projects/`.
+     - `default` //Booléen facultatif.// Indique qu\'il y a une icône par défaut.
+     - `disabled` //Booléen facultatif.// Si vrai, cette icône ne sera plus
+     disponible pour la sélection lors de la création ou de la modification de projets.
+     - `special` //Chaîne facultative.// Marque une icône comme une icône spéciale :
+       * `milestone` Il s\'agit de l\'icône des jalons. Une seule icône doit être sélectionnée comme icône de jalon.
+    Vous pouvez consulter la configuration par défaut ci-dessous pour un exemple de configuration valide.',
       'Project name generates the same hashtag ("%s") as another existing project. Choose a unique name.' => 'Le nom du projet génère le même mot-dièse (« %s ») qu’un autre projet existant. Choisissez un nom unique.',
       'Project names must contain at least one letter or number.' => 'Les noms de projet doivent contenir au moins une lettre ou un chiffre.',
       'This function matches results in any of the current viewing user\'s projects:
@@ -671,10 +723,8 @@ final class PhabricatorProjectFrFR
       'Expected "newSortVectorsForObjects()" on "%s" to return a map of vectors, but got "%s".' => 'Attendait que « newSortVectorsForObjects() » sur « %s » renvoie une correspondance de vecteurs de tri, mais « %s » a été obtenu.',
       'List of custom fields for project tags.
     For details on adding new fields, see [[ %s | %s ]] in the
-    documentation.' => 'Liste des champs personnalisés pour les étiquettes de projet
-    .
-    Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la
-    documentation.',
+    documentation.' => 'Liste des champs personnalisés pour les étiquettes de projet.
+    Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la documentation.',
       'Workboard: %s' => 'Tableau de bord : %s',
       'Tasks completed this %s: %d' => 'Tâches terminées ce %s : %s',
       'This project does not have any members.' => 'Ce projet ne comprend aucun membre.',
@@ -716,7 +766,7 @@ final class PhabricatorProjectFrFR
         'Utilisé sur %s colonne active.',
         'Utilisé sur %s colonnes actives.',
       ),
-      'True if this is the default column.' => 'S’il s\'agit de la colonne par défaut.',
+      'True if this is the default column.' => 'True s’il s\'agit de la colonne par défaut.',
       'Milestones' => 'Jalons',
       'Configure Project Forms' => 'Configurer les formulaires de projet',
       '%s removed %d project member(s): %s.' => array(
@@ -763,6 +813,7 @@ final class PhabricatorProjectFrFR
       'Disable Mail' => 'Désactiver le courriel',
       'Week' => 'Semaine',
       'Slugs' => 'Tuyaux',
+      'Milestone Name' => 'Nom du jalon',
       'Move Tasks' => 'Déplacer les tâches',
       '%s set the icon for %s to %s.' => '%s a défini l’icône pour %s à %s.',
       'Watching a project will let you monitor it closely. You will receive email and notifications about changes to every object tagged with projects you watch.' => 'Suivre un projet vous permettra de le maîtriser de près. Vous recevrez un courriel et des notifications concernant les modifications réalisées sur chacun des objets labellisés pour les projets que vous suivez.',

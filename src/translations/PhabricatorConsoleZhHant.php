@@ -31,6 +31,7 @@ final class PhabricatorConsoleZhHant
       'Whole Table' => '整個表格',
       'Repaint' => '重繪',
       'Small Table Scan' => '小型表格掃描',
+      'Installation Guide' => '安裝指南',
       'Profile Permalink' => '分析固定連結',
       'Error Log' => '錯誤日誌',
       'Controller' => '控制器',

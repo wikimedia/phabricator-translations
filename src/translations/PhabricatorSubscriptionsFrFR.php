@@ -50,9 +50,9 @@ final class PhabricatorSubscriptionsFrFR
       'This object is not subscribable.' => 'Cet objet ne peut avoir aucun abonné.',
       'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
-    Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => 'Ajouter un ou plusieurs abonnés à l\'objet. Vous pouvez ajouter des comptes en fournissant les noms d’utilisateur, ou bien ajouter des projets en ajoutant leur code-dièse. Par exemple, utilisez `%s` pour ajouter l’utilisateur `alincoln` et le projet de code-dièse `#ios` en tant qu’abonnés.
+    Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => 'Ajouter un ou plusieurs abonnés à l\'objet. Vous pouvez ajouter des utilisateurs en fournissant leur nom d’utilisateur, ou bien ajouter des projets en ajoutant leur mot-dièse. Par exemple, utilisez `%s` pour ajouter l’utilisateur `alincoln` et le projet ayant le mot-dièse `#ios` en tant qu’abonnés.
     Les abonnés incorrects ou non reconnus seront ignorés. Cette commande n’a aucun d’effet si vous ne spécifiez aucun abonné.
-    Les utilisateurs qui sont en copie du courriel lui-même, sont aussi automatiquement abonnés si Phabricator connait les comptes liés à leur adresse courriel.',
+    Les utilisateurs qui sont en copie du courriel lui-même sont aussi automatiquement abonnés si leur adresse courriel est associé à un compte connu.',
       'Add rule author as subscriber.' => 'Ajouter l’auteur de la règle en tant qu’abonné.',
       'Added %s subscriber(s): %s.' => '%s abonné(s) ajouté(s) : %s .',
       'Remove rule author as subscriber.' => 'Supprimer l’auteur de la règle en tant qu’abonné.',

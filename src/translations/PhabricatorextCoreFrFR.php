@@ -14,8 +14,8 @@ final class PhabricatorextCoreFrFR
       'Standard Phabricator.' => 'Phabricator standard.',
       'Auto-generated release schedule details.' => 'Détails de planification de version auto-générée.',
       'Consumer Token' => 'Jeton du consommateur',
-      'This adds a link to search Maniphest for open tasks which are tagged with this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Ceci ajoute un lien vers un maniphest de recherche pour les tâches ouvertes qui sont balisées par ce projet.
-    NOTE : cette fonctionnalité est fournie par une extension maintenue par Wikimédia, ProjectOpenTasksProfileMenuItemextension. Voir {rPHEX} pour la source.',
+      'This adds a link to search Maniphest for open tasks which are tagged with this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Ceci ajoute un lien pour rechercher dans Maniphest les tâches ouvertes qui sont balisées avec ce projet.\\n\\nREMARQUE : cette fonctionnalité est fournie par une extension maintenue par Wikimédia dans ProjectOpenTasksProfileMenuItem
+    .php. Voir https://gitlab.wikimedia.org/repos/phabricator/extensions pour la source.',
       'Merged' => 'Fusionné',
       'Unresolved code review comments: %d' => 'Commentaire de relecture de code non résolu : %s',
       'Customize query in gerrit' => 'Personnaliser la requête dans Gerrit',
@@ -36,6 +36,7 @@ final class PhabricatorextCoreFrFR
       'OAuth JWT wasn\'t valid at this time' => 'L’authentification par OAuth JWT n’était pas valide à l’heure actuelle',
       'Any serious bugs affecting `%s` should be added as subtasks beneath this one.' => 'Toute sérieuse anomalie qui affecte `%s` devrait être ajoutée en tant que sous-tâche en dessous de celle-ci.',
       'The username for whom transactions will be rolled back.' => 'Le nom d’utilisateur de qui des transactions devraient être renversées.',
+      'No "security" task subtype is defined in "maniphest.subtypes" in this installation. Please file a bug report.' => 'Aucun sous-type de tâche « security » n\'est défini dans « maniphest.subtypes » dans cette installation. Veuillez remplir un rapport de bogue.',
       'ChangeId' => 'Identifiant de modification',
       'Only admins can call this API' => 'Seuls les administrateurs peuvent appeler cette API',
       'OAuth provider returned an error response.' => 'Le fournisseur OAuth a retourné une réponse d’erreur.',
@@ -43,12 +44,13 @@ final class PhabricatorextCoreFrFR
       'Release Details' => 'Détails de publication',
       'Allow' => 'Autoriser',
       'This MediaWiki Train Deployment is scheduled for the week of' => 'Ce train de déploiement de MediaWiki est planifié pour la semaine du',
+      'WIP - Work in Progress' => 'WIP – Travaux en cours',
       'Query users by ldap username.' => 'Recherche d’utilisateurs par nom d’utilisateur LDAP.',
       'LDAP User' => 'Utilisateur LDAP',
+      'Related Changes in GitLab:' => 'Modifications liées dans GitLab :',
       'Invalid action \'%s\'!' => 'Action « %s »  incorrecte !',
       'Shows the gerrit Change ID for a commit.' => 'Affiche l’ID du changement de gerrit pour une validation.',
-      'This adds a link to the burnup graph of this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectBurnupGraphProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Ceci ajoute un lien vers un maniphest de recherche pour les tâches ouvertes qui sont balisées par ce projet.
-    NOTE : cette fonctionnalité est fournie par une extension maintenue par Wikimédia, ProjectBurnupGraphProfileMenuItem. Voir {rPHEX} pour la source.',
+      'This adds a link to the burnup graph of this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectBurnupGraphProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Cela ajoute un lien vers le graphique de consommation de ce projet.\\n\\nREMARQUE : cette fonctionnalité est fournie par une extension gérée par Wikimédia dans ProjectBurnupGraphProfileMenuItem.php. Voir https://gitlab.wikimedia.org/repos/phabricator/extensions pour la source.',
       'MediaWiki' => 'MediaWiki',
       'MediaWiki Base URI' => 'URI de la base MediaWiki',
       'Burnup Graph' => 'Graphique de consommation',
@@ -64,21 +66,23 @@ final class PhabricatorextCoreFrFR
       - **Allow consumer to specify a callback in requests and use "callback" URL above as a required prefix:** Enable this setting.
       - **Applicable grants:** `Basic Rights` is all that is needed for authentication.
     After you register the consumer, a **Consumer Token** and consumer **Secret Token** will be provided to you by MediaWiki. To complete configuration of Phabricator, copy the provided keys into the corresponding fields above.
-    NOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki admin must approve the OAuth consumer registration using the form which can be found at the following url: %s' => '**Étape 2 sur 2 :** création d’un consommateur d’authentification MediaWiki pour cette instance de Phabricator.
-    NOTE : proposez un consommateur avec le formulaire à cette URL : %s
+    NOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki admin must approve the OAuth consumer registration using the form which can be found at the following url: %s' => '**Étape 2 sur 2** : créer un consommateur d’authentification MédiaWiki pour cette instance de Phabricator.
+    NOTE : un consommateur en version OAuth 1.0a avec son formulaire est disponible à cette adresse : %s
     Fournissez les paramètres suivants dans l’enregistrement du consommateur :
-      - **URL de rappel :** Set this to: `%s`
-      - **Grants:** `Basic Rights` is all that is needed for authentication.
-    Une fois le consommateur enregistré, une  **Clé de consommateur** et un **Secret du consommateur** vous seront fournis par MediaWiki. Pour compléter la configuration de Phabricator, copiez les clés fournies dans les champs correspondants ci-dessus.
-    NOTE : avant que Phabricator puisse réussir à s’authentifier sur votre wiki MediaWiki, un administrateur du wiki doit approuver l’enregistrement du consommateur OAuth en utilisant le formulaire qui peut être trouvé à l’URL suivante : %s',
+      - **OAuth "callback" URL** : complétez avec `%s`
+      - **Allow consumer to specify a callback in requests and use "callback" URL above as a required prefix** : activez ce paramètre
+      - **Applicable grants** : `Basic Rights` est tout ce qui est nécessaire pour l\'authentification.
+    Une fois le consommateur enregistré, une **Consumer Token (jeton de consommateur)** et un **Secret Token (jeton secret du consommateur)** vous seront fournis par MédiaWiki. Pour compléter la configuration de Phabricator, copiez les clés fournies dans les champs correspondants ci-dessus.
+    NOTE : avant que Phabricator puisse réussir à s’authentifier sur votre MédiaWiki, un administrateur du wiki doit approuver l’enregistrement du consommateur OAuth en utilisant le formulaire qui peut être trouvé à l’URL suivante : %s',
       'Deny' => 'Refuser',
       'Invalid' => 'Incorrect',
-      'Blocked on Code Review - Needs Changes' => 'Bloqué en relecture de code',
+      'Blocked on Code Review - Needs Changes' => 'Bloqué en relecture de code - Nécessite des modifications',
       'View Change in Gerrit' => 'Voir les modifications dans Gerrit',
       'You must disable the user before rolling back their activity' => 'Vous devez désactiver l’utilisateur avant de revenir en arrière dans son activité',
       'Link to Open Tasks' => 'Lien vers les tâches ouvertes',
       'MediaWiki Instance Name' => 'Nom de l’instance MediaWiki',
       'Secret Token' => 'Jeton secret',
+      'Secret Token is required' => 'Le jeton secret est requis',
       'Limit the number of transaction rows to process. Default: 10000' => 'Limiter le nombre de lignes de transaction à traiter. Par défaut : 10 000',
       'objectType is required.' => 'objectType est obligatoire.',
       'Unknown or missing ldap names: %s' => 'Noms LDAP inconnus ou manquants : %s',
@@ -87,6 +91,8 @@ final class PhabricatorextCoreFrFR
       'Phabricator transaction rollback tool.' => 'Outil d’annulation de transaction de Phabricator.',
       'This task has no related gerrit patches.' => 'Cette tâche n’a aucun correctif Gerrit associé.',
       'Gerrit Patches' => 'Correctifs Gerrit',
+      'This task has no related GitLab merge requests.' => 'Cette tâche n\'a aucune demande de fusion GitLab associée.',
+      'Customize query in GitLab' => 'Personnaliser la requête dans GitLab',
       'You must provide either --user or --user-phid' => 'Vous devez fournir soit --user, soit --user-phid',
       'For more info about deployment blockers, see [[ https://wikitech.wikimedia.org/wiki/Deployments/Holding_the_train | Holding the train ]].' => 'Pour plus d’informations sur les éléments bloquants du train de déploiement, consultez [[https://wikitech.wikimedia.org/wiki/Deployments/Holding_the_train|Blocage du train]].',
       'Sort by Last Update' => 'Trier par dernière mise à jour',
@@ -98,16 +104,21 @@ final class PhabricatorextCoreFrFR
       'Code Review Started' => 'Relecture de code commencée',
       'Enable expert mode to reveal additional "advanced" options in the Phabricator UI.' => 'Activer le mode expert pour révéler des options « avancées » supplémentaires dans l’interface utilisateur de Phabricator.',
       'Changed Type' => 'Type modifié',
+      'OAuth error: Login failed because your MediaWiki account "%s" is blocked' => 'Erreur OAuth : la connexion a échoué car votre compte MédiaWiki « %s » est bloqué',
       'Enforce Task Security Policy' => 'Mettre en vigueur la politique de sécurité des tâches',
       'Hide Instructions' => 'Masquer les instructions',
       'Rules do not have any effect.' => 'Les règles n’ont aucun effet.',
       '**Step 1 of 2**: Provide the name and URI for your MediaWiki install.
-    In the next step, you will create an OAuth consumer in MediaWiki to be used by Phabricator OAuth.' => '**Étape 1 sur 2 :** fournir le nom et l’URI pour votre installation de MediaWiki.',
+    In the next step, you will create an OAuth consumer in MediaWiki to be used by Phabricator OAuth.' => '**Étape 1 sur 2** : fournir le nom et l’URI de votre installation de MédiaWiki.
+    À l\'étape suivante, vous allez créer un consommateur OAuth dans MédiaWiki qui sera utilisé par Phabricator OAuth.',
       'users subscribed to' => 'utilisateurs abonnés à',
       'Execute a dry run, changes will not be writen back to the database.' => 'Lancer une exécution à blanc, les changements ne seront pas écrits dans la base de données.',
       'PHIDs required' => 'PHIDs exigés',
+      'Cannot Protect as Security Issue' => 'Impossible de protéger en raison d\'un problème de sécurité',
       'Branch `%s` and deploy to %s Wikis.' => 'Créer une branche `%s` et déployer vers les wikis de %s.',
+      'No project tags "Security" and "Security-Team" exist in this installation. Please file a bug report.' => 'Aucune balise de projet « Security » ou « Security-Team » n\'existe dans cette installation. Veuillez remplir un rapport de bogue.',
       'Expert Mode.' => 'Mode expert.',
+      'No project tag "acl*security" exists in this installation. Please file a bug report.' => 'Il n\'existe pas de balise de projet « acl*security » dans cette installation. Veuillez remplir un rapport de bogue.',
       'The specified username / userPHID was not found' => 'Le nom ou le PHID d’utilisateur spécifié n’a pas été trouvé',
       'See https://wikitech.wikimedia.org/wiki/Deployments for full schedule.' => 'Consultez https://wikitech.wikimedia.org/wiki/Deployments pour la planification complète.',
       'You cannot lock this task because it is already protected by a custom security policy.' => 'Vous ne pouvez pas verrouiller cette tâche parce qu’elle est déjà protégée par une politique de sécurité personnalisée.',
@@ -129,6 +140,7 @@ final class PhabricatorextCoreFrFR
     Choisissez un nom permanent pour cette instance de MediaWiki. Phabricator utilise ce nom interne pour garder la trace de cette instance de MediaWiki, au cas où l’URL change plus tard.
     N’utilisez que des lettres minuscules, des chiffres ou le point. Par exemple :
     `mediawiki`, `mediawiki.masociete` ou `mediawiki.ingenierie` sont des noms raisonnables.',
+      'GitLab Patches' => 'Correctifs GitLab',
       'Global Accounts' => 'Comptes globaux',
       'Milestone Navigation Links' => 'Liens de navigation des jalons',
       'Previous: %s' => 'Précédent : %s',

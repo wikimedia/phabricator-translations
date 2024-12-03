@@ -49,8 +49,9 @@ final class PhabricatorDiffusionFrFR
       'Diffusion Auditors' => 'Auditeurs de diffusion',
       'Branch comparison is not supported for this version control system.' => 'La comparaison de branches n’est pas prise en charge par ce système de contrôle des versions.',
       'The change you\'re attempting to push deletes the branch \'%s\'.' => 'La modification que vous tentez de pousser supprime la branche « %s ».',
-      'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Ce dépôt ne peut pas être protégé contre les énormes modifications parce que Phabricator ne contrôle pas ce que les utilisateurs sont autorisés à pousser dedans.',
+      'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Ce dépôt ne peut pas être protégé contre d\'énormes modifications parce que ce serveur ne contrôle pas ce que les utilisateurs sont autorisés à y envoyer.',
       'Edit Properties' => 'Modifier les propriétés',
+      'Failed to parse `%s` output in %s: %s' => 'Échec de l\'analyse de la sortie `%s` dans %s : %s',
       'Failed to reconnect to master database and release held write lock ("%s") on device "%s" for repository "%s" after trying for %s seconds(s). This repository will be frozen.' => array(
         array(
           array(
@@ -131,7 +132,7 @@ final class PhabricatorDiffusionFrFR
       'Change the repository description.' => 'Modifier la description du dépôt.',
       'Issue #123' => 'Problème nº 123',
       'This is not a Git LFS request!' => 'Ce n’est pas une requête Git LFS !',
-      'Failed to generate an intracluster proxy URI even though this request was routed as a proxy request.' => 'Échec à la génération d’un URI proxy intra-grappe, même si cette requête a été routée comme une requête de proxy.',
+      'Failed to generate an intracluster proxy URI even though this request was routed as a proxy request.' => 'Échec de la génération d’un URI proxy intra-grappe, même si cette requête a été routée comme une requête de proxy.',
       'Diffusion User Guide' => 'Guide utilisateur de Diffusion',
       'Fetch Refs' => 'Récupérer les références',
       'Maximum permitted paths touched per commit.' => 'Nombre maximum autorisé de chemins concernés par une validation.',
@@ -249,6 +250,7 @@ final class PhabricatorDiffusionFrFR
       'The Python 3 Standard Library' => 'La bibliothèque standard Python 3',
       'Unknown SVN wire protocol structure \'%s\'!' => 'Structure de protocole de raccord SVN \'%s\' inconnu !',
       'Merged Changes' => 'Modifications fusionnées',
+      'This repository is observed.' => 'Ce dépôt est observé.',
       'All concerns with this commit have now been addressed.' => 'Tous les problèmes de cette validation sont maintenant traités.',
       'This repository is read-only over SSH.' => 'Ce dépôt est en lecture seule sur SSH.',
       'Pusher is committer' => 'Le pousseur est le valideur',
@@ -281,7 +283,7 @@ final class PhabricatorDiffusionFrFR
       'All Sync Logs' => 'Tous les journaux de synchronisation',
       'Change is enormous' => 'La modification est énorme',
       'This commit is empty and does not affect any paths.' => 'Cette validation est vide et n’affecte aucun chemin.',
-      'This server does not support HTTP access to Subversion repositories.' => 'Phabricator ne prend pas en charge l’accès en HTTP aux dépôts de Subversion.',
+      'This server does not support HTTP access to Subversion repositories.' => 'Ce serveur ne prend pas en charge l’accès HTTP aux dépôts Subversion.',
       'Download from Git LFS' => 'Télécharger depuis LFS de Git',
       'No further details are available.' => 'Aucun autre détail n’est disponible.',
       'This push didn\'t push any new commits.' => 'Cette poussée ne pousse aucune nouvelle validation.',
@@ -290,7 +292,7 @@ final class PhabricatorDiffusionFrFR
       'From Device PHID' => 'A partir du PHID de l\'appareil',
       'Identities' => 'Identités',
       'You must provide two different commits to compare.' => 'Vous devez fournir deux validations différentes à comparer.',
-      'If you want to import only part of a repository, like `trunk/`, you can set a path in **Import Only**. The import process will ignore commits which do not affect this path.' => 'Si vous voulez importer seulement une partie d’un dépôt, comme par exemple `trunk/`, vous pouvez définir un chemin dans **Import Only**. Phabricator va ignorer les validations qui ne concernent pas ce chemin.',
+      'If you want to import only part of a repository, like `trunk/`, you can set a path in **Import Only**. The import process will ignore commits which do not affect this path.' => 'Si vous voulez importer seulement une partie d’un dépôt, comme par exemple `trunk/`, vous pouvez définir un chemin dans **Import Only**. Ce procédé d\'importation va ignorer les validations qui ne concernent pas ce chemin.',
       'Needs Verification' => 'Vérification nécessaire',
       'Unprotectable Repository' => 'Dépôt non protégeable',
       'Set the default branch name.' => 'Définir le nom de branche par défaut.',
@@ -298,6 +300,7 @@ final class PhabricatorDiffusionFrFR
       'Set the permanent refs.' => 'Définit les références permanentes.',
       'Unknown VCS \'%s!\'' => 'Système de contrôle des versions « %s » inconnu !',
       'Get commit identifiers for recent commits affecting a given path.' => 'Obtenir les identifiants de validation pour les validations récentes affectant un chemin donné.',
+      'Unexpected object type from `%s` in %s: %s' => 'Type d\'objet inattendu de `%s` dans %s : %s',
       'Obsoleted by "diffusion.historyquery".' => 'Obsolète et remplacé par « diffusion.historyquery ».',
       'This path does not exist at %s. It was deleted in %s and last existed at %s.' => 'Ce chemin n’existe pas à %s. Il a été supprimé en %s et sa dernière existence est à %s.',
       'New fetched refs.' => 'Nouvelles références récupérées.',
@@ -313,6 +316,7 @@ final class PhabricatorDiffusionFrFR
       'There are no commits on %s that are not already on %s.' => 'Il n’y a pas de validation sur %s qui ne soit pas déjà sur %s.',
       'Read-Only' => 'Lecture seule',
       'Create Repository' => 'Créer un dépôt',
+      'Unexpected output from hg annotate: %s' => 'Sortie inattendue de hg annotate : %s',
       'If you allow enormous changes, users can push commits which are too large for Herald to process content rules for. This can allow users to evade content rules implemented in Herald.' => 'Si vous autorisez les modifications énormes, les utilisateurs peuvent pousser des validations qui sont trop grandes pour que Herald puisse leur appliquer les règles sur le contenu. Ceci peut permettre les utilisateurs à biaiser les règles de contenu implémentées dans Herald.',
       'Change display behavior.' => 'Changer le comportement d’affichage.',
       'Test Automation Configuration' => 'Tester l\'automatisation de la configuration',
@@ -372,7 +376,7 @@ final class PhabricatorDiffusionFrFR
       'No Ref Support' => 'Aucune prise en charge de ref',
       'This is not a cluster repository.' => 'Ceci n’est pas un dépôt en grappe.',
       'Copy of Repository URI failed.' => 'Une copie de l\'IRR du référentiel a échoué.',
-      'To learn more about how repositories are updated, read %s in the documentation.' => 'Pour en savoir plus sur la manière dont Phabricator met à jour les dépôts, lisez « %s » dans la documentation.',
+      'To learn more about how repositories are updated, read %s in the documentation.' => 'Pour en savoir plus sur la manière dont les dépôts sont mis à jour, lisez %s dans la documentation.',
       'Repository "%s" does not have a working copy on this device yet, so it can not be synchronized. Wait for the daemons to construct one or run `bin/repository update %s` on this host ("%s") to build it explicitly.' => 'Le dépôt « %s » n’a pas encore une copie de travail sur cet appareil, donc il ne peut pas être synchronisé. Attendez que les démons en construise une ou lancez `bin/repository update %s` sur cet hôte (« %s ») pour la construire explicitement.',
       'Commit Detail' => 'Détail de la validation',
       'Added %s auditor(s): %s.' => array(
@@ -408,7 +412,7 @@ final class PhabricatorDiffusionFrFR
       'There is no branch named "%s" in this repository.' => 'Il n’y a pas de branche nommée « %s » dans ce dépôt.',
       '%s now requires audit.' => '%s a besoin d\'être audité maintenant.',
       'Push Policy' => 'Politique de poussée',
-      'Unable to determine the username to connect with when trying to proxy an SSH request within the cluster.' => 'Impossible de déterminer le nom d’utilisateur avec lequel se connecter en essayant de mettre une requête SSH en proxy dans la grappe Phabricator.',
+      'Unable to determine the username to connect with when trying to proxy an SSH request within the cluster.' => 'Impossible de déterminer le nom d’utilisateur avec lequel se connecter en essayant de mettre une requête SSH en proxy au sein de la grappe.',
       'Commit Not Tracked' => 'Validation non tracée',
       'Find results for repositories of a project.' => 'Trouver des résultats pour les dépôts d’un projet.',
       'Synchronizing this device ("%s") from cluster leader ("%s").' => 'Synchronisation en cours de cet appareil (« %s ») à partir du chef de grappe (« %s »).',
@@ -470,13 +474,13 @@ final class PhabricatorDiffusionFrFR
       'Unexpected command structure, expected \'%s\'.' => 'Structure de commande non attendue; attendu \'%s\'.',
       'Workflow has recorded more failures than attempts; there is a missing call to "didBeginRequest()".
     ' => 'Le flux de travail a enregistré plus d’échecs que de tentatives ; il manque un appel à « didBeginRequest() ».',
-      'WARNING: The "Track Only" feature is deprecated. Use "Fetch Refs" and "Permanent Refs" instead. This feature will be removed in a future version of this software.' => 'AVERTISSEMENT : la fonctionnalité « Tracer seulement » est obsolète. Utilisez « Récupérer les références » et « Références permanentes » à la place. Cette fonctionnalité sera retirée dans une future version de Phabricator.',
+      'WARNING: The "Track Only" feature is deprecated. Use "Fetch Refs" and "Permanent Refs" instead. This feature will be removed in a future version of this software.' => 'AVERTISSEMENT : la fonctionnalité « Track Only » est obsolète. Utilisez « Fetch Refs » et « Permanent Refs » à la place. Cette fonctionnalité sera retirée dans une future version de ce logiciel.',
       'String "%s" is invalid in path specification "%s".' => 'La chaîne « %s » est non valide dans la spécification de chemin « %s ».',
       'Push Log (Content)' => 'Journal de poussée (contenu)',
       '%s on %s.' => '%s sur %s',
       'When constructing clone URIs to show to users, Diffusion by default will not display a port assuming the default for your VCS. Explicitly declare when running on a non-standard port.' => 'Lors de la construction des URI clonées à montrer aux utilisateurs, Diffusion n’affichera par défaut aucun port, en supposant celui défini par défaut pour votre système de contrôle des versions. Déclarez-le explicitement s’il fonctionne sur un port non standard.',
       'VCS is not supported for this method.' => 'Le système de contrôle des versions n’est pas pris en charge pour cette méthode.',
-      'You can not set a credential for builtin URIs which this server hosts. These URIs are not fetched from or pushed to, and credentials are not required to authenticate any activity against them.' => 'Vous ne pouvez pas définir un certificat pour les URI intégrés que Phabricator héberge et sert. Phabricator ne récupère pas de ces URI ni ne pousse vers eux, et n’a pas besoin de certificat pour authentifier une activité quelconque avec eux.',
+      'You can not set a credential for builtin URIs which this server hosts. These URIs are not fetched from or pushed to, and credentials are not required to authenticate any activity against them.' => 'Vous ne pouvez pas définir un certificat pour les URI intégrés hébergés par ce serveur. Ces URI ne sont pas récupérés ni transmis, et aucun certificat n\'est nécessaire pour authentifier une activité quelconque avec eux.',
       'Auditors for this commit.' => 'Auditeurs pour cette validation.',
       'Clone Repository' => 'Cloner le dépôt',
       'Public Key Error: This error usually indicates that the keypair you have configured does not have permission to access the repository.' => 'Erreur sur clé publique : cette erreur indique habituellement que la paire de clés que vous avez configurée n\'a pas la permission d\'accèder au dépôt.',
@@ -486,7 +490,7 @@ final class PhabricatorDiffusionFrFR
       'Git LFS Token' => 'Jeton Git LFS',
       'Issue #123, #456' => 'Problème numéro 123, 456',
       '%s (on %s at %s)' => '%s (sur %s à %s)',
-      'If you accept SSH traffic on a different host from web traffic (for example, if you use different SSH and web load balancers), you can set the SSH hostname here. This is an advanced option.' => 'Si vous acceptez le trafic SSH de Phabricator sur un hôte différent de celui du trafic web (par exemple, si vous utilisez des répartiteurs de charge SSH et web différents), vous pouvez définir le nom d’hôte SSH ici. C’est une option avancée.',
+      'If you accept SSH traffic on a different host from web traffic (for example, if you use different SSH and web load balancers), you can set the SSH hostname here. This is an advanced option.' => 'Si vous acceptez le trafic SSH sur un hôte différent de celui du trafic web (par exemple, si vous utilisez des répartiteurs de charge SSH et web différents), vous pouvez définir le nom d’hôte SSH ici. Il s\'agit d\'une option avancée.',
       'New auditors.' => 'Nouveaux auditeurs.',
       'Disable this URI? It will no longer be observed, fetched, mirrored, served or shown to users.' => 'Désactiver cet URI ? Il ne sera plus observé, atteint, mirroré, désservi ni affiché aux utilisateurs.',
       'From Version' => 'À partir de la version',
@@ -497,7 +501,7 @@ final class PhabricatorDiffusionFrFR
         ),
       ),
       'Editable By' => 'Modifiable par',
-      'This Diffusion repository is configured to track only one subdirectory of the entire Subversion repository, and this commit didn\'t affect the tracked subdirectory (\'%s\'), so no information is available.' => 'Ce dépôt de Diffusion est configuré pour tracer seulement un sous-répertoire de tout le dépôt Subversion, et cette validation n’a pas affecté le sous-répertoire tracé (\'%s\'), donc aucune information n’est disponible.',
+      'This Diffusion repository is configured to track only one subdirectory of the entire Subversion repository, and this commit didn\'t affect the tracked subdirectory (\'%s\'), so no information is available.' => 'Ce dépôt de Diffusion est configuré pour tracer un seul sous-répertoire de l\'ensemble du dépôt Subversion, et cette validation n’a pas affecté le sous-répertoire suivi (\'%s\'), donc aucune information n’est disponible.',
       'Failed to load comment "%d".' => 'Erreur au chargement du commentaire « %s ».',
       'Unknown repository VCS type.' => 'Type inconnu de système de contrôle des versions du dépôt.',
       'All Lint' => 'Lint entièrement',
@@ -514,7 +518,7 @@ final class PhabricatorDiffusionFrFR
       'Browse Auditors' => 'Voir les auditeurs',
       'Blocked: %s' => 'Bloqué: %s',
       'Commit Autocloses (Deprecated)' => 'Fermetures automatiques de validation (obsolète)',
-      'This repository will be observed.' => 'Phabricator va observer un dépôt distant.',
+      'This repository will be observed.' => 'Ce dépôt va être observé.',
       'The change you\'re attempting to push updates the branch \'%s\' from \'%s\' to \'%s\', but this is not a fast-forward. Pushes which rewrite published branch history are dangerous.' => 'La modification que vous tentez de pousser met à jour la branche \'%s\' de \'%s\' en \'%s\', mais ce n’est pas une avance directe. Les poussées qui réécrivent l’historique de la branche publiée sont dangereuses.',
       'Blocked push.' => 'Poussée bloquée.',
       'Can Create Repositories' => 'Création possible de dépôts',
@@ -648,7 +652,7 @@ final class PhabricatorDiffusionFrFR
       'Partially Audited' => 'Audité partiellement',
       'Affected packages that need audit' => 'Paquets concernés nécessitant une relecture',
       'To access repositories hosted on this server over HTTP, you must set a version control password. This password should be unique.
-    This password applies to all repositories available over HTTP.' => 'Pour accéder aux dépôts hébergés par Phabricator via HTTP, vous devez définir un mot de passe pour le système de contrôle de versions. Ce mot de passe doit être unique.
+    This password applies to all repositories available over HTTP.' => 'Pour accéder aux dépôts hébergés sur ce serveur via HTTP, vous devez définir un mot de passe pour le système de contrôle de versions. Ce mot de passe doit être unique.
     Ce mot de passe s’applique à tous les dépôts disponibles via HTTP.',
       'Expected `%s`!' => '\'%s\' attendu !',
       'Ref change type' => 'Type de modification de référence',
@@ -697,7 +701,7 @@ final class PhabricatorDiffusionFrFR
       'Alternate' => 'Alternative',
       'Manage Repository' => 'Gérer le dépôt',
       'Cached State' => 'État en cache',
-      'Subversion does not support searching for ancestors of a particular ref. This operation is not meaningful in Subversion.' => 'Subversion ne prend pas en charge la recherche des ancêtres avec une référence particulière. Cette opération n’a pas de sens pour Subversion.',
+      'Subversion does not support searching for ancestors of a particular ref. This operation is not meaningful in Subversion.' => 'Subversion ne prend pas en charge la recherche des ancêtres d’une référence particulière. Cette opération n’a pas de sens dans Subversion.',
       'Up To Date' => 'À jour',
       'Permanent Refs' => 'Références permanentes',
       'New tracked branches.' => 'Nouvelles branches suivies.',
@@ -776,7 +780,7 @@ final class PhabricatorDiffusionFrFR
       'This repository ("%s") is not a Git repository.' => 'Ce dépôt (« %s ») n\'est pas un dépôt Git.',
       'Sync Logs' => 'Journaux synchronisés',
       'Subpath to selectively import.' => 'Sous-chemin pour importer sélectivement.',
-      'Advises this server to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => 'Suggère à Phabricator de regarder les nouvelles validations dans un dépôt dès que possible. Ce conseil est surtout utile si vous venez juste de pousser de nouvelles validations dans ce dépôt.',
+      'Advises this server to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => 'Suggère à ce serveur de rechercher de nouvelles validations dans un dépôt dès que possible. Ce conseil est surtout utile si vous venez de pousser de nouvelles validations dans ce dépôt.',
       'You must %s the query before accessing the identifier map.' => 'Vous devez %s la requête avant d’accéder à la correspondance d’identifiant.',
       'This repository is not available over HTTP.' => 'Ce dépôt n\'est pas accessible avec HTTP.',
       'Submodule' => 'Sous-module',
@@ -836,6 +840,7 @@ final class PhabricatorDiffusionFrFR
         ),
       ),
       'Block push with message: %s' => 'Bloquer la poussée avec un message: %s',
+      '%s edited revision(s), added %s: %s; removed %s: %s.' => '%s a modifié des révisions, %s a/ont été ajoutée(s) : %s ; %s a/ont été supprimée(s) : %s .',
       'Ref Fields' => 'Champs de référence',
       'Accepted Differential revision' => 'Révision Differential acceptée',
       'This external (%s) does not appear in any tracked repository. It may exist in an untracked repository that Diffusion does not know about.' => 'Cet externe (%s) n’apparaît pas dans aucun dépôt tracé. Il peut exister dans un dépôt non tracé que Diffusion ne connaît pas.',
@@ -886,6 +891,7 @@ final class PhabricatorDiffusionFrFR
       'This configuration test will build a working copy of the repository and perform some basic validation. If it works, your configuration is substantially correct.' => 'Ce test de configuration va construire une copie de travail du dépôt et réaliser quelques validations de base. S\'il y parvient, il y a toutes les raisons pour que votre configuration soit correcte.',
       'Create Commit' => 'Créer une validation',
       'You must be able to edit a repository to see raw error messages because they sometimes disclose sensitive information.' => 'Vous devez être en mesure de pouvoir modifier un dépôt pour voir les messages d\'erreurs bruts parce qu\'ils renferment quelques fois des informations sensibles.',
+      'Unexpected line count from `%s` in %s!' => 'Nombre de lignes `%s` inattendu dans %s !',
       'The clone of this repository ("%s") on the local machine ("%s") could not be read. Ensure that the repository is in a location where the web server has read permissions.' => 'Le clone de ce dépôt (« %s ») sur la machine locale (« %s ») n’a pas pu être lu. Assurez-vous que le dépôt est à un emplacement où le serveur web a des droits de lecture.',
       '%s now has outstanding concerns.' => '%s a maintenant des soucis exceptionnels.',
       '  - Configure [[ %s | %s ]] to change the SSH username.
@@ -951,7 +957,7 @@ final class PhabricatorDiffusionFrFR
       'Internal method for getting raw diff information.' => 'Méthode interne pour obtenir les informations du diff brut.',
       'Get lint messages for existing code.' => 'Récupérer les messages Lint pour le code existant.',
       'Merged commit information for a specific commit in a repository.' => 'Informations de validation fusionnées pour une validation donnée dans un dépôt.',
-      'The working copy for this repository ("%s") has not been cloned yet on this machine ("%s"). Make sure you have started the daemons. If this problem persists for longer than a clone should take, check the daemon logs (in the Daemon Console) to see if there were errors cloning the repository. Consult the "Diffusion User Guide" in the documentation for help setting up repositories.' => 'La copie de travail pour ce dépôt (« %s ») n’a pas encore été clonée sur cette machine (« %s »). Assurez-vous d’avoir démarré les démons de Phabricator. Si ce problème persiste plus longtemps que ce que devrait prendre un clonage, vérifier les journaux du démon (dans la Console démon) pour voir s’il n’y a pas eu d’erreurs en clonant le dépôt. Consultez le « guide utilisateur de Diffusion » dans la documentation pour aider à installer les dépôts.',
+      'The working copy for this repository ("%s") has not been cloned yet on this machine ("%s"). Make sure you have started the daemons. If this problem persists for longer than a clone should take, check the daemon logs (in the Daemon Console) to see if there were errors cloning the repository. Consult the "Diffusion User Guide" in the documentation for help setting up repositories.' => 'La copie de travail pour ce dépôt (« %s ») n’a pas encore été clonée sur cette machine (« %s »). Assurez-vous d’avoir démarré les démons. Si ce problème persiste plus longtemps que ce que devrait prendre un clonage, vérifier les journaux du démon (dans la Console Daemon) pour voir s’il n’y a pas eu d’erreurs en clonant le dépôt. Consultez le « guide utilisateur de Diffusion » dans la documentation pour obtenir de l\'aide sur l\'installation de dépôts.',
       'This repository has no tags.' => 'Ce dépôt n\'a pas de labels.',
       'Empty Commit' => 'Validation vide',
       'OVERSIZED FILE
@@ -1027,7 +1033,7 @@ final class PhabricatorDiffusionFrFR
       'Search for sync logs for specific repositories.' => 'Recherche des journaux synchronisés des dépôts spécifiques.',
       'Lint Details' => 'Détails de Lint',
       'Controls who can push changes to the repository.' => 'Contrôle qui peut pousser des modifications sur ce dépôt.',
-      'This repository can not be protected from dangerous changes because this server does not control what users are allowed to push to it.' => 'Ce dépôt ne peut pas être protégé des modifications dangereuses car Phabricator ne contrôle pas ce que les  utilisateurs ont le droit d\'y pousser.',
+      'This repository can not be protected from dangerous changes because this server does not control what users are allowed to push to it.' => 'Ce dépôt ne peut pas être protégé contre les modifications dangereuses car ce serveur ne contrôle pas ce que les  utilisateurs sont autorisés à y envoyer.',
       '%s edited %s auditor(s), removed %s: %s; added %s: %s.' => array(
         array(
           '%s a modifié %s auditeur ; en a retiré %s : %s ; en a ajouté %s : %s.',
@@ -1079,10 +1085,10 @@ final class PhabricatorDiffusionFrFR
       'Enable URI' => 'Activer l\'URI',
       'Browse Symbols' => 'Voir les symboles',
       'This commit now has outstanding concerns.' => 'Cette validation a maintenant des soucis exceptionnels.',
-      'This server supports Git LFS, a Git extension for storing large files alongside a repository. Activate this setting to allow the extension to store file data.' => 'Phabricator prend en charge le stockage de gros fichiers (« LFS ») pour Git, une extension de Git qui permet de stocker de gros fichiers dans un dépôt. Activez ce paramètre pour autoriser l’extension à enregistrer les données de fichier dans Phabricator.',
+      'This server supports Git LFS, a Git extension for storing large files alongside a repository. Activate this setting to allow the extension to store file data.' => 'Ce serveur prend en charge Git LFS, une extension Git permettant de stocker des fichiers volumineux à côté d’un dépôt. Activez ce paramètre pour autoriser l’extension à stocker des données de fichiers.',
       'Tags for %s' => 'Balises pour %s',
       'Waiting on another user to finish writing...' => 'Attente qu\'un autre utilisateur finisse son écriture...',
-      'Repository "%s" exists on more than one device, but no device has any repository version information. There is no way for the software to determine which copy of the existing data is authoritative. Promote a device or see "Ambiguous Leaders" in the documentation.' => 'Le dépôt « %s » existe sur plus d’un appareil, mais aucun n’a d’information sur la version du dépôt. Phabricator ne peut pas deviner quelle copie des données existantes fait autorité. Promouvez un appareil ou voyez « Leaders ambigus » dans la documentation.',
+      'Repository "%s" exists on more than one device, but no device has any repository version information. There is no way for the software to determine which copy of the existing data is authoritative. Promote a device or see "Ambiguous Leaders" in the documentation.' => 'Le dépôt « %s » existe sur plus d’un appareil, mais aucun n’a d’information sur la version du dépôt. Le logiciel n\'a aucun moyen de déterminer quelle copie des données existantes fait autorité. Promouvez un appareil ou consultez « Leaders ambigus » dans la documentation.',
       'You must log in to push to this repository.' => 'Vous devez vous connecter pour pousser sur ce dépôt.',
       'Update Repository Now' => 'Mettre à jour le dépôt maintenant',
       'Invalid path ID!' => 'Identifiant de chemin non valide !',
@@ -1113,6 +1119,7 @@ final class PhabricatorDiffusionFrFR
       'Changes (%s)' => 'Modifications (%s)',
       'No "objectPHID" in task data.' => 'Aucun « objectPHID » dans les données de la tâche.',
       '%s failed to build %s!' => 'Echec de %s pour le build %s!',
+      'This remote repository is being observed.' => 'Ce dépôt distant est observé.',
       'Type tagged(<project>)...' => 'Type marqué (<project>)…',
       'Updates OK' => 'Mises à jour OK',
       'To permanently destroy this repository, run this command from the command line:' => 'Pour détruire de façon permanente ce dépôt, exécutez la commande suivante depuis la ligne de commande :',
@@ -1143,14 +1150,14 @@ final class PhabricatorDiffusionFrFR
       'This repository is inactive.' => 'Ce dépôt est inactif.',
       'This page documents the commands you can use to interact with commits and audits in Diffusion.' => 'Cette page documente les commandes que vous pouvez utiliser pour interagir avec les validations et les audits sous Diffusion.',
       'Failed to load file object for Git LFS ref "%s"!' => 'Échec de chargement de l’objet fichier pour Git LFS de référence « %s » !',
-      'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normalement, Phabricator met à jour automatiquement les dépôts d’après le temps écoulé depuis la dernière validation. Cela aide à réduire la charge si vous avez beaucoup de dépôts, la plupart inactifs, ce qui est courant.',
+      'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normalement, les dépôts sont mis à jour automatiquement  d’après le temps écoulé depuis la dernière validation. Cela aide à réduire la charge si vous avez beaucoup de dépôts pour la plupart inactifs, ce qui est courant.',
       'Automation blueprints.' => 'Plans d’automatisation.',
       'Removed diff content' => 'Contenu du diff supprimé',
       'This server can serve repositories over HTTP, using HTTP basic auth.
     Because HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as this server uses HTTPS, but it presents a much lower barrier to attackers than SSH does.
-    Consider using SSH for authenticated access to repositories instead of HTTP.' => 'Phabricator peut servir des répertoires via HTTP, en utilisant l\'authentification basique HTTP.
-    Parce que cette méthode d\'authentification est moins sûre que l\'authentification SSH, elle est désactivée par défaut. Vous pouvez l\'activer ici si vous voulez l\'utiliser quand même. Il n\'y a rien de fondamentalement risqué tant que Phabricator utilise HTTPS, mais cela présente une protection bien plus faible contre les attaques que SSH.
-    Envisagez d\'utiliser SSH pour l\'accès authentifié aux répertoires à la place de HTTP.',
+    Consider using SSH for authenticated access to repositories instead of HTTP.' => 'Ce serveur peut servir des dépôts via HTTP, en utilisant l\'authentification basique HTTP.
+    Parce que cette méthode d\'authentification est moins sûre que l\'authentification SSH, elle est désactivée par défaut. Vous pouvez l\'activer ici si vous voulez l\'utiliser quand même. Il n\'y a rien de fondamentalement risqué tant que ce serveur utilise HTTPS mais cela présente une protection bien plus faible contre les attaques que SSH.
+    Envisagez d\'utiliser SSH pour un accès authentifié aux dépôts au lieu de HTTP.',
       'Repositories to link symbols from.' => 'Dépots à partir desquels lier les symboles.',
       'Visible To' => 'Visible par',
       'Provide the URI of a Mercurial repository. It should usually look like one of these examples:
@@ -1168,8 +1175,8 @@ final class PhabricatorDiffusionFrFR
     | `http://svn.example.org/svnroot/`
     | `svn+ssh://svn.example.com/svnroot/`
     | `svn://svn.example.net/svnroot/`
-    You **MUST** specify the root of the repository, not a subdirectory.' => 'Fournir la **Racine du dépôt** d\'un dépôt Subversion. Vous pouvez l\'identifer en exécutant `svn info` sur une copie de travail. Ressemble habituellement à l\'un de ces exemples:
-    | Exemple d\'URI Subversion
+    You **MUST** specify the root of the repository, not a subdirectory.' => 'Fournir la **Racine du dépôt** d\'un dépôt Subversion. Vous pouvez l\'identifier en exécutant `svn info` sur une copie de travail. Ressemble habituellement à l\'un de ces exemples:
+    | Exemples d\'URI Subversion
     |-------------------------
     | `http://svn.example.org/svnroot/`
     | `svn+ssh://svn.example.com/svnroot/`
@@ -1180,7 +1187,7 @@ final class PhabricatorDiffusionFrFR
       'Group Auditors' => 'Grouper des auditeurs',
       'Apply transactions to create a new repository or edit an existing one.' => 'Appliquer les transactions pour créer un nouveau dépôt ou modifier un existant.',
       'No Branches' => 'Aucune branche',
-      'This repository will be hosted.' => 'Phabricator hébergera ce dépôt.',
+      'This repository will be hosted.' => 'Ce dépôt va être hébergé.',
       'Prevent Enormous Changes' => 'Empêcher les modifications énormes',
       'Automation Not Configured' => 'Automatisation non configurée',
       'This commit is still importing. Changes will be visible once the import finishes.' => 'Cette validation est encore en train d\'importer. Les modifications ne seront visibles que lorsque l\'import sera terminé.',
@@ -1194,7 +1201,7 @@ final class PhabricatorDiffusionFrFR
       'Enable HTTP Basic Auth for repositories.' => 'Activer l’authentification basique HTTP pour les dépôts.',
       'Internal method for filtering ref ancestors.' => 'Méthode interne pour filtrer les ancêtres référencés.',
       'Configure **Repository Automation** to allow this server to write to this repository.
-    IMPORTANT: This feature is new, experimental, and not supported. Use it at your own risk.' => 'Configurer **Automatisation du dépôt** pour permettre à Phabricator d’écrire dans ce dépôt.
+    IMPORTANT: This feature is new, experimental, and not supported. Use it at your own risk.' => 'Configurer **Automatisation du dépôt** pour permettre à ce serveur d’écrire dans ce dépôt.
     IMPORTANT : cette fonctionnalité est nouvelle, expérimentale et proposée sans assistance. Utilisez-la à vos risques et périls.',
       'Touched Paths Limit' => 'Limite atteinte des chemins accédés',
       'Builtin URIs Do Not Use Credentials' => 'Les URI intégrés n\'utilisent pas de certificats',

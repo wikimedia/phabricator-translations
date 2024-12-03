@@ -20,9 +20,10 @@ final class PhabricatorPolicyFrFR
     Not every type of object has an editable view policy, edit policy, or owner, so not all modes will work with all objects. ' => 'Identifie chaque object (__object__) en transmettant un nom d’objet (comme « T123 ») ou un PHID (comme « PHID-ABCD-1234... »).
     Les types d’objets n’ont pas tous une politique modifiable de visualisation, de modification ou du propriétaire, donc les modes ne fonctionneront pas tous avec tous les objets.',
       'Lock Create User Policy To Admins' => 'Verrouiller la création de politique utilisateur pour les administrateurs',
+      'Interact Policy' => 'Politique d\'interaction',
       'These rules are processed in order.' => 'Ces règles sont traitées dans l’ordre.',
       'This software has application policies which can dictate whether users can take certain actions, such as creating new users. 
-    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Phabricator a des politiques d’application qui peuvent dicter si les utilisateurs peuvent effectuer certaines actions, telles que la création de nouveaux utilisateurs. 
+    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Ce logiciel a des politiques d’application qui peuvent dicter si les utilisateurs peuvent effectuer certaines actions, telles que la création de nouveaux utilisateurs. 
     Ce paramètre permet de « verrouiller » ces politiques de sorte qu’aucune autre modification ne puisse être effectuée sur une base propre à chaque politique.',
       'Users who can see objects in this space:' => 'Utilisateurs qui peuvent voir les objets dans cet espace :',
       'After a user passes space policy checks, they must still pass object policy checks.' => 'Une fois qu’un utilisateur a passé les contrôles de la politique de l’espace, il doit encore passer les contrôles de la politique de l’objet.',
@@ -34,7 +35,7 @@ final class PhabricatorPolicyFrFR
       'This software allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
     This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
     Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
-    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Phabricator vous permet de définir la visibilité des objets (comme les dépôts et les tâches) comme « Publique », ce qui signifie que **n\'importe qui sur Internet peut les voir, sans avoir besoin de se connecter ou d’avoir un compte**.
+    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Ce logiciel vous permet de définir la visibilité des objets (comme les dépôts et les tâches) sur « Publique », ce qui signifie que **n\'importe qui sur Internet peut les voir, sans avoir besoin de se connecter ou d’avoir un compte**.
     Ceci est destiné aux projets en source ouverte. De nombreuses installations ne voudront jamais rendre quoi que ce soit public, cette politique est donc désactivée par défaut. Vous pouvez l’activer ici, ce qui vous permettra de définir la politique des objets comme « Publique ».
     L’activation de ce paramètre ouvrira immédiatement certaines fonctionnalités, comme le répertoire des utilisateurs. N’importe qui sur Internet pourra accéder à ces fonctionnalités.
     Avec ce paramètre désactivé, la politique « Publique » n’est pas disponible et la politique la plus ouverte est « Tous les utilisateurs » (ce qui signifie que les utilisateurs doivent avoir des comptes et être connectés pour voir les choses).',
@@ -50,6 +51,7 @@ final class PhabricatorPolicyFrFR
       'Invalid action \'%s\'!' => 'Action « %s » non valide !',
       'Unlock one or more objects by changing their view policies, edit policies, or owners.' => 'Déverrouiller un ou plusieurs objets en modifiant leurs politiques de visualisation, de modification ou leurs propriétaires.',
       'Allow Public Visibility' => 'Autoriser la visibilité publique',
+      'Controls who can interact with the object.' => 'Contrôle qui peut interagir avec l\'objet.',
       'Object Policies' => 'Politiques d’objet',
       'Members of Project...' => 'Membres du projet...',
       'Two policy rules (of classes "%s" and "%s") define the same object policy key ("%s"), but each object policy rule must use a unique key.' => 'Deux règles de politique (de classes « %s » et « %s ») définissent la même clé de politique d’objet (« %s »), mais chaque règle de politique d’objet doit utiliser une clé unique.',
@@ -69,7 +71,7 @@ final class PhabricatorPolicyFrFR
       'UNLOCKING' => 'DÉVERROUILLAGE EN COURS',
       'Members of a particular project can take this action. (You can not see this object, so the name of this project is restricted.)' => 'Les membres d’un projet particulier peuvent effectuer cette action. (Vous ne pouvez pas voir cet objet, donc le nom de ce projet est restreint.)',
       'Specify the name of exactly one object to show policy information for.' => 'Spécifiez le nom d’exactement un objet pour lequel afficher les informations de politique.',
-      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Cet objet est public et peut être consulté par n’importe qui, même ceux sans compte Phabricator.',
+      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Cet objet est public et peut être consulté par n’importe qui, même ceux sans compte sur ce serveur.',
       'You do not have the required capability ("%s") to do whatever you are trying to do.' => 'Vous n’avez pas la capacité requise (« %s ») pour effectuer ce que vous tentez de faire.',
       'Support for Policies' => 'Prise en charge des politiques',
       'Allow users to set object visibility to public.' => 'Autoriser les utilisateurs à définir comme publique la visibilité des objets.',
@@ -141,6 +143,7 @@ final class PhabricatorPolicyFrFR
       'New space PHID.' => 'PHID du nouvel espace.',
       'Capability "%s" has invalid policy "%s".' => 'La capacité « %s » a une politique « %s » non valide.',
       'You do not have permission to interact with this object.' => 'Vous n’avez pas la permission d’interagir avec cet objet.',
+      'Change the interaction policy of the object.' => 'Modifier la politique d\'interaction de l\'objet.',
     );
   }
 

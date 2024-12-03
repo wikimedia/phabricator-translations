@@ -27,6 +27,7 @@ final class PhabricatorSearchLb
       'Cat tails are flexible because they contain thousands of tiny bones.' => 'Kazeschwänz si flexibel, well se Dausende vu klenge Schanken enthalen.',
       'Cat Facts' => 'Kazefakten',
       'There is nothing here.' => 'Hei ass näischt.',
+      'IDs' => 'IDen',
       'Save Query' => 'Ufro späicheren',
       'Full-Text Search' => 'Volltext-Sich',
       '"%s" must be a date before "%s".' => '"%s" muss en Datum virum "%s" sinn.',

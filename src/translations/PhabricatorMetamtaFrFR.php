@@ -9,13 +9,13 @@ final class PhabricatorMetamtaFrFR
 
   protected function getTranslations() {
     return array(
-      'This mail is addressed to the public email address of an object ("%s"), but public replies are not enabled on this server. An administrator may have recently disabled this setting, or you may have replied to an old message. Try replying to a more recent message instead.' => 'Ce courrier est adressé à l’adresse de courriel publique d’un objet (« %s »), mais les réponses publiques ne sont pas activées sur cette installation de Phabricator. Un administrateur a peut-être récemment désactivé ce paramètre, ou bien vous avez peut-être répondu à un ancien message. Essayez plutôt de répondre à un message plus récent.',
+      'This mail is addressed to the public email address of an object ("%s"), but public replies are not enabled on this server. An administrator may have recently disabled this setting, or you may have replied to an old message. Try replying to a more recent message instead.' => 'Ce courrier est adressé à l’adresse de courriel publique d’un objet (« %s »), mais les réponses publiques ne sont pas activées sur ce serveur. Un administrateur a peut-être récemment désactivé ce paramètre, ou bien vous avez peut-être répondu à un ancien message. Essayez plutôt de répondre à un message plus récent.',
       'Forced Mail' => 'Courriel forcé',
       'MetaMTA Mails' => 'Courriels MétaMTA',
       'Reserved Recipient' => 'Destinataire réservé',
       'Simulate sending mail. This may be useful to test your mail configuration, or while developing new mail adapters.' => 'Simule l’envoi d’un courriel. Peut être utile pour tester votre configuration de courriel ou développer de nouveaux adaptateurs de courriel.',
       'File PHID: %s' => 'PHID du fichier : %s',
-      'This email was sent from an email address ("%s") that is not associated with a registered user account. To interact via email, add this address to your account.' => 'Ce courriel a été envoyé depuis une adresse de courriel (« %s ») qui n’est associée à aucun compte Phabricator. Pour interagir avec Phabricator par courriel, ajoutez cette adresse à votre compte.',
+      'This email was sent from an email address ("%s") that is not associated with a registered user account. To interact via email, add this address to your account.' => 'Ce courrier a été envoyé depuis une adresse de courriel (« %s ») qui n’est associée à aucun compte utilisateur enregistré. Pour interagir par courriel, ajoutez cette adresse à votre compte.',
       'This mail is addressed to an object ("%s") you do not have permission to see: %s' => 'Ce courriel est adressé à un objet (« %s ») que vous vous n’avez pas permission de voir : %s',
       'Mailer ("%s") is attempting to access unknown option ("%s").' => 'L’expéditeur (« %s ») tente d’accéder à une option inconnue (« %s »).',
       'External Recipient' => 'Destinataire externe',
@@ -64,14 +64,14 @@ final class PhabricatorMetamtaFrFR
       '(This email was truncated at %d bytes.)' => '(Ce courriel a été tronqué à %s octets.)',
       '"Unfiltered" is raw volume before rules applied.' => '« Non filtré » est un volume brut avant l’application des règles.',
       'No configured mailers support outbound messages of type "%s".' => 'Aucun agent de courriel configuré ne prend en charge les messages sortants de type « %s ».',
-      'You have not verified the email address for your account ("%s"). You must verify your email address before you can interact over email.' => 'Vous n’avez pas vérifié l’adresse de courriel pour votre compte (« %s »). Vous devez vérifier votre adresse de courriel avant de pouvoir interagir avec Phabricator par courriel.',
+      'You have not verified the email address for your account ("%s"). You must verify your email address before you can interact over email.' => 'Vous n’avez pas vérifié l’adresse de courriel pour votre compte (« %s »). Vous devez vérifier votre adresse de courriel avant de pouvoir interagir par courriel.',
       'Content Redacted' => 'Contenu expurgé',
       'Unhandled Exception' => 'Exception non gérée',
       'Use \'--as\' to specify the acting user.' => 'Utilisez « --as » pour spécifier au nom de quel utilisateur agir.',
       'This is an older message which predates routing rules.' => 'Il s’agit d’un message plus ancien qui est antérieur aux règles de routage.',
       'Send an email to' => 'Envoyer un courriel à',
       'Message content can only be transmitted over secure channels.' => 'Le contenu du message ne peut être transmis que sur des canaux sécurisés.',
-      'List outbound messages.' => 'Lister les messages sortants envoyés par Phabricator.',
+      'List outbound messages.' => 'Lister les messages sortants.',
       'Outbox' => 'Boîte d’envoi',
       'Receiving email addresses' => 'Adresses de courriel de réception',
       'This message has not been sent yet, so routing rules have not been computed.' => 'Ce message n’a pas encore été envoyé, les règles de routage n’ont donc pas été calculées.',
@@ -98,7 +98,7 @@ final class PhabricatorMetamtaFrFR
       'Edit Application Emails' => 'Modifier les courriels d’application',
       'Duplicate Message' => 'Message en doublon',
       'The content of this mail is sensitive and it can not be viewed from the web UI.' => 'Le contenu de cet courriel est sensible et ne peut pas être consulté depuis l’interface utilisateur du web.',
-      'Your account ("%s") has not been approved yet. You can not interact over email until your account is approved.' => 'Votre compte (« %s ») n’a pas encore été approuvé. Vous ne pouvez pas interagir avec Phabricator par courriel tant que votre compte n’est pas approuvé.',
+      'Your account ("%s") has not been approved yet. You can not interact over email until your account is approved.' => 'Votre compte (« %s ») n’a pas encore été approuvé. Vous ne pouvez pas interagir par courriel tant que votre compte n’est pas approuvé.',
       'Effective Rule' => 'Règle effective',
       'This email address is already in use.' => 'Cette adresse de courriel est déjà utilisée.',
       'This user is a bot; bot accounts do not receive mail.' => 'Cet utilisateur est un robot ; les comptes de robots ne reçoivent pas de courrier.',
@@ -143,7 +143,7 @@ final class PhabricatorMetamtaFrFR
       'Show how much mail users have received recently.' => 'Montrez combien de courriels les utilisateurs ont reçu récemment.',
       'Send with bulk headers.' => 'Envoyer avec des entêtes de livraison en masse.',
       'All Matching Rules' => 'Toutes les règles correspondantes',
-      'Your message does not contain any body text or attachments, so this server can not do anything useful with it. Make sure comment text appears at the top of your message: quoted replies, inline text, and signatures are discarded and ignored.' => 'Votre message ne contient aucun corps de texte ni pièce jointe, Phabricator ne peut donc rien en faire d’utile. Assurez-vous que le texte du commentaire apparaît en haut de votre message : les réponses citées, le texte en ligne et les signatures sont éliminés et ignorés.',
+      'Your message does not contain any body text or attachments, so this server can not do anything useful with it. Make sure comment text appears at the top of your message: quoted replies, inline text, and signatures are discarded and ignored.' => 'Votre message ne contient aucun corps de texte ni pièce jointe, ce serveur ne peut donc rien en faire d’utile. Assurez-vous que le texte du commentaire apparaît en haut de votre message : les réponses citées, le texte en ligne et les signatures sont éliminés et ignorés.',
       'The mail sender and message recipients can always see the mail.' => 'L’expéditeur du courrier et les destinataires du message peuvent toujours voir le courrier.',
       'Request failed with errors: %s.' => 'La requête a échoué avec des erreurs : %s.',
       'Attached Files' => 'Fichiers joints',
@@ -157,11 +157,10 @@ final class PhabricatorMetamtaFrFR
       'Number of days back (default 30).' => 'Nombre de jours en arrière (par défaut 30).',
       'Specify one or more users to send a message to with "--to" and/or "--cc".' => 'Spécifiez un ou plusieurs utilisateurs à qui envoyer un message avec « --to » (destinataires séparés) ou « --cc » (destinataires de copie).',
       'Delivery' => 'Livraison',
-      'This mail can not be processed because no application knows how to handle it. Check that the address you sent it to is correct.' => 'Phabricator ne peut pas traiter ce courrier car aucune application ne sait comment le gérer. Vérifiez que l’adresse à laquelle vous l’avez envoyé est correcte.
-    (Aucune sous-classe concrète activée de PhabricatorMailReceiver ne peut accepter ce courrier.)',
+      'This mail can not be processed because no application knows how to handle it. Check that the address you sent it to is correct.' => 'Ce courriel ne peut pas être traité car aucune application ne sait comment le gérer. Vérifiez que l’adresse à laquelle vous l’avez envoyé est correcte.',
       'Period specified with --days must be at least 1.' => 'La période spécifiée avec « --days » (en jours) doit être au moins égale à 1.',
       'Mail Properties' => 'Propriétés du courriel',
-      'Your account ("%s") is disabled, so you can not interact with over email.' => 'Votre compte (« %s ») est désactivé, vous ne pouvez donc pas interagir par courriel avec Phabricator.',
+      'Your account ("%s") is disabled, so you can not interact with over email.' => 'Votre compte (« %s ») est désactivé, vous ne pouvez donc pas interagir par courriel.',
       'Use the \'%s\' flag to specify one or more messages to resend.' => 'Utilisez l’option « %s » pour spécifier un ou plusieurs messages à envoyer à nouveau.',
       'Ignoring email with \'%s\' header to avoid loops.' => 'Ignore le courriel avec l’entête « %s » pour éviter les boucles.',
       'User Mismatch' => 'Ne correspond pas à un utilisateur',
@@ -176,11 +175,24 @@ final class PhabricatorMetamtaFrFR
       'HEADERS' => 'ENTÊTES',
       'Outbound Mail' => 'Courrier sortant',
       'Attach a file.' => 'Joindre un fichier.',
+      'Your email to %s was not processed, because an error occurred while
+    trying to handle it:
+    %s
+    -- Original Message Body -----------------------------------------------------
+    %s
+    -- Original Message Headers --------------------------------------------------
+    %s
+    ' => 'Votre courriel à %s n\'a pas été traité car une erreur s\'est produite lors de la tentative de traitement :
+    %s 
+    -- Corps du message d\'origine -----------------------------------------------------
+    %s 
+    -- En-têtes du message d\'origine --------------------------------------------------
+    %s',
       'Mail Disabled' => 'Courrier désactivé',
       'BODIES' => 'CORPS',
       'No Address' => 'Aucune adresse',
       'Simulate mail delivery "From:" the given user.' => 'Simuler la livraison de courrier venant « De : » l’utilisateur donné.',
-      'Sent by %s' => 'Envoyé par Phabricator',
+      'Sent by %s' => 'Envoyé par %s',
       'Email address is not formatted properly.' => 'L’adresse de courriel n’est pas formatée correctement.',
       'This recipient has muted notifications for this object.' => 'Ce destinataire a bloqué les notifications pour cet objet.',
       'Message recipient has no mailable actor.' => 'Le destinataire du message n’a aucun acteur adressable par courriel.',
@@ -189,7 +201,7 @@ final class PhabricatorMetamtaFrFR
       'The address %s is configured to be used by the %s Application.' => 'L\'adresse %s est configurée pour être utilisée par l’application %s.',
       'Disabled Recipient' => 'Destinataire désactivé',
       'Specify one or more email addresses to unverify.' => 'Spécifier une ou plusieurs adresses de courriel dont la vérification doit être annulée.',
-      'Generated by Server' => 'Généré par Phabricator',
+      'Generated by Server' => 'Généré par le serveur',
       'ATTACHMENTS' => 'PIÈCES JOINTES',
       'Message has no valid recipients: all To/CC are disabled, invalid, or configured not to receive this mail.' => 'Le message n’a aucun destinataire valide : toutes les options « À/CC » sont désactivées, non valides ou configurées pour ne pas recevoir ce courriel.',
       'Message has no "To" recipient.' => 'Le message n’a aucun destinataire « À ».',
@@ -238,7 +250,7 @@ final class PhabricatorMetamtaFrFR
       'This recipient is the user whose actions caused delivery of this message, but they have set preferences so they do not receive mail about their own actions (Settings > Email Preferences > Self Actions).' => 'Ce destinataire est l’utilisateur dont les actions ont entraîné la remise de ce message, mais il a défini des préférences afin de ne recevoir aucun courriel concernant ses propres actions (Paramètres > Préférences de messagerie > Actions personnelles).',
       'Send as HTML mail.' => 'Envoyer en tant que courrier HTML.',
       'Bad Recipient' => 'Mauvais destinataire',
-      'This message is a response to another email message, and this recipient received the original email message, so we are not sending them this substantially similar message (for example, the sender used "Reply All" instead of "Reply" in response to mail from this server).' => 'Ce message est une réponse à un autre courriel et ce destinataire a reçu le courriel original, nous ne lui envoyons donc pas ce message sensiblement similaire (par exemple, l’expéditeur a utilisé « Répondre à tous » au lieu de « Répondre » en réponse au courriel reçu de Phabricator).',
+      'This message is a response to another email message, and this recipient received the original email message, so we are not sending them this substantially similar message (for example, the sender used "Reply All" instead of "Reply" in response to mail from this server).' => 'Ce message est une réponse à un autre courriel et ce destinataire a reçu le courriel original, nous ne lui envoyons donc pas ce message sensiblement similaire (par exemple, l’expéditeur a utilisé « Répondre à tous » au lieu de « Répondre » en réponse au courriel reçu de ce serveur).',
       'Type a user, project, package, or mailing list name...' => 'Saisissez un nom d’utilisateur, de projet, de paquet ou de liste de diffusion...',
       'Reading message body from stdin...' => 'Lecture du corps du message depuis l’entrée standard...',
       'This recipient does not have a verified primary email address.' => 'Ce destinataire n’a pas d’adresse de courriel principale vérifiée.',
@@ -248,12 +260,12 @@ final class PhabricatorMetamtaFrFR
       'Self Mail' => 'Courrier à soi-même',
       'The content for this message can only be transmitted over a secure channel. To view the message content, follow this link:' => 'Le contenu de ce message ne peut être transmis que sur un canal sécurisé. Pour afficher le contenu de ce message, suivez ce lien:',
       '(This message has no text body.)' => '(Ce message n\'a aucun corps de texte.)',
-      'This software is running in silent mode. See `%s` in the configuration to change this setting.' => 'Phabricator fonctionne en mode silencieux. Voir `%s` dans la configuration pour modifier ce paramètre.',
+      'This software is running in silent mode. See `%s` in the configuration to change this setting.' => 'Ce logiciel fonctionne en mode silencieux. Voir « %s » dans la configuration pour modifier ce paramètre.',
       'Processing Exception' => 'Exception de traitement',
       'Phone number ("%s") is not in a recognized format: expected a US number like "(555) 555-5555", or an international number like "+55 5555 555555".' => 'Le format du numéro de téléphone (« %s ») n\'est pas reconnu : un numéro américain tel que « (555) 555-5555 », ou un numéro international tel que « +55 5555 555555 » sont attendus.',
       'Unknown Sender' => 'Expéditeur inconnu',
       'Simulate mail delivery "To:" the given object.' => 'Simuler la livraison de courrier adressé « À : » l’utilisateur donné.',
-      'Mail From Self' => 'Courrier de Phabricator',
+      'Mail From Self' => 'Courriel du logiciel',
       'RECIPIENTS' => 'DESTINATAIRES',
       'No special rules affected this mail.' => 'Aucune règle spéciale n’a affecté ce courrier.',
       'Dump the HTML body of the mail. You can redirect it to a file and then open it in a browser.' => 'Vider le corps HTML du courrier. Vous pouvez le rediriger vers un fichier au format HTML (dont le contenu devrait être inspecté pour votre sécurité), puis l’ouvrir dans un navigateur.',
@@ -273,7 +285,7 @@ final class PhabricatorMetamtaFrFR
       'Delivered' => 'Livré',
       'Address Not Verified' => 'Adresse non vérifiée',
       'Delivery reasons are listed from weakest to strongest.' => 'Les motifs de livraison sont listés du plus faible au plus fort.',
-      'Used if the "From:" address does not map to a user account. Setting a default author will allow anyone on the public internet to create objects by sending email to this address.' => 'Utilisé si l’adresse « De : » ne correspond pas à aucun compte d’utilisateur. La définition d’un auteur par défaut permettra à quiconque sur l’Internet public de créer des objets dans Phabricator en envoyant un courriel à cette adresse.',
+      'Used if the "From:" address does not map to a user account. Setting a default author will allow anyone on the public internet to create objects by sending email to this address.' => 'Utilisé si l’adresse « De : » ne correspond pas à aucun compte d’utilisateur. La définition d’un auteur par défaut permettra à quiconque sur l’Internet public de créer des objets en envoyant un courriel à cette adresse.',
       'Disabled Sender' => 'Expéditeur désactivé',
       'Simulate receiving mail. This is primarily useful if you are developing new mail receivers.' => 'Simuler la réception de courrier. Ceci est principalement utile si vous développez de nouveaux récepteurs de courrier.',
       'This message was routed as an email because it matched %s.' => 'Ce message a été acheminé en tant que courriel, car il correspondait à %s.',
@@ -288,7 +300,7 @@ final class PhabricatorMetamtaFrFR
       'Message Fields' => 'Champs du message',
       'Browse Subscribers' => 'Parcourir les abonnés',
       'Must Encrypt' => 'Cryptage obligatoire',
-      'List inbound messages.' => 'Lister les messages entrants reçus par Phabricator.',
+      'List inbound messages.' => 'Lister les messages entrants.',
       'Got it! Thanks, Mailgun!
     ' => 'J’ai compris ! Merci, Mailgun !',
     );

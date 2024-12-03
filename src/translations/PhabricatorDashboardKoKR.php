@@ -82,6 +82,7 @@ final class PhabricatorDashboardKoKR
       'Change the dashboard layout mode.' => '대시보드 레이아웃 모드를 변경합니다.',
       '%s renamed this dashboard from %s to %s.' => '%s님이 이 대시보드의 이름을 %s에서 %s(으)로 변경했습니다.',
       'Read information about portals.' => '포털에 관한 정보를 읽습니다.',
+      '(None)' => '(없음)',
       'Add to Portal' => '포털에 추가',
       'Portals' => '포털',
       'You must choose a valid panel.' => '유효한 패널을 선택해야 합니다.',

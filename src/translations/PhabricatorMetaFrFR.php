@@ -9,7 +9,7 @@ final class PhabricatorMetaFrFR
 
   protected function getTranslations() {
     return array(
-      'Completely Break Everything' => 'Casser complètement Phabricator',
+      'Completely Break Everything' => 'Tout Casser Complètement',
       'Information' => 'Informations',
       'Syntax' => 'Syntaxe',
       'You cannot install an installed application.' => 'Vous ne pouvez pas installer une application déjà installée.',
@@ -39,15 +39,15 @@ final class PhabricatorMetaFrFR
     !close
     I just talked to @alincoln, and he showed me that he fixed this.
     ```
-    ' => 'Après avoir configuré Phabricator pour traiter le courriel entrant, vous pouvez interagir par courriel avec des objets (tels que les tâches et révisions). Pour des  informations sur la configuration de Phabricator, voir **[[%s|Configurer le courriel entrant]]**.
-    Dans la plupart des cas, vous pouvez répondre au courriel que vous recevez depuis Phabricator afin de laisser des commentaires. Vous pouvez également utiliser des **commandes par courriel** pour effectuer une gamme élargie d’actions (comme prendre la main sur une tâche ou demander des changements à une révision) sans avoir besoin de vous connecter sur l’interface web.
+    ' => 'Après avoir configuré le traitement du courriel entrant, vous pouvez interagir avec des objets (tels que des tâches et des révisions) par courriel. Pour plus d\'informations sur la configuration du courriel entrant, voir **[[%s| Configurer le courriel entrant ]]**.
+    Dans la plupart des cas, vous pouvez répondre au courriel que vous recevez de ce serveur pour laisser des commentaires. Vous pouvez également utiliser **mail commands** pour obtenir une gamme élargie d’actions (comme prendre la main sur une tâche ou demander des changements à une révision) sans avoir besoin de vous connecter sur l’interface web.
     Les commandes par courriel sont des mots-clés qui commencent par un point d’exclamation, comme `!claim`. certaines commandes peuvent prendre des paramètres, comme `!assign alincoln`.
-    Pour utiliser des commandes par courriel, écrivez une commande par ligne au début ou à la fin du corps de votre message. Par exemple, vous pourriez écrire ceci dans une réponse à un courriel de tâche, afin de prendre la main sur la tâche :
+    Pour utiliser des commandes par courriel, écrivez une commande par ligne au début ou à la fin du corps de votre message. Par exemple, vous pouvez écrire ceci dans une réponse à un courriel de tâche, afin de prendre la main sur la tâche :
     ```
     !claim
     Je me charge de ceci.
     ```
-    Quand Phabricator recevra votre courriel, il traitera d’abord toutes les commandes, puis postera le reste du corps du message en tant que commentaire. Vous pouvez exécuter plusieurs commandes en même temps :
+    Quand %s recevra votre courriel, il traitera d’abord toutes les commandes, puis postera le reste du corps du message en tant que commentaire. Vous pouvez exécuter plusieurs commandes en même temps :
     ```
     !assign alincoln
     !close
@@ -58,7 +58,7 @@ final class PhabricatorMetaFrFR
       'Launchable' => 'Lançable',
       'Save Policies' => 'Enregistrer les politiques',
       'Browse Applications' => 'Parcourir les applications',
-      'To manage prototypes, enable them by setting %s in your configuration.' => 'Pour gérer les prototypes, activez-les en paramétrant %s dans votre configuration Phabricator.',
+      'To manage prototypes, enable them by setting %s in your configuration.' => 'Pour gérer les prototypes, activez-les en paramétrant %s dans votre configuration.',
       'Prototype' => 'Prototype',
       'Edit Policies: %s' => 'Modifier les politiques : %s',
       'Create New Application' => 'Créer une nouvelle application',
@@ -72,14 +72,14 @@ final class PhabricatorMetaFrFR
       'Show Released Applications' => 'Afficher les applications publiées',
       'Show Non-Launchable Applications' => 'Afficher les applications non lançables',
       '%s uninstalled %s.' => '%s a désinstallé %s.',
-      'This is very unusual and will leave you without any content on the home page. You should only do this if you are certain you know what you are doing.' => 'Ceci est très inhabituel et vous laissera sans aucun contenu sur la page d’accueil de Phabricator. Vous ne devriez faire ceci que si vous avez l’assurance de savoir ce que vous faites.',
+      'This is very unusual and will leave you without any content on the home page. You should only do this if you are certain you know what you are doing.' => 'Ceci est très inhabituel et vous laissera sans aucun contenu sur la page d’accueil. Vous ne devriez faire ceci que si vous êtes certain de savoir ce que vous faites.',
       'Can\'t set non-public policies to public.' => 'Impossible de rendre publiques des politiques non publiques.',
       '%s installed %s.' => '%s a installé %s.',
       'Configure Application Forms' => 'Configurer les formulaires d’application',
       'Show Applications w/ App Email Support' => 'Afficher les applications qui prennent en charge le courriel d’appli',
       'Uninstall' => 'Désinstaller',
       'Can\'t set the policy to a policy you can\'t view!' => 'Impossible de définir la politique pour une politique que vous ne pouvez pas voir !',
-      'This application is required and cannot be uninstalled.' => 'Cette application ne peut pas être désinstallée car elle est nécessaire au fonctionnement de Phabricator.',
+      'This application is required and cannot be uninstalled.' => 'Cette application est indispensable et ne peut pas être désinstallée.',
       'Type an application name...' => 'Saisissez un nom d’application...',
       'Install %s application?' => 'Installer l’application %s ?',
       'Quick Reference' => 'Référence rapide',
@@ -88,7 +88,7 @@ final class PhabricatorMetaFrFR
       '%s changed the %s policy for application %s from %s to %s.' => '%s a changé la politique «  %s » pour l’application %s de « %s » en « %s ».',
       'Configure creation and editing forms in Applications.' => 'Configurer la création et la modification des formulaires dans les applications.',
       'Show Prototype Applications' => 'Afficher les applications prototypes',
-      'This server is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => 'Phabricator n’est pas configuré actuellement pour accepter les courriel entrants. Vous ne pourrez pas interagir par courriel avec les objets avant d’avoir configuré le courriel entrant.',
+      'This server is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => 'Ce serveur n’est pas configuré actuellement pour accepter les courriel entrants. Vous ne pourrez pas interagir par courriel avec les objets avant d’avoir configuré le courriel entrant.',
       '%s changed the %s policy from %s to %s.' => '%s a changé la politique « %s » de « %s » en « %s ».',
       'Edit Application: %s' => 'Modifier l’application : %s',
       'Show Third-Party Applications' => 'Afficher les applications tierces',

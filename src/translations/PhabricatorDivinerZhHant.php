@@ -23,6 +23,14 @@ final class PhabricatorDivinerZhHant
       'Atoms inherit the policies of the books they are part of.' => '原子繼承了它們所屬的書籍方針。',
       'Deleting %s document(s).' => '正在刪除 %s 份文件。',
       'Rule \'%s\' is not a valid regular expression.' => '規則「%s」不是有效的正規表達式。',
+      '(NOTE) **Looking for documentation?** If you\'re looking for help and information about %s, you can [[https://we.phorge.it/diviner/ | browse the public %s documentation]] on the live site.
+    Diviner is the documentation generator used to build this documentation.
+    You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the documentation and have it appear here, run this command:
+      %s
+    ' => '【注意】**尋找文件嗎？**若要尋找「%s」的說明和資訊，您可以在即時網站上[[https://we.phorge.it/diviner/ | 瀏覽公開的「%s」文件]]。
+    此文件使用 Divner 文件生成程序編寫。
+    您尚未生成任何 Diviner 文件書，所以此頁為空。若要生成此文件的個人本機副本，並顯示於此，請執行以下命令：
+      %s',
       'Return' => '返回',
       'Found %s file(s) in project.' => '在專案裡找到 %s 個檔案。',
       'PUBLISHING DOCUMENTATION' => '發布文件',

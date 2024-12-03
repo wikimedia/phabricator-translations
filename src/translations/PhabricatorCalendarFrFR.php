@@ -31,7 +31,7 @@ final class PhabricatorCalendarFrFR
       'Exports' => 'Exportations',
       'Query to execute.' => 'Requête à exécuter.',
       'Movie' => 'Film',
-      'Imported events can not be edited.' => 'Les événements importés ne peuvent pas être modifiés dans Phabricator.',
+      'Imported events can not be edited.' => 'Les événements importés ne peuvent pas être modifiés.',
       'Official Business' => 'Occupation officielle',
       'Show invites the current viewer is invited to. This function includes events the user is invited to because a project they are a member of is invited.' => 'Afficher les invitations auxquelles le visiteur actuel est invité. Cette fonction inclut les événements auxquels l’utilisateur est invité parce qu’un projet dont il est membre est invité.',
       'End date and time of the event.' => 'Date et heure de fin de l’événement.',

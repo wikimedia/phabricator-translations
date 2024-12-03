@@ -77,6 +77,7 @@ final class PhabricatorCalendarZhHans
       'Host of the event.' => '活动的主机。',
       'Create Export' => '创建导出',
       'Edit Export' => '编辑导出',
+      'No Automatic Updates' => '无自动更新',
       '%s declined %s.' => '%s拒绝了%s。',
       'Drop .ics Files to Import' => '拖放.ics文件以导入',
       'Staycation' => '居家旅行',

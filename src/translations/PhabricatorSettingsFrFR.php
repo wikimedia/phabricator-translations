@@ -21,19 +21,19 @@ final class PhabricatorSettingsFrFR
       'ISO 8601: 2000-02-28' => 'ISO 8601 : 2000-02-28',
       'Global Default Settings' => 'Paramètres par défaut globaux',
       'Self Actions' => 'Auto-actions',
-      'If you have difficulty reading the UI, this setting may help.' => 'Si vous avez des difficultés à lire l’interface utilisateur de Phabricator, ce paramètre peut rendre Phabricator plus accessible.',
+      'If you have difficulty reading the UI, this setting may help.' => 'Si vous avez des difficultés à lire l’interface utilisateur, ce paramétrage peut vous aider.',
       'Email Notifications' => 'Notifications par courriel',
-      'Show Unified Diffs' => 'Afficher les diffs unifiés',
-      'Diff Preferences' => 'Préférences des diffs',
+      'Show Unified Diffs' => 'Affichage unifié des différences',
+      'Diff Preferences' => 'Préférences des différences',
       'Saturday' => 'Samedi',
       'Change Primary Address' => 'Changer l’adresse principale',
       'Send Stamps' => 'Horodatages d’envoi',
-      'Show Older Inlines' => 'Afficher les inclusions plus anciennes',
+      'Show Older Inlines' => 'Déplacement des anciens commentaires',
       'Select the format you prefer for editing dates.' => 'Sélectionnez le format que vous préférez pour modifier les dates.',
-      'On Small Screens' => 'Sur les petits écrans',
+      'On Small Screens' => 'Uniquement sur les petits écrans',
       'A verification email has been sent. Click the link in the email to verify your address.' => 'Un courriel de vérification a été envoyé. Cliquez sur le lien dans le courriel reçu pour vérifier votre adresse.',
       'Enable Email Notifications' => 'Activer les notifications par courriel',
-      'Diffs are normally shown in a side-by-side layout on large screens and automatically switched to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator affiche normalement les diffs dans une disposition côte-à-côte pour les écrans larges et bascule automatiquement sur une vue unifiée pour les écrans étroits (comme les téléphones mobiles). Si vous préférez des diffs unifiés même sur écrans larges, vous pouvez sélectionner qu\'ils soient utilisés sur tous les affichages.',
+      'Diffs are normally shown in a side-by-side layout on large screens and automatically switched to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Les différences sont normalement affichées dans une disposition côte-à-côte pour les écrans larges et bascule automatiquement sur une vue unifiée pour les écrans étroits (comme les téléphones mobiles). Si vous préférez un affichage unifié même sur écrans larges, vous pouvez sélectionner ce type d\'affichage pour tous les écrans.',
       'Generic Editor' => 'Éditeur générique',
       'Edit global default settings for all users.' => 'Modifier les paramètres par défaut globaux pour tous les utilisateurs.',
       'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
@@ -49,8 +49,8 @@ final class PhabricatorSettingsFrFR
       'Empty string is not a valid setting for "%s".' => 'Une chaîne vide n’est pas un paramètre valide pour « %s ».',
       'Adjust Timezone' => 'Ajuster le fuseau horaire',
       'If you disable **Email Notifications**, this server will never send email to notify you about events. This preference overrides all your other settings.
-    //You will still receive some administrative email, like password reset email.//' => 'Si vous désactivez les **notifications par courriel**, Phabricator n’enverra jamais aucun courriel pour vous notifier des événements. Cette préférence remplace tous vos autres paramètres.
-    //Vous recevrez encore certains courriels administratifs, tels que les courriels de réinitialisation de mot de passe.//',
+    //You will still receive some administrative email, like password reset email.//' => 'Si vous désactivez les **notifications par courriel**, ce serveur n’enverra aucun courriel pour vous notifier des événements. Cette préférence remplace tous vos autres paramètres.
+    //Vous recevrez cependant toujours les courriels d\'administration, tels que les courriels de réinitialisation de mot de passe.//',
       '%s updated her profile' => '%s a mis à jour son profil',
       'Add Contact Number' => 'Ajouter un numéro de contact',
       'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like `[Closed]` for a notification about someone closing a task.
@@ -67,12 +67,13 @@ final class PhabricatorSettingsFrFR
       'Value "%s" is not valid for setting "%s": valid values are %s.' => 'La valeur « %s » n’est pas valide pour le réglage « %s » : les valeurs valides sont %s.',
       'Extra Settings' => 'Paramètres supplémentaires',
       'Are you sure you want to delete this address? You will no longer be able to use it to login.' => 'Êtes-vous sûr{{GENDER:||}} de vouloir supprimer cette adresse ? Vous ne pourrez plus l’utiliser pour vous connecter.',
-      'If you change your primary address, %s will send all email to %s.' => 'Si vous changez votre adresse principale, Phabricator enverra tous les courriels à %s.',
+      'If you change your primary address, %s will send all email to %s.' => 'Si vous changez votre adresse principale, %s enverra tous les courriels à %s.',
       'You can customize the font used when showing monospaced text, including source code. You should enter a valid CSS font declaration like: `13px Consolas`' => 'Vous pouvez personnaliser la police utilisée pour afficher du texte à chasse fixe, dont le code source. Vous devez entrer une déclaration de police CSS valide telle que : `13px Consolas`',
       'Enable Self Action Mail' => 'Activer les courriels pour vos propres actions',
       'You haven\'t added any SSH Public Keys.' => 'Vous n’avez ajouté aucune clé publique SSH.',
       'All Messages' => 'Tous les messages',
-      'DarkConsole is a debugging console for developing and troubleshooting applications. After enabling DarkConsole, press the {nav `} key on your keyboard to toggle it on or off.' => 'DarkConsole est une console de débogage pour développer et dépanner des applications Phabricator. Après avoir activité DarkConsole, appuyez sur la touche {nav `} de votre clavier pour l\'afficher ou la cacher.',
+      'Ignore New Setting and Keep %s' => 'Ignorer les nouveaux paramètres et conserver %s',
+      'DarkConsole is a debugging console for developing and troubleshooting applications. After enabling DarkConsole, press the {nav `} key on your keyboard to toggle it on or off.' => 'DarkConsole est une console de débogage pour développer et dépanner des applications. Après avoir activé DarkConsole, appuyez sur la touche {nav `} de votre clavier pour l\'afficher ou la masquer.',
       'Save Preference' => 'Enregistrer les préférences',
       'Email Format' => 'Format des courriels',
       'Your browser timezone and profile timezone are now in agreement (%s).' => 'Le fuseau horaire de votre navigateur et celui de votre profil sont désormais compatibles (%s).',
@@ -105,12 +106,12 @@ final class PhabricatorSettingsFrFR
       'You haven\'t added any authentication factors to your account yet.' => 'Vous n’avez ajouté aucun facteur d’authentification à votre compte pour le moment.',
       'To set a new password, request a password reset link from the login screen and then follow the instructions.' => 'Pour modifier votre mot de passe, utilisez le lien de réinitialisation du mot de passe depuis l’écran de connexion et suivez ensuite les instructions.',
       'Multi-Factor Auth' => 'Authentification multifactorielle',
-      'No allowed editor protocols are configured.' => 'Phabricator n’est pas configuré pour autoriser les protocoles d’édition.',
+      'No allowed editor protocols are configured.' => 'Aucun protocole d\'éditeur autorisé n\'est configuré.',
       'You can choose to use either a monospaced or variable-width font in textareas in the UI. Textareas are used for editing descriptions and writing comments, among other things.' => 'Vous pouvez choisir d’utiliser une police à chasse fixe ou à chasse variable dans les champs de texte de l’interface utilisateur. Les champs de texte sont utilisés entre autres pour modifier des descriptions et rédiger des commentaires.',
       'Disable Self Action Mail' => 'Désactiver les courriels pour vos propres actions',
       'Filetree Visible' => 'Arborescence visible',
       'Edit Settings Configurations' => 'Modifier les configurations de paramètres',
-      'Monospaced Textareas' => 'Champs de texte à chasse fixe',
+      'Monospaced Textareas' => 'Type de chasse des champs de texte',
       'Really remove the authentication factor %s from your account?' => 'Voulez-vous vraiment retirer le facteur d’authentification %s de votre compte ?',
       'Mail Headers' => 'Entêtes des courriels',
       'Old Password' => 'Ancien mot de passe',
@@ -123,8 +124,15 @@ final class PhabricatorSettingsFrFR
       'Choose the default behavior of the global search in the main menu.' => 'Choisir le comportement par défaut de la recherche globale dans le menu principal.',
       'Hypertext Transfer Protocol' => 'Protocole HTTP',
       'Diffusion Blame' => 'Responsable de diffusion',
-      'Choose which language you would like the UI to use.' => 'Choisir la langue dans laquelle vous voulez utiliser l’interface utilisateur de Phabricator.',
-      'Your browser timezone (%s) differs from your profile timezone (%s). You can adjust your profile setting to match your browser, or ignore this conflict to keep your current profile setting.' => 'Le fuseau horaire de votre navigateur (%s) est différent du fuseau horaire de votre profil (%s). Vous pouvez ignorer ce conflit ou mettre à jour le paramètre de votre profil pour correspondre à votre client.',
+      'Choose which language you would like the UI to use.' => 'Choisir la langue dans laquelle vous voulez utiliser l’interface utilisateur.',
+      'Outgoing mail is stamped with labels like `actor(alice)` which can be used to
+    write client mail rules to organize mail. By default, these stamps are sent
+    in an `X-Phabricator-Stamps` header.
+    If you use a client which can not use headers to route mail (like Gmail),
+    you can also include the stamps in the message body so mail rules based on
+    body content can route messages.' => 'Le courrier sortant est marqué avec des étiquettes telles que « actor(alice) » qui peuvent être utilisées pour écrire des règles de courrier client pour organiser le courrier. Par défaut, ces marquages sont envoyés dans un en-tête « X-Phabricator-Stamps ».
+    Si vous utilisez un client qui ne peut pas utiliser d\'en-têtes pour router le courrier (comme Gmail), vous pouvez également inclure les marquages dans le corps du message afin que les règles de courrier basées sur le contenu du corps puissent router les messages.',
+      'Your browser timezone (%s) differs from your profile timezone (%s). You can adjust your profile setting to match your browser, or ignore this conflict to keep your current profile setting.' => 'Le fuseau horaire de votre navigateur (%s) est différent du fuseau horaire de votre profil (%s). Vous pouvez ajuster le paramétrage de votre profil pour qu\'il corresponde à votre navigateur ou ignorer ceci en gardant le paramétrage actuel de votre profil.',
       'The dialog asking for permission to send desktop notifications was closed without granting permission. Only application notifications will be sent.' => 'Le dialogue qui vous demander la permission d’envoyer des notifications de bureau a été fermé sans accorder la permission. Seules les notifications d’applications seront envoyées.',
       'Really delete address \'%s\'?' => 'Supprimer réellement l’adresse « %s » ?',
       'Another user already has this email.' => 'Un autre utilisateur possède déjà cette adresse courriel.',
@@ -136,9 +144,9 @@ final class PhabricatorSettingsFrFR
       'Enable "Re:" Prefix' => 'Activer le préfixe « Re: »',
       'DarkConsole Visible' => 'DarkConsole visible',
       'Supported Protocol' => 'Protocole pris en charge',
-      'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Si vous désactivez **Vos propres actions**, Phabricator ne vous notifiera pas des actions que vous avez effectués.',
+      'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Si vous désactivez **Vos propres actions** (**Self Actions**), ce serveur ne vous informera pas des actions que vous effectuez.',
       'You are adding too many email addresses to your account too quickly.' => 'Vous ajoutez trop d’adresses de courriel à votre compte et cela trop rapidement.',
-      'Your browser has not yet granted this server permission to send desktop notifications.' => 'Ce navigateur n’a pas encore accordé la permission d’envoyer des notifications de bureau pour cette instance de Phabricator.',
+      'Your browser has not yet granted this server permission to send desktop notifications.' => 'Votre navigateur n’a pas encore accordé à ce serveur l\'autorisation d’envoyer des notifications de bureau.',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
     | Setting | Effect
     | ------- | -------
@@ -160,7 +168,7 @@ final class PhabricatorSettingsFrFR
       '◐ Notify' => '◐ Notifier',
       '%s updated his profile' => '%s a mis à jour son profil',
       'You can change your date and time preferences in Settings.' => 'Vous pouvez changer vos préférences de date et d\'heure dans Paramètres.',
-      'You can opt to receive plain text email instead of HTML email. Plain text email works better with some clients.' => 'Vous pouvez opter pour recevoir des courriels en texte simple de Phabricator au lieu de courriels formatés en HTML. Les courriels en texte simple fonctionnent mieux avec certains clients.',
+      'You can opt to receive plain text email instead of HTML email. Plain text email works better with some clients.' => 'Vous pouvez opter pour recevoir des courriels en texte simple au lieu de courriels formatés en HTML. Les courriels en texte simple fonctionnent mieux avec certains clients.',
       'Timezone Calibrated' => 'Fuseau horaire calibré',
       'Limited Translations' => 'Traductions limitées',
       'Email Delivery' => 'Acheminement de courriel',
@@ -206,7 +214,7 @@ final class PhabricatorSettingsFrFR
       'User Guide: Configuring an External Editor' => 'Manuel utilisateur : configurer un éditeur externe',
       'You have no account setup issues.' => 'Vous n’avez aucun problème d’installation de compte.',
       'Personal Settings' => 'Paramètres personnels',
-      'Some applications use unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator utilise des glyphes Unicode dans les titres de pages pour fournir une représentation compacte de l’application courante. Vous pouvez les remplacer par du texte simple s’ils ne s’affichent pas sur votre système.',
+      'Some applications use unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Certaines applications utilisent des glyphes Unicode dans les titres de pages pour fournir une représentation compacte de l’application courante. Vous pouvez les remplacer par du texte simple s’ils ne s’affichent pas sur votre système.',
       'Web Only' => 'Web uniquement',
       'Disable Vary Subjects' => 'Désactiver les sujets variés',
       'Developer/Test Translations' => 'Traductions du développement et de test',
@@ -225,10 +233,10 @@ final class PhabricatorSettingsFrFR
       'Select your local timezone.' => 'Sélectionnez votre fuseau horaire local.',
       'Note: Removing an email address from your account will invalidate any outstanding password reset links.' => 'Note : le retrait d’une adresse de courriel de votre compte invalidera tous les liens de réinitialisation de mot de passe en attente.',
       'Click "Save Preference" to persist these changes.' => 'Cliquez sur « Enregistrer les préférences » pour conserver ces changements.',
-      'Your browser has granted this server permission to send desktop notifications.' => 'Ce navigateur a obtenu la permission d’envoyer des notifications de bureau pour cette instance de Phabricator.',
-      'This browser has denied permission to send desktop notifications to this server. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Ce navigateur a refusé à cette instance de Phabricator la permission d’envoyer des notifications de bureau. Veuillez vous référer aux paramètres ou à la documentation de votre navigateur pour corriger ce réglage puis visitez à nouveau cette page pour accorder la permission.',
+      'Your browser has granted this server permission to send desktop notifications.' => 'Ce navigateur a accordé à ce serveur l\'autorisation d’envoyer des notifications de bureau.',
+      'This browser has denied permission to send desktop notifications to this server. Consult your browser settings / documentation to figure out how to clear this setting, do so, and then re-visit this page to grant permission.' => 'Ce navigateur a refusé la permission d’envoyer des notifications de bureau à ce serveur. Veuillez vous référer aux paramètres ou à la documentation de votre navigateur pour corriger ce réglage puis visitez à nouveau cette page pour accorder la permission.',
       'Week Starts On' => 'La semaine commence le',
-      'When a revision is updated, this software attempts to bring inline comments on the older version forward to the new changes. You can disable this behavior if you prefer comments stay anchored in one place.' => 'Quand une révision est mise à jour, Phabricator tente d’apporter les commentaires en ligne dans la version plus ancienne pour y intégrer les nouveaux changements. Vous pouvez désactiver ce comportement si vous préférez que les commentaires ne restent ancrés qu’à un seul emplacement.',
+      'When a revision is updated, this software attempts to bring inline comments on the older version forward to the new changes. You can disable this behavior if you prefer comments stay anchored in one place.' => 'Quand une révision est mise à jour, ce logiciel tente de déplacer les commentaires en ligne de l\'ancienne version aux bons endroits dans la nouvelle version. Vous pouvez désactiver ce comportement si vous préférez que les commentaires restent ancrés au même endroit.',
       'Remove Factor' => 'Retirer le facteur',
       'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Votre compte n’a actuellement aucun mot de passe défini. Vous pouvez en choisir un en faisant une réinitialisation du mot de passe.',
       'Disabled (an administrator has disabled login for this account provider).' => 'Désactivé (un administrateur a désactivé la connexion pour ce fournisseur de compte).',
@@ -254,13 +262,13 @@ final class PhabricatorSettingsFrFR
     %s
     ```
     For complete instructions on editor configuration, see **[[ %s | %s ]]**.
-    See the tables below for a list of supported variables and protocols.' => 'De nombreux éditeurs de texte peuvent être configurés comme gestionnaires d’URI  pour des protocoles spéciaux tels que `editor://`. Si vous avez installé et configuré un tel éditeur, Phabricator peut générer des liens que vous pouvez cliquer pour ouvrir des fichiers localement.
-    Founissez un motif d’URI pour construire des URI d’éditeur externe dans votre environnement. Par exemple, si vous utilisez TextMate sur macOS, le motif pour votre machine peut ressembler à ceci :
+    See the tables below for a list of supported variables and protocols.' => 'De nombreux éditeurs de texte peuvent être configurés comme gestionnaires d’URI pour des protocoles spéciaux tels que `editor://`. Si vous avez installé et configuré un tel éditeur, certaines applications peuvent générer des liens que vous pouvez cliquer pour ouvrir des fichiers localement.
+    Fournissez un modèle d’URI pour construire des URI d’éditeur externe dans votre environnement. Par exemple, si vous utilisez TextMate sur MacOs, le modèle pour votre machine peut ressembler à ceci :
     ```name="Exemple : TextMate sur macOS"
     %s
     ```
     Pour des instructions complètes sur la configuration d’un éditeur, consultez **[[%s|%s]]**.
-    Voyez les tables ci-dessous pour une liste des variables et protocoles pris en charge.',
+    Voir les tables ci-dessous pour une liste des variables et protocoles pris en charge.',
       '⚫ Email' => '⚫ Courriel',
       'New Setting' => 'Nouveau paramètre',
       'Pronoun' => 'Pronom',
@@ -270,7 +278,7 @@ final class PhabricatorSettingsFrFR
       'Sessions and Logs' => 'Sessions et journaux',
       'Your primary email address is unverified. You will not be able to receive email until you verify it.' => 'Votre adresse courriel principale n’est pas vérifiée. Vous ne pourrez pas recevoir de courriels tant que vous ne l’aurez pas vérifiée.',
       'Pinned Applications' => 'Applications épinglées',
-      'This server can send real-time notifications to your web browser or to your desktop. Select where you want to receive these real-time updates.' => 'Phabricator peut envoyer des notifications en temps réel à votre navigateur web ou sur votre bureau. Choisissez l’endroit où vous voulez recevoir ces mises à jour en temps réel.',
+      'This server can send real-time notifications to your web browser or to your desktop. Select where you want to receive these real-time updates.' => 'Ce serveur peut envoyer des notifications en temps réel à votre navigateur Internet ou sur votre bureau. Choisissez l’endroit où vous voulez les recevoir.',
       'Revoke All' => 'Tout révoquer',
       'No settings panel group with key "%s" exists!' => 'Aucun groupe de panneaux de configuration n’existe avec la clé « %s » !',
       'Linked Accounts and Authentication' => 'Comptes liés et authentification',
