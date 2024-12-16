@@ -21,7 +21,7 @@ final class PhabricatorCelerityFrFR
       'Found %d binary resources.' => '%s ressources binaires trouvées.',
       'No resource with symbol "%s" exists in source "%s"!' => 'Aucune ressource avec le symbole « %s » n’existe dans la source « %s » !',
       'Celerity' => 'Célérité',
-      'Package specification for "%s" includes "%s", but that symbol is not %s by any resource.' => 'La spécification du paquetage pour « %s » inclut « %s », mais ce symbole n’est %s par aucune ressource.',
+      'Package specification for "%s" includes "%s", but that symbol is not %s by any resource.' => 'La spécification du paquet pour « %s » inclut « %s », mais ce symbole n’est %s par aucune ressource.',
       'Attempting to resolve unknown resource, "%s".' => 'Tentative de résoudre une ressource inconnue, « %s ».',
       'Rebuilt "%s" syntax CSS.' => 'CSS de syntaxe « %s » reconstruit.',
       '`%s` not found in PATH.' => '`%s` introuvable dans PATH.',

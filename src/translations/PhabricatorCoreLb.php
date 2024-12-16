@@ -53,6 +53,7 @@ final class PhabricatorCoreLb
       'New Password' => 'Neit Passwuert',
       'Sun' => 'Son',
       'Change Password' => 'Passwuert änneren',
+      'Invalid effect!' => 'Ongültegen Effekt!',
       'Image' => 'Bild',
       'Previous' => 'Vireg',
       'Edit' => 'Änneren',
@@ -61,6 +62,7 @@ final class PhabricatorCoreLb
       'Projects' => 'Projeten',
       'Pink' => 'Rosa',
       'GitHub' => 'GitHub',
+      'Invalid' => 'Ongülteg',
       'Description' => 'Beschreiwung',
       'Wednesday' => 'Mëttwoch',
       'Subscriptions' => 'Abonnementer',
@@ -143,6 +145,7 @@ final class PhabricatorCoreLb
       'Goal' => 'Zil',
       'April' => 'Abrëll',
       '(%s)' => '(%s)',
+      'Closed, Invalid' => 'Zou, Ongülteg',
       'Change %s' => '%s änneren',
       'Mode' => 'Modus',
       'Site Not Found' => 'Site net fonnt',
@@ -165,10 +168,13 @@ final class PhabricatorCoreLb
       'Set Password' => 'Passwuert festleeën',
       'Remove' => 'Ewechhuelen',
       'Done' => 'Fäerdeg',
+      'Save' => 'Späicheren',
       'Function' => 'Funktioun',
       'Disabled' => 'Desaktivéiert',
       'Project' => 'Projet',
+      'Delete' => 'Läschen',
       'Save Changes' => 'Ännerunge späicheren',
+      'Feed' => 'Feed',
     );
   }
 

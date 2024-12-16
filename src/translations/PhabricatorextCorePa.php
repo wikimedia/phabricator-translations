@@ -1,6 +1,6 @@
 <?php
 
-final class PhabricatorAuditPa
+final class PhabricatorextCorePa
   extends PhutilTranslation {
 
   public function getLocaleCode() {
@@ -9,8 +9,8 @@ final class PhabricatorAuditPa
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'ਵਰਤੋਂਕਾਰ',
-      'Welcome to Audit' => 'ਆਡਿਟ ਉੱਤੇ ਜੀ ਆਇਆਂ ਨੂੰ',
+      'MediaWiki' => 'ਮੀਡੀਆਵਿਕੀ',
+      'MediaWiki User' => 'ਮੀਡੀਆਵਿਕੀ ਵਰਤੋਂਕਾਰ',
     );
   }
 

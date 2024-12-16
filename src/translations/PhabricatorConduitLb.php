@@ -18,6 +18,7 @@ final class PhabricatorConduitLb
       'Stability' => 'Stabilitéit',
       'Errors' => 'Feeler',
       'Username.' => 'Benotzernumm.',
+      'Developer API' => 'Entwéckler-API',
       'Show old methods which will be deleted in a future version of this software.' => 'Al Methode weisen, déi an enger zukünfteger Versioun vu Phabricator geläscht wäerte ginn.',
     );
   }

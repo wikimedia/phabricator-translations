@@ -26,7 +26,7 @@ final class PhabricatorGuidesZhHant
       'Create some work for the interns in Maniphest.' => '在 Maniphest 為實習生建立一些工作。',
       'Your invitations have been accepted. You will not be alone on this journey.' => '您的邀請已被接收，您不會只能獨自一人行事。',
       'You\'ve configured at least one authentication provider.' => '您已設置至少一個驗證提供方。',
-      'Short Tutorials' => '簡短教程',
+      'Short Tutorials' => '簡短教學',
       'If you\'re new to this software, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.' => '若您是該軟體的新手，這些可選步驟能協助您了解基本內容。您可隨時為您的工作方式來設定，並依照自己的進度來探索這些功能。',
       'You\'ve created at least one repository.' => '您已建立至少一個版本庫。',
       'Guides' => '指南',

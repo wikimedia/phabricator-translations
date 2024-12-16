@@ -83,6 +83,7 @@ final class PhabricatorPholioZhHant
       'This page documents the commands you can use to interact with mocks in Pholio.' => '此頁面記錄了您可與在 Pholio 裡的畫面模型互動的指令。',
       'Unable to load replacement image ("%s"): %s' => '無法載入取代圖片（「%s」）：%s',
       '%s renamed this mock from %s to %s.' => '%s將此畫面模型從%s改名成%s。',
+      'Comment cannot be empty.' => '留言不能為空。',
       'Test rules which run when a mock is created or updated.' => '在畫面模型建立或更新時運行的測試規則。',
       'Inline Comment' => '行內註釋',
       'Mock names must not be longer than %s character(s).' => '畫面模型的名稱不可超過 %s 個字元。',

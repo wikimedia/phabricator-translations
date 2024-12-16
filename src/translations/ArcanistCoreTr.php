@@ -1602,7 +1602,7 @@ final class ArcanistCoreTr
       'Other users to CC on the new task.' => 'Diğer kullanıcılar CC için yeni görev.',
       'XHPAST Lint' => 'XHPAST Lint',
       'Reading diff from stdin...' => 'Stdin farkı okunuyor...',
-      'HTTPS Trusted Domains' => 'HTTPS Güvenilir Etki Alanları',
+      'HTTPS Trusted Domains' => 'HTTPS Güvenilir Alan Adları',
       'Working Copy' => 'Çalışma Kopyası',
       'Signal router has not been initialized!' => 'Sinyal yönlendirici başlatılmadı!',
       'Non-conventional modifier ordering.' => 'Geleneksel olmayan değiştirici sırası.',

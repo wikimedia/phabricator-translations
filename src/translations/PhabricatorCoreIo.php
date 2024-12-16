@@ -29,6 +29,8 @@ final class PhabricatorCoreIo
       'Close' => 'Klozar',
       'Properties' => 'Atributi',
       'Manage' => 'Administrar',
+      'Red' => 'Reda',
+      'Details' => 'Detali',
       'Done.' => 'Facita.',
       'DONE' => 'FACITA',
       'PREVIEW' => 'PREVIDADO',

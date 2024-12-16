@@ -36,6 +36,7 @@ final class PhabricatorSettingsRu
       'Enable "Re:" Prefix' => 'Включить префикс «Re:»',
       'Europe: 28-02-2000' => 'Европа: 28-02-2000',
       '%s updated his profile' => '%s обновил свой профиль',
+      'You can change your date and time preferences in Settings.' => 'Вы можете изменить настройки даты и времени в настройках.',
       'Create Settings' => 'Создать настройки',
       'Email Preferences' => 'Настройки электронной почты',
       '24 Hour, 14:34' => '24-часовой формат, 14:34',

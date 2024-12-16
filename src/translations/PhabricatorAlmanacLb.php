@@ -16,6 +16,7 @@ final class PhabricatorAlmanacLb
       'Create Namespace' => 'Nummraum uleeën',
       'Namespace %d' => 'Nummraum %s',
       'Namespace %s' => 'Nummraum %s',
+      'Invalid Property' => 'Ongülteg Eegenschaft',
       'The name of the namespace.' => 'Den Numm vum Nummraum.',
       'Name of the namespace.' => 'Numm vum Nummraum.',
       'All Namespaces' => 'All Nummraim',

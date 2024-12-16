@@ -11,7 +11,9 @@ final class PhabricatorextCoreLb
     return array(
       'Allow' => 'Erlaben',
       'LDAP User' => 'LDAP Benotzer',
+      'Invalid action \'%s\'!' => 'Ongülteg Aktioun „%s“!',
       'MediaWiki' => 'MediaWiki',
+      'Invalid' => 'Ongülteg',
       'How this works' => 'Wéi et geet',
       'Unknown' => 'Onbekannt',
       'Global Accounts' => 'Global Benotzerkonten',

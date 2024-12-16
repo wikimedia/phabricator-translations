@@ -93,7 +93,7 @@ final class PhabricatorMetamtaFrFR
       'Mail sent! You can view details by running this command:' => 'Courriel envoyé ! Vous pouvez afficher les détails en exécutant cette commande :',
       'Emails' => 'Courriels',
       'Deliver as notification' => 'Envoyer en tant que notification',
-      'Unit Test (Permanent)' => 'Test unitaire (permanent)',
+      'Unit Test (Permanent)' => 'Test des unités (permanent)',
       'Require secure email' => 'Exiger un courriel sécurisé',
       'Edit Application Emails' => 'Modifier les courriels d’application',
       'Duplicate Message' => 'Message en doublon',
@@ -124,7 +124,7 @@ final class PhabricatorMetamtaFrFR
       'Route as Mail' => 'Acheminer en tant que courrier',
       'This PHID type does not correspond to a mailable object.' => 'Ce type de PHID ne correspond pas à aucun objet adressable par courriel.',
       'Bot Recipient' => 'Destinataire robot',
-      'Unit Test (Temporary)' => 'Test unitaire (temporaire)',
+      'Unit Test (Temporary)' => 'Test des unités (temporaire)',
       'Reserved' => 'Réservé',
       'Unnamed File' => 'Fichier sans nom',
       'Send mail "To:" the specified users.' => 'Envoyer un courriel « À : » chacun des utilisateurs spécifiés.',
@@ -186,7 +186,7 @@ final class PhabricatorMetamtaFrFR
     %s 
     -- Corps du message d\'origine -----------------------------------------------------
     %s 
-    -- En-têtes du message d\'origine --------------------------------------------------
+    -- Entêtes du message d\'origine ---------------------------------------------------
     %s',
       'Mail Disabled' => 'Courrier désactivé',
       'BODIES' => 'CORPS',

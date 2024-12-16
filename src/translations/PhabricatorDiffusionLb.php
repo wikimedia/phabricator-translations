@@ -18,9 +18,11 @@ final class PhabricatorDiffusionLb
       'External' => 'Extern',
       'Integrations' => 'Integratiounen',
       'Edit Symbols' => 'Symboler änneren',
+      '%s Bytes' => '%s Byte',
       'Enormous Changes' => 'Grouss Ännerungen',
       'Edit Limits' => 'Limitten änneren',
       'Not Found' => 'Net fonnt',
+      'Invalid mode "%s".' => 'Ongültege Modus „%s“.',
       'Changes (%s)' => 'Ännerungen (%s)',
     );
   }

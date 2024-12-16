@@ -65,6 +65,7 @@ final class ArcanistCoreLb
       'Status' => 'Status',
       'Nov' => 'Nov',
       'Unknown' => 'Onbekannt',
+      '[Invalid Translation!] %s' => '[Ongülteg Iwwersetzung!] %s',
       'Apr' => 'Abr',
       'function' => 'Funktioun',
       'Mar' => 'Mäe',

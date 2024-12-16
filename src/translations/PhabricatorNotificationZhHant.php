@@ -44,6 +44,7 @@ final class PhabricatorNotificationZhHant
       'Notification server configuration is invalid: it describes the same host and port ("%s") multiple times. Each host and port combination should appear only once in the list.' => '通知伺服器設置無效：這多次描述了相同的主機與埠號（"%s"）。任一主機與埠號的組合僅能在清單裡出現一次。',
       'Mark All Read' => '標記所有為已讀',
       'Show only unread notifications.' => '僅顯示未讀通知。',
+      'This server is configured to use a notification server, but is not able to connect to it.' => '此伺服器已設定為使用通知伺服器，但無法連線。',
       'Notification server configuration is not valid: each entry in the list must be a dictionary describing a service, but the value with index "%s" is not a dictionary.' => '通知伺服器設置無效：在清單裡的任一項應為描述服務的字典，但索引「%s」的值並非字典。',
       'Notification server configuration has an invalid service specification (at index "%s"): %s.' => '通知伺服器設置有無效的服務規範（位在索引「%s」）：%s',
       'You have no notifications.' => '您沒有通知。',

@@ -10,6 +10,7 @@ final class PhabricatorPhrictionPa
   protected function getTranslations() {
     return array(
       'Publish Draft' => 'ਖਰੜਾ ਛਾਪੋ',
+      'Welcome to Phriction' => 'ਫਰੀਕਸ਼ਨ(Phriction) ਉਤੇ ਜੀ ਆਇਆਂ ਨੂੰ',
       'Publish Draft?' => 'ਖਰੜਾ ਛਾਪਣਾ ਹੈ?',
       'Draft %d' => 'ਖਰੜਾ %s',
       'This document has unpublished draft changes.' => 'ਇਸ ਲਿਖਤ ਵਿੱਚ ਨਾ-ਛਾਪੇ ਹੋਏ ਖਰੜਾ ਦੀ ਤਬਦੀਲੀਆਂ ਹਨ।',

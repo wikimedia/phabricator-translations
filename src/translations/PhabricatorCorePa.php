@@ -41,6 +41,7 @@ final class PhabricatorCorePa
       'Mixture of usernames and PHIDs.' => 'ਵਰਤੋਂਕਾਰ ਨਾਂ ਅਤੇ PHID ਦਾ ਰਲਗੱਡ',
       'Edit' => 'ਸੋਧੋ',
       'Updated %s' => '%s ਨਵਿਆਈਆ ਗਿਆ',
+      'Users' => 'ਵਰਤੋਂਕਾਰ',
       'Change' => 'ਬਦਲੋ',
       'Welcome to %s!' => '%s \'ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ!',
       'Translations' => 'ਤਰਜਮੇ',
@@ -55,13 +56,18 @@ final class PhabricatorCorePa
       'Change Details' => 'ਵੇਰਵੇ ਬਦਲੋ',
       'Change %s' => '%s ਬਦਲੋ',
       'Change Priority' => 'ਤਰਜੀਹ ਬਦਲੋ',
+      'Query' => 'ਪੁੱਛਗਿੱਛ',
       '(Any)' => '(ਕੋਈ ਵੀ)',
       'Confirm Password' => 'ਪਛਾਣ-ਸ਼ਬਦ ਦੀ ਤਸਦੀਕ ਕਰੋ',
+      'Help' => 'ਮਦਦ',
       'Save Draft' => 'ਖਰੜਾ ਸੰਭਾਲੋ',
       'Log In to Comment' => 'ਟਿੱਪਣੀ ਕਰਨ ਲਈ ਦਾਖ਼ਲ ਹੋਵੋ',
       'Set Password' => 'ਪਾਰਸ਼ਬਦ ਕਾਇਮ ਕਰੋ',
       'Updated' => 'ਨਵਿਆਈਆ ਗਿਆ',
+      'Advanced Search' => 'ਉੱਚ-ਪੱਧਰੀ ਖੋਜ',
+      'Session' => 'ਕਾਰਜਕਾਲ',
       'Type "any()"...' => 'ਲਿਖੋ "ਕੋਈ ਵੀ()"...',
+      'Data Export' => 'ਡਾਟਾ ਬਰਾਮਦ ਕਰੋ',
     );
   }
 

@@ -33,10 +33,10 @@ final class PhabricatorDivinerFrFR
     Diviner is the documentation generator used to build this documentation.
     You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the documentation and have it appear here, run this command:
       %s
-    ' => '(NOTE) **Vous recherchez de la documentation ?** Si vous recherchez de l\'aide et des informations sur %s , vous pouvez [[https://we.phorge.it/diviner/ |parcourir la documentation publique %s ]] sur le site en direct.
+    ' => '(NOTE) **Vous recherchez de la documentation ?** Si vous recherchez de l\'aide et des informations sur %s, vous pouvez [[ https://we.phorge.it/diviner/ | parcourir la documentation publique %s ]] sur le site en direct.
     Diviner est le générateur de documentation utilisé pour créer cette documentation.
     Vous n\'avez pas encore généré de livre de documentation Diviner, il n\'y a donc rien à afficher ici. Si vous souhaitez générer votre propre copie locale de la documentation et la faire apparaître ici, exécutez cette commande :
-     %s',
+      %s',
       'Return' => 'Retour',
       'Found %s file(s) in project.' => '%s fichier(s) trouvé(s) dans le projet.',
       'PUBLISHING DOCUMENTATION' => 'PUBLICATION DE LA DOCUMENTATION',
