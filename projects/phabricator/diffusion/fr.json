@@ -282,7 +282,7 @@
 	"47b2dc999995d625": "Lecture seule",
 	"47bfc0aff3358e1b": "Créer un dépôt",
 	"4847ac9c6287b3d3": "Sortie inattendue de hg annotate : $1",
-	"487d72642f7659be": "Si vous autorisez les modifications énormes, les utilisateurs peuvent pousser des validations qui sont trop grandes pour que Herald puisse leur appliquer les règles sur le contenu. Ceci peut permettre les utilisateurs à biaiser les règles de contenu implémentées dans Herald.",
+	"487d72642f7659be": "Si vous autorisez les modifications énormes, les utilisateurs peuvent pousser des validations qui sont trop grandes pour que Herald puisse leur appliquer les règles sur le contenu. Ceci peut permettre aux utilisateurs de biaiser les règles de contenu implémentées dans Herald.",
 	"49443c9d6dda3e6f": "Changer le comportement d’affichage.",
 	"496b97225ebc6c16": "Tester l'automatisation de la configuration",
 	"496d0bd012a40651": "Pouvoir pousser",

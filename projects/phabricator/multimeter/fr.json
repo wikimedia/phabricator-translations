@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92",
@@ -17,7 +18,7 @@
 	"3a9c736b3175d657": "Taux",
 	"5ae3c07ef5216380": "$1 req",
 	"81869807ec587c84": "Manuel d’utilisation de Multimètre",
-	"8de60af14be27425": "$1 unité(s)",
+	"8de60af14be27425": "$1 unité{{PLURAL:$1||s}}",
 	"93c45b374e438968": "Par requête",
 	"9f87ba915c488c5a": "Par hôte",
 	"a4698c919126d5ab": "Tentative de reprise d’un multimètre déjà actif !",
