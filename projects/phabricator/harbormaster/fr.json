@@ -269,7 +269,7 @@
 	"5394a366ecf37355": "Terminé après",
 	"542ef6e11af21fd9": "$1 a relancé ce constructible.",
 	"54479e4f725a236d": "Forcer la reconstruction des journaux même s’ils paraissent être déjà en bon état.",
-	"545820f82c17dd8c": "Vous ne pouvez traiter aucun fragment de journal de construction tant que le verrou du journal est maintenu.",
+	"545820f82c17dd8c": "Vous ne pouvez traiter aucun tronçon de journal de construction tant que le verrou du journal est maintenu.",
 	"55319d93decd4952": "Tests des unités",
 	"5573271edefa52b1": "Aucun constructible trouvé.",
 	"559322c8e52c135f": "PHID de journal de construction « $1 » non valide.",
