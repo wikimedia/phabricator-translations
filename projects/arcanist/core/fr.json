@@ -1895,7 +1895,7 @@
 	"c0d55fd2db73378e": "Vous devez configurer les règles de découverte pour faire correspondre les fichiers #C aux projets de test (`$1` dans $2).",
 	"c0f8ae15a0940b9b": "La révision « $1 » n’a été trouvée nulle part dans cette copie de travail.",
 	"c10a254d9ba5dc8b": "Appliquer les modifications d’un paquet arc généré avec '$1'.",
-	"c15254d8d71e79d8": "Impossible de décoder l’en-tête MIME : installez l’extension « iconv » ou « mbstring ».",
+	"c15254d8d71e79d8": "Impossible de décoder l’entête MIME : installez l’extension « iconv » ou « mbstring ».",
 	"c1a56faa7eca2bdb": "URI de la révision :",
 	"c1c4571fae365817": "Fonctions définies par un alias",
 	"c1d2709a3bd31ee4": "L’argument « $1 » a été fourni deux fois.",

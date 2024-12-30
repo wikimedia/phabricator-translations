@@ -3,6 +3,7 @@
 		"authors": [
 			"Fitoschido",
 			"KATRINE1992",
+			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -22,7 +23,7 @@
 	"83976820002041a5": "Référence : fonctions avancées",
 	"83baedc7037c882f": "URI de l’image",
 	"8598222918d3c6e5": "Sélectionner",
-	"8668a270d975a0a8": "Les fonctions de saisie semi-automatique sont une fonctionnalité avancée qui vous permet de construire des requêtes plus puissantes. Ce document explique les fonctions disponibles pour le contrôle sélectionné.\n\nPour l’aide générale sur la recherche, consultez le [[$1|Manuel de la recherche]] dans la documentation.\n\nNotez que des contrôles différents prennent en charge des fonctions //différentes// (selon ce que fait chaque contrôle), aussi ces fonctions spécifiques peuvent ne pas fonctionner partout. Vous pouvez toujours consulter l’aide sur chaque contrôle pour passer en revue quelles fonctions sont disponibles pour ce contrôle.",
+	"8668a270d975a0a8": "Les fonctions de saisie semi-automatique sont une fonctionnalité avancée qui vous permet de construire des requêtes plus puissantes. Ce document explique les fonctions disponibles pour le contrôle sélectionné.\n\nPour l’aide générale sur la recherche, consultez le [[ $1 | Manuel utilisateur de la recherche ]] dans la documentation.\n\nNotez que des contrôles différents prennent en charge des fonctions //différentes// (selon ce que fait chaque contrôle), aussi ces fonctions spécifiques peuvent ne pas fonctionner partout. Vous pouvez toujours consulter l’aide sur chaque contrôle pour passer en revue quelles fonctions sont disponibles pour ce contrôle.",
 	"8d6b34815ba43d25": "Nom affiché",
 	"955060c24efafff9": "Ce tableau décrit brièvement les fonctions disponibles pour ce contrôle. Pour plus de détails sur une fonction particulière, consultez la section correspondante ci-dessous.",
 	"95eeffb5f4e285b1": "Cette source n’est pas utilisable directement.",

@@ -4,6 +4,7 @@
 			"Crochet.david",
 			"Gomoko",
 			"Graineahumus",
+			"Mahabarata",
 			"Thibaut120094",
 			"Wladek92"
 		]
@@ -20,7 +21,7 @@
 	"1ef1f25b6148dbd2": "$1 ressources binaires trouvées.",
 	"21cb4dca00942a97": "Aucune ressource avec le symbole « $1 » n’existe dans la source « $2 » !",
 	"2371af702826eab1": "Célérité",
-	"2e6ee0d3a1034bf1": "La spécification du paquetage pour « $1 » inclut « $2 », mais ce symbole n’est $3 par aucune ressource.",
+	"2e6ee0d3a1034bf1": "La spécification du paquet pour « $1 » inclut « $2 », mais ce symbole n’est $3 par aucune ressource.",
 	"317174c8d84f6a62": "Tentative de résoudre une ressource inconnue, « $1 ».",
 	"41fa90d128ffe8e0": "CSS de syntaxe « $1 » reconstruit.",
 	"47d83c73b8a89556": "`$1` introuvable dans PATH.",

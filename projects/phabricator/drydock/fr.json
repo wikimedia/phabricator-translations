@@ -182,7 +182,7 @@
 	"5ec43f35c3464665": "Le bail (« $1 ») est dans un état incohérent (« $2 »), « $3 » attendu.",
 	"605d1b17375814f2": "Verrouiller la clé",
 	"6094cc3e5be656a9": "Les baux ne peuvent pas être relâchés après avoir été détruits.",
-	"623d4a82f2805c74": "En attente que les démons activent les baux...",
+	"623d4a82f2805c74": "En attente que les services en arrière-plan activent les baux...",
 	"62a2969d8469240d": "Aucun dépôt",
 	"6373eca2f1775df1": "Vous n’avez pas le droit d’afficher cet événement du journal.",
 	"638623a86707e617": "En attente de l'activation des ressources : $1.",

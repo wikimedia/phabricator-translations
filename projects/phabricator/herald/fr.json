@@ -172,7 +172,7 @@
 	"6ddb92e5d9aba609": "La règle a échoué automatiquement car c’est une règle personnelle et son propriétaire n’est pas valide ou est désactivé.",
 	"6e206f1240ffbd40": "Nouvelle action",
 	"7013b4aceaf1d5f3": "Sans effet",
-	"70d72dea1a444ca8": "Au lieu d’effectuer des appels en premier plan, ajoutez les tâches à la file du service d’arrière-plan.",
+	"70d72dea1a444ca8": "Au lieu d’effectuer des appels en premier plan, ajoutez les tâches à la file d'attente des services en arrière-plan.",
 	"71f5754221ea03ee": "Modifications déclenchées par les règles Herald.",
 	"7209cd2438f40e97": "Le répertoire $1 n’est pas tracé.",
 	"7239671758a55c9a": "Afficher la clé HMAC",

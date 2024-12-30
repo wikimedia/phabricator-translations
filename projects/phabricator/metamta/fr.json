@@ -176,7 +176,7 @@
 	"ab678caf3b8f66be": "ENTÊTES",
 	"ab76916baf9861fc": "Courrier sortant",
 	"ac0a719be2821b82": "Joindre un fichier.",
-	"ac1da3f15e2b3775": "Votre courriel à $1 n'a pas été traité car une erreur s'est produite lors de la tentative de traitement :\n\n$2 \n\n-- Corps du message d'origine -----------------------------------------------------\n\n$3 \n\n-- En-têtes du message d'origine --------------------------------------------------\n\n$4",
+	"ac1da3f15e2b3775": "Votre courriel à $1 n'a pas été traité car une erreur s'est produite lors de la tentative de traitement :\n\n$2 \n\n-- Corps du message d'origine -----------------------------------------------------\n\n$3 \n\n-- Entêtes du message d'origine ---------------------------------------------------\n\n$4",
 	"af9043a61d1b14b5": "Courrier désactivé",
 	"b082575a018d84e1": "CORPS",
 	"b0ef5734b78bf764": "Aucune adresse",
