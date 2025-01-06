@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"ABPMAB",
 			"Dutchy45",
 			"Ldhank",
 			"Mainframe98",
@@ -56,10 +57,17 @@
 	"19a532c8bc61c311": "Gewijzigd",
 	"1d402b1c2fe1a0b1": "(Voer `$1` uit voor meer details.)",
 	"1da15af69b62af73": "Gebruik \"arc alias\" om aliassen in te stellen, in plaats van \"arc set-config\".",
+	"1e0d71f7c2ca86f9": "SAMENVOEGEN",
+	"265fc525514eacf4": "$1 $2",
 	"2758e3273dd1670b": "Mislukt",
 	"2777d7d69a219394": "Gebruik niet het PHP sluitelement, `$1`.",
 	"2da600bf94048431": "Versie",
 	"302074a782b9c50a": "Bestanden moeten eindigen met een lege regel.",
+	"3255411d3e2bc059": "GEÏNSTALLEERD",
+	"32d010aa02c155a0": "BLADWIJZER",
+	"331d09f59209f297": "GECONFIGUREERD",
+	"347b1594f4999178": "Geen taken gevonden.",
+	"347cd9c53ff77d41": "$1",
 	"3b9e8bed5092ad99": "\"$1\" verwijderd.",
 	"3c3a0d761f2400ac": "Gebruik van `$1`",
 	"3ce0afb5d4dbd995": "PHP-bestanden mogen alleen PHP-code bevatten.",
