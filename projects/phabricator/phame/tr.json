@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
-			"Rapsar"
+			"Rapsar",
+			"Wooze"
 		]
 	},
 	"00376cc3bc87d6f7": "$1 altyazıyı $2 olarak ayarlardı.",
@@ -88,7 +89,7 @@
 	"474461ddfad9338c": "Taslak Gönderiler",
 	"47868c588b8ac45a": "Başlık Resmini Düzenle",
 	"49ff28de1a35dc01": "$1, bu yayın için başlık görüntüsünü değiştirdi.",
-	"4b8740062e5dde7f": "Tam etki alanı URI'si.",
+	"4b8740062e5dde7f": "Tam alan adı URI'si.",
 	"4c2c1a65174e0ed9": "Phame'de blog gönderileri oluşturma ve düzenleme yapılandırma.",
 	"4cb32aba43c98908": "$1 bu blogu oluşturdu.",
 	"4cf7f535a407c982": "Blogu tekrar toplayın.",
@@ -119,7 +120,7 @@
 	"650f11beb25aa00c": "Önceki Yazı",
 	"6762d702a162f979": "Belirtilen blog PHID (\"$1\") geçerli değil. Bir blogu yalnızca, görme ve düzenleme iznine sahip olduğunuz bir blogda yayın oluşturabilir (veya yazıya taşıyabilirsiniz).",
 	"683ff7f23bc2e689": "Bir blog yazısının yazarı her zaman onu görüntüleyebilir ve düzenleyebilir.",
-	"686a18d8794ea43c": "Etki alanı benzersiz olmalıdır; başka bir blogda zaten bu etki alanı var.",
+	"686a18d8794ea43c": "Alan adı benzersiz olmalıdır; başka bir blogda zaten bu alan adı var.",
 	"6934ceeb38844e69": "Açıklama yok.",
 	"6aaa50b25a8c6db9": "$1, bu gönderinin altyazısını \"$2\" olarak ayarladı.",
 	"6b2c627f3ab13f48": "$1, blogun tam alan adını $2'den $3'e güncelledi.",
@@ -233,7 +234,7 @@
 	"edb461be244d2290": "Nereye gidersen git, işte buradasınız.",
 	"eff01cbbeacbf1db": "$1, $2 blogunu yayınladı.",
 	"f0e501b1be38ce3c": "Tüm Yayınlar",
-	"f359318e1fd31d43": "Ana Etki Alanı",
+	"f359318e1fd31d43": "Ana Alan Adı",
 	"f41b51451b0edef8": "Bir Blog Oluştur",
 	"f4387a859d72d6a1": "$1, $2 blogunu $3 ile $4 değiştirdi.",
 	"f597b0365907aa0f": "Blog Oluşturabilir",

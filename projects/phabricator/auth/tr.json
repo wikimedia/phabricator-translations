@@ -7,7 +7,8 @@
 			"MuratTheTurkish",
 			"Pppery",
 			"SaldırganSincap",
-			"ToprakM"
+			"ToprakM",
+			"Wooze"
 		]
 	},
 	"00a64a49b8cbf97e": "$1 bu sağlayıcıyı $2 iken $3 olarak yeniden adlandırdı.",
@@ -547,7 +548,7 @@
 	"99f7ed543bf3747d": "Güvenilir",
 	"9a057126579162ab": "\"newResultFromChallengeResponse()\" öğesinin \"$1\" sınıfındaki bir nesneyi döndürmesi bekleniyor; başka bir şey var (\"$2\").",
 	"9b0b163e61d58edf": "Girişlere İzin Ver",
-	"9b10914d8b0a097a": "Etki alanı",
+	"9b10914d8b0a097a": "Alan adı",
 	"9b2864d1999902cc": "$1 ile bir pkcs8 anahtar dosyasının yolunu belirtmelisiniz.",
 	"9b39985a692a3541": "Eposta gönderildi",
 	"9b6f4cc9bd844348": "Twitch.tv",
@@ -648,7 +649,7 @@
 	"b25783a8e196a10e": "JIRA",
 	"b2e28f41e8435e87": "Kalıcı Hesap Bağlantısı",
 	"b3056d0555e10826": "$1, bu sağlayıcı için OAuth tüketici sırrını güncelledi.",
-	"b33465ca12d7b40a": "ActiveDirectory Etki Alanı",
+	"b33465ca12d7b40a": "ActiveDirectory Alan Adı",
 	"b37c5cfc5d44a034": "Çok Zayıf",
 	"b38b767e1a8df5bf": "Onay için Bekle",
 	"b3e50e23a2b43086": "Yeni bir hesap kaydetmek istiyorsanız, bu kayıt iş akışına devam edin ve yeni hesap için yeni, benzersiz bir e-posta adresi seçin.",
