@@ -19,6 +19,7 @@ final class PhabricatorAuthSms
       'LDAP Password' => 'LDAP-peittsääʹnn',
       'Username or password are incorrect.' => 'Õõʹnninõmm leʹbe peittsääʹnn lij vââǥǥlaž.',
       'Unable to connect to LDAP server (%s:%d).' => 'LDAP-serveera õhttummuš ij oʹnnstam (%s:%s).',
+      'Are you sure you want to log out?' => 'Haaʹlääk-a ton tuõđi ǩeeʹrjtõõttâd åålǥas?',
       'Forgot your password?' => 'Väjldõʹttiǩ-a ton jiijjad peittsääʹn?',
       'Login Required' => 'Õõlǥak ǩeeʹrjtõõttâd sizz',
       'Create a New Account' => 'Raaj ođđ tobdldõõǥǥ',

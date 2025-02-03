@@ -301,7 +301,7 @@ final class PhabricatorUiexampleFrFR
       'Cardamom' => 'Cardamome',
       'This is the default project profile image.' => 'Il s’agit de l’image de profil de projet par défaut.',
       'Blessed Reviewers' => 'Relecteurs bénis',
-      'Landed 1,000 Commits' => '1000 commits réalisés',
+      'Landed 1,000 Commits' => '1000 validations réalisées',
       '2 Column Fixed' => '2 colonnes fixes',
       'Pinboard Image Event' => 'Evénément d\'image du tableau de bord',
       'Highlighted' => 'Mis en évidence',

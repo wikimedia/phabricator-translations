@@ -11,8 +11,10 @@ final class PhabricatorHarbormasterLb
     return array(
       'For example:' => 'Zum Beispill:',
       'Behavior: %s' => 'Verhalen: %s',
+      'INVALID' => 'ONGÜLTEG',
       'HTTP Request' => 'HTTP Ufro',
       'Skipped' => 'Iwwersprongen',
+      'Invalid Implementation ("%s")!' => 'Ongülteg Implementéierung („%s“)!',
       'Show More Below' => 'Méi hei drënner weisen',
       'Syntax Error' => 'Syntaxfeeler',
       'Lines' => 'Linnen',

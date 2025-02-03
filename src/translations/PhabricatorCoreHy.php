@@ -15,6 +15,7 @@ final class PhabricatorCoreHy
       'November' => 'Նոյեմբեր',
       'March' => 'Մարտ',
       'Log Out' => 'Դուրս գալ',
+      'Yes' => 'Այո',
       'Projects' => 'Նախագծեր',
       'Publish' => 'Հրապարակել',
       'February' => 'Փետրվար',

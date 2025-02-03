@@ -23,6 +23,7 @@ final class PhabricatorSubscriptionsZhHant
       'You are automatically subscribed to this object.' => '您已自動訂閱此對象。',
       'Add subscribers' => '添加訂閱者',
       'Remove yourself as a subscriber.' => '將您自己從訂閱者裡移除。',
+      'View All %d Subscriber(s)' => '檢視所有 %s 訂閱者',
       'Search for objects with certain subscribers.' => '以特定訂閱者來搜尋對象。',
       'Subscribers can take this action.' => '訂閱者可執行此操作',
       'Unmute' => '取消關閉',

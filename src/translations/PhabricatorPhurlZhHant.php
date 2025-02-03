@@ -19,6 +19,7 @@ final class PhabricatorPhurlZhHant
       'Configure creation and editing forms in Phurl.' => '設置在 Phurl 的建立與編輯形式。',
       'New URL description.' => '新 URL 描述',
       '[Phurl]' => '[Phurl]',
+      'Created By' => '建立者',
       'The URL to shorten.' => '要縮短的 URL。',
       'Select a phurl...' => '選擇phurl…',
       '%s changed the destination URL from %s to %s.' => '%s 已將目的 URL 從 %s 更改成 %s。',

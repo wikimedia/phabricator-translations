@@ -36,7 +36,7 @@ final class PhabricatorTypeaheadFrFR
       'Typeahead functions are an advanced feature which allow you to build more powerful queries. This document explains functions available for the selected control.
     For general help with search, see the [[ %s | Search User Guide ]] in the documentation.
     Note that different controls support //different// functions (depending on what the control is doing), so these specific functions may not work everywhere. You can always check the help for a control to review which functions are available for that control.' => 'Les fonctions de saisie semi-automatique sont une fonctionnalité avancée qui vous permet de construire des requêtes plus puissantes. Ce document explique les fonctions disponibles pour le contrôle sélectionné.
-    Pour l’aide générale sur la recherche, consultez le [[%s|Manuel de la recherche]] dans la documentation.
+    Pour l’aide générale sur la recherche, consultez le [[ %s | Manuel utilisateur de la recherche ]] dans la documentation.
     Notez que des contrôles différents prennent en charge des fonctions //différentes// (selon ce que fait chaque contrôle), aussi ces fonctions spécifiques peuvent ne pas fonctionner partout. Vous pouvez toujours consulter l’aide sur chaque contrôle pour passer en revue quelles fonctions sont disponibles pour ce contrôle.',
       'Display Name' => 'Nom affiché',
       'This table briefly describes available functions for this control. For details on a particular function, see the corresponding section below.' => 'Ce tableau décrit brièvement les fonctions disponibles pour ce contrôle. Pour plus de détails sur une fonction particulière, consultez la section correspondante ci-dessous.',

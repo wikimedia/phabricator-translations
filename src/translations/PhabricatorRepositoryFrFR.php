@@ -39,7 +39,7 @@ final class PhabricatorRepositoryFrFR
     repository reparse --all TEST --change --min-date "today -1 day".
     e.g. do same but exclude before 03/31/2013 (local time):
     repository reparse --all TEST --change --min-date "03/31/2013"' => '**reparse** __quoi__ __quelles_parties__ [--trace] [--force]
-    Relancez l\'analyseur Diffusion sur des validations et des dépôts spécifiques. Principalement utile pour déboguer les modifications apportées à Diffusion.
+    Relance l\'analyseur Diffusion sur des validations et des dépôts spécifiques. Principalement utile pour déboguer les modifications apportées à Diffusion.
     Par exemple, réanalyser toutes les modifications de TEST, sauf celles effectuées avant hier (heure locale) :
     repository reparse --all TEST --change --min-date hier
     repository reparse --all TEST --change --min-date "today -1 day".
@@ -111,7 +111,7 @@ final class PhabricatorRepositoryFrFR
       'Cluster repository ("%s") is out of sync on this node ("%s").' => 'Le dépôt en grappe (« %s ») est désynchronisé sur ce nœud (« %s »).',
       'Create Subversion Repository' => 'Créer un dépôt Subversion',
       'TAGS' => 'BALISES',
-      'Expected to find a Git repository at "%s", but there is an empty directory there. Remove the directory. A daemon will construct the working copy for you.' => 'Un référentiel Git aurait dû se trouver à « %s », mais il y a un répertoire vide à cet endroit. Supprimez le répertoire. Un démon construira la copie de travail pour vous.',
+      'Expected to find a Git repository at "%s", but there is an empty directory there. Remove the directory. A daemon will construct the working copy for you.' => 'Un dépôt Git aurait dû se trouver à « %s » mais il y a un répertoire vide à cet endroit. Supprimez le répertoire. Un service en arrière-plan construira la copie de travail pour vous.',
       'This method is frozen and will eventually be deprecated. New code should use "diffusion.repository.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « diffusion.repository.search ».',
       'Result Name' => 'Nom de résultat',
       'bookmark' => 'signet',
@@ -128,10 +128,10 @@ final class PhabricatorRepositoryFrFR
       'Create a new Mercurial repository.' => 'Créer un nouveau dépôt Mercurial.',
       'A copy of any changes will be pushed to this URI.' => 'Une copie de toute modification sera envoyée à cette URI.',
       'Expression "%s" is not a valid regular expression. Note that you must include delimiters.' => 'La chaîne « %s » n’est pas une expression rationnelle valide. Notez que vous devez inclure les délimiteurs.',
-      'Queue tasks for the daemons instead of running them in the foreground.' => 'Mettre les tâches en file d’attente pour les démons au lieu de les exécuter au premier plan.',
+      'Queue tasks for the daemons instead of running them in the foreground.' => 'Met les tâches en file d’attente dans les services en arrière-plan au lieu de les exécuter au premier plan.',
       'Dst' => 'Dest.',
       'Commit "%s" has not been discovered yet! Run discovery before updating refs.' => 'La validation « %s » n’a pas encore été découverte ! Exécutez la découverte avant de mettre à jour les références.',
-      'Expected to find a Git repository at "%s", but there is a file there instead. Move or remove this file. A daemon will construct the working copy for you.' => 'Un référentiel Git était attendu à « %s », mais il y a un fichier à la place. Déplacez ou supprimez ce fichier. Un démon construira la copie de travail pour vous.',
+      'Expected to find a Git repository at "%s", but there is a file there instead. Move or remove this file. A daemon will construct the working copy for you.' => 'Un dépôt Git était attendu à « %s » mais il y a un fichier à la place. Déplacez ou supprimez ce fichier. Un service en arrière-plan construira la copie de travail pour vous.',
       'Missing commits (%s) in a SVN repository which is not configured for subdirectory-only parsing!' => 'Validations manquantes (%s) dans un dépôt SVN qui n’est pas configuré pour l’analyse de seulement les sous-répertoires !',
       '%s changed the filesize limit for this repository from %s bytes to %s bytes.' => '%s a modifié la limite de taille maximale des fichiers pour ce dépôt de %s octets à %s octets.',
       'Starting update for repository "%s".' => 'Démarrage de la mise à jour pour le dépôt « %s ».',
@@ -391,7 +391,7 @@ final class PhabricatorRepositoryFrFR
       'Parsing "%s"...' => 'Analyse de « %s »...',
       'Pull Event %d' => 'Événement d\'extraction %s',
       'Accept the possibility of permanent data loss?' => 'Accepter la possibilité d’une perte permanente de données ?',
-      'Expected to find a Git repository at "%s", but there is a non-repository directory (with other stuff in it) there. Move or remove this directory. A daemon will construct the working copy for you.' => 'Un référentiel Git aurait dû se trouver à « %s », mais il y a un répertoire non lié à un dépôt (avec d’autres éléments dedans). Déplacez ou supprimez ce répertoire. Un démon construira la copie de travail pour vous.',
+      'Expected to find a Git repository at "%s", but there is a non-repository directory (with other stuff in it) there. Move or remove this directory. A daemon will construct the working copy for you.' => 'Un dépôt Git aurait dû se trouver à « %s » mais il y a un répertoire non lié à un dépôt (avec d’autres éléments dedans). Déplacez ou supprimez ce répertoire. Un service en arrière-plan construira la copie de travail pour vous.',
       'The associated credential PHID, if one exists.' => 'Le PHID d’identification associé, s’il en existe un.',
       '%s Commit(s)' => '%s validation{{PLURAL:||s}}',
       'The Almanac service for this repository does not have the correct service type.' => 'Le service Almanac pour ce dépôt n’a pas le bon type de service.',
@@ -685,7 +685,7 @@ final class PhabricatorRepositoryFrFR
       'Path "%s" is not unknown.' => 'Le chemin « %s » est inconnu.',
       'Repository "%s" has versions on inactive devices. Demote (or reactivate) these devices before promoting a new leader: %s.' => 'Le dépôt « %s » contient des versions sur des appareils inactifs. Dégradez (ou réactivez) ces appareils avant de promouvoir un nouveau maître : %s.',
       'True if the URI is disabled.' => 'Vrai si l’URI est désactivée.',
-      'Expected to find a Git repository at "%s", but the actual Git repository root for this directory is "%s". Something is misconfigured. This directory should be writable by the daemons and not inside another Git repository.' => 'Un dépôt Git était attendu se trouver à « %s », mais la racine réelle du dépôt Git pour ce répertoire est « %s ». Quelque chose est mal configuré. Ce répertoire doit être accessible en écriture par les démons et pas à l’intérieur d’un autre dépôt Git.',
+      'Expected to find a Git repository at "%s", but the actual Git repository root for this directory is "%s". Something is misconfigured. This directory should be writable by the daemons and not inside another Git repository.' => 'Un dépôt Git était attendu à « %s » mais la racine réelle du dépôt Git pour ce répertoire est « %s ». Quelque chose est mal configuré. Ce répertoire doit être accessible en écriture par les services en arrière-plan et pas à l’intérieur d’un autre dépôt Git.',
       'The callsign "%s" is not a valid repository callsign. Callsigns must be no more than 32 bytes long.' => 'L’indicatif « %s » n’est pas un indicatif de dépôt valide. Les indicatifs ne doivent pas dépasser 32 octets.',
       'Unable to lock repository "%s": only clustered repositories may be locked.' => 'Impossible de verrouiller le dépôt « %s » : seuls les dépôts en grappe peuvent être verrouillés.',
       '[Push]' => '[Pousser]',

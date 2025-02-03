@@ -25,7 +25,7 @@ final class PhabricatorSettingsFrFR
       'Email Notifications' => 'Notifications par courriel',
       'Show Unified Diffs' => 'Affichage unifié des différences',
       'Diff Preferences' => 'Préférences des différences',
-      'Saturday' => 'Samedi',
+      'Saturday' => 'samedi',
       'Change Primary Address' => 'Changer l’adresse principale',
       'Send Stamps' => 'Horodatages d’envoi',
       'Show Older Inlines' => 'Déplacement des anciens commentaires',
@@ -40,9 +40,9 @@ final class PhabricatorSettingsFrFR
     | Setting                | Example Mail Subject
     |------------------------|----------------
     | Enable "Re:" Prefix  | `Re: [Differential] [Accepted] D123: Example Revision`
-    | Disable "Re:" Prefix | `[Differential] [Accepted] D123: Example Revision`' => 'La paramètre **Ajouter le préfixe « Re: »** ajoute « Re: » en tête de tous les messages, même s’ils ne sont pas des réponses. Si vous utilisez **Mail.app** sur Mac OS X, ceci peut améliorer le suivi en fil des courriels.
+    | Disable "Re:" Prefix | `[Differential] [Accepted] D123: Example Revision`' => 'La paramètre **Ajouter le préfixe « Re: »** ajoute « Re: » en tête de tous les messages, même s’ils ne sont pas des réponses. Si vous utilisez **Mail.app** sur Mac OS X, ceci peut améliorer les fils de discussion.
       | Paramètre                     | Exemple de sujet de courriel
-      |-------------------------------|----------------------------------------------------------
+      |-------------------------------|-----------------------------
       | Activer le préfixe « Re: »    | `Re: [Différentiel] [Accepté] D123 : exemple de révision`
       | Désactiver le préfixe « Re: » | `[Différentiel] [Accepté] D123 : exemple de révision`',
       'No settings panels are available.' => 'Aucun panneau de paramètres n’est disponible.',
@@ -58,12 +58,12 @@ final class PhabricatorSettingsFrFR
     |----------------------|----------------
     | Vary Subjects        | `[Maniphest] [Closed] T123: Example Task`
     | Do Not Vary Subjects | `[Maniphest] T123: Example Task`
-    This can make mail more useful, but some clients have difficulty threading these messages. Disabling this option may improve threading at the cost of making subject lines less useful.' => 'Avec **Varier les sujets** activé, la plupart des lignes de sujet de courriel incluront une brève description de leur contenu, telle que `[Fermé]` pour une notification quand quelqu’un ferme une tâche.
+    This can make mail more useful, but some clients have difficulty threading these messages. Disabling this option may improve threading at the cost of making subject lines less useful.' => 'Avec l\'option **Vary Subjects** (varier les sujets) activée, la plupart des lignes de sujet de courriel incluront une brève description de leur contenu, telle que `[Closed]` (fermée) pour une notification quand quelqu’un ferme une tâche.
       | Paramètre                | Exemple de sujet de courriel
       |--------------------------|----------------------------------------------
       | Varier les sujets        | `[Maniphest] [Fermé] T123 : exemple de tâche`
       | Ne pas varier les sujets | `[Maniphest] T123 : exemple de tâche`
-    Ceci peut rendre les courriels plus utiles, mais certains clients ont des difficultés à garder le fil de ces messages. La désactivation de cette option peut améliorer le suivi des fils au prix de rendre les lignes de sujet moins utiles.',
+    Ceci peut rendre les courriels plus pratiques, mais certains clients ont des difficultés à suivre le fil de ces messages. La désactivation de cette option peut améliorer les fils de discussion au prix de rendre les lignes des sujets moins pratiques.',
       'Value "%s" is not valid for setting "%s": valid values are %s.' => 'La valeur « %s » n’est pas valide pour le réglage « %s » : les valeurs valides sont %s.',
       'Extra Settings' => 'Paramètres supplémentaires',
       'Are you sure you want to delete this address? You will no longer be able to use it to login.' => 'Êtes-vous sûr{{GENDER:||}} de vouloir supprimer cette adresse ? Vous ne pourrez plus l’utiliser pour vous connecter.',
@@ -130,8 +130,8 @@ final class PhabricatorSettingsFrFR
     in an `X-Phabricator-Stamps` header.
     If you use a client which can not use headers to route mail (like Gmail),
     you can also include the stamps in the message body so mail rules based on
-    body content can route messages.' => 'Le courrier sortant est marqué avec des étiquettes telles que « actor(alice) » qui peuvent être utilisées pour écrire des règles de courrier client pour organiser le courrier. Par défaut, ces marquages sont envoyés dans un en-tête « X-Phabricator-Stamps ».
-    Si vous utilisez un client qui ne peut pas utiliser d\'en-têtes pour router le courrier (comme Gmail), vous pouvez également inclure les marquages dans le corps du message afin que les règles de courrier basées sur le contenu du corps puissent router les messages.',
+    body content can route messages.' => 'Le courrier sortant est marqué avec des étiquettes telles que « actor(alice) » qui peuvent être utilisées pour écrire des règles de courrier client pour organiser le courrier. Par défaut, ces marquages sont envoyés dans un entête « X-Phabricator-Stamps ».
+    Si vous utilisez un client qui ne peut pas utiliser d\'entêtes pour router le courrier (comme Gmail), vous pouvez également inclure les marquages dans le corps du message afin que les règles de courrier basées sur le contenu du corps puissent router les messages.',
       'Your browser timezone (%s) differs from your profile timezone (%s). You can adjust your profile setting to match your browser, or ignore this conflict to keep your current profile setting.' => 'Le fuseau horaire de votre navigateur (%s) est différent du fuseau horaire de votre profil (%s). Vous pouvez ajuster le paramétrage de votre profil pour qu\'il corresponde à votre navigateur ou ignorer ceci en gardant le paramétrage actuel de votre profil.',
       'The dialog asking for permission to send desktop notifications was closed without granting permission. Only application notifications will be sent.' => 'Le dialogue qui vous demander la permission d’envoyer des notifications de bureau a été fermé sans accorder la permission. Seules les notifications d’applications seront envoyées.',
       'Really delete address \'%s\'?' => 'Supprimer réellement l’adresse « %s » ?',
@@ -154,14 +154,14 @@ final class PhabricatorSettingsFrFR
     | Notify | You will receive an unread notification only.
     | Ignore | You will receive nothing.
     If an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.
-    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'Vous pouvez ajuster ici les **Paramètres d’application** pour régler quand vous serez notifié ou vous recevrez des courriels.
+    These preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'Vous pouvez ajuster ici les **Paramètres d’application** pour personnaliser le moment où vous recevrez des courriels et notifications
       | Paramètre | Effet
       |-----------|------------------------------------------------------------------------------------------------
-      | Courriel  | Vous recevrez un courriel et une notification, mais la notification sera marquée comme « lue ».
-      | Notifier  | Vous ne recevrez qu’une notification non lue.
-      | Ignorer   | Vous ne recevrez rien.
-    Si une mise à jour effectue plusieurs changements  (comme ajouter des destinataires de copie à une tâche, la fermer et ajouter un commentaire), vous recevrez la notification la plus forte parmi tout les changements configurés comme à livrer.
-    Ces préférences ne s’appliquent **qu’aux seuls** objets auxquels vous êtes connecté (par exemple, les révisions dont vous étiez un relecteur ou les tâches où vous êtes un destinataire de copie). Pour recevoir des alertes par courriel quand d’autres objets sont créés, configurez les [[/herald/|Règles Herald]].',
+      | Email  | Vous recevrez un courriel et une notification, mais la notification sera marquée comme « lue ».
+      | Notify  | Vous ne recevrez qu’une notification non lue.
+      | Ignore   | Vous ne recevrez rien.
+    Si une mise à jour effectue plusieurs changements  (comme ajouter des destinataires en copie à une tâche, la fermer et ajouter un commentaire), vous recevrez la notification la plus forte parmi tous les changements configurés comme à livrer.
+    Ces préférences ne s’appliquent **qu’aux seuls** objets auxquels vous êtes connecté (par exemple, les révisions dont vous étiez un relecteur ou les tâches où vous êtes un destinataire en copie). Pour recevoir des alertes par courriel quand d’autres objets sont créés, configurez les [[ /herald/ | Règles Herald ]].',
       'You must enter your current password.' => 'Vous devez entrer votre mot de passe actuel.',
       'Europe: 28-02-2000' => 'Europe : 28-02-2000',
       'The old password you entered is incorrect.' => 'L’ancien mot de passe que vous avez fourni est incorrect.',
@@ -208,7 +208,7 @@ final class PhabricatorSettingsFrFR
       'Account Setup Issues' => 'Problèmes d’installation de compte',
       'Authentication Factors' => 'Phases d’authentification',
       'Web and Desktop' => 'Web et bureau',
-      'Sunday' => 'Dimanche',
+      'Sunday' => 'dimanche',
       'US: 2/28/2000' => 'États-Unis : 2/28/2000',
       'External Editor URI Variables' => 'Variables de l’URI de l’éditeur externe',
       'User Guide: Configuring an External Editor' => 'Manuel utilisateur : configurer un éditeur externe',
@@ -228,7 +228,7 @@ final class PhabricatorSettingsFrFR
       'Choose the default sound behavior for new Conpherence rooms.' => 'Choisissez le comportement par défaut du son dans les nouvelles salles de Conpherence.',
       'Policy Favorites' => 'Politiques favorites',
       'Conpherence Notifications' => 'Notifications de Conpherence',
-      'Friday' => 'Vendredi',
+      'Friday' => 'vendredi',
       'Timezone "%s" is not a valid timezone identifier.' => 'Le fuseau « %s » n’est pas un identifiant valide de fuseau horaire.',
       'Select your local timezone.' => 'Sélectionnez votre fuseau horaire local.',
       'Note: Removing an email address from your account will invalidate any outstanding password reset links.' => 'Note : le retrait d’une adresse de courriel de votre compte invalidera tous les liens de réinitialisation de mot de passe en attente.',

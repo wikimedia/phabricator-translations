@@ -121,7 +121,7 @@ final class PhabricatorSearchFrFR
       'Not all cats can retract their claws, but most of them can.' => 'Tous les chats ne peuvent pas rétracter leurs griffes, mais la plupart d’entre eux le peuvent.',
       'Restricted Dashboard' => 'Tableau de bord restreint',
       'Invalid Dashboard' => 'Tableau de bord non valide',
-      'Run this workflow with "--background" to queue tasks for the daemon workers.' => 'Exécuter ce flux de travail avec « --background » pour mettre les tâches en file d’attente pour les travailleurs du démon en tâche de fond.',
+      'Run this workflow with "--background" to queue tasks for the daemon workers.' => 'Exécutez ce flux de travail avec « --background » pour mettre les tâches en file d’attente pour les travailleurs des services en arrière-plan.',
       'This is a visual divider which you can use to separate sections in the menu. It does not have any configurable options.' => 'Il s’agit d’un séparateur visuel que vous pouvez utiliser pour séparer des sections du menu. Il n’a aucune option configurable.',
       'Room "%s" is not a valid room which you have permission to see.' => 'La salle « %s » n\'est pas une salle valide que vous avez la permission de voir.',
       'Open Documents' => 'Documents ouverts',
@@ -555,7 +555,7 @@ final class PhabricatorSearchFrFR
       'Resetting common ngrams for "%s".' => 'Réinitialisation des n-grammes communs pour « %s ».',
       'Minimum page size for API searches is 1, but this call specified %s.' => 'La taille de page minimale pour les recherches d\'API est 1, mais cet appel a spécifié %s.',
       'Export Results' => 'Exporter les résultats',
-      'To configure the search engines, edit [[ %s | %s ]] configuration. See **[[ %s | %s ]]** for documentation.' => 'Pour configurer les moteurs de recherche, modifiez la configuration de [[%s|%s]]. Voir ** [[%s|%s]] ** pour la documentation.',
+      'To configure the search engines, edit [[ %s | %s ]] configuration. See **[[ %s | %s ]]** for documentation.' => 'Pour configurer les moteurs de recherche, modifiez la configuration de [[ %s | %s ]]. Voir **[[ %s | %s ]]** pour la documentation.',
       'All Fulltext Search hosts failed:' => 'Tous les hôtes de recherche en texte intégral ont échoué :',
       'All Objects' => 'Tous les objets',
       'Dashboard "%s" is not a valid dashboard which you have permission to see.' => 'Le tableau de bord «%s» n’est pas un tableau de bord valide que vous avez la permission de consulter.',
@@ -621,7 +621,7 @@ final class PhabricatorSearchFrFR
       'Not Defaultable' => 'Non définissable par défaut',
       'Really Delete Query?' => 'Voulez-vous vraiment supprimer la requête ?',
       'Query offset is too large. offset+limit=%s (max=%s)' => 'Le décalage de la requête est trop grand : décalage + limite = %s (maximum = %s)',
-      'Instead of indexing in this process, queue tasks for the daemons. This can improve performance, but makes it more difficult to debug search indexing.' => 'Au lieu d’indexer dans ce processus, mettez les tâches en file d’attente pour les démons qui s’exécutent en arrière-plan. Cela peut améliorer les performances, mais rend plus difficile le débogage de l’indexation pour la recherche.',
+      'Instead of indexing in this process, queue tasks for the daemons. This can improve performance, but makes it more difficult to debug search indexing.' => 'Au lieu d’indexer dans ce processus, met les tâches en file d’attente dans les services en arrière-plan. Cela peut améliorer les performances mais rend plus difficile le débogage de l’indexation pour la recherche.',
       'Edit Queries...' => 'Modifier les requêtes...',
       'You can choose a low-level column order instead. To do this, provide a list
     of columns instead of a single key. This is an advanced feature.

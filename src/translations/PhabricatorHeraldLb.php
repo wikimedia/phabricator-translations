@@ -11,7 +11,10 @@ final class PhabricatorHeraldLb
     return array(
       'Disabled Rules' => 'Desaktivéiert Reegelen',
       'Enable Rule' => 'Reegel aktivéieren',
+      'Invalid Condition' => 'Ongülteg Bedingung',
       'true' => 'wouer',
+      'Save Rule' => 'Reegel späicheren',
+      'Invalid Object' => 'Ongültegen Objet',
       'false' => 'falsch',
       '%s (Disabled)' => '%s (Desaktivéiert)',
       'Field: %s' => 'Feld: %s',

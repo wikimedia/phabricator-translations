@@ -64,7 +64,7 @@ final class PhabricatorPeopleFrFR
       'Relationships' => 'Relations',
       'Username and email must be unique.' => 'Le nom d’utilisateur et l’adresse de courriel doivent chacun être uniques.',
       '%s sent this user a test notification.' => '%s a envoyé à cet utilisateur une notification de test.',
-      'The email will identify you as the sender. You may optionally replace the [[ %s | default custom mail body ]] with different text by providing a message below.' => 'Ce courriel vous identifiera en tant qu’expéditeur. Vous pouvez éventuellement remplacer le [[%s|corps du courriel par défaut]] par le texte de votre choix en fournissant un message ci-dessous.',
+      'The email will identify you as the sender. You may optionally replace the [[ %s | default custom mail body ]] with different text by providing a message below.' => 'Ce courriel vous identifiera en tant qu’expéditeur. Vous pouvez éventuellement remplacer le [[ %s | corps du courriel par défaut]] par un texte différent en fournissant un message ci-dessous.',
       'User has already been created!' => 'Le compte d’utilisateur a déjà été créé !',
       'Only administrators can disapprove users.' => 'Seuls les administrateurs peuvent désapprouver des utilisateurs.',
       'You can use this link to set a password on your account:
@@ -221,7 +221,7 @@ final class PhabricatorPeopleFrFR
       'User has no primary email address!' => 'L’utilisateur ou l’utilisatrice n’a aucune adresse de courriel principale !',
       '%s renamed this user from %s to %s.' => '%s a renommé cet utilisateur ou cette utilisatrice de %s en %s.',
       'This is now your primary email address (%s). Going forward, all email will be sent here.' => 'Il s’agit maintenant de votre adresse de courriel principale (%s). Dorénavant, tous les courriels y seront envoyés.',
-      'Choose the type of user account to create. For a detailed explanation of user account types, see [[ %s | User Guide: Account Roles ]].' => 'Choisissez le type de compte utilisateur à créer. Pour une explication détaillée des types de compte utilisateur, voir [[%s|Guide de l\'utilisateur : rôles de compte]].',
+      'Choose the type of user account to create. For a detailed explanation of user account types, see [[ %s | User Guide: Account Roles ]].' => 'Choisissez le type de compte utilisateur à créer. Pour une explication détaillée des types de compte utilisateur, voir [[ %s | Guide de l\'utilisateur : rôles des comptes ]].',
       'Approve the user.' => 'Approuver l’utilisateur ou l’utilisatrice.',
       'Another user already has the username "%s".' => 'Un autre utilisateur est déjà nommé « %s ».',
       'Recent Revisions' => 'Versions récentes',
@@ -285,7 +285,7 @@ final class PhabricatorPeopleFrFR
       - Some internal authentication functions depend on accounts     having an email address.
     The address will automatically be verified, so you do not need to be able to receive mail at this address, and can enter some invalid or nonexistent (but correctly formatted) address like `bot@yourcompany.com` if you prefer.' => '**Pourquoi les comptes de robot ont-ils besoin d’une adresse de courriel ?**
     Bien que les robots ne reçoivent normalement aucun courriel, ils peuvent interagir avec d’autres systèmes nécessitant une adresse de courriel. Par exemple :
-      – si le compte entreprend des actions qui //envoient// un courriel, nous avons besoin d’une adresse à utiliser dans l’en-tête //De// ;
+      – si le compte entreprend des actions qui //envoient// un courriel, nous avons besoin d’une adresse à utiliser dans l’entête //De// ;
       – si le compte crée des validations, Git et Mercurial exigent une adresse de courriel pour la paternité.
       – si vous envoyez un courriel //à// ce serveur au nom du compte, l’adresse peut identifier l’expéditeur.
       – certaines fonctions d’authentification internes dépendent de comptes ayant une adresse de courriel.
@@ -356,10 +356,8 @@ final class PhabricatorPeopleFrFR
       'Log Out %s' => 'Déconnexion de %s',
       'List of custom fields for user profiles.
     For details on adding new fields, see [[ %s | %s ]] in the
-    documentation.' => 'Liste des champs personnalisés pour les profils d\'utilisateurs
-    .
-    Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la
-    documentation',
+    documentation.' => 'Liste des champs personnalisés pour les profils d\'utilisateurs.
+    Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la documentation.',
       'Configure creation and editing forms for users.' => 'Configurer les formulaires de création et de modification pour les utilisateurs.',
       'Re-enable specified users (admin only).' => 'Réactiver les utilisateurs spécifiés (administrateur uniquement).',
       '    Username: %s' => 'Nom d’utilisateur : %s',

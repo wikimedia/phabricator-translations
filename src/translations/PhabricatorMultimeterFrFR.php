@@ -19,7 +19,10 @@ final class PhabricatorMultimeterFrFR
       'Rate' => 'Taux',
       '%s Req' => '%s req',
       'Multimeter User Guide' => 'Manuel d’utilisation de Multimètre',
-      '%s Unit(s)' => '%s unité(s)',
+      '%s Unit(s)' => array(
+        '%s unité',
+        '%s unités',
+      ),
       'By Request' => 'Par requête',
       'By Host' => 'Par hôte',
       'Trying to unpause an active multimeter!' => 'Tentative de reprise d’un multimètre déjà actif !',

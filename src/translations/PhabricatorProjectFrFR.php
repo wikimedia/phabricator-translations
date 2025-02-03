@@ -125,8 +125,8 @@ final class PhabricatorProjectFrFR
       'Active Triggers' => 'Déclencheurs actifs',
       'Unknown project status \'%s\'!' => 'Etat inconnu de projet \'%s\' !',
       'Creating a project\'s first subproject **moves all members** to become members of the subproject instead.
-    See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.' => 'La création du premier sous-projet du projet **déplace tous les membres** pour devenir plutôt membres du sous-projet.
-    Consultez le [[%s|Guide d’utilisation des projets]] dans la documentation pour plus de détails. Ce processus ne peut pas être défait.',
+    See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.' => 'La création du premier sous-projet du projet **déplace tous les membres** pour qu\'ils deviennent membres du sous-projet.
+    Consultez le [[ %s | Guide d’utilisation des projets ]] dans la documentation pour plus de détails. Ce processus ne peut pas être annulé.',
       'Parent' => 'Parent',
       'You are already watching %s, an ancestor of this project, and are thus watching all of its subprojects.' => 'Vous suivez déjà le projet %s, ainsi qu\'un ancêtre de ce projet, donc vous suivez tous ses sous-projets.',
       'New Empty Board' => 'Nouveau tableau de bord vide',
@@ -723,7 +723,7 @@ final class PhabricatorProjectFrFR
       'Expected "newSortVectorsForObjects()" on "%s" to return a map of vectors, but got "%s".' => 'Attendait que « newSortVectorsForObjects() » sur « %s » renvoie une correspondance de vecteurs de tri, mais « %s » a été obtenu.',
       'List of custom fields for project tags.
     For details on adding new fields, see [[ %s | %s ]] in the
-    documentation.' => 'Liste des champs personnalisés pour les étiquettes de projet.
+    documentation.' => 'Liste des champs personnalisés pour les balises de projet.
     Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la documentation.',
       'Workboard: %s' => 'Tableau de bord : %s',
       'Tasks completed this %s: %d' => 'Tâches terminées ce %s : %s',

@@ -75,7 +75,7 @@ final class PhabricatorAuthFrFR
       'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Avant d’utiliser ce logiciel, vous devez ajouter une authentification multi-facteurs à votre compte. Celle-ci permet de le sécuriser en rendant plus difficile son accès et la réalisation d’actions sensibles aux attaquants.',
       'Session has already signed required legalpad documents!' => 'La session a déjà signé les documents Legalpad nécessaires !',
       'On the plus side, that purple notification bubble will disappear.' => 'Du côté positif, cette bulle pourpre de notification disparaîtra.',
-      'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'Ce compte (« %s ») ne peut pas établir de sessions web, il n’est donc pas possible de générer un lien de récupération fonctionnel. Les comptes spéciaux comme les services d’arrière-plan et les listes de diffusion ne peuvent se connecter via l’interface utilisateur sur le web.',
+      'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'Ce compte (« %s ») ne peut pas établir de sessions web, il n’est donc pas possible de générer un lien de récupération fonctionnel. Les comptes spéciaux comme les services en arrière-plan et les listes de diffusion ne peuvent se connecter via l’interface utilisateur sur le web.',
       'Revoke credentials of the given type.' => 'Révoquer les certificats du type fourni.',
       'This private key is not formatted correctly. Check that you have provided the complete text of a valid private key.' => 'Cette clé privée n’est pas bien formatée. Vérifiez que vous avez fourni le texte complet d’une clé privée valide.',
       'Expected valid JSON response from Disqus account data request.' => 'Réponse JSON valide attendue de la demande de données de compte Disqus.',
@@ -150,7 +150,7 @@ final class PhabricatorAuthFrFR
       'Your account has no primary contact number.' => 'Votre compte n’a pas de principal numéro de contact.',
       'JIRA base URI is required.' => 'L’URI de base de JIRA est obligatoire.',
       'Config Locked' => 'Configuration verrouillée',
-      'Attempted to set \'%s\' cookie to \'%s\', but your browser sent back a cookie with the value \'%s\'. Clear your browser\'s cookies and try again.' => 'La fixation du témoin « %s » à la valeur « %s » a été tentée, mais votre navigateur a renvoyé un témoin de valeur « %s ». Nettoyez les témoins (\'\'cookies\'\') dans votre navigateur et essayez à nouveau.',
+      'Attempted to set \'%s\' cookie to \'%s\', but your browser sent back a cookie with the value \'%s\'. Clear your browser\'s cookies and try again.' => 'Tentative pour mettre le cookie « %s » à la valeur « %s »  mais votre navigateur a renvoyé la valeur « %s ». Effacer les cookies de votre navigateur et essayez à nouveau.',
       'Recover directly into a full session without requiring MFA or other login checks.' => 'Récupérer directement dans une session complète, sans exiger de vérifications de connexion par MFA ou autres moyens.',
       'Always bind and search, even without a username and password.' => 'Toujours lier et rechercher, même sans nom d’utilisateur et mot de passe.',
       'Skipping, provider is not enabled or does not exist.' => 'Sauter, le fournisseur n’est pas activé ou n’existe pas.',
@@ -285,7 +285,7 @@ final class PhabricatorAuthFrFR
     Créez une application, puis réglez ces paramètres :
       - **URL de rappel :** La mettre à `%s`
     Après avoir créé une application, copiez la **Clé publique** et la **Clé secrète** dans les champs ci-dessus (la **Clé publique** va dans **OAuth App ID**).',
-      'Special users like daemons and mailing lists are not permitted to log in via the web. Log in as a normal user instead.' => 'Les utilisateurs spéciaux comme les démons et les listes de diffusion ne sont pas autorisés à se connecter via le web. Connectez-vous comme un utilisateur normal à la place.',
+      'Special users like daemons and mailing lists are not permitted to log in via the web. Log in as a normal user instead.' => 'Les utilisateurs spéciaux comme les services en arrière-plan et les listes de diffusion ne sont pas autorisés à se connecter via Internet. Connectez-vous comme un utilisateur normal à la place.',
       'Login Screen Instructions' => 'Instructions de l\'écran de connexion',
       'Mail Body: Welcome' => 'Corps du courriel : Bienvenue',
       'Revoke Token?' => 'Révoquer le jeton ?',
@@ -376,7 +376,7 @@ final class PhabricatorAuthFrFR
       'Send SMS' => 'Envoyer un SMS',
       '%s disabled this provider.' => '%s a désactivé ce fournisseur.',
       'Not Installed' => 'Pas installé',
-      'Your browser did not submit a "%s" cookie with client state information in the request. Check that cookies are enabled. If this problem persists, you may need to clear your cookies.' => 'Votre navigateur n’a pas soumis un cookie « %s » avec les informations d’état du client dans la requête. Vérifiez que les cookies sont activés. Si le problème persiste, vous devrez nettoyer vos cookies.',
+      'Your browser did not submit a "%s" cookie with client state information in the request. Check that cookies are enabled. If this problem persists, you may need to clear your cookies.' => 'Votre navigateur n’a pas soumis un cookie « %s » avec les informations d’état du client dans la requête. Vérifiez que les cookies sont activés. Si le problème persiste, vous devrez peut-être effacer vos cookies.',
       'Found %s account(s) to refresh.' => '%s compte(s) trouvé(s) devant être mis à jour.',
       'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.' => 'Vous n’avez pas encore activé cette inscription sur l’application Duo de votre téléphone. Réalisez l’activation, puis cliquez sur continuer.',
       'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.' => 'Ce facteur a récemment causé des problèmes à une session de connexion différente. Attendez %s seconde(s) que le code se répète, puis essayez à nouveau.',
@@ -551,7 +551,7 @@ final class PhabricatorAuthFrFR
       'Your Duo account ("%s") has not completed Duo enrollment. Check your email and complete enrollment to continue.' => 'Votre compte Duo (« %s ») n’a pas complété l’inscription de Duo. Veuillez vérifier vos courriels et compléter l’inscription pour continuer.',
       'Locked the authentication provider configuration.' => 'Configuration du fournisseur d’authentification verrouillée.',
       'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Spécifier la cible pour laquelle révoquer les certificats avec « --from », ou spécifier « --everywhere », mais pas les deux.',
-      'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Votre navigateur a soumis une clé d’inscription différente de celle associée avec ce compte. Vous devez peut-être supprimer vos cookies.',
+      'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Votre navigateur a soumis une clé d’inscription différente de celle associée avec ce compte. Vous devez peut-être effacer vos cookies.',
       'Log in to %s' => 'Connexion à %s',
       'Make Primary Number' => 'Désigner comme numéro primaire',
       'Strip factors from all users.' => 'Éliminer les facteurs de tous les utilisateurs.',
@@ -614,9 +614,9 @@ final class PhabricatorAuthFrFR
       'Leaving High Security' => 'Quitter la haute sécurité',
       'Consumer key is required.' => 'La clé du consommateur est requise.',
       'Username or password are incorrect.' => 'Le nom d’utilisateur ou le mot de passe n’est pas correct.',
-      'Attempted to set \'%s\' cookie to \'%s\', but your browser did not accept the cookie. Check that cookies are enabled, clear them, and try again.' => 'Tentative de mettre le cookie \'%s\' à \'%s\', mais votre navigateur n’a pas accepté le cookie. Vérifiez que les cookies sont activés, nettoyez-les, et réessayez.',
+      'Attempted to set \'%s\' cookie to \'%s\', but your browser did not accept the cookie. Check that cookies are enabled, clear them, and try again.' => 'Tentative de mettre le cookie \'%s\' à \'%s\' mais votre navigateur n’a pas accepté le cookie. Vérifiez que les cookies sont activés, effacez-les puis réessayez.',
       'Unable to load Duo API credential ("%s").' => 'Impossible de charger les paramètres de connexion de  l\'API Duo (« %s »).',
-      'The authentication provider did not return a client state parameter in its response, but one was expected. If this problem persists, you may need to clear your cookies.' => 'Le fournisseur d’authentification n’a pas renvoyé de paramètre d’état du client dans sa réponse, et il était attendu. Si ce problème persiste, vous devrez supprimer vos cookies.',
+      'The authentication provider did not return a client state parameter in its response, but one was expected. If this problem persists, you may need to clear your cookies.' => 'Le fournisseur d’authentification n’a pas renvoyé de paramètre d’état du client dans sa réponse alors qu\'il était attendu. Si ce problème persiste, vous devrez peut-être effacer vos cookies.',
       'One-Time Login' => 'Connexion unique',
       'NOTE: This provider **only supports JIRA 6**. It will not work with JIRA 5 or earlier.' => 'NOTE : ce fournisseur **prend en charge uniquement JIRA 6**. Il ne fonctionnera pas avec JIRA 5 ou antérieur.',
       'SSH key name is required.' => 'Le nom de la clé SSH est requis.',
@@ -1061,7 +1061,7 @@ final class PhabricatorAuthFrFR
     You have successfully configured multi-factor authentication for your account.
     You can make adjustments from the [[ /settings/ | Settings ]] panel later.' => '{icône vérifiée, couleur = « vert »} **Installation Terminée !**
     Vous avez configuré avec succès l’authentification multifactorielle sur votre compte.
-    Vous pourrez faire des ajustements sur le panneau des [[/settings/|Paramètres]] plus tard.',
+    Vous pourrez faire des ajustements sur le panneau des [[ /settings/ | Paramètres ]] plus tard.',
       'Allow users to log in or register using a username and password.' => 'Permettre aux utilisateurs de se connecter ou de s’inscrire en utilisant un nom d’utilisateur et un mot de passe.',
       'Your remote address has made too many login attempts in a short period of time.' => 'Votre adresse distante a effectué trop de tentatives de connexion durant une courte période de temps.',
       '%s enabled this contact number.' => '%s a activé ce numéro de contact.',
@@ -1069,7 +1069,7 @@ final class PhabricatorAuthFrFR
       'Default Message' => 'Message par défaut',
       'Guidance in the message body when users request an email link to access their account.' => 'Instructions dans le corps du message lorsque des utilisateurs demandent un lien envoyé par courriel pour accéder à leur compte.',
       'Refresh %s Account' => 'Mise à jour du compte %s',
-      'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => 'Le cookie de connexion a bien été mis, mais votre session de connexion n’est pas valide. Essayez de nettoyer les cookies et de vous reconnecter.',
+      'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => 'Le cookie de connexion a bien été mis mais votre session de connexion n’est pas valide. Essayez d\'effacer vos cookies et de vous reconnecter.',
       'Allow users to attach a mobile authenticator application (like Google Authenticator) to their account.' => 'Autoriser les utilisateurs à lier une application d’authentification mobile (comme Google Authenticator) à leur compte.',
       'MFA Sync' => 'Synchronisation MFA',
       'Password Hash Algorithms' => 'Algorithmes de hachage des mots de passe',
@@ -1098,13 +1098,13 @@ final class PhabricatorAuthFrFR
       '= Integration Options = 
     Configure how to record Revisions on JIRA tasks.
     Note you\'ll have to restart the daemons for this to take effect.' => '= Options d’intégration = 
-    Configurer comment enregistrer les Révisions sur les tâches JIRA.
-    Note : Vous aurez à redémarrer les démons pour que cela prenne effet.',
+    Configurez comment enregistrer les Révisions sur les tâches JIRA.
+    Note : vous aurez à redémarrer les services en arrière-plan pour que cela prenne effet.',
       'Credential ("%s") is not valid.' => 'L’accréditation (« %s ») n’est pas valide.',
       'Base URI is required.' => 'L’URI de base est nécessaire.',
       'No valid linkable account.' => 'N\'est pas un compte associable valide.',
       'There are no configured default registration providers.' => 'Il y a pas de fournisseurs d\'abonnement configurés par défaut.',
-      'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.' => 'Le fournisseur d’authentification n’a pas renvoyé le bon paramètre d’état client dans sa réponse. Si ce problème persiste, vous devrez nettoyer vos cookies.',
+      'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.' => 'Le fournisseur d’authentification n’a pas renvoyé le bon paramètre d’état client dans sa réponse. Si ce problème persiste, vous devrez peut-être effacer vos cookies.',
       'SSH keys can not be reactivated.' => 'Les clés SSH ne peuvent pas être réactivées.',
       'You can not deprecate or disable the last active MFA provider while "%s" is enabled, because new users would be unable to enroll in MFA. Disable the MFA requirement in Config, or create or enable another MFA provider first.' => 'Vous ne pouvez pas déprécier ou désactiver le dernier fournisseur d’authentification multi-facteurs actif tant que « %s » est activé, puisque les nouveaux utilisateurs ne pourraient pas paramétrer d’authentification multifactorielle. Veuillez d’abord désactiver l’obligation de l’authentification multifactorielle dans la Configuration, ou bien créer ou activer un autre fournisseur d’authentification multifactorielle.',
       'Again' => 'Encore',
@@ -1115,11 +1115,11 @@ final class PhabricatorAuthFrFR
       'Confirm %s Account Link' => 'Confirmer le lien du compte %s',
       'You have not configured an outbound SMS mailer. You must configure one before you can set up SMS. See: %s' => 'Vous n’avez pas configuré de boîte courriel SMS sortante. Vous devez en configurer une avant de pouvoir utiliser les SMS. Voir : %s',
       'Provider Already Configured' => 'Fournisseur déjà configuré',
-      'Missing Client ID Cookie' => 'Le témoin de l’identifiant client est manquant.',
+      'Missing Client ID Cookie' => 'Cookie d\'identification client manquant',
       'To search for an LDAP record before authenticating, either check the **Always Search** checkbox or enter an anonymous username and password to use to perform the search.' => 'Pour chercher un enregistrement LDAP avant de s’authentifier, cocher soit la case **Toujours rechercher**, ou saisir un nom d’utilisateur anonyme et un mot de passe à utiliser pour effectuer la recherche.',
       'Enroll Duo Account: %s' => 'Compte duo d’inscription : %s',
       'Skipping, provider is not an OAuth2 provider.' => 'Ignoré, le fournisseur n\'est pas un fournisseur OAuth2.',
-      'Your login session is invalid, and clearing the session cookie was unsuccessful. Try clearing your browser cookies.' => 'Votre session de connexion n’est pas valide, et nettoyer le cookie de session n’a pas fonctionné. Essayez de vider les cookies de votre navigateur.',
+      'Your login session is invalid, and clearing the session cookie was unsuccessful. Try clearing your browser cookies.' => 'Votre session de connexion n’est pas valide et la suppression du cookie de session n’a pas fonctionné. Essayez d\'effacer les cookies de votre navigateur.',
       'OAuth Consumer Secret' => 'Secret du consommateur OAuth',
       'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Le mot de passe que vous avez saisi a été révoqué. Vous ne pouvez pas réutiliser un mot de passe qui a été révoqué. Choisir un nouveau mot de passe.',
     );

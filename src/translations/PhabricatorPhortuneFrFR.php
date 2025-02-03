@@ -114,7 +114,7 @@ final class PhabricatorPhortuneFrFR
       'All Charges' => 'Tous les frais',
       'This order does not need manual review, so you can not accept it.' => 'Cette commande n’a pas besoin d’être relue manuellement, vous ne pouvez donc pas l’accepter.',
       'Payments are processed securely by Stripe.' => 'Les paiements sont traités en toute sécurité par Stripe.',
-      'Unable to calculate %s, this subscription has not been scheduled for billing yet. Wait for the trigger daemon to schedule the subscription.' => 'Impossible de calculer %s, cet abonnement n’a pas encore été planifié pour la facturation. Attendez que le démon déclencheur planifie l’abonnement.',
+      'Unable to calculate %s, this subscription has not been scheduled for billing yet. Wait for the trigger daemon to schedule the subscription.' => 'Impossible de calculer %s, cet abonnement n’a pas encore été planifié pour la facturation. Attendez que le service en arrière-plan déclencheur planifie l’abonnement.',
       'Customer Account' => 'Compte client',
       'Trying to refund more money than remaining on charge!' => 'Tentative de rembourser plus d’argent que le restant dû !',
       'No email address set' => 'Aucune adresse de courriel définie',
@@ -275,10 +275,10 @@ final class PhabricatorPhortuneFrFR
       'To configure Stripe, register or log in to an existing account on [[https://stripe.com | stripe.com]]. Once logged in:
       - Go to {nav icon=user, name=Your Account > Account Settings > API Keys}
       - Copy the **Secret Key** and **Publishable Key** into the fields above.
-    You can either use the test keys to add this provider in test mode, or the live keys to accept live payments.' => 'Pour configurer Stripe, inscrivez-vous ou connectez-vous à un compte existant sur [[https://stripe.com | stripe.com]]. Une fois connecté(e) :
-     - Accédez à {nav icon=user, name=Your Account > Account Settings > API Keys}
-     - Copiez la **Clé secrète** et la **Clé publiable** dans les champs ci-dessus.
-    Vous pouvez utiliser soit les clés de test pour ajouter ce fournisseur en mode test, soit les clés en direct pour accepter les paiements en direct.',
+    You can either use the test keys to add this provider in test mode, or the live keys to accept live payments.' => 'Pour configurer Stripe, inscrivez-vous ou connectez-vous à un compte existant sur [[ https://stripe.com | stripe.com]]. Une fois connecté(e) :
+      - accédez à {nav icon=user, name=Your Account > Account Settings > API Keys}
+      - copiez la **Secret Key** (clé secrète) et la **Publishable Key** (clé publiable) dans les champs ci-dessus.
+    Vous pouvez utiliser soit les clés de test pour ajouter ce fournisseur en mode test, soit les clés réelles pour accepter les paiements en direct.',
       'There was an error decoding error information submitted by the client. Expected a JSON-encoded list of error codes, received: %s.' => 'Une erreur s’est produite lors du décodage des informations de jeton soumises par le client. Un dictionnaire de jetons encodé en JSON était attendu, mais « %s » a été reçu.',
       'CHANGES TO MERCHANT CONTACT INFO' => 'CHANGEMENTS DES COORDONNÉES DE CONTACT DU COMMERÇANT',
       'The card expiration date is not a valid expiration date. Check that you entered it correctly. You can not add an expired card as a payment method.' => 'La date d’expiration de la carte n’est pas une date d’expiration valide. Vérifiez que vous l’avez correctement saisie. Vous ne pouvez ajouter aucune carte expirée comme moyen de paiement.',
@@ -533,12 +533,12 @@ final class PhabricatorPhortuneFrFR
       - Choose **View API Signature**.
       - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
     You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
-    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.' => 'Pour configurer PayPal, inscrivez-vous ou connectez-vous à un compte existant sur [[https://paypal.com | PayPal.com]] (pour les paiements en direct) ou [[https://sandbox.paypal.com | sandbox.PayPal.com]] (pour les paiements de test). Une fois authentifié et connecté  :
-      - Accédez à {nav Paramètres de compte > Outils > Accès à l’API}.
-      - Choisissez **Afficher la signature API**.
-      - Copiez le **Nom d’utilisateur**, le **Mot de passe** et la **Signature API** dans les champs ci-dessus.
-    Vous pouvez sélectionner si le fournisseur fonctionne en mode test ou accepte les paiements en direct en utilisant le menu déroulant **Mode** ci-dessus.
-    Vous pouvez utiliser soit `sandbox.paypal.com`, soit `paypal.com`, pour récupérer les informations d’identification en direct.',
+    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.' => 'Pour configurer PayPal, inscrivez-vous ou connectez-vous à un compte existant sur [[ https://paypal.com | PayPal.com ]] (pour des paiements réels) ou sur [[ https://sandbox.paypal.com | sandbox.PayPal.com]] (pour tester des paiements). Une fois connecté :
+      - accédez à {nav Tools > API Access}
+      - choisissez **View API Signature** (afficher la signature API)
+      - copiez le **API Username** (nom d’utilisateur API), le **API Password** (mot de passe API) et la **Signature** dans les champs ci-dessus.
+    Vous pouvez sélectionner si le fournisseur fonctionne en mode test ou accepte les paiements réels en utilisant le menu déroulant **Mode** ci-dessus.
+    Vous pouvez utiliser soit `sandbox.paypal.com`, soit `paypal.com`, pour récupérer les informations d’identification respectivement de test ou réels.',
       'Set the start of the billing period.' => 'Définir le début de la période de facturation.',
       'PDF iterators may not be rewound. Create a new iterator to emit another PDF.' => 'Les itérateurs de PDF ne peuvent pas être rembobinés. Créez un nouvel itérateur pour émettre un autre PDF.',
       'Void Invoice?' => 'Annuler la facture ?',

@@ -349,7 +349,7 @@ final class PhabricatorAlmanacFrFR
       'The port number of the interface.' => 'Numéro de port de l’interface.',
       '%s created this interface.' => '%s a créé cette interface.',
       'You can not attach an interface to a device which you do not have permission to edit.' => 'Vous ne pouvez attacher aucune interface à un service que vous n’avez pas le droit de modifier.',
-      'Unable to change ownership of an identity file to daemon user "%s". Run this command as %s or root.' => 'Impossible de modifier la propriété d’un fichier d’identité pour l’utilisateur de démon « %s ». Lancez cette commande en tant que « %s » ou « root ».',
+      'Unable to change ownership of an identity file to daemon user "%s". Run this command as %s or root.' => 'Impossible de modifier le propriétaire d’un fichier d’identité sur l’utilisateur des services en arrière-plan « %s ». Lancez cette commande en tant que « %s » ou « root ».',
       'You do not have permission to create Almanac namespaces within the "%s" namespace.' => 'Vous n’avez le droit de créer aucun espace de noms Almanac dans l’espace de noms « %s ».',
       'Pass a map of values to set one or more properties.' => 'Passer une correspondance de valeurs pour affecter une ou plusieurs propriétés.',
       'Device "%s" is unrecognized, restricted, or you do not have permission to edit it.' => 'L’appareil « %s » n’est pas reconnu, est restreint, ou bien vous n’avez pas le droit de le modifier.',

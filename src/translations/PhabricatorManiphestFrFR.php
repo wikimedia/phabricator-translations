@@ -143,7 +143,7 @@ final class PhabricatorManiphestFrFR
     La constante de chaque statut doit comporter entre 1 et 12 caractères et ne contenir que des lettres minuscules et des chiffres. Les exemples valides sont « ouvert », « fermé » et « invalide ». Les utilisateurs ne verront normalement pas ces valeurs.
     Les clés que vous pouvez fournir dans une spécification sont :
       - `name` //Chaîne obligatoire.// Nom du statut, comme « Invalide ».
-      - `name.full` //Chaîne facultative.// Nom plus long, comme « Fermé, Invalide ». Cela apparaît dans la vue détaillée de la tâche dans l\'en-tête.
+      - `name.full` //Chaîne facultative.// Nom plus long, comme « Fermé, Invalide ». Cela apparaît dans la vue détaillée de la tâche dans l\'entête.
       - `name.action` //Chaîne facultative.// Nom de l\'action pour les sujets des e-mails, comme « Marqué comme invalide ».
       - `closed` //Booléen facultatif.// Les statuts sont soit « ouvert » soit « fermé ». En spécifiant `true` ici, le statut sera marqué comme fermé (comme avec « Résolu » ou « Invalide »). Par défaut, les statuts sont ouverts.
       - `special` //Chaîne facultative.// Marque ce statut comme spécial. Les statuts spéciaux sont :

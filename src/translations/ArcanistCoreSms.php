@@ -9,6 +9,7 @@ final class ArcanistCoreSms
 
   protected function getTranslations() {
     return array(
+      '**bookmarks**' => '**ǩeʹrjjmiârk**',
       'Unknown Symbol' => 'Toobdteʹmes symbol',
       'Unknown VCS!' => 'Toobdteʹmes VCS!',
       'ERROR' => 'VÂÂʹǨǨ',
