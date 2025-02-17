@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gtgt"
+			"Gtgt",
+			"Tacsipacsi"
 		]
 	},
 	"0f0973483d912464": "Némítás",
@@ -26,7 +27,7 @@
 	"71269196ea386883": "Összes ($1) feliratkozó eltávolítva $2 által",
 	"72f70b16832b1bbe": "Feliratkozók hozzáadva",
 	"78a45fc0bc500a0a": "Biztos elnémítható ez az objektum? A továbbiakban nem fog értesítés vagy e-mail érkezni erről.",
-	"7c2af07e2007c017": "Feliratkozás meg lett tiltva $1-nek/nak, mivel korábban már leiratkozott: $2.",
+	"7c2af07e2007c017": "$1 cél nem lett feliratkoztatva, mivel korábban már {{PLURAL:$1|leiratkozott|leiratkoztak}}: $2.",
 	"8210248db9606e07": "Leiratkoztatott $1-t: $2.",
 	"848a1d14df9182e9": "Rossz objektum",
 	"87c5645e6dbf6b11": "Felhasználók vagy projektek feliratkoztatása.",
@@ -35,7 +36,7 @@
 	"979d06f7ee7941dc": "Összes ($1) feliratkozó hozzáadva $2 által",
 	"9d08f560501d0de6": "Saját magam feliratkoztatása",
 	"a64875128ddb2808": "Értesítések elnémítása",
-	"a8c6d7d08f2aa62d": "$1 automatikusan feliratkozottakat nem érintette: $2.",
+	"a8c6d7d08f2aa62d": "$1 automatikusan feliratkozott cél nem érintett: $2.",
 	"aef6e3c8b122d7aa": "Feliratkozók beállítása",
 	"b158357ebef346cb": "Feliratkozók választása.",
 	"b3af2cf1979c794a": "$1, $2, $3 és $4",
