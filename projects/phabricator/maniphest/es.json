@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Danielyepezgarces",
 			"Fitoschido",
 			"MarcoAurelio",
 			"Ovruni"
@@ -44,14 +45,21 @@
 	"405534704a6731e4": "Normativa de visibilidad predeterminada para proyectos recién creados.",
 	"43acc16538dd6c6e": "Nueva descripción de la tarea.",
 	"495f519bed0522ad": "Subtarea",
+	"4b2a6a3149566c82": "Puntos",
+	"4b49d91d81c78482": "Establecer prioridad a",
 	"4d4e16decd0e7490": "Filtrar por proyecto",
+	"506d238db0aadbda": "$1 reclamó esta tarea.",
 	"53df657c8cd59e09": "Editar subtareas",
 	"543df373bb4f03e5": "$1 asignó esta tarea a $2.",
+	"54ab82ac8e74fa68": "Cambiar estado a: $1.",
 	"5b1bf328ae87fff2": "Asignar tarea a mí mismo",
+	"621541f7e919a9a4": "Cerrado, Duplicado",
 	"624eae438ab089b5": "Cronomarcador de época de cuando se cerró la tarea.",
 	"62524f057b3a4b10": "autor de la tarea",
 	"6d7a30a931a35ef0": "Buscar…",
 	"6dced365a38c9d5f": "Gráfico de la tarea",
+	"7a5c975b0ca8e0e5": "$1 redujo la prioridad de esta tarea de $2 a $3.",
+	"85e12bc6f2e56024": "Menciones",
 	"86f54e608e99dea3": "Autor de la tarea",
 	"880b5ec0c8191f9c": "(Ningún proyecto)",
 	"8c0ad90bec312756": "Prioridades",
@@ -61,6 +69,8 @@
 	"9f00df4e4291e298": "Cambiar la prioridad de una tarea.",
 	"b1a5954a483f8f8b": "Alta",
 	"cc35c38b65d1274d": "¡Arreglar ahora!",
+	"d2cc4cafcfc4411a": "$1 cerró esta tarea como duplicada.",
+	"d8dc0bc97838941d": "$1 reasignó esta tarea de $2 a $3 .",
 	"dbe0416e66a19e8d": "Por proyecto",
 	"dc505ccb1bb7c6f1": "$1 clasificó la tarea $2 con una prioridad $3.",
 	"dc6c097327f3080c": "Cambiar prioridad a: $1",
