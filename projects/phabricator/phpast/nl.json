@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"05e30d2a45e77780": "PHPAST",
+	"1d2d5262d9a87a79": "Knooppunt $1: $2",
+	"1e0c281ce4e49361": "XHP AST genereren",
+	"384fb8001a431c5c": "Token $1: $2",
+	"58e322d16b8289d8": "XHPAST-weergave",
+	"b7e45a36ff3610e0": "Ontleden",
+	"bd1b30579c4c7a5a": "AST bestaat niet!",
+	"bd3361abd5561576": "Visuele PHP-parser"
+}
