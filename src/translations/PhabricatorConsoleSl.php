@@ -10,6 +10,7 @@ final class PhabricatorConsoleSl
   protected function getTranslations() {
     return array(
       'Site' => 'Mesto',
+      'Calls to External Services' => 'Klici na zunanje storitve',
       'No errors.' => 'Ni napak.',
       'Event Log' => 'Dnevnik dogodkov',
       'Whole Table' => 'Celotna tabela',

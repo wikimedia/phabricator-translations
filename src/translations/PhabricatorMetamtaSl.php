@@ -9,6 +9,7 @@ final class PhabricatorMetamtaSl
 
   protected function getTranslations() {
     return array(
+      'External Recipient' => 'Zunanji prejemnik',
       'ID: %d' => 'ID: %s',
       'Error Processing Mail (%s)' => 'Napaka pri obdelavi pošte (%s)',
       'Content Redacted' => 'Vsebina skrita',

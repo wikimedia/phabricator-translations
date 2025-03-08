@@ -38,6 +38,7 @@ final class PhabricatorCoreSe
       'Username' => 'Geavaheaddjinamma',
       'Find User:' => 'Oza geavaheaddji:',
       'Language' => 'Giella',
+      'Translations' => 'Jorgalusat',
       'Password' => 'Beassansátni',
       'Edit Address' => 'Rievdat čujuhusa',
       'User' => 'Geavaheaddji',

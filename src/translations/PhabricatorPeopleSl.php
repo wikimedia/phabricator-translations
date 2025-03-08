@@ -45,6 +45,7 @@ final class PhabricatorPeopleSl
       'Login: Upgrade to Full' => 'Prijava: nadgradnja na polno raven',
       'Change Username' => 'Spremeni uporabniško ime',
       'Approve or reject the user.' => 'Odobrite ali zavrnite uporabnika.',
+      'External Account Identifier' => 'Identifikator zunanjega računa',
       'Mailing List' => 'Dopisni seznam',
       'Only you can edit your information.' => 'Samo vi lahko urejate svoje podatke.',
       'Show Only Mailing Lists' => 'Prikaži samo dopisne sezname',

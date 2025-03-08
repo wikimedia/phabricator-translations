@@ -74,6 +74,7 @@ final class PhabricatorCoreSms
       'Account' => 'Õõʹnnitobldõk',
       'Find User:' => 'Ooʒʒ õõʹnni:',
       'Language' => 'Ǩiõll',
+      'Translations' => 'Jåårǥlõõzz',
       'View History' => 'Čuäʹjet historia',
       'Password' => 'Peittsääʹnn',
       'Compare' => 'Verddõõl',

@@ -31,6 +31,7 @@ final class ArcanistCoreSl
       'Version' => 'Redakcija',
       'Array Separator' => 'Ločilo matrike',
       'Unit testing raised errors, but all failing tests are unsound.' => 'Preizkušanje enot je pokazalo napake, vendar so vsi neuspešni testi neustrezni.',
+      'Global Variables' => 'Globalne spremenljivke',
       'Prior to PHP 5.4, `%s` fails when given empty arrays. Prefer to write `%s` as `%s`.' => 'Pred PHP 5.4 »%s« spodleti, ko so predložene prazne matrike. Raje napišite »%s« kot »%s«.',
       'Land these changes?' => 'Želite uveljaviti te spremembe?',
       'LOCAL CHANGES' => 'LOKALNE SPREMEMBE',
