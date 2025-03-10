@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"02bbfa623c372026": "Password VCS",
@@ -46,7 +47,7 @@
 	"e78fbc70273d9ba4": "Etichetti pi $1",
 	"ea96760037628185": "Lìnia",
 	"eedf21803a0255e7": "Cancia l'URI",
-	"f08b76d77456cf4d": "Canciamenti ($1)",
+	"f08b76d77456cf4d": "Canci ($1)",
 	"fcdd5805116507a9": "Cuntinutu dû diff",
 	"5014878985635656": "etichetta (git)"
 }

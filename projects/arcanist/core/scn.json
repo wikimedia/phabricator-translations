@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"013ec8933730fcd3": "\"$1\" ($2)",
@@ -66,7 +67,7 @@
 	"2ff4e53e2b802e1e": "Vàriabbili glubbali",
 	"3255411d3e2bc059": "NSTALLATU",
 	"331d09f59209f297": "CUNFIGURATU",
-	"334a3ca7d8237e5f": "CANCIAMENTI LUCALI",
+	"334a3ca7d8237e5f": "CANCI LUCALI",
 	"347cd9c53ff77d41": "$1",
 	"3669288cabd0e6c2": "ARGV",
 	"3916250dfb607401": "Cunfigurazzioni ($1)",
@@ -184,7 +185,7 @@
 	"d5d8d253b3d0df7d": "**scarrica** [__options__] -- __file__",
 	"d5e99a8a8154ff72": "$1 ($2)",
 	"d641b7a1cddcb4d6": "(Missaggiu sarvatu supra $1.)",
-	"d797b89f3211afa4": "Canciamenti:",
+	"d797b89f3211afa4": "Canci:",
 	"d9cd377026b066ed": "$1: $2",
 	"db2dff441f0d902d": "Cinisi (tradizziunali)",
 	"dbb15a1dcb63191e": "WORKFLOW",

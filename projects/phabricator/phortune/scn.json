@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"0d80231681fb1268": "Paga cu",
@@ -15,7 +16,7 @@
 	"44f6af6945544c0b": "Quantità",
 	"559ef5544c825815": "PayPal",
 	"5da25ad570031cfc": "Tipu d'erruri",
-	"7d2b693e7eb2fe9d": "Ùrtimi canciamenti",
+	"7d2b693e7eb2fe9d": "Ùrtimi pagamenti",
 	"7dc096d4ec5fc8cc": "Scegghi cuntu",
 	"87eec34183bddbe6": "Scegghi utenti",
 	"a7bbd29ef81b7697": "Cancia lu cuntu",

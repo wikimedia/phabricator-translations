@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"00c7859ed071e887": "Crea task",
@@ -26,7 +27,7 @@
 	"662f8b64d8ac6965": "Suttatask.",
 	"6b07cab838212437": "Nzirisci lu nomu dû statu d'una task o na funzioni...",
 	"6cd7c5ea2e162967": "$1 criau sta task.",
-	"6d7a30a931a35ef0": "Arricerca...",
+	"6d7a30a931a35ef0": "Riscedi...",
 	"6dced365a38c9d5f": "Gràficu dâ task",
 	"86a599ef4df28ea3": "Scarta tuttu",
 	"880b5ec0c8191f9c": "(Nuddu pruggettu)",
