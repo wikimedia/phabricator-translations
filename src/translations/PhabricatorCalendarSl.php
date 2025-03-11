@@ -42,6 +42,7 @@ final class PhabricatorCalendarSl
       'Cancel or restore the event.' => 'Prekličite ali obnovite dogodek.',
       'Log Messages' => 'Sporočila dnevnika',
       'Imported Event' => 'Uvoženi dogodek',
+      'External Invitee' => 'Zunanji povabljenec',
       'List View' => 'Pogled seznama',
     );
   }

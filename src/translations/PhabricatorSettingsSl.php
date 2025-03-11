@@ -12,6 +12,7 @@ final class PhabricatorSettingsSl
       '12 Hour, 2:34 PM' => '12 ur, 2:34 PM',
       'Default (%s)' => 'Privzeto (%s)',
       'You haven\'t added any contact numbers to your account.' => 'Svojemu računu niste dodali še nobene kontaktne številke.',
+      'External Editor' => 'Zunanji urejevalec',
       'Page Titles' => 'Naslovi strani',
       'Personal Account Settings' => 'Nastavitve osebnega računa',
       'Email Notifications' => 'E-poštna obvestila',

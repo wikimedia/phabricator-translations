@@ -43,6 +43,7 @@ final class PhabricatorCoreKy
       'Close' => 'Жабуу',
       'Unknown' => 'Белгисиз',
       'Search' => 'Издөө',
+      'Index' => 'Индекс',
       'Text' => 'Текст',
       'Help' => 'Жардам',
       'Settings' => 'Параметрлер',

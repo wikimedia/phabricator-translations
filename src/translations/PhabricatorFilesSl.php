@@ -32,6 +32,7 @@ final class PhabricatorFilesSl
       'This file is larger than %s, so syntax highlighting was skipped.' => 'Datoteka je večja od %s, zato je bilo označevanje skladnje preskočeno.',
       'View as PDF' => 'Ogled kot PDF',
       'Dimensions' => 'Mere',
+      'File alternate text must not be longer than %s character(s).' => 'Alternativno besedilo datoteke mora biti daljše od %s znaka(ov).',
       'OVERWRITE' => 'PREPIŠI',
       'Unable to determine image dimensions with imagesx()/imagesy(): %s' => 'Ni mogoče določiti mer slike z imagesx()/imagesy(): %s',
       'Compose Image' => 'Sestavi sliko',

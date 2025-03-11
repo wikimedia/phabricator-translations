@@ -99,6 +99,7 @@ final class PhabricatorConfigSl
       'Missing Required Extensions' => 'Manjkajo potrebne razširitve',
       '%d related link(s):' => '%s povezana(ih) povezav(a):',
       'Missing Repository Local Path' => 'Manjka lokalna pot shrambe',
+      'Alternate domain to serve files from.' => 'Alternativna domena kot vir datotek.',
       'No performance sampling.' => 'Brez vzorčenja zmogljivosti.',
       'View "%s"' => 'Ogled »%s«',
       'SSH log location.' => 'Mesto dnevnika SSH.',
