@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Danielyepezgarces",
 			"Fitoschido",
 			"Ovruni"
 		]
@@ -65,5 +66,6 @@
 	"40c881219ae261cd": "Descripción del evento.",
 	"40cd30b84c4a661d": "Comenzó el procesamiento en segundo plano.",
 	"4104f4289a85a8c9": "Importación nueva",
+	"47fd09f8b75f9cc5": "[Calendario]",
 	"f2a7386b165f3689": "Escriba un nombre de usuario o de proyecto, o una función..."
 }

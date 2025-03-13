@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Agent",
+			"Danielyepezgarces",
 			"Fitoschido",
 			"Rodney Araujo"
 		]
 	},
+	"9818855a7a1ea556": "Habilita el modo experto para mostrar opciones \"avanzadas\" adicionales en la interfaz de usuario de Phabricator.",
 	"bb640aa769e1bc55": "Usuario de MediaWiki",
 	"bc67f6bb78373f52": "Tareas abiertas",
 	"bdfae00c2df98e83": "**Nombre de instancia de MediaWiki**\n\nEscoge un nombre permanente para esta instancia de MediaWiki. Phabricator utiliza este nombre internamente para llevar un registro de esta instancia de MediaWiki, en caso de que el URL cambie más tarde.\n\nUsa letras minúsculas, dígitos, y puntos. Por ejemplo: \n\n`mediawiki`, `mediawiki.micompania` o `mediawiki.ingenieria` son nombres razonables.",

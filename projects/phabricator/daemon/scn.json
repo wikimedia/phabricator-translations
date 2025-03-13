@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"04f6b3ea183eb9d7": "Rulòggiu",
@@ -20,7 +21,7 @@
 	"d6ede4526e3a304e": "NUDDU DÈMUNI",
 	"dde57e820d65c87a": "PID",
 	"dfc5672ed2afddf5": "Riggistru di dèmuni",
-	"f6ae417b0fd7f9be": "$1 fa ($2)",
+	"f6ae417b0fd7f9be": "$1 arrè ($2)",
 	"fa10212ba7543fee": "Dèmuni $1",
 	"fa84b320a83c72ff": "Lu PID '$1' nun è nu PID vàlidu.",
 	"fb29fc0304b805b3": "Dittagghî dû dèmuni"
