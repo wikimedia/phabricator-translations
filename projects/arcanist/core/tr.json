@@ -1601,7 +1601,7 @@
 	"f1b9e9ad0caf5f79": "Daha az kaynak dosyadaki hataları tespit etmek için `$2` tarafından sağlanan `$1` modunu kullanın.",
 	"f20315fe6861e137": "İngilizce (ABD)",
 	"f20afc3124655afc": "Yerel ayar \"$1\", bir döngü içinde ($2) birbirine geri dönen bir yerel ayar döngüsünün parçasıdır. Diğer yerel ayarlara geri dönen yerlerin döngü yapmaması gerekir.",
-	"f219cc0614ae6860": "Sebep",
+	"f219cc0614ae6860": "Gerekçe",
 	"f21ac7fba94470c5": "Spesifik doğrulama tokeni kullanın.",
 	"f293754df61d87c5": "Temiz bir çalışma kopyası gerektiğinde $1 çalışma dizinindeki değişikliklerin otomatik olarak saklanmasına izin verip vermeyeceği. Bu seçenek, yalnızca bir Arcanist işlemi kurtarılamaz bir hataya neden oluyorsa, kullanıcılar çalışma dizinlerini yerel depodan nasıl geri yükleyeceklerini anladıklarında kullanılmalıdır.",
 	"f293f811c01757dc": "Test davası '$1' beklendiği gibi atmadı.",
