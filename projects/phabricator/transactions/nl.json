@@ -1,20 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
+			"ABPMAB",
 			"Elroy",
 			"McDutchie"
 		]
 	},
+	"0299b7949e1cbffd": "$1 heeft een opmerking toegevoegd.",
+	"02b254f09eb025ca": "Lege opmerking",
+	"02e3ce1b7013fdb7": "Alle gebruikers zijn al geabonneerd op deze $1.",
+	"09d04b85cb93ff12": "In $1, $2 schreef:",
+	"137de32fc7897ae9": "$1 wijzigde de zichtbaarheid van $2.",
+	"1430f976c5967952": "Waarschuwingen",
 	"1aae8e10cbde244f": "Bulk-bewerkingsacties",
 	"1e460e3c69fc845e": "Exportformaat.",
 	"23a9d37f9bbebad1": "Deze taak is reeds ingesteld om stil te kunnen worden uitgevoerd.",
+	"34b5651e92f14c46": "$1 heeft een opmerking toegevoegd aan $2.",
 	"3dd672246fb50265": "Bulk-bewerkingsprogramma",
 	"3e9474a4f15eb10a": "Ondersteunde toepassingen",
 	"40b9f744dfea0c71": "Werkset",
+	"5125802181632dd0": "Vermelding",
 	"51713409935576d6": "exporteren",
 	"53637e834f989a05": "U heeft geen objecten geselecteerd om te bewerken.",
+	"65872df75f1b45f1": "$1 schreef:",
+	"68ca6006c88c7b05": "E-MAILVOORKEUREN",
 	"8ed148868dc2520c": "Exportformaat \"$1\" onbekend. Bekende formaten: $2.",
 	"9abf79207940eccd": "Genoemde gebruiker",
+	"aa97a3512696b4c3": "$1 wijzigde deze $2.",
+	"b5ffeb5f637b29fa": "Bewerk opmerking",
+	"be1666833000b25f": "Verwijder opmerking",
 	"d1b84777eead8c7f": "Bulk-bewerking",
 	"d6f2985c9173a3bd": "Nog een handeling toevoegen"
 }
