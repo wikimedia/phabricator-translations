@@ -1632,7 +1632,7 @@ final class ArcanistCoreTr
       'Use the `%s` mode provided by `%s` to detect errors in Less source files.' => 'Daha az kaynak dosyadaki hataları tespit etmek için `%2$s` tarafından sağlanan `%1$s` modunu kullanın.',
       'English (US)' => 'İngilizce (ABD)',
       'Locale "%s" is part of a cycle of locales which fall back on one another in a loop (%s). Locales which fall back on other locales must not loop.' => 'Yerel ayar "%s", bir döngü içinde (%s) birbirine geri dönen bir yerel ayar döngüsünün parçasıdır. Diğer yerel ayarlara geri dönen yerlerin döngü yapmaması gerekir.',
-      'Reason' => 'Sebep',
+      'Reason' => 'Gerekçe',
       'Use a specific authentication token.' => 'Spesifik doğrulama tokeni kullanın.',
       'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.' => 'Temiz bir çalışma kopyası gerektiğinde %s çalışma dizinindeki değişikliklerin otomatik olarak saklanmasına izin verip vermeyeceği. Bu seçenek, yalnızca bir Arcanist işlemi kurtarılamaz bir hataya neden oluyorsa, kullanıcılar çalışma dizinlerini yerel depodan nasıl geri yükleyeceklerini anladıklarında kullanılmalıdır.',
       'Test case \'%s\' did not throw, as expected.' => 'Test davası \'%s\' beklendiği gibi atmadı.',

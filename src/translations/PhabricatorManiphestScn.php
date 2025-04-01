@@ -31,7 +31,7 @@ final class PhabricatorManiphestScn
       'Subtasks.' => 'Suttatask.',
       'Type a task status name or function...' => 'Nzirisci lu nomu dû statu d\'una task o na funzioni...',
       '%s created this task.' => '%s criau sta task.',
-      'Search...' => 'Arricerca...',
+      'Search...' => 'Riscedi...',
       'Task Graph' => 'Gràficu dâ task',
       'Select All' => 'Scarta tuttu',
       '(No Project)' => '(Nuddu pruggettu)',

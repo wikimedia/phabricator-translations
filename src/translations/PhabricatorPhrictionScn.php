@@ -23,7 +23,7 @@ final class PhabricatorPhrictionScn
       'Content version.' => 'Virsioni di cuntinutu.',
       '"%s" <%s>' => '"%s" <%s>',
       'Welcome' => 'Bimminutu/a',
-      'Edits' => 'Canciamenti',
+      'Edits' => 'Canci',
       'All Content' => 'Tutti lu cuntinutu',
       'Empty Document' => 'Ducumentu vacanti',
     );

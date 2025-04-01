@@ -43,6 +43,7 @@ final class PhabricatorAuthEsES
       'Revoke Public Key' => 'Revocar clave pública',
       'Server Name' => 'Nombre de instancia de Phabricator',
       'Next Step' => 'Próximo paso',
+      'The email address %s is now verified.' => 'La dirección de correo electrónico %s ahora está verificada.',
       'Not Installed' => 'No instalado',
       '%s changed this contact number from %s to %s.' => '%s cambió este número de contacto de %s a %s .',
       'No user exists with username "%s".' => 'Nadie utiliza el nombre de usuario «%s».',

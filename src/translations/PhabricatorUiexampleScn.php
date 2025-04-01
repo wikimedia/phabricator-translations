@@ -49,7 +49,7 @@ final class PhabricatorUiexampleScn
       'Warm!' => 'Càudu!',
       'General' => 'Ginirali',
       'Circles' => 'Circhi',
-      'fa-tag %s' => 'fa-etichetta %s',
+      'fa-tag %s' => 'fa-tichetta %s',
       'Lines of Code' => 'Linìi di còdici',
       'Emojis' => 'Emoji',
       'People!' => 'Pirsuni!',

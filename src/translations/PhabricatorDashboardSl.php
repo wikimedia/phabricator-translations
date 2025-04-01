@@ -32,6 +32,7 @@ final class PhabricatorDashboardSl
       'Move Tab Left' => 'Premakni zavihek levo',
       'Text Panel' => 'Besedilni panel',
       '<Rendering Exception>' => '<Izjema upodabljanja>',
+      'Global/Personal' => 'Globalno/osebno',
       'Add to Home' => 'Dodaj na domačo stran',
       'Move this tab to the left?' => 'Želite ta zavihek premakniti na levo?',
       'Target Tab Not Found' => 'Ciljnega zavihka ni bilo mogoče najti',

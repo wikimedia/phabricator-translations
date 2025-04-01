@@ -54,7 +54,7 @@ final class PhabricatorDiffusionScn
       'Tags for %s' => 'Etichetti pi %s',
       'Line' => 'Lìnia',
       'Edit URI' => 'Cancia l\'URI',
-      'Changes (%s)' => 'Canciamenti (%s)',
+      'Changes (%s)' => 'Canci (%s)',
       'Diff content' => 'Cuntinutu dû diff',
       'tag (git)' => 'etichetta (git)',
     );

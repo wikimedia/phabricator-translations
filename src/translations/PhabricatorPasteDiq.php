@@ -18,7 +18,7 @@ final class PhabricatorPasteDiq
       'Browse Languages' => 'Çımberze zıwanan',
       'Activate Paste' => 'Proneyi aktiv ke',
       'Query Pastes.' => 'Persê proneyi',
-      'Paste Content' => 'Zerrekê proneyi',
+      'Paste Content' => 'Zerreki pıra ne',
       'Create a Paste' => 'Proneyo newe vırazê',
       '[Paste]' => '[Prone]',
       'Eat Paste' => 'Proneyi bure',

@@ -51,6 +51,7 @@ final class ArcanistCoreLb
       'Did you mean:' => 'Mengt Dir:',
       'Error' => 'Feeler',
       'File "%s"' => 'Fichier „%s“',
+      'ID' => 'ID',
       'RULES' => 'REEGELEN',
       'French (France)' => 'Franséisch (Frankräich)',
       'Dec' => 'Dez',

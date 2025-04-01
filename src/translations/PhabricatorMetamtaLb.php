@@ -9,6 +9,7 @@ final class PhabricatorMetamtaLb
 
   protected function getTranslations() {
     return array(
+      'ID: %d' => 'ID: %s',
       'Emails' => 'E-Mailen',
       'View Object' => 'Objet weisen',
       'Reserved' => 'Reservéiert',

@@ -56,6 +56,7 @@ final class PhabricatorSettingsSl
       'Another user already has this email.' => 'Ta mejl uporablja že nek drug uporabnik.',
       'Change primary email address?' => 'Spremenim primarni e-poštni naslov?',
       'HTML Email' => 'HTML e-pošte',
+      'Global Defaults' => 'Globalno privzeto',
       'You can adjust **Application Settings** here to customize when you are emailed and notified.
     | Setting | Effect
     | ------- | -------

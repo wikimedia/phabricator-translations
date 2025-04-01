@@ -26,6 +26,7 @@ final class PhabricatorCoreDiq
       'Compare' => 'Mıqayese ke',
       'Primary' => 'Bıngehên',
       'Rules' => 'Qeydeyi',
+      'Close' => 'Kip ke',
       'Search' => 'Cı geyre',
       'Save Draft' => 'Teslaği qeyd ke',
       'Okay' => 'Temam',

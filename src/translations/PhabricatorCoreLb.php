@@ -176,6 +176,7 @@ final class PhabricatorCoreLb
       'Done' => 'Fäerdeg',
       'Save' => 'Späicheren',
       'Function' => 'Funktioun',
+      'Advanced Search' => 'Erweidert Sich',
       'Disabled' => 'Desaktivéiert',
       'Project' => 'Projet',
       'Delete' => 'Läschen',
