@@ -3,6 +3,7 @@
 		"authors": [
 			"2axterix2",
 			"Agent",
+			"Danielyepezgarces",
 			"Fitoschido"
 		]
 	},
@@ -10,13 +11,16 @@
 	"01e2e18d10fd1528": "En la llamada a \"transaction.search\", el objeto seleccionado (de tipo \"$1\") no implementa \"$2\", entonces las transacciones no se pudieron cargar para ello.",
 	"0299b7949e1cbffd": "$1 añadió un comentario.",
 	"032d7497d75f1ef8": "No existe ningún objeto con el PHID «$1».",
+	"0653e941418e77f8": "$1 movió $2 a $3 en el tablero $4.",
 	"0769756709955cdd": "Llamadas a \"transaction.search\" deben especificar un \"objectType\" o un \"objectIdentifier\"",
 	"09d04b85cb93ff12": "El $1, $2 escribió:",
 	"10223ca57de51caa": "$1 marcó $2 comentarios en línea como realizados.",
 	"10a1411182b9151f": "Instrucciones opcionales, mostradas encima del formulario.",
 	"1762ad8041f0515b": "Formulario desactivado",
+	"1dbc2fe569d12e24": "$1 movió $2 en $3 tablero(s): $4.",
 	"1fe08986bdecae0f": "🔒 Bloqueado",
 	"2ee597d1f119f938": "Leer transacciones y comentarios para un objeto particular o para todo un tipo de objeto.",
+	"34b5651e92f14c46": "$1 agregó un comentario a $2.",
 	"3634f0afb31795f2": "Arrastra y coloca los campos para cambiar su orden.",
 	"3760dc37d2e71bfb": "No es un formulario editable",
 	"3a9ff1661417f771": "Guardar valores predeterminados",
@@ -29,6 +33,8 @@
 	"6a22263cef5774c4": "$1 modificó este objeto (tipo de transacción «$2»).",
 	"70bd08725a77c550": "$1 desactivó este formulario.",
 	"78fc5ac455a3760d": "En la llamada a \"transaction.search\", el especificado \"objectIdentifier\" (\"$1\") no existe.",
+	"7bcb9e2882a90ec1": "$1 movió $2 de $3 a $4 en el tablero $5.",
+	"8d3ff43651f416dc": "$1 actualizó los suscriptores de $2.",
 	"946da718c17f8999": "Editar formulario",
 	"96aca9279d4d07c2": "$1 editó los contribuidores de $2. Añadió $3: $4; quitó $5: $6.",
 	"99153358c1e1871d": "Formulario sin título",

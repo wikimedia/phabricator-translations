@@ -3,6 +3,7 @@
 		"authors": [
 			"Agent",
 			"Carlosmg.dg",
+			"Danielyepezgarces",
 			"Mpayansilva"
 		]
 	},
@@ -21,6 +22,7 @@
 	"c942586ce1a5edbc": "Interfaz de almanaque",
 	"cd133e6ca8e371d4": "Crea interfaz",
 	"d14c62aa3625f2d2": "Todos los dispositivos",
+	"d56d318814ff503e": "$1 cambió el estado de este dispositivo de $2 a $3.",
 	"d6dfb09f4519c89f": "Puede crear dispositivos",
 	"d877b79aaa1231c4": "Cierto si el dispositivo está inhabilitado.",
 	"dc135b7128982d67": "Estado del dispositivo.",

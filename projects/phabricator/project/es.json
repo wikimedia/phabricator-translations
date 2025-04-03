@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bruno44101",
+			"Danielyepezgarces",
 			"Fitoschido",
 			"MarcoAurelio",
 			"Ovruni",
@@ -58,6 +59,7 @@
 	"4884f24db171f8b2": "Subproyectos",
 	"4917eb42b43b64f5": "Información acerca de los colores de los proyectos.",
 	"6a2eeee2d51e96ec": "Proyecto sin servicio técnico",
+	"70ceb96b88abb2fc": "$1 renombró este proyecto de $2 a $3.",
 	"d4f319b66c3d3366": "Archivar subproyecto",
 	"e798e75996bcad2e": "Si esta es la columna predeterminada."
 }

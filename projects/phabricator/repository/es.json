@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Agent",
+			"Danielyepezgarces",
 			"Fitoschido"
 		]
 	},
@@ -17,10 +18,12 @@
 	"512d1fecf536e4ae": "cambio peligroso",
 	"58b93a3b9194c76e": "Descubre commits en __repository__.",
 	"76cdb950721642b6": "Trasladar",
+	"79d42bea3838e95a": "$1 cambió el usuario asignado para esta identidad de $2 a $3.",
 	"7d021a6e67c07b18": "¿Aceptas la posibilidad de que se produzca una pérdida permanente de datos?",
 	"8d5988976f7670f5": "Commit \"$1\" (con PHID \"$2\") ya no es alcanzable por medio de ningúna rama, etiqueta o referencia en este repositorio, y por lo tanto no será importado. Esto usualmente significa que la rama en el cual el commit estaba ha sido borrada o sobreescrita.",
 	"900f76970416833b": "El servicio de Almanaque para este repositorio no está atado a ninguna interfaz activa.",
 	"9120423983b0359c": "DETALLES",
+	"958f2b2b1691c707": "$1 renombró este repositorio de $2 a $3.",
 	"9ac7d091b3cc8dbd": "Crear repositorio Git",
 	"9c7c969e2ce2fd80": "Crear un repositorio Git nuevo.",
 	"9faf36bdaeb8fee1": "Descubre todos los commits, incluso si son antepasados de commits ya conocidos. Estos pueden reparar vacíos en la historia del repositorio.",
