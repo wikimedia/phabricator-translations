@@ -11,7 +11,7 @@ final class PhabricatorPhrequentScn
     return array(
       'Working Now' => 'Travagghiannu ora',
       'Interrupted' => 'Interrumputu',
-      '%s (%s ago)' => '%s (%s fa)',
+      '%s (%s ago)' => '%s (%s arrè)',
     );
   }
 

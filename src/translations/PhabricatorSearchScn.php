@@ -15,7 +15,7 @@ final class PhabricatorSearchScn
       'Profile Menu' => 'Menu dû prufilu',
       'Full Name' => 'Nomu cumpretu',
       'No Content' => 'Nuddu cuntinutu',
-      '"2022-12-25" or "7 days ago"...' => '"25-12-2022" o "7 jorna fa"...',
+      '"2022-12-25" or "7 days ago"...' => '"25-12-2022" o "7 jorna arrè"...',
       'IDs' => 'ID',
       'NOTE' => 'NOTA',
       'Link' => 'Culligamentu',

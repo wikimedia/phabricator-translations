@@ -161,7 +161,7 @@ final class ArcanistCoreRu
       'Saved uncommitted changes from working copy.' => 'Сохранены незафиксированные изменения из рабочей копии.',
       'Unsound' => 'Беззвучный',
       'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?' => 'Исправьте %s «%s» на «%s», но исходный путь не существует в рабочей копии. Продолжить в любом случае?',
-      'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'Установить адрес Phabricator для подключения по умолчанию, если %s будет работать в проекте без адреса Phabricator или за пределами проекта.',
+      'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'Установить адрес сервера для подключения по умолчанию, если %s будет работать в проекте без настроенного адреса или за пределами проекта.',
       'Loading library from "%s"...' => 'Загрузка библиотеку из "%s"...',
       'Remote branch has multiple heads.' => 'Удаленный филиал имеет несколько голов.',
       'Duplicate case in switch statement. PHP will ignore all but the first case.' => 'Повторяющийся регистр в операторе switch. PHP проигнорирует все, кроме первого случая.',
@@ -531,7 +531,7 @@ final class ArcanistCoreRu
       'Filesystem path "%s" can not be accessed because a parent directory ("%s") is not executable (the current process does not have "+x" permission).' => 'Путь файловой системы «%s» недоступен, поскольку родительский каталог («%s») не является исполняемым (текущий процесс не имеет разрешения «+x»).',
       'File "%s" does not exist, or you do not have permission to view it.' => 'Файл «%s» не существует, или у вас нет разрешения на его просмотр.',
       'Included commits in branch %s:' => 'Включены коммиты в ветку %s:',
-      '  NOTE: Failed to load the commit message from Differential (for revision "%s".)' => 'Обратите внимание, что арканисту не удалось загрузить сообщение фиксации из дифференциала для ревизии %s.',
+      '  NOTE: Failed to load the commit message from Differential (for revision "%s".)' => '  ПРИМЕЧАНИЕ: не удалось загрузить сообщение о коммите из Differential (для версии "%s".)',
       'Spaces Inside Parentheses' => 'Пробелы внутри скобок',
       'Configuration (%s)' => 'Конфигурация (%s)',
       'This file contains a syntax error: %s' => 'Этот файл содержит синтаксическую ошибку: %s',
@@ -572,7 +572,7 @@ final class ArcanistCoreRu
       'Unknown Mercurial feature "%s".' => 'Неизвестная функция Mercurial «%s».',
       'They river bubbles peacefully.' => 'Они мирно пузырились.',
       'PHP files must only contain PHP code.' => 'Файлы PHP должны содержать только PHP-код.',
-      'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.' => 'Эта версия Arcanist более свежая, чем версия Phabricator, к которой вы подключаетесь: установка Phabricator устарела и не поддерживает идентификацию репозиториев по позывному или URI. Обновите Phabricator, чтобы включить эти функции.',
+      'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.' => 'Эта версия ПО на сервере, к которому вы подключаетесь, устарела и не поддерживает идентификацию репозиториев по позывному или URI. Обновите серверное ПО, чтобы включить эти функции.',
       '<Process was terminated by signal %s (%d).>
     ' => '<Процесс был прерван сигналом %s (%s).>',
       'Line Too Long' => 'Строка слишком длинная',
@@ -581,7 +581,7 @@ final class ArcanistCoreRu
       'Source code should contain only ASCII bytes with ordinal decimal values between 32 and 126 inclusive, plus linefeed. Do not use UTF-8 or other multibyte charsets.' => 'Исходный код должен содержать только байты ASCII с порядковыми десятичными значениями от 32 до 126 включительно, плюс перевод строки. Не используйте UTF-8 или другие многобайтовые кодировки.',
       'There are no changes to generate a diff from!' => 'Нет никаких изменений для генерации различий!',
       'Type' => 'Тип',
-      'Toolset "%s" is unknown. The binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Набор инструментов чародея «%s» неизвестен. Бинарный файл Arcanist должен быть запущен так, чтобы «argv [0]» определял поддерживаемый набор инструментов. Переименуйте двоичный файл или установите библиотеку, которая предоставляет желаемый набор инструментов. Текущие доступные наборы инструментов: %s.',
+      'Toolset "%s" is unknown. The binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Набор инструментов «%s» неизвестен. Бинарный файл должен быть запущен так, чтобы «argv [0]» определял поддерживаемый набор инструментов. Переименуйте двоичный файл или установите библиотеку, которая предоставляет желаемый набор инструментов. Текущие доступные наборы инструментов: %s.',
       'Rule \'%s\' can never be reduced: it recurses indefinitely and reaches no production of terminals.' => 'Правило «%s» никогда не может быть уменьшено: оно повторяется бесконечно и не достигает производства терминалов.',
       'Translating legacy name \'%s\' to \'%s\'' => 'Перевод устаревшего имени \'%s\' на \'%s\'',
       'Set minimum message severity. One of: %s. Defaults to \'%s\'.' => 'Установите минимальную серьезность сообщения. Один из: %s. По умолчанию «%s».',
@@ -738,7 +738,7 @@ final class ArcanistCoreRu
       'Methods should have their visibility declared explicitly.' => 'Видимость методов должна быть объявлена явно.',
       'Merge strategy "%s" specified in "%s" configuration is unknown. Supported merge strategies are: %s.' => 'Стратегия слияния «%s», указанная в конфигурации «%s», неизвестна. Поддерживаемые стратегии слияния: %s.',
       'Relative commit \'%s\' is not the name of a commit!' => 'Относительная фиксация «%s» — это не имя фиксации!',
-      'Associates this working copy with a specific server.' => 'Связывает эту рабочую копию с конкретной установкой Phabricator.',
+      'Associates this working copy with a specific server.' => 'Связывает эту рабочую копию с определённым сервером.',
       'You must configure \'%s\' with the name of a linter in order to use %s.' => 'Вы должны настроить «%s» с именем линтера, чтобы использовать %s.',
       'Projects to assign to the task.' => 'Проекты, которые нужно назначить задаче.',
       'Unknown event %s' => 'Неизвестное событие %s',
@@ -925,7 +925,7 @@ final class ArcanistCoreRu
       'CASCADE' => 'КАСКАД',
       '%s REVISION(S) HAVE CHANGES PLANNED' => 'ПЕРЕСМОТР НА %s ЗАПЛАНИРОВАНЫ ИЗМЕНЕНИЯ',
       'You are not the author of \'%s: %s\'. Commit this revision anyway?' => 'Вы не являетесь автором «%s: %s». Все равно подтвердить эту ревизию?',
-      'Lookup of encoding in project failed: %s' => 'Ошибка поиска кодировки в проекте арканиста: %s',
+      'Lookup of encoding in project failed: %s' => 'Ошибка поиска кодировки в проекте: %s',
       'Concatenation Spacing' => 'Конкатенационный интервал',
       'Array item with key \'%s\' must be of type array, %s given.' => 'Элемент массива с ключом «%s» должен иметь тип array, задано %s.',
       'No mode provided for path "%s".' => 'Для пути «%s» режим не предусмотрен.',
@@ -1163,12 +1163,12 @@ final class ArcanistCoreRu
     __Symbol__ может быть именем ветки или закладки, именем редакции (например, «D123»),
     именем задачи (например, «T123») или новым символом.
     Если вы предоставите символ, который в настоящее время не указывает на текущую работу,
-    Arcanist создаст новую ветку или закладку с указанным вами именем.
-    Если вы укажете имя существующей ветки или закладки, Arcanist переключится 
+    будет создана новая ветка или закладка с указанным вами именем.
+    Если вы укажете имя существующей ветки или закладки, рабочая копия переключится 
     на эту ветку или закладку.
-    Если вы укажете имя ревизии или задачи, Arcanist будет искать
-    связанную ветку или закладку, которая существует в рабочей копии. Если он его найдет,
-    он переключится на него. Если он не найдет его, он попытается создать новую ветку
+    Если вы укажете имя ревизии или задачи, рабочий процесс будет искать
+    связанную ветку или закладку, которая уже существует в рабочей копии. Если что-то из этого будет найдено,
+    он переключится на него. Если нет — попытается создать новую ветку
     или закладку.
     Когда «arc work» создает ветвь или закладку, она будет использовать ** — start ** в качестве
     точки ветвления, если она предусмотрена. В противном случае текущее состояние рабочей копии будет

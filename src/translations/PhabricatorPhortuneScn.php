@@ -20,7 +20,7 @@ final class PhabricatorPhortuneScn
       'Quantity' => 'Quantità',
       'PayPal' => 'PayPal',
       'Error Type' => 'Tipu d\'erruri',
-      'Recent Charges' => 'Ùrtimi canciamenti',
+      'Recent Charges' => 'Ùrtimi pagamenti',
       'Choose Account' => 'Scegghi cuntu',
       'Choose User' => 'Scegghi utenti',
       'Edit Account' => 'Cancia lu cuntu',

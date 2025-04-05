@@ -46,6 +46,7 @@ final class PhabricatorSettingsEsES
       'Hypertext Transfer Protocol' => 'Protocolo de transferencia de hipertexto',
       'Choose which language you would like the UI to use.' => 'Seleccione el idioma que desea que use la interfaz de usuario.',
       'Really delete address \'%s\'?' => '¿De verdad quieres eliminar la dirección «%s»?',
+      'Supported Protocol' => 'Protocolo compatible',
       'You must enter your current password.' => 'Debes ingresar tu contraseña actual.',
       'The old password you entered is incorrect.' => 'La contraseña anterior que ingresaste es incorrecta.',
       '◐ Notify' => '◐ Notificar',
@@ -83,6 +84,19 @@ final class PhabricatorSettingsEsES
       'Add Authentication Factor' => 'Añadir fase de autenticación',
       'Date and Time' => 'Fecha y hora',
       'Save Preferences' => 'Guardar preferencias',
+      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, some applications can generate links that you can click to open files locally.
+    Provide a URI pattern for building external editor URIs in your environment. For example, if you use TextMate on macOS, the pattern for your machine may look something like this:
+    ```name="Example: TextMate on macOS"
+    %s
+    ```
+    For complete instructions on editor configuration, see **[[ %s | %s ]]**.
+    See the tables below for a list of supported variables and protocols.' => 'Muchos editores de texto pueden configurarse como manejadores de URI para protocolos especiales como `editor://`. Si has instalado y configurado un editor de este tipo, algunas aplicaciones pueden generar enlaces en los que puedes hacer clic para abrir archivos localmente.
+    Proporciona un patrón de URI para construir URIs de editores externos en tu entorno. Por ejemplo, si usas TextMate en macOS, el patrón para tu máquina puede ser algo como esto:
+    ```name="Ejemplo: TextMate en macOS"
+    %s
+    ```
+    Para obtener instrucciones completas sobre la configuración del editor, consulta [[ %s | %s ]].
+    Consulta las tablas a continuación para ver una lista de variables y protocolos compatibles.',
       'Sessions and Logs' => 'Sesiones y registros',
       'Your primary email address is unverified. You will not be able to receive email until you verify it.' => 'Su dirección de correo electrónico principal no está verificada. No podrá recibir correo electrónico hasta que lo verifique.',
       'Revoke All' => 'Revocar todo',

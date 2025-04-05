@@ -37,6 +37,7 @@ final class ArcanistCoreKoKR
       'Unknown argument \'%s\'. Try \'%s\'.' => '\'%s\' 인수를 알 수 없습니다. \'%s\'을(를) 시도하십시오.',
       'Path \'%s\' is not readable.' => '\'%s\' 경로를 읽을 수 없습니다.',
       'No match found. Try `%s %s` to search for a linter.' => '일치하는 항목이 없습니다. 린터 검색을 위해 `%s %s`을(를) 시도해 보십시오.',
+      'English (Pirate)' => '영어 (해적)',
       'Pick' => '선택',
       'Browse URI "%s"' => 'URI "%s" 탐색',
       '**bookmarks**' => '**북마크**',

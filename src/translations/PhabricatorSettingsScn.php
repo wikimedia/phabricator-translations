@@ -30,7 +30,7 @@ final class PhabricatorSettingsScn
       'Add External Account' => 'Agghiunci cuntu sternu',
       'Old Password' => 'Password vecchia',
       'Display Preferences' => 'Prifirenzi di visualizzazzioni',
-      'Changes saved.' => 'Canciamenti sarvati.',
+      'Changes saved.' => 'Canci sarbati.',
       'Another user already has this email.' => 'N\'àutru utenti usa sta mail.',
       'HTML Email' => 'Email HTML',
       'Europe: 28-02-2000' => 'Europa: 28-02-2000',

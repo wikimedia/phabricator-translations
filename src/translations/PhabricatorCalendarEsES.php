@@ -69,6 +69,7 @@ final class PhabricatorCalendarEsES
       'Description of the event.' => 'Descripción del evento.',
       'Started background processing.' => 'Comenzó el procesamiento en segundo plano.',
       'New Import' => 'Importación nueva',
+      '[Calendar]' => '[Calendario]',
       'Type a user or project name, or function...' => 'Escriba un nombre de usuario o de proyecto, o una función...',
     );
   }

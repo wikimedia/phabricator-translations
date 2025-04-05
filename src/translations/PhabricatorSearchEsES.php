@@ -67,7 +67,9 @@ final class PhabricatorSearchEsES
       'Type specification "%s" duplicates type specification "%s". Specify each type only once.' => 'Especificación de tipo "%s" es duplica de la especificación de tipo "%s".
     Especifique cada tipo solo una vez.',
       'Disable Query?' => '¿Quieres desactivar la consulta?',
+      'Order By' => 'Ordenar por',
       'You can not create a relationship to object "%s" because the object does not exist or could not be loaded.' => 'No se puede crear una relación con el objeto «%s» dado que este no existe o no se pudo cargar.',
+      'Edit Query' => 'Editar consulta',
       '(Restricted/Invalid Application)' => '(Aplicación restringida/no válida)',
       'Reindex objects previously indexed with a particular version of the indexer.' => 'Reindexar objetos previamente indexados con una versión específica del indexados.',
       'Really Delete Query?' => '¿De verdad quieres eliminar la consulta?',
