@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andac",
 			"BaRaN6161 TURK",
 			"Brightt11",
 			"Can",
@@ -53,6 +54,7 @@
 	"038871fd6a3183f6": "Bu iş akışı ('$1'), bir Repository API'a ihtiyaç durmaktadır, doğru değere ulaşmak için $2 geçersiz kılın.",
 	"039f4a717c96edb2": "Bu yama, dosya adı büyüklüğünü değiştirmeye çalıştığı için başarısız olmuş olabilir (örneğin, '$1' ila '$2'). Değişken bu gibi yamaları büyük/küçük harf duyarlı olmayan dosya sistemlerinde uygulayamaz. Bu yamayı el ile uygulamalısınız.",
 	"03a6e67fae07e596": "Yapılandırılmış dosyalar ikili olmalı veya bir konu içermelidir.",
+	"0412cd479b24c04d": "Git altında varsayılan hedef \"$1\" hedefine iniyor.",
 	"04175416b2e886fd": "Bilinmeyen bağımsız değişken: '$1'. Şunu deneyin: '$2'.",
 	"0475dff7846b6d50": "'$1' dizini okunabilir değil.",
 	"0480e615e8e54913": "Eşleşme bulunamadı. Linter aramak için `$1 $2` deneyin.",
@@ -131,6 +133,8 @@
 	"0c3bdffb311da375": "Yapıcıları açıkça `$1` olarak adlandırın. Bu yöntem yapıcıdır çünkü tanımlandığı sınıfla aynı ada sahiptir.",
 	"0c4f9978647381c4": "`$1` kullanarak lessc yükleyin.",
 	"0cb3de598fb49633": "Test motorlarını yapılandırmak için '$1' dosyası bulunamadı. Çalışan kopyanın kök dizininde '$2' dosyası oluşturun.",
+	"0cbce258272744f4": "Depoyu Getir: $1",
+	"0d131a0e0f4efdc1": "\"posix_setgid()\" çağrısı başarısız!",
 	"0d228e1a955cd6ba": "Belirli bir düzeltmeden gelen mesajı kullanın. Bir revizyon belirtmezseniz, ark hangi kopyada çalışan kopyada olduğunu tahmin eder.",
 	"0d365a9ec4055ed2": "Bu $1 değişiklikle yeni bir taahhüt oluşturmak ister misiniz?",
 	"0d36859f04a6bb7f": "Özellik eklenmesinde beklenmeyen \"$1\" bölümü.",
