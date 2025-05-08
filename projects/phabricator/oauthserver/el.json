@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jimkats",
 			"NikosLikomitros",
 			"Nikosgranturismogt"
 		]
 	},
-	"0151c85868c3a4ae": "Σύνδεση με το Phabricator",
+	"0151c85868c3a4ae": "Σύνδεση με το $1",
 	"04852e522970a284": "Ενεργοποίηση εφαρμογής OAuth",
 	"076a9d109c3f1a23": "Σφάλμα διακομιστή",
 	"0b7624a00f95c0ed": "Η εφαρμογή του OAuth \"$1\" έχει απενεργοποιηθεί.",
