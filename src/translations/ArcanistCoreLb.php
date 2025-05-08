@@ -13,6 +13,7 @@ final class ArcanistCoreLb
       'Saved "%s" as "%s".' => '"%s" gouf als "%s" gespäichert.',
       'Portuguese (Portugal)' => 'Portugisesch (Portugal)',
       'CC: %s' => 'CC: %s',
+      'Expected a list!' => 'Lëscht erwaart!',
       'Unknown Symbol' => 'Onbekannt Symbol',
       'Row has no cell "%s".\\n' => 'D\'Zeil huet keng Zell „%s“.\\n',
       'English (Canada)' => 'Englesch (Kanada)',

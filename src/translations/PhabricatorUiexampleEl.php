@@ -101,7 +101,7 @@ final class PhabricatorUiexampleEl
       'Dependent Tasks' => 'Εξαρτώμενες εργασίες',
       'Writing code is much more fun with friends!' => 'Η συγγραφή κώδικα είναι πολύ πιο αστεία με φίλους!',
       'Closed over 100 tasks' => 'Έκλεισαν πάνω από 100 εργασίας',
-      'Improve Mobile Experience' => 'Βελτίωση εμπειρίας κινητών για το Phabricator',
+      'Improve Mobile Experience' => 'Βελτίωση εμπειρίας κινητών',
       'Easily render icons or images with links and sprites.' => 'Αποδίδει εικονίδια ή φωτογραφίες με συνδέσμους και σύμβολα.',
       'Status Story' => 'Ιστορία κατάστασης',
       'Zucchini' => 'Ζουτσίνι',

@@ -68,6 +68,7 @@ final class PhabricatorPeopleEsES
       'administrators' => 'administradores',
       'Hide Disabled Users' => 'Ocultar usuarios deshabilitados',
       'Hide Unapproved Users' => 'Ocultar usuarios no aprobados',
+      '%s renamed this user from %s to %s.' => '%s renombró a este usuario de %s a %s.',
       '[%s] Email Verification' => '[Phabricator] Confirmación de la dirección de correo electrónico',
       'Projects (%s)' => 'Proyectos (%s)',
       'Show Only Disabled Users' => 'Mostrar solo usuarios deshabilitados',

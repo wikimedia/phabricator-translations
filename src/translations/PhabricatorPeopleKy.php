@@ -14,7 +14,7 @@ final class PhabricatorPeopleKy
       'Bots' => 'Боттор',
       'users' => 'колдонуучулар',
       'emails' => 'электрондук почталар',
-      'Log Out %s' => 'Чыгуу %s',
+      'Log Out %s' => '%s аккаунтунан чыгуу',
     );
   }
 

@@ -238,7 +238,7 @@ final class PhabricatorCoreEl
       'Request' => 'Αίτημα',
       'The repository name.' => 'Το όνομα του αποθηκευτηρίου.',
       '%s created this document.' => 'Ο %s δημιούργησε το έγγραφο.',
-      'If you are not developing %s itself, report this issue to the upstream.' => 'Εάν δεν αναπτύσσετε τον Phabricator μόνοι σας, αναφέρετε αυτό το πρόβλημα.',
+      'If you are not developing %s itself, report this issue to the upstream.' => 'Εάν δεν αναπτύσσετε τον %s μόνοι σας, αναφέρετε αυτό το πρόβλημα.',
       'Edit Package: %s' => 'Επεξεργασία συσκευασίας: %s',
       '%s got test event at %d' => 'Ο %s έλαβε δοκιμαστικό συμβάν στο %s',
       'Login' => 'Σύνδεση',
@@ -559,7 +559,7 @@ final class PhabricatorCoreEl
       'Communication' => 'Επικοινωνία',
       'Failed to load comment "%s".' => 'Αποτυχία στην φόρτωση του σχολίου "%s".',
       'Loading...' => 'Φόρτωση σε εξέλιξη...',
-      '%s has invited you to join %s.' => 'Ο %s σας έχει προσκαλέσει να γίνεται μέλος του Phabricator.',
+      '%s has invited you to join %s.' => 'Ο %s σας έχει προσκαλέσει να γίνεται μέλος του %s.',
     );
   }
 

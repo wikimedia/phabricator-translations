@@ -520,6 +520,7 @@ final class PhabricatorCoreSl
       'Reply to Comment' => 'Odgovori na komentar',
       'More Options' => 'Več možnosti',
       'Data' => 'Podatki',
+      'Expected "newPagingMapFromCursorObject()" to return a map of paging values, but got "%s" (in class "%s").' => 'Pričakovano naj bi »newPagingMapFromCursorObject()« vrnil karto vrednosti ostranjevanja, vendar je bilo prejeto »%s« (v razredu »%s«).',
       'DONE' => 'OPRAVLJENO',
       'Missing Javelin Dependency' => 'Manjka odvisnost Javelin',
       'Changes from before your most recent comment are hidden.' => 'Spremembe pred vašim zadnjim komentarjem so skrite.',

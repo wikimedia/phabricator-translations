@@ -19,7 +19,7 @@ final class PhabricatorGuidesEl
       'Quick Start' => 'Γρήγορη αρχή',
       'Configure account settings for all users, or just yourself' => 'Ρυθμίστε τις ρυθμίσεις λογαριασμού για όλους τους χρήστες, ή μόνο για εσάς',
       'Change the name and add your company logo, just to give it a little extra polish.' => 'Αλλάξτε το όνομα και προσθέστε το εταιρικό σας λογότυπο, απλά για να του δώσετε λίγο περισσότερη λεπτότητα.',
-      'Learn how to configure mail and other options.' => 'Μάθετε πώς να ορίζετε ρυθμίσεις μηνυμάτων και άλλες ρυθμίσεις στο Phabricator.',
+      'Learn how to configure mail and other options.' => 'Μάθετε πως να ορίζετε ρυθμίσεις μηνυμάτων και άλλες ρυθμίσεις.',
     );
   }
 

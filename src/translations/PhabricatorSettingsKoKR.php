@@ -78,7 +78,7 @@ final class PhabricatorSettingsKoKR
       'Display Preferences' => '표시 환경 설정',
       'Add Auth Factor' => '인증 요소 추가',
       'You don\'t have any active sessions.' => '활성화된 세션이 없습니다.',
-      'Changes saved.' => '변경된 사항을 저장했습니다.',
+      'Changes saved.' => '변경사항을 저장했습니다.',
       'Authentication factors must have a name to identify them.' => '인증 요인은 이를 식별하기 위해 이름이 있어야 합니다.',
       'Hypertext Transfer Protocol' => '하이퍼텍스트 전송 프로토콜',
       'Choose which language you would like the UI to use.' => '파브리케이터 UI에서 사용할 언어를 선택하세요.',
