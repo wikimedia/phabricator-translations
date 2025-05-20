@@ -17,13 +17,13 @@ final class PhabricatorAuthEl
       '%s enabled auto login.' => 'Ο %s ενεργοποίησε την αυτόματη σύνδεση.',
       'Verify Email' => 'Επιβεβαίωση διεύθυνσης ηλ. ταχυδρομείου',
       'Account is already registered or linked.' => 'Ο λογαριασμός είναι ήδη εγγεγραμμένος ή συνδεδεμένος.',
-      'Specify an OAuth client id with "--id".' => 'Προσδιορίστε ένα αναγνωριστικό πελάτη OAuth με %s.',
+      'Specify an OAuth client id with "--id".' => 'Προσδιορίστε ένα αναγνωριστικό πελάτη OAuth με "--id".',
       'Google' => 'Google',
       'No Providers Configured:' => 'Δεν ρυθμίστηκαν πάροχοι:',
       'Auth' => 'Auth',
       'Asana' => 'Asana',
       'Disqus' => 'Disqus',
-      'OAuth client "%s" is already trusted.' => 'Ο Phabricator ήδη εμπιστεύεται τον πελάτη του OAuth "%s".',
+      'OAuth client "%s" is already trusted.' => 'Ο πελάτης OAuth "%s" είναι ήδη έμπιστος.',
       '%s is required!' => 'το %s απαιτείται!',
     );
   }

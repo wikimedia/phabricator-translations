@@ -160,7 +160,7 @@ final class PhabricatorCoreZhHans
       '%s' => '%s',
       'A file PHID.' => '文件 PHID。',
       'Yellow' => '黄色',
-      'Welcome to %s' => '欢迎来到 %s',
+      'Welcome to %s' => '欢迎来到%s',
       '· · ·' => '· · ·',
       '"%s"' => '“%s”',
       '-' => '-',

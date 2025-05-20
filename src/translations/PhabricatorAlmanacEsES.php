@@ -24,6 +24,7 @@ final class PhabricatorAlmanacEsES
       'Almanac Interface' => 'Interfaz de almanaque',
       'Create Interface' => 'Crea interfaz',
       'All Devices' => 'Todos los dispositivos',
+      '%s changed the status of this device from %s to %s.' => '%s cambió el estado de este dispositivo de %s a %s.',
       'Can Create Devices' => 'Puede crear dispositivos',
       'True if device is disabled.' => 'Cierto si el dispositivo está inhabilitado.',
       'Device status.' => 'Estado del dispositivo.',

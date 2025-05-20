@@ -10,7 +10,7 @@ final class PhabricatorBaseEl
   protected function getTranslations() {
     return array(
       'No application \'%s\'!' => 'Όχι εφαρμογή \'%s\'!',
-      'This application is required, so all users must have access to it.' => 'Αυτή η εφαρμογή απαιτείται για τον Phabricator ώστε να λειτουργήσει, επομένως όλοι οι χρήστες πρέπει να έχουν πρόσβαση σε αυτή.',
+      'This application is required, so all users must have access to it.' => 'Αυτή η εφαρμογή απαιτείται, επομένως όλοι οι χρήστες πρέπει να έχουν πρόσβαση σε αυτή.',
       'Can Configure Application' => 'Μπορεί να ρυθμίσει την εφαρμογή',
       'Can Use Application' => 'Μπορεί να χρησιμοποιήσει την εφαρμογή',
       'Core Applications' => 'Εφαρμογές πυρήνα',

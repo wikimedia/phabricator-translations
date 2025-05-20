@@ -54,7 +54,7 @@ final class PhabricatorMetamtaEl
       'Attach a file.' => 'Σύναψη αρχείου.',
       'Mail Disabled' => 'το ταχυδρομείο έχει απενεργοποιηθεί',
       'No Address' => 'Χωρίς διεύθυνση',
-      'Sent by %s' => 'Εστάλη από το Phabricator',
+      'Sent by %s' => 'Εστάλη από το %s',
       'Reasons' => 'Αιτίες',
       'Delivery Failed' => 'Η παράδοση απέτυχε',
       'Related PHID: %s' => 'Σχετιζόμενα PHID: %s',

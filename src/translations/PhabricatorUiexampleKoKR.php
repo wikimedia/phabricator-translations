@@ -71,6 +71,7 @@ final class PhabricatorUiexampleKoKR
       'A simple description' => '간단한 설명',
       'Show Notification' => '알림 보기',
       'PHUIX' => 'PHUIX',
+      'Postal Code' => '우편번호',
       'Installation' => '설치',
       'This is the default project profile image.' => '이것은 기본 프로젝트 프로파일 그림입니다.',
       'Highlighted' => '강조됨',

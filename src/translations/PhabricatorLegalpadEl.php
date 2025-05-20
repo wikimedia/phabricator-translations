@@ -46,7 +46,7 @@ final class PhabricatorLegalpadEl
       'Signed' => 'Υπογραμμένο',
       'The signature is now verified.' => 'Αυτή η υπογραφή είναι τώρα επιβεβαιωμένη.',
       'Notes' => 'Σημειώσεις',
-      'Signature Required to Log In' => 'Απαιτείται υπογραφή για την χρήση του Phabricator',
+      'Signature Required to Log In' => 'Απαιτείται υπογραφή για την σύνδεση',
       'Legalpad' => 'Legalpad',
       'View/Sign Document' => 'Προβολή/Υπογραφή εγγράφου',
       'You must choose a user to exempt.' => 'Πρέπει να επιλέξετε ένα χρήστη για εξαίρεση.',

@@ -28,7 +28,7 @@ final class PhabricatorMetaEl
       'Show Installed Applications' => 'Εμφάνιση Εγκατεστημένων Εφαρμογών',
       'Mail Commands Overview' => 'Επισκόπηση Εντολών Ταχυδρομείου',
       'Uninstall' => 'Απεγκατάσταση',
-      'This application is required and cannot be uninstalled.' => 'Αυτή η εφαρμογή δεν μπορεί να απεγκατασταθεί, επειδή απαιτείται για να δουλέψει ο Phabricator.',
+      'This application is required and cannot be uninstalled.' => 'Αυτή η εφαρμογή απαιτείται και δεν μπορεί να απεγκατασταθεί.',
       'Install %s application?' => 'Εγκατάσταση της εφαρμογής %s;',
       'Quick Reference' => 'Γρήγορη αναφορά',
       'Show Prototype Applications' => 'Εμφάνιση Πρωτότυπων Εφαρμογών',

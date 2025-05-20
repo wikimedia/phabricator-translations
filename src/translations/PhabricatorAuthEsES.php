@@ -119,6 +119,7 @@ final class PhabricatorAuthEsES
       'Always Search' => 'Buscar siempre',
       'Captcha' => 'Captcha',
       '%s Account' => 'Cuenta de %s',
+      '%s changed the status of this provider from %s to %s.' => '%s cambió el estado de este proveedor de %s a %s.',
       'Consumer Key' => 'Clave de Consumidor',
       'WordPress.com' => 'WordPress.com',
       'Email Address Already in Use' => 'Dirección de correo electrónico ya en uso',

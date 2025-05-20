@@ -38,6 +38,7 @@ final class PhabricatorSearchSl
       'Fulltext Search Results' => 'Zadetki iskanja po vsem besedilu',
       'Engine: Search' => 'Motor: iskanje',
       'Profile Menu Item' => 'Predmet menija Profil',
+      'Paging and Limits' => 'Ostranjevanje in omejitve',
       'Delete Menu Item' => 'Izbris predmeta menija',
       'Project Menu' => 'Meni projekta',
       'Create Menu Item' => 'Ustvaritev predmeta menija',

@@ -30,7 +30,7 @@ final class PhabricatorNuanceEl
       'No items found.' => 'Δεν βρέθηκαν αντικείμενα.',
       'Import data from a source.' => 'Εισαγωγή δεδομένων από μια πηγή.',
       'Edit Queue: %s' => 'Επεξεργασία ουράς: %s',
-      'Web Form' => 'Φόρμα Phabricator',
+      'Web Form' => 'Φόρμα Ιστού',
       'User %s' => 'Χρήστης %s',
       'Specify a source with %s.' => 'Ορισμός πηγής με το %s.',
       'Content imported via Nuance.' => 'Περιεχόμενο που εισήχθη μέσω του Nuance.',

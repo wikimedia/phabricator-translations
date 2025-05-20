@@ -27,7 +27,7 @@ final class PhabricatorConsoleEl
       'Shows errors and warnings.' => 'Εμφάνιση σφαλμάτων και προειδοποιήσεων.',
       'Can\'t Analyze' => 'Δεν μπορεί να αναλυθεί',
       'Events' => 'Συμβάντα',
-      'Information about events and event listeners.' => 'Πληροφορίες για τα γεγονότα του Phabricator και ακροατές γεγονότων.',
+      'Information about events and event listeners.' => 'Πληροφορίες για τα γεγονότα και ακροατές γεγονότων.',
       'Registered Event Listeners' => 'Εγγεγραμμένοι ακροατές συμβάντος',
       'No Tables' => 'Χωρίς πίνακες',
     );
