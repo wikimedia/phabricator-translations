@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Agent"
+			"Agent",
+			"Danielyepezgarces"
 		]
 	},
 	"0608e6a53b86211e": "Nuevo texto alternativo.",
 	"0aaab8c973d2933b": "$1 removió el texto alternativo de este archivo (era $2).",
 	"1578b2bcae5ce40d": "$1 removió el texto alternativo para $2 (era $3).",
 	"1910e1df6652085d": "Texto alternativo",
+	"3633987da18079d2": "Elegir icono",
 	"5f18ca229b73f5ae": "Texto alternativo predeterminado",
 	"6672b815dc387b62": "No aplicable",
 	"69767caa8bdc514e": "Texto alternativo personalizado",

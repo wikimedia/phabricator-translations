@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Carlosmg.dg",
+			"Danielyepezgarces",
 			"MarcoAurelio",
 			"No se"
 		]
@@ -9,9 +10,11 @@
 	"01ab47951fb99871": "Rebelde",
 	"01f2f217dafe127a": "Crear insignia",
 	"04affddf28af39d9": "Insignias activas",
+	"076e044ec4c569c3": "Nueva descripción de la insignia.",
 	"0bcfba684596bcda": "Editar insignia: $1",
 	"0c74f7f704ccc937": "Las insignias deben tener un nombre.",
 	"0c93baae544a9290": "Otras actividades relativas a insignias no listadas más arriba.",
+	"0e70e32f3fa53d3f": "Primer Orden",
 	"108bafee4a7de0e1": "Activar insignia",
 	"13a1272d3fe3ffc1": "Ruta de escape",
 	"1df8061315935e3c": "Esta insignia no ha sido entregada a nadie todavía.",

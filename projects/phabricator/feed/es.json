@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Danielyepezgarces",
 			"Ovruni"
 		]
 	},
 	"6645eef5577e6001": "Incluir proyectos",
+	"6e214f4cf135ea1c": "La fecha especificada de \"Ocurre antes\" es más temprana que la fecha especificada \"Ocurren después\", por lo que esta consulta nunca puede coincidir con ningún resultado.",
 	"df64eb386033ce8a": "Incluir historias sobre proyectos de los que soy miembro."
 }

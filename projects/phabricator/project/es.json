@@ -60,6 +60,8 @@
 	"4917eb42b43b64f5": "Información acerca de los colores de los proyectos.",
 	"6a2eeee2d51e96ec": "Proyecto sin servicio técnico",
 	"70ceb96b88abb2fc": "$1 renombró este proyecto de $2 a $3.",
+	"91b99cba6d2b7a32": "$1 eliminó $2 proyecto(s) de $3: $4.",
+	"b58e56de3d9ed32a": "$1 eliminó $2 proyecto(s) de $3: $4.",
 	"d4f319b66c3d3366": "Archivar subproyecto",
 	"e798e75996bcad2e": "Si esta es la columna predeterminada."
 }

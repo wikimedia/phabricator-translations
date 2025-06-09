@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Danielyepezgarces",
 			"Fitoschido",
 			"Ovruni"
 		]
 	},
 	"5f04c5f67d3da93e": "Cronomarcador de época, como entero.",
-	"65fdbbb2e638ef1c": "Lista de etiquetas del proyecto."
+	"65fdbbb2e638ef1c": "Lista de etiquetas del proyecto.",
+	"959810e2640d2995": "Tokens de API activos",
+	"a7c54bb68a56dd9e": "No tienes ningún token activo."
 }

@@ -48,6 +48,7 @@
 	"262ac4c412701476": "El anfitrión de un evento siempre puede verlo y editarlo.",
 	"276550bf72fab9ee": "Cancelar el evento.",
 	"2b10388fce63a2a6": "Editar evento",
+	"35f63a51173ac709": "Eventos cancelados",
 	"366440ea9727bfc5": "Anfitrión del evento.",
 	"3689c96a16c0b2c8": "Crear exportación",
 	"373229b59178afa1": "«$1» no es un modo de directiva válido. Los modos válidos son: $2.",
@@ -66,6 +67,15 @@
 	"40c881219ae261cd": "Descripción del evento.",
 	"40cd30b84c4a661d": "Comenzó el procesamiento en segundo plano.",
 	"4104f4289a85a8c9": "Importación nueva",
+	"44365655ff10842e": "Importación de calendario",
 	"47fd09f8b75f9cc5": "[Calendario]",
-	"f2a7386b165f3689": "Escriba un nombre de usuario o de proyecto, o una función..."
+	"53a956b04d61bd54": "Crear evento",
+	"707f2e8c86ff9566": "Mostrar sólo los próximos eventos.",
+	"74068d206fedf8af": "Vista Mensual",
+	"a0233b628b8f2bae": "Vista Diaria",
+	"bd56ed779f5ca378": "Eventos cancelados y activos",
+	"c366dd1a812bb889": "Importar/Exportar",
+	"e61d79d7f3a5e91d": "Solo eventos cancelados",
+	"f2a7386b165f3689": "Escriba un nombre de usuario o de proyecto, o una función...",
+	"fb1bde1b6c262f9f": "Vista Tipo Lista"
 }
