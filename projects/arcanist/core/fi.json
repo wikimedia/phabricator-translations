@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hdicu",
 			"Joquliina",
 			"Kyykaarme",
 			"Maantietäjä",
@@ -10,9 +11,11 @@
 			"Yupik"
 		]
 	},
+	"013ec8933730fcd3": "\"$1\" ($2)",
 	"01e963ab91acb9c1": "Ei jäsennellä!",
 	"0210d3ef06cf7ebe": "Portugali (Portugali)",
 	"02a00dc7faefa712": "CC: $1",
+	"0475dff7846b6d50": "Polku '$1' ei ole luettava.",
 	"04829987055905e6": "Englanti (Merirosvo)",
 	"04d2414cddc1052e": "Valita",
 	"04e4ea73341e0956": "Selaa URL \"$1\"",
@@ -26,6 +29,7 @@
 	"07abd5694625c417": "Tuntematon symboli",
 	"07b61143a4ee97fb": "Mitkä sitoutuvat?",
 	"07c209f12f1a9558": "kommittiviesti",
+	"080683c8639ecefe": "Projektin konfiguraatiotiedosto",
 	"08e803d8d11ee22e": "Ei vanhempien laajuutta",
 	"09412de8b30c879e": "Päivitä paikallinen työkopio ennen korjaustiedoston asentamista.",
 	"0abb7fceb8f7abd5": "Jatketaanko lataamatta kirjastoa?",
