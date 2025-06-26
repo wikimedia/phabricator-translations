@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"04259816ace1ebe5": "Alias",
+	"07220ddc07168239": "Phurl änneren",
+	"0e2d9b0777a485c1": "URL",
+	"10ca59433e17327a": "All URLen",
+	"1f7f74d9be3f7d02": "$1 huet den Alias vun $2 op $3 geännert.",
+	"209742d500d13753": "Den Alias fir der URL ze ginn.",
+	"2139440b699aeca2": "Am Alias, deen Dir uginn hutt, ($1) muss mindestens ee Buschtaf virkommen.",
+	"2a229462016518d5": "Nei URL-Beschreiwung.",
+	"3f8f76b785340677": "[Phurl]",
+	"43de2bcd633716d1": "Ugeluecht vum",
+	"4648d39861209ea9": "D'URL fir ze kierzen.",
+	"519f027ec274a60b": "Nei URL.",
+	"523eb1acc731ec7b": "Eng Beschreiwung vun der URL.",
+	"5ff22d5a88c64bfb": "Dësen Alias gëtt scho benotzt.",
+	"7cb83145539e0d66": "Keng URLe fonnt.",
+	"89283ca91ebb357d": "Liest Informatiounen iwwer Phurl-URLen.",
+	"8b23aa38cf79a45c": "URL änneren: $1",
+	"8cb9f1e7c5ed4855": "URL-Numm.",
+	"8e327ef17a698fc5": "Laang URLen",
+	"8f4c5dc0c972aeee": "Nei URL uleeën",
+	"8f8de67c1e696c08": "URL-BESCHREIWUNG",
+	"90c35a133885c4a5": "Neien Alias.",
+	"9c0547ac2c14db76": "Original-URL",
+	"a693b5428598101f": "De Protokoll vun der URL ass ongülteg.",
+	"adfeed5ca5a97e35": "Kuerz URL",
+	"bc508dbf3069908a": "Eng URL kierzen",
+	"bed22f6094ab6791": "Ongülteg URL",
+	"c0f6b306a68004a7": "Neien URL-Numm.",
+	"c6f0551b1f30a017": "Dir sidd net berechtegt fir eng Phurl-URL unzeleeën.",
+	"cbc8c6068a960874": "Den Alias vun der URL.",
+	"dae9e19e65b86406": "Phurl-URLen",
+	"e930bbc9706c821a": "URL-Verkierzer",
+	"ea4c322b37343922": "URL besichen",
+	"f407c61a1b06844a": "URL-DETAIL",
+	"f648cb76be1da6b4": "Den Alias däerf net méi laang wéi $1 Zeeche sinn.",
+	"f648cec18ee67887": "URL uleeën"
+}
