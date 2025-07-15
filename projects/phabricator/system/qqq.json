@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"01ad122ef5d1a3df": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$19 PhabricatorSystemReadOnlyController.php:19]",
 	"0b06f65a8ccab6ac": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemSelectEncodingController.php$18 PhabricatorSystemSelectEncodingController.php:18]",
 	"0b0eef56faff5d89": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$31 PhabricatorSystemReadOnlyController.php:31]",

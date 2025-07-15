@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"02c2a0c48898b578": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseController.php$12 PassphraseController.php:12]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseController.php$33 PassphraseController.php:33]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseCredentialEditController.php$367 PassphraseCredentialEditController.php:367]",
 	"05e5d7263e6c8f40": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/controller/PassphraseCredentialLockController.php$33 PassphraseCredentialLockController.php:33]",
 	"0acba555f26df56a": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/passphrase/xaction/PassphraseCredentialLockTransaction.php$26 PassphraseCredentialLockTransaction.php:26]",

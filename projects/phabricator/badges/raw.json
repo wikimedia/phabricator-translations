@@ -5,6 +5,7 @@
 	"03b82074d395dc2f": "%s updated the quality from %s to %s.",
 	"04affddf28af39d9": "Active Badges",
 	"076e044ec4c569c3": "New badge description.",
+	"077e7acaa238c216": "Badge name is required.",
 	"0bcfba684596bcda": "Edit Badge: %s",
 	"0c74f7f704ccc937": "Badges must have a name.",
 	"0c93baae544a9290": "Other badge activity not listed above occurs.",
@@ -65,6 +66,7 @@
 	"80dbfef159f650a2": "Search for badges by name substring.",
 	"8458b473d9dc1ca5": "Achievements and Notoriety",
 	"8529fe0c351882b7": "Color and rarity of the badge.",
+	"8a199192c9681d2c": "Recipient name is required.",
 	"8a88fe195d3467e3": "Badge %d: %s",
 	"8b63e98360b7d4da": "%s disabled this badge.",
 	"8edf005bcdf520f0": "Active or archived status of the badge.",
@@ -97,7 +99,6 @@
 	"c2741a635a6bb943": "Rain Defender",
 	"c52baf759b2d361c": "[Badge]",
 	"ca5b5d25820e4d02": "The Empire",
-	"cc0e08da90b0a42d": "Edit Recipients",
 	"cce370d2f9781af0": "Rare",
 	"d0f7fbc71ad3557e": "%s updated the flavor from %s to %s.",
 	"d1049a230492fda1": "Someone changes the badge's details.",
@@ -125,6 +126,5 @@
 	"f64caca984529d7a": "Default Edit Badges",
 	"f7a759717836bc1d": "Read information about badges.",
 	"fcfb12e032a2dfe8": "%s revoked %s from %s recipient(s): %s.",
-	"fdec642085620e75": "Flavor Text",
-	"8176346296534767": "Add Recipient"
+	"fdec642085620e75": "Flavor Text"
 }

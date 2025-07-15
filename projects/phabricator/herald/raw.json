@@ -217,7 +217,6 @@
 	"929532bc27ab6faa": "Hook Error",
 	"9369282ac0d0f30c": "Regular expression \"%s\" in Herald rule \"%s\" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.",
 	"938be421203a074b": "No adapter exists for Herald content type \"%s\".",
-	"93e35eabcebb0b91": "You do not have permission to create or manage global rules.",
 	"94050f8de89469b8": "Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.",
 	"95f82834d8aaee87": "Call webhooks",
 	"97183f15ab1d0225": "Another Herald rule",
@@ -227,6 +226,8 @@
 	"9c1a77baeae59b61": "Edit Rule",
 	"9c63cc433fe93843": "any of",
 	"9dbf2fc15a62cf57": "Dry Run",
+	"6717645518074393": "No transcripts found.",
+	"93e35eabcebb0b91": "You do not have permission to create or manage global rules.",
 	"9e803e8049a7dd8e": "Condition references a rule which does not exist!",
 	"a0072fe841be67b6": "Show Only Enabled Rules",
 	"a08cad1eb53026ea": "Webhook %d %s",
@@ -353,6 +354,7 @@
 	"efc9630fa460cf5f": "This change applied silently, so mail and other notifications will not be sent.",
 	"efd7a20e9ee1b761": "This rule has a dependency cycle and can not be evaluated:",
 	"f00f0a0d2a6584f0": "Requested At",
+	"f0e05e5927d8bdaa": "An exception occurred executing Herald rule %s: Unknown action: \"%s\". Review the Herald transcripts and correct or disable the problematic rule.",
 	"f0e07f12f9c83a34": "Unknown condition '%s'.",
 	"f256e81aedadd14b": "Associated hook (\"%s\") for webhook request (\"%s\") is disabled.",
 	"f2ef1dc296bf8c07": "Rule Transcript",
@@ -363,6 +365,7 @@
 	"f570eb43f435c30e": "%s changed %s from %s to %s.",
 	"f5fc3cb46cf8a2bf": "Regular expression pair is not valid JSON!",
 	"f663cbb6f60f871c": "You do not have permission to create webhooks.",
+	"f77c4dde2cd4ad20": "An exception occurred executing Herald rule %s: \"%s\" Review the Herald transcripts and correct or disable the problematic rule.",
 	"f80692fc49309b38": "is not any of",
 	"f8bd004fb731533b": "This object is not of an allowed type for the rule. Rules can only trigger on certain objects.",
 	"f8ed2d203a2d3280": "This rule was created with a newer version of Herald. You can not view or edit it in this older version. Upgrade your software.",
@@ -379,6 +382,5 @@
 	"fd4b8529ea0d3441": "%s renamed this webhook from %s to %s.",
 	"fda6fe27af5dd3c8": "Name of the webhook.",
 	"fdfe2da709ca2c4f": "Webhooks",
-	"fe80802e39da3436": "The regular expression pair \"%s\" must have exactly two elements.",
-	"6717645518074393": "No transcripts found."
+	"fe80802e39da3436": "The regular expression pair \"%s\" must have exactly two elements."
 }
