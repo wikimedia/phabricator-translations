@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hide on Rosé"
+		]
+	},
+	"07b032b56f7aa399": "Chưa đọc",
+	"14dd2a4656a89116": "Không thể tải trạng thái máy chủ: đây không phải là máy chủ quản trị!",
+	"215ed57ea00cd4b2": "Tất cả các thông báo",
+	"3d9f47ddd54fe157": "Bạn có thực sự muốn đánh dấu tất cả thông báo là đã đọc không?",
+	"42acf1b5974ad9e6": "Cấu hình máy chủ thông báo không hợp lệ: không có máy chủ nào được bật với loại \"admin\". Hệ thống thông báo yêu cầu ít nhất một máy chủ \"admin\" đang hoạt động.",
+	"47bb223ad62d3256": "Thiết lập máy khách",
+	"572de068b2329b96": "Cấu hình máy chủ thông báo không hợp lệ: không có máy chủ nào được bật với loại \"client\". Hệ thống thông báo yêu cầu ít nhất một máy chủ \"client\" đang hoạt động.",
+	"6776e111aef4227a": "Tất cả thông báo chưa đọc sẽ được đánh dấu là đã đọc. Bạn không thể hoàn tác thao tác này.",
+	"6faa4218ab931e0d": "Thông báo chưa đọc",
+	"6fe51d8fad2a6ea4": "Không thể đăng tải tin nhắn: đây không phải là máy chủ quản trị!",
+	"771e05f27b99fd59": "Đã ngắt kết nối",
+	"7a54c1fcde926d84": "$1 thông báo về các mục không còn tồn tại hoặc bạn không còn được nhìn thấy nữa đã bị loại bỏ.",
+	"7f02a61559647c50": "Không có thông báo chưa đọc.",
+	"8b0d4e583fdf3c6f": "Máy chủ Thông báo tạm ngừng hoạt động",
+	"8f3ba9d089600a85": "Máy chủ này được cấu hình để sử dụng máy chủ thông báo, nhưng không thể kết nối đến máy chủ đó. Bạn nên giải quyết vấn đề này hoặc tắt máy chủ thông báo. Có thể hữu ích nếu bạn kiểm tra lại cấu hình hoặc khởi động lại máy chủ bằng lệnh bên dưới.\n\n$1",
+	"921af3bf3920d823": "Cập nhật và Cảnh báo Thời gian thực",
+	"92671dfe54e42f0c": "Bạn không thể phớt lờ vấn đề của mình mãi được, bạn biết đấy.",
+	"9b16335d5b0b0a4a": "Không thể kết nối với máy chủ thông báo",
+	"ad87d7cef1baf9fe": "Máy chủ thông báo không được kích hoạt",
+	"b61b70be925f16d0": "Đây là thông báo thử nghiệm, được gửi vào $1.",
+	"b6ef1f5cf0f38781": "(Để khởi động máy chủ, hãy chạy lệnh này.)\n$1",
+	"b88a6664ed5b0050": "Bạn không có thông báo nào chưa đọc.",
+	"b98e3f99c2aea77e": "Đang kết nối…",
+	"e5f613432959373a": "Đánh dấu tất cả đã đọc",
+	"e6fe34ea1c47c080": "Chỉ hiển thị thông báo chưa đọc.",
+	"f9b6f64d81b3eed1": "Bạn không có thông báo nào."
+}

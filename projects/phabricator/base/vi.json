@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hide on Rosé"
+		]
+	},
+	"21909f6cc9658765": "Không có ứng dụng '$1'!",
+	"2b864b4aa73d7545": "Ứng dụng này là bắt buộc nên tất cả người dùng phải có quyền truy cập vào nó.",
+	"473a2b8ae0fda34b": "Có thể cấu hình ứng dụng",
+	"5065c3a197c9ae53": "Có thể sử dụng ứng dụng",
+	"71a5993ec4612869": "Ứng dụng cốt lõi",
+	"78d67090ef36b075": "Không có ứng dụng!",
+	"7a1c0a74305daaaf": "$1 Ứng dụng",
+	"b0608ab1bd963593": "Công cụ dành cho nhà phát triển",
+	"d8c88db363a66211": "Yêu cầu bao gồm tham số bị hạn chế \"$1\", nhưng bộ điều khiển (\"$2\") không đưa nó vào danh sách cho phép. Từ chối xử lý yêu cầu này vì có thể đây là một phần của cuộc tấn công chuyển hướng.",
+	"d9b9a15e87d0d955": "Không rõ khả năng '$1'!"
+}
