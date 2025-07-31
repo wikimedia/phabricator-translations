@@ -363,7 +363,6 @@
 	"654a357502e112e0": "Elasticsearch yapılandırıldı ($1 ayarıyla), ancak Phabricator dizini test etmeye çalışırken bir istisna ile karşılaştı.\n\n$2",
 	"657f228361b0e654": "SSH anahtarları artık gerçekten kullanışlıdır, bu nedenle her zaman etkindir.",
 	"65a93973ada5a6a7": "Bayt cinsinden çıkış isteyin.",
-	"65c92754ab74cf58": "AWS (EC2, SES, S3, vb.) ile entegrasyonu yapılandırın.",
 	"65d5b644919855aa": "'$1' yapılandırma seçeneği geçersiz. URI sadece '$3' gibi çıplak bir isim değil, '$2' gibi bir nokta ('.') içermelidir. Bazı web tarayıcıları, TLD bulunmayan alanlarda çerez ayarlamaz.",
 	"65dea2686caf61e6": "Multimetre uygulaması performans örnekleri toplar. Bu verileri, Phabricator'ın zaman ve kaynak için ne harcadığını anlamanıza ve sorunlu erişim modellerini tanımlamanıza yardımcı olması için kullanabilirsiniz.\n\nBu seçenek, örneklemenin ne sıklıkta etkinleştirileceğini denetler. Her 1 / N sayfayı örneklemek için bazı pozitif tamsayı N'ye ayarlayın.\n\nÇoğu yükleme için varsayılan değer (1000 sayfa başına 1 örnek) fazla depolama alanı gerektirmeden veya performansı önemli ölçüde etkilemeden yararlı olacak yeterli veri toplamalıdır. Performans sorunlarını araştırıyorsanız, daha fazla veri toplamak için hızı ayarlayabilirsiniz.",
 	"665cda3eaee0fbc9": "Önbellek ad alanı.",

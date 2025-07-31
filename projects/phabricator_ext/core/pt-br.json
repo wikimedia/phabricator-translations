@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Mariagarbin"
+			"Mariagarbin",
+			"Pppery"
 		]
 	},
 	"012bb11a52bc141c": "Escalar",
@@ -24,6 +25,7 @@
 	"2631698ceb21328a": "Proteger como questão de segurança",
 	"26af532af13c6b3a": "OAuth JWT iss não é compativel com o nome de servidor esperado",
 	"2e46f1d16340105d": "OAuth JWT não foi válido neste momento",
+	"2f4618a4803962d4": "Se algo é sério o suficiente para justificar uma reversão então você deve alertar os implantadores em[[ https://www.mediawiki.org/wiki/Special:MyLanguage/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].",
 	"378955d3f3c1ad41": "O provedor OAuth retornou uma resposta de erro.",
 	"39b1b183efdd6e83": "Tenha certeza de que políticas de tarefa sejam aplicadas",
 	"3a8163072c6b6b8f": "Detalhes de lançamento",
@@ -32,7 +34,6 @@
 	"3e23efbcb5cf65ab": "Ação inválida '$1'!",
 	"429f9802c2088c4c": "MediaWiki",
 	"46d8b46923d1248d": "URI de base do MediaWiki",
-	"51f99735e504752c": "Alterar tipo para \"$1.\"",
 	"522cd9ae192cee70": "Encontre transações públicas por um usuário específico.",
 	"5349bc5f15aeaa1d": "Passo 2 de 2: Crie um consumidor de autenticação MediaWiki para essa instância do Phabricator.\n\nNOTA: Proponha um consumidor com a forma nesse url: $1\n\nProvidencie as seguintes configurações no registro do consumidor:\n\n-Revogar URL:Coloque em $2\n-Permissões:'Direitos Básicos' é só que precisa de autenticação.\n\nDepois de registrar o consumidor, uma \"Chave de Consumidor\" e um \"Segredo de Consumidor\" vão ser fornecidas para você pela MediaWiki. Para completar a configuração do Phabricator, copie as chaves fornecidas nos campos correspondentes acima.\n\nNOTA:Antes que o Phabricator possa autenticar com sucesso seu MediaWiki, um administrador wiki deve aprovar o registro do consumidor oauth usando a forma que pode ser encontrada no seguinte url: $3",
 	"53577bb5df0ee9b6": "Negar",
@@ -54,7 +55,6 @@
 	"94c767ae8c5e9f32": "OAuth JWT aud não correspondeu à chave do consumidor esperada",
 	"965d29d61be325ec": "Mudanças relacionadas em Gerrit:",
 	"98104d0ac3ffcbe8": "Revisão de código iniciada",
-	"9b3b5fdba2d39508": "Tipo alterado",
 	"9c8711c4e06fa5fe": "Esconder instruções",
 	"a0ab81f4724c2918": "Regras não possuem nenhum efeito.",
 	"a424bcd8b62f9d1f": "**Etapa 1 de 2**: Forneça o nome e o URI para sua instalação do MediaWiki.\n\nNa próxima etapa, você criará um consumidor de autenticação no MediaWiki para ser usado pelo Phabricator oauth.",
@@ -69,7 +69,6 @@
 	"b90df6d9b7342d23": "Crie objetos de política de controle de acesso personalizados.",
 	"ba51487edf1c05f5": "Use [[$1|esse formulário]] para criar um.",
 	"bb640aa769e1bc55": "Usuário do MediaWiki",
-	"bb9c0847cef2709e": "Mudar tipo para",
 	"bbca19f462a0b062": "Redefinir as configurações de segurança",
 	"bc67f6bb78373f52": "Tarefas abertas",
 	"bc7819b34ff87570": "Desconhecido",
@@ -85,10 +84,7 @@
 	"e61eb466f42dbeba": "Sem permissão",
 	"eb2733ea92c9decd": "Navegação em série",
 	"eed6bfb41051ed5b": "Requerido",
-	"f1885356a4ddbfb1": "Número de tarefas abertas ao longo do tempo",
 	"f34fb6e3669dfd5b": "Abandonado",
 	"f833adbd55be04c8": "Linha(s) $1 adicionada(s)",
-	"f888fcf4b493b0b9": "Se algo é sério o suficiente para justificar uma reversão então você deve alertar os implantadores em[[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].",
-	"fce06e20e5f7f74a": "Comentários",
-	"ff8213df8757cc4a": "Alterar tipo para \"$1\""
+	"fce06e20e5f7f74a": "Comentários"
 }

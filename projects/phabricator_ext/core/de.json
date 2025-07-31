@@ -14,7 +14,6 @@
 	"16121b92df54c50d": "Verwandte Patches anzeigen",
 	"18c4324ad93e783f": "Du musst entweder einen Benutzernamen oder eine userPHID angeben",
 	"1e0d38745c10e6eb": "Unbekannte Richtlinien: $1",
-	"51f99735e504752c": "Ändere den Typ auf \"$1.\"",
 	"54e07aad9d8e5b8e": "Ungültig",
 	"5675b2bb3eceb365": "Bei Code-Review blockiert – Benötigt Änderungen",
 	"56e4cd1b87174f82": "Änderung in Gerrit anzeigen",
@@ -32,7 +31,5 @@
 	"e20bdc892a74ee50": "Expertenmodus",
 	"e360b2c8470aeb30": "MediaWiki-Name fehlt oder unbekannt: $1",
 	"eed6bfb41051ed5b": "Erforderlich",
-	"f1885356a4ddbfb1": "Anzahl der offenen Aufgaben im Zeitverlauf",
-	"fce06e20e5f7f74a": "Kommentare",
-	"ff8213df8757cc4a": "Ändere den Typ auf \"$1\""
+	"fce06e20e5f7f74a": "Kommentare"
 }

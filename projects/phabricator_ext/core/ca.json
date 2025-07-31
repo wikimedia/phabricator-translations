@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alan Mena",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"012bb11a52bc141c": "Escalar",
@@ -30,6 +31,7 @@
 	"2bbcef52f782c2be": "Mostrar la sortida verbosa.",
 	"2e46f1d16340105d": "OAuth JWT no era vàlid en aquest moment",
 	"2f361488dc92d55a": "Qualsevol error greu que afecti '$1' s'ha d'afegir com a subtasques a sota d'aquest.",
+	"2f4618a4803962d4": "Si alguna cosa és prou greu com per justificar una recuperació, hauríeu de posar-la en coneixement dels desenvolupadors a [[ https://www.mediawiki.org/wiki/Special:MyLanguage/MediaWiki_on_IRC | #wikimedia-operations IRC channel]].",
 	"32b9e4245f21e239": "El nom d'usuari per al qual es recuperaran les transaccions.",
 	"33d9a3a13a32e73e": "ChangeId",
 	"368ac8ae3c535b5a": "Només els administradors poden trucar a aquest API",
@@ -42,11 +44,8 @@
 	"3d35c21c19562820": "Usuari d'LDAP",
 	"3e23efbcb5cf65ab": "L'acció '$1' no és vàlida.",
 	"3f5a5b3855b56038": "Mostra l'identificador de canvi de gerrit per a una validació.",
-	"3fd3ad4972de807d": "Això afegeix un enllaç a maniphest de cerca de tasques obertes etiquetades amb aquest projecte.\n\nNOTA: Aquesta funcionalitat la proporciona una extensió mantinguda per Wikimedia, ProjectBurnupGraphProfileMenuItem. Consulteu la font {rPHEX}.",
 	"429f9802c2088c4c": "MediaWiki",
 	"46d8b46923d1248d": "URI base MediaWiki",
-	"4ad975c06a3c56cc": "Gràfic de consum",
-	"51f99735e504752c": "Canvieu el tipus a '$1'.",
 	"520a6c9d4adbe62d": "Executeu cerques de polítiques.",
 	"522cd9ae192cee70": "Cerqueu transaccions públiques d'un usuari concret.",
 	"52849e661a5743c5": "Omet les files OFFSET abans de processar les transaccions restants.",
@@ -78,7 +77,6 @@
 	"965d29d61be325ec": "Canvis relacionats a Gerrit:",
 	"98104d0ac3ffcbe8": "S'ha iniciat la revisió del codi",
 	"9818855a7a1ea556": "Activeu el mode expert per mostrar opcions 'avançades' addicionals a la interfície d'usuari de Phabricator.",
-	"9b3b5fdba2d39508": "Tipus canviat",
 	"9bccc3f6a72d4ee0": "Fer complir la política de seguretat de tasques",
 	"9c8711c4e06fa5fe": "Oculta les instruccions",
 	"a0ab81f4724c2918": "Les regles no tenen cap efecte.",
@@ -98,7 +96,6 @@
 	"b90df6d9b7342d23": "Creeu objectes de política de control d'accés personalitzats.",
 	"ba51487edf1c05f5": "Utilitzeu [[$1|aquest formulari]] per crear-ne un.",
 	"bb640aa769e1bc55": "Usuari de MediaWiki",
-	"bb9c0847cef2709e": "Canvia el tipus a",
 	"bbca19f462a0b062": "Restablir els paràmetres de seguretat",
 	"bc67f6bb78373f52": "Tasques obertes",
 	"bc7819b34ff87570": "Desconegut",
@@ -118,12 +115,8 @@
 	"e61eb466f42dbeba": "Sense Permís",
 	"eb2733ea92c9decd": "Navegació de sèries",
 	"eed6bfb41051ed5b": "Requerit",
-	"f1885356a4ddbfb1": "Nombre de tasques obertes al llarg del temps",
 	"f34fb6e3669dfd5b": "Abandonat",
 	"f833adbd55be04c8": "S'han afegit $1 línies",
-	"f888fcf4b493b0b9": "Si alguna cosa és prou greu com per justificar una recuperació, hauríeu de posar-la en coneixement dels desenvolupadors a [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel]].",
 	"fa24d17f881e1087": "Si teniu un canvi arriscat al tren d'aquesta setmana, afegiu un comentari a aquesta tasca mitjançant la icona {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]",
-	"fc5658eac133d3fc": "Enllaç a Burnup Graph",
-	"fce06e20e5f7f74a": "Comentaris",
-	"ff8213df8757cc4a": "Canvieu el tipus a \"$1\"."
+	"fce06e20e5f7f74a": "Comentaris"
 }

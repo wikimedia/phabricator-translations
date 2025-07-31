@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby",
-			"Kingu"
+			"Kingu",
+			"Yupik"
 		]
 	},
 	"002ff598115d8459": "Spørsmål",
@@ -187,6 +188,7 @@
 	"3fb75e3bfe4de94e": "Nullstill passord",
 	"42e43b612a5dfae5": "tirsdag",
 	"433632ea5cd64cd1": "mars",
+	"4894cb39ee419a77": "Nytt passord",
 	"48c98cab7866e606": "søn.",
 	"529541bb390c7615": "tir.",
 	"5656b9b79b0316fc": "onsdag",
@@ -197,6 +199,7 @@
 	"76031ddf92450ba5": "torsdag",
 	"7a22d73d336abd62": "januar",
 	"7e36502c1b399482": "Velkommen til Phabricator.",
+	"84c29015de33e5d2": "Brukernavn",
 	"87206ae236348349": "oktober",
 	"8d105cf44d392628": "Sammenlign",
 	"932eeb1076c85e52": "mandag",

@@ -34,8 +34,6 @@
 	"3e23efbcb5cf65ab": "Geçersiz eylem '$1'!",
 	"429f9802c2088c4c": "MediaWiki",
 	"46d8b46923d1248d": "MediaWiki Temel URI",
-	"4ad975c06a3c56cc": "Burn-up grafiği",
-	"51f99735e504752c": "Türü \"$1\" olarak değiştir.",
 	"520a6c9d4adbe62d": "Politikalar için arama yap.",
 	"530b9f080585471b": "Geri döndürme işlemini yapın",
 	"53577bb5df0ee9b6": "Reddet",
@@ -51,7 +49,6 @@
 	"71c69321e20924c2": "Gerrit yamaları",
 	"789c3347d4ec2765": "Son güncellemeye göre sırala",
 	"7d5a21acd6bc40aa": "$1 Satır kaldırıldı",
-	"9b3b5fdba2d39508": "Değiştirilmiş Tür",
 	"9c8711c4e06fa5fe": "Talimatları gizle",
 	"a444398bab4ed66e": "kullanıcılar şuraya abone oldu",
 	"a56267f7c40ae1ee": "PHID'ler gereklidir",
@@ -70,6 +67,5 @@
 	"eed6bfb41051ed5b": "Gerekli",
 	"f34fb6e3669dfd5b": "Terk edilmiş",
 	"f833adbd55be04c8": "$1 Satır eklendi",
-	"fce06e20e5f7f74a": "Yorumlar",
-	"ff8213df8757cc4a": "Türü \"$1\" olarak değiştir"
+	"fce06e20e5f7f74a": "Yorumlar"
 }

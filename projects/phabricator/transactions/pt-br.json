@@ -3,6 +3,7 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
+			"Pppery",
 			"Urhixidur"
 		]
 	},
@@ -52,6 +53,7 @@
 	"47a47420fbc1c00d": "Nenhum MFA",
 	"4896c63a3c5bef4d": "Formato de exportação (\"$1\") não está ativado.",
 	"4ecd5928b588c4b9": "Desativar formulário",
+	"4ffa7000d6134ea8": "Exportar dados para um arquivo simples (JSON, CSV, Excel, etc.).",
 	"5060c460f221bfc4": "Você deve fornecer credenciais de vários fatores para comentar ou fazer alterações, mas não possui a autenticação multifator configurada em sua conta.",
 	"5125802181632dd0": "Menção",
 	"51713409935576d6": "exportar",
@@ -94,7 +96,6 @@
 	"bd556e463dbd3ab5": "As consultas especificadas usam mecanismos diferentes: a consulta \"$1\" usa o mecanismo \"$2\", não \"$3\". Todas as consultas devem ser executadas no mesmo mecanismo.",
 	"bd905315182de6ba": "$1 inscritos atualizados...",
 	"be1666833000b25f": "Remover comentário",
-	"c0e7c8e1e1beca14": "Exportar dados para um arquivo simples (JSON, CSV, Excel, etc.).",
 	"c46598d158750c69": "Marcar como criar formulário",
 	"c77e03fec9c7b8d8": "Alterar subtipo de formulário",
 	"ca21f1d4ed4baac4": "$1 criou este objeto com a política de edição \"$2\".",

@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"0fb59422f6006b36": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/multimeter/controller/MultimeterSampleController.php$231 MultimeterSampleController.php:231]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/multimeter/controller/MultimeterSampleController.php$237 MultimeterSampleController.php:237]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/multimeter/controller/MultimeterSampleController.php$274 MultimeterSampleController.php:274]",
 	"1b3d1f152ab0af85": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/multimeter/storage/MultimeterEvent.php$37 MultimeterEvent.php:37]",
 	"1db7ceb187824c6b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/multimeter/controller/MultimeterSampleController.php$285 MultimeterSampleController.php:285]",

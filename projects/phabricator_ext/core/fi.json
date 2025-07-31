@@ -17,7 +17,6 @@
 	"3ad0e3698278f45b": "Salli",
 	"3d35c21c19562820": "LDAP-käyttäjä",
 	"429f9802c2088c4c": "MediaWiki",
-	"51f99735e504752c": "Vaihda tyypiksi ”$1”.",
 	"53577bb5df0ee9b6": "Kiellä",
 	"56e4cd1b87174f82": "Näytä muutos Gerritissä",
 	"56e52acbb4fbf219": "Käyttäjätunnus pitää ottaa pois käytöstä ennen sen aktiviteettien perumista",
@@ -32,7 +31,6 @@
 	"b90df6d9b7342d23": "Luo mukautettuja käyttöoikeuskäytäntöobjekteja.",
 	"ba51487edf1c05f5": "Luo käyttäen tätä [[$1|lomaketta]].",
 	"bb640aa769e1bc55": "MediaWiki-käyttäjä",
-	"bb9c0847cef2709e": "Vaihda tyypiksi",
 	"bc67f6bb78373f52": "Avoimet tehtävät",
 	"bc7819b34ff87570": "Tuntematon",
 	"be67844b013fc678": "Järjestelmänlaajuiset tunnukset",
@@ -40,8 +38,6 @@
 	"e20bdc892a74ee50": "Asiantuntijatila",
 	"e61eb466f42dbeba": "Ei oikeutta",
 	"eed6bfb41051ed5b": "Vaadittu",
-	"f1885356a4ddbfb1": "Avoimien tehtävien lukumäärä ajan kuluessa",
 	"f34fb6e3669dfd5b": "Hylätty",
-	"f833adbd55be04c8": "$1 rivi(ä) lisätty",
-	"ff8213df8757cc4a": "Vaihda tyypiksi ”$1”"
+	"f833adbd55be04c8": "$1 rivi(ä) lisätty"
 }

@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"0006324868d87fff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$134 FundInitiativeEditEngine.php:134]",
 	"09da16816c90724b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$142 FundInitiativeEditEngine.php:142]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/editor/FundInitiativeEditEngine.php$143 FundInitiativeEditEngine.php:143]",
 	"0c65384c668ba13b": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fund/xaction/FundInitiativeStatusTransaction.php$19 FundInitiativeStatusTransaction.php:19]",

@@ -27,7 +27,6 @@
 	"1d3ee85231ab85f3": "$1 bearbeitete(s) Projekt(e), $2 hinzugefügt: $3; $4 entfernt: $5.",
 	"1f4d276337d695ba": "Unterprojekt erstellen",
 	"1ffe0670e10b0b93": "Alle Projekte anzeigen",
-	"205ba2340a310ac3": "Verbleibende offene Aufgaben: $1",
 	"20cc43062f1d8a5f": "$1 bearbeitete dazugehörige Projekte.",
 	"21e4860b30a6108d": "Mitglieder entfernen.",
 	"272c2796406a53bb": "Projekt Mitgliedschaft wird geändert.",
@@ -58,6 +57,5 @@
 	"e739e13d2f73b942": "Name, Hashtags, Icon, Bild oder Farbe wird geändert.",
 	"eb91f43d4b0e812b": "$1 setzte das Projekt Icon auf $2.",
 	"f97da8c0f3388f58": "$1 setze das Symbol von $2 auf $3.",
-	"fb91e24fa52d8d2b": "Aktualisieren",
 	"fcc9f010e88bb72d": "$1 bearbeitet $2 Projekt(e), $3 hinzugefügt: $4; $5 entfernt: $6."
 }

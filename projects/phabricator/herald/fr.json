@@ -236,7 +236,6 @@
 	"929532bc27ab6faa": "Erreur d’ancrage",
 	"9369282ac0d0f30c": "L’expression rationnelle « $1 » dans la règle Herald « $2 » n’est pas valide, ou a dépassé les limites de retours sur trace ou de récursion au cours de son exécution. Vérifiez l’expression et corrigez-la ou réécrivez-la avec moins de retours sur trace.",
 	"938be421203a074b": "Aucun adaptateur existant pour le type de contenu Herald « $1 ».",
-	"93e35eabcebb0b91": "Vous n’avez pas la permission de créer ou de gérer des règles globales.",
 	"94050f8de89469b8": "Beaucoup de requêtes sur cette accroche Internet ont échoué récemment (au moins $1 erreurs durant ces $2 dernières secondes). Les nouvelles requêtes sont temporairement suspendues.",
 	"95f82834d8aaee87": "Appel des accroches Internet",
 	"97183f15ab1d0225": "Une autre règle Herald",
@@ -246,6 +245,8 @@
 	"9c1a77baeae59b61": "Modifier la règle",
 	"9c63cc433fe93843": "n’importe lequel/laquelle de",
 	"9dbf2fc15a62cf57": "Lancement de test",
+	"6717645518074393": "Aucune transcription trouvée.",
+	"93e35eabcebb0b91": "Vous n’avez pas la permission de créer ou de gérer des règles globales.",
 	"9e803e8049a7dd8e": "La condition fait référence à une règle inexistante !",
 	"a0072fe841be67b6": "Montrer les règles activées uniquement",
 	"a08cad1eb53026ea": "Accroche Internet $1 $2",
@@ -398,6 +399,5 @@
 	"fd4b8529ea0d3441": "$1 a renommé cette accroche Internet de $2 en $3.",
 	"fda6fe27af5dd3c8": "Nom de l'accroche Internet.",
 	"fdfe2da709ca2c4f": "Accroches Internet",
-	"fe80802e39da3436": "La paire d’expressions rationnelles « $1 » doit avoir exactement deux éléments.",
-	"6717645518074393": "Aucune transcription trouvée."
+	"fe80802e39da3436": "La paire d’expressions rationnelles « $1 » doit avoir exactement deux éléments."
 }

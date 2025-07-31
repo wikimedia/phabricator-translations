@@ -222,7 +222,6 @@
 	"929532bc27ab6faa": "Error de hook",
 	"9369282ac0d0f30c": "L'expressió regular \"$1\" a la regla Herald \"$2\" no és vàlida, ni ha superat els límits de retrocés o recursivitat durant l'execució. Verifiqueu l'expressió i corregiu-la o reescriviu-la amb menys retrocés.",
 	"938be421203a074b": "No existeix cap adaptador per al tipus de contingut Herald '$1'.",
-	"93e35eabcebb0b91": "No tens permís per crear o dirigir regles globals.",
 	"94050f8de89469b8": "Moltes sol·licituds a aquest webhook han fallat recentment (almenys $1 errors en els darrers $2 segons). Les sol·licituds noves s’aturen temporalment.",
 	"95f82834d8aaee87": "Trucada a webhooks",
 	"97183f15ab1d0225": "Una altra regla de Herald",
@@ -232,6 +231,8 @@
 	"9c1a77baeae59b61": "Edita la regla",
 	"9c63cc433fe93843": "qualsevol de",
 	"9dbf2fc15a62cf57": "Prova en blanc",
+	"6717645518074393": "No s'ha trobat cap transcripció.",
+	"93e35eabcebb0b91": "No tens permís per crear o dirigir regles globals.",
 	"9e803e8049a7dd8e": "La condició fa referència a una regla que no existeix!",
 	"a0072fe841be67b6": "Mostra només les regles habilitades",
 	"a08cad1eb53026ea": "Webhook $1 $2",
@@ -384,6 +385,5 @@
 	"fd4b8529ea0d3441": "$1 ha reanomenat aquesta webhook de \"$2\" a \"$3\".",
 	"fda6fe27af5dd3c8": "Nom del webhook.",
 	"fdfe2da709ca2c4f": "Webhooks",
-	"fe80802e39da3436": "El parell d'expressions regulars \"$1\" ha de tenir exactament dos elements.",
-	"6717645518074393": "No s'ha trobat cap transcripció."
+	"fe80802e39da3436": "El parell d'expressions regulars \"$1\" ha de tenir exactament dos elements."
 }

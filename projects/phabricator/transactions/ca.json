@@ -5,7 +5,8 @@
 			"Dvdjaco",
 			"Fitoschido",
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"0011bad3ecc480f3": "Bloquejar/ocultar els camps",
@@ -147,6 +148,7 @@
 	"4e48d1e38d986b43": "Ocultar els formularis d'edició",
 	"4ecd5928b588c4b9": "Deshabilitar el formulari",
 	"4f7b44e07f9bb27a": "Aquest formulari ('$1') no està marcat com a formulari d'edició, de manera que no es pot utilitzar per editar objectes.",
+	"4ffa7000d6134ea8": "Exporteu dades a un fitxer pla (JSON, CSV, Excel, etc.).",
 	"5060c460f221bfc4": "Heu de proporcionar credencials de múltiples factors per fer comentaris o fer canvis, però no teniu configurada l'autenticació de múltiples factors al vostre compte.",
 	"50f250472da97c3f": "$1 ha modificat un camp personalitzat en $2.",
 	"5125802181632dd0": "Menció",
@@ -320,7 +322,6 @@
 	"bf7127e7ac1ea9cb": "Fer que la incorporada sigui editable",
 	"bfb2da1456e6d393": "L'editor ('$1') no té cap plantilla de segell de correu electrònic amb la clau proporcionada ('$2').",
 	"c0b17ffae1ca4057": "No podeu desplaçar aquest objecte a l'espai seleccionat perquè l'espai no existeix o no hi teniu accés.",
-	"c0e7c8e1e1beca14": "Exporteu dades a un fitxer pla (JSON, CSV, Excel, etc.).",
 	"c145e2b945fe27fb": "Heu de triar un espai per a aquest objecte.",
 	"c1630af0f802b47c": "Editar els formularis",
 	"c46598d158750c69": "Marcar com a formulari de creació",

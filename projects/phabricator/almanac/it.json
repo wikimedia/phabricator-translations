@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Beta16"
 		]
 	},
 	"02a9a0412b384fbf": "Nome del servizio",
@@ -21,9 +22,14 @@
 	"49d2c9c065a6d0ad": "Modifica network",
 	"4becf080f28c92dd": "Crea namespace",
 	"52545532d7900049": "Interfaccia $1",
+	"5a87c2b3fd282b25": "Crea un dispositivo",
+	"697c25d8c873438f": "Crea un servizio",
 	"6bb011630498ca8e": "Namespace $1",
+	"79034beb97cd5948": "Crea una rete",
+	"852b5f3368fe4eae": "Vedi dispositivi",
 	"9109cec1d70311d8": "Almanacco",
 	"926527594f94772f": "IMPORTANTE!",
 	"be09a63bd1995e99": "Namespace",
-	"ccae75cdd4db3216": "$1:$2 ($3 su $4)"
+	"ccae75cdd4db3216": "$1:$2 ($3 su $4)",
+	"d7fa294cfbdbe51a": "Vedi reti"
 }

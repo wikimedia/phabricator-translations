@@ -108,7 +108,6 @@
 	"c2741a635a6bb943": "Défenseur de la pluie",
 	"c52baf759b2d361c": "[Insigne]",
 	"ca5b5d25820e4d02": "L'empire",
-	"cc0e08da90b0a42d": "Modifier les contenus",
 	"cce370d2f9781af0": "Rare",
 	"d0f7fbc71ad3557e": "$1 a mis à jour la variété de $2 en $3.",
 	"d1049a230492fda1": "Quelqu’un a modifié les détails de l’insigne.",
@@ -136,6 +135,5 @@
 	"f64caca984529d7a": "Modification de badges par défaut",
 	"f7a759717836bc1d": "Lire les informations concernant les badges.",
 	"fcfb12e032a2dfe8": "$1 a révoqué $2 pour $3 destinataire(s) : $4.",
-	"fdec642085620e75": "Texte de la variété",
-	"8176346296534767": "Ajouter un destinataire"
+	"fdec642085620e75": "Texte de la variété"
 }

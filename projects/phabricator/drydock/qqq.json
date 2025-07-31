@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"0082e7ead2a36409": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/query/DrydockRepositoryOperationSearchEngine.php$65 DrydockRepositoryOperationSearchEngine.php:65]",
 	"011cc0b65caac0c0": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/controller/DrydockLogController.php$140 DrydockLogController.php:140]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/controller/DrydockRepositoryOperationStatusController.php$38 DrydockRepositoryOperationStatusController.php:38]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/controller/DrydockRepositoryOperationViewController.php$23 DrydockRepositoryOperationViewController.php:23]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/phid/DrydockRepositoryOperationPHIDType.php$36 DrydockRepositoryOperationPHIDType.php:36]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/query/DrydockRepositoryOperationSearchEngine.php$96 DrydockRepositoryOperationSearchEngine.php:96]",
 	"017066e362659042": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/drydock/logtype/DrydockSlotLockFailureLogType.php$19 DrydockSlotLockFailureLogType.php:19]",

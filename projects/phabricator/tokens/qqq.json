@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"02f99a0b10e068c7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$39 PhabricatorTokenQuery.php:39]",
 	"201f624acb6e2323": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$41 PhabricatorTokenQuery.php:41]",
 	"2ce276d1fbcefd61": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/tokens/query/PhabricatorTokenQuery.php$35 PhabricatorTokenQuery.php:35]",

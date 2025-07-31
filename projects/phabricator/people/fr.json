@@ -38,7 +38,6 @@
 	"0f2a4c5ee51338f4": "Enregistrer le nom véritable de l’utilisateur, comme « Abraham Lincoln ».",
 	"11a92710ecabfdb0": "Transmettez « true » (vrai) pour trouver uniquement des listes de courriels, ou bien « false » (faux) pour les omettre.",
 	"13730074ae976099": "Vous devez être administrateur pour créer des administrateurs.",
-	"148aaf2e06c62283": "Condoléances pour l’oubli de votre mot de passe. Vous pouvez utiliser ce lien pour le réinitialiser :\n\n $1 \n\nAprès avoir défini un nouveau mot de passe, pensez à l’écrire sur une note autocollante et à l’attacher à votre écran pour ne plus l’oublier ! Le choix d’un mot de passe très court et facile à mémoriser comme « cat » ou « 1234 » peut également aider.\n\nBest Wishes,\nPhabricator",
 	"14c3714d8ec7e130": "Rendu obsolète par « $1 ».",
 	"153fb870fbe026b4": "Comptes et profils d’utilisateurs",
 	"158d004175ef1680": "Connexion : connexion partielle",

@@ -265,7 +265,6 @@
 	"440cb9e6a685ab2c": "Définit les références permanentes.",
 	"445be66090836dfc": "Système de contrôle des versions « $1 » inconnu !",
 	"4471a22d2ad9aa09": "Obtenir les identifiants de validation pour les validations récentes affectant un chemin donné.",
-	"447ff1eaaf5892bb": "Type d'objet inattendu de `$1` dans $2 : $3",
 	"4509fb3fb9a284fd": "Obsolète et remplacé par « diffusion.historyquery ».",
 	"4513eeadd14f76e2": "Ce chemin n’existe pas à $1. Il a été supprimé en $2 et sa dernière existence est à $3.",
 	"4572e19da158badd": "Nouvelles références récupérées.",

@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"01675fb1f0240d47": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/paste/xaction/PhabricatorPasteTitleTransaction.php$45 PhabricatorPasteTitleTransaction.php:45]",
 	"03b422a28459bdef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/paste/application/PhabricatorPasteApplication.php$26 PhabricatorPasteApplication.php:26]",
 	"066b0b1afad0a8e1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/paste/controller/PhabricatorPasteArchiveController.php$53 PhabricatorPasteArchiveController.php:53]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/paste/controller/PhabricatorPasteArchiveController.php$55 PhabricatorPasteArchiveController.php:55]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/paste/controller/PhabricatorPasteViewController.php$134 PhabricatorPasteViewController.php:134]",

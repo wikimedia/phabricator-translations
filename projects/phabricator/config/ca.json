@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"006ecd0b269da44a": "Quan els usuaris escriuen comentaris que tenen URI, es convertiran automàticament en enllaços que es puguin clicar si el protocol URI apareix en aquest conjunt. \n\nAquest conjunt de protocols permesos està pensat principalment per prevenir problemes de seguretat amb \"javascript:\" i altres gestors URI potencialment perillosos. \n\nAquest conjunt també s'utilitza per fer complir els URI de redirecció vàlids.  Phabricator es negarà a emetre una redirecció HTTP \"Location\" a un URI amb un protocol que no està en aquest conjunt. \n\nNormalment, \"http\" i \"https\" han d'estar presents en aquest conjunt. Si elimines un o ambdós protocols, algunes funcionalitats Phabricator que depenen d'enllaços o redireccions poden no funcionar.",
@@ -247,7 +248,6 @@
 	"654a357502e112e0": "Elasticsearch està configurat (amb el paràmetre $1) però Phabricator ha trobat una excepció en intentar fer la prova l'índex. \n\n$2",
 	"657f228361b0e654": "Les claus SSH ara són realment útils, de manera que sempre estan habilitades.",
 	"65a93973ada5a6a7": "Sortida sol·licitada, en bytes.",
-	"65c92754ab74cf58": "Configureu la integració amb AWS (EC2, SES, S3, etc.).",
 	"65d5b644919855aa": "L'opció de configuració «$1» no és vàlida. L'URI ha de contenir un punt ('.'), com '$2', no només un nom nu com '$3'. Alguns navegadors web no establiran galetes en dominis sense TLD.",
 	"65dea2686caf61e6": "L'aplicació Multimeter recull mostrejos de rendiment. Podeu utilitzar aquestes dades per ajudar-vos a entendre què fa el Phabricator, temps i recursos, i per identificar patrons d'accés problemàtics. \n\nAquesta opció controla la freqüència amb què s'activa el mostreig. Establiu-ho a un enter positiu N per a mostrejar cada 1 / N pàgines. \n\nPer a la majoria d'instal·lacions, el valor per defecte (1 mostreig per 1000 pàgines) hauria de recollir prou dades per ser útils sense requerir gaire emmagatzematge o un rendiment d'impacte significatiu. Si estàs investigant problemes de rendiment, pots ajustar la taxa per tal de recollir més dades.",
 	"665cda3eaee0fbc9": "Espai de noms de la caché",
@@ -483,6 +483,7 @@
 	"d430433af949021f": "Paràmetres personalitzats per a aplicacions de Phabricator.",
 	"d4802aaf1bb69619": "L'opció de configuració '$1' no és vàlida. L'URI ha de contenir un punt ('$2'), com ara '$3', no només un nom simple com '$4'. Alguns navegadors web no configuraran galetes en dominis sense TLD.",
 	"d4fc4b55e1406857": "Establiu $1 a la configuració de PHP com a mínim a 32 MB per admetre fitxers de grans dimensions.",
+	"d53ae11f33e8d5b1": "Configureu la integració amb AWS (EC2, SES, S3, etc.).",
 	"d5ff9db2117a3add": "El mode $1 de MySQL no està habilitat",
 	"d60aa6d4fb2bd31c": "Si utilitzeu Apache, és possible que el servidor estigui configurat amb 'SetInputFilter DEFLATE'. Aquesta directiva mangles destructivament sol·licita i les emet amb capçaleres 'Content-Length' i 'Content-Encoding' que ja no coincideixen amb les dades del cos de sol·licitud.",
 	"d6203e70241d1e52": "Opcions per a desenvolupadors de Phabricator, inclosa la depuració.",
