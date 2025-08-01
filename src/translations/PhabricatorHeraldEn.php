@@ -227,7 +227,6 @@ final class PhabricatorHeraldEn
       'Hook Error' => 'Hook Error',
       'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.' => 'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.',
       'No adapter exists for Herald content type "%s".' => 'No adapter exists for Herald content type "%s".',
-      'You do not have permission to create or manage global rules.' => 'You do not have permission to create or manage global rules.',
       'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.' => 'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.',
       'Call webhooks' => 'Call webhooks',
       'Another Herald rule' => 'Another Herald rule',
@@ -237,6 +236,8 @@ final class PhabricatorHeraldEn
       'Edit Rule' => 'Edit Rule',
       'any of' => 'any of',
       'Dry Run' => 'Dry Run',
+      'No transcripts found.' => 'No transcripts found.',
+      'You do not have permission to create or manage global rules.' => 'You do not have permission to create or manage global rules.',
       'Condition references a rule which does not exist!' => 'Condition references a rule which does not exist!',
       'Show Only Enabled Rules' => 'Show Only Enabled Rules',
       'Webhook %d %s' => 'Webhook %s %s',
@@ -363,6 +364,7 @@ final class PhabricatorHeraldEn
       'This change applied silently, so mail and other notifications will not be sent.' => 'This change applied silently, so mail and other notifications will not be sent.',
       'This rule has a dependency cycle and can not be evaluated:' => 'This rule has a dependency cycle and can not be evaluated:',
       'Requested At' => 'Requested At',
+      'An exception occurred executing Herald rule %s: Unknown action: "%s". Review the Herald transcripts and correct or disable the problematic rule.' => 'An exception occurred executing Herald rule %s: Unknown action: "%s". Review the Herald transcripts and correct or disable the problematic rule.',
       'Unknown condition \'%s\'.' => 'Unknown condition \'%s\'.',
       'Associated hook ("%s") for webhook request ("%s") is disabled.' => 'Associated hook ("%s") for webhook request ("%s") is disabled.',
       'Rule Transcript' => 'Rule Transcript',
@@ -373,6 +375,7 @@ final class PhabricatorHeraldEn
       '%s changed %s from %s to %s.' => '%s changed %s from %s to %s.',
       'Regular expression pair is not valid JSON!' => 'Regular expression pair is not valid JSON!',
       'You do not have permission to create webhooks.' => 'You do not have permission to create webhooks.',
+      'An exception occurred executing Herald rule %s: "%s" Review the Herald transcripts and correct or disable the problematic rule.' => 'An exception occurred executing Herald rule %s: "%s" Review the Herald transcripts and correct or disable the problematic rule.',
       'is not any of' => 'is not any of',
       'This object is not of an allowed type for the rule. Rules can only trigger on certain objects.' => 'This object is not of an allowed type for the rule. Rules can only trigger on certain objects.',
       'This rule was created with a newer version of Herald. You can not view or edit it in this older version. Upgrade your software.' => 'This rule was created with a newer version of Herald. You can not view or edit it in this older version. Upgrade your software.',
@@ -390,7 +393,6 @@ final class PhabricatorHeraldEn
       'Name of the webhook.' => 'Name of the webhook.',
       'Webhooks' => 'Webhooks',
       'The regular expression pair "%s" must have exactly two elements.' => 'The regular expression pair "%s" must have exactly two elements.',
-      'No transcripts found.' => 'No transcripts found.',
     );
   }
 

@@ -9,6 +9,7 @@ final class PhabricatorDiffusionDa
 
   protected function getTranslations() {
     return array(
+      '%s:%s' => '%s:%s',
       'Edit Properties' => 'Rediger egenskaber',
       'Unknown request type.' => 'Ukendt anmodningstype.',
       'All Identities' => 'Alle identiteter',

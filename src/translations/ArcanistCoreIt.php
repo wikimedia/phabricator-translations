@@ -17,17 +17,28 @@ final class ArcanistCoreIt
       'The "squash" strategy collapses multiple local commits into a single commit when publishing. It produces a linear published history (but discards local checkpoint commits). This is the default strategy.' => 'La strategia "squash" collassa più commit locali in un\'unica commit durante la pubblicazione. Produce la pubblicazione di una cronologia lineare (ma scarta le commit intermedie). Questa è la strategia predefinita.',
       'Call Conduit API methods.' => 'Chiama i metodi API Conduit.',
       'Symbol "%s" does not identify a valid revision.' => 'Il simbolo "%s" non identifica una revisione valida.',
+      'Do not call %s or %s directly on a %s. Instead, call %s or %s.' => 'Non chiamare %s o %s direttamente su un %s. Chiama invece %s o %s.',
       'A linter for Composer related files.' => 'Un linter per file correlati a Composer.',
       '"%s" (%s)' => '"%s" (%s)',
       'Saved "%s" as "%s".' => 'Salvato "%s" come "%s".',
       'Night has fallen. The moon overhead is waxing, and provides just enough light that you can make out your surroundings. It is quite cold.' => 'La notte è scesa. La luna in alto sta crescendo e fornisce appena abbastanza luce da poter discernere l\'ambiente circostante. Fa abbastanza freddo.',
+      '(This message was raised at line %s, but the file only has %s line(s).)' => '(Questo messaggio è stato generato alla riga %s, ma il file ha solo %s righe)',
       'Not parsing!' => 'Non analizzare!',
       'Portuguese (Portugal)' => 'Portoghese (Portogallo)',
+      'File Symbol "%s"' => 'Simbolo del file "%s”',
       'Try running your arc command again.' => 'Prova ad eseguire il tuo commando arc nuovamente.',
       'CC: %s' => 'CC: %s',
       'Failed to write file data.' => 'Impossibile scrivere i dati del file.',
+      'Execute a Phage subprocess.' => 'Eseguire un sottoprocesso Phage',
       'If the file is not a text file, you can mark it \'binary\'. Mark this file as \'binary\' and continue?' => 'Se il file non è un file di testo, puoi segnarlo come \'duplicato\'. Segna questo file come \'duplicato\' e continuare?',
       'Rule \'%s\' is invalid, it must have a type and name like \'%s\'.' => 'La regola \'%s\' non è valida, deve avere un tipo e un nome come \'%s\'.',
+      'Task Symbol "%s"' => 'Simbolo di attività "%s”',
+      'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'Il parametro ("%s") è passato a "%s" durante la creazione di un messaggio di test dell’unità che deve essere una stringa con una lunghezza massima di %s byte, ma è lunga %s byte.',
+      'There was an error verifying the SSL Certificate Authority while negotiating the SSL connection. This usually indicates you are using a self-signed certificate.
+    As of OSX Yosemite, certificates must be added to the OSX keychain. You can do this with `security add-trusted-cert` from the command line, or by visiting the site in Safari and choosing to trust the certificate permanently.
+    For more information, see instructions in "%s".' => 'Si è verificato un errore durante la verifica dell\'autorità di certificazione SSL nella negoziazione della connessione SSL. Questo di solito indica che si sta utilizzando un certificato autofirmato.
+    A partire da OSX Yosemite, i certificati devono essere aggiunti al portachiavi di OSX. È possibile farlo con `security add-trusted-cert` dalla riga di comando oppure visitando il sito in Safari e scegliendo di considerare il certificato attendibile in modo permanente.
+    Per ulteriori informazioni, consultare le istruzioni in "%s”.',
       'None of the configured interpreters can be located.' => 'Nessuno degli interpreti configurati possono essere localizzati.',
       'This workflow (\'%s\') requires a Repository API, override %s to return true.' => 'Questo flusso di lavoro (\'%s\') richiede un Repository API, sovrascrivi %s per restituire true.',
       'Executable files should either be binary or contain a shebang.' => 'I file eseguibili devono essere o duplicati o contenere un shebang.',
@@ -95,6 +106,7 @@ final class ArcanistCoreIt
     Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Ci sono diverse revisioni che corrispondono alla copia funzionante:
     %s
     Usa \'%s\' per sceglierne uno, o \'%s\' per creare una nuova revisione.',
+      'Loading library from "%s"...' => 'Caricamento della libreria da "%s"...',
       'Braces for an empty block statement shouldn\'t contain only whitespace.' => 'Le parentesi di un blocco vuoto di asserzioni non dovrebbero contenere solo spazi bianchi.',
       'Closure Linter' => 'Linter di chiusura',
       'Invalid Executable' => 'Eseguibile non valido',
@@ -106,11 +118,15 @@ final class ArcanistCoreIt
       'Reading data from stdin...' => 'Lettura dei dati da stdin...',
       'HTTP Status Code: %d' => 'Codice di Stato HTTP: %s',
       'Upload content to S3.' => 'Carica contenuti su S3.',
+      'Install PEP8 using `%s`.' => 'Installa PEP8 usando `%s`.',
       '    %s %s
     ' => '    %s %s',
+      'Install flake8 using `%s`.' => 'Installa flake8 usando `%s`.',
       'Updating working copy...' => 'Aggiornamento della copia funzionante...',
       'Modified' => 'Modificato',
       'Revision %s' => 'Revisione %s',
+      'Updating library: %s' => 'Aggiornamento della libreria: %s',
+      'Importing `%s` with `%s` is unnecessary because the aliased name is identical to the imported symbol name.' => 'L\'importazione di `%s` con `%s` non è necessaria perché il nome alias è identico al nome del simbolo importato.',
       'File Error' => 'Errore del file',
       'Needs Revision' => 'Necessita una revisione',
       '<bytes = %s>' => '<byte = %s>',

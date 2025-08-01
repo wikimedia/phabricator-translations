@@ -21,7 +21,6 @@ final class PhabricatorextCoreFa
       'Allow' => 'اجازه',
       'Invalid action \'%s\'!' => 'عمل «%s» نامعتبر است!',
       'MediaWiki' => 'مدیاویکی',
-      'Change type to "%s."' => 'تغییر نوع به «%s».',
       'Find public transactions by a particular user.' => 'یافتن تراکنش‌های عمومی توسط یک کاربر خاص.',
       'Execute a rollback.' => 'اجرای یک واگردانی',
       'Deny' => 'رد',
@@ -37,7 +36,6 @@ final class PhabricatorextCoreFa
       'Missing or malformed parameter.' => 'پارامتر ناموجود یا بدشکل.',
       'Use [[%s|this form]] to create one.' => 'برای ایجاد از [[%s|این فرم]] استفاده کنید.',
       'MediaWiki User' => 'کاربر مدیاویکی',
-      'Change type to' => 'تغییر نوع به',
       'Reset security settings' => 'بازنشانی تنظیمات امنیتی',
       'Open Tasks' => 'وظیفه‌های باز',
       'Unknown' => 'ناشناس',
@@ -47,11 +45,9 @@ final class PhabricatorextCoreFa
       'Expert Mode' => 'حالت حرفه‌ای',
       'Unknown or missing mediawiki names: %s' => 'نام‌های مدیاویکی ناشناخته یا ناموجود: %s',
       'Required' => 'الزامی',
-      'Number of open tasks over time' => 'تعداد کارهای باز به مرور',
       'Abandoned' => 'رها شده',
       '%s Line(s) added' => '%s سطر افزوده شد',
       'Comments' => 'نظرات',
-      'Change type to "%s"' => 'تغییر نوع به «%s»',
     );
   }
 

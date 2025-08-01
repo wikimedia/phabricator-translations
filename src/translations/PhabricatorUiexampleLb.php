@@ -14,6 +14,7 @@ final class PhabricatorUiexampleLb
       'Christmas' => 'Chrëschtdag',
       'Images' => 'Biller',
       'Rain' => 'Reen',
+      'Invalid Token' => 'Ongültegen Token',
       'Too much salt.' => 'Ze vill Salz.',
       'Color \'%s\'' => 'Faarf \'%s\'',
       'Unit (3/5)' => 'Eenheet (3/5)',

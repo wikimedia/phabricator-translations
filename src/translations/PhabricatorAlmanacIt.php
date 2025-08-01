@@ -26,11 +26,16 @@ final class PhabricatorAlmanacIt
       'Edit Network' => 'Modifica network',
       'Create Namespace' => 'Crea namespace',
       'Interface %d' => 'Interfaccia %s',
+      'Create a Device' => 'Crea un dispositivo',
+      'Create a Service' => 'Crea un servizio',
       'Namespace %d' => 'Namespace %s',
+      'Create a Network' => 'Crea una rete',
+      'See Devices' => 'Vedi dispositivi',
       'Almanac' => 'Almanacco',
       'IMPORTANT!' => 'IMPORTANTE!',
       'Namespaces' => 'Namespace',
       '%s:%s (%s on %s)' => '%s:%s (%s su %s)',
+      'See Networks' => 'Vedi reti',
     );
   }
 

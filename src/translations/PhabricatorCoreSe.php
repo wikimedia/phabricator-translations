@@ -14,6 +14,7 @@ final class PhabricatorCoreSe
       'Example' => 'Ovdamearka',
       'Unknown Error' => 'Dovdameahttun meattáhus',
       'Bold' => 'Buoiddesčála',
+      'username' => 'geavaheaddjinamma',
       'Metadata' => 'Metadata',
       'File' => 'Fiila',
       'Continue' => 'Joatkke',

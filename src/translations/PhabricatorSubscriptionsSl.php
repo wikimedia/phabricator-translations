@@ -12,7 +12,6 @@ final class PhabricatorSubscriptionsSl
       'subscribers' => 'naročnikov',
       'Automatically Subscribed' => 'Samodejno naročen_a',
       '%d other(s)' => '%s drug(ih)',
-      'Add subscribers' => 'Dodaj naročnike',
       'Add subscribers.' => 'Dodaj naročnike.',
     );
   }

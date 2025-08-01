@@ -15,6 +15,7 @@ final class PhabricatorBadgesEn
       '%s updated the quality from %s to %s.' => '%s updated the quality from %s to %s.',
       'Active Badges' => 'Active Badges',
       'New badge description.' => 'New badge description.',
+      'Badge name is required.' => 'Badge name is required.',
       'Edit Badge: %s' => 'Edit Badge: %s',
       'Badges must have a name.' => 'Badges must have a name.',
       'Other badge activity not listed above occurs.' => 'Other badge activity not listed above occurs.',
@@ -75,6 +76,7 @@ final class PhabricatorBadgesEn
       'Search for badges by name substring.' => 'Search for badges by name substring.',
       'Achievements and Notoriety' => 'Achievements and Notoriety',
       'Color and rarity of the badge.' => 'Color and rarity of the badge.',
+      'Recipient name is required.' => 'Recipient name is required.',
       'Badge %d: %s' => 'Badge %s: %s',
       '%s disabled this badge.' => '%s disabled this badge.',
       'Active or archived status of the badge.' => 'Active or archived status of the badge.',
@@ -107,7 +109,6 @@ final class PhabricatorBadgesEn
       'Rain Defender' => 'Rain Defender',
       '[Badge]' => '[Badge]',
       'The Empire' => 'The Empire',
-      'Edit Recipients' => 'Edit Recipients',
       'Rare' => 'Rare',
       '%s updated the flavor from %s to %s.' => '%s updated the flavor from %s to %s.',
       'Someone changes the badge\'s details.' => 'Someone changes the badge\'s details.',
@@ -136,7 +137,6 @@ final class PhabricatorBadgesEn
       'Read information about badges.' => 'Read information about badges.',
       '%s revoked %s from %s recipient(s): %s.' => '%s revoked %s from %s recipient(s): %s.',
       'Flavor Text' => 'Flavor Text',
-      'Add Recipient' => 'Add Recipient',
     );
   }
 

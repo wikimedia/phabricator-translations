@@ -43,6 +43,7 @@ final class PhabricatorDifferentialPtBR
       'Closed by commit %s (authored by %s).' => 'Fechado pela validação %s (criado por %s).',
       'Editing Comment' => 'Edição de comentário',
       'Request Changes' => 'Solicitar alterações',
+      'Hide Changeset' => 'Ocultar conjunto de alterações',
       'This file was added.' => 'Este arquivo foi adicionado.',
       'REVISION SUMMARY' => 'RESUMO DA REVISÃO',
       'List of tasks.' => 'Lista de tarefas',

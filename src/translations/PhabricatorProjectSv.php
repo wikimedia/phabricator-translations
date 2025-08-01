@@ -52,7 +52,6 @@ final class PhabricatorProjectSv
       'Add projects: %s.' => 'Lägg till projekt: %s.',
       'Removed Projects' => 'Ta bort projekt',
       'Play sound' => 'Spela ljud',
-      'Update' => 'Uppdatera',
     );
   }
 

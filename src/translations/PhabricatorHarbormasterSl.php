@@ -22,6 +22,7 @@ final class PhabricatorHarbormasterSl
       'Build Log' => 'Dnevnik gradnje',
       'Invalid build ID "%s".' => 'Neveljaven ID konstrukcije »%s«.',
       'Select all active builds.' => 'Izberi vse aktivne konstrukcije.',
+      'Syntax Error' => 'Skladenjska napaka',
       'Throw Exception' => 'Izvrzi izjemo',
       'Download Log' => 'Prenesi dnevnik',
       'Choose an archival mode with --mode.' => 'Izberite način arhiviranja z --mode.',

@@ -29,7 +29,6 @@ final class PhabricatorProjectDeDE
       '%s edited project(s), added %s: %s; removed %s: %s.' => '%s bearbeitete(s) Projekt(e), %s hinzugefügt: %s; %s entfernt: %s.',
       'Create Subproject' => 'Unterprojekt erstellen',
       'Show All Projects' => 'Alle Projekte anzeigen',
-      'Remaining open tasks: %d' => 'Verbleibende offene Aufgaben: %s',
       '%s edited associated projects.' => '%s bearbeitete dazugehörige Projekte.',
       'Remove members.' => 'Mitglieder entfernen.',
       'Project membership changes.' => 'Projekt Mitgliedschaft wird geändert.',
@@ -60,7 +59,6 @@ final class PhabricatorProjectDeDE
       'Project name, hashtags, icon, image, or color changes.' => 'Name, Hashtags, Icon, Bild oder Farbe wird geändert.',
       '%s set this project\'s icon to %s.' => '%s setzte das Projekt Icon auf %s.',
       '%s set the icon for %s to %s.' => '%s setze das Symbol von %s auf %s.',
-      'Update' => 'Aktualisieren',
       '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s bearbeitet %s Projekt(e), %s hinzugefügt: %s; %s entfernt: %s.',
     );
   }

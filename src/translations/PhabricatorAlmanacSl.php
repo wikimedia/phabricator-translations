@@ -16,6 +16,7 @@ final class PhabricatorAlmanacSl
       'Create Service' => 'Ustvari storitev',
       'Add Binding' => 'Dodaj vezavo',
       'Edit Namespace' => 'Uredi imenski prostor',
+      'This permission is very dangerous. %s' => 'To dovoljenje je zelo nevarno. %s',
       'Create Binding' => 'Ustvari vezavo',
       'Edit Network' => 'Uredi omrežje',
       'Edit Service' => 'Uredi storitev',

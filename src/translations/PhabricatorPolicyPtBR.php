@@ -26,6 +26,7 @@ final class PhabricatorPolicyPtBR
       'Custom Policy' => 'Política personalizada',
       'All Users' => 'Todos os usuários',
       'Administrators can take this action.' => 'Os administradores podem executar essa ação.',
+      'You do not have permission to view this object.' => 'Você não tem permissão para visualizar esse objeto.',
       'Policy Details: %s' => 'Detalhes da política: %s',
       '%s all other users.' => '%s todos os outros usuários.',
       'If No Rules Match' => 'Se nenhuma correspondência de regras',

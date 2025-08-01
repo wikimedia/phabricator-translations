@@ -26,7 +26,6 @@ final class PhabricatorBadgesPtBR
       '%s revoked this badge from %s recipient(s): %s.' => '%s revogou este distintivo de %s destinatário (s): %s.',
       'Type a badge name...' => 'Digite um nome de distintivo...',
       'Default Edit Badges' => 'Editar emblemas padrão',
-      'Add Recipient' => 'Adicionar destinatário',
     );
   }
 

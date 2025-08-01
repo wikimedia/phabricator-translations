@@ -98,7 +98,6 @@ final class PhabricatorConpherenceFrFR
       'Room' => 'Salle',
       'You must specify data that actually updates the Conpherence.' => 'Vous devez spécifier les données qui mettent réellement à jour la Conpherence.',
       'Joinable Rooms' => 'Salles joignables',
-      'Send' => 'Envoyer',
       'Create a new conpherence thread.' => 'Créer un nouveau fil de Conpherence.',
       'Search by room titles.' => 'Rechercher par titre de salle.',
       'Peach' => 'Pêche',

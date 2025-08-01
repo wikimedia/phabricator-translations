@@ -107,7 +107,6 @@ final class PhabricatorBadgesCa
       'Rain Defender' => 'Defensor de la pluja',
       '[Badge]' => '[Insígnia]',
       'The Empire' => 'L\'Imperi',
-      'Edit Recipients' => 'Editar Destinataris',
       'Rare' => 'Rar',
       '%s updated the flavor from %s to %s.' => '%s ha actualitzat la varietat de %s a %s.',
       'Someone changes the badge\'s details.' => 'Algú canvia els detalls de la insígnia.',
@@ -136,7 +135,6 @@ final class PhabricatorBadgesCa
       'Read information about badges.' => 'Llegiu informació sobre insígnies.',
       '%s revoked %s from %s recipient(s): %s.' => '%s ha revocat %s per a %s destinataris: %s.',
       'Flavor Text' => 'Text variat',
-      'Add Recipient' => 'Afegir destinatari',
     );
   }
 

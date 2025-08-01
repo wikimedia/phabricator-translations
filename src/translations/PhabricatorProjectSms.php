@@ -36,7 +36,6 @@ final class PhabricatorProjectSms
       'Unwatch Project' => 'Jõõsk tän projeeʹkt valvvmest',
       'Project History' => 'Projeeʹkt historia',
       'Archive Subproject' => 'Arkiivââʹst vueʹllprojeeʹkt',
-      'Update' => 'Peiʹvved',
     );
   }
 

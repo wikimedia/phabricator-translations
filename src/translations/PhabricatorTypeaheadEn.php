@@ -52,6 +52,7 @@ final class PhabricatorTypeaheadEn
       'Function Quick Reference' => 'Function Quick Reference',
       'Auto' => 'Auto',
       'You reach the edge of the abyss.' => 'You reach the edge of the abyss.',
+      'This datasource ("%s") requires to be logged-in to use the function "%s(...)".' => 'This datasource ("%s") requires to be logged-in to use the function "%s(...)".',
       'Priority Type' => 'Priority Type',
       'Using Typeahead Functions' => 'Using Typeahead Functions',
     );

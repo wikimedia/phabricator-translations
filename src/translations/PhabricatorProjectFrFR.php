@@ -113,7 +113,6 @@ final class PhabricatorProjectFrFR
       'Configure Projects.' => 'Configurer les projets.',
       'Backlog' => 'À traiter',
       'Show All Projects' => 'Afficher tous les projets',
-      'Remaining open tasks: %d' => 'Tâches ouvertes restantes : %s',
       'Browse User Projects' => 'Afficher les projets de l\'utilisateur',
       '%s edited associated projects.' => '%s a modifié les projets associés.',
       'This workboard has been disabled, and you do not have permission to enable it. Only users who can edit this project can restore the workboard.' => 'Ce tableau de bord a été désactivé et vous n’avez pas le droit de l’activer. Seuls les utilisateurs qui peuvent modifier ce projet peuvent restaurer le tableau de bord.',
@@ -726,7 +725,6 @@ final class PhabricatorProjectFrFR
     documentation.' => 'Liste des champs personnalisés pour les balises de projet.
     Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans la documentation.',
       'Workboard: %s' => 'Tableau de bord : %s',
-      'Tasks completed this %s: %d' => 'Tâches terminées ce %s : %s',
       'This project does not have any members.' => 'Ce projet ne comprend aucun membre.',
       'Define project subtypes.' => 'Définir des sous-types de projets.',
       'Move Tasks to Column' => 'Déplacer les tâches vers la colonne',
@@ -821,7 +819,6 @@ final class PhabricatorProjectFrFR
       'Visible Columns' => 'Colonnes visibles',
       'Task priority value ("%s") is not a valid task priority. Valid priorities are: %s.' => 'La valeur de priorité de tâche (« %s ») n’est pas une priorité de tâche valide. Les priorités valides sont : %s.',
       'Play sound' => 'Jouer le son',
-      'Update' => 'Mettre à jour',
       'Browse Only' => 'Parcourir seulement',
       'This rule (of type "%s") is invalid: %s' => 'Cette règle (de type « %s ») n’est pas valide : %s',
       '%s removed %d %s hashtag(s): %s.' => array(

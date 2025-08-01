@@ -88,7 +88,6 @@ final class PhabricatorConpherenceTr
       'Room' => 'Oda',
       'You must specify data that actually updates the Conpherence.' => 'Conpherence\'ı gerçekten güncelleyen verileri belirtmelisiniz.',
       'Joinable Rooms' => 'Katılabilir Odalar',
-      'Send' => 'Gönder',
       'Create a new conpherence thread.' => 'Yeni bir konferans iletiyi oluşturun.',
       'Search by room titles.' => 'Oda başlıklarına göre arama yapın.',
       'Peach' => 'Şeftali',

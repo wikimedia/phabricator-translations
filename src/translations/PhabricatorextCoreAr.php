@@ -20,7 +20,6 @@ final class PhabricatorextCoreAr
       'Required' => 'مطلوب',
       'Abandoned' => 'مهجور',
       'Comments' => 'التعليقات',
-      'Change type to "%s"' => 'تغيير النوع إلى "%s"',
     );
   }
 

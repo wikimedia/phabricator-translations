@@ -29,17 +29,6 @@ final class PhabricatorPeopleEn
       'Stores the real name of the user, like "Abraham Lincoln".' => 'Stores the real name of the user, like "Abraham Lincoln".',
       'Pass true to find only mailing lists, or false to omit mailing lists.' => 'Pass true to find only mailing lists, or false to omit mailing lists.',
       'You must be an administrator to create administrators.' => 'You must be an administrator to create administrators.',
-      'Condolences on forgetting your password. You can use this link to reset it:
-      %s
-    After you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.
-    Best Wishes,
-    Phabricator
-    ' => 'Condolences on forgetting your password. You can use this link to reset it:
-      %s
-    After you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.
-    Best Wishes,
-    Phabricator
-    ',
       'Obsoleted by "%s".' => 'Obsoleted by "%s".',
       'User Accounts and Profiles' => 'User Accounts and Profiles',
       'Login: Partial Login' => 'Login: Partial Login',
@@ -105,6 +94,15 @@ final class PhabricatorPeopleEn
       'Query users.' => 'Query users.',
       'No accounts found.' => 'No accounts found.',
       'Bot' => 'Bot',
+      'Condolences on forgetting your password. You can use this link to reset it:
+      %s
+    After setting a new password, consider writing it down on a sticky note and attaching it to your monitor so others can impersonate you at any time. Choosing a short, easy-to-remember password like "cat" or "1234" might also help to get your machine hacked, your bank account emptied, or your company ruined.
+    Best Wishes,
+    %s' => 'Condolences on forgetting your password. You can use this link to reset it:
+      %s
+    After setting a new password, consider writing it down on a sticky note and attaching it to your monitor so others can impersonate you at any time. Choosing a short, easy-to-remember password like "cat" or "1234" might also help to get your machine hacked, your bank account emptied, or your company ruined.
+    Best Wishes,
+    %s',
       'Create New Bot' => 'Create New Bot',
       'User profiles configuration.' => 'User profiles configuration.',
       'New username is required.' => 'New username is required.',

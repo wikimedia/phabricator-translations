@@ -36,6 +36,7 @@ final class PhabricatorPhrictionKoKR
       'Edit Draft Version %s...' => '초안판 %s 편집...',
       'You are viewing an unpublished draft of this document.' => '이 문서의 게시되지 않은 초안을 보고 있습니다.',
       '%s deleted this document.' => '%s님이 이 문서를 삭제했습니다.',
+      'Stub' => '토막글',
       '%s published a new version of %s.' => '%s님이 %s의 새로운 판을 게시했습니다.',
       'No such document exists.' => '해당 문서가 존재하지 않습니다.',
       'The document %s already exists. Do you want to edit it instead?' => '%s 문서는 이미 존재합니다. 대신 편집하시겠습니까?',
@@ -63,6 +64,7 @@ final class PhabricatorPhrictionKoKR
       'Edited by %s' => '편집자: %s',
       'No Document Here' => '여기에 문서가 없습니다',
       'Welcome' => '환영합니다',
+      'A stub document can not be deleted.' => '토막글은 삭제할 수 없습니다.',
       'Publish Older Version' => '더 오래된 판 게시',
       'Create this Document' => '이 문서 만들기',
       'This engine is used to edit Phriction documents.' => 'Phriction 문서의 편집을 위해 이 엔진이 사용됩니다.',
@@ -73,6 +75,7 @@ final class PhabricatorPhrictionKoKR
       'New Document' => '새 문서',
       'Empty Document' => '빈 문서',
       'Move Here' => '여기로 이동',
+      'A stub document can not be moved.' => '토막글은 이동할 수 없습니다.',
     );
   }
 

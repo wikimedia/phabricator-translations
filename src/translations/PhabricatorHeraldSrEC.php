@@ -99,6 +99,7 @@ final class PhabricatorHeraldSrEC
       'Edit Rule' => 'Уреди правило',
       'any of' => 'било које од',
       'Dry Run' => 'Проба',
+      'No transcripts found.' => 'Нема пронађених транскрипта.',
       'Show Only Enabled Rules' => 'Прикажи само омогућена правила',
       'Did Nothing' => 'Није урађено ништа',
       'Personal rules notify you about events. You own them, but they can only affect you. Personal rules only trigger for objects you have permission to see.' => 'Лична правила обавештавају о догађајима. Ви сте њихови власници, али једино на Вас имају утицаја. Лична правила једино могу бити задовољена за објекте за које имате дозволе да их видите.',
@@ -162,7 +163,6 @@ final class PhabricatorHeraldSrEC
       'is false' => 'је нетачно',
       'First regular expression is invalid!' => 'Први регуларни израз је неисправан!',
       'Webhooks' => 'Веб-копче',
-      'No transcripts found.' => 'Нема пронађених транскрипта.',
     );
   }
 

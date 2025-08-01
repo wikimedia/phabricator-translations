@@ -39,7 +39,6 @@ final class PhabricatorConpherenceDiq
       'Topic' => 'Mewzu',
       '[Conpherence]' => '[Conpherence]',
       'Room' => 'Bane',
-      'Send' => 'Bırış',
       'Peach' => 'Ğoğ',
       'No Rooms' => 'Ban Çıniyo',
       'Private Room' => 'Bano xısusi',

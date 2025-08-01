@@ -28,7 +28,6 @@ final class PhabricatorConpherenceSkrArab
       'Join a Room' => 'کمرے وچ رَلو',
       'Join Room' => 'کمرے وچ رَلو',
       'Room' => 'کمرہ',
-      'Send' => 'بھیڄو',
       'Light' => 'پھکّا',
       'Theme' => 'مرکزی خیال',
       'New Room' => 'نواں کمرہ',

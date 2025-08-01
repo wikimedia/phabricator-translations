@@ -453,7 +453,6 @@ final class PhabricatorConfigTr
     %s',
       'SSH keys are now actually useful, so they are always enabled.' => 'SSH anahtarları artık gerçekten kullanışlıdır, bu nedenle her zaman etkindir.',
       'Request output, in bytes.' => 'Bayt cinsinden çıkış isteyin.',
-      'Configure integration with AWS (EC2, SES, S3, etc).' => 'AWS (EC2, SES, S3, vb.) ile entegrasyonu yapılandırın.',
       'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => '\'%s\' yapılandırma seçeneği geçersiz. URI sadece \'%3$s\' gibi çıplak bir isim değil, \'%2$s\' gibi bir nokta (\'.\') içermelidir. Bazı web tarayıcıları, TLD bulunmayan alanlarda çerez ayarlamaz.',
       'The Multimeter application collects performance samples. You can use this data to help you understand what the software is spending time and resources doing, and to identify problematic access patterns.
     This option controls how frequently sampling activates. Set it to some positive integer N to sample every 1 / N pages.

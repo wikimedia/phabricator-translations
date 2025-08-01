@@ -1000,7 +1000,6 @@ final class PhabricatorAuthTr
       'Allow Linking Accounts' => 'Hesapları Bağlamaya İzin Ver',
       '%s created this MFA provider.' => '%s bu MFA sağlayıcısını oluşturdu.',
       'To enable the login flow, follow setup guidance and configure at least one authentication provider, then associate credentials with your account. After completing these steps, you will be able to log out and log back in normally.' => 'Giriş akışını etkinleştirmek için, kurulum rehberini takip edin ve en azından bir tane yetkilendirme sağlayıcısı ayarlayın, ardından hesabınızla kimlik bilgilerini eşleştirin. Bu adımları tamamladıktan sonra, çıkış yapıp normal olarak giriş yapabilirsiniz.',
-      'This is the only external login account linked to your Phabicator account. If you remove it, you may no longer be able to log in.' => 'Bu, Phabicator hesabınıza bağlı tek harici giriş hesabıdır. Kaldırırsanız, artık giriş yapamayabilirsiniz.',
       'You have not completed Duo enrollment yet. Complete enrollment, then click continue.' => 'Duo kaydını henüz tamamlamadınız. Kaydı tamamlayın, ardından devam et\'i tıklayın.',
       'Always Search' => 'Her Zaman Ara',
       'Allow Registration' => 'Kayda İzin Ver',

@@ -40,7 +40,6 @@ final class PhabricatorBadgesDa
       'International' => 'International',
       'Ladybug' => 'Mariehøne',
       'The Empire' => 'Imperiet',
-      'Edit Recipients' => 'Rediger modtagere',
       'Rare' => 'Sjælden',
       'Rarity (Rarest First)' => 'Sjældenhed (sjældneste først)',
       'No badges found.' => 'Ingen mærker blev fundet.',
@@ -49,7 +48,6 @@ final class PhabricatorBadgesDa
       'Create New Badge' => 'Opret nyt mærke',
       'Can Create Badges' => 'Kan oprette mærker',
       'Triplets' => 'Trillinger',
-      'Add Recipient' => 'Tilføj modtager',
     );
   }
 

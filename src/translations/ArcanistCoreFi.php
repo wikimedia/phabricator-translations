@@ -9,9 +9,11 @@ final class ArcanistCoreFi
 
   protected function getTranslations() {
     return array(
+      '"%s" (%s)' => '"%s" (%s)',
       'Not parsing!' => 'Ei jäsennellä!',
       'Portuguese (Portugal)' => 'Portugali (Portugali)',
       'CC: %s' => 'CC: %s',
+      'Path \'%s\' is not readable.' => 'Polku \'%s\' ei ole luettava.',
       'English (Pirate)' => 'Englanti (Merirosvo)',
       'Pick' => 'Valita',
       'Browse URI "%s"' => 'Selaa URL "%s"',
@@ -25,6 +27,7 @@ final class ArcanistCoreFi
       'Unknown Symbol' => 'Tuntematon symboli',
       'Against which commit?' => 'Mitkä sitoutuvat?',
       'commit-message' => 'kommittiviesti',
+      'Project Config File' => 'Projektin konfiguraatiotiedosto',
       'No Parent Scope' => 'Ei vanhempien laajuutta',
       'Update the local working copy before applying the patch.' => 'Päivitä paikallinen työkopio ennen korjaustiedoston asentamista.',
       'Continue without loading library?' => 'Jatketaanko lataamatta kirjastoa?',

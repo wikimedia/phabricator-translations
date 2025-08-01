@@ -84,7 +84,6 @@ final class PhabricatorBadgesSrEC
       'Rain Defender' => 'Кишобран',
       '[Badge]' => '[значка]',
       'The Empire' => 'Царство',
-      'Edit Recipients' => 'Измени добитнике',
       'Rare' => 'Ретко',
       'Someone changes the badge\'s details.' => 'Неко мења детаље о значки.',
       '%s enabled this badge.' => '%s је омогућио ову значку.',
@@ -100,7 +99,6 @@ final class PhabricatorBadgesSrEC
       'Can Create Badges' => 'Може правити значке',
       'Type a badge name...' => 'Унеси назив значке...',
       'Read information about badges.' => 'Прочитај информације о значкама.',
-      'Add Recipient' => 'Додај добитнике',
     );
   }
 

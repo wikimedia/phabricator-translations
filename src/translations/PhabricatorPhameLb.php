@@ -20,6 +20,7 @@ final class PhabricatorPhameLb
       'No blogs posts found.' => 'Keng Blogbäiträg fonnt.',
       'All Blogs' => 'All Bloggen',
       '[No Blog]' => '[Kee Blog]',
+      'The subtitle can be no longer than %s characters.' => 'Den Ënnertitel däerf net méi laang wéi %s Zeeche sinn.',
       'New blog title.' => 'Neie Blogtitel.',
       'Blogs must have a name.' => 'Blogge mussen en Numm hunn.',
       'Active Blogs' => 'Aktiv Bloggen',

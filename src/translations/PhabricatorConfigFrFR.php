@@ -617,7 +617,6 @@ final class PhabricatorConfigFrFR
     %s',
       'SSH keys are now actually useful, so they are always enabled.' => 'Les clés SSH sont maintenant utiles, c\'est pourquoi elles sont toujours activées.',
       'Request output, in bytes.' => 'Sortie de la requête, en octets.',
-      'Configure integration with AWS (EC2, SES, S3, etc).' => 'Configurer l’intégration avec AWS (EC2, SES, S3, etc.).',
       'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => 'L’option de configuration « %s » n’est pas valide. L’URI doit contenir un point (\'.\'), comme dans « %s », pas simplement un nom comme « %s ». Certains navigateurs Internet n\'acceptent pas de cookies sur les domaines sans TLD.',
       'The Multimeter application collects performance samples. You can use this data to help you understand what the software is spending time and resources doing, and to identify problematic access patterns.
     This option controls how frequently sampling activates. Set it to some positive integer N to sample every 1 / N pages.
@@ -1199,6 +1198,7 @@ final class PhabricatorConfigFrFR
       'Subschemata Have Warnings' => 'Le sous-schéma a des avertissements',
       'Require Administrators to Approve Accounts' => 'Demander que les administrateurs approuvent les comptes',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Mettre %s dans votre configuration PHP à au moins 32Mo pour supporter les téléversements de gros fichiers.',
+      'Configure integration with AWS (EC2, SES, S3, etc.).' => 'Configurer l’intégration avec AWS (EC2, SES, S3, etc.).',
       'The system sudo user.' => 'L’utilisateur sudo du système.',
       'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller
     messages.' => 'Vous pouvez désactiver les pieds de page « À: » et « Cc: » des courriels si les utilisateurs préfèrent des messages plus petits.',

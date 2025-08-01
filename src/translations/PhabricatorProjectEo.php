@@ -54,7 +54,6 @@ final class PhabricatorProjectEo
       'Create Subproject' => 'Krei subprojekton',
       'Configure Projects.' => 'Konfiguri projektojn.',
       'Show All Projects' => 'Montri ĉiujn projektojn',
-      'Remaining open tasks: %d' => 'Restantaj malfermitaj taskoj: %s',
       'Browse User Projects' => 'Foliumi uzanto-projektojn',
       '%s edited associated projects.' => '%s redaktis asociitajn projektojn.',
       'Enable Project Mail' => 'Ebligi projektan poŝton',

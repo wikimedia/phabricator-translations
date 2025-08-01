@@ -103,6 +103,7 @@ final class PhabricatorCoreIt
       'Language' => 'Lingua',
       'OK' => 'OK',
       'User' => 'Utente',
+      '%s removed %s which was set to %s.' => '%s ha rimosso %s che è stato impostato su %s.',
       'Web' => 'Web',
       'Text' => 'Testo',
       'Help' => 'Aiuto',

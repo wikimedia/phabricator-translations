@@ -88,7 +88,6 @@ final class PhabricatorConpherenceEn
       'Room' => 'Room',
       'You must specify data that actually updates the Conpherence.' => 'You must specify data that actually updates the Conpherence.',
       'Joinable Rooms' => 'Joinable Rooms',
-      'Send' => 'Send',
       'Create a new conpherence thread.' => 'Create a new conpherence thread.',
       'Search by room titles.' => 'Search by room titles.',
       'Peach' => 'Peach',

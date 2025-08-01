@@ -10,7 +10,7 @@ final class PhabricatorGuidesDa
   protected function getTranslations() {
     return array(
       'You\'ve created at least one task.' => 'Du har oprettet mindst en opgave.',
-      'See all available applications.' => 'Se alle applikationer der er inkluderet i Phabricator.',
+      'See all available applications.' => 'Se alle tilgængelige applikationer.',
       'Explore Applications' => 'Udforsk applikationer',
       'Skip' => 'Spring over',
       'Quick Start' => 'Hurtig start',

@@ -83,6 +83,7 @@ final class PhabricatorDiffusionPtBR
       'Automation' => 'Automação',
       'Show All Changes' => 'Mostrar todas as alterações',
       'State' => 'Estado',
+      'Browse Repository' => 'Navegar no repositório',
       'You must be able to edit a repository to see raw error messages because they sometimes disclose sensitive information.' => 'Você deve poder editar um repositório para ver mensagens de erro brutas, pois elas, às vezes, divulgam informações confidenciais.',
       'No commits are waiting for you to audit them.' => 'Nenhuma validação está esperando que você os audite.',
       'Enormous Changes' => 'Mudanças enormes',

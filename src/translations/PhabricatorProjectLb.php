@@ -34,6 +34,7 @@ final class PhabricatorProjectLb
       'Column: %s' => 'Kolonn: %s',
       'Glass' => 'Glas',
       'Fire' => 'Feier',
+      '[Project]' => '[Projet]',
       'Unknown User ("%s")' => 'Onbekannte Benotzer ("%s")',
       'Advanced Filter...' => 'Erweiderte Filter…',
       'Gradients' => 'Gradienten',
@@ -56,10 +57,10 @@ final class PhabricatorProjectLb
       'Add Members' => 'Memberen derbäisetzen',
       'Short project description.' => 'Kuerz Projetsbeschreiwung.',
       '%d day(s)' => '%s Dag/Deeg',
+      'Project names must not be longer than %s character(s).' => 'Projetsnimm däerfen net méi laang wéi %s Zeeche sinn.',
       'members of all projects' => 'Membere vun alle Projeten',
       'Week' => 'Woch',
       'Visible Columns' => 'Visibel Kolonnen',
-      'Update' => 'Aktualiséieren',
     );
   }
 

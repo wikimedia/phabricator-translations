@@ -267,7 +267,6 @@ final class PhabricatorSearchTr
       '%s (Not Available)' => '%s (Mevcut Değil)',
       'Specify a numeric threshold between 0 and 1.' => '0 ile 1 arasında bir sayısal eşik belirtin.',
       '(Restricted/Invalid Application)' => '(Sınırlı/Geçersiz Uygulama)',
-      'Expected buildNavigationMenuItems() to return a list of PHUIListItemView objects, but got a surprise.' => 'PHUIListItemView nesnelerinin bir listesini döndürmek için buildNavigationMenuItems() bekleniyor, ancak bir sürpriz oldu.',
       'DEV: Overheated State' => 'DEV: Aşırı Isınmış Durumu',
       'Portal Menu' => 'Portal Menüsü',
       'Not Defaultable' => 'Varsayılan Değil',

@@ -19,6 +19,7 @@ final class PhabricatorUiexampleEsES
       'Property List' => 'Lista de propiedades',
       'Funder' => 'Patrocinador',
       'Colors and Transforms' => 'Colores y transformaciones',
+      'Read Documentation' => 'Ver documentación',
       'Typeaheads' => 'Compleciones de escritura anticipada',
       'Let\'s Go Shopping' => 'Vamos de compras',
       'Timeline View' => 'Vista cronológica',

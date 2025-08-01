@@ -51,6 +51,7 @@ final class PhabricatorCalendarEsES
       'The host of an event can always view and edit it.' => 'El anfitrión de un evento siempre puede verlo y editarlo.',
       'Cancel the event.' => 'Cancelar el evento.',
       'Edit Event' => 'Editar evento',
+      'Cancelled Events' => 'Eventos cancelados',
       'Host of the event.' => 'Anfitrión del evento.',
       'Create Export' => 'Crear exportación',
       'Mode "%s" is not a valid policy mode. Valid modes are: %s.' => '«%s» no es un modo de directiva válido. Los modos válidos son: %s.',
@@ -69,8 +70,17 @@ final class PhabricatorCalendarEsES
       'Description of the event.' => 'Descripción del evento.',
       'Started background processing.' => 'Comenzó el procesamiento en segundo plano.',
       'New Import' => 'Importación nueva',
+      'Calendar Imports' => 'Importación de calendario',
       '[Calendar]' => '[Calendario]',
+      'Create Event' => 'Crear evento',
+      'Show only upcoming events.' => 'Mostrar sólo los próximos eventos.',
+      'Month View' => 'Vista Mensual',
+      'Day View' => 'Vista Diaria',
+      'Both Cancelled and Active Events' => 'Eventos cancelados y activos',
+      'Import/Export' => 'Importar/Exportar',
+      'Cancelled Events Only' => 'Solo eventos cancelados',
       'Type a user or project name, or function...' => 'Escriba un nombre de usuario o de proyecto, o una función...',
+      'List View' => 'Vista Tipo Lista',
     );
   }
 

@@ -18,10 +18,8 @@ final class PhabricatorBadgesSl
       'View Recipients' => 'Ogled prejemnikov',
       'Active or archived status of the badge.' => 'Aktivno ali arhivirano stanje značke.',
       'Badge long description.' => 'Dolgi opis značke.',
-      'Edit Recipients' => 'Uredi prejemnike',
       'Create New Badge' => 'Ustvari novo značko',
       'Flavor Text' => 'Besedilo variante',
-      'Add Recipient' => 'Dodaj prejemnika',
     );
   }
 

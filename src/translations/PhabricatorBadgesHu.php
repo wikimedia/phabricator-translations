@@ -44,7 +44,6 @@ final class PhabricatorBadgesHu
       'International' => 'Nemzetközi',
       '[Badge]' => '[Jelvény]',
       'The Empire' => 'A birodalom',
-      'Edit Recipients' => 'Címzettek szerkesztése',
       'Rare' => 'Ritka',
       '%s enabled this badge.' => '%s bekapcsolta ezt a jelvényt.',
       '%s updated the badge description for %s.' => '%s frissítette a(z) %s kitüntetés leírását.',

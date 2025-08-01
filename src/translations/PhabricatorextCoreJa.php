@@ -46,12 +46,8 @@ final class PhabricatorextCoreJa
       'LDAP User' => 'LDAP利用者',
       'Invalid action \'%s\'!' => '無効なアクション \'%s\'!',
       'Shows the gerrit Change ID for a commit.' => 'コミットの gerrit Change ID を表示します。',
-      'This adds a link to the burnup graph of this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectBurnupGraphProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'これにより、このプロジェクトでタグ付けされたオープンタスクを maniphest で検索するためのリンクが追加されます。
-    注: この機能は、Wikimedia-maintained が管理する拡張機能 ProjectBurnupGraphProfileMenuItem によって提供されています。出典は{rPHEX}を参照してください。',
       'MediaWiki' => 'MediaWiki',
       'MediaWiki Base URI' => 'MediaWikiのベースURI',
-      'Burnup Graph' => '燃焼グラフ',
-      'Change type to "%s."' => 'タイプを "%s" に変更する。',
       'Execute searches for Policies.' => 'ポリシーの検索を実行します。',
       'Find public transactions by a particular user.' => '特定のユーザーによる公開取引を検索します。',
       'Skip OFFSET rows before processing the remaining transactions.' => '残りのトランザクションを処理する前に、OFFSET行をスキップします。',
@@ -73,7 +69,6 @@ final class PhabricatorextCoreJa
       'Deny' => '拒否',
       'Invalid' => '無効',
       'Secret Token' => '秘密鍵',
-      'Change type to' => '以下のタイプに変更',
       'Required' => '必須',
     );
   }

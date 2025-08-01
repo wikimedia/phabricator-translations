@@ -175,7 +175,6 @@ final class PhabricatorProjectKoKR
       '%s Subprojects' => '하위프로젝트 %s개',
       'Week' => '주',
       'Play sound' => '소리 재생',
-      'Update' => '업데이트',
       'This rule (of type "%s") is invalid: %s' => '이 규칙("%s" 유형에 속함)은 유효하지 않습니다: %s',
       'Change priority to %s.' => '우선순위를 %s(으)로 변경합니다.',
       'Throughput' => '스루풋',

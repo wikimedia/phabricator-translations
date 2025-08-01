@@ -82,7 +82,6 @@ final class PhabricatorConpherenceDeDE
       '[Conpherence]' => '[Conpherence]',
       'Room' => 'Raum',
       'Joinable Rooms' => 'Räume, denen Sie beitreten können',
-      'Send' => 'Senden',
       'Create a new conpherence thread.' => 'Erstellen Sie einen neuen Conpherenz-Thread.',
       'Search by room titles.' => 'Suche nach Raumtiteln.',
       'Peach' => 'Peach',

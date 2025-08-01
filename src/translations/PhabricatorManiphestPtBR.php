@@ -9,9 +9,9 @@ final class PhabricatorManiphestPtBR
 
   protected function getTranslations() {
     return array(
+      'Create Task' => 'Criar tarefa',
       'Triage' => 'Triagem',
       '%s removed %s as the assignee of this task.' => '%s removeu %s como atribuído desta tarefa.',
-      'Oldest open task, excluding those with Low or Wishlist priority.' => 'Tarefa aberta mais antiga, excluindo aquelas com prioridade baixa ou lista de desejos.',
       'TASK DETAIL' => 'DETALHE DA TAREFA',
       '%s closed this task as a duplicate by committing %s.' => '%s fechou esta tarefa como duplicado ao confirmar %s.',
       'Search Subtasks' => 'Pesquisar subtarefas',

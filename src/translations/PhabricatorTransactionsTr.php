@@ -303,7 +303,6 @@ final class PhabricatorTransactionsTr
       'Make Builtin Editable' => 'Yerleşik Düzenlenebilir Yap',
       'Editor ("%s") has no mail stamp template with provided key ("%s").' => 'Editörde ("%s"), sağlanan anahtarla ("%s") posta damgası şablonu yok.',
       'You can not shift this object in the selected space, because the space does not exist or you do not have access to it.' => 'Bu nesneyi seçili alanda kaydıramazsınız, çünkü boşluk yoktur veya ona erişiminiz yoktur.',
-      'Export data to a flat file (JSON, CSV, Excel, etc).' => 'Verileri düz bir dosyaya aktarma (JSON, CSV, Excel, vb.)',
       'You must choose a space for this object.' => 'Bu nesne için bir boşluk seçmelisiniz.',
       'Edit Forms' => 'Formları Düzenle',
       'Mark as Create Form' => 'Form Oluştur Olarak İşaretle',

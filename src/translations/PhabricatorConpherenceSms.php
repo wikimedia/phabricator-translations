@@ -9,7 +9,6 @@ final class PhabricatorConpherenceSms
 
   protected function getTranslations() {
     return array(
-      'Send' => 'Vuõlttâd',
       'Last updated %s' => 'Mââimõssân peiʹvvuum %s',
     );
   }

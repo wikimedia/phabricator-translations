@@ -42,6 +42,7 @@ final class PhabricatorPeopleLb
       'Change Username' => 'Benotzernumm änneren',
       'Disable the user.' => 'De Benotzer desaktivéieren',
       'Old Username' => 'Ale Benotzernumm',
+      'Username is invalid! %s' => 'De Benotzernumm ass ongülteg! %s',
       'User Availability' => 'Disponibilitéit vum Benotzer',
       'Edit Profile' => 'Profil änneren',
       'User is Disabled' => 'Benotzer ass desaktivéiert',

@@ -45,6 +45,7 @@ final class PhabricatorCorePa
       'Global' => 'ਵਿਸ਼ਵ-ਵਿਆਪੀ',
       'New' => 'ਨਵਾਂ',
       'Change' => 'ਬਦਲੋ',
+      'Cancel' => 'ਰੱਦ ਕਰੋ',
       'Welcome to %s!' => '%s \'ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ!',
       'Translations' => 'ਤਰਜਮੇ',
       'Recent Activity' => 'ਹਾਲੀਆ ਸਰਗਰਮੀ',

@@ -60,6 +60,8 @@ final class PhabricatorProjectEsES
       'Information about the project color.' => 'Información acerca de los colores de los proyectos.',
       'Unsupported Project' => 'Proyecto sin servicio técnico',
       '%s renamed this project from %s to %s.' => '%s renombró este proyecto de %s a %s.',
+      '%s removed %s project(s) from %s: %s.' => '%s eliminó %s proyecto(s) de %s: %s.',
+      '%s removed %s project(s) for %s: %s.' => '%s eliminó %s proyecto(s) de %s: %s.',
       'Archive Subproject' => 'Archivar subproyecto',
       'True if this is the default column.' => 'Si esta es la columna predeterminada.',
     );

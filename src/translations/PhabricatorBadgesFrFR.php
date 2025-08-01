@@ -115,7 +115,6 @@ final class PhabricatorBadgesFrFR
       'Rain Defender' => 'Défenseur de la pluie',
       '[Badge]' => '[Insigne]',
       'The Empire' => 'L\'empire',
-      'Edit Recipients' => 'Modifier les contenus',
       'Rare' => 'Rare',
       '%s updated the flavor from %s to %s.' => '%s a mis à jour la variété de %s en %s.',
       'Someone changes the badge\'s details.' => 'Quelqu’un a modifié les détails de l’insigne.',
@@ -149,7 +148,6 @@ final class PhabricatorBadgesFrFR
       'Read information about badges.' => 'Lire les informations concernant les badges.',
       '%s revoked %s from %s recipient(s): %s.' => '%s a révoqué %s pour %s destinataire(s) : %s.',
       'Flavor Text' => 'Texte de la variété',
-      'Add Recipient' => 'Ajouter un destinataire',
     );
   }
 

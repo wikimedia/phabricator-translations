@@ -15,7 +15,6 @@ final class PhabricatorextCoreSl
       'Limit the number of transaction rows to process. Default: 10000' => 'Omeji število transakcijskih vrstic na proces. Privzeto: 10.000.',
       'Unknown or missing ldap names: %s' => 'Neznana ali manjkajoča imena ldap: %s',
       'Code Review Started' => 'Pregled kode se je začel',
-      'Changed Type' => 'Spremenjena vrsta',
       'Expert Mode.' => 'Strokovni način.',
       'Missing or malformed parameter.' => 'Manjkajoč ali napačno oblikovan parameter.',
       'Unknown' => 'Neznano',

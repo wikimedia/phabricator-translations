@@ -54,6 +54,7 @@ final class PhabricatorPhrictionEn
       'Update a Phriction document.' => 'Update a Phriction document.',
       'Revert the published version of this document to an older version?' => 'Revert the published version of this document to an older version?',
       'Document Content' => 'Document Content',
+      'Apply transactions to edit an existing phriction document.' => 'Apply transactions to edit an existing phriction document.',
       'Version %d' => 'Version %s',
       'Last Author' => 'Last Author',
       'Published document changed' => 'Published document changed',

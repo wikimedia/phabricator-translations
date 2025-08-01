@@ -88,7 +88,6 @@ final class PhabricatorConpherenceZhHant
       'Room' => '聊天室',
       'You must specify data that actually updates the Conpherence.' => '您必須指定資料才能確實更新 Conpherence。',
       'Joinable Rooms' => '可加入的聊天室',
-      'Send' => '發送',
       'Create a new conpherence thread.' => '建立新的 Conpherence 討論串。',
       'Search by room titles.' => '透過聊天室標題搜尋。',
       'Peach' => '桃色',

@@ -44,6 +44,7 @@ final class PhabricatorDifferentialKoKR
       'Hide Panel' => '패널 숨기기',
       'Discard Edit' => '편집 버리기',
       'JIRA Issue URIs' => 'JIRA 이슈 URI',
+      'Repository: %s' => '저장소: %s',
       'Show First %s Block(s)' => '처음 %s 블록 표시',
       '▲ Show %s Block(s)' => '▲ %s 블록 표시',
       '(Empty.)' => '(비었음.)',

@@ -503,7 +503,7 @@ final class PhabricatorCoreCa
       'Two-up inline row scaffold must have at most two inline views.' => 'La bastida fila de dues files ha de tenir com a màxim dues vistes en línia.',
       'Select any closed status.' => 'Seleccioneu qualsevol estat tancat.',
       'Unknown Content-Security-Policy URI kind "%s".' => 'Tipus d\'URI de política de seguretat de contingut desconegut: \'%s\'.',
-      'New Password' => 'Nova contrasenya',
+      'New Password' => 'Contrasenya nova',
       'Repaired Config' => 'Configuració reparada',
       'Billing Address' => 'Adreça de facturació',
       'Sun' => 'Dg.',

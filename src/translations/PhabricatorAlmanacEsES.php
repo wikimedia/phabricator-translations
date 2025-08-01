@@ -9,6 +9,7 @@ final class PhabricatorAlmanacEsES
 
   protected function getTranslations() {
     return array(
+      'Edit Namespace' => 'Editar espacio de nombres',
       'Reset' => 'Restablecer',
       'Edit Network' => 'Edita red',
       'Edit Service' => 'Edita servicio',
@@ -17,6 +18,7 @@ final class PhabricatorAlmanacEsES
       'All Networks' => 'Todas las redes',
       'Delete Property' => 'Elimina propiedad',
       'Device status information.' => 'Información del estado del dispositivo.',
+      'This key is associated with device "%s".' => 'Esta clave está asociada con el dispositivo "%s".',
       'Almanac' => 'Almanaque',
       'Device Disabled' => 'Dispositivo inhabilitado',
       'Set the device.' => 'Configurar el dispositivo.',

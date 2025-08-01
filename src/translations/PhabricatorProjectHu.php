@@ -38,7 +38,6 @@ final class PhabricatorProjectHu
       '%d day(s)' => '%s nap',
       'Week' => 'Hét',
       'Play sound' => 'Hang lejátszása',
-      'Update' => 'Frissítés',
     );
   }
 

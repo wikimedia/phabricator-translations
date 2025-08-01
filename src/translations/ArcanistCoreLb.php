@@ -20,6 +20,7 @@ final class ArcanistCoreLb
       'Author: %s' => 'Auteur: %s',
       'ERROR' => 'FEELER',
       'Copied Here' => 'Heihinner kopéiert',
+      'Command-Line Input' => 'Kommandozeilen-Input',
       'TODO Comment' => 'TODO-Kommentar',
       'INSTALLED' => 'INSTALLÉIERT',
       'CONFIGURED' => 'KONFIGURÉIERT',

@@ -11,6 +11,7 @@ final class PhabricatorConduitSe
     return array(
       'JSON' => 'JSON',
       'Errors' => 'Meattáhusat',
+      'Username.' => 'Geavaheaddjinamma.',
     );
   }
 

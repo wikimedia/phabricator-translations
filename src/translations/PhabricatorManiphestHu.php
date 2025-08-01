@@ -21,7 +21,6 @@ final class PhabricatorManiphestHu
       'Update an existing Maniphest task.' => 'Egy létező Maniphest-feladat frissítése.',
       'List of columns to move the task to.' => 'A feladat mozgatása ezekbe az oszlopokba.',
       'A task\'s subscribers change.' => 'A feladat feliratkozói változtak.',
-      'Oldest open task, excluding those with Low or Wishlist priority.' => 'A legrégebbi nyitott feladat, nem beleértve az "Alacsony" és a "Kívánságlistás" prioritásúakat.',
       'Change Points' => 'Pontok változtatása',
       'Returns information about the possible statuses for Maniphest tasks.' => 'Visszatér az információkkal a Maniphest feladatok lehetséges státuszairól.',
       '%s closed %s as %s.' => '%s lezárta a(z) %s feladatot %s eredménnyel.',

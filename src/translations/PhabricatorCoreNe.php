@@ -114,6 +114,7 @@ final class PhabricatorCoreNe
       'Documentation' => 'दस्तावेज',
       'User' => 'प्रयोगकर्ता',
       'data' => 'तथ्याङक',
+      'Restricted' => 'प्रतिबन्धित',
       'Size' => 'आकार',
       'Experimental' => 'प्रयोगात्मक',
       'Group By' => 'का अनुसार समूह',

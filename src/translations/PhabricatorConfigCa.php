@@ -378,7 +378,6 @@ final class PhabricatorConfigCa
     %s',
       'SSH keys are now actually useful, so they are always enabled.' => 'Les claus SSH ara són realment útils, de manera que sempre estan habilitades.',
       'Request output, in bytes.' => 'Sortida sol·licitada, en bytes.',
-      'Configure integration with AWS (EC2, SES, S3, etc).' => 'Configureu la integració amb AWS (EC2, SES, S3, etc.).',
       'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => 'L\'opció de configuració «%s» no és vàlida. L\'URI ha de contenir un punt (\'.\'), com \'%s\', no només un nom nu com \'%s\'. Alguns navegadors web no establiran galetes en dominis sense TLD.',
       'The Multimeter application collects performance samples. You can use this data to help you understand what the software is spending time and resources doing, and to identify problematic access patterns.
     This option controls how frequently sampling activates. Set it to some positive integer N to sample every 1 / N pages.
@@ -725,6 +724,7 @@ final class PhabricatorConfigCa
       'Customized settings for applications.' => 'Paràmetres personalitzats per a aplicacions de Phabricator.',
       'Config option "%s" is invalid. The URI must contain a dot ("%s"), like "%s", not just a bare name like "%s". Some web browsers will not set cookies on domains with no TLD.' => 'L\'opció de configuració \'%s\' no és vàlida. L\'URI ha de contenir un punt (\'%s\'), com ara \'%s\', no només un nom simple com \'%s\'. Alguns navegadors web no configuraran galetes en dominis sense TLD.',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Establiu %s a la configuració de PHP com a mínim a 32 MB per admetre fitxers de grans dimensions.',
+      'Configure integration with AWS (EC2, SES, S3, etc.).' => 'Configureu la integració amb AWS (EC2, SES, S3, etc.).',
       'MySQL %s Mode Not Set' => 'El mode %s de MySQL no està habilitat',
       'If you are using Apache, your server may be configured with "SetInputFilter DEFLATE". This directive destructively mangles requests and emits them with "Content-Length" and "Content-Encoding" headers that no longer match the data in the request body.' => 'Si utilitzeu Apache, és possible que el servidor estigui configurat amb \'SetInputFilter DEFLATE\'. Aquesta directiva mangles destructivament sol·licita i les emet amb capçaleres \'Content-Length\' i \'Content-Encoding\' que ja no coincideixen amb les dades del cos de sol·licitud.',
       'Options for platform developers, including debugging.' => 'Opcions per a desenvolupadors de Phabricator, inclosa la depuració.',

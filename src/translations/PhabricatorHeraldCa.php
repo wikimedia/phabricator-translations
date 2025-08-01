@@ -227,7 +227,6 @@ final class PhabricatorHeraldCa
       'Hook Error' => 'Error de hook',
       'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.' => 'L\'expressió regular "%s" a la regla Herald "%s" no és vàlida, ni ha superat els límits de retrocés o recursivitat durant l\'execució. Verifiqueu l\'expressió i corregiu-la o reescriviu-la amb menys retrocés.',
       'No adapter exists for Herald content type "%s".' => 'No existeix cap adaptador per al tipus de contingut Herald \'%s\'.',
-      'You do not have permission to create or manage global rules.' => 'No tens permís per crear o dirigir regles globals.',
       'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.' => 'Moltes sol·licituds a aquest webhook han fallat recentment (almenys %s errors en els darrers %s segons). Les sol·licituds noves s’aturen temporalment.',
       'Call webhooks' => 'Trucada a webhooks',
       'Another Herald rule' => 'Una altra regla de Herald',
@@ -237,6 +236,8 @@ final class PhabricatorHeraldCa
       'Edit Rule' => 'Edita la regla',
       'any of' => 'qualsevol de',
       'Dry Run' => 'Prova en blanc',
+      'No transcripts found.' => 'No s\'ha trobat cap transcripció.',
+      'You do not have permission to create or manage global rules.' => 'No tens permís per crear o dirigir regles globals.',
       'Condition references a rule which does not exist!' => 'La condició fa referència a una regla que no existeix!',
       'Show Only Enabled Rules' => 'Mostra només les regles habilitades',
       'Webhook %d %s' => 'Webhook %s %s',
@@ -390,7 +391,6 @@ final class PhabricatorHeraldCa
       'Name of the webhook.' => 'Nom del webhook.',
       'Webhooks' => 'Webhooks',
       'The regular expression pair "%s" must have exactly two elements.' => 'El parell d\'expressions regulars "%s" ha de tenir exactament dos elements.',
-      'No transcripts found.' => 'No s\'ha trobat cap transcripció.',
     );
   }
 

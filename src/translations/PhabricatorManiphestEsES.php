@@ -53,6 +53,8 @@ final class PhabricatorManiphestEsES
       'Set priority to' => 'Establecer prioridad a',
       'Filter By Project' => 'Filtrar por proyecto',
       '%s claimed this task.' => '%s reclamó esta tarea.',
+      'Untitled Task' => 'Tarea sin título',
+      '%s added a cover image to %s.' => '%s añadió una imagen de portada a %s.',
       'Edit Subtasks' => 'Editar subtareas',
       '%s assigned this task to %s.' => '%s asignó esta tarea a %s.',
       'Change status to: %s.' => 'Cambiar estado a: %s.',
@@ -61,6 +63,8 @@ final class PhabricatorManiphestEsES
       'Closed, Duplicate' => 'Cerrado, Duplicado',
       'Epoch timestamp when the task was closed.' => 'Cronomarcador de época de cuando se cerró la tarea.',
       'task author' => 'autor de la tarea',
+      'Subtasks.' => 'Subtareas.',
+      '%s created this task.' => '%s creó esta tarea.',
       'Search...' => 'Buscar…',
       'Task Graph' => 'Gráfico de la tarea',
       '%s lowered the priority of this task from %s to %s.' => '%s redujo la prioridad de esta tarea de %s a %s.',
@@ -69,6 +73,7 @@ final class PhabricatorManiphestEsES
       '(No Project)' => '(Ningún proyecto)',
       'Priorities' => 'Prioridades',
       'Task Priority' => 'Prioridad de tarea',
+      'Type a username or "none"...' => 'Escriba un nombre de usuario o "ninguno"...',
       '%s assigned %s to %s.' => '%s asignó %s a %s.',
       'Edit Task' => 'Editar tarea',
       'Default edit policy for newly created tasks.' => 'Normativa de edición predeterminada para tareas recién creadas.',
@@ -85,6 +90,7 @@ final class PhabricatorManiphestEsES
       '%s merged task %s into %s.' => '%s fusionó la tarea %s con %s.',
       '%s changed the status of subtask %s from %s to %s.' => '%s cambió el estado de la subtarea %s de %s a %s.',
       'Changed Project Column' => 'Columna de proyecto modificada',
+      'Unassigned task.' => 'Tareas sin asignar.',
     );
   }
 

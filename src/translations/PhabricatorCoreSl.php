@@ -507,6 +507,7 @@ final class PhabricatorCoreSl
       'Add Comment' => 'Dodaj komentar',
       'View \'%s\' did not return an array from getTagAttributes()!' => 'Ogled »%s« ni vrnil matrike getTagAttributes()!',
       'View Options' => 'Ogled možnosti',
+      'Short Name' => 'Kratko ime',
       'Name of the package.' => 'Ime paketa.',
       '%s is already archived, and will not be executed. Use "--retry" to execute archived tasks.' => 'Opravilo %s je že arhivirano in se ne bo izvedlo. Za izvedbo arhiviranih opravil uporabite »--retry«.',
       'Details' => 'Podrobnosti',

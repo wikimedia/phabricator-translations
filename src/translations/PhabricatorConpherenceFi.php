@@ -47,7 +47,6 @@ final class PhabricatorConpherenceFi
       'Join Room' => 'Liity huoneeseen',
       'Room' => 'Huone',
       'Joinable Rooms' => 'Liityttävät huoneet',
-      'Send' => 'Lähetä',
       'No Rooms' => 'Ei huoneita',
       'Private Room' => 'Yksityinen huone',
       'Theme' => 'Teema',

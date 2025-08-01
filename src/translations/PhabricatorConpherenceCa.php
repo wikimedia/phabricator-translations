@@ -88,7 +88,6 @@ final class PhabricatorConpherenceCa
       'Room' => 'Sala',
       'You must specify data that actually updates the Conpherence.' => 'Heu d\'especificar les dades que actualitzen la Conpherence.',
       'Joinable Rooms' => 'Sales acoblables',
-      'Send' => 'Enviar',
       'Create a new conpherence thread.' => 'Creeu un fil de conferència nou.',
       'Search by room titles.' => 'Cerca per títols de sala.',
       'Peach' => 'Préssec',

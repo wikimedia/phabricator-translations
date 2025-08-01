@@ -35,8 +35,6 @@ final class PhabricatorextCoreTr
       'Invalid action \'%s\'!' => 'Geçersiz eylem \'%s\'!',
       'MediaWiki' => 'MediaWiki',
       'MediaWiki Base URI' => 'MediaWiki Temel URI',
-      'Burnup Graph' => 'Burn-up grafiği',
-      'Change type to "%s."' => 'Türü "%s" olarak değiştir.',
       'Execute searches for Policies.' => 'Politikalar için arama yap.',
       'Execute a rollback.' => 'Geri döndürme işlemini yapın',
       'Deny' => 'Reddet',
@@ -52,7 +50,6 @@ final class PhabricatorextCoreTr
       'Gerrit Patches' => 'Gerrit yamaları',
       'Sort by Last Update' => 'Son güncellemeye göre sırala',
       '%s Line(s) removed' => '%s Satır kaldırıldı',
-      'Changed Type' => 'Değiştirilmiş Tür',
       'Hide Instructions' => 'Talimatları gizle',
       'users subscribed to' => 'kullanıcılar şuraya abone oldu',
       'PHIDs required' => 'PHID\'ler gereklidir',
@@ -72,7 +69,6 @@ final class PhabricatorextCoreTr
       'Abandoned' => 'Terk edilmiş',
       '%s Line(s) added' => '%s Satır eklendi',
       'Comments' => 'Yorumlar',
-      'Change type to "%s"' => 'Türü "%s" olarak değiştir',
     );
   }
 

@@ -13,6 +13,7 @@ final class PhabricatorFilesEsES
       '%s removed the alternate text for this file (was %s).' => '%s removió el texto alternativo de este archivo (era %s).',
       '%s removed the alternate text for %s (was %s).' => '%s removió el texto alternativo para %s (era %s).',
       'Alt Text' => 'Texto alternativo',
+      'Choose Icon' => 'Elegir icono',
       'Default Alt Text' => 'Texto alternativo predeterminado',
       'Not Applicable' => 'No aplicable',
       'Custom Alt Text' => 'Texto alternativo personalizado',

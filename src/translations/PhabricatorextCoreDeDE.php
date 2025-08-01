@@ -15,7 +15,6 @@ final class PhabricatorextCoreDeDE
       'Show related patches' => 'Verwandte Patches anzeigen',
       'You must provide either a username or userPHID' => 'Du musst entweder einen Benutzernamen oder eine userPHID angeben',
       'Unknown policies: %s' => 'Unbekannte Richtlinien: %s',
-      'Change type to "%s."' => 'Ändere den Typ auf "%s."',
       'Invalid' => 'Ungültig',
       'Blocked on Code Review - Needs Changes' => 'Bei Code-Review blockiert – Benötigt Änderungen',
       'View Change in Gerrit' => 'Änderung in Gerrit anzeigen',
@@ -33,9 +32,7 @@ final class PhabricatorextCoreDeDE
       'Expert Mode' => 'Expertenmodus',
       'Unknown or missing mediawiki names: %s' => 'MediaWiki-Name fehlt oder unbekannt: %s',
       'Required' => 'Erforderlich',
-      'Number of open tasks over time' => 'Anzahl der offenen Aufgaben im Zeitverlauf',
       'Comments' => 'Kommentare',
-      'Change type to "%s"' => 'Ändere den Typ auf "%s"',
     );
   }
 

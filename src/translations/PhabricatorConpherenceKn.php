@@ -30,7 +30,6 @@ final class PhabricatorConpherenceKn
       'Topic' => 'ವಿಷಯ',
       'Create New Room' => 'ಹೊಸ ಕೋಣೆ ರಚಿಸಿ',
       'Room' => 'ಕೋಣೆ',
-      'Send' => 'ಕಳುಹಿಸಿ',
       'Private Room' => 'ಖಾಸಗಿ ಕೋಣೆ',
       'New Room' => 'ಹೊಸ ಕೋಣೆ',
       'New Room topic.' => 'ಹೊಸ ಕೋಣೆ ವಿಷಯ.',

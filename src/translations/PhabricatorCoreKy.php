@@ -53,6 +53,7 @@ final class PhabricatorCoreKy
       'Red' => 'Кызыл',
       'Okay' => 'Макул',
       'Address' => 'Дарек',
+      'Document' => 'Документ',
       'Done.' => 'Даяр.',
       'DONE' => 'ДАЯР',
       'Save' => 'Сактоо',

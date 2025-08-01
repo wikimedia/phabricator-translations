@@ -582,7 +582,6 @@ final class PhabricatorProjectTr
       '%s set the icon for %s to %s.' => '%s, simgesini %s ile %s ayarlandı.',
       'Watching a project will let you monitor it closely. You will receive email and notifications about changes to every object tagged with projects you watch.' => 'Bir projeyi izlemek onu yakından izlemenize izin verecektir. İzlediğiniz projelerle etiketlenen her nesnede yapılan değişikliklerle ilgili e-posta ve bildirimler alacaksınız.',
       'Play sound' => 'Sesi oynat',
-      'Update' => 'Güncelle',
       'Browse Only' => 'Yalnızca Göz At',
       '%s removed %d %s hashtag(s): %s.' => '%s, %s %s kare kaldırıldı: %s.',
       '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s, %s projeyi düzenledi, %s eklendi; %s; %s kaldırıldı: %s.',

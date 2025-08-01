@@ -21,7 +21,6 @@ final class PhabricatorManiphestSrEC
       'Update an existing Maniphest task.' => 'Ажурирај постојећи Манифест задатак.',
       'List of columns to move the task to.' => 'Списак колона у које треба преместити задатак.',
       'A task\'s subscribers change.' => 'Промена пратиоца задатака.',
-      'Oldest open task, excluding those with Low or Wishlist priority.' => 'Најстарији отворен задатак, изузимајући оне са ниским и „листа жеља” приоритетима.',
       'Change Points' => 'Измени поене',
       '%s closed %s as %s.' => '%s је затворио %s као %s.',
       'This task has been locked.' => 'Овај задатак је закључан.',

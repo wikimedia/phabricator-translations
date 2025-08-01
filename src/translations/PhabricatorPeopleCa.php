@@ -29,16 +29,6 @@ final class PhabricatorPeopleCa
       'Stores the real name of the user, like "Abraham Lincoln".' => 'Emmagatzema el nom real de l\'usuari, com ara "Abraham Lincoln".',
       'Pass true to find only mailing lists, or false to omit mailing lists.' => 'Establiu cert per trobar només llistes de correu, o fals per ometre llistes de correu.',
       'You must be an administrator to create administrators.' => 'Has de ser un administrador per crear administradors.',
-      'Condolences on forgetting your password. You can use this link to reset it:
-      %s
-    After you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.
-    Best Wishes,
-    Phabricator
-    ' => 'Condolències per oblidar la seva contrasenya. Podeu utilitzar aquest enllaç per restablir-la: 
-      %s 
-    Després d\'establir una nova contrasenya, considereu escriure-la en una nota adhesiva i adjuntar-la al vostre monitor perquè no ho oblideu de nou!  Trieu una contrasenya molt curta i fàcil de recordar com "cat" o "1234" també podria ajudar. 
-    Els millors desitjos. 
-    Phabricator',
       'Obsoleted by "%s".' => 'Obsolet per «%s».',
       'User Accounts and Profiles' => 'Comptes d\'usuari i Perfils',
       'Login: Partial Login' => 'Inici de sessió: Inici parcial',

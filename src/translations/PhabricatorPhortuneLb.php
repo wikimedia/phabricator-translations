@@ -10,6 +10,7 @@ final class PhabricatorPhortuneLb
   protected function getTranslations() {
     return array(
       'Ready' => 'Prett',
+      'The email can be no longer than %s characters.' => 'D\'E-Mail däerf net méi laang wéi %s Zeeche sinn.',
       'New email address.' => 'Nei E-Mail-Adress.',
       'Invoices' => 'Rechnungen',
       'Email address.' => 'E-Mail-Adress.',
@@ -17,6 +18,7 @@ final class PhabricatorPhortuneLb
       'New Managers' => 'Nei Manager',
       'Already Disabled' => 'Schonn Desaktivéiert',
       'Error Code' => 'Feeler-Code',
+      'The address can be no longer than %s characters.' => 'D\'Adress däerf net méi laang wéi %s Zeeche sinn.',
     );
   }
 

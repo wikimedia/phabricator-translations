@@ -68,6 +68,7 @@ final class TranslatewikiCoreFrFR
       'Location to write the generated translation file.' => 'Emplacement où écrire le fichier de traduction généré.',
       'Saraiki (Arabic Script)' => 'saraiki (écriture arabe)',
       'PLURAL' => 'PLURIEL',
+      'Luxemborgish' => 'luxembourgeois',
     );
   }
 

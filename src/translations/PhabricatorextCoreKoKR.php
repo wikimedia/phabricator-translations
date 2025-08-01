@@ -28,7 +28,6 @@ final class PhabricatorextCoreKoKR
       'LDAP User' => 'LDAP 사용자',
       'Invalid action \'%s\'!' => '유효하지 않은 동작 \'%s\' 입니다!',
       'MediaWiki' => '미디어위키',
-      'Change type to "%s."' => '유형을 "%s"(으)로 변경합니다.',
       'Execute a rollback.' => '롤백을 실행합니다.',
       'Deny' => '거부',
       'Invalid' => '유효하지 않음',
@@ -63,7 +62,6 @@ final class PhabricatorextCoreKoKR
       'Required' => '필수',
       '%s Line(s) added' => '%s줄 추가됨',
       'Comments' => '의견',
-      'Change type to "%s"' => '유형을 "%s"(으)로 변경',
     );
   }
 

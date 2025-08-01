@@ -350,6 +350,7 @@ final class PhabricatorCoreKoKR
       'View All' => '모두 보기',
       '%s ms' => '%s ms',
       'Messages' => '메시지',
+      'Function' => '함수',
       'Preview' => '미리 보기',
       'Security' => '보안',
       'path/to/source.c' => 'path/to/source.c',

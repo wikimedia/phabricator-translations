@@ -201,13 +201,14 @@ final class PhabricatorHeraldTr
       'Hook Error' => 'Kanca Hatası',
       'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.' => 'Herald kuralında "%s" olan normal ifade "%s" geçerli değil veya yürütme sırasında geri izleme veya özyineleme sınırlarını aştı. İfadeyi doğrulayın ve düzeltin veya daha az geri izleme ile yeniden yazın.',
       'No adapter exists for Herald content type "%s".' => '"%s" Herald içerik türü için bir adaptör yok.',
-      'You do not have permission to create or manage global rules.' => 'Genel kurallar oluşturma veya yönetme izniniz yok.',
       'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.' => 'Bu webhook\'a yapılan birçok istek son zamanlarda başarısız oldu (son %2$s\'de en az %1$s hata). Yeni istekler geçici olarak duraklatıldı.',
       'Call webhooks' => 'Webhook\'ları arayın',
       'Another Herald rule' => 'Başka bir Herald kuralı',
       'Edit Rule' => 'Kuralı Düzenle',
       'any of' => 'herhangi biri',
       'Dry Run' => 'Kuru Çalışma',
+      'No transcripts found.' => 'Hiçbir transkript bulunamadı.',
+      'You do not have permission to create or manage global rules.' => 'Genel kurallar oluşturma veya yönetme izniniz yok.',
       'Condition references a rule which does not exist!' => 'Koşul, var olmayan bir kurala işaret eder!',
       'Show Only Enabled Rules' => 'Yalnızca Etkin Kuralları Göster',
       'Webhook %d %s' => 'Webhook %s %s',
@@ -341,7 +342,6 @@ final class PhabricatorHeraldTr
       'Name of the webhook.' => 'Webhook\'un adı.',
       'Webhooks' => 'Webhook\'lar',
       'The regular expression pair "%s" must have exactly two elements.' => '"%s" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir.',
-      'No transcripts found.' => 'Hiçbir transkript bulunamadı.',
     );
   }
 

@@ -107,7 +107,6 @@ final class PhabricatorBadgesTr
       'Rain Defender' => 'Yağmur Koruyucu',
       '[Badge]' => '[Rozet]',
       'The Empire' => 'İmparatorluk',
-      'Edit Recipients' => 'Alıcıları Düzenle',
       'Rare' => 'Nadir',
       '%s updated the flavor from %s to %s.' => '%s, lezzeti %s ile %s güncelledi.',
       'Someone changes the badge\'s details.' => 'Birisi rozetin detaylarını değiştirir.',
@@ -136,7 +135,6 @@ final class PhabricatorBadgesTr
       'Read information about badges.' => 'Rozetler hakkında bilgi edinin.',
       '%s revoked %s from %s recipient(s): %s.' => '%s, %3$s alıcıdan %2$s iptal etti: %s.',
       'Flavor Text' => 'Lezzet Metni',
-      'Add Recipient' => 'Alıcı Ekle',
     );
   }
 

@@ -14,7 +14,7 @@ final class PhabricatorDifferentialLb
       '%s] [%s' => '%s] [%s',
       '%s Lines' => '%s Linnen',
       'No Actions' => 'Keng Aktiounen',
-      'Left' => 'Lenks',
+      'Left' => 'Lénks',
       'Right' => 'Riets',
       'Discard Edit' => 'Ännerung verwerfen',
       'Request Changes' => 'Ännerunge froen',

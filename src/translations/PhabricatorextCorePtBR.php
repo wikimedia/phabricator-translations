@@ -27,6 +27,7 @@ final class PhabricatorextCorePtBR
       'Protect as security issue' => 'Proteger como questão de segurança',
       'OAuth JWT iss didn\'t match expected server name' => 'OAuth JWT iss não é compativel com o nome de servidor esperado',
       'OAuth JWT wasn\'t valid at this time' => 'OAuth JWT não foi válido neste momento',
+      'If something is serious enough to warrant a rollback then you should bring it to the attention of deployers on the [[ https://www.mediawiki.org/wiki/Special:MyLanguage/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].' => 'Se algo é sério o suficiente para justificar uma reversão então você deve alertar os implantadores em[[ https://www.mediawiki.org/wiki/Special:MyLanguage/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].',
       'OAuth provider returned an error response.' => 'O provedor OAuth retornou uma resposta de erro.',
       'Ensure Security Task Policies are Enforced' => 'Tenha certeza de que políticas de tarefa sejam aplicadas',
       'Release Details' => 'Detalhes de lançamento',
@@ -35,7 +36,6 @@ final class PhabricatorextCorePtBR
       'Invalid action \'%s\'!' => 'Ação inválida \'%s\'!',
       'MediaWiki' => 'MediaWiki',
       'MediaWiki Base URI' => 'URI de base do MediaWiki',
-      'Change type to "%s."' => 'Alterar tipo para "%s."',
       'Find public transactions by a particular user.' => 'Encontre transações públicas por um usuário específico.',
       '**Step 2 of 2**: Create a MediaWiki OAuth consumer for this Phabricator instance.
     NOTE: Propose an OAuth 1.0a consumer with the form at this URL: %s
@@ -70,7 +70,6 @@ final class PhabricatorextCorePtBR
       'OAuth JWT aud didn\'t match expected consumer key' => 'OAuth JWT aud não correspondeu à chave do consumidor esperada',
       'Related Changes in Gerrit:' => 'Mudanças relacionadas em Gerrit:',
       'Code Review Started' => 'Revisão de código iniciada',
-      'Changed Type' => 'Tipo alterado',
       'Hide Instructions' => 'Esconder instruções',
       'Rules do not have any effect.' => 'Regras não possuem nenhum efeito.',
       '**Step 1 of 2**: Provide the name and URI for your MediaWiki install.
@@ -87,7 +86,6 @@ final class PhabricatorextCorePtBR
       'Create custom access control policy objects.' => 'Crie objetos de política de controle de acesso personalizados.',
       'Use [[%s|this form]] to create one.' => 'Use [[%s|esse formulário]] para criar um.',
       'MediaWiki User' => 'Usuário do MediaWiki',
-      'Change type to' => 'Mudar tipo para',
       'Reset security settings' => 'Redefinir as configurações de segurança',
       'Open Tasks' => 'Tarefas abertas',
       'Unknown' => 'Desconhecido',
@@ -103,12 +101,9 @@ final class PhabricatorextCorePtBR
       'No Permission' => 'Sem permissão',
       'Series Navigation' => 'Navegação em série',
       'Required' => 'Requerido',
-      'Number of open tasks over time' => 'Número de tarefas abertas ao longo do tempo',
       'Abandoned' => 'Abandonado',
       '%s Line(s) added' => 'Linha(s) %s adicionada(s)',
-      'If something is serious enough to warrant a rollback then you should bring it to the attention of deployers on the [[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].' => 'Se algo é sério o suficiente para justificar uma reversão então você deve alertar os implantadores em[[ https://www.mediawiki.org/wiki/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].',
       'Comments' => 'Comentários',
-      'Change type to "%s"' => 'Alterar tipo para "%s"',
     );
   }
 

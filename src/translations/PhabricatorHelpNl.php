@@ -13,7 +13,7 @@ final class PhabricatorHelpNl
       'Page Shortcuts' => 'Paginasnelkoppelingen',
       '%s Help' => 'Hulp voor %s',
       'Hiding Content' => 'Inhoud verbergen',
-      'Editing Inline Comments' => 'Inline-opmerkingen bewerken',
+      'Editing Inline Comments' => 'Ingevoegde opmerkingen bewerken',
       'Global Shortcuts' => 'Globale snelkoppelingen',
       'Keyboard Shortcuts' => 'Sneltoetsen',
       'Diff Navigation' => 'Diff-navigatie',

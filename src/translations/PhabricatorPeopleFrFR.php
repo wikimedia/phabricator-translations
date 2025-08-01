@@ -29,16 +29,6 @@ final class PhabricatorPeopleFrFR
       'Stores the real name of the user, like "Abraham Lincoln".' => 'Enregistrer le nom véritable de l’utilisateur, comme « Abraham Lincoln ».',
       'Pass true to find only mailing lists, or false to omit mailing lists.' => 'Transmettez « true » (vrai) pour trouver uniquement des listes de courriels, ou bien « false » (faux) pour les omettre.',
       'You must be an administrator to create administrators.' => 'Vous devez être administrateur pour créer des administrateurs.',
-      'Condolences on forgetting your password. You can use this link to reset it:
-      %s
-    After you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.
-    Best Wishes,
-    Phabricator
-    ' => 'Condoléances pour l’oubli de votre mot de passe. Vous pouvez utiliser ce lien pour le réinitialiser :
-     %s 
-    Après avoir défini un nouveau mot de passe, pensez à l’écrire sur une note autocollante et à l’attacher à votre écran pour ne plus l’oublier ! Le choix d’un mot de passe très court et facile à mémoriser comme « cat » ou « 1234 » peut également aider.
-    Best Wishes,
-    Phabricator',
       'Obsoleted by "%s".' => 'Rendu obsolète par « %s ».',
       'User Accounts and Profiles' => 'Comptes et profils d’utilisateurs',
       'Login: Partial Login' => 'Connexion : connexion partielle',

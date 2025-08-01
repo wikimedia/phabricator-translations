@@ -72,7 +72,6 @@ final class PhabricatorFilesFrFR
       'Files must have a name.' => 'Les fichiers doivent avoir un nom.',
       'New file name.' => 'Nouveau nom de fichier.',
       'Interacting with Files' => 'Interagir avec les fichiers',
-      'WMF Debug T352170: AltText: %s' => 'Débogage WMF T352170 : texte alternatif : %s',
       'This file data is incomplete!' => 'Les données de ce fichier sont incomplètes !',
       'Blob store for Pokemon pictures.' => 'Stockage des blobs pour les images Pokemon.',
       'Processed %s file(s) with no errors.' => array(
@@ -235,7 +234,6 @@ final class PhabricatorFilesFrFR
       'Unable to transform image: the imagecreatefromstring() function is not available. Install or enable the "gd" extension for PHP.' => 'Impossible de transformer l’image : la fonction `imagecreatefromstring()` est indisponible. Installez ou activez l’extension « gd » pour PHP.',
       'Company' => 'Entreprise',
       'Encoded (ROT13)' => 'Encodé (ROT13)',
-      'WMF Debug T352170: File: %s' => 'Débogage WMF T352170 : fichier : %s',
       'Permanently delete "%s"? This action can not be undone.' => 'Supprimer définitivement « %s » ? Cette action ne pourra être défaite.',
       'Corrupted integrity hash for file "%s".' => 'Hachage d’intégrité corrompu pour le fichier « %s ».',
       'Success!' => 'Succès !',

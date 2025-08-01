@@ -646,7 +646,6 @@ final class PhabricatorConfigEn
     %s',
       'SSH keys are now actually useful, so they are always enabled.' => 'SSH keys are now actually useful, so they are always enabled.',
       'Request output, in bytes.' => 'Request output, in bytes.',
-      'Configure integration with AWS (EC2, SES, S3, etc).' => 'Configure integration with AWS (EC2, SES, S3, etc).',
       'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => 'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.',
       'The Multimeter application collects performance samples. You can use this data to help you understand what the software is spending time and resources doing, and to identify problematic access patterns.
     This option controls how frequently sampling activates. Set it to some positive integer N to sample every 1 / N pages.
@@ -1273,6 +1272,7 @@ final class PhabricatorConfigEn
       'Subschemata Have Warnings' => 'Subschemata Have Warnings',
       'Require Administrators to Approve Accounts' => 'Require Administrators to Approve Accounts',
       'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Set %s in your PHP configuration to at least 32MB to support large file uploads.',
+      'Configure integration with AWS (EC2, SES, S3, etc.).' => 'Configure integration with AWS (EC2, SES, S3, etc.).',
       'The system sudo user.' => 'The system sudo user.',
       'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller
     messages.' => 'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller

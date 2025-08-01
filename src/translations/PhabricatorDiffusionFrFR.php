@@ -300,7 +300,6 @@ final class PhabricatorDiffusionFrFR
       'Set the permanent refs.' => 'Définit les références permanentes.',
       'Unknown VCS \'%s!\'' => 'Système de contrôle des versions « %s » inconnu !',
       'Get commit identifiers for recent commits affecting a given path.' => 'Obtenir les identifiants de validation pour les validations récentes affectant un chemin donné.',
-      'Unexpected object type from `%s` in %s: %s' => 'Type d\'objet inattendu de `%s` dans %s : %s',
       'Obsoleted by "diffusion.historyquery".' => 'Obsolète et remplacé par « diffusion.historyquery ».',
       'This path does not exist at %s. It was deleted in %s and last existed at %s.' => 'Ce chemin n’existe pas à %s. Il a été supprimé en %s et sa dernière existence est à %s.',
       'New fetched refs.' => 'Nouvelles références récupérées.',
