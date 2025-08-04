@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Warchlak"
 		]
 	},
@@ -28,7 +29,7 @@
 	"223e06c52a7be78d": "Pusty ciąg znaków nie jest prawidłowym ustawieniem dla \"$1\".",
 	"22de712b363a08cc": "Dostosuj strefę czasową",
 	"2785923283c90225": "$1 zaktualizowała swój profil",
-	"287eac13ff391a05": "Gdy włączona jest opcja **Zmiany w tematach**, większość linii tematu wiadomości będzie zawierała krótki opis ich zawartości, np. `[Zamknięte]` dla powiadomienia o kimś zamykającym zadanie.\n\n| Ustawienie           | Przykład tematu wiadomości\n|----------------------|----------------\n| Zmiany w tematach    | `[Manifest] [Zamknięte] T123: Przykładowe zadanie`\n| Bez zmian w tematach | `[Manifest] T123: Przykładowe zadanie`\n\nDzięki temu poczta może być bardziej użyteczna, ale niektóre klienty poczty mają problem z wątkowaniem tych wiadomości. Wyłączenie tej opcji może polepszyć wątki kosztem uczynienia wierszy tematu mniej przydatnymi.",
+	"287eac13ff391a05": "Gdy włączona jest opcja **Zmiany w tematach**, większość linii tematu wiadomości będzie zawierała krótki opis ich zawartości, np. `[Zamknięte]` dla powiadomienia o kimś zamykającym zadanie.\n\n| Ustawienie           | Przykład tematu wiadomości\n|----------------------|----------------\n| Zmiany w tematach    | `[Maniphest] [Zamknięte] T123: Przykładowe zadanie`\n| Bez zmian w tematach | `[Maniphest] T123: Przykładowe zadanie`\n\nDzięki temu poczta może być bardziej użyteczna, ale niektóre klienty poczty mają problem z wątkowaniem tych wiadomości. Wyłączenie tej opcji może polepszyć wątki kosztem uczynienia wierszy tematu mniej przydatnymi.",
 	"289d7173c274e090": "Wartość \"$1\" nie jest prawidłowa dla ustawienia \"$2\": prawidłowe wartości to $3.",
 	"2bcbafa80faeb97b": "Dodatkowe ustawienia",
 	"2c59588b7493b1d7": "Czy na pewno chcesz usunąć ten adres? Nie będzie można więcej używać go do logowania.",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Ajeje Brazorf",
 			"Alno",
 			"Derugon",
@@ -278,7 +279,7 @@
 	"9575d72ebb5e5184": "Priorité définie sur une valeur non valide.",
 	"95b8b8cb15bff5d9": "La valeur des points ne doit pas être négative.",
 	"963306403fcd6d40": "Saisir un nom d’utilisateur ou « none »...",
-	"967a0b6982ad1270": "Cache de nom de projet de manifeste",
+	"967a0b6982ad1270": "Cache de nom de projet de Maniphest",
 	"967a5a0e6e438233": "Liste d’identifiants de tâche séparés par des virgules.",
 	"9744d11ad0d32ee0": "Pour affecter une tâche à un autre utilisateur, indiquez son nom d’utilisateur. Par exemple, pour affecter une tâche à `$1`, écrivez `$2`.\n\nSi vous omettez le nom d’utilisateur ou si le nom d’utilisateur n'est pas valide, cela se comporte comme `$3` et la tâche vous est affectée à la place.",
 	"9923a3dcaa13cd3d": "Modifier les tâches parentes",
@@ -323,7 +324,7 @@
 	"ae5f9bb5c1a75bf3": "Fusionner les doublons",
 	"aebd3bf13d696b87": "Priorité augmentée",
 	"af824caad6882000": "Plus ancien (tout)",
-	"afbce3a340bb5f98": "Il n’existe aucune tâche Manifest de ce type.",
+	"afbce3a340bb5f98": "Il n’existe aucune tâche Maniphest de ce type.",
 	"b0195ae253112bae": "$1 a augmenté la priorité de $2 de $3 à $4.",
 	"b164eb6fd1a085bb": "Modifier les maquettes",
 	"b1a5954a483f8f8b": "Haute",

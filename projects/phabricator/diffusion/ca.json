@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Joseplluis",
 			"Mguix"
 		]
@@ -205,7 +206,7 @@
 	"38b318fe53f06aa0": "No s'ha pogut analitzar sintàcticament $1!",
 	"38f4e82ae45593e0": "Cap auditoria",
 	"3942f360e6625578": "S'està adquirint el bloqueig de lectura del repositori \"$1\" al dispositiu \"$2\" ...",
-	"399a2771d9cc7faf": "URL local de Manifest",
+	"399a2771d9cc7faf": "URL local de Maniphest",
 	"3a38c388c33d7ebe": "Obtenir els auditors per a cada validació.",
 	"3a9cec385139bc87": "La biblioteca estàndard de Python 3",
 	"3aaa60b81373b475": "Estructura de protocol de cable SVN desconeguda '$1'!",

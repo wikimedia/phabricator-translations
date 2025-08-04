@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Mguix"
 		]
 	},
@@ -18,7 +19,7 @@
 	"515ad8ce9bb7eecf": "Canvieu el nom i afegiu el logotip de la companyia, només per donar-li un toc extra.",
 	"59fe7e60410f52d0": "Has instal·lat un servidor de notificacions de temps real.",
 	"5acfc0badb35c4e0": "Teniu alguns problemes de configuració pendents.",
-	"5d859a72a65406e6": "Crea alguna feina per als interns a Manifest.",
+	"5d859a72a65406e6": "Crea alguna feina per als interns a Maniphest.",
 	"6bb896b77607ac76": "Les vostres invitacions han estat acceptades. No estaràs sol en aquest viatge.",
 	"6fe26b1373ab767d": "Heu configurat almenys un proveïdor d'autenticació.",
 	"76018fc96e754bd4": "Tutorials Curts",

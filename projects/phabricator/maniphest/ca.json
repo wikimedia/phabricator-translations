@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"ESM",
 			"Fitoschido",
 			"Joseplluis",
@@ -409,9 +410,9 @@
 	"e4ebcf9289d14c02": "Hores estimades",
 	"e53088819c3f68d3": "$1 ha canviat l'estat de la subtasca $2 de $3 a $4.",
 	"e668690efccb93ad": "Prioritat reduïda",
-	"e6c17aa7047d4a8b": "Executa cerques complexes per a tasques de Manifest.",
+	"e6c17aa7047d4a8b": "Executa cerques complexes per a tasques de Maniphest.",
 	"e79e2a66660ae991": "Tancat per",
-	"e81335c28f10a24b": "Aquesta pàgina documenta les ordres que podeu utilitzar per interactuar amb les tasques a Manifest. Aquestes ordres funcionen quan es creen noves tasques per correu electrònic i quan es responen a tasques existents.",
+	"e81335c28f10a24b": "Aquesta pàgina documenta les ordres que podeu utilitzar per interactuar amb les tasques a Maniphest. Aquestes ordres funcionen quan es creen noves tasques per correu electrònic i quan es responen a tasques existents.",
 	"e84b442b09390f7c": "$1 ha tancat aquesta tasca com $2 en validar $3.",
 	"e87342e2018515f7": "$1 ha canviat el subtipus d'aquesta tasca de «$2» a «$3».",
 	"e87a435206b12ce3": "Crea una nova tasca de Maniphest.",

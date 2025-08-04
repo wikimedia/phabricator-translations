@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"BaRaN6161 TURK",
 			"Can",
 			"Joseph",
@@ -187,7 +188,7 @@
 	"3884107de1d717e5": "Yayınlama seçeneklerini değiştirin.",
 	"38b318fe53f06aa0": "$1 ayrıştırılamadı!",
 	"3942f360e6625578": "\"$2\" cihazında \"$1\" deposu için okuma kilidi alınıyor...",
-	"399a2771d9cc7faf": "Yerel Manifest URL'si",
+	"399a2771d9cc7faf": "Yerel Maniphest URL'si",
 	"3a9cec385139bc87": "Python 3 Standart Kütüphanesi",
 	"3aaa60b81373b475": "Bilinmeyen SVN kablo protokol yapısı '$1'!",
 	"3aeff331e02d2b4e": "Birleştirilmiş Değişiklikler",
