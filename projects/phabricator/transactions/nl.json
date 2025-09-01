@@ -9,8 +9,8 @@
 	"0299b7949e1cbffd": "$1 heeft een opmerking toegevoegd.",
 	"02b254f09eb025ca": "Lege opmerking",
 	"02e3ce1b7013fdb7": "Alle gebruikers zijn al geabonneerd op deze $1.",
-	"09d04b85cb93ff12": "In $1, $2 schreef:",
-	"137de32fc7897ae9": "$1 wijzigde de zichtbaarheid van $2.",
+	"09d04b85cb93ff12": "In $1 schreef $2:",
+	"137de32fc7897ae9": "$1 heeft de zichtbaarheid van $2 gewijzigd.",
 	"1430f976c5967952": "Waarschuwingen",
 	"1aae8e10cbde244f": "Bulk-bewerkingsacties",
 	"1e460e3c69fc845e": "Exportformaat.",
@@ -26,9 +26,9 @@
 	"68ca6006c88c7b05": "E-MAILVOORKEUREN",
 	"8ed148868dc2520c": "Exportformaat \"$1\" onbekend. Bekende formaten: $2.",
 	"9abf79207940eccd": "Genoemde gebruiker",
-	"aa97a3512696b4c3": "$1 wijzigde deze $2.",
-	"b5ffeb5f637b29fa": "Bewerk opmerking",
-	"be1666833000b25f": "Verwijder opmerking",
+	"aa97a3512696b4c3": "$1 heeft deze $2 bewerkt.",
+	"b5ffeb5f637b29fa": "Opmerking bewerken",
+	"be1666833000b25f": "Opmerking verwijderen",
 	"d1b84777eead8c7f": "Bulk-bewerking",
 	"d6f2985c9173a3bd": "Nog een handeling toevoegen"
 }

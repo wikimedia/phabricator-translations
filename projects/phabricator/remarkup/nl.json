@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
-	"10b6fba9ee332699": "Ongeldige markup-engine.",
-	"12835cebb13e60cf": "Tekst verwerken door opnieuw op te maken.",
+	"10b6fba9ee332699": "Onjuiste markup-engine.",
+	"12835cebb13e60cf": "Tekst als Remarkup verwerken.",
 	"6321788d1438c68a": "De inhoud mag niet leeg zijn."
 }

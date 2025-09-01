@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danieldegroot2",
-			"Elroy"
+			"Elroy",
+			"McDutchie"
 		]
 	},
 	"5b7dcd14a4faa2cd": "gebruikers",
@@ -12,5 +13,5 @@
 	"85d1e1a855e2ef70": "Niet goedgekeurd",
 	"973ed06fc58a3167": "Profiel bewerken: $1",
 	"b8fc1450c62d174c": "Oude gebruikersnaam",
-	"d7f47bd5af71bd47": "Hi $1"
+	"d7f47bd5af71bd47": "Hoi $1"
 }

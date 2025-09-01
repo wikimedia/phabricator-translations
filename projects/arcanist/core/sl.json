@@ -55,6 +55,7 @@
 	"5ef2f60717f666fc": "Večvrstične matrike morajo imeti končne vejice.",
 	"5f99936091b76935": "Med pretakanjem zadetkov na disk ne morete brati medpomnilnika zadetkov: v pomnilniku ni medpomnilnika, ki bi ga lahko brali.",
 	"61a0572c4893ef34": "Sprejeto",
+	"62f4ae8ec8bdbd9f": "Iskanje kodiranja v projektu ni uspelo: $1",
 	"630cdecd55e4c41c": "Predmet matrike s ključem »$1« mora biti vrste matrika; predloženi je bil $2.",
 	"6577807c5772581b": "Potrjuje, da naj bodo uveljavljene redakcije z neuspešno graditvijo.",
 	"663a03392347d703": "Par parametrov HTTP (s ključem »$1«) ni veljaven: vsak par mora biti matrika z natanko dvema elementoma.",
