@@ -11,8 +11,5 @@ final class TranslateWikiAsturianAst extends PhutilLocale {
   public function getLocaleName() {
     return pht('Asturian');
   }
-  public function getFallbackLocaleCode() {
-    return 'es_ES';
-  }
 }
 
