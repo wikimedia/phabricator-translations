@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Derugon",
 			"Mahabarata",
 			"Motla",
 			"Thibaut120094",
@@ -55,6 +56,7 @@
 	"5136fc2cac0da481": "Mettre à jour un document de Phriction.",
 	"525ffd3e4b74abba": "Annuler la version publiée de ce document pour revenir à une version plus ancienne ?",
 	"53bbb77bdd2c0e62": "Contenu du document",
+	"542e3d343663a8c5": "Appliquez les transactions pour modifier un document de Phriction existant.",
 	"546d5cdcb6a3f042": "Version $1",
 	"55f2250615fec200": "Dernier auteur",
 	"58689508a548f566": "Le document publié a changé",

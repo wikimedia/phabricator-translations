@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Derugon",
 			"Fitoschido",
 			"KATRINE1992",
 			"Mahabarata",
@@ -38,6 +39,7 @@
 	"bc64eb3be73d0b52": "Référence rapide des fonctions",
 	"c614ba7c453cdcd4": "Auto",
 	"d1c319f3fef91def": "Vous atteignez le bord de l’abysse.",
+	"e404f1adb33137aa": "Cette source de données (« $1 ») nécessite d’être connecté pour utiliser la fonction « $2(...) ».",
 	"f095757f3b8e277d": "Type de priorité",
 	"f3f785f939dae680": "Utilisation des fonctions de saisie semi-automatique"
 }

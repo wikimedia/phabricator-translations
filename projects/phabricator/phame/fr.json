@@ -5,6 +5,7 @@
 			"Mahabarata",
 			"SleaY",
 			"Thibaut120094",
+			"Urhixidur",
 			"Verdy p",
 			"Wladek92",
 			"Zarisi"
@@ -86,7 +87,7 @@
 	"3f11c6eac93522cf": "Changer le sous-titre du blogue.",
 	"3f41938393db42c4": "Ceci est une ébauche et n’est visible que par vous et les autres utilisateurs qui peuvent modifier $1. Utilisez « Publier » pour publier ce billet.",
 	"4374d5f50df2e24b": "$1 a renommé le billet du blogue $2 de $3 en $4.",
-	"43c4adb63b0278a5": "Le nom de domaine personnalisé devrait contenir au moins un point (.) car certains navigateurs échouent à positionner des cookies sur des noms de domaine sans point. À la place, utilisez un nom de domaine d’apparence normale tel que « $1 ».",
+	"43c4adb63b0278a5": "Le nom de domaine personnalisé devrait contenir au moins un point (.) car certains navigateurs échouent à positionner des témoins (''cookies'') pour des noms de domaine sans point. À la place, utilisez un nom de domaine d’apparence normale tel que « $1 ».",
 	"440a06e837b2cdab": "Limace pour le billet.",
 	"46231616f5742eea": "Le sous-titre ne peut pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"46a491b335ecec76": "Nouveau titre de blogue.",
