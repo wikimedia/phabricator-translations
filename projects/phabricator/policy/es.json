@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Danielyepezgarces",
 			"Fitoschido",
 			"Ovruni"
 		]
 	},
+	"002aa6b71775a72f": "Acceso denegado: $1",
 	"460a9850b100cc44": "Miembros del proyecto...",
 	"5d83cb68d4c07acc": "Los miembros del proyecto «$1» pueden tomar esta acción.",
 	"71748b7d790cda4e": "Seleccionar proyecto",

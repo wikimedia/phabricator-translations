@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Danielyepezgarces",
 			"Fitoschido"
 		]
 	},
@@ -19,6 +20,7 @@
 	"72f70b16832b1bbe": "Suscriptores añadidos",
 	"8210248db9606e07": "Se quitaron $1 suscriptores: $2",
 	"848a1d14df9182e9": "Objeto incorrecto",
+	"a64875128ddb2808": "Silenciar notificaciones",
 	"f9c66ea1d37b5cb6": "Añadir suscriptores.",
 	"ff53f6cd494fef97": "Obtener información sobre los suscriptores."
 }

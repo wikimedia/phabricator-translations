@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Agent",
+			"Camachevaz",
 			"Danielyepezgarces",
 			"Ovruni"
 		]
@@ -10,10 +11,13 @@
 	"032efa14d45b3111": "Establecer contraseña de VCS",
 	"068e253bd6f197f9": "Eliminar contraseña de VCS",
 	"09a0beeb061e7d94": "Escriba un nombre de usuario, proyecto o paquete...",
+	"47bfc0aff3358e1b": "Crear repositorio",
+	"49c7492233d0b83b": "Activar repositorio",
 	"5a264266e15c754b": "Buscar resultados de los repositorios de un proyecto.",
 	"60cacf839cfc3327": "No hay contraseña establecida",
 	"82165b273b16b197": "¿Te cuesta encontrar una buena contraseña? Prueba esta generada aleatoriamente por computadora: \n\n` $1 `",
 	"82740c29baa624b2": "¡El repositorio aún no está disponible!",
+	"84634cf95c3c407b": "No tiene permiso para crear nuevos repositorios.",
 	"8abc5b4be712359a": "Fecha de commit",
 	"935df7577ea78ea2": "Para acceder a los repositorios alojados en este servidor mediante HTTP, debe establecer una contraseña de control de versiones. Esta contraseña debe ser única. Esta contraseña se aplica a todos los repositorios disponibles mediante HTTP.",
 	"9a394c276f9e2412": "Actualmente no tienes una contraseña de VCS configurada. Si la tienes, puedes eliminarla aquí más tarde.",
