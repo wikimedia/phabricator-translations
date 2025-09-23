@@ -1,18 +1,15 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"29efd0bdaa04ae91": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$114 PhabricatorLipsumGenerateWorkflow.php:114]",
 	"300371d205bbeec3": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$56 PhabricatorLipsumGenerateWorkflow.php:56]",
 	"32332b3df8a3771d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/generator/PhabricatorTestDataGenerator.php$55 PhabricatorTestDataGenerator.php:55]",
 	"359c2782e2017bbc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$17 PhabricatorLipsumGenerateWorkflow.php:17]",
 	"4b2283b7167429d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$162 PhabricatorLipsumGenerateWorkflow.php:162]",
-	"62242054e2063eb9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/generator/PhabricatorTestDataGenerator.php$106 PhabricatorTestDataGenerator.php:106]",
+	"62242054e2063eb9": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/generator/PhabricatorTestDataGenerator.php$112 PhabricatorTestDataGenerator.php:112]",
 	"63017d2cc8fa35f7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$187 PhabricatorLipsumGenerateWorkflow.php:187]",
 	"6ad21d0a2036d6e8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$185 PhabricatorLipsumGenerateWorkflow.php:185]",
 	"7b8d8ae984b43bbd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$147 PhabricatorLipsumGenerateWorkflow.php:147]",
 	"8cd3cac1380eb4ec": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$10 PhabricatorLipsumGenerateWorkflow.php:10]",
-	"8d767bf5b72373d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/generator/PhabricatorTestDataGenerator.php$104 PhabricatorTestDataGenerator.php:104]",
+	"8d767bf5b72373d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/generator/PhabricatorTestDataGenerator.php$110 PhabricatorTestDataGenerator.php:110]",
 	"90a51575c9bd4563": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$164 PhabricatorLipsumGenerateWorkflow.php:164]",
 	"9922906d3c889107": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$208 PhabricatorLipsumGenerateWorkflow.php:208]",
 	"a568df6c0fc85e72": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$79 PhabricatorLipsumGenerateWorkflow.php:79]",

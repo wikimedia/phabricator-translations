@@ -1,14 +1,11 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"075b45870ec7ec57": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$74 PhabricatorFlagRemoveFlagHeraldAction.php:74]",
 	"197a62696ce8fbf0": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$72 PhabricatorFlagAddFlagHeraldAction.php:72]",
 	"1c3d8a33c4e3bcd5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/application/PhabricatorFlagsApplication.php$10 PhabricatorFlagsApplication.php:10]",
 	"1ca1a72255461c7b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/conduit/FlagQueryConduitAPIMethod.php$10 FlagQueryConduitAPIMethod.php:10]",
 	"2086e095c964982b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/conduit/FlagDeleteConduitAPIMethod.php$10 FlagDeleteConduitAPIMethod.php:10]",
 	"32576f4fedc07f63": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/constants/PhabricatorFlagColor.php$22 PhabricatorFlagColor.php:22]",
-	"4dc7c146812011ca": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagQuery.php$125 PhabricatorFlagQuery.php:125]",
+	"4dc7c146812011ca": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagQuery.php$128 PhabricatorFlagQuery.php:128]",
 	"5d7071b20fcec93c": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$61 PhabricatorFlagAddFlagHeraldAction.php:61]",
 	"699642af97a5d952": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/storage/PhabricatorFlag.php$73 PhabricatorFlag.php:73]",
 	"70fc3e4015e8e4f8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/conduit/FlagDeleteConduitAPIMethod.php$28 FlagDeleteConduitAPIMethod.php:28]",

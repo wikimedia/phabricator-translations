@@ -1,14 +1,11 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"0b890da5a58e8041": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$103 PhabricatorApplicationUninstallController.php:103]",
 	"0eb5ed506e4923c2": "{{Identical|Information}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$85 PhabricatorApplicationUninstallController.php:85]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$114 PhabricatorApplicationUninstallController.php:114]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//view/phui/PHUIIconCircleView.php$101 PHUIIconCircleView.php:101]",
 	"17c7ba7676ad1ad6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationEmailCommandsController.php$99 PhabricatorApplicationEmailCommandsController.php:99]",
 	"17d9db7fe8e99037": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$86 PhabricatorApplicationUninstallController.php:86]",
 	"1a700a6a1b3c478b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/query/PhabricatorAppSearchEngine.php$127 PhabricatorAppSearchEngine.php:127]",
 	"1c12fb0a9fa4de6f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/editor/PhabricatorApplicationEditEngine.php$49 PhabricatorApplicationEditEngine.php:49]",
-	"1f5e89531bb8f196": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/query/PhabricatorApplicationQuery.php$158 PhabricatorApplicationQuery.php:158]",
+	"1f5e89531bb8f196": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/query/PhabricatorApplicationQuery.php$164 PhabricatorApplicationQuery.php:164]",
 	"20337ba273d1c2bc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$90 PhabricatorApplicationUninstallController.php:90]",
 	"204dd6a1cea9feab": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$37 PhabricatorApplicationUninstallController.php:37]",
 	"2375b7cd960c45e5": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/meta/controller/PhabricatorApplicationUninstallController.php$108 PhabricatorApplicationUninstallController.php:108]",

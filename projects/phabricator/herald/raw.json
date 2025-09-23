@@ -217,6 +217,7 @@
 	"929532bc27ab6faa": "Hook Error",
 	"9369282ac0d0f30c": "Regular expression \"%s\" in Herald rule \"%s\" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.",
 	"938be421203a074b": "No adapter exists for Herald content type \"%s\".",
+	"93e35eabcebb0b91": "You do not have permission to create or manage global rules.",
 	"94050f8de89469b8": "Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.",
 	"95f82834d8aaee87": "Call webhooks",
 	"97183f15ab1d0225": "Another Herald rule",
@@ -226,8 +227,6 @@
 	"9c1a77baeae59b61": "Edit Rule",
 	"9c63cc433fe93843": "any of",
 	"9dbf2fc15a62cf57": "Dry Run",
-	"6717645518074393": "No transcripts found.",
-	"93e35eabcebb0b91": "You do not have permission to create or manage global rules.",
 	"9e803e8049a7dd8e": "Condition references a rule which does not exist!",
 	"a0072fe841be67b6": "Show Only Enabled Rules",
 	"a08cad1eb53026ea": "Webhook %d %s",
@@ -290,6 +289,7 @@
 	"c4e6f6f15010b1fc": "Found more than one (\"%s\") applied edge transactions with given edge type (\"%s\"); expected zero or one.",
 	"c4ffd38d37bd93c7": "Rule Type",
 	"c6f84169403ff9f5": "Applying changes to %s: %s...",
+	"c7dd16bad6900401": "%s%ss",
 	"c8105d9588a775eb": "H%d",
 	"c87e74250e6785a0": "User Guide: Webhooks",
 	"c99c61dc9b89bd65": "Unable to load object (\"%s\") for webhook request (\"%s\").",
@@ -382,5 +382,6 @@
 	"fd4b8529ea0d3441": "%s renamed this webhook from %s to %s.",
 	"fda6fe27af5dd3c8": "Name of the webhook.",
 	"fdfe2da709ca2c4f": "Webhooks",
-	"fe80802e39da3436": "The regular expression pair \"%s\" must have exactly two elements."
+	"fe80802e39da3436": "The regular expression pair \"%s\" must have exactly two elements.",
+	"6717645518074393": "No transcripts found."
 }

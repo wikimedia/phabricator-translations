@@ -16,6 +16,7 @@
 	"2220fdde3fa60c78": "(NOTE) **Looking for documentation?** If you're looking for help and information about $1, you can [[https://we.phorge.it/diviner/ | browse the public $2 documentation]] on the live site.\n\nDiviner is the documentation generator used to build this documentation.\n\nYou haven't generated any Diviner documentation books yet, so there's nothing to show here. If you'd like to generate your own local copy of the documentation and have it appear here, run this command:\n\n  $3\n\n",
 	"24f096b221f9534b": "Return",
 	"25f4df14fdd96ab3": "Found $1 file(s) in project.",
+	"2ab4f5a201341a44": "Diviner Search",
 	"2b8e54e1847403f4": "PUBLISHING DOCUMENTATION",
 	"2c508dfa5a9fe983": "All Atoms",
 	"303f757d21152b34": "Book configuration '$1' has name '$2', but book names must include only lowercase letters and hyphens.",

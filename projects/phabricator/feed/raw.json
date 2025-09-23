@@ -32,6 +32,7 @@
 	"cbf8d5af41f5f940": "Transaction Logs",
 	"d71554dcbd4bcbf6": "Trying to retrieve markup field key \"%s\", but this feed story did not request it be rendered.",
 	"db3e708141b47436": "Feed Stories",
+	"de033a8204660045": "Feed query minimum range must be lower than maximum range.",
 	"df541f9c771075dc": "Unknown rendering target: %s",
 	"df64eb386033ce8a": "Include stories about projects I am a member of.",
 	"f46e1df2f8517c82": "All Transactions",

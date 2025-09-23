@@ -1,16 +1,13 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"21909f6cc9658765": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$361 PhabricatorApplication.php:361]",
-	"2b864b4aa73d7545": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$579 PhabricatorApplication.php:579]",
-	"473a2b8ae0fda34b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$551 PhabricatorApplication.php:551]",
-	"5065c3a197c9ae53": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$549 PhabricatorApplication.php:549]",
+	"21909f6cc9658765": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$363 PhabricatorApplication.php:363]",
+	"2b864b4aa73d7545": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$602 PhabricatorApplication.php:602]",
+	"473a2b8ae0fda34b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$574 PhabricatorApplication.php:574]",
+	"5065c3a197c9ae53": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$572 PhabricatorApplication.php:572]",
 	"71a5993ec4612869": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$24 PhabricatorApplication.php:24]",
 	"78d67090ef36b075": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$255 PhabricatorController.php:255]",
 	"7a1c0a74305daaaf": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$61 PhabricatorApplication.php:61]",
 	"b0608ab1bd963593": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$27 PhabricatorApplication.php:27]",
 	"d8c88db363a66211": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$130 PhabricatorController.php:130]",
-	"d9b9a15e87d0d955": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$541 PhabricatorApplication.php:541]",
-	"e5d6af967c265e3f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$502 PhabricatorController.php:502]"
+	"d9b9a15e87d0d955": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$564 PhabricatorApplication.php:564]",
+	"e5d6af967c265e3f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$508 PhabricatorController.php:508]"
 }

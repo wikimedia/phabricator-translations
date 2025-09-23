@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"031037ebeb4a2aba": "Variable Types: NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$682 LegalpadDocumentSignController.php:682]",
 	"04850b7990a815ff": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$191 LegalpadDocumentSignatureSearchEngine.php:191]",
 	"06994f287d5e8b1a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$247 LegalpadDocumentSignatureSearchEngine.php:247]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$257 LegalpadDocumentSignatureSearchEngine.php:257]",
@@ -29,6 +26,7 @@
 	"2d942f59299ac3e0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/engineextension/PhabricatorLegalpadBodySearchEngineAttachment.php$7 PhabricatorLegalpadBodySearchEngineAttachment.php:7]",
 	"2e9a840acd4ee593": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSearchEngine.php$22 LegalpadDocumentSearchEngine.php:22]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php$15 LegalpadDocumentSignatureSearchEngine.php:15]",
 	"2f5b7fa1d8da32ef": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/conduit/LegalpadSignatureSearchConduitAPIMethod.php$15 LegalpadSignatureSearchConduitAPIMethod.php:15]",
+	"2f6ff466c449ed35": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/query/LegalpadDocumentSearchEngine.php$85 LegalpadDocumentSearchEngine.php:85]",
 	"30e89f48905b3405": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/engineextension/PhabricatorLegalpadBodySearchEngineAttachment.php$11 PhabricatorLegalpadBodySearchEngineAttachment.php:11]",
 	"3142970c1419587b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignatureViewController.php$89 LegalpadDocumentSignatureViewController.php:89]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/controller/LegalpadDocumentSignController.php$523 LegalpadDocumentSignController.php:523]",
 	"3262584e94152fb1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/legalpad/editor/LegalpadDocumentEditEngine.php$157 LegalpadDocumentEditEngine.php:157]",

@@ -1,9 +1,4 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
 	"01ab47951fb99871": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$35 PhabricatorBadgesIconSet.php:35]",
 	"01de591f9a7842d6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/application/PhabricatorBadgesApplication.php$22 PhabricatorBadgesApplication.php:22]",
 	"01f2f217dafe127a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditEngine.php$49 PhabricatorBadgesEditEngine.php:49]",
@@ -50,7 +45,7 @@
 	"5bb7b2770b744878": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/xaction/PhabricatorBadgesBadgeDescriptionTransaction.php$18 PhabricatorBadgesBadgeDescriptionTransaction.php:18]",
 	"5c2b36bdc6e03bc9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/storage/PhabricatorBadgesBadge.php$170 PhabricatorBadgesBadge.php:170]",
 	"5ca6efcfd602116b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$42 PhabricatorBadgesIconSet.php:42]",
-	"5cbad0883370cca6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/query/PhabricatorBadgesQuery.php$91 PhabricatorBadgesQuery.php:91]",
+	"5cbad0883370cca6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/query/PhabricatorBadgesQuery.php$94 PhabricatorBadgesQuery.php:94]",
 	"5eb994010fd16808": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/xaction/PhabricatorBadgesBadgeQualityTransaction.php$58 PhabricatorBadgesBadgeQualityTransaction.php:58]",
 	"6169addc6ab5ba95": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/xaction/PhabricatorBadgesBadgeFlavorTransaction.php$42 PhabricatorBadgesBadgeFlavorTransaction.php:42]",
 	"616d6d7390a6e283": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/icon/PhabricatorBadgesIconSet.php$21 PhabricatorBadgesIconSet.php:21]",
@@ -109,7 +104,7 @@
 	"d1049a230492fda1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditor.php$44 PhabricatorBadgesEditor.php:44]",
 	"d5c511e4d52ad785": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/xaction/PhabricatorBadgesBadgeStatusTransaction.php$23 PhabricatorBadgesBadgeStatusTransaction.php:23]",
 	"d6f600eedcdf4da6": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/xaction/PhabricatorBadgesBadgeDescriptionTransaction.php$24 PhabricatorBadgesBadgeDescriptionTransaction.php:24]",
-	"d9d7aea41f895b34": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/query/PhabricatorBadgesQuery.php$87 PhabricatorBadgesQuery.php:87]",
+	"d9d7aea41f895b34": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/query/PhabricatorBadgesQuery.php$90 PhabricatorBadgesQuery.php:90]",
 	"da738ffb2edc2f54": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/query/PhabricatorBadgesSearchEngine.php$131 PhabricatorBadgesSearchEngine.php:131]",
 	"dcf139c1be40c30f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/editor/PhabricatorBadgesEditEngine.php$142 PhabricatorBadgesEditEngine.php:142]",
 	"de470d7e8b3ecec6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/badges/xaction/PhabricatorBadgesBadgeQualityTransaction.php$52 PhabricatorBadgesBadgeQualityTransaction.php:52]",
