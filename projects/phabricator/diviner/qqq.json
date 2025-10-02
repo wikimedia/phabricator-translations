@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"03d15fc7d961504b": "$1: <code>@title</code>\n\nVariable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diviner/atomizer/DivinerArticleAtomizer.php$19 DivinerArticleAtomizer.php:19]",
 	"0832d97d98fd6967": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diviner/workflow/DivinerGenerateWorkflow.php$513 DivinerGenerateWorkflow.php:513]",
 	"0b2906f6a7490d1a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diviner/controller/DivinerBookEditController.php$59 DivinerBookEditController.php:59]",

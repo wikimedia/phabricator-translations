@@ -134,7 +134,6 @@
 	"5b7dcd14a4faa2cd": "usuaris",
 	"5e020998802efb5e": "Per enviar invitacions, heu d'introduir com a mínim una adreça de correu electrònic.",
 	"5e838fce10907ec5": "Aprova l'usuari",
-	"5ea212946ed1b673": "Cerqueu usuaris els noms d’usuari dels quals continguin una subcadena.",
 	"5f2729d3176e284a": "Generalment és segur canviar el nom dels usuaris, però canviar els noms d’usuari pot crear complicacions ocasionals menors o confusió amb el text que conté l’antic nom d’usuari.",
 	"6217b5e4abfb73ae": "Podeu utilitzar aquest enllaç d'inici de sessió per recuperar l'accés al vostre compte de Phabricator:\n\n  $1",
 	"622e00f16a684d9d": "Pot navegar pel directori d'usuaris",

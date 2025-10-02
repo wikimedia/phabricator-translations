@@ -19,7 +19,6 @@
 	"218be0dfc4b62b9d": "",
 	"21b07dc5f958c9a7": "",
 	"22e9d098c2d1efba": "",
-	"250ddde898b9609a": "",
 	"25eee349d7bf6976": "Se você estiver desenvolvendo $1 , esses erros geralmente indicam que as especificações do seu esquema não concordam com os esquemas que seu código realmente constrói.",
 	"2af01db370dc1e2c": "Defina um ' $1 ' na sua configuração!",
 	"2b35e7d9fb60fbfb": "Inunde a fila com tarefas de teste. Este comando deve ser usado durante o desenvolvimento e a depuração.",
@@ -37,6 +36,7 @@
 	"581e656c10db6057": "Conceder permissão",
 	"58d58534a6b21377": "D|S|T|Q|Q|S|S",
 	"5c3a35ef85f22d50": "Fevereiro",
+	"61b0fc9f1cdf6221": "",
 	"648e37e29f048f43": "Texto de observação.",
 	"65640c6577c9c724": "Dezembro",
 	"656bcfe284e2da39": "Extensões",
@@ -84,7 +84,6 @@
 	"ec5531c3e867dad3": "Referenciadas",
 	"f0c9a0412ad3e950": "Analisador de Javelin",
 	"f1f07ef5c1eb357d": "Um objeto codificado em JSON.",
-	"f38d53519197909c": "Pesquisa avançada",
 	"f4f4473df8cb59f0": "Desativado",
 	"fd6c3ebf7befca9f": "Instalar",
 	"feeaf50c5ec762c8": "Alguns desses erros são causados por esquemas excedentes (tabelas ou colunas extras que este software não espera). Isso não é sério. Para obter informações sobre como resolver esses problemas, consulte a seção \"Esquemas excedentes\" no artigo \"Gerenciando ajustes de armazenamento\" na documentação."

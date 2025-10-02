@@ -200,14 +200,13 @@
 	"929532bc27ab6faa": "Kanca Hatası",
 	"9369282ac0d0f30c": "Herald kuralında \"$1\" olan normal ifade \"$2\" geçerli değil veya yürütme sırasında geri izleme veya özyineleme sınırlarını aştı. İfadeyi doğrulayın ve düzeltin veya daha az geri izleme ile yeniden yazın.",
 	"938be421203a074b": "\"$1\" Herald içerik türü için bir adaptör yok.",
+	"93e35eabcebb0b91": "Genel kurallar oluşturma veya yönetme izniniz yok.",
 	"94050f8de89469b8": "Bu webhook'a yapılan birçok istek son zamanlarda başarısız oldu (son $2'de en az $1 hata). Yeni istekler geçici olarak duraklatıldı.",
 	"95f82834d8aaee87": "Webhook'ları arayın",
 	"97183f15ab1d0225": "Başka bir Herald kuralı",
 	"9c1a77baeae59b61": "Kuralı Düzenle",
 	"9c63cc433fe93843": "herhangi biri",
 	"9dbf2fc15a62cf57": "Kuru Çalışma",
-	"6717645518074393": "Hiçbir transkript bulunamadı.",
-	"93e35eabcebb0b91": "Genel kurallar oluşturma veya yönetme izniniz yok.",
 	"9e803e8049a7dd8e": "Koşul, var olmayan bir kurala işaret eder!",
 	"a0072fe841be67b6": "Yalnızca Etkin Kuralları Göster",
 	"a08cad1eb53026ea": "Webhook $1 $2",
@@ -340,5 +339,6 @@
 	"fd4b8529ea0d3441": "$1, bu webhook'u $2 iken $3 olarak yeniden adlandırdı.",
 	"fda6fe27af5dd3c8": "Webhook'un adı.",
 	"fdfe2da709ca2c4f": "Webhook'lar",
-	"fe80802e39da3436": "\"$1\" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir."
+	"fe80802e39da3436": "\"$1\" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir.",
+	"6717645518074393": "Hiçbir transkript bulunamadı."
 }

@@ -26,7 +26,6 @@
 	"073b62df31e79f51": "Admin fiók beállítása",
 	"08741a74e2f70d5f": "Kapcsolattartási szám engedélyezése",
 	"087f2494696e2108": "Új Duo fiók létrehozása",
-	"08888b0159c9aa34": "TOTP használatához először telepítenie kell egy mobil hitelesítő alkalmazást a telefonjára. A **Google Authenticator** vagy az **Authy** ajánlott, de minden más TOTP alkalmazásnak is megfelelő lehet. Ha sikeresen elindult alkalmazás és készen áll új TOTP-kód hozzáadására, folytassa a következő lépéssel.",
 	"09c780ef81249e5d": "Az e-mail megerősítése kötelező",
 	"0d455a4e2678fcac": "E-mail megerősítése",
 	"10a01d3dab17312c": "Nem lehet bejelentkezni",
@@ -50,5 +49,6 @@
 	"3515913fa308aecc": "Hitelesítési hiba",
 	"365a7b7473e2de6a": "SMS üzenet",
 	"3b5a421eb313ebab": "Regisztráció engedélyezése",
+	"3f761368a4f84211": "TOTP használatához először telepítenie kell egy mobil hitelesítő alkalmazást a telefonjára. A **Google Authenticator** vagy az **Authy** ajánlott, de minden más TOTP alkalmazásnak is megfelelő lehet. Ha sikeresen elindult alkalmazás és készen áll új TOTP-kód hozzáadására, folytassa a következő lépéssel.",
 	"969acacc1931a9c6": "SSH-KULCS RÉSZLETEI"
 }

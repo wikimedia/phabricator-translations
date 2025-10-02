@@ -28,9 +28,7 @@
 	"2644b7d942f174a4": "Consultas",
 	"295d39d4c2776cc4": "Adicionar novo item de menu...",
 	"30a085cbc8395c65": "Este é um divisor visual que você pode usar para separar seções no menu. Não possui opções configuráveis.",
-	"30f1108cae2d98e7": "Documentos abertos",
 	"38d663fb82d05656": "Encontre objetos correspondentes a uma consulta de pesquisa de texto completo. Consulte \"Pesquisar guia do usuário\" na documentação para obter detalhes.",
-	"3e74cfdeed1c651b": "Consultas salvas globais",
 	"403e9b223f80a389": "Menu do Perfil",
 	"405f3d6bca1c0da7": "Configurar menu",
 	"41db655cec1cfb89": "Erros de consulta",
@@ -41,12 +39,10 @@
 	"5522729536fd8eb3": "Itens do menu",
 	"575e88fa9f9fbe8a": "Reindexe todos os documentos.",
 	"593e09be5dd47f01": "Definir consulta padrão",
-	"5a9d607553a86d6a": "Selecione um tipo de documento...",
 	"5bb93ae23434827a": "Constantes suportadas pela restrição `$1`:",
 	"5de8bfb3dbacf28b": "(Veja a tabela abaixo.)",
 	"62c228214722b70b": "Itens de menu atuais",
 	"6c05e4665abdcf38": "Consulta (com ID \"$1\") já foi salva. As consultas são imutáveis depois de salvas.",
-	"6dfeeefcb45cdbd2": "Status do documento",
 	"708c06f94f075785": "Item de menu do perfil",
 	"729d27dbefe518d0": "\"25/12/2022\" ou \"7 dias atrás\"...",
 	"736b4fec7a510e4d": "Paginação e limites",
@@ -63,7 +59,6 @@
 	"a345d338fc9e8de7": "Editar item de menu",
 	"a8ad860c15810cce": "NOTA",
 	"b29f8014721a1064": "Este menu atualmente não possui itens.",
-	"b3c8a1c8fb291e4e": "Tipos de documentos",
 	"b4d87dda603664c0": "Você não pode criar um relacionamento para o objeto \"$1\" porque os objetos não podem estar relacionados a eles mesmos.",
 	"b8407e25a319fdfd": "Dica de ferramenta",
 	"bbe66238d6b8c9a2": "Consultas salvas",
@@ -79,6 +74,5 @@
 	"e2cc45527b888793": "Editar consulta",
 	"e4580c9a4ca3a13d": "$1 (Não disponível)",
 	"e6eca4854e6396e7": "(Aplicativo restrito/inválido)",
-	"f601e90879bdb418": "Exportar dados",
-	"fb070919fb8705b3": "Procurar tipos de documentos"
+	"f601e90879bdb418": "Exportar dados"
 }

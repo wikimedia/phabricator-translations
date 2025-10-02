@@ -47,7 +47,6 @@
 	"04e4ea73341e0956": "Jelajahi URI \"$1\"",
 	"04f12eb0c2204857": "Salinan pekerjaan menyertakan perubahan pada jalur '$1'.  Perubahan ini tidak akan disertakan dalam diff karena SVN tidak dapat melakukan perubahan 'svn: externals' bersamaan dengan perubahan normal.",
 	"0520ab958b98f60e": "Kumpulan aturan komit dasar untuk dipanggil saat menentukan awal rentang komit.  Lihat \"Panduan Pengguna Arcanist: Commit Ranges\" untuk detailnya.",
-	"052f100722e80042": "$1 tidak kompatibel dengan versi PHP Anda ($2). Fungsi ini hanya didukung pada versi PHP yang lebih baru daripada 5.3.0.",
 	"0593c20bb78ea188": "Tidak ada tempat untuk memuat '$1'!",
 	"059d9011f031d260": "Error Runtime",
 	"05b83dee51193cec": "Argumen \"$1\" tidak memakai parameter.",

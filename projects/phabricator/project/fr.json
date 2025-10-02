@@ -529,7 +529,6 @@
 	"c4e650959f0613be": "Balisé avec le projet",
 	"c4f76f360d78e41d": "Le projet auquel appartient la colonne.",
 	"c58fa6c91fc7f58c": "Règles du déclencheur",
-	"c5a1f258baad5753": "La valeur de la règle du propriétaire est obligatoire. Spécifiez un utilisateur auquel affecter les tâches ou le jeton « none() » pour n’affecter les tâches à personne.",
 	"c5c49ab5df52d5fe": "La valeur de la règle du propriétaire ne doit comporter qu’un seul élément (la valeur est « $1 »).",
 	"c63130100c2e1af1": "Ressemble à",
 	"c7170cc4443799fc": "Les icônes de projet doivent inclure une icône marquée avec l’attribut spécial « $1 », mais il n’en existe aucune.",

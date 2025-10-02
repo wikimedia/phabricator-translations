@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"21909f6cc9658765": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$363 PhabricatorApplication.php:363]",
 	"2b864b4aa73d7545": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$602 PhabricatorApplication.php:602]",
 	"473a2b8ae0fda34b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$574 PhabricatorApplication.php:574]",

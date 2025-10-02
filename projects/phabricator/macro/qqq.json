@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"0041a1ba739de8b5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/macro/controller/PhabricatorMacroAudioController.php$108 PhabricatorMacroAudioController.php:108]",
 	"0274d4572c3a1a94": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/macro/application/PhabricatorMacroApplication.php$60 PhabricatorMacroApplication.php:60]",
 	"03a734345e50ac59": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/macro/controller/PhabricatorMacroMemeDialogController.php$68 PhabricatorMacroMemeDialogController.php:68]",

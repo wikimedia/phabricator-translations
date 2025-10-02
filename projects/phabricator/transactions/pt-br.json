@@ -8,7 +8,6 @@
 		]
 	},
 	"0011bad3ecc480f3": "Bloquear / ocultar campos",
-	"0046d5690d69508d": "Você não tem nenhum fator do MFA anexado à sua conta, portanto, não pode assinar este grupo de transações com o MFA. Adicione o MFA à sua conta em Configurações.",
 	"0170d5ff74ed99c7": "Para silenciar esta edição, execute este comando:",
 	"0299b7949e1cbffd": "$1 adicionou um comentário.",
 	"04f05bd129e98cda": "$1 removeu $ 2  inscrito(s) por $3: $4.",
@@ -66,6 +65,7 @@
 	"5fd152bb624c1c85": "A configuração do subtipo é inválida: o subtipo com a chave \"$1\" especifica os subtipos secundários e os formulários secundários. Especifique um ou outro, mas não ambos.",
 	"60abc8fd837a9449": "Você não pode assinar um grupo de transações que não tenha outros efeitos.",
 	"63ce5e6132b132b4": "Criptografia Requerida",
+	"6561c50fde7601b4": "Você não tem nenhum fator do MFA anexado à sua conta, portanto, não pode assinar este grupo de transações com o MFA. Adicione o MFA à sua conta em Configurações.",
 	"65872df75f1b45f1": "$1 escreveu:",
 	"68ca6006c88c7b05": "PREFERÊNCIAS DE EMAIL",
 	"6e895cb8c7f60059": "Guia do Usuário: personalização de formulários",
