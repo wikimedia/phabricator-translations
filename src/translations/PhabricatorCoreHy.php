@@ -39,7 +39,6 @@ final class PhabricatorCoreHy
       'Okay' => 'Լավ',
       'Languages' => 'Լեզուներ',
       'July' => 'Հուլիս',
-      'More Options' => 'Այլ ընտրանքներ',
       'PREVIEW' => 'ՆԱԽԱԴԻՏՈՒՄ',
       'Page Menu' => 'Էջի ընտրացանկ',
       'Preview' => 'Նախադիտում',

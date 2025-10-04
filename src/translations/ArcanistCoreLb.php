@@ -38,6 +38,7 @@ final class ArcanistCoreLb
       'Deleted' => 'Geläscht',
       'The HTTP method \'%s\' is not supported. Supported HTTP methods are: %s.' => 'D\'HTTP-Method \'%s\' gëtt net ënnerstëtzt. Ënnerstëtzten HTTP-Methode sinn: %s .',
       'Oct' => 'Okt',
+      'DATA' => 'DONNÉEËN',
       'EXCEPTION' => 'AUSNAM',
       '---' => '---',
       'Emoji (Internet)' => 'Emoji (Internet)',

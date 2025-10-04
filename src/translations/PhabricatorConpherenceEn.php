@@ -91,7 +91,6 @@ final class PhabricatorConpherenceEn
       'Create a new conpherence thread.' => 'Create a new conpherence thread.',
       'Search by room titles.' => 'Search by room titles.',
       'Peach' => 'Peach',
-      'No Rooms' => 'No Rooms',
       'Private Room' => 'Private Room',
       'Light' => 'Light',
       'Theme' => 'Theme',

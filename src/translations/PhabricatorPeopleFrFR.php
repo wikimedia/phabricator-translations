@@ -148,7 +148,6 @@ final class PhabricatorPeopleFrFR
       'users' => 'utilisateurs',
       'To send invites, you must enter at least one email address.' => 'Pour envoyer des invitations, vous devez saisir au moins une adresse de courriel.',
       'Approve User' => 'Approuver l’utilisateur ou l’utilisatrice',
-      'Find users whose usernames contain a substring.' => 'Trouver les utilisateurs ou utilisatrices dont le nom d’utilisateur contient une sous-chaîne.',
       'It is generally safe to rename users, but changing usernames may create occasional minor complications or confusion with text that contains the old username.' => 'Il est généralement sûr de renommer les utilisateurs, mais la modification des noms d’utilisateur peut occasionnellement créer des complications mineures ou de la confusion avec du texte mentionnant l’ancien nom d’utilisateur.',
       'You can use this login link to regain access to your account:
       %s

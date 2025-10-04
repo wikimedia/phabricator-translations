@@ -23,7 +23,7 @@ final class PhabricatorGuidesCa
       'Change the name and add your company logo, just to give it a little extra polish.' => 'Canvieu el nom i afegiu el logotip de la companyia, només per donar-li un toc extra.',
       'You\'ve set up a real-time notification server.' => 'Has instal·lat un servidor de notificacions de temps real.',
       'You have some unresolved setup issues to take care of.' => 'Teniu alguns problemes de configuració pendents.',
-      'Create some work for the interns in Maniphest.' => 'Crea alguna feina per als interns a Manifest.',
+      'Create some work for the interns in Maniphest.' => 'Crea alguna feina per als interns a Maniphest.',
       'Your invitations have been accepted. You will not be alone on this journey.' => 'Les vostres invitacions han estat acceptades. No estaràs sol en aquest viatge.',
       'You\'ve configured at least one authentication provider.' => 'Heu configurat almenys un proveïdor d\'autenticació.',
       'Short Tutorials' => 'Tutorials Curts',

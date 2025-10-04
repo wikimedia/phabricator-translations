@@ -24,6 +24,7 @@ final class PhabricatorSubscriptionsEsES
       'Added Subscribers' => 'Suscriptores añadidos',
       'Removed %s subscriber(s): %s.' => 'Se quitaron %s suscriptores: %s',
       'Bad Object' => 'Objeto incorrecto',
+      'Mute Notifications' => 'Silenciar notificaciones',
       'Add subscribers.' => 'Añadir suscriptores.',
       'Get information about subscribers.' => 'Obtener información sobre los suscriptores.',
     );

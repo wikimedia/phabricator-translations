@@ -18,6 +18,7 @@ final class PhabricatorConduitSl
       'User PHID.' => 'PHID uporabnika.',
       'Output Format' => 'Izhodni format',
       'Integer overflow.' => 'Presežek celega števila.',
+      'This method is deprecated.' => 'Ta metoda je opuščena.',
       'Terminate Token' => 'Ukini žeton',
     );
   }

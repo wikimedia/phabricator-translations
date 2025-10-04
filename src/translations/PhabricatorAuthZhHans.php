@@ -9,15 +9,28 @@ final class PhabricatorAuthZhHans
 
   protected function getTranslations() {
     return array(
+      '%s renamed this provider from %s to %s.' => '%s将此徽章从%s重命名为%s。',
       '%s enabled login.' => '%s启用了登录。',
+      'Disable Contact Number' => '禁用联系号码',
+      'This key has been revoked. Choose or generate a new, unique key.' => '此密钥已被撤销。请选择或生成一个新的唯一密钥。',
       'SSH Key Actions' => 'SSH公钥操作',
       'Adding a PKCS8 keyfile to the cache can be very dangerous. If the PKCS8 file really encodes a different public key than the one specified, an attacker could use it to gain unauthorized access.
     Generally, you should use this option only in a development environment where ssh-keygen is broken and it is inconvenient to fix it, and only if you are certain you understand the risks. You should never cache a PKCS8 file you did not generate yourself.' => '添加PKCS8公钥文件至缓存是非常危险的。如果PKCS8文件已经编码了与指定公钥不同的公钥，那么攻击者可以使用它获得未经授权的访问能力。
     一般情况下，您只应该在ssh注册机损坏，且不便修复的开发环境中，并且只在您确定理解风险的情况下使用此操作。您永远不能缓存不是您自己生成的PKCS8文件。',
       'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => '此提供者（“%s”）已存在，并且您不能添加多于一个它的示例。您可以编辑现有提供者，或者您可以选择不同的提供者。',
+      'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => '要添加Duo功能，请先在手机上下载并安装Duo应用程序。启动应用程序并准备好进行设置后，点击“继续”。',
+      'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => '您提供的验证码不正确，或者该电子邮件地址已被移除，又或者该电子邮件地址属于其他用户。请确保您正确点击了电子邮件中的链接，并使用与该电子邮件地址关联的用户帐户登录。',
+      'Edit Contact Number' => '编辑联系人号码',
+      'Passwords' => '密码',
       'Algorithm' => '算法',
+      'You must specify the username of the account to recover.' => '您必须指定要恢复的帐户的用户名。',
+      'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => '身份验证提供程序配置已锁定，未解锁则无法更改。有关详情，请参阅配置设置%s 。',
+      'Server name must contain only lowercase letters, digits, and periods.' => '服务器名称必须仅包含小写字母、数字和句点。',
       'Revoke Tokens' => '撤除令牌',
+      'There are too many configured default registration providers.' => '配置的默认注册提供程序太多。',
       'Unlink "%s" Account?' => '取消链接“%s”账户？',
+      'Edit Auth Messages' => '编辑授权消息',
+      'Complete enrolling your phone with Duo:' => '完成将您的手机注册到Duo的过程：',
       'Setup Admin Account' => '配置管理员账户',
       'Must Verify Email' => '必须验证电子邮件',
       '%s enabled auto login.' => '%s启用了自动登录。',

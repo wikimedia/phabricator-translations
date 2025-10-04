@@ -37,9 +37,6 @@ final class PhabricatorAuthCa
       'Setup Admin Account' => 'Configureu el compte d\'administrador',
       'Enable Contact Number' => 'Activa el número de contacte',
       'Create New Duo Account' => 'Crear un compte Duo nou',
-      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
-    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Per afegir un factor TOTP al vostre compte, primer haureu d’instal·lar una aplicació d’autenticació mòbil al telèfon. Dues aplicacions que funcionen bé són **Google Authenticator** i **Authy**, però qualsevol altra aplicació TOTP també hauria de funcionar.
-    Si encara no ho heu fet, descarregueu i instal·leu ara una aplicació TOTP al telèfon. Un cop hàgiu llançat l\'aplicació i estigueu llest per afegir un codi TOTP nou, continueu amb el pas següent.',
       'To configure Bitbucket OAuth, log in to Bitbucket and go to **Manage Account** > **Access Management** > **OAuth**.
     Click **Add Consumer** and create a new application.
     After completing configuration, copy the **Key** and **Secret** to the fields above.' => 'Per configurar l\'OAuth de Bitbucket, inicieu la sessió a Bitbucket i aneu a **Gestió de Compte** > **Gestió d\'accés** > **Autenticació**. 
@@ -57,6 +54,7 @@ final class PhabricatorAuthCa
       'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:' => 'El compte amb què intenteu registrar-vos té una adreça de correu electrònic no vàlida (%s). Aquesta instal·lació de Phabricator només permet el registre amb adreces de correu electrònic específiques:',
       'Invalid OAuth Access Token' => 'Testimoni d\'Accés OAuth no vàlid',
       'Create Auth Message' => 'Crea un missatge d\'autenticació',
+      'Attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, Bitwarden Authenticator, Google Authenticator, or Authy) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Adjunteu una aplicació d’autenticació mòbil (com Authy o Google Authenticator) al vostre compte. Quan hàgiu d’autenticar-vos, introduïu el codi que es mostra al telèfon.',
       'Verify Email' => 'Verifica el correu electrònic',
       'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Revoqueu les credencials de l\'objecte especificat. Per revocar les credencials d\'un usuari, utilitzeu "@username".',
       'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Utilitzeu "--user <nom d\'usuari>" per especificar a quin usuari voleu despullar de factors, o «--all-users» per despullar de factors a tots els usuaris.',
@@ -174,6 +172,7 @@ final class PhabricatorAuthCa
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'Actualment teniu autenticació multifactor (\'%s\') que depèn del vostre número de contacte principal. Heu d’eliminar aquest factor d’autenticació abans de poder designar un nou número de contacte principal.',
       'Failed to decode OAuth access token response: %s' => 'No s\'ha pogut descodificar la resposta del testimoni d\'accés OAuth: %s',
       'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.' => 'Opcionalment, especifiqueu un o més atributs separats per comes per utilitzar per omplir el camp \'Nom real\' quan registreu un compte nou. Això és purament cosmètic i no afecta el procés d’inici de sessió, però pot facilitar el registre una mica més.',
+      'Allow users to attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, or Bitwarden Authenticator) to their account.' => 'Permet als usuaris adjuntar una aplicació d’autenticació mòbil (com Google Authenticator) al seu compte.',
       'You must enter an LDAP password.' => 'Heu d\'entrar a una contrasenya de LDAP.',
       'Generate New Keypair' => 'Genera una clau asimètrica',
       'MFA Provider' => 'Proveïdor de MFA',
@@ -263,6 +262,9 @@ final class PhabricatorAuthCa
       'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Si voleu enllaçar un compte de Phabricator existent amb aquest compte extern, no continueu. En lloc d’això, inicieu sessió al vostre compte existent i aneu a “Configuració” i enllaceu el compte al tauler “Comptes externs”.',
       'You responded to this challenge correctly.' => 'Heu respost correctament a aquest repte.',
       'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => 'Especifiqueu factors específics amb "--provider", o tots els factors amb "--all-types", però no els dos.',
+      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Per afegir un factor TOTP al vostre compte, primer haureu d’instal·lar una aplicació d’autenticació mòbil al telèfon. Dues aplicacions que funcionen bé són **Google Authenticator** i **Authy**, però qualsevol altra aplicació TOTP també hauria de funcionar.
+    Si encara no ho heu fet, descarregueu i instal·leu ara una aplicació TOTP al telèfon. Un cop hàgiu llançat l\'aplicació i estigueu llest per afegir un codi TOTP nou, continueu amb el pas següent.',
       'To configure Disqus OAuth, create a new application here:
     http://disqus.com/api/applications/
     Create an application, then adjust these settings:
@@ -691,7 +693,6 @@ final class PhabricatorAuthCa
       'Parsed Address' => 'Adreça analitzada sintàcticament',
       'Duo Security' => 'Seguretat de Duo',
       'You already have SMS authentication attached to your account.' => 'Ja teniu autenticació per SMS associada al vostre compte.',
-      'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Adjunteu una aplicació d’autenticació mòbil (com Authy o Google Authenticator) al vostre compte. Quan hàgiu d’autenticar-vos, introduïu el codi que es mostra al telèfon.',
       'Revoke all credentials types.' => 'Revoqueu tots els tipus de credencials.',
       'LDAP Exception: %s' => 'Excepció LDAP: %s',
       'LDAP search failed.' => 'La cerca LDAP ha fallat.',
@@ -733,7 +734,6 @@ final class PhabricatorAuthCa
       'Your remote address has made too many login attempts in a short period of time.' => 'La vostra adreça remota ha fet massa intents d\'inici de sessió en un curt període de temps.',
       'Guidance in the message body when users request an email link to access their account.' => 'Orientació al cos del missatge quan els usuaris sol·licitin un enllaç de correu electrònic per accedir al seu compte.',
       'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => 'La galeta d’inici de sessió s’ha configurat correctament, però la sessió d’inici de sessió no és vàlida. Proveu d\'esborrar les galetes i torneu a iniciar la sessió.',
-      'Allow users to attach a mobile authenticator application (like Google Authenticator) to their account.' => 'Permet als usuaris adjuntar una aplicació d’autenticació mòbil (com Google Authenticator) al seu compte.',
       'Password Hash Algorithms' => 'Algorismes de hash de contrasenya',
       'OAuth1 Handshake Secret' => 'OAuth1 secret d\'encaixada',
       'You have failed to verify multi-factor authentication too often in a short period of time.' => 'No heu pogut verificar l\'autenticació multifactor massa sovint en un curt període de temps.',

@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorCacheMy
+final class PhabricatorPhluxKy
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'my';
+    return 'ky';
   }
 
   protected function getTranslations() {
     return array(
-      '"%s" Disabled' => '"%s" ပိတ်ထားပြီး',
+      'Variable "%s"' => '"%s" өзгөрмөсү',
     );
   }
 

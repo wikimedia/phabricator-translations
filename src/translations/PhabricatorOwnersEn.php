@@ -39,6 +39,7 @@ final class PhabricatorOwnersEn
       'Path Not Found On Default Branch' => 'Path Not Found On Default Branch',
       'Affected By Herald Rules' => 'Affected By Herald Rules',
       'Users and projects which own the package.' => 'Users and projects which own the package.',
+      'Failed to load a random repository. You may need to generate more test repositories first.' => 'Failed to load a random repository. You may need to generate more test repositories first.',
       'Subscribe to Changes With Non-Owner Author' => 'Subscribe to Changes With Non-Owner Author',
       'Specify the files and directories which comprise this package.' => 'Specify the files and directories which comprise this package.',
       'Packages: %s' => 'Packages: %s',

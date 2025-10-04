@@ -32,8 +32,6 @@ final class PhabricatorAuthHu
       'Setup Admin Account' => 'Admin fiók beállítása',
       'Enable Contact Number' => 'Kapcsolattartási szám engedélyezése',
       'Create New Duo Account' => 'Új Duo fiók létrehozása',
-      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
-    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'TOTP használatához először telepítenie kell egy mobil hitelesítő alkalmazást a telefonjára. A **Google Authenticator** vagy az **Authy** ajánlott, de minden más TOTP alkalmazásnak is megfelelő lehet. Ha sikeresen elindult alkalmazás és készen áll új TOTP-kód hozzáadására, folytassa a következő lépéssel.',
       'Must Verify Email' => 'Az e-mail megerősítése kötelező',
       'Verify Email' => 'E-mail megerősítése',
       'Unable to Log In' => 'Nem lehet bejelentkezni',
@@ -57,6 +55,8 @@ final class PhabricatorAuthHu
       'Authentication Error' => 'Hitelesítési hiba',
       'Text Message (SMS)' => 'SMS üzenet',
       'Allows Registration' => 'Regisztráció engedélyezése',
+      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'TOTP használatához először telepítenie kell egy mobil hitelesítő alkalmazást a telefonjára. A **Google Authenticator** vagy az **Authy** ajánlott, de minden más TOTP alkalmazásnak is megfelelő lehet. Ha sikeresen elindult alkalmazás és készen áll új TOTP-kód hozzáadására, folytassa a következő lépéssel.',
       'SSH KEY DETAIL' => 'SSH-KULCS RÉSZLETEI',
     );
   }

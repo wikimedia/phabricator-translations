@@ -14,7 +14,7 @@ final class PhabricatorextCoreKoKR
       'Standard Phabricator.' => '표준 파브리케이터.',
       'Auto-generated release schedule details.' => '자동 생성 릴리스 일정 세부 정보',
       'Consumer Token' => '컨슈머 토큰',
-      'Merged' => '병합됨',
+      'Merged' => '합치기',
       'Customize query in gerrit' => '게릿 내 쿼리 사용자 지정',
       'Unknown objectType \'%s\'' => '알 수 없는 objectType \'%s\'',
       'Show related patches' => '관련 패치 표시',

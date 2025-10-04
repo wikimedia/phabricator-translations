@@ -194,6 +194,17 @@ final class PhabricatorPhortuneFrFR
       '%s changed the billing name for this account from %s to %s.' => '%s a modifié le nom de facturation pour ce compte de %s en %s .',
       'This generator has already emitted an iterator. You can not modify the PDF document after you begin writing it.' => 'Ce générateur a déjà émis un itérateur. Vous ne pouvez pas modifier le document PDF après avoir commencé à l’écrire.',
       'Unable to load provider for charge!' => 'Impossible de charger le fournisseur pour les frais !',
+      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
+      - Navigate to {nav Tools > API Access}.
+      - Choose **View API Signature**.
+      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
+    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
+    You can either use `sandbox.paypal.com` to retrieve test credentials, or `paypal.com` to retrieve live credentials.' => 'Pour configurer PayPal, inscrivez-vous ou connectez-vous à un compte existant sur [[ https://paypal.com | PayPal.com ]] (pour des paiements réels) ou sur [[ https://sandbox.paypal.com | sandbox.PayPal.com]] (pour tester des paiements). Une fois connecté :
+      - accédez à {nav Tools > API Access}
+      - choisissez **View API Signature** (afficher la signature API)
+      - copiez le **API Username** (nom d’utilisateur API), le **API Password** (mot de passe API) et la **Signature** dans les champs ci-dessus.
+    Vous pouvez sélectionner si le fournisseur fonctionne en mode test ou accepte les paiements réels en utilisant le menu déroulant **Mode** ci-dessus.
+    Vous pouvez utiliser soit `sandbox.paypal.com`, soit `paypal.com`, pour récupérer les informations d’identification respectivement de test ou réels.',
       'Order %d: %s' => 'Ordre %s : %s',
       'Stripe' => 'Stripe',
       'Error Adding Payment Method' => 'Erreur lors de l’ajout du mode de paiement',
@@ -528,17 +539,6 @@ final class PhabricatorPhortuneFrFR
       'Return to Subscription' => 'Revenir à l’abonnement',
       'You are viewing this payment account as: %s' => 'Vous visualisez ce compte de paiement en tant que : %s',
       'Contact Info' => 'Coordonnées de contact',
-      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
-      - Navigate to {nav Tools > API Access}.
-      - Choose **View API Signature**.
-      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
-    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
-    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.' => 'Pour configurer PayPal, inscrivez-vous ou connectez-vous à un compte existant sur [[ https://paypal.com | PayPal.com ]] (pour des paiements réels) ou sur [[ https://sandbox.paypal.com | sandbox.PayPal.com]] (pour tester des paiements). Une fois connecté :
-      - accédez à {nav Tools > API Access}
-      - choisissez **View API Signature** (afficher la signature API)
-      - copiez le **API Username** (nom d’utilisateur API), le **API Password** (mot de passe API) et la **Signature** dans les champs ci-dessus.
-    Vous pouvez sélectionner si le fournisseur fonctionne en mode test ou accepte les paiements réels en utilisant le menu déroulant **Mode** ci-dessus.
-    Vous pouvez utiliser soit `sandbox.paypal.com`, soit `paypal.com`, pour récupérer les informations d’identification respectivement de test ou réels.',
       'Set the start of the billing period.' => 'Définir le début de la période de facturation.',
       'PDF iterators may not be rewound. Create a new iterator to emit another PDF.' => 'Les itérateurs de PDF ne peuvent pas être rembobinés. Créez un nouvel itérateur pour émettre un autre PDF.',
       'Void Invoice?' => 'Annuler la facture ?',

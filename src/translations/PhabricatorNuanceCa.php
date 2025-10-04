@@ -32,7 +32,6 @@ final class PhabricatorNuanceCa
       'This key has %s remaining API request(s), limit resets in %s second(s).' => 'Aquesta clau té %s sol·licitud(s) d\'API restant(s), i limita els restabliments en %s segon(s).',
       'GitHub Actor' => 'Actor GitHub',
       'Sources' => 'Fonts',
-      'All Items' => 'Tots els Elements',
       'Pull Request #%d' => 'Sol·licitud d\'extracció núm. %s',
       'Manage Queue' => 'Gestiona la cua',
       '%s applied a "%s" command to this item.' => '%s ha aplicat una ordre "%s" a aquest element.',

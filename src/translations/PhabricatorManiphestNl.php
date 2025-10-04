@@ -17,7 +17,6 @@ final class PhabricatorManiphestNl
       'Assignee' => 'Toegewezen aan',
       '%s closed %s as %s.' => '%s heeft %s gesloten als %s.',
       'Unblock' => 'Deblokkeren',
-      'Mentioned In' => 'Vermeld in',
       'Closer' => 'Sluiter',
       'Set priority to' => 'Voorrang instellen op',
       'Closed Before' => 'Gesloten vóór',

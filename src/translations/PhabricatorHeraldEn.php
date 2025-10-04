@@ -227,6 +227,7 @@ final class PhabricatorHeraldEn
       'Hook Error' => 'Hook Error',
       'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.' => 'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.',
       'No adapter exists for Herald content type "%s".' => 'No adapter exists for Herald content type "%s".',
+      'You do not have permission to create or manage global rules.' => 'You do not have permission to create or manage global rules.',
       'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.' => 'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.',
       'Call webhooks' => 'Call webhooks',
       'Another Herald rule' => 'Another Herald rule',
@@ -236,8 +237,6 @@ final class PhabricatorHeraldEn
       'Edit Rule' => 'Edit Rule',
       'any of' => 'any of',
       'Dry Run' => 'Dry Run',
-      'No transcripts found.' => 'No transcripts found.',
-      'You do not have permission to create or manage global rules.' => 'You do not have permission to create or manage global rules.',
       'Condition references a rule which does not exist!' => 'Condition references a rule which does not exist!',
       'Show Only Enabled Rules' => 'Show Only Enabled Rules',
       'Webhook %d %s' => 'Webhook %s %s',
@@ -300,6 +299,7 @@ final class PhabricatorHeraldEn
       'Found more than one ("%s") applied edge transactions with given edge type ("%s"); expected zero or one.' => 'Found more than one ("%s") applied edge transactions with given edge type ("%s"); expected zero or one.',
       'Rule Type' => 'Rule Type',
       'Applying changes to %s: %s...' => 'Applying changes to %s: %s...',
+      '%s%ss' => '%s%ss',
       'H%d' => 'H%s',
       'User Guide: Webhooks' => 'User Guide: Webhooks',
       'Unable to load object ("%s") for webhook request ("%s").' => 'Unable to load object ("%s") for webhook request ("%s").',
@@ -393,6 +393,7 @@ final class PhabricatorHeraldEn
       'Name of the webhook.' => 'Name of the webhook.',
       'Webhooks' => 'Webhooks',
       'The regular expression pair "%s" must have exactly two elements.' => 'The regular expression pair "%s" must have exactly two elements.',
+      'No transcripts found.' => 'No transcripts found.',
     );
   }
 

@@ -15,7 +15,6 @@ final class PhabricatorManiphestFi
       'Search...' => 'Hae...',
       'Task' => 'Tehtävä',
       'No tasks.' => 'Ei tehtäviä.',
-      'Edit Task' => 'Muokkaa tehtävää',
       'TASK DESCRIPTION' => 'TEHTÄVÄN KUVAUS',
       'Closed By' => 'Sulkenut',
     );

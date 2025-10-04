@@ -27,7 +27,6 @@ final class PhabricatorDaemonScn
       'Daemon Log' => 'Riggistru di dèmuni',
       '%s ago (%s)' => '%s arrè (%s)',
       'Daemon %s' => 'Dèmuni %s',
-      'PID \'%s\' is not a valid PID.' => 'Lu PID \'%s\' nun è nu PID vàlidu.',
       'Daemon Details' => 'Dittagghî dû dèmuni',
     );
   }

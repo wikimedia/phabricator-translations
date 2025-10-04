@@ -19,6 +19,7 @@ final class PhabricatorHeraldSl
       'false' => 'neresnično',
       'Added Comment' => 'Komentar dodan',
       'Comment content' => 'Vsebina komentarja',
+      'Personal Rule' => 'Osebno pravilo',
       'Already Applied' => 'Že uporabljeno',
       'Object produced non-array value!' => 'Objekt je ustvaril nematrično vrednost!',
       'Object Link' => 'Povezava objekta',

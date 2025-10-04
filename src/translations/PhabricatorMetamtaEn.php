@@ -10,6 +10,7 @@ final class PhabricatorMetamtaEn
   protected function getTranslations() {
     return array(
       'This mail is addressed to the public email address of an object ("%s"), but public replies are not enabled on this server. An administrator may have recently disabled this setting, or you may have replied to an old message. Try replying to a more recent message instead.' => 'This mail is addressed to the public email address of an object ("%s"), but public replies are not enabled on this server. An administrator may have recently disabled this setting, or you may have replied to an old message. Try replying to a more recent message instead.',
+      'Type a username, project, mailing list, or function...' => 'Type a username, project, mailing list, or function...',
       'Forced Mail' => 'Forced Mail',
       'MetaMTA Mails' => 'MetaMTA Mails',
       'Reserved Recipient' => 'Reserved Recipient',

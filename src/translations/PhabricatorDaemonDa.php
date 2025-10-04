@@ -19,7 +19,6 @@ final class PhabricatorDaemonDa
       'Dead' => 'Død',
       'Last' => 'Sidste',
       'PID' => 'PID',
-      'PID \'%s\' is not a valid PID.' => 'PID \'%s\' er ikke et gyldigt PID.',
       'Started' => 'Påbegyndt',
     );
   }

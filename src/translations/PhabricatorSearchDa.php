@@ -17,16 +17,13 @@ final class PhabricatorSearchDa
       'Find stuff in big piles.' => 'Find ting i store bunker.',
       'You must choose a dashboard.' => 'Du skal vælge et kontrolpanel.',
       'Already Default' => 'Allerede standard',
-      'Open Documents' => 'Åbn dokumenter',
       'Bucket' => 'Spand',
       'Not supported.' => 'Ikke understøttet.',
       'Mandatory Item' => 'Obligatorisk emne',
       'Current Default' => 'Nuværende standard',
       'No search engines available.' => 'Ingen søgemaskiner tilgængelige.',
       'Object Fields' => 'Objektfelter',
-      'Select a document type...' => 'Vælg en dokumenttype...',
       'No Content' => 'Intet indhold',
-      'Document Status' => 'Dokument status',
       '"2022-12-25" or "7 days ago"...' => '"2022-12-25" eller "for 7 dage siden"...',
       'Cat Facts' => 'Katte fakta',
       'All Open Objects' => 'Alle åbne objekter',
@@ -36,7 +33,6 @@ final class PhabricatorSearchDa
       'NOTE' => 'OBS',
       'Fulltext Search' => 'Fuldtekstsøgnig',
       'You must choose an application.' => 'Du skal vælge en applikation.',
-      'Document Types' => 'Dokumenttyper',
       'Cats prefer vanilla ice cream.' => 'Katte foretrækker vaniljeis.',
       'Export Results' => 'Eksporter resultater',
       'All Objects' => 'Alle objekter',
@@ -47,7 +43,6 @@ final class PhabricatorSearchDa
       'Searched For:' => 'Søgte efter:',
       '%s (Not Available)' => '%s (Ikke tilgængelig)',
       'Export Data' => 'Eksporter data',
-      'Browse Document Types' => 'Gennemse dokumenttyper',
     );
   }
 

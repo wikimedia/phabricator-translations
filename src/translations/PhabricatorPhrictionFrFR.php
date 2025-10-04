@@ -54,6 +54,7 @@ final class PhabricatorPhrictionFrFR
       'Update a Phriction document.' => 'Mettre à jour un document de Phriction.',
       'Revert the published version of this document to an older version?' => 'Annuler la version publiée de ce document pour revenir à une version plus ancienne ?',
       'Document Content' => 'Contenu du document',
+      'Apply transactions to edit an existing phriction document.' => 'Appliquez les transactions pour modifier un document de Phriction existant.',
       'Version %d' => 'Version %s',
       'Last Author' => 'Dernier auteur',
       'Published document changed' => 'Le document publié a changé',

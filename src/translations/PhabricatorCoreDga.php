@@ -20,7 +20,6 @@ final class PhabricatorCoreDga
       'This server is in read-only mode.' => 'A sɛɛva ŋa be la kanne-yoŋ moodi',
       'This server is in read-only mode (major interruption).' => 'A sɛɛva be la kanne-yoŋ moodi (daamo meŋɛ).',
       'Before running storage upgrades, you should take down the web interface and stop any running daemons (you can disable this warning with %s).' => 'Sɛre ka fo na toŋ ne stɔɔragye tage o do,aseŋ ka fo de a wɛb niŋe ka o sigi ane tɔge bonzaa naŋ kyɛnɛ (fo na baŋ ŋmaa la a kpaambo ŋa ne %s).',
-      'No permission to run "SHOW SLAVE STATUS". Grant this user "REPLICATION CLIENT" permission to allow this server to monitor replica health.' => 'Sori ba kyebee a naŋ sage a toma \'\'SITAATU NEƐ\'\' sɔroo ka sage a sɛɛva ka o kaara laafeɛ.',
       'If you are developing %s, these errors usually indicate that your schema specifications do not agree with the schemata your code actually builds.' => 'Ka fooŋ wa maala %s, a ɛrɔɔ sere maŋ eŋ la a sikyiima wulluu zie ta sage neŋ a sikyiima a fo koodi maŋ soŋ mɛ la.',
       'Set a \'%s\' in your configuration!' => 'Maale a \'%s\' a fo leɛroo poɔ!',
       'Flood the queue with test tasks. This command is intended for use during development and debugging.' => 'Paale a zie ŋa ne yɛlɛ. Yel-fere eebo naŋ kyaare ne a yɛlɛ maaloŋ ane yɛlɛ maaloŋ',
@@ -53,6 +52,7 @@ final class PhabricatorCoreDga
       'S|M|T|W|T|F|S' => 'S
     |M|T|W|T|F|S',
       'February' => 'Fɛboɔre',
+      'No permission to run "SHOW REPLICA STATUS". Grant this user "REPLICATION CLIENT" permission to allow this server to monitor replica health.' => 'Sori ba kyebee a naŋ sage a toma \'\'SITAATU NEƐ\'\' sɔroo ka sage a sɛɛva ka o kaara laafeɛ.',
       'Remarkup text.' => 'Iri-makap sɛgere',
       'December' => 'Desagbare',
       'Extensions' => 'Tagduloo',

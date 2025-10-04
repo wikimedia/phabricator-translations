@@ -44,10 +44,8 @@ final class PhabricatorSearchZhHans
       'You must name the query.' => '您必须对查询命名。',
       'Choose Item Icon' => '选择项图标',
       'Edit Menu Item: %s' => '编辑菜单项：%s',
-      'Open Documents' => '打开文档',
       'Search Ngram' => '搜索Ngram',
       'Enable Menu Item' => '启用菜单项',
-      'Global Saved Queries' => '全域保存查询',
       'Configure Menu' => '配置菜单',
       'Bucket' => '桶',
       'Query Errors' => '查询错误',
@@ -65,14 +63,12 @@ final class PhabricatorSearchZhHans
       'Menu Items' => '菜单项目',
       'Hide Query' => '隐藏查询',
       'Set Default Query' => '设置默认查询',
-      'Select a document type...' => '选择文档类型...',
       '(Restricted/Invalid Project)' => '（受限制/无效项目）',
       'Delete Query' => '删除查询',
       'Current Menu Items' => '当前菜单项',
       'Menu Item' => '菜单项',
       'Attachments' => '附件',
       'Fulltext Search Results' => '全文搜索结果',
-      'Document Status' => '记载状态',
       'Engine: Search' => '引擎：搜索',
       'Profile Menu Item' => '详情菜单项',
       '"2022-12-25" or "7 days ago"...' => '“2022-12-25”或“7天前”……',
@@ -235,7 +231,6 @@ final class PhabricatorSearchZhHans
     }
     ```
     以下为可用的内置顺序：',
-      'Document Types' => '文档类型',
       'Profile Menu User Guide' => '详情菜单用户指导',
       'Saved Queries' => '保存的查询',
       '(Restricted/Invalid Form)' => '（受限制/无效表单）',
@@ -258,7 +253,6 @@ final class PhabricatorSearchZhHans
       'Really Delete Query?' => '真的要删除查询么？',
       'Query offset is too large. offset+limit=%s (max=%s)' => '查询偏移泰达。偏移+限制=%s（最大=%s）',
       'Edit Queries...' => '编辑查询...',
-      'Browse Document Types' => '浏览文档类型',
       '(Restricted/Invalid Conpherence)' => '（受限制/无效的Conpherence）',
       'Queries are limited to returning 100 results at a time. If you want fewer
     results than this, you can use `limit` to specify a smaller limit.

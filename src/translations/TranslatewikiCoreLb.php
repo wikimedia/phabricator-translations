@@ -32,6 +32,7 @@ final class TranslatewikiCoreLb
       'Polish' => 'Polnesch',
       'Done.' => 'Fäerdeg.',
       'PLURAL' => 'PLURAL',
+      'Luxemborgish' => 'Lëtzebuergesch',
     );
   }
 

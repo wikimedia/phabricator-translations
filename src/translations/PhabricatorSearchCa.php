@@ -190,7 +190,6 @@ final class PhabricatorSearchCa
     cerca normal.
     Podeu utilitzar aquestes tecles per seleccionar consultes integrades i les
     vostres consultes desades configurades:',
-      'Query is too long (%s bytes, maximum is %s bytes).' => 'La consulta és massa llarga (%s bytes, el màxim és de %s bytes).',
       'Ferret search engine field key ("%s") is invalid. Field keys must be exactly four characters long and contain only lowercase latin letters.' => 'La clau del camp del motor de cerca Ferret (\'%s\') no és vàlida. Les claus de camp han de tenir exactament quatre caràcters i contenir només lletres llatines minúscules.',
       'Cats spend most of their time plotting to kill their owner.' => 'Els gats passen gran part del seu temps conspirant per matar el seu propietari.',
       'Customize Query: %s' => 'Personalitzar la consulta: %s',

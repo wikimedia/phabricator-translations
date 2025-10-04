@@ -28,7 +28,6 @@ final class PhabricatorTransactionsDa
       'Edit Defaults' => 'Rediger standarder',
       'Encryption Required' => 'Kryptering påkrævet',
       '%s wrote:' => '%s skrev:',
-      'Change subtype to' => 'Ændre undertype til',
       'Make Editable' => 'Gør redigerbar',
       'Changed Subscribers' => 'Ændrede abonnenter',
       'Raw Comment' => 'Rå kommentar',

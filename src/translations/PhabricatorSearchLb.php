@@ -10,14 +10,13 @@ final class PhabricatorSearchLb
   protected function getTranslations() {
     return array(
       'No results.' => 'Keng Resultater.',
+      'Global Search' => 'Global Sich',
       'Format' => 'Format',
       'Readable' => 'Liesbar',
       'Search Engines' => 'Sichmaschinnen',
       'Query: %s' => 'Ufro: %s',
       'You must choose a label name.' => 'Dir musst en Numm fir d\'Etikett festleeën.',
       'The Spanish word for cat is "cato". The biggest cat is called "el cato".' => 'Dat spuenescht Wuert fir Kaz ass "cato". Déi gréisste Kaz gëtt "el cato" genannt.',
-      'Open Documents' => 'Dokumenter opmaachen',
-      'Global Saved Queries' => 'Global gespäichert Ufroen',
       'Not supported.' => 'Net ënnerstëtzt.',
       'Hide Query' => 'Ufro verstoppen',
       'Delete Query' => 'Ufro läschen',
@@ -32,6 +31,7 @@ final class PhabricatorSearchLb
       'Full-Text Search' => 'Volltext-Sich',
       '"%s" must be a date before "%s".' => '"%s" muss en Datum virum "%s" sinn.',
       'Fulltext Search' => 'Volltext-Sich',
+      'Profile picture' => 'Profilbild',
       'Cats prefer vanilla ice cream.' => 'Kazen hu léiwer Vanillsglace.',
       'All Objects' => 'All Objeten',
       'Link' => 'Link',

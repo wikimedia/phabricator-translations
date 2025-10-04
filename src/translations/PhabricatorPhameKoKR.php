@@ -25,7 +25,7 @@ final class PhabricatorPhameKoKR
       '404 Not Found' => '404 찾을 수 없습니다',
       'Blogs' => '블로그',
       'No description.' => '설명이 없습니다.',
-      'The parent site can be no longer than %s characters.' => '부모 사이트는 %s자를 초과할 수 없습니다.',
+      'The parent site can be no longer than %s characters.' => '상위 사이트는 %s자를 초과할 수 없습니다.',
       'Title of the post.' => '게시물의 제목입니다.',
       'Change the blog description.' => '블로그의 설명을 변경합니다.',
       'Blog to publish this post to.' => '이 게시물을 게시할 블로그입니다.',

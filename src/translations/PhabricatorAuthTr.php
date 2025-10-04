@@ -38,9 +38,6 @@ final class PhabricatorAuthTr
       'Setup Admin Account' => 'Yönetici Hesabını Kur',
       'Enable Contact Number' => 'Kişi Numarasını Etkinleştir',
       'Create New Duo Account' => 'Yeni Duo Hesap Oluştur',
-      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
-    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Hesabınıza bir TOTP faktörü eklemek için, önce telefonunuza bir mobil kimlik doğrulayıcı uygulaması yüklemeniz gerekir. İyi çalışan iki uygulama **Google Authenticator** ve **Authy**\'dir, ancak diğer TOTP uygulamalarının da çalışması gerekir.
-    Henüz yapmadıysanız, telefonunuza bir TOTP uygulaması indirin ve yükleyin. Uygulamayı başlattıktan ve yeni bir TOTP kodu eklemeye hazır olduğunuzda, bir sonraki adıma geçin.',
       'To configure Bitbucket OAuth, log in to Bitbucket and go to **Manage Account** > **Access Management** > **OAuth**.
     Click **Add Consumer** and create a new application.
     After completing configuration, copy the **Key** and **Secret** to the fields above.' => 'Bitbucket OAuth\'u yapılandırmak için Bitbucket\'te oturum açın ve **Hesabı Yönet** > **Erişim Yönetimi** > **OAuth** bölümüne gidin.
@@ -58,6 +55,7 @@ final class PhabricatorAuthTr
       'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:' => 'Kaydolmaya çalıştığınız hesabın geçersiz bir e-posta adresi (%s) var. Bu Phabricator yüklemesi yalnızca belirli e-posta adresleriyle kayda izin verir:',
       'Invalid OAuth Access Token' => 'Geçersiz OAuth Erişim Anahtarı',
       'Create Auth Message' => 'Yetkilendirme Mesajı Oluştur',
+      'Attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, Bitwarden Authenticator, Google Authenticator, or Authy) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Hesabınıza bir mobil kimlik doğrulayıcı uygulaması (Authy veya Google Authenticator gibi) ekleyin. Kimlik doğrulamanız gerektiğinde, telefonunuzda gösterilen bir kodu girersiniz.',
       'Verify Email' => 'E-postayı Doğrula',
       'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Belirtilen nesne için kimlik bilgilerini iptal et. Bir kullanıcının kimlik bilgilerini iptal etmek için "@kullanıcıadı" kullanın.',
       'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Hangi kullanıcının faktörleri çıkaracağını belirtmek için "--user <kullanıcı adı>" veya tüm kullanıcıların faktörlerini ayırmak için "--all-users" kullanın.',
@@ -177,6 +175,7 @@ final class PhabricatorAuthTr
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'Şu anda birincil iletişim numaranıza bağlı olan çok faktörlü kimlik doğrulamanız ("%s") var. Yeni bir birincil irtibat numarası atamadan önce bu kimlik doğrulama faktörünü kaldırmanız gerekir.',
       'Failed to decode OAuth access token response: %s' => 'OAuth erişim anahtarı yanıtı çözülemedi: %s',
       'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.' => 'İsteğe bağlı olarak, yeni bir hesap kaydederken "Gerçek Ad" alanını doldurmak için kullanılacak virgülle ayrılmış bir veya daha fazla özellik belirtin. Bu tamamen kozmetiktir ve giriş sürecini etkilemez, ancak kaydı biraz daha kolay hale getirebilir.',
+      'Allow users to attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, or Bitwarden Authenticator) to their account.' => 'Kullanıcıların hesaplarına bir mobil kimlik doğrulayıcı uygulaması (Google Authenticator gibi) eklemelerine izin ver.',
       'You must enter an LDAP password.' => 'Bir LDAP parolası girmelisiniz.',
       'Generate New Keypair' => 'Yeni Anahtar Çifti Oluştur',
       'MFA Provider' => 'MFA Sağlayıcısı',
@@ -273,6 +272,9 @@ final class PhabricatorAuthTr
       'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Mevcut bir Phabricator hesabını bu harici hesaba bağlamak istiyorsanız devam etmeyin. Bunun yerine: mevcut hesabınıza giriş yapın, ardından "Ayarlar"\'a gidin ve "Harici Hesaplar" panelinde hesabı bağlayın.',
       'You responded to this challenge correctly.' => 'Bu soruna doğru cevap verdiniz.',
       'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => '"--provider" ile belirli faktörleri veya "--all-types" olan tüm faktörleri belirtin, ancak ikisini birden belirtmeyin.',
+      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Hesabınıza bir TOTP faktörü eklemek için, önce telefonunuza bir mobil kimlik doğrulayıcı uygulaması yüklemeniz gerekir. İyi çalışan iki uygulama **Google Authenticator** ve **Authy**\'dir, ancak diğer TOTP uygulamalarının da çalışması gerekir.
+    Henüz yapmadıysanız, telefonunuza bir TOTP uygulaması indirin ve yükleyin. Uygulamayı başlattıktan ve yeni bir TOTP kodu eklemeye hazır olduğunuzda, bir sonraki adıma geçin.',
       'To configure Disqus OAuth, create a new application here:
     http://disqus.com/api/applications/
     Create an application, then adjust these settings:
@@ -985,7 +987,6 @@ final class PhabricatorAuthTr
       'Trouble logging in?' => 'Giriş yapmakta sorun mu yaşıyorsunuz?',
       'Search Attributes' => 'Arama Özellikleri',
       'You already have SMS authentication attached to your account.' => 'Hesabınıza zaten SMS kimlik doğrulaması eklenmiş durumda.',
-      'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Hesabınıza bir mobil kimlik doğrulayıcı uygulaması (Authy veya Google Authenticator gibi) ekleyin. Kimlik doğrulamanız gerektiğinde, telefonunuzda gösterilen bir kodu girersiniz.',
       'The login link you clicked is invalid, out of date, or has already been used.' => 'Tıkladığınız giriş bağlantısı geçersiz, eski veya zaten kullanılmış.',
       'Message Text' => 'Mesaj Metni',
       'Revoke all credentials types.' => 'Tüm kimlik bilgileri türlerini iptal edin.',
@@ -1053,7 +1054,6 @@ final class PhabricatorAuthTr
       'Guidance in the message body when users request an email link to access their account.' => 'Kullanıcılar, hesaplarına erişmek için bir e-posta bağlantısı istediğinde mesaj gövdesinde rehberlik.',
       'Refresh %s Account' => '%s Hesabı Yenile',
       'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => 'Giriş çerezi doğru bir şekilde ayarlandı, ancak giriş oturumunuz geçerli değil. Çerezleri temizlemeyi ve tekrar giriş yapmayı deneyin.',
-      'Allow users to attach a mobile authenticator application (like Google Authenticator) to their account.' => 'Kullanıcıların hesaplarına bir mobil kimlik doğrulayıcı uygulaması (Google Authenticator gibi) eklemelerine izin ver.',
       'MFA Sync' => 'MFA Senkronizasyonu',
       'Password Hash Algorithms' => 'Parola Karma Algoritmaları',
       'OAuth1 Handshake Secret' => 'OAuth1 El Sıkışma Sırrı',

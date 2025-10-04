@@ -53,6 +53,7 @@ final class PhabricatorSettingsSrEC
       'Add External Account' => 'Додај спољашњи налог',
       'Mail Headers and Body' => 'Заглавље и тело поруке',
       'Multi-Factor Auth' => 'Потврда идентитета у више корака',
+      'Refresh' => 'Освежи',
       'Filetree Visible' => 'Стабло датотека видљиво',
       'Edit Settings Configurations' => 'Измени конфигурације подешавања',
       'Mail Headers' => 'Заглавље поруке',

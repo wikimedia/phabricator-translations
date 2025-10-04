@@ -31,6 +31,7 @@ final class PhabricatorPeopleZhHans
       'Edit Profile Picture' => '编辑个人图片',
       'Save Profile' => '保存资料',
       'Edit Profile: %s' => '编辑个人资料：%s',
+      'Edit Settings' => '编辑设置',
       'Log Out %s' => '注销%s',
     );
   }

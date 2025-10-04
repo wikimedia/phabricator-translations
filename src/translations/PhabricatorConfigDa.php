@@ -102,7 +102,6 @@ final class PhabricatorConfigDa
       'PHP Timezone' => 'PHP tidszone',
       'Internal.' => 'Intern.',
       'Do Not Use HSTS' => 'Brug ikke HSTS',
-      'PHP 7.0-7.1 Not Supported' => 'PHP 7.0-7.1 ikke understøttet',
       'PHID Types' => 'PHID-typer',
       'Basic Example' => 'Basalt eksempel',
       '%s In / %s Out' => '%s Ind / %s Ud',

@@ -10,7 +10,6 @@ final class PhabricatorTransactionsCa
   protected function getTranslations() {
     return array(
       'Lock / Hide Fields' => 'Bloquejar/ocultar els camps',
-      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.' => 'No hi ha cap factor MFA adjunt al vostre compte, per tant no podeu signar aquest grup de transaccions amb MFA. Afegiu MFA al vostre compte a Configuració.',
       'Unmark as "Edit" Form' => 'Desmarcar el formulari com "editable"',
       'Parameter "%s" is not a list of transactions.' => 'El paràmetre "%s" no és una llista de transaccions.',
       'Transactions have no effect:' => 'Les transaccions no tenen cap efecte:',
@@ -33,7 +32,6 @@ final class PhabricatorTransactionsCa
       'Engine: Editor' => 'Motor: Editor',
       '%s moved %s to %s on the %s board.' => '%s ha mogut %s a %s en el tauler %s.',
       'To continue, configure multi-factor authentication in Settings.' => 'Per continuar, configureu l\'autenticació de factors múltiples a Configuració.',
-      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"' => 'Les crides a «transaction.search» han d\'especificar un «objectType» o un «objectIdentifier»',
       'SearchEngine class to export data from.' => 'La classe SearchEngine des de la que exportar les dades.',
       'In %s, %s wrote:' => 'En %s, %s ha escrit:',
       'Unmark as Create Form' => 'Desmarcar com formulari de creació',
@@ -143,6 +141,7 @@ final class PhabricatorTransactionsCa
       'Export format ("%s") is not enabled.' => 'El format d\'exportació (\'%s\') no està habilitat.',
       'This object has been locked.' => 'Aquest objecte s\'ha bloquejat.',
       'Changed Policy' => 'La política ha canviat',
+      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier".' => 'Les crides a «transaction.search» han d\'especificar un «objectType» o un «objectIdentifier»',
       'You can not apply transactions which already have IDs/PHIDs!' => 'No podeu aplicar transaccions que ja tinguin ID/PHID!',
       'Forms' => 'Formularis',
       'Hide Edit Forms' => 'Ocultar els formularis d\'edició',
@@ -186,8 +185,8 @@ final class PhabricatorTransactionsCa
       'Encryption Required' => 'Cal encriptació',
       'Form name is required.' => 'Cal el nom del formulari',
       'No object exists with ID "%s".' => 'No existeix cap objecte amb ID "%s".',
+      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'No hi ha cap factor MFA adjunt al vostre compte, per tant no podeu signar aquest grup de transaccions amb MFA. Afegiu MFA al vostre compte a Configuració.',
       '%s wrote:' => '%s ha escrit:',
-      'Change subtype to' => 'Canviar el subtipus a',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => 'L\'extensió \'%s\' defineix un grup d\'edició massiva amb la mateixa clau (\'%s\') que l\'editor principal o una altra extensió. Cada grup d\'edició massiva ha de tenir una clau única.',
       'Save Edit Order' => 'Desar l\'ordre d\'edició',
       '%s removed %s unsubscriber(s): %s.' => '%s ha suprimit %s baixes: %s.',
@@ -215,67 +214,6 @@ final class PhabricatorTransactionsCa
       '%s created this object in space %s.' => '%s ha creat aquest objecte en l\'espai %s.',
       'Engine: Edit' => 'Motor: Edita',
       '%s removed %s watcher(s) for %s: %s.' => '%s ha eliminat %s vigilants per %s: %s.',
-      'When an object (like a task) is edited, the relevant application creates a
-    "transaction" and applies it. This list of transactions on each object is the
-    basis for essentially all edits and comments. Reviewing the transaction
-    record allows you to see who edited an object, when, and how their edit changed
-    things.
-    One common reason to call this method is that you\'re implementing a webhook and
-    just received a notification that an object has changed. See the Webhooks
-    documentation for more detailed discussion of this use case.
-    One Object Type at a Time
-    =========================
-    This API method can query transactions for any type of object which supports
-    transactions, but only one type of object can be queried per call. For example:
-    you can retrieve transactions affecting Tasks, or you can retrieve transactions
-    affecting Revisions, but a single call can not retrieve both.
-    This is a technical limitation arising because (among other reasons) there is
-    no global ordering on transactions.
-    To find transactions for a specific object (like a particular task), pass the
-    object PHID or an appropriate object identifier (like `T123`) as an
-    `objectIdentifier`.
-    To find all transactions for an object type, pass the object type constant as
-    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
-    can quickly find an unknown type constant by looking at the PHID of an object
-    of that type.)
-    Constraints
-    ===========
-    These constraints are supported:
-      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
-        is most likely to be useful if you\'re responding to a webhook notification
-        and want to inspect only the related events.
-      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
-        authors.
-    Transaction Format
-    ==================
-    Each transaction has custom data describing what the transaction did. The
-    format varies from transaction to transaction. The easiest way to figure out
-    exactly what a particular transaction looks like is to make the associated kind
-    of edit to a test object, then query that object.
-    Not all transactions have data: by default, transactions have a `null` "type"
-    and no additional data. This API does not expose raw transaction data because
-    some of it is internal, oddly named, misspelled, confusing, not useful, or
-    could create security or policy problems to expose directly.
-    New transactions are exposed (with correctly spelled, comprehensible types and
-    useful, reasonable fields) as we become aware of use cases for them.
-    ' => 'Quan s\'edita un objecte (com una tasca), Phabricator crea una "transacció" i l\'aplica. Aquesta llista de transaccions en cada objecte és la base essencialment de totes les edicions i comentaris en el Phabricator. Revisar el registre de transaccions permet veure qui va editar un objecte, quan i com la seva edició va canviar les coses.
-    Una raó comuna per anomenar aquest mètode és que esteu implmentant un webhook i acabeu de rebre una notificació que un objecte ha canviat. Consulteu la documentació de Webhooks per a una discussió més detallada d\'aquest cas d\'ús.
-    Un tipus d\'objecte a la vegada
-    ==============================
-    Aquest mètode de l\'API pot consultar transaccions per a qualsevol tipus d\'objecte que suporti transaccions, però només es pot consultar un tipus d\'objecte per crida. Per exemple: es poden recuperar les transaccions que afecten les tasques, o es poden recuperar les transaccions que afecten les revisions, però una sola trucada no es pot recuperar ambdues.
-    Es tracta d\'una limitació tècnica que sorgeix perquè (entre altres raons) no hi ha una ordre global en les transaccions.
-    Per trobar transaccions per a un objecte específic (com una tasca particular), passa l\'objecte PHID o un identificador d\'objecte apropiat (com `T123) com un  an `objectIdentifier`.
-    Per trobar totes les transaccions d\'un tipus d\'objecte, passa la constant de tipus d\'objecte com a `objectType`. Per exemple, l\'identificador correcte per a les tasques és `TASK`. (Podeu trobar ràpidament una constant desconeguda mirant la PHID d\'un objecte d\'aquest tipus.)
-    Restriccions
-    ===========
-    Aquestes limitacions són compatibles:
-      - `phids` //Llista opcional<phid>.// Cerca transaccions específiques per PHID. Això és molt probable que sigui útil si responeu a una notificació de webhook i només voleu inspeccionar els esdeveniments relacionats.
-      - `authorPHIDs //Llista opcional<phid>.// Cerca transaccions amb autors particulars.
-    Format de transacció
-    ====================
-    Cada transacció té dades personalitzades que descriuen el que va fer l\'operació. El format varia d\'assentament a assentament. La forma més fàcil d\'esbrinar exactament com és una transacció en particular és fer el tipus d\'edició associat a un objecte de prova, després consultar aquest objecte.
-    No totes les transaccions tenen dades: per defecte, les transaccions tenen un `null` "type". i no hi ha dades addicionals. Aquesta API no exposa les dades de transacció crua perquè algunes d\'elles són internes, amb nom estrany, mal escrites, confuses, no útils, o poden crear problemes de seguretat o política per exposar directament.
-    Les noves transaccions estan exposades (amb tipus correctes, comprensibles i camps útils i raonables) ja que som conscients dels casos d\'ús per a elles.',
       '%s moved %s from %s to %s on the %s board.' => '%s ha mogut %s de %s a %s al tauler %s.',
       'EditEngine "%s" created or loaded an invalid object: object must actually be an object, but is of some other type ("%s").' => 'EditEngine \'%s\' ha creat o carregat un objecte no vàlid: l\'objecte ha de ser realment un objecte, però és d\'algun altre tipus (\'%s\').',
       '%s edited unsubscriber(s) for %s, added %s: %s; removed %s: %s.' => '%s ha modificat baixes per %s, afegit %s: %s; eliminat %s: %s.',

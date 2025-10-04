@@ -31,7 +31,6 @@ final class PhabricatorManiphestSv
       'Edit Task: %s' => 'Redigera uppgift: %s',
       'Priorities' => 'Prioriteter',
       'Type a task status name...' => 'Skriv ett statusnamn för uppgift...',
-      'Edit Task' => 'Redigera uppgift',
       'Change the priority of a task.' => 'Ändra prioriteten för en uppgift.',
       'A task\'s priority changes.' => 'Ändringar i prioriteten för en uppgift.',
       'Raised Priority' => 'Höjde prioriteten',

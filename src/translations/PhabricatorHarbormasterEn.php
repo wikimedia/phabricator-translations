@@ -50,6 +50,7 @@ final class PhabricatorHarbormasterEn
       'Not A Haiku' => 'Not A Haiku',
       '%s Broken Test(s)' => '%s Broken Test(s)',
       'Resuming' => 'Resuming',
+      'Insufficient Build Plan Permission' => 'Insufficient Build Plan Permission',
       'Publishing "%s"...' => 'Publishing "%s"...',
       'The name of the build target.' => 'The name of the build target.',
       'Edit Plan' => 'Edit Plan',
@@ -65,59 +66,6 @@ final class PhabricatorHarbormasterEn
       'or' => 'or',
       'Completed' => 'Completed',
       'Revisions are not sent for review until the build completes, but they will be sent for review even if it fails.' => 'Revisions are not sent for review until the build completes, but they will be sent for review even if it fails.',
-      'WARNING: This build step is new and experimental!
-    To build **revisions** with Buildkite, they must:
-      - belong to a tracked repository;
-      - the repository must have a Staging Area configured;
-      - you must configure a Buildkite pipeline for that Staging Area; and
-      - you must configure the webhook described below.
-    To build **commits** with Buildkite, they must:
-      - belong to a tracked repository;
-      - you must configure a Buildkite pipeline for that repository; and
-      - you must configure the webhook described below.
-    Webhook Configuration
-    =====================
-    In {nav Settings} for your Organization in Buildkite, under
-    {nav Notification Services}, add a new **Webook Notification**.
-    Use these settings:
-      - **Webhook URL**: %s
-      - **Token**: The "Webhook Token" field below and the "Token" field in
-        Buildkite should both be set to the same nonempty value (any random
-        secret). You can use copy/paste the value Buildkite generates into
-        this form.
-      - **Events**: Only **build.finish** needs to be active.
-    Environment
-    ===========
-    These variables will be available in the build environment:
-    | Variable | Description |
-    |----------|-------------|
-    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target.' => 'WARNING: This build step is new and experimental!
-    To build **revisions** with Buildkite, they must:
-      - belong to a tracked repository;
-      - the repository must have a Staging Area configured;
-      - you must configure a Buildkite pipeline for that Staging Area; and
-      - you must configure the webhook described below.
-    To build **commits** with Buildkite, they must:
-      - belong to a tracked repository;
-      - you must configure a Buildkite pipeline for that repository; and
-      - you must configure the webhook described below.
-    Webhook Configuration
-    =====================
-    In {nav Settings} for your Organization in Buildkite, under
-    {nav Notification Services}, add a new **Webook Notification**.
-    Use these settings:
-      - **Webhook URL**: %s
-      - **Token**: The "Webhook Token" field below and the "Token" field in
-        Buildkite should both be set to the same nonempty value (any random
-        secret). You can use copy/paste the value Buildkite generates into
-        this form.
-      - **Events**: Only **build.finish** needs to be active.
-    Environment
-    ===========
-    These variables will be available in the build environment:
-    | Variable | Description |
-    |----------|-------------|
-    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target.',
       'You can not resume this build because it is already restarting.' => 'You can not resume this build because it is already restarting.',
       'Output Artifacts' => 'Output Artifacts',
       'Manage Build Plans' => 'Manage Build Plans',
@@ -283,7 +231,6 @@ final class PhabricatorHarbormasterEn
       'Build plan "%s" does not exist.' => 'Build plan "%s" does not exist.',
       'You can not pause this build because it is already aborting.' => 'You can not pause this build because it is already aborting.',
       'Pause the build.' => 'Pause the build.',
-      'You can not abort this biuld because it is already complete.' => 'You can not abort this biuld because it is already complete.',
       'Really resume %s build(s)?' => 'Really resume %s build(s)?',
       'Uploaded File' => 'Uploaded File',
       'Force the buildable to update even if no build status changes occur during normal update.' => 'Force the buildable to update even if no build status changes occur during normal update.',
@@ -371,6 +318,7 @@ final class PhabricatorHarbormasterEn
       'PHID of the object that is built.' => 'PHID of the object that is built.',
       'Harbormaster Build Logs' => 'Harbormaster Build Logs',
       'QUEUED' => 'QUEUED',
+      'You can not abort this build because it is already complete.' => 'You can not abort this build because it is already complete.',
       'Retrieve information about Harbormaster build steps.' => 'Retrieve information about Harbormaster build steps.',
       'Edit Harbormaster Build Configurations' => 'Edit Harbormaster Build Configurations',
       'WARNING: This build step is new and experimental!
@@ -437,6 +385,91 @@ final class PhabricatorHarbormasterEn
       'Name one or more buildables to publish, like "B123".' => 'Name one or more buildables to publish, like "B123".',
       'Pausing' => 'Pausing',
       'Manual' => 'Manual',
+      'Harbormaster build objects work somewhat differently from objects in many other
+    applications. Most application objects can be edited directly using synchronous
+    APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
+    However, builds require long-running background processing and Habormaster
+    objects have a more complex lifecycle than most other application objects and
+    may spend significant periods of time locked by daemon processes during build
+    execution. A synchronous edit might need to wait an arbitrarily long amount of
+    time for this lock to become available so the edit could be applied.
+    Additionally, some edits may also require an arbitrarily long amount of time to
+    //complete//. For example, aborting a build may execute cleanup steps which
+    take minutes (or even hours) to complete.
+    Since a synchronous API could not guarantee it could return results to the
+    caller in a reasonable amount of time, the edit API for Harbormaster build
+    objects is asynchronous: to update a Harbormaster build or build target, use
+    this API (`harbormaster.sendmessage`) to send it a message describing an edit
+    you would like to effect or additional information you want to provide.
+    The message will be processed by the daemons once the build or target reaches
+    a suitable state to receive messages.
+    Select an object to send a message to using the `receiver` parameter. This
+    API method can send messages to multiple types of objects:
+    <table>
+      <tr>
+        <th>Object Type</th>
+        <th>PHID Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Harbormaster Buildable</td>
+        <td>`PHID-HMBB-...`</td>
+        <td>%s</td>
+      </tr>
+      <tr>
+        <td>Harbormaster Build</td>
+        <td>`PHID-HMBD-...`</td>
+        <td>%s</td>
+      </tr>
+      <tr>
+        <td>Harbormaster Build Target</td>
+        <td>`PHID-HMBT-...`</td>
+        <td>%s</td>
+      </tr>
+    </table>
+    See below for specifics on sending messages to different object types.' => 'Harbormaster build objects work somewhat differently from objects in many other
+    applications. Most application objects can be edited directly using synchronous
+    APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
+    However, builds require long-running background processing and Habormaster
+    objects have a more complex lifecycle than most other application objects and
+    may spend significant periods of time locked by daemon processes during build
+    execution. A synchronous edit might need to wait an arbitrarily long amount of
+    time for this lock to become available so the edit could be applied.
+    Additionally, some edits may also require an arbitrarily long amount of time to
+    //complete//. For example, aborting a build may execute cleanup steps which
+    take minutes (or even hours) to complete.
+    Since a synchronous API could not guarantee it could return results to the
+    caller in a reasonable amount of time, the edit API for Harbormaster build
+    objects is asynchronous: to update a Harbormaster build or build target, use
+    this API (`harbormaster.sendmessage`) to send it a message describing an edit
+    you would like to effect or additional information you want to provide.
+    The message will be processed by the daemons once the build or target reaches
+    a suitable state to receive messages.
+    Select an object to send a message to using the `receiver` parameter. This
+    API method can send messages to multiple types of objects:
+    <table>
+      <tr>
+        <th>Object Type</th>
+        <th>PHID Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Harbormaster Buildable</td>
+        <td>`PHID-HMBB-...`</td>
+        <td>%s</td>
+      </tr>
+      <tr>
+        <td>Harbormaster Build</td>
+        <td>`PHID-HMBD-...`</td>
+        <td>%s</td>
+      </tr>
+      <tr>
+        <td>Harbormaster Build Target</td>
+        <td>`PHID-HMBT-...`</td>
+        <td>%s</td>
+      </tr>
+    </table>
+    See below for specifics on sending messages to different object types.',
       'The name of the build step.' => 'The name of the build step.',
       'All Builds' => 'All Builds',
       'No such object "%s" exists.' => 'No such object "%s" exists.',
@@ -500,6 +533,59 @@ final class PhabricatorHarbormasterEn
       'All Plans' => 'All Plans',
       'You can not resume this build because it is already aborting.' => 'You can not resume this build because it is already aborting.',
       'Unable to Resume Build' => 'Unable to Resume Build',
+      'WARNING: This build step is new and experimental!
+    To build **revisions** with Buildkite, they must:
+      - belong to a tracked repository;
+      - the repository must have a Staging Area configured;
+      - you must configure a Buildkite pipeline for that Staging Area; and
+      - you must configure the webhook described below.
+    To build **commits** with Buildkite, they must:
+      - belong to a tracked repository;
+      - you must configure a Buildkite pipeline for that repository; and
+      - you must configure the webhook described below.
+    Webhook Configuration
+    =====================
+    In {nav Settings} for your Organization in Buildkite, under
+    {nav Notification Services}, add a new **Webhook Notification**.
+    Use these settings:
+      - **Webhook URL**: %s
+      - **Token**: The "Webhook Token" field below and the "Token" field in
+        Buildkite should both be set to the same nonempty value (any random
+        secret). You can use copy/paste the value Buildkite generates into
+        this form.
+      - **Events**: Only **build.finish** needs to be active.
+    Environment
+    ===========
+    These variables will be available in the build environment:
+    | Variable | Description |
+    |----------|-------------|
+    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target. |' => 'WARNING: This build step is new and experimental!
+    To build **revisions** with Buildkite, they must:
+      - belong to a tracked repository;
+      - the repository must have a Staging Area configured;
+      - you must configure a Buildkite pipeline for that Staging Area; and
+      - you must configure the webhook described below.
+    To build **commits** with Buildkite, they must:
+      - belong to a tracked repository;
+      - you must configure a Buildkite pipeline for that repository; and
+      - you must configure the webhook described below.
+    Webhook Configuration
+    =====================
+    In {nav Settings} for your Organization in Buildkite, under
+    {nav Notification Services}, add a new **Webhook Notification**.
+    Use these settings:
+      - **Webhook URL**: %s
+      - **Token**: The "Webhook Token" field below and the "Token" field in
+        Buildkite should both be set to the same nonempty value (any random
+        secret). You can use copy/paste the value Buildkite generates into
+        this form.
+      - **Events**: Only **build.finish** needs to be active.
+    Environment
+    ===========
+    These variables will be available in the build environment:
+    | Variable | Description |
+    |----------|-------------|
+    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target. |',
       'Runnable' => 'Runnable',
       'No active Herald rules trigger this build.' => 'No active Herald rules trigger this build.',
       'You can not specify both "--id" and "--all". Choose one or the other.' => 'You can not specify both "--id" and "--all". Choose one or the other.',
@@ -540,7 +626,6 @@ final class PhabricatorHarbormasterEn
       'Add Build Step' => 'Add Build Step',
       'No such build target "%s"!' => 'No such build target "%s"!',
       'My Builds' => 'My Builds',
-      'Insufficent Build Plan Permission' => 'Insufficent Build Plan Permission',
       'Write rate must be more than 0 bytes/sec.' => 'Write rate must be more than 0 bytes/sec.',
       'Required Input' => 'Required Input',
       'The current UNIX timestamp.' => 'The current UNIX timestamp.',
@@ -773,91 +858,6 @@ final class PhabricatorHarbormasterEn
       'Rename the plan.' => 'Rename the plan.',
       'Edit Harbormaster Build Step Configurations' => 'Edit Harbormaster Build Step Configurations',
       'Users must be able to see a build target to see its artifacts.' => 'Users must be able to see a build target to see its artifacts.',
-      'Harbormaster build objects work somewhat differently from objects in many other
-    applications. Most application objects can be edited directly using synchronous
-    APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
-    However, builds require long-running background processing and Habormaster
-    objects have a more complex lifecycle than most other application objects and
-    may spend significant periods of time locked by daemon processes during build
-    execition. A synchronous edit might need to wait an arbitrarily long amount of
-    time for this lock to become available so the edit could be applied.
-    Additionally, some edits may also require an arbitrarily long amount of time to
-    //complete//. For example, aborting a build may execute cleanup steps which
-    take minutes (or even hours) to complete.
-    Since a synchronous API could not guarantee it could return results to the
-    caller in a reasonable amount of time, the edit API for Harbormaster build
-    objects is asynchronous: to update a Harbormaster build or build target, use
-    this API (`harbormaster.sendmessage`) to send it a message describing an edit
-    you would like to effect or additional information you want to provide.
-    The message will be processed by the daemons once the build or target reaches
-    a suitable state to receive messages.
-    Select an object to send a message to using the `receiver` parameter. This
-    API method can send messages to multiple types of objects:
-    <table>
-      <tr>
-        <th>Object Type</th>
-        <th>PHID Example</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Harbormaster Buildable</td>
-        <td>`PHID-HMBB-...`</td>
-        <td>%s</td>
-      </tr>
-      <tr>
-        <td>Harbormaster Build</td>
-        <td>`PHID-HMBD-...`</td>
-        <td>%s</td>
-      </tr>
-      <tr>
-        <td>Harbormaster Build Target</td>
-        <td>`PHID-HMBT-...`</td>
-        <td>%s</td>
-      </tr>
-    </table>
-    See below for specifics on sending messages to different object types.' => 'Harbormaster build objects work somewhat differently from objects in many other
-    applications. Most application objects can be edited directly using synchronous
-    APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
-    However, builds require long-running background processing and Habormaster
-    objects have a more complex lifecycle than most other application objects and
-    may spend significant periods of time locked by daemon processes during build
-    execition. A synchronous edit might need to wait an arbitrarily long amount of
-    time for this lock to become available so the edit could be applied.
-    Additionally, some edits may also require an arbitrarily long amount of time to
-    //complete//. For example, aborting a build may execute cleanup steps which
-    take minutes (or even hours) to complete.
-    Since a synchronous API could not guarantee it could return results to the
-    caller in a reasonable amount of time, the edit API for Harbormaster build
-    objects is asynchronous: to update a Harbormaster build or build target, use
-    this API (`harbormaster.sendmessage`) to send it a message describing an edit
-    you would like to effect or additional information you want to provide.
-    The message will be processed by the daemons once the build or target reaches
-    a suitable state to receive messages.
-    Select an object to send a message to using the `receiver` parameter. This
-    API method can send messages to multiple types of objects:
-    <table>
-      <tr>
-        <th>Object Type</th>
-        <th>PHID Example</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Harbormaster Buildable</td>
-        <td>`PHID-HMBB-...`</td>
-        <td>%s</td>
-      </tr>
-      <tr>
-        <td>Harbormaster Build</td>
-        <td>`PHID-HMBD-...`</td>
-        <td>%s</td>
-      </tr>
-      <tr>
-        <td>Harbormaster Build Target</td>
-        <td>`PHID-HMBT-...`</td>
-        <td>%s</td>
-      </tr>
-    </table>
-    See below for specifics on sending messages to different object types.',
       'Build Failed' => 'Build Failed',
       'The buildable waits for the build, and fails if the build fails.' => 'The buildable waits for the build, and fails if the build fails.',
       'References a working copy lease from Drydock.' => 'References a working copy lease from Drydock.',

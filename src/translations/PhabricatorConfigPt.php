@@ -29,9 +29,25 @@ final class PhabricatorConfigPt
       'The best available MYSQL implementation is now selected automatically.' => '',
       'Alternative URIs that can access this service.' => '',
       'This server is not configured in cluster mode.' => '',
-      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    This software will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s' => '',
+      'When a user takes an action which generates an email notification (like
+    commenting on a Differential revision), the "From" address can either be set
+    to the user\'s email address (like "alincoln@logcabin.com") or the
+    "metamta.default-address" address.
+    The user experience is generally better if the user\'s real address is used as
+    the "From" header value, since the messages are easier to organize when they
+    appear in mail clients, but this will only work if the server is authorized to
+    send email on behalf of the "From" domain. Practically, this means:
+      - If you are doing an install for Example Corp and all the users will have
+        corporate @corp.example.com addresses and any hosts this software is running
+        on are authorized to send email from corp.example.com, you can enable this
+        to make the user experience a little better.
+      - If you are doing an install for an open source project and your users will
+        be registering via third-party services and/or using personal email
+        addresses, you probably should not enable this or all of your outgoing
+        email might vanish into SFP blackholes.
+      - If your install is anything else, you\'re safer leaving this off, at least
+        initially, since the risk in turning it on is that your outgoing mail will
+        never arrive.' => '',
       'The current configuration has these %d value(s):' => '',
       'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
     Without this mode enabled, MySQL will silently ignore some error conditions, including inserts which attempt to store more data in a column than actually fits. This behavior is usually undesirable and can lead to data corruption (by truncating multibyte characters in the middle), data loss (by discarding the data which does not fit into the column), or security concerns (for example, by truncating keys or credentials).
@@ -52,8 +68,6 @@ final class PhabricatorConfigPt
       'This option controls whether users can edit account email addresses and profile real names.
     If you set things up to automatically synchronize account information from some other authoritative system, you can prevent users from making these edits to ensure information remains consistent across both systems.' => '',
       'Use Pygments to highlight code?' => '',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => '',
       'The keyring stores master encryption keys. For help with configuring a keyring
     and encryption, see **[[ %s | Configuring Encryption ]]**.' => '',
       'When email is sent, what format should the software use for users\' email
@@ -64,10 +78,11 @@ final class PhabricatorConfigPt
     The default is `full`.' => '',
       'The minimum supported version of Mercurial is 2.4, which was released in 2012.' => 'A versão mínima suportada do Mercurial é 2.4, lançada em 2012.',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => '',
+      'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => '',
       'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. This software will not work properly until you do.' => '',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => '',
       'Stop this software from sending any email, etc.' => '',
       'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '',
+      'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Esses URIs alternativos poderão acessar páginas \'normais\' nesta instalação. Outros recursos como OAuth não funcionarão. O principal caso de uso para isso é mover instalações entre domínios.',
       'Define one or more mail transmission services. For help with configuring
     mailers, see **[[ %s | %s ]]** in the documentation.' => '',
       'Configure services to run on a cluster of hosts.' => '',
@@ -78,9 +93,6 @@ final class PhabricatorConfigPt
     threading on some clients. If you\'ve set \'%s\', users can override this setting
     in their preferences.' => '',
       'Either the schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.' => 'O esquema do Elasticsearch foi alterado ou o Elasticsearch criou o índice automaticamente. Use o seguinte comando para reconstruir o índice.',
-      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
-    This software will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s' => '',
       'Configure the UI, including colors.' => 'Configure a interface, incluindo cores.',
       'The \'%s\' extension has support for only some image types. This server will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => '',
       'Control how user names are rendered in mail.' => '',
@@ -155,6 +167,7 @@ final class PhabricatorConfigPt
       'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
     If not set, no log will be written.' => 'Para ativar o log de erros SSH, especifique um caminho. Erros que ocorrem em contextos onde este software está atendendo solicitações SSH serão gravados neste log.
     Se não for definido, nenhum log será gravado.',
+      'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'A extensão \' %s \' não está instalada. Sem suporte \' %s \', este servidor não será capaz de processar ou redimensionar imagens (por exemplo, para gerar miniaturas). Instale ou ative \' %s \'.',
       'When you upload a file via drag-and-drop or the API, chunks must be buffered into memory before being written to permanent storage. This server needs memory available to store these chunks while they are uploaded, but PHP is currently configured to severely limit the available memory.
     PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
     (Note that the application itself must also fit in available memory, so not all of the memory under the memory limit is available for running workloads.)
@@ -182,7 +195,6 @@ final class PhabricatorConfigPt
       'This software sent itself a test request with an "Authorization" HTTP header, and expected those credentials to be transmitted. However, they were absent or incorrect when received. This software sent username "%s" with password "%s"; received username "%s" and password "%s".
     Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.' => '',
       'Controls whether email is sent "From" users.' => 'Controla se o email é enviado "De" usuários.',
-      'PHP 7 Compatibility Information' => 'Informações de compatibilidade do PHP 7',
       'The configured PATH includes a component which is not usable. This server will be unable to find or execute binaries located here:
     %s
     The user that the webserver runs as must be able to read all the directories in PATH in order to make use of them.' => '',
@@ -202,27 +214,12 @@ final class PhabricatorConfigPt
     For most installs, the default value (1 sample per 1000 pages) should collect enough data to be useful without requiring much storage or meaningfully impacting performance. If you\'re investigating performance issues, you can adjust the rate in order to collect more data.' => 'O aplicativo Multímetro coleta amostras de desempenho. Você pode usar esses dados para ajudá-lo a entender o que o software está gastando tempo e recursos e para identificar padrões de acesso problemáticos.
     Esta opção controla a frequência com que a amostragem é ativada. Defina-o como algum número inteiro positivo N para amostrar a cada 1/N páginas.
     Para a maioria das instalações, o valor padrão (1 amostra por 1.000 páginas) deve coletar dados suficientes para serem úteis sem exigir muito armazenamento ou impactar significativamente o desempenho . Se estiver investigando problemas de desempenho, você poderá ajustar a taxa para coletar mais dados.',
-      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
-    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
-    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
-    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => '',
       'The "InnoDB" engine is not available in MySQL (on host "%s"). Enable InnoDB in your MySQL configuration.
     (If you already created tables, MySQL incorrectly used some other engine to create them. You need to convert them or drop and reinitialize them.)' => 'O mecanismo "InnoDB" não está disponível no MySQL (no host " %s "). Habilite o InnoDB em sua configuração do MySQL.
     (Se você já criou tabelas, o MySQL usou incorretamente algum outro mecanismo para criá-las. Você precisa convertê-las ou descartá-las e reinicializá-las.)',
       'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
     Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Este software está atualmente configurado para servir uploads de usuários diretamente do mesmo domínio que outros conteúdos. Este é um risco de segurança.
     Configure um CDN (ou domínio de arquivo alternativo) para eliminar esse risco. Usar um CDN também melhorará o desempenho. Consulte o guia abaixo para obter instruções.',
-      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'O realce de sintaxe é compatível com alguns idiomas por padrão, mas você pode instalar o Pygments (uma ferramenta de realce de sintaxe de terceiros) para fornecer suporte para muitos outros idiomas.
-    Para instalar o Pygments, visite [[ http:// pigmentos.org | pygments.org ]] e siga as instruções de download e instalação.
-    Depois que o Pygments estiver instalado, ative esta opção (`pygments.enabled`) para usar o Pygments ao destacar o código-fonte.
-     Depois de instalar e ativar o Pygments, o código-fonte recém-criado (como diffs e pastes) deve ser destacado corretamente. Pode ser necessário limpar os caches para destacar o código-fonte existente anteriormente. Para obter instruções sobre como gerenciar caches, consulte [[ %s | Gerenciando Caches ]].',
       'The namespace that databases should use.' => 'O espaço de nomes que as bases de dados devem usar.',
       'Constant' => 'Constante',
       'This software sent itself a test request that was compressed with "Content-Encoding: gzip", but received different bytes than it sent.' => 'Este software enviou para si mesmo uma solicitação de teste que foi compactada com "Content-Encoding: gzip", mas recebeu bytes diferentes dos enviados.',
@@ -249,6 +246,12 @@ final class PhabricatorConfigPt
       'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Este servidor tem %s disponível em %s , mas o binário saiu com um código de erro quando executado como %s . Verifique se ele está instalado corretamente.',
       'Transaction mail is now always sent with "Precedence: bulk" to improve deliverability.' => 'O correio de transação agora é sempre enviado com "Precedência: em massa" para melhorar a capacidade de entrega.',
       'Without \'%s\', this software can not test for the availability of other binaries.' => 'Sem \' %s \', este software não pode testar a disponibilidade de outros binários.',
+      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
+    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
+    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
+    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)' => '',
       'Do not install this software on an instance class with burstable CPU.' => 'Não instale este software em uma classe de instância com CPU expansível.',
       'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
     Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
@@ -300,7 +303,6 @@ final class PhabricatorConfigPt
     Os administradores podem consultar uma lista de usuários que não possuem MFA configurado no
     {nav People}:
       - **[[ %s | %s]]**',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'A extensão \' %s \' não está instalada. Sem suporte \' %s \', este servidor não será capaz de processar ou redimensionar imagens (por exemplo, para gerar miniaturas). Instale ou ative \' %s \'.',
       'Reply hints are no longer shown in mail.' => 'As indicações de resposta já não são apresentadas por correio.',
       'If you want to use a single mailbox for reply mail, you can use this
     and set a common prefix for generated reply addresses. It will
@@ -344,30 +346,9 @@ final class PhabricatorConfigPt
     NOTE: You must install XHProf for profiling to work.' => 'Normalmente, as páginas são perfiladas apenas quando explicitamente solicitadas através do DarkConsole. No entanto, pode ser útil fazer um perfil de algumas páginas automaticamente. O que é? Esta opção é definida como um número inteiro positivo N para perfil de 1 / N páginas automaticamente. Por exemplo, a configuração de 1 irá fazer a cada página um perfil, enquanto a configuração para 1000 irá fazer a 1 página por 1000 solicitações (ou seja, 0,1%% das solicitações). O que é? Como a elaboração de perfis é lenta e gera muitos dados, você deve definir isso em 0 na produção (para desativar) ou em um grande número (para coletar algumas amostras, se você estiver interessado em ter alguns dados para olhar eventualmente). No desenvolvimento, pode ser útil definir-o em 1 para depurar problemas de desempenho. O que é? NOTA: Deve instalar XHProf para que o perfil funcione.',
       'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'Nenhum REMOTE_ADDR está disponível, portanto este servidor não pode determinar o endereço de origem das solicitações. Isso impedirá que o software execute verificações de segurança importantes. Na maioria das vezes, isso significa que você cometeu um erro no script do preâmbulo. Consulte a documentação ( %s ) e verifique se o script está escrito corretamente.',
       'Available search engines are now automatically discovered at runtime.' => 'Os mecanismos de pesquisa disponíveis agora são descobertos automaticamente em tempo de execução.',
-      'When a user takes an action which generates an email notification (like
-    commenting on a Differential revision), the "From" address can either be set
-    to the user\'s email address (like "alincoln@logcabin.com") or the
-    "metamta.defualt-address" address.
-    The user experience is generally better if the user\'s real address is used as
-    the "From" header value, since the messages are easier to organize when they
-    appear in mail clients, but this will only work if the server is authorized to
-    send email on behalf of the "From" domain. Practically, this means:
-      - If you are doing an install for Example Corp and all the users will have
-        corporate @corp.example.com addresses and any hosts this software is running
-        on are authorized to send email from corp.example.com, you can enable this
-        to make the user experience a little better.
-      - If you are doing an install for an open source project and your users will
-        be registering via third-party services and/or using personal email
-        addresses, you probably should not enable this or all of your outgoing
-        email might vanish into SFP blackholes.
-      - If your install is anything else, you\'re safer leaving this off, at least
-        initially, since the risk in turning it on is that your outgoing mail will
-        never arrive.' => '',
       'The environmental variable %s is empty. This server will not be able to execute some commands.' => 'A variável ambiental %s está vazia. Este servidor não será capaz de executar alguns comandos.',
       'There is a new indirection layer between the strings that appear as VCS authors and committers (such as "John Developer <johnd@bigcorp.com>") and the user account that gets associated with VCS commits.' => '',
       'Partitioning and replication are now managed in primary configuration.' => 'O particionamento e a replicação agora são gerenciados na configuração primária.',
-      'You have \'%s\' enabled in your PHP configuration, but this software will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
-    Disable safe mode to continue.' => 'Você tem \'%s\' habilitado na configuração do PHP, mas este software não será executado no modo seguro. O modo seguro foi deprecado no PHP 5.3 e removido no PHP 5.4. O que é? Desativar o modo seguro para continuar.',
       'After installing new PHP extensions, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'Após instalar novas extensões PHP, <strong>reinicie tudo para que as alterações tenham efeito</strong> . Para obter ajuda para reiniciar tudo, consulte %s na documentação.',
       'By default, this software serves files from the same domain the application is served from. This is convenient, but presents a security risk.
     You should configure a CDN or alternate file domain to mitigate this risk. Configuring a CDN will also improve performance. See [[ %s | %s ]] for instructions.' => 'Por padrão, este software serve arquivos do mesmo domínio a partir do qual o aplicativo é servido. Isso é conveniente, mas apresenta um risco de segurança.
@@ -458,6 +439,13 @@ final class PhabricatorConfigPt
     Para desabilitar esta opção, defina: %s',
       'WARNING: This is a prototype option and the description below is currently pure fantasy.
     Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => '',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'O realce de sintaxe é compatível com alguns idiomas por padrão, mas você pode instalar o Pygments (uma ferramenta de realce de sintaxe de terceiros) para fornecer suporte para muitos outros idiomas.
+    Para instalar o Pygments, visite [[ http:// pigmentos.org | pygments.org ]] e siga as instruções de download e instalação.
+    Depois que o Pygments estiver instalado, ative esta opção (`pygments.enabled`) para usar o Pygments ao destacar o código-fonte.
+     Depois de instalar e ativar o Pygments, o código-fonte recém-criado (como diffs e pastes) deve ser destacado corretamente. Pode ser necessário limpar os caches para destacar o código-fonte existente anteriormente. Para obter instruções sobre como gerenciar caches, consulte [[ %s | Gerenciando Caches ]].',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
     Disable this setting to continue.' => 'Seu servidor está configurado com \' %s \', o que impede que este software abra arquivos aos quais requer acesso.
     Desative esta configuração para continuar.',
@@ -485,7 +473,6 @@ final class PhabricatorConfigPt
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'O diretório para repositórios locais ( %s ) não existe ou não pode ser lido pelo servidor web. Este software usa este diretório para armazenar informações sobre repositórios. Se este diretório não existir, crie-o:
      %s 
     Se este diretório existir, torne-o legível para o servidor web. Você também pode editar a configuração abaixo para usar outro diretório.',
-      'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Esses URIs alternativos poderão acessar páginas \'normais\' nesta instalação. Outros recursos como OAuth não funcionarão. O principal caso de uso para isso é mover instalações entre domínios.',
       'This change supports situations where users are incorrectly associated with commits because the software makes a bad guess about how the VCS string maps to a user account. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with features which rely on the existence of these identities.' => '',
     );
   }

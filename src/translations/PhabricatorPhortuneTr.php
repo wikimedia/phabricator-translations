@@ -166,6 +166,17 @@ final class PhabricatorPhortuneTr
       'Cart has wrong status ("%s") to call %s!' => 'Alışveriş sepetinde %2$s olması yanlış ("%1$s") durumda!',
       '%s changed the billing name for this account from %s to %s.' => '%s, bu hesabın fatura adını %s\'den %s\'e değiştirdi.',
       'Unable to load provider for charge!' => 'Ücretli sağlayıcı yüklenemiyor!',
+      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
+      - Navigate to {nav Tools > API Access}.
+      - Choose **View API Signature**.
+      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
+    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
+    You can either use `sandbox.paypal.com` to retrieve test credentials, or `paypal.com` to retrieve live credentials.' => 'PayPal\'ı yapılandırmak için, [[https://paypal.com | paypal.com]] (canlı ödemeler için) veya [[https://sandbox.paypal.com | sandbox.paypal.com]] (test ödemeleri için). Giriş yaptıktan sonra:
+    - {nav Tools > API Access} adresine gidin.
+       - **API İmzasını Görüntüle** seçeneğini seçin.
+       - **API Kullanıcı Adı**, **API Şifre** ve **İmza**\'yı yukarıdaki alanlara kopyalayın.
+    Sağlayıcının test modunda çalışıp çalışmayacağını veya yukarıdaki **Mod** açılır menüsünü kullanarak canlı ödemeleri kabul edip etmeyeceğinizi seçebilirsiniz.
+    Canlı kimlik bilgilerini almak için `sandbox.paypal.com`\'u veya canlı kimlik bilgilerini almak için `paypal.com`\'u kullanabilirsiniz.',
       'Order %d: %s' => 'Sipariş %s: %s',
       'Stripe' => 'Stripe',
       'Error Adding Payment Method' => 'Ödeme Yöntemi Ekleme Hatası',
@@ -447,17 +458,6 @@ final class PhabricatorPhortuneTr
       'Choose a Payment Method' => 'Ödeme Yöntemi Seçin',
       'Return to Subscription' => 'Aboneliğe Dön',
       'Contact Info' => 'İletişim Bilgisi',
-      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
-      - Navigate to {nav Tools > API Access}.
-      - Choose **View API Signature**.
-      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
-    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
-    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.' => 'PayPal\'ı yapılandırmak için, [[https://paypal.com | paypal.com]] (canlı ödemeler için) veya [[https://sandbox.paypal.com | sandbox.paypal.com]] (test ödemeleri için). Giriş yaptıktan sonra:
-    - {nav Tools > API Access} adresine gidin.
-       - **API İmzasını Görüntüle** seçeneğini seçin.
-       - **API Kullanıcı Adı**, **API Şifre** ve **İmza**\'yı yukarıdaki alanlara kopyalayın.
-    Sağlayıcının test modunda çalışıp çalışmayacağını veya yukarıdaki **Mod** açılır menüsünü kullanarak canlı ödemeleri kabul edip etmeyeceğinizi seçebilirsiniz.
-    Canlı kimlik bilgilerini almak için `sandbox.paypal.com`\'u veya canlı kimlik bilgilerini almak için `paypal.com`\'u kullanabilirsiniz.',
       'Set the start of the billing period.' => 'Fatura döneminin başlangıcını ayarlayın.',
       'Test Mode' => 'Test Modu',
       'No Enabled Providers' => 'Etkin Sağlayıcı Yok',

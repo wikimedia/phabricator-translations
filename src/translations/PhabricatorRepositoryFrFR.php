@@ -53,6 +53,9 @@ final class PhabricatorRepositoryFrFR
       'Unexpected hint format at index "%s": %s' => 'Format de suggestion inattendu à l’index « %s » : %s',
       '(Dry Run) Would update assigned user from "%s" to "%s".' => '(Exécution à blanc) Cela mettrait à jour l’utilisateur affecté de « %s » en « %s ».',
       'This ref is not configured as a permanent ref.' => 'Cette référence n’est pas configurée en tant que référence permanente.',
+      'To add custom hook scripts to this repository, add them to this directory.
+    %s will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'Pour ajouter des scripts de crochets personnalisés à ce dépôt, ajoutez-les à ce répertoire.
+    Phabricator exécutera tous les exécutables de ce répertoire après avoir exécuté ses propres vérifications, comme s’il s’agissait de scripts de crochets normaux.',
       'Something is wrong; source of a copy must exist.' => 'Quelque chose ne va pas ; la source d’une copie doit exister.',
       'These repositories will be thawed:' => 'Ces dépôts seront dégelés :',
       'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".' => 'Les enregistrements de la base de données du référentiel « %s » ont été détruits, mais ce script ne supprime pas les copies de travail sur le disque. Si vous souhaitez également détruire la copie de travail du référentiel, supprimez manuellement « %s ».',
@@ -478,9 +481,6 @@ final class PhabricatorRepositoryFrFR
       'Unpublishing commit "%s".' => 'Annuler la publication de la validation « %s ».',
       'Unpublish all feed stories and notifications that a repository has generated. Keep expectations low; can not rewind time.' => 'Annuler la publication de tous les historiques de flux et notifications qu’un dépôt a générés. Modérez vos attentes, vous ne pouvez pas remonter le temps.',
       'Apply the promotion or demotion to all repositories hosted on the device.' => 'Appliquer la promotion ou la dégradation de tous les dépôts hébergés sur l’appareil.',
-      'To add custom hook scripts to this repository, add them to this directory.
-    Phabricator will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'Pour ajouter des scripts de crochets personnalisés à ce dépôt, ajoutez-les à ce répertoire.
-    Phabricator exécutera tous les exécutables de ce répertoire après avoir exécuté ses propres vérifications, comme s’il s’agissait de scripts de crochets normaux.',
       'Updating refs in "%s"...' => 'Mise à jour des références dans « %s »...',
       'Repository "%s" is already queued.' => 'Le dépôt « %s » est déjà en file d’attente.',
       'Create Git Repository' => 'Créer un dépôt Git',

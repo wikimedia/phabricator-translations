@@ -25,7 +25,6 @@ final class PhabricatorCoreIt
       'Meme' => 'Meme',
       '(%s -> %s @ %s) %s' => '(%s -> %s @ %s) %s',
       'Comment' => 'Commento',
-      'Period' => 'Periodo',
       'Group' => 'Gruppo',
       'Tomorrow' => 'Domani',
       'Variable' => 'Variabile',

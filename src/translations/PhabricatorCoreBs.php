@@ -30,7 +30,6 @@ final class PhabricatorCoreBs
       'Mon' => 'Pon',
       'Badges' => 'Značke',
       'Checkered' => 'Kockasta',
-      'All Documents' => 'Svi dokumenti',
       'Quote' => 'Citat',
       'Yellow' => 'Žuta',
       'Thu' => 'Čet',
@@ -72,7 +71,6 @@ final class PhabricatorCoreBs
       'Current Picture' => 'Trenutna slika',
       'Upload File' => 'Postavi datoteku',
       'Numbered List' => 'Spisak s rednim brojevima',
-      'More Options' => 'Više mogućnosti',
       'Award Badge' => 'Dodijeli značku',
       'Code Block' => 'Blok koda',
       'Clear sailing ahead.' => 'Mirno more.',
@@ -80,7 +78,6 @@ final class PhabricatorCoreBs
       'View All' => 'Prikaži sve',
       'bold text' => 'podebljani tekst',
       'Security' => 'Sigurnost',
-      'Advanced Search' => 'Napredna pretraga',
     );
   }
 

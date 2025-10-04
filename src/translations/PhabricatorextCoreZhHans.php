@@ -9,7 +9,10 @@ final class PhabricatorextCoreZhHans
 
   protected function getTranslations() {
     return array(
+      'Merged' => '已合并',
       'Skip OFFSET rows before processing the remaining transactions.' => '在处理完其他事务之前跳过OFFSET行。',
+      'MediaWiki User' => 'MediaWiki用户',
+      'Reset security settings' => '重置安全设置',
       '**MediaWiki Instance Name**
     Choose a permanent name for this instance of MediaWiki. Phabricator uses this name internally to keep track of this instance of MediaWiki, in case the URL changes later.
     Use lowercase letters, digits, and period. For example: 

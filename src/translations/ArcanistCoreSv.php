@@ -38,7 +38,6 @@ final class ArcanistCoreSv
       'Pick' => 'Välj',
       'Browse URI "%s"' => 'Sök igenom URL "%s"',
       'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => 'Arbetskopian inkluderar ändringar till \'%s\'-sökvägar. Dessa ändringar kommer inte att ingå i skillnaden ("diffen") eftersom SVN inte kan utföra \'svn:externals\'-ändringar parallellt med normala ändringar.',
-      '%s is not compatible with your version of PHP (%s). This function is only supported on PHP versions newer than 5.3.0.' => '%s är inte kompatibelt med din version av PHP (%s). Denna funktion stöds endast på PHP-versioner nyare än 5.3.0.',
       '**bookmarks**' => '**bokmärken**',
       'Runtime Error' => 'Exekveringsfel',
       'Output upload information in JSON format.' => 'Mata ut uppladdningsinformation i JSON-format.',
@@ -47,7 +46,6 @@ final class ArcanistCoreSv
       'No tests to run.' => 'Det finns inga tester att köra.',
       'There was an error verifying the SSL connection. This usually indicates that the remote host has an SSL certificate for a different domain name than you are connecting with. Make sure the certificate you have installed is signed for the correct domain.' => 'Det uppstod ett fel vid verifiering av SSL-anslutningen. Detta indikerar vanligtvis att fjärrvärden har ett SSL-certifikat för ett annat domännamn än det du ansluter med. Se till att det certifikat du har installerat är signerat för rätt domän.',
       'Unknown Symbol' => 'Okänd symbol',
-      'Attempting to make an HTTP request, but query string data begins with "%s". Prior to PHP 5.2.0 this reads files off disk, which creates a wide attack window for security vulnerabilities. Upgrade PHP or avoid making cURL requests which begin with "%s".' => 'Försöker göra en HTTP-begäran, men frågesträngsdata börjar med "%s". I versioner av PHP som är äldre än 5.2.0 läser detta filer från disken, vilket skapar ett brett attackfönster för säkerhetsbrister. Uppgradera PHP eller undvik att göra cURL-förfrågningar som börjar med "%s".',
       'Continue without loading library?' => 'Vill du fortsätta utan att ladda biblioteket?',
       'Throwing Exception in `%s` Method' => 'Kastar undantaget i metoden `%s`',
       'More than one revision exists in the working copy:

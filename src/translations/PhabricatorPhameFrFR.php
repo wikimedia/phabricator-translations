@@ -85,7 +85,7 @@ final class PhabricatorPhameFrFR
       'Change the blog subtitle.' => 'Changer le sous-titre du blogue.',
       'This is a draft, and is only visible to you and other users who can edit %s. Use "Publish" to publish this post.' => 'Ceci est une ébauche et n’est visible que par vous et les autres utilisateurs qui peuvent modifier %s. Utilisez « Publier » pour publier ce billet.',
       '%s renamed %s blog post from %s to %s.' => '%s a renommé le billet du blogue %s de %s en %s.',
-      'The custom domain should contain at least one dot (.) because some browsers fail to set cookies on domains without a dot. Instead, use a normal looking domain name like "%s".' => 'Le nom de domaine personnalisé devrait contenir au moins un point (.) car certains navigateurs échouent à positionner des cookies sur des noms de domaine sans point. À la place, utilisez un nom de domaine d’apparence normale tel que « %s ».',
+      'The custom domain should contain at least one dot (.) because some browsers fail to set cookies on domains without a dot. Instead, use a normal looking domain name like "%s".' => 'Le nom de domaine personnalisé devrait contenir au moins un point (.) car certains navigateurs échouent à positionner des témoins (\'\'cookies\'\') pour des noms de domaine sans point. À la place, utilisez un nom de domaine d’apparence normale tel que « %s ».',
       'Slug for the post.' => 'Limace pour le billet.',
       'The subtitle can be no longer than %s characters.' => array(
         'Le sous-titre ne peut pas dépasser %s caractère.',

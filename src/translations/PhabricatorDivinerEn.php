@@ -34,6 +34,7 @@ final class PhabricatorDivinerEn
     ',
       'Return' => 'Return',
       'Found %s file(s) in project.' => 'Found %s file(s) in project.',
+      'Diviner Search' => 'Diviner Search',
       'PUBLISHING DOCUMENTATION' => 'PUBLISHING DOCUMENTATION',
       'All Atoms' => 'All Atoms',
       'Book configuration \'%s\' has name \'%s\', but book names must include only lowercase letters and hyphens.' => 'Book configuration \'%s\' has name \'%s\', but book names must include only lowercase letters and hyphens.',

@@ -36,6 +36,7 @@ final class PhabricatorFilesSl
       'OVERWRITE' => 'PREPIŠI',
       'Unable to determine image dimensions with imagesx()/imagesy(): %s' => 'Ni mogoče določiti mer slike z imagesx()/imagesy(): %s',
       'Compose Image' => 'Sestavi sliko',
+      'Print the contents of a file.' => 'Natisni vsebino datoteke.',
       'Storage Format' => 'Format shranjevanja',
       '%s: Image dimensions already exist.' => '%s: mere slike že obstajajo.',
       'Wide Open Sky' => 'Široko odprto nebo',

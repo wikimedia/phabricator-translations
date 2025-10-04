@@ -17,6 +17,7 @@ final class PhabricatorPhortuneLb
       'Contact Information' => 'Kontaktinformatioun',
       'New Managers' => 'Nei Manager',
       'Already Disabled' => 'Schonn Desaktivéiert',
+      'Create Account' => 'Kont uleeën',
       'Error Code' => 'Feeler-Code',
       'The address can be no longer than %s characters.' => 'D\'Adress däerf net méi laang wéi %s Zeeche sinn.',
     );

@@ -51,7 +51,6 @@ final class PhabricatorManiphestZhHant
       'Close As Duplicate' => '作為重複項關閉',
       'Block' => '封鎖',
       'Claimed' => '已認領',
-      'Mentions' => '提及',
       'Select All' => '全選',
       'Duplicates' => '重複項',
       'No tasks.' => '沒有工單。',

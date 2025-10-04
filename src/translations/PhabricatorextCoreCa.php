@@ -14,8 +14,6 @@ final class PhabricatorextCoreCa
       'Standard Phabricator.' => 'Phabricator estàndard.',
       'Auto-generated release schedule details.' => 'Detalls de la planificació d\'alliberament generats automàticament.',
       'Consumer Token' => 'Clau del consumidor',
-      'This adds a link to search Maniphest for open tasks which are tagged with this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Això afegeix un enllaç a maniphest de cerca de tasques obertes etiquetades amb aquest projecte.
-    NOTA: Aquesta funcionalitat la proporciona una extensió mantinguda per Wikimedia, ProjectOpenTasksProfileMenuItemextension. Consulteu la font {rPHEX}.',
       'Merged' => 'Fusionat',
       'Unresolved code review comments: %d' => 'Comentaris de resolució de codi sense resoldre: %s',
       'Customize query in gerrit' => 'Personalitzeu la consulta a gerrit',
@@ -132,6 +130,8 @@ final class PhabricatorextCoreCa
       'Expand Instructions' => 'Expandir les instruccions',
       'You cannot roll back the activity of a privileged user.' => 'No podeu desfer l\'activitat d\'un usuari privilegiat.',
       'Any open subtask(s) block the train from moving forward. This means no further deployments until the blockers are resolved.' => 'Alguna subtasca oberta bloqueja el tren per avançar. Això significa que no hi haurà més desplegaments fins que es resolguin els bloquejadors.',
+      'This adds a link to search Maniphest for open tasks which are tagged with this project. NOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Això afegeix un enllaç a maniphest de cerca de tasques obertes etiquetades amb aquest projecte.
+    NOTA: Aquesta funcionalitat la proporciona una extensió mantinguda per Wikimedia, ProjectOpenTasksProfileMenuItemextension. Consulteu la font {rPHEX}.',
       'The full URL to your MediaWiki install, up to but not including "index.php"' => 'L\'URL complet de la vostra instal·lació de MediaWiki, fins a \'index.php\', però no inclòs',
       'This panel shows navigation links to other milestones in the same series.' => 'Aquest panell mostra enllaços de navegació a altres fites de la mateixa sèrie.',
       'Expert Mode' => 'Mode expert',

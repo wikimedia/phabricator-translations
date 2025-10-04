@@ -40,7 +40,6 @@ final class PhabricatorConpherenceDiq
       '[Conpherence]' => '[Conpherence]',
       'Room' => 'Bane',
       'Peach' => 'Ğoğ',
-      'No Rooms' => 'Ban Çıniyo',
       'Private Room' => 'Bano xısusi',
       'Light' => 'Akerde',
       'Theme' => 'Thema',

@@ -29,6 +29,7 @@ final class PhabricatorSettingsIt
       'External Accounts' => 'Account esterni',
       'Verification Email Sent' => 'Email di verifica inviata',
       'Add External Account' => 'Aggiungi account esterno',
+      'Refresh' => 'Aggiorna',
       'Old Password' => 'Vecchia password',
       'Changes saved.' => 'Modifiche salvate.',
       'Another user already has this email.' => 'Un altro utente utilizza questa email.',

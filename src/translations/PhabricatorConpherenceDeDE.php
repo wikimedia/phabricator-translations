@@ -85,7 +85,6 @@ final class PhabricatorConpherenceDeDE
       'Create a new conpherence thread.' => 'Erstellen Sie einen neuen Conpherenz-Thread.',
       'Search by room titles.' => 'Suche nach Raumtiteln.',
       'Peach' => 'Peach',
-      'No Rooms' => 'Keine Räume.',
       'Private Room' => 'Privater Raum',
       'Light' => 'Light',
       'Theme' => 'Design',

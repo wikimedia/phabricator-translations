@@ -145,6 +145,17 @@ final class PhabricatorPhortuneCa
       'This order was put on hold until payment clears.' => 'Aquesta comanda s\'ha retingut fins que s\'esborrés el pagament.',
       'This order has been flagged for manual review. Review the order and choose %s to accept it or %s to reject it.' => 'Aquesta comanda s\'ha marcat per a la revisió manual. Revisa la comanda i selecciona %s per acceptar-la o %s per rebutjar-la.',
       '%s changed the billing name for this account from %s to %s.' => '%s ha canviat el nom de facturació d\'aquest compte de %s a %s.',
+      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
+      - Navigate to {nav Tools > API Access}.
+      - Choose **View API Signature**.
+      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
+    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
+    You can either use `sandbox.paypal.com` to retrieve test credentials, or `paypal.com` to retrieve live credentials.' => 'Per a configurar PayPal, registrar o registrar-se en un compte existent a [[https://paypal.com | paypal.com]] (per a pagaments en directe) o [[https://sandbox.paypal.com | sandbox.paypal.com]] (per a proves de pagaments). Un cop iniciat la sessió: 
+      - Navegueu a {nav Tools > API Access}. 
+      - Trieu **Visualitza la signatura de l\'API**. 
+      - Copia el **nom d\'usuari de l\'API**, **contrasenya de l\'API** i **Signatura** als camps anteriors. 
+    Podeu seleccionar si el proveïdor funciona en mode de prova o accepta pagaments en directe utilitzant el desplegable **Mode** de dalt. 
+    Podeu utilitzar \'sandbox.paypal.com\' per obtenir les credencials en directe, o \'paypaypal.com\' per obtenir les credencials en directe.',
       'Stripe' => 'Stripe',
       'This order was refunded.' => 'Aquesta comanda s\'ha reembossat.',
       'Edit Merchant: %s' => 'Edita el venedor: %s',
@@ -271,17 +282,6 @@ final class PhabricatorPhortuneCa
       '%s removed the invoice email.' => '%s ha eliminat el correu electrònic de la factura.',
       'Your charge is on hold, for reasons?' => 'El vostre càrrec està en espera, per quins motius?',
       'This merchant accepts test payments.' => 'Aquest venedor accepta pagaments de prova.',
-      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
-      - Navigate to {nav Tools > API Access}.
-      - Choose **View API Signature**.
-      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
-    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
-    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.' => 'Per a configurar PayPal, registrar o registrar-se en un compte existent a [[https://paypal.com | paypal.com]] (per a pagaments en directe) o [[https://sandbox.paypal.com | sandbox.paypal.com]] (per a proves de pagaments). Un cop iniciat la sessió: 
-      - Navegueu a {nav Tools > API Access}. 
-      - Trieu **Visualitza la signatura de l\'API**. 
-      - Copia el **nom d\'usuari de l\'API**, **contrasenya de l\'API** i **Signatura** als camps anteriors. 
-    Podeu seleccionar si el proveïdor funciona en mode de prova o accepta pagaments en directe utilitzant el desplegable **Mode** de dalt. 
-    Podeu utilitzar \'sandbox.paypal.com\' per obtenir les credencials en directe, o \'paypaypal.com\' per obtenir les credencials en directe.',
       'Card CVC is invalid or incorrect.' => 'La targeta CVC no és vàlida o és incorrecta.',
       'Controller ("%s") extends controller "%s", but is reachable with no "merchantID" in URI.' => 'El controlador ("%s") amplia el controlador "%s", però es pot accedir sense cap "identificador de venedor" a l\'URI.',
       '%s edited %s merchant manager(s) for %s, added %s: %s; removed %s: %s.' => '%s ha modificat %s gestors mercantils per %s, afegit %s: %s; eliminat %s: %s.',

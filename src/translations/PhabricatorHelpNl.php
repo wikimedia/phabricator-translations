@@ -9,14 +9,14 @@ final class PhabricatorHelpNl
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Sluit alle dialoogvensters, inclusief dit.',
+      'Close any dialog, including this one.' => 'Sluit ieder dialoogvenster, ook dit.',
       'Page Shortcuts' => 'Paginasnelkoppelingen',
       '%s Help' => 'Hulp voor %s',
       'Hiding Content' => 'Inhoud verbergen',
       'Editing Inline Comments' => 'Ingevoegde opmerkingen bewerken',
       'Global Shortcuts' => 'Globale snelkoppelingen',
       'Keyboard Shortcuts' => 'Sneltoetsen',
-      'Diff Navigation' => 'Diff-navigatie',
+      'Diff Navigation' => 'Verschillen verkennen',
     );
   }
 

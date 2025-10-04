@@ -33,7 +33,6 @@ final class PhabricatorNuanceFrFR
       'This key has %s remaining API request(s), limit resets in %s second(s).' => 'Cette clé a %s requête(s) d’API restante(s), limite les réinitialisations dans %s seconde(s).',
       'GitHub Actor' => 'Acteur GitHub',
       'Sources' => 'Sources',
-      'All Items' => 'Tous les éléments',
       'Pull Request #%d' => 'Requêtes de tirage nº %s',
       'Manage Queue' => 'Gérer la file',
       '%s applied a "%s" command to this item.' => '%s a appliqué une commande « %s » à cet élément.',

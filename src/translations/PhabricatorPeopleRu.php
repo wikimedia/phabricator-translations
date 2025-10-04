@@ -12,6 +12,7 @@ final class PhabricatorPeopleRu
       'Bot' => 'Бот',
       'Bots' => 'Боты',
       'Type a username...' => 'Введите имя пользователя...',
+      'Edit Settings' => 'Изменить настройки',
       'Edit Profile' => 'Редактировать профиль',
     );
   }

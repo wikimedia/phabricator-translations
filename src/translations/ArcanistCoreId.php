@@ -50,7 +50,6 @@ final class ArcanistCoreId
       'Browse URI "%s"' => 'Jelajahi URI "%s"',
       'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => 'Salinan pekerjaan menyertakan perubahan pada jalur \'%s\'.  Perubahan ini tidak akan disertakan dalam diff karena SVN tidak dapat melakukan perubahan \'svn: externals\' bersamaan dengan perubahan normal.',
       'Base commit ruleset to invoke when determining the start of a commit range. See "Arcanist User Guide: Commit Ranges" for details.' => 'Kumpulan aturan komit dasar untuk dipanggil saat menentukan awal rentang komit.  Lihat "Panduan Pengguna Arcanist: Commit Ranges" untuk detailnya.',
-      '%s is not compatible with your version of PHP (%s). This function is only supported on PHP versions newer than 5.3.0.' => '%s tidak kompatibel dengan versi PHP Anda (%s). Fungsi ini hanya didukung pada versi PHP yang lebih baru daripada 5.3.0.',
       'Nowhere to load blob \'%s\' from!' => 'Tidak ada tempat untuk memuat \'%s\'!',
       'Runtime Error' => 'Error Runtime',
       'Argument "%s" does not take a parameter.' => 'Argumen "%s" tidak memakai parameter.',

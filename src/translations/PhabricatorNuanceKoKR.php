@@ -12,7 +12,6 @@ final class PhabricatorNuanceKoKR
       'Branch %s' => '브랜치 %s',
       'GitHub Event' => 'GitHub 이벤트',
       'Unknown Event Type ("%s")' => '알 수 없는 이벤트 유형 ("%s")',
-      'All Items' => '모든 항목',
       'Got a complaint? Complain here! We love complaints.' => '불만이 있으십니까? 여기에서 불평해 주세요. 저희는 불평을 사랑합니다.',
       'No items found.' => '항목을 찾을 수 없습니다.',
       'Web Form' => '파브리케이터 양식',

@@ -144,6 +144,7 @@ final class PhabricatorSettingsZhHans
       'Enable "Re:" Prefix' => '启用“Re:”前缀',
       'DarkConsole Visible' => 'DarkConsole 可见性',
       'Supported Protocol' => '支持的协议',
+      'Ignore new setting and keep %s' => '忽略新设置并保留%s',
       'If you disable **Self Actions**, this server will not notify you about actions you take.' => '如果你禁用**自身操作**，此服务器不会把你自己执行的操作通知给你。',
       'You are adding too many email addresses to your account too quickly.' => '您过快地向您的账户添加了过多的电子邮箱地址。',
       'Your browser has not yet granted this server permission to send desktop notifications.' => '您的浏览器还没有授予此服务器发送桌面通知的权限。',

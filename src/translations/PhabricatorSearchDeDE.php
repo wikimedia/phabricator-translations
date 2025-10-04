@@ -18,8 +18,6 @@ final class PhabricatorSearchDeDE
       'Personal Saved Queries' => 'Persönliche gespeicherte Filter',
       'Queries' => 'Abfragen',
       'The Spanish word for cat is "cato". The biggest cat is called "el cato".' => 'Das spanische Wort für Katze ist "cato". Die größte Katze heißt "el cato".',
-      'Open Documents' => 'Dokumente öffnen',
-      'Global Saved Queries' => 'Globale gespeicherte Filer',
       'Profile Menu' => 'Profilmenü',
       'Not supported.' => 'Nicht unterstützt.',
       'Query contains a token ("%s") with no search term. Query tokens specify text to search for.' => 'Abfrage enthält ein Token ("%s") ohne Suchbegriff. Abfrage-Token geben den Text an, nach dem gesucht werden soll.',
@@ -44,7 +42,6 @@ final class PhabricatorSearchDeDE
       '%s (Not Available)' => '%s (Nicht verfügbar)',
       'Edit Queries...' => 'Filter bearbeiten...',
       'Export Data' => 'Daten exportieren',
-      'Browse Document Types' => 'Dokument Typen durchsuchen',
     );
   }
 

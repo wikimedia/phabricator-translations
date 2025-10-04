@@ -10,7 +10,6 @@ final class PhabricatorTransactionsTr
   protected function getTranslations() {
     return array(
       'Lock / Hide Fields' => 'Alanları Kilitle / Gizle',
-      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.' => 'Hesabınıza ekli herhangi bir MFA faktörü bulunmadığından, bu işlem grubunu MFA ile imzalayamazsınız. Ayarlar\'daki hesabınıza MFA ekleyin.',
       'Unmark as "Edit" Form' => '"Düzenleme" Formu olarak işaretini kaldırın',
       'Parameter "%s" is not a list of transactions.' => '"%s" parametresi işlemlerin bir listesi değil.',
       'Transactions have no effect:' => 'İşlemlerin etkisi yoktur:',
@@ -172,8 +171,8 @@ final class PhabricatorTransactionsTr
       'Encryption Required' => 'Şifreleme Gerekli',
       'Form name is required.' => 'Form adı gerekli.',
       'No object exists with ID "%s".' => '"%s" kimliğine sahip hiçbir nesne yok.',
+      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'Hesabınıza ekli herhangi bir MFA faktörü bulunmadığından, bu işlem grubunu MFA ile imzalayamazsınız. Ayarlar\'daki hesabınıza MFA ekleyin.',
       '%s wrote:' => '%s yazdı:',
-      'Change subtype to' => 'Alt türünü değiştir',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => '"%s" uzantısı, ana düzenleyici veya başka bir uzantıyla aynı tuşa ("%s") sahip bir toplu düzenleme grubunu tanımlar. Her toplu düzenleme grubunun benzersiz bir anahtarı olmalıdır.',
       'Save Edit Order' => 'Düzenleme Sıralamasını Kaydet',
       '%s removed %s unsubscriber(s): %s.' => '%s, %s aboneyi kaldırdı: %s.',

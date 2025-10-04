@@ -52,6 +52,7 @@ final class PhabricatorTypeaheadFrFR
       'Function Quick Reference' => 'Référence rapide des fonctions',
       'Auto' => 'Auto',
       'You reach the edge of the abyss.' => 'Vous atteignez le bord de l’abysse.',
+      'This datasource ("%s") requires to be logged-in to use the function "%s(...)".' => 'Cette source de données (« %s ») nécessite d’être connecté pour utiliser la fonction « %s(...) ».',
       'Priority Type' => 'Type de priorité',
       'Using Typeahead Functions' => 'Utilisation des fonctions de saisie semi-automatique',
     );

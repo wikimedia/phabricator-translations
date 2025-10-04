@@ -134,6 +134,7 @@ final class PhabricatorPeoplePtBR
       'Apply transactions to edit a user. (Users can not be created via the API.)' => 'Aplicar transações para editar um usuário. (Usuários não podem ser criados através da API.)',
       'Unapproved' => 'Não aprovada',
       'You can not send welcome mail because you are not an administrator. Only administrators may send welcome mail.' => 'Você não pode enviar e-mails de boas-vindas porque você não é um administrador. Somente administradores podem enviar mensagens de boas vindas.',
+      'No recent commits.' => 'Nenhum componentes recente.',
       'User Since' => 'Usuário desde',
       '%s enabled this user.' => '%s ativou este usuário.',
     );

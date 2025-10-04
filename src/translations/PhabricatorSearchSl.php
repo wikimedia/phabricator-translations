@@ -15,6 +15,7 @@ final class PhabricatorSearchSl
       'Disable Menu Item' => 'Onemogoči predmet menija',
       'Add to Dashboard' => 'Dodaj na nadzorno ploščo',
       'Cats use their keen sense of smell to avoid feeling empathy.' => 'Mačke uporabljajo svoj izostren voh, da bi se izognile občutku empatije.',
+      'Personal Saved Queries' => 'Osebne shranjene poizvedbe',
       'Global Menu Items' => 'Predmeti globalnega menija',
       'Already Default' => 'Že po privzetem',
       'Add New Menu Item...' => 'Dodaj nov element menija ...',
@@ -32,7 +33,6 @@ final class PhabricatorSearchSl
       'Profile Menu Items' => 'Predmeti menija profila',
       'No search engines available.' => 'Na voljo ni noben iskalnik.',
       'Menu Items' => 'Predmeti menija',
-      'Select a document type...' => 'Izberite vrsto dokumenta ...',
       'Current Menu Items' => 'Predmeti trenutnega menija',
       'Menu Item' => 'Predmet menija',
       'Fulltext Search Results' => 'Zadetki iskanja po vsem besedilu',
@@ -60,6 +60,7 @@ final class PhabricatorSearchSl
       'This dashboard has been archived.' => 'Ta nadzorna plošča je bila arhivirana.',
       'Portal Menu' => 'Meni portala',
       'Builtin item ("%s") specifies a bad item key ("%s"); there is no corresponding item implementation available.' => 'Vgrajeni predmet (»%s«) določa neveljaven ključ predmeta (»%s«); ustrezajoča izvedba predmeta ni na voljo.',
+      'Circular Dependency' => 'Krožna odvisnost',
     );
   }
 

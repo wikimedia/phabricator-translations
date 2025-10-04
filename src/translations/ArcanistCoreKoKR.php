@@ -276,7 +276,6 @@ final class ArcanistCoreKoKR
       'Use of Undeclared Variable' => '선언되지 않은 변수 사용',
       'Name' => '이름',
       'Unit testing raised errors!' => '단위 테스트에 오류가 발생했습니다!',
-      'Failed to read random bytes!' => '임의 바이트 읽기를 실패했습니다!',
       'Commit message has errors:' => '커밋 메시지에 오류가 있습니다:',
       'Report results in JSON format.' => 'JSON 포맷의 보고서 결과입니다.',
       'Operation Error' => '동작 오류',

@@ -188,6 +188,17 @@ final class PhabricatorPhortuneEn
       '%s changed the billing name for this account from %s to %s.' => '%s changed the billing name for this account from %s to %s.',
       'This generator has already emitted an iterator. You can not modify the PDF document after you begin writing it.' => 'This generator has already emitted an iterator. You can not modify the PDF document after you begin writing it.',
       'Unable to load provider for charge!' => 'Unable to load provider for charge!',
+      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
+      - Navigate to {nav Tools > API Access}.
+      - Choose **View API Signature**.
+      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
+    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
+    You can either use `sandbox.paypal.com` to retrieve test credentials, or `paypal.com` to retrieve live credentials.' => 'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
+      - Navigate to {nav Tools > API Access}.
+      - Choose **View API Signature**.
+      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
+    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
+    You can either use `sandbox.paypal.com` to retrieve test credentials, or `paypal.com` to retrieve live credentials.',
       'Order %d: %s' => 'Order %s: %s',
       'Stripe' => 'Stripe',
       'Error Adding Payment Method' => 'Error Adding Payment Method',
@@ -519,17 +530,6 @@ final class PhabricatorPhortuneEn
       'Return to Subscription' => 'Return to Subscription',
       'You are viewing this payment account as: %s' => 'You are viewing this payment account as: %s',
       'Contact Info' => 'Contact Info',
-      'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
-      - Navigate to {nav Tools > API Access}.
-      - Choose **View API Signature**.
-      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
-    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
-    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.' => 'To configure PayPal, register or log into an existing account on [[https://paypal.com | paypal.com]] (for live payments) or [[https://sandbox.paypal.com | sandbox.paypal.com]] (for test payments). Once logged in:
-      - Navigate to {nav Tools > API Access}.
-      - Choose **View API Signature**.
-      - Copy the **API Username**, **API Password** and **Signature**     into the fields above.
-    You can select whether the provider operates in test mode or accepts live payments using the **Mode** dropdown above.
-    You can either use `sandbox.paypal.com` to retrieve live credentials, or `paypal.com` to retrieve live credentials.',
       'Set the start of the billing period.' => 'Set the start of the billing period.',
       'PDF iterators may not be rewound. Create a new iterator to emit another PDF.' => 'PDF iterators may not be rewound. Create a new iterator to emit another PDF.',
       'Void Invoice?' => 'Void Invoice?',

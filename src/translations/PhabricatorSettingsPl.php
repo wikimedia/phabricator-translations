@@ -41,8 +41,8 @@ final class PhabricatorSettingsPl
     This can make mail more useful, but some clients have difficulty threading these messages. Disabling this option may improve threading at the cost of making subject lines less useful.' => 'Gdy włączona jest opcja **Zmiany w tematach**, większość linii tematu wiadomości będzie zawierała krótki opis ich zawartości, np. `[Zamknięte]` dla powiadomienia o kimś zamykającym zadanie.
     | Ustawienie           | Przykład tematu wiadomości
     |----------------------|----------------
-    | Zmiany w tematach    | `[Manifest] [Zamknięte] T123: Przykładowe zadanie`
-    | Bez zmian w tematach | `[Manifest] T123: Przykładowe zadanie`
+    | Zmiany w tematach    | `[Maniphest] [Zamknięte] T123: Przykładowe zadanie`
+    | Bez zmian w tematach | `[Maniphest] T123: Przykładowe zadanie`
     Dzięki temu poczta może być bardziej użyteczna, ale niektóre klienty poczty mają problem z wątkowaniem tych wiadomości. Wyłączenie tej opcji może polepszyć wątki kosztem uczynienia wierszy tematu mniej przydatnymi.',
       'Value "%s" is not valid for setting "%s": valid values are %s.' => 'Wartość "%s" nie jest prawidłowa dla ustawienia "%s": prawidłowe wartości to %s.',
       'Extra Settings' => 'Dodatkowe ustawienia',

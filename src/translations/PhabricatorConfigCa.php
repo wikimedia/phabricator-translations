@@ -64,11 +64,6 @@ final class PhabricatorConfigCa
       '%s created this configuration entry.' => '%s ha creat aquesta entrada de configuració.',
       'You have enabled pygments and the %s script is available, but does not seem to work.' => 'Heu habilitat els pigments i el guió de %s està disponible, però sembla que no funciona.',
       'This column is missing a type specification.' => 'A aquesta columna li manca una especificació de tipus.',
-      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    This software will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s' => 'PHP utilitza actualment l\'antiga extensió \'mysql\' per interactuar amb la base de dades. Heu d\'instal·lar l\'extensió \'mysqli\' més recent per millorar els comportaments (com ara la gestió d\'errors i els temps d\'espera de consulta).
-    Phabricator funcionarà amb l\'extensió anterior, però es recomana actualitzar a l\'extensió posterior.
-    És possible que pugueu instal·lar l\'extensió amb una ordre com: %s',
       'Column Has No Specification' => 'La Columna No Té Especificacions',
       'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
     Without this mode enabled, MySQL will silently ignore some error conditions, including inserts which attempt to store more data in a column than actually fits. This behavior is usually undesirable and can lead to data corruption (by truncating multibyte characters in the middle), data loss (by discarding the data which does not fit into the column), or security concerns (for example, by truncating keys or credentials).
@@ -107,9 +102,6 @@ final class PhabricatorConfigCa
       '%s deleted %s (again?).' => '%s ha suprimit %s (un altre cop?).',
       'Access log format.' => 'Format de registre d\'accés.',
       'Access log location.' => 'Accedeix a la ubicació del registre.',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => 'Teniu activat \'%s\' a la configuració de PHP.
-    Aquesta opció no és compatible amb Phabricator. Desactiveu \'%s\' a la configuració de PHP per continuar.',
       'Your webserver is not handling GET parameters properly.' => 'El vostre servidor web no gestiona correctament els  paràmetres GET.',
       'Repository Errors' => 'Errors del Repositori',
       'Option "%s" is of type "%s", but the configured value is not the name of a known class. Valid selections are: %s.' => 'L\'opció "%s" és del tipus "%s", però el valor configurat no és el nom d\'una classe coneguda.  Les seleccions vàlides són: %s.',
@@ -127,13 +119,13 @@ final class PhabricatorConfigCa
       'Use Normal HTTP Redirects' => 'Utilitza Redireccions HTTP Normals',
       'Configuration key \'%s\' is not set in %s configuration!' => 'La clau de configuració «%s» no està configurada a la configuració de %s!',
       'Multi-Factor Optional' => 'Multi-Factor Opcional',
+      'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => 'L\'extensió "%s" no està instal·lada. Sense la compatibilitat amb "%s", és possible que Phabricator no pugui determinar els tipus MIME de fitxers penjats.',
       'Access Denied' => 'Accés Denegat.',
       'The configuration option \'%s\' has been removed. You may delete it at your convenience.
     %s' => 'S\'ha eliminat l\'opció de configuració «%s».  Podeu suprimir-ho segons convingui. <br><br>%s',
       'Disable Pagespeed' => 'Velocitat de Pàgina Desactivada',
       'Elasticsearch index exists but needs correction.' => 'L\'índex Elasticsearch existeix però necessita correcció.',
       'Nullable' => 'Anul·lable',
-      'The "%s" key is set to some value other than "-1" in your PHP configuration. This can cause PHP to raise deprecation warnings during process startup. Set this option to "-1" to prevent these warnings from appearing.' => 'La clau «%s» està establerta a un valor diferent de «-1» en la seva configuració de PHP. Això pot fer que PHP elevi avisos de deprecació durant l\'inici del procés.  Activeu aquesta opció a «-1» per evitar que apareguin aquests avisos.',
       'No "Host" Header' => 'Cap capçalera "Host"',
       'Activity "%s" did not need to be marked as complete.' => 'L\'activitat «%s» no s\'ha de marcar com a completada.',
       'The translation implementation has changed and providers are no longer used or supported.' => 'L\'aplicació de la traducció ha canviat i els proveïdors ja no s\'utilitzen ni s\'admeten.',
@@ -148,11 +140,11 @@ final class PhabricatorConfigCa
       'Profile 0.1%% of all requests' => 'Perfil del 0,1%% de totes les sol·licituds',
       'This option has been replaced with the more granular option `%s`.' => 'Aquesta opció ha estat substituïda per l\'opció més granular `%s`.',
       'Require all users to configure multi-factor authentication.' => 'Requereix que tots els usuaris configurin l\'autenticació multifactorial.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => 'L\'extensió "%s" no està instal·lada. Sense la compatibilitat amb "%s", és possible que Phabricator no pugui determinar els tipus MIME de fitxers penjats.',
       'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'No s\'ha pogut trobar el binari "%s". Enllaceu-lo a "%s" o configureu la variable d\'entorn de %s del servidor web per incloure el directori on resideix o afegiu-lo a "%s" a la configuració de Phabricator.',
       'Configuration Guide: Locked and Hidden Configuration' => 'Guia de Configuració: Configuració Bloquejada i Oculta',
       'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Aquesta opció habilita informes d\'errors verbosos (traces de piles, fumets d\'errors) i obliga el disc a llegir dels recursos estàtics a cada recàrrega.',
       'Wrote configuration key "%s" to local storage (in file "%s").' => 'S\'ha escrit la clau de configuració «%s» a l\'emmagatzematge local (en el fitxer «%s»).',
+      'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Aquests URI alternatius podran accedir a pàgines \'normals\' de la vostra instal·lació de Phabricator. Altres funcionalitats com OAuth no funcionaran. El cas d\'ús principal per a això és moure instal·lacions entre dominis.',
       '(%s%s) %s' => '(%s%s) %s',
       'Nonreplicating Replica' => 'Rèplica no Replicant',
       'Run these %d command(s):' => 'Executa aquesta(es) ordre(s) %s',
@@ -198,16 +190,10 @@ final class PhabricatorConfigCa
       'The MySQL "local_infile" option is enabled. This option is unsafe.' => 'L\'opció MySQL \'local_infile\' està habilitada. Aquesta opció no és segura.',
       'Either the schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.' => 'O bé l\'esquema Phabricator per l\'Elasticsearch ha canviat o l\'Elasticsearch ha creat l\'índex automàticament. Utilitzeu la següent ordre per reconstruir l\'índex.',
       '(Not Supported)' => '(No admès)',
-      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
-    This software will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s' => 'PHP està utilitzant actualment el controlador extern MySQL anterior en lloc del controlador natiu MySQL posterior. El controlador anterior no té opcions i funcionalitats (com ara el suport per als temps d\'espera de consulta) que permeten a Phabricator interactuar millor amb la base de dades. 
-    Phabricator treballarà amb el conductor anterior, però es recomana actualitzar al conductor natiu. 
-    Podeu instal·lar el controlador natiu amb una ordre com: %s',
       'Don\'t embed Commons videos' => 'No incrustis vídeos de Commons',
       'Configure the UI, including colors.' => 'Configura la interfície d\'usuari de Phabricator, inclosos els colors.',
       'The \'%s\' extension has support for only some image types. This server will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => 'L\'extensió "%s" només admet alguns tipus d\'imatges. Phabricator no podrà processar imatges dels tipus que falten fins que no construïu "%s" amb suport per a elles. Tipus compatibles: %s. Tipus que falten: %s.',
       'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'' => 'Tracteu tots els fitxers \'*.x.bak\' com a \'.x\'. NOTA: Fem el mapa al grup de captura 1 especificant el mapatge com a "1"',
-      'Database Schemata' => 'Esquemes de la base de dades',
       'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that this software imports or manages. This option is new and experimental.' => 'Especifiqueu un usuari de sistema per executar els dimonis. Principalment, aquest usuari serà propietari de còpies de treball de qualsevol repositori que Fabricator importi o gestioni. Aquesta opció és nova i experimental.',
       'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'L\'opció "%s" és del tipus "%s", i s\'ha d\'especificar a la línia d\'ordres com una llista de valors JSON. És possible que hàgiu de citar el valor per al vostre intèrpret d\'ordres (per exemple: \'["a", "b", ...]\').',
       'Old MySQL Version' => 'Versió antiga de MySQL',
@@ -282,6 +268,7 @@ final class PhabricatorConfigCa
       'MySQL port to use when connecting to the database.' => 'Port MySQL per utilitzar en connectar-se a la base de dades.',
       'Trying to add duplicate key "%s"!' => 'S\'està intentant afegir la clau duplicada \'%s\'.',
       'Repository %s has an ambiguous leader.' => 'El repositori %s té un líder ambigu.',
+      'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'L\'extensió \'%s\' no està instal·lada. Sense \'%s\', Phabricator no podrà processar ni canviar la mida de les imatges (per exemple, per generar miniatures). Instal·leu o activeu \'%s\'.',
       'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
     Leaving your authentication provider configuration unlocked increases the damage that a compromised administrator account can do to your install. For example, an attacker who compromises an administrator account can change authentication providers to point at a server they control and attempt to intercept usernames and passwords.
     To prevent this attack, you should configure authentication, and then lock the configuration by running "bin/auth lock" from the command line. This will prevent changing the authentication config without first running "bin/auth unlock".' => 'La configuració del proveïdor d’autenticació està desbloquejada. Un cop hàgiu acabat de configurar o modificar l\'autenticació, heu de bloquejar la configuració per evitar canvis no autoritzats.
@@ -301,7 +288,6 @@ final class PhabricatorConfigCa
       'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. This software can not determine the correct endpoint automatically because some endpoint locations are irregular.' => 'L\'endpoint S3 explícit a utilitzar.  Aquest hauria de ser l\'endpoint que correspon a la regió que heu seleccionat a `amazon-s3.region`. Phabricator no pot determinar l\'endpoint correcte automàticament perquè algunes ubicacions de l\'endpoint són irregulars.',
       'Embed YouTube videos' => 'Incrusteu vídeos de YouTube',
       'Clear Cache' => 'Netejar la caché',
-      'MySQL Native Driver Not Available' => 'El controlador natiu MySQL no està disponible',
       'To enable the HTTP access log, specify a path. This log is more detailed than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
     If not set, no log will be written.' => 'Per habilitar el registre d\'accés de Phabricator, especifiqueu una ruta d\'accés. L’accés a Phabricator que els registres d’accés HTTP normals (per exemple, pot mostrar usuaris, controladors i altres dades de l’aplicació).
     Si no s’estableix, no s’escriurà cap registre.',
@@ -352,7 +338,6 @@ final class PhabricatorConfigCa
       'Required PHP extensions are not installed.' => 'Les extensions PHP necessàries no estan instal·lades.',
       'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.' => 'POC SÀ: Aquesta base de dades ha fallat en els controls de salut recents. No s’hi enviarà trànsit fins que es recuperi.',
       'Request input, in bytes.' => 'Entrada sol·licitada, en bytes.',
-      'PHP 7 Compatibility Information' => 'Informació de compatibilitat de Phabricator PHP 7',
       'Application Settings' => 'Configuració de l\'aplicació',
       'The configured PATH includes a component which is not usable. This server will be unable to find or execute binaries located here:
     %s
@@ -392,21 +377,6 @@ final class PhabricatorConfigCa
       'Trying to add duplicate database "%s"!' => 'Intentant afegir una base de dades duplicada "%s"!',
       'This column has the wrong autoincrement setting.' => 'Aquesta columna té un paràmetre d’increment automàtic incorrecte.',
       'Allows you to add footer links on most pages.' => 'Permet afegir enllaços de peu a la majoria de pàgines.',
-      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
-    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
-    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
-    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'L\'amfitrió de la base de dades «%s» està utilitzant el fitxer de «paraules buides» incorporat per crear índexs de cerca. Això pot fer que la funcionalitat de cerca del Phabricator sigui menys útil. 
-    Les paraules buides són paraules comunes que no estan indexades i, per tant, no es poden cercar. El fitxer de paraules buides per defecte de té al voltant de 500 paraules, incloent-hi diverses paraules que és probable que vulgueu cercar, com ara «diferent», «likely», «wish» i «zero». 
-    Per a fer que la cerca sigui més útil, podeu utilitzar un fitxer alternatiu de paraules buides amb menys paraules.  Alternativament, si no us preocupa la cerca de paraules comunes, podeu ignorar aquest avís. Si més tard planegeu configurar Elasticsearch, també podeu ignorar aquest avís: aquest fitxer de paraules buides només afecta els índexs de text complet de MySQL. 
-    Per triar un altre fitxer de paraules buides, afegiu-lo al vostre fitxer %s (a la secció %s) i després reinicieu %s: 
-    %s 
-    (Si ho preferiu, també podeu utilitzar un fitxer diferent. El fitxer suggerit anteriorment té al voltant de 50 de les paraules en anglès més comunes.) 
-    Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les noves regles: 
-    %s',
       'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Els camps Maniphest ara es defineixen a \'%s\'. S\'han migrat les definicions existents.',
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch ara està configurat amb \'%s\'.',
       'Configuring Outbound Email' => 'Configuració del correu electrònic de sortida',
@@ -420,17 +390,9 @@ final class PhabricatorConfigCa
       'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
     Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Phabricator està configurat actualment per publicar les càrregues dels usuaris directament des del mateix domini que altres continguts. Això suposa un risc per a la seguretat.
     Configureu un CDN (o un domini de fitxer alternatiu) per eliminar aquest risc. L’ús d’un CDN també millorarà el rendiment. Consulteu la guia següent per obtenir instruccions.',
-      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator és compatible amb el ressaltat de sintaxi d\'alguns idiomes per defecte, però podeu instal·lar Pygments (una eina de ressaltat de sintaxi de tercers) per proporcionar suport per a molts més idiomes. 
-    Per instal·lar Pygments, visiteu [[ http://pygments.org | pygments.org ]] i seguiu les instruccions de descàrrega i instal·lació. 
-    Un cop instal·lat Pygments, habiliteu aquesta opció (`pygments.enabled`) per fer que el Phabricator utilitzi Pygments en ressaltar el codi font. 
-    Després d\'instal·lar i activar els Pygments, el codi font creat recentment (com ara les diferències i els collages) hauria de ressaltar-se correctament. És possible que hàgiu de netejar la caché de Phabricator per obtenir el codi font existent prèviament per ressaltar. Per a instruccions sobre la gestió de la caché, vegeu [[ %s | Managing Caches ]].',
       'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'La versió suportada mínima de Subversió és la 1.5, que va ser alliberada el 2008.',
       'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'El vostre límit de memòria PHP està configurat de manera que us pugui impedir carregar fitxers grans o gestionar sol·licituds grans.',
       'Force users to connect via HTTPS instead of HTTP.' => 'Força els usuaris a connectar-se mitjançant HTTPS en lloc d’HTTP.',
-      'Install the MySQLi extension to improve database behavior.' => 'Instal·leu l\'extensió MySQLi per millorar el comportament de la base de dades.',
       'Large Files' => 'Arxius grans',
       'Compressed Requests Not Received Properly' => 'Les sol·licituds comprimides no s\'han rebut correctament',
       'The namespace that databases should use.' => 'L\'espai de noms que haurien d\'utilitzar les bases de dades de Phabricator.',
@@ -494,19 +456,6 @@ final class PhabricatorConfigCa
       'Really Clear Cache' => 'Esborrar la caché',
       'Unexpected \'%s\' Behavior' => 'Comportament «%s» inesperat',
       'Mail thread IDs are now generated automatically.' => 'Ara els identificadors de fil de correu es generen automàticament.',
-      'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
-    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
-    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
-    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'L\'amfitrió de la base de dades «%s» està configurat per utilitzar la longitud mínima de paraula predeterminada quan es construeixen índexs de cerca, que és 4. Això significa que les paraules que només tenen 3 caràcters no s\'indexen i no es poden cercar. 
-    Per exemple, no podreu trobar resultats de cerca per a paraules com «SMS», «web» o «DOS». 
-    Podeu canviar aquest paràmetre a 3 per permetre que s\'indexin aquestes paraules. Alternativament, podeu ignorar aquest avís si no esteu preocupat per cercar paraules de tres lletres. Si més tard planegeu configurar l\'Elasticsearch, també podeu ignorar aquest avís: només afecta la cerca de text complet de MySQL. 
-    Per reduir la longitud mínima de la paraula a 3, afegiu-ho al vostre fitxer %s (a la secció %s) i després reinicieu %s: 
-    %s 
-    Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les noves regles: 
-    %s',
       'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the %s configuration value \'%s\' to specify one.' => 'La vostra configuració no especifica un fus horari del servidor. Podeu establir el valor de configuració de PHP \'%s\' o el valor de configuració de Phabricator \'%s\' per especificar-ne un.',
       'Enable HTTP Strict Transport Security (HSTS).' => 'Activeu la seguretat de transport estricta HTTP (HSTS).',
       'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Phabricator té %s disponible en %s, però el binari ha sortit amb un codi d\'error quan s\'executa com a %s. Comproveu que estigui instal·lat correctament.',
@@ -516,6 +465,19 @@ final class PhabricatorConfigCa
       'HTTP Basic Auth Not Configured' => 'Autenticació bàsica HTTP no configurada',
       'Highlight httpd.conf as "apacheconf".' => 'Ressalteu httpd.conf com a "apacheconf".',
       'This option has been replaced with `ui.logo`, which provides more flexible configuration options.' => 'Aquesta opció s\'ha substituït per `ui.logo`, que proporciona opcions de configuració més flexibles.',
+      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
+    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
+    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
+    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)' => 'L\'amfitrió de la base de dades «%s» està utilitzant el fitxer de «paraules buides» incorporat per crear índexs de cerca. Això pot fer que la funcionalitat de cerca del Phabricator sigui menys útil. 
+    Les paraules buides són paraules comunes que no estan indexades i, per tant, no es poden cercar. El fitxer de paraules buides per defecte de té al voltant de 500 paraules, incloent-hi diverses paraules que és probable que vulgueu cercar, com ara «diferent», «likely», «wish» i «zero». 
+    Per a fer que la cerca sigui més útil, podeu utilitzar un fitxer alternatiu de paraules buides amb menys paraules.  Alternativament, si no us preocupa la cerca de paraules comunes, podeu ignorar aquest avís. Si més tard planegeu configurar Elasticsearch, també podeu ignorar aquest avís: aquest fitxer de paraules buides només afecta els índexs de text complet de MySQL. 
+    Per triar un altre fitxer de paraules buides, afegiu-lo al vostre fitxer %s (a la secció %s) i després reinicieu %s: 
+    %s 
+    (Si ho preferiu, també podeu utilitzar un fitxer diferent. El fitxer suggerit anteriorment té al voltant de 50 de les paraules en anglès més comunes.) 
+    Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les noves regles: 
+    %s',
       'Do not install this software on an instance class with burstable CPU.' => 'No instal·leu Phabricator en una classe d\'instància amb CPU de ràfega.',
       'This is an override list of regular expressions which allows you to choose what language files are highlighted as. If your projects have certain rules about filenames or use unusual or ambiguous language extensions, you can create a mapping here. This is an ordered dictionary of regular expressions which will be tested against the filename. They should map to either an explicit language as a string value, or a numeric index into the captured groups as an integer.' => 'Aquesta és una llista de sobreescriptura d\'expressions regulars que us permet triar com es ressalten els fitxers d\'idioma. Si els vostres projectes tenen certes regles sobre noms de fitxer o utilitzen extensions de llenguatge inusuals o ambigües, podeu crear un mapatge aquí. Aquest és un diccionari ordenat d\'expressions regulars que es provarà amb el nom de fitxer. Haurien de mapejar un llenguatge explícit com a valor de cadena, o un índex numèric en els grups capturats com a enter.',
       'You can restrict allowed email addresses to certain domains (like `yourcompany.com`) by setting a list of allowed domains here.
@@ -602,7 +564,6 @@ final class PhabricatorConfigCa
       'The path for local repositories does not exist, or is not readable by the webserver.' => 'La ruta als repositoris locals no existeix, o no és llegible pel servidor web.',
       'Inbound and outbound mail is now configured with "cluster.mailers".' => 'La plataforma de correu entrant i sortint ara es configura amb \'cluster.mailers\'.',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'Un amfitrió de la base de dades (\'%s\') i aquest amfitrió web (\'%s\') discrepen de l\'hora actual en més de 60 segons (la distinció absoluta és de %s segons). Comproveu que l’hora actual estigui configurada correctament a tot arreu.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'L\'extensió \'%s\' no està instal·lada. Sense \'%s\', Phabricator no podrà processar ni canviar la mida de les imatges (per exemple, per generar miniatures). Instal·leu o activeu \'%s\'.',
       'Sample 0.1%% of requests.' => 'Mostreig del 0,1%% de les sol·licituds.',
       'No Caches to Reset' => 'Cap caché a reinicialitzar',
       'Really Clear Cache?' => 'Esborrar la caché?',
@@ -689,8 +650,6 @@ final class PhabricatorConfigCa
       'Migrate From "feed.http-hooks" to Webhooks' => 'Migració de \'feed.http-hooks\' a Webhooks',
       'PHP Timezone' => 'Fus horari de PHP',
       'This option is not recognized. It may be misspelled.' => 'Aquesta opció no es reconeix. Pot estar mal escrita.',
-      'You have \'%s\' enabled in your PHP configuration, but this software will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
-    Disable safe mode to continue.' => 'Teniu activat \'%s\' a la configuració de PHP, però Phabricator no s\'executarà en mode segur. El mode segur ha quedat obsolet a PHP 5.3 i s’ha eliminat a PHP 5.4.',
       'Advanced Settings' => 'Paràmetres avançats',
       'After installing new PHP extensions, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'Després d\'instal·lar noves extensions de PHP, <strong>reinicieu Phabricator de manera segura perquè els canvis tinguin efecte<strong>. Per obtenir ajuda amb el reinici de Phabricator, consulteu %s a la documentació.',
       'By default, this software serves files from the same domain the application is served from. This is convenient, but presents a security risk.
@@ -700,7 +659,6 @@ final class PhabricatorConfigCa
       'After editing the PHP configuration, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'Després d\'editar la configuració de PHP, reinicieu Phabricator de manera segura perquè els canvis tinguin efecte</strong>. Per obtenir ajuda amb el reinici de Phabricator, consulteu %s a la documentació.',
       'Repository Status' => 'Estat del Repositori',
       'Do Not Use HSTS' => 'No utilitzeu HSTS',
-      'PHP 7.0-7.1 Not Supported' => 'PHP 7.0-7.1 no compatible',
       'List all configuration keys.' => 'Enumereu totes les claus de configuració.',
       'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'La personalització del prefix d\'assumpte de correu per aplicació ja no s\'admet directament. Els prefixos i altres cadenes es poden personalitzar amb \'translation.override\'.',
       'Configuration key "%s" is of type "%s". Specify it in JSON.' => 'La clau de configuració \'%s\' és del tipus \'%s\'. Especifiqueu-lo a JSON.',
@@ -777,7 +735,6 @@ final class PhabricatorConfigCa
       'Detected %s serious issue(s) with the schemata.' => 'S\'han detectat %s problemes greus amb els esquemes.',
       'MySQL username to use when connecting to the database.' => 'Nom d\'usuari MySQL per utilitzar en connectar-se a la base de dades.',
       'Secret key for Amazon EC2.' => 'Clau secreta per a Amazon EC2.',
-      'Configure the MySQL Native Driver to improve database behavior.' => 'Configureu el controlador natiu MySQL per millorar el comportament de la base de dades.',
       'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
     This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'Phabricator es va enviar una sol·licitud amb "Accept-Encoding: gzip", però va rebre una resposta sense comprimir.
     Això pot indicar que el vostre servidor web no està configurat per comprimir respostes. Si és així, heu d’habilitar la compressió. La compressió pot millorar dràsticament el rendiment, especialment per a clients amb menys amplada de banda.',
@@ -809,6 +766,13 @@ final class PhabricatorConfigCa
     Canvieu Phabricator al mode de només lectura. En aquest mode, els usuaris no podran escriure dades noves. Normalment, el clúster es degrada a aquest mode automàticament quan detecta que no es pot accedir al mestre de base de dades, però podeu activar-lo manualment per realitzar el manteniment o la configuració de proves.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Vulnerabilitat de seguretat severa: Bash sense pedaços',
       'Force HTTPS' => 'Forçar HTTPS',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator és compatible amb el ressaltat de sintaxi d\'alguns idiomes per defecte, però podeu instal·lar Pygments (una eina de ressaltat de sintaxi de tercers) per proporcionar suport per a molts més idiomes. 
+    Per instal·lar Pygments, visiteu [[ http://pygments.org | pygments.org ]] i seguiu les instruccions de descàrrega i instal·lació. 
+    Un cop instal·lat Pygments, habiliteu aquesta opció (`pygments.enabled`) per fer que el Phabricator utilitzi Pygments en ressaltar el codi font. 
+    Després d\'instal·lar i activar els Pygments, el codi font creat recentment (com ara les diferències i els collages) hauria de ressaltar-se correctament. És possible que hàgiu de netejar la caché de Phabricator per obtenir el codi font existent prèviament per ressaltar. Per a instruccions sobre la gestió de la caché, vegeu [[ %s | Managing Caches ]].',
       'This key is not expected to exist.' => 'No s’espera que existís aquesta clau.',
       '%d related link(s):' => '%s enllaços relacionats:',
       'Missing Repository Local Path' => 'Falta la ruta local del repositori',
@@ -817,7 +781,6 @@ final class PhabricatorConfigCa
       'Inline comments are now always rendered with a limited amount of context.' => 'Ara els comentaris en línia es mostren sempre amb un context limitat.',
       'Locked Configuration Option "%s" Has Database Value' => 'L\'opció de configuració bloquejada «%s» té valor de base de dades',
       'Configuration key "%s" is unknown. Use "bin/config list" to list all known keys.' => 'Es desconeix la clau de configuració \'%s\'. Utilitzeu "bin/config list" per llistar totes les claus conegudes.',
-      'MySQLi Extension Not Available' => 'L\'extensió MySQLi no està disponible',
       'Unknown schema issue "%s"!' => 'Problema desconegut de l\'esquema "%s"!',
       'Embed Commons videos' => 'Incrustar vídeos de Commons',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
@@ -848,6 +811,18 @@ final class PhabricatorConfigCa
       'Default non-pygments syntax highlighter engine.' => 'Motor de ressaltador de sintaxi no pygments per defecte.',
       'HTTP Parameter Types' => 'Tipus de paràmetres de l\'HTTP',
       'No performance sampling.' => 'Cap mostreig de rendiment.',
+      'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
+    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
+    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
+    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    ' => 'L\'amfitrió de la base de dades «%s» està configurat per utilitzar la longitud mínima de paraula predeterminada quan es construeixen índexs de cerca, que és 4. Això significa que les paraules que només tenen 3 caràcters no s\'indexen i no es poden cercar. 
+    Per exemple, no podreu trobar resultats de cerca per a paraules com «SMS», «web» o «DOS». 
+    Podeu canviar aquest paràmetre a 3 per permetre que s\'indexin aquestes paraules. Alternativament, podeu ignorar aquest avís si no esteu preocupat per cercar paraules de tres lletres. Si més tard planegeu configurar l\'Elasticsearch, també podeu ignorar aquest avís: només afecta la cerca de text complet de MySQL. 
+    Per reduir la longitud mínima de la paraula a 3, afegiu-ho al vostre fitxer %s (a la secció %s) i després reinicieu %s: 
+    %s 
+    Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les noves regles: 
+    %s',
       'Opcode Cache' => 'Caché d\'Opcode',
       'Specify a value to set the configuration key "%s" to, or use "--stdin" to read a value from stdin.' => 'Especifiqueu un valor per establir la clau de configuració \'%s\' o utilitzeu "--stdin" per llegir un valor de stdin.',
       'ID of the SSH key used to authenticate the request.' => 'Identificador de la clau SSH utilitzada per autenticar la sol·licitud.',
@@ -882,9 +857,7 @@ final class PhabricatorConfigCa
       'The directory for local repositories (%s) does not exist, or is not readable by the webserver. This software uses this directory to store information about repositories. If this directory does not exist, create it:
     %s
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'El directori per a repositoris locals (%s) no existeix, o no és llegible pel servidor web.  Phabricator utilitza aquest directori per emmagatzemar informació sobre els repositoris.  Si aquest directori no existeix, crea\'l: <br><br>%s <br>Si aquest directori existeix, feu-lo llegible al servidor web.  També podeu editar la configuració següent per utilitzar un altre directori.',
-      'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Aquests URI alternatius podran accedir a pàgines \'normals\' de la vostra instal·lació de Phabricator. Altres funcionalitats com OAuth no funcionaran. El cas d\'ús principal per a això és moure instal·lacions entre dominis.',
       'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'Als llocs que mostrem un menú desplegable per a ressaltar la sintaxi, aquí es defineix aquesta llista.',
-      'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.' => 'El paràmetre de PHP \'%s\' s\'ha d\'establir a \'-1\' per evitar avisos de deprecació.',
       'Text values that match this regex and are also object names will not be linked.' => 'Els valors de text que coincideixin amb aquesta expressió regular i que també siguin noms d\'objectes no es vincularan.',
       '%s Held / %sms' => '%s retingut / %s ms',
     );

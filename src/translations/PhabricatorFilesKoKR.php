@@ -30,6 +30,7 @@ final class PhabricatorFilesKoKR
       'Files (TTL)' => '파일 (TTL)',
       'File size, in bytes.' => '파일 크기(단위: 바이트)입니다.',
       'No such file exists.' => '해당 파일이 존재하지 않습니다.',
+      'File Attachments' => '파일 첨부',
       '%s: File size (%s) is larger than maximum size (%s).' => '%s: 파일 크기(%s)는 최대 크기(%s)보다 더 큽니다.',
       'MISMATCH' => '불일치',
       'SKIPPED' => '건너뜀',

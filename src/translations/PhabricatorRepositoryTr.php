@@ -31,6 +31,9 @@ final class PhabricatorRepositoryTr
       'Interrupted by pending updates!' => 'Bekleyen güncellemeler tarafından yarıda kesildi!',
       '%s set this repository to track all branches.' => '%s bu depoyu tüm dalları izlemeye ayarladı.',
       'Unexpected hint format at index "%s": %s' => '"%s" dizininde beklenmeyen ipucu biçimi: %s',
+      'To add custom hook scripts to this repository, add them to this directory.
+    %s will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'Bu depoya özel kanca betikler eklemek için bunları bu dizine ekleyin.
+    Phabricator, kendi dizinlerini çalıştırdıktan sonra, normal kaynak betiklenmiş gibi, bu dizindeki tüm dosyaları çalıştırabilir.',
       'Something is wrong; source of a copy must exist.' => 'Bir şey yanlış gitti; kopyanın kaynağı bulunmalıdır.',
       'These repositories will be thawed:' => 'Bu depolar çözülecektir:',
       'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".' => '"%s" deposu için veritabanı kayıtları imha edildi, ancak bu komut dosyası diskte çalışan kopyaları kaldırmıyor. Depo çalışma kopyasını da imha etmek istiyorsanız, "%s" manüel olarak kaldırın.',
@@ -343,9 +346,6 @@ final class PhabricatorRepositoryTr
       'Unpublishing commit "%s".' => 'Yayından kaldırma taahhüdü "%s".',
       'Unpublish all feed stories and notifications that a repository has generated. Keep expectations low; can not rewind time.' => 'Bir deponun oluşturduğu tüm yayın öykülerini ve bildirimleri yayından kaldırın. Beklentileri düşük tutun; zamanı geri saramaz.',
       'Apply the promotion or demotion to all repositories hosted on the device.' => 'Yükselme veya düşme cihazda barındırılan tüm depolara uygulayın.',
-      'To add custom hook scripts to this repository, add them to this directory.
-    Phabricator will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'Bu depoya özel kanca betikler eklemek için bunları bu dizine ekleyin.
-    Phabricator, kendi dizinlerini çalıştırdıktan sonra, normal kaynak betiklenmiş gibi, bu dizindeki tüm dosyaları çalıştırabilir.',
       'Updating refs in "%s"...' => '"%s" içindeki kaynaklar güncelleniyor...',
       'Repository "%s" is already queued.' => '"%s" deposu zaten sıraya alındı.',
       'Create Git Repository' => 'Git Deposu Oluştur',

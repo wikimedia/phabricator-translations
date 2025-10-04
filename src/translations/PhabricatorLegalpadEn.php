@@ -52,6 +52,7 @@ final class PhabricatorLegalpadEn
       'Legalpad Document Body' => 'Legalpad Document Body',
       'Signed By' => 'Signed By',
       'Read information about legalpad document signatures.' => 'Read information about legalpad document signatures.',
+      'All Documents' => 'All Documents',
       'Get the full content for each document.' => 'Get the full content for each document.',
       'Contact Email' => 'Contact Email',
       'Document Body' => 'Document Body',

@@ -14,13 +14,13 @@ final class PhabricatorSettingsNl
       'Adjust Timezone' => 'Tijdzone aanpassen',
       '%s updated her profile' => '%s heeft haar profiel bijgewerkt',
       'All Messages' => 'Alle berichten',
-      '%s updated their profile' => '%s heeft diens profiel bijgewerkt',
+      '%s updated their profile' => '%s heeft het eigen profiel bijgewerkt',
       'You must enter your current password.' => 'Je moet je huidige wachtwoord invoeren.',
       '%s updated his profile' => '%s heeft zijn profiel bijgewerkt',
       'Replaced With' => 'Vervangen door',
       '⚫ Email' => '⚫ E-mail',
       'Pronoun' => 'Voornaamwoord',
-      'Choose the pronoun you prefer.' => 'Kies het voornaamwoord dat je prefereert.',
+      'Choose the pronoun you prefer.' => 'Kies het voornaamwoord van uw voorkeur.',
     );
   }
 

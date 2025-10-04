@@ -221,7 +221,7 @@ final class PhabricatorDiffusionCa
       'Failed to parse %s!' => 'No s\'ha pogut analitzar sintàcticament %s!',
       'No Audit' => 'Cap auditoria',
       'Acquiring read lock for repository "%s" on device "%s"...' => 'S\'està adquirint el bloqueig de lectura del repositori "%s" al dispositiu "%s" ...',
-      'Local Maniphest URL' => 'URL local de Manifest',
+      'Local Maniphest URL' => 'URL local de Maniphest',
       'Get the auditors for each commit.' => 'Obtenir els auditors per a cada validació.',
       'The Python 3 Standard Library' => 'La biblioteca estàndard de Python 3',
       'Unknown SVN wire protocol structure \'%s\'!' => 'Estructura de protocol de cable SVN desconeguda \'%s\'!',

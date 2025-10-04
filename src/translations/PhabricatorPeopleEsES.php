@@ -83,6 +83,7 @@ final class PhabricatorPeopleEsES
       'Hide Administrators' => 'Ocultar administradores',
       'Type a username...' => 'Escriba un nombre de usuario...',
       'Send Welcome Email' => 'Enviar correo electrónico de bienvenida',
+      'Edit Settings' => 'Editar configuración',
       '%s defrocked %s.' => '%s eliminó los permisos de administrador a %s.',
       'Verified' => 'Verificado',
       'Change Username' => 'Cambiar nombre de usuario',

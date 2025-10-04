@@ -145,7 +145,6 @@ final class PhabricatorPeopleCa
       'users' => 'usuaris',
       'To send invites, you must enter at least one email address.' => 'Per enviar invitacions, heu d\'introduir com a mínim una adreça de correu electrònic.',
       'Approve User' => 'Aprova l\'usuari',
-      'Find users whose usernames contain a substring.' => 'Cerqueu usuaris els noms d’usuari dels quals continguin una subcadena.',
       'It is generally safe to rename users, but changing usernames may create occasional minor complications or confusion with text that contains the old username.' => 'Generalment és segur canviar el nom dels usuaris, però canviar els noms d’usuari pot crear complicacions ocasionals menors o confusió amb el text que conté l’antic nom d’usuari.',
       'You can use this login link to regain access to your account:
       %s

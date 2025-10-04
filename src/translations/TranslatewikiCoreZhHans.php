@@ -68,6 +68,7 @@ final class TranslatewikiCoreZhHans
       'Location to write the generated translation file.' => '写入生成的翻译文件的位置。',
       'Saraiki (Arabic Script)' => '色莱基语（阿拉伯文字）',
       'PLURAL' => '复数',
+      'Luxemborgish' => '卢森堡语',
     );
   }
 

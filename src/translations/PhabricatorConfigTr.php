@@ -49,11 +49,6 @@ final class PhabricatorConfigTr
       '%s created this configuration entry.' => '%s bu yapılandırma girişini oluşturdu.',
       'You have enabled pygments and the %s script is available, but does not seem to work.' => 'Pigmentleri etkinleştirdiniz ve %s betiği kullanılabilir, ancak çalışmıyor gibi görünüyor.',
       'This column is missing a type specification.' => 'Bu sütunda bir tür belirtimi eksik.',
-      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    This software will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s' => 'PHP şu anda veritabanıyla etkileşim kurmak için çok eski "mysql" uzantısını kullanıyor. Davranışları iyileştirmek için daha yeni "mysqli" uzantısını yüklemelisiniz (hata işleme ve sorgu zaman aşımları gibi).
-    Phabricator eski uzantıyla çalışacak, ancak yeni uzantıya yükseltme yapılması önerilir.
-    Uzantıyı aşağıdaki gibi bir komutla yükleyebilirsiniz: %s',
       'The current configuration has these %d value(s):' => 'Mevcut Phabricator yapılandırması şu %s değerine sahiptir:',
       'Column Has No Specification' => 'Sütunun Özellikleri Yok',
       'Delete configuration in the database instead of in local configuration.' => 'Yerel yapılandırma yerine veritabanındaki yapılandırmayı silin.',
@@ -79,9 +74,6 @@ final class PhabricatorConfigTr
       'Access log format.' => 'Erişim günlüğü biçimi.',
       'Use Pygments to highlight code?' => 'Phabricator, kodu vurgulamak için Pygment\'leri kullanmalı mı?',
       'Access log location.' => 'Erişim günlüğü konumu.',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => 'PHP yapılandırmanızda \'%s\' etkin.
-    Bu seçenek Phabricator ile uyumlu değildir. Devam etmek için PHP yapılandırmanızdaki \'%s\' değerini devre dışı bırakın.',
       'Your webserver is not handling GET parameters properly.' => 'Web sunucunuz GET parametrelerini düzgün işlemiyor.',
       'Repository Errors' => 'Depo Hataları',
       'Option "%s" is of type "%s", but the configured value is not the name of a known class. Valid selections are: %s.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bilinen bir sınıfın adı değildir. Geçerli seçimler: %s.',
@@ -98,6 +90,7 @@ final class PhabricatorConfigTr
       'Use Normal HTTP Redirects' => 'Normal HTTP Yönlendirmelerini Kullan',
       'Configuration key \'%s\' is not set in %s configuration!' => '\'%s\' yapılandırma anahtarı %s yapılandırmasında ayarlanmadı!',
       'Multi-Factor Optional' => 'Çok Faktörlü Opsiyonel',
+      'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator yüklenen dosyaların MIME türlerini belirleyemeyebilir.',
       'Access Denied' => 'Erişim Engellendi',
       'The configuration option \'%s\' has been removed. You may delete it at your convenience.
     %s' => '\'%s\' yapılandırma seçeneği kaldırıldı. İstediğiniz zaman silebilirsiniz.
@@ -105,7 +98,6 @@ final class PhabricatorConfigTr
       'Disable Pagespeed' => 'Sayfa Hızını Devre Dışı Bırak',
       'Elasticsearch index exists but needs correction.' => 'Elasticsearch dizini var, ancak düzeltilmesi gerekiyor.',
       'Nullable' => 'Sıfırlanabilir',
-      'The "%s" key is set to some value other than "-1" in your PHP configuration. This can cause PHP to raise deprecation warnings during process startup. Set this option to "-1" to prevent these warnings from appearing.' => '"%s" anahtarı PHP yapılandırmanızda "-1" dışında bir değere ayarlanmış. Bu, PHP\'nin işlem başlatma sırasında kullanımdan kaldırma uyarılarını yükseltmesine neden olabilir. Bu uyarıların görünmesini önlemek için bu seçeneği "-1" olarak ayarlayın.',
       'No "Host" Header' => '"Ana Bilgisayar" Üstbilgisi Yok',
       'Activity "%s" did not need to be marked as complete.' => '"%s" etkinliğinin tamamlanmış olarak işaretlenmesi gerekmez.',
       'SSH error log location.' => 'SSH hata günlüğü konumu.',
@@ -120,11 +112,11 @@ final class PhabricatorConfigTr
       'Profile 0.1%% of all requests' => 'Profil tüm istekleri %%0.1\'i',
       'This option has been replaced with the more granular option `%s`.' => 'Bu seçenek daha ayrıntılı seçenek olan `%s` ile değiştirildi.',
       'Require all users to configure multi-factor authentication.' => 'Tüm kullanıcıların çok faktörlü kimlik doğrulamasını yapılandırmasını zorunlu kılın.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator yüklenen dosyaların MIME türlerini belirleyemeyebilir.',
       'Stop this software from sending any email, etc.' => 'Phabricator\'ın herhangi bir e-posta vb. göndermesini durdurun.',
       'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' ikili dosyası bulunamadı. \'%s\' simgesine dokunun veya web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya Phabricator yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
       'Configuration Guide: Locked and Hidden Configuration' => 'Yapılandırma Kılavuzu: Kilitli ve Gizli Yapılandırma',
       'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Bu seçenek ayrıntılı hata raporlamayı (yığın izleri, hata bilgileri) etkinleştirir ve her yeniden yüklemede statik varlıkların disk okumalarını zorlar.',
+      'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Bu alternatif URI\'ler Phabricator kurulumunuzdaki \'normal\' sayfalara erişebilecek. OAuth gibi diğer özellikler çalışmaz. Bunun en önemli kullanım alanı, yüklemeleri etki alanları arasında taşımaktır.',
       '(%s%s) %s' => '(%s%s) %s',
       'Nonreplicating Replica' => 'Çoğaltılmayan Çoğaltma',
       'Run these %d command(s):' => 'Bu %s komutunu çalıştırın:',
@@ -190,11 +182,6 @@ final class PhabricatorConfigTr
       'Remove Custom Logo' => 'Özel Logoyu Kaldır',
       'No notification servers are configured.' => 'Hiçbir bildirim sunucusu yapılandırılmamış.',
       '(Not Supported)' => '(Desteklenmiyor)',
-      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
-    This software will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s' => 'PHP şu anda daha yeni MySQL yerel sürücüsü yerine eski MySQL harici sürücüsünü kullanıyor. Eski sürücü, Phabricator\'ın veritabanıyla daha iyi etkileşime girmesini sağlayan seçenekler ve özelliklerden (sorgu zaman aşımı desteği gibi) yoksundur.
-    Phabricator eski sürücü ile çalışacaktır, ancak yerel sürücüye yükseltme yapılması önerilir.
-    Yerel sürücüyü şu komutla yükleyebilirsiniz: %s',
       'Nonstandard port' => 'Standart dışı bağlantı noktası',
       'Don\'t embed Commons videos' => 'Commons videolarını yerleştirme',
       'This configuration has been removed. You can safely delete it.
@@ -319,6 +306,7 @@ final class PhabricatorConfigTr
       'Option "%s" is of type "%s", but the configured value is not a string.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bir dize değildir.',
       'User Guide: Amazon RDS' => 'Kullanım Kılavuzu: Amazon RDS',
       'Repository %s has an ambiguous leader.' => '%s deponun belirsiz bir lideri var.',
+      'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator görüntüleri işleyemez veya yeniden boyutlandıramaz (örneğin, küçük resimler oluşturmak için). \'%s\' yükleyin veya etkinleştirin.',
       'When you upload a file via drag-and-drop or the API, chunks must be buffered into memory before being written to permanent storage. This server needs memory available to store these chunks while they are uploaded, but PHP is currently configured to severely limit the available memory.
     PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
     (Note that the application itself must also fit in available memory, so not all of the memory under the memory limit is available for running workloads.)
@@ -342,7 +330,6 @@ final class PhabricatorConfigTr
       'Embed YouTube videos' => 'YouTube videolarını gömme',
       'Add One Path' => 'Bir Yol Ekle',
       'Clear Cache' => 'Önbelleği Temizle',
-      'MySQL Native Driver Not Available' => 'MySQL Yerel Sürücüsü Kullanılamıyor',
       'Unignore this setup issue?' => 'Bu kurulum sorununu yoksayı kaldırılsın mı?',
       'Configure Mail.' => 'Postayı Yapılandır.',
       'You can update these %d value(s) here:' => 'Bu %s değerini buradan güncelleyebilirsiniz:',
@@ -413,7 +400,6 @@ final class PhabricatorConfigTr
       'Database' => 'Veritabanı',
       'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.' => 'SAĞLIKSIZ: Bu veritabanı son sağlık kontrollerinde başarısız oldu. Trafik kurtarılana kadar ona gönderilmez.',
       'Request input, in bytes.' => 'Bayt cinsinden girdi iste.',
-      'PHP 7 Compatibility Information' => 'Phabricator PHP 7 Uyumluluk Bilgisi',
       'You enabled pygments but the %s script is not actually available, your %s is probably broken.' => 'Pigmentleri etkinleştirdiniz, ancak %s betiği aslında kullanılamıyor, %s muhtemelen bozuk.',
       'Application Settings' => 'Uygulama Ayarları',
       'Show email preferences link in email.' => 'E-postada e-posta tercihleri bağlantısını göster.',
@@ -471,21 +457,6 @@ final class PhabricatorConfigTr
       'This column has the wrong autoincrement setting.' => 'Bu sütun yanlış otomatik ayar ayarına sahip.',
       'Allows you to add footer links on most pages.' => 'Çoğu sayfaya altbilgi bağlantısı eklemenizi sağlar.',
       'USWest Region' => 'USWest Bölgesi',
-      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
-    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
-    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
-    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'Veritabanı ana bilgisayarı "%s", arama dizinleri oluşturmak için yerleşik anahtar kelime dosyasını kullanıyor. Bu, Phabricator\'ın arama özelliğini daha az kullanışlı hale getirebilir.
-    Anahtar sözcükler, dizine eklenmemiş ve bu nedenle aranamayan yaygın kelimelerdir. Varsayılan anahtar kelime dosyasında, aramak isteyebileceğiniz çeşitli kelimeler (\'çeşitli\', \'olası\', \'dilek\' ve \'sıfır\' gibi) yaklaşık 500 kelime vardır.
-    Aramayı daha kullanışlı hale getirmek için, daha az kelime içeren alternatif bir anahtar kelime dosyası kullanabilirsiniz. Alternatif olarak, yaygın kelimeleri aramakla ilgilenmiyorsanız, bu uyarıyı göz ardı edebilirsiniz. Daha sonra Elasticsearch\'ı yapılandırmayı planlıyorsanız, bu uyarıyı da göz ardı edebilirsiniz: bu parola dosyası yalnızca MySQL tam metin dizinlerini etkiler.
-    Farklı bir anahtar kelime dosyası seçmek için bunu %s dosyanıza ekleyin (%s bölümünde) ve ardından %s yeniden başlatın:
-    %s
-    (İsterseniz farklı bir dosya da kullanabilirsiniz. Yukarıda önerilen dosya en yaygın İngilizce kelimelerin yaklaşık 50\'sine sahiptir.)
-    Son olarak, yeni kuralları kullanarak dizinleri yeniden oluşturmak için bu komutu çalıştırın:
-    %s',
       'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Manifest alanları artık "%s" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.',
       'Enable Prototypes' => 'Prototipleri Etkinleştir',
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch artık "%s" ile yapılandırıldı.',
@@ -505,20 +476,12 @@ final class PhabricatorConfigTr
       'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
     Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'Phabricator şu anda doğrudan diğer içeriklerle aynı alandan kullanıcı yüklemeleri sunacak şekilde yapılandırılmıştır. Bu bir güvenlik riskidir.
     Bu riski ortadan kaldırmak için bir CDN (veya alternatif dosya etki alanı) yapılandırın. CDN kullanmak performansı da artıracaktır. Talimatlar için aşağıdaki kılavuza bakın.',
-      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator, varsayılan olarak birkaç dili vurgulayan sözdizimini destekler, ancak daha birçok dile destek sağlamak için Pygments\'ı (üçüncü taraf sözdizimi vurgulama aracı) yükleyebilirsiniz.
-    Pygments\'ı yüklemek için [[ http://pygments.org | pygments.org ]] ve indirme ve yükleme talimatlarını izleyin.
-    Pygments yüklendikten sonra, Phabricator\'ın kaynak kodunu vurgularken Pygments kullanmasını sağlamak için bu seçeneği (`pygments.enabled`) etkinleştirin.
-    Pygments\' yükleyip etkinleştirdikten sonra, yeni oluşturulan kaynak kodunun (diffs ve macunlar gibi) doğru şekilde vurgulanması gerekir. Önceden var olan kaynak kodunu vurgulamak için Phabricator\'ın önbelleklerini temizlemeniz gerekebilir. Önbellekleri yönetmeyle ilgili talimatlar için, [[ %s | Önbellekleri Yönetme ]] sayfasına bakın.',
       '%s Stats' => '%s Durumlar',
       'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'Subversion\'un desteklenen en düşük sürümü, 2008\'de yayınlanan 1.5\'tir.',
       'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'PHP bellek sınırınız, büyük dosyalar yüklemenizi veya büyük istekleri işlemenizi engelleyebilecek şekilde yapılandırılmıştır.',
       'The system user.' => 'Sistem kullanıcısı.',
       'Reload Page' => 'Sayfayı Yenile',
       'Force users to connect via HTTPS instead of HTTP.' => 'Kullanıcıları HTTP yerine HTTPS üzerinden bağlanmaya zorlayın.',
-      'Install the MySQLi extension to improve database behavior.' => 'Veritabanı davranışını iyileştirmek için MySQLi uzantısını yükleyin.',
       'Large Files' => 'Büyük Dosyalar',
       'The namespace that databases should use.' => 'Phabricator veritabanlarının kullanması gereken ad alanı.',
       'Mark a manual upgrade activity as complete.' => 'Manüel yükseltme etkinliğini tamamlandı olarak işaretleyin.',
@@ -611,19 +574,6 @@ final class PhabricatorConfigTr
       'Really Clear Cache' => 'Gerçekten Açık Önbellek',
       'Unexpected \'%s\' Behavior' => 'Beklenmeyen \'%s\' Davranışı',
       'Mail thread IDs are now generated automatically.' => 'Posta dizisi kimlikleri artık otomatik olarak oluşturuluyor.',
-      'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
-    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
-    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
-    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'Veritabanı ana bilgisayarı "%s", arama dizinleri oluştururken varsayılan minimum kelime uzunluğunu kullanacak şekilde yapılandırılır. Bu, 4\'tür. Bu, yalnızca 3 karakter uzunluğundaki kelimelerin dizine eklenmeyeceği ve aranamayacağı anlamına gelir.
-    Örneğin, \'SMS\', \'web\' veya \'DOS\' gibi kelimelerin arama sonuçlarını bulamazsınız.
-    Bu kelimelerin dizine eklenmesine izin vermek için bu ayarı 3 olarak değiştirebilirsiniz. Alternatif olarak, 3 harfli kelimeleri aramakla ilgilenmiyorsanız bu uyarıyı göz ardı edebilirsiniz. Daha sonra Elasticsearch\'ı yapılandırmayı planlıyorsanız, bu uyarıyı da göz ardı edebilirsiniz: yalnızca MySQL tam metin araması etkilenir.
-    Minimum kelime uzunluğunu 3\'e düşürmek için bunu %s dosyanıza ekleyin (%s bölümünde) ve sonra %s yeniden başlatın:
-    %s
-    Son olarak, yeni kuralları kullanarak dizinleri yeniden oluşturmak için bu komutu çalıştırın:
-    %s',
       'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the %s configuration value \'%s\' to specify one.' => 'Yapılandırmanız bir sunucu saat dilimi belirtemiyor. PHP yapılandırma değerini \'%s\' veya Phabricator yapılandırma değerini \'%s\' olarak ayarlayabilirsiniz.',
       'Enable HTTP Strict Transport Security (HSTS).' => 'HTTP Sıkı Aktarım Güvenliğini (HSTS) etkinleştirin.',
       'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Phabricator %2$s içinde %1$s kullanılabilir, ancak ikilik %s olarak çalıştırıldığında bir hata kodu ile çıkıldı. Doğru takıldığından emin olun.',
@@ -638,6 +588,19 @@ final class PhabricatorConfigTr
       'Database Value' => 'Veritabanı Değeri',
       'US Mountain (MDT)' => 'ABD Dağı (MDT)',
       'This option has been replaced with `ui.logo`, which provides more flexible configuration options.' => 'Bu seçenek daha esnek yapılandırma seçenekleri sağlayan `ui.logo` ile değiştirildi.',
+      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
+    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
+    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
+    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)' => 'Veritabanı ana bilgisayarı "%s", arama dizinleri oluşturmak için yerleşik anahtar kelime dosyasını kullanıyor. Bu, Phabricator\'ın arama özelliğini daha az kullanışlı hale getirebilir.
+    Anahtar sözcükler, dizine eklenmemiş ve bu nedenle aranamayan yaygın kelimelerdir. Varsayılan anahtar kelime dosyasında, aramak isteyebileceğiniz çeşitli kelimeler (\'çeşitli\', \'olası\', \'dilek\' ve \'sıfır\' gibi) yaklaşık 500 kelime vardır.
+    Aramayı daha kullanışlı hale getirmek için, daha az kelime içeren alternatif bir anahtar kelime dosyası kullanabilirsiniz. Alternatif olarak, yaygın kelimeleri aramakla ilgilenmiyorsanız, bu uyarıyı göz ardı edebilirsiniz. Daha sonra Elasticsearch\'ı yapılandırmayı planlıyorsanız, bu uyarıyı da göz ardı edebilirsiniz: bu parola dosyası yalnızca MySQL tam metin dizinlerini etkiler.
+    Farklı bir anahtar kelime dosyası seçmek için bunu %s dosyanıza ekleyin (%s bölümünde) ve ardından %s yeniden başlatın:
+    %s
+    (İsterseniz farklı bir dosya da kullanabilirsiniz. Yukarıda önerilen dosya en yaygın İngilizce kelimelerin yaklaşık 50\'sine sahiptir.)
+    Son olarak, yeni kuralları kullanarak dizinleri yeniden oluşturmak için bu komutu çalıştırın:
+    %s',
       'Rebuild Search Index' => 'Arama Dizini\'ni Yeniden Oluştur',
       'Do not install this software on an instance class with burstable CPU.' => 'Phabricator\'ı bükülebilir CPU içeren bir örnek sınıfına kurmayın.',
       'Real' => 'Gerçek',
@@ -752,7 +715,6 @@ final class PhabricatorConfigTr
       'Inbound and outbound mail is now configured with "cluster.mailers".' => 'Gelen ve giden postalar artık "cluster.mailers" ile yapılandırıldı.',
       'Config \'%s\' Invalid' => '\'%s\' Yapılandırması Geçersiz',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'Bir veritabanı ana bilgisayarı ("%s") ve bu web ana makinesi ("%s") şimdiki zamana 60 saniyeden fazla katılmıyor (mutlak eğrilik %s). Geçerli saatin her yerde doğru ayarlandığını kontrol edin.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, Phabricator görüntüleri işleyemez veya yeniden boyutlandıramaz (örneğin, küçük resimler oluşturmak için). \'%s\' yükleyin veya etkinleştirin.',
       'No Recipient Hints' => 'Alıcı İpucu Yok',
       'Sample 0.1%% of requests.' => 'Örnek taleplerin %%0.1\'i.',
       'No Issues' => 'Hata Yok',
@@ -886,9 +848,6 @@ final class PhabricatorConfigTr
       'You can find more information about configuring OPcache in the %s.' => 'OPcache yapılandırması hakkında daha fazla bilgiyi %s içinde bulabilirsiniz.',
       'PHP Timezone' => 'PHP Zaman Dilimi',
       'This option is not recognized. It may be misspelled.' => 'Bu seçenek tanınmıyor. Yanlış yazılmış olabilir.',
-      'You have \'%s\' enabled in your PHP configuration, but this software will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
-    Disable safe mode to continue.' => 'PHP yapılandırmanızda \'%s\' etkin, ancak Phabricator güvenli modda çalışmaz. Güvenli mod PHP 5.3\'te kullanımdan kaldırılmış ve PHP 5.4\'te kaldırılmıştır.
-    Devam etmek için güvenli modu devre dışı bırakın.',
       'Internal.' => 'Dahili.',
       'Advanced Settings' => 'Gelişmiş Ayarlar',
       'SSH log format.' => 'SSH günlük biçimi.',
@@ -902,7 +861,6 @@ final class PhabricatorConfigTr
       'After editing the PHP configuration, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'PHP yapılandırmasını düzenledikten sonra, <strong>değişikliklerin etkili olması için Phabricator\'ı yeniden başlatın</strong>. Phabricator\'ı yeniden başlatmayla ilgili yardım için belgelerdeki %s bakın.',
       'Repository Status' => 'Depo Durumu',
       'Do Not Use HSTS' => 'HSTS Kullanmayın',
-      'PHP 7.0-7.1 Not Supported' => 'PHP 7.0-7.1 Desteklenmemektedir',
       'List all configuration keys.' => 'Tüm yapılandırma anahtarlarını listeleyin.',
       'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'Uygulama başına posta konusu öneki özelleştirmesi artık doğrudan desteklenmemektedir. Ön ekler ve diğer dizeler "translation.override" ile özelleştirilebilir.',
       'Configuration key "%s" is of type "%s". Specify it in JSON.' => '"%s" yapılandırma anahtarı "%s" türündedir. Bunu JSON\'da belirtin.',
@@ -990,7 +948,6 @@ final class PhabricatorConfigTr
       'Daemons Not Running' => 'Daemon Çalışmıyor',
       'MySQL username to use when connecting to the database.' => 'Veritabanına bağlanırken kullanılacak MySQL kullanıcısı.',
       'Secret key for Amazon EC2.' => 'Amazon EC2 için gizli anahtar.',
-      'Configure the MySQL Native Driver to improve database behavior.' => 'MySQL Yerel Sürücüsünü veritabanı davranışını iyileştirmek için yapılandırın.',
       'These %d configuration value(s) are related:' => 'Bu %s yapılandırma değeri aşağıdakilerle ilgilidir:',
       'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
     This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'Phabricator, "Accept-Encoding: gzip" ile bir istek gönderdi, ancak sıkıştırılmamış bir yanıt aldı.
@@ -1029,6 +986,13 @@ final class PhabricatorConfigTr
     Phabricator\'ı salt okunur moda geçirin. Bu modda kullanıcılar yeni veri yazamaz. Normalde, küme veritabanı yöneticisine erişilemediğini algıladığında otomatik olarak bu moda geçer, ancak bakım veya test yapılandırması gerçekleştirmek için el ile etkinleştirebilirsiniz.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Ciddi Güvenlik Açığı: Toplu Olmayan Bash',
       'Force HTTPS' => 'HTTPS\'yi zorla',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator, varsayılan olarak birkaç dili vurgulayan sözdizimini destekler, ancak daha birçok dile destek sağlamak için Pygments\'ı (üçüncü taraf sözdizimi vurgulama aracı) yükleyebilirsiniz.
+    Pygments\'ı yüklemek için [[ http://pygments.org | pygments.org ]] ve indirme ve yükleme talimatlarını izleyin.
+    Pygments yüklendikten sonra, Phabricator\'ın kaynak kodunu vurgularken Pygments kullanmasını sağlamak için bu seçeneği (`pygments.enabled`) etkinleştirin.
+    Pygments\' yükleyip etkinleştirdikten sonra, yeni oluşturulan kaynak kodunun (diffs ve macunlar gibi) doğru şekilde vurgulanması gerekir. Önceden var olan kaynak kodunu vurgulamak için Phabricator\'ın önbelleklerini temizlemeniz gerekebilir. Önbellekleri yönetmeyle ilgili talimatlar için, [[ %s | Önbellekleri Yönetme ]] sayfasına bakın.',
       'This key is not expected to exist.' => 'Bu anahtarın olması beklenmez.',
       '%s.%s' => '%s.%s',
       '%s.%s.%s' => '%s.%s.%s',
@@ -1043,7 +1007,6 @@ final class PhabricatorConfigTr
       'Don\'t require email verification' => 'E-posta doğrulaması gerektirme',
       'Configuration key "%s" is unknown. Use "bin/config list" to list all known keys.' => '"%s" yapılandırma anahtarı bilinmiyor. Bilinen tüm anahtarları listelemek için "bin/config list" kullanın.',
       'Alternate File Domain Not Configured' => 'Alternatif Dosya Etki Alanı Yapılandırılmadı',
-      'MySQLi Extension Not Available' => 'MySQLi Uzantısı Mevcut Değil',
       'Unknown schema issue "%s"!' => 'Bilinmeyen şema sorunu "%s"!',
       'Embed Commons videos' => 'Gömülü Commons videoları',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
@@ -1080,6 +1043,18 @@ final class PhabricatorConfigTr
       'Only allow registration from particular domains.' => 'Yalnızca belirli alan adlarından kayıt yapılmasına izin verin.',
       'Subschemata have setup failures.' => 'Subschemata kurulum hataları var.',
       'No performance sampling.' => 'Performans örneklemesi yok.',
+      'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
+    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
+    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
+    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    ' => 'Veritabanı ana bilgisayarı "%s", arama dizinleri oluştururken varsayılan minimum kelime uzunluğunu kullanacak şekilde yapılandırılır. Bu, 4\'tür. Bu, yalnızca 3 karakter uzunluğundaki kelimelerin dizine eklenmeyeceği ve aranamayacağı anlamına gelir.
+    Örneğin, \'SMS\', \'web\' veya \'DOS\' gibi kelimelerin arama sonuçlarını bulamazsınız.
+    Bu kelimelerin dizine eklenmesine izin vermek için bu ayarı 3 olarak değiştirebilirsiniz. Alternatif olarak, 3 harfli kelimeleri aramakla ilgilenmiyorsanız bu uyarıyı göz ardı edebilirsiniz. Daha sonra Elasticsearch\'ı yapılandırmayı planlıyorsanız, bu uyarıyı da göz ardı edebilirsiniz: yalnızca MySQL tam metin araması etkilenir.
+    Minimum kelime uzunluğunu 3\'e düşürmek için bunu %s dosyanıza ekleyin (%s bölümünde) ve sonra %s yeniden başlatın:
+    %s
+    Son olarak, yeni kuralları kullanarak dizinleri yeniden oluşturmak için bu komutu çalıştırın:
+    %s',
       'Show installed extensions and modules.' => 'Yüklü uzantıları ve birimleri göster.',
       'Opcode Cache' => 'Opcode Önbelleği',
       'ID of the SSH key used to authenticate the request.' => 'İsteğin kimliğini doğrulamak için kullanılan SSH anahtarının kimliği.',
@@ -1132,10 +1107,8 @@ final class PhabricatorConfigTr
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'Yerel depolar dizini (%s) mevcut değil veya web sunucusu tarafından okunamıyor. Phabricator, depolar hakkında bilgi depolamak için bu dizini kullanır. Bu dizin yoksa oluşturun:
     %s
     Bu dizin varsa, web sunucusu tarafından okunabilir hale getirin. Başka bir dizini kullanmak için aşağıdaki yapılandırmayı da düzenleyebilirsiniz.',
-      'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Bu alternatif URI\'ler Phabricator kurulumunuzdaki \'normal\' sayfalara erişebilecek. OAuth gibi diğer özellikler çalışmaz. Bunun en önemli kullanım alanı, yüklemeleri etki alanları arasında taşımaktır.',
       'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'Sözdizimi vurgulama koduna bir açılır liste görüntülediğimiz yerlerde, bu liste tanımlanır.',
       'Unignore' => 'Yoksaymayı geri al',
-      'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.' => 'Kullanım dışı bırakma uyarılarını önlemek için PHP "%s" ayarı "-1" olarak ayarlanmalıdır.',
       'Text values that match this regex and are also object names will not be linked.' => 'Bu normal ifadeyle eşleşen ve aynı zamanda nesne adları olan metin değerleri bağlanmayacaktır.',
       '%s Held / %sms' => '%s Tutuldu / %sms',
       'Write access log here.' => 'Erişim günlüğünü buraya yazın.',

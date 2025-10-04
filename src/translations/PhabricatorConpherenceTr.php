@@ -91,7 +91,6 @@ final class PhabricatorConpherenceTr
       'Create a new conpherence thread.' => 'Yeni bir konferans iletiyi oluşturun.',
       'Search by room titles.' => 'Oda başlıklarına göre arama yapın.',
       'Peach' => 'Şeftali',
-      'No Rooms' => 'Oda Yok',
       'Private Room' => 'Özel Oda',
       'Light' => 'Açık',
       'Theme' => 'Tema',

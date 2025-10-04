@@ -52,7 +52,6 @@ final class ArcanistCoreZhHant
       'Browse URI "%s"' => '瀏覽 URI「%s」',
       'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => '工作副本包括對「%s」路徑的變更。這些變更不會包含在差異中，因為 SVN 無法在正常變更的同時提交 \'svn:externals\' 變更。',
       'Base commit ruleset to invoke when determining the start of a commit range. See "Arcanist User Guide: Commit Ranges" for details.' => '確定提交範圍的開始時要調用的基本提交規則集。有關詳細資訊，請參閱“Arcanist 用戶指南：提交範圍”。',
-      '%s is not compatible with your version of PHP (%s). This function is only supported on PHP versions newer than 5.3.0.' => '%s與您的 PHP ( %s ) 版本不兼容。此功能僅在 PHP 5.3.0 之後的版本上受支持。',
       '**bookmarks**' => '**書籤**',
       'Nowhere to load blob \'%s\' from!' => '無處載入 blob \' %s \'！',
       'Runtime Error' => '執行時錯誤',

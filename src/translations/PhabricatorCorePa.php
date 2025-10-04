@@ -71,7 +71,6 @@ final class PhabricatorCorePa
       'View All Rules' => 'ਸਾਰੇ ਅਸੂਲ ਵੇਖੋ',
       'Set Password' => 'ਪਾਰਸ਼ਬਦ ਕਾਇਮ ਕਰੋ',
       'Updated' => 'ਨਵਿਆਈਆ ਗਿਆ',
-      'Advanced Search' => 'ਉੱਚ-ਪੱਧਰੀ ਖੋਜ',
       'Session' => 'ਕਾਰਜਕਾਲ',
       'Type "any()"...' => 'ਲਿਖੋ "ਕੋਈ ਵੀ()"...',
       'Data Export' => 'ਡਾਟਾ ਬਰਾਮਦ ਕਰੋ',

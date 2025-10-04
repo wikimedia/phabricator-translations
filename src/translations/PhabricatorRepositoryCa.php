@@ -52,6 +52,9 @@ final class PhabricatorRepositoryCa
       'Unexpected hint format at index "%s": %s' => 'Format de suggeriment inesperat a l\'índex \'%s\': %s',
       '(Dry Run) Would update assigned user from "%s" to "%s".' => '(Prova en blanc) Actualitzaria l\'usuari assignat de \'%s\' a \'%s\'.',
       'This ref is not configured as a permanent ref.' => 'Aquesta referència no es configura com una referència permanent.',
+      'To add custom hook scripts to this repository, add them to this directory.
+    %s will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'Per afegir scripts de hook personalitzats a aquest repositori, afegiu-los a aquest directori. 
+    Phabricator executarà tots els executables d’aquest directori després d’executar les seves pròpies comprovacions, com si fossin scripts de hook normals.',
       'Something is wrong; source of a copy must exist.' => 'Alguna cosa està malament; Ha d’existir la font d’una còpia.',
       'These repositories will be thawed:' => 'Aquests repositoris es descongelaran:',
       'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".' => 'S\'han destruït els registres de la base de dades del repositori «%s», però aquest script no elimina les còpies de treball del disc.  Si també voleu destruir la còpia de treball del repositori, elimineu manualment "%s".',
@@ -424,9 +427,6 @@ final class PhabricatorRepositoryCa
       'Unpublishing commit "%s".' => 'Cancel·lant la publicació de la validació "%s".',
       'Unpublish all feed stories and notifications that a repository has generated. Keep expectations low; can not rewind time.' => 'Anul·leu la publicació de totes les històries e continguts i notificacions que hagi generat un repositori. Mantingueu les expectatives baixes; no es pot rebobinar el temps.',
       'Apply the promotion or demotion to all repositories hosted on the device.' => 'Apliqueu la promoció o degradació a tots els repositoris allotjats al dispositiu.',
-      'To add custom hook scripts to this repository, add them to this directory.
-    Phabricator will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'Per afegir scripts de hook personalitzats a aquest repositori, afegiu-los a aquest directori. 
-    Phabricator executarà tots els executables d’aquest directori després d’executar les seves pròpies comprovacions, com si fossin scripts de hook normals.',
       'Updating refs in "%s"...' => 'Actualitzant refs a %s...',
       'Repository "%s" is already queued.' => 'El repositori "%s" ja és a la cua.',
       'Create Git Repository' => 'Crear un Repositori Git',

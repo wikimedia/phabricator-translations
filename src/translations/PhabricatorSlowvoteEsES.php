@@ -9,6 +9,7 @@ final class PhabricatorSlowvoteEsES
 
   protected function getTranslations() {
     return array(
+      'Close Poll' => 'Cerrar encuesta',
       'Create a Poll' => 'Crear una encuesta',
       'CHANGES TO POLL DESCRIPTION' => 'CAMBIOS A LA DESCRIPCIÓN DE LA ENCUESTA',
       '%s updated the description for this poll.' => '%s actualizó la descripción de esta encuesta.',

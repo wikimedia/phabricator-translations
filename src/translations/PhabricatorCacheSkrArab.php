@@ -10,8 +10,6 @@ final class PhabricatorCacheSkrArab
   protected function getTranslations() {
     return array(
       'APCu' => 'اے پی سی یو',
-      'APC' => 'اے پی سی',
-      '"%s" Enabled' => '"%s" فعال تھی ڳیا',
     );
   }
 

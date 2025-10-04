@@ -42,7 +42,6 @@ final class PhabricatorCoreBg
       'Import' => 'Внасяне',
       'Languages' => 'Езици',
       'Upload File' => 'Добавяне на файл',
-      'More Options' => 'Допълнителни опции',
       'Prev' => 'Предишна',
       'No results found.' => 'Не бяха открити резултати.',
       'Save' => 'Съхраняване',

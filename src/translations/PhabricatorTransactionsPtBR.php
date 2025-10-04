@@ -10,7 +10,6 @@ final class PhabricatorTransactionsPtBR
   protected function getTranslations() {
     return array(
       'Lock / Hide Fields' => 'Bloquear / ocultar campos',
-      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.' => 'Você não tem nenhum fator do MFA anexado à sua conta, portanto, não pode assinar este grupo de transações com o MFA. Adicione o MFA à sua conta em Configurações.',
       'To silence this edit, run this command:' => 'Para silenciar esta edição, execute este comando:',
       '%s added a comment.' => '%s adicionou um comentário.',
       '%s removed %s subscriber(s) for %s: %s.' => '%s removeu $ 2  inscrito(s) por %3$s: %4$s.',
@@ -68,6 +67,7 @@ final class PhabricatorTransactionsPtBR
       'Subtype configuration is invalid: subtype with key "%s" specifies both child subtypes and child forms. Specify one or the other, but not both.' => 'A configuração do subtipo é inválida: o subtipo com a chave "%s" especifica os subtipos secundários e os formulários secundários. Especifique um ou outro, mas não ambos.',
       'You can not sign a transaction group that has no other effects.' => 'Você não pode assinar um grupo de transações que não tenha outros efeitos.',
       'Encryption Required' => 'Criptografia Requerida',
+      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'Você não tem nenhum fator do MFA anexado à sua conta, portanto, não pode assinar este grupo de transações com o MFA. Adicione o MFA à sua conta em Configurações.',
       '%s wrote:' => '%s escreveu:',
       'EMAIL PREFERENCES' => 'PREFERÊNCIAS DE EMAIL',
       'User Guide: Customizing Forms' => 'Guia do Usuário: personalização de formulários',

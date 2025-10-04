@@ -38,6 +38,7 @@ final class PhabricatorPeopleEn
       'Type a log type name...' => 'Type a log type name...',
       'Sort of a social utility.' => 'Sort of a social utility.',
       'Approves a user.' => 'Approves a user.',
+      'View Activity Log' => 'View Activity Log',
       'Send Invitations' => 'Send Invitations',
       'Confirm Approval' => 'Confirm Approval',
       'MediaWiki username.' => 'MediaWiki username.',
@@ -47,9 +48,11 @@ final class PhabricatorPeopleEn
       'The user\'s username.' => 'The user\'s username.',
       '%s empowered this user as an administrator.' => '%s empowered this user as an administrator.',
       'Musician' => 'Musician',
+      'Real Name must have no more than %d characters.' => 'Real Name must have no more than %s characters.',
       '[%s] Account Password Link' => '[%s] Account Password Link',
       'Make real names required' => 'Make real names required',
       'Already Approved' => 'Already Approved',
+      'Authored Commits' => 'Authored Commits',
       'Account Activity' => 'Account Activity',
       'Relationships' => 'Relationships',
       'Username and email must be unique.' => 'Username and email must be unique.',
@@ -119,6 +122,7 @@ final class PhabricatorPeopleEn
       'New username cannot be the old username.' => 'New username cannot be the old username.',
       'You do not have permission to browse the user directory.' => 'You do not have permission to browse the user directory.',
       'User title, like "CEO" or "Assistant to the Manager".' => 'User title, like "CEO" or "Assistant to the Manager".',
+      'Received Badges' => 'Received Badges',
       'Not a Normal User' => 'Not a Normal User',
       'Search for actions by remote address.' => 'Search for actions by remote address.',
       'Select results with any owner.' => 'Select results with any owner.',
@@ -158,8 +162,8 @@ final class PhabricatorPeopleEn
       'users' => 'users',
       'To send invites, you must enter at least one email address.' => 'To send invites, you must enter at least one email address.',
       'Approve User' => 'Approve User',
-      'Find users whose usernames contain a substring.' => 'Find users whose usernames contain a substring.',
       'It is generally safe to rename users, but changing usernames may create occasional minor complications or confusion with text that contains the old username.' => 'It is generally safe to rename users, but changing usernames may create occasional minor complications or confusion with text that contains the old username.',
+      'User Profile' => 'User Profile',
       'You can use this login link to regain access to your account:
       %s
     ' => 'You can use this login link to regain access to your account:
@@ -236,6 +240,7 @@ final class PhabricatorPeopleEn
       'You do not have permission to disable or enable users.' => 'You do not have permission to disable or enable users.',
       'Pass true to find only bots, or false to omit bots.' => 'Pass true to find only bots, or false to omit bots.',
       'This user can not see this object.' => 'This user can not see this object.',
+      'Authored Revisions' => 'Authored Revisions',
       'To permanently destroy this user, run this command from the command line:' => 'To permanently destroy this user, run this command from the command line:',
       'No recent revisions.' => 'No recent revisions.',
       'Can\'t remove primary email!' => 'Can\'t remove primary email!',
@@ -292,6 +297,7 @@ final class PhabricatorPeopleEn
       - If you send email //to// this server on behalf of the     account, the address can identify the sender.
       - Some internal authentication functions depend on accounts     having an email address.
     The address will automatically be verified, so you do not need to be able to receive mail at this address, and can enter some invalid or nonexistent (but correctly formatted) address like `bot@yourcompany.com` if you prefer.',
+      'No authored tasks.' => 'No authored tasks.',
       'None of the provided addresses are valid invite recipients. Review the table below for details. Revise the address list to continue.' => 'None of the provided addresses are valid invite recipients. Review the table below for details. Revise the address list to continue.',
       '%s defrocked %s.' => '%s defrocked %s.',
       'User Email' => 'User Email',
@@ -304,6 +310,7 @@ final class PhabricatorPeopleEn
       'Browse Log Types' => 'Browse Log Types',
       'This method is frozen and will eventually be deprecated. New code should use "user.search" instead.' => 'This method is frozen and will eventually be deprecated. New code should use "user.search" instead.',
       '%s Account "%s" Approved' => '%s Account "%s" Approved',
+      'Find users whose usernames or real names contain a substring.' => 'Find users whose usernames or real names contain a substring.',
       'Login: Upgrade to Full' => 'Login: Upgrade to Full',
       'Create User' => 'Create User',
       'Unapproved Account' => 'Unapproved Account',
@@ -378,6 +385,7 @@ final class PhabricatorPeopleEn
     %s
     If you combine this function with other functions, the query will return results which match the other selectors //or// have no owner. For example, this query will find results which are owned by `alincoln`, and will also find results which have no owner:
     %s',
+      'People Profile Pictures' => 'People Profile Pictures',
       'Enable User?' => 'Enable User?',
       'Update Preview' => 'Update Preview',
       'Short blurb about the user.' => 'Short blurb about the user.',
@@ -399,8 +407,10 @@ final class PhabricatorPeopleEn
       'The "Has MFA" query constraint may only be used by administrators, to prevent attackers from using it to target weak accounts.' => 'The "Has MFA" query constraint may only be used by administrators, to prevent attackers from using it to target weak accounts.',
       'Actor PHID' => 'Actor PHID',
       'You can not send welcome mail because you are not an administrator. Only administrators may send welcome mail.' => 'You can not send welcome mail because you are not an administrator. Only administrators may send welcome mail.',
+      'No recent commits.' => 'No recent commits.',
       'User Since' => 'User Since',
       '%s enabled this user.' => '%s enabled this user.',
+      'Authored Tasks' => 'Authored Tasks',
       'Create Bot User' => 'Create Bot User',
       'You can optionally include a heartfelt personal message in the email.' => 'You can optionally include a heartfelt personal message in the email.',
       'Email: Recovery Link' => 'Email: Recovery Link',

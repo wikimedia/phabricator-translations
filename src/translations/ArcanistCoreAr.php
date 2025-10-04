@@ -38,7 +38,6 @@ final class ArcanistCoreAr
       'Pick' => 'اختر',
       'Browse URI "%s"' => 'تصفح URI "%s"',
       'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => 'نسخة العمل تتضمن تغييرات على مسارات "%s". لن يجري تضمين هذه التغييرات في الفرق لأن SVN لا يمكنه تنفيذ تغييرات \'svn:externals\' جنبًا إلى جنب مع التغييرات العادية.',
-      '%s is not compatible with your version of PHP (%s). This function is only supported on PHP versions newer than 5.3.0.' => '%s غير متوافق مع إصدار PHP الخاص بك (%s). هذه الدالة مدعومة فقط في إصدارات PHP الأحدث من 5.3.0.',
       '**bookmarks**' => '**إشارات مرجعية**',
       'Nowhere to load blob \'%s\' from!' => 'لا مكان لتحميل blob \'%s\' منه!',
       'Runtime Error' => 'خطا وقت التشغيل',

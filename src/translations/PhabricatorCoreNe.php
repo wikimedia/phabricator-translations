@@ -134,7 +134,6 @@ final class PhabricatorCoreNe
       'Enabled' => 'सक्रिय पारिएको',
       'Devices' => 'उपकरणहरू',
       'Done.' => 'सम्पन्न।',
-      'More Options' => 'थप विकल्पहरू',
       'Prev' => 'अघिल्लो',
       'Done' => 'सम्पन्न',
       'No results found.' => 'कुनै पनि नतिजाहरू भेटिएन',

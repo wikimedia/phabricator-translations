@@ -449,6 +449,7 @@ final class PhabricatorCalendarEn
       'Normal Event' => 'Normal Event',
       'Invalid DURATION: %s' => 'Invalid DURATION: %s',
       'Log Messages' => 'Log Messages',
+      'Invalid date or time value set as query value.' => 'Invalid date or time value set as query value.',
       '%s cancelled this event.' => '%s cancelled this event.',
       'You can not change your display availability for events you are not attending.' => 'You can not change your display availability for events you are not attending.',
       'Working From Home' => 'Working From Home',

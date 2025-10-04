@@ -13,8 +13,6 @@ final class PhabricatorextCoreJa
       'Next: %s' => '次は: %s',
       'Standard Phabricator.' => '標準的なPhabricatorです。',
       'Auto-generated release schedule details.' => '自動生成されたリリーススケジュールの詳細。',
-      'This adds a link to search Maniphest for open tasks which are tagged with this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'このプロジェクトでタグ付けされたオープンタスクを検索するマニフェストへのリンクが追加されます。
-    注：この機能はWikimedia-maintainedが管理する拡張機能、ProjectOpenTasksProfileMenuItemextensionによって提供されます。ソースは {rPHEX} をご覧ください。',
       'Merged' => '統合',
       'Unresolved code review comments: %d' => '未解決のコードレビューコメント: %s',
       'Customize query in gerrit' => 'gerritでのクエリのカスタマイズ',
@@ -69,6 +67,8 @@ final class PhabricatorextCoreJa
       'Deny' => '拒否',
       'Invalid' => '無効',
       'Secret Token' => '秘密鍵',
+      'This adds a link to search Maniphest for open tasks which are tagged with this project. NOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'このプロジェクトでタグ付けされたオープンタスクを検索するマニフェストへのリンクが追加されます。
+    注：この機能はWikimedia-maintainedが管理する拡張機能、ProjectOpenTasksProfileMenuItemextensionによって提供されます。ソースは {rPHEX} をご覧ください。',
       'Required' => '必須',
     );
   }

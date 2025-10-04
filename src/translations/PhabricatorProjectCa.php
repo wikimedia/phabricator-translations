@@ -319,7 +319,6 @@ final class PhabricatorProjectCa
       'Tagged with Project' => 'Etiquetat amb el projecte',
       'The project the column belongs to.' => 'El projecte al qual pertany la columna.',
       'Trigger Rules' => 'Regles del disparador',
-      'Owner rule value is required. Specify a user to assign tasks to, or the token "none()" to unassign tasks.' => 'El valor de la regla del propietari és obligatori. Especifiqueu un usuari per assignar-li tasques o el testimoni "none()" per anul·lar l\'assignació de tasques.',
       '%s added %d %s hashtag(s): %s.' => '%s ha afegit %s %s hashtags: %s.',
       '%s set the column trigger to %s.' => '%s estableix el disparador de columna a %s.',
       '%s edited member(s) for %s, added %s: %s; removed %s: %s.' => '%s ha modificat membres per %s, afegit %s: %s; eliminat %s: %s.',

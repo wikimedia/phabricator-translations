@@ -101,7 +101,6 @@ final class PhabricatorConpherenceFrFR
       'Create a new conpherence thread.' => 'Créer un nouveau fil de Conpherence.',
       'Search by room titles.' => 'Rechercher par titre de salle.',
       'Peach' => 'Pêche',
-      'No Rooms' => 'Aucune salle',
       'Private Room' => 'Salon privé',
       'Light' => 'Clair',
       'Theme' => 'Thème',

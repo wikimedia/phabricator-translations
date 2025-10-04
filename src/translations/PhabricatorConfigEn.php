@@ -66,11 +66,43 @@ final class PhabricatorConfigEn
       '%s created this configuration entry.' => '%s created this configuration entry.',
       'You have enabled pygments and the %s script is available, but does not seem to work.' => 'You have enabled pygments and the %s script is available, but does not seem to work.',
       'This column is missing a type specification.' => 'This column is missing a type specification.',
-      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    This software will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s' => 'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    This software will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s',
+      'When a user takes an action which generates an email notification (like
+    commenting on a Differential revision), the "From" address can either be set
+    to the user\'s email address (like "alincoln@logcabin.com") or the
+    "metamta.default-address" address.
+    The user experience is generally better if the user\'s real address is used as
+    the "From" header value, since the messages are easier to organize when they
+    appear in mail clients, but this will only work if the server is authorized to
+    send email on behalf of the "From" domain. Practically, this means:
+      - If you are doing an install for Example Corp and all the users will have
+        corporate @corp.example.com addresses and any hosts this software is running
+        on are authorized to send email from corp.example.com, you can enable this
+        to make the user experience a little better.
+      - If you are doing an install for an open source project and your users will
+        be registering via third-party services and/or using personal email
+        addresses, you probably should not enable this or all of your outgoing
+        email might vanish into SFP blackholes.
+      - If your install is anything else, you\'re safer leaving this off, at least
+        initially, since the risk in turning it on is that your outgoing mail will
+        never arrive.' => 'When a user takes an action which generates an email notification (like
+    commenting on a Differential revision), the "From" address can either be set
+    to the user\'s email address (like "alincoln@logcabin.com") or the
+    "metamta.default-address" address.
+    The user experience is generally better if the user\'s real address is used as
+    the "From" header value, since the messages are easier to organize when they
+    appear in mail clients, but this will only work if the server is authorized to
+    send email on behalf of the "From" domain. Practically, this means:
+      - If you are doing an install for Example Corp and all the users will have
+        corporate @corp.example.com addresses and any hosts this software is running
+        on are authorized to send email from corp.example.com, you can enable this
+        to make the user experience a little better.
+      - If you are doing an install for an open source project and your users will
+        be registering via third-party services and/or using personal email
+        addresses, you probably should not enable this or all of your outgoing
+        email might vanish into SFP blackholes.
+      - If your install is anything else, you\'re safer leaving this off, at least
+        initially, since the risk in turning it on is that your outgoing mail will
+        never arrive.',
       'The current configuration has these %d value(s):' => 'The current configuration has these %s value(s):',
       'Column Has No Specification' => 'Column Has No Specification',
       'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
@@ -121,9 +153,6 @@ final class PhabricatorConfigEn
       'Access log format.' => 'Access log format.',
       'Use Pygments to highlight code?' => 'Use Pygments to highlight code?',
       'Access log location.' => 'Access log location.',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => 'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.',
       'Your webserver is not handling GET parameters properly.' => 'Your webserver is not handling GET parameters properly.',
       'Repository Errors' => 'Repository Errors',
       'Option "%s" is of type "%s", but the configured value is not the name of a known class. Valid selections are: %s.' => 'Option "%s" is of type "%s", but the configured value is not the name of a known class. Valid selections are: %s.',
@@ -167,6 +196,7 @@ final class PhabricatorConfigEn
       'Use Normal HTTP Redirects' => 'Use Normal HTTP Redirects',
       'Configuration key \'%s\' is not set in %s configuration!' => 'Configuration key \'%s\' is not set in %s configuration!',
       'Multi-Factor Optional' => 'Multi-Factor Optional',
+      'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => 'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.',
       'Access Denied' => 'Access Denied',
       'The configuration option \'%s\' has been removed. You may delete it at your convenience.
     %s' => 'The configuration option \'%s\' has been removed. You may delete it at your convenience.
@@ -174,7 +204,6 @@ final class PhabricatorConfigEn
       'Disable Pagespeed' => 'Disable Pagespeed',
       'Elasticsearch index exists but needs correction.' => 'Elasticsearch index exists but needs correction.',
       'Nullable' => 'Nullable',
-      'The "%s" key is set to some value other than "-1" in your PHP configuration. This can cause PHP to raise deprecation warnings during process startup. Set this option to "-1" to prevent these warnings from appearing.' => 'The "%s" key is set to some value other than "-1" in your PHP configuration. This can cause PHP to raise deprecation warnings during process startup. Set this option to "-1" to prevent these warnings from appearing.',
       'No "Host" Header' => 'No "Host" Header',
       'Activity "%s" did not need to be marked as complete.' => 'Activity "%s" did not need to be marked as complete.',
       'SSH error log location.' => 'SSH error log location.',
@@ -190,12 +219,12 @@ final class PhabricatorConfigEn
       'Profile 0.1%% of all requests' => 'Profile 0.1%% of all requests',
       'This option has been replaced with the more granular option `%s`.' => 'This option has been replaced with the more granular option `%s`.',
       'Require all users to configure multi-factor authentication.' => 'Require all users to configure multi-factor authentication.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => 'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.',
       'Stop this software from sending any email, etc.' => 'Stop this software from sending any email, etc.',
       'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.',
       'Configuration Guide: Locked and Hidden Configuration' => 'Configuration Guide: Locked and Hidden Configuration',
       'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.',
       'Wrote configuration key "%s" to local storage (in file "%s").' => 'Wrote configuration key "%s" to local storage (in file "%s").',
+      'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.',
       '(%s%s) %s' => '(%s%s) %s',
       'Nonreplicating Replica' => 'Nonreplicating Replica',
       'Run these %d command(s):' => 'Run these %s command(s):',
@@ -273,11 +302,6 @@ final class PhabricatorConfigEn
       'Remove Custom Logo' => 'Remove Custom Logo',
       'No notification servers are configured.' => 'No notification servers are configured.',
       '(Not Supported)' => '(Not Supported)',
-      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
-    This software will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s' => 'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
-    This software will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s',
       'Nonstandard port' => 'Nonstandard port',
       'Don\'t embed Commons videos' => 'Don\'t embed Commons videos',
       'This configuration has been removed. You can safely delete it.
@@ -289,7 +313,6 @@ final class PhabricatorConfigEn
       'Use Private Replies (More Secure)' => 'Use Private Replies (More Secure)',
       'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'' => 'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'',
       'Other Services' => 'Other Services',
-      'Database Schemata' => 'Database Schemata',
       'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that this software imports or manages. This option is new and experimental.' => 'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that this software imports or manages. This option is new and experimental.',
       'Send as User Taking Action' => 'Send as User Taking Action',
       'Security options.' => 'Security options.',
@@ -321,6 +344,7 @@ final class PhabricatorConfigEn
       'Unsupported/Insecure "%s" Version' => 'Unsupported/Insecure "%s" Version',
       'This option does not have a custom type!' => 'This option does not have a custom type!',
       'Require administrators to approve new accounts.' => 'Require administrators to approve new accounts.',
+      'Authentication Configuration Unlocked' => 'Authentication Configuration Unlocked',
       'Health' => 'Health',
       'System user to run daemons as.' => 'System user to run daemons as.',
       'When set to `true`, the authentication provider configuration for this instance can not be modified without first running `bin/auth unlock` from the command line. This is to reduce the security impact of a compromised administrator account. 
@@ -492,10 +516,14 @@ final class PhabricatorConfigEn
       'Trying to add duplicate key "%s"!' => 'Trying to add duplicate key "%s"!',
       'Option "%s" is of type "%s", but the configured value is not a string.' => 'Option "%s" is of type "%s", but the configured value is not a string.',
       'User Guide: Amazon RDS' => 'User Guide: Amazon RDS',
+      'You have \'%s\' enabled in your PHP configuration.
+    This feature is "highly discouraged" by PHP\'s developers, and has been removed entirely in PHP8.This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => 'You have \'%s\' enabled in your PHP configuration.
+    This feature is "highly discouraged" by PHP\'s developers, and has been removed entirely in PHP8.This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.',
       'Repository %s has an ambiguous leader.' => 'Repository %s has an ambiguous leader.',
       'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
     If not set, no log will be written.' => 'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
     If not set, no log will be written.',
+      'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.',
       'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
     Leaving your authentication provider configuration unlocked increases the damage that a compromised administrator account can do to your install. For example, an attacker who compromises an administrator account can change authentication providers to point at a server they control and attempt to intercept usernames and passwords.
     To prevent this attack, you should configure authentication, and then lock the configuration by running "bin/auth lock" from the command line. This will prevent changing the authentication config without first running "bin/auth unlock".' => 'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
@@ -524,7 +552,6 @@ final class PhabricatorConfigEn
       'Embed YouTube videos' => 'Embed YouTube videos',
       'Add One Path' => 'Add One Path',
       'Clear Cache' => 'Clear Cache',
-      'MySQL Native Driver Not Available' => 'MySQL Native Driver Not Available',
       'Unignore this setup issue?' => 'Unignore this setup issue?',
       'Configure Mail.' => 'Configure Mail.',
       'You can update these %d value(s) here:' => 'You can update these %s value(s) here:',
@@ -596,7 +623,6 @@ final class PhabricatorConfigEn
       'Database' => 'Database',
       'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.' => 'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.',
       'Request input, in bytes.' => 'Request input, in bytes.',
-      'PHP 7 Compatibility Information' => 'PHP 7 Compatibility Information',
       'You enabled pygments but the %s script is not actually available, your %s is probably broken.' => 'You enabled pygments but the %s script is not actually available, your %s is probably broken.',
       'Application Settings' => 'Application Settings',
       'Show email preferences link in email.' => 'Show email preferences link in email.',
@@ -664,21 +690,6 @@ final class PhabricatorConfigEn
       'This column has the wrong autoincrement setting.' => 'This column has the wrong autoincrement setting.',
       'Allows you to add footer links on most pages.' => 'Allows you to add footer links on most pages.',
       'USWest Region' => 'USWest Region',
-      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
-    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
-    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
-    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
-    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
-    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
-    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)
-    Finally, run this command to rebuild indexes using the new rules:
-    %s',
       'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.',
       'Enable Prototypes' => 'Enable Prototypes',
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch is now configured with "%s".',
@@ -698,20 +709,12 @@ final class PhabricatorConfigEn
       'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
     Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
     Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.',
-      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].',
       '%s Stats' => '%s Stats',
       'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'The minimum supported version of Subversion is 1.5, which was released in 2008.',
       'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.',
       'The system user.' => 'The system user.',
       'Reload Page' => 'Reload Page',
       'Force users to connect via HTTPS instead of HTTP.' => 'Force users to connect via HTTPS instead of HTTP.',
-      'Install the MySQLi extension to improve database behavior.' => 'Install the MySQLi extension to improve database behavior.',
       'Large Files' => 'Large Files',
       'Compressed Requests Not Received Properly' => 'Compressed Requests Not Received Properly',
       'The namespace that databases should use.' => 'The namespace that databases should use.',
@@ -830,19 +833,6 @@ final class PhabricatorConfigEn
       'Really Clear Cache' => 'Really Clear Cache',
       'Unexpected \'%s\' Behavior' => 'Unexpected \'%s\' Behavior',
       'Mail thread IDs are now generated automatically.' => 'Mail thread IDs are now generated automatically.',
-      'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
-    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
-    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
-    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
-    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
-    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
-    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    Finally, run this command to rebuild indexes using the new rules:
-    %s',
       'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the %s configuration value \'%s\' to specify one.' => 'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the %s configuration value \'%s\' to specify one.',
       'Enable HTTP Strict Transport Security (HSTS).' => 'Enable HTTP Strict Transport Security (HSTS).',
       'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.',
@@ -857,6 +847,17 @@ final class PhabricatorConfigEn
       'Database Value' => 'Database Value',
       'US Mountain (MDT)' => 'US Mountain (MDT)',
       'This option has been replaced with `ui.logo`, which provides more flexible configuration options.' => 'This option has been replaced with `ui.logo`, which provides more flexible configuration options.',
+      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
+    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
+    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
+    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)' => 'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
+    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
+    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
+    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)',
       'Rebuild Search Index' => 'Rebuild Search Index',
       'Do not install this software on an instance class with burstable CPU.' => 'Do not install this software on an instance class with burstable CPU.',
       'Real' => 'Real',
@@ -963,7 +964,6 @@ final class PhabricatorConfigEn
       'Key has Wrong Uniqueness' => 'Key has Wrong Uniqueness',
       'Determines whether or not basic account information is editable.' => 'Determines whether or not basic account information is editable.',
       'Get a local configuration value.' => 'Get a local configuration value.',
-      'Authenticaton Configuration Unlocked' => 'Authenticaton Configuration Unlocked',
       'By default, this software allows users to add multi-factor authentication to
     their accounts, but does not require it. By enabling this option, you can
     force all users to add at least one authentication factor before they can use
@@ -985,10 +985,10 @@ final class PhabricatorConfigEn
       'Migrated option "%s" from file to local config.' => 'Migrated option "%s" from file to local config.',
       'Shenanigans' => 'Shenanigans',
       'The path for local repositories does not exist, or is not readable by the webserver.' => 'The path for local repositories does not exist, or is not readable by the webserver.',
+      'Option "%s" only supports numbers, letters, underscores and (for some reason) the dollar sign. This is necessary to avoid potential MySQL/MariaDB escape issues. Remove the invalid characters.' => 'Option "%s" only supports numbers, letters, underscores and (for some reason) the dollar sign. This is necessary to avoid potential MySQL/MariaDB escape issues. Remove the invalid characters.',
       'Inbound and outbound mail is now configured with "cluster.mailers".' => 'Inbound and outbound mail is now configured with "cluster.mailers".',
       'Config \'%s\' Invalid' => 'Config \'%s\' Invalid',
       'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.',
       'No Recipient Hints' => 'No Recipient Hints',
       'Sample 0.1%% of requests.' => 'Sample 0.1%% of requests.',
       'No Issues' => 'No Issues',
@@ -1138,43 +1138,6 @@ final class PhabricatorConfigEn
       'Unsynchronized' => 'Unsynchronized',
       'Available search engines are now automatically discovered at runtime.' => 'Available search engines are now automatically discovered at runtime.',
       'Key for HMAC digests.' => 'Key for HMAC digests.',
-      'When a user takes an action which generates an email notification (like
-    commenting on a Differential revision), the "From" address can either be set
-    to the user\'s email address (like "alincoln@logcabin.com") or the
-    "metamta.defualt-address" address.
-    The user experience is generally better if the user\'s real address is used as
-    the "From" header value, since the messages are easier to organize when they
-    appear in mail clients, but this will only work if the server is authorized to
-    send email on behalf of the "From" domain. Practically, this means:
-      - If you are doing an install for Example Corp and all the users will have
-        corporate @corp.example.com addresses and any hosts this software is running
-        on are authorized to send email from corp.example.com, you can enable this
-        to make the user experience a little better.
-      - If you are doing an install for an open source project and your users will
-        be registering via third-party services and/or using personal email
-        addresses, you probably should not enable this or all of your outgoing
-        email might vanish into SFP blackholes.
-      - If your install is anything else, you\'re safer leaving this off, at least
-        initially, since the risk in turning it on is that your outgoing mail will
-        never arrive.' => 'When a user takes an action which generates an email notification (like
-    commenting on a Differential revision), the "From" address can either be set
-    to the user\'s email address (like "alincoln@logcabin.com") or the
-    "metamta.defualt-address" address.
-    The user experience is generally better if the user\'s real address is used as
-    the "From" header value, since the messages are easier to organize when they
-    appear in mail clients, but this will only work if the server is authorized to
-    send email on behalf of the "From" domain. Practically, this means:
-      - If you are doing an install for Example Corp and all the users will have
-        corporate @corp.example.com addresses and any hosts this software is running
-        on are authorized to send email from corp.example.com, you can enable this
-        to make the user experience a little better.
-      - If you are doing an install for an open source project and your users will
-        be registering via third-party services and/or using personal email
-        addresses, you probably should not enable this or all of your outgoing
-        email might vanish into SFP blackholes.
-      - If your install is anything else, you\'re safer leaving this off, at least
-        initially, since the risk in turning it on is that your outgoing mail will
-        never arrive.',
       'The request duration, in microseconds.' => 'The request duration, in microseconds.',
       'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.' => 'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.',
       'MySQL %s Not Supported' => 'MySQL %s Not Supported',
@@ -1193,9 +1156,6 @@ final class PhabricatorConfigEn
       'You can find more information about configuring OPcache in the %s.' => 'You can find more information about configuring OPcache in the %s.',
       'PHP Timezone' => 'PHP Timezone',
       'This option is not recognized. It may be misspelled.' => 'This option is not recognized. It may be misspelled.',
-      'You have \'%s\' enabled in your PHP configuration, but this software will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
-    Disable safe mode to continue.' => 'You have \'%s\' enabled in your PHP configuration, but this software will not run in safe mode. Safe mode has been deprecated in PHP 5.3 and removed in PHP 5.4.
-    Disable safe mode to continue.',
       'Internal.' => 'Internal.',
       'Advanced Settings' => 'Advanced Settings',
       'SSH log format.' => 'SSH log format.',
@@ -1228,7 +1188,6 @@ final class PhabricatorConfigEn
       'After editing the PHP configuration, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'After editing the PHP configuration, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.',
       'Repository Status' => 'Repository Status',
       'Do Not Use HSTS' => 'Do Not Use HSTS',
-      'PHP 7.0-7.1 Not Supported' => 'PHP 7.0-7.1 Not Supported',
       'List all configuration keys.' => 'List all configuration keys.',
       'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".',
       'Configuration key "%s" is of type "%s". Specify it in JSON.' => 'Configuration key "%s" is of type "%s". Specify it in JSON.',
@@ -1346,7 +1305,6 @@ final class PhabricatorConfigEn
       'Daemons Not Running' => 'Daemons Not Running',
       'MySQL username to use when connecting to the database.' => 'MySQL username to use when connecting to the database.',
       'Secret key for Amazon EC2.' => 'Secret key for Amazon EC2.',
-      'Configure the MySQL Native Driver to improve database behavior.' => 'Configure the MySQL Native Driver to improve database behavior.',
       'These %d configuration value(s) are related:' => 'These %s configuration value(s) are related:',
       'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
     This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
@@ -1399,11 +1357,13 @@ final class PhabricatorConfigEn
     Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Severe Security Vulnerability: Unpatched Bash',
       'Force HTTPS' => 'Force HTTPS',
-      'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).' => 'You are running PHP version %s. PHP versions between 7.0 and 7.1 are not supported
-    PHP removed required signal handling features in PHP 7.0, and did not restore an equivalent mechanism until PHP 7.1.
-    Upgrade to PHP 7.1 or newer (recommended) or downgrade to an older version of PHP 5 (discouraged).',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].',
       'This key is not expected to exist.' => 'This key is not expected to exist.',
       '%s.%s' => '%s.%s',
       '%s.%s.%s' => '%s.%s.%s',
@@ -1418,7 +1378,6 @@ final class PhabricatorConfigEn
       'Don\'t require email verification' => 'Don\'t require email verification',
       'Configuration key "%s" is unknown. Use "bin/config list" to list all known keys.' => 'Configuration key "%s" is unknown. Use "bin/config list" to list all known keys.',
       'Alternate File Domain Not Configured' => 'Alternate File Domain Not Configured',
-      'MySQLi Extension Not Available' => 'MySQLi Extension Not Available',
       'Unknown schema issue "%s"!' => 'Unknown schema issue "%s"!',
       'Embed Commons videos' => 'Embed Commons videos',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
@@ -1463,6 +1422,17 @@ final class PhabricatorConfigEn
       'Only allow registration from particular domains.' => 'Only allow registration from particular domains.',
       'Subschemata have setup failures.' => 'Subschemata have setup failures.',
       'No performance sampling.' => 'No performance sampling.',
+      'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
+    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
+    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
+    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    ' => 'Database host "%s" is configured to use the default minimum word length when building search indexes, which is 4. This means words which are only 3 characters long will not be indexed and can not be searched for.
+    For example, you will not be able to find search results for words like \'SMS\', \'web\', or \'DOS\'.
+    You can change this setting to 3 to allow these words to be indexed. Alternatively, you can ignore this warning if you are not concerned about searching for 3-letter words. If you later plan to configure Elasticsearch, you can also ignore this warning: only MySQL fulltext search is affected.
+    To reduce the minimum word length to 3, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    ',
       '%s\'s home page' => '%s\'s home page',
       'Show installed extensions and modules.' => 'Show installed extensions and modules.',
       'Opcode Cache' => 'Opcode Cache',
@@ -1511,6 +1481,7 @@ final class PhabricatorConfigEn
       'Delete a local configuration value.' => 'Delete a local configuration value.',
       'These paths get appended to your %s environment variable.' => 'These paths get appended to your %s environment variable.',
       'Epoch timestamp.' => 'Epoch timestamp.',
+      'Option "%s" is dangerously long for a database prefix in MySQL/MariaDB. The current value is %d characters long. It should be less than %d to be safe for future changes.' => 'Option "%s" is dangerously long for a database prefix in MySQL/MariaDB. The current value is %s characters long. It should be less than %s to be safe for future changes.',
       'Blindigo' => 'Blindigo',
       'Expected Column Type' => 'Expected Column Type',
       'Enable developer mode' => 'Enable developer mode',
@@ -1545,11 +1516,9 @@ final class PhabricatorConfigEn
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'The directory for local repositories (%s) does not exist, or is not readable by the webserver. This software uses this directory to store information about repositories. If this directory does not exist, create it:
     %s
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.',
-      'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.',
       'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.',
       'This change supports situations where users are incorrectly associated with commits because the software makes a bad guess about how the VCS string maps to a user account. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with features which rely on the existence of these identities.' => 'This change supports situations where users are incorrectly associated with commits because the software makes a bad guess about how the VCS string maps to a user account. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with features which rely on the existence of these identities.',
       'Unignore' => 'Unignore',
-      'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.' => 'PHP setting "%s" should be set to "-1" to avoid deprecation warnings.',
       'Text values that match this regex and are also object names will not be linked.' => 'Text values that match this regex and are also object names will not be linked.',
       '%s Held / %sms' => '%s Held / %sms',
       'Write access log here.' => 'Write access log here.',

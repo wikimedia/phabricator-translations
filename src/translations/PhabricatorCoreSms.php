@@ -121,7 +121,6 @@ final class PhabricatorCoreSms
       'Required' => 'Pääkklaž',
       'Save' => 'Ruõkk',
       'Updated' => 'Peiʹvvuum',
-      'Advanced Search' => 'Tääʹrǩab ooccmõš',
       'Project' => 'Projeʹktt',
       'Delete' => 'Jaukkâd',
       'Save Changes' => 'Ruõkk muttsid',

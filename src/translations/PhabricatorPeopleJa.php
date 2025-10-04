@@ -29,6 +29,7 @@ final class PhabricatorPeopleJa
       'Change Username' => 'ユーザー名を変更',
       'Edit Profile' => 'プロフィールを編集',
       'Log Out %s' => '%sからログアウト',
+      'No recent commits.' => '最近のコミットはありません。',
       'User Since' => 'ユーザー登録日時',
     );
   }

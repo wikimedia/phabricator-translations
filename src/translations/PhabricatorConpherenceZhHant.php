@@ -91,7 +91,6 @@ final class PhabricatorConpherenceZhHant
       'Create a new conpherence thread.' => '建立新的 Conpherence 討論串。',
       'Search by room titles.' => '透過聊天室標題搜尋。',
       'Peach' => '桃色',
-      'No Rooms' => '沒有聊天室',
       'Private Room' => '私人聊天室',
       'Light' => '明亮',
       'Theme' => '佈景主題',

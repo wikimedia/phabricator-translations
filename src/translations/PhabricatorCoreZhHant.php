@@ -90,7 +90,6 @@ final class PhabricatorCoreZhHant
       'Done' => '完成',
       'PREVIEW' => '預覽',
       'Preview' => '預覽',
-      'Advanced Search' => '進階搜尋',
       'Disabled' => '已停用',
       'Save Related Tasks' => '儲存相關工單',
       'Activity Logs' => '活動日誌',

@@ -88,7 +88,6 @@ final class PhabricatorCoreTe
       'Details' => 'వివరాలు',
       'Public' => 'బహిరంగం',
       'Devices' => 'పరికరాలు',
-      'More Options' => 'మరిన్ని ఎంపికలు',
       'New Address' => 'కొత్త చిరునామా',
       'Examples' => 'ఉదాహరణలు',
       'Date' => 'తేదీ',

@@ -25,7 +25,6 @@ final class PhabricatorManiphestPl
       'Changed task priority to "%s".' => 'Zmieniono priorytet zadania na „%s”.',
       'Tasks must have a title.' => 'Zadania muszą mieć tytuł.',
       'Needs Triage' => 'Wymaga zakwalifikowania',
-      'Mentioned In' => 'Wspomniano w',
       '%s closed this task as a duplicate of %s.' => '%s zamknął to zadanie jako duplikat %s.',
       'Edit Related Tasks...' => 'Zmień powiązane zadania...',
       'Tasks and Bugs' => 'Zadania i błędy',

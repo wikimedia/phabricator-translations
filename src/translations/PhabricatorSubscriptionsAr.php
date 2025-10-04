@@ -16,7 +16,7 @@ final class PhabricatorSubscriptionsAr
       'Remove me as a subscriber' => 'قم بإزالتي كمشترك',
       'Remove subscribers.' => 'إزالة المشتركين.',
       'Unmute' => 'إزالة كتم الصوت',
-      'Bad Object' => 'كائن سيء',
+      'Bad Object' => 'كائن سيئ',
     );
   }
 

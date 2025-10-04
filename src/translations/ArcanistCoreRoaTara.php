@@ -20,7 +20,6 @@ final class ArcanistCoreRoaTara
       'Remote Repository' => 'Archivije remote',
       'Empty certificate in credentials.' => 'Certificate vacande jndr\'à le credenziale.',
       'No tests to run.' => 'Nisciune test da eseguì.',
-      'Phutil Library Linter' => 'Phutil Library Linter',
       'Unknown Symbol' => 'Simbole scanusciute',
       'commit-message' => 'messàgge de commit',
       'Unknown VCS!' => 'VCS scanusciute!',
@@ -76,6 +75,7 @@ final class ArcanistCoreRoaTara
       'UPDATE' => 'UPDATE',
       'STAGING FAILED' => 'STAGING FAILED',
       'ALIAS' => 'ALIAS',
+      '%s Library Linter' => 'Phutil Library Linter',
     );
   }
 

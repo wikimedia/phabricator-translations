@@ -31,7 +31,7 @@ final class PhabricatorPolicyEl
       'Space:' => 'Χώρος:',
       'Members Of' => 'Μέλη του',
       'Select Project' => 'Επιλογή Εφαρμογής',
-      'OBJECT' => 'Αντικείμενο',
+      'OBJECT' => 'ΑΝΤΙΚΕΙΜΕΝΟ',
       'Note:' => 'Σημείωση:',
       'Can Edit' => 'Μπορεί να επεξεργαστεί',
     );

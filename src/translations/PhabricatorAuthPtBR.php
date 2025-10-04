@@ -27,12 +27,10 @@ final class PhabricatorAuthPtBR
       'You must confirm the selected password.' => 'Você deve confirmar a senha selecionada.',
       'Unknown session type "%s".' => 'Tipo de sessão desconhecida "%s".',
       'Setup Admin Account' => 'Configurar conta de administrador',
-      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
-    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Para adicionar um fator TOTP à sua conta, você primeiro precisará instalar um aplicativo autenticador móvel em seu telefone. Dois aplicativos que funcionam bem são o **Google Autenticador** e o **Authy**, mas qualquer outro aplicativo TOTP também deve funcionar.
-    Se ainda não o fez, baixe e instale um aplicativo TOTP no seu telefone agora. Depois de iniciar o aplicativo e estar pronto para adicionar um novo código TOTP, continue na próxima etapa.',
       'The account you are attempting to register or link is already linked to another user.' => 'A conta que você está tentando registrar ou vincular já está vinculada a outro usuário.',
       'Verify an unverified email address which is already attached to an account. This will also re-execute event hooks for addresses which are already verified.' => 'Verifique um endereço de e-mail não verificado que já esteja conectado a uma conta. Isso também re-executará ganchos de evento para endereços que já foram verificados.',
       'Must Verify Email' => 'Deve verificar o e-mail',
+      'Attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, Bitwarden Authenticator, Google Authenticator, or Authy) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Anexe um aplicativo de autenticador móvel (como Authy ou Google Authenticator) à sua conta. Quando você precisar autenticar, você digitará um código exibido no seu telefone.',
       'Verify Email' => 'Verificar e-mail',
       'Account is already registered or linked.' => 'A conta já está registrada ou vinculada.',
       'Sign this transaction group with MFA.' => 'Assine este grupo de transações com o MFA.',
@@ -51,6 +49,9 @@ final class PhabricatorAuthPtBR
       'A keypair has been generated, and the public key has been added as a recognized key.' => 'Um par de chaves foi gerado e a chave pública foi adicionada como uma chave reconhecida.',
       'Auth' => 'Autenticador',
       'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Se você quiser vincular uma conta Phabricator existente a essa conta externa, não continue. Em vez disso: faça login na sua conta existente, acesse "Configurações" e vincule a conta no painel "Contas externas".',
+      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Para adicionar um fator TOTP à sua conta, você primeiro precisará instalar um aplicativo autenticador móvel em seu telefone. Dois aplicativos que funcionam bem são o **Google Autenticador** e o **Authy**, mas qualquer outro aplicativo TOTP também deve funcionar.
+    Se ainda não o fez, baixe e instale um aplicativo TOTP no seu telefone agora. Depois de iniciar o aplicativo e estar pronto para adicionar um novo código TOTP, continue na próxima etapa.',
       'Revoke Token?' => 'Revogar token?',
       'Upload Public Key' => 'Carregar chave pública',
       'Log In or Register with LDAP' => 'Entrar ou registre-se com o LDAP',
@@ -98,7 +99,6 @@ final class PhabricatorAuthPtBR
       'Upload SSH Public Key' => 'Carregar chave pública SSH',
       'SSH key material is required.' => 'O material da chave SSH é obrigatório.',
       'LDAP Username' => 'Nome de usuário LDAP',
-      'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Anexe um aplicativo de autenticador móvel (como Authy ou Google Authenticator) à sua conta. Quando você precisar autenticar, você digitará um código exibido no seu telefone.',
       'No Matching Tokens' => 'Não há tokens correspondentes',
       'After entering the key, the application should display a numeric code. Enter that code below to confirm that you have configured the authenticator correctly:' => 'Depois de inserir a chave, o aplicativo deve exibir um código numérico. Digite o código abaixo para confirmar que você configurou o autenticador corretamente:',
       '(If given an option, select that this key is "Time Based", not "Counter Based".)' => '(Se tiver uma opção, selecione que essa chave seja "Com base no tempo" e não "Com base no contador").',

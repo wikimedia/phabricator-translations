@@ -41,11 +41,29 @@ final class PhabricatorConfigDga
       'The best available MYSQL implementation is now selected automatically.' => 'A bonsoŋ naŋ bebe MYSQL de tontoma maŋ kaa iri la omeŋɛ pampana.',
       'Alternative URIs that can access this service.' => 'URIs mine naŋ na toɔŋ pɔge a saseɛ miri ŋa',
       'This server is not configured in cluster mode.' => 'A tonton boma naŋ ba leɛrɛ',
-      'PHP is currently using the very old "mysql" extension to interact with the database. You should install the newer "mysqli" extension to improve behaviors (like error handling and query timeouts).
-    This software will work with the older extension, but upgrading to the newer extension is recommended.
-    You may be able to install the extension with a command like: %s' => 'PHP derɛ la bonkore "mysql" tagduloo ne a database. A seŋ ka fo eŋ "mysqli" paalaa ka a soŋbaa noba mine teɛroo.
-    A software naŋ na toŋne la bonkore na kyɛ tag-doloo la ne maal paalaa la KO a bone paalaa ŋa.
-    Fo naŋ baŋ eŋ o la ne yelbegɛ  mine aŋa:%s',
+      'When a user takes an action which generates an email notification (like
+    commenting on a Differential revision), the "From" address can either be set
+    to the user\'s email address (like "alincoln@logcabin.com") or the
+    "metamta.default-address" address.
+    The user experience is generally better if the user\'s real address is used as
+    the "From" header value, since the messages are easier to organize when they
+    appear in mail clients, but this will only work if the server is authorized to
+    send email on behalf of the "From" domain. Practically, this means:
+      - If you are doing an install for Example Corp and all the users will have
+        corporate @corp.example.com addresses and any hosts this software is running
+        on are authorized to send email from corp.example.com, you can enable this
+        to make the user experience a little better.
+      - If you are doing an install for an open source project and your users will
+        be registering via third-party services and/or using personal email
+        addresses, you probably should not enable this or all of your outgoing
+        email might vanish into SFP blackholes.
+      - If your install is anything else, you\'re safer leaving this off, at least
+        initially, since the risk in turning it on is that your outgoing mail will
+        never arrive.' => 'Ka tontona wa e eebo ka o yi neŋ eemail teɛre ma (Aŋa kɔmɛnterɛ tɛɛtɛɛ leɛkaabo eŋɛ), a \'\'From\'\' adrɛse na baŋ sɛte la ka a tontona eemail adrɛse (aŋa \'\'alincoln@logcabin.com\'\') bee a \'\'metamta.defualt-address\'\' adrɛse.
+    A tontona dannyaa na soma la yaga zaa ka a o toma meŋɛ adrɛse na e a \'\'From\'\' zu tegeroŋ, a yi a duoro narebo naŋ na e laanfeɛ ka ana wa be a mail kilayane poɔ, kyɛ aŋaa na e la ka ona wa tere sori ka a sɛva toɔle eemail a \'\'From\'\' gbɛbogiri vuoŋ. A eeboŋ, ŋaa wuli ka:
+     - ka fõõ wa erɛ furi-kyɛ aseŋ Corp, a Tontonne ba zaa na e la boŋyeni @Corp.example.com adrɛse ane gbulo zaa a sɔtwaɛ ŋa naŋ kaara na tere la sori ka o toɔle eemail yi Corp.example.com, fo na baŋ e la a ŋaa a vɛŋ ka tontona dannyaa taa zɛgeroŋ fẽẽ.
+     -ka fõõ wa erɛ furi-kyɛ ko yuo yizie progyɛte ka fo Tontonne ba na irigyisi yi zie kaŋa sɛɛvisi ane/bee ba menne eemail adrɛse, a ba seŋ ka fo eŋ a ŋa ka lɛ naane fo eemail toɔle zaa na bɔre la kpɛ SFP dansarka.
+     -ka furi-kyɛ wa e boŋkaŋa zaa, fo ba taa dabeɛŋ o barebo ka a pɔge a piiluu eŋɛ, saŋa na o emmo tɔɔrɔ naŋ na e, a fo mail toɔle naŋ daŋ koŋ ta.',
       'The current configuration has these %d value(s):' => 'Pampana ŋa leɛrɛɛ taa la %s tegroo',
       'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
     Without this mode enabled, MySQL will silently ignore some error conditions, including inserts which attempt to store more data in a column than actually fits. This behavior is usually undesirable and can lead to data corruption (by truncating multibyte characters in the middle), data loss (by discarding the data which does not fit into the column), or security concerns (for example, by truncating keys or credentials).
@@ -69,9 +87,6 @@ final class PhabricatorConfigDga
     If you set things up to automatically synchronize account information from some other authoritative system, you can prevent users from making these edits to ensure information remains consistent across both systems.' => 'A kaa-iruu bogi ŋa la daana wulo ka tontonneba na baŋ maale la ba die daga eemail adrɛsiri ane die zu yoe menne.
     Ka fõõ sɛte boma biŋ ka a na lanna erɛ die daga yɛlɛ a menne yi faŋa so-yuo, fo na baŋ ŋmaa la tontonneba ka ba ta erɛ a maale eŋ ama na vɛŋ ka duoro e boŋyeni yi a sisitim zaa poore.',
       'Use Pygments to highlight code?' => 'De yɔɔbo a wuli a koodi?',
-      'You have \'%s\' enabled in your PHP configuration.
-    This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => 'Fo taa la \'%s\' yuobu a fo PHP konfigere. 
-    A iruŋ ŋa ba e lamboori neŋ a saseɛ miri. Pɔge a \'%s\' a fo \'PHP\' konfigere ka a taa nimitɔɔre.',
       'The keyring stores master encryption keys. For help with configuring a keyring
     and encryption, see **[[ %s | Configuring Encryption ]]**.' => 'A duori daga banna guubo biri. Ka fõõ wa boɔrɔ sommo ne maale emmo biri ane guubo, nyɛ **[[%s|maale emmo guubo]]**.',
       'When email is sent, what format should the software use for users\' email
@@ -86,10 +101,11 @@ final class PhabricatorConfigDga
     A yelbulo `paaleŋ`.',
       'The minimum supported version of Mercurial is 2.4, which was released in 2012.' => 'Ana na ba seŋ bonne la 2.4, la da yi a yuoni 2012.',
       'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Fo ba taa konfigere maali pampana, lɛ zuiŋ a sɛɛva koŋ toɔŋ sɛɛdi maali naŋ be yoŋe bee poɔŋ maali. Nyɛ a konfigere sɛɛtere \'\'kluutare.maaliri\'\' neŋ ditaali.',
+      'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => 'A \'%s\' tage yɔloo ba taa arezie.ka \'%s\', ba soŋ teɛ, a sɔtwaɛ koŋ baŋ tõɔ wuli a MIME ɔplood gampɛlɛ iruŋ.',
       'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. This software will not work properly until you do.' => 'Iri a lambori na a fo saseɛ  miri poɔ yɛlɛ bimmo naŋ ba tõɔ sagera sɔroo bee pɔge o bare. A saseɛ miri kop toŋ toma soŋ kyɛ guru ka foo wa e o.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this software may not be able to determine the MIME types of uploaded files.' => 'A \'%s\' tage yɔloo ba taa arezie.ka \'%s\', ba soŋ teɛ, a sɔtwaɛ koŋ baŋ tõɔ wuli a MIME ɔplood gampɛlɛ iruŋ.',
       'Stop this software from sending any email, etc.' => 'Bare a saseɛ miri yineŋ maali deterebo poɔŋ, ane ataaba',
       'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'A \'%s\' bainare ba tõɔ nyɛ. Sinliŋk o eŋ \'%s\', bee sɛte a wɛbsɛva %s gbaŋgbale vaarabol a na poɔ a daarɛtere zie o naŋ kpeɛrɛ, bee poɔ ana daarɛtere kyɛ \'%s\' konfigiriseŋ poɔ.',
+      'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Ama e la URIs kaa iruu baŋ kaa la a yɛlɛ kaa e kyo kyo a gampɛle poɔ. Amine meŋ la aŋa 0Auth koŋ tõɔ. A yelzu naŋ la gaa eŋ o',
       'Define one or more mail transmission services. For help with configuring
     mailers, see **[[ %s | %s ]]** in the documentation.' => 'Yelle yɛlɛ kyaare neŋ a yɛyɛ daga. Fooŋ boɔra sommo kyaare neŋ a yɛlɛ daga, kaa **[[ %s | %s ]]** a gampɛle.',
       'Configure services to run on a cluster of hosts.' => 'Kyaanoo mie mine naŋ na toŋ lammo daana sere.',
@@ -99,11 +115,6 @@ final class PhabricatorConfigDga
     threading on some clients. If you\'ve set \'%s\', users can override this setting
     in their preferences.' => 'Ka  a yelmeŋɛ, sage  a MetaMTA ka o leɛre a maali yelzuri a eŋ yɛlɛ \'(sagɛɛ)\' ane \'(yel-eŋ)\' a poɔ. A ŋaa veŋɛɛ la a yelzuri taa tɔnɔ gyamaa, kyɛ koŋ wa tara noba ziiri. Ka fooŋ taa sɛɛte \'%s\', tontonneba gaa la tɔɔre a pɛrenrefɛ poɔ',
       'Either the schema for Elasticsearch has changed or Elasticsearch created the index automatically. Use the following command to rebuild the index.' => 'ka  a sikima ko a peɛrtɔnnaa la leɛre bee a peɛrtɔnnaa la Maale a nambare a manne. Toŋ ne yele ama mine a leɛ bɔ neŋ a namba',
-      'PHP is currently using the older MySQL external driver instead of the newer MySQL native driver. The older driver lacks options and features (like support for query timeouts) which allow this server to interact better with the database.
-    This software will work with the older driver, but upgrading to the native driver is recommended.
-    You may be able to install the native driver with a command like: %s' => 'PHP la tona a MySQL Koraa yoŋe doraba na seŋ ka e MySQL paale doraba bagenaa. A doraba koraa ba taa iruŋ ane yɛlɛ mine ( aŋa sommo ko guubu wagere baaroo) naŋ sage a sɛɛva ka o toŋ neŋ a daata-baasi.
-    A saseɛ miri ŋa naŋ toŋ ne la a doraba koraa, kyɛ gaa nimitɔɔre neŋ a doraba bagena na naŋ da sage.
-    Fo naŋ baŋ toɔŋ iŋtɔɔle la a doraba bagenaa na neŋ feroo aŋa: %s',
       'Configure the UI, including colors.' => 'Leɛrɛ a UI, pãã de colasire.',
       'The \'%s\' extension has support for only some image types. This server will be unable to process images of the missing types until you build \'%s\' with support for them. Supported types: %s. Missing types: %s.' => 'A \'%s\' yɔloo teɛ la enfuomo mine yoŋ parɛɛ. A sɛva ŋa koŋ tõɔ leɛre enfuomo naŋ ba be ana parɛɛ ŋa te ta ka fo wa mɛ \'%s\' ne teɛbo ko ba. Teɛbo parɛɛ: %s. Bɔrebo parɛɛ: %s.',
       'Control how user names are rendered in mail.' => 'Maale gu lɛ tontonneba yoe naŋ be a be akantere poɔ',
@@ -191,6 +202,7 @@ final class PhabricatorConfigDga
       'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
     If not set, no log will be written.' => 'Ka foŋ na eŋ a SSH ɛɛrɔ lɔɔge, wuli sobiri. Ɛɛrɔre naŋ erɛ kontɛse poɔ, be a sɔtwaɛ ŋa naŋ sɛverɛ SSH irikɔse na sɛge ko la a lɔɔge ŋa.
     Ka lɛ naane sɛte, lɔɔge zaa koŋ sɛge.',
+      'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'A \'%s\' yɔllɔɔ ba e entɔɔle. Ka \'%s\' ba kyebee, sommo, a sɛɛva ŋa koŋ toɔŋ to a toma bee maale a enfuoni eŋ( aseŋ, nubi-pɛgɛ maaloo). Entɔɔli bee yuo \'%s\'.',
       'When you upload a file via drag-and-drop or the API, chunks must be buffered into memory before being written to permanent storage. This server needs memory available to store these chunks while they are uploaded, but PHP is currently configured to severely limit the available memory.
     PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
     (Note that the application itself must also fit in available memory, so not all of the memory under the memory limit is available for running workloads.)
@@ -220,7 +232,6 @@ final class PhabricatorConfigDga
     Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.' => 'A software ŋa na de la o meŋɛ gaa neŋ a sɛgrɛ zie na te kaa nyɛ kyɛ tere sori  HTTP yelzu, kyɛmeŋ kaara ayelnimie ka a gaa. A me a lɛ zaa gbɛ ŋmɛ kaŋa bebe la a deebu zie. A software ŋa de la a tontona yuori "%s" ne a taŋgaraa "%s; de la a yuori " %s" aŋa a taŋgaraa "%s".
     A webserver koŋ leɛrɔ a bee de gaa ne a HTTP zie na ba naŋ te kaa nyɛ. A see ka fo leɛre a.',
       'Controls whether email is sent "From" users.' => 'Kaa nyɛ ka maali terebo \'\'yi\'\' tontonneba',
-      'PHP 7 Compatibility Information' => 'PHP 7 kpɛtaaloŋ duoroo',
       'The configured PATH includes a component which is not usable. This server will be unable to find or execute binaries located here:
     %s
     The user that the webserver runs as must be able to read all the directories in PATH in order to make use of them.' => 'A koŋfigere SORI paale la a gbɛɛ naŋ na ba tona toma. A sɛɛva ŋa koŋ toɔŋ bo-nyɛ bee kaa nyɛ baanare bezie a kyɛ;
@@ -243,34 +254,12 @@ final class PhabricatorConfigDga
     For most installs, the default value (1 sample per 1000 pages) should collect enough data to be useful without requiring much storage or meaningfully impacting performance. If you\'re investigating performance issues, you can adjust the rate in order to collect more data.' => 'A mulitimeta apilikaasi maŋ de la tontonnee sampelɛ. Fo na baŋ de la a deta ŋa ka o sombo ka fo baŋ bone na a sɔtwaɛ naŋ deri wagere ane boma erɛ ane na identifaa problɛmate assɛse begere.
     A kaairuu ŋa la wullo lɛ wagere zaa sampelɛŋ yel-erre. Sɛte o eŋ sonne mine entegya N na sampelɛ wagere la wagere 1/N pɛllɛ.
     Furi-kyɛ yaga zie, a difiliti tegeroŋ (1 sampelɛ pɛ 100 pɛllɛ) seŋ ka o de deta yaga a na tona kyɛ ta boɔrɔ stɔɔragya yaga bee meŋɛnfu impaatiŋ tontonnee. Ka fõõ wa peɛrɛ tontonnee yelwonee, fo na baŋ paale la faŋa, a na tõɔ nyɛ deta yaga.',
-      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
-    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
-    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
-    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
-    %s
-    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)
-    Finally, run this command to rebuild indexes using the new rules:
-    %s' => 'Databaasi nyɔgebo \'\'%s\'\'tona ne la   mɛ niŋeŋ faali ko meɛbo peɛroo endɛre. Ŋaa na baŋ mɛ la a peɛroo boma mine toma lɛɛsi.
-    Baaroo yelbie ela yelbie naŋ na ba endɛɛsi azuiŋ a koŋ toɔŋ nyɛ peɛbo.  A defaali baaroo yelbie faali taa aŋa 500 yelbie,paale yelbie mine fo naŋ na boɔrɔ ka fo peɛre, aŋa ama mine \'\'zi balaa\'\', \'boɔrɔ\' ane \'zagela\'.
-    Ka fooŋ naŋ peɛre yɛlɛ mine, fo naŋ toɔŋ toŋ ne la yele mine baaroo yelbie faali neŋ yelbi-fēē. Yele mine poore, ka fo teɛroŋ ba kyaare a yelbie mine peɛroo, fo baŋ bare la kpaamo. Ka fooŋ paaŋ maale fo teɛroŋ ka fo konfigere tagebo peɛroo, fo meŋ naŋ baŋ bare la a kpaabo: a baaroo yelbie fere a MySQL yɛlɛ endɛɛsere.
-    Ka fooŋ na iri  baaroo faali tɛɛtɛɛ, paale a %s faale (a %s poɔŋ) kyɛ leɛ piili %s:
-    %s
-    (fo meŋ na baŋ toŋ la neŋ faali tɛɛtɛɛ ka fooŋ boɔrɔ. A faali boɔbo saazu kyɛ la 50 Egilisi yelbie.)
-    Baara, toŋ ne a leɛ-meɛbo kyaare a endɛɛsi tommo merɛ pala:
-    %s',
       'The "InnoDB" engine is not available in MySQL (on host "%s"). Enable InnoDB in your MySQL configuration.
     (If you already created tables, MySQL incorrectly used some other engine to create them. You need to convert them or drop and reinitialize them.)' => 'A \'\'InnoDB\'\' egyin ba paale a MySQL ( a hoosi \'\'%s\'\'). Yuo InnoDB a fo MySQL konfigere poɔ.
     ( Ka fooŋ daŋ maale a taabole, MySQL ba yoɔŋ tonneŋ a egyini mine a maale a. A seŋ ka fo leɛre a bee biŋi kyɛ la leɛre maale a.)',
       'This software is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
     Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => 'A sɔtwaɛ ŋa pampana konfigie la ko sɛva tontona aploodi daadaa lɛ yi a gbuli na ne o zu aŋa yelzubulo mine. ŋa e la guubo yelkyɛrre.
     Konfigie a CDN (or alternate file domain) na iri a yelkyɛraa ŋa. Tona ne CDN meŋ na baa la tontonne. Nyɛ sobi-tuuri yi de-gu-meŋɛ a puli kyɛ.',
-      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Yelbie tutaa merɛ e ka o kyaane teɛbo ko kɔkɔɛ fĩĩ a meŋɛ, kyɛ fo na baŋ furi la Pygments (a third-party syntax highlighting tool) na tere teɛbo ko kɔkɔɛ yaga.
-    Ka fõõ na furi pygment, gaa kyɛ [[ http://pygments.org | pygments.org ]] a tu a danloodi a furi sobi-tuuri.
-    Ka Pygments wa furi, eŋ dare ŋa (`pygments.enabled`) na toŋ ne Pygments ka foŋ wa kyaane yizie koodi.
-    Ka foŋ wa furi baare a eŋ Pygments, yizie koodi kuri paalaa (like diffs and pastes) na kyaane la sonzaa. A na seŋ ka fo kɔre boŋkorɔ na nyɛ yizie koodi naŋ da daŋ bebe na kyaane o. Sobi-tuuri kyaare boŋkorɔ managyiŋ, nyɛ [[ %s | boŋkorɔ managyiŋ ]].',
       'The namespace that databases should use.' => 'A yuori voɔ na la a database seŋ ka o de',
       'Constant' => 'Wagere zaa',
       'This software sent itself a test request that was compressed with "Content-Encoding: gzip", but received different bytes than it sent.' => 'A saseɛ miri ŋa la tere omeŋɛ sɔroo naŋ da taa  "yelzu-nyaabo: gzip", kyɛ nyɛ bytes tɛɛtɛɛ gaŋ o naŋ toɔle',
@@ -297,6 +286,19 @@ final class PhabricatorConfigDga
       'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'A sɛva ŋa taa la %s naŋ be %s, kyɛ a bainare yie la ne ɛɛroɔ koodi ka onaŋ wa toŋ ŋa %s. Kaa nyɛ ka o furi la soŋ.',
       'Transaction mail is now always sent with "Precedence: bulk" to improve deliverability.' => 'Iruu taŋgaraa pãã maŋ wanne la" kyoge: gbuli" ka soŋ baa',
       'Without \'%s\', this software can not test for the availability of other binaries.' => 'Ka \'%s\', ba kyebe a sɔtwaɛ koŋ baŋ kaa wuli a binari mine beebo.',
+      'Database host "%s" is using the builtin stopword file for building search indexes. This can make the search feature less useful.
+    Stopwords are common words which are not indexed and thus can not be searched for. The default stopword file has about 500 words, including various words which you are likely to wish to search for, such as \'various\', \'likely\', \'wish\', and \'zero\'.
+    To make search more useful, you can use an alternate stopword file with fewer words. Alternatively, if you aren\'t concerned about searching for common words, you can ignore this warning. If you later plan to configure Elasticsearch, you can also ignore this warning: this stopword file only affects MySQL fulltext indexes.
+    To choose a different stopword file, add this to your %s file (in the %s section) and then restart %s:
+    %s
+    (You can also use a different file if you prefer. The file suggested above has about 50 of the most common English words.)' => 'Databaasi nyɔgebo \'\'%s\'\'tona ne la   mɛ niŋeŋ faali ko meɛbo peɛroo endɛre. Ŋaa na baŋ mɛ la a peɛroo boma mine toma lɛɛsi.
+    Baaroo yelbie ela yelbie naŋ na ba endɛɛsi azuiŋ a koŋ toɔŋ nyɛ peɛbo.  A defaali baaroo yelbie faali taa aŋa 500 yelbie,paale yelbie mine fo naŋ na boɔrɔ ka fo peɛre, aŋa ama mine \'\'zi balaa\'\', \'boɔrɔ\' ane \'zagela\'.
+    Ka fooŋ naŋ peɛre yɛlɛ mine, fo naŋ toɔŋ toŋ ne la yele mine baaroo yelbie faali neŋ yelbi-fēē. Yele mine poore, ka fo teɛroŋ ba kyaare a yelbie mine peɛroo, fo baŋ bare la kpaamo. Ka fooŋ paaŋ maale fo teɛroŋ ka fo konfigere tagebo peɛroo, fo meŋ naŋ baŋ bare la a kpaabo: a baaroo yelbie fere a MySQL yɛlɛ endɛɛsere.
+    Ka fooŋ na iri  baaroo faali tɛɛtɛɛ, paale a %s faale (a %s poɔŋ) kyɛ leɛ piili %s:
+    %s
+    (fo meŋ na baŋ toŋ la neŋ faali tɛɛtɛɛ ka fooŋ boɔrɔ. A faali boɔbo saazu kyɛ la 50 Egilisi yelbie.)
+    Baara, toŋ ne a leɛ-meɛbo kyaare a endɛɛsi tommo merɛ pala:
+    %s',
       'Do not install this software on an instance class with burstable CPU.' => 'Ta WS derɛɛ a Gaŋpɛle ŋa naŋ na dɔɔna fo CPU.',
       'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
     Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
@@ -335,7 +337,6 @@ final class PhabricatorConfigDga
     %s
     Boŋkaŋa ba maale kyaane SOP bee mine kaŋa leɛ a sagebo.',
       'The timezone this software should use by default.' => 'A wagere zie a saseɛ miri ŋa seŋ ka o toŋ neŋ difaali.',
-      'The \'%s\' extension is not installed. Without \'%s\', support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'A \'%s\' yɔllɔɔ ba e entɔɔle. Ka \'%s\' ba kyebee, sommo, a sɛɛva ŋa koŋ toɔŋ to a toma bee maale a enfuoni eŋ( aseŋ, nubi-pɛgɛ maaloo). Entɔɔli bee yuo \'%s\'.',
       'Reply hints are no longer shown in mail.' => 'Nu-iri yeltuuri mine ba la be a maali poɔŋ.',
       'If you want to use a single mailbox for reply mail, you can use this
     and set a common prefix for generated reply addresses. It will
@@ -369,29 +370,6 @@ final class PhabricatorConfigDga
       'Configure %s' => 'Leɛre %s',
       'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'REMOTE_ADDR zaa ba kyebe, a lɛ na a sɛva ŋa koŋ baŋ wuli a adrɛse yiibu zie na irikɛse. A ŋaa na bege la a sɔtwaɛ yi nimize gu meŋɛ kaabo tontonne. Gbɛɛ yaga a ŋaa maŋ wulo ka fo taa la gbɛɛŋmɛ a fo dabi-sɛgeraa poɔ. Peɛre a sɛgebo (%s) a kaa gborɔ gborɔ, ka a sɛgere sɛge la soŋ.',
       'Available search engines are now automatically discovered at runtime.' => 'Peɛroo mansime naŋ bebe pampana be la a zobɔ ŋa a menne.',
-      'When a user takes an action which generates an email notification (like
-    commenting on a Differential revision), the "From" address can either be set
-    to the user\'s email address (like "alincoln@logcabin.com") or the
-    "metamta.defualt-address" address.
-    The user experience is generally better if the user\'s real address is used as
-    the "From" header value, since the messages are easier to organize when they
-    appear in mail clients, but this will only work if the server is authorized to
-    send email on behalf of the "From" domain. Practically, this means:
-      - If you are doing an install for Example Corp and all the users will have
-        corporate @corp.example.com addresses and any hosts this software is running
-        on are authorized to send email from corp.example.com, you can enable this
-        to make the user experience a little better.
-      - If you are doing an install for an open source project and your users will
-        be registering via third-party services and/or using personal email
-        addresses, you probably should not enable this or all of your outgoing
-        email might vanish into SFP blackholes.
-      - If your install is anything else, you\'re safer leaving this off, at least
-        initially, since the risk in turning it on is that your outgoing mail will
-        never arrive.' => 'Ka tontona wa e eebo ka o yi neŋ eemail teɛre ma (Aŋa kɔmɛnterɛ tɛɛtɛɛ leɛkaabo eŋɛ), a \'\'From\'\' adrɛse na baŋ sɛte la ka a tontona eemail adrɛse (aŋa \'\'alincoln@logcabin.com\'\') bee a \'\'metamta.defualt-address\'\' adrɛse.
-    A tontona dannyaa na soma la yaga zaa ka a o toma meŋɛ adrɛse na e a \'\'From\'\' zu tegeroŋ, a yi a duoro narebo naŋ na e laanfeɛ ka ana wa be a mail kilayane poɔ, kyɛ aŋaa na e la ka ona wa tere sori ka a sɛva toɔle eemail a \'\'From\'\' gbɛbogiri vuoŋ. A eeboŋ, ŋaa wuli ka:
-     - ka fõõ wa erɛ furi-kyɛ aseŋ Corp, a Tontonne ba zaa na e la boŋyeni @Corp.example.com adrɛse ane gbulo zaa a sɔtwaɛ ŋa naŋ kaara na tere la sori ka o toɔle eemail yi Corp.example.com, fo na baŋ e la a ŋaa a vɛŋ ka tontona dannyaa taa zɛgeroŋ fẽẽ.
-     -ka fõõ wa erɛ furi-kyɛ ko yuo yizie progyɛte ka fo Tontonne ba na irigyisi yi zie kaŋa sɛɛvisi ane/bee ba menne eemail adrɛse, a ba seŋ ka fo eŋ a ŋa ka lɛ naane fo eemail toɔle zaa na bɔre la kpɛ SFP dansarka.
-     -ka furi-kyɛ wa e boŋkaŋa zaa, fo ba taa dabeɛŋ o barebo ka a pɔge a piiluu eŋɛ, saŋa na o emmo tɔɔrɔ naŋ na e, a fo mail toɔle naŋ daŋ koŋ ta.',
       'The environmental variable %s is empty. This server will not be able to execute some commands.' => 'A paaloŋ %s e la zaglaa.A server aŋ koŋ baŋ wuli yɛlɛ mine.',
       'Partitioning and replication are now managed in primary configuration.' => 'Kyaabo ane pulluu pampana maŋ managye la peramere konfigiriseŋ poɔ.',
       'By default, this software serves files from the same domain the application is served from. This is convenient, but presents a security risk.
@@ -467,6 +445,13 @@ final class PhabricatorConfigDga
     A toɔmo ŋa sɔŋɛɛ MySQL \'\'LOODI DAATA LOOKAL FAALI POORE \'\' guubu, kyɛ sage MySQL sɛɛva kannoo pagebo ko a lookal dɛɛke: a sɛɛva naŋ baŋ soore la a kilaaya ka o tere a o lookal faali yelzu, kyɛ ka a kilaaya tu a lɛ onaŋ yeli.
     A yi o naŋ maŋ ferɛ gba ka a ataaka burburi a saseɛ miri ŋa ka o gyoone a MySQL sɛɛva,a seŋ ka pɔge a iribu: a boɔbo ba taa tɔna kyɛ soma ka gbandi o.
     Ka fo naŋ na pɔge a iribu, maale: %s',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Yelbie tutaa merɛ e ka o kyaane teɛbo ko kɔkɔɛ fĩĩ a meŋɛ, kyɛ fo na baŋ furi la Pygments (a third-party syntax highlighting tool) na tere teɛbo ko kɔkɔɛ yaga.
+    Ka fõõ na furi pygment, gaa kyɛ [[ http://pygments.org | pygments.org ]] a tu a danloodi a furi sobi-tuuri.
+    Ka Pygments wa furi, eŋ dare ŋa (`pygments.enabled`) na toŋ ne Pygments ka foŋ wa kyaane yizie koodi.
+    Ka foŋ wa furi baare a eŋ Pygments, yizie koodi kuri paalaa (like diffs and pastes) na kyaane la sonzaa. A na seŋ ka fo kɔre boŋkorɔ na nyɛ yizie koodi naŋ da daŋ bebe na kyaane o. Sobi-tuuri kyaare boŋkorɔ managyiŋ, nyɛ [[ %s | boŋkorɔ managyiŋ ]].',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
     Disable this setting to continue.' => 'Fo sɛva konfigie la ne \'%s\', naŋ bege a sɔtwaɛ ŋa yi pɛllɛ yuobo, o boɔrɔ la asɛse na.
     ŋmaa a sɛgeroo ŋa na kyoge.',
@@ -496,7 +481,6 @@ final class PhabricatorConfigDga
     If this directory exists, make it readable to the webserver. You can also edit the configuration below to use some other directory.' => 'A wulluu ko a leɛroŋ koroŋ (%s) ba la tona, bee ba la taa kannoo a yi a wɛbsʋʋva zie. A saseɛ miri maŋ toŋ neŋ la wulluu a naŋ toɔŋ biŋi duore kyaare a leɛbo. Ka a leɛroo ba la tono, maale o:
     %s
     Ka wulluu ŋa tono, vɛŋ ka o taa kannoo ko a wɛbsɛɛva. Fo maŋ na baŋ maale eŋ la a konfigere puliŋ a toɔŋ toneŋ wulluu toma mine.',
-      'These alternative URIs will be able to access \'normal\' pages on your this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Ama e la URIs kaa iruu baŋ kaa la a yɛlɛ kaa e kyo kyo a gampɛle poɔ. Amine meŋ la aŋa 0Auth koŋ tõɔ. A yelzu naŋ la gaa eŋ o',
       'This change supports situations where users are incorrectly associated with commits because the software makes a bad guess about how the VCS string maps to a user account. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with features which rely on the existence of these identities.' => 'A leɛroo ŋa sagɛɛ ziiri mine tontonneba naŋ ba toŋ velaa bonso a saseɛ miri teɛre la teɛfaa kyaare neŋ lɛ a VCS miri naŋ tɔgele gaa neŋ tontonneba kaŋa zaa. Ŋaa maŋ soŋɛɛ ziiri mine boma bimmo naŋ da tona taa zitage yiibu zie kyɛ ba taa akante zaa ko a tontonneba bombinni ziiri, fo na baŋ pɔge la yelwonni mine kyaare neŋ yɛlɛ mine naŋ paale a boma ama bimmo ziiri eebo.',
     );
   }

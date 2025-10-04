@@ -13,7 +13,6 @@ final class PhabricatorSearchPa
       'Query: %s' => 'ਪੁੱਛਗਿੱਛ: %s',
       'Personal Saved Queries' => 'ਨਿੱਜੀ ਸੰਭਾਲੀਆਂ ਪੁੱਛਗਿੱਛਾਂ',
       'Queries' => 'ਪੁੱਛਗਿੱਛ',
-      'Global Saved Queries' => 'ਵਿਸ਼ਵ-ਵਿਆਪੀ ਸੰਭਾਲੀਆਂ ਪੁੱਛਗਿੱਛਾਂ',
       'Query Errors' => 'ਪੁੱਛਗਿੱਛ ਗਲਤੀਆਂ',
       'Query Name' => 'ਪੁੱਛਗਿੱਛ ਦਾ ਨਾਂ',
       'Hide Query' => 'ਪੁੱਛਗਿੱਛ ਲੁਕਾਓ',

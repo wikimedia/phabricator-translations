@@ -148,7 +148,6 @@ final class PhabricatorCoreSdh
       'Archived' => 'ئارشیڤ کریاێ',
       'Messages' => 'پەیامەیل',
       'Preview' => 'پێشدیین',
-      'Advanced Search' => 'مینەێ پێشکەفتێ',
       'Project' => 'پرۆژە',
       'Delete' => 'سڕینەوە',
       'Old' => 'کۊەنە',

@@ -22,7 +22,6 @@ final class PhabricatorNuanceEl
       'Ref %s' => 'Παραπομπή %s',
       'GitHub Actor' => 'Δράστης GitHub',
       'Sources' => 'Πηγές',
-      'All Items' => 'Όλα τα αντικείμενα',
       'View Form' => 'Προβολή φόρμας',
       'Removed Label: %s' => 'Η ετικέτα αφαιρέθηκε: %s',
       'Can Manage Sources' => 'Μπορεί να διαχειριστεί πηγές',

@@ -30,6 +30,7 @@ final class PhabricatorDiffusionKoKR
       'Read / Write' => '읽기 / 쓰기',
       'Limits' => '제한',
       'Editable By' => '편집 가능 사용자:',
+      '%sus' => '%sus',
       'Unable to load commit "%s".' => '"%s" 커밋을 로드할 수 없습니다.',
       'Unable to load object "%s".' => '"%s" 오브젝트를 로드할 수 없습니다.',
       '%s (on %s)' => '%s (%s)',

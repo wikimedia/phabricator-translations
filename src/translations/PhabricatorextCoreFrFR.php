@@ -14,8 +14,6 @@ final class PhabricatorextCoreFrFR
       'Standard Phabricator.' => 'Phabricator standard.',
       'Auto-generated release schedule details.' => 'Détails de planification de version auto-générée.',
       'Consumer Token' => 'Jeton du consommateur',
-      'This adds a link to search Maniphest for open tasks which are tagged with this project.\\n\\nNOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Ceci ajoute un lien pour rechercher dans Maniphest les tâches ouvertes qui sont balisées avec ce projet.\\n\\nREMARQUE : cette fonctionnalité est fournie par une extension maintenue par Wikimédia dans ProjectOpenTasksProfileMenuItem
-    .php. Voir https://gitlab.wikimedia.org/repos/phabricator/extensions pour la source.',
       'Merged' => 'Fusionné',
       'Unresolved code review comments: %d' => 'Commentaire de relecture de code non résolu : %s',
       'Customize query in gerrit' => 'Personnaliser la requête dans Gerrit',
@@ -148,6 +146,8 @@ final class PhabricatorextCoreFrFR
       'You cannot roll back the activity of a privileged user.' => 'Vous ne pouvez pas annuler l’activité d’un utilisateur privilégié.',
       'Any open subtask(s) block the train from moving forward. This means no further deployments until the blockers are resolved.' => 'Toute sous-tâche ouverte bloquera l’avancement du train. Ceci signifie qu’il n’y aura plus d’autres déploiements tant que les éléments bloquants ne seront pas résolus.',
       'Changed Subtype' => 'Sous-type changé',
+      'This adds a link to search Maniphest for open tasks which are tagged with this project. NOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'Ceci ajoute un lien pour rechercher dans Maniphest les tâches ouvertes qui sont balisées avec ce projet.\\n\\nREMARQUE : cette fonctionnalité est fournie par une extension maintenue par Wikimédia dans ProjectOpenTasksProfileMenuItem
+    .php. Voir https://gitlab.wikimedia.org/repos/phabricator/extensions pour la source.',
       'The full URL to your MediaWiki install, up to but not including "index.php"' => 'L’URL complète de votre installation MediaWiki, juste avant « index.php »',
       'This panel shows navigation links to other milestones in the same series.' => 'Ce panneau affiche des liens de navigation vers d’autres jalons dans la même suite.',
       'Expert Mode' => 'Mode expert',

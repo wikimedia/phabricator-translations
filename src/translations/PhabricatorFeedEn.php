@@ -50,6 +50,7 @@ final class PhabricatorFeedEn
       'Transaction Logs' => 'Transaction Logs',
       'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.' => 'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.',
       'Feed Stories' => 'Feed Stories',
+      'Feed query minimum range must be lower than maximum range.' => 'Feed query minimum range must be lower than maximum range.',
       'Unknown rendering target: %s' => 'Unknown rendering target: %s',
       'Include stories about projects I am a member of.' => 'Include stories about projects I am a member of.',
       'All Transactions' => 'All Transactions',

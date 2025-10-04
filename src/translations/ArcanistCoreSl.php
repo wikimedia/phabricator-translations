@@ -60,6 +60,7 @@ final class ArcanistCoreSl
       'Multi-lined arrays should have trailing commas.' => 'Večvrstične matrike morajo imeti končne vejice.',
       'You can not read the result buffer while streaming results to disk: there is no in-memory buffer to read.' => 'Med pretakanjem zadetkov na disk ne morete brati medpomnilnika zadetkov: v pomnilniku ni medpomnilnika, ki bi ga lahko brali.',
       'Accepted' => 'Sprejeto',
+      'Lookup of encoding in project failed: %s' => 'Iskanje kodiranja v projektu ni uspelo: %s',
       'Array item with key \'%s\' must be of type array, %s given.' => 'Predmet matrike s ključem »%s« mora biti vrste matrika; predloženi je bil %s.',
       'Confirms that revisions with failed builds should land.' => 'Potrjuje, da naj bodo uveljavljene redakcije z neuspešno graditvijo.',
       'HTTP parameter pair (with key "%s") is not valid: each pair must be an array with exactly two elements.' => 'Par parametrov HTTP (s ključem »%s«) ni veljaven: vsak par mora biti matrika z natanko dvema elementoma.',

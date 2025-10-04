@@ -91,7 +91,6 @@ final class PhabricatorConpherenceCa
       'Create a new conpherence thread.' => 'Creeu un fil de conferència nou.',
       'Search by room titles.' => 'Cerca per títols de sala.',
       'Peach' => 'Préssec',
-      'No Rooms' => 'Cap sala',
       'Private Room' => 'Sala privada',
       'Light' => 'Clar',
       'Theme' => 'Tema',

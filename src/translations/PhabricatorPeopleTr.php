@@ -144,7 +144,6 @@ final class PhabricatorPeopleTr
       'users' => 'kullanıcılar',
       'To send invites, you must enter at least one email address.' => 'Davet göndermek için en az bir e-posta adresi girmelisiniz.',
       'Approve User' => 'Kullanıcı Onayla',
-      'Find users whose usernames contain a substring.' => 'Kullanıcı adları bir alt dize içeren kullanıcıları bulun.',
       'You can use this login link to regain access to your account:
       %s
     ' => 'Phabricator hesabınıza tekrar erişmek için bu giriş bağlantısını kullanabilirsiniz:

@@ -236,6 +236,7 @@ final class PhabricatorHeraldFrFR
       'Hook Error' => 'Erreur d’ancrage',
       'Regular expression "%s" in Herald rule "%s" is not valid, or exceeded backtracking or recursion limits while executing. Verify the expression and correct it or rewrite it with less backtracking.' => 'L’expression rationnelle « %s » dans la règle Herald « %s » n’est pas valide, ou a dépassé les limites de retours sur trace ou de récursion au cours de son exécution. Vérifiez l’expression et corrigez-la ou réécrivez-la avec moins de retours sur trace.',
       'No adapter exists for Herald content type "%s".' => 'Aucun adaptateur existant pour le type de contenu Herald « %s ».',
+      'You do not have permission to create or manage global rules.' => 'Vous n’avez pas la permission de créer ou de gérer des règles globales.',
       'Many requests to this webhook have failed recently (at least %s errors in the last %s seconds). New requests are temporarily paused.' => 'Beaucoup de requêtes sur cette accroche Internet ont échoué récemment (au moins %s erreurs durant ces %s dernières secondes). Les nouvelles requêtes sont temporairement suspendues.',
       'Call webhooks' => 'Appel des accroches Internet',
       'Another Herald rule' => 'Une autre règle Herald',
@@ -245,8 +246,6 @@ final class PhabricatorHeraldFrFR
       'Edit Rule' => 'Modifier la règle',
       'any of' => 'n’importe lequel/laquelle de',
       'Dry Run' => 'Lancement de test',
-      'No transcripts found.' => 'Aucune transcription trouvée.',
-      'You do not have permission to create or manage global rules.' => 'Vous n’avez pas la permission de créer ou de gérer des règles globales.',
       'Condition references a rule which does not exist!' => 'La condition fait référence à une règle inexistante !',
       'Show Only Enabled Rules' => 'Montrer les règles activées uniquement',
       'Webhook %d %s' => 'Accroche Internet %s %s',
@@ -400,6 +399,7 @@ final class PhabricatorHeraldFrFR
       'Name of the webhook.' => 'Nom de l\'accroche Internet.',
       'Webhooks' => 'Accroches Internet',
       'The regular expression pair "%s" must have exactly two elements.' => 'La paire d’expressions rationnelles « %s » doit avoir exactement deux éléments.',
+      'No transcripts found.' => 'Aucune transcription trouvée.',
     );
   }
 

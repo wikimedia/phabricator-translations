@@ -9,6 +9,7 @@ final class PhabricatorDrydockKoKR
 
   protected function getTranslations() {
     return array(
+      'Resource' => '자료',
       'Show Details' => '자세한 내용 보기',
       'Stdout' => 'Stdout',
       'Via:' => '경유:',

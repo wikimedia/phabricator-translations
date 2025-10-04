@@ -16,7 +16,6 @@ final class PhabricatorTransactionsSrEC
       'Bulk Editor' => 'Масовни уредник',
       'export' => 'извези',
       'Encryption Required' => 'Потребно шифровање',
-      'Change subtype to' => 'Промени подтип у',
       'Mentioned User' => 'Поменути корисник',
       'Silent Edit' => 'Тиха измена',
       'Bulk Edit' => 'Групна измена',

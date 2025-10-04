@@ -39,7 +39,6 @@ final class PhabricatorConpherenceDa
       'Topic' => 'Emne',
       'Create New Room' => 'Opret nyt rum',
       'Room' => 'Rum',
-      'No Rooms' => 'Ingen rum',
       'Private Room' => 'Privat rum',
       'Light' => 'Lys',
       'Theme' => 'Tema',

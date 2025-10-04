@@ -50,7 +50,6 @@ final class PhabricatorCorePl
       'Badges' => 'Odznaki',
       '%s:' => '%s:',
       'Continue' => 'Kontynuuj',
-      'All Documents' => 'Wszystkie dokumenty',
       'Repository' => 'Repozytorium',
       'Continue anyway?' => 'Kontynuować mimo to?',
       '%s' => '%s',

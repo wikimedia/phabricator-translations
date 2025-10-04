@@ -16,7 +16,7 @@ final class PhabricatorPeopleNl
       'Not Approved' => 'Niet goedgekeurd',
       'Edit Profile: %s' => 'Profiel bewerken: %s',
       'Old Username' => 'Oude gebruikersnaam',
-      'Hi %s' => 'Hi %s',
+      'Hi %s' => 'Hoi %s',
     );
   }
 

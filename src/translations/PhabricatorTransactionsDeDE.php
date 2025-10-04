@@ -46,7 +46,6 @@ final class PhabricatorTransactionsDeDE
       'Post Comment' => 'Kommentar posten',
       'View Herald Transcript' => 'Herald-Transcript anzeigen',
       'Encryption Required' => 'Verschlüsselung erforderlich',
-      'Change subtype to' => 'Verändere Subtyp zu',
       'EMAIL PREFERENCES' => 'Email Einstellungen',
       'Configure bulk job __id__ to run silently (without sending mail or publishing notifications).' => 'Konfiguriere den Stapelauftrag __id__, dass er leise ausgeführt wird (ohne Mails zu senden oder Benachrichtigungen zu veröffentlichen)',
       '%s created an object: %s.' => '%s erstellte ein Objekt: %s.',

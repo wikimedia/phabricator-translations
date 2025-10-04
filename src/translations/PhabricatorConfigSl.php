@@ -50,13 +50,6 @@ final class PhabricatorConfigSl
       'Elasticsearch is configured (with the %s setting) but an exception was encountered when trying to test the index.
     %s' => 'Elasticsearch je konfiguriran (z nastavitvijo %s), vendar je Phabricator pri poskusu testiranja indeksa naletel na izjemo.
     %s',
-      'Syntax highlighting a supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator podpira označevanje skladnje nekaterih jezikov po privzetem, za številne dodatne jezike pa lahko namestite orodje Pygments (orodje za označevanje skladnje tretje osebe).
-    Za namestitev orodja Pygments obiščite stran [[ http://pygments.org | pygments.org ]] in se ravnajte po navodilih za prenos in namestitev.
-    Ko je orodje Pygments nameščeno, omogočite to možnost (`pygments.enabled`), da bo Phabricator orodje Pygments uporabljal pri označevanju skladnje.
-    Po namestitvi in omogočenju orodja Pygments bi se morala novoustvarjena izvorna koda (npr. razlike in prilepljenja) pravilno označevati. Za označevanje že obstoječe kode boste morali morda očistiti Phabricatorjeve predpomnilnike. Za navodila za upravljanje predpomnilnikov glejte stran [[ %s | Managing Caches ]].',
       'Settings History' => 'Zgodovina nastavitev',
       'Missing \'%s\' Binary' => 'Manjka dvojiška datoteka »%s«.',
       'No search servers are configured.' => 'Konfiguriran ni noben iskalni strežnik.',
@@ -97,6 +90,13 @@ final class PhabricatorConfigSl
     Ta možnost določa seznam omrežnih blokiranj, s katerimi bo Phabricator zavrnil povezavo. Na splošno bi morali tukaj navesti ves zasebni IP-prostor.',
       'Core Settings' => 'Osnovne nastavitve',
       'Missing Required Extensions' => 'Manjkajo potrebne razširitve',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator podpira označevanje skladnje nekaterih jezikov po privzetem, za številne dodatne jezike pa lahko namestite orodje Pygments (orodje za označevanje skladnje tretje osebe).
+    Za namestitev orodja Pygments obiščite stran [[ http://pygments.org | pygments.org ]] in se ravnajte po navodilih za prenos in namestitev.
+    Ko je orodje Pygments nameščeno, omogočite to možnost (`pygments.enabled`), da bo Phabricator orodje Pygments uporabljal pri označevanju skladnje.
+    Po namestitvi in omogočenju orodja Pygments bi se morala novoustvarjena izvorna koda (npr. razlike in prilepljenja) pravilno označevati. Za označevanje že obstoječe kode boste morali morda očistiti Phabricatorjeve predpomnilnike. Za navodila za upravljanje predpomnilnikov glejte stran [[ %s | Managing Caches ]].',
       '%d related link(s):' => '%s povezana(ih) povezav(a):',
       'Missing Repository Local Path' => 'Manjka lokalna pot shrambe',
       'Alternate domain to serve files from.' => 'Alternativna domena kot vir datotek.',

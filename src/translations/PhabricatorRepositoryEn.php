@@ -53,6 +53,9 @@ final class PhabricatorRepositoryEn
       'Unexpected hint format at index "%s": %s' => 'Unexpected hint format at index "%s": %s',
       '(Dry Run) Would update assigned user from "%s" to "%s".' => '(Dry Run) Would update assigned user from "%s" to "%s".',
       'This ref is not configured as a permanent ref.' => 'This ref is not configured as a permanent ref.',
+      'To add custom hook scripts to this repository, add them to this directory.
+    %s will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'To add custom hook scripts to this repository, add them to this directory.
+    %s will run any executables in this directory after running its own checks, as though they were normal hook scripts.',
       'Something is wrong; source of a copy must exist.' => 'Something is wrong; source of a copy must exist.',
       'These repositories will be thawed:' => 'These repositories will be thawed:',
       'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".' => 'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".',
@@ -434,9 +437,6 @@ final class PhabricatorRepositoryEn
       'Unpublishing commit "%s".' => 'Unpublishing commit "%s".',
       'Unpublish all feed stories and notifications that a repository has generated. Keep expectations low; can not rewind time.' => 'Unpublish all feed stories and notifications that a repository has generated. Keep expectations low; can not rewind time.',
       'Apply the promotion or demotion to all repositories hosted on the device.' => 'Apply the promotion or demotion to all repositories hosted on the device.',
-      'To add custom hook scripts to this repository, add them to this directory.
-    Phabricator will run any executables in this directory after running its own checks, as though they were normal hook scripts.' => 'To add custom hook scripts to this repository, add them to this directory.
-    Phabricator will run any executables in this directory after running its own checks, as though they were normal hook scripts.',
       'Updating refs in "%s"...' => 'Updating refs in "%s"...',
       'Repository "%s" is already queued.' => 'Repository "%s" is already queued.',
       'Create Git Repository' => 'Create Git Repository',

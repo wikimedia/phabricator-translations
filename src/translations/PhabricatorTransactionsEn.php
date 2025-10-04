@@ -10,7 +10,6 @@ final class PhabricatorTransactionsEn
   protected function getTranslations() {
     return array(
       'Lock / Hide Fields' => 'Lock / Hide Fields',
-      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.' => 'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.',
       'Unmark as "Edit" Form' => 'Unmark as "Edit" Form',
       'Parameter "%s" is not a list of transactions.' => 'Parameter "%s" is not a list of transactions.',
       'Transactions have no effect:' => 'Transactions have no effect:',
@@ -34,7 +33,6 @@ final class PhabricatorTransactionsEn
       'Engine: Editor' => 'Engine: Editor',
       '%s moved %s to %s on the %s board.' => '%s moved %s to %s on the %s board.',
       'To continue, configure multi-factor authentication in Settings.' => 'To continue, configure multi-factor authentication in Settings.',
-      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"' => 'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"',
       'SearchEngine class to export data from.' => 'SearchEngine class to export data from.',
       'In %s, %s wrote:' => 'In %s, %s wrote:',
       'Unmark as Create Form' => 'Unmark as Create Form',
@@ -42,6 +40,7 @@ final class PhabricatorTransactionsEn
       'Edges already exist; transaction has no effect.' => 'Edges already exist; transaction has no effect.',
       '%s updated the preamble for this form.' => '%s updated the preamble for this form.',
       '%s changed the default value for field %s.' => '%s changed the default value for field %s.',
+      'Comment Action Options' => 'Comment Action Options',
       '%s marked %s inline comment(s) as done.' => '%s marked %s inline comment(s) as done.',
       'Email Body Text' => 'Email Body Text',
       'Optional instructions, shown above the form.' => 'Optional instructions, shown above the form.',
@@ -65,6 +64,7 @@ final class PhabricatorTransactionsEn
       'Primary Fields' => 'Primary Fields',
       '%s updated %s attached file(s), removed %s: %s; modified %s: %s.' => '%s updated %s attached file(s), removed %s: %s; modified %s: %s.',
       '%s attached %s referenced file(s): %s.' => '%s attached %s referenced file(s): %s.',
+      'Mentioned In' => 'Mentioned In',
       '%s moved %s on %s board(s): %s.' => '%s moved %s on %s board(s): %s.',
       'Export format.' => 'Export format.',
       'Drag and drop fields to change the order in which they appear in the application "Create" menu.' => 'Drag and drop fields to change the order in which they appear in the application "Create" menu.',
@@ -100,6 +100,7 @@ final class PhabricatorTransactionsEn
       'Query does not match any objects you have permission to edit.' => 'Query does not match any objects you have permission to edit.',
       'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.' => 'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.',
       'Query does not match any objects.' => 'Query does not match any objects.',
+      'In call to "%s", specified "%s" ("%s") is not supported because it does not implement "%s". Valid object types are: %s.' => 'In call to "%s", specified "%s" ("%s") is not supported because it does not implement "%s". Valid object types are: %s.',
       'Read transactions and comments for a particular object or an entire object type.' => 'Read transactions and comments for a particular object or an entire object type.',
       '✘ Hidden' => '✘ Hidden',
       'EditEngine BuiltinKey contains an invalid key character "/".' => 'EditEngine BuiltinKey contains an invalid key character "/".',
@@ -192,6 +193,7 @@ final class PhabricatorTransactionsEn
       'Export format ("%s") is not enabled.' => 'Export format ("%s") is not enabled.',
       'This object has been locked.' => 'This object has been locked.',
       'Changed Policy' => 'Changed Policy',
+      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier".' => 'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier".',
       'You can not apply transactions which already have IDs/PHIDs!' => 'You can not apply transactions which already have IDs/PHIDs!',
       'Forms' => 'Forms',
       'File attachment mode (for file "%s") is invalid. Expected a string, found "%s".' => 'File attachment mode (for file "%s") is invalid. Expected a string, found "%s".',
@@ -246,8 +248,8 @@ final class PhabricatorTransactionsEn
       'Encryption Required' => 'Encryption Required',
       'Form name is required.' => 'Form name is required.',
       'No object exists with ID "%s".' => 'No object exists with ID "%s".',
+      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.',
       '%s wrote:' => '%s wrote:',
-      'Change subtype to' => 'Change subtype to',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => 'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.',
       'Save Edit Order' => 'Save Edit Order',
       'File "%s" is invalid: it could not be loaded, or you do not have permission to view it. You must be able to see a file to attach it to an object.' => 'File "%s" is invalid: it could not be loaded, or you do not have permission to view it. You must be able to see a file to attach it to an object.',
@@ -272,99 +274,67 @@ final class PhabricatorTransactionsEn
       'Drag and drop fields to change their priority for edits. When a user edits an object, they will be shown the first form in this list that they have permission to see.' => 'Drag and drop fields to change their priority for edits. When a user edits an object, they will be shown the first form in this list that they have permission to see.',
       '%s added %d subscriber(s): %s.' => '%s added %s subscriber(s): %s.',
       'Unmark as "Create" Form' => 'Unmark as "Create" Form',
+      'When creating objects in the web interface, you can use HTTP parameters to
+    prefill fields in the form. This allows you to quickly create a link to a
+    form with some of the fields already filled in with default values.
+    To prefill a form, start by finding the URI for the form you want to prefill.
+    Do this by navigating to the relevant application, clicking the "Create" button
+    for the type of object you want to create, and then copying the URI out of your
+    browser\'s address bar. It will usually look something like this:
+    ```
+    %s
+    ```
+    However, `phorge.example.com` will be the domain where your copy of this
+    software is installed, and `application/` will be the URI for an application.
+    Some applications have multiple forms for creating objects or URIs that look a
+    little different than this example, so the URI may not look exactly like this.
+    To prefill the form, add properly encoded HTTP parameters to the URI. You
+    should end up with something like this:
+    ```
+    %s?title=Platypus&body=Ornithopter
+    ```
+    If the form has `title` and `body` fields of the correct types, visiting this
+    link will prefill those fields with the values "Platypus" and "Ornithopter"
+    respectively.
+    The rest of this document shows which parameters you can add to this form and
+    how to format them.
+    Supported Fields
+    ----------------
+    This form supports these fields:
+    ' => 'When creating objects in the web interface, you can use HTTP parameters to
+    prefill fields in the form. This allows you to quickly create a link to a
+    form with some of the fields already filled in with default values.
+    To prefill a form, start by finding the URI for the form you want to prefill.
+    Do this by navigating to the relevant application, clicking the "Create" button
+    for the type of object you want to create, and then copying the URI out of your
+    browser\'s address bar. It will usually look something like this:
+    ```
+    %s
+    ```
+    However, `phorge.example.com` will be the domain where your copy of this
+    software is installed, and `application/` will be the URI for an application.
+    Some applications have multiple forms for creating objects or URIs that look a
+    little different than this example, so the URI may not look exactly like this.
+    To prefill the form, add properly encoded HTTP parameters to the URI. You
+    should end up with something like this:
+    ```
+    %s?title=Platypus&body=Ornithopter
+    ```
+    If the form has `title` and `body` fields of the correct types, visiting this
+    link will prefill those fields with the values "Platypus" and "Ornithopter"
+    respectively.
+    The rest of this document shows which parameters you can add to this form and
+    how to format them.
+    Supported Fields
+    ----------------
+    This form supports these fields:
+    ',
       'Exception when processing transaction of type "%s": %s' => 'Exception when processing transaction of type "%s": %s',
       'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.' => 'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.',
       '%s created this object in space %s.' => '%s created this object in space %s.',
       'Engine: Edit' => 'Engine: Edit',
       '%s changed the interact policy for %s.' => '%s changed the interact policy for %s.',
       '%s removed %s watcher(s) for %s: %s.' => '%s removed %s watcher(s) for %s: %s.',
-      'When an object (like a task) is edited, the relevant application creates a
-    "transaction" and applies it. This list of transactions on each object is the
-    basis for essentially all edits and comments. Reviewing the transaction
-    record allows you to see who edited an object, when, and how their edit changed
-    things.
-    One common reason to call this method is that you\'re implementing a webhook and
-    just received a notification that an object has changed. See the Webhooks
-    documentation for more detailed discussion of this use case.
-    One Object Type at a Time
-    =========================
-    This API method can query transactions for any type of object which supports
-    transactions, but only one type of object can be queried per call. For example:
-    you can retrieve transactions affecting Tasks, or you can retrieve transactions
-    affecting Revisions, but a single call can not retrieve both.
-    This is a technical limitation arising because (among other reasons) there is
-    no global ordering on transactions.
-    To find transactions for a specific object (like a particular task), pass the
-    object PHID or an appropriate object identifier (like `T123`) as an
-    `objectIdentifier`.
-    To find all transactions for an object type, pass the object type constant as
-    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
-    can quickly find an unknown type constant by looking at the PHID of an object
-    of that type.)
-    Constraints
-    ===========
-    These constraints are supported:
-      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
-        is most likely to be useful if you\'re responding to a webhook notification
-        and want to inspect only the related events.
-      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
-        authors.
-    Transaction Format
-    ==================
-    Each transaction has custom data describing what the transaction did. The
-    format varies from transaction to transaction. The easiest way to figure out
-    exactly what a particular transaction looks like is to make the associated kind
-    of edit to a test object, then query that object.
-    Not all transactions have data: by default, transactions have a `null` "type"
-    and no additional data. This API does not expose raw transaction data because
-    some of it is internal, oddly named, misspelled, confusing, not useful, or
-    could create security or policy problems to expose directly.
-    New transactions are exposed (with correctly spelled, comprehensible types and
-    useful, reasonable fields) as we become aware of use cases for them.
-    ' => 'When an object (like a task) is edited, the relevant application creates a
-    "transaction" and applies it. This list of transactions on each object is the
-    basis for essentially all edits and comments. Reviewing the transaction
-    record allows you to see who edited an object, when, and how their edit changed
-    things.
-    One common reason to call this method is that you\'re implementing a webhook and
-    just received a notification that an object has changed. See the Webhooks
-    documentation for more detailed discussion of this use case.
-    One Object Type at a Time
-    =========================
-    This API method can query transactions for any type of object which supports
-    transactions, but only one type of object can be queried per call. For example:
-    you can retrieve transactions affecting Tasks, or you can retrieve transactions
-    affecting Revisions, but a single call can not retrieve both.
-    This is a technical limitation arising because (among other reasons) there is
-    no global ordering on transactions.
-    To find transactions for a specific object (like a particular task), pass the
-    object PHID or an appropriate object identifier (like `T123`) as an
-    `objectIdentifier`.
-    To find all transactions for an object type, pass the object type constant as
-    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
-    can quickly find an unknown type constant by looking at the PHID of an object
-    of that type.)
-    Constraints
-    ===========
-    These constraints are supported:
-      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
-        is most likely to be useful if you\'re responding to a webhook notification
-        and want to inspect only the related events.
-      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
-        authors.
-    Transaction Format
-    ==================
-    Each transaction has custom data describing what the transaction did. The
-    format varies from transaction to transaction. The easiest way to figure out
-    exactly what a particular transaction looks like is to make the associated kind
-    of edit to a test object, then query that object.
-    Not all transactions have data: by default, transactions have a `null` "type"
-    and no additional data. This API does not expose raw transaction data because
-    some of it is internal, oddly named, misspelled, confusing, not useful, or
-    could create security or policy problems to expose directly.
-    New transactions are exposed (with correctly spelled, comprehensible types and
-    useful, reasonable fields) as we become aware of use cases for them.
-    ',
       '%s moved %s from %s to %s on the %s board.' => '%s moved %s from %s to %s on the %s board.',
       'EditEngine "%s" created or loaded an invalid object: object must actually be an object, but is of some other type ("%s").' => 'EditEngine "%s" created or loaded an invalid object: object must actually be an object, but is of some other type ("%s").',
       '%s edited unsubscriber(s) for %s, added %s: %s; removed %s: %s.' => '%s edited unsubscriber(s) for %s, added %s: %s; removed %s: %s.',
@@ -555,61 +525,6 @@ final class PhabricatorTransactionsEn
       'Configure a bulk job to execute silently.' => 'Configure a bulk job to execute silently.',
       'Custom field transaction has no \'%s\'!' => 'Custom field transaction has no \'%s\'!',
       '%s signed these changes with MFA.' => '%s signed these changes with MFA.',
-      'When creating objects in the web interface, you can use HTTP parameters to
-    prefill fields in the form. This allows you to quickly create a link to a
-    form with some of the fields already filled in with default values.
-    To prefill a form, start by finding the URI for the form you want to prefill.
-    Do this by navigating to the relevant application, clicking the "Create" button
-    for the type of object you want to create, and then copying the URI out of your
-    browser\'s address bar. It will usually look something like this:
-    ```
-    %s
-    ```
-    However, `your.install.com` will be the domain where your copy of this software
-    is installed, and `application/` will be the URI for an application. Some
-    applications have multiple forms for creating objects or URIs that look a little
-    different than this example, so the URI may not look exactly like this.
-    To prefill the form, add properly encoded HTTP parameters to the URI. You
-    should end up with something like this:
-    ```
-    %s?title=Platyplus&body=Ornithopter
-    ```
-    If the form has `title` and `body` fields of the correct types, visiting this
-    link will prefill those fields with the values "Platypus" and "Ornithopter"
-    respectively.
-    The rest of this document shows which parameters you can add to this form and
-    how to format them.
-    Supported Fields
-    ----------------
-    This form supports these fields:
-    ' => 'When creating objects in the web interface, you can use HTTP parameters to
-    prefill fields in the form. This allows you to quickly create a link to a
-    form with some of the fields already filled in with default values.
-    To prefill a form, start by finding the URI for the form you want to prefill.
-    Do this by navigating to the relevant application, clicking the "Create" button
-    for the type of object you want to create, and then copying the URI out of your
-    browser\'s address bar. It will usually look something like this:
-    ```
-    %s
-    ```
-    However, `your.install.com` will be the domain where your copy of this software
-    is installed, and `application/` will be the URI for an application. Some
-    applications have multiple forms for creating objects or URIs that look a little
-    different than this example, so the URI may not look exactly like this.
-    To prefill the form, add properly encoded HTTP parameters to the URI. You
-    should end up with something like this:
-    ```
-    %s?title=Platyplus&body=Ornithopter
-    ```
-    If the form has `title` and `body` fields of the correct types, visiting this
-    link will prefill those fields with the values "Platypus" and "Ornithopter"
-    respectively.
-    The rest of this document shows which parameters you can add to this form and
-    how to format them.
-    Supported Fields
-    ----------------
-    This form supports these fields:
-    ',
       'SearchEngine class ("%s") does not support data export.' => 'SearchEngine class ("%s") does not support data export.',
       '%s unmarked this form as an edit form.' => '%s unmarked this form as an edit form.',
       'Multiple search engines match "%s": %s.' => 'Multiple search engines match "%s": %s.',
@@ -651,6 +566,7 @@ final class PhabricatorTransactionsEn
       '%s Action(s) Have No Effect' => '%s Action(s) Have No Effect',
       'This EditField does not provide a Conduit EditType with key "%s".' => 'This EditField does not provide a Conduit EditType with key "%s".',
       'None of the fields on this object support templating.' => 'None of the fields on this object support templating.',
+      'Mentioned Here' => 'Mentioned Here',
       'Edge transaction includes edge of type \'%s\', but transaction is of type \'%s\'. Each edge transaction must alter edges of only one type.' => 'Edge transaction includes edge of type \'%s\', but transaction is of type \'%s\'. Each edge transaction must alter edges of only one type.',
       'This comment was removed by %s.' => 'This comment was removed by %s.',
       'Apply Remaining Actions' => 'Apply Remaining Actions',
@@ -666,6 +582,97 @@ final class PhabricatorTransactionsEn
       'Form Preview' => 'Form Preview',
       '%s changed the subtype of this form from %s to %s.' => '%s changed the subtype of this form from %s to %s.',
       'If you start work now, this edit will send mail and publish notifications normally.' => 'If you start work now, this edit will send mail and publish notifications normally.',
+      'When an object (like a task) is edited, the relevant application creates a
+    "transaction" and applies it. This list of transactions on each object is the
+    basis for essentially all edits and comments. Reviewing the transaction
+    record allows you to see who edited an object, when, and how their edit changed
+    things.
+    One common reason to call this method is that you\'re implementing a webhook and
+    just received a notification that an object has changed. See the Webhooks
+    documentation for more detailed discussion of this use case.
+    One Object Type at a Time
+    =========================
+    This API method can query transactions for any type of object which supports
+    transactions, but only one type of object can be queried per call. For example:
+    you can retrieve transactions affecting Tasks, or you can retrieve transactions
+    affecting Revisions, but a single call can not retrieve both.
+    This is a technical limitation arising because (among other reasons) there is
+    no global ordering on transactions.
+    To find transactions for a specific object (like a particular task), pass the
+    object PHID or an appropriate object identifier (like `T123`) as an
+    `objectIdentifier`.
+    To find all transactions for an object type, pass the object type constant as
+    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
+    can quickly find an unknown type constant by looking at the PHID of an object
+    of that type.)
+    All supported values for `objectType`:
+    %s
+    Constraints
+    ===========
+    These constraints are supported:
+      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
+        is most likely to be useful if you\'re responding to a webhook notification
+        and want to inspect only the related events.
+      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
+        authors.
+    Transaction Format
+    ==================
+    Each transaction has custom data describing what the transaction did. The
+    format varies from transaction to transaction. The easiest way to figure out
+    exactly what a particular transaction looks like is to make the associated kind
+    of edit to a test object, then query that object.
+    Not all transactions have data: by default, transactions have a `null` "type"
+    and no additional data. This API does not expose raw transaction data because
+    some of it is internal, oddly named, misspelled, confusing, not useful, or
+    could create security or policy problems to expose directly.
+    New transactions are exposed (with correctly spelled, comprehensible types and
+    useful, reasonable fields) as we become aware of use cases for them.
+    ' => 'When an object (like a task) is edited, the relevant application creates a
+    "transaction" and applies it. This list of transactions on each object is the
+    basis for essentially all edits and comments. Reviewing the transaction
+    record allows you to see who edited an object, when, and how their edit changed
+    things.
+    One common reason to call this method is that you\'re implementing a webhook and
+    just received a notification that an object has changed. See the Webhooks
+    documentation for more detailed discussion of this use case.
+    One Object Type at a Time
+    =========================
+    This API method can query transactions for any type of object which supports
+    transactions, but only one type of object can be queried per call. For example:
+    you can retrieve transactions affecting Tasks, or you can retrieve transactions
+    affecting Revisions, but a single call can not retrieve both.
+    This is a technical limitation arising because (among other reasons) there is
+    no global ordering on transactions.
+    To find transactions for a specific object (like a particular task), pass the
+    object PHID or an appropriate object identifier (like `T123`) as an
+    `objectIdentifier`.
+    To find all transactions for an object type, pass the object type constant as
+    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
+    can quickly find an unknown type constant by looking at the PHID of an object
+    of that type.)
+    All supported values for `objectType`:
+    %s
+    Constraints
+    ===========
+    These constraints are supported:
+      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
+        is most likely to be useful if you\'re responding to a webhook notification
+        and want to inspect only the related events.
+      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
+        authors.
+    Transaction Format
+    ==================
+    Each transaction has custom data describing what the transaction did. The
+    format varies from transaction to transaction. The easiest way to figure out
+    exactly what a particular transaction looks like is to make the associated kind
+    of edit to a test object, then query that object.
+    Not all transactions have data: by default, transactions have a `null` "type"
+    and no additional data. This API does not expose raw transaction data because
+    some of it is internal, oddly named, misspelled, confusing, not useful, or
+    could create security or policy problems to expose directly.
+    New transactions are exposed (with correctly spelled, comprehensible types and
+    useful, reasonable fields) as we become aware of use cases for them.
+    ',
       'If you start work now, this edit will be applied silently: it will not send mail or publish notifications.' => 'If you start work now, this edit will be applied silently: it will not send mail or publish notifications.',
       '%s edited contributor(s), added %s: %s; removed %s: %s.' => '%s edited contributor(s), added %s: %s; removed %s: %s.',
       'Transaction type \'%s\' is missing an external apply implementation!' => 'Transaction type \'%s\' is missing an external apply implementation!',

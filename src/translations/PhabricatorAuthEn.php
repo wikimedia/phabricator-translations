@@ -38,9 +38,6 @@ final class PhabricatorAuthEn
       'Setup Admin Account' => 'Setup Admin Account',
       'Enable Contact Number' => 'Enable Contact Number',
       'Create New Duo Account' => 'Create New Duo Account',
-      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
-    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Two applications which work well are **Google Authenticator** and **Authy**, but any other TOTP application should also work.
-    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.',
       'To configure Bitbucket OAuth, log in to Bitbucket and go to **Manage Account** > **Access Management** > **OAuth**.
     Click **Add Consumer** and create a new application.
     After completing configuration, copy the **Key** and **Secret** to the fields above.' => 'To configure Bitbucket OAuth, log in to Bitbucket and go to **Manage Account** > **Access Management** > **OAuth**.
@@ -58,6 +55,7 @@ final class PhabricatorAuthEn
       'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:' => 'The account you are attempting to register with has an invalid email address (%s). This server only allows registration with specific email addresses:',
       'Invalid OAuth Access Token' => 'Invalid OAuth Access Token',
       'Create Auth Message' => 'Create Auth Message',
+      'Attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, Bitwarden Authenticator, Google Authenticator, or Authy) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, Bitwarden Authenticator, Google Authenticator, or Authy) to your account. When you need to authenticate, you will enter a code shown on your phone.',
       'Verify Email' => 'Verify Email',
       'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".',
       'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.',
@@ -177,6 +175,7 @@ final class PhabricatorAuthEn
       'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.',
       'Failed to decode OAuth access token response: %s' => 'Failed to decode OAuth access token response: %s',
       'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.' => 'Optionally, specify one or more comma-separated attributes to use to prefill the "Real Name" field when registering a new account. This is purely cosmetic and does not affect the login process, but can make registration a little easier.',
+      'Allow users to attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, or Bitwarden Authenticator) to their account.' => 'Allow users to attach a mobile authenticator application (like 2FAS, Aegis, FreeOTP, or Bitwarden Authenticator) to their account.',
       'You must enter an LDAP password.' => 'You must enter an LDAP password.',
       'Generate New Keypair' => 'Generate New Keypair',
       'MFA Provider' => 'MFA Provider',
@@ -274,6 +273,9 @@ final class PhabricatorAuthEn
       'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.',
       'You responded to this challenge correctly.' => 'You responded to this challenge correctly.',
       'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => 'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.',
+      'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
+    If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.',
       'To configure Disqus OAuth, create a new application here:
     http://disqus.com/api/applications/
     Create an application, then adjust these settings:
@@ -988,7 +990,6 @@ final class PhabricatorAuthEn
       'Trouble logging in?' => 'Trouble logging in?',
       'Search Attributes' => 'Search Attributes',
       'You already have SMS authentication attached to your account.' => 'You already have SMS authentication attached to your account.',
-      'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.' => 'Attach a mobile authenticator application (like Authy or Google Authenticator) to your account. When you need to authenticate, you will enter a code shown on your phone.',
       'The login link you clicked is invalid, out of date, or has already been used.' => 'The login link you clicked is invalid, out of date, or has already been used.',
       'Message Text' => 'Message Text',
       'Revoke all credentials types.' => 'Revoke all credentials types.',
@@ -1057,7 +1058,6 @@ final class PhabricatorAuthEn
       'Guidance in the message body when users request an email link to access their account.' => 'Guidance in the message body when users request an email link to access their account.',
       'Refresh %s Account' => 'Refresh %s Account',
       'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => 'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.',
-      'Allow users to attach a mobile authenticator application (like Google Authenticator) to their account.' => 'Allow users to attach a mobile authenticator application (like Google Authenticator) to their account.',
       'MFA Sync' => 'MFA Sync',
       'Password Hash Algorithms' => 'Password Hash Algorithms',
       'OAuth1 Handshake Secret' => 'OAuth1 Handshake Secret',

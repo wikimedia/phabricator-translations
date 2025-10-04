@@ -10,7 +10,6 @@ final class PhabricatorTransactionsFrFR
   protected function getTranslations() {
     return array(
       'Lock / Hide Fields' => 'Verrouiller / masquer des champs',
-      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in Settings.' => 'Vous n’avez encore aucun facteur attaché à votre compte pour l’authentification à facteurs multiples (MFA), vous ne pouvez donc pas signer ce groupe de transactions avec MFA. Ajoutez MFA à votre compte dans vos Préférences.',
       'Unmark as "Edit" Form' => 'Démarquer comme formulaire de « Modification »',
       'Parameter "%s" is not a list of transactions.' => 'Le paramètre « %s » n’est pas une liste de transactions.',
       'Transactions have no effect:' => 'Des transactions n’ont aucun effet :',
@@ -37,7 +36,6 @@ final class PhabricatorTransactionsFrFR
       'Engine: Editor' => 'Moteur : éditeur',
       '%s moved %s to %s on the %s board.' => '%s a déplacé %s vers %s sur le tableau %s.',
       'To continue, configure multi-factor authentication in Settings.' => 'Pour continuer, configurez l’identification à facteurs multiples dans vos Paramètres.',
-      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier"' => 'Les appels à « transaction.search » doivent spécifier soit un « objectType » (type d’objet), soit un « objectIdentifier » (identifiant d’un objet).',
       'SearchEngine class to export data from.' => 'Classe SearchEngine pour exporter les données.',
       'In %s, %s wrote:' => 'Dans %s, %s a écrit :',
       'Unmark as Create Form' => 'Démarquer comme formulaire de création',
@@ -189,6 +187,7 @@ final class PhabricatorTransactionsFrFR
       'Export format ("%s") is not enabled.' => 'Le format d’exportation (« %s ») n’est pas activé.',
       'This object has been locked.' => 'Cet objet a été verrouillé.',
       'Changed Policy' => 'Politique changée',
+      'Calls to "transaction.search" must specify either an "objectType" or an "objectIdentifier".' => 'Les appels à « transaction.search » doivent spécifier soit un « objectType » (type d’objet), soit un « objectIdentifier » (identifiant d’un objet).',
       'You can not apply transactions which already have IDs/PHIDs!' => 'Vous ne pouvez appliquer aucune transaction ayant déjà un identifiant ou PHID !',
       'Forms' => 'Formulaires',
       'File attachment mode (for file "%s") is invalid. Expected a string, found "%s".' => 'Le mode pour les pièces jointes (pour le fichier « %s ») n\'est pas valide. Une chaîne était attendue, il a été trouvé « %s ».',
@@ -241,8 +240,8 @@ final class PhabricatorTransactionsFrFR
       'Encryption Required' => 'Chiffrement exigé',
       'Form name is required.' => 'Le nom du formulaire est obligatoire.',
       'No object exists with ID "%s".' => 'Aucun objet n’existe avec l’identifiant « %s ».',
+      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'Vous n’avez encore aucun facteur attaché à votre compte pour l’authentification à facteurs multiples (MFA), vous ne pouvez donc pas signer ce groupe de transactions avec MFA. Ajoutez MFA à votre compte dans vos Préférences.',
       '%s wrote:' => '%s a écrit :',
-      'Change subtype to' => 'Modification du sous-type en',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => 'L’extension « %s » définit un groupe de modification en masse avec la même clé (« %s ») que l’éditeur principal ou une autre extension. Chaque groupe de modification en masse doit avoir une clé unique.',
       'Save Edit Order' => 'Enregistrer la modification de l’ordre',
       'File "%s" is invalid: it could not be loaded, or you do not have permission to view it. You must be able to see a file to attach it to an object.' => 'Le fichier « %s » n\'est pas valide : il n\'a pas pu être chargé ou vous n\'avez pas l\'autorisation de le visualiser. Vous devez pouvoir voir un fichier pour l\'attacher à un objet.',
@@ -267,73 +266,55 @@ final class PhabricatorTransactionsFrFR
       'Drag and drop fields to change their priority for edits. When a user edits an object, they will be shown the first form in this list that they have permission to see.' => 'Glissez et déposez des champs pour modifier leur priorité pour les modifications. Lorsqu’un utilisateur modifiera un objet, il verra le premier formulaire de cette liste qu’il a la permission de voir.',
       '%s added %d subscriber(s): %s.' => '%s a ajouté %s abonné(s) : %s.',
       'Unmark as "Create" Form' => 'Démarquer comme formulaire de « Création »',
+      'When creating objects in the web interface, you can use HTTP parameters to
+    prefill fields in the form. This allows you to quickly create a link to a
+    form with some of the fields already filled in with default values.
+    To prefill a form, start by finding the URI for the form you want to prefill.
+    Do this by navigating to the relevant application, clicking the "Create" button
+    for the type of object you want to create, and then copying the URI out of your
+    browser\'s address bar. It will usually look something like this:
+    ```
+    %s
+    ```
+    However, `phorge.example.com` will be the domain where your copy of this
+    software is installed, and `application/` will be the URI for an application.
+    Some applications have multiple forms for creating objects or URIs that look a
+    little different than this example, so the URI may not look exactly like this.
+    To prefill the form, add properly encoded HTTP parameters to the URI. You
+    should end up with something like this:
+    ```
+    %s?title=Platypus&body=Ornithopter
+    ```
+    If the form has `title` and `body` fields of the correct types, visiting this
+    link will prefill those fields with the values "Platypus" and "Ornithopter"
+    respectively.
+    The rest of this document shows which parameters you can add to this form and
+    how to format them.
+    Supported Fields
+    ----------------
+    This form supports these fields:
+    ' => 'Lors de la création d\'objets dans l\'interface Internet, vous pouvez utiliser des paramètres HTTP pour préremplir les champs du formulaire. Cela vous permet de créer rapidement un lien vers un formulaire dont certains champs sont déjà remplis avec des valeurs par défaut.
+    Pour préremplir un formulaire, commencez par trouver l\'URI du formulaire que vous souhaitez préremplir. Pour ce faire, accédez à l\'application concernée, cliquez sur le bouton « Créer » (Create) pour le type d\'objet que vous souhaitez créer, puis copiez l\'URI depuis la barre d\'adresse de votre navigateur. Cela ressemblera généralement à ceci :
+    ```
+    %s
+    ```
+    Cependant, `your.install.com` sera le domaine où votre copie de ce logiciel est installée, et `application/` sera l\'URI d\'une application. Certaines applications ont plusieurs formulaires pour créer des objets ou des URI qui semblent un peu
+    différents de cet exemple, donc l\'URI peut ne pas ressembler exactement à ceci.
+    Pour préremplir le formulaire, ajoutez des paramètres HTTP correctement codés à l\'URI. Vous devriez obtenir quelque chose comme ceci :
+    ```
+    %s?title=Platypus&body=Ornithopter
+    ```
+    Si le formulaire comporte des champs `title` et `body` de types corrects, la visite de ce lien préremplira ces champs avec respectivement les valeurs « Platypus » et « Ornithopter ».
+    Le reste de ce document montre quels paramètres vous pouvez ajouter à ce formulaire et comment les formater.
+    Champs pris en charge
+    ----------------
+    Ce formulaire prend en charge les champs suivants :',
       'Exception when processing transaction of type "%s": %s' => 'Exception lors du traitement d’une transaction de type « %s » : %s',
       'In call to "transaction.search", specified "objectIdentifier" ("%s") does not exist.' => 'Dans l’appel à « transaction.search », l’identifiant d’objet (« objectIdentifier ») spécifié (« %s ») n’existe pas.',
       '%s created this object in space %s.' => '%s a créé cet objet dans l’espace %s.',
       'Engine: Edit' => 'Moteur : modifier',
       '%s changed the interact policy for %s.' => '%s a modifié la politique d\'interaction de %s.',
       '%s removed %s watcher(s) for %s: %s.' => '%s a retiré %s suiveur(s) pour %s : %s.',
-      'When an object (like a task) is edited, the relevant application creates a
-    "transaction" and applies it. This list of transactions on each object is the
-    basis for essentially all edits and comments. Reviewing the transaction
-    record allows you to see who edited an object, when, and how their edit changed
-    things.
-    One common reason to call this method is that you\'re implementing a webhook and
-    just received a notification that an object has changed. See the Webhooks
-    documentation for more detailed discussion of this use case.
-    One Object Type at a Time
-    =========================
-    This API method can query transactions for any type of object which supports
-    transactions, but only one type of object can be queried per call. For example:
-    you can retrieve transactions affecting Tasks, or you can retrieve transactions
-    affecting Revisions, but a single call can not retrieve both.
-    This is a technical limitation arising because (among other reasons) there is
-    no global ordering on transactions.
-    To find transactions for a specific object (like a particular task), pass the
-    object PHID or an appropriate object identifier (like `T123`) as an
-    `objectIdentifier`.
-    To find all transactions for an object type, pass the object type constant as
-    an `objectType`. For example, the correct identifier for tasks is `TASK`. (You
-    can quickly find an unknown type constant by looking at the PHID of an object
-    of that type.)
-    Constraints
-    ===========
-    These constraints are supported:
-      - `phids` //Optional list<phid>.// Find specific transactions by PHID. This
-        is most likely to be useful if you\'re responding to a webhook notification
-        and want to inspect only the related events.
-      - `authorPHIDs` //Optional list<phid>.// Find transactions with particular
-        authors.
-    Transaction Format
-    ==================
-    Each transaction has custom data describing what the transaction did. The
-    format varies from transaction to transaction. The easiest way to figure out
-    exactly what a particular transaction looks like is to make the associated kind
-    of edit to a test object, then query that object.
-    Not all transactions have data: by default, transactions have a `null` "type"
-    and no additional data. This API does not expose raw transaction data because
-    some of it is internal, oddly named, misspelled, confusing, not useful, or
-    could create security or policy problems to expose directly.
-    New transactions are exposed (with correctly spelled, comprehensible types and
-    useful, reasonable fields) as we become aware of use cases for them.
-    ' => 'Lorsqu’un objet (comme une tâche) est modifié, l\'application concernée crée une « transaction » et l\'applique. Cette liste de transactions sur chaque objet est la base d’essentiellement toutes les modifications et tous les commentaires. La relecture de l’enregistrement de la transaction vous permet de voir qui a modifié un objet, quand et comment sa modification a changé des choses.
-    Un motif fréquent pour appeler cette méthode est que vous mettez en œuvre une accroche Internet (webhook) et venez de recevoir une notification indiquant qu’un objet a été modifié. Consultez la documentation des accroches Internet pour plus de détails sur ce cas d’utilisation.
-    Un type d’objet à la fois
-    =========================
-    Cette méthode de l’API peut interroger des transactions pour tout type d’objet prenant en charge les transactions, mais un seul type d’objet peut être interrogé par appel. Par exemple : vous pouvez récupérer des transactions affectant des tâches, ou vous pouvez récupérer des transactions affectant des révisions, mais un seul appel ne peut pas récupérer les deux en même temps.
-    Il s’agit d’une limitation technique due au fait (entre autres raisons) qu’il n’y a aucun ordonnancement global sur les transactions.
-    Pour rechercher des transactions pour un objet spécifique (comme une tâche particulière), transmettez le PHID ou l’identifiant d’un objet approprié (comme `T123`) en tant que `objectIdentifier`.
-    Pour trouver toutes les transactions pour un type d’objet, transmettez la constante du type d’objet en tant que `objectType`. Par exemple, l’identifiant correct pour les tâches est `TASK` (vous pouvez rapidement trouver une constante de type inconnu en consultant le PHID d’un objet de ce type).
-    Contraintes
-    ===========
-    Les contraintes suivantes sont prises en charge :
-      - `phids` //Liste<phid> facultative. // Trouve des transactions spécifiques par PHID. Ceci est plus susceptible d’être utile si vous répondez à une notification d\'accroche Internet et souhaitez inspecter uniquement les événements associés.
-      - `authorPHIDs` //Liste<phid> facultative. // Trouve les transactions d\'auteurs particuliers.
-    Format de transaction
-    =====================
-    Chaque transaction a des données personnalisées décrivant ce que la transaction a fait. Le format varie d’une transaction à l’autre. Le moyen le plus simple de déterminer à quoi exactement ressemble une transaction particulière consiste à réaliser le type de modification associé sur un objet de test, puis à interroger cet objet.
-    Certaines transactions peuvent être vides : par défaut, les transactions ont un « type » `null` et aucune donnée supplémentaire. Cette API ne fournit pas les données de transaction brutes car certaines d’entre elles sont internes, portent des noms étranges, mal orthographiés, prêtant à confusion, pas utiles ou pourraient créer des problèmes de sécurité ou de respect des règles si exposées directement.
-    Des transactions sont améliorées (avec des types compréhensibles correctement orthographiés et des champs utiles et raisonnables) au fur et à mesure que nous prenons connaissance de leur utilisation.',
       '%s moved %s from %s to %s on the %s board.' => '%s a déplacé %s de %s vers %s sur le tableau %s.',
       'EditEngine "%s" created or loaded an invalid object: object must actually be an object, but is of some other type ("%s").' => 'Le moteur de modification « %s » a créé ou chargé un objet non valide : l’objet doit réellement être un objet, mais il est d’un autre type (« %s »).',
       '%s edited unsubscriber(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs désabonné(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
@@ -380,6 +361,7 @@ final class PhabricatorTransactionsFrFR
       'Validation errors:' => 'Erreurs de validation :',
       'This object has no select fields.' => 'Cet objet n’a aucun de champ de sélection.',
       'Mentioned User' => 'Utilisateur mentionné',
+      '%s created this form.' => '%s a créé ce formulaire.',
       'List of PHIDs to set.' => 'Liste des PHID à définir.',
       'This comment was signed with MFA, so you will be required to provide MFA credentials to make changes.' => 'Ce commentaire a été signé avec une authentification multi-facteur (MFA), vous devrez donc fournir des informations d’identification MFA pour y apporter des modifications.',
       '%s added %s unsubscriber(s): %s.' => '%s a ajouté %s désabonné(s) : %s.',
@@ -520,49 +502,6 @@ final class PhabricatorTransactionsFrFR
       'Configure a bulk job to execute silently.' => 'Configurer une tâche en masse pour qu’elle s’exécute silencieusement.',
       'Custom field transaction has no \'%s\'!' => 'La transaction de champ personnalisé n’a aucun « %s » !',
       '%s signed these changes with MFA.' => '%s a signé ces modifications avec MFA.',
-      'When creating objects in the web interface, you can use HTTP parameters to
-    prefill fields in the form. This allows you to quickly create a link to a
-    form with some of the fields already filled in with default values.
-    To prefill a form, start by finding the URI for the form you want to prefill.
-    Do this by navigating to the relevant application, clicking the "Create" button
-    for the type of object you want to create, and then copying the URI out of your
-    browser\'s address bar. It will usually look something like this:
-    ```
-    %s
-    ```
-    However, `your.install.com` will be the domain where your copy of this software
-    is installed, and `application/` will be the URI for an application. Some
-    applications have multiple forms for creating objects or URIs that look a little
-    different than this example, so the URI may not look exactly like this.
-    To prefill the form, add properly encoded HTTP parameters to the URI. You
-    should end up with something like this:
-    ```
-    %s?title=Platyplus&body=Ornithopter
-    ```
-    If the form has `title` and `body` fields of the correct types, visiting this
-    link will prefill those fields with the values "Platypus" and "Ornithopter"
-    respectively.
-    The rest of this document shows which parameters you can add to this form and
-    how to format them.
-    Supported Fields
-    ----------------
-    This form supports these fields:
-    ' => 'Lors de la création d\'objets dans l\'interface Internet, vous pouvez utiliser des paramètres HTTP pour préremplir les champs du formulaire. Cela vous permet de créer rapidement un lien vers un formulaire dont certains champs sont déjà remplis avec des valeurs par défaut.
-    Pour préremplir un formulaire, commencez par trouver l\'URI du formulaire que vous souhaitez préremplir. Pour ce faire, accédez à l\'application concernée, cliquez sur le bouton « Créer » (Create) pour le type d\'objet que vous souhaitez créer, puis copiez l\'URI depuis la barre d\'adresse de votre navigateur. Cela ressemblera généralement à ceci :
-    ```
-    %s
-    ```
-    Cependant, `your.install.com` sera le domaine où votre copie de ce logiciel est installée, et `application/` sera l\'URI d\'une application. Certaines applications ont plusieurs formulaires pour créer des objets ou des URI qui semblent un peu
-    différents de cet exemple, donc l\'URI peut ne pas ressembler exactement à ceci.
-    Pour préremplir le formulaire, ajoutez des paramètres HTTP correctement codés à l\'URI. Vous devriez obtenir quelque chose comme ceci :
-    ```
-    %s?title=Platypus&body=Ornithopter
-    ```
-    Si le formulaire comporte des champs `title` et `body` de types corrects, la visite de ce lien préremplira ces champs avec respectivement les valeurs « Platypus » et « Ornithopter ».
-    Le reste de ce document montre quels paramètres vous pouvez ajouter à ce formulaire et comment les formater.
-    Champs pris en charge
-    ----------------
-    Ce formulaire prend en charge les champs suivants :',
       'SearchEngine class ("%s") does not support data export.' => 'La classe SearchEngine (« %s ») ne prend pas en charge l’exportation de données.',
       '%s unmarked this form as an edit form.' => '%s a démarqué ce formulaire en tant que formulaire de modification.',
       'Multiple search engines match "%s": %s.' => 'Plusieurs moteurs de recherche correspondent à « %s » : %s.',

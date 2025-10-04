@@ -32,7 +32,6 @@ final class PhabricatorNuanceTr
       'This key has %s remaining API request(s), limit resets in %s second(s).' => 'Bu anahtarın %s kalan API isteği var, sınır %s içinde sıfırlanıyor.',
       'GitHub Actor' => 'GitHub Aktör',
       'Sources' => 'Kaynaklar',
-      'All Items' => 'Tüm Öğeler',
       'Pull Request #%d' => 'Çekme İsteği #%s',
       'Manage Queue' => 'Kuyruğu Yönet',
       '%s applied a "%s" command to this item.' => '%s, bu öğeye "%s" komutu uyguladı.',

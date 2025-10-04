@@ -16,7 +16,6 @@ final class PhabricatorManiphestSl
       'Description Preview' => 'Predogled opisa',
       'Show Only Tasks With Open Parents' => 'Prikaži samo opravila z odpritimi nadrejenimi opravili',
       'New task description.' => 'Nov opis opravila.',
-      'All Time' => 'Ves čas',
       'Tasks to Close and Merge' => 'Opravila za zapiranje in združevanje',
       'List of task monograms, as array.' => 'Seznam monogramov opravil kot matrika.',
       'Search...' => 'Išči ...',

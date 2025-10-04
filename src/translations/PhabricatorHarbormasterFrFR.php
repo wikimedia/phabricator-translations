@@ -53,6 +53,7 @@ final class PhabricatorHarbormasterFrFR
       'Not A Haiku' => 'Ce n’est pas un haïku',
       '%s Broken Test(s)' => '%s test(s) incorrect(s)',
       'Resuming' => 'Reprend le travail...',
+      'Insufficient Build Plan Permission' => 'Autorisation insuffisante pour modifier le plan de construction',
       'Publishing "%s"...' => 'Publication en cours de « %s »...',
       'The name of the build target.' => 'Nom de la cible construite.',
       'Edit Plan' => 'Modifier le plan',
@@ -68,55 +69,6 @@ final class PhabricatorHarbormasterFrFR
       'or' => 'ou',
       'Completed' => 'Terminé',
       'Revisions are not sent for review until the build completes, but they will be sent for review even if it fails.' => 'Les révisions ne sont pas envoyées en relecture tant que la construction n’est pas terminée, mais elles le seront ensuite même en cas d’échec de construction.',
-      'WARNING: This build step is new and experimental!
-    To build **revisions** with Buildkite, they must:
-      - belong to a tracked repository;
-      - the repository must have a Staging Area configured;
-      - you must configure a Buildkite pipeline for that Staging Area; and
-      - you must configure the webhook described below.
-    To build **commits** with Buildkite, they must:
-      - belong to a tracked repository;
-      - you must configure a Buildkite pipeline for that repository; and
-      - you must configure the webhook described below.
-    Webhook Configuration
-    =====================
-    In {nav Settings} for your Organization in Buildkite, under
-    {nav Notification Services}, add a new **Webook Notification**.
-    Use these settings:
-      - **Webhook URL**: %s
-      - **Token**: The "Webhook Token" field below and the "Token" field in
-        Buildkite should both be set to the same nonempty value (any random
-        secret). You can use copy/paste the value Buildkite generates into
-        this form.
-      - **Events**: Only **build.finish** needs to be active.
-    Environment
-    ===========
-    These variables will be available in the build environment:
-    | Variable | Description |
-    |----------|-------------|
-    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target.' => 'AVERTISSEMENT : cette étape de construction est nouvelle et expérimentale !
-    Pour générer des **révisions** avec Buildkite, elles doivent :
-      - appartenir à un dépôt suivi ;
-      - le dépôt doit avoir une zone de préparation (Staging Area) configurée ;
-      - vous devez configurer un pipeline Buildkite pour cette zone de préparation ;
-      - et vous devez configurer l\'accroche Internet décrite ci-dessous.
-    Pour générer des **validations** avec Buildkite, elles doivent :
-      - appartenir à un dépôt suivi ;
-      - vous devez configurer un pipeline Buildkite pour ce dépôt ;
-      - et vous devez configurer l\'accroche Internet décrit ci-dessous.
-    Configuration de l\'accroche Internet (webhook)
-    =========================================
-    Dans {nav Settings} pour votre organisation dans Buildkite, sous {nav Notification Services}, ajoutez une nouvelle **Webhook Notification** (notification d\'accroche Internet).
-    Utilisez ces paramètres :
-      - **Webhook URL** (URL de l\'accroche Internet) : %s
-      - **Token** (jeton) : le champ « Webhook Token » (jeton de l\'accroche Internet) ci-dessous et le champ « Token » (jeton) dans Buildkite doivent être définis avec la même valeur non vide (n\'importe quel code secret aléatoire). Vous pouvez faire un copier/coller de la valeur générée par Buildkite vers ce formulaire.
-      - **Events** (événements) : seul **build.finish** doit être actif.
-    Environnement
-    =============
-    Ces variables seront disponibles dans l\'environnement de la construction :
-    |             Variable             |             Description             |
-    |----------------------------------|-------------------------------------|
-    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID de la cible de la construction |',
       'You can not resume this build because it is already restarting.' => 'Vous ne pouvez pas relancer cette construction car elle est déjà en cours de redémarrage.',
       'Output Artifacts' => 'Artéfacts en sortie',
       'Manage Build Plans' => 'Gérer les plans de construction',
@@ -279,7 +231,6 @@ final class PhabricatorHarbormasterFrFR
       'Build plan "%s" does not exist.' => 'Le plan de construction « %s » n’existe pas.',
       'You can not pause this build because it is already aborting.' => 'Vous ne pouvez pas suspendre cette construction car elle est déjà en cours d\'abandon.',
       'Pause the build.' => 'Suspendre la construction.',
-      'You can not abort this biuld because it is already complete.' => 'Vous ne pouvez pas abandonner cette construction car elle est déjà terminée.',
       'Really resume %s build(s)?' => array(
         'Voulez-vous vraiment relancer la construction ?',
         'Voulez-vous vraiment relancer les %s constructions ?',
@@ -364,6 +315,7 @@ final class PhabricatorHarbormasterFrFR
       'PHID of the object that is built.' => 'PHID de l’objet construit.',
       'Harbormaster Build Logs' => 'Journaux de construction Harbormaster.',
       'QUEUED' => 'EN FILE D’ATTENTE',
+      'You can not abort this build because it is already complete.' => 'Vous ne pouvez pas abandonner cette construction car elle est déjà terminée.',
       'Retrieve information about Harbormaster build steps.' => 'Récupérer les informations sur les étapes de construction de Harbormaster.',
       'Edit Harbormaster Build Configurations' => 'Modifier les configurations de construction Harbormaster',
       'WARNING: This build step is new and experimental!
@@ -427,6 +379,76 @@ final class PhabricatorHarbormasterFrFR
       'Name one or more buildables to publish, like "B123".' => 'Indiquez une ou plusieurs constructibles à publier, comme « B123 ».',
       'Pausing' => 'Suspension',
       'Manual' => 'Manuel',
+      'Harbormaster build objects work somewhat differently from objects in many other
+    applications. Most application objects can be edited directly using synchronous
+    APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
+    However, builds require long-running background processing and Habormaster
+    objects have a more complex lifecycle than most other application objects and
+    may spend significant periods of time locked by daemon processes during build
+    execution. A synchronous edit might need to wait an arbitrarily long amount of
+    time for this lock to become available so the edit could be applied.
+    Additionally, some edits may also require an arbitrarily long amount of time to
+    //complete//. For example, aborting a build may execute cleanup steps which
+    take minutes (or even hours) to complete.
+    Since a synchronous API could not guarantee it could return results to the
+    caller in a reasonable amount of time, the edit API for Harbormaster build
+    objects is asynchronous: to update a Harbormaster build or build target, use
+    this API (`harbormaster.sendmessage`) to send it a message describing an edit
+    you would like to effect or additional information you want to provide.
+    The message will be processed by the daemons once the build or target reaches
+    a suitable state to receive messages.
+    Select an object to send a message to using the `receiver` parameter. This
+    API method can send messages to multiple types of objects:
+    <table>
+      <tr>
+        <th>Object Type</th>
+        <th>PHID Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Harbormaster Buildable</td>
+        <td>`PHID-HMBB-...`</td>
+        <td>%s</td>
+      </tr>
+      <tr>
+        <td>Harbormaster Build</td>
+        <td>`PHID-HMBD-...`</td>
+        <td>%s</td>
+      </tr>
+      <tr>
+        <td>Harbormaster Build Target</td>
+        <td>`PHID-HMBT-...`</td>
+        <td>%s</td>
+      </tr>
+    </table>
+    See below for specifics on sending messages to different object types.' => 'Les objets de construction Harbormaster fonctionnent un peu différemment des objets de nombreuses autres applications. La plupart des objets d\'application peuvent être modifiés directement à l\'aide d\'API synchrones (comme `maniphest.edit`, `differential.revision.edit`, etc.).
+    Cependant, les constructions nécessitent un traitement en arrière-plan de longue durée et les objets Habormaster ont un cycle de vie plus complexe que la plupart des autres objets d\'application. Ils peuvent passer des périodes de temps importantes verrouillés par des processus de services en arrière-plan lors de l\'exécution de la construction. Une modification synchrone peut devoir attendre un temps arbitrairement long pour que ce verrou soit libéré et que la modification puisse être appliquée.
+    De plus, certaines modifications peuvent également nécessiter un temps arbitrairement long pour //se terminer//. Par exemple, l\'abandon d\'une construction peut exécuter des étapes de nettoyage qui prennent des minutes (voire des heures).
+    Étant donné qu\'une API synchrone ne peut pas garantir qu\'elle puisse renvoyer des résultats à l\'appelant dans un délai raisonnable, l\'API d\'édition pour les objets de construction Harbormaster est asynchrone : pour mettre à jour une construction ou une cible de construction Harbormaster, utilisez cette API (`harbormaster.sendmessage`) pour lui envoyer un message décrivant une modification que vous souhaitez effectuer ou des informations supplémentaires que vous souhaitez fournir. Le message sera traité par les services en arrière-plan une fois que la construction ou la cible atteindra un état approprié pour recevoir des messages.
+    Sélectionnez un objet auquel envoyer un message à l\'aide du paramètre `receiver` (récepteur). Cette méthode API peut envoyer des messages à plusieurs types d\'objets :
+    <table>
+     <tr>
+      <th>Type d\'objet</th>
+      <th>Exemple de PHID</th>
+      <th>Description</th>
+     </tr>
+     <tr>
+      <td>Constructible Harbormaster</td>
+      <td>`PHID-HMBB-...`</td>
+      <td>%s</td>
+     </tr>
+     <tr>
+      <td>Construction Harbormaster</td>
+      <td>`PHID-HMBD-...`</td>
+      <td>%s</td>
+     </tr>
+     <tr>
+      <td>Cible de construction Harbormaster</td>
+      <td>`PHID-HMBT-...`</td>
+      <td>%s</td>
+     </tr>
+    </table>
+    Voir ci-dessous pour plus de détails sur l\'envoi de messages à différents types d\'objets.',
       'The name of the build step.' => 'Le nom de l’étape de construction.',
       'All Builds' => 'Toutes les constructions',
       'No such object "%s" exists.' => 'Objet « %s » inexistant.',
@@ -490,6 +512,55 @@ final class PhabricatorHarbormasterFrFR
       'All Plans' => 'Tous les plans',
       'You can not resume this build because it is already aborting.' => 'Vous ne pouvez pas relancer cette construction car elle est en cours d\'abandon.',
       'Unable to Resume Build' => 'Impossible de reprendre la construction',
+      'WARNING: This build step is new and experimental!
+    To build **revisions** with Buildkite, they must:
+      - belong to a tracked repository;
+      - the repository must have a Staging Area configured;
+      - you must configure a Buildkite pipeline for that Staging Area; and
+      - you must configure the webhook described below.
+    To build **commits** with Buildkite, they must:
+      - belong to a tracked repository;
+      - you must configure a Buildkite pipeline for that repository; and
+      - you must configure the webhook described below.
+    Webhook Configuration
+    =====================
+    In {nav Settings} for your Organization in Buildkite, under
+    {nav Notification Services}, add a new **Webhook Notification**.
+    Use these settings:
+      - **Webhook URL**: %s
+      - **Token**: The "Webhook Token" field below and the "Token" field in
+        Buildkite should both be set to the same nonempty value (any random
+        secret). You can use copy/paste the value Buildkite generates into
+        this form.
+      - **Events**: Only **build.finish** needs to be active.
+    Environment
+    ===========
+    These variables will be available in the build environment:
+    | Variable | Description |
+    |----------|-------------|
+    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target. |' => 'AVERTISSEMENT : cette étape de construction est nouvelle et expérimentale !
+    Pour générer des **révisions** avec Buildkite, elles doivent :
+      - appartenir à un dépôt suivi ;
+      - le dépôt doit avoir une zone de préparation (Staging Area) configurée ;
+      - vous devez configurer un pipeline Buildkite pour cette zone de préparation ;
+      - et vous devez configurer l\'accroche Internet décrite ci-dessous.
+    Pour générer des **validations** avec Buildkite, elles doivent :
+      - appartenir à un dépôt suivi ;
+      - vous devez configurer un pipeline Buildkite pour ce dépôt ;
+      - et vous devez configurer l\'accroche Internet décrit ci-dessous.
+    Configuration de l\'accroche Internet (webhook)
+    =========================================
+    Dans {nav Settings} pour votre organisation dans Buildkite, sous {nav Notification Services}, ajoutez une nouvelle **Webhook Notification** (notification d\'accroche Internet).
+    Utilisez ces paramètres :
+      - **Webhook URL** (URL de l\'accroche Internet) : %s
+      - **Token** (jeton) : le champ « Webhook Token » (jeton de l\'accroche Internet) ci-dessous et le champ « Token » (jeton) dans Buildkite doivent être définis avec la même valeur non vide (n\'importe quel code secret aléatoire). Vous pouvez faire un copier/coller de la valeur générée par Buildkite vers ce formulaire.
+      - **Events** (événements) : seul **build.finish** doit être actif.
+    Environnement
+    =============
+    Ces variables seront disponibles dans l\'environnement de la construction :
+    |             Variable             |             Description             |
+    |----------------------------------|-------------------------------------|
+    | `HARBORMASTER_BUILD_TARGET_PHID` | PHID de la cible de la construction |',
       'Runnable' => 'Exécutable',
       'No active Herald rules trigger this build.' => 'Aucune règle Herald active ne déclenche cette construction.',
       'You can not specify both "--id" and "--all". Choose one or the other.' => 'Vous ne pouvez pas spécifier à la fois « --id » et « --all ». Choisissez l’un ou l\'autre.',
@@ -530,7 +601,6 @@ final class PhabricatorHarbormasterFrFR
       'Add Build Step' => 'Ajouter une étape de construction',
       'No such build target "%s"!' => 'Cible de construction « %s » inexistante !',
       'My Builds' => 'Mes constructions',
-      'Insufficent Build Plan Permission' => 'Autorisation insuffisante pour modifier le plan de construction',
       'Write rate must be more than 0 bytes/sec.' => 'Le débit en écriture doit être supérieur à 0 octet/seconde.',
       'Required Input' => 'Entrée obligatoire',
       'The current UNIX timestamp.' => 'L’horodatage Unix actuel.',
@@ -764,76 +834,6 @@ final class PhabricatorHarbormasterFrFR
       'Rename the plan.' => 'Renommer le plan.',
       'Edit Harbormaster Build Step Configurations' => 'Modifier les configurations d’étapes de construction de Harbormaster',
       'Users must be able to see a build target to see its artifacts.' => 'Les utilisateurs doivent pouvoir voir une construction cible pour voir ses artéfacts.',
-      'Harbormaster build objects work somewhat differently from objects in many other
-    applications. Most application objects can be edited directly using synchronous
-    APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
-    However, builds require long-running background processing and Habormaster
-    objects have a more complex lifecycle than most other application objects and
-    may spend significant periods of time locked by daemon processes during build
-    execition. A synchronous edit might need to wait an arbitrarily long amount of
-    time for this lock to become available so the edit could be applied.
-    Additionally, some edits may also require an arbitrarily long amount of time to
-    //complete//. For example, aborting a build may execute cleanup steps which
-    take minutes (or even hours) to complete.
-    Since a synchronous API could not guarantee it could return results to the
-    caller in a reasonable amount of time, the edit API for Harbormaster build
-    objects is asynchronous: to update a Harbormaster build or build target, use
-    this API (`harbormaster.sendmessage`) to send it a message describing an edit
-    you would like to effect or additional information you want to provide.
-    The message will be processed by the daemons once the build or target reaches
-    a suitable state to receive messages.
-    Select an object to send a message to using the `receiver` parameter. This
-    API method can send messages to multiple types of objects:
-    <table>
-      <tr>
-        <th>Object Type</th>
-        <th>PHID Example</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Harbormaster Buildable</td>
-        <td>`PHID-HMBB-...`</td>
-        <td>%s</td>
-      </tr>
-      <tr>
-        <td>Harbormaster Build</td>
-        <td>`PHID-HMBD-...`</td>
-        <td>%s</td>
-      </tr>
-      <tr>
-        <td>Harbormaster Build Target</td>
-        <td>`PHID-HMBT-...`</td>
-        <td>%s</td>
-      </tr>
-    </table>
-    See below for specifics on sending messages to different object types.' => 'Les objets de construction Harbormaster fonctionnent un peu différemment des objets de nombreuses autres applications. La plupart des objets d\'application peuvent être modifiés directement à l\'aide d\'API synchrones (comme `maniphest.edit`, `differential.revision.edit`, etc.).
-    Cependant, les constructions nécessitent un traitement en arrière-plan de longue durée et les objets Habormaster ont un cycle de vie plus complexe que la plupart des autres objets d\'application. Ils peuvent passer des périodes de temps importantes verrouillés par des processus de services en arrière-plan lors de l\'exécution de la construction. Une modification synchrone peut devoir attendre un temps arbitrairement long pour que ce verrou soit libéré et que la modification puisse être appliquée.
-    De plus, certaines modifications peuvent également nécessiter un temps arbitrairement long pour //se terminer//. Par exemple, l\'abandon d\'une construction peut exécuter des étapes de nettoyage qui prennent des minutes (voire des heures).
-    Étant donné qu\'une API synchrone ne peut pas garantir qu\'elle puisse renvoyer des résultats à l\'appelant dans un délai raisonnable, l\'API d\'édition pour les objets de construction Harbormaster est asynchrone : pour mettre à jour une construction ou une cible de construction Harbormaster, utilisez cette API (`harbormaster.sendmessage`) pour lui envoyer un message décrivant une modification que vous souhaitez effectuer ou des informations supplémentaires que vous souhaitez fournir. Le message sera traité par les services en arrière-plan une fois que la construction ou la cible atteindra un état approprié pour recevoir des messages.
-    Sélectionnez un objet auquel envoyer un message à l\'aide du paramètre `receiver` (récepteur). Cette méthode API peut envoyer des messages à plusieurs types d\'objets :
-    <table>
-     <tr>
-      <th>Type d\'objet</th>
-      <th>Exemple de PHID</th>
-      <th>Description</th>
-     </tr>
-     <tr>
-      <td>Constructible Harbormaster</td>
-      <td>`PHID-HMBB-...`</td>
-      <td>%s</td>
-     </tr>
-     <tr>
-      <td>Construction Harbormaster</td>
-      <td>`PHID-HMBD-...`</td>
-      <td>%s</td>
-     </tr>
-     <tr>
-      <td>Cible de construction Harbormaster</td>
-      <td>`PHID-HMBT-...`</td>
-      <td>%s</td>
-     </tr>
-    </table>
-    Voir ci-dessous pour plus de détails sur l\'envoi de messages à différents types d\'objets.',
       'Build Failed' => 'Échec de la construction',
       'The buildable waits for the build, and fails if the build fails.' => 'Le constructible attend la construction et échoue si la construction échoue.',
       'References a working copy lease from Drydock.' => 'Fait référence à un bail de copie de travail fourni par Drydock.',

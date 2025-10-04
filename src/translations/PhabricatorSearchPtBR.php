@@ -32,9 +32,7 @@ final class PhabricatorSearchPtBR
       'Queries' => 'Consultas',
       'Add New Menu Item...' => 'Adicionar novo item de menu...',
       'This is a visual divider which you can use to separate sections in the menu. It does not have any configurable options.' => 'Este é um divisor visual que você pode usar para separar seções no menu. Não possui opções configuráveis.',
-      'Open Documents' => 'Documentos abertos',
       'Find objects matching a fulltext search query. See "Search User Guide" in the documentation for details.' => 'Encontre objetos correspondentes a uma consulta de pesquisa de texto completo. Consulte "Pesquisar guia do usuário" na documentação para obter detalhes.',
-      'Global Saved Queries' => 'Consultas salvas globais',
       'Profile Menu' => 'Menu do Perfil',
       'Configure Menu' => 'Configurar menu',
       'Query Errors' => 'Erros de consulta',
@@ -45,12 +43,10 @@ final class PhabricatorSearchPtBR
       'Menu Items' => 'Itens do menu',
       'Reindex all documents.' => 'Reindexe todos os documentos.',
       'Set Default Query' => 'Definir consulta padrão',
-      'Select a document type...' => 'Selecione um tipo de documento...',
       'Constants supported by the `%s` constraint:' => 'Constantes suportadas pela restrição `%s`:',
       '(See table below.)' => '(Veja a tabela abaixo.)',
       'Current Menu Items' => 'Itens de menu atuais',
       'Query (with ID "%s") has already been saved. Queries are immutable once saved.' => 'Consulta (com ID "%s") já foi salva. As consultas são imutáveis depois de salvas.',
-      'Document Status' => 'Status do documento',
       'Profile Menu Item' => 'Item de menu do perfil',
       '"2022-12-25" or "7 days ago"...' => '"25/12/2022" ou "7 dias atrás"...',
       'Paging and Limits' => 'Paginação e limites',
@@ -67,7 +63,6 @@ final class PhabricatorSearchPtBR
       'Edit Menu Item' => 'Editar item de menu',
       'NOTE' => 'NOTA',
       'This menu currently has no items.' => 'Este menu atualmente não possui itens.',
-      'Document Types' => 'Tipos de documentos',
       'You can not create a relationship to object "%s" because objects can not be related to themselves.' => 'Você não pode criar um relacionamento para o objeto "%s" porque os objetos não podem estar relacionados a eles mesmos.',
       'Tooltip' => 'Dica de ferramenta',
       'Saved Queries' => 'Consultas salvas',
@@ -84,7 +79,6 @@ final class PhabricatorSearchPtBR
       '%s (Not Available)' => '%s (Não disponível)',
       '(Restricted/Invalid Application)' => '(Aplicativo restrito/inválido)',
       'Export Data' => 'Exportar dados',
-      'Browse Document Types' => 'Procurar tipos de documentos',
     );
   }
 
