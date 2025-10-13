@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"BaRaN6161 TURK",
 			"Can",
 			"Cobija",
@@ -373,7 +374,7 @@
 	"681cd222368609f7": "Bu sütun yanlış otomatik ayar ayarına sahip.",
 	"681e6e1056b635bd": "Çoğu sayfaya altbilgi bağlantısı eklemenizi sağlar.",
 	"684302d05a739f1c": "USWest Bölgesi",
-	"68abec1d07b77a6c": "Manifest alanları artık \"$1\" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.",
+	"68abec1d07b77a6c": "Maniphest alanları artık \"$1\" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.",
 	"699848c1b040c389": "Prototipleri Etkinleştir",
 	"69b3c0e66cdb994e": "Elasticsearch artık \"$1\" ile yapılandırıldı.",
 	"69dbeefe153f6cf2": "Giden E-postayı Yapılandırma",

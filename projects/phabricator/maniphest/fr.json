@@ -242,7 +242,7 @@
 	"82dd2cdf36f9436d": "Bloquer",
 	"83c87884b09b5032": "Réclamée",
 	"84379646553d024a": "Nouvelle valeur de point de tâche.",
-	"8501d4b3a85a25a0": "La configuration n’est pas valide. La configuration des points de manifeste doit être un dictionnaire.",
+	"8501d4b3a85a25a0": "La configuration n’est pas valide. La configuration des points de Maniphest doit être un dictionnaire.",
 	"855244c4e20a4394": "Renvoie des informations sur les priorités possibles pour les tâches Maniphest.",
 	"856d4870e4508fa7": "Un ou plusieurs PHID n’étaient pas valides pour $1.",
 	"86a599ef4df28ea3": "Tout sélectionner",
