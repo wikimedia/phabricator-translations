@@ -7,6 +7,7 @@
 			"Melissadilara",
 			"MuratTheTurkish",
 			"Rapsar",
+			"SaldırganSincap",
 			"Vito Genovese"
 		]
 	},
@@ -201,7 +202,7 @@
 	"55bd80c0a37b8f77": "Referanslar Drydock firmasından bir ev sahibi kiralama.",
 	"55f5894bff02b4ce": "Bir yapı durumu adı yazın...",
 	"55fadf26e25384e7": "Kısa mesaj adı, \"Sözdizim Hatası\" gibi.",
-	"566bf43459286128": "Phabricator'a yüklenen dosya verisine bir başvuru saklar.",
+	"566bf43459286128": "Dosya verilerine bir referans depolar.",
 	"567654dfd7a2cf93": "Adım Düzenle: $1",
 	"56fb21154566c7eb": "Bu test için isteğe bağlı ad alanı. Bu organizasyoneldir ve genellikle \"ExampleTestCase\" gibi bir sınıf veya modül adıdır.",
 	"56fc6e022009f396": "Buildkite",
