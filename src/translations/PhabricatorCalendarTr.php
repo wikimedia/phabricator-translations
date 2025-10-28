@@ -31,7 +31,7 @@ final class PhabricatorCalendarTr
       'Exports' => 'Dışa Aktarımla',
       'Query to execute.' => 'Çalıştırılacak sorgu.',
       'Movie' => 'Film',
-      'Imported events can not be edited.' => 'İçe aktarılan etkinlikler Phabricator\'da düzenlenemez.',
+      'Imported events can not be edited.' => 'İçe aktarılan etkinlikler düzenlenemez.',
       'Official Business' => 'Resmi İş',
       'Show invites the current viewer is invited to. This function includes events the user is invited to because a project they are a member of is invited.' => 'Göster, geçerli görüntüleyenin davet edildiği davetiyeleri gösterir. Bu işlev, üyesi olduğu bir proje davet edildiğinden kullanıcının davet edildiği etkinlikleri içerir.',
       'End date and time of the event.' => 'Etkinliğin bitiş tarihi ve saati.',

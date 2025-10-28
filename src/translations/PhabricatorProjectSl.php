@@ -25,6 +25,7 @@ final class PhabricatorProjectSl
       'Show Only Archived Projects' => 'Prikaži samo arhivirane projekte',
       'Blue Sky' => 'Modro nebo',
       'Added Projects' => 'Dodani projekti',
+      'Organization' => 'Organizacija',
       'Member' => 'Član',
       'Ancestor Projects' => 'Predniški projekti',
       'Column: %s' => 'Stolpec: %s',

@@ -203,7 +203,7 @@ final class PhabricatorHarbormasterTr
       'References a host lease from Drydock.' => 'Referanslar Drydock firmasından bir ev sahibi kiralama.',
       'Type a build status name...' => 'Bir yapı durumu adı yazın...',
       'Short message name, like "Syntax Error".' => 'Kısa mesaj adı, "Sözdizim Hatası" gibi.',
-      'Stores a reference to file data.' => 'Phabricator\'a yüklenen dosya verisine bir başvuru saklar.',
+      'Stores a reference to file data.' => 'Dosya verilerine bir referans depolar.',
       'Edit Step: %s' => 'Adım Düzenle: %s',
       'Optional namespace for this test. This is organizational and is often a class or module name, like "ExampleTestCase".' => 'Bu test için isteğe bağlı ad alanı. Bu organizasyoneldir ve genellikle "ExampleTestCase" gibi bir sınıf veya modül adıdır.',
       'Buildkite' => 'Buildkite',

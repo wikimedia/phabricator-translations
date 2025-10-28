@@ -26,6 +26,7 @@ final class PhabricatorPhameLb
       'Active Blogs' => 'Aktiv Bloggen',
       'Local Blog' => 'Lokale Blog',
       'Blogs' => 'Bloggen',
+      'No description.' => 'Keng Beschreiwung.',
       'Blog Post' => 'Blogbäitrag',
       'Edit Blog' => 'Blog änneren',
       'No blogs found.' => 'Keng Blogge fonnt.',

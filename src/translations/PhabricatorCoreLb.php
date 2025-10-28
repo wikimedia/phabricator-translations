@@ -54,7 +54,7 @@ final class PhabricatorCoreLb
       'All Settings' => 'All Astellungen',
       '"%s"' => '„%s“',
       'November' => 'November',
-      'Reset Password' => 'Passwuert zrécksetzen',
+      'Reset Password' => 'Passwuert zerécksetzen',
       'Tuesday' => 'Dënschdeg',
       'March' => 'Mäerz',
       'New Password' => 'Neit Passwuert',
@@ -173,6 +173,8 @@ final class PhabricatorCoreLb
       'Unknown' => 'Onbekannt',
       'Next' => 'Nächst',
       'Send Email' => 'E-Mail schécken',
+      'No Projects' => 'Keng Projeten',
+      'Key' => 'Schlëssel',
       'Settings' => 'Astellungen',
       'May' => 'Mee',
       'Import' => 'Importéieren',
@@ -196,6 +198,7 @@ final class PhabricatorCoreLb
       'Save Changes' => 'Ännerunge späicheren',
       'Chat Messages' => 'Chat-Messagen',
       'Feed' => 'Feed',
+      'Delete Document' => 'Dokument läschen',
       'Profile' => 'Profil',
     );
   }

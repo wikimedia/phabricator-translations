@@ -20,6 +20,7 @@ final class PhabricatorHarbormasterLb
       'Lines' => 'Linnen',
       'Unexpected Error' => 'Onerwaarte Feeler',
       'Targets' => 'Ziler',
+      'No details provided.' => 'Keng Detailer uginn.',
       'Option' => 'Optioun',
       'Result of the test.' => 'Resultat vum Test.',
       'ERROR:' => 'FEELER:',

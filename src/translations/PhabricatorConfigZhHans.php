@@ -13,6 +13,7 @@ final class PhabricatorConfigZhHans
       'Client Server' => '客户端服务器',
       'Column/Key' => '列/键',
       '%s / %s' => '%s / %s',
+      'Memory Usage' => '内存使用情况',
       'Table' => '表格',
       'Ignore Setup Issue' => '忽略配置问题',
       'Applications application' => '应用程序应用',

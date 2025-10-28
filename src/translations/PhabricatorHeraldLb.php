@@ -14,6 +14,7 @@ final class PhabricatorHeraldLb
       'Invalid Condition' => 'Ongülteg Bedingung',
       'true' => 'wouer',
       'Save Rule' => 'Reegel späicheren',
+      'No Effect' => 'Keen Effekt',
       'Invalid Object' => 'Ongültegen Objet',
       'false' => 'falsch',
       '%s (Disabled)' => '%s (Desaktivéiert)',

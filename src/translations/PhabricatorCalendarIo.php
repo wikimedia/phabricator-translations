@@ -23,6 +23,7 @@ final class PhabricatorCalendarIo
       'Query to execute.' => 'Demando por exekutar.',
       'Movie' => 'Filmo',
       'Official Business' => 'Oficala kontoro',
+      'Edit This And All Later Events' => 'Redaktar ca evento, e la posa eventi',
       'Start time of the event.' => 'Komenco-horo dil evento.',
       'Event icon.' => 'Ikono dil evento.',
       'Too Frequent' => 'Multe ofta',

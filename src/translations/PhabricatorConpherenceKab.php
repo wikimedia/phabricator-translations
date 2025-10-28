@@ -1,16 +1,16 @@
 <?php
 
-final class PhabricatorConsoleLb
+final class PhabricatorConpherenceKab
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'lb';
+    return 'kab';
   }
 
   protected function getTranslations() {
     return array(
-      'No errors.' => 'Keng Feeler.',
-      'Profile Page' => 'Profilsäit',
+      'New Message' => 'Izen amaynut',
+      'Search %s...' => 'Nadi %s...',
     );
   }
 

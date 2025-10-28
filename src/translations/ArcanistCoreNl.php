@@ -59,6 +59,7 @@ final class ArcanistCoreNl
       'Runtime Error' => 'Runtime-fout',
       'Argument "%s" does not take a parameter.' => 'Het argument “%s” neemt geen parameter aan.',
       'LARGE WORKING SET' => 'GROTE WERKSET',
+      'Output upload information in JSON format.' => 'Uploadinformatie uitvoeren in JSON-formaat.',
       'LANDING' => 'LANDING',
       'No tests to run.' => 'Geen tests om uit te voeren.',
       'Unknown Symbol' => 'Onbekend symbool',

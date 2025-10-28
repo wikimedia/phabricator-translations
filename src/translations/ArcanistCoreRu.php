@@ -763,6 +763,7 @@ final class ArcanistCoreRu
       'Expected JSON response from WordPress.com.' => 'Ожидается ответ в формате JSON от WordPress.com.',
       'Oct' => 'Окт',
       '`%s` expects an object instance, constant given.' => '`%s` ожидает экземпляр объекта при заданной константе.',
+      'Launching editor "%s"...' => 'Запуск редактора «%s»…',
       'Language Construct Parentheses' => 'Языковые конструкции не требуют скобок',
       'Force targets to be interpreted as naming particular types of resources.' => 'Принудительно интерпретировать цели как именование определенных типов ресурсов.',
       'Blacklisted functions which should not be used.' => 'Функции из черного списка, которые не следует использовать.',

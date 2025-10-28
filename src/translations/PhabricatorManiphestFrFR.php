@@ -439,7 +439,7 @@ final class PhabricatorManiphestFrFR
       'Block' => 'Bloquer',
       'Claimed' => 'Réclamée',
       'New task point value.' => 'Nouvelle valeur de point de tâche.',
-      'Configuration is not valid. Maniphest points configuration must be a dictionary.' => 'La configuration n’est pas valide. La configuration des points de manifeste doit être un dictionnaire.',
+      'Configuration is not valid. Maniphest points configuration must be a dictionary.' => 'La configuration n’est pas valide. La configuration des points de Maniphest doit être un dictionnaire.',
       'Returns information about the possible priorities for Maniphest tasks.' => 'Renvoie des informations sur les priorités possibles pour les tâches Maniphest.',
       'One or more PHIDs were invalid for %s.' => 'Un ou plusieurs PHID n’étaient pas valides pour %s.',
       'Select All' => 'Tout sélectionner',

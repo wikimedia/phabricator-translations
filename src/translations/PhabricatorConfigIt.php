@@ -24,7 +24,7 @@ final class PhabricatorConfigIt
       'PHP version: %s' => 'Versione PHP: %s',
       'Automatic' => 'Automatico',
       'Configure %s' => 'Configura %s',
-      'Indefinite' => 'Infinito',
+      'Indefinite' => 'Indefinito',
       '%s.%s (%s)' => '%s.%s (%s)',
       '%s In / %s Out' => '%s Dentro / %s Fuori',
       '%s.%s' => '%s.%s',

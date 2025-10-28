@@ -12,7 +12,7 @@ final class PhabricatorAlmanacLb
       'Namespace' => 'Nummraum',
       'Edit Namespace' => 'Nummraum änneren',
       'Namespace Name' => 'Numm vum Nummraum',
-      'Reset' => 'Zrécksetzen',
+      'Reset' => 'Zerécksetzen',
       'Create Namespace' => 'Nummraum uleeën',
       'Namespace %d' => 'Nummraum %s',
       'Namespace %s' => 'Nummraum %s',
@@ -21,7 +21,7 @@ final class PhabricatorAlmanacLb
       'Name of the namespace.' => 'Numm vum Nummraum.',
       'All Namespaces' => 'All Nummraim',
       'Namespaces' => 'Nummraim',
-      'Reset Property' => 'Eegenschaft zrécksetzen',
+      'Reset Property' => 'Eegenschaft zerécksetzen',
     );
   }
 

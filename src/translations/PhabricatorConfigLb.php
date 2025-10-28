@@ -14,6 +14,7 @@ final class PhabricatorConfigLb
       '(%s%s) %s' => '(%s%s) %s',
       'Not Enabled' => 'Net aktivéiert',
       'Constant' => 'Konstant',
+      'No Messages' => 'Keng Messagen',
       'PHP version: %s' => 'PHP-Versioun: %s',
       '%s Not Found' => '%s net fonnt',
       'Simple Example' => 'Einfacht Beispill',

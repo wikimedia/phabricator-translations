@@ -171,7 +171,7 @@ final class PhabricatorTransactionsTr
       'Encryption Required' => 'Şifreleme Gerekli',
       'Form name is required.' => 'Form adı gerekli.',
       'No object exists with ID "%s".' => '"%s" kimliğine sahip hiçbir nesne yok.',
-      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'Hesabınıza ekli herhangi bir MFA faktörü bulunmadığından, bu işlem grubunu MFA ile imzalayamazsınız. Ayarlar\'daki hesabınıza MFA ekleyin.',
+      'You do not have any MFA factors attached to your account, so you can not sign this transaction group with MFA. Add MFA to your account in %s.' => 'Hesabınıza bağlı herhangi bir MFA faktörü bulunmadığından, bu işlem grubunu MFA ile imzalayamazsınız. Hesabınıza %s içinde MFA ekleyin.',
       '%s wrote:' => '%s yazdı:',
       'Extension "%s" defines a bulk edit group with the same key ("%s") as the main editor or another extension. Each bulk edit group must have a unique key.' => '"%s" uzantısı, ana düzenleyici veya başka bir uzantıyla aynı tuşa ("%s") sahip bir toplu düzenleme grubunu tanımlar. Her toplu düzenleme grubunun benzersiz bir anahtarı olmalıdır.',
       'Save Edit Order' => 'Düzenleme Sıralamasını Kaydet',

@@ -20,6 +20,7 @@ final class PhabricatorAlmanacFa
       'Namespace Name' => 'نام فضای نام',
       'Device status information.' => 'اطلاعات وضعیت دستگاه.',
       'Device Disabled' => 'دستگاه غیرفعال شد',
+      'Namespaces' => 'فضاهای نام',
       'Device status.' => 'وضعیت دستگاه.',
       'Active Devices' => 'دستگاه‌های فعال',
     );

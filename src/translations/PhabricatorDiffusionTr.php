@@ -830,7 +830,7 @@ final class PhabricatorDiffusionTr
       'Retrieve file content from a repository.' => 'Bir depodan dosya içeriği alın.',
       'Set the staging area URI.' => 'Hazırlama alanı URI\'sını ayarlayın.',
       'This file took too long to load from the repository (more than %s second(s)).' => 'Bu dosyanın depodan yüklenmesi çok uzun sürdü (%s saniye daha fazla).',
-      'You can set a new password to replace the old password.' => 'Eski şifreyi değiştirmek için yeni bir parola ayarlayabilirsiniz.',
+      'You can set a new password to replace the old password.' => 'Eski parolayı değiştirmek için yeni bir parola ayarlayabilirsiniz.',
       'Search for sync logs for specific repositories.' => 'Belirli depolar için senkronizasyon günlüklerini arayın.',
       'Lint Details' => 'Lint Detayları',
       'Controls who can push changes to the repository.' => 'Depodaki değişiklikleri kimlerin gönderebileceğini denetler.',

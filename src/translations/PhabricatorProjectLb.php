@@ -58,6 +58,7 @@ final class PhabricatorProjectLb
       'Short project description.' => 'Kuerz Projetsbeschreiwung.',
       '%d day(s)' => '%s Dag/Deeg',
       'Project names must not be longer than %s character(s).' => 'Projetsnimm däerfen net méi laang wéi %s Zeeche sinn.',
+      'No Background' => 'Keen Hannergrond',
       'members of all projects' => 'Membere vun alle Projeten',
       'Week' => 'Woch',
       'Visible Columns' => 'Visibel Kolonnen',

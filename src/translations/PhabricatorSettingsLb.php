@@ -30,6 +30,7 @@ final class PhabricatorSettingsLb
       'Silly Translations' => 'Idiotesch Iwwersetzungen',
       'Email Preferences' => 'E-Mail Astellungen',
       'Disable Email Notifications' => 'Notifikatioune per E-Mail desaktivéieren',
+      'No Notifications' => 'Keng Notifikatiounen',
       'Replaced With' => 'Ersat duerch',
       'Translation' => 'Iwwersetzung',
       'Settings %d' => '%s Astellungen',

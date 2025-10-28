@@ -457,7 +457,7 @@ final class PhabricatorConfigTr
       'This column has the wrong autoincrement setting.' => 'Bu sütun yanlış otomatik ayar ayarına sahip.',
       'Allows you to add footer links on most pages.' => 'Çoğu sayfaya altbilgi bağlantısı eklemenizi sağlar.',
       'USWest Region' => 'USWest Bölgesi',
-      'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Manifest alanları artık "%s" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.',
+      'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Maniphest alanları artık "%s" olarak tanımlanmıştır. Mevcut tanımlar taşınmıştır.',
       'Enable Prototypes' => 'Prototipleri Etkinleştir',
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch artık "%s" ile yapılandırıldı.',
       'Configuring Outbound Email' => 'Giden E-postayı Yapılandırma',
