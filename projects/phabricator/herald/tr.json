@@ -5,7 +5,8 @@
 			"Can",
 			"Joseph",
 			"Melissadilara",
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"SaldırganSincap"
 		]
 	},
 	"005b04a6a1c3f591": "Bir nesne adı gereklidir.",
@@ -88,7 +89,7 @@
 	"41d5f49dec8aff01": "Verilen türlerin kurallarını arayın.",
 	"423a790fb2f81f1e": "Hiçbir şey yapma.",
 	"4303fbc6effafcde": "Bu transkriptin detayları çöp toplandı.",
-	"433132e938d714a8": "Phabricator şu anda sessiz modda yapılandırılmıştır, dolayısıyla web kancasını yayınlamaz. Bu ayarı yapmak için, Yapılandırmada @{config:phabricator.silent} bakabilirsiniz.",
+	"433132e938d714a8": "Bu sunucu sessiz modda çalıştığı için webhook'ları yayımlamayacaktır. Bu ayarı düzenlemek için Yapılandırma'daki @{config:phabricator.silent} bakın.",
 	"44b8bb39b57545bf": "Küresel Herald kurallarını yönetme izniniz yok.",
 	"45468ce128a43115": "Regexp çiftindeki ikinci regexp, \"$1\", geçerli bir regexp değil.",
 	"4598d2b7536f0603": "Başka bir Herald kuralı oluşturulduğunda veya güncellendiğinde çalışan test kuralları.",
@@ -329,7 +330,7 @@
 	"f663cbb6f60f871c": "Webhook'ları oluşturma izniniz yok.",
 	"f80692fc49309b38": "hiçbiri değil",
 	"f8bd004fb731533b": "Bu nesne kural için izin verilen türde değildir. Kurallar yalnızca belirli nesnelerde tetiklenebilir.",
-	"f8ed2d203a2d3280": "Bu kural, Herald'ın daha yeni bir sürümü ile oluşturuldu. Bu eski sürümde görüntüleyemez veya düzenleyemezsiniz. Phabricator dağıtımınızı yükseltin.",
+	"f8ed2d203a2d3280": "Bu kural, Herald'ın daha yeni bir sürümü ile oluşturuldu. Bu eski sürümde görüntüleyemez veya düzenleyemezsiniz. Yazılımınızı yükseltin.",
 	"fa3401929b7a56e3": "Anahtar Üret",
 	"fa44f55b5c9750e1": "Tam Transkripti Görüntüle",
 	"fa4dbfe8e034fe4d": "Nesne kuralı için geçerli bir nesne yok!",

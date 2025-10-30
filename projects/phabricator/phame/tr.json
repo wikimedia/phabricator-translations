@@ -4,6 +4,7 @@
 			"BaRaN6161 TURK",
 			"Joseph",
 			"Rapsar",
+			"SaldırganSincap",
 			"Wooze"
 		]
 	},
@@ -214,7 +215,7 @@
 	"d700bc571156942f": "$1, blog altyazısını \"$2\" olarak güncelledi.",
 	"d7347523b9ac6545": "Bu blogu barındırılan başka bir alanda sunmayı planlıyorsanız, Tam Etki Alanı URI'sını ayarlayın. Ana Site Adı ve Ana Site URI’sı isteğe bağlıdır ancak blogdan ana sitenize bir bağlantı sağladıklarından yararlıdır.",
 	"d78b9d3283b39499": "Başlığı Yükle",
-	"d9c18657249afd98": "Özel etki alanlarının çalışması için, bu Phabricator örneğinin genel erişim politikasına izin verecek şekilde yapılandırılması gerekir. Bu ayarı $1 olarak yapılandırın veya bir yöneticiden bu ayarı yapılandırmasını isteyin. Bu ayar değiştirildikten sonra etki alanı daha sonra belirtilebilir.",
+	"d9c18657249afd98": "Özel alan adlarının çalışabilmesi için, bu sunucunun genel erişim politikasına izin verecek şekilde yapılandırılması gerekir. Bu ayarı $1 olarak yapılandırın veya bir yöneticiden bu ayarı yapılandırmasını isteyin. Alan adı, bu ayar değiştirildikten sonra daha sonra belirtilebilir.",
 	"dd061d90e4db8e54": "Üst etki alanı $1 karakterden uzun olamaz.",
 	"dda26958039a08e6": "$1, blog $2 başlık bilgisini değiştirdi.",
 	"ddb083f7ff93c2f5": "Yayından Yayınlama",

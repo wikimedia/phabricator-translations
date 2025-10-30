@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Can",
 			"Joseph",
-			"Melissadilara"
+			"Melissadilara",
+			"SaldırganSincap"
 		]
 	},
 	"003cffcec51407e8": "Bu satın alma işlemi için bir maliyet sağlamalısınız.",
@@ -162,7 +163,7 @@
 	"49e3a66c1466a449": "Alışveriş sepetinde $2 olması yanlış (\"$1\") durumda!",
 	"4a3049fd85aa5444": "$1, bu hesabın fatura adını $2'den $3'e değiştirdi.",
 	"4abbd50bbd665b48": "Ücretli sağlayıcı yüklenemiyor!",
-	"4b17cc409a67534a": "PayPal'ı yapılandırmak için, [[https://paypal.com | paypal.com]] (canlı ödemeler için) veya [[https://sandbox.paypal.com | sandbox.paypal.com]] (test ödemeleri için). Giriş yaptıktan sonra:\n\n- {nav Tools > API Access} adresine gidin.\n   - **API İmzasını Görüntüle** seçeneğini seçin.\n   - **API Kullanıcı Adı**, **API Şifre** ve **İmza**'yı yukarıdaki alanlara kopyalayın.\n\nSağlayıcının test modunda çalışıp çalışmayacağını veya yukarıdaki **Mod** açılır menüsünü kullanarak canlı ödemeleri kabul edip etmeyeceğinizi seçebilirsiniz.\n\nCanlı kimlik bilgilerini almak için `sandbox.paypal.com`'u veya canlı kimlik bilgilerini almak için `paypal.com`'u kullanabilirsiniz.",
+	"4b17cc409a67534a": "PayPal'ı yapılandırmak için, [[https://paypal.com | paypal.com]] (canlı ödemeler için) veya [[https://sandbox.paypal.com | sandbox.paypal.com]] (test ödemeleri için). Giriş yaptıktan sonra:\n\n- {nav Tools > API Access} adresine gidin.\n   - **API İmzasını Görüntüle** seçeneğini seçin.\n   - **API Kullanıcı Adı**, **API Şifre** ve **İmza**'yı yukarıdaki alanlara kopyalayın.\n\nSağlayıcının test modunda çalışıp çalışmayacağını veya yukarıdaki **Mod** açılır menüsünü kullanarak canlı ödemeleri kabul edip etmeyeceğinizi seçebilirsiniz.\n\nTest kimlik bilgilerini almak için `sandbox.paypal.com` adresini veya canlı kimlik bilgilerini almak için `paypal.com` adresini kullanabilirsiniz.",
 	"4b8552c3d8b940bd": "Sipariş $1: $2",
 	"4d08ec58743327ba": "Stripe",
 	"4d0d6c7522263333": "Ödeme Yöntemi Ekleme Hatası",
@@ -201,7 +202,7 @@
 	"649ea3e72fdc798e": "Sağlayıcı Oluştur",
 	"652d7c2e2604d092": "Yapılandırılmış ödeme yöntemi yok.",
 	"65ad4690a53d49f9": "Siparişi İptal Edilsin mi?",
-	"66c40b692e3d80cf": "Bir tüccarın üyeleri her zaman onu görüntüler ve düzenler.",
+	"66c40b692e3d80cf": "Bir tüccarın üyeleri bunu her zaman görüntüleyebilir ve düzenleyebilir.",
 	"671ce7f2f055dc6e": "Şerit Gizli Anahtarı gereklidir.",
 	"6912612ad201d65f": "Faturalandırma amaçlı hesap adı.",
 	"6ae185d6a2fdede0": "Ödemeleri test etmenize izin vermek için bir test sağlayıcı ekler. Bu, kullanıcıların gerçekten herhangi bir para ödemeden bir düğmeye tıklayarak alım yapmalarını sağlar.",

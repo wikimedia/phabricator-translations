@@ -7,6 +7,7 @@
 			"Hedda",
 			"Melissadilara",
 			"MuratTheTurkish",
+			"SaldırganSincap",
 			"ToprakM"
 		]
 	},
@@ -115,7 +116,7 @@
 	"4214d495a6dfa047": "Kaynak Olarak Görüntüle",
 	"43e31ef4dd6b68e2": "Dosyalar (TTL)",
 	"445759d389c9c5e7": "Bayt cinsinden dosya boyutu.",
-	"4493b6967ea240bd": "Ayrıca dosyaları masaüstünüzden sürükleyip bırakarak bu sayfaya veya Phabricator ana sayfasına da yükleyebilirsiniz.",
+	"4493b6967ea240bd": "Ayrıca dosyaları masaüstünüzden bu sayfaya veya ana sayfaya sürükleyip bırakarak da yükleyebilirsiniz.",
 	"46206d85e0ee1d61": "Kaplanmadı",
 	"464e38fe1eec24ac": "Göreli TTL, \"$1\" saniyeden daha uzun olmamalıdır, ancak \"$2\" olarak belirtildi.",
 	"4729544b55143ef7": "Metin kodlama dönüşümü gerçekleştirilemiyor: mbstring uzantısı kullanılamıyor.",
@@ -269,7 +270,7 @@
 	"a423ed57b2c72e9d": "Göbekli Portakal",
 	"a556bc87f770999c": "$1: $2 ile depolama alanı sıkıştırılıyor.",
 	"a5a65720ddacabb6": "Bu depolama formatı (\"$1\") anahtar seçimini desteklemiyor.",
-	"a5fbbc23f4ab215f": "Phabricator, yalnızca yerel diskteki bir dizine dosya yazan bir yerel disk depolama motoru sağlar. Web sunucusu bu dizinde okuma/yazma izinlerine sahip olmalıdır. Bu, basittir ve çoğu kurulum için uygundur, ancak yol aslında bir NFS bağlantısı olmadıkça, bir web önyüzünü geçmeyecek şekilde ölçeklenmeyecektir; Yerel disk depolama motorunu kullanmak için burada bir dizinin yolunu belirtin. Devre dışı bırakmak için boş belirtin.",
+	"a5fbbc23f4ab215f": "Bu yazılım, yalnızca yerel diskteki bir dizine dosya yazan bir yerel disk depolama motoru sağlar. Web sunucusu bu dizinde okuma/yazma izinlerine sahip olmalıdır. Bu, basittir ve çoğu kurulum için uygundur, ancak yol aslında bir NFS bağlantısı olmadıkça, bir web önyüzünü geçmeyecek şekilde ölçeklenmeyecektir; Yerel disk depolama motorunu kullanmak için burada bir dizinin yolunu belirtin. Devre dışı bırakmak için boş belirtin.",
 	"a675ee4529fbba8d": "Açıklama Olarak Görüntüle",
 	"a75e480824011767": "Dosyaları ve dosya depolamasını yapılandırın.",
 	"a76dffc709a4a57e": "Dosya veri bütünlüğü kontrolü başarısız oldu. Bütünlük kontrollerini atlamak için \"--salvage\" kullanın. Bu bayrak tehlikelidir, riski kendi sorumluluğunuzda kullanın. Temel hata: $1",
