@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
 	"04ed5a30ea0bcc04": "Bir Depo Oluştur",
@@ -9,9 +10,9 @@
 	"1e5fe3e3f95ec0bc": "Web arayüzünden en az bir ayar yapılandırdınız.",
 	"2705f94c32d8e8bc": "En az bir görev oluşturdunuz.",
 	"2912f9b92d7431d2": "Proje etiketleri her şeyi tanımlar. Takımlar, etiketler veya gerçek projeler için onları oluşturun.",
-	"29e1ac3c2434129a": "Phabricator'da bulunan tüm uygulamaları görün.",
+	"29e1ac3c2434129a": "Mevcut tüm uygulamaları görün.",
 	"38f627566dda6f37": "Uygulamaları Keşfet",
-	"3bd7ef732e4ec546": "Phabricator başarıyla kuruldu. Bu sonraki kılavuzlar sizi yapılandırmaya ve yeni kullanıcı yönelimlerine yönlendirecektir. Bu adımlar isteğe bağlıdır ve bunlardan herhangi bir sırayla geçebilirsiniz. Daha sonra bu kılavuza geri dönmek isterseniz, onu {icon globe} **Uygulamalar** altında {icon map-o} **Kılavuzlar** altında bulabilirsiniz.",
+	"3bd7ef732e4ec546": "$1 başarıyla kuruldu. Sonraki kılavuzlar sizi yapılandırma ve yeni kullanıcı oryantasyonu konusunda yönlendirecektir. Bu adımlar isteğe bağlıdır ve bunları istediğiniz sırayla uygulayabilirsiniz. Bu kılavuza daha sonra geri dönmek isterseniz, {icon globe} **Uygulamalar** kısmında {icon map-o} **Kılavuzlar** altında bulabilirsiniz.",
 	"3da474537ac378c6": "Atla",
 	"455083cac2ae96ea": "Hızlı Başlangıç",
 	"46f41c5aad565112": "Hesap ayarlarını tüm kullanıcılar veya yalnızca kendiniz için yapılandırın",
@@ -22,14 +23,14 @@
 	"6bb896b77607ac76": "Davetiyeleriniz kabul edildi. Bu yolculukta yalnız olmayacaksın.",
 	"6fe26b1373ab767d": "En az bir kimlik doğrulama sağlayıcısı yapılandırdınız.",
 	"76018fc96e754bd4": "Kısa Öğreticiler",
-	"7bed49546c4f7ce3": "Phabricator'da yeniyseniz, bu isteğe bağlı adımlar temelleri öğrenmenize yardımcı olabilir. Kavramsal olarak, Phabricator bir grafik olarak yapılandırılmıştır ve depolar, görevler ve projeler birbirinden bağımsızdır. Phabricator'ı en iyi nasıl çalıştığınıza göre ayarlamaktan çekinmeyin ve bu özellikleri kendi hızınızda keşfedin.",
+	"7bed49546c4f7ce3": "Bu yazılıma yeniyseniz, bu isteğe bağlı adımlar temel bilgileri öğrenmenize yardımcı olabilir. En iyi nasıl çalıştığınıza göre ayarları yapabilir ve bu özellikleri kendi hızınızda keşfedebilirsiniz.",
 	"7e11e4c66d7f235a": "En az bir depo oluşturdunuz.",
 	"929a28d261428029": "Kılavuzlar",
-	"9996bca0cdf61984": "Posta ve diğer seçenekleri Phabricator'da nasıl yapılandıracağınızı öğrenin.",
-	"9f99c9fd6e043aff": "Phabricator'a başlamak için ekibinizin geri kalanını davet edin.",
+	"9996bca0cdf61984": "Posta ve diğer seçeneklerin nasıl yapılandırılacağını öğrenin.",
+	"9f99c9fd6e043aff": "Ekibinizin geri kalanını başlamaya davet edin.",
 	"a1867bd6bfd5b2ad": "Kullanıcı Hesabı Ayarları",
 	"b3bd51b127ff1311": "Hesabınızdaki en az bir ayarı ayarladınız.",
-	"b42a237a5f96cad0": "Phabricator WebSockets ile gerçek zamanlı olarak bildirimler sunabilir.",
+	"b42a237a5f96cad0": "WebSockets ile gerçek zamanlı bildirimler gönderilebilir.",
 	"b5a15bad1cc08996": "Yüklemenizi Kişiselleştirin",
 	"b801b9ccdc229d9a": "Ortak Çalışanları Davet Et",
 	"c217cb0f9b995a3d": "En az bir proje oluşturdunuz.",
@@ -37,6 +38,6 @@
 	"d8d1d5a6042642e8": "İki rehberlik uzantısı aynı tuşa sahip rehberlik oluşturdu (\"$1\"). Her bir rehberlik parçasının benzersiz bir anahtarı olmalıdır.",
 	"e7643788502a37ce": "Bildirim Sunucusu",
 	"f023a66281396c8e": "Kurulum Sorunlarını Çöz",
-	"f80e61793246923f": "Kimlik doğrulama sağlayıcıları, kullanıcıların hesapları kaydetmesine ve Phabricator'da oturum açmasına izin verir.",
+	"f80e61793246923f": "Kimlik doğrulama sağlayıcıları kullanıcıların hesap kaydetmelerine ve oturum açmalarına olanak tanır.",
 	"fa9a5794e77589de": "Tüm önemli kurulum sorunlarını çözdünüz (veya yok saydınız)."
 }
