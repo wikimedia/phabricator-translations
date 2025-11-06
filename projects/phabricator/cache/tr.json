@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
 	"07b18e8f8d3474fe": "$1 mevcut değil; sönük veriler okunamıyor!",
 	"083e9daf755017eb": "APCu",
 	"13076d6ccfbf2ed8": "\"--all\" veya \"--caches\" ile temizlemek için önbellekleri seçin. Kullanılabilir önbellekler: $1.",
-	"1c11716c8513cacd": "APC veya APCu PHP uzantıları yüklü, ancak PHP yapılandırmanızda etkin değil. Bu uzantıların etkinleştirilmesi Phabricator performansını artıracaktır. Bu uzantıları etkinleştirmek için \"$1\" ayarını düzenleyin.",
+	"1c11716c8513cacd": "APCu PHP uzantısı yüklü, ancak PHP yapılandırmanızda etkin değil. Bu uzantıyı etkinleştirmek performansı artıracaktır. Bu uzantıyı etkinleştirmek için \"$1\" ayarını düzenleyin.",
 	"2276b761f4e9b232": "OPcache geliştirme için düzgün yapılandırılmamış.",
 	"30eab4800596ed9d": "Genel Önbellek (TTL)",
 	"39a26a319467e611": "Zend OPcache Yüklü Değil",
@@ -16,7 +17,7 @@
 	"57d65a67da803ff0": "Bilinmeyen önbellek biçimi.",
 	"5d552e099f3f044e": "İki nesne (\"$1\" ve \"$2\" sınıfları) aynı harita değerini (\"$3\") oluşturur. Her nesne benzersiz bir harita değeri oluşturmalıdır.",
 	"6334e108e5a76a93": "Üretim için OPcache Yapılandırılmadı",
-	"67b579e1d0e17a93": "PHP \"Zend OPcache\" uzantısı yüklü, ancak PHP yapılandırmanızda etkin değil. Bunu etkinleştirmek, Phabricator performansını önemli ölçüde artıracaktır. Uzantıyı etkinleştirmek için \"$1\" ayarını düzenleyin.",
+	"67b579e1d0e17a93": "PHP \"Zend OPcache\" uzantısı yüklü, ancak PHP yapılandırmanızda etkin değil. Bunu etkinleştirmek, performansını önemli ölçüde artıracaktır. Uzantıyı etkinleştirmek için \"$1\" ayarını düzenleyin.",
 	"6a17783283d3c1c2": "\"Zend OPcache\" uzantısının yüklenmesi performansı önemli ölçüde artıracaktır.",
 	"6ce08380717decfd": "DB önbelleğine yalnızca dizeler yazılabilir!",
 	"712bf67f120d05cd": "Tüm önbellekleri temizleyin.",
@@ -25,9 +26,9 @@
 	"8bca6dbfde130bad": "Zend OPcache Etkin Değil",
 	"8de00c5a6ec224cd": "Okuma önbelleklerinden veri bırakın.",
 	"95d9273c36cd460b": "\"$1\" önbellek temizleyici tanınmıyor. Kullanılabilir önbellekler: $2.",
-	"95f59a7967f6a585": "\"APCu\" PHP uzantısının yüklenmesi performansı artıracaktır. Bu uzantı şiddetle önerilir. Onsuz, Phabricator çok verimsiz bir disk tabanlı önbelleğe güvenmek zorundadır.",
+	"95f59a7967f6a585": "\"APCu\" PHP uzantısının yüklenmesi performansı artıracaktır. Bu uzantı şiddetle önerilir. Bu olmadan, bu yazılım çok verimsiz bir disk tabanlı önbelleğe güvenmek zorunda kalır.",
 	"967529ae1730771f": "OPcache Devre Dışı",
-	"9fdf3ec81bff66b0": "APC/APCu Uzantıları Etkin Değil",
+	"9fdf3ec81bff66b0": "APCu Uzantısı Etkin Değil",
 	"abf132f47abe84c6": "OPcache Yapılandırması",
 	"b1bfaa7e57ed0a5a": "OPcache üretim için ideal olarak yapılandırılmamış.",
 	"b9aca39fb5dd90ed": "OPcache",
@@ -41,6 +42,6 @@
 	"e4a248050fdc6dae": "Veri şişirilemedi!",
 	"e7693b42de4308ff": "Zend OPcache",
 	"ea785c9d610450b7": "OPcache'nin etkinleştirilmesi performansı önemli ölçüde artıracaktır.",
-	"f0912c6b33cd9048": "APC/APCu'nun etkinleştirilmesi performansı artıracaktır.",
-	"1974584536275217": "APC/APCu Devre Dışı"
+	"f0912c6b33cd9048": "APCu'nun etkinleştirilmesi performansı artıracaktır.",
+	"1974584536275217": "APCu Devre Dışı Bırakıldı"
 }

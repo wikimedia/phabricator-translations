@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hide on Rosé"
+			"Hide on Rosé",
+			"Nvdtn19"
 		]
 	},
 	"002ff598115d8459": "Câu hỏi",
@@ -51,6 +52,7 @@
 	"06517fc3ec02bdf0": "$1 Trước",
 	"0654a04fe0c7b6fe": "Tài liệu không có tiêu đề",
 	"0687b783f70a2e2c": "Đã thực hiện nhiệm vụ $1.",
+	"0694b17a6f5ec56e": "Không có sự kiện nào.",
 	"07134672eb6de922": "Đã xác thực MFA",
 	"072dcc216539f3df": "Duyệt tài liệu",
 	"07a8ab378a169d2a": "Mức độ cô lập của quy trình Lisk đã giảm xuống dưới 0.",
@@ -168,5 +170,10 @@
 	"1b532bd4499dbd33": "Nhiệm vụ đang xử lý (\"$1\") đã thất bại vĩnh viễn.",
 	"1c542e79c9b4257e": "Tháng 9",
 	"1c794058c21f48ca": "$1 Sau",
-	"1c82119c31678afc": "Thời hạn"
+	"1c82119c31678afc": "Thời hạn",
+	"365fc2cfdbcf71ca": "Chào mừng đến với $1",
+	"7c62a1424469b1c1": "Khả dụng",
+	"7e36502c1b399482": "Chào mừng đến với $1!",
+	"8aebf36d41d7a75a": "Hoạt động gần đây",
+	"bc7819b34ff87570": "Không rõ"
 }

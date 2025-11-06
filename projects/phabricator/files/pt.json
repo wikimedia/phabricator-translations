@@ -1,20 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Mansil alfalb"
 		]
 	},
 	"26b16faaedc84268": "Não foi carregado nenhum ficheiro.",
 	"2d413872b1dee42c": "Carregar um Ficheiro",
 	"5db17481b218fbe9": "Carregamento Parcial",
 	"6672016f75da5344": "Tem de escolher um ficheiro para carregar.",
-	"6e16710cef25b939": "Descarregar o ficheiro $1 ($2)?",
+	"6e16710cef25b939": "Transferir o ficheiro $1 ($2)?",
 	"8bdf057f91e76ae3": "Carregar",
 	"99a1e6aaee292268": "Ocultar Ficheiros Carregados Manualmente",
-	"9e400ef17f9b5079": "Descarregar um ficheiro do servidor.",
+	"9e400ef17f9b5079": "Transferir um ficheiro do servidor.",
 	"a2f2cc3bcb8e6efe": "Não foi carregado nenhum ficheiro!",
 	"a3cae41af1d0402a": "Fonte do Carregamento",
-	"b453253842f43004": "URI de descarregamento dos dados do ficheiro.",
+	"b453253842f43004": "URI de transferência para os dados do ficheiro.",
 	"f1a13578b51a59d5": "Carregado a $1",
 	"f87dfb89ad7486b2": "Carregado por $1 a $2"
 }

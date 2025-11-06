@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"21909f6cc9658765": "'$1' uygulaması yok!",
-	"2b864b4aa73d7545": "Bu uygulama, Phabricator'ın çalışması için gereklidir, bu nedenle tüm kullanıcıların buna erişimi olmalıdır.",
+	"2b864b4aa73d7545": "Bu uygulama zorunludur, dolayısıyla tüm kullanıcıların buna erişebilmesi gerekir.",
 	"473a2b8ae0fda34b": "Uygulamayı Yapılandırabilir",
 	"5065c3a197c9ae53": "Uygulama Kullanabilir",
 	"71a5993ec4612869": "Çekirdek Uygulamaları",
