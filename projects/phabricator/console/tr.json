@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"13d815bd29a02c64": "Dinleyici Sınıfı",
@@ -41,7 +42,7 @@
 	"c0f85d6679730ccd": "Tekrar",
 	"c2c604447f0ec813": "Analiz Edilemiyor",
 	"c5497bca58468ae6": "Etkinlikler",
-	"c6dbfd5cd23d54d0": "Phabricator olayları ve olay dinleyicileri hakkında bilgi.",
+	"c6dbfd5cd23d54d0": "Etkinlikleri ve etkinlik dinleyicileri hakkında bilgi.",
 	"c7102c8c300e7e00": "Sayfa Ağırlığı",
 	"c983a1551dcbdb6f": "Sunucu Adı",
 	"d2cf1d0f65c750d8": "Kayıtlı Etkinlik Dinleyicileri",

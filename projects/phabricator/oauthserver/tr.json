@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
-	"0151c85868c3a4ae": "Phabricator ile Giriş Yap",
+	"0151c85868c3a4ae": "$1 ile Oturum Aç",
 	"04852e522970a284": "OAuth Uygulamasını Etkinleştir",
 	"076a9d109c3f1a23": "Sunucu Hatası",
 	"0b7624a00f95c0ed": "OAuth uygulaması \"$1\" devre dışı bırakıldı.",
@@ -53,17 +54,17 @@
 	"64c810d5c56165f7": "$1, bu uygulamayı \"$2\"'den \"$3\"'e değiştirdi.",
 	"69479eedd0462ac1": "OAuth uygulama yönlendirmesi URI'leri yalnızca \"http\" veya \"https\" protokollerini kullanmalıdır, ancak \"$1\" URI'sı \"$2\" protokolünü kullanır.",
 	"6a7601f7a87e7b3f": "OAuth uygulamaları oluşturma izniniz yok.",
-	"6b36bdfc7076e653": "Bu uygulama ayrıca tanınmayan ilave izinler istedi. Bu izinler, Phabricator'ın daha eski bir sürümünde mevcut olabilir veya Phabricator'ın gelecekteki bir sürümünden olabilir. Verilmeyecekler.",
+	"6b36bdfc7076e653": "Bu uygulama ayrıca tanınmayan ilave izinler istedi. Bu izinler, yazılımın daha eski bir sürümünde mevcut olabilir veya yazılımın gelecekteki bir sürümünden olabilir. Verilmeyecekler.",
 	"6e34e8a4e9bd9691": "Bu jetonu gizli tutun, herhangi bir taşıyıcının bu uygulama adına hesabınıza erişmesine izin verir.",
 	"717d5d4efba25f02": "OAuth Hata Kodu: $1",
 	"7467cd6a01305064": "Uygulamayı Etkinleştir",
 	"7759f3335c8abbf1": "Bu OAuth uygulamasıyla ilişkilendirilen sır, ekranınızdaki düz metin olarak gösterilecektir. Devam etmeden önce, kollarınızı monitörünüzün etrafına sarın ve insan kalkanı oluşturmak için meraklı gözlerden korunmasını sağlayın. Şirket sırlarını koruyun!",
 	"776b642d8502e8b3": "Bu işlem, hesabınıza $1 erişmesine izin veren bir yetkilendirme ve OAuth belirteci oluşturur.",
 	"7d229baff7123480": "Bu OAuth uygulamasıyla ilişkilendirilen sır, ekranınızdaki düz metin olarak gösterilecektir.",
-	"7fb637b2ac8030db": "Birincil e-posta adresiniz de dahil olmak üzere Phabricator hesap verilerinize erişmek için harici uygulamaya \"$1\" yetki vermek ister misiniz?",
+	"7fb637b2ac8030db": "Birincil e-posta adresiniz de dahil olmak üzere $2 hesap verilerinize erişmek için harici uygulamaya \"$1\" yetki vermek ister misiniz?",
 	"8379a90c624a3cca": "Yetkilendirme",
-	"870fa0d5806be154": "Bu uygulama artık sizin adınıza Phabricator'a erişemeyecektir.",
-	"87eb935df492395d": "Phabricator OAuth Sunucusunu Kullanma",
+	"870fa0d5806be154": "Bu uygulama artık sizin adınıza bu yazılıma erişemeyecektir.",
+	"87eb935df492395d": "$1 OAuth Sunucusunu Kullanma",
 	"88090cb2b00397d6": "OAuth Uygulamaları Oluşturabilir",
 	"8c05e0e2d457130d": "Geçersiz Yönlendirme URI'si",
 	"8ce1713d4d681e91": "Uygulamayı yeniden adlandırın.",
@@ -90,7 +91,7 @@
 	"c6e7152809dba191": "OAuth Sunucusu Oluştur",
 	"c780346631335c29": "Gerçekten $1 OAuth uygulamasını etkinleştirilsin mi? Kullanıcılar buna karşı kimlik doğrulaması yapabilir ve mevcut belirteçler tekrar kullanılabilir hale gelir.",
 	"c89f967de14d854d": "Yalnızca $1 $2 desteklenir.",
-	"c8f19ee49e5cd248": "Bu başvuru (\"$1\"), Phabricator kimlik bilgilerinizi kullanmaya yetkilidir. Kimlik doğrulama iş akışını tamamlamaya devam edin.",
+	"c8f19ee49e5cd248": "Bu uygulama (\"$1\"), $2 kimlik bilgilerinizi kullanmaya yetkilidir. Kimlik doğrulama iş akışını tamamlamaya devam edin.",
 	"cb11156ea2458afe": "Yeni uygulama adı",
 	"cb455d57615f5d72": "$1 isteği parametresi geçerli bir istemci uygulaması belirtmiyor.",
 	"cef7e5ca541d21ee": "Uygulama Devre Dışı",
@@ -103,7 +104,7 @@
 	"eb806ca894d1e37b": "Gerekli parametre kodu eksik.",
 	"eff45bd532881dee": "$1 isteği parametresi desteklenmeyen bir yanıt türü belirtir. Geçerli yanıt türleri: $2.",
 	"f12fb7f7ead18d15": "Yeni OAuth uygulaması URI’yi yönlendirir.",
-	"f32805a63a4a8bc1": "$1 OAuth uygulamasını gerçekten devre dışı bırakılsın mı? Kullanıcılar artık buna karşı kimlik doğrulaması yapamayacak ve bu uygulama tarafından oluşturulan belirteçleri kullanarak Phabricator'a erişemeyecek.",
+	"f32805a63a4a8bc1": "$1 OAuth uygulamasını gerçekten devre dışı bırakılsın mı? Kullanıcılar artık buna karşı kimlik doğrulaması yapamayacak ve bu uygulama tarafından oluşturulan belirteçleri kullanarak bu sunucuya erişemeyecek.",
 	"f353ef0144a447f7": "OAuth Sunucusunu Düzenle: $1",
 	"f4c4d4b4e88022bd": "Kullanıcı bu uygulamayı yetkilendirmeyi reddetti.",
 	"f6a621985c2660b2": "Uygulamayı Düzenle",
