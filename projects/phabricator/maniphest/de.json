@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AKlapper",
+			"Ameisenigel",
 			"Brettchenweber",
 			"Justman10000",
 			"Leon95",
@@ -198,5 +199,5 @@
 	"fb066f5fe5690815": "$1 öffnete $2 erneut als \"$3\".",
 	"fc4a9c87a2914d85": "$1 setzte die Priorität der Aufgabe auf $2.",
 	"ff720f90cf47ae96": "Untertyp auswählen",
-	"ff77fdba5b715a7a": "Sie können den Besitzer dieser Aufgabe nicht entfernen, da sie gesperrt ist und niemand die Aufgabe bearbeiten könnte. Weisen Sie die Aufgabe neu zu oder entsperren Sie sie, bevor Sie den Besitzer entfernen."
+	"ff77fdba5b715a7a": "Du kannst den Besitzer dieser Aufgabe nicht entfernen, da sie gesperrt ist und niemand die Aufgabe bearbeiten könnte. Weise die Aufgabe neu zu oder entsperre sie, bevor du den Besitzer entfernst."
 }

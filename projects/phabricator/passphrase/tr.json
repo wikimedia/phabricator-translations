@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
 	"02c2a0c48898b578": "Kimlik Bilgisi Oluştur",
@@ -90,7 +91,7 @@
 	"c9037df0e6a26517": "$1, bu kimlik bilgisine Kanal API erişimine izin verdi.",
 	"cb0edb6aac4b0ad1": "Yeni Kimlik Bilgisi: $1",
 	"cb57cee51cc4a9ec": "$1 (Sınırlı Kimlik Bilgisi)",
-	"cbb126cf3b568b43": "Phabricator'ın diğer alanlarında yeniden kullanım için kimlik yönetimi veya ortak sırların genel depolanması.",
+	"cbb126cf3b568b43": "Kimlik bilgisi yönetimi ve paylaşılan sırların genel depolanması.",
 	"cedc4f9f00c97341": "Parola Kimlik Bilgisi",
 	"cf1e833b1e0789d1": "Anahtar için Şifre",
 	"d2a1a6809a7f6402": "Sırrın açığa çıkmasını veya değiştirilmesini önleyin.",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Can"
+			"Can",
+			"SaldırganSincap"
 		]
 	},
 	"002aa6b71775a72f": "Erişim Reddedildi: $1",
@@ -14,14 +15,14 @@
 	"0e3e41241d8cbd68": "Kilitlenecek nesnenin adını belirtin.",
 	"117f770f989b87f1": "Hizmetlilere Kullanıcı Politika Oluşturma Kilidi",
 	"18751622f503d778": "Bu kurallar sırayla işlenir.",
-	"1fce159eba71dca8": "Phabricator, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.\n\nBu ayar, bu politikaların \"kilitlenmesini\" sağlar, böylece politika başına başka düzenleme yapılamaz.",
+	"1fce159eba71dca8": "Bu yazılım, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.\n\nBu ayar, bu politikaların \"kilitlenmesini\" sağlar, böylece politika başına başka düzenleme yapılamaz.",
 	"21418411947c2375": "Bu alanda nesneleri görebilen kullanıcılar:",
 	"22ee8959b161f13b": "Bir kullanıcı alan politikası kontrollerini geçtikten sonra, yine de nesne politikası kontrollerini geçmelidir.",
 	"24cea5eae0db51f4": "Kullanıcı Politikaları",
 	"255aa8fa056c4e73": "Nesneyi boşluklar arasında kaydırın.",
 	"2607db2eab121ef7": "Geçemezsiniz: $1",
 	"29cfbeec9a497809": "azalıyor",
-	"2e40ccf6b8fc6c5f": "Phabricator, nesnelerin görünürlüğünü (havuzlar ve görevler gibi) 'Genel' olarak ayarlamanıza izin verir, yani **internetten herhangi biri, giriş yapmanıza veya bir hesap açmanıza gerek kalmadan onları görebilir**.\n\nBu, açık kaynaklı projeler için tasarlanmıştır. Çoğu kurulum hiçbir zaman genel bir şey yapmak istemeyeceğinden, bu politika varsayılan olarak devre dışıdır. Burada, nesnelerin politikasını 'Genel' olarak belirlemenizi sağlayacak şekilde etkinleştirebilirsiniz.\n\nBu ayarın etkinleştirilmesi, kullanıcı dizini gibi bazı özellikleri hemen açacaktır. İnternetteki herkes bu özelliklere erişebilecek.\n\nBu ayar devre dışı bırakıldığında, \"Genel\" politikası kullanılamaz ve en açık politika \"Tüm Kullanıcılar\"'dır (bu, kullanıcıların hesaplara sahip olması ve bir şeyleri görüntülemek için giriş yapmış olması gerektiği anlamına gelir).",
+	"2e40ccf6b8fc6c5f": "Bu yazılım, nesnelerin görünürlüğünü (havuzlar ve görevler gibi) 'Genel' olarak ayarlamanıza izin verir, yani **internetten herhangi biri, giriş yapmanıza veya bir hesap açmanıza gerek kalmadan onları görebilir**.\n\nBu, açık kaynaklı projeler için tasarlanmıştır. Çoğu kurulum hiçbir zaman genel bir şey yapmak istemeyeceğinden, bu politika varsayılan olarak devre dışıdır. Burada, nesnelerin politikasını 'Genel' olarak belirlemenizi sağlayacak şekilde etkinleştirebilirsiniz.\n\nBu ayarın etkinleştirilmesi, kullanıcı dizini gibi bazı özellikleri hemen açacaktır. İnternetteki herkes bu özelliklere erişebilecek.\n\nBu ayar devre dışı bırakıldığında, \"Genel\" politikası kullanılamaz ve en açık politika \"Tüm Kullanıcılar\"'dır (bu, kullanıcıların hesaplara sahip olması ve bir şeyleri görüntülemek için giriş yapmış olması gerektiği anlamına gelir).",
 	"2f2de884ae395f6b": "Bu nesneyi düzenleme izniniz yok.",
 	"2fbbf64505dd0777": "YETENEKLER",
 	"3089a1dfa0ab2bbd": "Mevcut politikalarla yeteneklerin haritası.",
@@ -46,7 +47,7 @@
 	"5bab93b4df69d462": "Etkileşim yapabilir",
 	"5d83cb68d4c07acc": "\"$1\" projesinin üyeleri bu işlemi yapabilir.",
 	"61719b5264144019": "Politika bilgilerini göstermek için tam olarak bir nesnenin adını belirtin.",
-	"61fac6d1372ab49d": "Bu nesne halka açıktır ve bir Phabricator hesabı olmasa bile herkes tarafından görülebilir.",
+	"61fac6d1372ab49d": "Bu nesne herkese açıktır ve bu sunucuda bir hesabı olmasa bile herkes tarafından görüntülenebilir.",
 	"65b28cf2e4c3b8d7": "Yapmaya çalıştığınız şeyi yapmak için gerekli kabiliyetiniz (\"$1\") yok.",
 	"664ca65d01881bbf": "Politikalar Desteği",
 	"66bef3b78fe80de4": "Kullanıcıların genel olarak nesne görünürlüğünü ayarlamasına izin ver.",

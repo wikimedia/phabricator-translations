@@ -52,7 +52,7 @@
 	"3ce74d2bbe387557": "Kararlı arayüzlere sahip yerleşik API yöntemlerini gösterin.",
 	"3cfbdfa506ab1f05": "Parametreleri \"--input\" ile okumak için bir dosya belirtin.",
 	"3fda6d676c3c4f9a": "Çağrı",
-	"40a624d599c87328": "Bu istek, Phabricator küme adres aralığının dışından kaynaklanır. Küme API anahtarlarıyla imzalanan isteklerin, küme içinden kaynaklanması gerekir.",
+	"40a624d599c87328": "Bu istek, küme adres aralığının dışından kaynaklanır. Küme API anahtarlarıyla imzalanan isteklerin, küme içinden kaynaklanması gerekir.",
 	"4384beae41d6660b": "Beklenen tamsayı, başka bir şey var.",
 	"473ae667204f5916": "Sertifika Anahtarı",
 	"4785f2554022aa37": "Geçersiz JSON girişi.",
@@ -65,7 +65,7 @@
 	"530b396dddc85626": "Değişmez boş.",
 	"56b25d16dd5faa9f": "Sonlandırılacak API anahtar yok.",
 	"5a67a30a47cb7d99": "Kullanıcı PHID'lerinin listesi.",
-	"5bbb305f5d214312": "'$1' istemci sürümünüz '$3' adlı sunucu sürümünden daha yeni olan '$2'. Phabricator kurulumunuzu yükseltin.",
+	"5bbb305f5d214312": "'$1' istemci sürümünüz '$3' adlı sunucu sürümünden daha yeni olan '$2'. Sunucunuzu yükseltin.",
 	"5ceaa9d4b9d6d653": "Beklenen dize, başka bir şey var.",
 	"5f04c5f67d3da93e": "Tam sayı olarak zaman damgası ekler.",
 	"606e1e2e1094b047": "PHID'lerin listesi.",
@@ -138,7 +138,7 @@
 	"af157522b7ce2dcc": "Belirli yöntemlere yapılan aramaları bulun.",
 	"b04106423dbaaa2b": "Geliştirici API",
 	"b064364c7db19c94": "Verilen kullanıcı olarak çağrıyı yürütün. (Atlanırsa, arama her şeye gücü yeten bir kullanıcı olarak yürütülür.)",
-	"b10fd9621f1ceea4": "Bu simge Phabricator tarafından otomatik olarak oluşturulur ve bir Phabricator kümesindeki düğümler arasında istekte bulunmak için kullanılır. Bu anahtarı harici uygulamalarda kullanamazsınız.",
+	"b10fd9621f1ceea4": "Bu simge Phabricator tarafından otomatik olarak oluşturulur ve bir kümesindeki düğümler arasında istekte bulunmak için kullanılır. Bu anahtarı harici uygulamalarda kullanamazsınız.",
 	"b128868dacedcc94": "\"$1\" API anahtarının uzunluğu yanlış. API anahtarı 32 karakter uzunluğunda olmalıdır.",
 	"b1899b466d045cde": "PHID ve kullanıcı adlarının bir karışımını listeleyin.",
 	"b25b1843b4eeaa47": "API Simgesini Sonlandır",
@@ -152,7 +152,7 @@
 	"be15068563abd653": "Beklenen PHID veya null, başka bir şey var.",
 	"be71bb2ea3ef8075": "Pozisyon sözlükleri listesi.",
 	"bebf6e4584d5ee3e": "Çağrı Yöntemi",
-	"c0f3be7d090e41c4": "Bu istek, Phabricator küme adres aralığının dışından kaynaklanır. Güvenilen aygıt anahtarlarıyla imzalanan isteklerin kümeden gelmesi gerekir.",
+	"c0f3be7d090e41c4": "Bu istek, küme adres aralığının dışından kaynaklanır. Güvenilen aygıt anahtarlarıyla imzalanan isteklerin kümeden gelmesi gerekir.",
 	"c1e9d369c08b7c4d": "Bir Conduit yöntemi çağırın..",
 	"c320c97007db76e1": "Bu yöntem dondurulur ve sonunda kullanımdan kaldırılır.",
 	"c4930193e63ab39b": "Sertifika Yükle",
@@ -198,5 +198,5 @@
 	"f9488c3887141955": "Anahtar Oluştur",
 	"f9a0635f6623095b": "Anahtar Sonlandır",
 	"f9dec19745a9e0ba": "Bu sunucu kimlik doğrulaması gerektiriyor.",
-	"faf55f85feea73ae": "Phabricator'ın gelecekteki bir sürümünde silinecek eski yöntemleri göster."
+	"faf55f85feea73ae": "Bu yazılımın gelecekteki bir sürümünde silinecek eski yöntemleri göster."
 }

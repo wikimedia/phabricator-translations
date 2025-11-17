@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
-			"Melissadilara"
+			"Melissadilara",
+			"SaldırganSincap"
 		]
 	},
 	"04850b7990a815ff": "Tüm İmzalar",
@@ -25,7 +26,7 @@
 	"28cb3eab81986147": "$1, $2 gerekli yasa belgeyi düzenledi, $3 eklendi: $4; $5 kaldırıldı: $6.",
 	"28ed81cbd17193e8": "Belge Başlığı.",
 	"290d4f3c3edf73fe": "Geçerli bir e-posta gerekli.",
-	"2a1695ec0e730330": "Yalnızca \"bireysel\" imza türüne sahip belgeler, Phabricator'ı kullanmak için imza gerektirebilir.",
+	"2a1695ec0e730330": "Yalnızca imza türü \"bireysel\" olan belgelere oturum açmak için imza atılması gerekebilir.",
 	"2d514e7ced041b52": "İmza Doğrulanamadı",
 	"2e9a840acd4ee593": "İmzalayan",
 	"3142970c1419587b": "İletişim E-posta",
@@ -47,7 +48,7 @@
 	"4c7b160ee981454e": "Yeni belgeler oluşturma izniniz yok.",
 	"52c6b1f2d11dff35": "Bu belgede bilinmeyen bir imza türü var (\"$1\").",
 	"557d608ecd7cbc32": "[Legalpad]",
-	"55b23856d27a02ef": "İmzalayanın adı.",
+	"55b23856d27a02ef": "İmzalayanın kullandığı isim.",
 	"5b4479d537bd3af1": "Legalpad Belgeleri",
 	"5c6c934df67e9ae9": "Legalpad İmzaları",
 	"5cca1e703c2b77be": "Bu dokümanı $1 imzaladınız.",
@@ -58,7 +59,7 @@
 	"6e3665d85fde7011": "İmzalanmış",
 	"6efa25944470f143": "İmza şimdi doğrulandı.",
 	"70440046a3dc2e07": "Notlar",
-	"728405f33fb82ec3": "Phabricator Kullanmak İçin Gerekli İmza",
+	"728405f33fb82ec3": "Oturum Açmak İçin İmza Gerekli",
 	"73e99ad08f4a56f8": "Legalpad",
 	"74231ca2731e51a1": "Belgeyi Görüntüle/İmzala",
 	"7c9b254eb0315b14": "Posta alıcısı LegalpadDocument değil!",
@@ -74,7 +75,7 @@
 	"86f737aa18791186": "$1, belge metnini $2 için güncelledi.",
 	"86fc8b6b84d2ff7f": "$1, $2 gerekli yasal belgeyi $3'e ekledi: $4.",
 	"8758e045fb8fa31a": "E-posta alanı zorunludur.",
-	"883a57964c86396e": "İmzalayanın eposta adresi.",
+	"883a57964c86396e": "İmzalayanın kullandığı e-posta.",
 	"88d349e56cee8ee4": "Muaf Kullanıcı",
 	"88dc1063a4a7714a": "Şirket adresi gerekli.",
 	"8a42a57da0aaf5c4": "İletişim Adı",

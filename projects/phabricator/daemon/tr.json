@@ -3,13 +3,14 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Can",
-			"Melissadilara"
+			"Melissadilara",
+			"SaldırganSincap"
 		]
 	},
 	"010f4cc420dbd262": "Geçici Arızalar",
 	"04f6b3ea183eb9d7": "Saat",
 	"092b4f4516f02796": "Kiralanan",
-	"0ac630709277f536": "Standart yapılandırılmış Phabricator artalan koleksiyonunu başlatın. Bu çoğu kurulum için uygundur. Hangi cinlerin başlatılacağını özelleştirmek için **$1** kullanın.",
+	"0ac630709277f536": "Standart yapılandırılmış daemon koleksiyonunu başlatın. Bu çoğu kurulum için uygundur. Hangi daemonları başlatılacağını özelleştirmek için **$1** kullanın.",
 	"0ff15bf2031bc20a": "$1 olarak daemon başlatılıyor",
 	"1199079cde46e002": "Kaynaktaki değişiklikleri almak için daemon işlemlerini yerinde yeniden başlatın. Bu, çalışan işleri aksatmaz. Bu gelişmiş bir iş akışıdır; çoğu kurulum __ $1__ kullanmalıdır.",
 	"13093e568fcffba3": "Yeniden denemeler",
@@ -31,7 +32,7 @@
 	"25f3eb06c021a83f": "Bu arka plan programı son zamanlarda bir hatayla karşılaştı ve yeniden başlatılması için bir dakika bekliyor.",
 	"267a976886d797ea": "Daemon $1 $2 [$3] $4",
 	"2914c3df87160a3a": "Yaklaşan etkinlik tetikleyicisi yok.",
-	"30749ed08713d1f1": "Standart olmayan bir kullanıcı olarak bir arka plan programı çalıştırmaya çalışıyorsunuz ve `$1`, doğru kullanıcıya `$2` alamadı.\nPhabricator, arka plan programları \"$3\" olarak çalıştıracak şekilde yapılandırıldı, ancak geçerli kullanıcı \"$4\".\nFarklı bir kullanıcı olarak çalıştırmak için `$5` kullanın, bu uyarıyı yoksaymak için `$6` iletin veya yapılandırmayı değiştirmek için `$7` düzenleyin.",
+	"30749ed08713d1f1": "Standart olmayan bir kullanıcı olarak bir arka plan programı çalıştırmaya çalışıyorsunuz ve `$1`, doğru kullanıcıya `$2` alamadı.\nDaemonlar \"$3\" olarak çalışacak şekilde yapılandırılmış, ancak şu anki kullanıcı \"$4\".\nFarklı bir kullanıcı olarak çalıştırmak için `$5` kullanın, bu uyarıyı yoksaymak için `$6` iletin veya yapılandırmayı değiştirmek için `$7` düzenleyin.",
 	"3259ad677ea8278a": "DURDUR",
 	"32a5e7d5e46eb3bd": "Hangi arka plan programının başlatılacağını belirtmelisiniz.",
 	"33a6bddbd490cf30": "Arka plan programı yapılandırılmış $1 yerine geçerli kullanıcı olarak çalıştırın",
@@ -80,7 +81,7 @@
 	"7931d9edd0663201": "Son Tamamlanan Görevler (Son 15 dk)",
 	"7d6fdc3923786cac": "Maksimum Yeniden Deneme",
 	"7f92e04fce341b37": "Görev $1",
-	"7fc607d96b87187a": "Phabricator Arka Plan Programını Yönetin",
+	"7fc607d96b87187a": "Daemonları Yönet",
 	"7fea1fe6dd1c76fc": "Sıradaki Sonraki",
 	"8092e46b6fdf5e96": "Kilit günlüğünü devre dışı bırakıyor.",
 	"8208b43383d49ae5": "Sonsuza Dek Yeniden Dener",

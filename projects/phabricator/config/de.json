@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ameisenigel",
 			"Justman10000",
 			"TMg",
 			"Tacsipacsi",
@@ -116,7 +117,7 @@
 	"9577760837d76c87": "Option \"$1\" vom Typ \"$2\", aber der konfigurierte Wert ist keine ganze Zahl.",
 	"985ea3b57a8fc6f5": "$1 nicht gefunden",
 	"99692e2d2af93132": "Schreiben Sie hier ein SSH-Fehlerprotokoll.",
-	"9a742f752f7b6e60": "Geben Sie den Konfigurationsschlüssel an, den Sie festlegen möchten.",
+	"9a742f752f7b6e60": "Gib den Konfigurationsschlüssel an, den du festlegen möchtest.",
 	"9aa2f6b1826d876a": "Unbekannter Spaltentyp \" $1 \"!",
 	"9bcb1aa0cb2a544b": "Der Schlüssel ist zu lang",
 	"9c0d5fe6465e44ef": "$1: nicht vorhanden",
