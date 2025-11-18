@@ -68,7 +68,6 @@
 	"620ee8ce413205a6": "This daemon has not reported its status recently. It may have exited uncleanly.",
 	"64e035f7d178a914": "Maximum pool size.",
 	"64f937487373b1e0": "Unknown status \"$1\"!",
-	"6614451687ab9964": "Deprecated. Has no effect.",
 	"662c0b09866952be": "This job is waiting for tasks to be queued.",
 	"66a69dcf67eda0ef": "ERROR: The PHP function $1 is disabled. You must enable it to run daemons on this machine.\n",
 	"68971ee0d218f55b": "Lease Status",

@@ -1,10 +1,5 @@
 {
-	"@metadata": {
-		"authors": [
-			"Pppery"
-		]
-	},
-	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$905 PhabricatorPolicyFilter.php:905]",
+	"002aa6b71775a72f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$908 PhabricatorPolicyFilter.php:908]",
 	"056cfca86add4e51": "For waxing and waning, see [[w:Lunar phase]]. This message is displayed as a dropdown menu completing a sentence with {{msg-phab|phabricator-policy-0bb2e1d44d97441b}}. The ability to customize Phabricator policies based on the phase of the moon is intended by upstream as a joke with little practical utility.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$45 PhabricatorLunarPhasePolicyRule.php:45]",
 	"07c02304013bf0f0": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$211 PhabricatorPolicyExplainController.php:211]",
 	"08c15f46074369df": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/storage/PhabricatorPolicy.php$253 PhabricatorPolicy.php:253]",
@@ -21,7 +16,7 @@
 	"246103ba1e6d5a8d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$125 PhabricatorPolicyManagementUnlockWorkflow.php:125]",
 	"24cea5eae0db51f4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/constants/PhabricatorPolicyType.php$31 PhabricatorPolicyType.php:31]",
 	"255aa8fa056c4e73": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/editor/PhabricatorPolicyEditEngineExtension.php$148 PhabricatorPolicyEditEngineExtension.php:148]",
-	"2607db2eab121ef7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$909 PhabricatorPolicyFilter.php:909]",
+	"2607db2eab121ef7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$912 PhabricatorPolicyFilter.php:912]",
 	"29cfbeec9a497809": "For waxing and waning, see [[w:Lunar phase]]. This message is displayed as a dropdown menu completing a sentence with {{msg-phab|phabricator-policy-0bb2e1d44d97441b}}. The ability to customize Phabricator policies based on the phase of the moon is intended by upstream as a joke with little practical utility.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$44 PhabricatorLunarPhasePolicyRule.php:44]",
 	"2e40ccf6b8fc6c5f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PhabricatorPolicyConfigOptions.php$40 PhabricatorPolicyConfigOptions.php:40]",
 	"2ecc43547ba936fd": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$71 PhabricatorPolicyManagementUnlockWorkflow.php:71]",
@@ -42,7 +37,7 @@
 	"470c393d8184ed0c": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/query/PhabricatorPolicyQuery.php$371 PhabricatorPolicyQuery.php:371]",
 	"4d064726954a1748": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/constants/PhabricatorPolicyType.php$33 PhabricatorPolicyType.php:33]",
 	"4e117533b40f8292": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/storage/PhabricatorPolicy.php$257 PhabricatorPolicy.php:257]",
-	"4fef05fb42f4ce11": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$197 PhabricatorPolicyFilter.php:197]",
+	"4fef05fb42f4ce11": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$200 PhabricatorPolicyFilter.php:200]",
 	"5067ed85470293cf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$41 PhabricatorPolicyManagementUnlockWorkflow.php:41]",
 	"53577bb5df0ee9b6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyEditController.php$47 PhabricatorPolicyEditController.php:47]",
 	"53b6d518edb90714": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$237 PhabricatorPolicyExplainController.php:237]",
@@ -57,7 +52,7 @@
 	"5faf52958547f4df": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/storage/PhabricatorPolicy.php$267 PhabricatorPolicy.php:267]",
 	"61719b5264144019": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementShowWorkflow.php$31 PhabricatorPolicyManagementShowWorkflow.php:31]",
 	"61fac6d1372ab49d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/storage/PhabricatorPolicy.php$250 PhabricatorPolicy.php:250]",
-	"65b28cf2e4c3b8d7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$635 PhabricatorPolicyFilter.php:635]",
+	"65b28cf2e4c3b8d7": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$638 PhabricatorPolicyFilter.php:638]",
 	"664ca65d01881bbf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/engineextension/PhabricatorPolicySearchEngineExtension.php$13 PhabricatorPolicySearchEngineExtension.php:13]",
 	"66bef3b78fe80de4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PhabricatorPolicyConfigOptions.php$37 PhabricatorPolicyConfigOptions.php:37]",
 	"69ae9c37be2f3b66": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$118 PhabricatorPolicyExplainController.php:118]",
@@ -82,7 +77,7 @@
 	"96ba3e1cc659fc7a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/rule/PhabricatorLunarPhasePolicyRule.php$43 PhabricatorLunarPhasePolicyRule.php:43]",
 	"9731efe5ed060020": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PhabricatorPolicyConfigOptions.php$35 PhabricatorPolicyConfigOptions.php:35]",
 	"999c559fe5782fb7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$214 PhabricatorPolicyExplainController.php:214]",
-	"9adc651e3690b15a": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$709 PhabricatorPolicyFilter.php:709]",
+	"9adc651e3690b15a": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$712 PhabricatorPolicyFilter.php:712]",
 	"9f09d77a6b1bc528": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/storage/PhabricatorPolicy.php$289 PhabricatorPolicy.php:289]",
 	"a954059de22db5dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php$59 PhabricatorPolicyManagementUnlockWorkflow.php:59]",
 	"a9612e314ff8451c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/config/PhabricatorPolicyConfigOptions.php$11 PhabricatorPolicyConfigOptions.php:11]",
@@ -111,7 +106,7 @@
 	"dd0f3fd91610a15d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyEditController.php$138 PhabricatorPolicyEditController.php:138]",
 	"ddaac2ec49e685e9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/editor/PhabricatorPolicyEditEngineExtension.php$146 PhabricatorPolicyEditEngineExtension.php:146]",
 	"de525bf255edb027": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyEditController.php$260 PhabricatorPolicyEditController.php:260]",
-	"e087aed424875c6e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$966 PhabricatorPolicyFilter.php:966]",
+	"e087aed424875c6e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/filter/PhabricatorPolicyFilter.php$969 PhabricatorPolicyFilter.php:969]",
 	"e37ca4d1df2ac343": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/controller/PhabricatorPolicyExplainController.php$114 PhabricatorPolicyExplainController.php:114]",
 	"e3821a020a9519f2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/query/PhabricatorPolicyQuery.php$183 PhabricatorPolicyQuery.php:183]",
 	"e55cdac36b987038": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/policy/editor/PhabricatorPolicyEditEngineExtension.php$66 PhabricatorPolicyEditEngineExtension.php:66]",

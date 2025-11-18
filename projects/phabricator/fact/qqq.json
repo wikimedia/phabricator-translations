@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"082d1ecea396e7c3": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$20 PhabricatorFactManagementAnalyzeWorkflow.php:20]",
 	"09477b727f04e230": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$47 PhabricatorFactManagementAnalyzeWorkflow.php:47]",
 	"0b356ea8e0756a91": "Action verb for the label of a button linking to a page to showing a view of the data.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/engine/PhabricatorChartRenderingEngine.php$216 PhabricatorChartRenderingEngine.php:216]",
@@ -54,7 +51,7 @@
 	"c032adc1ff629c9b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/engine/PhabricatorChartRenderingEngine.php$235 PhabricatorChartRenderingEngine.php:235]",
 	"c2112b7b0b1bc085": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementAnalyzeWorkflow.php$24 PhabricatorFactManagementAnalyzeWorkflow.php:24]",
 	"c39bbd05c5b2c7ce": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/controller/PhabricatorFactObjectController.php$31 PhabricatorFactObjectController.php:31]",
-	"cb9f45a57adcf940": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/storage/PhabricatorFactChart.php$48 PhabricatorFactChart.php:48]",
+	"cb9f45a57adcf940": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/storage/PhabricatorFactChart.php$51 PhabricatorFactChart.php:51]",
 	"cedffb9f1f6012f2": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/chart/PhabricatorChartFunctionArgument.php$95 PhabricatorChartFunctionArgument.php:95]",
 	"d8ba3da431e0c55a": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/management/PhabricatorFactManagementDestroyWorkflow.php$37 PhabricatorFactManagementDestroyWorkflow.php:37]",
 	"da433cd41e7fb7cd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/fact/engine/PhabricatorChartRenderingEngine.php$237 PhabricatorChartRenderingEngine.php:237]",

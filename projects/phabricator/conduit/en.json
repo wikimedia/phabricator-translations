@@ -154,6 +154,7 @@
 	"c4930193e63ab39b": "Install Certificate",
 	"c4ad0ec9fd44e3e0": "Method Result",
 	"c5316e76e67263e3": "OAuth clients may call this method after requesting access to the \"$1\" scope.",
+	"c7dc9d0b98d53b0a": "Caller Type",
 	"ccc887f7774c87f3": "Unknown Conduit token type \"$1\"!",
 	"cd8cff70ff63ebd9": "The request you submitted is signed with a timestamp, but that timestamp is not within $1 of the current time. The signed timestamp is $2 ($3), and the current server time is $4 ($5). This is a difference of $6 seconds, but the timestamp must differ from the server time by no more than $7 seconds. Your client or server clock may not be set correctly.",
 	"ceff2ce8260f4e5c": "Error while reading \"$1\": $2",

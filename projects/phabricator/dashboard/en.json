@@ -96,6 +96,7 @@
 	"57f5f5efbc5990f5": "Menu",
 	"58de53187e583d9f": "This panel has type \"$1\", but that panel type is unknown.",
 	"593067b73a815cdf": "Stay Woke",
+	"5a4fcdc225a41d15": "Chart with this key does not exist. A chart must be specified by its $1 character long key.",
 	"5aee5886d7c5c8bc": "This panel will be archived and no longer appear in lists of active panels.",
 	"5b3e0de4f97dd64a": "Panel names must not be longer than $1 characters.",
 	"5d062d3fce011cc2": "Target tab (\"$1\") was not found on this panel. It may have been removed.",

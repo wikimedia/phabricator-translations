@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"09858ae94db095dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//config/AntiVandalismConfigOptions.php$7 AntiVandalismConfigOptions.php:7]",
 	"0f14b2b49300d680": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//workflow/AntivandalismScoreWorkflow.php$11 AntivandalismScoreWorkflow.php:11]",
 	"13b79979748bc524": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-ava/browse/wmf%252Fstable/src//herald/AntiVandalismAction.php$83 AntiVandalismAction.php:83]",

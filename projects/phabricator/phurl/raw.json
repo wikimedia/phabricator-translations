@@ -1,6 +1,7 @@
 {
 	"04259816ace1ebe5": "Alias",
 	"07220ddc07168239": "Edit Phurl",
+	"0b1f4c764dd13af5": "Search for Phurl URLs created by specific authors.",
 	"0e2d9b0777a485c1": "URL",
 	"10ca59433e17327a": "All URLs",
 	"1f7f74d9be3f7d02": "%s changed the alias from %s to %s.",
@@ -31,7 +32,6 @@
 	"8f4c5dc0c972aeee": "Create New URL",
 	"8f8de67c1e696c08": "URL DESCRIPTION",
 	"90c35a133885c4a5": "New alias.",
-	"965d5e4abe2017d1": "The owner of a URL can always view and edit it.",
 	"9c0547ac2c14db76": "Original URL",
 	"9c406b0824c7ae3c": "The pre-shortened URL.",
 	"a693b5428598101f": "The protocol of the URL is invalid.",
@@ -42,6 +42,7 @@
 	"bed22f6094ab6791": "Invalid URL",
 	"c0f6b306a68004a7": "New URL name.",
 	"c1b1fd7622368b0b": "%s changed the destination URL %s from %s to %s.",
+	"c2e49d8eee1fe76d": "The author of a URL can always view and edit it.",
 	"c6f0551b1f30a017": "You do not have permission to create a Phurl URL.",
 	"c71ce7231d9339f2": "Search for Phurl URLs by the non-shortened URL.",
 	"cbc8c6068a960874": "The alias for the URL.",

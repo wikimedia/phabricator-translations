@@ -1,7 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
 	"075b45870ec7ec57": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$74 PhabricatorFlagRemoveFlagHeraldAction.php:74]",
 	"197a62696ce8fbf0": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$72 PhabricatorFlagAddFlagHeraldAction.php:72]",
 	"1c3d8a33c4e3bcd5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/application/PhabricatorFlagsApplication.php$10 PhabricatorFlagsApplication.php:10]",
@@ -23,7 +20,7 @@
 	"a12b4c41e336ccf7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/controller/PhabricatorFlagEditController.php$81 PhabricatorFlagEditController.php:81]",
 	"b2818290ebcc7204": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$69 PhabricatorFlagRemoveFlagHeraldAction.php:69]",
 	"b6829a09b18b33c4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/controller/PhabricatorFlagEditController.php$53 PhabricatorFlagEditController.php:53]",
-	"bafd3e5ad59b23e6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$187 PhabricatorFlagSearchEngine.php:187]",
+	"bafd3e5ad59b23e6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$192 PhabricatorFlagSearchEngine.php:192]",
 	"cdc6686dc53df49e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/conduit/FlagDeleteConduitAPIMethod.php$26 FlagDeleteConduitAPIMethod.php:26]",
 	"cf11ada077be2b0f": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/events/PhabricatorFlagsUIEventListener.php$43 PhabricatorFlagsUIEventListener.php:43]",
 	"d1d3a0cd7c6910d9": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$121 PhabricatorFlagSearchEngine.php:121]",
@@ -32,5 +29,5 @@
 	"e22c254cc0a5cb8c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$12 PhabricatorFlagAddFlagHeraldAction.php:12]",
 	"e2ab9f0d21594fe2": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$48 PhabricatorFlagRemoveFlagHeraldAction.php:48]",
 	"e76a6d33ff06b15e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagRemoveFlagHeraldAction.php$66 PhabricatorFlagRemoveFlagHeraldAction.php:66]",
-	"f8db8a172be6fab1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$54 PhabricatorFlagAddFlagHeraldAction.php:54]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$76 PhabricatorFlagSearchEngine.php:76]"
+	"f8db8a172be6fab1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/query/PhabricatorFlagSearchEngine.php$76 PhabricatorFlagSearchEngine.php:76]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/flag/herald/PhabricatorFlagAddFlagHeraldAction.php$54 PhabricatorFlagAddFlagHeraldAction.php:54]"
 }
