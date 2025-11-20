@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"SaldırganSincap",
 			"Satirdan kahraman",
 			"Sayginer"
 		]
@@ -70,7 +71,7 @@
 	"277e835e7558c9a3": "Küçük Kırmızı Olay",
 	"27a7cf80efd6f882": "Kabul edilebilir olan kod yazdı",
 	"29728de68fb7a1d5": "$1 bir kiraz aldı.",
-	"29842e34230b37da": "Doğrudan Ödül (epriestley)",
+	"29842e34230b37da": "Doğrudan Ödül",
 	"29af8e7a97255fae": "Maliyeci",
 	"2d1992589d1127ae": "Mesaj Gönder",
 	"2ddec2abf0cedb01": "bir keçi",
@@ -112,7 +113,7 @@
 	"4da55bb7b2eff3ed": "İnsan kardiyovasküler sistemi kalp, akciğerler ve diğer bazı kısımları içerir; bu parçaların çoğu oldukça gevrek.",
 	"4dca51bd67c73e88": "PHUIBadgeMiniView",
 	"4ea270ec1e5e881f": "Süslü ya da süslü olmayan bir kutu. İçine bir şeyler koy.",
-	"4fbdcfdb92912386": "Fakirlik Yüksek Komutanlığı",
+	"4fbdcfdb92912386": "Yüksek Komut",
 	"501954dbaff04110": "UIÖrnekler",
 	"503d46db37b0db45": "Düğmeler",
 	"5090a9e78c899272": "Emoji",
@@ -143,7 +144,7 @@
 	"5a4caa3837c3ae10": "Örneği Başlat",
 	"5a9b1ef92e6ba404": "Kod yazmak arkadaşlarınızla çok daha eğlenceli!",
 	"5ae1639d262851ee": "100'den fazla görevde kapalı",
-	"5bc3f92edef6b5d5": "Phabricator Mobil Deneyimini Geliştirin",
+	"5bc3f92edef6b5d5": "Mobil Deneyimini Geliştir",
 	"5c84c4e1000190f0": "Bağlantıları ve sprite karakterleri veya görüntüleri kolayca oluşturun.",
 	"5c9beb360aaff3d9": "Durum Hikayesi",
 	"5d58745357ed5263": "Kabak",
@@ -202,7 +203,7 @@
 	"89661149f1b62ff4": "Joe",
 	"8b52c7a6fc250003": "Ilık!",
 	"8f4b65a130377723": "Açıklama Örneği",
-	"8f83a922c10713ab": "Phabricator'un Baş Geliştirici",
+	"8f83a922c10713ab": "Yazılımın Baş Geliştirici",
 	"904017f829f283e1": "Gölgeler",
 	"91629f3cfc1fc604": "Belki de bunun için burada muhtemelen.",
 	"9239ee2cda84eca4": "Genel",
@@ -273,7 +274,7 @@
 	"cd7c0fcebc3521c3": "Sabit Resim Etkinliği",
 	"cecef0f472756fe1": "Vurgulanmış",
 	"cf021d330c3c5c5b": "Yorumlar ve işlemler için $1 kullanın.",
-	"cfae0eb6a665ebae": "Phabricator ile birlikte gelen Dahili Proje Görüntüleri.",
+	"cfae0eb6a665ebae": "Dahili Proje Resimleri.",
 	"d0133761593c8ff9": "Bleh!",
 	"d01d0eda3c8ebf73": "Bu bazı metinlerin bir örneğidir.",
 	"d0731ccbdf0efca9": "Gökkuşağı Barlar",

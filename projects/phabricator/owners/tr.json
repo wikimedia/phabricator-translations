@@ -29,7 +29,7 @@
 	"36cca0e0571af402": "Otomatik İnceleme",
 	"428e4ae9b0245e17": "Paketler: Geçersiz Sahip",
 	"42daec9d1ebf95b9": "Otomatik inceleme bilgisi.",
-	"430c9321688e90b4": "Bir kod tabanının bölümlerini, Herald kuralları gibi Phabricator'ın diğer alanlarında yeniden kullanılmak üzere paketler halinde gruplayın.",
+	"430c9321688e90b4": "Herald kuralları gibi, bir kod tabanının bölümlerini diğer uygulamalarda yeniden kullanılmak üzere paketlere gruplayın.",
 	"43bf45889ef7f59c": "Varsayılan Dalda Bulunmayan Yol",
 	"4528dd3348b2e58c": "Herald Kuralları Tarafından Etkilendi",
 	"456b2bfa2d850402": "Paketin sahibi olan kullanıcılar ve projeler.",
