@@ -8,7 +8,7 @@ $args = new PhutilArgumentParser($argv);
 $args->setTagline(pht('bindings for Phabricator and Translatewiki'));
 $args->setSynopsis(<<<EOSYNOPSIS
 **translatewiki** __command__ [__options__]
-    Import or export translations between libphutil libraries
+    Import or export translations between Arcanist libraries
     (including Phabricator) and Translatewiki.
 
 EOSYNOPSIS
