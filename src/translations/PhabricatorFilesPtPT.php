@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorFilesPt
+final class PhabricatorFilesPtPT
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pt';
+    return 'pt_PT';
   }
 
   protected function getTranslations() {
@@ -13,13 +13,13 @@ final class PhabricatorFilesPt
       'Upload a File' => 'Carregar um Ficheiro',
       'Partial Upload' => 'Carregamento Parcial',
       'You must choose a file to upload.' => 'Tem de escolher um ficheiro para carregar.',
-      'Download file %s (%s)?' => 'Descarregar o ficheiro %s (%s)?',
+      'Download file %s (%s)?' => 'Transferir o ficheiro %s (%s)?',
       'Upload' => 'Carregar',
       'Hide Manually Uploaded Files' => 'Ocultar Ficheiros Carregados Manualmente',
-      'Download a file from the server.' => 'Descarregar um ficheiro do servidor.',
+      'Download a file from the server.' => 'Transferir um ficheiro do servidor.',
       'No file was uploaded!' => 'Não foi carregado nenhum ficheiro!',
       'Upload Source' => 'Fonte do Carregamento',
-      'Download URI for the file data.' => 'URI de descarregamento dos dados do ficheiro.',
+      'Download URI for the file data.' => 'URI de transferência para os dados do ficheiro.',
       'Uploaded on %s' => 'Carregado a %s',
       'Uploaded by %s on %s' => 'Carregado por %s a %s',
     );

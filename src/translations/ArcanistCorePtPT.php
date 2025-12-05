@@ -1,10 +1,10 @@
 <?php
 
-final class ArcanistCorePt
+final class ArcanistCorePtPT
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pt';
+    return 'pt_PT';
   }
 
   protected function getTranslations() {
@@ -62,7 +62,7 @@ final class ArcanistCorePt
       'Working Copy State' => 'Estado da Cópia de Trabalho',
       'Space found before semicolon.' => 'Espaço encontrado antes do ponto e vírgula.',
       'Use `%s` for checking if the string contains something.' => 'Utilize `%s` para verificar se o texto contém alguma coisa.',
-      'Download content from S3.' => 'Descarregar conteúdo de S3.',
+      'Download content from S3.' => 'Transfira o conteúdo de S3.',
       'Copied Here' => 'Copiado Para Aqui',
       'Aborted generation of gigantic diff.' => 'Foi abortada a geração de uma lista de diferenças gigantesca.',
       'HTTP Status Code: %d' => 'Código de Estado de HTTP: %s',
@@ -136,13 +136,14 @@ final class ArcanistCorePt
       'Contents Modified' => 'Conteúdo Modificado',
       'Unable to locate %s.' => 'Não é possível localizar %s.',
       'Argument Error' => 'Erro de Argumento',
+      'Downloading "%s" (%s byte(s)) to "%s"...' => 'A transferir "%s" (%s byte(s)) para "%s"...',
       'Moved Here' => 'Movido Para Aqui',
       'Logical Operators' => 'Operadores Lógicos',
       'Repository API is not supported.' => 'A API do repositório não é suportada.',
       'Working Copy: Project root is at "%s".' => 'Cópia de Trabalho: a raiz do projeto está em "%s".',
       '    %s (%s) %s
     ' => '    %s (%s) %s',
-      'Specify a file to download.' => 'Especifique um ficheiro para descarregar.',
+      'Specify a file to download.' => 'Especifique um ficheiro para transferir.',
       'SUCCESS!' => 'SUCESSO!',
       'CONNECT' => 'LIGAR',
       'Possible Spelling Mistake' => 'Possível Erro Ortográfico',
@@ -202,6 +203,7 @@ final class ArcanistCorePt
       'Writing \'%s\' to \'%s\'...
     ' => 'A escrever \'%s\' em \'%s\'...',
       '< %sus' => '< %sus',
+      'Download a file to local disk.' => 'Transfira um ficheiro para o disco local.',
       'Linter failed to parse output!' => 'O otimizador não conseguiu fazer a análise sintática da saída!',
       'Some linters failed:' => 'Alguns otimizadores falharam:',
       'There is no revision %s.' => 'Não existe a revisão %s.',
@@ -242,16 +244,17 @@ final class ArcanistCorePt
       'In Preparation' => 'Em Preparação',
       '%s does affect revisions.' => '%s afeta revisões.',
       'Empty File' => 'Ficheiro Vazio',
+      '**download** [__options__] -- __file__' => '**transferir** [__options__] -- __file__',
       'Changes:' => 'Alterações:',
       '%s: %s' => '%s: %s',
       'The test was not executed.' => 'O teste não foi executado.',
-      'Downloading authentication certificate...' => 'A carregar o certificado de autenticação...',
+      'Downloading authentication certificate...' => 'A transferir o certificado de autenticação...',
       'Unable to upload file data: %s' => 'Não foi possível carregar os dados do ficheiro: %s',
       'Done.' => 'Concluído.',
       'Exiting in %d seconds' => 'A sair em %s segundos',
       'Current Source' => 'Fonte Atual',
       'DONE' => 'CONCLUÍDO',
-      'Specify exactly one file to download.' => 'Especifique um único ficheiro a descarregar.',
+      'Specify exactly one file to download.' => 'Especifique um único ficheiro para transferir.',
       'Warning' => 'Aviso',
       'PREVIEW' => 'ANTEVISÃO',
       'Error in parsing \'%s\' file, in key \'%s\' for linter \'%s\'.' => 'Erro ao analisar o ficheiro \'%s\', na chave \'%s\' para o otimizador \'%s\'.',
@@ -261,6 +264,7 @@ final class ArcanistCorePt
       'Reason' => 'Motivo',
       'Uses Google\'s Closure Linter to check JavaScript code.' => 'Utiliza o Closure Linter da Google para verificar o código em JavaScript.',
       'Disabled' => 'Desativado',
+      'Specify a file to download, like "F123".' => 'Especifique um ficheiro para transferir, como "F123".',
       'TARGET' => 'DESTINO',
       'Needs Review' => 'Necessita Revisão',
       'Provide a list of additional flags to pass to the linter on the command line.' => 'Fornece uma lista de opções adicionais para passar ao otimizador na linha de comandos.',

@@ -5,7 +5,7 @@
  */
 final class TranslateWikiSerbianSrEc extends PhutilLocale {
     public function getLocaleCode() {
-        return 'sr-ec';
+        return 'sr_EC';
     }
 
     public function getLocaleName() {

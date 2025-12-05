@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorMacroPt
+final class PhabricatorFundPtPT
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pt';
+    return 'pt_PT';
   }
 
   protected function getTranslations() {
     return array(
-      'Upload New Audio' => 'Carregar Áudio Novo',
+      'Open Initiatives' => 'Iniciativas em aberto',
     );
   }
 

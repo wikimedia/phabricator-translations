@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorCorePt
+final class PhabricatorCorePtPT
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pt';
+    return 'pt_PT';
   }
 
   protected function getTranslations() {
@@ -55,7 +55,7 @@ final class PhabricatorCorePt
       '%s changed the status of %s from %s to %s.' => '',
       'Unable to establish a write-mode connection (to application database "%s") because this server is in read-only mode. Whatever you are trying to do does not function correctly in read-only mode.' => '',
       'Assigned: %s' => 'Atribuída: %s',
-      'Download File' => 'Descarregar Ficheiro',
+      'Download File' => 'Transferir Ficheiro',
       'Pause' => 'Pausar',
       'Configure' => 'Configurar',
       'January' => 'Janeiro',
@@ -74,7 +74,7 @@ final class PhabricatorCorePt
       'The PHID of the repository.' => 'O PHID do repositório.',
       '[%s] %s' => '[ %s ] %s',
       'April' => 'Abril',
-      'Download' => 'Download',
+      'Download' => 'Transferir',
       'June' => 'Junho',
       'No Builds' => '',
       'Data can not be exported to Excel because the "zip" PHP extension is not
@@ -84,12 +84,13 @@ final class PhabricatorCorePt
       'Database "%s" is specified more than once. Specify each database at most once.' => '',
       '%s has invited you to join %s.' => '%s convidou você para participar %s .',
       'This service is configured in cluster mode and the address this request was received on ("%s") is not whitelisted as a cluster address.' => 'Este serviço está configurado no modo cluster e o endereço em que esta solicitação foi recebida (" %s ") não está na lista de permissões como endereço de cluster.',
+      'Download Raw Diff' => 'Transferir Raw Diff',
       'Dump only tables in the named database (or databases, if the flag is repeated). Specify database names without the namespace prefix (that is: use "differential", not "phabricator_differential").' => '',
       '%s attached %s file(s): %s.' => '%s anexado(s) %s arquivo(s): %s .',
       'You have surplus schemata (extra tables or columns which this software does not expect). For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => '',
       'May' => 'Maio',
       'This service is configured to operate in cluster mode, but %s is not defined in the request context. Your webserver configuration needs to forward %s to PHP so the software can reject requests received on external interfaces.' => 'Este serviço está configurado para operar em modo cluster, mas %s não está definido no contexto da solicitação. A configuração do seu servidor web precisa encaminhar %s para PHP para que o software possa rejeitar solicitações recebidas em interfaces externas.',
-      'Download Data' => 'Descarregar Dados',
+      'Download Data' => 'Transferir Dados',
       'This server is configured in cluster mode, with multiple database hosts. Use "--host" to specify which host you want to operate on.' => '',
       'Upload New Picture' => 'Carregar Imagem Nova',
       'Nothing Uploaded' => 'Não Foi Carregado Nada',
@@ -101,6 +102,7 @@ final class PhabricatorCorePt
       'Referenced' => 'Referenciadas',
       'Javelin Linter' => 'Analisador de Javelin',
       'A JSON-encoded object.' => 'Um objeto codificado em JSON.',
+      'Download Data Export' => 'Transferir Exportação de Dados',
       'Disabled' => 'Desativado',
       'Install' => 'Instalar',
       'Some of these errors are caused by surplus schemata (extra tables or columns which this software does not expect). These are not serious. For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => 'Alguns desses erros são causados por esquemas excedentes (tabelas ou colunas extras que este software não espera). Isso não é sério. Para obter informações sobre como resolver esses problemas, consulte a seção "Esquemas excedentes" no artigo "Gerenciando ajustes de armazenamento" na documentação.',

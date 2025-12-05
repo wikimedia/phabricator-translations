@@ -1,10 +1,10 @@
 <?php
 
-final class ArcanistCoreCsCS
+final class ArcanistCoreCsCZ
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'cs_CS';
+    return 'cs_CZ';
   }
 
   protected function getTranslations() {

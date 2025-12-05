@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorConfigPt
+final class PhabricatorConfigPtPT
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pt';
+    return 'pt_PT';
   }
 
   protected function getTranslations() {
@@ -439,13 +439,6 @@ final class PhabricatorConfigPt
     Para desabilitar esta opção, defina: %s',
       'WARNING: This is a prototype option and the description below is currently pure fantasy.
     Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => '',
-      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'O realce de sintaxe é compatível com alguns idiomas por padrão, mas você pode instalar o Pygments (uma ferramenta de realce de sintaxe de terceiros) para fornecer suporte para muitos outros idiomas.
-    Para instalar o Pygments, visite [[ http:// pigmentos.org | pygments.org ]] e siga as instruções de download e instalação.
-    Depois que o Pygments estiver instalado, ative esta opção (`pygments.enabled`) para usar o Pygments ao destacar o código-fonte.
-     Depois de instalar e ativar o Pygments, o código-fonte recém-criado (como diffs e pastes) deve ser destacado corretamente. Pode ser necessário limpar os caches para destacar o código-fonte existente anteriormente. Para obter instruções sobre como gerenciar caches, consulte [[ %s | Gerenciando Caches ]].',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
     Disable this setting to continue.' => 'Seu servidor está configurado com \' %s \', o que impede que este software abra arquivos aos quais requer acesso.
     Desative esta configuração para continuar.',

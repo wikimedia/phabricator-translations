@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorManiphestCsCS
+final class PhabricatorManiphestCsCZ
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'cs_CS';
+    return 'cs_CZ';
   }
 
   protected function getTranslations() {

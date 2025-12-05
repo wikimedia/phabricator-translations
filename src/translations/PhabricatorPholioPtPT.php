@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorPholioPt
+final class PhabricatorPholioPtPT
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pt';
+    return 'pt_PT';
   }
 
   protected function getTranslations() {

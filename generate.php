@@ -9,7 +9,8 @@ $override_lang = array(
     'de' => 'de_DE',
     'fr' => 'fr_FR',
     'es' => 'es_ES',
-    'cs' => 'cs_CS',
+    'cs' => 'cs_CZ',
+    'pt' => 'pt_PT'
 );
 
 foreach ($json_files as $filename) {
