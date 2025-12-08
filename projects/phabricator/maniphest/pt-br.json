@@ -4,6 +4,7 @@
 			"Ajeje Brazorf",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
+			"Erol",
 			"Leonardo.guimaraes"
 		]
 	},
@@ -43,9 +44,12 @@
 	"53df657c8cd59e09": "Editar subtarefas",
 	"54ab82ac8e74fa68": "Alterar o status para: $1.",
 	"5505f7438477307d": "$1 elevou a prioridade desta tarefa de $2 para $3.",
+	"5b18a8b2ee01e82f": "Pesquisa tarefas atualizadas após uma determinada data.",
 	"5c294897a212b313": "$1 mudou o status de $2, uma subtarefa de $3, de $4 para $5.",
+	"5c44e56054fff27e": "Pesquisa tarefas fechadas após uma determinada data.",
 	"5df3d35cfdf9721e": "$1 atualizou a descrição da tarefa.",
 	"5e9ffbf8011c4988": "Tarefa para tornar isso uma subtarefa de.",
+	"6015bf9a95453f5b": "Não é possível bloquear esta tarefa porque ela não tem um responsável. Ninguém poderia editar a tarefa. Atribua a tarefa a um responsável antes de bloqueá-la.",
 	"62524f057b3a4b10": "autor da tarefa",
 	"63f28e5b1c291dea": "Tarefas abertas por usuário e prioridade ($1)",
 	"662f8b64d8ac6965": "Subtarefas",

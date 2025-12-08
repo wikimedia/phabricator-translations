@@ -5,7 +5,6 @@
 		]
 	},
 	"00061bade7e1c5b9": "El repositori \"$1\" és un repositori de Subversió no allotjat, que no requereix l'extracció d'una còpia de treball local.",
-	"00f7adcfa5b54e66": "Tipus de repository desconegut «$1»!",
 	"0286d764bd0adc27": "No s'han trobat compromisos d'importació.",
 	"02aa40c1e770750c": "El nom curt del repositori seleccionat ja està en ús per un altre repositori.  Trieu un nom curt únic.",
 	"02bb6179c79cb3b5": "S'està esperant per adquirir el bloqueig d'escriptura per a «$1».",

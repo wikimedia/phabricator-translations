@@ -7,7 +7,6 @@
 	},
 	"01bf752be30f20c2": "Müzakerelere Girin",
 	"0370b3c2ebef0246": "Anketi Kapat",
-	"0b867e3d3426fb2b": "$1, $2 olarak yeniden adlandırıldı.",
 	"0c115c3235a2ef32": "Anket Oluştur",
 	"0c5c2d2e2661ce6d": "Seçenek (\"$1\") geçerli bir yoklama seçeneği değil. Sadece geçerli seçenekler için oy kullanabilirsiniz.",
 	"0dcd0ef651452f6d": "$1, $2 yanıtının rastgele bir sırada görünmesini sağladı.",
@@ -72,7 +71,6 @@
 	"ed88f05084ae3a06": "Bir Şeye Kal",
 	"ee30efffe1b14f59": "Anketin sahibi.",
 	"ef12a36163c48642": "Çoğulculuk (Tek Seçenek)",
-	"efe944848b371737": "\"slowvote.poll.search\" ile değiştirildi.",
 	"f3f94b43fe08990a": "$1 yanıt",
 	"fb6b16eb6b55464e": "Cevapları görmek için oy ver",
 	"fca77d0912a6568b": "Yeni anketler için varsayılan görünüm politikası."

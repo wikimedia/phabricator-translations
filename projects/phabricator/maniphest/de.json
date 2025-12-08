@@ -62,7 +62,6 @@
 	"2fd3d35306b61542": "Zusammengeführt mit",
 	"3112775e3f918cbc": "$1 Bearbeitet $2 Commit(s), hinzugefügt $3: $4; entfernt $5: $6.",
 	"3278124a4e4bd510": "Zugehörige Aufgaben bearbeiten...",
-	"3340532fae0d8372": "Der Verantworliche wird geändert.",
 	"33991cacd3c00acf": "$1 erstellte Unteraufgabe $2.",
 	"347b1594f4999178": "Keine Aufgaben gefunden.",
 	"37d40493e008f1b6": "Zugehörige Commits.",
@@ -198,6 +197,5 @@
 	"fae58c575b4c5efe": "Alles abwählen",
 	"fb066f5fe5690815": "$1 öffnete $2 erneut als \"$3\".",
 	"fc4a9c87a2914d85": "$1 setzte die Priorität der Aufgabe auf $2.",
-	"ff720f90cf47ae96": "Untertyp auswählen",
-	"ff77fdba5b715a7a": "Du kannst den Besitzer dieser Aufgabe nicht entfernen, da sie gesperrt ist und niemand die Aufgabe bearbeiten könnte. Weise die Aufgabe neu zu oder entsperre sie, bevor du den Besitzer entfernst."
+	"ff720f90cf47ae96": "Untertyp auswählen"
 }

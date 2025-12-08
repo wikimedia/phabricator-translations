@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"0044ef32593f0678": "No podeu afegir incidències de JIRA ($1) a aquesta revisió perquè el vostre compte de Phabricator no està enllaçat a cap compte de JIRA.",
@@ -243,7 +244,6 @@
 	"3f104cca4f1cd2e1": "$1 línies",
 	"3f78d836a4055df9": "Heu de seleccionar un comentari per amagar.",
 	"3f952cdde8453c61": "No existeix cap peça amb l'identificador '$1'.",
-	"4038c7c34c72b016": "Aquest mètode ha quedat obsolet a favor de $1",
 	"4042cbe7c091d71b": "No hi ha cap revisió a punt d'aterrar.",
 	"409b7694aef10322": "Canvi més gran",
 	"40a0b16f9f44e387": "Aquest fitxer supera els $1, de manera que el ressaltat de sintaxi està desactivat per defecte.",
@@ -311,7 +311,6 @@
 	"545f8a5088118c68": "Aquest fitxer s'ha copiat a $1.",
 	"5474af1a17ea3494": "Nova diff per a crear o actualitzar la revisió.",
 	"54ca67d88657d177": "$1 defineix el repositori per $2 a $3.",
-	"54db3014a8f30ef9": "Obsolet i condemnat, veure T2222.",
 	"558aec4b63f74e67": "Crea un diff diferencial nou a partir d'una font de diff en brut.",
 	"558d6006f7185ce0": "Veure la revisió",
 	"559082c149776c94": "Rescata comentaris de revisió de Differential.",
@@ -490,6 +489,7 @@
 	"a4e2e3d1e0e25c32": "$1 ha eliminat $2 revisors de bloqueig per $3: $4.",
 	"a57495d1dda827e8": "Heu de seleccionar una branca d'aquest repositori on aterrar aquesta revisió.",
 	"a5a702a51d451291": "$1 retenia a $2 com a esborrany",
+	"a5a99c242bd35959": "Obsolet i condemnat, veure T2222.",
 	"a5badcde6b5b7e32": "No podeu sol·licitar canvis en aquesta revisió perquè és l'autor de la revisió. Només podeu sol·licitar canvis a les revisions que no teniu.",
 	"a70802eb6660447f": "Canvia les revisions fill associades.",
 	"a72973d382d4d338": "Camps de la revisió",

@@ -18,7 +18,6 @@
 	"8c323456ce8fea71": "Bilinmeyen Nesne ($1)",
 	"9dc304f07ed386a3": "Listelenen nesneler var olmayan nesneleri içerir ($1).",
 	"ad333443813e6a77": "Mevcut bir tanıtıcı listesinin yeni bir alt listesini oluşturmaya çalışıyor, ancak PHID \"$1\" üst listede görünmüyor.",
-	"d0636307d6924a2a": "'phid.query' ile değiştirildi.",
 	"ea5edb74faa34ae6": "Listelenen nesneler yanlış türde ($1) ve olmayan ($2) nesneleri içerir.",
 	"ebf8f6f3f90a4f6f": "Böyle bir nesne yok.",
 	"f4d10da4d9776085": "Türü olmayan PHID üretilemiyor."

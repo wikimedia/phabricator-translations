@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"006ecd0b269da44a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorSecurityConfigOptions.php$170 PhabricatorSecurityConfigOptions.php:170]",
 	"00ae349f1ce0e6f9": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/check/PhabricatorExtraConfigSetupCheck.php$156 PhabricatorExtraConfigSetupCheck.php:156]",
 	"00c94cc9d03ac122": "Hint text shown when hoverring a menu item.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/PhabricatorConfigConsoleController.php$21 PhabricatorConfigConsoleController.php:21]",
@@ -548,7 +553,7 @@
 	"92a635925b7b3bd8": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/schema/PhabricatorConfigStorageSchema.php$108 PhabricatorConfigStorageSchema.php:108]",
 	"92fee18268ce75d2": "Variable Types: NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/check/PhabricatorMySQLSetupCheck.php$257 PhabricatorMySQLSetupCheck.php:257]",
 	"9318283be1bd0dfa": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigDatabaseStatusController.php$667 PhabricatorConfigDatabaseStatusController.php:667]",
-	"93acd72941d04520": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php$47 PhabricatorSyntaxHighlightingConfigOptions.php:47]",
+	"93acd72941d04520": "Documentation displayed to the administrator of a Phabricator instance.\n\n$1 is the URL https://we.phorge.it/book/phorge/article/managing_caches/\n\nNote that Phabricator uses [https://we.phorge.it/book/phorge/article/remarkup/ Remarkup] to render text instead of wikitext, which uses slightly different syntax. This means that the URLs inside square brackets are correct as is and should not be corrected. And of course, URLs shouldn't be translated generally unless a version of the website https://pygments.org/ exists in your language.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php$47 PhabricatorSyntaxHighlightingConfigOptions.php:47]",
 	"93d356227f0c55b5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorAccessLogConfigOptions.php$108 PhabricatorAccessLogConfigOptions.php:108]",
 	"9449e413e6124068": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/option/PhabricatorCoreConfigOptions.php$122 PhabricatorCoreConfigOptions.php:122]",
 	"947aa1d77318a819": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/config/controller/services/PhabricatorConfigDatabaseIssueController.php$120 PhabricatorConfigDatabaseIssueController.php:120]",

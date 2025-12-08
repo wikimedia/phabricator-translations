@@ -7,7 +7,6 @@
 	},
 	"01bf752be30f20c2": "Entrar les Deliberacions",
 	"0370b3c2ebef0246": "Tancar l'enquesta",
-	"0b867e3d3426fb2b": "$1 ha reanomenat a $2.",
 	"0c115c3235a2ef32": "Crear una enquesta",
 	"0c5c2d2e2661ce6d": "L'opció (\"$1\") no és una opció d'enquesta vàlida. Només podeu votar per opcions vàlides.",
 	"0dcd0ef651452f6d": "$1 ha fet que $2 respostes apareguin en un ordre aleatori.",
@@ -72,7 +71,6 @@
 	"ed88f05084ae3a06": "Representar alguna cosa",
 	"ee30efffe1b14f59": "L'autor de l'enquesta.",
 	"ef12a36163c48642": "Pluralitat (opció única)",
-	"efe944848b371737": "Reemplaçat per \"lowvote.poll.search\".",
 	"f3f94b43fe08990a": "Resposta $1",
 	"fb6b16eb6b55464e": "Cal un vot per a veure les respostes",
 	"fca77d0912a6568b": "Política de visualització predeterminada per a enquestes noves."

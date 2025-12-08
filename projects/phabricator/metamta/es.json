@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Danielyepezgarces",
-			"Ovruni"
+			"Ovruni",
+			"Pppery"
 		]
 	},
-	"046da29a36e8431a": "Escriba un nombre de usuario, proyecto, lista de correo o función...",
 	"309cadbed6ab4378": "Escriba un nombre de usuario, proyecto, lista de correo, paquete o función...",
+	"b7ec0067e9b3d29e": "Escriba un nombre de usuario, lista de correo o función...",
 	"d2b47d5adcd19d5d": "Este destinatario es el usuario cuyas acciones provocaron la entrega de este mensaje, pero ha establecido preferencias para no recibir correos sobre sus propias acciones (Configuración > Preferencias de correo electrónico > Acciones propias).",
 	"d5a2e2146e560316": "Escriba un nombre de usuario, proyecto, paquete o lista de correo..."
 }

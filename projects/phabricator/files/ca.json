@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"00bb89e9c8a3cde1": "No s'ha trobat cap recurs de plantilla (per a l'emblema '$1') amb dimensions $2x$3.",
@@ -21,12 +22,10 @@
 	"0a3c98d71eb21ffe": "Ocultar la traçabilitat",
 	"0b9078e9d8e3423f": "JIS",
 	"0b99cebe565822c6": "ERROR",
-	"0bf8509ba5ecde45": "Admés",
 	"0cef4df4d3407035": "Transformacions",
 	"0f1ce3b90c7ae868": "Mapa del tipus MIME al nom de la icona. Els tipus de fitxer que no es troben s'assignen per defecte a la icona `$1`.",
 	"0f2dcda5fbefeeb1": "Mecànic",
 	"0f6285f57d99f35e": "Aquest bloc de notes Jupyter no especifica una llista de \"cel·les\".",
-	"0fd52c36a6b442c0": "Aquest mètode està obsolet. Els que truquen haurien d'utilitzar \"file.allocate\" en comptes d'això.",
 	"119317d9ee996482": "Finalitza la impressió amb un òfset específic.",
 	"11c90aa877757910": "Llista de tipus MIME que es poden utilitzar com a \"$1\" per a una etiqueta \"$2\".",
 	"12aff286f65876b5": "No s'han pogut desar les dades de la imatge d'avatar incorporat (imagesetthickness).",
@@ -55,9 +54,9 @@
 	"327dab50dd7c60c7": "El clauer està configurat amb una clau '$1', però l'extensió PHP OpenSSL no està instal·lada. Instal·leu l'extensió OpenSSL per habilitar la encriptació.",
 	"3290e5ab60f5220e": "S'ha col·lapsat a l'aire quan s'estava generant el fitxer incorporat «$1», però després no s'ha pogut carregar l'objecte amb el qual col·lidíem.",
 	"3373860833f18d20": "Es nega a avaluar les dimensions de la imatge del fitxer trossejat.",
-	"3417b49706e17d1b": "Aquest mètode està congelat i finalment quedarà obsolet. El codi nou hauria d'utilitzar «file.search».",
 	"34f3e96540239bed": "La configuració del clauer no és vàlida: cada entrada de la llista ha de ser un diccionari que descrigui una clau d'encriptació, però el valor amb l'índex '$1' no és un diccionari.",
 	"372f548bb4eb5a35": "No es pot carregar el fitxer: aquest servidor no està configurat amb cap motor d'emmagatzematge que pugui emmagatzemar fitxers grans.",
+	"37c0cc2f7441d926": "A aquest document li falta un camp \"nbformat\". Els quaderns Jupyter han de tenir aquest camp.",
 	"38014f9d63db905f": "El fitxer és massa gran.",
 	"3913fa9dd0781f68": "El tros ja s'ha penjat.",
 	"3b9aaf5fd84e5547": "L'URI d'imatge proporcionada ha d'utilitzar un d'aquests protocols: $1.",
@@ -96,7 +95,6 @@
 	"71ba07cae14ca3fe": "Calculeu i actualitzeu els hashs d'integritat per als fitxers que encara no en tenen.",
 	"729993127935434b": "Llista de tipus MIME que es poden renderitzar amb una etiqueta `$1`.",
 	"736d06179f52272f": "$1: No hi ha cap hash de contingut.",
-	"738e331b1d879fd0": "A aquest document li falta un camp \"nbformat\". Els quaderns Jupyter han de tenir aquest camp.",
 	"748667cd694dc5b3": "$1: emmagatzemat a trossos, sense dades per codificar directament.",
 	"74d5b17e4ebb6ac7": "L'emmagatzematge del fitxer \"$1\" no admet el hash d'integritat.",
 	"755a18a5d4aa97b3": "$1: emmagatzemat a trossos, que disminueixen el cicle directament.",

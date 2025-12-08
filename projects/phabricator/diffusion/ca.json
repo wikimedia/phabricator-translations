@@ -3,7 +3,8 @@
 		"authors": [
 			"AKlapper",
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Pppery"
 		]
 	},
 	"0007d61d3fd18c30": "Accions de validació",
@@ -102,6 +103,7 @@
 	"18d4d61f309b6745": "Permetre o impedir canvis perillosos.",
 	"191e79104db519ad": "Totes les identitats",
 	"199945964e4115e4": "El repositori \"$1\" és un repositori de clúster, però l'amfitrió actual no és un dispositiu de clúster (no té cap identificador de dispositiu), de manera que el repositori no s'actualitzarà en aquest amfitrió.",
+	"19c4eea96b59c550": "Proporcioneu l'URI d'un repositori Git. Similar a un d’aquests exemples:\n\n| Exemple Git URI\n| ---------------\n| `git@github.com:example/example.git`\n| `ssh://user@host.com/git/example.git`\n| `https://example.com/repository.git`",
 	"19ef15cc6f092f28": "La vostra contrasenya de VCS ha estat actualitzada.",
 	"1a2a73e396d0741c": "Canvia el nom curt del repositori.",
 	"1ab2b5f6081e02d1": "Canvia la descripció del repositori.",
@@ -253,7 +255,6 @@
 	"440cb9e6a685ab2c": "Estableix les referències permanents.",
 	"445be66090836dfc": "VCS '$1' desconegut!",
 	"4471a22d2ad9aa09": "Obté identificadors de validació per a confirmacions recents que afecten una ruta determinada.",
-	"4509fb3fb9a284fd": "Obsolet per \"diffusion.historyquery\".",
 	"4513eeadd14f76e2": "Aquesta ruta no existeix a $1. Va ser eliminada a $2 i última existència a $3.",
 	"4572e19da158badd": "Referències recuperades noves.",
 	"457382f951098685": "Cerca identitats per subcadena.",
@@ -800,7 +801,6 @@
 	"ce935a9113d8a2b2": "Aquesta referència externa coincideix amb diverses validacions conegudes.",
 	"cf1224c2ea3e427f": "La validació utilitza Git LFS",
 	"cf190a6641f5731a": "Cap branca predeterminada",
-	"cfc567f87a11424a": "Proporcioneu l'URI d'un repositori Git. Similar a un d’aquests exemples:\n\n| Exemple Git URI\n| ---------------\n| `git@github.com:example/example.git`\n| `ssh://user@host.com/git/example.git`\n| `https://example.com/repository.git`",
 	"cfd74e63a638182f": "Validació molt gran",
 	"d02a29637fc2a855": "Cap indicatiu de trucada",
 	"d02c900214755294": "Activa Notificacions, Continguts i Herald",

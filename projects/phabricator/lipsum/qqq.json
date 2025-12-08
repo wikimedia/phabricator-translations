@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"29efd0bdaa04ae91": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$114 PhabricatorLipsumGenerateWorkflow.php:114]",
 	"300371d205bbeec3": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php$56 PhabricatorLipsumGenerateWorkflow.php:56]",
 	"32332b3df8a3771d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/lipsum/generator/PhabricatorTestDataGenerator.php$55 PhabricatorTestDataGenerator.php:55]",

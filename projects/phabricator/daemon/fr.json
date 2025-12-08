@@ -80,7 +80,6 @@
 	"620ee8ce413205a6": "Ce service en arrière-plan n’a pas rapporté récemment son état. Il s’est peut-être terminé brutalement.",
 	"64e035f7d178a914": "Taille maximale de la réserve.",
 	"64f937487373b1e0": "État « $1 » inconnu !",
-	"6614451687ab9964": "Obsolète. N’a aucun effet.",
 	"662c0b09866952be": "Ce travail attend que des tâches soient ajoutées dans la file d'attente.",
 	"66a69dcf67eda0ef": "ERREUR : la fonction PHP $1 est désactivée. Vous devez l’activer pour exécuter des services en arrière-plan sur cette machine.",
 	"68971ee0d218f55b": "État du bail",

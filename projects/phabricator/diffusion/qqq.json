@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Pppery"
+		]
+	},
 	"0007d61d3fd18c30": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionCommitEditEngine.php$66 DiffusionCommitEditEngine.php:66]",
 	"003e9f65338133c4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/controller/DiffusionBrowseController.php$1005 DiffusionBrowseController.php:1005]",
 	"004dbc40ba3e61c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/request/DiffusionRequest.php$530 DiffusionRequest.php:530]",
@@ -98,7 +103,7 @@
 	"18d4d61f309b6745": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionRepositoryEditEngine.php$334 DiffusionRepositoryEditEngine.php:334]",
 	"191e79104db519ad": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/query/DiffusionRepositoryIdentitySearchEngine.php$80 DiffusionRepositoryIdentitySearchEngine.php:80]",
 	"199945964e4115e4": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/data/DiffusionLocalRepositoryFilter.php$83 DiffusionLocalRepositoryFilter.php:83]",
-	"19c4eea96b59c550": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionURIEditEngine.php$113 DiffusionURIEditEngine.php:113]",
+	"19c4eea96b59c550": "This message uses [https://we.phorge.it/book/phorge/article/remarkup/ Remarkup], which uses different syntax from wikitext. The list of \"Example Git URIs\" will end up rendering as a table rather than ASCII art.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionURIEditEngine.php$113 DiffusionURIEditEngine.php:113]",
 	"19ef15cc6f092f28": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php$258 DiffusionSetPasswordSettingsPanel.php:258]",
 	"1a2a73e396d0741c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionRepositoryEditEngine.php$301 DiffusionRepositoryEditEngine.php:301]",
 	"1ab2b5f6081e02d1": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/diffusion/editor/DiffusionRepositoryEditEngine.php$310 DiffusionRepositoryEditEngine.php:310]",

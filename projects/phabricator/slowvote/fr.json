@@ -9,7 +9,6 @@
 	},
 	"01bf752be30f20c2": "Entrer les délibérations",
 	"0370b3c2ebef0246": "Clore le sondage",
-	"0b867e3d3426fb2b": "$1 a renommé $2.",
 	"0c115c3235a2ef32": "Créer un sondage",
 	"0c5c2d2e2661ce6d": "L’option indiquée (« $1 ») n’est pas une option de sondage valide. Vous ne pouvez voter que pour des options valides.",
 	"0dcd0ef651452f6d": "$1 a fait apparaître les réponses de $2 dans un ordre aléatoire.",
@@ -84,9 +83,7 @@
 	"ed88f05084ae3a06": "Représenter quelque chose",
 	"ee30efffe1b14f59": "L’auteur du sondage.",
 	"ef12a36163c48642": "Pluralité (choix unique)",
-	"efe944848b371737": "Remplacé par « slowvote.poll.search »",
 	"f3f94b43fe08990a": "Réponse $1",
-	"fb03dbdacff361a5": "Seul le créateur du sondage peut voir les réponses",
 	"fb6b16eb6b55464e": "Requérir un vote pour voir les réponses",
 	"fca77d0912a6568b": "Politique d’affichage pour les nouveaux sondages."
 }

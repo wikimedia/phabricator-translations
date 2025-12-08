@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pppery",
 			"Saederup92",
 			"Zakawer2"
 		]
@@ -27,6 +28,7 @@
 	"0a1a781756e255b9": "Overfør billede",
 	"0a999012ffb87b3e": "Pakker",
 	"0b7b5b0b6ccd1ab8": "Forfatter: $1",
+	"0b867e3d3426fb2b": "$1 pmdøbte $2.",
 	"0bdb6bfbc21bd25a": "Gammel værdi",
 	"0d2a6dcfce521563": "Eksporterer data...",
 	"0d4d418ad5a04777": "Administratorer",
@@ -451,7 +453,6 @@
 	"e214b8a299230568": "Dokument",
 	"e2bcda84facb3954": "Udført.",
 	"e3920fe2f852a269": "Opret et projekt",
-	"e54f14556cdeafd1": "Erstattet af '$1'.",
 	"e5e429bcc9c2e4a4": "Data",
 	"e63e3be6fd15e7f8": "Opgrader til PHP 5.5.0 eller nyere.",
 	"e73812c5036623c5": "Gennemse brugere",

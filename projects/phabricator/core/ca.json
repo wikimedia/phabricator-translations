@@ -8,6 +8,7 @@
 			"Jaumeortola",
 			"Joseplluis",
 			"Mguix",
+			"Pppery",
 			"Yupik"
 		]
 	},
@@ -94,6 +95,7 @@
 	"0b6330b03316ef2c": "Esteu prenent una acció que requereix que entreu en alta seguretat.",
 	"0b733ab50c0b9423": "Ha fallat fent algun ajustament a l'esquema, detallat aquí dalt.",
 	"0b7b5b0b6ccd1ab8": "Creat per: $1",
+	"0b867e3d3426fb2b": "$1 ha reanomenat a $2.",
 	"0bdb6bfbc21bd25a": "Valor antic",
 	"0be720759ff04d13": "Revocar",
 	"0c1e4a6a2e142983": "Aquesta consulta (\"$1\") no suporta ordenar per la clau d'ordre \"$2\". Els ordres suportats són: \"$3\".",
@@ -323,7 +325,6 @@
 	"2f9dd2583e661b70": "L'URI \"$1\" no és un recurs enllaçable vàlid. Un URI de recurs enllaçable vàlid ha d'utilitzar un d'aquests protocols: $2.",
 	"2fff5c1c7953ccbf": "Llista de noms d'usuaris, com a array.",
 	"3006906bfd05c427": "<clau incompleta>",
-	"30469383b4827f37": "Només el propietari d'una feina massiva la pot editar.",
 	"30881c88c282f8ff": "S'ha trobat un estat de treball inesperat ('$1').",
 	"308945a8e2e60424": "La conversió de paràmetre a '$1' a 'qsprintf(...)' no és una instància d'AphrontDatabaseTableRefInterface.",
 	"309028a9e01273ac": "Cita",
@@ -1635,7 +1636,6 @@
 	"e515a4af64a3d931": "Valida la configuració de la partició a les bases de dades.",
 	"e529603853c712d5": "Insígnia del premi",
 	"e54b33b8318b1438": "Intentant construir una consulta amb una cadena que no sigui utf8 quan s’espera utf8. Utilitzeu la conversió `%B` per escapar de les dades de cadenes binàries.",
-	"e54f14556cdeafd1": "Substituït per '$1'.",
 	"e57016edceec7e7b": "Sense assignar",
 	"e5dab7ec7b2e1165": "Caller està intentant «getRawRowProperty()» amb la clau «$1», però aquest cursor no té cap fila en brut.",
 	"e5e429bcc9c2e4a4": "Dades",

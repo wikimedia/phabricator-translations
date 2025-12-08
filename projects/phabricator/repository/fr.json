@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Cquoi",
 			"Kenjiraw",
 			"Mahabarata",
 			"Mihawka",
@@ -12,7 +13,6 @@
 		]
 	},
 	"00061bade7e1c5b9": "Le dépôt $1 est un dépôt Subversion non hébergé, qui ne nécessite pas d’extraire de copie de travail locale.",
-	"00f7adcfa5b54e66": "Type de dépôt « $1 » inconnu !",
 	"0286d764bd0adc27": "Aucune validation d’importation trouvée.",
 	"02aa40c1e770750c": "Le nom court sélectionné pour le dépôt est déjà utilisé par un autre dépôt. Choisissez un nom court unique.",
 	"02bb6179c79cb3b5": "Attente d’acquisition du verrou d’écriture pour « $1 »...",
@@ -448,6 +448,7 @@
 	"ad143926e791b97a": "Cet audit est attaché à une validation et hérite de ses politiques.",
 	"ae0192363186a9e6": "Rechercher des dépôts par URI de clonage ou de récupération.",
 	"ae9362910ced839c": "Erreur lors de la mise à jour de la copie de travail : $1",
+	"ae99cd9426869714": "Rechercher les dépôts d'un type VCS spécifique.",
 	"aea52587552c4267": "La taille du correctif dépasse la limite de taille en octets configurée (« $1 ») de $2.",
 	"aef9820b99387529": "La règle de récupération (à l’index « $1 ») doit être une chaîne, mais « $2 » a été obtenu.",
 	"af8c25db53fd4a2a": "Événement synchronisé $1",

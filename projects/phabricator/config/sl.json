@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eleassar"
+			"Eleassar",
+			"Pppery"
 		]
 	},
 	"00e46c015f972018": "Matrika s seznamom nenameščenih aplikacij.",
@@ -41,6 +42,7 @@
 	"92185dc52f71ef75": "Manjka",
 	"9257cd9a51728d7e": "Indeksa Elasticsearch ni bilo mogoče najti",
 	"92a635925b7b3bd8": "Manjkajoč ključ",
+	"93acd72941d04520": "Phabricator podpira označevanje skladnje nekaterih jezikov po privzetem, za številne dodatne jezike pa lahko namestite orodje Pygments (orodje za označevanje skladnje tretje osebe).\n\nZa namestitev orodja Pygments obiščite stran [[ https://pygments.org/ | pygments.org ]] in se ravnajte po navodilih za prenos in namestitev.\n\nKo je orodje Pygments nameščeno, omogočite to možnost (`pygments.enabled`), da bo Phabricator orodje Pygments uporabljal pri označevanju skladnje.\n\nPo namestitvi in omogočenju orodja Pygments bi se morala novoustvarjena izvorna koda (npr. razlike in prilepljenja) pravilno označevati. Za označevanje že obstoječe kode boste morali morda očistiti Phabricatorjeve predpomnilnike. Za navodila za upravljanje predpomnilnikov glejte stran [[ $1 | Managing Caches ]].",
 	"985ea3b57a8fc6f5": "$1 ni najdeno",
 	"9c0d5fe6465e44ef": "»$1« manjka",
 	"aca851b5d634f676": "Napaka povezave",
@@ -57,7 +59,6 @@
 	"e319643c63fc440e": "Uporabniki Phabricatorja lahko v nekaterih okoliščinah zahtevajo druge storitve iz gostitelja Phabricatorja (na primer tako, da ustvarijo repozitorij z oddaljenim URL-jem ali da Phabricator pridobi sliko iz oddaljenega strežnika).\n\nTo lahko pomeni varnostno ranljivost, če bodo storitve v istem podomrežju sprejele ukaze ali razkrile zasebne informacije prek nepreverjenega HTTP GET na podlagi izvornega IP-naslova. Do takšne storitve imajo dostop zlasti vsi gostitelji v EC2.\n\nTa možnost določa seznam omrežnih blokiranj, s katerimi bo Phabricator zavrnil povezavo. Na splošno bi morali tukaj navesti ves zasebni IP-prostor.",
 	"e342de6e92ac9265": "Osnovne nastavitve",
 	"e5781074e118936b": "Manjkajo potrebne razširitve",
-	"e7c9ca25280af9c5": "Phabricator podpira označevanje skladnje nekaterih jezikov po privzetem, za številne dodatne jezike pa lahko namestite orodje Pygments (orodje za označevanje skladnje tretje osebe).\n\nZa namestitev orodja Pygments obiščite stran [[ http://pygments.org | pygments.org ]] in se ravnajte po navodilih za prenos in namestitev.\n\nKo je orodje Pygments nameščeno, omogočite to možnost (`pygments.enabled`), da bo Phabricator orodje Pygments uporabljal pri označevanju skladnje.\n\nPo namestitvi in omogočenju orodja Pygments bi se morala novoustvarjena izvorna koda (npr. razlike in prilepljenja) pravilno označevati. Za označevanje že obstoječe kode boste morali morda očistiti Phabricatorjeve predpomnilnike. Za navodila za upravljanje predpomnilnikov glejte stran [[ $1 | Managing Caches ]].",
 	"e8ce3aae1f28767a": "$1 povezana(ih) povezav(a):",
 	"e916bec76b86928a": "Manjka lokalna pot shrambe",
 	"ef91a72580d5f38d": "Alternativna domena kot vir datotek.",

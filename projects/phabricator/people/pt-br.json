@@ -3,6 +3,7 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
+			"Erol",
 			"Leonardo.guimaraes",
 			"Mpayansilva"
 		]
@@ -21,7 +22,6 @@
 	"0e7dea5f33cff98f": "Você não pode enviar uma mensagem de boas-vindas para esse usuário porque a conta dele está desativada.",
 	"0f2a4c5ee51338f4": "Armazena o nome real do usuário, como \"Abraham Lincoln\".",
 	"13730074ae976099": "Você deve ser um administrador para criar administradores.",
-	"14c3714d8ec7e130": "Obsoleto por \"$1\".",
 	"153fb870fbe026b4": "Contas de usuário e perfis",
 	"158d004175ef1680": "Login: Login Parcial",
 	"15993def79b322aa": "O usuário não recebeu nenhum selo.",
@@ -46,7 +46,6 @@
 	"25fade81eaeed8fb": "Somente administradores podem reprovar usuários.",
 	"2809977bb7b3c01b": "Não é um administrador",
 	"288f9426a6730a17": "$1 desmembrou este usuário.",
-	"2b7ce51022626c2b": "Mostrar apenas robôs",
 	"2bbb42108c944f43": "E-mail já é primário!",
 	"303b83aeb0734f88": "$1 ($2) criou uma conta para você.",
 	"310e712e2fe9dba0": "Desative ou ative o usuário.",
@@ -65,7 +64,6 @@
 	"4a153b60a946eba6": "Imagem do usuário",
 	"4a2e70200eb23502": "Escolha o ícone do usuário",
 	"4c5f9fb3df9f19f1": "$1 autorizou $2 como administrador.",
-	"4c833ee1d76d384a": "Obsoleto pelo método \"user.edit\".",
 	"4ccc73d3d1bb8384": "Este usuário já foi aprovado.",
 	"4de9ced4c16fad3d": "Concedido por $1",
 	"4e7afebcfbae000b": "Administrador",
@@ -86,6 +84,7 @@
 	"75988eafbc6c3f34": "Executivo",
 	"7a2c34cb789c0fca": "Logística",
 	"7a84bdfd0b2e4577": "Os usuários podem ver suas atividades e atividades que os afetam.",
+	"7c423d7e56218542": "$1 renomeou este usuário.",
 	"7e9a078b3e44cee1": "Para entrar na sua conta pela primeira vez, siga este link:",
 	"80176c6fe411d851": "Qualquer proprietário",
 	"84a0926bd600877d": "O e-mail irá identificá-lo como o remetente. Você pode, opcionalmente, incluir texto adicional no corpo do e-mail, especificando-o abaixo.",

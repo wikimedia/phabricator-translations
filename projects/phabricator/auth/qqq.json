@@ -1,4 +1,11 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ice bulldog",
+			"Pppery",
+			"Wladek92"
+		]
+	},
 	"00a64a49b8cbf97e": "Variable Types: NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/xaction/PhabricatorAuthFactorProviderNameTransaction.php$32 PhabricatorAuthFactorProviderNameTransaction.php:32]",
 	"012f3cfd29d66d76": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/storage/PhabricatorAuthProviderConfigTransaction.php$85 PhabricatorAuthProviderConfigTransaction.php:85]",
 	"014c82cd910f7392": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/controller/contact/PhabricatorAuthContactNumberDisableController.php$71 PhabricatorAuthContactNumberDisableController.php:71]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/controller/contact/PhabricatorAuthContactNumberViewController.php$119 PhabricatorAuthContactNumberViewController.php:119]",
@@ -122,7 +129,7 @@
 	"22fce5bc51e215da": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/provider/PhabricatorLDAPAuthProvider.php$305 PhabricatorLDAPAuthProvider.php:305]",
 	"2358e3f5c2cf4211": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/management/PhabricatorAuthManagementRefreshWorkflow.php$77 PhabricatorAuthManagementRefreshWorkflow.php:77]",
 	"23d68e4c60663a02": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/controller/config/PhabricatorAuthListController.php$40 PhabricatorAuthListController.php:40]",
-	"23f4062f68b37033": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/provider/PhabricatorAmazonAuthProvider.php$23 PhabricatorAmazonAuthProvider.php:23]",
+	"23f4062f68b37033": "$1 is either the empty string or {{msg-phab|phabricator-auth-779e3708b8711ca5}}. $2 is a URL to the currently-running Phabricator instance.\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/provider/PhabricatorAmazonAuthProvider.php$23 PhabricatorAmazonAuthProvider.php:23]",
 	"24378787ab3dcaba": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/controller/contact/PhabricatorAuthContactNumberController.php$26 PhabricatorAuthContactNumberController.php:26]",
 	"24aff2a82223cd4f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/management/PhabricatorAuthManagementCachePKCS8Workflow.php$26 PhabricatorAuthManagementCachePKCS8Workflow.php:26]",
 	"24d3e4fdd9a8e186": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/auth/provider/PhabricatorPasswordAuthProvider.php$74 PhabricatorPasswordAuthProvider.php:74]",
