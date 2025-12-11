@@ -145,7 +145,6 @@
 	"62fc25015a14379b": "sempre que coincideixi aquesta regla:",
 	"6367fc9f594cb4f4": "El hook associat ('$1') per a la sol·licitud de webhook ('$2') té un URI de recuperació no vàlid: $3",
 	"657890d39b062e7f": "$1 ha desactivat aquesta regla.",
-	"6657c1bb22c5af86": "Una regla personal només pot ser editada pel seu propietari.",
 	"66dfc369fb1b2b6c": "Edita la regla de Herald: $1",
 	"66e7f525380b512a": "Els URI de Webhook no poden contenir més de $1 caràcters.",
 	"6838af0ffe24263d": "S'esperava un objecte (de la classe '$1') per retornar una plantilla de transacció (de la classe '$2'), però va tornar una altra cosa ('$3').",
@@ -155,7 +154,6 @@
 	"6a9923705ef7f819": "Mode d'estat del webhook.",
 	"6d16e70ffd05a041": "Camps relacionats",
 	"6db7947ce4933f0c": "Nova sol·licitud de prova",
-	"6ddb92e5d9aba609": "La regla ha fallat automàticament perquè és una regla personal i el seu propietari no és vàlid o està inhabilitat.",
 	"6e206f1240ffbd40": "Acció nova",
 	"7013b4aceaf1d5f3": "Cap Efecte",
 	"70d72dea1a444ca8": "En lloc de fer trucades en primer pla, afegiu les tasques a la cua del dimoni.",
@@ -208,6 +206,7 @@
 	"8ccb6b0ab3976db4": "Les regles Herald no s'activaran fins que el seguiment estigui habilitat.",
 	"8da2bf8c0e3d6481": "Edita el Webhook: $1",
 	"8e11f9bde98701e0": "Crea la regla de Herald: $1",
+	"6717645518074393": "No s'ha trobat cap transcripció.",
 	"8e23b48275fcc2f5": "Els usuaris poden editar les regles de Herald Global amb el permís de l'aplicació Herald \"pot gestionar les regles globals\".",
 	"8f1975a7def41720": "Recursivitat",
 	"8fa6985cc534e9f2": "$1 (desactivat)",
@@ -275,7 +274,6 @@
 	"b982e2aaa0db4d99": "Per visualitzar una transcripció, heu de poder veure l'objecte de què tracta la transcripció.",
 	"baa9f0a993de14fa": "Aquest tipus de regla no és compatible amb el tipus de contingut seleccionat.",
 	"baaa354948a66bc9": "Guia d'usuari de l'Herald",
-	"bc235c8659409971": "Propietari de la norma",
 	"bc42af1a0e1c38e3": "Objecte disparador",
 	"bcf919a6eee64061": "Monogrames d'objecte",
 	"bd3577101f3969f2": "Habilitar aquesta regla?",
@@ -380,10 +378,8 @@
 	"fba3eafa7aa70190": "Especificar una regla per editar amb \"--rule <id|monograma>\".",
 	"fc5d3d59710e8aae": "és fals",
 	"fcecf9274d10b35e": "La primera expressió regular no és vàlida!",
-	"fcf96fb7e4ca50dc": "La regla ha fallat automàticament perquè és una regla personal i el seu propietari no té permís per veure l'objecte.",
 	"fd4b8529ea0d3441": "$1 ha reanomenat aquesta webhook de \"$2\" a \"$3\".",
 	"fda6fe27af5dd3c8": "Nom del webhook.",
 	"fdfe2da709ca2c4f": "Webhooks",
-	"fe80802e39da3436": "El parell d'expressions regulars \"$1\" ha de tenir exactament dos elements.",
-	"6717645518074393": "No s'ha trobat cap transcripció."
+	"fe80802e39da3436": "El parell d'expressions regulars \"$1\" ha de tenir exactament dos elements."
 }

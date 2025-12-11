@@ -24,9 +24,7 @@
 	"600bd5beed3bfc0e": "Se desconoce el tipo de regla «$1».",
 	"62556d50d4f41b5e": "Guardar regla",
 	"657890d39b062e7f": "$1 desactivó esta regla.",
-	"6657c1bb22c5af86": "Solo los propietarios de las reglas personales pueden editarlas.",
 	"6d16e70ffd05a041": "Campos relacionados",
-	"6ddb92e5d9aba609": "La regla falló automáticamente debido a que es una regla personal y su dueño es inválido o ha sido desactivado.",
 	"6e206f1240ffbd40": "Acción nueva",
 	"74f73ca52be61923": "No se hizo nada.",
 	"7f47c889c7245d53": "Un error desconocido ocurrió mientras se evaluaba esta condición. Información adicional no disponible.",
@@ -35,12 +33,10 @@
 	"90a7ac48546ed89e": "Crear regla",
 	"9c1a77baeae59b61": "Editar regla",
 	"a7e960a8aa984eae": "Contenido del comentario",
-	"bc235c8659409971": "Dueño de regla",
 	"bf9c778db83ddf10": "Ya Aplicado",
 	"c2c493280e2c5f53": "Se desconoce la condición «$1».",
 	"c4ffd38d37bd93c7": "Tipo de regla",
 	"c9ea669f477dd3cc": "Código de resultado \"$1\" es desconocido.",
 	"e035201d3fb43698": "La regla fallo debido a una excepción ocurrida.",
-	"fb31fa9cb0b61755": "Regla de Heraldo \"$1\" ya tiene un resultado de evaluación.",
-	"fcf96fb7e4ca50dc": "La regla falló automáticamente debido a que es una regla personal y su dueño no tiene permiso para ver el objeto."
+	"fb31fa9cb0b61755": "Regla de Heraldo \"$1\" ya tiene un resultado de evaluación."
 }

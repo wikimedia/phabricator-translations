@@ -137,7 +137,6 @@
 	"62fc25015a14379b": "bu kural her eşleşdiğinde:",
 	"6367fc9f594cb4f4": "Webhook isteği için ilişkili kanca (\"$1\") (\"$2\") geçersiz URI alma: $3",
 	"657890d39b062e7f": "$1 bu kuralı devre dışı bıraktı.",
-	"6657c1bb22c5af86": "Kişisel bir kural yalnızca sahibi tarafından düzenlenebilir.",
 	"66dfc369fb1b2b6c": "Herald Kuralını Düzenle: $1",
 	"66e7f525380b512a": "Webhook URI'ları $1 karakterden uzun olamaz.",
 	"684b2823669a8619": "Webhook isteği (\"$1\", \"$2\" arası) başarısız oldu ($3 / $4). İstek yeniden denenecek.",
@@ -190,6 +189,7 @@
 	"8ccb6b0ab3976db4": "Herald kuralları, izleme etkinleştirilinceye kadar tetiklemeyecektir.",
 	"8da2bf8c0e3d6481": "Webhook'u Düzenle: $1",
 	"8e11f9bde98701e0": "Herald Kuralı Oluştur: $1",
+	"6717645518074393": "Hiçbir transkript bulunamadı.",
 	"8e23b48275fcc2f5": "Global Herald kuralları, kullanıcılar tarafından \"Küresel Kuralları Yönetebilir\" Herald uygulama izni ile düzenlenebilir.",
 	"8fd31872105b17f3": "Bu kuralı ilişkilendirmek için bir nesne seçmelisiniz.",
 	"9031dbe396264863": "Yorum Eklendi",
@@ -246,7 +246,6 @@
 	"b982e2aaa0db4d99": "Bir transkripti görüntülemek için, transkriptin ilgili olduğu nesneyi görebilmeniz gerekir.",
 	"baa9f0a993de14fa": "Bu kural türü, seçilen içerik türü tarafından desteklenmiyor.",
 	"baaa354948a66bc9": "Herald Kullanıcı Kılavuzu",
-	"bc235c8659409971": "Kural Sahibi",
 	"bc42af1a0e1c38e3": "Tetikleyici Nesne",
 	"bcf919a6eee64061": "Nesne Monogramları",
 	"bd3577101f3969f2": "Gerçekten bu kuralı etkinleştirilsin mi?",
@@ -340,6 +339,5 @@
 	"fd4b8529ea0d3441": "$1, bu webhook'u $2 iken $3 olarak yeniden adlandırdı.",
 	"fda6fe27af5dd3c8": "Webhook'un adı.",
 	"fdfe2da709ca2c4f": "Webhook'lar",
-	"fe80802e39da3436": "\"$1\" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir.",
-	"6717645518074393": "Hiçbir transkript bulunamadı."
+	"fe80802e39da3436": "\"$1\" normal ifade çiftinin tam olarak iki elemente sahip olması gerekir."
 }

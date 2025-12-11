@@ -159,7 +159,6 @@
 	"62fc25015a14379b": "chaque fois que cette règle est vérifiée :",
 	"6367fc9f594cb4f4": "L'accroche associée (« $1 ») pour la requête de l'accroche Internet (« $2 ») possède une URI de récupération non valide : $3",
 	"657890d39b062e7f": "$1 a désactivé cette règle.",
-	"6657c1bb22c5af86": "Une règle personnelle ne peut être modifiée que par son propriétaire.",
 	"66dfc369fb1b2b6c": "Modifier la règle Herald : $1",
 	"66e7f525380b512a": "Les URI des accroches Internet ne peuvent pas dépasser $1 caractère{{PLURAL:$1||s}}.",
 	"6838af0ffe24263d": "L’objet (de type « $1 ») aurait dû retourner un modèle de transaction (de classe « $2 »), mais a retourné autre chose (« $3 »).",
@@ -169,7 +168,6 @@
 	"6a9923705ef7f819": "Mode d’état pour l'accroche Internet.",
 	"6d16e70ffd05a041": "Champs connexes",
 	"6db7947ce4933f0c": "Nouvelle requête de test",
-	"6ddb92e5d9aba609": "La règle a échoué automatiquement car c’est une règle personnelle et son propriétaire n’est pas valide ou est désactivé.",
 	"6e206f1240ffbd40": "Nouvelle action",
 	"7013b4aceaf1d5f3": "Sans effet",
 	"70d72dea1a444ca8": "Au lieu d’effectuer des appels en premier plan, ajoutez les tâches à la file d'attente des services en arrière-plan.",
@@ -222,6 +220,7 @@
 	"8ccb6b0ab3976db4": "Les règles Herald ne s’enclencheront pas avant l’activation du suivi.",
 	"8da2bf8c0e3d6481": "Modifier l'accroche Internet : $1",
 	"8e11f9bde98701e0": "Créer la règle Herald : $1",
+	"6717645518074393": "Aucune transcription trouvée.",
 	"8e23b48275fcc2f5": "Les règles Herald globales peuvent être modifiées pas les utilisateurs ayant le droit d’application Herald « Peut gérer des règles globales ».",
 	"8f1975a7def41720": "Récursion",
 	"8fa6985cc534e9f2": "$1 (désactivé)",
@@ -289,7 +288,6 @@
 	"b982e2aaa0db4d99": "Pour visionner une transcription, vous devez être en mesure de voir l’objet sur lequel porte la transcription.",
 	"baa9f0a993de14fa": "Ce type de règle n’est pas pris en charge par le type de contenu sélectionné.",
 	"baaa354948a66bc9": "Guide utilisateur du messager",
-	"bc235c8659409971": "Propriétaire de la règle",
 	"bc42af1a0e1c38e3": "Objet déclencheur",
 	"bcf919a6eee64061": "Objet Monograms",
 	"bd3577101f3969f2": "Voulez-vous réellement activer cette règle ?",
@@ -394,10 +392,8 @@
 	"fba3eafa7aa70190": "Spécifiez une règle à modifier avec « --rule <id|monogram> ».",
 	"fc5d3d59710e8aae": "est faux",
 	"fcecf9274d10b35e": "La première expression rationnelle n’est pas valide !",
-	"fcf96fb7e4ca50dc": "La règle a échoué automatiquement car c’est une règle personnelle et son propriétaire n’a pas le droit de voir l’objet.",
 	"fd4b8529ea0d3441": "$1 a renommé cette accroche Internet de $2 en $3.",
 	"fda6fe27af5dd3c8": "Nom de l'accroche Internet.",
 	"fdfe2da709ca2c4f": "Accroches Internet",
-	"fe80802e39da3436": "La paire d’expressions rationnelles « $1 » doit avoir exactement deux éléments.",
-	"6717645518074393": "Aucune transcription trouvée."
+	"fe80802e39da3436": "La paire d’expressions rationnelles « $1 » doit avoir exactement deux éléments."
 }
