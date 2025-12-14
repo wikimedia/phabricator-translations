@@ -109,7 +109,6 @@ final class TranslatewikiManagementExportWorkflow
     $result_en = array();
     $result_qqq = array();
     $result_raw = array();
-    $frequency = array();
 
     $translatewiki_root = phutil_get_library_root('translations');
     $projects_root = "{$translatewiki_root}/../projects/{$as}/";
@@ -127,11 +126,7 @@ final class TranslatewikiManagementExportWorkflow
 
       $group = $this->getTranslatewikiGroup($spec);
       if (!isset($read_qqq[$group])) {
-        if ($group == '<global>') {
-          $group_path = null;
-        } else {
-          $group_path = $group.'/';
-        }
+        $group_path = $group.'/';
         $qqq_path = $projects_root.$group_path.'qqq.json';
         if (Filesystem::pathExists($qqq_path)) {
           $read_qqq[$group] = phutil_json_decode(Filesystem::readFile($qqq_path));
@@ -149,8 +144,6 @@ final class TranslatewikiManagementExportWorkflow
         $string,
         $spec,
         $read_qqq[$group][$string_key] ?? '');
-
-      $frequency['<global>'][$string_key] = 0;
     }
     if ( $as === 'arcanist' ) {
       # Add extra date elements not found by the translation extractor
@@ -188,22 +181,12 @@ final class TranslatewikiManagementExportWorkflow
         'data' => $result_raw,
         'help' => pht('Raw strings'),
       ),
-      array(
-        'name' => 'frequency.json',
-        'data' => $frequency,
-        'help' => pht('Frequency Data'),
-        'type' => 'frequency',
-      ),
     );
 
 
     foreach ($writes as $write) {
       foreach ($write['data'] as $group_key => $data) {
-        if ($group_key == '<global>') {
-          $group_path = null;
-        } else {
-          $group_path = $group_key.'/';
-        }
+        $group_path = $group_key.'/';
 
         $path = $projects_root.$group_path.$write['name'];
         Filesystem::createDirectory(dirname($path), 0755, true);
@@ -216,29 +199,12 @@ final class TranslatewikiManagementExportWorkflow
             $group_key,
             Filesystem::readablePath($path)));
 
-        $as_list = false;
-        switch (idx($write, 'type')) {
-          case 'frequency':
-            arsort($data);
-            $data = array_keys($data);
-            $as_list = true;
-            break;
-          default:
-            ksort($data);
-            // Put metadata first
-            if (isset($data['@metadata'])) {
-              $data = ['@metadata' => $data['@metadata']] + $data;
-            }
-            break;
+        ksort($data);
+        // Put metadata first
+        if (isset($data['@metadata'])) {
+          $data = ['@metadata' => $data['@metadata']] + $data;
         }
-
-        if ($as_list) {
-          $data = id(new PhutilJSON())
-            ->encodeAsList($data);
-        } else {
-          $data = id(new PhutilJSON())
-            ->encodeFormatted($data);
-        }
+        $data = id(new PhutilJSON())->encodeFormatted($data);
 
         Filesystem::writeFile($path, $data);
       }
