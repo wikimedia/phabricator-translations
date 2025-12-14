@@ -1998,6 +1998,7 @@ phutil_register_library_map(array(
     'PhabricatorextCoreVi' => 'translations/PhabricatorextCoreVi.php',
     'PhabricatorextCoreZhHans' => 'translations/PhabricatorextCoreZhHans.php',
     'PhabricatorextCoreZhHant' => 'translations/PhabricatorextCoreZhHant.php',
+    'SlavicPluralTrait' => 'locales/SlavicPluralTrait.php',
     'TranslateWikiAsturianAst' => 'locales/TranslateWikiAsturianAst.php',
     'TranslateWikiBelarusianBe' => 'locales/TranslateWikiBelarusianBe.php',
     'TranslateWikiCatalanCa' => 'locales/TranslateWikiCatalanCa.php',

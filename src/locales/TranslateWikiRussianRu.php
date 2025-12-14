@@ -1,9 +1,11 @@
 <?php
 
 /**
- * TranslateWiki Locale for Swedish localization in Phabricator
+ * TranslateWiki Locale for Russian localization in Phabricator
  */
 final class TranslateWikiRussianRu extends PhutilLocale {
+    use SlavicPluralTrait;
+
     public function getLocaleCode() {
         return 'ru';
     }
