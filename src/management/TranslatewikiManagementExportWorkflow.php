@@ -138,6 +138,9 @@ final class TranslatewikiManagementExportWorkflow
         } else {
           $read_qqq[$group] = array();
         }
+        if (isset($read_qqq[$group]['@metadata'])) {
+          $result_qqq[$group]['@metadata'] = $read_qqq[$group]['@metadata'];
+        }
       }
       
       $result_raw[$group][$string_key] = $string;
@@ -222,6 +225,10 @@ final class TranslatewikiManagementExportWorkflow
             break;
           default:
             ksort($data);
+            // Put metadata first
+            if (isset($data['@metadata'])) {
+              $data = ['@metadata' => $data['@metadata']] + $data;
+            }
             break;
         }
 

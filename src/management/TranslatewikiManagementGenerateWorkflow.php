@@ -92,6 +92,10 @@ final class TranslatewikiManagementGenerateWorkflow
 
     $result = array();
     foreach ($source_data as $key => $string) {
+      if ($key === '@metadata') {
+        # Ignore the '@metadata' key that translatewiki.net exports add
+        continue;
+      }
       if (!isset($project_data[$key])) {
         if (is_array($string)) {
           $string = json_encode($string);
