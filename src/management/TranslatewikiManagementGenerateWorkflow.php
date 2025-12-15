@@ -87,7 +87,7 @@ final class TranslatewikiManagementGenerateWorkflow
     $translatewiki_root = phutil_get_library_root('translations');
     $project_root = "{$translatewiki_root}/../projects/{$project}/";
 
-    $project_data = Filesystem::readFile($project_root.'/raw.json');
+    $project_data = Filesystem::readFile($project_root.'/en-x-raw.json');
     $project_data = phutil_json_decode($project_data);
 
     $result = array();

@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 $findcmd = 'find ./projects/ -name *.json -not ' .
-           '-name qqq.json -not -name raw.json -not -name en.json';
+           '-name qqq.json -not -name en-x-raw.json -not -name en.json';
 $json_files = explode("\n", trim(shell_exec($findcmd)));
 
 $override_lang = array(

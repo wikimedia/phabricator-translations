@@ -177,7 +177,7 @@ final class TranslatewikiManagementExportWorkflow
         'help' => pht('Context strings'),
       ),
       array(
-        'name' => 'raw.json',
+        'name' => 'en-x-raw.json',
         'data' => $result_raw,
         'help' => pht('Raw strings'),
       ),
