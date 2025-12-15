@@ -370,6 +370,8 @@ final class TranslatewikiManagementExportWorkflow
       }
     }
 
+    asort($usage);
+
     $types = idx($spec, 'types');
     if ($types) {
       // Relabel types to be more familiar to Translatewiki users.
