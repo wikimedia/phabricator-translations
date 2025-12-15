@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Asteralee",
 			"Bibliofab66",
 			"DSwissK",
 			"Derugon",
@@ -31,6 +32,7 @@
 	"00e372a760e50279": "Améliorer la sécurité en configurant un domaine alternatif pour les fichiers.",
 	"00e46c015f972018": "Tableau contenant la liste des applications non installées.",
 	"00e84a14b1a4ebbb": "Client serveur",
+	"00fcdda14949d42c": "Ou:",
 	"0119d90faa247aa4": "Les écouteurs reçoivent des rappels lorsque des événements intéressants apparaissent.",
 	"014290ced4abbc16": "Mettre à jour la configuration dans la base de données plutôt que dans la configuration locale.",
 	"0146637b5690e538": "Colonne/Clé",

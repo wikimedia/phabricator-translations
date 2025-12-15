@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jon Harald Søby",
 			"Pppery",
 			"Saederup92",
 			"Zakawer2"
@@ -72,6 +73,7 @@
 	"2652c468dc39eb25": "Dækning (Alle)",
 	"283d06c789ecfdca": "Opgaven $1 mislykkedes!",
 	"2883f191bc5ebfdc": "Objekt",
+	"2b7ce51022626c2b": "Vis kun botter",
 	"2bd2ac7a09cb8d75": "Conpherence",
 	"2c3cafa4db3f3e1e": "Fil",
 	"2c8aac1f8d65b66c": "Kopieret til flere placeringer:",
@@ -160,6 +162,7 @@
 	"5656b9b79b0316fc": "Onsdag",
 	"5697fd85adbd13bf": "Abonnementer",
 	"56b6766cad52b530": "Ugyldig timezone '$1'!",
+	"56dc31961dd1059f": "Skjul botter",
 	"572638524ef8a26f": "Ingen dokumenter fundet.",
 	"575674b4e9e9239b": "Opdaterede $1",
 	"57f2b181d0a5e79a": "Brugere",
@@ -288,6 +291,7 @@
 	"8d61184962dda249": "Politikker",
 	"8dce170de238b1fe": "Værdi",
 	"8e0065ab0a9622e6": "ADGANG NÆGTET",
+	"8fe432e681964c5e": "Har MFA",
 	"906cf48c8a80fd84": "Ansvarlige brugere",
 	"90ccd6497400b557": "Historik",
 	"91351b178a0bb5f2": "Rolig nu!",
