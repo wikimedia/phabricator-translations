@@ -48,7 +48,7 @@ foreach ($json_files as $filename) {
             $filename,
             '--class',
             $classname,
-            '--locale',
+            '--classlocale',
             $lang,
             '--project',
             $project.'/'.$app,

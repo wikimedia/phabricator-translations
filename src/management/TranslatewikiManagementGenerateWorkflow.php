@@ -24,7 +24,7 @@ final class TranslatewikiManagementGenerateWorkflow
               'Class name to generate.'),
           ),
           array(
-            'name' => 'locale',
+            'name' => 'classlocale',
             'param' => 'code',
             'help' => pht(
               'Locale code for the generated source.'),
@@ -60,11 +60,11 @@ final class TranslatewikiManagementGenerateWorkflow
           'Provide a classname with "--class".'));
     }
 
-    $locale = $args->getArg('locale');
+    $locale = $args->getArg('classlocale');
     if ($locale === null) {
       throw new PhutilArgumentUsageException(
         pht(
-          'Provide a locale code with "--locale".'));
+          'Provide a locale code with "--classlocale".'));
     }
 
     $project = $args->getArg('project');
