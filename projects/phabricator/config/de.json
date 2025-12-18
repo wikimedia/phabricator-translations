@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Ameisenigel",
 			"Justman10000",
 			"TMg",
@@ -52,7 +53,7 @@
 	"3fd293a9d6152d26": "$1 von $2",
 	"400f08b84d5e87d7": " ($1)",
 	"4028c0c8b470f545": "Nicht verfügbar",
-	"431ba0e26b78ee61": "Keine Verbindung zu MySQL möglich!\n\n $1 \n\nStellen Sie sicher, dass Phabricator und MySQL richtig konfiguriert sind.",
+	"431ba0e26b78ee61": "Keine Verbindung zu MySQL möglich!\n\n$1\n\nStellen Sie sicher, dass die Datenbankverbindung und MySQL richtig konfiguriert sind.",
 	"442caabf3a81cb8a": "Übersetzungen überschreiben.",
 	"48b2f0579d650e42": "(leer)",
 	"4be15481daaf273e": "Benutzerhandbuch: Amazon RDS",
@@ -181,7 +182,7 @@
 	"d3e00d24b34937e8": "Amazon Webservices",
 	"d485fb1b8a1e4854": "$1 aktiv",
 	"d5ff9db2117a3add": "MySQL $1 Modus nicht eingestellt",
-	"d6203e70241d1e52": "Optionen für Phabricator-Entwickler, einschließlich Debugging.",
+	"d6203e70241d1e52": "Optionen für Plattformentwickler, einschließlich Debugging.",
 	"d8868a0c162e6b8d": "Datenbankkonfiguration.",
 	"d9df769b266c487f": "Datenbanken",
 	"dc6c9f0d6f6886da": "Andere Versionsinformationen",
