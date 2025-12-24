@@ -119,14 +119,8 @@ final class TranslatewikiManagementGenerateWorkflow
     $export_locale = var_export($locale, true);
     $export_strings = var_export($result, true);
 
-    // Indent the strings in a more standard way.
-    $export_strings = str_replace("\n", "\n    ", $export_strings);
-
     // Remove the explicit array keys.
-    $export_strings = preg_replace('/^(\s*)\d+ => /m', '\1', $export_strings);
-
-    // Remove empty lines.
-    $export_strings = preg_replace('/\n(\s*\n)+/', "\n", $export_strings);
+    $export_strings = preg_replace('/^(\s*)\d{1,2} => /m', '\1', $export_strings);
 
     // Rewrite "array (" as "array(".
     $export_strings = preg_replace(
@@ -340,6 +334,7 @@ EOCLASS;
     // We're going to convert:
     //   - All "%" to "%%".
     //   - All "$1" to "%s".
+    //   - All "$$" to "$"
 
     // TODO: We currently lose information about "%d" integers in the
     // conversion process.
@@ -348,7 +343,7 @@ EOCLASS;
 
     $matches = null;
     $count = preg_match_all(
-      '/\$(\d+)/',
+      '/\$(\d+|\$)/',
       $string,
       $matches,
       PREG_OFFSET_CAPTURE);
@@ -359,11 +354,17 @@ EOCLASS;
       // NOTE: This extra "-1" is so we get rid of the "$", too.
       $adjust = -1;
       foreach ($matches[1] as $match) {
-        $idx = (int)$match[0];
-        if ($idx == $n) {
-          $replacement = '%s';
+        if ($match[0] == '$') {
+          // Convert '$$' to '$'
+          $replacement = '$';
+          $n--;
         } else {
-          $replacement = '%'.$idx.'$s';
+          $idx = (int)$match[0];
+          if ($idx == $n) {
+            $replacement = '%s';
+          } else {
+            $replacement = '%'.$idx.'$s';
+          }
         }
         $string = substr_replace(
           $string,
@@ -380,3 +381,4 @@ EOCLASS;
   }
 
 }
+

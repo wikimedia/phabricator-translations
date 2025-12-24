@@ -113,12 +113,15 @@ final class TranslatewikiManagementExportWorkflow
     $translatewiki_root = phutil_get_library_root('translations');
     $projects_root = "{$translatewiki_root}/../projects/{$as}/";
     $read_qqq = array();
+    $builtin_array = PhutilTranslation::getTranslationMapForLocale('en_US');
     foreach ($strings_data as $string => $spec) {
       $string_key = $this->getStringKey($string);
 
       $translatewiki_string = $this->getTranslatewikiString(
         $string,
-        $spec);
+        $spec,
+        $builtin_array[$string] ?? null
+      );
 
       if ($translatewiki_string === null) {
         continue;
@@ -221,13 +224,196 @@ final class TranslatewikiManagementExportWorkflow
     return substr(sha1($string), 0, 16);
   }
 
-  private function getTranslatewikiString($string, array $spec) {
+  /** This is the top level of the string processing system.
+    * It performs all required processing to turn a Phabricator proto-English
+    * and/or US English string into something translatable on translatewiki.net
+    */
+  private function getTranslateWikiString($string, $spec, $useng) {
+    if ($useng === null) {
+      // No US English translation, so no PLURAL to vary on
+      // just add implicit PLURALs and carry on
+      return $this->addExtraFuncs(
+        $this->convertForTranslateWiki($string),
+        $spec);
+    }
+
+    // Dive into however many one element arrays there are
+    // to find the true variable to branch a PLURAL off of.
+    $plural_var = 1;
+    while (is_array($useng) && count($useng) == 1) {
+      $useng = $useng[0];
+      $plural_var++;
+    }
+    if (is_string($useng)) {
+      return $this->addExtraFuncs($this->convertForTranslateWiki($useng), $spec);
+    }
+    list($singular, $plural) = $useng;
+    if (is_array($singular) || is_array($plural)) {
+      // The number of these is small enough that it's easier to hardcode
+      // them than write a general parser, which is fairly non-trivial
+      $hardcoded = array(
+        'This key has %s remaining API request(s), '.
+          'limit resets in %s second(s).' =>
+          'This key has $1 remaining API {{PLURAL:$1|request|requests}}, '.
+          'limit resets in $2 {{PLURAL:$2|second|seconds}}.',
+        'Set API poll TTL to +%s second(s) (%s second(s) from now).' =>
+          'Set API poll TTL to +$1 {{PLURAL:$1|second|seconds}} '.
+          '($2 {{PLURAL:$2|second|seconds}} from now).',
+        'Scheduling repository "%s" with an update window of %s second(s). '.
+         'Last update was %s second(s) ago.' =>
+           'Scheduling repository "$1" with an update window of $2 '.
+           '{{PLURAL:$2|second|seconds}}. Last update was $3 '.
+           '{{PLURAL:$3|second|seconds}} ago.',
+        'Adjusted **%s** create statements and **%s** use statements.' =>
+          'Adjusted **$1** create {{PLURAL:$1|statement|statements}} and '.
+          '**$2** use {{PLURAL:$2|statement|statements}}.',
+        '%s marked %s inline comment(s) as done and %s inline comment(s) as not done.' => 
+          '$1 marked {{PLURAL:$2|an inline comment|$2 inline comments}} as done and {{PLURAL:$3|an inline comment|$3 inline comments}} as not done.',
+        'Function "%s" expects %s argument(s), but %s argument(s) were provided.' => 
+          'Function "$1" expects $2 {{PLURAL:$2|argument|arguments}}, but $3 {{PLURAL:$3|argument was|arguments were}} provided.',
+        'Processed %s file(s), encountered %s error(s).' => 
+          'Processed $1 {{PLURAL:$1|file|files}}, encountered $2 {{PLURAL:$2|error|errors}}.',
+        'The locale `%s` defines a translation for the key `%s`, which has at least %s level(s) of arrays, however the source message has only %s parameter(s).' =>
+          'The locale `$1` defines a translation for the key `$2`, which has at least $3 {{PLURAL:$3|level|levels}} of arrays, however the source message has only $4 {{PLURAL:$4|parameter|parameters}}.',
+        'This call takes %s parameter(s), but only %s are documented.' => 
+          'This call takes $1 {{PLURAL:$1|parameter|parameters}}, but only {{PLURAL:$2|$2 is|$2 are}} documented.'
+      );
+      if (!isset($hardcoded[$string])) {
+        echo tsprintf(
+          "%s\n",
+          pht(
+            'Unable to extract string with multiple PLURAL branches in '.
+            'US English: "%s"',
+            $string));
+          return null;
+      }
+      return $hardcoded[$string];
+    }
+    $singular = $this->convertForTranslateWiki($singular);
+    $plural = $this->convertForTranslateWiki($plural);
+    if (!$singular || !$plural) {
+      // convertForTranslateWiki already printed a warning
+      return null;
+   }
+
+    // The idea of this is that the message will be something like
+    // array(
+    //   'John added a bar happily', (or maybe 'John added $1 bar happily')
+    //   'John added $1 bars happily'
+    // )
+    // The desired outcome string is `John added {{PLURAL:$1|a bar|$1 bars}} happily`
+    // that is, PLURAL wraps the minimum number of words necessary
+    // This works well enough for the style of strings typically written in
+    // Phorge/Phabricator, but may not be sufficient for the general case
+    $words1 = explode(' ', $singular);
+    $words2 = explode(' ', $plural);
+    $marker = '$'.$plural_var;
+
+    $diffStart = null;
+    $diffMax = null;
+    $offset = 0;
+    foreach($words1 as $index => $word) {
+      // Handle `$1 added a foo: blah` versus `$1 added foos: blah`
+      if ($offset == 0 && $index > 0 && $words2[$index-1] == $word) {
+        $offset = -1;
+      }
+      if(!isset($words2[$index+$offset])) {
+        // Fall through to the if statement after the loop
+        // which will fail to find a resync point
+        break;
+      }
+      if ($words2[$index+$offset] != $word) {
+        $diffStart = $diffStart ?? $index;
+        $diffMax = $index;
+      }
+    }
+    if (count($words1)+$offset != count($words2)) {
+      // We can't find a resync point, treat the entire rest of string as differing
+      $diffMax = max($diffMax, count($words1), count($words2));
+    }
+    $before = $this->addExtraFuncs(array_slice($words1, 0, $diffStart), $spec, (string)$plural_var);
+    $branch1 = implode(' ', array_slice($words1, $diffStart, $diffMax-$diffStart+1));
+    $branch2 = implode(' ', array_slice($words2, $diffStart, $diffMax-$diffStart+$offset+1));
+    $after = $this->addExtraFuncs(array_slice($words1, $diffMax+1), $spec, (string)$plural_var);
+
+    $bspace = '';
+    $aspace = '';
+    if (strlen($before)) {
+      $bspace = ' ';
+    }
+    if (strlen($after)) {
+      $aspace = ' ';
+    }
+    return "$before$bspace{{PLURAL:$marker|$branch1|$branch2}}$aspace$after";
+  }
+
+  /**
+   * Add `idempotent plural` syntax to the given string, based on the type spec
+   * That is: convert `There are $1 things' to `There are $1 {{PLURAL:$1|things}}`
+   * If Phabricator knows there's always going to be more than one thing, it
+   * sometimes doesn't bother to vary on number in the US English locale, however
+   * other languages may need to do so.
+   *
+   * See https://www.mediawiki.org/wiki/Manual:Messages_API#Be_aware_of_PLURAL_use_on_all_numbers
+   * (I know Phabricator isn't MediaWiki, but it's pretending to be like MediaWiki
+   * and using similar PLURAL syntax)
+   */
+  private function addExtraFuncs($string, array $spec, $ignore_var = null) {
+    if ($string === null) {
+      // An error occurred earlier in the process; return null to percolate that
+      // error through
+      return null;
+    }
+    $types = idx($spec,'types');
+    if (!$types) {
+      return $string;
+    }
+    $words = $string;
+    if (is_string($words)) {
+      $words = explode(' ', $words);
+    }
+    $active_var = null;
+    $translatewiki_types = [ 'number' => 'PLURAL', 'phutilnumber' => 'PLURAL', 'person' => 'GENDER'];
+    foreach ($words as $index => $word) {
+      $vars = null;
+      if (preg_match('/\$([0-9])/', $word, $vars)) {
+        list($varmark, $var) = $vars;
+        $type = idx($types, intval($var) - 1);
+        if (!$type || $var === $ignore_var) {
+          continue;
+        }
+        $type = $translatewiki_types[$type];
+        // If the next word doesn't contain a variable
+        // and ends in 's', then be nice and put the plural on it
+        // otherwise put the plural on the word containing the variable
+        if (isset($words[$index+1])) {
+          $next = $words[$index+1];
+          $matches = [];
+          if(preg_match('/^([^$]+[Ss])([^a-zA-Z]*)$/', $next, $matches)) {
+            list($_,$word,$sym) = $matches;
+            $words[$index+1] =  '{{'.$type.':'.$varmark.'|'.$word.'}}'.$sym;
+            continue;
+          }
+        }
+        $words[$index] = '{{'.$type.':'.$varmark.'|'.$word.'}}';
+      }
+    }
+    return implode(' ',$words);
+  }
+
+  /**
+   * This function is the lowest-level string mangling function
+   * it handles converting variables from Phabricator's %s syntax
+   * to translatewiki's $1 syntax.
+   */
+  private function convertForTranslateWiki($string) {
     $string = (string)$string;
 
     // We're going to convert all "%%" (literal percent symbol) to "%".
     // We're going to convert all "%s", "%d", etc., to "$1", "$2", etc.
+    // Convert all `$` to `$$` too.
 
-    $pattern = '/(\%.)|(\\$)/';
+    $pattern = '/(\%(?:[0-9]\\$)?.|\\$)/';
     $matches = null;
     $count = preg_match_all(
       $pattern,
@@ -261,15 +447,23 @@ final class TranslatewikiManagementExportWorkflow
             $replacement = '$'.$n;
             $n++;
             break;
+          case '$':
+            $replacement = '$$';
+            break;
           default:
-            echo tsprintf(
-              "%s\n",
-              pht(
-                'Unable to extract string with unrecognized "%%" pattern, '.
-                '"%s": %s.',
-                $text,
-                $string));
-            return null;
+            $submatches = null;
+            if (preg_match('/%([0-9])\$/', $text, $submatches)) {
+              $replacement = '$'.$submatches[1];
+            } else {
+              echo tsprintf(
+                "%s\n",
+                pht(
+                  'Unable to extract string with unrecognized "%%" pattern, '.
+                  '"%s": %s.',
+                  $text,
+                  $string));
+              return null;
+            }
         }
 
         if ($replacement !== null) {
@@ -280,26 +474,6 @@ final class TranslatewikiManagementExportWorkflow
             strlen($text));
           $adjust += strlen($replacement) - strlen($text);
         }
-      }
-
-      foreach ($matches[2] as $dollar_hit) {
-        if (!$dollar_hit) {
-          continue;
-        }
-
-        $text = $dollar_hit[0];
-        $offset = $dollar_hit[1];
-
-        if ($offset == -1) {
-          continue;
-        }
-
-        echo tsprintf(
-          "%s\n",
-          pht(
-            'Unable to extract string containing "$" symbol: %s',
-            $string));
-        return null;
       }
     }
 
@@ -387,3 +561,4 @@ final class TranslatewikiManagementExportWorkflow
   }
 
 }
+
