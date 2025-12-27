@@ -78,3 +78,5 @@ foreach ($json_files as $filename) {
         echo "ERROR: $return_code";
     }
 }
+# Rebuild library map
+shell_exec('../arcanist/bin/arc liberate');
