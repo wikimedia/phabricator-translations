@@ -13,4 +13,5 @@ final class TranslateWikiRussianRu extends PhutilLocale {
     public function getLocaleName() {
         return pht('Russian');
     }
+
 }

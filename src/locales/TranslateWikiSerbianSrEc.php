@@ -16,4 +16,5 @@ final class TranslateWikiSerbianSrEc extends PhutilLocale {
     public function getLocaleName() {
         return pht('Serbian (Cyrillic script)');
     }
+
 }

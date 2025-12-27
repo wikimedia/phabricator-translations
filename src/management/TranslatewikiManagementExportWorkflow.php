@@ -120,8 +120,7 @@ final class TranslatewikiManagementExportWorkflow
       $translatewiki_string = $this->getTranslatewikiString(
         $string,
         $spec,
-        $builtin_array[$string] ?? null
-      );
+        $builtin_array[$string] ?? null);
 
       if ($translatewiki_string === null) {
         continue;
@@ -140,7 +139,7 @@ final class TranslatewikiManagementExportWorkflow
           $result_qqq[$group]['@metadata'] = $read_qqq[$group]['@metadata'];
         }
       }
-      
+
       $result_raw[$group][$string_key] = $string;
       $result_en[$group][$string_key] = $translatewiki_string;
       $result_qqq[$group][$string_key] = $this->getTranslatewikiContext(
@@ -148,16 +147,25 @@ final class TranslatewikiManagementExportWorkflow
         $spec,
         $read_qqq[$group][$string_key] ?? '');
     }
-    if ( $as === 'arcanist' ) {
-      # Add extra date elements not found by the translation extractor
-      # Not May because the full month extracted from Phabricator is reused
-      $extra = [
-        "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep",
-        "Oct", "Nov", "Dec",
-        # Uncomment once https://we.phorge.it/T15811 is fixed and Wikimedia
-        # pulls in the release with the fix
-        # "AM", "PM", "am", "pm"
-      ];
+    if ($as === 'arcanist') {
+      // Add extra date elements not found by the translation extractor
+      // Not May because the full month extracted from Phabricator is reused
+      $extra = array(
+        'Jan',
+        'Feb',
+        'Mar',
+        'Apr',
+        'Jun',
+        'Jul',
+        'Aug',
+        'Sep',
+        'Oct',
+        'Nov',
+        'Dec',
+        // Uncomment once https://we.phorge.it/T15811 is fixed and Wikimedia
+        // pulls in the release with the fix
+        // "AM", "PM", "am", "pm"
+      );
       foreach ($extra as $string) {
         $string_key = $this->getStringKey($string);
         $result_raw['core'][$string_key] = $string;
@@ -205,7 +213,7 @@ final class TranslatewikiManagementExportWorkflow
         ksort($data);
         // Put metadata first
         if (isset($data['@metadata'])) {
-          $data = ['@metadata' => $data['@metadata']] + $data;
+          $data = array('@metadata' => $data['@metadata']) + $data;
         }
         $data = id(new PhutilJSON())->encodeFormatted($data);
 
@@ -252,31 +260,31 @@ final class TranslatewikiManagementExportWorkflow
       // The number of these is small enough that it's easier to hardcode
       // them than write a general parser, which is fairly non-trivial
       $hardcoded = array(
-        'This key has %s remaining API request(s), '.
-          'limit resets in %s second(s).' =>
+        'This key has %s remaining API request(s), limit resets in %s second(s).' =>
           'This key has $1 remaining API {{PLURAL:$1|request|requests}}, '.
           'limit resets in $2 {{PLURAL:$2|second|seconds}}.',
         'Set API poll TTL to +%s second(s) (%s second(s) from now).' =>
-          'Set API poll TTL to +$1 {{PLURAL:$1|second|seconds}} '.
-          '($2 {{PLURAL:$2|second|seconds}} from now).',
-        'Scheduling repository "%s" with an update window of %s second(s). '.
-         'Last update was %s second(s) ago.' =>
+          'Set API poll TTL to +$1 {{PLURAL:$1|second|seconds}} ($2 {{PLURAL:$2|second|seconds}} from now).',
+        'Scheduling repository "%s" with an update window of %s second(s). Last update was %s second(s) ago.' =>
            'Scheduling repository "$1" with an update window of $2 '.
-           '{{PLURAL:$2|second|seconds}}. Last update was $3 '.
-           '{{PLURAL:$3|second|seconds}} ago.',
+           '{{PLURAL:$2|second|seconds}}. Last update was $3 {{PLURAL:$3|second|seconds}} ago.',
         'Adjusted **%s** create statements and **%s** use statements.' =>
           'Adjusted **$1** create {{PLURAL:$1|statement|statements}} and '.
           '**$2** use {{PLURAL:$2|statement|statements}}.',
-        '%s marked %s inline comment(s) as done and %s inline comment(s) as not done.' => 
-          '$1 marked {{PLURAL:$2|an inline comment|$2 inline comments}} as done and {{PLURAL:$3|an inline comment|$3 inline comments}} as not done.',
-        'Function "%s" expects %s argument(s), but %s argument(s) were provided.' => 
-          'Function "$1" expects $2 {{PLURAL:$2|argument|arguments}}, but $3 {{PLURAL:$3|argument was|arguments were}} provided.',
-        'Processed %s file(s), encountered %s error(s).' => 
+        '%s marked %s inline comment(s) as done and %s inline comment(s) as not done.' =>
+          '$1 marked {{PLURAL:$2|an inline comment|$2 inline comments}} as done and '.
+          '{{PLURAL:$3|an inline comment|$3 inline comments}} as not done.',
+        'Function "%s" expects %s argument(s), but %s argument(s) were provided.' =>
+          'Function "$1" expects $2 {{PLURAL:$2|argument|arguments}}, but $3 '.
+          '{{PLURAL:$3|argument was|arguments were}} provided.',
+        'Processed %s file(s), encountered %s error(s).' =>
           'Processed $1 {{PLURAL:$1|file|files}}, encountered $2 {{PLURAL:$2|error|errors}}.',
-        'The locale `%s` defines a translation for the key `%s`, which has at least %s level(s) of arrays, however the source message has only %s parameter(s).' =>
-          'The locale `$1` defines a translation for the key `$2`, which has at least $3 {{PLURAL:$3|level|levels}} of arrays, however the source message has only $4 {{PLURAL:$4|parameter|parameters}}.',
-        'This call takes %s parameter(s), but only %s are documented.' => 
-          'This call takes $1 {{PLURAL:$1|parameter|parameters}}, but only {{PLURAL:$2|$2 is|$2 are}} documented.'
+        'The locale `%s` defines a translation for the key `%s`, which has at least %s level(s) of arrays, '.
+        'however the source message has only %s parameter(s).' =>
+          'The locale `$1` defines a translation for the key `$2`, which has at least $3 {{PLURAL:$3|level|levels}} '.
+          'of arrays, however the source message has only $4 {{PLURAL:$4|parameter|parameters}}.',
+        'This call takes %s parameter(s), but only %s are documented.' =>
+          'This call takes $1 {{PLURAL:$1|parameter|parameters}}, but only {{PLURAL:$2|$2 is|$2 are}} documented.',
       );
       if (!isset($hardcoded[$string])) {
         echo tsprintf(
@@ -309,32 +317,32 @@ final class TranslatewikiManagementExportWorkflow
     $words2 = explode(' ', $plural);
     $marker = '$'.$plural_var;
 
-    $diffStart = null;
-    $diffMax = null;
+    $diff_start = null;
+    $diff_max = null;
     $offset = 0;
-    foreach($words1 as $index => $word) {
+    foreach ($words1 as $index => $word) {
       // Handle `$1 added a foo: blah` versus `$1 added foos: blah`
-      if ($offset == 0 && $index > 0 && $words2[$index-1] == $word) {
+      if ($offset == 0 && $index > 0 && $words2[$index - 1] == $word) {
         $offset = -1;
       }
-      if(!isset($words2[$index+$offset])) {
+      if (!isset($words2[$index + $offset])) {
         // Fall through to the if statement after the loop
         // which will fail to find a resync point
         break;
       }
-      if ($words2[$index+$offset] != $word) {
-        $diffStart = $diffStart ?? $index;
-        $diffMax = $index;
+      if ($words2[$index + $offset] != $word) {
+        $diff_start = $diff_start ?? $index;
+        $diff_max = $index;
       }
     }
-    if (count($words1)+$offset != count($words2)) {
+    if (count($words1) + $offset != count($words2)) {
       // We can't find a resync point, treat the entire rest of string as differing
-      $diffMax = max($diffMax, count($words1), count($words2));
+      $diff_max = max($diff_max, count($words1), count($words2));
     }
-    $before = $this->addExtraFuncs(array_slice($words1, 0, $diffStart), $spec, (string)$plural_var);
-    $branch1 = implode(' ', array_slice($words1, $diffStart, $diffMax-$diffStart+1));
-    $branch2 = implode(' ', array_slice($words2, $diffStart, $diffMax-$diffStart+$offset+1));
-    $after = $this->addExtraFuncs(array_slice($words1, $diffMax+1), $spec, (string)$plural_var);
+    $before = $this->addExtraFuncs(array_slice($words1, 0, $diff_start), $spec, (string)$plural_var);
+    $branch1 = implode(' ', array_slice($words1, $diff_start, $diff_max - $diff_start + 1));
+    $branch2 = implode(' ', array_slice($words2, $diff_start, $diff_max - $diff_start + $offset + 1));
+    $after = $this->addExtraFuncs(array_slice($words1, $diff_max + 1), $spec, (string)$plural_var);
 
     $bspace = '';
     $aspace = '';
@@ -364,7 +372,7 @@ final class TranslatewikiManagementExportWorkflow
       // error through
       return null;
     }
-    $types = idx($spec,'types');
+    $types = idx($spec, 'types');
     if (!$types) {
       return $string;
     }
@@ -373,12 +381,13 @@ final class TranslatewikiManagementExportWorkflow
       $words = explode(' ', $words);
     }
     $active_var = null;
-    $translatewiki_types = [ 'number' => 'PLURAL', 'phutilnumber' => 'PLURAL', 'person' => 'GENDER'];
+
+    $translatewiki_types = array('number' => 'PLURAL', 'phutilnumber' => 'PLURAL', 'person' => 'GENDER');
     foreach ($words as $index => $word) {
       $vars = null;
       if (preg_match('/\$([0-9])/', $word, $vars)) {
         list($varmark, $var) = $vars;
-        $type = idx($types, intval($var) - 1);
+        $type = idx($types, (int)$var - 1);
         if (!$type || $var === $ignore_var) {
           continue;
         }
@@ -386,19 +395,19 @@ final class TranslatewikiManagementExportWorkflow
         // If the next word doesn't contain a variable
         // and ends in 's', then be nice and put the plural on it
         // otherwise put the plural on the word containing the variable
-        if (isset($words[$index+1])) {
-          $next = $words[$index+1];
-          $matches = [];
-          if(preg_match('/^([^$]+[Ss])([^a-zA-Z]*)$/', $next, $matches)) {
-            list($_,$word,$sym) = $matches;
-            $words[$index+1] =  '{{'.$type.':'.$varmark.'|'.$word.'}}'.$sym;
+        if (isset($words[$index + 1])) {
+          $next = $words[$index + 1];
+          $matches = array();
+          if (preg_match('/^([^$]+[Ss])([^a-zA-Z]*)$/', $next, $matches)) {
+            list($_, $word, $sym) = $matches;
+            $words[$index + 1] =  '{{'.$type.':'.$varmark.'|'.$word.'}}'.$sym;
             continue;
           }
         }
         $words[$index] = '{{'.$type.':'.$varmark.'|'.$word.'}}';
       }
     }
-    return implode(' ',$words);
+    return implode(' ', $words);
   }
 
   /**
@@ -460,6 +469,7 @@ final class TranslatewikiManagementExportWorkflow
               $replacement = '$'.$n;
               $n++;
            }
+           break;
         }
 
         if ($replacement !== null) {
@@ -515,7 +525,7 @@ final class TranslatewikiManagementExportWorkflow
         '' => pht('NONE'),
         'person' => pht('GENDER'),
         'number' => pht('PLURAL'),
-        'phutilnumber' => pht('PLURAL')
+        'phutilnumber' => pht('PLURAL'),
       );
 
       $type_list = array();
@@ -557,4 +567,3 @@ final class TranslatewikiManagementExportWorkflow
   }
 
 }
-

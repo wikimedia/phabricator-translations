@@ -13,8 +13,5 @@ final class TranslateWikiBelarusianBe extends PhutilLocale {
   public function getLocaleName() {
       return pht('Belarusian (Belarus)');
   }
+
 }
-
-
-
-

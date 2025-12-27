@@ -1,11 +1,13 @@
 <?php
+
 trait SlavicPluralTrait {
+
     public function selectPluralVariant($variant, array $translations) {
         $mh = $variant % 100;
         if ($mh > 10 && $mh < 20) {
             $choice = 2;
         } else {
-            switch($variant % 10) {
+            switch ($variant % 10) {
                 case 1:
                     $choice = 0;
                     break;
@@ -16,6 +18,7 @@ trait SlavicPluralTrait {
                     break;
                 default:
                     $choice = 2;
+                    break;
             }
         }
         if (!isset($translations[$choice])) {
@@ -26,4 +29,5 @@ trait SlavicPluralTrait {
             return $translations[$choice];
         }
     }
+
 }

@@ -143,7 +143,7 @@ EOCLASS;
     $result = array();
     foreach ($source_data as $key => $string) {
       if ($key === '@metadata') {
-        # Ignore the '@metadata' key that translatewiki.net exports add
+        // Ignore the '@metadata' key that translatewiki.net exports add
         continue;
       }
       if (!isset($project_data[$key])) {
@@ -167,6 +167,7 @@ EOCLASS;
     }
     return $result;
   }
+
   private function getPhabricatorTranslation($translation, $source) {
 
     // First, we need to split all "{{PLURAL:$1|option|option}}" patterns
@@ -323,27 +324,27 @@ EOCLASS;
     return $variants;
   }
 
-  private function convertVariants($variants,$source) {
+  private function convertVariants($variants, $source) {
     if (is_string($variants)) {
-      return $this->convertVariant($variants,$source);
+      return $this->convertVariant($variants, $source);
     } else {
       foreach ($variants as $key => $variant) {
-        $variants[$key] = $this->convertVariants($variant,$source);
+        $variants[$key] = $this->convertVariants($variant, $source);
       }
       return $variants;
     }
   }
 
-  private function convertVariant($string,$source) {
+  private function convertVariant($string, $source) {
     // We're going to convert:
     //   - All "%" to "%%".
     //   - All "$1" to "%s" or "%d" (based on the source string)
     //   - All "$$" to "$"
 
     $string = str_replace('%', '%%', $string);
-    $sourceMatches = null;
-    preg_match_all('/\\%(\\+?(?:[0-9]\\$)?(?:[0-9]+(?:\\.[0-9]+)?)?[sdf])/', $source, $sourceMatches);
-    $sourceMatches = $sourceMatches[1];
+    $source_matches = null;
+    preg_match_all('/\\%(\\+?(?:[0-9]\\$)?(?:[0-9]+(?:\\.[0-9]+)?)?[sdf])/', $source, $source_matches);
+    $source_matches = $source_matches[1];
 
     $matches = null;
     $count = preg_match_all(
@@ -363,11 +364,11 @@ EOCLASS;
           $replacement = '$';
         } else {
           $idx = (int)$match[0];
-          // $sourceMatches[$idx-1] should be set, but might not be 
+          // $source_matches[$idx-1] should be set, but might not be
           // for an `edge type` message where the source string doesn't
           // use all parameters. Validation should be handled by `bin/i18n validate`
           // not here, anyway
-          $specifier = $sourceMatches[$idx-1] ?? 's';
+          $specifier = $source_matches[$idx - 1] ?? 's';
           if ($idx == $n) {
             $replacement = '%'.$specifier;
             $n++;
@@ -389,4 +390,3 @@ EOCLASS;
   }
 
 }
-

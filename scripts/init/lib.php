@@ -28,6 +28,6 @@ function init_translatewiki_script(array $options = array()) {
 
   $path_arcanist = PlatformSymbols::getPlatformClientPath();
   $path_phorge = PlatformSymbols::getPlatformServerPath();
-  phutil_load_library($path_arcanist . 'src');
-  phutil_load_library($path_phorge . 'src');
+  phutil_load_library($path_arcanist.'src');
+  phutil_load_library($path_phorge.'src');
 }

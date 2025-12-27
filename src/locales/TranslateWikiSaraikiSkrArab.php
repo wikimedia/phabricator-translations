@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Saraiki localization in Phabricator
  */
 final class TranslateWikiSaraikiSkrArab extends PhutilLocale {
+
     public function getLocaleCode() {
         return 'skr_Arab';
     }
@@ -16,4 +17,5 @@ final class TranslateWikiSaraikiSkrArab extends PhutilLocale {
         // None of the fallback languages defined on MediaWiki have locale files for Phabricator
         return 'en_US';
     }
+
 }

@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Lithuanian localization in Phabricator
  */
 final class TranslateWikiLithuanianLt extends PhutilLocale {
+
   public function getLocaleCode() {
     return 'lt';
   }
@@ -11,12 +12,13 @@ final class TranslateWikiLithuanianLt extends PhutilLocale {
   public function getLocaleName() {
       return pht('Lithuanian');
   }
+
   public function selectPluralVariant($variant, array $translations) {
       $mh = $variant % 100;
       if ($mh > 10 && $mh < 20) {
           $choice = 2;
       } else {
-          switch($variant % 10) {
+          switch ($variant % 10) {
               case 0:
                 $choice = 2;
                 break;
@@ -25,6 +27,7 @@ final class TranslateWikiLithuanianLt extends PhutilLocale {
                 break;
               default:
                 $choice = 1;
+                break;
           }
       }
       if (!isset($translations[$choice])) {
@@ -35,8 +38,5 @@ final class TranslateWikiLithuanianLt extends PhutilLocale {
           return $translations[$choice];
       }
   }
+
 }
-
-
-
-

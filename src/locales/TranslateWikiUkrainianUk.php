@@ -5,6 +5,7 @@
  */
 final class TranslateWikiUkrainianUk extends PhutilLocale {
     use SlavicPluralTrait;
+
     public function getLocaleCode() {
         return 'uk';
     }
@@ -12,4 +13,5 @@ final class TranslateWikiUkrainianUk extends PhutilLocale {
     public function getLocaleName() {
         return pht('Ukrainian');
     }
+
 }

@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Catalan localization in Phabricator
  */
 final class TranslateWikiCatalanCa extends PhutilLocale {
+
     public function getLocaleCode() {
         return 'ca';
     }
@@ -18,4 +19,5 @@ final class TranslateWikiCatalanCa extends PhutilLocale {
         // would be the fallback)
         return 'en_US';
     }
+
 }

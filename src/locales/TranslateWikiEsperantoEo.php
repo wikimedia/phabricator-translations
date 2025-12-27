@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Esperanto localization in Phabricator
  */
 final class TranslateWikiEsperantoEo extends PhutilLocale {
+
     public function getLocaleCode() {
         return 'eo';
     }
@@ -11,4 +12,5 @@ final class TranslateWikiEsperantoEo extends PhutilLocale {
     public function getLocaleName() {
         return pht('Esperanto');
     }
+
 }

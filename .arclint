@@ -6,31 +6,41 @@
     "filename": {
       "type": "filename"
     },
-    "generated": {
-      "type": "generated"
-    },
-    "json": {
-      "type": "json",
-      "include": [
-        "(^\\.arcconfig$)",
-        "(^\\.arclint$)",
-        "(\\.json$)"
-      ]
-    },
     "merge-conflict": {
       "type": "merge-conflict"
-    },
-    "nolint": {
-      "type": "nolint"
     },
     "phutil-library": {
       "type": "phutil-library",
       "include": "(\\.php$)"
     },
-    "xhpast": {
-      "type": "xhpast",
+    "phpast": {
+      "type": "phpast",
       "include": "(\\.php$)",
-      "standard": "phutil.xhpast"
+      "standard": "phutil.phpast",
+      "phpast.php-version": "7.2.25"
+    },
+    "json": {
+      "type": "json",
+      "include": [
+        "(^\\.arclint$)",
+        "(\\.json$)"
+      ]
+    },
+
+    "spelling": {
+      "type": "spelling",
+      "exclude": [
+        "(projects/.*\\.json)",
+        "(src/translations/.*\\.php)"
+      ]
+    },
+    "text": {
+      "type": "text",
+      "text.max-line-length": 120,
+      "exclude": [
+        "(projects/.*\\.json)",
+        "(src/translations/.*\\.php)"
+      ]
     }
   }
 }

@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Norwegian localization in Phabricator
  */
 final class TranslateWikiNorwegianNb extends PhutilLocale {
+
     public function getLocaleCode() {
         return 'nb';
     }
@@ -20,4 +21,5 @@ final class TranslateWikiNorwegianNb extends PhutilLocale {
         // until then return en-US so proto-English strings aren't shown
         return 'en_US';
     }
+
 }

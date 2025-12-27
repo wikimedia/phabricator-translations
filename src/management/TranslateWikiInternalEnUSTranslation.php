@@ -1,4 +1,5 @@
 <?php
+
 final class TranslateWikiInternalEnUSTranslation
   extends PhutilTranslation {
 
@@ -10,8 +11,9 @@ final class TranslateWikiInternalEnUSTranslation
     return array(
       'Read %s string(s).' => array(
         'Read %s string.',
-        'Read %s strings.'
+        'Read %s strings.',
       ),
     );
   }
+
 }

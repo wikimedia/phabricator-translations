@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Luxemborgish localization in Phabricator
  */
 final class TranslateWikiLuxemborgishLb extends PhutilLocale {
+
   public function getLocaleCode() {
     return 'lb';
   }
@@ -13,7 +14,3 @@ final class TranslateWikiLuxemborgishLb extends PhutilLocale {
   }
 
 }
-
-
-
-

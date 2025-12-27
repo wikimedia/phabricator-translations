@@ -25,7 +25,7 @@ To export up-to-date strings from Phabricator, run:
 ./export.sh
 ```
 
-This will update `projects/phabricator/en.json` and related files.
+This will update `projects/phabricator/core/en.json` and related files.
 
 
 Generating Translations
@@ -38,13 +38,7 @@ Phabricator can read, do this:
 ./generate.php
 ```
 
-Then run arcanist to update `__phutil_library_map__.php`:
-
-```
-../arcanist/bin/arc liberate
-```
-
-Finally, commit the changes and push.
+Then, commit the changes and push.
 
 Adding a new language/locale to Phabricator
 ===========================================
@@ -53,6 +47,10 @@ To add a new language, copy one of the existing classes in `src/locales/` to a n
 Then edit the new file, changing the class name as well as the values returned by
 `getLocaleCode` and `getLocaleName` to match the locale of the new language.
 
-run `./lint.sh` to verify that you haven't introduced any PHP errors.
+Check if the new language needs a custom `selectPluralVariant` handler. One place to check is CLDR plural tables, at
+
+https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html#comparison
+
+Run `../arcanist/bin/arc lint` to check for lint errors.
 
 Finally run `../arcanist/bin/arc liberate` to update `__phutil_library_map__.php`

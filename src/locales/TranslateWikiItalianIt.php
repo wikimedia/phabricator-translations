@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Italian localization in Phabricator
  */
 final class TranslateWikiItalianIt extends PhutilLocale {
+
   public function getLocaleCode() {
     return 'it';
   }
@@ -13,7 +14,3 @@ final class TranslateWikiItalianIt extends PhutilLocale {
   }
 
 }
-
-
-
-

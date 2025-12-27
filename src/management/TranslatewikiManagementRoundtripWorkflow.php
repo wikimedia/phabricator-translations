@@ -25,6 +25,7 @@ final class TranslatewikiManagementRoundtripWorkflow
           ),
         ));
   }
+
   public function execute(PhutilArgumentParser $args) {
     $libpath = $args->getArg('library');
     if (!$libpath) {
@@ -44,7 +45,7 @@ final class TranslatewikiManagementRoundtripWorkflow
     }
     $libpath = $libpath[0];
     $libname = basename($libpath);
-    if (!isset(PhutilBootLoader::getInstance()->getAllLibraries()[$libname])) {
+    if (!isset(PhutilBootloader::getInstance()->getAllLibraries()[$libname])) {
       // Assume the library is alongside this repo
       if ($libname == 'misc') {
         // This repo deviates from standard conventions
@@ -71,8 +72,9 @@ final class TranslatewikiManagementRoundtripWorkflow
     $transformed = array();
     foreach ($json_files as $json) {
       $json = 'projects/'.$project.'/'.$json;
-      $transformed += id(new TranslateWikiManagementGenerateWorkflow())
-        ->getStrings($json, str_replace('en.json','en-x-raw.json', $json));
+      $transformed += id(new TranslatewikiManagementGenerateWorkflow())
+        ->getStrings($json,
+        str_replace('en.json', 'en-x-raw.json', $json));
     }
     foreach ($transformed as $k => $v) {
       if ($k == $v) {
@@ -96,4 +98,5 @@ final class TranslatewikiManagementRoundtripWorkflow
       echo PHP_EOL;
     }
   }
+
 }

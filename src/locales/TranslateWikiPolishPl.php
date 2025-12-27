@@ -4,6 +4,7 @@
  * TranslateWiki Locale for Polish localization in Phabricator
  */
 final class TranslateWikiPolishPl extends PhutilLocale {
+
     public function getLocaleCode() {
         return 'pl';
     }
@@ -11,6 +12,7 @@ final class TranslateWikiPolishPl extends PhutilLocale {
     public function getLocaleName() {
         return pht('Polish');
     }
+
     public function selectPluralVariant($variant, array $translations) {
         if ($variant == 1) {
             return reset($translations);
@@ -19,7 +21,7 @@ final class TranslateWikiPolishPl extends PhutilLocale {
         if ($mh > 10 && $mh < 20) {
             $choice = 2;
         } else {
-            switch($variant % 10) {
+            switch ($variant % 10) {
                 case 2:
                 case 3:
                 case 4:
@@ -27,6 +29,7 @@ final class TranslateWikiPolishPl extends PhutilLocale {
                     break;
                 default:
                     $choice = 2;
+                    break;
             }
         }
         if (!isset($translations[$choice])) {
@@ -37,4 +40,5 @@ final class TranslateWikiPolishPl extends PhutilLocale {
             return $translations[$choice];
         }
     }
+
 }
