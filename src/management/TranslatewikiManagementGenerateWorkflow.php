@@ -108,7 +108,7 @@ final class TranslatewikiManagementGenerateWorkflow
         continue;
       }
 
-      $output = $this->getPhabricatorTranslation($string);
+      $output = $this->getPhabricatorTranslation($string, $project_data[$key]);
       if ($output === null) {
         continue;
       }
@@ -163,7 +163,7 @@ EOCLASS;
     return 0;
   }
 
-  private function getPhabricatorTranslation($string) {
+  private function getPhabricatorTranslation($translation, $source) {
 
     // First, we need to split all "{{PLURAL:$1|option|option}}" patterns
     // into variants. This is involved because multiple sections may use the
@@ -173,12 +173,12 @@ EOCLASS;
     $matches = null;
     $count = preg_match_all(
       $pattern,
-      $string,
+      $translation,
       $matches,
       PREG_SET_ORDER | PREG_OFFSET_CAPTURE);
 
     if (!$count) {
-      return $this->convertVariants($string);
+      return $this->convertVariants($translation, $source);
     }
 
     $patches = array();
@@ -205,11 +205,11 @@ EOCLASS;
       $max_position);
 
     $variants = $this->applyVariants(
-      $string,
+      $translation,
       $variants);
 
     $variants = $this->collapseVariants($variants);
-    $variants = $this->convertVariants($variants);
+    $variants = $this->convertVariants($variants, $source);
 
     return $variants;
   }
@@ -319,27 +319,27 @@ EOCLASS;
     return $variants;
   }
 
-  private function convertVariants($variants) {
+  private function convertVariants($variants,$source) {
     if (is_string($variants)) {
-      return $this->convertVariant($variants);
+      return $this->convertVariant($variants,$source);
     } else {
       foreach ($variants as $key => $variant) {
-        $variants[$key] = $this->convertVariants($variant);
+        $variants[$key] = $this->convertVariants($variant,$source);
       }
       return $variants;
     }
   }
 
-  private function convertVariant($string) {
+  private function convertVariant($string,$source) {
     // We're going to convert:
     //   - All "%" to "%%".
-    //   - All "$1" to "%s".
+    //   - All "$1" to "%s" or "%d" (based on the source string)
     //   - All "$$" to "$"
 
-    // TODO: We currently lose information about "%d" integers in the
-    // conversion process.
-
     $string = str_replace('%', '%%', $string);
+    $sourceMatches = null;
+    preg_match_all('/\\%(\\+?(?:[0-9]\\$)?(?:[0-9]+(?:\\.[0-9]+)?)?[sdf])/', $source, $sourceMatches);
+    $sourceMatches = $sourceMatches[1];
 
     $matches = null;
     $count = preg_match_all(
@@ -357,13 +357,18 @@ EOCLASS;
         if ($match[0] == '$') {
           // Convert '$$' to '$'
           $replacement = '$';
-          $n--;
         } else {
           $idx = (int)$match[0];
+          // $sourceMatches[$idx-1] should be set, but might not be 
+          // for an `edge type` message where the source string doesn't
+          // use all parameters. Validation should be handled by `bin/i18n validate`
+          // not here, anyway
+          $specifier = $sourceMatches[$idx-1] ?? 's';
           if ($idx == $n) {
-            $replacement = '%s';
+            $replacement = '%'.$specifier;
+            $n++;
           } else {
-            $replacement = '%'.$idx.'$s';
+            $replacement = '%'.$idx.'$'.$specifier;
           }
         }
         $string = substr_replace(
@@ -373,7 +378,6 @@ EOCLASS;
           strlen($match[0]) + 1);
 
         $adjust += (strlen($replacement) - (strlen($match[0]) + 1));
-        $n++;
       }
     }
 

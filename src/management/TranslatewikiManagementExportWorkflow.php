@@ -413,7 +413,7 @@ final class TranslatewikiManagementExportWorkflow
     // We're going to convert all "%s", "%d", etc., to "$1", "$2", etc.
     // Convert all `$` to `$$` too.
 
-    $pattern = '/(\%(?:[0-9]\\$)?.|\\$)/';
+    $pattern = '/(\\%\\+?(?:[0-9]\\$)?(?:[0-9]+(?:\\.[0-9]+)?)?[sdf\\%]|\\$)/';
     $matches = null;
     $count = preg_match_all(
       $pattern,
@@ -455,15 +455,11 @@ final class TranslatewikiManagementExportWorkflow
             if (preg_match('/%([0-9])\$/', $text, $submatches)) {
               $replacement = '$'.$submatches[1];
             } else {
-              echo tsprintf(
-                "%s\n",
-                pht(
-                  'Unable to extract string with unrecognized "%%" pattern, '.
-                  '"%s": %s.',
-                  $text,
-                  $string));
-              return null;
-            }
+              // It's not a backref, it's some crazy format specifier
+              // but generate should still be able to backread it
+              $replacement = '$'.$n;
+              $n++;
+           }
         }
 
         if ($replacement !== null) {
