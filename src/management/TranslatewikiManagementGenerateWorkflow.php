@@ -81,40 +81,10 @@ final class TranslatewikiManagementGenerateWorkflow
           'Provide an output file with "--out".'));
     }
 
-    $source_data = Filesystem::readFile($source);
-    $source_data = phutil_json_decode($source_data);
-
     $translatewiki_root = phutil_get_library_root('translations');
     $project_root = "{$translatewiki_root}/../projects/{$project}/";
 
-    $project_data = Filesystem::readFile($project_root.'/en-x-raw.json');
-    $project_data = phutil_json_decode($project_data);
-
-    $result = array();
-    foreach ($source_data as $key => $string) {
-      if ($key === '@metadata') {
-        # Ignore the '@metadata' key that translatewiki.net exports add
-        continue;
-      }
-      if (!isset($project_data[$key])) {
-        if (is_array($string)) {
-          $string = json_encode($string);
-        }
-        echo tsprintf(
-          "%s\n",
-          pht(
-            'Ignoring string "%s"; not present in translation source file.',
-            $string));
-        continue;
-      }
-
-      $output = $this->getPhabricatorTranslation($string, $project_data[$key]);
-      if ($output === null) {
-        continue;
-      }
-
-      $result[$project_data[$key]] = $output;
-    }
+    $result = $this->getStrings($source, $project_root.'/en-x-raw.json');
 
     $export_locale = var_export($locale, true);
     $export_strings = var_export($result, true);
@@ -163,6 +133,40 @@ EOCLASS;
     return 0;
   }
 
+  public function getStrings($source, $raw) {
+    $source_data = Filesystem::readFile($source);
+    $source_data = phutil_json_decode($source_data);
+
+    $project_data = Filesystem::readFile($raw);
+    $project_data = phutil_json_decode($project_data);
+
+    $result = array();
+    foreach ($source_data as $key => $string) {
+      if ($key === '@metadata') {
+        # Ignore the '@metadata' key that translatewiki.net exports add
+        continue;
+      }
+      if (!isset($project_data[$key])) {
+        if (is_array($string)) {
+          $string = json_encode($string);
+        }
+        echo tsprintf(
+          "%s\n",
+          pht(
+            'Ignoring string "%s"; not present in translation source file.',
+            $string));
+        continue;
+      }
+
+      $output = $this->getPhabricatorTranslation($string, $project_data[$key]);
+      if ($output === null) {
+        continue;
+      }
+
+      $result[$project_data[$key]] = $output;
+    }
+    return $result;
+  }
   private function getPhabricatorTranslation($translation, $source) {
 
     // First, we need to split all "{{PLURAL:$1|option|option}}" patterns
