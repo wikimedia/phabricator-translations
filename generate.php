@@ -1,5 +1,8 @@
 #!/usr/bin/php
 <?php
+// Remove any old translations, in case any JSON files in projects/ were deleted by translatewiki
+// to prevent the corresponding PHP files in src/translations from becoming orphan
+shell_exec('rm src/translations/*.php');
 $findcmd = 'find ./projects/ -name *.json -not ' .
            '-name qqq.json -not -name en-x-raw.json -not -name en.json';
 $json_files = explode("\n", trim(shell_exec($findcmd)));
