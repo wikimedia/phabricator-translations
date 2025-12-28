@@ -14,10 +14,7 @@ final class TranslateWikiCatalanCa extends PhutilLocale {
     }
 
     public function getFallbackLocaleCode() {
-        // MediaWiki has Catalan fallback to Occitan, but Occitan doesn't have a Phabricator locale file
-        // so skip that and fall back to English (or otherwise "Proto-English" AKA English without plural/grammar/gender
-        // would be the fallback)
-        return 'en_US';
+      return array('oc', 'en_US');
     }
 
 }
