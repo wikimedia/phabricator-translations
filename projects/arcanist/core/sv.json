@@ -6,6 +6,7 @@
 			"Josve05a",
 			"Pyscowicz",
 			"Sabelöga",
+			"Stefan2255",
 			"Tommy Kronkvist",
 			"Umeaboy",
 			"WikiPhoenix",
@@ -333,7 +334,7 @@
 	"acd4ca5bbb162a18": "Kommentarsstil",
 	"af755983d2327d3f": "Använd `$1` för att kontrollera om strängen börjar med någonting.",
 	"b217e98c3bf70f3c": "Ruby",
-	"b28c1e89bcdccffd": "Alias",
+	"b28c1e89bcdccffd": "ALIAS",
 	"b377030b3ab13ee1": "Kunde inte hitta $1 eller $2 i $3!",
 	"b3a2a9cef0371aab": "Använd `$1` för att upptäcka syntaxfel i JSON-filer.",
 	"b3da591a2558121f": "Förgreningsnamnet $1 finns redan; provar ett nytt namn.",
@@ -397,5 +398,5 @@
 	"fdd289e370bd5cc5": "sep",
 	"fe1b1b0aa8c2bb86": "\"Name\", \"Added\", \"Deleted\" eller \"Modified\" förväntades.",
 	"fe74160175239465": "TILLGÄNGLIG",
-	"ffdefc1b62912faa": "DU MÅSTE __INSTALLERA ETT CERTIFIKAT__ FÖR ATT LOGGA IN PÅ PHABRICATOR"
+	"ffdefc1b62912faa": "DU MÅSTE __INSTALLERA ETT CERTIFIKAT__ FÖR ATT LOGGA IN"
 }

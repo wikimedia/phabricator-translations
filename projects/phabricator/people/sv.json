@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Sabelöga",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
 	"15993def79b322aa": "Användaren har inte tilldelats några emblem.",
 	"323a032511a11096": "Användaren tillhör inte några projekt.",
-	"4376e186d426e0a6": "[Phabricator] Välkommen till Phabricator",
+	"4376e186d426e0a6": "[$1] Välkommen till $2",
 	"4de9ced4c16fad3d": "Tilldelades av $1",
 	"5addd7d6b4f9f393": "Användardetaljer",
 	"681b5b5ae10b994e": "Tillgänglighet",

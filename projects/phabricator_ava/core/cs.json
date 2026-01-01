@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Polda18"
+			"Polda18",
+			"Pppery"
 		]
 	},
 	"09858ae94db095dc": "Antivandalismus",
@@ -16,7 +17,7 @@
 	"ae921fb953da171b": "Zadané uživatelské jméno / userPHID nebylo nalezeno",
 	"c87f0b0117f8b84f": "Zakázat vandalské účty.",
 	"c8e32e0e61bd8e64": "Uživatelské jméno, pro které budou transakce hodnoceny.",
-	"c918ee254f7290e8": "$1 {{GENDER:$1|spustil|spustila}} protiopatření proti vandalismu ($2) editací $3.",
+	"c918ee254f7290e8": "$1 spustil protiopatření proti vandalismu ($2) editací $3",
 	"f34ac77f7e82d8ff": "Žádná akce",
 	"faa0b89058a6fbd0": "Zkontrolujte vandalismus"
 }

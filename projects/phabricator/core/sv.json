@@ -3,6 +3,7 @@
 		"authors": [
 			"Jon Harald Søby",
 			"Pyscowicz",
+			"Stefan2255",
 			"WikiPhoenix",
 			"Yupik"
 		]
@@ -65,7 +66,7 @@
 	"77dfd2135f4db726": "Avbryt",
 	"7a0130a331bd47db": "Inträffar innan",
 	"7e16ba3c15c28fe2": "Kunde inte lösa metoden \"$1\".",
-	"7e36502c1b399482": "Välkommen till Phabricator!",
+	"7e36502c1b399482": "Välkommen till $1!",
 	"816c52fd2bdd94a6": "Nej",
 	"848eed0fbd5429f5": "Taggar",
 	"84add5b295278758": "E-post",
@@ -80,7 +81,7 @@
 	"a1aafaa64999b57a": "Stängd, ogiltig",
 	"accf40c89baa4fa8": "Skapades",
 	"b4cd7014b8f1bccf": "Stängd status",
-	"b4e44e40dfb8e1d8": "$1 har bjudit in dig till att gå med i Phabricator.",
+	"b4e44e40dfb8e1d8": "$1 har bjudit in dig att gå med i $2 .",
 	"b68734c259106d13": "Lade till",
 	"b7152342a267362a": "Storlek",
 	"bbd6e32ee1326237": "Fre",

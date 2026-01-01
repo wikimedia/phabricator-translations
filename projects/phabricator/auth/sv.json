@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Sabelöga",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -24,7 +25,7 @@
 	"6b464e683e6a3fce": "Avsluta session",
 	"71b6a1901b0957e8": "Länka LDAP-konto",
 	"7252e3fdb361aab5": "ldap.exempel.com",
-	"812e1fc6ca8c4f61": "Logga in på Phabricator",
+	"812e1fc6ca8c4f61": "Logga in på $1",
 	"889fac82e7ff3ffc": "Registrera ett konto",
 	"8e79d5b106832aa0": "LDAP-lösenord",
 	"95234e834cee36b3": "Det gick inte att ansluta till LDAP-servern ($1:$2).",
