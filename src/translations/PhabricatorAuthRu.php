@@ -10,6 +10,7 @@ final class PhabricatorAuthRu
   protected function getTranslations() {
     return array(
       'This key has been revoked. Choose or generate a new, unique key.' => 'Этот ключ был отозван. Выберите или сгенерируйте новый, уникальный ключ.',
+      'Passwords' => 'Пароль',
       'Algorithm' => 'Алгоритм',
       'You must specify the username of the account to recover.' => 'Для восстановления вы должны указать имя пользователя от аккаунта.',
       'Revoke Tokens' => 'Отозвать токены',

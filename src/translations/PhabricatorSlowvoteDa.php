@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteDa
 
   protected function getTranslations() {
     return array(
-      '%s renamed %s.' => '%s pmdøbte %s.',
       'Reopen' => 'Genåbn',
       'Responses' => 'Svar',
     );

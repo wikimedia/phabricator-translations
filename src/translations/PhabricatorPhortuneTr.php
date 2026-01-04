@@ -176,7 +176,7 @@ final class PhabricatorPhortuneTr
        - **API İmzasını Görüntüle** seçeneğini seçin.
        - **API Kullanıcı Adı**, **API Şifre** ve **İmza**\'yı yukarıdaki alanlara kopyalayın.
     Sağlayıcının test modunda çalışıp çalışmayacağını veya yukarıdaki **Mod** açılır menüsünü kullanarak canlı ödemeleri kabul edip etmeyeceğinizi seçebilirsiniz.
-    Canlı kimlik bilgilerini almak için `sandbox.paypal.com`\'u veya canlı kimlik bilgilerini almak için `paypal.com`\'u kullanabilirsiniz.',
+    Test kimlik bilgilerini almak için `sandbox.paypal.com` adresini veya canlı kimlik bilgilerini almak için `paypal.com` adresini kullanabilirsiniz.',
       'Order %d: %s' => 'Sipariş %s: %s',
       'Stripe' => 'Stripe',
       'Error Adding Payment Method' => 'Ödeme Yöntemi Ekleme Hatası',
@@ -215,7 +215,7 @@ final class PhabricatorPhortuneTr
       'Create Provider' => 'Sağlayıcı Oluştur',
       'No payment methods configured.' => 'Yapılandırılmış ödeme yöntemi yok.',
       'Cancel Order?' => 'Siparişi İptal Edilsin mi?',
-      'A merchant\'s members can always view and edit it.' => 'Bir tüccarın üyeleri her zaman onu görüntüler ve düzenler.',
+      'A merchant\'s members can always view and edit it.' => 'Bir tüccarın üyeleri bunu her zaman görüntüleyebilir ve düzenleyebilir.',
       'Stripe Secret Key is required.' => 'Şerit Gizli Anahtarı gereklidir.',
       'Account name for billing purposes.' => 'Faturalandırma amaçlı hesap adı.',
       'Adds a test provider to allow you to test payments. This allows users to make purchases by clicking a button without actually paying any money.' => 'Ödemeleri test etmenize izin vermek için bir test sağlayıcı ekler. Bu, kullanıcıların gerçekten herhangi bir para ödemeden bir düğmeye tıklayarak alım yapmalarını sağlar.',

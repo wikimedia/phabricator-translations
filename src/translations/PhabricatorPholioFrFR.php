@@ -53,7 +53,6 @@ final class PhabricatorPholioFrFR
       'Create Mock' => 'Créer une simulation',
       'All Mocks' => 'Toutes les maquettes',
       'Click here, or drag and drop images to add them to the mock.' => 'Cliquez ici ou glissez et déposez des images à ajouter à la simulation.',
-      'A mock\'s owner can always view and edit it.' => 'Un propriétaire de simulation peut toujours la visualiser et la modifier.',
       'Interacting with Pholio Mocks' => 'Interactions avec les maquettes de Pholio',
       'Upload Complete...' => 'Téléversement terminé...',
       'Things before they were cool.' => 'Les choses avant qu’elles étaient cool.',

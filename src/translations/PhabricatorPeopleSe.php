@@ -11,7 +11,6 @@ final class PhabricatorPeopleSe
     return array(
       'Email: Add Address' => 'E-poasta: lasit čujuhusa',
       'Usernames' => 'Geavaheaddjinamat',
-      'Hide Bots' => 'Čiega bohtaid',
       'users' => 'geavaheaddjit',
       'New Username: %s' => 'Ođđa geavaheaddjinamma: %s',
       'Email: Verify Address' => 'E-poasta: Nanne čujuhusa',

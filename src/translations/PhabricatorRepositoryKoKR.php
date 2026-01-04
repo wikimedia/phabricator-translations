@@ -9,7 +9,6 @@ final class PhabricatorRepositoryKoKR
 
   protected function getTranslations() {
     return array(
-      'Unknown repository type \'%s\'!' => '알 수 없는 저장소 유형 \'%s\'!',
       'Push Event' => '푸시 이벤트',
       'Unknown VCS \'%s\'!' => '알 수 없는 VCS \'%s\'!',
       '%s set the copy time limit for this repository to %s seconds.' => '%s님이 이 저장소의 복사 시간 제한을 %s초로 설정했습니다.',
@@ -135,7 +134,7 @@ final class PhabricatorRepositoryKoKR
       'Error While Initializing Repository' => '저장소를 초기화하는 동안 오류가 발생했습니다',
       '%s moved storage for this repository from %s to local.' => '%s님이 이 저장소의 스토리지를 %s에서 로컬로 이동했습니다.',
       'Apply these changes?' => '이 변경사항을 적용하시겠습니까?',
-      'Path "%s" is not unknown.' => '"%s" 경로는 파브리케이터가 알지 못합니다.',
+      'Path "%s" is not unknown.' => '"%s" 경로는 알려지지 않았습니다.',
       '[Push]' => '[푸시]',
       'BRANCHES' => '브랜치',
       'Expected %s or %s, got %s.' => '%s 또는 %s을(를) 예측하였으나 %s을(를) 가져왔습니다.',

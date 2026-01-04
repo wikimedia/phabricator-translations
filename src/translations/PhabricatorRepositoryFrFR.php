@@ -10,7 +10,6 @@ final class PhabricatorRepositoryFrFR
   protected function getTranslations() {
     return array(
       'Repository "%s" is a non-hosted Subversion repository, which does not require a local working copy to be pulled.' => 'Le dépôt %s est un dépôt Subversion non hébergé, qui ne nécessite pas d’extraire de copie de travail locale.',
-      'Unknown repository type \'%s\'!' => 'Type de dépôt « %s » inconnu !',
       'No importing commits found.' => 'Aucune validation d’importation trouvée.',
       'The selected repository short name is already in use by another repository. Choose a unique short name.' => 'Le nom court sélectionné pour le dépôt est déjà utilisé par un autre dépôt. Choisissez un nom court unique.',
       'Waiting to acquire write lock for "%s"...' => 'Attente d’acquisition du verrou d’écriture pour « %s »...',
@@ -528,6 +527,7 @@ final class PhabricatorRepositoryFrFR
       'This audit is attached to a commit, and inherits its policies.' => 'Cet audit est attaché à une validation et hérite de ses politiques.',
       'Search for repositories by clone/checkout URI.' => 'Rechercher des dépôts par URI de clonage ou de récupération.',
       'Error updating working copy: %s' => 'Erreur lors de la mise à jour de la copie de travail : %s',
+      'Search for repositories of a specific VCS type.' => 'Rechercher les dépôts d\'un type VCS spécifique.',
       'Patch size exceeds configured byte size limit ("%s") of %s.' => 'La taille du correctif dépasse la limite de taille en octets configurée (« %s ») de %s.',
       'Fetch rule (at index "%s") must be a string, got "%s".' => 'La règle de récupération (à l’index « %s ») doit être une chaîne, mais « %s » a été obtenu.',
       'Sync Event %d' => 'Événement synchronisé %s',

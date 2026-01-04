@@ -26,7 +26,6 @@ final class PhabricatorPhidCa
       'The objects you have listed include objects which do not exist (%s).' => 'Els objectes que heu llistat inclouen objectes que no existeixen (%s).',
       'Trying to create a new sublist of an existing handle list, but PHID "%s" does not appear in the parent list.' => 'S\'està intentant crear una nova subllista d\'una llista de referències existent, però el PHID "%s" no apareix a la llista de pares.',
       'Attempting to attach capability ("%s") for object ("%s") to handle, but this handle (of type "%s") can not have capabilities.' => 'Intentant adjuntar la capacitat ("%s") per a l\'objecte ("%s") per gestionar, però aquesta nansa (de tipus "%s") no pot tenir capacitats.',
-      'Replaced by \'phid.query\'.' => 'Reemplaçat per \'phid.query\'.',
       'The objects you have listed include objects of the wrong type (%s) and objects which do not exist (%s).' => 'Els objectes que heu llistat inclouen objectes de tipus incorrecte (%s) i objectes que no existeixen (%s).',
       'No such object exists.' => 'No existeix aquest objecte.',
       'Can not generate PHID with no type.' => 'No es pot generar un PHID sense tipus.',

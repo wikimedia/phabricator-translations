@@ -32,7 +32,7 @@ final class PhabricatorOwnersTr
       'Auto Review' => 'Otomatik İnceleme',
       'Packages: Invalid Owner' => 'Paketler: Geçersiz Sahip',
       'Auto review information.' => 'Otomatik inceleme bilgisi.',
-      'Group sections of a codebase into packages for re-use in other applications, like Herald rules.' => 'Bir kod tabanının bölümlerini, Herald kuralları gibi Phabricator\'ın diğer alanlarında yeniden kullanılmak üzere paketler halinde gruplayın.',
+      'Group sections of a codebase into packages for re-use in other applications, like Herald rules.' => 'Herald kuralları gibi, bir kod tabanının bölümlerini diğer uygulamalarda yeniden kullanılmak üzere paketlere gruplayın.',
       'Path Not Found On Default Branch' => 'Varsayılan Dalda Bulunmayan Yol',
       'Affected By Herald Rules' => 'Herald Kuralları Tarafından Etkilendi',
       'Users and projects which own the package.' => 'Paketin sahibi olan kullanıcılar ve projeler.',

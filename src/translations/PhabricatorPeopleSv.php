@@ -11,7 +11,7 @@ final class PhabricatorPeopleSv
     return array(
       'User has not been awarded any badges.' => 'Användaren har inte tilldelats några emblem.',
       'User does not belong to any projects.' => 'Användaren tillhör inte några projekt.',
-      '[%s] Welcome to %s' => '[Phabricator] Välkommen till Phabricator',
+      '[%s] Welcome to %s' => '[%s] Välkommen till %s',
       'Awarded by %s' => 'Tilldelades av %s',
       'User Details' => 'Användardetaljer',
       'Availability' => 'Tillgänglighet',

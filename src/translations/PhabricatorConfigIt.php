@@ -9,6 +9,7 @@ final class PhabricatorConfigIt
 
   protected function getTranslations() {
     return array(
+      'Or:' => 'O:',
       '%s / %s' => '%s / %s',
       '(%s%s) %s' => '(%s%s) %s',
       'Proto' => 'Foto',

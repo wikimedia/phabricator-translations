@@ -16,7 +16,6 @@ final class PhabricatorFilesEl
       'NONE' => 'Τίποτα',
       'Show what would be updated.' => 'Εμφάνιση τι θα έπρεπε να ενημερωθεί.',
       'ERROR' => 'Σφάλμα',
-      'Supported' => 'Υποστηριζόμενα',
       'Transforms' => 'Μεταμορφώσεις',
       '1 of 99 Problems' => '1 από 99 προβλήματα',
       'Mechanical' => 'Μηχανικό',

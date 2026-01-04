@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteSv
 
   protected function getTranslations() {
     return array(
-      '%s renamed %s.' => '%s bytte namn till %s.',
       'Create a Poll' => 'Skapa en omröstning',
     );
   }

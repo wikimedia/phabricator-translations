@@ -40,7 +40,6 @@ final class PhabricatorPhurlTr
       'Create New URL' => 'Yeni URL Oluştur',
       'URL DESCRIPTION' => 'URL AÇIKLAMASI',
       'New alias.' => 'Yeni takma ad.',
-      'The owner of a URL can always view and edit it.' => 'Bir URL\'nin sahibi her zaman onu görüntüleyebilir ve düzenleyebilir.',
       'Original URL' => 'Orijinal URL',
       'The pre-shortened URL.' => 'Ön kısaltılmış URL.',
       'The protocol of the URL is invalid.' => 'URL\'nin protokolü geçersiz.',

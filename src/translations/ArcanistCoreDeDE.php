@@ -70,7 +70,7 @@ final class ArcanistCoreDeDE
       'No tests to run.' => 'Keine auszuführenden Tests.',
       'Expected JSON response from Slack.' => 'Erwartete JSON-Antwort von Slack.',
       '%s assertion(s) passed.' => array(
-        'one=Eine Behauptung hat bestanden',
+        'Eine Behauptung hat bestanden',
         '%s Behauptungen haben bestanden',
       ),
       'Do not copy changes to the staging area.' => 'Kopiere keine Änderungen in den Stagingbereich.',
@@ -114,7 +114,7 @@ final class ArcanistCoreDeDE
       'Unable to find \'%s\' file to configure test engines. Create an \'%s\' file in the root directory of the working copy.' => 'Konnte die Datei \'%s\' zum Konfigurieren der Test-Engines nicht finden. Erstelle eine \'%s\'-Datei im Wurzelverzeichnis der Arbeitskopie.',
       'Use the message from a specific revision. If you do not specify a revision, arc will guess which revision is in the working copy.' => 'Benutze die Nachricht von einer bestimmten Version. Wenn du keine Version nennst, wird arc raten, welche Version in der Arbeitskopie ist.',
       'Do you want to create a new commit with these %s change(s)?' => array(
-        'Möchtest du einen Commit mit one=dieser Änderung erstellen?',
+        'Möchtest du einen Commit mit dieser Änderung erstellen?',
         'Möchtest du einen Commit mit diesen %s Änerungen erstellen?',
       ),
       'Unexpected "%s" section in property addition.' => 'Unerwarteter "%s"-Abschnitt in der Eigenschaftshinzufügung',

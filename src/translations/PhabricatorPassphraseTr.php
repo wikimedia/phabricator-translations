@@ -95,7 +95,7 @@ final class PhabricatorPassphraseTr
       '%s allowed Conduit API access to this credential.' => '%s, bu kimlik bilgisine Kanal API erişimine izin verdi.',
       'New Credential: %s' => 'Yeni Kimlik Bilgisi: %s',
       '%s (Restricted Credential)' => '%s (Sınırlı Kimlik Bilgisi)',
-      'Credential management and general storage of shared secrets.' => 'Phabricator\'ın diğer alanlarında yeniden kullanım için kimlik yönetimi veya ortak sırların genel depolanması.',
+      'Credential management and general storage of shared secrets.' => 'Kimlik bilgisi yönetimi ve paylaşılan sırların genel depolanması.',
       'Passphrase Credential' => 'Parola Kimlik Bilgisi',
       'Password for Key' => 'Anahtar için Şifre',
       'Prevent the secret from being revealed or changed.' => 'Sırrın açığa çıkmasını veya değiştirilmesini önleyin.',

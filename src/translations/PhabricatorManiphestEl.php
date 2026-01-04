@@ -23,7 +23,6 @@ final class PhabricatorManiphestEl
       'This task has been locked.' => 'Αυτή η εργασία έχει κλειδωθεί.',
       '%s claimed %s.' => 'Ο %s διεκδίκησε το %s.',
       'TASK DETAIL' => 'Λεπτομέρεια εργασίας',
-      'The task already has the selected owner.' => 'Η εργασία έχει ήδη τον επιλεγμένο ιδιοκτήτη της.',
       'Search Subtasks' => 'Αναζήτηση υποεργασιών',
       'Merged' => 'Συγχωνεύτηκε',
       'Closed after %s' => 'Έκλεισε μετά το %s',

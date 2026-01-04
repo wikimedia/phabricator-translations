@@ -20,7 +20,6 @@ final class PhabricatorManiphestPl
       'This task has been locked.' => 'To zadanie zostało zablokowane.',
       '%s claimed %s.' => '%s podjął %s.',
       'TASK DETAIL' => 'SZCZEGÓŁY ZADANIA',
-      'The task already has the selected owner.' => 'To zadanie ma już wybranego właściciela.',
       'Changed Task Priority' => 'Zmieniono priorytet zadania',
       'Changed task priority to "%s".' => 'Zmieniono priorytet zadania na „%s”.',
       'Tasks must have a title.' => 'Zadania muszą mieć tytuł.',

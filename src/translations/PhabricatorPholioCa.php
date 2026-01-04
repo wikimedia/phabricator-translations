@@ -48,7 +48,6 @@ final class PhabricatorPholioCa
       'Create Mock' => 'Crear una simulació',
       'All Mocks' => 'Totes les simulacions',
       'Click here, or drag and drop images to add them to the mock.' => 'Feu clic aquí o arrossegueu i deixeu anar les imatges per afegir-les a la simulació.',
-      'A mock\'s owner can always view and edit it.' => 'El propietari d’un simulador sempre el pot veure i editar.',
       'Interacting with Pholio Mocks' => 'Interaccionant amb simulacions de Pholio',
       'Upload Complete...' => 'Càrrega finalitzada...',
       'Things before they were cool.' => 'Les coses abans eren genials.',

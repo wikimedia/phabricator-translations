@@ -10,7 +10,7 @@ final class PhabricatorBaseTr
   protected function getTranslations() {
     return array(
       'No application \'%s\'!' => '\'%s\' uygulaması yok!',
-      'This application is required, so all users must have access to it.' => 'Bu uygulama, Phabricator\'ın çalışması için gereklidir, bu nedenle tüm kullanıcıların buna erişimi olmalıdır.',
+      'This application is required, so all users must have access to it.' => 'Bu uygulama zorunludur, dolayısıyla tüm kullanıcıların buna erişebilmesi gerekir.',
       'Can Configure Application' => 'Uygulamayı Yapılandırabilir',
       'Can Use Application' => 'Uygulama Kullanabilir',
       'Core Applications' => 'Çekirdek Uygulamaları',

@@ -54,7 +54,7 @@ final class PhabricatorSearchKoKR
       'Query Name' => '쿼리 이름',
       'No search engines available.' => '사용 가능한 검색 엔진이 없습니다.',
       'Engine: Index' => '엔진: 색인',
-      'Constraints' => '사용자 지정 쿼리 제약',
+      'Constraints' => '제약 조건',
       'Edit Saved Query' => '저장된 쿼리 편집',
       'Menu Items' => '메뉴 항목',
       'Hide Query' => '쿼리 숨기기',

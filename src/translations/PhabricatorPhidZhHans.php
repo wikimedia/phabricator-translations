@@ -23,7 +23,6 @@ final class PhabricatorPhidZhHans
       'Unknown Object (%s)' => '未知对象（%s）',
       'The objects you have listed include objects which do not exist (%s).' => '您列举的对象包含不存在的对象（%s）。',
       'Trying to create a new sublist of an existing handle list, but PHID "%s" does not appear in the parent list.' => '试图创建现有句柄列表的新的子列表，但PHID“%s”并未在父表中出现。',
-      'Replaced by \'phid.query\'.' => '已替换为“phid.query”。',
       'The objects you have listed include objects of the wrong type (%s) and objects which do not exist (%s).' => '您列出的对象中有些对象的类型有误（%s），有些对象不存在（%s）。',
       'No such object exists.' => '不存在这种对象。',
       'Can not generate PHID with no type.' => '不能生成没有类型的PHID。',

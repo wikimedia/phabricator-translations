@@ -17,6 +17,7 @@ final class PhabricatorDifferentialLb
       'No Actions' => 'Keng Aktiounen',
       'Left' => 'Lénks',
       'Right' => 'Riets',
+      'Change Author' => 'Auteur änneren',
       'All Changesets' => 'All Ännerungssätz',
       'Discard Edit' => 'Ännerung verwerfen',
       'Request Changes' => 'Ännerunge froen',

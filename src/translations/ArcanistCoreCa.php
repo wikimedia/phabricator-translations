@@ -1514,7 +1514,6 @@ final class ArcanistCoreCa
       'Created task %s: \'%s\' at %s
     ' => 'Tasca creada %s: \'%s\' a %s',
       'cover does not currently support %s in svn.' => 'la cobertura actualment no admet %s a svn.',
-      'You have specified "--draft", but the software version on the server is too old to support draft revisions. Omit the flag or upgrade the server software.' => 'Heu especificat "--draft", però la versió de Phabricator al servidor és massa antiga per admetre les revisions d\'esborrany. Omet la marca o actualitza el programari del servidor.',
       'Status' => 'Estat',
       'Formatted String' => 'Cadena formatada',
       'Two different HTTP extensions ("%s" of class "%s" and "%s" of class "%s") both provided a proxy URI for URI "%s". No more than one extension may provide a proxy for any URI.' => 'Dues extensions HTTP diferents ("%s" de classe "%s" i "%s" de classe "%s") van proporcionar un URI intermediari per a l\'URI "%s". No hi ha més d\'una extensió que pugui proporcionar un servidor intermediari per a qualsevol URI.',
@@ -1537,7 +1536,6 @@ final class ArcanistCoreCa
       '`%s` Method Cannot Be Declared `%s`' => 'El mètode \'%s\' no es pot declarar \'%s\'',
       'Channel closed!' => 'Canal tancat!',
       'PASS' => 'PASS',
-      'class or interface' => 'classe o interfície',
       'Expected an array for %%L%s conversion.' => 'S\'esperava un array per a la conversió de %%L%s.',
       'Failed to replace template variables while rendering cow!' => 'No s\'ha pogut substituir les variables de plantilla mentre es renderitzava una vaca!',
       '[Invalid Translation!] %s' => '[Traducció no vàlida!] %s',

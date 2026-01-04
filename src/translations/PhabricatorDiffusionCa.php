@@ -108,6 +108,18 @@ final class PhabricatorDiffusionCa
       'Allow or prevent dangerous changes.' => 'Permetre o impedir canvis perillosos.',
       'All Identities' => 'Totes les identitats',
       'Repository "%s" is a cluster repository, but the current host is not a cluster device (it has no device ID), so the repository will not be updated on this host.' => 'El repositori "%s" és un repositori de clúster, però l\'amfitrió actual no és un dispositiu de clúster (no té cap identificador de dispositiu), de manera que el repositori no s\'actualitzarà en aquest amfitrió.',
+      'Provide the URI of a Git repository. It should usually look like one of these examples:
+    | Example Git URIs
+    | -----------------------
+    | `git@github.com:example/example.git`
+    | `ssh://user@host.com/git/example.git`
+    | `https://example.com/repository.git`
+    **For Gerrit URIs below: Please do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead - thanks!**' => 'Proporcioneu l\'URI d\'un repositori Git. Similar a un d’aquests exemples:
+    | Exemple Git URI
+    | ---------------
+    | `git@github.com:example/example.git`
+    | `ssh://user@host.com/git/example.git`
+    | `https://example.com/repository.git`',
       'Your VCS password has been updated.' => 'La vostra contrasenya de VCS ha estat actualitzada.',
       'Change the repository short name.' => 'Canvia el nom curt del repositori.',
       'Change the repository description.' => 'Canvia la descripció del repositori.',
@@ -270,7 +282,6 @@ final class PhabricatorDiffusionCa
       'Set the permanent refs.' => 'Estableix les referències permanents.',
       'Unknown VCS \'%s!\'' => 'VCS \'%s\' desconegut!',
       'Get commit identifiers for recent commits affecting a given path.' => 'Obté identificadors de validació per a confirmacions recents que afecten una ruta determinada.',
-      'Obsoleted by "diffusion.historyquery".' => 'Obsolet per "diffusion.historyquery".',
       'This path does not exist at %s. It was deleted in %s and last existed at %s.' => 'Aquesta ruta no existeix a %s. Va ser eliminada a %s i última existència a %s.',
       'New fetched refs.' => 'Referències recuperades noves.',
       'Search for identities by substring.' => 'Cerca identitats per subcadena.',
@@ -853,17 +864,6 @@ final class PhabricatorDiffusionCa
       'This external reference matches multiple known commits.' => 'Aquesta referència externa coincideix amb diverses validacions conegudes.',
       'Commit uses Git LFS' => 'La validació utilitza Git LFS',
       'No Default Branch' => 'Cap branca predeterminada',
-      'Provide the URI of a Git repository. It should usually look like one of these examples:
-    | Example Git URIs
-    | -----------------------
-    | `git@github.com:example/example.git`
-    | `ssh://user@host.com/git/example.git`
-    | `https://example.com/repository.git`' => 'Proporcioneu l\'URI d\'un repositori Git. Similar a un d’aquests exemples:
-    | Exemple Git URI
-    | ---------------
-    | `git@github.com:example/example.git`
-    | `ssh://user@host.com/git/example.git`
-    | `https://example.com/repository.git`',
       'Very Large Commit' => 'Validació molt gran',
       'No Callsign' => 'Cap indicatiu de trucada',
       'Enable Notifications, Feed, and Herald' => 'Activa Notificacions, Continguts i Herald',

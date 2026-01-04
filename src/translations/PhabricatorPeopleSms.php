@@ -20,7 +20,6 @@ final class PhabricatorPeopleSms
       'Bots' => 'Boott',
       'Admin' => 'Âʹlnnõõʹnni',
       'Rename User' => 'Uuʹd õõʹnnʼja ođđ nõõm',
-      'Hide Bots' => 'Čiõǥǥ boottid',
       'users' => 'õõʹnni',
       'Approve User' => 'Priim õõʹnni',
       'emails' => 'e-pååʹštsaaǥǥ',

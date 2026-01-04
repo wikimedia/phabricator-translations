@@ -57,7 +57,6 @@ final class PhabricatorHarbormasterFrFR
       'Publishing "%s"...' => 'Publication en cours de « %s »...',
       'The name of the build target.' => 'Nom de la cible construite.',
       'Edit Plan' => 'Modifier le plan',
-      'Use %s instead.' => 'Utiliser %s à la place.',
       'This test has too much data to display inline.' => 'Ce test contient trop de données pour être affiché en ligne.',
       'Run %d' => 'Exécuter %s',
       'Organization Name' => 'Nom de l’organisation',

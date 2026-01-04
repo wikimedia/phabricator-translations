@@ -10,6 +10,8 @@ final class ArcanistCoreHe
   protected function getTranslations() {
     return array(
       'Aborted due to file upload failure. You can use %s to skip binary uploads.' => 'הופסק עקב כשל בהעלאת הקובץ. באפשרותך להשתמש ב%s כדי לדלג על העלאות בינאריות.',
+      'This working copy is associated with the %s repository.' => 'עותק העבודה הזה משויך למאגר %s.',
+      'Call to "posix_getpgid(...)" failed!' => 'הקריאה ל־„posix_getpgid(...)‎” נכשלה!',
       'Symbol "%s" does not identify a valid revision.' => 'הסמל "%s" אינו מזהה גרסה תקינה.',
       '"%s" (%s)' => '"%s" (%s)',
       'Saved "%s" as "%s".' => '"%s" נשמר בתור "%s".',
@@ -23,6 +25,7 @@ final class ArcanistCoreHe
       'Expected a list!' => 'הייתה אמורה להיות לרשימה!',
       'Empty key is invalid!' => 'מפתח ריק הוא אינו תקין!',
       'Unknown Symbol' => 'סימן לא ידוע',
+      'Project Config File' => 'קובץ הגדרות פרויקט',
       'English (Canada)' => 'אנגלית (קנדה)',
       'Author: %s' => 'יוצר: %s',
       'ERROR' => 'שגיאה',

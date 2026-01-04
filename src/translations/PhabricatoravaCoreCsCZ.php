@@ -21,10 +21,7 @@ final class PhabricatoravaCoreCsCZ
       'The specified username / userPHID was not found' => 'Zadané uživatelské jméno / userPHID nebylo nalezeno',
       'Disable vandal accounts.' => 'Zakázat vandalské účty.',
       'The username for whom transactions will be scored.' => 'Uživatelské jméno, pro které budou transakce hodnoceny.',
-      '%s triggered vandalism countermeasures (%s) by editing %s.' => array(
-        '%s spustil protiopatření proti vandalismu (%s) editací %s.',
-        '%s spustila protiopatření proti vandalismu (%s) editací %s.',
-      ),
+      '%s triggered vandalism countermeasures (%s) by editing %s.' => '%s spustil protiopatření proti vandalismu (%s) editací %s',
       'No action' => 'Žádná akce',
       'Scan for vandalism' => 'Zkontrolujte vandalismus',
     );

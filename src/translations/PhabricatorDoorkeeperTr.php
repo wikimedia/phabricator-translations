@@ -19,7 +19,7 @@ final class PhabricatorDoorkeeperTr
       'Using publisher \'%s\'.' => 'Yayıncı \'%s\' kullanılıyor.',
       'Connect to Other Software' => 'Diğer Yazılımlara Bağlan',
       'When %s creates tasks in Asana, it can add the tasks to Asana projects based on which application the corresponding object in %s comes from. For example, you can add code reviews in Asana to a "Differential" project.
-    NOTE: This feature is new and experimental.' => 'Phabricator Asana\'da görev oluşturduğunda, Ashab projelerine Phabricator\'daki ilgili nesnenin hangi uygulamadan geldiğine bağlı olarak görevler ekleyebilir. Örneğin, "Diferansiyel" bir projeye Asana\'da kod incelemeleri ekleyebilirsiniz.
+    NOTE: This feature is new and experimental.' => '%s Asana\'da görev oluşturduğunda, %s içindeki ilgili nesnenin hangi uygulamadan geldiğine bağlı olarak görevleri Asana projelerine ekleyebilir. Örneğin, "Diferansiyel" bir projeye Asana\'da kod incelemeleri ekleyebilirsiniz.
     NOT: Bu özellik yeni ve deneyseldir.',
       'Failed to update object %s using user %s.' => '%s kullanıcısı kullanılarak %s nesnesi güncellenemedi.',
       'You can find an Asana project ID by clicking the project in Asana and then examining the URL:
@@ -37,7 +37,7 @@ final class PhabricatorDoorkeeperTr
       '⚠ DO NOT EDIT THIS TASK ⚠
     ☠ Your changes will not be reflected in %s.
     ☠ Your changes will be destroyed the next time state is synchronized.' => '⚠ BU GÖREVİ DÜZENLEMEYİN ⚠
-    ☠ Yaptığınız değişiklikler Phabricator\'a yansıtılmayacak.
+    ☠ Yaptığınız değişiklikler %s içinde yansıtılmayacak.
     ☠ Durumunuz bir sonraki senkronize edildiğinde değişiklikleriniz yok edilir.',
       'JIRA integration is configured not to post anything.' => 'JIRA entegrasyonu hiçbir şey yayınlamayacak şekilde yapılandırılmıştır.',
       'Skipping main task update, object is no longer visible.' => 'Ana görev güncellemesi atlanır, nesne artık görünmez.',
@@ -74,7 +74,7 @@ final class PhabricatorDoorkeeperTr
       'GitHub User %s' => 'GitHub Kullanıcı %s',
       'GitHub Issue ID "%s" is not properly formatted. Expected an ID in the form "owner/repository#123".' => 'GitHub Sorun Kimliği "%s" düzgün biçimlendirilmemiş. "owner/repository#123" biçiminde bir kimlik bekleniyordu.',
       'Workspace Name' => 'Çalışma Alanı Adı.',
-      'This software is running in silent mode.' => 'Phabricator sessiz modda çalışıyor.',
+      'This software is running in silent mode.' => 'Bu yazılım sessiz modda çalışıyor.',
       'Unable to find any Asana user with valid credentials to pull an OAuth token out of.' => 'OAuth jetonunu çıkarmak için geçerli kimlik bilgilerine sahip Asana kullanıcısı bulunamadı.',
       'Synchronization of parent task from Asana failed!' => 'Asana\'dan üst görevin senkronizasyonu başarısız oldu!',
       'Optional Asana projects to use as application tags.' => 'Uygulama etiketi olarak kullanılacak isteğe bağlı Asana projeleri.',

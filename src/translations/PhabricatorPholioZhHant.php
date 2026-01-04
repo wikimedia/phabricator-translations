@@ -48,7 +48,6 @@ final class PhabricatorPholioZhHant
       'Create Mock' => '建立畫面模型',
       'All Mocks' => '所有畫面模型',
       'Click here, or drag and drop images to add them to the mock.' => '在此點擊，或是托放圖片來添加到畫面模型。',
-      'A mock\'s owner can always view and edit it.' => '畫面模型的擁有者可以對其做出檢視與編輯。',
       'Interacting with Pholio Mocks' => '與 Pholio 畫面模型互動',
       'Upload Complete...' => '上傳完成…',
       'Things before they were cool.' => '在事情看起來沒問題之前。',

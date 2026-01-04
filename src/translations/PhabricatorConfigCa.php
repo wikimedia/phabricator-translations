@@ -380,6 +380,7 @@ final class PhabricatorConfigCa
       'Maniphest fields are now defined in `%s`. Existing definitions have been migrated.' => 'Els camps Maniphest ara es defineixen a \'%s\'. S\'han migrat les definicions existents.',
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch ara està configurat amb \'%s\'.',
       'Configuring Outbound Email' => 'Configuració del correu electrònic de sortida',
+      'Enable recaptcha to require users solve captchas after a few failed login attempts. This hinders brute-force attacks against user passwords. For more information, see https://www.google.com/recaptcha' => 'Activeu la recaptcha per requerir que els usuaris resolguin captchas després d’uns intents d’inici de sessió fallits. Això dificulta els atacs de força bruta contra les contrasenyes dels usuaris. Per obtenir més informació, consulteu https://www.google.com/recaptcha',
       'Partial \'%s\' Support' => 'Compatibilitat \'%s\' parcial',
       'MySQL (on host "%s") is using a default stopword file, which will prevent searching for many common words.' => 'MySQL (a l\'amfitrió «%s») està utilitzant un fitxer de paraules buides predeterminat, el qual evitarà la cerca de moltes paraules comunes.',
       'Two setup checks raised an issue with key \'%s\'!' => 'Dues comprovacions de configuració han generat un problema amb la clau \'%s\'!',
@@ -495,7 +496,6 @@ final class PhabricatorConfigCa
     Si l\'actualització de Phabricator no soluciona això, podeu informar del problema a la versió ascendent perquè puguem ajustar l\'analitzador sintàctic.
     Si esteu segur que teniu instal·lada una versió recent de \'%s\' i que funciona correctament, normalment és segur ignorar aquest advertiment.',
       'For conduit, the Conduit method which was invoked.' => 'Per a un conducte, el mètode Conduit que s\'ha invocat.',
-      'Enable recaptcha to require users solve captchas after a few failed login attempts. This hinders brute-force attacks against user passwords. For more information, see http://recaptcha.net/' => 'Activeu la recaptcha per requerir que els usuaris resolguin captchas després d’uns intents d’inici de sessió fallits. Això dificulta els atacs de força bruta contra les contrasenyes dels usuaris. Per obtenir més informació, consulteu http://recaptcha.net/',
       'Developer / Debugging' => 'Desenvolupador / Depuració',
       'Remove PHP %s' => 'Elimineu PHP %s',
       'Classes must match to compare schemata!' => 'Les classes han de coincidir per comparar els esquemes!',
@@ -516,6 +516,13 @@ final class PhabricatorConfigCa
     Per ajustar la configuració, afegiu alguna cosa així al vostre fitxer %s (a la secció %s), substituint %s per un valor adequat per al vostre cas d\'amfitrió i ús. Llavors reinicia %s: 
     %s 
     Si esteu satisfet amb la configuració actual, podeu ignorar aquest avís de configuració.',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ https://pygments.org/ | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator és compatible amb el ressaltat de sintaxi d\'alguns idiomes per defecte, però podeu instal·lar Pygments (una eina de ressaltat de sintaxi de tercers) per proporcionar suport per a molts més idiomes. 
+    Per instal·lar Pygments, visiteu [[ https://pygments.org/ | pygments.org ]] i seguiu les instruccions de descàrrega i instal·lació. 
+    Un cop instal·lat Pygments, habiliteu aquesta opció (`pygments.enabled`) per fer que el Phabricator utilitzi Pygments en ressaltar el codi font. 
+    Després d\'instal·lar i activar els Pygments, el codi font creat recentment (com ara les diferències i els collages) hauria de ressaltar-se correctament. És possible que hàgiu de netejar la caché de Phabricator per obtenir el codi font existent prèviament per ressaltar. Per a instruccions sobre la gestió de la caché, vegeu [[ %s | Managing Caches ]].',
       'If the web server responds to both HTTP and HTTPS requests but you want users to connect with only HTTPS, you can set this to `true` to make this service redirect HTTP requests to HTTPS.
     Normally, you should just configure your server not to accept HTTP traffic, but this setting may be useful if you originally used HTTP and have now switched to HTTPS but don\'t want to break old links, or if your webserver sits behind a load balancer which terminates HTTPS connections and you can not reasonably configure more granular behavior there.
     IMPORTANT: A request is identified as HTTP or HTTPS by examining the PHP `%s` variable. If you run Apache/mod_php this will probably be set correctly for you automatically, but if you run as CGI/FCGI (e.g., through nginx or lighttpd), you need to configure your web server so that it passes the value correctly based on the connection type.
@@ -766,13 +773,6 @@ final class PhabricatorConfigCa
     Canvieu Phabricator al mode de només lectura. En aquest mode, els usuaris no podran escriure dades noves. Normalment, el clúster es degrada a aquest mode automàticament quan detecta que no es pot accedir al mestre de base de dades, però podeu activar-lo manualment per realitzar el manteniment o la configuració de proves.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Vulnerabilitat de seguretat severa: Bash sense pedaços',
       'Force HTTPS' => 'Forçar HTTPS',
-      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Phabricator és compatible amb el ressaltat de sintaxi d\'alguns idiomes per defecte, però podeu instal·lar Pygments (una eina de ressaltat de sintaxi de tercers) per proporcionar suport per a molts més idiomes. 
-    Per instal·lar Pygments, visiteu [[ http://pygments.org | pygments.org ]] i seguiu les instruccions de descàrrega i instal·lació. 
-    Un cop instal·lat Pygments, habiliteu aquesta opció (`pygments.enabled`) per fer que el Phabricator utilitzi Pygments en ressaltar el codi font. 
-    Després d\'instal·lar i activar els Pygments, el codi font creat recentment (com ara les diferències i els collages) hauria de ressaltar-se correctament. És possible que hàgiu de netejar la caché de Phabricator per obtenir el codi font existent prèviament per ressaltar. Per a instruccions sobre la gestió de la caché, vegeu [[ %s | Managing Caches ]].',
       'This key is not expected to exist.' => 'No s’espera que existís aquesta clau.',
       '%d related link(s):' => '%s enllaços relacionats:',
       'Missing Repository Local Path' => 'Falta la ruta local del repositori',

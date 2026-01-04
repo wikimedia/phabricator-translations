@@ -41,7 +41,6 @@ final class PhabricatorPhurlFrFR
       'Create New URL' => 'Créer une nouvelle URL',
       'URL DESCRIPTION' => 'DESCRIPTION DE L’URL',
       'New alias.' => 'Nouvel alias.',
-      'The owner of a URL can always view and edit it.' => 'Le propriétaire d’une URL peut toujours la voir et la modifier.',
       'Original URL' => 'URL originale',
       'The pre-shortened URL.' => 'L’URL pré-raccourcie.',
       'The protocol of the URL is invalid.' => 'Le protocole de l’URL n’est pas valide.',

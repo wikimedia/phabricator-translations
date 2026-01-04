@@ -32,7 +32,6 @@ final class PhabricatorDaemonKoKR
       'Exited' => '종료됨',
       'Waiting For Confirmation' => '확인 대기 중',
       'RELOAD' => '다시 로드',
-      'Deprecated. Has no effect.' => '구식입니다. 영향을 주지 않습니다.',
       'Lease Status' => '대여 상태',
       'There are no running daemon processes.' => '실행 중인 데몬 프로세스가 없습니다.',
       'Lease Expired' => '대여 만료됨',

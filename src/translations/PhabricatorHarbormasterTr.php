@@ -48,7 +48,6 @@ final class PhabricatorHarbormasterTr
       'Publishing "%s"...' => '"%s" Yayınlıyor...',
       'The name of the build target.' => 'Yapı hedefinin adı.',
       'Edit Plan' => 'Planı Düzenle',
-      'Use %s instead.' => 'Bunun yerine %s kullanın.',
       'Run %d' => '%s Çalıştırın',
       'Organization Name' => 'Organization NameKuruluş Adı',
       'Browse Builds' => 'Yapılara Göz Atın',

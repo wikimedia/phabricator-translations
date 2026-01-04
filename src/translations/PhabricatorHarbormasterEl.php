@@ -21,7 +21,6 @@ final class PhabricatorHarbormasterEl
       '%s Broken Test(s)' => 'Ο %s σπασμένες δοκιμή(-ές)',
       'Resuming' => 'Συνεχίζοντας',
       'Edit Plan' => 'Σχέδιο επεξεργασίας',
-      'Use %s instead.' => 'Χρησιμοποιήστε το %s αντί για αυτού.',
       'Organization Name' => 'Όνομα οργανισμού',
       'Really Delete Step?' => 'Διαγραφή του βήματος πραγματικά;',
       'or' => 'ή',

@@ -11,7 +11,6 @@ final class PhabricatorSlowvotePtBR
     return array(
       'Enter Deliberations' => 'Insira as deliberações',
       'Close Poll' => 'Fechar enquete',
-      '%s renamed %s.' => '%s renomeado %s.',
       'Create a Poll' => 'Criar uma enquete',
       'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'Opção ("%s") não é uma opção de pesquisa válida. Você só pode votar em opções válidas.',
       '%s made %s responses appear in a random order.' => '%s fez %s respostas aparecem em uma ordem aleatória.',
@@ -67,6 +66,7 @@ final class PhabricatorSlowvotePtBR
       '%s (%d / %d)' => '%s (%s / %s)',
       'Only you can see the results.' => 'Só você pode ver os resultados.',
       'No polls found.' => 'Nenhuma enquete encontrada.',
+      'Only the poll author can see the responses' => 'Apenas o autor da enquete pode ver as respostas',
       'Design by committee.' => 'Design por comitê.',
       'In this poll, you may only vote for one option.' => 'Nesta enquete, você pode votar apenas em uma opção.',
       'Voting improves cardiovascular endurance.' => 'Votar melhora a resistência cardiovascular.',

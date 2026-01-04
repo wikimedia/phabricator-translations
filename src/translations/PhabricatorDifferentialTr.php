@@ -9,7 +9,7 @@ final class PhabricatorDifferentialTr
 
   protected function getTranslations() {
     return array(
-      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'Phabricator hesabınız bir JIRA hesabına bağlı olmadığından, bu düzeltmeye JIRA sorunları (%s) ekleyemezsiniz.',
+      'You can not add JIRA issues (%s) to this revision because your %s account is not linked to a JIRA account.' => 'Bu revizyona JIRA sorunları (%s) ekleyemezsiniz çünkü %s hesabınız bir JIRA hesabına bağlı değil.',
       'Review the diff for correctness. When you are satisfied, either **create a new revision** or **update an existing revision**.' => 'Doğru olup olmadığını görmek için farkı inceleyin. Memnun kaldığınızda, **yeni bir revizyon oluşturun** veya **mevcut bir revizyonu güncelleyin**.',
       'New repository.' => 'Yeni depo.',
       'This revision can not be accepted until the required legal agreements have been signed.' => 'Bu revizyon, gerekli yasal anlaşmalar imzalanıncaya kadar kabul edilemez.',
@@ -242,7 +242,6 @@ final class PhabricatorDifferentialTr
       '%s Lines' => '%s Satır',
       'You must select a comment to hide.' => 'Gizlemek için bir yorum seçmelisiniz.',
       'No hunk exists with ID "%s".' => '"%s" kimliğine sahip herhangi bir iri parça yok.',
-      'This method has been deprecated in favor of %s.' => 'Bu yöntem %s lehine kullanımdan kaldırılmıştır.',
       'No revisions are ready to land.' => 'Hiçbir revizyon yapılmaya hazır değil.',
       'Larger Change' => 'Daha Büyük Değişim',
       'This file is larger than %s, so syntax highlighting is disabled by default.' => 'Bu dosya %s fazladan büyük olduğundan sözdizimi vurgulaması varsayılan olarak devre dışıdır.',
@@ -307,7 +306,6 @@ final class PhabricatorDifferentialTr
       'This file was copied to %s.' => 'Bu dosya %s kopyalandı.',
       'New diff to create or update the revision with.' => 'Revizyonu oluşturmak veya güncellemek için yeni fark.',
       '%s set the repository for %s to %s.' => '%s depoyu %s ile %s olarak ayarladı.',
-      'Obsolete and doomed, see T2222.' => 'Eski ve mahkum, T2222 bakın.',
       'Create a new Differential diff from a raw diff source.' => 'Ham bir fark kaynağından yeni bir Diferansiyel fark oluşturun.',
       'View Revision' => 'Revizyonu Görüntüle',
       'Retrieve Differential Revision Comments.' => 'Diferansiyel Revizyon Yorumlarını Alın.',
@@ -382,7 +380,7 @@ final class PhabricatorDifferentialTr
       'Commit "%s" is not valid.' => '"%s" taahhüdü geçerli deği.',
       'You can not commandeer this revision because you already own it.' => 'Bu revizyona sahip olamazsınız çünkü zaten ona sahipsiniz.',
       '%s abandoned %s.' => '%s, %s terk etti.',
-      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Bunu true olarak ayarlarsanız, Phabricator, Diferansiyel postaya yama ekler (metin eki olarak). Posta bağdaştırıcınız olarak SendGrid kullanıyorsanız bu çalışmaz.',
+      'If you set this to true, patches will be attached to Differential mail (as text attachments). This will not work if you are using SendGrid as your mail adapter.' => 'Bunu true olarak ayarlarsanız, yamalar Diferansiyel postasına (metin ekleri olarak) eklenir. E-posta bağdaştırıcınız olarak SendGrid kullanıyorsanız bu özellik çalışmaz.',
       'Must Review' => 'İncelenmeli',
       'Load all diffs for given revisions from Differential.' => 'Diferansiyelden verilen revizyonlar için tüm farkları yükleyin.',
       'Options "--to" (to choose a specific storage format) and "--auto" (to select a storage format automatically) are mutually exclusive.' => '"--to" (belirli bir depolama biçimini seçmek için) ve "--auto" (otomatik olarak bir depolama biçimini seçmek için) seçenekleri birbirini dışlar.',
@@ -668,7 +666,7 @@ final class PhabricatorDifferentialTr
       'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.
     If you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.
     This sort of workflow is very unusual. Very few installs should need to change this option.' => 'Normal olarak, Diferansiyel revizyonlar "Kabul Edildiklerinde" kontrol panelinde kalır ve yazar daha sonra düzeltmeyi "Kapat" ve gösterge tablosundan çıkarmak için değişiklikleri yapar.
-    İşlem sonrası inceleme için Diferansiyelin kullanıldığı (normalde Phabricator\'ın başka bir yerinde "Denetim" olarak adlandırılan) olağandışı bir iş akışınız varsa, bu bayrağı "Kabul Edildi" durumunu "Kapalı" durumu olarak ele alacak ve inceleme iş akışını sona erdirecek şekilde ayarlayabilirsiniz.
+    İşlem sonrası inceleme için Diferansiyelin kullanıldığı (normalde "Denetim" olarak adlandırılır, başka yerlerde) olağandışı bir iş akışınız varsa, bu bayrağı "Kabul Edildi" durumunu "Kapalı" durumu olarak ele alacak ve inceleme iş akışını sona erdirecek şekilde ayarlayabilirsiniz.
     Bu tür bir iş akışı çok sıra dışı. Bu seçeneği değiştirmek için çok az kurulum gerekir.',
       'Load the content of a revision from Differential.' => 'Diferansiyel\'den bir revizyonun içeriğini yükleyin.',
       'This symlink was deleted.' => 'Bu simge bağlantısı silindi.',
@@ -705,7 +703,7 @@ final class PhabricatorDifferentialTr
       'This submodule was added.' => 'Bu alt modülü eklendi.',
       'Hold revision as draft.' => 'Revizyonu taslak gibi tutun.',
       'Parent revisions of this revision.' => 'Bu revizyonun üst revizyonları.',
-      'The best way to create a diff is to use the %s command-line tool.' => 'Fark yaratmanın en iyi yolu Arcanist komut satırı aracını kullanmaktır.',
+      'The best way to create a diff is to use the %s command-line tool.' => 'Fark yaratmanın en iyi yolu %s komut satırı aracını kullanmaktır.',
       'Normally, when revisions that have been "Accepted" are updated, they remain "Accepted". This allows reviewers to suggest minor alterations when accepting, and encourages authors to update if they make minor changes in response to this feedback.
     If you want updates to always require re-review, you can disable the "stickiness" of the "Accepted" status with this option. This may make the process for minor changes much more burdensome to both authors and reviewers.' => 'Normalde, "Kabul edildi" düzeltmeleri güncellendiğinde, "Kabul edildi" olarak kalırlar. Bu, gözden geçirenlerin kabul ederken küçük değişiklikler önermelerini sağlar ve yazarları bu geri bildirime yanıt olarak küçük değişiklikler yapıp yapmadıklarını güncellemeye teşvik eder.
     Güncellemelerin her zaman yeniden gözden geçirilmesini gerektiriyorsa, bu seçenekle "Kabul edildi" durumunun "yapışkanlığını" devre dışı bırakabilirsiniz. Bu, küçük değişiklikler sürecini hem yazarlar hem de hakemler için çok daha külfetli hale getirebilir.',

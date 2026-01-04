@@ -14,7 +14,6 @@ final class PhabricatorFilesZhHans
       'NONE' => '无',
       '%s removed the alternate text for this file (was %s).' => '%s已被从该文件中移除（曾为%s）',
       'ERROR' => '错误',
-      'Supported' => '受支持',
       'Mechanical' => '机械性',
       'Failures!' => '失败！',
       'Preview (220px)' => '预览（220px）',

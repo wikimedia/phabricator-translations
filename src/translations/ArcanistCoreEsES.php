@@ -486,7 +486,6 @@ final class ArcanistCoreEsES
       'Uses Google\'s Closure Linter to check JavaScript code.' => 'Utiliza el optimizador Closure de Google para comprobar el código en JavaScript.',
       'Portuguese (Brazil)' => 'Portugués (Brasil)',
       'Disabled' => 'Desactivado',
-      'Wikimedia XHPAST' => 'Wikimedia XHPAST',
       'Bad Filename' => 'Nombre de archivo incorrecto',
       'Invalid command "%s". Valid commands are: %s.' => 'Commando inválido "%s". Commandos válidos son: %s.',
       'TARGET' => 'OBJETIVO',

@@ -40,7 +40,6 @@ final class PhabricatorPhurlCa
       'Create New URL' => 'Crea URL Nou',
       'URL DESCRIPTION' => 'DESCRIPCIÓ D\'URL',
       'New alias.' => 'Àlies nou.',
-      'The owner of a URL can always view and edit it.' => 'L\'autor d\'un URL pot sempre visualitzar-ho i modificar-ho.',
       'Original URL' => 'URL original',
       'The pre-shortened URL.' => 'L\'URL reduït prèviament.',
       'The protocol of the URL is invalid.' => 'El protocol de l\'URL no és vàlid.',

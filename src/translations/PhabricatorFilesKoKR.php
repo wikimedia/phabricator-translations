@@ -14,7 +14,6 @@ final class PhabricatorFilesKoKR
       'NONE' => '없음',
       'JIS' => 'JIS',
       'ERROR' => '오류',
-      'Supported' => '지원됨',
       'Alt Text' => '대체 텍스트',
       'EUC-JP' => 'EUC-JP',
       '%spx × %spx' => '%spx × %spx',

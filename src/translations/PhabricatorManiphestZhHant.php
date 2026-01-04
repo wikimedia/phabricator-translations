@@ -38,7 +38,6 @@ final class PhabricatorManiphestZhHant
       'Assign a task to a specific user.' => '分派工單給指定的使用者。',
       'No tasks found.' => '查無工單。',
       'Can Bulk Edit Tasks' => '可批次編輯工單',
-      'Current task owner, if task is assigned.' => '目前的工單擁有者，若工單已被分派。',
       'Default view policy for newly created tasks.' => '新建立的工單的預設檢視原則。',
       'New task description.' => '新工單描述。',
       'Subtask' => '子工單',

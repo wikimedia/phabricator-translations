@@ -12,7 +12,7 @@ final class PhabricatorDaemonTr
       'Temporary Failures' => 'Geçici Arızalar',
       'Clock' => 'Saat',
       'Leased' => 'Kiralanan',
-      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Standart yapılandırılmış Phabricator artalan koleksiyonunu başlatın. Bu çoğu kurulum için uygundur. Hangi cinlerin başlatılacağını özelleştirmek için **%s** kullanın.',
+      'Start the standard configured collection of daemons. This is appropriate for most installs. Use **%s** to customize which daemons are launched.' => 'Standart yapılandırılmış daemon koleksiyonunu başlatın. Bu çoğu kurulum için uygundur. Hangi daemonları başlatılacağını özelleştirmek için **%s** kullanın.',
       'Starting daemons as %s' => '%s olarak daemon başlatılıyor',
       'Gracefully restart daemon processes in-place to pick up changes to source. This will not disrupt running jobs. This is an advanced workflow; most installs should use __%s__.' => 'Kaynaktaki değişiklikleri almak için daemon işlemlerini yerinde yeniden başlatın. Bu, çalışan işleri aksatmaz. Bu gelişmiş bir iş akışıdır; çoğu kurulum __ %s__ kullanmalıdır.',
       'Retries' => 'Yeniden denemeler',
@@ -37,7 +37,7 @@ final class PhabricatorDaemonTr
       'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
     The daemons are configured to run as "%s", but the current user is "%s". 
     Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => 'Standart olmayan bir kullanıcı olarak bir arka plan programı çalıştırmaya çalışıyorsunuz ve `%s`, doğru kullanıcıya `%s` alamadı.
-    Phabricator, arka plan programları "%s" olarak çalıştıracak şekilde yapılandırıldı, ancak geçerli kullanıcı "%s".
+    Daemonlar "%s" olarak çalışacak şekilde yapılandırılmış, ancak şu anki kullanıcı "%s".
     Farklı bir kullanıcı olarak çalıştırmak için `%s` kullanın, bu uyarıyı yoksaymak için `%s` iletin veya yapılandırmayı değiştirmek için `%s` düzenleyin.',
       'STOP' => 'DURDUR',
       'You must specify which daemon to launch.' => 'Hangi arka plan programının başlatılacağını belirtmelisiniz.',
@@ -75,7 +75,6 @@ final class PhabricatorDaemonTr
       'This daemon has not reported its status recently. It may have exited uncleanly.' => 'Bu arka plan programı son zamanlarda durumunu bildirmedi. Kirli çıkmış olabilir.',
       'Maximum pool size.' => 'Maksimum havuz boyutu.',
       'Unknown status "%s"!' => 'Bilinmeyen durum "%s"!',
-      'Deprecated. Has no effect.' => 'Kullanımdan kalktı. Etkisi yok.',
       'This job is waiting for tasks to be queued.' => 'Bu iş, görevlerin sıraya alınmasını bekliyor.',
       'ERROR: The PHP function %s is disabled. You must enable it to run daemons on this machine.
     ' => 'HATA: %s PHP işlevi devre dışı. Bu makinede arka plan programları çalıştırmak için etkinleştirmeniz gerekir.',
@@ -88,7 +87,7 @@ final class PhabricatorDaemonTr
       'Recently Completed Tasks (Last 15m)' => 'Son Tamamlanan Görevler (Son 15 dk)',
       'Maximum Retries' => 'Maksimum Yeniden Deneme',
       'Task %d' => 'Görev %s',
-      'Manage Daemons' => 'Phabricator Arka Plan Programını Yönetin',
+      'Manage Daemons' => 'Daemonları Yönet',
       'Next In Queue' => 'Sıradaki Sonraki',
       'Disabling the lock log.' => 'Kilit günlüğünü devre dışı bırakıyor.',
       'Retries Forever' => 'Sonsuza Dek Yeniden Dener',

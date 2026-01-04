@@ -266,7 +266,6 @@ final class ArcanistCoreDa
       'Unknown' => 'Ukendt',
       'Install PHP.' => 'Installer PHP.',
       'Channel closed!' => 'Kanalen lukket!',
-      'class or interface' => 'klasse eller grænseflade',
       'Apr' => 'Apr',
       'Alias Functions' => 'Aliasfunktioner',
       'Argument "%s" was provided twice.' => 'Argumentet "%s" blev givet to gange.',

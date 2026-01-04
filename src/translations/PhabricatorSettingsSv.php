@@ -40,7 +40,7 @@ final class PhabricatorSettingsSv
       'Edit Settings Configurations' => 'Redigera inställningskonfigurationer',
       'Old Password' => 'Gammalt lösenord',
       'Changes saved.' => 'Ändringarna sparades.',
-      'Choose which language you would like the UI to use.' => 'Välj vilket språk du vill att Phabricators gränssnitt ska använda.',
+      'Choose which language you would like the UI to use.' => 'Välj vilket språk du vill att användargränssnittet ska användas.',
       'Create Settings' => 'Skapa inställningar',
       'Settings %d' => 'Inställningar %s',
       'Sunday' => 'Söndag',

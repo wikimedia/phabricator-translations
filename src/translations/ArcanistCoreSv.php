@@ -343,7 +343,7 @@ final class ArcanistCoreSv
       'Comment Style' => 'Kommentarsstil',
       'Use `%s` for checking if the string starts with something.' => 'Använd `%s` för att kontrollera om strängen börjar med någonting.',
       'Ruby' => 'Ruby',
-      'ALIAS' => 'Alias',
+      'ALIAS' => 'ALIAS',
       'Unable to find %s or %s in %s!' => 'Kunde inte hitta %s eller %s i %s!',
       'Use `%s` to detect syntax errors in JSON files.' => 'Använd `%s` för att upptäcka syntaxfel i JSON-filer.',
       'Branch name %s already exists; trying a new name.' => 'Förgreningsnamnet %s finns redan; provar ett nytt namn.',
@@ -408,7 +408,7 @@ final class ArcanistCoreSv
       'Sep' => 'sep',
       'Expected \'Name\', \'Added\', \'Deleted\', or \'Modified\'.' => '"Name", "Added", "Deleted" eller "Modified" förväntades.',
       'AVAILABLE' => 'TILLGÄNGLIG',
-      'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOG IN' => 'DU MÅSTE __INSTALLERA ETT CERTIFIKAT__ FÖR ATT LOGGA IN PÅ PHABRICATOR',
+      'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOG IN' => 'DU MÅSTE __INSTALLERA ETT CERTIFIKAT__ FÖR ATT LOGGA IN',
     );
   }
 

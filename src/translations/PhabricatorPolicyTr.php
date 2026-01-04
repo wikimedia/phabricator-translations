@@ -19,7 +19,7 @@ final class PhabricatorPolicyTr
       'Lock Create User Policy To Admins' => 'Hizmetlilere Kullanıcı Politika Oluşturma Kilidi',
       'These rules are processed in order.' => 'Bu kurallar sırayla işlenir.',
       'This software has application policies which can dictate whether users can take certain actions, such as creating new users. 
-    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Phabricator, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.
+    This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'Bu yazılım, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.
     Bu ayar, bu politikaların "kilitlenmesini" sağlar, böylece politika başına başka düzenleme yapılamaz.',
       'Users who can see objects in this space:' => 'Bu alanda nesneleri görebilen kullanıcılar:',
       'After a user passes space policy checks, they must still pass object policy checks.' => 'Bir kullanıcı alan politikası kontrollerini geçtikten sonra, yine de nesne politikası kontrollerini geçmelidir.',
@@ -30,7 +30,7 @@ final class PhabricatorPolicyTr
       'This software allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.
     This is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.
     Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
-    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Phabricator, nesnelerin görünürlüğünü (havuzlar ve görevler gibi) \'Genel\' olarak ayarlamanıza izin verir, yani **internetten herhangi biri, giriş yapmanıza veya bir hesap açmanıza gerek kalmadan onları görebilir**.
+    With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'Bu yazılım, nesnelerin görünürlüğünü (havuzlar ve görevler gibi) \'Genel\' olarak ayarlamanıza izin verir, yani **internetten herhangi biri, giriş yapmanıza veya bir hesap açmanıza gerek kalmadan onları görebilir**.
     Bu, açık kaynaklı projeler için tasarlanmıştır. Çoğu kurulum hiçbir zaman genel bir şey yapmak istemeyeceğinden, bu politika varsayılan olarak devre dışıdır. Burada, nesnelerin politikasını \'Genel\' olarak belirlemenizi sağlayacak şekilde etkinleştirebilirsiniz.
     Bu ayarın etkinleştirilmesi, kullanıcı dizini gibi bazı özellikleri hemen açacaktır. İnternetteki herkes bu özelliklere erişebilecek.
     Bu ayar devre dışı bırakıldığında, "Genel" politikası kullanılamaz ve en açık politika "Tüm Kullanıcılar"\'dır (bu, kullanıcıların hesaplara sahip olması ve bir şeyleri görüntülemek için giriş yapmış olması gerektiği anlamına gelir).',
@@ -58,7 +58,7 @@ final class PhabricatorPolicyTr
       'Can Interact' => 'Etkileşim yapabilir',
       'Members of the project "%s" can take this action.' => '"%s" projesinin üyeleri bu işlemi yapabilir.',
       'Specify the name of exactly one object to show policy information for.' => 'Politika bilgilerini göstermek için tam olarak bir nesnenin adını belirtin.',
-      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Bu nesne halka açıktır ve bir Phabricator hesabı olmasa bile herkes tarafından görülebilir.',
+      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Bu nesne herkese açıktır ve bu sunucuda bir hesabı olmasa bile herkes tarafından görüntülenebilir.',
       'You do not have the required capability ("%s") to do whatever you are trying to do.' => 'Yapmaya çalıştığınız şeyi yapmak için gerekli kabiliyetiniz ("%s") yok.',
       'Support for Policies' => 'Politikalar Desteği',
       'Allow users to set object visibility to public.' => 'Kullanıcıların genel olarak nesne görünürlüğünü ayarlamasına izin ver.',

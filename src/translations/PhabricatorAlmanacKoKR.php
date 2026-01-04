@@ -79,7 +79,7 @@ final class PhabricatorAlmanacKoKR
       'Network name is required.' => '네트워크 이름은 필수입니다.',
       'Create Property' => '속성 만들기',
       'Port of the service.' => '서비스의 포트입니다.',
-      'Cluster: Database' => '파브리케이터 클러스터: 데이터베이스',
+      'Cluster: Database' => '클러스터: 데이터베이스',
       'Binding' => '바인딩',
       'Service Directory' => '서비스 디렉터리',
       'To create a new service, you must select a service type.' => '새로운 서비스를 만들려면 서비스 유형을 선택해야 합니다.',

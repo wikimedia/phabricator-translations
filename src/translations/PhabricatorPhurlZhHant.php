@@ -41,7 +41,6 @@ final class PhabricatorPhurlZhHant
       'Create New URL' => '建立新的 URL',
       'URL DESCRIPTION' => 'URL 描述',
       'New alias.' => '新別名。',
-      'The owner of a URL can always view and edit it.' => 'URL 的擁有者可檢視與編輯該 URL。',
       'Original URL' => '原先 URL',
       'The pre-shortened URL.' => '預先縮短的 URL。',
       'The protocol of the URL is invalid.' => 'URL 的協定無效。',

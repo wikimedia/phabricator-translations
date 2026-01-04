@@ -15,7 +15,7 @@ final class PhabricatorPolicyUk
       'Can View' => 'Можна переглядати',
       'Special Rules' => 'Спеціальні правила',
       'Object Policy' => 'Об\'єктна політика',
-      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Цей об’єкт є загальнодоступним, і його може переглядати будь-хто, навіть якщо у нього немає облікового запису Phabricator.',
+      'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Цей об’єкт є загальнодоступним, і його може переглядати будь-хто, навіть якщо у нього немає облікового запису на цьому сервері.',
       'Policy Details: %s' => 'Деталі політики: %s',
       'This object is in %s and can only be seen or edited by users with access to view objects in the space.' => 'Цей об’єкт знаходиться в %s, і його можуть бачити або редагувати лише користувачі, які мають доступ до перегляду об’єктів у просторі.',
       'In detail, this means that these users can take this action, provided they pass all of the checks described above first:' => 'У деталях, це означає, що ці користувачі можуть виконати цю дію, якщо вони спочатку пройдуть усі описані вище перевірки:',

@@ -26,6 +26,7 @@ final class PhabricatorCoreSe
       'Login' => 'Čálit sisa',
       'Log Out' => 'Čálit olggos',
       'Description' => 'Govvádus',
+      'Hide Bots' => 'Čiega bohtaid',
       'Users' => 'Geavaheaddjit',
       'New' => 'Ođđa',
       'Column' => 'Čuolda',

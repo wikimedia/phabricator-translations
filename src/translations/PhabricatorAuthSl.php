@@ -28,6 +28,7 @@ final class PhabricatorAuthSl
       'Already Accepted Invite' => 'Povabilo že sprejeto',
       'Edit Contact Numbers' => 'Uredi kontaktne številke',
       'CHANGES TO MESSAGE' => 'SPREMEMBE SPOROČILA',
+      'App Code' => 'Koda aplikacije',
       'Link LDAP Account' => 'Poveži LDAP račun',
       'Link Accounts' => 'Poveži račune',
       'Log Out?' => 'Odjava?',

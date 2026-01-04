@@ -27,6 +27,7 @@ final class PhabricatorConfigFrFR
       'Improve security by configuring an alternate file domain.' => 'Améliorer la sécurité en configurant un domaine alternatif pour les fichiers.',
       'Array containing list of uninstalled applications.' => 'Tableau contenant la liste des applications non installées.',
       'Client Server' => 'Client serveur',
+      'Or:' => 'Ou:',
       'Listeners receive callbacks when interesting things occur.' => 'Les écouteurs reçoivent des rappels lorsque des événements intéressants apparaissent.',
       'Update configuration in the database instead of in local configuration.' => 'Mettre à jour la configuration dans la base de données plutôt que dans la configuration locale.',
       'Column/Key' => 'Colonne/Clé',
@@ -649,6 +650,7 @@ final class PhabricatorConfigFrFR
       'Elasticsearch is now configured with "%s".' => 'Elasticsearch est maintenant configuré avec « %s ».',
       'Configuring Outbound Email' => 'Configuration du courriel de sortie',
       'Inbound mail addresses are now configured for each application in the Applications tool.' => 'Les adresses de messagerie de réception sont maintenant configurées pour chaque application dans l’outil Applications.',
+      'Enable recaptcha to require users solve captchas after a few failed login attempts. This hinders brute-force attacks against user passwords. For more information, see https://www.google.com/recaptcha' => 'Activer recaptcha pour demander aux utilisateurs de résoudre les captchas après quelques tentatives de connexion en échec. Cela gêne les attaques par force brute sur les mots de passe utilisateur. Pour plus d’information, voir https://www.google.com/recaptcha',
       'Partial \'%s\' Support' => 'Prise en charge partielle de « %s »',
       'Subschemata have setup warnings.' => 'Subschemata a des avertissements d’installation.',
       'Uptime' => 'Durée de fonctionnement',
@@ -829,7 +831,6 @@ final class PhabricatorConfigFrFR
     Si vous êtes certain d’avoir une version récente de « %s » fonctionnant correctement, cet avertissement peut généralement sans souci être ignoré.',
       'For conduit, the Conduit method which was invoked.' => 'Pour un conduit, la méthode Conduit qui a été invoquée.',
       'The configuration option \'%s\' is not set.' => 'L’option de configuration \'%s\' n’est pas positionnée.',
-      'Enable recaptcha to require users solve captchas after a few failed login attempts. This hinders brute-force attacks against user passwords. For more information, see http://recaptcha.net/' => 'Activer recaptcha pour demander aux utilisateurs de résoudre les captchas après quelques tentatives de connexion en échec. Cela gêne les attaques par force brute sur les mots de passe utilisateur. Pour plus d’information, voir http://recaptcha.net/',
       'Stop Before HTTP Redirect' => 'Arrêter avant la redirection HTTP',
       'Developer / Debugging' => 'Développeur / Débogage',
       'Remove PHP %s' => 'Supprimer PHP %s',
@@ -854,6 +855,13 @@ final class PhabricatorConfigFrFR
     %s
     Si le paramétrage actuel vous satisfait, vous pouvez sans souci ignorer cet avertissement d’installation.',
       'Expected Nullable' => 'Possiblement nul attendu',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ https://pygments.org/ | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Le surlignage syntaxique est pris en charge par défaut pour quelques langages, mais vous pouvez installer Pygments (un outil tiers de surlignage syntaxique) pour prendre en charge beaucoup plus de langages.
+    Pour installer Pygments, allez sur [[ https://pygments.org/ | pygments.org ]] et suivez les instructions de téléchargement et d’installation.
+    Une fois Pygments installé, activez l’option `pygments.enabled` pour utiliser Pygments pour le surlignage du code source.
+    Une fois que vous avez installé et activé Pygments, le code source nouvellement créé (comme les diffs et les collages) devrait être surligné correctement. Vous devrez peut-être vider les caches pour que le code source déjà existant soit pris en compte. Pour les instructions concernant la gestion des caches, voyez [[ %s | Gérer les caches ]].',
       'Disable SSH log.' => 'Désactiver le journal SSH.',
       'Set a string this software should use to prefix cookie names.' => 'Définit une chaîne que ce logiciel doit utiliser pour préfixer les noms de témoins (\'\'cookies\'\').',
       'No databases have any issues.' => 'Aucune base de données n’a de problème.',
@@ -1267,13 +1275,6 @@ final class PhabricatorConfigFrFR
     Bascule le service en mode de lecture seule. Dans ce mode, les utilisateurs ne pourront pas écrire de nouvelles données. Normalement, la grappe passe dans ce mode automatiquement quand elle détecte que le maître de la base de données est inaccessible, mais vous pouvez l’activer manuellement afin d’effectuer de la maintenance ou tester une configuration.',
       'Severe Security Vulnerability: Unpatched Bash' => 'Faille de sécurité grave : Bash non patché',
       'Force HTTPS' => 'Forcer HTTPS',
-      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Le surlignage syntaxique est pris en charge par défaut pour quelques langages, mais vous pouvez installer Pygments (un outil tiers de surlignage syntaxique) pour prendre en charge beaucoup plus de langages.
-    Pour installer Pygments, allez sur [http://pygments.org pygments.org] et suivez les instructions de téléchargement et d’installation.
-    Une fois Pygments installé, activez l’option `pygments.enabled` pour utiliser Pygments pour le surlignage du code source.
-    Une fois que vous avez installé et activé Pygments, le code source nouvellement créé (comme les diffs et les collages) devrait être surligné correctement. Vous devrez peut-être vider les caches pour que le code source déjà existant soit pris en compte. Pour les instructions concernant la gestion des caches, voyez [[%s|Gérer les caches]].',
       'This key is not expected to exist.' => 'Cette clé n’est pas censé exister.',
       '%s.%s' => '%s.%s',
       '%s.%s.%s' => '%s.%s.%s',

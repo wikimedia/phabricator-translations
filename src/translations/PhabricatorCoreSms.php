@@ -53,6 +53,7 @@ final class PhabricatorCoreSms
       'Projects' => 'Projeeʹkt',
       'Delete Comment' => 'Jaukkâd kommeeʹnt',
       'Description' => 'Deskriptt',
+      'Hide Bots' => 'Čiõǥǥ boottid',
       'Updated %s' => 'Peiʹvvuum %s',
       'Users' => 'Õõʹnni',
       'TOTAL' => 'ÕHTTSA',

@@ -18,7 +18,7 @@ final class PhabricatorUiexampleSv
       'Unit (3/5)' => 'Enhet (3/5)',
       'Property List' => 'Egenskapslista',
       'Wrote code that was acceptable' => 'Skrev acceptabel kod',
-      'Direct Award' => 'Direkt tilldelning (epriestley)',
+      'Direct Award' => 'Direkt utmärkelse',
       'Inline' => 'I texten',
       'Let\'s Go Shopping' => 'Nu går vi och handlar',
       'Timeline View' => 'Tidslinjevy',

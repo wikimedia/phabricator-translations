@@ -23,7 +23,6 @@ final class PhabricatorPhidTr
       'Unknown Object (%s)' => 'Bilinmeyen Nesne (%s)',
       'The objects you have listed include objects which do not exist (%s).' => 'Listelenen nesneler var olmayan nesneleri içerir (%s).',
       'Trying to create a new sublist of an existing handle list, but PHID "%s" does not appear in the parent list.' => 'Mevcut bir tanıtıcı listesinin yeni bir alt listesini oluşturmaya çalışıyor, ancak PHID "%s" üst listede görünmüyor.',
-      'Replaced by \'phid.query\'.' => '\'phid.query\' ile değiştirildi.',
       'The objects you have listed include objects of the wrong type (%s) and objects which do not exist (%s).' => 'Listelenen nesneler yanlış türde (%s) ve olmayan (%s) nesneleri içerir.',
       'No such object exists.' => 'Böyle bir nesne yok.',
       'Can not generate PHID with no type.' => 'Türü olmayan PHID üretilemiyor.',

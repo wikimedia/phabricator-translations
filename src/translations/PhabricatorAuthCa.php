@@ -69,6 +69,15 @@ final class PhabricatorAuthCa
       'Unable to Log In' => 'No es pot iniciar la sessió',
       'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'El compte extern («%s») on acabeu d\'iniciar sessió ja està associat a un altre compte d\'usuari de Phabricator. Inicieu sessió a l\'altre compte Phabricator i desenllaçeu el compte extern abans d\'enllaçar-lo a un nou compte Phabricator.',
       'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Abans d’utilitzar Phabricator, heu d’afegir l’autenticació multifactor al vostre compte. L’autenticació multifactor ajuda a protegir el vostre compte, impedeix que els atacants puguin accedir o dur a terme accions confidencials.',
+      'To configure Twitch.tv OAuth, create a new application here:
+    https://www.twitch.tv/settings/applications
+    When creating your application, use these settings:
+      - **Redirect URI:** Set this to: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Per configurar OAuth de Twitch.tv, creeu una nova aplicació aquí:
+    https://www.twitch.tv/settings/applications
+    Quan creeu l\'aplicació, utilitzeu aquests paràmetres:
+    - **URI de redirecció: * Establiu-lo a: `%s`
+    Després de completar la configuració, copieu el **Identificador de client** i el **Secret del client** als camps anteriors. (És possible que hàgiu de generar el secret del client fent clic primer a "Nou secret").',
       'Session has already signed required legalpad documents!' => 'La sessió ja ha signat els documents legals necessaris.',
       'On the plus side, that purple notification bubble will disappear.' => 'Al costat positiu, aquesta bombolla de notificació morada desapareixerà.',
       'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'Aquest compte ("%s") no pot establir sessions web, de manera que no és possible generar un enllaç de recuperació funcional. Els comptes especials, com ara dimonis i llistes de correu, no poden iniciar la sessió a través de la IU web.',
@@ -137,6 +146,15 @@ final class PhabricatorAuthCa
     - **URL de redirecció**: establiu-lo a: "%s"
     Un cop hàgiu creat una aplicació, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.',
       'Username Attribute' => 'Atribut del nom d\'usuari',
+      'To configure Disqus OAuth, create a new application here:
+    https://disqus.com/api/applications/
+    Create an application, then adjust these settings:
+      - **Callback URL:** Set this to `%s`
+    After creating an application, copy the **Public Key** and **Secret Key** to the fields above (the **Public Key** goes in **OAuth App ID**).' => 'Per configurar OAuth de Disqus, creeu una nova aplicació aquí:
+    https://disqus.com/api/applications/
+    Creeu una aplicació i, a continuació, ajusteu aquests paràmetres:
+    - **URL de devolució de trucada: ** Establiu-lo a "%s"
+    Després de crear una aplicació, copieu la **clau pública** i la **clau secreta** als camps anteriors (la **clau pública** apareix a **identificador d\'aplicació OAuth**).',
       'Unlink Your Only Login Account?' => 'Voleu desenllaçar el vostre únic compte d\'inici de sessió?',
       'Specify an OAuth client id with "--id".' => 'Especifiqueu un identificador de client OAuth amb %s.',
       'Your account has no primary contact number.' => 'El vostre compte no té cap número de contacte principal.',
@@ -147,6 +165,17 @@ final class PhabricatorAuthCa
       'Always bind and search, even without a username and password.' => 'Vinculeu i cerqueu sempre, fins i tot sense un nom d\'usuari i contrasenya.',
       'Skipping, provider is not enabled or does not exist.' => 'Saltant, el proveïdor no està habilitat o no existeix.',
       'Does Not Allow Registration' => 'No permet el registre',
+      '%s
+    To configure Amazon OAuth, create a new \'API Project\' here:
+    https://developer.amazon.com/apps-and-games/login-with-amazon
+    Use these settings:
+      - **Allowed Return URLs:** Add this: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.' => '%s
+    Per configurar OAuth de Amazon, creeu un nou "Projecte API" aquí:
+    https://developer.amazon.com/apps-and-games/login-with-amazon
+    Utilitzeu aquests paràmetres:
+    - **URL de retorn permesos:** Afegiu-ho: "%s"
+    Després de completar la configuració, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.',
       '/settings/panel/contact/' => '/settings/panel/contact/',
       'Path to corresponding PKCS8 key.' => 'Ruta a la clau PKCS8 corresponent.',
       'Strength' => 'Força',
@@ -265,15 +294,6 @@ final class PhabricatorAuthCa
       'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
     If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Per afegir un factor TOTP al vostre compte, primer haureu d’instal·lar una aplicació d’autenticació mòbil al telèfon. Dues aplicacions que funcionen bé són **Google Authenticator** i **Authy**, però qualsevol altra aplicació TOTP també hauria de funcionar.
     Si encara no ho heu fet, descarregueu i instal·leu ara una aplicació TOTP al telèfon. Un cop hàgiu llançat l\'aplicació i estigueu llest per afegir un codi TOTP nou, continueu amb el pas següent.',
-      'To configure Disqus OAuth, create a new application here:
-    http://disqus.com/api/applications/
-    Create an application, then adjust these settings:
-      - **Callback URL:** Set this to `%s`
-    After creating an application, copy the **Public Key** and **Secret Key** to the fields above (the **Public Key** goes in **OAuth App ID**).' => 'Per configurar OAuth de Disqus, creeu una nova aplicació aquí:
-    http://disqus.com/api/applications/
-    Creeu una aplicació i, a continuació, ajusteu aquests paràmetres:
-    - **URL de devolució de trucada: ** Establiu-lo a "%s"
-    Després de crear una aplicació, copieu la **clau pública** i la **clau secreta** als camps anteriors (la **clau pública** apareix a **identificador d\'aplicació OAuth**).',
       'Special users like daemons and mailing lists are not permitted to log in via the web. Log in as a normal user instead.' => 'Els usuaris especials com els dimonis i les llistes de correu no tenen permís per iniciar la sessió a través del web. Inicieu la sessió com a usuari normal.',
       'Login Screen Instructions' => 'Instruccions de la pantalla d\'inici de sessió',
       'Mail Body: Welcome' => 'Cos de correu: Benvingut',
@@ -520,28 +540,8 @@ final class PhabricatorAuthCa
       'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => 'Aquest flux de treball generarà una clau asimètrica SSH, afegirà la clau pública i us permetrà descarregar la clau privada.',
       'Too many login failures recently. You must submit a CAPTCHA with your login request.' => 'Massa fallades d’inici de sessió recentment. Heu d’enviar un CAPTCHA amb la vostra sol·licitud d’inici de sessió.',
       'Specified pkcs8 keyfile "%s" does not exist!' => 'El fitxer de clau pkcs8 especificat \'%s\' no existeix!',
-      'To configure Twitch.tv OAuth, create a new application here:
-    http://www.twitch.tv/settings/applications
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Per configurar OAuth de Twitch.tv, creeu una nova aplicació aquí:
-    http://www.twitch.tv/settings/applications
-    Quan creeu l\'aplicació, utilitzeu aquests paràmetres:
-    - **URI de redirecció: * Establiu-lo a: `%s`
-    Després de completar la configuració, copieu el **Identificador de client** i el **Secret del client** als camps anteriors. (És possible que hàgiu de generar el secret del client fent clic primer a "Nou secret").',
       'This private key requires a passphrase, but the wrong passphrase was provided. Check that you supplied the correct key and passphrase.' => 'Aquesta clau privada requereix una contrasenya, però s\'ha proporcionat una contrasenya incorrecta. Comproveu que heu proporcionat la clau i la frase de contrasenya correctes.',
       'When users add a factor for this provider, they are given this enrollment guidance by default:' => 'Quan els usuaris afegeixen un factor per a aquest proveïdor, se\'ls proporciona aquesta guia de registre per defecte:',
-      '%s
-    To configure Amazon OAuth, create a new \'API Project\' here:
-    http://login.amazon.com/manageApps
-    Use these settings:
-      - **Allowed Return URLs:** Add this: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.' => '%s
-    Per configurar OAuth de Amazon, creeu un nou "Projecte API" aquí:
-    http://login.amazon.com/manageApps
-    Utilitzeu aquests paràmetres:
-    - **URL de retorn permesos:** Afegiu-ho: "%s"
-    Després de completar la configuració, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.',
       'CAPTCHA was not entered correctly.' => 'CAPTCHA no s\'ha introduït correctament.',
       'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => 'Configura JIRA OAuth. NOTA: només admet JIRA 6.',
       'If you did not receive an email, you can click the button below to try sending another one.' => 'Si no heu rebut cap correu electrònic, podeu fer clic al botó següent per provar d\'enviar-ne un altre.',

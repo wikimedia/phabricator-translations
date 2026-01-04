@@ -40,7 +40,6 @@ final class PhabricatorHeraldEl
       'Unknown rule type "%s"!' => 'Άγνωστος τύπος κανόνας "%s"!',
       'Save Rule' => 'Αποθήκευση κανόνα',
       '%s disabled this rule.' => 'Ο %s απενεργοποίησε αυτό το κανόνα.',
-      'A personal rule can only be edited by its owner.' => 'Ένας προσωπικός κανόνας μπορεί να επεξεργαστεί μόνο από τον ιδιοκτήτη.',
       'Edit Herald Rule: %s' => 'Επεξεργασία κανόνα Herald: %s',
       'Watch for danger!' => 'Να παρακολουθείτε για κίνδυνο!',
       'Related Fields' => 'Σχετικά πεδία',

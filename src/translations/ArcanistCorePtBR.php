@@ -516,7 +516,6 @@ final class ArcanistCorePtBR
       'Spanish (Spain)' => 'Espanhol (Espanha)',
       'Jul' => 'Jul',
       '%s Library Linter' => 'Otimizador de bibliotecas do Phutil',
-      'You have specified "--draft", but the software version on the server is too old to support draft revisions. Omit the flag or upgrade the server software.' => 'Foi especificado “--draft”, mas a versão do Phabricator no servidor é tão antiga que nem revisões-rascunho reconhece. Tire essa flag ou atualize o software do servidor.',
       'Nov' => 'Nov',
       'Unknown' => 'Desconhecido',
       'Channel closed!' => 'Canal fechado!',

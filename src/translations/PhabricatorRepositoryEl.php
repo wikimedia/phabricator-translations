@@ -9,7 +9,6 @@ final class PhabricatorRepositoryEl
 
   protected function getTranslations() {
     return array(
-      'Unknown repository type \'%s\'!' => 'Άγνωστος τύπος αποθηκευτηρίου \'%s\'!',
       'Unknown VCS \'%s\'!' => 'Άγνωστο VCS \'%s\'!',
       'branch' => 'παράρτημα',
       'Repository Ref' => 'Παραπομπή αποθηκευτηρίου',

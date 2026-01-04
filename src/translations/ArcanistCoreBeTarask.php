@@ -74,7 +74,7 @@ final class ArcanistCoreBeTarask
       'Incomplete implementation: %s!' => 'Няпоўная рэалізацыя: %s!',
       'Array Separator' => 'Падзяляльнік масіву',
       'No tasks found.' => 'Задачы ня знойдзеныя.',
-      '<default>' => '<дапомна>',
+      '<default>' => '<перадвызначана>',
       'ALIAS' => 'ПСЭЎДАНІМ',
       'Use of Deprecated Function' => 'Выкарыстаньне састарэлай функцыі',
     );

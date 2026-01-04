@@ -11,7 +11,6 @@ final class PhabricatorSlowvoteFrFR
     return array(
       'Enter Deliberations' => 'Entrer les délibérations',
       'Close Poll' => 'Clore le sondage',
-      '%s renamed %s.' => '%s a renommé %s.',
       'Create a Poll' => 'Créer un sondage',
       'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'L’option indiquée (« %s ») n’est pas une option de sondage valide. Vous ne pouvez voter que pour des options valides.',
       '%s made %s responses appear in a random order.' => '%s a fait apparaître les réponses de %s dans un ordre aléatoire.',
@@ -86,9 +85,7 @@ final class PhabricatorSlowvoteFrFR
       'Stand For Something' => 'Représenter quelque chose',
       'The author of the poll.' => 'L’auteur du sondage.',
       'Plurality (Single Choice)' => 'Pluralité (choix unique)',
-      'Replaced by "slowvote.poll.search".' => 'Remplacé par « slowvote.poll.search »',
       'Response %d' => 'Réponse %s',
-      'Only the poll owner can see the responses' => 'Seul le créateur du sondage peut voir les réponses',
       'Require a vote to see the responses' => 'Requérir un vote pour voir les réponses',
       'Default view policy for new polls.' => 'Politique d’affichage pour les nouveaux sondages.',
     );

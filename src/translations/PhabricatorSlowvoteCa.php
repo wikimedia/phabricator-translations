@@ -11,7 +11,6 @@ final class PhabricatorSlowvoteCa
     return array(
       'Enter Deliberations' => 'Entrar les Deliberacions',
       'Close Poll' => 'Tancar l\'enquesta',
-      '%s renamed %s.' => '%s ha reanomenat a %s.',
       'Create a Poll' => 'Crear una enquesta',
       'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'L\'opció ("%s") no és una opció d\'enquesta vàlida. Només podeu votar per opcions vàlides.',
       '%s made %s responses appear in a random order.' => '%s ha fet que %s respostes apareguin en un ordre aleatori.',
@@ -76,7 +75,6 @@ final class PhabricatorSlowvoteCa
       'Stand For Something' => 'Representar alguna cosa',
       'The author of the poll.' => 'L\'autor de l\'enquesta.',
       'Plurality (Single Choice)' => 'Pluralitat (opció única)',
-      'Replaced by "slowvote.poll.search".' => 'Reemplaçat per "lowvote.poll.search".',
       'Response %d' => 'Resposta %s',
       'Require a vote to see the responses' => 'Cal un vot per a veure les respostes',
       'Default view policy for new polls.' => 'Política de visualització predeterminada per a enquestes noves.',

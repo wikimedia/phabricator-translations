@@ -10,16 +10,9 @@ final class PhabricatorCorePtPT
   protected function getTranslations() {
     return array(
       'Database "%s" is unknown. This script can only dump databases known to the current version of this software. Valid databases are: %s.' => '',
-      'The callsign of the repository.' => '',
-      'You are trying to save some data to permanent storage, but the request your browser made included an incorrect token. Reload the page and try again. You may need to clear your cookies.' => '',
-      'Upload Picture' => '',
-      'Assigned to Me' => '',
-      'This server is currently in read-only mode. Use --force to override this mode.' => '',
       'This server is configured as "%s", but you are using the domain name "%s" to access a page which is trying to set a cookie. Access this service on the configured primary domain or a configured alternate domain. Cookies will not be set on other domains for security reasons.' => '',
       'This server thinks you are using %s, but your client is convinced that it is using %s. This is a serious misconfiguration with subtle, but significant, consequences.' => 'Este servidor pensa que você está usando %s , mas seu cliente está convencido de que está usando %s . Esta é uma configuração errada',
       'September' => 'Setembro',
-      'This server is in read-only mode.' => '',
-      'This server is in read-only mode (major interruption).' => '',
       'Before running storage upgrades, you should take down the web interface and stop any running daemons (you can disable this warning with %s).' => '',
       'If you are developing %s, these errors usually indicate that your schema specifications do not agree with the schemata your code actually builds.' => 'Se você estiver desenvolvendo %s , esses erros geralmente indicam que as especificações do seu esquema não concordam com os esquemas que seu código realmente constrói.',
       'Set a \'%s\' in your configuration!' => 'Defina um \' %s \' na sua configuração!',
@@ -37,8 +30,6 @@ final class PhabricatorCorePtPT
         `Classes` directory (like `/path/to/example/PHPExcel/Classes`).' => '',
       'Welcome to %s' => 'Bem-vindo ao %s',
       'November' => 'Novembro',
-      'Some of these errors are caused by access control problems. The user you are connecting with does not have permission to see all of the database or tables that this software uses. You need to GRANT the user more permission, or use a different user.' => '',
-      'List databases.' => '',
       'This server is configured with multiple master databases, but master "%s" is missing a "partition" configuration key to define application partitioning.' => '',
       'March' => 'Março',
       'Query class ("%s") did not return the correct type of object from "newResultObject()" (expected a subclass of "PhabricatorLiskDAO", found "%s"). Return an object of the expected type (this is common), or implement a custom "loadPage()" method (this is unusual in modern code).' => '',
@@ -61,12 +52,6 @@ final class PhabricatorCorePtPT
       'January' => 'Janeiro',
       'All Tasks' => 'Todas as tarefas',
       'Welcome to %s!' => 'Bem-vindo ao %s!',
-      'You have an old version of MySQL (older than 5.5) which does not support the utf8mb4 character set. We strongly recommend upgrading to 5.5 or newer.
-    If you apply adjustments now and later update MySQL to 5.5 or newer, you\'ll need to apply adjustments again (and they will take a long time).
-    You can exit this workflow, update MySQL now, and then run this workflow again. This is recommended, but may cause a lot of downtime right now.
-    You can exit this workflow, continue using this software without applying adjustments, update MySQL at a later date, and then run this workflow again. This is also a good approach, and will let you delay downtime until later.
-    You can proceed with this workflow, and then optionally update MySQL at a later date. After you do, you\'ll need to apply adjustments again.
-    For more information, see "Managing Storage Adjustments" in the documentation.' => '',
       'SUCCESS' => 'SUCESSO',
       'October' => 'Outubro',
       'This server is in read-only mode (unreachable master).' => 'Este servidor está em modo de leitura (master inacessível).',
@@ -76,22 +61,14 @@ final class PhabricatorCorePtPT
       'April' => 'Abril',
       'Download' => 'Transferir',
       'June' => 'Junho',
-      'No Builds' => '',
-      'Data can not be exported to Excel because the "zip" PHP extension is not
-    installed. Consult the setup issue in the Config application for guidance on
-    installing the extension.' => '',
-      'Generate a new quickstart database dump. This command is mostly useful for internal development.' => '',
       'Database "%s" is specified more than once. Specify each database at most once.' => '',
       '%s has invited you to join %s.' => '%s convidou você para participar %s .',
       'This service is configured in cluster mode and the address this request was received on ("%s") is not whitelisted as a cluster address.' => 'Este serviço está configurado no modo cluster e o endereço em que esta solicitação foi recebida (" %s ") não está na lista de permissões como endereço de cluster.',
       'Download Raw Diff' => 'Transferir Raw Diff',
-      'Dump only tables in the named database (or databases, if the flag is repeated). Specify database names without the namespace prefix (that is: use "differential", not "phabricator_differential").' => '',
       '%s attached %s file(s): %s.' => '%s anexado(s) %s arquivo(s): %s .',
-      'You have surplus schemata (extra tables or columns which this software does not expect). For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => '',
       'May' => 'Maio',
       'This service is configured to operate in cluster mode, but %s is not defined in the request context. Your webserver configuration needs to forward %s to PHP so the software can reject requests received on external interfaces.' => 'Este serviço está configurado para operar em modo cluster, mas %s não está definido no contexto da solicitação. A configuração do seu servidor web precisa encaminhar %s para PHP para que o software possa rejeitar solicitações recebidas em interfaces externas.',
       'Download Data' => 'Transferir Dados',
-      'This server is configured in cluster mode, with multiple database hosts. Use "--host" to specify which host you want to operate on.' => '',
       'Upload New Picture' => 'Carregar Imagem Nova',
       'Nothing Uploaded' => 'Não Foi Carregado Nada',
       'Upload File' => 'Carregar Ficheiro',

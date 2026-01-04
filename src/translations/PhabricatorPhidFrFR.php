@@ -26,7 +26,6 @@ final class PhabricatorPhidFrFR
       'The objects you have listed include objects which do not exist (%s).' => 'Les objets que vous avez listés comportent des objets qui n\'existe pas (%s)',
       'Trying to create a new sublist of an existing handle list, but PHID "%s" does not appear in the parent list.' => 'Tentative de création d’une nouvelle sous-liste d’une liste de pointeurs existante, mais le PHID "%s" n’apparaît pas dans la liste parent.',
       'Attempting to attach capability ("%s") for object ("%s") to handle, but this handle (of type "%s") can not have capabilities.' => 'Tentative d’attachement de la capacité (« %s ») à prendre en charge par l’objet (« %s »), mais cet indicateur (de type « %s ») ne peut avoir aucune capacité.',
-      'Replaced by \'phid.query\'.' => 'Remplacé par \'phid.query\'.',
       'The objects you have listed include objects of the wrong type (%s) and objects which do not exist (%s).' => 'Les objets que vous avez listés comportent des objets d\'un mauvais type (%s) et des objets qui n\'existent pas (%s).',
       'No such object exists.' => 'Pas d\'objets de ce type.',
       'Can not generate PHID with no type.' => 'Impossible de générer un PHID sans type.',

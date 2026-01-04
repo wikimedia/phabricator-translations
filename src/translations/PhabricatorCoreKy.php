@@ -10,6 +10,8 @@ final class PhabricatorCoreKy
   protected function getTranslations() {
     return array(
       'Question' => 'Суроо',
+      'Grey' => 'Боз',
+      'Protocol' => 'Протокол',
       'Note' => 'Эскертме',
       'Continue' => 'Улантуу',
       'March' => 'Март',
@@ -21,6 +23,7 @@ final class PhabricatorCoreKy
       'Description' => 'Сыпаттама',
       'Users' => 'Колдонуучулар',
       'February' => 'Февраль',
+      'Global' => 'Глобалдуу',
       'Author' => 'Автор',
       'December' => 'Декабрь',
       'Files' => 'Файлдар',
@@ -56,6 +59,7 @@ final class PhabricatorCoreKy
       'Document' => 'Документ',
       'Done.' => 'Даяр.',
       'DONE' => 'ДАЯР',
+      'Remove' => 'Алып салуу',
       'Save' => 'Сактоо',
     );
   }

@@ -10,6 +10,7 @@ final class PhabricatorConfigLb
   protected function getTranslations() {
     return array(
       'Review and modify configuration settings.' => 'Iwwerpréift an ännert d\'Konfiguratiounsastellungen.',
+      'Or:' => 'Oder:',
       '%s / %s' => '%s / %s',
       '(%s%s) %s' => '(%s%s) %s',
       'Not Enabled' => 'Net aktivéiert',

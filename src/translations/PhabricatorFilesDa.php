@@ -14,7 +14,6 @@ final class PhabricatorFilesDa
       'Show what would be updated.' => 'Vis hvad der vil blive opdateret.',
       'JIS' => 'JIS',
       'ERROR' => 'FEJL',
-      'Supported' => 'Understøttet',
       '1 of 99 Problems' => '1 af 99 problemer',
       'Mechanical' => 'Mekanoisk',
       'Buy Stuff' => 'Køb nogle ting',

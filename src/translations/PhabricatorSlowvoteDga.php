@@ -18,7 +18,6 @@ final class PhabricatorSlowvoteDga
       'Plurality' => 'Yagroo',
       '%s changed who can see the responses from %s to %s.' => '%s leɛre neɔ naŋ na nyɛ a sagebu ŋa te ta %s te ta %s.',
       '%s changed who can see the responses of %s from %s to %s.' => '%s leɛre new naŋ na nyɛ a sagebu ŋa %s te ta %s te %s',
-      'Only the poll owner can see the responses' => 'Neɛ naŋ na so o yoŋ la naŋ baŋ sage',
     );
   }
 

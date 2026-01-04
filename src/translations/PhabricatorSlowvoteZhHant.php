@@ -11,7 +11,6 @@ final class PhabricatorSlowvoteZhHant
     return array(
       'Enter Deliberations' => '輸入審議',
       'Close Poll' => '關閉調查',
-      '%s renamed %s.' => '%s 已重新命名%s。',
       'Create a Poll' => '建立調查',
       'Option ("%s") is not a valid poll option. You may only vote for valid options.' => '選項（「%s」）不是有效的調查選項。您僅能對有效的選項投票。',
       '%s made %s responses appear in a random order.' => '%s 讓%s的回應以隨機排序呈現。',

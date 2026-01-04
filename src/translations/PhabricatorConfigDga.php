@@ -322,6 +322,13 @@ final class PhabricatorConfigDga
     Ka fõõ na maale sɛgere a sɛgeroo, paale boŋkaŋa aŋa bone ŋa a fo %s pɛll (a %s lombori poɔ), aleɛrɛ %s ne zɛgere yeltoori ko fo hosi ane tonton-yelwonaa. A pãã leɛpiili %s:
     %s
     Ka a pampana sɛgeroo wa seŋ fo, fo na ba inni la a sɛtap ŋa kpaambo yɛlɛ laanfeɛ lɛ.',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ https://pygments.org/ | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Yelbie tutaa merɛ e ka o kyaane teɛbo ko kɔkɔɛ fĩĩ a meŋɛ, kyɛ fo na baŋ furi la Pygments (a third-party syntax highlighting tool) na tere teɛbo ko kɔkɔɛ yaga.
+    Ka fõõ na furi pygment, gaa kyɛ [[ https://pygments.org/ | pygments.org ]] a tu a danloodi a furi sobi-tuuri.
+    Ka Pygments wa furi, eŋ dare ŋa (`pygments.enabled`) na toŋ ne Pygments ka foŋ wa kyaane yizie koodi.
+    Ka foŋ wa furi baare a eŋ Pygments, yizie koodi kuri paalaa (like diffs and pastes) na kyaane la sonzaa. A na seŋ ka fo kɔre boŋkorɔ na nyɛ yizie koodi naŋ da daŋ bebe na kyaane o. Sobi-tuuri kyaare boŋkorɔ managyiŋ, nyɛ [[ %s | boŋkorɔ managyiŋ ]].',
       'Set a string this software should use to prefix cookie names.' => 'Maale a gampɛle ŋa ka o taa aroozie maraa yoe.',
       'This software sent itself a test request with an HTTP GET parameter, but the parameter was not transmitted. Sent "%s" with value "%s", got "%s" with value "%s".
     Your webserver is configured incorrectly and large parts of this software will not work until this issue is corrected.
@@ -445,13 +452,6 @@ final class PhabricatorConfigDga
     A toɔmo ŋa sɔŋɛɛ MySQL \'\'LOODI DAATA LOOKAL FAALI POORE \'\' guubu, kyɛ sage MySQL sɛɛva kannoo pagebo ko a lookal dɛɛke: a sɛɛva naŋ baŋ soore la a kilaaya ka o tere a o lookal faali yelzu, kyɛ ka a kilaaya tu a lɛ onaŋ yeli.
     A yi o naŋ maŋ ferɛ gba ka a ataaka burburi a saseɛ miri ŋa ka o gyoone a MySQL sɛɛva,a seŋ ka pɔge a iribu: a boɔbo ba taa tɔna kyɛ soma ka gbandi o.
     Ka fo naŋ na pɔge a iribu, maale: %s',
-      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
-    To install Pygments, visit [[ http://pygments.org | pygments.org ]] and follow the download and install instructions.
-    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
-    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'Yelbie tutaa merɛ e ka o kyaane teɛbo ko kɔkɔɛ fĩĩ a meŋɛ, kyɛ fo na baŋ furi la Pygments (a third-party syntax highlighting tool) na tere teɛbo ko kɔkɔɛ yaga.
-    Ka fõõ na furi pygment, gaa kyɛ [[ http://pygments.org | pygments.org ]] a tu a danloodi a furi sobi-tuuri.
-    Ka Pygments wa furi, eŋ dare ŋa (`pygments.enabled`) na toŋ ne Pygments ka foŋ wa kyaane yizie koodi.
-    Ka foŋ wa furi baare a eŋ Pygments, yizie koodi kuri paalaa (like diffs and pastes) na kyaane la sonzaa. A na seŋ ka fo kɔre boŋkorɔ na nyɛ yizie koodi naŋ da daŋ bebe na kyaane o. Sobi-tuuri kyaare boŋkorɔ managyiŋ, nyɛ [[ %s | boŋkorɔ managyiŋ ]].',
       'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
     Disable this setting to continue.' => 'Fo sɛva konfigie la ne \'%s\', naŋ bege a sɔtwaɛ ŋa yi pɛllɛ yuobo, o boɔrɔ la asɛse na.
     ŋmaa a sɛgeroo ŋa na kyoge.',

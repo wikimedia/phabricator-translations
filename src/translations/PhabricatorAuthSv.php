@@ -28,7 +28,7 @@ final class PhabricatorAuthSv
       'Terminate Session' => 'Avsluta session',
       'Link LDAP Account' => 'Länka LDAP-konto',
       'ldap.example.com' => 'ldap.exempel.com',
-      'Log in to %s' => 'Logga in på Phabricator',
+      'Log in to %s' => 'Logga in på %s',
       'Register an Account' => 'Registrera ett konto',
       'LDAP Password' => 'LDAP-lösenord',
       'Unable to connect to LDAP server (%s:%d).' => 'Det gick inte att ansluta till LDAP-servern (%s:%s).',

@@ -39,7 +39,6 @@ final class ArcanistCorePl
       'Nov' => 'Lis',
       'Unknown' => 'Nieznany',
       'Channel closed!' => 'Kanał zamknięty!',
-      'class or interface' => 'klasa lub interfejs',
       '[Invalid Translation!] %s' => '[Nieprawidłowe tłumaczenie!] %s',
       'Apr' => 'Kwi',
       'Mar' => 'Mar',

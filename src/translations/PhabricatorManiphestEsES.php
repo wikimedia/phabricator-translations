@@ -40,7 +40,6 @@ final class PhabricatorManiphestEsES
       'Open Subtasks' => 'Subtareas abiertas',
       'Assign a task to a specific user.' => 'Asignar una tarea a un usuario concreto.',
       'Edit Related Tasks...' => 'Editar tareas relacionadas...',
-      'A task\'s owner changes.' => 'El dueño de una tarea cambia.',
       '%s created subtask %s.' => '%s creó la subtarea %s.',
       'Estimated number of hours this will take.' => 'Número estimado de horas que esto tomará.',
       'Assigned task to: %s.' => 'Tarea asignada a: %s.',

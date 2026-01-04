@@ -51,6 +51,7 @@ final class PhabricatorPeopleSl
       'Show Only Mailing Lists' => 'Prikaži samo dopisne sezname',
       'Log Out %s' => 'Odjava %s',
       'Create New Mailing List' => 'Ustvari nov dopisni seznam',
+      'Logout' => 'Odjava',
       'Update Preview' => 'Posodobi predogled',
       'Multi-Factor: Add Factor' => 'Večfaktorsko: dodaj faktor',
       'Show Only Users With MFA' => 'Prikaži samo uporabnike z MFA',

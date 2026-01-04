@@ -55,8 +55,8 @@ final class PhabricatorConfigDeDE
       'Unable to connect to MySQL!
     %s
     Make sure databases connection information and MySQL are correctly configured.' => 'Keine Verbindung zu MySQL möglich!
-     %s 
-    Stellen Sie sicher, dass Phabricator und MySQL richtig konfiguriert sind.',
+    %s
+    Stellen Sie sicher, dass die Datenbankverbindung und MySQL richtig konfiguriert sind.',
       'Override translations.' => 'Übersetzungen überschreiben.',
       '(empty)' => '(leer)',
       'User Guide: Amazon RDS' => 'Benutzerhandbuch: Amazon RDS',
@@ -121,7 +121,7 @@ final class PhabricatorConfigDeDE
       'Option "%s" is of type "%s", but the configured value is not an integer.' => 'Option "%s" vom Typ "%s", aber der konfigurierte Wert ist keine ganze Zahl.',
       '%s Not Found' => '%s nicht gefunden',
       'Write SSH error log here.' => 'Schreiben Sie hier ein SSH-Fehlerprotokoll.',
-      'Specify the configuration key you want to set.' => 'Geben Sie den Konfigurationsschlüssel an, den Sie festlegen möchten.',
+      'Specify the configuration key you want to set.' => 'Gib den Konfigurationsschlüssel an, den du festlegen möchtest.',
       'Unknown column type "%s"!' => 'Unbekannter Spaltentyp " %s "!',
       'Key is Too Long' => 'Der Schlüssel ist zu lang',
       '\'%s\' Missing' => '%s: nicht vorhanden',
@@ -189,7 +189,7 @@ final class PhabricatorConfigDeDE
       'Amazon Web Services' => 'Amazon Webservices',
       '%s Active' => '%s aktiv',
       'MySQL %s Mode Not Set' => 'MySQL %s Modus nicht eingestellt',
-      'Options for platform developers, including debugging.' => 'Optionen für Phabricator-Entwickler, einschließlich Debugging.',
+      'Options for platform developers, including debugging.' => 'Optionen für Plattformentwickler, einschließlich Debugging.',
       'Database configuration.' => 'Datenbankkonfiguration.',
       'Databases' => 'Datenbanken',
       'Other Version Information' => 'Andere Versionsinformationen',

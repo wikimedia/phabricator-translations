@@ -48,6 +48,7 @@ final class PhabricatorManiphestDeDE
       'Assigned Task' => 'Zugewiesene Aufgaben',
       '%s updated the task description for %s.' => '%s aktualisierte die Aufgabenbeschreibung von %s.',
       '[Maniphest]' => '[Maniphest]',
+      '%s lowered the priority of %s from %s to %s.' => '%s senkte die Priorität von %s von %s auf %s.',
       'Unbreak Now!' => 'Jetzt lösen!',
       'Original task author.' => 'Ursprünglicher Aufgabenautor.',
       'Open Subtasks' => 'Offene Unteraufgaben',
@@ -56,7 +57,6 @@ final class PhabricatorManiphestDeDE
       'Merged In' => 'Zusammengeführt mit',
       '%s edited %s commit(s), added %s: %s; removed %s: %s.' => '%s Bearbeitet %s Commit(s), hinzugefügt %s: %s; entfernt %s: %s.',
       'Edit Related Tasks...' => 'Zugehörige Aufgaben bearbeiten...',
-      'A task\'s owner changes.' => 'Der Verantworliche wird geändert.',
       '%s created subtask %s.' => '%s erstellte Unteraufgabe %s.',
       'No tasks found.' => 'Keine Aufgaben gefunden.',
       'Related commits.' => 'Zugehörige Commits.',
@@ -133,8 +133,9 @@ final class PhabricatorManiphestDeDE
       'Related Objects' => 'Zugehörige Objekte',
       'A task\'s priority changes.' => 'Die Priorität wird geändert.',
       'Merge Duplicates In' => 'Duplikat zusammenführen',
-      'Raised Priority' => 'Priorität erniedrigt',
+      'Raised Priority' => 'Priorität erhöht',
       'Oldest (All)' => 'Älteste (alle)',
+      '%s raised the priority of %s from %s to %s.' => '%s erhöhte die Priorität von %s von %s auf %s.',
       'High' => 'Hoch',
       'Changed Status' => 'Status geändert',
       'Wontfix' => 'Wird nicht behoben',
@@ -172,7 +173,7 @@ final class PhabricatorManiphestDeDE
       '%s reopened %s as %s by committing %s.' => '%s öffnete %s erneut als %s durch den Commit %s.',
       'Closed as Duplicate' => 'Als Duplikat geschlossen',
       '%s merged task %s into %s.' => '%s führte die Aufgabe %s in %s zusammen.',
-      'Lowered Priority' => 'Priorität erhöht',
+      'Lowered Priority' => 'Priorität verringert',
       'Closed By' => 'Geschlossen von',
       'Create a new Maniphest task.' => 'Neue Maniphest-Aufgabe erstellen.',
       'Create New Task' => 'Neue Aufgabe erstellen',
@@ -192,7 +193,6 @@ final class PhabricatorManiphestDeDE
       '%s reopened %s as "%s".' => '%s öffnete %s erneut als "%s".',
       '%s triaged this task as %s priority.' => '%s setzte die Priorität der Aufgabe auf %s.',
       'Choose Subtype' => 'Untertyp auswählen',
-      'You can not remove the owner of this task because it is locked and no one would be able to edit the task. Reassign the task or unlock it before removing the owner.' => 'Sie können den Besitzer dieser Aufgabe nicht entfernen, da sie gesperrt ist und niemand die Aufgabe bearbeiten könnte. Weisen Sie die Aufgabe neu zu oder entsperren Sie sie, bevor Sie den Besitzer entfernen.',
     );
   }
 

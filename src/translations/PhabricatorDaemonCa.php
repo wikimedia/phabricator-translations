@@ -82,7 +82,6 @@ final class PhabricatorDaemonCa
       'This daemon has not reported its status recently. It may have exited uncleanly.' => 'Aquest dimoni no ha informat del seu estat recentment. Pot haver sortit impurament.',
       'Maximum pool size.' => 'Mida màxima de la piscina.',
       'Unknown status "%s"!' => 'Estat %s desconegut!',
-      'Deprecated. Has no effect.' => 'Obsolet. No té cap efecte.',
       'This job is waiting for tasks to be queued.' => 'Aquesta feina espera que les tasques es posin a la cua.',
       'ERROR: The PHP function %s is disabled. You must enable it to run daemons on this machine.
     ' => 'ERROR: la funció PHP %s està desactivada. Heu d’habilitar-la per executar dimonis en aquesta màquina.',

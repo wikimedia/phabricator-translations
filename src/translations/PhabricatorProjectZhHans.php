@@ -145,6 +145,7 @@ final class PhabricatorProjectZhHans
       'Make the current filter the new default filter for this board? All users will see the new filter as the default when they view the board.' => '将当前过滤器作为此面板新的默认过滤器么？所有用户将在其访问面板时默认看到新的过滤器。',
       'Change Project Tags' => '更改项目标签',
       '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s编辑了%s的项目，添加了%s个：%s；移除了%s个：%s。',
+      'T403385' => 'T403385',
       '%s set this project\'s image to %s.' => '%s将此项目的图片设置为%s。',
       '%s set this project\'s icon to %s.' => '%s将此项目的图标设置为%s。',
       'Add projects: %s.' => '添加项目：%s。',

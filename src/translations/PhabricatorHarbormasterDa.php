@@ -12,7 +12,6 @@ final class PhabricatorHarbormasterDa
       'For example:' => 'For eksempel:',
       'Resuming' => 'Fortsætter',
       'Publishing "%s"...' => 'Offentliggør "%s"...',
-      'Use %s instead.' => 'Brug %s i stedet.',
       'Run %d' => 'Kør %s',
       'or' => 'eller',
       'Completed' => 'Færdiggjort',

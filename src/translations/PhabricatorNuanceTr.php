@@ -54,7 +54,7 @@ final class PhabricatorNuanceTr
       'Manage Nuance queues.' => 'Nuance sıralarını yönet.',
       'Import data from a source.' => 'Bir kaynaktan veri al.',
       'Edit Queue: %s' => 'Sırayı Düzenle: %s',
-      'Web Form' => 'Phabricator Formu',
+      'Web Form' => 'Web Formu',
       'User %s' => 'Kullanıcı %s',
       'Specify a source with %s.' => '%s ile bir kaynak belirtin.',
       'Complaint Form' => 'Şikayet Formu',

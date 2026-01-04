@@ -48,7 +48,7 @@ final class PhabricatorSubscriptionsTr
     Subscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.
     Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => 'Nesneye bir veya daha fazla abone ekleyin. Kullanıcı adlarını vererek kullanıcılar ekleyebilir veya karelerini ekleyerek projeler ekleyebilirsiniz. Örneğin, kullanıcıyı "alincoln" ve "#ios" etiketli projeyi abone olarak eklemek için `%s` kullanın.
     Geçersiz veya tanınmayan aboneler dikkate alınmaz. Aboneler belirtmezseniz bu komutun bir etkisi olmaz.
-    Phabricator hangi hesapların e-posta adreslerine bağlı olduğunu bilirse, e-postada CC\'de olan kullanıcılar da otomatik olarak abone olur.',
+    E-postanın kendisine CC\'de eklenen kullanıcılar, adresleri bilinen bir hesapla ilişkiliyse otomatik olarak abone olurlar.',
       'Add rule author as subscriber.' => 'Abone olarak kural yazarı ekleyin.',
       'Added %s subscriber(s): %s.' => 'Eklenen %s abone: %s.',
       'Remove rule author as subscriber.' => 'Kural yazarı abone olarak kaldırın.',

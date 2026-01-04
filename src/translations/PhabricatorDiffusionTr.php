@@ -37,7 +37,7 @@ final class PhabricatorDiffusionTr
       'Get blame information for a list of paths.' => 'Yolların bir listesi için suçlama bilgisi alın.',
       'Branch comparison is not supported for this version control system.' => 'Bu sürüm kontrol sistemi için dal karşılaştırması desteklenmez.',
       'The change you\'re attempting to push deletes the branch \'%s\'.' => 'Aktarmaya çalıştığınız değişiklik \'%s\' dalını siler.',
-      'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Bu depo, muazzam değişikliklerden korunamaz çünkü Phabricator, kullanıcıların ona itmesine izin verilenleri kontrol etmez.',
+      'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Bu depo, büyük değişikliklerden korunamaz çünkü bu sunucu, kullanıcıların içine ne gönderebileceklerini kontrol etmez.',
       'Edit Properties' => 'Özellikleri Düzenle',
       'Failed to reconnect to master database and release held write lock ("%s") on device "%s" for repository "%s" after trying for %s seconds(s). This repository will be frozen.' => 'Ana veritabanına yeniden bağlanılamadı ve %4$s denemeden sonra "%3$s" deposu için "%2$s" cihazında tutulan yazma kilidi ("%1$s") serbest bırakılamadı. Bu depo dondurulacaktır.',
       'Tag Content' => 'İçeriği Etiketle',
@@ -225,21 +225,20 @@ final class PhabricatorDiffusionTr
       'All Sync Logs' => 'Tüm Senkronizasyon Günlükleri',
       'Change is enormous' => 'Değişim muazzam',
       'This commit is empty and does not affect any paths.' => 'Bu taahhüt boştur ve hiçbir yolu etkilemez.',
-      'This server does not support HTTP access to Subversion repositories.' => 'Phabricator, Subversion depolarına HTTP erişimini desteklemez.',
+      'This server does not support HTTP access to Subversion repositories.' => 'Bu sunucu, Subversion depolarına HTTP erişimini desteklemez.',
       'Download from Git LFS' => 'Git LFS\'den indir',
       'This push didn\'t push any new commits.' => 'Bu itme yeni bir taahhütte bulunmadı.',
       'Unknown VCS.' => 'Bilinmeyen VCS.',
       'If activated now, this repository will observe an existing remote repository and begin importing changes.' => 'Şimdi etkinleştirilirse, bu depo mevcut bir uzak deposu gözlemler ve değişiklikleri içe aktarmaya başlar.',
       'From Device PHID' => 'Cihaz PHID\'sinden',
       'You must provide two different commits to compare.' => 'Karşılaştırmak için iki farklı taahhüt vermelisiniz.',
-      'If you want to import only part of a repository, like `trunk/`, you can set a path in **Import Only**. The import process will ignore commits which do not affect this path.' => 'Deponun yalnızca `trunk/` gibi bir bölümünü içe aktarmak istiyorsanız, **Yalnızca İçe Aktar** seçeneğinde bir yol ayarlayabilirsiniz. Phabricator, bu yolu etkilemeyen taahhütleri göz ardı edecektir.',
+      'If you want to import only part of a repository, like `trunk/`, you can set a path in **Import Only**. The import process will ignore commits which do not affect this path.' => 'Deponun yalnızca `trunk/` gibi bir bölümünü içe aktarmak istiyorsanız, **Yalnızca İçe Aktar** seçeneğinde bir yol ayarlayabilirsiniz. İçe aktarma işlemi bu yolu etkilemeyen taahhütleri yok sayacaktır.',
       'Needs Verification' => 'Doğrulama Gerekiyor',
       'Unprotectable Repository' => 'Korunamayan Depo',
       'Set the default branch name.' => 'Varsayılan dal adını ayarlayın.',
       'Last Change' => 'Son Değişiklik',
       'Unknown VCS \'%s!\'' => 'Bilinmeyen VCS \'%s!\'',
       'Get commit identifiers for recent commits affecting a given path.' => 'Belirli bir yolu etkileyen son taahhütler için taahhüt tanımlayıcıları alın.',
-      'Obsoleted by "diffusion.historyquery".' => '"diffusion.historyquery" tarafından kullanımdan kaldırılmıştır.',
       'This path does not exist at %s. It was deleted in %s and last existed at %s.' => 'Bu yol %s üzerinde mevcut değil. %s ile silindi ve son olarak %s ile mevcuttu.',
       'Search for identities by substring.' => 'Alt dizeye göre kimlik arayın.',
       'Unknown External' => 'Bilinmeyen Harici',
@@ -305,7 +304,7 @@ final class PhabricatorDiffusionTr
       'No repository exists with PHID "%s".' => '"%s" PHID ile depo yok.',
       'No Ref Support' => 'Referans Desteği Yok',
       'This is not a cluster repository.' => 'Bu bir küme deposu değil.',
-      'To learn more about how repositories are updated, read %s in the documentation.' => 'Phabricator\'ın depoları nasıl güncellediği hakkında daha fazla bilgi için belgelerdeki %s okuyun.',
+      'To learn more about how repositories are updated, read %s in the documentation.' => 'Depoların nasıl güncellendiği hakkında daha fazla bilgi edinmek için %s belgesinde okuyun.',
       'Repository "%s" does not have a working copy on this device yet, so it can not be synchronized. Wait for the daemons to construct one or run `bin/repository update %s` on this host ("%s") to build it explicitly.' => '"%s" deposunun bu cihazda henüz çalışan bir kopyası yok, bu nedenle senkronize edilemiyor. Daemon\'ların bir tane oluşturmasını bekleyin veya bu ana bilgisayarda `bin/depo güncellemesi %s` ("%s") açıkça oluşturmak için çalıştırın.',
       'Commit Detail' => 'İşlem Ayrıntısı',
       'Added %s auditor(s): %s.' => '%s denetçi eklendi: %s.',
@@ -335,7 +334,7 @@ final class PhabricatorDiffusionTr
       'There is no branch named "%s" in this repository.' => 'Bu depoda "%s" adında bir depo yok.',
       '%s now requires audit.' => '%s şimdi denetim gerektiriyor.',
       'Push Policy' => 'Push Politikası',
-      'Unable to determine the username to connect with when trying to proxy an SSH request within the cluster.' => 'Phabricator kümesinde bir SSH isteğini proxy yapmaya çalışırken bağlanılacak kullanıcı adı belirlenemedi.',
+      'Unable to determine the username to connect with when trying to proxy an SSH request within the cluster.' => 'Kümede bir SSH isteğini proxy yapmaya çalışırken bağlanılacak kullanıcı adı belirlenemedi.',
       'Commit Not Tracked' => 'Taahhüt İzlenmedi',
       'Find results for repositories of a project.' => 'Bir projenin depolarını bul.',
       'Synchronizing this device ("%s") from cluster leader ("%s").' => 'Bu cihazı ("%s") küme liderinden ("%s") senkronize ediyor.',
@@ -394,7 +393,7 @@ final class PhabricatorDiffusionTr
       '%s on %s.' => '%s üzerinde %s.',
       'When constructing clone URIs to show to users, Diffusion by default will not display a port assuming the default for your VCS. Explicitly declare when running on a non-standard port.' => 'Kullanıcılara gösterilecek klon URI\'leri oluştururken, varsayılan olarak Difüzyon, VCS\'niz için varsayılan kabul edilen bir bağlantı noktası görüntülemez. Standart olmayan bir bağlantı noktasında çalışırken açıkça bildirin.',
       'VCS is not supported for this method.' => 'VCS bu yöntem için desteklenmiyor.',
-      'You can not set a credential for builtin URIs which this server hosts. These URIs are not fetched from or pushed to, and credentials are not required to authenticate any activity against them.' => 'Phabricator\'ın barındırdığı ve sunduğu yerleşik URI\'ler için bir kimlik bilgisi ayarlayamazsınız. Phabricator, bu URI\'lerden getirmez veya bu URI\'lere aktarmaz ve bunlara karşı herhangi bir etkinliğin kimliğini doğrulamak için kimlik bilgilerine ihtiyaç duymaz.',
+      'You can not set a credential for builtin URIs which this server hosts. These URIs are not fetched from or pushed to, and credentials are not required to authenticate any activity against them.' => 'Bu sunucunun barındırdığı yerleşik URI\'ler için kimlik bilgisi ayarlayamazsınız. Bu URI\'ler alınıp gönderilmez ve bunlara yönelik herhangi bir etkinliği doğrulamak için kimlik bilgileri gerekmez.',
       'Auditors for this commit.' => 'Bu taahhüt için denetçiler.',
       'Clone Repository' => 'Depoyu Klonla',
       'Public Key Error: This error usually indicates that the keypair you have configured does not have permission to access the repository.' => 'Genel Anahtar Hatası: Bu hata genellikle yapılandırdığınız anahtar çiftinin depoya erişim iznine sahip olmadığını gösterir.',
@@ -403,7 +402,7 @@ final class PhabricatorDiffusionTr
       'This repository is read-only over HTTP.' => 'Bu depo HTTP üzerinden salt okunurdur.',
       'Git LFS Token' => 'Git LFS Anahtarı',
       'Issue #123, #456' => 'Soru #123, #456',
-      'If you accept SSH traffic on a different host from web traffic (for example, if you use different SSH and web load balancers), you can set the SSH hostname here. This is an advanced option.' => 'Web trafiğinden farklı bir ana bilgisayarda Phabricator SSH trafiğini kabul ederseniz (örneğin, farklı SSH ve web yük dengeleyicileri kullanıyorsanız), SSH ana bilgisayar adını buradan ayarlayabilirsiniz. Bu gelişmiş bir seçenektir.',
+      'If you accept SSH traffic on a different host from web traffic (for example, if you use different SSH and web load balancers), you can set the SSH hostname here. This is an advanced option.' => 'Web trafiğinden farklı bir ana bilgisayarda SSH trafiğini kabul ederseniz (örneğin, farklı SSH ve web yük dengeleyicileri kullanıyorsanız), SSH ana bilgisayar adını buradan ayarlayabilirsiniz. Bu gelişmiş bir seçenektir.',
       'New auditors.' => 'Yeni denetçiler.',
       'Disable this URI? It will no longer be observed, fetched, mirrored, served or shown to users.' => 'Bu URI devre dışı bırakılsın mı? Artık kullanıcılara gözlemlenmeyecek, getirilmeyecek, yansıtılmayacak, sunulmayacak veya gösterilmeyecektir.',
       'From Version' => 'Sürümden',
@@ -422,7 +421,7 @@ final class PhabricatorDiffusionTr
       'Owners: %s' => 'Sahipleri: %s',
       'Browse Auditors' => 'Denetçilere Göz Atın',
       'Blocked: %s' => 'Engellendi: %s',
-      'This repository will be observed.' => 'Phabricator uzak bir depo gözlemleyecektir.',
+      'This repository will be observed.' => 'Bu depo gözlemlenecektir.',
       'The change you\'re attempting to push updates the branch \'%s\' from \'%s\' to \'%s\', but this is not a fast-forward. Pushes which rewrite published branch history are dangerous.' => 'Aktarmaya çalıştığınız değişiklik \'%s\' dalını \'%s\' üzerinden \'%s\' günceller, ancak bu bir hızlı ileri değildir. Yayınlanan dal tarihini yeniden yazan pushlar tehlikelidir.',
       'Blocked push.' => 'Engellenen push.',
       'Can Create Repositories' => 'Depolar Oluşturabilir',
@@ -538,7 +537,7 @@ final class PhabricatorDiffusionTr
       'Partially Audited' => 'Kısmen Denetlenmiş',
       'Affected packages that need audit' => 'Denetim gerektiren etkilenen paketler',
       'To access repositories hosted on this server over HTTP, you must set a version control password. This password should be unique.
-    This password applies to all repositories available over HTTP.' => 'Phabricator tarafından HTTP üzerinden barındırılan depolara erişmek için bir sürüm kontrol parolası ayarlamanız gerekir. Bu parola benzersiz olmalıdır.
+    This password applies to all repositories available over HTTP.' => 'Bu sunucuda HTTP üzerinden barındırılan depolara erişmek için bir sürüm kontrol parolası ayarlamanız gerekir. Bu parola benzersiz olmalıdır.
     Bu parola HTTP üzerinden kullanılabilen tüm depolar için geçerlidir.',
       'Expected `%s`!' => 'Beklenen `%s`!',
       'Ref change type' => 'Referans değiştirme türü',
@@ -642,7 +641,7 @@ final class PhabricatorDiffusionTr
       'This repository ("%s") is not a Git repository.' => 'Bu depo ("%s") bir Git deposu değil.',
       'Sync Logs' => 'Günlükleri Senkronize Et',
       'Subpath to selectively import.' => 'Seçmeli olarak içe aktarmak için alt yol.',
-      'Advises this server to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => 'Phabricator\'a mümkün olan en kısa sürede bir depoda yeni taahhütler aramasını tavsiye eder. Bu tavsiye, en azından bu depoya yeni taahhütler verdiyseniz faydalıdır.',
+      'Advises this server to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => 'Bu sunucuya mümkün olan en kısa sürede bir depoda yeni taahhütler aramasını tavsiye eder. Bu tavsiye, en azından bu depoya yeni taahhütler verdiyseniz faydalıdır.',
       'You must %s the query before accessing the identifier map.' => 'Tanımlayıcı haritaya erişmeden önce sorguyu %s yapmanız gerekir.',
       'This repository is not available over HTTP.' => 'Bu depo HTTP üzerinden kullanılamıyor.',
       'Submodule' => 'Alt modül',
@@ -766,7 +765,7 @@ final class PhabricatorDiffusionTr
       'Internal method for getting raw diff information.' => 'Ham fark bilgisi elde etmek için dahili yöntem.',
       'Get lint messages for existing code.' => 'Mevcut kod için tüysüz mesajlar alın.',
       'Merged commit information for a specific commit in a repository.' => 'Bir depodaki belirli bir taahhüt için birleştirilmiş taahhüt bilgileri.',
-      'The working copy for this repository ("%s") has not been cloned yet on this machine ("%s"). Make sure you have started the daemons. If this problem persists for longer than a clone should take, check the daemon logs (in the Daemon Console) to see if there were errors cloning the repository. Consult the "Diffusion User Guide" in the documentation for help setting up repositories.' => 'Bu deponun çalışma kopyası ("%s") bu makinede henüz klonlanmadı ("%s"). Phabricator cinlerini başlattığınızdan emin olun. Bu sorun bir klonun alması gerekenden daha uzun süre devam ederse, depoyu klonlarken hatalar olup olmadığını görmek için daemon günlüklerini (Daemon Console\'da) kontrol edin. Depoları ayarlama konusunda yardım için belgelerdeki "Difüzyon Kullanıcı Kılavuzu"\'na bakın.',
+      'The working copy for this repository ("%s") has not been cloned yet on this machine ("%s"). Make sure you have started the daemons. If this problem persists for longer than a clone should take, check the daemon logs (in the Daemon Console) to see if there were errors cloning the repository. Consult the "Diffusion User Guide" in the documentation for help setting up repositories.' => 'Bu deponun ("%s") çalışma kopyası henüz bu makineye ("%s") kopyalanmadı. Daemonları başlattığınızdan emin olun. Bu sorun bir klonun alması gerekenden daha uzun süre devam ederse, depoyu klonlarken hatalar olup olmadığını görmek için daemon günlüklerini (Daemon Console\'da) kontrol edin. Depoları ayarlama konusunda yardım için belgelerdeki "Difüzyon Kullanıcı Kılavuzu"\'na bakın.',
       'This repository has no tags.' => 'Bu deponun etiketi yok.',
       'Empty Commit' => 'Boş Taahhüt',
       'OVERSIZED FILE
@@ -780,17 +779,6 @@ final class PhabricatorDiffusionTr
       'This external reference matches multiple known commits.' => 'Bu harici referans, bilinen birden çok taahhütle eşleşir.',
       'Commit uses Git LFS' => 'Taahhüt Git LFS\'yi kullanıyor',
       'No Default Branch' => 'Varsayılan Dal Yok',
-      'Provide the URI of a Git repository. It should usually look like one of these examples:
-    | Example Git URIs
-    | -----------------------
-    | `git@github.com:example/example.git`
-    | `ssh://user@host.com/git/example.git`
-    | `https://example.com/repository.git`' => 'Git deposunun URI\'sini sağlayın. Genellikle bu örneklerden birine benzemelidir:
-    | Örnek Git URI\'leri
-    | -----------------------
-    | `git@github.com:example/example.git`
-    | `ssh://user@host.com/git/example.git`
-    | `https://example.com/repository.git`',
       'Very Large Commit' => 'Çok Büyük İşlem',
       'No Callsign' => 'Çağrı Yok',
       'Enable Notifications, Feed, and Herald' => 'Bildirimleri, Yayını ve Herald\'ı etkinleştir',
@@ -834,7 +822,7 @@ final class PhabricatorDiffusionTr
       'Search for sync logs for specific repositories.' => 'Belirli depolar için senkronizasyon günlüklerini arayın.',
       'Lint Details' => 'Lint Detayları',
       'Controls who can push changes to the repository.' => 'Depodaki değişiklikleri kimlerin gönderebileceğini denetler.',
-      'This repository can not be protected from dangerous changes because this server does not control what users are allowed to push to it.' => 'Bu depo tehlikeli değişikliklerden korunamaz çünkü Phabricator, kullanıcıların ona itmesine izin verilenleri kontrol etmez.',
+      'This repository can not be protected from dangerous changes because this server does not control what users are allowed to push to it.' => 'Bu depo tehlikeli değişikliklerden korunamaz çünkü bu sunucu, kullanıcıların ona itmesine izin verilenleri kontrol etmez.',
       '%s edited %s auditor(s), removed %s: %s; added %s: %s.' => '%s, %s denetçiyi düzenledi, %s kaldırıldı: %s; %s ekledi: %s.',
       'Start Test' => 'Testi Başlat',
       'Creates and edits repositories.' => 'Depolar oluşturur ve düzenler.',
@@ -876,10 +864,10 @@ final class PhabricatorDiffusionTr
       'Enable URI' => 'URI\'yı etkinleştir',
       'Browse Symbols' => 'Sembollere Göz At',
       'This commit now has outstanding concerns.' => 'Bu taahhüdün artık kaygıları var.',
-      'This server supports Git LFS, a Git extension for storing large files alongside a repository. Activate this setting to allow the extension to store file data.' => 'Phabricator, büyük dosyaların bir deponun yanında depolanması için bir Git uzantısı olan Git LFS\'yi destekler. Uzantının Phabricator\'da dosya verilerini depolamasına izin vermek için bu ayarı etkinleştirin.',
+      'This server supports Git LFS, a Git extension for storing large files alongside a repository. Activate this setting to allow the extension to store file data.' => 'Bu sunucu, büyük dosyaların bir deponun yanında depolanması için bir Git uzantısı olan Git LFS\'yi destekler. Uzantının dosya verilerini depolamasına izin vermek için bu ayarı etkinleştirin.',
       'Tags for %s' => '%s için etiketler',
       'Waiting on another user to finish writing...' => 'Başka bir kullanıcının yazmayı bitirmesi bekleniyor...',
-      'Repository "%s" exists on more than one device, but no device has any repository version information. There is no way for the software to determine which copy of the existing data is authoritative. Promote a device or see "Ambiguous Leaders" in the documentation.' => '"%s" deposu birden fazla aygıtta var, ancak hiçbir aygıtın depo sürüm bilgisi yok. Phabricator, mevcut verilerin hangi kopyasının yetkili olduğunu tahmin edemez. Bir cihazı tanıtın veya belgelerdeki "Belirsiz Liderler"\'e bakın.',
+      'Repository "%s" exists on more than one device, but no device has any repository version information. There is no way for the software to determine which copy of the existing data is authoritative. Promote a device or see "Ambiguous Leaders" in the documentation.' => '"%s" deposu birden fazla aygıtta var, ancak hiçbir aygıtın depo sürüm bilgisi yok. Yazılımın mevcut verilerin hangi kopyasının yetkili olduğunu belirlemesinin bir yolu yoktur. Bir cihazı tanıtın veya belgelerdeki "Belirsiz Liderler" sayfasına bakın.',
       'You must log in to push to this repository.' => 'Bu depoya giriş yapmak için giriş yapmalısınız.',
       'Update Repository Now' => 'Depoyu Şimdi Güncelle',
       'Invalid path ID!' => 'Geçersiz yol kimliği!',
@@ -931,13 +919,13 @@ final class PhabricatorDiffusionTr
       'This repository is inactive.' => 'Bu depo etkin değil.',
       'This page documents the commands you can use to interact with commits and audits in Diffusion.' => 'Bu sayfa, Difüzyon\'daki taahhütler ve denetimlerle etkileşim kurmak için kullanabileceğiniz komutları belgeler.',
       'Failed to load file object for Git LFS ref "%s"!' => 'Git LFS referansı "%s" için dosya nesnesi yüklenemedi!',
-      'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normal olarak, Phabricator depoları otomatik olarak son işlemden bu yana geçen süreye göre günceller. Bu, çok sayıda çoğunlukla etkin olmayan depolarınız varsa yükün azaltılmasına yardımcı olur, bu da yaygındır.',
+      'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normalde, depolar son taahhütten bu yana geçen zamana göre otomatik olarak güncellenir. Bu, çok sayıda çoğunlukla etkin olmayan depolarınız varsa yükün azaltılmasına yardımcı olur, bu da yaygındır.',
       'Automation blueprints.' => 'Otomasyon planları.',
       'Removed diff content' => 'Fark içerik kaldırıldı',
       'This server can serve repositories over HTTP, using HTTP basic auth.
     Because HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as this server uses HTTPS, but it presents a much lower barrier to attackers than SSH does.
-    Consider using SSH for authenticated access to repositories instead of HTTP.' => 'Phabricator, HTTP temel yetkilendirmesini kullanarak HTTP üzerinden depolar sunabilir.
-    HTTP temel kimlik doğrulaması SSH kimlik doğrulamasından daha az güvenli olduğundan, varsayılan olarak devre dışıdır. Yine de kullanmak isterseniz, buradan etkinleştirebilirsiniz. Phabricator HTTPS kullandığı sürece temelde güvensiz bir şey yoktur, ancak saldırganlara SSH\'den çok daha düşük bir bariyer sunar.
+    Consider using SSH for authenticated access to repositories instead of HTTP.' => 'Bu hizmet, HTTP temel yetkilendirmesini kullanarak HTTP üzerinden depolar sunabilir.
+    HTTP temel kimlik doğrulaması SSH kimlik doğrulamasından daha az güvenli olduğundan, varsayılan olarak devre dışıdır. Yine de kullanmak isterseniz, buradan etkinleştirebilirsiniz. Bu sunucu HTTPS kullandığı sürece temelde güvensiz bir şey yoktur, ancak saldırganlara SSH\'den çok daha düşük bir bariyer sunar.
     HTTP yerine depolara kimliği doğrulanmış erişim için SSH kullanmayı düşünün.',
       'Repositories to link symbols from.' => 'Sembolleri bağlamak için depolar.',
       'Visible To' => 'Görünür',
@@ -968,7 +956,7 @@ final class PhabricatorDiffusionTr
       'Group Auditors' => 'Grup Denetçileri',
       'Apply transactions to create a new repository or edit an existing one.' => 'Yeni bir depo oluşturmak veya mevcut bir havuzu düzenlemek için işlemleri uygulayın.',
       'No Branches' => 'Dal Yok',
-      'This repository will be hosted.' => 'Phabricator bu depoya ev sahipliği yapacak.',
+      'This repository will be hosted.' => 'Bu depo barındırılacak.',
       'Prevent Enormous Changes' => 'Muazzam Değişiklikleri Önleyin',
       'Automation Not Configured' => 'Otomasyon Yapılandırılmadı',
       'This commit is still importing. Changes will be visible once the import finishes.' => 'Bu taahhüt hala içe aktarılıyor. Değişiklikler içe aktarma işlemi tamamlandığında görünecektir.',
@@ -981,7 +969,7 @@ final class PhabricatorDiffusionTr
       'Enable HTTP Basic Auth for repositories.' => 'Depolar için HTTP Temel Kimlik Doğrulamasını etkinleştirin.',
       'Internal method for filtering ref ancestors.' => 'Referans atalarını filtrelemek için dahili yöntem.',
       'Configure **Repository Automation** to allow this server to write to this repository.
-    IMPORTANT: This feature is new, experimental, and not supported. Use it at your own risk.' => '**Depo Otomasyonunu** Phabricator\'ın bu depoya yazmasına izin verecek şekilde yapılandırın.
+    IMPORTANT: This feature is new, experimental, and not supported. Use it at your own risk.' => 'Bu sunucunun bu depoya yazmasına izin vermek için **Depo Otomasyonu**\'nu yapılandırın.
     ÖNEMLİ: Bu özellik yeni, deneysel ve desteklenmiyor. Kendi sorumluluğunuzdadır kullanın.',
       'Touched Paths Limit' => 'Dokunma Yolları Sınırı',
       'Builtin URIs Do Not Use Credentials' => 'Yerleşik URI\'ler Kimlik Bilgileri Kullanmaz',

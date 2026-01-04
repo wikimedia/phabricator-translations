@@ -11,7 +11,6 @@ final class PhabricatorSlowvoteTr
     return array(
       'Enter Deliberations' => 'Müzakerelere Girin',
       'Close Poll' => 'Anketi Kapat',
-      '%s renamed %s.' => '%s, %s olarak yeniden adlandırıldı.',
       'Create a Poll' => 'Anket Oluştur',
       'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'Seçenek ("%s") geçerli bir yoklama seçeneği değil. Sadece geçerli seçenekler için oy kullanabilirsiniz.',
       '%s made %s responses appear in a random order.' => '%s, %s yanıtının rastgele bir sırada görünmesini sağladı.',
@@ -76,7 +75,6 @@ final class PhabricatorSlowvoteTr
       'Stand For Something' => 'Bir Şeye Kal',
       'The author of the poll.' => 'Anketin sahibi.',
       'Plurality (Single Choice)' => 'Çoğulculuk (Tek Seçenek)',
-      'Replaced by "slowvote.poll.search".' => '"slowvote.poll.search" ile değiştirildi.',
       'Response %d' => '%s yanıt',
       'Require a vote to see the responses' => 'Cevapları görmek için oy ver',
       'Default view policy for new polls.' => 'Yeni anketler için varsayılan görünüm politikası.',

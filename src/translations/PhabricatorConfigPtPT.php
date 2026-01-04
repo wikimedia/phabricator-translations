@@ -269,6 +269,13 @@ final class PhabricatorConfigPtPT
     To adjust the setting, add something like this to your %s file (in the %s section), replacing %s with an appropriate value for your host and use case. Then restart %s:
     %s
     If you\'re satisfied with the current setting, you can safely ignore this setup warning.' => '',
+      'Syntax highlighting is supported for a few languages by default, but you can install Pygments (a third-party syntax highlighting tool) to provide support for many more languages.
+    To install Pygments, visit [[ https://pygments.org/ | pygments.org ]] and follow the download and install instructions.
+    Once Pygments is installed, enable this option (`pygments.enabled`) to make use of Pygments when highlighting source code.
+    After you install and enable Pygments, newly created source code (like diffs and pastes) should highlight correctly. You may need to clear caches to get previously existing source code to highlight. For instructions on managing caches, see [[ %s | Managing Caches ]].' => 'O realce de sintaxe é suportado em alguns idiomas por predefinição, mas você pode instalar Pygments (uma ferramenta de realce de sintaxe de terceiros) para fornecer suporte para muitos outros idiomas.
+    Para instalar o Pygments, visite [[ https://pygments.org/ | pygments.org ]] e siga as instruções de transferência e instalação.
+    Depois de instalar Pygments, ative esta opção (`pygments.enabled`) para utilizar Pygments quando destacar o código fonte.
+    Depois de instalar e ativar Pygments, o código fonte recém-criado (tais como diffs e pastes) deveria ser destacado corretamente. Pode ser necessário limpar as \'\'caches\'\' para destacar o código fonte existente anteriormente. Para obter instruções sobre como gerir as \'\'caches\'\', consulte [[ %s | Gerir Caches ]].',
       'Set a string this software should use to prefix cookie names.' => 'Defina uma string que este software deve usar para prefixar nomes de cookies.',
       'If the web server responds to both HTTP and HTTPS requests but you want users to connect with only HTTPS, you can set this to `true` to make this service redirect HTTP requests to HTTPS.
     Normally, you should just configure your server not to accept HTTP traffic, but this setting may be useful if you originally used HTTP and have now switched to HTTPS but don\'t want to break old links, or if your webserver sits behind a load balancer which terminates HTTPS connections and you can not reasonably configure more granular behavior there.

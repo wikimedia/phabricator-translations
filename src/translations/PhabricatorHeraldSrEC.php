@@ -65,7 +65,6 @@ final class PhabricatorHeraldSrEC
       'This was a dry run, so no actions were taken.' => 'Ово је било пробно извршење, ниједна радња није стварно предузета.',
       'Save Rule' => 'Сачувај правило',
       '%s disabled this rule.' => '%s је онемогућио ово правило.',
-      'A personal rule can only be edited by its owner.' => 'Лично правило може мењати једино његов власник.',
       'Edit Herald Rule: %s' => 'Измени Хералд правило: %s',
       'Webhook Request %d' => 'Захтев за веб-копчу %s',
       'Related Fields' => 'Повезана поља',
@@ -93,6 +92,7 @@ final class PhabricatorHeraldSrEC
       'No rules found.' => 'Нема пронађених правила.',
       'Browse Herald Rules' => 'Претражи Хералд правила',
       'Create Herald Rule: %s' => 'Направи Хералд правило: %s',
+      'No transcripts found.' => 'Нема пронађених транскрипта.',
       'Added Comment' => 'Додат коментар',
       'Create Rule' => 'Направи правило',
       'Another Herald rule' => 'Ново Хералд правило',
@@ -162,7 +162,6 @@ final class PhabricatorHeraldSrEC
       'is false' => 'је нетачно',
       'First regular expression is invalid!' => 'Први регуларни израз је неисправан!',
       'Webhooks' => 'Веб-копче',
-      'No transcripts found.' => 'Нема пронађених транскрипта.',
     );
   }
 

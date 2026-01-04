@@ -11,7 +11,6 @@ final class PhabricatorFilesFi
     return array(
       'JIS' => 'JIS',
       'ERROR' => 'VIRHE',
-      'Supported' => 'Tuettu',
       '1 of 99 Problems' => '1/99 ongelmaa',
       'Preview (220px)' => 'Esikatselu (220px)',
       'DANGEROUS' => 'VAARALLINEN',

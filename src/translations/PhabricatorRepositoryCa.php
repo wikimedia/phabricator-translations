@@ -10,7 +10,6 @@ final class PhabricatorRepositoryCa
   protected function getTranslations() {
     return array(
       'Repository "%s" is a non-hosted Subversion repository, which does not require a local working copy to be pulled.' => 'El repositori "%s" és un repositori de Subversió no allotjat, que no requereix l\'extracció d\'una còpia de treball local.',
-      'Unknown repository type \'%s\'!' => 'Tipus de repository desconegut «%s»!',
       'No importing commits found.' => 'No s\'han trobat compromisos d\'importació.',
       'The selected repository short name is already in use by another repository. Choose a unique short name.' => 'El nom curt del repositori seleccionat ja està en ús per un altre repositori.  Trieu un nom curt únic.',
       'Waiting to acquire write lock for "%s"...' => 'S\'està esperant per adquirir el bloqueig d\'escriptura per a «%s».',

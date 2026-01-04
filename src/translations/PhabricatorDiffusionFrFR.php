@@ -127,6 +127,18 @@ final class PhabricatorDiffusionFrFR
       'Allow or prevent dangerous changes.' => 'Autoriser ou prévenir les modifications dangereuses.',
       'All Identities' => 'Toutes les identités',
       'Repository "%s" is a cluster repository, but the current host is not a cluster device (it has no device ID), so the repository will not be updated on this host.' => 'Le dépôt « %s » est un dépôt en grappe, mais l’hôte actuel n’est pas un appareil de grappe (il n’a aucun identifiant d’appareil), donc le dépôt ne sera pas mis à jour sur cet hôte.',
+      'Provide the URI of a Git repository. It should usually look like one of these examples:
+    | Example Git URIs
+    | -----------------------
+    | `git@github.com:example/example.git`
+    | `ssh://user@host.com/git/example.git`
+    | `https://example.com/repository.git`
+    **For Gerrit URIs below: Please do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead - thanks!**' => 'Fournir l\'URI d\'un dépôt Git. Ressemble habituellement à l\'un de ces exemples :
+    | Exemple d\'URI Git
+    | -----------------------
+    | `git@github.com:example/example.git`
+    | `ssh://user@host.com/git/example.git`
+    | `https://example.com/repository.git`',
       'Your VCS password has been updated.' => 'Votre mot de passe du système de contrôle des versions a été mis à jour.',
       'Change the repository short name.' => 'Modifier le libellé court du dépôt.',
       'Change the repository description.' => 'Modifier la description du dépôt.',
@@ -300,7 +312,6 @@ final class PhabricatorDiffusionFrFR
       'Set the permanent refs.' => 'Définit les références permanentes.',
       'Unknown VCS \'%s!\'' => 'Système de contrôle des versions « %s » inconnu !',
       'Get commit identifiers for recent commits affecting a given path.' => 'Obtenir les identifiants de validation pour les validations récentes affectant un chemin donné.',
-      'Obsoleted by "diffusion.historyquery".' => 'Obsolète et remplacé par « diffusion.historyquery ».',
       'This path does not exist at %s. It was deleted in %s and last existed at %s.' => 'Ce chemin n’existe pas à %s. Il a été supprimé en %s et sa dernière existence est à %s.',
       'New fetched refs.' => 'Nouvelles références récupérées.',
       'Search for identities by substring.' => 'Chercher les identités avec une sous-chaîne.',
@@ -971,17 +982,6 @@ final class PhabricatorDiffusionFrFR
       'This external reference matches multiple known commits.' => 'Cette référence externe correspond à de multiples validations connues.',
       'Commit uses Git LFS' => 'Validation utilisant Git LFS',
       'No Default Branch' => 'Aucune branche par défaut',
-      'Provide the URI of a Git repository. It should usually look like one of these examples:
-    | Example Git URIs
-    | -----------------------
-    | `git@github.com:example/example.git`
-    | `ssh://user@host.com/git/example.git`
-    | `https://example.com/repository.git`' => 'Fournir l\'URI d\'un dépôt Git. Ressemble habituellement à l\'un de ces exemples :
-    | Exemple d\'URI Git
-    | -----------------------
-    | `git@github.com:example/example.git`
-    | `ssh://user@host.com/git/example.git`
-    | `https://example.com/repository.git`',
       'Very Large Commit' => 'Validations très grandes',
       'No Callsign' => 'Aucun préfixe',
       'Enable Notifications, Feed, and Herald' => 'Activer les notification, les flux et Herald',

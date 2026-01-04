@@ -85,7 +85,6 @@ final class PhabricatorDaemonFrFR
       'This daemon has not reported its status recently. It may have exited uncleanly.' => 'Ce service en arrière-plan n’a pas rapporté récemment son état. Il s’est peut-être terminé brutalement.',
       'Maximum pool size.' => 'Taille maximale de la réserve.',
       'Unknown status "%s"!' => 'État « %s » inconnu !',
-      'Deprecated. Has no effect.' => 'Obsolète. N’a aucun effet.',
       'This job is waiting for tasks to be queued.' => 'Ce travail attend que des tâches soient ajoutées dans la file d\'attente.',
       'ERROR: The PHP function %s is disabled. You must enable it to run daemons on this machine.
     ' => 'ERREUR : la fonction PHP %s est désactivée. Vous devez l’activer pour exécuter des services en arrière-plan sur cette machine.',

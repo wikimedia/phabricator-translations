@@ -71,6 +71,15 @@ final class PhabricatorAuthFrFR
       'Unable to Log In' => 'Connexion impossible',
       'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'Le service externe (« %s ») que vous venez d’utiliser pour vous connecter est déjà associé avec un autre compte utilisateur %s. Connectez-vous à l’autre compte %s et supprimez le compte externe avant de le lier avec un nouveau compte %s.',
       'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Avant d’utiliser ce logiciel, vous devez ajouter une authentification multi-facteurs à votre compte. Celle-ci permet de le sécuriser en rendant plus difficile son accès et la réalisation d’actions sensibles aux attaquants.',
+      'To configure Twitch.tv OAuth, create a new application here:
+    https://www.twitch.tv/settings/applications
+    When creating your application, use these settings:
+      - **Redirect URI:** Set this to: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Pour configurer OAuth de Twitch.tv, créez une nouvelle application ici :
+    https://www.twitch.tv/settings/applications
+    Lors de cette création, utilisez ces paramètres :
+      - **URI de redirection :** = complétez avec : `%s`
+    Après avoir terminé la configuration, copiez le **Client ID** et le **Client Secret** dans les champs ci-dessus (vous aurez peut-être besoin auparavant de générer le Client Secret en cliquant sur \'Nouveau Secret\').',
       'Session has already signed required legalpad documents!' => 'La session a déjà signé les documents Legalpad nécessaires !',
       'On the plus side, that purple notification bubble will disappear.' => 'Du côté positif, cette bulle pourpre de notification disparaîtra.',
       'This account ("%s") can not establish web sessions, so it is not possible to generate a functional recovery link. Special accounts like daemons and mailing lists can not log in via the web UI.' => 'Ce compte (« %s ») ne peut pas établir de sessions web, il n’est donc pas possible de générer un lien de récupération fonctionnel. Les comptes spéciaux comme les services en arrière-plan et les listes de diffusion ne peuvent se connecter via l’interface utilisateur sur le web.',
@@ -143,6 +152,15 @@ final class PhabricatorAuthFrFR
       - **URL de redirection** : La mettre à : `%s`
     Une fois l’application créée, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'Username Attribute' => 'Attributs du nom d’utilisateur',
+      'To configure Disqus OAuth, create a new application here:
+    https://disqus.com/api/applications/
+    Create an application, then adjust these settings:
+      - **Callback URL:** Set this to `%s`
+    After creating an application, copy the **Public Key** and **Secret Key** to the fields above (the **Public Key** goes in **OAuth App ID**).' => 'Pour configurer OAuth de Disqus, créez une nouvelle application ici :
+    https://disqus.com/api/applications/
+    Créez une application, puis réglez ces paramètres :
+      - **URL de rappel :** La mettre à `%s`
+    Après avoir créé une application, copiez la **Clé publique** et la **Clé secrète** dans les champs ci-dessus (la **Clé publique** va dans **OAuth App ID**).',
       'Unlink Your Only Login Account?' => 'Délier votre seul compte de connexion ?',
       'Specify an OAuth client id with "--id".' => 'Spécifier un identifiant de client OAuth avec "--id".',
       'Your account has no primary contact number.' => 'Votre compte n’a pas de principal numéro de contact.',
@@ -153,6 +171,17 @@ final class PhabricatorAuthFrFR
       'Always bind and search, even without a username and password.' => 'Toujours lier et rechercher, même sans nom d’utilisateur et mot de passe.',
       'Skipping, provider is not enabled or does not exist.' => 'Sauter, le fournisseur n’est pas activé ou n’existe pas.',
       'Does Not Allow Registration' => 'Ne permet pas l’inscription',
+      '%s
+    To configure Amazon OAuth, create a new \'API Project\' here:
+    https://developer.amazon.com/apps-and-games/login-with-amazon
+    Use these settings:
+      - **Allowed Return URLs:** Add this: `%s`
+    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.' => '%s
+    Pour configurer OAuth de Amazon, créer un nouveau \'Projet API\' ici :
+    https://developer.amazon.com/apps-and-games/login-with-amazon
+    Utiliser ces paramètres :
+      - **URL de retour permises :** Ajouter cela : `%s`
+    Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       '/settings/panel/contact/' => '/settings/panel/contact/',
       'Path to corresponding PKCS8 key.' => 'Chemin vers la clé PKCS8 correspondante.',
       'Strength' => 'Force',
@@ -278,15 +307,6 @@ final class PhabricatorAuthFrFR
       'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
     If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Pour ajouter un facteur TOTP à votre compte, vous devez d’abord installer une application d’authentificateur mobile sur votre téléphone. Deux applications qui fonctionnent bien sont **Google Authenticator** et **Authy**, mais toute autre application TOTP devrait fonctionner.
     Si vous n’en avez pas déjà une, téléchargez et installez une application TOTP sur votre téléphone maintenant. Une fois que vous avez lancé l’application et que vous êtes prêt à ajouter un nouveau code TOTP, continuez vers l’étape suivante.',
-      'To configure Disqus OAuth, create a new application here:
-    http://disqus.com/api/applications/
-    Create an application, then adjust these settings:
-      - **Callback URL:** Set this to `%s`
-    After creating an application, copy the **Public Key** and **Secret Key** to the fields above (the **Public Key** goes in **OAuth App ID**).' => 'Pour configurer OAuth de Disqus, créez une nouvelle application ici :
-    http://disqus.com/api/applications/
-    Créez une application, puis réglez ces paramètres :
-      - **URL de rappel :** La mettre à `%s`
-    Après avoir créé une application, copiez la **Clé publique** et la **Clé secrète** dans les champs ci-dessus (la **Clé publique** va dans **OAuth App ID**).',
       'Special users like daemons and mailing lists are not permitted to log in via the web. Log in as a normal user instead.' => 'Les utilisateurs spéciaux comme les services en arrière-plan et les listes de diffusion ne sont pas autorisés à se connecter via Internet. Connectez-vous comme un utilisateur normal à la place.',
       'Login Screen Instructions' => 'Instructions de l\'écran de connexion',
       'Mail Body: Welcome' => 'Corps du courriel : Bienvenue',
@@ -733,31 +753,11 @@ final class PhabricatorAuthFrFR
     Après avoir créé votre nouvelle application, copiez les valeurs de *App ID** et de *App Secret** dans les champs sus-mentionnés.',
       'Too many login failures recently. You must submit a CAPTCHA with your login request.' => 'Trop d’échecs de connexion récemment. Vous devez soumettre un CAPTCHA avec votre demande de connexion.',
       'Specified pkcs8 keyfile "%s" does not exist!' => 'Le fichier de clé pkcs8 « %s » n’existe pas !',
-      'To configure Twitch.tv OAuth, create a new application here:
-    http://www.twitch.tv/settings/applications
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Pour configurer OAuth de Twitch.tv, créez une nouvelle application ici :
-    http://www.twitch.tv/settings/applications
-    Lors de cette création, utilisez ces paramètres :
-      - **URI de redirection :** = complétez avec : `%s`
-    Après avoir terminé la configuration, copiez le **Client ID** et le **Client Secret** dans les champs ci-dessus (vous aurez peut-être besoin auparavant de générer le Client Secret en cliquant sur \'Nouveau Secret\').',
       'An email has been sent containing a link you can use to log in to your account.' => 'Un courriel contenant un lien utilisable pour vous connecter à votre compte a été envoyé.',
       'You have already accepted this invitation.' => 'Vous avez déjà accepté cette invitation.',
       'You must choose a password or skip this step.' => 'Vous devez choisir un mot de passe ou sauter cette étape.',
       'This private key requires a passphrase, but the wrong passphrase was provided. Check that you supplied the correct key and passphrase.' => 'Cette clé privée nécessite une phrase secrète, mais la mauvaise phrase secrète a été fournie. Vérifiez que vous avez fourni les bonnes clé et phrase secrète.',
       'When users add a factor for this provider, they are given this enrollment guidance by default:' => 'Quand des utilisateurs ajoutent un facteur à ce fournisseur, ils obtiennent ces conseils d’inscription par défaut :',
-      '%s
-    To configure Amazon OAuth, create a new \'API Project\' here:
-    http://login.amazon.com/manageApps
-    Use these settings:
-      - **Allowed Return URLs:** Add this: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.' => '%s
-    Pour configurer OAuth de Amazon, créer un nouveau \'Projet API\' ici :
-    http://login.amazon.com/manageApps
-    Utiliser ces paramètres :
-      - **URL de retour permises :** Ajouter cela : `%s`
-    Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
       'CAPTCHA was not entered correctly.' => 'Le CAPTCHA n\'a pas été entré correctement.',
       'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => 'Configurer OAuth pour JIRA. NOTE : seulement JIRA 6 est pris en charge.',
       'If you did not receive an email, you can click the button below to try sending another one.' => 'Si vous n\'avez pas reçu de courriel, vous pouvez cliquer sur le bouton ci-dessous pour essayer d’en envoyer un autre.',

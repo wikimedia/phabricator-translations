@@ -48,7 +48,6 @@ final class PhabricatorPholioTr
       'Create Mock' => 'Sahte Oluştur',
       'All Mocks' => 'Tüm Sahteler',
       'Click here, or drag and drop images to add them to the mock.' => 'Buraya tıklayın veya görüntüleri sahteye eklemek için sürükleyip bırakın.',
-      'A mock\'s owner can always view and edit it.' => 'Sahte sahibinin sahibi her zaman görüntüleyebilir ve düzenleyebilir.',
       'Interacting with Pholio Mocks' => 'Pholio Sahteler ile etkileşime girme',
       'Upload Complete...' => 'Yükleme Tamamlandı...',
       'Things before they were cool.' => 'Her şey yolunda gitmeden önce.',

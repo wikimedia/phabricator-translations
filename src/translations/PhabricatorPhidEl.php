@@ -14,7 +14,6 @@ final class PhabricatorPhidEl
       'Restricted %s' => 'Περιορισμένο %s',
       'Application Email' => 'Διεύθυνση ηλεκτρονικού ταχυδρομείου της εφαρμογής',
       'Unknown Object (%s)' => 'Άγνωστο αντικείμενο (%s)',
-      'Replaced by \'phid.query\'.' => 'Αντικαταστάθηκε από το \'phid.query\'.',
       'No such object exists.' => 'Δεν υπάρχει τέτοιο αντικείμενο.',
       'Can not generate PHID with no type.' => 'Δεν μπορεί να δημιουργηθεί PHID χωρίς τύπο.',
     );

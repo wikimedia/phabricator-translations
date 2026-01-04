@@ -11,7 +11,6 @@ final class PhabricatorSlowvoteEl
     return array(
       'Enter Deliberations' => 'Εισαγάγετε διαβουλεύσεις',
       'Close Poll' => 'Κλείσιο ψηφοφορίας',
-      '%s renamed %s.' => 'Ο %s μετονόμασε τον %s.',
       'Create a Poll' => 'Δημιουργήστε ψηφοφορία',
       '%s made %s responses appear in a random order.' => 'Ο %s έκανε %s απαντήσεις που εμφανίζονται με τυχαία σειρά.',
       'Create Slowvote' => 'Δημιουργία αργής ψηφοφορίας.',

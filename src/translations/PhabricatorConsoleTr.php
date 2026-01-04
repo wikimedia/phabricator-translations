@@ -45,7 +45,7 @@ final class PhabricatorConsoleTr
       'Replay' => 'Tekrar',
       'Can\'t Analyze' => 'Analiz Edilemiyor',
       'Events' => 'Etkinlikler',
-      'Information about events and event listeners.' => 'Phabricator olayları ve olay dinleyicileri hakkında bilgi.',
+      'Information about events and event listeners.' => 'Etkinlikleri ve etkinlik dinleyicileri hakkında bilgi.',
       'Page Weight' => 'Sayfa Ağırlığı',
       'Hostname' => 'Sunucu Adı',
       'Registered Event Listeners' => 'Kayıtlı Etkinlik Dinleyicileri',

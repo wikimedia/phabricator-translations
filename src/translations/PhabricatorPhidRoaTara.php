@@ -26,7 +26,6 @@ final class PhabricatorPhidRoaTara
       'The objects you have listed include objects which do not exist (%s).' => 'Le oggette ca tu è elengate tènene oggette ca non g\'esistene (%s).',
       'Trying to create a new sublist of an existing handle list, but PHID "%s" does not appear in the parent list.' => 'Ste pruève a ccrejà \'nu sottelenghe nuève de \'n\'elenghe de handle ca esiste, ma \'u PHID "%s" non ge iesse jndr\'à l\'elenghe de le attane.',
       'Attempting to attach capability ("%s") for object ("%s") to handle, but this handle (of type "%s") can not have capabilities.' => 'Stoche a prove a \'nzeccà \'a capacitate ("%s") pe l\'oggette ("%s") da gestì, ma sta gestione (de tipe "%s") non ge ave le capacitate.',
-      'Replaced by \'phid.query\'.' => 'Sostituite da \'phid.query\'.',
       'The objects you have listed include objects of the wrong type (%s) and objects which do not exist (%s).' => 'Le oggette ca tu è elengate tènene oggette cu \'u tipe errate (%s) e oggette ca non g\'esistene (%s).',
       'No such object exists.' => 'Non ge ste nisciune oggette.',
       'Can not generate PHID with no type.' => 'Non ge se pò generà \'u PHID senza tipe.',

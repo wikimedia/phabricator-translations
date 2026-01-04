@@ -153,7 +153,6 @@ final class PhabricatorHeraldFrFR
       'every time this rule matches:' => 'chaque fois que cette règle est vérifiée :',
       'Associated hook ("%s") for webhook request ("%s") has invalid fetch URI: %s' => 'L\'accroche associée (« %s ») pour la requête de l\'accroche Internet (« %s ») possède une URI de récupération non valide : %s',
       '%s disabled this rule.' => '%s a désactivé cette règle.',
-      'A personal rule can only be edited by its owner.' => 'Une règle personnelle ne peut être modifiée que par son propriétaire.',
       'Edit Herald Rule: %s' => 'Modifier la règle Herald : %s',
       'Webhook URIs can be no longer than %s characters.' => array(
         'Les URI des accroches Internet ne peuvent pas dépasser %s caractère.',
@@ -166,7 +165,6 @@ final class PhabricatorHeraldFrFR
       'Status mode for the webhook.' => 'Mode d’état pour l\'accroche Internet.',
       'Related Fields' => 'Champs connexes',
       'New Test Request' => 'Nouvelle requête de test',
-      'Rule failed automatically because it is a personal rule and its owner is invalid or disabled.' => 'La règle a échoué automatiquement car c’est une règle personnelle et son propriétaire n’est pas valide ou est désactivé.',
       'New Action' => 'Nouvelle action',
       'No Effect' => 'Sans effet',
       'Instead of making calls in the foreground, add the tasks to the daemon queue.' => 'Au lieu d’effectuer des appels en premier plan, ajoutez les tâches à la file d\'attente des services en arrière-plan.',
@@ -222,6 +220,7 @@ final class PhabricatorHeraldFrFR
       'Herald rules will not trigger until tracking is enabled.' => 'Les règles Herald ne s’enclencheront pas avant l’activation du suivi.',
       'Edit Webhook: %s' => 'Modifier l\'accroche Internet : %s',
       'Create Herald Rule: %s' => 'Créer la règle Herald : %s',
+      'No transcripts found.' => 'Aucune transcription trouvée.',
       'Global Herald rules can be edited by users with the "Can Manage Global Rules" Herald application permission.' => 'Les règles Herald globales peuvent être modifiées pas les utilisateurs ayant le droit d’application Herald « Peut gérer des règles globales ».',
       'Recursion' => 'Récursion',
       '%s (Disabled)' => '%s (désactivé)',
@@ -289,7 +288,6 @@ final class PhabricatorHeraldFrFR
       'To view a transcript, you must be able to view the object the transcript is about.' => 'Pour visionner une transcription, vous devez être en mesure de voir l’objet sur lequel porte la transcription.',
       'This rule type is not supported by the selected content type.' => 'Ce type de règle n’est pas pris en charge par le type de contenu sélectionné.',
       'Herald User Guide' => 'Guide utilisateur du messager',
-      'Rule Owner' => 'Propriétaire de la règle',
       'Trigger Object' => 'Objet déclencheur',
       'Object Monograms' => 'Objet Monograms',
       'Really enable this rule?' => 'Voulez-vous réellement activer cette règle ?',
@@ -394,12 +392,10 @@ final class PhabricatorHeraldFrFR
       'Specify a rule to edit with "--rule <id|monogram>".' => 'Spécifiez une règle à modifier avec « --rule <id|monogram> ».',
       'is false' => 'est faux',
       'First regular expression is invalid!' => 'La première expression rationnelle n’est pas valide !',
-      'Rule failed automatically because it is a personal rule and its owner does not have permission to view the object.' => 'La règle a échoué automatiquement car c’est une règle personnelle et son propriétaire n’a pas le droit de voir l’objet.',
       '%s renamed this webhook from %s to %s.' => '%s a renommé cette accroche Internet de %s en %s.',
       'Name of the webhook.' => 'Nom de l\'accroche Internet.',
       'Webhooks' => 'Accroches Internet',
       'The regular expression pair "%s" must have exactly two elements.' => 'La paire d’expressions rationnelles « %s » doit avoir exactement deux éléments.',
-      'No transcripts found.' => 'Aucune transcription trouvée.',
     );
   }
 

@@ -9,7 +9,7 @@ final class PhabricatorCountdownNe
 
   protected function getTranslations() {
     return array(
-      'Hours' => 'घण्टाहरू',
+      'Hours' => 'घन्टा',
     );
   }
 
