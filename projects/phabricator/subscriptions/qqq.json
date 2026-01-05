@@ -1,14 +1,16 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Stefan2255"
+		]
 	},
-	"0f0973483d912464": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/controller/PhabricatorSubscriptionsMuteController.php$73 PhabricatorSubscriptionsMuteController.php:73]",
+	"0f0973483d912464": "Used in to blocking notifications from specific objects:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/controller/PhabricatorSubscriptionsMuteController.php$73 PhabricatorSubscriptionsMuteController.php:73]",
 	"16b20e68bb281a3b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/engineextension/PhabricatorSubscriptionsMailEngineExtension.php$16 PhabricatorSubscriptionsMailEngineExtension.php:16]",
 	"1c25a826933ba2a7": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/controller/PhabricatorSubscriptionsMuteController.php$76 PhabricatorSubscriptionsMuteController.php:76]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php$117 PhabricatorSubscriptionsUIEventListener.php:117]",
 	"1eda447e23cc5832": "{{identical|Subscriber}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/policyrule/PhabricatorSubscriptionsSubscribersPolicyRule.php$22 PhabricatorSubscriptionsSubscribersPolicyRule.php:22]",
 	"1eebe0c8018ccf4c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/herald/PhabricatorSubscriptionsRemoveSelfHeraldAction.php$9 PhabricatorSubscriptionsRemoveSelfHeraldAction.php:9]",
 	"1f333fc696a56fe6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/engineextension/PhabricatorSubscriptionsEditEngineExtension.php$72 PhabricatorSubscriptionsEditEngineExtension.php:72]",
-	"22f254f13a072a77": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/controller/PhabricatorSubscriptionsMuteController.php$79 PhabricatorSubscriptionsMuteController.php:79]",
+	"22f254f13a072a77": "Used in for question about re-enabling notifications:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/controller/PhabricatorSubscriptionsMuteController.php$79 PhabricatorSubscriptionsMuteController.php:79]",
 	"2cad9316913ab881": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/engineextension/PhabricatorSubscriptionsEditEngineExtension.php$69 PhabricatorSubscriptionsEditEngineExtension.php:69]",
 	"34655e839671c022": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/engineextension/PhabricatorSubscriptionsSearchEngineExtension.php$14 PhabricatorSubscriptionsSearchEngineExtension.php:14]",
 	"36c9f4f48b127253": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/controller/PhabricatorSubscriptionsEditController.php$45 PhabricatorSubscriptionsEditController.php:45]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php$73 PhabricatorSubscriptionsUIEventListener.php:73]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/subscriptions/herald/PhabricatorSubscriptionsHeraldAction.php$145 PhabricatorSubscriptionsHeraldAction.php:145]",

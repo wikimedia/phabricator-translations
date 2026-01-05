@@ -16,6 +16,8 @@
 	"00003a701ef56dd7": "Avbröts p.g.a. misslyckad filuppladdning. Du kan använda $1 för att hoppa över binära uppladdningar.",
 	"0008687c919b007e": "Referensen \"$1\" finns inte i den fjärran \"$2\".",
 	"002c2a90a11d5b80": "Den här arbetskopian är associerad med filförrådet $1.",
+	"0099091670df1068": "Anrop till \"posix_getpgid(...)\" misslyckades!",
+	"00ccdc30a8fb3ff3": "Strategin \"squash\" komprimerar flera lokala commits till en enda commit vid publicering. Den genererar en linjär publiceringshistorik (men ignorerar lokala checkpoint-commits). Detta är standardstrategin.",
 	"013ec8933730fcd3": "\"$1\" ($2)",
 	"018bfac259f28112": "Sparade \"$1\" som \"$2\".",
 	"0195007b017e9f88": "Natten har fallit. Nymånen ovanför ger precis tillräckligt med ljus för att man ska kunna urskilja sin omgivning. Det är ganska kallt.",
