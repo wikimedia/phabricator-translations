@@ -691,7 +691,7 @@
 	"b5f84e9067aeff48": "Modifié après",
 	"b6cbe0759c26d466": "Modification du commentaire",
 	"b6ffdafbb8b040b7": "URI de problèmes JIRA",
-	"b797d6e315224e43": "Afficher {{PLURAL:$1|0=$0 ligne|la ligne|toutes les $1 lignes}}",
+	"b797d6e315224e43": "Afficher {{PLURAL:$1|$1 ligne|toutes les $1 lignes}}",
 	"b7b2216fa7c3abda": "Vous allez prendre contrôle de cette version et en devenir l’auteur.",
 	"b7e2544b96ab8523": "Vous devez charger les morceaux via des groupes de modifications, avec $1 !",
 	"b81640a1c9324730": "Ce fichier binaire a été déplacé depuis $1.",

@@ -118,7 +118,7 @@
 	"2125b1f015987ea8": "Atribut del nom d'usuari",
 	"216a39a567111b1b": "Per configurar OAuth de Disqus, creeu una nova aplicació aquí:\n\nhttps://disqus.com/api/applications/\n\nCreeu una aplicació i, a continuació, ajusteu aquests paràmetres:\n\n- **URL de devolució de trucada: ** Establiu-lo a \"$1\"\n\nDesprés de crear una aplicació, copieu la **clau pública** i la **clau secreta** als camps anteriors (la **clau pública** apareix a **identificador d'aplicació OAuth**).",
 	"2181b967442f1d68": "Voleu desenllaçar el vostre únic compte d'inici de sessió?",
-	"21d183567cd41d08": "Especifiqueu un identificador de client OAuth amb $1.",
+	"21d183567cd41d08": "Especifiqueu un identificador de client OAuth amb \"--id\".",
 	"2223907b822ff825": "El vostre compte no té cap número de contacte principal.",
 	"229eb7c19a7fae92": "Cal un URI base JIRA.",
 	"22d16de192c09157": "Configuració bloquejada",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nokeoo"
+			"Nokeoo",
+			"Pppery"
 		]
 	},
 	"00a64a49b8cbf97e": "$1 pervadino šį teikėją iš $2 į $3.",
@@ -71,7 +72,7 @@
 	"211d31449b6f20de": "Negalimas kontaktinis numeris: $1",
 	"2125b1f015987ea8": "NNaudotojo vardo atributas",
 	"2181b967442f1d68": "Atsieti vienintelę prisijungimo paskyrą?",
-	"21d183567cd41d08": "Nurodykite OAuth kliento is su $1.",
+	"21d183567cd41d08": "Nurodykite OAuth kliento is su \"--id\".",
 	"2223907b822ff825": "Jūsų paskyroje nėra pagrindinio kontaktinio numerio.",
 	"2358e3f5c2cf4211": "Praleidžiama, teikėjas neįjungtas arba neegzistuoja.",
 	"23d68e4c60663a02": "Neleidžia registruotis",

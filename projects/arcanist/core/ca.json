@@ -84,7 +84,7 @@
 	"080683c8639ecefe": "Arxiu de configuració del projecte",
 	"084a2df2ee4f3fa9": "S'esperava que coincidís amb el patró «$1» contra la línia «$2» en el blob de validació en brut: $3",
 	"08a5fa3619ddf212": "Estàs al mig d'una petita neteja.",
-	"08a6e78b81034d2e": "No s'ha pogut trobar una ordre del navegador per executar-la. Establiu '$1' a la configuració d'Arcanist per especificar una ordre que cal utilitzar.",
+	"08a6e78b81034d2e": "No s'ha pogut trobar una ordre del navegador per executar-la. Establiu 'browser' a la configuració per especificar una ordre que cal utilitzar.",
 	"08ca86996e18a820": "Un bloc try/catch captura \"Exception\", però no captura \"Throwable\". A PHP7 i versions posteriors, algunes excepcions en temps d'execució escaparan d'aquest bloc.",
 	"08e55ac73e3843e0": "HLint és un linter per al codi en Haskell.",
 	"08e803d8d11ee22e": "Cap abast principal",

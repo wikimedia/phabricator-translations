@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardoaddad"
+			"Eduardoaddad",
+			"Pppery"
 		]
 	},
 	"012f3cfd29d66d76": "$1 entrada habilitada.",
@@ -36,7 +37,7 @@
 	"175eee25085bdb76": "Não há tokens correspondentes para revogar.",
 	"19166f670db6efac": "Nome de usuário LDAP",
 	"1b23c88cdc541997": "Terminar sessão?",
-	"21d183567cd41d08": "Especifique um ID do cliente OAuth com $1.",
+	"21d183567cd41d08": "Especifique um ID do cliente OAuth com \"--id\".",
 	"2c966675a89bb6c7": "Gerar um novo par de chaves",
 	"2ccb2959713e232f": "O Phabricator não reterá uma cópia da chave privada.",
 	"3537fbc2c8b8c5e0": "Um par de chaves foi gerado e a chave pública foi adicionada como uma chave reconhecida.",
