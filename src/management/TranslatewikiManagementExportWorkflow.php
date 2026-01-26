@@ -345,6 +345,7 @@ final class TranslatewikiManagementExportWorkflow
         '' => pht('NONE'),
         'person' => pht('GENDER'),
         'number' => pht('PLURAL'),
+        'phutilnumber' => pht('PLURAL')
       );
 
       $type_list = array();
