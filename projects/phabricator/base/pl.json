@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Warchlak"
+			"Warchlak",
+			"Woytecr"
 		]
 	},
-	"2b864b4aa73d7545": "Ta aplikacja jest wymagana do działania Phabricatora, więc wszyscy użytkownicy muszą mieć do niej dostęp.",
+	"2b864b4aa73d7545": "Ta aplikacja jest wymagana, więc wszyscy użytkownicy muszą mieć do niej dostęp.",
 	"473a2b8ae0fda34b": "Może konfigurować aplikacje",
 	"5065c3a197c9ae53": "Może korzystać z aplikacji",
 	"b0608ab1bd963593": "Narzędzia programistyczne"

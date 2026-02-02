@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Woytecr"
+		]
 	},
 	"0294e4a93c79fe48": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$48 TranslatewikiManagementExportWorkflow.php:48]",
 	"04a422d38c95415c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiSwedishSv.php$12 TranslateWikiSwedishSv.php:12]",
@@ -50,7 +52,7 @@
 	"b919bad1a5bc00cd": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$21 TranslatewikiManagementExportWorkflow.php:21]",
 	"c435945f8f07345d": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$386 TranslatewikiManagementExportWorkflow.php:386]",
 	"c732898ac3089782": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$176 TranslatewikiManagementExportWorkflow.php:176]",
-	"c9d24cf2f05e3bcb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$181 TranslatewikiManagementExportWorkflow.php:181]",
+	"c9d24cf2f05e3bcb": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$177 TranslatewikiManagementExportWorkflow.php:177]",
 	"ccadbcf74331a452": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementGenerateWorkflow.php$74 TranslatewikiManagementGenerateWorkflow.php:74]",
 	"d011986407b1110e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiPolishPl.php$12 TranslateWikiPolishPl.php:12]",
 	"d37b3f801e2ed13d": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$381 TranslatewikiManagementExportWorkflow.php:381]",
@@ -60,6 +62,6 @@
 	"e2bcda84facb3954": "{{Identical|Done}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$242 TranslatewikiManagementExportWorkflow.php:242]\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementGenerateWorkflow.php$163 TranslatewikiManagementGenerateWorkflow.php:163]",
 	"eab817b44c709f8e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementGenerateWorkflow.php$43 TranslatewikiManagementGenerateWorkflow.php:43]",
 	"ed91e828dc313a22": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiSaraikiSkrArab.php$12 TranslateWikiSaraikiSkrArab.php:12]",
-	"f3514b3c6942c1c2": "{{Identical|Plural}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$372 TranslatewikiManagementExportWorkflow.php:372]",
+	"f3514b3c6942c1c2": "{{Identical|Plural}}\n\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$347 TranslatewikiManagementExportWorkflow.php:347]",
 	"fc337d5a6146b375": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiLuxemborgishLb.php$12 TranslateWikiLuxemborgishLb.php:12]"
 }

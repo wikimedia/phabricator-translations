@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Warchlak"
+			"Warchlak",
+			"Woytecr"
 		]
 	},
 	"0eb5ed506e4923c2": "Informacja",
@@ -20,7 +21,7 @@
 	"7bc06bc00fb0bf2e": "Pokaż uruchamialne aplikacje",
 	"7e8d418a03dc44cd": "Pokaż wydane aplikacje",
 	"a735da1d32d75e3e": "Odinstaluj",
-	"b4548d4f60ef7a38": "Nie można odinstalować tej aplikacji, ponieważ jest ona wymagana do działania Phabricatora.",
+	"b4548d4f60ef7a38": "Ta aplikacja jest wymagana i nie można jej odinstalować.",
 	"b824dffa82b93665": "Wpisz nazwę aplikacji...",
 	"f6f473c54e1f5293": "Pokaż wszystkie aplikacje"
 }
