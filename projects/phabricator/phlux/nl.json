@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"240e78f1aa62fbef": "Variabele bijwerken",
+	"3074a4a63133c645": "De variabelewaarde moet geldige JSON zijn.",
+	"307d4957be65dd3a": "Alleen kleine letters, cijfers, punten en koppeltekens.",
+	"3d3684e1f79c7996": "Variabele bewerken: $1",
+	"45d41b3427ac820a": "Sleutel/waarde instellingenopslag",
+	"5b3d65a8738a83f4": "Variabele \"$1\"",
+	"8fbf110b5f9b11ca": "Phlux-variabelen",
+	"92ef2c479783f464": "Voer de waarde in als JSON.",
+	"991a4cc218302b21": "De variabele sleutel moet uniek zijn.",
+	"a19b4054a7bcb6ea": "Variabele maken",
+	"adcd57ea4ea9ebf6": "Phlux",
+	"b971350e75202123": "$1 heeft deze variabele bijgewerkt.",
+	"c130b080f0d0694c": "$1 heeft deze variabele gemaakt.",
+	"c73e063e2ac09a6e": "Variabele bewerken",
+	"c75bafc134c47ab1": "Variabelenlijst",
+	"ce39d9d87f4cf49a": "Een variabelesleutel is vereist.",
+	"ced53994219494a6": "De variabelesleutel \"$1\" mag alleen kleine letters, cijfers, punten en koppeltekens bevatten."
+}

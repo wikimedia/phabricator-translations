@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"05fe7803b131a33c": "Informatie ophalen over een willekeurige PHID.",
+	"0a751e41cfcf8b01": "De aangevraagde verwijzing \"$1\" is niet geladen.",
+	"1498233146466f1f": "Beperkte $1",
+	"1db177fa2f0941e1": "Er wordt geprobeerd een $1 te wijzigen, maar dat is niet toegestaan; verwijzingslijsten zijn onveranderbaar.",
+	"28c017ce59a791e5": "Poging om de functionaliteit \"$1\" te testen voor een verwijzing van het type \"$2\", maar deze functionaliteit is niet gekoppeld.",
+	"367af0d526a97933": "Het object (van klasse \"$1\") heeft geen PHID, dus verwijzingen kunnen niet met de functionaliteiten ervan communiceren.",
+	"40acf4c5cd86049e": "$1 klasse \"$2\" heeft een onjuiste eigenschap $3. PHID-constanten moeten een tekenreeks van vier tekens in hoofdletters zijn.",
+	"40f8045ec98d286b": "Poging om PHID \"$1\" te laden, maar deze werd niet aangevraagd door een verwijzingenlijst.",
+	"4270ca6ab8fde311": "De objecten die u hebt opgesomd, bevatten objecten van het verkeerde type ($1)."
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"29efd0bdaa04ae91": "Argument \"$1\" komt niet overeen met de naam van een van de generatoren.",
+	"300371d205bbeec3": "Een lipsumgenerator is geregistreerd met sleutel \"$1\". Deze sleutel is gereserveerd.",
+	"32332b3df8a3771d": "Het laden van een willekeurige gebruiker is mislukt. Mogelijk moet u eerst meer testgebruikers genereren.",
+	"359c2782e2017bbc": "Maak objecten zonder om bevestiging te vragen.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "Symbool $1 kan niet worden geladen: deze klasse bestaat niet.",
+	"63017d2cc8fa35f7": "De generator (\"$1\") kon geen object maken.",
+	"6ad21d0a2036d6e8": "OEPS",
+	"7b8d8ae984b43bbd": "Deze opdracht maakt synthetische testgegevens aan, waaronder gebruikersaccounts. Het is bedoeld voor gebruik in ontwikkelomgevingen, zodat u functies gemakkelijker kunt testen. Er is geen eenvoudige manier om deze gegevens te verwijderen of de effecten van deze opdracht ongedaan te maken. Als u deze opdracht in een productieomgeving uitvoert, zal uw data vervuild raken met grote hoeveelheden nutteloze rommel die u niet kunt verwijderen.",
+	"8cd3cac1380eb4ec": "Synthetische testobjecten aanmaken.",
+	"8d767bf5b72373d1": "klasse",
+	"90a51575c9bd4563": "Maak continu synthetische testobjecten aan. Gebruik ^C om te stoppen wanneer u tevreden bent.",
+	"9922906d3c889107": "Aangemaakt: \"$1\": $2",
+	"a568df6c0fc85e72": "Kies welk(e) type(n) testgegevens u wilt maken, of selecteer \"$1\".",
+	"b1b21337175c014d": "Maak objecten zo snel mogelijk.",
+	"b5ff2d7e2727ab4b": "Argument \"$1\" is dubbelzinnig en komt overeen met meerdere generatoren: $2 .",
+	"c9fb502c220f5ec3": "lipsum is een ontwikkelings- en testhulpmiddel en kan alleen worden uitgevoerd op installaties in ontwikkelaarsmodus. Schakel \"$1\" in bij uw instellingen om lipsum te activeren.",
+	"e92bac9cc25935f8": "Geselecteerde generatoren: $1 .",
+	"e9f3727584c821b2": "GENERATOREN",
+	"f335a7372135e4e7": "Weet u zeker dat u bergen afval wilt produceren?"
+}
