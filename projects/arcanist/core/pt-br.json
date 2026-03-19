@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"ACheJu",
 			"Augusto Rubio",
 			"Dr03ramos",
 			"Duke of Wikipädia",
@@ -131,6 +132,7 @@
 	"0c2901827227d9bb": "Gerenciador do sinal com chave $1 já foi instalado.",
 	"0c3bdffb311da375": "Construtores de nomes `$1` explicitamente. Este método é um construtor porque tem o mesmo nome da classe em que está definido.",
 	"0c4f9978647381c4": "Instale o lessc usando o `$1`.",
+	"0c6b68c66bc76bef": "Muitas referências parentais distintas!",
 	"0cb3de598fb49633": "Não foi possível encontrar o arquivo '$1' para configurar os mecanismos de teste. Crie um arquivo '$2' no diretório raiz da cópia de trabalho.",
 	"0cbce258272744f4": "Coletar repositório;$1",
 	"0d131a0e0f4efdc1": "Houve uma falha na chamada ao “posix_setsid(...)”!",
@@ -172,6 +174,7 @@
 	"10705087ece7d5bf": "Executável inválido",
 	"109009c83344a22c": "Defina $1 para o modo de arquivo 600.",
 	"10a45c95e0303b0c": "Use um “!” após uma resposta para salvá-la na configuração da cópia de trabalho.",
+	"10ccd008bc3dcdfa": "Por padrão, a mesclagem será feita no repositório remoto \"$1\", pois é nesse repositório que a alteração será aplicada.",
 	"10e6ba7e2f3909cd": "A opção '$1' requer um parâmetro.",
 	"111e6e13dcbbc23c": "Dois objetos (de classes “$1” e “$2”, descendentes da classe ancestral “$3”) retornaram a mesma chave para “$4” (“$5”), mas cada objeto no mapa de classes deve ser identificado por uma chave única.",
 	"114af52779dffa30": "Não é possível determinar o URI remoto para este repositório.",
@@ -258,6 +261,8 @@
 	"1a86dc491766a4ea": "Especifique uma chave de objeto do AWS S3 a ser acessada com --key.",
 	"1a9876de4d53f34e": "Esta versão do cliente não suporta a preparação deste repositório.",
 	"1aa97295ab8bb035": "Execute um script externo e analise sua saída com uma expressão regular. Essa é uma ligação genérica que pode ser usada para executar scripts de lint personalizados.",
+	"1b0795e108cecb4c": "Não foi possível detectar nenhum shell compatível, portanto, as regras de autocompletar não podem ser instaladas. Use \"--shell\" para selecionar um shell.",
+	"1b1d21ad05581346": "Você está atualizando uma revisão (\"$1\") com a opção \"--draft\", mas essa revisão já foi publicada para ser revisada. Não é possível transformar uma revisão de novo em rascunho depois de ser publicada.",
 	"1b47ce5174e9f27b": "Constantes devem ser maiúsculas.",
 	"1b760a49957d1693": "Convenção: soletre a palavra-chave `$1` como` $2`.",
 	"1bc5a1a99b676463": "Era esperada uma resposta em JSON do GitHub.",
