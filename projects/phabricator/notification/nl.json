@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"07b032b56f7aa399": "Ongelezen",
+	"14dd2a4656a89116": "Kan de serverstatus niet laden: dit is geen beheerserver!",
+	"215ed57ea00cd4b2": "Alle meldingen",
+	"3d9f47ddd54fe157": "Echt alle meldingen als gelezen markeren?",
+	"42acf1b5974ad9e6": "De instelling van de meldingenserver is ongeldig: er zijn geen ingeschakelde servers van het type \"admin\" opgegeven. Meldingen vereisen ten minste één actieve \"admin\"-server.",
+	"47bb223ad62d3256": "Client instellen",
+	"572de068b2329b96": "De instelling van de meldingenserver is ongeldig: er zijn geen ingeschakelde servers van het type \"client\" gespecificeerd. Meldingen vereisen ten minste één actieve \"client\"-server.",
+	"6776e111aef4227a": "Alle ongelezen meldingen worden als gelezen gemarkeerd. Deze handeling kan niet ongedaan worden gemaakt.",
+	"6faa4218ab931e0d": "Ongelezen meldingen",
+	"6fe51d8fad2a6ea4": "Bericht verzenden mislukt: dit is geen beheerdersserver!",
+	"771e05f27b99fd59": "Losgekoppeld",
+	"7a54c1fcde926d84": "$1 melding(en) over objecten die niet meer bestaan of die u niet meer kunt zien, zijn verwijderd.",
+	"7c97fc57d0663517": "De instelling van de meldingenserver beschrijft een ongeldige host (\"$1\", op index \"$2\") met een onbekend type (\"$3\"). Geldige typen zijn \"$4\" of \"$5\".",
+	"7d9171c083b45e5c": "De instelling van de meldingenserver beschrijft een ongeldige host (\"$1\", op index \"$2\") met een ongeldig protocol (\"$3\"). Geldige protocollen zijn \"$4\" of \"$5\".",
+	"7f02a61559647c50": "Geen meldingen om als gelezen te markeren.",
+	"8b0d4e583fdf3c6f": "Meldingenserver is offline",
+	"8f3ba9d089600a85": "Deze server is insteld om een meldingenserver te gebruiken, maar kan er geen verbinding mee maken. Los dit probleem op of schakel de meldingenserver uit. Het kan nuttig zijn om uw instellingen te controleren of de server opnieuw op te starten met behulp van de onderstaande opdracht.\n\n$1",
+	"9079b8d8b6937a45": "Het lukt niet om de client te testen op een beheerserver!",
+	"91f51c0177b70233": "De instelling van de meldingenserver beschrijft een ongeldige host (\"$1\", op index \"$2\"). Dit is een \"admin\"-service, maar deze heeft een \"path\"-eigenschap. Deze eigenschap is alleen geldig voor \"client\"-services.",
+	"921af3bf3920d823": "Realtime updates en waarschuwingen",
+	"92671dfe54e42f0c": "U kunt uw problemen niet eeuwig negeren, weet u wel.",
+	"9b16335d5b0b0a4a": "Kan geen verbinding maken met de meldingenserver.",
+	"ad87d7cef1baf9fe": "Meldingenserver niet ingeschakeld",
+	"b61b70be925f16d0": "Dit is een testmelding, verzonden voor $1.",
+	"b6ef1f5cf0f38781": "Voer dit commando uit om de server te starten:\n$1",
+	"b88a6664ed5b0050": "U heeft geen ongelezen meldingen.",
+	"b98e3f99c2aea77e": "Verbinden...",
+	"d31b7462b51c88f9": "HTTP 200 ontvangen, maar HTTP 501 verwacht (WebSocket-upgrade)!",
+	"e540ed16437675ca": "De instelling van de meldingenserver is ongeldig: dezelfde host en poort (\"$1\") worden meerdere keren beschreven. Elke combinatie van host en poort mag slechts één keer in de lijst voorkomen.",
+	"e5f613432959373a": "Alles als gelezen markeren",
+	"e6fe34ea1c47c080": "Alleen ongelezen meldingen weergeven.",
+	"f0846d0cf749155d": "Deze server is ingesteld om een meldingenserver te gebruiken, maar kan er geen verbinding mee maken.",
+	"f8af5efb9493e17b": "De instelling van de meldingenserver is ongeldig: elke vermelding in de lijst moet een \"dictionary\" zijn die een service beschrijft, maar de waarde met index \"$1\" is geen dictionary.",
+	"f8c3443911adbd1f": "De instelling van de meldingenserver bevat een ongeldige servicespecificatie (op index \" $1 \"): $2 .",
+	"f9b6f64d81b3eed1": "U hebt geen meldingen."
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"01e30de312eae0aa": "XHProf-voorbeelden",
+	"0a63ad781263be3f": "Bemonsterd (!/$1)",
+	"2211e38509c4c39d": "Alle monsters",
+	"28facfbf0193ea3e": "Bovenliggende aanroepen",
+	"2f3c9dc62cb2a85d": "Muurtijd (inclusief)",
+	"3f84ef531f9db996": "Symbool",
+	"562ae0348cb47b8e": "Muurtijd (exclusief)",
+	"5a9ebdb4ed44587e": "De totale muurtijd die is besteed aan deze functie en alle subfuncties (subfuncties zijn andere functies die tijdens de uitvoering zijn aangeroepen).",
+	"600c86c5195dfe24": "$1 μs",
+	"60bc9828c396a0ff": "Niet-vernoemd monster",
+	"68d5ced71e82cd17": "Profiel van $1",
+	"91e4fc2fd727793b": "De totale muurtijd van deze functie, exclusief de tijd die is besteed aan subfuncties (subfuncties zijn andere functies die tijdens de uitvoering zijn aangeroepen).",
+	"93bdcecc9624ca26": "Handmatige uitvoering",
+	"a04ce39eb6a65a4b": "Sleep .xhprof-bestanden naar dit venster om ze te importeren.",
+	"aeb1f8e83b6fb6c1": "PHP-profileringshulpmiddel",
+	"ba808f702b24f82c": "Statistieken voor deze aanroep",
+	"bffb93b89ee1e5b6": "Het deserialiseren van het XHProf-profiel is mislukt!",
+	"c9aef90f3405db63": "XHProf-profiel",
+	"d2c039b48df9b8b5": "Sleep .xhprof-bestanden naar de importlocatie.",
+	"dd3202d111eefb92": "Muurtijd",
+	"f1ab222d43ba59b4": "$1-profiel downloaden",
+	"fe6de32a0c1aa35b": "Subfunctieaanroepen"
+}

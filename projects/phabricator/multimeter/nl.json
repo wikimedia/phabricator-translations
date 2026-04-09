@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"0fb59422f6006b36": "Monsters",
+	"1b3d1f152ab0af85": "Subprocessen",
+	"1db7ceb187824c6b": "(alle)",
+	"22a52227914bc55a": "Monsters ($1 - $2)",
+	"2b0351d0debf7e31": "Op ID",
+	"2c5dd77c7fad3691": "Tijdstip",
+	"300cf32a83d8202e": "Prestatiemonster",
+	"3a9c736b3175d657": "Snelheid",
+	"5ae3c07ef5216380": "$1 verzoek",
+	"81869807ec587c84": "Gebruikershandleiding voor de multimeter",
+	"8de60af14be27425": "$1 eenhe(i)d(en)",
+	"93c45b374e438968": "Op verzoek",
+	"9f87ba915c488c5a": "Op host",
+	"a4698c919126d5ab": "U probeert een actieve multimeter te hervatten!",
+	"a55363a4b7f82dda": "Webverzoek",
+	"a74d79fcf6b8b9ec": "Op context",
+	"cdc93143c600bc90": "Gem.",
+	"dad4cada470230f5": "Op label",
+	"db4799e58d978303": "Multimeter",
+	"dbad9f126b33570e": "Kijker",
+	"e5423c9ba0cb621c": "$1 gebeurtenis(sen)",
+	"ea54c00c7eb26ed5": "Statische bron",
+	"f6cee853e660acd6": "Multimeter-gebeurtenissen",
+	"fd0cd99480a72974": "Op kijker"
+}
