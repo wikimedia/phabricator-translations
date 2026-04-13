@@ -32,7 +32,7 @@
 	"030d99cdc47b69fa": "Editor-patroon \"$1\" is ongeldig: het patroon moet beginnen met een geldig editor-protocol, maar begint met een variabele. Dit is erg stiekem en ook erg verboden.",
 	"0314eee5a50ddc92": "Verwachtte dat \"newExternalCursorStringForResult()\" in klasse \"$1\" een string terug zou geven, maar kreeg \"$2\".",
 	"032590bb5fe7a306": "De roepnaam van de repository.",
-	"03422b15d9edd706": "Toon de status van de patchtoepassing.",
+	"03422b15d9edd706": "De status van de patchtoepassing weergeven.",
 	"038f090b0c449421": "Verworven",
 	"03bc5cc36dd3e417": "Punt van zorg",
 	"03f8d73b1a5ffa9a": "Pool \"$1\" wordt wakker gemaakt (geactiveerd door opzichtermodule \"$2\").",
