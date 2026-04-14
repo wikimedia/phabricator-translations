@@ -9,10 +9,10 @@ final class PhabricatorHelpEl
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Κλείστε οποιονδήποτε διάλογο, συμπεριλαμβανομένου αυτού.',
-      '%s Help' => '%s Βοήθεια',
-      'Keyboard Shortcuts' => 'Συντομεύσεις Πληκτρολογίου',
-    );
+  'Close any dialog, including this one.' => 'Κλείστε οποιονδήποτε διάλογο, συμπεριλαμβανομένου αυτού.',
+  '%s Help' => '%s Βοήθεια',
+  'Keyboard Shortcuts' => 'Συντομεύσεις Πληκτρολογίου',
+);
   }
 
 }

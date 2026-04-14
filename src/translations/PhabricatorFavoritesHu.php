@@ -9,9 +9,9 @@ final class PhabricatorFavoritesHu
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Kedvencek szerkesztése',
-      'Favorite Items' => 'Kedvenc elemek',
-    );
+  'Edit Favorites' => 'Kedvencek szerkesztése',
+  'Favorite Items' => 'Kedvenc elemek',
+);
   }
 
 }

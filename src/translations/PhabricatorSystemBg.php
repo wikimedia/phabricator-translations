@@ -9,9 +9,9 @@ final class PhabricatorSystemBg
 
   protected function getTranslations() {
     return array(
-      'Choose a syntax highlighting to use.' => 'Изберете оцветяването на синтаксиса, което искате да използвате.',
-      'Select Syntax Highlighting' => 'Избор на оцветяване на синтаксиса',
-    );
+  'Choose a syntax highlighting to use.' => 'Изберете оцветяването на синтаксиса, което искате да използвате.',
+  'Select Syntax Highlighting' => 'Избор на оцветяване на синтаксиса',
+);
   }
 
 }

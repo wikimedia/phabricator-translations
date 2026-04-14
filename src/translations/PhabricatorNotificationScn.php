@@ -9,8 +9,8 @@ final class PhabricatorNotificationScn
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'Tutti li nutìfichi',
-    );
+  'All Notifications' => 'Tutti li nutìfichi',
+);
   }
 
 }

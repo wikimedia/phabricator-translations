@@ -9,9 +9,9 @@ final class PhabricatorXhprofSl
 
   protected function getTranslations() {
     return array(
-      '%s Profile' => 'Profil %s',
-      'Wall Time' => 'Pretečeni čas',
-    );
+  '%s Profile' => 'Profil %s',
+  'Wall Time' => 'Pretečeni čas',
+);
   }
 
 }

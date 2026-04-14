@@ -9,8 +9,8 @@ final class PhabricatorConsoleBg
 
   protected function getTranslations() {
     return array(
-      'Events' => 'Събития',
-    );
+  'Events' => 'Събития',
+);
   }
 
 }

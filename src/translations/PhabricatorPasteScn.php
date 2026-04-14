@@ -9,9 +9,9 @@ final class PhabricatorPasteScn
 
   protected function getTranslations() {
     return array(
-      'Nom Nom Nom Nom Nom' => 'Nom Nom Nom Nom Nom',
-      'New body content.' => 'Cuntinutu novu dû corpu.',
-    );
+  'Nom Nom Nom Nom Nom' => 'Nom Nom Nom Nom Nom',
+  'New body content.' => 'Cuntinutu novu dû corpu.',
+);
   }
 
 }

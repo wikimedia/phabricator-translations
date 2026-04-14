@@ -9,10 +9,10 @@ final class PhabricatorNotificationUk
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'Усі сповіщення',
-      'This is a test notification, sent at %s.' => 'Це тестове сповіщення, надіслане %s.',
-      'Mark All Read' => 'Позначити як прочитане',
-    );
+  'All Notifications' => 'Усі сповіщення',
+  'This is a test notification, sent at %s.' => 'Це тестове сповіщення, надіслане %s.',
+  'Mark All Read' => 'Позначити як прочитане',
+);
   }
 
 }

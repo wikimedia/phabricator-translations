@@ -9,8 +9,8 @@ final class PhabricatorNotificationKjp
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'ဖှ်ေသှ်ေယာ့လ်ုဖး လုက်ကာ',
-    );
+  'All Notifications' => 'ဖှ်ေသှ်ေယာ့လ်ုဖး လုက်ကာ',
+);
   }
 
 }

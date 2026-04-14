@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsBr
 
   protected function getTranslations() {
     return array(
-      'Remove me as a subscriber' => 'Lammañ ac\'hanon evel koumananter',
-    );
+  'Remove me as a subscriber' => 'Lammañ ac\'hanon evel koumananter',
+);
   }
 
 }

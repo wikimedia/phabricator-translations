@@ -9,8 +9,8 @@ final class PhabricatorSupportKoKR
 
   protected function getTranslations() {
     return array(
-      'Support' => '지원',
-    );
+  'Support' => '지원',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorHelpUk
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Закрити будь-який діалог, в тому числі й цей.',
-      '%s Help' => 'Довідка з %s',
-      'Keyboard Shortcuts' => 'Комбінації клавіш',
-    );
+  'Close any dialog, including this one.' => 'Закрити будь-який діалог, в тому числі й цей.',
+  '%s Help' => 'Довідка з %s',
+  'Keyboard Shortcuts' => 'Комбінації клавіш',
+);
   }
 
 }

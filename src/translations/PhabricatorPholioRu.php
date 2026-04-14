@@ -9,11 +9,11 @@ final class PhabricatorPholioRu
 
   protected function getTranslations() {
     return array(
-      'Pholio Mocks' => 'Наброски',
-      'Pholio' => 'Наброски',
-      'Pholio Mock' => 'Набросок',
-      'Close Pholio Mock' => 'Закрыть набросок',
-    );
+  'Pholio Mocks' => 'Наброски',
+  'Pholio' => 'Наброски',
+  'Pholio Mock' => 'Набросок',
+  'Close Pholio Mock' => 'Закрыть набросок',
+);
   }
 
 }

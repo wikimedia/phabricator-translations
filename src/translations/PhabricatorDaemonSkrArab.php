@@ -9,13 +9,13 @@ final class PhabricatorDaemonSkrArab
 
   protected function getTranslations() {
     return array(
-      'Clock' => 'کلاک',
-      'Shutting Down' => 'بند تھیندا پئے',
-      'Seen' => 'ݙیکھ گھدا',
-      'Last' => 'چھیکڑی',
-      'PID' => 'پی آئی ڈی',
-      'Started' => 'شروع تھیا',
-    );
+  'Clock' => 'کلاک',
+  'Shutting Down' => 'بند تھیندا پئے',
+  'Seen' => 'ݙیکھ گھدا',
+  'Last' => 'چھیکڑی',
+  'PID' => 'پی آئی ڈی',
+  'Started' => 'شروع تھیا',
+);
   }
 
 }

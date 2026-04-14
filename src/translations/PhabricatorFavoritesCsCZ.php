@@ -9,9 +9,9 @@ final class PhabricatorFavoritesCsCZ
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Editovat oblíbené',
-      'Favorite Items' => 'Oblíbené položky',
-    );
+  'Edit Favorites' => 'Editovat oblíbené',
+  'Favorite Items' => 'Oblíbené položky',
+);
   }
 
 }

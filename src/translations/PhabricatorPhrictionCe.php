@@ -9,10 +9,10 @@ final class PhabricatorPhrictionCe
 
   protected function getTranslations() {
     return array(
-      'Last Edited' => 'Хийцам бина',
-      '« Previous Change' => '« Хьалхара нисдар',
-      'Edited by %s' => 'Хийцам бина %s',
-    );
+  'Last Edited' => 'Хийцам бина',
+  '« Previous Change' => '« Хьалхара нисдар',
+  'Edited by %s' => 'Хийцам бина %s',
+);
   }
 
 }

@@ -9,12 +9,12 @@ final class PhabricatorFlagDeDE
 
   protected function getTranslations() {
     return array(
-      'Flag For Later' => 'Für später markieren',
-      'Flag %s' => '%s markieren',
-      'Create Flag' => 'Markierung erstellen',
-      'You can flag this %s if you want to remember to look at it later.' => 'Du kannst diesen %s makieren, um dir zu merken es später anzusehen.',
-      'Remove %s Flag' => 'Markierung %s entfernen',
-    );
+  'Flag For Later' => 'Für später markieren',
+  'Flag %s' => '%s markieren',
+  'Create Flag' => 'Markierung erstellen',
+  'You can flag this %s if you want to remember to look at it later.' => 'Du kannst diesen %s makieren, um dir zu merken es später anzusehen.',
+  'Remove %s Flag' => 'Markierung %s entfernen',
+);
   }
 
 }

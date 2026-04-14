@@ -9,10 +9,10 @@ final class PhabricatorTokensLn
 
   protected function getTranslations() {
     return array(
-      'All Tokens Given' => 'Ba Tokens Nionso Epesami',
-      'Type a Token name...' => 'Tyá nkombo ya Token...',
-      'Browse Tokens' => 'Naviguer na ba Jetons',
-    );
+  'All Tokens Given' => 'Ba Tokens Nionso Epesami',
+  'Type a Token name...' => 'Tyá nkombo ya Token...',
+  'Browse Tokens' => 'Naviguer na ba Jetons',
+);
   }
 
 }

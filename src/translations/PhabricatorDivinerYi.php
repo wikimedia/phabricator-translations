@@ -9,9 +9,9 @@ final class PhabricatorDivinerYi
 
   protected function getTranslations() {
     return array(
-      'Books' => 'ביכער',
-      'Book' => 'בוך',
-    );
+  'Books' => 'ביכער',
+  'Book' => 'בוך',
+);
   }
 
 }

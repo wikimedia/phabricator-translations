@@ -9,8 +9,8 @@ final class PhabricatorSupportCkb
 
   protected function getTranslations() {
     return array(
-      'Support' => 'پشتگیری',
-    );
+  'Support' => 'پشتگیری',
+);
   }
 
 }

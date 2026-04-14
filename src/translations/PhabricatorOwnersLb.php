@@ -9,10 +9,10 @@ final class PhabricatorOwnersLb
 
   protected function getTranslations() {
     return array(
-      'Validating...' => 'Validéieren...',
-      'Authority' => 'Autoritéit',
-      '[Package]' => '[Pak]',
-    );
+  'Validating...' => 'Validéieren...',
+  'Authority' => 'Autoritéit',
+  '[Package]' => '[Pak]',
+);
   }
 
 }

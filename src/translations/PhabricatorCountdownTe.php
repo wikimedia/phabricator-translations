@@ -9,10 +9,10 @@ final class PhabricatorCountdownTe
 
   protected function getTranslations() {
     return array(
-      'Minutes' => 'నిమిషాలు',
-      'Hours' => 'గంటలు',
-      'Days' => 'రోజులు',
-    );
+  'Minutes' => 'నిమిషాలు',
+  'Hours' => 'గంటలు',
+  'Days' => 'రోజులు',
+);
   }
 
 }

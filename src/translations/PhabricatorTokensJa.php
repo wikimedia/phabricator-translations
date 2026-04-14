@@ -9,10 +9,10 @@ final class PhabricatorTokensJa
 
   protected function getTranslations() {
     return array(
-      'Barnstar' => 'バーンスター',
-      '%s Token' => '%s トークン',
-      'Award Token' => 'トークンを授与',
-    );
+  'Barnstar' => 'バーンスター',
+  '%s Token' => '%s トークン',
+  'Award Token' => 'トークンを授与',
+);
   }
 
 }

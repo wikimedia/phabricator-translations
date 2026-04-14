@@ -9,8 +9,8 @@ final class PhabricatorDivinerKg
 
   protected function getTranslations() {
     return array(
-      'Diviner Search' => 'Kusosa ya Nzambi',
-    );
+  'Diviner Search' => 'Kusosa ya Nzambi',
+);
   }
 
 }

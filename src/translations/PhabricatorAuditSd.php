@@ -9,8 +9,8 @@ final class PhabricatorAuditSd
 
   protected function getTranslations() {
     return array(
-      'Permanent' => 'مستقل',
-    );
+  'Permanent' => 'مستقل',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMetaFi
 
   protected function getTranslations() {
     return array(
-      'Prototype' => 'Prototyyppi',
-    );
+  'Prototype' => 'Prototyyppi',
+);
   }
 
 }

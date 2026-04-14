@@ -9,12 +9,12 @@ final class PhabricatorMultimeterKoKR
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(모두)',
-      'Web Request' => '웹 요청',
-      'Avg' => '평균',
-      'Viewer' => '뷰어',
-      '%s Event(s)' => '이벤트 %s개',
-    );
+  '(All)' => '(모두)',
+  'Web Request' => '웹 요청',
+  'Avg' => '평균',
+  'Viewer' => '뷰어',
+  '%s Event(s)' => '이벤트 %s개',
+);
   }
 
 }

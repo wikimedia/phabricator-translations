@@ -9,10 +9,10 @@ final class PhabricatorPeopleMy
 
   protected function getTranslations() {
     return array(
-      'Musician' => 'ဂီတပညာရှင်',
-      'Admin' => 'အက်ဒမင်',
-      'users' => 'အသုံးပြုသူများ',
-    );
+  'Musician' => 'ဂီတပညာရှင်',
+  'Admin' => 'အက်ဒမင်',
+  'users' => 'အသုံးပြုသူများ',
+);
   }
 
 }

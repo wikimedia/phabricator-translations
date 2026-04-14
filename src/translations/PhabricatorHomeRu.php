@@ -9,10 +9,10 @@ final class PhabricatorHomeRu
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Командный центр',
-      'More Applications' => 'Больше приложений',
-      'Built-in Homepage' => 'Встроенная домашняя страница',
-    );
+  'Command Center' => 'Командный центр',
+  'More Applications' => 'Больше приложений',
+  'Built-in Homepage' => 'Встроенная домашняя страница',
+);
   }
 
 }

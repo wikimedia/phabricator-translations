@@ -9,9 +9,9 @@ final class PhabricatorSpacesSl
 
   protected function getTranslations() {
     return array(
-      '%s archived space %s.' => '%s je arhiviral_a prostor %s.',
-      '%s archived this space.' => '%s je arhiviral_a ta prostor.',
-    );
+  '%s archived space %s.' => '%s je arhiviral_a prostor %s.',
+  '%s archived this space.' => '%s je arhiviral_a ta prostor.',
+);
   }
 
 }

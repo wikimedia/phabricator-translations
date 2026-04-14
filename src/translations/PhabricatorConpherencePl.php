@@ -9,9 +9,9 @@ final class PhabricatorConpherencePl
 
   protected function getTranslations() {
     return array(
-      'Find Rooms' => 'Znajdź pokoje',
-      'Rooms' => 'Pokoje',
-    );
+  'Find Rooms' => 'Znajdź pokoje',
+  'Rooms' => 'Pokoje',
+);
   }
 
 }

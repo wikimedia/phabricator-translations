@@ -9,9 +9,9 @@ final class PhabricatorBaseDiq
 
   protected function getTranslations() {
     return array(
-      'No application \'%s\'!' => 'Aplikasyonê \'%s\' çıniyo!',
-      '%s Application' => '%s Aplikasyon',
-    );
+  'No application \'%s\'!' => 'Aplikasyonê \'%s\' çıniyo!',
+  '%s Application' => '%s Aplikasyon',
+);
   }
 
 }

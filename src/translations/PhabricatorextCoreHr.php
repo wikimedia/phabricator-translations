@@ -9,9 +9,9 @@ final class PhabricatorextCoreHr
 
   protected function getTranslations() {
     return array(
-      'Expand Instructions' => 'Proširi upute',
-      'Comments' => 'Komentari',
-    );
+  'Expand Instructions' => 'Proširi upute',
+  'Comments' => 'Komentari',
+);
   }
 
 }

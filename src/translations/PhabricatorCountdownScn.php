@@ -9,12 +9,12 @@ final class PhabricatorCountdownScn
 
   protected function getTranslations() {
     return array(
-      'Minutes' => 'Minuti',
-      'Last Words' => 'Ùrtimi palori',
-      'New description.' => 'Discrizzioni nova.',
-      'Hours' => 'Ura',
-      'Days' => 'Jorna',
-    );
+  'Minutes' => 'Minuti',
+  'Last Words' => 'Ùrtimi palori',
+  'New description.' => 'Discrizzioni nova.',
+  'Hours' => 'Ura',
+  'Days' => 'Jorna',
+);
   }
 
 }

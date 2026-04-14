@@ -9,9 +9,9 @@ final class PhabricatorBadgesMy
 
   protected function getTranslations() {
     return array(
-      'Award' => 'ဆုတံဆိပ်',
-      'Quality' => 'အရည်အသွေး',
-    );
+  'Award' => 'ဆုတံဆိပ်',
+  'Quality' => 'အရည်အသွေး',
+);
   }
 
 }

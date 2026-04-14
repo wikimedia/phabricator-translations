@@ -9,9 +9,9 @@ final class PhabricatorFavoritesBeTarask
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Рэдагаваць абранае',
-      'Favorite Items' => 'Абраныя элемэнты',
-    );
+  'Edit Favorites' => 'Рэдагаваць улюбёнае',
+  'Favorite Items' => 'Улюбёныя элемэнты',
+);
   }
 
 }

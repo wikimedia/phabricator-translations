@@ -9,8 +9,8 @@ final class PhabricatorRemarkupId
 
   protected function getTranslations() {
     return array(
-      'Content may not be empty.' => 'Konten tidak boleh kosong.',
-    );
+  'Content may not be empty.' => 'Konten tidak boleh kosong.',
+);
   }
 
 }

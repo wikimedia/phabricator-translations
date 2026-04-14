@@ -9,16 +9,16 @@ final class PhabricatorManiphestSkrArab
 
   protected function getTranslations() {
     return array(
-      '○ %s' => '○ %s',
-      'Search...' => 'ڳولو۔۔۔',
-      'Wishlist' => 'سک دی تندیر',
-      'Select All' => 'سبھ چݨو',
-      'Duplicates' => 'ڈپلیکیٹ',
-      'Priorities' => 'ترجیحاں',
-      'Task description.' => 'کم دی تفصیل۔',
-      'High' => 'اُچا',
-      '● %s' => '● %s',
-    );
+  '○ %s' => '○ %s',
+  'Search...' => 'ڳولو۔۔۔',
+  'Wishlist' => 'سک دی تندیر',
+  'Select All' => 'سبھ چݨو',
+  'Duplicates' => 'ڈپلیکیٹ',
+  'Priorities' => 'ترجیحاں',
+  'Task description.' => 'کم دی تفصیل۔',
+  'High' => 'اُچا',
+  '● %s' => '● %s',
+);
   }
 
 }

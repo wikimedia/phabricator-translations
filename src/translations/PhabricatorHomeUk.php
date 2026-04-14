@@ -9,10 +9,10 @@ final class PhabricatorHomeUk
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Командний центр',
-      'More Applications' => 'Більше програм',
-      'Built-in Homepage' => 'Вбудована домашня сторінка',
-    );
+  'Command Center' => 'Командний центр',
+  'More Applications' => 'Більше програм',
+  'Built-in Homepage' => 'Вбудована домашня сторінка',
+);
   }
 
 }

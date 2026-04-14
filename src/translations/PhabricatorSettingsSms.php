@@ -9,12 +9,12 @@ final class PhabricatorSettingsSms
 
   protected function getTranslations() {
     return array(
-      'Changes saved.' => 'Muttsid ruõʹǩǩeš.',
-      'Email Preferences' => 'E-pååʹštasetõõzz',
-      'Translation' => 'Jåårǥlõs',
-      'Settings %d' => 'Asetõõzz %s',
-      'Save Preferences' => 'Ruõkk asetõõzzid',
-    );
+  'Changes saved.' => 'Muttsid ruõʹǩǩeš.',
+  'Email Preferences' => 'E-pååʹštasetõõzz',
+  'Translation' => 'Jåårǥlõs',
+  'Settings %d' => 'Asetõõzz %d',
+  'Save Preferences' => 'Ruõkk asetõõzzid',
+);
   }
 
 }

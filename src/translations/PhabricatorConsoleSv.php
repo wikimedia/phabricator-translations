@@ -9,10 +9,10 @@ final class PhabricatorConsoleSv
 
   protected function getTranslations() {
     return array(
-      'Profile Page' => 'Profilsida',
-      'Profile Permalink' => 'Permanent länk till profil',
-      'Unknown event: %s' => 'Okänd händelse: %s',
-    );
+  'Profile Page' => 'Profilsida',
+  'Profile Permalink' => 'Permanent länk till profil',
+  'Unknown event: %s' => 'Okänd händelse: %s',
+);
   }
 
 }

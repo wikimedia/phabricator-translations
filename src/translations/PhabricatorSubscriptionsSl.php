@@ -9,11 +9,11 @@ final class PhabricatorSubscriptionsSl
 
   protected function getTranslations() {
     return array(
-      'subscribers' => 'naročnikov',
-      'Automatically Subscribed' => 'Samodejno naročen_a',
-      '%d other(s)' => '%s drug(ih)',
-      'Add subscribers.' => 'Dodaj naročnike.',
-    );
+  'subscribers' => 'naročnikov',
+  'Automatically Subscribed' => 'Samodejno naročen_a',
+  '%d other(s)' => '%d drug(ih)',
+  'Add subscribers.' => 'Dodaj naročnike.',
+);
   }
 
 }

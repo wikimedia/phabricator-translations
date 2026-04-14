@@ -9,10 +9,10 @@ final class PhabricatorMetamtaUk
 
   protected function getTranslations() {
     return array(
-      'Type a username, project, mailing list, package, or function...' => 'Введіть ім’я користувача, проєкт, список розсилки, пакет чи функцію…',
-      'Unhandled Exception' => 'Необроблений виняток',
-      'Unhandled Exception: %s' => 'Необроблений виняток: %s',
-    );
+  'Type a username, project, mailing list, package, or function...' => 'Введіть ім’я користувача, проєкт, список розсилки, пакет чи функцію…',
+  'Unhandled Exception' => 'Необроблений виняток',
+  'Unhandled Exception: %s' => 'Необроблений виняток: %s',
+);
   }
 
 }

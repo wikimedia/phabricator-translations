@@ -9,10 +9,10 @@ final class PhabricatorHomeCkb
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'ناوەندی فەرمانەکان',
-      'More Applications' => 'پرۆگرامی زیاتر',
-      'Built-in Homepage' => 'پەڕەی دەستپێکی ئامادەکراو',
-    );
+  'Command Center' => 'ناوەندی فەرمانەکان',
+  'More Applications' => 'پرۆگرامی زیاتر',
+  'Built-in Homepage' => 'پەڕەی دەستپێکی ئامادەکراو',
+);
   }
 
 }

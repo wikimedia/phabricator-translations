@@ -9,10 +9,10 @@ final class PhabricatorPolicyTe
 
   protected function getTranslations() {
     return array(
-      'Other Policies' => 'ఇతర విధానాలు',
-      'Note:' => 'గమనిక:',
-      '[%s] (%s) %s // %s' => '[%s] (%s) %s // %s',
-    );
+  'Other Policies' => 'ఇతర విధానాలు',
+  'Note:' => 'గమనిక:',
+  '[%s] (%s) %s // %s' => '[%s] (%s) %s // %s',
+);
   }
 
 }

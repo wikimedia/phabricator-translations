@@ -9,11 +9,11 @@ final class PhabricatorOwnersSrEC
 
   protected function getTranslations() {
     return array(
-      'Validating...' => 'Провера ваљаности…',
-      'owner' => 'власник',
-      'Review All Changes' => 'Прегледајте све промене',
-      'Ignored Attributes' => 'Занемарени атрибути',
-    );
+  'Validating...' => 'Провера ваљаности…',
+  'owner' => 'власник',
+  'Review All Changes' => 'Прегледајте све промене',
+  'Ignored Attributes' => 'Занемарени атрибути',
+);
   }
 
 }

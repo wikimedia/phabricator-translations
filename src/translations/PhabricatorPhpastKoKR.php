@@ -9,10 +9,10 @@ final class PhabricatorPhpastKoKR
 
   protected function getTranslations() {
     return array(
-      'Node %d: %s' => '노드 %s: %s',
-      'Token %d: %s' => '토큰 %s: %s',
-      'No such AST!' => '해당 AST가 없습니다!',
-    );
+  'Node %d: %s' => '노드 %d: %s',
+  'Token %d: %s' => '토큰 %d: %s',
+  'No such AST!' => '해당 AST가 없습니다!',
+);
   }
 
 }

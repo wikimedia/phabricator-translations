@@ -9,15 +9,15 @@ final class PhabricatorHelpFrFR
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Fermer tous les dialogues, celui-ci inclus.',
-      'Page Shortcuts' => 'Raccourcis de page',
-      '%s Help' => 'Aide de %s',
-      'Hiding Content' => 'Masquage du contenu',
-      'Editing Inline Comments' => 'Modification des commentaires en ligne',
-      'Global Shortcuts' => 'Raccourcis globaux',
-      'Keyboard Shortcuts' => 'Raccourcis clavier',
-      'Diff Navigation' => 'Navigation des diffs',
-    );
+  'Close any dialog, including this one.' => 'Fermer tous les dialogues, celui-ci inclus.',
+  'Page Shortcuts' => 'Raccourcis de page',
+  '%s Help' => 'Aide de %s',
+  'Hiding Content' => 'Masquage du contenu',
+  'Editing Inline Comments' => 'Modification des commentaires en ligne',
+  'Global Shortcuts' => 'Raccourcis globaux',
+  'Keyboard Shortcuts' => 'Raccourcis clavier',
+  'Diff Navigation' => 'Navigation des diffs',
+);
   }
 
 }

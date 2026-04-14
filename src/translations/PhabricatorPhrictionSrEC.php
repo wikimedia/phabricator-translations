@@ -9,10 +9,10 @@ final class PhabricatorPhrictionSrEC
 
   protected function getTranslations() {
     return array(
-      'Last Edited' => 'Последње уређивање',
-      'Stub' => 'Клица',
-      'Content version.' => 'Верзија садржаја.',
-    );
+  'Last Edited' => 'Последње уређивање',
+  'Stub' => 'Клица',
+  'Content version.' => 'Верзија садржаја.',
+);
   }
 
 }

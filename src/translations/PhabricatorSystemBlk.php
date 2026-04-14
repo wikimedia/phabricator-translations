@@ -9,8 +9,8 @@ final class PhabricatorSystemBlk
 
   protected function getTranslations() {
     return array(
-      '%d / hour' => '%s / နားရီႏ',
-    );
+  '%d / hour' => '%d / နားရီႏ',
+);
   }
 
 }

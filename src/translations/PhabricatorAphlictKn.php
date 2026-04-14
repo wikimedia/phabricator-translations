@@ -9,8 +9,8 @@ final class PhabricatorAphlictKn
 
   protected function getTranslations() {
     return array(
-      'Send a notification to a user.' => 'ಬಳಕೆದಾರರಿಗೆ ಒಂದು ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ.',
-    );
+  'Send a notification to a user.' => 'ಬಳಕೆದಾರರಿಗೆ ಒಂದು ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ.',
+);
   }
 
 }

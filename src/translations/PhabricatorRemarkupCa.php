@@ -9,10 +9,10 @@ final class PhabricatorRemarkupCa
 
   protected function getTranslations() {
     return array(
-      'Invalid markup engine.' => 'Motor de marcatge no vàlid.',
-      'Process text through remarkup.' => 'Processa el text ressaltat en el context de Phabricator.',
-      'Content may not be empty.' => 'El contingut no pot estar buit.',
-    );
+  'Invalid markup engine.' => 'Motor de marcatge no vàlid.',
+  'Process text through remarkup.' => 'Processa el text ressaltat en el context de Phabricator.',
+  'Content may not be empty.' => 'El contingut no pot estar buit.',
+);
   }
 
 }

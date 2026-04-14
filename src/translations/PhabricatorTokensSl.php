@@ -9,10 +9,10 @@ final class PhabricatorTokensSl
 
   protected function getTranslations() {
     return array(
-      'Rescind Token' => 'Prekliči žeton',
-      'Token flavor.' => 'Aroma žetona.',
-      'Party Time' => 'Čas za zabavo',
-    );
+  'Rescind Token' => 'Prekliči žeton',
+  'Token flavor.' => 'Aroma žetona.',
+  'Party Time' => 'Čas za zabavo',
+);
   }
 
 }

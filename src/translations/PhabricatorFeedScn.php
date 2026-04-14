@@ -9,12 +9,12 @@ final class PhabricatorFeedScn
 
   protected function getTranslations() {
     return array(
-      'All Stories' => 'Tutti li stori',
-      'Include Projects' => 'Ncludi li pruggetti',
-      'Include Users' => 'Ncludi li utenti',
-      'Story' => 'Storia',
-      'No Stories.' => 'Nudda storia.',
-    );
+  'All Stories' => 'Tutti li stori',
+  'Include Projects' => 'Ncludi li pruggetti',
+  'Include Users' => 'Ncludi li utenti',
+  'Story' => 'Storia',
+  'No Stories.' => 'Nudda storia.',
+);
   }
 
 }

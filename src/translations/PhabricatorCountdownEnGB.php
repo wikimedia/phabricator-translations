@@ -9,8 +9,8 @@ final class PhabricatorCountdownEnGB
 
   protected function getTranslations() {
     return array(
-      'Utilize the full capabilities of your ALU.' => 'Utilise the full capabilities of your ALU.',
-    );
+  'Utilize the full capabilities of your ALU.' => 'Utilise the full capabilities of your ALU.',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorAuditLb
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'BENOTZER',
-    );
+  'USERS' => 'BENOTZER',
+);
   }
 
 }

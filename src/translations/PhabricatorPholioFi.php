@@ -9,8 +9,8 @@ final class PhabricatorPholioFi
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'Kumoa',
-    );
+  'Undo' => 'Kumoa',
+);
   }
 
 }

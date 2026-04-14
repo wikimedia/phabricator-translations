@@ -9,12 +9,12 @@ final class PhabricatorTokensScn
 
   protected function getTranslations() {
     return array(
-      '100',
-      'Love' => 'Amuri',
-      'Barnstar' => 'Barnstar',
-      'Cup of Joe' => 'Cìcara di Joe',
-      'Cookie' => 'Cookie',
-    );
+  100 => '100',
+  'Love' => 'Amuri',
+  'Barnstar' => 'Barnstar',
+  'Cup of Joe' => 'Cìcara di Joe',
+  'Cookie' => 'Cookie',
+);
   }
 
 }

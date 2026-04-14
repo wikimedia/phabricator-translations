@@ -9,11 +9,11 @@ final class PhabricatorMacroMy
 
   protected function getTranslations() {
     return array(
-      'Image File' => 'ရုပ်ပုံဖိုင်',
-      'Below' => 'အောက်',
-      'Above' => 'အပေါ်',
-      'Audio File' => 'အသံဖိုင်',
-    );
+  'Image File' => 'ရုပ်ပုံဖိုင်',
+  'Below' => 'အောက်',
+  'Above' => 'အပေါ်',
+  'Audio File' => 'အသံဖိုင်',
+);
   }
 
 }

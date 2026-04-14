@@ -9,11 +9,11 @@ final class PhabricatorAlmanacSe
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'Nammagomuvuohta',
-      'Namespace %d' => 'Nammagomuvuohta %s',
-      'Namespace %s' => 'Nammagomuvuohta %s',
-      'Namespaces' => 'Nammagomuvuođat',
-    );
+  'Namespace' => 'Nammagomuvuohta',
+  'Namespace %d' => 'Nammagomuvuohta %d',
+  'Namespace %s' => 'Nammagomuvuohta %s',
+  'Namespaces' => 'Nammagomuvuođat',
+);
   }
 
 }

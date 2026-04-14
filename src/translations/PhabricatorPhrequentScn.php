@@ -9,10 +9,10 @@ final class PhabricatorPhrequentScn
 
   protected function getTranslations() {
     return array(
-      'Working Now' => 'Travagghiannu ora',
-      'Interrupted' => 'Interrumputu',
-      '%s (%s ago)' => '%s (%s arrè)',
-    );
+  'Working Now' => 'Travagghiannu ora',
+  'Interrupted' => 'Interrumputu',
+  '%s (%s ago)' => '%s (%s arrè)',
+);
   }
 
 }

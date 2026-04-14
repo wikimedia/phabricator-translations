@@ -9,8 +9,8 @@ final class PhabricatorFlagUk
 
   protected function getTranslations() {
     return array(
-      'Flag For Later' => 'Позначити на потім',
-    );
+  'Flag For Later' => 'Позначити на потім',
+);
   }
 
 }

@@ -9,15 +9,15 @@ final class PhabricatorPeopleNl
 
   protected function getTranslations() {
     return array(
-      'users' => 'gebruikers',
-      'New Username: %s' => 'Nieuwe gebruikersnaam: %s',
-      'Approve' => 'Goedkeuren',
-      'Action Name' => 'Naam handeling',
-      'Not Approved' => 'Niet goedgekeurd',
-      'Edit Profile: %s' => 'Profiel bewerken: %s',
-      'Old Username' => 'Oude gebruikersnaam',
-      'Hi %s' => 'Hoi %s',
-    );
+  'users' => 'gebruikers',
+  'New Username: %s' => 'Nieuwe gebruikersnaam: %s',
+  'Approve' => 'Goedkeuren',
+  'Action Name' => 'Naam handeling',
+  'Not Approved' => 'Niet goedgekeurd',
+  'Edit Profile: %s' => 'Profiel bewerken: %s',
+  'Old Username' => 'Oude gebruikersnaam',
+  'Hi %s' => 'Hoi %s',
+);
   }
 
 }

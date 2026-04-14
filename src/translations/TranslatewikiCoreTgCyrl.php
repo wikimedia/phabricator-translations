@@ -9,9 +9,9 @@ final class TranslatewikiCoreTgCyrl
 
   protected function getTranslations() {
     return array(
-      'GENDER' => 'ҶИНС',
-      'PLURAL' => 'ҶАМЪ',
-    );
+  'GENDER' => 'ҶИНС',
+  'PLURAL' => 'ҶАМЪ',
+);
   }
 
 }

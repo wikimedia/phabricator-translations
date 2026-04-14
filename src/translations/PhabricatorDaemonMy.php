@@ -9,9 +9,9 @@ final class PhabricatorDaemonMy
 
   protected function getTranslations() {
     return array(
-      'Clock' => 'နာရီ',
-      'Seen' => 'တွေ့မြင်ပြီး',
-    );
+  'Clock' => 'နာရီ',
+  'Seen' => 'တွေ့မြင်ပြီး',
+);
   }
 
 }

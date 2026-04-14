@@ -9,10 +9,10 @@ final class PhabricatorSettingsZgh
 
   protected function getTranslations() {
     return array(
-      'Saturday' => 'ⴰⵙⵉⴹⵢⴰⵙ',
-      'Settings %d' => 'ⵜⵉⵙⵖⴰⵍ %s',
-      'Account Settings' => 'ⵜⵉⵙⵖⴰⵍ ⵏ ⵓⵎⵉⴹⴰⵏ',
-    );
+  'Saturday' => 'ⴰⵙⵉⴹⵢⴰⵙ',
+  'Settings %d' => 'ⵜⵉⵙⵖⴰⵍ %d',
+  'Account Settings' => 'ⵜⵉⵙⵖⴰⵍ ⵏ ⵓⵎⵉⴹⴰⵏ',
+);
   }
 
 }

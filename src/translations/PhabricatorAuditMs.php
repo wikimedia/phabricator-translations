@@ -9,8 +9,8 @@ final class PhabricatorAuditMs
 
   protected function getTranslations() {
     return array(
-      'Permanent' => 'Kekal',
-    );
+  'Permanent' => 'Kekal',
+);
   }
 
 }

@@ -9,15 +9,15 @@ final class PhabricatorPhpastPtBR
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'PHPAST',
-      'Node %d: %s' => 'Nó %s: %s',
-      'Generate XHP AST' => 'Gerar XHP AST',
-      'Token %d: %s' => 'Token %s: %s',
-      'XHPAST View' => 'Visualizar XHPAST',
-      'Parse' => 'Analisar',
-      'No such AST!' => 'Nenhum tal AST!',
-      'Visual PHP Parser' => 'Analisador PHP Visual',
-    );
+  'PHPAST' => 'PHPAST',
+  'Node %d: %s' => 'Nó %d: %s',
+  'Generate XHP AST' => 'Gerar XHP AST',
+  'Token %d: %s' => 'Token %d: %s',
+  'XHPAST View' => 'Visualizar XHPAST',
+  'Parse' => 'Analisar',
+  'No such AST!' => 'Nenhum tal AST!',
+  'Visual PHP Parser' => 'Analisador PHP Visual',
+);
   }
 
 }

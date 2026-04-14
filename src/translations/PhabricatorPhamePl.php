@@ -9,10 +9,10 @@ final class PhabricatorPhamePl
 
   protected function getTranslations() {
     return array(
-      'Write a Post' => 'Napisz posta',
-      'Manage Blogs' => 'Zarządzaj blogami',
-      'Blog description.' => 'Opis bloga.',
-    );
+  'Write a Post' => 'Napisz posta',
+  'Manage Blogs' => 'Zarządzaj blogami',
+  'Blog description.' => 'Opis bloga.',
+);
   }
 
 }

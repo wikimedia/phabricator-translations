@@ -9,8 +9,8 @@ final class PhabricatorPhurlHu
 
   protected function getTranslations() {
     return array(
-      'URL DETAIL' => 'URL RÉSZLETEI',
-    );
+  'URL DETAIL' => 'URL RÉSZLETEI',
+);
   }
 
 }

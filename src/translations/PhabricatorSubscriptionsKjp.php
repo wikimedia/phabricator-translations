@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsKjp
 
   protected function getTranslations() {
     return array(
-      '%d other(s)' => '%s ၰာႋၰံင်',
-    );
+  '%d other(s)' => '%d ၰာႋၰံင်',
+);
   }
 
 }

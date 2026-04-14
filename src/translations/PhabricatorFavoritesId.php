@@ -9,9 +9,9 @@ final class PhabricatorFavoritesId
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Sunting Favorit',
-      'Favorite Items' => 'Butir Favorit',
-    );
+  'Edit Favorites' => 'Sunting Favorit',
+  'Favorite Items' => 'Butir Favorit',
+);
   }
 
 }

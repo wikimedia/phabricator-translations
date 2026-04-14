@@ -9,10 +9,10 @@ final class TranslatewikiCoreFi
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'EI MITÄÄN',
-      'Done.' => 'Valmis.',
-      'PLURAL' => 'MONIKKO',
-    );
+  'NONE' => 'EI MITÄÄN',
+  'Done.' => 'Valmis.',
+  'PLURAL' => 'MONIKKO',
+);
   }
 
 }

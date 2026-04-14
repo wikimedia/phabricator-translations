@@ -9,8 +9,8 @@ final class PhabricatorAuditUz
 
   protected function getTranslations() {
     return array(
-      'Permanent' => 'Doimiy',
-    );
+  'Permanent' => 'Doimiy',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMetaTly
 
   protected function getTranslations() {
     return array(
-      'Information' => 'Məlumot',
-    );
+  'Information' => 'Məlumot',
+);
   }
 
 }

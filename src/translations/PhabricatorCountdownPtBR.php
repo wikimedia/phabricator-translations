@@ -9,8 +9,8 @@ final class PhabricatorCountdownPtBR
 
   protected function getTranslations() {
     return array(
-      'New description.' => 'Nova descrição.',
-    );
+  'New description.' => 'Nova descrição.',
+);
   }
 
 }

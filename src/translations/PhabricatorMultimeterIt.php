@@ -9,8 +9,8 @@ final class PhabricatorMultimeterIt
 
   protected function getTranslations() {
     return array(
-      'Avg' => 'Media',
-    );
+  'Avg' => 'Media',
+);
   }
 
 }

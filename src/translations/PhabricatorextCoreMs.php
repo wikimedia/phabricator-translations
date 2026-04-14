@@ -9,9 +9,9 @@ final class PhabricatorextCoreMs
 
   protected function getTranslations() {
     return array(
-      'MediaWiki' => 'MediaWiki',
-      'Global Accounts' => 'Akaun Sejagat',
-    );
+  'MediaWiki' => 'MediaWiki',
+  'Global Accounts' => 'Akaun Sejagat',
+);
   }
 
 }

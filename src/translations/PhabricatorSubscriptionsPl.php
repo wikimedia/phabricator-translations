@@ -9,20 +9,20 @@ final class PhabricatorSubscriptionsPl
 
   protected function getTranslations() {
     return array(
-      'Mute' => 'Wycisz',
-      'Subscriber' => 'Subskrybent',
-      'Unmute Notifications' => 'Włącz powiadomienia',
-      'subscribers' => 'subskrybenci',
-      'Remove me as a subscriber' => 'Usuń mnie ze subskrybentów',
-      'Remove subscribers.' => 'Usuń subskrybentów.',
-      'Support for Subscriptions' => 'Wsparcie subskrypcji',
-      'Automatically Subscribed' => 'Automatycznie zasubskrybowano',
-      'You are automatically subscribed to this object.' => 'Automatycznie subskrybujesz ten obiekt.',
-      'Remove yourself as a subscriber.' => 'Usuń siebie ze subskrybentów.',
-      'Added Subscribers' => 'Dodani subskrybenci',
-      'Mute Notifications' => 'Wycisz powiadomienia',
-      'Add subscribers.' => 'Dodaj subskrybentów.',
-    );
+  'Mute' => 'Wycisz',
+  'Subscriber' => 'Subskrybent',
+  'Unmute Notifications' => 'Włącz powiadomienia',
+  'subscribers' => 'subskrybenci',
+  'Remove me as a subscriber' => 'Usuń mnie ze subskrybentów',
+  'Remove subscribers.' => 'Usuń subskrybentów.',
+  'Support for Subscriptions' => 'Wsparcie subskrypcji',
+  'Automatically Subscribed' => 'Automatycznie zasubskrybowano',
+  'You are automatically subscribed to this object.' => 'Automatycznie subskrybujesz ten obiekt.',
+  'Remove yourself as a subscriber.' => 'Usuń siebie ze subskrybentów.',
+  'Added Subscribers' => 'Dodani subskrybenci',
+  'Mute Notifications' => 'Wycisz powiadomienia',
+  'Add subscribers.' => 'Dodaj subskrybentów.',
+);
   }
 
 }

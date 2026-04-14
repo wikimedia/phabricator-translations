@@ -9,16 +9,16 @@ final class PhabricatoravaCoreTr
 
   protected function getTranslations() {
     return array(
-      'Anti-Vandalism' => 'Anti-Vandalizm',
-      'compute score for given transactions.' => 'Verilen işlemler için puanı hesaplayın.',
-      'Vandalism detected' => 'Vandalizm bulundu',
-      'No vandalism detected.' => 'Vandalizm bulunamadı.',
-      'Quarantine the vandal account.' => 'Vandal hesabı engelleyin.',
-      'The specified username / userPHID was not found' => 'Belirtilen kullanıcı adı / userPHID bulunamadı',
-      'Disable vandal accounts.' => 'Vandal hesapları devre dışı bırakın.',
-      'No action' => 'Eylem yok',
-      'Scan for vandalism' => 'Vandalizm taraması yap',
-    );
+  'Anti-Vandalism' => 'Anti-Vandalizm',
+  'compute score for given transactions.' => 'Verilen işlemler için puanı hesaplayın.',
+  'Vandalism detected' => 'Vandalizm bulundu',
+  'No vandalism detected.' => 'Vandalizm bulunamadı.',
+  'Quarantine the vandal account.' => 'Vandal hesabı engelleyin.',
+  'The specified username / userPHID was not found' => 'Belirtilen kullanıcı adı / userPHID bulunamadı',
+  'Disable vandal accounts.' => 'Vandal hesapları devre dışı bırakın.',
+  'No action' => 'Eylem yok',
+  'Scan for vandalism' => 'Vandalizm taraması yap',
+);
   }
 
 }

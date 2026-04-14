@@ -9,10 +9,10 @@ final class PhabricatorNuanceZhHans
 
   protected function getTranslations() {
     return array(
-      'Work' => '作品',
-      'GitHub Event URI' => 'GitHub活动URI',
-      'Added Label: %s' => '已添加标签：%s',
-    );
+  'Work' => '作品',
+  'GitHub Event URI' => 'GitHub活动URI',
+  'Added Label: %s' => '已添加标签：%s',
+);
   }
 
 }

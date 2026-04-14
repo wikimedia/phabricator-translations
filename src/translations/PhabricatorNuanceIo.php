@@ -9,9 +9,9 @@ final class PhabricatorNuanceIo
 
   protected function getTranslations() {
     return array(
-      'Tag %s' => 'Etiketo %s',
-      'Source %d' => 'Fonto %s',
-    );
+  'Tag %s' => 'Etiketo %s',
+  'Source %d' => 'Fonto %d',
+);
   }
 
 }

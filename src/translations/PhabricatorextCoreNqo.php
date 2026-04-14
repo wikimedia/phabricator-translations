@@ -9,9 +9,9 @@ final class PhabricatorextCoreNqo
 
   protected function getTranslations() {
     return array(
-      'Next: %s' => 'ߟߊ߬ߕߎ߲߰ߠߊ:%s',
-      'Required' => 'ߛߋ߲ߛߋߘߋ߲',
-    );
+  'Next: %s' => 'ߟߊ߬ߕߎ߲߰ߠߊ:%s',
+  'Required' => 'ߛߋ߲ߛߋߘߋ߲',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorMetaPa
 
   protected function getTranslations() {
     return array(
-      'Information' => 'ਜਾਣਕਾਰੀ',
-      'Syntax' => 'ਵਾਕ-ਵਿਉਂਤ',
-    );
+  'Information' => 'ਜਾਣਕਾਰੀ',
+  'Syntax' => 'ਵਾਕ-ਵਿਉਂਤ',
+);
   }
 
 }

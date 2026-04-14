@@ -9,8 +9,8 @@ final class PhabricatorTokensMnc
 
   protected function getTranslations() {
     return array(
-      'Blobhaj' => 'Blobhaj',
-    );
+  'Blobhaj' => 'Blobhaj',
+);
   }
 
 }

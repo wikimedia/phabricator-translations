@@ -9,15 +9,15 @@ final class PhabricatorFilesSmn
 
   protected function getTranslations() {
     return array(
-      'ERROR' => 'FEILÂ',
-      'Upload a File' => 'Vuorkkii tiätuvuárhá',
-      'View' => 'Čääiti',
-      'Failed!' => 'Ij luhostum!',
-      'Upload' => 'Vuorkkii',
-      'Video' => 'Video',
-      '[File]' => '[Tiätuvuárkká]',
-      'Delete File' => 'Siho tiätuvuárhá',
-    );
+  'ERROR' => 'FEILÂ',
+  'Upload a File' => 'Vuorkkii tiätuvuárhá',
+  'View' => 'Čääiti',
+  'Failed!' => 'Ij luhostum!',
+  'Upload' => 'Vuorkkii',
+  'Video' => 'Video',
+  '[File]' => '[Tiätuvuárkká]',
+  'Delete File' => 'Siho tiätuvuárhá',
+);
   }
 
 }

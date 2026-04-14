@@ -9,9 +9,9 @@ final class PhabricatorLegalpadTe
 
   protected function getTranslations() {
     return array(
-      'Notes' => 'గమనికలు',
-      'Company Name' => 'కంపెనీ పేరు',
-    );
+  'Notes' => 'గమనికలు',
+  'Company Name' => 'కంపెనీ పేరు',
+);
   }
 
 }

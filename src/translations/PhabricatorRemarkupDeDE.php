@@ -9,10 +9,10 @@ final class PhabricatorRemarkupDeDE
 
   protected function getTranslations() {
     return array(
-      'Invalid markup engine.' => 'Ungültige Markup-Engine.',
-      'Process text through remarkup.' => 'Verarbeite den Text über remarkup.',
-      'Content may not be empty.' => 'Der Inhalt darf nicht leer sein.',
-    );
+  'Invalid markup engine.' => 'Ungültige Markup-Engine.',
+  'Process text through remarkup.' => 'Verarbeite den Text über remarkup.',
+  'Content may not be empty.' => 'Der Inhalt darf nicht leer sein.',
+);
   }
 
 }

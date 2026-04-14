@@ -9,9 +9,9 @@ final class PhabricatorPholioKy
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'Жокко чыгаруу',
-      'Image "%s":' => 'Сүрөт «‎%s»‎:',
-    );
+  'Undo' => 'Жокко чыгаруу',
+  'Image "%s":' => 'Сүрөт «‎%s»‎:',
+);
   }
 
 }

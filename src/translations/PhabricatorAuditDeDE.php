@@ -9,9 +9,9 @@ final class PhabricatorAuditDeDE
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'BENUTZER',
-      'Browse and Audit Commits' => 'Entdecke und prüfe Commits',
-    );
+  'USERS' => 'BENUTZER',
+  'Browse and Audit Commits' => 'Entdecke und prüfe Commits',
+);
   }
 
 }

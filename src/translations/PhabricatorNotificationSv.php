@@ -9,8 +9,8 @@ final class PhabricatorNotificationSv
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'Alla meddelanden',
-    );
+  'All Notifications' => 'Alla meddelanden',
+);
   }
 
 }

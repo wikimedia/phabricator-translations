@@ -9,10 +9,10 @@ final class PhabricatorGuidesSkrArab
 
   protected function getTranslations() {
     return array(
-      'Skip' => 'چھوڑو',
-      'Quick Start' => 'جلدی نال شروع',
-      'Guides' => 'رہنمائی کریندے',
-    );
+  'Skip' => 'چھوڑو',
+  'Quick Start' => 'جلدی نال شروع',
+  'Guides' => 'رہنمائی کریندے',
+);
   }
 
 }

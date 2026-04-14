@@ -9,11 +9,11 @@ final class PhabricatorSystemMy
 
   protected function getTranslations() {
     return array(
-      '%d / hour' => '%s /နာရီ',
-      'System' => 'စနစ်',
-      '%d / minute' => '%s / မိနစ်',
-      '%d / second' => '%s / စက္ကန့်',
-    );
+  '%d / hour' => '%d /နာရီ',
+  'System' => 'စနစ်',
+  '%d / minute' => '%d / မိနစ်',
+  '%d / second' => '%d / စက္ကန့်',
+);
   }
 
 }

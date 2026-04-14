@@ -9,8 +9,8 @@ final class PhabricatorHelpHyw
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s Օգնութիւն',
-    );
+  '%s Help' => '%s Օգնութիւն',
+);
   }
 
 }

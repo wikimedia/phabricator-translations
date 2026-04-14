@@ -9,9 +9,9 @@ final class PhabricatorSubscriptionsScn
 
   protected function getTranslations() {
     return array(
-      '%d other(s)' => '%s àutru/i',
-      '%s, %s, %s and %s' => '%s, %s, %s e %s',
-    );
+  '%d other(s)' => '%d àutru/i',
+  '%s, %s, %s and %s' => '%s, %s, %s e %s',
+);
   }
 
 }

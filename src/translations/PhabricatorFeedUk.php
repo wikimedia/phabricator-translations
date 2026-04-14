@@ -9,9 +9,9 @@ final class PhabricatorFeedUk
 
   protected function getTranslations() {
     return array(
-      'All Transactions' => 'Усі транзакції',
-      'Review Recent Activity' => 'Переглянути недавню активність',
-    );
+  'All Transactions' => 'Усі транзакції',
+  'Review Recent Activity' => 'Переглянути недавню активність',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsHi
 
   protected function getTranslations() {
     return array(
-      'Removed %s subscriber(s): %s.' => '%s ग्राहक हटा दिए गए: %s',
-    );
+  'Removed %s subscriber(s): %s.' => '%s ग्राहक हटा दिए गए: %s',
+);
   }
 
 }

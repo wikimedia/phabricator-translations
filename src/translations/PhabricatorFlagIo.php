@@ -9,8 +9,8 @@ final class PhabricatorFlagIo
 
   protected function getTranslations() {
     return array(
-      'Flag %s' => 'Flago %s',
-    );
+  'Flag %s' => 'Flago %s',
+);
   }
 
 }

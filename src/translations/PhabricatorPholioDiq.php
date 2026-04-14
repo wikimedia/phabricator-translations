@@ -9,8 +9,8 @@ final class PhabricatorPholioDiq
 
   protected function getTranslations() {
     return array(
-      'Image "%s":' => 'Resım "%s":',
-    );
+  'Image "%s":' => 'Resım "%s":',
+);
   }
 
 }

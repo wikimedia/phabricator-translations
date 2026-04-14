@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadKsw
 
   protected function getTranslations() {
     return array(
-      'Select' => 'ဃုထၢ',
-    );
+  'Select' => 'ဃုထၢ',
+);
   }
 
 }

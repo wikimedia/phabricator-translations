@@ -9,8 +9,8 @@ final class PhabricatorPhurlMy
 
   protected function getTranslations() {
     return array(
-      'Alias' => 'အခြားအမည်',
-    );
+  'Alias' => 'အခြားအမည်',
+);
   }
 
 }

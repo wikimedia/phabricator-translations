@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteSkrArab
 
   protected function getTranslations() {
     return array(
-      'Reopen' => 'ولدا کھولو',
-    );
+  'Reopen' => 'ولدا کھولو',
+);
   }
 
 }

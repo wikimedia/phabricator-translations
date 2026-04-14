@@ -9,8 +9,8 @@ final class PhabricatorPholioMy
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'နောက်ပြန် ပြန်ပြင်ရန်',
-    );
+  'Undo' => 'နောက်ပြန် ပြန်ပြင်ရန်',
+);
   }
 
 }

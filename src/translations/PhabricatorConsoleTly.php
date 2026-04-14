@@ -9,8 +9,8 @@ final class PhabricatorConsoleTly
 
   protected function getTranslations() {
     return array(
-      'Events' => 'Tədbiron',
-    );
+  'Events' => 'Tədbiron',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorPhrictionDiq
 
   protected function getTranslations() {
     return array(
-      'Version %d' => 'Versiyon %s',
-      'Edit Draft Version %s...' => 'Versiyonê teslaği bıvurne %s...',
-      'Draft %d' => 'Teslağ %s',
-    );
+  'Version %d' => 'Versiyon %d',
+  'Edit Draft Version %s...' => 'Versiyonê teslaği bıvurne %s...',
+  'Draft %d' => 'Teslağ %d',
+);
   }
 
 }

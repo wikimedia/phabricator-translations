@@ -9,9 +9,9 @@ final class PhabricatorPhrictionGcr
 
   protected function getTranslations() {
     return array(
-      'Draft %d' => 'Brouyon %s',
-      'Save as Draft' => 'Anréjistré kou brouyon',
-    );
+  'Draft %d' => 'Brouyon %d',
+  'Save as Draft' => 'Anréjistré kou brouyon',
+);
   }
 
 }

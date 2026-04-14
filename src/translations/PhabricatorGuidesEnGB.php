@@ -9,8 +9,8 @@ final class PhabricatorGuidesEnGB
 
   protected function getTranslations() {
     return array(
-      'Personalize your Install' => 'Personalise your Install',
-    );
+  'Personalize your Install' => 'Personalise your Install',
+);
   }
 
 }

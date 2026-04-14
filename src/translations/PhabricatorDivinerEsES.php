@@ -9,8 +9,8 @@ final class PhabricatorDivinerEsES
 
   protected function getTranslations() {
     return array(
-      'Found %s file(s) in project.' => 'Se encontró %s archivo(s) en el proyecto.',
-    );
+  'Found %s file(s) in project.' => 'Se encontró %s archivo(s) en el proyecto.',
+);
   }
 
 }

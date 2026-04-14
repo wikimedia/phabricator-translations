@@ -9,9 +9,9 @@ final class PhabricatorFundZhHans
 
   protected function getTranslations() {
     return array(
-      'Initiative long description.' => '发布长描述。',
-      'Donate' => '捐赠',
-    );
+  'Initiative long description.' => '发布长描述。',
+  'Donate' => '捐赠',
+);
   }
 
 }

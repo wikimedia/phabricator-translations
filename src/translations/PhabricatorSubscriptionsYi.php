@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsYi
 
   protected function getTranslations() {
     return array(
-      '%d other(s)' => '%s אַנדער(ע)',
-    );
+  '%d other(s)' => '%d אַנדער(ע)',
+);
   }
 
 }

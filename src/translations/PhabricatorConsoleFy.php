@@ -9,8 +9,8 @@ final class PhabricatorConsoleFy
 
   protected function getTranslations() {
     return array(
-      'Replay' => 'Nochris ôfspylje',
-    );
+  'Replay' => 'Nochris ôfspylje',
+);
   }
 
 }

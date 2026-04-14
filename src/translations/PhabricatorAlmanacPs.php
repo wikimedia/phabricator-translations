@@ -9,11 +9,11 @@ final class PhabricatorAlmanacPs
 
   protected function getTranslations() {
     return array(
-      'Create a Device' => 'يو وسيله جوړول',
-      'Create a Service' => 'يو چوپړ جوړول',
-      'Create a Network' => 'يوه شبکه جوړول',
-      'See Networks' => 'شبکې وگورئ',
-    );
+  'Create a Device' => 'يو وسيله جوړول',
+  'Create a Service' => 'يو چوپړ جوړول',
+  'Create a Network' => 'يوه شبکه جوړول',
+  'See Networks' => 'شبکې وگورئ',
+);
   }
 
 }

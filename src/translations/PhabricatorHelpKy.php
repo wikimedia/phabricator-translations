@@ -9,9 +9,9 @@ final class PhabricatorHelpKy
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s боюнча жардам',
-      'Keyboard Shortcuts' => 'Баскычтардын айкалыштары',
-    );
+  '%s Help' => '%s боюнча жардам',
+  'Keyboard Shortcuts' => 'Баскычтардын айкалыштары',
+);
   }
 
 }

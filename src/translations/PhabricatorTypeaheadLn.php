@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadLn
 
   protected function getTranslations() {
     return array(
-      'This control does not support typeahead functions.' => 'Contrôle oyo esimbaka ba fonctions ya typeahead te.',
-    );
+  'This control does not support typeahead functions.' => 'Contrôle oyo esimbaka ba fonctions ya typeahead te.',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorNotificationBlk
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'ဖေႏသေချက် ကားကအဝ်ႏ',
-    );
+  'All Notifications' => 'ဖေႏသေချက် ကားကအဝ်ႏ',
+);
   }
 
 }

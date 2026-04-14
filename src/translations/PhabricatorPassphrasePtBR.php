@@ -9,11 +9,11 @@ final class PhabricatorPassphrasePtBR
 
   protected function getTranslations() {
     return array(
-      'Active Credentials' => 'Credenciais ativas',
-      'Credential Author' => 'Autor da credencial',
-      'Credential Store' => 'Loja de credenciais',
-      'Passphrase Credential' => 'Credencial de frase secreta',
-    );
+  'Active Credentials' => 'Credenciais ativas',
+  'Credential Author' => 'Autor da credencial',
+  'Credential Store' => 'Loja de credenciais',
+  'Passphrase Credential' => 'Credencial de frase secreta',
+);
   }
 
 }

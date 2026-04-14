@@ -9,8 +9,8 @@ final class PhabricatoravaCoreHy
 
   protected function getTranslations() {
     return array(
-      'Anti-Vandalism' => 'Հակավանդալիզմ',
-    );
+  'Anti-Vandalism' => 'Հակավանդալիզմ',
+);
   }
 
 }

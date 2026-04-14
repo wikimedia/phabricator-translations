@@ -9,11 +9,11 @@ final class PhabricatorPhameFi
 
   protected function getTranslations() {
     return array(
-      'Blog' => 'Blogi',
-      'The author of a blog post can always view and edit it.' => 'Blogikirjoituksen kirjoittaja voi aina tarkastella ja muokata sitä.',
-      'Browse Blogs' => 'Sela blogeja',
-      'Create a Blog' => 'Luo blogi',
-    );
+  'Blog' => 'Blogi',
+  'The author of a blog post can always view and edit it.' => 'Blogikirjoituksen kirjoittaja voi aina tarkastella ja muokata sitä.',
+  'Browse Blogs' => 'Sela blogeja',
+  'Create a Blog' => 'Luo blogi',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorSubscriptionsRoaTara
 
   protected function getTranslations() {
     return array(
-      'Mute' => 'Citte',
-      'Subscriber' => 'Abbonate',
-      'subscribers' => 'abbonate',
-    );
+  'Mute' => 'Citte',
+  'Subscriber' => 'Abbonate',
+  'subscribers' => 'abbonate',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorTypeaheadSv
 
   protected function getTranslations() {
     return array(
-      'Invalid Parameters' => 'Ogiltiga parametrar',
-      'Auto' => 'Auto',
-      'Priority Type' => 'Prioritetstyp',
-    );
+  'Invalid Parameters' => 'Ogiltiga parametrar',
+  'Auto' => 'Auto',
+  'Priority Type' => 'Prioritetstyp',
+);
   }
 
 }

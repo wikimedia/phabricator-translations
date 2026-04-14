@@ -9,10 +9,10 @@ final class PhabricatorPackagesKg
 
   protected function getTranslations() {
     return array(
-      'Create and update software packages.' => 'Sala mpi tomisa baprograme ya software.',
-      'Release and update package versions.' => 'Kubasisa mpi kutomisa ba version ya package.',
-      'Packages Console' => 'Bima ya kubumba',
-    );
+  'Create and update software packages.' => 'Sala mpi tomisa baprograme ya software.',
+  'Release and update package versions.' => 'Kubasisa mpi kutomisa ba version ya package.',
+  'Packages Console' => 'Bima ya kubumba',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMetaSms
 
   protected function getTranslations() {
     return array(
-      'Information' => 'Teâđ',
-    );
+  'Information' => 'Teâđ',
+);
   }
 
 }

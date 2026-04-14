@@ -9,8 +9,8 @@ final class PhabricatorConsoleNl
 
   protected function getTranslations() {
     return array(
-      'Installation Guide' => 'Installatiegids',
-    );
+  'Installation Guide' => 'Installatiegids',
+);
   }
 
 }

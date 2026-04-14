@@ -9,8 +9,8 @@ final class PhabricatorPhluxJa
 
   protected function getTranslations() {
     return array(
-      '%s updated this variable.' => '%s がこの変数を更新しました。',
-    );
+  '%s updated this variable.' => '%s がこの変数を更新しました。',
+);
   }
 
 }

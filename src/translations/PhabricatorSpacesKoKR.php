@@ -9,8 +9,8 @@ final class PhabricatorSpacesKoKR
 
   protected function getTranslations() {
     return array(
-      'Policy Namespaces' => '정책 이름공간',
-    );
+  'Policy Namespaces' => '정책 이름공간',
+);
   }
 
 }

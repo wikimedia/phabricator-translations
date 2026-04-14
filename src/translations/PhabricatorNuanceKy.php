@@ -9,10 +9,10 @@ final class PhabricatorNuanceKy
 
   protected function getTranslations() {
     return array(
-      'User %s' => 'Колдонуучу %s',
-      'Source %d' => '%s булагы',
-      'Item %d' => '%s элементи',
-    );
+  'User %s' => 'Колдонуучу %s',
+  'Source %d' => '%d булагы',
+  'Item %d' => '%d элементи',
+);
   }
 
 }

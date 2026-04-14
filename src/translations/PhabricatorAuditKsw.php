@@ -9,8 +9,8 @@ final class PhabricatorAuditKsw
 
   protected function getTranslations() {
     return array(
-      'none' => 'တအိၣ်ဘၣ်',
-    );
+  'none' => 'တအိၣ်ဘၣ်',
+);
   }
 
 }

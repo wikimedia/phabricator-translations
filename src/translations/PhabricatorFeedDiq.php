@@ -9,14 +9,14 @@ final class PhabricatorFeedDiq
 
   protected function getTranslations() {
     return array(
-      'All Stories' => 'Estanıki pêro',
-      'Story' => 'Estanık',
-      'Feed options.' => 'Weçinıtışê çapi',
-      'Deprecated.' => 'Wedariyaye',
-      'No Stories.' => 'Estanık çıniyo',
-      'Feed Stories' => 'Estanıkê wayıkerdışi',
-      'Review Recent Activity' => 'Çımberze Aktivitey Peyêni',
-    );
+  'All Stories' => 'Estanıki pêro',
+  'Story' => 'Estanık',
+  'Feed options.' => 'Weçinıtışê çapi',
+  'Deprecated.' => 'Wedariyaye',
+  'No Stories.' => 'Estanık çıniyo',
+  'Feed Stories' => 'Estanıkê wayıkerdışi',
+  'Review Recent Activity' => 'Çımberze Aktivitey Peyêni',
+);
   }
 
 }

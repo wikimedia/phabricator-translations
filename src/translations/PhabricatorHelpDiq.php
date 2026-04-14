@@ -9,10 +9,10 @@ final class PhabricatorHelpDiq
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Neya piya diyaloga pêroyın racınê',
-      '%s Help' => '%s Peşti',
-      'Keyboard Shortcuts' => 'Rayakılma klavyey',
-    );
+  'Close any dialog, including this one.' => 'Neya piya diyaloga pêroyın racınê',
+  '%s Help' => '%s Peşti',
+  'Keyboard Shortcuts' => 'Rayakılma klavyey',
+);
   }
 
 }

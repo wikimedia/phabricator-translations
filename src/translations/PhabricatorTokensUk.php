@@ -9,11 +9,11 @@ final class PhabricatorTokensUk
 
   protected function getTranslations() {
     return array(
-      'Award Token' => 'Нагородити токеном',
-      'Like' => 'Лайк',
-      'Tokens Given' => 'Надано токени',
-      'Dislike' => 'Дізлайк',
-    );
+  'Award Token' => 'Нагородити токеном',
+  'Like' => 'Лайк',
+  'Tokens Given' => 'Надано токени',
+  'Dislike' => 'Дізлайк',
+);
   }
 
 }

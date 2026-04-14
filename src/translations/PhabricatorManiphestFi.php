@@ -9,15 +9,15 @@ final class PhabricatorManiphestFi
 
   protected function getTranslations() {
     return array(
-      'Create Task' => 'Luo tehtävä',
-      'TASK DETAIL' => 'TEHTÄVÄN TIEDOT',
-      'No tasks found.' => 'Tehtäviä ei löytynyt.',
-      'Search...' => 'Hae...',
-      'Task' => 'Tehtävä',
-      'No tasks.' => 'Ei tehtäviä.',
-      'TASK DESCRIPTION' => 'TEHTÄVÄN KUVAUS',
-      'Closed By' => 'Sulkenut',
-    );
+  'Create Task' => 'Luo tehtävä',
+  'TASK DETAIL' => 'TEHTÄVÄN TIEDOT',
+  'No tasks found.' => 'Tehtäviä ei löytynyt.',
+  'Search...' => 'Hae...',
+  'Task' => 'Tehtävä',
+  'No tasks.' => 'Ei tehtäviä.',
+  'TASK DESCRIPTION' => 'TEHTÄVÄN KUVAUS',
+  'Closed By' => 'Sulkenut',
+);
   }
 
 }

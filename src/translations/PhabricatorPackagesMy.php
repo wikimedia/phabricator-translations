@@ -9,8 +9,8 @@ final class PhabricatorPackagesMy
 
   protected function getTranslations() {
     return array(
-      'All Versions' => 'ဗားရှင်း အားလုံး',
-    );
+  'All Versions' => 'ဗားရှင်း အားလုံး',
+);
   }
 
 }

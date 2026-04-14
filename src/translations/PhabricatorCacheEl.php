@@ -9,8 +9,8 @@ final class PhabricatorCacheEl
 
   protected function getTranslations() {
     return array(
-      'APCu' => 'APCu',
-    );
+  'APCu' => 'APCu',
+);
   }
 
 }

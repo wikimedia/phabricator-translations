@@ -9,10 +9,10 @@ final class PhabricatorOauthserverFi
 
   protected function getTranslations() {
     return array(
-      'Log In with %s' => 'Kirjaudu sisään Phabricatorilla',
-      'Server Error' => 'Palvelinvirhe',
-      'Create OAuth Server' => 'Luo OAuth-palvelin',
-    );
+  'Log In with %s' => 'Kirjaudu sisään Phabricatorilla',
+  'Server Error' => 'Palvelinvirhe',
+  'Create OAuth Server' => 'Luo OAuth-palvelin',
+);
   }
 
 }

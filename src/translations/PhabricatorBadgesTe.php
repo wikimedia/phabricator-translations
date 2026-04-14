@@ -9,9 +9,9 @@ final class PhabricatorBadgesTe
 
   protected function getTranslations() {
     return array(
-      'Quality' => 'నాణ్యత',
-      'International' => 'అంతర్జాతీయం',
-    );
+  'Quality' => 'నాణ్యత',
+  'International' => 'అంతర్జాతీయం',
+);
   }
 
 }

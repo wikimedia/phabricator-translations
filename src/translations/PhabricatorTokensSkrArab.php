@@ -9,8 +9,8 @@ final class PhabricatorTokensSkrArab
 
   protected function getTranslations() {
     return array(
-      'Love' => 'پیار',
-    );
+  'Love' => 'پیار',
+);
   }
 
 }

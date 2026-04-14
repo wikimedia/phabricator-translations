@@ -9,15 +9,15 @@ final class PhabricatorSubscriptionsAr
 
   protected function getTranslations() {
     return array(
-      'Mute' => 'كتم الصوت',
-      'Subscriber' => 'مشترك',
-      'Unmute Notifications' => 'إزالة كتم الإشعارات',
-      'subscribers' => 'المشتركون',
-      'Remove me as a subscriber' => 'قم بإزالتي كمشترك',
-      'Remove subscribers.' => 'إزالة المشتركين.',
-      'Unmute' => 'إزالة كتم الصوت',
-      'Bad Object' => 'كائن سيئ',
-    );
+  'Mute' => 'كتم الصوت',
+  'Subscriber' => 'مشترك',
+  'Unmute Notifications' => 'إزالة كتم الإشعارات',
+  'subscribers' => 'المشتركون',
+  'Remove me as a subscriber' => 'قم بإزالتي كمشترك',
+  'Remove subscribers.' => 'إزالة المشتركين.',
+  'Unmute' => 'إزالة كتم الصوت',
+  'Bad Object' => 'كائن سيئ',
+);
   }
 
 }

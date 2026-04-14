@@ -9,8 +9,8 @@ final class PhabricatorPhrequentDeDE
 
   protected function getTranslations() {
     return array(
-      'Start Tracking Time' => 'Zeit aufzeichnen starten',
-    );
+  'Start Tracking Time' => 'Zeit aufzeichnen starten',
+);
   }
 
 }

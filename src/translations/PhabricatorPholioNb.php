@@ -9,8 +9,8 @@ final class PhabricatorPholioNb
 
   protected function getTranslations() {
     return array(
-      'Unknown (ID %d)' => 'Ukjent (ID %s)',
-    );
+  'Unknown (ID %d)' => 'Ukjent (ID %d)',
+);
   }
 
 }

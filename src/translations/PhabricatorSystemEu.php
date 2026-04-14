@@ -9,8 +9,8 @@ final class PhabricatorSystemEu
 
   protected function getTranslations() {
     return array(
-      'Destroying objects...' => 'Objektuak suntsitzen...',
-    );
+  'Destroying objects...' => 'Objektuak suntsitzen...',
+);
   }
 
 }

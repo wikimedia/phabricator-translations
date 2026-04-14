@@ -9,12 +9,12 @@ final class PhabricatorAlmanacMnw
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'ဒၞာဲယၟု',
-      'Edit Namespace' => 'ပလေဝ်ဒါန် ဒၞဲါယၟု',
-      'Network %d' => 'ဇာနှိက် %s',
-      'Reset' => 'ကလေင်တၟိ',
-      'Network' => 'ဇာနှိက်',
-    );
+  'Namespace' => 'ဒၞာဲယၟု',
+  'Edit Namespace' => 'ပလေဝ်ဒါန် ဒၞဲါယၟု',
+  'Network %d' => 'ဇာနှိက် %d',
+  'Reset' => 'ကလေင်တၟိ',
+  'Network' => 'ဇာနှိက်',
+);
   }
 
 }

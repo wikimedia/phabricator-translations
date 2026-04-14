@@ -9,10 +9,10 @@ final class PhabricatorPhrequentMy
 
   protected function getTranslations() {
     return array(
-      'Stop Time' => 'ရပ်ချိန်',
-      'Start Time' => 'စချိန်',
-      'Stop' => 'ရပ်',
-    );
+  'Stop Time' => 'ရပ်ချိန်',
+  'Start Time' => 'စချိန်',
+  'Stop' => 'ရပ်',
+);
   }
 
 }

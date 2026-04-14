@@ -9,8 +9,8 @@ final class PhabricatorFundMy
 
   protected function getTranslations() {
     return array(
-      'Donate' => 'လှူဒါန်း​ရန်',
-    );
+  'Donate' => 'လှူဒါန်း​ရန်',
+);
   }
 
 }

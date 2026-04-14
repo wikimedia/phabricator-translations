@@ -9,10 +9,10 @@ final class PhabricatorRemarkupZhHant
 
   protected function getTranslations() {
     return array(
-      'Invalid markup engine.' => '無效標記引擎。',
-      'Process text through remarkup.' => '透過重新標記來處理文字。',
-      'Content may not be empty.' => '內容不可為空。',
-    );
+  'Invalid markup engine.' => '無效標記引擎。',
+  'Process text through remarkup.' => '透過重新標記來處理文字。',
+  'Content may not be empty.' => '內容不可為空。',
+);
   }
 
 }

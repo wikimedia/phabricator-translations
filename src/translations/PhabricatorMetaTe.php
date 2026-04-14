@@ -9,8 +9,8 @@ final class PhabricatorMetaTe
 
   protected function getTranslations() {
     return array(
-      'Information' => 'సమాచారం',
-    );
+  'Information' => 'సమాచారం',
+);
   }
 
 }

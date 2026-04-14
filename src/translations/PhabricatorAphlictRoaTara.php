@@ -9,10 +9,10 @@ final class PhabricatorAphlictRoaTara
 
   protected function getTranslations() {
     return array(
-      'Send a notification to a user.' => 'Manne \'na notifeche a \'n\'utende.',
-      'Failed to %s!' => 'Fallite a %s!',
-      'Message to send.' => 'Messàgge da mannà.',
-    );
+  'Send a notification to a user.' => 'Manne \'na notifeche a \'n\'utende.',
+  'Failed to %s!' => 'Fallite a %s!',
+  'Message to send.' => 'Messàgge da mannà.',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadUk
 
   protected function getTranslations() {
     return array(
-      'This datasource ("%s") can not evaluate the function "%s(...)".' => 'Це джерело даних («%s») не може оцінити функцію «%s(...)».',
-    );
+  'This datasource ("%s") can not evaluate the function "%s(...)".' => 'Це джерело даних («%s») не може оцінити функцію «%s(...)».',
+);
   }
 
 }

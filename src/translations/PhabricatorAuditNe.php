@@ -9,8 +9,8 @@ final class PhabricatorAuditNe
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'प्रयोगकर्ताहरू',
-    );
+  'USERS' => 'प्रयोगकर्ताहरू',
+);
   }
 
 }

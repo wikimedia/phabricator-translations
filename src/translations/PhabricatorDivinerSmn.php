@@ -9,9 +9,9 @@ final class PhabricatorDivinerSmn
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Kirjeh',
-      'Book' => 'Kirje',
-    );
+  'Books' => 'Kirjeh',
+  'Book' => 'Kirje',
+);
   }
 
 }

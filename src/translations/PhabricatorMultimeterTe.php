@@ -9,8 +9,8 @@ final class PhabricatorMultimeterTe
 
   protected function getTranslations() {
     return array(
-      'Samples' => 'నమూనాలు',
-    );
+  'Samples' => 'నమూనాలు',
+);
   }
 
 }

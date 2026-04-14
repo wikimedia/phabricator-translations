@@ -9,11 +9,11 @@ final class PhabricatorConduitMy
 
   protected function getTranslations() {
     return array(
-      'Caller' => 'ခေါ်ဆိုသူ',
-      'Stability' => 'တည်ငြိမ်မှု',
-      'Errors' => 'အမှားများ',
-      'Stable' => 'တည်ငြိမ်သော',
-    );
+  'Caller' => 'ခေါ်ဆိုသူ',
+  'Stability' => 'တည်ငြိမ်မှု',
+  'Errors' => 'အမှားများ',
+  'Stable' => 'တည်ငြိမ်သော',
+);
   }
 
 }

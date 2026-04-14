@@ -9,14 +9,14 @@ final class PhabricatorSubscriptionsJa
 
   protected function getTranslations() {
     return array(
-      'subscribers' => '購読者',
-      'Remove subscribers.' => '購読者を除去。',
-      'Automatically Subscribed' => '自動購読',
-      'View All %d Subscriber(s)' => '全%s人の購読者を表示',
-      'Added Subscribers' => '追加された購読者',
-      'Removed Subscribers' => '除去された購読者',
-      'Mute Notifications' => '通知をミュート',
-    );
+  'subscribers' => '購読者',
+  'Remove subscribers.' => '購読者を除去。',
+  'Automatically Subscribed' => '自動購読',
+  'View All %d Subscriber(s)' => '全%d人の購読者を表示',
+  'Added Subscribers' => '追加された購読者',
+  'Removed Subscribers' => '除去された購読者',
+  'Mute Notifications' => '通知をミュート',
+);
   }
 
 }

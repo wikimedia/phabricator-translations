@@ -9,10 +9,10 @@ final class PhabricatorHomeEsES
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Centro de órdenes',
-      'More Applications' => 'Más aplicaciones',
-      'Built-in Homepage' => 'Página inicial incorporada',
-    );
+  'Command Center' => 'Centro de órdenes',
+  'More Applications' => 'Más aplicaciones',
+  'Built-in Homepage' => 'Página inicial incorporada',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorCacheDeDE
 
   protected function getTranslations() {
     return array(
-      'Purge all caches.' => 'Leert alle Caches.',
-    );
+  'Purge all caches.' => 'Leert alle Caches.',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatoravaCoreRu
 
   protected function getTranslations() {
     return array(
-      'Anti-Vandalism' => 'Антивандализм',
-      'Vandalism detected' => 'Обнаружение вандализма',
-      'Scan for vandalism' => 'Сканировать на предмет вандализма',
-    );
+  'Anti-Vandalism' => 'Антивандализм',
+  'Vandalism detected' => 'Обнаружение вандализма',
+  'Scan for vandalism' => 'Сканировать на предмет вандализма',
+);
   }
 
 }

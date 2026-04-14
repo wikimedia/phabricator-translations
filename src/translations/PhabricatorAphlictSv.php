@@ -9,9 +9,9 @@ final class PhabricatorAphlictSv
 
   protected function getTranslations() {
     return array(
-      'Send a notification to a user.' => 'Skicka en avisering till en användare.',
-      'Message to send.' => 'Meddelande att skicka.',
-    );
+  'Send a notification to a user.' => 'Skicka en avisering till en användare.',
+  'Message to send.' => 'Meddelande att skicka.',
+);
   }
 
 }

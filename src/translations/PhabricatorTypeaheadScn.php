@@ -9,10 +9,10 @@ final class PhabricatorTypeaheadScn
 
   protected function getTranslations() {
     return array(
-      'Source Class' => 'Classi surgenti',
-      'Token Name' => 'Nomu token',
-      'Image URI' => 'URI dâ mmàggini',
-    );
+  'Source Class' => 'Classi surgenti',
+  'Token Name' => 'Nomu token',
+  'Image URI' => 'URI dâ mmàggini',
+);
   }
 
 }

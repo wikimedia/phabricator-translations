@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadFit
 
   protected function getTranslations() {
     return array(
-      'Select' => 'Valitte',
-    );
+  'Select' => 'Valitte',
+);
   }
 
 }

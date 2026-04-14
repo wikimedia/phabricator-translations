@@ -9,9 +9,9 @@ final class PhabricatorMetaBn
 
   protected function getTranslations() {
     return array(
-      '%s uninstalled %s.' => '%s %s আনইনস্টল করেছেন।',
-      '%s installed %s.' => '%s %s ইনস্টল করেছেন।',
-    );
+  '%s uninstalled %s.' => '%s %s আনইনস্টল করেছেন।',
+  '%s installed %s.' => '%s %s ইনস্টল করেছেন।',
+);
   }
 
 }

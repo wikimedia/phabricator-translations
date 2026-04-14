@@ -9,11 +9,11 @@ final class PhabricatorBadgesAr
 
   protected function getTranslations() {
     return array(
-      'Rebel' => 'متمرد',
-      'Build self esteem through gamification.' => 'بناء الثقة بالنفس من خلال اللعب.',
-      'Create Badge' => 'إنشاء شارة',
-      'Rare' => 'نادر',
-    );
+  'Rebel' => 'متمرد',
+  'Build self esteem through gamification.' => 'بناء الثقة بالنفس من خلال اللعب.',
+  'Create Badge' => 'إنشاء شارة',
+  'Rare' => 'نادر',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorConsoleSkrArab
 
   protected function getTranslations() {
     return array(
-      'Site' => 'سائٹ',
-      'Error Log' => 'خرابی لاڳ',
-      'Replay' => 'ولدا چلاؤ',
-    );
+  'Site' => 'سائٹ',
+  'Error Log' => 'خرابی لاڳ',
+  'Replay' => 'ولدا چلاؤ',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorAuditSmn
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'KEVTTEEH',
-    );
+  'USERS' => 'KEVTTEEH',
+);
   }
 
 }

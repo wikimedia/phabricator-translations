@@ -9,8 +9,8 @@ final class PhabricatorMultimeterTly
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(Həmə)',
-    );
+  '(All)' => '(Həmə)',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorPonderNe
 
   protected function getTranslations() {
     return array(
-      'Ask a Question' => 'प्रश्न सोध्नुहोस्',
-      'Ask Question' => 'प्रश्न सोध्नुहोस्',
-    );
+  'Ask a Question' => 'प्रश्न सोध्नुहोस्',
+  'Ask Question' => 'प्रश्न सोध्नुहोस्',
+);
   }
 
 }

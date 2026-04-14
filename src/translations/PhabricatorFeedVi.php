@@ -9,8 +9,8 @@ final class PhabricatorFeedVi
 
   protected function getTranslations() {
     return array(
-      'Call %s before publishing!' => 'Gọi %s trước khi xuất bản!',
-    );
+  'Call %s before publishing!' => 'Gọi %s trước khi xuất bản!',
+);
   }
 
 }

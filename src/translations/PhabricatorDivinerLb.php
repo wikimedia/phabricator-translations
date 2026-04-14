@@ -9,13 +9,13 @@ final class PhabricatorDivinerLb
 
   protected function getTranslations() {
     return array(
-      'Article' => 'Artikel',
-      'Books' => 'Bicher',
-      'No books found.' => 'Keng Bicher fonnt.',
-      'Defined' => 'Definéiert',
-      'Documentation Not Found' => 'Dokumentatioun net fonnt',
-      'Book' => 'Buch',
-    );
+  'Article' => 'Artikel',
+  'Books' => 'Bicher',
+  'No books found.' => 'Keng Bicher fonnt.',
+  'Defined' => 'Definéiert',
+  'Documentation Not Found' => 'Dokumentatioun net fonnt',
+  'Book' => 'Buch',
+);
   }
 
 }

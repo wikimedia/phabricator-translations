@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteIt
 
   protected function getTranslations() {
     return array(
-      'In this poll, you may only vote for one option.' => 'In questo sondaggio, puoi votare solo per un\'opzione.',
-    );
+  'In this poll, you may only vote for one option.' => 'In questo sondaggio, puoi votare solo per un\'opzione.',
+);
   }
 
 }

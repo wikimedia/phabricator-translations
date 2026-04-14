@@ -9,9 +9,9 @@ final class PhabricatorDivinerKoKR
 
   protected function getTranslations() {
     return array(
-      'Books' => '책',
-      'Find' => '찾기',
-    );
+  'Books' => '책',
+  'Find' => '찾기',
+);
   }
 
 }

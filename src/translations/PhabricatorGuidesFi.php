@@ -9,8 +9,8 @@ final class PhabricatorGuidesFi
 
   protected function getTranslations() {
     return array(
-      'It looks amazing, good work. Home Sweet Home.' => 'Se näyttää hämmästyttävältä, hyvää työtä. Oma koti kullan kallis.',
-    );
+  'It looks amazing, good work. Home Sweet Home.' => 'Se näyttää hämmästyttävältä, hyvää työtä. Oma koti kullan kallis.',
+);
   }
 
 }

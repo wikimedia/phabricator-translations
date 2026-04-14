@@ -9,12 +9,12 @@ final class PhabricatorMetamtaSkrArab
 
   protected function getTranslations() {
     return array(
-      'Inbox' => 'ان باکس',
-      'Emails' => 'ای میل',
-      'Status: %s' => 'حیثیت:%s',
-      'Message: %s' => 'سنیہا: %s',
-      'Subject' => 'موضوع',
-    );
+  'Inbox' => 'ان باکس',
+  'Emails' => 'ای میل',
+  'Status: %s' => 'حیثیت:%s',
+  'Message: %s' => 'سنیہا: %s',
+  'Subject' => 'موضوع',
+);
   }
 
 }

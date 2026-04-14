@@ -9,8 +9,8 @@ final class PhabricatorNotificationSmn
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'Puoh almottâsah',
-    );
+  'All Notifications' => 'Puoh almottâsah',
+);
   }
 
 }

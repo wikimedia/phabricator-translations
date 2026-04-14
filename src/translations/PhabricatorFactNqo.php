@@ -9,9 +9,9 @@ final class PhabricatorFactNqo
 
   protected function getTranslations() {
     return array(
-      'View Data' => 'ߟߐ߲ߕߊ ߦߌ߬ߘߊ',
-      'Raw' => 'ߛߐ߲ߞߐ',
-    );
+  'View Data' => 'ߟߐ߲ߕߊ ߦߌ߬ߘߊ',
+  'Raw' => 'ߛߐ߲ߞߐ',
+);
   }
 
 }

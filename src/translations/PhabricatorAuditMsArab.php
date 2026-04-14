@@ -9,8 +9,8 @@ final class PhabricatorAuditMsArab
 
   protected function getTranslations() {
     return array(
-      'Permanent' => 'ککل',
-    );
+  'Permanent' => 'ککل',
+);
   }
 
 }

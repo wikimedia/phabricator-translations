@@ -9,8 +9,8 @@ final class PhabricatorAuditSe
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'GEAVAHEADDJIT',
-    );
+  'USERS' => 'GEAVAHEADDJIT',
+);
   }
 
 }

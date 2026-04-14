@@ -9,10 +9,10 @@ final class PhabricatorextCoreVi
 
   protected function getTranslations() {
     return array(
-      'LDAP User' => 'Người dùng LDAP',
-      'MediaWiki User' => 'Người dùng MediaWiki',
-      'Global Accounts' => 'Tài khoản toàn cục',
-    );
+  'LDAP User' => 'Người dùng LDAP',
+  'MediaWiki User' => 'Người dùng MediaWiki',
+  'Global Accounts' => 'Tài khoản toàn cục',
+);
   }
 
 }

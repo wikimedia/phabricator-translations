@@ -9,8 +9,8 @@ final class PhabricatorXhprofBr
 
   protected function getTranslations() {
     return array(
-      'Child Calls' => 'Gervel ar Vugale',
-    );
+  'Child Calls' => 'Gervel ar Vugale',
+);
   }
 
 }

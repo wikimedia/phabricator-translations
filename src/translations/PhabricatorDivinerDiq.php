@@ -9,14 +9,14 @@ final class PhabricatorDivinerDiq
 
   protected function getTranslations() {
     return array(
-      'Article has no %s!' => 'Meqale de %s çıniyo!',
-      'Diviner Atom' => 'İlahi Atom',
-      'All Atoms' => 'Atomi pêro',
-      'Diviner' => 'Cındar',
-      'Article' => 'Meqale',
-      'Books' => 'Kıtabi',
-      'Book' => 'Kıtabe',
-    );
+  'Article has no %s!' => 'Meqale de %s çıniyo!',
+  'Diviner Atom' => 'İlahi Atom',
+  'All Atoms' => 'Atomi pêro',
+  'Diviner' => 'Cındar',
+  'Article' => 'Meqale',
+  'Books' => 'Kıtabi',
+  'Book' => 'Kıtabe',
+);
   }
 
 }

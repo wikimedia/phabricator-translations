@@ -9,9 +9,9 @@ final class TranslatewikiCoreEu
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'BAT ERE EZ',
-      'PLURAL' => 'PLURALA',
-    );
+  'NONE' => 'BAT ERE EZ',
+  'PLURAL' => 'PLURALA',
+);
   }
 
 }

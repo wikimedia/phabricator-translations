@@ -9,10 +9,10 @@ final class PhabricatorHomeDiq
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Merkezê fermani',
-      'More Applications' => 'Tayêna aplikasyoni',
-      'Built-in Homepage' => 'Pela Seri de vıraziya',
-    );
+  'Command Center' => 'Merkezê fermani',
+  'More Applications' => 'Tayêna aplikasyoni',
+  'Built-in Homepage' => 'Pela Seri de vıraziya',
+);
   }
 
 }

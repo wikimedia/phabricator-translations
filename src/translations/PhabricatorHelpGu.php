@@ -9,8 +9,8 @@ final class PhabricatorHelpGu
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s સહાય',
-    );
+  '%s Help' => '%s સહાય',
+);
   }
 
 }

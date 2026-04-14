@@ -9,8 +9,8 @@ final class PhabricatorTokensSms
 
   protected function getTranslations() {
     return array(
-      'Cookie' => 'Jeäʹvstõs',
-    );
+  'Cookie' => 'Jeäʹvstõs',
+);
   }
 
 }

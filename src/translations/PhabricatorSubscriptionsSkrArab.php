@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsSkrArab
 
   protected function getTranslations() {
     return array(
-      '%s, %s, %s and %s' => '%s, %s, %s تے %s',
-    );
+  '%s, %s, %s and %s' => '%s, %s, %s تے %s',
+);
   }
 
 }

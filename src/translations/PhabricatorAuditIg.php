@@ -9,8 +9,8 @@ final class PhabricatorAuditIg
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'Òjìème',
-    );
+  'USERS' => 'Òjìème',
+);
   }
 
 }

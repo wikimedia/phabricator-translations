@@ -9,9 +9,9 @@ final class PhabricatorNuanceDga
 
   protected function getTranslations() {
     return array(
-      'Requestor' => 'Sɔraa',
-      'Web Form' => 'Wɛb meɛbo',
-    );
+  'Requestor' => 'Sɔraa',
+  'Web Form' => 'Wɛb meɛbo',
+);
   }
 
 }

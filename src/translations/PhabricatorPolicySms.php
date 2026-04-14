@@ -9,9 +9,9 @@ final class PhabricatorPolicySms
 
   protected function getTranslations() {
     return array(
-      'Select Project' => 'Vaʹlljed projeeʹkt',
-      'All Users' => 'Puk õõʹnni',
-    );
+  'Select Project' => 'Vaʹlljed projeeʹkt',
+  'All Users' => 'Puk õõʹnni',
+);
   }
 
 }

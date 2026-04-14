@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteSv
 
   protected function getTranslations() {
     return array(
-      'Create a Poll' => 'Skapa en omröstning',
-    );
+  'Create a Poll' => 'Skapa en omröstning',
+);
   }
 
 }

@@ -9,14 +9,14 @@ final class PhabricatorPeopleSmn
 
   protected function getTranslations() {
     return array(
-      'Email: Add Address' => 'Šleđgâpostâ: lasseet čujottâs',
-      'The user\'s real name.' => 'Kevttee olmâ nommâ.',
-      'users' => 'kevtteeh',
-      'New Username: %s' => 'Uđđâ kevtteenommâ: %s',
-      'Edit Settings' => 'Mute asâttâsâid',
-      '    Username: %s' => '    Kevtteenommâ: %s',
-      'New Username' => 'Uđđâ kevtteenommâ',
-    );
+  'Email: Add Address' => 'Šleđgâpostâ: lasseet čujottâs',
+  'The user\'s real name.' => 'Kevttee olmâ nommâ.',
+  'users' => 'kevtteeh',
+  'New Username: %s' => 'Uđđâ kevtteenommâ: %s',
+  'Edit Settings' => 'Mute asâttâsâid',
+  '    Username: %s' => '    Kevtteenommâ: %s',
+  'New Username' => 'Uđđâ kevtteenommâ',
+);
   }
 
 }

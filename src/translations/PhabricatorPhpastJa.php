@@ -9,15 +9,15 @@ final class PhabricatorPhpastJa
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'PHPAST',
-      'Node %d: %s' => 'ノード %s: %s',
-      'Generate XHP AST' => 'XHP ASTを生成する',
-      'Token %d: %s' => 'トークン %s: %s',
-      'XHPAST View' => 'XHPASTビュー',
-      'Parse' => '解析する',
-      'No such AST!' => 'そのようなASTはありません！',
-      'Visual PHP Parser' => 'ビジュアルPHPパーサー',
-    );
+  'PHPAST' => 'PHPAST',
+  'Node %d: %s' => 'ノード %d: %s',
+  'Generate XHP AST' => 'XHP ASTを生成する',
+  'Token %d: %s' => 'トークン %d: %s',
+  'XHPAST View' => 'XHPASTビュー',
+  'Parse' => '解析する',
+  'No such AST!' => 'そのようなASTはありません！',
+  'Visual PHP Parser' => 'ビジュアルPHPパーサー',
+);
   }
 
 }

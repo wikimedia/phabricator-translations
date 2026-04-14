@@ -9,8 +9,8 @@ final class PhabricatorXhprofTgCyrl
 
   protected function getTranslations() {
     return array(
-      'XHProf Samples' => 'XHProf Сэмплз',
-    );
+  'XHProf Samples' => 'XHProf Сэмплз',
+);
   }
 
 }

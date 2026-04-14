@@ -9,9 +9,9 @@ final class PhabricatorDivinerMdf
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Китапт',
-      'Book' => 'Китап',
-    );
+  'Books' => 'Китапт',
+  'Book' => 'Китап',
+);
   }
 
 }

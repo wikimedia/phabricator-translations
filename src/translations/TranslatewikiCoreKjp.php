@@ -9,12 +9,12 @@ final class TranslatewikiCoreKjp
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'ၯံင်းယာ့',
-      'GENDER' => 'အ်ုမောဝ်ႋအ်ုဖါ့',
-      'Used in:' => 'မ်ုသုံႋလင်ႋ:',
-      'Done.' => 'ၯံင်းယာ့',
-      'PLURAL' => 'ဝီႋဖၠုံးအး',
-    );
+  'NONE' => 'ၯံင်းယာ့',
+  'GENDER' => 'အ်ုမောဝ်ႋအ်ုဖါ့',
+  'Used in:' => 'မ်ုသုံႋလင်ႋ:',
+  'Done.' => 'ၯံင်းယာ့',
+  'PLURAL' => 'ဝီႋဖၠုံးအး',
+);
   }
 
 }

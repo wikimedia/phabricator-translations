@@ -9,8 +9,9 @@ final class PhabricatorHelpLb
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s Hëllef',
-    );
+  '%s Help' => '%s Hëllef',
+  'Keyboard Shortcuts' => 'Tastekombinatiounen',
+);
   }
 
 }

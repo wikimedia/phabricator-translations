@@ -9,9 +9,9 @@ final class PhabricatorPholioScn
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'Annulla',
-      'Image "%s":' => 'Mmàggini "%s":',
-    );
+  'Undo' => 'Annulla',
+  'Image "%s":' => 'Mmàggini "%s":',
+);
   }
 
 }

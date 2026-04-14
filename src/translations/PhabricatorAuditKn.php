@@ -9,8 +9,8 @@ final class PhabricatorAuditKn
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'ಬಳಕೆದಾರರು',
-    );
+  'USERS' => 'ಬಳಕೆದಾರರು',
+);
   }
 
 }

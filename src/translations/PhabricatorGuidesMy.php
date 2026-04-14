@@ -9,8 +9,8 @@ final class PhabricatorGuidesMy
 
   protected function getTranslations() {
     return array(
-      'Skip' => 'ကျော်ရန်',
-    );
+  'Skip' => 'ကျော်ရန်',
+);
   }
 
 }

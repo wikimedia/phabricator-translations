@@ -9,11 +9,11 @@ final class PhabricatorPhrictionKy
 
   protected function getTranslations() {
     return array(
-      'More...' => 'Көбүрөөк...',
-      'Version %d' => '%s нускасы',
-      'Welcome' => 'Кош келиңиз',
-      'Edits' => 'Түзөтмөлөр',
-    );
+  'More...' => 'Көбүрөөк...',
+  'Version %d' => '%d нускасы',
+  'Welcome' => 'Кош келиңиз',
+  'Edits' => 'Түзөтмөлөр',
+);
   }
 
 }

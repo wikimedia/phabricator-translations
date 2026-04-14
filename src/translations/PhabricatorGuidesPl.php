@@ -9,10 +9,10 @@ final class PhabricatorGuidesPl
 
   protected function getTranslations() {
     return array(
-      'Create a Repository' => 'Tworzenie repozytorium',
-      'Skip' => 'Pomiń',
-      'Short Tutorials' => 'Krótkie samouczki',
-    );
+  'Create a Repository' => 'Tworzenie repozytorium',
+  'Skip' => 'Pomiń',
+  'Short Tutorials' => 'Krótkie samouczki',
+);
   }
 
 }

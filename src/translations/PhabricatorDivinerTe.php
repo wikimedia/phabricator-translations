@@ -9,8 +9,8 @@ final class PhabricatorDivinerTe
 
   protected function getTranslations() {
     return array(
-      'Books' => 'పుస్తకాలు',
-    );
+  'Books' => 'పుస్తకాలు',
+);
   }
 
 }

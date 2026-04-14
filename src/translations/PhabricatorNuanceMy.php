@@ -9,11 +9,11 @@ final class PhabricatorNuanceMy
 
   protected function getTranslations() {
     return array(
-      'Work' => 'လုပ်ငန်း',
-      'Sources' => 'ရင်းမြစ်များ',
-      'User %s' => 'အသုံးပြုသူ %s',
-      'All Sources' => 'ရင်းမြစ်များ အားလုံး',
-    );
+  'Work' => 'လုပ်ငန်း',
+  'Sources' => 'ရင်းမြစ်များ',
+  'User %s' => 'အသုံးပြုသူ %s',
+  'All Sources' => 'ရင်းမြစ်များ အားလုံး',
+);
   }
 
 }

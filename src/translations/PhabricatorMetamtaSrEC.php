@@ -9,13 +9,13 @@ final class PhabricatorMetamtaSrEC
 
   protected function getTranslations() {
     return array(
-      'Type a username, project, mailing list, package, or function...' => 'Откуцајте корисничко име, пројекат, дописну листу, пакет или функцију…',
-      'Object Updated' => 'Објекат је ажуриран',
-      'View Object' => 'Прикажи објекат',
-      'Attached Files' => 'Приложене датотеке',
-      'STAMPS' => 'STAMPS',
-      '#' => '#',
-    );
+  'Type a username, project, mailing list, package, or function...' => 'Откуцајте корисничко име, пројекат, дописну листу, пакет или функцију…',
+  'Object Updated' => 'Објекат је ажуриран',
+  'View Object' => 'Прикажи објекат',
+  'Attached Files' => 'Приложене датотеке',
+  'STAMPS' => 'STAMPS',
+  '#' => '#',
+);
   }
 
 }

@@ -9,14 +9,14 @@ final class PhabricatorTokensLb
 
   protected function getTranslations() {
     return array(
-      'Love' => 'Léift',
-      'Barnstar' => 'Medail',
-      'Unicorn!' => 'Einhorn!',
-      'Meh!' => 'Mäh!',
-      'Yellow Medal' => 'Giel Medail',
-      'Fox' => 'Fuuss',
-      'Cookie' => 'Cookie',
-    );
+  'Love' => 'Léift',
+  'Barnstar' => 'Medail',
+  'Unicorn!' => 'Einhorn!',
+  'Meh!' => 'Mäh!',
+  'Yellow Medal' => 'Giel Medail',
+  'Fox' => 'Fuuss',
+  'Cookie' => 'Cookie',
+);
   }
 
 }

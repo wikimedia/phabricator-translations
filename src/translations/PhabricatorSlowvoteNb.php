@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteNb
 
   protected function getTranslations() {
     return array(
-      'Stand For Something' => 'Stå for noe',
-    );
+  'Stand For Something' => 'Stå for noe',
+);
   }
 
 }

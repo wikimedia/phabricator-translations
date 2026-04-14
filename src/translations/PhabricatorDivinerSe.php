@@ -9,9 +9,9 @@ final class PhabricatorDivinerSe
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Girjjit',
-      'Book' => 'Girji',
-    );
+  'Books' => 'Girjjit',
+  'Book' => 'Girji',
+);
   }
 
 }

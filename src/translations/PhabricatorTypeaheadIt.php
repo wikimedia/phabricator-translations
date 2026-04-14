@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadIt
 
   protected function getTranslations() {
     return array(
-      'Invalid Parameters' => 'Parametri non validi',
-    );
+  'Invalid Parameters' => 'Parametri non validi',
+);
   }
 
 }

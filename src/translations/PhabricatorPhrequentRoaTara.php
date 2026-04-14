@@ -9,15 +9,15 @@ final class PhabricatorPhrequentRoaTara
 
   protected function getTranslations() {
     return array(
-      'Working Now' => 'Fatìe mo',
-      'Ended on %s' => 'Spicciate \'u %s',
-      'Tracked: %s' => 'Tracciate: %s',
-      'Start Time' => 'Orarie de inizie',
-      'Tracked %s' => 'Tracciate %s',
-      'Ended' => 'Spicciate',
-      'Stop' => 'Stuèppe',
-      '%s (%s ago)' => '%s (%s fà)',
-    );
+  'Working Now' => 'Fatìe mo',
+  'Ended on %s' => 'Spicciate \'u %s',
+  'Tracked: %s' => 'Tracciate: %s',
+  'Start Time' => 'Orarie de inizie',
+  'Tracked %s' => 'Tracciate %s',
+  'Ended' => 'Spicciate',
+  'Stop' => 'Stuèppe',
+  '%s (%s ago)' => '%s (%s fà)',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorHomeMy
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'ကွပ်ကဲရေးစခန်း',
-      'Built-in Homepage' => 'နဂို ဗဟိုစာမျက်နှာ',
-    );
+  'Command Center' => 'ကွပ်ကဲရေးစခန်း',
+  'Built-in Homepage' => 'နဂို ဗဟိုစာမျက်နှာ',
+);
   }
 
 }

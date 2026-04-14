@@ -9,9 +9,9 @@ final class PhabricatorPhpastId
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'PHPAST',
-      'Token %d: %s' => 'Token %s: %s',
-    );
+  'PHPAST' => 'PHPAST',
+  'Token %d: %s' => 'Token %d: %s',
+);
   }
 
 }

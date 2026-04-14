@@ -9,12 +9,12 @@ final class PhabricatorSystemLb
 
   protected function getTranslations() {
     return array(
-      'Panic!' => 'Panik!',
-      'No such object "%s" exists!' => 'Et gëtt keen Objet "%s"!',
-      '%d / hour' => '%s / Stonn',
-      'IMPORTANT' => 'WICHTEG',
-      '%d / minute' => '%s / Minutt',
-    );
+  'Panic!' => 'Panik!',
+  'No such object "%s" exists!' => 'Et gëtt keen Objet "%s"!',
+  '%d / hour' => '%d / Stonn',
+  'IMPORTANT' => 'WICHTEG',
+  '%d / minute' => '%d / Minutt',
+);
   }
 
 }

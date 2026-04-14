@@ -9,10 +9,10 @@ final class PhabricatorAuditScn
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'UTENTI',
-      'Object "%s" is not a valid object.' => 'L\'uggettu "%s" nun è n\'uggettu vàlidu.',
-      'none' => 'nuddu',
-    );
+  'USERS' => 'UTENTI',
+  'Object "%s" is not a valid object.' => 'L\'uggettu "%s" nun è n\'uggettu vàlidu.',
+  'none' => 'nuddu',
+);
   }
 
 }

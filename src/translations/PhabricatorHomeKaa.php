@@ -9,10 +9,10 @@ final class PhabricatorHomeKaa
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Buyrıqlar orayı',
-      'More Applications' => 'Basqa da qosımshalar',
-      'Built-in Homepage' => 'Ishki bas bet',
-    );
+  'Command Center' => 'Buyrıqlar orayı',
+  'More Applications' => 'Basqa da qosımshalar',
+  'Built-in Homepage' => 'Ishki bas bet',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorPhrictionSmn
 
   protected function getTranslations() {
     return array(
-      'Last Edited' => 'Majemustáá nubástittum',
-      'Welcome' => 'Tiervâpuáttim',
-    );
+  'Last Edited' => 'Majemustáá nubástittum',
+  'Welcome' => 'Tiervâpuáttim',
+);
   }
 
 }

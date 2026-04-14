@@ -9,8 +9,8 @@ final class PhabricatorPhpastIo
 
   protected function getTranslations() {
     return array(
-      'Node %d: %s' => 'Nodo %s: %s',
-    );
+  'Node %d: %s' => 'Nodo %d: %s',
+);
   }
 
 }

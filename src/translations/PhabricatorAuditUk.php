@@ -9,11 +9,11 @@ final class PhabricatorAuditUk
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'КОРИСТУВАЧІ',
-      'Updating "%s" (%s)...' => 'Оновлення «%s» (%s)…',
-      'none' => 'жоден',
-      'Synchronizing "%s": "%s" -> "%s".' => 'Синхронізація «%s»: «%s» -> «%s».',
-    );
+  'USERS' => 'КОРИСТУВАЧІ',
+  'Updating "%s" (%s)...' => 'Оновлення «%s» (%s)…',
+  'none' => 'жоден',
+  'Synchronizing "%s": "%s" -> "%s".' => 'Синхронізація «%s»: «%s» -> «%s».',
+);
   }
 
 }

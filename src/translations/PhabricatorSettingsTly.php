@@ -9,10 +9,10 @@ final class PhabricatorSettingsTly
 
   protected function getTranslations() {
     return array(
-      'Old Password' => 'Kanə Parol',
-      'Number' => 'Aşmard',
-      'Sunday' => 'İşanbə',
-    );
+  'Old Password' => 'Kanə Parol',
+  'Number' => 'Aşmard',
+  'Sunday' => 'İşanbə',
+);
   }
 
 }

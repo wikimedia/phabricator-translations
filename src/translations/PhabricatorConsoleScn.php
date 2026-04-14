@@ -9,10 +9,10 @@ final class PhabricatorConsoleScn
 
   protected function getTranslations() {
     return array(
-      'Site' => 'Situ',
-      'No errors.' => 'Nuddu errura.',
-      'Profile Page' => 'Pàggina di prufilu',
-    );
+  'Site' => 'Situ',
+  'No errors.' => 'Nuddu errura.',
+  'Profile Page' => 'Pàggina di prufilu',
+);
   }
 
 }

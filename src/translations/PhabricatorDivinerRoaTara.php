@@ -9,10 +9,10 @@ final class PhabricatorDivinerRoaTara
 
   protected function getTranslations() {
     return array(
-      'Article has no %s!' => 'Vôsce non ge tène %s!',
-      'Return' => 'Tuèrne',
-      'Books' => 'Libbre',
-    );
+  'Article has no %s!' => 'Vôsce non ge tène %s!',
+  'Return' => 'Tuèrne',
+  'Books' => 'Libbre',
+);
   }
 
 }

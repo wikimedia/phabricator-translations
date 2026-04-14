@@ -9,10 +9,10 @@ final class PhabricatorHomeAr
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'مركز الأوامر',
-      'More Applications' => 'المزيد من التطبيقات',
-      'Built-in Homepage' => 'الصفحة الرئيسية المجهزة مسبقا',
-    );
+  'Command Center' => 'مركز الأوامر',
+  'More Applications' => 'المزيد من التطبيقات',
+  'Built-in Homepage' => 'الصفحة الرئيسية المجهزة مسبقا',
+);
   }
 
 }

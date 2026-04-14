@@ -9,9 +9,9 @@ final class PhabricatorConpherenceKab
 
   protected function getTranslations() {
     return array(
-      'New Message' => 'Izen amaynut',
-      'Search %s...' => 'Nadi %s...',
-    );
+  'New Message' => 'Izen amaynut',
+  'Search %s...' => 'Nadi %s...',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorMetaMy
 
   protected function getTranslations() {
     return array(
-      'Information' => 'သတင်းအချက်အလက်',
-      'Confirmation' => 'အတည်ပြုခြင်း',
-    );
+  'Information' => 'သတင်းအချက်အလက်',
+  'Confirmation' => 'အတည်ပြုခြင်း',
+);
   }
 
 }

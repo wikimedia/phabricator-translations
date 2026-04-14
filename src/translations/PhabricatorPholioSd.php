@@ -9,8 +9,8 @@ final class PhabricatorPholioSd
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'اڻڪريو',
-    );
+  'Undo' => 'اڻڪريو',
+);
   }
 
 }

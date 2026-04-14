@@ -9,10 +9,10 @@ final class PhabricatorHomeEl
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Κέντρο εντολών',
-      'More Applications' => 'Περισσότερες εφαρμογές',
-      'Built-in Homepage' => 'Κατασκευασμένη αρχική σελίδα',
-    );
+  'Command Center' => 'Κέντρο εντολών',
+  'More Applications' => 'Περισσότερες εφαρμογές',
+  'Built-in Homepage' => 'Κατασκευασμένη αρχική σελίδα',
+);
   }
 
 }

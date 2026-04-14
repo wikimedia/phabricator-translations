@@ -9,8 +9,8 @@ final class PhabricatorPhidDeDE
 
   protected function getTranslations() {
     return array(
-      'Restricted %s' => 'Beschränkt %s',
-    );
+  'Restricted %s' => 'Beschränkt %s',
+);
   }
 
 }

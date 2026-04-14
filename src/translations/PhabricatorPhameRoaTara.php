@@ -9,11 +9,11 @@ final class PhabricatorPhameRoaTara
 
   protected function getTranslations() {
     return array(
-      'here' => 'aqquà',
-      'Manage Blogs' => 'Gestisce le blog',
-      'Blog name.' => 'nome d\'u blog.',
-      'Blog' => 'Blog',
-    );
+  'here' => 'aqquà',
+  'Manage Blogs' => 'Gestisce le blog',
+  'Blog name.' => 'nome d\'u blog.',
+  'Blog' => 'Blog',
+);
   }
 
 }

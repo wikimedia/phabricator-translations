@@ -9,8 +9,8 @@ final class PhabricatorXhprofIg
 
   protected function getTranslations() {
     return array(
-      'Symbol' => 'Akàrà',
-    );
+  'Symbol' => 'Akàrà',
+);
   }
 
 }

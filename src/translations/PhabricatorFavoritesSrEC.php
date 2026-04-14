@@ -9,9 +9,9 @@ final class PhabricatorFavoritesSrEC
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Уреди омиљено',
-      'Favorite Items' => 'Омиљене ставке',
-    );
+  'Edit Favorites' => 'Уреди омиљено',
+  'Favorite Items' => 'Омиљене ставке',
+);
   }
 
 }

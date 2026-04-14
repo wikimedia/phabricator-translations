@@ -9,10 +9,10 @@ final class PhabricatorPhurlZhHans
 
   protected function getTranslations() {
     return array(
-      'Alias' => '别名',
-      'URL' => 'URL',
-      'All URLs' => '所有URL',
-    );
+  'Alias' => '别名',
+  'URL' => 'URL',
+  'All URLs' => '所有URL',
+);
   }
 
 }

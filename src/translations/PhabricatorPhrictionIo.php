@@ -9,11 +9,11 @@ final class PhabricatorPhrictionIo
 
   protected function getTranslations() {
     return array(
-      'Content' => 'Kontenajo',
-      'Version %d' => 'Versiono ̩%s',
-      'Welcome' => 'Bonveno',
-      'Edits' => 'Redakturi',
-    );
+  'Content' => 'Kontenajo',
+  'Version %d' => 'Versiono ̩%d',
+  'Welcome' => 'Bonveno',
+  'Edits' => 'Redakturi',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorPolicyKy
 
   protected function getTranslations() {
     return array(
-      'Other: %s' => 'Башка: %s',
-      'Note:' => 'Эскертме:',
-    );
+  'Other: %s' => 'Башка: %s',
+  'Note:' => 'Эскертме:',
+);
   }
 
 }

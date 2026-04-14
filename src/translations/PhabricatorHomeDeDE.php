@@ -9,10 +9,10 @@ final class PhabricatorHomeDeDE
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Kommandozentrale',
-      'More Applications' => 'Weitere Anwendungen',
-      'Built-in Homepage' => 'Integrierte Homepage',
-    );
+  'Command Center' => 'Kommandozentrale',
+  'More Applications' => 'Weitere Anwendungen',
+  'Built-in Homepage' => 'Integrierte Homepage',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorPasteNe
 
   protected function getTranslations() {
     return array(
-      'Browse Languages' => 'भाषाहरू खाेल्नुहाेस्',
-    );
+  'Browse Languages' => 'भाषाहरू खाेल्नुहाेस्',
+);
   }
 
 }

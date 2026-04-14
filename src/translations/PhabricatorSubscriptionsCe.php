@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsCe
 
   protected function getTranslations() {
     return array(
-      'Mute' => 'Хаамаш дӀабайар',
-    );
+  'Mute' => 'Хаамаш дӀабайар',
+);
   }
 
 }

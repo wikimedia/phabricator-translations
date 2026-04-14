@@ -9,8 +9,8 @@ final class TranslatewikiCoreKsw
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'တအိၣ်ဘၣ်',
-    );
+  'NONE' => 'တအိၣ်ဘၣ်',
+);
   }
 
 }

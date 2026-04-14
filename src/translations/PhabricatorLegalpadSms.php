@@ -9,9 +9,9 @@ final class PhabricatorLegalpadSms
 
   protected function getTranslations() {
     return array(
-      'Last Updated' => 'Mââimõssân peiʹvvuum',
-      'Version %d (%s)' => 'Versio %s (%s)',
-    );
+  'Last Updated' => 'Mââimõssân peiʹvvuum',
+  'Version %d (%s)' => 'Versio %d (%s)',
+);
   }
 
 }

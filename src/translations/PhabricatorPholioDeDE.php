@@ -9,8 +9,8 @@ final class PhabricatorPholioDeDE
 
   protected function getTranslations() {
     return array(
-      '%s edited image(s), added %d: %s; removed %d: %s.' => '%s bearbeitete(s) Bild(er), hinzugefügt %s: %s; entfernt %s: %s.',
-    );
+  '%s edited image(s), added %d: %s; removed %d: %s.' => '%s bearbeitete(s) Bild(er), hinzugefügt %d: %s; entfernt %d: %s.',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorPhurlSe
 
   protected function getTranslations() {
     return array(
-      'URL' => 'URL',
-    );
+  'URL' => 'URL',
+);
   }
 
 }

@@ -9,13 +9,13 @@ final class PhabricatorSystemScn
 
   protected function getTranslations() {
     return array(
-      '%d / hour' => '%s / ura',
-      'IMPORTANT' => 'MPURTANTI',
-      'No Object URI' => 'Nuddu URI d\'uggettu',
-      'System' => 'Sistema',
-      '%d / minute' => '%s / minutu',
-      '%d / second' => '%s / secunnu',
-    );
+  '%d / hour' => '%d / ura',
+  'IMPORTANT' => 'MPURTANTI',
+  'No Object URI' => 'Nuddu URI d\'uggettu',
+  'System' => 'Sistema',
+  '%d / minute' => '%d / minutu',
+  '%d / second' => '%d / secunnu',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorConsoleMy
 
   protected function getTranslations() {
     return array(
-      'Site' => 'ဆိုဒ်',
-      'Reconnect' => 'ပြန်လည်ချိတ်ဆက်ရန်',
-      'Replay' => 'ပြန်လည်ပြသရန်',
-    );
+  'Site' => 'ဆိုဒ်',
+  'Reconnect' => 'ပြန်လည်ချိတ်ဆက်ရန်',
+  'Replay' => 'ပြန်လည်ပြသရန်',
+);
   }
 
 }

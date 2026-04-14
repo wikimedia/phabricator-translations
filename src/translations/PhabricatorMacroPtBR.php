@@ -9,13 +9,13 @@ final class PhabricatorMacroPtBR
 
   protected function getTranslations() {
     return array(
-      'Create Meme' => 'Criar meme',
-      'Active Macros' => 'Macros ativas',
-      'Below' => 'Abaixo',
-      'Above' => 'Acima',
-      'Image Macros and Memes' => 'Macros de imagem e memes',
-      'Type a macro name...' => 'Digite um nome de macro...',
-    );
+  'Create Meme' => 'Criar meme',
+  'Active Macros' => 'Macros ativas',
+  'Below' => 'Abaixo',
+  'Above' => 'Acima',
+  'Image Macros and Memes' => 'Macros de imagem e memes',
+  'Type a macro name...' => 'Digite um nome de macro...',
+);
   }
 
 }

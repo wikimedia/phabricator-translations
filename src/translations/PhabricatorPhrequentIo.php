@@ -9,8 +9,8 @@ final class PhabricatorPhrequentIo
 
   protected function getTranslations() {
     return array(
-      'Stop' => 'Interuptar',
-    );
+  'Stop' => 'Interuptar',
+);
   }
 
 }

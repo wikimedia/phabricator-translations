@@ -9,8 +9,8 @@ final class PhabricatorXhprofJa
 
   protected function getTranslations() {
     return array(
-      '%s Profile' => '%s プロフィール',
-    );
+  '%s Profile' => '%s プロフィール',
+);
   }
 
 }

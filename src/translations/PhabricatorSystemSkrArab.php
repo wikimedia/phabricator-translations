@@ -9,8 +9,8 @@ final class PhabricatorSystemSkrArab
 
   protected function getTranslations() {
     return array(
-      '%d / hour' => '%s/گھنٹہ',
-    );
+  '%d / hour' => '%d/گھنٹہ',
+);
   }
 
 }

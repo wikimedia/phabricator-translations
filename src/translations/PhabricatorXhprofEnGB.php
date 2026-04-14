@@ -9,8 +9,8 @@ final class PhabricatorXhprofEnGB
 
   protected function getTranslations() {
     return array(
-      'Failed to unserialize XHProf profile!' => 'Failed to unserialise XHProf profile!',
-    );
+  'Failed to unserialize XHProf profile!' => 'Failed to unserialise XHProf profile!',
+);
   }
 
 }

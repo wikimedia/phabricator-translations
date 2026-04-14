@@ -9,8 +9,8 @@ final class PhabricatorFlagHu
 
   protected function getTranslations() {
     return array(
-      'Flag For Later' => 'Megjelölés későbbre (zászlóval)',
-    );
+  'Flag For Later' => 'Megjelölés későbbre (zászlóval)',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorTypeaheadEu
 
   protected function getTranslations() {
     return array(
-      'Reference: Advanced Functions' => 'Erreferentzia: Funtzioa aurreratuak',
-      'Image URI' => 'Irudiaren URIa',
-    );
+  'Reference: Advanced Functions' => 'Erreferentzia: Funtzioa aurreratuak',
+  'Image URI' => 'Irudiaren URIa',
+);
   }
 
 }

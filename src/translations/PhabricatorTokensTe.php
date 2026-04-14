@@ -9,8 +9,8 @@ final class PhabricatorTokensTe
 
   protected function getTranslations() {
     return array(
-      '100',
-    );
+  100 => '100',
+);
   }
 
 }

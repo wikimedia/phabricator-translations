@@ -9,8 +9,8 @@ final class PhabricatorPhidMy
 
   protected function getTranslations() {
     return array(
-      'Restricted %s' => 'ကန့်သတ်ထားသော %s',
-    );
+  'Restricted %s' => 'ကန့်သတ်ထားသော %s',
+);
   }
 
 }

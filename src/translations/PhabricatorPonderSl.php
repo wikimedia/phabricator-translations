@@ -9,14 +9,14 @@ final class PhabricatorPonderSl
 
   protected function getTranslations() {
     return array(
-      'Close Question' => 'Zapri vprašanje',
-      'Answer Comment' => 'Komentar odgovora',
-      'Question title.' => 'Naslov vprašanja.',
-      'Answer History' => 'Zgodovina odgovora',
-      'Answer Preview' => 'Predogled odgovora',
-      'New question title.' => 'Nov naslov vprašanja.',
-      'Already Answered' => 'Že odgovorjeno',
-    );
+  'Close Question' => 'Zapri vprašanje',
+  'Answer Comment' => 'Komentar odgovora',
+  'Question title.' => 'Naslov vprašanja.',
+  'Answer History' => 'Zgodovina odgovora',
+  'Answer Preview' => 'Predogled odgovora',
+  'New question title.' => 'Nov naslov vprašanja.',
+  'Already Answered' => 'Že odgovorjeno',
+);
   }
 
 }

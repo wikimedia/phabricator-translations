@@ -9,11 +9,11 @@ final class PhabricatorPeopleHy
 
   protected function getTranslations() {
     return array(
-      'Bot' => 'Բոտ',
-      'Bots' => 'Բոտեր',
-      'Projects (%s)' => 'Նախագծեր (%s)',
-      'Log Out %s' => 'Դուրս գալ %s',
-    );
+  'Bot' => 'Բոտ',
+  'Bots' => 'Բոտեր',
+  'Projects (%s)' => 'Նախագծեր (%s)',
+  'Log Out %s' => 'Դուրս գալ %s',
+);
   }
 
 }

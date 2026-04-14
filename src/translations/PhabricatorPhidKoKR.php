@@ -9,8 +9,8 @@ final class PhabricatorPhidKoKR
 
   protected function getTranslations() {
     return array(
-      'No such object exists.' => '해당 오브젝트가 존재하지 않습니다.',
-    );
+  'No such object exists.' => '해당 오브젝트가 존재하지 않습니다.',
+);
   }
 
 }

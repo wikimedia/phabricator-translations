@@ -9,8 +9,8 @@ final class PhabricatorTokensSmn
 
   protected function getTranslations() {
     return array(
-      'Cookie' => 'Niästádâs',
-    );
+  'Cookie' => 'Niästádâs',
+);
   }
 
 }

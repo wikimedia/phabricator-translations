@@ -9,8 +9,8 @@ final class PhabricatorFlagLb
 
   protected function getTranslations() {
     return array(
-      'Purple' => 'Mof',
-    );
+  'Purple' => 'Mof',
+);
   }
 
 }

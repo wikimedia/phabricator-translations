@@ -9,10 +9,10 @@ final class PhabricatorHomeScn
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Centru di cummannu',
-      'More Applications' => 'Àutri appricazzioni',
-      'Built-in Homepage' => 'Pàggina nizziali ncurpurata',
-    );
+  'Command Center' => 'Centru di cummannu',
+  'More Applications' => 'Àutri appricazzioni',
+  'Built-in Homepage' => 'Pàggina nizziali ncurpurata',
+);
   }
 
 }

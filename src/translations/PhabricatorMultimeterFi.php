@@ -9,10 +9,10 @@ final class PhabricatorMultimeterFi
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(Kaikki)',
-      'Performance Sampler' => 'Suorituskykysampleri',
-      'Multimeter' => 'Yleismittari',
-    );
+  '(All)' => '(Kaikki)',
+  'Performance Sampler' => 'Suorituskykysampleri',
+  'Multimeter' => 'Yleismittari',
+);
   }
 
 }

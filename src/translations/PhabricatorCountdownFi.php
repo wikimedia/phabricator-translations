@@ -9,8 +9,8 @@ final class PhabricatorCountdownFi
 
   protected function getTranslations() {
     return array(
-      'New description.' => 'Uusi kuvaus.',
-    );
+  'New description.' => 'Uusi kuvaus.',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorFavoritesKaa
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Saralanǵanlardı redaktorlaw',
-      'Favorite Items' => 'Saralanǵan elementler',
-    );
+  'Edit Favorites' => 'Saralanǵanlardı redaktorlaw',
+  'Favorite Items' => 'Saralanǵan elementler',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorPhrequentEo
 
   protected function getTranslations() {
     return array(
-      'Working Now' => 'Laboras nun',
-      'Stop Time' => 'Haltigi tempon',
-      'Start Time' => 'Komenca tempo',
-    );
+  'Working Now' => 'Laboras nun',
+  'Stop Time' => 'Haltigi tempon',
+  'Start Time' => 'Komenca tempo',
+);
   }
 
 }

@@ -9,11 +9,11 @@ final class PhabricatorLegalpadPa
 
   protected function getTranslations() {
     return array(
-      'Last Updated' => 'ਆਖਰੀ ਵਾਰ ਨਵਿਆਈਆ ਗਿਆ',
-      'Signature Required to Log In' => 'ਦਾਖ਼ਲ ਹੋਣ ਲਈ ਦਸਤਖਤ ਦੀ ਲੋਡ਼ ਹੈ',
-      'Create a Document' => 'ਇੱਕ ਲਿਖਤ ਬਣਾਓ',
-      'Updated By' => 'ਵੱਲੋਂ ਨਵਿਆਈਆ ਗਿਆ',
-    );
+  'Last Updated' => 'ਆਖਰੀ ਵਾਰ ਨਵਿਆਈਆ ਗਿਆ',
+  'Signature Required to Log In' => 'ਦਾਖ਼ਲ ਹੋਣ ਲਈ ਦਸਤਖਤ ਦੀ ਲੋਡ਼ ਹੈ',
+  'Create a Document' => 'ਇੱਕ ਲਿਖਤ ਬਣਾਓ',
+  'Updated By' => 'ਵੱਲੋਂ ਨਵਿਆਈਆ ਗਿਆ',
+);
   }
 
 }

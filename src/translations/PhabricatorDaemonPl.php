@@ -9,11 +9,11 @@ final class PhabricatorDaemonPl
 
   protected function getTranslations() {
     return array(
-      'Clock' => 'Zegar',
-      'Archived Tasks' => 'Zarchiwizowane zadania',
-      'Task %d' => 'Zadanie %s',
-      'Task %d: %s' => 'Zadanie %s: %s',
-    );
+  'Clock' => 'Zegar',
+  'Archived Tasks' => 'Zarchiwizowane zadania',
+  'Task %d' => 'Zadanie %d',
+  'Task %d: %s' => 'Zadanie %d: %s',
+);
   }
 
 }

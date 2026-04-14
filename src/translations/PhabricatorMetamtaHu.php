@@ -9,11 +9,11 @@ final class PhabricatorMetamtaHu
 
   protected function getTranslations() {
     return array(
-      'Cc' => 'Másolat',
-      'Related PHID' => 'Kapcsolódó PHID',
-      'Related PHID: %s' => 'Kapcsolódó PHID: %s',
-      'Related Object' => 'Kapcsolódó objektum',
-    );
+  'Cc' => 'Másolat',
+  'Related PHID' => 'Kapcsolódó PHID',
+  'Related PHID: %s' => 'Kapcsolódó PHID: %s',
+  'Related Object' => 'Kapcsolódó objektum',
+);
   }
 
 }

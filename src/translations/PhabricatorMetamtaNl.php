@@ -9,12 +9,12 @@ final class PhabricatorMetamtaNl
 
   protected function getTranslations() {
     return array(
-      'Mail Properties' => 'Posteigenschappen',
-      'Got it! Thanks, Postmark!
-    ' => 'Begrepen! Bedankt, poststempel!',
-      'Muted' => 'Gedempt',
-      'STAMPS' => 'STEMPELS',
-    );
+  'Mail Properties' => 'Posteigenschappen',
+  'Got it! Thanks, Postmark!
+' => 'Begrepen! Bedankt, poststempel!',
+  'Muted' => 'Gedempt',
+  'STAMPS' => 'STEMPELS',
+);
   }
 
 }

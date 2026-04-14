@@ -9,10 +9,10 @@ final class PhabricatorPonderPtBR
 
   protected function getTranslations() {
     return array(
-      'Answer Summary' => 'Resumo da resposta',
-      'Add a Comment' => 'Adicionar um comentário',
-      'Answer Preview' => 'Pré-visualização da resposta',
-    );
+  'Answer Summary' => 'Resumo da resposta',
+  'Add a Comment' => 'Adicionar um comentário',
+  'Answer Preview' => 'Pré-visualização da resposta',
+);
   }
 
 }

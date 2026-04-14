@@ -9,8 +9,8 @@ final class PhabricatorCelerityMy
 
   protected function getTranslations() {
     return array(
-      'Use Larger Font Size' => 'ပိုကြီးသော ဖောင့်အရွယ်အစားကို သုံးရန်',
-    );
+  'Use Larger Font Size' => 'ပိုကြီးသော ဖောင့်အရွယ်အစားကို သုံးရန်',
+);
   }
 
 }

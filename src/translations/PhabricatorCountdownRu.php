@@ -9,8 +9,8 @@ final class PhabricatorCountdownRu
 
   protected function getTranslations() {
     return array(
-      'COUNTDOWN DETAIL' => 'ПОДРОБНОСТИ ОБРАТНОГО СЧЕТА',
-    );
+  'COUNTDOWN DETAIL' => 'ПОДРОБНОСТИ ОБРАТНОГО СЧЕТА',
+);
   }
 
 }

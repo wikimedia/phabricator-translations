@@ -9,15 +9,15 @@ final class PhabricatorSystemFi
 
   protected function getTranslations() {
     return array(
-      'An Administrator has placed this server into read-only mode.' => 'Järjestelmänvalvoja on asettanut Phabricatorin vain luku -tilaan.',
-      'Panic!' => 'Paniikki!',
-      'No Writable Database' => 'Ei kirjoitettava tietokanta',
-      '%d / hour' => '%s / tunti',
-      'IMPORTANT' => 'TÄRKEÄ',
-      'System' => 'Järjestelmä',
-      '%d / minute' => '%s / minuutti',
-      '%d / second' => '%s / sekunti',
-    );
+  'An Administrator has placed this server into read-only mode.' => 'Järjestelmänvalvoja on asettanut Phabricatorin vain luku -tilaan.',
+  'Panic!' => 'Paniikki!',
+  'No Writable Database' => 'Ei kirjoitettava tietokanta',
+  '%d / hour' => '%d / tunti',
+  'IMPORTANT' => 'TÄRKEÄ',
+  'System' => 'Järjestelmä',
+  '%d / minute' => '%d / minuutti',
+  '%d / second' => '%d / sekunti',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorDivinerMy
 
   protected function getTranslations() {
     return array(
-      'Return' => 'ပြန်လာရန်',
-      'Article' => 'ဆောင်းပါး',
-      'Book' => 'စာအုပ်',
-    );
+  'Return' => 'ပြန်လာရန်',
+  'Article' => 'ဆောင်းပါး',
+  'Book' => 'စာအုပ်',
+);
   }
 
 }

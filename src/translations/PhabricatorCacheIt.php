@@ -9,9 +9,9 @@ final class PhabricatorCacheIt
 
   protected function getTranslations() {
     return array(
-      'APCu' => 'APCu',
-      'General Cache (TTL)' => 'Cache generale (TTL)',
-    );
+  'APCu' => 'APCu',
+  'General Cache (TTL)' => 'Cache generale (TTL)',
+);
   }
 
 }

@@ -9,16 +9,16 @@ final class PhabricatorSettingsSkrArab
 
   protected function getTranslations() {
     return array(
-      'Saturday' => 'چھݨ چھݨ',
-      'Current Setting' => 'حالیہ ترتیباں',
-      'Expired' => 'مُک ڳیا',
-      'Translation' => 'ترجمہ',
-      'Settings %d' => 'ترتیباں %s',
-      'Sunday' => 'اتوار',
-      'Friday' => 'جمعہ',
-      'Verify' => 'تصدیق کرو',
-      'Save Preferences' => 'ترجیحاں محفوظ کرو',
-    );
+  'Saturday' => 'چھݨ چھݨ',
+  'Current Setting' => 'حالیہ ترتیباں',
+  'Expired' => 'مُک ڳیا',
+  'Translation' => 'ترجمہ',
+  'Settings %d' => 'ترتیباں %d',
+  'Sunday' => 'اتوار',
+  'Friday' => 'جمعہ',
+  'Verify' => 'تصدیق کرو',
+  'Save Preferences' => 'ترجیحاں محفوظ کرو',
+);
   }
 
 }

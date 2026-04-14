@@ -9,9 +9,9 @@ final class PhabricatorFavoritesMk
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Уреди омилени',
-      'Favorite Items' => 'Омилени ставки',
-    );
+  'Edit Favorites' => 'Уреди омилени',
+  'Favorite Items' => 'Омилени ставки',
+);
   }
 
 }

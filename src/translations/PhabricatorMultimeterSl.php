@@ -9,9 +9,9 @@ final class PhabricatorMultimeterSl
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(Vsi)',
-      'Performance Sampler' => 'Vzorčevalnik zmogljivosti',
-    );
+  '(All)' => '(Vsi)',
+  'Performance Sampler' => 'Vzorčevalnik zmogljivosti',
+);
   }
 
 }

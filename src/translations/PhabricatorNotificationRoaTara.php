@@ -9,8 +9,8 @@ final class PhabricatorNotificationRoaTara
 
   protected function getTranslations() {
     return array(
-      'Unread' => 'None lette',
-    );
+  'Unread' => 'None lette',
+);
   }
 
 }

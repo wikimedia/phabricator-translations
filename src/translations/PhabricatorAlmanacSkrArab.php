@@ -9,14 +9,14 @@ final class PhabricatorAlmanacSkrArab
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'ناں جاہ',
-      'Device %d' => 'ڈیوائس %s',
-      'Add Interface' => 'انٹرفیس شامل کرو',
-      'Interface %d' => 'انٹرفیس %s',
-      'Network' => 'نیٹ ورک',
-      'Namespace %s' => 'ناں جاہ %s',
-      'Network %s' => 'نیٹ ورک %s',
-    );
+  'Namespace' => 'ناں جاہ',
+  'Device %d' => 'ڈیوائس %d',
+  'Add Interface' => 'انٹرفیس شامل کرو',
+  'Interface %d' => 'انٹرفیس %d',
+  'Network' => 'نیٹ ورک',
+  'Namespace %s' => 'ناں جاہ %s',
+  'Network %s' => 'نیٹ ورک %s',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorMetaAr
 
   protected function getTranslations() {
     return array(
-      'Information' => 'معلومات',
-      'Show All Applications' => 'أظهر جميع التطبيقات',
-    );
+  'Information' => 'معلومات',
+  'Show All Applications' => 'أظهر جميع التطبيقات',
+);
   }
 
 }

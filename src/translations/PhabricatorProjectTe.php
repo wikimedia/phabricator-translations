@@ -9,15 +9,15 @@ final class PhabricatorProjectTe
 
   protected function getTranslations() {
     return array(
-      'Timeline' => 'కాలరేఖ',
-      'Month' => 'నెల',
-      '%d month(s)' => '%s నెల(లు)',
-      'Members' => 'సభ్యులు',
-      'Background Color' => 'వెనుతలపు రంగు',
-      '(Default)' => '(అప్రమేయం)',
-      '%d day(s)' => '%s రోజు(లు)',
-      'Week' => 'వారం',
-    );
+  'Timeline' => 'కాలరేఖ',
+  'Month' => 'నెల',
+  '%d month(s)' => '%d నెల(లు)',
+  'Members' => 'సభ్యులు',
+  'Background Color' => 'వెనుతలపు రంగు',
+  '(Default)' => '(అప్రమేయం)',
+  '%d day(s)' => '%d రోజు(లు)',
+  'Week' => 'వారం',
+);
   }
 
 }

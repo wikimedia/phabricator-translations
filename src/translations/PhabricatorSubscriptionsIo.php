@@ -9,9 +9,9 @@ final class PhabricatorSubscriptionsIo
 
   protected function getTranslations() {
     return array(
-      'subscribers' => 'abonanti',
-      '%d other(s)' => '%s altro/altri',
-    );
+  'subscribers' => 'abonanti',
+  '%d other(s)' => '%d altro/altri',
+);
   }
 
 }

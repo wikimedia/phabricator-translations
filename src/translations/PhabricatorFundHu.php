@@ -9,8 +9,8 @@ final class PhabricatorFundHu
 
   protected function getTranslations() {
     return array(
-      'INITIATIVE DETAIL' => 'KEZDEMÉNYEZÉS RÉSZLETEI',
-    );
+  'INITIATIVE DETAIL' => 'KEZDEMÉNYEZÉS RÉSZLETEI',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorextCoreHi
 
   protected function getTranslations() {
     return array(
-      'Invalid' => 'अमान्य',
-      'Unknown' => 'अज्ञात',
-      'Comments' => 'टिप्पणियाँ',
-    );
+  'Invalid' => 'अमान्य',
+  'Unknown' => 'अज्ञात',
+  'Comments' => 'टिप्पणियाँ',
+);
   }
 
 }

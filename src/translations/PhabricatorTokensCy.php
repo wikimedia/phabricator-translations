@@ -9,9 +9,9 @@ final class PhabricatorTokensCy
 
   protected function getTranslations() {
     return array(
-      'Unicorn!' => 'Uncorn!',
-      'Fox' => 'Llwynog',
-    );
+  'Unicorn!' => 'Uncorn!',
+  'Fox' => 'Llwynog',
+);
   }
 
 }

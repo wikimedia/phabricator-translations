@@ -9,11 +9,11 @@ final class PhabricatorConduitSms
 
   protected function getTranslations() {
     return array(
-      'JSON' => 'JSON',
-      '<parameters>' => '<paramettar>',
-      'Errors' => 'Vââʹjj',
-      'Username.' => 'Õõʹnninõmm.',
-    );
+  'JSON' => 'JSON',
+  '<parameters>' => '<paramettar>',
+  'Errors' => 'Vââʹjj',
+  'Username.' => 'Õõʹnninõmm.',
+);
   }
 
 }

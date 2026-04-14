@@ -9,9 +9,9 @@ final class PhabricatorConduitDiq
 
   protected function getTranslations() {
     return array(
-      'Errors' => 'Xeteyi',
-      'Username.' => 'Nameyê karberi.',
-    );
+  'Errors' => 'Xeteyi',
+  'Username.' => 'Nameyê karberi.',
+);
   }
 
 }

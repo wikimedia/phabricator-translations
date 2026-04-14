@@ -9,11 +9,11 @@ final class PhabricatorTokensKg
 
   protected function getTranslations() {
     return array(
-      'All Tokens Given' => 'Ba token yonso ya bo me pesa',
-      'Type a Token name...' => 'Sonika zina ya kidimbu...',
-      'Browse Tokens' => 'Bisono ya Browse',
-      'Token used' => 'Kidimbu ya bo ke sadilaka',
-    );
+  'All Tokens Given' => 'Ba token yonso ya bo me pesa',
+  'Type a Token name...' => 'Sonika zina ya kidimbu...',
+  'Browse Tokens' => 'Bisono ya Browse',
+  'Token used' => 'Kidimbu ya bo ke sadilaka',
+);
   }
 
 }

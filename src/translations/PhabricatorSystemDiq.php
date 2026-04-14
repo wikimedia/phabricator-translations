@@ -9,16 +9,16 @@ final class PhabricatorSystemDiq
 
   protected function getTranslations() {
     return array(
-      'Panic!' => 'Panik!',
-      'No Writable Database' => 'Nusiyaye database çıniyo',
-      'Destroying %s **%s**...
-    ' => '%s **%s** kenêno vıni ...',
-      'Severed From Master' => 'Wıstay ra bıriyayo',
-      'Engine: Destruction' => 'Motor: İmha',
-      '%d / hour' => '%s / seate',
-      'System' => 'Sistem',
-      '%d / second' => '%s / saniye',
-    );
+  'Panic!' => 'Panik!',
+  'No Writable Database' => 'Nusiyaye database çıniyo',
+  'Destroying %s **%s**...
+' => '%s **%s** kenêno vıni ...',
+  'Severed From Master' => 'Wıstay ra bıriyayo',
+  'Engine: Destruction' => 'Motor: İmha',
+  '%d / hour' => '%d / seate',
+  'System' => 'Sistem',
+  '%d / second' => '%d / saniye',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorFavoritesScn
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Cancia prifiruti',
-      'Favorite Items' => 'Elimenti prifiruti',
-    );
+  'Edit Favorites' => 'Cancia prifiruti',
+  'Favorite Items' => 'Elimenti prifiruti',
+);
   }
 
 }

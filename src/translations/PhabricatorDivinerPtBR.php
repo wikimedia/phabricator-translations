@@ -9,9 +9,9 @@ final class PhabricatorDivinerPtBR
 
   protected function getTranslations() {
     return array(
-      'Edit Basics' => 'Editar noções básicas',
-      'Generate documentation.' => 'Gerar documentação',
-    );
+  'Edit Basics' => 'Editar noções básicas',
+  'Generate documentation.' => 'Gerar documentação',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorAuditSms
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'ÕÕʹNNI',
-    );
+  'USERS' => 'ÕÕʹNNI',
+);
   }
 
 }

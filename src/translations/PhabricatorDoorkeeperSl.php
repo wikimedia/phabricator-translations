@@ -9,8 +9,8 @@ final class PhabricatorDoorkeeperSl
 
   protected function getTranslations() {
     return array(
-      'Imported From' => 'Uvoženo iz',
-    );
+  'Imported From' => 'Uvoženo iz',
+);
   }
 
 }

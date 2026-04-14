@@ -9,9 +9,9 @@ final class TranslatewikiCoreMy
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'ဘာမှမရှိ',
-      'Done.' => 'ပြီးပြီ',
-    );
+  'NONE' => 'ဘာမှမရှိ',
+  'Done.' => 'ပြီးပြီ',
+);
   }
 
 }

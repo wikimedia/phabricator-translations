@@ -9,9 +9,9 @@ final class PhabricatorFeedSl
 
   protected function getTranslations() {
     return array(
-      'Include Projects' => 'Vključi projekte',
-      'Review Recent Activity' => 'Pregled nedavne dejavnosti',
-    );
+  'Include Projects' => 'Vključi projekte',
+  'Review Recent Activity' => 'Pregled nedavne dejavnosti',
+);
   }
 
 }

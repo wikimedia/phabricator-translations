@@ -9,8 +9,8 @@ final class PhabricatorHelpLt
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s pagalba',
-    );
+  '%s Help' => '%s pagalba',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMultimeterSdh
 
   protected function getTranslations() {
     return array(
-      'Viewer' => 'دۊنەر',
-    );
+  'Viewer' => 'دۊنەر',
+);
   }
 
 }

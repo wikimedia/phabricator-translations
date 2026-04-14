@@ -9,9 +9,9 @@ final class PhabricatorLipsumScn
 
   protected function getTranslations() {
     return array(
-      'LIPSUM' => 'LIPSUM',
-      'OOPS' => 'OPS',
-    );
+  'LIPSUM' => 'LIPSUM',
+  'OOPS' => 'OPS',
+);
   }
 
 }

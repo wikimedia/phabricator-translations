@@ -9,10 +9,10 @@ final class PhabricatorPhrictionNb
 
   protected function getTranslations() {
     return array(
-      'Version %d' => 'Versjon %s',
-      'Draft %d' => 'Kladd %s',
-      'Save as Draft' => 'Lagre som kladd',
-    );
+  'Version %d' => 'Versjon %d',
+  'Draft %d' => 'Kladd %d',
+  'Save as Draft' => 'Lagre som kladd',
+);
   }
 
 }

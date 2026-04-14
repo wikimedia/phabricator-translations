@@ -9,8 +9,8 @@ final class PhabricatorHomeHu
 
   protected function getTranslations() {
     return array(
-      'More Applications' => 'Több alkalmazás',
-    );
+  'More Applications' => 'Több alkalmazás',
+);
   }
 
 }

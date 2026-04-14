@@ -9,112 +9,140 @@ final class PhabricatorAuthZhHans
 
   protected function getTranslations() {
     return array(
-      '%s renamed this provider from %s to %s.' => '%s将此徽章从%s重命名为%s。',
-      '%s enabled login.' => '%s启用了登录。',
-      'Disable Contact Number' => '禁用联系号码',
-      'This key has been revoked. Choose or generate a new, unique key.' => '此密钥已被撤销。请选择或生成一个新的唯一密钥。',
-      'SSH Key Actions' => 'SSH公钥操作',
-      'Adding a PKCS8 keyfile to the cache can be very dangerous. If the PKCS8 file really encodes a different public key than the one specified, an attacker could use it to gain unauthorized access.
-    Generally, you should use this option only in a development environment where ssh-keygen is broken and it is inconvenient to fix it, and only if you are certain you understand the risks. You should never cache a PKCS8 file you did not generate yourself.' => '添加PKCS8公钥文件至缓存是非常危险的。如果PKCS8文件已经编码了与指定公钥不同的公钥，那么攻击者可以使用它获得未经授权的访问能力。
-    一般情况下，您只应该在ssh注册机损坏，且不便修复的开发环境中，并且只在您确定理解风险的情况下使用此操作。您永远不能缓存不是您自己生成的PKCS8文件。',
-      'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => '此提供者（“%s”）已存在，并且您不能添加多于一个它的示例。您可以编辑现有提供者，或者您可以选择不同的提供者。',
-      'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => '要添加Duo功能，请先在手机上下载并安装Duo应用程序。启动应用程序并准备好进行设置后，点击“继续”。',
-      'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => '您提供的验证码不正确，或者该电子邮件地址已被移除，又或者该电子邮件地址属于其他用户。请确保您正确点击了电子邮件中的链接，并使用与该电子邮件地址关联的用户帐户登录。',
-      'Edit Contact Number' => '编辑联系人号码',
-      'Passwords' => '密码',
-      'Algorithm' => '算法',
-      'You must specify the username of the account to recover.' => '您必须指定要恢复的帐户的用户名。',
-      'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => '身份验证提供程序配置已锁定，未解锁则无法更改。有关详情，请参阅配置设置%s 。',
-      'Server name must contain only lowercase letters, digits, and periods.' => '服务器名称必须仅包含小写字母、数字和句点。',
-      'Revoke Tokens' => '撤除令牌',
-      'There are too many configured default registration providers.' => '配置的默认注册提供程序太多。',
-      'Unlink "%s" Account?' => '取消链接“%s”账户？',
-      'Edit Auth Messages' => '编辑授权消息',
-      'Complete enrolling your phone with Duo:' => '完成将您的手机注册到Duo的过程：',
-      'Setup Admin Account' => '配置管理员账户',
-      'Must Verify Email' => '必须验证电子邮件',
-      '%s enabled auto login.' => '%s启用了自动登录。',
-      'Invalid OAuth Access Token' => '无效的OAuth访问令牌',
-      'Verify Email' => '验证电子邮件',
-      'Account is already registered or linked.' => '账户已注册或链接。',
-      'LDAP Port' => 'LDAP端口',
-      'TOTP Code' => 'TOTP代码',
-      'OAuth Consumer Key' => 'OAuth消费者密钥',
-      'LDAP Username: ' => 'LDAP用户名：',
-      'Allow Login:' => '允许登录：',
-      'Wrong Account' => '错误账户',
-      'SECURITY WARNING' => '安全警告',
-      'Specify an OAuth client id with "--id".' => '用“--id”指定OAuth客户端id。',
-      'Strength' => '优势',
-      'Google' => 'Google',
-      'Auth' => '验证',
-      'Asana' => 'Asana',
-      'No Account Linked' => '没有链接账户',
-      'Slack' => '松弛',
-      'Public SSH Key' => '公共SSH密钥',
-      'Log In (%s)' => '登录（%s）',
-      'Login Failure' => '登录失败',
-      'Contact Number %d' => '联系电话%s',
-      'Twitter' => '推特',
-      'Send SMS' => '发送短信',
-      '%s disabled this provider.' => '%s禁用了该提供商。',
-      'Not Installed' => '未安装',
-      'OAuth App Secret' => 'OAuth应用密钥',
-      'Link LDAP Account' => '链接LDAP账户',
-      'To configure Slack OAuth, create a new application here:
-    https://api.slack.com/docs/sign-in-with-slack#create_slack_app
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '要配置Slack OAuth，在此创建新的应用程序：
-    https://api.slack.com/docs/sign-in-with-slack#create_slack_app
-    当创建您的应用程序时，请使用这些设置：
-      - **重定向URI：**将此设置为：“%s”
-    在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来配置客户端密钥。）',
-      '"%s" Account' => '“%s”账户',
-      'Log Out?' => '注销？',
-      'OAuth App ID' => 'OAuth应用ID',
-      'OAuth client "%s" is already trusted.' => 'OAuth客户端“%s”已被信任。',
-      '**Step 2 of 2**: In this step, you will configure JIRA.
-    **Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
-      - **Server URL**: `%s`
-      - Then, click **Next**. On the second page:
-      - **Application Name**: `%s`
-      - **Application Type**: `Generic Application`
-      - Then, click **Create**.
-    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
-      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
-      - **Consumer Name**: `%s`
-      - **Public Key**: Set this to the "Public Key" value in the form above.
-      - **Consumer Callback URL**: `%s`
-    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**第2步，共2步**：在此步骤中，您将会配置JIRA。
-    **创建一个JIRA应用程序**：Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
-      - **Server URL**: `%s`
-      - Then, click **Next**. On the second page:
-      - **Application Name**: `%s`
-      - **Application Type**: `Generic Application`
-      - Then, click **Create**.
-    **Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
-      - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
-      - **Consumer Name**: `%s`
-      - **Public Key**: Set this to the "Public Key" value in the form above.
-      - **Consumer Callback URL**: `%s`
-    Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.',
-      'Normal Security Restored' => '已恢复一般安全性',
-      'Log In' => '登录',
-      'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.' => '您刚刚进行身份验证的外部服务（“%s”）未配置为允许在此服务器上登录。管理员最近可能禁用了它。',
-      '**Step 2 of 2 - Configure OAuth Server**
-    To configure OAuth, create a new application here:
-    %s/oauthserver/client/create/
-    When creating your application, use these settings:
-      - **Redirect URI:** Set this to: `%s`
-    After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**第2/2步——配置OAuth服务器**
-    要配置OAuth，请在此创建新的应用程序：
-    %s/oauthserver/client/create/
-    当创建您的应用程序时，请使用这些设置：
-      - **重定向URI：**将此设置为“%s”
-    在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来生成客户端密钥。）',
-      '%s Account' => '%s账户',
-    );
+  '%s renamed this provider from %s to %s.' => '%s将此徽章从%s重命名为%s。',
+  '%s enabled login.' => '%s启用了登录。',
+  'Disable Contact Number' => '禁用联系号码',
+  'This key has been revoked. Choose or generate a new, unique key.' => '此密钥已被撤销。请选择或生成一个新的唯一密钥。',
+  'SSH Key Actions' => 'SSH公钥操作',
+  'Adding a PKCS8 keyfile to the cache can be very dangerous. If the PKCS8 file really encodes a different public key than the one specified, an attacker could use it to gain unauthorized access.
+
+Generally, you should use this option only in a development environment where ssh-keygen is broken and it is inconvenient to fix it, and only if you are certain you understand the risks. You should never cache a PKCS8 file you did not generate yourself.' => '添加PKCS8公钥文件至缓存是非常危险的。如果PKCS8文件已经编码了与指定公钥不同的公钥，那么攻击者可以使用它获得未经授权的访问能力。
+
+一般情况下，您只应该在ssh注册机损坏，且不便修复的开发环境中，并且只在您确定理解风险的情况下使用此操作。您永远不能缓存不是您自己生成的PKCS8文件。',
+  'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => '此提供者（“%s”）已存在，并且您不能添加多于一个它的示例。您可以编辑现有提供者，或者您可以选择不同的提供者。',
+  'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => '要添加Duo功能，请先在手机上下载并安装Duo应用程序。启动应用程序并准备好进行设置后，点击“继续”。',
+  'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => '您提供的验证码不正确，或者该电子邮件地址已被移除，又或者该电子邮件地址属于其他用户。请确保您正确点击了电子邮件中的链接，并使用与该电子邮件地址关联的用户帐户登录。',
+  'Edit Contact Number' => '编辑联系人号码',
+  'Passwords' => '密码',
+  'Algorithm' => '算法',
+  'You must specify the username of the account to recover.' => '您必须指定要恢复的帐户的用户名。',
+  'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => '身份验证提供程序配置已锁定，未解锁则无法更改。有关详情，请参阅配置设置%s 。',
+  'Server name must contain only lowercase letters, digits, and periods.' => '服务器名称必须仅包含小写字母、数字和句点。',
+  'Revoke Tokens' => '撤除令牌',
+  'There are too many configured default registration providers.' => '配置的默认注册提供程序太多。',
+  'Unlink "%s" Account?' => '取消链接“%s”账户？',
+  'Edit Auth Messages' => '编辑授权消息',
+  'Complete enrolling your phone with Duo:' => '完成将您的手机注册到Duo的过程：',
+  'Setup Admin Account' => '配置管理员账户',
+  'Must Verify Email' => '必须验证电子邮件',
+  '%s enabled auto login.' => '%s启用了自动登录。',
+  'Invalid OAuth Access Token' => '无效的OAuth访问令牌',
+  'Verify Email' => '验证电子邮件',
+  'Account is already registered or linked.' => '账户已注册或链接。',
+  'LDAP Port' => 'LDAP端口',
+  'TOTP Code' => 'TOTP代码',
+  'OAuth Consumer Key' => 'OAuth消费者密钥',
+  'LDAP Username: ' => 'LDAP用户名：',
+  'Allow Login:' => '允许登录：',
+  'Wrong Account' => '错误账户',
+  'SECURITY WARNING' => '安全警告',
+  'Specify an OAuth client id with "--id".' => '用“--id”指定OAuth客户端id。',
+  'Strength' => '优势',
+  'Google' => 'Google',
+  'Auth' => '验证',
+  'Asana' => 'Asana',
+  'No Account Linked' => '没有链接账户',
+  'Slack' => '松弛',
+  'Public SSH Key' => '公共SSH密钥',
+  'Log In (%s)' => '登录（%s）',
+  'Login Failure' => '登录失败',
+  'Contact Number %d' => '联系电话%d',
+  'Twitter' => '推特',
+  'Send SMS' => '发送短信',
+  '%s disabled this provider.' => '%s禁用了该提供商。',
+  'Not Installed' => '未安装',
+  'OAuth App Secret' => 'OAuth应用密钥',
+  'Link LDAP Account' => '链接LDAP账户',
+  'To configure Slack OAuth, create a new application here:
+
+https://api.slack.com/docs/sign-in-with-slack#create_slack_app
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '要配置Slack OAuth，在此创建新的应用程序：
+
+https://api.slack.com/docs/sign-in-with-slack#create_slack_app
+
+当创建您的应用程序时，请使用这些设置：
+
+  - **重定向URI：**将此设置为：“%s”
+
+在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来配置客户端密钥。）',
+  '"%s" Account' => '“%s”账户',
+  'Log Out?' => '注销？',
+  'OAuth App ID' => 'OAuth应用ID',
+  'OAuth client "%s" is already trusted.' => 'OAuth客户端“%s”已被信任。',
+  '**Step 2 of 2**: In this step, you will configure JIRA.
+
+**Create a JIRA Application**: Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
+
+  - **Server URL**: `%s`
+  - Then, click **Next**. On the second page:
+  - **Application Name**: `%s`
+  - **Application Type**: `Generic Application`
+  - Then, click **Create**.
+
+**Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
+
+  - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
+  - **Consumer Name**: `%s`
+  - **Public Key**: Set this to the "Public Key" value in the form above.
+  - **Consumer Callback URL**: `%s`
+Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**第2步，共2步**：在此步骤中，您将会配置JIRA。
+
+**创建一个JIRA应用程序**：Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:
+
+  - **Server URL**: `%s`
+  - Then, click **Next**. On the second page:
+  - **Application Name**: `%s`
+  - **Application Type**: `Generic Application`
+  - Then, click **Create**.
+
+**Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:
+
+  - **Consumer Key**: Set this to the "Consumer Key" value in the form above.
+  - **Consumer Name**: `%s`
+  - **Public Key**: Set this to the "Public Key" value in the form above.
+  - **Consumer Callback URL**: `%s`
+Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.',
+  'Normal Security Restored' => '已恢复一般安全性',
+  'Log In' => '登录',
+  'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.' => '您刚刚进行身份验证的外部服务（“%s”）未配置为允许在此服务器上登录。管理员最近可能禁用了它。',
+  '**Step 2 of 2 - Configure OAuth Server**
+
+To configure OAuth, create a new application here:
+
+%s/oauthserver/client/create/
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**第2/2步——配置OAuth服务器**
+
+要配置OAuth，请在此创建新的应用程序：
+
+%s/oauthserver/client/create/
+
+当创建您的应用程序时，请使用这些设置：
+
+  - **重定向URI：**将此设置为“%s”
+
+在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来生成客户端密钥。）',
+  '%s Account' => '%s账户',
+);
   }
 
 }

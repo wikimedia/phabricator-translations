@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteTe
 
   protected function getTranslations() {
     return array(
-      '%s (%d / %d)' => '%s (%s / %s)',
-    );
+  '%s (%d / %d)' => '%s (%d / %d)',
+);
   }
 
 }

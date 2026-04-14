@@ -9,8 +9,8 @@ final class PhabricatorConsoleIo
 
   protected function getTranslations() {
     return array(
-      'Site' => 'Retopagino',
-    );
+  'Site' => 'Retopagino',
+);
   }
 
 }

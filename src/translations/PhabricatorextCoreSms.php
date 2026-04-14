@@ -9,11 +9,11 @@ final class PhabricatorextCoreSms
 
   protected function getTranslations() {
     return array(
-      'Hide Instructions' => 'Čiõǥǥ ââʹnnemvuäʹpstõõzzid',
-      'Unknown' => 'Toobdtem',
-      'Required' => 'Pääkklaž',
-      'Comments' => 'Kommeeʹnt',
-    );
+  'Hide Instructions' => 'Čiõǥǥ ââʹnnemvuäʹpstõõzzid',
+  'Unknown' => 'Toobdtem',
+  'Required' => 'Pääkklaž',
+  'Comments' => 'Kommeeʹnt',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorBadgesKn
 
   protected function getTranslations() {
     return array(
-      'Quality' => 'ಗುಣಮಟ್ಟ',
-      'International' => 'ಅಂತಾರಾಷ್ಟ್ರೀಯ',
-    );
+  'Quality' => 'ಗುಣಮಟ್ಟ',
+  'International' => 'ಅಂತಾರಾಷ್ಟ್ರೀಯ',
+);
   }
 
 }

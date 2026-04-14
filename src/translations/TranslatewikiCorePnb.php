@@ -9,8 +9,8 @@ final class TranslatewikiCorePnb
 
   protected function getTranslations() {
     return array(
-      'PLURAL' => 'جمع',
-    );
+  'PLURAL' => 'جمع',
+);
   }
 
 }

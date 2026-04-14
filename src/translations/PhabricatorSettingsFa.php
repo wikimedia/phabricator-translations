@@ -9,11 +9,11 @@ final class PhabricatorSettingsFa
 
   protected function getTranslations() {
     return array(
-      'Display Preferences' => 'تنظیمات نمایش',
-      'Email Preferences' => 'ترجیحات ایمیل',
-      'User Preferences' => 'ترجیحات کاربر',
-      'Save Preferences' => 'ذخیرهٔ ترجیحات',
-    );
+  'Display Preferences' => 'تنظیمات نمایش',
+  'Email Preferences' => 'ترجیحات ایمیل',
+  'User Preferences' => 'ترجیحات کاربر',
+  'Save Preferences' => 'ذخیرهٔ ترجیحات',
+);
   }
 
 }

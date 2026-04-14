@@ -9,8 +9,8 @@ final class PhabricatorDivinerLn
 
   protected function getTranslations() {
     return array(
-      'Diviner Search' => 'Boluki ya Mosakoli',
-    );
+  'Diviner Search' => 'Boluki ya Mosakoli',
+);
   }
 
 }

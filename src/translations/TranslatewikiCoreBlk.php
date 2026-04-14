@@ -9,8 +9,8 @@ final class TranslatewikiCoreBlk
 
   protected function getTranslations() {
     return array(
-      'Done.' => 'ထွူလဲဉ်း။',
-    );
+  'Done.' => 'ထွူလဲဉ်း။',
+);
   }
 
 }

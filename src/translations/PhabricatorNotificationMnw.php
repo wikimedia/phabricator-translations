@@ -9,8 +9,8 @@ final class PhabricatorNotificationMnw
 
   protected function getTranslations() {
     return array(
-      'Unread' => 'ဟွံဂွံဗှ်ဏီ',
-    );
+  'Unread' => 'ဟွံဂွံဗှ်ဏီ',
+);
   }
 
 }

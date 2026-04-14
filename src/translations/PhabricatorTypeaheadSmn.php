@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadSmn
 
   protected function getTranslations() {
     return array(
-      'Select' => 'Valjii',
-    );
+  'Select' => 'Valjii',
+);
   }
 
 }

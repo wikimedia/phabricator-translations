@@ -9,11 +9,11 @@ final class PhabricatorPholioDa
 
   protected function getTranslations() {
     return array(
-      '%s replaced %s with %s.' => '%s erstattede %s med %s.',
-      'Undo' => 'Fortryd',
-      'Pholio' => 'Pholio',
-      'Uploading Image...' => 'Overfører billede...',
-    );
+  '%s replaced %s with %s.' => '%s erstattede %s med %s.',
+  'Undo' => 'Fortryd',
+  'Pholio' => 'Pholio',
+  'Uploading Image...' => 'Overfører billede...',
+);
   }
 
 }

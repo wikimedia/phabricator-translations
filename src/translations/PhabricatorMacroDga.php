@@ -9,8 +9,8 @@ final class PhabricatorMacroDga
 
   protected function getTranslations() {
     return array(
-      'Unknown status \'%s\'!' => 'Vuo are babannaa \'%s\'!',
-    );
+  'Unknown status \'%s\'!' => 'Vuo are babannaa \'%s\'!',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorFundPtBR
 
   protected function getTranslations() {
     return array(
-      'Initiative long description.' => 'Descrição de iniciativa longa.',
-      'Fund' => 'Financiar',
-      'Donate' => 'Doar',
-    );
+  'Initiative long description.' => 'Descrição de iniciativa longa.',
+  'Fund' => 'Financiar',
+  'Donate' => 'Doar',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorFundKoKR
 
   protected function getTranslations() {
     return array(
-      'All Initiatives' => '모든 이니셔티브',
-      'Initiative' => '이니셔티브',
-    );
+  'All Initiatives' => '모든 이니셔티브',
+  'Initiative' => '이니셔티브',
+);
   }
 
 }

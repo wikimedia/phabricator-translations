@@ -9,11 +9,11 @@ final class PhabricatorPassphraseDiq
 
   protected function getTranslations() {
     return array(
-      'Password for Key' => 'Seba kıliti parola',
-      'SSH Private Key' => 'Kılitê SSHyiyo Xısusi',
-      'Lock Permanently' => 'Daimi kılit kerê',
-      'Login: %s' => 'Cıkewtış:%s',
-    );
+  'Password for Key' => 'Seba kıliti parola',
+  'SSH Private Key' => 'Kılitê SSHyiyo Xısusi',
+  'Lock Permanently' => 'Daimi kılit kerê',
+  'Login: %s' => 'Cıkewtış:%s',
+);
   }
 
 }

@@ -9,21 +9,21 @@ final class PhabricatorAlmanacFa
 
   protected function getTranslations() {
     return array(
-      'Name of the service.' => 'نام سرویس',
-      'Namespace' => 'فضای نام',
-      'Add Property' => 'افزودن ویژگی',
-      'Name of the network.' => 'نام شبکه.',
-      'Add Interface' => 'افزودن رابط',
-      'Create Service' => 'ایجاد سرویس',
-      'Edit Namespace' => 'ویرایش فضای نام',
-      'Network %d' => 'شبکهٔ %s',
-      'Namespace Name' => 'نام فضای نام',
-      'Device status information.' => 'اطلاعات وضعیت دستگاه.',
-      'Device Disabled' => 'دستگاه غیرفعال شد',
-      'Namespaces' => 'فضاهای نام',
-      'Device status.' => 'وضعیت دستگاه.',
-      'Active Devices' => 'دستگاه‌های فعال',
-    );
+  'Name of the service.' => 'نام سرویس',
+  'Namespace' => 'فضای نام',
+  'Add Property' => 'افزودن ویژگی',
+  'Name of the network.' => 'نام شبکه.',
+  'Add Interface' => 'افزودن رابط',
+  'Create Service' => 'ایجاد سرویس',
+  'Edit Namespace' => 'ویرایش فضای نام',
+  'Network %d' => 'شبکهٔ %d',
+  'Namespace Name' => 'نام فضای نام',
+  'Device status information.' => 'اطلاعات وضعیت دستگاه.',
+  'Device Disabled' => 'دستگاه غیرفعال شد',
+  'Namespaces' => 'فضاهای نام',
+  'Device status.' => 'وضعیت دستگاه.',
+  'Active Devices' => 'دستگاه‌های فعال',
+);
   }
 
 }

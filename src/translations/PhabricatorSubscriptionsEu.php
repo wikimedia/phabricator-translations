@@ -9,9 +9,9 @@ final class PhabricatorSubscriptionsEu
 
   protected function getTranslations() {
     return array(
-      'You are automatically subscribed to this object.' => 'Objektu honetara automatikoki harpideturik zaude.',
-      'Removed %s subscriber(s): %s.' => '%s harpidedun ezabatuak: %s',
-    );
+  'You are automatically subscribed to this object.' => 'Objektu honetara automatikoki harpideturik zaude.',
+  'Removed %s subscriber(s): %s.' => '%s harpidedun ezabatuak: %s',
+);
   }
 
 }

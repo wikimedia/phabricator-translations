@@ -9,13 +9,13 @@ final class PhabricatorUiexampleTi
 
   protected function getTranslations() {
     return array(
-      'Emoji' => 'ኢሞጂ',
-      'Wikipedia' => 'ዊኪፐድያ',
-      'General' => 'ሓፈሻዊ',
-      'Emojis' => 'ኢሞጂታት',
-      'Installation' => 'ምጽዓን',
-      'Country' => 'ሃገር',
-    );
+  'Emoji' => 'ኢሞጂ',
+  'Wikipedia' => 'ዊኪፐድያ',
+  'General' => 'ሓፈሻዊ',
+  'Emojis' => 'ኢሞጂታት',
+  'Installation' => 'ምጽዓን',
+  'Country' => 'ሃገር',
+);
   }
 
 }

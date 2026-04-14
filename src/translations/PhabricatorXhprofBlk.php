@@ -9,8 +9,8 @@ final class PhabricatorXhprofBlk
 
   protected function getTranslations() {
     return array(
-      'Symbol' => 'အမုဲင်သင်္ကေတ',
-    );
+  'Symbol' => 'အမုဲင်သင်္ကေတ',
+);
   }
 
 }

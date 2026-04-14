@@ -9,8 +9,8 @@ final class PhabricatorCountdownBg
 
   protected function getTranslations() {
     return array(
-      'New description.' => 'Ново описание.',
-    );
+  'New description.' => 'Ново описание.',
+);
   }
 
 }

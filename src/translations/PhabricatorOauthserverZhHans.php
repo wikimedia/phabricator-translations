@@ -9,9 +9,9 @@ final class PhabricatorOauthserverZhHans
 
   protected function getTranslations() {
     return array(
-      'Enable OAuth Application' => '启用OAuth应用',
-      'Server Error' => '服务器错误',
-    );
+  'Enable OAuth Application' => '启用OAuth应用',
+  'Server Error' => '服务器错误',
+);
   }
 
 }

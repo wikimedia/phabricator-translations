@@ -9,9 +9,9 @@ final class PhabricatorFeedDeDE
 
   protected function getTranslations() {
     return array(
-      'All Stories' => 'Alle Geschichten',
-      'Review Recent Activity' => 'Letzte Aktivität überprüfen',
-    );
+  'All Stories' => 'Alle Geschichten',
+  'Review Recent Activity' => 'Letzte Aktivität überprüfen',
+);
   }
 
 }

@@ -9,11 +9,11 @@ final class PhabricatorAuditEsES
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'USUARIOS',
-      'Updating "%s" (%s)...' => 'Actualizando «%s» (%s)…',
-      'Auditor' => 'Auditor',
-      'none' => 'ninguno',
-    );
+  'USERS' => 'USUARIOS',
+  'Updating "%s" (%s)...' => 'Actualizando «%s» (%s)…',
+  'Auditor' => 'Auditor',
+  'none' => 'ninguno',
+);
   }
 
 }

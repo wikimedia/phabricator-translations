@@ -9,8 +9,8 @@ final class PhabricatorPhurlBg
 
   protected function getTranslations() {
     return array(
-      'URL Shortener' => 'Скъсител на URL-адреси',
-    );
+  'URL Shortener' => 'Скъсител на URL-адреси',
+);
   }
 
 }

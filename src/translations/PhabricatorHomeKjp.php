@@ -9,9 +9,9 @@ final class PhabricatorHomeKjp
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'ဆ်ုလူႋအ်ုထါ်',
-      'Built-in Homepage' => 'အ်ုလါင်လီ ၯိင်းလိက်မေံၜၠာ်',
-    );
+  'Command Center' => 'ဆ်ုလူႋအ်ုထါ်',
+  'Built-in Homepage' => 'အ်ုလါင်လီ ၯိင်းလိက်မေံၜၠာ်',
+);
   }
 
 }

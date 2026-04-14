@@ -9,12 +9,12 @@ final class PhabricatorDivinerSkrArab
 
   protected function getTranslations() {
     return array(
-      'Return' => 'ولدا واپس',
-      'Article' => 'مقالے',
-      'Books' => 'کتاباں',
-      'Find' => 'لبھو',
-      'Book' => 'کتاب',
-    );
+  'Return' => 'ولدا واپس',
+  'Article' => 'مقالے',
+  'Books' => 'کتاباں',
+  'Find' => 'لبھو',
+  'Book' => 'کتاب',
+);
   }
 
 }

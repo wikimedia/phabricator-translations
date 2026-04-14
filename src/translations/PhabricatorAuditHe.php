@@ -9,8 +9,8 @@ final class PhabricatorAuditHe
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'משתמשים',
-    );
+  'USERS' => 'משתמשים',
+);
   }
 
 }

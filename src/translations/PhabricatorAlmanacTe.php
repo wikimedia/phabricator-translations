@@ -9,13 +9,13 @@ final class PhabricatorAlmanacTe
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'పేరుబరి',
-      'Namespace Name' => 'పేరుబరి పేరు',
-      'Service Name' => 'సేవ పేరు',
-      'Namespaces' => 'పేరుబరులు',
-      'All Services' => 'సేవలన్నీ',
-      'Device Name' => 'పరికరం పేరు',
-    );
+  'Namespace' => 'పేరుబరి',
+  'Namespace Name' => 'పేరుబరి పేరు',
+  'Service Name' => 'సేవ పేరు',
+  'Namespaces' => 'పేరుబరులు',
+  'All Services' => 'సేవలన్నీ',
+  'Device Name' => 'పరికరం పేరు',
+);
   }
 
 }

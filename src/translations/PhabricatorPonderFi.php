@@ -9,9 +9,9 @@ final class PhabricatorPonderFi
 
   protected function getTranslations() {
     return array(
-      'Hide Comments' => 'Piilota kommentit',
-      'Add a Comment' => 'Lisää kommentti',
-    );
+  'Hide Comments' => 'Piilota kommentit',
+  'Add a Comment' => 'Lisää kommentti',
+);
   }
 
 }

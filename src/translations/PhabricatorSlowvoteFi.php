@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteFi
 
   protected function getTranslations() {
     return array(
-      'Someone changes the poll details.' => 'Joku muutti äänestystietoja.',
-    );
+  'Someone changes the poll details.' => 'Joku muutti äänestystietoja.',
+);
   }
 
 }

@@ -9,11 +9,11 @@ final class PhabricatorOwnersMy
 
   protected function getTranslations() {
     return array(
-      'owner' => 'ပိုင်ရှင်',
-      'Weak' => 'အားနည်း',
-      'Authority' => 'အခွင့်အာဏာ',
-      'Strong' => 'အားကောင်း',
-    );
+  'owner' => 'ပိုင်ရှင်',
+  'Weak' => 'အားနည်း',
+  'Authority' => 'အခွင့်အာဏာ',
+  'Strong' => 'အားကောင်း',
+);
   }
 
 }

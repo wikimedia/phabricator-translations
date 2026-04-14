@@ -9,12 +9,12 @@ final class PhabricatorXhprofDiq
 
   protected function getTranslations() {
     return array(
-      'Symbol' => 'Sembol',
-      '%s μs' => '%s μs',
-      'Unnamed Sample' => 'Nımuneyo bêname',
-      '%s Profile' => '%s Profil',
-      'XHProf Profile' => 'XHProf Profil',
-    );
+  'Symbol' => 'Sembol',
+  '%s μs' => '%s μs',
+  'Unnamed Sample' => 'Nımuneyo bêname',
+  '%s Profile' => '%s Profil',
+  'XHProf Profile' => 'XHProf Profil',
+);
   }
 
 }

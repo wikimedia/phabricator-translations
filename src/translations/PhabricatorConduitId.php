@@ -9,13 +9,13 @@ final class PhabricatorConduitId
 
   protected function getTranslations() {
     return array(
-      'JSON' => 'JSON',
-      'All Methods' => 'Semua Metode',
-      'API Method: %s' => 'Metode API: %s',
-      'List of strings.' => 'Daftar string.',
-      'Stability' => 'Stabilitas',
-      'Call Logs' => 'Log Panggilan',
-    );
+  'JSON' => 'JSON',
+  'All Methods' => 'Semua Metode',
+  'API Method: %s' => 'Metode API: %s',
+  'List of strings.' => 'Daftar string.',
+  'Stability' => 'Stabilitas',
+  'Call Logs' => 'Log Panggilan',
+);
   }
 
 }

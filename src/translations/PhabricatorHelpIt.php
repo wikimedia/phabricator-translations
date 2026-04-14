@@ -9,9 +9,9 @@ final class PhabricatorHelpIt
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s Aiuto',
-      'Keyboard Shortcuts' => 'Scorciatoie da tastiera',
-    );
+  '%s Help' => '%s Aiuto',
+  'Keyboard Shortcuts' => 'Scorciatoie da tastiera',
+);
   }
 
 }

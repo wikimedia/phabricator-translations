@@ -9,10 +9,10 @@ final class PhabricatorCelerityEnGB
 
   protected function getTranslations() {
     return array(
-      'Use Standard Colors' => 'Use Standard Colours',
-      'Use High Contrast Colors' => 'Use High Contrast Colours',
-      'Use Red/Green (Deuteranopia) Colors' => 'Use Red/Green (Deuteranopia) Colours',
-    );
+  'Use Standard Colors' => 'Use Standard Colours',
+  'Use High Contrast Colors' => 'Use High Contrast Colours',
+  'Use Red/Green (Deuteranopia) Colors' => 'Use Red/Green (Deuteranopia) Colours',
+);
   }
 
 }

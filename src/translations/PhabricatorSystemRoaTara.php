@@ -9,14 +9,14 @@ final class PhabricatorSystemRoaTara
 
   protected function getTranslations() {
     return array(
-      'Panic!' => 'Paniche!',
-      '%d / hour' => '%s / ore',
-      'View As' => '\'Ndruche cumme',
-      'IMPORTANT' => '\'MBORTANDE',
-      'System' => 'Sisteme',
-      '%d / minute' => '%s / minute',
-      '%d / second' => '%s / seconde',
-    );
+  'Panic!' => 'Paniche!',
+  '%d / hour' => '%d / ore',
+  'View As' => '\'Ndruche cumme',
+  'IMPORTANT' => '\'MBORTANDE',
+  'System' => 'Sisteme',
+  '%d / minute' => '%d / minute',
+  '%d / second' => '%d / seconde',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorAphlictMy
 
   protected function getTranslations() {
     return array(
-      'Stop the notification server.' => 'အသိပေးဆာဗာအား ရပ်တန့်ပါ',
-      'Server exited!' => 'ဆာဗာ တည်ရှိပြီ',
-    );
+  'Stop the notification server.' => 'အသိပေးဆာဗာအား ရပ်တန့်ပါ',
+  'Server exited!' => 'ဆာဗာ တည်ရှိပြီ',
+);
   }
 
 }

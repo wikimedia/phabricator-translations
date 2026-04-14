@@ -9,8 +9,8 @@ final class PhabricatorSupportId
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Dukungan',
-    );
+  'Support' => 'Dukungan',
+);
   }
 
 }

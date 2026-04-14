@@ -9,8 +9,8 @@ final class PhabricatorHelpKsw
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s တၢ်မၤစၢၤ',
-    );
+  '%s Help' => '%s တၢ်မၤစၢၤ',
+);
   }
 
 }

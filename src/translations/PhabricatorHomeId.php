@@ -9,10 +9,10 @@ final class PhabricatorHomeId
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Pusat Perintah',
-      'More Applications' => 'Aplikasi Lainnya',
-      'Built-in Homepage' => 'Halaman Beranda Bawaan',
-    );
+  'Command Center' => 'Pusat Perintah',
+  'More Applications' => 'Aplikasi Lainnya',
+  'Built-in Homepage' => 'Halaman Beranda Bawaan',
+);
   }
 
 }

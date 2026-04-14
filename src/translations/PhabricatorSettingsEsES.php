@@ -9,113 +9,124 @@ final class PhabricatorSettingsEsES
 
   protected function getTranslations() {
     return array(
-      'You haven\'t added any contact numbers to your account.' => 'No ha agregado ningún número de contacto a su cuenta.',
-      'External Editor' => 'Editor externo',
-      'Choose Factor Type' => 'Seleccione el tipo de factor',
-      'Personal Account Settings' => 'Configuración de cuenta personal',
-      'Self Actions' => 'Autoacciones',
-      'Email Notifications' => 'Notificaciones por correo electrónico',
-      'Saturday' => 'Sábado',
-      'On Small Screens' => 'En pantallas pequeñas',
-      'Enable Email Notifications' => 'Habilitar notificaciones por correo electrónico',
-      'Generic Editor' => 'Editor genérico',
-      'Edit global default settings for all users.' => 'Editar la configuración global predeterminada para todos los usuarios.',
-      'Adjust Timezone' => 'Ajustar huso horario',
-      'If you disable **Email Notifications**, this server will never send email to notify you about events. This preference overrides all your other settings.
-    //You will still receive some administrative email, like password reset email.//' => 'Si desactivas las **Notificaciones por correo electrónico**, este servidor nunca te enviará correos electrónicos para notificarte sobre eventos. Esta preferencia anula todas tus demás configuraciones. 
-    //Seguirás recibiendo algunos correos administrativos, como el de restablecimiento de contraseña.//',
-      '%s updated her profile' => '%s actualizó su perfil',
-      'Add Contact Number' => 'Agregar número de contacto',
-      'You haven\'t added any SSH Public Keys.' => 'No has añadido ninguna clave pública de SSH.',
-      'Save Preference' => 'Guardar preferencia',
-      'Email Format' => 'Formato de correo electrónico',
-      'Edit Authentication Factor' => 'Editar factor de autenticación',
-      'You have no linked accounts.' => 'No tienes cuentas vinculadas',
-      'Active Login Sessions' => 'Sesiones de inicio de sesión activas',
-      'Edit Global Settings' => 'Editar configuración global',
-      'Delete Authentication Factor' => 'Eliminar fase de autenticación',
-      'Date Format' => 'Formato de fecha',
-      'Select the format you prefer for editing and displaying time.' => 'Seleccione el formato que prefiera para editar y mostrar la hora.',
-      'The conflict between your browser and profile timezone settings will be ignored.' => 'Se pasará por alto el conflicto entre tu navegador y la configuración de huso horario del perfil.',
-      'Terminate All Sessions' => 'Terminar todas las sesiones',
-      'Your account is linked with all available providers.' => 'Su cuenta está vinculada con todos los proveedores disponibles.',
-      'External Accounts' => 'Cuentas externas',
-      'Add External Account' => 'Añadir una cuenta externa',
-      'You haven\'t added any authentication factors to your account yet.' => 'Todavía no ha añadido ningún factor de autenticación a su cuenta.',
-      'Multi-Factor Auth' => 'Autenticación multifactor',
-      'No allowed editor protocols are configured.' => 'No se han configurado protocolos de edición permitidos.',
-      'Old Password' => 'Contraseña anterior',
-      'Display Preferences' => 'Preferencias de visualización',
-      'Add Auth Factor' => 'Agregar factor de autenticación',
-      'Changes saved.' => 'Se guardaron los cambios.',
-      'Authentication factors must have a name to identify them.' => 'Los factores de autenticación deben tener un nombre para identificarlos.',
-      'Hypertext Transfer Protocol' => 'Protocolo de transferencia de hipertexto',
-      'Choose which language you would like the UI to use.' => 'Seleccione el idioma que desea que use la interfaz de usuario.',
-      'Really delete address \'%s\'?' => '¿De verdad quieres eliminar la dirección «%s»?',
-      'Supported Protocol' => 'Protocolo compatible',
-      'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Si deshabilita las **Acciones propias**, este servidor no le notificará sobre las acciones que realice.',
-      'You must enter your current password.' => 'Debes ingresar tu contraseña actual.',
-      'The old password you entered is incorrect.' => 'La contraseña anterior que ingresaste es incorrecta.',
-      '◐ Notify' => '◐ Notificar',
-      '%s updated his profile' => '%s actualizó su perfil',
-      'Timezone Calibrated' => 'Se calibró el huso horario',
-      'Email Delivery' => 'Entrega de correo electrónico',
-      'Send Test Notification' => 'Enviar notificación de prueba',
-      'Edit settings for your personal account.' => 'Editar las configuraciones de su cuenta personal.',
-      'Use Unicode Glyphs: ⚙' => 'Utilizar caracteres de Unicode: ⚙',
-      'Silly Translations' => 'Traducciones absurdas',
-      'Send Plain Text Email' => 'Enviar correo electrónico con texto simple',
-      'Email Preferences' => 'Preferencias de correo electrónico',
-      'You don\'t have any active tokens.' => 'No tienes ningún token activo.',
-      'Send another copy of the verification email to %s?' => '¿Enviar otra copia del correo electrónico de verificación a %s ?',
-      '24 Hour, 14:34' => '24 horas, 14:34',
-      'Sublime Text' => 'Sublime Text',
-      'Disable Email Notifications' => 'Desactivar notificaciones por correo electrónico',
-      'Password Algorithms' => 'Algoritmos de contraseñas',
-      'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Su contraseña actualmente está cifrada mediante un algoritmo que ya no está disponible en esta instalación.',
-      'Translation' => 'Traducción',
-      'Time Format' => 'Formato horario',
-      'Number' => 'Número',
-      'Authentication Factors' => 'Factores de autenticación',
-      'Sunday' => 'Domingo',
-      'External Editor URI Variables' => 'Variables de URI del editor externo',
-      'Some applications use unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator utiliza caracteres de Unicode en los títulos de las páginas como una representación compacta de la aplicación actual. Si los caracteres no aparecen en tu sistema, puedes sustituirlos por texto sencillo.',
-      'User Preferences' => 'Preferencias de usuario',
-      'Friday' => 'Viernes',
-      'Timezone "%s" is not a valid timezone identifier.' => 'Zona horaria "%s" no es un identificador válido de zona horaria.',
-      'Select your local timezone.' => 'Seleccione su zona horaria local.',
-      'Click "Save Preference" to persist these changes.' => 'Haga clic en "Guardar preferencia" para conservar estos cambios.',
-      'Your browser has granted this server permission to send desktop notifications.' => 'Su navegador ha otorgado permiso a este servidor para enviar notificaciones de escritorio.',
-      'Remove Factor' => 'Quitar fase',
-      'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Actualmente, su cuenta no tiene una contraseña establecida. Puede elegir una contraseña restableciendo su contraseña.',
-      'Disabled (an administrator has disabled login for this account provider).' => 'Deshabilitado (un administrador ha deshabilitado el inicio de sesión para este proveedor de cuenta).',
-      'Send Another Verification Email?' => '¿Enviar otro correo electrónico de verificación?',
-      'Edit Settings: %s' => 'Editar configuración: %s',
-      'Account Settings' => 'Configuración de la cuenta',
-      'Supported Editor Protocols' => 'Protocolos de editor soportados',
-      'Add Authentication Factor' => 'Añadir fase de autenticación',
-      'Date and Time' => 'Fecha y hora',
-      'Save Preferences' => 'Guardar preferencias',
-      'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, some applications can generate links that you can click to open files locally.
-    Provide a URI pattern for building external editor URIs in your environment. For example, if you use TextMate on macOS, the pattern for your machine may look something like this:
-    ```name="Example: TextMate on macOS"
-    %s
-    ```
-    For complete instructions on editor configuration, see **[[ %s | %s ]]**.
-    See the tables below for a list of supported variables and protocols.' => 'Muchos editores de texto pueden configurarse como manejadores de URI para protocolos especiales como `editor://`. Si has instalado y configurado un editor de este tipo, algunas aplicaciones pueden generar enlaces en los que puedes hacer clic para abrir archivos localmente.
-    Proporciona un patrón de URI para construir URIs de editores externos en tu entorno. Por ejemplo, si usas TextMate en macOS, el patrón para tu máquina puede ser algo como esto:
-    ```name="Ejemplo: TextMate en macOS"
-    %s
-    ```
-    Para obtener instrucciones completas sobre la configuración del editor, consulta [[ %s | %s ]].
-    Consulta las tablas a continuación para ver una lista de variables y protocolos compatibles.',
-      'Sessions and Logs' => 'Sesiones y registros',
-      'Your primary email address is unverified. You will not be able to receive email until you verify it.' => 'Su dirección de correo electrónico principal no está verificada. No podrá recibir correo electrónico hasta que lo verifique.',
-      'Revoke All' => 'Revocar todo',
-      'Linked Accounts and Authentication' => 'Cuentas enlazadas y autenticación',
-      'This engine is used to edit settings.' => 'Este motor se utiliza para modificar la configuración.',
-      'Primary Email Unverified' => 'Correo electrónico principal no verificado',
-    );
+  'You haven\'t added any contact numbers to your account.' => 'No ha agregado ningún número de contacto a su cuenta.',
+  'External Editor' => 'Editor externo',
+  'Choose Factor Type' => 'Seleccione el tipo de factor',
+  'Personal Account Settings' => 'Configuración de cuenta personal',
+  'Self Actions' => 'Autoacciones',
+  'Email Notifications' => 'Notificaciones por correo electrónico',
+  'Saturday' => 'Sábado',
+  'On Small Screens' => 'En pantallas pequeñas',
+  'Enable Email Notifications' => 'Habilitar notificaciones por correo electrónico',
+  'Generic Editor' => 'Editor genérico',
+  'Edit global default settings for all users.' => 'Editar la configuración global predeterminada para todos los usuarios.',
+  'Adjust Timezone' => 'Ajustar huso horario',
+  'If you disable **Email Notifications**, this server will never send email to notify you about events. This preference overrides all your other settings.
+
+//You will still receive some administrative email, like password reset email.//' => 'Si desactivas las **Notificaciones por correo electrónico**, este servidor nunca te enviará correos electrónicos para notificarte sobre eventos. Esta preferencia anula todas tus demás configuraciones. 
+
+//Seguirás recibiendo algunos correos administrativos, como el de restablecimiento de contraseña.//',
+  '%s updated her profile' => '%s actualizó su perfil',
+  'Add Contact Number' => 'Agregar número de contacto',
+  'You haven\'t added any SSH Public Keys.' => 'No has añadido ninguna clave pública de SSH.',
+  'Save Preference' => 'Guardar preferencia',
+  'Email Format' => 'Formato de correo electrónico',
+  'Edit Authentication Factor' => 'Editar factor de autenticación',
+  'You have no linked accounts.' => 'No tienes cuentas vinculadas',
+  'Active Login Sessions' => 'Sesiones de inicio de sesión activas',
+  'Edit Global Settings' => 'Editar configuración global',
+  'Delete Authentication Factor' => 'Eliminar fase de autenticación',
+  'Date Format' => 'Formato de fecha',
+  'Select the format you prefer for editing and displaying time.' => 'Seleccione el formato que prefiera para editar y mostrar la hora.',
+  'The conflict between your browser and profile timezone settings will be ignored.' => 'Se pasará por alto el conflicto entre tu navegador y la configuración de huso horario del perfil.',
+  'Terminate All Sessions' => 'Terminar todas las sesiones',
+  'Your account is linked with all available providers.' => 'Su cuenta está vinculada con todos los proveedores disponibles.',
+  'External Accounts' => 'Cuentas externas',
+  'Add External Account' => 'Añadir una cuenta externa',
+  'You haven\'t added any authentication factors to your account yet.' => 'Todavía no ha añadido ningún factor de autenticación a su cuenta.',
+  'Multi-Factor Auth' => 'Autenticación multifactor',
+  'No allowed editor protocols are configured.' => 'No se han configurado protocolos de edición permitidos.',
+  'Old Password' => 'Contraseña anterior',
+  'Display Preferences' => 'Preferencias de visualización',
+  'Add Auth Factor' => 'Agregar factor de autenticación',
+  'Changes saved.' => 'Se guardaron los cambios.',
+  'Authentication factors must have a name to identify them.' => 'Los factores de autenticación deben tener un nombre para identificarlos.',
+  'Hypertext Transfer Protocol' => 'Protocolo de transferencia de hipertexto',
+  'Choose which language you would like the UI to use.' => 'Seleccione el idioma que desea que use la interfaz de usuario.',
+  'Really delete address \'%s\'?' => '¿De verdad quieres eliminar la dirección «%s»?',
+  'Supported Protocol' => 'Protocolo compatible',
+  'If you disable **Self Actions**, this server will not notify you about actions you take.' => 'Si deshabilita las **Acciones propias**, este servidor no le notificará sobre las acciones que realice.',
+  'You must enter your current password.' => 'Debes ingresar tu contraseña actual.',
+  'The old password you entered is incorrect.' => 'La contraseña anterior que ingresaste es incorrecta.',
+  '◐ Notify' => '◐ Notificar',
+  '%s updated his profile' => '%s actualizó su perfil',
+  'Timezone Calibrated' => 'Se calibró el huso horario',
+  'Email Delivery' => 'Entrega de correo electrónico',
+  'Send Test Notification' => 'Enviar notificación de prueba',
+  'Edit settings for your personal account.' => 'Editar las configuraciones de su cuenta personal.',
+  'Use Unicode Glyphs: ⚙' => 'Utilizar caracteres de Unicode: ⚙',
+  'Silly Translations' => 'Traducciones absurdas',
+  'Send Plain Text Email' => 'Enviar correo electrónico con texto simple',
+  'Email Preferences' => 'Preferencias de correo electrónico',
+  'You don\'t have any active tokens.' => 'No tienes ningún token activo.',
+  'Send another copy of the verification email to %s?' => '¿Enviar otra copia del correo electrónico de verificación a %s ?',
+  '24 Hour, 14:34' => '24 horas, 14:34',
+  'Sublime Text' => 'Sublime Text',
+  'Disable Email Notifications' => 'Desactivar notificaciones por correo electrónico',
+  'Password Algorithms' => 'Algoritmos de contraseñas',
+  'Your password is currently hashed using an algorithm which is no longer available on this install.' => 'Su contraseña actualmente está cifrada mediante un algoritmo que ya no está disponible en esta instalación.',
+  'Translation' => 'Traducción',
+  'Time Format' => 'Formato horario',
+  'Number' => 'Número',
+  'Authentication Factors' => 'Factores de autenticación',
+  'Sunday' => 'Domingo',
+  'External Editor URI Variables' => 'Variables de URI del editor externo',
+  'Some applications use unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator utiliza caracteres de Unicode en los títulos de las páginas como una representación compacta de la aplicación actual. Si los caracteres no aparecen en tu sistema, puedes sustituirlos por texto sencillo.',
+  'User Preferences' => 'Preferencias de usuario',
+  'Friday' => 'Viernes',
+  'Timezone "%s" is not a valid timezone identifier.' => 'Zona horaria "%s" no es un identificador válido de zona horaria.',
+  'Select your local timezone.' => 'Seleccione su zona horaria local.',
+  'Click "Save Preference" to persist these changes.' => 'Haga clic en "Guardar preferencia" para conservar estos cambios.',
+  'Your browser has granted this server permission to send desktop notifications.' => 'Su navegador ha otorgado permiso a este servidor para enviar notificaciones de escritorio.',
+  'Remove Factor' => 'Quitar fase',
+  'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Actualmente, su cuenta no tiene una contraseña establecida. Puede elegir una contraseña restableciendo su contraseña.',
+  'Disabled (an administrator has disabled login for this account provider).' => 'Deshabilitado (un administrador ha deshabilitado el inicio de sesión para este proveedor de cuenta).',
+  'Send Another Verification Email?' => '¿Enviar otro correo electrónico de verificación?',
+  'Edit Settings: %s' => 'Editar configuración: %s',
+  'Account Settings' => 'Configuración de la cuenta',
+  'Supported Editor Protocols' => 'Protocolos de editor soportados',
+  'Add Authentication Factor' => 'Añadir fase de autenticación',
+  'Date and Time' => 'Fecha y hora',
+  'Save Preferences' => 'Guardar preferencias',
+  'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, some applications can generate links that you can click to open files locally.
+
+Provide a URI pattern for building external editor URIs in your environment. For example, if you use TextMate on macOS, the pattern for your machine may look something like this:
+
+```name="Example: TextMate on macOS"
+%s
+```
+
+
+For complete instructions on editor configuration, see **[[ %s | %s ]]**.
+
+See the tables below for a list of supported variables and protocols.' => 'Muchos editores de texto pueden configurarse como manejadores de URI para protocolos especiales como `editor://`. Si has instalado y configurado un editor de este tipo, algunas aplicaciones pueden generar enlaces en los que puedes hacer clic para abrir archivos localmente.
+
+Proporciona un patrón de URI para construir URIs de editores externos en tu entorno. Por ejemplo, si usas TextMate en macOS, el patrón para tu máquina puede ser algo como esto:
+
+```name="Ejemplo: TextMate en macOS"
+%s
+```
+
+Para obtener instrucciones completas sobre la configuración del editor, consulta [[ %s | %s ]].
+
+Consulta las tablas a continuación para ver una lista de variables y protocolos compatibles.',
+  'Sessions and Logs' => 'Sesiones y registros',
+  'Your primary email address is unverified. You will not be able to receive email until you verify it.' => 'Su dirección de correo electrónico principal no está verificada. No podrá recibir correo electrónico hasta que lo verifique.',
+  'Revoke All' => 'Revocar todo',
+  'Linked Accounts and Authentication' => 'Cuentas enlazadas y autenticación',
+  'This engine is used to edit settings.' => 'Este motor se utiliza para modificar la configuración.',
+  'Primary Email Unverified' => 'Correo electrónico principal no verificado',
+);
   }
 
 }

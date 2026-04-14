@@ -9,8 +9,8 @@ final class PhabricatorSupportTr
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Destek',
-    );
+  'Support' => 'Destek',
+);
   }
 
 }

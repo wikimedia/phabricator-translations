@@ -9,9 +9,9 @@ final class PhabricatorAphlictLb
 
   protected function getTranslations() {
     return array(
-      'Send a notification to a user.' => 'Schéckt engem Benotzer eng Notifikatioun.',
-      'You must %s first!' => 'Dir musst fir d\'éischt %s!',
-    );
+  'Send a notification to a user.' => 'Schéckt engem Benotzer eng Notifikatioun.',
+  'You must %s first!' => 'Dir musst fir d\'éischt %s!',
+);
   }
 
 }

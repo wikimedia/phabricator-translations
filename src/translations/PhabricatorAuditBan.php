@@ -9,8 +9,8 @@ final class PhabricatorAuditBan
 
   protected function getTranslations() {
     return array(
-      'Welcome to Audit' => 'Rahajeng rauh ring Audit',
-    );
+  'Welcome to Audit' => 'Rahajeng rauh ring Audit',
+);
   }
 
 }

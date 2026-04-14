@@ -9,9 +9,9 @@ final class PhabricatorFeedKoKR
 
   protected function getTranslations() {
     return array(
-      'Include Projects' => '프로젝트 포함',
-      'All Transactions' => '모든 트랜잭션',
-    );
+  'Include Projects' => '프로젝트 포함',
+  'All Transactions' => '모든 트랜잭션',
+);
   }
 
 }

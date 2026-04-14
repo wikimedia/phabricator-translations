@@ -9,9 +9,9 @@ final class PhabricatorFeedMy
 
   protected function getTranslations() {
     return array(
-      'Include Projects' => 'ပရောဂျက်များ ပါဝင်သည်',
-      'Include Users' => 'အသုဲးပြုသူများ ပါဝင်သည်',
-    );
+  'Include Projects' => 'ပရောဂျက်များ ပါဝင်သည်',
+  'Include Users' => 'အသုဲးပြုသူများ ပါဝင်သည်',
+);
   }
 
 }

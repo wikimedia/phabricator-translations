@@ -9,10 +9,10 @@ final class PhabricatorConduitSe
 
   protected function getTranslations() {
     return array(
-      'JSON' => 'JSON',
-      'Errors' => 'Meattáhusat',
-      'Username.' => 'Geavaheaddjinamma.',
-    );
+  'JSON' => 'JSON',
+  'Errors' => 'Meattáhusat',
+  'Username.' => 'Geavaheaddjinamma.',
+);
   }
 
 }

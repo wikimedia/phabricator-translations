@@ -9,10 +9,10 @@ final class PhabricatorNuancePtBR
 
   protected function getTranslations() {
     return array(
-      'Edit Queue' => 'Editar fila',
-      'User %s' => 'Usuário %s',
-      'Tag %s' => 'Etiqueta %s',
-    );
+  'Edit Queue' => 'Editar fila',
+  'User %s' => 'Usuário %s',
+  'Tag %s' => 'Etiqueta %s',
+);
   }
 
 }

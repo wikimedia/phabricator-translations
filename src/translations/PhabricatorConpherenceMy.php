@@ -9,9 +9,9 @@ final class PhabricatorConpherenceMy
 
   protected function getTranslations() {
     return array(
-      'Show Newer Messages' => 'ပိုသစ်သော မက်ဆေ့များကို ပြရန်',
-      'Rooms' => 'အခန်းများ',
-    );
+  'Show Newer Messages' => 'ပိုသစ်သော မက်ဆေ့များကို ပြရန်',
+  'Rooms' => 'အခန်းများ',
+);
   }
 
 }

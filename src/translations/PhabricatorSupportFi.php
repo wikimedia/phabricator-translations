@@ -9,8 +9,8 @@ final class PhabricatorSupportFi
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Tuki',
-    );
+  'Support' => 'Tuki',
+);
   }
 
 }

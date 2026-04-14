@@ -9,8 +9,8 @@ final class PhabricatorSupportBeTarask
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Падтрымка',
-    );
+  'Support' => 'Падтрымка',
+);
   }
 
 }

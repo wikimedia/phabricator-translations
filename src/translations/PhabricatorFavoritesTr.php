@@ -9,9 +9,9 @@ final class PhabricatorFavoritesTr
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Favorileri Düzenle',
-      'Favorite Items' => 'Favori Ögeler',
-    );
+  'Edit Favorites' => 'Favorileri Düzenle',
+  'Favorite Items' => 'Favori Ögeler',
+);
   }
 
 }

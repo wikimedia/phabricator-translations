@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadSe
 
   protected function getTranslations() {
     return array(
-      'Select' => 'Vállje',
-    );
+  'Select' => 'Vállje',
+);
   }
 
 }

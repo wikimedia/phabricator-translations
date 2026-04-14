@@ -9,8 +9,8 @@ final class PhabricatorSystemHi
 
   protected function getTranslations() {
     return array(
-      'Destroying objects...' => 'वस्तुओं को नष्ट करना...',
-    );
+  'Destroying objects...' => 'वस्तुओं को नष्ट करना...',
+);
   }
 
 }

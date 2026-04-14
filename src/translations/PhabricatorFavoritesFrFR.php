@@ -9,9 +9,9 @@ final class PhabricatorFavoritesFrFR
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Modifier les favoris',
-      'Favorite Items' => 'Éléments favoris',
-    );
+  'Edit Favorites' => 'Modifier les favoris',
+  'Favorite Items' => 'Éléments favoris',
+);
   }
 
 }

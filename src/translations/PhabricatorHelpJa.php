@@ -9,10 +9,10 @@ final class PhabricatorHelpJa
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'これを含むすべてのダイアログを閉じます。',
-      '%s Help' => '%s ヘルプ',
-      'Keyboard Shortcuts' => 'キーボード ショートカット',
-    );
+  'Close any dialog, including this one.' => 'これを含むすべてのダイアログを閉じます。',
+  '%s Help' => '%s ヘルプ',
+  'Keyboard Shortcuts' => 'キーボード ショートカット',
+);
   }
 
 }

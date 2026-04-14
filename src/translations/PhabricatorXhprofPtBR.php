@@ -9,9 +9,9 @@ final class PhabricatorXhprofPtBR
 
   protected function getTranslations() {
     return array(
-      'All Samples' => 'Todas as amostras',
-      '%s Profile' => '%s Perfil',
-    );
+  'All Samples' => 'Todas as amostras',
+  '%s Profile' => '%s Perfil',
+);
   }
 
 }

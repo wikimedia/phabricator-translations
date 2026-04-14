@@ -9,8 +9,8 @@ final class PhabricatorHelpYi
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s הילף',
-    );
+  '%s Help' => '%s הילף',
+);
   }
 
 }

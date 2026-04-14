@@ -9,11 +9,11 @@ final class PhabricatorDivinerSms
 
   protected function getTranslations() {
     return array(
-      'Article' => 'Artikkel',
-      'Books' => 'Ǩeeʹrj',
-      'Find' => 'Ooʒʒ',
-      'Book' => 'Ǩeʹrjj',
-    );
+  'Article' => 'Artikkel',
+  'Books' => 'Ǩeeʹrj',
+  'Find' => 'Ooʒʒ',
+  'Book' => 'Ǩeʹrjj',
+);
   }
 
 }

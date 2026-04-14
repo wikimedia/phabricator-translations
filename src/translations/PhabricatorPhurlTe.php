@@ -9,8 +9,8 @@ final class PhabricatorPhurlTe
 
   protected function getTranslations() {
     return array(
-      'Alias' => 'మారుపేరు',
-    );
+  'Alias' => 'మారుపేరు',
+);
   }
 
 }

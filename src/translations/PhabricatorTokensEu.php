@@ -9,9 +9,9 @@ final class PhabricatorTokensEu
 
   protected function getTranslations() {
     return array(
-      'Love' => 'Maitasuna',
-      'Pirate Logo' => 'Piraten logoa',
-    );
+  'Love' => 'Maitasuna',
+  'Pirate Logo' => 'Piraten logoa',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorFactRoaTara
 
   protected function getTranslations() {
     return array(
-      'Dimension' => 'Dimenzione',
-    );
+  'Dimension' => 'Dimenzione',
+);
   }
 
 }

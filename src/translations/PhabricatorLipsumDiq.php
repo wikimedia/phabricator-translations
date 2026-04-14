@@ -9,12 +9,12 @@ final class PhabricatorLipsumDiq
 
   protected function getTranslations() {
     return array(
-      'LIPSUM' => 'LIPSUM',
-      'OOPS' => '
-    OOPS',
-      'class' => 'sınıfe',
-      'GENERATORS' => 'CENERATORİ',
-    );
+  'LIPSUM' => 'LIPSUM',
+  'OOPS' => '
+OOPS',
+  'class' => 'sınıfe',
+  'GENERATORS' => 'CENERATORİ',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorAuditSl
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'UPORABNIKI',
-      'Update all commits in all repositories.' => 'Posodobi vse izročke v vseh shrambah.',
-      'none' => 'noben',
-    );
+  'USERS' => 'UPORABNIKI',
+  'Update all commits in all repositories.' => 'Posodobi vse izročke v vseh shrambah.',
+  'none' => 'noben',
+);
   }
 
 }

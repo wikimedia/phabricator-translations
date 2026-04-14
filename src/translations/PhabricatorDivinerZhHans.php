@@ -9,9 +9,9 @@ final class PhabricatorDivinerZhHans
 
   protected function getTranslations() {
     return array(
-      'Article has no %s!' => '条目没有%s！',
-      'Return' => '返回',
-    );
+  'Article has no %s!' => '条目没有%s！',
+  'Return' => '返回',
+);
   }
 
 }

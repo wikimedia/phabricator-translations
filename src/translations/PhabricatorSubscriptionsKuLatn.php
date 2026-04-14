@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsKuLatn
 
   protected function getTranslations() {
     return array(
-      '%d other(s)' => '%s yê(n) din',
-    );
+  '%d other(s)' => '%d yê(n) din',
+);
   }
 
 }

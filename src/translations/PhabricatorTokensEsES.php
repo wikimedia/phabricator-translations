@@ -9,13 +9,13 @@ final class PhabricatorTokensEsES
 
   protected function getTranslations() {
     return array(
-      'Piece of Eight' => 'Real de a ocho',
-      'Manufacturing Defect?' => '¿Defecto de fabricación?',
-      'Doubloon' => 'Doblón',
-      'Baby Tequila' => 'Agave bebé',
-      'Pirate Logo' => 'Logo pirata',
-      'Pterodactyl' => 'Pterodáctilo',
-    );
+  'Piece of Eight' => 'Real de a ocho',
+  'Manufacturing Defect?' => '¿Defecto de fabricación?',
+  'Doubloon' => 'Doblón',
+  'Baby Tequila' => 'Agave bebé',
+  'Pirate Logo' => 'Logo pirata',
+  'Pterodactyl' => 'Pterodáctilo',
+);
   }
 
 }

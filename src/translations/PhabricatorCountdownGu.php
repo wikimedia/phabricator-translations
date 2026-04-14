@@ -9,10 +9,10 @@ final class PhabricatorCountdownGu
 
   protected function getTranslations() {
     return array(
-      'Minutes' => 'મિનિટો',
-      'Hours' => 'કલાકો',
-      'Days' => 'દિવસો',
-    );
+  'Minutes' => 'મિનિટો',
+  'Hours' => 'કલાકો',
+  'Days' => 'દિવસો',
+);
   }
 
 }

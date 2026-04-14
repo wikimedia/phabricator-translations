@@ -9,11 +9,11 @@ final class PhabricatorTypeaheadEsES
 
   protected function getTranslations() {
     return array(
-      'Typeahead' => 'Compleción de escritura anticipada',
-      'Reference: Advanced Functions' => 'Referencia: funciones avanzadas',
-      'Image URI' => 'URI de imagen',
-      'This source is not usable directly.' => 'No se puede utilizar esta fuente directamente.',
-    );
+  'Typeahead' => 'Compleción de escritura anticipada',
+  'Reference: Advanced Functions' => 'Referencia: funciones avanzadas',
+  'Image URI' => 'URI de imagen',
+  'This source is not usable directly.' => 'No se puede utilizar esta fuente directamente.',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorHomeAst
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Centru de mandu',
-      'More Applications' => 'Más aplicaciones',
-      'Built-in Homepage' => 'Páxina d\'aniciu integrada',
-    );
+  'Command Center' => 'Centru de mandu',
+  'More Applications' => 'Más aplicaciones',
+  'Built-in Homepage' => 'Páxina d\'aniciu integrada',
+);
   }
 
 }

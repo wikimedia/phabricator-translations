@@ -9,10 +9,10 @@ final class PhabricatorHomeSv
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Kommandocentral',
-      'More Applications' => 'Fler applikationer',
-      'Built-in Homepage' => 'Inbyggd hemsida',
-    );
+  'Command Center' => 'Kommandocentral',
+  'More Applications' => 'Fler applikationer',
+  'Built-in Homepage' => 'Inbyggd hemsida',
+);
   }
 
 }

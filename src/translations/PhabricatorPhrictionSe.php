@@ -9,9 +9,9 @@ final class PhabricatorPhrictionSe
 
   protected function getTranslations() {
     return array(
-      'Version %d' => 'Veršuvdna %s',
-      'Welcome' => 'Bures boahtin',
-    );
+  'Version %d' => 'Veršuvdna %d',
+  'Welcome' => 'Bures boahtin',
+);
   }
 
 }

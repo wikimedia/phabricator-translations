@@ -9,11 +9,11 @@ final class PhabricatorAlmanacYi
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'נאָמענטייל',
-      'Namespace %d' => 'נאָמענטייל %s',
-      'Namespace %s' => 'נאָמענטייל %s',
-      'Namespaces' => 'נאָמענטיילן',
-    );
+  'Namespace' => 'נאָמענטייל',
+  'Namespace %d' => 'נאָמענטייל %d',
+  'Namespace %s' => 'נאָמענטייל %s',
+  'Namespaces' => 'נאָמענטיילן',
+);
   }
 
 }

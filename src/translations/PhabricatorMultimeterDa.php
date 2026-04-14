@@ -9,16 +9,16 @@ final class PhabricatorMultimeterDa
 
   protected function getTranslations() {
     return array(
-      'Samples' => 'Eksempler',
-      'Subprocesses' => 'Underprocesser',
-      '(All)' => '(Alle)',
-      'By ID' => 'Efter ID',
-      '%s Unit(s)' => '%s enhed(er)',
-      'By Context' => 'Efter kontekst',
-      'By Label' => 'Efter etiket',
-      'Multimeter' => 'Multimeter',
-      'Static Resource' => 'Statisk ressource',
-    );
+  'Samples' => 'Eksempler',
+  'Subprocesses' => 'Underprocesser',
+  '(All)' => '(Alle)',
+  'By ID' => 'Efter ID',
+  '%s Unit(s)' => '%s enhed(er)',
+  'By Context' => 'Efter kontekst',
+  'By Label' => 'Efter etiket',
+  'Multimeter' => 'Multimeter',
+  'Static Resource' => 'Statisk ressource',
+);
   }
 
 }

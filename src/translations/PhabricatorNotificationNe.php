@@ -9,8 +9,8 @@ final class PhabricatorNotificationNe
 
   protected function getTranslations() {
     return array(
-      'Mark All Read' => 'सबैलाई पढिएकाे रूपमा चिनाे लगाउनुहाेस्',
-    );
+  'Mark All Read' => 'सबैलाई पढिएकाे रूपमा चिनाे लगाउनुहाेस्',
+);
   }
 
 }

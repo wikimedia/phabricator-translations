@@ -9,10 +9,10 @@ final class PhabricatorHelpEnGB
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Close any dialog, including this one.',
-      '%s Help' => '%s Help',
-      'Keyboard Shortcuts' => 'Keyboard Shortcuts',
-    );
+  'Close any dialog, including this one.' => 'Close any dialog, including this one.',
+  '%s Help' => '%s Help',
+  'Keyboard Shortcuts' => 'Keyboard Shortcuts',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorPackagesKoKR
 
   protected function getTranslations() {
     return array(
-      'Package Key' => '패키지 키',
-      'Read information about versions.' => '버전에 관한 정보를 읽습니다.',
-      'All Versions' => '모든 버전',
-    );
+  'Package Key' => '패키지 키',
+  'Read information about versions.' => '버전에 관한 정보를 읽습니다.',
+  'All Versions' => '모든 버전',
+);
   }
 
 }

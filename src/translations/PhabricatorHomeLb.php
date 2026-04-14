@@ -9,10 +9,10 @@ final class PhabricatorHomeLb
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Kommandozenter',
-      'More Applications' => 'Méi Applikatiounen',
-      'Built-in Homepage' => 'Integréiert Homepage',
-    );
+  'Command Center' => 'Kommandozenter',
+  'More Applications' => 'Méi Applikatiounen',
+  'Built-in Homepage' => 'Integréiert Homepage',
+);
   }
 
 }

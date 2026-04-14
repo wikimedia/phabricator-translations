@@ -9,9 +9,9 @@ final class PhabricatorPholioSms
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'Kååʹmet',
-      'Image "%s":' => 'Kartt "%s":',
-    );
+  'Undo' => 'Kååʹmet',
+  'Image "%s":' => 'Kartt "%s":',
+);
   }
 
 }

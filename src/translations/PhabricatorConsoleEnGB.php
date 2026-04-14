@@ -9,9 +9,9 @@ final class PhabricatorConsoleEnGB
 
   protected function getTranslations() {
     return array(
-      'Analyze Query Plans' => 'Analyse Query Plans',
-      'Can\'t Analyze' => 'Can\'t Analyse',
-    );
+  'Analyze Query Plans' => 'Analyse Query Plans',
+  'Can\'t Analyze' => 'Can\'t Analyse',
+);
   }
 
 }

@@ -9,13 +9,13 @@ final class PhabricatorTokensBr
 
   protected function getTranslations() {
     return array(
-      'Grey Medal' => 'Medalenn griz',
-      'Love' => 'Karantez',
-      'Barnstar' => 'Barnstar',
-      'Baby Tequila' => 'Baby Tequila',
-      'Cookie' => 'Gwispidenn',
-      'Pirate Logo' => 'Logo Morlaer',
-    );
+  'Grey Medal' => 'Medalenn griz',
+  'Love' => 'Karantez',
+  'Barnstar' => 'Barnstar',
+  'Baby Tequila' => 'Baby Tequila',
+  'Cookie' => 'Gwispidenn',
+  'Pirate Logo' => 'Logo Morlaer',
+);
   }
 
 }

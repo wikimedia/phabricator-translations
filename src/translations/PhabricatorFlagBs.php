@@ -9,9 +9,9 @@ final class PhabricatorFlagBs
 
   protected function getTranslations() {
     return array(
-      'Purple' => 'Purpurna',
-      'Flag Color' => 'Boja zastave',
-    );
+  'Purple' => 'Purpurna',
+  'Flag Color' => 'Boja zastave',
+);
   }
 
 }

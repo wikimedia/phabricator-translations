@@ -9,8 +9,8 @@ final class PhabricatorAuditKy
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'КОЛДОНУУЧУЛАР',
-    );
+  'USERS' => 'КОЛДОНУУЧУЛАР',
+);
   }
 
 }

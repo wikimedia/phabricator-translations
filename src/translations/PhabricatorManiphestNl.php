@@ -9,22 +9,22 @@ final class PhabricatorManiphestNl
 
   protected function getTranslations() {
     return array(
-      'Create Task' => 'Maak taak aan',
-      'Triage' => 'Triage',
-      'Priority of the task.' => 'Prioriteit van de taak.',
-      'Weigh In' => 'Geef je mening',
-      'Task Fields' => 'Taakvelden',
-      'Assignee' => 'Toegewezen aan',
-      '%s closed %s as %s.' => '%s heeft %s gesloten als %s.',
-      'Unblock' => 'Deblokkeren',
-      'Closer' => 'Sluiter',
-      'Set priority to' => 'Voorrang instellen op',
-      'Closed Before' => 'Gesloten vóór',
-      'Priority Name' => 'Voorrangsnaam',
-      'Set title to' => 'Titel instellen op',
-      'Task Owner' => 'Taakeigenaar',
-      'Closed By' => 'Gesloten door',
-    );
+  'Create Task' => 'Maak taak aan',
+  'Triage' => 'Triage',
+  'Priority of the task.' => 'Prioriteit van de taak.',
+  'Weigh In' => 'Geef je mening',
+  'Task Fields' => 'Taakvelden',
+  'Assignee' => 'Toegewezen aan',
+  '%s closed %s as %s.' => '%s heeft %s gesloten als %s.',
+  'Unblock' => 'Deblokkeren',
+  'Closer' => 'Sluiter',
+  'Set priority to' => 'Voorrang instellen op',
+  'Closed Before' => 'Gesloten vóór',
+  'Priority Name' => 'Voorrangsnaam',
+  'Set title to' => 'Titel instellen op',
+  'Task Owner' => 'Taakeigenaar',
+  'Closed By' => 'Gesloten door',
+);
   }
 
 }

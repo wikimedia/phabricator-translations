@@ -9,10 +9,10 @@ final class PhabricatorHomeZhHant
 
   protected function getTranslations() {
     return array(
-      'Command Center' => '命令中心',
-      'More Applications' => '更多應用程式',
-      'Built-in Homepage' => '內建首頁',
-    );
+  'Command Center' => '命令中心',
+  'More Applications' => '更多應用程式',
+  'Built-in Homepage' => '內建首頁',
+);
   }
 
 }

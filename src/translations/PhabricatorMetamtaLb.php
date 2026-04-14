@@ -9,17 +9,17 @@ final class PhabricatorMetamtaLb
 
   protected function getTranslations() {
     return array(
-      'ID: %d' => 'ID: %s',
-      'Emails' => 'E-Mailen',
-      'View Object' => 'Objet weisen',
-      'Reserved' => 'Reservéiert',
-      'Status: %s' => 'Status: %s',
-      'Delete Address' => 'Adress läschen',
-      'Attached Files' => 'Ugehaangene Fichier',
-      'No Address' => 'Keng Adress',
-      'STAMPS' => 'Timberen',
-      '#' => '#',
-    );
+  'ID: %d' => 'ID: %d',
+  'Emails' => 'E-Mailen',
+  'View Object' => 'Objet weisen',
+  'Reserved' => 'Reservéiert',
+  'Status: %s' => 'Status: %s',
+  'Delete Address' => 'Adress läschen',
+  'Attached Files' => 'Ugehaangene Fichier',
+  'No Address' => 'Keng Adress',
+  'STAMPS' => 'Timberen',
+  '#' => '#',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorPhrictionSv
 
   protected function getTranslations() {
     return array(
-      'Unknown document status \'%s\'!' => '"%s" är en okänd dokumentstatus!',
-      'Welcome to Phriction' => 'Välkommen till Phriction',
-      '%s moved %s to %s.' => '%s flyttade %s till %s.',
-    );
+  'Unknown document status \'%s\'!' => '"%s" är en okänd dokumentstatus!',
+  'Welcome to Phriction' => 'Välkommen till Phriction',
+  '%s moved %s to %s.' => '%s flyttade %s till %s.',
+);
   }
 
 }

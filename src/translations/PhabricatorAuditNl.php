@@ -9,9 +9,9 @@ final class PhabricatorAuditNl
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'GEBRUIKERS',
-      'none' => 'geen',
-    );
+  'USERS' => 'GEBRUIKERS',
+  'none' => 'geen',
+);
   }
 
 }

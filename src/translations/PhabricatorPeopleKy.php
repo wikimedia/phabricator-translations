@@ -9,13 +9,14 @@ final class PhabricatorPeopleKy
 
   protected function getTranslations() {
     return array(
-      'Bot' => 'Бот',
-      'Usernames' => 'Колдонуучунун аты',
-      'Bots' => 'Боттор',
-      'users' => 'колдонуучулар',
-      'emails' => 'электрондук почталар',
-      'Log Out %s' => '%s аккаунтунан чыгуу',
-    );
+  'Bot' => 'Бот',
+  'Usernames' => 'Колдонуучунун аты',
+  'Bots' => 'Боттор',
+  'users' => 'колдонуучулар',
+  'emails' => 'электрондук почталар',
+  'message' => 'билдирме',
+  'Log Out %s' => '%s аккаунтунан чыгуу',
+);
   }
 
 }

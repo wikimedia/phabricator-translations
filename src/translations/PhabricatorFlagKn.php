@@ -9,8 +9,8 @@ final class PhabricatorFlagKn
 
   protected function getTranslations() {
     return array(
-      'Purple' => 'ನೇರಳೆ',
-    );
+  'Purple' => 'ನೇರಳೆ',
+);
   }
 
 }

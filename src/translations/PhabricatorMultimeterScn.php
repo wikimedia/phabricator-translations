@@ -9,9 +9,9 @@ final class PhabricatorMultimeterScn
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(Tuttu)',
-      'By ID' => 'Pi ID',
-    );
+  '(All)' => '(Tuttu)',
+  'By ID' => 'Pi ID',
+);
   }
 
 }

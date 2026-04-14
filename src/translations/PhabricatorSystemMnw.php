@@ -9,8 +9,8 @@ final class PhabricatorSystemMnw
 
   protected function getTranslations() {
     return array(
-      '%d / second' => '%s / သိတ်ကိန်',
-    );
+  '%d / second' => '%d / သိတ်ကိန်',
+);
   }
 
 }

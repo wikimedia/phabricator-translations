@@ -9,9 +9,9 @@ final class TranslatewikiCoreSl
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'NOBEN',
-      'Done.' => 'Opravljeno.',
-    );
+  'NONE' => 'NOBEN',
+  'Done.' => 'Opravljeno.',
+);
   }
 
 }

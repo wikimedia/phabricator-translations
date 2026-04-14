@@ -9,13 +9,13 @@ final class PhabricatorPhortuneTe
 
   protected function getTranslations() {
     return array(
-      'Accounts' => 'ఖాతాలు',
-      'Account name.' => 'ఖాతా పేరు.',
-      'Payments' => 'చెల్లింపులు',
-      'Payment Methods' => 'చెల్లింపు పద్ధతులు',
-      'Receipts' => 'రశీదులు',
-      'Account Name' => 'ఖాతా పేరు',
-    );
+  'Accounts' => 'ఖాతాలు',
+  'Account name.' => 'ఖాతా పేరు.',
+  'Payments' => 'చెల్లింపులు',
+  'Payment Methods' => 'చెల్లింపు పద్ధతులు',
+  'Receipts' => 'రశీదులు',
+  'Account Name' => 'ఖాతా పేరు',
+);
   }
 
 }

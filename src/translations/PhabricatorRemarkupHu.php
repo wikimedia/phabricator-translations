@@ -9,8 +9,8 @@ final class PhabricatorRemarkupHu
 
   protected function getTranslations() {
     return array(
-      'Content may not be empty.' => 'A tartalom lehet, hogy nem üres.',
-    );
+  'Content may not be empty.' => 'A tartalom lehet, hogy nem üres.',
+);
   }
 
 }

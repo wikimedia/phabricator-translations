@@ -9,9 +9,9 @@ final class PhabricatorDivinerCsCZ
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Knihy',
-      'Book' => 'Kniha',
-    );
+  'Books' => 'Knihy',
+  'Book' => 'Kniha',
+);
   }
 
 }

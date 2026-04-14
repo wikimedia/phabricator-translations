@@ -9,9 +9,9 @@ final class PhabricatorCelerityRoaTara
 
   protected function getTranslations() {
     return array(
-      'Use Standard Colors' => 'Ause le Culure Stàndàrd',
-      'Celerity' => 'Velocità',
-    );
+  'Use Standard Colors' => 'Ause le Culure Stàndàrd',
+  'Celerity' => 'Velocità',
+);
   }
 
 }

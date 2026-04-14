@@ -9,11 +9,11 @@ final class PhabricatorSubscriptionsFi
 
   protected function getTranslations() {
     return array(
-      'All %d subscribers removed by %s' => 'Kaikki %s tilaajaa poisti %s',
-      'Removed %s subscriber(s): %s.' => 'Poistettiin %s tilaaja(a): %s.',
-      'All %d subscribers added by %s' => 'Kaikki %s tilaajaa lisäsi %s',
-      'Mute Notifications' => 'Hiljennä ilmoitukset',
-    );
+  'All %d subscribers removed by %s' => 'Kaikki %d tilaajaa poisti %s',
+  'Removed %s subscriber(s): %s.' => 'Poistettiin %s tilaaja(a): %s.',
+  'All %d subscribers added by %s' => 'Kaikki %d tilaajaa lisäsi %s',
+  'Mute Notifications' => 'Hiljennä ilmoitukset',
+);
   }
 
 }

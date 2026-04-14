@@ -9,10 +9,10 @@ final class PhabricatorHomeFi
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Komentokeskus',
-      'More Applications' => 'Lisää sovelluksia',
-      'Built-in Homepage' => 'Sisäänrakennettu kotisivu',
-    );
+  'Command Center' => 'Komentokeskus',
+  'More Applications' => 'Lisää sovelluksia',
+  'Built-in Homepage' => 'Sisäänrakennettu kotisivu',
+);
   }
 
 }

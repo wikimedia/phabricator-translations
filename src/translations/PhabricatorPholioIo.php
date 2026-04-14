@@ -9,9 +9,9 @@ final class PhabricatorPholioIo
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'Desfacar',
-      'Image "%s":' => 'Imajo "%s":',
-    );
+  'Undo' => 'Desfacar',
+  'Image "%s":' => 'Imajo "%s":',
+);
   }
 
 }

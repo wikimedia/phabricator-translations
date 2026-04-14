@@ -9,8 +9,8 @@ final class PhabricatorPhurlFi
 
   protected function getTranslations() {
     return array(
-      'New URL.' => 'Uusi URL.',
-    );
+  'New URL.' => 'Uusi URL.',
+);
   }
 
 }

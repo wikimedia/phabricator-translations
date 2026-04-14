@@ -9,13 +9,13 @@ final class PhabricatorextCoreEo
 
   protected function getTranslations() {
     return array(
-      'Allow' => 'Permesi',
-      'Deny' => 'Malaprobi',
-      'Invalid' => 'Nevalida',
-      'Unknown' => 'Nekonata',
-      'Required' => 'Deviga',
-      'Abandoned' => 'Forlasita',
-    );
+  'Allow' => 'Permesi',
+  'Deny' => 'Malaprobi',
+  'Invalid' => 'Nevalida',
+  'Unknown' => 'Nekonata',
+  'Required' => 'Deviga',
+  'Abandoned' => 'Forlasita',
+);
   }
 
 }

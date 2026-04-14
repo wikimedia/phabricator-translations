@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteEu
 
   protected function getTranslations() {
     return array(
-      'Create a Poll' => 'Inkesta bat sortu',
-    );
+  'Create a Poll' => 'Inkesta bat sortu',
+);
   }
 
 }

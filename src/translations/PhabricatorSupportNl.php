@@ -9,8 +9,8 @@ final class PhabricatorSupportNl
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Ondersteuning',
-    );
+  'Support' => 'Ondersteuning',
+);
   }
 
 }

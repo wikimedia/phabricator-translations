@@ -9,12 +9,12 @@ final class PhabricatorPeopleRu
 
   protected function getTranslations() {
     return array(
-      'Bot' => 'Бот',
-      'Bots' => 'Боты',
-      'Type a username...' => 'Введите имя пользователя...',
-      'Edit Settings' => 'Изменить настройки',
-      'Edit Profile' => 'Редактировать профиль',
-    );
+  'Bot' => 'Бот',
+  'Bots' => 'Боты',
+  'Type a username...' => 'Введите имя пользователя...',
+  'Edit Settings' => 'Изменить настройки',
+  'Edit Profile' => 'Редактировать профиль',
+);
   }
 
 }

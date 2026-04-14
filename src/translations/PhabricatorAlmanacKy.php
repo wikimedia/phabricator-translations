@@ -9,11 +9,11 @@ final class PhabricatorAlmanacKy
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'Аталыш мейкиндиги',
-      'Namespace %d' => '%s аталыш мейкиндиги',
-      'Namespace %s' => '%s аталыш мейкиндиги',
-      'Namespaces' => 'Аталыш мейкиндиктери',
-    );
+  'Namespace' => 'Аталыш мейкиндиги',
+  'Namespace %d' => '%d аталыш мейкиндиги',
+  'Namespace %s' => '%s аталыш мейкиндиги',
+  'Namespaces' => 'Аталыш мейкиндиктери',
+);
   }
 
 }

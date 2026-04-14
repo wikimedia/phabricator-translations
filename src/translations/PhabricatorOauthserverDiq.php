@@ -9,10 +9,10 @@ final class PhabricatorOauthserverDiq
 
   protected function getTranslations() {
     return array(
-      'Server Error' => 'Xetay Serveri',
-      'Client PHID' => 'Mışteriyê PHID',
-      'Scope' => 'İhtiwa',
-    );
+  'Server Error' => 'Xetay Serveri',
+  'Client PHID' => 'Mışteriyê PHID',
+  'Scope' => 'İhtiwa',
+);
   }
 
 }

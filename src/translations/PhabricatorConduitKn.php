@@ -9,11 +9,11 @@ final class PhabricatorConduitKn
 
   protected function getTranslations() {
     return array(
-      'My Calls' => 'ನನ್ನ ಕರೆಗಳು',
-      'Call' => 'ಕರೆ',
-      'Errors' => 'ದೋಷಗಳು',
-      'Username.' => 'ಬಳಕೆದಾರರ ಹೆಸರು.',
-    );
+  'My Calls' => 'ನನ್ನ ಕರೆಗಳು',
+  'Call' => 'ಕರೆ',
+  'Errors' => 'ದೋಷಗಳು',
+  'Username.' => 'ಬಳಕೆದಾರರ ಹೆಸರು.',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorFavoritesEl
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Επεξεργασία αγαπημένων',
-      'Favorite Items' => 'Αγαπημένα αντικείμενα',
-    );
+  'Edit Favorites' => 'Επεξεργασία αγαπημένων',
+  'Favorite Items' => 'Αγαπημένα αντικείμενα',
+);
   }
 
 }

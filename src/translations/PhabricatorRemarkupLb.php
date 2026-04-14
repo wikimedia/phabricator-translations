@@ -9,8 +9,8 @@ final class PhabricatorRemarkupLb
 
   protected function getTranslations() {
     return array(
-      'Content may not be empty.' => 'Den Inhalt däerf net eidel sinn.',
-    );
+  'Content may not be empty.' => 'Den Inhalt däerf net eidel sinn.',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorCountdownSms
 
   protected function getTranslations() {
     return array(
-      'New description.' => 'Ođđ deskriptt.',
-    );
+  'New description.' => 'Ođđ deskriptt.',
+);
   }
 
 }

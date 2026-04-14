@@ -9,19 +9,19 @@ final class PhabricatorDifferentialDiq
 
   protected function getTranslations() {
     return array(
-      'Base' => 'Base',
-      ', ...' => ', ...',
-      '%s] [%s' => '%s] [%s',
-      'TEST PLAN' => 'TEST PLAN',
-      'Lint Errors' => 'Xeteyê linti',
-      'Tree' => 'Dare',
-      'In Asana' => 'Asana de',
-      'Onto Branch' => 'Lızgeyi sero',
-      'Plan Changes' => 'Vurriyayışan plan ke',
-      'Removed file content' => 'Zerrekê dosya dariya we',
-      '(Empty.)' => '(Veng.)',
-      'Unit' => 'Unita',
-    );
+  'Base' => 'Base',
+  ', ...' => ', ...',
+  '%s] [%s' => '%s] [%s',
+  'TEST PLAN' => 'TEST PLAN',
+  'Lint Errors' => 'Xeteyê linti',
+  'Tree' => 'Dare',
+  'In Asana' => 'Asana de',
+  'Onto Branch' => 'Lızgeyi sero',
+  'Plan Changes' => 'Vurriyayışan plan ke',
+  'Removed file content' => 'Zerrekê dosya dariya we',
+  '(Empty.)' => '(Veng.)',
+  'Unit' => 'Unita',
+);
   }
 
 }

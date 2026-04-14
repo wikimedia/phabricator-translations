@@ -9,9 +9,9 @@ final class PhabricatorTypeaheadSms
 
   protected function getTranslations() {
     return array(
-      'Invalid Parameters' => 'Vââǥǥlaž paramettar',
-      'Select' => 'Vaʹlljed',
-    );
+  'Invalid Parameters' => 'Vââǥǥlaž paramettar',
+  'Select' => 'Vaʹlljed',
+);
   }
 
 }

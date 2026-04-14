@@ -9,9 +9,9 @@ final class PhabricatorRemarkupEnGB
 
   protected function getTranslations() {
     return array(
-      'Invalid markup engine.' => 'Invalid markup engine.',
-      'Content may not be empty.' => 'Content may not be empty.',
-    );
+  'Invalid markup engine.' => 'Invalid markup engine.',
+  'Content may not be empty.' => 'Content may not be empty.',
+);
   }
 
 }

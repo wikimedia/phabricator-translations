@@ -9,10 +9,10 @@ final class PhabricatorHomeRoaTara
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Cendre de Comande',
-      'More Applications' => 'cchiù applicaziune',
-      'Built-in Homepage' => 'Pàgena Prengepàle preimbostate',
-    );
+  'Command Center' => 'Cendre de Comande',
+  'More Applications' => 'cchiù applicaziune',
+  'Built-in Homepage' => 'Pàgena Prengepàle preimbostate',
+);
   }
 
 }

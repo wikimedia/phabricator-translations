@@ -9,9 +9,9 @@ final class PhabricatorDivinerHy
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Գրքեր',
-      'Book' => 'Գիրք',
-    );
+  'Books' => 'Գրքեր',
+  'Book' => 'Գիրք',
+);
   }
 
 }

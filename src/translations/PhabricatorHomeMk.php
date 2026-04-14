@@ -9,10 +9,10 @@ final class PhabricatorHomeMk
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Наредбен центар',
-      'More Applications' => 'Уште прилози',
-      'Built-in Homepage' => 'Вградена почетна страница',
-    );
+  'Command Center' => 'Наредбен центар',
+  'More Applications' => 'Уште прилози',
+  'Built-in Homepage' => 'Вградена почетна страница',
+);
   }
 
 }

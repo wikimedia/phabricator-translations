@@ -9,8 +9,8 @@ final class PhabricatorPholioId
 
   protected function getTranslations() {
     return array(
-      'Image "%s":' => 'Gambar "%s":',
-    );
+  'Image "%s":' => 'Gambar "%s":',
+);
   }
 
 }

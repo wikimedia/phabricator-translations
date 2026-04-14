@@ -9,10 +9,10 @@ final class PhabricatorConsoleId
 
   protected function getTranslations() {
     return array(
-      'Realtime' => 'Waktu nyata',
-      'Machine' => 'Mesin',
-      'STOPPED' => 'TERHENTI',
-    );
+  'Realtime' => 'Waktu nyata',
+  'Machine' => 'Mesin',
+  'STOPPED' => 'TERHENTI',
+);
   }
 
 }

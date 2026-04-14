@@ -9,10 +9,10 @@ final class PhabricatorHomeTh
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'ศูนย์ควบคุมคำสั่ง',
-      'More Applications' => 'แอพลิเคชันเพิ่มเติม',
-      'Built-in Homepage' => 'หน้าหลักที่มีให้',
-    );
+  'Command Center' => 'ศูนย์ควบคุมคำสั่ง',
+  'More Applications' => 'แอพลิเคชันเพิ่มเติม',
+  'Built-in Homepage' => 'หน้าหลักที่มีให้',
+);
   }
 
 }

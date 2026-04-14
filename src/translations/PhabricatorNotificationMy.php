@@ -9,10 +9,10 @@ final class PhabricatorNotificationMy
 
   protected function getTranslations() {
     return array(
-      'Unread' => 'မဖတ်ရသေး',
-      'All Notifications' => 'အသိပေးချက်များ အားလုံး',
-      'Connecting...' => 'ချိတ်ဆက်နေသည်...',
-    );
+  'Unread' => 'မဖတ်ရသေး',
+  'All Notifications' => 'အသိပေးချက်များ အားလုံး',
+  'Connecting...' => 'ချိတ်ဆက်နေသည်...',
+);
   }
 
 }

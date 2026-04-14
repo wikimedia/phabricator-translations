@@ -9,11 +9,11 @@ final class PhabricatorDrydockJa
 
   protected function getTranslations() {
     return array(
-      'Show Details' => '詳細を表示',
-      'Type a resource name...' => 'リソース名を入力...',
-      'Host (%s)' => 'ホスト (%s)',
-      '<Unknown>' => '<不明>',
-    );
+  'Show Details' => '詳細を表示',
+  'Type a resource name...' => 'リソース名を入力...',
+  'Host (%s)' => 'ホスト (%s)',
+  '<Unknown>' => '<不明>',
+);
   }
 
 }

@@ -9,14 +9,14 @@ final class PhabricatorUiexampleSms
 
   protected function getTranslations() {
     return array(
-      'Images' => 'Kaart da snimldõõǥǥ',
-      'Color \'%s\'' => 'Euʹnn \'%s\'',
-      'Confirmed your account.' => 'Õõʹnnitobdldõk lij nâânääm.',
-      'Lists' => 'Liist',
-      'Wikipedia' => 'Wikipedia',
-      'Warning' => 'Vaartõs',
-      'Contributor' => 'Vuässõõtti',
-    );
+  'Images' => 'Kaart da snimldõõǥǥ',
+  'Color \'%s\'' => 'Euʹnn \'%s\'',
+  'Confirmed your account.' => 'Õõʹnnitobdldõk lij nâânääm.',
+  'Lists' => 'Liist',
+  'Wikipedia' => 'Wikipedia',
+  'Warning' => 'Vaartõs',
+  'Contributor' => 'Vuässõõtti',
+);
   }
 
 }

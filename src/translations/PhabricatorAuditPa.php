@@ -9,9 +9,9 @@ final class PhabricatorAuditPa
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'ਵਰਤੋਂਕਾਰ',
-      'Welcome to Audit' => 'ਆਡਿਟ ਉੱਤੇ ਜੀ ਆਇਆਂ ਨੂੰ',
-    );
+  'USERS' => 'ਵਰਤੋਂਕਾਰ',
+  'Welcome to Audit' => 'ਆਡਿਟ ਉੱਤੇ ਜੀ ਆਇਆਂ ਨੂੰ',
+);
   }
 
 }

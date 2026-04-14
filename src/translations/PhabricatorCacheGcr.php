@@ -9,8 +9,8 @@ final class PhabricatorCacheGcr
 
   protected function getTranslations() {
     return array(
-      'Purge all caches.' => 'Prijé tout kach-ya.',
-    );
+  'Purge all caches.' => 'Prijé tout kach-ya.',
+);
   }
 
 }

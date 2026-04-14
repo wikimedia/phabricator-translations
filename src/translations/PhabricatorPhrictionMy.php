@@ -9,9 +9,9 @@ final class PhabricatorPhrictionMy
 
   protected function getTranslations() {
     return array(
-      'More...' => 'ပို၍...',
-      'Content' => 'မာတိကာ',
-    );
+  'More...' => 'ပို၍...',
+  'Content' => 'မာတိကာ',
+);
   }
 
 }

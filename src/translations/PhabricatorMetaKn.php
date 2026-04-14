@@ -9,8 +9,8 @@ final class PhabricatorMetaKn
 
   protected function getTranslations() {
     return array(
-      'Information' => 'ಮಾಹಿತಿ',
-    );
+  'Information' => 'ಮಾಹಿತಿ',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorBaseSl
 
   protected function getTranslations() {
     return array(
-      'Developer Tools' => 'Orodja za razvijalce',
-    );
+  'Developer Tools' => 'Orodja za razvijalce',
+);
   }
 
 }

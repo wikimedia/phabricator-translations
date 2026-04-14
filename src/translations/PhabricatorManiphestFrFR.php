@@ -9,838 +9,949 @@ final class PhabricatorManiphestFrFR
 
   protected function getTranslations() {
     return array(
-      'Create Task' => 'Créer une tâche',
-      'Burnup Rate' => 'Taux d’adéquation',
-      'Triage' => 'Triage',
-      'Define task subtypes.' => 'Définir les sous-types de tâches.',
-      '%s removed %s as the assignee of this task.' => '%s a retiré l’assignation de %s à cette tâche.',
-      'Priority of the task.' => 'Priorité de la tâche',
-      'Weigh In' => 'Peser dedans',
-      'Task Fields' => 'Champs de la tâche',
-      'Assignee' => 'Affecté à',
-      'Open Parents' => 'Ouvrir les parents',
-      'Update an existing Maniphest task.' => 'Met à jour une tâche existante de Maniphest.',
-      'List of columns to move the task to.' => 'Liste des colonnes où la tâche doit être déplacée.',
-      'A task\'s subscribers change.' => 'Un changement des abonnées à la tâche.',
-      'Change Points' => 'Modifier les points',
-      'Returns information about the possible statuses for Maniphest tasks.' => 'Fournit des informations sur les états possibles des tâches Maniphest.',
-      '%s closed %s as %s.' => '%s a fermé %s en tant que %s.',
-      'This task has been locked.' => 'Cette tâche a été verrouillée.',
-      '%s added %s commit(s) to %s: %s.' => '%s a ajouté %s validation(s) à %s : %s.',
-      'Edits Locked' => 'Modifications verrouillées',
-      '%s claimed %s.' => '%s a réclamé %s.',
-      'TASK DETAIL' => 'DÉTAIL DE LA TÂCHE',
-      '%s closed this task as a duplicate by committing %s.' => '%s a fermé cette tâche comme doublon en validant %s.',
-      'Search Subtasks' => 'Rechercher les sous-tâches',
-      'Merged' => 'Fusionné',
-      'Closed after %s' => 'Fermé après %s',
-      'Changed Task Priority' => 'Priorité de la tâche modifiée',
-      'Retrieve Maniphest task transactions.' => 'Extraire les transactions de tâche Maniphest.',
-      'New task name.' => 'Nouveau nom de tâche.',
-      '%s changed the point value for this task from %s to %s.' => '%s a modifié la valeur du point pour cette tâche de %s en %s.',
-      'Changed task priority to "%s".' => 'Priorité de tâche modifiée en « %s ».',
-      'Tasks must have a title.' => 'Les tâches doivent avoir un titre.',
-      'Retrieve information about possible Maniphest task status values.' => 'Récupérer les informations sur les valeurs possibles d’état de tâche pour Maniphest.',
-      'Oldest (Pri)' => 'Plus ancien (Pri)',
-      'Unblock' => 'Débloquer',
-      'Select and reorder task fields.' => 'Sélectionner et réorganiser les champs de la tâche.',
-      'Description Preview' => 'Prévisualisation de la description',
-      '%s changed the subtype of %s from "%s" to "%s".' => '%s a changé le sous-type de %s de « %s » en « %s ».',
-      'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => 'La configuration ne définit aucun statut de tâche possédant l’attribut spécial « %s », mais vous devez spécifier un statut qui remplit ce rôle spécial.',
-      'Oldest open task.' => 'Plus ancienne tâche ouverte.',
-      'Duplicates Merged Here' => 'Doublons fusionnés ici',
-      'Change the parents of this task.' => 'Modifier les parents de cette tâche.',
-      'You can only select a parent task when creating a transaction for the first time.' => 'Vous pouvez uniquement sélectionner une tâche parente lors de la première création d’une transaction.',
-      'Subtasks' => 'Sous-tâches',
-      'Update has no effect.' => 'La mise à jour n’a aucun effet.',
-      '○ %s' => '○ %s',
-      'Maniphest Reports' => 'Rapports Maniphest',
-      'This task is closed as a duplicate. Only comment if you think that this task is not a duplicate.' => 'Cette tâche est fermée en tant que doublon. Ne la commentez que si vous pensez qu’il ne s’agit pas d’un doublon.',
-      'Update the task description.' => 'Mettre à jour la description de la tâche.',
-      'From Email' => 'Par courriel',
-      'List of related commit PHIDs.' => 'Liste des PHID de validation associés.',
-      'Show Only Tasks With Open Parents' => 'Ne montrer que les tâches avec des parents ouverts',
-      'Needs Triage' => 'Nécessite un triage',
-      'Minimal Valid Config' => 'Configuration minimum valable',
-      'The source task is associated with the destination commit.' => 'Cette tâche source est associée avec la validation de destination.',
-      'Story Points' => 'Points d’histoire',
-      'Closed, Spite' => 'Fermé, contrarié',
-      '%s changed file(s), attached %s: %s; detached %s: %s.' => '%s a modifié des fichiers, en a attaché %s : %s ; en a détaché %s : %s.',
-      '%s closed this task as a duplicate of %s.' => '%s a clos cette tâche en tant que doublon de %s.',
-      'Task IDs must be integer numbers.' => 'Les identifiants de tâche doivent être des entiers.',
-      'Set Sail for Adventure' => 'Lever l’ancre pour l’aventure',
-      'Allows you to edit, add, or remove the task statuses available in Maniphest,
-    like "Open", "Resolved" and "Invalid". The configuration should contain a map
-    of status constants to status specifications (see defaults below for examples).
-    The constant for each status should be 1-12 characters long and  contain only
-    lowercase letters and digits. Valid examples are "open", "closed", and
-    "invalid". Users will not normally see these values.
-    The keys you can provide in a specification are:
-      - `name` //Required string.// Name of the status, like "Invalid".
-      - `name.full` //Optional string.// Longer name, like "Closed, Invalid". This
-        appears on the task detail view in the header.
-      - `name.action` //Optional string.// Action name for email subjects, like
-        "Marked Invalid".
-      - `closed` //Optional bool.// Statuses are either "open" or "closed".
-        Specifying `true` here will mark the status as closed (like "Resolved" or
-        "Invalid"). By default, statuses are open.
-      - `special` //Optional string.// Mark this status as special. The special
-        statuses are:
-        - `default` This is the default status for newly created tasks. You must
-          designate one status as default, and it must be an open status.
-        - `closed` This is the default status for closed tasks (for example, tasks
-          closed via the "!close" action in email or via the quick close button in
-          Maniphest). You must designate one status as the default closed status,
-          and it must be a closed status.
-        - `duplicate` This is the status used when tasks are merged into one
-          another as duplicates. You must designate one status for duplicates,
-          and it must be a closed status.
-      - `transaction.icon` //Optional string.// Allows you to choose a different
-        icon to use for this status when showing status changes in the transaction
-        log. Please see UIExamples, Icons and Images for a list.
-      - `transaction.color` //Optional string.// Allows you to choose a different
-        color to use for this status when showing status changes in the transaction
-        log.
-      - `silly` //Optional bool.// Marks this status as silly, and thus wholly
-        inappropriate for use by serious businesses.
-      - `prefixes` //Optional list<string>.// Allows you to specify a list of
-        text prefixes which will trigger a task transition into this status
-        when mentioned in a commit message. For example, providing "closes" here
-        will allow users to move tasks to this status by writing `Closes T123` in
-        commit messages.
-      - `suffixes` //Optional list<string>.// Allows you to specify a list of
-        text suffixes which will trigger a task transition into this status
-        when mentioned in a commit message, after a valid prefix. For example,
-        providing "as invalid" here will allow users to move tasks
-        to this status by writing `Closes T123 as invalid`, even if another status
-        is selected by the "Closes" prefix.
-      - `keywords` //Optional list<string>.// Allows you to specify a list
-        of keywords which can be used with `!status` commands in email to select
-        this status.
-      - `disabled` //Optional bool.// Marks this status as no longer in use so
-        tasks can not be created or edited to have this status. Existing tasks with
-        this status will not be affected, but you can batch edit them or let them
-        die out on their own.
-      - `claim` //Optional bool.// By default, closing an unassigned task claims
-        it. You can set this to `false` to disable this behavior for a particular
-        status.
-      - `locked` //Optional string.// Lock tasks in this status. Specify "comments"
-        to lock comments (users who can edit the task may override this lock).
-        Specify "edits" to prevent anyone except the task owner from making edits.
-      - `mfa` //Optional bool.// Require all edits to this task to be signed with
-        multi-factor authentication.
-    Statuses will appear in the UI in the order specified. Note the status marked
-    `special` as `duplicate` is not settable directly and will not appear in UI
-    elements, and that any status marked `silly` does not appear if the software
-    is configured with `phabricator.serious-business` set to true.
-    Examining the default configuration and examples below will probably be helpful
-    in understanding these options.
-    ' => 'Vous permet de modifier, ajouter ou supprimer les statuts des tâches disponibles dans Maniphest, comme
-    « Ouvert », « Résolu » ou « Invalide ». La configuration doit contenir une carte des constantes de statut avec les spécifications de statut (voir les valeurs par défaut ci-dessous pour des exemples).
-    La constante de chaque statut doit comporter entre 1 et 12 caractères et ne contenir que des lettres minuscules et des chiffres. Les exemples valides sont « ouvert », « fermé » et « invalide ». Les utilisateurs ne verront normalement pas ces valeurs.
-    Les clés que vous pouvez fournir dans une spécification sont :
-      - `name` //Chaîne obligatoire.// Nom du statut, comme « Invalide ».
-      - `name.full` //Chaîne facultative.// Nom plus long, comme « Fermé, Invalide ». Cela apparaît dans la vue détaillée de la tâche dans l\'entête.
-      - `name.action` //Chaîne facultative.// Nom de l\'action pour les sujets des e-mails, comme « Marqué comme invalide ».
-      - `closed` //Booléen facultatif.// Les statuts sont soit « ouvert » soit « fermé ». En spécifiant `true` ici, le statut sera marqué comme fermé (comme avec « Résolu » ou « Invalide »). Par défaut, les statuts sont ouverts.
-      - `special` //Chaîne facultative.// Marque ce statut comme spécial. Les statuts spéciaux sont :
-        * `default` Il s\'agit du statut par défaut pour les tâches nouvellement créées. Vous devez désigner un statut le statut par default, et il doit s\'agir d\'un statut ouvert.
-        * `closed` Il s\'agit du statut par défaut pour les tâches fermées (par exemple, les tâches fermées via l\'action "!close" dans l\'e-mail ou via le bouton de fermeture rapide dans Maniphest). Vous devez désigner un statut comme le statut fermé par défaut, et il doit s\'agir d\'un statut fermé.
-        * `duplicate` Il s\'agit du statut utilisé lorsque des tâches sont fusionnées les unes dans les autres en tant que doublons. Vous devez désigner un statut pour les doublons, et il doit s\'agir d\'un statut fermé.
-      - `transaction.icon` //Chaîne facultative.// Vous permet de choisir une autre icône à utiliser pour ce statut lors de l\'affichage des changements de statut dans le journal des transactions. Veuillez consulter UIExamples, Icons and Images pour une liste.
-      - `transaction.color` //Chaîne facultative.// Vous permet de choisir une autre couleur à utiliser pour ce statut lors de l\'affichage des changements de statut dans le journal des transactions.
-      - `silly` //Booléen facultatif.// Marque ce statut comme stupide, et donc totalement inapproprié pour une utilisation dans des activités sérieuses.
-      - `prefixes` //Liste facultative<chaîne>.// Vous permet de spécifier une liste de préfixes textuels qui déclencheront une transition de tâche vers ce statut lorsqu\'ils sont mentionnés dans un message de validation. Par exemple, fournir "closes" ici permettra aux utilisateurs de déplacer des tâches vers ce statut en écrivant `Closes T123` dans les messages de validation.
-      - `suffixes` //Liste facultative<chaîne>.// Permet de spécifier une liste de suffixes textuels qui déclencheront une transition de tâche vers cet état lorsqu\'ils sont mentionnés dans un message de validation, après un préfixe valide. Par exemple, fournir "as invalide" ici permettra aux utilisateurs de déplacer des tâches vers cet état en écrivant `Closes T123 as invalide`, même si un autre état est sélectionné par le préfixe "Closes".
-      - `keywords` //Liste facultative<chaîne>.// Permet de spécifier une liste de mots-clés qui peuvent être utilisés avec les commandes `!status` dans l\'e-mail pour sélectionner cet état.
-      - `disabled` //Booléen facultatif.// Marque cet état comme n\'étant plus utilisé, les tâches ne peuvent donc pas être créées ou modifiées pour avoir cet état. Les tâches existantes avec cet état ne seront pas affectées, mais vous pouvez les modifier par lots ou les laisser s\'éteindre d\'elles-mêmes.
-      - `claim` //Booléen facultatif.// Par défaut, la fermeture d\'une tâche non attribuée la revendique. Vous pouvez définir cette valeur sur `false` pour désactiver ce comportement pour un état particulier.
-      - `locked` //Chaîne facultative.// Verrouille les tâches dans cet état. Spécifiez "comments" pour verrouiller les commentaires (les utilisateurs qui peuvent modifier la tâche peuvent outrepasser ce verrou). Spécifiez "edits" pour empêcher quiconque, à l\'exception du propriétaire de la tâche, d\'effectuer des modifications.
-      - `mfa` //Booléen facultatif.// Exige que toutes les modifications apportées à cette tâche soient signées avec l\'authentification multifacteur.
-    Les statuts apparaîtront dans l\'interface utilisateur dans l\'ordre spécifié. Notez que les statuts marqués `special` et `duplicate` ne sont pas paramétrables directement et n\'apparaîtront pas dans les éléments de l\'interface utilisateur, et que tout état marqué `silly` n\'apparaît pas si le logiciel est configuré avec `phabricator.serious-business` défini sur true.
-    L’examen de la configuration par défaut et des exemples ci-dessous sera probablement utile pour comprendre ces options.',
-      'Recently Closed' => 'Fermé récemment',
-      'One of a task\'s subtasks changes status.' => 'Une des sous-tâches d’une tâche a changé d’état.',
-      'Assigned Task' => 'Tâche affectée',
-      'File ("%s", with MIME type "%s") is not a viewable image file.' => 'Le fichier (« %s », avec le type MIME « %s ») n’est pas un fichier d’image visualisable.',
-      '%s updated the cover image for %s.' => '%s a modifié l’image de couverture pour %s.',
-      'Transaction specifies both "beforePHID" and "beforePHIDs". Specify only "beforePHIDs".' => 'La transaction spécifie à la fois « beforePHID » et « beforePHIDs » (avant et après les PHID). Spécifiez uniquement « beforePHIDs ».',
-      '%s updated the task description for %s.' => '%s a modifié la description de la tâche pour %s.',
-      'Activates a points field on tasks. You can use points for estimation or
-    planning. If configured, points will appear on workboards.
-    To activate points, set this value to a map with these keys:
-      - `enabled` //Optional bool.// Use `true` to enable points, or
-        `false` to disable them.
-      - `label` //Optional string.// Label for points, like "Story Points" or
-        "Estimated Hours". If omitted, points will be called "Points".
-      - `action` //Optional string.// Label for the action which changes points
-        in Maniphest, like "Change Estimate". If omitted, the action will
-        be called "Change Points".
-    See the example below for a starting point.' => 'Active un champ de points sur les tâches. Vous pouvez utiliser des points pour l\'estimation ou la planification. S\'ils sont configurés, les points apparaîtront sur les tableaux de travail.
-    Pour activer les points, définissez cette valeur sur une carte avec ces clés :
-    - `enabled` //Booléen facultatif.// Utilisez `true` pour activer les points ou `false` pour les désactiver.
-    - `label` //Chaîne facultative.// Libellé pour les points, comme « Points d\'histoire » ou « Heures estimées ». S\'il est omis, les points seront appelés « Points ».
-    - `action` //Chaîne facultative.// Libellé pour l\'action qui modifie les points dans Maniphest, comme « Change Estimate ». S\'il est omis, l\'action sera appelée « Change Estimate ».
-    Voir l\'exemple ci-dessous comme point de départ.',
-      'Status set to invalid value.' => 'État défini à une valeur invalide.',
-      'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => 'L’état « %s » est marqué comme par défaut, mais c’est un état fermé. L’état par défaut doit être un état ouvert.',
-      '[Maniphest]' => '[Maniphest]',
-      '%s lowered the priority of %s from %s to %s.' => '%s a abaissé la priorité de %s de %s à %s.',
-      'Parameter "fullText" is no longer supported. Use method "maniphest.search" with the "query" constraint instead.' => 'Le paramètre « fullText » n’est plus pris en charge. Utilisez à la place la méthode « maniphest.search » avec la contrainte « query ».',
-      'Search for tasks with given statuses.' => 'Rechercher les tâches avec des états donnés.',
-      'Task Has Revision' => 'La tâche a une version',
-      'Unbreak Now!' => 'Réparer maintenant !',
-      'Change Story Points' => 'Modifier les points d’histoire',
-      'Configure point values for tasks.' => 'Configurer les valeurs de point pour les tâches.',
-      'This task is locked. Edit it anyway?' => 'Cette tâche est verrouillée. La modifier quand même ?',
-      'Create a task in a workboard column.' => 'Créer une tâche dans une colonne du tableau de travail.',
-      'Search for tasks with given priorities.' => 'Recherche les tâches pour des priorités données.',
-      'Configure the cutoff for the "Recently Closed" column.' => 'Configurer la date butoir pour la colonne « Récemment fermé ».',
-      'Original task author.' => 'Auteur original de la tâche.',
-      'Information about task priority.' => 'Informations sur la priorité de la tâche.',
-      '%s detached %s file(s): %s.' => array(
-        array(
-          '%s a détaché %s fichier : %s.',
-          '%s a détaché %s fichiers : %s.',
-        ),
-      ),
-      'Valid setting' => 'Paramètre valide',
-      'Open Subtasks' => 'Sous-tâches ouvertes',
-      'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => 'Clore une tâche. Cela remplace l’état de la tâche par l’état fermé par défaut. Pour une façon plus puissante (mais moins concise) de remplacer les états de tâches, consulter `%s`.',
-      '%s removed %s parent task(s): %s.' => '%s a retiré %s tâche(s) parente(s) : %s.',
-      '%s added %s subtask(s): %s.' => array(
-        array(
-          '%s a ajouté %s sous-tâche : %s.',
-          '%s a ajouté %s sous-tâches : %s.',
-        ),
-      ),
-      'Assign a task to a specific user.' => 'Affecter une tâche à un utilisateur spécifique.',
-      'Date Closed (Latest First)' => 'Date de fermeture (la plus récente en premier)',
-      'Merged In' => 'Fusionné dans',
-      '%s edited %s commit(s), added %s: %s; removed %s: %s.' => '%s a modifié %s validation(s) ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'Date Closed' => 'Date de fermeture',
-      'Task title cannot exceed %d characters.' => 'Le titre de la tâche ne peut pas dépasser %s caractères.',
-      'Edit Related Tasks...' => 'Modifier les tâches associées…',
-      'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here. Use %s to show more of the graph.' => 'Cette tâche est connectée à plus de %s autres tâches. Seuls les parents directs et les sous-tâches sont affichés ici. Utiliser %s pour afficher un graphe plus complet.',
-      '%s updated the cover image to %s.' => '%s a mis à jour l’image de couverture pour %s.',
-      '%s created subtask %s.' => '%s a créé la sous-tâche %s.',
-      'Bulk Edit Selected »' => 'Modifications en masse choisies »',
-      'No tasks found.' => 'Aucune tâche trouvée',
-      'Can Bulk Edit Tasks' => 'Peut modifier en masse les tâches',
-      'Estimated number of hours this will take.' => 'Nombre estimé d’heures que ceci pourra prendre.',
-      '(Up For Grabs)' => '(En haut pour agripper)',
-      'Related commits.' => 'Validations associées.',
-      'Assign task to: %s.' => 'Affecter la tâche à : %s.',
-      'Status "%s" is marked as the default status for closing tasks, but is not a closed status. It should be a closed status.' => 'L’état « %s » est indiqué comme état par défaut pour les tâches de clôture, mais ce n’est pas un état fermé. Il devrait être un état fermé.',
-      'Value for key "%s" should be a dictionary.' => 'La valeur associée à la clé « %s » devrait être un dictionnaire.',
-      'Assigned task to: %s.' => 'Tâche affectée à : %s.',
-      'Key "%s" is not a valid status constant. Status constants must be 1-64 alphanumeric characters and cannot be exclusively digits. For example, "%s" or "%s" are reasonable choices.' => 'La clé « %s » n’est pas une constante d’état valide. Les constantes d’état doivent être composées de 1 à 64 caractères alphanumériques et pas uniquement des chiffres. Par exemple, « %s » ou « %s » sont des choix raisonnables.',
-      'Empty withOwners() constraint is not valid.' => 'Une contrainte withOwners() vide n’est pas valide.',
-      'List of subtask PHIDs.' => 'Liste de PHID de sous-tâches.',
-      'Default view policy for newly created tasks.' => 'Politique d’affichage par défaut pour les tâches nouvellement créées.',
-      'Show Only Tasks Without Open Parents' => 'Afficher seulement les tâches sans parent ouvert',
-      '%s changed the task status from %s to %s by committing %s.' => '%s a modifié l’état de la tâche de %s en %s en validant %s.',
-      'New task description.' => 'Nouvelle description de tâche.',
-      '%s removed the point value for %s.' => '%s a supprimé la valeur de point pour %s.',
-      'Mocks' => 'Maquettes',
-      '%s removed the point value for this task.' => '%s a retiré la valeur de point pour cette tâche.',
-      'Closer' => 'Plus près',
-      '%s added %s parent task(s): %s.' => array(
-        array(
-          '%s a ajouté %s tâche parent : %s.',
-          '%s a ajouté %s tâches parent : %s.',
-        ),
-      ),
-      'Change the related commits for this task.' => 'Modifier les validations associées pour cette tâche.',
-      'Subtask' => 'Sous-tâche',
-      'Configuration has two statuses both marked with the special attribute "%s" ("%s" and "%s"). There should be only one.' => 'La configuration a deux états marqués avec l’attribut spécial « %s » (« %s » et « %s »). Il ne doit y en avoir qu’un.',
-      'Set priority to' => 'Définir la priorité à',
-      'Configuration is not valid. Maniphest priority configurations must be dictionaries.' => 'La configuration n’est pas valide. Les configurations de priorités Maniphest doivent être des dictionnaires.',
-      'The task description.' => 'La description de la tâche.',
-      'Filter By Project' => 'Filtrer par projet',
-      '%s claimed this task.' => '%s a réclamé cette tâche.',
-      'Close This Task As a Duplicate Of' => 'Fermer cette tâche en tant que doublon de',
-      '%s removed %s subtask(s) for %s: %s.' => '%s a retiré %s sous-tâche(s) pour %s : %s.',
-      'Untitled Task' => 'Tâche sans titre',
-      '%s edited parent task(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs tâches mères pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'Read information about task statuses.' => 'Lire les informations sur les états de tâches.',
-      'Move a task to one or more workboard columns.' => 'Déplacer une tâche sur une ou plusieurs colonnes du tableau de travail.',
-      '%s added a cover image to %s.' => '%s a ajouté une image de couverture à %s.',
-      'Edit Subtasks' => 'Modifier les sous-tâches',
-      '%s assigned this task to %s.' => '%s a affecté cette tâche à %s.',
-      '%s placed %s up for grabs.' => '%s a placé %s comme prête à être traitée.',
-      'Change status to: %s.' => 'Changer l’état à : %s.',
-      '%s raised the priority of this task from %s to %s.' => '%s a levé la priorité de cette tâche de %s à %s.',
-      'No Forms' => 'Aucun formulaire',
-      'Hours Config' => 'Configuration des heures',
-      'Type a task subtype name...' => 'Entrez le nom d’un sous-type de tâche…',
-      'File ("%s", with MIME type "%s") can not be transformed into a thumbnail. You may be missing support for this file type in the "GD" extension.' => 'Le fichier (« %s », avec le type MIME « %s ») ne peut pas être transformé en vignette. Il est possible que ce type de fichier ne soit pas pris en charge dans l’extension « GD ».',
-      'To change the priority of a task, specify the desired priority, like `%s`. This table shows the configured names for priority levels.
-    %s
-    If you specify an invalid priority, the command is ignored. This command has no effect if you do not specify a priority.' => 'Pour changer la priorité d’une tâche, spécifier la priorité désirée, comme `%s`. Ce tableau montre les noms configurés de niveaux de priorité.
-    %s
-    Si vous spécifiez une priorité non valide, la commande est ignorée. Cette commande n’a aucun effet si vous ne spécifiez pas de priorité.',
-      '%s edited %s revision(s), added %s: %s; removed %s: %s.' => '%s a modifié %s version(s) ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'Search for tasks updated after a certain date.' => 'Rechercher les tâches mises à jour après une certaine date.',
-      'Assign task to me' => 'M’affecter la tâche',
-      '%s changed the status of %s, a subtask of %s, from %s to %s.' => '%s a modifié l’état de %s, une sous-tâche de %s, de %s en %s.',
-      'Tasks to Close and Merge' => 'Tâches à fermer et fusionner',
-      '%s updated the task description.' => '%s a actualisé la description de la tâche.',
-      'Task to make this a subtask of.' => 'Tâche dont celle-ci doit être une sous-tâche.',
-      '%s added %s revision(s) to %s: %s.' => '%s a ajouté %s révision(s) à %s : %s.',
-      'You can not lock this task because it does not have an assignee. No one would be able to edit the task. Assign the task to an assignee before locking it.' => 'Vous ne pouvez pas verrouiller cette tâche car elle n\'a pas de responsable. Personne ne pourra la modifier. Veuillez l\'attribuer à un responsable avant de la verrouiller.',
-      'Owner PHID' => 'PHID de propriétaire',
-      'Closed, Duplicate' => 'Fermée, en doublon',
-      'Epoch timestamp when the task was closed.' => 'Horodatage de l’époque où la tâche a été fermée.',
-      'task author' => 'auteur de la tâche',
-      'This method is frozen and will eventually be deprecated. New code should use "transaction.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « transaction.search » à la place.',
-      'Apply transactions to create a new task or edit an existing one.' => 'Appliquer les transactions pour créer une nouvelle tâche ou en modifier une existante.',
-      'Browse Assignees' => 'Parcourir les affectés',
-      '%s attached %d file(s) of %s: %s' => '%s a attaché %s fichier(s) de %s : %s',
-      'Status of the task.' => 'État de la tâche.',
-      'Open Tasks by User and Priority (%s)' => 'Ouvrir les tâches par utilisateur et priorité (%s)',
-      'Information about task status.' => 'Informations sur l’état de la tâche.',
-      'List of task monograms, as array.' => 'Liste des monogrammes de tâches, en tant que tableau.',
-      'Set description to' => 'Définir la description à',
-      'Subtasks.' => 'Sous-tâches.',
-      '%s closed this task as %s.' => '%s a fermé cette tâche en tant que %s.',
-      'Merge Into Selected Task' => 'Fusionner dans la tâche sélectionnée',
-      'PHID of the parent task.' => 'PHID de la tâche parente.',
-      'Configure Maniphest.' => 'Configurer Maniphest.',
-      '%s edited subtask(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs sous-tâches pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'A task is moved between columns on a workboard.' => 'Une tâche est déplacée entre des colonnes d’un tableau de travail.',
-      'Updated Before' => 'Actualisé avant',
-      '%s changed the status of %s from %s to %s by committing %s.' => '%s a modifié l’état de %s de %s en %s en validant %s.',
-      'The source task has been closed as a duplicate of the destination task.' => 'La tâche source a été fermée en tant que doublon de la tâche de destination.',
-      'Type a task status name or function...' => 'Saisir un nom d’état de tâche ou une fonction…',
-      '%s changed the point value for %s from %s to %s.' => '%s a modifié la valeur du point pour %s de %s en %s.',
-      '%s removed %s mock(s) for %s: %s.' => '%s a retiré %s simulateur(s) pour %s : %s.',
-      '%s created this task.' => '%s a créé cette tâche.',
-      'You can use this transaction type to create a task into a particular workboard
-    column, or move an existing task between columns.
-    The transaction value can be specified in several forms. Some are simpler but
-    less powerful, while others are more complex and more powerful.
-    The simplest valid value is a single column PHID:
-    ```lang=json
-    "PHID-PCOL-1111"
-    ```
-    This will move the task into that column, or create the task into that column
-    if you are creating a new task. If the task is currently on the board, it will
-    be moved out of any exclusive columns. If the task is not currently on the
-    board, it will be added to the board.
-    You can also perform multiple moves at the same time by passing a list of
-    PHIDs:
-    ```lang=json
-    ["PHID-PCOL-2222", "PHID-PCOL-3333"]
-    ```
-    This is equivalent to performing each move individually.
-    The most complex and most powerful form uses a dictionary to provide additional
-    information about the move, including an optional specific position within the
-    column.
-    The target column should be identified as `columnPHID`, and you may select a
-    position by passing either `beforePHIDs` or `afterPHIDs`, specifying the PHIDs
-    of tasks currently in the column that you want to move this task before or
-    after:
-    ```lang=json
-    [
-      {
-        "columnPHID": "PHID-PCOL-4444",
-        "beforePHIDs": ["PHID-TASK-5555"]
-      }
-    ]
-    ```
-    When you specify multiple PHIDs, the task will be moved adjacent to the first
-    valid PHID found in either of the lists. This allows positional moves to
-    generally work as users expect even if the client view of the board has fallen
-    out of date and some of the nearby tasks have moved elsewhere.' => 'Vous pouvez utiliser ce type de transaction pour créer une tâche dans une colonne particulière du tableau de travail ou déplacer une tâche existante entre les colonnes.
-    La valeur de la transaction peut être spécifiée sous plusieurs formes. Certaines sont plus simples mais moins puissantes, tandis que d\'autres sont plus complexes et plus puissantes.
-    La valeur valide la plus simple est une colonne unique PHID :
-    ```lang=json
-    !"PHID-PCOL-1111"
-    ```
-    Cela déplacera la tâche dans cette colonne ou créera la tâche dans cette colonne si vous créez une nouvelle tâche. Si la tâche est actuellement sur le tableau, elle sera déplacée hors de toutes les autres colonnes. Si la tâche n\'est pas actuellement sur le tableau, elle sera ajoutée au tableau.
-    Vous pouvez également effectuer plusieurs déplacements en même temps en transmettant une liste de PHID :
-    ```lang=json
-    ["PHID-PCOL-2222", "PHID-PCOL-3333"]
-    ```
-    Cela équivaut à effectuer chaque déplacement individuellement.
-    La forme la plus complexe et la plus puissante utilise un dictionnaire pour fournir des informations supplémentaires sur le déplacement, y compris une position spécifique facultative dans la colonne.
-    La colonne cible doit être identifiée comme `columnPHID`, et vous pouvez sélectionner une position en transmettant soit `beforePHIDs` soit `afterPHIDs`, en spécifiant les PHID des tâches actuellement dans la colonne avant lesquelles vous souhaitez déplacer cette tâche ou après :
-    ```lang=json
-    [
-      {
-        "columnPHID": "PHID-PCOL-4444",
-        "beforePHIDs": ["PHID-TASK-5555"]
-      }
-    ]
-    ```
-    Lorsque vous spécifiez plusieurs PHID, la tâche sera déplacée à côté du premier PHID valide trouvé dans l\'une des listes. Cela permet aux déplacements positionnels de fonctionner généralement comme les utilisateurs s\'y attendent, même si la vue client du tableau est devenue obsolète et que certaines des tâches à proximité ont été déplacées ailleurs.',
-      'Search...' => 'Rechercher…',
-      'Task Graph' => 'Graphique de la tâche',
-      'Allows you to edit or override the default priorities available in Maniphest,
-    like "High", "Normal" and "Low". The configuration should contain a map of
-    numeric priority values (where larger numbers correspond to higher priorities)
-    to priority specifications (see defaults below for examples).
-    The keys you can define for a priority are:
-      - `name` //Required string.// Name of the priority.
-      - `keywords` //Required list<string>.// List of unique keywords which identify
-        this priority, like "high" or "low". Each priority must have at least one
-        keyword and two priorities may not share the same keyword.
-      - `short` //Optional string.// Alternate shorter name, used in UIs where
-        there is less space available.
-      - `color` //Optional string.// Color for this priority, like "red" or
-        "blue".
-      - `disabled` //Optional bool.// Set to true to prevent users from choosing
-        this priority when creating or editing tasks. Existing tasks will not be
-        affected, and can be batch edited to a different priority or left to
-        eventually die out.
-    You can choose the default priority for newly created tasks with
-    "maniphest.default-priority".' => 'Vous permet de modifier ou de remplacer les priorités par défaut disponibles dans Maniphest, comme « Haute », « Normale » et « Basse ». La configuration doit contenir une carte de valeurs de priorité numériques (les nombres les plus élevés correspondant à des priorités plus élevées) aux spécifications de priorité (voir les valeurs par défaut ci-dessous pour des exemples).
-    Les clés que vous pouvez définir pour une priorité sont :
-      - `name` //Chaîne obligatoire.// Nom de la priorité.
-      - `keywords` //Liste obligatoire<chaîne> .// Liste de mots-clés uniques qui identifient cette priorité, comme « haute » ou « basse ». Chaque priorité doit avoir au moins un mot-clé et deux priorités ne peuvent pas partager le même mot-clé.
-      - `short` //Chaîne facultative.// Nom plus court alternatif, utilisé dans les interfaces utilisateur où il y a moins d\'espace disponible.
-      - `color` //Chaîne facultative.// Couleur pour cette priorité, comme « rouge » ou « bleu ».
-      - `disabled` //Booléen facultatif.// Définissez sur true pour empêcher les utilisateurs de choisir cette priorité lors de la création ou de la modification de tâches. Les tâches existantes ne seront pas affectées et peuvent être modifiées par lots avec une priorité différente ou laissées s\'éteindre éventuellement.
-    Vous pouvez choisir la priorité par défaut pour les tâches nouvellement créées avec "maniphest.default-priority".',
-      'Parent IDs' => 'IDs parents',
-      'You can not remove the assignee of this task because it is locked and no one would be able to edit the task. Reassign the task or unlock it before removing the assignee.' => 'Vous ne pouvez pas supprimer le responsable de cette tâche car elle est verrouillée et personne ne pourrait la modifier. Veuillez réaffecter la tâche ou la déverrouiller avant de supprimer le responsable.',
-      'Wishlist' => 'Liste de souhaits',
-      'When moving objects between columns on a board, columns must be identified by PHIDs. This transaction uses "%s" to identify a column, but that is not a valid column PHID.' => 'En déplaçant les objets entre les colonnes d’un tableau, les colonnes doivent être identifiées avec des PHID. Cette transaction utilise « %s » pour identifier une colonne, mais ce n’est pas un PHID de colonne valide.',
-      'Points value must be numeric or empty.' => 'La valeur des points doit être numérique ou vide.',
-      'This method is frozen and will eventually be deprecated. New code should use "maniphest.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « maniphest.search » à la place.',
-      'Custom Maniphest fields.' => 'Champs Maniphest personnalisés.',
-      'Key "%s" is not a valid priority constant. Priority constants must be nonnegative integers.' => 'La clé « %s » n’est pas une constante de priorité valide. Les constantes de priorité doivent être des entiers non négatifs.',
-      '%s removed %s mock(s): %s.' => '%s a retiré %s tâche(s) : %s.',
-      '%s edited mock(s), added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs maquettes ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'Default task priority for create flows.' => 'Priorité de tâche par défaut pour créer des flux.',
-      'Show Only Tasks With Open Subtasks' => 'N’afficher que les tâches avec des sous-tâches ouvertes',
-      'Merge Duplicates Into This Task' => 'Fusionner les doublons dans cette tâche',
-      '%s lowered the priority of this task from %s to %s.' => '%s a abaissé la priorité de cette tâche de %s en %s.',
-      '(Not Assigned)' => '(Non affecté)',
-      '(Ungrouped)' => '(Non groupé)',
-      'Task' => 'Tâche',
-      'Search for tasks created before a certain date.' => 'Rechercher les tâches créées avant une certaine date.',
-      'Test rules which run when a task is created or updated.' => 'Règles de test qui s’exécutent quand une tâche est créée ou mise à jour.',
-      'List of custom fields for Maniphest tasks.
-    For details on adding custom fields to Maniphest, see [[ %s | %s ]] in the
-    documentation.' => 'Liste des champs personnalisés pour les tâches Maniphest.
-    Pour plus de détails sur l\'ajout de champs personnalisés à Maniphest, voir [[ %s | %s ]] dans la documentation.',
-      'React to tasks being created or updated.' => 'Réagir aux tâches créées ou mises à jour.',
-      '%s removed the point value %s for this task.' => '%s a retiré la valeur de point %s pour cette tâche.',
-      'Blocker' => 'Bloqueur',
-      'Type a task priority name...' => 'Saisir un nom de priorité de tâche...',
-      'Configure Maniphest priority names.' => 'Configurer les noms de priorité de Maniphest.',
-      'This method is frozen and will eventually be deprecated. New code should use "maniphest.edit" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « maniphest.edit » à la place.',
-      'Close As Duplicate' => 'Fermer en tant que doublon',
-      'Reassigned' => 'Réaffectée',
-      'Change the task status.' => 'Modifier l’état de la tâche.',
-      'Block' => 'Bloquer',
-      'Claimed' => 'Réclamée',
-      'New task point value.' => 'Nouvelle valeur de point de tâche.',
-      'Configuration is not valid. Maniphest points configuration must be a dictionary.' => 'La configuration n’est pas valide. La configuration des points de Maniphest doit être un dictionnaire.',
-      'Returns information about the possible priorities for Maniphest tasks.' => 'Renvoie des informations sur les priorités possibles pour les tâches Maniphest.',
-      'One or more PHIDs were invalid for %s.' => 'Un ou plusieurs PHID n’étaient pas valides pour %s.',
-      'Select All' => 'Tout sélectionner',
-      'This task has no parent tasks and no subtasks, so there is no graph to draw.' => 'Cette tâche n’a pas de tâches parentes ni de sous-tâches, il n’y a donc aucun graphe à tracer.',
-      'User who is responsible for the task.' => 'Utilisateur responsable de la tâche.',
-      'Task Author' => 'Auteur de la tâche',
-      'Closed Before' => 'Fermé avant',
-      'Subtask IDs' => 'IDs des sous-tâches',
-      'Configure Maniphest Task Forms' => 'Configurer les formulaires des tâches de Maniphest',
-      '(No Project)' => '(Aucun projet)',
-      'This task is directly connected to more than %s other tasks, which is too many tasks to display. Use %s to browse parents or subtasks.' => 'Cette tâche est directement connectée à plus de %s autres tâches, ce qui fait trop de tâches à afficher. Utiliser %s pour parcourir les tâches parentes ou sous-tâches.',
-      'Duplicates' => 'Doublons',
-      'Task Locked' => 'Tâche verrouillée',
-      'Edit Task: %s' => 'Modifier la tâche : %s',
-      '%s merged %s task(s) %s into %s.' => '%s a fusionné %s tâche(s) %s en %s.',
-      'No tasks.' => 'Aucune tâche.',
-      'Feature Request' => 'Demande de fonctionnalité',
-      'Priorities' => 'Priorités',
-      'Priority Name' => 'Nom de priorité',
-      'Task description.' => 'Description de la tâche.',
-      'Current Subtasks' => 'Sous-tâches actuelles',
-      'Change the subtasks of this task.' => 'Changer les sous-tâches de cette tâche.',
-      'Task Has Commit' => 'La tâche a des validations',
-      'Type a task status name...' => 'Saisissez un nom d’état de tâche...',
-      'Save Subtasks' => 'Enregistrer les sous-tâches',
-      'Assign yourself as the owner of a task. To assign another user, see `%s`.' => 'Affectez-vous en tant que propriétaire d’une tâche. Pour affecter un autre utilisateur, voir `%s`.',
-      'Task Priority' => 'Priorité de tâche',
-      '%s added %s subtask(s) for %s: %s.' => '%s a ajouté %s sous-tâche(s) pour %s : %s.',
-      'Parent Task' => 'Tâche parente',
-      'Parent tasks.' => 'Tâches parentes.',
-      'File PHID ("%s") is invalid, or you do not have permission to view it.' => 'Le fichier PHID (« %s ») n’est pas valide ou vous n’avez pas la permission de le consulter.',
-      'Priority set to invalid value.' => 'Priorité définie sur une valeur non valide.',
-      'Points value must be nonnegative.' => 'La valeur des points ne doit pas être négative.',
-      'Type a username or "none"...' => 'Saisir un nom d’utilisateur ou « none »...',
-      'Maniphest Project Name Cache' => 'Cache de nom de projet de Maniphest',
-      'Comma-separated list of task IDs.' => 'Liste d’identifiants de tâche séparés par des virgules.',
-      'To assign a task to another user, provide their username. For example, to assign a task to `%s`, write `%s`.
-    If you omit the username or the username is not valid, this behaves like `%s` and assigns the task to you instead.' => 'Pour affecter une tâche à un autre utilisateur, indiquez son nom d’utilisateur. Par exemple, pour affecter une tâche à `%s`, écrivez `%s`.
-    Si vous omettez le nom d’utilisateur ou si le nom d’utilisateur n\'est pas valide, cela se comporte comme `%s` et la tâche vous est affectée à la place.',
-      'Edit Parent Tasks' => 'Modifier les tâches parentes',
-      'Spite' => 'Contrarier',
-      'Email Commands: Tasks' => 'Commandes de courriel : tâches',
-      'This task is directly connected to more than %s other tasks. Use %s to browse parents or subtasks, or %s to show more of the graph.' => 'Cette tâche est directement connectée à plus de %s autres tâches. Utilisez %s pour afficher les tâches parentes ou les sous-tâches, ou %s pour afficher un graphe plus étendu.',
-      'Comma-separated list of task monograms.' => 'Liste de monogrammes de tâche séparés par des virgules.',
-      '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s validation(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'Set title to' => 'Définir le titre à',
-      'Graph' => 'Graphe',
-      'Retrieve information about a Maniphest task, given its ID.' => 'Récupérer des informations sur une tâche Maniphest, étant donné son identifiant.',
-      'Search for tasks owned by a user from a list.' => 'Rechercher les tâches appartenant à un utilisateur dans une liste.',
-      '%s assigned %s to %s.' => '%s a affecté %s à %s',
-      'Current task assignee, if task is assigned.' => 'Responsable actuel de la tâche, si la tâche est attribuée.',
-      'Use Maniphest to track bugs, features, todos, or anything else you need to get done. Tasks assigned to you will appear here.' => 'Utilisez Maniphest pour suivre les bogues, les fonctionnalités, les tâches ou tout ce dont vous avez besoin. Les tâches qui vous sont affectées apparaîtront ici.',
-      'Default edit policy for newly created tasks.' => 'Politique de modification par défaut pour les tâches nouvellement créées.',
-      'Change the priority of a task.' => 'Changer la priorité d’une tâche.',
-      '%s closed %s, a subtask of %s, as %s.' => '%s a fermé %s, une sous-tâche de %s, en tant que %s.',
-      'The source task has had the destination task closed as a duplicate and merged into it.' => 'La tâche source a eu la tâche de destination fermée en tant que doublon et fusionnée avec celle-ci.',
-      'Mixture of PHIDs, IDs and monograms.' => 'Mélange de PHID, identifiants et monogrammes.',
-      'Send email to these addresses to create tasks. %s' => 'Envoyez un courriel aux adresses suivantes pour créer des tâches. %s',
-      'Low' => 'Faible',
-      'The author of this task can take this action.' => 'L’auteur de cette tâche peut effectuer cette action.',
-      'Configure Maniphest task statuses.' => 'Configurer les états de tâche Maniphest.',
-      'Save Parent Tasks' => 'Enregistrer les tâches parentes',
-      'WORKBOARD' => 'TABLEAU DE TRAVAIL',
-      'Set status to' => 'Définir le statut à',
-      'Burnup' => 'Brûler',
-      'Current Mocks' => 'Maquettes en cours',
-      '%s added %s mock(s) for %s: %s.' => '%s a ajouté %s maquette(s) pour %s : %s.',
-      'Other task activity not listed above occurs.' => 'Une autre activité de tâche non listée ci-dessus se produit.',
-      'Override Task Lock' => 'Outrepasser le verrouillage de la tâche',
-      'Points Config' => 'Configuration des points',
-      'Current Parent Tasks' => 'Tâches parentes actuelles',
-      'Recently Means' => '« Récemment » signifie',
-      'User who closed the task, if the task is closed.' => 'Utilisateur qui a fermé la tâche, si la tâche est fermée.',
-      '%s added %s mock(s): %s.' => array(
-        array(
-          '%s a ajouté %s maquette : %s.',
-          '%s a ajouté %s maquettes : %s.',
-        ),
-      ),
-      '%s reassigned %s from %s to %s.' => '%s a réaffecté %s de %s à %s.',
-      'Related Objects' => 'Objets associés',
-      'A task\'s priority changes.' => 'Changements de priorité d’une tâche.',
-      'Merge Duplicates In' => 'Fusionner les doublons',
-      'Raised Priority' => 'Priorité augmentée',
-      'Oldest (All)' => 'Plus ancien (tout)',
-      'No such Maniphest task exists.' => 'Il n’existe aucune tâche Maniphest de ce type.',
-      '%s raised the priority of %s from %s to %s.' => '%s a augmenté la priorité de %s de %s à %s.',
-      'Edit Mocks' => 'Modifier les maquettes',
-      'High' => 'Haute',
-      'Move on Workboard' => 'Déplacer sur le tableau de travail',
-      'Search for tasks with given subtypes.' => 'Rechercher les tâches avec les sous-types donnés.',
-      'Closer PHID' => 'PHID du clôtureur',
-      'The title of the task.' => 'Le titre de la tâche.',
-      'Oldest open task, excluding those with priority %s' => 'Tâche ouverte la plus ancienne, excluant celles avec une priorité %s',
-      'Changed Status' => 'État changé',
-      'Comma-separated list of task PHIDs.' => 'Liste de PHID de tâche séparés par des virgules.',
-      'Column move transaction specifies column PHID "%s", but there is no corresponding column with this PHID.' => 'La transaction de déplacement de colonne spécifie la colonne PHID « %s » mais il n’y a aucune colonne correspondante avec ce PHID.',
-      'Save Related Mocks' => 'Enregistrer les maquettes associées',
-      'Wontfix' => 'Ne sera pas corrigé',
-      'List of task PHIDs, as array.' => 'Liste de PHID de tâche, sous forme de tableau.',
-      '%s renamed this task from %s to %s.' => '%s a renommé cette tâche de %s en %s.',
-      'Updated After' => 'Mis à jour après',
-      'To change the status of a task, specify the desired status, like `%s`. This table shows the configured names for statuses.
-    %s
-    If you specify an invalid status, the command is ignored. This command has no effect if you do not specify a status.
-    To quickly close a task, see `%s`.' => 'Pour changer l’état d’une tâche, spécifiez l’état souhaité, comme `%s`. Le tableau suivant montre les noms d’état configurés.
-    %s 
-    Si vous spécifiez un état non valide, la commande est ignorée. Cette commande n’a aucun effet si vous ne spécifiez pas d’état.
-    Pour fermer rapidement une tâche, voir `%s`.',
-      'There was an unexpected error displaying the task graph. Use %s to browse parents or subtasks, or %s to show the graph.' => 'Il y avait une erreur inattendue dans le graphique des tâches. Utilisez %s pour parcourir les parents ou les sous-tâches, ou %s pour afficher le graphique.',
-      'TASK DESCRIPTION' => 'DESCRIPTION DE LA TÂCHE',
-      '%s closed %s as %s by committing %s.' => '%s a fermé %s %s en validant %s.',
-      'Read information about task priorities.' => 'Lire les informations sur les priorités de tâche.',
-      'Change the task point value.' => 'Modifier la valeur en points de la tâche.',
-      'Create as a subtask of another task.' => 'Créer en tant que sous-tâche d’une autre tâche.',
-      '● %s' => '● %s',
-      'Show Only Tasks Without Open Subtasks' => 'Afficher seulement les tâches sans sous-tâche ouverte',
-      'Task priority "%s" is not a valid task priority. Use a priority keyword to choose a task priority: %s.' => 'La priorité de tâche « %s » n’est pas une priorité de tâche valide. Utilisez un mot-clé de priorité pour choisir une priorité de tâche : %s.',
-      '%s closed %s as a duplicate by committing %s.' => '%s a fermé %s en tant que doublon en validant %s.',
-      'Transaction specifies both "afterPHID" and "afterPHIDs". Specify only "afterPHIDs".' => 'La transaction spécifie à la fois « afterPHID » et « afterPHIDs ». Spécifiez uniquement « afterPHIDs ».',
-      'Task Unassigned' => 'Tâche non affectée',
-      'Reassign the task.' => 'Réaffecter la tâche.',
-      '%s changed file(s) for %s, attached %d: %s; detached %d: %s' => '%s a modifié un ou plusieurs fichiers pour %s ; en a attaché %s : %s ; en a détaché %s : %s.',
-      '%s closed subtask %s as %s.' => '%s a fermé la sous-tâche %s comme %s.',
-      'Open Tasks by Project and Priority (%s)' => 'Tâches ouvertes par projet et priorité (%s)',
-      'You do not have access to any forms which can be used to create a subtask.' => 'Vous n’avez accès à aucun formulaire utilisable pour créer une sous-tâche.',
-      'Configure how users create and edit tasks.' => 'Configurer comment les utilisateurs créent et modifient les tâches.',
-      'Assign task to rule author.' => 'Affecter la tâche à l’auteur de la règle.',
-      '%s detached %d file(s) of %s: %s' => '%s a détaché %s fichier(s) de %s : %s',
-      '%s closed %s as a duplicate.' => '%s a fermé %s en tant que doublon.',
-      '%s removed %s parent task(s) for %s: %s.' => '%s a retiré %s tâche(s) parente(s) pour %s : %s.',
-      'Edit Related Mocks' => 'Modifier les maquettes associées',
-      'The source object has the destination object as a parent.' => 'L’objet source a l’objet de destination comme parent.',
-      'Maniphest Task' => 'Tâche Maniphest',
-      '%s set the cover image to %s.' => '%s a défini l’image de couverture à %s.',
-      'By User' => 'Par l’utilisateur',
-      'Two different task priorities ("%s" and "%s") have the same keyword ("%s"). Keywords must uniquely identify priorities.' => 'Deux priorités de tâches différentes (« %s » et « %s ») ont le même mot-clé (« %s »). Les mots-clés doivent identifier de manière unique les priorités.',
-      'List of parent task PHIDs.' => 'Liste des PHID de tâche parente.',
-      'Change the status of a task.' => 'Modifier l’état d’une tâche.',
-      'CHANGES TO TASK DESCRIPTION' => 'MODIFICATIONS DE LA DESCRIPTION DE LA TÂCHE',
-      'Close and Merge Selected Tasks' => 'Fermer et fusionner les tâches sélectionnées',
-      'Key "%s" is not a valid priority keyword. Priority keywords must be 1-64 alphanumeric characters and cannot be exclusively digits. For example, "%s" or "%s" are reasonable choices.' => 'La clé « %s » n’est pas un mot-clé de priorité valide. Les mots-clés de priorité doivent être composés de 1 à 64 caractères alphanumériques et pas uniquement des chiffres. Par exemple, « %s » ou « %s » sont des choix raisonnables.',
-      'Browse Priorities' => 'Parcourir les priorités',
-      'Unbreak!' => 'Déblocage !',
-      'The task already has the selected priority.' => 'La tâche a déjà la priorité sélectionnée.',
-      'Assign to' => 'Affecter à',
-      '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s révision(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'A task\'s status changes.' => 'Changements d’état d’une tâche.',
-      'Rename the task.' => 'Renommer la tâche.',
-      'You can not interact with this task because it is locked.' => 'Vous ne pouvez pas interagir avec cette tâche car elle est verrouillée.',
-      'Someone comments on a task.' => 'Quelqu’un commente une tâche.',
-      'New task status constant.' => 'Nouvelle constante d’état de tâche.',
-      '%s added %s parent task(s) for %s: %s.' => '%s a ajouté %s tâche(s) parente(s) pour %s : %s.',
-      'Closed After' => 'Fermée après',
-      '%s closed this task as a duplicate.' => '%s a fermé cette tâche en tant que doublon.',
-      'Status "%s" is marked as the status for closing tasks as duplicates, but it is not a closed status. It should be a closed status.' => 'L’état « %s » est marqué comme l’état de fermeture de tâches en tant que doublons, mais il ne s’agit pas d’un état fermé. Il devrait s’agir d’un état fermé.',
-      'Wish' => 'Souhait',
-      '%s set the point value for %s to %s.' => '%s a défini la valeur en points pour %s à %s.',
-      'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here.' => 'Cette tâche est connectée à plus de %s autres tâches. Seuls les parents directs et les sous-tâches sont représentés ici.',
-      'Search for tasks closed by certain users.' => 'Rechercher les tâches fermées par certains utilisateurs.',
-      '%s edited parent task(s), added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs tâches parentes ; en a ajouté %s : %s ; en a supprimé %s : %s.',
-      '%s removed %s revision(s) from %s: %s.' => '%s a retiré %s révision(s) de %s : %s.',
-      '%s merged %s task(s): %s.' => array(
-        array(
-          '%s a fusionné %s tâche : %s.',
-          '%s a fusionné %s tâches : %s.',
-        ),
-      ),
-      '%s edited mock(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s maquette(s) ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      '%s reassigned this task from %s to %s.' => '%s a réaffecté cette tâche de %s à %s.',
-      'Triaged' => 'Triée',
-      'The source object has the destination object as a subtask.' => 'L’objet source a l’objet de destination comme sous-tâche.',
-      '%s removed %s commit(s) from %s: %s.' => '%s a retiré %s validation(s) de %s : %s.',
-      'Task Owner' => 'Propriétaire de la tâche',
-      'By Project' => 'Par projet',
-      '%s triaged %s as %s priority.' => '%s a trié %s avec la priorité %s.',
-      'Change priority to: %s.' => 'Changer la priorité à : %s.',
-      'Batch Task Editor' => 'Éditeur de tâches par lot',
-      'Search Parent Tasks' => 'Rechercher les tâches parentes',
-      'Subscribed' => 'Abonné',
-      'Unknown Status' => 'État inconnu',
-      'A task\'s associated projects change.' => 'Changement des projets associés d’une tâche.',
-      'Interacting with Maniphest Tasks' => 'Interaction avec les tâches de Maniphest',
-      '%s changed the task status from %s to %s.' => '%s a modifié l’état de la tâche de %s en %s.',
-      'List of task IDs, as array.' => 'Liste d’identifiants de tâche, sous forme de tableau.',
-      'Specify exactly one of \'%s\' and \'%s\'.' => 'Spécifiez exactement une valeur parmi « %s » et « %s ».',
-      'Edit Locked Task' => 'Modifier la tâche verrouillée',
-      'Assigned' => 'Affecté',
-      '%s reopened %s as %s by committing %s.' => '%s a rouvert %s en tant que %s en validant %s.',
-      'Change Estimate' => 'Modifier l’estimation',
-      'Closed as Duplicate' => 'Fermer en tant que doublon',
-      '%s merged task %s into %s.' => '%s a fusionné la tâche %s dans %s.',
-      'Estimated Hours' => 'Heures estimées',
-      '%s changed the status of subtask %s from %s to %s.' => '%s a changé l’état de la sous-tâche %s de %s en %s.',
-      'Lowered Priority' => 'Priorité réduite',
-      'Execute complex searches for Maniphest tasks.' => 'Exécuter des recherches complexes de tâches de Maniphest.',
-      'Closed By' => 'Fermée par',
-      'This page documents the commands you can use to interact with tasks in Maniphest. These commands work when creating new tasks via email and when replying to existing tasks.' => 'Cette page documente les commandes que vous pouvez utiliser pour interagir avec les tâches dans Maniphest. Ces commandes fonctionnent lors de la création de nouvelles tâches par courriel et lors des réponses à des tâches existantes.',
-      '%s closed this task as %s by committing %s.' => '%s a fermé cette tâche en tant que %s en validant %s.',
-      'Allows you to define task subtypes. Subtypes let you hide fields you don\'t
-    need to simplify the workflows for editing tasks.
-    To define subtypes, provide a list of subtypes. Each subtype should be a
-    dictionary with these keys:
-      - `key` //Required string.// Internal identifier for the subtype, like
-        "task", "feature", or "bug".
-      - `name` //Required string.// Human-readable name for this subtype, like
-        "Task", "Feature Request" or "Bug Report".
-      - `tag` //Optional string.// Tag text for this subtype.
-      - `color` //Optional string.// Display color for this subtype.
-      - `icon` //Optional string.// Icon for the subtype.
-      - `children` //Optional map.// Configure options shown to the user when
-         they "Create Subtask". See below.
-      - `fields` //Optional map.// Configure field behaviors. See below.
-      - `mutations` //Optional list.// Configure which subtypes this subtype
-        can easily be converted to by using the "Change Subtype" action. See below.
-    Each subtype must have a unique key, and you must define a subtype with
-    the key "%s", which is used as a default subtype.
-    The tag text (`tag`) is used to set the text shown in the subtype tag on list
-    views and workboards. If you do not configure it, the default subtype will have
-    no subtype tag and other subtypes will use their name as tag text.
-    The `children` key allows you to configure which options are presented to the
-    user when they "Create Subtask" from a task of this subtype. You can specify
-    these keys:
-      - `subtypes`: //Optional list<string>.// Show users creation forms for these
-        task subtypes.
-      - `forms`: //Optional list<string|int>.// Show users these specific forms,
-        in order.
-    If you don\'t specify either constraint, users will be shown creation forms
-    for the same subtype.
-    For example, if you have a "quest" subtype and do not configure `children`,
-    users who click "Create Subtask" will be presented with all create forms for
-    "quest" tasks.
-    If you want to present them with forms for a different task subtype or set of
-    subtypes instead, use `subtypes`:
-    ```
-      {
-        ...
-        "children": {
-          "subtypes": ["objective", "boss", "reward"]
-        }
-        ...
-      }
-    ```
-    If you want to present them with specific forms, use `forms` and specify form
-    IDs:
-    ```
-      {
-        ...
-        "children": {
-          "forms": [12, 16]
-        }
-        ...
-      }
-    ```
-    When specifying forms by ID explicitly, the order you specify the forms in will
-    be used when presenting options to the user.
-    If only one option would be presented, the user will be taken directly to the
-    appropriate form instead of being prompted to choose a form.
-    The `fields` key can configure the behavior of custom fields on specific
-    task subtypes. For example:
-    ```
-      {
-        ...
-        "fields": {
-          "custom.some-field": {
-            "disabled": true
-          }
-        }
-        ...
-      }
-    ```
-    Each field supports these options:
-      - `disabled` //Optional bool.// Allows you to disable fields on certain
-        subtypes.
-      - `name` //Optional string.// Custom name of this field for the subtype.
-    The `mutations` key allows you to control the behavior of the "Change Subtype"
-    action above the comment area. By default, this action allows users to change
-    the task subtype into any other subtype.
-    If you\'d prefer to make it more difficult to change subtypes or offer only a
-    subset of subtypes, you can specify the list of subtypes that "Change Subtypes"
-    offers. For example, if you have several similar subtypes and want to allow
-    tasks to be converted between them but not easily converted to other types,
-    you can make the "Change Subtypes" control show only these options like this:
-    ```
-      {
-        ...
-        "mutations": ["bug", "issue", "defect"]
-        ...
-      }
-    ```
-    If you specify an empty list, the "Change Subtypes" action will be completely
-    hidden.
-    This mutation list is advisory and only configures the UI. Tasks may still be
-    converted across subtypes freely by using the Bulk Editor or API.
-    ' => 'vous permet de définir des sous-types de tâches. Les sous-types vous permettent de masquer les champs dont vous n\'avez pas besoin pour simplifier les processus de travail pour l\'édition des tâches.
-    Pour définir des sous-types, fournissez une liste de sous-types. Chaque sous-type doit être un dictionnaire avec ces clés :
-      - `key` //Chaîne obligatoire.// Identifiant interne du sous-type, comme « task », « feature » ou « bug ».
-      - `name` //Chaîne obligatoire.// Nom lisible par l\'homme pour ce sous-type, comme « task », « Feature Request » ou « Bug Report ».
-      - `tag` //Chaîne facultative.// Texte de balise pour ce sous-type.
-      - `color` //Chaîne facultative.// Couleur d\'affichage pour ce sous-type.
-      - `icon` //Chaîne facultative.// Icône du sous-type.
-      - `children` //Carte facultative.// Configure les options affichées à l\'utilisateur lorsqu\'il crée une sous-tâche avec « Create Subtask ». Voir plus loin.
-      - `fields` //Carte facultative.// Configure les comportements des champs. Voir plus loin.
-      - `mutations` //Liste facultative.// Configure les sous-types vers lesquels ce sous-type peut facilement être converti en utilisant l\'action « Change Subtype ». Voir plus loin.
-    Chaque sous-type doit avoir une clé unique, et vous devez définir un sous-type avec la clé « %s » qui est utilisée comme sous-type par défaut.
-    Le texte de la balise (`tag`) est utilisé pour définir le texte affiché dans la balise de sous-type sur les vues de liste et les tableaux de travail. Si vous ne le configurez pas, le sous-type par défaut n\'aura aucune balise de sous-type et les autres sous-types utiliseront leur nom comme texte de balise.
-    La clé `children` vous permet de configurer les options présentées à l\'utilisateur lorsqu\'il « Crée une sous-tâche » à partir d\'une tâche de ce sous-type. Vous pouvez spécifier ces clés :
-      - `subtypes` : //Liste facultative de type chaîne.// Affiche les formulaires de création d\'utilisateurs pour ces sous-types de tâches.
-      - `forms`: //Liste facultative de type chaîne ou entier.// Affiche aux utilisateurs ces formulaires spécifiques, dans l\'ordre.
-    Si vous ne spécifiez aucune contrainte, les formulaires de création seront présentés aux utilisateurs à l\'identique du sous-type.
-    Par exemple, si vous avez un sous-type « quest » et que vous ne configurez pas « children », les utilisateurs qui cliquent sur « Create Subtask » se verront présenter tous les formulaires de création des tâches « quest ».
-    Sinon si vous souhaitez leur présenter des formulaires pour un sous-type de tâche différent ou un ensemble de sous-types, utilisez « subtypes » :
-    ```
-      {
-        ...
-        "children": {
-          "subtypes": ["objective", "boss", "reward"]
-        }
-        ...
-      }
-    ```
-    Si vous souhaitez leur présenter des formulaires spécifiques, utilisez `forms` et spécifiez les ID de formulaire :
-    ```
-      {
-        ...
-        "children": {
-          "forms": [12, 16]
-        }
-        ...
-      }
-    ```
-    Lorsque vous spécifiez explicitement des formulaires par ID, l\'ordre dans lequel vous spécifiez les formulaires sera utilisé lors de la présentation des options à l\'utilisateur.
-    Si une seule option est présentée, l\'utilisateur sera directement dirigé vers le formulaire approprié au lieu d\'être invité à choisir un formulaire.
-    La clé `fields` peut configurer le comportement des champs personnalisés pour des sous-types de tâches spécifiques. Par exemple :
-    ```
-      {
-        ...
-        "fields": {
-          "custom.some-field": {
-            "disabled": true
-          }
-        }
-        ...
-      }
-    ```
-    Chaque champ prend en charge ces options :
-      - `disabled` //Booléen facultatif.// Permet de désactiver les champs sur certains sous-types.
-      - `name` //Chaîne facultative.// Nom personnalisé de ce champ pour le sous-type.
-    La clé `mutations` permet de contrôler le comportement de l\'action « Change Subtype » au-dessus de la zone de commentaire. Par défaut, cette action permet aux utilisateurs de changer le sous-type de tâche en n\'importe quel autre sous-type.
-    Si vous préférez rendre plus difficile la modification des sous-types ou proposer uniquement un sous-ensemble de sous-types, vous pouvez spécifier la liste des sous-types que « Change Subtypes » propose. Par exemple, si vous avez plusieurs sous-types similaires et que vous souhaitez autoriser la conversion des tâches entre ceux-ci mais pas leur conversion facile vers d\'autres types, vous pouvez faire en sorte que le contrôle « Change Subtypes » n\'affiche que ces options comme ceci :
+  'Create Task' => 'Créer une tâche',
+  'Burnup Rate' => 'Taux d’adéquation',
+  'Triage' => 'Triage',
+  'Define task subtypes.' => 'Définir les sous-types de tâches.',
+  '%s removed %s as the assignee of this task.' => '%s a retiré l’assignation de %s à cette tâche.',
+  'Priority of the task.' => 'Priorité de la tâche',
+  'Weigh In' => 'Peser dedans',
+  'Task Fields' => 'Champs de la tâche',
+  'Assignee' => 'Affecté à',
+  'Open Parents' => 'Ouvrir les parents',
+  'Update an existing Maniphest task.' => 'Met à jour une tâche existante de Maniphest.',
+  'List of columns to move the task to.' => 'Liste des colonnes où la tâche doit être déplacée.',
+  'A task\'s subscribers change.' => 'Un changement des abonnées à la tâche.',
+  'Change Points' => 'Modifier les points',
+  'Returns information about the possible statuses for Maniphest tasks.' => 'Fournit des informations sur les états possibles des tâches Maniphest.',
+  '%s closed %s as %s.' => '%s a fermé %s en tant que %s.',
+  'This task has been locked.' => 'Cette tâche a été verrouillée.',
+  '%s added %s commit(s) to %s: %s.' => '%s a ajouté %s validation(s) à %s : %s.',
+  'Edits Locked' => 'Modifications verrouillées',
+  '%s claimed %s.' => '%s a réclamé %s.',
+  'TASK DETAIL' => 'DÉTAIL DE LA TÂCHE',
+  '%s closed this task as a duplicate by committing %s.' => '%s a fermé cette tâche comme doublon en validant %s.',
+  'Search Subtasks' => 'Rechercher les sous-tâches',
+  'Merged' => 'Fusionné',
+  'Closed after %s' => 'Fermé après %s',
+  'Changed Task Priority' => 'Priorité de la tâche modifiée',
+  'Retrieve Maniphest task transactions.' => 'Extraire les transactions de tâche Maniphest.',
+  'New task name.' => 'Nouveau nom de tâche.',
+  '%s changed the point value for this task from %s to %s.' => '%s a modifié la valeur du point pour cette tâche de %s en %s.',
+  'Changed task priority to "%s".' => 'Priorité de tâche modifiée en « %s ».',
+  'Tasks must have a title.' => 'Les tâches doivent avoir un titre.',
+  'Retrieve information about possible Maniphest task status values.' => 'Récupérer les informations sur les valeurs possibles d’état de tâche pour Maniphest.',
+  'Oldest (Pri)' => 'Plus ancien (Pri)',
+  'Unblock' => 'Débloquer',
+  'Select and reorder task fields.' => 'Sélectionner et réorganiser les champs de la tâche.',
+  'Description Preview' => 'Prévisualisation de la description',
+  '%s changed the subtype of %s from "%s" to "%s".' => '%s a changé le sous-type de %s de « %s » en « %s ».',
+  'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => 'La configuration ne définit aucun statut de tâche possédant l’attribut spécial « %s », mais vous devez spécifier un statut qui remplit ce rôle spécial.',
+  'Oldest open task.' => 'Plus ancienne tâche ouverte.',
+  'Duplicates Merged Here' => 'Doublons fusionnés ici',
+  'Change the parents of this task.' => 'Modifier les parents de cette tâche.',
+  'You can only select a parent task when creating a transaction for the first time.' => 'Vous pouvez uniquement sélectionner une tâche parente lors de la première création d’une transaction.',
+  'Subtasks' => 'Sous-tâches',
+  'Update has no effect.' => 'La mise à jour n’a aucun effet.',
+  '○ %s' => '○ %s',
+  'Maniphest Reports' => 'Rapports Maniphest',
+  'This task is closed as a duplicate. Only comment if you think that this task is not a duplicate.' => 'Cette tâche est fermée en tant que doublon. Ne la commentez que si vous pensez qu’il ne s’agit pas d’un doublon.',
+  'Update the task description.' => 'Mettre à jour la description de la tâche.',
+  'From Email' => 'Par courriel',
+  'List of related commit PHIDs.' => 'Liste des PHID de validation associés.',
+  'Show Only Tasks With Open Parents' => 'Ne montrer que les tâches avec des parents ouverts',
+  'Needs Triage' => 'Nécessite un triage',
+  'Minimal Valid Config' => 'Configuration minimum valable',
+  'The source task is associated with the destination commit.' => 'Cette tâche source est associée avec la validation de destination.',
+  'Story Points' => 'Points d’histoire',
+  'Closed, Spite' => 'Fermé, contrarié',
+  '%s changed file(s), attached %s: %s; detached %s: %s.' => '%s a modifié des fichiers, en a attaché %s : %s ; en a détaché %s : %s.',
+  '%s closed this task as a duplicate of %s.' => '%s a clos cette tâche en tant que doublon de %s.',
+  'Task IDs must be integer numbers.' => 'Les identifiants de tâche doivent être des entiers.',
+  'Set Sail for Adventure' => 'Lever l’ancre pour l’aventure',
+  'Allows you to edit, add, or remove the task statuses available in Maniphest,
+like "Open", "Resolved" and "Invalid". The configuration should contain a map
+of status constants to status specifications (see defaults below for examples).
+
+The constant for each status should be 1-12 characters long and  contain only
+lowercase letters and digits. Valid examples are "open", "closed", and
+"invalid". Users will not normally see these values.
+
+The keys you can provide in a specification are:
+
+  - `name` //Required string.// Name of the status, like "Invalid".
+  - `name.full` //Optional string.// Longer name, like "Closed, Invalid". This
+    appears on the task detail view in the header.
+  - `name.action` //Optional string.// Action name for email subjects, like
+    "Marked Invalid".
+  - `closed` //Optional bool.// Statuses are either "open" or "closed".
+    Specifying `true` here will mark the status as closed (like "Resolved" or
+    "Invalid"). By default, statuses are open.
+  - `special` //Optional string.// Mark this status as special. The special
+    statuses are:
+    - `default` This is the default status for newly created tasks. You must
+      designate one status as default, and it must be an open status.
+    - `closed` This is the default status for closed tasks (for example, tasks
+      closed via the "!close" action in email or via the quick close button in
+      Maniphest). You must designate one status as the default closed status,
+      and it must be a closed status.
+    - `duplicate` This is the status used when tasks are merged into one
+      another as duplicates. You must designate one status for duplicates,
+      and it must be a closed status.
+  - `transaction.icon` //Optional string.// Allows you to choose a different
+    icon to use for this status when showing status changes in the transaction
+    log. Please see UIExamples, Icons and Images for a list.
+  - `transaction.color` //Optional string.// Allows you to choose a different
+    color to use for this status when showing status changes in the transaction
+    log.
+  - `silly` //Optional bool.// Marks this status as silly, and thus wholly
+    inappropriate for use by serious businesses.
+  - `prefixes` //Optional list<string>.// Allows you to specify a list of
+    text prefixes which will trigger a task transition into this status
+    when mentioned in a commit message. For example, providing "closes" here
+    will allow users to move tasks to this status by writing `Closes T123` in
+    commit messages.
+  - `suffixes` //Optional list<string>.// Allows you to specify a list of
+    text suffixes which will trigger a task transition into this status
+    when mentioned in a commit message, after a valid prefix. For example,
+    providing "as invalid" here will allow users to move tasks
+    to this status by writing `Closes T123 as invalid`, even if another status
+    is selected by the "Closes" prefix.
+  - `keywords` //Optional list<string>.// Allows you to specify a list
+    of keywords which can be used with `!status` commands in email to select
+    this status.
+  - `disabled` //Optional bool.// Marks this status as no longer in use so
+    tasks can not be created or edited to have this status. Existing tasks with
+    this status will not be affected, but you can batch edit them or let them
+    die out on their own.
+  - `claim` //Optional bool.// By default, closing an unassigned task claims
+    it. You can set this to `false` to disable this behavior for a particular
+    status.
+  - `locked` //Optional string.// Lock tasks in this status. Specify "comments"
+    to lock comments (users who can edit the task may override this lock).
+    Specify "edits" to prevent anyone except the task owner from making edits.
+  - `mfa` //Optional bool.// Require all edits to this task to be signed with
+    multi-factor authentication.
+
+Statuses will appear in the UI in the order specified. Note the status marked
+`special` as `duplicate` is not settable directly and will not appear in UI
+elements, and that any status marked `silly` does not appear if the software
+is configured with `phabricator.serious-business` set to true.
+
+Examining the default configuration and examples below will probably be helpful
+in understanding these options.
+' => 'Vous permet de modifier, ajouter ou supprimer les statuts des tâches disponibles dans Maniphest, comme
+« Ouvert », « Résolu » ou « Invalide ». La configuration doit contenir une carte des constantes de statut avec les spécifications de statut (voir les valeurs par défaut ci-dessous pour des exemples).
+
+La constante de chaque statut doit comporter entre 1 et 12 caractères et ne contenir que des lettres minuscules et des chiffres. Les exemples valides sont « ouvert », « fermé » et « invalide ». Les utilisateurs ne verront normalement pas ces valeurs.
+
+Les clés que vous pouvez fournir dans une spécification sont :
+
+  - `name` //Chaîne obligatoire.// Nom du statut, comme « Invalide ».
+  - `name.full` //Chaîne facultative.// Nom plus long, comme « Fermé, Invalide ». Cela apparaît dans la vue détaillée de la tâche dans l\'entête.
+  - `name.action` //Chaîne facultative.// Nom de l\'action pour les sujets des e-mails, comme « Marqué comme invalide ».
+  - `closed` //Booléen facultatif.// Les statuts sont soit « ouvert » soit « fermé ». En spécifiant `true` ici, le statut sera marqué comme fermé (comme avec « Résolu » ou « Invalide »). Par défaut, les statuts sont ouverts.
+  - `special` //Chaîne facultative.// Marque ce statut comme spécial. Les statuts spéciaux sont :
+    * `default` Il s\'agit du statut par défaut pour les tâches nouvellement créées. Vous devez désigner un statut le statut par default, et il doit s\'agir d\'un statut ouvert.
+    * `closed` Il s\'agit du statut par défaut pour les tâches fermées (par exemple, les tâches fermées via l\'action "!close" dans l\'e-mail ou via le bouton de fermeture rapide dans Maniphest). Vous devez désigner un statut comme le statut fermé par défaut, et il doit s\'agir d\'un statut fermé.
+    * `duplicate` Il s\'agit du statut utilisé lorsque des tâches sont fusionnées les unes dans les autres en tant que doublons. Vous devez désigner un statut pour les doublons, et il doit s\'agir d\'un statut fermé.
+  - `transaction.icon` //Chaîne facultative.// Vous permet de choisir une autre icône à utiliser pour ce statut lors de l\'affichage des changements de statut dans le journal des transactions. Veuillez consulter UIExamples, Icons and Images pour une liste.
+  - `transaction.color` //Chaîne facultative.// Vous permet de choisir une autre couleur à utiliser pour ce statut lors de l\'affichage des changements de statut dans le journal des transactions.
+  - `silly` //Booléen facultatif.// Marque ce statut comme stupide, et donc totalement inapproprié pour une utilisation dans des activités sérieuses.
+  - `prefixes` //Liste facultative<chaîne>.// Vous permet de spécifier une liste de préfixes textuels qui déclencheront une transition de tâche vers ce statut lorsqu\'ils sont mentionnés dans un message de validation. Par exemple, fournir "closes" ici permettra aux utilisateurs de déplacer des tâches vers ce statut en écrivant `Closes T123` dans les messages de validation.
+  - `suffixes` //Liste facultative<chaîne>.// Permet de spécifier une liste de suffixes textuels qui déclencheront une transition de tâche vers cet état lorsqu\'ils sont mentionnés dans un message de validation, après un préfixe valide. Par exemple, fournir "as invalide" ici permettra aux utilisateurs de déplacer des tâches vers cet état en écrivant `Closes T123 as invalide`, même si un autre état est sélectionné par le préfixe "Closes".
+  - `keywords` //Liste facultative<chaîne>.// Permet de spécifier une liste de mots-clés qui peuvent être utilisés avec les commandes `!status` dans l\'e-mail pour sélectionner cet état.
+  - `disabled` //Booléen facultatif.// Marque cet état comme n\'étant plus utilisé, les tâches ne peuvent donc pas être créées ou modifiées pour avoir cet état. Les tâches existantes avec cet état ne seront pas affectées, mais vous pouvez les modifier par lots ou les laisser s\'éteindre d\'elles-mêmes.
+  - `claim` //Booléen facultatif.// Par défaut, la fermeture d\'une tâche non attribuée la revendique. Vous pouvez définir cette valeur sur `false` pour désactiver ce comportement pour un état particulier.
+  - `locked` //Chaîne facultative.// Verrouille les tâches dans cet état. Spécifiez "comments" pour verrouiller les commentaires (les utilisateurs qui peuvent modifier la tâche peuvent outrepasser ce verrou). Spécifiez "edits" pour empêcher quiconque, à l\'exception du propriétaire de la tâche, d\'effectuer des modifications.
+  - `mfa` //Booléen facultatif.// Exige que toutes les modifications apportées à cette tâche soient signées avec l\'authentification multifacteur.
+
+Les statuts apparaîtront dans l\'interface utilisateur dans l\'ordre spécifié. Notez que les statuts marqués `special` et `duplicate` ne sont pas paramétrables directement et n\'apparaîtront pas dans les éléments de l\'interface utilisateur, et que tout état marqué `silly` n\'apparaît pas si le logiciel est configuré avec `phabricator.serious-business` défini sur true.
+
+L’examen de la configuration par défaut et des exemples ci-dessous sera probablement utile pour comprendre ces options.',
+  'Recently Closed' => 'Fermé récemment',
+  'One of a task\'s subtasks changes status.' => 'Une des sous-tâches d’une tâche a changé d’état.',
+  'Assigned Task' => 'Tâche affectée',
+  'File ("%s", with MIME type "%s") is not a viewable image file.' => 'Le fichier (« %s », avec le type MIME « %s ») n’est pas un fichier d’image visualisable.',
+  '%s updated the cover image for %s.' => '%s a modifié l’image de couverture pour %s.',
+  'Transaction specifies both "beforePHID" and "beforePHIDs". Specify only "beforePHIDs".' => 'La transaction spécifie à la fois « beforePHID » et « beforePHIDs » (avant et après les PHID). Spécifiez uniquement « beforePHIDs ».',
+  '%s updated the task description for %s.' => '%s a modifié la description de la tâche pour %s.',
+  'Activates a points field on tasks. You can use points for estimation or
+planning. If configured, points will appear on workboards.
+
+To activate points, set this value to a map with these keys:
+
+  - `enabled` //Optional bool.// Use `true` to enable points, or
+    `false` to disable them.
+  - `label` //Optional string.// Label for points, like "Story Points" or
+    "Estimated Hours". If omitted, points will be called "Points".
+  - `action` //Optional string.// Label for the action which changes points
+    in Maniphest, like "Change Estimate". If omitted, the action will
+    be called "Change Points".
+
+See the example below for a starting point.' => 'Active un champ de points sur les tâches. Vous pouvez utiliser des points pour l\'estimation ou la planification. S\'ils sont configurés, les points apparaîtront sur les tableaux de travail.
+
+Pour activer les points, définissez cette valeur sur une carte avec ces clés :
+
+- `enabled` //Booléen facultatif.// Utilisez `true` pour activer les points ou `false` pour les désactiver.
+- `label` //Chaîne facultative.// Libellé pour les points, comme « Points d\'histoire » ou « Heures estimées ». S\'il est omis, les points seront appelés « Points ».
+- `action` //Chaîne facultative.// Libellé pour l\'action qui modifie les points dans Maniphest, comme « Change Estimate ». S\'il est omis, l\'action sera appelée « Change Estimate ».
+
+Voir l\'exemple ci-dessous comme point de départ.',
+  'Status set to invalid value.' => 'État défini à une valeur invalide.',
+  'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => 'L’état « %s » est marqué comme par défaut, mais c’est un état fermé. L’état par défaut doit être un état ouvert.',
+  '[Maniphest]' => '[Maniphest]',
+  '%s lowered the priority of %s from %s to %s.' => '%s a abaissé la priorité de %s de %s à %s.',
+  'Parameter "fullText" is no longer supported. Use method "maniphest.search" with the "query" constraint instead.' => 'Le paramètre « fullText » n’est plus pris en charge. Utilisez à la place la méthode « maniphest.search » avec la contrainte « query ».',
+  'Search for tasks with given statuses.' => 'Rechercher les tâches avec des états donnés.',
+  'Task Has Revision' => 'La tâche a une version',
+  'Unbreak Now!' => 'Réparer maintenant !',
+  'Change Story Points' => 'Modifier les points d’histoire',
+  'Configure point values for tasks.' => 'Configurer les valeurs de point pour les tâches.',
+  'This task is locked. Edit it anyway?' => 'Cette tâche est verrouillée. La modifier quand même ?',
+  'Create a task in a workboard column.' => 'Créer une tâche dans une colonne du tableau de travail.',
+  'Search for tasks with given priorities.' => 'Recherche les tâches pour des priorités données.',
+  'Configure the cutoff for the "Recently Closed" column.' => 'Configurer la date butoir pour la colonne « Récemment fermé ».',
+  'Original task author.' => 'Auteur original de la tâche.',
+  'Information about task priority.' => 'Informations sur la priorité de la tâche.',
+  '%s detached %s file(s): %s.' => array(
+    
+    array(
+      '%s a détaché %s fichier : %s.',
+      '%s a détaché %s fichiers : %s.',
+    ),
+  ),
+  'Valid setting' => 'Paramètre valide',
+  'Open Subtasks' => 'Sous-tâches ouvertes',
+  'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => 'Clore une tâche. Cela remplace l’état de la tâche par l’état fermé par défaut. Pour une façon plus puissante (mais moins concise) de remplacer les états de tâches, consulter `%s`.',
+  '%s removed %s parent task(s): %s.' => '%s a retiré %s tâche(s) parente(s) : %s.',
+  '%s added %s subtask(s): %s.' => array(
+    
+    array(
+      '%s a ajouté %s sous-tâche : %s.',
+      '%s a ajouté %s sous-tâches : %s.',
+    ),
+  ),
+  'Assign a task to a specific user.' => 'Affecter une tâche à un utilisateur spécifique.',
+  'Date Closed (Latest First)' => 'Date de fermeture (la plus récente en premier)',
+  'Merged In' => 'Fusionné dans',
+  '%s edited %s commit(s), added %s: %s; removed %s: %s.' => '%s a modifié %s validation(s) ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'Date Closed' => 'Date de fermeture',
+  'Task title cannot exceed %d characters.' => 'Le titre de la tâche ne peut pas dépasser %d caractères.',
+  'Edit Related Tasks...' => 'Modifier les tâches associées…',
+  'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here. Use %s to show more of the graph.' => 'Cette tâche est connectée à plus de %s autres tâches. Seuls les parents directs et les sous-tâches sont affichés ici. Utiliser %s pour afficher un graphe plus complet.',
+  '%s updated the cover image to %s.' => '%s a mis à jour l’image de couverture pour %s.',
+  '%s created subtask %s.' => '%s a créé la sous-tâche %s.',
+  'Bulk Edit Selected »' => 'Modifications en masse choisies »',
+  'No tasks found.' => 'Aucune tâche trouvée',
+  'Can Bulk Edit Tasks' => 'Peut modifier en masse les tâches',
+  'Estimated number of hours this will take.' => 'Nombre estimé d’heures que ceci pourra prendre.',
+  '(Up For Grabs)' => '(En haut pour agripper)',
+  'Related commits.' => 'Validations associées.',
+  'Assign task to: %s.' => 'Affecter la tâche à : %s.',
+  'Status "%s" is marked as the default status for closing tasks, but is not a closed status. It should be a closed status.' => 'L’état « %s » est indiqué comme état par défaut pour les tâches de clôture, mais ce n’est pas un état fermé. Il devrait être un état fermé.',
+  'Value for key "%s" should be a dictionary.' => 'La valeur associée à la clé « %s » devrait être un dictionnaire.',
+  'Assigned task to: %s.' => 'Tâche affectée à : %s.',
+  'Key "%s" is not a valid status constant. Status constants must be 1-64 alphanumeric characters and cannot be exclusively digits. For example, "%s" or "%s" are reasonable choices.' => 'La clé « %s » n’est pas une constante d’état valide. Les constantes d’état doivent être composées de 1 à 64 caractères alphanumériques et pas uniquement des chiffres. Par exemple, « %s » ou « %s » sont des choix raisonnables.',
+  'Empty withOwners() constraint is not valid.' => 'Une contrainte withOwners() vide n’est pas valide.',
+  'List of subtask PHIDs.' => 'Liste de PHID de sous-tâches.',
+  'Default view policy for newly created tasks.' => 'Politique d’affichage par défaut pour les tâches nouvellement créées.',
+  'Show Only Tasks Without Open Parents' => 'Afficher seulement les tâches sans parent ouvert',
+  '%s changed the task status from %s to %s by committing %s.' => '%s a modifié l’état de la tâche de %s en %s en validant %s.',
+  'New task description.' => 'Nouvelle description de tâche.',
+  '%s removed the point value for %s.' => '%s a supprimé la valeur de point pour %s.',
+  'Mocks' => 'Maquettes',
+  '%s removed the point value for this task.' => '%s a retiré la valeur de point pour cette tâche.',
+  'Closer' => 'Plus près',
+  '%s added %s parent task(s): %s.' => array(
+    
+    array(
+      '%s a ajouté %s tâche parent : %s.',
+      '%s a ajouté %s tâches parent : %s.',
+    ),
+  ),
+  'Change the related commits for this task.' => 'Modifier les validations associées pour cette tâche.',
+  'Subtask' => 'Sous-tâche',
+  'Configuration has two statuses both marked with the special attribute "%s" ("%s" and "%s"). There should be only one.' => 'La configuration a deux états marqués avec l’attribut spécial « %s » (« %s » et « %s »). Il ne doit y en avoir qu’un.',
+  'Set priority to' => 'Définir la priorité à',
+  'Configuration is not valid. Maniphest priority configurations must be dictionaries.' => 'La configuration n’est pas valide. Les configurations de priorités Maniphest doivent être des dictionnaires.',
+  'The task description.' => 'La description de la tâche.',
+  'Filter By Project' => 'Filtrer par projet',
+  '%s claimed this task.' => '%s a réclamé cette tâche.',
+  'Close This Task As a Duplicate Of' => 'Fermer cette tâche en tant que doublon de',
+  '%s removed %s subtask(s) for %s: %s.' => '%s a retiré %s sous-tâche(s) pour %s : %s.',
+  'Untitled Task' => 'Tâche sans titre',
+  '%s edited parent task(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs tâches mères pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'Read information about task statuses.' => 'Lire les informations sur les états de tâches.',
+  'Move a task to one or more workboard columns.' => 'Déplacer une tâche sur une ou plusieurs colonnes du tableau de travail.',
+  '%s added a cover image to %s.' => '%s a ajouté une image de couverture à %s.',
+  'Edit Subtasks' => 'Modifier les sous-tâches',
+  '%s assigned this task to %s.' => '%s a affecté cette tâche à %s.',
+  '%s placed %s up for grabs.' => '%s a placé %s comme prête à être traitée.',
+  'Change status to: %s.' => 'Changer l’état à : %s.',
+  '%s raised the priority of this task from %s to %s.' => '%s a levé la priorité de cette tâche de %s à %s.',
+  'No Forms' => 'Aucun formulaire',
+  'Hours Config' => 'Configuration des heures',
+  'Type a task subtype name...' => 'Entrez le nom d’un sous-type de tâche…',
+  'File ("%s", with MIME type "%s") can not be transformed into a thumbnail. You may be missing support for this file type in the "GD" extension.' => 'Le fichier (« %s », avec le type MIME « %s ») ne peut pas être transformé en vignette. Il est possible que ce type de fichier ne soit pas pris en charge dans l’extension « GD ».',
+  'To change the priority of a task, specify the desired priority, like `%s`. This table shows the configured names for priority levels.
+
+%s
+
+If you specify an invalid priority, the command is ignored. This command has no effect if you do not specify a priority.' => 'Pour changer la priorité d’une tâche, spécifier la priorité désirée, comme `%s`. Ce tableau montre les noms configurés de niveaux de priorité.
+
+%s
+
+Si vous spécifiez une priorité non valide, la commande est ignorée. Cette commande n’a aucun effet si vous ne spécifiez pas de priorité.',
+  '%s edited %s revision(s), added %s: %s; removed %s: %s.' => '%s a modifié %s version(s) ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'Search for tasks updated after a certain date.' => 'Rechercher les tâches mises à jour après une certaine date.',
+  'Assign task to me' => 'M’affecter la tâche',
+  '%s changed the status of %s, a subtask of %s, from %s to %s.' => '%s a modifié l’état de %s, une sous-tâche de %s, de %s en %s.',
+  'Tasks to Close and Merge' => 'Tâches à fermer et fusionner',
+  '%s updated the task description.' => '%s a actualisé la description de la tâche.',
+  'Task to make this a subtask of.' => 'Tâche dont celle-ci doit être une sous-tâche.',
+  '%s added %s revision(s) to %s: %s.' => '%s a ajouté %s révision(s) à %s : %s.',
+  'You can not lock this task because it does not have an assignee. No one would be able to edit the task. Assign the task to an assignee before locking it.' => 'Vous ne pouvez pas verrouiller cette tâche car elle n\'a pas de responsable. Personne ne pourra la modifier. Veuillez l\'attribuer à un responsable avant de la verrouiller.',
+  'Owner PHID' => 'PHID de propriétaire',
+  'Closed, Duplicate' => 'Fermée, en doublon',
+  'Epoch timestamp when the task was closed.' => 'Horodatage de l’époque où la tâche a été fermée.',
+  'task author' => 'auteur de la tâche',
+  'This method is frozen and will eventually be deprecated. New code should use "transaction.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « transaction.search » à la place.',
+  'Apply transactions to create a new task or edit an existing one.' => 'Appliquer les transactions pour créer une nouvelle tâche ou en modifier une existante.',
+  'Browse Assignees' => 'Parcourir les affectés',
+  '%s attached %d file(s) of %s: %s' => '%s a attaché %d fichier(s) de %s : %s',
+  'Status of the task.' => 'État de la tâche.',
+  'Open Tasks by User and Priority (%s)' => 'Ouvrir les tâches par utilisateur et priorité (%s)',
+  'Information about task status.' => 'Informations sur l’état de la tâche.',
+  'List of task monograms, as array.' => 'Liste des monogrammes de tâches, en tant que tableau.',
+  'Set description to' => 'Définir la description à',
+  'Subtasks.' => 'Sous-tâches.',
+  '%s closed this task as %s.' => '%s a fermé cette tâche en tant que %s.',
+  'Merge Into Selected Task' => 'Fusionner dans la tâche sélectionnée',
+  'PHID of the parent task.' => 'PHID de la tâche parente.',
+  'Configure Maniphest.' => 'Configurer Maniphest.',
+  '%s edited subtask(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs sous-tâches pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'A task is moved between columns on a workboard.' => 'Une tâche est déplacée entre des colonnes d’un tableau de travail.',
+  'Updated Before' => 'Actualisé avant',
+  '%s changed the status of %s from %s to %s by committing %s.' => '%s a modifié l’état de %s de %s en %s en validant %s.',
+  'The source task has been closed as a duplicate of the destination task.' => 'La tâche source a été fermée en tant que doublon de la tâche de destination.',
+  'Type a task status name or function...' => 'Saisir un nom d’état de tâche ou une fonction…',
+  '%s changed the point value for %s from %s to %s.' => '%s a modifié la valeur du point pour %s de %s en %s.',
+  '%s removed %s mock(s) for %s: %s.' => '%s a retiré %s simulateur(s) pour %s : %s.',
+  '%s created this task.' => '%s a créé cette tâche.',
+  'You can use this transaction type to create a task into a particular workboard
+column, or move an existing task between columns.
+
+The transaction value can be specified in several forms. Some are simpler but
+less powerful, while others are more complex and more powerful.
+
+The simplest valid value is a single column PHID:
+
+```lang=json
+"PHID-PCOL-1111"
+```
+
+This will move the task into that column, or create the task into that column
+if you are creating a new task. If the task is currently on the board, it will
+be moved out of any exclusive columns. If the task is not currently on the
+board, it will be added to the board.
+
+You can also perform multiple moves at the same time by passing a list of
+PHIDs:
+
+```lang=json
+["PHID-PCOL-2222", "PHID-PCOL-3333"]
+```
+
+This is equivalent to performing each move individually.
+
+The most complex and most powerful form uses a dictionary to provide additional
+information about the move, including an optional specific position within the
+column.
+
+The target column should be identified as `columnPHID`, and you may select a
+position by passing either `beforePHIDs` or `afterPHIDs`, specifying the PHIDs
+of tasks currently in the column that you want to move this task before or
+after:
+
+```lang=json
+[
+  {
+    "columnPHID": "PHID-PCOL-4444",
+    "beforePHIDs": ["PHID-TASK-5555"]
+  }
+]
+```
+
+When you specify multiple PHIDs, the task will be moved adjacent to the first
+valid PHID found in either of the lists. This allows positional moves to
+generally work as users expect even if the client view of the board has fallen
+out of date and some of the nearby tasks have moved elsewhere.' => 'Vous pouvez utiliser ce type de transaction pour créer une tâche dans une colonne particulière du tableau de travail ou déplacer une tâche existante entre les colonnes.
+
+La valeur de la transaction peut être spécifiée sous plusieurs formes. Certaines sont plus simples mais moins puissantes, tandis que d\'autres sont plus complexes et plus puissantes.
+
+La valeur valide la plus simple est une colonne unique PHID :
+
+```lang=json
+!"PHID-PCOL-1111"
+```
+
+Cela déplacera la tâche dans cette colonne ou créera la tâche dans cette colonne si vous créez une nouvelle tâche. Si la tâche est actuellement sur le tableau, elle sera déplacée hors de toutes les autres colonnes. Si la tâche n\'est pas actuellement sur le tableau, elle sera ajoutée au tableau.
+
+Vous pouvez également effectuer plusieurs déplacements en même temps en transmettant une liste de PHID :
+
+```lang=json
+["PHID-PCOL-2222", "PHID-PCOL-3333"]
+```
+
+Cela équivaut à effectuer chaque déplacement individuellement.
+
+La forme la plus complexe et la plus puissante utilise un dictionnaire pour fournir des informations supplémentaires sur le déplacement, y compris une position spécifique facultative dans la colonne.
+
+La colonne cible doit être identifiée comme `columnPHID`, et vous pouvez sélectionner une position en transmettant soit `beforePHIDs` soit `afterPHIDs`, en spécifiant les PHID des tâches actuellement dans la colonne avant lesquelles vous souhaitez déplacer cette tâche ou après :
+
+```lang=json
+[
+  {
+    "columnPHID": "PHID-PCOL-4444",
+    "beforePHIDs": ["PHID-TASK-5555"]
+  }
+]
+```
+
+Lorsque vous spécifiez plusieurs PHID, la tâche sera déplacée à côté du premier PHID valide trouvé dans l\'une des listes. Cela permet aux déplacements positionnels de fonctionner généralement comme les utilisateurs s\'y attendent, même si la vue client du tableau est devenue obsolète et que certaines des tâches à proximité ont été déplacées ailleurs.',
+  'Search...' => 'Rechercher…',
+  'Task Graph' => 'Graphique de la tâche',
+  'Allows you to edit or override the default priorities available in Maniphest,
+like "High", "Normal" and "Low". The configuration should contain a map of
+numeric priority values (where larger numbers correspond to higher priorities)
+to priority specifications (see defaults below for examples).
+
+The keys you can define for a priority are:
+
+  - `name` //Required string.// Name of the priority.
+  - `keywords` //Required list<string>.// List of unique keywords which identify
+    this priority, like "high" or "low". Each priority must have at least one
+    keyword and two priorities may not share the same keyword.
+  - `short` //Optional string.// Alternate shorter name, used in UIs where
+    there is less space available.
+  - `color` //Optional string.// Color for this priority, like "red" or
+    "blue".
+  - `disabled` //Optional bool.// Set to true to prevent users from choosing
+    this priority when creating or editing tasks. Existing tasks will not be
+    affected, and can be batch edited to a different priority or left to
+    eventually die out.
+
+You can choose the default priority for newly created tasks with
+"maniphest.default-priority".' => 'Vous permet de modifier ou de remplacer les priorités par défaut disponibles dans Maniphest, comme « Haute », « Normale » et « Basse ». La configuration doit contenir une carte de valeurs de priorité numériques (les nombres les plus élevés correspondant à des priorités plus élevées) aux spécifications de priorité (voir les valeurs par défaut ci-dessous pour des exemples).
+
+Les clés que vous pouvez définir pour une priorité sont :
+
+  - `name` //Chaîne obligatoire.// Nom de la priorité.
+  - `keywords` //Liste obligatoire<chaîne> .// Liste de mots-clés uniques qui identifient cette priorité, comme « haute » ou « basse ». Chaque priorité doit avoir au moins un mot-clé et deux priorités ne peuvent pas partager le même mot-clé.
+  - `short` //Chaîne facultative.// Nom plus court alternatif, utilisé dans les interfaces utilisateur où il y a moins d\'espace disponible.
+  - `color` //Chaîne facultative.// Couleur pour cette priorité, comme « rouge » ou « bleu ».
+  - `disabled` //Booléen facultatif.// Définissez sur true pour empêcher les utilisateurs de choisir cette priorité lors de la création ou de la modification de tâches. Les tâches existantes ne seront pas affectées et peuvent être modifiées par lots avec une priorité différente ou laissées s\'éteindre éventuellement.
+
+Vous pouvez choisir la priorité par défaut pour les tâches nouvellement créées avec "maniphest.default-priority".',
+  'Parent IDs' => 'IDs parents',
+  'You can not remove the assignee of this task because it is locked and no one would be able to edit the task. Reassign the task or unlock it before removing the assignee.' => 'Vous ne pouvez pas supprimer le responsable de cette tâche car elle est verrouillée et personne ne pourrait la modifier. Veuillez réaffecter la tâche ou la déverrouiller avant de supprimer le responsable.',
+  'Wishlist' => 'Liste de souhaits',
+  'When moving objects between columns on a board, columns must be identified by PHIDs. This transaction uses "%s" to identify a column, but that is not a valid column PHID.' => 'En déplaçant les objets entre les colonnes d’un tableau, les colonnes doivent être identifiées avec des PHID. Cette transaction utilise « %s » pour identifier une colonne, mais ce n’est pas un PHID de colonne valide.',
+  'Points value must be numeric or empty.' => 'La valeur des points doit être numérique ou vide.',
+  'This method is frozen and will eventually be deprecated. New code should use "maniphest.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « maniphest.search » à la place.',
+  'Custom Maniphest fields.' => 'Champs Maniphest personnalisés.',
+  'Key "%s" is not a valid priority constant. Priority constants must be nonnegative integers.' => 'La clé « %s » n’est pas une constante de priorité valide. Les constantes de priorité doivent être des entiers non négatifs.',
+  '%s removed %s mock(s): %s.' => '%s a retiré %s tâche(s) : %s.',
+  '%s edited mock(s), added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs maquettes ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'Default task priority for create flows.' => 'Priorité de tâche par défaut pour créer des flux.',
+  'Show Only Tasks With Open Subtasks' => 'N’afficher que les tâches avec des sous-tâches ouvertes',
+  'Merge Duplicates Into This Task' => 'Fusionner les doublons dans cette tâche',
+  '%s lowered the priority of this task from %s to %s.' => '%s a abaissé la priorité de cette tâche de %s en %s.',
+  '(Not Assigned)' => '(Non affecté)',
+  '(Ungrouped)' => '(Non groupé)',
+  'Task' => 'Tâche',
+  'Search for tasks created before a certain date.' => 'Rechercher les tâches créées avant une certaine date.',
+  'Test rules which run when a task is created or updated.' => 'Règles de test qui s’exécutent quand une tâche est créée ou mise à jour.',
+  'List of custom fields for Maniphest tasks.
+
+For details on adding custom fields to Maniphest, see [[ %s | %s ]] in the
+documentation.' => 'Liste des champs personnalisés pour les tâches Maniphest.
+
+Pour plus de détails sur l\'ajout de champs personnalisés à Maniphest, voir [[ %s | %s ]] dans la documentation.',
+  'React to tasks being created or updated.' => 'Réagir aux tâches créées ou mises à jour.',
+  '%s removed the point value %s for this task.' => '%s a retiré la valeur de point %s pour cette tâche.',
+  'Blocker' => 'Bloqueur',
+  'Type a task priority name...' => 'Saisir un nom de priorité de tâche...',
+  'Configure Maniphest priority names.' => 'Configurer les noms de priorité de Maniphest.',
+  'This method is frozen and will eventually be deprecated. New code should use "maniphest.edit" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « maniphest.edit » à la place.',
+  'Close As Duplicate' => 'Fermer en tant que doublon',
+  'Reassigned' => 'Réaffectée',
+  'Change the task status.' => 'Modifier l’état de la tâche.',
+  'Block' => 'Bloquer',
+  'Claimed' => 'Réclamée',
+  'New task point value.' => 'Nouvelle valeur de point de tâche.',
+  'Configuration is not valid. Maniphest points configuration must be a dictionary.' => 'La configuration n’est pas valide. La configuration des points de Maniphest doit être un dictionnaire.',
+  'Returns information about the possible priorities for Maniphest tasks.' => 'Renvoie des informations sur les priorités possibles pour les tâches Maniphest.',
+  'One or more PHIDs were invalid for %s.' => 'Un ou plusieurs PHID n’étaient pas valides pour %s.',
+  'Select All' => 'Tout sélectionner',
+  'This task has no parent tasks and no subtasks, so there is no graph to draw.' => 'Cette tâche n’a pas de tâches parentes ni de sous-tâches, il n’y a donc aucun graphe à tracer.',
+  'User who is responsible for the task.' => 'Utilisateur responsable de la tâche.',
+  'Task Author' => 'Auteur de la tâche',
+  'Closed Before' => 'Fermé avant',
+  'Subtask IDs' => 'IDs des sous-tâches',
+  'Configure Maniphest Task Forms' => 'Configurer les formulaires des tâches de Maniphest',
+  '(No Project)' => '(Aucun projet)',
+  'This task is directly connected to more than %s other tasks, which is too many tasks to display. Use %s to browse parents or subtasks.' => 'Cette tâche est directement connectée à plus de %s autres tâches, ce qui fait trop de tâches à afficher. Utiliser %s pour parcourir les tâches parentes ou sous-tâches.',
+  'Duplicates' => 'Doublons',
+  'Task Locked' => 'Tâche verrouillée',
+  'Edit Task: %s' => 'Modifier la tâche : %s',
+  '%s merged %s task(s) %s into %s.' => '%s a fusionné %s tâche(s) %s en %s.',
+  'No tasks.' => 'Aucune tâche.',
+  'Feature Request' => 'Demande de fonctionnalité',
+  'Priorities' => 'Priorités',
+  'Priority Name' => 'Nom de priorité',
+  'Task description.' => 'Description de la tâche.',
+  'Current Subtasks' => 'Sous-tâches actuelles',
+  'Change the subtasks of this task.' => 'Changer les sous-tâches de cette tâche.',
+  'Task Has Commit' => 'La tâche a des validations',
+  'Type a task status name...' => 'Saisissez un nom d’état de tâche...',
+  'Save Subtasks' => 'Enregistrer les sous-tâches',
+  'Assign yourself as the owner of a task. To assign another user, see `%s`.' => 'Affectez-vous en tant que propriétaire d’une tâche. Pour affecter un autre utilisateur, voir `%s`.',
+  'Task Priority' => 'Priorité de tâche',
+  '%s added %s subtask(s) for %s: %s.' => '%s a ajouté %s sous-tâche(s) pour %s : %s.',
+  'Parent Task' => 'Tâche parente',
+  'Parent tasks.' => 'Tâches parentes.',
+  'File PHID ("%s") is invalid, or you do not have permission to view it.' => 'Le fichier PHID (« %s ») n’est pas valide ou vous n’avez pas la permission de le consulter.',
+  'Priority set to invalid value.' => 'Priorité définie sur une valeur non valide.',
+  'Points value must be nonnegative.' => 'La valeur des points ne doit pas être négative.',
+  'Type a username or "none"...' => 'Saisir un nom d’utilisateur ou « none »...',
+  'Maniphest Project Name Cache' => 'Cache de nom de projet de Maniphest',
+  'Comma-separated list of task IDs.' => 'Liste d’identifiants de tâche séparés par des virgules.',
+  'To assign a task to another user, provide their username. For example, to assign a task to `%s`, write `%s`.
+
+If you omit the username or the username is not valid, this behaves like `%s` and assigns the task to you instead.' => 'Pour affecter une tâche à un autre utilisateur, indiquez son nom d’utilisateur. Par exemple, pour affecter une tâche à `%s`, écrivez `%s`.
+
+Si vous omettez le nom d’utilisateur ou si le nom d’utilisateur n\'est pas valide, cela se comporte comme `%s` et la tâche vous est affectée à la place.',
+  'Edit Parent Tasks' => 'Modifier les tâches parentes',
+  'Spite' => 'Contrarier',
+  'Email Commands: Tasks' => 'Commandes de courriel : tâches',
+  'This task is directly connected to more than %s other tasks. Use %s to browse parents or subtasks, or %s to show more of the graph.' => 'Cette tâche est directement connectée à plus de %s autres tâches. Utilisez %s pour afficher les tâches parentes ou les sous-tâches, ou %s pour afficher un graphe plus étendu.',
+  'Comma-separated list of task monograms.' => 'Liste de monogrammes de tâche séparés par des virgules.',
+  '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s validation(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'Set title to' => 'Définir le titre à',
+  'Graph' => 'Graphe',
+  'Retrieve information about a Maniphest task, given its ID.' => 'Récupérer des informations sur une tâche Maniphest, étant donné son identifiant.',
+  'Search for tasks owned by a user from a list.' => 'Rechercher les tâches appartenant à un utilisateur dans une liste.',
+  '%s assigned %s to %s.' => '%s a affecté %s à %s',
+  'Current task assignee, if task is assigned.' => 'Responsable actuel de la tâche, si la tâche est attribuée.',
+  'Use Maniphest to track bugs, features, todos, or anything else you need to get done. Tasks assigned to you will appear here.' => 'Utilisez Maniphest pour suivre les bogues, les fonctionnalités, les tâches ou tout ce dont vous avez besoin. Les tâches qui vous sont affectées apparaîtront ici.',
+  'Default edit policy for newly created tasks.' => 'Politique de modification par défaut pour les tâches nouvellement créées.',
+  'Change the priority of a task.' => 'Changer la priorité d’une tâche.',
+  '%s closed %s, a subtask of %s, as %s.' => '%s a fermé %s, une sous-tâche de %s, en tant que %s.',
+  'The source task has had the destination task closed as a duplicate and merged into it.' => 'La tâche source a eu la tâche de destination fermée en tant que doublon et fusionnée avec celle-ci.',
+  'Mixture of PHIDs, IDs and monograms.' => 'Mélange de PHID, identifiants et monogrammes.',
+  'Send email to these addresses to create tasks. %s' => 'Envoyez un courriel aux adresses suivantes pour créer des tâches. %s',
+  'Low' => 'Faible',
+  'The author of this task can take this action.' => 'L’auteur de cette tâche peut effectuer cette action.',
+  'Configure Maniphest task statuses.' => 'Configurer les états de tâche Maniphest.',
+  'Save Parent Tasks' => 'Enregistrer les tâches parentes',
+  'WORKBOARD' => 'TABLEAU DE TRAVAIL',
+  'Set status to' => 'Définir le statut à',
+  'Burnup' => 'Brûler',
+  'Current Mocks' => 'Maquettes en cours',
+  '%s added %s mock(s) for %s: %s.' => '%s a ajouté %s maquette(s) pour %s : %s.',
+  'Other task activity not listed above occurs.' => 'Une autre activité de tâche non listée ci-dessus se produit.',
+  'Override Task Lock' => 'Outrepasser le verrouillage de la tâche',
+  'Points Config' => 'Configuration des points',
+  'Current Parent Tasks' => 'Tâches parentes actuelles',
+  'Recently Means' => '« Récemment » signifie',
+  'User who closed the task, if the task is closed.' => 'Utilisateur qui a fermé la tâche, si la tâche est fermée.',
+  '%s added %s mock(s): %s.' => array(
+    
+    array(
+      '%s a ajouté %s maquette : %s.',
+      '%s a ajouté %s maquettes : %s.',
+    ),
+  ),
+  '%s reassigned %s from %s to %s.' => '%s a réaffecté %s de %s à %s.',
+  'Related Objects' => 'Objets associés',
+  'A task\'s priority changes.' => 'Changements de priorité d’une tâche.',
+  'Merge Duplicates In' => 'Fusionner les doublons',
+  'Raised Priority' => 'Priorité augmentée',
+  'Oldest (All)' => 'Plus ancien (tout)',
+  'No such Maniphest task exists.' => 'Il n’existe aucune tâche Maniphest de ce type.',
+  '%s raised the priority of %s from %s to %s.' => '%s a augmenté la priorité de %s de %s à %s.',
+  'Edit Mocks' => 'Modifier les maquettes',
+  'High' => 'Haute',
+  'Move on Workboard' => 'Déplacer sur le tableau de travail',
+  'Search for tasks with given subtypes.' => 'Rechercher les tâches avec les sous-types donnés.',
+  'Closer PHID' => 'PHID du clôtureur',
+  'The title of the task.' => 'Le titre de la tâche.',
+  'Oldest open task, excluding those with priority %s' => 'Tâche ouverte la plus ancienne, excluant celles avec une priorité %s',
+  'Changed Status' => 'État changé',
+  'Comma-separated list of task PHIDs.' => 'Liste de PHID de tâche séparés par des virgules.',
+  'Column move transaction specifies column PHID "%s", but there is no corresponding column with this PHID.' => 'La transaction de déplacement de colonne spécifie la colonne PHID « %s » mais il n’y a aucune colonne correspondante avec ce PHID.',
+  'Save Related Mocks' => 'Enregistrer les maquettes associées',
+  'Wontfix' => 'Ne sera pas corrigé',
+  'List of task PHIDs, as array.' => 'Liste de PHID de tâche, sous forme de tableau.',
+  '%s renamed this task from %s to %s.' => '%s a renommé cette tâche de %s en %s.',
+  'Updated After' => 'Mis à jour après',
+  'To change the status of a task, specify the desired status, like `%s`. This table shows the configured names for statuses.
+
+%s
+
+If you specify an invalid status, the command is ignored. This command has no effect if you do not specify a status.
+
+To quickly close a task, see `%s`.' => 'Pour changer l’état d’une tâche, spécifiez l’état souhaité, comme `%s`. Le tableau suivant montre les noms d’état configurés.
+
+%s 
+
+Si vous spécifiez un état non valide, la commande est ignorée. Cette commande n’a aucun effet si vous ne spécifiez pas d’état.
+
+Pour fermer rapidement une tâche, voir `%s`.',
+  'There was an unexpected error displaying the task graph. Use %s to browse parents or subtasks, or %s to show the graph.' => 'Il y avait une erreur inattendue dans le graphique des tâches. Utilisez %s pour parcourir les parents ou les sous-tâches, ou %s pour afficher le graphique.',
+  'TASK DESCRIPTION' => 'DESCRIPTION DE LA TÂCHE',
+  '%s closed %s as %s by committing %s.' => '%s a fermé %s %s en validant %s.',
+  'Read information about task priorities.' => 'Lire les informations sur les priorités de tâche.',
+  'Change the task point value.' => 'Modifier la valeur en points de la tâche.',
+  'Create as a subtask of another task.' => 'Créer en tant que sous-tâche d’une autre tâche.',
+  '● %s' => '● %s',
+  'Show Only Tasks Without Open Subtasks' => 'Afficher seulement les tâches sans sous-tâche ouverte',
+  'Task priority "%s" is not a valid task priority. Use a priority keyword to choose a task priority: %s.' => 'La priorité de tâche « %s » n’est pas une priorité de tâche valide. Utilisez un mot-clé de priorité pour choisir une priorité de tâche : %s.',
+  '%s closed %s as a duplicate by committing %s.' => '%s a fermé %s en tant que doublon en validant %s.',
+  'Transaction specifies both "afterPHID" and "afterPHIDs". Specify only "afterPHIDs".' => 'La transaction spécifie à la fois « afterPHID » et « afterPHIDs ». Spécifiez uniquement « afterPHIDs ».',
+  'Task Unassigned' => 'Tâche non affectée',
+  'Reassign the task.' => 'Réaffecter la tâche.',
+  '%s changed file(s) for %s, attached %d: %s; detached %d: %s' => '%s a modifié un ou plusieurs fichiers pour %s ; en a attaché %d : %s ; en a détaché %d : %s.',
+  '%s closed subtask %s as %s.' => '%s a fermé la sous-tâche %s comme %s.',
+  'Open Tasks by Project and Priority (%s)' => 'Tâches ouvertes par projet et priorité (%s)',
+  'You do not have access to any forms which can be used to create a subtask.' => 'Vous n’avez accès à aucun formulaire utilisable pour créer une sous-tâche.',
+  'Configure how users create and edit tasks.' => 'Configurer comment les utilisateurs créent et modifient les tâches.',
+  'Assign task to rule author.' => 'Affecter la tâche à l’auteur de la règle.',
+  '%s detached %d file(s) of %s: %s' => '%s a détaché %d fichier(s) de %s : %s',
+  '%s closed %s as a duplicate.' => '%s a fermé %s en tant que doublon.',
+  '%s removed %s parent task(s) for %s: %s.' => '%s a retiré %s tâche(s) parente(s) pour %s : %s.',
+  'Edit Related Mocks' => 'Modifier les maquettes associées',
+  'The source object has the destination object as a parent.' => 'L’objet source a l’objet de destination comme parent.',
+  'Maniphest Task' => 'Tâche Maniphest',
+  '%s set the cover image to %s.' => '%s a défini l’image de couverture à %s.',
+  'By User' => 'Par l’utilisateur',
+  'Two different task priorities ("%s" and "%s") have the same keyword ("%s"). Keywords must uniquely identify priorities.' => 'Deux priorités de tâches différentes (« %s » et « %s ») ont le même mot-clé (« %s »). Les mots-clés doivent identifier de manière unique les priorités.',
+  'List of parent task PHIDs.' => 'Liste des PHID de tâche parente.',
+  'Change the status of a task.' => 'Modifier l’état d’une tâche.',
+  'CHANGES TO TASK DESCRIPTION' => 'MODIFICATIONS DE LA DESCRIPTION DE LA TÂCHE',
+  'Close and Merge Selected Tasks' => 'Fermer et fusionner les tâches sélectionnées',
+  'Key "%s" is not a valid priority keyword. Priority keywords must be 1-64 alphanumeric characters and cannot be exclusively digits. For example, "%s" or "%s" are reasonable choices.' => 'La clé « %s » n’est pas un mot-clé de priorité valide. Les mots-clés de priorité doivent être composés de 1 à 64 caractères alphanumériques et pas uniquement des chiffres. Par exemple, « %s » ou « %s » sont des choix raisonnables.',
+  'Browse Priorities' => 'Parcourir les priorités',
+  'Unbreak!' => 'Déblocage !',
+  'The task already has the selected priority.' => 'La tâche a déjà la priorité sélectionnée.',
+  'Assign to' => 'Affecter à',
+  '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s révision(s) pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'A task\'s status changes.' => 'Changements d’état d’une tâche.',
+  'Rename the task.' => 'Renommer la tâche.',
+  'You can not interact with this task because it is locked.' => 'Vous ne pouvez pas interagir avec cette tâche car elle est verrouillée.',
+  'Someone comments on a task.' => 'Quelqu’un commente une tâche.',
+  'New task status constant.' => 'Nouvelle constante d’état de tâche.',
+  '%s added %s parent task(s) for %s: %s.' => '%s a ajouté %s tâche(s) parente(s) pour %s : %s.',
+  'Closed After' => 'Fermée après',
+  '%s closed this task as a duplicate.' => '%s a fermé cette tâche en tant que doublon.',
+  'Status "%s" is marked as the status for closing tasks as duplicates, but it is not a closed status. It should be a closed status.' => 'L’état « %s » est marqué comme l’état de fermeture de tâches en tant que doublons, mais il ne s’agit pas d’un état fermé. Il devrait s’agir d’un état fermé.',
+  'Wish' => 'Souhait',
+  '%s set the point value for %s to %s.' => '%s a défini la valeur en points pour %s à %s.',
+  'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here.' => 'Cette tâche est connectée à plus de %s autres tâches. Seuls les parents directs et les sous-tâches sont représentés ici.',
+  'Search for tasks closed by certain users.' => 'Rechercher les tâches fermées par certains utilisateurs.',
+  '%s edited parent task(s), added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs tâches parentes ; en a ajouté %s : %s ; en a supprimé %s : %s.',
+  '%s removed %s revision(s) from %s: %s.' => '%s a retiré %s révision(s) de %s : %s.',
+  '%s merged %s task(s): %s.' => array(
+    
+    array(
+      '%s a fusionné %s tâche : %s.',
+      '%s a fusionné %s tâches : %s.',
+    ),
+  ),
+  '%s edited mock(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié %s maquette(s) ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  '%s reassigned this task from %s to %s.' => '%s a réaffecté cette tâche de %s à %s.',
+  'Triaged' => 'Triée',
+  'The source object has the destination object as a subtask.' => 'L’objet source a l’objet de destination comme sous-tâche.',
+  '%s removed %s commit(s) from %s: %s.' => '%s a retiré %s validation(s) de %s : %s.',
+  'Task Owner' => 'Propriétaire de la tâche',
+  'By Project' => 'Par projet',
+  '%s triaged %s as %s priority.' => '%s a trié %s avec la priorité %s.',
+  'Change priority to: %s.' => 'Changer la priorité à : %s.',
+  'Batch Task Editor' => 'Éditeur de tâches par lot',
+  'Search Parent Tasks' => 'Rechercher les tâches parentes',
+  'Subscribed' => 'Abonné',
+  'Unknown Status' => 'État inconnu',
+  'A task\'s associated projects change.' => 'Changement des projets associés d’une tâche.',
+  'Interacting with Maniphest Tasks' => 'Interaction avec les tâches de Maniphest',
+  '%s changed the task status from %s to %s.' => '%s a modifié l’état de la tâche de %s en %s.',
+  'List of task IDs, as array.' => 'Liste d’identifiants de tâche, sous forme de tableau.',
+  'Specify exactly one of \'%s\' and \'%s\'.' => 'Spécifiez exactement une valeur parmi « %s » et « %s ».',
+  'Edit Locked Task' => 'Modifier la tâche verrouillée',
+  'Assigned' => 'Affecté',
+  '%s reopened %s as %s by committing %s.' => '%s a rouvert %s en tant que %s en validant %s.',
+  'Change Estimate' => 'Modifier l’estimation',
+  'Closed as Duplicate' => 'Fermer en tant que doublon',
+  '%s merged task %s into %s.' => '%s a fusionné la tâche %s dans %s.',
+  'Estimated Hours' => 'Heures estimées',
+  '%s changed the status of subtask %s from %s to %s.' => '%s a changé l’état de la sous-tâche %s de %s en %s.',
+  'Lowered Priority' => 'Priorité réduite',
+  'Execute complex searches for Maniphest tasks.' => 'Exécuter des recherches complexes de tâches de Maniphest.',
+  'Closed By' => 'Fermée par',
+  'This page documents the commands you can use to interact with tasks in Maniphest. These commands work when creating new tasks via email and when replying to existing tasks.' => 'Cette page documente les commandes que vous pouvez utiliser pour interagir avec les tâches dans Maniphest. Ces commandes fonctionnent lors de la création de nouvelles tâches par courriel et lors des réponses à des tâches existantes.',
+  '%s closed this task as %s by committing %s.' => '%s a fermé cette tâche en tant que %s en validant %s.',
+  'Allows you to define task subtypes. Subtypes let you hide fields you don\'t
+need to simplify the workflows for editing tasks.
+
+To define subtypes, provide a list of subtypes. Each subtype should be a
+dictionary with these keys:
+
+  - `key` //Required string.// Internal identifier for the subtype, like
+    "task", "feature", or "bug".
+  - `name` //Required string.// Human-readable name for this subtype, like
+    "Task", "Feature Request" or "Bug Report".
+  - `tag` //Optional string.// Tag text for this subtype.
+  - `color` //Optional string.// Display color for this subtype.
+  - `icon` //Optional string.// Icon for the subtype.
+  - `children` //Optional map.// Configure options shown to the user when
+     they "Create Subtask". See below.
+  - `fields` //Optional map.// Configure field behaviors. See below.
+  - `mutations` //Optional list.// Configure which subtypes this subtype
+    can easily be converted to by using the "Change Subtype" action. See below.
+
+Each subtype must have a unique key, and you must define a subtype with
+the key "%s", which is used as a default subtype.
+
+The tag text (`tag`) is used to set the text shown in the subtype tag on list
+views and workboards. If you do not configure it, the default subtype will have
+no subtype tag and other subtypes will use their name as tag text.
+
+The `children` key allows you to configure which options are presented to the
+user when they "Create Subtask" from a task of this subtype. You can specify
+these keys:
+
+  - `subtypes`: //Optional list<string>.// Show users creation forms for these
+    task subtypes.
+  - `forms`: //Optional list<string|int>.// Show users these specific forms,
+    in order.
+
+If you don\'t specify either constraint, users will be shown creation forms
+for the same subtype.
+
+For example, if you have a "quest" subtype and do not configure `children`,
+users who click "Create Subtask" will be presented with all create forms for
+"quest" tasks.
+
+If you want to present them with forms for a different task subtype or set of
+subtypes instead, use `subtypes`:
+
+```
+  {
     ...
-      {
-        ...
-        "mutations": ["bug", "issue", "defect"]
-        ...
+    "children": {
+      "subtypes": ["objective", "boss", "reward"]
+    }
+    ...
+  }
+```
+
+If you want to present them with specific forms, use `forms` and specify form
+IDs:
+
+```
+  {
+    ...
+    "children": {
+      "forms": [12, 16]
+    }
+    ...
+  }
+```
+
+When specifying forms by ID explicitly, the order you specify the forms in will
+be used when presenting options to the user.
+
+If only one option would be presented, the user will be taken directly to the
+appropriate form instead of being prompted to choose a form.
+
+The `fields` key can configure the behavior of custom fields on specific
+task subtypes. For example:
+
+```
+  {
+    ...
+    "fields": {
+      "custom.some-field": {
+        "disabled": true
       }
-    ```
-    Si vous spécifiez une liste vide, l\'action « Change Subtypes » sera complètement masquée.
-    Cette liste de mutations est consultative et configure uniquement l\'interface utilisateur. Les tâches peuvent toujours être converties librement entre les sous-types à l\'aide de l\'éditeur Bulk ou de l\'API.',
-      '%s changed the subtype of this task from "%s" to "%s".' => '%s a changé le sous-type de cette tâche de « %s » en « %s ».',
-      'Create a new Maniphest task.' => 'Nouvelle tâche Maniphest.',
-      'Create New Task' => 'Créer une nouvelle tâche',
-      'Read information about tasks.' => 'Lire les informations concernant les tâches.',
-      'New task priority constant.' => 'Nouvelle constante de priorité de tâche.',
-      '%s reopened this task as %s by committing %s.' => '%s a rouvert cette tâche en tant que %s en validant %s.',
-      'Choose a default priority for newly created tasks. You can review and adjust available priorities by using the %s configuration option. The default value (`90`) corresponds to the default "Needs Triage" priority.' => 'Choisissez une priorité par défaut pour les tâches nouvellement créées. Vous pouvez consulter et ajuster les priorités disponibles à l’aide de l’option de configuration %s. La valeur par défaut (`90`) correspond à la priorité par défaut « À trier ».',
-      'The source task is associated with the destination revision.' => 'La tâche source est associée à la révision de destination.',
-      'Changed Task Status' => 'État de la tâche changé',
-      'Changed Project Column' => 'Colonne de projet modifiée',
-      'Subtype of the task.' => 'Sous-type de la tâche.',
-      'Unassigned task.' => 'Tâche non affectée.',
-      '%s edited subtask(s), added %s: %s; removed %s: %s.' => '%s a modifié une plusieurs sous-tâches ; en a ajouté %s : %s ; en a retiré %s : %s.',
-      'Task status ("%s") has unrecognized value for "locked" configuration ("%s"). Supported values are: "%s", "%s".' => 'L’état de la tâche (« %s ») a une valeur non reconnue pour la configuration « verrouillée » (« %s »). Les valeurs prises en charge sont : « %s », « %s ».',
-      '%s removed %s subtask(s): %s.' => '%s a retiré %s sous-tâche(s) : %s.',
-      'Closed, Wontfix' => 'Fermé, ne sera pas corrigé',
-      'This method is frozen and will eventually be deprecated. New code should use "maniphest.status.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « maniphest.status.search » à la place.',
-      'Unknown status query \'%s\'!' => 'Requête d’état inconnue « %s » !',
-      'Group PHID ("%s") component of cursor ("%s") is not valid.' => 'Le composant PHID de groupe (« %s ») du curseur (« %s ») n’est pas valide.',
-      '%s set the point value for this task to %s.' => '%s a défini la valeur en points pour cette tâche à %s.',
-      'Change the priority of the task.' => 'Changer la priorité de la tâche.',
-      'Page Size' => 'Taille de la page',
-      '%s reopened this task as %s.' => '%s a rouvert cette tâche en tant que %s.',
-      '%s reopened %s, a subtask of %s, as %s.' => '%s a rouvert %s, une sous-tâche de %s, en tant que %s.',
-      'Name of the task.' => 'Nom de la tâche.',
-      'Spited' => 'Contrarié',
-      'Lock Error' => 'Erreur de verrouillage',
-      'Tasks and Bugs' => 'Tâches et erreurs',
-      'Revisions and Commits' => 'Révisions et validations',
-      'Parent task identifier "%s" does not identify a visible task.' => 'L’identifiant de tâche parente « %s » n’identifie pas une tâche visible.',
-      'Assign / Claim' => 'Affecter / réclamer',
-      '%s reopened subtask %s as %s.' => '%s a rouvert la sous-tâche %s en tant que %s.',
-      'Point value of the task.' => 'Valeur en points de la tâche.',
-      'Search for tasks with given authors.' => 'Rechercher des tâches avec des auteurs donnés.',
-      'The task already has the selected status.' => 'La tâche a déjà l’état sélectionné.',
-      'Clear Selection' => 'Effacer la sélection',
-      '%s reopened %s as "%s".' => '%s a rouvert %s en tant que « %s ».',
-      '%s triaged this task as %s priority.' => '%s a trié cette tâche avec la priorité %s.',
-      'This task has no related commits or revisions.' => 'Cette tâche n’a aucune validation ou révision associée.',
-      'Changed task status to "%s".' => 'État de la tâche changé en « %s ».',
-      'View Standalone Graph' => 'Afficher le graphique autonome',
-      'Choose Subtype' => 'Sélectionner le sous-type',
-    );
+    }
+    ...
+  }
+```
+
+Each field supports these options:
+
+  - `disabled` //Optional bool.// Allows you to disable fields on certain
+    subtypes.
+  - `name` //Optional string.// Custom name of this field for the subtype.
+
+
+The `mutations` key allows you to control the behavior of the "Change Subtype"
+action above the comment area. By default, this action allows users to change
+the task subtype into any other subtype.
+
+If you\'d prefer to make it more difficult to change subtypes or offer only a
+subset of subtypes, you can specify the list of subtypes that "Change Subtypes"
+offers. For example, if you have several similar subtypes and want to allow
+tasks to be converted between them but not easily converted to other types,
+you can make the "Change Subtypes" control show only these options like this:
+
+```
+  {
+    ...
+    "mutations": ["bug", "issue", "defect"]
+    ...
+  }
+```
+
+If you specify an empty list, the "Change Subtypes" action will be completely
+hidden.
+
+This mutation list is advisory and only configures the UI. Tasks may still be
+converted across subtypes freely by using the Bulk Editor or API.
+' => 'vous permet de définir des sous-types de tâches. Les sous-types vous permettent de masquer les champs dont vous n\'avez pas besoin pour simplifier les processus de travail pour l\'édition des tâches.
+
+Pour définir des sous-types, fournissez une liste de sous-types. Chaque sous-type doit être un dictionnaire avec ces clés :
+
+  - `key` //Chaîne obligatoire.// Identifiant interne du sous-type, comme « task », « feature » ou « bug ».
+  - `name` //Chaîne obligatoire.// Nom lisible par l\'homme pour ce sous-type, comme « task », « Feature Request » ou « Bug Report ».
+  - `tag` //Chaîne facultative.// Texte de balise pour ce sous-type.
+  - `color` //Chaîne facultative.// Couleur d\'affichage pour ce sous-type.
+  - `icon` //Chaîne facultative.// Icône du sous-type.
+  - `children` //Carte facultative.// Configure les options affichées à l\'utilisateur lorsqu\'il crée une sous-tâche avec « Create Subtask ». Voir plus loin.
+  - `fields` //Carte facultative.// Configure les comportements des champs. Voir plus loin.
+  - `mutations` //Liste facultative.// Configure les sous-types vers lesquels ce sous-type peut facilement être converti en utilisant l\'action « Change Subtype ». Voir plus loin.
+
+Chaque sous-type doit avoir une clé unique, et vous devez définir un sous-type avec la clé « %s » qui est utilisée comme sous-type par défaut.
+
+Le texte de la balise (`tag`) est utilisé pour définir le texte affiché dans la balise de sous-type sur les vues de liste et les tableaux de travail. Si vous ne le configurez pas, le sous-type par défaut n\'aura aucune balise de sous-type et les autres sous-types utiliseront leur nom comme texte de balise.
+
+La clé `children` vous permet de configurer les options présentées à l\'utilisateur lorsqu\'il « Crée une sous-tâche » à partir d\'une tâche de ce sous-type. Vous pouvez spécifier ces clés :
+
+  - `subtypes` : //Liste facultative de type chaîne.// Affiche les formulaires de création d\'utilisateurs pour ces sous-types de tâches.
+  - `forms`: //Liste facultative de type chaîne ou entier.// Affiche aux utilisateurs ces formulaires spécifiques, dans l\'ordre.
+
+Si vous ne spécifiez aucune contrainte, les formulaires de création seront présentés aux utilisateurs à l\'identique du sous-type.
+
+Par exemple, si vous avez un sous-type « quest » et que vous ne configurez pas « children », les utilisateurs qui cliquent sur « Create Subtask » se verront présenter tous les formulaires de création des tâches « quest ».
+
+Sinon si vous souhaitez leur présenter des formulaires pour un sous-type de tâche différent ou un ensemble de sous-types, utilisez « subtypes » :
+
+```
+  {
+    ...
+    "children": {
+      "subtypes": ["objective", "boss", "reward"]
+    }
+    ...
+  }
+```
+
+Si vous souhaitez leur présenter des formulaires spécifiques, utilisez `forms` et spécifiez les ID de formulaire :
+
+```
+  {
+    ...
+    "children": {
+      "forms": [12, 16]
+    }
+    ...
+  }
+```
+
+Lorsque vous spécifiez explicitement des formulaires par ID, l\'ordre dans lequel vous spécifiez les formulaires sera utilisé lors de la présentation des options à l\'utilisateur.
+
+Si une seule option est présentée, l\'utilisateur sera directement dirigé vers le formulaire approprié au lieu d\'être invité à choisir un formulaire.
+
+La clé `fields` peut configurer le comportement des champs personnalisés pour des sous-types de tâches spécifiques. Par exemple :
+
+```
+  {
+    ...
+    "fields": {
+      "custom.some-field": {
+        "disabled": true
+      }
+    }
+    ...
+  }
+```
+
+Chaque champ prend en charge ces options :
+
+  - `disabled` //Booléen facultatif.// Permet de désactiver les champs sur certains sous-types.
+  - `name` //Chaîne facultative.// Nom personnalisé de ce champ pour le sous-type.
+
+
+La clé `mutations` permet de contrôler le comportement de l\'action « Change Subtype » au-dessus de la zone de commentaire. Par défaut, cette action permet aux utilisateurs de changer le sous-type de tâche en n\'importe quel autre sous-type.
+
+Si vous préférez rendre plus difficile la modification des sous-types ou proposer uniquement un sous-ensemble de sous-types, vous pouvez spécifier la liste des sous-types que « Change Subtypes » propose. Par exemple, si vous avez plusieurs sous-types similaires et que vous souhaitez autoriser la conversion des tâches entre ceux-ci mais pas leur conversion facile vers d\'autres types, vous pouvez faire en sorte que le contrôle « Change Subtypes » n\'affiche que ces options comme ceci :
+
+...
+  {
+    ...
+    "mutations": ["bug", "issue", "defect"]
+    ...
+  }
+```
+
+Si vous spécifiez une liste vide, l\'action « Change Subtypes » sera complètement masquée.
+
+Cette liste de mutations est consultative et configure uniquement l\'interface utilisateur. Les tâches peuvent toujours être converties librement entre les sous-types à l\'aide de l\'éditeur Bulk ou de l\'API.',
+  '%s changed the subtype of this task from "%s" to "%s".' => '%s a changé le sous-type de cette tâche de « %s » en « %s ».',
+  'Create a new Maniphest task.' => 'Nouvelle tâche Maniphest.',
+  'Create New Task' => 'Créer une nouvelle tâche',
+  'Read information about tasks.' => 'Lire les informations concernant les tâches.',
+  'New task priority constant.' => 'Nouvelle constante de priorité de tâche.',
+  '%s reopened this task as %s by committing %s.' => '%s a rouvert cette tâche en tant que %s en validant %s.',
+  'Choose a default priority for newly created tasks. You can review and adjust available priorities by using the %s configuration option. The default value (`90`) corresponds to the default "Needs Triage" priority.' => 'Choisissez une priorité par défaut pour les tâches nouvellement créées. Vous pouvez consulter et ajuster les priorités disponibles à l’aide de l’option de configuration %s. La valeur par défaut (`90`) correspond à la priorité par défaut « À trier ».',
+  'The source task is associated with the destination revision.' => 'La tâche source est associée à la révision de destination.',
+  'Changed Task Status' => 'État de la tâche changé',
+  'Changed Project Column' => 'Colonne de projet modifiée',
+  'Subtype of the task.' => 'Sous-type de la tâche.',
+  'Unassigned task.' => 'Tâche non affectée.',
+  '%s edited subtask(s), added %s: %s; removed %s: %s.' => '%s a modifié une plusieurs sous-tâches ; en a ajouté %s : %s ; en a retiré %s : %s.',
+  'Task status ("%s") has unrecognized value for "locked" configuration ("%s"). Supported values are: "%s", "%s".' => 'L’état de la tâche (« %s ») a une valeur non reconnue pour la configuration « verrouillée » (« %s »). Les valeurs prises en charge sont : « %s », « %s ».',
+  '%s removed %s subtask(s): %s.' => '%s a retiré %s sous-tâche(s) : %s.',
+  'Closed, Wontfix' => 'Fermé, ne sera pas corrigé',
+  'This method is frozen and will eventually be deprecated. New code should use "maniphest.status.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « maniphest.status.search » à la place.',
+  'Unknown status query \'%s\'!' => 'Requête d’état inconnue « %s » !',
+  'Group PHID ("%s") component of cursor ("%s") is not valid.' => 'Le composant PHID de groupe (« %s ») du curseur (« %s ») n’est pas valide.',
+  '%s set the point value for this task to %s.' => '%s a défini la valeur en points pour cette tâche à %s.',
+  'Change the priority of the task.' => 'Changer la priorité de la tâche.',
+  'Page Size' => 'Taille de la page',
+  '%s reopened this task as %s.' => '%s a rouvert cette tâche en tant que %s.',
+  '%s reopened %s, a subtask of %s, as %s.' => '%s a rouvert %s, une sous-tâche de %s, en tant que %s.',
+  'Name of the task.' => 'Nom de la tâche.',
+  'Spited' => 'Contrarié',
+  'Lock Error' => 'Erreur de verrouillage',
+  'Tasks and Bugs' => 'Tâches et erreurs',
+  'Revisions and Commits' => 'Révisions et validations',
+  'Parent task identifier "%s" does not identify a visible task.' => 'L’identifiant de tâche parente « %s » n’identifie pas une tâche visible.',
+  'Assign / Claim' => 'Affecter / réclamer',
+  '%s reopened subtask %s as %s.' => '%s a rouvert la sous-tâche %s en tant que %s.',
+  'Point value of the task.' => 'Valeur en points de la tâche.',
+  'Search for tasks with given authors.' => 'Rechercher des tâches avec des auteurs donnés.',
+  'The task already has the selected status.' => 'La tâche a déjà l’état sélectionné.',
+  'Clear Selection' => 'Effacer la sélection',
+  '%s reopened %s as "%s".' => '%s a rouvert %s en tant que « %s ».',
+  '%s triaged this task as %s priority.' => '%s a trié cette tâche avec la priorité %s.',
+  'This task has no related commits or revisions.' => 'Cette tâche n’a aucune validation ou révision associée.',
+  'Changed task status to "%s".' => 'État de la tâche changé en « %s ».',
+  'View Standalone Graph' => 'Afficher le graphique autonome',
+  'Choose Subtype' => 'Sélectionner le sous-type',
+);
   }
 
 }

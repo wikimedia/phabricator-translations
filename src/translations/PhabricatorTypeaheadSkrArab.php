@@ -9,9 +9,9 @@ final class PhabricatorTypeaheadSkrArab
 
   protected function getTranslations() {
     return array(
-      'Image URI' => 'تصویر یوآرآئی',
-      'Auto' => 'خود بخود',
-    );
+  'Image URI' => 'تصویر یوآرآئی',
+  'Auto' => 'خود بخود',
+);
   }
 
 }

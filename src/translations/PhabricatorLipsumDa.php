@@ -9,8 +9,8 @@ final class PhabricatorLipsumDa
 
   protected function getTranslations() {
     return array(
-      'class' => 'klasse',
-    );
+  'class' => 'klasse',
+);
   }
 
 }

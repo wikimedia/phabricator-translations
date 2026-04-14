@@ -9,8 +9,8 @@ final class PhabricatorPackagesPtBR
 
   protected function getTranslations() {
     return array(
-      'Publish Software' => 'Publicar software',
-    );
+  'Publish Software' => 'Publicar software',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorPhidDiq
 
   protected function getTranslations() {
     return array(
-      'Application Email' => 'Emaila Mıreceti',
-    );
+  'Application Email' => 'Emaila Mıreceti',
+);
   }
 
 }

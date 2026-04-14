@@ -9,8 +9,8 @@ final class PhabricatorMacroSv
 
   protected function getTranslations() {
     return array(
-      'Created on %s' => 'Skapades %s',
-    );
+  'Created on %s' => 'Skapades %s',
+);
   }
 
 }

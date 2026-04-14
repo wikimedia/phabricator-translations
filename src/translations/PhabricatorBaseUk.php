@@ -9,8 +9,8 @@ final class PhabricatorBaseUk
 
   protected function getTranslations() {
     return array(
-      'Core Applications' => 'Основні програми',
-    );
+  'Core Applications' => 'Основні програми',
+);
   }
 
 }

@@ -9,10 +9,10 @@ final class PhabricatorRemarkupRoaTara
 
   protected function getTranslations() {
     return array(
-      'Invalid markup engine.' => 'Motore de markup invalide.',
-      'Process text through remarkup.' => 'Processe teste cu \'u remarkup.',
-      'Content may not be empty.' => '\'U condenute non ge pò essere vacande.',
-    );
+  'Invalid markup engine.' => 'Motore de markup invalide.',
+  'Process text through remarkup.' => 'Processe teste cu \'u remarkup.',
+  'Content may not be empty.' => '\'U condenute non ge pò essere vacande.',
+);
   }
 
 }

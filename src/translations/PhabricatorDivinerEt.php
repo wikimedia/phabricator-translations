@@ -9,9 +9,9 @@ final class PhabricatorDivinerEt
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Raamatud',
-      'Book' => 'Raamat',
-    );
+  'Books' => 'Raamatud',
+  'Book' => 'Raamat',
+);
   }
 
 }

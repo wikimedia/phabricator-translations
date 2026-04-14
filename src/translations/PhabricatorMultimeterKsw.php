@@ -9,8 +9,8 @@ final class PhabricatorMultimeterKsw
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(ခဲလၢာ်)',
-    );
+  '(All)' => '(ခဲလၢာ်)',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMultimeterMy
 
   protected function getTranslations() {
     return array(
-      '(All)' => '(အားလုံး)',
-    );
+  '(All)' => '(အားလုံး)',
+);
   }
 
 }

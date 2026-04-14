@@ -9,8 +9,8 @@ final class PhabricatorFeedPl
 
   protected function getTranslations() {
     return array(
-      'Review Recent Activity' => 'Przejrzyj ostatnią aktywność',
-    );
+  'Review Recent Activity' => 'Przejrzyj ostatnią aktywność',
+);
   }
 
 }

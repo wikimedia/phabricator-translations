@@ -9,9 +9,9 @@ final class PhabricatorPhluxDiq
 
   protected function getTranslations() {
     return array(
-      'Phlux' => 'Phlux',
-      'Variable List' => 'Lista vurnayoği',
-    );
+  'Phlux' => 'Phlux',
+  'Variable List' => 'Lista vurnayoği',
+);
   }
 
 }

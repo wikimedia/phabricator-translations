@@ -9,9 +9,9 @@ final class PhabricatorPonderEsES
 
   protected function getTranslations() {
     return array(
-      '%s added an answer to %s.' => '%s añadió una respuesta a %s.',
-      '%s closed %s as resolved.' => '%s cerró %s como resuelto.',
-    );
+  '%s added an answer to %s.' => '%s añadió una respuesta a %s.',
+  '%s closed %s as resolved.' => '%s cerró %s como resuelto.',
+);
   }
 
 }

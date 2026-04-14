@@ -9,11 +9,11 @@ final class PhabricatorAuditId
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'PENGGUNA',
-      '%s added subscribers...' => '%s menambahkan pelanggan...',
-      'Welcome to Audit' => 'Selamat datang di Audit',
-      'Auditor' => 'Auditor',
-    );
+  'USERS' => 'PENGGUNA',
+  '%s added subscribers...' => '%s menambahkan pelanggan...',
+  'Welcome to Audit' => 'Selamat datang di Audit',
+  'Auditor' => 'Auditor',
+);
   }
 
 }

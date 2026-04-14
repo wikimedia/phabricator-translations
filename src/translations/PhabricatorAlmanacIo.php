@@ -9,11 +9,11 @@ final class PhabricatorAlmanacIo
 
   protected function getTranslations() {
     return array(
-      'Namespace' => 'Nomaro (\'\'namespace\'\')',
-      'Namespace %d' => 'Nomaro (\'\'namespace\'\') %s',
-      'Namespace %s' => 'Nomaro %s',
-      'Namespaces' => 'Nomari (\'\'namespaces\'\')',
-    );
+  'Namespace' => 'Nomaro (\'\'namespace\'\')',
+  'Namespace %d' => 'Nomaro (\'\'namespace\'\') %d',
+  'Namespace %s' => 'Nomaro %s',
+  'Namespaces' => 'Nomari (\'\'namespaces\'\')',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadNl
 
   protected function getTranslations() {
     return array(
-      'Invalid Parameters' => 'Ongeldige parameters',
-    );
+  'Invalid Parameters' => 'Ongeldige parameters',
+);
   }
 
 }

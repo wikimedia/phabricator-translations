@@ -9,9 +9,9 @@ final class PhabricatorConduitFi
 
   protected function getTranslations() {
     return array(
-      'Username.' => 'Käyttäjänimi.',
-      'Client is unknown.' => 'Asiakas on tuntematon.',
-    );
+  'Username.' => 'Käyttäjänimi.',
+  'Client is unknown.' => 'Asiakas on tuntematon.',
+);
   }
 
 }

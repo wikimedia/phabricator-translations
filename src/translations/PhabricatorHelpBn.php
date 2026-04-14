@@ -9,9 +9,9 @@ final class PhabricatorHelpBn
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s সাহায্য',
-      'Keyboard Shortcuts' => 'কীবোর্ড শর্টকাট',
-    );
+  '%s Help' => '%s সাহায্য',
+  'Keyboard Shortcuts' => 'কীবোর্ড শর্টকাট',
+);
   }
 
 }

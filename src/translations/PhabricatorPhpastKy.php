@@ -9,8 +9,8 @@ final class PhabricatorPhpastKy
 
   protected function getTranslations() {
     return array(
-      'Token %d: %s' => '%s токени: %s',
-    );
+  'Token %d: %s' => '%d токени: %s',
+);
   }
 
 }

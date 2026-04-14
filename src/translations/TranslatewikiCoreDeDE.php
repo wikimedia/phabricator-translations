@@ -9,9 +9,9 @@ final class TranslatewikiCoreDeDE
 
   protected function getTranslations() {
     return array(
-      'Writing data (%s, %s) to "%s"...' => 'Schreibe Daten (%s, %s) zu "%s"...',
-      'Done.' => 'Fertig.',
-    );
+  'Writing data (%s, %s) to "%s"...' => 'Schreibe Daten (%s, %s) zu "%s"...',
+  'Done.' => 'Fertig.',
+);
   }
 
 }

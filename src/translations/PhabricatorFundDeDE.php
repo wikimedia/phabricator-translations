@@ -9,8 +9,8 @@ final class PhabricatorFundDeDE
 
   protected function getTranslations() {
     return array(
-      '(Restricted Merchant)' => '(Beschränkter Händler)',
-    );
+  '(Restricted Merchant)' => '(Beschränkter Händler)',
+);
   }
 
 }

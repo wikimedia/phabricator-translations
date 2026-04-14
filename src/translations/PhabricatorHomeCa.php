@@ -9,10 +9,10 @@ final class PhabricatorHomeCa
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Centre de comandes',
-      'More Applications' => 'Més aplicacions',
-      'Built-in Homepage' => 'Pàgina d\'inici incorporada',
-    );
+  'Command Center' => 'Centre de comandes',
+  'More Applications' => 'Més aplicacions',
+  'Built-in Homepage' => 'Pàgina d\'inici incorporada',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorPholioBlk
 
   protected function getTranslations() {
     return array(
-      'Undo' => 'သဲင်ꩻဖျင်ချာ',
-    );
+  'Undo' => 'သဲင်ꩻဖျင်ချာ',
+);
   }
 
 }

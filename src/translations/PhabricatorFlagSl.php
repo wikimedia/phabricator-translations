@@ -9,10 +9,10 @@ final class PhabricatorFlagSl
 
   protected function getTranslations() {
     return array(
-      'Personal Bookmarks' => 'Osebni zaznamki',
-      'Flag %s' => 'Zastavica %s',
-      'Already Marked' => 'Že označeno',
-    );
+  'Personal Bookmarks' => 'Osebni zaznamki',
+  'Flag %s' => 'Zastavica %s',
+  'Already Marked' => 'Že označeno',
+);
   }
 
 }

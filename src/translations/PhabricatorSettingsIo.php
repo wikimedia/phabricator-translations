@@ -9,10 +9,10 @@ final class PhabricatorSettingsIo
 
   protected function getTranslations() {
     return array(
-      'Default (%s)' => 'Predeterminita (%s)',
-      'Saturday' => 'Saturdio',
-      'Settings %d' => 'Preferaji ̩%s',
-    );
+  'Default (%s)' => 'Predeterminita (%s)',
+  'Saturday' => 'Saturdio',
+  'Settings %d' => 'Preferaji ̩%d',
+);
   }
 
 }

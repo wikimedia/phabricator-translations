@@ -9,8 +9,8 @@ final class PhabricatorSystemUk
 
   protected function getTranslations() {
     return array(
-      '%d / hour' => '%s / годин',
-    );
+  '%d / hour' => '%d / годин',
+);
   }
 
 }

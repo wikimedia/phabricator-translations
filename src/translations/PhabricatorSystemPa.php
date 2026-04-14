@@ -9,8 +9,8 @@ final class PhabricatorSystemPa
 
   protected function getTranslations() {
     return array(
-      'Select Syntax Highlighting' => 'ਵਾਕ-ਵਿਉਂਤ ਉਜਾਗਰ ਕਰਨ ਲਈ ਚੁਣੋ',
-    );
+  'Select Syntax Highlighting' => 'ਵਾਕ-ਵਿਉਂਤ ਉਜਾਗਰ ਕਰਨ ਲਈ ਚੁਣੋ',
+);
   }
 
 }

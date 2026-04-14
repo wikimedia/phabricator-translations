@@ -9,9 +9,9 @@ final class PhabricatorPolicyAr
 
   protected function getTranslations() {
     return array(
-      'Access Denied: %s' => 'السماح مرفوض: %s',
-      'when the moon' => 'عندما يكون القمر',
-    );
+  'Access Denied: %s' => 'السماح مرفوض: %s',
+  'when the moon' => 'عندما يكون القمر',
+);
   }
 
 }

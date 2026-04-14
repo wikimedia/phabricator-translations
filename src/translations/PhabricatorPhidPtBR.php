@@ -9,9 +9,9 @@ final class PhabricatorPhidPtBR
 
   protected function getTranslations() {
     return array(
-      'Retrieve information about an arbitrary PHID.' => 'Recuperar informações sobre um PHID arbitrário.',
-      'Restricted %s' => 'Restrito %s',
-    );
+  'Retrieve information about an arbitrary PHID.' => 'Recuperar informações sobre um PHID arbitrário.',
+  'Restricted %s' => 'Restrito %s',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsKy
 
   protected function getTranslations() {
     return array(
-      '%d other(s)' => '%s башка(лар)',
-    );
+  '%d other(s)' => '%d башка(лар)',
+);
   }
 
 }

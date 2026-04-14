@@ -9,8 +9,8 @@ final class PhabricatorNotificationId
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'Semua Pemberitahuan',
-    );
+  'All Notifications' => 'Semua Pemberitahuan',
+);
   }
 
 }

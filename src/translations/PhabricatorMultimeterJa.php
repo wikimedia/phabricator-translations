@@ -9,8 +9,8 @@ final class PhabricatorMultimeterJa
 
   protected function getTranslations() {
     return array(
-      'Samples (%s - %s)' => 'サンプル (%s - %s)',
-    );
+  'Samples (%s - %s)' => 'サンプル (%s - %s)',
+);
   }
 
 }

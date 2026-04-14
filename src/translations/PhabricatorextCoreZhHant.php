@@ -9,9 +9,9 @@ final class PhabricatorextCoreZhHant
 
   protected function getTranslations() {
     return array(
-      'Reset security settings' => '重設安全設定',
-      'Comments' => '評論',
-    );
+  'Reset security settings' => '重設安全設定',
+  'Comments' => '評論',
+);
   }
 
 }

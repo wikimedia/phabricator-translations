@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteMy
 
   protected function getTranslations() {
     return array(
-      'Reopen' => 'ပြန်ဖွင့်ရန်',
-    );
+  'Reopen' => 'ပြန်ဖွင့်ရန်',
+);
   }
 
 }

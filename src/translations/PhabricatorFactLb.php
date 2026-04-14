@@ -9,12 +9,12 @@ final class PhabricatorFactLb
 
   protected function getTranslations() {
     return array(
-      'View Data' => 'Donnéeë weisen',
-      'Dimension' => 'Dimensioun',
-      '%sms' => '%sms',
-      '%s (Transactions)' => '%s (Transaktiounen)',
-      'Not Generated' => 'Net generéiert',
-    );
+  'View Data' => 'Donnéeë weisen',
+  'Dimension' => 'Dimensioun',
+  '%sms' => '%sms',
+  '%s (Transactions)' => '%s (Transaktiounen)',
+  'Not Generated' => 'Net generéiert',
+);
   }
 
 }

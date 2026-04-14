@@ -9,14 +9,14 @@ final class PhabricatorPhameTe
 
   protected function getTranslations() {
     return array(
-      'here' => 'ఇక్కడ',
-      'Blog' => 'బ్లాగు',
-      'Blog description.' => 'బ్లాగు వివరణ.',
-      'Recent Posts' => 'ఇటీవలి టపాలు',
-      'Blogs' => 'బ్లాగులు',
-      'No description.' => 'వివరణ లేదు.',
-      'Blog Posts' => 'బ్లాగు టపాలు',
-    );
+  'here' => 'ఇక్కడ',
+  'Blog' => 'బ్లాగు',
+  'Blog description.' => 'బ్లాగు వివరణ.',
+  'Recent Posts' => 'ఇటీవలి టపాలు',
+  'Blogs' => 'బ్లాగులు',
+  'No description.' => 'వివరణ లేదు.',
+  'Blog Posts' => 'బ్లాగు టపాలు',
+);
   }
 
 }

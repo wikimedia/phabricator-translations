@@ -9,8 +9,8 @@ final class PhabricatorSupportMy
 
   protected function getTranslations() {
     return array(
-      'Support' => 'ထောက်ပံ့မှု',
-    );
+  'Support' => 'ထောက်ပံ့မှု',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorSystemBr
 
   protected function getTranslations() {
     return array(
-      '%d / hour' => '%s / eur',
-      'IMPORTANT' => 'POUEZUS',
-    );
+  '%d / hour' => '%d / eur',
+  'IMPORTANT' => 'POUEZUS',
+);
   }
 
 }

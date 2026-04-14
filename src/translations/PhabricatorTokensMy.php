@@ -9,11 +9,11 @@ final class PhabricatorTokensMy
 
   protected function getTranslations() {
     return array(
-      'Love' => 'အချစ်',
-      'Heartbreak' => 'အသည်းကွဲ',
-      'Party Time' => 'ပါတီချိန်',
-      'Tokens: %s' => 'တိုကင်များ: %s',
-    );
+  'Love' => 'အချစ်',
+  'Heartbreak' => 'အသည်းကွဲ',
+  'Party Time' => 'ပါတီချိန်',
+  'Tokens: %s' => 'တိုကင်များ: %s',
+);
   }
 
 }

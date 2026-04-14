@@ -9,10 +9,10 @@ final class PhabricatorHomePl
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Centrum dowodzenia',
-      'More Applications' => 'Więcej aplikacji',
-      'Built-in Homepage' => 'Wbudowana strona główna',
-    );
+  'Command Center' => 'Centrum dowodzenia',
+  'More Applications' => 'Więcej aplikacji',
+  'Built-in Homepage' => 'Wbudowana strona główna',
+);
   }
 
 }

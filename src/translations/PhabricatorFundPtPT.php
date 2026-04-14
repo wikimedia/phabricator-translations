@@ -9,8 +9,8 @@ final class PhabricatorFundPtPT
 
   protected function getTranslations() {
     return array(
-      'Open Initiatives' => 'Iniciativas em aberto',
-    );
+  'Open Initiatives' => 'Iniciativas em aberto',
+);
   }
 
 }

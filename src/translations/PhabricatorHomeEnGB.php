@@ -9,10 +9,10 @@ final class PhabricatorHomeEnGB
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Command Center',
-      'More Applications' => 'More Applications',
-      'Built-in Homepage' => 'Built-in Homepage',
-    );
+  'Command Center' => 'Command Center',
+  'More Applications' => 'More Applications',
+  'Built-in Homepage' => 'Built-in Homepage',
+);
   }
 
 }

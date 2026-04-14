@@ -9,15 +9,15 @@ final class PhabricatorPhpastAr
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'بي إتش بي AST',
-      'Node %d: %s' => 'العقدة %s: %s',
-      'Generate XHP AST' => 'إنشاء XHP AST',
-      'Token %d: %s' => 'رمز %s دولار: %s',
-      'XHPAST View' => 'عرض XHPAST',
-      'Parse' => 'تحليل',
-      'No such AST!' => 'لا يوجد مثل هذا AST!',
-      'Visual PHP Parser' => 'محلل PHP مرئي',
-    );
+  'PHPAST' => 'بي إتش بي AST',
+  'Node %d: %s' => 'العقدة %d: %s',
+  'Generate XHP AST' => 'إنشاء XHP AST',
+  'Token %d: %s' => 'رمز %d دولار: %s',
+  'XHPAST View' => 'عرض XHPAST',
+  'Parse' => 'تحليل',
+  'No such AST!' => 'لا يوجد مثل هذا AST!',
+  'Visual PHP Parser' => 'محلل PHP مرئي',
+);
   }
 
 }

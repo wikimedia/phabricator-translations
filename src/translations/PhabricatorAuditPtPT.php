@@ -9,8 +9,8 @@ final class PhabricatorAuditPtPT
 
   protected function getTranslations() {
     return array(
-      'Welcome to Audit' => 'Bem-vindo ao Audit',
-    );
+  'Welcome to Audit' => 'Bem-vindo ao Audit',
+);
   }
 
 }

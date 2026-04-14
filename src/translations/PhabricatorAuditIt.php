@@ -9,9 +9,9 @@ final class PhabricatorAuditIt
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'UTENTI',
-      'none' => 'nessuno',
-    );
+  'USERS' => 'UTENTI',
+  'none' => 'nessuno',
+);
   }
 
 }

@@ -9,11 +9,11 @@ final class PhabricatorDashboardSms
 
   protected function getTranslations() {
     return array(
-      'Add to Project Menu' => 'Lââʹzzet projeʹkttvaʹlljõʹǩǩe',
-      'Add to Project' => 'Lââʹzzet projektta',
-      'Menu' => 'Vaʹlljõk',
-      'Add Tab...' => 'Lââʹzzet kõskklõõst...',
-    );
+  'Add to Project Menu' => 'Lââʹzzet projeʹkttvaʹlljõʹǩǩe',
+  'Add to Project' => 'Lââʹzzet projektta',
+  'Menu' => 'Vaʹlljõk',
+  'Add Tab...' => 'Lââʹzzet kõskklõõst...',
+);
   }
 
 }

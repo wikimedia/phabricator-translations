@@ -9,8 +9,8 @@ final class PhabricatorMultimeterId
 
   protected function getTranslations() {
     return array(
-      '%s Event(s)' => '%s Acara',
-    );
+  '%s Event(s)' => '%s Acara',
+);
   }
 
 }

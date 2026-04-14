@@ -9,9 +9,10 @@ final class PhabricatorPastePa
 
   protected function getTranslations() {
     return array(
-      'Change language used for syntax highlighting.' => 'ਵਾਕ-ਵਿਉਂਤ ਨੂੰ ਉਜਾਗਰ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਭਾਸ਼ਾ ਬਦਲੋ।',
-      'Language to use for syntax highlighting.' => 'ਵਾਕ-ਵਿਉਂਤ ਨੂੰ ਉਜਾਗਰ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਭਾਸ਼ਾ।',
-    );
+  'Change language used for syntax highlighting.' => 'ਵਾਕ-ਵਿਉਂਤ ਨੂੰ ਉਜਾਗਰ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਭਾਸ਼ਾ ਬਦਲੋ।',
+  'Language to use for syntax highlighting.' => 'ਵਾਕ-ਵਿਉਂਤ ਨੂੰ ਉਜਾਗਰ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਭਾਸ਼ਾ।',
+  'PASTE DETAIL' => 'ਵੇਰਵਾ ਚੇਪੋ',
+);
   }
 
 }

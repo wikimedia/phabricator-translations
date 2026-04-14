@@ -9,8 +9,8 @@ final class PhabricatorConpherenceSms
 
   protected function getTranslations() {
     return array(
-      'Last updated %s' => 'Mââimõssân peiʹvvuum %s',
-    );
+  'Last updated %s' => 'Mââimõssân peiʹvvuum %s',
+);
   }
 
 }

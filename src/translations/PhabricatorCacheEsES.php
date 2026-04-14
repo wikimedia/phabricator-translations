@@ -9,12 +9,12 @@ final class PhabricatorCacheEsES
 
   protected function getTranslations() {
     return array(
-      'OPcache is not configured properly for development.' => 'OPcache no está configurado correctamente para el desarrollo.',
-      'General Cache (TTL)' => 'Caché general (TTL)',
-      'Purging "%s" cache...' => 'Purgando el caché "%s"...',
-      'Zend OPcache' => 'OPcache de Zend',
-      'APCu Disabled' => 'APC/APCu deshabilitado',
-    );
+  'OPcache is not configured properly for development.' => 'OPcache no está configurado correctamente para el desarrollo.',
+  'General Cache (TTL)' => 'Caché general (TTL)',
+  'Purging "%s" cache...' => 'Purgando el caché "%s"...',
+  'Zend OPcache' => 'OPcache de Zend',
+  'APCu Disabled' => 'APC/APCu deshabilitado',
+);
   }
 
 }

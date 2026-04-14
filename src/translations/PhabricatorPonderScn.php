@@ -9,11 +9,11 @@ final class PhabricatorPonderScn
 
   protected function getTranslations() {
     return array(
-      'Hide Comments' => 'Ammuccia li cummenti',
-      'Answer' => 'Risposta',
-      'Add a Comment' => 'Agghiunci nu cummentu',
-      'Show %d Comment(s)' => 'Ammustra %s cummentu/i',
-    );
+  'Hide Comments' => 'Ammuccia li cummenti',
+  'Answer' => 'Risposta',
+  'Add a Comment' => 'Agghiunci nu cummentu',
+  'Show %d Comment(s)' => 'Ammustra %d cummentu/i',
+);
   }
 
 }

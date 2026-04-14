@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadMy
 
   protected function getTranslations() {
     return array(
-      'Select' => 'ရွေးချယ်',
-    );
+  'Select' => 'ရွေးချယ်',
+);
   }
 
 }

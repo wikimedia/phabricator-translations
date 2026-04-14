@@ -9,10 +9,10 @@ final class PhabricatorManiphestNn
 
   protected function getTranslations() {
     return array(
-      'Create Task' => 'Opprett oppgåve',
-      'Edit Task: %s' => 'Endra oppgåve: %s',
-      'Low' => 'Låg',
-    );
+  'Create Task' => 'Opprett oppgåve',
+  'Edit Task: %s' => 'Endra oppgåve: %s',
+  'Low' => 'Låg',
+);
   }
 
 }

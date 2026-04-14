@@ -9,12 +9,12 @@ final class PhabricatorMetaScn
 
   protected function getTranslations() {
     return array(
-      'Information' => 'Nfurmazzioni',
-      'Syntax' => 'Sintassi',
-      'Confirmation' => 'Cunfirmazzioni',
-      'Show Installed Applications' => 'Ammustra li appricazzioni nstallati',
-      'Show All Applications' => 'Ammustra tutti li appricazzioni',
-    );
+  'Information' => 'Nfurmazzioni',
+  'Syntax' => 'Sintassi',
+  'Confirmation' => 'Cunfirmazzioni',
+  'Show Installed Applications' => 'Ammustra li appricazzioni nstallati',
+  'Show All Applications' => 'Ammustra tutti li appricazzioni',
+);
   }
 
 }

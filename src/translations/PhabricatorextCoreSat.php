@@ -9,10 +9,10 @@ final class PhabricatorextCoreSat
 
   protected function getTranslations() {
     return array(
-      'MediaWiki' => 'ᱢᱮᱰᱤᱭᱟᱣᱤᱠᱤ',
-      'MediaWiki User' => 'ᱢᱮᱰᱤᱭᱟᱣᱤᱠᱤ ᱵᱮᱵᱷᱟᱨᱤᱭᱟ.',
-      'Global Accounts' => 'ᱡᱮᱜᱮᱛ ᱮᱠᱟᱶᱩᱴᱠᱚ',
-    );
+  'MediaWiki' => 'ᱢᱮᱰᱤᱭᱟᱣᱤᱠᱤ',
+  'MediaWiki User' => 'ᱢᱮᱰᱤᱭᱟᱣᱤᱠᱤ ᱵᱮᱵᱷᱟᱨᱤᱭᱟ.',
+  'Global Accounts' => 'ᱡᱮᱜᱮᱛ ᱮᱠᱟᱶᱩᱴᱠᱚ',
+);
   }
 
 }

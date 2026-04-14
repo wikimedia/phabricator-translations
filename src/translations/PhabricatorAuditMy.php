@@ -9,9 +9,9 @@ final class PhabricatorAuditMy
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'အသုံးပြုသူများ',
-      'none' => 'ဘာမှမရှိ',
-    );
+  'USERS' => 'အသုံးပြုသူများ',
+  'none' => 'ဘာမှမရှိ',
+);
   }
 
 }

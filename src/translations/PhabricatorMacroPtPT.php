@@ -9,8 +9,8 @@ final class PhabricatorMacroPtPT
 
   protected function getTranslations() {
     return array(
-      'Upload New Audio' => 'Carregar Áudio Novo',
-    );
+  'Upload New Audio' => 'Carregar Áudio Novo',
+);
   }
 
 }

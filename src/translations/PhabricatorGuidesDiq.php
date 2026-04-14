@@ -9,10 +9,10 @@ final class PhabricatorGuidesDiq
 
   protected function getTranslations() {
     return array(
-      'Explore Applications' => 'Aplikasyona keşf kerê',
-      'Skip' => 'Ravêre',
-      'Quick Start' => 'Serkewtışo Pêt',
-    );
+  'Explore Applications' => 'Aplikasyona keşf kerê',
+  'Skip' => 'Ravêre',
+  'Quick Start' => 'Serkewtışo Pêt',
+);
   }
 
 }

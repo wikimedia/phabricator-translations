@@ -9,9 +9,9 @@ final class PhabricatorFactNl
 
   protected function getTranslations() {
     return array(
-      'Not Stored' => 'Niet opgeslagen',
-      'Not Generated' => 'Niet gegenereerd',
-    );
+  'Not Stored' => 'Niet opgeslagen',
+  'Not Generated' => 'Niet gegenereerd',
+);
   }
 
 }

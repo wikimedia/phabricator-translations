@@ -9,8 +9,8 @@ final class PhabricatorBaseSd
 
   protected function getTranslations() {
     return array(
-      'Developer Tools' => 'ڊولپر جا اوزار',
-    );
+  'Developer Tools' => 'ڊولپر جا اوزار',
+);
   }
 
 }

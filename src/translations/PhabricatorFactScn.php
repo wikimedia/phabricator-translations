@@ -9,13 +9,13 @@ final class PhabricatorFactScn
 
   protected function getTranslations() {
     return array(
-      'Y' => 'Y',
-      'cos(x)' => 'cos(x)',
-      '%sms' => '%sms',
-      'constant(345)' => 'constant(345)',
-      'X' => 'X',
-      'Raw' => 'Grezzu',
-    );
+  'Y' => 'Y',
+  'cos(x)' => 'cos(x)',
+  '%sms' => '%sms',
+  'constant(345)' => 'constant(345)',
+  'X' => 'X',
+  'Raw' => 'Grezzu',
+);
   }
 
 }

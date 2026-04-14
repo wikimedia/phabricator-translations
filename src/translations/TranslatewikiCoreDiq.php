@@ -9,11 +9,11 @@ final class TranslatewikiCoreDiq
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'ÇINİYO',
-      'GENDER' => 'CINSİYET',
-      'Done.' => 'Temam.',
-      'PLURAL' => 'Zêdê',
-    );
+  'NONE' => 'ÇINİYO',
+  'GENDER' => 'CINSİYET',
+  'Done.' => 'Temam.',
+  'PLURAL' => 'Zêdê',
+);
   }
 
 }

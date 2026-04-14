@@ -9,10 +9,10 @@ final class PhabricatorXhprofLb
 
   protected function getTranslations() {
     return array(
-      'Symbol' => 'Symbol',
-      '%s μs' => '%s μs',
-      '%s Profile' => '%s Profil',
-    );
+  'Symbol' => 'Symbol',
+  '%s μs' => '%s μs',
+  '%s Profile' => '%s Profil',
+);
   }
 
 }

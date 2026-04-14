@@ -9,8 +9,8 @@ final class PhabricatorPhluxSl
 
   protected function getTranslations() {
     return array(
-      'Create Variable' => 'Ustvari spremenljivko',
-    );
+  'Create Variable' => 'Ustvari spremenljivko',
+);
   }
 
 }

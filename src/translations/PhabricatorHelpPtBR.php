@@ -9,10 +9,10 @@ final class PhabricatorHelpPtBR
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Feche qualquer caixa de diálogo, incluindo esta.',
-      '%s Help' => 'Ajuda de %s',
-      'Keyboard Shortcuts' => 'Atalhos de Teclado',
-    );
+  'Close any dialog, including this one.' => 'Feche qualquer caixa de diálogo, incluindo esta.',
+  '%s Help' => 'Ajuda de %s',
+  'Keyboard Shortcuts' => 'Atalhos de Teclado',
+);
   }
 
 }

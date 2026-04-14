@@ -9,12 +9,12 @@ final class PhabricatorConsolePtBR
 
   protected function getTranslations() {
     return array(
-      'Profile Page' => 'Página de perfil',
-      'Whole Table' => 'Tabela inteira',
-      'Small Table Scan' => 'Varredura de tabela pequena',
-      'TABLE SCAN!' => 'VARREDURA DE TABELA!',
-      'No Tables' => 'Sem tabelas',
-    );
+  'Profile Page' => 'Página de perfil',
+  'Whole Table' => 'Tabela inteira',
+  'Small Table Scan' => 'Varredura de tabela pequena',
+  'TABLE SCAN!' => 'VARREDURA DE TABELA!',
+  'No Tables' => 'Sem tabelas',
+);
   }
 
 }

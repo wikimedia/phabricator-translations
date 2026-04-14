@@ -9,12 +9,12 @@ final class PhabricatorPeopleDiq
 
   protected function getTranslations() {
     return array(
-      'Account Menu' => 'Menuyê hesabi',
-      '  %s' => '%s',
-      'Edit User: %s' => 'Karberi bıvurne: %s',
-      'Log Out %s' => 'Bıveciye %s',
-      '    Username: %s' => 'Nameyê karberi: %s',
-    );
+  'Account Menu' => 'Menuyê hesabi',
+  '  %s' => '%s',
+  'Edit User: %s' => 'Karberi bıvurne: %s',
+  'Log Out %s' => 'Bıveciye %s',
+  '    Username: %s' => 'Nameyê karberi: %s',
+);
   }
 
 }

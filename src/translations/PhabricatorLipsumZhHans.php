@@ -9,10 +9,10 @@ final class PhabricatorLipsumZhHans
 
   protected function getTranslations() {
     return array(
-      'LIPSUM' => 'LIPSUM',
-      'OOPS' => '哎呀',
-      'Generated "%s": %s' => '已生成“%s”：%s',
-    );
+  'LIPSUM' => 'LIPSUM',
+  'OOPS' => '哎呀',
+  'Generated "%s": %s' => '已生成“%s”：%s',
+);
   }
 
 }

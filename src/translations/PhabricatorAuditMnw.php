@@ -9,8 +9,8 @@ final class PhabricatorAuditMnw
 
   protected function getTranslations() {
     return array(
-      'none' => 'တုဲဒှ်',
-    );
+  'none' => 'တုဲဒှ်',
+);
   }
 
 }

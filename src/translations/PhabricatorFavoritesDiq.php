@@ -9,9 +9,9 @@ final class PhabricatorFavoritesDiq
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Favoriyan bıvurne',
-      'Favorite Items' => 'Obceyê favoriyi',
-    );
+  'Edit Favorites' => 'Favoriyan bıvurne',
+  'Favorite Items' => 'Obceyê favoriyi',
+);
   }
 
 }

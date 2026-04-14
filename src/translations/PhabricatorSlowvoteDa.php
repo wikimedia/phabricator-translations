@@ -9,9 +9,9 @@ final class PhabricatorSlowvoteDa
 
   protected function getTranslations() {
     return array(
-      'Reopen' => 'Genåbn',
-      'Responses' => 'Svar',
-    );
+  'Reopen' => 'Genåbn',
+  'Responses' => 'Svar',
+);
   }
 
 }

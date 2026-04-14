@@ -9,8 +9,8 @@ final class PhabricatorConsoleIt
 
   protected function getTranslations() {
     return array(
-      'Site' => 'Sito',
-    );
+  'Site' => 'Sito',
+);
   }
 
 }

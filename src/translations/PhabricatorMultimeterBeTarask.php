@@ -9,9 +9,9 @@ final class PhabricatorMultimeterBeTarask
 
   protected function getTranslations() {
     return array(
-      'By ID' => 'Па ідэнтыфікатары',
-      'Trying to unpause an active multimeter!' => 'Спрабую зьняць з паўзы актыўны мультымэтар!',
-    );
+  'By ID' => 'Па ідэнтыфікатары',
+  'Trying to unpause an active multimeter!' => 'Спрабую зьняць з паўзы актыўны мультымэтар!',
+);
   }
 
 }

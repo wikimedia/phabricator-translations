@@ -9,8 +9,8 @@ final class PhabricatorPhurlDga
 
   protected function getTranslations() {
     return array(
-      'Created By' => 'La kuri',
-    );
+  'Created By' => 'La kuri',
+);
   }
 
 }

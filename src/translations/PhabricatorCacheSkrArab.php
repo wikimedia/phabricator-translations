@@ -9,8 +9,8 @@ final class PhabricatorCacheSkrArab
 
   protected function getTranslations() {
     return array(
-      'APCu' => 'اے پی سی یو',
-    );
+  'APCu' => 'اے پی سی یو',
+);
   }
 
 }

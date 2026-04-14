@@ -9,8 +9,8 @@ final class PhabricatorSpacesJa
 
   protected function getTranslations() {
     return array(
-      'You do not have permission to create spaces.' => 'スペースを作成する権限がありません。',
-    );
+  'You do not have permission to create spaces.' => 'スペースを作成する権限がありません。',
+);
   }
 
 }

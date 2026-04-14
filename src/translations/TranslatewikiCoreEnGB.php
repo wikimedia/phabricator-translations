@@ -9,8 +9,8 @@ final class TranslatewikiCoreEnGB
 
   protected function getTranslations() {
     return array(
-      'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Unable to extract string with unrecognised "%%" pattern, "%s": %s.',
-    );
+  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Unable to extract string with unrecognised "%%" pattern, "%s": %s.',
+);
   }
 
 }

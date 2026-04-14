@@ -9,11 +9,11 @@ final class PhabricatorCacheDiq
 
   protected function getTranslations() {
     return array(
-      'APCu' => 'APCu',
-      'OPcache' => 'OPcache',
-      'Failed to inflate data!' => 'Data pıf nêbiyo!',
-      'Zend OPcache' => 'Zend OPcache',
-    );
+  'APCu' => 'APCu',
+  'OPcache' => 'OPcache',
+  'Failed to inflate data!' => 'Data pıf nêbiyo!',
+  'Zend OPcache' => 'Zend OPcache',
+);
   }
 
 }

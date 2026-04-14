@@ -9,8 +9,8 @@ final class PhabricatorFeedZhHans
 
   protected function getTranslations() {
     return array(
-      'All Stories' => '所有故事',
-    );
+  'All Stories' => '所有故事',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorextCorePa
 
   protected function getTranslations() {
     return array(
-      'MediaWiki' => 'ਮੀਡੀਆਵਿਕੀ',
-      'MediaWiki User' => 'ਮੀਡੀਆਵਿਕੀ ਵਰਤੋਂਕਾਰ',
-    );
+  'MediaWiki' => 'ਮੀਡੀਆਵਿਕੀ',
+  'MediaWiki User' => 'ਮੀਡੀਆਵਿਕੀ ਵਰਤੋਂਕਾਰ',
+);
   }
 
 }

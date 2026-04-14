@@ -9,9 +9,9 @@ final class PhabricatorPhrictionId
 
   protected function getTranslations() {
     return array(
-      'Version %d' => 'Versi %s',
-      'Welcome' => 'Tutup',
-    );
+  'Version %d' => 'Versi %d',
+  'Welcome' => 'Tutup',
+);
   }
 
 }

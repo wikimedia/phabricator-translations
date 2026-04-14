@@ -9,9 +9,9 @@ final class PhabricatorHelpFi
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s Ohje',
-      'Keyboard Shortcuts' => 'Pikanäppäimet',
-    );
+  '%s Help' => '%s Ohje',
+  'Keyboard Shortcuts' => 'Pikanäppäimet',
+);
   }
 
 }

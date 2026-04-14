@@ -9,8 +9,8 @@ final class PhabricatorHelpBlk
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s အစွဲးအကမ်း',
-    );
+  '%s Help' => '%s အစွဲးအကမ်း',
+);
   }
 
 }

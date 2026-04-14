@@ -9,10 +9,10 @@ final class PhabricatorCountdownMy
 
   protected function getTranslations() {
     return array(
-      'Minutes' => 'မိနစ်',
-      'Hours' => 'နာရီ',
-      'Days' => 'ရက်',
-    );
+  'Minutes' => 'မိနစ်',
+  'Hours' => 'နာရီ',
+  'Days' => 'ရက်',
+);
   }
 
 }

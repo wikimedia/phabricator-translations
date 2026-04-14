@@ -9,9 +9,9 @@ final class PhabricatorPhpastDa
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'PHPAST',
-      'Node %d: %s' => 'Node %s: %s',
-    );
+  'PHPAST' => 'PHPAST',
+  'Node %d: %s' => 'Node %d: %s',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class TranslatewikiCoreLn
 
   protected function getTranslations() {
     return array(
-      'Ukrainian' => 'Bâton ya Ukraine',
-    );
+  'Ukrainian' => 'Bâton ya Ukraine',
+);
   }
 
 }

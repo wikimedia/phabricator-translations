@@ -9,11 +9,11 @@ final class PhabricatorDivinerSl
 
   protected function getTranslations() {
     return array(
-      'Return' => 'Vrnitev',
-      'Books' => 'Knjige',
-      'Documentation Not Found' => 'Dokumentacija ni bila najdena',
-      'Book' => 'Knjiga',
-    );
+  'Return' => 'Vrnitev',
+  'Books' => 'Knjige',
+  'Documentation Not Found' => 'Dokumentacija ni bila najdena',
+  'Book' => 'Knjiga',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorNotificationTcy
 
   protected function getTranslations() {
     return array(
-      'All Notifications' => 'ಮಾತಾ ಸೂಚನೆಲು',
-    );
+  'All Notifications' => 'ಮಾತಾ ಸೂಚನೆಲು',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorPhrictionTe
 
   protected function getTranslations() {
     return array(
-      'Document already exists!' => 'డాక్యుమెంటు ఈసరికే ఉంది!',
-      'Welcome' => 'స్వాగతం',
-    );
+  'Document already exists!' => 'డాక్యుమెంటు ఈసరికే ఉంది!',
+  'Welcome' => 'స్వాగతం',
+);
   }
 
 }

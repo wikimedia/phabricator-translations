@@ -9,8 +9,8 @@ final class PhabricatorAuditKjp
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'ဆ်ုသုံႋဆာႋလ်ုဖး',
-    );
+  'USERS' => 'ဆ်ုသုံႋဆာႋလ်ုဖး',
+);
   }
 
 }

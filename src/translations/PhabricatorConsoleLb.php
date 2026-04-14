@@ -9,9 +9,9 @@ final class PhabricatorConsoleLb
 
   protected function getTranslations() {
     return array(
-      'No errors.' => 'Keng Feeler.',
-      'Profile Page' => 'Profilsäit',
-    );
+  'No errors.' => 'Keng Feeler.',
+  'Profile Page' => 'Profilsäit',
+);
   }
 
 }

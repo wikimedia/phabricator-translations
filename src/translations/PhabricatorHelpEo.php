@@ -9,10 +9,10 @@ final class PhabricatorHelpEo
 
   protected function getTranslations() {
     return array(
-      'Close any dialog, including this one.' => 'Fermi ajnan dialogon, inkluzive de ĉi tiu.',
-      '%s Help' => 'Helpo pri %s',
-      'Keyboard Shortcuts' => 'Fulmoklavoj',
-    );
+  'Close any dialog, including this one.' => 'Fermi ajnan dialogon, inkluzive de ĉi tiu.',
+  '%s Help' => 'Helpo pri %s',
+  'Keyboard Shortcuts' => 'Fulmoklavoj',
+);
   }
 
 }

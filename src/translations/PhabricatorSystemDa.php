@@ -9,15 +9,15 @@ final class PhabricatorSystemDa
 
   protected function getTranslations() {
     return array(
-      'Panic!' => 'Panik!',
-      '%d / hour' => '%s / time',
-      'IMPORTANT' => 'VIGTIGT',
-      'Destroying objects...' => 'Destruerer objekter.',
-      'Aborted, your objects are safe.' => 'Afbrudt, dine objekter er i sikkerhed.',
-      'System' => 'System',
-      '%d / minute' => '%s / minut',
-      '%d / second' => '%s / sekund',
-    );
+  'Panic!' => 'Panik!',
+  '%d / hour' => '%d / time',
+  'IMPORTANT' => 'VIGTIGT',
+  'Destroying objects...' => 'Destruerer objekter.',
+  'Aborted, your objects are safe.' => 'Afbrudt, dine objekter er i sikkerhed.',
+  'System' => 'System',
+  '%d / minute' => '%d / minut',
+  '%d / second' => '%d / sekund',
+);
   }
 
 }

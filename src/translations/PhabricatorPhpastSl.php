@@ -9,9 +9,9 @@ final class PhabricatorPhpastSl
 
   protected function getTranslations() {
     return array(
-      'Node %d: %s' => 'Vozlišče %s: %s',
-      'Token %d: %s' => 'Žeton %s: %s',
-    );
+  'Node %d: %s' => 'Vozlišče %d: %s',
+  'Token %d: %s' => 'Žeton %d: %s',
+);
   }
 
 }

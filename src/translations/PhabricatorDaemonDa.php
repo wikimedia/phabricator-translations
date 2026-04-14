@@ -9,18 +9,18 @@ final class PhabricatorDaemonDa
 
   protected function getTranslations() {
     return array(
-      'Shutting Down' => 'Lukker ned',
-      'Running as' => 'Kører som',
-      'Not Completed' => 'Ikke afsluttet',
-      'Seen' => 'Set',
-      'Unknown status "%s"!' => 'Ukendt status "%s"!',
-      'Next In Queue' => 'Næste i køen',
-      'Lock' => 'Lås',
-      'Dead' => 'Død',
-      'Last' => 'Sidste',
-      'PID' => 'PID',
-      'Started' => 'Påbegyndt',
-    );
+  'Shutting Down' => 'Lukker ned',
+  'Running as' => 'Kører som',
+  'Not Completed' => 'Ikke afsluttet',
+  'Seen' => 'Set',
+  'Unknown status "%s"!' => 'Ukendt status "%s"!',
+  'Next In Queue' => 'Næste i køen',
+  'Lock' => 'Lås',
+  'Dead' => 'Død',
+  'Last' => 'Sidste',
+  'PID' => 'PID',
+  'Started' => 'Påbegyndt',
+);
   }
 
 }

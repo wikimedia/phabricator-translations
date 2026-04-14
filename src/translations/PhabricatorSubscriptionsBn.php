@@ -9,10 +9,10 @@ final class PhabricatorSubscriptionsBn
 
   protected function getTranslations() {
     return array(
-      'Mute' => 'নিঃশব্দ করুন',
-      'Subscriber' => 'সদস্যতা নিন',
-      'Mute Notifications' => 'বিজ্ঞপ্তি নিঃশব্দ করুন',
-    );
+  'Mute' => 'নিঃশব্দ করুন',
+  'Subscriber' => 'সদস্যতা নিন',
+  'Mute Notifications' => 'বিজ্ঞপ্তি নিঃশব্দ করুন',
+);
   }
 
 }

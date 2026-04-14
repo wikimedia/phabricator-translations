@@ -9,8 +9,8 @@ final class PhabricatorPhluxFa
 
   protected function getTranslations() {
     return array(
-      'Update Variable' => 'روزآمدسازی متغیر',
-    );
+  'Update Variable' => 'روزآمدسازی متغیر',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMacroSms
 
   protected function getTranslations() {
     return array(
-      'Audio File' => 'Jiõnnteâttõs',
-    );
+  'Audio File' => 'Jiõnnteâttõs',
+);
   }
 
 }

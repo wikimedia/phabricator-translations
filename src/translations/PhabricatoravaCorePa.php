@@ -9,9 +9,9 @@ final class PhabricatoravaCorePa
 
   protected function getTranslations() {
     return array(
-      'Anti-Vandalism' => 'ਭੰਨ-ਤੋੜ ਦੇ ਖ਼ਿਲਾਫ਼',
-      'Vandalism detected' => 'ਭੰਨਤੋੜ ਦਾ ਪਤਾ ਲੱਗਾ',
-    );
+  'Anti-Vandalism' => 'ਭੰਨ-ਤੋੜ ਦੇ ਖ਼ਿਲਾਫ਼',
+  'Vandalism detected' => 'ਭੰਨਤੋੜ ਦਾ ਪਤਾ ਲੱਗਾ',
+);
   }
 
 }

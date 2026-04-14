@@ -9,9 +9,9 @@ final class PhabricatoravaCoreSrEC
 
   protected function getTranslations() {
     return array(
-      'No vandalism detected.' => 'Није детектован вандализам.',
-      'No action' => 'Нема радње',
-    );
+  'No vandalism detected.' => 'Није детектован вандализам.',
+  'No action' => 'Нема радње',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorSupportDiq
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Destek',
-    );
+  'Support' => 'Destek',
+);
   }
 
 }

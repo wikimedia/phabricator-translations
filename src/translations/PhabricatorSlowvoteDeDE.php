@@ -9,8 +9,8 @@ final class PhabricatorSlowvoteDeDE
 
   protected function getTranslations() {
     return array(
-      '%s edited the description of %s.' => '%s bearbeitete die Beschreibung von %s.',
-    );
+  '%s edited the description of %s.' => '%s bearbeitete die Beschreibung von %s.',
+);
   }
 
 }

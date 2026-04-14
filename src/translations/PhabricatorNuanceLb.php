@@ -9,9 +9,9 @@ final class PhabricatorNuanceLb
 
   protected function getTranslations() {
     return array(
-      'User %s' => 'Benotzer %s',
-      'Renamed' => 'Ëmbenannt',
-    );
+  'User %s' => 'Benotzer %s',
+  'Renamed' => 'Ëmbenannt',
+);
   }
 
 }

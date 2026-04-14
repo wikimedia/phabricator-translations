@@ -9,8 +9,8 @@ final class PhabricatorTokensSe
 
   protected function getTranslations() {
     return array(
-      'Cookie' => 'Diehtočoahkku',
-    );
+  'Cookie' => 'Diehtočoahkku',
+);
   }
 
 }

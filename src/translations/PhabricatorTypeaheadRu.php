@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadRu
 
   protected function getTranslations() {
     return array(
-      'Select' => 'Выбрать',
-    );
+  'Select' => 'Выбрать',
+);
   }
 
 }

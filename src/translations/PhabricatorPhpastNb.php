@@ -9,11 +9,11 @@ final class PhabricatorPhpastNb
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'PHPAST',
-      'Node %d: %s' => 'Node %s: %s',
-      'Generate XHP AST' => 'Generer XHP AST',
-      'No such AST!' => 'Ingen slik AST!',
-    );
+  'PHPAST' => 'PHPAST',
+  'Node %d: %s' => 'Node %d: %s',
+  'Generate XHP AST' => 'Generer XHP AST',
+  'No such AST!' => 'Ingen slik AST!',
+);
   }
 
 }

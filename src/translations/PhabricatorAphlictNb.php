@@ -9,8 +9,8 @@ final class PhabricatorAphlictNb
 
   protected function getTranslations() {
     return array(
-      'Message to send.' => 'Meldinger til forsendelse.',
-    );
+  'Message to send.' => 'Meldinger til forsendelse.',
+);
   }
 
 }

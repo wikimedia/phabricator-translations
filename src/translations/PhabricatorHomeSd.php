@@ -9,10 +9,10 @@ final class PhabricatorHomeSd
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'ڪمانڊ سينٽر',
-      'More Applications' => 'وڌيڪ ايپليڪيشنون',
-      'Built-in Homepage' => 'بلٽ ان مک صفحو',
-    );
+  'Command Center' => 'ڪمانڊ سينٽر',
+  'More Applications' => 'وڌيڪ ايپليڪيشنون',
+  'Built-in Homepage' => 'بلٽ ان مک صفحو',
+);
   }
 
 }

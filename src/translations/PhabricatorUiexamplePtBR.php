@@ -9,13 +9,13 @@ final class PhabricatorUiexamplePtBR
 
   protected function getTranslations() {
     return array(
-      'Getting Started' => 'Primeiros passos',
-      'Info View' => 'Visualização de informações',
-      'Read Documentation' => 'Ler documentação',
-      'Normal Object' => 'Objeto normal',
-      'A simple description' => 'Uma descrição simples',
-      'Assigned to' => 'Atribuído a',
-    );
+  'Getting Started' => 'Primeiros passos',
+  'Info View' => 'Visualização de informações',
+  'Read Documentation' => 'Ler documentação',
+  'Normal Object' => 'Objeto normal',
+  'A simple description' => 'Uma descrição simples',
+  'Assigned to' => 'Atribuído a',
+);
   }
 
 }

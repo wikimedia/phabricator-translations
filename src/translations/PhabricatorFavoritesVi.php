@@ -9,8 +9,8 @@ final class PhabricatorFavoritesVi
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'Sửa mục ưa thích',
-    );
+  'Edit Favorites' => 'Sửa mục ưa thích',
+);
   }
 
 }

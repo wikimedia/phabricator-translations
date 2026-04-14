@@ -9,11 +9,11 @@ final class PhabricatorAuditDa
 
   protected function getTranslations() {
     return array(
-      'USERS' => 'BRUGERE',
-      'Updating "%s" (%s)...' => 'Opdaterer "%s" (%s)...',
-      'none' => 'ingen',
-      'Ancestors Of' => 'Forfædre af',
-    );
+  'USERS' => 'BRUGERE',
+  'Updating "%s" (%s)...' => 'Opdaterer "%s" (%s)...',
+  'none' => 'ingen',
+  'Ancestors Of' => 'Forfædre af',
+);
   }
 
 }

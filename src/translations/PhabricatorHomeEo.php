@@ -9,10 +9,10 @@ final class PhabricatorHomeEo
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Komanda Centro',
-      'More Applications' => 'Pliaj Aplikaĵoj',
-      'Built-in Homepage' => 'Enkonstruita Ĉefpaĝo',
-    );
+  'Command Center' => 'Komanda Centro',
+  'More Applications' => 'Pliaj Aplikaĵoj',
+  'Built-in Homepage' => 'Enkonstruita Ĉefpaĝo',
+);
   }
 
 }

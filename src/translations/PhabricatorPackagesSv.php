@@ -9,8 +9,8 @@ final class PhabricatorPackagesSv
 
   protected function getTranslations() {
     return array(
-      '%s created this publisher.' => '%s skapade denna utgivare.',
-    );
+  '%s created this publisher.' => '%s skapade denna utgivare.',
+);
   }
 
 }

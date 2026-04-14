@@ -9,10 +9,10 @@ final class PhabricatorFundSl
 
   protected function getTranslations() {
     return array(
-      'Close Initiative' => 'Zapri pobudo',
-      'Donate' => 'Donirajte',
-      'Close Initiative?' => 'Zaprem pobudo?',
-    );
+  'Close Initiative' => 'Zapri pobudo',
+  'Donate' => 'Donirajte',
+  'Close Initiative?' => 'Zaprem pobudo?',
+);
   }
 
 }

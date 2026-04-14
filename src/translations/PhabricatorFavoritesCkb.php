@@ -9,9 +9,9 @@ final class PhabricatorFavoritesCkb
 
   protected function getTranslations() {
     return array(
-      'Edit Favorites' => 'دەستکاری دڵخوازەکان بکە',
-      'Favorite Items' => 'ماددە دڵخوازەکان',
-    );
+  'Edit Favorites' => 'دەستکاری دڵخوازەکان بکە',
+  'Favorite Items' => 'ماددە دڵخوازەکان',
+);
   }
 
 }

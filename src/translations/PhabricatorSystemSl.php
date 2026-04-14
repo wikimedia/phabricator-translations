@@ -9,9 +9,9 @@ final class PhabricatorSystemSl
 
   protected function getTranslations() {
     return array(
-      'Choose a syntax highlighting to use.' => 'Izberite označevanje skladnje, ki ga želite uporabljati.',
-      'Select Syntax Highlighting' => 'Izberi Označevanje skladnje',
-    );
+  'Choose a syntax highlighting to use.' => 'Izberite označevanje skladnje, ki ga želite uporabljati.',
+  'Select Syntax Highlighting' => 'Izberi Označevanje skladnje',
+);
   }
 
 }

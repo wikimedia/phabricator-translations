@@ -9,8 +9,8 @@ final class PhabricatorMetaKy
 
   protected function getTranslations() {
     return array(
-      'Information' => 'Маалымат',
-    );
+  'Information' => 'Маалымат',
+);
   }
 
 }

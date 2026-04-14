@@ -9,16 +9,16 @@ final class PhabricatorPhrequentDiq
 
   protected function getTranslations() {
     return array(
-      'Working Now' => 'Newke Guriyeno',
-      'Ended on %s' => '%s de baş biyo',
-      'Interrupted' => 'Bıriyayo',
-      'Ended' => 'Baş biyo',
-      'Stop' => 'Vınde',
-      'Not Working Now' => 'Enewke Nêgureniyeno',
-      'Started At' => 'Dest pêno',
-      '%s (%s ago)' => '%s (%s veri)',
-      'Phrequent' => 'Phrequent',
-    );
+  'Working Now' => 'Newke Guriyeno',
+  'Ended on %s' => '%s de baş biyo',
+  'Interrupted' => 'Bıriyayo',
+  'Ended' => 'Baş biyo',
+  'Stop' => 'Vınde',
+  'Not Working Now' => 'Enewke Nêgureniyeno',
+  'Started At' => 'Dest pêno',
+  '%s (%s ago)' => '%s (%s veri)',
+  'Phrequent' => 'Phrequent',
+);
   }
 
 }

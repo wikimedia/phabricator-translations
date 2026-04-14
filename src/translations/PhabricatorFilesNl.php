@@ -9,13 +9,13 @@ final class PhabricatorFilesNl
 
   protected function getTranslations() {
     return array(
-      'Standalone' => 'Zelfstandig',
-      '<Invalid Output>' => '<ongeldige uitvoer>',
-      'View as Source' => 'Als bron weergeven',
-      'View as Video' => 'Als filmpje weergeven',
-      'Covered' => 'Gedekt',
-      'View as Audio' => 'Als geluid weergeven',
-    );
+  'Standalone' => 'Zelfstandig',
+  '<Invalid Output>' => '<ongeldige uitvoer>',
+  'View as Source' => 'Als bron weergeven',
+  'View as Video' => 'Als filmpje weergeven',
+  'Covered' => 'Gedekt',
+  'View as Audio' => 'Als geluid weergeven',
+);
   }
 
 }

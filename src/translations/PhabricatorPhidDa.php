@@ -9,8 +9,8 @@ final class PhabricatorPhidDa
 
   protected function getTranslations() {
     return array(
-      'Unknown Object (%s)' => 'Ukendt objekt (%s)',
-    );
+  'Unknown Object (%s)' => 'Ukendt objekt (%s)',
+);
   }
 
 }

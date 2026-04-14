@@ -9,8 +9,8 @@ final class PhabricatorSubscriptionsFa
 
   protected function getTranslations() {
     return array(
-      'Subscriber' => 'مشترک',
-    );
+  'Subscriber' => 'مشترک',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorMacroTly
 
   protected function getTranslations() {
     return array(
-      'Above' => 'Səpe',
-    );
+  'Above' => 'Səpe',
+);
   }
 
 }

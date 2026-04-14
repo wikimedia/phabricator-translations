@@ -9,8 +9,8 @@ final class PhabricatorMetaBg
 
   protected function getTranslations() {
     return array(
-      'Syntax' => 'Синтаксис',
-    );
+  'Syntax' => 'Синтаксис',
+);
   }
 
 }

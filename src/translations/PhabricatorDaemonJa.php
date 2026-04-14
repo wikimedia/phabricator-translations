@@ -9,9 +9,9 @@ final class PhabricatorDaemonJa
 
   protected function getTranslations() {
     return array(
-      'Archived Tasks' => 'アーカイブ済みのタスク',
-      'Task %d' => 'タスク %s',
-    );
+  'Archived Tasks' => 'アーカイブ済みのタスク',
+  'Task %d' => 'タスク %d',
+);
   }
 
 }

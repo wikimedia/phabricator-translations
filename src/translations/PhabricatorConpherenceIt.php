@@ -9,9 +9,9 @@ final class PhabricatorConpherenceIt
 
   protected function getTranslations() {
     return array(
-      'Search %s...' => 'Cerca %s...',
-      'Theme' => 'Tema',
-    );
+  'Search %s...' => 'Cerca %s...',
+  'Theme' => 'Tema',
+);
   }
 
 }

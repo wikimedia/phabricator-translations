@@ -9,9 +9,9 @@ final class PhabricatorPhrictionDga
 
   protected function getTranslations() {
     return array(
-      'Revert' => 'Leɛre o',
-      'Wiki Document' => 'Wiki gambinnii',
-    );
+  'Revert' => 'Leɛre o',
+  'Wiki Document' => 'Wiki gambinnii',
+);
   }
 
 }

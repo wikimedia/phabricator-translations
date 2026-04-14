@@ -9,8 +9,8 @@ final class PhabricatorFeedFi
 
   protected function getTranslations() {
     return array(
-      'Review Recent Activity' => 'Tarkastele viimeaikaista toimintaa',
-    );
+  'Review Recent Activity' => 'Tarkastele viimeaikaista toimintaa',
+);
   }
 
 }

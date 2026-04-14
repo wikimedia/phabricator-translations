@@ -9,9 +9,9 @@ final class PhabricatorPasteDa
 
   protected function getTranslations() {
     return array(
-      '%s updated the title for %s from %s to %s.' => '%s opdaterede titlen for %s fra %s til %s.',
-      '%s Line(s)' => '%s linje(r)',
-    );
+  '%s updated the title for %s from %s to %s.' => '%s opdaterede titlen for %s fra %s til %s.',
+  '%s Line(s)' => '%s linje(r)',
+);
   }
 
 }

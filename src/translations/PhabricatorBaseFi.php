@@ -9,8 +9,8 @@ final class PhabricatorBaseFi
 
   protected function getTranslations() {
     return array(
-      'Developer Tools' => 'Kehittäjän työkalut',
-    );
+  'Developer Tools' => 'Kehittäjän työkalut',
+);
   }
 
 }

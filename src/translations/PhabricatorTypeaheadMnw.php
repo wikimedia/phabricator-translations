@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadMnw
 
   protected function getTranslations() {
     return array(
-      'Select' => 'ရုဲကေတ်',
-    );
+  'Select' => 'ရုဲကေတ်',
+);
   }
 
 }

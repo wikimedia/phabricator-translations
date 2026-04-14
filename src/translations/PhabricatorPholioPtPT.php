@@ -9,9 +9,9 @@ final class PhabricatorPholioPtPT
 
   protected function getTranslations() {
     return array(
-      'Uploading Image...' => 'A Carregar Imagem...',
-      'Upload Complete...' => 'Carregamento Terminado...',
-    );
+  'Uploading Image...' => 'A Carregar Imagem...',
+  'Upload Complete...' => 'Carregamento Terminado...',
+);
   }
 
 }

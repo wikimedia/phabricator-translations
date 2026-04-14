@@ -9,8 +9,8 @@ final class PhabricatorMetaMs
 
   protected function getTranslations() {
     return array(
-      'Syntax' => 'Sintaks',
-    );
+  'Syntax' => 'Sintaks',
+);
   }
 
 }

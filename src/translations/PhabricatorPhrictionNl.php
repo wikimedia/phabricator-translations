@@ -9,12 +9,12 @@ final class PhabricatorPhrictionNl
 
   protected function getTranslations() {
     return array(
-      'Last Edited' => 'Laatste bewerking',
-      'Document Content' => 'Documentinhoud',
-      'Content version.' => 'Versie van de inhoud.',
-      'Welcome' => 'Welkom',
-      'All Content' => 'Alle inhoud',
-    );
+  'Last Edited' => 'Laatste bewerking',
+  'Document Content' => 'Documentinhoud',
+  'Content version.' => 'Versie van de inhoud.',
+  'Welcome' => 'Welkom',
+  'All Content' => 'Alle inhoud',
+);
   }
 
 }

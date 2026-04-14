@@ -9,15 +9,15 @@ final class PhabricatorSearchKjp
 
   protected function getTranslations() {
     return array(
-      'No results.' => 'အ်ုတင်လ်ုအှ်ၜး',
-      'N/A' => 'N/A',
-      '—' => '—',
-      'IDs' => 'IDs',
-      'PHIDs' => 'PHIDs',
-      'NOTE' => 'ဆ်ုမာၮံင်',
-      'Link' => 'လင့်',
-      'Use Results' => 'ဆ်ုသုံႋအ်ုတင်လ်ုဖး',
-    );
+  'No results.' => 'အ်ုတင်လ်ုအှ်ၜး',
+  'N/A' => 'N/A',
+  '—' => '—',
+  'IDs' => 'IDs',
+  'PHIDs' => 'PHIDs',
+  'NOTE' => 'ဆ်ုမာၮံင်',
+  'Link' => 'လင့်',
+  'Use Results' => 'ဆ်ုသုံႋအ်ုတင်လ်ုဖး',
+);
   }
 
 }

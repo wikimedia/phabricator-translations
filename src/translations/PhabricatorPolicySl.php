@@ -9,12 +9,12 @@ final class PhabricatorPolicySl
 
   protected function getTranslations() {
     return array(
-      'Other: %s' => 'Drugo: %s',
-      'Allow Public Visibility' => 'Dovoli javno vidnost',
-      'Note:' => 'Opomba:',
-      'Require Login' => 'Potrebna je prijava',
-      'Options relating to object visibility.' => 'Možnosti, povezane z vidnostjo objekta.',
-    );
+  'Other: %s' => 'Drugo: %s',
+  'Allow Public Visibility' => 'Dovoli javno vidnost',
+  'Note:' => 'Opomba:',
+  'Require Login' => 'Potrebna je prijava',
+  'Options relating to object visibility.' => 'Možnosti, povezane z vidnostjo objekta.',
+);
   }
 
 }

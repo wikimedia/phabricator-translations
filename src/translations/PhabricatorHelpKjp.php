@@ -9,8 +9,8 @@ final class PhabricatorHelpKjp
 
   protected function getTranslations() {
     return array(
-      '%s Help' => '%s မာၜိုဝ်မာဆိုင်',
-    );
+  '%s Help' => '%s မာၜိုဝ်မာဆိုင်',
+);
   }
 
 }

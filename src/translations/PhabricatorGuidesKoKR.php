@@ -9,10 +9,10 @@ final class PhabricatorGuidesKoKR
 
   protected function getTranslations() {
     return array(
-      'Skip' => '건너뛰기',
-      'Quick Start' => '빠른 시작',
-      'Notification Server' => '알림 서버',
-    );
+  'Skip' => '건너뛰기',
+  'Quick Start' => '빠른 시작',
+  'Notification Server' => '알림 서버',
+);
   }
 
 }

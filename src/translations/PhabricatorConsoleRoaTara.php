@@ -9,12 +9,12 @@ final class PhabricatorConsoleRoaTara
 
   protected function getTranslations() {
     return array(
-      'Listener Class' => 'Ascoltatore d\'a Classe',
-      'Internal ID' => 'ID inderne',
-      'Site' => 'Site',
-      'Machine' => 'Maghene',
-      'No Tables' => 'Nisciuna tabbelle',
-    );
+  'Listener Class' => 'Ascoltatore d\'a Classe',
+  'Internal ID' => 'ID inderne',
+  'Site' => 'Site',
+  'Machine' => 'Maghene',
+  'No Tables' => 'Nisciuna tabbelle',
+);
   }
 
 }

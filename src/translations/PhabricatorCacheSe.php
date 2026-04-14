@@ -9,8 +9,8 @@ final class PhabricatorCacheSe
 
   protected function getTranslations() {
     return array(
-      'Purge all caches.' => 'Gurre buot gaskamuittuid.',
-    );
+  'Purge all caches.' => 'Gurre buot gaskamuittuid.',
+);
   }
 
 }

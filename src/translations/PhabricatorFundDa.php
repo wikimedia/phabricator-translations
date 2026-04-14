@@ -9,10 +9,10 @@ final class PhabricatorFundDa
 
   protected function getTranslations() {
     return array(
-      'Unable to load %s!' => 'Kunne ikke indlæse %s!',
-      'Risks/Challenges' => 'Risici/Udfordringer',
-      'Donate' => 'Donér',
-    );
+  'Unable to load %s!' => 'Kunne ikke indlæse %s!',
+  'Risks/Challenges' => 'Risici/Udfordringer',
+  'Donate' => 'Donér',
+);
   }
 
 }

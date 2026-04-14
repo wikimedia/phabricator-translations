@@ -9,10 +9,10 @@ final class TranslatewikiCoreCy
 
   protected function getTranslations() {
     return array(
-      'NONE' => 'NONE',
-      'GENDER' => 'GENDER',
-      'PLURAL' => 'PLURAL',
-    );
+  'NONE' => 'NONE',
+  'GENDER' => 'GENDER',
+  'PLURAL' => 'PLURAL',
+);
   }
 
 }

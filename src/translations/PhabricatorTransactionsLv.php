@@ -9,12 +9,12 @@ final class PhabricatorTransactionsLv
 
   protected function getTranslations() {
     return array(
-      '🔒 Locked' => '🔒 Aizslēgts',
-      '✘ Hidden' => '✘ Paslēpts',
-      'export' => 'eksportēt',
-      '%s wrote:' => '%s rakstīja:',
-      'Edit Comment' => 'Labot komentāru',
-    );
+  '🔒 Locked' => '🔒 Aizslēgts',
+  '✘ Hidden' => '✘ Paslēpts',
+  'export' => 'eksportēt',
+  '%s wrote:' => '%s rakstīja:',
+  'Edit Comment' => 'Labot komentāru',
+);
   }
 
 }

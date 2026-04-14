@@ -9,11 +9,11 @@ final class PhabricatorUiexampleBn
 
   protected function getTranslations() {
     return array(
-      'Zucchini' => 'জুক্কিনি',
-      'Wikipedia' => 'উইকিপিডিয়া',
-      'Show Notification' => 'বিজ্ঞপ্তি দেখান',
-      'Banana' => 'কলা',
-    );
+  'Zucchini' => 'জুক্কিনি',
+  'Wikipedia' => 'উইকিপিডিয়া',
+  'Show Notification' => 'বিজ্ঞপ্তি দেখান',
+  'Banana' => 'কলা',
+);
   }
 
 }

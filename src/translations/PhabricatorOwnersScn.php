@@ -9,11 +9,11 @@ final class PhabricatorOwnersScn
 
   protected function getTranslations() {
     return array(
-      '"" (empty string)' => '"" (stringa vacanti)',
-      'Include' => 'Ncludi',
-      'Weak' => 'Dèbbuli',
-      'Authority' => 'Auturitati',
-    );
+  '"" (empty string)' => '"" (stringa vacanti)',
+  'Include' => 'Ncludi',
+  'Weak' => 'Dèbbuli',
+  'Authority' => 'Auturitati',
+);
   }
 
 }

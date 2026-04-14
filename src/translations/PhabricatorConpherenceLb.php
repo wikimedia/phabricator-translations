@@ -9,9 +9,9 @@ final class PhabricatorConpherenceLb
 
   protected function getTranslations() {
     return array(
-      'New Message' => 'Neie Message',
-      'No Sound' => 'Keen Toun',
-    );
+  'New Message' => 'Neie Message',
+  'No Sound' => 'Keen Toun',
+);
   }
 
 }

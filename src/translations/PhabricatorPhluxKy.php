@@ -9,8 +9,8 @@ final class PhabricatorPhluxKy
 
   protected function getTranslations() {
     return array(
-      'Variable "%s"' => '"%s" өзгөрмөсү',
-    );
+  'Variable "%s"' => '"%s" өзгөрмөсү',
+);
   }
 
 }

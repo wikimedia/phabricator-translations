@@ -9,8 +9,8 @@ final class PhabricatorXhprofMy
 
   protected function getTranslations() {
     return array(
-      'Symbol' => 'သင်္ကေတ',
-    );
+  'Symbol' => 'သင်္ကေတ',
+);
   }
 
 }

@@ -9,18 +9,18 @@ final class PhabricatorConsoleDeDE
 
   protected function getTranslations() {
     return array(
-      'Internal ID' => 'Interne ID',
-      'Site' => 'Seite',
-      '+%s ms' => '+%s ms',
-      'Reconnect' => 'Erneut verbinden',
-      'No errors.' => 'Keine Fehler.',
-      'Profile Page' => 'Profilseite',
-      'STOPPED' => 'GESTOPPT',
-      'Unknown event: %s' => 'Unbekanntes Ereignis: %s',
-      'Can\'t Analyze' => 'Nicht analysierbar',
-      'Events' => 'Ereignisse',
-      'Hostname' => 'Hostname',
-    );
+  'Internal ID' => 'Interne ID',
+  'Site' => 'Seite',
+  '+%s ms' => '+%s ms',
+  'Reconnect' => 'Erneut verbinden',
+  'No errors.' => 'Keine Fehler.',
+  'Profile Page' => 'Profilseite',
+  'STOPPED' => 'GESTOPPT',
+  'Unknown event: %s' => 'Unbekanntes Ereignis: %s',
+  'Can\'t Analyze' => 'Nicht analysierbar',
+  'Events' => 'Ereignisse',
+  'Hostname' => 'Hostname',
+);
   }
 
 }

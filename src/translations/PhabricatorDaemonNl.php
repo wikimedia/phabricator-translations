@@ -9,10 +9,10 @@ final class PhabricatorDaemonNl
 
   protected function getTranslations() {
     return array(
-      'Lock Logs' => 'Logboeken vergrendelen',
-      'Held' => 'Vastgehouden',
-      'Lock' => 'Vergrendelen',
-    );
+  'Lock Logs' => 'Logboeken vergrendelen',
+  'Held' => 'Vastgehouden',
+  'Lock' => 'Vergrendelen',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorFactKjp
 
   protected function getTranslations() {
     return array(
-      'Facts' => 'ၮဲဆ်ုသုဂ်ကၠယ်လ်ုဖး',
-      'Fact' => 'ၮဲဆ်ုသုဂ်ကၠယ်',
-    );
+  'Facts' => 'ၮဲဆ်ုသုဂ်ကၠယ်လ်ုဖး',
+  'Fact' => 'ၮဲဆ်ုသုဂ်ကၠယ်',
+);
   }
 
 }

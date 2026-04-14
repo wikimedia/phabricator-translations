@@ -9,9 +9,9 @@ final class PhabricatorTypeaheadBr
 
   protected function getTranslations() {
     return array(
-      'Sprite' => 'Sprite',
-      'Auto' => 'Emgefre',
-    );
+  'Sprite' => 'Sprite',
+  'Auto' => 'Emgefre',
+);
   }
 
 }

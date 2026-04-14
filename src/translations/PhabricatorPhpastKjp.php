@@ -9,8 +9,8 @@ final class PhabricatorPhpastKjp
 
   protected function getTranslations() {
     return array(
-      'Node %d: %s' => 'အ်ုဖေါတ် %s: %s',
-    );
+  'Node %d: %s' => 'အ်ုဖေါတ် %d: %s',
+);
   }
 
 }

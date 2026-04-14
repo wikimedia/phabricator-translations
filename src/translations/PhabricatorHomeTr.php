@@ -9,10 +9,10 @@ final class PhabricatorHomeTr
 
   protected function getTranslations() {
     return array(
-      'Command Center' => 'Komuta Merkezi',
-      'More Applications' => 'Daha Fazla Uygulama',
-      'Built-in Homepage' => 'Yerleşik Anasayfa',
-    );
+  'Command Center' => 'Komuta Merkezi',
+  'More Applications' => 'Daha Fazla Uygulama',
+  'Built-in Homepage' => 'Yerleşik Anasayfa',
+);
   }
 
 }

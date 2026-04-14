@@ -9,8 +9,8 @@ final class PhabricatorTypeaheadKg
 
   protected function getTranslations() {
     return array(
-      'This control does not support typeahead functions.' => 'Lutwadisu yai ke sadisaka ve bisalu ya typeahead.',
-    );
+  'This control does not support typeahead functions.' => 'Lutwadisu yai ke sadisaka ve bisalu ya typeahead.',
+);
   }
 
 }

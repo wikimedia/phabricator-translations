@@ -9,9 +9,9 @@ final class PhabricatorDivinerKy
 
   protected function getTranslations() {
     return array(
-      'Books' => 'Китептер',
-      'Book' => 'Китеп',
-    );
+  'Books' => 'Китептер',
+  'Book' => 'Китеп',
+);
   }
 
 }

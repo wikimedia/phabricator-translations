@@ -9,8 +9,8 @@ final class PhabricatorSpacesScn
 
   protected function getTranslations() {
     return array(
-      'Space %s: %s' => 'Spazziu %s: %s',
-    );
+  'Space %s: %s' => 'Spazziu %s: %s',
+);
   }
 
 }

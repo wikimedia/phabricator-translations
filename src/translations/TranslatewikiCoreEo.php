@@ -9,9 +9,9 @@ final class TranslatewikiCoreEo
 
   protected function getTranslations() {
     return array(
-      'Writing data (%s, %s) to "%s"...' => 'Skribado de datumoj (%s, %s) en „%s”…',
-      'Used in:' => 'Uzata en:',
-    );
+  'Writing data (%s, %s) to "%s"...' => 'Skribado de datumoj (%s, %s) en „%s”…',
+  'Used in:' => 'Uzata en:',
+);
   }
 
 }

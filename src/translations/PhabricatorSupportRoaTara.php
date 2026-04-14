@@ -9,8 +9,8 @@ final class PhabricatorSupportRoaTara
 
   protected function getTranslations() {
     return array(
-      'Support' => 'Supporte',
-    );
+  'Support' => 'Supporte',
+);
   }
 
 }

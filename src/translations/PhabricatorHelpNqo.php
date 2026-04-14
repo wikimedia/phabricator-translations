@@ -9,8 +9,8 @@ final class PhabricatorHelpNqo
 
   protected function getTranslations() {
     return array(
-      'Hiding Content' => 'ߞߣߐߘߐ ߢߡߊߘߏ߲߱',
-    );
+  'Hiding Content' => 'ߞߣߐߘߐ ߢߡߊߘߏ߲߱',
+);
   }
 
 }

@@ -9,9 +9,9 @@ final class PhabricatorDaemonKum
 
   protected function getTranslations() {
     return array(
-      'Average Queue Time' => 'Гезикни орта заманы',
-      'Average Duration' => 'Орта узакълыгъы',
-    );
+  'Average Queue Time' => 'Гезикни орта заманы',
+  'Average Duration' => 'Орта узакълыгъы',
+);
   }
 
 }

@@ -9,8 +9,8 @@ final class PhabricatorCelerityId
 
   protected function getTranslations() {
     return array(
-      'Found %d packages.' => 'Ditemukan %s paket.',
-    );
+  'Found %d packages.' => 'Ditemukan %d paket.',
+);
   }
 
 }

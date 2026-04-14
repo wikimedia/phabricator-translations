@@ -9,11 +9,11 @@ final class PhabricatorPassphraseDa
 
   protected function getTranslations() {
     return array(
-      'Lock Permanently:' => 'Lås permanent:',
-      'Login/Username' => 'Login/brugernavn',
-      'Lock Permanently' => 'Lås permanent',
-      'Locked Permanently' => 'Lås permanent',
-    );
+  'Lock Permanently:' => 'Lås permanent:',
+  'Login/Username' => 'Login/brugernavn',
+  'Lock Permanently' => 'Lås permanent',
+  'Locked Permanently' => 'Lås permanent',
+);
   }
 
 }

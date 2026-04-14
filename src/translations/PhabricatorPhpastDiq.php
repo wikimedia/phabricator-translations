@@ -9,15 +9,15 @@ final class PhabricatorPhpastDiq
 
   protected function getTranslations() {
     return array(
-      'PHPAST' => 'PHPAST',
-      'Node %d: %s' => 'Node %s: %s',
-      'Generate XHP AST' => 'XHP AST Vırazê',
-      'Token %d: %s' => 'Jeton %s: %s',
-      'XHPAST View' => 'XHPAST bıvêne',
-      'Parse' => 'Tehlil',
-      'No such AST!' => 'ASTo wınasi çıniyo!',
-      'Visual PHP Parser' => 'Tehlilê PHPyo vênaye',
-    );
+  'PHPAST' => 'PHPAST',
+  'Node %d: %s' => 'Node %d: %s',
+  'Generate XHP AST' => 'XHP AST Vırazê',
+  'Token %d: %s' => 'Jeton %d: %s',
+  'XHPAST View' => 'XHPAST bıvêne',
+  'Parse' => 'Tehlil',
+  'No such AST!' => 'ASTo wınasi çıniyo!',
+  'Visual PHP Parser' => 'Tehlilê PHPyo vênaye',
+);
   }
 
 }
