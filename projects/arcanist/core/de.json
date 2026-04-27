@@ -398,7 +398,7 @@
 	"4802666cd26a487b": "Version '$1: $2' wurde von '$3' generiert, aber die Wurzel der aktuellen Arbeitskopie ist '$4'. Diese Arbeitskopie dennoch committen?",
 	"48e6fe67607d2cc4": "Konvention: Leerzeichen vor öffnenden runden Klammern in anonymen Funktionsdeklarationen.",
 	"48f7d2c47ec37e29": "Das Token \"$1\" ist nicht richtig formatiert. Gültige API-Tokens sollten mit \"cli-\" beginnen und 32 Zeichen lang sein. Gehe sicher, dass du den richtigen URI besucht hast und das Token richtig kopiert/eingefügt hast.",
-	"4958c30c3a03011b": "Verwendung des Close Tag `$1`",
+	"4958c30c3a03011b": "Verwendung des Close-Tags `$1`",
 	"49654dcbd95942ac": "ZUM AKTUALISIEREN: $1",
 	"49eddfbdd54540db": "Konnte die Datei '$1' zum Konfigurieren der Linter nicht finden. Erstelle eine '$2'-Datei im Wurzelverzeichnis der Arbeitskopie.",
 	"4a01d8e1a6e6d282": "Konnte kein '$1' genanntes Git-Commit in diesem Repository finden.",
