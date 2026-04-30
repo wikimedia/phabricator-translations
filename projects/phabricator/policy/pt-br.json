@@ -15,6 +15,7 @@
 	"4fef05fb42f4ce11": "Testando o recurso \"$1\" em um objeto (\"$2\") que não suporta esse recurso.",
 	"53b6d518edb90714": "Regras especiais",
 	"5b83b3d2f7e85a79": "Política de objetos",
+	"5c486a95375aa612": "Essas regras são processadas na seguinte ordem:",
 	"5d83cb68d4c07acc": "Os membros do projeto \"$1\" podem realizar essa ação.",
 	"61fac6d1372ab49d": "Este objeto é público e pode ser visualizado por qualquer pessoa, mesmo que não possua uma conta Phabricator.",
 	"83423c198b6099ed": "Nota",

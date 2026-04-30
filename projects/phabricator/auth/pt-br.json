@@ -89,6 +89,7 @@
 	"dbd24dd38a1082e3": "Carregar chave pública SSH",
 	"dcce25e7a9754fc9": "O material da chave SSH é obrigatório.",
 	"dec890ee79bb237b": "Nome de usuário LDAP",
+	"df09955c90d6cf55": "Provedores de acesso e registro",
 	"ea50a62c11197903": "Não há tokens correspondentes",
 	"ecc337929344c5c9": "Depois de inserir a chave, o aplicativo deve exibir um código numérico. Digite o código abaixo para confirmar que você configurou o autenticador corretamente:",
 	"f09fdf9021503be1": "(Se tiver uma opção, selecione que essa chave seja \"Com base no tempo\" e não \"Com base no contador\").",

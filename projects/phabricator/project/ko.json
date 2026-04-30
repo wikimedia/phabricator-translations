@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Nuevo Paso",
+			"Tensama0415",
 			"YeBoy371",
 			"Ykhwong",
 			"YuzaTea"
@@ -126,6 +127,7 @@
 	"acd47cf3790bac5f": "$1님이 프로젝트 해시태그 $2개를 제거했습니다: $3.",
 	"ad88db6456471589": "(잘못된 규칙)",
 	"ad89565af8c45c1c": "소리(\"$1\")는 유효한 소리가 아닙니다.",
+	"ad9bd24ab3b97f0b": "사용자 지정 필터",
 	"aeaf4a3f06bcb599": "추가 해시태그",
 	"aff3d573c3fead81": "프로젝트: ...",
 	"b1ba88e9ac864be1": "상태별로 묶기",

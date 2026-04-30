@@ -21,6 +21,8 @@
 	"9631af52c66f1a5c": "Entrega",
 	"9ff8892af04610d6": "Exceção não tratada: $1",
 	"ab678caf3b8f66be": "CABEÇALHOS",
+	"b7ec0067e9b3d29e": "Digite um nome de usuário, uma lista de discussão ou uma função...",
+	"b8ee83583a5e1cda": "A mensagem não tem destinatários válidos: todos os campos Cc/Para estão desativados, são inválidos ou estão configurados para não receber este e-mail.",
 	"c3bf84287c91e2a0": "Razões",
 	"d1b140aa3baf7ca1": "Este destinatário desativou todas as notificações por e-mail (Configurações> Preferências de e-mail> Notificações por e-mail).",
 	"d5a2e2146e560316": "Digite um nome de usuário, projeto, pacote ou lista de discussão...",

@@ -10,12 +10,16 @@
 	"2656e901178c2450": "$1 alterou o modo de layout desse painel de $2 para $3.",
 	"284468499c642645": "Arquivar painel",
 	"3de4e28d9c0866d3": "$1 alterou os painéis desse painel.",
+	"605b4600fabbcfa4": "Todos os painéis",
 	"861dc7cc4e78abc9": "Crie páginas personalizadas",
 	"89243e370e3c8fcf": "Nenhum painel encontrado.",
 	"94a4d04cf7483b17": "Painéis ativos",
 	"991861ff5e97684d": "Alterar o modo de layout do painel.",
+	"a1eb0d2ffc2fa84b": "Você deve escolher um painel válido",
 	"a87361739c98bc8c": "Painéis arquivados",
 	"ba42ab0d4209de88": "Adicionar painel ao menu",
 	"dcb1f973dab7489d": "Painéis ativos",
-	"fa4fb55101ee5a5e": "Criar painel"
+	"f423f6a98cb93682": "Você deve escolher um painel para adicionar ao painel de controle.",
+	"fa4fb55101ee5a5e": "Criar painel",
+	"fb88218db7fdd020": "Digite um nome para o painel..."
 }

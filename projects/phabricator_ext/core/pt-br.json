@@ -55,6 +55,7 @@
 	"94c767ae8c5e9f32": "OAuth JWT aud não correspondeu à chave do consumidor esperada",
 	"965d29d61be325ec": "Mudanças relacionadas em Gerrit:",
 	"98104d0ac3ffcbe8": "Revisão de código iniciada",
+	"9818855a7a1ea556": "Ative o modo avançado para exibir opções \"avançadas\" adicionais na interface do Phabricator.",
 	"9c8711c4e06fa5fe": "Esconder instruções",
 	"a0ab81f4724c2918": "Regras não possuem nenhum efeito.",
 	"a424bcd8b62f9d1f": "**Etapa 1 de 2**: Forneça o nome e o URI para sua instalação do MediaWiki.\n\nNa próxima etapa, você criará um consumidor de autenticação no MediaWiki para ser usado pelo Phabricator oauth.",
