@@ -2,8 +2,41 @@
 	"@metadata": {
 		"authors": [
 			"Elroy",
-			"Romaine"
+			"Romaine",
+			"Siebrand"
 		]
 	},
-	"3ecdb4ea82e2c72e": "Ongeldige parameters"
+	"08551bfd5a6bcbf3": "Typeahead-resultaten",
+	"170409168d52d100": "Typeahead",
+	"20ff1176780f707c": "Deze gegevensbron (\"$1\") kan de functie \"$2(...)\" niet evalueren.",
+	"24725aa7bb11e312": "Functiehulp",
+	"276800c934e832a1": "Dit besturingselement ondersteunt geen typeahead-functies.",
+	"28449a5348d1d494": "Naast het typen van gebruikers- en projectnamen om query's te maken, kunt u ook de namen van speciale functies typen. Deze functies bieden u meer opties en de mogelijkheid om complexere zoekopdrachten uit te drukken.\n\nFuncties hebben een interne naam (zoals `$1`) en een leesbare naam, zoals `Current Viewer`. Over het algemeen kunt u een van beide typen om de functie te selecteren. U kunt ook op de knop {nav icon=search} in een typeahead-besturingselement klikken om door de beschikbare functies te bladeren en deze documentatie te vinden.\n\nDeze documentatie gebruikt de interne namen om duidelijk te maken waar tokens beginnen en eindigen. Specifiek vindt u query's die in de documentatie als volgt zijn uitgeschreven:\n\n$2\n\nWanneer deze zoekopdracht daadwerkelijk in het besturingselement wordt weergegeven, ziet deze er meer zo uit:\n\n$3",
+	"3ecdb4ea82e2c72e": "Ongeldige parameters",
+	"445f05dd9fa1f619": "Bronklasse",
+	"539b3475e6f40740": "Ruwe query",
+	"551b51aa4c4293ad": "Tokenresultaten ($1)",
+	"621aa9bbf5df9be3": "De geconfigureerde gegevensbronklasse \"$1\" moet een geldige subklasse zijn van \"$2\".",
+	"6e84ac10f83050f8": "Tokennaam",
+	"83976820002041a5": "Referentie: Geavanceerde functies",
+	"83baedc7037c882f": "Afbeeldings-URI",
+	"8598222918d3c6e5": "Selecteren",
+	"8668a270d975a0a8": "Typeahead-functies zijn een geavanceerde functie waarmee u krachtigere zoekopdrachten kunt samenstellen. Dit document beschrijft de functies die beschikbaar zijn voor het geselecteerde besturingselement.\n\nZie voor algemene hulp bij het zoeken de [[ $1 | Gebruikershandleiding Zoeken ]] in de documentatie.\n\nHoud er rekening mee dat verschillende besturingselementen //verschillende// functies ondersteunen (afhankelijk van wat het besturingselement doet), dus deze specifieke functies werken mogelijk niet overal. U kunt altijd de helpfunctie van een besturingselement raadplegen om te zien welke functies voor dat besturingselement beschikbaar zijn.",
+	"8d6b34815ba43d25": "Weergavenaam",
+	"955060c24efafff9": "Deze tabel geeft een kort overzicht van de beschikbare functies voor deze besturing. Voor meer informatie over een specifieke functie, zie het betreffende gedeelte hieronder.",
+	"95eeffb5f4e285b1": "Deze bron is niet direct bruikbaar.",
+	"9d3d21faa06febbe": "Kan de functie en argumenten voor token \"$1\" niet verwerken.",
+	"a2ffe2e525f50b27": "Tokenzoekopdracht",
+	"a37d2706eddada6e": "Ongeldige functie: $1",
+	"a62bbd6f671f2a93": "Meer resultaten",
+	"a9089bc3af95f443": "Objecten bekijken",
+	"ade13fca8fa2b7f1": "Hulp bij de typeahead-functie",
+	"b6b52cb47d127a3d": "Sprite",
+	"b77fab12356a0f67": "De HTTP-parameter met de naam \"parameters\" voor dit verzoek is geen geldige JSON-parameter. JSON is vereist. Uitzondering: $1",
+	"bc64eb3be73d0b52": "Snel naslagwerk over functies",
+	"c614ba7c453cdcd4": "Auto",
+	"d1c319f3fef91def": "U staat aan de rand van de afgrond.",
+	"e404f1adb33137aa": "Voor deze gegevensbron (\"$1\") is een aanmelden vereist om de functie \" $2(...)\" te kunnen gebruiken.",
+	"f095757f3b8e277d": "Prioriteitstype",
+	"f3f785f939dae680": "Gebruikmaken van typeahead-functies"
 }

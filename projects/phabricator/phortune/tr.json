@@ -5,7 +5,8 @@
 			"Can",
 			"Joseph",
 			"Melissadilara",
-			"SaldırganSincap"
+			"SaldırganSincap",
+			"ToprakM"
 		]
 	},
 	"003cffcec51407e8": "Bu satın alma işlemi için bir maliyet sağlamalısınız.",
@@ -19,7 +20,7 @@
 	"041d0c67ea232970": "Bu aboneliği $1 oluşturdu.",
 	"0573eec4d724699c": "Ürün Listesi",
 	"06812cd116c7faf9": "Bu siparişi gerçekten iptal edilsin mi? Herhangi bir ödeme iade edilecektir.",
-	"06e887124f6039e5": "PayPal API Şifresi gereklidir.",
+	"06e887124f6039e5": "PayPal API Parolas gereklidir.",
 	"07a21b1339fc2d2f": "Phortune Sepeti",
 	"0877e0b6ccffd2a3": "Satın alma geçmişi yok.",
 	"091274970577a8d0": "Phortune Satın Al",
@@ -138,7 +139,7 @@
 	"3d424295240177c9": "$1, satıcı açıklamasını $2 olarak güncelledi.",
 	"3dd4ff3aea15e235": "Beklemede Şarj",
 	"3e8248e32edfca0c": "Miktar",
-	"3eca594ccde6843f": "Paypal API Şifresi",
+	"3eca594ccde6843f": "Paypal API Parolası",
 	"3ef68c9070b5334d": "İlk hesap yöneticileri.",
 	"40dbabf03b8dc62f": "Kredi Kartı veya PayPal Hesabı",
 	"414350df2b27d61d": "Hesap adı.",

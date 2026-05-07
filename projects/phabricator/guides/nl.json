@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"04ed5a30ea0bcc04": "Een repository aanmaken",
+	"0efe2f85cd67c809": "Als u hier bent voor een codereview, laten we dan uw eerste repository opzetten.",
+	"1e5fe3e3f95ec0bc": "U hebt ten minste één instelling via de webinterface geconfigureerd.",
+	"2705f94c32d8e8bc": "U hebt minstens één taak aangemaakt.",
+	"2912f9b92d7431d2": "Projecttags definiëren alles. Maak ze aan voor teams, tags of afzonderlijke projecten.",
+	"29e1ac3c2434129a": "Alle beschikbare toepassingen bekijken.",
+	"38f627566dda6f37": "Toepassingen ontdekken",
+	"3bd7ef732e4ec546": "$1 is geïnstalleerd. De volgende handleidingen leiden u door de configuratie en de introductie voor nieuwe gebruikers. Deze stappen zijn optioneel en u kunt ze in willekeurige volgorde doorlopen. Als u later naar deze handleiding wilt terugkeren, kunt u deze vinden in {icon globe} **Applicaties** onder {icon map-o} **Handleidingen**.",
+	"3da474537ac378c6": "Overslaan",
+	"455083cac2ae96ea": "Snelstart",
+	"46f41c5aad565112": "Configureer de accountinstellingen voor alle gebruikers, of alleen voor uzelf",
+	"515ad8ce9bb7eecf": "Verander de naam en voeg uw logo toe om het net wat professioneler te maken.",
+	"59fe7e60410f52d0": "U hebt een realtime meldingenserver ingesteld.",
+	"5acfc0badb35c4e0": "Er zijn nog enkele onopgeloste installatieproblemen die u moet verhelpen.",
+	"5d859a72a65406e6": "Geef de stagiairs wat werk in Maniphest.",
+	"6bb896b77607ac76": "Uw uitnodigingen zijn geaccepteerd. Uw bent niet alleen op deze reis.",
+	"6fe26b1373ab767d": "U hebt ten minste één authenticatieprovider geconfigureerd.",
+	"76018fc96e754bd4": "Korte handleidingen",
+	"7bed49546c4f7ce3": "Als u nog niet bekend bent met deze software, kunnen deze optionele stappen je helpen de basisprincipes te leren. Voel u vrij om alles naar eigen wens in te stellen en deze functies in uw eigen tempo te ontdekken.",
+	"7e11e4c66d7f235a": "U hebt minstens één repository aangemaakt.",
+	"929a28d261428029": "Gidsen",
+	"9996bca0cdf61984": "Leer hoe u e-mail en andere opties instelt.",
+	"9f99c9fd6e043aff": "Nodig de rest van uw team uit om mee te doen.",
+	"a1867bd6bfd5b2ad": "Gebruikersaccountinstellingen",
+	"b3bd51b127ff1311": "U hebt ten minste één instelling in je account gewijzigd.",
+	"b42a237a5f96cad0": "Realtime meldingen kunnen via WebSockets worden verzonden.",
+	"b5a15bad1cc08996": "Personaliseer uw installatie",
+	"b801b9ccdc229d9a": "Samenwerkingspartners uitnodigen",
+	"c217cb0f9b995a3d": "U hebt minstens één project aangemaakt.",
+	"d4f61ec10f8563dc": "Het ziet er fantastisch uit, goed gedaan. Thuis is waar het hart ligt.",
+	"d8d1d5a6042642e8": "Twee richtlijnuitbreidingen richtlijnen met dezelfde sleutel gemaakt (\"$1\"). Elk stuk richtlijn moet een unieke sleutel hebben.",
+	"e7643788502a37ce": "Meldingenserver",
+	"f023a66281396c8e": "Installatieproblemen oplossen",
+	"f80e61793246923f": "Authenticatieproviders stellen gebruikers in staat accounts te registreren en aan te melden.",
+	"fa9a5794e77589de": "U hebt alle openstaande installatieproblemen opgelost (of genegeerd)."
+}
