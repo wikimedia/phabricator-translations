@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Siebrand"
+		]
 	},
 	"01ad122ef5d1a3df": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$19 PhabricatorSystemReadOnlyController.php:19]",
 	"0b06f65a8ccab6ac": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemSelectEncodingController.php$18 PhabricatorSystemSelectEncodingController.php:18]",
@@ -16,7 +18,7 @@
 	"2adbd52a151921c5": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$56 PhabricatorSystemReadOnlyController.php:56]",
 	"2cef58d26a63b6dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$72 PhabricatorSystemReadOnlyController.php:72]",
 	"2ecac2e2db1e7a89": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$121 PhabricatorSystemReadOnlyController.php:121]",
-	"2f81b1b51a0ff80f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/engine/PhabricatorDestructionEngineExtensionModule.php$11 PhabricatorDestructionEngineExtensionModule.php:11]",
+	"2f81b1b51a0ff80f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/engine/PhabricatorDestructionEngineExtensionModule.php$11 PhabricatorDestructionEngineExtensionModule.php:11]\n\nThis is a class name. Do not translate.",
 	"3148b41a4f0c3ad9": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/engine/PhabricatorUnlockEngine.php$10 PhabricatorUnlockEngine.php:10]",
 	"319a2f5027bcf03f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/controller/PhabricatorSystemReadOnlyController.php$98 PhabricatorSystemReadOnlyController.php:98]",
 	"35f8b97d2a70bb5c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php$9 PhabricatorSystemRemoveDestroyWorkflow.php:9]",

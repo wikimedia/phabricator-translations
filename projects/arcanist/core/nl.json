@@ -75,7 +75,7 @@
 	"06af861e93f1d74b": "Geen wijzigingen kopiëren naar de staging-omgeving.",
 	"06ffe3293a2910c2": "Er is een fout opgetreden tijdens het controleren van de SSL-verbinding. Dit duidt er meestal op dat de externe host een SSL-certificaat heeft voor een andere domeinnaam dan degene waarmee u verbinding probeert te maken. Zorg ervoor dat het certificaat dat u hebt geïnstalleerd, is ondertekend voor het juiste domein.",
 	"07158f284205e6af": "Er werd een lijst verwacht!",
-	"072081883973bd52": "Een lege sleutel is ongeldig!",
+	"072081883973bd52": "Een lege sleutel is onjuist!",
 	"073c2a2ed9835a37": "Bibliotheekconflict! De bibliotheek '$1' is al geladen (vanuit '$2'), maar wordt nu opnieuw geladen vanuit een nieuwe locatie ('$3'). U kunt niet meerdere exemplaren van dezelfde bibliotheek in een programma laden.",
 	"07409cb1c753d22a": "Onbekend symbooltype \"$1\".",
 	"075b6d93c7bca510": "$1 biedt momenteel geen ondersteuning voor aangepaste ernstniveaus, omdat regels niet kunnen worden geïdentificeerd aan de hand van berichten in de uitvoer.",

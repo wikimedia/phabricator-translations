@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"027c66bf37c9a3b4": "Roep $1 aan voordat u publiceert!",
+	"0b694d2612ffe0c4": "BELANGRIJK: Feedhooks zijn verouderd en zijn vervangen door Webhooks. \n\nU kunt Webhooks in Herald configuren. Deze optie wordt verwijderd in een toekomstige versie van de software.\n\n(Deze optie kan worden geconfigureerd met een lijst met URI's; feedverhalen worden naar deze URI's verzonden.)",
+	"20d3d91741172383": "Dictionary met verschillende gegevens van het verhaal",
+	"355a429bd0ea65d5": "Alle verhalen",
+	"3ae912771fea48db": "Zoeken in de feed met verhalen",
+	"3d1724997b3209bd": "Het verhaaltype moet een geldige klassenaam zijn en moet een subklasse $1 zijn. '$2' is geen onderklasse van $3.",
+	"402cff085a9c09db": "Volledige HTML-presentatie van het verhaal",
+	"496c5d9a5e9baa40": "Het verhaal heeft geen primair object!",
+	"4d5f6edd9fafac64": "Het verhaal opnieuw publiceren..."
+}

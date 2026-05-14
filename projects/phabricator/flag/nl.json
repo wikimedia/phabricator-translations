@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"075b45870ec7ec57": "De markering \"$1\" is verwijderd.",
+	"197a62696ce8fbf0": "Gemarkeerd met markering \"$1\".",
+	"1c3d8a33c4e3bcd5": "Persoonlijke bladwijzers",
+	"1ca1a72255461c7b": "Markeringen opvragen.",
+	"2086e095c964982b": "Een markering wissen.",
+	"32576f4fedc07f63": "Paars",
+	"4dc7c146812011ca": "Onbekende groupBy-parameter: $1",
+	"5d7071b20fcec93c": "Markeren met $1 .",
+	"699642af97a5d952": "Markeringen zijn privé. Alleen u kunt uw markeringen bekijken of bewerken.",
+	"70fc3e4015e8e4f8": "U dient een id of een objectPHID op te geven.",
+	"7168897d704726c7": "Reeds gemarkeerd met $1.",
+	"728fce1910953840": "De markering \"$1\" verwijderen.",
+	"76dbf884271fdcfd": "Markeren voor later",
+	"7b4e95c2e6f33f5e": "Markering verwijderen",
+	"7dda51ce77f4eb5f": "U bent niet de maker van deze markering.",
+	"8828ce01607a48df": "$1 markeren",
+	"8993d3e323986eb5": "Markering verwijderd",
+	"94d23c9bf50bab36": "Een markering aanmaken of wijzigen.",
+	"a12b4c41e336ccf7": "Markering aanmaken",
+	"b2818290ebcc7204": "Gemarkeerd met de verkeerde kleur (\"$1\").",
+	"b6829a09b18b33c4": "U kunt dit als $1 markeren als u er later nog eens naar wilt kijken.",
+	"bafd3e5ad59b23e6": "Geen markeringen gevonden.",
+	"cdc6686dc53df49e": "Ongeldige markerings-ID.",
+	"cf11ada077be2b0f": "Markering \"$1\" verwijderen.",
+	"d1d3a0cd7c6910d9": "Alle objecttypen",
+	"d4a822fc0ac4e4ad": "Reeds gemarkeerd",
+	"e0d0b82a322e167f": "Markeringskleur",
+	"e22c254cc0a5cb8c": "Markeren",
+	"e2ab9f0d21594fe2": "Markering niet verwijderd",
+	"e76a6d33ff06b15e": "Niet gemarkeerd.",
+	"f8db8a172be6fab1": "Gemarkeerd"
+}
