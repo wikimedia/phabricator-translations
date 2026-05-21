@@ -1,8 +1,49 @@
 {
 	"@metadata": {
 		"authors": [
-			"SPQRobin"
+			"SPQRobin",
+			"Siebrand"
 		]
 	},
-	"985c60dcff79c62e": "Installatiegids"
+	"13d815bd29a02c64": "Listener-klasse",
+	"20c4efa6093294a8": "Profilering is niet ingeschakeld voor deze pagina. Gebruik de knop hierboven om deze in te schakelen.",
+	"40dc448a962e5fe4": "Interne ID",
+	"43e40156c805d177": "Foutlogboek ($1)",
+	"47a14aaa85b00e8f": "Foutopsporingsconsole voor realtime meldingen.",
+	"4d29b099c263ce28": "Biedt gedetailleerde PHP-profileringsinformatie via XHProf.",
+	"54766d340f20c6ef": "Analyseer queryplannen",
+	"5973df6188ff92e7": "Realtime",
+	"5b6825d3c67a3589": "Site",
+	"5ee68bc3d039a611": "+$1 ms",
+	"64fa5e7c4dac7a20": "Aanroepen van externe diensten",
+	"65bb1b78be827ba8": "Machine",
+	"6988b16a8fd21194": "Opnieuw verbinden",
+	"737dae0b51bce2e6": "Geen fouten.",
+	"79ce33706ca0540a": "Opstarten",
+	"7b3296f9f3a7dfa2": "Informatie over $1 en $2.",
+	"800c2d12dcedea33": "Tijdsinformatie over de opstartvolgorde.",
+	"878e531bfbade13b": "Gebeurtenislogboek",
+	"8c2ca388dfaafc71": "Profielpagina",
+	"8f54a634fa1f45c2": "Complete tabel",
+	"90cdbe2f76944665": "Opnieuw renderen",
+	"93ae9933d16f07fa": "Kleine tabelscan",
+	"985c60dcff79c62e": "Installatiegids",
+	"9e882bcd588375bd": "Permanente koppeling naar profiel",
+	"a2e6414c7c3da940": "Foutenlogboek",
+	"a36a5ffa6e0dcfb6": "Controller",
+	"a441514e0e51b370": "TABELSCAN!",
+	"a59e35f7e35775f0": "GESTOPT",
+	"ac551492ad6c91a4": "Informatie over diensten.",
+	"aeeba730751ee3d0": "Onbekende gebeurtenis: $1",
+	"bb888692c4295a97": "Geeft fouten en waarschuwingen weer.",
+	"bdfe7ae85de0e206": "XHProf Profiler",
+	"c05d7f6454f1efba": "De PHP-uitbreiding \"xhprof\" is niet beschikbaar. Installeer xhprof om de XHProf-consoleplug-in in te schakelen. Instructies hiervoor vindt u in de $1.",
+	"c0f85d6679730ccd": "Opnieuw afspelen",
+	"c2c604447f0ec813": "Kan niet analyseren",
+	"c5497bca58468ae6": "Gebeurtenissen",
+	"c6dbfd5cd23d54d0": "Informatie over gebeurtenissen en gebeurtenis-listeners.",
+	"c7102c8c300e7e00": "Paginagewicht",
+	"c983a1551dcbdb6f": "Hostnaam",
+	"d2cf1d0f65c750d8": "Geregistreerde gebeurtenis-listeners",
+	"d41d0e4903685471": "Geen tabellen"
 }

@@ -15,7 +15,6 @@
 	"32b9e4245f21e239": "De gebruikersnaam waarvoor transacties worden teruggedraaid.",
 	"34341b9c44b90404": "Geen vandalisme gedetecteerd.",
 	"3e3256409c23cb9f": "De tijdsperiode die wordt onderzocht bij het scoren van de bewerkingen van een gebruiker.",
-	"3fff99c595eef3e4": "Voor elke handeling die door een gebruiker wordt verricht, registreert Phabricator een of meer transacties. Het type transactie weerspiegelt de verrichte handeling. Wanneer Antivandalism op gebruikersactiviteit reageert, krijgt elke transactie een basisscore. De scores worden dan bij elkaar opgeteld en vermenigvuldigd met een factor die gebaseerd is op de frequentie van de activiteit die de gebruiker heeft opgewekt. Sneller bewerken levert een grotere vermenigvuldigingsfactor op. De uiteindelijke score wordt vergeleken met de waarde in **antivandalism.max-score**. Als de score te hoog is, wordt het account ofwel van alle sessies afgemeld ofwel opgeschort. Om scores aan te passen moet u een in JSON opgemaakte lijst van transactietypesleutels met drijvende-kommawaarden opgeven. Doorgaans moeten de waarden voor alle transactietypen tussen 0,0 en 1,0 liggen.",
 	"43d2887d271d42fe": "De basisscores voor elk transactietype aanpassen",
 	"4414133fa89f4103": "Of een gebruikersaccount moet worden uitgeschakeld wanneer deze de antivandalism.max-score vermenigvuldigd met een ingestelde drempelwaarde heeft bereikt.",
 	"57688ae6dc82ea98": "Zet het vandalenaccount in quarantaine.",

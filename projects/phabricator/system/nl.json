@@ -30,7 +30,7 @@
 	"4b7d7e1069a59c87": "Bekijken als",
 	"4f17eb3453bbf2ad": "$1 object(en) permanent vernietigd.",
 	"52aa5f90323d30f5": "Kies codering",
-	"52cf53a0b80a30dc": "Het verwijderen van objecten kan ertoe leiden dat gerelateerde objecten niet meer werken en kan verwijzingen achterlaten naar objecten die niet langer bestaan. In de meeste gevallen is het veel beter om objecten uit te schakelen of te archiveren in plaats van ze te verwijderen. Dit risico is het grootst bij het verwijderen van complexe of sterk met elkaar verbonden objecten zoals repositories, projecten en gebruikers. Deze problemen zijn een te verwachten gevolg van het verwijderen van objecten en de upstream-ontwikkelaars helpen u niet om ze op te lossen. We raden ten zeerste aan om objecten uit te schakelen of te archiveren.",
+	"52cf53a0b80a30dc": "Het verwijderen van objecten kan ertoe leiden dat gerelateerde objecten niet meer werken en kan verwijzingen achterlaten naar objecten die niet langer bestaan. In de meeste gevallen is het veel beter om objecten uit te schakelen of te archiveren in plaats van ze te verwijderen. Dit risico is het grootst bij het verwijderen van complexe of sterk met elkaar verbonden objecten zoals repository's, projecten en gebruikers. Deze problemen zijn een te verwachten gevolg van het verwijderen van objecten en de upstream-ontwikkelaars helpen u niet om ze op te lossen. We raden ten zeerste aan om objecten uit te schakelen of te archiveren.",
 	"58bf20abc8cfcd7f": "BELANGRIJK",
 	"61fa1232adb2e450": "Nogal verontrustend",
 	"6302530881f5c892": "De eigenaar van het object kan niet worden ontgrendeld: de ontgrendelingsengine (\"$1\") voor dit object implementeert geen mechanisme voor het ontgrendelen van de eigenaar.",
