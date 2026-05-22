@@ -105,6 +105,7 @@ Chaves públicas SSH são revogadas, e não apenas removidas. Os usuários preci
   'Upload SSH Public Key' => 'Carregar chave pública SSH',
   'SSH key material is required.' => 'O material da chave SSH é obrigatório.',
   'LDAP Username' => 'Nome de usuário LDAP',
+  'Login and Registration Providers' => 'Provedores de acesso e registro',
   'No Matching Tokens' => 'Não há tokens correspondentes',
   'After entering the key, the application should display a numeric code. Enter that code below to confirm that you have configured the authenticator correctly:' => 'Depois de inserir a chave, o aplicativo deve exibir um código numérico. Digite o código abaixo para confirmar que você configurou o autenticador corretamente:',
   '(If given an option, select that this key is "Time Based", not "Counter Based".)' => '(Se tiver uma opção, selecione que essa chave seja "Com base no tempo" e não "Com base no contador").',

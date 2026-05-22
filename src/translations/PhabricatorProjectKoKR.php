@@ -128,6 +128,7 @@ final class PhabricatorProjectKoKR
   '%s removed %d project hashtag(s): %s.' => '%s님이 프로젝트 해시태그 %d개를 제거했습니다: %s.',
   '(Invalid Rule)' => '(잘못된 규칙)',
   'Sound ("%s") is not a valid sound.' => '소리("%s")는 유효한 소리가 아닙니다.',
+  'Custom Filter' => '사용자 지정 필터',
   'Additional Hashtags' => '추가 해시태그',
   'Projects: ...' => '프로젝트: ...',
   'Group by Status' => '상태별로 묶기',

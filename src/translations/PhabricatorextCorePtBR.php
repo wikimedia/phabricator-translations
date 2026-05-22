@@ -81,6 +81,7 @@ NOTA:Antes que o Phabricator possa autenticar com sucesso seu MediaWiki, um admi
   'OAuth JWT aud didn\'t match expected consumer key' => 'OAuth JWT aud não correspondeu à chave do consumidor esperada',
   'Related Changes in Gerrit:' => 'Mudanças relacionadas em Gerrit:',
   'Code Review Started' => 'Revisão de código iniciada',
+  'Enable expert mode to reveal additional "advanced" options in the Phabricator UI.' => 'Ative o modo avançado para exibir opções "avançadas" adicionais na interface do Phabricator.',
   'Hide Instructions' => 'Esconder instruções',
   'Rules do not have any effect.' => 'Regras não possuem nenhum efeito.',
   '**Step 1 of 2**: Provide the name and URI for your MediaWiki install.

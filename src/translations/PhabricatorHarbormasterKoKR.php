@@ -11,7 +11,7 @@ final class PhabricatorHarbormasterKoKR
     return array(
   'TEST RESULT' => '테스트 결과',
   'For example:' => '예:',
-  'You can only restart some builds.' => '일부 빌드만 다시 시작할 권한이 있습니다.',
+  'You can only restart some builds.' => '일부 빌드만 다시 시작할 수 있습니다.',
   'Publishing "%s"...' => '"%s" 게시 중...',
   'This test has too much data to display inline.' => '이 테스트는 인라인으로 표시하기에 데이터가 너무 많습니다.',
   'Run %d' => '%d 실행',

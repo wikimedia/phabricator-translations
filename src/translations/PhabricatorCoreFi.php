@@ -116,7 +116,7 @@ final class PhabricatorCoreFi
   'Next Day' => 'Seuraava päivä',
   '<Unknown: %s>' => '<Tuntematon: %s>',
   'Service' => 'Palvelu',
-  'Continue anyway?' => 'Jatka?',
+  'Continue anyway?' => 'Jatka silti?',
   'Edit Menu' => 'Muokkaa valikkoa',
   'In Use' => 'Käytössä',
   'Yellow' => 'Keltainen',

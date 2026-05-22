@@ -19,6 +19,7 @@ final class PhabricatorPastePtBR
   '%s created this paste.' => '%s criou esta pasta.',
   'Type a language name or leave blank to auto-detect...' => 'Digite um nome de idioma ou deixe em branco para detectar automaticamente...',
   'Edit Paste: %s' => 'Editar pasta: %s',
+  'This paste will be marked as expired.' => 'Esta pasta será marcada como vencida.',
   'Apply transactions to create a new paste or edit an existing one.' => 'Aplique transações para criar uma nova pasta ou editar uma existente.',
   'Create a Paste' => 'Criar uma pasta',
   '%s edited the content of this paste.' => '%s editou o conteúdo desta pasta.',

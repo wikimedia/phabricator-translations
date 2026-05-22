@@ -128,7 +128,7 @@ final class PhabricatorRepositoryKoKR
   'You can not attach audit authority for a user with no PHID.' => 'PHID 없이 사용자의 감사 기관을 첨부할 수 없습니다.',
   '%s removed the %s encoding configured for this repository.' => '%s님이 이 저장소에 구성된 %s 인코딩을 제거했습니다.',
   '%s changed the short name of this repository from %s to %s.' => '%s님이 이 저장소의 짧은 이름을 %s에서 %s(으)로 변경했습니다.',
-  'Changes to this URI will be observed and pulled.' => '파브리케이터는 이 URI의 변경사항을 관찰하고 복사할 것입니다.',
+  'Changes to this URI will be observed and pulled.' => '이 URI의 변경사항은 관찰되어 반영될 것입니다.',
   '%s disabled this URI.' => '%s님이 이 URI를 비활성화했습니다.',
   'Marking repository "%s" as imported.' => '"%s" 저장소를 가져온 것으로 표시합니다.',
   'Error While Initializing Repository' => '저장소를 초기화하는 동안 오류가 발생했습니다',

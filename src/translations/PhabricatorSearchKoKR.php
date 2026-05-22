@@ -30,7 +30,7 @@ final class PhabricatorSearchKoKR
   '—' => '—',
   'You must choose a link name.' => '링크 이름을 선택해야 합니다.',
   'Engine: Fulltext' => '엔진: 전문',
-  'This query specifies an invalid parameter. Review the query parameters and correct errors.' => '이 쿼리는 유효하지 않은 변수를 지정합니다. 쿼리 변수를 검토하고 오류를 수정하십시오.',
+  'This query specifies an invalid parameter. Review the query parameters and correct errors.' => '이 쿼리는 유효하지 않은 매개변수를 지정합니다. 쿼리 매개변수를 검토하고 오류를 수정하십시오.',
   'You must choose a label name.' => '레이블 이름을 선택해야 합니다.',
   'Specify either --reset or --threshold.' => '--reset 또는 --threshold를 지정하십시오.',
   'Add New Menu Item...' => '새 메뉴 항목 추가...',

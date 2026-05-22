@@ -14,6 +14,7 @@ final class PhabricatorPeopleSmn
   'users' => 'kevtteeh',
   'New Username: %s' => 'Uđđâ kevtteenommâ: %s',
   'Edit Settings' => 'Mute asâttâsâid',
+  'Log Out %s' => 'Čáládât %s olgos',
   '    Username: %s' => '    Kevtteenommâ: %s',
   'New Username' => 'Uđđâ kevtteenommâ',
 );

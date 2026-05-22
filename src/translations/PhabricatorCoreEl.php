@@ -562,6 +562,7 @@ final class PhabricatorCoreEl
   'Failed to load comment "%s".' => 'Αποτυχία στην φόρτωση του σχολίου "%s".',
   'Loading...' => 'Φόρτωση σε εξέλιξη...',
   '%s has invited you to join %s.' => 'Ο %s σας έχει προσκαλέσει να γίνεται μέλος του %s.',
+  'Fri' => 'Πα',
 );
   }
 

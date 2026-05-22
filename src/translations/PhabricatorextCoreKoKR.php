@@ -49,7 +49,7 @@ final class PhabricatorextCoreKoKR
   'Expert Mode.' => '전문가 모드입니다.',
   'The specified username / userPHID was not found' => '지정된 사용자 이름 / userPHID가 없습니다',
   'Wikimedia Customizations' => '위키미디어 사용자 지정',
-  'Missing or malformed parameter.' => '알 수 없거나 잘못 구성된 변수입니다.',
+  'Missing or malformed parameter.' => '알 수 없거나 잘못 구성된 매개변수입니다.',
   'How this works' => '동작 방식',
   'MediaWiki User' => '미디어위키 사용자',
   'Reset security settings' => '보안 설정 초기화',

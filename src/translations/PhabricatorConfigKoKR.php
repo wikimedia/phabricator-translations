@@ -15,7 +15,7 @@ final class PhabricatorConfigKoKR
   '%s / %s' => '%s / %s',
   'Memory Usage' => '메모리 사용량',
   'Table' => '테이블',
-  'This server is not configured in cluster mode.' => '파브리케이터가 클러스터 모드로 구성되어 있지 않습니다.',
+  'This server is not configured in cluster mode.' => '이 서버는 클러스터 모드로 구성되어 있지 않습니다.',
   'Repository Errors' => '저장소 오류',
   'Use "bin/phd debug ..." to get a detailed daemon execution log.' => '자세한 데몬 실행 기록을 가져오려면 "bin/phd debug ..."를 사용하십시오.',
   'Access Denied' => '접근이 거부됨',
@@ -47,7 +47,7 @@ final class PhabricatorConfigKoKR
   'Edit "%s"' => '"%s" 편집하기',
   'Disable PHP %s' => 'PHP %s 비활성화',
   'Mailers Not Configured' => '메일러가 구성되어 있지 않음',
-  'Daemons no longer use PID files.' => '파브리케이터 데몬이 더 이상 PID 파일을 사용하지 않습니다.',
+  'Daemons no longer use PID files.' => '데몬이 더 이상 PID 파일을 사용하지 않습니다.',
   'The PHP "zip" extension is not installed. This extension is required by certain data export operations, including exporting data to Excel.
 
 To clear this setup issue, install the extension and restart your webserver.

@@ -30,6 +30,7 @@ final class PhabricatorCoreBg
   'Disable' => 'Изключване',
   'OK' => 'Добре',
   'User' => 'Потребител',
+  'Expires' => 'Срок на изтичане',
   'Event' => 'Събитие',
   'Back' => 'Назад',
   'Read more...' => 'Прочетете повече...',

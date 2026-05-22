@@ -21,7 +21,7 @@ final class PhabricatorOauthserverKoKR
   'Invalid authorization code %s.' => '유효하지 않은 인가 코드 %s.',
   'Application %d' => '애플리케이션 %d',
   'You do not have permission to create OAuth applications.' => 'OAuth 애플리케이션을 만들 권한이 없습니다.',
-  'Required parameter %s missing.' => '필요한 %s 변수가 없습니다.',
+  'Required parameter %s missing.' => '필요한 %s 매개변수가 없습니다.',
   'OAuth: %s' => 'OAuth: %s',
   'OAuth Applications' => 'OAuth 애플리케이션',
   'Generate Test Token' => '테스트 토큰 생성',

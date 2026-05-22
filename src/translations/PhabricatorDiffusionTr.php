@@ -67,7 +67,7 @@ Kanca kuralları değişiklikleri engelleyebilir ve anında özet posta göndere
   'You must set a name or a name prefix!' => 'Bir ad veya ad öneki ayarlamanız gerekir!',
   'Confirm VCS Password' => 'VCS Parolasını Onaylayın',
   'Pull Logs' => 'Çekme Günlükleri',
-  'New VCS Password' => 'Yeni VCS Şifresi',
+  'New VCS Password' => 'Yeni VCS Parolası',
   'New display behavior.' => 'Yeni görüntüleme davranışı.',
   'Branch: %s' => 'Dal: %s',
   'Text Encoding' => 'Metin Kodlaması',

@@ -1,0 +1,80 @@
+<?php
+
+final class PhabricatorPhurlNl
+  extends PhutilTranslation {
+
+  public function getLocaleCode() {
+    return 'nl';
+  }
+
+  protected function getTranslations() {
+    return array(
+  'Alias' => 'Alias',
+  'Edit Phurl' => 'Phurl bewerken',
+  'Search for Phurl URLs created by specific authors.' => 'Zoeken naar Phurl-url\'s die door specifieke auteurs zijn aangemaakt.',
+  'URL' => 'url',
+  'All URLs' => 'Alle url\'s',
+  '%s changed the alias from %s to %s.' => '%s heeft de alias gewijzigd van %s naar %s.',
+  'The alias to give the URL.' => 'De alias voor de url.',
+  'The alias you provided (%s) must contain at least one letter.' => 'De alias die u hebt opgegeven (%s) moet ten minste één letter bevatten.',
+  'Configure creation and editing forms in Phurl.' => 'Formulieren voor aanmaken en bewerken in Phurl configureren.',
+  'New URL description.' => 'Nieuwe url-beschrijving.',
+  '[Phurl]' => '[Phurl]',
+  'Created By' => 'Aangemaakt door',
+  'The URL to shorten.' => 'De url om in te korten.',
+  'Select a phurl...' => 'Selecteer een phurl...',
+  '%s changed the destination URL from %s to %s.' => '%s heeft de bestemmings-url gewijzigd van %s naar %s.',
+  'New URL.' => 'Nieuwe url.',
+  'A description of the URL.' => 'Een beschrijving van de url.',
+  'The alias you provided (%s) may only contain latin letters, digits, periods, and hyphens.' => 'De alias die u hebt opgegeven (%s) mag alleen Latijnse letters, cijfers, punten en koppeltekens bevatten.',
+  'This alias is already in use.' => 'Deze alias is al in gebruik.',
+  'This domain can only be used to open URLs shortened using the Phurl application. The URL you are trying to access does not have a Phurl URL associated with it.' => 'Dit domein kan alleen worden gebruikt om url\'s te openen die zijn ingekort met de Phurl-toepassing. De url die u probeert te openen heeft geen Phurl-url die eraan is gekoppeld.',
+  'Phurls must have a name.' => 'Phurls moeten een naam hebben.',
+  'Shorten your favorite URL.' => 'Kort uw favoriete url in.',
+  'No URLs found.' => 'Geen url\'s gevonden.',
+  'URL path is required' => 'Url-pad is vereist',
+  '%s changed the name of %s from %s to %s.' => '%s heeft de naam van %s gewijzigd van %s naar %s.',
+  'Read information about Phurl URLS.' => 'Informatie over Phurl-url\'s lezen.',
+  'Edit URL: %s' => 'Url bewerken: %s',
+  'Can Create Phurl URLs' => 'Kan Phurl-url\'s aanmaken',
+  'URL name.' => 'Url-naam.',
+  'Long URLs' => 'Lange url\'s',
+  'Create New URL' => 'Nieuwe url aanmaken',
+  'URL DESCRIPTION' => 'URL-BESCHRIJVING',
+  'New alias.' => 'Nieuwe alias.',
+  'Original URL' => 'Oorspronkelijke url',
+  'The pre-shortened URL.' => 'De niet-ingekorte url.',
+  'The protocol of the URL is invalid.' => 'Het protocol van de url is incorrect.',
+  '%s changed the alias of %s from %s to %s.' => '%s heeft de alias van %s gewijzigd van %s naar %s.',
+  'Apply transactions to create a new Phurl URL or edit an existing one.' => 'Transacties toepassen om een nieuwe Phurl-url aan te maken of een bestaande te bewerken.',
+  'Short URL' => 'Korte url',
+  'Shorten a URL' => 'Een url inkorten',
+  'Invalid URL' => 'Incorrecte url',
+  'New URL name.' => 'Nieuwe url-naam.',
+  '%s changed the destination URL %s from %s to %s.' => '%s heeft de bestemmings-url %s gewijzigd van %s naar %s.',
+  'The author of a URL can always view and edit it.' => 'De auteur van een url kan deze altijd bekijken en bewerken.',
+  'You do not have permission to create a Phurl URL.' => 'U hebt geen toestemming om een Phurl-url aan te maken.',
+  'Search for Phurl URLs by the non-shortened URL.' => 'Zoeken naar Phurl-url\'s op de niet-ingekorte url.',
+  'The alias for the URL.' => 'De alias voor de url.',
+  'URL long description.' => 'Lange url-beschrijving.',
+  'URL must match approved domains / protocols.' => 'De url moet overeenkomen met goedgekeurde domeinen/protocollen.',
+  '%s created this URL.' => '%s heeft deze url aangemaakt.',
+  'Phurls must have an alias.' => 'Phurls moeten een alias hebben.',
+  'Phurl URLs' => 'Phurl-url\'s',
+  'CHANGES TO PHURL DESCRIPTION' => 'WIJZIGINGEN IN PHURL-BESCHRIJVING',
+  'Search for Phurl URLs by name substring.' => 'Zoeken naar Phurl-url\'s op deel van de naam.',
+  'Browse Phurl URLs' => 'Door Phurl-url\'s bladeren',
+  'URL Shortener' => 'Url-inkorter',
+  'Visit URL' => 'Url bezoeken',
+  'A URL\'s details change.' => 'De details van een url wijzigen.',
+  'Configure Phurl Forms' => 'Phurl-formulieren configureren',
+  'Search for Phurl URLs by alias.' => 'Zoeken naar Phurl-url\'s op alias.',
+  'URL DETAIL' => 'URL-DETAIL',
+  'The alias can be no longer than %d characters.' => 'De alias mag niet langer zijn dan %d tekens.',
+  'Create URL' => 'Url aanmaken',
+  '%s changed the name of the URL from %s to %s.' => '%s heeft de naam van de url gewijzigd van %s naar %s.',
+  'Create reusable, memorable, shorter URLs for easy accessibility.' => 'Maak herbruikbare, gemakkelijk te onthouden, kortere url\'s voor eenvoudige toegankelijkheid.',
+);
+  }
+
+}

@@ -9,6 +9,7 @@ final class PhabricatorAlmanacNl
 
   protected function getTranslations() {
     return array(
+  'Service PHID.' => 'Dienst-PHID',
   'Device %d' => 'Apparaat %d',
   'Set the service type.' => 'Soort dienst instellen.',
   'Network' => 'Netwerk',

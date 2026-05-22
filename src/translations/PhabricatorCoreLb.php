@@ -183,6 +183,7 @@ final class PhabricatorCoreLb
   'Key' => 'Schlëssel',
   'Settings' => 'Astellungen',
   'May' => 'Mee',
+  'Subscribe' => 'Abonéieren',
   'Import' => 'Importéieren',
   'View Options' => 'Optioune weisen',
   'Yesterday' => 'Gëschter',

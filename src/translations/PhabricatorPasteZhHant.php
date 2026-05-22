@@ -34,7 +34,7 @@ final class PhabricatorPasteZhHant
   'Nom Nom Nom Nom Nom' => 'Nom Nom Nom Nom Nom',
   'Default view policy for newly created pastes.' => '新建立張貼的預設檢視原則。',
   'No such paste exists.' => '未存在這樣的張貼。',
-  'Language to use for syntax highlighting.' => '用於語法凸顯的語言。',
+  'Language to use for syntax highlighting.' => '用於語法醒目標示的語言。',
   'The main body text of the paste.' => '張貼的主要正文文字。',
   'Search for pastes created before a given time.' => '搜尋在指定時間之前所建立的張貼。',
   'You successfully created a paste.' => '您成功建立了一個張貼。',

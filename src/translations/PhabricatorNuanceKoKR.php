@@ -14,7 +14,7 @@ final class PhabricatorNuanceKoKR
   'Unknown Event Type ("%s")' => '알 수 없는 이벤트 유형 ("%s")',
   'Got a complaint? Complain here! We love complaints.' => '불만이 있으십니까? 여기에서 불평해 주세요. 저희는 불평을 사랑합니다.',
   'No items found.' => '항목을 찾을 수 없습니다.',
-  'Web Form' => '파브리케이터 양식',
+  'Web Form' => '웹 양식',
   'User %s' => '사용자 %s',
   'Unknown Object' => '알 수 없는 오브젝트',
   'No item exists with ID "%s".' => '"%s" ID의 항목이 존재하지 않습니다.',

@@ -27,7 +27,7 @@ final class PhabricatorCelerityZhHant
   'Use Red/Green (Deuteranopia) Colors' => '使用紅/綠（綠色盲）色彩',
   'Resource "%s" must %s at most one Celerity target.' => '資源「%s」必須%s在至少一個 Celerity 目標。',
   'Cycle detected in resource graph: %s' => '在資源圖表偵測到的循環：%s',
-  'Rebuild syntax highlighting CSS.' => '重新建置語法凸顯 CSS。',
+  'Rebuild syntax highlighting CSS.' => '重新建置語法醒目標示 CSS。',
   'Resource source defines two resources with the same name, "%s". One is defined in the "%s" map; the other in the "%s" map. Each resource must have a unique name.' => '資源來源定義出兩個同名的資源「%s」。其中一個定義在「%s」對應，另一個在「%s」對應。任一資源皆要為獨一的名稱。',
   'Resource "%s" does not have a header doc comment. Encode dependency data in a header docblock.' => '來源「%s」不可有標頭 doc 註解。相關性資料編碼在 docblock 標頭。',
   'Package specification for "%s" includes resources of multiple types (%s, %s). Each package may only contain one type of resource.' => '用於「%s」的封包規格含有多種類型資源（%s、%s）。任一封包應僅能包含一個資源類型。',

@@ -407,7 +407,7 @@ Verwende "%s", um eine Version zu wählen oder "%s", um eine neue Version zu ers
   'Revision \'%s: %s\' was generated from \'%s\', but current working copy root is \'%s\'. Commit this revision anyway?' => 'Version \'%s: %s\' wurde von \'%s\' generiert, aber die Wurzel der aktuellen Arbeitskopie ist \'%s\'. Diese Arbeitskopie dennoch committen?',
   'Convention: space before opening parenthesis in anonymous function declarations.' => 'Konvention: Leerzeichen vor öffnenden runden Klammern in anonymen Funktionsdeklarationen.',
   'The token "%s" is not formatted correctly. Valid API tokens should begin "cli-" and be 32 characters long. Make sure you visited the correct URI and copy/pasted the token correctly.' => 'Das Token "%s" ist nicht richtig formatiert. Gültige API-Tokens sollten mit "cli-" beginnen und 32 Zeichen lang sein. Gehe sicher, dass du den richtigen URI besucht hast und das Token richtig kopiert/eingefügt hast.',
-  'Use of Close Tag `%s`' => 'Verwendung des Close Tag `%s`',
+  'Use of Close Tag `%s`' => 'Verwendung des Close-Tags `%s`',
   'TO UPGRADE: %s' => 'ZUM AKTUALISIEREN: %s',
   'Unable to find \'%s\' file to configure linters. Create an \'%s\' file in the root directory of the working copy.' => 'Konnte die Datei \'%s\' zum Konfigurieren der Linter nicht finden. Erstelle eine \'%s\'-Datei im Wurzelverzeichnis der Arbeitskopie.',
   'Unable to find any git commit named \'%s\' in this repository.' => 'Konnte kein \'%s\' genanntes Git-Commit in diesem Repository finden.',

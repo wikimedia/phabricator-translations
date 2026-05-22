@@ -74,11 +74,11 @@ final class PhabricatorPeopleKoKR
   'You can use this link to reset your password:
 
   %s
-' => '이 링크를 사용하여 파브리케이터 비밀번호를 재설정할 수 있습니다:
+' => '이 링크를 사용하여 비밀번호를 재설정할 수 있습니다:
 
   %s',
   'Anyone' => '누구나',
-  'Your %s account (%s) has been approved by %s. You can login here:' => '파브리케이터 계정(%s)은 %s님이 승인하였습니다. 여기에서 로그인할 수 있습니다:',
+  'Your %s account (%s) has been approved by %s. You can login here:' => '당신의 %s 계정(%s)은 %s님이 승인하였습니다. 여기에서 로그인할 수 있습니다:',
   'You are creating a new **mailing list** user account.' => '새로운 **메일링 리스트** 사용자 계정을 만들고 있습니다.',
   'Activity Log %d' => '활동 기록 %d',
   'Type a username...' => '사용자 이름을 입력하십시오...',

@@ -72,6 +72,7 @@ final class ArcanistCoreBeTarask
   '`%s` Operator' => 'Апэратар «%s»',
   'Fail' => 'Не атрымалася',
   'Version' => 'Вэрсія',
+  'REVISION' => 'ВЭРСІЯ',
   'Which URI do you want to open?' => 'Які URI вы жадаеце адкрыць?',
   'Dynamic `%s`' => 'Дынамічны «%s»',
   'Incomplete implementation: %s!' => 'Няпоўная рэалізацыя: %s!',
@@ -81,10 +82,13 @@ final class ArcanistCoreBeTarask
   '<default>' => '<перадвызначана>',
   'DATA' => 'ЗЬВЕСТКІ',
   'EXCEPTION' => 'ВЫНЯТАК',
+  'Argument Error' => 'Памылка арґумэнту',
   'LOAD ERROR' => 'ПАМЫЛКА ЛАДАВАНЬНЯ',
   'LOAD' => 'ЛАДАВАЦЬ',
   'CHOOSE' => 'АБРАЦЬ',
   'ALIAS' => 'ПСЭЎДАНІМ',
+  'Status' => 'Статус',
+  'Argument' => 'Арґумэнт',
   'Use of Deprecated Function' => 'Выкарыстаньне састарэлай функцыі',
 );
   }

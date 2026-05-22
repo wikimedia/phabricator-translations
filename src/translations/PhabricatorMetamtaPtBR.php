@@ -26,6 +26,8 @@ final class PhabricatorMetamtaPtBR
   'Delivery' => 'Entrega',
   'Unhandled Exception: %s' => 'Exceção não tratada: %s',
   'HEADERS' => 'CABEÇALHOS',
+  'Type a username, mailing list, or function...' => 'Digite um nome de usuário, uma lista de discussão ou uma função...',
+  'Message has no valid recipients: all To/CC are disabled, invalid, or configured not to receive this mail.' => 'A mensagem não tem destinatários válidos: todos os campos Cc/Para estão desativados, são inválidos ou estão configurados para não receber este e-mail.',
   'Reasons' => 'Razões',
   'This recipient has disabled all email notifications (Settings > Email Preferences > Email Notifications).' => 'Este destinatário desativou todas as notificações por e-mail (Configurações> Preferências de e-mail> Notificações por e-mail).',
   'Type a user, project, package, or mailing list name...' => 'Digite um nome de usuário, projeto, pacote ou lista de discussão...',

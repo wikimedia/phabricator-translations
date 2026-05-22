@@ -20,6 +20,7 @@ final class PhabricatorPolicyPtBR
   'Testing for capability "%s" on an object ("%s") which does not support that capability.' => 'Testando o recurso "%s" em um objeto ("%s") que não suporta esse recurso.',
   'Special Rules' => 'Regras especiais',
   'Object Policy' => 'Política de objetos',
+  'These rules are processed in order:' => 'Essas regras são processadas na seguinte ordem:',
   'Members of the project "%s" can take this action.' => 'Os membros do projeto "%s" podem realizar essa ação.',
   'This object is public and can be viewed by anyone, even if they do not have an account on this server.' => 'Este objeto é público e pode ser visualizado por qualquer pessoa, mesmo que não possua uma conta Phabricator.',
   'Note:' => 'Nota',

@@ -31,7 +31,7 @@ final class PhabricatorSubscriptionsNl
   'Mute this object? You will no longer receive notifications or email about it.' => 'Wilt u dit object dempen? Dan ontvangt u geen meldingen of e-mails meer over dit object.',
   'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => '%s doel(en) opnieuw abonneren is mislukt omdat die zich eerder had(den) afgemeld: %s.',
   'Removed %s subscriber(s): %s.' => '%s abonnee(s) verwijderd: %s.',
-  'Bad Object' => 'Ongeldig object',
+  'Bad Object' => 'Onjuist object',
   'Add users or projects as subscribers.' => 'Voeg gebruikers of projecten toe als abonnees.',
   'Removed Subscribers' => 'Abonnees verwijderd',
   'All %d subscribers added by %s' => 'Alle %d abonnees toegevoegd door %s',
@@ -50,7 +50,7 @@ Subscribers which are invalid or unrecognized will be ignored. This command has 
 
 Users who are CC\'d on the email itself are also automatically subscribed if their addresses are associated with a known account.' => 'Voeg een of meer abonnees toe aan het object. U kunt gebruikers toevoegen door hun gebruikersnamen op te geven, of projecten door hun hashtags toe te voegen. Gebruik bijvoorbeeld `%s` om de gebruiker `alincoln` en het project met hashtag `#ios` als abonnees toe te voegen.
 
-Abonnees die ongeldig zijn of niet herkend worden, worden genegeerd. Deze opdracht heeft geen effect als u geen abonnees opgeeft.
+Abonnees die incorrect zijn of niet herkend worden, worden genegeerd. Deze opdracht heeft geen effect als u geen abonnees opgeeft.
 
 Gebruikers die in de CC van de e-mail zelf staan, worden ook automatisch geabonneerd als hun e-mailadressen gekoppeld zijn aan een bekend account.',
   'Add rule author as subscriber.' => 'Auteur van de regel toevoegen als abonnee.',
