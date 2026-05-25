@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Elroy",
-			"Mainframe98"
+			"Mainframe98",
+			"Siebrand"
 		]
 	},
+	"00a3cc5b55d618dc": "Dienst-PHID",
 	"0d2a0a7ef2b33d75": "Apparaat $1",
 	"430ccb54d87ab807": "Soort dienst instellen.",
 	"53ebc572b4a44802": "Netwerk",
