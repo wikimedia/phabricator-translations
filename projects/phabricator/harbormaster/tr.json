@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Can",
+			"HakanIST",
 			"Joseph",
 			"Melissadilara",
 			"MuratTheTurkish",
@@ -229,6 +230,7 @@
 	"61dd15d28af6b124": "Geçersiz yapı kimliği \"$1\".",
 	"631f2b21de5dee71": "Saklanacak URI.",
 	"636928e21d4b574e": "Bir yapı planı adı yazın...",
+	"640ab2bae07bedc4": "Test",
 	"6577a77740807585": "Harbormaster Yapısı $1 (\"$2\") için $3",
 	"65a096404dd45617": "Yapı Adımı Sil",
 	"65ab2e4f94e625eb": "Adım $1.$2",
@@ -480,6 +482,7 @@
 	"e61933dc46347acc": "\"JavascriptTestEngine\" gibi, testi çalıştıran test motoru. Bu, öncelikle farklı test takımlarında aynı isimdeki testler arasındaki çarpışmaları önler (örneğin, bir JavaScript testi ve bir Python testi).",
 	"e6443af99d2f470f": "Konteyner",
 	"e65a6e7a2fc4bf8c": "\"--id\" ile yeniden oluşturmak için bir derleme günlüğü seçin veya \"--all\" ile tüm günlükleri yeniden oluşturun.",
+	"e69806b2139f779c": "Buna Bağlı",
 	"e6c537163b1bd5d1": "Oluşturma planlarını çalıştırın: $1.",
 	"e6d3bb8947bc6517": "Yapılandırmada `phabricator.silent` etkin olduğundan servis çağrısı yapmayı reddetme.",
 	"e6fe5dbe66817f1a": "Günlükleri Oluştur",

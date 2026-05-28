@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph",
 			"Melissadilara",
 			"Rapsar",
@@ -27,7 +28,9 @@
 	"247274012e802c74": "Bir belgenin aboneleri değişir.",
 	"24753df10adddc21": "Bilinmeyen doküman durumu '$1'!",
 	"251cc6c566d6fde4": "Değişikliklerin Üzerine",
+	"26e9838fa4aba60c": "Belirtilen üst yolların altındaki belgeleri bul.",
 	"26f7b3ad79583865": "Belge Silinemiyor!",
+	"272607a7bd015aa5": "Geri Al",
 	"273de30017e2329a": "Üst/ata yolu belirtilmedi.",
 	"27823bb42bb74e84": "Bilinmeyen URI türü '$1'!",
 	"282d35c4109ce145": "\"$1\" belge yolu geçerli bir yol değil. Bu yolun normalleştirilmiş formu \"$2\".",
@@ -99,6 +102,7 @@
 	"96a9105f070e8b82": "\"$1\" <$2>",
 	"9837ef4032a3aed8": "Belge Geçmişi",
 	"98b219af6d77a4ff": "Taslak $1",
+	"98bea23cdd672c36": "Wiki Belgesi",
 	"9a8585f1acc0aebe": "Orijinal Değişim",
 	"9a9c9742caa17809": "Boş Ana Belge",
 	"9c062d190c7fb27c": "Belge Zaten Var!",

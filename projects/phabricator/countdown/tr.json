@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph"
 		]
 	},
@@ -41,8 +42,10 @@
 	"a045d67672ccfeca": "Geri sayımların bir başlığı olmalıdır.",
 	"a812d3ef9639a2a5": "Etkinliklere Geri Sayım",
 	"aa6ff0d406f19dd3": "Geri sayımı yeniden adlandırın.",
+	"b009a8a037cabf42": "Geri sayım oluşturma izniniz yok.",
 	"b307e1c3e487a251": "Geri Sayım",
 	"bae712ef303bd144": "Birisi geri sayım ayrıntılarını değiştirir.",
+	"bb20be7a8ae6fdba": "Gösterge paneli oluşturma izniniz yok.",
 	"bcba56274bac5e53": "Yeni geri sayım bitiş tarihi.",
 	"c323c6d4bdbec49a": "Geri sayım adı.",
 	"c50203f296415ec6": "Geri sayımlarla ilgili bilgi edinin.",

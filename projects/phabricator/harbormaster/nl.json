@@ -134,7 +134,7 @@
 	"31132d74cbab25fe": "Meer details over bewerkingen weergeven terwijl ze worden uitgevoerd. Langzaam! Maar ook zeer geruststellend!",
 	"314e0fc1f4456c56": "Lintberichtcode die het type bericht identificeert, zoals \"ERR123\".",
 	"31b23e7096460d9b": "Build wordt gepauzeerd.",
-	"31fff2dd2d151bce": "Dit is een autoplan (een ingebouwd plan dat door een applicatie wordt geleverd) en kan daarom niet worden bewerkt.",
+	"31fff2dd2d151bce": "Dit is een autoplan (een ingebouwd plan dat door een toepassing wordt geleverd) en kan daarom niet worden bewerkt.",
 	"320a6e959422bb44": "Een geauthenticeerd HTTP $1-verzoek naar $2 doen.",
 	"3245e2c81cfa6106": "Het builddoel waaraan dit artefact is gekoppeld.",
 	"32fbcec70fadc6ba": "Een herstartbericht naar de build gestuurd.",

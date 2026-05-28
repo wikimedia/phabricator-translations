@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"LuCKY"
 		]
 	},
@@ -30,6 +31,7 @@
 	"35c777951ff6c596": "Katılmış Odalar",
 	"35d8e91c3d3d8132": "Oda Katılımcıları",
 	"36249063380ece4f": "Çınlama",
+	"3752f1d36564b0b5": "Oda Oluşturabilir",
 	"37ae585624a18a33": "Oda Bul",
 	"37ec1c0e95b19ec3": "Oda Kelimeler İçeriyor",
 	"3a28d6f078fd35a5": "Odalar",
@@ -53,6 +55,7 @@
 	"66ead5caa0d0bf82": "Son mesaj yok",
 	"683562872de2a2c5": "$1 size bir mesaj gönderdi.",
 	"68cc28816e84b89c": "Mesajlar: $1",
+	"6947a8bb1d69f849": "Yeni oda oluşturma izniniz yok.",
 	"69e138501ae25ed7": "Son üyesisiniz, bu yüzden odaya asla tekrar katılamayacaksınız.",
 	"6a0af82e0e06adc0": "Katılımcı PHID \"$1\" geçerli bir kullanıcı PHID'si değil.",
 	"6aeb017fb9c62676": "Dokun",

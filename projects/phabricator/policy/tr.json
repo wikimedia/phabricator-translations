@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Can",
+			"HakanIST",
 			"SaldırganSincap"
 		]
 	},
@@ -14,6 +15,7 @@
 	"0bb2e1d44d97441b": "ne zaman ay",
 	"0e3e41241d8cbd68": "Kilitlenecek nesnenin adını belirtin.",
 	"117f770f989b87f1": "Hizmetlilere Kullanıcı Politika Oluşturma Kilidi",
+	"11c8de63863dbd23": "Etkileşim Politikası",
 	"18751622f503d778": "Bu kurallar sırayla işlenir.",
 	"1fce159eba71dca8": "Bu yazılım, kullanıcıların yeni kullanıcılar oluşturmak gibi belirli eylemlerde bulunup bulunmayacağını belirleyebilecek uygulama politikalarına sahiptir.\n\nBu ayar, bu politikaların \"kilitlenmesini\" sağlar, böylece politika başına başka düzenleme yapılamaz.",
 	"21418411947c2375": "Bu alanda nesneleri görebilen kullanıcılar:",
@@ -32,6 +34,7 @@
 	"3ad186f23ab52314": "Yalnızca Kullanıcı: $1",
 	"3e23efbcb5cf65ab": "Geçersiz eylem '$1'!",
 	"4346259d624a73ac": "Genel Görünürlüğe İzin Ver",
+	"438fa22543063b0f": "Nesneyle kimin etkileşim kurabileceğini kontrol eder.",
 	"43d425ea1bd228b0": "Politika Nesnesi",
 	"460a9850b100cc44": "Proje Üyeleri...",
 	"470c393d8184ed0c": "İki politika kuralı (\"$1\" ve \"$2\" sınıfları) aynı nesne politikası anahtarını (\"$3\") tanımlar, ancak her nesne politikası kuralı benzersiz bir anahtar kullanmalıdır.",
@@ -45,7 +48,9 @@
 	"5a5b96659258789d": "Diğer Politikalar",
 	"5b83b3d2f7e85a79": "Nesne Politikası",
 	"5bab93b4df69d462": "Etkileşim yapabilir",
+	"5c486a95375aa612": "Bu kurallar sırayla işlenir:",
 	"5d83cb68d4c07acc": "\"$1\" projesinin üyeleri bu işlemi yapabilir.",
+	"5faf52958547f4df": "Bu işlemi belirli bir birimin üyeleri yapabilir. (Bu nesneyi göremiyorsunuz, bu nedenle birimin adı gizlidir.)",
 	"61719b5264144019": "Politika bilgilerini göstermek için tam olarak bir nesnenin adını belirtin.",
 	"61fac6d1372ab49d": "Bu nesne herkese açıktır ve bu sunucuda bir hesabı olmasa bile herkes tarafından görüntülenebilir.",
 	"65b28cf2e4c3b8d7": "Yapmaya çalıştığınız şeyi yapmak için gerekli kabiliyetiniz (\"$1\") yok.",
@@ -112,5 +117,6 @@
 	"f965b290a4b98d39": "Bu nesnenin bu eylemi kimin yapabileceğini kontrol eden özel bir politika var.",
 	"fae5f7f8ff51e5eb": "Yeni alan PHID.",
 	"faf14d89df0c1119": "\"$1\" yeteneği \"$2\" politikasında geçersiz.",
-	"fb759a857d22a710": "Bu nesneyle etkileşim kurma izniniz yok."
+	"fb759a857d22a710": "Bu nesneyle etkileşim kurma izniniz yok.",
+	"fe1652bb8e2fdbef": "Nesnenin etkileşim politikasını değiştir."
 }
