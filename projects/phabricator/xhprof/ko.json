@@ -1,13 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
+	"01e30de312eae0aa": "XHProf 샘플",
+	"0a63ad781263be3f": "샘플됨 (1/$1)",
+	"2211e38509c4c39d": "모든 샘플",
+	"28facfbf0193ea3e": "상위 호출",
+	"2f3c9dc62cb2a85d": "실제 경과 시간 (Inclusive)",
+	"3f84ef531f9db996": "기호",
+	"562ae0348cb47b8e": "실제 경과 시간 (Exclusive)",
 	"600c86c5195dfe24": "$1 μs",
+	"60bc9828c396a0ff": "이름 없는 샘플",
 	"68d5ced71e82cd17": "$1 프로파일",
+	"93bdcecc9624ca26": "수동 실행",
 	"a04ce39eb6a65a4b": ".xhprof 파일을 가져오려면 해당 파일을 끌어 놓으십시오.",
 	"aeb1f8e83b6fb6c1": "PHP 프로파일링 도구",
+	"ba808f702b24f82c": "이 호출의 통계",
+	"bffb93b89ee1e5b6": "XHProf 프로필을 역직렬화하는데 실패했습니다!",
 	"c9aef90f3405db63": "XHProf 프로파일",
-	"d2c039b48df9b8b5": "가져올 .xhprof 파일을 놓으십시오"
+	"d2c039b48df9b8b5": "가져올 .xhprof 파일을 놓으십시오",
+	"dd3202d111eefb92": "실제 시간",
+	"f1ab222d43ba59b4": "$1 프로필을 다운로드",
+	"fe6de32a0c1aa35b": "하위 호출"
 }

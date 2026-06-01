@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph",
 			"SaldırganSincap"
 		]
@@ -32,6 +33,7 @@
 	"3a45e167bb30da2f": "$1, bu makroyu $2 iken $3 olarak yeniden adlandırdı.",
 	"3a85fe2bbb560565": "$1, sesi $2 olarak bir kez çalacak şekilde ayarladı.",
 	"3afc9238063f5c76": "Ses Düzenle: $1",
+	"3d541f67b534b77e": "Bilinmeyen durum '$1'!",
 	"44fd803934c651e0": "Yeni makro adı.",
 	"470654e8598172a5": "Eşleşen bayrak yok.",
 	"49756dd769f5d25b": "Ses Davranışı",

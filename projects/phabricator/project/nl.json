@@ -275,7 +275,7 @@
 	"62529a022de4aaa2": "$1 heeft $2 project(en) bewerkt voor $3, $4 toegevoegd: $5; $6 verwijderd: $7.",
 	"6294d4cbd8c19d69": "Werkblad",
 	"629b8abd26fbd96b": "Gebruikersprojecten: Onjuiste gebruiker",
-	"639443d53b6a90d3": "De regelset van de trigger is corrupt: regel (op de index \"$1\") moet een regelspecificatie zijn, maar is \"$2\".",
+	"639443d53b6a90d3": "De regelset van de trigger is beschadigd: regel (op de index \"$1\") moet een regelspecificatie zijn, maar is \"$2\".",
 	"64156b85cd411a44": "Leden instellen en de huidige waarde overschrijven.",
 	"646807b6d79dd2f5": "Werkbladkolommen",
 	"64ac934fc5a65044": "Eerste slug/hashtag.",
