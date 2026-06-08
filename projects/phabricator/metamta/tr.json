@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Can",
+			"HakanIST",
 			"Melissadilara",
 			"Rapsar",
 			"SaldırganSincap"
@@ -53,6 +54,7 @@
 	"2e4c13b671b53b30": "İlgili PHID",
 	"2ee59a6c3f56957e": "Mesaj alıcısında birincil irtibat numarası yok.",
 	"2f6188ba6ccc53c6": "Gösterilecek bir veya daha fazla mesajı belirtmek için '$1' bayrağını kullanın.",
+	"300450fbe9613a4c": "Bir posta teslimi \"Cc:\" adresini simüle et.",
 	"300db4f3d17ada3e": "Böyle bir kullanıcı '$1' mevcut değil.",
 	"309cadbed6ab4378": "Bir kullanıcı adı, proje, posta listesi, paket veya işlev yazın...",
 	"31bd5dee752c7c4a": "E-posta olarak gönder",
@@ -170,6 +172,7 @@
 	"ab678caf3b8f66be": "BAŞLIKLAR",
 	"ab76916baf9861fc": "Giden Posta",
 	"ac0a719be2821b82": "Bir dosya ekle.",
+	"ac1da3f15e2b3775": "",
 	"af9043a61d1b14b5": "Posta Devre Dışı",
 	"b082575a018d84e1": "GÖVDELER",
 	"b0ef5734b78bf764": "Adres Yok",
@@ -183,6 +186,7 @@
 	"b66f7b994de12220": "Devre Dışı Alıcı",
 	"b6a80437f09d8ed1": "Doğrulamak için bir veya daha fazla e-posta adresi belirtin.",
 	"b78c26b2aca03883": "Sunucu Tarafından Oluşturuldu",
+	"b7ec0067e9b3d29e": "Type a kullanıcıad, mailing liste, or işlev...",
 	"b8aca65ca404b28a": "EKLER",
 	"b8ee83583a5e1cda": "Mesajın geçerli bir alıcısı yok: tüm Kime/CC devre dışı bırakılmış, geçersiz veya bu e-postayı almayacak şekilde yapılandırılmış.",
 	"b97a9e8b05091297": "Mesajın \"Kime\" alıcısı yok.",

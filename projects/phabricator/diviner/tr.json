@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Cobija"
+			"Cobija",
+			"HakanIST"
 		]
 	},
 	"03d15fc7d961504b": "Makalede $1 yok!",
@@ -19,8 +20,10 @@
 	"1c180e6dba2ed2fa": "Atomlar, parçası oldukları kitapların politikalarını devralır.",
 	"20209c866461f149": "$1 belge siliniyor.",
 	"208262f4a5d4f64f": "'$1' kuralı geçerli bir normal ifade değil.",
+	"2220fdde3fa60c78": "",
 	"24f096b221f9534b": "Geri dön",
 	"25f4df14fdd96ab3": "Projede $1 dosya bulundu.",
+	"2ab4f5a201341a44": "Diviner Arama",
 	"2b8e54e1847403f4": "BELGE YAYINLANIYOR",
 	"2c508dfa5a9fe983": "Tüm Atomlar",
 	"303f757d21152b34": "'$1' kitap yapılandırmasının adı '$2', ancak kitap adları yalnızca küçük harfler ve kısa çizgiler içermelidir.",

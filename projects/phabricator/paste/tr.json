@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph",
 			"Vito Genovese"
 		]
@@ -17,6 +18,7 @@
 	"1c6fce1a1d8792a8": "Yapıştırma hakkında bilgi edinin.",
 	"1cb09817d6580259": "$1, $2 için unvanı başlıksız $3'e güncelledi.",
 	"1f86cd4b328df0e5": "Yapıştır dili boş veya boş bir dize olmalıdır.",
+	"2259015b27cd1173": "Bu içerik be rendered as a belge in Files.",
 	"2439957fc74c49c0": "Bir yapıştırın yazarı her zaman onu görüntüleyebilir ve düzenleyebilir.",
 	"26161ad7893f44ab": "Yeni Yapıştır Oluştur",
 	"271e88885ee5b1f8": "Yeni oluşturulan yapıştırlar için varsayılan düzenleme politikası.",
@@ -41,6 +43,7 @@
 	"5cbaa321f6edfddb": "YAPIŞTIR BAĞLANTISI",
 	"5dafb5287f1a4705": "Yapıştırmanın başlığı.",
 	"6678696d09906246": "Kod parçacıklarını saklayın, paylaşın ve gömün.",
+	"7300d560b38d3180": "Yapıştırmanın görüntüleme URI'si.",
 	"778e76decb27c85b": "Yeni bir yapıştır oluşturmak için işlemleri uygulayın veya mevcut bir düzenlemeyi düzenleyin.",
 	"78b561e4ef520838": "Dillere Göz At",
 	"7b189fba3eb0d5c1": "Yapıştırı Etkenleştir",

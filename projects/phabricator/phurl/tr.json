@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph"
 		]
 	},
 	"04259816ace1ebe5": "Takma ad",
 	"07220ddc07168239": "Phurl'u Düzenle",
+	"0b1f4c764dd13af5": "Şunu arayın: Phurl URLs oluşturmad by specific yazars.",
 	"0e2d9b0777a485c1": "URL",
 	"10ca59433e17327a": "Tüm URL'ler",
 	"1f7f74d9be3f7d02": "$1, takma adını $2 ile $3 değiştirdi.",
@@ -15,6 +17,7 @@
 	"25a01dd2718388bb": "Phurl'da oluşturma ve düzenleme formlarını yapılandırın.",
 	"2a229462016518d5": "Yeni URL açıklaması.",
 	"3f8f76b785340677": "[Phurl]",
+	"43de2bcd633716d1": "Oluşturan",
 	"4648d39861209ea9": "Kısaltılacak URL.",
 	"472b421beaca3da4": "Bir phurl seç...",
 	"4b875bd0608f8079": "$1, hedef URL'yi $2 ile $3 değiştirdi.",
@@ -46,6 +49,7 @@
 	"bed22f6094ab6791": "Geçersiz URL",
 	"c0f6b306a68004a7": "Yeni URL adı.",
 	"c1b1fd7622368b0b": "$1, hedef URL'yi $2 üzerinden $3 ile $4 değiştirdi.",
+	"c2e49d8eee1fe76d": "yazar of a URL always görüntüleme and düzenleme it.",
 	"c6f0551b1f30a017": "Phurl URL oluşturma izniniz yok.",
 	"c71ce7231d9339f2": "Kısaltılmamış URL'ye göre Phurl URL'lerini arayın.",
 	"cbc8c6068a960874": "URL takma adı.",

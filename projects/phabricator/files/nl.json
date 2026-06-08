@@ -205,7 +205,7 @@
 	"6e846dd15ed3365b": "(WAARSCHUWING) Dit bestand wordt verwezen door dit object, maar is er niet formeel aan gekoppeld. Gebruikers die het object kunnen zien, kunnen het bestand mogelijk niet zien.",
 	"6e9a7ac30913f9df": "Alle opslagengines konden het bestand niet schrijven:",
 	"6fb2bfd0e47c9722": "$1: codering wijzigen van \"$2\" naar \"$3\".",
-	"6fcc7f97ccf91851": "Hoe meer je weet",
+	"6fcc7f97ccf91851": "Hoe meer u weet",
 	"710c960854a67ed1": "Integriteitshash voor bestand \"$1\" overschreven.",
 	"71ba07cae14ca3fe": "Integriteitshashes berekenen en bijwerken voor bestanden die er nog geen hebben.",
 	"71c075a827780dab": "U hebt een bestand geüpload.",
@@ -357,7 +357,7 @@
 	"b7382bb47f75a0d8": "Als hexdump weergeven",
 	"b7dc63fe1c4740da": "Opslagformaat",
 	"b894d7ee521a8d5e": "Niet-ondersteunde gegevenscodering.",
-	"b94a6243c63b656b": "Dit document is te groot om volledig ingebed weer te geven. De eerste $1 bytes worden getoond.",
+	"b94a6243c63b656b": "Dit document is te groot om volledig ingebed weer te geven. De eerste $1 bytes worden weergegeven.",
 	"b97b21600655dc1e": "$1: afbeeldingsafmetingen bestaan al.",
 	"b99ee178ab87834d": "Het verwijderen van integriteitshashes is gevaarlijk en maakt bestanden kwetsbaar voor beschadiging of manipulatie.",
 	"ba15725fbe4b1ea9": "U moet een bestand opslaan voordat u een weergave-URI kunt genereren.",
@@ -502,7 +502,7 @@
 	"fd42f935f0c13b21": "Geen inhoudsengine kan dit document weergeven.",
 	"fd6a5ecb0c6d5148": "MISLUKT",
 	"fd7a6b0e2681cd19": "Slepen en neerzetten:",
-	"fefe5fe8efee8c32": "\"json_decode(...)\" van JSON-document mislukt nadat het succesvol was gedecodeerd met \"phutil_json_decode(...)\".",
+	"fefe5fe8efee8c32": "\"json_decode(...)\" van JSON-document mislukt nadat het was gedecodeerd met \"phutil_json_decode(...)\".",
 	"ff7ad050bfdec4d4": "Gekoppeld aan",
 	"ffdb625fc75a1da8": "De opslagcodering van bestanden wijzigen."
 }

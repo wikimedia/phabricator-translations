@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph"
 		]
 	},
@@ -9,6 +10,7 @@
 	"04cb07ada8365ae6": "\"$1\" isimli hiçbir kaynak yok!",
 	"0815b2ca68359582": "\"$2\" türü bilinmeyen kaynak \"$1\" oluşturulamıyor.",
 	"0a4a18b90fc1e8c9": "Harita yazılıyor \"$1\".",
+	"0a6eea37ac20f886": "",
 	"0ef5ab1cc4ef90ef": "Yüksek Kontrast Renkleri Kullan",
 	"0f1ed7dfb63fc1e2": "Koyu Kip (Deneysel)",
 	"163ba1a9c26c97b1": "Daha Büyük Yazı Tipi Boyutu Kullan",
@@ -18,9 +20,11 @@
 	"2e6ee0d3a1034bf1": "\"$1\" için paket belirtimi \"$2\" içerir, ancak bu sembol hiçbir kaynak $3 değildir.",
 	"317174c8d84f6a62": "\"$1\" bilinmeyen kaynağı çözmeye çalışıyor.",
 	"41fa90d128ffe8e0": "\"$1\" sözdizimini CSS'yi yeniden oluştur.",
+	"47d83c73b8a89556": "`$1` not bulundu in PATH.",
 	"4e71600bec1f4ac1": "'$1' CSS dosyasında '$2' değişkeni yok.",
 	"6131223242825fc5": "Satır içi betikde $1 değişmezine izin verilmez.",
 	"7a75961209a5cf4d": "Kırmızı/Yeşil (Deuteranopia) Renkleri Kullan",
+	"7e3c84418e014474": "",
 	"8369c2f9ebcad3bd": "\"$1\" kaynağı en fazla bir Sürat hedefinde $2 olmalıdır.",
 	"9adac865895dd02e": "Kaynak grafikte tespit edilen döngü: $1",
 	"a396d463559a8f47": "CSS'yi vurgulayarak sözdizimini yeniden oluşturun.",

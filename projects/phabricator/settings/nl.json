@@ -48,7 +48,7 @@
 	"287eac13ff391a05": "Met **Onderwerpen variëren** ingeschakeld, bevatten de meeste onderwerpregels van e-mails een korte beschrijving van de inhoud, zoals `[Gesloten]` voor een melding dat iemand een taak heeft afgesloten. \n\n| Instelling                | Voorbeeld onderwerp e-mail\n|---------------------------|----------------\n| Onderwerpen variëren      | `[Maniphest] [Gesloten] T123: Voorbeeldtaak`\n| Onderwerpen niet variëren | `[Maniphest] T123: Voorbeeldtaak`\n\nDit kan e-mail nuttiger maken, maar sommige e-mailclients hebben moeite met het ordenen van deze berichten. Het uitschakelen van deze optie kan het ordenen verbeteren, maar dit gaat ten koste van de bruikbaarheid van de onderwerpregels.",
 	"289d7173c274e090": "De waarde \"$1\" is niet geldig voor instelling \"$2\": geldige waarden zijn $3.",
 	"2bcbafa80faeb97b": "Extra instellingen",
-	"2c59588b7493b1d7": "Weet u zeker dat je dit adres wilt verwijderen? U kunt het dan niet meer gebruiken om aan te melden.",
+	"2c59588b7493b1d7": "Weet u zeker dat u dit adres wilt verwijderen? U kunt het dan niet meer gebruiken om aan te melden.",
 	"2cc061c412a938c6": "Als u uw primaire adres wijzigt, stuurt $1 alle e-mails naar $2.",
 	"2cceaf55d82ea2a5": "U kunt het lettertype aanpassen dat wordt gebruikt bij het weergeven van tekst met vaste breedte, inclusief broncode. U moet een geldige CSS-lettertypedeclaratie invoeren, bijvoorbeeld: `13px Consolas`",
 	"2d3730312665bf0e": "E-mail voor eigen handelingen inschakelen",

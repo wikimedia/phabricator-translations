@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph"
 		]
 	},
@@ -25,6 +26,7 @@
 	"3868a7eb534c959c": "$1, $2 görev düzenlendi, $3 ekledi: $4; $5 kaldırıldı: $6.",
 	"39fc72124884d657": "Geri al",
 	"3a554040d7e89117": "Oluşturulan veya güncellenen sahtelere tepki verin.",
+	"3ce76ba5110a5537": "yazar of a mock always görüntüleme and düzenleme it.",
 	"4635136ad77d9a37": "Resim (\"$1\") hangi resmin yerini alacağını belirtmiyor.",
 	"473d386d7e084468": "Gözden geçirme geçmişi ve satır içi yorumlarla inceleme için resim setleri yükleyin.",
 	"47431307b9cd9a9a": "Pholio",
@@ -78,6 +80,7 @@
 	"d961a5ff4070dbde": "Bu sayfa Pholio'daki sahte cihazlarla etkileşimde bulunmak için kullanabileceğiniz komutları belgeler.",
 	"dc664603dc430f4c": "Yedek resim yüklenemiyor (\"$1\"): $2",
 	"de76e65c84df596f": "$1 bu sahteyi $2'ye $3'e değiştirdi.",
+	"df42534003de3299": "",
 	"e315496e790d89bb": "Bir sahte oluşturulduğunda veya güncellendiğinde çalışan test kuralları.",
 	"e6dafce978c901ea": "Satır İçi Yorum",
 	"e71d424834c128ee": "Sahte isimler, $1 karakterden uzun olmamalıdır.",

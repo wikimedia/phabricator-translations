@@ -390,7 +390,7 @@
 	"d3a3545a4c8c6928": "Nieuwe toegewezene van de taak, of `null` om de toewijzing te verwijderen.",
 	"d3fd1ebbeb826bc8": "Wens",
 	"d4042bae2089535a": "$1 heeft de puntwaarde voor $2 ingesteld op $3.",
-	"d5e255a9312c672f": "Deze taak is verbonden met meer dan $1 andere taken. Alleen directe bovenliggende taken en subtaken worden hier getoond.",
+	"d5e255a9312c672f": "Deze taak is verbonden met meer dan $1 andere taken. Alleen directe bovenliggende taken en subtaken worden hier weergegeven.",
 	"d605e34a9cdeb63d": "Zoeken naar taken die door bepaalde gebruikers zijn gesloten.",
 	"d65f4e7d2bba6bd9": "Subtype gewijzigd",
 	"d7aa00e72d24b9c0": "$1 heeft bovenliggende ta(a)k(en) bewerkt, $2 toegevoegd: $3; $4 verwijderd: $5.",

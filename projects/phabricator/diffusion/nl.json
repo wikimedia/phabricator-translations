@@ -908,7 +908,7 @@
 	"e67f1de31c713aee": "URI inschakelen",
 	"e6e27efe41689342": "Symbolen doorbladeren",
 	"e76b0f8f566f00c4": "Deze commit heeft nu openstaande bezwaren.",
-	"e76df4f7cb59d516": "Deze server ondersteunt Git LFS, een Git-extensie voor het opslaan van grote bestanden naast een repository. Activeer deze instelling om de extensie bestandsgegevens te laten opslaan.",
+	"e76df4f7cb59d516": "Deze server ondersteunt Git LFS, een Git-uitbreiding voor het opslaan van grote bestanden naast een repository. Activeer deze instelling om de uitbreiding bestandsgegevens te laten opslaan.",
 	"e78fbc70273d9ba4": "Tags voor $1",
 	"e7f8530d144f6f29": "Wachten tot een andere gebruiker klaar is met schrijven...",
 	"e85a3abeab507543": "Repository \"$1\" bestaat op meer dan één apparaat, maar geen enkel apparaat heeft versie-informatie over de repository. De software kan niet bepalen welke kopie van de bestaande gegevens gezaghebbend is. Promoveer een apparaat of zie \"Ambiguous Leaders\" in de documentatie.",
