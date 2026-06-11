@@ -23,6 +23,7 @@
 	"8bc94a976bc4b3a4": "Show the status of the notification server.",
 	"8d93b1b51e918a37": "Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one \"$1\" server and at least one \"$2\" server.",
 	"90a12173d6f5b1b1": "Start the notifications server.",
+	"9842684281972986": "Aphlict ($1) is running.",
 	"98c6c6c1b5b17ce4": "User to notify.",
 	"9c283944e8b5c91f": "Stop, then start the notification server.",
 	"a301322c9af125fc": "Failed to read configuration file. $1",
@@ -41,6 +42,5 @@
 	"ee81643336bc9027": "Configuration file specifies cluster peer (\"$1\", at index \"$2\") with an invalid protocol, \"$3\". Valid protocols are \"$4\" or \"$5\".",
 	"ef767ed0bf9b70c0": "Aphlict Server started.",
 	"f1570b670f1047c5": "Stopping Aphlict Server ($1)...",
-	"f9bbe9286badce6f": "Failed to create directory \"$1\" for specified PID file. You should manually create this directory or choose a different PID file location. $2",
-	"9842684281972986": "Aphlict ($1) is running."
+	"f9bbe9286badce6f": "Failed to create directory \"$1\" for specified PID file. You should manually create this directory or choose a different PID file location. $2"
 }

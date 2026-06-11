@@ -7,7 +7,7 @@
 	"3f84ef531f9db996": "Symbol",
 	"562ae0348cb47b8e": "Wall Time (Exclusive)",
 	"5a9ebdb4ed44587e": "Total wall time spent in this function and all of its children (children are other functions it called while executing).",
-	"600c86c5195dfe24": "$1 \u03bcs",
+	"600c86c5195dfe24": "$1 {{PLURAL:$1|\u03bcs}}",
 	"60bc9828c396a0ff": "Unnamed Sample",
 	"68d5ced71e82cd17": "$1 Profile",
 	"91e4fc2fd727793b": "Wall time spent in this function, excluding time spent in children (children are other functions it called while executing).",

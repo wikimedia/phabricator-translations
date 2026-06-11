@@ -22,7 +22,7 @@
 	"4d7d185e3801d97f": "Fact key \"$1\" is not a known fact key.",
 	"4fbffbf37a543af4": "Function \"$1\" expects $2 argument(s), but $3 argument(s) were provided.",
 	"562597441eed5621": "cos(x)",
-	"5ded511d57b0065b": "$1ms",
+	"5ded511d57b0065b": "{{PLURAL:$1|$1ms}}",
 	"600b7712709b38eb": "Processing cursor '$1'.",
 	"65313363140c52d7": "Show a list of fact engines.",
 	"68ff38ff3badd89b": "Chart and Analyze Data",

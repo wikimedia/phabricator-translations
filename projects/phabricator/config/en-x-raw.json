@@ -300,6 +300,7 @@
 	"51b491c5b83d06d5": "Embed YouTube videos",
 	"51bc52c2a4f14f77": "Add One Path",
 	"522175083f0bf50b": "Clear Cache",
+	"5227342670984464": "Write access log here.",
 	"529480a3ec48c5bb": "Unignore this setup issue?",
 	"52a9d06229e19e34": "Configure Mail.",
 	"531800d5b47fd8dc": "You can update these %d value(s) here:",
@@ -945,6 +946,5 @@
 	"ff7c3b682dd28c68": "This change supports situations where users are incorrectly associated with commits because the software makes a bad guess about how the VCS string maps to a user account. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with features which rely on the existence of these identities.",
 	"ffafc69b32338313": "Unignore",
 	"ffe7186e725540d3": "Text values that match this regex and are also object names will not be linked.",
-	"ffffe9c78ef550b8": "%s Held / %sms",
-	"5227342670984464": "Write access log here."
+	"ffffe9c78ef550b8": "%s Held / %sms"
 }

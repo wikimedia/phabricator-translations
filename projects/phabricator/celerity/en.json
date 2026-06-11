@@ -8,7 +8,7 @@
 	"0f1ed7dfb63fc1e2": "Dark Mode (Experimental)",
 	"163ba1a9c26c97b1": "Use Larger Font Size",
 	"173eb35586900fd5": "Do not invoke `$1` after updating sprites",
-	"1ef1f25b6148dbd2": "Found $1 binary resources.",
+	"1ef1f25b6148dbd2": "Found {{PLURAL:$1|$1}} binary resources.",
 	"21cb4dca00942a97": "No resource with symbol \"$1\" exists in source \"$2\"!",
 	"2371af702826eab1": "Celerity",
 	"2e6ee0d3a1034bf1": "Package specification for \"$1\" includes \"$2\", but that symbol is not $3 by any resource.",
@@ -26,15 +26,15 @@
 	"a5dcf9b3422f14a3": "Resource source defines two resources with the same name, \"$1\". One is defined in the \"$2\" map; the other in the \"$3\" map. Each resource must have a unique name.",
 	"b1191c15b7b23ea8": "Resource \"$1\" does not have a header doc comment. Encode dependency data in a header docblock.",
 	"b8dcb7fb1787a65d": "Package specification for \"$1\" includes resources of multiple types ($2, $3). Each package may only contain one type of resource.",
-	"bf64f63e87e16ac3": "Rebuilding $1 resource source(s).",
+	"bf64f63e87e16ac3": "Rebuilding {{PLURAL:$1|$1}} resource source(s).",
 	"c044494ceffcac5f": "Force regeneration even no sources have changed.",
 	"c7084bd4c856466a": "Optimizing...",
-	"ca95d79472b5600e": "Found $1 text resources.",
+	"ca95d79472b5600e": "Found {{PLURAL:$1|$1}} text resources.",
 	"cd9aad37e951dff2": "Expected file '$1' in '$2' to be a sprite source ending in '$3'.",
 	"cf9d8c2551d59a7f": "Only static resources may be served.",
 	"d3909c664b071e68": "Rebuilding resource source \"$1\" ($2)...",
 	"d83f92dffe9f937b": "Resources name \"$1\" is not valid; it must contain only lowercase latin letters and digits.",
 	"e67706bfcfb95cf8": "Attempting to add more metadata after metadata has been locked.",
 	"f57fc09b17b11893": "Rebuild static resource maps.",
-	"fe5245cd89f00746": "Found $1 packages."
+	"fe5245cd89f00746": "Found $1 {{PLURAL:$1|packages}}."
 }

@@ -12,7 +12,7 @@
 	"428e98f8a5ea2cfb": "Create a Countdown",
 	"45dbae5b84397116": "Utilize the full capabilities of your ALU.",
 	"4918ffaa51eaba74": "Launched on $1",
-	"4cf8876bdc95feea": "Countdown titles must not be longer than $1 character(s).",
+	"4cf8876bdc95feea": "Countdown titles must not be longer than $1 {{PLURAL:$1|character(s}}).",
 	"50e0861a96dfb4b2": "No countdowns found.",
 	"523baab918efc25f": "Upcoming",
 	"543cbeb2456a6a93": "Someone comments on a countdown.",

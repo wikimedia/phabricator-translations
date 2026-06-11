@@ -64,7 +64,7 @@
 	"944233b727b66675": "Ancestors Of",
 	"96753320cc2abb9e": "$1 committed $2.",
 	"96b7337e26226675": "Find commits authored by particular users.",
-	"9fe3bd73a1e225e4": "Really delete these $1 audit(s)? They will be permanently deleted and can not be recovered.",
+	"9fe3bd73a1e225e4": "Really delete these $1 {{PLURAL:$1|audit(s}})? They will be permanently deleted and can not be recovered.",
 	"a06b4c5eadc3c5b5": "Someone comments on a commit.",
 	"a21cd1ee805284ef": "Find commits where given users, projects, or packages are responsible for the next steps in the audit workflow.",
 	"a22d0d5e8371d10d": "Hide Permanent Commits",

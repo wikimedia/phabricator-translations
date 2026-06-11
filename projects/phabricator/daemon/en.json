@@ -61,7 +61,7 @@
 	"56564dcb2a15c30e": "Seen",
 	"568ae0f9cfb6cd25": "This daemon is running normally and reported a status update recently (within $1). The process is currently waiting to restart, either because it is hibernating or because it encountered an error.",
 	"58e003f5e94108b6": "RELOAD",
-	"5b3316dfe485313a": "Freed $1 task lease(s).",
+	"5b3316dfe485313a": "Freed {{PLURAL:$1|1 task lease.|$1 task leases.}}",
 	"5d155655c6e23cea": "Print the logs for all daemons, or some daemon(s) identified by ID. You can get the ID for a daemon from the Daemon Console in the web interface.",
 	"5d9dd13a55a19012": "Lease Expires",
 	"60f4563be9b5aea2": "This daemon is running.",

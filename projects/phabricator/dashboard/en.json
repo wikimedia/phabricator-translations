@@ -60,7 +60,7 @@
 	"3de4e28d9c0866d3": "$1 changed the panels on this dashboard.",
 	"3f124d90f8d65330": "Each panel specification must be a map of panel attributes. Panel specification at index \"$1\" is \"$2\".",
 	"404c9ebc3c9e731e": "Change the dashboard icon.",
-	"4140cc320d139223": "To render more than $1 levels of panels nested inside other panels, purchase a subscription to $2 Gold.",
+	"4140cc320d139223": "To render more than $1 {{PLURAL:$1|levels}} of panels nested inside other panels, purchase a subscription to $2 Gold.",
 	"423548f4a7c88cd1": "Apply transactions to create a new dashboard panel or edit an existing one.",
 	"4286c041ce35aac9": "Two Columns: 66%/33%",
 	"4311f05194f6971e": "Query Panel",

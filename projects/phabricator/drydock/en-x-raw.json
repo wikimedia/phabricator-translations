@@ -101,6 +101,7 @@
 	"35a05cb7bc7a0284": "When this diff was generated, it was not pushed to staging for an unknown reason (the status code was \"%s\"). Changes must be pushed to staging before they can be landed from the web. The server may be running an out-of-date version of this software, and updating may provide more information about this error.",
 	"373d195d3864a66a": "Lease has already been released!",
 	"3768e45060e2454a": "Lease has been broken!",
+	"3795df01411ca466": "$ ./bin/drydock release-lease --id %d",
 	"384b3ac1ce4953a1": "Unable to parse argument to \"--until\".",
 	"3854a4903895b4f4": "This revision is already landing.",
 	"38b8b88a18445d85": "Hide Disabled Blueprints",

@@ -51,7 +51,7 @@
 	"7d6cbe92094c0814": "Show Only Active Credentials",
 	"7fd0257c136bc2e1": "This credential is already locked.",
 	"8116054768632d63": "This credential and its secret will no longer be able to be retrieved using the `$1` method in Conduit.",
-	"820dfebf41af18d9": "The username can be no longer than $1 characters.",
+	"820dfebf41af18d9": "The username can be no longer than $1 {{PLURAL:$1|characters}}.",
 	"872fc079b28438ff": "New Credential",
 	"8880740dc72fb636": "Create a Credential",
 	"89950c9c18f1aef5": "Passphrase",
