@@ -65,7 +65,7 @@
 	"837a6d5babee70d2": "Synchroniseren van \"$1\": \"$2\" -> \"$3\".",
 	"868e1d11c9258c65": "$1 heeft auditors bewerkt; toegevoegd: $2, verwijderd: $3.",
 	"897cad18ed85763e": "Geen audits komen overeen met de zoekopdracht.",
-	"8abbb8fa5daf85bb": "Commits zoeken die voorouders zijn van een bepaalde ref, zoals \"master\".",
+	"8abbb8fa5daf85bb": "Commits zoeken die voorouders zijn van een bepaalde ref, zoals \"main\".",
 	"90b303d7a0001685": "Post-commit codebeoordeling en auditing. Audits die aan u zijn toegewezen worden hier weergegeven.",
 	"944233b727b66675": "Voorouders van",
 	"96753320cc2abb9e": "$1 heeft $2 gecommit.",

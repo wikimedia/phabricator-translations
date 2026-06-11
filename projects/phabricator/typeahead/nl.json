@@ -12,7 +12,7 @@
 	"24725aa7bb11e312": "Functiehulp",
 	"276800c934e832a1": "Dit besturingselement ondersteunt geen typeahead-functies.",
 	"28449a5348d1d494": "Naast het typen van gebruikers- en projectnamen om query's te maken, kunt u ook de namen van speciale functies typen. Deze functies bieden u meer opties en de mogelijkheid om complexere zoekopdrachten uit te drukken.\n\nFuncties hebben een interne naam (zoals `$1`) en een leesbare naam, zoals `Current Viewer`. Over het algemeen kunt u een van beide typen om de functie te selecteren. U kunt ook op de knop {nav icon=search} in een typeahead-besturingselement klikken om door de beschikbare functies te bladeren en deze documentatie te vinden.\n\nDeze documentatie gebruikt de interne namen om duidelijk te maken waar tokens beginnen en eindigen. Specifiek vindt u query's die in de documentatie als volgt zijn uitgeschreven:\n\n$2\n\nWanneer deze zoekopdracht daadwerkelijk in het besturingselement wordt weergegeven, ziet deze er meer zo uit:\n\n$3",
-	"3ecdb4ea82e2c72e": "Ongeldige parameters",
+	"3ecdb4ea82e2c72e": "Incorrecte parameters",
 	"445f05dd9fa1f619": "Bronklasse",
 	"539b3475e6f40740": "Ruwe query",
 	"551b51aa4c4293ad": "Tokenresultaten ($1)",

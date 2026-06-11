@@ -12,7 +12,7 @@
 	"62242054e2063eb9": "Symbool $1 kan niet worden geladen: deze klasse bestaat niet.",
 	"63017d2cc8fa35f7": "De generator (\"$1\") kon geen object maken.",
 	"6ad21d0a2036d6e8": "OEPS",
-	"7b8d8ae984b43bbd": "Deze opdracht maakt synthetische testgegevens aan, waaronder gebruikersaccounts. Het is bedoeld voor gebruik in ontwikkelomgevingen, zodat u functies gemakkelijker kunt testen. Er is geen eenvoudige manier om deze gegevens te verwijderen of de effecten van deze opdracht ongedaan te maken. Als u deze opdracht in een productieomgeving uitvoert, zal uw data vervuild raken met grote hoeveelheden nutteloze rommel die u niet kunt verwijderen.",
+	"7b8d8ae984b43bbd": "Deze opdracht maakt synthetische testgegevens aan, waaronder gebruikersaccounts. Het is bedoeld voor gebruik in ontwikkelomgevingen, zodat u functies gemakkelijker kunt testen. Er is geen eenvoudige manier om deze gegevens te verwijderen of de effecten van deze opdracht ongedaan te maken. Als u deze opdracht in een productieomgeving uitvoert, raken uw gegevens vervuild met grote hoeveelheden nutteloze rommel die u niet kunt verwijderen.",
 	"8cd3cac1380eb4ec": "Synthetische testobjecten aanmaken.",
 	"8d767bf5b72373d1": "klasse",
 	"90a51575c9bd4563": "Maak continu synthetische testobjecten aan. Gebruik ^C om te stoppen wanneer u tevreden bent.",
