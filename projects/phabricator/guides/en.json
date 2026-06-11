@@ -17,12 +17,12 @@
 	"6bb896b77607ac76": "Your invitations have been accepted. You will not be alone on this journey.",
 	"6fe26b1373ab767d": "You've configured at least one authentication provider.",
 	"76018fc96e754bd4": "Short Tutorials",
-	"7bed49546c4f7ce3": "If you're new to this software, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.",
 	"7e11e4c66d7f235a": "You've created at least one repository.",
 	"929a28d261428029": "Guides",
 	"9996bca0cdf61984": "Learn how to configure mail and other options.",
 	"9f99c9fd6e043aff": "Invite the rest of your team to get started.",
 	"a1867bd6bfd5b2ad": "User Account Settings",
+	"adc4b9b96d3b8dc2": "If you're new to $1, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.",
 	"b3bd51b127ff1311": "You've adjusted at least one setting on your account.",
 	"b42a237a5f96cad0": "Real-time notifications can be delivered with WebSockets.",
 	"b5a15bad1cc08996": "Personalize your Install",
@@ -33,5 +33,6 @@
 	"e7643788502a37ce": "Notification Server",
 	"f023a66281396c8e": "Resolve Setup Issues",
 	"f80e61793246923f": "Authentication providers allow users to register accounts and log in.",
-	"fa9a5794e77589de": "You've resolved (or ignored) all outstanding setup issues."
+	"fa9a5794e77589de": "You've resolved (or ignored) all outstanding setup issues.",
+	"fd6c3ebf7befca9f": "Install"
 }

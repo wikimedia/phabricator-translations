@@ -42,6 +42,7 @@
 	"2208e282e34d3837": "Register this host even if keys already exist on disk.",
 	"222ebe28a3e0c1fe": "Interface PHID.",
 	"225be99d8f41a78e": "Path to a private key for the host.",
+	"22c03352030eca94": "%s set the network for this interface to %s.",
 	"24c24fc9572da044": "Drydock: Resource Pool",
 	"251eb85e3955ab9c": "Search for bindings on particular services.",
 	"26bf751ef21f6147": "Add Binding",

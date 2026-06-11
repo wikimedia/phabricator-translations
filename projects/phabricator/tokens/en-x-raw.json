@@ -1,5 +1,6 @@
 {
 	"02f99a0b10e068c7": "Piece of Eight",
+	"067423a261b42b6a": "This object is temporary and cannot receive tokens.",
 	"2000c6b6040ccc65": "All Tokens Given",
 	"201f624acb6e2323": "Mountain of Wealth",
 	"2ce276d1fbcefd61": "Grey Medal",
@@ -22,8 +23,8 @@
 	"7443ee8e00eee7c6": "Browse Tokens",
 	"79b935aff01680a7": "Award \"%s\" Token",
 	"8312380092c7f465": "No such object \"%s\"!",
-	"86dd58072b7d45f9": "Give or change a token.",
 	"8affa8effd7087ec": "Heartbreak",
+	"905e25f50135aca9": "Must pass a valid PHID for parameter \"%s\".",
 	"92067d0a6956462b": "Cup of Joe",
 	"92ac6af0a94994fb": "Orange Medal",
 	"9d5454484602327b": "Token used",
@@ -53,6 +54,7 @@
 	"e4f81994fed009c2": "Cookie",
 	"e50ed88c9d3e9183": "Pirate Logo",
 	"efc984777fe5a4e1": "Dislike",
+	"f24eb2c9481bfc80": "Give or change or remove a token.",
 	"f3943b58e9305bb3": "Pterodactyl",
 	"f3a6e824712881ae": "The user who gave a token can always edit it.",
 	"fc9b01f4c7f69ea5": "Award and Acquire Trinkets"

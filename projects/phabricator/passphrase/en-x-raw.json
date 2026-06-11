@@ -56,6 +56,7 @@
 	"8880740dc72fb636": "Create a Credential",
 	"89950c9c18f1aef5": "Passphrase",
 	"8d644d8678e18a64": "Query credentials.",
+	"8d6df3f4e29fa300": "Search for credentials with given authors.",
 	"9493cfd062592ea1": "SSH Private Key File",
 	"964b7465a72c2d24": "Credentials must have a name.",
 	"96e379c53b07c20c": "Credential has no public key!",

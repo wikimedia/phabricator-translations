@@ -6,5 +6,10 @@
 	},
 	"10b6fba9ee332699": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$20 RemarkupProcessConduitAPIMethod.php:20]",
 	"12835cebb13e60cf": "Phabricator uses a lightweight markup language called \"Remarkup\", similar to other lightweight markup languages like Markdown and Wiki markup.\n\nMessage used in: [https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$14 RemarkupProcessConduitAPIMethod.php:14]",
-	"6321788d1438c68a": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$19 RemarkupProcessConduitAPIMethod.php:19]"
+	"416ad63bff4c913b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/content/RemarkupReferenceMentionModule.php$11 RemarkupReferenceMentionModule.php:11]",
+	"68ee63b9d8ead261": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/controller/PhorgeRemarkupReferenceController.php$49 PhorgeRemarkupReferenceController.php:49]",
+	"a8a15633ea16ebd4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/controller/PhorgeRemarkupReferenceController.php$42 PhorgeRemarkupReferenceController.php:42]",
+	"b568d47f2e244743": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/controller/PhorgeRemarkupReferenceRuleController.php$79 PhorgeRemarkupReferenceRuleController.php:79]",
+	"cf0eb13a01b88ef6": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/conduit/RemarkupProcessConduitAPIMethod.php$19 RemarkupProcessConduitAPIMethod.php:19]",
+	"db1c784524e1b540": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/remarkup/application/PhorgeRemarkupReferenceApplication.php$6 PhorgeRemarkupReferenceApplication.php:6]"
 }

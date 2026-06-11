@@ -43,6 +43,7 @@
 	"8986b526af942a79": "Read-only mode was enabled by the explicit action of a human administrator, so you can get more information about why it has been turned on by rolling your chair away from your desk and yelling \"Hey! Why is %s in read-only mode??!\" using your very loudest outside voice.",
 	"89fe6d3157dc3d41": "DATA WILL BE PERMANENTLY DESTROYED",
 	"90ce40dfd99492ff": "Choose Highlighting",
+	"91374fc379d1cbf6": "View full transaction history",
 	"9c38843bf5ae7d7c": "Advanced/Developer...",
 	"9fd307ba96635163": "This may happen if there is a temporary network anomaly on the server side, like cosmic radiation or spooky ghosts. If this failure was caused by a transient service interruption, this server will recover momentarily.",
 	"a01298c69d2f368b": "Objects will be permanently destroyed. There is no way to undo this operation or ever retrieve this data unless you maintain external backups.",

@@ -35,7 +35,7 @@
 	"5cd8fb9211d7b0c4": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiTarantinoRoaTara.php$13 TranslateWikiTarantinoRoaTara.php:13]",
 	"5fd8185cd3e671dc": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiAsturianAst.php$13 TranslateWikiAsturianAst.php:13]",
 	"61993b11845d3a84": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiBelarusianBe.php$14 TranslateWikiBelarusianBe.php:14]",
-	"70cca40d69431794": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$106 TranslatewikiManagementExportWorkflow.php:106]",
+	"70cca40d69431794": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementExportWorkflow.php$106 TranslatewikiManagementExportWorkflow.php:106]",
 	"714a05aa4c0c09ed": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiSerbianSrEc.php$17 TranslateWikiSerbianSrEc.php:17]",
 	"7452cc2aa29bba69": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/management/TranslatewikiManagementRoundtripWorkflow.php$93 TranslatewikiManagementRoundtripWorkflow.php:93]",
 	"74ad93cbebf587ac": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator-translations/browse/wmf%252Fstable/src/locales/TranslateWikiRussianRu.php$14 TranslateWikiRussianRu.php:14]",
