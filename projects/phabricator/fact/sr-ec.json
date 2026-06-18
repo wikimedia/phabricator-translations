@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Milicevic01",
 			"Zenfiric"
 		]
 	},
 	"45e147abd920eeb1": "Димензија",
-	"5ded511d57b0065b": "$1ms",
+	"5ded511d57b0065b": "{{PLURAL:$1|$1ms}}",
 	"7d6e797167bf385b": "$1 (трансакција)"
 }

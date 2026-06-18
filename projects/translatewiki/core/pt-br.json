@@ -6,9 +6,7 @@
 		]
 	},
 	"0294e4a93c79fe48": "Forneça o caminho para uma biblioteca para exportar traduções de.",
-	"057a91bd9d909212": "Não foi possível extrair a string com o padrão \"%\" não reconhecido, \"$1\": $2.",
 	"0654a028e5aea48c": "NENHUM",
-	"124328edcc87415b": "Forneça um código de localidade com \"--locale\".",
 	"17b6d98715597264": "Ignorando a string \"$1\"; não está presente no arquivo de origem da tradução.",
 	"2c22da08dc82f0ba": "Forneça o caminho para exatamente uma biblioteca para exportar as traduções.",
 	"38877d794cbf1943": "Forneça um nome de projeto para exportar sequências de caracteres com \"--as\".",
@@ -20,7 +18,6 @@
 	"5641f04d9980459c": "Forneça um nome de classe com \"--class\".",
 	"70cca40d69431794": "Lê $1 texto(s).",
 	"7516972ad3f67814": "Nome da classe para gerar.",
-	"79e0ecf9d32e5b43": "Dados de frequência",
 	"7c0edb1e7c0dcf2a": "Forneça um arquivo de origem JSON com \"--source\".",
 	"8657976c47adf8f2": "Gere um classfile de tradução do Phabricator.",
 	"8941bccc95e2dd69": "Arquivo de origem JSON contendo cadeias de caracteres de tradução.",

@@ -22,6 +22,7 @@
 	"7b1c6f1c1209a55f": "Server beendet!",
 	"7e9983dfa7bad024": "Starte den Benachrichtigungsserver im Vordergrund und gib große Mengen an Diagnoseinformationen auf der Konsole aus.",
 	"8bc94a976bc4b3a4": "Zeigt den Status des Benachrichtigungsservers an.",
+	"9842684281972986": "Aphlict ($1) läuft.",
 	"ac84f97164a13e1b": "Gib mit \"--user\" einen Benutzer an, der benachrichtigt werden soll.",
 	"b8842a8dde980ec6": "In der Konfigurationsdatei sind keine Client-Server angegeben. Ohne einen Client-Server kann dieser Dienst keine Benachrichtigungen übermitteln. Du musst mindestens einen Server mit dem Typ \"$1\" angeben.",
 	"c3e64797a0f467cd": "Zu sendende Nachricht.",
@@ -32,6 +33,5 @@
 	"e9b8eb62ee46ecb8": "Benachrichtigung gesendet.",
 	"ecdb8b581842b4d5": "Verwende eine bestimmte Konfigurationsdatei anstelle der Standardkonfiguration.",
 	"ef767ed0bf9b70c0": "Aphlict Server wurde gestartet.",
-	"f1570b670f1047c5": "Aphlict Server wird gestoppt ($1) ...",
-	"9842684281972986": "Aphlict ($1) läuft."
+	"f1570b670f1047c5": "Aphlict Server wird gestoppt ($1) ..."
 }

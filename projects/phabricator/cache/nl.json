@@ -7,6 +7,7 @@
 	"07b18e8f8d3474fe": "$1 is niet beschikbaar; het is niet mogelijk om de gecomprimieerde gegevens te lezen!",
 	"083e9daf755017eb": "APCu",
 	"13076d6ccfbf2ed8": "Selecteer de caches die u wilt wissen met \"--all\" of \"--caches\". Beschikbare caches zijn: $1.",
+	"1974584536275217": "APCu uitgeschakeld",
 	"1c11716c8513cacd": "De APCu PHP-uitbreiding is geïnstalleerd, maar niet ingeschakeld in uw PHP-configuratie. Het inschakelen van deze uitbreiding verbetert de prestaties. Bewerk de instelling \"$1\" om deze uitbreiding in te schakelen.",
 	"2276b761f4e9b232": "OPcache is niet correct geconfigureerd voor ontwikkeldoeleinden.",
 	"30eab4800596ed9d": "Algemene cache (TTL)",
@@ -41,6 +42,5 @@
 	"e4a248050fdc6dae": "Gegevens laden mislukt!",
 	"e7693b42de4308ff": "Zend OPcache",
 	"ea785c9d610450b7": "Het inschakelen van OPcache verbetert de prestaties aanzienlijk.",
-	"f0912c6b33cd9048": "Het inschakelen van APCu verbetert de prestaties.",
-	"1974584536275217": "APCu uitgeschakeld"
+	"f0912c6b33cd9048": "Het inschakelen van APCu verbetert de prestaties."
 }

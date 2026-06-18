@@ -7,7 +7,7 @@
 	},
 	"00c94cc9d03ac122": "Iwwerpréift an ännert d'Konfiguratiounsastellungen.",
 	"00fcdda14949d42c": "Oder:",
-	"02e8104f1f15520d": "$1 / $2",
+	"02e8104f1f15520d": "{{PLURAL:$1|$1}} / {{PLURAL:$2|$2}}",
 	"1f35bf416fd15494": "($1$2) $3",
 	"5a77699e8640e420": "Net aktivéiert",
 	"733fd2b4c4e1bca4": "Konstant",
@@ -17,6 +17,7 @@
 	"ac9041e76816a34a": "Automatesch",
 	"c15fa4b758d35cc9": "Einfacht Beispill",
 	"c8fef35bb0051188": "Erweidert Astellungen",
+	"d485fb1b8a1e4854": "{{PLURAL:$1|$1}} Aktiv",
 	"ed5170cd339b4047": "Benotzeruewerfläch",
-	"fa93b5c548088b1d": "D'Optioun „$1“ ass geféierlech laang fir en Datebankprefix a MySQL/MariaDB. Den aktuelle Wäert huet eng Längt vun $2 Zeechen. Se sollt manner wéi $3 si fir virun zukünftegen Ännerunge sécher ze sinn."
+	"fa93b5c548088b1d": "D'Optioun „$1“ ass geféierlech laang fir en Datebankprefix a MySQL/MariaDB. Den aktuelle Wäert huet eng Längt vun $2 Zeechen. Se sollt manner wéi {{PLURAL:$3|$3}} sinn, fir virun zukünftegen Ännerunge sécher ze sinn."
 }

@@ -15,7 +15,7 @@
 	"6faa4218ab931e0d": "Ongelezen meldingen",
 	"6fe51d8fad2a6ea4": "Bericht verzenden mislukt: dit is geen beheerdersserver!",
 	"771e05f27b99fd59": "Losgekoppeld",
-	"7a54c1fcde926d84": "$1 melding(en) over objecten die niet meer bestaan of die u niet meer kunt zien, zijn verwijderd.",
+	"7a54c1fcde926d84": "{{PLURAL:$1|Eén melding over een object dat niet meer bestaat of dat u niet meer kunt zien, is|$1 meldingen over objecten die niet meer bestaan of die u niet meer kunt zien, zijn}} verwijderd.",
 	"7c97fc57d0663517": "De instelling van de meldingenserver beschrijft een ongeldige host (\"$1\", op index \"$2\") met een onbekend type (\"$3\"). Geldige typen zijn \"$4\" of \"$5\".",
 	"7d9171c083b45e5c": "De instelling van de meldingenserver beschrijft een incorrecte host (\"$1\", op index \"$2\") met een incorrect protocol (\"$3\"). Geldige protocollen zijn \"$4\" of \"$5\".",
 	"7f02a61559647c50": "Geen meldingen om als gelezen te markeren.",

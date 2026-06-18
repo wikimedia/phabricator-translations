@@ -28,6 +28,7 @@
 	"8bc94a976bc4b3a4": "Mostra l'estat del servidor de notificacions.",
 	"8d93b1b51e918a37": "El fitxer de configuració no especifica cap servidor.  Aquest servei no podrà interactuar amb el món exterior si no escolta cap port.  Heu d'especificar com a mínim un servidor «$1» i almenys un servidor «$2».",
 	"90a12173d6f5b1b1": "Inicia el servidor de notificacions.",
+	"9842684281972986": "S'està executant Aphlict ($1).",
 	"98c6c6c1b5b17ce4": "Usuari per notificar.",
 	"9c283944e8b5c91f": "Atureu-vos i inicieu el servidor de notificacions.",
 	"a301322c9af125fc": "No s'ha pogut llegir el fitxer de configuració.  $1",
@@ -46,6 +47,5 @@
 	"ee81643336bc9027": "L'arxiu de configuració especifica el parell de clústers (\"$1\", a l'índex \"$2\") amb un protocol no vàlid, \"$3\".  Els protocols vàlids són «$4» o «$5».",
 	"ef767ed0bf9b70c0": "S'ha iniciat el servidor Aphlict.",
 	"f1570b670f1047c5": "Aturant el servidor Aphlict ($1)...",
-	"f9bbe9286badce6f": "No s'ha pogut crear el directori «$1» per al fitxer PID especificat. Hauríeu de crear manualment aquest directori o triar una ubicació diferent del fitxer PID.  $2",
-	"9842684281972986": "S'està executant Aphlict ($1)."
+	"f9bbe9286badce6f": "No s'ha pogut crear el directori «$1» per al fitxer PID especificat. Hauríeu de crear manualment aquest directori o triar una ubicació diferent del fitxer PID.  $2"
 }

@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"00a40022dc45b0d7": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/extensions/installer/ExtensionInstallGit.php$16 ExtensionInstallGit.php:16]",
 	"01878d2165b59da7": "Variable Types: NONE, NONE, NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/extensions/management/PhorgeShowFromStoreExtensionsWorkflow.php$53 PhorgeShowFromStoreExtensionsWorkflow.php:53]",
 	"0436044ead02f146": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/extensions/installer/PhorgeExtensionInstallerStrategy.php$62 PhorgeExtensionInstallerStrategy.php:62]",

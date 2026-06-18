@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
-	"5c0c8d78301081a9": "Prototyyppi"
+	"3698f98c8cd65106": "Näytä käyttöönotetut sovellukset",
+	"50830806ec501289": "Käyttöönotettua sovellusta ei voi ottaa käyttöön.",
+	"5c0c8d78301081a9": "Prototyyppi",
+	"5f00fc7cf178b3c6": "Haluatko varmasti poistaa sovelluksen käytöstä?"
 }

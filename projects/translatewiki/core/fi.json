@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"0654a028e5aea48c": "EI MITÄÄN",
+	"70cca40d69431794": "Lue $1 {{PLURAL:$1|merkkijono.|merkkijonoa.}}",
+	"7452cc2aa29bba69": "Alkuperäinen:",
 	"e2bcda84facb3954": "Valmis.",
 	"f3514b3c6942c1c2": "MONIKKO"
 }

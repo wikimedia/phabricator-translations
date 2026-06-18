@@ -5,7 +5,6 @@
 		]
 	},
 	"021493f340d35ce0": "Ressource",
-	"02c57c62390693ad": "Vis detaljer",
 	"067abc6283425787": "Lease $1",
 	"07efddd49946ef8e": "Frigiv en lease.",
 	"0fea2e6654c82810": "Ressourcetype.",
@@ -33,7 +32,6 @@
 	"9cc4c46bd4e05ca7": "Ressource $1 $2",
 	"a12b59dd7d39c842": "Allerede fuldendt",
 	"ac135710e4a86663": "Opdaterer ressourcen \"$1\".",
-	"ad239f502e64ab42": "$1 aktiverede $2.",
 	"b24ef8c7cc03f171": "Lease",
 	"bbd2c190ec7a433d": "Opdater en lease.",
 	"c6fb86c455cd2687": "Venter på aktivering",

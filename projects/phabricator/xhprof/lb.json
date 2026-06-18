@@ -6,6 +6,6 @@
 		]
 	},
 	"3f84ef531f9db996": "Symbol",
-	"600c86c5195dfe24": "$1 μs",
+	"600c86c5195dfe24": "$1 {{PLURAL:$1|μs}}",
 	"68d5ced71e82cd17": "$1 Profil"
 }

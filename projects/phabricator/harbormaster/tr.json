@@ -215,6 +215,7 @@
 	"47272a007af9ba7e": "Bu hedefin hiçbir ortak eseri yok.",
 	"47b3671314c23e0b": "Yapı Durumlarını Seç",
 	"483d8baa025f826e": "",
+	"4849845564862163": "Hedefin oluşturduğu yapı adımı.",
 	"48747f5f1c9ca20c": "Yeni Adım: $1",
 	"48a2a5049b64b986": "Bu yapı planı, yapı planında mevcut olan dairesel bağımlılıklar nedeniyle yürütüldüğünde kilitlenecektir. Adım listesini inceleyin ve kilitlenmeyi giderin.",
 	"496bd42d652e555e": "Bu eski günlükte gerekli oluşturma verileri eksik. Render verilerini yeniden oluşturmak için şunu çalıştırın: $1",
@@ -691,6 +692,5 @@
 	"fe88c6fac900555d": "Bu derlemedeki ilerleme atılacak ve derleme yeniden başlayacaktır. Yapının yan etkileri tekrar ortaya çıkacaktır. Gerçekten yapıyı yeniden başlatılsın mı?",
 	"fea1d610091ad318": "Yapılabilir duruma göre yapıları arayın.",
 	"ff7d3857c92dd1bd": "Yapıları İptal Et",
-	"ffe9ec3c447ccd54": "Ana Bilgisayardan Yükle",
-	"4849845564862163": "Hedefin oluşturduğu yapı adımı."
+	"ffe9ec3c447ccd54": "Ana Bilgisayardan Yükle"
 }

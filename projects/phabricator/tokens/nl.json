@@ -5,6 +5,7 @@
 		]
 	},
 	"02f99a0b10e068c7": "Spaanse dollar",
+	"067423a261b42b6a": "Dit object is tijdelijk en kan geen tokens ontvangen.",
 	"2000c6b6040ccc65": "Alle gegeven tokens",
 	"201f624acb6e2323": "Berg van rijkdom",
 	"2ce276d1fbcefd61": "Grijze medaille",
@@ -27,8 +28,8 @@
 	"7443ee8e00eee7c6": "Tokens bekijken",
 	"79b935aff01680a7": "\"$1\"-token toekennen",
 	"8312380092c7f465": "Object \"$1\" bestaat niet!",
-	"86dd58072b7d45f9": "Een token geven of wijzigen.",
 	"8affa8effd7087ec": "Gebroken hart",
+	"905e25f50135aca9": "De parameter \"$1\" moet een bestaande PHID zijn.",
 	"92067d0a6956462b": "Bakkie koffie",
 	"92ac6af0a94994fb": "Oranje medaille",
 	"9d5454484602327b": "Gebruikt token",
@@ -58,6 +59,7 @@
 	"e4f81994fed009c2": "Koekje",
 	"e50ed88c9d3e9183": "Piratenlogo",
 	"efc984777fe5a4e1": "Vind ik niet leuk",
+	"f24eb2c9481bfc80": "Een token geven, wijzigen of verwijderen.",
 	"f3943b58e9305bb3": "Pterodactylus",
 	"f3a6e824712881ae": "De gebruiker die een token heeft gegeven, kan het altijd bewerken.",
 	"fc9b01f4c7f69ea5": "Snuisterijen toekennen en verzamelen"

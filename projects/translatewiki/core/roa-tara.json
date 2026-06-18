@@ -5,9 +5,7 @@
 		]
 	},
 	"0294e4a93c79fe48": "Dèje 'u percorse a 'na libbrerie da addò esportà le traduziune.",
-	"057a91bd9d909212": "Non ge riesche a estratte 'a stringhe cu 'u pattern scanusciute \"%\", \"$1\": $2.",
 	"0654a028e5aea48c": "NONE",
-	"124328edcc87415b": "Dèje 'nu codece locale cu \"--locale\".",
 	"17b6d98715597264": "Stoche a cache a stringhe \"$1\"; non g'è presente jndr'à 'u file sorgende d'a traduzione.",
 	"2c22da08dc82f0ba": "Dèje 'u percorse precisamende a 'na libbrerie da addò esportà le traduziune.",
 	"38877d794cbf1943": "Dèje 'nu nome a 'u pruggette pe esportà stringhe sotte cu \"--as\".",
@@ -19,7 +17,6 @@
 	"5641f04d9980459c": "Dèje 'nu classname cu \"--class\".",
 	"70cca40d69431794": "Lìgge $1 stringhe.",
 	"7516972ad3f67814": "Nome d'a classe da generà.",
-	"79e0ecf9d32e5b43": "Frequenze d'u date",
 	"7c0edb1e7c0dcf2a": "Dèje 'nu file sorgende JSON cu \"--source\".",
 	"8657976c47adf8f2": "Genere 'nu classfile de traduzione de Phabricator.",
 	"8941bccc95e2dd69": "File sorgende JSON ca tène le stringhe de traduzione.",

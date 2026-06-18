@@ -60,12 +60,12 @@
 	"7405cf0c3534b464": "要配置Slack OAuth，在此创建新的应用程序：\n\nhttps://api.slack.com/docs/sign-in-with-slack#create_slack_app\n\n当创建您的应用程序时，请使用这些设置：\n\n  - **重定向URI：**将此设置为：“$1”\n\n在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来配置客户端密钥。）",
 	"790fa6145f9d5b89": "“$1”账户",
 	"7b66c2d59b36bad1": "注销？",
+	"81f2997b8d6f7ceb": "**第2/2步——配置OAuth服务器**\n\n要配置OAuth，请在此创建新的应用程序：\n\n$1/oauthserver/client/create/\n\n当创建您的应用程序时，请使用这些设置：\n\n  - **重定向URI：**将此设置为“$2”\n\n在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来生成客户端密钥。）",
 	"893e26b5cbc31f3a": "OAuth应用ID",
 	"9f1ca732e99864c2": "OAuth客户端“$1”已被信任。",
 	"adc4d67aabd39ede": "**第2步，共2步**：在此步骤中，您将会配置JIRA。\n\n**创建一个JIRA应用程序**：Log into JIRA and go to **Administration**, then **Add-ons**, then **Application Links**. Click the button labeled **Add Application Link**, and use these settings to create an application:\n\n  - **Server URL**: `$1`\n  - Then, click **Next**. On the second page:\n  - **Application Name**: `$2`\n  - **Application Type**: `Generic Application`\n  - Then, click **Create**.\n\n**Configure Your Application**: Find the application you just created in the table, and click the **Configure** link under **Actions**. Select **Incoming Authentication** and click the **OAuth** tab (it may be selected by default). Then, use these settings:\n\n  - **Consumer Key**: Set this to the \"Consumer Key\" value in the form above.\n  - **Consumer Name**: `$3`\n  - **Public Key**: Set this to the \"Public Key\" value in the form above.\n  - **Consumer Callback URL**: `$4`\nClick **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.",
 	"b4ea437c98c09ec9": "已恢复一般安全性",
 	"d527bf3db3dc8af6": "登录",
 	"da91c401e6f2b112": "您刚刚进行身份验证的外部服务（“$1”）未配置为允许在此服务器上登录。管理员最近可能禁用了它。",
-	"db5f7f275fe9cd24": "**第2/2步——配置OAuth服务器**\n\n要配置OAuth，请在此创建新的应用程序：\n\n$1/oauthserver/client/create/\n\n当创建您的应用程序时，请使用这些设置：\n\n  - **重定向URI：**将此设置为“$2”\n\n在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来生成客户端密钥。）",
 	"eb5a5df035b45a29": "$1账户"
 }

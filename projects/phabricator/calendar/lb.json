@@ -99,7 +99,7 @@
 	"c4fec33be39a90aa": "Beschäftegt bis $1.",
 	"c616eb61b6597bee": "Evenement änneren: $1",
 	"c6952e8d94a0e45a": "D'Evenement annuléieren oder restauréieren.",
-	"c98f907db879d5e3": "Private Benotzer $1",
+	"c98f907db879d5e3": "Private Benotzer {{PLURAL:$1|$1}}",
 	"c9ef6a42b1b463c5": "Dëst Evenement widderhëlt sech all Dag.",
 	"d0ac476e560d4a97": "Ännere bis wéini sech d'Evenement widderhëlt.",
 	"d31edb7b8a94bbaf": "All Mount",

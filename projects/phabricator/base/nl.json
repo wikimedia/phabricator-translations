@@ -12,8 +12,7 @@
 	"71a5993ec4612869": "Kerntoepassingen",
 	"78d67090ef36b075": "Geen toepassing!",
 	"7a1c0a74305daaaf": "Toepassing $1",
-	"b0608ab1bd963593": "Ontwikkelaarshulpmiddelen",
 	"d8c88db363a66211": "Het verzoek bevat de beperkte parameter \"$1\", maar deze staat voor deze controller (\"$2\") niet op de toelatingslijst. Dit verzoek wordt niet gehonoreerd omdat het onderdeel kan zijn van een doorverwijzingsaanval.",
 	"d9b9a15e87d0d955": "Onbekende mogelijkheid ‘$1’!",
-	"e5d6af967c265e3f": "Kan geen transactiequery vinden voor object van klasse “$1”."
+	"e5d6af967c265e3f": "Kan geen transactiezoekopdracht vinden voor object van klasse “$1”."
 }

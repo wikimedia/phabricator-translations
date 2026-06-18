@@ -6,9 +6,7 @@
 		]
 	},
 	"0294e4a93c79fe48": "Da'l camín a una biblioteca de la qu'esportar traducciones",
-	"057a91bd9d909212": "Nun pudo estrayese la cadena col patrón nun reconocíu «%», «$1»: $2.",
 	"0654a028e5aea48c": "NENGÚN",
-	"124328edcc87415b": "Da un códigu de locale con «--locale».",
 	"17b6d98715597264": "Inórase la cadena «$1»; nun ta presente nel ficheru d'orixe de la traducción.",
 	"2c22da08dc82f0ba": "Da'l camín a exautamente una biblioteca de la qu'esportar traducciones",
 	"38877d794cbf1943": "Da'l nome d'un proyectu baxo'l qu'esportar les cadenes con «--as».",
@@ -20,7 +18,6 @@
 	"5641f04d9980459c": "Da un nome de clase con «--class».",
 	"70cca40d69431794": "Lleída $1 cadena(es)",
 	"7516972ad3f67814": "Nome de clase a xenerar.",
-	"79e0ecf9d32e5b43": "Datos de frecuencia",
 	"7c0edb1e7c0dcf2a": "Da un ficheru fonte en JSON con «--source».",
 	"8657976c47adf8f2": "Xenerar un ficheru de clase de traducción de Phabricator.",
 	"8941bccc95e2dd69": "Ficheru fonte en JSON que contién cadenes de traducción.",

@@ -8,6 +8,5 @@
 	},
 	"473a2b8ae0fda34b": "Kann Programm konfigurieren",
 	"5065c3a197c9ae53": "Kann Program benutzen",
-	"b0608ab1bd963593": "Entwicklerwerkzeuge",
 	"d8c88db363a66211": "Die Anfrage enthält den eingeschränkten Parameter \"$1\", jedoch steht dieser Controller (\"$2\") nicht auf der Whitelist. Die Anfrage wird nicht bearbeitet, weil sie Teil eines Umleitungsangriffs sein könnte."
 }

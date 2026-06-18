@@ -29,6 +29,7 @@
 	"8bc94a976bc4b3a4": "Status van de meldingenserver weergeven.",
 	"8d93b1b51e918a37": "Het configuratiebestand specificeert geen servers. Deze dienst kan niet met de buitenwereld communiceren als er geen poorten zijn ingesteld. U moet minimaal één \"$1\"-server en minimaal één \"$2\"-server specificeren.",
 	"90a12173d6f5b1b1": "Start de meldingenserver.",
+	"9842684281972986": "Aphlict ($1) wordt uitgevoerd.",
 	"98c6c6c1b5b17ce4": "Te informeren gebruiker.",
 	"9c283944e8b5c91f": "Stop de meldingenserver en start deze vervolgens opnieuw.",
 	"a301322c9af125fc": "Het lezen van het configuratiebestand is mislukt. $1",
@@ -47,6 +48,5 @@
 	"ee81643336bc9027": "Het configuratiebestand specificeert een clusterpeer (\"$1\", op index \"$2\") met een onjuist protocol, \"$3\". Correcte protocollen zijn \"$4\" of \"$5\".",
 	"ef767ed0bf9b70c0": "Applict Server gestart.",
 	"f1570b670f1047c5": "Aphlict Server wordt gestopt ($1)...",
-	"f9bbe9286badce6f": "Het is niet gelukt om de map \"$1\" aan te maken voor het opgegeven PID-bestand. U moet deze map handmatig aanmaken of een andere locatie voor het PID-bestand kiezen. $2",
-	"9842684281972986": "Aphlict ($1) wordt uitgevoerd."
+	"f9bbe9286badce6f": "Het is niet gelukt om de map \"$1\" aan te maken voor het opgegeven PID-bestand. U moet deze map handmatig aanmaken of een andere locatie voor het PID-bestand kiezen. $2"
 }

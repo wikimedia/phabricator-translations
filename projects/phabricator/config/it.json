@@ -7,7 +7,7 @@
 		]
 	},
 	"00fcdda14949d42c": "O:",
-	"02e8104f1f15520d": "$1 / $2",
+	"02e8104f1f15520d": "{{PLURAL:$1|$1}} / {{PLURAL:$2|$2}}",
 	"1f35bf416fd15494": "($1$2) $3",
 	"24131f3e1ac0aa6b": "Foto",
 	"28e22fe3dde53ce0": "Clienti",
@@ -24,7 +24,7 @@
 	"ba8f0ec3bc0712af": "Configura $1",
 	"bcd939e4e0cf37d5": "Indefinito",
 	"c5de61ee3345f29c": "$1.$2 ($3)",
-	"db4d6848484d7048": "$1 Dentro / $2 Fuori",
+	"db4d6848484d7048": "{{PLURAL:$1|$1}} Dentro / {{PLURAL:$2|$2}} Fuori",
 	"e85fac6647247c00": "$1.$2",
 	"e880bd97d80e61c9": "$1.$2.$3",
 	"f42ebadef9811c77": "Vedi \"$1\""

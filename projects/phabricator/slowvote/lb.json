@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"0370b3c2ebef0246": "Ëmfro zoumaachen",
@@ -13,5 +14,5 @@
 	"633f6e8b851aad01": "Äntwerten",
 	"c643db620cf41204": "Ëmfro uleeën",
 	"d29371fa9269ad3b": "Keng Ëmfroe fonnt.",
-	"f3f94b43fe08990a": "Äntwert $1"
+	"f3f94b43fe08990a": "Äntwert {{PLURAL:$1|$1}}"
 }

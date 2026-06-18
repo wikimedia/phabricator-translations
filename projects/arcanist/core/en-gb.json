@@ -30,7 +30,6 @@
 	"9ee2fa9e91f91fe1": "The format of user symbol \"$1\" is unrecognised. Expected a username like \"alice\" or \"@alice\", or a user PHID, or a user ID, or a special function like \"viewer()\".",
 	"a314e76180e2a1bb": "The format of symbol \"$1\" is unrecognised. Expected a monogram like \"X123\", or an ID like \"123\", or a PHID.",
 	"a6974353a16efd4f": "Unrecognised lint message code \"$1\". Expected a valid cpplint lint code like \"$2\" or \"$3\".",
-	"a93e03fc29d7f475": "Unrecognised lint message code \"$1\". Expected a valid PEP8 lint code like \"$2\" or \"$3\".",
 	"aa69b4b5fac7b98c": "Unrecognised lint message code \"$1\". Expected a valid flake8 lint code like \"$2\", or \"$3\", or \"$4\", or \"$5\".",
 	"ab2656d4a0e398ac": "PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
 	"af5e1ee12fd327ba": "Amend the working copy, synchronising the local commit message.",

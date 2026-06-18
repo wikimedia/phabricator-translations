@@ -227,6 +227,7 @@
 	"47272a007af9ba7e": "Cette cible n’a aucun artéfact associé.",
 	"47b3671314c23e0b": "Choisir les états de construction",
 	"483d8baa025f826e": "Recherche de cibles commencées à une date donnée ou avant.",
+	"4849845564862163": "L’étape de construction exécutée par la cible.",
 	"48747f5f1c9ca20c": "Nouvelle étape : $1",
 	"48a2a5049b64b986": "Ce plan de construction se bloquera en impasse lors de son exécution, en raison des dépendances circulaires présentes dans le plan de construction. Examinez la liste des étapes et résolvez cette impasse.",
 	"496bd42d652e555e": "Ce journal plus ancien n’a pas les données de rendu nécessaires. Pour reconstruire les données de rendu, exécutez : $1",
@@ -730,6 +731,5 @@
 	"fe88c6fac900555d": "La progression sur cette construction sera abandonnée et la construction recommencera. Les effets secondaires de cette construction se produiront à nouveau. Vraiment redémarrer la construction ?",
 	"fea1d610091ad318": "Recherche des constructions par état du constructible.",
 	"ff7d3857c92dd1bd": "Abandonner les constructions",
-	"ffe9ec3c447ccd54": "Téléverser depuis un hôte",
-	"4849845564862163": "L’étape de construction exécutée par la cible."
+	"ffe9ec3c447ccd54": "Téléverser depuis un hôte"
 }

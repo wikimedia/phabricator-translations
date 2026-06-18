@@ -5,13 +5,12 @@
 			"Pppery"
 		]
 	},
-	"00e46c015f972018": "Matrika s seznamom nenameščenih aplikacij.",
 	"0146637b5690e538": "Stolpec/ključ",
-	"040e16f265374486": "POMEMBNO: Predhodni tok ne zagotavlja podpore za prototipne aplikacije.\n\nPhabricator vključuje prototipne aplikacije, ki so v **zgodnji fazi razvoja**. Privzeto prototipne aplikacije niso nameščene, ker pogosto še niso dovolj razvite, da bi bile splošno uporabne. To možnost lahko omogočite, da jih namestite, če razvijate Phabricator ali vas zanima predogled prihajajočih funkcij.\n\nČe želite izvedeti več o prototipih, glejte [[$1|$2]].\n\nKo omogočite prototipe, jih lahko selektivno odstranite (kot običajne aplikacije).",
 	"0424f6e7026fa4bc": "Tabela",
 	"04a9722d5549564f": "Alternativni URI-ji, ki lahko dostopajo do Phabricatorja.",
 	"08d550a8f0afc436": "Ni povezave do e-poštnih nastavitev",
 	"0b8e953c1065714c": "Nobena aktivna shramba nima izrazitih napak.",
+	"0ba0f967d6182220": "Matrika s seznamom nenameščenih aplikacij.",
 	"0bb18642b70b9f8a": "Uporaba",
 	"0dac4143d9108818": "Format dnevnika dostopa.",
 	"0f1d4d6100e6f455": "Napake shrambe",
@@ -25,6 +24,7 @@
 	"2c7e23ee7e2ea298": "Konfiguriran ni noben strežnik za obvestila.",
 	"31ad59c1a6781855": "Prepreči urejanje",
 	"3324e0bffe4d35b8": "Upravitelji izjem",
+	"38333888d6db7e7e": "POMEMBNO: Predhodni tok ne zagotavlja podpore za prototipne aplikacije.\n\nPhabricator vključuje prototipne aplikacije, ki so v **zgodnji fazi razvoja**. Privzeto prototipne aplikacije niso nameščene, ker pogosto še niso dovolj razvite, da bi bile splošno uporabne. To možnost lahko omogočite, da jih namestite, če razvijate Phabricator ali vas zanima predogled prihajajočih funkcij.\n\nČe želite izvedeti več o prototipih, glejte [[$1|$2]].\n\nKo omogočite prototipe, jih lahko selektivno odstranite (kot običajne aplikacije).",
 	"534e2f855629f6c5": "Strežniki obvestil",
 	"5a39b8d96817ec46": "Omogoča vam, da na večino strani dodate nogo s povezavami. Te povezave boste morda želeli uporabiti za usmeritev na pravne informacije ali stran o projektu.\n\nDoločite seznam slovarjev. Vsak slovar opisuje element noge. Podprti so naslednji ključi:\n\n - »name« – ime elementa.\n - »href« – izbirno cilj povezave elementa. To lahko izpustite, če želite samo besedilo, na primer obvestilo o avtorskih pravicah.",
 	"5e1baf49edcb4323": "Manjka razširitev »$1«",

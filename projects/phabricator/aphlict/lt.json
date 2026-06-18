@@ -18,6 +18,7 @@
 	"8bc94a976bc4b3a4": "Rodyti pranešimų serverio būseną.",
 	"8d93b1b51e918a37": "Konfigūracijos failas nenurodo jokių serverių. Ši paslauga negalės sąveikauti su išoriniu pasauliu, jei neklausys jokiuose prievaduose. Turite nurodyti bent vieną „$1“ serverį ir bent vieną „$2“ serverį.",
 	"90a12173d6f5b1b1": "Paleisti pranešimų serverį.",
+	"9842684281972986": "Aphlict ($1) veikia.",
 	"98c6c6c1b5b17ce4": "Naudotojas, kuriam pranešti.",
 	"9c283944e8b5c91f": "Sustabdyti, tada paleisti pranešimų serverį.",
 	"a301322c9af125fc": "Nepavyko nuskaityti konfigūracijos failo. $1",
@@ -31,6 +32,5 @@
 	"e9b8eb62ee46ecb8": "Išsiųstas pranešimas.",
 	"ef767ed0bf9b70c0": "Aphlict serveris paleistas.",
 	"f1570b670f1047c5": "Stabdomas Aphlict serveris ($1)...",
-	"f9bbe9286badce6f": "Nepavyko sukurti katalogo „$1“ nurodytam PID failui. Turėtumėte rankiniu būdu sukurti šį katalogą arba pasirinkti kitą PID failo vietą. $2",
-	"9842684281972986": "Aphlict ($1) veikia."
+	"f9bbe9286badce6f": "Nepavyko sukurti katalogo „$1“ nurodytam PID failui. Turėtumėte rankiniu būdu sukurti šį katalogą arba pasirinkti kitą PID failo vietą. $2"
 }

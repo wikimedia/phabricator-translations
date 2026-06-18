@@ -7,6 +7,7 @@
 	"07b18e8f8d3474fe": "$1 no està disponible; impossible llegir dades sense comprimir.",
 	"083e9daf755017eb": "APCu",
 	"13076d6ccfbf2ed8": "Seleccioneu la caché a purgar amb \"--all\" o \"--caché\". Les cachés disponibles són: $1.",
+	"1974584536275217": "APC/APCu desactivat",
 	"1c11716c8513cacd": "Les extensions APC o APCu de PHP estan instal·lades, però no estan habilitades en la configuració de PHP. Si activeu aquestes extensions es millorarà el rendiment del Phabricator. Edita el paràmetre «$1» per habilitar aquestes extensions.",
 	"2276b761f4e9b232": "OPcache no està configurat correctament per al desenvolupament.",
 	"30eab4800596ed9d": "Caché general (TTL)",
@@ -41,6 +42,5 @@
 	"e4a248050fdc6dae": "Fracàs en el desenvolupament de dades!",
 	"e7693b42de4308ff": "Zend OPcache",
 	"ea785c9d610450b7": "Habilitar OPcache millorarà dramàticament el rendiment.",
-	"f0912c6b33cd9048": "L'habilitació d'APC/APCu millorarà el rendiment.",
-	"1974584536275217": "APC/APCu desactivat"
+	"f0912c6b33cd9048": "L'habilitació d'APC/APCu millorarà el rendiment."
 }

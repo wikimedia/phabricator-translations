@@ -30,10 +30,8 @@
 	"364510ec222f5a9a": "Anpassade projektfält.",
 	"3aa87b6f1d237319": "Projekt som redigeras",
 	"3c4eea10e5ca4baf": "Överordnade projekt",
-	"4e76b7791d60cb3d": "Lade till projekt",
 	"60ba019503bfecea": "Projektrapporter",
 	"747dc3fcacb76188": "Kan skapa projekt",
-	"7c7df3bdb599a76a": "Lägg till relaterade projekt.",
 	"7f50e823886c0a18": "Ta bort projekt",
 	"91b99cba6d2b7a32": "$1 tog bort $2 projekt från $3: $4.",
 	"a3947ca968a5c144": "Medlemmar: ...",
@@ -47,6 +45,5 @@
 	"d0e66dfbbabec996": "Lägg till projekttaggar.",
 	"e33e8cb84b1402fb": "Ändra projekttaggar",
 	"ec8622a6d609a4fa": "Lägg till projekt: $1.",
-	"f72039a55c1a8525": "Ta bort projekt",
 	"fb91d6c1c7b153c2": "Spela ljud"
 }

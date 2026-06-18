@@ -25,6 +25,7 @@
 	"8bc94a976bc4b3a4": "Az értesítő kiszolgáló állapotának megjelenítése.",
 	"8d93b1b51e918a37": "A konfigurációs fájl nem specifikál szervereket. Ez a szolgáltatás nem lesz képes kapcsolatba lépni a külvilággal, ha nem hallgatózik egyetlen porton sem. Meg kell adnia legalább egy \"$1\" kiszolgálót és legalább egy \"$2\" kiszolgálót.",
 	"90a12173d6f5b1b1": "Indítsa el az értesítőkiszolgálót.",
+	"9842684281972986": "Aphlict ($1) fut.",
 	"9c283944e8b5c91f": "Állítsd le, majd indítsd el az értesítőkiszolgálót.",
 	"a301322c9af125fc": "A konfigurációs fájl olvasása sikertelen. $1",
 	"a8721c186dac05cb": "Naplók írása: $1",
@@ -36,6 +37,5 @@
 	"ecdb8b581842b4d5": "Használjon speciális konfigurációs fájlt az alapértelmezett konfiguráció helyett.",
 	"ef767ed0bf9b70c0": "Elindult az Aphlict kiszolgáló.",
 	"f1570b670f1047c5": "Aphlict kiszolgáló leállítása ($1)...",
-	"f9bbe9286badce6f": "Nem sikerült létrehozni a \"$1\" könyvtárat a megadott PID-fájlhoz. Kézzel hozza létre ezt a könyvtárat, vagy válasszon másik PID-fájl helyette. $2",
-	"9842684281972986": "Aphlict ($1) fut."
+	"f9bbe9286badce6f": "Nem sikerült létrehozni a \"$1\" könyvtárat a megadott PID-fájlhoz. Kézzel hozza létre ezt a könyvtárat, vagy válasszon másik PID-fájl helyette. $2"
 }

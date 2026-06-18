@@ -4,9 +4,9 @@
 			"Danielyepezgarces"
 		]
 	},
+	"1974584536275217": "APC/APCu deshabilitado",
 	"2276b761f4e9b232": "OPcache no está configurado correctamente para el desarrollo.",
 	"30eab4800596ed9d": "Caché general (TTL)",
 	"cc596197b9e02cb2": "Purgando el caché \"$1\"...",
-	"e7693b42de4308ff": "OPcache de Zend",
-	"1974584536275217": "APC/APCu deshabilitado"
+	"e7693b42de4308ff": "OPcache de Zend"
 }

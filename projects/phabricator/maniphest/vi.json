@@ -5,7 +5,6 @@
 		]
 	},
 	"00c7859ed071e887": "Tạo Nhiệm vụ",
-	"012360fe106fa9cb": "Tốc độ hoàn thành",
 	"013ec284eed0cb93": "Phân loại",
 	"013ffcc0bfc10d89": "Xác định các loại tác vụ phụ.",
 	"018f8c914cdf6df4": "$1 đã huỷ phân công nhiệm vụ này cho $2.",
@@ -76,7 +75,6 @@
 	"26efb66fa9f8b6f9": "Trạng thái \"$1\" được đánh dấu là mặc định, nhưng thực chất là trạng thái đóng. Trạng thái mặc định phải là trạng thái mở.",
 	"272aade3d8ec7e85": "[Maniphest]",
 	"27bbd0acd08c0023": "$1 đã hạ mức độ ưu tiên của $2 từ $3 xuống $4.",
-	"2807ec88d6e599d6": "Tham số \"fullText\" không còn được hỗ trợ nữa. Thay vào đó, hãy sử dụng phương thức \"maniphest.search\" với ràng buộc \"query\".",
 	"28d95cf572f3964b": "Tìm kiếm các nhiệm vụ theo trạng thái đã định.",
 	"28f76e0ce7e32abb": "Nhiệm vụ có phiên bản",
 	"2a94388b61fdf833": "Gỡ rối ngay!",
@@ -180,5 +178,6 @@
 	"6cd7c5ea2e162967": "$1 đã tạo ra nhiệm vụ này.",
 	"6d7a30a931a35ef0": "Tìm kiếm...",
 	"6dced365a38c9d5f": "Biểu đồ nhiệm vụ",
-	"6ff33102b1c6673c": "Danh sách mong muốn"
+	"6ff33102b1c6673c": "Danh sách mong muốn",
+	"85ae503e90184988": "Tham số \"fullText\" không còn được hỗ trợ nữa. Thay vào đó, hãy sử dụng phương thức \"maniphest.search\" với ràng buộc \"query\"."
 }

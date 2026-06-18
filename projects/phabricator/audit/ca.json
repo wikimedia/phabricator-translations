@@ -9,7 +9,6 @@
 	"09aadb07f34da95b": "Cerca validacions amb identificadors particulars (normalment, hash). Admet identificadors parcials o complets (com ara \"abcd12340987 ...\" o \"abcd1234\") i identificadors qualificats o no qualificats (com \"rXabcd1234\" o \"abcd1234\").",
 	"0de6d35bf080350d": "$1 ha renunciat a fer l'auditoria de $2.",
 	"0e9a10954f2571c8": "La data màxima especificada ha de venir després de la data mínima especificada.",
-	"0eb70949c203d567": "Modificació de les validacions del projecte.",
 	"13aa8b61f579a044": "$1 ha afegit subscriptors: $2.",
 	"1520661844a5a8d1": "Sol·licituds d'auditoria de consultes.",
 	"187ef68794fc1dd6": "Especifiqueu \"--all\" per afectar-ho tot, o una llista de validacions o repositoris específics per afectar.",

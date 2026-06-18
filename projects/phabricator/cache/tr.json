@@ -8,6 +8,7 @@
 	"07b18e8f8d3474fe": "$1 mevcut değil; sönük veriler okunamıyor!",
 	"083e9daf755017eb": "APCu",
 	"13076d6ccfbf2ed8": "\"--all\" veya \"--caches\" ile temizlemek için önbellekleri seçin. Kullanılabilir önbellekler: $1.",
+	"1974584536275217": "APCu Devre Dışı Bırakıldı",
 	"1c11716c8513cacd": "APCu PHP uzantısı yüklü, ancak PHP yapılandırmanızda etkin değil. Bu uzantıyı etkinleştirmek performansı artıracaktır. Bu uzantıyı etkinleştirmek için \"$1\" ayarını düzenleyin.",
 	"2276b761f4e9b232": "OPcache geliştirme için düzgün yapılandırılmamış.",
 	"30eab4800596ed9d": "Genel Önbellek (TTL)",
@@ -42,6 +43,5 @@
 	"e4a248050fdc6dae": "Veri şişirilemedi!",
 	"e7693b42de4308ff": "Zend OPcache",
 	"ea785c9d610450b7": "OPcache'nin etkinleştirilmesi performansı önemli ölçüde artıracaktır.",
-	"f0912c6b33cd9048": "APCu'nun etkinleştirilmesi performansı artıracaktır.",
-	"1974584536275217": "APCu Devre Dışı Bırakıldı"
+	"f0912c6b33cd9048": "APCu'nun etkinleştirilmesi performansı artıracaktır."
 }

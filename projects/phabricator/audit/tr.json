@@ -12,7 +12,6 @@
 	"09aadb07f34da95b": "Belirli tanımlayıcılara (genellikle karma) sahip taahhütler bulun. Tam veya kısmi tanımlayıcıları (\"abcd12340987...\" veya \"abcd1234\" gibi) ve nitelikli veya niteliksiz tanımlayıcıları (\"rXabcd1234\" veya \"abcd1234\" gibi) destekler.",
 	"0de6d35bf080350d": "$1, $2 denetiminden istifa etti.",
 	"0e9a10954f2571c8": "Belirtilen maksimum tarih, belirtilen minimum tarihten sonra gelmelidir.",
-	"0eb70949c203d567": "Bir taahhüdün projeleri değişir.",
 	"13aa8b61f579a044": "$1 abone ekledi: $2.",
 	"1520661844a5a8d1": "Sorgu denetimi istekleri.",
 	"187ef68794fc1dd6": "Her şeyi etkilemek için \"--all\" veya etkilenecek belirli taahhütlerin veya depoların bir listesini belirtin.",

@@ -30,6 +30,7 @@
 	"8bc94a976bc4b3a4": "Afficher l’état du serveur de notification.",
 	"8d93b1b51e918a37": "Le fichier de configuration ne spécifie aucun serveur. Ce service ne pourra pas interagir avec le monde extérieur s’il n’écoute aucun port. Vous devez spécifier au moins un serveur « $1 » et au moins un serveur « $2 ».",
 	"90a12173d6f5b1b1": "Démarrer le serveur de notifications.",
+	"9842684281972986": "Aphlict ($1) tourne.",
 	"98c6c6c1b5b17ce4": "Utilisateur à notifier.",
 	"9c283944e8b5c91f": "Arrêter, puis démarrer le serveur de notifications.",
 	"a301322c9af125fc": "Échec de lecture du fichier de configuration. $1",
@@ -48,6 +49,5 @@
 	"ee81643336bc9027": "Le fichier de configuration spécifie un pair de grappe (« $1 », à l’index « $2 ») avec un protocole non valide, « $3 ». Les protocoles valides sont « $4 » ou « $5 ».",
 	"ef767ed0bf9b70c0": "Serveur Aphlict démarré.",
 	"f1570b670f1047c5": "Arrêt du serveur Aphlict ($1)…",
-	"f9bbe9286badce6f": "Échec de création du répertoire « $1 » pour le fichier de PID spécifié. Vous devez créer manuellement ce répertoire ou choisir un emplacement de fichier de PID différent. $2",
-	"9842684281972986": "Aphlict ($1) tourne."
+	"f9bbe9286badce6f": "Échec de création du répertoire « $1 » pour le fichier de PID spécifié. Vous devez créer manuellement ce répertoire ou choisir un emplacement de fichier de PID différent. $2"
 }

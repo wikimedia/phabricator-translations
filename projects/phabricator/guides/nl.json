@@ -22,12 +22,12 @@
 	"6bb896b77607ac76": "Uw uitnodigingen zijn geaccepteerd. Uw bent niet alleen op deze reis.",
 	"6fe26b1373ab767d": "U hebt ten minste één authenticatieprovider geconfigureerd.",
 	"76018fc96e754bd4": "Korte handleidingen",
-	"7bed49546c4f7ce3": "Als u nog niet bekend bent met deze software, kunnen deze optionele stappen u helpen de basisprincipes te leren. Voel u vrij om alles naar eigen wens in te stellen en deze functies in uw eigen tempo te ontdekken.",
 	"7e11e4c66d7f235a": "U hebt minstens één repository aangemaakt.",
 	"929a28d261428029": "Gidsen",
 	"9996bca0cdf61984": "Leer hoe u e-mail en andere opties instelt.",
 	"9f99c9fd6e043aff": "Nodig de rest van uw team uit om mee te doen.",
 	"a1867bd6bfd5b2ad": "Gebruikersaccountinstellingen",
+	"adc4b9b96d3b8dc2": "Als u nog niet bekend bent met $1, kunnen deze optionele stappen u helpen de basisprincipes te leren. Voel u vrij om alles naar eigen wens in te stellen en deze functies in uw eigen tempo te ontdekken.",
 	"b3bd51b127ff1311": "U hebt ten minste één instelling in uw account gewijzigd.",
 	"b42a237a5f96cad0": "Realtime meldingen kunnen via WebSockets worden verzonden.",
 	"b5a15bad1cc08996": "Personaliseer uw installatie",
@@ -38,5 +38,6 @@
 	"e7643788502a37ce": "Meldingenserver",
 	"f023a66281396c8e": "Installatieproblemen oplossen",
 	"f80e61793246923f": "Authenticatieproviders stellen gebruikers in staat accounts te registreren en aan te melden.",
-	"fa9a5794e77589de": "U hebt alle openstaande installatieproblemen opgelost (of genegeerd)."
+	"fa9a5794e77589de": "U hebt alle openstaande installatieproblemen opgelost (of genegeerd).",
+	"fd6c3ebf7befca9f": "Installeren"
 }

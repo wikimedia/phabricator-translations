@@ -1,8 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pppery"
+		]
 	},
-	"007590c1cd808d4a": "Variable Types: NONE, PLURAL, NONE, PLURAL, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$58 ConpherenceThreadParticipantsTransaction.php:58]",
+	"007590c1cd808d4a": "{{phabricator edge type|tplural}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$58 ConpherenceThreadParticipantsTransaction.php:58]",
 	"02f47fb34831fb55": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/ConpherenceTransactionRenderer.php$177 ConpherenceTransactionRenderer.php:177]",
 	"084f66f5247a2022": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/editor/ConpherenceEditEngine.php$91 ConpherenceEditEngine.php:91]",
 	"0ac4659d3e4d707c": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/controller/ConpherenceUpdateController.php$269 ConpherenceUpdateController.php:269]",
@@ -59,14 +61,14 @@
 	"73eb55ec7817d2a3": "Variable Types: PLURAL.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/view/ConpherenceParticipantView.php$93 ConpherenceParticipantView.php:93]",
 	"74ef7e9206e63cd6": "Variable Types: NONE, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadPictureTransaction.php$24 ConpherenceThreadPictureTransaction.php:24]",
 	"76f453d343cd6254": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/controller/ConpherenceViewController.php$194 ConpherenceViewController.php:194]",
-	"7931c67bc6874162": "Variable Types: NONE, PLURAL, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$74 ConpherenceThreadParticipantsTransaction.php:74]",
+	"7931c67bc6874162": "{{phabricator edge type|tsingular}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$74 ConpherenceThreadParticipantsTransaction.php:74]",
 	"7945e9d93877c1aa": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/view/ConpherenceThreadListView.php$113 ConpherenceThreadListView.php:113]",
 	"7a913eaae63dd764": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/controller/ConpherenceRoomListController.php$32 ConpherenceRoomListController.php:32]\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/editor/ConpherenceEditEngine.php$45 ConpherenceEditEngine.php:45]",
 	"7ca80e6bc217790e": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/controller/ConpherenceUpdateController.php$285 ConpherenceUpdateController.php:285]",
 	"7d54dca3eead4351": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/conduit/ConpherenceQueryTransactionConduitAPIMethod.php$34 ConpherenceQueryTransactionConduitAPIMethod.php:34]",
 	"7d7231307963e914": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/editor/ConpherenceEditEngine.php$92 ConpherenceEditEngine.php:92]",
 	"7e13bd176f89a12f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/editor/ConpherenceEditEngine.php$100 ConpherenceEditEngine.php:100]",
-	"7e796b5ac953990a": "Variable Types: NONE, PLURAL, NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$80 ConpherenceThreadParticipantsTransaction.php:80]",
+	"7e796b5ac953990a": "{{phabricator edge type|tsingular}}\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/xaction/ConpherenceThreadParticipantsTransaction.php$80 ConpherenceThreadParticipantsTransaction.php:80]",
 	"7fdb54c18ff20c59": "Variable Types: NONE.\nUsed in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/controller/ConpherenceController.php$185 ConpherenceController.php:185]",
 	"80d1e02d2842d943": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/policyrule/ConpherenceThreadMembersPolicyRule.php$15 ConpherenceThreadMembersPolicyRule.php:15]",
 	"8517db9dd6315e88": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/conpherence/editor/ConpherenceEditEngine.php$33 ConpherenceEditEngine.php:33]",

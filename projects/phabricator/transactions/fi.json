@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"0299b7949e1cbffd": "$1 lisäsi kommentin.",
@@ -43,6 +44,7 @@
 	"9fe8ef67bc24802f": "MUOKKAA TIETOJA",
 	"aa755391313419df": "(Näytä tiedot)",
 	"ee03eb259b90548a": "Haluatko silti julkaista kommenttisi?",
+	"ef00cd8c39ae4188": "{{PLURAL:$1|Toimenpiteellä|Toimenpiteillä}} ei ole vaikutusta",
 	"f21129e792ad44d6": "Tämä kommentti poistettiin käyttäjän $1 toimesta.",
 	"ff145ddc79509ae0": "$1 poisti $2 tilaaja(a): $3."
 }

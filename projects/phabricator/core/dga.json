@@ -44,7 +44,6 @@
 	"792c81a4cfdcb5b4": "Leɛre",
 	"7a22d73d336abd62": "Gyɛnoɔre",
 	"7e36502c1b399482": "Neŋ fo waabo ko $1!",
-	"7eb8465f2368634a": "Fo taa la MySQL vɛɛseŋ koroo (naŋ kore gaŋ 5.5) naŋ ba teɛ a utf8mb4 waaloŋ sɛte. Te na yeli ka zɛge o do eŋ 5.5 bee bompaalaa.\n\nKa foŋ paale adgyɛsement pampana kyɛ zɛge MySQL do eŋ 5.5 a puoriŋ bee bompaalaa, a na seŋ ka fo la paale adgyɛsement la maale (lɛ na a na di la wagere yaga).\n\nFo na baŋ bare la lɛ a toma ŋa naŋ kyɛnɛ, zɛge MySQL do pampana, kyɛ la leɛ e a toma ŋa la maale. Ŋa la a kaairuu, kyɛ na baŋ wane puori leɛbo pampana ŋa zaa.\n\nFo na baŋ bare la lɛ a toma ŋa naŋ kyɛnɛ, can exit this workflow, kyoge tona ne a sɔtwaɛ ŋa ka fo ba paale adgyɛsement, zɛge MySQL do a baaroo puori, kyɛ pãã e a toma ŋa la maale. Ŋa meŋ e la da-soŋ, o na vɛŋ la ka fo di wagere te ta a puoriŋ.\n\nFo na baŋ gɛrɛ la niŋe ne a toma kyɛmbo ŋa, kyɛ pãã e meŋɛ zɛge duobo MySQL a puoriŋ. Ka foŋ wa e, a na seŋ ka fo paale adgyɛsement la maale.\n\nKa foŋ wa boɔrɔ yɛlɛ yaga, nyɛ \"Managyiŋ stɔɔragye adgyɛsemet\" a sɛgere poɔ.",
 	"805c3d6943e4adbe": "Susɛɛse",
 	"87206ae236348349": "Ɔɔtoorebare",
 	"88e2d3daf79a6b62": "A sɛva ŋa e la kannoo yoŋ waaloŋ (koŋ baŋ pɔge Masa).",
@@ -71,6 +70,5 @@
 	"ebf0f0c994f6a7db": "A sɛɛva be la kanne-yoŋ moodi (daatabaasi sɛgere zaa ba e kofigere).",
 	"ec5531c3e867dad3": "Sommo yizie",
 	"f1f07ef5c1eb357d": "A JSON-bonpɔgere.",
-	"fd6c3ebf7befca9f": "De-emmo",
 	"feeaf50c5ec762c8": "A ɛrɔɔ ama mine yi la sikyiima kpaare(taabol mine bee kɔlɔm a saseɛ miri ŋa naŋ ba boɔrɔ). Ama ba e nimizeɛ. Yɛlɛ kyaare neŋ a maaloo, nyɛ a '' kpaabo sikiima'' zie a '' managyin bimmo zɛgebo'' atikili dokumetere."
 }

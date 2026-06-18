@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Moj",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"0402fe5e15b200a7": "Hallitse käyttäjää",
@@ -23,7 +24,6 @@
 	"3095ca88d109037a": "[$1] Käyttäjänimi muutettu",
 	"315d77e6f0d040b8": "Käyttäjän oikea nimi.",
 	"31dad2e865f469b1": "Piilota postituslistat",
-	"323a032511a11096": "Käyttäjä ei ole mukana yhdessäkään projektissa.",
 	"334904d98dfdb21f": "Liittynyt ennen",
 	"35b3af2e385092cb": "Tee käyttäjätilistä ylläpitotili.",
 	"35e573ffab6a2e2c": "Voi luoda ei-bottikäyttäjiä",
@@ -57,7 +57,6 @@
 	"5b7dcd14a4faa2cd": "käyttäjät",
 	"5f38c2b87329fd38": "Käyttäjäprofiili",
 	"6345b3a4fde47ce6": "$1 poisti tämän käyttäjän käytöstä.",
-	"64314c70d7a0770a": "Poista käyttäjä käytöstä",
 	"681b5b5ae10b994e": "Saatavuus",
 	"68941ae5f1c3c276": "sähköpostit",
 	"690bc2e7d1cee800": "Kirjaudu: Vika",
@@ -76,7 +75,6 @@
 	"909bf3e80731a458": "Tallenna profiili",
 	"92d0e65449810eaa": "Käyttäjätilit",
 	"9460344217d7db97": "Luo standardi käyttäjätili.",
-	"9466f509685e3f2b": "Näytä vain käytöstä poistetut käyttäjät",
 	"973ed06fc58a3167": "Muokkaa profiilia: $1",
 	"9778204166e095f3": "Tee ylläpitäjä",
 	"9b5641a96c41d7fe": "Kuka tahansa",
@@ -99,6 +97,8 @@
 	"b77755b0ae2bc810": "Sähköpostia ei ole vahvistettu!",
 	"b8cf0aa8aaed8fb7": "Sähköposti on jo luotu!",
 	"b8fc1450c62d174c": "Vanha käyttäjänimi",
+	"ba745e5d258c2a9f": "Piilota käytöstä poistetut käyttäjätunnukset",
+	"bb27a5b70748f484": "Poista tili käytöstä",
 	"c1faabc1d40aaf24": "$1 hylkäsi tämän käyttäjän.",
 	"c33ff01f3b013690": "Sinun täytyy olla ylläpitäjä hyväksyäksesi käyttäjiä.",
 	"c4aff31a83bb2341": "Vakooja",
@@ -117,8 +117,10 @@
 	"dfc994a872ffcda8": "Luo uusi postituslista",
 	"e43d612e11f1568f": "Kirjaudu ulos",
 	"e5f789bb17cae4b4": "Sähköpostia ei ole vielä luotu!",
+	"e6105aa05cb0c13b": "Poistetaanko käyttäjätunnus käytöstä?",
 	"ed2610e9d1945355": "Kutsut",
 	"ed7e09ad1efa8821": "Näytä vain ylläpitäjät",
+	"f0ff9eb7edfebd77": "Näytä vain käytöstä poistetut käyttäjätunnukset",
 	"f3afff1f70d65daa": "Uusi käyttäjänimi",
 	"f6a628af1a94ddfe": "$1 ($2) on vaihtanut $3-käyttäjänimesi.",
 	"f98db0153727189a": "Käyttäjä alkaen",
