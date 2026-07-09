@@ -1,7 +1,7 @@
 <?php
 
 /**
- * TranslateWiki Locale for Hindi localization in Phabricator
+ * TranslateWiki Locale for Malay localization in Phabricator
  */
 final class TranslateWikiMalayMs extends PhutilLocale {
 

@@ -7,11 +7,11 @@ final class TranslateWikiBelarusianBe extends PhutilLocale {
   use SlavicPluralTrait;
 
   public function getLocaleCode() {
-    return 'be_Tarask';
+    return 'be';
   }
 
   public function getLocaleName() {
-      return pht('Belarusian (Belarus)');
+    return pht('Belarusian');
   }
 
 }
