@@ -10,6 +10,7 @@ final class PhabricatorCoreNe
   protected function getTranslations() {
     return array(
   'Question' => 'प्रश्न',
+  'Format' => 'ढाँचा',
   'Favorites' => 'मनपर्दो',
   'Custom' => 'अनुकूल',
   'Tasks' => 'कार्यहरू',
@@ -139,7 +140,6 @@ final class PhabricatorCoreNe
   'No results found.' => 'कुनै नतिजाहरू भेटिएनन्',
   'Examples' => 'उदाहरणहरू',
   'Date' => 'मिति',
-  'Item' => 'सामग्री',
   'Required' => 'आवश्यक',
   'Save' => 'सङ्ग्रह गर्नुहोस्',
   'View All' => 'सबै हेर्नुहोस्',

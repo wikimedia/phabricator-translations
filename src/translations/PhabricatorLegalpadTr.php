@@ -9,10 +9,27 @@ final class PhabricatorLegalpadTr
 
   protected function getTranslations() {
     return array(
+  '%s:
+
+This email address was used to sign a Legalpad document in %s:
+
+  %s
+
+Please verify you own this email address and accept the agreement by clicking this link:
+
+  %s
+
+Your signature is not valid until you complete this verification step.
+
+You can review the document here:
+
+  %s
+' => '',
   'All Signatures' => 'Tüm İmzalar',
   'Unverified Email' => 'Doğrulanmamış E-posta',
   'Create New Document' => 'Yeni Belge Oluştur',
   'Type of signature required' => 'Gerekli imza türü',
+  'Only administrators may change whether a document requires a signature.' => '',
   'Signed At' => 'İmzalı',
   'Signature Type' => 'İmza Türü',
   '%s updated the document signature type.' => '%s belge imza türünü güncelledi.',
@@ -29,10 +46,16 @@ final class PhabricatorLegalpadTr
   'Document Title.' => 'Belge Başlığı.',
   'A valid email is required.' => 'Geçerli bir e-posta gerekli.',
   'Only documents with signature type "individual" may require signing to log in.' => 'Yalnızca imza türü "bireysel" olan belgelere oturum açmak için imza atılması gerekebilir.',
+  'Document signers' => 'Belge imzacıları',
   'Unable to Verify Signature' => 'İmza Doğrulanamadı',
+  'Legalpad Document Body' => 'Legalpad Belge Gövdesi',
   'Signed By' => 'İmzalayan',
+  'Read information about legalpad document signatures.' => '',
+  'All Documents' => 'Tüm Belgeler',
+  'Get the full content for each document.' => 'Get the full içerik for each belge.',
   'Contact Email' => 'İletişim E-posta',
   'Document Body' => 'Belge Gövdesi',
+  'The PHID of the signer' => '',
   'Contact name is required.' => 'İletişim adı gerekli.',
   'No signatures match the query.' => 'Sorguyla eşleşen imza yok.',
   'Interacting with Legalpad Documents' => 'Legalpad Belgeleriyle Etkileşim',
@@ -48,15 +71,19 @@ final class PhabricatorLegalpadTr
   'Email Contains' => 'E-posta İçeriyor',
   'Signature Already Verified' => 'İmza Zaten Doğrulandı',
   'You do not have permission to create new documents.' => 'Yeni belgeler oluşturma izniniz yok.',
+  'This user who created this document' => 'Bu kullanıcı who oluşturmad this belge',
   'This document has an unknown signature type ("%s").' => 'Bu belgede bilinmeyen bir imza türü var ("%s").',
   '[Legalpad]' => '[Legalpad]',
   'The name used by the signer.' => 'İmzalayanın kullandığı isim.',
   'Legalpad Documents' => 'Legalpad Belgeleri',
   'Legalpad Signatures' => 'Legalpad İmzaları',
   'You signed this document on %s.' => 'Bu dokümanı %s imzaladınız.',
+  'Create documents and track signatures.' => '',
   'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Bu belgeyi imzaladığınız için teşekkür ederiz. İmzanızı doğrulamak ve işlemi tamamlamak için lütfen e-postanızı kontrol edin.',
   'Last Updated' => 'Son Güncelleme',
+  'Read information about legalpad documents.' => 'Read inbiçimion about legalpad belges.',
   'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => 'Bu belge kurumsal bir imza sahibi gerektiriyor. Temsil ettiğiniz bir şirket adına bu belgeyi kabul etmek için giriş yapmalısınız.',
+  'Search for documents created after a certain date.' => '',
   'Not Signable' => 'İmzalanamaz',
   'Signed' => 'İmzalanmış',
   'The signature is now verified.' => 'İmza şimdi doğrulandı.',
@@ -64,6 +91,7 @@ final class PhabricatorLegalpadTr
   'Signature Required to Log In' => 'Oturum Açmak İçin İmza Gerekli',
   'Legalpad' => 'Legalpad',
   'View/Sign Document' => 'Belgeyi Görüntüle/İmzala',
+  'Legalpad Signature' => 'Legalpad İmzası',
   'Mail receiver is not a LegalpadDocument!' => 'Posta alıcısı LegalpadDocument değil!',
   'You must choose a user to exempt.' => 'Muaf tutulacak bir kullanıcı seçmelisiniz.',
   'You have already signed this document!' => 'Bu belgeyi zaten imzaladınız!',
@@ -103,9 +131,14 @@ final class PhabricatorLegalpadTr
   'The preamble of the document.' => 'Belgenin başlangıç sayfası.',
   '%s set the document to require signatures.' => '%s belgeyi imza gerektirecek şekilde ayarlardı.',
   'Individuals' => 'Bireyler',
+  'Whether or not this signature is an exemption' => '',
+  'Search for signatures created before a certain date.' => '',
+  'Search for signatures with a name containing the given string.' => '',
+  'The PHID of the document' => 'PHID of the belge',
   'New document title.' => 'Yeni belge başlığı.',
   'Configure creation and editing documents in Legalpad.' => 'Legalpad\'de belge oluşturma ve düzenleme işlemini yapılandırın.',
   'Signature Verified' => 'İmza Doğrulandı',
+  'The number of versions of this document' => 'number of sürüms of this belge',
   'NOTE: You can only see your own signatures and signatures on documents you have permission to edit.' => 'NOT: Düzenleme izniniz olan belgeler üzerinde yalnızca kendi imzalarınızı görebilirsiniz.',
   '%s updated the document preamble for %s.' => '%s, başlangıçtaki belgeyi %s güncelledi.',
   'Legalpad User Guide' => 'Legalpad Kullanıcı Kılavuzu',
@@ -121,7 +154,9 @@ final class PhabricatorLegalpadTr
   'Required %s signature(s): %s.' => 'Gerekli %s imza: %s.',
   'Configure Legalpad Forms' => 'Legalpad Formlarını Yapılandır',
   'The signature verification code is incorrect, or the signature has been invalidated. Make sure you followed the link in the email correctly.' => 'İmza doğrulama kodu yanlış veya imza geçersiz. E-postadaki bağlantıyı doğru izlediğinizden emin olun.',
+  'Search for documents created before a certain date.' => '',
   'Agreements and Signatures' => 'Anlaşmalar ve İmzalar',
+  'Search for signatures on the given documents' => '',
   '%s updated the document signature type for %s.' => '%s, %s için belge imza türünü güncelledi.',
   'Required Signature' => 'Gerekli İmza',
   'Verify Signature?' => 'İmzayı Doğrulasın mı?',
@@ -131,15 +166,20 @@ final class PhabricatorLegalpadTr
   '**Legalpad** is a simple application for tracking signatures and legal agreements. At the moment, it is primarily intended to help open source projects keep track of Contributor License Agreements.' => '**Legalpad** imzaları ve yasal sözleşmeleri takip etmek için basit bir uygulamadır. Şu anda, öncelikle açık kaynaklı projelerin Katılımcı Lisans Sözleşmelerini izlemelerine yardımcı olmak amaçlanmıştır.',
   'Unknown field: %s' => 'Bilinmeyen alan: %s',
   'New document body.' => 'Yeni belge gövdesi.',
+  'Search for signatures by given users.' => '',
   'Marks this document as required signing.' => 'Bu belgeyi gerekli imza olarak işaretler.',
+  'The title of this document' => 'başlık of this belge',
   'Signers' => 'İmzacılar',
   'Search for documents with given contributors.' => 'Katkıda bulunan katılımcıların bulunduğu belgeleri arayın.',
   'Signatures' => 'İmzalar',
   'Exemption' => 'Muafiyet',
   'View Signatures' => 'İmzaları Görüntüle',
   'Signed Older Version' => 'İmzalı Eski Sürüm',
+  'Search for signatures created after a certain date.' => '',
   'CHANGES TO DOCUMENT TEXT' => 'BELGE METNİ DEĞİŞİYOR',
   'Version %d (%s)' => 'Sürüm %d (%s)',
+  'Get the signer list for the project.' => 'Get the signer liste for the proje.',
+  'Whether signatures on this doc are required to use this install' => '',
   'You have not signed this document yet.' => 'Bu belgeyi henüz imzalamadınız.',
   'Require signatures' => 'İmza iste',
   'Contact email is required.' => 'İletişim e-postası gereklidir.',
@@ -148,8 +188,10 @@ final class PhabricatorLegalpadTr
   'Verified, Current' => 'Doğrulandı, Geçerli',
   'Signing User' => 'İmzalayan Kullanıcı',
   'That user has already signed this document.' => 'Bu kullanıcı bu belgeyi zaten imzaladı.',
+  'Search for signatures with an email containing the given string.' => '',
   'New document signature type.' => 'Yeni belge imza türü.',
   'Sign Document' => 'İmza Belgesi',
+  'The PHID of the user who granted the exemption' => '',
 );
   }
 

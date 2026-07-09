@@ -10,6 +10,7 @@ final class PhabricatorFilesZhHans
   protected function getTranslations() {
     return array(
   'Dust Detector' => '灰尘检测器',
+  'View All %s Files' => '查看全部%s个文件',
   'New alt text.' => '新的替换文本',
   'NONE' => '无',
   '%s removed the alternate text for this file (was %s).' => '%s已被从该文件中移除（曾为%s）',
@@ -25,8 +26,8 @@ final class PhabricatorFilesZhHans
   'Builtin ("%s")' => '内置（“%s”）',
   'Windows' => 'Windows',
   'Refusing to assess image dimensions of chunked file.' => '拒绝评估分块文件的图像尺寸。',
+  '%s×%s px' => '%s × %s 像素',
   'Unable to parse this document as JSON: %s' => '未能将该文档作为JSON:%s来解析。',
-  '%d×%d px' => '%d × %d 像素',
   'Default Alt Text' => '默认替代文本',
   'Field "data_base64" must be non-empty.' => '字段“data_base64”必须非空。',
   'Not Applicable' => '不适用',
@@ -42,6 +43,7 @@ final class PhabricatorFilesZhHans
   'File alternate text must not be longer than %s character(s).' => '备用文本文件必须不超过%s字。',
   '%s set the alternate text for this file to %s.' => '%s为%s给该文件设置备用文本',
   'Fruit Exploration' => '水果探险',
+  'Referenced Files' => '参考文件',
   'Friendly Fruit' => '友善水果',
   'Set the file alt text.' => '将文本设置为备用文件。',
   'Updoot In 5 Seconds' => '5秒内完成',

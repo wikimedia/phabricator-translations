@@ -11,10 +11,8 @@ final class TranslatewikiCoreVi
     return array(
   'Provide the path to a library to export translations from.' => 'Cung cấp đường dẫn đến thư viện để xuất bản dịch.',
   'Swedish' => 'Tiếng Thụy Điển',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Không thể trích xuất chuỗi có mẫu "%%" không được nhận dạng, "%s": %s.',
   'NONE' => 'KHÔNG CÓ',
   'Slovenian' => 'Tiếng Slovenia',
-  'Provide a locale code with "--locale".' => 'Cung cấp mã ngôn ngữ với "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Bỏ qua chuỗi "%s"; không có trong tập tin nguồn.',
   'Provide the path to exactly one library to export translations from.' => 'Cung cấp đường dẫn đến thư viện để xuất bản dịch.',
   'Catalan' => 'Tiếng Catalan',
@@ -41,7 +39,6 @@ final class TranslatewikiCoreVi
   'Russian' => 'Tiếng Nga',
   'Class name to generate.' => 'Tên lớp cần tạo.',
   'Norwegian' => 'Tiếng Na Uy',
-  'Frequency Data' => 'Dữ liệu tần suất',
   'Provide a JSON source file with "--source".' => 'Cung cấp tập tin nguồn JSON với "--source".',
   'Hungarian' => 'Tiếng Hungary',
   'JSON source file containing translation strings.' => 'Tập tin nguồn JSON chứa chuỗi bản dịch.',

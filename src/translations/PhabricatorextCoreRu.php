@@ -9,7 +9,6 @@ final class PhabricatorextCoreRu
 
   protected function getTranslations() {
     return array(
-  'Deny' => 'Отклонить',
   'Secret Token' => 'Секретное обозначение',
   '**Step 1 of 2**: Provide the name and URI for your MediaWiki install.
 

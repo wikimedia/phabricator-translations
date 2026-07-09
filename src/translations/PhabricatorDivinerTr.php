@@ -23,8 +23,18 @@ final class PhabricatorDivinerTr
   'Atoms inherit the policies of the books they are part of.' => 'Atomlar, parçası oldukları kitapların politikalarını devralır.',
   'Deleting %s document(s).' => '%s belge siliniyor.',
   'Rule \'%s\' is not a valid regular expression.' => '\'%s\' kuralı geçerli bir normal ifade değil.',
+  '(NOTE) **Looking for documentation?** If you\'re looking for help and information about %s, you can [[https://we.phorge.it/diviner/ | browse the public %s documentation]] on the live site.
+
+Diviner is the documentation generator used to build this documentation.
+
+You haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the documentation and have it appear here, run this command:
+
+  %s
+
+' => '',
   'Return' => 'Geri dön',
   'Found %s file(s) in project.' => 'Projede %s dosya bulundu.',
+  'Diviner Search' => 'Diviner Arama',
   'PUBLISHING DOCUMENTATION' => 'BELGE YAYINLANIYOR',
   'All Atoms' => 'Tüm Atomlar',
   'Book configuration \'%s\' has name \'%s\', but book names must include only lowercase letters and hyphens.' => '\'%s\' kitap yapılandırmasının adı \'%s\', ancak kitap adları yalnızca küçük harfler ve kısa çizgiler içermelidir.',

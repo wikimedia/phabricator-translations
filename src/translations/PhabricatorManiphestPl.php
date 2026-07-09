@@ -122,7 +122,7 @@ Jeśli określisz nieprawidłowy priorytet, polecenie zostanie zignorowane. Pole
   'Information about task status.' => 'Informacje o statusie zadania.',
   'Set description to' => 'Ustawić opis na',
   'Subtasks.' => 'Podzadania.',
-  '%s closed this task as %s.' => '%s zamknął tę zadanie jako %s.',
+  '%s closed this task as %s.' => '%s zamknął to zadanie jako %s.',
   'Merge Into Selected Task' => 'Scal z wybranym zadaniem',
   'PHID of the parent task.' => 'PHID zadania nadrzędnego.',
   '%s edited subtask(s) for %s, added %s: %s; removed %s: %s.' => '%s zmienił podzadania dla %s, dodano %s: %s; usunięto %s: %s.',

@@ -29,6 +29,7 @@ En général, vous ne devriez utiliser cette option que dans un environnement de
   'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'La configuration du fournisseur d’authentification est verrouillée, et ne peut pas être modifiée sans être déverrouillée. Voir le paramètre de configuration %s pour les détails.',
   'Server name must contain only lowercase letters, digits, and periods.' => 'Le nom du serveur ne doit contenir que des lettres minuscules, des chiffres et des points.',
   'Revoke Tokens' => 'Révoquer des jetons',
+  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%s), expected exactly one.' => 'Réponse à une validation de défi TOTP avec un nombre non attendu de défis non expirés (%s), un seul est attendu.',
   'There are too many configured default registration providers.' => 'Il y a trop de fournisseurs d’abonnement par défaut configurés.',
   'Unlink "%s" Account?' => 'Détacher le compte « %s » ?',
   'Strip factors from specified users.' => 'Retirer les facteurs des utilisateurs spécifiés.',
@@ -76,7 +77,6 @@ Après avoir achevé la configuration, copiez la **Clé** et le **Secret** dans 
   'You have not configured any multi-factor providers yet.' => 'Vous n’avez encore configuré aucun fournisseur de facteurs multiples.',
   'Unable to Log In' => 'Connexion impossible',
   'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'Le service externe (« %s ») que vous venez d’utiliser pour vous connecter est déjà associé avec un autre compte utilisateur %s. Connectez-vous à l’autre compte %s et supprimez le compte externe avant de le lier avec un nouveau compte %s.',
-  'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Avant d’utiliser ce logiciel, vous devez ajouter une authentification multi-facteurs à votre compte. Celle-ci permet de le sécuriser en rendant plus difficile son accès et la réalisation d’actions sensibles aux attaquants.',
   'To configure Twitch.tv OAuth, create a new application here:
 
 https://www.twitch.tv/settings/applications
@@ -267,7 +267,6 @@ Après avoir terminé la configuration, copier le **Client ID** et le **Client S
   'Add Multi-Factor Auth' => 'Ajouter l\'authentification multi-facteur',
   'The contact number.' => 'Le numéro de contact.',
   'You must enter an LDAP username.' => 'Vous devez saisir un nom d’utilisateur LDAP.',
-  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%d), expected exactly one.' => 'Réponse à une validation de défi TOTP avec un nombre non attendu de défis non expirés (%d), un seul est attendu.',
   'Refresh LDAP Account' => 'Rafraîchir le compte LDAP',
   'The password and confirmation do not match.' => 'Le mot de passe et la confirmation ne correspondent pas.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Réinitialiser les compteurs d’action pour qu’un utilisateur puisse continuer à prendre des actions avec un taux limité.',
@@ -325,6 +324,7 @@ Révoquer les mots de passe ne terminera pas les sessions de connexion en cours.
   'You may optionally customize the enrollment message users are presented with by providing a replacement message below:' => 'Vous pouvez éventuellement personnaliser le message d’inscription présenté aux utilisateurs en fournissant un message de remplacement ci-dessous :',
   'Mail Body: Email Login' => 'Corps du courriel : Courriel de connexion',
   'Send a test message to %s?' => 'Envoyer un message de test à %s ?',
+  'Edit Provider' => 'Modifier le fournisseur',
   'Auth' => 'Auth',
   'Confirm the link with this %s account. This account will be able to log in to your %s account.' => 'Confirmer le lien avec ce compte %s. Ce compte pourra se connecter à votre compte %s.',
   '**JIRA Instance Name**
@@ -400,7 +400,6 @@ Si vous n’en avez pas déjà une, téléchargez et installez une application T
   'Registration Failed' => 'Échec de l’inscription',
   'Unable to Verify Email' => 'Impossible de vérifier le courriel',
   'Public SSH Key' => 'Clé SSH publique',
-  'Username and password are required!' => 'Le nom d’utilisateur et le mot de passe sont obligatoires !',
   'Disqus' => 'Disqus',
   'Add MFA Provider' => 'Ajouter un fournisseur MFA',
   'Expected \'%s\' in request!' => '\'%s\' attendu dans la requête !',
@@ -574,6 +573,7 @@ Après avoir terminé la configuration, copiez le **Client ID** et le **Client S
   'You are already logged in.' => 'Vous êtes déjà connecté.',
   'Wait For Approval Instructions' => 'Attendre les instructions d’approbation',
   'Link LDAP Account' => 'Lier le compte LDAP',
+  'Invalid JSON response from "user.whoami" request: %s' => 'Réponse JSON valide attendue de la requête "user.whoami".',
   'ldap.example.com' => 'ldap.example.com',
   'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Ce mot de passe est associé avec un PHID d’objet (« %s ») pour un objet autre que celui fourni (« %s »).',
   'Disable Number' => 'Désactiver le numéro',
@@ -667,9 +667,31 @@ Choisir un nom permanent pour le serveur distant sur lequel vous voulez vous con
   'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Spécifier la cible pour laquelle révoquer les certificats avec « --from », ou spécifier « --everywhere », mais pas les deux.',
   'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Votre navigateur a soumis une clé d’inscription différente de celle associée avec ce compte. Vous devez peut-être supprimer vos témoins (\'\'cookies\'\').',
   'Log in to %s' => 'Connexion à %s',
+  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Le mot de passe que vous avez saisi a été révoqué. Vous ne pouvez pas réutiliser un mot de passe qui a été révoqué. Choisir un nouveau mot de passe.',
   'Make Primary Number' => 'Désigner comme numéro primaire',
   'Strip factors from all users.' => 'Éliminer les facteurs de tous les utilisateurs.',
   'Duo username pairing mode ("%s") is not supported.' => 'Le mode d’association de noms d’utilisateur Duo (« %s ») n’est pas pris en charge.',
+  '**Step 2 of 2 - Configure OAuth Server**
+
+To configure OAuth, create a new application here:
+
+%s
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Étape 2 sur 2 - Configurer le serveur OAuth**
+
+Pour configurer OAuth, créez une nouvelle application ici :
+
+%s/oauthserver/client/create/
+
+Lors de cette création, utilisez ces paramètres :
+
+  - **URI de redirection :** = complétez avec : `%s`
+
+Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus (vous aurez peut-être besoin auparavant de générer le Client Secret en cliquant sur \'Nouveau Secret\').',
   'Facebook' => 'Facebook',
   'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Vraiment révoquer tous les jetons ? Parmi d’autres autorisations temporaires, cela désactivera toute réinitialisation de mot de passe en suspens ou tous les liens de récupération de compte.',
   'LDAP Version' => 'Version LDAP',
@@ -1035,7 +1057,6 @@ Une fois la configuration achevée, copiez la **Clé du consommateur** et le **S
   'sn' => 'sn',
   'A passphrase was provided for this private key, but it does not require a passphrase. Check that you supplied the correct key, or omit the passphrase.' => 'Une phrase secrète a été fournie pour cette clé privée, mais elle ne nécessite pas de phrase secrète. Vérifiez que vous avez fourni la bonne clé ou omettez la phrase secrète.',
   'This provider is not configured to allow linking.' => 'Ce fournisseur n\'est pas configuré pour autoriser l\'association.',
-  'Expected valid JSON response from "user.whoami" request.' => 'Réponse JSON valide attendue de la requête "user.whoami".',
   '%s created this provider.' => '%s a créé ce fournisseur.',
   'Multi-Factor' => 'Multi-facteur',
   'This contact number is already in use.' => 'Ce numéro de contact est déjà utilisé.',
@@ -1110,27 +1131,6 @@ Erreur LDAP nº %d : %s',
   'These auth factors will be stripped:' => 'Ces facteurs d’authentification seront enlevés :',
   'Contact numbers must have a contact number.' => 'Les numéros de contact doivent posséder un numéro de contact.',
   'Engine: Session' => 'Moteur: session',
-  '**Step 2 of 2 - Configure OAuth Server**
-
-To configure OAuth, create a new application here:
-
-%s/oauthserver/client/create/
-
-When creating your application, use these settings:
-
-  - **Redirect URI:** Set this to: `%s`
-
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Étape 2 sur 2 - Configurer le serveur OAuth**
-
-Pour configurer OAuth, créez une nouvelle application ici :
-
-%s/oauthserver/client/create/
-
-Lors de cette création, utilisez ces paramètres :
-
-  - **URI de redirection :** = complétez avec : `%s`
-
-Après avoir terminé la configuration, copier le **Client ID** et le **Client Secret** dans les champs ci-dessus (vous aurez peut-être besoin auparavant de générer le Client Secret en cliquant sur \'Nouveau Secret\').',
   'Require Existing Duo Account' => 'Nécessite un compte Duo existant',
   'Upload SSH Public Key' => 'Téléverser la clé publique SSH',
   'No such user "%s"!' => 'Aucun utilisateur « %s » !',
@@ -1205,7 +1205,6 @@ Après avoir terminé la configuration, copier le **Client ID** et le **Client S
   'Active OAuth Token (Expires: %s)' => 'Activer le jeton OAuth (expire à : %s)',
   'Specify the credential type to revoke with "--type" or "--everything", but not both.' => 'Spécifier le type de certificat à révoquer avec « --type » ou « --everything », mais pas les deux.',
   '(If given an option, select that this key is "Time Based", not "Counter Based".)' => '(si un choix est donné, sélectionner celui dont la clé est « basée sur le temps », non « basée sur un compteur ».)',
-  'These methods are recently introduced and subject to change.' => 'Ces méthodes ont été introduites récemment et sont succeptibles d\'être modifiées.',
   'LDAP Password: ' => 'Mot de passe LDAP :',
   'Bad Invite Code' => 'Code d\'invitation erroné',
   '{icon check, color="green"} **Setup Complete!**
@@ -1277,7 +1276,6 @@ Note : vous aurez à redémarrer les services en arrière-plan pour que cela pre
   'Skipping, provider is not an OAuth2 provider.' => 'Ignoré, le fournisseur n\'est pas un fournisseur OAuth2.',
   'Your login session is invalid, and clearing the session cookie was unsuccessful. Try clearing your browser cookies.' => 'Votre session de connexion n’est pas valide et la suppression du témoin (\'\'cookie\'\') de session n’a pas fonctionné. Essayez de supprimer les témoins de votre navigateur.',
   'OAuth Consumer Secret' => 'Secret du consommateur OAuth',
-  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Le mot de passe que vous avez saisi a été révoqué. Vous ne pouvez pas réutiliser un mot de passe qui a été révoqué. Choisir un nouveau mot de passe.',
 );
   }
 

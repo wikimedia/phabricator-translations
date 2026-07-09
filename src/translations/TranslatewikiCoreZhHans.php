@@ -11,10 +11,8 @@ final class TranslatewikiCoreZhHans
     return array(
   'Provide the path to a library to export translations from.' => '提供至库的路径以导出翻译。',
   'Swedish' => '瑞典语',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => '无法提取带有不被认可的“%%”模式字符串，“%s”：%s。',
   'NONE' => '无',
   'Slovenian' => '斯洛文尼亚语',
-  'Provide a locale code with "--locale".' => '提供语言环境代码，格式：“--语言环境”。',
   'Ignoring string "%s"; not present in translation source file.' => '已忽略字符串“%s”；未在翻译来源文件中提供。',
   'Provide the path to exactly one library to export translations from.' => '准确提供至一个要导出翻译自的库路径。',
   'Catalan' => '加泰罗尼亚语',
@@ -41,7 +39,6 @@ final class TranslatewikiCoreZhHans
   'Russian' => '俄语',
   'Class name to generate.' => '要生成的类名。',
   'Norwegian' => '挪威语',
-  'Frequency Data' => '频率数据',
   'Provide a JSON source file with "--source".' => '提供JSON来源文件，格式：“--来源”。',
   'Hungarian' => '匈牙利语',
   'Generate a Phabricator translation classfile.' => '生成Phabricator翻译类文件。',

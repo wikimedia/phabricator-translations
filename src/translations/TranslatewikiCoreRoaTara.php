@@ -10,9 +10,7 @@ final class TranslatewikiCoreRoaTara
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Dèje \'u percorse a \'na libbrerie da addò esportà le traduziune.',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Non ge riesche a estratte \'a stringhe cu \'u pattern scanusciute "%%", "%s": %s.',
   'NONE' => 'NONE',
-  'Provide a locale code with "--locale".' => 'Dèje \'nu codece locale cu "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Stoche a cache a stringhe "%s"; non g\'è presente jndr\'à \'u file sorgende d\'a traduzione.',
   'Provide the path to exactly one library to export translations from.' => 'Dèje \'u percorse precisamende a \'na libbrerie da addò esportà le traduziune.',
   'Provide a project name to export strings under with "--as".' => 'Dèje \'nu nome a \'u pruggette pe esportà stringhe sotte cu "--as".',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreRoaTara
   'Provide a classname with "--class".' => 'Dèje \'nu classname cu "--class".',
   'Read %s string(s).' => 'Lìgge %s stringhe.',
   'Class name to generate.' => 'Nome d\'a classe da generà.',
-  'Frequency Data' => 'Frequenze d\'u date',
   'Provide a JSON source file with "--source".' => 'Dèje \'nu file sorgende JSON cu "--source".',
   'Generate a Phabricator translation classfile.' => 'Genere \'nu classfile de traduzione de Phabricator.',
   'JSON source file containing translation strings.' => 'File sorgende JSON ca tène le stringhe de traduzione.',

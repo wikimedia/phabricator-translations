@@ -13,25 +13,54 @@ final class PhabricatorPholioNl
   'This image will be removed from the mock.' => 'Deze afbeelding wordt uit de mock verwijderd.',
   '%s replaced %s with %s.' => '%s heeft %s vervangen door %s.',
   'Edit Mock: %s' => 'Mock bewerken: %s',
+  'Mock images must have a title.' => 'Mock-afbeeldingen moeten een titel hebben.',
   'View Mock' => 'Mock weergeven',
   'Review Mocks and Design' => 'Mocks en ontwerp beoordelen',
-  '%s added %d image(s): %s.' => '%s heeft %d afbeelding(en) toegevoegd: %s.',
+  '%s added %d image(s): %s.' => array(
+    
+    array(
+      '%s heeft een afbeelding toegevoegd: %3$s.',
+      '%s heeft afbeeldingen toegevoegd: %3$s.',
+    ),
+  ),
   'Close Mock' => 'Mock sluiten',
   '%s closed mock %s.' => '%s heeft mock %s gesloten.',
   'A mock\'s status changes.' => 'De status van een mock wijzigt.',
   'Open Mocks' => 'Open mocks',
   'No image attached!' => 'Geen afbeelding bijgevoegd!',
   '%s closed this mock.' => '%s heeft deze mock gesloten.',
-  '%s removed %s task(s) for %s: %s.' => '%s heeft %s ta(a)k(en) voor %s verwijderd: %s.',
+  '%s removed %s task(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een taak verwijderd voor %3$s: %4$s.',
+      '%s heeft taken verwijderd voor %3$s: %4$s.',
+    ),
+  ),
   '%s created this mock.' => '%s heeft deze mock aangemaakt.',
   'Pholio Mocks' => 'Pholio-mocks',
-  '%s removed %d image(s): %s.' => '%s heeft %d afbeelding(en) verwijderd: %s.',
-  '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft ta(a)k(en) voor %s bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s removed %d image(s): %s.' => array(
+    
+    array(
+      '%s heeft een afbeelding verwijderd: %3$s.',
+      '%s heeft afbeeldingen verwijderd: %3$s.',
+    ),
+  ),
+  'Mock image titles must not be longer than %s character(s).' => array(
+    'Namen van mockafbeeldingen mogen niet langer zijn dan %s teken.',
+    'Namen van mockafbeeldingen mogen niet langer zijn dan %s tekens.',
+  ),
+  '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => array(
+    
+    array(
+      '%s heeft een taak bewerkt voor %s; toegevoegd: %4$s; verwijderd: %6$s.',
+      '%s heeft taken bewerkt voor %s; toegevoegd: %4$s; verwijderd: %6$s.',
+    ),
+  ),
   'Undo' => 'Ongedaan maken',
   'React to mocks being created or updated.' => 'Reageren op mocks die worden aangemaakt of bijgewerkt.',
   'The author of a mock can always view and edit it.' => 'De auteur van een mock kan deze altijd weergeven en bewerken.',
   'Image ("%s") does not specify which image it replaces.' => 'Afbeelding ("%s") geeft niet aan welke afbeelding deze vervangt.',
-  'Upload sets of images for review with revision history and inline comments.' => 'Sets afbeeldingen uploaden voor beoordeling met versiegeschiedenis en inline opmerkingen.',
+  'Upload sets of images for review with revision history and inline comments.' => 'Sets afbeeldingen uploaden voor beoordeling met versiegeschiedenis en ingebedde opmerkingen.',
   'Pholio' => 'Pholio',
   'Image ("%s") belongs to the wrong object ("%s", expected "%s").' => 'Afbeelding ("%s") hoort bij het verkeerde object ("%s", verwacht "%s").',
   '%s updated the mock\'s description.' => '%s heeft de beschrijving van de mock bijgewerkt.',
@@ -56,7 +85,7 @@ final class PhabricatorPholioNl
   '[Pholio]' => '[Pholio]',
   '%s opened mock %s.' => '%s heeft mock %s geopend.',
   'Mock Description' => 'Mockbeschrijving',
-  '%s edited task(s), added %s: %s; removed %s: %s.' => '%s heeft ta(a)k(en) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited task(s), added %s: %s; removed %s: %s.' => '%s heeft taken bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   '%s updated an image\'s (%s) description.' => '%s heeft de beschrijving van een afbeelding (%s) bijgewerkt.',
   'Open Mock' => 'Mock openen',
   'Replaced image ("%s") belongs to the wrong mock ("%s", expected "%s").' => 'Vervangen afbeelding ("%s") hoort bij de verkeerde mock ("%s", verwacht "%s").',
@@ -70,7 +99,6 @@ final class PhabricatorPholioNl
   '%s updated an image\'s (%s) sequence.' => '%s heeft de volgorde van een afbeelding (%s) bijgewerkt.',
   '%s updated image sequence of %s.' => '%s heeft de afbeeldingsvolgorde van %s bijgewerkt.',
   '%s added inline comment(s).' => '%s heeft ingebedde opmerkingen toegevoegd.',
-  'Mock image names must not be longer than %s character(s).' => 'Namen van mockafbeeldingen mogen niet langer zijn dan %s teken(s).',
   'Unknown (ID %d)' => 'Onbekend (ID %d)',
   'Edit Mock' => 'Mock bewerken',
   'By %s on %s' => 'Door %s op %s',
@@ -78,7 +106,13 @@ final class PhabricatorPholioNl
   'Image "%s":' => 'Afbeelding "%s":',
   'Close Pholio Mock' => 'Pholio-mock sluiten',
   '%s updated images of %s.' => '%s heeft afbeeldingen van %s bijgewerkt.',
-  '%s added %s task(s) for %s: %s.' => '%s heeft %s ta(a)k(en) voor %s toegevoegd: %s.',
+  '%s added %s task(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een taak toegevoegd voor %3$s: %4$s.',
+      '%s heeft taken toegevoegd voor %3$s: %4$s.',
+    ),
+  ),
   'You must add at least one image to the mock.' => 'U moet ten minste één afbeelding aan de mock toevoegen.',
   'This page documents the commands you can use to interact with mocks in Pholio.' => 'Deze pagina documenteert de opdrachten die u kunt gebruiken om met mocks in Pholio te werken.',
   'Unable to load replacement image ("%s"): %s' => 'Kan vervangende afbeelding ("%s") niet laden: %s',
@@ -86,12 +120,15 @@ final class PhabricatorPholioNl
   'Comment cannot be empty.' => 'Opmerking mag niet leeg zijn.',
   'Test rules which run when a mock is created or updated.' => 'Regels testen die worden uitgevoerd wanneer een mock wordt aangemaakt of bijgewerkt.',
   'Inline Comment' => 'Ingebedde opmerking',
-  'Mock names must not be longer than %s character(s).' => 'Mocknamen mogen niet langer zijn dan %s teken(s).',
+  'Mock names must not be longer than %s character(s).' => array(
+    'Mocknamen mogen niet langer zijn dan %s teken.',
+    'Mocknamen mogen niet langer zijn dan %s tekens.',
+  ),
   '%s updated the image names of %s.' => '%s heeft de afbeeldingsnamen van %s bijgewerkt.',
   'Unable to load replaced image ("%s"): %s' => 'Kan vervangen afbeelding ("%s") niet laden: %s',
   'This mock will become open again.' => 'Deze mock wordt weer geopend.',
   'Create a Mock' => 'Een mock aanmaken',
-  '%s edited image(s), added %d: %s; removed %d: %s.' => '%s heeft afbeelding(en) bewerkt, %d toegevoegd: %s; %d verwijderd: %s.',
+  '%s edited image(s), added %d: %s; removed %d: %s.' => '%s heeft afbeeldingen bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   'Mock images or descriptions change.' => 'Mockafbeeldingen of -beschrijvingen wijzigen.',
 );
   }

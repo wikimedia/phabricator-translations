@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorRemarkupId
+final class PhabricatorDoorkeeperLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'id';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'Content may not be empty.' => 'Konten tidak boleh kosong.',
+  'External Object' => 'Externen Objet',
 );
   }
 

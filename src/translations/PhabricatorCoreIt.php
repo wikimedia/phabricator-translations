@@ -54,7 +54,6 @@ final class PhabricatorCoreIt
   'Tuesday' => 'Martedì',
   '%s, %s' => '%s, %s',
   'Deleted' => 'Cancellato',
-  'Items' => 'Elementi',
   'Normal' => 'Normale',
   '%s <%s>' => '%s <%s>',
   'Sun' => 'dom',

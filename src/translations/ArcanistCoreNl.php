@@ -11,6 +11,8 @@ final class ArcanistCoreNl
     return array(
   'Aborted due to file upload failure. You can use %s to skip binary uploads.' => 'Afgebroken vanwege een fout bij het uploaden van bestanden. U kunt %s gebruiken om binaire uploads over te slaan.',
   'Ref "%s" does not exist in remote "%s".' => 'Ref “%s” bestaat niet in externe “%s”.',
+  'Flexible Heredoc and Nowdoc is not available before PHP 7.3.' => 'Flexibele Heredoc en Nowdoc zijn vóór PHP 7.3 niet beschikbaar.',
+  'This process has PID %d. Acquiring lock...' => 'Dit proces heeft PID %d. Vergrendeling wordt verkregen…',
   'This working copy is associated with the %s repository.' => 'Deze werkkopie is gekoppeld aan de repository %s.',
   'Lint Disabler' => 'Lint-uitschakelaar',
   'Call to "posix_getpgid(...)" failed!' => 'Aanroep van "posix_getpgid(...)" mislukt!',
@@ -22,9 +24,116 @@ final class ArcanistCoreNl
   '"%s" (%s)' => '“%s” (%s)',
   'Saved "%s" as "%s".' => '"%s" opgeslagen als "%s".',
   'Night has fallen. The moon overhead is waxing, and provides just enough light that you can make out your surroundings. It is quite cold.' => 'De nacht is gevallen. De maan aan de hemel is aan het opkomen en geeft net genoeg licht om de omgeving te kunnen zien. Het is behoorlijk koud.',
-  '(This message was raised at line %s, but the file only has %s line(s).)' => '(Deze melding is op regel %s opgetreden, maar het bestand bevat slechts %s regel(s).)',
+  '(This message was raised at line %s, but the file only has %s line(s).)' => array(
+    
+    array(
+      '(Deze melding is op regel %s opgetreden, maar het bestand bevat slechts %s regel.)',
+      '(Deze melding is op regel %s opgetreden, maar het bestand bevat slechts %s regels.)',
+    ),
+  ),
   'Not parsing!' => 'Wordt niet verwerkt!',
   'Portuguese (Portugal)' => 'Portugees (Portugal)',
+  'Create an alias from __command__ to __target__ (optionally, with __options__).
+
+Aliases allow you to create shorthands for commands and sets of flags you
+commonly use, like defining "arc draft" as a shorthand for "arc diff --draft".
+
+**Creating Aliases**
+
+You can define "arc draft" as a shorthand for "arc diff --draft" like this:
+
+  $ arc alias draft diff -- --draft
+
+Now, when you run "arc draft", the command will function like
+"arc diff --draft".
+
+<bg:yellow> NOTE: </bg> Make sure you use "--" before specifying any flags you
+want to pass to the command! Otherwise, the flags will be interpreted as flags
+to "arc alias".
+
+**Listing Aliases**
+
+Without any arguments, "arc alias" will list aliases.
+
+**Removing Aliases**
+
+To remove an alias, run:
+
+  $ arc alias <alias-name>
+
+You will be prompted to remove the alias.
+
+**Shell Commands**
+
+If you begin an alias with "!", the remainder of the alias will be invoked as
+a shell command. For example, if you want to implement "arc ls", you can do so
+like this:
+
+  $ arc alias ls \'!ls\'
+
+When run, "arc ls" will now behave like "ls".
+
+**Multiple Toolsets**
+
+This workflow supports any toolset, even though the examples in this help text
+use "arc". If you are working with another toolset, use the binary for that
+toolset define aliases for it:
+
+  $ phage alias ...
+
+Aliases are bound to the toolset which was used to define them. If you define
+an "arc draft" alias, that does not also define a "phage draft" alias.
+
+**Builtins**
+
+You can not overwrite the behavior of builtin workflows, including "alias"
+itself, and if you install a new workflow it will take precedence over any
+existing aliases with the same name.' => 'Maakt een alias van __command__ naar __target__ (eventueel met __options__).
+
+Met aliassen kunt u snelkoppelingen maken voor commando’s en bepaalde opties die u vaak gebruikt. Zo kunt u bijvoorbeeld “arc draft” als snelkoppeling voor “arc diff --draft” instellen.
+
+**Aliassen aanmaken**
+
+Zo definieert u “arc draft” als afkorting voor “arc diff --draft”:
+
+  $ arc alias draft diff -- --draft
+
+Als u nu “arc draft” uitvoert, werkt het commando hetzelfde als “arc diff --draft”.
+
+<bg:yellow> LET OP: </bg> Zet altijd “--” vóór de opties die u aan het commando wilt doorgeven! Anders worden die opties geïnterpreteerd als opties voor “arc alias”.
+
+**Aliassen weergeven**
+
+Zonder opgave van argumenten geeft “arc alias” een overzicht van de aliassen.
+
+**Aliassen verwijderen**
+
+Zo verwijdert u een alias:
+
+  $ arc alias <alias-naam>
+
+U wordt dan gevraagd of u de alias wilt verwijderen.
+
+**Shell-opdrachten**
+
+Als u een alias begint met “!”, wordt de rest ervan uitgevoerd als shell-commando. Als u bijvoorbeeld “arc ls” wilt toevoegen, kunt u dat als volgt doen:
+
+  $ arc alias ls ‘!ls’
+
+Het commando “arc ls” gedraagt zich nu als “ls”.
+
+**Meerdere toolsets**
+
+Deze werkwijze ondersteunt elke toolset, ook al wordt in de voorbeelden in deze hulptekst “arc” gebruikt. Als je met een andere toolset werkt, gebruik dan het programma voor die toolset om aliassen ervoor te definiëren:
+
+  $ phage alias ...
+
+Aliassen zijn gekoppeld aan de toolset waarmee ze ingesteld zijn. Als u een alias “arc draft” instelt, wordt daarmee dus niet automatisch ook een alias “phage draft” gedefinieerd.
+
+**Ingebouwde commando’s**
+
+Het gedrag van ingebouwde workflows, waaronder “alias” zelf, kunt u niet overschrijven. Als u een nieuwe workflow installeert, krijgt deze voorrang boven eventuele bestaande aliassen met dezelfde naam.',
+  'Arrays should use the short array syntax.' => 'Arrays moeten de korte array-syntaxis gebruiken.',
   'File Symbol "%s"' => 'Bestandssymbool “%s”',
   'Try running your arc command again.' => 'Probeer uw arc-opdracht opnieuw uit te voeren.',
   'Local commit "%s" does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.' => 'De lokale commit “%s” kan niet eenduidig samengevoegd worden in “%s”. Doe een “rebase” of integreer de lokale wijzigingen zodat ze eenduidig kunnen worden samengevoegd.',
@@ -35,7 +144,25 @@ final class ArcanistCoreNl
   'If the file is not a text file, you can mark it \'binary\'. Mark this file as \'binary\' and continue?' => 'Wanneer het bestand geen tekstbestand is, kunt u het als \'binair\' markeren. Dit bestand als \'binair\' markeren en doorgaan?',
   'Rule \'%s\' is invalid, it must have a type and name like \'%s\'.' => 'Regel ‘%s’ is onjuist. Deze moet een type en naam hebben zoals ‘%s’.',
   'Task Symbol "%s"' => 'Taaksymbool “%s”',
-  'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'De parameter (“%s”) die aan “%s” is doorgegeven bij het samenstellen van een unit-testbericht, moet een tekenreeks zijn met een maximale lengte van %s bytes, maar is %s bytes lang.',
+  'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'De parameter (“%s”) die aan “%s” is doorgegeven bij het samenstellen van een unit-testbericht, moet een tekenreeks zijn met een maximale lengte van %s  byte, maar is %s byte lang.',
+          'De parameter (“%s”) die aan “%s” is doorgegeven bij het samenstellen van een unit-testbericht, moet een tekenreeks zijn met een maximale lengte van %s  byte, maar is %s bytes lang.',
+        ),
+        
+        array(
+          'De parameter (“%s”) die aan “%s” is doorgegeven bij het samenstellen van een unit-testbericht, moet een tekenreeks zijn met een maximale lengte van %s  bytes, maar is %s byte lang.',
+          'De parameter (“%s”) die aan “%s” is doorgegeven bij het samenstellen van een unit-testbericht, moet een tekenreeks zijn met een maximale lengte van %s  bytes, maar is %s bytes lang.',
+        ),
+      ),
+    ),
+  ),
+  'In multi-line parameter declarations, each parameter should be on a separate line.' => 'Bij parameterdeclaraties over meerdere regels moet elke parameter op een aparte regel staan.',
   'There was an error verifying the SSL Certificate Authority while negotiating the SSL connection. This usually indicates you are using a self-signed certificate.
 
 As of OSX Yosemite, certificates must be added to the OSX keychain. You can do this with `security add-trusted-cert` from the command line, or by visiting the site in Safari and choosing to trust the certificate permanently.
@@ -49,12 +176,19 @@ Zie de instructies in “%s” voor meer informatie.',
   'This workflow (\'%s\') requires a Repository API, override %s to return true.' => 'Voor deze werkstroom (‘%s’) is een Repository API vereist. Overschrijf %s zodat deze ‘true’ retourneert.',
   'This patch may have failed because it attempts to change the case of a filename (for instance, from \'%s\' to \'%s\'). Mercurial cannot apply patches like this on case-insensitive filesystems. You must apply this patch manually.' => 'Deze patch is mogelijk mislukt omdat deze probeert de hoofd- of kleine letters van een bestandsnaam te wijzigen (bijvoorbeeld van ‘%s’ naar ‘%s’). Mercurial kan dergelijke patches niet toepassen op hoofdletter-ongevoelige bestandssystemen. U moet deze patch handmatig toepassen.',
   'Executable files should either be binary or contain a shebang.' => 'Uitvoerbare bestanden moeten binair zijn of een ‘shebang’ (#!) bevatten.',
+  'Numeric literal separators are not available before PHP 7.4.' => 'Numerieke letterlijke scheidingstekens zijn vóór PHP 7.4 niet beschikbaar.',
   'Landing onto target "%s", the default target under Git.' => 'Landen op doel “%s”, het standaarddoel onder Git.',
   'Unknown argument \'%s\'. Try \'%s\'.' => 'Onbekend argument \'%s\'. Probeer \'%s\'.',
   'Path \'%s\' is not readable.' => 'Pad \'%s\' is niet leesbaar.',
   'No match found. Try `%s %s` to search for a linter.' => 'Er is niets gevonden. Probeer `%s %s` om naar een linter te zoeken.',
   'English (Pirate)' => 'Engels (Piraat)',
   'Pick' => 'Kiezen',
+  'If the file is not a text file, mark it as binary with:
+
+  $ %s
+' => 'Als het bestand geen tekstbestand is, markeer het dan als binair met: 
+
+  $ %s',
   'Browse URI "%s"' => 'URI “%s” bekijken',
   'The working copy includes changes to \'%s\' paths. These changes will not be included in the diff because SVN can not commit \'svn:externals\' changes alongside normal changes.' => 'De werkkopie bevat wijzigingen in ‘%s’-paden. Deze wijzigingen worden niet opgenomen in de verschillen omdat SVN geen ‘svn:externals’-wijzigingen naast normale wijzigingen kan vastleggen.',
   'Base commit ruleset to invoke when determining the start of a commit range. See "Arcanist User Guide: Commit Ranges" for details.' => 'Basisregelset voor commits die moet worden aangeroepen bij het bepalen van het begin van een commitbereik. Zie “Arcanist User Guide: Commit Ranges” voor details.',
@@ -73,7 +207,10 @@ Zie de instructies in “%s” voor meer informatie.',
   'Confirms that revisions you did not author should land.' => 'Bevestigt dat versies die u niet zelf hebt geschreven, moeten worden doorgevoerd.',
   'No tests to run.' => 'Geen tests om uit te voeren.',
   'Expected JSON response from Slack.' => 'Verwachte JSON-respons van Slack.',
-  '%s assertion(s) passed.' => 'Er zijn %s bewering(en) geslaagd.',
+  '%s assertion(s) passed.' => array(
+    'Er is %s bewering geslaagd.',
+    'Er zijn %s beweringen geslaagd.',
+  ),
   'NOTHING TO LAND' => 'NIET OM TE WIJZIGEN',
   'Expected to find a byte unit for meminfo key "%s" in meminfo source "%s", found no unit.' => 'Er werd verwacht dat er een byte-eenheid gevonden zou worden voor meminfo-sleutel "%s" in meminfo-bron "%s", maar er is geen eenheid gevonden.',
   'Do not copy changes to the staging area.' => 'Geen wijzigingen kopiëren naar de staging-omgeving.',
@@ -98,16 +235,22 @@ Zie de instructies in “%s” voor meer informatie.',
   'HLint is a linter for Haskell code.' => 'HLint is een linter voor Haskell-code.',
   'No Parent Scope' => 'Geen bovenliggend bereik',
   'Use "*" after a response to save it in user configuration.' => 'Gebruik "*" na een antwoord om het op te slaan in de gebruikersconfiguratie.',
+  'Multiple repositories (%s) matched the query. You can use the "%s" configuration to select the one you want.' => 'Meerdere repository\'s (%s) kwamen overeen met de zoekopdracht. U kunt de "%s"-configuratie gebruiken om de gewenste te selecteren.',
   'The author of this revision (%s) is:' => 'De auteur van deze versie (%s) is:',
   'Update the local working copy before applying the patch.' => 'Werk de lokale werkmap bij voordat u de patch toepast.',
+  'Using `%s` as the `%s` value instead of a variable was not introduced until PHP 5.5, but this codebase targets an earlier version of PHP. Move the statement inside the loop.' => 'Het gebruik van `%s` als waarde voor `%s` in plaats van een variabele is pas in PHP 5.5 ingevoerd, maar deze broncode is bedoeld voor een eerdere versie van PHP. Verplaats de instructie naar binnen de lus.',
   'SHELL' => 'SHELL',
+  'Unlocking...' => 'Wordt ontgrendeld…',
   '`%s` Statement Must Be The First Statement' => '`%s`-verklaring moet de eerste verklaring zijn',
   'Argument "%s" is unrecognized. Use "%s" to indicate the end of flags.' => 'Argument "%s" wordt niet herkend. Gebruik "%s" om het einde van de vlaggen aan te geven.',
   'Assertion failed, expected \'%s\' (at %s:%d): %s' => 'Stelling mislukt, verwacht \'%s\' (op %s:%d ): %s',
   'Test case \'%s\' was expected to raise an exception, but it did not throw anything.' => 'Er werd verwacht dat testgeval \'%s\' een uitzondering zou genereren, maar dat gebeurde niet.',
-  'Land %s revision(s) in the wrong state?' => '%s versie(s) in de verkeerde status landen?',
+  'Land %s revision(s) in the wrong state?' => array(
+    '%s versie in de verkeerde status terecht laten komen?',
+    '%s versies in de verkeerde status terecht laten komen?',
+  ),
   'it is the first commit reachable from the working copy state which is not outgoing.' => 'Het is de eerste commit die bereikbaar is vanuit de werkkopiestatus die niet uitgaand is.',
-  'This `%s` or `%s` has a nonempty block which does not end with `%s`, `%s`, `%s`, `%s` or `%s`. Did you forget to add one of those? If you intend to fall through, add a `%s` comment to silence this warning.' => 'Deze `%s` of `%s` heeft een niet-leeg blok dat niet eindigt met `%s`, `%s`, `%s`, `%s` of `%s`. Bent u vergeten er een van deze toe te voegen? Als u wilt doorgaan, voeg dan een `%s`-commentaar toe om deze waarschuwing te onderdrukken.',
+  'This `%s` or `%s` has a nonempty block which does not end with `%s`, `%s`, `%s`, `%s` or `%s`. Did you forget to add one of those? If you intend to fall through, add a `%s` comment to silence this warning.' => 'Deze `%s` of `%s` heeft een niet-leeg blok dat niet eindigt met `%s`, `%s`, `%s`, `%s` of `%s`. Bent u vergeten er een van deze toe te voegen? Als het wel degelijk de bedoeling is om naar het volgende commando door te gaan, voeg dan een commentaar `%s` toe om deze waarschuwing niet meer te tonen.',
   'Provide a map of regular expressions to severity levels. All matching codes have their severity adjusted.' => 'Geef een overzicht van reguliere expressies en bijbehorende ernstniveaus. Alle overeenkomende codes krijgen een aangepaste ernstgraad.',
   'Specify the state to merge into. By default, this is the same as the "onto" ref.' => 'Geef de staat op waarnaar moet worden samengevoegd. Standaard is dit hetzelfde als de "onto"-referentie.',
   'Rule \'%s\' in state \'%s\' in %s defines an invalid regular expression (\'%s\'): %s' => 'Regel \'%s\' in staat \'%s\' in %s definieert een incorrecte reguliere expressie (\'%s\'): %s',
@@ -127,6 +270,37 @@ Gebruik \'%s\' om een versie te selecteren.',
   'Request signature verification failed: signature is not correct.' => 'De verificatie van de handtekening is mislukt: de handtekening is niet correct.',
   'You can not change the logfile after a write has occurred!' => 'U kunt het logbestand niet meer wijzigen nadat er een schrijfbewerking heeft plaatsgevonden!',
   'English (Canada)' => 'Engels (Canada)',
+  '    **extract-symbols-with-php-parser.php** [__options__] __path.php__
+        Identify the symbols (classes, interfaces, traits, enums and functions)
+        in PHP source files. Symbols are divided into "have" symbols
+        (symbols the file declares) and "need" symbols (symbols the file
+        depends on). For example, class declarations are "have" symbols,
+        while object instantiations with "new X()" are "need" symbols.
+
+        Dependencies on builtins and symbols marked \'@phutil-external-symbol\'
+        in docblocks are omitted without __--all__.
+
+        Symbols are reported in JSON on stdout.
+
+        This script is used internally to build maps of library
+        symbols.
+' => '    **extract-symbols-with-php-parser.php** [__options__] __path.php__
+        Identificeert de symbolen (klassen, interfaces, kenmerken, enums en
+        functies) in PHP-bronbestanden. Symbolen worden onderverdeeld in
+        “have”-symbolen (symbolen die het bestand declareert) en
+        “need”-symbolen (symbolen waarvan het bestand afhankelijk is).
+        Klassedeclaraties zijn bijvoorbeeld “have”-symbolen, terwijl
+        objectinstantiaties met “new X()” “need”-symbolen zijn.
+
+        Afhankelijkheden van ingebouwde functies en symbolen die in
+        docblocks zijn gemarkeerd met ‘@phutil-external-symbol’ worden
+        weggelaten indien de optie __--all__ niet is opgegeven.
+
+        De symbolen worden in JSON-formaat naar de standard uitvoer
+        geschreven.
+
+        Dit script wordt intern gebruikt om kaarten van bibliotheek-
+        symbolen samen te stellen.',
   'This codebase targets PHP %s on Windows, but `%s()` is not available there.' => 'Deze codebase is gericht op PHP %s op Windows, maar `%s()` is daar niet beschikbaar.',
   'Author: %s' => 'Auteur: %s',
   'Confirms that revisions with open parent revisions should land.' => 'Bevestigt dat versies met openstaande bovenliggende versies moeten worden doorgevoerd.',
@@ -147,15 +321,20 @@ Gebruik \'%s\' om een versie te selecteren.',
   'Fetch Repository: %s' => 'Repository ophalen: %s',
   'Call to "posix_setsid()" failed!' => 'Aanroep naar "posix_setsid()" mislukt!',
   'Use the message from a specific revision. If you do not specify a revision, arc will guess which revision is in the working copy.' => 'Gebruik het bericht van een specifieke versie. Als u geen versie opgeeft, raadt arc welke versie in de werkkopie staat.',
-  'Do you want to create a new commit with these %s change(s)?' => 'Wilt u een nieuwe commit aanmaken met deze %s wijziging(en)?',
+  'Do you want to create a new commit with these %s change(s)?' => array(
+    'Wilt u een nieuwe commit aanmaken met deze  %s wijziging?',
+    'Wilt u een nieuwe commit aanmaken met deze  %s wijzigingen?',
+  ),
   'Unexpected "%s" section in property addition.' => 'Onverwachte sectie "%s" in eigenschapstoevoeging.',
   'Failed to load library at location "%s". This library is specified by "%s". Check that the setting is correct and the library is located in the right place.' => 'Kan bibliotheek op locatie "%s" niet laden. Deze bibliotheek is opgegeven door "%s". Controleer of de instelling correct is en de bibliotheek op de juiste plaats staat.',
   'Diff Parse Exception: %s' => 'Diff-verwerkingsuitzondering: %s',
   'Commit this revision anyway?' => 'Deze versie toch committen?',
   'After creating the task, open it in a web browser.' => 'Open de taak na het aanmaken in een webbrowser.',
+  'Asymetric property visibility is not available before PHP 8.4.' => 'De zichtbaarheid van asymmetrische eigenschappen is vóór PHP 8.4 niet beschikbaar.',
   'Amend working copy using unrelated revision %s?' => 'Werkkopie wijzigen met niet-gerelateerde versie %s?',
   'DETACHED HEAD' => 'LOSSTAANDE HEAD',
   'Lint does not currently support %s in SVN.' => 'Lint ondersteunt momenteel geen %s in SVN.',
+  'Anonymous classes are not available before PHP 7.0.' => 'Anonieme klassen zijn vóór PHP 7.0 niet beschikbaar.',
   'Failed to open file \'%s\'.' => 'Het openen van bestand ‘%s’ is mislukt.',
   'Load a library.' => 'Laad een bibliotheek.',
   'There are several revisions which match the working copy:
@@ -170,6 +349,11 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Unsound' => 'Onbetrouwbaar',
   'Patch %s \'%s\' to \'%s\', but source path does not exist in the working copy. Continue anyway?' => 'Patch %s \'%s\' naar \'%s\', maar het bronpad bestaat niet in de werkkopie. Toch doorgaan?',
   'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'De URI van een server om standaard mee te verbinden, als %s wordt uitgevoerd in een project zonder geconfigureerde URI of buiten een project.',
+  '**lock.php** __file__ [__options__]
+    Acquire a lockfile and hold it until told to unlock it.
+' => '**lock.php** __file__ [__options__]
+    Verkrijgt een vergrendelingsbestand en houdt het vast totdat er opdracht
+    wordt gegeven om het te ontgrendelen.',
   'Loading library from "%s"...' => 'Bibliotheek laden vanuit "%s"...',
   'Remote branch has multiple heads.' => 'Remote branch heeft meerdere heads.',
   'Duplicate case in switch statement. PHP will ignore all but the first case.' => 'Dubbele case in switch-instructie. PHP negeert alle behalve de eerste case.',
@@ -178,13 +362,16 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Binary integer literals are not available before PHP 5.4.' => 'Binaire gehele getallen zijn niet beschikbaar vóór PHP 5.4.',
   'Failed to match remote pattern against line "%s".' => 'Kan het remote-patroon niet matchen met regel "%s".',
   '%s is not a valid JSON object.' => '%s is geen geldig JSON-object.',
-  'Checking out bookmark "%s".' => 'Bookmark "%s" wordt uitgecheckt.',
+  'Checking out bookmark "%s".' => 'Bladwijzer "%s" wordt uitgecheckt.',
   'Braces for an empty block statement shouldn\'t contain only whitespace.' => 'Accolades voor een lege blokinstructie mogen niet alleen witruimte bevatten.',
   'Changes Planned' => 'Geplande wijzigingen',
   'Preparing merge into the empty state.' => 'Merge naar de lege status wordt voorbereid.',
   'Landing the active branch, "%s".' => 'De actieve branch "%s" wordt geland.',
   'Closure Linter' => 'Closure Linter',
-  '(... %s more revisions ...)' => '(... nog %s versies ...)',
+  '(... %s more revisions ...)' => array(
+    '(... nog %s versie ...)',
+    '(... nog %s versies ...)',
+  ),
   'Server URI "%s" must include the "http" or "https" protocol. It should be in the form "%s".' => 'Server-URI "%s" moet het protocol "http" of "https" bevatten. Het moet de vorm "%s" hebben.',
   'Definition of symbol "%s" (of type "%s") in file "%s" in library "%s" duplicates prior definition in file "%s" in library "%s".' => 'Definitie van symbool "%s" (van type "%s") in bestand "%s" in bibliotheek "%s" dupliceert eerdere definitie in bestand "%s" in bibliotheek "%s".',
   'Invalid Executable' => 'Foutief uitvoerbaar bestand',
@@ -193,29 +380,33 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Will merge into remote "%s" by default, because this is the remote the change is landing onto.' => 'Wordt standaard gemerged naar remote "%s", omdat dit de remote is waarop de wijziging wordt geland.',
   'Option \'%s\' requires a parameter.' => 'Optie \'%s\' vereist een parameter.',
   'Two objects (of classes "%s" and "%s", descendants of ancestor class "%s") returned the same key from "%s" ("%s"), but each object in this class map must be identified by a unique key.' => 'Twee objecten (van klassen "%s" en "%s", afstammelingen van voorouderklasse "%s") gaven dezelfde sleutel terug van "%s" ("%s"), maar elk object in deze klassemap moet worden geïdentificeerd door een unieke sleutel.',
+  'Asymetric property visibility for static properties is not available before PHP 8.5.' => 'De zichtbaarheid van asymmetrische eigenschappen voor statische eigenschappen is vóór PHP 8.5 niet beschikbaar.',
+  'PHP versions older then %s have known security vulnerabilities when considering PHAR files; Refusing to inspect file %s. See %s' => 'PHP-versies ouder dan %s vertonen bekende veiligheidslekken met betrekking tot PHAR-bestanden; het inspecteren van het bestand %s wordt geweigerd. Zie %s',
   'Unable to determine the remote URI for this repository.' => 'Kan de externe URI voor deze repository niet bepalen.',
   'Set key "%s" = %s in %s config.' => 'Sleutel "%s" = %s ingesteld in %s-configuratie.',
   'This workflow has not yet been updated to Toolsets and can not retrieve a modern WorkingCopy object. Use "getWorkingCopyIdentity()" to retrieve a previous-generation object.' => 'Deze workflow is nog niet bijgewerkt naar Toolsets en kan geen modern WorkingCopy-object ophalen. Gebruik "getWorkingCopyIdentity()" om een object van de vorige generatie op te halen.',
   'This codebase targets PHP %s on Windows, but `%s()` is not available there until PHP %s.' => 'Deze codebase richt zich op PHP %s op Windows, maar `%s()` is daar pas beschikbaar vanaf PHP %s.',
   'Deleted key "%s" from %s config (was %s).' => 'Sleutel "%s" verwijderd uit %s-configuratie (was %s).',
   'Invalid Modifiers' => 'Incorrecte modifiers',
+  'The pipe operator is not available before PHP 8.5.' => 'De pijplijn-operator is vóór PHP 8.5 niet beschikbaar.',
   'List of command aliases.' => 'Lijst van opdrachtaliassen.',
   'Working Copy State' => 'Status van de werkkopie',
   'Space found before semicolon.' => 'Spatie gevonden vóór puntkomma.',
   'Use `%s` for checking if the string contains something.' => 'Gebruik `%s` om te controleren of de tekenreeks iets bevat.',
   'Perforce mode does not support the "merge" land strategy. Use the "squash" land strategy when landing to a Perforce remote (you can use "--squash" to select this strategy).' => 'Perforce-modus ondersteunt de "merge"-landstrategie niet. Gebruik de "squash"-landstrategie bij het landen naar een Perforce-remote (u kunt "--squash" gebruiken om deze strategie te selecteren).',
+  'Method Spacing' => 'Afstand tussen methoden',
   'Use "--types" to select between alternatives.' => 'Gebruik "--types" om te kiezen tussen alternatieven.',
   'Revision "%s" does not exist, or you do not have permission to see it.' => 'Versie "%s" bestaat niet, of u hebt geen toestemming om deze te bekijken.',
   'Build Symbol "%s"' => 'Buildsymbool "%s"',
-  'Landing the active bookmark, "%s".' => 'De actieve bookmark "%s" wordt geland.',
-  'Download content from S3.' => 'Inhoud van S3 downloaden.',
+  'Landing the active bookmark, "%s".' => 'De actieve bladwijzer "%s" gaat landen.',
+  'Release lock?' => 'Vergrendeling opheffen?',
   'Copied Here' => 'Hier gekopieerd',
   'Array item with key \'%s\' must be an instance of %s, %s given.' => 'Array-item met sleutel \'%s\' moet een instantie zijn van %s, %s opgegeven.',
   'Aborted generation of gigantic diff.' => 'Genereren van gigantische diff afgebroken.',
   'This line will be added:' => 'Deze regel wordt toegevoegd:',
   'Multiple "abstract" modifiers are not allowed.' => 'Meerdere "abstract"-modifiers zijn niet toegestaan.',
   'Expected value to be a list, got "%s".' => 'Verwachtte dat de waarde een lijst is, maar kreeg "%s".',
-  'Reading data from stdin...' => 'Gegevens lezen van stdin...',
+  'Array style to prefer.' => 'Voorkeur voor array-stijl.',
   'No lexer rule matched input at char %d.' => 'Geen lexerregel kwam overeen met invoer op teken %d.',
   'Unhandled parser rule \'%s\'!' => 'Niet-afgehandelde regel \'%s\'!',
   'HTTP Status Code: %d' => 'HTTP-statuscode: %d',
@@ -223,25 +414,106 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Apply patches suggested by lint to the working copy without prompting.' => 'Patches die door lint worden voorgesteld zonder bevestiging toepassen op de werkkopie.',
   'After merging, push changes onto a specified branch.' => 'Na het mergen, wijzigingen pushen naar een opgegeven branch.',
   'Commit message for \'%s\' has explicit \'Differential Revision\'.' => 'Commitbericht voor \'%s\' heeft een expliciete \'Differential Revision\'.',
-  'Upload content to S3.' => 'Inhoud uploaden naar S3.',
   'The token "%s" is not formatted correctly. API tokens should be 32 characters long. Make sure you visited the correct URI and copy/pasted the token correctly.' => 'Het token "%s" is niet correct opgemaakt. API-tokens moeten 32 tekens lang zijn. Controleer of u de juiste URI hebt bezocht en het token correct hebt gekopieerd en geplakt.',
-  '`%s` methods cannot contain a body. This construct will cause a fatal error.' => '`%s`-methoden mogen geen body bevatten. Deze constructie veroorzaakt een fatale fout.',
-  'Install PEP8 using `%s`.' => 'PEP8 installeren met `%s`.',
+  '`%s` methods cannot contain a body. This construct will cause a fatal error.' => '`%s`-methoden mogen geen body bevatten. Deze constructie veroorzaakt een onherstelbare fout.',
+  'Install shell completion so you can use the "tab" key to autocomplete
+commands and flags in your shell for toolsets and workflows.
+
+The **bash** shell is supported.
+
+**Installing Completion**
+
+To install shell completion, run the command:
+
+  $ arc shell-complete
+
+This will install shell completion into your current shell. After installing,
+you may need to start a new shell (or open a new terminal window) to pick up
+the updated configuration.
+
+Once installed, completion should work across all toolsets.
+
+**Using Completion**
+
+After completion is installed, use the "tab" key to automatically complete
+workflows and flags. For example, if you type:
+
+  $ arc diff --draf<tab>
+
+...your shell should automatically expand the flag to:
+
+  $ arc diff --draft
+
+**Updating Completion**
+
+To update shell completion, run the same command:
+
+  $ arc shell-complete
+
+You can update shell completion without reinstalling it by running:
+
+  $ arc shell-complete --generate
+
+You may need to update shell completion if:
+
+  - you install new toolsets; or
+  - you move this software on disk; or
+  - you upgrade this software and the new version fixes shell completion bugs.' => 'Installeer shell-aanvulling, zodat u met de “tab“-toets commando’s en vlaggen in uw shell automatisch aan kunt vullen voor toolsets en workflows.
+
+De **bash**-shell wordt ondersteund.
+
+**Aanvulling installeren**
+
+Met deze opdracht installeert u de shell-aanvulling:
+
+  $ arc shell-complete
+
+Hiermee wordt shell-aanvulling in uw huidige shell geïnstalleerd. Na de installatie moet u mogelijk een nieuwe shell starten (of een nieuw terminalvenster openen) om de bijgewerkte configuratie te activeren.
+
+Na installatie zou de aanvulling in alle toolsets moeten werken.
+
+**Aanvulling gebruiken**
+
+Nadat de aanvulling is geïnstalleerd, kunt u met u de “tab“-toets workflows en vlaggen automatisch aanvullen. Als u bijvoorbeeld typt:
+
+  $ arc diff --draf<tab>
+
+...zou uw shell de vlag automatisch moeten aanvullen tot:
+
+  $ arc diff --draft
+
+**Aanvulling bijwerken**
+
+Met dezelfde opdracht kunt u de shell-aanvulling bijwerken:
+
+  $ arc shell-complete
+
+En zo kunt u de shell-aanvulling bijwerken zonder deze opnieuw te installeren:
+
+  $ arc shell-complete --generate
+
+Het kan nodig zijn om de shell-aanvulling bij te werken als:
+
+  - u nieuwe toolsets installeert; of
+  - u deze software op de schijf verplaatst; of
+  - u deze software bijwerkt en de nieuwe versie fouten in de shell-aanvulling verhelpt.',
   'The version control system ("%s") in the current working copy does not support bookmarks.' => 'Het versiebeheersysteem ("%s") in de huidige werkkopie ondersteunt geen bookmarks.',
   'Aborted workflow to fix UTF-8.' => 'Workflow afgebroken om UTF-8 te herstellen.',
-  'Extension ("%s") defines invalid configuration with key "%s". This key is reserved.' => 'Extensie ("%s") definieert incorrecte configuratie met sleutel "%s". Deze sleutel is gereserveerd.',
+  'Extension ("%s") defines invalid configuration with key "%s". This key is reserved.' => 'Uitbreiding ("%s") definieert incorrecte configuratie met sleutel "%s". Deze sleutel is gereserveerd.',
   'Missing required parameters: %s' => 'Ontbrekende vereiste parameters: %s',
   'Interrupted by SIGINT (^C).' => 'Onderbroken door SIGINT (^C)',
   'This codebase targets PHP %s, but `%s()` was removed in PHP %s.' => 'Deze codebase richt zich op PHP %s, maar `%s()` is verwijderd in PHP %s.',
   'Command-Line Input' => 'Opdrachtregelinvoer',
-  'Specify an AWS S3 bucket to access with --bucket.' => 'Geef een AWS S3-bucket op om te benaderen met --bucket.',
   'NOT REVISION AUTHOR' => 'NIET DE AUTEUR VAN DE VERSIE',
-  'Normally, you should update these %s revision(s), submit them for review, and wait for reviewers to accept them before you continue. To resubmit a revision for review, either: update the revision with revised changes; or use "Request Review" from the web interface.' => 'Normaal gesproken moet u deze %s versie(s) bijwerken, ter beoordeling indienen en wachten tot beoordelaars ze accepteren voordat u doorgaat. Om een versie opnieuw ter beoordeling in te dienen: werk de versie bij met herziene wijzigingen, of gebruik "Request Review" vanuit de webinterface.',
+  'Normally, you should update these %s revision(s), submit them for review, and wait for reviewers to accept them before you continue. To resubmit a revision for review, either: update the revision with revised changes; or use "Request Review" from the web interface.' => array(
+    'Normaal gesproken moet u deze versie bijwerken, ter beoordeling indienen en wachten tot beoordelaars die accepteren voordat u doorgaat. Om een versie opnieuw ter beoordeling in te dienen: werk de versie bij met herziene wijzigingen, of gebruik "Request Review" vanuit de webinterface.',
+    'Normaal gesproken moet u deze %s versies bijwerken, ter beoordeling indienen en wachten tot beoordelaars die accepteren voordat u doorgaat. Om een versie opnieuw ter beoordeling in te dienen: werk de versie bij met herziene wijzigingen, of gebruik "Request Review" vanuit de webinterface.',
+  ),
   'Encountered two "%s" lines ("%s", "%s") while parsing raw commit blob, expected at most one: %s' => 'Twee "%s"-regels ("%s", "%s") aangetroffen bij het verwerken van de ruwe commitblob, verwachtte er maximaal één: %s',
   'Two subclasses of "%s" ("%s" and "%s") define locales with the same locale code ("%s"). Each locale must have a unique locale code.' => 'Twee subklassen van "%s" ("%s" en "%s") definiëren taalregio\'s met dezelfde taalregiocode ("%s"). Elke taalregio moet een unieke taalregiocode hebben.',
   'Specify only one paste to retrieve.' => 'Geef slechts één paste op om op te halen.',
   'Argument "%s" conflicts with itself!' => 'Argument "%s" conflicteert met zichzelf!',
-  'Normally, a new branch (git) or bookmark (hg) is created and then the patch is applied and committed in the new branch/bookmark. This flag cherry-picks the resultant commit onto the original branch and deletes the temporary branch.' => 'Normaal gesproken wordt een nieuwe branch (git) of bookmark (hg) aangemaakt en vervolgens wordt de patch toegepast en gecommit in de nieuwe branch/bookmark. Deze vlag cherry-pickt de resulterende commit naar de oorspronkelijke branch en verwijdert de tijdelijke branch.',
+  'Normally, a new branch (git) or bookmark (hg) is created and then the patch is applied and committed in the new branch/bookmark. This flag cherry-picks the resultant commit onto the original branch and deletes the temporary branch.' => 'Normaal gesproken wordt een nieuwe branch (git) of bladwijzer (hg) aangemaakt en vervolgens wordt de patch toegepast en gecommit in de nieuwe branch/bladwijzer. Deze vlag cherry-pickt de resulterende commit naar de oorspronkelijke branch en verwijdert de tijdelijke branch.',
   'Saving local state (at "%s" on branch "%s").' => 'Lokale status opslaan (op "%s" op branch "%s").',
   'Stash these changes and continue?' => 'Deze wijzigingen stashen en doorgaan?',
   'Push to a remote other than the default.' => 'Pushen naar een andere remote dan de standaard.',
@@ -255,12 +527,15 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
 %s' => '%s: configuratie heeft een \'%s\' benoemde vanggroep \'%s\' vastgelegd. Scriptuitvoer:
 %s',
   'Argument short aliases must be exactly one character long. \'%s\' is invalid.' => 'Korte aliassen voor argumenten moeten precies één teken lang zijn. \'%s\' is incorrect.',
+  'Block for up to __n__ seconds waiting for the lock.' => 'Blokkeer gedurende maximaal __n__ seconden in afwachting van de vergendeling.',
   'Updating working copy...' => 'Werkkopie bijwerken...',
   'The "HOME" environment variable is not defined, so this workflow can not identify where to install shell completion.' => 'De omgevingsvariabele "HOME" is niet gedefinieerd, dus deze workflow kan niet bepalen waar shell-aanvulling geïnstalleerd moet worden.',
   'Language constructs do not require parentheses.' => 'Taalconstructies vereisen geen haakjes.',
   'Failed to read from %s' => 'Lezen van %s is mislukt',
   'Future already has a key ("%s") assigned.' => 'Future heeft al een sleutel ("%s") toegewezen.',
+  'Failed to set configured locale %s, using en_US locale' => 'Het instellen van de geconfigureerde landinstelling %s is mislukt; de landinstelling en_US wordt gebruikt',
   'URI \'%s\' must be fully qualified with \'%s\' scheme.' => 'URI \'%s\' moet volledig gekwalificeerd zijn met \'%s\'-schema.',
+  'command' => 'opdracht',
   'Detects common misspellings of English words.' => 'Detecteert veelvoorkomende spelfouten in Engelse woorden.',
   'Inspect internal object properties.' => 'Interne objecteigenschappen inspecteren.',
   'Unknown raw diff source.' => 'Onbekende ruwe diff-bron.',
@@ -277,7 +552,6 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Updating commit message...' => 'Commitbericht bijwerken...',
   'Failed to open filesystem path "%s" for writing.' => 'Kan bestandssysteempad "%s" niet openen om te schrijven.',
   'Config: Reading user configuration file "%s"...' => 'Configuratie: gebruikersconfiguratiebestand "%s" lezen...',
-  'Specify an AWS S3 object key to access with --key.' => 'Geef een AWS S3-objectsleutel op om te benaderen met --key.',
   'This client version does not support staging this repository.' => 'Deze clientversie ondersteunt het stagen van deze repository niet.',
   'Run an external script, then parse its output with a regular expression. This is a generic binding that can be used to run custom lint scripts.' => 'Een extern script uitvoeren en vervolgens de uitvoer verwerken met een reguliere expressie. Dit is een generieke binding die kan worden gebruikt om aangepaste lintscripts uit te voeren.',
   'Unable to detect any supported shell, so autocompletion rules can not be installed. Use "--shell" to select a shell.' => 'Kan geen ondersteunde shell detecteren, dus autoaanvullingsregels kunnen niet worden geïnstalleerd. Gebruik "--shell" om een shell te selecteren.',
@@ -285,23 +559,32 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Future graph is stalled: some futures are held, but no futures are waiting or working. The graph can never resolve.' => 'Future-graaf is vastgelopen: sommige futures worden vastgehouden, maar geen futures wachten of werken. De graaf kan nooit worden opgelost.',
   'Workflow ("%s") generates two prompts with the same key ("%s"). Each prompt a workflow generates must have a unique key.' => 'Workflow ("%s") genereert twee prompts met dezelfde sleutel ("%s"). Elke prompt die een workflow genereert moet een unieke sleutel hebben.',
   'Constants should be uppercase.' => 'Constanten moeten in hoofdletters zijn.',
+  'Named arguments are not available before PHP 8.0.' => 'Benoemde argumenten zijn vóór PHP 8.0 niet beschikbaar.',
   'Create a draft revision so you can look over your changes before involving anyone else. Other users will not be notified about the revision until you later use "Request Review" to publish it. You can still share the draft by giving someone the link.' => 'Maak een conceptversie aan zodat u uw wijzigingen kunt bekijken voordat u anderen erbij betrekt. Andere gebruikers worden pas op de hoogte gesteld van de versie wanneer u later "Request Review" gebruikt om deze te publiceren. U kunt het concept nog steeds delen door iemand de link te geven.',
   'Convention: spell keyword `%s` as `%s`.' => 'Conventie: schrijf sleutelwoord `%s` als `%s`.',
+  '%3dms' => '%3d ms',
+  'Octal notation prefixes are not available before PHP 8.1.' => 'De voorvoegsels voor octale notatie zijn vóór PHP 8.1 niet beschikbaar.',
   'Expected JSON response from GitHub.' => 'JSON-antwoord van GitHub verwacht.',
+  'Print symbol map to stdout instead of writing it to the map file.' => 'Symboolkaart naar standaarduitvoer in plaats van het kaartbestand schrijven.',
   'No type ID for node type name \'%s\' in \'%s\' AAST.' => 'Geen type-ID voor knooppunttypenaam \'%s\' in \'%s\' AAST.',
   'Update the revision comments, then save and exit.' => 'Werk de versieopmerkingen bij, sla op en sluit af.',
   'Function Call Should Be Type Cast' => 'Functieaanroep moet een typecast zijn',
   '`%s` Unreliable' => '`%s` onbetrouwbaar',
   'Workflow has no name!' => 'Workflow heeft geen naam!',
+  'The "arc anoid" workflow requires "python3" to be available in your $PATH.' => 'Voor de werkstroom “arc anoid” moet “python3” in uw $PATH staan.',
   'Confused by empty line' => 'In de war door lege regel',
-  'Follow naming conventions: parameters should be named using `%s`' => 'Volg naamgevingsconventies: parameters moeten worden benoemd met `%s`',
+  'Follow naming conventions: parameters should be named using `%s`' => 'Volg de naamgevingsrichtlijnen: parameters moeten met `%s` worden benoemd.',
   'Argument "%s" conflicts with argument "%s"%s' => 'Argument "%s" conflicteert met argument "%s"%s',
   'FETCHED' => 'OPGEHAALD',
   '%s may only write strings!' => '%s mag alleen tekenreeksen schrijven!',
   'Show the command which would be issued, but do not actually commit anything.' => 'De opdracht weergeven die zou worden uitgevoerd, maar niets daadwerkelijk committen.',
-  'Found %d matching paths for linter \'%s\'.' => '%d overeenkomende paden gevonden voor linter \'%s\'.',
+  'Found %d matching paths for linter \'%s\'.' => array(
+    '%d overeenkomend pad gevonden voor linter \'%s\'.',
+    '%d overeenkomende paden gevonden voor linter \'%s\'.',
+  ),
   'Could not parse URI \'%s\'.' => 'Kan URI \'%s\' niet verwerken.',
   'LOAD STATE' => 'STATUS LADEN',
+  'PHP Source file to analyze.' => 'Het te analyseren PHP-bronbestand.',
   '(Run `%s` for more details.)' => '(Voer `%s` uit voor meer details.)',
   'Use "arc alias" to configure aliases, not "arc set-config".' => 'Gebruik "arc alias" om aliassen in te stellen, in plaats van "arc set-config".',
   'Desired merge strategy is ambiguous, choose an explicit strategy.' => 'Gewenste mergestrategie is dubbelzinnig, kies een expliciete strategie.',
@@ -312,13 +595,18 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Unknown signature method \'%s\'!' => 'Onbekende handtekeningmethode \'%s\'!',
   'Working Copy: Path "%s" is not in any working copy.' => 'Werkkopie: pad "%s" bevindt zich niet in een werkkopie.',
   'This codebase targets PHP %s, but anonymous functions were not introduced until PHP 5.3.' => 'Deze codebase richt zich op PHP %s, maar anonieme functies zijn pas geïntroduceerd in PHP 5.3.',
-  'Bookmark "%s"' => 'Bookmark "%s"',
+  'rebuild the library map file' => 'het bibliotheekkaartbestand opnieuw opbouwen',
+  'Bookmark "%s"' => 'Bladwijzer "%s"',
   'Use of Removed Function "each()"' => 'Gebruik van verwijderde functie "each()"',
-  'Land %s revision(s) anyway, despite ongoing and failed builds?' => '%s versie(s) toch landen, ondanks lopende en mislukte builds?',
+  'Land %s revision(s) anyway, despite ongoing and failed builds?' => array(
+    '%s versie toch laten landen, ondanks lopende en mislukte builds?',
+    '%s versies toch laten landen, ondanks lopende en mislukte builds?',
+  ),
   'Uploaded binary data for "%s".' => 'Binaire gegevens geüpload voor "%s".',
   'The symbol map for library \'%s\' (at \'%s\') claims this %s is defined in \'%s\', but loading that source file did not cause the %s to become defined.' => 'De symboolmap voor bibliotheek \'%s\' (op \'%s\') beweert dat deze %s is gedefinieerd in \'%s\', maar het laden van dat bronbestand heeft er niet voor gezorgd dat de %s werd gedefinieerd.',
   'Future has already started; futures can not start more than once.' => 'Future is al gestart; futures kunnen niet meer dan één keer starten.',
   'Unable to upload file: the server refused to accept file "%s". This usually means it is too large.' => 'Kan bestand niet uploaden: de server weigerde bestand "%s" te accepteren. Dit betekent meestal dat het te groot is.',
+  '%s requires the %s algorithm but %s disables %s by default. Consider setting %s or export %s.' => '%s vereist het algoritme %s, maar %s schakelt %s standaard uit. Overweeg om %s in te stellen of %s te exporteren.',
   'Configuration option "%s" is not valid. Configuration options passed with command line flags must be in the form "name=value".' => 'Configuratieoptie "%s" is niet geldig. Configuratieopties die worden doorgegeven met opdrachtregelvlaggen moeten de vorm "naam=waarde" hebben.',
   'Language for the paste.' => 'Taal voor de paste.',
   'Profile script execution and write results to a file.' => 'Scriptuitvoering profileren en resultaten naar een bestand schrijven.',
@@ -329,18 +617,27 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'NOTE: commit %s could not be completely parsed:' => 'OPMERKING: commit %s kon niet volledig worden verwerkt:',
   'Updating library: %s' => 'Bibliotheek bijwerken: %s',
   'Importing `%s` with `%s` is unnecessary because the aliased name is identical to the imported symbol name.' => 'Het importeren van `%s` met `%s` is onnodig omdat de aliasnaam identiek is aan de geïmporteerde symboolnaam.',
+  'Combining union and intersection types is not supported before PHP 8.2.' => 'Het combineren van verenigings- en doorsnedetypen wordt vóór PHP 8.2 niet ondersteund.',
+  '%s OPEN PARENT REVISION(S)' => array(
+    '%s OPEN BOVENLIGGENDE VERSIE',
+    '%s OPEN BOVENLIGGENDE VERSIES',
+  ),
   'Since more than one revision in Differential matches this working copy, you will be asked which revision you want to update if you run \'%s\'.' => 'Omdat meer dan één versie in Differential overeenkomt met deze werkkopie, wordt u gevraagd welke versie u wilt bijwerken als u \'%s\' uitvoert.',
   'Argument "--force" for "arc browse" is deprecated. Use "--type %s" instead.' => 'Argument "--force" voor "arc browse" is verouderd. Gebruik in plaats daarvan "--type %s".',
   'CHECKOUT' => 'CHECKOUT',
   'There should be no whitespace before the object operator.' => 'Er mag geen witruimte staan vóór de objectoperator.',
   'Failed to update library: %s' => 'Bijwerken van bibliotheek mislukt: %s',
-  'Land %s revision(s) with changes planned?' => '%s versie(s) landen met geplande wijzigingen?',
+  'Land %s revision(s) with changes planned?' => array(
+    '%s versie laten landen met geplande wijzigingen?',
+    '%s versies laten landen met geplande wijzigingen?',
+  ),
   'When linting git repositories, amend HEAD with autofix patches suggested by lint without prompting.' => 'Bij het linten van git-repository\'s, HEAD wijzigen met autofix-patches die door lint worden voorgesteld zonder bevestiging.',
   'Base commit is not in local repository; trying to fetch.' => 'Basiscommit bevindt zich niet in de lokale repository; ophalen wordt geprobeerd.',
   'File Error' => 'Bestandsfout',
   'Specify a runtime configuration value.' => 'Geef een runtimeconfiguratiewaarde op.',
   'Avoid the use of inner functions.' => 'Vermijd het gebruik van interne functies.',
   'None of the configured binaries can be located.' => 'Geen van de geconfigureerde binaire bestanden kan worden gevonden.',
+  'Generators are not available before PHP 5.5.' => 'Generatoren zijn vóór PHP 5.5 niet beschikbaar.',
   'Start rule \'%s\' does not appear in the rules for the grammar. Use %s to choose a different start rule, or add a rule named \'%s\'.' => 'Startregel \'%s\' komt niet voor in de regels voor de grammatica. Gebruik %s om een andere startregel te kiezen, of voeg een regel toe met de naam \'%s\'.',
   'IP address "%s" is not properly formatted. Expected an IPv4 address like "%s".' => 'IP-adres "%s" is niet correct opgemaakt. Verwachtte een IPv4-adres zoals "%s".',
   'Merge into the empty state instead of an existing state. This mode is primarily useful when creating a new repository, and selected automatically if the "onto" ref does not exist and the "into" state is not specified.' => 'Mergen naar de lege status in plaats van een bestaande status. Deze modus is voornamelijk nuttig bij het aanmaken van een nieuwe repository en wordt automatisch geselecteerd als de "onto"-ref niet bestaat en de "into"-status niet is opgegeven.',
@@ -349,7 +646,10 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Install Golint using `%s`.' => 'Installeer Golint met `%s`.',
   'Command %s failed: %s' => 'Opdracht %s is mislukt: %s',
   'Holding changes locally, they have not been submitted.' => 'Wijzigingen worden lokaal vastgehouden, ze zijn niet ingediend.',
-  'These %s path(s) will NOT be committed. Commit this revision anyway?' => 'Deze %s pad(en) worden NIET gecommit. Deze versie toch committen?',
+  'These %s path(s) will NOT be committed. Commit this revision anyway?' => array(
+    'Dit pad wordt NIET gecommit. Deze versie toch committen?',
+    'Deze paden worden NIET gecommit. Deze versie toch committen?',
+  ),
   'Needs Revision' => 'Heeft versie nodig',
   '<bytes = %s>' => '<bytes = %s>',
   'Branch "%s"' => 'Branch "%s"',
@@ -363,24 +663,36 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Unknown library version \'%s\'!' => 'Onbekende bibliotheekversie \'%s\'!',
   'Set a default URI with `arc set-config phabricator.uri <uri>`.' => 'Stel een standaard-URI in met `arc set-config phabricator.uri <uri>`.',
   'Saving response "%s" to prompt "%s".' => 'Antwoord "%s" opslaan voor prompt "%s".',
+  'Expected method "%s->%s()" to return a unique key, got "%s" from %s objects at indexes: %s.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'Verwachtte dat methode "%s->%s()" een unieke sleutel teruggeeft, maar kreeg "%s" van %s object op indexen: %s.',
+          'Verwachtte dat methode "%s->%s()" een unieke sleutel teruggeeft, maar kreeg "%s" van %s objecten op indexen: %s.',
+        ),
+      ),
+    ),
+  ),
   'Unrecognized property status \'%s\'.' => 'Niet-herkende eigenschapsstatus \'%s\'.',
   'REPOSITORY' => 'REPOSITORY',
   'No pushable remote "%s" exists. Use the "--onto-remote" flag to choose a valid, pushable remote to land changes onto.' => 'Er bestaat geen pushbare remote "%s". Gebruik de vlag "--onto-remote" om een geldige, pushbare remote te kiezen om wijzigingen op te landen.',
-  'You must specify AWS credentials. Use --access-key and --secret-key to provide root credentials.' => 'U moet AWS-aanmeldgegevens opgeven. Gebruik --access-key en --secret-key om rootaanmeldgegevens op te geven.',
-  'Delete an object from S3.' => 'Een object verwijderen uit S3.',
   'Workflow "%s" is unknown. Supported workflows are: %s.' => 'Workflow "%s" is onbekend. Ondersteunde workflows zijn: %s.',
   'Configuration value "%s" is set to "%s".' => 'Configuratiewaarde "%s" is ingesteld op "%s".',
   'Describe the changes in this new revision.' => 'Beschrijf de wijzigingen in deze nieuwe versie.',
-  'NEW BOOKMARK' => 'NIEUWE BOOKMARK',
+  'NEW BOOKMARK' => 'NIEUWE BLADWIJZER',
   'Commit symbol "%s" contains a newline. This is not a valid character in a Mercurial commit symbol.' => 'Commitsymbool "%s" bevat een nieuwe regel. Dit is geen geldig teken in een Mercurial-commitsymbool.',
   'Install JSCS using `%s`.' => 'Installeer JSCS met `%s`.',
   'Invalid Octal Numeric Scalar' => 'Incorrecte octale numerieke scalar',
   '%s failed to parse file data %d: %s' => '%s kon bestandsgegevens voor %d niet verwerken: %s',
+  'LOCK ACQUIRED' => 'VERGRENDELING VERWORVEN',
   'Configuration value "%s" is empty.' => 'Configuratiewaarde "%s" is leeg.',
   'Invalid command "%s". Did you mean:' => 'Incorrecte opdracht "%s". Bedoelde u:',
   'Deleted key "%s" from %s config.' => 'Sleutel "%s" verwijderd uit %s-configuratie.',
   'Unable to verify request signature, signature format is not known.' => 'Kan de verzoekhandtekening niet verifiëren, het handtekeningformaat is niet bekend.',
-  'Follow naming conventions: class constants should be named using `%s`' => 'Volg naamgevingsconventies: klasseconstanten moeten worden benoemd met `%s`',
+  'Follow naming conventions: class constants should be named using `%s`' => 'Volg de naamgevingsrichtlijnen: klasseconstanten moeten met `%s` worden benoemd.',
   'Emit machine-readable JSON. EXPERIMENTAL! Probably does not work!' => 'Machineleesbare JSON uitvoeren. EXPERIMENTEEL! Werkt waarschijnlijk niet!',
   'UNIT OKAY' => 'UNIT OK',
   'TO INSTALL: %s' => 'TE INSTALLEREN: %s',
@@ -398,7 +710,7 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Expected no exception, got exception of class "%s".' => 'Verwachtte geen uitzondering, maar kreeg uitzondering van klasse "%s".',
   'Subversion does not use base commits.' => 'Subversion gebruikt geen basiscommits.',
   'Do not use the PHP closing tag, `%s`.' => 'PHP-sluittag `%s` niet gebruiken.',
-  'it is the first ancestor of %s that either has a bookmark, or is already in the remote and it matched the rule %s in your %s \'base\' configuration' => 'het is de eerste voorouder van %s die een bookmark heeft, of al in de remote staat en overeenkomt met de regel %s in uw %s \'base\'-configuratie',
+  'it is the first ancestor of %s that either has a bookmark, or is already in the remote and it matched the rule %s in your %s \'base\' configuration' => 'het is de eerste voorouder van %s die een bladwijzer heeft, of al in de remote staat en overeenkomt met de regel %s in uw %s \'base\'-configuratie',
   'Found unexpected surplus key "%s" where no such key was expected.' => 'Onverwachte overtollige sleutel "%s" gevonden waar geen dergelijke sleutel werd verwacht.',
   'You specified %s but %s is not available, so coverage can not be enabled for %s.' => 'U hebt %s opgegeven, maar %s is niet beschikbaar, dus dekking kan niet worden ingeschakeld voor %s.',
   'Classes which should not be used because they represent the unsafe usage of dynamic strings.' => 'Klassen die niet mogen worden gebruikt omdat ze het onveilige gebruik van dynamische tekenreeksen vertegenwoordigen.',
@@ -407,9 +719,12 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'No lint messages.' => 'Geen lintberichten.',
   'Error in parsing \'%s\' file, for linter \'%s\'.' => 'Fout bij het verwerken van bestand \'%s\', voor linter \'%s\'.',
   'ONGOING BUILDS' => 'LOPENDE BUILDS',
+  'UNABLE TO ACQUIRE LOCK:' => 'NIET IN STAAT VERGRENDELING TE VERWERVEN:',
   'REBASE CONFLICT' => 'REBASE-CONFLICT',
+  'Follow naming conventions: enums should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: enumeraties moeten met `%s` worden benoemd.',
   'Raw input file was written to: %s' => 'Ruw invoerbestand is geschreven naar: %s',
-  'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with the alias of another configuration option ("%s"). The key and aliases of each option must be unique.' => 'Configuratieoptie ("%s") gedefinieerd door extensie "%s" heeft een alias ("%s") die conflicteert met de alias van een andere configuratieoptie ("%s"). De sleutel en aliassen van elke optie moeten uniek zijn.',
+  'Default value for parameters with a false type hint can only be false.' => 'De standaardwaarde voor parameters met een typehint `false` kan alleen `false` zijn.',
+  'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with the alias of another configuration option ("%s"). The key and aliases of each option must be unique.' => 'Configuratieoptie ("%s") gedefinieerd door uitbreiding "%s" heeft een alias ("%s") die conflicteert met de alias van een andere configuratieoptie ("%s"). De sleutel en aliassen van elke optie moeten uniek zijn.',
   'Enter a commit message.' => 'Voer een commitbericht in.',
   'Cover changes since a specific revision.' => 'Wijzigingen dekken sinds een specifieke versie.',
   'Implicit Constructor' => 'Impliciete constructor',
@@ -418,6 +733,28 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Value "%s" is not valid, specify a JSON list: %s' => 'Waarde "%s" is niet geldig, geef een JSON-lijst op: %s',
   'Specify at most one revision name.' => 'Geef maximaal één versienaam op.',
   'Two argument specifications have the same short alias ("%s").' => 'Twee argumentspecificaties hebben dezelfde korte alias ("%s").',
+  'In multi-line function or method calls, each argument should be on a separate line.' => 'Bij meerregelige functie- of methodeaanroepen moet elk argument op een aparte regel staan.',
+  'Open a file or object (like a task or revision) in a local web browser.
+
+  $ arc browse README   # Open a file in Diffusion.
+  $ arc browse T123     # View a task.
+  $ arc browse HEAD     # View a symbolic commit.
+
+To choose a browser binary to invoke, use:
+
+  $ arc set-config browser __browser-binary__
+
+If no browser is set, the command will try to guess which browser to use.' => 'Opent een bestand of object (zoals een taak of versie) in een lokale webbrowser.
+
+  $ arc browse README   # Open een bestand in Diffusion.
+  $ arc browse T123     # Bekijk een taak.
+  $ arc browse HEAD     # Bekijk een symbolische commit.
+
+Om een browserbinary te kiezen:
+
+  $ arc set-config browser __browser-binary__
+
+Als er geen browser is ingesteld, probeert de opdracht te raden welke browser moet worden gebruikt.',
   'Call to "assertCaught(..., <junk>, ...)" passed bad value for test result. Expected null, Exception, or Throwable; got: %s.' => 'Aanroep van "assertCaught(..., <junk>, ...)" heeft een incorrecte waarde doorgegeven voor het testresultaat. Verwachtte null, Exception of Throwable; kreeg: %s.',
   'You may land one branches and any number of bookmarks in a single operation.' => 'U kunt één branch en een willekeurig aantal bookmarks in één bewerking landen.',
   'Unknown lint severity "%s". Valid severities are: %s.' => 'Onbekende linternst "%s". Geldige ernstniveaus zijn: %s.',
@@ -438,6 +775,8 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Expected JSON response from Postmark.' => 'JSON-antwoord van Postmark verwacht.',
   'Failed to convert a hunk from \'%s\' to UTF-8. Check that the specified encoding is correct.' => 'Kan een hunk niet converteren van \'%s\' naar UTF-8. Controleer of de opgegeven codering correct is.',
   'Bad Charset' => 'Foutieve tekenset',
+  'Wrote PHP definition.' => 'PHP-definitie geschreven.',
+  'Throwing an `%s` from within the `%s` method is not allowed before PHP 7.4.' => 'Het melden van `%s` vanuit de methode `%s` is vóór PHP 7.4 niet toegestaan.',
   'Version' => 'Versie',
   'REVISION' => 'VERSIE',
   'Use `%s` to detect issues with Javascript source files.' => 'Gebruik `%s` om problemen met Javascript-bronbestanden te detecteren.',
@@ -446,7 +785,7 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Executing \'%s\' failed!' => 'Uitvoeren van \'%s\' is mislukt!',
   'Which URI do you want to open?' => 'Welke URI wilt u openen?',
   'Cherry Pick Failed!' => 'Cherry-pick mislukt!',
-  'What default do you want to use? [origin/master]' => 'Welke standaard wilt u gebruiken? [origin/master]',
+  'What default do you want to use? [origin/master]' => 'Welke standaard wilt u gebruiken? [origin/main]',
   'Matching working copy directory path.' => 'Overeenkomend werkkopie-mappad.',
   'Restoring local state (to detached commit "%s").' => 'Lokale status herstellen (naar losstaande commit "%s").',
   'Unknown version control system.' => 'Onbekend versiebeheersysteem.',
@@ -455,7 +794,10 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Accept/shift conflict!' => 'Accept/shift-conflict!',
   'Dynamic `%s`' => 'Dynamische `%s`',
   'Expected %s rules to define rules for state \'%s\'.' => 'Verwachtte dat %s-regels regels definiëren voor status \'%s\'.',
-  'These %s symbol(s) do not exist in the remote. They will be created as new branches:' => 'Deze %s symbo(o)l(en) bestaan niet in de remote. Ze worden aangemaakt als nieuwe branches:',
+  'These %s symbol(s) do not exist in the remote. They will be created as new branches:' => array(
+    'Dit symbool bestaat niet in de remote. Het wordt aangemaakt als nieuwe branch:',
+    'Deze %s symbolen bestaan niet in de remote. Ze worden aangemaakt als nieuwe branches:',
+  ),
   'Incomplete implementation: %s!' => 'Onvolledige implementatie: %s!',
   'Argument names may only contain a-z, 0-9 and -, and must be at least one character long. \'%s\' is invalid.' => 'Argumentnamen mogen alleen a-z, 0-9 en - bevatten en moeten minstens één teken lang zijn. \'%s\' is incorrect.',
   'Array Separator' => 'Arrayscheidingsteken',
@@ -465,9 +807,65 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Unable to upload file: path "%s" is not a file.' => 'Kan bestand niet uploaden: pad "%s" is geen bestand.',
   'Space After Control Statement' => 'Spatie na besturingsinstructie',
   'Patch deletes file \'%s\', but the file does not exist in the working copy. Continue anyway?' => 'Patch verwijdert bestand \'%s\', maar het bestand bestaat niet in de werkkopie. Toch doorgaan?',
+  'Property hooks are not available before PHP 8.4.' => 'Property hooks zijn vóór PHP 8.4 niet beschikbaar.',
   'Unit testing raised errors, but all failing tests are unsound.' => 'Unittests hebben fouten opgeleverd, maar alle mislukte tests zijn onbetrouwbaar.',
   'Global Variables' => 'Globale variabelen',
   'IMMUTABLE WORKING COPY' => 'ONVERANDERLIJKE WERKKOPIE',
+  'Show information about prompts a workflow may execute, and review saved
+responses.
+
+**Show Prompts**
+
+To show possible prompts a workflow may execute, run:
+
+  $ arc prompts __workflow__
+
+**Saving Responses**
+
+If you always want to answer a particular prompt in a certain way, you can
+save your response to the prompt. When you encounter the prompt again, your
+saved response will be used automatically.
+
+To save a response, add "*" or "!" to the end of the response you want to save
+when you answer the prompt:
+
+  - Using "*" will save the response in user configuration. In the future,
+    the saved answer will be used any time you encounter the prompt (in any
+    project).
+  - Using "!" will save the response in working copy configuration. In the
+    future, the saved answer will be used when you encounter the prompt in
+    the current working copy.
+
+For example, if you would like to always answer "y" to a particular prompt,
+respond with "y*" or "y!" to save your response.
+' => 'Toont informatie over prompts die een workflow kan uitvoeren en geeft een
+overzicht van opgeslagen antwoorden.
+
+**Prompts weergeven**
+
+Voer het volgende uit om mogelijke prompts weer te geven die een workflow kan
+uitvoeren:
+
+  $ arc prompts __workflow__
+
+**Antwoorden opslaan**
+
+Als u een bepaalde prompt altijd op een bepaalde manier wilt beantwoorden, kunt
+u uw antwoord op de prompt opslaan. Wanneer u de prompt opnieuw tegenkomt,
+wordt uw opgeslagen antwoord automatisch gebruikt.
+
+Om een antwoord op te slaan voegt u “*” of “!” toe aan het einde van het
+antwoord dat u wilt opslaan wanneer u de prompt beantwoordt:
+
+  - Als u “*” gebruikt, wordt het antwoord opgeslagen in de
+    gebruikersconfiguratie. In de toekomst wordt het opgeslagen antwoord
+    steeds gebruikt wanneer u de prompt tegenkomt (in elk project).
+  - Als u “!” gebruikt, wordt het antwoord opgeslagen in de
+    werkkopie-instellingen. In de toekomst wordt het opgeslagen antwoord
+    gebruikt wanneer u in de huidige werkkopie de prompt tegenkomt.
+
+Als u bijvoorbeeld altijd met “j” wilt antwoorden op een bepaalde prompt,
+antwoord dan met “j*” of “j!” om uw antwoord op te slaan.',
   'Files must end in a newline.' => 'Bestanden moeten eindigen met een lege regel.',
   'You may need to open a new terminal window or launch a new shell before the changes take effect.' => 'Mogelijk moet u een nieuw terminalvenster openen of een nieuwe shell starten voordat de wijzigingen van kracht worden.',
   'The regex to process output with.' => 'De regex om de uitvoer mee te verwerken.',
@@ -478,6 +876,7 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'The use of `%s` in an anonymous closure is not available before PHP 5.4.' => 'Het gebruik van `%s` in een anonieme closure is niet beschikbaar vóór PHP 5.4.',
   'Unit test engine (of class "%s") returned invalid results when run (with method "%s"). Expected a list of "%s" objects as results, but value with key "%s" is not valid.' => 'Unittestengine (van klasse "%s") gaf incorrecte resultaten terug bij uitvoering (met methode "%s"). Verwachtte een lijst van "%s"-objecten als resultaten, maar waarde met sleutel "%s" is niet geldig.',
   'Prior to PHP 5.4, `%s` fails when given empty arrays. Prefer to write `%s` as `%s`.' => 'Vóór PHP 5.4 mislukt `%s` bij lege arrays. Schrijf bij voorkeur `%s` als `%s`.',
+  'Match expressions are not available before PHP 8.0.' => 'Overeenkomst-uitdrukkingen (match expressions) zijn vóór PHP 8.0 niet beschikbaar.',
   'You have uncommitted changes in this working copy. Commit or revert them before proceeding.' => 'U hebt niet-gecommitte wijzigingen in deze werkkopie. Commit of herstel ze voordat u doorgaat.',
   'In module `%s`, declaration `%s`.' => 'In module `%s`, declaratie `%s`.',
   'Space After Unary Prefix Operator' => 'Spatie na unaire prefixoperator',
@@ -485,7 +884,8 @@ Gebruik \'%s\' om er een te kiezen, of \'%s\' om een nieuwe versie aan te maken.
   'Call %s to build the graph out before calling %s.' => 'Roep %s aan om de graaf op te bouwen voordat u %s aanroept.',
   'These changes will land:' => 'Deze wijzigingen worden geland:',
   'Unrecognized symbol name.' => 'Niet-herkende symboolnaam.',
-  'Attempting to convert a string encoding from \'%s\' to \'%s\', but the \'%s\' PHP extension is not available. Install %s to work with encodings other than UTF-8.' => 'Poging om een tekenreekscodering te converteren van \'%s\' naar \'%s\', maar de PHP-extensie \'%s\' is niet beschikbaar. Installeer %s om met andere coderingen dan UTF-8 te werken.',
+  'Support for arbitrary expressions in the `%s` construct was not introduced until PHP 5.5, but this codebase targets an earlier version of PHP.' => 'Het gebruik van willekeurige uitdrukkingen in de constructie `%s` is pas sinds PHP 5.5 mogelijk, maar deze code is gericht op een eerdere versie van PHP.',
+  'Attempting to convert a string encoding from \'%s\' to \'%s\', but the \'%s\' PHP extension is not available. Install %s to work with encodings other than UTF-8.' => 'Poging om een tekenreekscodering te converteren van \'%s\' naar \'%s\', maar de PHP-uitbreiding \'%s\' is niet beschikbaar. Installeer %s om met andere coderingen dan UTF-8 te werken.',
   'Expected a regular expression, but value is not valid: %s' => 'Verwachtte een reguliere expressie, maar de waarde is niet geldig: %s',
   'INSTALLED' => 'GEÏNSTALLEERD',
   'Restored stashed changes to the working directory.' => 'Gestashte wijzigingen hersteld naar de werkmap.',
@@ -508,28 +908,80 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Expected exactly one argument to "browse(...)" with a token.' => 'Verwachtte precies één argument voor "browse(...)" met een token.',
   'CONFIGURED' => 'GECONFIGUREERD',
   'Unable to run a command in directory "%s".' => 'Kan geen opdracht uitvoeren in map "%s".',
+  'Return type hints are not available before PHP 7.0.' => 'Typehints voor retourwaarden zijn vóór PHP 7.0 niet beschikbaar.',
   'When updating a revision under git, edit revision information before updating.' => 'Bij het bijwerken van een versie onder git, versieinformatie bewerken vóór het bijwerken.',
   'LOCAL CHANGES' => 'LOKALE WIJZIGINGEN',
   'This codebase targets PHP %s, but `%s` was not introduced until PHP 5.3.' => 'Deze codebase richt zich op PHP %s, maar `%s` is pas geïntroduceerd in PHP 5.3.',
   'UNIT UNSOUND' => 'UNIT ONBETROUWBAAR',
+  'Invalid value for `%s`: %s.' => 'Foutieve waarde voor `%s`: %s.',
+  '    **extract-symbols.php** [__options__] __path.php__
+        Identify the symbols (clases, functions and interfaces) in a PHP
+        source file. Symbols are divided into "have" symbols (symbols the file
+        declares) and "need" symbols (symbols the file depends on). For example,
+        class declarations are "have" symbols, while object instantiations
+        with "new X()" are "need" symbols.
+
+        Dependencies on builtins and symbols marked \'@phutil-external-symbol\'
+        in docblocks are omitted without __--all__.
+
+        Symbols are reported in JSON on stdout.
+
+        This script is used internally to build maps of library
+        symbols.
+
+        It would be nice to eventually implement this as a C++ xhpast binary,
+        as it\'s relatively stable and performance is currently awful
+        (500ms+ for moderately large files).
+' => '    **extract-symbols.php** [__opties__] __pad.php__
+        Identificeert de symbolen (klassen, functies en interfaces) in een
+        PHP-bronbestand. Symbolen worden onderverdeeld in “have”-symbolen
+        (symbolen die het bestand declareert) en “need”-symbolen (symbolen
+        waarvan het bestand afhankelijk is). Klassedeclaraties zijn
+        bijvoorbeeld “have”-symbolen, terwijl objectinstantiaties met “new X()”
+        “need”-symbolen zijn.
+
+        Afhankelijkheden van ingebouwde functies en symbolen die in docblocks
+        zijn gemarkeerd met ‘@phutil-external-symbol’ worden weggelaten, tenzij
+        __--all__ is opgegeven.
+
+        Symbolen worden in JSON-formaat naar de standaard uitvoer geschreven.
+
+        Dit script wordt intern gebruikt om kaarten van bibliotheeksymbolen
+        samen te stellen.
+
+        Het zou mooi zijn om dit uiteindelijk te implementeren als een C++
+        xhpast-binair bestand, aangezien het relatief stabiel is en de
+        prestaties momenteel slecht zijn (meer dan 500 ms voor redelijk grote
+        bestanden).',
   'Make sure all the symbols used in an %s library are defined and known.  This linter is specific to PHP source in %s libraries.' => 'Zorg ervoor dat alle symbolen die in een %s-bibliotheek worden gebruikt, gedefinieerd en bekend zijn. Deze linter is specifiek voor PHP-broncode in %s-bibliotheken.',
   'Argument position specified with "--current" ("%s") is greater than the number of arguments provided ("%s").' => 'Argumentpositie opgegeven met "--current" ("%s") is groter dan het aantal opgegeven argumenten ("%s").',
+  'Generator (for query "%s") returned an "ArcanistHardpointTaskResult" object, which is not a valid thing to return from a generator.
+
+This almost always means the generator implementation has a "return $this->yield..." statement which should be a "yield $this->yield..." instead.' => 'De generator (voor query “%s”) retourneerde een "ArcanistHardpointTaskResult"-object. Zo’n object moet een generator nooit retourneren.
+
+Dit betekent bijna altijd dat de implementatie van de generator een instructie “return $this->yield...” bevat, terwijl dit “yield $this->yield...” moet zijn.',
   'COMMIT RANGE' => 'COMMITBEREIK',
   'Specifies the remote to fetch the "into" ref from. By default, this is the same as the "onto" remote.' => 'Geeft de remote op waarvan de "into"-ref wordt opgehaald. Standaard is dit dezelfde als de "onto"-remote.',
   'No tasks found.' => 'Geen taken gevonden.',
   '%s' => '%s',
   'No child with index \'%d\'.' => 'Geen kind met index \'%d\'.',
   'Choose an object to inspect:' => 'Kies een object om te inspecteren:',
-  '%s REVISION(S) ARE ALREADY PUBLISHED' => '%s VERSIE(S) ZIJN AL GEPUBLICEERD',
+  '%s REVISION(S) ARE ALREADY PUBLISHED' => array(
+    '%s VERSIE IS AL GEPUBLICEERD',
+    '%s VERSIES ZIJN AL GEPUBLICEERD',
+  ),
   'Invalid EditorConfig property.' => 'Incorrecte EditorConfig-eigenschap.',
   'List of event listener classes to install at startup.' => 'Lijst van gebeurtenislistenerklassen om bij het opstarten te installeren.',
-  'Provide a branch, bookmark, task, or revision name to begin or resume work on.' => 'Geef een branch-, bookmark-, taak- of versienaam op om aan te beginnen of te hervatten.',
+  'Provide a branch, bookmark, task, or revision name to begin or resume work on.' => 'Geef een branch-, bladwijzer-, taak- of versienaam op om aan te beginnen of te hervatten.',
   'Use **%s** __command__ for a detailed command reference.' => 'Gebruik **%s** __opdracht__ voor een gedetailleerde opdrachtreferentie.',
   'At the far edge of the grove, you see remotes:' => 'Aan de verre rand van het bos ziet u remotes:',
   'It is nearly dusk. The wind has picked up and the trees around you sway and rustle.' => 'Het is bijna schemering. De wind is aangewakkerd en de bomen om u heen zwaaien en ruisen.',
   'The test failed.' => 'De test is mislukt.',
   'Install shell completion.' => 'Shell-aanvulling installeren.',
-  '%s revision(s) have build failures:' => '%s versie(s) hebben buildfouten:',
+  '%s revision(s) have build failures:' => array(
+    '%s versie heeft buildfouten:',
+    '%s versies hebben buildfouten:',
+  ),
   'Failed to upload binary "%s".' => 'Uploaden van binair bestand "%s" is mislukt.',
   'Commit symbol "%s" contains a newline. This is not a valid character in a Git commit symbol.' => 'Commitsymbool "%s" bevat een nieuwe regel. Dit is geen geldig teken in een Git-commitsymbool.',
   'ARGV' => 'ARGV',
@@ -540,8 +992,12 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Commit a specific revision. If you do not specify a revision, arc will look for committable revisions.' => 'Een specifieke versie committen. Als u geen versie opgeeft, zoekt arc naar commitbare versies.',
   'Lint all tracked files in the working copy. Ignored files and untracked files will not be linted.' => 'Alle gevolgde bestanden in de werkkopie linten. Genegeerde bestanden en niet-gevolgde bestanden worden niet gelint.',
   'Instead of exporting changes from the working copy, export them from a Differential revision.' => 'In plaats van wijzigingen uit de werkkopie te exporteren, exporteer ze vanuit een Differential-versie.',
-  '%s submodule(s) have uncommitted or untracked changes:' => '%s submodule(s) hebben niet-gecommitte of niet-gevolgde wijzigingen:',
-  'Normally under git/hg, if the patch is successful, the changes are committed to the working copy. This flag prevents the commit.' => 'Normaal gesproken worden onder git/hg de wijzigingen gecommit naar de werkkopie als de patch succesvol is. Deze vlag voorkomt de commit.',
+  '%s submodule(s) have uncommitted or untracked changes:' => array(
+    'Een submodule heeft niet-gecommitte of niet-gevolgde wijzigingen:',
+    '%s submodules hebben niet-gecommitte of niet-gevolgde wijzigingen:',
+  ),
+  'Normally under git/hg, if the patch is successful, the changes are committed to the working copy. This flag prevents the commit.' => 'Normaal gesproken worden onder git/hg de wijzigingen gecommit naar de werkkopie als de patch geslaagd is. Deze vlag voorkomt de commit.',
+  'The null coalescing operator is not available before PHP 7.0.' => 'De null-coalescingoperator is vóór PHP 7.0 niet beschikbaar.',
   'Updating local branch "%s"...' => 'Lokale branch "%s" bijwerken...',
   'Unable to identify the current branch in the working copy.' => 'Kan de huidige branch in de werkkopie niet identificeren.',
   'Type of setting \'%s\' must be boolean.' => 'Type van instelling \'%s\' moet booleaans zijn.',
@@ -551,6 +1007,7 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'For consistency, use `%s` (a type cast) instead of `%s` (a function call). Function calls impose additional overhead.' => 'Gebruik voor consistentie `%s` (een typecast) in plaats van `%s` (een functieaanroep). Functieaanroepen brengen extra overhead met zich mee.',
   'Expected file \'%s\' to begin `%s`.' => 'Verwachtte dat bestand \'%s\' begint met `%s`.',
   'Array elements should each occupy a single line.' => 'Arrayelementen moeten elk een enkele regel innemen.',
+  'identify symbols in a PHP source file' => 'symbolen identificeren in een PHP-bronbestand',
   'Filesystem path "%s" can not be accessed because a parent directory ("%s") is not executable (the current process does not have "+x" permission).' => 'Bestandssysteempad "%s" kan niet worden benaderd omdat een bovenliggende map ("%s") niet uitvoerbaar is (het huidige proces heeft geen "+x"-toestemming).',
   'File "%s" does not exist, or you do not have permission to view it.' => 'Bestand "%s" bestaat niet, of u hebt geen toestemming om het te bekijken.',
   'Included commits in branch %s:' => 'Opgenomen commits in branch %s:',
@@ -580,11 +1037,11 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'All reviewers are away until %s:' => 'Alle beoordelaars zijn afwezig tot %s:',
   'Server to connect to.' => 'Server om mee te verbinden.',
   'Created a new Differential revision:' => 'Een nieuwe Differential-versie aangemaakt:',
+  'The name of this file differs from the name of the class, interface, trait or enum it declares. Rename the file to `%s`.' => 'De naam van dit bestand verschilt van de naam van de klasse, de interface, het kenmerk of de enumeratie die erin wordt gedeclareerd. Hernoem het bestand tot `%s`.',
   'When creating a revision, try to use the working copy commit message verbatim, without prompting to edit it. When updating a revision, update some fields from the local commit message.' => 'Bij het aanmaken van een versie, probeer het commitbericht van de werkkopie letterlijk te gebruiken, zonder te vragen om het te bewerken. Bij het bijwerken van een versie, werk sommige velden bij vanuit het lokale commitbericht.',
   'LOAD STASH' => 'STASH LADEN',
   'Put space after comment start.' => 'Zet een spatie na het begin van de opmerking.',
-  'class, interface, trait or enum' => 'klasse, interface, trait of enum',
-  'Deleted "%s".' => '“%s” is verwijderd.',
+  'class, interface, trait or enum' => 'klasse, interface, kenmerk of enum',
   'Failed to write file \'%s\'.' => 'Schrijven van bestand \'%s\' is mislukt.',
   'Path \'%s\' does not exist!' => 'Pad ‘%s’ bestaat niet!',
   'Config: Reading system configuration file "%s"...' => 'Configuratie: systeemconfiguratiebestand "%s" lezen...',
@@ -596,7 +1053,7 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Unknown Mercurial feature "%s".' => 'Onbekende Mercurial-functie "%s".',
   'They river bubbles peacefully.' => 'De rivier borrelt vredig.',
   'PHP files must only contain PHP code.' => 'PHP-bestanden mogen alleen PHP-code bevatten.',
-  'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.' => 'Deze softwareversie op de server waarmee u verbinding maakt is verouderd en ondersteunt het identificeren van repository\'s op basis van roepnaam of URI niet. Werk de serversoftware bij om deze functies in te schakelen.',
+  'Exit after serving __limit__ clients.' => 'Stop na het bedienen van __limit__ cliënten.',
   '<Process was terminated by signal %s (%d).>
 
 ' => '<Proces is beëindigd door signaal %s (%d).>
@@ -610,6 +1067,7 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Type' => 'Type',
   'Toolset "%s" is unknown. The binary should be executed so that "argv[0]" identifies a supported toolset. Rename the binary or install the library that provides the desired toolset. Current available toolsets: %s.' => 'Toolset "%s" is onbekend. Het binaire bestand moet zo worden uitgevoerd dat "argv[0]" een ondersteunde toolset identificeert. Hernoem het binaire bestand of installeer de bibliotheek die de gewenste toolset biedt. Huidige beschikbare toolsets: %s.',
   'Rule \'%s\' can never be reduced: it recurses indefinitely and reaches no production of terminals.' => 'Regel \'%s\' kan nooit worden gereduceerd: deze recurseert oneindig en bereikt geen productie van terminals.',
+  'Specifying keys when destructuring arrays is not available before PHP 7.1.' => 'Het opgeven van sleutels bij het de-structureren van arrays is vóór PHP 7.1 niet mogelijk.',
   'Translating legacy name \'%s\' to \'%s\'' => 'Verouderde naam \'%s\' vertalen naar \'%s\'',
   'Could not encode repository versions!' => 'Kan repositoryversies niet coderen!',
   'Set minimum message severity. One of: %s. Defaults to \'%s\'.' => 'Stel minimale berichternst in. Een van: %s. Standaard is \'%s\'.',
@@ -617,13 +1075,16 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Command-Line Flags' => 'Opdrachtregelvlaggen',
   'Expected JSON response from Asana.' => 'JSON-antwoord van Asana verwacht.',
   'The name or path of the coding standard to use.' => 'De naam of het pad van de te gebruiken codestandaard.',
+  'Space Around Comma' => 'Spatie rond komma',
+  'Unable to parse path as PHAR file. PHAR file paths must be prefixed with `%s` and include a segment with one of these extensions (case-sensitive): %s' => 'Kan het pad niet als PHAR-bestand verwerken. Paden naar PHAR-bestanden moeten beginnen met `%s` en een segment bevatten met een van de volgende extensies (hoofdlettergevoelig): %s',
   'Enabled verbose mode.' => 'Uitgebreide modus ingeschakeld.',
   'PHP Syntax Error!' => 'PHP-syntaxisfout!',
   'INVALID CREDENTIALS' => 'INCORRECTE AANMELDGEGEVENS',
   'Attempting to rebase changes.' => 'Poging om wijzigingen te rebasen.',
+  'Hold indefinitely without prompting.' => 'Voor onbepaalde tijd vasthouden zonder te vragen.',
   'Cannot access `%s` when current class scope has no parent.' => 'Kan `%s` niet benaderen wanneer het huidige klassebereik geen ouder heeft.',
   '"%s" is being run noninteractively, but the argument list is missing "--" to indicate end of flags.' => '"%s" wordt niet-interactief uitgevoerd, maar de argumentenlijst mist "--" om het einde van de vlaggen aan te geven.',
-  'Configuration option ("%s") defined by extension "%s" conflicts with an existing option. Each option must have a unique key.' => 'Configuratieoptie ("%s") gedefinieerd door extensie "%s" conflicteert met een bestaande optie. Elke optie moet een unieke sleutel hebben.',
+  'Configuration option ("%s") defined by extension "%s" conflicts with an existing option. Each option must have a unique key.' => 'Configuratieoptie ("%s") gedefinieerd door uitbreiding "%s" conflicteert met een bestaande optie. Elke optie moet een unieke sleutel hebben.',
   '%s called with no messages!' => '%s aangeroepen zonder berichten!',
   'Two files were added with identical explicit keys ("%s"); each explicit key must be unique.' => 'Twee bestanden zijn toegevoegd met identieke expliciete sleutels ("%s"); elke expliciete sleutel moet uniek zijn.',
   'Specify exactly one base commit. The end of the commit range is always the working copy state.' => 'Geef precies één basiscommit op. Het einde van het commitbereik is altijd de status van de werkkopie.',
@@ -647,7 +1108,9 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'You are trying to construct an ambiguous URI: query parameter "%s" is present in both the string argument ("%s") and the map argument.' => 'U probeert een dubbelzinnige URI te construeren: queryparameter "%s" is aanwezig in zowel het tekenreeksargument ("%s") als het mapargument.',
   'Convention: no spaces around string concatenation operator.' => 'Conventie: geen spaties rond de tekenreeksconcatenatie-operator.',
   'Unnecessary Final Modifier' => 'Onnodige final-modifier',
+  'INVALID LOCALE' => 'ONJUISTE LOCALE',
   'DOS Newlines' => 'DOS-regeleinden',
+  'Support for grouped use statements was not introduced until PHP 7.0 but this codebase targets an earlier version of PHP.' => 'Ondersteuning voor gegroepeerde use-statements is pas in PHP 7.0 ingevoerd, maar deze code is gericht op een eerdere versie van PHP.',
   'There was an error resolving the server hostname. Check that you are connected to the internet and that DNS is correctly configured. (Did you add the domain to `%s` on some other machine, but not this one?)' => 'Er is een fout opgetreden bij het oplossen van de serverhostnaam. Controleer of u verbonden bent met internet en of DNS correct is geconfigureerd. (Hebt u het domein toegevoegd aan `%s` op een andere machine, maar niet op deze?)',
   'Usage Exception:' => 'Gebruiksuitzondering:',
   'Pushing changes to "%s".' => 'Wijzigingen pushen naar "%s".',
@@ -674,9 +1137,12 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'SKIP' => 'OVERSLAAN',
   'Unexpected type %s.' => 'Onverwacht type %s.',
   'Execution of "git cat-file --batch-check" emitted an unexpected line ("%s").' => 'Uitvoering van "git cat-file --batch-check" produceerde een onverwachte regel ("%s").',
+  'Do not print status messages to stdout.' => 'Geen statusberichten naar de standaarduitvoer schrijven.',
+  'Typed constants are not available before PHP 8.3.' => 'Constanten met types zijn vóór PHP 8.0 niet beschikbaar.',
   'AMBIGUOUS MARKER' => 'DUBBELZINNIGE MARKERING',
   'Revision Symbol "%s"' => 'Versiesymbool "%s"',
   'Unable to open stdout temporary file ("%s") for writing.' => 'Kan tijdelijk stdout-bestand ("%s") niet openen om te schrijven.',
+  'Class member access on instantiation was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `%s`.' => 'Toegang tot klasseleden bij het aanmaken van een instantie is pas in PHP 5.4 ingevoerd, maar deze code is gericht op een eerdere versie van PHP. U kunt deze expressie herschrijven met `%s`.',
   'The name of this file differs from the name of the class or interface it declares. Rename the file to `%s`.' => 'De naam van dit bestand verschilt van de naam van de klasse of interface die het declareert. Hernoem het bestand naar `%s`.',
   'Deleted' => 'Verwijderd',
   'Configuration value ("%s") defined in source "%s" is not valid.' => 'Configuratiewaarde ("%s") gedefinieerd in bron "%s" is niet geldig.',
@@ -688,13 +1154,14 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'SUBMITTING' => 'INDIENEN',
   'Associate the working copy with a specific repository. Normally, %s can figure this association out on its own, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'De werkkopie koppelen aan een specifieke repository. Normaal gesproken kan %s deze koppeling zelf uitzoeken, maar als uw configuratie ongebruikelijk is, kunt u deze optie gebruiken om de gewenste waarde op te geven.',
   'Fetch URI: %s' => 'Fetch-URI: %s',
+  'Default value for parameters with a true type hint can only be true.' => 'De standaardwaarde voor parameters met een type-hint ‘true’ kan alleen ‘true’ zijn.',
   'Remote "%s" was selected with the "--onto-remote" flag.' => 'Remote "%s" is geselecteerd met de vlag "--onto-remote".',
   'it is the greatest common ancestor of the working directory and the commit you specified explicitly.' => 'het is de grootste gemeenschappelijke voorouder van de werkmap en de commit die u expliciet hebt opgegeven.',
   'IP address "%s" is not properly formatted. Expected an IPv4 address like "%s", or an IPv6 address like "%s".' => 'IP-adres "%s" is niet correct opgemaakt. Verwachtte een IPv4-adres zoals "%s", of een IPv6-adres zoals "%s".',
   'Response Body: %s' => 'Antwoordinhoud: %s',
-  'AWS secret key.' => 'AWS-geheime sleutel.',
   'Default branch name to view on server. Defaults to "%s".' => 'Standaard branchnaam om op de server te bekijken. Standaard is "%s".',
   'Do not print a success message.' => 'Geen succesbericht weergeven.',
+  'The shift operators no longer accept negative shifts in PHP 7.0.' => 'In PHP 7.0 accepteren de shiftoperators geen negatieve shifts meer.',
   'Failed to read socket.' => 'Lezen van socket is mislukt.',
   'Start in remote console mode.' => 'Starten in externe consolemodus.',
   'Landing onto target "%s", selected by following tracking branches upstream to the closest remote branch.' => 'Landen op doel "%s", geselecteerd door tracking-branches upstream te volgen naar de dichtstbijzijnde remote branch.',
@@ -703,9 +1170,11 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Copied Away' => 'Weggekopieerd',
   'Expected to find "%s" in `%s` output, but did not.' => 'Verwachtte "%s" te vinden in `%s`-uitvoer, maar dat was niet het geval.',
   'you specified \'%s\' in your %s \'base\' configuration.' => 'u hebt \'%s\' opgegeven in uw %s \'base\'-configuratie.',
-  '%s revision(s) have ongoing builds:' => '%s versie(s) hebben lopende builds:',
+  '%s revision(s) have ongoing builds:' => array(
+    '%s versie heeft lopende builds:',
+    '%s versies hebben lopende builds:',
+  ),
   'MERGE CONFLICTS' => 'MERGECONFLICTEN',
-  'You must specify an AWS region with --region.' => 'U moet een AWS-regio opgeven met --region.',
   'You must set PayPal API credentials!' => 'U moet PayPal API-aanmeldgegevens instellen!',
   'Failed to create directory \'%s\'.' => 'Aanmaken van map \'%s\' is mislukt.',
   'Symbol "%s" is ambiguous: it matches multiple markers (of type "%s"). Use an unambiguous identifier.' => 'Symbool "%s" is dubbelzinnig: het komt overeen met meerdere markeringen (van type "%s"). Gebruik een ondubbelzinnige identificatie.',
@@ -713,7 +1182,7 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'copies' => 'kopieën',
   'File \'%s\' mixes function (%s) and class/interface (%s) definitions in the same file. A file which declares a class or an interface MUST declare nothing else.' => 'Bestand \'%s\' mengt functie- (%s) en klasse-/interfacedefinities (%s) in hetzelfde bestand. Een bestand dat een klasse of interface declareert MAG niets anders declareren.',
   'Local commit "%s" (reachable from: %s) does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.' => 'Lokale commit "%s" (bereikbaar vanuit: %s) merget niet schoon in "%s". Rebase of merge lokale wijzigingen zodat ze schoon kunnen mergen.',
-  'Configuration option ("%s") defined by extension "%s" conflicts with an alias for another option ("%s"). The key and aliases of each option must be unique.' => 'Configuratieoptie ("%s") gedefinieerd door extensie "%s" conflicteert met een alias voor een andere optie ("%s"). De sleutel en aliassen van elke optie moeten uniek zijn.',
+  'Configuration option ("%s") defined by extension "%s" conflicts with an alias for another option ("%s"). The key and aliases of each option must be unique.' => 'Configuratieoptie ("%s") gedefinieerd door uitbreiding "%s" conflicteert met een alias voor een andere optie ("%s"). De sleutel en aliassen van elke optie moeten uniek zijn.',
   'Unable to determine repository for this change.' => 'Kan de repository voor deze wijziging niet bepalen.',
   'Provided path \'%s\' is not a %s library.' => 'Opgegeven pad \'%s\' is geen %s-bibliotheek.',
   'Downloading binary data...' => 'Binaire gegevens downloaden...',
@@ -725,12 +1194,13 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Function %s is not implemented!' => 'Functie %s is niet geïmplementeerd!',
   'Revision \'%s: %s\' was generated from \'%s\', but current working copy root is \'%s\'. Commit this revision anyway?' => 'Versie \'%s: %s\' is gegenereerd vanuit \'%s\', maar de huidige werkkopie-root is \'%s\'. Deze versie toch committen?',
   'Unable to write configuration: more than one writable source exists in the "%s" scope.' => 'Kan configuratie niet schrijven: er bestaat meer dan één schrijfbare bron in het bereik "%s".',
-  'mt_rand() range is smaller than the requested range.' => 'mt_rand()-bereik is kleiner dan het gevraagde bereik.',
-  'AWS region.' => 'AWS-regio.',
+  'Emit all symbols, including built-ins and declared externals.' => 'Alle symbolen weergeven, ook ingebouwde en gedeclareerde externe symbolen.',
   'Convention: space before opening parenthesis in anonymous function declarations.' => 'Conventie: spatie vóór het openingshaakje in anonieme functiedeclaraties.',
+  'Reference assignments in array destructuring is not available before PHP 7.3.' => 'Referentietoewijzingen bij het de-structureren van arrays zijn vóór PHP 7.3 niet beschikbaar.',
   'The token "%s" is not formatted correctly. Valid API tokens should begin "cli-" and be 32 characters long. Make sure you visited the correct URI and copy/pasted the token correctly.' => 'Het token "%s" is niet correct opgemaakt. Geldige API-tokens moeten beginnen met "cli-" en 32 tekens lang zijn. Controleer of u de juiste URI hebt bezocht en het token correct hebt gekopieerd en geplakt.',
   'You follow a wide, straight path to the north and arrive in a grove of fruit trees after a few minutes of walking. The grass underfoot is thick and small insects flit through the air.' => 'U volgt een breed, recht pad naar het noorden en komt na een paar minuten lopen aan in een boomgaard met fruitbomen. Het gras onder uw voeten is dik en kleine insecten fladderen door de lucht.',
   'Specifies the default behavior when "arc land" is run with no "--onto" flag.' => 'Geeft het standaardgedrag aan wanneer "arc land" wordt uitgevoerd zonder de vlag "--onto".',
+  'Anonymous readonly classes are not available before PHP 8.3.' => 'Anonieme en alleen uitleesbare klassen zijn vóór PHP 8.3 niet beschikbaar.',
   'Functions which should not be used because they represent the unsafe usage of dynamic strings.' => 'Functies die niet mogen worden gebruikt omdat ze het onveilige gebruik van dynamische tekenreeksen vertegenwoordigen.',
   'Failed to load library at location "%s". This library is specified by "%s". Check that the library is up to date.' => 'Kan bibliotheek op locatie "%s" niet laden. Deze bibliotheek is opgegeven door "%s". Controleer of de bibliotheek up-to-date is.',
   'Use of Close Tag `%s`' => 'Gebruik van sluitingstag `%s`',
@@ -739,10 +1209,9 @@ Denk alstublieft nog steeds aan het milieu voordat u het resultaat afdrukt.',
   'Ruleset for selecting commit ranges.' => 'Regelset voor het selecteren van commitbereiken.',
   'Alias definitions form an unreasonably deep stack. A chain of aliases may not resolve more than %s times.' => 'Aliasdefinities vormen een onredelijk diepe stapel. Een keten van aliassen mag niet meer dan %s keer worden opgelost.',
   'Default pager command.' => 'Standaard pageropdracht.',
-  '%s OPEN PARENT REVISION(S) ' => '%s OPEN BOVENLIGGENDE VERSIE(S) \\',
   'Expected exactly one argument to "remote(...)" with a remote name.' => 'Verwachtte precies één argument voor "remote(...)" met een remotenaam.',
   'Unable to find \'%s\' file to configure linters. Create an \'%s\' file in the root directory of the working copy.' => 'Kan bestand \'%s\' niet vinden om linters te configureren. Maak een bestand \'%s\' aan in de hoofdmap van de werkkopie.',
-  'HTTP extension "%s" (of class "%s") returned an invalid result from "%s": expected null, or an object of class "%s".' => 'HTTP-extensie "%s" (van klasse "%s") gaf een incorrect resultaat terug van "%s": verwachtte null, of een object van klasse "%s".',
+  'HTTP extension "%s" (of class "%s") returned an invalid result from "%s": expected null, or an object of class "%s".' => 'HTTP-uitbreiding "%s" (van klasse "%s") gaf een incorrect resultaat terug van "%s": verwachtte null, of een object van klasse "%s".',
   'Unable to find any git commit named \'%s\' in this repository.' => 'Kan geen git-commit met de naam \'%s\' vinden in deze repository.',
   'Lists bookmarks in the working copy, annotated with additional information
 about review status.' => 'Geeft bookmarks in de werkkopie weer, voorzien van aanvullende informatie
@@ -753,11 +1222,15 @@ over de beoordelingsstatus.',
   'Fetching "%s" from remote "%s"...' => '"%s" ophalen van remote "%s"...',
   'Limit the amount of tasks outputted, default is all.' => 'Beperk het aantal uitvoertaken, standaard is alles.',
   'Amend HEAD with lint patches?' => 'HEAD wijzigen met lintpatches?',
+  'Using `%s` as the only type hint is not allowed before PHP 8.2.' => 'Het gebruik van `%s` als enige type-hint is vóór PHP 8.2 niet toegestaan.',
   'Connecting to "%s"...' => 'Verbinden met "%s"...',
   'Disable ANSI terminal codes, printing plain text with no color or style.' => 'ANSI-terminalcodes uitschakelen, platte tekst zonder kleur of stijl weergeven.',
   'Unrecognized argument \'%s\'. Try \'%s\'.' => 'Niet-herkend argument \'%s\'. Probeer \'%s\'.',
   'Library name should contain only lowercase letters and hyphens.' => 'Bibliotheeknaam mag alleen kleine letters en koppeltekens bevatten.',
-  'Land %s commit(s)?' => '%s commit(s) landen?',
+  'Land %s commit(s)?' => array(
+    '%s commit laten landen?',
+    '%s commits laten landen?',
+  ),
   '%s does not update any revision.' => '%s werkt geen versie bij.',
   'Unable to find any libraries under the current working directory. To create a library, provide a path.' => 'Kan geen bibliotheken vinden onder de huidige werkmap. Geef een pad op om een bibliotheek aan te maken.',
   '<default>' => '<standaard>',
@@ -779,6 +1252,7 @@ over de beoordelingsstatus.',
   'Continue?' => 'Doorgaan?',
   'Failed to push changes to staging area. Correct the issue, or use --skip-staging to skip this step.' => 'Pushen van wijzigingen naar het staginggebied is mislukt. Los het probleem op, of gebruik --skip-staging om deze stap over te slaan.',
   'Execution of "hg log" emitted an unexpected line ("%s").' => 'Uitvoering van "hg log" produceerde een onverwachte regel ("%s").',
+  '%dm%02ds' => '%dm%02ds',
   'you explicitly specified the empty tree.' => 'u hebt expliciet de lege boom opgegeven.',
   'Apply this patch to %s?' => 'Deze patch toepassen op %s?',
   'Commit Message' => 'Commitbericht',
@@ -786,11 +1260,18 @@ over de beoordelingsstatus.',
   'Lists branches in the working copy, annotated with additional information
 about review status.' => 'Geeft branches in de werkkopie weer, voorzien van aanvullende informatie
 over de beoordelingsstatus.',
+  'List statements should use the `%s` statement syntax.' => 'Voor lijstopdrachten moet de opdrachtsyntaxis `%s` worden gebruikt.',
+  'Constants on traits are not available before PHP 8.2.' => 'Constanten op kenmerken zijn vóór PHP 8.2 niet beschikbaar.',
   'Updating %s: %s' => '%s bijwerken: %s',
   'Current Value' => 'Huidige waarde',
   'Install jsonlint using `%s`.' => 'Installeer jsonlint met `%s`.',
-  'Create %s new remote bookmark(s)?' => '%s nieuwe remote bookmark(s) aanmaken?',
+  'Create %s new remote bookmark(s)?' => array(
+    '%s nieuwe externe bladwijzer aanmaken?',
+    '%s nieuwe externe bladwijzers aanmaken?',
+  ),
+  'identify symbols in PHP source files' => 'symbolen in PHP-bronbestanden identificeren',
   '%s does not support the "%s" modifier.' => '%s ondersteunt de "%s"-modifier niet.',
+  'This `%s` has a nonempty block which does not end with `%s`, `%s`, `%s`, `%s` or `%s`. Did you forget to add one of those? If you intend to fall through, add a `%s` comment to silence this warning.' => 'Deze `%s` heeft een niet-leeg blok dat niet eindigt met `%s`, `%s`, `%s`, `%s` of `%s`. Bent u vergeten er een van deze toe te voegen? Als het wel degelijk de bedoeling is om naar het volgende commando door te gaan, voeg dan een commentaar `%s` toe om deze waarschuwing niet meer te tonen.',
   'Push URI: %s' => 'Push-URI: %s',
   'Found the wrong number of hunk lines.' => 'Verkeerd aantal hunkregels gevonden.',
   'Land only the changes directly named by arguments, instead of all reachable ancestors.' => 'Alleen de wijzigingen landen die direct door argumenten worden benoemd, in plaats van alle bereikbare voorouders.',
@@ -805,20 +1286,25 @@ over de beoordelingsstatus.',
   'Launching editor "%s"...' => 'Editor "%s" starten...',
   'Language Construct Parentheses' => 'Haakjes bij taalconstructies',
   'Force targets to be interpreted as naming particular types of resources.' => 'Doelen forceren om geïnterpreteerd te worden als namen van bepaalde typen bronnen.',
-  'Blacklisted functions which should not be used.' => 'Functies op de zwarte lijst die niet mogen worden gebruikt.',
+  'Blacklisted functions which should not be used.' => 'Functies op de blokkeerlijst die niet mogen worden gebruikt.',
   'Show every option, including standard options like this one.' => 'Elke optie weergeven, inclusief standaardopties zoals deze.',
-  'Uploading chunks (%s chunks to upload).' => 'Chunks uploaden (%s chunks te uploaden).',
+  'Uploading chunks (%s chunks to upload).' => array(
+    'Chunks uploaden (%s chunk te uploaden).',
+    'Chunks uploaden (%s chucks te uploaden).',
+  ),
   'Specify at most one URI.' => 'Geef maximaal één URI op.',
   'Shows the current version.' => 'De huidige versie weergeven.',
   'Enforces basic text rules like line length, character encoding, and trailing whitespace.' => 'Dwingt basistekstregels af zoals regellengte, tekencodering en afsluitende witruimte.',
   'Too many arguments: provide exactly one argument.' => 'Te veel argumenten: geef precies één argument op.',
   'Close only if the repository is untracked and the revision is accepted. Continue even if the close can\'t happen. This is a soft version of \'close-revision\' used by other workflows.' => 'Alleen sluiten als de repository niet wordt gevolgd en de versie is geaccepteerd. Doorgaan zelfs als het sluiten niet kan plaatsvinden. Dit is een zachte versie van \'close-revision\' die door andere workflows wordt gebruikt.',
+  'Automatic branch naming from tasks is not supported yet for %s.' => 'Automatische naamgeving van branches vanuit taken wordt nog niet ondersteund voor %s.',
   'Object specification "%s" is unknown, expected a specification like "commit(HEAD)".' => 'Objectspecificatie "%s" is onbekend, verwachtte een specificatie zoals "commit(HEAD)".',
-  'Successfully committed patch.' => 'Patch succesvol gecommit.',
+  'Successfully committed patch.' => 'Patch gecommit.',
   '`%s` class `%s` has an invalid ID constant. ID must be an integer.' => '`%s`-klasse `%s` heeft een onjuiste ID-constante. ID moet een geheel getal zijn.',
   'Use `%s` to detect issues with CSS source files.' => 'Gebruik `%s` om problemen met CSS-bronbestanden te detecteren.',
   'UPDATE' => 'BIJWERKEN',
   'Unable to determine current system locale (call to "setlocale(LC_ALL, 0)" failed).' => 'Kan de huidige systeemtaalregio niet bepalen (aanroep van "setlocale(LC_ALL, 0)" is mislukt).',
+  'Downloaded hash does not match: expected any of %s, got %s.' => 'De gedownloade hash klopt niet: verwachtte een van de waarden %s, kreeg %s.',
   'You may not set new credentials after authenticating conduit.' => 'U mag geen nieuwe aanmeldgegevens instellen na het authenticeren van conduit.',
   'With %s, use uglier (but more efficient) formatting.' => 'Met %s, lelijkere (maar efficiëntere) opmaak gebruiken.',
   'OPTION REFERENCE' => 'OPTIEREFERENTIE',
@@ -839,6 +1325,7 @@ over de beoordelingsstatus.',
   'Failed to copy file from "%s" to "%s": %s' => 'Kopiëren van bestand van "%s" naar "%s" is mislukt: %s',
   'The test failed, but this change is probably not what broke it. For example, it might have already been failing.' => 'De test is mislukt, maar deze wijziging is waarschijnlijk niet de oorzaak. Het kan bijvoorbeeld al eerder zijn mislukt.',
   'Invalid Default Parameter' => 'Incorrecte standaardparameter',
+  'Class constants cannot be marked as final before PHP 8.1.' => 'Klasseconstanten kunnen vóór PHP 8.1 niet als finaal worden gemarkeerd.',
   'String components of a sort vector must not contain NULL bytes.' => 'Tekenreekscomponenten van een sorteervector mogen geen NULL-bytes bevatten.',
   'Using saved response to prompt "%s".' => 'Opgeslagen antwoord gebruiken voor prompt "%s".',
   'The `%s` syntax was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `%s`.' => 'De `%s`-syntaxis is pas geïntroduceerd in PHP 5.4, maar deze codebase richt zich op een eerdere versie van PHP. U kunt deze expressie herschrijven met `%s`.',
@@ -846,13 +1333,29 @@ over de beoordelingsstatus.',
   'This file contains unnecessary trailing whitespace.' => 'Dit bestand bevat onnodige afsluitende witruimte.',
   'Not a symlink!' => 'Geen symbolische koppeling!',
   'Halting all rule processing.' => 'Alle regelverwerking stoppen.',
+  'Default value for parameters with a float type hint can only be an integer or a floating point number.' => 'De standaardwaarde voor parameters met een float-typehint kan alleen een geheel getal of een drijvende-kommagetal zijn.',
   'Configured lint engine "%s" is not a subclass of "%s", but must be.' => 'Geconfigureerde lintengine "%s" is geen subklasse van "%s", maar moet dat wel zijn.',
   'This repository API (\'%s\') does not support the requested capability.' => 'Deze repository-API (\'%s\') ondersteunt de gevraagde mogelijkheid niet.',
-  'Land %s revision(s) that are already published?' => '%s versie(s) landen die al gepubliceerd zijn?',
+  'Land %s revision(s) that are already published?' => array(
+    '%s versie laten landen die al gepubliceerd is?',
+    '%s versies laten landen die al gepubliceerd zijn?',
+  ),
   'Expected to find "%s" in "%s" output, but did not.' => 'Verwachtte "%s" te vinden in "%s"-uitvoer, maar dat was niet het geval.',
   'Golint is a linter for Go source code.' => 'Golint is een linter voor Go-broncode.',
   '%s is broken.' => '%s is defect.',
-  '"%s" class "%s" has an invalid "%s" property. Field constants must be strings and no more than %s bytes in length.' => '"%s"-klasse "%s" heeft een incorrecte "%s"-eigenschap. Veldconstanten moeten tekenreeksen zijn en niet meer dan %s bytes lang.',
+  '"%s" class "%s" has an invalid "%s" property. Field constants must be strings and no more than %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          '"%s"-klasse "%s" heeft een incorrecte "%s"-eigenschap. Veldconstanten moeten tekenreeksen zijn en niet meer dan %s byte lang.',
+          '"%s"-klasse "%s" heeft een incorrecte "%s"-eigenschap. Veldconstanten moeten tekenreeksen zijn en niet meer dan %s bytes lang.',
+        ),
+      ),
+    ),
+  ),
   'GENERATE' => 'GENEREREN',
   'Empty Block Statement' => 'Lege blokinstructie',
   'Properties cannot be declared "abstract".' => 'Eigenschappen kunnen niet als "abstract" worden gedeclareerd.',
@@ -871,7 +1374,6 @@ over de beoordelingsstatus.',
   'You can not use "--current" when generating rules.' => 'U kunt "--current" niet gebruiken bij het genereren van regels.',
   'Unable to fork!' => 'Kan niet forken!',
   'This workflow (\'%s\') requires a working copy, override %s to return true.' => 'Deze workflow (\'%s\') vereist een werkkopie, overschrijf %s om true terug te geven.',
-  'Uploaded "%s".' => '"%s" geüpload.',
   'No revision specified with "--revision", and no revisions found that match the current working copy state. Use "--revision <id>" to specify which revision you want to amend.' => 'Geen versie opgegeven met "--revision", en geen versies gevonden die overeenkomen met de huidige werkkopie-status. Gebruik "--revision <id>" om op te geven welke versie u wilt wijzigen.',
   'Call to "curl_setopt(...) failed for option key "%s".' => 'Aanroep van "curl_setopt(...)" is mislukt voor optiesleutel "%s".',
   'EXCEPTION' => 'UITZONDERING',
@@ -882,6 +1384,7 @@ over de beoordelingsstatus.',
   'Will merge into remote "%s", selected with the "--into" flag.' => 'Wordt gemerged naar remote "%s", geselecteerd met de vlag "--into".',
   'When running noninteractively, you MUST provide "--" to all commands (even if they take no arguments).' => 'Bij niet-interactieve uitvoering MOET u "--" opgeven bij alle opdrachten (zelfs als ze geen argumenten accepteren).',
   'Parse error on line %d at column %d: %s' => 'Verwerkingsfout op regel %d bij kolom %d: %s',
+  'No viable means to download llaville/compatinfo-db is available.' => 'Er is geen haalbare manier beschikbaar om llaville/compatinfo-db te downloaden.',
   'Contents Modified' => 'Inhoud gewijzigd',
   'Output aliases in JSON format.' => 'Aliassen uitvoeren in JSON-formaat.',
   'Flag --skip-staging was specified.' => 'Vlag --skip-staging is opgegeven.',
@@ -896,12 +1399,13 @@ over de beoordelingsstatus.',
   'No library currently exists at the path "%s"...' => 'Er bestaat momenteel geen bibliotheek op het pad "%s"...',
   'Show committed and abandoned revisions.' => 'Gecommitte en verlaten versies weergeven.',
   'Unable to locate %s.' => 'Kan %s niet vinden.',
+  'The `%s` operator is not available before PHP 5.6.' => 'De operator `%s` is vóór PHP 5.6 niet beschikbaar.',
   'SAVE STASH' => 'STASH OPSLAAN',
   'Wildcard arguments may not specify a parameter.' => 'Jokerargumenten mogen geen parameter opgeven.',
   'After creating a paste, open it in a web browser.' => 'Open de paste na het aanmaken in een webbrowser.',
   'The node \'%s\' is not known. Call %s to seed the graph with nodes.' => 'Het knooppunt \'%s\' is niet bekend. Roep %s aan om de graaf te vullen met knooppunten.',
   'Do not run any sanity checks.' => 'Geen controles uitvoeren.',
-  'Execution of "git cat-file --batch-check" emitted an unexpected number of lines, expected %s but got %s.' => 'Uitvoering van "git cat-file --batch-check" produceerde een onverwacht aantal regels, verwachtte %s maar kreeg %s.',
+  'Execution of "git cat-file --batch-check" emitted an unexpected number of lines, expected %s but got %s.' => 'Uitvoering van "git cat-file --batch-check" produceerde een onverwacht aantal regels, verwachtte %s maar kreeg er %s.',
   'Classes should extend from `%s` or from some other class. All classes (except for `%s` itself) should have a base class.' => 'Klassen moeten uitbreiden van `%s` of van een andere klasse. Alle klassen (behalve `%s` zelf) moeten een basisklasse hebben.',
   'Missing VCS support.' => 'Ontbrekende VCS-ondersteuning.',
   'Bookmark name %s already exists; trying a new name.' => 'Bookmarknaam %s bestaat al; een nieuwe naam wordt geprobeerd.',
@@ -910,6 +1414,25 @@ over de beoordelingsstatus.',
   'Argument Error' => 'Argumentfout',
   'Multiple "final" modifiers are not allowed.' => 'Meerdere "final"-modifiers zijn niet toegestaan.',
   'Flag "--lang" is not supported when reading pastes.' => 'Vlag "--lang" wordt niet ondersteund bij het lezen van pastes.',
+  'Allows you to make a raw Conduit method call:
+
+  - Run this command from a working directory.
+  - Call parameters are required, and read as a JSON blob from stdin.
+  - Results are written to stdout as a JSON blob.
+
+This workflow is primarily useful for writing scripts. Examples:
+
+  $ echo \'{}\' | arc call-conduit conduit.ping --
+  $ echo \'{"phid":"PHID-FILE-xxxx"}\' | arc call-conduit file.download --' => 'Hiermee kunt u een directe Conduit-methodeaanroep uitvoeren:
+
+  - Voer deze opdracht uit vanuit een werkdirectory.
+  - De aanroepparameters zijn vereist en worden als JSON-blob uit de standaardinvoer gelezen.
+  - De resultaten worden als JSON-blob naar de standaarduitvoer geschreven.
+
+Deze werkstroom is vooral handig voor het schrijven van scripts. Voorbeelden:
+
+  $ echo \'{}\' | arc call-conduit conduit.ping --
+  $ echo \'{"phid":"PHID-FILE-xxxx"}\' | arc call-conduit file.download --',
   'Two argument specifications have the same name ("%s").' => 'Twee argumentspecificaties hebben dezelfde naam ("%s").',
   '(No commits.)' => '(Geen commits.)',
   'This working copy has no metadata directory, so you can not resolve metadata paths within it.' => 'Deze werkkopie heeft geen metadatamap, dus u kunt geen metadatapaden erin oplossen.',
@@ -919,6 +1442,7 @@ over de beoordelingsstatus.',
   'Name files using only letters, numbers, period, hyphen and underscore.' => 'Geef bestanden namen met alleen letters, cijfers, punt, koppelteken en onderstrepingsteken.',
   'Call to "curl_setopt(...)" returned "false".' => 'Aanroep van "curl_setopt(...)" gaf "false" terug.',
   'Unable to set socket nonblocking!' => 'Kan socket niet instellen als niet-blokkerend!',
+  'Generator delegation (`%s`) is not available before PHP 7.0.' => 'Generatordelegatie (`%s`) is vóór PHP 7.0 niet beschikbaar.',
   'Unable to upload file chunks: %s' => 'Kan bestandschunks niet uploaden: %s',
   'it is the first ancestor of %s that has a diff and is the gca or a descendant of the gca with \'%s\', specified by \'%s\' in your %s \'base\' configuration.' => 'het is de eerste voorouder van %s die een diff heeft en de gca is of een afstammeling van de gca met \'%s\', opgegeven door \'%s\' in uw %s \'base\'-configuratie.',
   'Unsupported base85 encoding mode "%s".' => 'Niet-ondersteunde base85-coderingsmodus "%s".',
@@ -934,7 +1458,10 @@ over de beoordelingsstatus.',
   'Configuration source ("%s") defines an invalid alias, which will be ignored: %s' => 'Configuratiebron ("%s") definieert een incorrecte alias, die wordt genegeerd: %s',
   'Your \'%s\' file is not a valid JSON file.' => 'Uw \'%s\'-bestand is geen geldig JSON-bestand.',
   'it is specified by \'%s\' in your %s \'base\' configuration.' => 'het is opgegeven door \'%s\' in uw %s \'base\'-configuratie.',
-  'These %s revision(s) have changes planned:' => 'Deze %s versie(s) hebben geplande wijzigingen:',
+  'These %s revision(s) have changes planned:' => array(
+    'Deze versie heeft geplande wijzigingen:',
+    'Deze %s versies hebben geplande wijzigingen:',
+  ),
   'Use __%s__ to show additional options.' => 'Gebruik __%s__ om extra opties weer te geven.',
   'No repositories matched the query. Check that your configuration is correct, or use "%s" to select a repository explicitly.' => 'Geen repository\'s kwamen overeen met de zoekopdracht. Controleer of uw configuratie correct is, of gebruik "%s" om expliciet een repository te selecteren.',
   'Unable to upload file: path "%s" is not readable.' => 'Kan bestand niet uploaden: pad "%s" is niet leesbaar.',
@@ -945,7 +1472,13 @@ over de beoordelingsstatus.',
   'File \'%s\' declares more than one class or interface (%s). A file which declares a class or interface MUST declare nothing else.' => 'Bestand \'%s\' declareert meer dan één klasse of interface (%s). Een bestand dat een klasse of interface declareert MAG niets anders declareren.',
   'NEW LIBRARY' => 'NIEUWE BIBLIOTHEEK',
   'Show the amended commit message, without modifying the working copy.' => 'Het gewijzigde commitbericht weergeven, zonder de werkkopie te wijzigen.',
-  'Downloading "%s" (%s byte(s)) to "%s"...' => '"%s" (%s byte(s)) downloaden naar "%s"...',
+  'Downloading "%s" (%s byte(s)) to "%s"...' => array(
+    
+    array(
+      '"%s" (%s byte) downloaden naar "%s"...',
+      '"%s" (%s bytes) downloaden naar "%s"...',
+    ),
+  ),
   'Type of setting \'%s\' must be list.' => 'Type van instelling \'%s\' moet lijst zijn.',
   'When creating a revision, add CCs.' => 'Bij het aanmaken van een versie, CC\'s toevoegen.',
   'Specify a string (or list of strings) identifying the binary which should be invoked to execute this linter. This overrides the default binary. If you provide a list of possible binaries, the first one which exists will be used.' => 'Geef een tekenreeks (of lijst van tekenreeksen) op die het binaire bestand identificeert dat moet worden aangeroepen om deze linter uit te voeren. Dit overschrijft het standaard binaire bestand. Als u een lijst van mogelijke binaire bestanden opgeeft, wordt het eerste dat bestaat gebruikt.',
@@ -961,21 +1494,30 @@ over de beoordelingsstatus.',
   'Specify two or more files to weld together.' => 'Geef twee of meer bestanden op om samen te voegen.',
   'Magic constants should be uppercase.' => 'Magische constanten moeten in hoofdletters zijn.',
   'CASCADE' => 'CASCADE',
-  '%s REVISION(S) HAVE CHANGES PLANNED' => '%s VERSIE(S) HEBBEN GEPLANDE WIJZIGINGEN',
+  '%s REVISION(S) HAVE CHANGES PLANNED' => array(
+    '%s VERSIE HEEFT GEPLANDE WIJZIGINGEN',
+    '%s VERSIES HEBBEN GEPLANDE WIJZIGINGEN',
+  ),
   'You are not the author of \'%s: %s\'. Commit this revision anyway?' => 'U bent niet de auteur van \'%s: %s\'. Deze versie toch committen?',
   'Lookup of encoding in project failed: %s' => 'Opzoeken van codering in project is mislukt: %s',
   'Concatenation Spacing' => 'Concatenatiespatiëring',
   'Array item with key \'%s\' must be of type array, %s given.' => 'Array-item met sleutel \'%s\' moet van het type array zijn, %s opgegeven.',
   'No mode provided for path "%s".' => 'Geen modus opgegeven voor pad "%s".',
+  'PHP-Parser Lint' => 'PHP-Parser Lint',
   'LOG IN' => 'AANMELDEN',
-  'Ignore the changes to these %s submodule(s) and continue?' => 'De wijzigingen aan deze %s submodule(s) negeren en doorgaan?',
+  'Final property promotion is not available before PHP 8.5.' => 'De promotie van finale eigenschappen is vóór PHP 8.5 niet beschikbaar.',
+  'Ignore the changes to these %s submodule(s) and continue?' => array(
+    'De wijzigingen aan deze submodule negeren en doorgaan?',
+    'De wijzigingen aan deze submodules negeren en doorgaan?',
+  ),
   'Variable Reused As Iterator' => 'Variabele hergebruikt als iterator',
   '(regenerate projects for %s)' => '(projecten opnieuw genereren voor %s)',
   'Always update a specific revision.' => 'Altijd een specifieke versie bijwerken.',
+  'In multi-line use declarations, each variable should be on a separate line.' => 'Bij meerregelige gebruiksdeclaraties moet elke variabele op een aparte regel staan.',
   'Partial Catch' => 'Gedeeltelijke catch',
   'Call to "assertCaught(<junk>, ...)" passed bad expected value. expected result. Expected null, Exception, or Throwable; got: %s.' => 'Aanroep van "assertCaught(<junk>, ...)" heeft een incorrecte verwachte waarde doorgegeven. Verwachtte null, Exception of Throwable; kreeg: %s.',
-  'Name of the S3 bucket to access.' => 'Naam van de S3-bucket om te benaderen.',
   'Example Value' => 'Voorbeeldwaarde',
+  'Dynamic expressions cannot be used as initializers for static variables before PHP 8.3.' => 'Dynamische uitdrukkingen kunnen vóór PHP 8.3 niet als initialiseringswaarden voor statische variabelen worden gebruikt.',
   'You have saved the response "%s" to this prompt.' => 'U hebt het antwoord "%s" opgeslagen voor deze prompt.',
   'This workflow (\'%s\') requires a Conduit, override %s to return true.' => 'Deze workflow (\'%s\') vereist een Conduit, overschrijf %s om true terug te geven.',
   'BRANCH' => 'BRANCH',
@@ -998,14 +1540,16 @@ over de beoordelingsstatus.',
   '(DEPRECATED) Obsolete, use "--types path" instead.' => '(VEROUDERD) Achterhaald, gebruik in plaats daarvan "--types path".',
   '    %s (%s) %s
 ' => '    %s (%s) %s',
-  'Follow naming conventions: variables should be named using `%s`.' => 'Volg naamgevingsconventies: variabelen moeten worden benoemd met `%s`.',
+  'Follow naming conventions: variables should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: variabelen moeten met `%s` worden benoemd.',
   'This is just an example function!' => 'Dit is slechts een voorbeeldfunctie!',
+  'Warning - legacy default value ignored' => 'Waarschuwing - oude standaardwaarde genegeerd',
   'Use the local "into" ref state instead of fetching it from a remote.' => 'De lokale "into"-refstatus gebruiken in plaats van deze op te halen van een remote.',
-  'You must specify an AWS endpoint with --endpoint.' => 'U moet een AWS-eindpunt opgeven met --endpoint.',
+  'Phutil PHPAST' => 'Phutil PHPAST',
   'Specifies the default behavior when "arc land" is run with no "--strategy" flag.' => 'Geeft het standaardgedrag aan wanneer "arc land" wordt uitgevoerd zonder de vlag "--strategy".',
   'Configuration option ("%s") is unrecognized. You can only read recognized configuration options.' => 'Configuratieoptie ("%s") wordt niet herkend. U kunt alleen herkende configuratieopties lezen.',
   'IP address "%s" is not properly formated: it has too few parts. Expected a minimum of 2 colons, like "%s".' => 'IP-adres "%s" is niet correct opgemaakt: het heeft te weinig delen. Verwachtte minimaal 2 dubbele punten, zoals "%s".',
   'You can not specify paths with %s. The %s flag runs every test associated with a tracked file in the working copy.' => 'U kunt geen paden opgeven met %s. De vlag %s voert elke test uit die is gekoppeld aan een gevolgd bestand in de werkkopie.',
+  'Enums are not available before PHP 8.1.' => 'Enumeraties zijn vóór PHP 8.1 niet beschikbaar.',
   'Invalid UTF-8 string passed to %s.' => 'Incorrecte UTF-8-tekenreeks doorgegeven aan %s.',
   'Creating new branch "%s" from "%s".' => 'Nieuwe branch "%s" aanmaken vanuit "%s".',
   'Use the full form of the PHP open tag, `%s`.' => 'Gebruik de volledige vorm van de PHP-opentag, `%s`.',
@@ -1026,8 +1570,7 @@ over de beoordelingsstatus.',
   '(No revisions match.)' => '(Geen versies komen overeen.)',
   'Unrecognized lint message code: "%s"' => 'Niet-herkende lintberichtcode: "%s"',
   'No lint engine configured for this project.' => 'Geen lintengine geconfigureerd voor dit project.',
-  'Lint can not be output into "%s" format because the PHP "%s" extension is not installed. Install the extension or choose a different output format.' => 'Lint kan niet worden uitgevoerd in "%s"-formaat omdat de PHP-extensie "%s" niet is geïnstalleerd. Installeer de extensie of kies een ander uitvoerformaat.',
-  'Emoji (Internet)' => 'Emoji (Internet)',
+  'Lint can not be output into "%s" format because the PHP "%s" extension is not installed. Install the extension or choose a different output format.' => 'Lint kan niet worden uitgevoerd in "%s"-formaat omdat de PHP-uitbreiding "%s" niet is geïnstalleerd. Installeer de uitbreiding of kies een ander uitvoerformaat.',
   'Call to phutil_nonempty_string() expected null or a string, got: %s.' => 'Aanroep van phutil_nonempty_string() verwachtte null of een tekenreeks, maar kreeg: %s.',
   'Your version of \'%s\' is unbuilt or out of date. Run this script to build it.' => 'Uw versie van \'%s\' is niet gebouwd of verouderd. Voer dit script uit om het te bouwen.',
   'Failed to copy file from "%s" to "%s".' => 'Kopiëren van bestand van "%s" naar "%s" is mislukt.',
@@ -1039,7 +1582,7 @@ over de beoordelingsstatus.',
   'Hexadecimal Integer Casing' => 'Hoofdlettergebruik van hexadecimale gehele getallen',
   'Calls to built-in PHP functions should be lowercase.' => 'Aanroepen van ingebouwde PHP-functies moeten in kleine letters zijn.',
   'Status: %s' => 'Status: %s',
-  'Follow naming conventions: functions should be named using `%s`.' => 'Volg naamgevingsconventies: functies moeten worden benoemd met `%s`.',
+  'Follow naming conventions: functions should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: functies moeten met `%s` worden benoemd.',
   'Unexpected value type provided for an HREF field - %s. Please share this stack trace as comment in Task %s' => 'Onverwacht waardetype opgegeven voor een HREF-veld - %s. Deel deze stacktrace als opmerking in taak %s',
   'Argument index is not a scalar.' => 'Argumentindex is geen scalar.',
   'Vigorously fuse files together, without using a cat.' => 'Bestanden krachtig samenvoegen, zonder een cat te gebruiken.',
@@ -1052,6 +1595,7 @@ over de beoordelingsstatus.',
   'This workflow isn\'t executable!' => 'Deze workflow is niet uitvoerbaar!',
   'Unknown command \'%s\'. Try \'%s\'.' => 'Onbekende opdracht \'%s\'. Probeer \'%s\'.',
   'This function can not convert into the unit "%s".' => 'Deze functie kan niet converteren naar de eenheid "%s".',
+  'Turkish (Turkey)' => 'Turks (Turkije)',
   'Runtime "--config" Flags' => 'Runtime "--config"-vlaggen',
   'SUCCESS!' => 'GELUKT!',
   'No "%s %s" alias is defined, did you mean "%s %s"?' => 'Er is geen "%s %s"-alias gedefinieerd, bedoelde u "%s %s"?',
@@ -1070,12 +1614,30 @@ over de beoordelingsstatus.',
   'Landing onto remote "%s", the default remote under Mercurial.' => 'Landen op remote "%s", de standaard remote onder Mercurial.',
   'Create a paste using the content in a file.' => 'Een paste aanmaken met de inhoud van een bestand.',
   'Jun' => 'jun',
-  'Specify a key to retrieve.' => 'Geef een sleutel op om op te halen.',
+  '%s failed: %s' => '%s mislukt: %s',
   'Unrecognized lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".' => 'Niet-herkende lintberichtcode "%s". Verwachtte een geldige JSHint-lintcode zoals "%s" of "%s".',
-  'This patch has binary data. The PHP zlib extension is required to apply patches with binary data to git. Install the PHP zlib extension to continue.' => 'Deze patch bevat binaire gegevens. De PHP zlib-extensie is vereist om patches met binaire gegevens toe te passen op git. Installeer de PHP zlib-extensie om door te gaan.',
-  'Parameter ("%s") passed to "%s" when constructing a lint message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'Parameter ("%s") doorgegeven aan "%s" bij het construeren van een lintbericht moet een tekenreeks zijn met een maximale lengte van %s bytes, maar is %s bytes lang.',
+  'This patch has binary data. The PHP zlib extension is required to apply patches with binary data to git. Install the PHP zlib extension to continue.' => 'Deze patch bevat binaire gegevens. De PHP zlib-uitbreiding is vereist om patches met binaire gegevens toe te passen op git. Installeer de PHP zlib-uitbreiding om door te gaan.',
+  'Parameter ("%s") passed to "%s" when constructing a lint message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'Parameter ("%s") doorgegeven aan "%s" bij het construeren van een lintbericht moet een tekenreeks zijn met een maximale lengte van %s byte, maar is %s byte lang.',
+          'Parameter ("%s") doorgegeven aan "%s" bij het construeren van een lintbericht moet een tekenreeks zijn met een maximale lengte van %s byte, maar is %s bytes lang.',
+        ),
+        
+        array(
+          'Parameter ("%s") doorgegeven aan "%s" bij het construeren van een lintbericht moet een tekenreeks zijn met een maximale lengte van %s bytes, maar is %s byte lang.',
+          'Parameter ("%s") doorgegeven aan "%s" bij het construeren van een lintbericht moet een tekenreeks zijn met een maximale lengte van %s bytes, maar is %s bytes lang.',
+        ),
+      ),
+    ),
+  ),
   'CONNECT' => 'VERBINDEN',
   'Unable to parse unit specification (expected a specification in the form "%s"): %s' => 'Kan eenheidsspecificatie niet verwerken (verwachtte een specificatie in de vorm "%s"): %s',
+  'Follow naming conventions: traits should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: kenmerken moeten met `%s` worden benoemd.',
   'The shell "%s" is not supported. Supported shells are: %s.' => 'De shell "%s" wordt niet ondersteund. Ondersteunde shells zijn: %s.',
   'Confirms use of a revision that does not appear to be present in the working copy.' => 'Bevestigt het gebruik van een versie die niet aanwezig lijkt te zijn in de werkkopie.',
   'INTO COMMIT' => 'NAAR COMMIT',
@@ -1101,8 +1663,12 @@ over de beoordelingsstatus.',
   '"arc upgrade" can only upgrade clean working copies.' => '"arc upgrade" kan alleen schone werkkopieën upgraden.',
   'Call to phutil_nonempty_stringlike() expected a string or stringlike object, got: %s.' => 'Aanroep van phutil_nonempty_stringlike() verwachtte een tekenreeks of tekenreeksachtig object, maar kreeg: %s.',
   'Name' => 'Naam',
+  'Promoted properties are not available before PHP 8.0.' => 'Gepromoveerde eigenschappen zijn vóór PHP 8.0 niet beschikbaar.',
   'Unit testing raised errors!' => 'Unittests hebben fouten opgeleverd!',
-  '... (%s more byte(s)) ...' => '... (nog %s byte(s)) ...',
+  '... (%s more byte(s)) ...' => array(
+    '... (nog %s byte) ...',
+    '... (nog %s bytes) ...',
+  ),
   'Install %s using `%s`.' => 'Installeer %s met `%s`.',
   'Unexpected output to stderr on exec channel: %s' => 'Onverwachte uitvoer naar stderr op exec-kanaal: %s',
   'The name of a default lint engine to use, if no lint engine is specified by the current project.' => 'De naam van een standaard lintengine om te gebruiken als er geen lintengine is opgegeven door het huidige project.',
@@ -1110,6 +1676,7 @@ over de beoordelingsstatus.',
   'Configuration option "%s" was provided multiple times with "--config" flags. Specify each option no more than once.' => 'Configuratieoptie "%s" is meerdere keren opgegeven met "--config"-vlaggen. Geef elke optie maximaal één keer op.',
   'Cannot find the %s equivalent of %s.' => 'Kan het %s-equivalent van %s niet vinden.',
   'Saving local state (on ref "%s" at commit "%s").' => 'Lokale status opslaan (op ref "%s" bij commit "%s").',
+  'The `%s` type hint is not available before PHP 7.0.' => 'De typehint `%s` is vóór PHP 7.0 niet beschikbaar.',
   'Maximum value must be an integer.' => 'Maximumwaarde moet een geheel getal zijn.',
   'Commit message has errors:' => 'Commitbericht bevat fouten:',
   'Adjust the maximum line length before a warning is raised. By default, a warning is raised on lines exceeding 80 characters.' => 'De maximale regellengte aanpassen voordat een waarschuwing wordt gegeven. Standaard wordt een waarschuwing gegeven bij regels die langer zijn dan 80 tekens.',
@@ -1118,7 +1685,7 @@ over de beoordelingsstatus.',
   'Failed to chmod \'%s\' to \'%s\'.' => 'Chmod van \'%s\' naar \'%s\' is mislukt.',
   'Operating in Git/Perforce mode after selecting a Perforce remote.' => 'Werken in Git/Perforce-modus na het selecteren van een Perforce-remote.',
   'IP address "%s" is not properly formatted: an address may only contain a maximum of one subsequence omitted with "::".' => 'IP-adres "%s" is niet correct opgemaakt: een adres mag maximaal één weggelaten deelreeks met ":::" bevatten.',
-  'Report results in JSON format.' => 'Resultaten rapporteren in JSON-formaat.',
+  'Report results in JSON format.' => 'Resultaten melden in JSON-formaat.',
   'Failed to match "ls-remote" pattern against line "%s".' => 'Kan het "ls-remote"-patroon niet matchen met regel "%s".',
   'Attempt to write to undeclared property %s.' => 'Poging om te schrijven naar niet-gedeclareerde eigenschap %s.',
   'Provide a workflow to list prompts for.' => 'Geef een workflow op om prompts voor weer te geven.',
@@ -1130,7 +1697,8 @@ over de beoordelingsstatus.',
   'Publish reviewed changes.' => 'Beoordeelde wijzigingen publiceren.',
   'fread() from stdin failed with an error.' => 'fread() van stdin is mislukt met een fout.',
   'You must either provide a signing key with setSigningKey(), or provide a secret key with setSecretKey().' => 'U moet een ondertekeningssleutel opgeven met setSigningKey(), of een geheime sleutel opgeven met setSecretKey().',
-  'With \'full\', show full pretty report (Default). With \'json\', report results in JSON format. With \'ugly\', use uglier (but more efficient) JSON formatting. With \'none\', don\'t print results.' => 'Met \'full\', volledig opgemaakt rapport weergeven (standaard). Met \'json\', resultaten rapporteren in JSON-formaat. Met \'ugly\', lelijkere (maar efficiëntere) JSON-opmaak gebruiken. Met \'none\', geen resultaten weergeven.',
+  'Omitting the variable in a catch clause is not allowed before PHP 8.0.' => 'Het weglaten van een variabele in een catch-clausule is vóór PHP 8.0 niet toegestaan.',
+  'With \'full\', show full pretty report (Default). With \'json\', report results in JSON format. With \'ugly\', use uglier (but more efficient) JSON formatting. With \'none\', don\'t print results.' => 'Met \'full\', volledig opgemaakte melding weergeven (standaard). Met \'json\', resultaten melden in JSON-formaat. Met \'ugly\', lelijkere (maar efficiëntere) JSON-opmaak gebruiken. Met \'none\', geen resultaten weergeven.',
   'SAVE STATE' => 'STATUS OPSLAAN',
   '<placeholder>' => '<plaatshouder>',
   '%s failed!' => '%s is mislukt!',
@@ -1162,6 +1730,7 @@ over de beoordelingsstatus.',
   'Future has already ended; futures can not end more than once.' => 'Future is al beëindigd; futures kunnen niet meer dan één keer eindigen.',
   'Method %s in class %s is not implemented!' => 'Methode %s in klasse %s is niet geïmplementeerd!',
   'Convention: double arrow should be surrounded by whitespace.' => 'Conventie: dubbele pijl moet omgeven zijn door witruimte.',
+  'Prefer "__CLASS__" or "__TRAIT__" over hard-coded class or trait names.' => 'Gebruik liever “__CLASS__” of “__TRAIT__” dan constante klasse- of kenmerknamen.',
   '%s disables lint.' => '%s schakelt lint uit.',
   'If you provide an alter cost with %s, you must enable type computation with %s.' => 'Als u een wijzigingskost opgeeft met %s, moet u typeberekening inschakelen met %s.',
   'Test case \'%s\' was expected to succeed, but it raised an exception of class %s with message: %s' => 'Testcase \'%s\' werd verwacht te slagen, maar gaf een uitzondering van klasse %s met bericht: %s',
@@ -1209,23 +1778,23 @@ a new branch or bookmark.
 
 When "arc work" creates a branch or bookmark, it will use **--start** as the
 branchpoint if it is provided. Otherwise, the current working copy state will
-serve as the starting point.' => 'Werk beginnen of hervatten op een branch, bookmark, taak of versie.
+serve as the starting point.' => 'Werk beginnen of hervatten op een branch, bladwijzer, taak of versie.
 
-Het __symbool__ kan een branch- of bookmarknaam zijn, een versienaam (zoals "D123"),
+Het __symbool__ kan een branch- of bladwijzernaam zijn, een versienaam (zoals "D123"),
 een taaknaam (zoals "T123"), of een nieuw symbool.
 
 Als u een symbool opgeeft dat momenteel geen lopend werk identificeert,
-wordt een nieuwe branch of bookmark aangemaakt met de naam die u opgeeft.
+wordt een nieuwe branch of bladwijzer aangemaakt met de naam die u opgeeft.
 
-Als u de naam opgeeft van een bestaande branch of bookmark, wordt de werkkopie
-overgeschakeld naar die branch of bookmark.
+Als u de naam opgeeft van een bestaande branch of bladwijzer, wordt de werkkopie
+overgeschakeld naar die branch of bladwijzer.
 
 Als u de naam opgeeft van een versie of taak, zoekt de workflow naar een
-gerelateerde branch of bookmark die al bestaat in de werkkopie. Als er een wordt
+gerelateerde branch of bladwijzer die al bestaat in de werkkopie. Als er een wordt
 gevonden, wordt ernaar overgeschakeld. Als er geen wordt gevonden, wordt geprobeerd
-een nieuwe branch of bookmark aan te maken.
+een nieuwe branch of bladwijzer aan te maken.
 
-Wanneer "arc work" een branch of bookmark aanmaakt, wordt **--start** als
+Wanneer "arc work" een branch of bladwijzer aanmaakt, wordt **--start** als
 branchpunt gebruikt als dat is opgegeven. Anders dient de huidige werkkopie-status
 als startpunt.',
   'Unknown patch type \'%s\'!' => 'Onbekend patchtype \'%s\'!',
@@ -1234,19 +1803,27 @@ als startpunt.',
   'Open a file or object in a local web browser.' => 'Een bestand of object openen in een lokale webbrowser.',
   'This codebase targets PHP %s, but short ternary was not introduced until PHP 5.3.' => 'Deze codebase richt zich op PHP %s, maar de korte ternaire operator is pas geïntroduceerd in PHP 5.3.',
   'Paste "%s" does not exist, or you do not have access to see it.' => 'Paste "%s" bestaat niet, of u hebt geen toegang om deze te bekijken.',
+  'Arrays should use the long array syntax.' => 'Arrays moeten de lange array-syntaxis gebruiken.',
   'You have no open Differential revisions.' => 'U hebt geen open Differential-versies.',
-  'You are landing %s revision(s) which are already in the state "%s", indicating that they have previously landed:' => 'U landt %s versie(s) die al in de status "%s" staan, wat aangeeft dat ze eerder zijn geland:',
+  'You are landing %s revision(s) which are already in the state "%s", indicating that they have previously landed:' => array(
+    'U laat %s versie landen die al in de status "%s" staat, wat aangeeft dat die eerder is is geland:',
+    'U laat %s versies landen die al in de status "%s" staan, wat aangeeft dat die eerder zijn is geland:',
+  ),
   'Local branches and bookmarks have not been changed, and are still in the same state as before.' => 'Lokale branches en bookmarks zijn niet gewijzigd en staan nog in dezelfde status als voorheen.',
   'Nested `%s` Statements' => 'Geneste `%s`-instructies',
   'Two workflows ("%s" and "%s") both have the same name ("%s") and both support the current toolset ("%s", "%s"). Each workflow in a given toolset must have a unique name.' => 'Twee workflows ("%s" en "%s") hebben beide dezelfde naam ("%s") en ondersteunen beide de huidige toolset ("%s", "%s"). Elke workflow in een bepaalde toolset moet een unieke naam hebben.',
   'Linter Rules' => 'Linterregels',
+  'Void casts (`%s`) are not available before PHP 8.4.' => 'Void casts (`%s`) zijn vóór PHP 8.4 niet beschikbaar.',
   'Preparing to run a command in directory "%s", but that directory is not executable (the current process does not have "+x" permission).' => 'Voorbereiden om een opdracht uit te voeren in map "%s", maar die map is niet uitvoerbaar (het huidige proces heeft geen "+x"-toestemming).',
   'It is late in the evening. The air is cool and still, and filled with the sound of crickets.' => 'Het is laat in de avond. De lucht is koel en stil, en gevuld met het geluid van krekels.',
   '(The Empty Tree)' => '(De lege boom)',
   'VERY META' => 'HEEL META',
   'Shelving uncommitted changes from working copy.' => 'Niet-gecommitte wijzigingen van de werkkopie opbergen.',
   'OKAY' => 'OK',
-  '%s locally modified path(s) are not included in this revision:' => '%s lokaal gewijzigd(e) pad(en) zijn niet opgenomen in deze versie:',
+  '%s locally modified path(s) are not included in this revision:' => array(
+    'Een lokaal gewijzigd pad is niet opgenomen in deze versie:',
+    'Lokaal gewijzigde paden zijn niet opgenomen in deze versie:',
+  ),
   'Failed to JSON encode value (%s): %s.' => 'JSON-codering van waarde (%s) is mislukt: %s.',
   'Landing the active commit, "%s".' => 'De actieve commit "%s" wordt geland.',
   'IP address "%s" is not properly formatted: the segments of an address must be hexadecimal values between "0000" and "ffff", inclusive. Segment "%s" is not.' => 'IP-adres "%s" is niet correct opgemaakt: de segmenten van een adres moeten hexadecimale waarden zijn tussen "0000" en "ffff" (inclusief). Segment "%s" is dat niet.',
@@ -1264,6 +1841,7 @@ als startpunt.',
   'Prompt ("%s") is executing, but it is not properly bound to the invoking workflow. You may have called "newPrompt()" to execute a prompt instead of "getPrompt()". Use "newPrompt()" when defining prompts and "getPrompt()" when executing them.' => 'Prompt ("%s") wordt uitgevoerd, maar is niet correct gebonden aan de aanroepende workflow. Mogelijk hebt u "newPrompt()" aangeroepen om een prompt uit te voeren in plaats van "getPrompt()". Gebruik "newPrompt()" bij het definiëren van prompts en "getPrompt()" bij het uitvoeren ervan.',
   'BROKEN' => 'DEFECT',
   'Unparsable Mercurial status line \'%s\'.' => 'Niet te verwerken Mercurial-statusregel \'%s\'.',
+  'Private methods in traits are not available before PHP 8.0.' => 'Privémethoden in kenmerken zijn vóór PHP 8.0 niet beschikbaar.',
   'You\'re running a command which operates on a range of revisions (usually, from some revision to HEAD) but have not specified the revision that should determine the start of the range.
 
 Previously, arc assumed you meant \'%s\' when you did not specify a start revision, but this behavior does not make much sense in most workflows outside of Facebook\'s historic %s workflow.
@@ -1278,7 +1856,7 @@ Voorheen nam arc aan dat u \'%s\' bedoelde wanneer u geen startversie opgaf, maa
 
 arc neemt niet langer \'%s\' aan. U moet expliciet een relatieve commit opgeven wanneer u een opdracht aanroept (bijv. `%s`, niet alleen `%s`) of een standaard selecteren voor deze werkkopie.
 
-In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren om het oude gedrag te behouden, of een andere remote of branch. Maar u wilt vrijwel zeker \'origin/master\' selecteren.
+In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren om het oude gedrag te behouden, of een andere remote of branch. Maar u wilt vrijwel zeker \'origin/main\' selecteren.
 
 (Technisch: de merge-base van de geselecteerde versie en HEAD wordt gebruikt om het begin van het commitbereik te bepalen.)',
   'Configuration option ("%s") specified with "--config" flag is not a recognized option.' => 'Configuratieoptie ("%s") opgegeven met de vlag "--config" is geen herkende optie.',
@@ -1305,8 +1883,11 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'Error' => 'Fout',
   'Object Operator Spacing' => 'Objectoperatorspatiëring',
   'PayPal API call failed: %s' => 'PayPal API-aanroep mislukt: %s',
-  'Revision includes changes to %s path(s) that do not exist:' => 'Versie bevat wijzigingen aan %s pad(en) die niet bestaan:',
-  'Creating new bookmark "%s" from "%s".' => 'Nieuwe bookmark "%s" aanmaken vanuit "%s".',
+  'Revision includes changes to %s path(s) that do not exist:' => array(
+    'Versie omvat wijzigingen aan een pad dat niet bestaat:',
+    'Versie omvat wijzigingen aan paden die niet bestaan:',
+  ),
+  'Creating new bookmark "%s" from "%s".' => 'Nieuwe bladwijzer "%s" aanmaken vanuit "%s".',
   'TODO: Support merge strategies' => 'TODO: Mergestrategieën ondersteunen',
   'arc could not identify any existing revision in your working copy.' => 'arc kon geen bestaande versie identificeren in uw werkkopie.',
   'Learn More:' => 'Meer informatie:',
@@ -1318,7 +1899,6 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'Hardpoint ("%s") is not registered on this object (of type "%s") so the definition object does not exist. Hardpoints are: %s.' => 'Hardpoint ("%s") is niet geregistreerd op dit object (van type "%s") dus het definitieobject bestaat niet. Hardpoints zijn: %s.',
   'Use "Commandeer" in the web interface to become the author of a revision.' => 'Gebruik "Commandeer" in de webinterface om de auteur van een versie te worden.',
   'LINT MESSAGES' => 'LINTBERICHTEN',
-  'Multiple repostories (%s) matched the query. You can use the "%s" configuration to select the one you want.' => 'Meerdere repository\'s (%s) kwamen overeen met de zoekopdracht. U kunt de "%s"-configuratie gebruiken om de gewenste te selecteren.',
   'Use "--revision <id>" to specify which revision you want to amend.' => 'Gebruik "--revision <id>" om op te geven welke versie u wilt wijzigen.',
   'Exiting (Client Limit)' => 'Afsluiten (clientlimiet)',
   'File "%s"' => 'Bestand "%s"',
@@ -1336,7 +1916,6 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'Call to phutil_nonempty_scalar() expected: a string; or stringlike object; or int; or float. Got: %s.' => 'Aanroep van phutil_nonempty_scalar() verwachtte: een tekenreeks; of tekenreeksachtig object; of int; of float. Kreeg: %s.',
   'Expected \'Date:\'.' => 'Verwachtte \'Date:\'.',
   'JSON protocol message must be an array, got some other type ("%s").' => 'JSON-protocolbericht moet een array zijn, maar kreeg een ander type ("%s").',
-  'pep8 is a tool to check your Python code against some of the style conventions in PEP 8.' => 'pep8 is een hulpmiddel om uw Python-code te controleren tegen enkele stijlconventies in PEP 8.',
   'Advice' => 'Advies',
   'Unable to resolve argument "%s".' => 'Kan argument "%s" niet oplossen.',
   'Unable to resolve startpoint "%s".' => 'Kan startpunt "%s" niet oplossen.',
@@ -1349,7 +1928,7 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'String conversion from encoding \'%s\' to encoding \'%s\' failed: %s' => 'Tekenreeksconversie van codering \'%s\' naar codering \'%s\' is mislukt: %s',
   'Configured command aliases. Use the "alias" workflow to define aliases.' => 'Geconfigureerde opdrachtaliassen. Gebruik de "alias"-workflow om aliassen te definiëren.',
   'You can not reiterate over a %s object. The entire goal of the construct is to avoid keeping output in memory. What you are attempting to do is silly and doesn\'t make any sense.' => 'U kunt niet opnieuw itereren over een %s-object. Het hele doel van de constructie is om uitvoer niet in het geheugen te houden. Wat u probeert te doen is onzinnig en slaat nergens op.',
-  'Successfully applied patch to the working copy.' => 'Patch succesvol toegepast op de werkkopie.',
+  'Successfully applied patch to the working copy.' => 'Patch toegepast op de werkkopie.',
   'Unstaged changes in working copy:' => 'Niet-gestage wijzigingen in werkkopie:',
   'Failed to unserialize object: %s' => 'Deserialiseren van object is mislukt: %s',
   'Use of Short Tag `%s`' => 'Gebruik van korte tag `%s`',
@@ -1361,7 +1940,7 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'List Assignment' => 'Lijsttoewijzing',
   '`%s` Should Be `%s`' => '`%s` moet `%s` zijn',
   'ACTUAL VALUE' => 'WERKELIJKE WAARDE',
-  'No HTTP engine extension exists with extension key "%s".' => 'Er bestaat geen HTTP-engine-extensie met extensiesleutel "%s".',
+  'No HTTP engine extension exists with extension key "%s".' => 'Er bestaat geen HTTP-engine-uitbreiding met uitbreidingssleutel "%s".',
   'P4 SYNC' => 'P4 SYNC',
   'Apply changes from a git patchfile or unified patchfile.' => 'Wijzigingen toepassen vanuit een git-patchbestand of unified patchbestand.',
   'Self Member Reference' => 'Zelflidverwijzing',
@@ -1385,9 +1964,8 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'Install puppet-lint using `%s`.' => 'Installeer puppet-lint met `%s`.',
   'This repository has no VCS UUID (this is normal for git/hg).' => 'Deze repository heeft geen VCS-UUID (dit is normaal voor git/hg).',
   'Call to "proc_open()" to open a subprocess failed: %s' => 'Aanroep van "proc_open()" om een subproces te openen is mislukt: %s',
-  'AWS access key.' => 'AWS-toegangssleutel.',
   'Library "%s" (in "%s") is on branch "%s", but this branch is not supported for automatic upgrades. Supported branches are: %s.' => 'Bibliotheek "%s" (in "%s") staat op branch "%s", maar deze branch wordt niet ondersteund voor automatische upgrades. Ondersteunde branches zijn: %s.',
-  'Successfully %s patch.' => 'Patch succesvol %s.',
+  'Successfully %s patch.' => 'Patch is %s.',
   'Unable to find any local branches to update, staying on detached head.' => 'Kan geen lokale branches vinden om bij te werken, blijft op losstaande head.',
   'A copy was saved to %s.' => 'Een kopie is opgeslagen in %s.',
   'Title for the paste.' => 'Titel voor de paste.',
@@ -1399,7 +1977,10 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'Argument "%s" conflicts with unspecified argument "%s".' => 'Argument "%s" conflicteert met niet-opgegeven argument "%s".',
   'Unable to write configuration: there is no writable configuration source in the "%s" scope.' => 'Kan configuratie niet schrijven: er is geen schrijfbare configuratiebron in het bereik "%s".',
   'Closed' => 'Gesloten',
-  'To go back to how things were before you ran "arc land", run these %s command(s):' => 'Om terug te gaan naar hoe het was voordat u "arc land" uitvoerde, voer deze %s opdracht(en) uit:',
+  'To go back to how things were before you ran "arc land", run these %s command(s):' => array(
+    'Om terug te gaan naar hoe het was voordat u "arc land" uitvoerde, voer deze opdracht uit:',
+    'Om terug te gaan naar hoe het was voordat u "arc land" uitvoerde, voer deze opdrachten uit:',
+  ),
   'Useless Overriding Method' => 'Nutteloze overschrijvende methode',
   'Perform a clean rebuild, ignoring caches. Thorough, but slow.' => 'Een schone herbouw uitvoeren, caches negerend. Grondig, maar langzaam.',
   'Multiple exceptions were raised during test execution.' => 'Er zijn meerdere uitzonderingen opgetreden tijdens de testuitvoering.',
@@ -1413,9 +1994,15 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'This loop reuses iterator variables (%s) from an outer loop. You might be clobbering the outer iterator. Change the inner loop to use a different iterator name.' => 'Deze lus hergebruikt iteratorvariabelen (%s) van een buitenste lus. U overschrijft mogelijk de buitenste iterator. Wijzig de binnenste lus om een andere iteratornaam te gebruiken.',
   'This codebase targets PHP %s, but nowdoc was not introduced until PHP 5.3.' => 'Deze codebase richt zich op PHP %s, maar nowdoc is pas geïntroduceerd in PHP 5.3.',
   'Implode With Glue First' => 'Implode met lijm eerst',
-  'Diff for \'%s\' with context is %s bytes in length. Generally, source changes should not be this large.' => 'Diff voor \'%s\' met context is %s bytes lang. Over het algemeen mogen bronwijzigingen niet zo groot zijn.',
+  'Diff for \'%s\' with context is %s bytes in length. Generally, source changes should not be this large.' => array(
+    
+    array(
+      'Diff voor \'%s\' met context is %s byte lang. Over het algemeen mogen bronwijzigingen niet zo groot zijn.',
+      'Diff voor \'%s\' met context is %s bytes lang. Over het algemeen mogen bronwijzigingen niet zo groot zijn.',
+    ),
+  ),
   'Deleted After Multiple Copy' => 'Verwijderd na meervoudige kopie',
-  'Naming Conventions' => 'Naamgevingsconventies',
+  'Naming Conventions' => 'Naamgevingsrichtlijnen',
   'Failed to remove file \'%s\'!' => 'Verwijderen van bestand \'%s\' is mislukt!',
   'Argument specification MUST have a \'name\'.' => 'Argumentspecificatie MOET een \'name\' hebben.',
   'To configure Git to ignore certain files in this working copy, add the file paths to "%s".' => 'Om Git te configureren om bepaalde bestanden in deze werkkopie te negeren, voeg de bestandspaden toe aan "%s".',
@@ -1452,7 +2039,7 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'Unexpected `%s` Value' => 'Onverwachte `%s`-waarde',
   'Failed to match against branch pattern "%s".' => 'Kan niet matchen met branchpatroon "%s".',
   'LOCAL CYCLE' => 'LOKALE CYCLUS',
-  'Extension ("%s") defines invalid alias ("%s") for configuration key ("%s"). Configuration keys and aliases: may only contain lowercase letters, numbers, hyphens, underscores, and periods; must start with a letter; and must be at least three characters long.' => 'Extensie ("%s") definieert incorrecte alias ("%s") voor configuratiesleutel ("%s"). Configuratiesleutels en aliassen: mogen alleen kleine letters, cijfers, koppeltekens, onderstrepingstekens en punten bevatten; moeten beginnen met een letter; en moeten minstens drie tekens lang zijn.',
+  'Extension ("%s") defines invalid alias ("%s") for configuration key ("%s"). Configuration keys and aliases: may only contain lowercase letters, numbers, hyphens, underscores, and periods; must start with a letter; and must be at least three characters long.' => 'Uitbreiding ("%s") definieert incorrecte alias ("%s") voor configuratiesleutel ("%s"). Configuratiesleutels en aliassen: mogen alleen kleine letters, cijfers, koppeltekens, onderstrepingstekens en punten bevatten; moeten beginnen met een letter; en moeten minstens drie tekens lang zijn.',
   'Functions which should be considered deprecated.' => 'Functies die als verouderd moeten worden beschouwd.',
   'Connection could not be initiated. This usually indicates a DNS problem: verify the domain name is correct, that you can perform a DNS lookup for it from this machine. (Did you add the domain to `%s` on some other machine, but not this one?) This might also indicate that you specified the wrong port.' => 'Verbinding kon niet worden gestart. Dit duidt meestal op een DNS-probleem: controleer of de domeinnaam correct is en of u een DNS-lookup kunt uitvoeren vanaf deze machine. (Hebt u het domein toegevoegd aan `%s` op een andere machine, maar niet op deze?) Dit kan ook aangeven dat u de verkeerde poort hebt opgegeven.',
   'Resolved commit \'%s\' from rule \'%s\'.' => 'Commit \'%s\' opgelost vanuit regel \'%s\'.',
@@ -1479,7 +2066,10 @@ In de meeste gevallen is de beste standaard \'%s\'. U kunt ook \'%s\' selecteren
   'The diff or revision you specified is either invalid or you don\'t have permission to view it.' => 'De diff of versie die u hebt opgegeven is incorrect of u hebt geen toestemming om deze te bekijken.',
   'Install `%s` from <%s>.' => 'Installeer `%s` van <%s>.',
   'Configuration source ("%s") has no value for key ("%s").' => 'Configuratiebron ("%s") heeft geen waarde voor sleutel ("%s").',
-  'Create %s new branche(s) in the remote?' => '%s nieuwe branch(es) aanmaken in de remote?',
+  'Create %s new branche(s) in the remote?' => array(
+    'Nieuwe branch aanmaken in de remote?',
+    'Nieuwe branches aanmaken in de remote?',
+  ),
   'You can not execute an HTTP future with both a raw request body and structured request data.' => 'U kunt geen HTTP-future uitvoeren met zowel een ruwe verzoekinhoud als gestructureerde verzoekgegevens.',
   'Writing %s...' => '%s schrijven...',
   'Use `%s` instead of `%s` to indicate public visibility.' => 'Gebruik `%s` in plaats van `%s` om publieke zichtbaarheid aan te geven.',
@@ -1514,7 +2104,6 @@ Deze versie toch bijwerken?',
   'Call to %s(%s, ...) failed.' => 'Aanroep van %s(%s, ...) is mislukt.',
   'Unnecessary Double Quotes' => 'Onnodige dubbele aanhalingstekens',
   'Some rules can never be reached from any production: %s' => 'Sommige regels kunnen nooit worden bereikt vanuit een productie: %s',
-  'Specify a key to delete.' => 'Geef een sleutel op om te verwijderen.',
   'Can not draw a grid with no columns!' => 'Kan geen raster tekenen zonder kolommen!',
   '%s suppresses unassigned' => '%s onderdrukt niet-toegewezen',
   'French (France)' => 'Frans (Frankrijk)',
@@ -1587,7 +2176,6 @@ Deze versie toch bijwerken?',
   - Dit symbool is gedefinieerd in een externe bibliotheek.
     Gebruik "@phutil-external-symbol" om het te annoteren.
     Gebruik "grep" om gebruiksvoorbeelden te vinden.',
-  'The revision associated with commit "%s" (an ancestor of: %s) is ambiguous. These %s revision(s) are associated with the commit:' => 'De versie die is gekoppeld aan commit "%s" (een voorouder van: %s) is dubbelzinnig. Deze %s versie(s) zijn gekoppeld aan de commit:',
   'Possible spelling error. You wrote \'%s\', but did you mean \'%s\'?' => 'Mogelijke spelfout. U schreef \'%s\', maar bedoelde u \'%s\'?',
   'See <%s>. The default merge strategy under Git with "history.immutable" has changed from "merge" to "squash". Your configuration is ambiguous under this behavioral change. (Use "--strategy" or configure "arc.land.strategy" to bypass this check.)' => 'Zie <%s>. De standaard mergestrategie onder Git met "history.immutable" is gewijzigd van "merge" naar "squash". Uw configuratie is dubbelzinnig onder deze gedragswijziging. (Gebruik "--strategy" of configureer "arc.land.strategy" om deze controle te omzeilen.)',
   'Unknown diff type.' => 'Onbekend diff-type.',
@@ -1616,12 +2204,15 @@ Deze versie toch bijwerken?',
   'When linting git repositories, amend HEAD with all patches suggested by lint without prompting.' => 'Bij het linten van git-repository\'s, HEAD wijzigen met alle patches die door lint worden voorgesteld zonder bevestiging.',
   'Expected a hunk header, like \'%s\' (svn), \'%s\' (svn properties), \'%s\' (git show), \'%s\' (git diff), \'%s\' (unified diff), or \'%s\' (hg diff or patch).' => 'Verwachtte een hunk-header, zoals \'%s\' (svn), \'%s\' (svn-eigenschappen), \'%s\' (git show), \'%s\' (git diff), \'%s\' (unified diff), of \'%s\' (hg diff of patch).',
   'Run every test associated with a tracked file in the working copy.' => 'Elke test uitvoeren die is gekoppeld aan een gevolgd bestand in de werkkopie.',
-  'To push changes manually, run these %s command(s):' => 'Om wijzigingen handmatig te pushen, voer deze %s opdracht(en) uit:',
+  'To push changes manually, run these %s command(s):' => array(
+    'Om wijzigingen handmatig te pushen, voer deze opdracht uit:',
+    'Om wijzigingen handmatig te pushen, voer deze opdrachten uit:',
+  ),
   'Preparing merge into the empty state to create target "%s" in remote "%s".' => 'Merge naar de lege status voorbereiden om doel "%s" aan te maken in remote "%s".',
   'To do this, run: **%s**' => 'Voer hiervoor uit: **%s**',
-  '`%s` methods cannot be marked as `%s`. This construct will cause a fatal error.' => '`%s`-methoden kunnen niet worden gemarkeerd als `%s`. Deze constructie veroorzaakt een fatale fout.',
+  '`%s` methods cannot be marked as `%s`. This construct will cause a fatal error.' => '`%s`-methoden kunnen niet worden gemarkeerd als `%s`. Deze constructie veroorzaakt een onherstelbare fout.',
   'Lint issued unresolved warnings.' => 'Lint heeft onopgeloste waarschuwingen uitgegeven.',
-  'The test failed in an abnormal or severe way. For example, the harness crashed instead of reporting a failure.' => 'De test is op een abnormale of ernstige manier mislukt. Bijvoorbeeld, het testharnas is gecrasht in plaats van een mislukking te rapporteren.',
+  'The test failed in an abnormal or severe way. For example, the harness crashed instead of reporting a failure.' => 'De test is op een abnormale of ernstige manier mislukt. Bijvoorbeeld, het testharnas is gecrasht in plaats van een mislukking te melden.',
   'Dec' => 'dec',
   'Resolve these errors:' => 'Los deze fouten op:',
   'Channel closed while waiting for message!' => 'Kanaal gesloten tijdens het wachten op een bericht!',
@@ -1630,7 +2221,7 @@ Deze versie toch bijwerken?',
   'Script and Regex' => 'Script en regex',
   'To install shell completion support for "%s", this line will be added to your existing "%s" file:' => 'Om shell-aanvullingsondersteuning voor "%s" te installeren, wordt deze regel toegevoegd aan uw bestaande bestand "%s":',
   'Instead of creating or updating a revision, only create a diff, which you may later attach to a revision.' => 'In plaats van een versie aan te maken of bij te werken, alleen een diff aanmaken die u later aan een versie kunt koppelen.',
-  'Follow naming conventions: methods should be named using `%s`.' => 'Volg naamgevingsconventies: methoden moeten worden benoemd met `%s`.',
+  'Follow naming conventions: methods should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: methoden moeten met `%s` worden benoemd.',
   'These branches were selected:' => 'Deze branches zijn geselecteerd:',
   'You must provide a commit message.' => 'U moet een commitbericht opgeven.',
   'What do you want to name this library?' => 'Hoe wilt u deze bibliotheek noemen?',
@@ -1655,7 +2246,10 @@ Deze versie toch bijwerken?',
   'Remote "%s" was selected by following tracking branches upstream to the closest remote.' => 'Remote "%s" is geselecteerd door tracking-branches upstream te volgen naar de dichtstbijzijnde remote.',
   'Prompt ("%s") has no query text!' => 'Prompt ("%s") heeft geen vraagtekst!',
   'These commits will be included in the diff:' => 'Deze commits worden opgenomen in de diff:',
-  '%s REVISION(S) ARE NOT ACCEPTED' => '%s VERSIE(S) ZIJN NIET GEACCEPTEERD',
+  '%s REVISION(S) ARE NOT ACCEPTED' => array(
+    '%s VERSIE IS ZIJN NIET GEACCEPTEERD',
+    '%s VERSIES ZIJN ZIJN NIET GEACCEPTEERD',
+  ),
   'HOLD CHANGES' => 'WIJZIGINGEN VASTHOUDEN',
   'Expected unit for meminfo key "%s" in meminfo source "%s" to be "kB", found "%s".' => 'Verwachtte eenheid voor meminfo-sleutel "%s" in meminfo-bron "%s" als "kB", maar vond "%s".',
   'The cURL library raised an error while making a request. You may be able to find more information about this error (error code: %d) on the cURL site: %s' => 'De cURL-bibliotheek heeft een fout gegeven bij het doen van een verzoek. U kunt mogelijk meer informatie over deze fout (foutcode: %d) vinden op de cURL-site: %s',
@@ -1663,7 +2257,7 @@ Deze versie toch bijwerken?',
   'Duplicate Case Statements' => 'Dubbele case-instructies',
   'P4 MODE' => 'P4-MODUS',
   'This variable was used already as a by-reference iterator variable. Such variables survive outside the `%s` loop, do not reuse.' => 'Deze variabele is al gebruikt als een by-reference iteratorvariabele. Dergelijke variabelen overleven buiten de `%s`-lus, hergebruik ze niet.',
-  'Install completion support for a particular shell.' => 'Aanvullingsondersteuning installeren voor een bepaalde shell.',
+  'Install completion support for a particular shell.' => 'Aanvullingsondersteuning installeren voor een specifieke shell.',
   'Expected a regular expression, but \'%s\' is not valid: %s' => 'Verwachtte een reguliere expressie, maar \'%s\' is niet geldig: %s',
   'Expected a natural list!' => 'Verwachtte een natuurlijke lijst!',
   'Options \'%s\' and \'%s\' are not compatible. Choose exactly one change source.' => 'Opties \'%s\' en \'%s\' zijn niet compatibel. Kies precies één wijzigingsbron.',
@@ -1672,7 +2266,10 @@ Deze versie toch bijwerken?',
   'Revision %s does not exist.' => 'Versie %s bestaat niet.',
   'Unable to write log "%s" to path "%s". The containing directory ("%s") does not exist or is not readable, and could not be created.' => 'Kan log "%s" niet schrijven naar pad "%s". De bevattende map ("%s") bestaat niet of is niet leesbaar, en kon niet worden aangemaakt.',
   'INFO' => 'INFO',
-  'You are using "--hold", so execution will stop before the %s branche(s) are actually created. You will be given instructions to create the branches.' => 'U gebruikt "--hold", dus de uitvoering stopt voordat de %s branch(es) daadwerkelijk worden aangemaakt. U krijgt instructies om de branches aan te maken.',
+  'You are using "--hold", so execution will stop before the %s branche(s) are actually created. You will be given instructions to create the branches.' => array(
+    'U gebruikt "--hold", dus de uitvoering stopt voordat de branch daadwerkelijk wordt aangemaakt. U krijgt instructies om de branch aan te maken.',
+    'U gebruikt "--hold", dus de uitvoering stopt voordat de branches daadwerkelijk worden aangemaakt. U krijgt instructies om de branches aan te maken.',
+  ),
   'Trying to create a %s without a working copy!' => 'Poging om een %s aan te maken zonder een werkkopie!',
   'PREPARING' => 'VOORBEREIDEN',
   'Korean (Republic of Korea)' => 'Koreaans (Republiek Korea)',
@@ -1691,7 +2288,7 @@ Deze versie toch bijwerken?',
   'Unable to write to stdin!' => 'Kan niet schrijven naar stdin!',
   'Uncommitted changes in working copy:' => 'Niet-gecommitte wijzigingen in werkkopie:',
   'Merge Conflicts' => 'Mergeconflicten',
-  'Symbol "%s" does not identify a bookmark, branch, or commit.' => 'Symbool "%s" identificeert geen bookmark, branch of commit.',
+  'Symbol "%s" does not identify a bookmark, branch, or commit.' => 'Symbool "%s" identificeert geen bladwijzer, branch of commit.',
   '<none>' => '<geen>',
   'The flags "--generate" and "--shell" are mutually exclusive. The "--shell" flag selects which shell to install support for, but the "--generate" suppresses installation.' => 'De vlaggen "--generate" en "--shell" sluiten elkaar uit. De vlag "--shell" selecteert voor welke shell ondersteuning geïnstalleerd moet worden, maar "--generate" onderdrukt de installatie.',
   'Builtin Defaults' => 'Ingebouwde standaardwaarden',
@@ -1706,10 +2303,12 @@ Deze versie toch bijwerken?',
   'There are no commits to land.' => 'Er zijn geen commits om te landen.',
   '`%s` Reassignment' => '`%s`-hertoewijzing',
   'Failed to connect to server (%s): %s' => 'Verbinden met server (%s) is mislukt: %s',
-  'These %s symbol(s) do not exist in the remote. They will be created as new bookmarks:' => 'Deze %s symbo(o)l(en) bestaan niet in de remote. Ze worden aangemaakt als nieuwe bookmarks:',
-  'When specifying AWS credentials with --access-key and --secret-key, you must provide both keys.' => 'Bij het opgeven van AWS-aanmeldgegevens met --access-key en --secret-key moet u beide sleutels opgeven.',
+  'These %s symbol(s) do not exist in the remote. They will be created as new bookmarks:' => array(
+    'Dit symbool bestaat niet in de remote. Het wordt aangemaakt als nieuwe bladwijzer:',
+    'Deze %s symbolen bestaan niet in de remote. Ze worden aangemaakt als nieuwe bladwijzers:',
+  ),
   'You must %s!' => 'U moet %s!',
-  'When creating a new branch or bookmark, use this as the branch point.' => 'Bij het aanmaken van een nieuwe branch of bookmark, dit als branchpunt gebruiken.',
+  'When creating a new branch or bookmark, use this as the branch point.' => 'Bij het aanmaken van een nieuwe branch of bladwijzer, dit als branchpunt gebruiken.',
   'CHOOSE' => 'KIEZEN',
   'Expected: %s
   Actual: %s' => 'Verwacht: %s
@@ -1723,7 +2322,6 @@ Deze versie toch bijwerken?',
   'Local ref "%s" does not exist.' => 'Lokale ref "%s" bestaat niet.',
   '%s us' => '%s us',
   'Unary postfix operators should not be prefixed by whitespace.' => 'Unaire postfixoperatoren mogen niet worden voorafgegaan door witruimte.',
-  'Specify a key to upload.' => 'Geef een sleutel op om te uploaden.',
   'Night has fallen, but your surroundings are illuminated by the silvery glow of a full moon overhead. The night is cool and the air is crisp. The trees are calm.' => 'De nacht is gevallen, maar uw omgeving wordt verlicht door de zilveren gloed van een volle maan boven u. De nacht is koel en de lucht is fris. De bomen zijn rustig.',
   'Enable strict math, which only processes mathematical expressions inside extraneous parentheses.' => 'Strikte wiskunde inschakelen, die alleen wiskundige expressies binnen extra haakjes verwerkt.',
   'UNCOMMITTED CHANGES' => 'NIET-GECOMMITTE WIJZIGINGEN',
@@ -1760,7 +2358,10 @@ Deze versie toch bijwerken?',
   'Parameter provided to argument "--%s" must be an integer.' => 'Parameter opgegeven voor argument "--%s" moet een geheel getal zijn.',
   'Filesystem path "%s" does not exist.' => 'Bestandssysteempad "%s" bestaat niet.',
   'Hardpoint (at index "%s") has no hardpoint key. Each hardpoint must have a key that is unique among hardpoints on the object.' => 'Hardpoint (op index "%s") heeft geen hardpointsleutel. Elk hardpoint moet een sleutel hebben die uniek is onder hardpoints op het object.',
-  'You are landing %s revision(s) which are currently in the state "%s", indicating that you expect to revise them before moving forward.' => 'U landt %s versie(s) die momenteel in de status "%s" staan, wat aangeeft dat u verwacht ze te herzien voordat u verder gaat.',
+  'You are landing %s revision(s) which are currently in the state "%s", indicating that you expect to revise them before moving forward.' => array(
+    'U landt %s versie die momenteel in de status "%s"  staat, wat aangeeft dat u verwacht die te herzien voordat u verder gaat.',
+    'U landt %s versies die momenteel in de status "%s"  staan, wat aangeeft dat u verwacht die te herzien voordat u verder gaat.',
+  ),
   'Expected exactly one argument to "commit(...)" with a commit symbol.' => 'Verwachtte precies één argument voor "commit(...)" met een commitsymbool.',
   'Apply changes from a Differential revision, using the most recent diff that has been attached to it. You can run \'%s\' as a shorthand.' => 'Wijzigingen toepassen vanuit een Differential-versie, met de meest recente diff die eraan is gekoppeld. U kunt \'%s\' als afkorting uitvoeren.',
   'The software version on the server is too old to support this workflow. Upgrade the software version on the server to a version released after October 2017.' => 'De softwareversie op de server is te oud om deze workflow te ondersteunen. Werk de softwareversie op de server bij naar een versie die is uitgebracht na oktober 2017.',
@@ -1770,20 +2371,40 @@ Deze versie toch bijwerken?',
   'Merging local "%s" into "%s" produces an empty diff. This usually means these changes have already landed.' => 'Het mergen van lokale "%s" in "%s" produceert een lege diff. Dit betekent meestal dat deze wijzigingen al zijn geland.',
   'Checking out "%s".' => '"%s" uitchecken.',
   'Parameter "timeout" to "Future->resolve()" is no longer supported. Update the caller so it no longer passes a timeout.' => 'Parameter "timeout" voor "Future->resolve()" wordt niet meer ondersteund. Werk de aanroeper bij zodat deze geen timeout meer doorgeeft.',
-  'Unknown Mercurial Extension: "%s".' => 'Onbekende Mercurial-extensie: "%s".',
+  'Unknown Mercurial Extension: "%s".' => 'Onbekende Mercurial-uitbreiding: "%s".',
   'There is no **%s** workflow.' => 'Er is geen **%s**-workflow.',
   'AWS Errors:' => 'AWS-fouten:',
   'Failed to fread() from request input stream.' => 'fread() van verzoek-invoerstroom is mislukt.',
   'Limit the use of global variables. Global variables are generally a bad idea and should be avoided when possible.' => 'Beperk het gebruik van globale variabelen. Globale variabelen zijn over het algemeen een slecht idee en moeten waar mogelijk worden vermeden.',
   'Unrecognized lint message code "%s". Expected a valid cpplint lint code like "%s" or "%s".' => 'Niet-herkende lintberichtcode "%s". Verwachtte een geldige cpplint-lintcode zoals "%s" of "%s".',
-  'Revision "%s" is not in state "Accepted", so it will be left open.' => 'Versie "%s" is niet in de status "Geaccepteerd", dus deze blijft open.',
-  'Protocol channel expected %s-character, zero-padded numeric frame length, got something else ("%s"). Full buffer (of length %s) begins: %s' => 'Protocolkanaal verwachtte %s-teken, met nullen opgevulde numerieke framelengte, maar kreeg iets anders ("%s"). Volledige buffer (van lengte %s) begint: %s',
+  'Protocol channel expected %s-character, zero-padded numeric frame length, got something else ("%s"). Full buffer (of length %s) begins: %s' => array(
+    'Protocolkanaal verwachtte %s teken, met nullen opgevulde numerieke framelengte, maar kreeg iets anders ("%s"). Volledige buffer (van lengte %s) begint: %s',
+    'Protocolkanaal verwachtte %s tekens, met nullen opgevulde numerieke framelengte, maar kreeg iets anders ("%s"). Volledige buffer (van lengte %s) begint: %s',
+  ),
   'Failed to read file \'%s\'.' => 'Lezen van bestand \'%s\' is mislukt.',
   'FETCH' => 'OPHALEN',
   'Create or update a library.' => 'Een bibliotheek aanmaken of bijwerken.',
   'SYNOPSIS' => 'SAMENVATTING',
   'Arcventure' => 'Arcventure',
-  'Parameter ("%s") passed to "%s" when constructing a lint message must be a scalar with a maximum string length of %s bytes, but is %s bytes in length.' => 'Parameter ("%s") doorgegeven aan "%s" bij het samenstellen van een lintbericht moet een scalaire waarde zijn met een maximale tekenreekslengte van %s bytes, maar is %s bytes lang.',
+  'Parameter ("%s") passed to "%s" when constructing a lint message must be a scalar with a maximum string length of %s bytes, but is %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'Parameter ("%s") doorgegeven aan "%s" bij het samenstellen van een lintbericht moet een scalaire waarde zijn met een maximale tekenreekslengte van %s byte, maar is %s byte lang.',
+          'Parameter ("%s") doorgegeven aan "%s" bij het samenstellen van een lintbericht moet een scalaire waarde zijn met een maximale tekenreekslengte van %s byte, maar is %s bytes lang.',
+        ),
+        
+        array(
+          'Parameter ("%s") doorgegeven aan "%s" bij het samenstellen van een lintbericht moet een scalaire waarde zijn met een maximale tekenreekslengte van %s bytes, maar is %s byte lang.',
+          'Parameter ("%s") doorgegeven aan "%s" bij het samenstellen van een lintbericht moet een scalaire waarde zijn met een maximale tekenreekslengte van %s bytes, maar is %s bytes lang.',
+        ),
+      ),
+    ),
+  ),
+  'Revision "%s" is not in the state "Accepted", so it will be left open.' => 'Versie "%s" is niet in de status "Geaccepteerd", dus deze blijft open.',
   'Expected hunk target \'%s\'.' => 'Verwachtte hunkdoel \'%s\'.',
   'Closing parenthesis should be on a new line.' => 'Sluithaakje moet op een nieuwe regel staan.',
   'IP address "%s" is not properly formatted: an address with omitted leading sements must begin with "::".' => 'IP-adres "%s" is niet correct opgemaakt: een adres met weggelaten voorloopsegmenten moet beginnen met "::".',
@@ -1794,8 +2415,7 @@ Deze versie toch bijwerken?',
   'You are trying to connect to a server ("%s") that you do not have any stored credentials for, but the command you are running requires authentication.' => 'U probeert verbinding te maken met een server ("%s") waarvoor u geen opgeslagen aanmeldgegevens hebt, maar de opdracht die u uitvoert vereist authenticatie.',
   'Expected \'Author:\'.' => 'Verwachtte \'Author:\'.',
   'First argument to `%s` must be a string literal.' => 'Eerste argument voor `%s` moet een letterlijke tekenreeks zijn.',
-  'Unrecognized lint message code "%s". Expected a valid PEP8 lint code like "%s" or "%s".' => 'Niet-herkende lintberichtcode "%s". Verwachtte een geldige PEP8-lintcode zoals "%s" of "%s".',
-  'Use of Blacklisted Function' => 'Gebruik van functie op de zwarte lijst',
+  'Use of Blacklisted Function' => 'Gebruik van functie op de blokkeerlijst',
   'Restoring local state (at "%s" on branch "%s", bookmarked as "%s").' => 'Lokale status herstellen (op "%s" op branch "%s", gebookmarkt als "%s").',
   'Useless overriding method.' => 'Nutteloze overschrijvende methode.',
   'The name of the default branch to land changes onto when `%s` is run.' => 'De naam van de standaard-branch waarop wijzigingen worden geland wanneer `%s` wordt uitgevoerd.',
@@ -1816,7 +2436,10 @@ stderr: %s',
   'AMBIGUOUS' => 'DUBBELZINNIG',
   'Unrecognized lint message code "%s". Expected a valid flake8 lint code like "%s", or "%s", or "%s", or "%s".' => 'Niet-herkende lintberichtcode "%s". Verwachtte een geldige flake8-lintcode zoals "%s", of "%s", of "%s", of "%s".',
   'You have merge conflicts in this working copy.' => 'U hebt mergeconflicten in deze werkkopie.',
-  'Ignore these %s untracked file(s) and continue?' => 'Deze %s niet-gevolgde bestand(en) negeren en doorgaan?',
+  'Ignore these %s untracked file(s) and continue?' => array(
+    'Dit niet-gevolgde bestand negeren en doorgaan?',
+    'Deze %s niet-gevolgde bestanden negeren en doorgaan?',
+  ),
   'PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.' => 'PHP_CodeSniffer tokeniseert PHP-, JavaScript- en CSS-bestanden en detecteert schendingen van een gedefinieerde set codestandaarden.',
   'To identify the repository associated with this working copy, arc followed this process:' => 'Om de repository te identificeren die bij deze werkkopie hoort, volgde arc dit proces:',
   'Linter %s requires %s version %s. Unable to determine the version that you have installed.' => 'Linter %s vereist %s versie %s. Kan de versie die u hebt geïnstalleerd niet bepalen.',
@@ -1828,7 +2451,10 @@ stderr: %s',
   'Parameter passed to setDuration() must be an integer or a float.' => 'Parameter doorgegeven aan setDuration() moet een geheel getal of een decimaal getal zijn.',
   'Call %s before calling %s. You can not add more nodes once you have loaded the graph.' => 'Roep %s aan voordat u %s aanroept. U kunt geen knooppunten meer toevoegen nadat u de graaf hebt geladen.',
   'Related configuration:' => 'Gerelateerde configuratie:',
-  'This line is %s characters long, but the convention is %s characters.' => 'Deze regel is %s tekens lang, maar de conventie is %s tekens.',
+  'This line is %s characters long, but the convention is %s characters.' => array(
+    'Deze regel is %s teken lang, maar de conventie is %s tekens.',
+    'Deze regel is %s tekens lang, maar de conventie is %s tekens.',
+  ),
   'Working Copy: Path "%s" is part of `%s` working copy "%s".' => 'Werkkopie: Pad "%s" is onderdeel van `%s`-werkkopie "%s".',
   '"%s" is not an exact quantity.' => '"%s" is geen exacte hoeveelheid.',
   'Linter failed to parse output!' => 'Linter kon de uitvoer niet verwerken!',
@@ -1845,10 +2471,12 @@ stderr: %s',
   'The token "%s" is not a valid API Token. The server returned this response when trying to use it as a token: %s' => 'Het token "%s" is geen geldig API-token. De server gaf dit antwoord bij het proberen te gebruiken als token: %s',
   'Unknown merge approach "%s".' => 'Onbekende mergebenadering "%s".',
   'Provide method parameters on stdin as a JSON blob.' => 'Geef methodeparameters op stdin op als een JSON-blob.',
-  'There are %s commit(s) reachable from the specified sources (%s). You are landing into the empty state, so all of these commits will land:' => 'Er zijn %s commit(s) bereikbaar vanuit de opgegeven bronnen (%s). U landt in de lege status, dus al deze commits worden geland:',
-  'CREATE %s BRANCHE(S)' => '%s BRANCH(ES) AANMAKEN',
+  'CREATE %s BRANCHE(S)' => array(
+    'BRANCH AANMAKEN',
+    '%s BRANCHES AANMAKEN',
+  ),
   'Use of unknown class or interface symbol "%s".' => 'Gebruik van onbekend klasse- of interfacesymbool "%s".',
-  'Follow naming conventions: interfaces should be named using `%s`.' => 'Volg naamgevingsconventies: interfaces moeten worden benoemd met `%s`.',
+  'Follow naming conventions: interfaces should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: interfaces moeten met `%s` worden benoemd.',
   'Configured unit test engine "%s" is not a subclass of "%s", but must be.' => 'Geconfigureerde unittestengine "%s" is geen subklasse van "%s", maar moet dat wel zijn.',
   'Rule \'%s\' popped empty context!' => 'Regel \'%s\' heeft een lege context verwijderd!',
   'Expected rule \'%s\' in state \'%s\' in %s to have 2-4 elements (regex, token, [next state], [options]), got %d.' => 'Verwachtte dat regel \'%s\' in status \'%s\' in %s 2-4 elementen heeft (regex, token, [volgende status], [opties]), maar kreeg %d.',
@@ -1879,7 +2507,7 @@ stderr: %s',
   'Unable to Parse' => 'Kan niet verwerken',
   'Unknown smoothing type "%s".' => 'Onbekend afvlakkingstype "%s".',
   'Received errors from Asana: %s' => 'Fouten ontvangen van Asana: %s',
-  'Follow naming conventions: class properties should be named using `%s`.' => 'Volg naamgevingsconventies: klasse-eigenschappen moeten worden benoemd met `%s`.',
+  'Follow naming conventions: class properties should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: klasse-eigenschappen moeten met `%s` worden benoemd.',
   'Flag arguments may not have a default (always false).' => 'Vlagargumenten mogen geen standaardwaarde hebben (altijd false).',
   'Found invalid alias definition (with key "%s").' => 'Incorrecte aliasdefinitie gevonden (met sleutel "%s").',
   'Ruby' => 'Ruby',
@@ -1892,6 +2520,7 @@ stderr: %s',
   'Properties should have their visibility declared explicitly.' => 'Eigenschappen moeten hun zichtbaarheid expliciet gedeclareerd hebben.',
   'This codebase targets PHP %s, but namespaces were not introduced until PHP 5.3.' => 'Deze codebase richt zich op PHP %s, maar namespaces zijn pas geïntroduceerd in PHP 5.3.',
   'Writing to a closed pipe!' => 'Schrijven naar een gesloten pipe!',
+  'Follow naming conventions: constants should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: constanten moeten met `%s` worden benoemd.',
   'Lint renderer "%s" is unknown. Supported renderers are: %s.' => 'Lintrenderer "%s" is onbekend. Ondersteunde renderers zijn: %s.',
   'Spanish (Spain)' => 'Spaans (Spanje)',
   'Convention: space before `%s` token.' => 'Conventie: spatie voor `%s`-token.',
@@ -1906,7 +2535,10 @@ stderr: %s',
   'Auto-Fix' => 'Automatisch herstellen',
   'Object (with key "%s", of type "%s") has no hardpoint "%s". Hardpoints on this object are: %s.' => 'Object (met sleutel "%s", van type "%s") heeft geen hardpoint "%s". Hardpoints op dit object zijn: %s.',
   'Modified \'%s\' files:' => 'Gewijzigde \'%s\'-bestanden:',
-  '%s revision(s) have build failures or ongoing builds:' => '%s versie(s) hebben buildfouten of lopende builds:',
+  '%s revision(s) have build failures or ongoing builds:' => array(
+    '%s versie heeft buildfouten of lopende builds:',
+    '%s versies hebben buildfouten of lopende builds:',
+  ),
   'Unrecognized lint message code "%s". Expected a valid Pylint lint code like "%s", or "%s", or "%s".' => 'Niet-herkende lintberichtcode "%s". Verwachtte een geldige Pylint-lintcode zoals "%s", of "%s", of "%s".',
   'Unable to identify the current commit in the working copy.' => 'Kan de huidige commit in de werkkopie niet identificeren.',
   'Revision %s can not be closed. You can only close revisions which have been \'accepted\'.' => 'Versie %s kan niet worden gesloten. U kunt alleen versies sluiten die zijn \'geaccepteerd\'.',
@@ -1945,7 +2577,23 @@ stderr: %s',
   'DISCARDING ANCESTORS' => 'VOOROUDERS VERWERPEN',
   'Syntax Error' => 'Syntaxisfout',
   'Too many arguments to %s.' => 'Te veel argumenten voor %s.',
-  'Resuming upload (%s of %s chunks remain).' => 'Upload hervatten (%s van %s delen resterend).',
+  'The revision associated with commit "%s" (an ancestor of: %s) is ambiguous. These %s revisions are associated with the commit:' => array(
+    
+    array(
+      
+      array(
+        'De versie die is gekoppeld aan commit "%s" (een voorouder van: %s) is dubbelzinnig. Deze versie is gekoppeld aan de commit:',
+        'De versie die is gekoppeld aan commit "%s" (een voorouder van: %s) is dubbelzinnig. Deze %s versies zijn gekoppeld aan de commit:',
+      ),
+    ),
+  ),
+  'Resuming upload (%s of %s chunks remain).' => array(
+    
+    array(
+      'Upload hervatten (%s van %s deel resterend).',
+      'Upload hervatten (%s van %s delen resterend).',
+    ),
+  ),
   'Rule \'%s\' contains a production \'%s\' which is nonempty but has a null in it. A rule with other may not contain null.' => 'Regel \'%s\' bevat een productie \'%s\' die niet leeg is maar een null bevat. Een regel met andere mag geen null bevatten.',
   'Hardpoint ("%s", of type "%s") does not support merging values.' => 'Hardpoint ("%s", van type "%s") ondersteunt het samenvoegen van waarden niet.',
   'Library "%s" (at "%s") is not a Git working copy, so no version information can be provided.' => 'Bibliotheek "%s" (op "%s") is geen Git-werkkopie, dus er kan geen versie-informatie worden verstrekt.',
@@ -1955,7 +2603,10 @@ stderr: %s',
   'Conduit URI \'%s\' must include a valid host.' => 'Conduit-URI \'%s\' moet een geldige host bevatten.',
   'ONTO REMOTE' => 'NAAR REMOTE',
   'This test case made no assertions. Test cases must make at least one assertion.' => 'Deze testcase heeft geen asserties gemaakt. Testcases moeten ten minste één assertie maken.',
-  '%s AFFECTED FILE(S)' => '%s GETROFFEN BESTAND(EN)',
+  '%s AFFECTED FILE(S)' => array(
+    '%s GETROFFEN BESTAND',
+    '%s GETROFFEN BESTANDEN',
+  ),
   'Git status has changed!' => 'Git-status is gewijzigd!',
   'No such linter standard. Available standards are: %s.' => 'Geen dergelijke linterstandaard. Beschikbare standaarden zijn: %s.',
   '%s Library Linter' => '%s-bibliotheklinter',
@@ -1964,7 +2615,7 @@ stderr: %s',
   '%s (until %s)' => '%s (tot %s)',
   'Cleaning up branch "%s". To recover, run:' => 'Branch "%s" opruimen. Om te herstellen, voer uit:',
   'Install hlint with `%s`.' => 'Installeer hlint met `%s`.',
-  'Hardpoint future list is marked to send results to the generator, but the list does not have exactly one future (it has %s).' => 'Hardpoint-futurelijst is gemarkeerd om resultaten naar de generator te sturen, maar de lijst heeft niet precies één future (het heeft er %s).',
+  'Hardpoint future list is marked to send results to the generator, but the list does not have exactly one future (it has %s).' => 'Hardpoint-futurelijst is gemarkeerd om resultaten naar de generator te sturen, maar de lijst heeft niet precies één future (de lijst heeft er %s).',
   'D, M j' => 'D j M',
   'Fetched ref "%s" from remote "%s".' => 'Ref "%s" opgehaald van remote "%s".',
   'Use `%s` as a statement, not an expression.' => 'Gebruik `%s` als een instructie, niet als een expressie.',
@@ -1978,14 +2629,13 @@ stderr: %s',
   'Status' => 'Status',
   'Can only add execute actions to an agent.' => 'Kan alleen uitvoerhandelingen aan een agent toevoegen.',
   'Formatted String' => 'Opgemaakte tekenreeks',
-  'Two different HTTP extensions ("%s" of class "%s" and "%s" of class "%s") both provided a proxy URI for URI "%s". No more than one extension may provide a proxy for any URI.' => 'Twee verschillende HTTP-extensies ("%s" van klasse "%s" en "%s" van klasse "%s") hebben beide een proxy-URI opgegeven voor URI "%s". Niet meer dan één extensie mag een proxy opgeven voor een URI.',
+  'Two different HTTP extensions ("%s" of class "%s" and "%s" of class "%s") both provided a proxy URI for URI "%s". No more than one extension may provide a proxy for any URI.' => 'Twee verschillende HTTP-uitbreidingen ("%s" van klasse "%s" en "%s" van klasse "%s") hebben beide een proxy-URI opgegeven voor URI "%s". Niet meer dan één uitbreiding mag een proxy opgeven voor een URI.',
   'INPUT' => 'INVOER',
   'Unnecessary `%s` modifier in `%s` class.' => 'Onnodige `%s`-modifier in `%s`-klasse.',
   'It is afternoon. The air has changed and it feels as though it may rain. You hear a squirrel chittering high overhead.' => 'Het is middag. De lucht is veranderd en het voelt alsof het kan gaan regenen. U hoort een eekhoorn hoog boven u kwetteren.',
   'Created and checked out branch %s.' => 'Branch %s aangemaakt en uitgecheckt.',
   'Unable to upload file: failed to fseek() to offset %d in file at path "%s".' => 'Kan bestand niet uploaden: fseek() naar offset %d in bestand op pad "%s" is mislukt.',
   'Nov' => 'nov',
-  'Specify an AWS S3 endpoint with --endpoint.' => 'Geef een AWS S3-eindpunt op met --endpoint.',
   'Unnecessary whitespace around paamayim nekudotayim (double colon) operator.' => 'Onnodige witruimte rond paamayim nekudotayim (dubbele dubbele punt)-operator.',
   'You can not change the Conduit URI after a conduit is already open.' => 'U kunt de Conduit-URI niet wijzigen nadat een conduit al is geopend.',
   'Lint raised errors!' => 'Lint heeft fouten opgeleverd!',
@@ -1994,7 +2644,10 @@ stderr: %s',
   'ONTO TARGET' => 'NAAR DOEL',
   'Call-Time Pass-By-Reference' => 'Aanroeptijd-doorverwijzing',
   'Unknown' => 'Onbekend',
-  'Confirms landing more than %s commit(s) in a single operation.' => 'Bevestigt het landen van meer dan %s commit(s) in één handeling.',
+  'Confirms landing more than %s commit(s) in a single operation.' => array(
+    'Bevestigt het landen van meer dan %s commit in één handeling.',
+    'Bevestigt het landen van meer dan %s commits in één handeling.',
+  ),
   'Variable references should not be prefixed with whitespace.' => 'Variabeleverwijzingen mogen niet worden voorafgegaan door witruimte.',
   'Install PHP.' => 'Installeer PHP.',
   'The logical value of this expression is static. Did you forget to remove some debugging code?' => 'De logische waarde van deze expressie is statisch. Bent u vergeten wat debugcode te verwijderen?',
@@ -2027,7 +2680,6 @@ stderr: %s',
   'Lock \'%s\' has already been locked by this process.' => 'Vergrendeling \'%s\' is al vergrendeld door dit proces.',
   'Minimum value must be an integer.' => 'Minimumwaarde moet een geheel getal zijn.',
   'SAVE PROMPT' => 'PROMPT OPSLAAN',
-  'There are %s commit(s) reachable from the specified sources (%s) that are not present in the repository state you are merging into ("%s"). All of these commits will land:' => 'Er zijn %s commit(s) bereikbaar vanuit de opgegeven bronnen (%s) die niet aanwezig zijn in de repositorystatus waarin u merget ("%s"). Al deze commits worden geland:',
   'Sort out the lint changes that were applied to the working copy and relint.' => 'De lintwijzigingen die op de werkkopie zijn toegepast uitzoeken en opnieuw linten.',
   'the repository has only one commit.' => 'de repository heeft slechts één commit.',
   'If you run \'%s\', changes between the commit:' => 'Als u \'%s\' uitvoert, worden wijzigingen tussen de commit:',
@@ -2039,13 +2691,17 @@ stderr: %s',
   'You must configure discovery rules to map C# files back to test projects (`%s` in %s).' => 'U moet ontdekkingsregels configureren om C#-bestanden terug te koppelen aan testprojecten (`%s` in %s).',
   'Revision "%s" was not found anywhere in this working copy.' => 'Versie "%s" is nergens in deze werkkopie gevonden.',
   'Apply changes from an arc bundle generated with \'%s\'.' => 'Wijzigingen toepassen vanuit een arc-bundel gegenereerd met \'%s\'.',
-  'Unable to decode MIME header: install "iconv" or "mbstring" extension.' => 'Kan MIME-header niet decoderen: installeer de extensie "iconv" of "mbstring".',
+  'Unable to decode MIME header: install "iconv" or "mbstring" extension.' => 'Kan MIME-header niet decoderen: installeer de uitbreiding "iconv" of "mbstring".',
   'Revision URI:' => 'Versie-URI:',
   'Alias Functions' => 'Aliasfuncties',
   'Argument "%s" was provided twice.' => 'Argument "%s" is twee keer opgegeven.',
   'Show a detailed coverage report on the CLI. Implies %s.' => 'Een gedetailleerd dekkingsrapport weergeven op de CLI. Impliceert %s.',
   'function' => 'functie',
   'Convention: no spaces before closing parentheses.' => 'Conventie: geen spaties voor sluithaakjes.',
+  'You are landing %s revision(s) which are not in the state "Accepted", indicating that they have not been accepted by reviewers. Normally, you should land changes only once they have been accepted. These revisions are in the wrong state:' => array(
+    'U laat %s versie landen die niet in de status "Geaccepteerd" staat, wat aangeeft dat die niet is geaccepteerd door beoordelaars. Normaal gesproken moet u wijzigingen pas laten landen nadat die zijn geaccepteerd. Deze versie staat in de verkeerde status:',
+    'U laat %s versies landen die niet in de status "Geaccepteerd" staan, wat aangeeft dat die niet zijn geaccepteerd door beoordelaars. Normaal gesproken moet u wijzigingen pas laten landen nadat die zijn geaccepteerd. Deze versies staan in de verkeerde status:',
+  ),
   'Config File' => 'Configuratiebestand',
   'Opening %s failed! %s.' => 'Openen van %s is mislukt! %s.',
   'Command to execute.' => 'Uit te voeren opdracht.',
@@ -2057,7 +2713,7 @@ stderr: %s',
   'Never amend commits in the working copy with lint patches.' => 'Commits in de werkkopie nooit aanpassen met lintpatches.',
   'CIDR block "%s" is not formatted correctly. Expected an IP block in CIDR notation, like "%s" or "%s".' => 'CIDR-blok "%s" is niet correct opgemaakt. Verwachtte een IP-blok in CIDR-notatie, zoals "%s" of "%s".',
   'Pilot a probe from the vessel "Arcanoid".' => 'Een sonde besturen vanuit het vaartuig "Arcanoid".',
-  'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with an existing option. The key and aliases of each option must be unique.' => 'Configuratieoptie ("%s") gedefinieerd door extensie "%s" heeft een alias ("%s") die conflicteert met een bestaande optie. De sleutel en aliassen van elke optie moeten uniek zijn.',
+  'Configuration option ("%s") defined by extension "%s" has an alias ("%s") which conflicts with an existing option. The key and aliases of each option must be unique.' => 'Configuratieoptie ("%s") gedefinieerd door uitbreiding "%s" heeft een alias ("%s") die conflicteert met een bestaande optie. De sleutel en aliassen van elke optie moeten uniek zijn.',
   'CONDUIT' => 'CONDUIT',
   'Specifying this flag multiple times will push to multiple branches.' => 'Deze vlag meerdere keren opgeven zal naar meerdere branches pushen.',
   'it is the merge-base of the explicitly specified base commit \'%s\' and HEAD.' => 'het is de merge-base van de expliciet opgegeven basiscommit \'%s\' en HEAD.',
@@ -2087,14 +2743,14 @@ stderr: %s',
   'Specify either setData() or setPath() when building a file data reference, but not both.' => 'Geef setData() of setPath() op bij het bouwen van een bestandsgegevensreferentie, maar niet beide.',
   'Parameter \'%s\' has invalid type.' => 'Parameter \'%s\' heeft een incorrect type.',
   'BUILD FAILURES' => 'BUILDFOUTEN',
-  '`%s` method cannot be declared `%s`. This construct will cause a fatal error.' => '`%s`-methode kan niet worden gedeclareerd als `%s`. Deze constructie veroorzaakt een fatale fout.',
+  '`%s` method cannot be declared `%s`. This construct will cause a fatal error.' => '`%s`-methode kan niet worden gedeclareerd als `%s`. Deze constructie veroorzaakt een onherstelbare fout.',
   '\'%s\' files should not be executable.' => '\'%s\'-bestanden mogen niet uitvoerbaar zijn.',
   'Path to a custom CA bundle file to be used for cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.' => 'Pad naar een aangepast CA-bundelbestand voor cURL-aanroepen. Dit wordt voornamelijk gebruikt wanneer uw conduit-eindpunt achter HTTPS zit dat is ondertekend door de interne CA van uw organisatie.',
   'JSHint returned unparseable output.' => 'JSHint gaf niet-verwerkbare uitvoer terug.',
   'Disables lint for files that are marked as "%s", indicating that they contain generated code.' => 'Schakelt lint uit voor bestanden die zijn gemarkeerd als "%s", wat aangeeft dat ze gegenereerde code bevatten.',
   'Revision \'%s\' does not exist.' => 'Versie \'%s\' bestaat niet.',
   ' <%dms' => ' <%dms',
-  'Follow naming conventions: classes should be named using `%s`.' => 'Volg naamgevingsconventies: klassen moeten worden benoemd met `%s`.',
+  'Follow naming conventions: classes should be named using `%s`.' => 'Volg de naamgevingsrichtlijnen: klassen moeten met `%s` worden benoemd.',
   'Failed to install signal handler!' => 'Installeren van signaalhandler is mislukt!',
   'Depends on %s. ' => 'Hangt af van %s. \\',
   '**upgrade**' => '**upgrade**',
@@ -2107,7 +2763,6 @@ stderr: %s',
   'it is the merge-base of \'%s\' and HEAD, as you just specified.' => 'het is de merge-base van \'%s\' en HEAD, zoals u zojuist hebt opgegeven.',
   'Aborted update of revision: You are not the owner.' => 'Bijwerken van versie afgebroken: u bent niet de eigenaar.',
   'Empty user in credentials.' => 'Lege gebruiker in aanmeldgegevens.',
-  'Name of the AWS region to access.' => 'Naam van de AWS-regio om toegang tot te krijgen.',
   'Convention: put a space after control statements.' => 'Conventie: zet een spatie na besturingsstructuren.',
   'Unknown Mercurial capability "%s".' => 'Onbekende Mercurial-mogelijkheid "%s".',
   'the repository has no commits.' => 'de repository heeft geen commits.',
@@ -2120,7 +2775,10 @@ stderr: %s',
   'The branches you are landing are connected to multiple different remote branches via Git branch upstreams. Use "--onto" to select the refs you want to push to.' => 'De branches die u landt zijn verbonden met meerdere verschillende remote branches via Git branch-upstreams. Gebruik "--onto" om de refs te selecteren waarnaar u wilt pushen.',
   'Landing the current branch, "%s".' => 'De huidige branch landen, "%s".',
   'You are amending the working copy using information from a revision that does not appear to be associated with the current state of the working copy.' => 'U past de werkkopie aan met informatie van een versie die niet gekoppeld lijkt te zijn aan de huidige status van de werkkopie.',
-  'Land changes that depend on %s open revision(s)?' => 'Wijzigingen landen die afhankelijk zijn van %s open versie(s)?',
+  'Land changes that depend on %s open revision(s)?' => array(
+    'Wijzigingen laten landen die afhankelijk zijn van %s open versie?',
+    'Wijzigingen laten landen die afhankelijk zijn van %s open versies?',
+  ),
   'Confirms creation of a new library.' => 'Bevestigt het aanmaken van een nieuwe bibliotheek.',
   'it is the merge-base of \'%s\' and HEAD, as specified in \'%s\' in \'%s\'. This setting overrides other settings.' => 'het is de merge-base van \'%s\' en HEAD, zoals opgegeven in \'%s\' in \'%s\'. Deze instelling overschrijft andere instellingen.',
   'Failed to resolve symbol ref "%s".' => 'Oplossen van symboolref "%s" is mislukt.',
@@ -2130,14 +2788,21 @@ stderr: %s',
   'instance of %s' => 'instantie van %s',
   'URI' => 'URI',
   'Need head hashes or exact hashes!' => 'Head-hashes of exacte hashes nodig!',
-  '`%s` cannot be re-assigned. This construct will cause a PHP fatal error.' => '`%s` kan niet opnieuw worden toegewezen. Deze constructie veroorzaakt een fatale PHP-fout.',
-  'Land %s revision(s) anyway, despite ongoing builds?' => 'Toch %s versie(s) landen, ondanks lopende builds?',
+  '`%s` cannot be re-assigned. This construct will cause a PHP fatal error.' => '`%s` kan niet opnieuw worden toegewezen. Deze constructie veroorzaakt een onherstelbare PHP-fout.',
+  'Land %s revision(s) anyway, despite ongoing builds?' => array(
+    'Toch %s versie laten landen, ondanks lopende builds?',
+    'Toch %s versies laten landen, ondanks lopende builds?',
+  ),
   'Minimum ("%d") must not be greater than maximum ("%d").' => 'Minimum ("%d") mag niet groter zijn dan maximum ("%d").',
   'You must specify a Conduit URI with %s before you can establish a conduit.' => 'U moet een Conduit-URI opgeven met %s voordat u een conduit kunt opzetten.',
   'Rewrite this file?' => 'Dit bestand herschrijven?',
   'To log in and save credentials for this server, run this command:' => 'Om in te loggen en aanmeldgegevens voor deze server op te slaan, voert u deze opdracht uit:',
   'Attempting to get subprocess status in "ExecFuture" with no valid subprocess.' => 'Poging om subprocesstatus op te halen in "ExecFuture" zonder geldig subproces.',
   'Command string argument includes a NULL byte. This byte can not be safely escaped in command line arguments in Linux environments.' => 'Opdrachttekenreeksargument bevat een NULL-byte. Deze byte kan niet veilig worden ge-escaped in opdrachtregelargumenten in Linux-omgevingen.',
+  'There are %s commits reachable from the specified sources (%s) that are not present in the repository state you are merging into ("%s"). All of these commits will land:' => array(
+    'Er is één commit bereikbaar vanuit de opgegeven bronnen (%2$s) die niet aanwezig zijn in de repositorystatus waarin u samenvoegt ("%3$s"). Al deze commits gaan landen:',
+    'Er zijn %s commits bereikbaar vanuit de opgegeven bronnen (%s) die niet aanwezig zijn in de repositorystatus waarin u samenvoegt ("%s"). Al deze commits gaan landen:',
+  ),
   '**liberate**' => '**liberate**',
   'Unknown lint message!' => 'Onbekend lintbericht!',
   'Grid has no column "%s".' => 'Raster heeft geen kolom "%s".',
@@ -2157,18 +2822,27 @@ stderr: %s',
   'Assertion of caught exception failed (at %s:%d).' => 'Assertie van gevangen uitzondering is mislukt (op %s:%d).',
   'NEW DIFFERENTIAL REVISION' => 'NIEUWE DIFFERENTIAL-VERSIE',
   'Argument' => 'Argument',
-  '%s line(s)' => '%s regel(s)',
+  '%s line(s)' => array(
+    'regel',
+    'regels',
+  ),
   'Error in parsing \'%s\' file.' => 'Fout bij het verwerken van bestand \'%s\'.',
   'Trying rules from source \'%s\'.' => 'Regels van bron \'%s\' proberen.',
   'After creating a diff or revision, open it in a web browser.' => 'Na het aanmaken van een diff of versie, deze openen in een webbrowser.',
   'Missing required "--" in argument list.' => 'Vereiste "--" ontbreekt in argumentenlijst.',
   'Generate diff by executing a specified command, not from the working copy. This disables many features which depend on having access to the working copy.' => 'Diff genereren door een opgegeven opdracht uit te voeren, niet vanuit de werkkopie. Dit schakelt veel functies uit die afhankelijk zijn van toegang tot de werkkopie.',
   'Only show tasks that are not assigned (upforgrabs).' => 'Alleen taken weergeven die niet zijn toegewezen (beschikbaar).',
-  'Do you want to amend these %s change(s) to the current commit?' => 'Wilt u deze %s wijziging(en) toevoegen aan de huidige commit?',
+  'Do you want to amend these %s change(s) to the current commit?' => array(
+    'Wilt u deze %s wijziging toevoegen aan de huidige commit?',
+    'Wilt u deze %s wijzigingen toevoegen aan de huidige commit?',
+  ),
   'You have missing files in this working copy. Revert or formally remove them (with `%s`) before proceeding.' => 'U hebt ontbrekende bestanden in deze werkkopie. Herstel ze of verwijder ze formeel (met `%s`) voordat u verdergaat.',
   'USAGE' => 'GEBRUIK',
   'LOGIN REQUIRED' => 'INLOGGEN VEREIST',
-  'Class contains %s %s method(s) and must therefore be declared `%s`.' => 'Klasse bevat %s %s-methode(n) en moet daarom worden gedeclareerd als `%s`.',
+  'Class contains %s %s method(s) and must therefore be declared `%s`.' => array(
+    'Klasse bevat %s %s-methode en moet daarom worden gedeclareerd als `%s`.',
+    'Klasse bevat %s %s-methoden en moet daarom worden gedeclareerd als `%s`.',
+  ),
   'Rule \'%s\' popped off the last state.' => 'Regel \'%s\' heeft de laatste status verwijderd.',
   'ALREADY A DRAFT' => 'AL EEN CONCEPT',
   'Command killed by timeout after running for more than %s seconds.' => 'Opdracht afgebroken door timeout na meer dan %s seconden uitvoering.',
@@ -2184,7 +2858,10 @@ stderr: %s',
   'Type of setting \'%s\' must be list. You can specify a list in JSON, like: %s' => 'Type van instelling \'%s\' moet een lijst zijn. U kunt een lijst opgeven in JSON, zoals: %s',
   'Detect syntax errors in JSON files.' => 'Syntaxisfouten in JSON-bestanden detecteren.',
   'Unexpected "%s" section in property deletion.' => 'Onverwachte "%s"-sectie bij het verwijderen van eigenschap.',
-  'You are using "--hold", so execution will stop before the %s bookmark(s) are actually created. You will be given instructions to create the bookmarks.' => 'U gebruikt "--hold", dus de uitvoering stopt voordat de %s bookmark(s) daadwerkelijk worden aangemaakt. U krijgt instructies om de bookmarks aan te maken.',
+  'You are using "--hold", so execution will stop before the %s bookmark(s) are actually created. You will be given instructions to create the bookmarks.' => array(
+    'U gebruikt "--hold", dus de uitvoering stopt voordat de %s bladwijzer daadwerkelijk worden aangemaakt. U krijgt instructies om de bladwijzer aan te maken.',
+    'U gebruikt "--hold", dus de uitvoering stopt voordat de %s bladwijzer daadwerkelijk worden aangemaakt. U krijgt instructies om de bladwijzers aan te maken.',
+  ),
   '`%s` properties should be avoided. Instead of exposing the property value directly, consider using getter and setter methods.' => '`%s`-eigenschappen moeten worden vermeden. In plaats van de eigenschapswaarde direct bloot te stellen, overweeg getter- en settermethoden te gebruiken.',
   'In Preparation' => 'In voorbereiding',
   'Unable to parse byte size \'%s\'!' => 'Kan bytegrootte \'%s\' niet verwerken!',
@@ -2213,7 +2890,6 @@ stderr: %s',
   'There is no locale with the locale code "%s".' => 'Er is geen taalinstelling met de taalcode "%s".',
   'Python PyFlakes' => 'Python PyFlakes',
   'Create and modify command aliases.' => 'Opdrachtaliassen aanmaken en wijzigen.',
-  'You are landing %s revision(s) which are not in state "Accepted", indicating that they have not been accepted by reviewers. Normally, you should land changes only once they have been accepted. These revisions are in the wrong state:' => 'U landt %s versie(s) die niet in de status "Geaccepteerd" staan, wat aangeeft dat ze niet zijn geaccepteerd door beoordelaars. Normaal gesproken moet u wijzigingen pas landen nadat ze zijn geaccepteerd. Deze versies staan in de verkeerde status:',
   'it is the merge-base of \'%s\' and HEAD, as specified by \'%s\' in your %s \'base\' configuration.' => 'het is de merge-base van \'%s\' en HEAD, zoals opgegeven door \'%s\' in uw %s \'base\'-configuratie.',
   'The specified commit range is empty, backward or invalid: the base (%s) is not an ancestor of the head (%s). You can not diff an empty or reversed commit range.' => 'Het opgegeven commitbereik is leeg, achterwaarts of incorrect: de basis (%s) is geen voorouder van de head (%s). U kunt geen diff maken van een leeg of omgekeerd commitbereik.',
   'The directory "%s" does not exist. Do you want to create it?' => 'De map "%s" bestaat niet. Wilt u deze aanmaken?',
@@ -2227,7 +2903,10 @@ stderr: %s',
 ' => 'Aangezien er geen versies in Differential zijn die overeenkomen met deze werkkopie, wordt een nieuwe versie **aangemaakt** als u \'%s\' uitvoert.
 
 \\',
-  '<... %s more commits ...>' => '<... nog %s commits ...>',
+  '<... %s more commits ...>' => array(
+    '<... nog %s commit ...>',
+    '<... nog %s commits ...>',
+  ),
   '%s does affect revisions.' => '%s beïnvloedt versies.',
   'Use `%s` to call parent method.' => 'Gebruik `%s` om de bovenliggende methode aan te roepen.',
   'Empty File' => 'Leeg bestand',
@@ -2249,7 +2928,10 @@ stderr: %s',
   'Configured command aliases. Use "arc alias" to define aliases.' => 'Geconfigureerde opdrachtaliassen. Gebruik "arc alias" om aliassen te definiëren.',
   'This function exists only to document the call signature for %s callbacks.' => 'Deze functie bestaat alleen om de aanroephandtekening voor %s-callbacks te documenteren.',
   'Changes:' => 'Wijzigingen:',
-  '(To ignore these %s change(s), add them to "%s".)' => '(Om deze %s wijziging(en) te negeren, voeg ze toe aan "%s".)',
+  '(To ignore these %s change(s), add them to "%s".)' => array(
+    '(Om deze wijziging te negeren, voeg die toe aan "%2$s".)',
+    '(Om deze wijzigingen te negeren, voeg die toe aan "%2$s".)',
+  ),
   'Amend the working copy, synchronizing the local commit message from
 Differential.
 
@@ -2265,7 +2947,6 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'File "%s" already exists.' => 'Bestand "%s" bestaat al.',
   'IMPLICIT COMMITS' => 'IMPLICIETE COMMITS',
   'Night has fallen. The moon overhead is waning. You can barely make out your surroundings. It is very cold.' => 'De nacht is gevallen. De maan boven u is afnemend. U kunt uw omgeving nauwelijks onderscheiden. Het is erg koud.',
-  'Expected method "%s->%s()" to return a unique key, got "%s" from %s object(s) at indexes: %s.' => 'Verwachtte dat methode "%s->%s()" een unieke sleutel teruggeeft, maar kreeg "%s" van %s object(en) op indexen: %s.',
   'If you intended to create a new revision, use:' => 'Als u een nieuwe versie wilde aanmaken, gebruik:',
   'APPLIED' => 'TOEGEPAST',
   'Repeatable arguments may not have a default (always array() for arguments which accept a parameter, or 0 for arguments which do not).' => 'Herhaalbare argumenten mogen geen standaardwaarde hebben (altijd array() voor argumenten die een parameter accepteren, of 0 voor argumenten die dat niet doen).',
@@ -2279,9 +2960,12 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'Unnecessary comma in list assignment.' => 'Onnodige komma in lijsttoewijzing.',
   'Argument should be countable.' => 'Argument moet telbaar zijn.',
   'Internal. Current term in the argument list being completed.' => 'Intern. Huidige term in de argumentenlijst die wordt aangevuld.',
-  'Land %s revision(s) anyway, despite failed builds?' => 'Toch %s versie(s) landen, ondanks mislukte builds?',
+  'Land %s revision(s) anyway, despite failed builds?' => array(
+    'Toch %s versie laten landen, ondanks mislukte builds?',
+    'Toch %s versies laten landen, ondanks mislukte builds?',
+  ),
   '%s: %s' => '%s: %s',
-  'Successfully applied patch.' => 'Patch succesvol toegepast.',
+  'Successfully applied patch.' => 'Patch toegepast.',
   'JSON command \'%s\' did not produce a valid JSON object on stdout: %s' => 'JSON-opdracht \'%s\' heeft geen geldig JSON-object op stdout geproduceerd: %s',
   'Updated an existing Differential revision:' => 'Een bestaande Differential-versie bijgewerkt:',
   'This command needs to communicate with a server, but no server URI is configured.' => 'Deze opdracht moet communiceren met een server, maar er is geen server-URI geconfigureerd.',
@@ -2294,12 +2978,21 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'The version control system ("%s") in the current working copy does not support branches.' => 'Het versiebeheersysteem ("%s") in de huidige werkkopie ondersteunt geen branches.',
   'Working Copy: Unable to find %s in any of these locations: %s.' => 'Werkkopie: Kan %s niet vinden op een van deze locaties: %s.',
   'Do not run unit tests.' => 'Geen unittests uitvoeren.',
-  'Updated %s librarie(s).' => '%s bibliothek(en) bijgewerkt.',
+  'Updated %s librarie(s).' => array(
+    '%s bibliotheek bijgewerkt.',
+    '%s bibliotheken bijgewerkt.',
+  ),
   'Unexpected tokens whilst processing `%s`.' => 'Onverwachte tokens bij het verwerken van `%s`.',
   'Failed to overwrite file.' => 'Overschrijven van bestand is mislukt.',
   'Chinese (Traditional)' => 'Chinees (Traditioneel)',
   'Keyword Conventions' => 'Sleutelwoordconventies',
-  'This large diff requires more space than it is allowed to use (limited to %s bytes; needs more than %s bytes).' => 'Deze grote diff vereist meer ruimte dan is toegestaan (beperkt tot %s bytes; heeft meer dan %s bytes nodig).',
+  'This large diff requires more space than it is allowed to use (limited to %s bytes; needs more than %s bytes).' => array(
+    
+    array(
+      'Deze grote diff vereist meer ruimte dan is toegestaan (beperkt tot %s bytes; heeft meer dan %s byte nodig).',
+      'Deze grote diff vereist meer ruimte dan is toegestaan (beperkt tot %s bytes; heeft meer dan %s bytes nodig).',
+    ),
+  ),
   'Expected vs Actual Output Diff
 %s' => 'Verwacht vs werkelijke uitvoer-diff
 %s',
@@ -2343,13 +3036,15 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'Will merge into target "%s" by default, because this is the "onto" target.' => 'Wordt standaard gemerged in doel "%s", omdat dit het "onto"-doel is.',
   'Expected value to be a list of objects which are instances of "%s", but item with index "%s" is "%s".' => 'Verwachtte dat de waarde een lijst van objecten is die instanties zijn van "%s", maar item met index "%s" is "%s".',
   'Show detailed information, including options.' => 'Gedetailleerde informatie weergeven, inclusief opties.',
-  'TODO: Implement this workflow.' => 'TODO: Deze workflow implementeren.',
   'Save the file to a specific location.' => 'Het bestand opslaan op een specifieke locatie.',
   'committed' => 'gecommit',
   'Lowercase Functions' => 'Kleine-letterfuncties',
   'Some terminals do not appear in any rule: %s' => 'Sommige terminals verschijnen in geen enkele regel: %s',
   'Convention: no spaces before index access.' => 'Conventie: geen spaties voor indextoegang.',
-  '< ... %s more commits ... >' => '< ... nog %s commits ... >',
+  '< ... %s more commits ... >' => array(
+    '< ... nog %s commit ... >',
+    '< ... nog %s commits ... >',
+  ),
   'M j Y' => 'j M Y',
   'The "upgrade" workflow uses "git pull" to upgrade, but the software directory (in "%s") is not a Git working copy. You must leave this directory as a Git working copy to use "arc upgrade".' => 'De "upgrade"-workflow gebruikt "git pull" om te upgraden, maar de softwaremap (in "%s") is geen Git-werkkopie. U moet deze map als Git-werkkopie laten om "arc upgrade" te gebruiken.',
   'You\'re covered, you didn\'t change anything.' => 'U bent gedekt, u hebt niets gewijzigd.',
@@ -2376,7 +3071,7 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'Done.' => 'Klaar.',
   'Parentheses should hug their contents.' => 'Haakjes moeten hun inhoud omsluiten.',
   'This codebase targets PHP %s, but `%s()` was not introduced until PHP %s.' => 'Deze codebase richt zich op PHP %s, maar `%s()` is pas geïntroduceerd in PHP %s.',
-  'Remote "%s" has no bookmark or branch named "%s".' => 'Remote "%s" heeft geen bookmark of branch met de naam "%s".',
+  'Remote "%s" has no bookmark or branch named "%s".' => 'Remote "%s" heeft geen bladwijzer of branch met de naam "%s".',
   'Unable to install signal handler, pcntl_signal() unavailable. Continuing without signal handling.' => 'Kan signaalhandler niet installeren, pcntl_signal() niet beschikbaar. Doorgaan zonder signaalverwerking.',
   'Argument "--branch" for "arc browse" is not available in your software version control. For example, in SVN, a branch is just a directory with a special meaning for your team. Please omit the "--branch" argument.' => 'Argument "--branch" voor "arc browse" is niet beschikbaar in uw versiebeheersoftware. In SVN is een branch bijvoorbeeld gewoon een map met een speciale betekenis voor uw team. Laat het argument "--branch" weg.',
   'you have no outgoing commits, so arc assumes you intend to submit uncommitted changes in the working copy.' => 'u hebt geen uitgaande commits, dus arc neemt aan dat u niet-gecommitte wijzigingen in de werkkopie wilt indienen.',
@@ -2405,12 +3100,19 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'Set a local config value instead of a user one.' => 'Een lokale configuratiewaarde instellen in plaats van een gebruikerswaarde.',
   'Continue with this mapping between commits and revisions?' => 'Doorgaan met deze toewijzing tussen commits en versies?',
   'it is the first ancestor of the working copy that is not outgoing, and it matched the rule %s in your %s \'base\' configuration.' => 'het is de eerste voorouder van de werkkopie die niet uitgaand is, en het kwam overeen met de regel %s in uw %s \'base\'-configuratie.',
-  'Found more than %s unpublished commits which are ancestors of heads.' => 'Meer dan %s ongepubliceerde commits gevonden die voorouders zijn van heads.',
+  'Found more than %s unpublished commits which are ancestors of heads.' => array(
+    'Meer dan %s ongepubliceerde commit gevonden die voorouders zijn van heads.',
+    'Meer dan %s ongepubliceerde commits gevonden die voorouders zijn van heads.',
+  ),
   'No path provided to %s.' => 'Geen pad opgegeven voor %s.',
   'Subversion does not support commit ranges.' => 'Subversion ondersteunt geen commitbereiken.',
   'Remote "%s"' => 'Remote "%s"',
   'Never apply patches suggested by lint.' => 'Nooit door lint voorgestelde patches toepassen.',
   'Current Source' => 'Huidige bron',
+  'There are %s commits reachable from the specified sources (%s). You are landing into the empty state, so all of these commits will land:' => array(
+    'Er zijn %s commit bereikbaar vanuit de opgegeven bronnen (%s). U landt in de lege status, dus al deze commits worden geland:',
+    'Er zijn %s commits bereikbaar vanuit de opgegeven bronnen (%s). U landt in de lege status, dus al deze commits worden geland:',
+  ),
   '`%s` Statement Namespace Prefix' => '`%s`-instructie namespaceprefix',
   'Apply changes from a Differential diff. Normally you want to use %s to get the most recent changes, but you can specifically apply an out-of-date diff or a diff which was never attached to a revision by using this flag.' => 'Wijzigingen toepassen vanuit een Differential-diff. Normaal wilt u %s gebruiken om de meest recente wijzigingen te krijgen, maar u kunt specifiek een verouderde diff of een diff die nooit aan een versie is gekoppeld toepassen door deze vlag te gebruiken.',
   'this is a new repository (all changes are outgoing).' => 'dit is een nieuwe repository (alle wijzigingen zijn uitgaand).',
@@ -2430,7 +3132,6 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'Bad origin state %s.' => 'Incorrecte oorsprongstatus %s.',
   'Extension ("%s") defines invalid configuration with key "%s". Configuration keys: may only contain lowercase letters, numbers, hyphens, underscores, and periods; must start with a letter; and must be at least three characters long.' => 'Uitbreiding ("%s") definieert een incorrecte configuratie met sleutel "%s". Configuratiesleutels: mogen alleen kleine letters, cijfers, koppeltekens, underscores en punten bevatten; moeten beginnen met een letter; en moeten ten minste drie tekens lang zijn.',
   'Unable to create temporary file in %s.' => 'Kan geen tijdelijk bestand aanmaken in %s.',
-  'Bad return value from mt_rand().' => 'Incorrecte retourwaarde van mt_rand().',
   'Expected a string (at index "%s"), found "%s".' => 'Verwachtte een tekenreeks (op index "%s"), maar vond "%s".',
   'Install JSHint using `%s`.' => 'Installeer JSHint met `%s`.',
   'SOURCE' => 'BRON',
@@ -2443,7 +3144,7 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'NEW BRANCH' => 'NIEUWE BRANCH',
   'Creating new library in \'%s\'.' => 'Nieuwe bibliotheek aanmaken in \'%s\'.',
   'Completed preview of land operation.' => 'Voorbeeld van landhandeling voltooid.',
-  'Created and checked out bookmark %s.' => 'Bookmark %s aangemaakt en uitgecheckt.',
+  'Created and checked out bookmark %s.' => 'Bladwijzer %s aangemaakt en uitgecheckt.',
   'AWS Request Failed' => 'AWS-verzoek mislukt',
   'PREVIEW' => 'VOORVERTONING',
   'Unexpected copy source in %s, \'%s\'.' => 'Onverwachte kopieerbron in %s, \'%s\'.',
@@ -2464,7 +3165,10 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'PCNTL' => 'PCNTL',
   'Choose a name for the new library.' => 'Kies een naam voor de nieuwe bibliotheek.',
   'To use "--xprofile", you must install XHProf.' => 'Om "--xprofile" te gebruiken, moet u XHProf installeren.',
-  'Do you want to mark these %s file(s) as binary and continue?' => 'Wilt u deze %s bestand(en) als binair markeren en doorgaan?',
+  'Do you want to mark these %s file(s) as binary and continue?' => array(
+    'Wilt u dit bestand als binair markeren en doorgaan?',
+    'Wilt u deze bestanden als binair markeren en doorgaan?',
+  ),
   'IP address "%s" is not properly formatted: is has too many parts. Expected a maximum of 7 colons, like "%s".' => 'IP-adres "%s" is niet correct opgemaakt: het heeft te veel delen. Verwachtte maximaal 7 dubbele punten, zoals "%s".',
   'No lint problems.' => 'Geen lintproblemen.',
   'Type of setting \'%s\' must be boolean, like \'true\' or \'false\'.' => 'Type van instelling \'%s\' moet boolean zijn, zoals \'true\' of \'false\'.',
@@ -2473,7 +3177,10 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'English (Raw Strings)' => 'Engels (ruwe tekenreeksen)',
   'The short array syntax ("[...]") was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `array(...)` instead.' => 'De korte arraysyntaxis ("[...]") is pas geïntroduceerd in PHP 5.4, maar deze codebase richt zich op een eerdere versie van PHP. U kunt deze expressie herschrijven met `array(...)`.',
   'Suppress warning about uncommitted changes.' => 'Waarschuwing over niet-gecommitte wijzigingen onderdrukken.',
-  'CREATE %s BOOKMARK(S)' => '%s BOOKMARK(S) AANMAKEN',
+  'CREATE %s BOOKMARK(S)' => array(
+    'BLADWIJZER AANMAKEN',
+    '%s BLADWIJZERS AANMAKEN',
+  ),
   'You must resolve these errors to continue.' => 'U moet deze fouten oplossen om door te gaan.',
   'Default value for parameters with a class type hint can only be `%s`.' => 'Standaardwaarde voor parameters met een klasse-typehint kan alleen `%s` zijn.',
   'Unknown column alignment "%s".' => 'Onbekende kolomuitlijning "%s".',
@@ -2569,7 +3276,18 @@ Ondersteund in Mercurial 2.2 en nieuwer.',
   'PHP files should start with `%s`, which may be preceded by a `%s` line for scripts.' => 'PHP-bestanden moeten beginnen met `%s`, dat kan worden voorafgegaan door een `%s`-regel voor scripts.',
   'Call to "hg arc-ls-markers" returned marker of unknown type "%s".' => 'Aanroep van "hg arc-ls-markers" gaf een markering van onbekend type "%s" terug.',
   'Trace command execution and show service calls.' => 'Opdrachtuitvoering traceren en serviceaanroepen weergeven.',
-  'Downloaded file size (%s bytes) does not match expected file size (%s bytes). This download may be incomplete or corrupt.' => 'Gedownloade bestandsgrootte (%s bytes) komt niet overeen met verwachte bestandsgrootte (%s bytes). Deze download is mogelijk onvolledig of beschadigd.',
+  'Downloaded file size (%s bytes) does not match expected file size (%s bytes). This download may be incomplete or corrupt.' => array(
+    
+    array(
+      'Gedownloade bestandsgrootte (%s byte) komt niet overeen met verwachte bestandsgrootte (%s byte). Deze download is mogelijk onvolledig of beschadigd.',
+      'Gedownloade bestandsgrootte (%s byte) komt niet overeen met verwachte bestandsgrootte (%s bytes). Deze download is mogelijk onvolledig of beschadigd.',
+    ),
+    
+    array(
+      'Gedownloade bestandsgrootte (%s bytes) komt niet overeen met verwachte bestandsgrootte (%s byte). Deze download is mogelijk onvolledig of beschadigd.',
+      'Gedownloade bestandsgrootte (%s bytes) komt niet overeen met verwachte bestandsgrootte (%s bytes). Deze download is mogelijk onvolledig of beschadigd.',
+    ),
+  ),
   'TARGET' => 'DOEL',
   'The "SHELL" environment variable is not defined, so it can not be used to detect the shell to install rules for.' => 'De omgevingsvariabele "SHELL" is niet gedefinieerd, dus deze kan niet worden gebruikt om de shell te detecteren waarvoor regels geïnstalleerd moeten worden.',
   'Unable to determine which revision is associated with commit "%s". Use "arc diff" to create or update a revision with this commit, or "--revision" to force selection of a particular revision.' => 'Kan niet bepalen welke versie is gekoppeld aan commit "%s". Gebruik "arc diff" om een versie aan te maken of bij te werken met deze commit, of "--revision" om de selectie van een bepaalde versie af te dwingen.',
@@ -2599,7 +3317,10 @@ Zorg ervoor dat deze bibliotheek is geconfigureerd om te laden.
 (In zeldzame gevallen kan dit komen doordat u probeert één kopie van deze software uit te voeren tegen een andere kopie van deze software. Deze handeling wordt niet ondersteund.)',
   'Methods may not be both "private" and "final".' => 'Methoden mogen niet zowel "private" als "final" zijn.',
   'Restoring uncommitted changes to working copy.' => 'Niet-gecommitte wijzigingen herstellen naar werkkopie.',
-  'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => 'Deze diff bevat %s bestand(en) die geen geldige UTF-8 zijn (ze bevatten incorrecte bytereeksen). U kunt deze workflow stoppen en deze bestanden herstellen, of doorgaan. Als u doorgaat, worden deze bestanden als binair gemarkeerd.',
+  'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => array(
+    'Deze diff bevat een bestand dat geen geldige UTF-8 is"zijn (incorrecte bytereeksen). U kunt deze workflow stoppen en dit bestand herstellen, of doorgaan. Als u doorgaat, wordt dit bestand als binair gemarkeerd.',
+    'Deze diff bevat bestanden die geen geldige UTF-8 {{PLURAL:%s|is"zijn}} (incorrecte bytereeksen). U kunt deze workflow stoppen en deze bestanden herstellen, of doorgaan. Als u doorgaat, worden deze bestanden als binair gemarkeerd.',
+  ),
   'Failed to rename \'%s\' to \'%s\'!' => 'Hernoemen van \'%s\' naar \'%s\' is mislukt!',
   'Slow Construct' => 'Trage constructie',
   'Saving local state (at "%s" on branch "%s", bookmarked as "%s").' => 'Lokale status opslaan (op "%s" op branch "%s", gebookmarkt als "%s").',
@@ -2615,10 +3336,10 @@ Zorg ervoor dat deze bibliotheek is geconfigureerd om te laden.
   'You are landing revisions which you ("%s") are not the author of:' => 'U landt versies waarvan u ("%s") niet de auteur bent:',
   'This comment has a TODO.' => 'Dit commentaar heeft een TODO.',
   'Provide a list of additional flags to pass to the linter on the command line.' => 'Geef een lijst van extra vlaggen op om door te geven aan de linter op de opdrachtregel.',
-  'Deleting bookmark "%s".' => 'Bookmark "%s" verwijderen.',
+  'Deleting bookmark "%s".' => 'Bladwijzer "%s" verwijderen.',
   'Signature method \'%s\' requires %s!' => 'Handtekeningmethode \'%s\' vereist %s!',
   'Unable to open stderr temporary file ("%s") for writing.' => 'Kan tijdelijk stderr-bestand ("%s") niet openen voor schrijven.',
-  'A script which contains a `%s` statement expects the very first statement to be a `%s` statement. Otherwise, a PHP fatal error will occur. %s' => 'Een script dat een `%s`-instructie bevat verwacht dat de allereerste instructie een `%s`-instructie is. Anders treedt een fatale PHP-fout op. %s',
+  'A script which contains a `%s` statement expects the very first statement to be a `%s` statement. Otherwise, a PHP fatal error will occur. %s' => 'Een script dat een `%s`-instructie bevat verwacht dat de allereerste instructie een `%s`-instructie is. Anders treedt een onherstelbare PHP-fout op. %s',
   'PyFlakes is a simple program which checks Python source files for errors.' => 'PyFlakes is een eenvoudig programma dat Python-bronbestanden controleert op fouten.',
   'Output the linter results to a file. Defaults to stdout.' => 'De linterresultaten uitvoeren naar een bestand. Standaard naar stdout.',
   'Attempting to convert a string encoding, but no source encoding was provided. Explicitly provide the source encoding.' => 'Poging om een tekenreekscodering te converteren, maar er is geen broncodering opgegeven. Geef de broncodering expliciet op.',
@@ -2633,7 +3354,11 @@ Zorg ervoor dat deze bibliotheek is geconfigureerd om te laden.
   'Load all object hardpoints.' => 'Alle objecthardpoints laden.',
   'No local copy of ref "%s" in remote "%s" exists, attempting fetch...' => 'Er bestaat geen lokale kopie van ref "%s" in remote "%s", ophalen proberen...',
   'No data provided for path "%s".' => 'Geen gegevens opgegeven voor pad "%s".',
-  'The changes you are landing depend on %s open parent revision(s). Usually, you should land parent revisions before landing the changes which depend on them. These parent revisions are open:' => 'De wijzigingen die u landt zijn afhankelijk van %s open bovenliggende versie(s). Normaal gesproken moet u bovenliggende versies landen voordat u de wijzigingen landt die ervan afhankelijk zijn. Deze bovenliggende versies zijn open:',
+  'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server software to enable these features.' => 'Deze softwareversie op de server waarmee u verbinding maakt is verouderd en ondersteunt het identificeren van repository\'s op basis van roepnaam of URI niet. Werk de serversoftware bij om deze functies in te schakelen.',
+  'The changes you are landing depend on %s open parent revision(s). Usually, you should land parent revisions before landing the changes which depend on them. These parent revisions are open:' => array(
+    'De wijzigingen die u laat landen zijn afhankelijk van %s open bovenliggende versie. Normaal gesproken moet u bovenliggende versies laten landen voordat u de wijzigingen laat landen die ervan afhankelijk zijn. Deze bovenliggende versie is open:',
+    'De wijzigingen die u laat landen zijn afhankelijk van %s open bovenliggende versies. Normaal gesproken moet u bovenliggende versies laten landen voordat u de wijzigingen laat landen die ervan afhankelijk zijn. Deze bovenliggende versies zijn open:',
+  ),
   'Convention: no spaces before opening parentheses.' => 'Conventie: geen spaties voor openingshaakjes.',
   'The current working directory is not part of a working copy for a supported version control system (Git, Subversion or Mercurial).' => 'De huidige werkmap maakt geen deel uit van een werkkopie voor een ondersteund versiebeheersysteem (Git, Subversion of Mercurial).',
   'Use the "prompts" workflow to review prompt responses.' => 'Gebruik de "prompts"-workflow om promptantwoorden te bekijken.',
@@ -2650,14 +3375,17 @@ Zorg ervoor dat deze bibliotheek is geconfigureerd om te laden.
   'Script to execute.' => 'Uit te voeren script.',
   '`%s` should be separated from code by an empty line.' => '`%s` moet worden gescheiden van code door een lege regel.',
   'AVAILABLE' => 'BESCHIKBAAR',
-  '`%s` declarations cannot be nested. This construct will cause a PHP fatal error.' => '`%s`-declaraties kunnen niet worden genest. Deze constructie veroorzaakt een fatale PHP-fout.',
+  '`%s` declarations cannot be nested. This construct will cause a PHP fatal error.' => '`%s`-declaraties kunnen niet worden genest. Deze constructie veroorzaakt een onherstelbare PHP-fout.',
   'To configure Mercurial to ignore certain files in the working copy, add them to ".hgignore".' => 'Om Mercurial te configureren om bepaalde bestanden in de werkkopie te negeren, voeg ze toe aan ".hgignore".',
   'commit message' => 'commitbericht',
   'Running unit tests...' => 'Unittests uitvoeren...',
   'Unable to locate binary "%s" to run linter %s. You may need to install the binary, or adjust your linter configuration.' => 'Kan binair bestand "%s" niet vinden om linter %s uit te voeren. Mogelijk moet u het binaire bestand installeren of uw linterconfiguratie aanpassen.',
   'This iterator variable is a previously declared local variable. To avoid overwriting locals, do not reuse them as iterator variables.' => 'Deze iteratorvariabele is een eerder gedeclareerde lokale variabele. Om het overschrijven van lokale variabelen te voorkomen, hergebruik ze niet als iteratorvariabelen.',
-  'CIDR block "%s" is not formatted correctly. The IP block mask ("%s") must mask between 0 and %s bits, inclusive.' => 'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bits maskeren, inclusief.',
-  'Fatal Error' => 'Fatale fout',
+  'CIDR block "%s" is not formatted correctly. The IP block mask ("%s") must mask between 0 and %s bits, inclusive.' => array(
+    'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bit maskeren, inclusief.',
+    'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bits maskeren, inclusief.',
+  ),
+  'Fatal Error' => 'Onherstelbare fout',
   'No remote "%s" exists in this repository.' => 'Er bestaat geen remote "%s" in deze repository.',
   'String does not parse into exactly one statement!' => 'Tekenreeks wordt niet verwerkt tot precies één instructie!',
   'YOU NEED TO __INSTALL A CERTIFICATE__ TO LOG IN' => 'U MOET EEN __CERTIFICAAT INSTALLEREN__ OM IN TE LOGGEN',

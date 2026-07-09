@@ -15,7 +15,6 @@ final class PhabricatorPeopleBeTarask
   'Save Profile' => 'Захаваць профіль',
   'Edit Settings' => 'Рэдагаваць налады',
   'People' => 'Людзі',
-  'Enable User?' => 'Увамкнуць карыстальніка?',
 );
   }
 

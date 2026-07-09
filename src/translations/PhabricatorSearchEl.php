@@ -23,7 +23,6 @@ final class PhabricatorSearchEl
   'Query: %s' => 'Ερώτημα: %s',
   '—' => '—',
   'Personal Saved Queries' => 'Προσωπικά αποθηκευμένα ερωτήματα',
-  'Ignored Common Word' => 'Αγνοημένη συνηθισμένη λέξη',
   'You must choose a link name.' => 'Πρέπει να επιλέξετε όνομα συνδέσμου.',
   'Queries' => 'Ερωτήματα',
   'Already Default' => 'Ήδη προεπιλεγμένο',

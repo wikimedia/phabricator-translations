@@ -19,6 +19,7 @@ final class PhabricatorCorePtBR
   'Creators' => 'Criadores',
   'Your browser timezone setting differs from the timezone setting in your profile, click to reconcile.' => 'A configuração do fuso horário do seu navegador é diferente da configuração de fuso horário no seu perfil. Clique para reconciliar.',
   'OPTIMIZE' => 'OTIMIZAR',
+  'Format' => 'Formato',
   'italic text' => 'texto em itálico',
   '%s (Preview)' => '%s (Pré-visualização)',
   'Tasks' => 'Tarefas',

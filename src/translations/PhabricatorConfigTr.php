@@ -9,7 +9,43 @@ final class PhabricatorConfigTr
 
   protected function getTranslations() {
     return array(
-  'Array containing list of uninstalled applications.' => 'Kaldırılan uygulamaların listesini içeren dizi.',
+  'When a user takes an action which generates an email notification (like
+commenting on a Differential revision), the "From" address can either be set
+to the user\'s email address (like "alincoln@example.com") or the
+"metamta.default-address" address.
+
+The user experience is generally better if the user\'s real address is used as
+the "From" header value, since the messages are easier to organize when they
+appear in mail clients, but this will only work if the server is authorized to
+send email on behalf of the "From" domain. Practically, this means:
+
+  - If you are doing an install for Example Corp and all the users will have
+    corporate @corp.example.com addresses and any hosts this software is running
+    on are authorized to send email from corp.example.com, you can enable this
+    to make the user experience a little better.
+  - If you are doing an install for an open source project and your users will
+    be registering via third-party services and/or using personal email
+    addresses, you probably should not enable this or all of your outgoing
+    email might vanish into SFP blackholes.
+  - If your install is anything else, you\'re safer leaving this off, at least
+    initially, since the risk in turning it on is that your outgoing mail will
+    never arrive.' => '',
+  'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
+
+This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
+
+This set is also used to enforce valid redirect URIs. This service will refuse to issue a HTTP "Location" redirect to a URI with a protocol not on this set.
+
+Usually, "http" and "https" should be present in this set. If you remove one or both protocols, some features which rely on links or redirects may not work.' => '',
+  'The configuration value "%s" is locked (so it can not be edited from the web UI), but has a database value. Usually, this means that it was previously not locked, you set it using the web UI, and it later became locked.
+
+You should copy this configuration value to a local configuration source (usually by using %s) and then remove it from the database with the command below.
+
+For more information on locked and hidden configuration, including details about this setup issue, see %s.
+
+This database value is currently respected, but a future version of the software will stop respecting database values for locked configuration options.' => '',
+  'Review and modify configuration settings.' => '',
+  'Improve security by configuring an alternate file domain.' => '',
   'Client Server' => 'Müşteri Sunucusu',
   'Listeners receive callbacks when interesting things occur.' => 'Dinleyiciler ilginç şeyler olduğunda geri arama alır.',
   'Update configuration in the database instead of in local configuration.' => 'Yerel yapılandırma yerine veritabanında yapılandırmayı güncelleyin.',
@@ -32,19 +68,7 @@ Başka bir ağ aygıtının (örneğin bir yük dengeleyici) başlığı kaldır
 
 İstekler, geçerli bir "Barınma" başlığı içermelidir.',
   'Memory Usage' => 'Hafıza Kullanımı',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'ÖNEMLİ: Yukarı akış, prototip uygulamaları için destek sağlamaz.
-
-Bu platform, **gelişimin erken safhasında** olan prototip uygulamaları içerir. Varsayılan olarak, prototip uygulamaları yüklenmez, çünkü genellikle henüz kullanılabilir olacak kadar gelişmemiştir. Uygulama geliştiriyorsanız veya gelecek özellikleri önizlemek istiyorsanız, bunları yüklemek için bu seçeneği etkinleştirebilirsiniz.
-
-Prototipler hakkında daha fazla bilgi edinmek için, [[ %s | %s ]] sayfasına bakın.
-
-Prototipleri etkinleştirdikten sonra, bunları normal olarak kaldırabilirsiniz (normal uygulamalar gibi).',
+  'The request body that was sent began:' => '',
   'Impersonating users over the API is no longer supported.' => 'Kullanıcıların API üzerinden taklit edilmesi artık desteklenmemektedir.',
   'Table' => 'Tablo',
   'The best available MYSQL implementation is now selected automatically.' => 'Artık otomatik olarak en iyi MYSQL uygulaması seçiliyor.',
@@ -65,9 +89,29 @@ Bu seçeneğin herhangi bir etkisi olması için \'%s\' ayarlayarak DarkConsole\
   'This column is missing a type specification.' => 'Bu sütunda bir tür belirtimi eksik.',
   'The current configuration has these %d value(s):' => 'Mevcut yapılandırması şu %d değerine sahiptir:',
   'Column Has No Specification' => 'Sütunun Özellikleri Yok',
+  'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
+
+Without this mode enabled, MySQL will silently ignore some error conditions, including inserts which attempt to store more data in a column than actually fits. This behavior is usually undesirable and can lead to data corruption (by truncating multibyte characters in the middle), data loss (by discarding the data which does not fit into the column), or security concerns (for example, by truncating keys or credentials).
+
+This software is developed and tested in "STRICT_ALL_TABLES" mode so you should normally never encounter these situations, but may run into them if you interact with the database directly, run third-party code, develop extensions, or just encounter a bug in the software.
+
+Enabling "STRICT_ALL_TABLES" makes MySQL raise an explicit error if one of these unusual situations does occur. This is a safer behavior and prevents these situations from causing secret, subtle, and potentially serious issues later on.
+
+You can find more information about this mode (and how to configure it) in the MySQL manual. Usually, it is sufficient to add this to your "my.cnf" file (in the "[mysqld]" section) and then restart "mysqld":
+
+%s
+Note that if you run other applications against the same database, they may not work in strict mode.
+
+If you can not or do not want to enable "STRICT_ALL_TABLES", you can safely ignore this warning. This software will work correctly with this mode enabled or disabled.' => '',
   'Delete configuration in the database instead of in local configuration.' => 'Yerel yapılandırma yerine veritabanındaki yapılandırmayı silin.',
   'No Email Preferences Link' => 'E-posta Tercihleri Bağlantısı Yok',
   'Marked activity "%s" as completed.' => '"%s" etkinliği tamamlandı olarak işaretlendi.',
+  'The way VCS activity is attributed %s user accounts has changed.' => '',
+  'Mail.app on OS X Lion won\'t respect threading headers unless the subject is
+prefixed with "Re:". If you enable this option, this software will add "Re:" to
+the subject line of all mail which is expected to thread. If you\'ve set
+\'metamta.one-mail-per-recipient\', users can override this setting in their
+preferences.' => '',
   'Repository %s has unreplicated changes.' => '%s deposu çoğaltılmamış değişikliklere sahip.',
   'You have \'%s\' enabled in your PHP configuration.
 
@@ -76,6 +120,7 @@ This option is not compatible with this software. Remove \'%s\' from your config
 Bu seçenek, bu yazılım ile uyumlu değildir. Devam etmek için yapılandırmanızdan \'%s\' değerini kaldırın.',
   'The \'%s\' binary on this system has unexpected behavior: it was expected to exit without an error code when passed identical files, but exited with code %d.' => 'Bu sistemdeki \'%s\' ikili dosyasının beklenmedik bir davranışı var: özdeş dosyalar iletildiğinde hata kodu olmadan çıkması bekleniyordu, ancak %d koduyla çıkıldı.',
   'No active repositories have outstanding errors.' => 'Hiçbir etkin depoda olağanüstü hatalar yoktur.',
+  'Array containing list of disabled applications.' => 'Kaldırılan uygulamaların listesini içeren dizi.',
   'Usage' => 'Kullanım',
   'Rebuild Repository Identities' => 'Depo Kimliklerini Yeniden Oluştur',
   'Move port information from `%s` to `%s` in your config.' => 'Bağlantı noktası bilgisini yapılandırmanızda "%s" üzerinden "%s" taşıyın.',
@@ -95,13 +140,32 @@ Hesap bilgilerinin başka bir yetkili sistemden otomatik olarak senkronize edilm
   'Your webserver is not handling GET parameters properly.' => 'Web sunucunuz GET parametrelerini düzgün işlemiyor.',
   'Repository Errors' => 'Depo Hataları',
   'Option "%s" is of type "%s", but the configured value is not the name of a known class. Valid selections are: %s.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bilinen bir sınıfın adı değildir. Geçerli seçimler: %s.',
+  'The keyring stores master encryption keys. For help with configuring a keyring
+and encryption, see **[[ %s | Configuring Encryption ]]**.' => '',
   'Short' => 'Kısa',
   'Large File Storage Not Configured' => 'Büyük Dosya Depolama Yapılandırılmamış',
+  'When email is sent, what format should the software use for users\' email
+addresses? Valid values are:
+
+ - `short`: \'gwashington <gwashington@example.com>\'
+ - `real`:  \'George Washington <gwashington@example.com>\'
+ - `full`: \'gwashington (George Washington) <gwashington@example.com>\'
+
+The default is `full`.' => '',
+  'The minimum supported version of Mercurial is 2.4, which was released in 2012.' => '',
+  'Use "bin/phd debug ..." to get a detailed daemon execution log.' => '',
   'Migrating file-based config to more modern config...' => 'Dosya tabanlı yapılandırmayı daha modern yapılandırmaya geçiriyor...',
   'Full' => 'Dolu',
   'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Veritabanlarını ayarlamak için depolama yükseltme komut dosyasını çalıştırın (ana bilgisayar "%s" başlatılmadı).',
   'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Henüz postaları yapılandırmadınız, bu nedenle bu sunucuya giden posta gönderemez veya gelen posta alamaz. Ayrıntılar için "cluster.mailers" yapılandırma ayarına bakın.',
   'Unrecognized verb: %s' => 'Tanınmayan fiil: %s',
+  'WARNING: This is a prototype option and the description below is currently pure
+fantasy.
+
+This option allows you to make this service aware of database read replicas so
+it can monitor database health, spread load, and degrade gracefully to
+read-only mode in the event of a failure on the primary host. For help with
+configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => '',
   'Schemata Issues' => 'Schemata Sorunları',
   'Expected Collation' => 'Beklenen Harmanlama',
   'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => '"%s" seçeneği "%s" türündedir, ancak değer bir liste değildir: doğal olmayan veya seyrek anahtarları olan bir haritadır.',
@@ -109,7 +173,6 @@ Hesap bilgilerinin başka bir yetkili sistemden otomatik olarak senkronize edilm
   'Configuration key \'%s\' is not set in %s configuration!' => '\'%s\' yapılandırma anahtarı %s yapılandırmasında ayarlanmadı!',
   'Multi-Factor Optional' => 'Çok Faktörlü Opsiyonel',
   'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => '\'%s\' uzantısı yüklü değil. \'%s\' olmadan, bu sunucu yüklenen dosyaların MIME türlerini belirleyemeyebilir.',
-  'Access Denied' => 'Erişim Engellendi',
   'The configuration option \'%s\' has been removed. You may delete it at your convenience.
 
 %s' => '\'%s\' yapılandırma seçeneği kaldırıldı. İstediğiniz zaman silebilirsiniz.
@@ -129,6 +192,7 @@ Hesap bilgilerinin başka bir yetkili sistemden otomatik olarak senkronize edilm
   'Can Not Connect to MySQL' => 'MySQL\'e Bağlanılamıyor',
   'Option "%s" is of type "%s", but the configured value is not a boolean.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bir boole değeri değildir.',
   'Disable developer mode' => 'Geliştirici modunu devre dışı bırak',
+  'Identify the component in your webserver configuration which is decompressing or mangling requests and disable it. This software will not work properly until you do.' => '',
   'Profile 0.1%% of all requests' => 'Profil tüm istekleri %%0.1\'i',
   'This option has been replaced with the more granular option `%s`.' => 'Bu seçenek daha ayrıntılı seçenek olan `%s` ile değiştirildi.',
   'Require all users to configure multi-factor authentication.' => 'Tüm kullanıcıların çok faktörlü kimlik doğrulamasını yapılandırmasını zorunlu kılın.',
@@ -136,13 +200,16 @@ Hesap bilgilerinin başka bir yetkili sistemden otomatik olarak senkronize edilm
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' ikili dosyası bulunamadı. \'%s\' simgesine dokunun veya web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
   'Configuration Guide: Locked and Hidden Configuration' => 'Yapılandırma Kılavuzu: Kilitli ve Gizli Yapılandırma',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Bu seçenek ayrıntılı hata raporlamayı (yığın izleri, hata bilgileri) etkinleştirir ve her yeniden yüklemede statik varlıkların disk okumalarını zorlar.',
+  'Wrote configuration key "%s" to local storage (in file "%s").' => '',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Bu alternatif URI\'ler bu kurulumda \'normal\' sayfalara erişebilecek. OAuth gibi diğer özellikler çalışmaz. Bunun en önemli kullanım alanı, yüklemeleri etki alanları arasında taşımaktır.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Çoğaltılmayan Çoğaltma',
   'Run these %d command(s):' => 'Bu %d komutunu çalıştırın:',
   'Pattern' => 'Desen',
   'Unknown \'%s\' Version' => 'Bilinmeyen \'%s\' Sürümü',
-  'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'MySQL\'in eski bir sürümünü kullanıyorsunuz ("%s" sunucusunda) ve yükseltmeniz gerekiyor.',
+  'Require administrators to unlock the authentication provider configuration from the CLI before it can be edited.' => '',
+  'Define one or more mail transmission services. For help with configuring
+mailers, see **[[ %s | %s ]]** in the documentation.' => '',
   'Feed Hooks Deprecated' => 'Besleme Kancaları Kullanımdan Kaldırıldı',
   'Purge Caches' => 'Önbellekleri Temizle',
   'Configure services to run on a cluster of hosts.' => 'Hizmetleri bir ana bilgisayar kümesinde çalışacak şekilde yapılandırın.',
@@ -205,6 +272,10 @@ Bu seçeneği kullanmak için, küçük bir sayıya ayarlayın (10 gibi) ve ası
   'This configuration is locked and can not be edited from the web interface. Use %s in %s to edit it.' => 'Bu yapılandırma kilitlidir ve web arayüzünden düzenlenemez. Düzenlemek için %2$s içinde %s kullanın.',
   'Multiple %s subclasses contain an option named \'%s\'!' => 'Birden fazla %s alt sınıf, \'%s\' adlı bir seçenek içerir!',
   'Pygments should be installed and enabled to provide advanced syntax highlighting.' => 'Gelişmiş sözdizimi vurgulaması sağlamak için MulPygments yüklenmeli ve etkinleştirilmelidir.',
+  'If true, allow MetaMTA to change mail subjects to put text like \'[Accepted]\' and
+\'[Commented]\' in them. This makes subjects more useful, but might break
+threading on some clients. If you\'ve set \'%s\', users can override this setting
+in their preferences.' => '',
   'Recaptcha public key, obtained by signing up for Recaptcha.' => 'Recaptcha\'ya kaydolarak elde edilen Recaptcha genel anahtarı.',
   'Database Servers' => 'Veritabanı Sunucuları',
   'Specify a configuration key to delete.' => 'Silinecek bir yapılandırma anahtarı belirtin.',
@@ -234,7 +305,6 @@ Bu seçeneği kullanmak için, küçük bir sayıya ayarlayın (10 gibi) ve ası
   'Security options.' => 'Güvenlik seçenekleri.',
   'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => '"%s" seçeneği "%s" türündedir ve komut satırında JSON değer listesi olarak belirtilmelidir. Kabuğunuzun değerini belirtmeniz gerekebilir (örneğin: \'["a", "b", ...]\').',
   'Expected Unique' => 'Beklenen Benzersiz',
-  'Old MySQL Version' => 'Eski MySQL Sürümü',
   'Configuring a Preamble Script' => 'Bir Başlangıç Betik Yapılandırma',
   'Default Partition' => 'Varsayılan Bölüm',
   'Domain used for reply email addresses.' => 'Yanıt e-posta adresleri için kullanılan alan adı.',
@@ -246,18 +316,40 @@ Bu seçeneği kullanmak için, küçük bir sayıya ayarlayın (10 gibi) ve ası
   'The Differential revision list view age UI elements have been removed to simplify the interface.' => 'Arayüzü basitleştirmek için Diferansiyel revizyon listesi görünüm yaşı kullanıcı arayüzü öğeleri kaldırıldı.',
   'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be installed on an entire domain; it can not be installed on a path.' => '\'%s\' yapılandırma seçeneği geçersiz. URI\'nin bir yolu OLMAMALIDIR, ör. \'%s\' iyidir, ancak \'%s\' doğru değil. Bu yazılım tüm bir alana kurulmalıdır; bir yola kurulamaz.',
   'Separate values with newlines.' => 'Değerleri yeni satırlarla ayırın.',
+  'The request body that the server received had already been decompressed. This strongly suggests your webserver is configured to decompress requests inline, before they reach PHP.' => '',
+  'Define one or more fulltext storage services. Here you can configure which
+hosts will handle fulltext search queries and indexing. For help with
+configuring fulltext search clusters, see **[[ %s | %s ]]** in the
+documentation.' => '',
   'Exception Handlers' => 'İstisna İşleyicileri',
   'This schema has the wrong nullable setting.' => 'Bu şema yanlış boş değer ayarına sahip.',
   'Config option \'%s\' is invalid. The URI must start with \'%s\' or \'%s\'.' => '\'%s\' yapılandırma seçeneği geçersiz. URI \'%s\' veya \'%s\' ile başlamalıdır.',
   'Unsupported/Insecure "%s" Version' => 'Desteklenmeyen/Güvensiz "%s" Sürümü',
   'This option does not have a custom type!' => 'Bu seçeneğin özel bir türü yoktur!',
   'Require administrators to approve new accounts.' => 'Yöneticilerden yeni hesapları onaylamasını iste.',
+  'Authentication Configuration Unlocked' => '',
   'Health' => 'Sağlık',
   'System user to run daemons as.' => 'Sistem kullanıcısı olarak daemonları çalıştıracak.',
+  'When set to `true`, the authentication provider configuration for this instance can not be modified without first running `bin/auth unlock` from the command line. This is to reduce the security impact of a compromised administrator account. 
+
+After running `bin/auth unlock` and making your changes to the authentication provider config, you should run `bin/auth lock`.' => '',
   'Unknown schema status "%s"!' => 'Bilinmeyen şema durumu "%s"!',
   'MySQL May Run Slowly' => 'MySQL Yavaş Çalışabilir',
   'Too many arguments: expected one key.' => 'Çok fazla argüman: beklenen bir anahtar.',
   'List of Users Without MFA' => 'MFA\'sız Kullanıcıların Listesi',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => 'ÖNEMLİ: Yukarı akış, prototip uygulamaları için destek sağlamaz.
+
+Bu platform, **gelişimin erken safhasında** olan prototip uygulamaları içerir. Varsayılan olarak, prototip uygulamaları yüklenmez, çünkü genellikle henüz kullanılabilir olacak kadar gelişmemiştir. Uygulama geliştiriyorsanız veya gelecek özellikleri önizlemek istiyorsanız, bunları yüklemek için bu seçeneği etkinleştirebilirsiniz.
+
+Prototipler hakkında daha fazla bilgi edinmek için, [[ %s | %s ]] sayfasına bakın.
+
+Prototipleri etkinleştirdikten sonra, bunları normal olarak kaldırabilirsiniz (normal uygulamalar gibi).',
   'No "Host" header present in request.' => 'İstekte "Ana Bilgisayar" başlığı yok.',
   'Value for option "%s" of type "%s" must be either "true" or "false".' => '"%2$s" türündeki "%s" seçeneğinin değeri "true" veya "false" olmalıdır.',
   'Storage engines are now discovered automatically at runtime.' => 'Depolama motorları artık çalışma zamanında otomatik olarak keşfediliyor.',
@@ -272,6 +364,11 @@ Bu seçeneği kullanmak için, küçük bir sayıya ayarlayın (10 gibi) ve ası
   'Database replica "%s" is listed as a replica, but is not currently replicating. You are vulnerable to data loss if the master fails.' => '"%s" veritabanı eşlemesi eşleme olarak listeleniyor, ancak şu anda eşlenmiyor. Master başarısız olursa veri kaybına karşı savunmasızsınız.',
   'Garbage Collectors' => 'Çöp Toplayıcılar',
   '%s edited this configuration entry.' => '%s bu yapılandırma girişini düzenledi.',
+  'The PHP "zip" extension is not installed. This extension is required by certain data export operations, including exporting data to Excel.
+
+To clear this setup issue, install the extension and restart your webserver.
+
+You may safely ignore this issue if you do not plan to export data in Zip archives or Excel spreadsheets, or intend to install the extension later.' => '',
   'To enable the SSH log, specify a path. This log can provide more detailed information about SSH access than a normal SSH log (for instance, it can show logged-in users, commands, and other application data).
 
 If not set, no log will be written.' => 'SSH günlüğünü etkinleştirmek için bir yol belirtin. Bu günlük, SSH erişimi hakkında normal bir SSH günlüğünden daha ayrıntılı bilgi sağlayabilir (örneğin, oturum açmış kullanıcıları, komutları ve diğer uygulama verilerini gösterebilir).
@@ -299,15 +396,54 @@ Yeniden yazma kurallarınızın, belgelerdeki talimatları izleyerek doğru yap�
   ' (%s)' => ' (%s)',
   'Not Available' => 'Mevcut Değil',
   'If those commands don\'t work, try Google. The process of installing PHP extensions is not specific to this software, and any instructions you can find for installing them on your system should work. On Mac OS X, you might want to try Homebrew.' => 'Bu komutlar işe yaramazsa Google\'ı deneyin. PHP uzantılarını yükleme işlemi bu yazılıma özgü değildir ve bunları sisteminize yüklemek için bulabileceğiniz tüm talimatlar çalışmalıdır. Mac OS X\'te Homebrew\'u denemek isteyebilirsiniz.',
+  'You can disable the hints under "REPLY HANDLER ACTIONS" if users prefer
+smaller messages. The actions themselves will still work properly.' => '',
   'This option has been removed, you can use Dashboards to provide homepage customization. See T11533 for more details.' => 'Bu seçenek kaldırıldı, anasayfa özelleştirmesi sağlamak için Gösterge Tabloları\'nı kullanabilirsiniz. Daha fazla bilgi için T11533\'e bakın.',
   'Data Cache' => 'Veri Önbelleği',
   'Configure the access logs, which log HTTP/SSH requests.' => 'HTTP/SSH isteklerini kaydeden erişim günlüklerini yapılandırın.',
   '%ss Behind' => '%s Arkasında',
   'The PID of the server process.' => 'Sunucu işleminin PID\'si.',
+  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
+            \'installed on an entire domain; it can not be installed on a path.' => '',
   'Blacklist subnets to prevent user-initiated outbound requests.' => 'Kullanıcı tarafından başlatılan giden istekleri önlemek için alt ağları kara listeye alın.',
+  'When a message is sent to multiple recipients (for example, several reviewers on
+a code review), it can either be delieverd as one email to everyone (e.g., "To:
+alincoln, usgrant, htaft") or separate emails to each user (e.g., "To:
+alincoln", "To: usgrant", "To: htaft"). The major advantages and disadvantages
+of each approach are:
+
+  - One mail to everyone:
+    - This violates policy controls. The body of the mail is generated without
+      respect for object policies.
+    - Recipients can see To/Cc at a glance.
+    - If you use mailing lists, you won\'t get duplicate mail if you\'re
+      a normal recipient and also Cc\'d on a mailing list.
+    - Getting threading to work properly is harder, and probably requires
+      making mail less useful by turning off options.
+    - Sometimes people will "Reply All", which can send mail to too many
+      recipients. This software will try not to send mail to users who already
+      received a similar message, but can not prevent all stray email arising
+      from "Reply All".
+    - Not supported with a private reply-to address.
+    - Mail messages are sent in the server default translation.
+    - Mail that must be delivered over secure channels will leak the recipient
+      list in the "To" and "Cc" headers.
+  - One mail to each user:
+    - Policy controls work correctly and are enforced per-user.
+    - Recipients need to look in the mail body to see To/Cc.
+    - If you use mailing lists, recipients may sometimes get duplicate
+      mail.
+    - Getting threading to work properly is easier, and threading settings
+      can be customized by each user.
+    - "Reply All" will never send extra mail to other users involved in the
+      thread.
+    - Required if private reply-to addresses are configured.
+    - Mail messages are sent in the language of user preference.
+' => '',
   'No Outbound Requests' => 'Giden İstek Yok',
   'Primary install URI, for multi-environment installs.' => 'Çok ortamlı yüklemeler için birincil yükleme URI\'si.',
   'Global access controls now exist, see `%s`.' => 'Artık küresel erişim kontrolleri mevcut, `%s` bakın.',
+  'Your webserver is not handling compressed request bodies properly.' => '',
   'Whitelists editor protocols for "Open in Editor".' => '"Editör\'de Aç" için beyaz listeler düzenleyici protokolleri.',
   'Unable to connect to MySQL!
 
@@ -353,8 +489,19 @@ Veritabanı bağlantı bilgilerinin ve MySQL\'in doğru yapılandırıldığınd
   'Trying to add duplicate key "%s"!' => 'Yinelenen anahtar "%s" eklenmeye çalışılıyor!',
   'Option "%s" is of type "%s", but the configured value is not a string.' => '"%s" seçeneği "%s" türündedir, ancak yapılandırılan değer bir dize değildir.',
   'User Guide: Amazon RDS' => 'Kullanım Kılavuzu: Amazon RDS',
+  'You have \'%s\' enabled in your PHP configuration.
+
+This feature is "highly discouraged" by PHP\'s developers, and has been removed entirely in PHP8.This option is not compatible with this software. Disable \'%s\' in your PHP configuration to continue.' => '',
   'Repository %s has an ambiguous leader.' => '%s deponun belirsiz bir lideri var.',
+  'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
+
+If not set, no log will be written.' => '',
   'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => '\'%s\' uzantısı yüklü değil. \'%s\' desteği olmadan, bu sunucu resimleri işleyemez veya yeniden boyutlandıramaz (örneğin, küçük resimler oluşturmak için). \'%s\' yükleyin veya etkinleştirin.',
+  'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
+
+Leaving your authentication provider configuration unlocked increases the damage that a compromised administrator account can do to your install. For example, an attacker who compromises an administrator account can change authentication providers to point at a server they control and attempt to intercept usernames and passwords.
+
+To prevent this attack, you should configure authentication, and then lock the configuration by running "bin/auth lock" from the command line. This will prevent changing the authentication config without first running "bin/auth unlock".' => '',
   'When you upload a file via drag-and-drop or the API, chunks must be buffered into memory before being written to permanent storage. This server needs memory available to store these chunks while they are uploaded, but PHP is currently configured to severely limit the available memory.
 
 PHP processes currently have very little free memory available (%s). To work well, processes should have at least %s.
@@ -383,9 +530,11 @@ Ayrıca sınırı artırabilir veya bu sorunu göz ardı edebilir ve büyük dos
   'Explicit S3 endpoint to use. This should be the endpoint which corresponds to the region you have selected in `amazon-s3.region`. This software can not determine the correct endpoint automatically because some endpoint locations are irregular.' => 'Kullanmak için açık S3 uç noktası. Bu, `amazon-s3.region` da seçtiğiniz bölgeye karşılık gelen uç nokta olmalıdır. Bu yazılım, bazı uç nokta konumları düzensiz olduğundan doğru uç noktayı otomatik olarak belirleyemiyor.',
   'Admin Server' => 'Yönetici Sunucusu',
   'Wrong Column Type' => 'Yanlış Sütun Türü',
+  'You are running %s version "%s", which is older than the minimum required version, "%s". Update to at least "%s".' => '',
   'Embed YouTube videos' => 'YouTube videolarını gömme',
   'Add One Path' => 'Bir Yol Ekle',
   'Clear Cache' => 'Önbelleği Temizle',
+  'Write access log here.' => 'Erişim günlüğünü buraya yazın.',
   'Unignore this setup issue?' => 'Bu kurulum sorununu yoksayı kaldırılsın mı?',
   'Configure Mail.' => 'Postayı Yapılandır.',
   'You can update these %d value(s) here:' => 'Bu %d değerini buradan güncelleyebilirsiniz:',
@@ -397,12 +546,14 @@ If not set, no log will be written.' => 'HTTP erişim günlüğünü etkinleşti
 Ayarlanmazsa, günlük yazılmaz.',
   'extname' => 'extname',
   'Enable captchas with Recaptcha.' => 'Recaptcha ile captcha\'ları etkinleştirin.',
+  'This suggests your webserver is configured to decompress or mangle compressed requests.' => '',
   'Add Multiple Paths' => 'Birden Çok Yol Ekle',
   'Specify an activity to mark as completed.' => 'Tamamlandı olarak işaretlemek için bir etkinlik belirtin.',
   'By default, this software links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Varsayılan olarak, bu yazılım Yeniden Açıklama alanlarındaki nesne adlarını ilgili nesneye bağlar. Bu normal ifade bu davranışı değiştirmek için kullanılabilir; bu normal ifadeyle eşleşen nesne adları bağlanmayacak.',
   'This server has a known bad version of "%s".' => 'Bu sunucunun bilinen bir "%s" sürümü var.',
   'Require DarkConsole Activation' => 'DarkConsole Aktivasyonu Gerektir',
   'Notifications Status' => 'Bildirim Durumu',
+  'Use the %s to manage enabled applications.' => 'Yüklü uygulamaları yönetmek için %s kullanın.',
   'Current Configuration' => 'Geçerli Yapılandırma',
   'Replicating Master' => 'Master Kopyalama',
   'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
@@ -463,11 +614,6 @@ Web sunucunuz HTTP temel kimlik doğrulamasını iletecek şekilde yapılandır�
   'This key is on the wrong columns.' => 'Anahtar yanlış sütunlarda.',
   'Wrong Nullable Setting' => 'Yanlış Sıfırlanabilir Ayar',
   'Secret key for Amazon S3.' => 'Amazon S3 için gizli anahtar.',
-  'You are using an old version of MySQL (on host "%s") which has poor unicode support (it does not support the "utf8mb4" collation set). You will encounter limitations when working with some unicode data.
-
-We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'Eski bir MySQL sürümü kullanıyorsunuz ("%s" sunucusunda) ve unicode desteği zayıf ("utf8mb4" harmanlama kümesini desteklemiyor). Bazı unicode verilerle çalışırken sınırlamalarla karşılaşacaksınız.
-
-MySQL 5.5 veya daha yeni bir sürüme geçmenizi önemle tavsiye ederiz.',
   'Trying to add duplicate column "%s"!' => '"%s" sütununu eklemeye çalışıyor!',
   'Minimum password length.' => 'Minimum parola uzunluğu.',
   'Required PHP extensions are not installed.' => 'Gerekli PHP uzantıları kurulu değil.',
@@ -511,6 +657,14 @@ Web sunucusunun çalıştığı kullanıcı, bundan faydalanabilmek için PATH i
   'Setup Issues' => 'Kurulum sorunları',
   'Require email verification' => 'E-posta doğrulaması gerektir',
   'Resource minification is now managed automatically.' => 'Kaynak küçültme artık otomatik olarak yönetiliyor.',
+  'This software sometimes executes other binaries on the server. An example of this is the `%s` command, used to syntax-highlight code written in languages other than PHP. By default, it is assumed that these binaries are in the %s of the user running this software (normally \'apache\', \'httpd\', or \'nobody\'). Here you can add extra directories to the %s environment variable, for when these binaries are in non-standard locations.
+
+Note that you can also put binaries in `%s` (for example, by symlinking them).
+
+The current value of PATH after configuration is applied is:
+
+  lang=text
+  %s' => '',
   'Whitespace rendering is now handled automatically.' => 'Beyaz alan oluşturma artık otomatik olarak gerçekleştiriliyor.',
   '%s Not Working' => '%s Çalışmıyor',
   'This configuration option is unknown. It may be misspelled, or have existed in a previous version of the software.' => 'Bu yapılandırma seçeneği bilinmiyor. Yanlış yazılmış olabilir veya yazılımın önceki bir sürümünde mevcut olabilir.',
@@ -589,15 +743,19 @@ Bu riski ortadan kaldırmak için bir CDN (veya alternatif dosya etki alanı) ya
   'The HTTP response code or process exit code.' => 'HTTP yanıt kodu veya işlem çıkış kodu.',
   'Obsolete; use standard rendering events instead.' => 'Eski; bunun yerine standart oluşturma etkinlikleri kullanın.',
   'Local Disk Storage' => 'Yerel Disk Depolama',
+  'Constant' => 'Sabit',
   'Issue' => 'Sorun',
+  'Determines which URI protocols are valid for links and redirects.' => '',
   'Configuration Guide: Configuring a File Domain' => 'Yapılandırma Kılavuzu: Bir Dosya Etki Alanını Yapılandırma',
   'Activate DarkConsole on every page.' => 'Her sayfada DarkConsole\'i etkinleştirin.',
   'Enable verbose error reporting and disk reads.' => 'Ayrıntılı hata raporlamayı ve disk okumalarını etkinleştirin.',
+  'This software sent itself a test request that was compressed with "Content-Encoding: gzip", but received different bytes than it sent.' => '',
   'Mail object address hash keys are now generated automatically.' => 'Posta nesnesi adres karması anahtarları artık otomatik olarak oluşturulur.',
   'Too many arguments: expected one key and one value.' => 'Çok fazla argüman: bir anahtar ve bir değer bekleniyor.',
   'Settings History' => 'Ayarlar Geçmişi',
   'Opcode' => 'İşlemkodu',
   'To update these %d value(s), edit your PHP configuration file.' => 'Bu %d değerini güncellemek için PHP yapılandırma dosyanızı düzenleyin.',
+  'Auth provider config must be unlocked before editing' => 'Auth provider config be unkilitli before düzenlemeing',
   'Enable Recaptcha' => 'Recaptcha\'yı etkinleştir',
   'Prefix cookie with "%s"' => '"%s" ile önek tanımlama bilgisi',
   'The configuration option "%s" is not recognized. It may be misspelled, or it might have existed in an older version of the software. It has no effect, and should be corrected or deleted.' => '"%s" yapılandırma seçeneği tanınmıyor. Yanlış yazılmış olabilir veya yazılımın daha eski bir sürümünde mevcut olabilir. Etkisi yoktur ve düzeltilmesi veya silinmesi gerekir.',
@@ -624,6 +782,7 @@ Bu riski ortadan kaldırmak için bir CDN (veya alternatif dosya etki alanı) ya
   'If a variable isn\'t available (for example, %%m appears in the file format but the request is not a Conduit request), it will be rendered as \'-\'' => 'Bir değişken kullanılamıyorsa (örneğin, dosya biçiminde %%m görünür ancak istek bir İletken isteği değilse), \'-\' olarak işlenir.',
   'CSRF HMAC keys are now managed automatically.' => 'CSRF HMAC anahtarları artık otomatik olarak yönetiliyor.',
   'Database Status' => 'Veritabanı Durumu',
+  'The request body that was received began:' => '',
   'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded: %s' => 'JSON\'da "%s" seçeneğinin değeri ("%s" türünde) belirtilmelidir, ancak girdinin kodu çözülemedi: %s',
   'Database host "%s" has a configured cluster state which disagrees with the state on this host ("%s"). Run `bin/storage partition` to commit local state to the cluster. This host may have started with an out-of-date configuration.' => 'Veritabanı ana bilgisayarı "%s", bu ana bilgisayardaki durumla aynı fikirde olmayan ("%s") yapılandırılmış bir küme durumuna sahip. Kümeye yerel durum bildirmek için `bin/storage partition` çalıştırın. Bu ana makine eski bir yapılandırma ile başlamış olabilir.',
   'Normally, this software issues HTTP redirects after a successful POST. This can make it difficult to debug things which happen while processing the POST, because service and profiling information are lost. By setting this configuration option, an interstitial page will be shown instead of automatically redirecting, allowing you to examine service and profiling information. It also makes the UX awful, so you should only enable it when debugging.' => 'Normalde, bu yazılım başarılı bir POST sonrasında HTTP yönlendirmeleri yayınlar. Bu, hizmet ve profil oluşturma bilgileri kaybolduğundan POST işlenirken gerçekleşen hataların ayıklanmasını zorlaştırabilir. Bu yapılandırma seçeneğini ayarladığınızda, otomatik olarak yönlendirme yerine bir ara sayfa gösterilecek ve böylece servis ve profil bilgilerini incelemeniz mümkün olacaktır. Ayrıca UX\'i korkunç hale getirir, bu yüzden yalnızca hata ayıklama sırasında etkinleştirmelisiniz.',
@@ -637,23 +796,34 @@ After changing this value, you must restart the daemons. Most configuration chan
 Bir küme çalıştırıyorsanız, bu sınır her `phd` örneği için ayrı ayrı geçerlidir. Örneğin, bu sınır `4` olarak ayarlanmışsa ve üç ana sunucunuz varsa, etkin genel sınır 12 olacaktır.
 
 Bu değeri değiştirdikten sonra, arka plan pencerelerini yeniden başlatmanız gerekir. Çoğu yapılandırma değişikliği otomatik olarak arka plan programı tarafından alınır, ancak havuz boyutları yeniden başlatmadan değiştirilemez.',
-  'Set the URI that Phurl will use to share shortened URLs.' => 'Phurl\'un kısaltılmış URL\'leri paylaşmak için kullanacağı URI\'yi ayarlayın.',
   'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'MySQL sürümünüz ("%s" veritabanı ana bilgisayarında), bir parola dosyası yapılandırmasını desteklemiyor. Sık kullanılan kelimeler için arama sonuçları bulamazsınız.',
   'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'PHP yapılandırmanız geçersiz bir saat dilimi seçiyor. Geçerli bir saat dilimi seçin.',
   '%s deleted this configuration entry (again?).' => '%s bu yapılandırma girişini sildi (tekrar?).',
+  'There is some deprecated code found in the code-base.' => '',
   'Unresolved Setup Issues' => 'Çözümlenmemiş Kurulum Sorunları',
   'Server Timezone Not Configured' => 'Sunucu Saat Dilimi Yapılandırılmadı',
   'The following regex is malformed and cannot be used: %s' => 'Aşağıdaki normal ifade hatalı biçimlendirilmiş ve kullanılamaz: %s',
-  'Use the %s to manage installed applications.' => 'Yüklü uygulamaları yönetmek için %s kullanın.',
   'Individual application reply handler domains have been removed. Configure a reply domain with "%s".' => 'Bireysel başvuru yanıt işleyicisi etki alanları kaldırıldı. "%s" ile bir yanıt alan adı yapılandırın.',
   'Preflight' => 'Ön kontrol',
   'Install these %d PHP extension(s):' => 'Şunu %d PHP uzantısını yükleyin:',
   'Missing \'%s\' Binary' => '\'%s\' İkili Eksik',
   'Charset' => 'Karakter kümesi',
+  '\'%s\' or \'%s\' binary not found or Imagemagick is not installed.' => '\'%s\' ikili bulunamadı veya Imagemagick kurulu değil.',
+  'By default, this software generates unique reply-to addresses and sends a
+separate email to each recipient when you enable reply handling. This is more
+secure than using "From" to establish user identity, but can mean users may
+receive multiple emails when they are on mailing lists. Instead, you can use a
+single, non-unique reply to address and authenticate users based on the "From"
+address by setting this to \'true\'. This trades away a little bit of security
+for convenience, but it\'s reasonable in many installs. Object interactions are
+still protected using hashes in the single public email address, so objects
+can not be replied to blindly.' => '',
   'The framable public feed is no longer supported.' => 'Çerçevelenebilir genel yayın artık desteklenmiyor.',
   'A random, unique string which identifies the request.' => 'İsteği tanımlayan rastgele, benzersiz bir dize.',
+  'Auth provider config can be edited without unlocking' => '',
   'Disable unsafe option "%s" in PHP configuration.' => 'PHP yapılandırmasında güvenli olmayan "%s" seçeneğini devre dışı bırakın.',
   '%s Day(s)' => '%s Gün',
+  'PHP version: %s' => 'PHP sürüm: %s',
   'No search servers are configured.' => 'Hiçbir arama sunucusu yapılandırılmamış.',
   'DarkConsole is a development and profiling tool built into the web interface. You should leave it disabled unless you are developing or debugging %s.
 
@@ -723,7 +893,7 @@ You should omit the `@` from domains. Note that the domain must match exactly. I
 Kullanıcıların yalnızca alan adlarından birinde e-posta adresleri kullanarak kaydolmasına izin verilir ve yalnızca bu alan adları için yeni e-posta adresleri ekleyebilir. Bunu yapılandırırsanız, @{config:auth.require-email-verification} anlamına gelir.
 
 Alan adlarından `@` işaretini çıkarmalısınız. Alan adının tam olarak eşleşmesi gerektiğini unutmayın. "yourcompany.com" izin verirseniz, bu `joe@sirketiniz.com` izin verir, ancak `joe@mail.sirketiniz.com` reddeder.',
-  'Options for Phurl.' => 'Phurl için seçenekler.',
+  'Show unresolved issues with setup and configuration.' => '',
   'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
 
 Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
@@ -745,6 +915,7 @@ Yazılımı güncellemek bu sorunu çözmezse, ayrıştırıcıyı ayarlayabilme
   'The configuration option \'%s\' is not set.' => '\'%s\' yapılandırma seçeneği ayarlanmamış.',
   'Stop Before HTTP Redirect' => 'HTTP Yönlendirmesinden Önce Durdur',
   'Developer / Debugging' => 'Geliştirici / Hata Ayıklama',
+  'You have enabled Imagemagick in your config, but the \'%s\' or \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Yapılandırmanızda Imagemagick\'i etkinleştirdiniz, ancak \'%s\' ikili dosyası web sunucusunun %s değil. Imagemagick\'i devre dışı bırakın veya web sunucusu için kullanılabilir hale getirin.',
   'Remove PHP %s' => 'PHP %s kaldır',
   'Missing' => 'Eksik',
   'Classes must match to compare schemata!' => 'Sınıflar şemayı karşılaştırmak için eşleşmelidir!',
@@ -818,6 +989,7 @@ Your webserver is configured incorrectly and large parts of this software will n
 Web sunucunuz yanlış yapılandırılmış ve bu sorun düzeltilene kadar bu yazılımın büyük bölümleri çalışmayacak.
 
 (Bu soruna RewriteRule dosyanızdaki eksik "QSA" neden olabilir.)',
+  'MySQL is not in strict mode (on host "%s"), but using strict mode is recommended.' => '',
   'This ancient extension point has been replaced with other mechanisms, including "AphrontSite".' => 'Bu eski uzatma noktasının yerini "AphrontSite" dahil olmak üzere diğer mekanizmalar almıştır.',
   'You enabled Elasticsearch but the index does not exist.' => 'Elasticsearch\'ü etkinleştirdiniz, ancak dizin mevcut değil.',
   '%s Not Found' => '%s Bulunamadı',
@@ -830,6 +1002,7 @@ Web sunucunuz yanlış yapılandırılmış ve bu sorun düzeltilene kadar bu ya
   'Memory Limit Restricts File Uploads' => 'Bellek Sınırı Dosya Yüklemelerini Kısıtlıyor',
   'Cache Entries' => 'Önbellek Girişleri',
   'Unknown column type "%s"!' => 'Bilinmeyen sütun türü "%s"!',
+  'The minimum supported version of Git on the server is %s, which was released in %s. In older versions, the Git server may not be able to escape arguments with the "--" operator. Note: your users do not require a particular version of Git.' => '',
   'Configured location for storing uploaded files on disk ("%s") does not exist, or is not readable or writable. Verify the directory exists and is readable and writable by the webserver.' => 'Yüklenen dosyaları diskte saklamak için yapılandırılmış konum ("%s") mevcut değil veya okunamıyor veya yazılabilir değil. Dizinin var olduğunu ve web sunucusu tarafından okunabilir ve yazılabilir olduğunu doğrulayın.',
   'Notifications User Guide: Setup and Configuration' => 'Bildirimler Kullanıcı Kılavuzu: Kurulum ve Yapılandırma',
   'This software sent itself a test request with the "X-Setup-SelfCheck" header and expected to get a valid JSON response back. Instead, the response begins:
@@ -860,6 +1033,15 @@ Bir şey yanlış yapılandırılmış veya yanıtları başka şekillerde yöne
   'Key has Wrong Uniqueness' => 'Anahtarın Tekliği Yanlış',
   'Determines whether or not basic account information is editable.' => 'Temel hesap bilgilerinin düzenlenebilir olup olmadığını belirler.',
   'Get a local configuration value.' => 'Yerel bir yapılandırma değeri edinin.',
+  'By default, this software allows users to add multi-factor authentication to
+their accounts, but does not require it. By enabling this option, you can
+force all users to add at least one authentication factor before they can use
+their accounts.
+
+Administrators can query a list of users who do not have MFA configured in
+{nav People}:
+
+  - **[[ %s | %s ]]**' => '',
   'The base URI for this install is not configured. Many major features will not work properly until you configure it.' => 'Bu yükleme için temel URI yapılandırılmadı. Pek çok ana özellik siz yapılandırıncaya kadar düzgün çalışmaz.',
   'Unexpected \'diff\' Behavior' => 'Beklenmedik \'diff\' Davranışı',
   'The \'%s\' binary on this system has unexpected behavior: it was expected to exit with a nonzero error code when passed differing files, but did not.' => 'Bu sistemdeki \'%s\' ikili dosyasının beklenmedik bir davranışı var: farklı dosyalar iletildiğinde sıfır olmayan bir hata kodu ile çıkması bekleniyordu, ancak olmadı.',
@@ -868,6 +1050,7 @@ Bir şey yanlış yapılandırılmış veya yanıtları başka şekillerde yöne
   'Migrated option "%s" from file to local config.' => 'Dosyadan yerel yapılandırmaya "%s" seçeneği taşındı.',
   'Shenanigans' => 'Maskaralık',
   'The path for local repositories does not exist, or is not readable by the webserver.' => 'Yerel depoların yolu mevcut değil veya web sunucusu tarafından okunamıyor.',
+  'Option "%s" only supports numbers, letters, underscores and (for some reason) the dollar sign. This is necessary to avoid potential MySQL/MariaDB escape issues. Remove the invalid characters.' => '',
   'Inbound and outbound mail is now configured with "cluster.mailers".' => 'Gelen ve giden postalar artık "cluster.mailers" ile yapılandırıldı.',
   'Config \'%s\' Invalid' => '\'%s\' Yapılandırması Geçersiz',
   'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'Bir veritabanı ana bilgisayarı ("%s") ve bu web ana makinesi ("%s") şimdiki zamana 60 saniyeden fazla katılmıyor (mutlak eğrilik %s). Geçerli saatin her yerde doğru ayarlandığını kontrol edin.',
@@ -881,13 +1064,22 @@ Bir şey yanlış yapılandırılmış veya yanıtları başka şekillerde yöne
   'Collectors with custom policies are highlighted. Use %s to change retention policies.' => 'Özel politikaları olan koleksiyoncular vurgulanır. Saklama politikalarını değiştirmek için %s kullanın.',
   'Multi-Factor Required' => 'Çok Faktör Gerekli',
   'Host: %s' => 'Ev Sahibi: %s',
-  'URI that Phurl will use to shorten URLs.' => 'Phurl\'un URL\'leri kısaltmak için kullanacağı URI.',
   'Reply hints are no longer shown in mail.' => 'Yanıt ipuçları artık e-postada gösterilmiyor.',
   'Profile every request (slow)' => 'Her isteği profil haline getir (yavaş)',
   'Resolved Issue' => 'Çözülen Sorun',
+  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => '',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Bu seçenek genellikle yararlı olmadı. Kaynak karması anahtarları artık otomatik olarak yönetiliyor.',
   'Schema Status' => 'Şema Durumu',
   'To update these %d value(s), run these command(s) from the command line:' => 'Bu %d değerini güncellemek için komut satırından şu komutu çalıştırın:',
+  'If you want to use a single mailbox for reply mail, you can use this
+and set a common prefix for generated reply addresses. It will
+make use of the fact that a mail-address such as
+`devtools+D123+1hjk213h@example.com` will be delivered to the `devtools`
+user\'s mailbox. Set this to the left part of the email address and it will be
+prepended to all generated reply addresses.
+
+For example, if you want to use `devtools@example.com`, this should be set
+to `devtools`.' => '',
   'Cache Storage' => 'Önbellek Depolama',
   'At least one daemon is currently running as the wrong user.' => 'En az bir arka plan programı şu anda yanlış kullanıcı olarak çalışıyor.',
   'Data Type' => 'Veri Türü',
@@ -901,7 +1093,6 @@ Bir şey yanlış yapılandırılmış veya yanıtları başka şekillerde yöne
   'Options relating to authentication.' => 'Kimlik doğrulama ile ilgili seçenekler.',
   'Migrating file source...' => 'Dosya kaynağı taşınıyor...',
   'Autoincrement' => 'Otomatik artış',
-  'Install applications which are still under development.' => 'Hala geliştirilmekte olan uygulamaları yükleyin.',
   'Dark' => 'Koyu',
   'GZip Compression May Not Be Enabled' => 'GZip Sıkıştırması Etkinleştirilmeyebilir',
   'Typeahead strategies are now managed automatically.' => 'Yazma stratejileri artık otomatik olarak yönetiliyor.',
@@ -927,7 +1118,6 @@ Pygments\'ı yüklemek istemiyorsanız, bu sorunu göz ardı edebilirsiniz.',
 Use %s to start daemons. See %s for more information.' => 'Daemonlar çalışmıyor, arka plan işlemleri (e-posta gönderme, arama dizinlerini yeniden oluşturma, tahhüttleri içe aktarma, eski verileri temizleme ve derlemeleri çalıştırma dahil) gerçekleştirilemiyor.
 
 Daemons başlatmak için %s kullanın. Daha fazla bilgi için %s bakın.',
-  '\'%s\' binary not found or Imagemagick is not installed.' => '\'%s\' ikili bulunamadı veya Imagemagick kurulu değil.',
   'Unsafe MySQL "local_infile" Setting Enabled' => 'Güvenli Olmayan MySQL "local_infile" Ayarı Etkin',
   'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of the software.
 
@@ -962,6 +1152,13 @@ Bu sorunu gidermek için, tüm beslemeleri "feed.http-hooks" klasöründen kald�
   'The \'%s\' binary could not be located or executed.' => '\'%s\' ikili dosyası bulunamadı veya yürütülemedi.',
   'Show Email Preferences Link' => 'E-posta Tercihleri Bağlantısını Göster',
   'Confirm before redirecting so DarkConsole can be examined.' => 'DarkConsole\'un incelenebilmesi için yönlendirmeden önce onaylayın.',
+  'If you enable `%s`, this software uses "From" to authenticate users. You can
+additionally enable this setting to try to authenticate with \'Reply-To\'. Note
+that this is completely spoofable and insecure (any user can set any \'Reply-To\'
+address) but depending on the nature of your install or other deliverability
+conditions this might be okay. Generally, you can\'t do much more by spoofing
+Reply-To than be annoying (you can write but not read content). But this is
+still **COMPLETELY INSECURE**.' => '',
   'Define a cluster by providing a whitelist of host addresses that are part of the cluster.
 
 Hosts on this whitelist have special powers. These hosts are permitted to bend security rules, and misconfiguring this list can make your install less secure. For more information, see **[[ %s | %s ]]**.
@@ -976,6 +1173,7 @@ Kümedeki tüm ana bilgisayarları beyaz listeye ekleyen ve ek ana bilgisayar i�
 
 Küme adresleri tanımlandığında, ana bilgisayarları da beyaz listedeki olmayan arabirimlere yönelik istekleri reddeder.',
   'On host "%s", MySQL is configured with a small "%s" (%d), which may cause some large writes to fail. The recommended minimum value for this setting is "%d".' => '"%s" ana bilgisayarında, MySQL küçük bir "%s" (%d) ile yapılandırılır, bu da bazı büyük yazma işlemlerinin başarısız olmasına neden olabilir. Bu ayar için önerilen minimum değer "%d".',
+  'Config option "%s" is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like "%s".' => 'Config seçenek "%s" ingeçerli. timezone identifier be a geçerli timezone identifier recognized by PHP, like "%s".',
   'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not a directory.' => '\'%s\' bir dizin olmadığından PATH bileşeni \'%3$s\' (\'%s\' mutlak yolu olarak çözülür) kullanılamaz.',
   'Normally, pages are profiled only when explicitly requested via DarkConsole. However, it may be useful to profile some pages automatically.
 
@@ -1003,6 +1201,7 @@ NOT: Profil oluşturmanın çalışması için XHProf\'u yüklemeniz gerekir.',
   'Options relating to syntax highlighting source code.' => 'Sözdizimi vurgulama kaynak kodu ile ilgili seçenekler.',
   'Allow HTTP' => 'HTTP\'ye izin ver',
   'Simple Example' => 'Basit Örnek',
+  'Auth Config Unlocked' => 'Auth Config Unkilitli',
   'Synchronized' => 'Senkronize',
   'No REMOTE_ADDR is available, so this server cannot determine the origin address for requests. This will prevent the software from performing important security checks. This most often means you have a mistake in your preamble script. Consult the documentation (%s) and double-check that the script is written correctly.' => 'Kullanılabilir REMOTE_ADDR yok, bu nedenle bu sunucu istekler için başlangıç adresini belirleyemiyor. Bu, yazılımın önemli güvenlik kontrolleri yapmasını engelleyecektir. Bu en sık, başlangıç betikte bir hata olduğu anlamına gelir. Belgeleri (%s) bakın ve betiğinin doğru yazıldığını tekrar kontrol edin.',
   'Access key for Amazon EC2.' => 'Amazon EC2 için erişim anahtarı.',
@@ -1010,6 +1209,7 @@ NOT: Profil oluşturmanın çalışması için XHProf\'u yüklemeniz gerekir.',
   'Unsynchronized' => 'Eşitlenmemiş',
   'Available search engines are now automatically discovered at runtime.' => 'Kullanılabilir arama motorları artık çalışma zamanında otomatik olarak keşfediliyor.',
   'Key for HMAC digests.' => 'HMAC özetlerinin anahtarı.',
+  'Enable applications which are still under development.' => 'Hala geliştirilmekte olan uygulamaları yükleyin.',
   'The request duration, in microseconds.' => 'Mikrosaniye cinsinden istek süresi.',
   'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.' => 'S3 grubunuzun bulunduğu Amazon S3 bölgesi. Bir bölge belirttiğinizde, `amazon-s3.endpoint` ile karşılık gelen bir bitiş noktası da belirtmelisiniz. Kullanılabilir bölgelerin ve uç noktaların bir listesini AWS belgelerinde bulabilirsiniz.',
   'MySQL %s Not Supported' => 'MySQL %s Desteklenmiyor',
@@ -1017,12 +1217,14 @@ NOT: Profil oluşturmanın çalışması için XHProf\'u yüklemeniz gerekir.',
   'Auth Application' => 'Kimlik Doğrulama Uygulaması',
   'The environmental variable %s is empty. This server will not be able to execute some commands.' => 'Çevresel %s değişkeni boş. Bu sunucu bazı komutları yürütemez.',
   '%s.%s (%s)' => '%s.%s (%s)',
+  'There is a new indirection layer between the strings that appear as VCS authors and committers (such as "John Developer <johnd@bigcorp.com>") and the user account that gets associated with VCS commits.' => '',
   'All Differential fields are now managed through the configuration option "%s". Use that option to configure which fields are shown.' => 'Tüm Diferansiyel alanlar artık "%s" yapılandırma seçeneği ile yönetilmektedir. Hangi alanların gösterileceğini yapılandırmak için bu seçeneği kullanın.',
   'Use HSTS' => 'HSTS Kullan',
   'The current MySQL configuration has these %d value(s):' => 'Geçerli MySQL yapılandırması şu %d değerlere sahiptir:',
   'Show "To:" and "Cc:" footer hints in email.' => 'E-postada "Alıcı:" ve "Bilgi:" altbilgisi ipuçlarını göster.',
   'Write SSH log here.' => 'SSH günlüğünü buraya yazın.',
   'Migrate From "feed.http-hooks" to Webhooks' => '"feed.http-hooks" klasöründen Webhook\'ları geçiş',
+  'Partitioning and replication are now managed in primary configuration.' => '',
   'You can find more information about configuring OPcache in the %s.' => 'OPcache yapılandırması hakkında daha fazla bilgiyi %s içinde bulabilirsiniz.',
   'PHP Timezone' => 'PHP Zaman Dilimi',
   'This option is not recognized. It may be misspelled.' => 'Bu seçenek tanınmıyor. Yanlış yazılmış olabilir.',
@@ -1037,6 +1239,19 @@ You should configure a CDN or alternate file domain to mitigate this risk. Confi
 
 Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırmalısınız. Bir CDN\'nin yapılandırılması da performansı artıracaktır. Talimatlar için [[ %s | %s ]] bakın.',
   'Learn more about locked and hidden options.' => 'Kilitli ve gizli seçenekler hakkında daha fazla bilgi edinin.',
+  'Default address used as a "From" or "To" email address when an address is
+required but no meaningful address is available.
+
+If you configure inbound mail, you generally do not need to set this:
+the software will automatically generate and use a suitable mailbox on the
+inbound mail domain.
+
+Otherwise, this option should be configured to point at a valid mailbox which
+discards all mail sent to it. If you point it at an invalid mailbox, mail sent
+by the software and some mail sent by users will bounce. If you point it at a
+real user mailbox, that user will get a lot of mail they don\'t want.
+
+For further guidance, see **[[ %s | %s ]]** in the documentation.' => '',
   'You must start the daemons to send email, rebuild search indexes, and do other background processing.' => 'E-posta göndermek, arama dizinlerini yeniden oluşturmak ve diğer arka plan işlemlerini yapmak için daemonları başlatmanız gerekir.',
   'After editing the PHP configuration, <strong>restart everything for the changes to take effect</strong>. For help with restarting everything, see %s in the documentation.' => 'PHP yapılandırmasını düzenledikten sonra, <strong>değişikliklerin etkili olması için her şeyi yeniden başlatın</strong>. Her şeyi yeniden başlatmayla ilgili yardım için %s belgesinde bakın.',
   'Repository Status' => 'Depo Durumu',
@@ -1050,6 +1265,8 @@ Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırma
   'Cluster Setup' => 'Küme Kurulumu',
   'Obsolete Configuration Option "%s"' => 'Eski Yapılandırma Seçeneği "%s"',
   'The \'%s\' binary could not be found. Set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' ikili dosyası bulunamadı. Web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
+  'You can disable the email preference link in emails if users prefer smaller
+emails.' => '',
   'Expected Autoincrement' => 'Beklenen Otomatik Artış',
   'MySQL is configured (on host "%s") to only index words with at least %d characters.' => 'MySQL ("%s" sunucusunda) yalnızca en az %d karakter içeren kelimeleri endeksleyecek şekilde yapılandırılmıştır.',
   'Too many arguments: expected only a configuration key when using "--stdin".' => 'Çok fazla değişken: "--stdin" kullanılırken yalnızca bir yapılandırma anahtarı bekleniyordu.',
@@ -1066,6 +1283,7 @@ Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırma
   'S3 Partially Configured' => 'S3 Kısmen Yapılandırılmış',
   'Migrate file-based configuration to more modern storage.' => 'Dosya tabanlı yapılandırmayı daha modern depolamaya taşıyın.',
   'Skipping config of source type %s...' => '%s kaynak türünün yapılandırması atlanıyor ...',
+  'Reply addresses can either be private (more secure) or public (which works better with mailing lists).' => '',
   'This server received an "X-Mod-Pagespeed" or "X-Page-Speed" HTTP header on this request, which indicates that you have enabled "mod_pagespeed" on this server. This module is not compatible with this software. You should disable the module.' => 'Bu sunucu, bu istekte bu sunucuda "mod_pagespeed"\'i etkinleştirdiğinizi belirten bir "X-Mod-Pagespeed" veya "X-Page-Speed" HTTP üstbilgisi aldı. Bu modül, bu yazılım ile uyumlu değildir. Modülü devre dışı bırakmalısınız.',
   'No profiling' => 'Profil oluşturma yok',
   'PHID Types' => 'PHID Türleri',
@@ -1081,7 +1299,10 @@ Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırma
   'Require Administrators to Approve Accounts' => 'Yöneticilerin Hesapları Onaylamalarını Gerektir',
   'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => 'Büyük dosya yüklemelerini desteklemek için PHP yapılandırmanızda %s en az 32MB olarak ayarlayın.',
   'The system sudo user.' => 'Sistem sudo kullanıcısı.',
+  'You can disable the "To:" and "Cc:" footers in mail if users prefer smaller
+messages.' => '',
   'MySQL %s Mode Not Set' => 'MySQL %s Modu Ayarlanmadı',
+  'If you are using Apache, your server may be configured with "SetInputFilter DEFLATE". This directive destructively mangles requests and emits them with "Content-Length" and "Content-Encoding" headers that no longer match the data in the request body.' => '',
   'Options for platform developers, including debugging.' => 'Hata ayıklama dahil olmak üzere platform geliştiricileri için seçenekler.',
   'A component of the configured PATH can not be used by the webserver: %s' => 'Yapılandırılmış PATH\'nin bir bileşeni web sunucusu tarafından kullanılamaz: %s',
   'Allow a single mailbox to be used for all replies.' => 'Tüm yanıtlar için tek bir posta kutusunun kullanılmasına izin verin.',
@@ -1096,29 +1317,26 @@ Bu riski azaltmak için bir CDN veya alternatif dosya etki alanı yapılandırma
   'Databases' => 'Veritabanları',
   'Basic Example' => 'Temel Örnek',
   '%s In / %s Out' => '%s Açık / %s Kapalı',
+  'Adapter class to use to transmit mail to the MTA. The default uses
+PHPMailer, which will invoke "mail". This is appropriate if mail actually
+works on your host, but if you haven\'t configured mail it may not be so great.
+A number of other mailers are available (e.g., SES, SendGrid, SMTP, Sendmail,
+custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => '',
+  'This option allows you to stop this service from sending data to most external
+services: it will disable email, SMS, repository mirroring, remote builds,
+Doorkeeper writes, and webhooks.
+
+This option is intended to allow an instance to be exported, copied, imported,
+and run in a test environment without impacting users. For example, if you are
+migrating to new hardware, you could perform a test migration first with this
+flag set, make sure things work, and then do a production cutover later with
+higher confidence and less disruption.
+
+Without making use of this flag to silence the temporary test environment,
+users would receive duplicate email during the time the test instance and old
+production instance were both in operation.' => '',
   'Whitelist Specific Addresses' => 'Beyaz Listeye Özgü Adresler',
   'Other Version Information' => 'Diğer Sürüm Bilgisi',
-  'The base URI for this install is not configured, and major features will not work properly until you configure it.
-
-You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
-
-Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
-
-Based on this request, it appears that the correct setting is:
-
-%s
-
-To configure the base URI, run the command shown below.' => 'Bu yükleme için temel URI yapılandırılmamış ve ana özellikler siz yapılandırıncaya kadar düzgün çalışmayacak.
-
-Temel URI\'yi bu sunucuya erişmek için kullanacağınız URI\'ye, örneğin "http://devtools.example.com/" olarak ayarlamalısınız.
-
-80 (http) veya 443 (https) dışında bir bağlantı noktası kullanıyorsanız, protokolü (http veya https), etki alanı adını ve bağlantı noktası numarasını ekleyin.
-
-Bu isteğe bağlı olarak, doğru ayarın aşağıdaki gibi olduğu görülmektedir:
-
-%s
-
-Temel URI\'yi yapılandırmak için, aşağıda gösterilen komutu çalıştırın.',
   'The mapping from VCS users to %s users has changed and must be rebuilt.' => 'VCS kullanıcılarından %s kullanıcılarına yapılan eşleme değişti ve yeniden oluşturulması gerekiyor.',
   'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Yetkilendirme yapılandırmasının kilidi şu anda açık. Yetkilendirme ayarını bitirdikten sonra kilitlemelisiniz.',
   'Use `%s` instead of this option.' => 'Bu seçenek yerine `%s` kullanın.',
@@ -1171,6 +1389,10 @@ Bu seçeneği %s dosyanızdaki %s bölümünde devre dışı bırakmalısınız:
   'No Auth Providers' => 'Kimlik Doğrulama Sağlayıcısı Yok',
   'Missing Required Extensions' => 'Eksik Gerekli Uzantılar',
   'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.' => 'Bu seçenek "Yetkilendirme" uygulamasına taşındı. Eski yapılandırmanız hala yürürlükte, ancak şimdi yapılandırma yerine "Yetkilendirme" de depolanıyor. Bundan sonra, kimlik doğrulamasını web arayüzünden yönetebilirsiniz.',
+  'Provide a list of notification servers to enable real-time notifications.
+
+For help setting up notification servers, see **[[ %s | %s ]]** in the
+documentation.' => '',
   'PHP is currently configured to honor requests from any MySQL server it connects to for the content of any local file.
 
 This capability supports MySQL "LOAD DATA LOCAL INFILE" queries, but allows a malicious MySQL server read access to the local disk: the server can ask the client to send the content of any local file, and the client will comply.
@@ -1217,6 +1439,9 @@ Disable this setting to continue.' => 'Sunucunuz, bu yazılımın erişim gerekt
 Devam etmek için bu ayarı devre dışı bırakın.',
   'Limit page execution time to debug hangs.' => 'Askıda hata ayıklamak için sayfa yürütme süresini sınırlayın.',
   'Base URI Not Configured' => 'Temel URI Yapılandırılmadı',
+  'Cannot identify the version of the %s repository because the webserver does not trust it (more info on Task %s).
+Try this system resolution:
+sudo git config --system --add safe.directory %s' => '',
   'Always Activate DarkConsole' => 'DarkConsole\'i Her Zaman Etkinleştir',
   'This request included an invalid "Host" header, with value "%s". Host headers must contain a dot ("."), like "example.com". This is required for some browsers to be able to set cookies.
 
@@ -1238,6 +1463,9 @@ Bu aynı zamanda web sunucunuzun (veya yük dengeleyici gibi başka bir ağ ayg�
   'Sets the default color scheme.' => 'Varsayılan renk düzenini ayarlar.',
   'Clustering Introduction' => 'Kümelenmeye Giriş',
   'By default, this software includes some flavor text in the UI, like a prompt to "Weigh In" rather than "Add Comment" in Maniphest. If you\'d prefer more traditional UI strings like "Add Comment", you can set this flag to disable most of the extra flavor.' => 'Varsayılan olarak, bu yazılım, Maniphest\'te "Yorum Ekle" yerine "Tartım" istemi gibi kullanıcı arayüzünde bazı lezzet metinleri içerir. "Yorum Ekle" gibi daha geleneksel kullanıcı arayüzü dizelerini tercih ediyorsanız, bu bayrağı ekstra lezzetin çoğunu devre dışı bırakacak şekilde ayarlayabilirsiniz.',
+  'This software sent itself a test request and expected to get a bare JSON response back. It received a JSON response, but the response had extra whitespace at the beginning or end.
+
+This usually means you have edited a file and left whitespace characters before the opening %s tag, or after a closing %s tag. Remove any leading whitespace, and prefer to omit closing tags.' => '',
   'MySQL on this machine' => 'Bu makinede MySQL',
   'No such configuration key \'%s\'! Use `%s` to list all keys.' => 'Böyle bir yapılandırma anahtarı \'%s\' yok! Tüm tuşları listelemek için `%s` tuşunu kullanın.',
   'You can respond to various application events by installing listeners, which will receive callbacks when interesting things occur. Specify a list of classes which extend PhabricatorEventListener here.' => 'İlginç şeyler olduğunda geri çağrı alacak dinleyicileri yükleyerek çeşitli uygulama olaylarına yanıt verebilirsiniz. Burada PhabricatorEventListener\'ı genişleten sınıfların bir listesini belirtin.',
@@ -1270,8 +1498,10 @@ Bu kelimelerin dizine eklenmesine izin vermek için bu ayarı 3 olarak değişti
 Minimum kelime uzunluğunu 3\'e düşürmek için bunu %s dosyanıza ekleyin (%s bölümünde) ve sonra %s yeniden başlatın:
 
 %s',
+  '%s\'s home page' => '%s\'in ana sayfası',
   'Show installed extensions and modules.' => 'Yüklü uzantıları ve birimleri göster.',
   'Opcode Cache' => 'Opcode Önbelleği',
+  'Specify a value to set the configuration key "%s" to, or use "--stdin" to read a value from stdin.' => '',
   'ID of the SSH key used to authenticate the request.' => 'İsteğin kimliğini doğrulamak için kullanılan SSH anahtarının kimliği.',
   'You can usually install a PHP extension using %s, %s, or %s. A common package name is %s. Try commands like these:' => 'Genellikle %s, %s veya %s kullanarak bir PHP eklentisi yükleyebilirsiniz. Yaygın bir paket adı %s adıdır. Şu gibi komutları deneyin:',
   'US East (EDT)' => 'ABD Doğu (EDT)',
@@ -1283,6 +1513,16 @@ Minimum kelime uzunluğunu 3\'e düşürmek için bunu %s dosyanıza ekleyin (%s
   'This setup issue has been resolved. ' => 'Bu kurulum sorunu çözüldü.',
   'Additional configuration options to hide.' => 'Gizlenecek ek yapılandırma seçenekleri.',
   'The logged-in username, if one is logged in.' => 'Giriş yapılmışsa, giriş yapmış kullanıcı adı.',
+  'Deprecated Code' => 'Kullanımdan Kaldırılan Kod',
+  'PHP date functions will emit a warning if they are called when no default
+server timezone is configured.
+
+Usually, you configure a default timezone in `php.ini` by setting the
+configuration value `date.timezone`.
+
+If you prefer, you can configure a default timezone here instead. To configure
+a default timezone, select a timezone from the
+[[ %s | PHP List of Supported Timezones ]].' => '',
   'No REMOTE_ADDR available' => 'REMOTE_ADDR yok',
   'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.' => 'Amazon S3\'teki dosya depolama alanı kısmen yapılandırıldı, ancak gerekli bazı ayarlar eksik. S3, yapılandırmayı tamamlayana kadar dosyaları depolamak için kullanılamaz. S3\'ü tamamen yapılandırın veya kısmi yapılandırmayı kaldırın.',
   'The logged-in user PHID, if one is logged in.' => 'Oturum açmışsa, oturum açan kullanıcı PHID\'si.',
@@ -1292,9 +1532,29 @@ If you provide an instance identifier here (normally by injecting it with a `%s`
 
 Burada bir örnek tanımlayıcı sağlarsanız (normalde bunu `%s` ile enjekte ederek), sunucu bunu alt işlemlere geçirir ve `%s` çevresel değişkenindeki kancaları işler.',
   'Version Information' => 'Sürüm Bilgisi',
+  'The base URI for this install is not configured, and major features will not work properly until you configure it.
+
+You should set the base URI to the URI you will use to access this server, like "https://devtools.example.com/".
+
+Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
+
+Based on this request, it appears that the correct setting is:
+
+%s
+
+To configure the base URI, run the command shown below.' => 'Bu yükleme için temel URI yapılandırılmamış ve ana özellikler siz yapılandırıncaya kadar düzgün çalışmayacak.
+
+Temel URI\'yi bu sunucuya erişmek için kullanacağınız URI\'ye, örneğin "http://devtools.example.com/" olarak ayarlamalısınız.
+
+80 (http) veya 443 (https) dışında bir bağlantı noktası kullanıyorsanız, protokolü (http veya https), etki alanı adını ve bağlantı noktası numarasını ekleyin.
+
+Bu isteğe bağlı olarak, doğru ayarın aşağıdaki gibi olduğu görülmektedir:
+
+%s
+
+Temel URI\'yi yapılandırmak için, aşağıda gösterilen komutu çalıştırın.',
   'HTTP Path Rewriting Incorrect' => 'HTTP Yolu Yeniden Yazma Yanlış',
   'Surplus' => 'Fazlalık',
-  'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Yapılandırmanızda Imagemagick\'i etkinleştirdiniz, ancak \'%s\' ikili dosyası web sunucusunun %s değil. Imagemagick\'i devre dışı bırakın veya web sunucusu için kullanılabilir hale getirin.',
   'Instance identifier for multi-tenant clusters.' => 'Çok kiracılı kümeler için örnek tanıtıcısı.',
   'Upgrade MySQL Schema' => 'MySQL Şemasını Yükselt',
   'Unignore Setup Issue' => 'Kurulum Sorunu Yoksaymasını Çıkar',
@@ -1304,15 +1564,29 @@ Burada bir örnek tanımlayıcı sağlarsanız (normalde bunu `%s` ile enjekte e
   'Delete a local configuration value.' => 'Yerel bir yapılandırma değerini silin.',
   'These paths get appended to your %s environment variable.' => 'Bu yollar %s ortam değişkeninize eklenir.',
   'Epoch timestamp.' => 'Dönem zaman damgası.',
+  'Option "%s" is dangerously long for a database prefix in MySQL/MariaDB. The current value is %d characters long. It should be less than %d to be safe for future changes.' => '',
   'Blindigo' => 'Blindigo',
   'Expected Column Type' => 'Beklenen Sütun Türü',
   'Enable developer mode' => 'Geliştirici modunu etkinleştir',
+  '%s, occurrences: %s' => '%s, oluşum: %s',
   'Woe! This request had its journey cut short by unexpected circumstances (%s).' => 'Vah! Bu talebin yolculuğu beklenmedik koşullarda kısaldı (%s).',
   'Customizes retention policies for garbage collectors.' => 'Çöp toplayıcılar için saklama politikalarını özelleştirir.',
   'This schema can use a better column type.' => 'Bu şema daha iyi bir sütun türü kullanabilir.',
   'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => '\'%s\' olmadan, bu yazılım birden fazla uygulamada fark üretemez veya oluşturamaz.',
   'The request date.' => 'İstek tarihi.',
   'Reply handlers can no longer be overridden with configuration.' => 'Yanıt işleyicileri artık yapılandırmayla geçersiz kılınamaz.',
+  'There is some deprecated code found in the %s code-base.
+
+This isn\'t a problem yet, but it means that %s might stop working if you upgrade PHP version.
+
+This page records a sample of the cases since last server restart. 
+
+To solve this issue, either:
+
+- Visit %s, file bug report with the information below, or
+- Ignore this issue using the `Ignore` button below.
+
+' => '',
   'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => 'Varsayılan biçimin gelecekte değişebileceğini unutmayın; bu nedenle günlük biçimine güveniyorsanız, açıkça belirtin.',
   'Send as %s' => '%s olarak gönder',
   'Setup Error' => 'Kurulum Hatası',
@@ -1327,10 +1601,10 @@ If this directory exists, make it readable to the webserver. You can also edit t
 %s
 Bu dizin varsa, web sunucusu tarafından okunabilir hale getirin. Başka bir dizini kullanmak için aşağıdaki yapılandırmayı da düzenleyebilirsiniz.',
   'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => 'Sözdizimi vurgulama koduna bir açılır liste görüntülediğimiz yerlerde, bu liste tanımlanır.',
+  'This change supports situations where users are incorrectly associated with commits because the software makes a bad guess about how the VCS string maps to a user account. This also helps with situations where existing repositories are imported without having created accounts for all the committers to that repository. Until you rebuild these repository identities, you are likely to encounter problems with features which rely on the existence of these identities.' => '',
   'Unignore' => 'Yoksaymayı geri al',
   'Text values that match this regex and are also object names will not be linked.' => 'Bu normal ifadeyle eşleşen ve aynı zamanda nesne adları olan metin değerleri bağlanmayacaktır.',
   '%s Held / %sms' => '%s Tutuldu / %sms',
-  'Write access log here.' => 'Erişim günlüğünü buraya yazın.',
 );
   }
 

@@ -48,7 +48,6 @@ final class PhabricatorCoreSmn
   'History' => 'Historjá',
   'Monday' => 'Vuossargâ',
   'project' => 'proojeekt',
-  'Edit Address' => 'Mute čujottâs',
   'OK' => 'OK',
   'User' => 'Kevttee',
   'Download' => 'Luođii',

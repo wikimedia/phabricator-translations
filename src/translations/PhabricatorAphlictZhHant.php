@@ -33,6 +33,7 @@ final class PhabricatorAphlictZhHant
   'Show the status of the notification server.' => '顯示通知伺服器的狀態。',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => '設置檔案未指定任何伺服器。若沒有接聽任何埠號，此服務無法與外界互動。您必須指定至少一台「%s」伺服器與至少一台「%s」伺服器。',
   'Start the notifications server.' => '啟動通知伺服器。',
+  'Aphlict (%s) is running.' => 'Aphlict（%s）正運作中。',
   'User to notify.' => '要通知的使用者。',
   'Stop, then start the notification server.' => '停止，然後啟動通知伺服器。',
   'Failed to read configuration file. %s' => '讀取設置檔案失敗。%s',
@@ -52,7 +53,6 @@ final class PhabricatorAphlictZhHant
   'Aphlict Server started.' => 'Aphlict 伺服器已啟動。',
   'Stopping Aphlict Server (%s)...' => '正在停止 Aphlict 伺服器（%s）…',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => '未指定的 PID 檔案建立目錄「%s」失敗。您應手動建立目錄，或挑選不同的 PID 檔案位置。%s',
-  'Aphlict (%s) is running.' => 'Aphlict（%s）正運作中。',
 );
   }
 

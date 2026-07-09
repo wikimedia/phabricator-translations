@@ -27,6 +27,7 @@ final class PhabricatorAuthLb
   'SSH Key %d' => 'SSH-Schlëssel %d',
   'Username or Email' => 'Benotzernumm oder E-Mail',
   'Amazon' => 'Amazon',
+  'Installed' => 'Installéiert',
   'Email Sent' => 'E-Mail geschéckt',
   'SSH Key %d: %s' => 'SSH-Schlëssel %d: %s',
   'SMS' => 'SMS',

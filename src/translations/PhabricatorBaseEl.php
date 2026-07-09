@@ -16,7 +16,6 @@ final class PhabricatorBaseEl
   'Core Applications' => 'Εφαρμογές πυρήνα',
   'No application!' => 'Χωρίς εφαρμογή!',
   '%s Application' => '%s εφαρμογή',
-  'Developer Tools' => 'Εργαλεία προγραμματιστή',
   'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => 'Το αίτημα περιλαμβάνει την περιορισμένη παράμετρο "%s", αλλά αυτός ο ελεγκτής ("%s") δεν το τοποθετεί σε άσπρη λίστα. Η απόρριψη εξυπηρέτησης ίσως είναι μέρος μιας επίθεσης ανακατεύθυνσης.',
   'Unknown capability \'%s\'!' => 'Άγνωστη ικανότητα \'%s\'!',
 );

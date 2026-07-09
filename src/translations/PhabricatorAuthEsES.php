@@ -38,7 +38,6 @@ final class PhabricatorAuthEsES
   'Terminate all login sessions.' => 'Terminar todas las sesiones de inicio de sesión.',
   'No Account Linked' => 'No hay cuenta vinculada',
   'Public SSH Key' => 'Clave SSH pública',
-  'Username and password are required!' => '¡Se requieren nombre de usuario y contraseña!',
   'Disqus' => 'Disqus',
   '%s updated the "%s" value.' => '%s actualizó el valor «%s».',
   'All Keys' => 'Todas las claves',

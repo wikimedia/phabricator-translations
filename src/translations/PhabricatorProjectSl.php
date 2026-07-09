@@ -24,7 +24,6 @@ final class PhabricatorProjectSl
   'Parent Projects' => 'Nadrejeni projekti',
   'Show Only Archived Projects' => 'Prikaži samo arhivirane projekte',
   'Blue Sky' => 'Modro nebo',
-  'Added Projects' => 'Dodani projekti',
   'Organization' => 'Organizacija',
   'Member' => 'Član',
   'Ancestor Projects' => 'Predniški projekti',
@@ -43,7 +42,6 @@ final class PhabricatorProjectSl
   'Search constraint "minDepth" must be no larger than search constraint "maxDepth".' => 'Omejitev iskanja »minDepth« ne sme biti večja od omejitve iskanja »maxDepth«.',
   '(Default)' => '(Privzeto)',
   'No Background' => 'Brez ozadja',
-  'Removed Projects' => 'Odstranjeni projekti',
 );
   }
 

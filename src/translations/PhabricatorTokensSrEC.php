@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorCelerityId
+final class PhabricatorTokensSrEC
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'id';
+    return 'sr_EC';
   }
 
   protected function getTranslations() {
     return array(
-  'Found %d packages.' => 'Ditemukan %d paket.',
+  'Award Token' => 'Додели токен',
 );
   }
 

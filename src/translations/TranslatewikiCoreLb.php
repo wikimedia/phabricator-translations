@@ -22,6 +22,7 @@ final class TranslatewikiCoreLb
   'Finnish' => 'Finnesch',
   'Greek' => 'Griichesch',
   'Serbian (Cyrillic script)' => 'Serbesch (kyrillesch Schrëft)',
+  'Original:' => 'Original:',
   'Russian' => 'Russesch',
   'Norwegian' => 'Norwegesch',
   'Hungarian' => 'Ungaresch',

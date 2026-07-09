@@ -14,7 +14,6 @@ final class PhabricatorBaseAst
   'Can Use Application' => 'Puede usar aplicación',
   'No application!' => 'Nun esiste l\'aplicación',
   '%s Application' => 'Aplicación %s',
-  'Developer Tools' => 'Ferramientes pa desendolcadores',
 );
   }
 

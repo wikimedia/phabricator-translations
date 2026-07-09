@@ -10,6 +10,10 @@ final class PhabricatorRepositoryFrFR
   protected function getTranslations() {
     return array(
   'Repository "%s" is a non-hosted Subversion repository, which does not require a local working copy to be pulled.' => 'Le dépôt %s est un dépôt Subversion non hébergé, qui ne nécessite pas d’extraire de copie de travail locale.',
+  'Importing %s commits at low priority ("PRIORITY_IMPORT") because many commits were discovered at once.' => array(
+    'Importation d’une validation avec une faible priorité (« PRIORITY_IMPORT ») car de nombreuses validations ont été découvertes en même temps.',
+    'Importation de %s validations avec une faible priorité (« PRIORITY_IMPORT ») car de nombreuses validations ont été découvertes en même temps.',
+  ),
   'No importing commits found.' => 'Aucune validation d’importation trouvée.',
   'The selected repository short name is already in use by another repository. Choose a unique short name.' => 'Le nom court sélectionné pour le dépôt est déjà utilisé par un autre dépôt. Choisissez un nom court unique.',
   'Waiting to acquire write lock for "%s"...' => 'Attente d’acquisition du verrou d’écriture pour « %s »...',
@@ -406,6 +410,10 @@ Valeur fournie : « %s »',
   'Put repository "%s" into maintenance mode.' => 'Mettre le dépôt « %s » en mode de maintenance.',
   'This repository does not support Git LFS, so Git LFS URIs can not be generated for it.' => 'Ce dépôt ne prend pas en charge Git LFS, donc aucune URI de Git LFS ne peut pas être générée pour lui.',
   'Parsing "%s"...' => 'Analyse de « %s »...',
+  'Discovered more than %s commits in an empty repository, marking repository as importing.' => array(
+    'Découverte de plus d’une validation dans un dépôt vide, marquage du dépôt comme en importation.',
+    'Découverte de plus de %s validations dans un dépôt vide, marquage du dépôt comme en importation.',
+  ),
   'Pull Event %d' => 'Événement d\'extraction %d',
   'Accept the possibility of permanent data loss?' => 'Accepter la possibilité d’une perte permanente de données ?',
   'Expected to find a Git repository at "%s", but there is a non-repository directory (with other stuff in it) there. Move or remove this directory. A daemon will construct the working copy for you.' => 'Un dépôt Git aurait dû se trouver à « %s » mais il y a un répertoire non lié à un dépôt (avec d’autres éléments dedans). Déplacez ou supprimez ce répertoire. Un service en arrière-plan construira la copie de travail pour vous.',
@@ -482,10 +490,6 @@ Valeur fournie : « %s »',
   'The associated repository PHID.' => 'Le PHID du dépôt associé.',
   'Specify one or more repositories to discover.' => 'Spécifiez un ou plusieurs dépôts à découvrir.',
   'True if the commit is not the ancestor of any tag, branch, or ref.' => 'Vrai si la validation n’est l’ancêtre d’aucune balise, branche ou référence.',
-  'Importing %s commit(s) at low priority ("PRIORITY_IMPORT") because many commits were discovered at once.' => array(
-    'Importation d’une validation avec une faible priorité (« PRIORITY_IMPORT ») car de nombreuses validations ont été découvertes en même temps.',
-    'Importation de %s validations avec une faible priorité (« PRIORITY_IMPORT ») car de nombreuses validations ont été découvertes en même temps.',
-  ),
   'Specify either "--start" or "--stop", but not both.' => 'Spécifiez « --start » (démarrer) ou « --stop » (arrêter), mais pas les deux.',
   'Host Wait (us)' => 'Attente de l’hôte (µs)',
   'The name "%s" is not a valid repository short name. Repository short names may not contain only uppercase letters.' => 'Le nom « %s » n’est pas un nom abrégé de dépôt valide. Les noms abrégés de dépôt ne doivent pas contenir uniquement des lettres majuscules.',
@@ -597,10 +601,6 @@ Valeur fournie : « %s »',
     ),
   ),
   'Lock repositories and begin maintenance?' => 'Verrouiller les dépôts et commencer la maintenance ?',
-  'Discovered more than %s commit(s) in an empty repository, marking repository as importing.' => array(
-    'Découverte de plus d’une validation dans un dépôt vide, marquage du dépôt comme en importation.',
-    'Découverte de plus de %s validations dans un dépôt vide, marquage du dépôt comme en importation.',
-  ),
   'Must be used with __%s__, this will exclude commits which are earlier than __date__.
 Valid examples:
   \'today\', \'today 2pm\', \'-1 hour\', \'-2 hours\', \'-24 hours\',

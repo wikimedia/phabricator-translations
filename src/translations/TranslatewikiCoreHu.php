@@ -10,7 +10,6 @@ final class TranslatewikiCoreHu
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Szolgáltat egy könyvtár elérési utat a fordítások exportálásához.',
-  'Provide a locale code with "--locale".' => 'Szolgáltat egy helyi kódot a "--locale" kapcsolóval.',
   'Extracting library strings...' => 'A könyvtárak kibontása...',
   'Locale code for the generated source.' => 'Helyi kód a létrehozott forráshoz.',
   'Provide a classname with "--class".' => 'Szolgáltat egy osztálynevet a "--class" kapcsolóval.',

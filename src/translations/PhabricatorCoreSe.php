@@ -42,7 +42,6 @@ final class PhabricatorCoreSe
   'Language' => 'Giella',
   'Translations' => 'Jorgalusat',
   'Password' => 'Beassansátni',
-  'Edit Address' => 'Rievdat čujuhusa',
   'User' => 'Geavaheaddji',
   'Download' => 'Viečča',
   'View More...' => 'Čájet eambbo...',

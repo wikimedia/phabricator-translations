@@ -29,7 +29,6 @@ final class PhabricatorTokensPtBR
   '%s Token' => '%s Token',
   'Award "%s" Token' => 'Prêmio "%s" token',
   'No such object "%s"!' => 'Nenhum objeto desse tipo "%s"!',
-  'Give or change a token.' => 'Dar ou alterar um token.',
   'Heartbreak' => 'Desgosto',
   'Cup of Joe' => 'Taça de Joe',
   'Orange Medal' => 'Medalha laranja',

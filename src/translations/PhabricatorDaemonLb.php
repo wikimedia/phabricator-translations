@@ -1,15 +1,16 @@
 <?php
 
-final class PhabricatorBaseFi
+final class PhabricatorDaemonLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'fi';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'Developer Tools' => 'Kehittäjän työkalut',
+  'Lock' => 'Spären',
+  '%s s' => '%s s',
 );
   }
 

@@ -11,10 +11,8 @@ final class TranslatewikiCorePl
     return array(
   'Provide the path to a library to export translations from.' => 'Podaj ścieżkę do biblioteki, z której będą eksportowane tłumaczenia.',
   'Swedish' => 'Szwedzki',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Nie można wyodrębnić łańcucha z nierozpoznanym wzorcem "%%", "%s": %s.',
   'NONE' => 'BRAK',
   'Slovenian' => 'Słoweński',
-  'Provide a locale code with "--locale".' => 'Podaj kod lokalizacji przy użyciu "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorowanie łańcucha "%s"; nieobecny w pliku źródłowym tłumaczeń.',
   'Provide the path to exactly one library to export translations from.' => 'Podaj ścieżkę do dokładnie jednej biblioteki, z której będą eksportowane tłumaczenia.',
   'Catalan' => 'Kataloński',

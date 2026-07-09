@@ -10,9 +10,7 @@ final class TranslatewikiCoreZhHant
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => '提供用來匯出翻譯的來源庫路徑。',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => '無法提取帶有未認可「%%」模式的字串，「%s」：%s。',
   'NONE' => '無',
-  'Provide a locale code with "--locale".' => '以「--locale」來提供地區代碼。',
   'Ignoring string "%s"; not present in translation source file.' => '忽略未在翻譯來源檔案裡提供的字串「%s」。',
   'Provide the path to exactly one library to export translations from.' => '準確提供一個用來匯出翻譯的來源庫路徑。',
   'Provide a project name to export strings under with "--as".' => '以「--as」提供專案名來匯出字串。',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreZhHant
   'Provide a classname with "--class".' => '以「--class」來提供類別名稱。',
   'Read %s string(s).' => '讀取%s串字串。',
   'Class name to generate.' => '要產生的類別名稱。',
-  'Frequency Data' => '頻率資料',
   'Provide a JSON source file with "--source".' => '以「--source」來提供 JSON 來源。',
   'Generate a Phabricator translation classfile.' => '產生 Phabricator 翻譯類別檔案。',
   'JSON source file containing translation strings.' => 'JSON 來源檔案包含翻譯字串。',

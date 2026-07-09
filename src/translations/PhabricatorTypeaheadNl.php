@@ -35,12 +35,12 @@ Deze documentatie gebruikt de interne namen om duidelijk te maken waar tokens be
 Wanneer deze zoekopdracht daadwerkelijk in het besturingselement wordt weergegeven, ziet deze er meer zo uit:
 
 %s',
-  'Invalid Parameters' => 'Ongeldige parameters',
+  'Invalid Parameters' => 'Incorrecte parameters',
   'Source Class' => 'Bronklasse',
   'Raw Query' => 'Ruwe query',
   'Token Results (%s)' => 'Tokenresultaten (%s)',
   'Configured datasource class "%s" must be a valid subclass of "%s".' => 'De geconfigureerde gegevensbronklasse "%s" moet een geldige subklasse zijn van "%s".',
-  'Token Name' => 'Tokennaam',
+  'Parameters (JSON)' => 'Parameters (JSON)',
   'Reference: Advanced Functions' => 'Referentie: Geavanceerde functies',
   'Image URI' => 'Afbeeldings-URI',
   'Select' => 'Selecteren',

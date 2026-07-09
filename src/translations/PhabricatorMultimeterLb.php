@@ -1,15 +1,18 @@
 <?php
 
-final class PhabricatorDivinerLn
+final class PhabricatorMultimeterLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'ln';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'Diviner Search' => 'Boluki ya Mosakoli',
+  '%s Event(s)' => array(
+    '%s Evenement',
+    '%s Evenementer',
+  ),
 );
   }
 

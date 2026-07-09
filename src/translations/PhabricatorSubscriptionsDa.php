@@ -16,6 +16,7 @@ final class PhabricatorSubscriptionsDa
   'Automatically Subscribed' => 'Abonnerede automatisk',
   'All %d subscribers removed by %s' => 'Alle %d abonnenter fjernet af %s',
   'Added Subscribers' => 'Tilføjede abonnenter',
+  'Unsubscribe' => 'Afmeld abonnement',
   'Removed Subscribers' => 'Fjernede abonnenter',
   'All %d subscribers added by %s' => 'Alle %d abonnenter tilføjet af %s',
   'Add me as a subscriber' => 'Tilføj mig som abonnent',

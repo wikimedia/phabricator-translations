@@ -12,6 +12,10 @@ final class PhabricatorDiffusionFrFR
   'Commit Actions' => 'Actions de validation',
   'This %s file is stored in Git Large File Storage.' => 'Ce fichier « %s » est stocké dans le Stockage de gros fichiers Git.',
   'Invalid path URI.' => 'URI de chemin non valide.',
+  'The raw text of this change is enormous (larger than %s bytes). Herald can not process it.' => array(
+    'Le texte brut de cette modification est énorme (plus de %s octet). Herald ne peut pas l\'analyser.',
+    'Le texte brut de cette modification est énorme (plus de %s octets). Herald ne peut pas l\'analyser.',
+  ),
   'No Short Name' => 'Aucun nom court',
   'No registered command engine can build commands for this repository ("%s").' => 'Aucun moteur de commande enregistré ne peut construire de commandes pour ce dépôt (« %s »).',
   'Repositories: ...' => 'Dépôts : …',
@@ -53,19 +57,6 @@ final class PhabricatorDiffusionFrFR
   'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Ce dépôt ne peut pas être protégé contre d\'énormes modifications parce que ce serveur ne contrôle pas ce que les utilisateurs sont autorisés à y envoyer.',
   'Edit Properties' => 'Modifier les propriétés',
   'Failed to parse `%s` output in %s: %s' => 'Échec de l\'analyse de la sortie `%s` dans %s : %s',
-  'Failed to reconnect to master database and release held write lock ("%s") on device "%s" for repository "%s" after trying for %s seconds(s). This repository will be frozen.' => array(
-    
-    array(
-      
-      array(
-        
-        array(
-          'Échec de reconnexion à la base de données maître et de relâchement du verrou d’écriture (« %s ») détenu sur l’appareil « %s » pour le dépôt « %s », après avoir essayé pendant %s seconde. Ce dépôt sera gelé.',
-          'Échec de reconnexion à la base de données maître et de relâchement du verrou d’écriture (« %s ») détenu sur l’appareil « %s » pour le dépôt « %s », après avoir essayé pendant %s secondes. Ce dépôt sera gelé.',
-        ),
-      ),
-    ),
-  ),
   'Tag Content' => 'Contenu de la balise',
   'Pushed on %s' => 'Poussé sur %s',
   'Unknown request type.' => 'Type de requête inconnu.',
@@ -131,20 +122,6 @@ Les règles de crochets peuvent bloquer des modifications et envoyer un courriel
   'Allow or prevent dangerous changes.' => 'Autoriser ou prévenir les modifications dangereuses.',
   'All Identities' => 'Toutes les identités',
   'Repository "%s" is a cluster repository, but the current host is not a cluster device (it has no device ID), so the repository will not be updated on this host.' => 'Le dépôt « %s » est un dépôt en grappe, mais l’hôte actuel n’est pas un appareil de grappe (il n’a aucun identifiant d’appareil), donc le dépôt ne sera pas mis à jour sur cet hôte.',
-  'Provide the URI of a Git repository. It should usually look like one of these examples:
-
-| Example Git URIs
-| -----------------------
-| `git@github.com:example/example.git`
-| `ssh://user@host.com/git/example.git`
-| `https://example.com/repository.git`
-**For Gerrit URIs below: Please do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead - thanks!**' => 'Fournir l\'URI d\'un dépôt Git. Ressemble habituellement à l\'un de ces exemples :
-
-| Exemple d\'URI Git
-| -----------------------
-| `git@github.com:example/example.git`
-| `ssh://user@host.com/git/example.git`
-| `https://example.com/repository.git`',
   'Your VCS password has been updated.' => 'Votre mot de passe du système de contrôle des versions a été mis à jour.',
   'Change the repository short name.' => 'Modifier le libellé court du dépôt.',
   'Change the repository description.' => 'Modifier la description du dépôt.',
@@ -183,7 +160,6 @@ Les règles de crochets peuvent bloquer des modifications et envoyer un courriel
   'This repository will become a new hosted repository. It will begin serving read and write traffic.' => 'Ce dépôt deviendra un nouveau dépôt hébergé. Il commencera à traiter du trafic en lecture et en écriture.',
   'Allow HTTP Basic Auth' => 'Permettre l’authentification basique HTTP',
   'If you allow dangerous changes, it will be possible to delete branches and %s push this repository. These operations can alter a repository in a way that is difficult to recover from.' => 'Si vous autoriser des modifications dangereuses, il sera possible de supprimer des branches et que %s pousse ce dépôt. Ces opérations peuvent endommager un dépôt d’une manière difficilement récupérable.',
-  'Enable Self-Accept' => 'Activer l’auto-acceptation',
   'Repository "%s" is on cluster service "%s", but the binding between that service and this device ("%s") is disabled, so it can not be updated on this host.' => 'Le dépôt « %s » est sur le service de grappe « %s », mais la liaison entre ce service et cet appareil (« %s ») est désactivée, donc il ne peut pas être mis à jour sur cet hôte.',
   'This push was rejected by Herald push rule %s.
     Change: %s
@@ -381,6 +357,7 @@ Les règles de validation peuvent envoyer des courriels, marquer des validations
   'No such repository exists.' => 'Il n’existe pas de tel dépôt.',
   'This repository does not have any commits yet.' => 'Ce dépôt n’a pas encore de validation.',
   'Recent Open Revisions' => 'Versions ouvertes récentes',
+  'tag (git)' => 'balise (Git)',
   'Failed to load changes: %s' => 'Échec au chargement des modifications : %s',
   'Commit hook events depend on repository state which is only available at push time, and can not be run in test mode.' => 'Les événements de l’accroche de validation dépendent de l’état du dépôt qui n’est disponible qu’au moment de la poussée, et ne peut pas être lancé en mode test.',
   'Read information about repositories.' => 'Lire les informations sur les dépôts.',
@@ -393,7 +370,6 @@ Les règles de validation peuvent envoyer des courriels, marquer des validations
   'No repository exists with PHID "%s".' => 'Aucun dépôt n’existe avec le PHID « %s ».',
   'No Ref Support' => 'Aucune prise en charge de ref',
   'This is not a cluster repository.' => 'Ceci n’est pas un dépôt en grappe.',
-  'Copy of Repository URI failed.' => 'Une copie de l\'IRR du référentiel a échoué.',
   'To learn more about how repositories are updated, read %s in the documentation.' => 'Pour en savoir plus sur la manière dont les dépôts sont mis à jour, lisez %s dans la documentation.',
   'Repository "%s" does not have a working copy on this device yet, so it can not be synchronized. Wait for the daemons to construct one or run `bin/repository update %s` on this host ("%s") to build it explicitly.' => 'Le dépôt « %s » n’a pas encore une copie de travail sur cet appareil donc il ne peut pas être synchronisé. Attendez que les services en arrière-plan en construisent une ou lancez `bin/repository update %s` sur cet hôte (« %s ») pour la construire explicitement.',
   'Commit Detail' => 'Détail de la validation',
@@ -470,10 +446,6 @@ Les règles de validation peuvent envoyer des courriels, marquer des validations
   'Commit Hook: Commit Content' => 'Attache de validation: contenu de la validation',
   'To search for commits which are ancestors of particular refs, you must constrain the search to exactly one repository.' => 'Pour rechercher les validations qui sont les ancêtres de références particulières, vous devez contraindre la recherche sur exactement un seul dépôt.',
   'Found Binary %s' => 'Binaire %s trouvé',
-  'The raw text of this change is enormous (larger than %s byte(s)). Herald can not process it.' => array(
-    'Le texte brut de cette modification est énorme (plus de %s octet). Herald ne peut pas l\'analyser.',
-    'Le texte brut de cette modification est énorme (plus de %s octets). Herald ne peut pas l\'analyser.',
-  ),
   'This repository ("%s") is not a Mercurial repository. Use "%s" to interact with this repository.' => 'Ce dépôt (« %s ») n\'est pas un dépôt Mercurial. Utiliser « %s » pour interagir avec ce dépôt.',
   'Unexpected number of output lines from "git cat-file" when processing commit ("%s").' => 'Nombre inattendu de lignes générées par le « git cat-file » lors du traitement de la validation (« %s »).',
   'Failed to parse remote branch \'%s\'!' => 'Echec dans l\'analyse de la branche distante \'%s\'!',
@@ -548,6 +520,7 @@ Les règles de validation peuvent envoyer des courriels, marquer des validations
   'Commit Fields' => 'Champs de validation',
   'Allowed' => 'Autorisé',
   'Import Only' => 'Importation seulement',
+  'The raw text of this change took too long to process (longer than %s seconds). Herald can not process it.' => 'Le texte brut de cette modification a pris trop de temps à être traité (plus de %s secondes). Herald ne peut pas le traiter.',
   'Deactivate Repository' => 'Désactiver le dépôt',
   'Compare Against' => 'Comparer avec',
   'Commit No Longer Exists' => 'La validation n\'existe plus',
@@ -770,7 +743,6 @@ Exception de contenu: %s',
   'Both references identify the same commit. You can not compare a commit against itself.' => 'Les deux références identifient la même validation. Vous ne pouvez pas comparer une validation avec elle-même.',
   'New credential PHID, or null.' => 'Nouveau PHID de certificat, ou nul.',
   'Publish coverage information for a repository.' => 'Publier les informations de couverture pour un dépôt.',
-  'Allows the author of a commit to be an auditor and accept their own commits. Note that this behavior is different from the behavior implied by the name of the option: long ago, it did something else.' => 'Permet à l’auteur d’une validation d’en être un auditeur et d’accepter ses propres validations. Notez que ce comportement est différent de celui impliqué par le nom de l’option : il y a longtemps, cela faisait quelque chose d’autre.',
   'New repository copy time limit.' => 'Nouvelle limite du temps de copie du dépôt.',
   'Change the repository URI.' => 'Modifier l\'URI du dépôt.',
   'Empty Directory' => 'Répertoire vide',
@@ -812,8 +784,6 @@ Modifier la configuration du dépôt avant de faire des modifications dangereuse
   'State' => 'État',
   'Integrations' => 'Intégrations',
   'No Local Working Copy' => 'Aucune copie de travail locale',
-  'Disable Self-Accept' => 'Désactiver l’auto-acceptation',
-  'Reached an unreachable place.' => 'Un emplacement inatteignable a été atteint.',
   'This repository ("%s") is not a Git repository.' => 'Ce dépôt (« %s ») n\'est pas un dépôt Git.',
   'Sync Logs' => 'Journaux synchronisés',
   'Subpath to selectively import.' => 'Sous-chemin pour importer sélectivement.',
@@ -868,6 +838,7 @@ Ce dépôt (« %s ») est configuré avec une limite de fichiers accessibles qui
   'No Owners' => 'Pas de propriétaire',
   'This commit will be returned to the author for consideration.' => 'Cette validation sera retournée à son auteur pour être reconsidérée.',
   'Commit Has Task' => 'La validation possède une tâche',
+  'This file is larger than %s bytes, and too large to display in the web UI.' => 'Ce fichier fait plus de %s octets, et il est trop grand pour être affiché dans l’IHM web.',
   'This Repository Only' => 'Uniquement ce dépôt',
   'Configure how changes are published.' => 'Configurer la manière dont les modifications sont publiées.',
   'Change the copy time limit.' => 'Modifier la limite du temps de copie.',
@@ -1085,13 +1056,11 @@ Ce dépôt ("%s") est configuré avec une valeur maximale pour la taille des fic
   'Ready to Audit' => 'Prêt pour relecture',
   'Determine what branches exist for a repository.' => 'Déterminer quelles branches existent pour un dépôt.',
   'No Storage Directory' => 'Aucun répertoire de stockage',
-  'The raw text of this change took too long to process (longer than %s second(s)). Herald can not process it.' => 'Le texte brut de cette modification a pris trop de temps à être traité (plus de %s secondes). Herald ne peut pas le traiter.',
   'The repository URI.' => 'L\'URI du dépôt.',
   'Device "%s" is already a cluster leader and does not need to be synchronized.' => 'L’appareil « %s » est déjà un leader de la grappe et n’a pas besoin d’être synchronisé.',
   'This option is most commonly used to temporarily allow a major repository maintenance operation (like a history rewrite) to occur with minimal disruption to users.' => 'Cette option est le plus souvent utilisée pour permettre temporairement de réaliser une opération majeure de maintenance du dépôt (telle qu’une réécriture de l’historique) avec le minimum de perturbation des utilisateurs.',
   'The Python 2 Standard Library' => 'La bibliothèque standard Python 2',
   'This commit was rewritten after it was published, which changed the commit hash. This old version of the commit is no longer reachable from any branch, tag or ref. The new version of this commit is %s.' => 'Cette validation a été réécrite après sa publication, ce qui a modifié le hachage de la validation. Cette ancienne version de la validation n’est plus atteignable depuis une quelconque branche, balise ou référence. La nouvelle version de cette validation est %s.',
-  'This file is larger than %s byte(s), and too large to display in the web UI.' => 'Ce fichier fait plus de %s octets, et il est trop grand pour être affiché dans l’IHM web.',
   'Get metrics (like commit count and most recent commit) for each repository.' => 'Obtient les métriques (comme le nombre de validations et la validation la plus récente) pour chaque dépôt.',
   'Set the fetched refs.' => 'Définit les références récupérées.',
   'Browse Explicitly Unassigned' => 'Afficher explicitement les non-assignés',
@@ -1187,6 +1156,20 @@ IMPORTANT : cette fonctionnalité est nouvelle, expérimentale et proposée sa
   'This repository is inactive.' => 'Ce dépôt est inactif.',
   'This page documents the commands you can use to interact with commits and audits in Diffusion.' => 'Cette page documente les commandes que vous pouvez utiliser pour interagir avec les validations et les audits sous Diffusion.',
   'Failed to load file object for Git LFS ref "%s"!' => 'Échec de chargement de l’objet fichier pour Git LFS de référence « %s » !',
+  'Provide the URI of a Git repository. It should usually look like one of these examples:
+
+| Example Git URIs
+| -----------------------
+| `git@github.com:example/example.git`
+| `ssh://user@host.com/git/example.git`
+| `https://example.com/repository.git`
+**For Gerrit URIs below: Do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead!**' => 'Fournir l\'URI d\'un dépôt Git. Ressemble habituellement à l\'un de ces exemples :
+
+| Exemple d\'URI Git
+| -----------------------
+| `git@github.com:example/example.git`
+| `ssh://user@host.com/git/example.git`
+| `https://example.com/repository.git`',
   'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normalement, les dépôts sont mis à jour automatiquement  d’après le temps écoulé depuis la dernière validation. Cela aide à réduire la charge si vous avez beaucoup de dépôts pour la plupart inactifs, ce qui est courant.',
   'Automation blueprints.' => 'Plans d’automatisation.',
   'Removed diff content' => 'Contenu du diff supprimé',
@@ -1265,7 +1248,6 @@ IMPORTANT : cette fonctionnalité est nouvelle, expérimentale et proposée sa
   'No Staging Area' => 'Pas de zone de mise en place',
   'This commit will be approved.' => 'Cette validation sera approuvée.',
   'Reverts' => 'Retours en arrière',
-  'tag (git)' => 'balise (Git)',
 );
   }
 

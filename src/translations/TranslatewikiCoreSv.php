@@ -10,9 +10,7 @@ final class TranslatewikiCoreSv
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Tillhandahåll sökvägen till ett bibliotek att exportera översättningar från.',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Kunde inte extrahera sträng med det oigenkända mönstret "%%", "%s": %s.',
   'NONE' => 'INGEN',
-  'Provide a locale code with "--locale".' => 'Tillhandahåll en språkkod med "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorerar strängen "%s"; förekommer inte i översättningens källfil.',
   'Provide the path to exactly one library to export translations from.' => 'Tillhandahåll sökvägen till exakt ett bibliotek att exportera översättningar från.',
   'Provide a project name to export strings under with "--as".' => 'Tillhandahåll ett projektnamn för att exportera strängar under med "--as".',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreSv
   'Provide a classname with "--class".' => 'Tillhandahåll ett klassnamn med "--class".',
   'Read %s string(s).' => 'Läs %s sträng(ar).',
   'Class name to generate.' => 'Klassnamn att generera.',
-  'Frequency Data' => 'Frekvensdata',
   'Provide a JSON source file with "--source".' => 'Tillhandahåll en JSON-källfil med "--source".',
   'Generate a Phabricator translation classfile.' => 'Generera en klassfil för Phabricator-översättningen.',
   'JSON source file containing translation strings.' => 'JSON-källfil som innehåller översättningssträngar.',

@@ -33,6 +33,7 @@ final class PhabricatorAphlictTr
   'Show the status of the notification server.' => 'Bildirim sunucusunun durumunu göster.',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'Yapılandırma dosyası herhangi bir sunucu belirtmiyor. Bu hizmet, herhangi bir bağlantı noktasını dinlemezse dış dünya ile etkileşime giremez. En az bir "%s" sunucusu ve en az bir "%s" sunucusu belirtmelisiniz.',
   'Start the notifications server.' => 'Bildirim sunucusunu başlatın.',
+  'Aphlict (%s) is running.' => 'Aphlict (%s) çalışıyor.',
   'User to notify.' => 'Bildirilecek kullanıcı.',
   'Stop, then start the notification server.' => 'Durdurun, ardından bildirim sunucusunu başlatın.',
   'Failed to read configuration file. %s' => 'Yapılandırma dosyası okunamadı. %s',
@@ -52,7 +53,6 @@ final class PhabricatorAphlictTr
   'Aphlict Server started.' => 'Aphlict Sunucusu başladı.',
   'Stopping Aphlict Server (%s)...' => 'Aphlict Sunucusu durduruluyor (%s)...',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => 'Belirtilen PID dosyası için "%s" dizini oluşturulamadı. Bu dizini el ile oluşturmalı veya farklı bir PID dosya konumu seçmelisiniz. %s',
-  'Aphlict (%s) is running.' => 'Aphlict (%s) çalışıyor.',
 );
   }
 

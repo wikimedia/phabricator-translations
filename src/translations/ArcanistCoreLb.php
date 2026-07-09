@@ -41,7 +41,6 @@ final class ArcanistCoreLb
   'DATA' => 'DONNÉEËN',
   'EXCEPTION' => 'AUSNAM',
   '---' => '---',
-  'Emoji (Internet)' => 'Emoji (Internet)',
   'Status: %s' => 'Status: %s',
   'SUCCESS!' => 'ERFOLLEG!',
   'Jun' => 'Jun',

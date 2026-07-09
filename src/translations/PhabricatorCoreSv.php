@@ -105,7 +105,6 @@ final class PhabricatorCoreSv
   'Session' => 'Session',
   'Save Changes' => 'Spara ändringar',
   'Log In or Register' => 'Logga in eller registrera',
-  '%s closed %s.' => '%s stängde %s.',
   'Browse Any Closed Status' => 'Bläddra alla stängda status',
   'Profile' => 'Profil',
 );

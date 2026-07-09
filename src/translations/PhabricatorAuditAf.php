@@ -14,7 +14,6 @@ final class PhabricatorAuditAf
   'Find commits with particular identifiers (usually, hashes). Supports full or partial identifiers (like "abcd12340987..." or "abcd1234") and qualified or unqualified identifiers (like "rXabcd1234" or "abcd1234").' => 'Soek verbintenisse met spesifieke identifiseerders (gewoonlik hasse). Ondersteun volledige of gedeeltelike identifiseerders (soos "abcd12340987 ..." of "abcd1234") en gekwalifiseerde of ongekwalifiseerde identifiseerders (soos "rXabcd1234" of "abcd1234").',
   '%s resigned from auditing %s.' => '%s bedank uit die ouditering van %s.',
   'Specified maximum date must come after specified minimum date.' => 'Die gespesifiseerde maksimum datum moet na die gespesifiseerde minimum datum kom.',
-  'A commit\'s projects change.' => 'A commit se projekte verander.',
   '%s added subscribers: %s.' => 'Intekenare by %s bygevoeg:%s.',
   'Query audit requests.' => 'Navrae-ouditversoeke.',
   'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => 'Spesifiseer "- alles" om alles te beïnvloed, of \'n lys met spesifieke verbindings of bewaarplekke om te beïnvloed.',

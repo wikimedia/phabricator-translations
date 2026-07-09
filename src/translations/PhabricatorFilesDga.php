@@ -9,6 +9,7 @@ final class PhabricatorFilesDga
 
   protected function getTranslations() {
     return array(
+  'View All %s Files' => 'Kaa a %s Faali zaa',
   'The file %s is not attached to the object %s.' => 'A faali %s ba e paale a boma %s.',
   'The file %s can not be detached from the object %s.' => 'A  faali  %s koŋ baŋ yi a boma %s.',
   'Detach File' => 'Wɛle a pɛll',
@@ -24,7 +25,6 @@ final class PhabricatorFilesDga
   'This object (of class "%s") does not implement the required interface ("%s"), so files can not be manually detached from it.' => 'A boma (a klaasi \'\'%s\'\') ba boɔrɔ niŋeŋ (\'\'%s\'\'), azuiŋ faali koŋ baŋ tage yi a poɔŋ.',
   'Really attach the file %s to the object %s, allowing any user who can view the object to view and download the file?' => 'Mare a pɛll meŋɛ %s ko ɔbgyɛte %s, na bare tontonna zaa vuo naŋ na baŋ kaa a ɔbgyɛte na kaa kyɛ danloodi a pɛll?',
   'Detach the file %s from the object %s?' => 'Wɛle a pɛll %s yi a ɔbgyɛte %s?',
-  'View All %d Files' => 'Kaa a %d Faali zaa',
   'The file %s is already attached to the object %s.' => 'A pɛll %s da daŋ mare la a ɔbgyɛte %s eŋɛ.',
 );
   }

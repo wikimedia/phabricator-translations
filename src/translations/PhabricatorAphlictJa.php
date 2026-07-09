@@ -33,6 +33,7 @@ final class PhabricatorAphlictJa
   'Show the status of the notification server.' => '通知サーバーの状態を表示します。',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => '設定ファイルにサーバーが指定されていない。このサービスは、どのポートもリッスンしない場合、外部と対話することができません。少なくとも1つの「%s」サーバーと、少なくとも1つの「%s」サーバーを指定する必要があります。',
   'Start the notifications server.' => '通知サーバーを起動します。',
+  'Aphlict (%s) is running.' => 'Aphlict(%s)が稼働しています',
   'User to notify.' => '通知するユーザー',
   'Stop, then start the notification server.' => '停止し、通知サーバーを起動します。',
   'Failed to read configuration file. %s' => '設定ファイルの読み込みに失敗しました。%s',
@@ -52,7 +53,6 @@ final class PhabricatorAphlictJa
   'Aphlict Server started.' => 'Aphlictサーバーを起動しました',
   'Stopping Aphlict Server (%s)...' => 'Aphlictサーバーの停止(%s)…',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => '指定された PID ファイル用のディレクトリ "%s" の作成に失敗しました。このディレクトリを手動で作成するか、別のPIDファイルの場所を選択する必要があります。%s',
-  'Aphlict (%s) is running.' => 'Aphlict(%s)が稼働しています',
 );
   }
 

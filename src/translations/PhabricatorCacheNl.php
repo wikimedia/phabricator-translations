@@ -12,6 +12,7 @@ final class PhabricatorCacheNl
   '%s is not available; unable to read deflated data!' => '%s is niet beschikbaar; het is niet mogelijk om de gecomprimieerde gegevens te lezen!',
   'APCu' => 'APCu',
   'Select caches to purge with "--all" or "--caches". Available caches are: %s.' => 'Selecteer de caches die u wilt wissen met "--all" of "--caches". Beschikbare caches zijn: %s.',
+  'APCu Disabled' => 'APCu uitgeschakeld',
   'The APCu PHP extension is installed, but not enabled in your PHP configuration. Enabling this extension will improve performance. Edit the "%s" setting to enable this extension.' => 'De APCu PHP-uitbreiding is geïnstalleerd, maar niet ingeschakeld in uw PHP-configuratie. Het inschakelen van deze uitbreiding verbetert de prestaties. Bewerk de instelling "%s" om deze uitbreiding in te schakelen.',
   'OPcache is not configured properly for development.' => 'OPcache is niet correct geconfigureerd voor ontwikkeldoeleinden.',
   'General Cache (TTL)' => 'Algemene cache (TTL)',
@@ -47,7 +48,6 @@ final class PhabricatorCacheNl
   'Zend OPcache' => 'Zend OPcache',
   'Enabling OPcache will dramatically improve performance.' => 'Het inschakelen van OPcache verbetert de prestaties aanzienlijk.',
   'Enabling APCu will improve performance.' => 'Het inschakelen van APCu verbetert de prestaties.',
-  'APCu Disabled' => 'APCu uitgeschakeld',
 );
   }
 

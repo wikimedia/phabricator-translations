@@ -9,6 +9,43 @@ final class PhabricatorConfigNl
 
   protected function getTranslations() {
     return array(
+  'When a user takes an action which generates an email notification (like
+commenting on a Differential revision), the "From" address can either be set
+to the user\'s email address (like "alincoln@example.com") or the
+"metamta.default-address" address.
+
+The user experience is generally better if the user\'s real address is used as
+the "From" header value, since the messages are easier to organize when they
+appear in mail clients, but this will only work if the server is authorized to
+send email on behalf of the "From" domain. Practically, this means:
+
+  - If you are doing an install for Example Corp and all the users will have
+    corporate @corp.example.com addresses and any hosts this software is running
+    on are authorized to send email from corp.example.com, you can enable this
+    to make the user experience a little better.
+  - If you are doing an install for an open source project and your users will
+    be registering via third-party services and/or using personal email
+    addresses, you probably should not enable this or all of your outgoing
+    email might vanish into SFP blackholes.
+  - If your install is anything else, you\'re safer leaving this off, at least
+    initially, since the risk in turning it on is that your outgoing mail will
+    never arrive.' => 'Wanneer een gebruiker een handeling uitvoert die een e-mailmelding genereert (zoals het plaatsen van een opmerking op een Differential-versie), kan het "Van"-adres worden ingesteld
+op het e-mailadres van de gebruiker (zoals "alincoln@example.com") of het "metamta.default-address"-adres.
+
+De gebruikerservaring is over het algemeen beter als het echte adres van de gebruiker wordt gebruikt als de "Van"-headerwaarde, omdat de berichten gemakkelijker te organiseren zijn wanneer ze
+verschijnen in e-mailclients, maar dit werkt alleen als de server geautoriseerd is om e-mail te verzenden namens het "Van"-domein. In de praktijk betekent dit:
+
+  - Als u een installatie doet voor Voorbeeld BV en alle gebruikers
+    zakelijke @corp.example.com-adressen hebben en alle hosts waarop deze software draait
+    geautoriseerd zijn om e-mail te verzenden vanaf corp.example.com, kunt u dit inschakelen
+    om de gebruikerservaring iets te verbeteren.
+  - Als u een installatie doet voor een opensourceproject en uw gebruikers zich
+    registreren via diensten van derden en/of persoonlijke e-mailadressen
+    gebruiken, moet u dit waarschijnlijk niet inschakelen of al uw uitgaande
+    e-mail verdwijnt mogelijk in SPF-zwarte gaten.
+  - Als uw installatie iets anders is, is het veiliger om dit uit te laten, in ieder geval
+    in het begin, aangezien het risico van het inschakelen is dat uw uitgaande e-mail
+    nooit aankomt.',
   'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
 
 This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
@@ -37,7 +74,6 @@ Voor meer informatie over vergrendelde en verborgen configuratie, inclusief deta
 Deze databasewaarde wordt momenteel gerespecteerd, maar een toekomstige versie van de software zal databasewaarden voor vergrendelde configuratieopties niet meer respecteren.',
   'Review and modify configuration settings.' => 'Configuratie-instellingen bekijken en wijzigen.',
   'Improve security by configuring an alternate file domain.' => 'Verbeter de beveiliging door een alternatief bestandsdomein te configureren.',
-  'Array containing list of uninstalled applications.' => 'Array met lijst van verwijderde applicaties.',
   'Client Server' => 'Clientserver',
   'Or:' => 'Of:',
   'Listeners receive callbacks when interesting things occur.' => 'Luisteraars ontvangen callbacks wanneer er interessante dingen gebeuren.',
@@ -62,19 +98,6 @@ Het is ook mogelijk (maar zeer onwaarschijnlijk) dat een ander netwerkapparaat (
 Verzoeken moeten een geldige "Host"-header bevatten.',
   'Memory Usage' => 'Geheugengebruik',
   'The request body that was sent began:' => 'De verzonden verzoekinhoud begon met:',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'BELANGRIJK: De upstream biedt geen ondersteuning voor prototype-applicaties.
-
-Dit platform bevat prototype-applicaties die zich in een **vroeg ontwikkelingsstadium** bevinden. Standaard worden prototype-applicaties niet geïnstalleerd, omdat ze vaak nog niet voldoende ontwikkeld zijn om algemeen bruikbaar te zijn. U kunt deze optie inschakelen om ze te installeren als u applicaties ontwikkelt of geïnteresseerd bent in het bekijken van aankomende functies.
-
-Voor meer informatie over prototypes, zie [[ %s | %s ]].
-
-Na het inschakelen van prototypes kunt u ze selectief verwijderen (zoals normale applicaties).',
   'Impersonating users over the API is no longer supported.' => 'Het imiteren van gebruikers via de API wordt niet meer ondersteund.',
   'Table' => 'Tabel',
   'The best available MYSQL implementation is now selected automatically.' => 'De best beschikbare MYSQL-implementatie wordt nu automatisch geselecteerd.',
@@ -88,53 +111,15 @@ U moet DarkConsole inschakelen door \'%s\' in te stellen voordat deze optie effe
   'Repository %s has unreplicated changes (for %s).' => 'Repository %s heeft niet-gerepliceerde wijzigingen (voor %s).',
   'The controller or workflow which handled the request.' => 'De controller of workflow die het verzoek heeft verwerkt.',
   'Option "%s" is of type "%s", but the value at index "%s" of the list is not "true".' => 'Optie "%s" is van het type "%s", maar de waarde op index "%s" van de lijst is niet "true".',
-  'Applications application' => 'Applicaties-applicatie',
+  'Applications application' => 'Toepassingen',
   'This server is not configured in cluster mode.' => 'Deze server is niet geconfigureerd in clustermodus.',
   '%s created this configuration entry.' => '%s heeft deze configuratie-invoer aangemaakt.',
   'You have enabled pygments and the %s script is available, but does not seem to work.' => 'U hebt pygments ingeschakeld en het %s-script is beschikbaar, maar lijkt niet te werken.',
   'This column is missing a type specification.' => 'Deze kolom mist een typespecificatie.',
-  'When a user takes an action which generates an email notification (like
-commenting on a Differential revision), the "From" address can either be set
-to the user\'s email address (like "alincoln@logcabin.com") or the
-"metamta.default-address" address.
-
-The user experience is generally better if the user\'s real address is used as
-the "From" header value, since the messages are easier to organize when they
-appear in mail clients, but this will only work if the server is authorized to
-send email on behalf of the "From" domain. Practically, this means:
-
-  - If you are doing an install for Example Corp and all the users will have
-    corporate @corp.example.com addresses and any hosts this software is running
-    on are authorized to send email from corp.example.com, you can enable this
-    to make the user experience a little better.
-  - If you are doing an install for an open source project and your users will
-    be registering via third-party services and/or using personal email
-    addresses, you probably should not enable this or all of your outgoing
-    email might vanish into SFP blackholes.
-  - If your install is anything else, you\'re safer leaving this off, at least
-    initially, since the risk in turning it on is that your outgoing mail will
-    never arrive.' => 'Wanneer een gebruiker een handeling uitvoert die een e-mailmelding genereert (zoals
-het plaatsen van een opmerking op een Differential-versie), kan het "Van"-adres worden ingesteld
-op het e-mailadres van de gebruiker (zoals "alincoln@logcabin.com") of het
-"metamta.default-address"-adres.
-
-De gebruikerservaring is over het algemeen beter als het echte adres van de gebruiker wordt gebruikt als
-de "Van"-headerwaarde, omdat de berichten gemakkelijker te organiseren zijn wanneer ze
-verschijnen in e-mailclients, maar dit werkt alleen als de server geautoriseerd is om
-e-mail te verzenden namens het "Van"-domein. In de praktijk betekent dit:
-
-  - Als u een installatie doet voor Voorbeeld BV en alle gebruikers
-    zakelijke @corp.example.com-adressen hebben en alle hosts waarop deze software draait
-    geautoriseerd zijn om e-mail te verzenden vanaf corp.example.com, kunt u dit inschakelen
-    om de gebruikerservaring iets te verbeteren.
-  - Als u een installatie doet voor een opensourceproject en uw gebruikers zich
-    registreren via diensten van derden en/of persoonlijke e-mailadressen
-    gebruiken, moet u dit waarschijnlijk niet inschakelen of al uw uitgaande
-    e-mail verdwijnt mogelijk in SPF-zwarte gaten.
-  - Als uw installatie iets anders is, is het veiliger om dit uit te laten, in ieder geval
-    in het begin, aangezien het risico van het inschakelen is dat uw uitgaande e-mail
-    nooit aankomt.',
-  'The current configuration has these %d value(s):' => 'De huidige configuratie heeft deze %d waarde(n):',
+  'The current configuration has these %d value(s):' => array(
+    'De huidige configuratie heeft deze waarde:',
+    'De huidige configuratie heeft deze waarden:',
+  ),
   'Column Has No Specification' => 'Kolom heeft geen specificatie',
   'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
 
@@ -160,7 +145,7 @@ Het inschakelen van "STRICT_ALL_TABLES" zorgt ervoor dat MySQL een expliciete fo
 U kunt meer informatie over deze modus (en hoe u deze configureert) vinden in de MySQL-handleiding. Meestal is het voldoende om dit toe te voegen aan uw "my.cnf"-bestand (in de sectie "[mysqld]") en vervolgens "mysqld" opnieuw te starten:
 
 %s
-Merk op dat als u andere applicaties op dezelfde database draait, deze mogelijk niet werken in strikte modus.
+Merk op dat als u andere toepassingen op dezelfde database draait, deze mogelijk niet werken in strikte modus.
 
 Als u "STRICT_ALL_TABLES" niet kunt of wilt inschakelen, kunt u deze waarschuwing veilig negeren. Deze software werkt correct met deze modus in- of uitgeschakeld.',
   'Delete configuration in the database instead of in local configuration.' => 'Configuratie verwijderen uit de database in plaats van uit lokale configuratie.',
@@ -184,6 +169,7 @@ This option is not compatible with this software. Remove \'%s\' from your config
 Deze optie is niet compatibel met deze software. Verwijder \'%s\' uit uw configuratie om door te gaan.',
   'The \'%s\' binary on this system has unexpected behavior: it was expected to exit without an error code when passed identical files, but exited with code %d.' => 'Het binaire bestand \'%s\' op dit systeem vertoont onverwacht gedrag: het werd verwacht af te sluiten zonder foutcode bij het doorgeven van identieke bestanden, maar sloot af met code %d.',
   'No active repositories have outstanding errors.' => 'Er zijn geen actieve repository\'s met openstaande fouten.',
+  'Array containing list of disabled applications.' => 'Array met lijst van uitgeschakelde toepassingen.',
   'Usage' => 'Gebruik',
   'Rebuild Repository Identities' => 'Repository-identiteiten opnieuw opbouwen',
   'Move port information from `%s` to `%s` in your config.' => 'Verplaats poortinformatie van `%s` naar `%s` in uw configuratie.',
@@ -250,7 +236,6 @@ het configureren van clusterdatabases, zie **[[ %s | %s ]]** in de documentatie.
   'Configuration key \'%s\' is not set in %s configuration!' => 'Configuratiesleutel \'%s\' is niet ingesteld in %s-configuratie!',
   'Multi-Factor Optional' => 'Meerfactorauthenticatie optioneel',
   'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => 'De uitbreiding \'%s\' is niet geïnstalleerd. Zonder \'%s\' kan deze server mogelijk de MIME-typen van geüploade bestanden niet bepalen.',
-  'Access Denied' => 'Toegang geweigerd',
   'The configuration option \'%s\' has been removed. You may delete it at your convenience.
 
 %s' => 'De configuratieoptie \'%s\' is verwijderd. U kunt deze op elk gewenst moment verwijderen.
@@ -282,14 +267,16 @@ het configureren van clusterdatabases, zie **[[ %s | %s ]]** in de documentatie.
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Deze alternatieve URI\'s hebben toegang tot \'normale\' pagina\'s op deze installatie. Andere functies zoals OAuth werken niet. Het belangrijkste gebruiksscenario hiervoor is het verplaatsen van installaties tussen domeinen.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Niet-replicerende replica',
-  'Run these %d command(s):' => 'Voer deze %d opdracht(en) uit:',
+  'Run these %d command(s):' => array(
+    'Voer deze opdracht uit:',
+    'Voer deze opdrachten uit:',
+  ),
   'Pattern' => 'Patroon',
   'Unknown \'%s\' Version' => 'Onbekende \'%s\'-versie',
   'Require administrators to unlock the authentication provider configuration from the CLI before it can be edited.' => 'Beheerders verplichten om de configuratie van de authenticatieprovider te ontgrendelen via de CLI voordat deze kan worden bewerkt.',
   'Define one or more mail transmission services. For help with configuring
 mailers, see **[[ %s | %s ]]** in the documentation.' => 'Definieer een of meer e-mailverzenddienst. Voor hulp bij het configureren van
 mailers, zie **[[ %s | %s ]]** in de documentatie.',
-  'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'U gebruikt een oude versie van MySQL (op host "%s") en moet upgraden.',
   'Feed Hooks Deprecated' => 'Feed-hooks verouderd',
   'Purge Caches' => 'Caches wissen',
   'Configure services to run on a cluster of hosts.' => 'Diensten configureren om op een cluster van hosts te draaien.',
@@ -346,7 +333,7 @@ In deze gevallen kunt u deze optie gebruiken om de pagina te dwingen af te breke
 Om deze optie te gebruiken, stelt u deze in op een klein getal (zoals 10) en herlaadt u een vastgelopen pagina. De pagina zou na 10 seconden moeten afsluiten en u een stacktrace geven.
 
 U moet deze optie uitschakelen (op 0 zetten) wanneer u er klaar mee bent. Het ingeschakeld laten creëert een kleine hoeveelheid overhead voor alle verzoeken, zelfs als ze de tijdslimiet niet bereiken.',
-  'This option has been renamed to `%s` to emphasize the unfinished nature of many prototype applications. Your existing setting has been migrated.' => 'Deze optie is hernoemd naar `%s` om de onvoltooide aard van veel prototype-applicaties te benadrukken. Uw bestaande instelling is gemigreerd.',
+  'This option has been renamed to `%s` to emphasize the unfinished nature of many prototype applications. Your existing setting has been migrated.' => 'Deze optie is hernoemd naar `%s` om de onvoltooide aard van veel prototype-toepassingen te benadrukken. Uw bestaande instelling is gemigreerd.',
   'Clients' => 'Clients',
   'Expected Columns' => 'Verwachte kolommen',
   'Taskmasters now use an autoscaling pool. You can configure the pool size with `%s`.' => 'Taskmasters gebruiken nu een automatisch schalende pool. U kunt de poolgrootte configureren met `%s`.',
@@ -389,7 +376,6 @@ overschrijven in hun voorkeuren.',
   'Security options.' => 'Beveiligingsopties.',
   'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'Optie "%s" is van het type "%s" en moet op de opdrachtregel worden opgegeven als een JSON-lijst van waarden. Mogelijk moet u de waarde aanhalingstekens geven voor uw shell (bijvoorbeeld: \'["a", "b", ...]\').',
   'Expected Unique' => 'Verwachte uniciteit',
-  'Old MySQL Version' => 'Oude MySQL-versie',
   'Configuring a Preamble Script' => 'Een preamblescript configureren',
   'Default Partition' => 'Standaardpartitie',
   'Domain used for reply email addresses.' => 'Domein dat wordt gebruikt voor antwoord-e-mailadressen.',
@@ -401,7 +387,7 @@ overschrijven in hun voorkeuren.',
   'The Differential revision list view age UI elements have been removed to simplify the interface.' => 'De leeftijds-UI-elementen in de Differential-versielijstweergave zijn verwijderd om de interface te vereenvoudigen.',
   'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be installed on an entire domain; it can not be installed on a path.' => 'Configuratieoptie \'%s\' is incorrect. De URI mag GEEN pad hebben, bijv. \'%s\' is OK, maar \'%s\' niet. Deze software moet op een volledig domein worden geïnstalleerd; het kan niet op een pad worden geïnstalleerd.',
   'Separate values with newlines.' => 'Waarden scheiden met nieuwe regels.',
-  'The request body that the server received had already been decompressed. This strongly suggests your webserver is configured to decompress requests inline, before they reach PHP.' => 'De verzoekinhoud die de server ontving was al gedecomprimeerd. Dit suggereert sterk dat uw webserver is geconfigureerd om verzoeken inline te decomprimeren, voordat ze PHP bereiken.',
+  'The request body that the server received had already been decompressed. This strongly suggests your webserver is configured to decompress requests inline, before they reach PHP.' => 'De verzoekinhoud die de server ontving was al gedecomprimeerd. Dit suggereert sterk dat uw webserver is geconfigureerd om verzoeken ingebed te decomprimeren, voordat ze PHP bereiken.',
   'Define one or more fulltext storage services. Here you can configure which
 hosts will handle fulltext search queries and indexing. For help with
 configuring fulltext search clusters, see **[[ %s | %s ]]** in the
@@ -428,6 +414,19 @@ Na het uitvoeren van `bin/auth unlock` en het aanbrengen van uw wijzigingen aan 
   'Manage extensions.' => 'Uitbreidingen beheren.',
   'Too many arguments: expected one key.' => 'Te veel argumenten: één sleutel verwacht.',
   'List of Users Without MFA' => 'Lijst van gebruikers zonder MFA',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => 'BELANGRIJK: De upstream biedt geen ondersteuning voor prototype-toepassingen.
+
+Dit platform bevat prototype-toepassingen die zich in een **vroeg ontwikkelingsstadium** bevinden. Standaard worden prototype-toepassingen uitgeschakeld, omdat ze vaak nog niet voldoende ontwikkeld zijn om algemeen bruikbaar te zijn. U kunt deze optie inschakelen om ze in te schakelen als u toepassingen ontwikkelt of geïnteresseerd bent in het bekijken van aankomende functies.
+
+Voor meer informatie over prototypes, zie [[ %s | %s ]].
+
+Na het inschakelen van prototypes kunt u ze selectief uitschakelen (zoals normale toepassingen).',
   'No "Host" header present in request.' => 'Geen "Host"-header aanwezig in verzoek.',
   'Value for option "%s" of type "%s" must be either "true" or "false".' => 'Waarde voor optie "%s" van type "%s" moet "true" of "false" zijn.',
   'Storage engines are now discovered automatically at runtime.' => 'Opslagengines worden nu automatisch ontdekt tijdens runtime.',
@@ -439,7 +438,7 @@ Na het uitvoeren van `bin/auth unlock` en het aanbrengen van uw wijzigingen aan 
   'Configure master encryption keys.' => 'Hoofdversleutelingssleutels configureren.',
   'Mailers Not Configured' => 'Mailers niet geconfigureerd',
   'Daemons no longer use PID files.' => 'Daemons gebruiken geen PID-bestanden meer.',
-  'Database replica "%s" is listed as a replica, but is not currently replicating. You are vulnerable to data loss if the master fails.' => 'Databasereplica "%s" staat vermeld als replica, maar repliceert momenteel niet. U bent kwetsbaar voor gegevensverlies als de master uitvalt.',
+  'Database replica "%s" is listed as a replica, but is not currently replicating. You are vulnerable to data loss if the master fails.' => 'Databasereplica "%s" staat vermeld als replica, maar repliceert momenteel niet. U bent kwetsbaar voor gegevensverlies als de primaire databasehost uitvalt.',
   'Garbage Collectors' => 'Garbage collectors',
   '%s edited this configuration entry.' => '%s heeft deze configuratie-invoer bewerkt.',
   'The PHP "zip" extension is not installed. This extension is required by certain data export operations, including exporting data to Excel.
@@ -489,7 +488,7 @@ kleinere berichten prefereren. De handelingen zelf blijven correct werken.',
   'The PID of the server process.' => 'De PID van het serverproces.',
   'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
             \'installed on an entire domain; it can not be installed on a path.' => 'Configuratieoptie \'%s\' is incorrect. De URI mag GEEN pad hebben, bijv. \'%s\' is OK, maar \'%s\' niet. Deze software moet op een volledig domein worden geïnstalleerd; het kan niet op een pad worden geïnstalleerd.',
-  'Blacklist subnets to prevent user-initiated outbound requests.' => 'Subnetten op de zwarte lijst zetten om door gebruikers geïnitieerde uitgaande verzoeken te voorkomen.',
+  'Blacklist subnets to prevent user-initiated outbound requests.' => 'Subnetten op de blokkeerlijst zetten om door gebruikers geïnitieerde uitgaande verzoeken te voorkomen.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
 alincoln, usgrant, htaft") or separate emails to each user (e.g., "To:
@@ -638,7 +637,7 @@ You can also increase the limit or ignore this issue and accept that you may enc
 
 PHP-processen hebben momenteel zeer weinig vrij geheugen beschikbaar (%s). Om goed te werken, moeten processen ten minste %s hebben.
 
-(Merk op dat de applicatie zelf ook in het beschikbare geheugen moet passen, dus niet al het geheugen onder de geheugenlimiet is beschikbaar voor het uitvoeren van werklasten.)
+(Merk op dat de toepassing zelf ook in het beschikbare geheugen moet passen, dus niet al het geheugen onder de geheugenlimiet is beschikbaar voor het uitvoeren van werklasten.)
 
 De eenvoudigste manier om dit probleem op te lossen is om %s in te stellen op %s in uw PHP-configuratie, om de geheugenlimiet uit te schakelen. Er is meestal weinig of geen waarde in het gebruik van deze optie om procesgeheugen te beperken.
 
@@ -658,9 +657,15 @@ U kunt ook de limiet verhogen of dit probleem negeren en accepteren dat u proble
   'Embed YouTube videos' => 'YouTube-video\'s insluiten',
   'Add One Path' => 'Eén pad toevoegen',
   'Clear Cache' => 'Cache wissen',
+  'Write access log here.' => 'Toegangslogboek hier schrijven.',
   'Unignore this setup issue?' => 'Dit configuratieprobleem niet meer negeren?',
   'Configure Mail.' => 'E-mail configureren.',
-  'You can update these %d value(s) here:' => 'U kunt deze %d waarde(n) hier bijwerken:',
+  'Default User-Agent for outgoing HTTP requests made by this software.' => 'Standaard User-Agent voor uitgaande HTTP-verzoeken die door deze software worden gedaan.',
+  'What locale to use for command-line scripts that don\'t specify a `%s` argument.' => 'Welke landinstellingen moeten er gebruikt worden voor commandoregelscripts die geen `%s`-argument specificeren?',
+  'You can update these %d value(s) here:' => array(
+    'U kunt deze waarde hier bijwerken:',
+    'U kunt deze waarden hier bijwerken:',
+  ),
   'Notification Servers' => 'Meldingsservers',
   'To enable the HTTP access log, specify a path. This log is more detailed than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
 
@@ -676,8 +681,9 @@ Als dit niet is ingesteld, wordt er geen log geschreven.',
   'This server has a known bad version of "%s".' => 'Op deze server is een bekende slechte versie van "%s" geïnstalleerd.',
   'Require DarkConsole Activation' => 'DarkConsole-activering vereisen',
   'Notifications Status' => 'Meldingsstatus',
+  'Use the %s to manage enabled applications.' => 'Gebruik de %s om ingeschakelde toepassingen te beheren.',
   'Current Configuration' => 'Huidige configuratie',
-  'Replicating Master' => 'Replicerende master',
+  'Replicating Master' => 'Primair, replicerend',
   'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
 
 Upgrade %s to a patched version.
@@ -731,16 +737,14 @@ Uw webserver is mogelijk niet geconfigureerd om HTTP-basisauthenticatie door te 
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL (op host "%s") is geconfigureerd met een zeer kleine innodb_buffer_pool_size, wat de prestaties kan beïnvloeden.',
   'You should upgrade this software.' => 'U moet deze software upgraden.',
   'The following caches will be cleared:' => 'De volgende caches worden gewist:',
-  'Detected %s warning(s) with the schemata.' => '%s waarschuwing(en) gedetecteerd bij de schema\'s.',
+  'Detected %s warning(s) with the schemata.' => array(
+    'Een waarschuwing gedetecteerd bij de schema\'s.',
+    '%s waarschuwingen gedetecteerd bij de schema\'s.',
+  ),
   'Deprecated mysql.host Format' => 'Verouderd mysql.host-formaat',
   'This key is on the wrong columns.' => 'Deze sleutel staat op de verkeerde kolommen.',
   'Wrong Nullable Setting' => 'Verkeerde nullable-instelling',
   'Secret key for Amazon S3.' => 'Geheime sleutel voor Amazon S3.',
-  'You are using an old version of MySQL (on host "%s") which has poor unicode support (it does not support the "utf8mb4" collation set). You will encounter limitations when working with some unicode data.
-
-We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'U gebruikt een oude versie van MySQL (op host "%s") die slechte unicode-ondersteuning heeft (het ondersteunt de "utf8mb4"-sorteringsset niet). U zult beperkingen ondervinden bij het werken met sommige unicode-gegevens.
-
-We raden u sterk aan om te upgraden naar MySQL 5.5 of nieuwer.',
   'Trying to add duplicate column "%s"!' => 'Poging om dubbele kolom "%s" toe te voegen!',
   'Minimum password length.' => 'Minimale wachtwoordlengte.',
   'Required PHP extensions are not installed.' => 'Vereiste PHP-uitbreidingen zijn niet geïnstalleerd.',
@@ -748,7 +752,7 @@ We raden u sterk aan om te upgraden naar MySQL 5.5 of nieuwer.',
   'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.' => 'ONGEZOND: Deze database is gezakt voor recente gezondheidscontroles. Er wordt geen verkeer naartoe gestuurd totdat deze herstelt.',
   'Request input, in bytes.' => 'Verzoekinvoer, in bytes.',
   'You enabled pygments but the %s script is not actually available, your %s is probably broken.' => 'U hebt pygments ingeschakeld maar het %s-script is niet daadwerkelijk beschikbaar, uw %s is waarschijnlijk defect.',
-  'Application Settings' => 'Applicatie-instellingen',
+  'Application Settings' => 'Toepassingsinstellingen',
   'Show email preferences link in email.' => 'Koppeling naar e-mailvoorkeuren weergeven in e-mail.',
   'Your webserver may have compression disabled.' => 'Uw webserver heeft mogelijk compressie uitgeschakeld.',
   'The configured PATH includes a component which is not usable. This server will be unable to find or execute binaries located here:
@@ -827,7 +831,7 @@ Voor de meeste installaties zou de standaardwaarde (1 sample per 1000 pagina\'s)
   'Unsafe PHP "Local Infile" Configuration' => 'Onveilige PHP "Local Infile"-configuratie',
   'Custom remarkup rules are now added by subclassing %s or %s.' => 'Aangepaste remarkup-regels worden nu toegevoegd door %s of %s te subklassen.',
   'Issue Resolved' => 'Probleem opgelost',
-  'If you enable this, linked Commons videos will be embedded inline.' => 'Als u dit inschakelt, worden gekoppelde Commons-video\'s inline ingesloten.',
+  'If you enable this, linked Commons videos will be embedded inline.' => 'Als u dit inschakelt, worden gekoppelde Commons-video\'s ingebed ingesloten.',
   'Garbage collectors are now configured with "%s".' => 'Garbage collectors worden nu geconfigureerd met "%s".',
   'Unknown configuration option type "%s".' => 'Onbekend configuratieoptie-type "%s".',
   'Trying to add duplicate database "%s"!' => 'Poging om dubbele database "%s" toe te voegen!',
@@ -838,7 +842,7 @@ Voor de meeste installaties zou de standaardwaarde (1 sample per 1000 pagina\'s)
   'Enable Prototypes' => 'Prototypes inschakelen',
   'Elasticsearch is now configured with "%s".' => 'Elasticsearch wordt nu geconfigureerd met "%s".',
   'Configuring Outbound Email' => 'Uitgaande e-mail configureren',
-  'Inbound mail addresses are now configured for each application in the Applications tool.' => 'Inkomende e-mailadressen worden nu per applicatie geconfigureerd in het hulpmiddel Applicaties.',
+  'Inbound mail addresses are now configured for each application in the Applications tool.' => 'Inkomende e-mailadressen worden nu per toepassing geconfigureerd in het hulpmiddel Toepassingen.',
   'Enable recaptcha to require users solve captchas after a few failed login attempts. This hinders brute-force attacks against user passwords. For more information, see https://www.google.com/recaptcha' => 'Schakel recaptcha in om gebruikers captcha\'s te laten oplossen na een paar mislukte inlogpogingen. Dit belemmert brute-force-aanvallen op gebruikerswachtwoorden. Zie https://www.google.com/recaptcha voor meer informatie.',
   'Partial \'%s\' Support' => 'Gedeeltelijke \'%s\'-ondersteuning',
   'Subschemata have setup warnings.' => 'Subschema\'s hebben configuratiewaarschuwingen.',
@@ -862,7 +866,7 @@ Configureer een CDN (of alternatief bestandsdomein) om dit risico te elimineren.
   'The minimum supported version of Subversion is 1.5, which was released in 2008.' => 'De minimaal ondersteunde versie van Subversion is 1.5, die in 2008 is uitgebracht.',
   'Your PHP memory limit is configured in a way that may prevent you from uploading large files or handling large requests.' => 'Uw PHP-geheugenlimiet is geconfigureerd op een manier die u kan verhinderen grote bestanden te uploaden of grote verzoeken te verwerken.',
   'The system user.' => 'De systeemgebruiker.',
-  'Reload Page' => 'Pagina herladen',
+  'Reload Page' => 'Pagina vernieuwen',
   'Force users to connect via HTTPS instead of HTTP.' => 'Gebruikers dwingen verbinding te maken via HTTPS in plaats van HTTP.',
   'Large Files' => 'Grote bestanden',
   'Compressed Requests Not Received Properly' => 'Gecomprimeerde verzoeken niet correct ontvangen',
@@ -872,7 +876,10 @@ Configureer een CDN (of alternatief bestandsdomein) om dit risico te elimineren.
   'This configuration option has been replaced with a modular handler. See T9346.' => 'Deze configuratieoptie is vervangen door een modulaire handler. Zie T9346.',
   'Value for option "%s" (of type "%s") must be specified in JSON, but input could not be decoded. (Did you forget to quote a string?)' => 'Waarde voor optie "%s" (van type "%s") moet in JSON worden opgegeven, maar de invoer kon niet worden gedecodeerd. (Bent u vergeten een tekenreeks tussen aanhalingstekens te plaatsen?)',
   'Configuration option \'%s\' has invalid value and was restored to the default: %s' => 'Configuratieoptie \'%s\' heeft een onjuiste waarde en is hersteld naar de standaardwaarde: %s',
-  'To update these %d value(s), edit your PHP configuration file, located here:' => 'Om deze %d waarde(n) bij te werken, bewerk uw PHP-configuratiebestand, dat zich hier bevindt:',
+  'To update these %d value(s), edit your PHP configuration file, located here:' => array(
+    'Om deze waarde bij te werken, bewerk uw PHP-configuratiebestand, dat zich hier bevindt:',
+    'Om deze waarden bij te werken, bewerk uw PHP-configuratiebestand, dat zich hier bevindt:',
+  ),
   'Collation' => 'Sortering',
   'Replication' => 'Replicatie',
   'The HTTP response code or process exit code.' => 'De HTTP-antwoordcode of proces-exitcode.',
@@ -889,7 +896,10 @@ Configureer een CDN (of alternatief bestandsdomein) om dit risico te elimineren.
   'Too many arguments: expected one key and one value.' => 'Te veel argumenten: één sleutel en één waarde verwacht.',
   'Settings History' => 'Instellingengeschiedenis',
   'Opcode' => 'Opcode',
-  'To update these %d value(s), edit your PHP configuration file.' => 'Om deze %d waarde(n) bij te werken, bewerk uw PHP-configuratiebestand.',
+  'To update these %d value(s), edit your PHP configuration file.' => array(
+    'Om deze %d-waarde bij te werken, bewerk uw PHP-configuratiebestand.',
+    'Om deze %d-waarden bij te werken, bewerk uw PHP-configuratiebestand.',
+  ),
   'Auth provider config must be unlocked before editing' => 'Authenticatieproviderconfiguratie moet worden ontgrendeld voordat deze kan worden bewerkt',
   'Enable Recaptcha' => 'Recaptcha inschakelen',
   'Prefix cookie with "%s"' => 'Cookie voorvoegen met "%s"',
@@ -907,7 +917,7 @@ Configureer een CDN (of alternatief bestandsdomein) om dit risico te elimineren.
   'Footer item with index "%s" is invalid: each item must be a dictionary describing a footer item.' => 'Voettekstitem met index "%s" is onjuist: elk item moet een woordenboek zijn dat een voettekstitem beschrijft.',
   'None of the caches on this page can be cleared.' => 'Geen van de caches op deze pagina kan worden gewist.',
   'Require email verification before a user can log in.' => 'E-mailverificatie vereisen voordat een gebruiker kan inloggen.',
-  'Master' => 'Master',
+  'Master' => 'Primair',
   'A Troublesome Encounter!' => 'Een lastige situatie!',
   'The indexing algorithm for the fulltext search index has been updated and the index needs to be rebuilt. Until you rebuild the index, global search (and other fulltext search) will not function correctly.' => 'Het indexeringsalgoritme voor de volledige-tekstzoekindex is bijgewerkt en de index moet opnieuw worden opgebouwd. Totdat u de index opnieuw opbouwt, zal globaal zoeken (en andere volledige-tekstzoekopdrachten) niet correct functioneren.',
   'Maximum taskmaster daemon pool size.' => 'Maximale grootte van de taskmaster-daemonpool.',
@@ -931,7 +941,6 @@ After changing this value, you must restart the daemons. Most configuration chan
 Als u een cluster draait, geldt deze limiet afzonderlijk voor elke instantie van `phd`. Als deze limiet bijvoorbeeld is ingesteld op `4` en u drie hosts hebt die daemons draaien, is de effectieve globale limiet 12.
 
 Na het wijzigen van deze waarde moet u de daemons herstarten. De meeste configuratiewijzigingen worden automatisch opgepikt door de daemons, maar poolgroottes kunnen niet worden gewijzigd zonder herstart.',
-  'Set the URI that Phurl will use to share shortened URLs.' => 'Stel de URI in die Phurl gebruikt om verkorte url\'s te delen.',
   'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'Uw versie van MySQL (op databasehost "%s") ondersteunt geen configuratie van een stopwoordenbestand. U kunt geen zoekresultaten vinden voor veelvoorkomende woorden.',
   'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'Uw PHP-configuratie selecteert een onjuiste tijdzone. Selecteer een geldige tijdzone.',
   '%s deleted this configuration entry (again?).' => '%s heeft deze configuratie-invoer verwijderd (opnieuw?).',
@@ -939,12 +948,15 @@ Na het wijzigen van deze waarde moet u de daemons herstarten. De meeste configur
   'Unresolved Setup Issues' => 'Onopgeloste configuratieproblemen',
   'Server Timezone Not Configured' => 'Servertijdzone niet geconfigureerd',
   'The following regex is malformed and cannot be used: %s' => 'De volgende regex is onjuist gevormd en kan niet worden gebruikt: %s',
-  'Use the %s to manage installed applications.' => 'Gebruik de %s om geïnstalleerde applicaties te beheren.',
-  'Individual application reply handler domains have been removed. Configure a reply domain with "%s".' => 'Individuele antwoordhandler-domeinen per applicatie zijn verwijderd. Configureer een antwoorddomein met "%s".',
+  'Individual application reply handler domains have been removed. Configure a reply domain with "%s".' => 'Individuele antwoordhandler-domeinen per toepassing zijn verwijderd. Configureer een antwoorddomein met "%s".',
   'Preflight' => 'Preflight',
-  'Install these %d PHP extension(s):' => 'Installeer deze %d PHP-uitbreiding(en):',
+  'Install these %d PHP extension(s):' => array(
+    'Installeer deze PHP-uitbreiding',
+    'Installeer deze PHP-uitbreidingen',
+  ),
   'Missing \'%s\' Binary' => 'Ontbrekend binair bestand \'%s\'',
   'Charset' => 'Tekenset',
+  '\'%s\' or \'%s\' binary not found or Imagemagick is not installed.' => 'Binair bestand \'%s\' of \'%s\' niet gevonden of Imagemagick is niet geïnstalleerd.',
   'By default, this software generates unique reply-to addresses and sends a
 separate email to each recipient when you enable reply handling. This is more
 secure than using "From" to establish user identity, but can mean users may
@@ -966,7 +978,10 @@ kunnen niet blindelings worden beantwoord.',
   'A random, unique string which identifies the request.' => 'Een willekeurige, unieke tekenreeks die het verzoek identificeert.',
   'Auth provider config can be edited without unlocking' => 'Authenticatieproviderconfiguratie kan worden bewerkt zonder ontgrendeling',
   'Disable unsafe option "%s" in PHP configuration.' => 'Schakel de onveilige optie "%s" uit in de PHP-configuratie.',
-  '%s Day(s)' => '%s dag(en)',
+  '%s Day(s)' => array(
+    '%s dag',
+    '%s dagen',
+  ),
   'PHP version: %s' => 'PHP-versie: %s',
   'No search servers are configured.' => 'Er zijn geen zoekservers geconfigureerd.',
   'DarkConsole is a development and profiling tool built into the web interface. You should leave it disabled unless you are developing or debugging %s.
@@ -992,14 +1007,15 @@ DarkConsole toont mogelijk gevoelige gegevens (zoals query\'s, stacktraces en co
   'Mail thread IDs are now generated automatically.' => 'E-mailthread-ID\'s worden nu automatisch gegenereerd.',
   'Your configuration fails to specify a server timezone. You can either set the PHP configuration value \'%s\' or the %s configuration value \'%s\' to specify one.' => 'Uw configuratie specificeert geen servertijdzone. U kunt de PHP-configuratiewaarde \'%s\' of de %s-configuratiewaarde \'%s\' instellen om er een op te geven.',
   'Enable HTTP Strict Transport Security (HSTS).' => 'HTTP Strict Transport Security (HSTS) inschakelen.',
+  'OVERRIDDEN' => 'OVERSCHREVEN',
   'This server has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'Deze server heeft %s beschikbaar in %s, maar het binaire bestand is afgesloten met een foutcode bij uitvoering als %s. Controleer of het correct is geïnstalleerd.',
-  'Users can configure a URI pattern to open files in a text editor. The URI must use a protocol on this whitelist.' => 'Gebruikers kunnen een URI-patroon configureren om bestanden in een teksteditor te openen. De URI moet een protocol gebruiken dat op deze witte lijst staat.',
+  'Users can configure a URI pattern to open files in a text editor. The URI must use a protocol on this whitelist.' => 'Gebruikers kunnen een URI-patroon configureren om bestanden in een teksteditor te openen. De URI moet een protocol gebruiken dat op deze toelatingslijst staat.',
   'Config' => 'Configuratie',
   'Transaction mail is now always sent with "Precedence: bulk" to improve deliverability.' => 'Transactie-e-mail wordt nu altijd verzonden met "Precedence: bulk" om de afleverbaarheid te verbeteren.',
   'Retention Policy' => 'Bewaarbeleid',
   'Without \'%s\', this software can not test for the availability of other binaries.' => 'Zonder \'%s\' kan deze software niet testen of andere binaire bestanden beschikbaar zijn.',
   'HTTP Basic Auth Not Configured' => 'HTTP-basisauthenticatie niet geconfigureerd',
-  'Whitelist 1.2.*.*' => 'Witte lijst 1.2.*.*',
+  'Whitelist 1.2.*.*' => 'Toelatingslijst 1.2.*.*',
   'Highlight httpd.conf as "apacheconf".' => 'httpd.conf markeren als "apacheconf".',
   'Database Value' => 'Databasewaarde',
   'US Mountain (MDT)' => 'US Mountain (MDT)',
@@ -1024,6 +1040,7 @@ Om een ander stopwoordbestand te kiezen, voegt u dit toe aan uw %s-bestand (in d
 %s 
 (U kunt ook een ander bestand gebruiken als u dat liever hebt. Het hierboven voorgestelde bestand bevat ongeveer 50 van de meest voorkomende Engelse woorden.)',
   'Rebuild Search Index' => 'Zoekindex opnieuw opbouwen',
+  'This User-Agent will be used for most outgoing HTTP requests. When unset, the base URI will be used, with a " %s/1.0" suffix.' => 'Deze User-Agent wordt gebruikt voor de meeste uitgaande HTTP-verzoeken. Indien niet ingesteld, wordt de basis-URI gebruikt met het achtervoegsel " %s/1.0".',
   'Do not install this software on an instance class with burstable CPU.' => 'Installeer deze software niet op een instantieklasse met burstable CPU.',
   'Real' => 'Echt',
   'Partition: %s' => 'Partitie: %s',
@@ -1038,7 +1055,6 @@ Gebruikers mogen zich alleen registreren met e-mailadressen bij een van de domei
 
 U moet de `@` weglaten bij domeinen. Merk op dat het domein exact moet overeenkomen. Als u `uwbedrijf.com` toestaat, staat dat `jan@uwbedrijf.com` toe maar wijst `jan@mail.uwbedrijf.com` af.',
   'Show unresolved issues with setup and configuration.' => 'Onopgeloste problemen met installatie en configuratie weergeven.',
-  'Options for Phurl.' => 'Opties voor Phurl.',
   'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
 
 Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
@@ -1058,10 +1074,12 @@ Als het bijwerken van de software dit niet oplost, kunt u het probleem melden aa
 Als u er zeker van bent dat u een recente versie van "%s" geïnstalleerd hebt en correct werkt, is het meestal veilig om deze waarschuwing te negeren.',
   'For conduit, the Conduit method which was invoked.' => 'Voor Conduit, de Conduit-methode die is aangeroepen.',
   'The configuration option \'%s\' is not set.' => 'De configuratieoptie \'%s\' is niet ingesteld.',
+  'Locale code of command-line locale.' => 'De landcode van de opdrachtregellandcode.',
   'Stop Before HTTP Redirect' => 'Stoppen vóór HTTP-omleiding',
   'Developer / Debugging' => 'Ontwikkelaar / Debugging',
+  'You have enabled Imagemagick in your config, but the \'%s\' or \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'U hebt Imagemagick ingeschakeld in uw configuratie, maar het binaire bestand \'%s\' of \'%s\' staat niet in de %s van de webserver. Schakel Imagemagick uit of maak het beschikbaar voor de webserver.',
   'Remove PHP %s' => 'PHP %s verwijderen',
-  'Missing' => 'Ontbrekend',
+  'Missing' => 'Ontbreekt',
   'Classes must match to compare schemata!' => 'Klassen moeten overeenkomen om schema\'s te vergelijken!',
   'Set the URI where this software is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.' => 'Stel de URI in waar deze software is geïnstalleerd. Dit instellen verbetert de beveiliging door te voorkomen dat cookies op andere domeinen worden ingesteld, en stelt daemons in staat e-mails te verzenden met koppelingen die het juiste domein hebben.',
   'Elasticsearch Index Not Found' => 'Elasticsearch-index niet gevonden',
@@ -1167,6 +1185,7 @@ Er is iets verkeerd geconfigureerd of antwoorden worden anderszins verminkt.',
   'Customize favicons.' => 'Favicons aanpassen.',
   'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because it is not traversable (its \'%s\' permission bit is not set).' => 'Het PATH-onderdeel \'%s\' (dat wordt omgezet naar het absolute pad \'%s\') is niet bruikbaar omdat het niet doorzoekbaar is (het \'%s\'-rechtbit is niet ingesteld).',
   'No Repositories' => 'Geen repository\'s',
+  'The configuration key "%s" is already defined in the database. The value from the database will override the value in local storage.' => 'De configuratiesleutel "%s" is al gedefinieerd in de database. De waarde uit de database overschrijft de waarde in de lokale opslag.',
   '%s deleted this configuration entry.' => '%s heeft deze configuratie-invoer verwijderd.',
   'After rebuilding repository identities, run this command to clear this setup warning:' => 'Voer na het opnieuw opbouwen van repository-identiteiten dit commando uit om deze configuratiewaarschuwing te wissen:',
   'The timezone this software should use by default.' => 'De tijdzone die deze software standaard moet gebruiken.',
@@ -1205,7 +1224,16 @@ Beheerders kunnen een lijst opvragen van gebruikers die geen MFA hebben geconfig
   'Option "%s" only supports numbers, letters, underscores and (for some reason) the dollar sign. This is necessary to avoid potential MySQL/MariaDB escape issues. Remove the invalid characters.' => 'Optie "%s" ondersteunt alleen cijfers, letters, underscores en (om de een of andere reden) het dollarteken. Dit is nodig om mogelijke MySQL/MariaDB-escapeproblemen te voorkomen. Verwijder de onjuiste tekens.',
   'Inbound and outbound mail is now configured with "cluster.mailers".' => 'Inkomende en uitgaande e-mail wordt nu geconfigureerd met "cluster.mailers".',
   'Config \'%s\' Invalid' => 'Configuratie \'%s\' onjuist',
-  'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => 'Een databasehost ("%s") en deze webhost ("%s") verschillen meer dan 60 seconden van mening over de huidige tijd (absolute afwijking is %s seconden). Controleer of de huidige tijd overal correct is ingesteld.',
+  'A database host ("%s") and this web host ("%s") disagree on the current time by more than 60 seconds (absolute skew is %s seconds). Check that the current time is set correctly everywhere.' => array(
+    
+    array(
+      
+      array(
+        'Een databasehost ("%s") en deze webhost ("%s") verschillen meer dan 60 seconden van mening over de huidige tijd (absolute afwijking is %s seconde). Controleer of de huidige tijd overal correct is ingesteld.',
+        'Een databasehost ("%s") en deze webhost ("%s") verschillen meer dan 60 seconden van mening over de huidige tijd (absolute afwijking is %s seconden). Controleer of de huidige tijd overal correct is ingesteld.',
+      ),
+    ),
+  ),
   'No Recipient Hints' => 'Geen ontvangerhints',
   'Sample 0.1%% of requests.' => '0,1%% van de verzoeken samplen.',
   'No Issues' => 'Geen problemen',
@@ -1216,7 +1244,6 @@ Beheerders kunnen een lijst opvragen van gebruikers die geen MFA hebben geconfig
   'Collectors with custom policies are highlighted. Use %s to change retention policies.' => 'Collectors met aangepast beleid zijn gemarkeerd. Gebruik %s om het bewaarbeleid te wijzigen.',
   'Multi-Factor Required' => 'Meerfactor vereist',
   'Host: %s' => 'Host: %s',
-  'URI that Phurl will use to shorten URLs.' => 'URI die Phurl gebruikt om url\'s te verkorten.',
   'Update %s' => '%s bijwerken',
   'Reply hints are no longer shown in mail.' => 'Antwoordhints worden niet langer weergegeven in e-mail.',
   'Profile every request (slow)' => 'Elk verzoek profileren (langzaam)',
@@ -1224,7 +1251,10 @@ Beheerders kunnen een lijst opvragen van gebruikers die geen MFA hebben geconfig
   'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => 'Lokaal pad "%s" is niet schrijfbaar. Dit bestand moet schrijfbaar zijn zodat "bin/config" configuratie kan opslaan.',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Deze optie bleek over het algemeen niet nuttig. Bronhash-sleutels worden nu automatisch beheerd.',
   'Schema Status' => 'Schemastatus',
-  'To update these %d value(s), run these command(s) from the command line:' => 'Om deze %d waarde(n) bij te werken, voer deze opdracht(en) uit vanaf de opdrachtregel:',
+  'To update these %d value(s), run these command(s) from the command line:' => array(
+    'Om deze waarde bij te werken, voer deze  opdracht uit vanaf de opdrachtregel:',
+    'Om deze waarden bij te werken, voer deze  opdrachten uit vanaf de opdrachtregel:',
+  ),
   'If you want to use a single mailbox for reply mail, you can use this
 and set a common prefix for generated reply addresses. It will
 make use of the fact that a mail-address such as
@@ -1255,13 +1285,15 @@ op `devtools`.',
   'Options relating to authentication.' => 'Opties met betrekking tot authenticatie.',
   'Migrating file source...' => 'Bestandsbron migreren...',
   'Autoincrement' => 'Autoincrement',
-  'Install applications which are still under development.' => 'Applicaties installeren die nog in ontwikkeling zijn.',
   'Dark' => 'Donker',
   'GZip Compression May Not Be Enabled' => 'GZip-compressie is mogelijk niet ingeschakeld',
   'Typeahead strategies are now managed automatically.' => 'Typeahead-strategieën worden nu automatisch beheerd.',
   'Return to Open Issue List' => 'Terug naar lijst met openstaande problemen',
   'Activate read-only mode for maintenance or disaster recovery.' => 'Alleen-lezenmodus activeren voor onderhoud of noodherstel.',
-  'PHP also loaded these %s configuration file(s):' => 'PHP heeft ook deze %s configuratiebestand(en) geladen:',
+  'PHP also loaded these %s configuration file(s):' => array(
+    'PHP heeft ook dit configuratiebestand geladen:',
+    'PHP heeft ook deze configuratiebestand geladen:',
+  ),
   'Reading value from stdin...' => 'Waarde lezen van stdin...',
   'Option "%s" is of type "%s", but the value you provided is not a valid JSON list: when providing a set from the command line, specify it as a list of values in JSON. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'Optie "%s" is van het type "%s", maar de waarde die u hebt opgegeven is geen geldige JSON-lijst: wanneer u een set opgeeft vanaf de opdrachtregel, specificeer deze als een lijst van waarden in JSON. Mogelijk moet u de waarde escapen voor uw shell (bijvoorbeeld: \'["a", "b", ...]\').',
   'To rebuild the index, run this command:' => 'Voer dit commando uit om de index opnieuw op te bouwen:',
@@ -1281,7 +1313,6 @@ Als u Pygments niet wilt installeren, kunt u dit probleem negeren.',
 Use %s to start daemons. See %s for more information.' => 'De daemons draaien niet, achtergrondverwerking (inclusief het verzenden van e-mail, het opnieuw opbouwen van zoekindexen, het importeren van commits, het opruimen van oude gegevens en het uitvoeren van builds) kan niet worden uitgevoerd.
 
 Gebruik %s om daemons te starten. Zie %s voor meer informatie.',
-  '\'%s\' binary not found or Imagemagick is not installed.' => 'Binair bestand \'%s\' niet gevonden of Imagemagick is niet geïnstalleerd.',
   'Unsafe MySQL "local_infile" Setting Enabled' => 'Onveilige MySQL "local_infile"-instelling ingeschakeld',
   'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of the software.
 
@@ -1294,12 +1325,18 @@ U kunt Webhooks configureren in Herald.
 Om dit probleem op te lossen, verwijder alle URI\'s uit "feed.http-hooks".',
   'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' does not exist.' => 'Het PATH-onderdeel \'%s\' (dat wordt omgezet naar het absolute pad \'%s\') is niet bruikbaar omdat \'%s\' niet bestaat.',
   'The search index algorithm has been updated and the index needs be rebuilt.' => 'Het zoekindex-algoritme is bijgewerkt en de index moet opnieuw worden opgebouwd.',
-  'The current PHP configuration has these %d value(s):' => 'De huidige PHP-configuratie heeft deze %d waarde(n):',
-  'Database host "%s" is configured as a master, but is replicating another host. This is dangerous and can mangle or destroy data. Only replicas should be replicating. Stop replication on the host or adjust configuration.' => 'Databasehost "%s" is geconfigureerd als master, maar repliceert een andere host. Dit is gevaarlijk en kan gegevens verminken of vernietigen. Alleen replica\'s zouden moeten repliceren. Stop replicatie op de host of pas de configuratie aan.',
+  'The current PHP configuration has these %d value(s):' => array(
+    'De huidige PHP-configuratie heeft deze waarde:',
+    'De huidige PHP-configuratie heeft deze waarden:',
+  ),
+  'Database host "%s" is configured as a master, but is replicating another host. This is dangerous and can mangle or destroy data. Only replicas should be replicating. Stop replication on the host or adjust configuration.' => 'Databasehost "%s" is geconfigureerd als primair, maar repliceert een andere host. Dit is gevaarlijk en kan gegevens verminken of vernietigen. Alleen replica\'s zouden moeten repliceren. Stop replicatie op de host of pas de configuratie aan.',
   'This issue is currently ignored, and does not show a global warning.' => 'Dit probleem wordt momenteel genegeerd en geeft geen globale waarschuwing weer.',
   'Cache Status' => 'Cachestatus',
   'You have at least one repository configured which uses this version control system. It will not work without the VCS binary.' => 'U hebt ten minste één repository geconfigureerd die dit versiebeheersysteem gebruikt. Het werkt niet zonder het VCS-binaire bestand.',
-  'Done. Migrated %d keys.' => 'Gereed. %d sleutels gemigreerd.',
+  'Done. Migrated %d keys.' => array(
+    'Gereed. %d sleutel gemigreerd.',
+    'Gereed. %d sleutels gemigreerd.',
+  ),
   'The remote IP.' => 'Het externe IP-adres.',
   'Disable Prototypes' => 'Prototypes uitschakelen',
   'US West (PDT)' => 'US West (PDT)',
@@ -1310,8 +1347,8 @@ Om dit probleem op te lossen, verwijder alle URI\'s uit "feed.http-hooks".',
   'MySQL is Using Default Stopword File' => 'MySQL gebruikt standaard stopwoordenbestand',
   'Pagespeed is enabled, but should be disabled.' => 'Pagespeed is ingeschakeld, maar moet worden uitgeschakeld.',
   'Paths to additional phutil libraries to load.' => 'Paden naar aanvullende phutil-bibliotheken om te laden.',
-  'User Guide: Prototype Applications' => 'Gebruikershandleiding: prototype-applicaties',
-  'If you enable this, linked YouTube videos will be embedded inline. This has mild security implications (you\'ll leak referrers to YouTube) and is pretty silly (but sort of awesome).' => 'Als u dit inschakelt, worden gekoppelde YouTube-video\'s inline ingesloten. Dit heeft milde beveiligingsimplicaties (u lekt referrers naar YouTube) en is vrij onnozel (maar wel leuk).',
+  'User Guide: Prototype Applications' => 'Gebruikershandleiding: prototype-toepassingen',
+  'If you enable this, linked YouTube videos will be embedded inline. This has mild security implications (you\'ll leak referrers to YouTube) and is pretty silly (but sort of awesome).' => 'Als u dit inschakelt, worden gekoppelde YouTube-video\'s ingebed ingesloten. Dit heeft milde beveiligingsimplicaties (u lekt referrers naar YouTube) en is vrij onnozel (maar wel leuk).',
   'Library' => 'Bibliotheek',
   'The \'%s\' binary could not be located or executed.' => 'Het binaire bestand \'%s\' kon niet worden gevonden of uitgevoerd.',
   'Show Email Preferences Link' => 'Koppeling naar e-mailvoorkeuren weergeven',
@@ -1335,13 +1372,13 @@ Hosts on this whitelist have special powers. These hosts are permitted to bend s
 
 Define a list of CIDR blocks which whitelist all hosts in the cluster and no additional hosts. See the examples below for details.
 
-When cluster addresses are defined, hosts will also reject requests to interfaces which are not whitelisted.' => 'Definieer een cluster door een witte lijst van hostadressen op te geven die deel uitmaken van het cluster.
+When cluster addresses are defined, hosts will also reject requests to interfaces which are not whitelisted.' => 'Definieer een cluster door een toelatingslijst van hostadressen op te geven die deel uitmaken van het cluster.
 
-Hosts op deze witte lijst hebben speciale bevoegdheden. Deze hosts mogen beveiligingsregels omzeilen, en het verkeerd configureren van deze lijst kan uw installatie minder veilig maken. Zie **[[ %s | %s ]]** voor meer informatie.
+Hosts op deze toelatingslijst hebben speciale bevoegdheden. Deze hosts mogen beveiligingsregels omzeilen, en het verkeerd configureren van deze lijst kan uw installatie minder veilig maken. Zie **[[ %s | %s ]]** voor meer informatie.
 
-Definieer een lijst van CIDR-blokken die alle hosts in het cluster op de witte lijst plaatsen en geen extra hosts. Zie de onderstaande voorbeelden voor details.
+Definieer een lijst van CIDR-blokken die alle hosts in het cluster op de toelatingslijst plaatsen en geen extra hosts. Zie de onderstaande voorbeelden voor details.
 
-Wanneer clusteradressen zijn gedefinieerd, wijzen hosts ook verzoeken af naar interfaces die niet op de witte lijst staan.',
+Wanneer clusteradressen zijn gedefinieerd, wijzen hosts ook verzoeken af naar interfaces die niet op de toelatingslijst staan.',
   'On host "%s", MySQL is configured with a small "%s" (%d), which may cause some large writes to fail. The recommended minimum value for this setting is "%d".' => 'Op host "%s" is MySQL geconfigureerd met een kleine "%s" (%d), waardoor sommige grote schrijfbewerkingen kunnen mislukken. De aanbevolen minimumwaarde voor deze instelling is "%d".',
   'Config option "%s" is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like "%s".' => 'Configuratieoptie "%s" is onjuist. De tijdzone-identificatie moet een geldige tijdzone-identificatie zijn die door PHP wordt herkend, zoals "%s".',
   'The PATH component \'%s\' (which resolves as the absolute path \'%s\') is not usable because \'%s\' is not a directory.' => 'Het PATH-onderdeel \'%s\' (dat wordt omgezet naar het absolute pad \'%s\') is niet bruikbaar omdat \'%s\' geen map is.',
@@ -1369,6 +1406,7 @@ OPMERKING: U moet XHProf installeren om profilering te laten werken.',
   'Logo configuration is not valid: value must be a dictionary.' => 'Logoconfiguratie is niet geldig: waarde moet een woordenboek zijn.',
   'Really ignore this setup issue?' => 'Dit configuratieprobleem echt negeren?',
   'Config option "%s" is invalid. The URI must start with "%s" or "%s".' => 'Configuratieoptie "%s" is onjuist. De URI moet beginnen met "%s" of "%s".',
+  'Set default user-agent to "%s"' => 'Standaard user-agent instellen op "%s"',
   'Options relating to syntax highlighting source code.' => 'Opties met betrekking tot syntaxismarkering van broncode.',
   'Allow HTTP' => 'HTTP toestaan',
   'Simple Example' => 'Eenvoudig voorbeeld',
@@ -1380,17 +1418,22 @@ OPMERKING: U moet XHProf installeren om profilering te laten werken.',
   'Unsynchronized' => 'Niet gesynchroniseerd',
   'Available search engines are now automatically discovered at runtime.' => 'Beschikbare zoekmachines worden nu automatisch ontdekt tijdens runtime.',
   'Key for HMAC digests.' => 'Sleutel voor HMAC-digests.',
+  'Enable applications which are still under development.' => 'Toepassingen inschakelen die nog in ontwikkeling zijn.',
   'The request duration, in microseconds.' => 'De verzoekduur, in microseconden.',
   'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.' => 'Amazon S3-regio waar uw S3-bucket zich bevindt. Wanneer u een regio opgeeft, moet u ook een bijbehorend eindpunt opgeven met `amazon-s3.endpoint`. U kunt een lijst van beschikbare regio\'s en eindpunten vinden in de AWS-documentatie.',
+  'Disabled Application' => 'Uitgeschakelde toepassing',
   'MySQL %s Not Supported' => 'MySQL %s niet ondersteund',
   'Option "%s" is of type "%s", but the current value ("%s") is not among the set of valid values: %s.' => 'Optie "%s" is van het type "%s", maar de huidige waarde ("%s") behoort niet tot de set geldige waarden: %s.',
-  'Auth Application' => 'Authenticatie-applicatie',
+  'Auth Application' => 'Authenticatie-toepassing',
   'The environmental variable %s is empty. This server will not be able to execute some commands.' => 'De omgevingsvariabele %s is leeg. Deze server kan sommige opdrachten niet uitvoeren.',
   '%s.%s (%s)' => '%s.%s (%s)',
   'There is a new indirection layer between the strings that appear as VCS authors and committers (such as "John Developer <johnd@bigcorp.com>") and the user account that gets associated with VCS commits.' => 'Er is een nieuwe indirectielaag tussen de tekenreeksen die verschijnen als VCS-auteurs en committers (zoals "Jan Ontwikkelaar <jano@grootbedrijf.com>") en het gebruikersaccount dat wordt gekoppeld aan VCS-commits.',
   'All Differential fields are now managed through the configuration option "%s". Use that option to configure which fields are shown.' => 'Alle Differential-velden worden nu beheerd via de configuratieoptie "%s". Gebruik die optie om te configureren welke velden worden weergegeven.',
   'Use HSTS' => 'HSTS gebruiken',
-  'The current MySQL configuration has these %d value(s):' => 'De huidige MySQL-configuratie heeft deze %d waarde(n):',
+  'The current MySQL configuration has these %d value(s):' => array(
+    'De huidige MySQL-configuratie heeft deze waarde:',
+    'De huidige MySQL-configuratie heeft deze waarden:',
+  ),
   'Show "To:" and "Cc:" footer hints in email.' => '"Aan:"- en "Cc:"-voetteksthints weergeven in e-mail.',
   'Write SSH log here.' => 'SSH-logboek hier schrijven.',
   'Migrate From "feed.http-hooks" to Webhooks' => 'Migreren van "feed.http-hooks" naar Webhooks',
@@ -1405,7 +1448,7 @@ OPMERKING: U moet XHProf installeren om profilering te laten werken.',
   'Default address used when generating mail.' => 'Standaardadres dat wordt gebruikt bij het genereren van e-mail.',
   'By default, this software serves files from the same domain the application is served from. This is convenient, but presents a security risk.
 
-You should configure a CDN or alternate file domain to mitigate this risk. Configuring a CDN will also improve performance. See [[ %s | %s ]] for instructions.' => 'Standaard serveert deze software bestanden vanaf hetzelfde domein als de applicatie. Dit is handig, maar vormt een beveiligingsrisico.
+You should configure a CDN or alternate file domain to mitigate this risk. Configuring a CDN will also improve performance. See [[ %s | %s ]] for instructions.' => 'Standaard serveert deze software bestanden vanaf hetzelfde domein als de toepassing. Dit is handig, maar vormt een beveiligingsrisico.
 
 U moet een CDN of alternatief bestandsdomein configureren om dit risico te beperken. Het configureren van een CDN verbetert ook de prestaties. Zie [[ %s | %s ]] voor instructies.',
   'Learn more about locked and hidden options.' => 'Meer informatie over vergrendelde en verborgen opties.',
@@ -1439,7 +1482,7 @@ Zie **[[ %s | %s ]]** in de documentatie voor verdere begeleiding.',
   'Repository Status' => 'Repositorystatus',
   'Do Not Use HSTS' => 'HSTS niet gebruiken',
   'List all configuration keys.' => 'Alle configuratiesleutels weergeven.',
-  'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'Aanpassing van e-mailonderwerpvoorvoegsels per applicatie wordt niet langer direct ondersteund. Voorvoegsels en andere tekenreeksen kunnen worden aangepast met "translation.override".',
+  'Per-application mail subject prefix customization is no longer directly supported. Prefixes and other strings may be customized with "translation.override".' => 'Aanpassing van e-mailonderwerpvoorvoegsels per toepassing wordt niet langer direct ondersteund. Voorvoegsels en andere tekenreeksen kunnen worden aangepast met "translation.override".',
   'Configuration key "%s" is of type "%s". Specify it in JSON.' => 'Configuratiesleutel "%s" is van het type "%s". Geef het op in JSON.',
   'This will only affect the current web frontend. Daemons and any other web frontends may continue to use older, cached code from their opcache.' => 'Dit heeft alleen invloed op de huidige webfrontend. Daemons en andere webfrontends kunnen oudere, gecachte code uit hun opcache blijven gebruiken.',
   'Configure real-time notifications.' => 'Realtime-meldingen configureren.',
@@ -1459,7 +1502,10 @@ e-mails prefereren.',
   'Syntax Highlighting' => 'Syntaxismarkering',
   'This schema is not expected to exist.' => 'Dit schema wordt niet verwacht te bestaan.',
   'View status information for databases, caches, repositories, and other services.' => 'Statusinformatie voor databases, caches, repository\'s en andere diensten bekijken.',
-  'This configuration value is defined in these %d configuration source(s): %s.' => 'Deze configuratiewaarde is gedefinieerd in deze %d configuratiebron(nen): %s.',
+  'This configuration value is defined in these %d configuration source(s): %s.' => array(
+    'Deze configuratiewaarde is gedefinieerd in deze configuratiebron: %2$s.',
+    'Deze configuratiewaarde is gedefinieerd in deze %d configuratiebronnen: %s.',
+  ),
   'Specify a configuration key to get.' => 'Geef een configuratiesleutel op om op te halen.',
   'Can not compare two missing schemata!' => 'Kan twee ontbrekende schema\'s niet vergelijken!',
   'Key on Wrong Columns' => 'Sleutel op verkeerde kolommen',
@@ -1474,7 +1520,7 @@ e-mails prefereren.',
   'The environmental variable %s does not contain %s. You have enabled pygments, which requires %s to be available in your %s variable.' => 'De omgevingsvariabele %s bevat geen %s. U hebt pygments ingeschakeld, waarvoor %s beschikbaar moet zijn in uw %s-variabele.',
   'Use Pygments' => 'Pygments gebruiken',
   'Amazon Web Services' => 'Amazon Web Services',
-  'Customized settings for applications.' => 'Aangepaste instellingen voor applicaties.',
+  'Customized settings for applications.' => 'Aangepaste instellingen voor toepassingen.',
   'US Central (CDT)' => 'US Central (CDT)',
   'Config option "%s" is invalid. The URI must contain a dot ("%s"), like "%s", not just a bare name like "%s". Some web browsers will not set cookies on domains with no TLD.' => 'Configuratieoptie "%s" is onjuist. De URI moet een punt ("%s") bevatten, zoals "%s", niet alleen een kale naam zoals "%s". Sommige webbrowsers stellen geen cookies in op domeinen zonder TLD.',
   '%s Active' => '%s actief',
@@ -1502,6 +1548,12 @@ berichten prefereren.',
   'Databases' => 'Databases',
   'Basic Example' => 'Basisvoorbeeld',
   '%s In / %s Out' => '%s in / %s uit',
+  'Adapter class to use to transmit mail to the MTA. The default uses
+PHPMailer, which will invoke "mail". This is appropriate if mail actually
+works on your host, but if you haven\'t configured mail it may not be so great.
+A number of other mailers are available (e.g., SES, SendGrid, SMTP, Sendmail,
+custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => 'Adapterklasse om e-mail naar de MTA te verzenden. De standaard gebruikt PHPMailer, dat "mail" aanroept. Dit is geschikt als mail daadwerkelijk werkt op uw host, maar als u e-mail niet hebt geconfigureerd is het mogelijk niet zo goed. Er zijn een aantal andere mailers beschikbaar (bijv. SES, SendGrid, SMTP, sendmail,
+aangepaste mailers). Deze optie is verouderd ten gunste van \'cluster.mailers\'.',
   'This option allows you to stop this service from sending data to most external
 services: it will disable email, SMS, repository mirroring, remote builds,
 Doorkeeper writes, and webhooks.
@@ -1519,33 +1571,12 @@ production instance were both in operation.' => 'Met deze optie kunt u voorkomen
 Deze optie is bedoeld om een instantie te exporteren, kopiëren, importeren en uit te voeren in een testomgeving zonder gebruikers te beïnvloeden. Als u bijvoorbeeld migreert naar nieuwe hardware, kunt u eerst een testmigratie uitvoeren met deze vlag ingesteld, controleren of alles werkt, en vervolgens later een productie-omschakeling doen met meer vertrouwen en minder verstoring.
 
 Zonder gebruik te maken van deze vlag om de tijdelijke testomgeving te dempen, zouden gebruikers dubbele e-mail ontvangen gedurende de tijd dat de testinstantie en de oude productie-instantie beide in bedrijf waren.',
-  'Whitelist Specific Addresses' => 'Specifieke adressen op witte lijst plaatsen',
+  'Whitelist Specific Addresses' => 'Specifieke adressen op toelatingslijst plaatsen',
   'Other Version Information' => 'Overige versie-informatie',
-  'The base URI for this install is not configured, and major features will not work properly until you configure it.
-
-You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
-
-Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
-
-Based on this request, it appears that the correct setting is:
-
-%s
-
-To configure the base URI, run the command shown below.' => 'De basis-URI voor deze installatie is niet geconfigureerd, en belangrijke functies werken niet correct totdat u deze configureert.
-
-U moet de basis-URI instellen op de URI die u zult gebruiken om toegang te krijgen tot deze server, zoals "http://devtools.example.com/".
-
-Voeg het protocol (http of https), de domeinnaam en het poortnummer toe als u een andere poort gebruikt dan 80 (http) of 443 (https).
-
-Op basis van dit verzoek lijkt de juiste instelling te zijn:
-
-%s
-
-Voer het onderstaande commando uit om de basis-URI te configureren.',
   'The mapping from VCS users to %s users has changed and must be rebuilt.' => 'De toewijzing van VCS-gebruikers naar %s-gebruikers is gewijzigd en moet opnieuw worden opgebouwd.',
   'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Authenticatieconfiguratie is momenteel ontgrendeld. Zodra u klaar bent met het configureren van authenticatie, moet u deze vergrendelen.',
   'Use `%s` instead of this option.' => 'Gebruik `%s` in plaats van deze optie.',
-  'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'U hebt nog geen authenticatieproviders geconfigureerd. U moet een provider toevoegen (zoals gebruikersnaam/wachtwoord, LDAP of GitHub OAuth) zodat gebruikers zich kunnen registreren en inloggen. U kunt providers toevoegen en configureren met de authenticatie-applicatie.',
+  'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'U hebt nog geen authenticatieproviders geconfigureerd. U moet een provider toevoegen (zoals gebruikersnaam/wachtwoord, LDAP of GitHub OAuth) zodat gebruikers zich kunnen registreren en inloggen. U kunt providers toevoegen en configureren met de authenticatie-toepassing.',
   'Run the storage upgrade script to upgrade databases (host "%s" is out of date). Missing patches: %s.' => 'Voer het opslagupgradescript uit om databases te upgraden (host "%s" is verouderd). Ontbrekende patches: %s.',
   'Resource deflation is now managed automatically.' => 'Brondeflatie wordt nu automatisch beheerd.',
   'MySQL' => 'MySQL',
@@ -1557,11 +1588,17 @@ Voer het onderstaande commando uit om de basis-URI te configureren.',
   'Cluster instance name, if configured.' => 'Clusterinstantienaam, indien geconfigureerd.',
   'You likely need to fix your preamble script so REMOTE_ADDR is no longer empty.' => 'U moet waarschijnlijk uw preamble-script repareren zodat REMOTE_ADDR niet langer leeg is.',
   'Unknown Config' => 'Onbekende configuratie',
-  'Detected %s serious issue(s) with the schemata.' => '%s ernstig(e) probleem/problemen gedetecteerd bij de schema\'s.',
+  'Detected %s serious issue(s) with the schemata.' => array(
+    '%s ernstig probleem gedetecteerd met de schema\'s.',
+    '%s ernstige problemen gedetecteerd met de schema\'s.',
+  ),
   'Daemons Not Running' => 'Daemons draaien niet',
   'MySQL username to use when connecting to the database.' => 'MySQL-gebruikersnaam om te gebruiken bij het verbinden met de database.',
   'Secret key for Amazon EC2.' => 'Geheime sleutel voor Amazon EC2.',
-  'These %d configuration value(s) are related:' => 'Deze %d configuratiewaarde(n) zijn gerelateerd:',
+  'These %d configuration value(s) are related:' => array(
+    'Deze configuratiewaarde is gerelateerd:',
+    'Deze configuratiewaarden zijn gerelateerd:',
+  ),
   'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
 
 This may indicate that your webserver is not configured to compress responses. If so, you should enable compression. Compression can dramatically improve performance, especially for clients with less bandwidth.' => 'Deze software heeft zichzelf een verzoek gestuurd met "Accept-Encoding: gzip", maar ontving een ongecomprimeerd antwoord.
@@ -1589,20 +1626,11 @@ U moet deze optie uitschakelen in uw %s-bestand, in de %s-sectie:
 
 %s',
   'Setup Checks' => 'Configuratiecontroles',
-  'Adapter class to use to transmit mail to the MTA. The default uses
-PHPMailerLite, which will invoke "sendmail". This is appropriate if sendmail
-actually works on your host, but if you haven\'t configured mail it may not be so
-great. A number of other mailers are available (e.g., SES, SendGrid, SMTP,
-custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => 'Adapterklasse om e-mail naar de MTA te verzenden. De standaard gebruikt
-PHPMailerLite, dat "sendmail" aanroept. Dit is geschikt als sendmail
-daadwerkelijk werkt op uw host, maar als u e-mail niet hebt geconfigureerd is het mogelijk niet zo
-goed. Er zijn een aantal andere mailers beschikbaar (bijv. SES, SendGrid, SMTP,
-aangepaste mailers). Deze optie is verouderd ten gunste van \'cluster.mailers\'.',
   'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Dit systeem heeft een niet-gepatchte versie van Bash met een ernstige, breed bekendgemaakte kwetsbaarheid.',
   'Keys' => 'Sleutels',
   'No Auth Providers' => 'Geen authenticatieproviders',
   'Missing Required Extensions' => 'Ontbrekende vereiste uitbreidingen',
-  'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.' => 'Deze optie is gemigreerd naar de "Auth"-applicatie. Uw oude configuratie is nog steeds van kracht, maar wordt nu opgeslagen in "Auth" in plaats van in de configuratie. Voortaan kunt u authenticatie beheren vanuit de webinterface.',
+  'This option has been migrated to the "Auth" application. Your old configuration is still in effect, but now stored in "Auth" instead of configuration. Going forward, you can manage authentication from the web UI.' => 'Deze optie is gemigreerd naar de "Auth"-toepassing. Uw oude configuratie is nog steeds van kracht, maar wordt nu opgeslagen in "Auth" in plaats van in de configuratie. Voortaan kunt u authenticatie beheren vanuit de webinterface.',
   'Provide a list of notification servers to enable real-time notifications.
 
 For help setting up notification servers, see **[[ %s | %s ]]** in the
@@ -1630,18 +1658,21 @@ Om deze optie uit te schakelen, stel in: %s',
 
 Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'WAARSCHUWING: Dit is een prototype-optie en de onderstaande beschrijving is momenteel pure fantasie.
 
-Schakel de dienst over naar alleen-lezenmodus. In deze modus kunnen gebruikers geen nieuwe gegevens schrijven. Normaal gesproken degradeert het cluster automatisch naar deze modus wanneer het detecteert dat de databasemaster onbereikbaar is, maar u kunt het handmatig activeren om onderhoud uit te voeren of de configuratie te testen.',
+Schakel de dienst over naar alleen-lezenmodus. In deze modus kunnen gebruikers geen nieuwe gegevens schrijven. Normaal gesproken degradeert het cluster automatisch naar deze modus wanneer het detecteert dat de primaire database onbereikbaar is, maar u kunt het handmatig activeren om onderhoud uit te voeren of de configuratie te testen.',
   'Severe Security Vulnerability: Unpatched Bash' => 'Ernstige beveiligingskwetsbaarheid: niet-gepatchte Bash',
   'Force HTTPS' => 'HTTPS forceren',
   'This key is not expected to exist.' => 'Deze sleutel wordt niet verwacht te bestaan.',
   '%s.%s' => '%s.%s',
   '%s.%s.%s' => '%s.%s.%s',
-  '%d related link(s):' => '%d gerelateerde koppeling(en):',
+  '%d related link(s):' => array(
+    '%d gerelateerde koppeling:',
+    '%d gerelateerde koppelingen:',
+  ),
   'To rebuild identities, run this command:' => 'Voer dit commando uit om identiteiten opnieuw op te bouwen:',
   'Missing Repository Local Path' => 'Ontbrekend lokaal repositorypad',
   'An alternate resource map is no longer supported. Instead, use multiple maps. See T4222.' => 'Een alternatieve bronmap wordt niet langer ondersteund. Gebruik in plaats daarvan meerdere mappen. Zie T4222.',
   'Repository Services' => 'Repositorydiensten',
-  'Inline comments are now always rendered with a limited amount of context.' => 'Inline-opmerkingen worden nu altijd weergegeven met een beperkte hoeveelheid context.',
+  'Inline comments are now always rendered with a limited amount of context.' => 'Ingebedde opmerkingen worden nu altijd weergegeven met een beperkte hoeveelheid context.',
   'Locked Configuration Option "%s" Has Database Value' => 'Vergrendelde configuratieoptie "%s" heeft databasewaarde',
   'Separate values with newlines or commas.' => 'Scheid waarden met nieuwe regels of komma\'s.',
   'Don\'t require email verification' => 'Geen e-mailverificatie vereisen',
@@ -1689,8 +1720,8 @@ This usually means you have edited a file and left whitespace characters before 
 Dit betekent meestal dat u een bestand hebt bewerkt en witruimtetekens hebt achtergelaten vóór de openings-%s-tag, of na een sluitende %s-tag. Verwijder eventuele voorafgaande witruimte en laat bij voorkeur sluitende tags weg.',
   'MySQL on this machine' => 'MySQL op deze machine',
   'No such configuration key \'%s\'! Use `%s` to list all keys.' => 'Configuratiesleutel \'%s\' bestaat niet! Gebruik `%s` om alle sleutels weer te geven.',
-  'You can respond to various application events by installing listeners, which will receive callbacks when interesting things occur. Specify a list of classes which extend PhabricatorEventListener here.' => 'U kunt reageren op verschillende applicatie-events door listeners te installeren, die callbacks ontvangen wanneer interessante dingen gebeuren. Geef hier een lijst op van klassen die PhabricatorEventListener uitbreiden.',
-  'This install has a fatal setup error, access the web interface to view details and resolve it.' => 'Deze installatie heeft een fatale configuratiefout, open de webinterface om details te bekijken en het op te lossen.',
+  'You can respond to various application events by installing listeners, which will receive callbacks when interesting things occur. Specify a list of classes which extend PhabricatorEventListener here.' => 'U kunt reageren op verschillende toepassingsgebeurtenissen door listeners te installeren, die callbacks ontvangen wanneer interessante dingen gebeuren. Geef hier een lijst op van klassen die PhabricatorEventListener uitbreiden.',
+  'This install has a fatal setup error, access the web interface to view details and resolve it.' => 'Deze installatie heeft een onherstelbare configuratiefout, open de webinterface om details te bekijken en het op te lossen.',
   'Alternate domain to serve files from.' => 'Alternatief domein om bestanden vanaf te serveren.',
   'Your webserver is not forwarding credentials.' => 'Uw webserver stuurt aanmeldgegevens niet door.',
   'Default non-pygments syntax highlighter engine.' => 'Standaard niet-pygments syntaxismarkeringsengine.',
@@ -1761,9 +1792,29 @@ If you provide an instance identifier here (normally by injecting it with a `%s`
 
 Als u hier een instantie-identificatie opgeeft (normaal gesproken door deze te injecteren met een `%s`), geeft de server deze door aan subprocessen en commit-hooks in de `%s`-omgevingsvariabele.',
   'Version Information' => 'Versie-informatie',
+  'The base URI for this install is not configured, and major features will not work properly until you configure it.
+
+You should set the base URI to the URI you will use to access this server, like "https://devtools.example.com/".
+
+Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
+
+Based on this request, it appears that the correct setting is:
+
+%s
+
+To configure the base URI, run the command shown below.' => 'De basis-URI voor deze installatie is niet geconfigureerd, en belangrijke functies werken niet correct totdat u deze configureert.
+
+U moet de basis-URI instellen op de URI die u zult gebruiken om toegang te krijgen tot deze server, zoals "https://devtools.example.com/".
+
+Voeg het protocol (http of https), de domeinnaam en het poortnummer toe als u een andere poort gebruikt dan 80 (http) of 443 (https).
+
+Op basis van dit verzoek lijkt de juiste instelling te zijn:
+
+%s
+
+Voer het onderstaande commando uit om de basis-URI te configureren.',
   'HTTP Path Rewriting Incorrect' => 'HTTP-padherschrijving incorrect',
   'Surplus' => 'Overtollig',
-  'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'U hebt Imagemagick ingeschakeld in uw configuratie, maar het binaire bestand \'%s\' staat niet in de %s van de webserver. Schakel Imagemagick uit of maak het beschikbaar voor de webserver.',
   'Instance identifier for multi-tenant clusters.' => 'Instantie-identificatie voor multi-tenant clusters.',
   'Upgrade MySQL Schema' => 'MySQL-schema upgraden',
   'Unignore Setup Issue' => 'Configuratieprobleem niet meer negeren',
@@ -1781,7 +1832,7 @@ Als u hier een instantie-identificatie opgeeft (normaal gesproken door deze te i
   'Woe! This request had its journey cut short by unexpected circumstances (%s).' => 'Wee! Dit verzoek werd voortijdig afgebroken door onverwachte omstandigheden (%s).',
   'Customizes retention policies for garbage collectors.' => 'Past het bewaarbeleid voor garbage collectors aan.',
   'This schema can use a better column type.' => 'Dit schema kan een beter kolomtype gebruiken.',
-  'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => 'Zonder \'%s\' kan deze software geen diffs genereren of weergeven in meerdere applicaties.',
+  'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => 'Zonder \'%s\' kan deze software geen diffs genereren of weergeven in meerdere toepassingen.',
   'The request date.' => 'De verzoekdatum.',
   'Reply handlers can no longer be overridden with configuration.' => 'Antwoordhandlers kunnen niet langer worden overschreven met configuratie.',
   'There is some deprecated code found in the %s code-base.
@@ -1805,7 +1856,7 @@ Om dit probleem op te lossen, kunt u:
 
 - %s bezoeken en een bugrapport indienen met de onderstaande informatie, of
 - Dit probleem negeren met de knop `Negeren` hieronder.',
-  'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => 'Merk op dat het standaardformaat in de toekomst kan veranderen, dus als u afhankelijk bent van het logboekformaat, geef het dan expliciet op.',
+  'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => 'Merk op dat het standaardformaat in de toekomst kan wijzigen, dus als u afhankelijk bent van het logboekformaat, geef het dan expliciet op.',
   'Send as %s' => 'Verzenden als %s',
   'Setup Error' => 'Configuratiefout',
   'Installed on Burstable CPU Instance' => 'Geïnstalleerd op burstable CPU-instantie',
@@ -1823,7 +1874,6 @@ Als deze map bestaat, maak deze leesbaar voor de webserver. U kunt ook de onders
   'Unignore' => 'Niet meer negeren',
   'Text values that match this regex and are also object names will not be linked.' => 'Tekstwaarden die overeenkomen met deze regex en ook objectnamen zijn, worden niet gekoppeld.',
   '%s Held / %sms' => '%s vastgehouden / %sms',
-  'Write access log here.' => 'Toegangslogboek hier schrijven.',
 );
   }
 

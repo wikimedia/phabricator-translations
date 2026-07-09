@@ -23,7 +23,6 @@ final class PhabricatorUiexampleTr
   'Poor Use of Space' => 'Alanın Kötü Kullanımı',
   'Action Panel' => 'Eylem Paneli',
   'Allows easily alignment of left/right UI elements.' => 'Sol/sağ UI öğelerinin kolayca hizalanmasını sağlar.',
-  'Images' => 'Resimler',
   'Rain' => 'Yağmur',
   'Another minor event.' => 'Başka bir küçük olay.',
   'Like fractions, but more horizontal.' => 'Kesirler gibi, ancak daha yatay.',
@@ -50,6 +49,28 @@ final class PhabricatorUiexampleTr
   'A modern description with lots of frills.' => 'Fırfırlar çok modern bir açıklama.',
   'Reading is a common way to learn about things.' => 'Okuma, bir şeyler öğrenmenin yaygın bir yoludur.',
   'AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel' => 'ÇokÇokÇokÇokÇokÇokÇokÇokÇokÇokUzunKırılmamışBirÜrünEtiketi',
+  'This is some **remarkup text** using ~~exactly one style~~ //various styles//.
+
+  - Fruit
+    - Apple
+    - Banana
+    - Cherry
+  - Vegetables
+    1. Carrot
+    2. Celery
+
+NOTE: This is a note.
+
+(NOTE) This is also a note.
+
+WARNING: This is a warning.
+
+(WARNING) This is also a warning.
+
+IMPORTANT: This is not really important.
+
+(IMPORTANT) This isn\'t important either.
+' => '',
   'Setup Issue' => 'Kurulum Sorunu',
   'Top Navigation' => 'En İyi Gezinme',
   'Unit (3/5)' => 'Birim (3/5)',
@@ -66,6 +87,7 @@ final class PhabricatorUiexampleTr
   'Button Bar Example' => 'Düğme Çubuğu Örneği',
   'Icon Buttons' => 'Simge Düğmeleri',
   '%s bought an apple.' => '%s bir elma aldı.',
+  'Failed to copy text into clipboard.' => '',
   'Property List' => 'Gayrimenkul Listesi',
   'Cardigan' => 'Hırka',
   'Easter' => 'Paskalya',
@@ -74,7 +96,6 @@ final class PhabricatorUiexampleTr
   'Wrote code that was acceptable' => 'Kabul edilebilir olan kod yazdı',
   '%s bought a cherry.' => '%s bir kiraz aldı.',
   'Direct Award' => 'Doğrudan Ödül',
-  'Funder' => 'Maliyeci',
   'Send a Message' => 'Mesaj Gönder',
   'agoat' => 'bir keçi',
   'Inline' => 'Satır içi',
@@ -90,8 +111,6 @@ final class PhabricatorUiexampleTr
   'Feed Story' => 'Besleme Hikayesi',
   '%s went to the store.' => '%s mağazaya gitti.',
   'Colors of the Rainbow' => 'Gökkuşağının Renkleri',
-  'City/State' => 'Şehir/Eyalet',
-  'Let\'s Go Shopping' => 'Hadi Alışverişe Gidelim',
   'Pasta Haiku' => 'Makarna Haiku',
   'Confirmed your account.' => 'Hesabınızı onayladı.',
   'Timeline View' => 'Zaman Çizelgesi Görünümü',
@@ -200,10 +219,10 @@ final class PhabricatorUiexampleTr
   'Font Awesome by Dave Gandy - %s' => 'Font Awesome - Dave Gandy - %s',
   'Token Story' => 'Anahtar Hikayesi',
   'Believe In Yourself' => 'Kendine İnan',
-  'Payment Information' => 'Ödeme Bilgileri',
   'Debugging' => 'Hata ayıklama',
   'Joe' => 'Joe',
   'Warm!' => 'Ilık!',
+  'Text copied into clipboard.' => 'Metin panoya kopyalandı.',
   'Remarkup Example' => 'Açıklama Örneği',
   'Lead Developer of Software' => 'Yazılımın Baş Geliştirici',
   'Shades' => 'Gölgeler',
@@ -265,7 +284,6 @@ final class PhabricatorUiexampleTr
   'PHUIX' => 'PHUIX',
   'This event is red!' => 'Bu olay kırmızı!',
   'A panel with strong tendencies for inciting ACTION!' => 'EYLEM\'i teşvik etmek için güçlü eğilimleri olan bir panel!',
-  'Postal Code' => 'Posta Kodu',
   'Big Info View' => 'Büyük Bilgi Görünümü',
   'Installation' => 'Kurulum',
   'Cardamom' => 'Kakule',
@@ -284,7 +302,6 @@ final class PhabricatorUiexampleTr
   'You can eat them.' => 'Yiyebilirsin.',
   '%s related on his adventures.' => 'Maceralarıyla ilgili %s.',
   'Code Weaver' => 'Kod Dokumacı',
-  'Country' => 'Ülke',
   'Use %s to create a control which allows users to paginate through large amounts of content.' => 'Kullanıcıların büyük miktarda içerikte sayfalandırma yapmalarını sağlayan bir kontrol oluşturmak için %s kullanın.',
   'Demonstrates the visual appearance of various Remarkup elements.' => 'Çeşitli Remarkup öğelerinin görsel görünümünü gösterir.',
   'Typeaheads, tokenizers and tokens.' => 'Tipler, belirticiler ve belirteçleri yazın.',
@@ -297,7 +314,6 @@ final class PhabricatorUiexampleTr
   'Yum' => 'Yum',
   'Plain Box' => 'Düz Kutu',
   'More Stuff' => 'Daha Fazla Şey',
-  'Shipping Address' => 'Teslimat Adresi',
   '%s bought a banana.' => '%s muz aldı.',
   'House of Cards' => 'Kart Evi',
   'Display images with crops.' => 'Kırpma ile görüntüleri görüntüler.',

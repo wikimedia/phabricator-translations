@@ -35,7 +35,6 @@ final class ArcanistCoreBlk
   'No viewer!' => 'ထွားသားအဲန်ထဝ်း',
   'JSON Lint' => 'JSON တထူလွုံꩻ',
   'Broken' => 'ဖဖြယ်',
-  'Deleted "%s".' => 'ယားထိုꩻ "%s"နဝ်ꩻသွူ',
   'Skip' => 'ကာႏထိုꩻ',
   'Deleted' => 'ယားကုဲင်ထွူလဲဉ်း',
   'Oct' => 'အောက်',

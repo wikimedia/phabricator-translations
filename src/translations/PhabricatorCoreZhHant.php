@@ -57,7 +57,6 @@ final class PhabricatorCoreZhHant
   'Read/Write' => '讀/寫',
   'CANCELLED' => '已取消',
   'Fullscreen Mode' => '全螢幕模式',
-  'Subscriptions' => '訂閱',
   'Updated %s' => '已更新%s',
   'Users' => '使用者',
   'Edit Picture' => '編輯圖片',

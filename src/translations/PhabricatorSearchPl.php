@@ -14,7 +14,6 @@ final class PhabricatorSearchPl
   'Enable Query?' => 'Włączyć zapytanie?',
   'Global Search' => 'Wyszukiwanie globalne',
   'Personal Menu Items' => 'Elementy menu osobistego',
-  'Format' => 'Format',
   'The queries you have saved are private. Only you can view or edit them.' => 'Zapisane zapytania są prywatne. Tylko Ty możesz je wyświetlać lub edytować.',
   'cat -A can find mice hiding in files.' => 'cat -A może znaleźć myszy ukrywające się w plikach.',
   'Export Format Not Available' => 'Format eksportu jest niedostępny',

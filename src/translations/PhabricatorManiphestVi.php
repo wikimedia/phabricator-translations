@@ -10,7 +10,6 @@ final class PhabricatorManiphestVi
   protected function getTranslations() {
     return array(
   'Create Task' => 'Tạo Nhiệm vụ',
-  'Burnup Rate' => 'Tốc độ hoàn thành',
   'Triage' => 'Phân loại',
   'Define task subtypes.' => 'Xác định các loại tác vụ phụ.',
   '%s removed %s as the assignee of this task.' => '%s đã huỷ phân công nhiệm vụ này cho %s.',
@@ -199,7 +198,6 @@ Xem ví dụ bên dưới để bắt đầu.',
   'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => 'Trạng thái "%s" được đánh dấu là mặc định, nhưng thực chất là trạng thái đóng. Trạng thái mặc định phải là trạng thái mở.',
   '[Maniphest]' => '[Maniphest]',
   '%s lowered the priority of %s from %s to %s.' => '%s đã hạ mức độ ưu tiên của %s từ %s xuống %s.',
-  'Parameter "fullText" is no longer supported. Use method "maniphest.search" with the "query" constraint instead.' => 'Tham số "fullText" không còn được hỗ trợ nữa. Thay vào đó, hãy sử dụng phương thức "maniphest.search" với ràng buộc "query".',
   'Search for tasks with given statuses.' => 'Tìm kiếm các nhiệm vụ theo trạng thái đã định.',
   'Task Has Revision' => 'Nhiệm vụ có phiên bản',
   'Unbreak Now!' => 'Gỡ rối ngay!',
@@ -312,6 +310,7 @@ Nếu bạn chỉ định một mức độ ưu tiên không hợp lệ, lệnh 
   'Search...' => 'Tìm kiếm...',
   'Task Graph' => 'Biểu đồ nhiệm vụ',
   'Wishlist' => 'Danh sách mong muốn',
+  'Parameter "%s" is no longer supported. Use method "%s" with the "%s" constraint instead.' => 'Tham số "fullText" không còn được hỗ trợ nữa. Thay vào đó, hãy sử dụng phương thức "maniphest.search" với ràng buộc "query".',
 );
   }
 

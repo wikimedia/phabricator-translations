@@ -11,7 +11,6 @@ final class PhabricatorDrydockEl
     return array(
   'All Operations' => 'Όλες οι λειτουργίες',
   'Resource' => 'Πηγή',
-  'Show Details' => 'Εμφάνιση λεπτομερειών',
   'Lease %d' => 'Ενοίκιαση του %d',
   'Set lease expiration time.' => 'Ορισμός ώρας λήξης της ενοίκιασης.',
   'Logs' => 'Καταγραφές γεγονότων',

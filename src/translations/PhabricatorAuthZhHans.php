@@ -82,6 +82,27 @@ https://api.slack.com/docs/sign-in-with-slack#create_slack_app
 在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来配置客户端密钥。）',
   '"%s" Account' => '“%s”账户',
   'Log Out?' => '注销？',
+  '**Step 2 of 2 - Configure OAuth Server**
+
+To configure OAuth, create a new application here:
+
+%s
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**第2/2步——配置OAuth服务器**
+
+要配置OAuth，请在此创建新的应用程序：
+
+%s/oauthserver/client/create/
+
+当创建您的应用程序时，请使用这些设置：
+
+  - **重定向URI：**将此设置为“%s”
+
+在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来生成客户端密钥。）',
   'OAuth App ID' => 'OAuth应用ID',
   'OAuth client "%s" is already trusted.' => 'OAuth客户端“%s”已被信任。',
   '**Step 2 of 2**: In this step, you will configure JIRA.
@@ -120,27 +141,6 @@ Click **Save** in JIRA. Authentication should now be configured, and this provid
   'Normal Security Restored' => '已恢复一般安全性',
   'Log In' => '登录',
   'The external service ("%s") you just authenticated with is not configured to allow logins on this server. An administrator may have recently disabled it.' => '您刚刚进行身份验证的外部服务（“%s”）未配置为允许在此服务器上登录。管理员最近可能禁用了它。',
-  '**Step 2 of 2 - Configure OAuth Server**
-
-To configure OAuth, create a new application here:
-
-%s/oauthserver/client/create/
-
-When creating your application, use these settings:
-
-  - **Redirect URI:** Set this to: `%s`
-
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**第2/2步——配置OAuth服务器**
-
-要配置OAuth，请在此创建新的应用程序：
-
-%s/oauthserver/client/create/
-
-当创建您的应用程序时，请使用这些设置：
-
-  - **重定向URI：**将此设置为“%s”
-
-在完成配置后，复制**客户端ID**和**客户端密钥**至上方字段。（您也需要首先点击“新密钥”来生成客户端密钥。）',
   '%s Account' => '%s账户',
 );
   }

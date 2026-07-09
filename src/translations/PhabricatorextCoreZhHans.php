@@ -10,8 +10,12 @@ final class PhabricatorextCoreZhHans
   protected function getTranslations() {
     return array(
   'Merged' => '已合并',
+  'Protect as security issue' => '作为安全问题加以保护',
+  'LDAP User' => 'LDAP用户名',
   'Skip OFFSET rows before processing the remaining transactions.' => '在处理完其他事务之前跳过OFFSET行。',
-  'MediaWiki User' => 'MediaWiki用户',
+  'Related Changes in Gerrit:' => 'Gerrit中的相关更改：',
+  'Cannot Protect as Security Issue' => '无法作为安全问题加以保护',
+  'MediaWiki User' => 'MediaWiki用户名',
   'Reset security settings' => '重置安全设置',
   '**MediaWiki Instance Name**
 
@@ -26,6 +30,8 @@ Use lowercase letters, digits, and period. For example:
 使用小写字母、数字和句点。例如：
 
 `mediawiki`、`mediawiki.mycompany`或者`mediawiki.engineering`都是合理的名称。',
+  'Global Accounts' => '全域账号',
+  'No Permission' => '没有权限',
 );
   }
 

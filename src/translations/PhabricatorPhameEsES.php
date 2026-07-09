@@ -23,8 +23,6 @@ final class PhabricatorPhameEsES
   'Change the blog subtitle.' => 'Cambiar el subtítulo del blog.',
   'Blog Header' => 'Cabecera del blog',
   'Edit Blog Header' => 'Editar cabecera del blog',
-  'CHANGES TO BLOG DESCRIPTION' => 'CAMBIOS A LA DESCRIPCIÓN DEL BLOG',
-  '%s renamed this blog from %s to %s.' => '%s renombró este blog de %s a %s.',
   'Active Blogs' => 'Blogs activos',
   'Local Blog' => 'Blog local',
   'About %s' => 'Acerca de %s',

@@ -32,7 +32,6 @@ final class ArcanistCoreCsCZ
   'English (Canada)' => 'Angličtina (Kanada)',
   'ERROR' => 'CHYBA',
   'Invalid Modifiers' => 'Neplatné modifikátory',
-  'Download content from S3.' => 'Stáhnout obsah z S3.',
   'Copied Here' => 'Zkopírováno zde',
   '    %s %s
 ' => '    %s %s',
@@ -64,7 +63,6 @@ final class ArcanistCoreCsCZ
   'Example Value' => 'Příklad hodnoty',
   'Moved Here' => 'Přesunuto sem',
   '(No revisions match.)' => '(Žádná shoda revizí.)',
-  'Emoji (Internet)' => 'Emoji (Internet)',
   'SUCCESS!' => 'ÚSPĚCH!',
   'Template not edited.' => 'Šablona nebyla editována.',
   '%s failed!' => '%s selhalo!',

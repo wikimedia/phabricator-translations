@@ -13,7 +13,6 @@ final class PhabricatorSearchSv
   'This menu item is very important, and can not be disabled.' => 'Detta menyföremål är riktigt viktigt och kan inte inaktiveras.',
   'Enable Query?' => 'Aktivera sökfråga?',
   'Personal Menu Items' => 'Personliga menyföremål',
-  'Format' => 'Format',
   'The queries you have saved are private. Only you can view or edit them.' => 'Sökfrågorna du sparat är privata. Bara du kan se eller redigera dem.',
   'cat -A can find mice hiding in files.' => 'cat -A kan hitta möss som gömmer sig i filer.',
   'Export Format Not Available' => 'Exportformat är inte tillgängligt',

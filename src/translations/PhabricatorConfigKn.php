@@ -16,7 +16,6 @@ final class PhabricatorConfigKn
   '(%s%s) %s' => '(%s%s) %s',
   'Unknown \'%s\' Version' => 'ಅಜ್ಞಾತ \'%s\' ಆವೃತ್ತಿ',
   'Other Services' => 'ಇತರ ಸೇವೆಗಳು',
-  'Old MySQL Version' => 'ಹಳೆ ಮೈಎಸ್‌ಕ್ಯೂಎಲ್ ಆವೃತ್ತಿ',
   'Health' => 'ಆರೋಗ್ಯ',
   ' (%s)' => ' (%s)',
   'Not Available' => 'ಲಭ್ಯವಿಲ್ಲ',

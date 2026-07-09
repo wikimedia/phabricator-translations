@@ -22,7 +22,6 @@ final class PhabricatorPonderDiq
   'Ask a Question' => 'Yew Çiyê Persi',
   'Obsolete' => 'Vêrde',
   'Ponder Questions' => 'Persê Ponderi',
-  'Close Question' => 'Persi racınê',
   'Status of the question.' => 'Weziyetê Persi',
   'Empty Answer' => 'Cewabo Venge',
   'Ponder' => 'Ponder',

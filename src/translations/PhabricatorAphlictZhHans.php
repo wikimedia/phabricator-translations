@@ -18,13 +18,13 @@ final class PhabricatorAphlictZhHans
   'Launching server:' => '发布服务器：',
   'Server exited!' => '服务器已退出！',
   'Start the notifications server.' => '开始通知服务器。',
+  'Aphlict (%s) is running.' => 'Aphlict（%s）正在运行。',
   'Stop, then start the notification server.' => '停止并重启通知服务器。',
   'Writing logs to: %s' => '写入日志至：%s',
   'Aphlict Server (%s) exited normally.' => 'Aphlict服务器（%s）已手动退出。',
   'Reading configuration from: %s' => '正在从%s读取配置',
   'Aphlict Server started.' => '已启动Aphlict服务器。',
   'Stopping Aphlict Server (%s)...' => '正在停止Aphlict服务器（%s）...',
-  'Aphlict (%s) is running.' => 'Aphlict（%s）正在运行。',
 );
   }
 

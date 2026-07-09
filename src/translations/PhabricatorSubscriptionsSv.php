@@ -31,6 +31,7 @@ final class PhabricatorSubscriptionsSv
   'Mute this object? You will no longer receive notifications or email about it.' => 'Tysta det här objektet? Du kommer inte längre att få aviseringar eller e-post om det.',
   'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Avböjde att återprenumerera på %s mål eftersom de tidigare avslutade prenumerationen: %s.',
   'Removed %s subscriber(s): %s.' => 'Ta bort %s prenumerant(er): %s.',
+  'Unsubscribe' => 'Avsluta prenumeration',
   'Bad Object' => 'Trasigt objekt',
   'Add users or projects as subscribers.' => 'Lägg till användare eller projekt som prenumeranter.',
   'Removed Subscribers' => 'Tog bort prenumeranter',

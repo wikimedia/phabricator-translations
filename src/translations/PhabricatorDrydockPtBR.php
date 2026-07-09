@@ -9,7 +9,6 @@ final class PhabricatorDrydockPtBR
 
   protected function getTranslations() {
     return array(
-  'Show Details' => 'Mostrar detalhes',
   'Active Authorizations' => 'Autorizações ativas',
   'One or more blueprints promised a new resource, but failed when allocating: [%s] %s' => 'Um ou mais projetos prometiam um novo recurso, mas falharam ao alocar: [%s] %s',
   'Operation' => 'Operação',

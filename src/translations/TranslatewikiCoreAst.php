@@ -10,9 +10,7 @@ final class TranslatewikiCoreAst
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Da\'l camín a una biblioteca de la qu\'esportar traducciones',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Nun pudo estrayese la cadena col patrón nun reconocíu «%%», «%s»: %s.',
   'NONE' => 'NENGÚN',
-  'Provide a locale code with "--locale".' => 'Da un códigu de locale con «--locale».',
   'Ignoring string "%s"; not present in translation source file.' => 'Inórase la cadena «%s»; nun ta presente nel ficheru d\'orixe de la traducción.',
   'Provide the path to exactly one library to export translations from.' => 'Da\'l camín a exautamente una biblioteca de la qu\'esportar traducciones',
   'Provide a project name to export strings under with "--as".' => 'Da\'l nome d\'un proyectu baxo\'l qu\'esportar les cadenes con «--as».',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreAst
   'Provide a classname with "--class".' => 'Da un nome de clase con «--class».',
   'Read %s string(s).' => 'Lleída %s cadena(es)',
   'Class name to generate.' => 'Nome de clase a xenerar.',
-  'Frequency Data' => 'Datos de frecuencia',
   'Provide a JSON source file with "--source".' => 'Da un ficheru fonte en JSON con «--source».',
   'Generate a Phabricator translation classfile.' => 'Xenerar un ficheru de clase de traducción de Phabricator.',
   'JSON source file containing translation strings.' => 'Ficheru fonte en JSON que contién cadenes de traducción.',

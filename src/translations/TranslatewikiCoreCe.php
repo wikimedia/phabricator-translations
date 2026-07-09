@@ -11,10 +11,8 @@ final class TranslatewikiCoreCe
     return array(
   'Provide the path to a library to export translations from.' => 'Цигара гочдарш экспорт йан библиотеке некъ билгалбаккха.',
   'Swedish' => 'Шведийн',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => '"%%" "%s": %s ца йевзаш йолу паттер йолу могӀа схьабаккха йиш йац.',
   'NONE' => 'NONE',
   'Slovenian' => 'Словенийн мотт',
-  'Provide a locale code with "--locale".' => 'Кодан дакъа билгалдаккха "--locale" параметрца.',
   'Ignoring string "%s"; not present in translation source file.' => '"%s" могӀа тергал ца бо; гочдаран йуьхьанцара файлехь бац.',
   'Provide the path to exactly one library to export translations from.' => 'Чуьра гочдарш экспорт дан дезаш долу цхьана библиотеке бен некъ ма билгалбаккха.',
   'Catalan' => 'Каталонийн',
@@ -41,7 +39,6 @@ final class TranslatewikiCoreCe
   'Russian' => 'Оьрсийн мотт',
   'Class name to generate.' => 'Классан цӀе генераци йан.',
   'Norwegian' => 'Норвегийн мотт',
-  'Frequency Data' => 'Ах хаамаш',
   'Provide a JSON source file with "--source".' => 'JSON йуьхьанцара файл билгалйаккха "--source" опцица.',
   'Hungarian' => 'Мажарийн',
   'Generate a Phabricator translation classfile.' => 'Фабрикаторан гочдаран классан файл генераци йан.',

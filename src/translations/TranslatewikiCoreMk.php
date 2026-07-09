@@ -10,9 +10,7 @@ final class TranslatewikiCoreMk
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Укажете патека кон библиотеката од која ќе се извезат преводи.',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Не можев да ја извлечам низата со непрепознаена шема „%%“, „%s“: %s.',
   'NONE' => 'НЕМА',
-  'Provide a locale code with "--locale".' => 'Укажете местојазичен код со „--locale“.',
   'Ignoring string "%s"; not present in translation source file.' => 'Ја занемарувам низата „%s“; не е присутна во изворната податотека за превод.',
   'Provide the path to exactly one library to export translations from.' => 'Укажете патека кон точно една библиотеката од која ќе се извезат преводи.',
   'Provide a project name to export strings under with "--as".' => 'Укажете под кое име да е извезат низите со „--as“.',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreMk
   'Provide a classname with "--class".' => 'Укажете име на класата со „--class“.',
   'Read %s string(s).' => 'Прочитај %s низи.',
   'Class name to generate.' => 'Кое име на класа да се создаде.',
-  'Frequency Data' => 'Податоци за честота',
   'Provide a JSON source file with "--source".' => 'Укажете изворна JSON-податотека со „--source“.',
   'Generate a Phabricator translation classfile.' => 'Создај класна податотека на преводот во Фабрикатор.',
   'JSON source file containing translation strings.' => 'Изворна JSON-податотека во која стојат преводните низи.',

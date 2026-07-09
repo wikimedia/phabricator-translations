@@ -10,10 +10,10 @@ final class PhabricatorCacheDa
   protected function getTranslations() {
     return array(
   'APCu' => 'APCu',
+  'APCu Disabled' => 'APC/APCu deaktiveret',
   'Unknown cache format.' => 'Ukendt cache-format.',
   'Purge all caches.' => 'Ryd alle cacher.',
   'OPcache Disabled' => 'OPcache deaktiveret',
-  'APCu Disabled' => 'APC/APCu deaktiveret',
 );
   }
 

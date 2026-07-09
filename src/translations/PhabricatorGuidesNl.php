@@ -16,7 +16,7 @@ final class PhabricatorGuidesNl
   'Project tags define everything. Create them for teams, tags, or actual projects.' => 'Projecttags definiëren alles. Maak ze aan voor teams, tags of afzonderlijke projecten.',
   'See all available applications.' => 'Alle beschikbare toepassingen bekijken.',
   'Explore Applications' => 'Toepassingen ontdekken',
-  '%s has been successfully installed. These next guides will take you through configuration and new user orientation. These steps are optional, and you can go through them in any order. If you want to get back to this guide later on, you can find it in {icon globe} **Applications** under {icon map-o} **Guides**.' => '%s is geïnstalleerd. De volgende handleidingen leiden u door de configuratie en de introductie voor nieuwe gebruikers. Deze stappen zijn optioneel en u kunt ze in willekeurige volgorde doorlopen. Als u later naar deze handleiding wilt terugkeren, kunt u deze vinden in {icon globe} **Applicaties** onder {icon map-o} **Handleidingen**.',
+  '%s has been successfully installed. These next guides will take you through configuration and new user orientation. These steps are optional, and you can go through them in any order. If you want to get back to this guide later on, you can find it in {icon globe} **Applications** under {icon map-o} **Guides**.' => '%s is geïnstalleerd. De volgende handleidingen leiden u door de configuratie en de introductie voor nieuwe gebruikers. Deze stappen zijn optioneel en u kunt ze in willekeurige volgorde doorlopen. Als u later naar deze handleiding wilt terugkeren, kunt u deze vinden in {icon globe} **Toepassingen** onder {icon map-o} **Handleidingen**.',
   'Skip' => 'Overslaan',
   'Quick Start' => 'Snelstart',
   'Configure account settings for all users, or just yourself' => 'Configureer de accountinstellingen voor alle gebruikers, of alleen voor uzelf',
@@ -27,13 +27,13 @@ final class PhabricatorGuidesNl
   'Your invitations have been accepted. You will not be alone on this journey.' => 'Uw uitnodigingen zijn geaccepteerd. Uw bent niet alleen op deze reis.',
   'You\'ve configured at least one authentication provider.' => 'U hebt ten minste één authenticatieprovider geconfigureerd.',
   'Short Tutorials' => 'Korte handleidingen',
-  'If you\'re new to this software, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.' => 'Als u nog niet bekend bent met deze software, kunnen deze optionele stappen je helpen de basisprincipes te leren. Voel u vrij om alles naar eigen wens in te stellen en deze functies in uw eigen tempo te ontdekken.',
   'You\'ve created at least one repository.' => 'U hebt minstens één repository aangemaakt.',
   'Guides' => 'Gidsen',
   'Learn how to configure mail and other options.' => 'Leer hoe u e-mail en andere opties instelt.',
   'Invite the rest of your team to get started.' => 'Nodig de rest van uw team uit om mee te doen.',
   'User Account Settings' => 'Gebruikersaccountinstellingen',
-  'You\'ve adjusted at least one setting on your account.' => 'U hebt ten minste één instelling in je account gewijzigd.',
+  'If you\'re new to %s, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.' => 'Als u nog niet bekend bent met %s, kunnen deze optionele stappen u helpen de basisprincipes te leren. Voel u vrij om alles naar eigen wens in te stellen en deze functies in uw eigen tempo te ontdekken.',
+  'You\'ve adjusted at least one setting on your account.' => 'U hebt ten minste één instelling in uw account gewijzigd.',
   'Real-time notifications can be delivered with WebSockets.' => 'Realtime meldingen kunnen via WebSockets worden verzonden.',
   'Personalize your Install' => 'Personaliseer uw installatie',
   'Invite Collaborators' => 'Samenwerkingspartners uitnodigen',
@@ -44,6 +44,7 @@ final class PhabricatorGuidesNl
   'Resolve Setup Issues' => 'Installatieproblemen oplossen',
   'Authentication providers allow users to register accounts and log in.' => 'Authenticatieproviders stellen gebruikers in staat accounts te registreren en aan te melden.',
   'You\'ve resolved (or ignored) all outstanding setup issues.' => 'U hebt alle openstaande installatieproblemen opgelost (of genegeerd).',
+  'Install' => 'Installeren',
 );
   }
 

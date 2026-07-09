@@ -20,7 +20,10 @@ final class PhabricatorNotificationNl
   'Unread Notifications' => 'Ongelezen meldingen',
   'Unable to post message: this is not an admin server!' => 'Bericht verzenden mislukt: dit is geen beheerdersserver!',
   'Disconnected' => 'Losgekoppeld',
-  '%s notification(s) about objects which no longer exist or which you can no longer see were discarded.' => '%s melding(en) over objecten die niet meer bestaan of die u niet meer kunt zien, zijn verwijderd.',
+  '%s notification(s) about objects which no longer exist or which you can no longer see were discarded.' => array(
+    'Eén melding over een object dat niet meer bestaat of dat u niet meer kunt zien, is verwijderd.',
+    '%s meldingen over objecten die niet meer bestaan of die u niet meer kunt zien, zijn verwijderd.',
+  ),
   'Notification server configuration describes an invalid host ("%s", at index "%s") with an unrecognized type ("%s"). Valid types are "%s" or "%s".' => 'De instelling van de meldingenserver beschrijft een ongeldige host ("%s", op index "%s") met een onbekend type ("%s"). Geldige typen zijn "%s" of "%s".',
   'Notification server configuration describes an invalid host ("%s", at index "%s") with an invalid protocol ("%s"). Valid protocols are "%s" or "%s".' => 'De instelling van de meldingenserver beschrijft een incorrecte host ("%s", op index "%s") met een incorrect protocol ("%s"). Geldige protocollen zijn "%s" of "%s".',
   'No notifications to mark as read.' => 'Geen meldingen om als gelezen te markeren.',

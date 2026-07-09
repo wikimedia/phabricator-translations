@@ -47,6 +47,10 @@ final class PhabricatorTransactionsFi
   'EDIT DETAILS' => 'MUOKKAA TIETOJA',
   '(Show Details)' => '(Näytä tiedot)',
   'Do you want to post your comment anyway?' => 'Haluatko silti julkaista kommenttisi?',
+  '%s Action(s) Have No Effect' => array(
+    'Toimenpiteellä ei ole vaikutusta',
+    'Toimenpiteillä ei ole vaikutusta',
+  ),
   'This comment was removed by %s.' => 'Tämä kommentti poistettiin käyttäjän %s toimesta.',
   '%s removed %s subscriber(s): %s.' => '%s poisti %s tilaaja(a): %s.',
 );

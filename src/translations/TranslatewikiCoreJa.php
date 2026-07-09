@@ -11,10 +11,8 @@ final class TranslatewikiCoreJa
     return array(
   'Provide the path to a library to export translations from.' => '翻訳をエクスポートするライブラリへのパスを提供します。',
   'Swedish' => 'スウェーデン語',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => '認識できない"%%"パターンを持つ文字列を抽出できませんでした、"%s"： %s。',
   'NONE' => 'なし',
   'Slovenian' => 'スロベニア語',
-  'Provide a locale code with "--locale".' => 'ロケールコードに"--locale"を指定します。',
   'Ignoring string "%s"; not present in translation source file.' => '文字列「%s」を無視します。翻訳ソースファイルには存在しません。',
   'Provide the path to exactly one library to export translations from.' => '翻訳をエクスポートするための1つのライブラリへのパスを提供します。',
   'Catalan' => 'カタロニア語',
@@ -38,7 +36,6 @@ final class TranslatewikiCoreJa
   'Russian' => 'ロシア語',
   'Class name to generate.' => '生成するクラス名。',
   'Norwegian' => 'ノルウェー語',
-  'Frequency Data' => '頻度データ',
   'Provide a JSON source file with "--source".' => 'JSONソースファイルに"--source"を指定します。',
   'Hungarian' => 'ハンガリー語',
   'Generate a Phabricator translation classfile.' => 'Phabricatorの翻訳Classファイルを生成します。',

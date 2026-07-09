@@ -19,7 +19,6 @@ final class PhabricatorUiexampleSd
   'Squares' => 'چوڪنڊا',
   'Poor Use of Space' => 'جڳھ جو غيرواجب استعام',
   'Action Panel' => 'عمل جي جڳھ',
-  'Images' => 'عڪس',
   'Rain' => 'بارش',
   'Another minor event.' => 'ھڪ ٻيو معمولي واقعو',
   'One Line Story' => 'ھڪ سٽ ڪھاڻي',

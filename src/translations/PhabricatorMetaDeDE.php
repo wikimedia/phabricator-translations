@@ -11,7 +11,6 @@ final class PhabricatorMetaDeDE
     return array(
   'Explore More Applications' => 'Entdecke mehr Anwendungen',
   'Prototype' => 'Prototyp',
-  'Uninstall' => 'Deinstallieren',
 );
   }
 

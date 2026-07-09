@@ -61,6 +61,7 @@ final class PhabricatorSettingsSrEC
   'Display Preferences' => 'Подешавање приказа',
   'You don\'t have any active sessions.' => 'Немате активних сесија.',
   'Changes saved.' => 'Измене су сачуване.',
+  'Choose which language you would like the UI to use.' => 'Језик интерфејса',
   'Really delete address \'%s\'?' => 'Стварно избриши адресу „%s”?',
   'Another user already has this email.' => 'Други корисник већ користи овај мејл.',
   'Change primary email address?' => 'Измени примарну мејл адресу?',

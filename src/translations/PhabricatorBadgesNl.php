@@ -17,14 +17,12 @@ final class PhabricatorBadgesNl
   'New badge description.' => 'Nieuwe badgebeschrijving.',
   'Badge name is required.' => 'Badgenaam is vereist.',
   'Edit Badge: %s' => 'Badge bewerken: %s',
-  'Badges must have a name.' => 'Badges moeten een naam hebben.',
   'Other badge activity not listed above occurs.' => 'Er vinden ook andere badge-activiteiten plaats die hierboven niet vermeld staan.',
   'First Order' => 'Eerste orde',
   'Activate Badge' => 'Badge activeren',
   'Escape Route' => 'Ontsnappingsroute',
   'Configure Badges Forms' => 'Badgeformulieren configureren',
   'New badge award recipients.' => 'Nieuwe badge-ontvangers.',
-  '%s renamed %s badge %s to %s.' => '%s heeft badge %s hernoemd van %s naar %s.',
   '%s updated %s flavor text from %s to %s.' => '%s heeft de soorttekst van %s bijgewerkt van %s naar %s.',
   'This badge does not have any recipients.' => 'Deze badge heeft geen ontvangers.',
   '%s disabled the badge %s.' => '%s heeft de badge %s uitgeschakeld.',
@@ -35,12 +33,17 @@ final class PhabricatorBadgesNl
   'View Badge' => 'Badge bekijken',
   'Coder' => 'Programmeur',
   'In Debt' => 'In de schulden',
-  '%s awarded this badge to %s recipient(s): %s.' => '%s heeft deze badge uitgereikt aan %s ontvanger(s): %s.',
+  '%s awarded this badge to %s recipient(s): %s.' => array(
+    
+    array(
+      '%s heeft deze badge uitgereikt een ontvanger: %3$s.',
+      '%s heeft deze badge uitgereikt ontvangers: %3$s.',
+    ),
+  ),
   'Revoke Badge' => 'Badge intrekken',
   'Edit Badge' => 'Badge bewerken',
   'Choose Badge Icon' => 'Badgepictogram kiezen',
-  '%s renamed this badge from %s to %s.' => '%s heeft deze badge hernoemd van %s naar %s.',
-  'Already awarded' => 'Reeds uitgereikt',
+  'Already awarded' => 'Al uitgereikt',
   '%s created this badge.' => '%s heeft deze badge aangemaakt.',
   'Create a Badge' => 'Een badge aanmaken',
   'Poor' => 'Slecht',
@@ -52,16 +55,27 @@ final class PhabricatorBadgesNl
   'New badge icon.' => 'Nieuw badgepictogram.',
   'User PHID of the creator.' => 'Gebruikers-PHID van de maker.',
   'New badge flavor.' => 'Nieuwe badgesoorttekst.',
-  '%s updated the badge description.' => '%s heeft de badgebeschrijving bijgewerkt.',
   'The name of the badge.' => 'De naam van de badge.',
   'Glowing Rectangle' => 'Gloeiende rechthoek',
   'Rarity (Most Common First)' => 'Zeldzaamheid (meest voorkomende eerst)',
   'Badge quality is not valid.' => 'Badgekwaliteit is niet geldig.',
-  'The flavor text can be no longer than %s characters.' => 'De soorttekst mag niet langer zijn dan %s tekens.',
+  'The flavor text can be no longer than %s characters.' => array(
+    'De soorttekst mag niet langer zijn dan %s teken.',
+    'De soorttekst mag niet langer zijn dan %s tekens.',
+  ),
   'Foam Circle' => 'Schuimcirkel',
   'Uncommon' => 'Ongewoon',
   'Recipient PHID "%s" is not a valid user PHID.' => 'Ontvanger-PHID "%s" is geen geldige gebruikers-PHID.',
-  '%s awarded %s to %s recipient(s): %s.' => '%s heeft %s uitgereikt aan %s ontvanger(s): %s.',
+  '%s awarded %s to %s recipient(s): %s.' => array(
+    
+    array(
+      
+      array(
+        '%s heeft %s uitgereikt aan een ontvanger: %4$s.',
+        '%s heeft %s uitgereikt aan ontvangers: %4$s.',
+      ),
+    ),
+  ),
   'Star Ship' => 'Ruimteschip',
   'Default edit policy for badges.' => 'Standaard bewerkingsbeleid voor badges.',
   'Anchors Away' => 'Ankers weg',
@@ -91,7 +105,7 @@ final class PhabricatorBadgesNl
   '%s updated the quality of %s from %s to %s.' => '%s heeft de kwaliteit van %s bijgewerkt van %s naar %s.',
   'Quality' => 'Kwaliteit',
   'Archive Badge' => 'Badge archiveren',
-  'CHANGES TO BADGE DESCRIPTION' => 'WIJZIGINGEN IN BADGEBESCHRIJVING',
+  'badge' => 'badge',
   'Apply transactions to create a new badge or edit an existing one.' => 'Transacties toepassen om een nieuwe badge aan te maken of een bestaande te bewerken.',
   'Winner at Things' => 'Winnaar van dingen',
   'Epic' => 'Episch',
@@ -114,7 +128,6 @@ final class PhabricatorBadgesNl
   '%s updated the flavor from %s to %s.' => '%s heeft de soorttekst bijgewerkt van %s naar %s.',
   'Someone changes the badge\'s details.' => 'Iemand wijzigt de details van de badge.',
   '%s enabled this badge.' => '%s heeft deze badge ingeschakeld.',
-  '%s updated the badge description for %s.' => '%s heeft de badgebeschrijving voor %s bijgewerkt.',
   'Rarity (Rarest First)' => 'Zeldzaamheid (zeldzaamste eerst)',
   'No badges found.' => 'Geen badges gevonden.',
   'Revoke Recipients' => 'Ontvangers intrekken',
@@ -122,7 +135,7 @@ final class PhabricatorBadgesNl
   'Average Person' => 'Gemiddeld persoon',
   'Unknown Quality ("%s")' => 'Onbekende kwaliteit ("%s")',
   'Really Revoke Badge?' => 'Badge echt intrekken?',
-  'Eye See You' => 'Ik zie je',
+  'Eye See You' => 'Ik zie u',
   '%s changed the badge icon from %s to %s.' => '%s heeft het badgepictogram gewijzigd van %s naar %s.',
   'Heirloom' => 'Erfstuk',
   'New badge name.' => 'Nieuwe badgenaam.',
@@ -130,13 +143,28 @@ final class PhabricatorBadgesNl
   'Award Recipients' => 'Uitreikingsontvangers',
   'Nominomicon' => 'Nominomicon',
   'Can Create Badges' => 'Kan badges aanmaken',
-  '%s revoked this badge from %s recipient(s): %s.' => '%s heeft deze badge ingetrokken van %s ontvanger(s): %s.',
+  '%s revoked this badge from %s recipient(s): %s.' => array(
+    
+    array(
+      '%s heeft deze badge ingetrokken van een ontvanger: %3$s.',
+      '%s heeft deze badge ingetrokken van ontvangers: %3$s.',
+    ),
+  ),
   'Triplets' => 'Drieling',
   '%s changed the badge icon for %s from %s to %s.' => '%s heeft het badgepictogram voor %s gewijzigd van %s naar %s.',
   'Type a badge name...' => 'Typ een badgenaam...',
   'Default Edit Badges' => 'Standaard badges bewerken',
   'Read information about badges.' => 'Informatie over badges lezen.',
-  '%s revoked %s from %s recipient(s): %s.' => '%s heeft %s ingetrokken van %s ontvanger(s): %s.',
+  '%s revoked %s from %s recipient(s): %s.' => array(
+    
+    array(
+      
+      array(
+        '%s heeft %s ingetrokken van een ontvanger: %4$s.',
+        '%s heeft %s ingetrokken van ontvangers: %4$s.',
+      ),
+    ),
+  ),
   'Flavor Text' => 'Soorttekst',
 );
   }

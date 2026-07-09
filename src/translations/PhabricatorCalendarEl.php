@@ -39,7 +39,6 @@ final class PhabricatorCalendarEl
   'Upcoming Events' => 'Ερχόμενα συμβάντα',
   'Adjust export mode.' => 'Προσαρμογή λειτουργίας εξαγωγής.',
   'Imported Events' => 'Εισαχθέντα γεγονότα',
-  '%s updated the event description for %s.' => 'Ο %s ενημέρωσε την περιγραφή γεγονότος για το %s.',
   '.ics URI' => 'Διεύθυνση URI του .ics',
   'Travel' => 'Ταξιδέψτε',
   'Calendar Import Logs' => 'Μητρώα εισαγωγών ημερολογίου',

@@ -39,7 +39,6 @@ Quan aquesta consulta es mostri realment en el control, es veurà més així:
   'Raw Query' => 'Consulta en brut',
   'Token Results (%s)' => 'Resultats del testimoni (%s)',
   'Configured datasource class "%s" must be a valid subclass of "%s".' => 'La classe «%s» configurada ha de ser una subclasse vàlida de «%s».',
-  'Token Name' => 'Nom del Testimoni',
   'Reference: Advanced Functions' => 'Referència: Funcions Avançades',
   'Image URI' => 'URL de la Imatge',
   'Select' => 'Seleccionar',

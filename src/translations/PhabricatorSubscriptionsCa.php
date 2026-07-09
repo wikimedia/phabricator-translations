@@ -31,6 +31,7 @@ final class PhabricatorSubscriptionsCa
   'Mute this object? You will no longer receive notifications or email about it.' => 'Silenciar aquest objecte? No rebràs més notificacions ni correus electrònics sobre això.',
   'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'S\'ha rebutjat tornar a subscriure %s destinacions perquè ells han cancel·lat la subscripció anteriorment: %s.',
   'Removed %s subscriber(s): %s.' => 'S\'han eliminat %s subscriptors: %s.',
+  'Unsubscribe' => 'Cancel·la la subscripció',
   'Bad Object' => 'Objecte erroni',
   'Add users or projects as subscribers.' => 'Afegeix usuaris o projectes com a subscriptors.',
   'Removed Subscribers' => 'Subscriptors eliminats',

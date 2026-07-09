@@ -13,7 +13,6 @@ final class PhabricatorTypeaheadHu
   'Typeahead' => 'Typeahead',
   'Function Help' => 'Függvény súgó',
   'Source Class' => 'Forrás osztálya',
-  'Token Name' => 'Token neve',
   'Reference: Advanced Functions' => 'Referencia: haladó funkciók',
   'Image URI' => 'Kép URI',
   'Select' => 'Kiválasztás',

@@ -31,7 +31,6 @@ final class PhabricatorextCorePtBR
   'OAuth provider returned an error response.' => 'O provedor OAuth retornou uma resposta de erro.',
   'Ensure Security Task Policies are Enforced' => 'Tenha certeza de que políticas de tarefa sejam aplicadas',
   'Release Details' => 'Detalhes de lançamento',
-  'Allow' => 'Permitir',
   'LDAP User' => 'Usuário LDAP',
   'Invalid action \'%s\'!' => 'Ação inválida \'%s\'!',
   'MediaWiki' => 'MediaWiki',
@@ -62,7 +61,6 @@ Providencie as seguintes configurações no registro do consumidor:
 Depois de registrar o consumidor, uma "Chave de Consumidor" e um "Segredo de Consumidor" vão ser fornecidas para você pela MediaWiki. Para completar a configuração do Phabricator, copie as chaves fornecidas nos campos correspondentes acima.
 
 NOTA:Antes que o Phabricator possa autenticar com sucesso seu MediaWiki, um administrador wiki deve aprovar o registro do consumidor oauth usando a forma que pode ser encontrada no seguinte url: %s',
-  'Deny' => 'Negar',
   'Invalid' => 'Inválido',
   'Blocked on Code Review - Needs Changes' => 'Bloqueado na revisão do código',
   'View Change in Gerrit' => 'Ver mudança no Gerrit',

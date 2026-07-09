@@ -11,7 +11,6 @@ final class PhabricatorSearchLb
     return array(
   'No results.' => 'Keng Resultater.',
   'Global Search' => 'Global Sich',
-  'Format' => 'Format',
   'Readable' => 'Liesbar',
   'Search Engines' => 'Sichmaschinnen',
   'Query: %s' => 'Ufro: %s',

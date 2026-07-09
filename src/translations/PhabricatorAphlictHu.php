@@ -30,6 +30,7 @@ final class PhabricatorAphlictHu
   'Show the status of the notification server.' => 'Az értesítő kiszolgáló állapotának megjelenítése.',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'A konfigurációs fájl nem specifikál szervereket. Ez a szolgáltatás nem lesz képes kapcsolatba lépni a külvilággal, ha nem hallgatózik egyetlen porton sem. Meg kell adnia legalább egy "%s" kiszolgálót és legalább egy "%s" kiszolgálót.',
   'Start the notifications server.' => 'Indítsa el az értesítőkiszolgálót.',
+  'Aphlict (%s) is running.' => 'Aphlict (%s) fut.',
   'Stop, then start the notification server.' => 'Állítsd le, majd indítsd el az értesítőkiszolgálót.',
   'Failed to read configuration file. %s' => 'A konfigurációs fájl olvasása sikertelen. %s',
   'Writing logs to: %s' => 'Naplók írása: %s',
@@ -42,7 +43,6 @@ final class PhabricatorAphlictHu
   'Aphlict Server started.' => 'Elindult az Aphlict kiszolgáló.',
   'Stopping Aphlict Server (%s)...' => 'Aphlict kiszolgáló leállítása (%s)...',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => 'Nem sikerült létrehozni a "%s" könyvtárat a megadott PID-fájlhoz. Kézzel hozza létre ezt a könyvtárat, vagy válasszon másik PID-fájl helyette. %s',
-  'Aphlict (%s) is running.' => 'Aphlict (%s) fut.',
 );
   }
 

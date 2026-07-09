@@ -31,6 +31,7 @@ final class PhabricatorSubscriptionsFrFR
   'Mute this object? You will no longer receive notifications or email about it.' => 'Mettre en sourdine cet objet ? Vous ne recevrez plus de notifications ni de courriels le concernant.',
   'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Refus de réinscrire %s cible(s) car elles se sont désinscrites précédemment : %s.',
   'Removed %s subscriber(s): %s.' => '%s abonné(s) retiré(s) : %s.',
+  'Unsubscribe' => 'Se désabonner',
   'Bad Object' => 'Objet incorrect',
   'Add users or projects as subscribers.' => 'Ajouter des utilisateurs ou des projets en tant qu’abonnés.',
   'Removed Subscribers' => 'Abonnés enlevés',

@@ -12,7 +12,6 @@ final class PhabricatorSearchRu
   'No results.' => 'Нет результатов.',
   'Enable Query?' => 'Включить запросы?',
   'Personal Menu Items' => 'Пункты личного меню',
-  'Format' => 'Формат',
   'Readable' => 'Читабельное',
   'Search Engines' => 'Поисковые движки',
   'N/A' => 'Н/Д',

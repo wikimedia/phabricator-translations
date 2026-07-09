@@ -72,7 +72,6 @@ final class PhabricatorCalendarScn
   '%s cancelled this event.' => '%s annullau st\'eventu.',
   'Import .ics URI' => 'Mporta l\'URI .ics',
   '%s - %s' => '%s - %s',
-  'CHANGES TO EVENT DESCRIPTION' => 'CANCIAMENTI DÂ DISCRIZZIONI DI L\'EVENTU',
   'Imports' => 'Mpurtazzioni',
   'Unknown Message "%s"' => 'Missaggiu "%s" scanusciutu',
 );

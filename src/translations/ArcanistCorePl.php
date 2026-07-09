@@ -21,7 +21,6 @@ final class ArcanistCorePl
   'Empty key is invalid!' => 'Pusty klucz jest nieprawidłowy!',
   'English (Canada)' => 'Angielski (Kanada)',
   'ERROR' => 'BŁĄD',
-  'Download content from S3.' => 'Pobierz zawartość z S3.',
   'Version' => 'Wersja',
   'Unrecognized argument "%s".' => 'Nierozpoznany argument "%s".',
   'Jun' => 'Cze',

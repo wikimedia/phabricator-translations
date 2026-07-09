@@ -50,7 +50,6 @@ final class PhabricatorCoreMy
   'Personal' => 'ပုဂ္ဂိုလ်ရေး',
   'Tuesday' => 'အင်္ဂါ',
   'SKIP' => 'ကျော်သွားရန်',
-  'Amount' => 'ပမာဏ',
   'Deleted' => 'ဖျက်ပြီးပြီ',
   'Normal' => 'သာမန်',
   'Sun' => 'နွေ',

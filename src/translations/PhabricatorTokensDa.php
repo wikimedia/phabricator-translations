@@ -15,7 +15,6 @@ final class PhabricatorTokensDa
   'Love' => 'Kærlighed',
   'The World Burns' => 'Verden brænder',
   'Barnstar' => 'Stjerne',
-  'Give or change a token.' => 'Giv eller ændre en nøgle.',
   'Heartbreak' => 'Knust hjerte',
   'Orange Medal' => 'Orange medalje',
   'Stroopwafel' => 'Stroopwafel',

@@ -21,7 +21,6 @@ final class PhabricatorPonderZhHans
   'QUESTION DETAIL' => '问题详情',
   'Open Questions' => '开放问题',
   'Obsolete' => '已过期',
-  'Close Question' => '关闭问题',
   'Status of the question.' => '问题状态。',
   'Empty Answer' => '空答案',
   '%s updated the answer wiki.' => '%s更新了答案wiki。',

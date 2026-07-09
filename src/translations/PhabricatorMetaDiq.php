@@ -14,7 +14,6 @@ final class PhabricatorMetaDiq
   'Launcher' => 'Serkewtoğ',
   'Confirmation' => 'Tesdiq kerdış',
   'Explore More Applications' => 'Aplikasyonanê binan keşf kerê',
-  'Uninstalled' => 'Wedarneya',
   'Prototype' => 'Prototip',
   'Edit Policies: %s' => 'Politikaya bıvırnê : %s',
 );

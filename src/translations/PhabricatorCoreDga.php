@@ -72,27 +72,6 @@ Briefly:
   'Configure' => 'Leɛre',
   'January' => 'Gyɛnoɔre',
   'Welcome to %s!' => 'Neŋ fo waabo ko %s!',
-  'You have an old version of MySQL (older than 5.5) which does not support the utf8mb4 character set. We strongly recommend upgrading to 5.5 or newer.
-
-If you apply adjustments now and later update MySQL to 5.5 or newer, you\'ll need to apply adjustments again (and they will take a long time).
-
-You can exit this workflow, update MySQL now, and then run this workflow again. This is recommended, but may cause a lot of downtime right now.
-
-You can exit this workflow, continue using this software without applying adjustments, update MySQL at a later date, and then run this workflow again. This is also a good approach, and will let you delay downtime until later.
-
-You can proceed with this workflow, and then optionally update MySQL at a later date. After you do, you\'ll need to apply adjustments again.
-
-For more information, see "Managing Storage Adjustments" in the documentation.' => 'Fo taa la MySQL vɛɛseŋ koroo (naŋ kore gaŋ 5.5) naŋ ba teɛ a utf8mb4 waaloŋ sɛte. Te na yeli ka zɛge o do eŋ 5.5 bee bompaalaa.
-
-Ka foŋ paale adgyɛsement pampana kyɛ zɛge MySQL do eŋ 5.5 a puoriŋ bee bompaalaa, a na seŋ ka fo la paale adgyɛsement la maale (lɛ na a na di la wagere yaga).
-
-Fo na baŋ bare la lɛ a toma ŋa naŋ kyɛnɛ, zɛge MySQL do pampana, kyɛ la leɛ e a toma ŋa la maale. Ŋa la a kaairuu, kyɛ na baŋ wane puori leɛbo pampana ŋa zaa.
-
-Fo na baŋ bare la lɛ a toma ŋa naŋ kyɛnɛ, can exit this workflow, kyoge tona ne a sɔtwaɛ ŋa ka fo ba paale adgyɛsement, zɛge MySQL do a baaroo puori, kyɛ pãã e a toma ŋa la maale. Ŋa meŋ e la da-soŋ, o na vɛŋ la ka fo di wagere te ta a puoriŋ.
-
-Fo na baŋ gɛrɛ la niŋe ne a toma kyɛmbo ŋa, kyɛ pãã e meŋɛ zɛge duobo MySQL a puoriŋ. Ka foŋ wa e, a na seŋ ka fo paale adgyɛsement la maale.
-
-Ka foŋ wa boɔrɔ yɛlɛ yaga, nyɛ "Managyiŋ stɔɔragye adgyɛsemet" a sɛgere poɔ.',
   'SUCCESS' => 'Susɛɛse',
   'October' => 'Ɔɔtoorebare',
   'This server is in read-only mode (unreachable master).' => 'A sɛva ŋa e la kannoo yoŋ waaloŋ (koŋ baŋ pɔge Masa).',
@@ -121,7 +100,6 @@ installing the extension.' => 'Data koŋ baŋ yi a yelbie daga poɔ bonso a "zip
   'This server is in read-only mode (no writable database is configured).' => 'A sɛɛva be la kanne-yoŋ moodi (daatabaasi sɛgere zaa ba e kofigere).',
   'Referenced' => 'Sommo yizie',
   'A JSON-encoded object.' => 'A JSON-bonpɔgere.',
-  'Install' => 'De-emmo',
   'Some of these errors are caused by surplus schemata (extra tables or columns which this software does not expect). These are not serious. For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => 'A ɛrɔɔ ama mine yi la sikyiima kpaare(taabol mine bee kɔlɔm a saseɛ miri ŋa naŋ ba boɔrɔ). Ama ba e nimizeɛ. Yɛlɛ kyaare neŋ a maaloo, nyɛ a \'\' kpaabo sikiima\'\' zie a \'\' managyin bimmo zɛgebo\'\' atikili dokumetere.',
 );
   }

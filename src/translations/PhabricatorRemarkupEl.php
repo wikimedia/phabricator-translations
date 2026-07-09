@@ -11,7 +11,6 @@ final class PhabricatorRemarkupEl
     return array(
   'Invalid markup engine.' => 'Μη έγκυρη μηχανή σήμανσης.',
   'Process text through remarkup.' => 'Επεξεργαστείτε κείμενο μέσω σήμανσης.',
-  'Content may not be empty.' => 'Το περιεχόμενο δεν μπορεί να είναι άδειο.',
 );
   }
 

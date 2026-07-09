@@ -20,7 +20,7 @@ Generally, you should use this option only in a development environment where ss
 
 Over het algemeen moet u deze optie alleen gebruiken in een ontwikkelomgeving waar ssh-keygen niet werkt en het onhandig is om het te repareren, en alleen als u zeker weet dat u de risico\'s begrijpt. Cache nooit een PKCS8-bestand dat u niet zelf hebt gegenereerd.',
   'This provider ("%s") already exists, and you can not add more than one instance of it. You can edit the existing provider, or you can choose a different provider.' => 'Deze provider ("%s") bestaat al en u kunt er niet meer dan één exemplaar van toevoegen. U kunt de bestaande provider bewerken of een andere provider kiezen.',
-  'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => 'Om een Duo-factor toe te voegen, downloadt en installeert u eerst de Duo-applicatie op uw telefoon. Zodra u de applicatie hebt gestart en klaar bent om de configuratie uit te voeren, klikt u op doorgaan.',
+  'To add a Duo factor, first download and install the Duo application on your phone. Once you have launched the application and are ready to perform setup, click continue.' => 'Om een Duo-factor toe te voegen, downloadt en installeert u eerst de Duo-toepassing op uw telefoon. Zodra u de toepassing hebt gestart en klaar bent om de configuratie uit te voeren, klikt u op doorgaan.',
   'The verification code you provided is incorrect, or the email address has been removed, or the email address is owned by another user. Make sure you followed the link in the email correctly and are logged in with the user account associated with the email address.' => 'De verificatiecode die u hebt opgegeven is onjuist, of het e-mailadres is verwijderd, of het e-mailadres is eigendom van een andere gebruiker. Zorg ervoor dat u de link in de e-mail correct hebt gevolgd en dat u bent aangemeld met het gebruikersaccount dat aan het e-mailadres is gekoppeld.',
   'Edit Contact Number' => 'Contactnummer bewerken',
   'Passwords' => 'Wachtwoorden',
@@ -29,6 +29,7 @@ Over het algemeen moet u deze optie alleen gebruiken in een ontwikkelomgeving wa
   'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'De configuratie van de authenticatieprovider is vergrendeld en kan niet worden gewijzigd zonder ontgrendeling. Zie de configuratie-instelling %s voor details.',
   'Server name must contain only lowercase letters, digits, and periods.' => 'Servernaam mag alleen kleine letters, cijfers en punten bevatten.',
   'Revoke Tokens' => 'Tokens intrekken',
+  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%s), expected exactly one.' => 'TOTP-uitdagingsvalidatie bereikt met een onverwacht aantal niet-verlopen uitdagingen (%s), precies één verwacht.',
   'There are too many configured default registration providers.' => 'Er zijn te veel geconfigureerde standaardregistratieproviders.',
   'Unlink "%s" Account?' => 'Account "%s" ontkoppelen?',
   'Strip factors from specified users.' => 'Factoren verwijderen van opgegeven gebruikers.',
@@ -46,7 +47,7 @@ Click **Add Consumer** and create a new application.
 
 After completing configuration, copy the **Key** and **Secret** to the fields above.' => 'Om Bitbucket OAuth te configureren, meldt u zich aan bij Bitbucket en gaat u naar **Account beheren** > **Toegangsbeheer** > **OAuth**.
 
-Klik op **Consument toevoegen** en maak een nieuwe applicatie aan.
+Klik op **Consument toevoegen** en maak een nieuwe toepassing aan.
 
 Kopieer na het voltooien van de configuratie de **Sleutel** en het **Geheim** naar de bovenstaande velden.',
   'The account you are attempting to register or link is already linked to another user.' => 'Het account dat u probeert te registreren of te koppelen is al gekoppeld aan een andere gebruiker.',
@@ -65,7 +66,10 @@ Kopieer na het voltooien van de configuratie de **Sleutel** en het **Geheim** na
   'Verify Email' => 'E-mail verifiëren',
   'Revoke credentials for the specified object. To revoke credentials for a user, use "@username".' => 'Aanmeldgegevens intrekken voor het opgegeven object. Om aanmeldgegevens voor een gebruiker in te trekken, gebruikt u "@gebruikersnaam".',
   'Use "--user <username>" to specify which user to strip factors from, or "--all-users" to strip factors from all users.' => 'Gebruik "--user <gebruikersnaam>" om op te geven van welke gebruiker factoren verwijderd moeten worden, of "--all-users" om factoren van alle gebruikers te verwijderen.',
-  'This factor recently issued a challenge which has expired. A new challenge can not be issued yet. Wait %s second(s) for the code to cycle, then try again.' => 'Deze factor heeft onlangs een uitdaging uitgegeven die is verlopen. Er kan nog geen nieuwe uitdaging worden uitgegeven. Wacht %s seconde(n) tot de code wisselt en probeer het opnieuw.',
+  'This factor recently issued a challenge which has expired. A new challenge can not be issued yet. Wait %s second(s) for the code to cycle, then try again.' => array(
+    'Deze factor heeft onlangs een uitdaging uitgegeven die is verlopen. Er kan nog geen nieuwe uitdaging worden uitgegeven. Wacht %s seconde tot de code wisselt en probeer het opnieuw.',
+    'Deze factor heeft onlangs een uitdaging uitgegeven die is verlopen. Er kan nog geen nieuwe uitdaging worden uitgegeven. Wacht %s seconden tot de code wisselt en probeer het opnieuw.',
+  ),
   'This is a terse test text message (from "%s").' => 'Dit is een kort testtekstbericht (van "%s").',
   'Path to public keyfile.' => 'Pad naar het publieke sleutelbestand.',
   'Strip all factors, regardless of type.' => 'Alle factoren verwijderen, ongeacht het type.',
@@ -76,7 +80,6 @@ Kopieer na het voltooien van de configuratie de **Sleutel** en het **Geheim** na
   'You have not configured any multi-factor providers yet.' => 'U hebt nog geen multifactorproviders geconfigureerd.',
   'Unable to Log In' => 'Aanmelden niet mogelijk',
   'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'De externe dienst ("%s") die u zojuist hebt gebruikt om aan te melden is al gekoppeld aan een ander %s-gebruikersaccount. Meld u aan bij het andere %s-account en ontkoppel het externe account voordat u het aan een nieuw %s-account koppelt.',
-  'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Voordat u deze software kunt gebruiken, moet u multifactorauthenticatie aan uw account toevoegen. Multifactorauthenticatie helpt uw account te beveiligen door het moeilijker te maken voor aanvallers om toegang te krijgen of gevoelige handelingen uit te voeren.',
   'To configure Twitch.tv OAuth, create a new application here:
 
 https://www.twitch.tv/settings/applications
@@ -85,11 +88,11 @@ When creating your application, use these settings:
 
   - **Redirect URI:** Set this to: `%s`
 
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Om Twitch.tv OAuth te configureren, maakt u hier een nieuwe applicatie aan:
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Om Twitch.tv OAuth te configureren, maakt u hier een nieuwe toepassing aan:
 
 https://www.twitch.tv/settings/applications
 
-Gebruik bij het aanmaken van uw applicatie deze instellingen:
+Gebruik bij het aanmaken van uw toepassing deze instellingen:
 
   - **Redirect-URI:** Stel dit in op: `%s`
 
@@ -121,7 +124,10 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'There are no matching tokens to revoke.' => 'Er zijn geen overeenkomende tokens om in te trekken.',
   '%s disabled email trust.' => '%s heeft e-mailvertrouwen uitgeschakeld.',
   'Too Short' => 'Te kort',
-  'You denied this request. Wait %s second(s) to try again.' => 'U hebt dit verzoek geweigerd. Wacht %s seconde(n) om het opnieuw te proberen.',
+  'You denied this request. Wait %s second(s) to try again.' => array(
+    'U hebt dit verzoek geweigerd. Wacht %s seconde als u het opnieuw probeert.',
+    'U hebt dit verzoek geweigerd. Wacht %s seconden als u het opnieuw probeert.',
+  ),
   'Guidance included in the mail message body when users request an email link to access their account.
 
 For installs with password authentication enabled, users access this workflow by using the "Forgot your password?" link on the login screen.
@@ -146,7 +152,7 @@ Voor installaties zonder wachtwoordauthenticatie ingeschakeld, gebruiken gebruik
   'SECURITY WARNING' => 'BEVEILIGINGSWAARSCHUWING',
   'This public key is already associated with another user or device. Each key must unambiguously identify a single unique owner.' => 'Deze publieke sleutel is al gekoppeld aan een andere gebruiker of apparaat. Elke sleutel moet ondubbelzinnig één unieke eigenaar identificeren.',
   'Allow users to unlink account credentials for this provider from existing accounts. If you disable this, accounts will be permanently bound to provider accounts.' => 'Gebruikers toestaan om accountaanmeldgegevens voor deze provider te ontkoppelen van bestaande accounts. Als u dit uitschakelt, worden accounts permanent gebonden aan provideraccounts.',
-  'When you need to authenticate, a request will be pushed to the Duo application on your phone.' => 'Wanneer u zich moet authenticeren, wordt een verzoek naar de Duo-applicatie op uw telefoon gestuurd.',
+  'When you need to authenticate, a request will be pushed to the Duo application on your phone.' => 'Wanneer u zich moet authenticeren, wordt een verzoek naar de Duo-toepassing op uw telefoon gestuurd.',
   'SMS is weak, and relatively easy for attackers to compromise. Strongly consider using a different MFA provider.' => 'SMS is zwak en relatief eenvoudig voor aanvallers om te compromitteren. Overweeg sterk om een andere MFA-provider te gebruiken.',
   'Revoke credentials without prompting.' => 'Aanmeldgegevens intrekken zonder bevestiging.',
   '%s set the OAuth consumer secret for this provider.' => '%s heeft het OAuth-consumentgeheim voor deze provider ingesteld.',
@@ -165,17 +171,17 @@ You should use these settings in your application:
   - **Redirect URL**: Set this to: `%s`
 
 
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Om WordPress.com OAuth te configureren, maakt u hier een nieuwe WordPress.com-applicatie aan:
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Om WordPress.com OAuth te configureren, maakt u hier een nieuwe WordPress.com-toepassing aan:
 
 https://developer.wordpress.com/apps/new/.
 
-Gebruik deze instellingen in uw applicatie:
+Gebruik deze instellingen in uw toepassing:
 
   - **URL:** Stel dit in op uw volledige domein met protocol. Voor deze server is de juiste waarde: `%s`
   - **Redirect-URL**: Stel dit in op: `%s`
 
 
-Kopieer na het aanmaken van een applicatie het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden.',
+Kopieer na het aanmaken van een toepassing het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden.',
   'Username Attribute' => 'Gebruikersnaamattribuut',
   'To configure Disqus OAuth, create a new application here:
 
@@ -185,15 +191,15 @@ Create an application, then adjust these settings:
 
   - **Callback URL:** Set this to `%s`
 
-After creating an application, copy the **Public Key** and **Secret Key** to the fields above (the **Public Key** goes in **OAuth App ID**).' => 'Om Disqus OAuth te configureren, maakt u hier een nieuwe applicatie aan:
+After creating an application, copy the **Public Key** and **Secret Key** to the fields above (the **Public Key** goes in **OAuth App ID**).' => 'Om Disqus OAuth te configureren, maakt u hier een nieuwe toepassing aan:
 
 https://disqus.com/api/applications/
 
-Maak een applicatie aan en pas vervolgens deze instellingen aan:
+Maak een toepassing aan en pas vervolgens deze instellingen aan:
 
   - **Callback-URL:** Stel dit in op `%s`
 
-Kopieer na het aanmaken van een applicatie de **Publieke sleutel** en de **Geheime sleutel** naar de bovenstaande velden (de **Publieke sleutel** gaat in **OAuth-app-ID**).',
+Kopieer na het aanmaken van een toepassing de **Publieke sleutel** en de **Geheime sleutel** naar de bovenstaande velden (de **Publieke sleutel** gaat in **OAuth-app-ID**).',
   'Unlink Your Only Login Account?' => 'Uw enige aanmeldaccount ontkoppelen?',
   'Specify an OAuth client id with "--id".' => 'Geef een OAuth-client-ID op met "--id".',
   'Your account has no primary contact number.' => 'Uw account heeft geen primair contactnummer.',
@@ -244,7 +250,7 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Anonymous Password' => 'Anoniem wachtwoord',
   'Use the button below to log in as: %s' => 'Gebruik de onderstaande knop om aan te melden als: %s',
   'Active OAuth Token' => 'Actief OAuth-token',
-  'An authorization request will be pushed to the Duo application on your phone.' => 'Een autorisatieverzoek wordt naar de Duo-applicatie op uw telefoon gestuurd.',
+  'An authorization request will be pushed to the Duo application on your phone.' => 'Een autorisatieverzoek wordt naar de Duo-toepassing op uw telefoon gestuurd.',
   'Administrative approvals are disabled, so users who register will be able to use their accounts immediately. To enable approvals, configure %s.' => 'Beheerdersgoedkeuringen zijn uitgeschakeld, dus gebruikers die zich registreren kunnen hun accounts direct gebruiken. Om goedkeuringen in te schakelen, configureert u %s.',
   'Google' => 'Google',
   'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can designate a new primary contact number.' => 'U hebt momenteel multifactorauthenticatie ("%s") die afhankelijk is van uw primaire contactnummer. U moet deze authenticatiefactor verwijderen voordat u een nieuw primair contactnummer kunt aanwijzen.',
@@ -264,7 +270,6 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Add Multi-Factor Auth' => 'Multifactorauthenticatie toevoegen',
   'The contact number.' => 'Het contactnummer.',
   'You must enter an LDAP username.' => 'U moet een LDAP-gebruikersnaam invoeren.',
-  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%d), expected exactly one.' => 'TOTP-uitdagingsvalidatie bereikt met een onverwacht aantal niet-verlopen uitdagingen (%d), precies één verwacht.',
   'Refresh LDAP Account' => 'LDAP-account vernieuwen',
   'The password and confirmation do not match.' => 'Het wachtwoord en de bevestiging komen niet overeen.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Handelingstellers resetten zodat een gebruiker door kan gaan met snelheidsbeperkte handelingen.',
@@ -279,17 +284,17 @@ You should use these settings in your application:
   - **Callback URL**: Set this to: `%s`
 
 
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Om GitHub OAuth te configureren, maakt u hier een nieuwe GitHub-applicatie aan:
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Om GitHub OAuth te configureren, maakt u hier een nieuwe GitHub-toepassing aan:
 
 https://github.com/settings/applications/new
 
-Gebruik deze instellingen in uw applicatie:
+Gebruik deze instellingen in uw toepassing:
 
   - **URL:** Stel dit in op uw volledige domein met protocol. Voor deze server is de juiste waarde: `%s`
   - **Callback-URL**: Stel dit in op: `%s`
 
 
-Kopieer na het aanmaken van een applicatie het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden.',
+Kopieer na het aanmaken van een toepassing het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden.',
   'No Providers Configured:' => 'Geen providers geconfigureerd:',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Als u doorgaat, maakt u een nieuw account aan. U kunt dit externe account niet aan een bestaand account koppelen.',
   'A text message with an authorization code will be sent to your primary contact number.' => 'Een tekstbericht met een autorisatiecode wordt naar uw primaire contactnummer gestuurd.',
@@ -303,7 +308,7 @@ Passwords are revoked, not just removed. Users will be unable to select the pass
 
 Revoking passwords will not terminate outstanding login sessions. Use the "session" revoker in conjunction with this revoker to force users to login again.' => 'Trekt alle opgeslagen wachtwoorden in.
 
-Accountwachtwoorden en VCS-wachtwoorden (gebruikt om via HTTP toegang te krijgen tot repository\'s) worden beide ingetrokken. Wachtwoorden voor applicaties van derden die gedeelde wachtwoordinfrastructuur gebruiken worden ook ingetrokken.
+Accountwachtwoorden en VCS-wachtwoorden (gebruikt om via HTTP toegang te krijgen tot repository\'s) worden beide ingetrokken. Wachtwoorden voor toepassingen van derden die gedeelde wachtwoordinfrastructuur gebruiken worden ook ingetrokken.
 
 Gebruikers moeten accountwachtwoorden resetten, mogelijk door de koppeling "Wachtwoord vergeten?" op de aanmeldpagina te gebruiken. Ze moeten ook VCS-wachtwoorden resetten.
 
@@ -348,12 +353,15 @@ Gebruik kleine letters, cijfers en punten. Bijvoorbeeld `jira`, `jira.mijnbedrij
   'Username Change Instructions' => 'Instructies voor het wijzigen van de gebruikersnaam',
   'Custom Enroll Message' => 'Aangepast registratiebericht',
   'You must verify your email address to log in. You should have a new email message with verification instructions in your inbox (%s).' => 'U moet uw e-mailadres verifiëren om aan te melden. U zou een nieuw e-mailbericht met verificatie-instructies in uw postvak (%s) moeten hebben.',
-  'Refreshing token, current token expires in %s seconds.' => 'Token wordt vernieuwd, huidig token verloopt over %s seconden.',
+  'Refreshing token, current token expires in %s seconds.' => array(
+    'Token wordt vernieuwd, huidig token verloopt over %s seconde.',
+    'Token wordt vernieuwd, huidig token verloopt over %s seconden.',
+  ),
   'Allows Registration' => 'Staat registratie toe',
   'Duo' => 'Duo',
-  'Application ID is required.' => 'Applicatie-ID is vereist.',
+  'Application ID is required.' => 'Toepassings-ID is vereist.',
   'You do not have a linked account on this provider, and thus can not refresh it.' => 'U hebt geen gekoppeld account bij deze provider en kunt het daarom niet vernieuwen.',
-  'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => 'Gebruik het veld **OAuth-app-opmerkingen** om details vast te leggen over onder welk account de externe applicatie is geregistreerd.',
+  'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => 'Gebruik het veld **OAuth-app-opmerkingen** om details vast te leggen over onder welk account de externe toepassing is geregistreerd.',
   'firstname, lastname' => 'voornaam, achternaam',
   'Minimum length of %d characters.' => 'Minimale lengte is %d tekens.',
   'This provider does not allow refreshing.' => 'Deze provider staat vernieuwen niet toe.',
@@ -372,9 +380,9 @@ Gebruik kleine letters, cijfers en punten. Bijvoorbeeld `jira`, `jira.mijnbedrij
   'Specify either specific factors with "--provider", or all factors with "--all-types", but not both.' => 'Geef specifieke factoren op met "--provider" of alle factoren met "--all-types", maar niet beide.',
   'To add a TOTP factor to your account, you will first need to install a mobile authenticator application on your phone. Some applications which work well are **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator**, and **Authy**, but any other TOTP application should work.
 
-If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Om een TOTP-factor aan uw account toe te voegen, moet u eerst een mobiele authenticatieapplicatie op uw telefoon installeren. Enkele applicaties die goed werken zijn **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator** en **Authy**, maar elke andere TOTP-applicatie zou moeten werken.
+If you haven\'t already, download and install a TOTP application on your phone now. Once you\'ve launched the application and are ready to add a new TOTP code, continue to the next step.' => 'Om een TOTP-factor aan uw account toe te voegen, moet u eerst een mobiele authenticatietoepassing op uw telefoon installeren. Enkele toepassingen die goed werken zijn **Aegis**, **2FAS**, **FreeOTP**, **Bitwarden Authenticator**, **Google Authenticator** en **Authy**, maar elke andere TOTP-toepassing zou moeten werken.
 
-Als u dat nog niet hebt gedaan, download en installeer nu een TOTP-applicatie op uw telefoon. Zodra u de applicatie hebt gestart en klaar bent om een nieuwe TOTP-code toe te voegen, gaat u verder naar de volgende stap.',
+Als u dat nog niet hebt gedaan, download en installeer nu een TOTP-toepassing op uw telefoon. Zodra u de toepassing hebt gestart en klaar bent om een nieuwe TOTP-code toe te voegen, gaat u verder naar de volgende stap.',
   'Special users like daemons and mailing lists are not permitted to log in via the web. Log in as a normal user instead.' => 'Speciale gebruikers zoals daemons en mailinglijsten mogen niet aanmelden via het web. Meld u in plaats daarvan aan als een normale gebruiker.',
   'Login Screen Instructions' => 'Instructies op het aanmeldscherm',
   'Mail Body: Welcome' => 'E-mailtekst: welkom',
@@ -386,18 +394,23 @@ Als u dat nog niet hebt gedaan, download en installeer nu een TOTP-applicatie op
   'You and other users on this install are collectively sending too many test text messages too quickly. Wait a few minutes to continue texting tests.' => 'U en andere gebruikers op deze installatie sturen gezamenlijk te veel testtekstberichten te snel. Wacht een paar minuten om door te gaan met het versturen van testberichten.',
   'Failed to find an OAuth client with ID %s.' => 'Kan geen OAuth-client vinden met ID %s.',
   'Allow Account Linking' => 'Accountkoppeling toestaan',
-  'Provider names can not be longer than %s characters.' => 'Providernamen mogen niet langer zijn dan %s tekens.',
+  'Provider names can not be longer than %s characters.' => array(
+    'Providernamen mogen niet langer zijn dan %s teken.',
+    'Providernamen mogen niet langer zijn dan %s tekens.',
+  ),
   'No Account Linked' => 'Geen account gekoppeld',
   'Allow users to link account credentials for this provider to existing accounts. There is normally no reason to disable this unless you are trying to move away from a provider and want to stop users from creating new account links.' => 'Gebruikers toestaan om accountaanmeldgegevens voor deze provider aan bestaande accounts te koppelen. Er is normaal gesproken geen reden om dit uit te schakelen, tenzij u van een provider af wilt stappen en wilt voorkomen dat gebruikers nieuwe accountkoppelingen aanmaken.',
   'Slack' => 'Slack',
   'This request improperly specifies an MFA challenge token ("%s") multiple times and can not be processed.' => 'Dit verzoek specificeert een MFA-uitdagingstoken ("%s") onjuist meerdere keren en kan niet worden verwerkt.',
-  'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.' => 'U hebt onlangs een antwoord op deze factor gegeven. Antwoorden mogen niet worden hergebruikt. Wacht %s seconde(n) tot de code wisselt en probeer het opnieuw.',
+  'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.' => array(
+    'U hebt onlangs een antwoord op deze factor gegeven. Antwoorden mogen niet worden hergebruikt. Wacht %s seconde tot de code wisselt en probeer het opnieuw.',
+    'U hebt onlangs een antwoord op deze factor gegeven. Antwoorden mogen niet worden hergebruikt. Wacht %s seconden tot de code wisselt en probeer het opnieuw.',
+  ),
   'Refresh OAuth access tokens. This is primarily useful for development and debugging.' => 'OAuth-toegangstokens vernieuwen. Dit is voornamelijk nuttig voor ontwikkeling en foutopsporing.',
   'The OAuth provider returned an error: %s' => 'De OAuth-provider heeft een fout geretourneerd: %s',
   'Registration Failed' => 'Registratie mislukt',
   'Unable to Verify Email' => 'Kan e-mail niet verifiëren',
   'Public SSH Key' => 'Publieke SSH-sleutel',
-  'Username and password are required!' => 'Gebruikersnaam en wachtwoord zijn vereist!',
   'Disqus' => 'Disqus',
   'Add MFA Provider' => 'MFA-provider toevoegen',
   'Expected \'%s\' in request!' => '\'%s\' verwacht in verzoek!',
@@ -424,7 +437,7 @@ Als u dat nog niet hebt gedaan, download en installeer nu een TOTP-applicatie op
   'Custom instructions included in "Welcome" mail when an administrator creates a user account.' => 'Aangepaste instructies opgenomen in de "Welkom"-e-mail wanneer een beheerder een gebruikersaccount aanmaakt.',
   'NOTE: Revoking passwords does not terminate existing sessions which were established using the old passwords. To terminate existing sessions, run the "session" revoker now.' => 'OPMERKING: Het intrekken van wachtwoorden beëindigt geen bestaande sessies die zijn opgezet met de oude wachtwoorden. Om bestaande sessies te beëindigen, voert u nu de "sessie"-intrekker uit.',
   '%s enabled account linking.' => '%s heeft accountkoppeling ingeschakeld.',
-  'Scan this QR code with the Duo application on your mobile phone:' => 'Scan deze QR-code met de Duo-applicatie op uw mobiele telefoon:',
+  'Scan this QR code with the Duo application on your mobile phone:' => 'Scan deze QR-code met de Duo-toepassing op uw mobiele telefoon:',
   'Contact Number %d' => 'Contactnummer %d',
   'Account Already Linked' => 'Account al gekoppeld',
   'Another user already has that email.' => 'Een andere gebruiker heeft dat e-mailadres al.',
@@ -459,14 +472,23 @@ Als u dat nog niet hebt gedaan, download en installeer nu een TOTP-applicatie op
   'This engine is used to edit MFA providers.' => 'Deze engine wordt gebruikt om MFA-providers te bewerken.',
   '%s enabled account unlinking.' => '%s heeft het ontkoppelen van accounts ingeschakeld.',
   'The email address %s is now verified.' => 'Het e-mailadres %s is nu geverifieerd.',
-  'This factor recently issued a challenge for a different workflow. Wait %s second(s) for the code to cycle, then try again.' => 'Deze factor heeft onlangs een uitdaging uitgegeven voor een andere workflow. Wacht %s seconde(n) tot de code wisselt en probeer het opnieuw.',
+  'This factor recently issued a challenge for a different workflow. Wait %s second(s) for the code to cycle, then try again.' => array(
+    'Deze factor heeft onlangs een uitdaging uitgegeven voor een andere workflow. Wacht %s seconde tot de code wisselt en probeer het opnieuw.',
+    'Deze factor heeft onlangs een uitdaging uitgegeven voor een andere workflow. Wacht %s seconden tot de code wisselt en probeer het opnieuw.',
+  ),
   'Send SMS' => 'SMS versturen',
   '%s disabled this provider.' => '%s heeft deze provider uitgeschakeld.',
   'Not Installed' => 'Niet geïnstalleerd',
   'Your browser did not submit a "%s" cookie with client state information in the request. Check that cookies are enabled. If this problem persists, you may need to clear your cookies.' => 'Uw browser heeft geen "%s"-cookie met clientstatusinformatie in het verzoek meegestuurd. Controleer of cookies zijn ingeschakeld. Als dit probleem aanhoudt, moet u mogelijk uw cookies wissen.',
-  'Found %s account(s) to refresh.' => '%s account(s) gevonden om te vernieuwen.',
-  'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.' => 'U hebt deze registratie in de Duo-applicatie op uw telefoon nog niet geactiveerd. Voltooi de activering en klik vervolgens op doorgaan.',
-  'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.' => 'Deze factor heeft onlangs een uitdaging uitgegeven aan een andere aanmeldsessie. Wacht %s seconde(n) tot de code wisselt en probeer het opnieuw.',
+  'Found %s account(s) to refresh.' => array(
+    '%s account gevonden om te vernieuwen.',
+    '%s accounts gevonden om te vernieuwen.',
+  ),
+  'You have not activated this enrollment in the Duo application on your phone yet. Complete activation, then click continue.' => 'U hebt deze registratie in de Duo-toepassing op uw telefoon nog niet geactiveerd. Voltooi de activering en klik vervolgens op doorgaan.',
+  'This factor recently issued a challenge to a different login session. Wait %s second(s) for the code to cycle, then try again.' => array(
+    'Deze factor heeft onlangs een uitdaging uitgegeven aan een andere aanmeldsessie. Wacht %s seconde tot de code wisselt en probeer het opnieuw.',
+    'Deze factor heeft onlangs een uitdaging uitgegeven aan een andere aanmeldsessie. Wacht %s seconden tot de code wisselt en probeer het opnieuw.',
+  ),
   'ERROR: You are making a Conduit API request to "%s", but the correct HTTP request path to use in order to access a Conduit method is "%s" (for example, "%s"). Check your configuration.' => 'FOUT: U doet een Conduit API-verzoek naar "%s", maar het juiste HTTP-verzoekpad om een Conduit-methode te benaderen is "%s" (bijvoorbeeld "%s"). Controleer uw configuratie.',
   '%s updated the enroll message.' => '%s heeft het registratiebericht bijgewerkt.',
   'You currently have multi-factor authentication ("%s") which depends on your primary contact number. You must remove this authentication factor before you can modify or disable your primary contact number.' => 'U hebt momenteel multifactorauthenticatie ("%s") die afhankelijk is van uw primaire contactnummer. U moet deze authenticatiefactor verwijderen voordat u uw primaire contactnummer kunt wijzigen of uitschakelen.',
@@ -486,12 +508,12 @@ Publieke SSH-sleutels worden ingetrokken, niet alleen verwijderd. Gebruikers moe
   'End of dry run.' => 'Einde van de testrun.',
   'Choose Provider Type' => 'Providertype kiezen',
   'Revoke credentials which may have been leaked or disclosed.' => 'Aanmeldgegevens intrekken die mogelijk zijn gelekt of openbaar gemaakt.',
-  'Destroyed %s credential(s) of type "%s".' => '%s aanmeldgegeven(s) van type "%s" vernietigd.',
+  'Destroyed %s credential(s) of type "%s".' => '%s aanmeldgegevens van type "%s" vernietigd.',
   'Server name is required.' => 'Servernaam is vereist.',
   'List information about available credential revokers.' => 'Informatie weergeven over beschikbare intrekkers van aanmeldgegevens.',
   'No message type exists with key "%s".' => 'Er bestaat geen berichttype met sleutel "%s".',
   'You will be prompted to provide MFA when you submit.' => 'U wordt gevraagd om MFA te verstrekken wanneer u indient.',
-  '%s set the OAuth application ID for this provider to "%s".' => '%s heeft het OAuth-applicatie-ID voor deze provider ingesteld op "%s".',
+  '%s set the OAuth application ID for this provider to "%s".' => '%s heeft het OAuth-toepassings-ID voor deze provider ingesteld op "%s".',
   'To configure Google OAuth, create a new \'API Project\' here:
 
 https://console.developers.google.com/
@@ -515,7 +537,7 @@ Pas deze configuratie-instellingen aan voor uw project:
   - Onder **API\'s & auth > API\'s**, scroll naar beneden in de lijst en schakel de **Google+ API** in.
      - U moet akkoord gaan met de **Google+ API**-voorwaarden als u dat nog niet eerder hebt gedaan.
   - Onder **API\'s & auth > Aanmeldgegevens**, klik op **Nieuw client-ID aanmaken** in het **OAuth**-gedeelte. Gebruik vervolgens deze instellingen:
-     - **Applicatietype**: Webapplicatie
+     - **Toepassingstype**: Webtoepassing 
      - **Geautoriseerde Javascript-origins**: Laat dit leeg.
      - **Geautoriseerde redirect-URI**: Stel dit in op `%s`.
 
@@ -571,6 +593,7 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'You are already logged in.' => 'U bent al aangemeld.',
   'Wait For Approval Instructions' => 'Instructies voor wachten op goedkeuring',
   'Link LDAP Account' => 'LDAP-account koppelen',
+  'Invalid JSON response from "user.whoami" request: %s' => 'Onjuist JSON-antwoord van "user.whoami"-verzoek: %s',
   'ldap.example.com' => 'ldap.example.com',
   'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Dit wachtwoord is gekoppeld aan een object-PHID ("%s") voor een ander object dan het opgegeven object ("%s").',
   'Disable Number' => 'Nummer uitschakelen',
@@ -581,7 +604,13 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Edit MFA Providers' => 'MFA-providers bewerken',
   'Before you can set up or use LDAP, you need to install the PHP LDAP extension. It is not currently installed, so PHP can not talk to LDAP. Usually you can install it with `%s`, `%s`, or a similar package manager command.' => 'Voordat u LDAP kunt instellen of gebruiken, moet u de PHP LDAP-uitbreiding installeren. Deze is momenteel niet geïnstalleerd, dus PHP kan niet communiceren met LDAP. Gewoonlijk kunt u het installeren met `%s`, `%s` of een vergelijkbaar pakketbeheercommando.',
   '%s failed!' => '%s is mislukt!',
-  'This server is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => 'Deze server is geconfigureerd met een witte lijst voor e-maildomeinen (in %s), dus alleen gebruikers met een geverifieerd e-mailadres bij een van deze %s toegestane domein(en) kunnen een account registreren: %s',
+  'This server is configured with an email domain whitelist (in %s), so only users with a verified email address at one of these %s allowed domain(s) will be able to register an account: %s' => array(
+    
+    array(
+      'Deze server is geconfigureerd met een toelatingslijst voor e-maildomeinen (in %s), dus alleen gebruikers met een geverifieerd e-mailadres bij dit toegestane domein kunnen een account registreren: %3$s',
+      'Deze server is geconfigureerd met een toelatingslijst voor e-maildomeinen (in %s), dus alleen gebruikers met een geverifieerd e-mailadres bij een van deze %s toegestane domeinen kunnen een account registreren: %s',
+    ),
+  ),
   'To configure Slack OAuth, create a new application here:
 
 https://api.slack.com/docs/sign-in-with-slack#create_slack_app
@@ -590,16 +619,16 @@ When creating your application, use these settings:
 
   - **Redirect URI:** Set this to: `%s`
 
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Om Slack OAuth te configureren, maakt u hier een nieuwe applicatie aan:
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => 'Om Slack OAuth te configureren, maakt u hier een nieuwe toepassing aan:
 
 https://api.slack.com/docs/sign-in-with-slack#create_slack_app
 
-Gebruik bij het aanmaken van uw applicatie deze instellingen:
+Gebruik bij het aanmaken van uw toepassing deze instellingen:
 
   - **Redirect-URI:** Stel dit in op: `%s`
 
 Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden. (Mogelijk moet u eerst het clientgeheim genereren door op \'Nieuw geheim\' te klikken.)',
-  'A challenge has been sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Er is een uitdaging naar uw telefoon gestuurd. Open de Duo-applicatie en bevestig de uitdaging, en ga vervolgens verder.',
+  'A challenge has been sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'Er is een uitdaging naar uw telefoon gestuurd. Open de Duo-toepassing en bevestig de uitdaging, en ga vervolgens verder.',
   'Amazon' => 'Amazon',
   'MFA Sync Token' => 'MFA-synchronisatietoken',
   'OAuth client "%s" is now trusted.' => 'OAuth-client "%s" is nu vertrouwd.',
@@ -611,7 +640,7 @@ Choose a permanent name for the remote server you want to connect to. This name 
 
 Kies een permanente naam voor de externe server waarmee u verbinding wilt maken. Deze naam wordt intern gebruikt om de externe server bij te houden, voor het geval de url later wijzigt.',
   'Unlink Account' => 'Account ontkoppelen',
-  'You must specify the path to a public keyfile with %s.' => 'U moet het pad naar een publiek sleutelbestand opgeven met %s.',
+  'You must specify the path to a public keyfile with %s.' => 'U moet het pad naar een openbaar sleutelbestand opgeven met %s.',
   'Remove multi-factor authentication from an account.' => 'Multifactorauthenticatie van een account verwijderen.',
   'Edit Existing Provider' => 'Bestaande provider bewerken',
   '%s changed the credential for this provider from %s to %s.' => '%s heeft het aanmeldgegeven voor deze provider gewijzigd van %s naar %s.',
@@ -625,7 +654,10 @@ Kies een permanente naam voor de externe server waarmee u verbinding wilt maken.
   'This account is not linkable.' => 'Dit account is niet koppelbaar.',
   'Allow Unlinking Accounts' => 'Ontkoppelen van accounts toestaan',
   'This request included an improperly formatted MFA challenge token and can not be processed.' => 'Dit verzoek bevatte een onjuist opgemaakt MFA-uitdagingstoken en kan niet worden verwerkt.',
-  'Contact numbers can not be longer than %s characters.' => 'Contactnummers mogen niet langer zijn dan %s tekens.',
+  'Contact numbers can not be longer than %s characters.' => array(
+    'Contactnummers mogen niet langer zijn dan %s teken.',
+    'Contactnummers mogen niet langer zijn dan %s tekens.',
+  ),
   'OAuth1 Account' => 'OAuth1-account',
   'Customized' => 'Aangepast',
   'When you need to authenticate, a text message with a code will be sent to your phone.' => 'Wanneer u zich moet authenticeren, wordt een tekstbericht met een code naar uw telefoon gestuurd.',
@@ -655,9 +687,31 @@ Kies een permanente naam voor de externe server waarmee u verbinding wilt maken.
   'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Geef het doel op waarvan aanmeldgegevens ingetrokken moeten worden met "--from" of geef "--everywhere" op, maar niet beide.',
   'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Uw browser heeft een andere registratiesleutel ingediend dan de sleutel die aan dit account is gekoppeld. Mogelijk moet u uw cookies wissen.',
   'Log in to %s' => 'Aanmelden bij %s',
+  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Het wachtwoord dat u hebt ingevoerd is ingetrokken. U kunt een ingetrokken wachtwoord niet hergebruiken. Kies een nieuw wachtwoord.',
   'Make Primary Number' => 'Primair nummer maken',
   'Strip factors from all users.' => 'Factoren van alle gebruikers verwijderen.',
   'Duo username pairing mode ("%s") is not supported.' => 'Duo-gebruikersnaamkoppelingsmodus ("%s") wordt niet ondersteund.',
+  '**Step 2 of 2 - Configure OAuth Server**
+
+To configure OAuth, create a new application here:
+
+%s
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Stap 2 van 2 - OAuth-server configureren**
+
+Om OAuth te configureren, maakt u hier een nieuwe toepassing aan:
+
+%s
+
+Gebruik bij het aanmaken van uw toepassing deze instellingen:
+
+  - **Omleidings-URI:** Stel dit in op: `%s`
+
+Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden. (Mogelijk moet u eerst het clientgeheim genereren door op \'Nieuw geheim\' te klikken.)',
   'Facebook' => 'Facebook',
   'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Echt alle tokens intrekken? Naast andere tijdelijke autorisaties worden hiermee alle openstaande wachtwoordherstel- of accountherstelkoppelingen uitgeschakeld.',
   'LDAP Version' => 'LDAP-versie',
@@ -673,11 +727,11 @@ When creating your application, use these settings:
   - **App URL:** Set this to: `%s`
   - **Redirect URL:** Set this to: `%s`
 
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.' => 'Om Asana OAuth te configureren, maakt u hier een nieuwe applicatie aan:
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above.' => 'Om Asana OAuth te configureren, maakt u hier een nieuwe toepassing aan:
 
 https://app.asana.com/-/account_api
 
-Gebruik bij het aanmaken van uw applicatie deze instellingen:
+Gebruik bij het aanmaken van uw toepassing deze instellingen:
 
   - **App-URL:** Stel dit in op: `%s`
   - **Redirect-URL:** Stel dit in op: `%s`
@@ -692,13 +746,13 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Factor Name: %s' => 'Factornaam: %s',
   'Providers' => 'Providers',
   'Address Duplicated in Input' => 'Adres gedupliceerd in invoer',
-  'Scan the QR code or manually enter the key shown below into the application.' => 'Scan de QR-code of voer de hieronder weergegeven sleutel handmatig in de applicatie in.',
+  'Scan the QR code or manually enter the key shown below into the application.' => 'Scan de QR-code of voer de hieronder weergegeven sleutel handmatig in de toepassing in.',
   'The account you are attempting to register with uses a disabled authentication provider ("%s"). An administrator may have recently disabled this provider.' => 'Het account waarmee u zich probeert te registreren gebruikt een uitgeschakelde authenticatieprovider ("%s"). Een beheerder heeft deze provider mogelijk onlangs uitgeschakeld.',
   'Register an Account' => 'Een account registreren',
   'Can Not Edit Trusted Key' => 'Kan vertrouwde sleutel niet bewerken',
   'OAuth App ID' => 'OAuth-app-ID',
   'Invites are visible to administrators, the inviting user, users with an invite code, and the user who accepts the invite.' => 'Uitnodigingen zijn zichtbaar voor beheerders, de uitnodigende gebruiker, gebruikers met een uitnodigingscode en de gebruiker die de uitnodiging accepteert.',
-  'Specified public keyfile "%s" does not exist!' => 'Opgegeven publiek sleutelbestand "%s" bestaat niet!',
+  'Specified public keyfile "%s" does not exist!' => 'Opgegeven openbaar sleutelbestand "%s" bestaat niet!',
   'You must specify the email to verify.' => 'U moet het te verifiëren e-mailadres opgeven.',
   'The key "%s" will be permanently revoked, and you will no longer be able to use the corresponding private key to authenticate.' => 'De sleutel "%s" wordt permanent ingetrokken en u kunt de bijbehorende privésleutel niet meer gebruiken om te authenticeren.',
   'TOTP' => 'TOTP',
@@ -785,10 +839,16 @@ Getroffen gebruikers worden afgemeld en moeten opnieuw aanmelden.',
   'Auth Password' => 'Authenticatiewachtwoord',
   'SSH Key %d: %s' => 'SSH-sleutel %d: %s',
   'The external account you just logged in with is not associated with a valid %s user account.' => 'Het externe account waarmee u zojuist bent aangemeld is niet gekoppeld aan een geldig %s-gebruikersaccount.',
-  'Refreshed token, new token expires in %s seconds.' => 'Token vernieuwd, nieuw token verloopt over %s seconden.',
+  'Refreshed token, new token expires in %s seconds.' => array(
+    'Token vernieuwd, nieuw token verloopt over %s seconde.',
+    'Token vernieuwd, nieuw token verloopt over %s seconden.',
+  ),
   'SMS' => 'SMS',
   '%s set the OAuth application secret for this provider.' => '%s heeft het OAuth-applicatiegeheim voor deze provider ingesteld.',
-  'Reset %s action(s).' => '%s handeling(en) gereset.',
+  'Reset %s action(s).' => array(
+    '%s handeling opnieuw ingesteld.',
+    '%s handelingen opnieuw ingesteld.',
+  ),
   'Address Already Verified' => 'Adres al geverifieerd',
   'OAuth client "%s" is already trusted.' => 'OAuth-client "%s" is al vertrouwd.',
   'When users click the "Change Username" action on their profile pages but do not have the required permissions, they will be presented with a message explaining that they are not authorized to make the edit.
@@ -798,7 +858,7 @@ You can optionally provide additional instructions here to help users request a 
 U kunt hier optioneel aanvullende instructies geven om gebruikers te helpen een gebruikersnaamwijziging aan te vragen, als er iemand specifiek is met wie ze contact moeten opnemen of een bepaalde workflow die ze moeten gebruiken.',
   'You are trying to gain access to an account ("%s") that can not establish a web session.' => 'U probeert toegang te krijgen tot een account ("%s") dat geen websessie kan opzetten.',
   'Sent By' => 'Verzonden door',
-  'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'U moet de uitdaging goedkeuren die naar uw telefoon is gestuurd. Open de Duo-applicatie en bevestig de uitdaging, en ga vervolgens verder.',
+  'You must approve the challenge which was sent to your phone. Open the Duo application and confirm the challenge, then continue.' => 'U moet de uitdaging goedkeuren die naar uw telefoon is gestuurd. Open de Duo-toepassing en bevestig de uitdaging, en ga vervolgens verder.',
   'Download Private Key (%s)' => 'Privésleutel downloaden (%s)',
   'Make sure you are copy-and-pasting the entire link into your browser. Login links are only valid for 24 hours, and can only be used once.' => 'Zorg ervoor dat u de volledige koppeling in uw browser kopieert en plakt. Aanmeldkoppelingen zijn slechts 24 uur geldig en kunnen maar één keer worden gebruikt.',
   '%s disabled login.' => '%s heeft aanmelden uitgeschakeld.',
@@ -815,7 +875,7 @@ U kunt hier optioneel aanvullende instructies geven om gebruikers te helpen een 
   'You have made too many account recovery requests in a short period of time.' => 'U hebt te veel accountherstelverzoeken gedaan in een korte periode.',
   'Download Private Key' => 'Privésleutel downloaden',
   'Query public keys.' => 'Publieke sleutels opvragen.',
-  'After logging in, you can use the "Auth" application to add or restore authentication providers and allow normal logins to succeed.' => 'Na het aanmelden kunt u de applicatie "Authenticatie" gebruiken om authenticatieproviders toe te voegen of te herstellen en normale aanmeldingen te laten slagen.',
+  'After logging in, you can use the "Auth" application to add or restore authentication providers and allow normal logins to succeed.' => 'Na het aanmelden kunt u de toepassing "Authenticatie" gebruiken om authenticatieproviders toe te voegen of te herstellen en normale aanmeldingen te laten slagen.',
   'Authentication Canceled' => 'Authenticatie geannuleerd',
   'Will Ignore Address' => 'Adres wordt genegeerd',
   'Custom text for the message.' => 'Aangepaste tekst voor het bericht.',
@@ -846,16 +906,16 @@ You should use these settings in your application:
 %s
 
 
-After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Om Facebook OAuth te configureren, maakt u hier een nieuwe Facebook-applicatie aan:
+After creating your new application, copy the **App ID** and **App Secret** to the fields above.' => 'Om Facebook OAuth te configureren, maakt u hier een nieuwe Facebook-toepassing aan:
 
 https://developers.facebook.com/apps
 
-Gebruik deze instellingen in uw applicatie:
+Gebruik deze instellingen in uw toepassing:
 
 %s
 
 
-Kopieer na het aanmaken van uw nieuwe applicatie het **App-ID** en het **App-geheim** naar de bovenstaande velden.',
+Kopieer na het aanmaken van uw nieuwe toepassing het **App-ID** en het **App-geheim** naar de bovenstaande velden.',
   'Too many login failures recently. You must submit a CAPTCHA with your login request.' => 'Te veel mislukte aanmeldpogingen onlangs. U moet een CAPTCHA indienen bij uw aanmeldverzoek.',
   'Specified pkcs8 keyfile "%s" does not exist!' => 'Opgegeven PKCS8-sleutelbestand "%s" bestaat niet!',
   'An email has been sent containing a link you can use to log in to your account.' => 'Er is een e-mail verstuurd met een koppeling die u kunt gebruiken om aan te melden bij uw account.',
@@ -888,15 +948,15 @@ Kopieer na het aanmaken van uw nieuwe applicatie het **App-ID** en het **App-geh
   - **Consumer Callback URL**: `%s`
 Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => '**Stap 2 van 2**: In deze stap configureert u JIRA.
 
-**Een JIRA-applicatie aanmaken**: Meld u aan bij JIRA en ga naar **Beheer**, vervolgens **Add-ons**, vervolgens **Applicatiekoppelingen**. Klik op de knop **Applicatiekoppeling toevoegen** en gebruik deze instellingen om een applicatie aan te maken:
+**Een JIRA-toepassing aanmaken**: Meld u aan bij JIRA en ga naar **Beheer**, vervolgens **Add-ons**, vervolgens **Toepassingskoppelingen**. Klik op de knop **Toepassingskoppeling toevoegen** en gebruik deze instellingen om een toepassing aan te maken:
 
   - **Server-URL**: `%s`
   - Klik vervolgens op **Volgende**. Op de tweede pagina:
-  - **Applicatienaam**: `%s`
-  - **Applicatietype**: `Generieke applicatie`
+  - **Toepassingsnaam**: `%s`
+  - **Toepassingstype**: `Generieke toepassing`
   - Klik vervolgens op **Aanmaken**.
 
-**Uw applicatie configureren**: Zoek de applicatie die u zojuist hebt aangemaakt in de tabel en klik op de koppeling **Configureren** onder **Handelingen**. Selecteer **Inkomende authenticatie** en klik op het tabblad **OAuth** (dit is mogelijk standaard geselecteerd). Gebruik vervolgens deze instellingen:
+**Uw toepassing configureren**: Zoek de toepassing die u zojuist hebt aangemaakt in de tabel en klik op de koppeling **Configureren** onder **Handelingen**. Selecteer **Inkomende authenticatie** en klik op het tabblad **OAuth** (dit is mogelijk standaard geselecteerd). Gebruik vervolgens deze instellingen:
 
   - **Consumentsleutel**: Stel dit in op de waarde "Consumentsleutel" in het bovenstaande formulier.
   - **Consumentnaam**: `%s`
@@ -951,7 +1011,10 @@ Gebruikers moeten `arc install-certificate` gebruiken om nieuwe API-tokens te in
   'Do you want to enable this provider? Users will be able to use their existing external accounts to register new accounts and log in using linked accounts.' => 'Wilt u deze provider inschakelen? Gebruikers kunnen hun bestaande externe accounts gebruiken om nieuwe accounts te registreren en aan te melden met gekoppelde accounts.',
   'Password Reset Token' => 'Wachtwoordhersteltoken',
   'Allow Account Unlinking' => 'Ontkoppelen van accounts toestaan',
-  'The selected password is too short. Passwords must be a minimum of %s characters long.' => 'Het gekozen wachtwoord is te kort. Wachtwoorden moeten minimaal %s tekens lang zijn.',
+  'The selected password is too short. Passwords must be a minimum of %s characters long.' => array(
+    'Het gekozen wachtwoord is te kort. Wachtwoorden moeten minimaal %s teken lang zijn.',
+    'Het gekozen wachtwoord is te kort. Wachtwoorden moeten minimaal %s tekens lang zijn.',
+  ),
   'Base Distinguished Name' => 'Basis-DN (Distinguished Name)',
   'You do not have permission to manage authentication providers.' => 'U hebt geen toestemming om authenticatieproviders te beheren.',
   'Allow Registration:' => 'Registratie toestaan:',
@@ -987,11 +1050,11 @@ When creating your application, use these settings:
 
   - **Callback URL:** Set this to: `%s`
 
-After completing configuration, copy the **Consumer Key** and **Consumer Secret** to the fields above.' => 'Om Twitter OAuth te configureren, maakt u hier een nieuwe applicatie aan:
+After completing configuration, copy the **Consumer Key** and **Consumer Secret** to the fields above.' => 'Om Twitter OAuth te configureren, maakt u hier een nieuwe toepassing aan:
 
 https://dev.twitter.com/apps
 
-Gebruik bij het aanmaken van uw applicatie deze instellingen:
+Gebruik bij het aanmaken van uw toepassing deze instellingen:
 
   - **Callback-URL:** Stel dit in op: `%s`
 
@@ -1023,7 +1086,6 @@ Kopieer na het voltooien van de configuratie de **Consumentsleutel** en het **Co
   'sn' => 'sn',
   'A passphrase was provided for this private key, but it does not require a passphrase. Check that you supplied the correct key, or omit the passphrase.' => 'Er is een wachtwoordzin opgegeven voor deze privésleutel, maar deze vereist geen wachtwoordzin. Controleer of u de juiste sleutel hebt opgegeven, of laat de wachtwoordzin weg.',
   'This provider is not configured to allow linking.' => 'Deze provider is niet geconfigureerd om koppeling toe te staan.',
-  'Expected valid JSON response from "user.whoami" request.' => 'Geldig JSON-antwoord verwacht van "user.whoami"-verzoek.',
   '%s created this provider.' => '%s heeft deze provider aangemaakt.',
   'Multi-Factor' => 'Multifactor',
   'This contact number is already in use.' => 'Dit contactnummer is al in gebruik.',
@@ -1036,7 +1098,7 @@ Tijdelijke tokens worden gebruikt in wachtwoordherstel-e-mails, welkomst-e-mails
   'Enter the code from the text message which was sent to your primary contact number.' => 'Voer de code in uit het tekstbericht dat naar uw primaire contactnummer is gestuurd.',
   'Do you want to enable this provider? Users will be able to log in using linked accounts.' => 'Wilt u deze provider inschakelen? Gebruikers kunnen aanmelden met gekoppelde accounts.',
   'JIRA Instance Name' => 'JIRA-instantienaam',
-  '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s heeft het OAuth-applicatie-ID voor deze provider bijgewerkt van "%s" naar "%s".',
+  '%s updated the OAuth application ID for this provider from "%s" to "%s".' => '%s heeft het OAuth-toepassings-ID voor deze provider bijgewerkt van "%s" naar "%s".',
   '%s enabled registration.' => '%s heeft registratie ingeschakeld.',
   'Auth Message %d' => 'Authenticatiebericht %d',
   'Unable to load your OAuth1 token secret from storage. It may have expired. Try authenticating again.' => 'Kan uw OAuth1-tokengeheim niet laden uit de opslag. Het is mogelijk verlopen. Probeer opnieuw te authenticeren.',
@@ -1098,27 +1160,6 @@ LDAP-fout #%d: %s',
   'These auth factors will be stripped:' => 'Deze authenticatiefactoren worden verwijderd:',
   'Contact numbers must have a contact number.' => 'Contactnummers moeten een contactnummer hebben.',
   'Engine: Session' => 'Engine: sessie',
-  '**Step 2 of 2 - Configure OAuth Server**
-
-To configure OAuth, create a new application here:
-
-%s/oauthserver/client/create/
-
-When creating your application, use these settings:
-
-  - **Redirect URI:** Set this to: `%s`
-
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Stap 2 van 2 - OAuth-server configureren**
-
-Om OAuth te configureren, maakt u hier een nieuwe applicatie aan:
-
-%s/oauthserver/client/create/
-
-Gebruik bij het aanmaken van uw applicatie deze instellingen:
-
-  - **Omleidings-URI:** Stel dit in op: `%s`
-
-Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden. (Mogelijk moet u eerst het clientgeheim genereren door op \'Nieuw geheim\' te klikken.)',
   'Require Existing Duo Account' => 'Bestaand Duo-account vereisen',
   'Upload SSH Public Key' => 'Publieke SSH-sleutel uploaden',
   'No such user "%s"!' => 'Gebruiker "%s" bestaat niet!',
@@ -1130,7 +1171,7 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Once you have completed setup on your phone, click continue.' => 'Zodra u de installatie op uw telefoon hebt voltooid, klikt u op doorgaan.',
   'Application secret is required.' => 'Applicatiegeheim is vereist.',
   'Authentication Failure' => 'Authenticatiefout',
-  'Use %s to choose a user to reset actions for.' => 'Gebruik %s om een gebruiker te kiezen waarvoor handelingen gereset moeten worden.',
+  'Use %s to choose a user to reset actions for.' => 'Gebruik %s om een gebruiker te kiezen waarvoor handelingen opnieuw ingesteld moeten worden.',
   'LDAP Username' => 'LDAP-gebruikersnaam',
   'Parsed Address' => 'Verwerkt adres',
   'Login and Registration Providers' => 'Aanmeld- en registratieproviders',
@@ -1179,21 +1220,20 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'LDAP Hostname' => 'LDAP-hostnaam',
   'The email address you just clicked a link from is already verified and associated with a registered account (%s). Log in to continue.' => 'Het e-mailadres waarvan u zojuist een koppeling hebt aangeklikt is al geverifieerd en gekoppeld aan een geregistreerd account (%s). Meld u aan om door te gaan.',
   '%s enabled this provider.' => '%s heeft deze provider ingeschakeld.',
-  'After entering the key, the application should display a numeric code. Enter that code below to confirm that you have configured the authenticator correctly:' => 'Na het invoeren van de sleutel zou de applicatie een numerieke code moeten weergeven. Voer die code hieronder in om te bevestigen dat u de authenticator correct hebt geconfigureerd:',
-  'If you are currently using your phone to view this page, click this button to open the Duo application:' => 'Als u momenteel uw telefoon gebruikt om deze pagina te bekijken, klikt u op deze knop om de Duo-applicatie te openen:',
+  'After entering the key, the application should display a numeric code. Enter that code below to confirm that you have configured the authenticator correctly:' => 'Na het invoeren van de sleutel zou de toepassing een numerieke code moeten weergeven. Voer die code hieronder in om te bevestigen dat u de authenticator correct hebt geconfigureerd:',
+  'If you are currently using your phone to view this page, click this button to open the Duo application:' => 'Als u momenteel uw telefoon gebruikt om deze pagina te bekijken, klikt u op deze knop om de Duo-toepassing te openen:',
   'External Account is a WMF SUL account but email address is not a @wikimedia.org email address. Use your @wikimedia.org email address to create your Phabricator account.' => 'Extern account is een WMF SUL-account maar het e-mailadres is geen @wikimedia.org-e-mailadres. Gebruik uw @wikimedia.org-e-mailadres om uw Phabricator-account aan te maken.',
   'Specify either specific users with %s, or all users with %s, but not both.' => 'Geef specifieke gebruikers op met %s, of alle gebruikers met %s, maar niet beide.',
   'Unable to refresh token!' => 'Kan token niet vernieuwen!',
   '%s changed the status of this provider from %s to %s.' => '%s heeft de status van deze provider gewijzigd van %s naar %s.',
   'Consumer Key' => 'Consumentsleutel',
-  'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.' => 'Het e-mailadres dat is gekoppeld aan dit account ("%s") is al in gebruik door een applicatie en kan niet worden gebruikt om een nieuw account te registreren. Kies een ander, geldig adres.',
+  'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.' => 'Het e-mailadres dat is gekoppeld aan dit account ("%s") is al in gebruik door een toepassing en kan niet worden gebruikt om een nieuw account te registreren. Kies een ander, geldig adres.',
   'Logging in will verify %s as an email address you own.' => 'Aanmelden verifieert %s als een e-mailadres dat van u is.',
   'Not a Valid Email Address' => 'Geen geldig e-mailadres',
   'SSH Keys' => 'SSH-sleutels',
   'Active OAuth Token (Expires: %s)' => 'Actief OAuth-token (verloopt: %s)',
   'Specify the credential type to revoke with "--type" or "--everything", but not both.' => 'Geef het aanmeldgegevenstype op om in te trekken met "--type" of "--everything", maar niet beide.',
   '(If given an option, select that this key is "Time Based", not "Counter Based".)' => '(Als u een keuze krijgt, selecteert u dat deze sleutel "Tijdgebaseerd" is, niet "Tellergebaseerd".)',
-  'These methods are recently introduced and subject to change.' => 'Deze methoden zijn onlangs geïntroduceerd en kunnen worden gewijzigd.',
   'LDAP Password: ' => 'LDAP-wachtwoord: \\',
   'Bad Invite Code' => 'Onjuiste uitnodigingscode',
   '{icon check, color="green"} **Setup Complete!**
@@ -1202,7 +1242,7 @@ You have successfully configured multi-factor authentication for your account.
 
 You can make adjustments from the [[ /settings/ | Settings ]] panel later.' => '{icon check, color="green"} **Installatie voltooid!**
 
-U hebt multifactorauthenticatie voor uw account succesvol geconfigureerd.
+U hebt multifactorauthenticatie voor uw account geconfigureerd.
 
 U kunt later aanpassingen maken vanuit het [[ /settings/ | Instellingen ]]-paneel.',
   'Allow users to log in or register using a username and password.' => 'Gebruikers toestaan om aan te melden of te registreren met een gebruikersnaam en wachtwoord.',
@@ -1265,7 +1305,6 @@ Let op: u moet de daemons herstarten om dit van kracht te laten worden.',
   'Skipping, provider is not an OAuth2 provider.' => 'Overslaan, provider is geen OAuth2-provider.',
   'Your login session is invalid, and clearing the session cookie was unsuccessful. Try clearing your browser cookies.' => 'Uw aanmeldsessie is onjuist en het wissen van de sessiecookie is mislukt. Probeer uw browsercookies te wissen.',
   'OAuth Consumer Secret' => 'OAuth-consumentgeheim',
-  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Het wachtwoord dat u hebt ingevoerd is ingetrokken. U kunt een ingetrokken wachtwoord niet hergebruiken. Kies een nieuw wachtwoord.',
 );
   }
 

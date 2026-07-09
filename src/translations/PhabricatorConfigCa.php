@@ -36,7 +36,6 @@ Per obtenir més informació sobre la configuració bloquejada i oculta, incloso
 
 Actualment es respecta aquest valor de base de dades, però una futura versió de Phabricator deixarà de respectar els valors de la base de dades per a les opcions de configuració bloquejades.',
   'Review and modify configuration settings.' => 'Reviseu i modifiqueu els paràmetres de configuració.',
-  'Array containing list of uninstalled applications.' => 'Array que conté la llista d\'aplicacions desinstal·lades.',
   'Client Server' => 'Servidor de Client',
   'Listeners receive callbacks when interesting things occur.' => 'Els oients reben trucades de retorn quan ocorren coses interessants.',
   'Update configuration in the database instead of in local configuration.' => 'Actualitza la configuració a la base de dades en lloc de la configuració local.',
@@ -60,19 +59,6 @@ Això també pot significar que el vostre servidor web (o algun altre dispositiu
 Les sol·licituds han d\'incloure una capçalera "amfitrió" vàlida.',
   'Memory Usage' => 'Ús de Memòria',
   'The request body that was sent began:' => 'El cos de la petició que Phabricator ha enviat en començar:',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'IMPORTANT: L\'ascendent no proporciona suport per a les aplicacions de prototips. 
-
-Phabricator inclou les aplicacions de prototips que es troben en una **primera etapa del desenvolupament**.  Per defecte, les aplicacions de prototips no estan instal·lades, perquè sovint no estan prou desenvolupades per ser utilitzables en general.  Podeu activar aquesta opció per instal·lar-los si esteu desenvolupant Phabricator o esteu interessat en la previsualització de les properes funcionalitats. 
-
-Per aprendre més sobre els prototips, vegeu [[ %s | %s ]]. 
-
-Després d\'habilitar prototips, podeu desinstal·lar-los selectivament (com les aplicacions normals)',
   'Impersonating users over the API is no longer supported.' => 'Ja no és possible fer-se passar per altres usuaris a través de l\'API.',
   'Table' => 'Taula',
   'The best available MYSQL implementation is now selected automatically.' => 'Ara Phabricator selecciona automàticament la millor implementació MySQL disponible.',
@@ -129,6 +115,7 @@ This option is not compatible with this software. Remove \'%s\' from your config
 Aquesta opció no és compatible amb Phabricator. Traieu "%s" de la configuració per continuar.',
   'The \'%s\' binary on this system has unexpected behavior: it was expected to exit without an error code when passed identical files, but exited with code %d.' => 'El binari \'%s\' d\'aquest sistema té un comportament inesperat: s\'esperava que sortís sense un codi d\'error quan es passaven fitxers idèntics, però sortia amb el codi %d.',
   'No active repositories have outstanding errors.' => 'Cap repositori actiu té errors pendents.',
+  'Array containing list of disabled applications.' => 'Array que conté la llista d\'aplicacions desinstal·lades.',
   'Usage' => 'Ús',
   'Rebuild Repository Identities' => 'Reconstrueix les identitats del repositori',
   'Move port information from `%s` to `%s` in your config.' => 'Moveu la informació del port de `%s` a `%s` a la teva configuració.',
@@ -162,7 +149,6 @@ Si configureu Phabricator per sincronitzar automàticament la informació del co
   'Configuration key \'%s\' is not set in %s configuration!' => 'La clau de configuració «%s» no està configurada a la configuració de %s!',
   'Multi-Factor Optional' => 'Multi-Factor Opcional',
   'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => 'L\'extensió "%s" no està instal·lada. Sense la compatibilitat amb "%s", és possible que Phabricator no pugui determinar els tipus MIME de fitxers penjats.',
-  'Access Denied' => 'Accés Denegat.',
   'The configuration option \'%s\' has been removed. You may delete it at your convenience.
 
 %s' => 'S\'ha eliminat l\'opció de configuració «%s».  Podeu suprimir-ho segons convingui. <br><br>%s',
@@ -193,7 +179,6 @@ Si configureu Phabricator per sincronitzar automàticament la informació del co
   'Run these %d command(s):' => 'Executa aquesta(es) ordre(s) %d',
   'Pattern' => 'Patró',
   'Unknown \'%s\' Version' => 'Versió \'%s\' desconeguda',
-  'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'Esteu fent servir una versió antiga de MySQL (a l\'amfitrió \'%s\') i hauríeu d\'actualitzar-la.',
   'Feed Hooks Deprecated' => 'Hooks d\'alimentació obsolets',
   'Purge Caches' => 'Purgar les cachés',
   'Configure services to run on a cluster of hosts.' => 'Configureu el Phabricator per executar-lo en un clúster d\'amfitrions.',
@@ -253,7 +238,6 @@ Hauríeu de desactivar aquesta opció (definir-la a 0) quan hàgiu acabat amb el
   'Treat all \'*.x.bak\' file as \'.x\'. NOTE: We map to capturing group 1 by specifying the mapping as \'1\'' => 'Tracteu tots els fitxers \'*.x.bak\' com a \'.x\'. NOTA: Fem el mapa al grup de captura 1 especificant el mapatge com a "1"',
   'Specify a system user to run the daemons as. Primarily, this user will own the working copies of any repositories that this software imports or manages. This option is new and experimental.' => 'Especifiqueu un usuari de sistema per executar els dimonis. Principalment, aquest usuari serà propietari de còpies de treball de qualsevol repositori que Fabricator importi o gestioni. Aquesta opció és nova i experimental.',
   'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'L\'opció "%s" és del tipus "%s", i s\'ha d\'especificar a la línia d\'ordres com una llista de valors JSON. És possible que hàgiu de citar el valor per al vostre intèrpret d\'ordres (per exemple: \'["a", "b", ...]\').',
-  'Old MySQL Version' => 'Versió antiga de MySQL',
   'Control how user names are rendered in mail.' => 'Controleu com Phabricator renderitza els noms d\'usuari al correu.',
   'This configuration is no longer relevant because daemons restart automatically on configuration changes.' => 'Aquesta configuració ja no és rellevant perquè els dimonis es reinicien automàticament en fer canvis de configuració.',
   'The Differential revision list view age UI elements have been removed to simplify the interface.' => 'S\'han eliminat els elements de la interfície d\'usuari de l\'edat de la vista de llista de revisió diferencial per simplificar la interfície.',
@@ -269,6 +253,19 @@ Després d\'executar `bin/auth unlock` i fer els canvis a la configuració del p
   'Unknown schema status "%s"!' => 'Estat de l\'esquema desconegut "%s"!',
   'MySQL May Run Slowly' => 'MySQL pot funcionar lentament',
   'Too many arguments: expected one key.' => 'Hi ha massa arguments: s’esperava una clau.',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => 'IMPORTANT: L\'ascendent no proporciona suport per a les aplicacions de prototips. 
+
+Phabricator inclou les aplicacions de prototips que es troben en una **primera etapa del desenvolupament**.  Per defecte, les aplicacions de prototips no estan instal·lades, perquè sovint no estan prou desenvolupades per ser utilitzables en general.  Podeu activar aquesta opció per instal·lar-los si esteu desenvolupant Phabricator o esteu interessat en la previsualització de les properes funcionalitats. 
+
+Per aprendre més sobre els prototips, vegeu [[ %s | %s ]]. 
+
+Després d\'habilitar prototips, podeu desinstal·lar-los selectivament (com les aplicacions normals)',
   'No "Host" header present in request.' => 'No hi ha cap capçalera \'Amfitrió\' present a la sol·licitud.',
   'Storage engines are now discovered automatically at runtime.' => 'Phabricator ara descobreix automàticament els motors d\'emmagatzematge disponibles en temps d\'execució.',
   'This software appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. This software regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => 'Sembla que el Phabricator està instal·lat en una instància EC2 molt petita (de classe «%s») amb CPU de ràfega. Això és molt desaconsellable. Phabricator necessita regularment CPU, i aquests casos són sovint ofegats fins a la mort per l\'estirament de la CPU. Utilitzeu una instància amb una CPU normal.',
@@ -431,11 +428,6 @@ Your webserver may not be configured to forward HTTP basic authentication. If yo
   'This key is on the wrong columns.' => 'Aquesta clau es troba a les columnes equivocades.',
   'Wrong Nullable Setting' => 'Paràmetres anul·lables erronis',
   'Secret key for Amazon S3.' => 'Clau secreta per a Amazon S3.',
-  'You are using an old version of MySQL (on host "%s") which has poor unicode support (it does not support the "utf8mb4" collation set). You will encounter limitations when working with some unicode data.
-
-We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'Esteu fent servir una versió antiga de MySQL (a l’amfitrió \'%s\') que té poca compatibilitat unicode (no admet el conjunt de confrontació \'utf8mb4\'). Trobareu limitacions quan treballeu amb algunes dades Unicode.
-
-Us recomanem que actualitzeu a MySQL 5.5 o posterior.',
   'Trying to add duplicate column "%s"!' => 'Intentant afegir una columna duplicada "%s"!',
   'Required PHP extensions are not installed.' => 'Les extensions PHP necessàries no estan instal·lades.',
   'UNHEALTHY: This database has failed recent health checks. Traffic will not be sent to it until it recovers.' => 'POC SÀ: Aquesta base de dades ha fallat en els controls de salut recents. No s’hi enviarà trànsit fins que es recuperi.',
@@ -559,7 +551,6 @@ After changing this value, you must restart the daemons. Most configuration chan
 Si feu servir un clúster de servidors, aquest límit s\'aplica per separat a cada instància de "phd". Per exemple, si aquest límit s\'estableix en "4" i tres amfitrions executen dimonis, el límit global efectiu serà de 12.
 
 Després de canviar aquest valor, heu de reiniciar els dimonis. La majoria dels canvis de configuració són recollits automàticament per dimonis, però la mida de la reserva de recursos no es pot canviar sense reiniciar cada instància.',
-  'Set the URI that Phurl will use to share shortened URLs.' => 'Establiu l\'URI que utilitzarà Phurl per compartir URL reduïts.',
   'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'La vostra versió de MySQL (a l\'amfitrió de la base de dades \'%s\') no admet la configuració d\'un fitxer de paraules buides. No podreu trobar resultats de cerca de paraules habituals.',
   'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'La configuració de PHP selecciona un fus horari no vàlid. Seleccioneu un fus horari vàlid.',
   '%s deleted this configuration entry (again?).' => '%s ha suprimit aquesta entrada de configuració (de nou?).',
@@ -567,6 +558,7 @@ Després de canviar aquest valor, heu de reiniciar els dimonis. La majoria dels 
   'Individual application reply handler domains have been removed. Configure a reply domain with "%s".' => 'S\'han eliminat els dominis particulars del gestor de resposta de l\'aplicació. Configura un domini de resposta amb «%s».',
   'Install these %d PHP extension(s):' => 'Instal·leu aquestes %d extensions de PHP:',
   'Missing \'%s\' Binary' => 'Falta el binari \'%s\'',
+  '\'%s\' or \'%s\' binary not found or Imagemagick is not installed.' => 'No s\'ha trobat el binari \'%s\' o Imagemagick no està instal·lat.',
   'The framable public feed is no longer supported.' => 'Ja no s\'admeten continguts públics seqüenciables.',
   'A random, unique string which identifies the request.' => 'Una cadena única i aleatòria que identifica la consulta.',
   'Disable unsafe option "%s" in PHP configuration.' => 'Desactiveu l\'opció no segura "%s" a la configuració de PHP.',
@@ -648,6 +640,7 @@ Si l\'actualització de Phabricator no soluciona això, podeu informar del probl
 Si esteu segur que teniu instal·lada una versió recent de \'%s\' i que funciona correctament, normalment és segur ignorar aquest advertiment.',
   'For conduit, the Conduit method which was invoked.' => 'Per a un conducte, el mètode Conduit que s\'ha invocat.',
   'Developer / Debugging' => 'Desenvolupador / Depuració',
+  'You have enabled Imagemagick in your config, but the \'%s\' or \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Heu activat Imagemagick a la configuració, però el binari \'%s\' no es troba al %s del servidor web. Desactiveu imagemagick o feu-lo disponible per al servidor web.',
   'Remove PHP %s' => 'Elimineu PHP %s',
   'Classes must match to compare schemata!' => 'Les classes han de coincidir per comparar els esquemes!',
   'Set the URI where this software is installed. Setting this improves security by preventing cookies from being set on other domains, and allows daemons to send emails with links that have the correct domain.' => 'Definiu l\'URI on s\'ha instal·lat Phabricator. Establir-ho millora la seguretat evitant que es configurin galetes en altres dominis i permet als dimonis enviar correus electrònics amb enllaços que tinguin el domini correcte.',
@@ -756,7 +749,6 @@ Alguna cosa està mal configurada o bé responen malament.',
   'No Caches to Reset' => 'Cap caché a reinicialitzar',
   'Really Clear Cache?' => 'Esborrar la caché?',
   'Collectors with custom policies are highlighted. Use %s to change retention policies.' => 'Es ressalten els col·lectors amb polítiques personalitzades. Utilitzeu %s per canviar les polítiques de retenció.',
-  'URI that Phurl will use to shorten URLs.' => 'URI que Phurl utilitzarà per escurçar URL.',
   'Reply hints are no longer shown in mail.' => 'El Phabricator ja no mostra consells de resposta al correu.',
   'Profile every request (slow)' => 'Perfila cada sol·licitud (lent)',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Aquesta opció generalment no era útil. Les claus de resum del recurs ara es gestionen automàticament.',
@@ -766,7 +758,6 @@ Alguna cosa està mal configurada o bé responen malament.',
   'Small MySQL "%s"' => 'MySQL petit "%s"',
   'Value for option "%s" must be an integer.' => 'El valor de l\'opció \'%s\' ha de ser un nombre enter.',
   'The request path, or request target.' => 'El camí sol·licitat o l\'objectiu de sol·licitat.',
-  'Install applications which are still under development.' => 'Instal·leu aplicacions encara en desenvolupament.',
   'Typeahead strategies are now managed automatically.' => 'Phabricator gestiona ara automàticament les estratègies d\'escriptura anticipada.',
   'PHP also loaded these %s configuration file(s):' => 'PHP també ha carregat aquests %s fitxers de configuració:',
   'Reading value from stdin...' => 'S\'està llegint el valor des de stdin ...',
@@ -787,7 +778,6 @@ Si no voleu instal·lar Pygments, podeu ignorar aquest problema.',
 Use %s to start daemons. See %s for more information.' => 'Els dimonis de Phabricator no s’executen, de manera que Phabricator no podrà realitzar processos en segon pla (inclosos l’enviament de correu electrònic, la reconstrucció d’índexs de cerca, la importació de confirmacions, la neteja de dades antigues i l’execució de construccions).
 
 Utilitzeu %s per iniciar dimonis. Consulteu %s per obtenir més informació.',
-  '\'%s\' binary not found or Imagemagick is not installed.' => 'No s\'ha trobat el binari \'%s\' o Imagemagick no està instal·lat.',
   'Unsafe MySQL "local_infile" Setting Enabled' => 'Paràmetres no segurs de MySQL \'local_infile\' habilitats',
   'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of the software.
 
@@ -849,6 +839,7 @@ NOTA: Heu d\'instal·lar XHProf per a que funcioni l\'anàlisi de perfils.',
   'Access key for Amazon EC2.' => 'Clau d\'accés per a Amazon EC2.',
   'Available search engines are now automatically discovered at runtime.' => 'Ara Phabricator descobreix automàticament els motors de cerca disponibles en temps d\'execució.',
   'Key for HMAC digests.' => 'Clau per als resums HMAC.',
+  'Enable applications which are still under development.' => 'Instal·leu aplicacions encara en desenvolupament.',
   'The request duration, in microseconds.' => 'La durada de la sol·licitud, en microsegons.',
   'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.' => 'El vostre dipòsit S3 es troba a la regió Amazon S3. Quan especifiqueu una regió, també heu d\'especificar un endpoint corresponent amb `amazon-s3.endpoint`. Podeu trobar una llista de regions i endpoints disponibles a la documentació d’AWS.',
   'MySQL %s Not Supported' => 'MySQL %s no compatible',
@@ -929,27 +920,6 @@ i menys pertorbació.
 Sense fer ús d\'aquesta bandera per silenciar l\'entorn temporal de proves, els
 usuaris rebrien un correu electrònic duplicat durant el temps que la instància
 de prova i la instància de producció antiga estaven en funcionament.',
-  'The base URI for this install is not configured, and major features will not work properly until you configure it.
-
-You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
-
-Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
-
-Based on this request, it appears that the correct setting is:
-
-%s
-
-To configure the base URI, run the command shown below.' => 'L\'URI base per a aquesta instal·lació no està configurat, i les funcionalitats principals no funcionaran correctament fins que la configureu. 
-
-Hauríeu d\'establir l\'URI base a l\'URI que utilitzareu per accedir al Phabricator, com "http://phabricator.exemple.com/". 
-
-Incloure el protocol (http o https), nom de domini i número de port si esteu utilitzant un port diferent de 80 (http) o 443 (https). 
-
-Basant-se en aquesta sol·licitud, sembla que la configuració correcta és: 
-
-%s 
-
-Per configurar l\'URI base, executeu l\'ordre que es mostra a continuació.',
   'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Actualment la configuració d\'autenticació està desbloquejada. Un cop acabeu de configurar l\'autenticació, l\'hauríeu de bloquejar.',
   'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'Encara no heu configurat cap proveïdor d\'autenticació. Heu d\'afegir un proveïdor (com nom d\'usuari/contrasenya, LDAP o GitHub OAuth) perquè els usuaris puguin registrar-se i iniciar sessió. Podeu afegir i configurar proveïdors utilitzant l\'Aplicació Autenticada.',
   'MySQL' => 'MySQL',
@@ -1094,9 +1064,29 @@ Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les nov
 If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'ADVERTÈNCIA: és una opció molt avançada i només útil per a proveïdors d\'allotjament que executen clústers multi-inquilins.
 
 Si proporcioneu un identificador d\'instància aquí (normalment injectant-lo amb un "%s"), Phabricator el passarà a subprocessos i hooks de validació a la variable d\'entorn "%s".',
+  'The base URI for this install is not configured, and major features will not work properly until you configure it.
+
+You should set the base URI to the URI you will use to access this server, like "https://devtools.example.com/".
+
+Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
+
+Based on this request, it appears that the correct setting is:
+
+%s
+
+To configure the base URI, run the command shown below.' => 'L\'URI base per a aquesta instal·lació no està configurat, i les funcionalitats principals no funcionaran correctament fins que la configureu. 
+
+Hauríeu d\'establir l\'URI base a l\'URI que utilitzareu per accedir al Phabricator, com "http://phabricator.exemple.com/". 
+
+Incloure el protocol (http o https), nom de domini i número de port si esteu utilitzant un port diferent de 80 (http) o 443 (https). 
+
+Basant-se en aquesta sol·licitud, sembla que la configuració correcta és: 
+
+%s 
+
+Per configurar l\'URI base, executeu l\'ordre que es mostra a continuació.',
   'HTTP Path Rewriting Incorrect' => 'La reescriptura de la ruta HTTP és incorrecta',
   'Surplus' => 'Sobrant',
-  'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Heu activat Imagemagick a la configuració, però el binari \'%s\' no es troba al %s del servidor web. Desactiveu imagemagick o feu-lo disponible per al servidor web.',
   'Instance identifier for multi-tenant clusters.' => 'Identificador d\'instància per a clústers multi-arrendadors.',
   'Upgrade MySQL Schema' => 'Actualitzeu l\'esquema MySQL',
   'Automatically sample some fraction of requests.' => 'Mostreja automàticament fraccions de sol·licituds.',

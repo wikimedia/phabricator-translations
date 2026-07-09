@@ -11,10 +11,8 @@ final class TranslatewikiCoreSk
     return array(
   'Provide the path to a library to export translations from.' => 'Zadajte cestu ku knižnici, z ktorej sa majú exportovať preklady.',
   'Swedish' => 'Švédsky',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Nepodarilo sa extrahovať reťazec s nerozpoznaným vzorom „%%“, „ %s “: %s .',
   'NONE' => 'ŽIADNE',
   'Slovenian' => 'slovinčina',
-  'Provide a locale code with "--locale".' => 'Zadajte kód lokácie s  „--locale“.',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorovanie reťazca „ %s “; chýba v zdrojovom súbore prekladu.',
   'Provide the path to exactly one library to export translations from.' => 'Zadajte cestu k presne jednej knižnici, z ktorej sa majú exportovať preklady.',
   'Catalan' => 'Katalánčina',
@@ -41,7 +39,6 @@ final class TranslatewikiCoreSk
   'Russian' => 'Ruština',
   'Class name to generate.' => 'Názov triedy, ktorý sa má vygenerovať.',
   'Norwegian' => 'Nórčina',
-  'Frequency Data' => 'Údaje o frekvencii',
   'Provide a JSON source file with "--source".' => 'Poskytnite zdrojový súbor JSON s „--source“.',
   'Hungarian' => 'maďarčina',
   'Generate a Phabricator translation classfile.' => 'Vygenerujte súbor tried prekladu Phabricator.',

@@ -12,7 +12,7 @@ final class PhabricatorMetaScn
   'Information' => 'Nfurmazzioni',
   'Syntax' => 'Sintassi',
   'Confirmation' => 'Cunfirmazzioni',
-  'Show Installed Applications' => 'Ammustra li appricazzioni nstallati',
+  'Show Enabled Applications' => 'Ammustra li appricazzioni nstallati',
   'Show All Applications' => 'Ammustra tutti li appricazzioni',
 );
   }

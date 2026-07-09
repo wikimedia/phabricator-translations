@@ -9,7 +9,6 @@ final class PhabricatorConfigZhHans
 
   protected function getTranslations() {
     return array(
-  'Array containing list of uninstalled applications.' => '包含未安装应用列表的数组。',
   'Client Server' => '客户端服务器',
   'Column/Key' => '列/键',
   '%s / %s' => '%s / %s',
@@ -19,6 +18,7 @@ final class PhabricatorConfigZhHans
   'Applications application' => '应用程序应用',
   'No Email Preferences Link' => '没有电子邮件参数设置链接',
   'Marked activity "%s" as completed.' => '将活动“%s”标记为已完成。',
+  'Array containing list of disabled applications.' => '包含未安装应用列表的数组。',
   'Usage' => '用法',
   '%s deleted %s (again?).' => '%s（再次？）删除了%s。',
   'Access log format.' => '访问日志格式。',
@@ -26,7 +26,6 @@ final class PhabricatorConfigZhHans
   'Short' => '短',
   'Full' => '完整',
   'Use Normal HTTP Redirects' => '使用一般HTTP重定向',
-  'Access Denied' => '访问被拒绝',
   '(%s%s) %s' => '（%s%s）%s',
   'Unknown \'%s\' Version' => '未知“%s”版本',
   'Purge Caches' => '刷新缓存',

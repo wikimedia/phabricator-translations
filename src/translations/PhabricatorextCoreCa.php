@@ -40,7 +40,6 @@ final class PhabricatorextCoreCa
   'OAuth provider returned an error response.' => 'El proveïdor OAuth va retornar una resposta d\'error.',
   'Ensure Security Task Policies are Enforced' => 'Assegureu-vos que es compleixen les polítiques de tasques de seguretat',
   'Release Details' => 'Detalls d\'alliberament',
-  'Allow' => 'Permet',
   'This MediaWiki Train Deployment is scheduled for the week of' => 'Aquest desplegament del tren de MediaWiki està planificat per a la setmana del',
   'Query users by ldap username.' => 'Consulteu els usuaris mitjançant el nom d’usuari ldap.',
   'LDAP User' => 'Usuari d\'LDAP',
@@ -78,7 +77,6 @@ Proporcioneu els següents paràmetres al registre del consumidor:
 Després de registrar el consumidor, MediaWiki us proporcionarà una **clau de Consum** i **Consumer Secret**.  Per completar la configuració del Phabricator, copieu les claus proporcionades als camps corresponents de dalt. 
 
 NOTA: Abans que Phabricator pugui autenticar-se amb èxit amb el vostre MediaWiki, un administrador del wiki ha d\'aprovar el registre del consumidor de l\'oauth utilitzant el formulari que es pot trobar a l\'URL següent: %s',
-  'Deny' => 'Denega',
   'Invalid' => 'No és vàlid',
   'Blocked on Code Review - Needs Changes' => 'Bloquejat en revisió de codi',
   'View Change in Gerrit' => 'Veure el canvi a Gerrit',
@@ -114,7 +112,6 @@ In the next step, you will create an OAuth consumer in MediaWiki to be used by P
 Al següent pas, crearà un consumidor d’autorització a MediaWiki perquè Phabricator oauth l’utilitzi.',
   'users subscribed to' => 'usuaris subscrits a',
   'Execute a dry run, changes will not be writen back to the database.' => 'Executeu una prova en blanc, els canvis no es tornaran a escriure a la base de dades.',
-  'PHIDs required' => 'Cal el PHID',
   'Branch `%s` and deploy to %s Wikis.' => 'Bifurca `%s` i desplega en Wikis de %s.',
   'Expert Mode.' => 'Mode expert.',
   'The specified username / userPHID was not found' => 'No s\'ha trobat el nom d\'usuari/PHID de l\'usuari especificat',

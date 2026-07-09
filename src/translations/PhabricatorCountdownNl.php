@@ -22,7 +22,6 @@ final class PhabricatorCountdownNl
   'Create a Countdown' => 'Een aftelling aanmaken',
   'Utilize the full capabilities of your ALU.' => 'Benut de volledige mogelijkheden van uw ALU.',
   'Launched on %s' => 'Gestart op %s',
-  'Countdown titles must not be longer than %s character(s).' => 'Aftellingstitels mogen niet langer zijn dan %s teken(s).',
   'No countdowns found.' => 'Geen aftellingen gevonden.',
   'Upcoming' => 'Aankomend',
   'Someone comments on a countdown.' => 'Iemand reageert op een aftelling.',
@@ -54,6 +53,10 @@ final class PhabricatorCountdownNl
   'You do not have permission to create a dashboard.' => 'U hebt geen toestemming om een dashboard aan te maken.',
   'New countdown end date.' => 'Nieuwe einddatum van de aftelling.',
   'The countdown name.' => 'De naam van de aftelling.',
+  'Countdown titles must not be longer than %s characters.' => array(
+    'Aftellingstitels mogen niet langer zijn dan %s teken.',
+    'Aftellingstitels mogen niet langer zijn dan %s tekens.',
+  ),
   'Read information about countdowns.' => 'Informatie over aftellingen lezen.',
   'COUNTDOWN DESCRIPTION' => 'AFTELLINGSBESCHRIJVING',
   'Creates and edits countdowns.' => 'Maakt aftellingen aan en bewerkt ze.',

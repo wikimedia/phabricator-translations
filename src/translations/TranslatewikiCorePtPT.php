@@ -11,7 +11,6 @@ final class TranslatewikiCorePtPT
     return array(
   'Provide the path to a library to export translations from.' => 'Fornece o caminho para uma biblioteca de onde exportar traduções.',
   'Swedish' => 'Sueco',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Não foi possível extrair string com padrão "%%" não reconhecido, "%s": %s.',
   'NONE' => 'NENHUM',
   'Slovenian' => 'Esloveno',
   'Catalan' => 'Catalão',

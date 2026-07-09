@@ -9,7 +9,6 @@ final class PhabricatorSearchHu
 
   protected function getTranslations() {
     return array(
-  'Format' => 'Formázás',
   'Profile Menu' => 'Profil menü',
   'Full Name' => 'Teljes név',
   'No Content' => 'Nincs tartalom',

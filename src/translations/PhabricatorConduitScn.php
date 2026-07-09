@@ -28,7 +28,6 @@ final class PhabricatorConduitScn
   'Active API Tokens' => 'Token API attivi',
   'API token "%s" is not valid.' => 'Lu token API "%s" nun è vàlidu.',
   'Developer API' => 'API dû sviluppaturi',
-  'View API Token' => 'Talìa lu token API',
   'List of column PHIDs.' => 'Elencu dî PHID di culonna.',
   'List of project PHIDs.' => 'Elencu dî PHID di pruggettu.',
   'A boolean.' => 'Nu booleanu.',

@@ -17,7 +17,6 @@ final class PhabricatorBadgesUk
   'New badge description.' => 'Опис нового значка',
   'Edit Badge: %s' => 'Редагувати значок: %s',
   'Activate Badge' => 'Активувати значок',
-  '%s renamed %s badge %s to %s.' => '%s перейменував %s значок %s на %s.',
   '%s disabled the badge %s.' => '%s вимкнув значок %s.',
   'All Badges' => 'Усі значки',
   'Edit Badge' => 'Редагувати значок',

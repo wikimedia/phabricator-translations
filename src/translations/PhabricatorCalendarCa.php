@@ -162,7 +162,6 @@ final class PhabricatorCalendarCa
   'You have not set up any events for export from Calendar yet. See the documentation for instructions on how to get started.' => 'Encara no heu configurat cap esdeveniment per exportar des de Calendar. Consulteu la documentació per obtenir instruccions sobre com començar.',
   'Expected DURATION to have exactly one value, found none.' => 'S\'esperava que DURACIÓ tingués exactament un valor, no se n\'ha trobat cap.',
   'Ignored an event (%s) because the original version of this event was created here.' => 'S\'ha ignorat un esdeveniment (%s) perquè la versió original d\'aquest esdeveniment s\'ha creat aquí.',
-  '%s renamed this event from %s to %s.' => '%s ha reanomenat aquest esdeveniment de "%s" a "%s".',
   'Recurring event frequency.' => 'Freqüència d\'esdeveniment recurrent.',
   'Triggered a periodic update.' => 'S\'ha activat una actualització periòdica.',
   'Configure an automatic update frequency.' => 'Configureu una freqüència d’actualització automàtica.',

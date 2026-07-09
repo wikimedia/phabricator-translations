@@ -11,7 +11,6 @@ final class PhabricatorRemarkupFrFR
     return array(
   'Invalid markup engine.' => 'Moteur de marquage invalide.',
   'Process text through remarkup.' => 'Traiter le texte via remarkup.',
-  'Content may not be empty.' => 'Le contenu ne peut pas être vide.',
 );
   }
 

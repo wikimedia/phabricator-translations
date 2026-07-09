@@ -10,7 +10,6 @@ final class PhabricatorDrydockMy
   protected function getTranslations() {
     return array(
   'Resource' => 'အရင်းအမြစ်',
-  'Show Details' => 'အသေးစိတ် ပြရန်',
   'Resource type.' => 'အရင်းအမြစ် အမျိုးအစား',
   'Resource %d: %s' => 'အရင်းအမြစ် %d:%s',
   'Resource %d' => 'အရင်းအမြစ် %d',

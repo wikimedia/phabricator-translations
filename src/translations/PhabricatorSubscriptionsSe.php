@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorSubscriptionsKuLatn
+final class PhabricatorSubscriptionsSe
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'ku_Latn';
+    return 'se';
   }
 
   protected function getTranslations() {
     return array(
-  '%d other(s)' => '%d yê(n) din',
+  'Unsubscribe' => 'Heaitte diŋgomis',
 );
   }
 

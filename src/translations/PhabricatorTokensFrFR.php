@@ -29,7 +29,6 @@ final class PhabricatorTokensFrFR
   '%s Token' => 'Jeton %s',
   'Award "%s" Token' => 'Gratifier « %s » d’un jeton',
   'No such object "%s"!' => 'Pas de tel objet « %s » !',
-  'Give or change a token.' => 'Donner ou changer un jeton.',
   'Heartbreak' => 'Crève-cœur',
   'Cup of Joe' => 'Tasse de Joe',
   'Orange Medal' => 'Médaille orange',

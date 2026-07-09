@@ -27,9 +27,9 @@ final class TranslatewikiCoreSrEC
   'Asturian' => 'астуријски',
   'Belarusian (Belarus)' => 'белоруски',
   'Serbian (Cyrillic script)' => 'српски (ћирилица)',
+  'Original:' => 'Оригинал:',
   'Russian' => 'руски',
   'Norwegian' => 'норвешки',
-  'Frequency Data' => 'Подаци о фреквенцијама',
   'Hungarian' => 'мађарски',
   'Zazaki' => 'зазаки',
   'Japanese' => 'јапански',
@@ -40,6 +40,7 @@ final class TranslatewikiCoreSrEC
   'Polish' => 'пољски',
   'Done.' => 'Завршено.',
   'PLURAL' => 'МНОЖИНА',
+  'Luxemborgish' => 'луксембуршки',
 );
   }
 

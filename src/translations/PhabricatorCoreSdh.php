@@ -13,7 +13,6 @@ final class PhabricatorCoreSdh
   'Inactive' => 'ناچالاک',
   'Author: %s' => 'نۊسەر: %s',
   'Administrators' => 'وەڕێیەوبەرەیل',
-  'Merchant' => 'بازرگان',
   'Example' => 'نموونە',
   'Duration' => 'ماوە',
   'Meme' => 'میم',

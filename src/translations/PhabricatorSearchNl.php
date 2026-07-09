@@ -14,7 +14,7 @@ final class PhabricatorSearchNl
   'Enable Query?' => 'Zoekopdracht inschakelen?',
   'Global Search' => 'Globaal zoeken',
   'Personal Menu Items' => 'Persoonlijke menu-items',
-  'Format' => 'Formaat',
+  'Parameter "%s" must be a map of constraints.' => 'Parameter "%s" moet een map met beperkingen zijn.',
   'The queries you have saved are private. Only you can view or edit them.' => 'De zoekopdrachten die u hebt opgeslagen, zijn privé. Alleen u kunt ze bekijken of bewerken.',
   'cat -A can find mice hiding in files.' => 'kat -A kan muizen vinden die zich in bestanden schuilhouden.',
   'Export Format Not Available' => 'Exportformaat niet beschikbaar',
@@ -44,19 +44,31 @@ final class PhabricatorSearchNl
   '%s Search' => '%s doorzoeken',
   'Service index is out of date, repairing...' => 'De dienstindex is verouderd en wordt gerepareerd...',
   'Query: %s' => 'Zoekopdracht: %s',
-  'Query is too long (%s bytes, maximum is %s bytes). Please use more specific search criteria.' => 'De zoekopdracht is te lang (%s bytes, maximaal %s bytes). Gebruik specifiekere zoekcriteria.',
+  'Query is too long (%s bytes, maximum is %s bytes). Please use more specific search criteria.' => array(
+    
+    array(
+      'De zoekopdracht is te lang (%s byte, maximaal %s byte). Gebruik specifiekere zoekcriteria.',
+      'De zoekopdracht is te lang (%s byte, maximaal %s bytes). Gebruik specifiekere zoekcriteria.',
+    ),
+    
+    array(
+      'De zoekopdracht is te lang (%s bytes, maximaal %s byte). Gebruik specifiekere zoekcriteria.',
+      'De zoekopdracht is te lang (%s bytes, maximaal %s bytes). Gebruik specifiekere zoekcriteria.',
+    ),
+  ),
   'Run a search query. Intended for debugging and development.' => 'Voer een zoekopdracht uit. Bedoeld voor debuggen en ontwikkeling.',
   'Two fields in this SearchEngine use the same key ("%s"), but each field must use a unique key.' => 'Twee velden in deze zoekmachine gebruiken dezelfde sleutel ("%s"), maar elk veld moet een unieke sleutel hebben.',
+  'Parameter "%s" is invalid.' => 'Parameter "%s" is onjuist.',
   'Ferret function "%s" is specified with a denormalized name. Instead, specify the function using the normalized function name ("%s").' => 'De Ferret-functie "%s" wordt gespecificeerd met een gedenormaliseerde naam. Specificeer de functie in plaats daarvan met de genormaliseerde functienaam ("%s").',
   'Unable to instantiate query class "%s": %s' => 'Kan queryklasse "%s" niet instantiëren: %s',
   '—' => '—',
   'Cats have five pointy ends.' => 'Katten hebben vijf puntige uiteinden.',
   'Personal Saved Queries' => 'Persoonlijke opgeslagen zoekopdrachten',
-  'Ignored Common Word' => 'Genegeerd veelvoorkomend woord',
   'SearchFields "%s" (of class "%s") and "%s" (of class "%s") both define the same Conduit key ("%s"). Keys must be unique.' => 'De zoekvelden "%s" (van klasse "%s") en "%s" (van klasse "%s") definiëren beide dezelfde Conduit-sleutel ("%s"). Sleutels moeten uniek zijn.',
   'You must choose a link name.' => 'U moet een koppelingsnaam kiezen.',
   'Recompute common ngrams. This is an advanced workflow that can harm search quality if used improperly.' => 'Herbereken de meest voorkomende n-grammen. Dit is een geavanceerde procedure die de zoekkwaliteit kan schaden als deze onjuist wordt gebruikt.',
   'Engine: Fulltext' => 'Engine: Volledige tekst',
+  'Invalid query for parameter "%s".' => 'Incorrecte zoekopdracht voor parameter "%s".',
   'Open Items' => 'Items openen',
   'Global Menu Items' => 'Algemene menu-items',
   'No visible menu items can render content.' => 'Geen enkel zichtbaar menu-item kan inhoud weergeven.',
@@ -67,12 +79,10 @@ final class PhabricatorSearchNl
   'Specify either --reset or --threshold.' => 'Geef ofwel --reset ofwel --threshold op.',
   'Queries' => 'Zoekopdrachten',
   'Already Default' => 'Al standaard',
-  'Parameter "constraints" must be a map of constraints, got "%s".' => 'De parameter "constraints" moet een map met beperkingen zijn, maar er is "%s" ontvangen.',
   'No services need initialization.' => 'Er hoeven geen diensten te worden geïnitialiseerd.',
   'The Spanish word for cat is "cato". The biggest cat is called "el cato".' => 'Het Spaanse woord voor kat is "cato". De grootste kat heet "el cato".',
   'Add New Menu Item...' => 'Nieuw menu-item toevoegen...',
   'Untitled "%s" Item' => 'Naamloos "%s"-item',
-  'Query key "%s" does not correspond to a valid query.' => 'De zoekopdrachtsleutel "%s" hoort niet bij een juiste zoekopdracht.',
   'The first cats evolved on the savannah about 8,000 years ago.' => 'De eerste katachtigen ontwikkelden zich zo\'n 8000 jaar geleden op de savanne.',
   'You must name the query.' => 'U moet de zoekopdracht een naam geven.',
   'Choose Item Icon' => 'Selecteer itempictogram',
@@ -172,7 +182,7 @@ For example, the results may look something like this:
 This result structure is standardized across all search methods, but the
 available fields differ from application to application.
 
-These are the fields available on this object type:' => 'Objecten die overeenkomen met uw zoekopdracht worden geretourneerd als een lijst met dictionaries in de `data`-eigenschap van de resultaten. Elke dictionary bevat metadata en een `fields`-sleutel, die de informatie over het object bevat waarin de meeste gebruikers geïnteresseerd zullen zijn.
+These are the fields available on this object type:' => 'Objecten die overeenkomen met uw zoekopdracht worden geretourneerd als een lijst met dictionaries in de `data`-eigenschap van de resultaten. Elke dictionary bevat metagegevens en een `fields`-sleutel, die de informatie over het object bevat waarin de meeste gebruikers geïnteresseerd zullen zijn.
 
 De resultaten kunnen er bijvoorbeeld als volgt uitzien: 
 
@@ -230,7 +240,7 @@ Dit zijn de velden die beschikbaar zijn voor dit objecttype:',
   'Raw query to execute.' => 'De onbewerkte zoekopdracht die moet worden uitgevoerd.',
   'Two field specifications share the same key ("%s"). Each specification must have a unique key.' => 'Twee veldspecificaties delen dezelfde sleutel ("%s"). Elke specificatie moet een unieke sleutel hebben.',
   'Profile Menu Items' => 'Profielmenu-items',
-  'You must choose a URI to link to.' => 'Je moet een URI kiezen waarnaar u wilt verwijzen.',
+  'You must choose a URI to link to.' => 'U moet een URI kiezen waarnaar u wilt verwijzen.',
   'Field Present: %s' => 'Veld aanwezig: %s',
   'Expected "newMenuItemViewList()" to return a list (in class "%s"), but it returned something else ("%s").' => 'Er werd verwacht dat "newMenuItemViewList()" een lijst zou retourneren (in klasse "%s"), maar het retourneerde iets anders ("%s").',
   'Initialize or repair a search service.' => 'Een zoekdienst initialiseren of repareren.',
@@ -285,7 +295,6 @@ Dit zijn de velden die beschikbaar zijn voor dit objecttype:',
   'Prebuilt Queries' => 'Voorgedefinieerde zoekopdrachten',
   'Fulltext Search Results' => 'Zoekresultaten voor de volledige tekst',
   'Query has an invalid sequence of operators ("%s").' => 'De zoekopdracht bevat een ongeldige reeks operatoren ("%s").',
-  'Constraint "%s" is not a valid constraint for this query.' => 'De beperking "%s" is geen geldige beperking voor deze zoekopdracht.',
   'Engine: Search' => 'Engine: Zoeken',
   'Profile Menu Item' => 'Profielmenu-items',
   '"2022-12-25" or "7 days ago"...' => '"2022-12-25" of "7 days ago"…',
@@ -433,6 +442,10 @@ Dit voorbeeld geeft aan dat de resultaten informatie over abonnees moeten bevatt
 Deze bijlagen zijn beschikbaar:',
   'Excluding Search' => 'Zoeken uitsluiten',
   'The word "catastrophe" has no etymological relationship to the word "cat".' => 'Het woord "catastrofe" heeft geen etymologische relatie met het woord "kat".',
+  'Skipped %s document(s) which have not updated since they were last indexed.' => array(
+    '%s document overgeslagen dat niet is bijgewerkt sinds de laatste indexering.',
+    '%s documenten overgeslagen die niet zijn bijgewerkt sinds de laatste indexering.',
+  ),
   'Edit Builtin Item' => 'Ingebouwd item bewerken',
   'Text value for "%s" can not be parsed.' => 'De tekstwaarde voor "%s" kan niet worden verwerkt.',
   'Two different fulltext engine extensions ("%s" and "%s") both define a search function with the same name ("%s"). Each function must have a unique name.' => 'Twee verschillende fulltext-zoekmachine-uitbreidingen ("%s" en "%s") definiëren beide een zoekfunctie met dezelfde naam ("%s"). Elke functie moet een unieke naam hebben.',
@@ -441,8 +454,14 @@ Deze bijlagen zijn beschikbaar:',
   'Cat tails are flexible because they contain thousands of tiny bones.' => 'Kattenstaarten zijn flexibel omdat ze duizenden kleine botjes bevatten.',
   'Cat Facts' => 'Kattenweetjes',
   'Ferret Engine Ngrams' => 'Ferret-engine ngrams',
-  'Forced search index updates for %s document(s).' => 'Geforceerd de zoekindex bijwerken voor %s document(en).',
-  'Updated search indexes for %s document(s).' => 'Zoekindexen bijgewerkt voor %s document(en).',
+  'Forced search index updates for %s document(s).' => array(
+    'Geforceerd de zoekindex bijwerken voor %s document.',
+    'Geforceerd de zoekindex bijwerken voor %s documenten.',
+  ),
+  'Updated search indexes for %s document(s).' => array(
+    'Zoekindexen bijgewerkt voor %s document.',
+    'Zoekindexen bijgewerkt voor %s documenten.',
+  ),
   'Field Absent: %s' => 'Veld ontbreekt: %s',
   'Cats are stealthy predators and nearly invisible to radar.' => 'Katten zijn sluipende roofdieren en vrijwel onzichtbaar voor radar.',
   'Search Index Versions' => 'Zoekindexversies',
@@ -455,8 +474,8 @@ Deze bijlagen zijn beschikbaar:',
   'Divider' => 'Scheiding',
   'Archived Dashboard' => 'Dashboard archiveren',
   'Manage Menu' => 'Menu beheren',
+  'Minimum page size for Conduit API method calls is 1, but this call specified %s.' => 'De minimale paginagrootte voor API-zoekopdrachten is 1, maar bij deze aanroep werd %s gespecificeerd.',
   'This query took too long, so only some results are shown. %s' => 'Deze zoekopdracht duurde te lang, daarom worden slechts enkele resultaten weergegeven. %s',
-  'Skipped %s documents(s) which have not updated since they were last indexed.' => '%s documenten overgeslagen die niet zijn bijgewerkt sinds hun laatste indexering.',
   'The largest recorded cat was nearly 11 inches long from nose to tail.' => 'De grootste kat die ooit is geregistreerd, was bijna 28 centimeter lang van neus tot staart.',
   'PHID Type' => 'PHID-type',
   'Invalid Relationship' => 'Onjuiste relatie',
@@ -470,7 +489,18 @@ Deze bijlagen zijn beschikbaar:',
   'Full-Text Search' => 'Zoeken in de volledige tekst',
   'Too few documents of type "%s" for any ngrams to be common.' => 'Er zijn te weinig documenten van het type "%s" om n-grammen algemeen te laten voorkomen.',
   'Deprecated alias for "%s".' => 'Verouderde alias voor "%s".',
-  'Query has too many search tokens (%s tokens, maximum is %s tokens). Please use more specific search criteria.' => 'De zoekopdracht bevat te veel zoektermen (%s tokens, maximaal %s tokens). Gebruik specifiekere zoekcriteria.',
+  'Query has too many search tokens (%s tokens, maximum is %s tokens). Please use more specific search criteria.' => array(
+    
+    array(
+      'De zoekopdracht bevat te veel zoektermen (%s token, maximaal %s token). Gebruik specifiekere zoekcriteria.',
+      'De zoekopdracht bevat te veel zoektermen (%s token, maximaal %s tokens). Gebruik specifiekere zoekcriteria.',
+    ),
+    
+    array(
+      'De zoekopdracht bevat te veel zoektermen (%s tokens, maximaal %s token). Gebruik specifiekere zoekcriteria.',
+      'De zoekopdracht bevat te veel zoektermen (%s tokens, maximaal %s tokens). Gebruik specifiekere zoekcriteria.',
+    ),
+  ),
   'Edit Menu Item' => 'Menu-item bewerken',
   'Initializing search service "%s".' => 'De zoekservice "%s" wordt geïnitialiseerd.',
   'SELECT' => 'SELECTEREN',
@@ -478,8 +508,10 @@ Deze bijlagen zijn beschikbaar:',
   'Date value for "%s" can not be parsed.' => 'De datumwaarde voor "%s" kan niet worden verwerkt.',
   'Browse Item Types' => 'Itemtypen bekijken',
   'NOTE' => 'OPMERKING',
+  'Parameter "%s" includes an invalid key.' => 'Parameter "%s" bevat een onjuiste sleutel.',
   '"%s" must be a date before "%s".' => '" %s " moet een datum zijn die vóór "%s" ligt.',
   'Fulltext Search' => 'Volledige tekst zoeken',
+  'Parameter "%s" must be a map of attachments.' => 'Parameter "%s" moet een map van bijlagen zijn.',
   'Drag items in this list to reorder them.' => 'Sleep de items in deze lijst om de volgorde te wijzigen.',
   'Prune ngrams present in more than this fraction of documents. Provide a value between 0.0 and 1.0.' => 'Verwijder n-grammen die in meer dan dit percentage documenten voorkomen. Geef een waarde op tussen 0.0 en 1.0.',
   'Use `order` to choose an ordering for the results.
@@ -534,7 +566,21 @@ Deze ingebouwde volgordes zijn beschikbaar:',
   'No views match identifier "%s"!' => 'Geen enkele weergave komt overeen met de identificatiecode "%s"!',
   'Choose a valid export format.' => 'Kies een geldige exportopmaak.',
   'Tooltip' => 'Tooltip',
-  'Search engine ("%s") exported the wrong number of objects, expected %s but got %s.' => 'De zoekmachine ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werden er %s verwacht, maar er werden er %s ontvangen.',
+  'Search engine ("%s") exported the wrong number of objects, expected %s but got %s.' => array(
+    
+    array(
+      
+      array(
+        'De zoekmachine ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werd er één verwacht, maar er werd er één ontvangen.',
+        'De zoekmachine ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werd er één verwacht, maar er werden er %3$s ontvangen.',
+      ),
+      
+      array(
+        'De zoekmachine ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werden er %s verwacht, maar er werd er één ontvangen.',
+        'De zoekmachine ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werden er %s verwacht, maar er werden er %s ontvangen.',
+      ),
+    ),
+  ),
   'This built-in query can not be deleted, but you can disable it so it does not appear in your query menu. You can enable it again later. Disable built-in query "%s"?' => 'Deze ingebouwde zoekopdracht kan niet worden verwijderd, maar u kunt hem uitschakelen zodat hij niet in uw zoekopdrachtenmenu verschijnt. U kunt hem later weer inschakelen. Ingebouwde zoekopdracht "%s" uitschakelen?',
   'Motivate your team with inspirational quotes from great minds. This menu item shows a new quote every day.' => 'Motiveer uw team met inspirerende citaten van grote denkers. Dit menu-item geef elke dag een nieuw citaat weer.',
   'Saved Queries' => 'Opgeslagen zoekopdrachten',
@@ -544,7 +590,6 @@ Deze ingebouwde volgordes zijn beschikbaar:',
   'Delete this menu item?' => 'Dit menu-item verwijderen?',
   'Cats prefer vanilla ice cream.' => 'Katten geven de voorkeur aan vanille-ijs.',
   'Resetting common ngrams for "%s".' => 'Het opnieuw instellen van veelvoorkomende n-grammen voor "%s".',
-  'Minimum page size for API searches is 1, but this call specified %s.' => 'De minimale paginagrootte voor API-zoekopdrachten is 1, maar bij deze aanroep werd %s gespecificeerd.',
   'Export Results' => 'Resultaten exporteren',
   'To configure the search engines, edit [[ %s | %s ]] configuration. See **[[ %s | %s ]]** for documentation.' => 'Om de zoekmachines te configureren, bewerkt u de configuratie [[ %s | %s ]]. Zie **[[ %s | %s ]]** voor de documentatie.',
   'All Fulltext Search hosts failed:' => 'Alle hosts voor Fulltext Search zijn mislukt:',
@@ -554,15 +599,27 @@ Deze ingebouwde volgordes zijn beschikbaar:',
   'Updated common ngrams for "%s".' => 'Bijgewerkte veelvoorkomende n-grammen voor "%s".',
   'The query matched more than one page of results. Results are paginated before bucketing, so later pages may contain additional results in any bucket.' => 'De zoekopdracht leverde resultaten op voor meerdere pagina\'s. De resultaten worden gepagineerd voordat ze in categorieën worden ingedeeld, dus latere pagina\'s kunnen in elke categorie nog meer resultaten bevatten.',
   'Ferret Fulltext Engine' => 'Ferret Fulltext Engine',
-  'Export engine extension ("%s") exported the wrong number of objects, expected %s but got %s.' => 'De exportengine-uitbreiding ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werden er %s verwacht, maar er werden er %s geëxporteerd.',
+  'Export engine extension ("%s") exported the wrong number of objects, expected %s but got %s.' => array(
+    
+    array(
+      
+      array(
+        'De exportengine-uitbreiding ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werd er één verwacht, maar er werd er één geëxporteerd.',
+        'De exportengine-uitbreiding ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werd er één verwacht, maar er werden er %3$s geëxporteerd.',
+      ),
+      
+      array(
+        'De exportengine-uitbreiding ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werden er %s verwacht, maar er werd er één geëxporteerd.',
+        'De exportengine-uitbreiding ("%s") heeft het verkeerde aantal objecten geëxporteerd; er werden er %s verwacht, maar er werden er %s geëxporteerd.',
+      ),
+    ),
+  ),
   'Global Queries' => 'Globale zoekopdrachten',
   'Link' => 'Koppeling',
   'Query contains unmatched double quotes.' => 'De zoekopdracht bevat niet-overeenkomende dubbele aanhalingstekens.',
   'Enable Query' => 'Zoekopdracht inschakelen',
   'This item can not be set as the default item. This is usually because the item has no page of its own, or links to an external page.' => 'Dit item kan niet als standaarditem worden ingesteld. Dit komt meestal doordat het item geen eigen pagina heeft of naar een externe pagina verwijst.',
   'Browse Results' => 'Resultaten bekijken',
-  'Application "%s" is not installed!' => 'De toepassing "%s" is niet geïnstalleerd!',
-  'Ignored Short Word' => 'Kort woord negeren',
   'Exact Search' => 'Exacte zoekopdracht',
   'Enable this menu item? It will appear in the menu again.' => 'Dit menu-item inschakelen? Het verschijnt dan weer in het menu.',
   'Created By Me' => 'Gemaakt door mij',
@@ -586,7 +643,10 @@ Deze ingebouwde volgordes zijn beschikbaar:',
   'Cats with high self-esteem seek out high perches to launch their attacks. Watch out!' => 'Katten met een groot zelfvertrouwen zoeken hoge plekken op om hun aanvallen te lanceren. Pas op!',
   'Motivator: %s' => 'Motivator: %s',
   '%s (Not Available)' => '%s (niet beschikbaar)',
-  'Indexing %s object(s).' => '%s objecten aan het indexeren.',
+  'Indexing %s object(s).' => array(
+    '%s object aan het indexeren.',
+    '%s objecten aan het indexeren.',
+  ),
   'This dashboard has been archived.' => 'Dit dashboard is gearchiveerd.',
   'Specify a numeric threshold between 0 and 1.' => 'Geef een numerieke drempelwaarde op tussen 0 en 1.',
   '(Restricted/Invalid Application)' => '(Beperkte/onjuiste aanvraag)',
@@ -595,7 +655,7 @@ Deze ingebouwde volgordes zijn beschikbaar:',
   'Reindex objects previously indexed with a particular version of the indexer.' => 'Objecten herindexeren die eerder zijn geïndexeerd met een specifieke versie van de indexeerder.',
   'Portal Menu' => 'Portaalmenu',
   'Not Defaultable' => 'Niet als standaard instelbaar',
-  'Really Delete Query?' => 'Wil je de zoekopdracht echt verwijderen?',
+  'Really Delete Query?' => 'Wilt u de zoekopdracht echt verwijderen?',
   'Query offset is too large. offset+limit=%s (max=%s)' => 'De zoekopdracht-offset is te groot. offset + limiet = %s (max = %s)',
   'Instead of indexing in this process, queue tasks for the daemons. This can improve performance, but makes it more difficult to debug search indexing.' => 'In plaats van in dit proces te indexeren, kunt u taken in een wachtrij plaatsen voor de daemons. Dit kan de prestaties verbeteren, maar maakt het lastiger om zoekindexering te debuggen.',
   'Edit Queries...' => 'Zoekopdrachten bewerken...',
@@ -650,8 +710,12 @@ Deze kolommen op laag niveau zijn beschikbaar:',
   'Cats use a special type of magnetism to help them land on their feet.' => 'Katten gebruiken een speciaal soort magnetisme om op hun pootjes te landen.',
   'Lisk Builtin Properties' => 'Lisk ingebouwde eigenschappen',
   'More information' => 'Meer informatie',
+  'Application "%s" is not enabled!' => 'De toepassing "%s" is niet ingeschakeld!',
   'Unable to Render Dashboard' => 'Kan dashboard niet weergeven',
-  'Queued %s document(s) for background indexing.' => 'Er is %s document in de wachtrij geplaatst voor achtergrondindexering.',
+  'Queued %s document(s) for background indexing.' => array(
+    'Er is één document in de wachtrij geplaatst voor achtergrondindexering.',
+    'Er zijn %s documenten in de wachtrij geplaatst voor achtergrondindexering.',
+  ),
   '(Restricted/Invalid Conpherence)' => '(Beperkte/onjuiste Conpherence)',
   'System Saved Queries' => 'Opgeslagen systeemzoekopdrachten',
   'Threshold must be greater than 0.0 and less than 1.0.' => 'De drempelwaarde moet groter zijn dan 0,0 en kleiner dan 1,0.',
@@ -732,7 +796,7 @@ De resultaatstructuur bevat een `cursor`-sleutel met informatie die u nodig hebt
 
 De velden `limit` en `order` beschrijven de effectieve limiet en volgorde waarmee de zoekopdracht is uitgevoerd en zijn meestal niet erg interessant. De velden `after` en `before` geven u cursors die u kunt doorgeven bij een volgende API-aanroep om de volgende (of vorige) pagina met resultaten te krijgen.
 
-Om de volgende pagina met resultaten te krijgen, herhaalt u de API-aanroep met dezelfde parameters als de oorspronkelijke aanroep, maar geef je de `after`-cursor die je van de eerste aanroep hebt ontvangen door in de parameter `after` bij de tweede aanroep.
+Om de volgende pagina met resultaten te krijgen, herhaalt u de API-aanroep met dezelfde parameters als de oorspronkelijke aanroep, maar geeft u de `after`-cursor die u van de eerste aanroep hebt ontvangen door in de parameter `after` bij de tweede aanroep.
 
 Als u het goed doet, krijt u de tweede pagina met resultaten en een cursorstructuur zoals deze: 
 
@@ -749,7 +813,7 @@ Als u het goed doet, krijt u de tweede pagina met resultaten en een cursorstruct
 }
 ```
 
-U kunt nu doorgaan naar de derde pagina met resultaten door de nieuwe `after` cursor door te geven aan de parameter `after` in uw derde aanroep, of terugkeren naar de vorige pagina met resultaten door de `before`-cursor door te geven aan de parameter `before`. Dit kan handig zijn als u een webinterface voor een gebruiker weergeeft en links naar "Volgende pagina" en "Vorige pagina" wilt aanbieden.
+U kunt nu doorgaan naar de derde pagina met resultaten door de nieuwe `after` cursor door te geven aan de parameter `after` in uw derde aanroep, of terugkeren naar de vorige pagina met resultaten door de `before`-cursor door te geven aan de parameter `before`. Dit kan handig zijn als u een webinterface voor een gebruiker weergeeft en koppelingen naar "Volgende pagina" en "Vorige pagina" wilt aanbieden.
 
 Als `after` null is, is er geen volgende pagina met resultaten beschikbaar. Evenzo, als `before` null is, zijn er geen vorige resultaten beschikbaar.',
   'Engine Name' => 'Engine-naam',

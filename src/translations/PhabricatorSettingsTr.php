@@ -20,6 +20,7 @@ final class PhabricatorSettingsTr
   'Personal Account Settings' => 'Kişisel Hesap Ayarları',
   'Global Default Settings' => 'Genel Varsayılan Ayarlar',
   'Self Actions' => 'Öz Eylemler',
+  'Unlink' => 'Bağlantıyı Kaldır',
   'If you have difficulty reading the UI, this setting may help.' => 'Eğer kullanıcı arayüzünü okumakta zorluk çekiyorsanız, bu ayar yardımcı olabilir.',
   'Email Notifications' => 'E-posta Bildirimleri',
   'Show Unified Diffs' => 'Birleştirilmiş Farkları Göster',
@@ -33,6 +34,7 @@ final class PhabricatorSettingsTr
   'A verification email has been sent. Click the link in the email to verify your address.' => 'Bir doğrulama e-postası gönderildi. Adresinizi doğrulamak için e-postadaki bağlantıya tıklayın.',
   'Enable Email Notifications' => 'E-posta Bildirimlerini Etkinleştir',
   'Diffs are normally shown in a side-by-side layout on large screens and automatically switched to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Farklar genellikle büyük ekranlarda yan yana bir düzende gösterilir ve küçük ekranlarda (örneğin cep telefonları) otomatik olarak birleşik bir görünüme geçirilir. Büyük ekranlarda bile birleştirilmiş farkları tercih ederseniz, bunları tüm ekranlarda kullanmak için seçebilirsiniz.',
+  'Generic Editor' => 'Genel Düzenleyici',
   'Edit global default settings for all users.' => 'Tüm kullanıcılar için genel varsayılan ayarları düzenleyin.',
   'The **Add "Re:" Prefix** setting adds "Re:" in front of all messages, even if they are not replies. If you use **Mail.app** on Mac OS X, this may improve mail threading.
 
@@ -110,6 +112,7 @@ Bu, postayı daha kullanışlı hale getirebilir, ancak bazı istemciler bu mesa
   'You haven\'t added any authentication factors to your account yet.' => 'Henüz hesabınıza herhangi bir kimlik doğrulama faktörü eklemediniz.',
   'To set a new password, request a password reset link from the login screen and then follow the instructions.' => 'Yeni bir parola ayarlamak için, giriş ekranından bir parola sıfırlama bağlantısı isteyin ve ardından talimatları izleyin.',
   'Multi-Factor Auth' => 'Çok Faktörlü Kimlik Doğrulama',
+  'Refresh' => 'Yenile',
   'No allowed editor protocols are configured.' => 'İzin verilen düzenleyici protokolleri yapılandırılmadı.',
   'You can choose to use either a monospaced or variable-width font in textareas in the UI. Textareas are used for editing descriptions and writing comments, among other things.' => 'Kullanıcı Arabiriminde textareas\'ta monospaced veya değişken genişlikli bir font kullanmayı seçebilirsiniz. Textareas, diğer şeylerin yanı sıra açıklamaları düzenlemek ve yorum yazmak için kullanılır.',
   'Disable Self Action Mail' => 'Kendinden İşlemli Postayı Devre Dışı Bırak',
@@ -125,8 +128,16 @@ Bu, postayı daha kullanışlı hale getirebilir, ancak bazı istemciler bu mesa
   'You don\'t have any active sessions.' => 'Etkin oturumunuz yok.',
   'Changes saved.' => 'Değişiklikler kaydedildi.',
   'Authentication factors must have a name to identify them.' => 'Kimlik doğrulama faktörleri, onları tanımlayacak bir isme sahip olmalıdır.',
+  'Choose the default behavior of the global search in the main menu.' => '',
   'Diffusion Blame' => 'Difüzyon Suçu',
   'Choose which language you would like the UI to use.' => 'Kullanıcı arayüzünün hangi dili kullanmasını istediğinizi seçin.',
+  'Outgoing mail is stamped with labels like `actor(alice)` which can be used to
+write client mail rules to organize mail. By default, these stamps are sent
+in an `X-Phabricator-Stamps` header.
+
+If you use a client which can not use headers to route mail (like Gmail),
+you can also include the stamps in the message body so mail rules based on
+body content can route messages.' => '',
   'Your browser timezone (%s) differs from your profile timezone (%s). You can adjust your profile setting to match your browser, or ignore this conflict to keep your current profile setting.' => 'Tarayıcınızın saat dilimi (%s), profil saatinizden (%s) farklı. Profil ayarlarınızı tarayıcınızla eşleşecek şekilde ayarlayabilir veya mevcut profil ayarınızı korumak için bu çakışmayı göz ardı edebilirsiniz.',
   'The dialog asking for permission to send desktop notifications was closed without granting permission. Only application notifications will be sent.' => 'Masaüstü bildirimleri göndermek için izin isteyen iletişim kutusu izin vermeden kapatıldı. Sadece başvuru bildirimleri gönderilecektir.',
   'Really delete address \'%s\'?' => '\'%s\' adresi gerçekten silinsin mi?',
@@ -139,6 +150,7 @@ Bu, postayı daha kullanışlı hale getirebilir, ancak bazı istemciler bu mesa
   'Enable "Re:" Prefix' => '"Yanıt:" Önekini Etkinleştir',
   'DarkConsole Visible' => 'DarkConsole Görünür',
   'Supported Protocol' => 'Desteklenen Protokol',
+  'Ignore new setting and keep %s' => '',
   'If you disable **Self Actions**, this server will not notify you about actions you take.' => '**Kendi Eylemler**\'i devre dışı bırakırsanız, bu sunucu yaptığınız eylemleri size bildirmez.',
   'You are adding too many email addresses to your account too quickly.' => 'Hesabınıza çok hızlı bir şekilde çok fazla e-posta adresi ekliyorsunuz.',
   'Your browser has not yet granted this server permission to send desktop notifications.' => 'Tarayıcınız henüz bu sunucuya masaüstü bildirimleri gönderme izni vermedi.',
@@ -214,6 +226,7 @@ Bu tercihler **yalnızca** bağlı olduğunuz nesneler için geçerlidir (örne�
   'US: 2/28/2000' => 'Amerika: 2/28/2000',
   'User Guide: Configuring an External Editor' => 'Kullanım Kılavuzu: Dış Düzenleyiciyi Yapılandırma',
   'You have no account setup issues.' => 'Hesap kurulum sorunlarınız yok.',
+  'NOTE: You already have an Auth Factor configured. Adding another factor will require you to always provide all Auth Factors instead of selecting one of your Auth Factors.' => '',
   'Personal Settings' => 'Kişisel Ayarlar',
   'Some applications use unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Bazı uygulamalar mevcut uygulamanın kompakt bir gösterimini sağlamak için sayfa başlıklarında unicode glifleri kullanır. Bu glifler sisteminizde görüntülenmiyorsa, düz metin yerine kullanabilirsiniz.',
   'Web Only' => 'Yalnızca Web',
@@ -257,6 +270,18 @@ Bu tercihler **yalnızca** bağlı olduğunuz nesneler için geçerlidir (örne�
   'Use Monospaced Font' => 'Monospaced Yazı Tipini Kullan',
   'The strength of your stored password hash can be upgraded. To upgrade, either: log out and log in using your password; or change your password.' => 'Saklanan şifrenizin karma değeri arttırılabilir. Her ikisini de yükseltmek için: çıkış yapın ve parolanızı kullanarak giriş yapın; veya parolanızı değiştirin.',
   'Save Preferences' => 'Tercihleri Kaydet',
+  'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, some applications can generate links that you can click to open files locally.
+
+Provide a URI pattern for building external editor URIs in your environment. For example, if you use TextMate on macOS, the pattern for your machine may look something like this:
+
+```name="Example: TextMate on macOS"
+%s
+```
+
+
+For complete instructions on editor configuration, see **[[ %s | %s ]]**.
+
+See the tables below for a list of supported variables and protocols.' => '',
   '⚫ Email' => '⚫ E-posta',
   'New Setting' => 'Yeni Ayar',
   'Pronoun' => 'Zamir',

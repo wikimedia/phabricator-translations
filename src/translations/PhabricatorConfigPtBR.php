@@ -12,7 +12,6 @@ final class PhabricatorConfigPtBR
   'Memory Usage' => 'Uso de memória',
   'Table' => 'Tabela',
   'No active repositories have outstanding errors.' => 'Nenhum repositório ativo possui erros pendentes.',
-  'Access Denied' => 'Acesso negado',
   'This table can use a better table engine.' => 'Esta tabela pode usar um mecanismo de tabela melhor.',
   'Character Set' => 'Conjunto de caracteres',
   'You can find more information about rebuilding the search index here: %s' => 'Você pode encontrar mais informações sobre como reconstruir o índice de pesquisa aqui: %s',

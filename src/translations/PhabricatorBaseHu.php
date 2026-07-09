@@ -16,7 +16,6 @@ final class PhabricatorBaseHu
   'Core Applications' => 'Core alkalmazások',
   'No application!' => 'Nem alkalmazás!',
   '%s Application' => '%s alkalmazás',
-  'Developer Tools' => 'Fejlesztői eszközök',
   'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => 'A kérelem korlátozott "%s" paramétert tartalmaz, de ez a vezérlő ("%s") nem engedélyezi. A kérés kiszolgálás meg lett tagadva, mivel ez átirányítás-támadás része lehet.',
   'Unknown capability \'%s\'!' => 'Ismeretlen képesség \'%s\'!',
 );

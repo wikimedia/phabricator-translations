@@ -9,6 +9,33 @@ final class PhabricatorConfigFrFR
 
   protected function getTranslations() {
     return array(
+  'When a user takes an action which generates an email notification (like
+commenting on a Differential revision), the "From" address can either be set
+to the user\'s email address (like "alincoln@example.com") or the
+"metamta.default-address" address.
+
+The user experience is generally better if the user\'s real address is used as
+the "From" header value, since the messages are easier to organize when they
+appear in mail clients, but this will only work if the server is authorized to
+send email on behalf of the "From" domain. Practically, this means:
+
+  - If you are doing an install for Example Corp and all the users will have
+    corporate @corp.example.com addresses and any hosts this software is running
+    on are authorized to send email from corp.example.com, you can enable this
+    to make the user experience a little better.
+  - If you are doing an install for an open source project and your users will
+    be registering via third-party services and/or using personal email
+    addresses, you probably should not enable this or all of your outgoing
+    email might vanish into SFP blackholes.
+  - If your install is anything else, you\'re safer leaving this off, at least
+    initially, since the risk in turning it on is that your outgoing mail will
+    never arrive.' => 'Lorsqu\'un utilisateur effectue une action qui génère une notification par courriel (comme commenter une révision différentielle), l\'adresse "De" peut être définie soit sur l\'adresse courriel de l\'utilisateur (comme "alincoln@logcabin.com") soit sur l\'adresse "metamta.default-address".
+
+L\'expérience utilisateur est généralement meilleure si l\'adresse réelle de l\'utilisateur est utilisée car les messages sont plus faciles à organiser lorsqu\'ils apparaissent dans les messageries, mais cela ne fonctionnera que si le serveur est autorisé à envoyer des courriels au nom du domaine "De". Concrètement, cela signifie :
+
+  - si vous effectuez une installation pour Example Corp et que tous les utilisateurs ont des adresses d\'entreprise @corp.example.com et que tous les hôtes sur lesquels ce logiciel s\'exécute sont autorisés à envoyer des courriels depuis corp.example.com, vous pouvez activer cette option pour améliorer un peu l\'expérience utilisateur
+  - si vous effectuez une installation pour un projet open source et que vos utilisateurs s\'inscrivent via des services tiers et/ou utilisent des adresses courriels personnelles, vous ne devriez probablement pas activer cette option, sinon tous vos courriels sortants risquent de ne jamais arriver à destination
+  - si votre installation est autre, il est plus prudent de laisser cette option désactivée, au moins au début, car le risque en l\'activant est que votre courrier sortant n\'arrive jamais.',
   'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
 
 This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
@@ -37,7 +64,6 @@ Pour plus d’informations sur la configuration verrouillée et masquée, y comp
 Cette valeur en base de données est actuellement prise en compte mais une future version de ce logiciel cessera cette pratique pour les options de configuration verrouillées.',
   'Review and modify configuration settings.' => 'Réviser et modifier les paramètres de configuration.',
   'Improve security by configuring an alternate file domain.' => 'Améliorer la sécurité en configurant un domaine alternatif pour les fichiers.',
-  'Array containing list of uninstalled applications.' => 'Tableau contenant la liste des applications non installées.',
   'Client Server' => 'Client serveur',
   'Or:' => 'Ou:',
   'Listeners receive callbacks when interesting things occur.' => 'Les écouteurs reçoivent des rappels lorsque des événements intéressants apparaissent.',
@@ -62,19 +88,6 @@ Il est également possible (mais très peu probable) qu\'un autre périphérique
 Les requêtes doivent inclure un entête « Host » valide.',
   'Memory Usage' => 'Utilisation de la mémoire',
   'The request body that was sent began:' => 'Le corps de la requête qui a été envoyé commençait par :',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'IMPORTANT : le flux amont ne prend pas en charge les applications prototypes.
-
-Cette plateforme inclut des applications prototypes qui sont dans un **état précoce de développement**. Par défaut, les applications prototypes ne sont pas installées parce qu’elles ne sont souvent pas encore suffisamment développées pour être utilisables. Vous pouvez activer cette option pour les installer si vous développez des applications ou si vous êtes intéressé par un aperçu des fonctionnalités à venir.
-
-Pour en savoir plus sur les prototypes, voir [[ %s | %s ]].
-
-Après avoir activé les prototypes, vous pouvez les désinstaller unitairement (comme des applications normales).',
   'Impersonating users over the API is no longer supported.' => 'Utiliser l’API en se faisant passer pour un utilisateur n’est plus pris en charge.',
   'Table' => 'Tableau',
   'The best available MYSQL implementation is now selected automatically.' => 'La meilleure implémentation MYSQL disponible est désormais sélectionnée automatiquement.',
@@ -93,33 +106,6 @@ Vous devez activer DarkConsole en définissant « %s » avant que cette opti
   '%s created this configuration entry.' => '%s a créé cette entrée de configuration.',
   'You have enabled pygments and the %s script is available, but does not seem to work.' => 'Vous avez activé <em>pygments</em> et le script %s est disponible, mais cela ne semble pas fonctionner.',
   'This column is missing a type specification.' => 'Cette colonne n’a pas de spécification de type.',
-  'When a user takes an action which generates an email notification (like
-commenting on a Differential revision), the "From" address can either be set
-to the user\'s email address (like "alincoln@logcabin.com") or the
-"metamta.default-address" address.
-
-The user experience is generally better if the user\'s real address is used as
-the "From" header value, since the messages are easier to organize when they
-appear in mail clients, but this will only work if the server is authorized to
-send email on behalf of the "From" domain. Practically, this means:
-
-  - If you are doing an install for Example Corp and all the users will have
-    corporate @corp.example.com addresses and any hosts this software is running
-    on are authorized to send email from corp.example.com, you can enable this
-    to make the user experience a little better.
-  - If you are doing an install for an open source project and your users will
-    be registering via third-party services and/or using personal email
-    addresses, you probably should not enable this or all of your outgoing
-    email might vanish into SFP blackholes.
-  - If your install is anything else, you\'re safer leaving this off, at least
-    initially, since the risk in turning it on is that your outgoing mail will
-    never arrive.' => 'Lorsqu\'un utilisateur effectue une action qui génère une notification par courriel (comme commenter une révision différentielle), l\'adresse "De" peut être définie soit sur l\'adresse courriel de l\'utilisateur (comme "alincoln@logcabin.com") soit sur l\'adresse "metamta.default-address".
-
-L\'expérience utilisateur est généralement meilleure si l\'adresse réelle de l\'utilisateur est utilisée car les messages sont plus faciles à organiser lorsqu\'ils apparaissent dans les messageries, mais cela ne fonctionnera que si le serveur est autorisé à envoyer des courriels au nom du domaine "De". Concrètement, cela signifie :
-
-  - si vous effectuez une installation pour Example Corp et que tous les utilisateurs ont des adresses d\'entreprise @corp.example.com et que tous les hôtes sur lesquels ce logiciel s\'exécute sont autorisés à envoyer des courriels depuis corp.example.com, vous pouvez activer cette option pour améliorer un peu l\'expérience utilisateur
-  - si vous effectuez une installation pour un projet open source et que vos utilisateurs s\'inscrivent via des services tiers et/ou utilisent des adresses courriels personnelles, vous ne devriez probablement pas activer cette option, sinon tous vos courriels sortants risquent de ne jamais arriver à destination
-  - si votre installation est autre, il est plus prudent de laisser cette option désactivée, au moins au début, car le risque en l\'activant est que votre courrier sortant n\'arrive jamais.',
   'The current configuration has these %d value(s):' => array(
     'La configuration actuelle a cette valeur :',
     'La configuration actuelle a ces %d valeurs :',
@@ -170,6 +156,7 @@ This option is not compatible with this software. Remove \'%s\' from your config
 Cette option n’est pas compatible avec ce logiciel. Supprimez « %s » de votre configuration pour continuer.',
   'The \'%s\' binary on this system has unexpected behavior: it was expected to exit without an error code when passed identical files, but exited with code %d.' => 'Le binaire « %s » sur ce système a un comportement inattendu : il devait se terminer sans code d’erreur quand on lui passe des fichiers identiques, mais il est sorti avec un code %d.',
   'No active repositories have outstanding errors.' => 'Aucun dépôt actif n’a d’erreur marquante.',
+  'Array containing list of disabled applications.' => 'Tableau contenant la liste des applications non installées.',
   'Usage' => 'Utilisation',
   'Rebuild Repository Identities' => 'Reconstruire les identités des dépôts',
   'Move port information from `%s` to `%s` in your config.' => 'Déplacez les informations de port de « %s » à « %s » dans votre configuration.',
@@ -230,7 +217,6 @@ Cette option vous permet de rendre ce service conscient des répliques de lectur
   'Configuration key \'%s\' is not set in %s configuration!' => 'La clé de configuration « %s » n’est pas définie dans la configuration %s !',
   'Multi-Factor Optional' => 'Multi-facteur facultatif',
   'The \'%s\' extension is not installed. Without \'%s\', this server may not be able to determine the MIME types of uploaded files.' => 'L’extension « %s » n’est pas installée. Sans la prise en charge de « %s », ce logiciel pourrait ne pas pouvoir déterminer les types MIME des fichiers téléversés.',
-  'Access Denied' => 'Accès refusé',
   'The configuration option \'%s\' has been removed. You may delete it at your convenience.
 
 %s' => 'L’option de configuration « %s » a été supprimée. Vous pouvez la supprimer à votre guise.
@@ -268,7 +254,6 @@ Cette option vous permet de rendre ce service conscient des répliques de lectur
   'Require administrators to unlock the authentication provider configuration from the CLI before it can be edited.' => 'Exiger que les administrateurs déverrouillent la configuration du fournisseur d’authentification depuis l’interface en ligne de commande, avant qu’elle puisse être modifiée.',
   'Define one or more mail transmission services. For help with configuring
 mailers, see **[[ %s | %s ]]** in the documentation.' => 'Définit un ou plusieurs services de transmission de courriel. Pour obtenir de l\'aide sur la configuration des logiciels de messagerie, consultez **[[%s|%s]]** dans la documentation.',
-  'You are using an old version of MySQL (on host "%s"), and should upgrade.' => 'Vous utilisez une ancienne version de MySQL (sur l’hôte « %s ») et vous devriez la remettre à niveau.',
   'Feed Hooks Deprecated' => 'Accroches de flux obsolètes',
   'Purge Caches' => 'Vider les caches',
   'Configure services to run on a cluster of hosts.' => 'Configure des services pour s’exécuter sur une grappe d’hôtes.',
@@ -365,7 +350,6 @@ in their preferences.' => 'Si cette option est vraie, autorise MetaMTA à modifi
   'Security options.' => 'Options de sécurité.',
   'Option "%s" is of type "%s", and should be specified on the command line as a JSON list of values. You may need to quote the value for your shell (for example: \'["a", "b", ...]\').' => 'L’option « %s » est de type « %s », et doit être spécifiée sur la ligne de commande comme une liste de valeurs en JSON. Vous devrez peut-être mettre la valeur entre guillemets anglais dans votre interpréteur (par exemple : \'["a", "b", …]\').',
   'Expected Unique' => 'Attendu comme unique',
-  'Old MySQL Version' => 'Ancienne version de MySQL',
   'Configuring a Preamble Script' => 'Configuration d’un script de prétraitement',
   'Default Partition' => 'Partition par défaut',
   'Domain used for reply email addresses.' => 'Domaine utilisé pour les adresses de courriels de réponse.',
@@ -401,6 +385,19 @@ Après avoir exécuté `bin/auth unlock` et effectué vos changements sur la con
   'Manage extensions.' => 'Gérer les extensions.',
   'Too many arguments: expected one key.' => 'Trop d’arguments : une clé attendue.',
   'List of Users Without MFA' => 'Liste des utilisateurs sans MFA',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => 'IMPORTANT : le flux amont ne prend pas en charge les applications prototypes.
+
+Cette plateforme inclut des applications prototypes qui sont dans un **état précoce de développement**. Par défaut, les applications prototypes ne sont pas installées parce qu’elles ne sont souvent pas encore suffisamment développées pour être utilisables. Vous pouvez activer cette option pour les installer si vous développez des applications ou si vous êtes intéressé par un aperçu des fonctionnalités à venir.
+
+Pour en savoir plus sur les prototypes, voir [[ %s | %s ]].
+
+Après avoir activé les prototypes, vous pouvez les désinstaller unitairement (comme des applications normales).',
   'No "Host" header present in request.' => 'Aucun entête « Host » présent dans la requête.',
   'Value for option "%s" of type "%s" must be either "true" or "false".' => 'La valeur pour l’option « %s » de type « %s » doit être soit « true » soit « false ».',
   'Storage engines are now discovered automatically at runtime.' => 'Les moteurs de stockage sont désormais découverts automatiquement au moment de l\'exécution.',
@@ -610,6 +607,7 @@ Vous pouvez aussi augmenter la limite ou ignorer ce problème et accepter de ren
   'Embed YouTube videos' => 'Vidéos YouTube incluses',
   'Add One Path' => 'Ajouter un chemin',
   'Clear Cache' => 'Vider le cache',
+  'Write access log here.' => 'Écrire le journal des accès ici.',
   'Unignore this setup issue?' => 'Ne plus ignorer ce problème d’installation ?',
   'Configure Mail.' => 'Configurer le courriel.',
   'You can update these %d value(s) here:' => 'Vous pouvez mettre à jour ces %d valeurs ici :',
@@ -628,6 +626,7 @@ Si non défini, aucun journal ne sera écrit.',
   'This server has a known bad version of "%s".' => 'Ce serveur a une mauvaise version connue de « %s ».',
   'Require DarkConsole Activation' => 'Nécessite l’activation de DarkConsole',
   'Notifications Status' => 'État des notifications',
+  'Use the %s to manage enabled applications.' => 'Utiliser le %s pour gérer des applications installées.',
   'Current Configuration' => 'Configuration actuelle',
   'Replicating Master' => 'Réplication du maître',
   'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
@@ -691,11 +690,6 @@ Votre serveur web n\'est peut-être pas configuré pour transmettre l’authenti
   'This key is on the wrong columns.' => 'Cette clé traite de mauvaises colonnes.',
   'Wrong Nullable Setting' => 'Mauvais paramétrage de nul possible.',
   'Secret key for Amazon S3.' => 'Clé secrète pour Amazon S3.',
-  'You are using an old version of MySQL (on host "%s") which has poor unicode support (it does not support the "utf8mb4" collation set). You will encounter limitations when working with some unicode data.
-
-We strongly recommend you upgrade to MySQL 5.5 or newer.' => 'Vous utilisez une ancienne version de MySQL (sur l’hôte « %s ») dont la prise en charge d’Unicode est faible (ne prend pas en charge le jeu de collation « utf8mb4 »). Vous rencontrerez des limites en travaillant avec certaines données en Unicode.
-
-Nous vous recommandons fortement de vous mettre à jour vers MySQL 5.5 ou plus récent.',
   'Trying to add duplicate column "%s"!' => 'Tentative pour ajouter la colonne dupliquée « %s » !',
   'Minimum password length.' => 'Longueur minimale du mot de passe.',
   'Required PHP extensions are not installed.' => 'Les extensions PHP nécessaires ne sont pas installées.',
@@ -886,7 +880,6 @@ After changing this value, you must restart the daemons. Most configuration chan
 Si vous utilisez une grappe de serveurs, cette limite s’applique séparément à chaque instance de « phd ». Par exemple, si cette limite est définie sur « 4 » et que trois hôtes exécutent des services en arrière-plan, la limite globale effective sera de 12.
 
 Après avoir modifié cette valeur, vous devez redémarrer les services en arrière-plan. La plupart des modifications de configuration sont automatiquement prises en compte par les services en arrière-plan mais la taille des jeux de ressources ne peut pas être modifiée sans redémarrage de chaque instance.',
-  'Set the URI that Phurl will use to share shortened URLs.' => 'Définir l’URI que Phurl utilisera pour partager les URL raccourcies.',
   'Your version of MySQL (on database host "%s") does not support configuration of a stopword file. You will not be able to find search results for common words.' => 'Votre version de MySQL (sur l’hôte de base de données « %s ») ne prend pas en charge la configuration d’un fichier des mots à ignorer. Vous ne pourrez pas trouver de résultats de recherche pour certains mots courants.',
   'Your PHP configuration selects an invalid timezone. Select a valid timezone.' => 'La configuration de votre PHP a sélectionné un fuseau horaire invalide. Sélectionnez un fuseau horaire valide.',
   '%s deleted this configuration entry (again?).' => '%s a supprimé cette entrée de configuration (de nouveau ?).',
@@ -894,12 +887,12 @@ Après avoir modifié cette valeur, vous devez redémarrer les services en arri�
   'Unresolved Setup Issues' => 'Problèmes d’installation non résolus',
   'Server Timezone Not Configured' => 'Fuseau horaire du serveur non configuré',
   'The following regex is malformed and cannot be used: %s' => 'L’expression rationnelle suivante est mal écrite et ne pourra pas être utilisée : %s',
-  'Use the %s to manage installed applications.' => 'Utiliser le %s pour gérer des applications installées.',
   'Individual application reply handler domains have been removed. Configure a reply domain with "%s".' => 'Les domaines de gestionnaire de réponse à l’application individuelle ont été supprimés. Configurer un domaine de réponse avec « %s ».',
   'Preflight' => 'Avant-vol',
   'Install these %d PHP extension(s):' => 'Installer ces %d extensions PHP :',
   'Missing \'%s\' Binary' => 'Binaire \'%s\' manquant',
   'Charset' => 'Jeu de caractères',
+  '\'%s\' or \'%s\' binary not found or Imagemagick is not installed.' => 'Binaire \'%s\' introuvable, ou Imagemagick n’est pas installé.',
   'By default, this software generates unique reply-to addresses and sends a
 separate email to each recipient when you enable reply handling. This is more
 secure than using "From" to establish user identity, but can mean users may
@@ -990,7 +983,6 @@ Les utilisateurs ne seront autorisés à s’inscrire qu’en utilisant des adre
 
 Vous devez omettre le « @ » des domaines. Notez que le domaine doit correspondre exactement. Si vous autorisez « example.com », cela autorise « joe@example.com » mais rejette « joe@mail.example.com ».',
   'Show unresolved issues with setup and configuration.' => 'Afficher les problèmes non résolus dans l’installation et la configuration.',
-  'Options for Phurl.' => 'Options pour Phurl.',
   'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
 
 Because we can not determine the version number, checks against minimum and known-bad versions will be skipped, so we might fail to detect an incompatible binary.
@@ -1012,6 +1004,7 @@ Si vous êtes certain d’avoir une version récente de « %s » fonctionnant 
   'The configuration option \'%s\' is not set.' => 'L’option de configuration \'%s\' n’est pas positionnée.',
   'Stop Before HTTP Redirect' => 'Arrêter avant la redirection HTTP',
   'Developer / Debugging' => 'Développeur / Débogage',
+  'You have enabled Imagemagick in your config, but the \'%s\' or \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Vous avez activé Imagemagick dans votre configuration, mais le binaire \'%s\' n’est pas sur le serveur web %s. Désactivez ImageMagick ou rendez-le disponible sur le serveur web.',
   'Remove PHP %s' => 'Supprimer PHP %s',
   'Missing' => 'Manquant',
   'Classes must match to compare schemata!' => 'Les classes doivent correspondre pour comparer les schemata !',
@@ -1164,7 +1157,6 @@ Les administrateurs peuvent interroger une liste d\'utilisateurs qui n\'ont pas 
   'Collectors with custom policies are highlighted. Use %s to change retention policies.' => 'Les collecteurs avec des politiques personnalisées sont surlignés. Utiliser %s pour modifier les politiques de rétention.',
   'Multi-Factor Required' => 'Multi-facteurs obligatoire',
   'Host: %s' => 'Hôte: %s',
-  'URI that Phurl will use to shorten URLs.' => 'URI que Phurl utilisera pour raccourcir les URL.',
   'Reply hints are no longer shown in mail.' => 'Les astuces pour réponse ne sont plus affichées dans les courriels.',
   'Profile every request (slow)' => 'Faire un profil de toutes les requêtes (lent)',
   'Resolved Issue' => 'Problème résolu',
@@ -1196,7 +1188,6 @@ Par exemple, si vous souhaitez utiliser `devtools@example.com`, cela doit être 
   'Options relating to authentication.' => 'Options relatives à l\'identification.',
   'Migrating file source...' => 'Fichier source en cours de migration...',
   'Autoincrement' => 'Auto-incrementation',
-  'Install applications which are still under development.' => 'Installer les applications qui sont encore en développement.',
   'Dark' => 'Sombre',
   'GZip Compression May Not Be Enabled' => 'La compression GZip n\'est peut-être pas activée',
   'Typeahead strategies are now managed automatically.' => 'Les stratégies de saisie semi-automatique sont désormais gérées automatiquement.',
@@ -1222,7 +1213,6 @@ Si vous ne voulez pas installer Pygments, vous pouvez ignorer ce problème.',
 Use %s to start daemons. See %s for more information.' => 'Les services en arrière-plan ne sont pas en cours d\'exécution, donc les tâches de fond (par exemple l’envoi de courriel, la reconstruction des index de recherche, l’importation de validations, le nettoyage des anciennes données et l’exécution de constructions) ne peuvent pas être effectuées.
 
 Utilisez %s pour lancer les services en arrière-plan. Voir %s pour plus d’information.',
-  '\'%s\' binary not found or Imagemagick is not installed.' => 'Binaire \'%s\' introuvable, ou Imagemagick n’est pas installé.',
   'Unsafe MySQL "local_infile" Setting Enabled' => 'Paramètre non sûr « local_infile » activé dans MySQL',
   'The "feed.http-hooks" option is deprecated in favor of Webhooks. This option will be removed in a future version of the software.
 
@@ -1315,6 +1305,7 @@ NOTE : vous devez installer XHProf pour que les profils fonctionnent.',
   'Unsynchronized' => 'Non synchronisé',
   'Available search engines are now automatically discovered at runtime.' => 'Les moteurs de recherche disponibles sont désormais automatiquement découverts lors de l\'exécution.',
   'Key for HMAC digests.' => 'Clé pour les résumés HMAC.',
+  'Enable applications which are still under development.' => 'Installer les applications qui sont encore en développement.',
   'The request duration, in microseconds.' => 'La durée de la requête, en microsecondes.',
   'Amazon S3 region where your S3 bucket is located. When you specify a region, you should also specify a corresponding endpoint with `amazon-s3.endpoint`. You can find a list of available regions and endpoints in the AWS documentation.' => 'Région d’Amazon S3 où votre compartiment S3 est localisé. Quand vous spécifiez une région, vous devez aussi spécifier un point de terminaison correspondant avec `amazon-s3.endpoint`. Vous pouvez trouver une liste des régions et des points de terminaison disponibles dans la documentation de AWS.',
   'MySQL %s Not Supported' => 'MySQL %s non pris en charge',
@@ -1429,6 +1420,11 @@ messages.' => 'Vous pouvez désactiver les pieds de page « À: » et « Cc: » 
   'Databases' => 'Bases de données',
   'Basic Example' => 'Exemple de base',
   '%s In / %s Out' => '%s Entrées / %s Sorties',
+  'Adapter class to use to transmit mail to the MTA. The default uses
+PHPMailer, which will invoke "mail". This is appropriate if mail actually
+works on your host, but if you haven\'t configured mail it may not be so great.
+A number of other mailers are available (e.g., SES, SendGrid, SMTP, Sendmail,
+custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => 'Classe d\'adaptateur à utiliser pour transmettre le courrier au MTA. La valeur par défaut utilise PHPMailerLite qui invoquera « sendmail ». Ceci est approprié si sendmail fonctionne réellement sur votre hôte, mais si vous n\'avez pas configuré le courrier, cela peut ne pas être aussi idéal. Un certain nombre d\'autres logiciels de messagerie sont disponibles (par exemple, SES, SendGrid, SMTP ou des messageries personnalisées). Cette option est obsolète, utilisez plutôt « cluster.mailers ».',
   'This option allows you to stop this service from sending data to most external
 services: it will disable email, SMS, repository mirroring, remote builds,
 Doorkeeper writes, and webhooks.
@@ -1448,27 +1444,6 @@ Cette option vise à permettre à une instance d’être exportée, copiée, imp
 Sans l’utilisation de ce drapeau rendant silencieux l’environnement temporaire de test, les utilisateurs recevraient des courriels en doublon pendant la période où les deux instances de test et de production sont conjointement en fonctionnement.',
   'Whitelist Specific Addresses' => 'Adresses spécifiques en liste blanche',
   'Other Version Information' => 'Autres informations de versions',
-  'The base URI for this install is not configured, and major features will not work properly until you configure it.
-
-You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
-
-Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
-
-Based on this request, it appears that the correct setting is:
-
-%s
-
-To configure the base URI, run the command shown below.' => 'L’URI de base pour cette installation n’est pas configuré et des fonctionnalités majeures ne fonctionneront pas correctement tant que vous ne l\'aurez pas fait.
-
-Vous devez le mettre à l’URI que vous utiliserez pour accéder à ce serveur, comme « http://devtools.example.com/ ».
-
-Incluez le protocole (http ou https), le nom de domaine et le numéro de port si vous utilisez un port autre que 80 (http) ou 443 (https).
-
-D’après cette requête, il semble que le bon paramétrage soit :
-
-%s
-
-Pour configurer l’URI de base, lancez la commande affichée ci-dessous.',
   'The mapping from VCS users to %s users has changed and must be rebuilt.' => 'Le mappage des utilisateurs VCS vers les utilisateurs %s a changé et doit être reconstruit.',
   'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'La configuration d’authentification est actuellement déverrouillée. Une fois que vous avez terminé de configurer l’authentification, vous devriez la verrouiller.',
   'Use `%s` instead of this option.' => 'Utiliser `%s` plutôt que cette option.',
@@ -1516,11 +1491,6 @@ Vous devriez désactiver cette option dans votre fichier %s, dans la section %s�
 
 %s',
   'Setup Checks' => 'Vérifications d’installation',
-  'Adapter class to use to transmit mail to the MTA. The default uses
-PHPMailerLite, which will invoke "sendmail". This is appropriate if sendmail
-actually works on your host, but if you haven\'t configured mail it may not be so
-great. A number of other mailers are available (e.g., SES, SendGrid, SMTP,
-custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => 'Classe d\'adaptateur à utiliser pour transmettre le courrier au MTA. La valeur par défaut utilise PHPMailerLite qui invoquera « sendmail ». Ceci est approprié si sendmail fonctionne réellement sur votre hôte, mais si vous n\'avez pas configuré le courrier, cela peut ne pas être aussi idéal. Un certain nombre d\'autres logiciels de messagerie sont disponibles (par exemple, SES, SendGrid, SMTP ou des messageries personnalisées). Cette option est obsolète, utilisez plutôt « cluster.mailers ».',
   'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Ce système a une version non patchée de Bash avec une vulnérabilité grave largement connue.',
   'Keys' => 'Clés',
   'No Auth Providers' => 'Aucun fournisseur d’authentification',
@@ -1682,9 +1652,29 @@ If you provide an instance identifier here (normally by injecting it with a `%s`
 
 Si vous fournissez un identifiant d’instance ici (normalement en l’injectant avec « %s »), le serveur le passera aux sous-processus et validera les accroches dans la variable d’environnement « %s ».',
   'Version Information' => 'Information sur la version',
+  'The base URI for this install is not configured, and major features will not work properly until you configure it.
+
+You should set the base URI to the URI you will use to access this server, like "https://devtools.example.com/".
+
+Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
+
+Based on this request, it appears that the correct setting is:
+
+%s
+
+To configure the base URI, run the command shown below.' => 'L’URI de base pour cette installation n’est pas configuré et des fonctionnalités majeures ne fonctionneront pas correctement tant que vous ne l\'aurez pas fait.
+
+Vous devez le mettre à l’URI que vous utiliserez pour accéder à ce serveur, comme « http://devtools.example.com/ ».
+
+Incluez le protocole (http ou https), le nom de domaine et le numéro de port si vous utilisez un port autre que 80 (http) ou 443 (https).
+
+D’après cette requête, il semble que le bon paramétrage soit :
+
+%s
+
+Pour configurer l’URI de base, lancez la commande affichée ci-dessous.',
   'HTTP Path Rewriting Incorrect' => 'Réécriture du chemin HTTP incorrecte',
   'Surplus' => 'Surplus',
-  'You have enabled Imagemagick in your config, but the \'%s\' binary is not in the webserver\'s %s. Disable imagemagick or make it available to the webserver.' => 'Vous avez activé Imagemagick dans votre configuration, mais le binaire \'%s\' n’est pas sur le serveur web %s. Désactivez ImageMagick ou rendez-le disponible sur le serveur web.',
   'Instance identifier for multi-tenant clusters.' => 'Identifiant de l’instance pour les grappes à plusieurs titulaires.',
   'Upgrade MySQL Schema' => 'Mettre à jour le schéma MySQL',
   'Unignore Setup Issue' => 'Ne plus ignorer le problème d’installation',
@@ -1744,7 +1734,6 @@ Si ce répertoire existe, le rendre lisible par le serveur web. Vous pouvez auss
   'Unignore' => 'Ne plus ignorer',
   'Text values that match this regex and are also object names will not be linked.' => 'Les valeurs textuelles qui correspondent à cette expression rationnelle et qui sont également des noms d’objets ne seront pas liées.',
   '%s Held / %sms' => '%s tenus / %sms',
-  'Write access log here.' => 'Écrire le journal des accès ici.',
 );
   }
 

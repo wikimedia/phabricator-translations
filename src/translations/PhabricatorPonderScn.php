@@ -10,9 +10,9 @@ final class PhabricatorPonderScn
   protected function getTranslations() {
     return array(
   'Hide Comments' => 'Ammuccia li cummenti',
+  'Show %s Comment(s)' => 'Ammustra %s cummentu/i',
   'Answer' => 'Risposta',
   'Add a Comment' => 'Agghiunci nu cummentu',
-  'Show %d Comment(s)' => 'Ammustra %d cummentu/i',
 );
   }
 

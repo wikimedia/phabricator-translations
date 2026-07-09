@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorRemarkupHu
+final class PhabricatorRemarkupSrEC
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'hu';
+    return 'sr_EC';
   }
 
   protected function getTranslations() {
     return array(
-  'Content may not be empty.' => 'A tartalom lehet, hogy nem üres.',
+  'Reference' => 'Референца',
 );
   }
 

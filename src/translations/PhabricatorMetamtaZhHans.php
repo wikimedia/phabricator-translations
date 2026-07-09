@@ -14,6 +14,7 @@ final class PhabricatorMetamtaZhHans
   'ID: %d' => 'ID：%d',
   'Message PHID' => '消息PHID',
   'Inbox' => '收件箱',
+  'Subject' => '主题',
   'Browse Subscribers' => '浏览订阅者',
 );
   }

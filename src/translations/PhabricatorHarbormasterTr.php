@@ -12,6 +12,7 @@ final class PhabricatorHarbormasterTr
   'Build Artifact' => 'Yapıt Oluştur',
   'Plan %d %s' => 'Plan %d %s',
   'Waiting for Message' => 'Mesaj Bekleniyor',
+  'Harbormaster Artifacts' => 'Harbormaster Yapıtları',
   'Updating build %d of buildable %s...' => '%d inşa edilebilir %s güncelleme güncelleniyor...',
   'TEST RESULT' => 'TEST SONUCU',
   'Browse Dependencies' => 'Bağımlılıklara Göz Atın',
@@ -26,6 +27,7 @@ final class PhabricatorHarbormasterTr
   'OK: Ignored event.' => 'Tamam: Yok sayılan etkinlik.',
   'Behavior: %s' => 'Davranış: %s',
   'Build Passed' => 'Yapı Geçti',
+  'You can only restart some builds.' => 'Yalnızca bazı derlemeleri yeniden başlatabilirsiniz.',
   'Resume Build' => 'Yapıyı Devam Et',
   'Retrieve information about Harbormaster build targets.' => 'Harbormaster oluşturma hedefleri hakkında bilgi edinin.',
   'Unable to identify the protocol for URI "%s". URIs must be fully qualified and have an identifiable protocol.' => '"%s" URI protokolü tanımlanamadı. URI\'ler tam olarak nitelenmeli ve tanımlanabilir bir protokole sahip olmalıdır.',
@@ -37,6 +39,9 @@ final class PhabricatorHarbormasterTr
   'Run a command on Drydock resource.' => 'Drydock kaynağında bir komut çalıştır.',
   '%s Skipped Test(s)' => '%s Testi Atlandı',
   'Severity of the message.' => 'Mesajın ciddiyeti.',
+  'The build plan for this build is configured to prevent users who can not edit it from issuing commands to the build, and you do not have permission to edit the build plan.' => 'Bu derlemenin derleme planı, düzenleme izni olmayan kullanıcıların komut vermesini engelleyecek şekilde yapılandırılmıştır.',
+  'You can not pause a build that uses an autoplan.' => 'Otomatik plan kullanan bir derlemeyi duraklatamazsınız.',
+  'Search for targets with given statuses.' => 'Verilen durumlara sahip hedefleri ara.',
   'Unsound' => 'Çürük',
   'Run a build in CircleCI.' => 'CircleCI\'da bir yapı çalıştırın.',
   'View External Build Results' => 'Dış Yapı Sonuçlarını Görüntüleyin',
@@ -45,25 +50,77 @@ final class PhabricatorHarbormasterTr
   'Not A Haiku' => 'Haiku Değil',
   '%s Broken Test(s)' => '%s Kırık Testi',
   'Resuming' => 'Devam Ediliyor',
+  'Insufficient Build Plan Permission' => 'Yetersiz Derleme Planı İzni',
   'Publishing "%s"...' => '"%s" Yayınlıyor...',
   'The name of the build target.' => 'Yapı hedefinin adı.',
   'Edit Plan' => 'Planı Düzenle',
+  'This test has too much data to display inline.' => 'Bu testte satır içi görüntülenemeyecek kadar çok veri var.',
   'Run %d' => '%d Çalıştırın',
   'Organization Name' => 'Organization NameKuruluş Adı',
+  'True if this artifact has been released.' => 'Bu yapıt yayınlanmışsa doğru.',
   'Browse Builds' => 'Yapılara Göz Atın',
   'Expected "%s" property to contain a dictionary.' => 'Sözlük içermesi beklenen "%s" özelliği.',
+  'You must have edit permission on this build plan to pause, abort, resume, or restart it.' => 'Bu derleme planını duraklatmak, iptal etmek, devam ettirmek veya yeniden başlatmak için düzenleme izniniz olmalıdır.',
   'Really Delete Step?' => 'Gerçekten Adımı Silinsin mi?',
   'or' => 'veya',
   'Completed' => 'Tamamlandı',
+  'Revisions are not sent for review until the build completes, but they will be sent for review even if it fails.' => 'Derleme tamamlanana kadar revizyonlar incelemeye gönderilmez, ancak derleme başarısız olsa bile incelemeye gönderilecektir.',
+  'You can not resume this build because it is already restarting.' => 'Bu derlemeye devam edemezsiniz çünkü zaten yeniden başlatılıyor.',
   'Output Artifacts' => 'Çıktı Eserleri',
   'Manage Build Plans' => 'Yapı Planlarını Yönet',
   'Default Build Plan View Policy' => 'Varsayılan Yapı Planı Görüntüleme Politikası',
   'Choose a build target to attach the log to with "--target".' => 'Günlüğü "--target" ile eklemek için bir oluşturma hedefi seçin.',
   'Build Preparing' => 'Hazırlama Oluştur',
+  'This test result has %s bytes of Remarkup test details. Remarkup blocks longer than %s bytes are not rendered inline when showing test summaries.' => 'Bu test sonucunda %s bayt Remarkup test ayrıntısı var. %s bayttan uzun Remarkup blokları işlenmiyor.',
+  'Edit Buildable' => 'Derlenebiliri Düzenle',
+  'Call includes "lint" parameter. This parameter must be omitted when the receiver is not a Build Target.' => 'Çağrı "lint" parametresini içeriyor. Bu parametre, alıcı bir Derleme Hedefi olmadığında atlanmalıdır.',
+  'This build can not be restarted because it is an automatic build.' => 'Bu derleme yeniden başlatılamaz çünkü otomatik bir derlemedir.',
+  'Started After' => 'Sonra Başlatılmış',
   'Specify exactly one buildable, by object name.' => 'Nesne adına göre tam olarak bir tane oluşturulabilir belirtin.',
+  'You can use this method to send control commands to Buildables and Builds.
+
+This table summarizes which object types may receive control commands:
+
+<table>
+  <tr>
+    <th>Object Type</th>
+    <th>PHID Example</th>
+    <th />
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Harbormaster Buildable</td>
+    <td>`PHID-HMBB-...`</td>
+    <td>{icon check color=green}</td>
+    <td>Buildables may receive control commands.</td>
+  </tr>
+  <tr>
+    <td>Harbormaster Build</td>
+    <td>`PHID-HMBD-...`</td>
+    <td>{icon check color=green}</td>
+    <td>Builds may receive control commands.</td>
+  </tr>
+  <tr>
+    <td>Harbormaster Build Target</td>
+    <td>`PHID-HMBT-...`</td>
+    <td>{icon times color=red}</td>
+    <td>You may **NOT** send control commands to build targets.</td>
+  </tr>
+</table>
+
+You can send these commands:
+
+%s
+
+To send a command message, specify the PHID of the object you would like to
+receive the message using the `receiver` parameter, and specify the message
+type using the `type` parameter.
+' => 'Bu yöntemi Derlenebilirlere ve Derlemelere kontrol komutları göndermek için kullanabilirsiniz.',
   'Enable Plan' => 'Planı Etkinleştir',
   'Unable to Abort Build' => 'Yapı İptal Edilemiyor',
   'Unable to Load File' => 'Dosya Yüklenemiyor',
+  'Edit Build: %s' => 'Derlemeyi Düzenle: %s',
+  'The object PHID of the object (usually a diff or commit) being built.' => 'Derlenen nesnenin (genellikle bir diff veya kaydediş) nesne PHID\'si.',
   'Build Target' => 'Hedef Oluştur',
   'Unable to determine how to fetch changes: this buildable does not identify a commit or a staging ref. You may need to configure a repository staging area.' => 'Değişikliklerin nasıl alınacağını belirleyemiyor: bu oluşturulabilir bir taahhüt veya referans. Bir Depo hazırlama alanını yapılandırmanız gerekebilir.',
   'Failed to load build plan ("%s").' => 'Yapı planı yüklenemedi ("%s").',
@@ -87,7 +144,9 @@ final class PhabricatorHarbormasterTr
   'Sleep for %s seconds.' => '%s saniye boyunca uyu.',
   '%s created this build step.' => '%s bu yapı adımı oluşturdu.',
   'Buildable Name' => 'Üretilebilir İsim',
+  'If Complete' => 'Tamamlandıysa',
   'This object does not support builds with Buildkite.' => 'Bu nesne Buildkite ile yapıları desteklemiyor.',
+  'Search for targets completed on or before a particular date.' => 'Belirli bir tarihte veya öncesinde tamamlanan hedefleri ara.',
   'Compress, decompress, store or destroy build logs.' => 'Yapı günlüklerini sıkıştırın, açın, depolayın veya imha edin.',
   'Target %d' => 'Hedef %d',
   'The build the target is associated with.' => 'Hedef yapı ile ilişkili.',
@@ -99,21 +158,30 @@ final class PhabricatorHarbormasterTr
   'Pause Build' => 'Yapıyı Durdur',
   'Interacting with External Build Systems' => 'Dış Yapı Sistemleri ile Etkileşim',
   'Progress on this build will be discarded. Really abort build?' => 'Bu yapıdaki ilerleme dikkate alınmayacak. Gerçekten yapıyı iptal edilsin mi?',
+  'Artifact %d' => 'Yapıt %d',
   'Path to the file containing the lint message, from the project root.' => 'Proje kök dizininden, lif iletisini içeren dosyanın yolu.',
+  'No artifacts found.' => 'Yapıt bulunamadı.',
   'A build step has the same policies as its build plan.' => 'Bir derleme adımı, derleme planıyla aynı politikalara sahiptir.',
   'Rebuilding log "%s"...' => '"%s" günlüğü yeniden oluşturuluyor...',
   '%s Failed Test(s)' => '%s Test Başarısız Oldu',
   'Unknown mode "%s". Valid modes are: %s.' => 'Bilinmeyen mod "%s". Geçerli modlar: %s.',
   'Wait for previous commits to finish building the current plan before continuing.' => 'Devam etmeden önce mevcut planın oluşturulmasını önceki taahhütlerin beklemesini bekleyin.',
+  'No handler found for %s' => '%s için işleyici bulunamadı',
   'Follow Log' => 'Günlüğü İzle',
+  'You can not resume a build that uses an autoplan.' => 'Otomatik plan kullanan bir derlemeye devam edemezsiniz.',
   'Explicitly update the builds for __buildable__.' => '__buildable__ için sürümleri açıkça güncelleyin.',
   'Path to the file where the test is declared, relative to the project root.' => 'Proje köküne göre testin bildirildiği dosyanın yolu.',
+  'Apply transactions to create a new build step or edit an existing one.' => 'Yeni bir derleme adımı oluşturmak veya mevcut olanı düzenlemek için işlemleri uygulayın.',
   'Show more details about operations as they are performed. Slow! But also very reassuring!' => 'Gerçekleştirilen işlemlerle ilgili daha fazla ayrıntı göster. Yavaş! Ancak aynı zamanda çok güven verici!',
   'Lint message code identifying the type of message, like "ERR123".' => '"ERR123" gibi mesaj tipini tanımlayan Lint mesaj kodu.',
+  'Build will pause.' => 'Derleme duraklatılacak.',
   'This is an autoplan (a builtin plan provided by an application) so it can not be edited.' => 'Bu bir otomatik pilottur (bir uygulama tarafından sağlanan yerleşik bir plandır) bu nedenle düzenlenemez.',
   'Make an authenticated HTTP %s request to %s.' => 'Kimliği doğrulanmış bir HTTP %s isteği, %s olarak yapın.',
+  'The build target this artifact is attached to.' => 'Bu yapıtın bağlı olduğu derleme hedefi.',
+  'Sent a restart message to build.' => 'Derlemeye yeniden başlatma mesajı gönderildi.',
   'Line number in the file where the text which triggered the message first appears. The first line of the file is line 1, not line 0.' => 'İlk olarak mesajı tetikleyen metnin göründüğü dosyadaki satır numarası. Dosyanın ilk satırı 0\'dır, 1. satırdır.',
   'Buildables' => 'Yapılandırabilirler',
+  'The artifact key.' => 'Yapıt anahtarı.',
   'Build step "%s" has step group key "%s", but no step group with that key exists.' => 'Derleme "%s", "%s" adım grubu anahtarına sahiptir, ancak bu anahtarla hiçbir adım grubu yoktur.',
   'When Complete' => 'Tamamlandığında',
   'Show all logs.' => 'Tüm günlükleri göster.',
@@ -132,11 +200,17 @@ final class PhabricatorHarbormasterTr
   'You do not have permission to create Harbormaster build plans.' => 'Harbormaster yapı planları oluşturma izniniz yok.',
   'Epoch timestamp for target completion, if the target has completed.' => 'Hedef tamamlandıysa, hedefin tamamlanması için zaman damgasını kaldır.',
   'Build plan "%s" does not exist.' => 'Yapı planı "%s" mevcut değil.',
+  'You can not pause this build because it is already aborting.' => 'Bu derlemeyi duraklatamazsınız çünkü zaten iptal ediliyor.',
+  'Pause the build.' => 'Derlemeyi duraklat.',
+  'Really resume %s build(s)?' => '%s derleme gerçekten devam ettirilsin mi?',
   'Uploaded File' => 'Yüklenmiş Dosya',
   'Force the buildable to update even if no build status changes occur during normal update.' => 'Normal güncelleme sırasında derleme durumu değişikliği yapılmasa bile kurmayı güncellemeye zorlayın.',
   'INVALID' => 'GEÇERSİZ',
+  'Unable to load object "%s" to receive message.' => 'Mesaj almak için "%s" nesnesi yüklenemiyor.',
+  'No such variable \'%s\'!' => '\'%s\' değişkeni bulunamadı!',
   'Request OK
 ' => 'Tamam İste',
+  'The object PHID of the Harbormaster Build being built.' => 'Derlenen Harbormaster Derlemesinin nesne PHID\'si.',
   'Logs must be fully written and processed before they can be downloaded. This log is still being written or processed.' => 'Günlükler indirilmeden önce tamamen yazılmalı ve işlenmelidir. Bu günlük hala yazılıyor veya işleniyor.',
   '%s restarted this build.' => '%s bu yapıyı yeniden başlattı.',
   'Harbormaster Buildables' => 'Harbormaster Yapılandırabilir',
@@ -146,37 +220,113 @@ final class PhabricatorHarbormasterTr
   'You must openBuildLog() before you can append() content to the log.' => 'append() içerik ekleyebilmek için beforeBuildLog() öğesini açmalısınız.',
   'Plan %d' => 'Plan %d',
   'Drydock: Run Command' => 'Drydock: Komutu Çalıştır',
+  'Abort the build, discarding progress.' => 'İlerlemeyi atarak derlemeyi iptal et.',
+  'Buildables may receive control commands like "abort" and "restart". Sending a control command to a Buildable is the same as sending it to each Build for the Buildable.' => 'Derlenebilirler "iptal" ve "yeniden başlat" gibi kontrol komutları alabilir.',
   'Coverage information for this test.' => 'Bu test için kapsama bilgisi.',
   'This attachment exists solely to provide compatibility with the message format returned by an outdated API method. It will be taken away at some point and you should not rely on these fields being available.' => 'Bu ek, yalnızca eski bir API yöntemiyle döndürülen ileti biçimiyle uyumluluk sağlamak için bulunmaktadır. Bir noktada alınacak ve bu alanların mevcut olduğuna güvenmemelisiniz.',
   'The build plan name.' => 'Yapı planı adı.',
   'View Current Build' => 'Mevcut Yapıyı Bakın',
   'Next Steps' => 'Sonraki Adımlar',
+  'Fragment' => 'Parça',
   'Build target this log is attached to.' => 'Bu günlüğün bağlı olduğu derleme hedefi.',
   'Work will continue on all builds. Really resume?' => 'Tüm yapılarda çalışmalar devam edecek. Gerçekten devam edilsin mi?',
   'Already Restarting' => 'Zaten Yeniden Başlatılıyor',
   'Stores a URI.' => 'Bir URI depolar.',
+  'Edit Build Step: %s' => 'Derleme Adımını Düzenle: %s',
   'rXYZ, R123, D456, ...' => 'rXYZ, R123, D456, ...',
   'Rebuild all logs.' => 'Tüm günlükleri yeniden oluştur.',
   'Attempting to access unknown build status property ("%s").' => 'Bilinmeyen yapı durumu özelliğine erişmeye çalışılıyor ("%s").',
   'Rebuild the file and summary for a log. This is primarily intended to make it easier to develop new log summarizers.' => 'Bir günlük için dosyayı ve özeti yeniden oluşturun. Bu öncelikle yeni log özetleyicileri geliştirmeyi kolaylaştırmak için tasarlanmıştır.',
   'Standalone Log Fragment' => 'Bağımsız Günlük Parçası',
   'Harbormaster Build Steps' => 'Harbormaster Adımları Oluştur',
+  'You can report test results when updating the state of a build target. The
+simplest way to do this is to report all the results alongside a `pass` or
+`fail` message, but you can also send a `work` message to report intermediate
+results.
+
+
+To provide unit test results, pass a list of results in the `unit`
+parameter. Each result should be a dictionary with these keys:
+
+%s
+
+The `result` parameter recognizes these test results:
+
+%s
+
+This is a simple, valid value for the `unit` parameter. It reports one passing
+test and one failing test:
+
+```lang=json
+%s
+```' => '',
   'Origin' => 'Menşei',
   'Build Status' => 'Durumu Oluştur',
   'Run At' => 'Çalıştır',
+  'No build plan behavior with key "%s" exists.' => '',
+  'The build may not be restarted.' => 'build not be rebaşlatıldı.',
   'Initiators' => 'Başlatanlar',
   'Runtime duration of the test, in seconds.' => 'Testin çalışma süresi, saniye olarak.',
   'Lint Messages' => 'Lint Mesajları',
   'Missing Dependency' => 'Eksik Bağımlılık',
+  'Search for targets started on or after a particular date.' => '',
   'This target has no associated artifacts.' => 'Bu hedefin hiçbir ortak eseri yok.',
   'Choose Build Statuses' => 'Yapı Durumlarını Seç',
+  'Search for targets started on or before a particular date.' => '',
+  'The build step the target runs.' => 'Hedefin oluşturduğu yapı adımı.',
   'New Step: %s' => 'Yeni Adım: %s',
   'This build plan will deadlock when executed, due to circular dependencies present in the build plan. Examine the step list and resolve the deadlock.' => 'Bu yapı planı, yapı planında mevcut olan dairesel bağımlılıklar nedeniyle yürütüldüğünde kilitlenecektir. Adım listesini inceleyin ve kilitlenmeyi giderin.',
   'This older log is missing required rendering data. To rebuild rendering data, run: %s' => 'Bu eski günlükte gerekli oluşturma verileri eksik. Render verilerini yeniden oluşturmak için şunu çalıştırın: %s',
+  '%s changed the %s behavior for this plan from %s to %s.' => '%s şunu değiştirdi: %s bu planın davranışını %s\'den %s\'e.',
   'No such buildable "%s"!' => 'Böyle bir "%s" yapılamaz!',
+  'Receiver object (of class "%s") is not a valid receiver.' => '',
   'PHID of the object that is built.' => 'Oluşturulan nesnenin PHID\'si.',
   'Harbormaster Build Logs' => 'Harbormaster Yapı Günlükleri',
+  'QUEUED' => 'SIRAYA ALINDI',
+  'You can not abort this build because it is already complete.' => '',
+  'Retrieve information about Harbormaster build steps.' => '',
+  'Edit Harbormaster Build Configurations' => 'Harbormaster Derleme Yapılandırmalarını Düzenle',
+  'WARNING: This build step is new and experimental!
+
+To build **revisions** with CircleCI, they must:
+
+  - belong to a tracked repository;
+  - the repository must have a Staging Area configured;
+  - the Staging Area must be hosted on GitHub; and
+  - you must configure the webhook described below.
+
+To build **commits** with CircleCI, they must:
+
+  - belong to a repository that is being imported from GitHub; and
+  - you must configure the webhook described below.
+
+Webhook Configuration
+=====================
+
+Add this webhook to your `circle.yml` file to make CircleCI report results
+to Harbormaster. Until you install this hook, builds will hang waiting for
+a response from CircleCI.
+
+```lang=yml
+notify:
+  webhooks:
+    - url: %s
+```
+
+Environment
+===========
+
+These variables will be available in the build environment:
+
+| Variable | Description |
+|----------|-------------|
+| `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target.
+' => '',
   'Search for builds started by someone or something in particular.' => 'Biri veya özel bir şey tarafından başlatılan yapıları arayın.',
+  'Any user who can view the plan can run it manually.' => '',
+  'When a build is restarted, side effects associated with the build may occur again.' => '',
+  'The build may be restarted.' => 'build be rebaşlatıldı.',
+  'Resume work on a previously paused build.' => '',
   'Automatic `arc unit` step.' => 'Otomatik `arc unit` adımı.',
   'Build Plan' => 'Plan Oluştur',
   'Drydock lease PHID "%s" does not correspond to a valid lease.' => 'Drydock finansal kiralama PHID "%s" geçerli bir kiralama ile uyuşmuyor.',
@@ -185,14 +335,77 @@ final class PhabricatorHarbormasterTr
   'Name one or more buildables to publish, like "B123".' => '"B123" gibi yayınlanacak bir veya daha fazla faturalandırılabilir dosya adı verin.',
   'Pausing' => 'Durduruluyor',
   'Manual' => 'Manüel',
+  'Harbormaster build objects work somewhat differently from objects in many other
+applications. Most application objects can be edited directly using synchronous
+APIs (like `maniphest.edit`, `differential.revision.edit`, and so on).
+
+However, builds require long-running background processing and Habormaster
+objects have a more complex lifecycle than most other application objects and
+may spend significant periods of time locked by daemon processes during build
+execution. A synchronous edit might need to wait an arbitrarily long amount of
+time for this lock to become available so the edit could be applied.
+
+Additionally, some edits may also require an arbitrarily long amount of time to
+//complete//. For example, aborting a build may execute cleanup steps which
+take minutes (or even hours) to complete.
+
+Since a synchronous API could not guarantee it could return results to the
+caller in a reasonable amount of time, the edit API for Harbormaster build
+objects is asynchronous: to update a Harbormaster build or build target, use
+this API (`harbormaster.sendmessage`) to send it a message describing an edit
+you would like to effect or additional information you want to provide.
+The message will be processed by the daemons once the build or target reaches
+a suitable state to receive messages.
+
+Select an object to send a message to using the `receiver` parameter. This
+API method can send messages to multiple types of objects:
+
+<table>
+  <tr>
+    <th>Object Type</th>
+    <th>PHID Example</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Harbormaster Buildable</td>
+    <td>`PHID-HMBB-...`</td>
+    <td>%s</td>
+  </tr>
+  <tr>
+    <td>Harbormaster Build</td>
+    <td>`PHID-HMBD-...`</td>
+    <td>%s</td>
+  </tr>
+  <tr>
+    <td>Harbormaster Build Target</td>
+    <td>`PHID-HMBT-...`</td>
+    <td>%s</td>
+  </tr>
+</table>
+
+See below for specifics on sending messages to different object types.' => '',
+  'The name of the build step.' => 'The name of the derleme adımı.',
   'All Builds' => 'Tüm Yapılar',
   'No such object "%s" exists.' => 'Böyle bir "%s" nesnesi yok.',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'Nesne ("%s") "%s" ifadesinin GitHub deposu URI\'si olduğunu iddia ediyor, ancak yol ("%s") yeterince bileşen içermiyor (en az iki tane bekleniyor).',
+  'Create Buildable' => 'Derlenebilir Oluştur',
+  'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
+
+Note that this controls access to all build management actions: "Run Plan Manually", "Restart", "Abort", "Pause", and "Resume".
+
+WARNING: This may be unsafe, particularly if the build has side effects like deployment.
+
+If you weaken this policy, an attacker with control of an account that has "Can View" permission but not "Can Edit" permission can manually run this build against any old version of the code, including versions with known security issues.
+
+If running the build has a side effect like deploying code, they can force deployment of a vulnerable version and then escalate into an attack against the deployed service.' => '',
   'Build Log %d (%s - %s)' => 'Günlük Oluştur %d (%s - %s)',
   'Lease Working Copy' => 'Çalışma Kopyası Kirala',
+  'No Build Plan Permission' => '',
+  'No behavior with key "%s" exists. Valid keys are: %s.' => '',
   'Nameless Test (%d)' => 'İsimsiz Testi (%d)',
   'Really restart build?' => 'Yapıyı gerçekten yeniden başlatılsın mı?',
   '%s renamed this build plan from "%s" to "%s".' => '%s, bu yapı planını "%s" iken "%s" olarak yeniden adlandırdı.',
+  'Completed After' => 'Sonra Tamamlanmış',
   '%s resumed this buildable.' => '%s bu yapılandırabiliri devam etti.',
   'Force logs to rebuild even if they appear to be in good shape already.' => 'Günlükleri zaten iyi durumda olsalar bile yeniden oluşturulmaya zorlayın.',
   'You can not process build log chunks unless the log lock is held.' => 'Günlük kilidi tutulmadıkça derleme günlük parçalarını işleyemezsiniz.',
@@ -208,6 +421,7 @@ final class PhabricatorHarbormasterTr
   'Buildkite' => 'Buildkite',
   'Built for %s' => '%s için Yapıldı',
   'Create a build artifact.' => 'Bir yapı eseri oluşturun.',
+  'Pause, abort, restart, and report results for builds.' => '',
   'Step Type' => 'Adım Tipi',
   'You must openBuildLog() before you can closeBuildLog().' => 'openBuildLog() uygulamasını kapatmadan önce closeBuildLog() öğesini açmalısınız.',
   'Unknown Input' => 'Bilinmeyen Giriş',
@@ -220,21 +434,68 @@ final class PhabricatorHarbormasterTr
   'Waiting for %s' => '%s için Bekleniyor',
   'Query Harbormaster buildables.' => 'Sorgu Harbormaster oluşturulabilir.',
   'Create Build Plan' => 'Yapı Planı Oluştur',
+  'Call omits required "type" parameter. Specify the type of message you want to send.' => 'Call omits gerekli "tür" parametre. Belirtin the tür of mesaj you want to send.',
   '%s disabled this build plan.' => '%s bu yapı planını devre dışı bıraktı.',
   'Reading log content from stdin...' => 'Stdin\'den log içeriği okunuyor...',
   'No messages for this build target.' => 'Bu oluşturma hedefi için ileti yok.',
   'View in CircleCI' => 'CircleCI\'da Görüntüle',
+  '%s aborted this buildable.' => '',
   'All Plans' => 'Tüm Planlar',
+  'You can not resume this build because it is already aborting.' => '',
   'Unable to Resume Build' => 'Oluşturmaya Devam Edilemiyor',
+  'WARNING: This build step is new and experimental!
+
+To build **revisions** with Buildkite, they must:
+
+  - belong to a tracked repository;
+  - the repository must have a Staging Area configured;
+  - you must configure a Buildkite pipeline for that Staging Area; and
+  - you must configure the webhook described below.
+
+To build **commits** with Buildkite, they must:
+
+  - belong to a tracked repository;
+  - you must configure a Buildkite pipeline for that repository; and
+  - you must configure the webhook described below.
+
+Webhook Configuration
+=====================
+
+In {nav Settings} for your Organization in Buildkite, under
+{nav Notification Services}, add a new **Webhook Notification**.
+
+Use these settings:
+
+  - **Webhook URL**: %s
+  - **Token**: The "Webhook Token" field below and the "Token" field in
+    Buildkite should both be set to the same nonempty value (any random
+    secret). You can use copy/paste the value Buildkite generates into
+    this form.
+  - **Events**: Only **build.finish** needs to be active.
+
+Environment
+===========
+
+These variables will be available in the build environment:
+
+| Variable | Description |
+|----------|-------------|
+| `HARBORMASTER_BUILD_TARGET_PHID` | PHID of the Build Target. |' => '',
+  'No active Herald rules trigger this build.' => '',
   'You can not specify both "--id" and "--all". Choose one or the other.' => 'Hem "--id" hem de "--all" belirtemezsiniz. Birini veya diğerini seçin.',
+  'Revisions are not sent for review until the build completes, and are returned to the author for updates if the build fails.' => '',
   'Invalid build ID "%s".' => 'Geçersiz yapı kimliği "%s".',
+  'This engine is used to edit Harbormaster builds.' => '',
   'The URI to store.' => 'Saklanacak URI.',
   'Type a build plan name...' => 'Bir yapı planı adı yazın...',
+  'Test' => 'Test',
   'Harbormaster Build %s ("%s") for %s' => 'Harbormaster Yapısı %s ("%s") için %s',
   'Delete Build Step' => 'Yapı Adımı Sil',
   'Step %d.%d' => 'Adım %d.%d',
   'Log "%s" is still live. Logs can not be finalized until they have closed.' => '"%s" günlüğü hala yayında. Günlükler kapanana kadar sonlandırılamaz.',
   'Use this method to attach artifacts to build targets while running builds. Artifacts can be used to carry data through a complex build workflow, provide extra information to users, or store build results.' => 'Yapıları çalıştırırken hedefler oluşturmak üzere yapay nesneler eklemek için bu yöntemi kullanın. Eserler, karmaşık bir yapı iş akışı aracılığıyla veri taşımak, kullanıcılara ek bilgi sağlamak veya yapı sonuçlarını depolamak için kullanılabilir.',
+  'This engine is used to edit Harbormaster build steps.' => '',
+  'Modify running builds, and report build results.' => '',
   'OK: No Harbormaster target PHID.' => 'Tamam: Harbormaster hedef PHID yok.',
   'Each artifact also needs an `artifactKey`, which names the artifact. Finally, you will provide some `artifactData` to fill in the content of the artifact. The data you provide depends on what type of artifact you are creating.' => 'Her bir yapı ayrıca, yapıyı adlandıran bir `artifactKey` tuşuna ihtiyaç duyar. Son olarak, yapay nesnenin içeriğini doldurmak için bazı `artifactData` sağlayacaksınız. Sağladığınız veriler, ne tür bir eser oluşturduğunuza bağlıdır.',
   'Local Name' => 'Yerel Adı',
@@ -247,10 +508,13 @@ final class PhabricatorHarbormasterTr
   'Bad Input Type' => 'Kötü Giriş Tipi',
   'True if this is a manual buildable.' => 'Bu bir manüel oluşturulabilir ise geçerlidir.',
   'Upload %s from %s.' => '%s\'den %s yükle.',
+  'Search for targets completed on or after a particular date.' => '',
   'Publish a buildable. This is primarily useful for developing and debugging applications which have buildable objects.' => 'Bir oluşturulabilir yayımla. Bu öncelikle, üretilebilir nesnelere sahip uygulamalar geliştirmek ve hata ayıklamak için kullanışlıdır.',
   'Search for builds running against particular buildables.' => 'Belirli faturalara karşı çalışan binaları arayın.',
   'Specify exactly one buildable object, by object name.' => 'Nesne adına göre tam olarak bir tane oluşturulabilir nesne belirtin.',
   'Can Create Build Plans' => 'Yapı Planları Oluşturabilir',
+  'You can not abort a build that uses an autoplan.' => '',
+  'You can not pause this build because it is already pausing.' => '',
   'Add Build Step' => 'Yapı Adımı Ekle',
   'No such build target "%s"!' => 'Böyle bir yapı hedefi "%s" değil!',
   'My Builds' => 'Yapılarım',
@@ -268,68 +532,121 @@ With `ui.external`, you can use this artifact type to add links to build results
 `ui.external` ile, harici yapı sisteminde sonuçları oluşturmak için bağlantılar eklemek üzere bu yapay türü kullanabilirsiniz.',
   'CircleCI' => 'CircleCI',
   'Trigger a build in Buildkite.' => 'Buildkite\'deki bir yapıyı tetikleyin.',
+  'Call omits required "receiver" parameter. Specify the PHID of the object you want to send a message to.' => '',
   'When' => 'Ne Zaman',
   'Search for only manual or automatic buildables.' => 'Yalnızca manüel veya otomatik olarak bulunabilen aramaları arayın.',
   'New plan name.' => 'Yeni plan adı.',
+  'You can only abort some builds. Work will halt immediately on builds you can abort. Progress will be discarded, and builds must be completely restarted if you want them to complete.' => '',
   'Harbormaster Build Targets' => 'Harbormaster Yapı Hedefleri',
   'Sleep for a specified number of seconds.' => 'Belirtilen sayıda saniye uyu.',
   'The current status of this build.' => 'Bu yapının şu anki durumu.',
   'Make an HTTP %s request to %s.' => '%s\'e bir HTTP %s isteği yapın.',
+  'Status "%s" is not a valid build plan status. Valid statuses are: %s.' => '',
   'A file containing the log data.' => 'Günlük verilerini içeren bir dosya.',
   '<Invalid URI>' => '<Geçersiz URI>',
+  'You can not issue this command because you do not have permission to access the build plan for this build.' => '',
   'Artifact Name' => 'Eserin Adı',
   'Build Artifact %d' => 'Eseri Oluştur %d',
   'Object "%s" is not a buildable!' => '"%s" nesnesi oluşturulamıyor!',
   'Use %s to specify a build plan to run.' => 'Çalıştırılacak bir yapı planı belirlemek için %s kullanın.',
   'Input Artifacts' => 'Giriş Eserleri',
+  'Revisions are sent for review regardless of the status of the build.' => '',
   'Unknown chunk encoding "%s"!' => '"%s" kodunu kodlayan bilinmeyen öbek!',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the domain does not appear to be GitHub.' => 'Nesne ("%s"), "%s"\'nin GitHub deposu URI olduğunu iddia ediyor, ancak etki alanı GitHub gibi görünmüyor.',
+  'Usually, builds may be restarted by users who have permission to edit the related build plan. (You can change who is allowed to restart a build by adjusting the "Runnable" behavior.)
+
+Restarting a build may be useful if you suspect it has failed for environmental or circumstantial reasons unrelated to the actual code, and want to give it another chance at glory.
+
+If you want to prevent a build from being restarted, you can change when it may be restarted by adjusting this behavior. This may be useful to prevent accidents where a build with a dangerous side effect (like deployment) is restarted improperly.' => '',
   'The name of this build plan.' => 'Bu inşa planının adı.',
   'Opened a new build log:' => 'Yeni bir derleme günlüğü açıldı:',
   'Unable to determine how to clone the repository for this buildable: it is not associated with a tracked repository.' => 'Bu oluşturulabilir deponun klonunun nasıl klonlanacağını belirleyemiyor: izlenen bir havuzla ilişkili değil.',
+  '"arc land" never warns that the build is still running or has failed.' => '',
+  'This build can not be restarted because the build plan is configured to prevent the build from restarting unless it has failed, and it has not failed.' => '',
+  '"arc land" warns if the build has failed, but ignores the build if it is still running.' => '',
+  'View URI for the buildable.' => 'View URI for the derlenebilir.',
+  'This build can not be restarted because the build plan is configured to prevent the build from restarting.' => '',
+  'You can use this method (`harbormaster.sendmessage`) to send control commands
+to Buildables and Builds.
+
+Specify the Build or Buildable to receive the control command by providing its
+PHID in the `receiver` parameter.
+
+Sending a control command to a Buildable has the same effect as sending it to
+each Build for the Buildable. For example, sending a "Pause" message to a
+Buildable will pause all builds for the Buildable (or at least attempt to).
+
+When sending control commands, the `unit` and `lint` parameters of this API
+method must be omitted. You can not report lint or unit results directly to
+a Build or Buildable, and can not report them alongside a control command.
+
+More broadly, you can not report build results directly to a Build or
+Buildable. Instead, report results to a Build Target.
+
+See below for a list of control commands.
+' => '',
   'You must choose a name for your build plan.' => 'Yapı planınız için bir isim seçmelisiniz.',
+  'Build Targets may receive build status and result messages, like "pass" or "fail".' => '',
   'If you abort all builds, work will halt immediately. Work will be discarded, and builds must be completely restarted.' => 'Tüm yapıları iptal ederseniz, iş derhal durur. İşler atılacak ve yapımlar tamamen yeniden başlatılmalıdır.',
   'Argument "%s" does not name a buildable. Provide one or more valid buildable monograms or PHIDs.' => '"%s" bağımsız değişkeni oluşturulabilir adı vermiyor. Bir veya daha fazla geçerli oluşturulabilir monogram veya PHID sağlayın.',
   'Edit Step' => 'Adım Düzenle',
   'The ID of the current build.' => 'Geçerli yapının kimliği.',
+  'Progress on running builds will be discarded.' => '',
   'Submit builds into the build queue normally instead of running them in the foreground.' => 'Gönder, ön planda çalıştırmak yerine normal olarak yapı kuyruğuna gönderir.',
   '%s resumed this build.' => '%s bu yapıyı devam etti.',
   'This input is required, but not configured.' => 'Bu giriş gerekli, ancak yapılandırılmamış.',
   'Bad build target ID "%d".' => 'Hatalı yapı hedef kimliği "%d".',
+  'Edit Build' => 'Derlemeyi Düzenle',
   'Restart %s build(s)?' => '%s yapı yeniden başlatılsın mı?',
   'This build log is already open!' => 'Bu yapı günlüğü zaten açık!',
   'Show Only Automated Builds' => 'Yalnızca Otomatik Oluşturmaları Göster',
   'Format for the text provided in "details". Valid values are "text" (default) or "remarkup". This controls how test details are rendered when shown to users.' => '"details" ile verilen metni formatlayın. Geçerli değerler "text" (varsayılan) veya "remarkup"\'dur. Bu, kullanıcılara gösterildiğinde test ayrıntılarının nasıl oluşturulduğunu kontrol eder.',
   'Build Target ID' => 'Hedef Kimliği Oluştur',
+  'Build will restart.' => '',
   'Unable to load the file for this log. The file may have been destroyed.' => 'Bu günlük için dosya yüklenemiyor. Dosya tahrip olmuş olabilir.',
   'Short test name, like "ExampleTest".' => '"ExampleTest" gibi kısa bir test adı.',
   'Active Plans' => 'Aktif Planlar',
   'Restartable' => 'Yeniden başlatılabilir',
   'Unit %d' => '%d Birim',
   'Harbormaster build target "%s" is not a Buildkite build step. Only Buildkite steps may be updated via the Buildkite hook.' => 'Harbormaster yapı hedefi "%s" bir Buildkite yapı adımı değil. Buildkite kancasıyla yalnızca Buildkite adımları güncellenebilir.',
+  'Choose a build plan behavior for "%s".' => '',
   'New View (Prototype)' => 'Yeni Görünüm (Prototip)',
+  'After completing this build step Harbormaster can continue the build normally, or it can pause the build and wait for a message. If you are using this build step to trigger some work in an external system, you may want wait for that system to perform the work and report results back.
+
+If you select **Continue Build Normally**, the build plan will proceed once this step finishes.
+
+If you select **Wait For Message**, the build plan will pause indefinitely once this step finishes. To resume the build, an external system must call `harbormaster.sendmessage` with the build target PHID, and either `"pass"` or `"fail"` to indicate the result for this step. After the result is recorded, the build plan will resume.' => '',
   'Disable this build plan? It will no longer be executed automatically.' => 'Bu yapı planını devre dışı bırakılsın mı? Artık otomatik olarak yürütülmeyecek.',
   'Ship Some Freight' => 'Bazı Navlun Gemi',
+  '"arc land" warns if the build is still running or has failed.' => '',
   'View Details' => 'Ayrıntıları Görüntüle',
   'Buildable' => 'Yapılandırabilir',
+  'Only users who can edit the plan can run it manually.' => '',
   'Unable to find fetch!' => 'Getirilemedi!',
   'arc lint + arc unit' => 'ark teli + ark birimi',
   '%s restarted this buildable.' => '%s bu yapılandırabiliri yeniden başlattı',
   'Really abort build?' => 'Gerçekten yapıyı iptal edilsin mi?',
+  'The build step description.' => 'The derleme adımı description.',
   'Browse Build Plans' => 'Yapı Planlarına Göz Atın',
   'The PHID of the user or Object that initiated the build, if applicable.' => 'Varsa, derlemeyi başlatan kullanıcının veya nesnenin PHID\'si.',
   'All Buildables' => 'Tüm Yapılandırabilir',
   'Also Clone' => 'Ayrıca Klon',
+  'Query information about build artifacts.' => '',
+  'Unable to Send Command' => '',
+  'No behavior option is marked as the default option (for behavior "%s"). Exactly one option must be marked as the default option.' => 'Hiç behavior seçenek marked as the varsayılan seçenek (for behavior "%s"). Exactly one seçenek be marked as the varsayılan seçenek.',
   'Select all active builds.' => 'Tüm aktif yapıları seçin.',
   'Preparing' => 'Hazırlanıyor',
   'Build Plans' => 'Planlar Oluştur',
+  'Edit Buildable: %s' => 'Derlemeyi Düzenleable: %s',
   'Unable to load build target "%s".' => '"%s" yapı hedefi yüklenemiyor.',
   'Retrieve information about Harbormaster build plans.' => 'Harbormaster yapı planları hakkında bilgi edinin.',
   'File to create an artifact from.' => 'Bir eser oluşturmak için dosya.',
+  'You can only resume some builds. Work will continue on builds you have permission to resume.' => '',
   'Attempt to load log bytes (%d - %d) failed: the loaded range (%d - %d) does not span the requested range.' => 'Günlük baytlarını yükleme girişimi (%d - %d) başarısız oldu: yüklenen aralık (%d - %d) istenen aralığı kapsamıyor.',
   'The current status of this buildable.' => 'Yapılandırabilir olanın mevcut durumu.',
   'Standalone Fragment' => 'Bağımsız Parça',
   'Wait For Message' => 'Mesaj Bekle',
+  'Builds may receive control commands like "pause", "resume", "abort", and "restart".' => '',
   'Edit Build Plan' => 'Yapı Planı Düzenle',
   'Select one or more builds by ID.' => 'Kimliğe göre bir veya daha fazla yapı seçin.',
   'Unable to find lines.' => 'Satırlar bulunamadı.',
@@ -342,30 +659,43 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Artifact Type' => 'Artefakt Türü',
   'Object "%s" is not a HarbormasterBuildable (it is a "%s"). Name one or more buildables to publish, like "B123".' => '"%s" nesnesi bir HarbormasterBuildable değildir ("%s"\'dir). "B123" gibi yayınlanacak bir veya daha fazla faturalandırılabilir dosya adı verin.',
   'Load or create build autotargets.' => 'Derleme otomatik hedeflerini yükleyin veya oluşturun.',
+  'Apply transactions to create a new build plan or edit an existing one.' => '',
+  'Apply transactions to create a new build or edit an existing one.' => '',
   'Attempting to access unknown buildable status property ("%s").' => 'Bilinmeyen oluşturulabilir durum özelliğine erişme girişimi ("%s").',
   'The current status of this build plan.' => 'Bu yapı planının mevcut durumu.',
   'Unknown Status ("%s")' => 'Bilinmeyen Durum ("%s")',
+  'You can not restart this build because you do not have permission to access the build plan.' => '',
   'Edit Build Plan: %s' => 'Yapı Planını Düzenle: %s',
   'View in Buildkite' => 'Buildkite\'de Görüntüle',
+  'Multiple behavior options (for behavior "%s") have the same key ("%s"). Each option must have a unique key.' => '',
   'No implementation is specified!' => 'Uygulama belirtilmedi!',
   '(This is an explicit exception.)' => '(Bu açık bir istisnadır.)',
   'Abort Build' => 'Oluşturmayı İptal Et',
   'Artifacts' => 'Eserleri',
   'Invalid Implementation ("%s")!' => 'Geçersiz Uygulama ("%s")!',
+  'Apply transactions to create a new buildable or edit an existing one.' => '',
   'View Full Test Results (%s)' => 'Tam Test Sonuçlarını Görüntüle (%s)',
   '<Unknown Artifact Type>' => '<Bilinmeyen Eser Türü>',
+  'Multiple behavior options (for behavior "%s") are marked as default options ("%s" and "%s"). Exactly one option must be marked as the default option.' => 'Multiple behavior seçeneks (for behavior "%s") marked as varsayılan seçeneks ("%s" and "%s"). Exactly one seçenek be marked as the varsayılan seçenek.',
+  'Behavior configuration for the build plan.' => 'Behavior yapılandırma for the derleme planı.',
+  'You can not pause this build because it is already paused.' => '',
   'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => 'İletiyi tetikleyen metnin başladığı satırdaki bayt konumu. Satırdaki ilk bayt 1\'dir, bayt 0 değil. Bu konum bayt tabanlıdır (karakter tabanlıdır) çünkü tüm sıralanabilir dosyalar geçerli bir karakter kodlamasına sahip değildir.',
   'Unable to inflate log chunk!' => 'Günlük öbeğini şişiremiyor!',
+  'Search for artifacts attached to particular build targets.' => 'Search for yapıts attached to particular derleme hedefis.',
   'Testing Utilities' => 'Test Araçları',
   'Search for builds with given statuses.' => 'Verilen durumlara sahip yapıları arayın.',
   'Restart Harbormaster builds.' => 'Harbormaster yapıları yeniden  başlat.',
+  'Value "%s" is not a valid option for behavior "%s". Valid options are: %s.' => '',
   'Automatic `arc lint` step.' => 'Otomatik `arc lint` adım.',
   'PHID of the object containing this buildable.' => 'Bu oluşturulabilir nesnenin PHID\'si.',
+  'Call includes "unit" parameter. This parameter must be omitted when the receiver is not a Build Target.' => '',
   'Variables' => 'Değişkenler',
+  'The buildable does not wait for the build.' => '',
   'Unknown Unit Message ("%s")' => 'Bilinmeyen Ünite Mesajı ("%s")',
   '%s: %s -> %s' => '%s: %s -> %s',
   'Search for builds of particular objects.' => 'Belirli nesnelerin yapılarını arayın.',
   'Show More Below' => 'Aşağıda Daha Fazla Göster',
+  'Search for targets created on or after a particular date.' => '',
   'Build Target ID to attach the log to.' => 'Günlüğü eklemek için Hedef Kimliği oluşturun.',
   'Restart Builds' => 'Yapıları Yeniden Başlat',
   'Additional human-readable information about the failure.' => 'Arıza hakkında insan tarafından okunabilen ek bilgiler.',
@@ -377,7 +707,9 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Write a new Harbormaster build log. This is primarily intended to make development and testing easier.' => 'Yeni bir Harbormaster derleme günlüğü yaz. Bu öncelikle geliştirme ve test etmeyi kolaylaştırmak için tasarlanmıştır.',
   'Update only this build.' => 'Yalnızca bu yapıyı güncelle.',
   'Pause Builds' => 'Yapıları Durdur',
+  'Search for targets created on or before a particular date.' => '',
   'Run build plans' => 'Yapı planlarını çalıştır',
+  'Use one of "--id" or "--active" to select builds, but not both.' => '',
   'Resume Builds' => 'Yapıları Devam Et',
   'RESTARTING' => 'YENİDEN BAŞLATILIYOR',
   'This build step has since been deleted on the build plan.  Some information may be omitted.' => 'Bu derleme adımı o zamandan beri derleme planında silindi. Bazı bilgiler atlanabilir.',
@@ -386,6 +718,7 @@ With `ui.external`, you can use this artifact type to add links to build results
   '**publish** __buildable__ ...' => '**yayımla** __buildable__ ...',
   'Syntax Error' => 'Sözdizim Hatası',
   'This dependency specifies a build step which doesn\'t exist.' => 'Bu bağımlılık, var olmayan bir inşa adımını belirtir.',
+  'All builds will restart.' => '',
   'Valid Input' => 'Geçerli Giriş',
   'This input is bound to an artifact ("%s") which does not exist at this stage in the build process.' => 'Bu giriş, derleme işleminde bu aşamada bulunmayan bir esere ("%s") bağlıdır.',
   'Unknown log chunk encoding ("%s")!' => 'Bilinmeyen günlük öbek kodlaması ("%s")!',
@@ -396,25 +729,92 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Make HTTP Request' => 'HTTP İsteği Yap',
   'Really pause build?' => 'Gerçekten yapı durdurulsun mu?',
   'If updating generates tasks, queue them for the daemons instead of executing them in this process.' => 'Güncelleme görevleri oluşturuyorsa, bu işlemde yürütmek yerine, bu görevliler için sıraya alın.',
+  'This build plan does not have any build steps yet, so it will not do anything when run.' => '',
   'Type another build step name...' => 'Başka bir derleme adı yazın.',
   'Buildable %d' => 'Yapılandırabilir %d',
+  '"arc land" warns if the build is still running, but ignores the build if it has failed.' => '',
   'Rename the plan.' => 'Planı yeniden adlandır.',
+  'Edit Harbormaster Build Step Configurations' => 'Edit Harbormaster Derleme Adımı Configurations',
+  'Users must be able to see a build target to see its artifacts.' => 'Users must be able to see a derleme hedefi to see its yapıts.',
   'Build Failed' => 'Yapı Başarısız Oldu',
+  'The buildable waits for the build, and fails if the build fails.' => '',
   'References a working copy lease from Drydock.' => 'Drydock\'tan çalışan bir kopyası.',
   'PHID of the build plan being run.' => 'Çalışan yapı planının PHID\'si.',
   'Build Log %d' => 'Yap Günlüğü %d',
   'Queued at %s' => '%s Sıraya Alındı',
   'Pipeline Name' => 'Boru Hattı Adı',
+  'You must have edit permission on this build plan to run it manually.' => '',
   'Data Hash' => 'Veri Karması',
   'Automatic Buildable' => 'Otomatik Yapılandırabilir',
   'Lines' => 'Çizgiler',
   'The specified buildable does not have a build with ID "%s".' => 'Belirtilen oluşturulabilir kod "%s" kimliğine sahip bir yapıya sahip değil.',
   'Find out information about builds.' => 'Yapılar hakkında bilgi edinin.',
+  'Edit Build Step' => 'Edit Derleme Adımı',
   'Edit Harbormaster Build Plan Configurations' => 'Harbormaster Yapı Planı Yapılandırmalarını Düzenle',
   'Buildkite request to target "%s" had the wrong authentication token. The Buildkite pipeline and Harbormaster build step must be configured with the same token.' => '"%s" hedefine yönelik Buildkite isteği, yanlış kimlik doğrulama belirtecine sahipti. Buildkite boru hattı ve Harbormaster yapı adımı aynı jetonla yapılandırılmalıdır.',
   'Throw Exception' => 'İstisna Atma',
   'Harbormaster Query Builds' => 'Harbormaster Sorgu Kuruyor',
+  'If you run external builds, you can use this method to publish build results
+back into Harbormaster after the external system finishes work (or as it makes
+progress).
+
+To report build status or results, you must send a message to the appropriate
+Build Target. This table summarizes which object types may receive build status
+and result messages:
+
+<table>
+  <tr>
+    <th>Object Type</th>
+    <th>PHID Example</th>
+    <th />
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Harbormaster Buildable</td>
+    <td>`PHID-HMBB-...`</td>
+    <td>{icon times color=red}</td>
+    <td>Buildables may **NOT** receive status or result messages.</td>
+  </tr>
+  <tr>
+    <td>Harbormaster Build</td>
+    <td>`PHID-HMBD-...`</td>
+    <td>{icon times color=red}</td>
+    <td>Builds may **NOT** receive status or result messages.</td>
+  </tr>
+  <tr>
+    <td>Harbormaster Build Target</td>
+    <td>`PHID-HMBT-...`</td>
+    <td>{icon check color=green}</td>
+    <td>Report build status and results to Build Targets.</td>
+  </tr>
+</table>
+
+The simplest way to use this method to report build results is to call it once
+after the build finishes with a `pass` or `fail` message. This will record the
+build result, and continue the next step in the build if the build was waiting
+for a result.
+
+When you send a status message about a build target, you can optionally include
+detailed `lint` or `unit` results alongside the message. See below for details.
+
+If you want to report intermediate results but a build hasn\'t completed yet,
+you can use the `work` message. This message doesn\'t have any direct effects,
+but allows you to send additional data to update the progress of the build
+target. The target will continue waiting for a completion message, but the UI
+will update to show the progress which has been made.
+
+When sending a message to a build target to report the status or results of
+a build, your message must include a `type` which describes the overall state
+of the build. For example, use `pass` to tell Harbormaster that a build target
+completed successfully.
+
+Supported message types are:
+
+%s
+' => '',
+  'The object PHID of the Harbormaster Buildable being built.' => '',
   'HTTP Method' => 'HTTP Yöntemi',
+  'Restart the build, discarding all progress.' => '',
   'Epoch timestamp for target start, if the target has started.' => 'Hedef başlatılmışsa, hedef başlangıcı için e-posta zaman damgası.',
   'Build a working copy in Drydock.' => 'Drydock\'da çalışan bir kopya oluşturun.',
   'Harbormaster Build Plans' => 'Harbormaster Yapı Planları',
@@ -427,25 +827,51 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Make an HTTP request.' => 'Bir HTTP isteği yapın.',
   'Drydock Host' => 'Drydock Sahibi',
   'Consumed' => 'Harcanan',
+  'When users create revisions in Differential, the default behavior is to hold them in the "Draft" state until all builds pass. Once builds pass, the revisions promote and are sent for review, which notifies reviewers.
+
+The general intent of this workflow is to make sure reviewers are only spending time on review once changes survive automated tests. If a change does not pass tests, it usually is not really ready for review.
+
+If you want to promote revisions out of "Draft" before builds pass, or promote revisions even when builds fail, you can change the promotion behavior. This may be useful if you have very long-running builds, or some builds which are not very important.
+
+Users may always use "Request Review" to promote a "Draft" revision, even if builds have failed or are still in progress.' => '',
   'Browse Build Initiators' => 'Yapı Başlatıcılarına Göz Atın',
   'Run Plan Manually' => 'Planı Manüel Olarak Çalıştır',
+  'The PHID of the build plan this build step belongs to.' => '',
   'Unexpected Error' => 'Beklenmeyen Hata',
   'Add Step' => 'Adım Ekle',
+  'When run against a revision, this build step will abort any older copies of
+the same build plan which are currently running against older diffs.
+
+There are some nuances to the behavior:
+
+  - if this build step is triggered manually, it won\'t abort anything;
+  - this build step won\'t abort manual builds;
+  - this build step won\'t abort anything if the diff it is building isn\'t
+    the active diff when it runs.
+
+Build results on outdated diffs often aren\'t very important, so this may
+reduce build queue load without any substantial cost.' => '',
+  'The object PHID of the container (usually a revision or repository) for the object being built.' => '',
   'Only Restartable if Failed' => 'Başarısız olduğunda Sadece Tekrar Başlatılabiliyorsa',
   'Processing Harbormaster build log #%d...' => 'Harbormaster işlem günlüğü #%d oluşturuyor...',
   'Targets' => 'Hedefler',
   'No such implementation "%s" exists!' => 'Böyle bir uygulama "%s" mevcut değil!',
+  'You can not send this command to any of the current builds for this buildable.' => '',
   'Build Step %d: %s' => 'Adım Oluştur %d: %s',
   'Started %s build(s): %s.' => '%s yapı oluşturuldu: %s.',
+  'Message type "%s" is not supported.' => '',
   '%s paused this buildable.' => '%s bu yapılandırabiliri durdurdu.',
   'Create an artifact of this type by passing `%s` as the `artifactType`. When creating an artifact of this type, provide these parameters as a dictionary to `artifactData`:' => '`%s` `artifactType` olarak geçirerek bu türde bir yapı oluşturun. Bu türden bir eser yaratırken, bu parametreleri `artifactData` için bir sözlük olarak sağlayın:',
   'Choose an archival mode with --mode.' => '--mode ile bir arşiv modu seçin.',
   'Build with CircleCI' => 'CircleCI ile Oluştur',
+  'You can only pause some builds. Once the current steps complete, work will halt on builds you can pause. You can resume the builds later.' => '',
   'Can Not Run Plan' => 'Plan Çalıştırılamıyor',
   'Users must be able to see a build to view its build targets.' => 'Kullanıcılar, yapı hedeflerini görebilmek için bir yapı görebilmelidir.',
   'Build Variables' => 'Değişkenler Oluştur',
   'The PHID of the current build target.' => 'Geçerli derleme hedefinin PHID\'si.',
   'Write completed. Closing log...' => 'Yazma tamamlandı. Günlüğü kapatılıyor...',
+  'No recent builds.' => '',
+  'This engine is used to edit Harbormaster buildables.' => '',
   'You are viewing an older run of this build. %s' => 'Bu yapının eski bir çalışmasını görüntülüyorsunuz. %s',
   'You must choose a revision or commit to build.' => 'Bir revizyon seçmeli veya inşa etmeyi taahhüt etmelisiniz.',
   'No build step provides autotarget "%s"!' => 'Hiçbir oluşturma adımı otomatik hedef "%s" sağlamıyor!',
@@ -454,7 +880,26 @@ With `ui.external`, you can use this artifact type to add links to build results
   'No details provided.' => 'Ayrıntı belirtilmedi.',
   'Other Build Steps' => 'Diğer Yap Adımları',
   '%s Unsound Test(s)' => '%s Yapı Testi',
+  'You can not resume this build because it is not paused. You can only resume a paused build.' => '',
   'Log data hashes differ! Something is tragically wrong!' => 'Günlük veri karmaları farklı! Bir şey trajik olarak yanlış!',
+  'Build will abort.' => '',
+  'Like unit test results, you can report lint results when updating the state
+of a build target. The `lint` parameter should contain results as a list of
+dictionaries with these keys:
+
+%s
+
+The `severity` parameter recognizes these severity levels:
+
+%s
+
+This is a simple, valid value for the `lint` parameter. It reports one error
+and one warning:
+
+```lang=json
+%s
+```
+' => '',
   'Step' => 'Adım',
   'Run command %s on %s.' => '%s\'deki %s komutunu çalıştırın.',
   'Show Only Manual Builds' => 'Yalnızca Manüel ile Yapılanları Göster',
@@ -478,6 +923,7 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Enter the name of a revision or commit.' => 'Bir revizyon veya taahhütname girin.',
   'Option' => 'Seçenek',
   'Arcanist Lint Results' => 'Arcanist Lint Sonuçları',
+  'You can not pause this build because it is already restarting.' => '',
   'Continue Build Normally' => 'Normal Oluşturmaya Devam Et',
   'Drydock working copy lease to create an artifact from.' => 'Drydock çalışan kopya bir eserden oluşturmak için kira kiralama.',
   'Autoplan' => 'Otomatik Plan',
@@ -485,9 +931,12 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Test engine running the test, like "JavascriptTestEngine". This primarily prevents collisions between tests with the same name in different test suites (for example, a Javascript test and a Python test).' => '"JavascriptTestEngine" gibi, testi çalıştıran test motoru. Bu, öncelikle farklı test takımlarında aynı isimdeki testler arasındaki çarpışmaları önler (örneğin, bir JavaScript testi ve bir Python testi).',
   'Container' => 'Konteyner',
   'Choose a build log to rebuild with "--id", or rebuild all logs with "--all".' => '"--id" ile yeniden oluşturmak için bir derleme günlüğü seçin veya "--all" ile tüm günlükleri yeniden oluşturun.',
+  'Depends On' => 'Buna Bağlı',
+  'Build will resume.' => '',
   'Run build plans: %s.' => 'Oluşturma planlarını çalıştırın: %s.',
   'Declining to make service call because `phabricator.silent` is enabled in configuration.' => 'Yapılandırmada `phabricator.silent` etkin olduğundan servis çağrısı yapmayı reddetme.',
   'Build Logs' => 'Günlükleri Oluştur',
+  'The buildable waits for the build, but does not fail if the build fails.' => '',
   'The person (or thing) that started this build.' => 'Bu yapıyı başlatan kişi (veya şey).',
   'View Build' => 'Yapıyı Görüntüle',
   '(%d - %d)' => '(%d - %d)',
@@ -496,9 +945,19 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Stored Bytes' => 'Depolanan Bayt',
   'Work will continue on the build. Really resume?' => 'İş yapı devam edecek. Gerçekten devam mı?',
   'Log to rebuild.' => 'Yeniden oluşturmak için giriş yapın.',
+  'When a user attempts to `arc land` a revision and that revision has ongoing or failed builds, the default behavior of `arc` is to warn them about those builds and give them a chance to reconsider: they may want to wait for ongoing builds to complete, or fix failed builds before landing the change.
+
+If you do not want to warn users about this build, you can change the warning behavior. This may be useful if the build takes a long time to run (so you do not expect users to wait for it) or the outcome is not important.
+
+This warning is only advisory. Users may always elect to ignore this warning and continue, even if builds have failed.
+
+This setting also affects the warning that is published to revisions when commits land with ongoing or failed builds.' => '',
   'Edit Behavior: %s' => 'Davranışı Düzenle: %s',
   'Result of the test.' => 'Testin sonucu.',
+  'Use "--id" or "--active" to select builds.' => '',
   'Unable to load build log "%s".' => '"%s" yapı günlüğü yüklenemiyor.',
+  'Upload a file.' => '',
+  'Build Plan Prevents Restart' => '',
   'Unable to load API token ("%s")!' => 'API kodu yüklenemedi ("%s")!',
   'Find out information about build logs.' => 'Yapı günlükleri hakkında bilgi edinin.',
   '%s Passed Test(s)' => '%s Testi Geçti',
@@ -507,11 +966,14 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Build %d' => 'Yapı %d',
   'Harbormaster build target "%s" does not exist.' => 'Harbormaster yapı hedefi "%s" mevcut değil.',
   'If you pause all builds, work will halt once the current steps complete. You can resume the builds later.' => 'Tüm yapıları duraklatırsanız, mevcut adımlar tamamlandıktan sonra iş durur. Yapıları daha sonra devam ettirebilirsiniz.',
+  'Call specifies both "receiver" and "buildTargetPHID". When using the modern "receiver" parameter, omit the deprecated "buildTargetPHID" parameter.' => '',
   'Host Artifact' => 'Konak Eseri',
   'No Unit Tests' => 'Ünite Testi Yok',
   'All Targets' => 'Tüm Hedefler',
   'Throw an exception.' => 'Bir istisna at.',
   'Query Harbormaster builds.' => 'Sorgu Harbormaster oluşturur.',
+  'Builds for this buildable:' => '',
+  'The artifact type.' => 'The yapıt type.',
   'Search for logs that belong to a particular build target.' => 'Belirli bir yapı hedefine ait günlükleri arayın.',
   'Type the name of a user, application or Herald rule...' => 'Bir kullanıcının, uygulamanın veya Herald kuralının adını yazın...',
   'This build plan does not have any build steps yet.' => 'Bu derleme planında henüz derleme adımı yoktur.',
@@ -519,25 +981,34 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Really resume build?' => 'Gerçekten yapı devam edilsin mi?',
   'Build generation this target belongs to. When builds restart, a new generation with new targets is created.' => 'Bu hedefin ait olduğu nesil oluştur. Derlemeler yeniden başlatıldığında, yeni hedeflere sahip yeni bir nesil oluşturulur.',
   'External Link' => 'Dış Bağlantı',
+  'You can not pause this build because it has already completed.' => '',
   'Unknown build step field "%s"!' => 'Bilinmeyen derleme adımı alanı "%s"!',
   'URI "%s" does not have an allowable protocol. Configure protocols in `%s`. Allowed protocols are: %s.' => '"%s" URI\'sinin izin verilen bir protokolü yok. Protokolleri \'%s\' olarak yapılandırın. İzin verilen protokoller: %s.',
   'Wait for Previous Commits to Build' => 'Önceki Komisyonların Oluşturulmasını Bekleyin',
   'Disable Plan' => 'Planı Devre Dışı Bırak',
   'Enable this build plan?' => 'Bu yapı planı etkinleştirilsin mi?',
   'Drydock Working Copy' => 'Drydock Çalışma Kopyası',
+  'This buildable has no builds, so you can not issue any commands.' => '',
   'Show More (%s Bytes)' => 'Daha Fazla Göster (%s Bayt)',
+  'The overall state of a buildable (like a commit or revision) is normally the aggregation of the individual states of all builds that have run against it.
+
+Buildables are "building" until all builds pass (which changes them to "pass"), or any build fails (which changes them to "fail").
+
+You can change this behavior if you do not want to wait for this build, or do not care if it fails.' => '',
+  'The build may be restarted if it has failed.' => 'build be rebaşlatıldı if it başarısız.',
   'A build inherits policies from its buildable.' => 'Bir yapı, oluşturulabilir politikalardan miras alır.',
+  'You can not abort this build because it is already aborting.' => '',
   'Arcanist Unit Results' => 'Eserli Birim Sonuçları',
   'This build is already restarting. You can not reissue a restart command to a restarting build.' => 'Bu yapı zaten yeniden başlatılıyor. Bir yeniden başlatma komutunu yeniden başlatma yapısına yeniden gönderemezsiniz.',
   'The following variables can be used in most fields. To reference a variable, use `%s` in a field.' => 'Aşağıdaki değişkenler çoğu alanda kullanılabilir. Bir değişkeni referans almak için bir alanda `%s` kullanın.',
   'This engine is used to edit Harbormaster build plans.' => 'Bu motor Harbormaster inşa planlarını düzenlemek için kullanılır.',
   'This function definition is not a haiku.' => 'Bu fonksiyon tanımı bir haiku değil.',
+  'You can not resume this build because it is already resuming.' => '',
   '(null)' => '(boş)',
   'Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. Really restart build?' => 'Bu derlemedeki ilerleme atılacak ve derleme yeniden başlayacaktır. Yapının yan etkileri tekrar ortaya çıkacaktır. Gerçekten yapıyı yeniden başlatılsın mı?',
   'Search for builds by buildable status.' => 'Yapılabilir duruma göre yapıları arayın.',
   'Abort Builds' => 'Yapıları İptal Et',
   'Upload From Host' => 'Ana Bilgisayardan Yükle',
-  'The build step the target runs.' => 'Hedefin oluşturduğu yapı adımı.',
 );
   }
 

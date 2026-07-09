@@ -88,7 +88,6 @@ final class PhabricatorProjectPtBR
   'Subprojects' => 'Subprojetos',
   '%s added %s project(s) to %s: %s.' => '%s adicionou %s projeto(s) para  %s: %s.',
   'Select projects current viewer is a member of.' => 'Selecionar projetos visualizador atual é um membro de.',
-  'Added Projects' => 'Projetos adicionados',
   '%s added %s project(s): %s.' => '%s adicionou %s projeto(s): %s.',
   'Milestones can be created for this project.' => 'Marcos podem ser criados para este projeto.',
   'Organization' => 'Organização',
@@ -105,7 +104,6 @@ final class PhabricatorProjectPtBR
   'Type a project name...' => 'Digite um nome de projeto...',
   '%s added %d project member(s): %s.' => '%s adicionou %d membro(s) do projeto: %s.',
   'You are watching this project and will receive mail about changes made to any related object.' => 'Você está assistindo a este projeto e receberá e-mails sobre alterações feitas em qualquer objeto relacionado.',
-  'Add related projects.' => 'Adicionar projetos relacionados.',
   'Remove projects' => 'Remover projetos',
   'Gradients' => 'Gradientes',
   'You can not import columns into this workboard because it already has columns. You can only import into an empty workboard.' => 'Você não pode importar colunas para esta tabela de trabalho porque ela já possui colunas. Você só pode importar para uma placa de trabalho vazia.',
@@ -115,6 +113,11 @@ final class PhabricatorProjectPtBR
   'Solid Colors' => 'Cores sólidas',
   'Watching' => 'Vigiado',
   'This project has no milestones.' => 'Este projeto não tem marcos.',
+  'Associate one or more projects to the object by listing their hashtags. Separate project tags with spaces. For example, use `!projects #ios #feature` to add both related projects.
+
+Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any project tags.' => 'Adicionar um ou mais projetos ao objeto, listando suas hashtags. Separe projetos com espaços. Por exemplo, use `!projects #ios #feature`  para adicionar os dois projetos relacionados.
+
+Projetos inválidos ou não reconhecidos serão ignorados. Este comando não tem efeito se você não especificar nenhum projeto.',
   'Add members.' => 'Adicionar membros.',
   'Users with access may join and leave this project.' => 'Usuários com acesso podem entrar e sair deste projeto.',
   'Subprojects can be created for this project.' => 'Subprojetos podem ser criados para este projeto.',
@@ -122,11 +125,6 @@ final class PhabricatorProjectPtBR
   'Browse Projects' => 'Procurar projetos',
   '%s created this project.' => '%s criou este projeto.',
   'Subtype of the project.' => 'Subtipo do projeto.',
-  'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
-
-Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Adicionar um ou mais projetos ao objeto, listando suas hashtags. Separe projetos com espaços. Por exemplo, use `!projects #ios #feature`  para adicionar os dois projetos relacionados.
-
-Projetos inválidos ou não reconhecidos serão ignorados. Este comando não tem efeito se você não especificar nenhum projeto.',
   'Join Project' => 'Junte-se ao projeto',
   'Ripe Peach' => 'Pêssego maduro',
   'You can not import columns from that workboard because it has no importable columns.' => 'Você não pode importar colunas dessa placa de trabalho porque não possui colunas importáveis.',
@@ -157,7 +155,6 @@ Projetos inválidos ou não reconhecidos serão ignorados. Este comando não tem
   'Add projects: %s.' => 'Adicionar projetos: %s.',
   'Remove %s as a project member of %s?' => 'Remover %s como membro do projeto de %s?',
   'Members and Watchers' => 'Membros e observadores',
-  'Removed Projects' => 'Projetos removidos',
   '%s Subprojects' => 'Subprojetos de %s',
   'Disable Mail' => 'Desabilitar e-mail',
   '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s editou %s projeto(s), adicionou %s: %s; removido %s: %s.',

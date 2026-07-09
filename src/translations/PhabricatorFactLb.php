@@ -11,7 +11,7 @@ final class PhabricatorFactLb
     return array(
   'View Data' => 'Donnéeë weisen',
   'Dimension' => 'Dimensioun',
-  '%sms' => '%sms',
+  '%sms' => '%s ms',
   '%s (Transactions)' => '%s (Transaktiounen)',
   'Not Generated' => 'Net generéiert',
 );

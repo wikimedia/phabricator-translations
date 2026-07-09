@@ -20,6 +20,7 @@ final class PhabricatorAuthEl
   'Specify an OAuth client id with "--id".' => 'Προσδιορίστε ένα αναγνωριστικό πελάτη OAuth με "--id".',
   'Google' => 'Google',
   'No Providers Configured:' => 'Δεν ρυθμίστηκαν πάροχοι:',
+  'Edit Provider' => 'Πάροχος επεξεργασίας',
   'Auth' => 'Auth',
   'Asana' => 'Asana',
   'Disqus' => 'Disqus',

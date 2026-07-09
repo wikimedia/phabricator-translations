@@ -329,6 +329,7 @@ Voici un exemple de valeur simple et valide pour le paramètre « unit » (uni
   'This target has no associated artifacts.' => 'Cette cible n’a aucun artéfact associé.',
   'Choose Build Statuses' => 'Choisir les états de construction',
   'Search for targets started on or before a particular date.' => 'Recherche de cibles commencées à une date donnée ou avant.',
+  'The build step the target runs.' => 'L’étape de construction exécutée par la cible.',
   'New Step: %s' => 'Nouvelle étape : %s',
   'This build plan will deadlock when executed, due to circular dependencies present in the build plan. Examine the step list and resolve the deadlock.' => 'Ce plan de construction se bloquera en impasse lors de son exécution, en raison des dépendances circulaires présentes dans le plan de construction. Examinez la liste des étapes et résolvez cette impasse.',
   'This older log is missing required rendering data. To rebuild rendering data, run: %s' => 'Ce journal plus ancien n’a pas les données de rendu nécessaires. Pour reconstruire les données de rendu, exécutez : %s',
@@ -1306,7 +1307,6 @@ Vous pouvez changer ce comportement si vous ne voulez pas attendre cette constru
   'Search for builds by buildable status.' => 'Recherche des constructions par état du constructible.',
   'Abort Builds' => 'Abandonner les constructions',
   'Upload From Host' => 'Téléverser depuis un hôte',
-  'The build step the target runs.' => 'L’étape de construction exécutée par la cible.',
 );
   }
 

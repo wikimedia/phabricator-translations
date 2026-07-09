@@ -61,7 +61,6 @@ final class PhabricatorCalendarSrEC
   'Hosts' => 'Домаћини',
   'Create Event' => 'Направи догађај',
   'Busy' => 'Заузет',
-  'Events must have a name.' => 'Догађаји морају имати назив.',
   'Party' => 'Журка',
   'All Day Event' => 'Целодневни догађај',
   '%s - %s, All Day' => '%s - %s, целог дана',

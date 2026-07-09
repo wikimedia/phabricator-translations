@@ -10,9 +10,7 @@ final class TranslatewikiCorePtBR
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Forneça o caminho para uma biblioteca para exportar traduções de.',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Não foi possível extrair a string com o padrão "%%" não reconhecido, "%s": %s.',
   'NONE' => 'NENHUM',
-  'Provide a locale code with "--locale".' => 'Forneça um código de localidade com "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorando a string "%s"; não está presente no arquivo de origem da tradução.',
   'Provide the path to exactly one library to export translations from.' => 'Forneça o caminho para exatamente uma biblioteca para exportar as traduções.',
   'Provide a project name to export strings under with "--as".' => 'Forneça um nome de projeto para exportar sequências de caracteres com "--as".',
@@ -24,7 +22,6 @@ final class TranslatewikiCorePtBR
   'Provide a classname with "--class".' => 'Forneça um nome de classe com "--class".',
   'Read %s string(s).' => 'Lê %s texto(s).',
   'Class name to generate.' => 'Nome da classe para gerar.',
-  'Frequency Data' => 'Dados de frequência',
   'Provide a JSON source file with "--source".' => 'Forneça um arquivo de origem JSON com "--source".',
   'Generate a Phabricator translation classfile.' => 'Gere um classfile de tradução do Phabricator.',
   'JSON source file containing translation strings.' => 'Arquivo de origem JSON contendo cadeias de caracteres de tradução.',

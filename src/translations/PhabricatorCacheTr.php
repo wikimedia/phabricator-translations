@@ -12,6 +12,7 @@ final class PhabricatorCacheTr
   '%s is not available; unable to read deflated data!' => '%s mevcut değil; sönük veriler okunamıyor!',
   'APCu' => 'APCu',
   'Select caches to purge with "--all" or "--caches". Available caches are: %s.' => '"--all" veya "--caches" ile temizlemek için önbellekleri seçin. Kullanılabilir önbellekler: %s.',
+  'APCu Disabled' => 'APCu Devre Dışı Bırakıldı',
   'The APCu PHP extension is installed, but not enabled in your PHP configuration. Enabling this extension will improve performance. Edit the "%s" setting to enable this extension.' => 'APCu PHP uzantısı yüklü, ancak PHP yapılandırmanızda etkin değil. Bu uzantıyı etkinleştirmek performansı artıracaktır. Bu uzantıyı etkinleştirmek için "%s" ayarını düzenleyin.',
   'OPcache is not configured properly for development.' => 'OPcache geliştirme için düzgün yapılandırılmamış.',
   'General Cache (TTL)' => 'Genel Önbellek (TTL)',
@@ -47,7 +48,6 @@ final class PhabricatorCacheTr
   'Zend OPcache' => 'Zend OPcache',
   'Enabling OPcache will dramatically improve performance.' => 'OPcache\'nin etkinleştirilmesi performansı önemli ölçüde artıracaktır.',
   'Enabling APCu will improve performance.' => 'APCu\'nun etkinleştirilmesi performansı artıracaktır.',
-  'APCu Disabled' => 'APCu Devre Dışı Bırakıldı',
 );
   }
 

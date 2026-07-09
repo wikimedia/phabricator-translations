@@ -21,8 +21,9 @@ final class PhabricatorConfigLb
   'Automatic' => 'Automatesch',
   'Simple Example' => 'Einfacht Beispill',
   'Advanced Settings' => 'Erweidert Astellungen',
+  '%s Active' => '%s Aktiv',
   'User Interface' => 'Benotzeruewerfläch',
-  'Option "%s" is dangerously long for a database prefix in MySQL/MariaDB. The current value is %d characters long. It should be less than %d to be safe for future changes.' => 'D\'Optioun „%s“ ass geféierlech laang fir en Datebankprefix a MySQL/MariaDB. Den aktuelle Wäert huet eng Längt vun %d Zeechen. Se sollt manner wéi %d si fir virun zukünftegen Ännerunge sécher ze sinn.',
+  'Option "%s" is dangerously long for a database prefix in MySQL/MariaDB. The current value is %d characters long. It should be less than %d to be safe for future changes.' => 'D\'Optioun „%s“ ass geféierlech laang fir en Datebankprefix a MySQL/MariaDB. Den aktuelle Wäert huet eng Längt vun %d Zeechen. Se sollt manner wéi %d sinn, fir virun zukünftegen Ännerunge sécher ze sinn.',
 );
   }
 

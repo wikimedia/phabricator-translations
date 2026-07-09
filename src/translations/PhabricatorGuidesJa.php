@@ -27,12 +27,12 @@ final class PhabricatorGuidesJa
   'Your invitations have been accepted. You will not be alone on this journey.' => 'あなたの招待状は受理されました。この旅は一人ではないのです。',
   'You\'ve configured at least one authentication provider.' => '少なくとも1つの認証プロバイダを設定したことになります。',
   'Short Tutorials' => '短いチュートリアル',
-  'If you\'re new to this software, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.' => 'このソフトウェアを初めて使う方は、このオプションの手順で、基本を学ぶことができます。自分の作業に最適な方法で自由に設定し、自分のペースでこれらの機能を探索してみてください。',
   'You\'ve created at least one repository.' => '少なくとも1つのリポジトリを作成しました。',
   'Guides' => 'ガイド',
   'Learn how to configure mail and other options.' => 'メールやその他のオプションの設定方法について説明します。',
   'Invite the rest of your team to get started.' => 'チームの他のメンバーを招待して始めましょう。',
   'User Account Settings' => 'ユーザーアカウント設定',
+  'If you\'re new to %s, these optional steps can help you learn the basics. Feel free to set things up for how you work best and explore these features at your own pace.' => '%sを初めて使う方は、このオプションの手順で、基本を学ぶことができます。自分の作業に最適な方法で自由に設定し、自分のペースでこれらの機能を探索してみてください。',
   'You\'ve adjusted at least one setting on your account.' => 'アカウントで少なくとも1つの設定を調整しました。',
   'Real-time notifications can be delivered with WebSockets.' => 'WebSocketを使ってリアルタイム通知を配信できます。',
   'Personalize your Install' => 'インストールをパーソナライズする',
@@ -44,6 +44,7 @@ final class PhabricatorGuidesJa
   'Resolve Setup Issues' => 'セットアップの問題を解決する',
   'Authentication providers allow users to register accounts and log in.' => '認証プロバイダーにより、ユーザーがアカウントを登録し、ログインできるようになります。',
   'You\'ve resolved (or ignored) all outstanding setup issues.' => 'セットアップに関する未解決の問題をすべて解決した（または無視した）場合。',
+  'Install' => 'インストール',
 );
   }
 

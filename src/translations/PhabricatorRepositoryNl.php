@@ -10,6 +10,10 @@ final class PhabricatorRepositoryNl
   protected function getTranslations() {
     return array(
   'Repository "%s" is a non-hosted Subversion repository, which does not require a local working copy to be pulled.' => 'Repository "%s" is een niet-gehost Subversion-repository, waarvoor geen lokale werkkopie opgehaald hoeft te worden.',
+  'Importing %s commits at low priority ("PRIORITY_IMPORT") because many commits were discovered at once.' => array(
+    '%s commit wordt geïmporteerd met lage prioriteit ("PRIORITY_IMPORT") omdat veel commits tegelijk zijn ontdekt.',
+    '%s commits worden geïmporteerd met lage prioriteit ("PRIORITY_IMPORT") omdat veel commits tegelijk zijn ontdekt.',
+  ),
   'No importing commits found.' => 'Geen importerende commits gevonden.',
   'The selected repository short name is already in use by another repository. Choose a unique short name.' => 'De geselecteerde korte naam voor het repository is al in gebruik door een ander repository. Kies een unieke korte naam.',
   'Waiting to acquire write lock for "%s"...' => 'Wachten op schrijfvergrendeling voor "%s"...',
@@ -20,7 +24,10 @@ final class PhabricatorRepositoryNl
   'Unable to read device public key while attempting to make authenticated method call within the cluster. Use `%s` to register keys for this device. Exception: %s' => 'Kan de openbare sleutel van het apparaat niet lezen bij het uitvoeren van een geauthenticeerde methodeaanroep binnen het cluster. Gebruik `%s` om sleutels voor dit apparaat te registreren. Uitzondering: %s',
   'Assigned user updated from "%s" to "%s".' => 'Toegewezen gebruiker bijgewerkt van "%s" naar "%s".',
   'Information about builtin URIs.' => 'Informatie over ingebouwde URI\'s.',
-  'Examined %s commits already in the correct state.' => '%s commits onderzocht die al in de juiste status zijn.',
+  'Examined %s commits already in the correct state.' => array(
+    '%s commit onderzocht die al in de juiste status zijn.',
+    '%s commits onderzocht die al in de juiste status zijn.',
+  ),
   'Unknown VCS \'%s\'!' => 'Onbekend VCS \'%s\'!',
   'Detected user updated from "%s" to "%s".' => 'Gedetecteerde gebruiker bijgewerkt van "%s" naar "%s".',
   'Reparse commit messages.' => 'Commitberichten opnieuw verwerken.',
@@ -69,7 +76,10 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'These repositories will be thawed:' => 'Deze repository\'s worden ontdooid:',
   'Database records for repository "%s" were destroyed, but this script does not remove working copies on disk. If you also want to destroy the repository working copy, manually remove "%s".' => 'Databaserecords voor repository "%s" zijn vernietigd, maar dit script verwijdert geen werkkopieën op schijf. Als u ook de werkkopie van het repository wilt vernietigen, verwijder dan handmatig "%s".',
   'Specify either --promote or --demote, but not both.' => 'Geef --promote of --demote op, maar niet beide.',
-  'Found %s surplus local ref(s) to delete.' => '%s overtollige lokale ref(s) gevonden om te verwijderen.',
+  'Found %s surplus local ref(s) to delete.' => array(
+    '%s overtollige lokale ref gevonden om te verwijderen.',
+    '%s overtollige lokale refs gevonden om te verwijderen.',
+  ),
   'Another process is currently updating repository "%s", skipping pull.' => 'Een ander proces werkt momenteel repository "%s" bij, pull wordt overgeslagen.',
   'Rebuilding identities for user "%s".' => 'Identiteiten opnieuw opbouwen voor gebruiker "%s".',
   'This repository ("%s") is not writable with the given protocols (%s). The Almanac service for this repository has no writable bindings that support these protocols.' => 'Dit repository ("%s") is niet beschrijfbaar met de opgegeven protocollen (%s). De Almanac-service voor dit repository heeft geen beschrijfbare bindingen die deze protocollen ondersteunen.',
@@ -87,7 +97,7 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'Repository "%s" does not exist!' => 'Repository "%s" bestaat niet!',
   'Found no identities directly related to user.' => 'Geen identiteiten gevonden die direct gerelateerd zijn aan de gebruiker.',
   'The Almanac service for this repository is invalid or could not be loaded.' => 'De Almanac-service voor dit repository is onjuist of kon niet worden geladen.',
-  'bookmark:' => 'bookmark:',
+  'bookmark:' => 'bladwijzer:',
   'Rebuilding identity "%s".' => 'Identiteit "%s" wordt opnieuw opgebouwd.',
   '%s changed the credential for this URI from %s to %s.' => '%s heeft de aanmeldgegevens voor deze URI gewijzigd van %s naar %s.',
   'REBUILD' => 'OPNIEUW OPBOUWEN',
@@ -123,7 +133,7 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'Expected to find a Git repository at "%s", but there is an empty directory there. Remove the directory. A daemon will construct the working copy for you.' => 'Verwachtte een Git-repository te vinden op "%s", maar er is een lege map. Verwijder de map. Een daemon zal de werkkopie voor u aanmaken.',
   'This method is frozen and will eventually be deprecated. New code should use "diffusion.repository.search" instead.' => 'Deze methode is bevroren en zal uiteindelijk worden afgeschaft. Nieuwe code moet in plaats daarvan "diffusion.repository.search" gebruiken.',
   'Result Name' => 'Resultaatnaam',
-  'bookmark' => 'bookmark',
+  'bookmark' => 'bladwijzer',
   'Permanently unpublish "%s"?' => '"%s" permanent depubliceren?',
   'Unable to promote "%s" for repository "%s" because this cluster already has one or more unambiguous leaders: %s.' => 'Kan "%s" niet promoveren voor repository "%s" omdat dit cluster al een of meer ondubbelzinnige leiders heeft: %s.',
   'Reparse all steps which have not yet completed.' => 'Alle stappen die nog niet zijn voltooid opnieuw verwerken.',
@@ -146,7 +156,10 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'Starting update for repository "%s".' => 'Update wordt gestart voor repository "%s".',
   '%s set the repository "Import Only" path to %s.' => '%s heeft het "Alleen importeren"-pad van het repository ingesteld op %s.',
   'This commit is marked as unreadable, so changes will not be parsed.' => 'Deze commit is gemarkeerd als onleesbaar, dus wijzigingen worden niet verwerkt.',
-  'Found %s total commit(s); updating...' => '%s commit(s) gevonden in totaal; wordt bijgewerkt...',
+  'Found %s total commit(s); updating...' => array(
+    '%s commit gevonden in totaal; wordt bijgewerkt...',
+    '%s commits gevonden in totaal; wordt bijgewerkt...',
+  ),
   'Discovering commits in repository "%s".' => 'Commits worden ontdekt in repository "%s".',
   '<Response body omitted from Mercurial error message.>' => '<Antwoordinhoud weggelaten uit Mercurial-foutmelding.>',
   'Push __repository__ to mirrors.' => 'Push __repository__ naar mirrors.',
@@ -159,7 +172,10 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'No Commits' => 'Geen commits',
   'Commits inherit the policies of the repository they belong to.' => 'Commits nemen het beleid over van het repository waartoe ze behoren.',
   'Fetch rule (at index "%s") is empty. Fetch rules must contain text.' => 'Fetch-regel (op index "%s") is leeg. Fetch-regels moeten tekst bevatten.',
-  'Found %s feed storie(s).' => '%s feedverhaal(-verhalen) gevonden.',
+  'Found %s feed storie(s).' => array(
+    '%s feedverhaal gevonden.',
+    '%s feedverhalen gevonden.',
+  ),
   'The name "%s" is not a valid repository short name. Repository short names must not be longer than 64 characters.' => 'De naam "%s" is correcte korte naam voor een repository. Korte namen voor repository\'s mogen niet langer zijn dan 64 tekens.',
   'Skipping fetch because local and remote refs are already identical.' => 'Fetch overgeslagen omdat lokale en externe refs al identiek zijn.',
   'Specify a list of repositories or "--all-repositories", but not both.' => 'Geef een lijst van repository\'s of "--all-repositories" op, maar niet beide.',
@@ -173,7 +189,10 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'Rebuild identities across all repositories.' => 'Identiteiten opnieuw opbouwen in alle repository\'s.',
   '%s ♻ %s' => '%s ♻ %s',
   'Expected a list of hints in JSON format: %s' => 'Verwachtte een lijst van hints in JSON-formaat: %s',
-  'Not enough process slots to schedule the other %s repository(s) for updates yet.' => 'Nog niet genoeg processlots om de andere %s repository(\'s) in te plannen voor updates.',
+  'Not enough process slots to schedule the other %s repository(s) for updates yet.' => array(
+    'Nog niet genoeg processlots om de andere %s repository in te plannen voor updates.',
+    'Nog niet genoeg processlots om de andere %s repository\'s in te plannen voor updates.',
+  ),
   '%s disabled protection against dangerous changes.' => '%s heeft de bescherming tegen gevaarlijke wijzigingen uitgeschakeld.',
   'NO IDENTITIES' => 'GEEN IDENTITEITEN',
   'The default location in which to store working copies and other data about repositories. %s will control and manage data here, so you should **not** choose an existing directory full of data you care about.' => 'De standaardlocatie voor het opslaan van werkkopieën en andere gegevens over repository\'s. %s beheert de gegevens hier, dus u moet **geen** bestaande map kiezen die vol staat met gegevens die u belangrijk vindt.',
@@ -183,8 +202,10 @@ repository reparse --all TEST --change --min-date "03/31/2013"',
   'Specify one or more repositories to mark imported.' => 'Geef een of meer repository\'s op om als geïmporteerd te markeren.',
   'Query took %s ms.' => 'Query duurde %s ms.',
   'Will unpublish %s commits.
-' => '%s commits worden gedepubliceerd.
-\\',
+' => array(
+    '%s commit worden gedepubliceerd.',
+    '%s commits worden gedepubliceerd.',
+  ),
   'Specify exactly one repository to update.' => 'Geef precies één repository op om bij te werken.',
   'Short Names' => 'Korte namen',
   'Matching function "%s(...)" is not recognized. Valid functions are: regexp(...).' => 'Overeenkomstfunctie "%s(...)" wordt niet herkend. Geldige functies zijn: regexp(...).',
@@ -227,7 +248,13 @@ Opgegeven waarde: \'%s\'
   '%s changed the "Import Only" path from %s to %s.' => '%s heeft het "Alleen importeren"-pad gewijzigd van %s naar %s.',
   '%s changed tracked branches from %s to %s.' => '%s heeft de gevolgde branches gewijzigd van %s naar %s.',
   'Specify a path to look up with `%s`.' => 'Geef een pad op om op te zoeken met `%s`.',
-  'Patch generation took longer than configured limit ("%s") of %s second(s).' => 'Patchgeneratie duurde langer dan de geconfigureerde limiet ("%s") van %s seconde(n).',
+  'Patch generation took longer than configured limit ("%s") of %s second(s).' => array(
+    
+    array(
+      'Het aanmaken van de patch duurde langer dan de ingestelde limiet (“%s”) van %s seconde.',
+      'Het aanmaken van de patch duurde langer dan de ingestelde limiet (“%s”) van %s seconden.',
+    ),
+  ),
   'Some of the selected automation blueprints are invalid or restricted: %s.' => 'Sommige van de geselecteerde automatiseringsblauwdrukken zijn onjuist of beperkt: %s.',
   'Default location to store local copies of repositories.' => 'Standaardlocatie voor het opslaan van lokale kopieën van repository\'s.',
   'Specify one or more repositories to thaw.' => 'Geef een of meer repository\'s op om te ontdooien.',
@@ -288,7 +315,13 @@ Opgegeven waarde: \'%s\'
   'No repositories found for this query.' => 'Geen repository\'s gevonden voor deze zoekopdracht.',
   'change rewrites ref' => 'wijziging herschrijft ref',
   'The name "%s" is not a valid repository short name. Repository short names must not contain multiple consecutive underscores, hyphens, or periods.' => 'De korte naam "%s" is incorrect voor een repository. Korte namen voor repository\'s mogen geen meerdere opeenvolgende underscores, koppeltekens of punten bevatten.',
-  '%s removed %s automation blueprint(s): %s.' => '%s heeft %s automatiseringsblauwdruk(ken) verwijderd: %s.',
+  '%s removed %s automation blueprint(s): %s.' => array(
+    
+    array(
+      '%s heeft %s automatiseringsblauwdruk verwijderd: %s.',
+      '%s heeft %s automatiseringsblauwdrukken verwijderd: %s.',
+    ),
+  ),
   'Unable to parse entry!' => 'Kan item niet verwerken!',
   'Rebuild repository identities from commits.' => 'Repository-identiteiten opnieuw opbouwen vanuit commits.',
   '%s removed %s as the staging area for this repository.' => '%s heeft %s als staging-gebied voor dit repository verwijderd.',
@@ -305,14 +338,31 @@ Opgegeven waarde: \'%s\'
   'Search for pushes blocked by particular Herald rules.' => 'Zoeken naar pushes die geblokkeerd zijn door bepaalde Herald-regels.',
   'While the lock is held: users will be unable to write to this repository, and you may safely perform working copy maintenance on this node in another terminal window.' => 'Terwijl de vergrendeling actief is: gebruikers kunnen niet naar dit repository schrijven en u kunt veilig onderhoud aan de werkkopie uitvoeren op dit knooppunt in een ander terminalvenster.',
   'Flags "--all-identities" and "--raw" are not compatible.' => 'Vlaggen "--all-identities" en "--raw" zijn niet compatibel.',
-  'Sleeping for %s more second(s)...' => 'Nog %s seconde(n) wachten...',
+  'Sleeping for %s more second(s)...' => array(
+    'Nog %s seconde wachten...',
+    'Nog %s seconden wachten...',
+  ),
   'True if the commit is fully imported.' => 'Waar als de commit volledig is geïmporteerd.',
   'Create Identity' => 'Identiteit aanmaken',
   'Edit Identity: %s' => 'Identiteit bewerken: %s',
   'Demoted "%s" from leadership of repository "%s".' => '"%s" gedegradeerd als leider van repository "%s".',
   'Show simpler output.' => 'Eenvoudigere uitvoer weergeven.',
   'Rebuild identities for a commit.' => 'Identiteiten opnieuw opbouwen voor een commit.',
-  'Scheduling repository "%s" with an update window of %s second(s). Last update was %s second(s) ago.' => 'Repository "%s" wordt ingepland met een updatevenster van %s seconde(n). Laatste update was %s seconde(n) geleden.',
+  'Scheduling repository "%s" with an update window of %s second(s). Last update was %s second(s) ago.' => array(
+    
+    array(
+      
+      array(
+        'Repository "%s" wordt ingepland met een updatevenster van %s seconde. Laatste update was %s seconde geleden.',
+        'Repository "%s" wordt ingepland met een updatevenster van %s seconde. Laatste update was %s seconden geleden.',
+      ),
+      
+      array(
+        'Repository "%s" wordt ingepland met een updatevenster van %s seconden. Laatste update was %s seconde geleden.',
+        'Repository "%s" wordt ingepland met een updatevenster van %s seconden. Laatste update was %s seconden geleden.',
+      ),
+    ),
+  ),
   '%s disabled protection against enormous changes.' => '%s heeft de bescherming tegen enorme wijzigingen uitgeschakeld.',
   'Rewrite' => 'Herschrijven',
   'ref' => 'ref',
@@ -330,8 +380,13 @@ Opgegeven waarde: \'%s\'
   'Ref New' => 'Ref nieuw',
   '%s changed fetched refs from %s to %s.' => '%s heeft de opgehaalde refs gewijzigd van %s naar %s.',
   'This commit merges more than %d changes. Only the first %d are shown.
-' => 'Deze commit voegt meer dan %d wijzigingen samen. Alleen de eerste %d worden weergegeven.
-\\',
+' => array(
+    
+    array(
+      'Deze commit voegt meer dan %d wijziging samen. Alleen de eerste %d worden weergegeven.',
+      'Deze commit voegt meer dan %d wijzigingen samen. Alleen de eerste %d worden weergegeven.',
+    ),
+  ),
   'Ref %s "%s" still points at %s.' => 'Ref %s "%s" verwijst nog steeds naar %s.',
   '%s reset the copy time limit (%s seconds) for this repository to the default value.' => '%s heeft de kopieertijdslimiet (%s seconden) voor dit repository teruggezet naar de standaardwaarde.',
   'A repository\'s push events are visible to users who can see the repository.' => 'De push-gebeurtenissen van een repository zijn zichtbaar voor gebruikers die het repository kunnen zien.',
@@ -345,7 +400,13 @@ Opgegeven waarde: \'%s\'
   'Flag Names' => 'Vlagnamen',
   'There are no repositories.' => 'Er zijn geen repository\'s.',
   'Updated repository "%s".' => 'Repository "%s" bijgewerkt.',
-  '%s added %s automation blueprint(s): %s.' => '%s heeft %s automatiseringsblauwdruk(ken) toegevoegd: %s.',
+  '%s added %s automation blueprint(s): %s.' => array(
+    
+    array(
+      '%s heeft %s automatiseringsblauwdruk toegevoegd: %s.',
+      '%s heeft %s automatiseringsblauwdrukken toegevoegd: %s.',
+    ),
+  ),
   'Mirror' => 'Mirror',
   'Most Recent Commit' => 'Meest recente commit',
   'Move' => 'Verplaatsen',
@@ -359,17 +420,30 @@ Opgegeven waarde: \'%s\'
   '%s changed the assigned user for this identity from %s to %s.' => '%s heeft voor deze identiteit de toegewezen gebruiker gewijzigd van %s naar %s.',
   'Information about the commit author.' => 'Informatie over de auteur van de commit.',
   'Skipping "%s": Subversion repositories do not require this cache to be built.' => '"%s" overgeslagen: Subversion-repository\'s vereisen niet dat deze cache wordt opgebouwd.',
-  '%s pushed %d commit(s) to %s.' => '%s heeft %d commit(s) gepusht naar %s.',
+  '%s pushed %d commit(s) to %s.' => array(
+    
+    array(
+      '%s heeft %d commit gepusht naar %s.',
+      '%s heeft %d commits gepusht naar %s.',
+    ),
+  ),
   '%s set the default branch to %s.' => '%s heeft de standaard-branch ingesteld op %s.',
   '%s changed the I/O type for this URI from "%s" to "%s".' => '%s heeft het I/O-type voor deze URI gewijzigd van "%s" naar "%s".',
   'Put repository "%s" into maintenance mode.' => 'Repository "%s" in onderhoudsmodus geplaatst.',
   'This repository does not support Git LFS, so Git LFS URIs can not be generated for it.' => 'Dit repository ondersteunt geen Git LFS, dus Git LFS-URI\'s kunnen er niet voor worden gegenereerd.',
   'Parsing "%s"...' => '"%s" wordt verwerkt...',
+  'Discovered more than %s commits in an empty repository, marking repository as importing.' => array(
+    'Meer dan %s commit ontdekt in een lege repository; repository wordt gemarkeerd als importerend.',
+    'Meer dan %s commits ontdekt in een lege repository; repository wordt gemarkeerd als importerend.',
+  ),
   'Pull Event %d' => 'Pull-gebeurtenis %d',
   'Accept the possibility of permanent data loss?' => 'De mogelijkheid van permanent gegevensverlies accepteren?',
   'Expected to find a Git repository at "%s", but there is a non-repository directory (with other stuff in it) there. Move or remove this directory. A daemon will construct the working copy for you.' => 'Verwachtte een Git-repository te vinden op "%s", maar er is een map die geen repository is (met andere inhoud). Verplaats of verwijder deze map. Een daemon zal de werkkopie voor u aanmaken.',
   'The associated credential PHID, if one exists.' => 'De bijbehorende aanmeldgegevens-PHID, als die bestaat.',
-  '%s Commit(s)' => '%s commit(s)',
+  '%s Commit(s)' => array(
+    '%s commit',
+    '%s commits',
+  ),
   'The Almanac service for this repository does not have the correct service type.' => 'De Almanac-service voor dit repository heeft niet het juiste servicetype.',
   'The commit message.' => 'Het commitbericht.',
   '%s set storage for this repository to %s.' => '%s heeft de opslag voor dit repository ingesteld op %s.',
@@ -413,7 +487,13 @@ Opgegeven waarde: \'%s\'
   'Specify --service or --remove-service, but not both.' => 'Geef --service of --remove-service op, maar niet beide.',
   '%s set the short name of this repository to %s.' => '%s heeft de korte naam van dit repository ingesteld op %s.',
   'Move paths with this prefix.' => 'Paden met dit prefix verplaatsen.',
-  'Repository "%s" is not due for an update for %s second(s).' => 'Repository "%s" hoeft pas over %s seconde(n) bijgewerkt te worden.',
+  'Repository "%s" is not due for an update for %s second(s).' => array(
+    
+    array(
+      'Repository “%s” hoeft pas over %s seconde bijgewerkt te worden.',
+      'Repository “%s” hoeft pas over %s seconden bijgewerkt te worden.',
+    ),
+  ),
   'The Almanac service for this repository is not bound to any active interfaces.' => 'De Almanac-service voor dit repository is niet gebonden aan actieve interfaces.',
   'Repository "%s" is already importing.' => 'Repository "%s" wordt al geïmporteerd.',
   'This ref is not a branch.' => 'Deze ref is geen branch.',
@@ -437,7 +517,6 @@ Opgegeven waarde: \'%s\'
   'The associated repository PHID.' => 'De bijbehorende repository-PHID.',
   'Specify one or more repositories to discover.' => 'Geef een of meer repository\'s op om te ontdekken.',
   'True if the commit is not the ancestor of any tag, branch, or ref.' => 'Waar als de commit geen voorouder is van een tag, branch of ref.',
-  'Importing %s commit(s) at low priority ("PRIORITY_IMPORT") because many commits were discovered at once.' => '%s commit(s) worden geïmporteerd met lage prioriteit ("PRIORITY_IMPORT") omdat veel commits tegelijk zijn ontdekt.',
   'Specify either "--start" or "--stop", but not both.' => 'Geef "--start" of "--stop" op, maar niet beide.',
   'Host Wait (us)' => 'Hostwachttijd (us)',
   'The name "%s" is not a valid repository short name. Repository short names may not contain only uppercase letters.' => 'De korte naam "%s" is incorrect voor een repository. Korte namen voor repository\'s mogen niet alleen uit hoofdletters bestaan.',
@@ -451,7 +530,10 @@ Opgegeven waarde: \'%s\'
   'Updating refs in "%s"...' => 'Refs worden bijgewerkt in "%s"...',
   'Repository "%s" is already queued.' => 'Repository "%s" staat al in de wachtrij.',
   'Create Git Repository' => 'Git-repository aanmaken',
-  'Destroyed %s feed storie(s).' => '%s feedverhaal(-verhalen) vernietigd.',
+  'Destroyed %s feed storie(s).' => array(
+    '%s feedverhaal vernietigd.',
+    '%s feedverhalen vernietigd.',
+  ),
   'Pull of \'%s\' failed: %s' => 'Pull van \'%s\' mislukt: %s',
   'Resolving update for "%s".' => 'Update voor "%s" wordt opgelost.',
   'True if the repository is importing initial commits.' => 'Waar als het repository initiële commits importeert.',
@@ -478,7 +560,13 @@ Opgegeven waarde: \'%s\'
   'Unique short name, if the repository has one.' => 'Unieke korte naam, als het repository er een heeft.',
   'Search for repositories with a specific Almanac Service.' => 'Zoeken naar repository\'s met een specifieke Almanac-dienst.',
   'Do not show as a clone URI.' => 'Niet weergeven als clone-URI.',
-  'Based on activity in repository "%s", considering a wait of %s seconds before update.' => 'Op basis van activiteit in repository "%s" wordt een wachttijd van %s seconden overwogen vóór de update.',
+  'Based on activity in repository "%s", considering a wait of %s seconds before update.' => array(
+    
+    array(
+      'Op basis van activiteit in repository “%s” wordt een wachttijd van %s seconde overwogen vóór de update.',
+      'Op basis van activiteit in repository “%s” wordt een wachttijd van %s seconden overwogen vóór de update.',
+    ),
+  ),
   'Rejected: Herald' => 'Geweigerd: Herald',
   'Commit "%s" is not a reachable ancestor of any ref.' => 'Commit "%s" is geen bereikbare voorouder van een ref.',
   'Shows repository in email.' => 'Geeft repository weer in e-mail.',
@@ -511,7 +599,10 @@ Opgegeven waarde: \'%s\'
   'Rebuild identities for an email address.' => 'Identiteiten opnieuw opbouwen voor een e-mailadres.',
   'Show as a clone URI.' => 'Weergeven als clone-URI.',
   'Pull Event' => 'Pull-gebeurtenis',
-  'Importing %s commit(s) at low priority ("PRIORITY_IMPORT") because this repository is still importing.' => '%s commit(s) worden geïmporteerd met lage prioriteit ("PRIORITY_IMPORT") omdat dit repository nog wordt geïmporteerd.',
+  'Importing %s commit(s) at low priority ("PRIORITY_IMPORT") because this repository is still importing.' => array(
+    '%s commit wordt geïmporteerd met lage prioriteit ("PRIORITY_IMPORT") omdat deze repository nog wordt geïmporteerd.',
+    '%s commits worden geïmporteerd met lage prioriteit ("PRIORITY_IMPORT") omdat deze repository nog wordt geïmporteerd.',
+  ),
   'Unable to lock repository "%s": only repositories that support clustering may be locked.' => 'Kan repository "%s" niet vergrendelen: alleen repository\'s die clustering ondersteunen kunnen worden vergrendeld.',
   'Promote a device, discarding changes on other devices. Resolves ambiguous leadership and recovers from demotion mistakes.' => 'Een apparaat promoveren, waarbij wijzigingen op andere apparaten worden verworpen. Lost dubbelzinnig leiderschap op en herstelt van degradatiefouten.',
   'No changes will be pushed or pulled from this URI.' => 'Er worden geen wijzigingen gepusht of opgehaald van deze URI.',
@@ -531,9 +622,14 @@ Opgegeven waarde: \'%s\'
   'Declining to apply changes.' => 'Wijzigingen worden niet toegepast.',
   'Repository %s is no longer pullable; skipping.' => 'Repository %s kan niet meer worden opgehaald; wordt overgeslagen.',
   '%s changed indexed languages from %s to %s.' => '%s heeft de geïndexeerde talen gewijzigd van %s naar %s.',
-  'Scheduling repository "%s" for an update (%s seconds overdue).' => 'Repository "%s" wordt ingepland voor een update (%s seconden te laat).',
+  'Scheduling repository "%s" for an update (%s seconds overdue).' => array(
+    
+    array(
+      'Repository “%s” wordt ingepland voor een update (%s seconde te laat).',
+      'Repository “%s” wordt ingepland voor een update (%s seconden te laat).',
+    ),
+  ),
   'Lock repositories and begin maintenance?' => 'Repository\'s vergrendelen en onderhoud starten?',
-  'Discovered more than %s commit(s) in an empty repository, marking repository as importing.' => 'Meer dan %s commit(s) ontdekt in een leeg repository, repository wordt gemarkeerd als importerend.',
   'Must be used with __%s__, this will exclude commits which are earlier than __date__.
 Valid examples:
   \'today\', \'today 2pm\', \'-1 hour\', \'-2 hours\', \'-24 hours\',
@@ -567,7 +663,7 @@ Zie __%s__ voor meer.',
   'Write hints about unusual (rewritten or unreadable) commits.' => 'Hints schrijven over ongebruikelijke (herschreven of onleesbare) commits.',
   'The VCS this repository uses ("git", "hg" or "svn").' => 'Het VCS dat dit repository gebruikt ("git", "hg" of "svn").',
   'Rejected: Touches Too Many Paths' => 'Geweigerd: raakt te veel paden',
-  '%s changed %s automation blueprint(s), added %s: %s; removed %s: %s.' => '%s heeft %s automatiseringsblauwdruk(ken) gewijzigd, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s changed %s automation blueprint(s), added %s: %s; removed %s: %s.' => '%s heeft automatiseringsblauwdrukken gewijzigd, toegevoegd: %4$s; verwijderd: %6$s.',
   'Specify one or more repositories to clusterize.' => 'Geef een of meer repository\'s op om te clusteren.',
   'Skipping, this is not a commit.' => 'Overgeslagen, dit is geen commit.',
   'Rebuild identities for a raw commit string.' => 'Identiteiten opnieuw opbouwen voor een onbewerkte committekenreeks.',
@@ -610,7 +706,10 @@ Verzoeken die binnen het cluster worden gerouteerd, worden altijd verwacht te wo
   'MANUAL Task "%s" was likely closed improperly by "%s".' => 'HANDMATIG Taak "%s" is waarschijnlijk onjuist gesloten door "%s".',
   'The repository this commit belongs to.' => 'Het repository waartoe deze commit behoort.',
   'Ref %s "%s" now points at %s.' => 'Ref %s "%s" verwijst nu naar %s.',
-  'Importing %s commit(s) at normal priority ("PRIORITY_COMMIT").' => '%s commit(s) worden geïmporteerd met normale prioriteit ("PRIORITY_COMMIT").',
+  'Importing %s commit(s) at normal priority ("PRIORITY_COMMIT").' => array(
+    '%s commit wordt geïmporteerd met normale prioriteit ("PRIORITY_COMMIT").',
+    '%s commits worden geïmporteerd met normale prioriteit ("PRIORITY_COMMIT").',
+  ),
   'You can not attach audit authority for a user with no PHID.' => 'U kunt geen auditbevoegdheid koppelen aan een gebruiker zonder PHID.',
   'Move repository local paths.' => 'Lokale paden van repository\'s verplaatsen.',
   '%s removed the %s encoding configured for this repository.' => '%s heeft de %s-tekencodering die voor dit repository was geconfigureerd verwijderd.',
@@ -630,7 +729,10 @@ Verzoeken die binnen het cluster worden gerouteerd, worden altijd verwacht te wo
   'The remote URI is not formatted correctly. Remote URIs with an explicit protocol should be in the form \'%s\', not \'%s\'. The \'%s\' syntax is only valid in SCP-style URIs.' => 'De externe URI is niet correct opgemaakt. Externe URI\'s met een expliciet protocol moeten de vorm \'%s\' hebben, niet \'%s\'. De \'%s\'-syntaxis is alleen geldig in SCP-stijl URI\'s.',
   'Rebuild all currently-known identities.' => 'Alle momenteel bekende identiteiten opnieuw opbouwen.',
   'Inactive Repositories' => 'Inactieve repository\'s',
-  '%s commit(s)' => '%s commit(s)',
+  '%s commit(s)' => array(
+    '%s commit',
+    '%s commits',
+  ),
   'Path "%s" is not unknown.' => 'Pad "%s" is niet onbekend.',
   'Repository "%s" has versions on inactive devices. Demote (or reactivate) these devices before promoting a new leader: %s.' => 'Repository "%s" heeft versies op inactieve apparaten. Degradeer (of heractiveer) deze apparaten voordat u een nieuwe leider promoveert: %s.',
   'True if the URI is disabled.' => 'Waar als de URI is uitgeschakeld.',

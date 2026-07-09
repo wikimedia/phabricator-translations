@@ -12,17 +12,13 @@ final class PhabricatorMetaNl
   'Completely Break Everything' => 'Maak alles helemaal kapot',
   'Information' => 'Informatie',
   'Syntax' => 'Syntaxis',
-  'You cannot install an installed application.' => 'U kunt een reeds geïnstalleerde toepassing niet opnieuw installeren.',
   'Show First-Party Applications' => 'Toepassingen van eerste partij weergeven',
   'Create Application' => 'Toepassing aanmaken',
   'Unknown order "%s"!' => 'Onbekende orde "%s"!',
-  'Really Uninstall Application?' => 'Toepassing echt verwijderen?',
   'Prototypes Not Enabled' => 'Prototypes niet ingeschakeld',
-  'Really uninstall the %s application?' => 'Toepassing %s echt verwijderen?',
   'Policy does not exist.' => 'Het beleid bestaat niet.',
   'Launcher' => 'Launcher',
   'This application is a prototype. %s' => 'Deze toepassing is een prototype. %s',
-  '%s installed this application.' => '%s heeft deze toepassing geïnstalleerd.',
   'Confirmation' => 'Bevestiging',
   'Explore More Applications' => 'Meer toepassingen ontdekken',
   'After configuring processing for inbound mail, you can interact with objects (like tasks and revisions) over email. For information on configuring inbound mail, see **[[ %s | Configuring Inbound Email ]]**.
@@ -48,7 +44,13 @@ When %s receives your mail, it will process any commands first, then post the re
 
 I just talked to @alincoln, and he showed me that he fixed this.
 ```
-' => 'Nadat u de verwerking voor inkomende e-mail hebt ingesteld, kunt u via e-mail met objecten (zoals taken en versies) communiceren. Zie **[[ %s | Inkomende e-mail instellen ]]** voor meer informatie over het instelling van inkomende e-mail. In de meeste gevallen kunt u reageren op e-mails die u van deze server ontvangt om opmerkingen achter te laten. U kunt ook **mailcommando\'s** gebruiken om een groter aantal acties uit te voeren (zoals een taak claimen of wijzigingen in een versie aanvragen) zonder dat u hoeft aan te melden op de webinterface. Mailcommando\'s zijn trefwoorden die beginnen met een uitroepsteken, zoals `!claim`. Sommige opdrachten kunnen parameters accepteren, zoals `!assign alincoln`. Om mailcommando\'s te gebruiken, schrijft u één commando per regel aan het begin of einde van uw e-mailbericht. U kan bijvoorbeeld het volgende in een antwoordmail op een taak schrijven om de taak te claimen: 
+' => 'Nadat u de verwerking voor inkomende e-mail hebt ingesteld, kunt u via e-mail met objecten (zoals taken en versies) communiceren. Zie **[[ %s | Inkomende e-mail instellen ]]** voor meer informatie over het instelling van inkomende e-mail.
+
+In de meeste gevallen kunt u opmerkingen achterlaten door de e-mails die u van deze server ontvangt te beantwoorden. Met **mailcommando\'s** kunt u ook een groter aantal acties uitvoeren (zoals een taak claimen of wijzigingen in een versie aanvragen) zonder zich aan te hoeven te melden op de webinterface.
+
+Mailcommando\'s zijn trefwoorden die beginnen met een uitroepteken, zoals `!claim`. Sommige opdrachten kunnen parameters accepteren, zoals `!assign alincoln`.
+
+Om mailcommando\'s te gebruiken schrijft u één commando per regel aan het begin of einde van uw e-mailbericht. U kunt bijvoorbeeld het volgende in een antwoordmail op een taak schrijven om de taak te claimen: 
 
 ```
 !claim
@@ -57,7 +59,7 @@ Ik regel dit wel.
 ```
 
 
-Wanneer %s uw e-mail ontvangt, verwerkt het eerst alle commando\'s en plaatst vervolgens de rest van het bericht als een reactie. U kunt meerdere commando\'s tegelijk uitvoeren: 
+Wanneer %s uw e-mail ontvangt, verwerkt hij eerst alle commando\'s en plaatst dan de rest van het bericht als reactie. U kunt meerdere commando\'s ineens laten uitvoeren: 
 
 ```
 !assign alincoln
@@ -65,38 +67,35 @@ Wanneer %s uw e-mail ontvangt, verwerkt het eerst alle commando\'s en plaatst ve
 
 Ik heb net met @alincoln gesproken en hij heeft me laten zien dat hij dit heeft opgelost.
 ```',
-  'Uninstalled' => 'Verwijderd',
-  'Show Uninstalled Applications' => 'Verwijderde toepassingen weergeven',
+  'Show Enabled Applications' => 'Ingeschakelde toepassingen weergeven',
+  'Can\'t set non-public capabilities to public.' => 'Niet-openbare functionaliteitsregels kunnen niet openbaar worden gemaakt.',
   'Launchable' => 'Uit te voeren',
+  'You cannot enable an enabled application.' => 'U kunt een al ingeschakelde toepassing niet opnieuw inschakelen.',
   'Save Policies' => 'Beleid opslaan',
   'Browse Applications' => 'Toepassingen bekijken',
   'To manage prototypes, enable them by setting %s in your configuration.' => 'Om prototypes te beheren, kunt u ze inschakelen door %s in uw instellingen in te stellen.',
   'Prototype' => 'Prototype',
   'Edit Policies: %s' => 'Beleid bewerken: %s',
+  'Really Disable Application?' => 'Toepassing echt uitschakelen?',
   'Create New Application' => 'Nieuwe toepassing aanmaken',
   'Extension' => 'Uitbreiding',
+  'Enable %s application?' => 'Toepassing %s inschakelen',
   'Validation Failed' => 'Validatie mislukt',
-  'Show Installed Applications' => 'Geïnstalleerde toepassingen weergeven',
-  '%s uninstalled this application.' => '%s heeft deze toepassing verwijderd.',
+  'Really disable the %s application?' => 'Toepassing %s echt uitschakelen?',
   'Capability "%s" is not editable for this application.' => 'De functionaliteit "%s" kan voor deze toepassing niet worden bewerkt.',
   'Mail Commands Overview' => 'Overzicht van e-mailcommando\'s',
   'Show Launchable Applications' => 'Uit te voeren toepassingen weergeven',
   'Show Released Applications' => 'Uitgebrachte toepassingen weergeven',
   'Show Non-Launchable Applications' => 'Niet uit te voeren toepassingen weergeven',
-  '%s uninstalled %s.' => '%s heeft %s verwijderd.',
   'This is very unusual and will leave you without any content on the home page. You should only do this if you are certain you know what you are doing.' => 'Dit is zeer ongebruikelijk en zal ertoe leiden dat er geen inhoud meer op de startpagina staat. Doe dit alleen als u zeker weet wat u doet.',
-  'Can\'t set non-public policies to public.' => 'Niet-openbare beleidsregels kunnen niet openbaar worden gemaakt.',
-  '%s installed %s.' => '%s heeft %s geïnstalleerd.',
+  'Show Disabled Applications' => 'Uitgeschakelde toepassingen weergeven',
   'Configure Application Forms' => 'Toepassingsformulieren instellen',
   'Show Applications w/ App Email Support' => 'Toepassingen met app-e-mailondersteuning weergeven',
-  'Uninstall' => 'Verwijderen',
   'Can\'t set the policy to a policy you can\'t view!' => 'U kunt geen beleid instellen dat u niet kunt inzien!',
-  'This application is required and cannot be uninstalled.' => 'Deze toepassing is noodzakelijk en kan niet worden verwijderd.',
   'Type an application name...' => 'Voer een toepassingsnaam in...',
-  'Install %s application?' => 'Toepassing %s installeren?',
   'Quick Reference' => 'Snel naslagwerk',
   'Show Applications w/o App Email Support' => 'Toepassingen zonder app-e-mailondersteuning weergeven',
-  'Are you absolutely certain you want to uninstall the Home application?' => 'Weet u absoluut zeker dat u de Home-toepassing wilt verwijderen?',
+  'This application is required and cannot be disabled.' => 'Deze toepassing is noodzakelijk en kan niet worden uitgeschakeld.',
   '%s changed the %s policy for application %s from %s to %s.' => '%s heeft het beleid van %s voor toepassing %s gewijzigd van %s naar %s.',
   'Configure creation and editing forms in Applications.' => 'Het aanmaken en bewerken van formulieren in Toepassingen instellen.',
   'Show Prototype Applications' => 'Prototype-toepassingen weergeven',
@@ -104,6 +103,7 @@ Ik heb net met @alincoln gesproken en hij heeft me laten zien dat hij dit heeft 
   '%s changed the %s policy from %s to %s.' => '%s heeft het beleid van %s gewijzigd van %s naar %s.',
   'Edit Application: %s' => 'Toepassing bewerken: %s',
   'Show Third-Party Applications' => 'Toepassingen van derde partij weergeven',
+  'Are you absolutely certain you want to disable the Home application?' => 'Weet u absoluut zeker dat u de Home-toepassing wilt uitschakelen?',
   'This table summarizes the available mail commands. For details on a specific command, see the command section below.' => 'Deze tabel geeft een overzicht van de beschikbare mailcommando\'s. Voor meer informatie over een specifieke opdracht, zie het gedeelte over commando\'s hieronder.',
   'Show All Applications' => 'Alle toepassingen weergeven',
 );

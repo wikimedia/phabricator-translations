@@ -13,7 +13,6 @@ final class PhabricatorUiexampleHi
   'Color \'%s\'' => 'रंग \'%s\'',
   'Unit (3/5)' => 'खण्ड (3/5)',
   'Colors and Transforms' => 'रंग और रूपांतरण',
-  'Let\'s Go Shopping' => 'चलिए खरीदारी करने चलें',
   'Timeline View' => 'समयरेखा देखें',
   'When it is prohibitively expensive or complex to attain a complete count of the items, you can select one extra item and set %s if it exists, creating an inexact pager.' => 'जब यह आइटमों की पूरी संख्या को प्राप्त करने के लिए निषेधात्मक रूप से महंगा या जटिल होता है, तो आप एक अतिरिक्त आइटम का चयन कर सकते हैं और %s सेट कर सकते हैं यदि यह मौजूद है, एक गलत पेजर बनाना।',
   'Zucchini' => 'तुरई',

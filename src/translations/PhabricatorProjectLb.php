@@ -16,6 +16,7 @@ final class PhabricatorProjectLb
   'Archive Project' => 'Projet archivéieren',
   'Members: %s' => 'Memberen: %s',
   'Edit Column' => 'Kolonn änneren',
+  ' %d ' => ' %d',
   'Really archive project?' => 'De Projet wierklech archivéieren?',
   '(Hidden)' => '(Verstoppt)',
   'Create Project' => 'Projet uleeën',

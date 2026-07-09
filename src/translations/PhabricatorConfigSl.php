@@ -9,25 +9,12 @@ final class PhabricatorConfigSl
 
   protected function getTranslations() {
     return array(
-  'Array containing list of uninstalled applications.' => 'Matrika s seznamom nenameščenih aplikacij.',
   'Column/Key' => 'Stolpec/ključ',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'POMEMBNO: Predhodni tok ne zagotavlja podpore za prototipne aplikacije.
-
-Phabricator vključuje prototipne aplikacije, ki so v **zgodnji fazi razvoja**. Privzeto prototipne aplikacije niso nameščene, ker pogosto še niso dovolj razvite, da bi bile splošno uporabne. To možnost lahko omogočite, da jih namestite, če razvijate Phabricator ali vas zanima predogled prihajajočih funkcij.
-
-Če želite izvedeti več o prototipih, glejte [[%s|%s]].
-
-Ko omogočite prototipe, jih lahko selektivno odstranite (kot običajne aplikacije).',
   'Table' => 'Tabela',
   'Alternative URIs that can access this service.' => 'Alternativni URI-ji, ki lahko dostopajo do Phabricatorja.',
   'No Email Preferences Link' => 'Ni povezave do e-poštnih nastavitev',
   'No active repositories have outstanding errors.' => 'Nobena aktivna shramba nima izrazitih napak.',
+  'Array containing list of disabled applications.' => 'Matrika s seznamom nenameščenih aplikacij.',
   'Usage' => 'Uporaba',
   'Access log format.' => 'Format dnevnika dostopa.',
   'Repository Errors' => 'Napake shrambe',
@@ -41,6 +28,19 @@ Ko omogočite prototipe, jih lahko selektivno odstranite (kot običajne aplikaci
   'No notification servers are configured.' => 'Konfiguriran ni noben strežnik za obvestila.',
   'Prevent editing' => 'Prepreči urejanje',
   'Exception Handlers' => 'Upravitelji izjem',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => 'POMEMBNO: Predhodni tok ne zagotavlja podpore za prototipne aplikacije.
+
+Phabricator vključuje prototipne aplikacije, ki so v **zgodnji fazi razvoja**. Privzeto prototipne aplikacije niso nameščene, ker pogosto še niso dovolj razvite, da bi bile splošno uporabne. To možnost lahko omogočite, da jih namestite, če razvijate Phabricator ali vas zanima predogled prihajajočih funkcij.
+
+Če želite izvedeti več o prototipih, glejte [[%s|%s]].
+
+Ko omogočite prototipe, jih lahko selektivno odstranite (kot običajne aplikacije).',
   'Notification Servers' => 'Strežniki obvestil',
   'Allows you to add a footer with links in it to most pages. You might want to use these links to point at legal information or an about page.
 

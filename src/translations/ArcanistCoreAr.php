@@ -19,7 +19,13 @@ final class ArcanistCoreAr
   'Do not call %s or %s directly on a %s. Instead, call %s or %s.' => 'لا تستدعي %s أو %s مباشرة على %s . بدلاً من ذلك، استدعي %s أو %s .',
   '"%s" (%s)' => '"%s" (%s)',
   'Saved "%s" as "%s".' => 'جرى حفظ "%s" كـ "%s".',
-  '(This message was raised at line %s, but the file only has %s line(s).)' => '(ظهرت هذه الرسالة عند السطر %s، لكن الملف يحتوي على %s سطر (سطور) فقط.)',
+  '(This message was raised at line %s, but the file only has %s line(s).)' => array(
+    
+    array(
+      '(تم طرح هذه الرسالة في السطر  %s , ولكن الملف يحتوي فقط على %s  line.)',
+      '(تم طرح هذه الرسالة في السطر  %s , ولكن الملف يحتوي فقط على %s lines.)',
+    ),
+  ),
   'Portuguese (Portugal)' => 'البرتغالية (البرتغال)',
   'File Symbol "%s"' => 'رمز الملف "%s"',
   'Try running your arc command again.' => 'حاول تشغيل أمر arc مرة أخرى.',
@@ -29,7 +35,7 @@ final class ArcanistCoreAr
   'If the file is not a text file, you can mark it \'binary\'. Mark this file as \'binary\' and continue?' => 'إذا لم يكن الملف ملفًا نصيًا، فيمكنك وضع علامة "ثنائي" عليه. ضع علامة "ثنائي" على هذا الملف وتابع؟',
   'Rule \'%s\' is invalid, it must have a type and name like \'%s\'.' => 'القاعدة "%s" غير صالحة، يجب أن يكون لها نوع واسم مثل "%s".',
   'Task Symbol "%s"' => 'رمز المهمة "%s"',
-  'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'يجب أن تكون المعلمة ("%s") التي جرى تمريرها إلى "%s" عند إنشاء رسالة اختبار الوحدة هي سلسلة بطول أقصى يبلغ %s بايتات، ولكن طولها يبلغ %s.',
+  'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'يجب أن يكون المعامل (" %s ") الذي يتم تمريره إلى " %s " عند إنشاء رسالة اختبار الوحدة عبارة عن سلسلة نصية بحد أقصى طول %s  بايت، ولكن طوله %s  بايت .',
   'Executable files should either be binary or contain a shebang.' => 'يجب أن تكون الملفات القابلة للتنفيذ إما ثنائية أو تحتوي على shebang.',
   'Unknown argument \'%s\'. Try \'%s\'.' => '"%s" هو وسيطة غير معروف. جرب "%s".',
   'Path \'%s\' is not readable.' => 'المسار \'%s\' غير قابل للقراءة.',
@@ -51,7 +57,10 @@ final class ArcanistCoreAr
   'Empty certificate in credentials.' => 'شهادة فارغة في بيانات الاعتماد.',
   'No tests to run.' => 'لا توجد اختبارات للتشغيل.',
   'Expected JSON response from Slack.' => 'استجابة JSON المتوقعة من Slack.',
-  '%s assertion(s) passed.' => 'تم اجتياز %s تأكيد (تأكيدات).',
+  '%s assertion(s) passed.' => array(
+    'تم اجتياز %s  assertion.',
+    'تم اجتياز %s assertions.',
+  ),
   'NOTHING TO LAND' => 'لا شيء للانزال',
   'Unknown Symbol' => 'رمز غير معروف',
   'ERROR' => 'خطأ',

@@ -29,7 +29,6 @@ final class PhabricatorTokensZhHant
   '%s Token' => '%s代幣',
   'Award "%s" Token' => '授予代幣「%s」',
   'No such object "%s"!' => '沒有「%s」這樣的對象！',
-  'Give or change a token.' => '給予或更改代幣。',
   'Heartbreak' => '心碎',
   'Cup of Joe' => '一杯咖啡',
   'Orange Medal' => '橘色勳章',

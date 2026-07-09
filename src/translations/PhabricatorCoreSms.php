@@ -83,7 +83,6 @@ final class PhabricatorCoreSms
   'First' => 'Vuõssmõs',
   'Tag' => 'Ǩeâlǥal',
   'project' => 'projeʹktt',
-  'Edit Address' => 'Muuʹtt addrõõzz',
   'User' => 'Õõʹnni',
   'Download' => 'Laadd',
   'Query' => 'Kõjldõs',

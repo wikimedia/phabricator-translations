@@ -97,7 +97,6 @@ final class PhabricatorProjectFrFR
   'Expected trigger rule (of class "%s") to return a list of transactions from "newDropTransactions()", but got "%s".' => 'Attendait que la règle de déclenchement (de classe « %s ») renvoie une liste de transactions depuis « newDropTransactions() », mais « %s » a été obtenu.',
   'Open Tasks by column' => 'Ouvrir les tâches par colonne',
   'If you lock this project, members will be prevented from leaving it.' => 'Si vous verrouillez ce projet, les membres seront empêchés d’en partir.',
-  'Additional project slugs.' => 'Tuyaux de projet supplémentaires.',
   'Create Project' => 'Créer un projet',
   'Members' => 'Membres',
   'You can not change members of a milestone. Members of the parent project are automatically members of the milestone.' => 'Vous ne pouvez pas changer les membres d’un jalon. Les membres du projet parent sont automatiquement membres du jalon.',
@@ -152,13 +151,11 @@ Consultez le [[ %s | Guide d’utilisation des projets ]] dans la documentation 
   'Task status value ("%s") is not a valid task status. Valid statues are: %s.' => 'La valeur de l’état de tâche (« %s ») n’est pas un état de tâche valide. Les états valides sont : %s.',
   'Move Tasks to Project...' => 'Affecter les tâches au projet...',
   'Set Board Default Order' => 'Définir l’ordre par défaut du tableau de bord',
-  'New list of slugs.' => 'Nouvelle liste de tuyaux.',
   'You will no longer receive email or notifications about every object associated with this project.' => 'Vous ne recevrez plus de courriels ou de notifications concernant chaque objet associé à ce projet.',
   'Removed %s project(s): %s.' => array(
     'Suppression de %s projet: %s.',
     'Suppression de %s projets: %s.',
   ),
-  'This method is frozen and will eventually be deprecated. New code should use "project.edit" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « project.edit » à la place.',
   'Reorder Columns' => 'Réordonner les colonnes',
   'Edit Project: %s' => 'Modifier le projet : %s',
   'Joinable By' => 'Joignable par',
@@ -215,7 +212,6 @@ Consultez le [[ %s | Guide d’utilisation des projets ]] dans la documentation 
   'No Milestones' => 'Aucun jalon',
   'Project tags added' => 'Balises de projet ajoutées',
   'Blue Sky' => 'Bleu ciel',
-  'Search for projects with particular slugs. (Slugs are the same as project hashtags.)' => 'Chercher des projets avec des « tuyaux » particuliers (les tuyaux sont la même chose que les mots-dièse de projets).',
   'Unused trigger.' => 'Déclencheur non utilisé.',
   'Trigger Usage' => 'Utilisation du déclencheur',
   'Value for index "%s" should be a dictionary.' => 'La valeur associée à la clé « %s » devrait être un dictionnaire.',
@@ -253,12 +249,10 @@ Cela exclura les résultats avec toute autre balise de projet.',
   'Select projects current viewer is a member of.' => 'Sélectionner les projets dont l’actuel visiteur est membre.',
   'This workboard has been disabled, but can be restored to its former glory.' => 'Ce tableau de bord a été désactivé, mais peut être restauré dans son ancienne gloire.',
   'No Limit' => 'Pas de limites',
-  'Added Projects' => 'Projets ajoutés',
   'This column can not have a trigger.' => 'Cette colonne ne peut pas avoir de déclencheur.',
   '%s added %s project(s): %s.' => '%s a ajouté %s projet(s): %s.',
   'Unknown Rule' => 'Règle inconnue',
   'Milestones can be created for this project.' => 'Des jalons peuvent être créés pour ce projets.',
-  'No open tasks in this project.' => 'Aucune tâche ouverte dans ce projet.',
   'Set project members.' => 'Déclarer les membres du projet.',
   'Read information about projects.' => 'Lire les informations concernant les projets.',
   'Organization' => 'Organisation',
@@ -273,13 +267,11 @@ Cela exclura les résultats avec toute autre balise de projet.',
   'members of project' => 'membres du projet',
   'No tasks have points assigned.' => 'Aucune tâche n’a de points attribués.',
   'Parent project to create a milestone for.' => 'Projet parent pour lequel créer un jalon.',
-  '%s: Burndown' => '%s : incendie',
   'The project icon marked as the default icon ("%s") must not be disabled.' => 'L’icône de projet marquée comme icône par défaut (« %s ») ne doit pas être désactivée.',
   '%s added %s project(s) for %s: %s.' => '%s a ajouté %s projet(s) pour %s : %s.',
   'Add subscribers rule value should be a list, but is not (value is "%s").' => 'La valeur de la règle d’ajout d’abonnés doit être une liste, mais ce n’est pas le cas (la valeur est « %s »).',
   'Add Column' => 'Ajouter une colonne',
   'Remove Project Tags' => 'Retirer des balises du projet',
-  'Projects are flexible storage containers used as tags, teams, projects, or anything you need to group.' => 'Les projets sont des conteneurs de stockage flexibles utilisés comme balises, équipes, projets, activités ou tout ce que vous avez besoin de regrouper.',
   'Reef' => 'Récif',
   'No column ordering exists with key "%s".' => 'Aucun ordonnancement de colonne n’existe avec la clé « %s ».',
   'This trigger is not used by any columns.' => 'Ce déclencheur n\'est utilisé par aucune colonne.',
@@ -310,7 +302,6 @@ Cela exclura les résultats avec toute autre balise de projet.',
   'Trigger ruleset is corrupt: rule (at index "%s") should be a rule specification, but is actually "%s".' => 'L’ensemble de règles du déclencheur est corrompu : la règle (à l’index « %s ») devrait être une spécification de règle, mais est en fait « %s ».',
   'Set members, overwriting the current value.' => 'Définir les membres, en écrasant la valeur actuelle.',
   'Workboard Columns' => 'Colonnes de tableau de bord',
-  'Primary slug/hashtag.' => 'Tuyau / mot-dièse principal.',
   'Find results not in specific projects.' => 'Trouver des résultats qui ne sont pas dans des projets spécifiques.',
   'Find direct subprojects of specified parents.' => 'Trouver les sous-projets directs des parents spécifiés.',
   'Custom Trigger' => 'Déclencheur personnalisé',
@@ -328,7 +319,6 @@ Cela exclura les résultats avec toute autre balise de projet.',
   'Rename the project' => 'Renommer le projet',
   'You do not have permission to create new projects.' => 'Vous n’avez pas la permission de créer de nouveaux projets.',
   'You can not move tasks from a column to itself.' => 'Vous ne pouvez pas déplacer des tâches d’une colonne vers elle-même.',
-  'Reports (Prototype)' => 'Rapports (prototype)',
   'Ancestor Projects' => 'Projets ancêtres',
   'Get information about projects.' => 'Obtenir de l\'information concernant les projets.',
   'Save Column' => 'Enregistrer la colonne',
@@ -336,27 +326,6 @@ Cela exclura les résultats avec toute autre balise de projet.',
   '%s created this trigger.' => '%s a créé ce déclencheur.',
   'View Tasks as Query' => 'Voir les tâches comme requête',
   'Change task status to %s.' => 'Changer l’état de la tâche en %s.',
-  'This function allows you to find results which are not in one or more projects. For example, use this query to find results which are not associated with a specific project:
-
-> not(vanilla)
-
-You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
-
-> not(vanilla), not(chocolate)
-
-You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
-
-> ios, not(bug)' => 'Cette fonction permet de rechercher des résultats ne figurant dans aucun des projets indiqués. Par exemple, utilisez cette requête pour rechercher des résultats qui ne sont pas associés à un projet spécifique :
-
-> not(vanilla)
-
-Vous pouvez exclure plusieurs projets. Ainsi, la requête suivante ne renverra que les résultats qui ne figurent dans aucun des projets exclus :
-
-> not(vanilla), not(chocolate)
-
-Vous pouvez combiner cette fonction avec d’autres fonctions pour affiner les résultats. Par exemple, utilisez la requête suivante pour trouver des résultats pour iOS qui ne sont pas des anomalies :
-
-> ios, not(bug)',
   'Closed Tasks' => 'Tâches fermées',
   'Add project tags: %s.' => 'Ajouter les étiquettes aux projets : %s.',
   'Into The Expanse' => 'Dans l’étendue',
@@ -400,7 +369,6 @@ Vous pouvez combiner cette fonction avec d’autres fonctions pour affiner les r
   '[Project]' => '[Projet]',
   'You can only set a parent or milestone project when creating a project for the first time.' => 'Vous ne pouvez définir un projet parent ou jalon que lors de la première création d’un projet.',
   'Find results in any of the current viewer\'s projects.' => 'Trouver des résultats dans n’importe lequel des projets de l’actuel visiteur.',
-  'Add related projects.' => 'Ajouter des projets liés.',
   'Type viewerprojects()...' => 'Saisissez « viewerprojects() »...',
   'Your tremendous contributions to this project will be sorely missed. Are you sure you want to leave?' => 'Vos apports exceptionnels à ce projet fantastique vont nous manquer. Êtes-vous sûr de vouloir nous quitter ?',
   'Unknown User ("%s")' => 'Utilisateur inconnu (« %s »)',
@@ -540,6 +508,11 @@ Vous pouvez consulter la configuration par défaut ci-dessous pour un exemple de
   'This project has no milestones.' => 'Ce projet n’a aucun jalon.',
   'Project watcher list changes.' => 'La liste des personnes qui suivent ce projet a été modifiée.',
   'Users with access may join this project, but may not leave.' => 'Les utilisateurs pouvant accéder peuvent rejoindre ce projet, mais ne peuvent pas le quitter.',
+  'Associate one or more projects to the object by listing their hashtags. Separate project tags with spaces. For example, use `!projects #ios #feature` to add both related projects.
+
+Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any project tags.' => 'Ajoutez un ou plusieurs projets à l\'objet en listant leurs hashtags. Séparez les projets par des espaces. Par exemple, utilisez `!projects #ios #feature` pour ajouter les deux projets associés.
+
+Les projets invalides ou inconnus seront ignorés. Cette commande n\'a aucun effet si vous ne spécifiez aucun projet.',
   'Save as Default' => 'Enregistrer comme défaut',
   'Group stuff into big piles.' => 'Grouper des composants en grosses piles.',
   'Browse Users and Projects' => 'Parcourir les utilisateurs et les projets',
@@ -609,11 +582,6 @@ Vous pouvez consulter la configuration par défaut ci-dessous pour un exemple de
   'Get the workboard columns where an object appears.' => 'Obtient les colonnes de tableau de bord où un objet apparaît.',
   'Projects User Guide' => 'Guide utilisateur des projets',
   'Projects: ...' => 'Projets : ...',
-  'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
-
-Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Ajoutez un ou plusieurs projets à l\'objet en listant leurs hashtags. Séparez les projets par des espaces. Par exemple, utilisez `!projects #ios #feature` pour ajouter les deux projets associés.
-
-Les projets invalides ou inconnus seront ignorés. Cette commande n\'a aucun effet si vous ne spécifiez aucun projet.',
   'Find projects with a given minimum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Trouver des projets avec une profondeur minimale donnée. Les projets racines ont la profondeur 0, leurs enfants immédiats ont la profondeur 1, etc.',
   'Group by Status' => 'Grouper par état',
   'Join Project' => 'Rejoindre le projet',
@@ -667,6 +635,7 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Permet de définir
   'Search constraint "minDepth" must be no larger than search constraint "maxDepth".' => 'La contrainte de recherche « minDepth » (profondeur minimale) ne doit pas être supérieure à la contrainte de recherche « maxDepth » (profondeur maximale).',
   'Show Column' => 'Afficher la colonne',
   'Set Board Default Filter' => 'Définir le filtre par défaut du tableau de bord',
+  'Change project tags.' => 'Changer les tuyaux du projet.',
   'Execute searches for Projects.' => 'Exécute des recherches de projets.',
   'You must choose a project with a workboard.' => 'Vous devez choisir un projet avec un tableau de bord.',
   '(Unknown Rule)' => '(règle inconnue)',
@@ -722,11 +691,11 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Permet de définir
   'Disable Project Mail' => 'Désactiver les courriels du projet',
   'Remove task assignee.' => 'Retirer le responsable de la tâche.',
   'User PHID ("%s") is not a valid user.' => 'Le PHID d’utilisateur (« %s ») n’est pas un utilisateur valide.',
+  'Primary hashtag.' => 'Tuyau / mot-dièse principal.',
   'Trigger' => 'Déclencheur',
   'Show Only Active Projects' => 'Ne montrer que les projets actifs',
   'Archive Subproject' => 'Archiver un sous-projet',
   'Move to column %s.' => 'Aller à la colonne %s.',
-  'Choose a project to import columns from:' => 'Choisissez un projet d’où sélectionner les colonnes à importer :',
   'PHID of the parent project.' => 'PHID du projet parent.',
   'Allows you to change and customize the available project icons.
 
@@ -785,7 +754,6 @@ Cela signifie normalement //vos// projets, mais si vous enregistrez une requête
   'Bulk Edit Tasks...' => 'Éditer les tâches en masse...',
   'This trigger has no rules.' => 'Ce déclencheur n\'a pas de règles.',
   '%s removed the trigger for this column (was %s).' => '%s a supprimé le déclencheur pour cette colonne (précédemment %s).',
-  'This method is frozen and will eventually be deprecated. New code should use "project.search" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « project.search » à la place.',
   '%d day(s)' => '%d jour(s)',
   'Import board columns from another project.' => 'Importer les colonnes de tableau d’un autre projet.',
   'Select project members.' => 'Choisir les membres du projet.',
@@ -804,6 +772,27 @@ Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans l
   'Move Tasks to Column' => 'Déplacer les tâches vers la colonne',
   'You can not hide the default/backlog column on a board.' => 'Vous ne pouvez pas masquer la colonne par défaut ou à traiter d’un tableau.',
   'Read information about workboard columns.' => 'Lire les informations concernant les colonnes de tableau de bord.',
+  'This function allows you to find results which are not tagged with one or more projects. For example, use this query to find results which are not associated with a specific project:
+
+> not(vanilla)
+
+You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
+
+> not(vanilla), not(chocolate)
+
+You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
+
+> ios, not(bug)' => 'Cette fonction permet de rechercher des résultats ne figurant dans aucun des projets indiqués. Par exemple, utilisez cette requête pour rechercher des résultats qui ne sont pas associés à un projet spécifique :
+
+> not(vanilla)
+
+Vous pouvez exclure plusieurs projets. Ainsi, la requête suivante ne renverra que les résultats qui ne figurent dans aucun des projets exclus :
+
+> not(vanilla), not(chocolate)
+
+Vous pouvez combiner cette fonction avec d’autres fonctions pour affiner les résultats. Par exemple, utilisez la requête suivante pour trouver des résultats pour iOS qui ne sont pas des anomalies :
+
+> ios, not(bug)',
   'When mail is sent to members of this project, you will no longer receive a copy.' => 'Quand un courriel sera envoyé aux membres de ce projet, vous n’en recevrez plus une copie.',
   'Make the current filter the new default filter for this board? All users will see the new filter as the default when they view the board.' => 'Faire du filtre actuel le nouveau filtre par défaut de ce tableau ? Tous les utilisateurs verront par défaut le nouveau filtre quand ils visualisent le tableau.',
   '%s renamed this trigger from %s to %s.' => '%s a renommé ce déclencheur de %s à %s.',
@@ -822,13 +811,11 @@ Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans l
   'Choose a valid project to move tasks to.' => 'Choisir un projet valide auquel attribuer les tâches.',
   'Change Project Tags' => 'Changer les balises de projet',
   '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié un ou plusieurs projets pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
-  'Change project slugs.' => 'Changer les tuyaux du projet.',
   'Project colors must have unique keys, but two icons share the same key ("%s").' => 'Les couleurs de projet doivent avoir des clés uniques, mais deux icônes partagent la même clé (« %s »).',
   'Type members(<project>)...' => 'Tapez members(<projet>)...',
   'Project name.' => 'Nom du projet.',
   'Select results with no tags.' => 'Sélectionner les résultats sans balise.',
   'No Background' => 'Pas d\'arrière plan',
-  'T403385' => 'T403385',
   'Project Workboard' => 'Tableau de bord du projet',
   'Color key "%s" is not a valid color key. The supported color keys are: %s.' => 'La couleur clé « %s » n’est pas une couleur clé valide. Les couleurs clés prises en charge sont : %s.',
   'Age Distribution:' => 'Répartition par âge :',
@@ -880,13 +867,12 @@ Pour plus de détails sur l\'ajout de nouveaux champs, voir [[ %s | %s ]] dans l
   ),
   'Members and Watchers' => 'Membres et observateurs',
   'You can not add subprojects to this project.' => 'Vous ne pouvez pas ajouter de sous-projets à ce projet.',
+  '%s: Burnup / Burndown Rate' => '%s : incendie',
   'Remove Member' => 'Supprimer un membre',
   'Unable to Create Workboard' => 'Impossible de créer le tableau de bord',
-  'Removed Projects' => 'Projets supprimés',
   '%s Subprojects' => 'Sous-projets de %s',
   'Disable Mail' => 'Désactiver le courriel',
   'Week' => 'Semaine',
-  'Slugs' => 'Tuyaux',
   'Tasks resolved this %s: %d' => 'Tâches résolues ce %s : %d',
   'Milestone Name' => 'Nom du jalon',
   'Move Tasks' => 'Déplacer les tâches',

@@ -13,6 +13,7 @@ final class PhabricatorTypeaheadTr
   'Typeahead' => 'Typeahead',
   'This datasource ("%s") can not evaluate the function "%s(...)".' => 'Bu veri kaynağı ("%s"), "%s(...)" işlevini değerlendiremez.',
   'Function Help' => 'İşlev Yardımı',
+  'This control does not support typeahead functions.' => '',
   'In addition to typing user and project names to build queries, you can also type the names of special functions which give you more options and the ability to express more complex queries.
 
 Functions have an internal name (like `%s`) and a human-readable name, like `Current Viewer`. In general, you can type either one to select the function. You can also click the {nav icon=search} button on any typeahead control to browse available functions and find this documentation.
@@ -39,7 +40,6 @@ Bu sorgu gerçekte kontrolde gösterildiğinde, şöyle görünecektir:
   'Raw Query' => 'Ham Sorgu',
   'Token Results (%s)' => 'Anahtar Sonuçları (%s)',
   'Configured datasource class "%s" must be a valid subclass of "%s".' => 'Yapılandırılmış veri kaynağı sınıfı "%s", "%s" geçerli bir alt sınıfı olmalıdır.',
-  'Token Name' => 'Anahtar Adı',
   'Reference: Advanced Functions' => 'Kaynak: Gelişmiş İşlevler',
   'Image URI' => 'Resim URI',
   'Select' => 'Seç',
@@ -66,6 +66,7 @@ Farklı kontrollerin //farklı// işlevleri (kontrolün ne yaptığına bağlı 
   'Function Quick Reference' => 'İşlev Hızlı Kaynağı',
   'Auto' => 'Otomatik',
   'You reach the edge of the abyss.' => 'Uçurumun kenarına ulaştınız.',
+  'This datasource ("%s") requires to be logged-in to use the function "%s(...)".' => 'Bu verisource ("%s") requires to be logged-in to use the işlev "%s(...)".',
   'Priority Type' => 'Öncelik Türü',
   'Using Typeahead Functions' => 'Typeahead İşlevlerini Kullanma',
 );

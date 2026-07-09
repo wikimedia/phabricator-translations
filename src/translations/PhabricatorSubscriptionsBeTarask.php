@@ -9,7 +9,7 @@ final class PhabricatorSubscriptionsBeTarask
 
   protected function getTranslations() {
     return array(
-  'Unmute Notifications' => 'Скасаваць сьцішанасьць абвесткаў',
+  'Unmute Notifications' => 'Скасаваць сьцішанасьць абвестак',
   'Unmute' => 'Скасаваць сьцішанасьць',
 );
   }

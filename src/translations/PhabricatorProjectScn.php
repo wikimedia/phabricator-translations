@@ -50,7 +50,6 @@ final class PhabricatorProjectScn
   'Blue Sky' => 'Blu celu',
   'Umbrella' => 'Paracqua',
   'Subprojects' => 'Suttapruggetti',
-  'Added Projects' => 'Pruggetti agghiunciuti',
   'Unknown Rule' => 'Règula scanusciuta',
   'Edit Project Picture' => 'Cancia la mmàggini dû pruggettu',
   'Unripe Plum' => 'Pruna agresta',

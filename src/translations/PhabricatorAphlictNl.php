@@ -33,6 +33,7 @@ final class PhabricatorAphlictNl
   'Show the status of the notification server.' => 'Status van de meldingenserver weergeven.',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'Het configuratiebestand specificeert geen servers. Deze dienst kan niet met de buitenwereld communiceren als er geen poorten zijn ingesteld. U moet minimaal één "%s"-server en minimaal één "%s"-server specificeren.',
   'Start the notifications server.' => 'Start de meldingenserver.',
+  'Aphlict (%s) is running.' => 'Aphlict (%s) wordt uitgevoerd.',
   'User to notify.' => 'Te informeren gebruiker.',
   'Stop, then start the notification server.' => 'Stop de meldingenserver en start deze vervolgens opnieuw.',
   'Failed to read configuration file. %s' => 'Het lezen van het configuratiebestand is mislukt. %s',
@@ -52,7 +53,6 @@ final class PhabricatorAphlictNl
   'Aphlict Server started.' => 'Applict Server gestart.',
   'Stopping Aphlict Server (%s)...' => 'Aphlict Server wordt gestopt (%s)...',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => 'Het is niet gelukt om de map "%s" aan te maken voor het opgegeven PID-bestand. U moet deze map handmatig aanmaken of een andere locatie voor het PID-bestand kiezen. %s',
-  'Aphlict (%s) is running.' => 'Aphlict (%s) wordt uitgevoerd.',
 );
   }
 

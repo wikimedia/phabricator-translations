@@ -14,7 +14,6 @@ final class PhabricatorCelerityHu
   'Unable to render resource "%s", which has unknown type "%s".' => 'Nem sikerült olyan "%s" erőforrást létrehozni, mely ismeretlen típusú "%s".',
   'Writing map "%s".' => 'Térkép írása "%s".',
   'Use High Contrast Colors' => 'Használjon nagy kontrasztú színeket',
-  'Dark Mode (Experimental)' => 'Sötét mód (kísérleti)',
   'Use Larger Font Size' => 'Használjon nagyobb betűméretet',
   'Found %d binary resources.' => 'Találtam egy %d nevű bináris erőforrást.',
   'Rebuilt "%s" syntax CSS.' => 'Újraépített "%s" szintaxis CSS.',
@@ -23,6 +22,7 @@ final class PhabricatorCelerityHu
   'Found %d text resources.' => 'Találtam egy %d nevű szöveges erőforrást.',
   'Only static resources may be served.' => 'Csak statikus erőforrásokat lehet kiszolgálni.',
   'Attempting to add more metadata after metadata has been locked.' => 'Ha utóbb még több metaadatot szeretne felvenni, a metaadatok le vannak zárva.',
+  'Dark Mode' => 'Sötét mód (kísérleti)',
   'Rebuild static resource maps.' => 'A statikus erőforrás térképek újraépítése.',
   'Found %d packages.' => 'Találtam egy %d nevű csomagot.',
 );

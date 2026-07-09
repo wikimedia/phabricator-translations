@@ -16,7 +16,6 @@ final class PhabricatorBaseJa
   'Core Applications' => 'コア アプリケーション',
   'No application!' => 'アプリケーションはありません',
   '%s Application' => '%s アプリケーション',
-  'Developer Tools' => '開発者用ツール',
   'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => 'リクエストには制限付きパラメータ "%s" が含まれていますが、このコントローラ ("%s") はそれをホワイトリストに登録していません。リダイレクト攻撃の可能性があるため、このリクエストの処理を拒否します。',
   'Unknown capability \'%s\'!' => '不明な機能 \'%s\'!',
   'Unable to find transaction query for object of class "%s".' => 'クラス "%s" のオブジェクトに対するトランザクション・クエリを見つけることができません。',

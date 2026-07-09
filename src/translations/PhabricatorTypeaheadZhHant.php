@@ -39,7 +39,6 @@ When this query is actually shown in the control, it will look more like this:
   'Raw Query' => '原始查詢',
   'Token Results (%s)' => '表示結果（%s）',
   'Configured datasource class "%s" must be a valid subclass of "%s".' => '設置的資料來源類別「%s」必須是「%s」的有效子類別。',
-  'Token Name' => '表示名稱',
   'Reference: Advanced Functions' => '參照：進階函式',
   'Image URI' => '圖像 URI',
   'Select' => '選擇',

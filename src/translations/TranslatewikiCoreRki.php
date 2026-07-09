@@ -10,10 +10,8 @@ final class TranslatewikiCoreRki
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'ဘာသာပြန်တိမှ ထုတ်ယူရန် စာကြည့်တိုက်သို့ လမ်းကြောင်းပီးပါ။',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'အသိအမှတ်မပြုထားရေ "%%" ပုံစံ၊ "%s": %s နန့် စာတန်းကို ထုတ်ယူလို့မရပါ။',
   'NONE' => 'တစ်ခုလေ့မဟိပါ',
   'Slovenian' => 'ဆလိုဗေးနီးယန်းနိုင်ငံသား',
-  'Provide a locale code with "--locale".' => '"--locale" ဖြင့် ဒေသန္တရကုဒ်ကို ပီးပါ။',
   'Ignoring string "%s"; not present in translation source file.' => '"%s" စာကြောင်းကို ထားခခြင်း; ဘာသာပြန်အရင်းအမြစ်ဖိုင်မှ မတွိ့ရပါ။',
   'Provide the path to exactly one library to export translations from.' => 'ဘာသာပြန်တိမှ ထုတ်ယူရန် စာကြည့်တိုက်သို့ လမ်းကြောင်းပီးပါ။',
   'Provide a project name to export strings under with "--as".' => '"--as" အောက်ဟိ စာကြောင်းတိ တင်ပို့ဖို့ ပရောဂျက်နာမည်ကို ပီးပါ။',
@@ -29,7 +27,6 @@ final class TranslatewikiCoreRki
   'Read %s string(s).' => '%s string(s) ကိုဖတ်ပါ။',
   'Russian' => 'ရုရှားနိုင်ငံသား',
   'Class name to generate.' => 'ထုတ်လုပ်ဖို့ အတန်းနာမည်။',
-  'Frequency Data' => 'အသုံးများရေဒေတာ',
   'Provide a JSON source file with "--source".' => '"--source" ဖြင့် JSON အရင်းအမြစ်ဖိုင်ကို ပီးပါ။',
   'Generate a Phabricator translation classfile.' => 'Phabricator ဘာသာပြန် အတန်းဖိုင်ကို ဖန်တီးပါ။',
   'JSON source file containing translation strings.' => 'ဘာသာပြန်စာကြောင်းတိပါဝင်ရေ JSON အရင်းအမြစ်ဖိုင်။',

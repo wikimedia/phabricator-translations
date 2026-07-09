@@ -72,7 +72,6 @@ final class PhabricatorCorePl
   'GitHub' => 'GitHub',
   'Description' => 'Opis',
   'Wednesday' => 'Środa',
-  'Subscriptions' => 'Subskrypcje',
   'Edit Picture' => 'Edytuj zdjęcie',
   'Edit Document: %s' => 'Edytuj dokument: %s',
   'All Tasks' => 'Wszystkie zadania',

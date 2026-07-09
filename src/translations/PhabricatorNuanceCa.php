@@ -44,6 +44,7 @@ final class PhabricatorNuanceCa
   'Source "%s" (of class "%s") returned an invalid value from method "%s": all values must be objects of class "%s".' => 'La font "%s" (de la classe "%s") ha retornat un valor no vàlid del mètode "%s": tots els valors han de ser objectes de la classe "%s".',
   'You do not have permission to manage sources.' => 'No teniu permís per gestionar fonts.',
   'Got a complaint? Complain here! We love complaints.' => 'Tens una queixa? Queixa’t aquí! Ens encanten les queixes.',
+  'Items' => 'Elements',
   'Removed Label: %s' => 'Etiqueta eliminada: %s',
   'Importing all cursors: %s.' => 'Important tots els  cursors: %s.',
   'Can Manage Sources' => 'Pots gestionar fonts',

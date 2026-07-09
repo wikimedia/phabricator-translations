@@ -20,6 +20,7 @@ final class PhabricatorSettingsLb
   'Current Setting' => 'Aktuell Astellung',
   'Visual Studio Code' => 'Visual Studio Code',
   '⚪ Ignore' => '⚪ Ignoréieren',
+  'External Accounts' => 'Extern Konten',
   'Old Password' => 'Aalt Passwuert',
   'Display Preferences' => 'Astellunge weisen',
   'Changes saved.' => 'Ännerunge gespäichert.',

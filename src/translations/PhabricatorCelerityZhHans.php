@@ -14,7 +14,6 @@ final class PhabricatorCelerityZhHans
   'Unable to render resource "%s", which has unknown type "%s".' => '无法渲染资源“%s”，它拥有未知类型“%s”。',
   'Writing map "%s".' => '正在写入地图“%s”。',
   'Use High Contrast Colors' => '使用高对比度颜色',
-  'Dark Mode (Experimental)' => '深色模式（实验功能）',
   'Use Larger Font Size' => '使用更大的字体大小',
   'Found %d binary resources.' => '找到%d个二进制资源。',
   'No resource with symbol "%s" exists in source "%s"!' => '在来源“%2$s”中不存在符号为“%s”的资源！',
@@ -30,6 +29,7 @@ final class PhabricatorCelerityZhHans
   'Rebuild syntax highlighting CSS.' => '重组语法高亮CSS',
   'Optimizing...' => '正在优化...',
   'Found %d text resources.' => '找到%d个文本资源。',
+  'Dark Mode' => '深色模式（实验功能）',
   'Found %d packages.' => '找到%d个包。',
 );
   }

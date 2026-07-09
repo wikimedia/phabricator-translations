@@ -19,7 +19,6 @@ final class PhabricatorPonderPa
   'QUESTION DETAIL' => 'ਸਵਾਲ ਵੇਰਵਾ',
   'Obsolete' => 'ਪੁਰਾਣਾ',
   'Ponder Questions' => 'ਸਵਾਲਾਂ \'ਤੇ ਗੌਰ ਕਰੋ',
-  'Close Question' => 'ਸਵਾਲ ਬੰਦ ਕਰੋ',
   'Ask Question' => 'ਸਵਾਲ ਪੁੱਛੋ',
   'New Question' => 'ਨਵਾਂ ਸਵਾਲ',
   'Log In to Answer' => 'ਜਵਾਬ ਦੇਣ ਲਈ ਦਾਖ਼ਲ ਹੋਵੋ',

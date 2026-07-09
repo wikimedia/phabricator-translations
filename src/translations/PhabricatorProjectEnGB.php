@@ -51,12 +51,12 @@ dictionary, which may contain these keys:
 
 You can look at the default configuration below for an example of a valid
 configuration.',
-  'Two different colors ("%s", "%s") are marked as the default color. Only one color may be marked as the default.' => 'Two different colours ("%s", "%s") are marked as the default colour. Only one colour may be marked as the default.',
-  'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
+  'Associate one or more projects to the object by listing their hashtags. Separate project tags with spaces. For example, use `!projects #ios #feature` to add both related projects.
 
-Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
+Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any project tags.' => 'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
 
 Projects which are invalid or unrecognised will be ignored. This command has no effect if you do not specify any projects.',
+  'Two different colors ("%s", "%s") are marked as the default color. Only one color may be marked as the default.' => 'Two different colours ("%s", "%s") are marked as the default colour. Only one colour may be marked as the default.',
   'Project colors must include one color marked as the "%s" color, but no such color exists.' => 'Project colours must include one colour marked as the "%s" colour, but no such colour exists.',
   'Change Background Color' => 'Change Background Colour',
   'Choose Icon and Color...' => 'Choose Icon and Colour...',

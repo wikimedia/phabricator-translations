@@ -10,6 +10,7 @@ final class PhabricatorConpherenceLb
   protected function getTranslations() {
     return array(
   'New Message' => 'Neie Message',
+  'Participants (%s)' => 'Participanten (%s)',
   'No Sound' => 'Keen Toun',
 );
   }

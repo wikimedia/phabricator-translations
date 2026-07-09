@@ -10,9 +10,7 @@ final class TranslatewikiCoreBn
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'অনুবাদ রপ্তানি করার জন্য একটি লাইব্রেরির পথ প্রদান করুন।',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'অচেনা "%%" প্যাটার্ন সহ স্ট্রিং বের করতে অক্ষম, " %s ": %s ।',
   'NONE' => 'কোনটিই নয়',
-  'Provide a locale code with "--locale".' => '"--locale" সহ একটি স্থানীয় কোড প্রদান করুন।',
   'Ignoring string "%s"; not present in translation source file.' => 'স্ট্রিং "%s" উপেক্ষা করা হচ্ছে; অনুবাদ উৎস ফাইলে উপস্থিত নয়।',
   'Provide the path to exactly one library to export translations from.' => 'অনুবাদ রপ্তানি করার জন্য ঠিক একটি লাইব্রেরি পথ প্রদান করুন।',
   'Name of the project that a translation file is being generated for.' => 'যে প্রকল্পের জন্য কোনও অনুবাদ ফাইল তৈরি করা হচ্ছে তার নাম৷',

@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorDivinerEsES
+final class PhabricatorGuidesLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'es_ES';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'Found %s file(s) in project.' => 'Se encontró %s archivo(s) en el proyecto.',
+  'Install' => 'Installéieren',
 );
   }
 

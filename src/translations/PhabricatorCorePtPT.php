@@ -85,7 +85,6 @@ Briefly:
   'A JSON-encoded object.' => 'Um objeto codificado em JSON.',
   'Download Data Export' => 'Transferir Exportação de Dados',
   'Disabled' => 'Desativado',
-  'Install' => 'Instalar',
   'Some of these errors are caused by surplus schemata (extra tables or columns which this software does not expect). These are not serious. For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => 'Alguns desses erros são causados por esquemas excedentes (tabelas ou colunas extras que este software não espera). Isso não é sério. Para obter informações sobre como resolver esses problemas, consulte a seção "Esquemas excedentes" no artigo "Gerenciando ajustes de armazenamento" na documentação.',
 );
   }

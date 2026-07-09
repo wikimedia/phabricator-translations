@@ -22,10 +22,6 @@ final class PhabricatorCountdownFrFR
   'Create a Countdown' => 'Créer un compte à rebours',
   'Utilize the full capabilities of your ALU.' => 'Utilisez toutes les capacités de votre UAL.',
   'Launched on %s' => 'Démarré sur %s',
-  'Countdown titles must not be longer than %s character(s).' => array(
-    'Les titres de comptes à rebours ne doivent pas dépasser %s caractère.',
-    'Les titres de comptes à rebours ne doivent pas dépasser %s caractères.',
-  ),
   'No countdowns found.' => 'Aucun compte à rebours trouvé.',
   'Upcoming' => 'Imminent',
   'Someone comments on a countdown.' => 'Quelqu’un a commenté un compte à rebours.',
@@ -57,6 +53,10 @@ final class PhabricatorCountdownFrFR
   'You do not have permission to create a dashboard.' => 'Vous n\'avez pas la permission de créer un tableau de bord.',
   'New countdown end date.' => 'Nouvelle date de fin du compte à rebours.',
   'The countdown name.' => 'Le nom du compte à rebours.',
+  'Countdown titles must not be longer than %s characters.' => array(
+    'Les titres de comptes à rebours ne doivent pas dépasser %s caractère.',
+    'Les titres de comptes à rebours ne doivent pas dépasser %s caractères.',
+  ),
   'Read information about countdowns.' => 'Lire les informations concernant les comptes à rebours.',
   'COUNTDOWN DESCRIPTION' => 'DESCRIPTION DU COMPTE À REBOURS',
   'Creates and edits countdowns.' => 'Créer et modifier des comptes à rebours.',

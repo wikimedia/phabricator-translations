@@ -11,6 +11,7 @@ final class PhabricatorPhurlTr
     return array(
   'Alias' => 'Takma ad',
   'Edit Phurl' => 'Phurl\'u Düzenle',
+  'Search for Phurl URLs created by specific authors.' => 'Şunu arayın: Phurl URLs oluşturmad by specific yazars.',
   'URL' => 'URL',
   'All URLs' => 'Tüm URL\'ler',
   '%s changed the alias from %s to %s.' => '%s, takma adını %s ile %s değiştirdi.',
@@ -19,6 +20,7 @@ final class PhabricatorPhurlTr
   'Configure creation and editing forms in Phurl.' => 'Phurl\'da oluşturma ve düzenleme formlarını yapılandırın.',
   'New URL description.' => 'Yeni URL açıklaması.',
   '[Phurl]' => '[Phurl]',
+  'Created By' => 'Oluşturan',
   'The URL to shorten.' => 'Kısaltılacak URL.',
   'Select a phurl...' => 'Bir phurl seç...',
   '%s changed the destination URL from %s to %s.' => '%s, hedef URL\'yi %s ile %s değiştirdi.',
@@ -50,6 +52,7 @@ final class PhabricatorPhurlTr
   'Invalid URL' => 'Geçersiz URL',
   'New URL name.' => 'Yeni URL adı.',
   '%s changed the destination URL %s from %s to %s.' => '%s, hedef URL\'yi %s üzerinden %s ile %s değiştirdi.',
+  'The author of a URL can always view and edit it.' => 'yazar of a URL always görüntüleme and düzenleme it.',
   'You do not have permission to create a Phurl URL.' => 'Phurl URL oluşturma izniniz yok.',
   'Search for Phurl URLs by the non-shortened URL.' => 'Kısaltılmamış URL\'ye göre Phurl URL\'lerini arayın.',
   'The alias for the URL.' => 'URL takma adı.',

@@ -19,7 +19,6 @@ final class PhabricatorUiexampleHu
   'Minor Not-Red Event' => 'Kisebb, nem vörös esemény',
   'Christmas' => 'Karácsony',
   'Squares' => 'Négyzetek',
-  'Images' => 'Képek',
   'Rain' => 'Eső',
   'Another minor event.' => 'Másik kisebb esemény.',
   'Setup errors and warnings.' => 'Beállítási hibák és figyelmeztetések.',
@@ -51,8 +50,6 @@ final class PhabricatorUiexampleHu
   'Typeaheads' => 'Gépelje be (?)',
   'Extras' => 'Extrák',
   'Colors of the Rainbow' => 'A szivárvány színei',
-  'City/State' => 'Város/Állam',
-  'Let\'s Go Shopping' => 'Menjünk vásárolni',
   'Confirmed your account.' => 'Megerősítette a fiókját.',
   'Timeline View' => 'Idővonal nézet',
   'Basic New User State information block.' => 'Alapvető új felhasználói állapot információs blokk.',
@@ -91,8 +88,6 @@ final class PhabricatorUiexampleHu
   'Black' => 'Fekete',
   'Dec 31, 1969' => '1969. dec. 31.',
   'Assigned to' => 'Hozzárendelve',
-  'Postal Code' => 'Irányítószám',
-  'Country' => 'Ország',
 );
   }
 

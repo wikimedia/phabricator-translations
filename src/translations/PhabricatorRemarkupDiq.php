@@ -11,7 +11,6 @@ final class PhabricatorRemarkupDiq
     return array(
   'Invalid markup engine.' => 'Nêraverde motorê biçımkerdışi',
   'Process text through remarkup.' => 'Zey vatışiya metini karfinê.',
-  'Content may not be empty.' => 'Zerrek veng nêbeno.',
 );
   }
 

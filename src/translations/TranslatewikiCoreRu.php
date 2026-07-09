@@ -11,10 +11,8 @@ final class TranslatewikiCoreRu
     return array(
   'Provide the path to a library to export translations from.' => 'Укажите путь к библиотеку для экспорта оттуда переводов.',
   'Swedish' => 'Шведский',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'Невозможно извлечь строку с нераспознанным паттерном "%%" "%s": %s.',
   'NONE' => 'NONE',
   'Slovenian' => 'Словенский язык',
-  'Provide a locale code with "--locale".' => 'Обозначьте участок кода параметром "--locale".',
   'Catalan' => 'Каталонский',
   'Dutch' => 'Голландский',
   'Raw strings' => 'Сырые строки',

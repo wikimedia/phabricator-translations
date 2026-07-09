@@ -15,6 +15,7 @@ final class PhabricatorOwnersTr
   'Create New Package' => 'Yeni Paket Oluştur',
   'Tales of adventure for this package.' => 'Bu paket için macera hikayeleri.',
   'Search for active or archived packages.' => 'Etkin veya arşivlenmiş paketleri arayın.',
+  'Change package authority rules.' => 'Change package yazarity kurals.',
   'Automatically trigger audits for commits affecting files in this package.' => 'Bu paketteki dosyaları etkileyen taahhütler için denetimleri otomatik olarak tetikleyin.',
   'Include' => 'Dahil Et',
   'Path Exists in Repository' => 'Depoda Yol Var',
@@ -22,6 +23,7 @@ final class PhabricatorOwnersTr
   'Audit Unreviewed Commits and Commits With No Owner Involvement' => 'Denetlenmemiş Taahhütleri ve Taahhütleri Bulunmayan Sahibin Katılımı Yok',
   'No exclusion value for path "%s"!' => '"%s" yolu için dışlama değeri yok!',
   'Search for packages by name substrings.' => 'Paketleri ad alt dizelerine göre arayın.',
+  'Authority setting information.' => 'Authority ayar inbiçimion.',
   'Changeset attribute "%s" is not valid. Valid changeset attributes are: %s.' => 'Değişiklik kümesi niteliği "%s" geçerli değil. Geçerli değişiklik kümesi özellikleri: %s.',
   'Owners Packages' => 'Sahip Paketleri',
   'Select and reorder package fields.' => 'Paket alanlarını seçin ve yeniden sıralayın.',
@@ -30,17 +32,20 @@ final class PhabricatorOwnersTr
   '%s changed %s package owner(s), added %s: %s; removed %s: %s.' => '%s, %s paket sahibini değiştirdi, %s eklendi: %s; %s kaldırıldı: %s.',
   '%s updated paths for this package.' => '%s, bu paket yolunu güncelledi.',
   'Auto Review' => 'Otomatik İnceleme',
+  '%s adjusted package authority rules from %s to %s.' => '',
   'Packages: Invalid Owner' => 'Paketler: Geçersiz Sahip',
   'Auto review information.' => 'Otomatik inceleme bilgisi.',
   'Group sections of a codebase into packages for re-use in other applications, like Herald rules.' => 'Herald kuralları gibi, bir kod tabanının bölümlerini diğer uygulamalarda yeniden kullanılmak üzere paketlere gruplayın.',
   'Path Not Found On Default Branch' => 'Varsayılan Dalda Bulunmayan Yol',
   'Affected By Herald Rules' => 'Herald Kuralları Tarafından Etkilendi',
   'Users and projects which own the package.' => 'Paketin sahibi olan kullanıcılar ve projeler.',
+  'Failed to load a random repository. You may need to generate more test repositories first.' => '',
   'Subscribe to Changes With Non-Owner Author' => 'Sahip Olmayan Yazar ile Değişikliklere Abone Ol',
   'Specify the files and directories which comprise this package.' => 'Bu paketi oluşturan dosyaları ve dizinleri belirtin.',
   'Packages: %s' => 'Paketler: %s',
   'owner' => 'sahibi',
   'The package description.' => 'Paket açıklaması.',
+  'Strong (Package Owns Paths)' => 'Güçlü (Paket Yollara Sahip)',
   'Review Changes With Non-Owner Author' => 'Sahibi Olmayan Yazarla Değişiklikleri İncele',
   '%s renamed this package from %s to %s.' => '%s, bu paketi %s iken %s olarak yeniden adlandırdı.',
   'Audit Unreviewed Commits' => 'İncelenmemiş Taahhütleri Denetle',
@@ -70,6 +75,7 @@ final class PhabricatorOwnersTr
   'Automatically trigger reviews for commits affecting files in this package.' => 'Bu paketteki dosyaları etkileyen taahhütler için incelemeleri otomatik olarak tetikleyin.',
   'Dominion setting information.' => 'Hakimiyet ayar bilgisi.',
   'Owners of a package may always view it.' => 'Bir paketin sahipleri bunu her zaman görebilir.',
+  'Weak (Package Watches Paths)' => 'Zayıf (Paket Yolları İzler)',
   'No commits in this package.' => 'Bu pakette taahhüt yok.',
   'Review All Changes' => 'Tüm Değişiklikleri İnceleyin',
   'Archive or enable the package.' => 'Paketi arşivleyin veya etkinleştirin.',
@@ -106,6 +112,7 @@ final class PhabricatorOwnersTr
   'No Auditing' => 'Denetim Yok',
   'Map of custom fields for Owners packages. For details on adding custom fields to Owners, see "Configuring Custom Fields" in the documentation.' => 'Sahipler paketleri için özel alanların haritası. Sahiplere özel alan ekleme hakkında ayrıntılar için, belgelerde "Özel Alanların Yapılandırılması" bölümüne bakın.',
   'Packages: ...' => 'Paketler: ...',
+  'Authority setting "%s" is not valid. Valid settings are: %s.' => '',
   'Activate Package' => 'Paketi Etkinleştir',
   'This package will become active again.' => 'Bu paket tekrar aktif olacak.',
   '%s updated the description for this package.' => '%s bu paketin açıklamasını güncelledi.',
@@ -132,6 +139,30 @@ final class PhabricatorOwnersTr
   'Edit Paths: %s' => 'Yolları Düzenle: %s',
   'Package %d' => 'Paket %d',
   'Add New Path' => 'Yeni Yol Ekle',
+  'When updating the paths for a package, pass a list of dictionaries like
+this as the `value` for the transaction:
+
+```lang=json, name="Example Paths Value"
+[
+  {
+    "repositoryPHID": "PHID-REPO-1234",
+    "path": "/path/to/directory/",
+    "excluded": false
+  },
+  {
+    "repositoryPHID": "PHID-REPO-1234",
+    "path": "/another/example/path/",
+    "excluded": false
+  }
+]
+```
+
+This transaction will set the paths to the list you provide, overwriting any
+previous paths.
+
+Generally, you will call `owners.search` first to get a list of current paths
+(which are provided in the same format), make changes, then update them by
+applying a transaction of this type.' => '',
   '%s changed the audit rule for this package from %s to %s.' => '%s, bu paketin denetim kuralını %s\'den %s\'e değiştirdi.',
   'Active Packages' => 'Paketleri Etkinleştir',
   'Exclude' => 'Harici Et',

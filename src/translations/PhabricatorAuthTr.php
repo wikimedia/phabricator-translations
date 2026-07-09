@@ -29,6 +29,7 @@ Genel olarak, bu seçeneği yalnızca ssh-keygen\'in bozulduğu ve düzeltmenin 
   'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'Yetkilendirme sağlayıcı yapılandırması kilitlenmiş, ve açılmadan değiştirilemez. Ayrıntılar için %s yapılandırma ayarına bakın.',
   'Server name must contain only lowercase letters, digits, and periods.' => 'Sunucu adı yalnızca küçük harf, rakam ve noktalardan oluşmalıdır.',
   'Revoke Tokens' => 'Anahtarları İptal Et',
+  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%s), expected exactly one.' => 'Beklenmedik sayıda beklenmedik zorluklarla (%s) TOTP sınama doğrulamasına ulaşıldı, tam olarak bir tane bekleniyor.',
   'There are too many configured default registration providers.' => 'Çok fazla yapılandırılmış varsayılan kayıt sağlayıcısı var.',
   'Unlink "%s" Account?' => '"%s" hesabının bağlantısı kaldırılsın mı?',
   'Strip factors from specified users.' => 'Belirtilen kullanıcılardan faktörleri ayırın.',
@@ -76,7 +77,6 @@ Yapılandırmayı tamamladıktan sonra **Anahtar** ve **Gizli** tuşlarını yuk
   'You have not configured any multi-factor providers yet.' => 'Henüz çok faktörlü sağlayıcı yapılandırmadınız.',
   'Unable to Log In' => 'Giriş Yapılamıyor',
   'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'Oturum açmak için kullandığınız harici hizmet ("%s") başka bir %s kullanıcı hesabıyla zaten ilişkilendirilmiş. Diğer %s hesabında oturum açın ve yeni bir %s hesabına bağlamadan önce harici hesabın bağlantısını kaldırın.',
-  'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Bu yazılımı kullanabilmeniz için hesabınıza çok faktörlü kimlik doğrulaması eklemeniz gerekir. Çok faktörlü kimlik doğrulama, saldırganların erişim kazanmasını veya hassas işlemler yapmasını zorlaştırarak hesabınızın güvenliğini sağlamaya yardımcı olur.',
   'To configure Twitch.tv OAuth, create a new application here:
 
 https://www.twitch.tv/settings/applications
@@ -264,7 +264,6 @@ Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırr
   'Add Multi-Factor Auth' => 'Çok Faktörlü Kimlik Doğrulama Ekle',
   'The contact number.' => 'İrtibat numarası.',
   'You must enter an LDAP username.' => 'Bir LDAP kullanıcı adı girmelisiniz.',
-  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%d), expected exactly one.' => 'Beklenmedik sayıda beklenmedik zorluklarla (%d) TOTP sınama doğrulamasına ulaşıldı, tam olarak bir tane bekleniyor.',
   'Refresh LDAP Account' => 'LDAP Hesabını Yenile',
   'The password and confirmation do not match.' => 'Parola ve onay uyuşmuyor.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Bir kullanıcının hız sınırlı işlemler yapmaya devam edebilmesi için işlem sayaçlarını sıfırlayın.',
@@ -322,6 +321,7 @@ Parolalar yalnızca kaldırılmakla kalmaz, iptal edilir. Kullanıcılar daha ö
   'You may optionally customize the enrollment message users are presented with by providing a replacement message below:' => 'İsteğe bağlı olarak, kullanıcılara sunulan kayıt mesajını aşağıdaki değiştirme mesajını vererek özelleştirebilirsiniz:',
   'Mail Body: Email Login' => 'Posta Gövdesi: E-posta Girişi',
   'Send a test message to %s?' => '%s bir test mesajı gönderilsin mi?',
+  'Edit Provider' => 'Sağlayıcıyı Düzenle',
   'Auth' => 'Auth',
   'Confirm the link with this %s account. This account will be able to log in to your %s account.' => 'Bu %s hesapla bağlantıyı onaylayın. Bu hesap %s hesabınıza oturum açabilecektir.',
   '**JIRA Instance Name**
@@ -364,6 +364,7 @@ Küçük harfler, rakamlar ve nokta kullanın. Örneğin, `jira`, `jira.mycompan
   'Target "%s" is not a valid target to revoke credentials from. Usually, revoke from "@username".' => '"%s" hedefi, kimlik bilgilerini iptal etmek için geçerli bir hedef değil. Genellikle, "@kullanıcıadı"\'dan iptal edin.',
   '%d-Bit Secret' => '%d Bit Sırrı',
   'Duo is not requiring a challenge, which defeats the purpose of MFA. Duo must be configured to challenge you.' => 'Duo, MFA\'nın amacını yenen bir meydan okuma gerektirmez. Duo, size meydan okuyacak şekilde yapılandırılmalıdır.',
+  'Remove trust from an OAuth client. Users must manually confirm reauthorization of untrusted OAuth clients.' => '',
   'The email address you just clicked a link from is already associated with a registered account (%s), but is not verified. Log in to that account to continue. If you can not log in, you can register a new account.' => 'Bir bağlantıyı yeni tıkladığınız e-posta adresi zaten kayıtlı bir hesapla (%s) ilişkilendirilmiş, ancak doğrulanmadı. Devam etmek için bu hesaba giriş yapın. Giriş yapamıyorsanız, yeni bir hesap kaydedebilirsiniz.',
   'You are destroying an entire class of credentials. This may be very disruptive to users. You should normally do this only if you suspect there has been a widespread compromise which may have impacted everyone.' => 'Tüm bir kimlik bilgileri sınıfını yok ediyorsunuz. Bu kullanıcılar için çok rahatsız edici olabilir. Normalde bunu ancak herkesi etkilemiş olabilecek yaygın bir uzlaşma olduğundan şüpheleniyorsanız yapmalısınız.',
   'If you want to link an existing %s account to this external account, do not continue. Instead: log in to your existing account, then go to "Settings" and link the account in the "External Accounts" panel.' => 'Mevcut bir %s hesabını bu harici hesaba bağlamak istiyorsanız devam etmeyin. Bunun yerine: mevcut hesabınıza giriş yapın, ardından "Ayarlar"\'a gidin ve "Harici Hesaplar" panelinde hesabı bağlayın.',
@@ -396,7 +397,6 @@ Henüz yapmadıysanız, telefonunuza bir TOTP uygulaması indirin ve yükleyin. 
   'Registration Failed' => 'Kayıt Başarısız',
   'Unable to Verify Email' => 'E-posta Doğrulanamıyor',
   'Public SSH Key' => 'Genel SSH Anahtarı',
-  'Username and password are required!' => 'Kullanıcı adı ve parola gerekli!',
   'Disqus' => 'Disqus',
   'Add MFA Provider' => 'MFA Sağlayıcısı Ekle',
   'Expected \'%s\' in request!' => 'İstekte \'%s\' bekleniyor!',
@@ -570,6 +570,7 @@ Yapılandırmayı tamamladıktan sonra, Google Client\'tan **Müşteri Kimliği*
   'You are already logged in.' => 'Zaten oturum açtınız.',
   'Wait For Approval Instructions' => 'Onay Talimatlarını Bekleyin',
   'Link LDAP Account' => 'LDAP Hesabını Bağla',
+  'Invalid JSON response from "user.whoami" request: %s' => '"user.whoami" isteğinden geçerli JSON yanıtı bekleniyor.',
   'ldap.example.com' => 'ldap.example.com',
   'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Bu parola, sağlanandan ("%2$s") farklı bir nesne için bir PHID nesnesiyle ("%s") ilişkilendirilir.',
   'Disable Number' => 'Numaraya Devre Dışı Bırak',
@@ -616,6 +617,7 @@ Bağlanmak istediğiniz uzak sunucu için kalıcı bir ad seçin. Bu ad, URL dah
   '%s changed the credential for this provider from %s to %s.' => '%s, bu sağlayıcı için kimlik bilgilerini %s üzerinden %s değiştirdi.',
   'You are creating a new account linked to an existing external account.' => 'Mevcut bir harici hesaba bağlı yeni bir hesap oluşturuyorsunuz.',
   'Signing session legalpad documents of user with no session!' => 'Oturum olmadan kullanıcının legalpad belgelerinin imzalanması!',
+  'This is the only external login account linked to your account. If you remove it, you may no longer be able to log in.' => '',
   '%s updated the message text.' => '%s mesaj metnini güncelledi.',
   'NOTE: Amazon **requires** HTTPS, but this service does not use HTTPS. **You will not be able to add Amazon as an authentication provider until you configure HTTPS on this install**.' => 'NOT: Amazon HTTPS **gerektirir**, ancak bu hizmet HTTPS kullanmaz. **Bu kurulumda HTTPS\'yi yapılandırana kadar Amazon\'u kimlik doğrulama sağlayıcısı olarak ekleyemezsiniz**.',
   'Verify this email address (%s) and attach it to your account?' => 'Bu e-posta adresini doğrulayın (%s) ve hesabınıza eklensin mi?',
@@ -653,9 +655,31 @@ Bağlanmak istediğiniz uzak sunucu için kalıcı bir ad seçin. Bu ad, URL dah
   'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Kimlik bilgilerini iptal etmek için hedefi "--from" ile belirtin veya "--everywhere" seçeneğini belirtin, ancak ikisini birden belirtmeyin.',
   'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Tarayıcınız, bu hesapla ilişkili olandan farklı bir kayıt anahtarı gönderdi. Çerezlerinizi temizlemeniz gerekebilir.',
   'Log in to %s' => '%s ile oturum açın',
+  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Girdiğiniz parola iptal edildi. İptal edilen bir parolayı tekrar kullanamazsınız. Yeni bir parola seçin.',
   'Make Primary Number' => 'Birincil Numara Yap',
   'Strip factors from all users.' => 'Tüm kullanıcılardan faktörleri ayırın.',
   'Duo username pairing mode ("%s") is not supported.' => 'Duo kullanıcı adı eşleme modu ("%s") desteklenmiyor.',
+  '**Step 2 of 2 - Configure OAuth Server**
+
+To configure OAuth, create a new application here:
+
+%s
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Adım 2/2 -  OAuth Sunucuyu Yapılandır**
+
+OAuth\'u yapılandırmak için burada yeni bir uygulama oluşturun:
+
+%s/oauthserver/client/create/
+
+Uygulamanızı oluştururken şu ayarları kullanın:
+
+  - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `%s`
+
+Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**\'nı yukarıdaki alanlara kopyalayın. (Önce \'Yeni Gizli\'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)',
   'Facebook' => 'Facebook',
   'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Gerçekten tüm anahtarları iptal ettiniz mi? Diğer geçici yetkilerin yanı sıra, bekleyen parola sıfırlama veya hesap kurtarma bağlantılarını devre dışı bırakır.',
   'LDAP Version' => 'LDAP Sürümü',
@@ -765,6 +789,7 @@ Etkilenen kullanıcılar oturumu kapatır ve tekrar oturum açmaları gerekir.',
   'List available multi-factor authentication factors.' => 'Kullanılabilir çok faktörlü kimlik doğrulama faktörlerini listeleyin.',
   'Account Recovery' => 'Hesap Kurtarma',
   'Multi-Factor Authentication Setup Complete' => 'Çok Faktörlü Kimlik Doğrulama Kurulumu Tamamlandı',
+  'You changed the email address to a @wikimedia.org address but your External Account is not a WMF SUL account. Please log into mediawiki.org with your WMF SUL account (ending in "(WMF)" or "-WMF") provided to you by WMF ITS. Then register again in Phabricator. See also https://office.wikimedia.org/wiki/User_account_policy' => '',
   'Trusted' => 'Güvenilir',
   'Expected "newResultFromChallengeResponse()" to return an object of class "%s"; got something else (in "%s").' => '"newResultFromChallengeResponse()" öğesinin "%s" sınıfındaki bir nesneyi döndürmesi bekleniyor; başka bir şey var ("%s").',
   'Allow Logins' => 'Girişlere İzin Ver',
@@ -1003,6 +1028,7 @@ Yapılandırmayı tamamladıktan sonra **Tüketici Anahtarı** ve **Tüketici S�
   'Expected valid JSON response from Google account data request.' => 'Google hesabı veri isteğinden geçerli JSON yanıtı bekleniyor.',
   'The invite code in the link you clicked has already been accepted.' => 'Tıkladığınız bağlantıdaki davet kodu zaten kabul edildi.',
   'No outbound mailer which can deliver SMS messages is configured.' => 'SMS mesajı gönderebilen giden posta gönderisi yapılandırılmamıştır.',
+  'True to sign this transaction group with MFA.' => '',
   'If you leave high security, you will need to authenticate again the next time you try to take a high security action.' => 'Yüksek güvenlikten ayrılırsanız, bir sonraki yüksek güvenlik önlemi almaya çalıştığınızda tekrar kimlik doğrulamanız gerekir.',
   'Link %s Account' => '%s Hesabı Bağla',
   'The LDAP authentication provider is not enabled.' => 'LDAP kimlik doğrulama sağlayıcısı etkin değil.',
@@ -1019,7 +1045,6 @@ Yapılandırmayı tamamladıktan sonra **Tüketici Anahtarı** ve **Tüketici S�
   'sn' => 'sn',
   'A passphrase was provided for this private key, but it does not require a passphrase. Check that you supplied the correct key, or omit the passphrase.' => 'Bu özel anahtar için gerekli olmadığı halde bir parola sağlandı. Doğru anahtarı sağladığınızı kontrol edin, ya da parolayı çıkarın.',
   'This provider is not configured to allow linking.' => 'Bu sağlayıcı bağlantıya izin verecek şekilde yapılandırılmamış.',
-  'Expected valid JSON response from "user.whoami" request.' => '"user.whoami" isteğinden geçerli JSON yanıtı bekleniyor.',
   '%s created this provider.' => '%s bu sağlayıcıyı oluşturdu.',
   'Multi-Factor' => 'Çok Faktör',
   'This contact number is already in use.' => 'Bu iletişim numarası zaten kullanılıyor.',
@@ -1094,27 +1119,6 @@ LDAP Hatası #%d: %s',
   'These auth factors will be stripped:' => 'Bu kimlik doğrulama faktörleri kaldırılacaktır:',
   'Contact numbers must have a contact number.' => 'İrtibat numaralarının bir irtibat numarası olmalıdır.',
   'Engine: Session' => 'Motor: Oturum',
-  '**Step 2 of 2 - Configure OAuth Server**
-
-To configure OAuth, create a new application here:
-
-%s/oauthserver/client/create/
-
-When creating your application, use these settings:
-
-  - **Redirect URI:** Set this to: `%s`
-
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Adım 2/2 -  OAuth Sunucuyu Yapılandır**
-
-OAuth\'u yapılandırmak için burada yeni bir uygulama oluşturun:
-
-%s/oauthserver/client/create/
-
-Uygulamanızı oluştururken şu ayarları kullanın:
-
-  - **URI Yönlendirmesi:** Bunu şu şekilde ayarlayın: `%s`
-
-Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırrı**\'nı yukarıdaki alanlara kopyalayın. (Önce \'Yeni Gizli\'yi tıklayarak istemci sırrını oluşturmanız gerekebilir.)',
   'Require Existing Duo Account' => 'Mevcut Duo Hesap İste',
   'Upload SSH Public Key' => 'SSH Genel Anahtarını Yükle',
   'No such user "%s"!' => 'Böyle bir "%s" kullanıcı yok!',
@@ -1177,6 +1181,7 @@ Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırr
   '%s enabled this provider.' => '%s bu sağlayıcıyı etkinleştirdi.',
   'After entering the key, the application should display a numeric code. Enter that code below to confirm that you have configured the authenticator correctly:' => 'Anahtarı girdikten sonra, uygulama sayısal bir kod görüntülemelidir. Kimlik doğrulayıcıyı doğru bir şekilde yapılandırdığınızı doğrulamak için bu kodu aşağıya girin:',
   'If you are currently using your phone to view this page, click this button to open the Duo application:' => 'Şu anda bu sayfayı görüntülemek için telefonunuzu kullanıyorsanız, Duo uygulamasını açmak için bu düğmeyi tıklayın:',
+  'External Account is a WMF SUL account but email address is not a @wikimedia.org email address. Use your @wikimedia.org email address to create your Phabricator account.' => '',
   'Specify either specific users with %s, or all users with %s, but not both.' => '%s sahip belirli kullanıcıları veya %s sahip olan ancak ikisini birden olmayan tüm kullanıcıları belirtin.',
   'Unable to refresh token!' => 'Anahtar yenilenemiyor!',
   '%s changed the status of this provider from %s to %s.' => '%s, bu sağlayıcının durumunu %s üzerinden %s değiştirdi.',
@@ -1188,7 +1193,6 @@ Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırr
   'Active OAuth Token (Expires: %s)' => 'Etkin OAuth Anahtarı (Geçerlilik süresi: %s)',
   'Specify the credential type to revoke with "--type" or "--everything", but not both.' => '"--type" veya "--everything" ile iptal edilecek kimlik bilgilerini belirtin, ancak ikisini birden kullanmayın.',
   '(If given an option, select that this key is "Time Based", not "Counter Based".)' => '(Bir seçenek sunulursa, bu tuşun "Sayaç Bazlı" değil, "Zamana Bağlı" olduğunu seçin.)',
-  'These methods are recently introduced and subject to change.' => 'Bu yöntemler yakın zamanda tanıtıldı ve değişikliğe tabidir.',
   'LDAP Password: ' => 'LDAP Parolası:',
   'Bad Invite Code' => 'Hatalı Davet Kodu',
   '{icon check, color="green"} **Setup Complete!**
@@ -1249,6 +1253,7 @@ Bunun etkili olması için arka plan pencerelerini yeniden başlatmanız gerekti
   'Again' => 'Tekrar',
   'Expected valid JSON response from GitHub account data request.' => 'GitHub hesap verisi isteğinden geçerli JSON yanıtı bekleniyor.',
   '%s disabled account unlinking.' => '%s devre dışı bırakılmış hesabın bağlantısı kaldırıldı.',
+  '[%s] %s has invited you to join %s' => '',
   'Revoke Tokens?' => 'Anahtarlar İptal Edilsin mi?',
   'Confirm %s Account Link' => '%s Hesap Bağlantısını Onayla',
   'You have not configured an outbound SMS mailer. You must configure one before you can set up SMS. See: %s' => 'Giden bir SMS postası yapılandırmadınız. SMS\'i ayarlayabilmeniz için önce birini yapılandırmanız gerekir. Bakınız: %s',
@@ -1259,7 +1264,6 @@ Bunun etkili olması için arka plan pencerelerini yeniden başlatmanız gerekti
   'Skipping, provider is not an OAuth2 provider.' => 'Atlanırsa, sağlayıcı bir OAuth2 sağlayıcısı değildir.',
   'Your login session is invalid, and clearing the session cookie was unsuccessful. Try clearing your browser cookies.' => 'Giriş oturumunuz geçersiz ve oturum çerezini temizleme başarısız oldu. Tarayıcı çerezlerinizi temizlemeyi deneyin.',
   'OAuth Consumer Secret' => 'OAuth Tüketici Sırrı',
-  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Girdiğiniz parola iptal edildi. İptal edilen bir parolayı tekrar kullanamazsınız. Yeni bir parola seçin.',
 );
   }
 

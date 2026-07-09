@@ -11,6 +11,7 @@ final class PhabricatorSubscriptionsIo
     return array(
   'subscribers' => 'abonanti',
   '%d other(s)' => '%d altro/altri',
+  'Unsubscribe' => 'Desabonar',
 );
   }
 

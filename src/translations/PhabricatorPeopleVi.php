@@ -9,7 +9,6 @@ final class PhabricatorPeopleVi
 
   protected function getTranslations() {
     return array(
-  'User does not belong to any projects.' => 'Người dùng này không thuộc về bất kỳ dự án nào.',
   '[%s] Welcome to %s' => '[%s] Chào mừng đến với %s',
   'You can not send this user welcome mail because they are not a normal user and can not log in to the web interface. Special users (like bots and mailing lists) are unable to establish web sessions.' => 'Bạn không thể gửi email chào mừng người dùng này vì họ không phải là người dùng bình thường và không thể đăng nhập vào giao diện web. Người dùng đặc biệt (như bot và danh sách gửi thư) không thể thiết lập phiên web.',
   'User Details' => 'Chi tiết người dùng',

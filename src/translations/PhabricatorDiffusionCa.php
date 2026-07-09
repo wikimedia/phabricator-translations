@@ -12,6 +12,7 @@ final class PhabricatorDiffusionCa
   'Commit Actions' => 'Accions de validació',
   'This %s file is stored in Git Large File Storage.' => 'Aquest fitxer de %s s’emmagatzema a l’emmagatzematge de fitxers Git grans.',
   'Invalid path URI.' => 'URI de ruta no vàlid.',
+  'The raw text of this change is enormous (larger than %s bytes). Herald can not process it.' => 'El text en brut d’aquest canvi és enorme (superior a %s bytes). Herald no el pot processar.',
   'No Short Name' => 'Cap nom curt',
   'No registered command engine can build commands for this repository ("%s").' => 'Cap motor d\'ordres registrat pot crear ordres per a aquest repositori ("%s").',
   'Repositories: ...' => 'Repositoris: ...',
@@ -46,7 +47,6 @@ final class PhabricatorDiffusionCa
   'The change you\'re attempting to push deletes the branch \'%s\'.' => 'El canvi que intenteu empènyer elimina la branca "%s".',
   'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Aquest repositori no es pot protegir d’enormes canvis perquè Phabricator no controla el que els usuaris hi poden empényer.',
   'Edit Properties' => 'Editar les propietats',
-  'Failed to reconnect to master database and release held write lock ("%s") on device "%s" for repository "%s" after trying for %s seconds(s). This repository will be frozen.' => 'No s\'ha pogut tornar a connectar a la base de dades principal i alliberar el bloqueig d\'escriptura retingut ("%s") al dispositiu "%s" per al repositori "%s" després de provar-ho durant %s segons. Aquest repositori es congelarà.',
   'Tag Content' => 'Contingut de l’etiqueta',
   'Pushed on %s' => 'Empès a %s',
   'Unknown request type.' => 'Tipus de sol·licitud desconegut.',
@@ -108,20 +108,6 @@ Hook rules can block changes and send push summary mail.' => 'Reacciona a les br
   'Allow or prevent dangerous changes.' => 'Permetre o impedir canvis perillosos.',
   'All Identities' => 'Totes les identitats',
   'Repository "%s" is a cluster repository, but the current host is not a cluster device (it has no device ID), so the repository will not be updated on this host.' => 'El repositori "%s" és un repositori de clúster, però l\'amfitrió actual no és un dispositiu de clúster (no té cap identificador de dispositiu), de manera que el repositori no s\'actualitzarà en aquest amfitrió.',
-  'Provide the URI of a Git repository. It should usually look like one of these examples:
-
-| Example Git URIs
-| -----------------------
-| `git@github.com:example/example.git`
-| `ssh://user@host.com/git/example.git`
-| `https://example.com/repository.git`
-**For Gerrit URIs below: Please do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead - thanks!**' => 'Proporcioneu l\'URI d\'un repositori Git. Similar a un d’aquests exemples:
-
-| Exemple Git URI
-| ---------------
-| `git@github.com:example/example.git`
-| `ssh://user@host.com/git/example.git`
-| `https://example.com/repository.git`',
   'Your VCS password has been updated.' => 'La vostra contrasenya de VCS ha estat actualitzada.',
   'Change the repository short name.' => 'Canvia el nom curt del repositori.',
   'Change the repository description.' => 'Canvia la descripció del repositori.',
@@ -160,7 +146,6 @@ Hook rules can block changes and send push summary mail.' => 'Reacciona a les br
   'This repository will become a new hosted repository. It will begin serving read and write traffic.' => 'Aquest repositori es convertirà en un nou repositori allotjat. Començarà a publicar trànsit de lectura i escriptura.',
   'Allow HTTP Basic Auth' => 'Permet l\'autenticació bàsica HTTP',
   'If you allow dangerous changes, it will be possible to delete branches and %s push this repository. These operations can alter a repository in a way that is difficult to recover from.' => 'Si permeteu canvis perillosos, serà possible suprimir branques i %s empènyer aquest repositori. Aquestes operacions poden alterar un repositori d\'una manera difícil de recuperar.',
-  'Enable Self-Accept' => 'Activa l\'auto-acceptació',
   'Repository "%s" is on cluster service "%s", but the binding between that service and this device ("%s") is disabled, so it can not be updated on this host.' => 'El repositori "%s" està al servei de clúster "%s", però la vinculació entre aquest servei i aquest dispositiu ("%s") està desactivada, de manera que no es pot actualitzar en aquest amfitrió.',
   'This push was rejected by Herald push rule %s.
     Change: %s
@@ -341,6 +326,7 @@ Les regles de validació poden enviar correus electrònics, validacions d\'indic
   'No such repository exists.' => 'No existeix aquest repositori.',
   'This repository does not have any commits yet.' => 'Aquest repositori encara no té cap validació.',
   'Recent Open Revisions' => 'Revisions recents d\'obertura',
+  'tag (git)' => 'etiqueta (git)',
   'Failed to load changes: %s' => 'No s\'han pogut carregar els canvis: %s',
   'Commit hook events depend on repository state which is only available at push time, and can not be run in test mode.' => 'Els esdeveniments d\'ancoratge de validació depenen de l\'estat del repositori, que només està disponible en el moment de l\'empenta i no es pot executar en mode de prova.',
   'Read information about repositories.' => 'Llegir informació sobre els repositoris.',
@@ -425,7 +411,6 @@ Les regles de validació poden enviar correus electrònics, validacions d\'indic
   'Commit Hook: Commit Content' => 'Ancoratge de validació: contingut de la validació',
   'To search for commits which are ancestors of particular refs, you must constrain the search to exactly one repository.' => 'Per cercar validacions que són avantpassats de referències concretes, heu de restringir la cerca a un repositori exactament.',
   'Found Binary %s' => 'S\'ha trobat el binari %s',
-  'The raw text of this change is enormous (larger than %s byte(s)). Herald can not process it.' => 'El text en brut d’aquest canvi és enorme (superior a %s bytes). Herald no el pot processar.',
   'This repository ("%s") is not a Mercurial repository. Use "%s" to interact with this repository.' => 'Aquest repositori ("%s") no és un repositori de Mercurial. Utilitzeu "%s" per interactuar amb aquest repositori.',
   'Unexpected number of output lines from "git cat-file" when processing commit ("%s").' => 'Nombre inesperat de línies de sortida de "git cat-file" en processar la validació ("%s").',
   'Failed to parse remote branch \'%s\'!' => 'No s\'ha pogut analitzar sintàcticament la branca remota \'%s\'!',
@@ -490,6 +475,7 @@ Les regles de validació poden enviar correus electrònics, validacions d\'indic
   'Commit Fields' => 'Camps de validació',
   'Allowed' => 'Permès',
   'Import Only' => 'Només importació',
+  'The raw text of this change took too long to process (longer than %s seconds). Herald can not process it.' => 'El text en brut d\'aquest canvi ha trigat massa a processar (més de %s segons). Herald no pot processar-ho.',
   'Deactivate Repository' => 'Desactivar el repositori',
   'Compare Against' => 'Compara amb',
   'Commit No Longer Exists' => 'La validació ja no existeix',
@@ -696,7 +682,6 @@ Excepció de contingut: %s',
   'Both references identify the same commit. You can not compare a commit against itself.' => 'Les dues referències identifiquen la mateixa validació. No es pot comparar una validació contra si mateixa.',
   'New credential PHID, or null.' => 'El PHID de la nova credencial, o nul.',
   'Publish coverage information for a repository.' => 'Publicar la informació de cobertura per a un repositori.',
-  'Allows the author of a commit to be an auditor and accept their own commits. Note that this behavior is different from the behavior implied by the name of the option: long ago, it did something else.' => 'Permet que l\'autor d\'una validació sigui auditor i accepti les seves pròpies validacions. Tingueu en compte que aquest comportament és diferent del que implica el nom de l\'opció: fa molt de temps, feia alguna cosa més.',
   'New repository copy time limit.' => 'Nou límit de temps de còpia del repositori.',
   'Change the repository URI.' => 'Canvia l\'URI del repositori.',
   'Empty Directory' => 'Directori buit',
@@ -726,8 +711,6 @@ Modifiqueu la configuració del repositori abans de fer canvis perillosos.',
   'State' => 'Estat',
   'Integrations' => 'Integracions',
   'No Local Working Copy' => 'Cap còpia de treball local',
-  'Disable Self-Accept' => 'Desactiva l\'auto-acceptació',
-  'Reached an unreachable place.' => 'Ha arribat a un lloc inabastable.',
   'This repository ("%s") is not a Git repository.' => 'Aquest repositori ("%s") no és un repositori Git.',
   'Sync Logs' => 'Registres de sincronització',
   'Subpath to selectively import.' => 'Subruta a la importació selectiva.',
@@ -766,6 +749,7 @@ Aquest repositori ("%s") està configurat amb un límit de fitxers accessibles q
   'No Owners' => 'Sense propietari',
   'This commit will be returned to the author for consideration.' => 'Aquesta validació es retornarà a l\'autor per a la seva consideració.',
   'Commit Has Task' => 'La validació té tasca',
+  'This file is larger than %s bytes, and too large to display in the web UI.' => 'Aquest fitxer supera els %s bytes i és massa gran per mostrar-se a la IU del web.',
   'This Repository Only' => 'Només aquest repositori',
   'Configure how changes are published.' => 'Configura com es publiquen els canvis.',
   'Change the copy time limit.' => 'Canvia el límit de temps de la còpia.',
@@ -942,13 +926,11 @@ Aquest repositori («%s») està configurat amb un límit màxim de mida de fitx
   'Ready to Audit' => 'Llest per Auditoria',
   'Determine what branches exist for a repository.' => 'Determina quines branques existeixen a un repositori.',
   'No Storage Directory' => 'Cap directori d\'emmagatzematge',
-  'The raw text of this change took too long to process (longer than %s second(s)). Herald can not process it.' => 'El text en brut d\'aquest canvi ha trigat massa a processar (més de %s segons). Herald no pot processar-ho.',
   'The repository URI.' => 'L\'URI del repositori.',
   'Device "%s" is already a cluster leader and does not need to be synchronized.' => 'El dispositiu \'%s\' ja és un líder del clúster i no cal sincronitzar-lo.',
   'This option is most commonly used to temporarily allow a major repository maintenance operation (like a history rewrite) to occur with minimal disruption to users.' => 'Aquesta opció s\'utilitza amb més freqüència per permetre temporalment una operació important de manteniment del repositori (com una reescriptura de l\'historial) amb una mínima interrupció per als usuaris.',
   'The Python 2 Standard Library' => 'La biblioteca estàndard de Python 2',
   'This commit was rewritten after it was published, which changed the commit hash. This old version of the commit is no longer reachable from any branch, tag or ref. The new version of this commit is %s.' => 'Aquesta validació es va tornar a escriure després de publicar-se, cosa que va canviar l\'ancoratge de la validació. A aquesta versió antiga de la validació ja no es pot accedir des de cap branca, etiqueta o referència. La nova versió d’aquesta validació és de %s.',
-  'This file is larger than %s byte(s), and too large to display in the web UI.' => 'Aquest fitxer supera els %s bytes i és massa gran per mostrar-se a la IU del web.',
   'Get metrics (like commit count and most recent commit) for each repository.' => 'Obteniu mètriques (com ara el recompte de validacions i la validació més recent) per a cada repositori.',
   'Set the fetched refs.' => 'Establir les referències recuperades.',
   'Browse Explicitly Unassigned' => 'Explorar entre els no assignats explícitament',
@@ -1040,6 +1022,20 @@ IMPORTANT: aquesta funcionalitat és nova, experimental i no és compatible. Uti
   'This repository is inactive.' => 'Aquest repositori està inactiu.',
   'This page documents the commands you can use to interact with commits and audits in Diffusion.' => 'Aquesta pàgina documenta les ordres que podeu utilitzar per interactuar amb les validacions i auditories a Difusió.',
   'Failed to load file object for Git LFS ref "%s"!' => 'Ha fallat en carregar l\'objecte d\'arxiu per Git LFS ref "%s"!',
+  'Provide the URI of a Git repository. It should usually look like one of these examples:
+
+| Example Git URIs
+| -----------------------
+| `git@github.com:example/example.git`
+| `ssh://user@host.com/git/example.git`
+| `https://example.com/repository.git`
+**For Gerrit URIs below: Do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead!**' => 'Proporcioneu l\'URI d\'un repositori Git. Similar a un d’aquests exemples:
+
+| Exemple Git URI
+| ---------------
+| `git@github.com:example/example.git`
+| `ssh://user@host.com/git/example.git`
+| `https://example.com/repository.git`',
   'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normalment, Phabricator actualitza automàticament els repositoris en funció del temps transcorregut des de l’última validació. Això ajuda a reduir la càrrega si teniu un gran nombre de repositoris principalment inactius, cosa que és habitual.',
   'Automation blueprints.' => 'Blueprints d’automatització.',
   'Removed diff content' => 'S\'ha eliminat el contingut de diff',
@@ -1120,7 +1116,6 @@ IMPORTANT: aquesta funcionalitat és nova, experimental i no compatible. Utilitz
   'No Staging Area' => 'Cap àrea de preparació',
   'This commit will be approved.' => 'Aquesta validació serà aprovada.',
   'Reverts' => 'Reversions',
-  'tag (git)' => 'etiqueta (git)',
 );
   }
 

@@ -12,22 +12,34 @@ final class PhabricatorProjectNl
   'Browse Not Tagged With Any Projects' => 'Projecten zonder tags bekijken',
   'Timeline' => 'Tijdlijn',
   'Really activate project?' => 'Project daadwerkelijk activeren?',
-  '%s changed project member(s), added %d: %s; removed %d: %s.' => '%s heeft projectlid(leden) gewijzigd, %d toegevoegd: %s; %d verwijderd: %s.',
+  '%s changed project member(s), added %d: %s; removed %d: %s.' => '%s heeft projectleden gewijzigd, toegevoegd: %3$s; verwijderd: %5$s.',
   '%s set this project\'s color to %s.' => '%s heeft de kleur van dit project ingesteld op %s.',
   '%s created this column.' => '%s heeft deze kolom aangemaakt.',
   'Play Sound' => 'Geluid afspelen',
   'Type any(<project>) or not(<project>)...' => 'Typ any(<project>) of not(<project>)...',
-  '%s added %s member(s) for %s: %s.' => '%s heeft %s lid/leden toegevoegd aan %s: %s.',
+  '%s added %s member(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een lid toegevoegd aan %3$s: %4$s.',
+      '%s heeft leden toegevoegd aan %3$s: %4$s.',
+    ),
+  ),
   'Project Column' => 'Projectkolom',
   'Edit Background Color' => 'Achtergrondkleur bewerken',
-  'New project tag color.' => 'Nieuwe kleur voor projectlabel.',
+  'New project tag color.' => 'Nieuwe kleur voor projecttag.',
   'Triggers' => 'Triggers',
   'Hide Hidden Columns' => 'Verborgen kolommen verbergen',
   'Find results with only the specified tags.' => 'Alleen zoeken naar de opgegeven tags.',
   'Find results in any of a user\'s projects.' => 'Zoeken in alle projecten van een gebruiker.',
   'Trigger ruleset is corrupt: rule (at index "%s") is not a valid rule specification: %s' => 'De triggerregelset is beschadigd: de regel (op index "%s") is geen geldige regelspecificatie: %s',
   'Ruleset specification is not valid. %s' => 'De regelsetspecificatie is onjuist. %s',
-  '%s added %d project hashtag(s): %s.' => '%s heeft %d projecthashtag(s) toegevoegd: %s.',
+  '%s added %d project hashtag(s): %s.' => array(
+    
+    array(
+      '%s heeft een projecthashtag toegevoegd: %3$s.',
+      '%s heeft projecthashtags toegevoegd: %3$s.',
+    ),
+  ),
   'Search for projects with given subtypes.' => 'Zoeken naar projecten met de opgegeven subtypes.',
   'No Trigger' => 'Geen trigger',
   '%s named this column %s.' => '%s heeft deze kolom %s genoemd.',
@@ -56,7 +68,7 @@ final class PhabricatorProjectNl
   'Project Members' => 'Projectleden',
   'Other project activity not listed above occurs.' => 'Er vinden ook andere projectactiviteiten plaats die hierboven niet vermeld staan.',
   'Cleanup' => 'Opruimen',
-  '%s of %s %s' => '%s van %s %s',
+  '%s of %s %s' => '%s  van %s %s',
   '%s removed this project\'s image.' => '%s heeft de afbeelding van dit project verwijderd.',
   'Members: %s' => 'Leden: %s',
   'In Any: ...' => 'In enige uit: ...',
@@ -79,7 +91,7 @@ final class PhabricatorProjectNl
   'The workboard for this project has not been created yet.' => 'Het werkblad voor dit project is nog niet aangemaakt.',
   'No Editable Tasks' => 'Geen bewerkbare taken',
   'Activate Subproject' => 'Subproject activeren',
-  '%s changed %s hashtag(s), added %d: %s; removed %d: %s.' => '%s heeft %s hashtag(s) gewijzigd, %d toegevoegd: %s; %d verwijderd: %s.',
+  '%s changed %s hashtag(s), added %d: %s; removed %d: %s.' => '%s heeft hashtags gewijzigd voor %s; toegevoegd: %4$s; verwijderd: %6$s.',
   'Really archive project?' => 'Project daadwerkelijk archiveren?',
   'Select only results with exactly the other specified tags.' => 'Selecteer alleen resultaten die exact dezelfde andere tags bevatten.',
   '(Hidden)' => '(Verborgen)',
@@ -87,14 +99,20 @@ final class PhabricatorProjectNl
   'Expected trigger rule (of class "%s") to return a list of transactions from "newDropTransactions()", but got "%s".' => 'De triggerregel (van klasse "%s") moet een lijst met transacties van "newDropTransactions()" retourneren, maar "%s" is ontvangen.',
   'Open Tasks by column' => 'Openstaande taken per kolom',
   'If you lock this project, members will be prevented from leaving it.' => 'Als u dit project vergrendelt, kunnen leden het niet meer verlaten.',
-  'Additional project slugs.' => 'Aanvullende project-slugs.',
   'Create Project' => 'Project aanmaken',
   'Members' => 'Leden',
+  'Projects are labels are tags. You can use them for a codebase, a team, a sprint, or anything you need to group or categorize.' => 'Projecten zijn labels of tags. U kunt ze gebruiken voor een codebase, een team, een sprint of alles wat u wilt groeperen of categoriseren.',
   'You can not change members of a milestone. Members of the parent project are automatically members of the milestone.' => 'U kunt de leden van een mijlpaal niet wijzigen. Leden van het hoofdproject zijn automatisch ook lid van de mijlpaal.',
-  '%s edited project(s), added %s: %s; removed %s: %s.' => '%s heeft project(en) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited project(s), added %s: %s; removed %s: %s.' => '%s heeft projecten bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   'Milestone Of' => 'Mijlpaal van',
   'Column point limit must either be empty or a nonnegative integer.' => 'De kolomlimiet moet leeg zijn of een niet-negatief geheel getal.',
-  '%s added %s member(s): %s.' => '%s heeft %s lid/leden toegevoegd: %s.',
+  '%s added %s member(s): %s.' => array(
+    
+    array(
+      '%s heeft een lid toegevoegd: %3$s.',
+      '%s heeft leden toegevoegd: %3$s.',
+    ),
+  ),
   'Two different icons ("%s", "%s") are marked as the default icon. Only one icon may be marked as the default.' => 'Twee verschillende pictogrammen ("%s", "%s") zijn gemarkeerd als standaardpictogram. Er kan slechts één pictogram als standaard worden gemarkeerd.',
   'Create Subproject' => 'Subproject aanmaken',
   'Configure Projects.' => 'Projecten configureren.',
@@ -118,6 +136,7 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'Parent' => 'Bovenliggende',
   'You are already watching %s, an ancestor of this project, and are thus watching all of its subprojects.' => 'U volgt %s al, een bovenliggend project, en daarmee ook alle deelprojecten ervan.',
   'New Empty Board' => 'Nieuw leeg bord',
+  'Choose a project or a milestone to import columns from:' => 'Kies een project of mijlpaal om kolommen uit te importeren:',
   'Adjust project colors.' => 'Projectkleuren aanpassen.',
   'Find projects with a given maximum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Projecten zoeken met een bepaalde maximale diepte. Hoofdprojecten hebben diepte 0, hun direct onderliggende hebben diepte 1, enzovoort.',
   '%s removed the point limit for this column.' => '%s heeft de puntenlimiet voor deze kolom opgeheven.',
@@ -136,24 +155,26 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'Task status value ("%s") is not a valid task status. Valid statues are: %s.' => 'De taakstatuswaarde ("%s") is geen geldige taakstatus. Geldige statussen zijn: %s.',
   'Move Tasks to Project...' => 'Taken naar project verplaatsen...',
   'Set Board Default Order' => 'Standaard bordvolgorde instellen',
-  'New list of slugs.' => 'Nieuwe lijst met slugs.',
   'You will no longer receive email or notifications about every object associated with this project.' => 'U ontvangt voortaan geen e-mails of meldingen meer over elk object dat aan dit project is gekoppeld.',
-  'Removed %s project(s): %s.' => '%s projecten verwijderd: %s.',
-  'This method is frozen and will eventually be deprecated. New code should use "project.edit" instead.' => 'Deze methode is bevroren en wordt uiteindelijk afgeschaft. Nieuwe code moet in plaats daarvan "project.edit" gebruiken.',
+  'Removed %s project(s): %s.' => array(
+    'Heeft een project verwijderd: %2$s.',
+    'Heeft projecten verwijderd: %2$s.',
+  ),
   'Reorder Columns' => 'Kolommen opnieuw rangschikken',
   'Edit Project: %s' => 'Project bewerken: %s',
   'Joinable By' => 'Lid worden via',
   '%d week(s)' => '%d week/weken',
   'Expected "newHeadersForObjects()" on "%s" to return a list of headers, but got "%s".' => 'Verwacht werd dat "newHeadersForObjects()" op "%s" een lijst met headers zou retourneren, maar kreeg "%s".',
+  'Removed Project Tags' => 'Projecttags verwijderd',
   'Hide Column' => 'Kolom verbergen',
   'Membership Immutable' => 'Onveranderlijk lidmaatschap',
   'Initial Members' => 'Eerste leden',
-  'Viewing project workboards requires login. Please log in, or %s, or %s. Disappointed or confused? Share your use case in %s!' => 'Om projectwerkbladen te bekijken, moet u aanmelden. Meld u aan of %s of %s. Teleurgesteld of verward? Deel uw use case in %s!',
   'Type a user or project name...' => 'Voer een gebruikers- of projectnaam in...',
   'Over-due Tasks' => 'Achterstallige taken',
   'Trigger %d' => 'Trigger: %d',
   'Project icon.' => 'Projectpictogram.',
   'Hashtags' => 'Hashtags',
+  'Get all hashtags for the project.' => 'Alle hashtags voor het project verzamelen.',
   'Project Picture' => 'Projectafbeelding',
   'You must select at least one project tag to add.' => 'U moet minimaal één projecttag selecteren om toe te voegen.',
   'The workboard for this project has not been created yet, but you do not have permission to create it. Only users who can edit this project can create a workboard for it.' => 'Het werkblad voor dit project is nog niet aangemaakt, maar u hebt geen toestemming om het aan te maken. Alleen gebruikers met bewerkingsrechten voor dit project kunnen een werkblad ervoor aanmaken.',
@@ -188,7 +209,6 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'No triggers found.' => 'Geen triggers gevonden.',
   'The display name of the column.' => 'De weergavenaam van de kolom.',
   'This column is hidden because it represents an archived subproject. Do you want to activate the subproject so the column is visible again?' => 'Deze kolom is verborgen omdat deze een gearchiveerd deelproject vertegenwoordigt. Wilt u het deelproject activeren zodat de kolom weer zichtbaar wordt?',
-  'see the list of tasks in this project' => 'zie de lijst met taken voor dit project',
   'When creating a project, specify a maximum of one parent project or milestone project. A project can not be both a subproject and a milestone.' => 'Bij het aanmaken van een project mag u maximaal één hoofdproject of mijlpaalproject opgeven. Een project kan niet tegelijkertijd een deelproject en een mijlpaal zijn.',
   'Maximum number of points of tasks allowed in the column.' => 'Maximaal aantal punten dat per taak in de kolom is toegestaan.',
   '%s updated the ruleset for this trigger.' => '%s heeft de regels voor deze trigger bijgewerkt.',
@@ -199,7 +219,6 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'No Milestones' => 'Geen mijlpalen',
   'Project tags added' => 'Projecttags toegevoegd',
   'Blue Sky' => 'Blauwe lucht',
-  'Search for projects with particular slugs. (Slugs are the same as project hashtags.)' => 'Naar projecten zoeken met specifieke slugs. Slugs zijn hetzelfde als projecthashtags.',
   'Unused trigger.' => 'Ongebruikte trigger.',
   'Trigger Usage' => 'Triggergebruik',
   'Owner rule value is required. Specify a user to assign tasks to, the token "viewer()" to assign to the user moving tasks, or the token "none()" to unassign tasks.' => 'De waarde van de eigenaarsregel is vereist. Specificeer een gebruiker aan wie taken moeten worden toegewezen, het token "viewer()" om de taak toe te wijzen aan de gebruiker die de taak verplaatst, of het token "none()" om de toewijzing van taken ongedaan te maken.',
@@ -216,7 +235,13 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'Owner rule value should be a list, but is not (value is "%s").' => 'De eigenaarregelwaarde moet een lijst zijn, maar is dat niet (waarde is "%s").',
   'Information about the project color.' => 'Informatie over de projectkleur.',
   'Remove project rule value should be a list, but is not (value is "%s").' => 'Projectregelwaarde verwijderen moet een lijst zijn, maar is dat niet (waarde is "%s").',
-  '%s added %s project(s) to %s: %s.' => '%s heeft %s project(en) toegevoegd aan %s: %s.',
+  '%s added %s project(s) to %s: %s.' => array(
+    
+    array(
+      '%s heeft een project toegevoegd aan %3$s: %4$s.',
+      '%s heeft projecten toegevoegd aan %3$s: %4$s.',
+    ),
+  ),
   'This function is used with other tags, and causes the query to match only results with exactly those tags. For example, to find tasks tagged only iOS:
 
 > ios, only()
@@ -238,12 +263,16 @@ Dit sluit resultaten met andere projecttags uit.',
   'Select projects current viewer is a member of.' => 'Selecteer projecten waarvan de huidige kijker lid is.',
   'This workboard has been disabled, but can be restored to its former glory.' => 'Dit werkblad is uitgeschakeld, maar kan in zijn oude glorie hersteld worden.',
   'No Limit' => 'Geen limiet',
-  'Added Projects' => 'Toegevoegde projecten',
   'This column can not have a trigger.' => 'Deze kolom kan geen trigger hebben.',
-  '%s added %s project(s): %s.' => '%s heeft %s project(en) toegevoegd: %s.',
+  '%s added %s project(s): %s.' => array(
+    
+    array(
+      '%s heeft een project toegevoegd: %3$s.',
+      '%s heeft projecten toegevoegd: %3$s.',
+    ),
+  ),
   'Unknown Rule' => 'Onbekende regel',
   'Milestones can be created for this project.' => 'Voor dit project kunnen mijlpalen worden aangemaakt.',
-  'No open tasks in this project.' => 'Geen open taken in dit project.',
   'Set project members.' => 'Projectleden instellen.',
   'Read information about projects.' => 'Meer informatie over projecten.',
   'Organization' => 'Organisatie',
@@ -258,13 +287,18 @@ Dit sluit resultaten met andere projecttags uit.',
   'members of project' => 'projectleden',
   'No tasks have points assigned.' => 'Geen enkele taak heeft punten toegewezen.',
   'Parent project to create a milestone for.' => 'Bovenliggend project om een mijlpaal voor te maken.',
-  '%s: Burndown' => '%s: Burndown',
   'The project icon marked as the default icon ("%s") must not be disabled.' => 'Het projectpictogram dat is gemarkeerd als het standaardpictogram ("%s") mag niet worden uitgeschakeld.',
-  '%s added %s project(s) for %s: %s.' => '%s heeft %s project(en) toegevoegd voor %s: %s.',
+  '%s added %s project(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een project toegevoegd voor %3$s: %4$s.',
+      '%s heeft projecten toegevoegd voor %3$s: %4$s.',
+    ),
+  ),
   'Add subscribers rule value should be a list, but is not (value is "%s").' => 'De abonneeregelwaarde moet een lijst zijn, maar is dat niet (waarde is "%s").',
+  'Reports / Burnup' => 'Rapporten / Burnup',
   'Add Column' => 'Kolom toevoegen',
   'Remove Project Tags' => 'Projecttags verwijderen',
-  'Projects are flexible storage containers used as tags, teams, projects, or anything you need to group.' => 'Projecten zijn flexibele opslagcontainers die gebruikt kunnen worden als tags, teams, projecten of alles wat u maar wilt groeperen.',
   'Reef' => 'Rif',
   'No column ordering exists with key "%s".' => 'Er bestaat geen kolomorde met de sleutel "%s".',
   'This trigger is not used by any columns.' => 'Deze trigger wordt niet gebruikt door een kolom.',
@@ -281,18 +315,27 @@ Dit sluit resultaten met andere projecttags uit.',
   'This column is visible because it represents an active subproject. Do you want to hide the column by archiving the subproject?' => 'Deze kolom is zichtbaar omdat deze een actief deelproject vertegenwoordigt. Wilt u de kolom verbergen door het deelproject te archiveren?',
   'Project Reports' => 'Projecteverslagen',
   'Trigger "%s" is not a valid trigger, or you do not have permission to view it.' => 'Trigger "%s" is geen geldige trigger, of u heeft geen toestemming om deze te bekijken.',
+  'Added Project Tags' => 'Projecttags toegevoegd',
   '(Deprecated.) Search for projects with a given name or hashtag using tokenizer/datasource query matching rules. This is deprecated in favor of the more powerful "query" constraint.' => '(Verouderd.) Zoeken naar projecten met een bepaalde naam of hashtag met behulp van tokenizer/gegevensbron zoekopdrachtregels. Deze functie is verouderd en vervangen door de krachtigere "zoekopdracht"-beperking.',
-  '%s removed %s member(s) for %s: %s.' => '%s heeft %s lid/leden verwijderd uit %s: %s.',
+  '%s removed %s member(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een lid verwijderd uit %3$s: %4$s.',
+      '%s heeft leden verwijderd uit %3$s: %4$s.',
+    ),
+  ),
   '%s set the image for %s to %s.' => '%s heeft de afbeelding voor %s ingesteld op %s.',
-  'Added %s project(s): %s.' => '%s projecten toegevoegd: %s.',
+  'Added %s project(s): %s.' => array(
+    'Een project toegevoegd: %2$s.',
+    'Projecten toegevoegd: %2$s.',
+  ),
   'Import Columns' => 'Kolommen importeren',
-  '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft %s project(en) bewerkt voor %s, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft projecten bewerkt voor %3$s; toegevoegd: %5$s; verwijderd: %7$s.',
   'Workboard' => 'Werkblad',
   'User\'s Projects: Invalid User' => 'Gebruikersprojecten: Onjuiste gebruiker',
-  'Trigger ruleset is corrupt: rule (at index "%s") should be a rule specification, but is actually "%s".' => 'De regelset van de trigger is corrupt: regel (op de index "%s") moet een regelspecificatie zijn, maar is "%s".',
+  'Trigger ruleset is corrupt: rule (at index "%s") should be a rule specification, but is actually "%s".' => 'De regelset van de trigger is beschadigd: regel (op de index "%s") moet een regelspecificatie zijn, maar is "%s".',
   'Set members, overwriting the current value.' => 'Leden instellen en de huidige waarde overschrijven.',
   'Workboard Columns' => 'Werkbladkolommen',
-  'Primary slug/hashtag.' => 'Eerste slug/hashtag.',
   'Find results not in specific projects.' => 'Resultaten zoeken die niet in specifieke projecten vallen.',
   'Find direct subprojects of specified parents.' => 'Zoek directe deelprojecten van de opgegeven bovenliggende.',
   'Custom Trigger' => 'Aangepaste trigger',
@@ -310,7 +353,6 @@ Dit sluit resultaten met andere projecttags uit.',
   'Rename the project' => 'Project hernoemen',
   'You do not have permission to create new projects.' => 'U hebt geen rechten om nieuwe projecten te maken.',
   'You can not move tasks from a column to itself.' => 'U kunt taken niet van een kolom naar zichzelf verplaatsen.',
-  'Reports (Prototype)' => 'Verslagen (prototype)',
   'Ancestor Projects' => 'Eerdere projecten',
   'Get information about projects.' => 'Meer informatie over projecten.',
   'Save Column' => 'Kolom opslaan',
@@ -318,35 +360,26 @@ Dit sluit resultaten met andere projecttags uit.',
   '%s created this trigger.' => '%s heeft deze trigger gemaakt.',
   'View Tasks as Query' => 'Taken als zoekopdracht bekijken',
   'Change task status to %s.' => 'Taakstatus wijzigen naar %s.',
-  'This function allows you to find results which are not in one or more projects. For example, use this query to find results which are not associated with a specific project:
-
-> not(vanilla)
-
-You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
-
-> not(vanilla), not(chocolate)
-
-You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
-
-> ios, not(bug)' => 'Met deze functie kunt u resultaten vinden die niet in een of meer projecten voorkomen. Gebruik bijvoorbeeld deze zoekopdracht om resultaten te vinden die niet aan een specifiek project zijn gekoppeld: 
-
-> not(vanilla)
-
-U kunt meerdere projecten uitsluiten. Hierdoor geeft de zoekopdracht alleen resultaten die niet in een van de uitgesloten projecten voorkomen: 
-
-> not(vanilla), not(chocolate)
-
-U kunt deze functie combineren met andere functies om de resultaten te verfijnen. Gebruik bijvoorbeeld deze zoekopdracht om iOS-resultaten te vinden die geen bugs zijn: 
-
-> ios, not(bug)',
   'Closed Tasks' => 'Gesloten taken',
   'Add project tags: %s.' => 'Projecttags toevoegen: %s.',
   'Into The Expanse' => 'De ruimte in',
-  '%s added %d project member(s): %s.' => '%s heeft %d projectleden toegevoegd: %s.',
+  '%s added %d project member(s): %s.' => array(
+    
+    array(
+      '%s heeft een lid toegevoegd: %3$s.',
+      '%s heeft leden toegevoegd: %3$s.',
+    ),
+  ),
   'Column: %s' => 'Kolom: %s',
   '%s changed the default sort order for the project workboard.' => '%s heeft de standaard sorteervolgorde voor het projectwerkblad gewijzigd.',
   '%s renamed this project from %s to %s.' => '%s heeft dit project hernoemd van %s naar %s.',
-  '%s removed %s member(s): %s.' => '%s heeft %s lid/leden verwijderd: %s.',
+  '%s removed %s member(s): %s.' => array(
+    
+    array(
+      '%s heeft een lid verwijderd: %3$s.',
+      '%s heeft leden verwijderd: %3$s.',
+    ),
+  ),
   'Shallows' => 'Ondiepe wateren',
   'Configure forms for creating projects.' => 'Formulieren instellen voor het aanmaken van projecten.',
   'Project tags incl their milestones (only use with Include None Of!)' => 'Projecttags inclusief hun mijlpalen (alleen gebruiken met \'Inclusief geen van\'!)',
@@ -373,10 +406,10 @@ U kunt deze functie combineren met andere functies om de resultaten te verfijnen
   'Fire' => 'Vuur',
   'This board has no columns.' => 'Dit bord heeft geen kolommen.',
   '%s removed the image for %s.' => '%s heeft de afbeelding verwijderd voor %s.',
+  'No open tasks tagged with this project.' => 'Er zijn geen openstaande taken gekoppeld aan dit project.',
   '[Project]' => '[Project]',
   'You can only set a parent or milestone project when creating a project for the first time.' => 'U kunt alleen een bovenliggend of mijlpaalproject instellen wanneer u een project voor het eerst maakt.',
   'Find results in any of the current viewer\'s projects.' => 'Resultaten zoeken in alle projecten van de huidige gebruiker.',
-  'Add related projects.' => 'Gerelateerde projecten toevoegen.',
   'Type viewerprojects()...' => 'Type viewerprojects()...',
   'Your tremendous contributions to this project will be sorely missed. Are you sure you want to leave?' => 'Uw enorme bijdragen aan dit project gaan erg gemist worden. Weet u zeker dat u het wilt verlaten?',
   'Unknown User ("%s")' => 'Onbekende gebruiker ("%s")',
@@ -393,12 +426,19 @@ U kunt deze functie combineren met andere functies om de resultaten te verfijnen
   'Project tags' => 'Projecttags',
   'You are not a project member, so you do not receive mail sent to members of this project.' => 'U bent geen projectlid, dus ontvangt u geen mail die aan leden van dit project wordt verzonden.',
   'Tasks Reopened' => 'Taken heropend',
-  'Used on %s and %s other column(s).' => 'Gebruikt op %s en %s andere kolom(men).',
+  'Additional project tags.' => 'Aanvullende projecttags.',
+  'Used on %s and %s other column(s).' => array(
+    
+    array(
+      'Gebruikt in %s en één andere kolom.',
+      'Gebruikt in %s en %s andere kolommen.',
+    ),
+  ),
   'This function allows you to find results associated with any of the projects a specified user is a member of. For example, this will find results associated with all of the projects `%s` is a member of:
 
 %s
 
-' => 'Met deze functie kunt u resultaten vinden die zijn gekoppeld aan elk project waarvan een opgegeven gebruiker lid is. Bijvoorbeeld: hiermee vindt u resultaten die zijn gekoppeld aan alle projecten waarvan `%s` lid is: 
+' => 'Met deze functie kunt u resultaten vinden die verband houden met elk van de projecten waarvan een opgegeven gebruiker lid is. Met het volgende vindt u bijvoorbeeld resultaten die verband houden met alle projecten waarvan `%s` lid is: 
 
 %s',
   'Not Assigned' => 'Niet toegewezen',
@@ -425,7 +465,7 @@ U kunt deze functie combineren met andere functies om de resultaten te verfijnen
   'Search for objects with specific project PHIDs.' => 'Zoeken naar objecten met specifieke project-PHID\'s.',
   'Move Tasks to Column...' => 'Taken verplaatsen naar kolom...',
   'Active Column' => 'Actieve kolom',
-  '%s edited member(s), added %s: %s; removed %s: %s.' => '%s heeft lid/leden bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited member(s), added %s: %s; removed %s: %s.' => '%s heeft leden bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   'Save Default Filter' => 'Standaardfilter opslaan',
   '%s set the point limit for this column to %s.' => '%s heeft de puntenlimiet voor deze kolom ingesteld op %s.',
   '%s: Activity' => '%s: Activiteit',
@@ -460,7 +500,13 @@ U kunt de functie `any()` combineren met normale projecttokens om de resultaten 
 
 > bug, any(ios), any(android).',
   'You can not create a subproject or milestone under this parent because it would nest projects too deeply. The maximum nesting depth of projects is %s.' => 'U kunt geen deelproject of mijlpaal onder dit bovenliggende project aanmaken, omdat dit de projecten te diep zou nesten. De maximale nestdiepte van projecten is %s.',
-  '%s removed %s project(s) from %s: %s.' => '%s heeft %s project(en) verwijderd van %s: %s.',
+  '%s removed %s project(s) from %s: %s.' => array(
+    
+    array(
+      '%s heeft een project verwijderd van %3$s: %4$s.',
+      '%s heeft projecten verwijderd van %3$s: %4$s.',
+    ),
+  ),
   'No Subprojects' => 'Geen deelprojecten',
   'Edit Details' => 'Details bewerken',
   'Icon key "%s" is not a valid icon key. Icon keys must be 1-32 characters long and contain only lowercase letters. For example, "%s" and "%s" are reasonable keys.' => 'De pictogramsleutel "%s" is geen geldige pictogramsleutel. Pictogramsleutels moeten 1 tot 32 tekens lang zijn en mogen alleen kleine letters bevatten. "%s" en "%s" zijn bijvoorbeeld geldige sleutels.',
@@ -474,7 +520,13 @@ U kunt de functie `any()` combineren met normale projecttokens om de resultaten 
   'Watching' => 'Volgeld',
   '%s locked this project\'s membership.' => '%s heeft het lidmaatschap van dit project afgesloten.',
   'Project Fields' => 'Projectvelden',
-  'Used on %s and %s other active column(s).' => 'Gebruikt op %s en %s andere actieve kolom(men).',
+  'Used on %s and %s other active column(s).' => array(
+    
+    array(
+      'Gebruikt in %s en een andere actieve kolommen.',
+      'Gebruikt in %s en %s andere actieve kolommen.',
+    ),
+  ),
   'The project image ("%s") specified for ("%s") was not found in the folder "resources/builtin/projects/".' => 'De projectafbeelding ("%s") die is opgegeven voor "%s" is niet gevonden in de map "resources/builtin/projects/".',
   'Allows you to relabel project colors.
 
@@ -502,12 +554,18 @@ Configureer een lijst met kleurspecificaties. Elke kleurspecificatie moet een di
  nieuwe projecten. Er moet precies één kleur als standaard worden geselecteerd.
 
 U kunt de onderstaande standaardconfiguratie bekijken voor een voorbeeld van een geldige configuratie.',
+  'Search for projects with particular hashtags.' => 'Zoek naar projecten met specifieke hashtags.',
   'This project has no milestones.' => 'Dit project heeft geen mijlpalen.',
   'Project watcher list changes.' => 'Projectvolgerslijst gewijzigd.',
   'Users with access may join this project, but may not leave.' => 'Gebruikers met toegang kunnen deelnemen aan dit project, maar kunnen het niet verlaten.',
+  'Associate one or more projects to the object by listing their hashtags. Separate project tags with spaces. For example, use `!projects #ios #feature` to add both related projects.
+
+Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any project tags.' => 'Koppel een of meer projecten aan het object door hun hashtags op te geven. Scheid projecttags met spaties. Gebruik bijvoorbeeld `!projects #ios #feature` om beide gerelateerde projecten toe te voegen.
+
+Onjuiste of niet-herkende projecten worden genegeerd. Deze opdracht heeft geen effect als u geen projecttags opgeeft.',
   'Save as Default' => 'Opslaan als standaard',
   'Update Throughput' => 'Doorvoer bijwerken',
-  'Search for projects with particular colors.' => 'Zoeken naar projecten met bepaalde kleuren.',
+  'Search for projects with particular colors.' => 'Zoeken naar projecten met specifieke kleuren.',
   'Group stuff into big piles.' => 'Dingen groeperen in grote stapels.',
   'Browse Users and Projects' => 'Gebruikers en projecten bekijken',
   'Add members.' => 'Leden toevoegen.',
@@ -521,12 +579,24 @@ U kunt de onderstaande standaardconfiguratie bekijken voor een voorbeeld van een
   'Can Lock Project Membership' => 'Kan het lidmaatschap van het project blokkeren',
   'This is an unknown rule of type "%s". An administrator may have edited or removed an extension which implements this rule type.' => 'Dit is een onbekende regel van type "%s". Een beheerder kan een uitbreiding hebben bewerkt of verwijderd die dit regeltype implementeert.',
   'Users with access may join and leave this project.' => 'Gebruikers met toegang kunnen zich bij dit project aansluiten en het verlaten.',
-  'Hashtags must contain at least one letter or number. %s project hashtag(s) are invalid: %s.' => 'Hashtags moeten ten minste één letter of getal bevatten. %s projecthashtags zijn onjuist: %s.',
+  'Hashtags must contain at least one letter or number. %s project hashtag(s) are invalid: %s.' => array(
+    'Hashtags moeten ten minste één letter of getal bevatten. De hashtag "%2$s" is incorrect.',
+    'Hashtags moeten ten minste één letter of getal bevatten. Deze hashtags zijn incorrect: %2$s.',
+  ),
   'Convert to Parent Project' => 'Omzetten naar bovenliggend project',
   'Subprojects can be created for this project.' => 'Voor dit project kunnen deelprojecten worden aangemaakt.',
   'Choose a project to move tasks to.' => 'Kies een project waar u taken naar wilt verplaatsen.',
-  '%s removed %s project(s): %s.' => '%s heeft %s project(en) verwijderd: %s.',
-  'Trigger names must not be longer than %s characters.' => 'Triggernamen mogen niet langer zijn dan %s tekens.',
+  '%s removed %s project(s): %s.' => array(
+    
+    array(
+      '%s heeft een project verwijderd: %3$s.',
+      '%s heeft projecten verwijderd: %3$s.',
+    ),
+  ),
+  'Trigger names must not be longer than %s characters.' => array(
+    'Triggernamen mogen niet langer zijn dan %s teken.',
+    'Triggernamen mogen niet langer zijn dan %s tekens.',
+  ),
   'Members: ...' => 'Leden: ...',
   'Create Milestone' => 'Mijlpaal aanmaken',
   'Project %s' => 'Project %s',
@@ -545,7 +615,13 @@ U kunt de onderstaande standaardconfiguratie bekijken voor een voorbeeld van een
   'Apply Filter' => 'Filter toepassen',
   'Select project tags for the object.' => 'Selecteer projecttags voor het object.',
   'Membership for this project is locked. You can not leave.' => 'Lidmaatschap van dit project is gesloten. U kunt het niet verlaten.',
-  '%s removed %d project hashtag(s): %s.' => '%s heeft %d projecthashtag(s) verwijderd: %s.',
+  '%s removed %d project hashtag(s): %s.' => array(
+    
+    array(
+      '%s heeft een projecthashtag verwijderd: %3$s.',
+      '%s heeft projecthashtags verwijderd: %3$s.',
+    ),
+  ),
   '(Invalid Rule)' => '(Onjuiste regel)',
   'Sound ("%s") is not a valid sound.' => 'Geluid ("%s") is geen correct geluid.',
   'Custom Filter' => 'Aangepast filter',
@@ -558,11 +634,6 @@ U kunt de onderstaande standaardconfiguratie bekijken voor een voorbeeld van een
   'Get the workboard columns where an object appears.' => 'Ophalen in welke werkbladkolommen een object voorkomt.',
   'Projects User Guide' => 'Gebruikersgids voor projecten',
   'Projects: ...' => 'Projecten: ...',
-  'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
-
-Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Voeg een of meer projecten toe aan het object door hun hashtags op te geven. Scheid projecten met spaties. Gebruik bijvoorbeeld `!projects #ios #feature` om beide gerelateerde projecten toe te voegen.
-
-Onjuiste of niet-herkende projecten worden genegeerd. Deze opdracht heeft geen effect als u geen projecten opgeeft.',
   'Search for projects with particular members.' => 'Zoeken naar projecten met specifieke leden.',
   'Find projects with a given minimum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Projecten zoeken met een bepaalde minimale diepte. Hoofdprojecten hebben diepte 0, hun direct onderliggende hebben diepte 1, enzovoort.',
   'Group by Status' => 'Groeperen per status',
@@ -580,7 +651,13 @@ Onjuiste of niet-herkende projecten worden genegeerd. Deze opdracht heeft geen e
   'You can not import columns from that workboard because it has no importable columns.' => 'U kunt geen kolommen importeren vanuit dat werkblad, omdat het geen importeerbare kolommen bevat.',
   'Minimum Depth' => 'Minimale diepte',
   'This project is a milestone, and milestones may not have subprojects.' => 'Dit project is een mijlpaal, en mijlpalen mogen geen deelprojecten hebben.',
-  '%s removed %s project(s) for %s: %s.' => '%s heeft %s project(en) verwijderd voor %s: %s.',
+  '%s removed %s project(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een project verwijderd voor %3$s: %4$s.',
+      '%s heeft projecten verwijderd voor %3$s: %4$s.',
+    ),
+  ),
   'Default edit policy for newly created projects.' => 'Standaard bewerkingsbeleid voor nieuw aangemaakte projecten.',
   'Trigger ruleset is corrupt: expected a list of rule specifications, found "%s".' => 'De triggerregelset is beschadigd: er werd een lijst met regelspecificaties verwacht, maar er werd "%s" gevonden.',
   'User\'s Projects: %s' => 'Gebruikersprojecten: %s',
@@ -617,6 +694,7 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
   'Search constraint "minDepth" must be no larger than search constraint "maxDepth".' => 'De zoekbeperking "minDepth" mag niet groter zijn dan de zoekbeperking "maxDepth".',
   'Show Column' => 'Kolom weergeven',
   'Set Board Default Filter' => 'Standaard bladfilter instellen',
+  'Change project tags.' => 'Projecttags wijzigen.',
   'Execute searches for Projects.' => 'Zoekopdrachten uitvoeren naar projecten.',
   'You must choose a project with a workboard.' => 'U moet een project met een werkblad kiezen.',
   '(Unknown Rule)' => '(Onbekende regel)',
@@ -633,10 +711,16 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
   'Owner rule value must have only one elmement (value is "%s").' => 'De eigenaarsregelwaarde mag slechts één element bevatten (de waarde is "%s").',
   'Looks Like' => 'Lijkt op',
   'Project icons must include one icon marked with special attribute "%s", but no such icon exists.' => 'Projectpictogrammen moeten één pictogram bevatten dat is gemarkeerd met het speciale attribuut "%s", maar een dergelijk pictogram bestaat niet.',
-  '%s added %d %s hashtag(s): %s.' => '%s heeft %d hashtag(s) van het type %s toegevoegd: %s.',
+  '%s added %d %s hashtag(s): %s.' => array(
+    
+    array(
+      '%s heeft een hashtag van het type %3$s toegevoegd: %4$s.',
+      '%s heeft hashtags van het type %3$s toegevoegd: %4$s.',
+    ),
+  ),
   'Adjust project icons.' => 'Projectpictogrammen aanpassen.',
   '%s set the column trigger to %s.' => '%s heeft de kolomtrigger ingesteld op %s.',
-  '%s edited member(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft lid/leden voor %s bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited member(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft leden voor %s bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'Bugs' => 'Fouten',
   'Add Members' => 'Leden toevoegen',
   'Choose Icon and Color...' => 'Kies pictogram en kleur...',
@@ -653,11 +737,15 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
   'Remove project tags' => 'Projecttags verwijderen',
   'Project icons must include one icon marked as the "%s" icon, but no such icon exists.' => 'Projectpictogrammen moeten een pictogram bevatten dat is gemarkeerd als het "%s "-pictogram, maar een dergelijk pictogram bestaat niet.',
   'Make the current sort order the new default order for this board? All users will see the new order as the default when they view the board.' => 'Moet de huidige sorteervolgorde de nieuwe standaardvolgorde voor dit blad worden? Alle gebruikers zien de nieuwe volgorde als standaard wanneer ze het blad bekijken.',
+  'New list of hashtags.' => 'Nieuwe lijst met hashtags.',
   'Search for projects with particular watchers.' => 'Zoeken naar projecten met specifieke volgers.',
   '%s unlocked this project\'s membership.' => '%s heeft het lidmaatschap van dit project vrijgegeven.',
   'Workboard Disabled' => 'Werkblad uitgeschakeld',
   'Add project tags.' => 'Projecttags toevoegen.',
-  '%s project hashtag(s) are already used by other projects: %s.' => '%s projecthashtags worden al gebruikt door andere projecten: %s.',
+  '%s project hashtag(s) are already used by other projects: %s.' => array(
+    'Projecthashtag "%2$s" wordt al gebruikt door een ander project.',
+    'Sommige projecthashtags worden al gebruikt door andere projecten: %2$s.',
+  ),
   'Workload: All %d open tasks are assigned to %d people.' => 'Werkbelasting: Alle %d open taken zijn toegewezen aan %d mensen.',
   'The project icon ("%s") with special attribute "%s" must not be disabled' => 'Het projectpictogram ("%s") met het speciale attribuut "%s" mag niet worden uitgeschakeld',
   'Sort by Points' => 'Sorteren op punten',
@@ -665,11 +753,11 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
   'Disable Project Mail' => 'Projectmail uitschakelen',
   'Remove task assignee.' => 'Taakverantwoordelijke verwijderen.',
   'User PHID ("%s") is not a valid user.' => 'Gebruikers-PHID ("%s") is geen geldige gebruiker.',
+  'Primary hashtag.' => 'Primare hashtag.',
   'Trigger' => 'Trigger',
   'Show Only Active Projects' => 'Alleen actieve projecten weergeven',
   'Archive Subproject' => 'Deelproject archiveren',
   'Move to column %s.' => 'Verplaatsen naar kolom %s.',
-  'Choose a project to import columns from:' => 'Kies een project om kolommen van te importeren:',
   'PHID of the parent project.' => 'PHID van het bovenliggende project.',
   'Allows you to change and customize the available project icons.
 
@@ -721,12 +809,11 @@ This normally means //your// projects, but if you save a query using this functi
  Dit betekent normaal gesproken //uw// projecten, maar als u een zoekopdracht opslaat met deze functie en deze naar iemand anders stuurt, betekent het //hun// projecten wanneer zij de zoekopdracht uitvoeren (zij worden de huidige gebruiker). Dit kan handig zijn voor het bouwen van dashboardpanelen.',
   'Apply transactions to create a new project or edit an existing one.' => 'Transacties toepassen om een nieuw project te maken of een bestaand project te bewerken.',
   'Short project description.' => 'Korte projectbeschrijving.',
-  '%s changed project hashtag(s), added %d: %s; removed %d: %s.' => '%s heeft projecthashtag(s) gewijzigd, %d toegevoegd: %s; %d verwijderd: %s.',
+  '%s changed project hashtag(s), added %d: %s; removed %d: %s.' => '%s heeft projecthashtags gewijzigd; toegevoegd: %3$s; verwijderd: %5$s.',
   'Icon special attribute "%s" is not valid. Recognized special attributes are: %s.' => 'Het speciale attribuut "%s" voor het pictogram is niet correct. Herkende speciale attributen zijn: %s.',
   'Bulk Edit Tasks...' => 'Taken in bulk bewerken...',
   'This trigger has no rules.' => 'Deze trigger heeft geen regels.',
   '%s removed the trigger for this column (was %s).' => '%s heeft de trigger voor deze kolom verwijderd (was %s).',
-  'This method is frozen and will eventually be deprecated. New code should use "project.search" instead.' => 'Deze methode is bevroren en wordt uiteindelijk afgeschaft. Nieuwe code moet in plaats daarvan "project.search" gebruiken.',
   '%d day(s)' => '%d dag(en)',
   'Import board columns from another project.' => 'Bladkolommen uit een ander project importeren.',
   'Select project members.' => 'Projectleden selecteren.',
@@ -746,12 +833,36 @@ documentatie.',
   'Move Tasks to Column' => 'Taken verplaatsen naar kolom',
   'You can not hide the default/backlog column on a board.' => 'De standaard/backlog kolom kan niet worden verborgen op een blad.',
   'Read information about workboard columns.' => 'Lees meer over werkbladkolommen.',
+  'This function allows you to find results which are not tagged with one or more projects. For example, use this query to find results which are not associated with a specific project:
+
+> not(vanilla)
+
+You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
+
+> not(vanilla), not(chocolate)
+
+You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
+
+> ios, not(bug)' => 'Met deze functie kunt u resultaten vinden die niet getagged zijn met één of meer projecten voorkomen. Gebruik bijvoorbeeld deze zoekopdracht om resultaten te vinden die niet aan een specifiek project zijn gekoppeld: 
+
+> not(vanilla)
+
+U kunt meerdere projecten uitsluiten. Hierdoor geeft de zoekopdracht alleen resultaten die niet in een van de uitgesloten projecten voorkomen: 
+
+> not(vanilla), not(chocolate)
+
+U kunt deze functie combineren met andere functies om de resultaten te verfijnen. Gebruik bijvoorbeeld deze zoekopdracht om iOS-resultaten te vinden die geen bugs zijn: 
+
+> ios, not(bug)',
   'When mail is sent to members of this project, you will no longer receive a copy.' => 'Wanneer er mail naar leden van dit project wordt verzonden, ontvangt u niet langer een kopie.',
   'Make the current filter the new default filter for this board? All users will see the new filter as the default when they view the board.' => 'Moet het huidige filter het nieuwe standaardfilter voor dit blad worden? Alle gebruikers zien het nieuwe filter als standaard wanneer ze het blad bekijken.',
   '%s renamed this trigger from %s to %s.' => '%s heeft deze trigger hernoemd van %s naar %s.',
   'Get the watcher list for the project.' => 'Haal de volgerslijst van het project op.',
   'Tasks Moved Out of Project' => 'Taken uit project verplaatst',
-  'Project names must not be longer than %s character(s).' => 'Projectnamen mogen niet langer zijn dan %s tekens.',
+  'Project names must not be longer than %s character(s).' => array(
+    'Projectnamen mogen niet langer zijn dan %s teken.',
+    'Projectnamen mogen niet langer zijn dan %s tekens.',
+  ),
   'Default join policy for newly created projects.' => 'Standaard lidmaatschapsbeleid voor nieuw aangemaakte projecten.',
   '%s stripped the name %s from this trigger.' => '%s heeft de naam %s van deze trigger verwijderd.',
   'Project tags removed' => 'Projecttags verwijderd',
@@ -760,25 +871,32 @@ documentatie.',
   'Create Column' => 'Kolom aanmaken',
   'Choose a valid project to move tasks to.' => 'Kies een geldig project waar u taken naar wilt verplaatsen.',
   'Change Project Tags' => 'Projecttags wijzigen',
-  '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft project(en) voor %s bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
-  'Change project slugs.' => 'Projectslugs wijzigen.',
+  '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft projecten voor %s bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'Project colors must have unique keys, but two icons share the same key ("%s").' => 'Projectkleuren moeten unieke sleutels hebben, maar twee pictogrammen delen dezelfde sleutel ("%s").',
   'Type members(<project>)...' => 'Type leden(<project>)...',
   'Project name.' => 'Projectnaam.',
   'Select results with no tags.' => 'Selecteer resultaten zonder tags.',
   'No Background' => 'Geen achtergrond',
-  'T403385' => 'T403385',
   'Project Workboard' => 'Projectwerkblad',
   'Color key "%s" is not a valid color key. The supported color keys are: %s.' => 'Kleursleutel "%s" is geen geldige kleursleutel. De ondersteunde kleuren zijn: %s.',
   'Age Distribution:' => 'Leeftijdsverdeling:',
   'Type "not tagged with any projects"...' => 'Type "niet getagged met een project"...',
   'Add project rule value should be a list, but is not (value is "%s").' => 'De projectregelwaarde moet een lijst zijn, maar is dat niet (waarde is "%s").',
   'Project name, hashtags, icon, image, or color changes.' => 'Projectnaam, hashtags, pictogram, afbeelding of kleur wijzigen.',
-  'Used on %s active column(s).' => 'Gebruikt op actieve kolom(men) van %s.',
+  'Used on %s active column(s).' => array(
+    'Gebruikt in %s actieve kolom.',
+    'Gebruikt in %s actieve kolommen.',
+  ),
   'True if this is the default column.' => 'Waar als dit de standaardkolom is.',
   'Milestones' => 'Mijlpalen',
   'Configure Project Forms' => 'Projectformulieren configureren',
-  '%s removed %d project member(s): %s.' => '%s heeft %d projectleden verwijderd: %s.',
+  '%s removed %d project member(s): %s.' => array(
+    
+    array(
+      '%s heeft %d een lid verwijderd: %s.',
+      '%s heeft %d leden verwijderd: %s.',
+    ),
+  ),
   'Points Bar' => 'Puntenbalk',
   'members of all projects' => 'leden van alle projecten',
   'Find results for members of a project.' => 'Resultaten vinden voor leden van een project.',
@@ -786,7 +904,6 @@ documentatie.',
   'Natural' => 'Natuurlijk',
   'For subprojects and milestones, a brief description of the parent project.' => 'Voor deelprojecten en mijlpalen volstaat een korte beschrijving van het hoofdproject.',
   'Parent projects and milestones do not support adding members. You can add members directly to any non-parent subproject.' => 'Aan hoofdprojecten en mijlpalen kunnen geen leden toegevoegd worden. Leden kunnen rechtstreeks aan deelprojecten worden toegevoegd die geen hoofdproject zijn.',
-  'visit the project profile page' => 'bezoek de projectprofielpagina',
   'Pass true to find only root projects, or false to omit root projects.' => 'Geef \'true\' op om alleen hoofdprojecten te vinden, of \'false\' om hoofdprojecten over te slaan.',
   '%s set this project\'s icon to %s.' => '%s heeft het projectpictogram ingesteld op %s.',
   'Add projects: %s.' => 'Projecten toevoegen: %s.',
@@ -806,16 +923,18 @@ documentatie.',
   'You do not have permission to lock project membership.' => 'U hebt geen toestemming om lidmaatschap te sluiten.',
   'Edit Trigger: %s' => 'Trigger bewerken: %s',
   '%s named this trigger %s.' => '%s heeft deze trigger de naam %s gegeven.',
-  'Column names must not be longer than %s characters.' => 'Kolomnamen mogen niet langer zijn dan %s tekens.',
+  'Column names must not be longer than %s characters.' => array(
+    'Kolomnamen mogen niet langer zijn dan %s teken.',
+    'Kolomnamen mogen niet langer zijn dan %s tekens.',
+  ),
   'Members and Watchers' => 'Leden en volgers',
   'You can not add subprojects to this project.' => 'U kunt geen deelprojecten toevoegen aan dit project.',
+  '%s: Burnup / Burndown Rate' => '%s: Burndown / afbrandsnelheid',
   'Remove Member' => 'Lid verwijderen',
   'Unable to Create Workboard' => 'Werkblad kan niet worden aangemaakt',
-  'Removed Projects' => 'Projecten verwijderd',
   '%s Subprojects' => 'Deelprojecten van %s',
   'Disable Mail' => 'Mail uitschakelen',
   'Week' => 'Week',
-  'Slugs' => 'Slugs',
   'Tasks resolved this %s: %d' => 'Opgeloste taken in deze %s: %d',
   'Milestone Name' => 'Mijlpaalnaam',
   'Move Tasks' => 'Taken verplaatsen',
@@ -828,12 +947,21 @@ documentatie.',
   'Play sound' => 'Geluiden afspelen',
   'Browse Only' => 'Alleen bekijken',
   'This rule (of type "%s") is invalid: %s' => 'Deze regel (van type "%s") is onjuist: %s',
-  '%s removed %d %s hashtag(s): %s.' => '%s heeft %d hashtag(s) van het type %s verwijderd: %s.',
+  '%s removed %d %s hashtag(s): %s.' => array(
+    
+    array(
+      '%s heeft een hashtag van het type %3$s verwijderd: %4$s.',
+      '%s heeft hashtags van het type %3$s verwijderd: %4$s.',
+    ),
+  ),
   'Change priority to %s.' => 'Prioriteit wijzigen naar %s.',
   'Throughput' => 'Doorvoer',
-  'Used on %s column(s).' => 'Gebruikt in %s kolom(men)',
+  'Used on %s column(s).' => array(
+    'Gebruikt in %s kolom',
+    'Gebruikt in %s kolommen',
+  ),
   'Really remove the trigger from this column?' => 'Wilt u echt de trigger van deze kolom verwijderen?',
-  '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s heeft %s project(en) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s heeft projecten bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'Save Trigger' => 'Trigger opslaan',
   'Configuration must be a list of project icon specifications.' => 'De configuratie moet een lijst met projectpictogramspecificaties zijn.',
   'Enable Workboard' => 'Werkblad inschakelen',

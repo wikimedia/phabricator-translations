@@ -10,6 +10,7 @@ final class PhabricatorTokensNl
   protected function getTranslations() {
     return array(
   'Piece of Eight' => 'Spaanse dollar',
+  'This object is temporary and cannot receive tokens.' => 'Dit object is tijdelijk en kan geen tokens ontvangen.',
   'All Tokens Given' => 'Alle gegeven tokens',
   'Mountain of Wealth' => 'Berg van rijkdom',
   'Grey Medal' => 'Grijze medaille',
@@ -32,8 +33,8 @@ final class PhabricatorTokensNl
   'Browse Tokens' => 'Tokens bekijken',
   'Award "%s" Token' => '"%s"-token toekennen',
   'No such object "%s"!' => 'Object "%s" bestaat niet!',
-  'Give or change a token.' => 'Een token geven of wijzigen.',
   'Heartbreak' => 'Gebroken hart',
+  'Must pass a valid PHID for parameter "%s".' => 'De parameter "%s" moet een bestaande PHID zijn.',
   'Cup of Joe' => 'Bakkie koffie',
   'Orange Medal' => 'Oranje medaille',
   'Token used' => 'Gebruikt token',
@@ -63,6 +64,7 @@ final class PhabricatorTokensNl
   'Cookie' => 'Koekje',
   'Pirate Logo' => 'Piratenlogo',
   'Dislike' => 'Vind ik niet leuk',
+  'Give or change or remove a token.' => 'Een token geven, wijzigen of verwijderen.',
   'Pterodactyl' => 'Pterodactylus',
   'The user who gave a token can always edit it.' => 'De gebruiker die een token heeft gegeven, kan het altijd bewerken.',
   'Award and Acquire Trinkets' => 'Snuisterijen toekennen en verzamelen',

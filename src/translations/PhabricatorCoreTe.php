@@ -33,8 +33,6 @@ final class PhabricatorCoreTe
   'Type' => 'రకం',
   'Tuesday' => 'మంగళవారం',
   '%s, %s' => '%s, %s',
-  'Amount' => 'మొత్తం',
-  'Items' => 'అంశాలు',
   'New Password' => 'కొత్త సంకేతపదం',
   'Sun' => 'ఆది',
   'Tue' => 'మంగళ',

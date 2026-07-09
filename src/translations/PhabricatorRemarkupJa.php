@@ -10,8 +10,7 @@ final class PhabricatorRemarkupJa
   protected function getTranslations() {
     return array(
   'Invalid markup engine.' => 'マークアップエンジンが無効です。',
-  'Process text through remarkup.' => 'Phabricatorコンテキストでのテキストの処理。',
-  'Content may not be empty.' => 'コンテンツは空ではありません。',
+  'Process text through remarkup.' => 'リマークアップを使ってのテキストの処理。',
 );
   }
 

@@ -12,6 +12,7 @@ final class PhabricatorCacheFrFR
   '%s is not available; unable to read deflated data!' => '%s n’est pas disponible ; impossible de lire les données décompressées !',
   'APCu' => 'APCu',
   'Select caches to purge with "--all" or "--caches". Available caches are: %s.' => 'Sélectionner les caches à purger avec with « --all« » ou « --caches ». Les caches disponibles sont : %s.',
+  'APCu Disabled' => 'APC/APCu désactivé',
   'The APCu PHP extension is installed, but not enabled in your PHP configuration. Enabling this extension will improve performance. Edit the "%s" setting to enable this extension.' => 'Les extensions PHP APC ou APCu sont installées mais pas activées dans votre configuration PHP. Activer ces extensions améliorera les performances. Modifiez le paramètre « %s » pour activer ces extensions.',
   'OPcache is not configured properly for development.' => 'OPcache n’est pas bien configuré pour le développement.',
   'General Cache (TTL)' => 'Cache général (temps de survie)',
@@ -47,7 +48,6 @@ final class PhabricatorCacheFrFR
   'Zend OPcache' => 'Zend OPcache',
   'Enabling OPcache will dramatically improve performance.' => 'L’activation d’OPcache améliorera grandement les performances.',
   'Enabling APCu will improve performance.' => 'Activer APC/APCu améliorera la performance.',
-  'APCu Disabled' => 'APC/APCu désactivé',
 );
   }
 

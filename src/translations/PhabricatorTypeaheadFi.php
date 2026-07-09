@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorSubscriptionsKy
+final class PhabricatorTypeaheadFi
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'ky';
+    return 'fi';
   }
 
   protected function getTranslations() {
     return array(
-  '%d other(s)' => '%d башка(лар)',
+  'Parameters (JSON)' => 'Parametrit (JSON)',
 );
   }
 

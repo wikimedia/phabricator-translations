@@ -38,7 +38,6 @@ final class PhabricatorextCoreJa
   'OAuth provider returned an error response.' => 'OAuthプロバイダがエラーを返してきました。',
   'Ensure Security Task Policies are Enforced' => 'セキュリティ・タスク・ポリシーの徹底',
   'Release Details' => 'リリース内容',
-  'Allow' => '許可',
   'This MediaWiki Train Deployment is scheduled for the week of' => '今回のMediaWiki Train Deploymentは、以下の週に予定されています。',
   'Query users by ldap username.' => 'ldapの利用者名で利用者を検索します。',
   'LDAP User' => 'LDAP利用者',
@@ -63,24 +62,23 @@ Provide the following settings on the consumer registration:
 
 After you register the consumer, a **Consumer Token** and consumer **Secret Token** will be provided to you by MediaWiki. To complete configuration of Phabricator, copy the provided keys into the corresponding fields above.
 
-NOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki admin must approve the OAuth consumer registration using the form which can be found at the following url: %s' => '**ステップ2/2**: このPhabricatorインスタンス用のMediaWiki 利用者認証を作成します。
+NOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki admin must approve the OAuth consumer registration using the form which can be found at the following url: %s' => '**ステップ2/2**: このPhabricatorインスタンス用のMediaWiki 利用者OAuthを作成します。
 
-注：利用者登録時に以下の設定を行います：%s
-
+注：利用者OAuth 1.0a 登録時に次のURLで設定を行います：%s
 利用者登録では、以下の設定を行います。
 
-  - **コールバックURL:** これを設定します：`%s`
-  - **Grants:** 認証に必要なのは `Basic Rights` だけです。
+  - **OAuth「コールバック」URL:** これを設定します：`%s`
+  - **利用者ーが要請でコールバックを指定し、上記の 「コールバック」URLを必須の利用者として使用できるようにします:** この設定を有効にします。
+  - **使用可能なGrants:** 認証に必要なのは `Basic Rights` だけです。
 
-利用者登録をすると、**利用者公開鍵** と **利用者秘密鍵** がMediaWikiから提供されます。Phabricatorの設定を完了するには、提供されたキーを上記の対応するフィールドにコピーします。
+利用者登録をすると、**利用者公開トークン** と 利用者**秘密トークン** がMediaWikiから提供されます。Phabricatorの設定を完了するには、提供されたキーを上記の対応するフィールドにコピーします。
 
-注：PhabricatorがMediaWikiの認証に成功する前に、Wiki管理者が以下のURLにあるフォームを使用してoAuth利用者登録を承認する必要があります：%s',
-  'Deny' => '拒否',
+注：PhabricatorがMediaWikiの認証に成功する前に、Wiki管理者が以下のURLにあるフォームを使用してOAuth利用者登録を承認する必要があります：%s',
   'Invalid' => '無効',
-  'Secret Token' => '秘密鍵',
+  'Secret Token' => '秘密トークン',
   'This adds a link to search Maniphest for open tasks which are tagged with this project. NOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'このプロジェクトでタグ付けされたオープンタスクを検索するマニフェストへのリンクが追加されます。
 
-注：この機能はWikimedia-maintainedが管理する拡張機能、ProjectOpenTasksProfileMenuItemextensionによって提供されます。ソースは {rPHEX} をご覧ください。',
+注：この機能はWikimedia-maintainedが管理する拡張機能、ProjectOpenTasksProfileMenuItem.phpによって提供されます。ソースは https://gitlab.wikimedia.org/repos/phabricator/extensions をご覧ください。',
   'Required' => '必須',
 );
   }

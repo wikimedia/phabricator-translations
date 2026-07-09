@@ -25,6 +25,7 @@ final class PhabricatorAphlictDeDE
   'Server exited!' => 'Server beendet!',
   'Start the notifications server in the foreground and print large volumes of diagnostic information to the console.' => 'Starte den Benachrichtigungsserver im Vordergrund und gib große Mengen an Diagnoseinformationen auf der Konsole aus.',
   'Show the status of the notification server.' => 'Zeigt den Status des Benachrichtigungsservers an.',
+  'Aphlict (%s) is running.' => 'Aphlict (%s) läuft.',
   'Specify a user to notify with "--user".' => 'Gib mit "--user" einen Benutzer an, der benachrichtigt werden soll.',
   'Configuration file does not specify any client servers. This service will be unable to transmit any notifications without a client server. You must specify at least one server with type "%s".' => 'In der Konfigurationsdatei sind keine Client-Server angegeben. Ohne einen Client-Server kann dieser Dienst keine Benachrichtigungen übermitteln. Du musst mindestens einen Server mit dem Typ "%s" angeben.',
   'Message to send.' => 'Zu sendende Nachricht.',
@@ -36,7 +37,6 @@ final class PhabricatorAphlictDeDE
   'Use a specific configuration file instead of the default configuration.' => 'Verwende eine bestimmte Konfigurationsdatei anstelle der Standardkonfiguration.',
   'Aphlict Server started.' => 'Aphlict Server wurde gestartet.',
   'Stopping Aphlict Server (%s)...' => 'Aphlict Server wird gestoppt (%s) ...',
-  'Aphlict (%s) is running.' => 'Aphlict (%s) läuft.',
 );
   }
 

@@ -39,7 +39,6 @@ Quand cette requête est réellement affichée dans le contrôle, elle paraît p
   'Raw Query' => 'Requête brute',
   'Token Results (%s)' => 'Mots-clés résultats (%s)',
   'Configured datasource class "%s" must be a valid subclass of "%s".' => 'La classe de source de données configurée « %s » doit être une sous-classe valide de « %s ».',
-  'Token Name' => 'Nom d’élément lexical',
   'Reference: Advanced Functions' => 'Référence : fonctions avancées',
   'Image URI' => 'URI de l’image',
   'Select' => 'Sélectionner',

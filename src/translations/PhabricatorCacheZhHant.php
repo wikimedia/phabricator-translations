@@ -12,6 +12,7 @@ final class PhabricatorCacheZhHant
   '%s is not available; unable to read deflated data!' => '%s不可用，無法讀取缺陷資料！',
   'APCu' => 'APCu',
   'Select caches to purge with "--all" or "--caches". Available caches are: %s.' => '以「--all」或「--caches」選擇快取來清除，可用快取為%s。',
+  'APCu Disabled' => 'APC/APCu 已停用',
   'The APCu PHP extension is installed, but not enabled in your PHP configuration. Enabling this extension will improve performance. Edit the "%s" setting to enable this extension.' => 'APC 或 APCu PHP 擴充套件已安裝，但未在您的 PHP 設置上啟用。啟用這些將會提升效能。編輯「%s」設定可啟用這些擴充套件。',
   'OPcache is not configured properly for development.' => '未合適地設置 OPcache 用於開發環境。',
   'General Cache (TTL)' => '一般快取（TTL）',
@@ -47,7 +48,6 @@ final class PhabricatorCacheZhHant
   'Zend OPcache' => 'Zend OPcache',
   'Enabling OPcache will dramatically improve performance.' => '啟用OPcache會顯著增進效能。',
   'Enabling APCu will improve performance.' => '啟用APC/APCu可提升效能。',
-  'APCu Disabled' => 'APC/APCu 已停用',
 );
   }
 

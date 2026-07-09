@@ -61,12 +61,10 @@ final class PhabricatorDifferentialCa
   'This submodule was moved from %s.' => 'Aquest submòdul s\'ha mogut des de %s.',
   'reviewer' => 'revisor',
   'Commit, and a revision to attach it to.' => 'Valida, i adjunta-ho a una revisió',
-  'This file has %d collapsed inline comment(s).' => 'Aquest fitxer té %d comentaris en línia col·lapsats',
   'This file was converted from %s for display.' => 'Aquest fitxer s\'ha convertit des de %s per a la visualització.',
   'You can not request review of this revision because you are not the author of the revision and it is not currently a draft.' => 'No podeu sol·licitar la revisió d\'aquesta revisió perquè no sou l\'autor de la revisió i actualment no és un esborrany.',
   'Require "Test Plan" field?' => 'Demanar el camp \'Pla de prova\'?',
   'Large Diff' => 'Gran Diff',
-  '%s updated JIRA issue(s): added %d %s; removed %d %s.' => '%s ha actualitzat les incidències JIRA: afegit %d %s; eliminat %d %s.',
   'Required Signatures' => 'Signatures obligatòries',
   'If a revision belongs to a repository, other users must be able to view the repository in order to view the revision.' => 'Si una revisió pertany a un repositori, altres usuaris han de ser capaços de veure el repositori per veure la revisió.',
   'Expand All Files' => 'Expandir tots els fitxers',
@@ -159,6 +157,7 @@ final class PhabricatorDifferentialCa
   '%s added %s child revision(s): %s.' => '%s ha afegit %s revisions fill: %s.',
   'Invalid \'%s\' parameter \'%s\'!' => 'Paràmetre de \'%s\' no valid: \'%s\'!',
   'Type exact(<user>)...' => 'Tecleja exactament(<usuari>)...',
+  '%s removed %s JIRA issue(s): %s.' => '%s ha suprimit %s problemes JIRA: %s.',
   'Blocking: ...' => 'Bloqueig: ...',
   'Inline patches in email, as body text.' => 'Correccions en línia al correu electrònic, al text del cos.',
   'Other Revisions' => 'Altres revisions',
@@ -396,6 +395,7 @@ final class PhabricatorDifferentialCa
   '%s added CCs to this revision.' => '%s ha afegit CCs a aquesta revisió.',
   '%s closed this revision.' => '%s ha tancat aquesta revisió.',
   'Save Child Revisions' => 'Desar les revisions fill',
+  'This file has %s collapsed inline comment(s).' => 'Aquest fitxer té %s comentaris en línia col·lapsats',
   'No Reviewers' => 'Cap revisor',
   'Requested A Review Of' => 'Sol·licitada una revisió de',
   'Retrieve a raw diff' => 'Rescatar un diff en brut',
@@ -443,6 +443,9 @@ Les regles de revisió poden enviar correus electrònics, revisions d\'indicador
   '%s completed remote builds in %s.' => '%s ha completat les construccions remotes a %s.',
   'When accepting a revision, you must accept on behalf of at least one reviewer.' => 'Quan accepteu una revisió, l\'heu d\'acceptar en nom d\'almenys un revisor.',
   'Pre-Commit Review' => 'Revisions prèvies a la validació',
+  'Select and reorder revision fields.' => 'Seleccioneu i torneu a ordenar els camps de revisió.
+
+NOTA: Aquesta funcionalitat està en desenvolupament actiu i està subjecta a canvis.',
   'Left' => 'Esquerra',
   'This draft revision will not be submitted for review because %s build(s) failed: %s.' => 'Aquest esborrany de revisió no s\'enviarà perquè %s construccions han fallat: %s.',
   'This revision will be removed from review queues until it is revised.' => 'Aquesta revisió s\'eliminarà de les cues de revisió fins que no es revisi.',
@@ -495,17 +498,13 @@ Si combineu aquesta funció amb altres funcions, la consulta retornarà resultat
   'Configure Differential code review.' => 'Configureu la revisió del codi Differential.',
   'You can not resign from this revision because it has already been closed. You can only resign from open revisions.' => 'No es pot renunciar a aquesta revisió perquè ja s\'ha tancat. Només es pot renunciar a revisions obertes.',
   'Instructions for reverting/undoing this change.' => 'Instruccions per revertir/desfer aquest canvi.',
+  '%s added %s JIRA issue(s): %s.' => '%s ha afegit %s problemes JIRA: %s.',
   '%s failed remote builds in %s for %s!' => '%s ha fallat en les construccions remotes a %s per %s.',
   'This revision needs review, but all specified reviewers are disabled or inactive.' => 'Cal revisar aquesta revisió, però tots els revisors especificats estan inhabilitats o inactius.',
   'Failed to migrate hunk %d: %s' => 'No s\'ha pogut migrar la peça %d: %s',
   'Context not available.' => 'Context no disponible.',
   'This diff ("%s") is not associated with a repository. A diff must belong to a tracked repository to be built by CircleCI.' => 'Aquesta diferència ("%s") no està associada a cap repositori. Una diff ha de pertànyer a un repositori rastrejat que ha de crear CircleCI.',
   'New revision summary.' => 'Nou resum de la revisió.',
-  'Select and reorder revision fields.
-
-NOTE: This feature is under active development and subject to change.' => 'Seleccioneu i torneu a ordenar els camps de revisió.
-
-NOTA: Aquesta funcionalitat està en desenvolupament actiu i està subjecta a canvis.',
   'This diff is already attached to a revision.' => 'Aquesta diferència ja està associada a una revisió.',
   'In Asana' => 'A Asana',
   'Show Raw File (Left)' => 'Mostra el fitxer en brut (esquerra)',
@@ -547,6 +546,7 @@ Aquestes regles poden rebutjar les diferències abans d’escriure-les a l’emm
   'Make \'Test Plan\' field optional' => 'Fer que el camp \'Pla de prova\' sigui opcional',
   'Retrieve Differential commit messages or message templates.' => 'Rescata missatges de validació de Differential o plantilles de missatges.',
   'Closed by commit %s (authored by %s).' => 'Tancat per validació %s (escrit per %s).',
+  '%s updated JIRA issue(s): added %s: %s; removed %s: %s.' => '%s ha actualitzat les incidències JIRA: afegit %s %s; eliminat %s %s.',
   'JIRA Issue URIs' => 'URI d\'incidència JIRA',
   'You must load hunks via changesets, with %s!' => 'Heu de carregar peces via conjunts de canvis, amb %s!',
   'This binary file was moved from %s.' => 'Aquest fitxer binari s\'ha mogut de %s.',
@@ -624,7 +624,6 @@ Si voleu que les actualitzacions sempre requereixin una revisió, podeu desactiv
   'This revision needs review, but all reviewers have resigned.' => 'Cal revisar aquesta revisió, però tots els revisors han renunciat.',
   'The update which triggered Herald was an automatic update in response to discovering a commit, so builds will not run.' => 'L\'actualització que va activar Herald va ser una actualització automàtica en resposta al descobriment d\'una validació, de manera que les construccions no s\'executaran.',
   'Hunk %d would be rewritten (storage: "%s" -> "%s"; format: "%s" -> "%s").' => 'La peça %d es reescriurà (emmagatzematge: "%s" -> "%s"; format: "%s" -> "%s").',
-  '%s added %d JIRA issue(s): %s.' => '%s ha afegit %d problemes JIRA: %s.',
   'Storage engine to migrate to.' => 'Motor d\'emmagatzematge al qual migrar.',
   'This binary file was deleted.' => 'Aquest fitxer binari s\'ha suprimit.',
   'Change associated parent revisions.' => 'Canvia les revisions pare associades.',
@@ -698,7 +697,6 @@ NOTA: Aquesta propietat s\'emmagatzema a la caché, de manera que haureu de purg
   'Revision summary' => 'Resum de la revisió',
   '%s added %s parent revision(s): %s.' => '%s ha afegit %s revisions pare: %s.',
   'Resign as Reviewer' => 'Dimiteix com a revisor',
-  '%s removed %d JIRA issue(s): %s.' => '%s ha suprimit %d problemes JIRA: %s.',
   'You will resign as a reviewer for this change.' => 'Renunciareu com a revisor d’aquest canvi.',
 );
   }

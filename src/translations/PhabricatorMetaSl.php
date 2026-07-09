@@ -10,10 +10,9 @@ final class PhabricatorMetaSl
   protected function getTranslations() {
     return array(
   'Information' => 'Informacije',
-  'You cannot install an installed application.' => 'Namščene aplikacije ne morete namestiti.',
   'Policy does not exist.' => 'Pravilnik ne obstaja.',
-  'Can\'t set non-public policies to public.' => 'Nejavnih pravilnikov ni mogoče nastaviti na javne.',
-  'Uninstall' => 'Odmesti',
+  'Can\'t set non-public capabilities to public.' => 'Nejavnih pravilnikov ni mogoče nastaviti na javne.',
+  'You cannot enable an enabled application.' => 'Namščene aplikacije ne morete namestiti.',
 );
   }
 

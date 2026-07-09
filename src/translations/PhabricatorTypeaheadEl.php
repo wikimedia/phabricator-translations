@@ -15,7 +15,6 @@ final class PhabricatorTypeaheadEl
   'Source Class' => 'Κλάση Πηγής',
   'Token Results (%s)' => 'Αποτελέσματα δείγματος (%s)',
   'Configured datasource class "%s" must be a valid subclass of "%s".' => ' Η Διαμορφωμένη σειρά πηγής δεδομένων  "%s" πρέπει να είναι έγκυρη κατηγορία του "%s".',
-  'Token Name' => 'Όνομα Token',
   'Image URI' => 'Διεύθυνση URI εικόνες',
   'Select' => 'Διαλέξτε',
   'Display Name' => 'Εμφανιζόμενο όνομα',

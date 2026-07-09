@@ -38,7 +38,6 @@ final class PhabricatorFilesSv
   'Files (TTL)' => 'Filer (TTL)',
   'File size, in bytes.' => 'Filstorlek, i byte.',
   'No such file exists.' => 'Ingen sådan fil finns.',
-  'Unable to imagefill() a new empty image: %s' => 'Kunde inte anropa imagefill() för en ny tom bild: %s',
   'SKIPPED' => 'HOPPADES ÖVER',
   'The Cloud' => 'Molnet',
   'Edit File: %s' => 'Redigera fil: %s',

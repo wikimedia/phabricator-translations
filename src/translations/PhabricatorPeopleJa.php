@@ -9,11 +9,9 @@ final class PhabricatorPeopleJa
 
   protected function getTranslations() {
     return array(
-  'Disable User?' => 'ユーザーを無効にしますか?',
   'Delete User' => 'ユーザーを削除',
   'New username is required.' => '新しいユーザー名は必須です。',
   'User Details' => 'ユーザーの詳細',
-  'Disable User' => 'ユーザーを無効にする',
   'administrators' => '管理者',
   'Recent Revisions' => '最近のリビジョン',
   'Edit Profile Picture' => 'プロフィール画像を編集',
@@ -27,8 +25,10 @@ final class PhabricatorPeopleJa
   'Send Welcome Email' => 'ようこそメールを送信',
   'Edit Settings' => '設定を編集',
   'Change Username' => 'ユーザー名を変更',
+  'Disable Account' => 'アカウントを無効にする',
   'Edit Profile' => 'プロフィールを編集',
   'Log Out %s' => '%sからログアウト',
+  'Disable User Account?' => 'ユーザーアカウントを無効にしますか?',
   'No recent commits.' => '最近のコミットはありません。',
   'User Since' => 'ユーザー登録日時',
 );

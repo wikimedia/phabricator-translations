@@ -15,7 +15,6 @@ final class PhabricatorConfigRoaTara
   'Table' => 'Tabbelle',
   'Usage' => 'Ause',
   'Short' => 'Curte',
-  'Access Denied' => 'Accesse negate',
   'Nullable' => 'Annullabbele',
   '(%s%s) %s' => '(%s%s) %s',
   'Formats' => 'Formate',

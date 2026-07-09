@@ -69,7 +69,6 @@ final class PhabricatorCalendarDa
   'Decline Event' => 'Afvis begivenhed',
   'This event repeats every week.' => 'Denne begivenhed gentages hver uge.',
   'Create New Export' => 'Opret ny eksportering',
-  'Events must have a name.' => 'Begivenheder skal have et navn.',
   'Export %d' => 'Eksporter %d',
   'Party' => 'Fest',
   '%s imported an ICS file.' => '%s importerede en ICS-fil.',

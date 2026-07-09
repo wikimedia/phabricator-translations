@@ -14,7 +14,6 @@ final class PhabricatorBadgesDiq
   'Active Badges' => 'Rozetê aktivi',
   'New badge description.' => 'İzahatê rozetê neweyi',
   'Edit Badge: %s' => 'Rozeti bıvurnê:%s',
-  'Badges must have a name.' => 'Roxeta rê name lazımo',
   'First Order' => 'Dereceyo sıfteyêne',
   'Activate Badge' => 'Rozetê aktiv kerê',
   'Escape Route' => 'Raya remayışi',

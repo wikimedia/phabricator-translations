@@ -12,11 +12,11 @@ final class PhabricatorMetaPs
   'Completely Break Everything' => 'په بشپړه توگه هرڅه ماتول',
   'Information' => 'مالومات',
   'Syntax' => 'غونډلپوهه',
-  'You cannot install an installed application.' => 'تاسو نشئ کولی چې نصب شوی کاريال نصب کړئ.',
   'Show First-Party Applications' => 'لومړۍ ډلې کاريالونه ښودل',
   'Create Application' => 'کاريال جوړول',
   'Unknown order "%s"!' => 'ناسم امر "%s"!',
-  'Really Uninstall Application?' => 'په رښتيا سره کاريال نانصبول غواړئ؟',
+  'You cannot enable an enabled application.' => 'تاسو نشئ کولی يو چارن شوی کاريال بيا چارن کړئ.',
+  'Really Disable Application?' => 'په رښتيا سره کاريال ناچارنول غواړئ؟',
 );
   }
 

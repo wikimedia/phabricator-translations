@@ -14,7 +14,6 @@ final class PhabricatorAuthPa
   'Allow Login:' => 'ਦਾਖ਼ਲੇ ਦੀ ਆਗਿਆ ਦਿਓ:',
   'Anonymous Password' => 'ਅਗਿਆਤ ਪਾਰਸ਼ਬਦ',
   'Mail Body: Welcome' => 'ਡਾਕ: ਜੀ ਆਇਆਂ ਨੂੰ',
-  'Username and password are required!' => 'ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਰਸ਼ਬਦ ਦੀ ਲੋੜ ਹੈ!',
   'Log In (%s)' => 'ਦਾਖ਼ਲ ਹੋਵੋ (%s)',
   'Login Failure' => 'ਦਾਖ਼ਲਾ ਅਸਫਲਤਾ',
   'Log in to %s' => '%s ਵਿੱਚ ਦਾਖ਼ਲ ਹੋਵੋ',

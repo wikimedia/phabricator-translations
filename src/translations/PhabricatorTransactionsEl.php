@@ -27,7 +27,6 @@ final class PhabricatorTransactionsEl
   '%s edited subscriber(s), added %s: %s; removed %s: %s.' => 'Ο %s επεξεργάστηκε τους συνδρομητής(-ές), πρόσθεσε τους: %s, %s, αφαίρεσε τους: %s, %s.',
   'Take Action' => 'Λήψη δράσης',
   'Form Disabled' => 'Η φόρμα απενεργοποιήθηκε',
-  'Failed to serialize() value for key "%s".' => 'Αποτυχία της σειριοποίησης () της τιμής για το κλειδί "%s".',
   '🔒 Locked' => '🔒 Κλειδωμένο',
   '%s enabled this form.' => 'Ο %s ενεργοποίησε αυτή τη φόρμα.',
   'Edit Configurations' => 'Ρυθμίσεις Επεξεργασίας',
@@ -59,6 +58,7 @@ final class PhabricatorTransactionsEl
   'HTTP Parameters' => 'Παράμετροι HTTP',
   'Edit Engines' => 'Επεξεργαστείτε μηχανές',
   'Support Applications' => 'Υποστήριξη Εφαρμογών',
+  'Change the object subtype.' => 'Αλλαγή του υποτύπου του αντικειμένου.',
   'Make comments.' => 'Κάντε σχόλια.',
   'Via Content Source' => 'Μέσω Content Source (Πηγής Περιεχομένου)',
   'Really remove this comment?' => 'Θέλετε πραγματικά να αφαιρέσετε αυτό το σχόλιο?',
@@ -92,7 +92,6 @@ final class PhabricatorTransactionsEl
   '%s changed the visibility from "%s" to "%s".' => '%s άλλαξε την δυνατότητα πρόσβασης από το \'\'%s\'\' στο \'\'%s\'\'.',
   'Unable to load configuration for this EditEngine ("%s").' => 'Αποτυχία στην φόρτωση διαμόρφωσης γι\'αυτήν την εφαρμογή επεξεργασίας ("%s").',
   'Invalid \'%s\' value for PHID transaction. Value should contain only keys \'%s\' (add PHIDs), \'%s\' (remove PHIDs) and \'%s\' (set PHIDS).' => 'Μη έγκυρη τιμή \'%s\' για συναλλαγή PHID. Η τιμή πρέπει να περιέχει κλειδιά όπως το \'%s\' (προσθήκη PHID), \'%s\' (αφαίρεση PHID) και \'%s\' (ορισμός PHID)',
-  'Change the object subtype.' => 'Αλλαγή του υποτύπου του αντικειμένου.',
 );
   }
 

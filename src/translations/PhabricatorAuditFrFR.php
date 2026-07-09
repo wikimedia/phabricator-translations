@@ -14,7 +14,6 @@ final class PhabricatorAuditFrFR
   'Find commits with particular identifiers (usually, hashes). Supports full or partial identifiers (like "abcd12340987..." or "abcd1234") and qualified or unqualified identifiers (like "rXabcd1234" or "abcd1234").' => 'Trouve des validations ayant des identifiants particuliers (en général, des hachages). Prend en charge les identifiants complets ou partiels (comme « abcd12340987… » ou « abcd1234 ») et les identifiants qualifiés ou non (comme « rXabcd1234 » ou « abcd1234 »).',
   '%s resigned from auditing %s.' => '%s a renoncé à auditer %s.',
   'Specified maximum date must come after specified minimum date.' => 'La date maximale spécifiée doit être postérieure à la date minimale spécifiée.',
-  'A commit\'s projects change.' => 'Modification des projets d’une validation.',
   '%s added subscribers: %s.' => '%s a ajouté des abonnés : %s.',
   'Query audit requests.' => 'Obtenir les demandes d’audit.',
   'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => 'Spécifier « --all » pour tout affecter, ou bien une liste de validations ou de dépôts spécifiques à affecter.',

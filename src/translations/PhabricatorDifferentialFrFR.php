@@ -73,13 +73,11 @@ final class PhabricatorDifferentialFrFR
   'This submodule was moved from %s.' => 'Ce sous-module a été transféré de %s.',
   'reviewer' => 'relecteur',
   'Commit, and a revision to attach it to.' => 'Soumettre et y attacher une version.',
-  'This file has %d collapsed inline comment(s).' => 'Ce fichier a %d commentaire(s) en ligne réduit(s).',
   'This file was converted from %s for display.' => 'Ce fichier a été converti pour l’affichage depuis le format %s.',
   'You can not request review of this revision because you are not the author of the revision and it is not currently a draft.' => 'Vous ne pouvez pas demander la revue de cette version parce que vous n’en êtes pas l’auteur et ce n’est pas actuellement un brouillon.',
   'Require "Test Plan" field?' => 'Exiger le champ « Plan de test » ?',
   'Large Diff' => 'Grand différentiel',
   '%s foisted %s upon %s.' => '%s a imposé %s à %s.',
-  '%s updated JIRA issue(s): added %d %s; removed %d %s.' => '%s a mis à jour un ou plusieurs problèmes JIRA : en a ajouté %d %s ; en a supprimé %d %s.',
   'Required Signatures' => 'Signatures requises',
   'If a revision belongs to a repository, other users must be able to view the repository in order to view the revision.' => 'Si une version appartient à un dépôt, les autres utilisateurs doivent être en mesure d\'accéder à ce dépôt pour voir cette version.',
   'Expand All Files' => 'Développer tous les fichiers',
@@ -176,6 +174,13 @@ final class PhabricatorDifferentialFrFR
   '%s added %s child revision(s): %s.' => '%s a ajouté %s révision(s) fille(s) : %s.',
   'Invalid \'%s\' parameter \'%s\'!' => 'Paramètre de « %s » non valide : « %s » !',
   'Type exact(<user>)...' => 'Entrez exactement (<user>)...',
+  '%s removed %s JIRA issue(s): %s.' => array(
+    
+    array(
+      '%s a retiré %s problème JIRA : %s.',
+      '%s a retiré %s problèmes JIRA : %s.',
+    ),
+  ),
   'Blocking: ...' => 'Blocage : ...',
   'Inline patches in email, as body text.' => 'Correctifs en ligne dans le courriel, dans le corps du texte.',
   'Other Revisions' => 'Autres versions',
@@ -480,6 +485,7 @@ final class PhabricatorDifferentialFrFR
   '%s closed this revision.' => '%s a clos cette version.',
   'Save Child Revisions' => 'Enregistrer les versions filles',
   'Unknown revision status filter constant "%s".' => 'Constante de filtre d’état de révision « %s » inconnue.',
+  'This file has %s collapsed inline comment(s).' => 'Ce fichier a %s commentaire(s) en ligne réduit(s).',
   'No Reviewers' => 'Aucun relecteur',
   'Requested A Review Of' => 'Relecture requise de',
   'To include patches inline in email bodies, set this option to a positive
@@ -609,6 +615,9 @@ Les règles de version peuvent envoyer des courriels, marquer des versions avec 
   'When accepting a revision, you must accept on behalf of at least one reviewer.' => 'En acceptant une version, vous devez l’accepter au nom d’au moins un relecteur.',
   'Pre-Commit Review' => 'Relecture de prévalidation',
   'Deleted After Multiple Copy' => 'Supprimé après plusieurs copies',
+  'Select and reorder revision fields.' => 'Sélectionner et réordonner les champs de version.
+
+NOTE : cette fonctionnalité est en cours de développement et sujette à modifications.',
   'Left' => 'Gauche',
   'This comment originally appeared on line %s, but that line does not exist in this version of the diff. It has been moved backward to the nearest line.' => 'Ce commentaire est apparu à l’origine sur la ligne %s, mais cette ligne n’existe pas dans la version du diff. Il a été remonté à la ligne précédente la plus proche.',
   'This draft revision will not be submitted for review because %s build(s) failed: %s.' => array(
@@ -717,6 +726,13 @@ Si vous combinez cette fonction avec d’autres fonctions, la requête retourner
   'Update Revision %s: %s' => 'Mettre à jour la version %s : %s',
   'You can not resign from this revision because it has already been closed. You can only resign from open revisions.' => 'Vous ne pouvez pas renoncer à cette version parce qu’elle a déjà été clôturée. Vous ne pouvez renoncer qu’aux versions ouvertes.',
   'Instructions for reverting/undoing this change.' => 'Instructions pour annuler / défaire cette modification.',
+  '%s added %s JIRA issue(s): %s.' => array(
+    
+    array(
+      '%s a ajouté %s problème JIRA : %s.',
+      '%s a ajouté %s problèmes JIRA : %s.',
+    ),
+  ),
   'This revision has no indexed affected paths.' => 'Cette version n’a aucun chemin affecté indexé.',
   'Revision Actions' => 'Actions de la révision',
   '%s commandeered this revision from %s.' => '%s a réquisitionné cette version depuis %s.',
@@ -732,11 +748,6 @@ Si vous combinez cette fonction avec d’autres fonctions, la requête retourner
   'Context not available.' => 'Contexte non disponible.',
   'This diff ("%s") is not associated with a repository. A diff must belong to a tracked repository to be built by CircleCI.' => 'Ce diff (« %s ») n’est pas associé à un dépôt. Un diff doit appartenir à un dépôt tracé pour être construit par CircleCI.',
   'New revision summary.' => 'Nouveau résumé de révision.',
-  'Select and reorder revision fields.
-
-NOTE: This feature is under active development and subject to change.' => 'Sélectionner et réordonner les champs de version.
-
-NOTE : cette fonctionnalité est en cours de développement et sujette à modifications.',
   'This diff is already attached to a revision.' => 'Ce diff est déjà attaché à une version.',
   'You can not create a revision without a diff.' => 'Vous ne pouvez créer aucune version sans un diff.',
   'Reclaim a revision.' => 'Récupérer une révision.',
@@ -826,6 +837,7 @@ Ces règles peuvent rejeter des diffs avant qu’ils soient écrits en stockage 
   'Shows the local path where the diff came from.' => 'Affiche le chemin local d’où provenait le diff.',
   'Modified After' => 'Modifié après',
   'Editing Comment' => 'Modification du commentaire',
+  '%s updated JIRA issue(s): added %s: %s; removed %s: %s.' => '%s a mis à jour un ou plusieurs problèmes JIRA : en a ajouté %s %s ; en a supprimé %s %s.',
   'JIRA Issue URIs' => 'URI de problèmes JIRA',
   'Show All %s Line(s)' => array(
     'Afficher %s ligne',
@@ -991,13 +1003,6 @@ Si vous souhaitez que les mises à jour soient systématiquement accompagnées d
   'Diff not found.' => 'Diff non trouvé.',
   'Tests Not Applicable' => 'Tests non applicables',
   'Hunk %d would be rewritten (storage: "%s" -> "%s"; format: "%s" -> "%s").' => 'Le tronçon %d serait réécrit (stockage : « %s » → « %s » ; format : « %s » → « %s »).',
-  '%s added %d JIRA issue(s): %s.' => array(
-    
-    array(
-      '%s a ajouté %d problème JIRA : %s.',
-      '%s a ajouté %d problèmes JIRA : %s.',
-    ),
-  ),
   'Specified diff ("%s") does not exist.' => 'Le différentiel spécifié (« %s ») n\'existe pas.',
   'Storage engine to migrate to.' => 'Moteur de stockage vers lequel migrer.',
   'The author of a diff can see it.' => 'L’auteur d’un diff peut le voir.',
@@ -1030,7 +1035,6 @@ Si vous souhaitez que les mises à jour soient systématiquement accompagnées d
   'You can also paste a diff above, or upload a file containing a diff (for example, from %s, %s or %s).' => 'Vous pouvez également coller un diff ci-dessus, ou bien téléverser un fichier contenant un diff (par exemple, depuis %s, %s ou %s).',
   'New "Hold as Draft" setting.' => 'Nouveau paramètre « Conserver comme brouillon ».',
   '%s created this diff.' => '%s a créé ce diff.',
-  'Recent Similar Revisions' => 'Révisions similaires récentes',
   'Revisions must have an assigned author.' => 'Les versions doivent avoir un auteur désigné.',
   'Keyboard Reference' => 'Guide de référence du clavier',
   'The raw diff you have submitted is too large to parse (it affects more than %s paths and hunks).' => 'Le diff brut que vous avez soumis est trop gros pour être analysé (il touche plus de %s chemins et blocs).',
@@ -1156,13 +1160,6 @@ NOTE : Cette propriété est en cache, donc vous devrez purger celui-ci après a
   'Information about revision status.' => 'Information sur l’état de la révision.',
   'Resign as Reviewer' => 'Démissionner en tant que relecteur',
   'Accepted (by %s)' => 'Accepté (par %s)',
-  '%s removed %d JIRA issue(s): %s.' => array(
-    
-    array(
-      '%s a retiré %d problème JIRA : %s.',
-      '%s a retiré %d problèmes JIRA : %s.',
-    ),
-  ),
   'Find revisions modified at or before a particular time.' => 'Trouver les versions modifiées jusqu’à une date particulière incluse.',
   'You will resign as a reviewer for this change.' => 'Vous renoncez à cette modification comme relecteur.',
 );

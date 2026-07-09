@@ -23,7 +23,6 @@ final class PhabricatorConduitPtBR
   'Called Before' => 'Chamado antes',
   'Developer API' => 'API do desenvolvedor',
   'Execute the call as the given user. (If omitted, the call will be executed as an omnipotent user.)' => 'Execute a chamada como o usuário especificado. (Se omitido, a chamada será executada como um usuário onipotente.)',
-  'View API Token' => 'Visualizar o token da API',
   'Method Result' => 'Resultado do método',
   'Generate Token' => 'Gerar token',
 );

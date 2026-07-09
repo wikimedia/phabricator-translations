@@ -70,7 +70,10 @@ final class PhabricatorDashboardNl
   '%s changed the panels on this dashboard.' => '%s heeft de panelen op dit dashboard gewijzigd.',
   'Each panel specification must be a map of panel attributes. Panel specification at index "%s" is "%s".' => 'Elke paneelspecificatie moet een map zijn van paneelattributen. De paneelspecificatie op index "%s" is "%s".',
   'Change the dashboard icon.' => 'Dashboardpictogram wijzigen.',
-  'To render more than %s levels of panels nested inside other panels, purchase a subscription to %s Gold.' => 'Om panelen van meer dan %s niveaus diep te weer te geven die in andere panelen genesteld zijn, neemt u een abonnement op %s Gold.',
+  'To render more than %s levels of panels nested inside other panels, purchase a subscription to %s Gold.' => array(
+    'Om panelen van meer dan %s niveau diep te weer te geven die in andere panelen genesteld zijn, neemt u een abonnement op %s Gold.',
+    'Om panelen van meer dan %s niveaus diep te weer te geven die in andere panelen genesteld zijn, neemt u een abonnement op %s Gold.',
+  ),
   'Apply transactions to create a new dashboard panel or edit an existing one.' => 'Transacties toepassen om een nieuw dashboardpaneel te maken of een bestaand paneel te bewerken.',
   'Two Columns: 66%%/33%%' => 'Twee kolommen: 66%%/33%%',
   'Query Panel' => 'Zoekopdrachtpaneel',
@@ -106,7 +109,10 @@ final class PhabricatorDashboardNl
   'Menu' => 'Menu',
   'This panel has type "%s", but that panel type is unknown.' => 'Dit paneel heeft het type "%s", maar dat paneeltype is onbekend.',
   'Stay Woke' => 'Blijft alert',
-  'Chart with this key does not exist. A chart must be specified by its %d character long key.' => 'Er bestaat geen grafiek met deze sleutel. Een grafiek moet worden gespecificeerd %d sleutel die %1$d tekens lang is.',
+  'Chart with this key does not exist. A chart must be specified by its %d character long key.' => array(
+    'Er bestaat geen grafiek met deze sleutel. Een grafiek moet worden gespecificeerd %d sleutel die %1$d teken lang is.',
+    'Er bestaat geen grafiek met deze sleutel. Een grafiek moet worden gespecificeerd %d sleutel die %1$d tekens lang is.',
+  ),
   'This panel will be archived and no longer appear in lists of active panels.' => 'Dit paneel wordt gearchiveerd en verschijnt niet langer in lijsten met actieve panelen.',
   'Panel names must not be longer than %s characters.' => 'Paneelnamen mogen niet langer zijn dan %s tekens.',
   'Target tab ("%s") was not found on this panel. It may have been removed.' => 'Het doeltabblad ("%s") is niet gevonden op dit paneel. Het is mogelijk verwijderd.',

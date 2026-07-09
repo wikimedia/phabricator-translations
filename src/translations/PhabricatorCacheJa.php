@@ -12,6 +12,7 @@ final class PhabricatorCacheJa
   '%s is not available; unable to read deflated data!' => '%sは利用できません。圧縮したデータを読み取ることができません！',
   'APCu' => 'APCu',
   'Select caches to purge with "--all" or "--caches". Available caches are: %s.' => '「--all」または「--caches」でパージするキャッシュを選択します。使用可能なキャッシュは%sです。',
+  'APCu Disabled' => 'APCuは無効',
   'OPcache is not configured properly for development.' => 'OPcacheが開発用に正しく構成されていません。',
   'Zend OPcache Not Installed' => 'Zend OPcacheはインストールされていません',
   'Unknown cache format.' => '不明なキャッシュ形式です。',
@@ -22,11 +23,10 @@ final class PhabricatorCacheJa
   'PHP Extension "APCu" Not Installed' => 'PHP拡張機能「APCu」はインストールされていません',
   'Zend OPcache Not Enabled' => 'Zend OPcache拡張機能は有効になっていません',
   'OPcache Disabled' => 'OPcacheは無効',
-  'APCu Extension Not Enabled' => 'APC/APCu拡張機能は有効になっていません',
+  'APCu Extension Not Enabled' => 'APCu拡張機能は有効になっていません',
   'OPcache' => 'OPcache',
   'Zend OPcache' => 'Zend OPcache',
-  'Enabling APCu will improve performance.' => 'APC/APCuを有効にすると、パフォーマンスが向上します。',
-  'APCu Disabled' => 'APC/APCuは無効',
+  'Enabling APCu will improve performance.' => 'APCuを有効にすると、パフォーマンスが向上します。',
 );
   }
 

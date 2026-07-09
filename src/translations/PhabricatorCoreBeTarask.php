@@ -29,6 +29,7 @@ final class PhabricatorCoreBeTarask
   'No data.' => 'Няма зьвесткаў.',
   'Tag' => 'Тэґ',
   'data' => 'зьвесткі',
+  'Download' => 'Сьцягнуць',
   'Reviewer' => 'Рэцэнзэнт',
   'Loading...' => 'Ладаваньне…',
   'Application' => 'Аплікацыя',

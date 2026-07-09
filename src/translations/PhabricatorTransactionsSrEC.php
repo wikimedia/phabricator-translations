@@ -17,9 +17,13 @@ final class PhabricatorTransactionsSrEC
   'export' => 'извези',
   'Encryption Required' => 'Потребно шифровање',
   'Mentioned User' => 'Поменути корисник',
+  'Supported values:' => 'Подржане вредности:',
   'Silent Edit' => 'Тиха измена',
+  'Create %s' => 'Направи %s',
   'Bulk Edit' => 'Групна измена',
   'Add Another Action' => 'Додај другу радњу',
+  'Name is required.' => 'Име је обавезно.',
+  '%s subscribed.' => '%s запратио.',
   'Object Monogram' => 'Монограм објекта',
 );
   }

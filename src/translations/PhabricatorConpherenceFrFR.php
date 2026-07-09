@@ -45,7 +45,6 @@ final class PhabricatorConpherenceFrFR
   'Room participants.' => 'Participants de la salle.',
   'That was a non-update. Try cancel.' => 'Ce n’était pas une mise à jour. Essayez d’annuler.',
   'New Room participants.' => 'Nouveaux participants de la salle.',
-  'Participants (%d)' => 'Participants (%d)',
   'Type a room title...' => 'Saisissez un titre de salle...',
   '%s set the room topic to %s in %s.' => '%s a défini le sujet de la salle à %s dans %s.',
   '%s created this room.' => '%s a créé cette salle.',
@@ -62,6 +61,7 @@ final class PhabricatorConpherenceFrFR
   'Tap' => 'Tape',
   'Apply transactions to create a new room or edit an existing one.' => 'Appliquer les transactions pour créer une nouvelle salle ou en modifier une existante.',
   'Unknown action: %s' => 'Action inconnue : %s',
+  'Participants (%s)' => 'Participants (%s)',
   '%s updated the room image for %s.' => '%s a mis à jour l’image de la salle pour %s.',
   'Log in to join this room and participate.' => 'Se connecter pour rejoindre cette salle et participer.',
   '%s added %d participant(s): %s.' => array(
@@ -112,7 +112,6 @@ final class PhabricatorConpherenceFrFR
   'Only a user can remove themselves from a room.' => 'Seul un utilisateur peut se retirer lui-même d’une salle.',
   'CONPHERENCE DETAIL' => 'DÉTAILS DE LA CONPHERENCE',
   'Room Actions' => 'Actions de la salle',
-  'This method is frozen and will eventually be deprecated. New code should use "conpherence.edit" instead.' => 'Cette méthode est gelée et sera éventuellement rendue obsolète. Le nouveau code devrait utiliser « conpherence.edit » à la place.',
   'No Sound' => 'Aucun son',
   'room participants' => 'participants de la salle',
   '%s joined the room.' => '%s a rejoint la salle.',

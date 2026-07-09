@@ -23,6 +23,7 @@ final class PhabricatorSubscriptionsEsES
   'All %d subscribers removed by %s' => '%2$s quitó los %d suscriptores',
   'Added Subscribers' => 'Suscriptores añadidos',
   'Removed %s subscriber(s): %s.' => 'Se quitaron %s suscriptores: %s',
+  'Unsubscribe' => 'Cancelar suscripción',
   'Bad Object' => 'Objeto incorrecto',
   'Mute Notifications' => 'Silenciar notificaciones',
   'Add subscribers.' => 'Añadir suscriptores.',

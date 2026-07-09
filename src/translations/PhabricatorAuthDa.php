@@ -38,7 +38,6 @@ final class PhabricatorAuthDa
   'Registration Failed' => 'Registrering mislykkedes',
   'Unable to Verify Email' => 'Kunne ikke verificere e-mail adressen',
   'Public SSH Key' => 'Offentlig SSH nøgle',
-  'Username and password are required!' => 'Brugernavn og er adgangskode påkrævet!',
   'Disqus' => 'Disqus',
   'All Keys' => 'Alle nøgler',
   'Log In (%s)' => 'Log ind (%s)',

@@ -14,7 +14,6 @@ final class PhabricatorOauthserverEl
   'Server Error' => 'Σφάλμα διακομιστή',
   'OAuth application "%s" has been disabled.' => 'Η εφαρμογή του OAuth "%s" έχει απενεργοποιηθεί.',
   'Authorize Application' => 'Εξουσιοδότηση εφαρμογής',
-  '%s enabled this application.' => 'Ο %s ενεργοποίησε την εφαρμογή.',
   'No clients found.' => 'Δεν βρέθηκαν πελάτες',
   'OAuth Login Provider' => 'Παροχέας σύνδεσης OAuth',
   'Unknown Scope' => 'Άγνωστος σκοπός',

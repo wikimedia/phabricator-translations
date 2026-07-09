@@ -51,12 +51,18 @@ U kunt het document hier bekijken:
   'I agree to the terms laid forth above.' => 'Ik ga akkoord met de bovenstaande voorwaarden.',
   'Signature Details' => 'Handtekeningdetails',
   'Email Commands: Legalpad Documents' => 'E-mailopdrachten: Legalpad-documenten',
-  '%s added %s required legal document(s): %s.' => '%s heeft %s vereist(e) juridisch(e) document(en) toegevoegd: %s.',
+  '%s added %s required legal document(s): %s.' => array(
+    
+    array(
+      '%s heeft vereist juridisch document toegevoegd: %3$s.',
+      '%s heeft vereiste juridische documenten toegevoegd: %3$s.',
+    ),
+  ),
   'That user does not exist.' => 'Die gebruiker bestaat niet.',
   'Search for documents signed by given users.' => 'Zoeken naar documenten die door bepaalde gebruikers zijn ondertekend.',
   'Company name is required.' => 'Bedrijfsnaam is vereist.',
   'Legalpad Document' => 'Legalpad-document',
-  '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s heeft %s vereist(e) juridisch(e) document(en) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited %s required legal document(s), added %s: %s; removed %s: %s.' => '%s heeft vereiste juridische documenten bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'Document Title.' => 'Documenttitel.',
   'A valid email is required.' => 'Een geldig e-mailadres is vereist.',
   'Only documents with signature type "individual" may require signing to log in.' => 'Alleen documenten met handtekeningtype "individueel" kunnen ondertekening vereisen om aan te melden.',
@@ -78,10 +84,13 @@ U kunt het document hier bekijken:
   '%s renamed this document from %s to %s.' => '%s heeft dit document hernoemd van %s naar %s.',
   'The body of text of the document.' => 'De tekst van het document.',
   'Not Signed' => 'Niet ondertekend',
-  '%s document(s) are already signed: %s.' => '%s document(en) zijn al ondertekend: %s.',
+  '%s document(s) are already signed: %s.' => array(
+    '%s document is al ondertekend: %s.',
+    '%s documenten zijn al ondertekend: %s.',
+  ),
   'You must choose a company to add an exemption for.' => 'U moet een bedrijf kiezen om een vrijstelling voor toe te voegen.',
   '%s set the document %s to not require signatures.' => '%s heeft ingesteld dat document %s geen handtekeningen vereist.',
-  '%s edited %s required legal document(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft %s vereist(e) juridisch(e) document(en) voor %s bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited %s required legal document(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft vereiste juridische documenten voor %3$s bewerkt; toegevoegd: %5$s; verwijderd: %7$s.',
   'Email Contains' => 'E-mail bevat',
   'Signature Already Verified' => 'Handtekening al geverifieerd',
   'You do not have permission to create new documents.' => 'U hebt geen toestemming om nieuwe documenten aan te maken.',
@@ -117,7 +126,13 @@ U kunt het document hier bekijken:
   'You can record a signature exemption if a user has signed an equivalent document. Other applications will behave as through the user has signed this document.' => 'U kunt een handtekeningvrijstelling vastleggen als een gebruiker een gelijkwaardig document heeft ondertekend. Andere toepassingen gedragen zich alsof de gebruiker dit document heeft ondertekend.',
   'Company Name' => 'Bedrijfsnaam',
   '%s updated the document text for %s.' => '%s heeft de documenttekst voor %s bijgewerkt.',
-  '%s added %s required legal document(s) to %s: %s.' => '%s heeft %s vereist(e) juridisch(e) document(en) toegevoegd aan %s: %s.',
+  '%s added %s required legal document(s) to %s: %s.' => array(
+    
+    array(
+      '%s heeft een vereist juridisch documenttoegevoegd aan %3$s: %4$s.',
+      '%s heeft vereiste juridische documententoegevoegd aan %3$s: %4$s.',
+    ),
+  ),
   'Email field is required.' => 'E-mailveld is vereist.',
   'The email used by the signer.' => 'Het e-mailadres dat door de ondertekenaar is gebruikt.',
   'Exempt User' => 'Gebruiker vrijstellen',
@@ -130,7 +145,13 @@ U kunt het document hier bekijken:
   '%s updated the document preamble.' => '%s heeft de documentpreambule bijgewerkt.',
   'Corporations' => 'Bedrijven',
   'Verified, Corporate' => 'Geverifieerd, zakelijk',
-  '%s removed %s required legal document(s): %s.' => '%s heeft %s vereist(e) juridisch(e) document(en) verwijderd: %s.',
+  '%s removed %s required legal document(s): %s.' => array(
+    
+    array(
+      '%s heeft een vereist juridisch document verwijderd: %3$s.',
+      '%s heeft vereiste juridische documenten verwijderd: %3$s.',
+    ),
+  ),
   '%s set the document text.' => '%s heeft de documenttekst ingesteld.',
   'You must check "I agree to the terms laid forth above."' => 'U moet "Ik ga akkoord met de bovenstaande voorwaarden" aanvinken.',
   '[Legalpad] Signature Verification' => '[Legalpad] Handtekeningverificatie',
@@ -140,7 +161,13 @@ U kunt het document hier bekijken:
   'Add Exemption' => 'Vrijstelling toevoegen',
   'The author of a document can always view and edit it.' => 'De auteur van een document kan het altijd bekijken en bewerken.',
   'Can Create Documents' => 'Kan documenten aanmaken',
-  '%s removed %s required legal document(s) from %s: %s.' => '%s heeft %s vereist(e) juridisch(e) document(en) verwijderd van %s: %s.',
+  '%s removed %s required legal document(s) from %s: %s.' => array(
+    
+    array(
+      '%s heeft een vereist juridisch document verwijderd van %3$s: %4$s.',
+      '%s heeft vereiste juridische documenten verwijderd van %3$s: %4$s.',
+    ),
+  ),
   'Contributors' => 'Bijdragers',
   'The preamble of the document.' => 'De preambule van het document.',
   '%s set the document to require signatures.' => '%s heeft ingesteld dat het document handtekeningen vereist.',
@@ -165,7 +192,10 @@ U kunt het document hier bekijken:
   'New document preamble.' => 'Nieuwe documentpreambule.',
   'Find Signatures' => 'Handtekeningen zoeken',
   'Search for documents with given creators.' => 'Zoeken naar documenten met bepaalde makers.',
-  'Required %s signature(s): %s.' => '%s handtekening(en) vereist: %s.',
+  'Required %s signature(s): %s.' => array(
+    '%s handtekening vereist: %s.',
+    '%s handtekeningen vereist: %s.',
+  ),
   'Configure Legalpad Forms' => 'Legalpad-formulieren configureren',
   'The signature verification code is incorrect, or the signature has been invalidated. Make sure you followed the link in the email correctly.' => 'De handtekeningverificatiecode is incorrect, of de handtekening is ongeldig gemaakt. Controleer of u de koppeling in de e-mail correct hebt gevolgd.',
   'Search for documents created before a certain date.' => 'Zoeken naar documenten die vóór een bepaalde datum zijn aangemaakt.',

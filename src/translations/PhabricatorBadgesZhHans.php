@@ -19,7 +19,6 @@ final class PhabricatorBadgesZhHans
   'Coder' => '码农',
   'Edit Badge' => '编辑徽章',
   'Choose Badge Icon' => '选择徽章图标',
-  '%s renamed this badge from %s to %s.' => '%s将此徽章从%s重命名为%s。',
   'Already awarded' => '已授予',
   '%s created this badge.' => '%s创建了此徽章。',
   'Create a Badge' => '创建徽章',

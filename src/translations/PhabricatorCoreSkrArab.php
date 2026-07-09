@@ -87,7 +87,6 @@ final class PhabricatorCoreSkrArab
   'June' => 'جون',
   'May' => 'مئی',
   'July' => 'جولائی',
-  'Install' => 'انسٹال',
 );
   }
 

@@ -50,6 +50,7 @@ final class PhabricatorMetamtaEl
   'No Such Object' => 'Δεν υπάρχει τέτοιο αντικείμενο',
   'Subject' => 'Θέμα',
   'Delivery' => 'Παράδοση',
+  'Edit Address' => 'Επεξεργασία διεύθυνσης',
   'HEADERS' => 'Επικεφαλίδες',
   'Attach a file.' => 'Σύναψη αρχείου.',
   'Mail Disabled' => 'το ταχυδρομείο έχει απενεργοποιηθεί',

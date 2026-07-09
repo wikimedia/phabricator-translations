@@ -10,7 +10,6 @@ final class PhabricatorBadgesSv
   protected function getTranslations() {
     return array(
   'New badge award recipients.' => 'Nya mottagare för emblempriser.',
-  '%s renamed %s badge %s to %s.' => '%s bytte namn på emblemet %s från %s till %s.',
   'Recipient PHID "%s" has not been awarded.' => 'Mottagaren med PHID "%s" har inte tilldelats.',
   '%s awarded this badge to %s recipient(s): %s.' => '%s tilldelade detta emblem till %s mottagare: %s.',
   'Already awarded' => 'Redan tilldelad',

@@ -20,7 +20,6 @@ final class PhabricatorUiexampleSv
   'Wrote code that was acceptable' => 'Skrev acceptabel kod',
   'Direct Award' => 'Direkt utmärkelse',
   'Inline' => 'I texten',
-  'Let\'s Go Shopping' => 'Nu går vi och handlar',
   'Timeline View' => 'Tidslinjevy',
   'Technical' => 'Teknisk',
   'Don\'t let go!' => 'Släpp inte taget!',

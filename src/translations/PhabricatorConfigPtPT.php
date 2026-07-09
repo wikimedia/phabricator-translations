@@ -9,6 +9,27 @@ final class PhabricatorConfigPtPT
 
   protected function getTranslations() {
     return array(
+  'When a user takes an action which generates an email notification (like
+commenting on a Differential revision), the "From" address can either be set
+to the user\'s email address (like "alincoln@example.com") or the
+"metamta.default-address" address.
+
+The user experience is generally better if the user\'s real address is used as
+the "From" header value, since the messages are easier to organize when they
+appear in mail clients, but this will only work if the server is authorized to
+send email on behalf of the "From" domain. Practically, this means:
+
+  - If you are doing an install for Example Corp and all the users will have
+    corporate @corp.example.com addresses and any hosts this software is running
+    on are authorized to send email from corp.example.com, you can enable this
+    to make the user experience a little better.
+  - If you are doing an install for an open source project and your users will
+    be registering via third-party services and/or using personal email
+    addresses, you probably should not enable this or all of your outgoing
+    email might vanish into SFP blackholes.
+  - If your install is anything else, you\'re safer leaving this off, at least
+    initially, since the risk in turning it on is that your outgoing mail will
+    never arrive.' => '',
   'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
 
 This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
@@ -31,37 +52,9 @@ It is also possible (but very unlikely) that some other network device (like a l
 
 Requests must include a valid "Host" header.' => '',
   'The request body that was sent began:' => '',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => '',
   'The best available MYSQL implementation is now selected automatically.' => '',
   'Alternative URIs that can access this service.' => '',
   'This server is not configured in cluster mode.' => '',
-  'When a user takes an action which generates an email notification (like
-commenting on a Differential revision), the "From" address can either be set
-to the user\'s email address (like "alincoln@logcabin.com") or the
-"metamta.default-address" address.
-
-The user experience is generally better if the user\'s real address is used as
-the "From" header value, since the messages are easier to organize when they
-appear in mail clients, but this will only work if the server is authorized to
-send email on behalf of the "From" domain. Practically, this means:
-
-  - If you are doing an install for Example Corp and all the users will have
-    corporate @corp.example.com addresses and any hosts this software is running
-    on are authorized to send email from corp.example.com, you can enable this
-    to make the user experience a little better.
-  - If you are doing an install for an open source project and your users will
-    be registering via third-party services and/or using personal email
-    addresses, you probably should not enable this or all of your outgoing
-    email might vanish into SFP blackholes.
-  - If your install is anything else, you\'re safer leaving this off, at least
-    initially, since the risk in turning it on is that your outgoing mail will
-    never arrive.' => '',
   'The current configuration has these %d value(s):' => '',
   'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
 
@@ -129,6 +122,13 @@ hosts irão lidar com consultas de pesquisa de texto completo e indexação. Par
 configuração de clusters de pesquisa de texto completo, consulte **[[ %s | %s ]]** na
 documentação.',
   'Manage extensions.' => 'Gerenciar extensões.',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => '',
   'Storage engines are now discovered automatically at runtime.' => 'Os mecanismos de armazenamento agora são descobertos automaticamente em tempo de execução.',
   'This software appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. This software regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => 'Este software parece estar instalado em uma instância EC2 muito pequena (da classe " %s ") com CPU expansível. Isto é fortemente desencorajado. Este software precisa regularmente de CPU, e essas instâncias são frequentemente sufocadas até a morte pela limitação da CPU. Use uma instância com CPU normal.',
   'Daemons no longer use PID files.' => 'Daemons não usam mais arquivos PID.',
@@ -522,6 +522,11 @@ emails.' => 'Você pode desativar o link de preferência de e-mail em e-mails se
 messages.' => 'Você pode desativar os rodapés "Para:" e "Cc:" no e-mail se os usuários preferirem mensagens
  menores.',
   'Allow a single mailbox to be used for all replies.' => 'Permita que uma única caixa de correio seja usada para todas as respostas.',
+  'Adapter class to use to transmit mail to the MTA. The default uses
+PHPMailer, which will invoke "mail". This is appropriate if mail actually
+works on your host, but if you haven\'t configured mail it may not be so great.
+A number of other mailers are available (e.g., SES, SendGrid, SMTP, Sendmail,
+custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => 'Classe de adaptador para a transmissão de correio para a MTA. O padrão usa PHPMailerLite, que irá invocar "envio de correio". Isto é apropriado se o sendmail realmente funciona no seu host, mas se você não configurou o mail pode não ser tão bom. São disponíveis vários outros correio (por exemplo, SES, SendGrid, SMTP, correio personalizado). Esta opção é desaproveitada em favor dos "cluster.mailers".',
   'This option allows you to stop this service from sending data to most external
 services: it will disable email, SMS, repository mirroring, remote builds,
 Doorkeeper writes, and webhooks.
@@ -547,26 +552,6 @@ maior confiança e menos interrupções .
 Sem usar esse sinalizador para silenciar o ambiente de teste temporário,
 usuários receberiam e-mails duplicados durante o tempo em que a instância de teste e a antiga
 instância de produção estivessem em operação.',
-  'The base URI for this install is not configured, and major features will not work properly until you configure it.
-
-You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
-
-Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
-
-Based on this request, it appears that the correct setting is:
-
-%s
-
-To configure the base URI, run the command shown below.' => 'O URI base para esta instalação não está configurado e os principais recursos não funcionarão corretamente até que você o configure.
-
-Você deve definir o URI base como o URI que usará para acessar este servidor, como "http:/ /devtools.example.com/".
-
-Inclua o protocolo (http ou https), nome de domínio e número da porta se você estiver usando uma porta diferente de 80 (http) ou 443 (https).!N !
-Com base nesta solicitação, parece que a configuração correta é:
-
- %s 
-
-Para configurar o URI base, execute o comando mostrado abaixo.',
   'The mapping from VCS users to %s users has changed and must be rebuilt.' => 'O mapeamento dos usuários de VCS para os usuários de %s mudou e deve ser reconstruído.',
   'Databases are created in a namespace, which defaults to \'phabricator\' -- for instance, the Differential database is named \'phabricator_differential\' by default. You can change this namespace if you want. Normally, you should not do this unless you are developing extensions and using namespaces to separate multiple sandbox datasets.' => '',
   'This software sent itself a request with "Accept-Encoding: gzip", but received an uncompressed response.
@@ -584,11 +569,6 @@ This option defines a list of netblocks which requests will never be issued to. 
 Isso pode representar uma vulnerabilidade de segurança se os serviços na mesma sub-rede aceitarem comandos ou revelarem informações privadas por meio de HTTP GET não autenticado, com base no endereço IP de origem. Em particular, todos os hosts no EC2 têm acesso a tal serviço.
 
 Esta opção define uma lista de netblocks para os quais as solicitações nunca serão emitidas. Geralmente, você deve listar todo o espaço IP privado aqui.',
-  'Adapter class to use to transmit mail to the MTA. The default uses
-PHPMailerLite, which will invoke "sendmail". This is appropriate if sendmail
-actually works on your host, but if you haven\'t configured mail it may not be so
-great. A number of other mailers are available (e.g., SES, SendGrid, SMTP,
-custom mailers). This option is deprecated in favor of \'cluster.mailers\'.' => 'Classe de adaptador para a transmissão de correio para a MTA. O padrão usa PHPMailerLite, que irá invocar "envio de correio". Isto é apropriado se o sendmail realmente funciona no seu host, mas se você não configurou o mail pode não ser tão bom. São disponíveis vários outros correio (por exemplo, SES, SendGrid, SMTP, correio personalizado). Esta opção é desaproveitada em favor dos "cluster.mailers".',
   'Provide a list of notification servers to enable real-time notifications.
 
 For help setting up notification servers, see **[[ %s | %s ]]** in the
@@ -643,6 +623,26 @@ Isso geralmente significa que você editou um arquivo e deixou caracteres de esp
 If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'AVISO: Esta é uma opção muito avançada e útil apenas para provedores de hospedagem que executam clusters multilocatários.
 
 Se você fornecer um identificador de instância aqui (normalmente injetando nele um ` %s `), o servidor passará para subprocessos e commit hooks na variável ambiental ` %s `.',
+  'The base URI for this install is not configured, and major features will not work properly until you configure it.
+
+You should set the base URI to the URI you will use to access this server, like "https://devtools.example.com/".
+
+Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
+
+Based on this request, it appears that the correct setting is:
+
+%s
+
+To configure the base URI, run the command shown below.' => 'O URI base para esta instalação não está configurado e os principais recursos não funcionarão corretamente até que você o configure.
+
+Você deve definir o URI base como o URI que usará para acessar este servidor, como "http:/ /devtools.example.com/".
+
+Inclua o protocolo (http ou https), nome de domínio e número da porta se você estiver usando uma porta diferente de 80 (http) ou 443 (https).!N !
+Com base nesta solicitação, parece que a configuração correta é:
+
+ %s 
+
+Para configurar o URI base, execute o comando mostrado abaixo.',
   'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => 'Sem \' %s \', este software não será capaz de gerar ou renderizar diferenças em múltiplas aplicações.',
   'Send as %s' => 'Enviar como %s',
   'Setup Error' => 'Erro de configuração',

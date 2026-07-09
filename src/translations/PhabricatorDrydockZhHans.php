@@ -12,7 +12,6 @@ final class PhabricatorDrydockZhHans
   'All Operations' => '所有操作',
   'Repository Operation %d' => '存储库操作%d',
   'Failed to acquire slot locks: %s.' => '无法获得位置锁定：%s。',
-  'Show Details' => '显示详情',
   'Type a lease ID (exact match)...' => '输入租约ID（精确匹配）',
 );
   }

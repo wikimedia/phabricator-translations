@@ -1,15 +1,16 @@
 <?php
 
-final class PhabricatorBaseSl
+final class PhabricatorextCoreHe
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'sl';
+    return 'he';
   }
 
   protected function getTranslations() {
     return array(
-  'Developer Tools' => 'Orodja za razvijalce',
+  'Open Tasks' => 'משימות פתוחות',
+  'merged' => 'מוזגה',
 );
   }
 

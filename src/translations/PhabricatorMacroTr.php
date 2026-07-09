@@ -35,6 +35,7 @@ final class PhabricatorMacroTr
   '%s renamed this macro from %s to %s.' => '%s, bu makroyu %s iken %s olarak yeniden adlandırdı.',
   '%s set the audio for %s to play once.' => '%s, sesi %s olarak bir kez çalacak şekilde ayarladı.',
   'Edit Audio: %s' => 'Ses Düzenle: %s',
+  'Unknown status \'%s\'!' => 'Bilinmeyen durum \'%s\'!',
   'New macro name.' => 'Yeni makro adı.',
   'No matching flags.' => 'Eşleşen bayrak yok.',
   'Audio Behavior' => 'Ses Davranışı',

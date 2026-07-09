@@ -11,7 +11,12 @@ final class PhabricatorRemarkupAr
     return array(
   'Invalid markup engine.' => 'محرك تعليم غير صحيح.',
   'Process text through remarkup.' => 'معالجة النص من خلال إعادة التدوين.',
-  'Content may not be empty.' => 'المحتوى لا ينبغي أن يكون فارغا.',
+  'Mentioning and Embedding objects' => 'ذكر وتضمين الأشياء',
+  'Specialized Syntax' => 'بناء الجملة المتخصص',
+  'Remarkup Reference' => 'مرجع Remarkup',
+  'Input' => 'مدخل',
+  'Contents must be a list of strings.' => 'يجب أن تكون المحتويات عبارة عن قائمة من السلاسل النصية.',
+  'Reference' => 'مرجع',
 );
   }
 

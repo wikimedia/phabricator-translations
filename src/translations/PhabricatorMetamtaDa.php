@@ -37,6 +37,7 @@ final class PhabricatorMetamtaDa
   'Subject' => 'Emne',
   'No attachments.' => 'Ingen vedhæfninger.',
   'Delivery' => 'Levering',
+  'Edit Address' => 'Rediger adresser',
   'HEADERS' => 'OVERSKRIFTER',
   'Outbound Mail' => 'Udgående mail',
   'Attach a file.' => 'Vedhæft en fil.',

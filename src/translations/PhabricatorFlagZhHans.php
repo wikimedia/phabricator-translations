@@ -21,7 +21,7 @@ final class PhabricatorFlagZhHans
   'Must pass an id or an objectPHID.' => '必须通过一个id或对象PHID。',
   'Already marked with %s flag.' => '已标记为%s。',
   'Remove %s flag.' => '移除%s标记。',
-  'Flag For Later' => '标记用于日后',
+  'Flag For Later' => '标记以便日后查看',
   'Remove flag' => '移除标记',
   'You are not the creator of this flag.' => '您不是此标记的创建者。',
   'Flag %s' => '标记%s',

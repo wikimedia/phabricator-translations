@@ -52,7 +52,6 @@ final class PhabricatorProjectCa
   'When a card is dropped into a column which uses this trigger:' => 'Quan es deixa caure una targeta en una columna que utilitza aquest disparador:',
   'Expected trigger rule (of class "%s") to return a list of transactions from "newDropTransactions()", but got "%s".' => 'S\'esperava una regla d\'activació (de la classe \'%s\') per retornar una llista de transaccions de \'newDropTransactions()\', però s\'ha obtingut \'%s\'.',
   'If you lock this project, members will be prevented from leaving it.' => 'Si tanques aquest projecte, s\'impedeix que els membres el deixin.',
-  'Additional project slugs.' => 'URL amigables de projecte addicional.',
   'Create Project' => 'Crear un projecte',
   'You can not change members of a milestone. Members of the parent project are automatically members of the milestone.' => 'No es poden canviar els membres d\'una fita. Els membres del projecte pare són automàticament membres de la fita.',
   '%s edited project(s), added %s: %s; removed %s: %s.' => '%s ha modificat projectes, afegit %s: %s; esborrat %s: %s.',
@@ -84,9 +83,7 @@ Vegeu [[%s|Guia de l\'usuari de projectes]] a la documentació per obtenir més 
   'Trigger: %s' => 'Disparador: %s',
   'Task status value ("%s") is not a valid task status. Valid statues are: %s.' => 'El valor de l\'estat de la tasca ("%s") no és un estat de tasca vàlid. Els estats vàlids són: %s.',
   'Set Board Default Order' => 'Estableix l\'ordre predeterminat del tauler',
-  'New list of slugs.' => 'Nova llista d\'URL amigables.',
   'You will no longer receive email or notifications about every object associated with this project.' => 'Ja no rebreu correu electrònic ni notificacions sobre tots els objectes associats amb aquest projecte.',
-  'This method is frozen and will eventually be deprecated. New code should use "project.edit" instead.' => 'Aquest mètode està congelat i finalment quedarà obsolet. El codi nou hauria d\'utilitzar «project.edit» en comptes d\'això.',
   'Reorder Columns' => 'Reordenar les columnes',
   'Type a user or project name...' => 'Tecleja un usuari o nom de projecte...',
   'Trigger %d' => 'Disparador %d',
@@ -113,7 +110,6 @@ Vegeu [[%s|Guia de l\'usuari de projectes]] a la documentació per obtenir més 
   'Project tag color.' => 'Color de l\'etiqueta del projecte.',
   'No Milestones' => 'Sense fites',
   'Project tags added' => 'S\'han afegit les etiquetes del projecte',
-  'Search for projects with particular slugs. (Slugs are the same as project hashtags.)' => 'Cerca projectes amb URL amigables. (Els grups són els mateixos que els hashtags del projecte.)',
   'Unused trigger.' => 'Disparador no utilitzat.',
   'Trigger Usage' => 'Ús del disparador',
   'Value for index "%s" should be a dictionary.' => 'El valor de l\'índex \'%s\' hauria de ser un diccionari.',
@@ -151,7 +147,6 @@ Això ometrà els resultats amb qualsevol altra etiqueta de projecte.',
   '%s added %s project(s) for %s: %s.' => '%s ha afegit %s projectes per %s: %s.',
   'Add Column' => 'Afegir una columna',
   'Remove Project Tags' => 'Elimina les etiquetes del projecte',
-  'Projects are flexible storage containers used as tags, teams, projects, or anything you need to group.' => 'Els projectes són contenidors d’emmagatzematge flexibles que s’utilitzen com a etiquetes, equips, projectes o qualsevol cosa que necessiteu per agrupar.',
   'This trigger is not used by any columns.' => 'Aquest disparador no és utilitzat per cap columna.',
   'Choose a parent project to create a subproject beneath.' => 'Trieu un projecte pare per crear un subprojecte a sota.',
   'The selected column contains no visible tasks which you have permission to move.' => 'La columna seleccionada no conté cap tasca visible que pugueu moure.',
@@ -166,7 +161,6 @@ Això ometrà els resultats amb qualsevol altra etiqueta de projecte.',
   'Workboard' => 'Tauler de treball',
   'Trigger ruleset is corrupt: rule (at index "%s") should be a rule specification, but is actually "%s".' => 'El conjunt de regles del disparador està malmès: la regla (a l\'índex "%s") hauria de ser una especificació de regla, però en realitat és "%s".',
   'Workboard Columns' => 'Columnes del tauler de treball',
-  'Primary slug/hashtag.' => 'URL amigable primari/hashtag.',
   'Find direct subprojects of specified parents.' => 'Cerqueu subprojectes directes dels pares especificats.',
   'Custom Trigger' => 'Disparador personalitzat',
   '%s changed the default filter for the project workboard.' => '%s ha canviat el filtre predeterminat per al tauler de treball del projecte.',
@@ -181,27 +175,6 @@ Això ometrà els resultats amb qualsevol altra etiqueta de projecte.',
   'Save Column' => 'Desar la columna',
   '%s created this trigger.' => '%s ha creat aquest disparador.',
   'View Tasks as Query' => 'Veure les tasques com a consulta',
-  'This function allows you to find results which are not in one or more projects. For example, use this query to find results which are not associated with a specific project:
-
-> not(vanilla)
-
-You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
-
-> not(vanilla), not(chocolate)
-
-You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
-
-> ios, not(bug)' => 'Aquesta funció permet trobar resultats que no estan en cap projecte. Per exemple, utilitzeu aquesta consulta per trobar resultats que no estan associats amb un projecte específic: 
-
-> not(vanilla)
-
-Podeu excloure múltiples projectes. Això farà que la consulta retorni només els resultats que no estan en cap dels projectes exclosos: 
-
-> not(vanilla), not(chocolate)
-
-Podeu combinar aquesta funció amb altres funcions per refinar els resultats. Per exemple, utilitzeu aquesta consulta per trobar resultats de l\'iOS que no són errors: 
-
-> ios, not(bug)',
   'Closed Tasks' => 'Tasques tancades',
   'Add project tags: %s.' => 'Afegir etiquetes de projecte: %s.',
   'Into The Expanse' => 'En l\'expansió',
@@ -218,7 +191,6 @@ Podeu combinar aquesta funció amb altres funcions per refinar els resultats. Pe
   'This board has no columns.' => 'Aquest tauler no té columnes.',
   '%s removed the image for %s.' => '%s ha eliminat la imatge per %s.',
   'You can only set a parent or milestone project when creating a project for the first time.' => 'Només podeu establir un projecte pare o fita quan creeu un projecte per primera vegada.',
-  'Add related projects.' => 'Afegiu projectes relacionats.',
   'Parent or milestone project PHID ("%s") must not be a milestone. Milestones may not have subprojects or milestones.' => 'El PHID ("%s") del projecte pare o de la fita no ha de ser una fita. Les fites no poden tenir subprojectes o fites.',
   'Hide Root Projects' => 'Amagar els projectes arrel',
   'You can not add milestones to this project.' => 'No podeu afegir fites a aquest projecte.',
@@ -285,6 +257,11 @@ Podeu combinar la funció `any()` amb testimonis de projecte normal per refinar 
   'Project Fields' => 'Camps de projecte',
   'The project image ("%s") specified for ("%s") was not found in the folder "resources/builtin/projects/".' => 'La imatge del projecte («%s») especificada per («%s») no s\'ha trobat a la carpeta «resources/builtin/projects/».',
   'This project has no milestones.' => 'Aquest projecte no té fites.',
+  'Associate one or more projects to the object by listing their hashtags. Separate project tags with spaces. For example, use `!projects #ios #feature` to add both related projects.
+
+Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any project tags.' => 'Afegeix un o més projectes a l\'objecte enumerant els seus hashtags. Separa els projectes amb espais. Per exemple, utilitzeu `!projects #ios #feature` per afegir els dos projectes relacionats. 
+
+S\'ignoraran els projectes que no siguin vàlids o no siguin reconeguts. Aquesta ordre no té efecte si no especifiqueu cap projecte.',
   'Group stuff into big piles.' => 'Agrupa les coses en grans piles.',
   'Add members.' => 'Afegir membres.',
   'All Triggers' => 'Tots els disparadors',
@@ -316,11 +293,6 @@ Podeu combinar la funció `any()` amb testimonis de projecte normal per refinar 
   'Priority rule value should be a string, but is not (value is "%s").' => 'El valor de la regla de prioritat ha de ser una cadena, però no ho és (el valor és \'%s\').',
   'Get the workboard columns where an object appears.' => 'Obteniu les columnes del tauler de treball on apareix un objecte.',
   'Projects: ...' => 'Projectes: ...',
-  'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
-
-Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Afegeix un o més projectes a l\'objecte enumerant els seus hashtags. Separa els projectes amb espais. Per exemple, utilitzeu `!projects #ios #feature` per afegir els dos projectes relacionats. 
-
-S\'ignoraran els projectes que no siguin vàlids o no siguin reconeguts. Aquesta ordre no té efecte si no especifiqueu cap projecte.',
   'Find projects with a given minimum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Cerqueu projectes amb una profunditat mínima determinada. Els projectes arrel tenen una profunditat 0, els seus fills immediats tenen una profunditat 1, etc.',
   'Group by Status' => 'Agrupar per estat',
   'This project has subprojects.' => 'Aquest projecte té subprojectes.',
@@ -352,6 +324,7 @@ S\'ignoraran els projectes que no siguin vàlids o no siguin reconeguts. Aquesta
   'Search constraint "minDepth" must be no larger than search constraint "maxDepth".' => 'La restricció de cerca \'minDepth\' no ha de ser més gran que la restricció de cerca \'maxDepth\'.',
   'Show Column' => 'Mostrar la columna',
   'Set Board Default Filter' => 'Estableix el filtre per defecte del tauler',
+  'Change project tags.' => 'Canvia els URL amigables del projecte.',
   'You must choose a project with a workboard.' => 'Heu de triar un projecte amb un tauler de treball.',
   '(Default)' => '(per defecte)',
   'For columns that proxy another object (like a subproject or milestone), the PHID of the object they proxy.' => 'Per a les columnes que representen un altre objecte (com un subprojecte o una fita), el PHID de l\'objecte que representen.',
@@ -376,6 +349,7 @@ S\'ignoraran els projectes que no siguin vàlids o no siguin reconeguts. Aquesta
   'Sort by Points' => 'Ordena per punts',
   '%s enabled the workboard for this project.' => '%s ha activat el tauler de treball per a aquest projecte.',
   'User PHID ("%s") is not a valid user.' => 'El PHID d\'usuari ("%s") no és un usuari vàlid.',
+  'Primary hashtag.' => 'URL amigable primari/hashtag.',
   'Trigger' => 'Disparador',
   'Archive Subproject' => 'Subproyecto de archivo',
   'PHID of the parent project.' => 'El PHID del projecte pare.',
@@ -395,13 +369,33 @@ Això normalment vol dir //els teus// projectes, però si deseu una consulta uti
   'Bulk Edit Tasks...' => 'Tasques d\'edició massiva...',
   'This trigger has no rules.' => 'Aquest disparador no té regles.',
   '%s removed the trigger for this column (was %s).' => '%s ha eliminat el disparador d\'aquesta columna (era %s).',
-  'This method is frozen and will eventually be deprecated. New code should use "project.search" instead.' => 'Aquest mètode està congelat i finalment quedarà obsolet. El codi nou hauria d\'utilitzar "project.search" en comptes d\'això.',
   'Import board columns from another project.' => 'Importeu columnes de taulers d’un altre projecte.',
   '%s changed the background color of the project workboard.' => '%s ha canviat el color de fons del tauler de treball del projecte.',
   'Expected "newSortVectorsForObjects()" on "%s" to return a map of vectors, but got "%s".' => 'S\'esperava \'newSortVectorsForObjects()\' a \'%s\' per retornar un mapa de vectors, però va obtenir \'%s\'.',
   'Workboard: %s' => 'Tauler de treball: %s',
   'You can not hide the default/backlog column on a board.' => 'No podeu ocultar la columna per defecte/endarrerits en un tauler.',
   'Read information about workboard columns.' => 'Llegiu informació sobre les columnes del tauler de treball.',
+  'This function allows you to find results which are not tagged with one or more projects. For example, use this query to find results which are not associated with a specific project:
+
+> not(vanilla)
+
+You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
+
+> not(vanilla), not(chocolate)
+
+You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
+
+> ios, not(bug)' => 'Aquesta funció permet trobar resultats que no estan en cap projecte. Per exemple, utilitzeu aquesta consulta per trobar resultats que no estan associats amb un projecte específic: 
+
+> not(vanilla)
+
+Podeu excloure múltiples projectes. Això farà que la consulta retorni només els resultats que no estan en cap dels projectes exclosos: 
+
+> not(vanilla), not(chocolate)
+
+Podeu combinar aquesta funció amb altres funcions per refinar els resultats. Per exemple, utilitzeu aquesta consulta per trobar resultats de l\'iOS que no són errors: 
+
+> ios, not(bug)',
   'Make the current filter the new default filter for this board? All users will see the new filter as the default when they view the board.' => 'Voleu convertir el filtre actual en el nou filtre per defecte d’aquest tauler? Tots els usuaris veuran el filtre nou com a predeterminat quan vegin el tauler.',
   '%s renamed this trigger from %s to %s.' => '%s ha reanomenat aquest disparador de "%s" a "%s".',
   '%s stripped the name %s from this trigger.' => '%s ha tret el nom %s d\'aquest disparador.',
@@ -410,7 +404,6 @@ Això normalment vol dir //els teus// projectes, però si deseu una consulta uti
   'Choose a valid project to move tasks to.' => 'Trieu un projecte vàlid on traslladar les tasques.',
   'Change Project Tags' => 'Canvia les etiquetes del projecte',
   '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s ha modificat projectes per %s, afegit %s: %s; eliminat %s: %s.',
-  'Change project slugs.' => 'Canvia els URL amigables del projecte.',
   'Select results with no tags.' => 'Seleccioneu els resultats sense etiquetes.',
   'Project Workboard' => 'Tauler de treball del projecte',
   'Color key "%s" is not a valid color key. The supported color keys are: %s.' => 'La clau de color "%s" no és una clau de color vàlida. Les claus de color compatibles són: %s.',
@@ -435,7 +428,6 @@ Això normalment vol dir //els teus// projectes, però si deseu una consulta uti
   'You can not add subprojects to this project.' => 'No podeu afegir subprojectes a aquest projecte.',
   'Unable to Create Workboard' => 'No es pot crear el tauler de treball',
   '%s Subprojects' => 'Subprojectes de %s',
-  'Slugs' => 'URL amigables',
   'Watching a project will let you monitor it closely. You will receive email and notifications about changes to every object tagged with projects you watch.' => 'Veure un projecte us permetrà supervisar-lo de prop. Rebràs un correu electrònic i notificacions sobre canvis en tots els objectes etiquetats amb els projectes que mires.',
   'Task priority value ("%s") is not a valid task priority. Valid priorities are: %s.' => 'El valor de prioritat de tasca (\'%s\') no és una prioritat de tasca vàlida. Les prioritats vàlides són: %s.',
   '%s removed %d %s hashtag(s): %s.' => '%s ha suprimit %d %s hashtags: %s.',

@@ -34,7 +34,10 @@ final class PhabricatorSystemNl
   'Highlighting' => 'Markering',
   'Unable to Reach Master' => 'Primaire database niet bereikbaar',
   'View As' => 'Bekijken als',
-  'Permanently destroyed %s object(s).' => '%s object(en) permanent vernietigd.',
+  'Permanently destroyed %s object(s).' => array(
+    '%s object permanent vernietigd.',
+    '%s objecten permanent vernietigd.',
+  ),
   'Choose Encoding' => 'Kies codering',
   'Destroying objects may cause related objects to stop working, and may leave scattered references to objects which no longer exist. In most cases, it is much better to disable or archive objects instead of destroying them. This risk is greatest when deleting complex or highly connected objects like repositories, projects and users.
 
@@ -56,6 +59,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   'Read-only mode was enabled by the explicit action of a human administrator, so you can get more information about why it has been turned on by rolling your chair away from your desk and yelling "Hey! Why is %s in read-only mode??!" using your very loudest outside voice.' => 'De alleen-lezenmodus is door een menselijke beheerder ingeschakeld. U kunt meer informatie krijgen over de reden hiervoor door met uw bureaustoel weg te rollen en luidkeels te roepen: "Hé! Waarom staat %s in de alleen-lezenmodus?!"',
   'DATA WILL BE PERMANENTLY DESTROYED' => 'DE GEGEVENS WORDEN PERMANENT VERNIETIGD',
   'Choose Highlighting' => 'Kies markering',
+  'View full transaction history' => 'Volledige transactiegeschiedenis bekijken',
   'Advanced/Developer...' => 'Gevorderd/Ontwikkelaar...',
   'This may happen if there is a temporary network anomaly on the server side, like cosmic radiation or spooky ghosts. If this failure was caused by a transient service interruption, this server will recover momentarily.' => 'Dit kan gebeuren als er een tijdelijke netwerkafwijking aan de serverzijde optreedt, zoals kosmische straling of spookachtige verschijningen. Als deze storing is veroorzaakt door een tijdelijke dienstonderbreking, herstelt de server zich binnen enkele ogenblikken.',
   'Objects will be permanently destroyed. There is no way to undo this operation or ever retrieve this data unless you maintain external backups.' => 'De objecten worden permanent vernietigd. Deze bewerking kan niet ongedaan gemaakt worden en de gegevens kunnen niet meer worden hersteld, tenzij u externe back-ups maakt.',
@@ -67,7 +71,10 @@ These tattered edges are an expected consequence of destroying objects, and the 
   'System' => 'Systeem',
   'You are performing too many actions too quickly.' => 'U voert te veel handelingen te snel uit.',
   'Choose a text encoding to use.' => 'Kies een tekstcodering die u wilt gebruiken.',
-  'These %s object(s) will be destroyed forever:' => 'Deze %s objecten worden voorgoed vernietigd:',
+  'These %s object(s) will be destroyed forever:' => array(
+    'Dit object wordt voorgoed vernietigd:',
+    'Deze objecten worden voorgoed vernietigd:',
+  ),
   'Select Document Engine' => 'Selecteer documentengine',
   'In read-only mode you can read existing information, but you will not be able to edit objects or create new objects until this mode is disabled.' => 'In de alleen-lezenmodus kunt u bestaande informatie lezen, maar u kunt geen objecten bewerken of nieuwe objecten aanmaken totdat deze modus is uitgeschakeld.',
   'This mode may be used to perform temporary maintenance, test configuration, or archive an installation permanently.' => 'Deze modus kan worden gebruikt voor tijdelijk onderhoud, het testen van configuraties of het permanent archiveren van een installatie.',
@@ -79,7 +86,10 @@ These tattered edges are an expected consequence of destroying objects, and the 
   '%d / minute' => '%d / minuut',
   'Destroy objects without prompting.' => 'Objecten vernietigen zonder bevestiging.',
   'The maximum allowed rate for this action is %s. You are taking actions at a rate of %s.' => 'De maximaal toegestane snelheid voor deze handeling is %s. U voert handelinen uit met een snelheid van %s.',
-  'Are you absolutely certain you want to destroy these %s object(s)?' => 'Weet u absoluut zeker dat u deze %s objecten vernietigen?',
+  'Are you absolutely certain you want to destroy these %s object(s)?' => array(
+    'Weet u absoluut zeker dat u dit object wilt vernietigen?',
+    'Weet u absoluut zeker dat u deze objecten wilt vernietigen?',
+  ),
   'Administrative Read-Only Mode' => 'Administratieve alleen-lezenmodus',
   'Object edit policy can not be unlocked because this object does not have a mutable edit policy.' => 'Het bewerkingsbeleid voor dit object kan niet worden ontgrendeld omdat het geen wijzigbaar bewerkingsbeleid heeft.',
   '%d / second' => '%d / seconde',

@@ -20,6 +20,7 @@ final class PhabricatorPholioZhHans
   'Open Mocks' => '开放模拟',
   '%s closed this mock.' => '%s关闭了此模拟。',
   '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => '%s编辑了%s的任务，添加了%s个：%s；移除了%s个：%s。',
+  'Undo' => '撤销',
   '%s edited task(s), added %s: %s; removed %s: %s.' => '%s编辑了任务，添加了%s个：%s；移除了%s个：%s个。',
   'Edit Mock' => '编辑仿制',
 );

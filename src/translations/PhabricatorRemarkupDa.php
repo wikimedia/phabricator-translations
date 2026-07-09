@@ -11,7 +11,6 @@ final class PhabricatorRemarkupDa
     return array(
   'Invalid markup engine.' => 'Ugyldig markup-motor.',
   'Process text through remarkup.' => 'Bearbejd tekst gennem remarkup i Phabricator kontekst.',
-  'Content may not be empty.' => 'Indhold kan ikke være tomt.',
 );
   }
 

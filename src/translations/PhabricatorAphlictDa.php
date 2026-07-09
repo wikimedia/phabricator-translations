@@ -17,10 +17,10 @@ final class PhabricatorAphlictDa
   'Launching server:' => 'Igangsætter server:',
   'Starting Aphlict server in foreground...' => 'Starter Aphlict server i forgrunden...',
   'Server exited!' => 'Serveren afsluttedes!',
+  'Aphlict (%s) is running.' => 'Aphlict (%s) kører.',
   'Writing logs to: %s' => 'Skriver logs til: %s',
   'Reading configuration from: %s' => 'Læser konfigurationen fra: %s',
   'Aphlict Server started.' => 'Aphlict server startede.',
-  'Aphlict (%s) is running.' => 'Aphlict (%s) kører.',
 );
   }
 

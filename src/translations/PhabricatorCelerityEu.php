@@ -13,8 +13,8 @@ final class PhabricatorCelerityEu
   'No resource source exists with name "%s"!' => 'Ez dago "%s" izena duen baliabide iturririk!',
   'Writing map "%s".' => '"%s" mapa idazten.',
   'Use High Contrast Colors' => 'Erabili Kontraste Altuko Koloreak',
-  'Dark Mode (Experimental)' => 'Modu Iluna (Esperimentala)',
   'Use Larger Font Size' => 'Erabili Letra Tipo Handiagoa',
+  'Dark Mode' => 'Modu Iluna (Esperimentala)',
 );
   }
 

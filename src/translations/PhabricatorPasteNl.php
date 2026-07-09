@@ -31,7 +31,10 @@ final class PhabricatorPasteNl
   'Type a language name or leave blank to auto-detect...' => 'Voer een taalnaam in of laat leeg voor automatische detectie...',
   'Edit Paste: %s' => 'Paste bewerken: %s',
   'This paste will be marked as expired.' => 'Deze paste wordt gemarkeerd als verlopen.',
-  '%s Line(s)' => '%s regel(s)',
+  '%s Line(s)' => array(
+    '%s regel',
+    '%s regels',
+  ),
   'Nom Nom Nom Nom Nom' => 'Nom Nom Nom Nom Nom',
   'Default view policy for newly created pastes.' => 'Standaard weergavebeleid voor nieuw aangemaakte pastes.',
   'No such paste exists.' => 'Deze paste bestaat niet.',

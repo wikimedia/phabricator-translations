@@ -39,7 +39,6 @@ final class PhabricatorConduitDa
   'Active API Tokens' => 'Aktive API-nøgler',
   'API token "%s" is not valid.' => 'API-nøglen "%s" er ikke gyldig.',
   'Generate API Token' => 'Generer API-nøgle',
-  'View API Token' => 'Vis API-nøgle',
   'No Tokens to Terminate' => 'Ingen nøgler at ophæve',
   'Terminate API Tokens' => 'Ophæv API-nøgler',
   'Modern Methods' => 'Moderne metoder',

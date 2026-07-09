@@ -10,7 +10,6 @@ final class PhabricatorDrydockDa
   protected function getTranslations() {
     return array(
   'Resource' => 'Ressource',
-  'Show Details' => 'Vis detaljer',
   'Lease %d' => 'Lease %d',
   'Release a lease.' => 'Frigiv en lease.',
   'Resource type.' => 'Ressourcetype.',
@@ -38,7 +37,6 @@ final class PhabricatorDrydockDa
   'Resource %s %s' => 'Ressource %s %s',
   'Already Complete' => 'Allerede fuldendt',
   'Updating resource "%s".' => 'Opdaterer ressourcen "%s".',
-  '%s enabled %s.' => '%s aktiverede %s.',
   'Lease' => 'Lease',
   'Update a lease.' => 'Opdater en lease.',
   'Waiting for Activation' => 'Venter på aktivering',

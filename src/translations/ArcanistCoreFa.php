@@ -65,7 +65,6 @@ Use \'%s\' to select a revision.' => 'بیش از یک نسخه در کپی در
   'Space found before semicolon.' => 'فاصلهٔ خالی قبل از سمیکالن یافت شد.',
   'Copied Here' => 'اینجا کپی شده',
   'Aborted generation of gigantic diff.' => 'تولید تفاوت غول‌آسا متوقف شد.',
-  'Install PEP8 using `%s`.' => 'نصب PEP8 با استفاده از  `%s`.',
   'Aborted workflow to fix UTF-8.' => 'گردش کار برای ترمیم UTF-8 متوقف شد.',
   '    %s %s
 ' => '    %s %s',

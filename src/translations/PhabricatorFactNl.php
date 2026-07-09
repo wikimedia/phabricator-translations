@@ -24,15 +24,43 @@ final class PhabricatorFactNl
   'Chart function "%s" emitted multiple argument specifications with the same name ("%s"). Each argument specification must have a unique name.' => 'Grafiekfunctie "%s" heeft meerdere argumentspecificaties met dezelfde naam ("%s") uitgegeven. Elke argumentspecificatie moet een unieke naam hebben.',
   'Cursor %s does not exist or is already reset.' => 'Cursor %s bestaat niet of is al opnieuw ingesteld.',
   'No cursors.' => 'Geen cursors.',
-  'Function "%s" expects at least %s argument(s), but only %s argument(s) were provided.' => 'Functie "%s" verwacht ten minste %s argument(en), maar er zijn slechts %s argument(en) opgegeven.',
+  'Function "%s" expects at least %s argument(s), but only %s argument(s) were provided.' => array(
+    
+    array(
+      
+      array(
+        'Functie “%s” verwacht ten minste één argument, maar er is slechts één argument opgegeven.',
+        'Functie “%s” verwacht ten minste één argument, maar er zijn slechts %3$s argumenten opgegeven.',
+      ),
+      
+      array(
+        'Functie “%s” verwacht ten minste %s argumenten, maar er is slechts één argument opgegeven.',
+        'Functie “%s” verwacht ten minste %s argumenten, maar er zijn slechts %s argumenten opgegeven.',
+      ),
+    ),
+  ),
   'Fact Extraction Report' => 'Feitenextractierapportage',
   'Dimension' => 'Dimensie',
   'Processing %s...' => '%s verwerken...',
   'No Stored Datapoints' => 'Geen opgeslagen gegevenspunten',
   'Fact key "%s" is not a known fact key.' => 'Feitensleutel "%s" is geen bekende feitensleutel.',
-  'Function "%s" expects %s argument(s), but %s argument(s) were provided.' => 'Functie "%s" verwacht %s argument(en), maar er zijn %s argument(en) opgegeven.',
+  'Function "%s" expects %s argument(s), but %s argument(s) were provided.' => array(
+    
+    array(
+      
+      array(
+        'Functie “%s” verwacht één argument, maar er is één argument opgegeven.',
+        'Functie “%s” verwacht één argument, maar er zijn %3$s argumenten opgegeven.',
+      ),
+      
+      array(
+        'Functie “%s” verwacht %s argumenten, maar er is één argument opgegeven.',
+        'Functie “%s” verwacht %s argumenten, maar er zijn %s argumenten opgegeven.',
+      ),
+    ),
+  ),
   'cos(x)' => 'cos(x)',
-  '%sms' => '%sms',
+  '%sms' => '%s ms',
   'Processing cursor \'%s\'.' => 'Cursor \'%s\' verwerken.',
   'Show a list of fact engines.' => 'Een lijst met feitengines weergeven.',
   'Chart and Analyze Data' => 'Gegevens in grafieken weergeven en analyseren',
@@ -47,7 +75,21 @@ final class PhabricatorFactNl
   'Chart uses unknown engine key ("%s") and can not be rendered.' => 'Grafiek gebruikt een onbekende enginesleutel ("%s") en kan niet worden weergegeven.',
   'Show a list of fact iterators and cursors.' => 'Een lijst met feiteniterators en cursors weergeven.',
   'Value for "function" argument must be a natural list beginning with a function name as a string. The first list item has the wrong type, %s.' => 'Waarde voor argument "function" moet een natuurlijke lijst zijn die begint met een functienaam als tekenreeks. Het eerste lijstitem heeft het verkeerde type, %s.',
-  'Function "%s" expects %s or more argument(s), but only %s argument(s) were provided.' => 'Functie "%s" verwacht %s of meer argument(en), maar er zijn slechts %s argument(en) opgegeven.',
+  'Function "%s" expects %s or more argument(s), but only %s argument(s) were provided.' => array(
+    
+    array(
+      
+      array(
+        'Functie “%s” verwacht één of meer argumenten, maar er is slechts één argument opgegeven.',
+        'Functie “%s” verwacht één of meer argumenten, maar er zijn slechts %3$s argumenten opgegeven.',
+      ),
+      
+      array(
+        'Functie “%s” verwacht %s of meer argumenten, maar er is slechts één argument opgegeven.',
+        'Functie “%s” verwacht %s of meer argumenten, maar er zijn slechts %s argumenten opgegeven.',
+      ),
+    ),
+  ),
   'Failed to load or generate dimension ID ("%s") for dimension key "%s".' => 'Kan dimensie-ID ("%s") niet laden of genereren voor dimensiesleutel "%s".',
   'Destroy all facts.' => 'Alle feiten vernietigen.',
   'Chart function "%s" emitted a repeatable argument ("%s"), then another argument ("%s"). No arguments are permitted after a repeatable argument.' => 'Grafiekfunctie "%s" heeft een herhaalbaar argument ("%s") uitgegeven, gevolgd door een ander argument ("%s"). Na een herhaalbaar argument zijn geen argumenten toegestaan.',

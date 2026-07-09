@@ -9,6 +9,7 @@ final class PhabricatorFlagTr
 
   protected function getTranslations() {
     return array(
+  'Removed "%s" flag.' => '"%s" bayrağı kaldırıldı.',
   'Marked with "%s" flag.' => '"%s" işaretiyle işaretlenmiştir.',
   'Personal Bookmarks' => 'Kişisel Yer İşaretleri',
   'Query flag markers.' => 'Sorgu bayrağı işaretleri.',
@@ -19,11 +20,15 @@ final class PhabricatorFlagTr
   'Flags are private. Only you can view or edit your flags.' => 'Bayraklar özeldir. Bayraklarınızı yalnızca siz görüntüleyebilir veya düzenleyebilirsiniz.',
   'Must pass an id or an objectPHID.' => 'Bir kimliği veya bir objectPHID geçirmesi gerekir.',
   'Already marked with %s flag.' => 'Zaten %s bayrakla işaretlendi.',
+  'Remove %s flag.' => '%s bayrağını kaldır.',
   'Flag For Later' => 'Daha Sonrası için İşaretle',
+  'Remove flag' => 'Bayrağı kaldır',
   'You are not the creator of this flag.' => 'Sen bu bayrağın yaratıcısı değilsin.',
   'Flag %s' => 'Bayrak %s',
+  'Removed Flag' => 'Bayrak Kaldırıldı',
   'Create or modify a flag.' => 'Bir bayrak oluşturun veya değiştirin.',
   'Create Flag' => 'Bayrak Oluştur',
+  'Marked with flag of the wrong color ("%s").' => '',
   'You can flag this %s if you want to remember to look at it later.' => 'Daha sonra bakmayı hatırlamak istiyorsanız, bu %s\'i işaretleyebilirsiniz.',
   'No flags found.' => 'Bayrak bulunamadı.',
   'Bad flag ID.' => 'Kötü bayrak kimliği.',
@@ -32,6 +37,8 @@ final class PhabricatorFlagTr
   'Already Marked' => 'Zaten İşaretlenmiş',
   'Flag Color' => 'Bayrak Rengi',
   'Mark with flag' => 'Bayrakla işaretle',
+  'Did Not Remove Flag' => 'Bayrak Kaldırılmadı',
+  'Not marked with any flag.' => 'Hiçbir bayrakla işaretlenmemiş.',
   'Flagged' => 'İşaretlenmiş',
 );
   }

@@ -10,7 +10,6 @@ final class PhabricatorSearchSl
   protected function getTranslations() {
     return array(
   'Personal Menu Items' => 'Predmeti osebnega menija',
-  'Format' => 'Format',
   'Search Engines' => 'Iskalni motorji',
   'Disable Menu Item' => 'Onemogoči predmet menija',
   'Add to Dashboard' => 'Dodaj na nadzorno ploščo',

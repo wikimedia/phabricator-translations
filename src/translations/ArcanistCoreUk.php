@@ -11,6 +11,7 @@ final class ArcanistCoreUk
     return array(
   'Aborted due to file upload failure. You can use %s to skip binary uploads.' => 'Перервано через помилку вивантаження файлу. Ви можете використати %s, щоб пропустити бінарні вивантаження.',
   'Ref "%s" does not exist in remote "%s".' => 'Посилання «%s» не існує у віддаленому «%s».',
+  'This process has PID %d. Acquiring lock...' => 'Цей процес має PID %d. Отримання блокування...',
   'This working copy is associated with the %s repository.' => 'Ця робоча копія пов\'язана з репозиторієм %s.',
   'Lint Disabler' => 'Заборона лінтера (аналізатора коду)',
   'Call to "posix_getpgid(...)" failed!' => 'Виклик «posix_getpgid(...)» завершилось невдало!',
@@ -22,9 +23,122 @@ final class ArcanistCoreUk
   '"%s" (%s)' => '«%s» (%s)',
   'Saved "%s" as "%s".' => 'Збережено «%s» як «%s».',
   'Night has fallen. The moon overhead is waxing, and provides just enough light that you can make out your surroundings. It is quite cold.' => 'Настала ніч. Місяць над головою зростає і забезпечує достатньо світла, щоб ви могли розрізнити своє оточення. Тут досить холодно.',
-  '(This message was raised at line %s, but the file only has %s line(s).)' => '(Це повідомлення було порушено на рядку %s, але файл містить лише %s рядків.)',
+  '(This message was raised at line %s, but the file only has %s line(s).)' => array(
+    
+    array(
+      '(Це повідомлення було порушено на рядку %s, але файл містить лише %s рядок.)',
+      '(Це повідомлення було порушено на рядку %s, але файл містить лише %s рядки.)',
+      '(Це повідомлення було порушено на рядку %s, але файл містить лише %s рядків.)',
+    ),
+  ),
   'Not parsing!' => 'Не розбираючи!',
   'Portuguese (Portugal)' => 'Португальська (Португалія)',
+  'Create an alias from __command__ to __target__ (optionally, with __options__).
+
+Aliases allow you to create shorthands for commands and sets of flags you
+commonly use, like defining "arc draft" as a shorthand for "arc diff --draft".
+
+**Creating Aliases**
+
+You can define "arc draft" as a shorthand for "arc diff --draft" like this:
+
+  $ arc alias draft diff -- --draft
+
+Now, when you run "arc draft", the command will function like
+"arc diff --draft".
+
+<bg:yellow> NOTE: </bg> Make sure you use "--" before specifying any flags you
+want to pass to the command! Otherwise, the flags will be interpreted as flags
+to "arc alias".
+
+**Listing Aliases**
+
+Without any arguments, "arc alias" will list aliases.
+
+**Removing Aliases**
+
+To remove an alias, run:
+
+  $ arc alias <alias-name>
+
+You will be prompted to remove the alias.
+
+**Shell Commands**
+
+If you begin an alias with "!", the remainder of the alias will be invoked as
+a shell command. For example, if you want to implement "arc ls", you can do so
+like this:
+
+  $ arc alias ls \'!ls\'
+
+When run, "arc ls" will now behave like "ls".
+
+**Multiple Toolsets**
+
+This workflow supports any toolset, even though the examples in this help text
+use "arc". If you are working with another toolset, use the binary for that
+toolset define aliases for it:
+
+  $ phage alias ...
+
+Aliases are bound to the toolset which was used to define them. If you define
+an "arc draft" alias, that does not also define a "phage draft" alias.
+
+**Builtins**
+
+You can not overwrite the behavior of builtin workflows, including "alias"
+itself, and if you install a new workflow it will take precedence over any
+existing aliases with the same name.' => 'Створіть псевдонім від __command__ до __target__ (за бажанням, з __options__).
+
+Псевдоніми дозволяють створювати скорочення для команд та наборів прапорців, які ви
+зазвичай використовуєте, наприклад, визначення "arc draft" як скорочення для "arc diff --draft".
+
+**Створення псевдонімів**
+
+Ви можете визначити "arc draft" як скорочення для "arc diff --draft" ось так:
+
+ $ arc alias draft diff -- --draft
+
+Тепер, коли ви запускаєте "arc draft", команда функціонуватиме як
+"arc diff --draft".
+
+<bg:yellow> ПРИМІТКА:</bg> Переконайтеся, що ви використовуєте "--" перед тим, як вказати будь-які прапорці, які ви
+потрібно передати команді! В іншому випадку прапорці будуть інтерпретовані як прапорці
+для "arc alias".
+
+**Перелік псевдонімів**
+
+Без будь-яких аргументів "arc alias" виведе список псевдонімів.
+
+**Видалення псевдонімів**
+
+Щоб видалити псевдонім, виконайте:
+
+ $ arc alias<alias-name> 
+
+Вам буде запропоновано видалити псевдонім.
+
+**Команди оболонки**
+
+Якщо псевдонім починається з "!", решта псевдоніма буде викликана як
+команда оболонки. Наприклад, якщо ви хочете реалізувати "arc ls", ви можете зробити це
+ось так:
+
+ $ arc alias ls \'!ls\'
+
+Під час запуску "arc ls" тепер поводитиметься як "ls".
+
+**Кілька наборів інструментів**
+
+Цей робочий процес підтримує будь-який набір інструментів, навіть якщо приклади в цьому довідковому тексті
+використовують "arc". Якщо ви працюєте з іншим набором інструментів, використовуйте для нього двійковий файл
+toolset define aliases for it:
+
+ $ phage alias ...
+
+Псевдоніми пов\'язані з набором інструментів, який використовувався для їх визначення. Якщо ви визначаєте псевдонім "arc draft", це також не визначає псевдонім "phage draft". **Вбудовані**
+
+Ви не можете перезаписати поведінку вбудованих робочих процесів, включаючи сам "alias", і якщо ви встановите новий робочий процес, він матиме пріоритет над будь-якими існуючими псевдонімами з такою ж назвою.',
   'File Symbol "%s"' => 'Символ файлу «%s»',
   'Try running your arc command again.' => 'Спробуйте виконати команду arc ще раз.',
   'Local commit "%s" does not merge cleanly into "%s". Rebase or merge local changes so they can merge cleanly.' => 'Локальна фіксація «%s» не об\'єднується чисто в «%s». Перебазуйте або об’єднайте локальні зміни, щоб вони могли злитися чисто.',
@@ -35,7 +149,32 @@ final class ArcanistCoreUk
   'If the file is not a text file, you can mark it \'binary\'. Mark this file as \'binary\' and continue?' => 'Якщо це не текстовий файл, ви можете позначити його як «бінарний». Позначити файл як «бінарний» і продовжити?',
   'Rule \'%s\' is invalid, it must have a type and name like \'%s\'.' => 'Правило «%s» неправильне, воно має мати тип і назву «%s».',
   'Task Symbol "%s"' => 'Символ завдання «%s»',
-  'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'Параметр («%s»), переданий «%s» під час побудови повідомлення про одиничний тест, має бути рядком з максимальною довжиною %s байтів, але довжиною %s байтів.',
+  'Parameter ("%s") passed to "%s" when constructing a unit test message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байт, але має довжину %s байт.',
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байт, але має довжину %s байти.',
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байт, але має довжину %s байтів.',
+        ),
+        
+        array(
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байти, але має довжину %s байт.',
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байти, але має довжину %s байти.',
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байти, але має довжину %s байтів.',
+        ),
+        
+        array(
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байтів, але має довжину %s байт.',
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байтів, але має довжину %s байти.',
+          'Параметр ("%s"), що передається до "%s" під час створення повідомлення модульного тесту, має бути рядком з максимальною довжиною %s байтів, але має довжину %s байтів.',
+        ),
+      ),
+    ),
+  ),
   'There was an error verifying the SSL Certificate Authority while negotiating the SSL connection. This usually indicates you are using a self-signed certificate.
 
 As of OSX Yosemite, certificates must be added to the OSX keychain. You can do this with `security add-trusted-cert` from the command line, or by visiting the site in Safari and choosing to trust the certificate permanently.
@@ -73,7 +212,10 @@ For more information, see instructions in "%s".' => 'Під час узгодж�
   'Confirms that revisions you did not author should land.' => 'Підтверджує, що зміни, які ви не авторували, мають бути опубліковані.',
   'No tests to run.' => 'Тестів для запуску немає.',
   'Expected JSON response from Slack.' => 'Очікувана відповідь JSON від Slack.',
-  '%s assertion(s) passed.' => 'Утверджено тверджень на %s.',
+  '%s assertion(s) passed.' => array(
+    '%s твердження перевірено.',
+    '%s тверджень перевірено.',
+  ),
   'NOTHING TO LAND' => 'НІЧОГО ПОСАДИТИ',
   'Do not copy changes to the staging area.' => 'Не копіюйте зміни в зону постановки.',
   'There was an error verifying the SSL connection. This usually indicates that the remote host has an SSL certificate for a different domain name than you are connecting with. Make sure the certificate you have installed is signed for the correct domain.' => 'Під час перевірки з\'єднання SSL сталася помилка. Зазвичай це вказує на те, що віддалений хост має сертифікат SSL для іншого доменного імені, ніж ви підключаєтесь. Переконайтеся, що встановлений вами сертифікат підписаний для правильного домену.',
@@ -96,14 +238,19 @@ For more information, see instructions in "%s".' => 'Під час узгодж�
   'HLint is a linter for Haskell code.' => 'HLint — це лайнер для коду Haskell.',
   'No Parent Scope' => 'Немає батьківського діапазону',
   'Use "*" after a response to save it in user configuration.' => 'Використовуйте «*» після відповіді, щоб зберегти її в конфігурації користувача.',
+  'Multiple repositories (%s) matched the query. You can use the "%s" configuration to select the one you want.' => 'Кілька сховищ (%s) відповідають запиту. Ви можете скористатися конфігурацією "%s", щоб вибрати такий, який захочете.',
   'The author of this revision (%s) is:' => 'Автором цієї версії (%s) є:',
   'Update the local working copy before applying the patch.' => 'Оновіть місцеву робочу копію перед застосуванням виправлення.',
   'SHELL' => 'ОБОЛОНКА',
+  'Unlocking...' => 'Розблокування...',
   '`%s` Statement Must Be The First Statement' => 'Оператор ` %s ` Повинен Бути Першим Оператором',
   'Argument "%s" is unrecognized. Use "%s" to indicate the end of flags.' => 'Аргумент «%s» не розпізнаний. Використовуйте «%s», щоб вказати кінець прапорів.',
   'Assertion failed, expected \'%s\' (at %s:%d): %s' => 'Твердження не вдалося, очікується «%s» (при %s:%d): %s',
   'Test case \'%s\' was expected to raise an exception, but it did not throw anything.' => 'Очікувалося, що тестовий приклад \'%s\' спричинить виняток, але він нічого не зробив.',
-  'Land %s revision(s) in the wrong state?' => 'Розмістити редакцію(-ї) %s у неправильному стані?',
+  'Land %s revision(s) in the wrong state?' => array(
+    'Прийняти %s версію в неправильному стані?',
+    'Прийняти %s версії в неправильному стані?',
+  ),
   'it is the first commit reachable from the working copy state which is not outgoing.' => 'це перша фіксація, доступна із робочої копії, яка не є вихідною',
   'This `%s` or `%s` has a nonempty block which does not end with `%s`, `%s`, `%s`, `%s` or `%s`. Did you forget to add one of those? If you intend to fall through, add a `%s` comment to silence this warning.' => 'Цей ` %s ` або ` %s ` має непорожній блок, який не закінчується на ` %s `, ` %s `, ` %s `, ` %s ` або ` %s `. Ви забули додати одну з них? Якщо ви маєте намір провалитися, додайте коментар `%s` , щоб заглушити це попередження.',
   'Provide a map of regular expressions to severity levels. All matching codes have their severity adjusted.' => 'Надайте карту регулярних виразів до ступенів серйозності. Для всіх відповідних кодів налаштовано серйозність.',
@@ -124,6 +271,32 @@ Use \'%s\' to select a revision.' => 'У робочій копії існує б
   'Request signature verification failed: signature is not correct.' => 'Помилка запиту на перевірку підпису: підпис неправильний.',
   'You can not change the logfile after a write has occurred!' => 'Ви не можете змінити логфайл після того, як відбувся запис!',
   'English (Canada)' => 'Англійська (Канада)',
+  '    **extract-symbols-with-php-parser.php** [__options__] __path.php__
+        Identify the symbols (classes, interfaces, traits, enums and functions)
+        in PHP source files. Symbols are divided into "have" symbols
+        (symbols the file declares) and "need" symbols (symbols the file
+        depends on). For example, class declarations are "have" symbols,
+        while object instantiations with "new X()" are "need" symbols.
+
+        Dependencies on builtins and symbols marked \'@phutil-external-symbol\'
+        in docblocks are omitted without __--all__.
+
+        Symbols are reported in JSON on stdout.
+
+        This script is used internally to build maps of library
+        symbols.
+' => '    **extract-symbols-with-php-parser.php** [__options__] __path.php__
+    Визначте символи (класи, інтерфейси, особливості, переліки та функції)
+    у вихідних файлах PHP. Символи поділяються на символи "have"
+   (символи, що оголошуються у файлі) та символи "need" (символи, від яких залежить     файл). Наприклад, оголошення класів - це символи "have", 
+   тоді як створення екземплярів об\'єктів з "new X()" - це символи "need". 
+
+    Залежності від вбудованих функцій та символів, позначених як \'@phutil-external-symbol\'
+    у блоках документа, пропускаються без __--all__. 
+
+    Символи повідомляються в JSON на stdout. 
+
+    Цей скрипт використовується внутрішньо для побудови карт символів бібліотеки',
   'This codebase targets PHP %s on Windows, but `%s()` is not available there.' => 'Ця кодова база націлена на PHP %s у Windows, але `%s()` там недоступний.',
   'Author: %s' => 'Автор: %s',
   'Confirms that revisions with open parent revisions should land.' => 'Підтверджує, що ревізії з відкритими батьківськими ревізіями мають прибувати.',
@@ -161,10 +334,15 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Loading library from "%s"...' => 'Завантаження бібліотеки з "%s"...',
   '%s is not a valid JSON object.' => '%s не є дійсним об\'єктом JSON.',
   'Changes Planned' => 'Заплановані зміни',
-  '(... %s more revisions ...)' => '(… ще %s редакції …)',
+  '(... %s more revisions ...)' => array(
+    '(... ще %s редакція ...)',
+    '(... ще %s редакції ...)',
+    '(... ще %s редакцій ...)',
+  ),
   'Definition of symbol "%s" (of type "%s") in file "%s" in library "%s" duplicates prior definition in file "%s" in library "%s".' => 'Визначення символу "%s" (типу "%s") у файлі "%s" у бібліотеці "%s" дублює попереднє визначення у файлі "%s" у бібліотеці "%s".',
   'Set %s to file mode 600.' => 'Установіть для %s режим файлу 600.',
   'Use "!" after a response to save it in working copy configuration.' => 'Використовуйте "!" після відповіді, щоб зберегти її в конфігурації робочої копії.',
+  'Option \'%s\' requires a parameter.' => 'Опція \'%s\' потребує параметра.',
   'Two objects (of classes "%s" and "%s", descendants of ancestor class "%s") returned the same key from "%s" ("%s"), but each object in this class map must be identified by a unique key.' => 'Два об’єкти (класів "%s" і "%s", нащадки класу-предка "%s") повернули той самий ключ від "%s" ("%s"), але кожен об’єкт у цій карті класів повинен бути ідентифікований унікальним ключем.',
   'Set key "%s" = %s in %s config.' => 'Установіть ключ " %s " = %s у конфігурації %s .',
   'This workflow has not yet been updated to Toolsets and can not retrieve a modern WorkingCopy object. Use "getWorkingCopyIdentity()" to retrieve a previous-generation object.' => 'Цей робочий процес ще не оновлено до Наборів Інструментів і він не може отримати сучасний об’єкт WorkingCopy. Використовуйте "getWorkingCopyIdentity()", щоб отримати об\'єкт попереднього покоління.',
@@ -176,18 +354,105 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Use `%s` for checking if the string contains something.' => 'Використовуйте ` %s `, щоб перевірити, чи містить рядок щось.',
   'Perforce mode does not support the "merge" land strategy. Use the "squash" land strategy when landing to a Perforce remote (you can use "--squash" to select this strategy).' => 'Режим Perforce не підтримує стратегію "злиття" посадок. Використайте посадкову стратегію "squash" при переключенні на пульт Perforce (ви можете використати "--squash", щоб вибрати цю стратегію).',
   'Landing the active bookmark, "%s".' => 'Відкриття активної закладки "%s".',
-  'Download content from S3.' => 'Завантажте вміст із S3.',
   'Copied Here' => 'Скопійовано тут',
   'This line will be added:' => 'Цей рядок буде додано:',
+  'Expected value to be a list, got "%s".' => 'Очікуване значення має бути списком, отримано "%s".',
+  'Array style to prefer.' => 'Стиль масиву, якому слід віддавати перевагу.',
   'HTTP Status Code: %d' => 'Код стану HTTP: %d',
   'You are amending the working copy using information from a revision you are not the author of.' => 'Ви вносите зміни в робочу копію, використовуючи інформацію з версії, автором якої ви не є.',
-  'Upload content to S3.' => 'Завантажте вміст на S3.',
   'The token "%s" is not formatted correctly. API tokens should be 32 characters long. Make sure you visited the correct URI and copy/pasted the token correctly.' => 'Маркер " %s" відформатовано неправильно. Маркери API мають містити 32 символи. Переконайтеся, що ви відвідали правильний URI та правильно скопіювали/вставили маркер.',
-  'Install PEP8 using `%s`.' => 'Встановити PEP8 за допомогою `%s`.',
+  'Install shell completion so you can use the "tab" key to autocomplete
+commands and flags in your shell for toolsets and workflows.
+
+The **bash** shell is supported.
+
+**Installing Completion**
+
+To install shell completion, run the command:
+
+  $ arc shell-complete
+
+This will install shell completion into your current shell. After installing,
+you may need to start a new shell (or open a new terminal window) to pick up
+the updated configuration.
+
+Once installed, completion should work across all toolsets.
+
+**Using Completion**
+
+After completion is installed, use the "tab" key to automatically complete
+workflows and flags. For example, if you type:
+
+  $ arc diff --draf<tab>
+
+...your shell should automatically expand the flag to:
+
+  $ arc diff --draft
+
+**Updating Completion**
+
+To update shell completion, run the same command:
+
+  $ arc shell-complete
+
+You can update shell completion without reinstalling it by running:
+
+  $ arc shell-complete --generate
+
+You may need to update shell completion if:
+
+  - you install new toolsets; or
+  - you move this software on disk; or
+  - you upgrade this software and the new version fixes shell completion bugs.' => 'Встановіть автодоповнення командної оболонки, щоб ви могли використовувати клавішу "tab" для автоматичного завершення
+команд та прапорців у вашій оболонці для наборів інструментів та робочих процесів.
+
+Оболонка **bash** підтримується.
+
+**Встановлення автодоповнення**
+
+Щоб встановити автодоповнення командної оболонки, виконайте команду:
+
+ $ arc shell-complete
+
+Це встановить автодоповнення оболонки у вашу поточну оболонку. Після встановлення,
+вам може знадобитися запустити нову оболонку (або відкрити нове вікно терміналу), щоб
+підібрати оновлені налаштування.
+
+Після встановлення автодоповнення має працювати у всіх наборах інструментів.
+
+**Використання автодоповнення**
+
+Після встановлення автодоповнення використовуйте клавішу "tab" для автоматичного завершення
+робочих процесів та прапорців. Наприклад, якщо ви введете:
+
+ $ arc diff --draf<tab> 
+
+...ваша оболонка повинна автоматично розгорнути прапорець до:
+
+ $ arc diff --draft
+
+**Оновлення автозаповнення**
+
+Щоб оновити автозаповнення оболонки, виконайте ту саму команду:
+
+ $ arc shell-complete
+
+Ви можете оновити автозаповнення оболонки без її перевстановлення, виконавши:
+
+ $ arc shell-complete --generate
+
+Вам може знадобитися оновити автозаповнення оболонки, якщо:
+
+ - ви встановлюєте нові набори інструментів; або
+ - ви переміщуєте це програмне забезпечення на диск; або
+ - ви оновлюєте це програмне забезпечення, і нова версія виправляє помилки автозаповнення оболонки.',
   'Aborted workflow to fix UTF-8.' => 'Перервано робочий процес для виправлення UTF-8.',
   'Missing required parameters: %s' => 'Відсутні необхідні параметри: %s',
   'Interrupted by SIGINT (^C).' => 'Перервано SIGINT (^C).',
-  'Normally, you should update these %s revision(s), submit them for review, and wait for reviewers to accept them before you continue. To resubmit a revision for review, either: update the revision with revised changes; or use "Request Review" from the web interface.' => 'Зазвичай вам слід оновити ці версії %s , надіслати їх на перевірку та дочекатися, поки рецензенти приймуть їх, перш ніж продовжувати. Щоб повторно надіслати редакцію на перевірку, виконайте одну з таких дій: оновіть редакцію виправленими змінами; або скористайтеся функцією « Запит на Перегляд» у веб-інтерфейсі.',
+  'Normally, you should update these %s revision(s), submit them for review, and wait for reviewers to accept them before you continue. To resubmit a revision for review, either: update the revision with revised changes; or use "Request Review" from the web interface.' => array(
+    'Зазвичай, вам слід оновити  цю версію, надіслати її на перевірку та зачекати на її схвалення рецензентами, перш ніж продовжити. Щоб повторно надіслати версію на перевірку, оновіть версію з виправленими змінами або скористайтеся кнопкою "Запит на перевірку" з веб-інтерфейсу.',
+    'Зазвичай, вам слід оновити ці %s версії, надіслати їх на перевірку та зачекайте на її схвалення рецензентами, перш ніж продовжити. Щоб повторно надіслати версію на перевірку, оновіть версію з виправленими змінами або скористайтеся кнопкою "Запит на перевірку" з веб-інтерфейсу.',
+  ),
   'Two subclasses of "%s" ("%s" and "%s") define locales with the same locale code ("%s"). Each locale must have a unique locale code.' => 'Два підкласи "%s" ("%s" і "%s") визначають місця з однаковим кодом мови ("%s"). Кожна мова повинна мати унікальний код мови.',
   'Argument "%s" conflicts with itself!' => 'Аргумент "%s" конфліктує сам із собою!',
   'Normally, a new branch (git) or bookmark (hg) is created and then the patch is applied and committed in the new branch/bookmark. This flag cherry-picks the resultant commit onto the original branch and deletes the temporary branch.' => 'Зазвичай створюється нова гілка (git) або закладка (hg), а потім патч застосовується та фіксується в новій гілці/закладці. Цей прапор вибирає результуючу фіксацію на вихідну гілку та видаляє тимчасову гілку.',
@@ -210,6 +475,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Failed to read from %s' => 'Не вдалося прочитати від %s',
   'Future already has a key ("%s") assigned.' => 'У Future уже призначено ключ ("%s").',
   'URI \'%s\' must be fully qualified with \'%s\' scheme.' => 'URI \'%s\' має бути повністю відповідати схемі \'%s\'.',
+  'command' => 'команда',
   'Detects common misspellings of English words.' => 'Виявляє поширені орфографічні помилки в англійських словах.',
   'Inspect internal object properties.' => 'Перегляньте внутрішні властивості об’єкта.',
   'Unknown raw diff source.' => 'Невідоме необроблене джерело відмінностей.',
@@ -239,7 +505,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Uploaded binary data for "%s".' => 'Завантажено двійкові дані для "%s".',
   'The symbol map for library \'%s\' (at \'%s\') claims this %s is defined in \'%s\', but loading that source file did not cause the %s to become defined.' => 'Карта символів для бібліотеки \'%s\' (на \'%s\') заявляє, що %s визначено в \'%s\', але завантаження цього вихідного файлу не спричинило визначення %s .',
   'Unable to upload file: the server refused to accept file "%s". This usually means it is too large.' => 'Не вдалося завантажити файл: сервер відмовився прийняти файл "%s". Зазвичай це означає, що файл занадто великий.',
-  'Configuration option "%s" is not valid. Configuration options passed with command line flags must be in the form "name=value".' => 'Параметр конфігурації " %s " недійсний. Параметри конфігурації, передані з прапорцями командного рядка, мають бути у формі "ім’я=значення".',
+  'Configuration option "%s" is not valid. Configuration options passed with command line flags must be in the form "name=value".' => 'Параметр конфігурації "%s" недійсний. Параметри конфігурації, передані з прапорцями командного рядка, мають бути у формі "ім’я=значення".',
   'The name of a default unit test engine to use, if no unit test engine is specified by the current project.' => 'Назва механізму модульного тестування за замовчуванням для використання, якщо поточним проектом не визначено механізм модульного тестування.',
   'You can not use "--current" when installing support.' => 'Ви не можете використовувати "--current" під час встановлення підтримки.',
   'You do not see "%s" anywhere.' => 'Ви ніде не бачите "%s".',
@@ -268,10 +534,9 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Failed to explode line "%s".' => 'Не вдалося розбити рядок «%s».',
   'Unknown library version \'%s\'!' => 'Невідома версія бібліотеки «%s»!',
   'Set a default URI with `arc set-config phabricator.uri <uri>`.' => 'Встановіть URI за замовчуванням за допомогою `arc set-config phabricator.uri`<uri> `.',
+  'Expected method "%s->%s()" to return a unique key, got "%s" from %s objects at indexes: %s.' => 'Очікувався метод "%s->%s()" для повернення унікального ключа, отримано "%s" з %s  об\'єктів за індексами: %s.',
   'Unrecognized property status \'%s\'.' => 'Нерозпізнаний статус власності «%s».',
   'REPOSITORY' => 'РЕПОЗИТОРІЙ',
-  'You must specify AWS credentials. Use --access-key and --secret-key to provide root credentials.' => 'Ви повинні вказати облікові дані AWS. Використовуйте --access-key і --secret-key, щоб надати облікові дані користувача root.',
-  'Delete an object from S3.' => 'Видалити об’єкт із S3.',
   'Workflow "%s" is unknown. Supported workflows are: %s.' => 'Робочий процес "%s" невідомий. Підтримувані робочі процеси: %s.',
   'Configuration value "%s" is set to "%s".' => 'Значення конфігурації "%s" встановлено на "%s".',
   'NEW BOOKMARK' => 'НОВА ЗАКЛАДКА',
@@ -295,6 +560,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Unable to close file!' => 'Не вдається закрити файл!',
   'No analyzer is available for binary "%s".' => 'Для бінарного файлу "%s" аналізатор недоступний.',
   'Objects passed to "%s" must return sort vectors (objects of class "%s") from the specified method ("%s"). One object (with key "%s") did not.' => 'Об\'єкти, передані у "%s", повинні повертати вектори сортування (об\'єкти класу "%s") з вказаного методу ("%s"). Один об\'єкт (з ключем "%s") не зробив цього.',
+  'Resolve merge conflicts before proceeding.' => 'Вирішіть конфлікти злиття, перш ніж продовжити.',
   'Bad Charset' => 'Погане кодування',
   'Version' => 'Версія',
   'REVISION' => 'РЕВІЗІЯ',
@@ -309,6 +575,60 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Unrecognized argument "%s".' => 'Нерозпізнаний аргумент "%s".',
   'Unable to upload file: path "%s" is not a file.' => 'Неможливо завантажити файл: шлях "%s" не є файлом.',
   'Global Variables' => 'Глобальні змінні',
+  'Show information about prompts a workflow may execute, and review saved
+responses.
+
+**Show Prompts**
+
+To show possible prompts a workflow may execute, run:
+
+  $ arc prompts __workflow__
+
+**Saving Responses**
+
+If you always want to answer a particular prompt in a certain way, you can
+save your response to the prompt. When you encounter the prompt again, your
+saved response will be used automatically.
+
+To save a response, add "*" or "!" to the end of the response you want to save
+when you answer the prompt:
+
+  - Using "*" will save the response in user configuration. In the future,
+    the saved answer will be used any time you encounter the prompt (in any
+    project).
+  - Using "!" will save the response in working copy configuration. In the
+    future, the saved answer will be used when you encounter the prompt in
+    the current working copy.
+
+For example, if you would like to always answer "y" to a particular prompt,
+respond with "y*" or "y!" to save your response.
+' => 'Показати інформацію про підказки, які може виконати робочий процес, та переглянути збережені
+відповіді.
+
+**Показати підказки**
+
+Щоб показати можливі підказки, які може виконати робочий процес, виконайте команду:
+
+ $ arc prompts __workflow__
+
+**Збереження відповідей**
+
+Якщо ви завжди хочете відповідати на певну підказку певним чином, ви можете
+зберегти свою відповідь на підказку. Коли ви знову зіткнетеся з підказкою, ваша
+збережена відповідь буде використана автоматично.
+
+Щоб зберегти відповідь, додайте "*" або "!" до кінця відповіді, яку ви хочете зберегти
+коли ви відповідаєте на підказку:
+
+ - Використання "*" збереже відповідь у налаштуваннях користувача. У майбутньому
+ збережена відповідь буде використовуватися щоразу, коли ви зіткнетеся з підказкою (у будь-якому
+проекті).
+ - Використання "!" збереже відповідь у конфігурації робочої копії. У майбутньому
+ збережена відповідь буде використовуватися, коли ви зіткнетеся з підказкою в
+ поточна робоча копія.
+
+Наприклад, якщо ви хочете завжди відповідати «y» на певний запит,
+дайте відповідь "y*" або "y!", щоб зберегти свою відповідь.',
   'Files must end in a newline.' => 'Файли повинні закінчуватися символом нового рядка.',
   'You may need to open a new terminal window or launch a new shell before the changes take effect.' => 'Можливо, вам доведеться відкрити нове вікно терміналу або запустити нову оболонку, перш ніж зміни набудуть чинності.',
   'Do you want to use this message?' => 'Ви хочете використати це повідомлення?',
@@ -323,8 +643,44 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'BOOKMARK' => 'ЗАКЛАДКА',
   'CONFIGURED' => 'НАЛАШТОВАНО',
   'LOCAL CHANGES' => 'ЛОКАЛЬНІ ЗМІНИ',
+  'Invalid value for `%s`: %s.' => 'Недійсне значення для ` %s : %s .',
+  '    **extract-symbols.php** [__options__] __path.php__
+        Identify the symbols (clases, functions and interfaces) in a PHP
+        source file. Symbols are divided into "have" symbols (symbols the file
+        declares) and "need" symbols (symbols the file depends on). For example,
+        class declarations are "have" symbols, while object instantiations
+        with "new X()" are "need" symbols.
+
+        Dependencies on builtins and symbols marked \'@phutil-external-symbol\'
+        in docblocks are omitted without __--all__.
+
+        Symbols are reported in JSON on stdout.
+
+        This script is used internally to build maps of library
+        symbols.
+
+        It would be nice to eventually implement this as a C++ xhpast binary,
+        as it\'s relatively stable and performance is currently awful
+        (500ms+ for moderately large files).
+' => '**extract-symbols.php** [__options__] __path.php__
+ Визначте символи (класи, функції та інтерфейси) у вихідному файлі PHP
+. Символи поділяються на символи "have" (символи, які оголошує файл
+) та символи "need" (символи, від яких залежить файл). Наприклад, оголошення класів
+ є символами "have", тоді як екземпляри об\'єктів
+ з "new X()" є символами "need".
+
+ Залежності від вбудованих функцій та символів, позначених як \'@phutil-external-symbol\'
+ у блоці документа, пропускаються без __--all__.
+
+ Символи повідомляються у JSON на stdout.
+
+ Цей сценарій використовується внутрішньо для побудови карт символів бібліотеки.
+
+ Було б непогано зрештою реалізувати це як бінарний файл C++ xhpast,
+ оскільки він відносно стабільний, а продуктивність наразі жахлива
+ (500 мс+ для файлів помірно великих розмірів).',
   'Make sure all the symbols used in an %s library are defined and known.  This linter is specific to PHP source in %s libraries.' => 'Переконайтеся, що всі символи, які використовуються в бібліотеці %s, визначені та відомі. Цей лінтер є специфічним для вихідного коду PHP у бібліотеках %s.',
-  'Argument position specified with "--current" ("%s") is greater than the number of arguments provided ("%s").' => 'Позиція аргументу, указана за допомогою "--current" ("%s"), більша за кількість наданих аргументів ("%s").',
+  'Argument position specified with "--current" ("%s") is greater than the number of arguments provided ("%s").' => 'Позиція аргумента, вказана за допомогою "--current" ("%s") є більшою за кількість наданих аргументів ("%s").',
   'No tasks found.' => 'Завдань не знайдено.',
   '%s' => '%s',
   'Choose an object to inspect:' => 'Виберіть об\'єкт для перевірки:',
@@ -355,7 +711,6 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'When creating a revision, try to use the working copy commit message verbatim, without prompting to edit it. When updating a revision, update some fields from the local commit message.' => 'Створюючи редакцію, спробуйте використати повідомлення про фіксацію робочої копії дослівно, без запиту на його редагування. Під час оновлення версії оновіть деякі поля з повідомлення локальної фіксації.',
   'LOAD STASH' => 'ЗАВАНТАЖИТИ СКЛАДКУ',
   'Put space after comment start.' => 'Поставте пробіл після початку коментаря.',
-  'Deleted "%s".' => 'Видалено «%s».',
   'Failed to write file \'%s\'.' => 'Не вдалося записати файл \'%s\'.',
   'Path \'%s\' does not exist!' => 'Шлях «%s» не існує!',
   'Config: Reading system configuration file "%s"...' => 'Конфігурація: Читання файлу конфігурації системи "%s"...',
@@ -366,7 +721,6 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Too few arguments to %s.' => 'Замало аргументів до %s.',
   'Unknown Mercurial feature "%s".' => 'Невідома функція Mercurial "%s".',
   'PHP files must only contain PHP code.' => 'PHP-файли повинні містити лише PHP-код.',
-  'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server sofwware to enable these features.' => 'Ця версія програмного забезпечення на сервері, до якого ви підключаєтесь,  застаріла і не підтримує ідентифікацію репозиторіїв за кодовим словом або URI. Оновіть програмне забезпечення сервера, щоб увімкнути ці функції.',
   'Line Too Long' => 'Лінія занадто довга',
   'Skip' => 'Пропустити',
   'Source code should contain only ASCII bytes with ordinal decimal values between 32 and 126 inclusive, plus linefeed. Do not use UTF-8 or other multibyte charsets.' => 'Вихідний код має містити лише байти ASCII з порядковими десятковими значеннями від 32 до 126 включно, плюс переклад рядка. Не використовуйте UTF-8 або інші мультибайтові кодування.',
@@ -393,6 +747,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'To update shell completion support for "%s", your existing "%s" file will be modified. This line will be removed:' => 'Щоб оновити підтримку завершення оболонки для "%s", ваш існуючий файл "%s" буде змінено. Цей рядок буде видалено:',
   'Class' => 'Клас',
   'Specify either "true" or "false".' => 'Виберіть "true" або "false".',
+  'Rules are already up to date for "%s" in: %s' => 'Правила вже оновлені для "%s" в: %s',
   'Export change as a git patch. This format is more complete than unified, but less complete than arc bundles. These patches can be applied with \'%s\' or \'%s\'.' => 'Експортуйте зміни як патч git. Цей формат більш укомплектований, ніж уніфікований, але менш укомплектований, ніж пакети arc. Ці патчі можна застосувати за допомогою \'%s\' або \'%s\'.',
   'Failed to remove directory \'%s\'!' => 'Не вдалося видалити каталог «%s»!',
   'This test is expected to fail.' => 'Скоріше всього, цей тест завершиться невдачею.',
@@ -409,13 +764,12 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Fetch URI: %s' => 'Отримати URI: %s',
   'IP address "%s" is not properly formatted. Expected an IPv4 address like "%s", or an IPv6 address like "%s".' => 'IP-адреса "%s" неправильно відформатована. Очікується адреса IPv4, як-от "%s", або адреса IPv6, як-от "%s".',
   'Response Body: %s' => 'Текст Відповіді: %s',
-  'AWS secret key.' => 'Секретний ключ AWS.',
   'In a "switch" statement, "continue;" is equivalent to "break;" but causes compile errors beginning with PHP 7.0.0.' => 'У операторі "switch" "continue"; еквівалентно "break;" але викликає помилки компіляції, починаючи з PHP 7.0.0.',
   'Copied Away' => 'Скопійовано',
   'Expected to find "%s" in `%s` output, but did not.' => 'Очікувалося виявлення "%s" у виводі `%s`, але цього не сталося.',
   'you specified \'%s\' in your %s \'base\' configuration.' => 'Ви вказали \'%s\' у вашій базовій конфігурації \'base\' %s.',
   'MERGE CONFLICTS' => 'КОНФЛІКТИ ОБ\'ЄДНАННЯ',
-  'You must specify an AWS region with --region.' => 'Ви повинні вказати регіон AWS за допомогою --region.',
+  'You must set PayPal API credentials!' => 'Ви повинні вказати дані PayPal API!',
   'Failed to create directory \'%s\'.' => 'Не вдалося створити каталог \'%s\'.',
   'Symbol "%s" is ambiguous: it matches multiple markers (of type "%s"). Use an unambiguous identifier.' => 'Символ "%s" неоднозначний: він відповідає декільком маркерам (типу "%s"). Використовуйте однозначний ідентифікатор.',
   'Default Parameters' => 'Параметри за замовчуванням',
@@ -428,8 +782,6 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'This working copy is configured to have an immutable local history, using the "history.immutable" configuration option. Amending the working copy will mutate local history.' => 'Ця робоча копія налаштована на незмінну локальну історію за допомогою параметра конфігурації "history.immutable". Внесення змін до робочої копії змінить локальну історію.',
   'Set key "%s" = %s in %s config (was %s).' => 'Встановити ключ "%s" в %s у конфігурації %s (раніше — %s).',
   'Function %s is not implemented!' => 'Функція %s не реалізована!',
-  'mt_rand() range is smaller than the requested range.' => 'Діапазон mt_rand() менший за запитуваний діапазон.',
-  'AWS region.' => 'Регіон AWS.',
   'The token "%s" is not formatted correctly. Valid API tokens should begin "cli-" and be 32 characters long. Make sure you visited the correct URI and copy/pasted the token correctly.' => 'Маркер " %s " відформатовано неправильно. Дійсні маркери API мають починатися з "cli-" і мати 32 символи. Переконайтеся, що ви відвідали правильний URI та правильно скопіювали/вставили маркер.',
   'You follow a wide, straight path to the north and arrive in a grove of fruit trees after a few minutes of walking. The grass underfoot is thick and small insects flit through the air.' => 'Ви підете по широкій прямій дорозі на північ і за кілька хвилин ви опинитеся у гаю фруктових дерев. Трава під ногами густа, у повітрі літають дрібні комашки.',
   'TO UPGRADE: %s' => 'ОНОВИТИ: %s',
@@ -443,7 +795,9 @@ about review status.' => 'Перелічує закладки в робочій 
   'Connecting to "%s"...' => 'Підключення до «%s»…',
   'Unrecognized argument \'%s\'. Try \'%s\'.' => 'Нерозпізнаний аргумент \'%s\'. Спробуйте \'%s\'.',
   'Library name should contain only lowercase letters and hyphens.' => 'Назва бібліотеки повинна містити лише малі літери та дефіси.',
+  'Unable to find any libraries under the current working directory. To create a library, provide a path.' => 'Не можна знайти бібліотеки під поточним робочим каталогом. Щоб створити бібліотеку, вкажіть шлях.',
   '<default>' => '<за замовчуванням>',
+  'Unable to upload file: failed to determine filesize of path "%s".' => 'Не вдалося завантажити файл: не вдалося визначити розмір файлу за шляхом "%s".',
   'String does not require double quotes. For consistency, prefer single quotes.' => 'Рядок не вимагає подвійних лапок. Для узгодженості надавайте перевагу одинарним лапкам.',
   'Merge strategy "%s" specified in "%s" configuration is unknown. Supported merge strategies are: %s.' => 'Стратегія об’єднання "%s", указана в налаштуваннях "%s", невідома. Підтримувані стратегії злиття: %s.',
   'Unknown event %s' => 'Невідома подія %s',
@@ -453,6 +807,7 @@ about review status.' => 'Перелічує закладки в робочій 
   'Current Value' => 'Поточне значення',
   'Install jsonlint using `%s`.' => 'Встановити jsonlint, використовуючи `%s`.',
   '%s does not support the "%s" modifier.' => '%s не підтримує модифікатор "%s".',
+  'This `%s` has a nonempty block which does not end with `%s`, `%s`, `%s`, `%s` or `%s`. Did you forget to add one of those? If you intend to fall through, add a `%s` comment to silence this warning.' => 'Цей `%s` має непорожній блок, який не закінчується на ` %s , ` %s , ` %s`, ` %s або ` %s`. Ви забули додати один із них? Якщо ви маєте намір провалитися, додайте коментар ` %s`, щоб заглушити це попередження.',
   'Expected JSON response from WordPress.com.' => 'Очікується відповідь JSON від WordPress.com.',
   'Oct' => 'Жовт',
   'Launching editor "%s"...' => 'Запуск редактора "%s"...',
@@ -475,7 +830,19 @@ about review status.' => 'Перелічує закладки в робочій 
   'This repository API (\'%s\') does not support the requested capability.' => 'Цей API сховища (\'%s\') не підтримує  функцію, на яку був зроблений запит.',
   'Golint is a linter for Go source code.' => 'Golint — це лінтер для вихідного коду Go.',
   '%s is broken.' => '%s зламано.',
-  '"%s" class "%s" has an invalid "%s" property. Field constants must be strings and no more than %s bytes in length.' => 'Клас "%s" "%s" має недійсну властивість "%s". Константи поля мають бути рядками та мати довжину не більше, ніж %s байтів.',
+  '"%s" class "%s" has an invalid "%s" property. Field constants must be strings and no more than %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'Клас "%s" "%s" має недійсну властивість "%s". Константи поля мають бут%2$sи рядками та не бути більшими, ніж %s  бацти завдовжки.',
+          'Клас "%s" "%s" має недійсну властивість "%s". Константи поля мають бут%2$sи рядками та не бути більшими, ніж %s байтів завдовжки.',
+        ),
+      ),
+    ),
+  ),
   'GENERATE' => 'Згенерувати',
   'Working copy' => 'Робоча копія',
   'Undefined Lint Message' => 'Невизначене Повідомлення Lint',
@@ -486,7 +853,6 @@ about review status.' => 'Перелічує закладки в робочій 
   'The SSL CA Bundles that we tried to use could not be read or are not formatted correctly.' => 'Пакети SSL CA, які ми намагалися використати, не вдалося прочитати або вони неправильно відформатовані.',
   'DATA' => 'ДАНІ',
   'Unable to fork!' => 'Неможливо розділити!',
-  'Uploaded "%s".' => 'Завантаження «%s».',
   'No revision specified with "--revision", and no revisions found that match the current working copy state. Use "--revision <id>" to specify which revision you want to amend.' => 'Жодна ревізія не вказана за допомогою "--revision", і не знайдено ні одної ревізії, яка відповідає поточному стану робочої копії. Використайте "--revision <id>", щоб вказати, яку версію ви хочете змінити.',
   'EXCEPTION' => 'ВИНЯТОК',
   'Failed to split line "%s" from "git log".' => 'Не вдалося відокремити рядок "%s" від "git log".',
@@ -497,10 +863,12 @@ about review status.' => 'Перелічує закладки в робочій 
   'Contents Modified' => 'Зміст змінено',
   '%s currently supports only one file attachment for each parameter name. You are trying to attach two different files with the same parameter, "%s".' => '%s наразі підтримує вкладення лише одного файлу для кожного імені параметра. Ви намагаєтеся додати два різні файли з однаковим параметром "%s".',
   'Arguments "--into-local", "--into-remote", and "--into-empty" are mutually exclusive.' => 'Аргументи "--into-local", "--into-remote" і "--into-empty" є взаємовиключними.',
+  '`%s` Methods Cannot Be Marked `%s`' => '`%s` Методи Не Можна Позначити `%s`',
   'After creating a paste, open it in a web browser.' => 'Після створення вставки відкрийте її у веббраузері.',
   'Do not run any sanity checks.' => 'Не проводьте жодних перевірок безпеки.',
   'Execution of "git cat-file --batch-check" emitted an unexpected number of lines, expected %s but got %s.' => 'Виконання "git cat-file --batch-check" видало неочікувану кількість рядків, очікувалося %s, але отримано %s.',
   'Classes should extend from `%s` or from some other class. All classes (except for `%s` itself) should have a base class.' => 'Класи повинні розширюватися від `%s` або від будь-якого іншого класу. Всі класи (окрім самого `%s`) повинні мати базовий клас.',
+  'Missing VCS support.' => 'Відсутня підтримка СКВ.',
   'Argument Error' => 'Помилка аргументу',
   'Export change as a unified patch. This format is less complete than git patches or arc bundles. These patches can be applied with \'%s\' or \'%s\'.' => 'Експортуйте зміну як уніфікований патч. Цей формат менш укомплектований, ніж git patches або arc bundles. Ці патчі можна застосувати за допомогою \'%s\' або \'%s\'.',
   'Name files using only letters, numbers, period, hyphen and underscore.' => 'Найменовуйте файли, використовуючи лише літери, цифри, крапку, дефіс і підкреслення.',
@@ -516,7 +884,13 @@ about review status.' => 'Перелічує закладки в робочій 
   'No repositories matched the query. Check that your configuration is correct, or use "%s" to select a repository explicitly.' => 'Жодне сховище не відповідає запиту. Переконайтеся, що ваші налаштування правильні, або використовуйте "%s", щоб вибрати конкретне сховище.',
   'File \'%s\' declares more than one class or interface (%s). A file which declares a class or interface MUST declare nothing else.' => 'Файл \'%s\' оголошує більше, ніж один клас або інтерфейс (%s). Файл, який оголошує клас або інтерфейс, НЕ ПОВИНЕН оголошувати ще щось інше.',
   'NEW LIBRARY' => 'НОВА БІБЛІОТЕКА',
-  'Downloading "%s" (%s byte(s)) to "%s"...' => 'Завантаження «%s» (%s байтів) на «%s»…',
+  'Downloading "%s" (%s byte(s)) to "%s"...' => array(
+    
+    array(
+      'Завантаження "%s" (%s  байт) до "%s"...',
+      'Завантаження "%s" (%s байтів) до "%s"...',
+    ),
+  ),
   'Type of setting \'%s\' must be list.' => 'Тип налаштування \'%s\' має бути списком.',
   'Specify a string (or list of strings) identifying the binary which should be invoked to execute this linter. This overrides the default binary. If you provide a list of possible binaries, the first one which exists will be used.' => 'Укажіть рядок (або список рядків), що ідентифікує двійковий файл, який має бути викликаний для виконання цього лінтера. Це замінює двійковий файл за замовчуванням. Якщо ви надасте список можливих двійкових файлів, буде використано перший із наявних.',
   'Failed to open file!' => 'Не вдалося відкрити файл!',
@@ -526,7 +900,10 @@ about review status.' => 'Перелічує закладки в робочій 
   'Append to this file?' => 'Додати до цього файлу?',
   'Specify two or more files to weld together.' => 'Вкажіть два або більше файлів для злиття.',
   'LOG IN' => 'УВІЙТИ',
-  'Ignore the changes to these %s submodule(s) and continue?' => 'Ігнорувати зміни в цьому підмодулі/цих підмодулях %s та продовжити?',
+  'Ignore the changes to these %s submodule(s) and continue?' => array(
+    'Ігнорувати зміни до цього підмодуля та продовжити?',
+    'Ігнорувати зміни до цих підмодулів та продовжити?',
+  ),
   'Example Value' => 'Приклад значення',
   'Moved Here' => 'Переміщено Сюди',
   'Expected an object, string, or list of objects for "object" context, got "%s".' => 'Очікувався об’єкт, рядок або список об’єктів для контексту «об’єкт», отримано "%s".',
@@ -555,7 +932,6 @@ about review status.' => 'Перелічує закладки в робочій 
   'Definition of %s \'%s\' in file \'%s\' duplicates prior definition in file \'%s\'. You can not declare the same symbol twice.' => 'Визначення %s \'%s\' у файлі \'%s\' дублює попереднє визначення у файлі \'%s\'. Ви не можете використати той самий символ двічі.',
   'Unrecognized lint message code: "%s"' => 'Нерозпізнаний код повідомлення lint: "%s"',
   'Lint can not be output into "%s" format because the PHP "%s" extension is not installed. Install the extension or choose a different output format.' => 'Lint не можна вивести у формат "%s", оскільки розширення PHP "%s" не встановлено. Установіть розширення або виберіть інший вихідний формат.',
-  'Emoji (Internet)' => 'Емодзі (Інтернет)',
   'Failed to copy file from "%s" to "%s".' => 'Не вдалося скопіювати файл із "%s" до "%s".',
   'Calls to built-in PHP functions should be lowercase.' => 'Виклики вбудованих функцій PHP повинні бути написані малими літерами.',
   'Status: %s' => 'Статус: %s',
@@ -568,6 +944,7 @@ about review status.' => 'Перелічує закладки в робочій 
   'This workflow isn\'t executable!' => 'Цей робочий процес неможливо виконати!',
   'Unknown command \'%s\'. Try \'%s\'.' => 'Невідома команда «%s». Спробуйте «%s».',
   'SUCCESS!' => 'УСПІХ!',
+  'Cannot display current version without "%s" installed.' => 'Неможливо відобразити поточну версію без встановлення "%s".',
   'Expected exactly one argument to "%s(...)" with a symbol.' => 'Очікувався рівно один аргумент для " %s (...)" із символом.',
   'In remote "%s", the name "%s" identifies one or more branch heads and one or more bookmarks. Close, rename, or delete all but one of these markers, or pull the state you want to merge into and use "--into-local --into <hash>" to disambiguate the desired merge target.' => 'У пульта керування " %s " ім\'я " %s " ідентифікує одну або кілька заголовків гілок і одну або більше закладок. Закрийте, перейменуйте або видаліть усі ці маркери, крім одного, або перетягніть стан, у який ви хочете об’єднати, і використовуйте "--into-local --into<hash>", щоб усунути неоднозначність бажаної цілі злиття.',
   'System Config File' => 'Файл конфігурації системи',
@@ -575,7 +952,7 @@ about review status.' => 'Перелічує закладки в робочій 
   'Jun' => 'Чер',
   'Unrecognized lint message code "%s". Expected a valid JSHint lint code like "%s" or "%s".' => 'Нерозпізнаний код повідомлення lint "%s". Очікувався дійсний код lint JSHint, наприклад "%s" або "%s".',
   'This patch has binary data. The PHP zlib extension is required to apply patches with binary data to git. Install the PHP zlib extension to continue.' => 'Ця частинка містить двійкові дані. Розширення PHP zlib потрібне для застосування частинок із двійковими даними до git. Щоб продовжити, установіть розширення PHP zlib.',
-  'Parameter ("%s") passed to "%s" when constructing a lint message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'Параметр ("%s"), який передається до "%s" під час створення повідомлення lint, має бути рядком із максимальною довжиною %s байти, але має довжину %s байти.',
+  'Parameter ("%s") passed to "%s" when constructing a lint message must be a string with a maximum length of %s bytes, but is %s bytes in length.' => 'Параметр ("%s"), який передається до "%s" під час створення повідомлення lint, має бути рядком із максимальною довжиною %s байти, проте зараз має довжину %s байти.',
   'CONNECT' => 'З\'ЄДНАННЯ',
   'Confirms use of a revision that does not appear to be present in the working copy.' => 'Підтверджує використання версії, якої немає в робочій копії.',
   'The request took too long to complete.' => 'Запит зайняв занадто багато часу.',
@@ -587,7 +964,10 @@ about review status.' => 'Перелічує закладки в робочій 
   'Received error from Postmark: (%s) %s' => 'Отримано повідомлення про помилку (%s) %s від Postmark.',
   'Name' => 'Назва',
   'Unit testing raised errors!' => 'Модульне тестування виявило помилки!',
-  '... (%s more byte(s)) ...' => '… (%s більше байтів) …',
+  '... (%s more byte(s)) ...' => array(
+    '... (ще %s  байт) ...',
+    '... (ще %s байтів) ...',
+  ),
   'Install %s using `%s`.' => 'Встановіть %s використовуючи `%s`.',
   'The name of a default lint engine to use, if no lint engine is specified by the current project.' => 'Назва механізму lint за замовчуванням для використання, якщо в поточному проєкті не визначено механізм lint.',
   'Configuration option "%s" was provided multiple times with "--config" flags. Specify each option no more than once.' => 'Параметр конфігурації "%s" надавався кілька разів із прапорцями "--config". Кожен параметр вказуйте не більше, ніж один раз.',
@@ -712,18 +1092,17 @@ arc більше не передбачає \' %s \'. Ви повинні вка�
   'Command (of class "%s") was constructed with a "PhutilCommandString", but also passed arguments. When using a prebuilt command, you must not pass arguments.' => 'Команда (класу "%s") була створена за допомогою "PhutilCommandString", але також передавала аргументи. Не можна передавати аргументи, використовуючи попередньо побудовану команду.',
   'Upload one or more files from local disk.' => 'Завантажити один чи більше файлів з локального диску.',
   'LINT MESSAGES' => 'ПОВІДОМЛЕННЯ LINT',
-  'Multiple repostories (%s) matched the query. You can use the "%s" configuration to select the one you want.' => 'Кілька сховищ (%s) відповідають запиту. Ви можете скористатися конфігурацією "%s", щоб вибрати такий, який захочете.',
   'File "%s"' => 'Файл «%s»',
   'User Symbol "%s"' => 'Символ Користувача "%s"',
   'Press ^C again to exit.' => 'Натисніть ^C ще раз, щоб вийти.',
   'You have incompletely checked out directories in this working copy. Fix them before proceeding.\'' => 'Ви не повністю перевірили каталоги в цій робочій копії. Виправте їх, перш ніж продовжити.\'',
   'Expected \'Date:\'.' => 'Очікувалося \'Date:\'.',
-  'pep8 is a tool to check your Python code against some of the style conventions in PEP 8.' => 'pep8 — це інструмент для перевірки вашого коду Python на відповідність деяким стилям у PEP 8.',
   'Advice' => 'Порада',
   'The remote host refused the connection. This usually means the host is not running an HTTP server, or the network is blocking connections from this machine. Verify you can connect to the remote host from this host.' => 'Віддалений хост відмовив у підключенні. Зазвичай це означає, що хтось не запустив HTTP-сервер або мережа блокує з’єднання з цього пристрою. Переконайтеся, що ви можете підключитися до віддаленого хоста з цього хоста.',
   'Connect to server specified by __uri__.' => 'Підключіться до сервера, зазначеного __uri__.',
   'Expected type \'%s\', got type \'%s\'.' => 'Очікуваний тип «%s», отриманий тип «%s».',
   'DEPRECATED' => 'ЗАСТАРІЛЕ',
+  'Unable to unlock file!' => 'Не вдається розблокувати файл!',
   'You can not reiterate over a %s object. The entire goal of the construct is to avoid keeping output in memory. What you are attempting to do is silly and doesn\'t make any sense.' => 'Ви не можете повторювати об’єкт %s . Загальна мета конструкції полягає в тому, щоб уникнути збереження виведення в пам’яті. Те, що ви намагаєтеся  зробити, безглуздо і не має сенсу.',
   'It is early morning. Glimses of sunlight peek through the trees and you hear the faint sound of birds overhead.' => 'Ранній ранок. Відблиски сонячного світла проглядають крізь дерева, і ви чуєте слабкий голос птахів над головою.',
   'List Assignment' => 'Призначення списку',
@@ -735,7 +1114,6 @@ arc більше не передбачає \' %s \'. Ви повинні вка�
   'Argument to "phutil_microseconds_since(...)" should be a value returned from "microtime(true)".' => 'Аргумент "phutil_microseconds_since(...)" має бути значенням, що повертається з "microtime(true)".',
   'Normally, if a patch has dependencies that are not present in the working copy, arc tries to apply them as well. This flag prevents such work.' => 'Зазвичай, якщо патч має залежні об\'єкти, яких немає в робочій копії, arc також намагається застосувати їх. Цей прапорець запобігає такій роботі.',
   'Argument "%s" is ambiguous.' => 'Аргумент "%s" неоднозначний.',
-  'AWS access key.' => 'Ключ доступу AWS.',
   'Library "%s" (in "%s") is on branch "%s", but this branch is not supported for automatic upgrades. Supported branches are: %s.' => 'Бібліотека "%s" (у "%s") знаходиться у відгалуженні "%s", але ця відгалуження не підтримує автоматичне оновлення. Підтримувані відгалуження: %s.',
   'A copy was saved to %s.' => 'Копію збережено до %s.',
   'Priority' => 'Пріоритет',
@@ -743,7 +1121,10 @@ arc більше не передбачає \' %s \'. Ви повинні вка�
   'Argument "%s" conflicts with unspecified argument "%s".' => 'Аргумент "%s" конфліктує з невизначеним аргументом "%s".',
   'Unable to write configuration: there is no writable configuration source in the "%s" scope.' => 'Неможливо записати конфігурацію: немає джерела конфігурації, доступного для запису, в області "%s".',
   'Closed' => 'Закрито',
-  'To go back to how things were before you ran "arc land", run these %s command(s):' => 'Щоб повернутися до того, як все було до того, як ви запустили "arc land", виконайте ці команди %s :',
+  'To go back to how things were before you ran "arc land", run these %s command(s):' => array(
+    'Щоб повернутися до того стану речей, який був до запуску "arc land", виконайте  цю команду:',
+    'Щоб повернутися до того стану речей, який був до запуску "arc land", виконайте ці команди:',
+  ),
   'ID' => 'ID',
   'AMBIGUOUS SYMBOL' => 'НЕОДНОЗНАЧНИЙ СИМВОЛ',
   'PyLint is a Python source code analyzer which looks for programming errors, helps enforcing a coding standard and sniffs for some code smells.' => 'PyLint — це аналізатор вихідного коду Python, який шукає помилки програмування, допомагає забезпечити дотримання стандартів кодування та виявляє деякі особливості коду.',
@@ -786,11 +1167,13 @@ arc більше не передбачає \' %s \'. Ви повинні вка�
 Update this revision anyway?' => 'Ви не володієте версією %s : "%s". Зазвичай вам слід оновлювати лише версії, якими ви володієте. Ви можете використати функцію "Commandeer"  до цієї версії з веб-інтерфейсу, якщо хочете стати власником.
 
 Оновити цю версію все одно?',
+  'Arguments "--into" and "--into-empty" are mutually exclusive.' => 'Аргументи "--into" та "--into-empty" є взаємовиключними.',
+  'Imported symbols should not be prefixed with `%s`.' => 'Імпортовані символи не повинні мати префікс `%s`.',
   'Call to %s(%s, ...) failed.' => 'Виклик %s (%s, ...) не вдався.',
   'Unnecessary Double Quotes' => 'Непотрібні Подвійні Лапки',
-  'Specify a key to delete.' => 'Вкажіть ключ, щоб його видалити.',
   'French (France)' => 'Французька (Франція)',
   'Included changes:' => 'Включені зміни:',
+  'Command failed with error #%s!' => 'Команда не виконана з помилкою #%s!',
   'Failed to read file!' => 'Не вдалося прочитати файл!',
   'Use `%s` instead of `%s`.' => 'Використайте `%s` замість `%s`.',
   'This configuration option ("%s") does not support runtime definition with "--config".' => 'Цей параметр налаштувань (" %s ") не підтримує визначення часу виконання за допомогою "--config".',
@@ -848,7 +1231,6 @@ Update this revision anyway?' => 'Ви не володієте версією %s
  - Цей символ визначено у зовнішній бібліотеці.
    Використайте "@phutil-external-symbol", щоб зробити примітку про це.
    Використайте "grep", щоб знайти приклади використання.',
-  'The revision associated with commit "%s" (an ancestor of: %s) is ambiguous. These %s revision(s) are associated with the commit:' => 'Версія, пов’язана з фіксацією "%s" (є попередницею: %s), є неоднозначною. Ці %s версії пов’язані з фіксацією:',
   'Possible spelling error. You wrote \'%s\', but did you mean \'%s\'?' => 'Можлива помилка правопису. Ви написали \'%s\', але мали на увазі \'%s\'?',
   'See <%s>. The default merge strategy under Git with "history.immutable" has changed from "merge" to "squash". Your configuration is ambiguous under this behavioral change. (Use "--strategy" or configure "arc.land.strategy" to bypass this check.)' => 'Див. <%s>. Стандартну стратегію злиття в Git із "history.immutable" змінено з "merge" на "squash". Ваша конфігурація є неоднозначною після цієї зміни. (Використайте "--strategy" або налаштуйте "arc.land.strategy", щоб пройти цю перевірку.)',
   'Unknown diff type.' => 'Невідомий тип різниці.',
@@ -861,15 +1243,19 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'LOAD' => 'ЗАВАНТАЖИТИ',
   'A definition of "%s %s" in "%s" will be ignored.' => 'Визначення "%s %s" у "%s" буде проігноровано.',
   'TODO: You are forcing a revision, but commits are associated with some other revision. Are you REALLY sure you want to land ALL these commits with a different unrelated revision???' => 'ЗАВДАННЯ: ви примусово виконуєте перегляд, але здійснення пов’язані з деякими іншими переглядами. Ви ДІЙСНО впевнені, що хочете отримати ВСІ ці здійснення з іншою непов’язаною версією???',
+  'Unexpected return value from call to "%s": %s.' => 'Неочікуване повернене значення від виклику "%s": %s.',
   'Specify one of \'%s\', \'%s\' or \'%s\' to choose an export format.' => 'Вкажіть один із \'%s\', \'%s\' чи \'%s\', щоб вибрати формат експорту.',
+  'Unknown object type "%s", supported types are: %s.' => 'Невідомий тип об\'єкта "%s", підтримувані типи: %s.',
   'Expected a hunk header, like \'%s\' (svn), \'%s\' (svn properties), \'%s\' (git show), \'%s\' (git diff), \'%s\' (unified diff), or \'%s\' (hg diff or patch).' => 'Очікувався заголовок частини, наприклад "%s" (svn), "%s" (властивості svn),"%s" (git show),"%s" (git diff), "%s" (уніфікована різниця) або "%s" ( hg diff або patch).',
   'To do this, run: **%s**' => 'Щоб зробити це, виконайте: ** %s **',
   'Dec' => 'Груд',
   'Resolve these errors:' => 'Вирішіть ці помилки:',
+  'Channel closed while waiting for message!' => 'Канал закрито в очікуванні повідомлення!',
   'Instead of creating or updating a revision, only create a diff, which you may later attach to a revision.' => 'Замість створення чи оновлення версії лише створіть diff, який ви можете пізніше прикріпити до версії.',
   'What do you want to name this library?' => 'Як ви хочете назвати цю бібліотеку?',
   'Preparing to upgrade "%s"...' => 'Підготовка до оновлення "%s"...',
   'Request specifies two values for key "%s", but parameter names must be unique if you are posting file data due to limitations with cURL.' => 'У запиті вказано два значення для ключа "%s", проте імена параметрів мають бути унікальними, якщо ви публікуєте дані файлу згідно з обмеженнями cURL.',
+  'DETECT' => 'ВИЯВИТИ',
   'No lint engine is configured for this project. Create an \'%s\' file, or configure an advanced engine with \'%s\' in \'%s\'.' => 'Для цього проекту не налаштовано механізм lint. Створіть файл "%s" або налаштуйте розширений механізм із "%s" у "%s".',
   'Attempting to make an HTTP request which includes file data, but the value of a query parameter begins with "%s". PHP interprets these values to mean that it should read arbitrary files off disk and transmit them to remote servers. Declining to make this request.' => 'Спроба зробити запит HTTP, який містить дані файлу, але значення параметра запиту починається з "%s". PHP інтерпретує ці значення так, що він повинен читати довільні файли з диска та передавати їх на віддалені сервери. Відмова у виконанні цього запиту.',
   'CLEANUP' => 'ОЧИСТКА',
@@ -881,7 +1267,11 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'German (Germany)' => 'Німецька (Німеччина)',
   'A list of paths to phutil libraries that should be loaded at startup. This can be used to make classes available, like lint or unit test engines.' => 'Список шляхів до бібліотек phutil, які повинні бути завантажені під час запуску. Їх можна використовувати, щоб зробити доступними класи, як-от знаряддя lint або unit test.',
   'INFO' => 'ІНФОРМАЦІЯ',
-  'You are using "--hold", so execution will stop before the %s branche(s) are actually created. You will be given instructions to create the branches.' => 'Ви використовуєте "--hold", тому виконання буде зупинено до того, як буде створено гілку(-и) %s. Ви отримаєте інструкції щодо створення гілок.',
+  'You are using "--hold", so execution will stop before the %s branche(s) are actually created. You will be given instructions to create the branches.' => array(
+    'Ви використовуєте "--hold", тому виконання зупиниться до того, як гілка буде створена. Вам будуть надані інструкції щодо створення гілки.',
+    'Ви використовуєте "--hold", тому виконання зупиниться до того, як гілки будуть створені. Вам будуть надані інструкції щодо створення гілок.',
+  ),
+  'Trying to create a %s without a working copy!' => 'Спроба створити %s без робочої копії!',
   'PREPARING' => 'ПІДГОТОВКА',
   'Korean (Republic of Korea)' => 'Корейська (Республіка Корея)',
   'Unknown conversion %s.' => 'Невідома конвертація %s.',
@@ -892,13 +1282,14 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'The format of user symbol "%s" is unrecognized. Expected a username like "alice" or "@alice", or a user PHID, or a user ID, or a special function like "viewer()".' => 'Формат символу користувача "%s" не розпізнається. Очікувалося ім’я користувача, як-от "alice" або "@alice", або PHID користувача, або ідентифікатор користувача, або спеціальна функція, як-от "viewer()".',
   'Use XHPAST to enforce coding conventions on PHP source files.' => 'Використовуйте XHPAST для забезпечення дотримання правил кодування у вихідних файлах PHP.',
   'Failed to connect to server (%s): %s' => 'Не вдалося підключитися до сервера (%s): %s',
-  'When specifying AWS credentials with --access-key and --secret-key, you must provide both keys.' => 'Указуючи облікові дані AWS за допомогою --access-key і --secret-key, ви повинні надати обидва ключі.',
   'You must %s!' => 'Ви повинні %s!',
   'CHOOSE' => 'ВИБРАТИ',
   'Night has fallen, but your surroundings are illuminated by the silvery glow of a full moon overhead. The night is cool and the air is crisp. The trees are calm.' => 'Настала ніч, але те, що вас оточує, освітлюється сріблястим сяйвом повного місяця над головою. Ніч прохолодна, повітря чисте. Дерева спокійні.',
   'Your stored credentials for the server you are trying to connect to ("%s") are not valid.' => 'Ваші збережені облікові дані для сервера, до якого ви намагаєтесь підключитися ("%s"), є недійсними.',
+  'Spellchecker' => 'Перевірка орфографії',
   'Object (of class "%s") did not return a string from "__toString()".' => 'Об’єкт (класу " %s ") не повернув рядок із "__toString()".',
   'The `%s` function should be avoided. It is potentially unsafe and makes debugging more difficult.' => 'Слід уникати функції `%s`. Вона потенційно небезпечна та ускладнює усунення несправностей.',
+  'No such project: "%s"' => 'Немає такого проєкту: "%s"',
   'English (Great Britain)' => 'Англійська (Велика Британія)',
   'The format of symbol "%s" is unrecognized. Expected a monogram like "X123", or an ID like "123", or a PHID.' => 'Формат символу "%s" не розпізнається. Очікується монограма, на кшталт "X123", або ідентифікатор, як-от "123", або PHID.',
   'Linter "%s" generated a lint message that is invalid because it does not have a name. Lint messages must have a name.' => 'Лінтер "%s" створив повідомлення lint, яке є недійсним, оскільки воно не має імені. Повідомлення lint повинні мати назву.',
@@ -912,17 +1303,25 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'AWS Errors:' => 'Помилки AWS:',
   'Limit the use of global variables. Global variables are generally a bad idea and should be avoided when possible.' => 'Обмежте використання глобальних змінних. Глобальні змінні, як правило, погана ідея, і їх слід уникати, якщо це можливо.',
   'Unrecognized lint message code "%s". Expected a valid cpplint lint code like "%s" or "%s".' => 'Нерозпізнаний код повідомлення lint "%s". Очікувався дійсний код lint cpplint, як-от "%s" або "%s".',
-  'Protocol channel expected %s-character, zero-padded numeric frame length, got something else ("%s"). Full buffer (of length %s) begins: %s' => 'Канал протоколу очікував %s-літерну числову довжину рамки з нульовою оббивкою, отримано щось інше ("%s"). Цілий буфер (довжиною %s) починається: %s',
+  'Protocol channel expected %s-character, zero-padded numeric frame length, got something else ("%s"). Full buffer (of length %s) begins: %s' => 'Очікується довжина числового кадру каналу протоколу %s-символьний з доповненням нулями, отримано щось інше ("%s"). Повний буфер (довжиною в %s)  починається: %s',
   'Failed to read file \'%s\'.' => 'Не вдалося прочитати файл «%s».',
   'Create or update a library.' => 'Створіть або оновіть бібліотеку.',
-  'Parameter ("%s") passed to "%s" when constructing a lint message must be a scalar with a maximum string length of %s bytes, but is %s bytes in length.' => 'Параметр ("%s"), який передається до "%s" під час створення повідомлення lint, має бути рядком із максимальною довжиною %s байти, але зараз він має довжину %s байти.',
+  'Parameter ("%s") passed to "%s" when constructing a lint message must be a scalar with a maximum string length of %s bytes, but is %s bytes in length.' => array(
+    
+    array(
+      
+      array(
+        'Параметр ("%s"), який передається до "%s" під час створення повідомлення lint, має бути рядком із максимальною довжиною %s байти, але зараз він має довжину %s байти.',
+        'Параметр ("%s"), який передається до "%s" під час створення повідомлення lint, має бути рядком із максимальною довжиною %s байтів, але зараз він має довжину %s байтів.',
+      ),
+    ),
+  ),
   'IP address "%s" is not properly formatted: an address with omitted leading sements must begin with "::".' => 'IP-адреса " %s " неправильно відформатована: адреса з пропущеними початковими елементами має починатися з "::".',
   'Declaring a function named `%s` causes any call to %s to fail. This is because `%s` eval-declares the function `%s`, then modifies the symbol table so that the function is instead named `%s`, and returns that name.' => 'Оголошення функції з іменем `%s` призводить до невдалого виклику %s. Це відбувається тому, що `%s` оцінює і оголошує функцію `%s`, а потім змінює таблицю символів так, що функція натомість має ім\'я `%s`, і повертає це ім\'я.',
   '\'%s\' has been amended with \'Differential Revision:\', as specified by \'%s\' in your %s \'base\' configuration.' => '\'%s\' було змінено на \'Differential
  Revision:\', як і зазначено \'%s\' у вашій  конфігурації \'base\' %s.',
   'NOTE' => 'НОТАТКА',
   'You are trying to connect to a server ("%s") that you do not have any stored credentials for, but the command you are running requires authentication.' => 'Ви намагаєтеся підключитися до сервера ("%s"), для якого у вас немає збережених облікових даних, але команда, яку ви виконуєте, вимагає автентифікації.',
-  'Unrecognized lint message code "%s". Expected a valid PEP8 lint code like "%s" or "%s".' => 'Нерозпізнаний код повідомлення lint "%s". Очікувався дійсний код lint PEP8, наприклад "%s" або "%s".',
   'NAME' => 'НАЗВА',
   'AMBIGUOUS' => 'НЕОДНОЗНАЧНИЙ',
   'Unrecognized lint message code "%s". Expected a valid flake8 lint code like "%s", or "%s", or "%s", or "%s".' => 'Нерозпізнаний код повідомлення lint "%s". Очікувався дійсний код flake8 lint, наприклад "%s", або "%s", або "%s", або "%s".',
@@ -940,7 +1339,7 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'The token "%s" is not a valid API Token. The server returned this response when trying to use it as a token: %s' => 'Маркер "%s" не є дійсним маркером API. Сервер повернув цю відповідь під час спроби використати його як маркер: %s',
   'Follow naming conventions: interfaces should be named using `%s`.' => 'Дотримуйтеся правил найменування: інтерфейси мають найменовуватися за допомогою `%s`.',
   'Configured unit test engine "%s" is not a subclass of "%s", but must be.' => 'Налаштований модуль тестування механізму "%s" не є підкласом "%s", але повинен бути таким.',
-  'Expected rule \'%s\' in state \'%s\' in %s to have 2-4 elements (regex, token, [next state], [options]), got %d.' => 'Очікувалося, що правило \'%s\' у стані \'%s\' у %s матиме 2–4 елементи (регулярний вираз, маркер, [наступний стан], [параметри]), отримано %d.',
+  'Expected rule \'%s\' in state \'%s\' in %s to have 2-4 elements (regex, token, [next state], [options]), got %d.' => 'Очікувалося, що правило \'%s\' у стані \'%s\' у %s матиме 2-4 елементи (регулярний вираз, токен, [наступний стан], [опції]), отримано %d.',
   'Unable to verify request signature, no "%s" present in request protocol information.' => 'Неможливо перевірити підпис запиту, немає "%s" у протокольній інформації запиту.',
   'To log in and save valid credentials for this server, run this command:' => 'Щоб увійти та зберегти дійсні облікові дані для цього сервера, запустіть цю команду:',
   'UNKNOWN REVISION' => 'НЕВІДОМА РЕВІЗІЯ',
@@ -952,6 +1351,7 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'You walk along the narrow bank of the stream as it winds lazily downhill and turns east, gradually widening into a river.' => 'Ви йдете вузьким берегом потічка, який ліниво петляє вниз і повертає на схід, поступово розширюючися в річку.',
   'Received errors from Asana: %s' => 'Отримано помилок від Asana: %s',
   'Spanish (Spain)' => 'Іспанська (Іспанія)',
+  'Unable to find %s or %s in %s!' => 'Не вдається знайти %s чи %s у %s!',
   'User aborted the workflow.' => 'Користувач перервав робочий процес.',
   'Auto-Fix' => 'Автоматичне Виправлення',
   'Modified \'%s\' files:' => 'Змінені файли «%s»:',
@@ -970,10 +1370,12 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'Paste "%s"' => 'Вставити «%s»',
   'Command string argument includes a NULL byte. This byte can not be safely escaped in command line arguments in Windows environments.' => 'Аргумент командного рядка містить байт NULL. Цей байт не можна безпечно екранувати в аргументах командного рядка в середовищах Windows.',
   'Syntax Error' => 'Синтаксична помилка',
+  'The revision associated with commit "%s" (an ancestor of: %s) is ambiguous. These %s revisions are associated with the commit:' => 'Версія, пов\'язана з фіксацією "%s" (попередня: %s), є неоднозначною. Ці %s версії пов\'язані з фіксацією:',
   'Library "%s" (at "%s") is not a Git working copy, so no version information can be provided.' => 'Бібліотека "%s" (на "%s") не є робочою копією Git, тому неможливо надати інформацію про версію.',
   'Configuration Options' => 'Параметри Конфігурації',
   '%s Library Linter' => 'Лінтер Бібліотеки %s',
   '%s (until %s)' => '%s (до %s)',
+  'Install hlint with `%s`.' => 'Встановіть hlint з `%s`.',
   'Created task %s: \'%s\' at %s
 ' => 'Створити завдання %s: «%s» на %s',
   'Status' => 'Статус',
@@ -987,21 +1389,27 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'Unknown' => 'Невідомо',
   'Install PHP.' => 'Встановіть PHP.',
   'There are no commits reachable from the specified sources (%s) which are not already present in the state you are merging into ("%s"), so nothing can land.' => 'Немає жодних фіксацій, доступних із зазначених джерел (%s), які ще не присутні в стані, у якому ви об\'єднуєте в ("%s"), тому нічого не може приземлитися.',
+  'Please provide a summary.' => 'Будь ласка, зробіть резюме.',
   'Channel closed!' => 'Канал закрито!',
   'Argument "%s" appears after the first non-flag argument. This special argument must appear before other arguments.' => 'Аргумент "%s" з\'являється після першого аргументу без прапора. Цей спеціальний аргумент має бути перед іншими аргументами.',
   'UPGRADED' => 'ОНОВЛЕНО',
+  'Expected an array for %%L%s conversion.' => 'Очікувався масив для конвертування %%L%s.',
   'You have selected multiple branches to push changes onto. Pushing to multiple branches is not supported by "arc land" in Mercurial: Mercurial commits may only belong to one branch, so this operation can not be executed atomically.' => 'Ви вибрали кілька гілок для внесення змін. Надсилання до кількох гілок не підтримується "arc land" у Mercurial: коміти Mercurial можуть належати лише до однієї гілки, тому цю операцію не можна виконати атомарно.',
   '[Invalid Translation!] %s' => '[Недійсний переклад!] %s',
   'Apr' => 'Кві',
   'Attempting to merge changes.' => 'Спроба об\'єднати зміни.',
   'IP address "%s" is not properly formatted: an address with omitted trailing segments must end with "::".' => 'IP-адреса "%s" неправильно відформатована: адреса з пропущеними кінцевими сегментами має закінчуватися на "::".',
-  'There are %s commit(s) reachable from the specified sources (%s) that are not present in the repository state you are merging into ("%s"). All of these commits will land:' => 'Існує %s фіксацій, доступних із зазначених джерел ( %s ), яких немає в стані сховища, в який ви об’єднуєте (" %s "). Усі ці фіксації будуть:',
   'Sort out the lint changes that were applied to the working copy and relint.' => 'Відсортуйте зміни lint, які було застосовано до робочої копії, і повторно лінтуйте.',
   'Failed to open URI "%s" in browser ("%s"). Check your "browser" config option.' => 'Не вдалося відкрити URI "%s" у браузері ("%s"). Перевірте параметр конфігурації "браузера".',
   'applied' => 'застосовано',
   'This line contains trailing whitespace. Consider setting up your editor to automatically remove trailing whitespace.' => 'Цей рядок містить пробіли в кінці. Налаштуйте свій редактор на автоматичне видалення кінцевих пробілів.',
   'function' => 'функція',
+  'You are landing %s revision(s) which are not in the state "Accepted", indicating that they have not been accepted by reviewers. Normally, you should land changes only once they have been accepted. These revisions are in the wrong state:' => array(
+    'Ви надсилаєте  редакцію, яка не має стану "Прийнято", що вказує на те, що вона не була прийнята рецензентами. Зазвичай, ви повинні надсилати зміни лише після того, як вони були прийняті. Ця редакція знаходяться в неправильному стані:',
+    'Ви надсилаєте  %s редакцій, які не мають стану "Прийнято", що вказує на те, що вони не були прийняті рецензентами. Зазвичай, ви повинні надсилати зміни лише після того, як вони були .прийняті. Ці редакції знаходяться в неправильному стані:',
+  ),
   'Config File' => 'Конфігураційний файл',
+  'Opening %s failed! %s.' => 'Відкрити %s не вдалося! %s.',
   'Connected' => 'З\'єднано',
   'You have merge conflicts in this working copy. Resolve merge conflicts before proceeding.' => 'Ви маєте конфлікти злиття в цій робочій копії. Вирішіть конфлікти злиття, перед тим, як продовжити.',
   'INSTALL' => 'ВСТАНОВИТИ',
@@ -1018,6 +1426,7 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'Specify either setData() or setPath() when building a file data reference, but not both.' => 'Вкажіть або setData() або setPath(), але не обидві команди, під час створення посилання на дані файлу,',
   'Path to a custom CA bundle file to be used for cURL calls. This is used primarily when your conduit endpoint is behind HTTPS signed by your organization\'s internal CA.' => 'Шлях до спеціального файлу комплекту CA, який буде використовуватися для викликів cURL. Це використовується в основному, коли ваша кінцева точка каналу підтримує протокол HTTPS, підписаний внутрішнім ЦС вашої організації.',
   'Disables lint for files that are marked as "%s", indicating that they contain generated code.' => 'Вимикає lint для файлів, позначених як "%s", вказуючи на те, що вони містять згенерований код.',
+  'Failed to install signal handler!' => 'Не вдалося встановити обробник сигналів!',
   'Depends on %s. ' => 'Залежить від %s.',
   'This class is neither `%s` nor `%s`, and does not have a docblock marking it `%s`.' => 'Цей клас не є ані `%s`, ані `%s`, і не має блоку документів, що позначає його `%s`.',
   'Avoid `%s` unless the second parameter is specified. It is confusing and hinders static analysis.' => 'Уникайте ` %s `, доки не вказано другий параметр. Адже це викликає плутанину та заважає статичному аналізу.',
@@ -1031,23 +1440,35 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'URI' => 'URI',
   'You must specify a Conduit URI with %s before you can establish a conduit.' => 'Ви повинні вказати URI Каналу з %s, перш ніж ви зможете встановити канал.',
   'Rewrite this file?' => 'Переписати цей файл?',
+  'There are %s commits reachable from the specified sources (%s) that are not present in the repository state you are merging into ("%s"). All of these commits will land:' => 'Зі зазначених джерел (%2$s) доступні %s коміти, яких немає у стані репозиторію, з яким ви зливаєтеся ("%3$s"). Усі ці фіксації будуть додані:',
   'You can learn more about how this software handles character encodings (and how to configure encoding settings and detect and correct encoding problems) by reading \'User Guide: UTF-8 and Character Encoding\' in the documentation.' => 'Ви можете дізнатися більше про те, як це програмне забезпечення обробляє кодування символів (і як налаштувати параметри кодування та виявити й виправити проблеми кодування), прочитавши \'Посібник користувача: UTF-8 і кодування символів\' у документації.',
   'Invalid octal numeric scalar. `%s` is not a valid octal and will be interpreted as `%d`.' => 'Недійсний вісімковий числовий скаляр. "%s" не є дійсним вісімковим числом і буде інтерпретуватися як "%d".',
   'Argument' => 'Аргумент',
-  '%s line(s)' => '%s ліній',
+  '%s line(s)' => array(
+    'рядок',
+    'рядки',
+  ),
+  'Missing required "--" in argument list.' => 'У списку аргументів відсутній обов\'язковий символ "--".',
   'Generate diff by executing a specified command, not from the working copy. This disables many features which depend on having access to the working copy.' => 'Генерувати різницю виконанням зазначеної команди, не з робочої копії. Це вимикає багато функцій, які залежать від можливості доступу до робочої копії.',
   'USAGE' => 'ВИКОРИСТАННЯ',
   'LOGIN REQUIRED' => 'ПОТРІБЕН ВХІД',
-  'Class contains %s %s method(s) and must therefore be declared `%s`.' => 'Клас містить метод(и) %s %s і тому має бути оголошений `%s`.',
+  'Class contains %s %s method(s) and must therefore be declared `%s`.' => array(
+    'Клас містить %s %s метод і тому має бути оголошений `%s`.',
+    'Клас містить %s %s методи і тому має бути оголошений `%s`.',
+  ),
+  'ALREADY A DRAFT' => 'ВЖЕ Є ЧЕРНЕТКОЮ',
   'Unexpected return value from calls to "%s(...)". More than one object returned a value with unique key "%s". This key was returned by objects with indexes: %s.' => 'Неочікуване повернуте значення від викликів до " %s (...)". Більш ніж один об’єкт повернув значення з унікальним ключем "%s". Цей ключ було повернуто об’єктами з індексами: %s.',
-  'You are using "--hold", so execution will stop before the %s bookmark(s) are actually created. You will be given instructions to create the bookmarks.' => 'Ви використовуєте "--hold", тому виконання буде зупинено до того, як вже буде створено закладку(и) %s. Ви отримаєте інструкції щодо створення закладок.',
+  'You are using "--hold", so execution will stop before the %s bookmark(s) are actually created. You will be given instructions to create the bookmarks.' => array(
+    'Ви використовуєте "--hold", тому виконання зупиниться до того, як закладка буде створена. Вам будуть надані інструкції щодо створення закладки.',
+    'Ви використовуєте "--hold", тому виконання зупиниться до того, як закладки, будуть створені. Вам будуть надані інструкції щодо створення закладок.',
+  ),
   '`%s` properties should be avoided. Instead of exposing the property value directly, consider using getter and setter methods.' => 'Слід уникати властивостей `%s`. Замість того, щоб показувати значення властивості безпосередньо, розгляньте можливість використання методів getter і setter.',
   'In Preparation' => 'В Процесі Підготовки',
   'You are updating a revision ("%s") with the "--draft" flag, but this revision is already a draft. You only need to provide the "--draft" flag when creating a revision. Draft revisions are not published until you explicitly request review from the web UI.' => 'Ви оновлюєте версію (" %s ") з позначкою "--draft", але ця версія вже є чернеткою. Під час створення версії потрібно лише вказати позначку «--draft». Чернетки редакцій не публікуються, доки ви не надішлете чіткий запит на перегляд через веб-інтерфейс.',
   'There was an error negotiating the SSL connection. This usually indicates that the remote host has a bad SSL certificate, or your local host has some sort of SSL misconfiguration which prevents it from accepting the CA. If you are using a self-signed certificate, see instructions in "%s".' => 'Під час узгодження з’єднання SSL сталася помилка. Зазвичай це вказує на те, що віддалений хост має поганий сертифікат SSL або ваш локальний хост має якусь неправильну конфігурацію SSL, яка не дозволяє йому прийняти ЦС. Якщо ви використовуєте самопідписаний сертифікат, див. інструкції в "%s".',
   'This file contains leading whitespace at the beginning of the file. This is unnecessary and should be avoided when possible.' => 'Цей файл містить пробіли на початку файлу. Це непотрібно, і цього слід за можливості уникати.',
-  'You are landing %s revision(s) which are not in state "Accepted", indicating that they have not been accepted by reviewers. Normally, you should land changes only once they have been accepted. These revisions are in the wrong state:' => 'Ви отримуєте %s редакцій, які не мають статусу "Прийнято", що вказує на те, що вони не були прийняті рецензентами. Як правило, ви повинні вводити зміни лише після їх прийняття. Ці версії у неправильному стані:',
   'it is the merge-base of \'%s\' and HEAD, as specified by \'%s\' in your %s \'base\' configuration.' => 'це база злиття \'%s\' і HEAD, як зазначено \'%s\' у вашій конфігурації \'base\' %s.',
+  'You are running an old version of %s. Please upgrade to version %s.' => 'Ви запускаєте стару версію %s. Будь ласка, оновіть програму до версії %s.',
   'Since there are no revisions in Differential which match this working copy, a new revision will be **created** if you run \'%s\'.
 
 ' => 'Оскільки в Differential немає версій, які б відповідали цій робочій копії, нова версія буде **створена**, якщо ви запустите "%s".',
@@ -1059,10 +1480,12 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'INTERRUPT' => 'ПЕРЕРИВАТИ',
   'No workflow selected.' => 'Робочий процес не вибрано.',
   'Changes:' => 'Зміни:',
-  '(To ignore these %s change(s), add them to "%s".)' => '(Щоб ігнорувати цю зміну/ці зміни %s, додайте їх до "%s".)',
+  '(To ignore these %s change(s), add them to "%s".)' => array(
+    '(Щоб ігнорувати  цю зміну, додайте її до "%2$s".)',
+    '(Щоб ігнорувати ці зміни, додайте їх до "%2$s".)',
+  ),
   'File "%s" already exists.' => 'Файл «%s» вже існує.',
   'Night has fallen. The moon overhead is waning. You can barely make out your surroundings. It is very cold.' => 'Настала ніч. Місяць над головою світить слабше. Ви ледве розрізняєте все довкола. Дуже холодно.',
-  'Expected method "%s->%s()" to return a unique key, got "%s" from %s object(s) at indexes: %s.' => 'Очікуваний метод "%s -> %s ()" для повернення унікального ключа, отримано "%s" від %s об’єктів з індексами: %s .',
   'APPLIED' => 'ЗАСТОСУВАЛОСЯ',
   'Repeatable arguments may not have a default (always array() for arguments which accept a parameter, or 0 for arguments which do not).' => 'Повторювані аргументи можуть не мати значення за замовчуванням (завжди array() для аргументів, які приймають параметр, або 0 для аргументів, які не приймають).',
   'You can not define an alias for "%s" because it is a builtin workflow for the current toolset ("%s"). The "alias" workflow can only define new commands as aliases; it can not redefine existing commands to mean something else.' => 'Ви не можете визначити псевдонім для "%s", оскільки це вбудований робочий процес для поточного набору інструментів ("%s"). Робочий процес "псевдонім" може визначати лише нові команди як псевдоніми; він не може перевизначати існуючі команди, щоб означати щось інше.',
@@ -1070,7 +1493,11 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   '%s: %s' => '%s: %s',
   'This command needs to communicate with a server, but no server URI is configured.' => 'Ця команда потребує зв’язку із сервером, проте жодного URI сервера не налаштовано.',
   'RETURN' => 'ПОВЕРНУТИ',
-  'Updated %s librarie(s).' => 'Оновлена бібліотека(и) %s.',
+  'Updated %s librarie(s).' => array(
+    'Оновлено  бібліотеку.',
+    'Оновлено  %s бібліотек.',
+  ),
+  'Failed to overwrite file.' => 'Не вдалося перезаписати файл.',
   'Chinese (Traditional)' => 'Китайський (традиційний)',
   'Only the function "viewer()" is supported.' => 'Підтримується лише функція "viewer()".',
   'WORKFLOWS' => 'РОБОЧІ ПРОЦЕСИ',
@@ -1078,17 +1505,21 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'Create this file?' => 'Створити цей файл?',
   'Listening' => 'Слухати',
   'Feb' => 'Лют',
+  'Symbol "%s" is ambiguous.' => 'Символ "%s" є неоднозначним.',
   '%s WORKFLOW' => 'РОБОЧИЙ ПРОЦЕС %s',
   'When calling "implode()", pass the "glue" argument first. (The other parameter order is deprecated in PHP 7.4 and raises a warning.)' => 'При виклику "implode()", спочатку передайте аргумент "glue". (Інший порядок параметрів є застарілим у PHP 7.4 і викликає попередження.)',
   'Specify setData() or setPath() when building a file data reference.' => 'Вкажіть або setData() або setPath(), але не обидві команди, під час створення посилання на дані файлу.',
+  'Unable to upload file data: %s' => 'Не вдалося завантажити дані файлу: %s',
   'Workflow ("%s") is requesting a prompt ("%s") but it did not generate any prompt with that name in "newPrompts()".' => 'Робочий процес ("%s") робить запит на підказку ("%s"), але він не генерує жодної підказки з таким іменем в "newPrompts()".',
   'Dictionary value at key "%s" is not valid UTF8, and cannot be JSON encoded: %s' => 'Словникове значення в ключі "%s" не є дійсним UTF8 і не може бути закодовано JSON: %s',
   'Expected value to be a list of objects which are instances of "%s", but item with index "%s" is "%s".' => 'Очікуваним значенням буде список об’єктів, які є прикладами "%s", але елемент з індексом "%s" дорівнює "%s".',
+  'Lowercase Functions' => 'Функції з Нижнім Регістром',
   'The "upgrade" workflow uses "git pull" to upgrade, but the software directory (in "%s") is not a Git working copy. You must leave this directory as a Git working copy to use "arc upgrade".' => 'Робочий процес "upgrade" використовує "git pull" для оновлення, але каталог програмного забезпечення (в "%s") не є робочою копією Git. Ви повинні залишити цей каталог як робочу копію Git, щоб використовувати "arc upgrade".',
   'Show this help.' => 'Показати цю довідку.',
   'Review' => 'Огляд',
   'Done.' => 'Готово.',
   'Unable to install signal handler, pcntl_signal() unavailable. Continuing without signal handling.' => 'Не вдалося встановити обробник сигналу, pcntl_signal() недоступний. Продовження без обробки сигналу.',
+  'Argument "--branch" for "arc browse" is not available in your software version control. For example, in SVN, a branch is just a directory with a special meaning for your team. Please omit the "--branch" argument.' => 'Аргумент "--branch" для "arc browse" недоступний у вашому контролі версій програмного забезпечення. Наприклад, у SVN гілка – це просто каталог зі спеціальним значенням для вашої команди. Будь ласка, пропустіть аргумент "--branch".',
   'you have no outgoing commits, so arc assumes you intend to submit uncommitted changes in the working copy.' => 'у вас немає вихідних фіксацій, тому arc припускає, що ви маєте намір подати незафіксовані зміни в робочій копії.',
   'UPGRADING' => 'ОНОВЛЕННЯ',
   'Exiting in %d seconds' => 'Вихід за %d секунду',
@@ -1109,11 +1540,16 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   '`%s` Function' => 'Функція «%s»',
   'You are running one copy of this software (at path "%s") against another copy of this software (at path "%s"). Code in the current working directory will not be loaded or executed.' => 'Ви запускаєте одну копію програмного забезпечення (на шляху "%s") проти іншої копії цього програмного забезпечення (на шляху "%s"). Код у поточному робочому каталозі не буде завантажено або виконано.',
   'Specify the end of the commit range. This disables many features which depend on having access to the working copy.' => 'Укажіть кінець діапазону фіксації. Це вимикає багато функцій, які залежать від доступу до робочої копії.',
+  'Choose a name for the new library.' => 'Виберіть назву для нової бібліотеки.',
   'To use "--xprofile", you must install XHProf.' => 'Щоб використовувати "--xprofile", вам потрібно встановити XHProf.',
   'IP address "%s" is not properly formatted: is has too many parts. Expected a maximum of 7 colons, like "%s".' => 'IP-адреса "%s" неправильно відформатована: вона містить забагато частин. Очікується максимум 7 двокрапок, наприклад "%s".',
   'English (Raw Strings)' => 'Англійська (необроблені рядки)',
   'The short array syntax ("[...]") was not introduced until PHP 5.4, but this codebase targets an earlier version of PHP. You can rewrite this expression using `array(...)` instead.' => 'Короткий синтаксис масиву ("[...]") не було додано у версіях до PHP 5.4, але ця кодова база націлена на попередню версію PHP. Ви можете переписати цей вираз, використовуючи натомість `array(...)`.',
-  'CREATE %s BOOKMARK(S)' => 'СТВОРИТИ %s ЗАКЛАДКИ',
+  'CREATE %s BOOKMARK(S)' => array(
+    'СТВОРИТИ ЗАКЛАДКУ',
+    'СТВОРИТИ %s ЗАКЛАДКИ',
+    'СТВОРИТИ %s ЗАКЛАДОК',
+  ),
   'HTTPS Trusted Domains' => 'Довірені Домени HTTPS',
   'Working Copy' => 'Робоча Копія',
   'The program is attempting to read user input, but stdin is being piped from some other source (not a TTY).' => 'Програма намагається прочитати введені користувачем дані, але стандартне введення передається з іншого джерела (не TTY).',
@@ -1126,6 +1562,7 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'Reason' => 'Причина',
   'Associate the working copy with a specific repository. Normally, this association can be determined automatically, but if your setup is unusual you can use this option to tell it what the desired value is.' => 'Пов’яжіть робочу копію з певним сховищем. Зазвичай цей зв’язок можна визначити автоматично, але якщо ваші налаштування нестандартні, ви можете скористатися цією опцією, щоб повідомити, яким є бажане значення.',
   'Whether %s should permit the automatic stashing of changes in the working directory when requiring a clean working copy. This option should only be used when users understand how to restore their working directory from the local stash if an operation causes an unrecoverable error.' => 'Чи повинен %s дозволяти автоматичне зберігання змін у робочому каталозі, коли потрібна чиста робоча копія. Цей параметр слід використовувати лише тоді, коли користувачі розуміють, як відновити свій робочий каталог із локального сховища, якщо операція спричиняє невиправну помилку.',
+  'Use of unknown class symbol "%s".' => 'Використання невідомого символу класу "%s".',
   'Abandoned' => 'Покинуто',
   'Argument short aliases may only be in a-z, A-Z and 0-9. \'%s\' is invalid.' => 'Короткі псевдоніми аргументів можуть бути лише в a-z, A-Z та 0-9. \'%s\' недійсний.',
   'Portuguese (Brazil)' => 'Португальська (Бразилія)',
@@ -1140,7 +1577,18 @@ Update this revision anyway?' => 'Ви не володієте версією %s
   'You must specify changes to apply to the working copy with "D12345", "--revision", "--diff", "--arcbundle", or "--patch".' => 'Ви повинні визначити зміни, для застосування до робочої копії з "D12345", "--revision", "--diff", "--arcbundle", або "--patch".',
   'Use formatting even in environments which probably don\'t support it.' => 'Використовуйте форматування навіть у середовищах, які, можливо, не підтримують його.',
   'PHP files should start with `%s`, which may be preceded by a `%s` line for scripts.' => 'Файли PHP мають починатися з `%s`, якому може передувати рядок `%s` для сценаріїв.',
-  'Downloaded file size (%s bytes) does not match expected file size (%s bytes). This download may be incomplete or corrupt.' => 'Розмір завантаженого файлу (%s байт) не відповідає очікуваному розміру файлу (%s байт). Це завантаження може бути неповним або пошкодженим.',
+  'Downloaded file size (%s bytes) does not match expected file size (%s bytes). This download may be incomplete or corrupt.' => array(
+    
+    array(
+      'Розмір завантаженого файлу (%s байти) не відповідає очікуваному розміру файлу (%s байти). Це завантаження може бути неповним або пошкодженим.',
+      'Розмір завантаженого файлу (%s байти) не відповідає очікуваному розміру файлу (%s байтів). Це завантаження може бути неповним або пошкодженим.',
+    ),
+    
+    array(
+      'Розмір завантаженого файлу (%s байтів) не відповідає очікуваному розміру файлу (%s байти). Це завантаження може бути неповним або пошкодженим.',
+      'Розмір завантаженого файлу (%s байтів) не відповідає очікуваному розміру файлу (%s байтів). Це завантаження може бути неповним або пошкодженим.',
+    ),
+  ),
   'TARGET' => 'ЦІЛЬ',
   'Rejecting ambiguous URI "%s". This URI is not formatted or encoded properly.' => 'Відхилення неоднозначного URI "%s". Цей URI неправильно відформатований або закодований.',
   'Needs Review' => 'Потребує Перевірки',
@@ -1157,12 +1605,19 @@ Make sure this library is configured to load.
 Переконайтеся, що цю бібліотеку налаштовано для завантаження.
 
 (У рідкісних випадках це може бути тому, що ви намагаєтеся запустити одну копію цього програмного забезпечення з паралельно з іншою копією цього програмного забезпечення. Ця операція не підтримується.)',
-  'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => 'Ця різниця включає %s файл(и), які не є дійсними UTF-8 (вони містять недійсні послідовності байтів). Ви можете зупинити цей робочий процес і виправити ці файли або продовжити. Якщо ви продовжите, ці файли буде позначено як двійкові.',
+  'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => array(
+    'Ця різниця містить  файл, який не відповідає дійсному UTF-8 (він містить недійсні послідовності байтів). Ви можете або зупинити цей робочий процес і виправити його, або продовжити. Якщо ви продовжите, цей файл буде позначено як двійковий.',
+    'Ця різниця містить файли, які не відповідають дійсному UTF-8 (вони містять недійсні послідовності байтів). Ви можете або зупинити цей робочий процес і виправити ці файли, або продовжити. Якщо ви продовжите, ці файли будуть позначені як двійкові.',
+  ),
   'Failed to rename \'%s\' to \'%s\'!' => 'Не вдалося перейменувати «%s» на «%s»!',
   'A script which contains a `%s` statement expects the very first statement to be a `%s` statement. Otherwise, a PHP fatal error will occur. %s' => 'Сценарій, який містить оператор ` %s `, очікує, що перший оператор буде оператором ` %s `. Інакше виникне критична помилка PHP. %s',
   'PyFlakes is a simple program which checks Python source files for errors.' => 'PyFlakes — це проста програма, яка перевіряє вихідні файли Python на наявність помилок.',
   'Expected method "%s->%s()" to return a string or integer for use as a unique key, got "%s" from object at index "%s".' => 'Очікувався метод " %s -> %s ()" для повернення рядка або цілого числа для використання як унікального ключа, отримано "%s" від об’єкта з індексом "%s".',
-  'The changes you are landing depend on %s open parent revision(s). Usually, you should land parent revisions before landing the changes which depend on them. These parent revisions are open:' => 'Зміни, які ви отримуєте, залежать від відкритої батьківської(-их) версії(-ій) %s. Як правило, ви повинні отримати батьківські версії перед тим, як завантажити зміни, які залежать від них. Ці батьківські версії відкриті:',
+  'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server software to enable these features.' => 'Ця версія програмного забезпечення на сервері, до якого ви підключаєтесь,  застаріла і не підтримує ідентифікацію репозиторіїв за кодовим словом або URI. Оновіть програмне забезпечення сервера, щоб увімкнути ці функції.',
+  'The changes you are landing depend on %s open parent revision(s). Usually, you should land parent revisions before landing the changes which depend on them. These parent revisions are open:' => array(
+    'Зміни, які ви завантажуєте, залежать від  відкритої попередньої версії. Зазвичай, вам слід завантажити попередні версії перед тим, як завантажити зміни, які від них залежать. Ця батьківська ревізія є відкритими:',
+    'Зміни, які ви завантажуєте, залежать від  %s відкритою попередньою версією. Зазвичай, вам слід завантажити попередні версії перед тим, як завантажити зміни, які від них залежать. Ці попередні версії є відкритими:',
+  ),
   'The current working directory is not part of a working copy for a supported version control system (Git, Subversion or Mercurial).' => 'Поточний робочий каталог не є частиною робочої копії для підтримуваної системи керування версіями (Git, Subversion або Mercurial).',
   'WARNING' => 'ПОПЕРЕДЖЕННЯ',
   'msort() was passed a method ("%s") which returns "PhutilSortVector" objects. Use "msortv()", not "msort()", to sort a list which produces vectors.' => 'msort() було передано метод (" %s "), який повертає об\'єкти "PhutilSortVector". Використовуйте "msortv()", а не "msort()", щоб сортувати список, що створює вектори.',

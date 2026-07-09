@@ -14,7 +14,6 @@ final class PhabricatorUiexampleTi
   'General' => 'ሓፈሻዊ',
   'Emojis' => 'ኢሞጂታት',
   'Installation' => 'ምጽዓን',
-  'Country' => 'ሃገር',
 );
   }
 

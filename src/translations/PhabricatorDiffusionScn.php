@@ -31,6 +31,7 @@ final class PhabricatorDiffusionScn
   'Unknown VCS \'%s!\'' => 'VCS %s scanusciutu!',
   'Current Password' => 'Password attuali',
   '"%s", at "%s"' => '"%s", a "%s"',
+  'tag (git)' => 'etichetta (git)',
   '%s on %s.' => '%s supra %s.',
   '%s (on %s)' => '%s (supra %s)',
   '%s Complete' => '%s cumpritatu',
@@ -56,7 +57,6 @@ final class PhabricatorDiffusionScn
   'Edit URI' => 'Cancia l\'URI',
   'Changes (%s)' => 'Canci (%s)',
   'Diff content' => 'Cuntinutu dû diff',
-  'tag (git)' => 'etichetta (git)',
 );
   }
 

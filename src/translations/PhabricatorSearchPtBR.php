@@ -14,7 +14,6 @@ final class PhabricatorSearchPtBR
   'Enable Query?' => 'Ativar consulta?',
   'Global Search' => 'Pesquisa global',
   'Personal Menu Items' => 'Itens do menu pessoais',
-  'Format' => 'Formato',
   'The queries you have saved are private. Only you can view or edit them.' => 'As consultas que você salvou são particulares. Só você pode ver ou editá-los.',
   'cat -A can find mice hiding in files.' => 'O comando "cat -A" pode encontrar ratos escondidos nos arquivos.',
   'Export Format Not Available' => 'Formato de exportação não disponível',

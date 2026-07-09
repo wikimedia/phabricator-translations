@@ -18,7 +18,6 @@ final class PhabricatorConduitUk
   'Generate API Token' => 'Створити токен API',
   'Generate a new API token?' => 'Згенерувати новий токен API?',
   'Terminate API Token' => 'Припинення API токену',
-  'View API Token' => 'Переглянути API-токен',
   'No Tokens to Terminate' => 'Немає токенів для припинення',
   'Terminate API Tokens' => 'Припинення API токенів',
   'Generate Token' => 'Створити токен',

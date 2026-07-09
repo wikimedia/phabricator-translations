@@ -68,20 +68,6 @@ A takaice:! N!
   'Configure' => 'Sanya',
   'January' => 'Janairu',
   'Welcome to %s!' => 'Barka da zuwa %s !',
-  'You have an old version of MySQL (older than 5.5) which does not support the utf8mb4 character set. We strongly recommend upgrading to 5.5 or newer.
-
-If you apply adjustments now and later update MySQL to 5.5 or newer, you\'ll need to apply adjustments again (and they will take a long time).
-
-You can exit this workflow, update MySQL now, and then run this workflow again. This is recommended, but may cause a lot of downtime right now.
-
-You can exit this workflow, continue using this software without applying adjustments, update MySQL at a later date, and then run this workflow again. This is also a good approach, and will let you delay downtime until later.
-
-You can proceed with this workflow, and then optionally update MySQL at a later date. After you do, you\'ll need to apply adjustments again.
-
-For more information, see "Managing Storage Adjustments" in the documentation.' => 'Kuna da tsohuwar sigar MySQL (tsofaffi 5.5) wanda baya goyan bayan saitin halayen utf8mb4. Muna ba da shawarar haɓakawa da ƙarfi zuwa 5.5 ko sabo! 
- Kuna iya fita daga wannan aikin, sabunta MySQL yanzu, sannan ku sake gudanar da wannan aikin. Ana bada shawarar wannan, amma yana iya haifar da raguwa mai yawa a yanzu. Wannan kuma hanya ce mai kyau, kuma zai ba ku damar jinkirin raguwa har zuwa gaba. Bayan kun yi, kuna buƙatar sake amfani da gyara.
-
- Don ƙarin bayani, duba "Managing Storage Adjustments" a cikin takaddun.',
   'SUCCESS' => 'NASARA',
   'October' => 'Oktoba',
   'This server is in read-only mode (unreachable master).' => 'Wannan uwar garken tana cikin yanayin karantawa kawai (maigidan da ba za a iya kaiwa ba).',
@@ -111,7 +97,6 @@ installing the extension.' => 'Ba za a iya fitar da bayanai zuwa Excel ba saboda
   'This server is in read-only mode (no writable database is configured).' => 'Wannan uwar garken yana cikin yanayin karantawa kawai (ba a saita bayanan da aka rubuta ba).',
   'Referenced' => 'Nassoshi',
   'A JSON-encoded object.' => 'Abun da aka saka JSON.',
-  'Install' => 'shigar',
   'Some of these errors are caused by surplus schemata (extra tables or columns which this software does not expect). These are not serious. For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => 'Wasu daga cikin waɗannan kurakurai ana haifar da su ne ta hanyar tsarin ragi (ƙarin tebur ko ginshiƙai waɗanda wannan software ba ta tsammani). Wadannan ba su da tsanani. Don bayani kan warware waɗannan batutuwa, duba sashin "Ƙarin Tsari" a cikin labarin "Sarrafa Ma\'ajiya Daidaitawa" a cikin takardun.',
 );
   }

@@ -25,18 +25,26 @@ final class PhabricatorProjectTr
   'Hide Hidden Columns' => 'Gizli Sütunları Gizle',
   'Find results with only the specified tags.' => 'Yalnızca belirtilen etiketlerle sonuçları bulun.',
   'Find results in any of a user\'s projects.' => 'Bir kullanıcının projelerinden herhangi birinde sonuçları bulun.',
+  'Trigger ruleset is corrupt: rule (at index "%s") is not a valid rule specification: %s' => '',
+  'Ruleset specification is not valid. %s' => '',
   '%s added %d project hashtag(s): %s.' => '%s, %d projesi kare ekledi: %s.',
   'Search for projects with given subtypes.' => 'Verilen alt tipleri olan projeleri arayın.',
+  'No Trigger' => 'Tetikleyici Yok',
+  '%s named this column %s.' => '',
   'Month' => 'Ay',
+  'True if this column is hidden.' => '',
   'Lock Project' => 'Projeyi Kilitle',
   'Save Default Order' => 'Varsayılan Düzenini Kaydet',
   'Project Watchers' => 'Proje İzleyicileri',
   'Intensity' => 'Yoğunluk',
+  'Status rule value should be a string, but is not (value is "%s").' => '',
   'The name of the project.' => 'Projenin adı.',
   '%d month(s)' => '%d ay',
   'Sort by Created Date' => 'Oluşturma Tarihine göre Sırala',
+  'Quarter' => 'Çeyrek',
   'Type a project name or function...' => 'Bir proje adı veya işlevi yazın...',
   'Are you sure you want to show this column?' => 'Bu sütunu göstermek istediğinize emin misiniz?',
+  'Assign task to user moving the task.' => 'Görevi taşıyan kullanıcıya ata.',
   'Add projects' => 'Proje ekle',
   'Archive Project' => 'Projeyi Arşivle',
   'Default view policy for newly created projects.' => 'Yeni oluşturulan projeler için varsayılan görünüm politikası.',
@@ -64,6 +72,10 @@ final class PhabricatorProjectTr
   'Edit Column' => 'Sütunu Düzenle',
   ' %d ' => ' %d',
   'Include results tagged with this project.' => 'Bu projeyle etiketlenmiş sonuçları dahil et.',
+  'You can not move tasks to a hidden column.' => 'Görevleri gizli sütuna taşıyamazsınız.',
+  'Period' => 'Dönem',
+  'Column status "%s" is unrecognized, valid statuses are: %s.' => 'Column durum "%s" unrecognized, geçerli durumes are: %s.',
+  '%s hid this column.' => '%s hid this sütun.',
   'The workboard for this project has not been created yet.' => 'Bu projenin çalışma tablosu henüz oluşturulmadı.',
   'No Editable Tasks' => 'Düzenlenebilir Görev Yok',
   'Activate Subproject' => 'Alt Projeyi Etkinleştir',
@@ -71,8 +83,10 @@ final class PhabricatorProjectTr
   'Really archive project?' => 'Gerçekten projeyi arşivlesin mi?',
   'Select only results with exactly the other specified tags.' => 'Yalnızca tam olarak belirtilen etiketlerle sonuçları seçin.',
   '(Hidden)' => '(Gizli)',
+  'When a card is dropped into a column which uses this trigger:' => '',
+  'Expected trigger rule (of class "%s") to return a list of transactions from "newDropTransactions()", but got "%s".' => '',
+  'Open Tasks by column' => '',
   'If you lock this project, members will be prevented from leaving it.' => 'Bu projeyi kilitlerseniz üyelerin ayrılmaları engellenir.',
-  'Additional project slugs.' => 'Ek proje slugları.',
   'Create Project' => 'Proje Oluştur',
   'Members' => 'Üyeler',
   'You can not change members of a milestone. Members of the parent project are automatically members of the milestone.' => 'Bir kilometre taşının üyelerini değiştiremezsiniz. Ana projenin üyeleri otomatik olarak dönüm noktası üyesidir.',
@@ -104,8 +118,10 @@ Ayrıntılar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu
   'You are already watching %s, an ancestor of this project, and are thus watching all of its subprojects.' => 'Zaten bu projenin atası olan %s izliyorsunuz ve bu yüzden tüm alt projelerini izliyorsunuz.',
   'New Empty Board' => 'Yeni Boş Pano',
   'Adjust project colors.' => 'Proje renklerini ayarlayın.',
+  'Find projects with a given maximum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Verilen maksimum derinliğe sahip projeleri bul. Kök projeler 0 derinliğe sahiptir, doğrudan alt öğeleri 1 derinliğine sahiptir ve bu şekilde devam eder.',
   '%s removed the point limit for this column.' => '%s, bu sütun için puan limitini kaldırdı.',
   'Project membership changes.' => 'Proje üyeliği değişimi.',
+  'Value for "%s" rule is invalid: %s' => '"%s" kuralı için değer geçersiz: %s',
   'Leave Project' => 'Projeyi Ayrıl',
   'Disable Workboard' => 'Çalışma Tahtasını Devre Dışı Bırak',
   'Members: Invalid Project' => 'Üyeler: Geçersiz Proje',
@@ -115,30 +131,37 @@ Ayrıntılar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu
   'Find all subprojects beneath specified ancestors.' => 'Belirtilen ataların altındaki tüm alt projeleri bulun.',
   'Add project tags' => 'Proje etiketleri ekle',
   'Trigger: %s' => 'Tetikleyici: %s',
+  'The sequence in which this column appears on the workboard.' => 'Bu sütunun çalışma panosunda göründüğü sıra.',
+  'Task status value ("%s") is not a valid task status. Valid statues are: %s.' => 'Görev durum değeri ("%s") geçerli bir görev durumu değil. Geçerli durumlar: %s.',
+  'Move Tasks to Project...' => 'Görevleri Projeye Taşı...',
   'Set Board Default Order' => 'Pano Varsayılan Düzeni Ayarla',
-  'New list of slugs.' => 'Slugların yeni listesi.',
   'You will no longer receive email or notifications about every object associated with this project.' => 'Artık bu projeyle ilişkili her nesne hakkında e-posta veya bildirim almayacaksınız.',
   'Removed %s project(s): %s.' => 'Kaldırılan %s proje: %s.',
-  'This method is frozen and will eventually be deprecated. New code should use "project.edit" instead.' => 'Bu yöntem donmuş ve sonunda kullanımdan kaldırılacak. Yeni kod yerine "project.edit" kullanmalıdır.',
   'Reorder Columns' => 'Sütunları Yeniden Sırala',
   'Edit Project: %s' => 'Proje Düzenlemesi: %s',
   'Joinable By' => 'Katılabilen',
   '%d week(s)' => '%d hafta',
+  'Expected "newHeadersForObjects()" on "%s" to return a list of headers, but got "%s".' => '"%s" üzerindeki "newHeadersForObjects()" işlevinin bir başlık listesi döndürmesi bekleniyor, ancak "%s" alındı.',
   'Hide Column' => 'Sütunu Gizle',
   'Membership Immutable' => 'Üyelik İnanılmaz',
   'Initial Members' => 'İlk Üyeler',
   'Type a user or project name...' => 'Bir kullanıcı veya proje adı yazın...',
+  'Over-due Tasks' => 'Süresi Geçmiş Görevler',
   'Trigger %d' => 'Tetikleyici %d',
   'Project icon.' => 'Proje simgesi',
   'Hashtags' => 'Kareler',
   'Project Picture' => 'Proje Resmi',
   'You must select at least one project tag to add.' => 'Eklemek için en az 1 proje etiketi seçmelisin',
   'The workboard for this project has not been created yet, but you do not have permission to create it. Only users who can edit this project can create a workboard for it.' => 'Bu projenin çalışma masası henüz oluşturulmadı, ancak oluşturma izniniz yok. Yalnızca bu projeyi düzenleyebilen kullanıcılar bunun için bir çalışma tahtası oluşturabilir.',
+  'Maximum number of tasks allowed in the column.' => 'Sütunda izin verilen maksimum görev sayısı.',
   'Custom Projects fields.' => 'Özel Projeler alanları.',
   'Watch Project' => 'Projeyi İzle',
   'Invalid Rule' => 'Geçersiz Kural',
   'Watching Ancestor' => 'Ata İzliyor',
   'Support for Projects' => 'Projelere Destekle',
+  'See Subprojects' => 'Alt Projeleri Gör',
+  'Change task priority to %s.' => 'Görev önceliğini %s olarak değiştir.',
+  'Tasks Moved Into Project' => 'Projeye Taşınan Görevler',
   'This One Is Purple' => 'Bu Bir Mor',
   'Projects being edited' => 'Düzenlenen Projeler',
   'Source Workboard Has No Columns' => 'Kaynak Çalışma Masası Sütunu Yok',
@@ -147,6 +170,7 @@ Ayrıntılar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu
   'Remove Watcher' => 'İzleyiciyi Kaldır',
   'Normal Project' => 'Normal Proje',
   'Parent Projects' => 'Üst Projeler',
+  'Expected "newColumnTransactions()" on "%s" to return "null" or a list of transactions, but got "%s".' => '"%s" üzerindeki "newColumnTransactions()" işlevinin "null" veya işlem listesi döndürmesi bekleniyor, ancak "%s" alındı.',
   'Remove project tags: %s.' => 'Proje etiketlerini kaldır: %s.',
   'Type a user, project name, or function...' => 'Bir kullanıcı, proje adı veya işlev yazın...',
   'Used on %s.' => '%s üzerinde kullanıldı.',
@@ -162,6 +186,7 @@ Ayrıntılar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu
   'This column is hidden because it represents an archived subproject. Do you want to activate the subproject so the column is visible again?' => 'Bu sütun gizlidir çünkü arşivlenmiş bir alt projeyi temsil eder. Alt projeyi aktif hale getirmek ister misiniz, böylece sütun tekrar görünür olur?',
   'When creating a project, specify a maximum of one parent project or milestone project. A project can not be both a subproject and a milestone.' => 'Bir proje oluştururken, en fazla bir ana proje veya dönüm noktası projesi belirtin. Bir proje hem alt proje hem de dönüm noktası olamaz.',
   'Maximum number of points of tasks allowed in the column.' => 'Sütunda izin verilen maksimum görev noktası sayısı.',
+  '%s updated the ruleset for this trigger.' => '%s bu tetikleyicinin kural kümesini güncelledi.',
   'PROJECT DETAIL' => 'PROJE AYRINTISI',
   'Point Limit' => 'Nokta Sınırı',
   'Project tag color.' => 'Proje etiketi rengi.',
@@ -169,17 +194,22 @@ Ayrıntılar için [[ %s | Projeler Kullanım Kılavuzu ]] sayfasına bakın. Bu
   'No Milestones' => 'Kilometre Taşları Yok',
   'Project tags added' => 'Proje etiketleri eklendi',
   'Blue Sky' => 'Mavi Gökyüzü',
-  'Search for projects with particular slugs. (Slugs are the same as project hashtags.)' => 'Belirli slug içeren projeleri arayın. (Sluglar proje kareleriyle aynıdır.)',
+  'Unused trigger.' => 'Kullanılmayan tetikleyici.',
+  'Trigger Usage' => 'Tetikleyici Kullanımı',
+  'Owner rule value is required. Specify a user to assign tasks to, the token "viewer()" to assign to the user moving tasks, or the token "none()" to unassign tasks.' => 'Sahip kuralı değeri gereklidir. Görevleri atamak için bir kullanıcı belirtin, görevleri taşıyan kullanıcıya atamak için "viewer()" belirtecini veya atamaları kaldırmak için "none()" belirtecini kullanın.',
   'Value for index "%s" should be a dictionary.' => '"%s" dizininin değeri sözlük olmalı.',
   'Too many tasks (%s).' => 'Çok fazla görev (%s).',
   'This project does not have any watchers.' => 'Bu projenin gözlemcisi yok.',
   'Create a subproject of an existing project.' => 'Mevcut bir projenin alt projesini oluşturun.',
+  'You must select at least one user or project tag to remove.' => 'Kaldırmak için en az bir kullanıcı veya proje etiketi seçmelisiniz.',
   'Members of all subprojects are members of this project.' => 'Tüm alt projelerin üyeleri bu projenin üyeleridir.',
   'You are a member and you will receive mail that is sent to all project members.' => 'Üyesiniz ve tüm proje üyelerine gönderilen postaları alacaksınız.',
   'Two different icons ("%s", "%s") are marked with special attribute "%s". Only one icon may be marked with this attribute.' => 'İki farklı simge ("%s", "%s") "%s" özelliğiyle işaretlenmiştir. Bu özellik ile sadece bir simge işaretlenebilir.',
   'Umbrella' => 'Şemsiye',
   'Subprojects' => 'Alt Projeler',
+  'Owner rule value should be a list, but is not (value is "%s").' => 'Sahip kuralı değeri bir liste olmalıdır, ancak değil (değer "%s").',
   'Information about the project color.' => 'Proje rengi hakkında bilgi.',
+  'Remove project rule value should be a list, but is not (value is "%s").' => 'Proje kaldırma kuralı değeri bir liste olmalıdır, ancak değil (değer "%s").',
   '%s added %s project(s) to %s: %s.' => '%s, %s projeyi %s eklendi: %s.',
   'This function is used with other tags, and causes the query to match only results with exactly those tags. For example, to find tasks tagged only iOS:
 
@@ -190,14 +220,19 @@ This will omit results with any other project tag.' => 'Bu işlev diğer etiketl
 > ios, only()
 
 Bu, başka herhangi bir proje etiketi ile sonuçlanmayacaktır.',
+  'Maximum Depth' => 'Maksimum Derinlik',
+  '%s changed the trigger for this column from %s to %s.' => '%s bu sütunun tetikleyicisini %s\'den %s\'e değiştirdi.',
   'Archive and Hide Column' => 'Sütun Arşivle ve Gizle',
+  'Tasks Closed' => 'Kapatılan Görevler',
   'This is a progress bar which shows how many points of work are complete within the milestone. It has no configurable settings.' => 'Bu, dönüm noktası içinde kaç işin tamamlandığını gösteren bir ilerleme çubuğudur. Yapılandırılabilir ayarları yok.',
+  'Group by Owner' => 'Sahibe Göre Grupla',
+  'This rule (of type "%s") is invalid.' => 'Bu kural ("%s" türünde) geçersiz.',
   'New Trigger' => 'Yeni Tetikleyici',
   'You have disabled mail. When mail is sent to project members, you will not receive a copy.' => 'Postaları devre dışı bıraktın. Posta proje üyelerine gönderildiğinde, bir kopya almayacaksınız.',
   'Select projects current viewer is a member of.' => 'Mevcut projelerin bir üyesi olduğu projeleri seçin.',
   'This workboard has been disabled, but can be restored to its former glory.' => 'Bu çalışma masası devre dışı bırakıldı, ancak eski ihtişamına geri döndürülebilir.',
   'No Limit' => 'Sınır Yok',
-  'Added Projects' => 'Eklenen Projeler',
+  'This column can not have a trigger.' => 'Bu sütunun tetikleyicisi olamaz.',
   '%s added %s project(s): %s.' => '%s, %s proje ekledi: %s.',
   'Unknown Rule' => 'Bilinmeyen Kural',
   'Milestones can be created for this project.' => 'Bu proje için kilometre taşları oluşturulabilir.',
@@ -217,10 +252,12 @@ Bu, başka herhangi bir proje etiketi ile sonuçlanmayacaktır.',
   'Parent project to create a milestone for.' => 'Ana proje için bir dönüm noktası oluşturması.',
   'The project icon marked as the default icon ("%s") must not be disabled.' => 'Varsayılan simge ("%s") olarak işaretlenmiş proje simgesi devre dışı bırakılmamalıdır.',
   '%s added %s project(s) for %s: %s.' => '%s, %3$s için %s proje eklendi: %4$s.',
+  'Add subscribers rule value should be a list, but is not (value is "%s").' => 'Abone ekleme kuralı değeri bir liste olmalıdır, ancak değil (değer "%s").',
   'Add Column' => 'Sütun Ekle',
   'Remove Project Tags' => 'Proje Etiketlerini Kaldır',
-  'Projects are flexible storage containers used as tags, teams, projects, or anything you need to group.' => 'Projeler, etiketler, ekipler, projeler veya gruplandırmanız gereken herhangi bir şey olarak kullanılan esnek saklama kaplarıdır.',
   'Reef' => 'Resif',
+  'No column ordering exists with key "%s".' => '"%s" anahtarıyla sütun sıralaması mevcut değil.',
+  'This trigger is not used by any columns.' => 'Bu tetikleyici hiçbir sütun tarafından kullanılmıyor.',
   'Project Details' => 'Proje Detayları',
   'Choose Project Icon' => 'Proje Simgesini Seçin',
   '%s unlocked %s membership.' => '%s, %s üyeliğin kilidini açtı.',
@@ -232,6 +269,8 @@ Bu, başka herhangi bir proje etiketi ile sonuçlanmayacaktır.',
   'Make the workboard the default view for this project.' => 'Çalışma yüzeyini bu proje için varsayılan görünüm yapın.',
   'New Trigger...' => 'Yeni Tetikleyici...',
   'This column is visible because it represents an active subproject. Do you want to hide the column by archiving the subproject?' => 'Bu sütun görülebilir çünkü aktif bir alt projeyi temsil ediyor. Alt projeyi arşivleyerek sütunu gizlemek ister misiniz?',
+  'Project Reports' => 'Proje Raporları',
+  'Trigger "%s" is not a valid trigger, or you do not have permission to view it.' => '"%s" tetikleyicisi geçerli bir tetikleyici değil veya görüntüleme izniniz yok.',
   '(Deprecated.) Search for projects with a given name or hashtag using tokenizer/datasource query matching rules. This is deprecated in favor of the more powerful "query" constraint.' => '(Kullanımdan kaldırıldı.) Tokenizer/veri kaynak sorgusu eşleştirme kurallarını kullanarak belirli bir ad veya karma etiketi olan projeleri arayın. Bu, daha güçlü "sorgu" kısıtlaması lehine kaldırılmıştır.',
   '%s removed %s member(s) for %s: %s.' => '%s, %3$s için %s üye kaldırıldı: %4$s.',
   '%s set the image for %s to %s.' => '%s, resmini %s ile %s ayarlandı.',
@@ -240,15 +279,17 @@ Bu, başka herhangi bir proje etiketi ile sonuçlanmayacaktır.',
   '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' => '%s, %3$s için %s proje düzenledi, %4$s eklendi: %5$s; %6$s kaldırıldı: %7$s.',
   'Workboard' => 'Çalışma tahtası',
   'User\'s Projects: Invalid User' => 'Kullanıcının Projeleri: Geçersiz Kullanıcı',
+  'Trigger ruleset is corrupt: rule (at index "%s") should be a rule specification, but is actually "%s".' => 'Tetikleyici kural kümesi bozuk: kural ("%s" dizininde) bir kural belirtimi olmalıdır, ancak aslında "%s".',
   'Set members, overwriting the current value.' => 'Üyeleri ayarlayın, mevcut değerin üzerine yazın.',
   'Workboard Columns' => 'Çalışma Tahtası Sütunları',
-  'Primary slug/hashtag.' => 'Birincil slug/kare.',
   'Find results not in specific projects.' => 'Belirli projelerde bulunmayan sonuçları bulun.',
   'Find direct subprojects of specified parents.' => 'Belirtilen ebeveynlerin doğrudan alt projelerini bulun.',
+  'Custom Trigger' => 'Özel Tetikleyici',
   '%s changed the default filter for the project workboard.' => '%s proje çalışma masası için varsayılan filtreyi değiştirdi.',
   'Disabling a workboard hides the board. Objects on the board will no longer be annotated with column names in other applications. You can restore the workboard later.' => 'Bir çalışma tahtasını devre dışı bırakmak tahtayı gizler. Tahtadaki nesnelere, diğer uygulamalarda artık sütun adlarıyla açıklama eklenmeyecektir. Çalışma masasını daha sonra geri yükleyebilirsiniz.',
   'Member' => 'Üye',
   'Create a new board with just a backlog column.' => 'Yalnızca bir biriktirme sütununa sahip yeni bir tahta oluşturun.',
+  'Remove subscribers rule value should be a list, but is not (value is "%s").' => 'Abone kaldırma kuralı değeri bir liste olmalıdır, ancak değil (değer "%s").',
   'Watching a project also watches all subprojects and milestones of that project.' => 'Bir projeyi izlemek, o projenin tüm alt projelerini ve kilometre taşlarını da izler.',
   'Unsupported Project' => 'Desteklenmeyen Proje',
   'Get the full ancestor list for each project.' => 'Her proje için tam ata listesini alın.',
@@ -263,28 +304,8 @@ Bu, başka herhangi bir proje etiketi ile sonuçlanmayacaktır.',
   'Save Column' => 'Sütunu Kaydet',
   'Project icons must have unique keys, but two icons share the same key ("%s").' => 'Proje simgeleri benzersiz anahtarlara sahip olmalı, ancak iki simge aynı anahtarı paylaşıyor ("%s").',
   '%s created this trigger.' => '%s bu tetikleyiciyi oluşturdu.',
+  'View Tasks as Query' => 'Görevleri Sorgu Olarak Görüntüle',
   'Change task status to %s.' => 'Görev durumunu %s olarak değiştir.',
-  'This function allows you to find results which are not in one or more projects. For example, use this query to find results which are not associated with a specific project:
-
-> not(vanilla)
-
-You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
-
-> not(vanilla), not(chocolate)
-
-You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
-
-> ios, not(bug)' => 'Bu işlev, bir veya daha fazla projede bulunmayan sonuçları bulmanıza izin verir. Örneğin, belirli bir projeyle ilişkili olmayan sonuçları bulmak için bu sorguyu kullanın:
-
-> not(vanilla)
-
-Birden fazla projeyi hariç tutabilirsiniz. Bu, sorgunun yalnızca dışlanan projelerden hiçbirinde bulunmayan sonuçları döndürmesine neden olur:
-
-> not(vanilla), not(chocolate)
-
-Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz. Örneğin, hata olmayan iOS sonuçlarını bulmak için bu sorguyu kullanın:
-
-> ios, not(bug)',
   'Closed Tasks' => 'Kapalı Görevler',
   'Add project tags: %s.' => 'Proje etiketi ekle: %s',
   'Into The Expanse' => 'Genişlemenin İçine',
@@ -295,16 +316,20 @@ Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz.
   '%s removed %s member(s): %s.' => '%s, %s üyesini kaldırdı: %s.',
   'Shallows' => 'Sığlar',
   'Configure forms for creating projects.' => 'Proje oluşturmak için formları yapılandırın.',
+  'Project tags incl their milestones (only use with Include None Of!)' => 'Proje etiketleri ve kilometre taşları dahil (yalnızca Hiçbirini Dahil Etme ile kullanın!)',
+  'When a card is dropped into a column that uses this trigger, these actions will be taken.' => 'Bu tetikleyiciyi kullanan bir sütuna bir kart bırakıldığında, bu eylemler gerçekleştirilecektir.',
   'The selected column contains no visible tasks which you have permission to edit.' => 'Seçilen sütun, düzenleme izniniz olan görünür bir görev içermez.',
   '%s activated this project.' => '%s bu projeyi etkinleştirdi.',
   'Information about the project icon.' => 'Proje ikonu hakkında bilgi.',
   'Change Owner' => 'Sahibi Değiştir',
   'Parent Project' => 'Üst Proje',
+  'This is a trigger rule with a valid type ("%s") but an invalid value.' => 'Bu, geçerli bir türe ("%s") sahip ancak geçersiz bir değere sahip bir tetikleyici kuralıdır.',
   'In Any: %s' => 'Herhangi Biri: %s',
   'Choose a column to move tasks to.' => 'Görevleri taşımak için bir sütun seçin.',
   'Glass' => 'Cam',
   'Can Create Projects' => 'Projeler Oluşturabilir',
   'No Movable Tasks' => 'Taşınabilir Görev Yok',
+  'Workload: All %d open tasks are unassigned.' => 'İş yükü: Tüm %d açık görev atanmamış.',
   'Change status to %s.' => 'Durumu %s olarak değiştir.',
   'Create New Project' => 'Yeni Proje Oluştur',
   'Use Parent Background (Default)' => 'Üst Arkaplan Kullan (Varsayılan)',
@@ -318,7 +343,6 @@ Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz.
   '[Project]' => '[Proje]',
   'You can only set a parent or milestone project when creating a project for the first time.' => 'İlk kez bir proje oluştururken yalnızca bir üst veya dönüm noktası projesi belirleyebilirsiniz.',
   'Find results in any of the current viewer\'s projects.' => 'Mevcut izleyicinin projelerinden herhangi birinde sonuçları bulun.',
-  'Add related projects.' => 'İlgili projeler ekleyin.',
   'Type viewerprojects()...' => 'Viewerprojects() yazın...',
   'Your tremendous contributions to this project will be sorely missed. Are you sure you want to leave?' => 'Bu projeye olan muazzam katkılarınız kaçıracaktır. Ayrılmak istediğinden emin misin?',
   'Unknown User ("%s")' => 'Bilinmeyen Kullanıcı ("%s")',
@@ -334,6 +358,8 @@ Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz.
   'You can not add milestones to this project.' => 'Bu projeye kilometre taşları ekleyemezsiniz.',
   'Project tags' => 'Proje etiketleri',
   'You are not a project member, so you do not receive mail sent to members of this project.' => 'Proje üyesi değilsiniz, bu nedenle bu proje üyelerine gönderilen postaları alamazsınız.',
+  'Tasks Reopened' => 'Yeniden Açılan Görevler',
+  'Used on %s and %s other column(s).' => '%s ve diğer %s sütun(lar)da kullanılıyor.',
   'This function allows you to find results associated with any of the projects a specified user is a member of. For example, this will find results associated with all of the projects `%s` is a member of:
 
 %s
@@ -341,14 +367,18 @@ Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz.
 ' => 'Bu işlev, belirli bir kullanıcının üyesi olduğu projelerden herhangi biriyle ilgili sonuçları bulmanıza olanak sağlar. Örneğin bu, `%s` olan tüm projelerle ilgili sonuçları bulacaktır:
 
 %s',
+  'Not Assigned' => 'Atanmamış',
   'Choose a parent project to create a new milestone for.' => 'Yeni bir kilometre taşı oluşturmak için bir üst proje seçin.',
   'You must choose a file when uploading a new project picture.' => 'Yeni bir proje resmi yüklerken bir dosya seçmelisiniz.',
+  'You must select at least one project tag to remove.' => 'Kaldırmak için en az bir proje etiketi seçmelisiniz.',
   'This project is already a milestone, and milestones may not have their own milestones.' => 'Bu proje zaten bir kilometre taşıdır ve kilometre taşları kendi kilometre taşlarına sahip olmayabilir.',
   'Sort by Title' => 'Başlığa göre Sırala',
   'Hide Milestones' => 'Kilometre Taşlarını Gizle',
   'You can not import columns into this workboard because it already has columns. You can only import into an empty workboard.' => 'Zaten sütunlara sahip olduğundan bu çalışma tablasına sütunları içe aktaramazsınız. Yalnızca boş bir çalışma masasına alabilirsiniz.',
   'Only' => 'Yalnızca',
   'Background Color' => 'Arkaplan Rengi',
+  '%s renamed this column from %s to %s.' => '%s bu sütunu %s\'den %s\'e yeniden adlandırdı.',
+  'Tasks Created' => 'Oluşturulan Görevler',
   'View Trigger' => 'Tetikleyiciyi Görüntüle',
   'Join this project? You will become a member and enjoy whatever benefits membership may confer.' => 'Bu projeye katılsın mı? Bir üye olacak ve üyeliğin sağladığı faydaların tadını çıkaracaksınız.',
   'Group by Priority' => 'Önceliğe göre Grupla',
@@ -356,14 +386,20 @@ Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz.
   'Find results which are not tagged with any projects.' => 'Herhangi bir projeyle etiketlenmemiş sonuçları bulun.',
   '%s archived this project.' => '%s bu projeyi arşivledi.',
   'Projects must have a name.' => 'Projelerin bir adı olmalı.',
+  'Hidden Columns' => 'Gizli Sütunlar',
+  'Trigger ruleset is corrupt, rule (of type "%s") does not validate: %s' => 'Tetikleyici kural kümesi bozuk, kural ("%s" türünde) doğrulanmıyor: %s',
+  'Search for objects with specific project PHIDs.' => 'Belirli proje PHID\'lerine sahip nesneleri ara.',
   'Move Tasks to Column...' => 'Görevleri Sütuna Taşı...',
+  'Active Column' => 'Aktif Sütun',
   '%s edited member(s), added %s: %s; removed %s: %s.' => '%s üye düzenlendi, %s eklendi: %s; %s kaldırıldı: %s.',
   'Save Default Filter' => 'Varsayılan Filtreyi Kaydet',
   '%s set the point limit for this column to %s.' => '%s, bu sütunu puan sınırı %s olarak ayarladı.',
+  '%s: Activity' => '%s: Etkinlik',
   'In Any: Invalid Project' => 'Herhangi Biri: Geçersiz Proje',
   'Manage Project' => 'Projeyi Yönet',
   '%s updated this project\'s image from %s to %s.' => '%s, bu projenin resmini %s ile %s güncelledi.',
   'Create a project.' => 'Bir proje oluştur.',
+  'Hidden Column' => 'Gizli Sütun',
   'This function allows you to find results in one of several projects. Another way to think of this function is that it allows you to perform an "or" query.
 
 By default, if you enter several projects, results are returned only if they belong to all of the projects you enter. That is, this query will only return results in //both// projects:
@@ -399,15 +435,41 @@ Sonuçları düzeltmek için `any()` işlevini normal proje belirteçleriyle bir
   'Solid Colors' => 'Düz Renkler',
   'Infrastructure' => 'Altyapı',
   'Edit Trigger' => 'Tetikleyiciyi Düzenle',
+  'Assign task to %s.' => 'Görevi %s\'e ata.',
   'Move to Project' => 'Projeye Taşı',
   'Watching' => 'İzleniyor',
   '%s locked this project\'s membership.' => '%s bu projenin üyeliğini kilitledi.',
   'Project Fields' => 'Proje Alanları',
+  'Used on %s and %s other active column(s).' => '%s ve diğer %s etkin sütun(lar)da kullanılıyor.',
   'The project image ("%s") specified for ("%s") was not found in the folder "resources/builtin/projects/".' => '("%2$s") için belirtilen proje resmi ("%s") klasörde bulunamadı "resources/builtin/projects/".',
+  'Allows you to relabel project colors.
+
+The list of available colors can not be expanded, but the existing colors may
+be given labels.
+
+Configure a list of color specifications. Each color specification should be a
+dictionary, which may contain these keys:
+
+  - `key` //Required string.// The internal key identifying the color.
+  - `name` //Required string.// Human-readable label for the color.
+  - `default` //Optional bool.// Selects the default color used when creating
+    new projects. Exactly one color must be selected as the default.
+
+You can look at the default configuration below for an example of a valid
+configuration.' => 'Proje renklerini yeniden etiketlemenizi sağlar.
+
+Kullanılabilir renklerin listesi genişletilemez, ancak mevcut renklere etiketler verilebilir.',
   'This project has no milestones.' => 'Bu projenin dönüm noktası yoktur.',
   'Project watcher list changes.' => 'Proje izleyici listesi değişiyor.',
   'Users with access may join this project, but may not leave.' => 'Erişimi olan kullanıcılar bu projeye katılabilir, ancak bırakamazlar.',
+  'Associate one or more projects to the object by listing their hashtags. Separate project tags with spaces. For example, use `!projects #ios #feature` to add both related projects.
+
+Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any project tags.' => 'Karma etiketlerini listeleyerek nesneye bir veya daha fazla proje ekleyin. Projeleri boşluklarla ayırın. Örneğin, ilgili projeleri eklemek için `!projects #ios #feature` kullanın.
+
+Geçersiz veya tanınmayan projeler göz ardı edilir. Herhangi bir proje belirtmezseniz bu komutun etkisi olmaz.',
   'Save as Default' => 'Varsayılan Olarak Kaydet',
+  'Update Throughput' => 'Güncelleme Verimi',
+  'Search for projects with particular colors.' => 'Belirli renklere sahip projeleri ara.',
   'Group stuff into big piles.' => 'Büyük yığınlar halinde gruplandırın.',
   'Browse Users and Projects' => 'Kullanıcılara ve Projelere Göz Atın',
   'Add members.' => 'Üye ekle.',
@@ -419,22 +481,26 @@ Sonuçları düzeltmek için `any()` işlevini normal proje belirteçleriyle bir
   'This project has milestones.' => 'Bu projenin kilometre taşları var.',
   'Only Match Other Constraints' => 'Yalnızca Diğer Kısıtlamaları Eşleştir',
   'Can Lock Project Membership' => 'Proje Üyeliğini Kilitleyebilir',
+  'This is an unknown rule of type "%s". An administrator may have edited or removed an extension which implements this rule type.' => 'Bu, "%s" türünde bilinmeyen bir kuraldır. Bir yönetici bu kural türünü uygulayan bir uzantıyı düzenlemiş veya kaldırmış olabilir.',
   'Users with access may join and leave this project.' => 'Erişimi olan kullanıcılar bu projeye katılabilir ve gidebilir.',
   'Hashtags must contain at least one letter or number. %s project hashtag(s) are invalid: %s.' => 'Kareler en az bir harf veya rakam içermelidir. %s proje kareler geçersiz: %s.',
   'Convert to Parent Project' => 'Üst Projeye Dönüştür',
   'Subprojects can be created for this project.' => 'Bu proje için alt projeler oluşturulabilir.',
   'Choose a project to move tasks to.' => 'Görevleri taşımak için bir proje seçin.',
   '%s removed %s project(s): %s.' => '%s, %s projeyi kaldırdı: %s.',
+  'Trigger names must not be longer than %s characters.' => 'Tetikleyici adları %s karakterden uzun olmamalıdır.',
   'Members: ...' => 'Üyeler: ...',
   'Create Milestone' => 'Kilometre Taşı Oluştur',
   'Project %s' => 'Proje %s',
   'Browse Projects' => 'Projelere Göz Atın',
   '%s created this project.' => '%s bu projeyi oluşturdu.',
+  'Expected "newHeaderKeysForObject()" on "%s" to return a map of header keys, but got "%s".' => '"%s" üzerindeki "newHeaderKeysForObject()" işlevinin başlık anahtarlarının bir haritasını döndürmesi bekleniyor, ancak "%s" alındı.',
   'Set project tags, overwriting current value.' => 'Proje etiketlerini ayarlayın, mevcut değerin üzerine yazın.',
   'New project name.' => 'Yeni proje adı',
   'Depths' => 'Derinlikleri',
   'Default Join Policy' => 'Varsayılan Üyelik Politikası',
   'For subprojects and milestones, depth of this project in the tree. Root projects have depth 0.' => 'Alt projeler ve kilometre taşları için, bu projenin ağaçtaki derinliği. Kök projelerin derinliği 0\'dır.',
+  'Coin' => 'Jeton',
   'This project will become active again.' => 'Bu proje tekrar aktif olacak.',
   'Two different colors ("%s", "%s") are marked as the default color. Only one color may be marked as the default.' => 'İki farklı renk ("%s", "%s") varsayılan renk olarak işaretlenmiştir. Varsayılan olarak yalnızca bir renk işaretlenebilir.',
   'Project members can take this action.' => 'Proje üyeleri bu işlemi yapabilir.',
@@ -446,32 +512,36 @@ Sonuçları düzeltmek için `any()` işlevini normal proje belirteçleriyle bir
   'Sound ("%s") is not a valid sound.' => '("%s") sesi geçerli bir ses değil.',
   'Custom Filter' => 'Özel Filtre',
   'Subtype of the project.' => 'Projenin alt türü.',
+  'Used by Columns' => 'Sütunlar Tarafından Kullanılıyor',
   'Additional Hashtags' => 'Ek Kareler',
   'For milestones, milestone sequence number.' => 'Kilometre taşları için, kilometre taşı sıra numarası.',
+  'Priority rule value should be a string, but is not (value is "%s").' => 'Öncelik kuralı değeri bir dize olmalıdır, ancak değil (değer "%s").',
   'Get the member list for the project.' => 'Proje için üye listesini alın.',
   'Get the workboard columns where an object appears.' => 'Bir nesnenin göründüğü çalışma masası sütunlarını alın.',
   'Projects User Guide' => 'Projeler Kullanıcı Kılavuzu',
   'Projects: ...' => 'Projeler: ...',
-  'Add one or more projects to the object by listing their hashtags. Separate projects with spaces. For example, use `!projects #ios #feature` to add both related projects.
-
-Projects which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any projects.' => 'Karma etiketlerini listeleyerek nesneye bir veya daha fazla proje ekleyin. Projeleri boşluklarla ayırın. Örneğin, ilgili projeleri eklemek için `!projects #ios #feature` kullanın.
-
-Geçersiz veya tanınmayan projeler göz ardı edilir. Herhangi bir proje belirtmezseniz bu komutun etkisi olmaz.',
+  'Search for projects with particular members.' => 'Belirli üyelere sahip projeleri ara.',
+  'Find projects with a given minimum depth. Root projects have depth 0, their immediate children have depth 1, and so on.' => 'Verilen minimum derinliğe sahip projeleri bul. Kök projeler 0 derinliğe sahiptir, doğrudan alt öğeleri 1 derinliğine sahiptir ve bu şekilde devam eder.',
   'Group by Status' => 'Duruma göre Grupla',
   'Join Project' => 'Projeye Katıl',
   'This project has subprojects.' => 'Bu projenin alt projeleri var.',
   'Remove projects: %s.' => 'Proje kaldırması: %s.',
   'Root Projects' => 'Kök Projeler',
+  'Restricted Column' => 'Kısıtlı Sütun',
   'Ripe Peach' => 'Olgun Şeftali',
   'Remove Trigger' => 'Tetikleyiciyi Kaldır',
   'Project Ancestors' => 'Proje Ataları',
   'Unwatch Project' => 'Projeyi İzleme',
+  'Show Only Active Triggers' => 'Sadece Aktif Tetikleyicileri Göster',
   'Not In: Invalid Project' => 'Yok: Geçersiz Proje',
   'You can not import columns from that workboard because it has no importable columns.' => 'Alınabilir sütun içermediğinden, o çalışma tablasından sütun alamazsınız.',
+  'Minimum Depth' => 'Minimum Derinlik',
   'This project is a milestone, and milestones may not have subprojects.' => 'Bu proje bir dönüm noktasıdır ve dönüm noktalarının alt projeleri olmayabilir.',
   '%s removed %s project(s) for %s: %s.' => '%s, %3$s için %s proje kaldırdı: %4$s.',
   'Default edit policy for newly created projects.' => 'Yeni oluşturulan projeler için varsayılan düzenleme politikası.',
+  'Trigger ruleset is corrupt: expected a list of rule specifications, found "%s".' => 'Tetikleyici kural kümesi bozuk: kural belirtimlerinin listesi bekleniyor, "%s" bulundu.',
   'User\'s Projects: %s' => 'Kullanıcının Projeleri: %s',
+  'Show Only Inactive Triggers' => 'Sadece Pasif Tetikleyicileri Göster',
   'Users must be able to see a project to see its board.' => 'Kullanıcılar, yönetim kurulunu görmek için bir proje görebilmelidir.',
   'Can Not Hide Default Column' => 'Varsayılan Sütunu Gizleyemezsiniz',
   'This function allows you to find results for any of the members of a project:
@@ -481,9 +551,14 @@ Geçersiz veya tanınmayan projeler göz ardı edilir. Herhangi bir proje belirt
 > members(frontend)',
   'Workboard Already Has Columns' => 'Çalışma Masasında Sütunlar Zaten Var',
   'Project History' => 'Proje Geçmişi',
+  'Move Tasks to Project' => 'Görevleri Projeye Taşı',
   'Browse Viewer Projects' => 'Görüntüleyici Projelerine Göz Atın',
+  'Allows you to define project subtypes. For a more detailed description of
+subtype configuration, see @{config:maniphest.subtypes}.' => 'Proje alt türlerini tanımlamanıza olanak tanır.',
+  'See full report.' => 'Tam raporu gör.',
   'Locked Project' => 'Kilitli Proje',
   'Not In: ...' => 'Değil: ...',
+  '%s changed the point limit for this column from %s to %s.' => '%s bu sütunun puan sınırını %s\'den %s\'e değiştirdi.',
   'Fullscreen' => 'Tam ekran',
   'Project colors must include one color marked as the "%s" color, but no such color exists.' => 'Proje renkleri, "%s" rengi olarak işaretlenmiş bir renk içermelidir, ancak böyle bir renk yoktur.',
   'Change Background Color' => 'Arka Plan Rengini Değiştir',
@@ -496,8 +571,10 @@ Geçersiz veya tanınmayan projeler göz ardı edilir. Herhangi bir proje belirt
   'Type a project subtype name...' => 'Bir proje alt adı yazın...',
   'Group by Author' => 'Yazara göre Grupla',
   'Show Hidden Columns' => 'Gizli Sütunları Göster',
+  'Search constraint "minDepth" must be no larger than search constraint "maxDepth".' => 'Arama kısıtlaması "minDepth", "maxDepth" arama kısıtlamasından büyük olmamalıdır.',
   'Show Column' => 'Sütunu Göster',
   'Set Board Default Filter' => 'Pano Varsayılan Filtresini Ayarla',
+  'Change project tags.' => 'Proje slugları değiştirin.',
   'Execute searches for Projects.' => 'Projeler için arama yapın.',
   'You must choose a project with a workboard.' => 'Bir çalışma tahtası ile bir proje seçmelisiniz.',
   '(Unknown Rule)' => '(Bilinmeyen Kural)',
@@ -511,34 +588,69 @@ Geçersiz veya tanınmayan projeler göz ardı edilir. Herhangi bir proje belirt
   'Tagged with Project' => 'Proje ile Etiketlendi',
   'The project the column belongs to.' => 'Sütunun ait olduğu proje.',
   'Trigger Rules' => 'Tetikleme Kuralları',
+  'Owner rule value must have only one elmement (value is "%s").' => 'Sahip kuralı değeri yalnızca bir öğeye sahip olmalıdır (değer "%s").',
   'Looks Like' => 'Benzeri',
   'Project icons must include one icon marked with special attribute "%s", but no such icon exists.' => 'Proje simgeleri, "%s" özel özniteliğine sahip bir simge içermelidir, ancak böyle bir simge yoktur.',
   '%s added %d %s hashtag(s): %s.' => '%s, %d %s kare eklendi: %s.',
   'Adjust project icons.' => 'Proje simgelerini ayarlayın.',
+  '%s set the column trigger to %s.' => '%s sütun tetikleyicisini %s olarak ayarladı.',
   '%s edited member(s) for %s, added %s: %s; removed %s: %s.' => '%s, %s için üye düzenlendi, %s eklendi: %s; %s kaldırıldı: %s.',
   'Bugs' => 'Hatalar',
   'Add Members' => 'Üye Ekle',
   'Choose Icon and Color...' => 'Simge ve Renk Seçin...',
   'No projects found.' => 'Proje bulunamadı.',
   '%s disabled the workboard for this project.' => '%s, bu proje için çalışma alanını devre dışı bıraktı.',
+  'Count Limit' => 'Sayı Sınırı',
   'Select and reorder project fields.' => 'Proje alanlarını seçin ve yeniden sıralayın.',
   'Watchers' => 'İzleyiciler',
+  'Trigger ruleset is corrupt: rule type "%s" is unknown.' => 'Tetikleyici kural kümesi bozuk: "%s" kural türü bilinmiyor.',
+  'Workload: %d of %d open tasks are assigned to %d people.' => 'İş yükü: %2$d açık görevin %d\'i %3$d kişiye atanmış.',
+  'This is a trigger rule with a unknown type ("%s").' => 'Bu, bilinmeyen bir türe ("%s") sahip tetikleyici kuralıdır.',
   'Parent or milestone project PHID ("%s") must be the PHID of a valid, visible project which you have permission to edit.' => 'Üst veya dönüm noktası projesi PHID ("%s") düzenleme izniniz olan geçerli ve görünür bir projenin PHID değeri olmalıdır.',
+  'Move to milestone %s.' => '%s kilometre taşına taşı.',
   'Remove project tags' => 'Proje etiketlerini kaldırın',
   'Project icons must include one icon marked as the "%s" icon, but no such icon exists.' => 'Proje simgeleri, "%s" simgesi olarak işaretlenmiş bir simge içermelidir, ancak böyle bir simge yoktur.',
   'Make the current sort order the new default order for this board? All users will see the new order as the default when they view the board.' => 'Geçerli sıralama düzenini bu pano için yeni varsayılan düzen yapılsın mı? Tüm kullanıcılar panoyu görüntülerken yeni sırayı varsayılan olarak görecekler.',
+  'Search for projects with particular watchers.' => 'Belirli izleyicilere sahip projeleri ara.',
   '%s unlocked this project\'s membership.' => '%s, bu projenin üyeliğinin kilidini açtı.',
   'Workboard Disabled' => 'Çalışma Tahtası Devre Dışı',
   'Add project tags.' => 'Proje etiketleri ekleyin.',
   '%s project hashtag(s) are already used by other projects: %s.' => '%s proje karesi zaten diğer projeler tarafından kullanılıyor: %s.',
+  'Workload: All %d open tasks are assigned to %d people.' => 'İş yükü: Tüm %d açık görev %d kişiye atanmış.',
   'The project icon ("%s") with special attribute "%s" must not be disabled' => '"%2$s" özel özelliğine sahip proje simgesi ("%s") devre dışı bırakılmamalıdır',
   'Sort by Points' => 'Puana göre Sırala',
   '%s enabled the workboard for this project.' => '%s, bu proje için çalışma alanını etkinleştirdi.',
   'Disable Project Mail' => 'Proje Postasını Devre Dışı Bırak',
+  'Remove task assignee.' => 'Görev sorumlusunu kaldır.',
+  'User PHID ("%s") is not a valid user.' => 'Kullanıcı PHID ("%s") geçerli bir kullanıcı değil.',
+  'Primary hashtag.' => 'Birincil slug/kare.',
+  'Trigger' => 'Tetikleyici',
   'Show Only Active Projects' => 'Yalnızca Etkin Projeleri Göster',
   'Archive Subproject' => 'Alt Projeyi Arşivle',
-  'Choose a project to import columns from:' => 'Sütunları içe aktarmak için bir proje seçin:',
+  'Move to column %s.' => '%s sütununa taşı.',
   'PHID of the parent project.' => 'Ana projenin PHID\'si.',
+  'Allows you to change and customize the available project icons.
+
+You can find a list of available icons in {nav UIExamples > Icons and Images}.
+
+Configure a list of icon specifications. Each icon specification should be
+a dictionary, which may contain these keys:
+
+  - `key` //Required string.// Internal key identifying the icon.
+  - `name` //Required string.// Human-readable icon name.
+  - `icon` //Required string.// Specifies which actual icon image to use.
+  - `image` //Optional string.// Selects a default image. Select an image from
+    `resources/builtins/projects/`.
+  - `default` //Optional bool.// Selects a default icon. Exactly one icon must
+    be selected as the default.
+  - `disabled` //Optional bool.// If true, this icon will no longer be
+    available for selection when creating or editing projects.
+  - `special` //Optional string.// Marks an icon as a special icon:
+    - `milestone` This is the icon for milestones. Exactly one icon must be
+      selected as the milestone icon.
+
+You can look at the default configuration below for an example of a valid
+configuration.' => 'Kullanılabilir proje simgelerini değiştirmenize ve özelleştirmenize olanak tanır.',
   'Project name generates the same hashtag ("%s") as another existing project. Choose a unique name.' => 'Proje adı, mevcut başka bir proje ile aynı karesi ("%s") oluşturur. Benzersiz bir ad seçin.',
   'Project names must contain at least one letter or number.' => 'Proje isimleri en az bir harf veya rakam içermelidir.',
   'This function matches results in any of the current viewing user\'s projects:
@@ -555,28 +667,62 @@ Bu normalde projeleriniz anlamına gelir, ancak bu işlevi kullanarak bir sorguy
   '%s changed project hashtag(s), added %d: %s; removed %d: %s.' => '%s proje karesini değiştirdi, %d eklendi: %s; %d kaldırıldı: %s.',
   'Icon special attribute "%s" is not valid. Recognized special attributes are: %s.' => 'Simge özel "%s" özniteliği geçerli değil. Tanınan özel nitelikler: %s.',
   'Bulk Edit Tasks...' => 'Toplu Görevleri Düzenle...',
-  'This method is frozen and will eventually be deprecated. New code should use "project.search" instead.' => 'Bu yöntem donmuş ve sonunda kullanımdan kaldırılacak. Yeni kod yerine "project.search" kullanmalıdır.',
+  'This trigger has no rules.' => 'Bu tetikleyicinin kuralı yok.',
+  '%s removed the trigger for this column (was %s).' => '%s bu sütunun tetikleyicisini kaldırdı (%s idi).',
   '%d day(s)' => '%d gün',
   'Import board columns from another project.' => 'Başka bir projeden pano sütunlarını içe aktar.',
   'Select project members.' => 'Proje üyelerini seçin.',
   'Remove %s as a watcher of %s?' => '%s bir izleyici olarak %s kaldırılsın mı?',
   '%s changed the background color of the project workboard.' => '%s proje çalışma masasının arka plan rengini değiştirdi.',
+  'Expected "newSortVectorsForObjects()" on "%s" to return a map of vectors, but got "%s".' => '"%s" üzerindeki "newSortVectorsForObjects()" işlevinin vektörlerin bir haritasını döndürmesi bekleniyor, ancak "%s" alındı.',
+  'List of custom fields for project tags.
+
+For details on adding new fields, see [[ %s | %s ]] in the
+documentation.' => 'Proje etiketleri için özel alanların listesi.
+
+Yeni alanlar ekleme hakkında ayrıntılar için belgelerdeki [[ %s | %s ]] bölümüne bakın.',
   'Workboard: %s' => 'Çalışma tahtası: %s',
   'This project does not have any members.' => 'Bu projenin hiç üyesi yok.',
   'Define project subtypes.' => 'Proje alt tiplerini tanımlayın.',
+  'Move Tasks to Column' => 'Görevleri Sütuna Taşı',
   'You can not hide the default/backlog column on a board.' => 'Bir tahtadaki varsayılan/geri günlük sütununu gizleyemezsiniz.',
   'Read information about workboard columns.' => 'Çalışma panosu sütunları hakkında bilgi edinin.',
+  'This function allows you to find results which are not tagged with one or more projects. For example, use this query to find results which are not associated with a specific project:
+
+> not(vanilla)
+
+You can exclude multiple projects. This will cause the query to return only results which are not in any of the excluded projects:
+
+> not(vanilla), not(chocolate)
+
+You can combine this function with other functions to refine results. For example, use this query to find iOS results which are not bugs:
+
+> ios, not(bug)' => 'Bu işlev, bir veya daha fazla projede bulunmayan sonuçları bulmanıza izin verir. Örneğin, belirli bir projeyle ilişkili olmayan sonuçları bulmak için bu sorguyu kullanın:
+
+> not(vanilla)
+
+Birden fazla projeyi hariç tutabilirsiniz. Bu, sorgunun yalnızca dışlanan projelerden hiçbirinde bulunmayan sonuçları döndürmesine neden olur:
+
+> not(vanilla), not(chocolate)
+
+Sonuçları daraltmak için bu işlevi diğer işlevlerle birleştirebilirsiniz. Örneğin, hata olmayan iOS sonuçlarını bulmak için bu sorguyu kullanın:
+
+> ios, not(bug)',
   'When mail is sent to members of this project, you will no longer receive a copy.' => 'Bu projenin üyelerine posta gönderildiğinde, artık bir kopya almayacaksınız.',
   'Make the current filter the new default filter for this board? All users will see the new filter as the default when they view the board.' => 'Mevcut filtreyi bu pano için yeni varsayılan filtre yapılsın mı? Tüm kullanıcılar, panoyu görüntülerken yeni filtreyi varsayılan olarak göreceklerdir.',
+  '%s renamed this trigger from %s to %s.' => '%s bu tetikleyiciyi %s\'den %s\'e yeniden adlandırdı.',
   'Get the watcher list for the project.' => 'Proje için izleyici listesini alın.',
+  'Tasks Moved Out of Project' => 'Projeden Çıkarılan Görevler',
   'Project names must not be longer than %s character(s).' => 'Proje adları %s karakterden uzun olmamalıdır.',
   'Default join policy for newly created projects.' => 'Yeni oluşturulan projeler için varsayılan katılım politikası.',
+  '%s stripped the name %s from this trigger.' => '%s, %s adını bu tetikleyiciden kaldırdı.',
+  'Project tags removed' => 'Proje etiketleri kaldırıldı',
   'Play sound %s.' => '%s sesini oynat.',
   'Search for objects tagged with given projects.' => 'Verilen projelerle etiketlenmiş nesneleri arayın.',
   'Create Column' => 'Sütun Oluştur',
+  'Choose a valid project to move tasks to.' => 'Görevleri taşımak için geçerli bir proje seçin.',
   'Change Project Tags' => 'Proje Etiketlerini Değiştir',
   '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s, %s için proje düzenlendi, %s eklendi: %s; %s kaldırıldı: %s.',
-  'Change project slugs.' => 'Proje slugları değiştirin.',
   'Project colors must have unique keys, but two icons share the same key ("%s").' => 'Proje renkleri benzersiz anahtarlara sahip olmalı, ancak iki simge aynı anahtarı paylaşıyor ("%s").',
   'Type members(<project>)...' => 'Üye yazın(<proje>)...',
   'Project name.' => 'Proje adı.',
@@ -586,7 +732,10 @@ Bu normalde projeleriniz anlamına gelir, ancak bu işlevi kullanarak bir sorguy
   'Color key "%s" is not a valid color key. The supported color keys are: %s.' => '"%s" renk tuşu geçerli bir renk anahtarı değil. Desteklenen renk tuşları: %s.',
   'Age Distribution:' => 'Yaş Dağılımı:',
   'Type "not tagged with any projects"...' => '"Hiçbir projeyle etiketlenmemiş" yazın...',
+  'Add project rule value should be a list, but is not (value is "%s").' => 'Proje ekleme kuralı değeri bir liste olmalıdır, ancak değil (değer "%s").',
   'Project name, hashtags, icon, image, or color changes.' => 'Proje adı, kareler, ikon, resim veya renk değişiklikleri.',
+  'Used on %s active column(s).' => '%s etkin sütun(lar)da kullanılıyor.',
+  'True if this is the default column.' => 'Bu varsayılan sütunsa doğru.',
   'Milestones' => 'Kilometre Taşları',
   'Configure Project Forms' => 'Proje Formlarını Yapılandır',
   '%s removed %d project member(s): %s.' => '%s, %d proje üyesini kaldırdı: %s.',
@@ -597,6 +746,7 @@ Bu normalde projeleriniz anlamına gelir, ancak bu işlevi kullanarak bir sorguy
   'Natural' => 'Doğal',
   'For subprojects and milestones, a brief description of the parent project.' => 'Alt projeler ve kilometre taşları için ana projenin kısa bir açıklaması.',
   'Parent projects and milestones do not support adding members. You can add members directly to any non-parent subproject.' => 'Ana projeler ve kilometre taşları üye eklemeyi desteklememektedir. Herhangi bir üst ana projeye doğrudan üye ekleyebilirsiniz.',
+  'Pass true to find only root projects, or false to omit root projects.' => 'Yalnızca kök projeleri bulmak için true veya kök projeleri hariç tutmak için false aktarın.',
   '%s set this project\'s icon to %s.' => '%s bu projenin simgesini %s olarak ayarladı.',
   'Add projects: %s.' => 'Proje eklemesi: %s.',
   'Project Points' => 'Proje Puanları',
@@ -609,23 +759,40 @@ Bu normalde projeleriniz anlamına gelir, ancak bu işlevi kullanarak bir sorguy
   'Project depth is too great.' => 'Proje derinliği çok fazla.',
   '%s removed the custom name of this column.' => '%s, bu sütunun özel adını kaldırdı.',
   'Remove %s as a project member of %s?' => '%s proje üyesi %s olarak kaldırılsın mı?',
+  'This column does not have a trigger.' => 'Bu sütunun tetikleyicisi yok.',
+  'Show Only Root Projects' => 'Sadece Kök Projeleri Göster',
+  'Search for projects with particular icons.' => 'Belirli simgelere sahip projeleri ara.',
   'You do not have permission to lock project membership.' => 'Proje üyeliğini kilitleme izniniz yok.',
+  'Edit Trigger: %s' => 'Tetikleyiciyi Düzenle: %s',
+  '%s named this trigger %s.' => '%s bu tetikleyiciyi %s olarak adlandırdı.',
+  'Column names must not be longer than %s characters.' => 'Sütun adları %s karakterden uzun olmamalıdır.',
   'Members and Watchers' => 'Üyeler ve İzleyiciler',
   'You can not add subprojects to this project.' => 'Bu projeye alt projeler ekleyemezsiniz.',
+  '%s: Burnup / Burndown Rate' => '%s: Tükenme Grafiği',
   'Remove Member' => 'Üyeyi Kaldır',
   'Unable to Create Workboard' => 'Çalışma Masası Oluşturulamıyor',
-  'Removed Projects' => 'Projeleri Kaldır',
   '%s Subprojects' => '%s Alt Proje',
   'Disable Mail' => 'Postayı Devre Dışı Bırak',
   'Week' => 'Hafta',
-  'Slugs' => 'Sluglar',
+  'Tasks resolved this %s: %d' => 'Bu %s çözümlenen görevler: %d',
+  'Milestone Name' => 'Kilometre Taşı Adı',
   'Move Tasks' => 'Görevleri Taşı',
   '%s set the icon for %s to %s.' => '%s, simgesini %s ile %s ayarlandı.',
+  'You must select at least one user or project tag to add.' => 'Eklemek için en az bir kullanıcı veya proje etiketi seçmelisiniz.',
   'Watching a project will let you monitor it closely. You will receive email and notifications about changes to every object tagged with projects you watch.' => 'Bir projeyi izlemek onu yakından izlemenize izin verecektir. İzlediğiniz projelerle etiketlenen her nesnede yapılan değişikliklerle ilgili e-posta ve bildirimler alacaksınız.',
+  '%s unhid this column.' => '%s bu sütunun gizliliğini kaldırdı.',
+  'Visible Columns' => 'Görünür Sütunlar',
+  'Task priority value ("%s") is not a valid task priority. Valid priorities are: %s.' => 'Görev önceliği değeri ("%s") geçerli bir görev önceliği değil. Geçerli öncelikler: %s.',
   'Play sound' => 'Sesi oynat',
   'Browse Only' => 'Yalnızca Göz At',
+  'This rule (of type "%s") is invalid: %s' => 'Bu kural ("%s" türünde) geçersiz: %s',
   '%s removed %d %s hashtag(s): %s.' => '%s, %d %s kare kaldırıldı: %s.',
+  'Change priority to %s.' => 'Önceliği %s olarak değiştir.',
+  'Throughput' => 'Verim',
+  'Used on %s column(s).' => '%s sütun(lar)da kullanılıyor.',
+  'Really remove the trigger from this column?' => 'Tetikleyici bu sütundan gerçekten kaldırılsın mı?',
   '%s edited %s project(s), added %s: %s; removed %s: %s.' => '%s, %s projeyi düzenledi, %s eklendi; %s; %s kaldırıldı: %s.',
+  'Save Trigger' => 'Tetikleyiciyi Kaydet',
   'Configuration must be a list of project icon specifications.' => 'Yapılandırma, proje simgesi özelliklerinin bir listesi olmalıdır.',
   'Enable Workboard' => 'Çalışma Alanını Etkinleştir',
   'Previous Milestone' => 'Önceki Kilometre Taşı',

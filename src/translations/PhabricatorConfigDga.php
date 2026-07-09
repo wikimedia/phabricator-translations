@@ -9,6 +9,32 @@ final class PhabricatorConfigDga
 
   protected function getTranslations() {
     return array(
+  'When a user takes an action which generates an email notification (like
+commenting on a Differential revision), the "From" address can either be set
+to the user\'s email address (like "alincoln@example.com") or the
+"metamta.default-address" address.
+
+The user experience is generally better if the user\'s real address is used as
+the "From" header value, since the messages are easier to organize when they
+appear in mail clients, but this will only work if the server is authorized to
+send email on behalf of the "From" domain. Practically, this means:
+
+  - If you are doing an install for Example Corp and all the users will have
+    corporate @corp.example.com addresses and any hosts this software is running
+    on are authorized to send email from corp.example.com, you can enable this
+    to make the user experience a little better.
+  - If you are doing an install for an open source project and your users will
+    be registering via third-party services and/or using personal email
+    addresses, you probably should not enable this or all of your outgoing
+    email might vanish into SFP blackholes.
+  - If your install is anything else, you\'re safer leaving this off, at least
+    initially, since the risk in turning it on is that your outgoing mail will
+    never arrive.' => 'Ka tontona wa e eebo ka o yi neŋ eemail teɛre ma (Aŋa kɔmɛnterɛ tɛɛtɛɛ leɛkaabo eŋɛ), a \'\'From\'\' adrɛse na baŋ sɛte la ka a tontona eemail adrɛse (aŋa \'\'alincoln@logcabin.com\'\') bee a \'\'metamta.defualt-address\'\' adrɛse.
+
+A tontona dannyaa na soma la yaga zaa ka a o toma meŋɛ adrɛse na e a \'\'From\'\' zu tegeroŋ, a yi a duoro narebo naŋ na e laanfeɛ ka ana wa be a mail kilayane poɔ, kyɛ aŋaa na e la ka ona wa tere sori ka a sɛva toɔle eemail a \'\'From\'\' gbɛbogiri vuoŋ. A eeboŋ, ŋaa wuli ka:
+ - ka fõõ wa erɛ furi-kyɛ aseŋ Corp, a Tontonne ba zaa na e la boŋyeni @Corp.example.com adrɛse ane gbulo zaa a sɔtwaɛ ŋa naŋ kaara na tere la sori ka o toɔle eemail yi Corp.example.com, fo na baŋ e la a ŋaa a vɛŋ ka tontona dannyaa taa zɛgeroŋ fẽẽ.
+ -ka fõõ wa erɛ furi-kyɛ ko yuo yizie progyɛte ka fo Tontonne ba na irigyisi yi zie kaŋa sɛɛvisi ane/bee ba menne eemail adrɛse, a ba seŋ ka fo eŋ a ŋa ka lɛ naane fo eemail toɔle zaa na bɔre la kpɛ SFP dansarka.
+ -ka furi-kyɛ wa e boŋkaŋa zaa, fo ba taa dabeɛŋ o barebo ka a pɔge a piiluu eŋɛ, saŋa na o emmo tɔɔrɔ naŋ na e, a fo mail toɔle naŋ daŋ koŋ ta.',
   'When users write comments which have URIs, they will be automatically turned into clickable links if the URI protocol appears in this set.
 
 This set of allowed protocols is primarily intended to prevent security issues with "javascript:" and other potentially dangerous URI handlers.
@@ -49,48 +75,9 @@ A meŋ naŋ baŋ e la (kyɛ ba e) ka a saseɛ mie mine (aŋa tuori sentaa)  boɔ
 
 Sɔroo ferɛ la ka a taa \'\'Hoosi\'\' velaa yelzu.',
   'The request body that was sent began:' => 'A sɔroo eŋene na naŋ toɔle gaa piilee:',
-  'IMPORTANT: The upstream does not provide support for prototype applications.
-
-This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are not installed, because they are often not yet developed enough to be generally usable. You can enable this option to install them if you\'re developing applications or are interested in previewing upcoming features.
-
-To learn more about prototypes, see [[ %s | %s ]].
-
-After enabling prototypes, you can selectively uninstall them (like normal applications).' => 'IMPORTANT: A apstriŋ ba tere teɛbo ko prototape aplikaasinne.
-
-A laŋgbuli ŋa paale la prototape aplikaasinne naŋ e **baabo piiluu dare**. Aŋ difilati, prototape aplikaasinne furi, bonzuiŋ a naŋ ba maŋ baa yaga na e yaga de toŋ toma. Fo na baŋ eŋ la a kaairuu ŋa na furi a ka foŋ baara aplikaasinne bee taa enyuo na e nandaare naŋ na wa leɛkaabo.
-
-Ka foŋ na zanne yɛlɛ yaga kyaare prototapes, nyɛ [[ %s | %s ]].
-
-Ka foŋ wa eŋ prototapes baare, fo na baŋ kaa la iri e ba furi a kyɛ (aŋa aplikaasiŋ sennaa).',
   'The best available MYSQL implementation is now selected automatically.' => 'A bonsoŋ naŋ bebe MYSQL de tontoma maŋ kaa iri la omeŋɛ pampana.',
   'Alternative URIs that can access this service.' => 'URIs mine naŋ na toɔŋ pɔge a saseɛ miri ŋa',
   'This server is not configured in cluster mode.' => 'A tonton boma naŋ ba leɛrɛ',
-  'When a user takes an action which generates an email notification (like
-commenting on a Differential revision), the "From" address can either be set
-to the user\'s email address (like "alincoln@logcabin.com") or the
-"metamta.default-address" address.
-
-The user experience is generally better if the user\'s real address is used as
-the "From" header value, since the messages are easier to organize when they
-appear in mail clients, but this will only work if the server is authorized to
-send email on behalf of the "From" domain. Practically, this means:
-
-  - If you are doing an install for Example Corp and all the users will have
-    corporate @corp.example.com addresses and any hosts this software is running
-    on are authorized to send email from corp.example.com, you can enable this
-    to make the user experience a little better.
-  - If you are doing an install for an open source project and your users will
-    be registering via third-party services and/or using personal email
-    addresses, you probably should not enable this or all of your outgoing
-    email might vanish into SFP blackholes.
-  - If your install is anything else, you\'re safer leaving this off, at least
-    initially, since the risk in turning it on is that your outgoing mail will
-    never arrive.' => 'Ka tontona wa e eebo ka o yi neŋ eemail teɛre ma (Aŋa kɔmɛnterɛ tɛɛtɛɛ leɛkaabo eŋɛ), a \'\'From\'\' adrɛse na baŋ sɛte la ka a tontona eemail adrɛse (aŋa \'\'alincoln@logcabin.com\'\') bee a \'\'metamta.defualt-address\'\' adrɛse.
-
-A tontona dannyaa na soma la yaga zaa ka a o toma meŋɛ adrɛse na e a \'\'From\'\' zu tegeroŋ, a yi a duoro narebo naŋ na e laanfeɛ ka ana wa be a mail kilayane poɔ, kyɛ aŋaa na e la ka ona wa tere sori ka a sɛva toɔle eemail a \'\'From\'\' gbɛbogiri vuoŋ. A eeboŋ, ŋaa wuli ka:
- - ka fõõ wa erɛ furi-kyɛ aseŋ Corp, a Tontonne ba zaa na e la boŋyeni @Corp.example.com adrɛse ane gbulo zaa a sɔtwaɛ ŋa naŋ kaara na tere la sori ka o toɔle eemail yi Corp.example.com, fo na baŋ e la a ŋaa a vɛŋ ka tontona dannyaa taa zɛgeroŋ fẽẽ.
- -ka fõõ wa erɛ furi-kyɛ ko yuo yizie progyɛte ka fo Tontonne ba na irigyisi yi zie kaŋa sɛɛvisi ane/bee ba menne eemail adrɛse, a ba seŋ ka fo eŋ a ŋa ka lɛ naane fo eemail toɔle zaa na bɔre la kpɛ SFP dansarka.
- -ka furi-kyɛ wa e boŋkaŋa zaa, fo ba taa dabeɛŋ o barebo ka a pɔge a piiluu eŋɛ, saŋa na o emmo tɔɔrɔ naŋ na e, a fo mail toɔle naŋ daŋ koŋ ta.',
   'The current configuration has these %d value(s):' => 'Pampana ŋa leɛrɛɛ taa la %d tegroo',
   'On database host "%s", the global "sql_mode" setting does not include the "STRICT_ALL_TABLES" mode. Enabling this mode is recommended to generally improve how MySQL handles certain errors.
 
@@ -172,6 +159,19 @@ configuring fulltext search clusters, see **[[ %s | %s ]]** in the
 documentation.' => 'Wuli boyine bee gaŋ lɛ a yɛlɛ biŋ zie. Zie ŋa lɛ ka fo naŋ baŋ leɛ a 
 A de niŋɛ soba na taa bonzaa zomzom lɛ. Ka fooŋ boɔra sommo kyaare neŋ  a yɛlɛ bɔɔbo, kaa **[[ %s | %s ]]** a gampɛle poɔ.',
   'Manage extensions.' => 'Maale tag-gaa',
+  'IMPORTANT: The upstream does not provide support for prototype applications.
+
+This platform includes prototype applications which are in an **early stage of development**. By default, prototype applications are disabled, because they are often not yet developed enough to be generally usable. You can enable this option to enable them if you\'re developing applications or are interested in previewing upcoming features.
+
+To learn more about prototypes, see [[ %s | %s ]].
+
+After enabling prototypes, you can selectively disable them (like normal applications).' => 'IMPORTANT: A apstriŋ ba tere teɛbo ko prototape aplikaasinne.
+
+A laŋgbuli ŋa paale la prototape aplikaasinne naŋ e **baabo piiluu dare**. Aŋ difilati, prototape aplikaasinne furi, bonzuiŋ a naŋ ba maŋ baa yaga na e yaga de toŋ toma. Fo na baŋ eŋ la a kaairuu ŋa na furi a ka foŋ baara aplikaasinne bee taa enyuo na e nandaare naŋ na wa leɛkaabo.
+
+Ka foŋ na zanne yɛlɛ yaga kyaare prototapes, nyɛ [[ %s | %s ]].
+
+Ka foŋ wa eŋ prototapes baare, fo na baŋ kaa la iri e ba furi a kyɛ (aŋa aplikaasiŋ sennaa).',
   'Storage engines are now discovered automatically at runtime.' => 'Stɔɔragye mansime be la wagerediibo a meŋɛ pampana.',
   'This software appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. This software regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => 'A saseɛ miri ŋa wuli ka o be la a EC2 bile poɔ(a klaasi "%s") neŋ CPU naŋ na baŋ puri. Ŋaa maŋ saana poteɛre yɛlɛ. A saseɛ miri ŋa maŋ derɛ boɔrɔ la CPU, kyɛ a ama maŋ tasɔga paale a zaa a kpi neŋ CPU sigibo. De CPU meŋɛ a tonne a toma.',
   'Daemons no longer use PID files.' => 'Daemons ba la tona neŋ PID boma',
@@ -592,27 +592,6 @@ A iruŋ ŋa boɔbo la ka o sage boma mine deterebo, zideyiraa kaŋa, tage yiibu 
 
 
 Ka fooŋ ba tona neŋ a nambare ama a vɛŋ a enyɛ kombaŋ baare paaloŋ, tontnneba koŋ nyɛ email yɛlɛ a saŋa na a enyɛ eebo ane maale kore a saŋa na a maaloo eebo zaa naŋ tona toma.',
-  'The base URI for this install is not configured, and major features will not work properly until you configure it.
-
-You should set the base URI to the URI you will use to access this server, like "http://devtools.example.com/".
-
-Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
-
-Based on this request, it appears that the correct setting is:
-
-%s
-
-To configure the base URI, run the command shown below.' => 'A beesi URI ko a fur-kyɛ ŋa ba konfigie, ane nanda zuri koŋ toŋ soŋ te ta ka fo wa konfigie o.
-
-A seŋ ka fo sɛte a URI foŋ na de asɛɛse ne a sɛva ŋa, aseŋ "http://devtools.example.com/".
-
-Paale a protokɔl (http or https), laŋgbuli yuori, ane a pɔɔte numba ka foŋ wa tona ne pɔɔte gaŋ 80 (http) bee 443 (https).
-
-A are a iriquisi ŋa eŋɛ, a e ŋa a sɛgeroo soŋ la:
-
-%s
-
-Ka foŋ na konfigie a beesi URI, e a tannoo naŋ wuli a puli.',
   'Databases are created in a namespace, which defaults to \'phabricator\' -- for instance, the Differential database is named \'phabricator_differential\' by default. You can change this namespace if you want. Normally, you should not do this unless you are developing extensions and using namespaces to separate multiple sandbox datasets.' => 'Daata-baasiri maale la a yoe-voe, ka defaali ko \'fabirika\' --ko pampana, a daata-baasi tɛɛtɛɛ e la defaali. Fo naŋ toɔŋ leɛre la yoe-voe ka fooŋ boɔrɔ. Gbɛɛ yaga, a ba seŋ ka fo e ŋaa ka fooŋ ba maala yɔllɔɔ kyɛ tona neŋ yoe-voe a yineŋ a sɛndi voe daata sɛɛtere.',
   'If you have multiple %s environments (like a development/staging environment and a production environment), set the production environment URI here so that emails and other durable URIs will always generate with links pointing at the production environment. If unset, defaults to `%s`. Most installs do not need to set this option.' => 'Ko fõõ taa boŋyaga %s gbaŋgbale (like a development/staging environment and a production environment), sɛte a maaloo gbaŋgbale URI kyɛ a lɛ na ka eemail ane doorabol URIs mine na maŋ gyɛnerate wagere zaa ne liŋkere na teɛŋ tɔgle a maaloo gbaŋgbale. Ka fõõ ba wa sɛte, difiliti ga `%s`. Furi kyɛ yaga ba seŋ ka a sɛte a dabi-bogi ŋa.',
   'Users can make requests to other services from service hosts in some circumstances (for example, by creating a repository with a remote URL).
@@ -676,6 +655,27 @@ E a nyɛ:',
 If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'KPAABO: ŋa eɛ la nimitɔɔre iruŋ, a naŋ tõɔ toŋ daana boɔba kpaaroo zona.
 
 Ka fooŋ bo pampana iri iribe zie na ( ka fo neŋ de \'%s\' paale neŋ), a saseɛ mie naŋ de toɔle ko la zubili mine kyɛ kyage neŋ \'%s\' tendaa yɛlɛ.',
+  'The base URI for this install is not configured, and major features will not work properly until you configure it.
+
+You should set the base URI to the URI you will use to access this server, like "https://devtools.example.com/".
+
+Include the protocol (http or https), domain name, and port number if you are using a port other than 80 (http) or 443 (https).
+
+Based on this request, it appears that the correct setting is:
+
+%s
+
+To configure the base URI, run the command shown below.' => 'A beesi URI ko a fur-kyɛ ŋa ba konfigie, ane nanda zuri koŋ toŋ soŋ te ta ka fo wa konfigie o.
+
+A seŋ ka fo sɛte a URI foŋ na de asɛɛse ne a sɛva ŋa, aseŋ "http://devtools.example.com/".
+
+Paale a protokɔl (http or https), laŋgbuli yuori, ane a pɔɔte numba ka foŋ wa tona ne pɔɔte gaŋ 80 (http) bee 443 (https).
+
+A are a iriquisi ŋa eŋɛ, a e ŋa a sɛgeroo soŋ la:
+
+%s
+
+Ka foŋ na konfigie a beesi URI, e a tannoo naŋ wuli a puli.',
   'Arbitrarily large files are now supported. Consult the documentation for configuration details.' => 'Faali kponne paaŋ tona la. Pɔge a boma a konfigere tɔɔlɛ',
   'Without \'%s\', this software will not be able to generate or render diffs in multiple applications.' => 'Ka \'%s\' ba kye, a saseɛ miri ŋa  koŋ baŋ toŋ toma bee nyɛɛ tɛɛtɛɛloŋ a boɔbo saŋa',
   'Send as %s' => 'De ko o aŋa %s',

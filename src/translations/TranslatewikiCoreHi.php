@@ -10,9 +10,7 @@ final class TranslatewikiCoreHi
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'एक लाइब्रेरी का पथ प्रदान करें जहाँ से अनुवाद को निर्यात किया जाएगा।',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'अपरिचित "%%" पैटर्न वाला स्ट्रिंग एक्सट्रैक्ट न किया जा सका, "%s": %s।',
   'NONE' => 'कोई नहीं',
-  'Provide a locale code with "--locale".' => '"--locale" से एक स्थानीयकरण कोड प्रदान करें।',
   'Ignoring string "%s"; not present in translation source file.' => 'स्ट्रिंग "%s" को अनदेखा किया; अनुवाद स्रोत फ़ाइल में मौजूद नहीं है।',
   'Provide the path to exactly one library to export translations from.' => 'सिर्फ एक ही लाइब्रेरी का पथ प्रदान करें जहाँ से अनुवाद को निर्यात किया जाएगा।',
   'Provide a project name to export strings under with "--as".' => '"--as" से एक परियोजना का नाम प्रदान करें जिसके अंतर्गत स्ट्रिंग्स को निर्यात किया जाएगा।',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreHi
   'Provide a classname with "--class".' => '"--class" से एक classname प्रदान करें।',
   'Read %s string(s).' => '%s स्ट्रिंग्स/स्ट्रिंग्स पढ़ें।',
   'Class name to generate.' => 'बनाने के लिए क्लास का नाम।',
-  'Frequency Data' => 'आवृत्ति की डेटा',
   'Provide a JSON source file with "--source".' => '"--source" से एक JSON स्रोत फ़ाइल प्रदान करें।',
   'Generate a Phabricator translation classfile.' => 'एक Phabricator अनुवाद classfile बनाएँ।',
   'JSON source file containing translation strings.' => 'JSON स्रोत फ़ाइल जिसमें अनुवाद स्ट्रिंग्स हैं।',

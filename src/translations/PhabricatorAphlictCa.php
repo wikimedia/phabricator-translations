@@ -33,6 +33,7 @@ final class PhabricatorAphlictCa
   'Show the status of the notification server.' => 'Mostra l\'estat del servidor de notificacions.',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'El fitxer de configuració no especifica cap servidor.  Aquest servei no podrà interactuar amb el món exterior si no escolta cap port.  Heu d\'especificar com a mínim un servidor «%s» i almenys un servidor «%s».',
   'Start the notifications server.' => 'Inicia el servidor de notificacions.',
+  'Aphlict (%s) is running.' => 'S\'està executant Aphlict (%s).',
   'User to notify.' => 'Usuari per notificar.',
   'Stop, then start the notification server.' => 'Atureu-vos i inicieu el servidor de notificacions.',
   'Failed to read configuration file. %s' => 'No s\'ha pogut llegir el fitxer de configuració.  %s',
@@ -52,7 +53,6 @@ final class PhabricatorAphlictCa
   'Aphlict Server started.' => 'S\'ha iniciat el servidor Aphlict.',
   'Stopping Aphlict Server (%s)...' => 'Aturant el servidor Aphlict (%s)...',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => 'No s\'ha pogut crear el directori «%s» per al fitxer PID especificat. Hauríeu de crear manualment aquest directori o triar una ubicació diferent del fitxer PID.  %s',
-  'Aphlict (%s) is running.' => 'S\'està executant Aphlict (%s).',
 );
   }
 

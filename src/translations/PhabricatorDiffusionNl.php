@@ -12,6 +12,10 @@ final class PhabricatorDiffusionNl
   'Commit Actions' => 'Commithandelingen',
   'This %s file is stored in Git Large File Storage.' => 'Dit bestand van %s wordt opgeslagen in Git Large File Storage.',
   'Invalid path URI.' => 'Onjuiste pad-URI.',
+  'The raw text of this change is enormous (larger than %s bytes). Herald can not process it.' => array(
+    'De ruwe tekst van deze wijziging is enorm (groter dan %s byte). Herald kan het niet verwerken.',
+    'De ruwe tekst van deze wijziging is enorm (groter dan %s bytes). Herald kan het niet verwerken.',
+  ),
   'No Short Name' => 'Geen korte naam',
   'No registered command engine can build commands for this repository ("%s").' => 'Geen geregistreerde commando-engine kan commando\'s voor deze repository ("%s") bouwen.',
   'Repositories: ...' => 'Repository\'s: ...',
@@ -26,7 +30,13 @@ final class PhabricatorDiffusionNl
   'This internal method must be invoked with a "repositoryPHIDs" constraint with exactly one value.' => 'Deze interne methode moet worden aangeroepen met een "repositoryPHIDs"-beperking met precies één waarde.',
   'Fully Imported' => 'Volledig geïmporteerd',
   'VCS Password' => 'VCS-wachtwoord',
-  '%s removed %s reverted change(s) for %s: %s.' => '%s heeft %s wijziging(en) teruggedraaid voor %s: %s.',
+  '%s removed %s reverted change(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een teruggedraaide wijziging verwijderd voor %3$s: %4$s.',
+      '%s heeft teruggedraaide wijzigingen verwijderd voor %3$s: %4$s.',
+    ),
+  ),
   'This repository ("%s") is not a Mercurial repository.' => 'Deze repository ("%s") is geen Mercurial-repository.',
   'Set VCS Password' => 'VCS-wachtwoord instellen',
   'Repository "%s" is not a valid repository.' => 'Repository "%s" is geen correcte repository.',
@@ -47,13 +57,15 @@ final class PhabricatorDiffusionNl
   'This repository can not be protected from enormous changes because this server does not control what users are allowed to push to it.' => 'Deze repository kan niet worden beschermd tegen enorme wijzigingen, omdat deze server geen controle heeft over wat gebruikers er naartoe mogen pushen.',
   'Edit Properties' => 'Eigenschappen bewerken',
   'Failed to parse `%s` output in %s: %s' => 'Kan `%s`-uitvoer in %s niet verwerken: %s',
-  'Failed to reconnect to master database and release held write lock ("%s") on device "%s" for repository "%s" after trying for %s seconds(s). This repository will be frozen.' => 'Kan geen verbinding maken met de hoofddatabase en de schrijfvergrendeling ("%s") op apparaat "%s" voor repository "%s" niet vrijgeven na %s seconde(n) proberen. Deze repository wordt bevroren.',
   'Tag Content' => 'Taginhoud',
   'Pushed on %s' => 'Gepusht op %s',
   'Unknown request type.' => 'Onbekend verzoektype.',
   'Type a user, project or package name...' => 'Typ een gebruikers-, project- of pakketnaam...',
   '%s resigned from this commit.' => '%s heeft zich teruggetrokken als controleur van deze commit.',
-  'This commit is very large, and affects more than %d files. Changes are not shown.' => 'Deze commit is erg groot en raakt meer dan %d bestanden. Wijzigingen worden niet getoond.',
+  'This commit is very large, and affects more than %d files. Changes are not shown.' => array(
+    'Deze commit is erg groot en raakt meer dan %d bestand. Wijzigingen worden niet weergegeven.',
+    'Deze commit is erg groot en raakt meer dan %d bestanden. Wijzigingen worden niet weergegeven.',
+  ),
   'Cluster Documentation' => 'Clusterdocumentatie',
   'Pushable By' => 'Pushbaar door',
   'Get the commits at which paths were last modified.' => 'De commits ophalen waarbij paden voor het laatst zijn gewijzigd.',
@@ -67,8 +79,10 @@ Hookregels kunnen wijzigingen blokkeren en push-samenvattingsmails verzenden.',
   'All Branches' => 'Alle branches',
   'Pushed At' => 'Gepusht op',
   '# Client already read from service (%s bytes), unable to retry.
-' => '# Client heeft al gelezen van de dienst (%s bytes), opnieuw proberen niet mogelijk.
-\\',
+' => array(
+    '# Client heeft al gelezen van de dienst (%s byte), opnieuw proberen niet mogelijk.',
+    '# Client heeft al gelezen van de dienst (%s bytes), opnieuw proberen niet mogelijk.',
+  ),
   'Tagged: %s' => 'Gelabeld: %s',
   'Create Repository URI' => 'Repository-URI aanmaken',
   'Repository "%s" is being synchronized on device "%s", but this device is not bound to the corresponding cluster service ("%s").' => 'Repository "%s" wordt gesynchroniseerd op apparaat "%s", maar dit apparaat is niet gekoppeld aan de bijbehorende clusterdienst ("%s").',
@@ -101,7 +115,10 @@ Hookregels kunnen wijzigingen blokkeren en push-samenvattingsmails verzenden.',
   'Email Commands: Commits' => 'E-mailopdrachten: Commits',
   'Multiple Matching Commits' => 'Meerdere overeenkomende commits',
   'Filename search on a repository.' => 'Bestandsnaam zoeken in een repository.',
-  'Default (%s Seconds)' => 'Standaard (%s seconden)',
+  'Default (%s Seconds)' => array(
+    'Standaard (%s seconde)',
+    'Standaard (%s seconden)',
+  ),
   'Puller' => 'Puller',
   '%s failed to build %s for %s!' => '%s kon %s niet bouwen voor %s!',
   'Filesize Limit' => 'Bestandsgroottelimiet',
@@ -113,21 +130,6 @@ Hookregels kunnen wijzigingen blokkeren en push-samenvattingsmails verzenden.',
   'Allow or prevent dangerous changes.' => 'Gevaarlijke wijzigingen toestaan of voorkomen.',
   'All Identities' => 'Alle identiteiten',
   'Repository "%s" is a cluster repository, but the current host is not a cluster device (it has no device ID), so the repository will not be updated on this host.' => 'Repository "%s" is een clusterrepository, maar de huidige host is geen clusterapparaat (het heeft geen apparaat-ID), dus de repository wordt niet bijgewerkt op deze host.',
-  'Provide the URI of a Git repository. It should usually look like one of these examples:
-
-| Example Git URIs
-| -----------------------
-| `git@github.com:example/example.git`
-| `ssh://user@host.com/git/example.git`
-| `https://example.com/repository.git`
-**For Gerrit URIs below: Please do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead - thanks!**' => 'Geef de URI van een Git-repository op. Het zou er meestal uit moeten zien als een van deze voorbeelden:
-
-| Voorbeeld Git-URI\'s
-| -----------------------
-| `git@github.com:example/example.git`
-| `ssh://user@host.com/git/example.git`
-| `https://example.com/repository.git`
-**Voor onderstaande Gerrit-URI\'s: gebruik niet https://gerrit.wikimedia.org maar https://gerrit-replica.wikimedia.org - bedankt!**',
   'Your VCS password has been updated.' => 'Uw VCS-wachtwoord is bijgewerkt.',
   'Change the repository short name.' => 'De korte naam van de repository wijzigen.',
   'Change the repository description.' => 'De repositorybeschrijving wijzigen.',
@@ -149,7 +151,7 @@ Hookregels kunnen wijzigingen blokkeren en push-samenvattingsmails verzenden.',
   'Publish/Notify' => 'Publiceren/Melden',
   'Differential revision' => 'Differential-revisie',
   'More Branches…' => 'Meer branches…',
-  '%s edited reverted change(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft teruggedraaide wijziging(en) voor %s bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited reverted change(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft teruggedraaide wijzigingen voor %s bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'Committed on %s' => 'Gecommit op %s',
   'Remove Credential' => 'Aanmeldgegevens verwijderen',
   'Message is not attached!' => 'Bericht is niet bijgevoegd!',
@@ -166,7 +168,6 @@ Hookregels kunnen wijzigingen blokkeren en push-samenvattingsmails verzenden.',
   'This repository will become a new hosted repository. It will begin serving read and write traffic.' => 'Deze repository wordt een nieuwe gehoste repository. Het begint met het afhandelen van lees- en schrijfverkeer.',
   'Allow HTTP Basic Auth' => 'HTTP Basic Auth toestaan',
   'If you allow dangerous changes, it will be possible to delete branches and %s push this repository. These operations can alter a repository in a way that is difficult to recover from.' => 'Als u gevaarlijke wijzigingen toestaat, wordt het mogelijk om branches te verwijderen en %s naar deze repository te pushen. Deze bewerkingen kunnen een repository op een manier wijzigen die moeilijk te herstellen is.',
-  'Enable Self-Accept' => 'Zelf-acceptatie inschakelen',
   'Repository "%s" is on cluster service "%s", but the binding between that service and this device ("%s") is disabled, so it can not be updated on this host.' => 'Repository "%s" staat op clusterdienst "%s", maar de koppeling tussen die dienst en dit apparaat ("%s") is uitgeschakeld, dus kan het niet worden bijgewerkt op deze host.',
   'This push was rejected by Herald push rule %s.
     Change: %s
@@ -230,11 +231,19 @@ Transcript: %s' => 'Deze push is geweigerd door Herald-pushregel %s.
   'Invalid JSON: %s' => 'Ongeldige JSON: %s',
   'View Sync Logs' => 'Synchronisatielogboeken bekijken',
   'Configure Diffusion repository browsing.' => 'Diffusion-repositorybrowsing configureren.',
-  '%s removed %s reverted change(s): %s.' => '%s heeft %s teruggedraaide wijziging(en) verwijderd: %s.',
+  '%s removed %s reverted change(s): %s.' => array(
+    
+    array(
+      '%s heeft een teruggedraaide wijziging verwijderd: %3$s.',
+      '%s heeft teruggedraaide wijzigingen verwijderd: %3$s.',
+    ),
+  ),
   'Uploaded data is corrupt or invalid. Expected hash "%s", actual hash "%s".' => 'Geüploade gegevens zijn beschadigd of incorrect. Verwachte hash "%s", werkelijke hash "%s".',
   '# Client already wrote to service (%s bytes), unable to retry.
-' => '# Client heeft al naar de dienst geschreven (%s bytes), opnieuw proberen niet mogelijk.
-\\',
+' => array(
+    '# Client heeft al naar de dienst geschreven (%s byte). Opnieuw proberen is niet niet mogelijk.',
+    '# Client heeft al naar de dienst geschreven (%s bytes). Opnieuw proberen is niet niet mogelijk.',
+  ),
   'New repository description.' => 'Nieuwe repositorybeschrijving.',
   'If activated now, this repository will become a new hosted repository. To observe an existing repository instead, configure it in the %s panel.' => 'Als deze nu wordt geactiveerd, wordt deze repository een nieuwe gehoste repository. Om in plaats daarvan een bestaande repository te observeren, configureert u deze in het %s-paneel.',
   'Allow or prevent enormous changes.' => 'Enorme wijzigingen toestaan of voorkomen.',
@@ -242,10 +251,11 @@ Transcript: %s' => 'Deze push is geweigerd door Herald-pushregel %s.
   'Failed to parse %s!' => 'Kan %s niet verwerken!',
   'No Audit' => 'Geen audit',
   'Acquiring read lock for repository "%s" on device "%s"...' => 'Leesvergrendeling verkrijgen voor repository "%s" op apparaat "%s"...',
-  'Local Maniphest URL' => 'Lokale Maniphest-URL',
+  'Local Maniphest URL' => 'Lokale Maniphest-url',
   'Get the auditors for each commit.' => 'De controleurs voor elke commit ophalen.',
   'The Python 3 Standard Library' => 'De Python 3 Standaardbibliotheek',
   'Unknown SVN wire protocol structure \'%s\'!' => 'Onbekende SVN-draadprotocolstructuur \'%s\'!',
+  'Checkout' => 'Uitchecken',
   'Merged Changes' => 'Samengevoegde wijzigingen',
   'This repository is observed.' => 'Deze repository wordt geobserveerd.',
   'All concerns with this commit have now been addressed.' => 'Alle bezwaren bij deze commit zijn nu behandeld.',
@@ -262,7 +272,13 @@ Hookregels kunnen wijzigingen blokkeren en push-samenvattingsmails verzenden.',
   'You can not run a configuration test for this repository because you have not configured repository automation yet. Configure it first, then test the configuration.' => 'U kunt geen configuratietest uitvoeren voor deze repository omdat u de repository-automatisering nog niet hebt geconfigureerd. Configureer deze eerst en test daarna de configuratie.',
   '%s no longer requires audit.' => '%s vereist geen audit meer.',
   'Repository Disabled' => 'Repository uitgeschakeld',
-  '%s removed %s reverting change(s) for %s: %s.' => '%s heeft %s terugdraaiende wijziging(en) verwijderd voor %s: %s.',
+  '%s removed %s reverting change(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een terugdraaiende wijziging verwijderd voor %3$s: %4$s.',
+      '%s heeft terugdraaiende wijzigingen verwijderd voor %3$s: %4$s.',
+    ),
+  ),
   'Public and authenticated HTTP access are both forbidden.' => 'Zowel openbare als geauthenticeerde HTTP-toegang is verboden.',
   'String' => 'Tekenreeks',
   'Repository URIs' => 'Repository-URI\'s',
@@ -324,7 +340,10 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'Type a symbol name...' => 'Typ een symboolnaam...',
   'Not Configured' => 'Niet geconfigureerd',
   'None of your audits are waiting on authors.' => 'Geen van uw audits wacht op auteurs.',
-  'Acquired write lock after %s second(s).' => 'Schrijfvergrendeling verkregen na %s seconde(n).',
+  'Acquired write lock after %s second(s).' => array(
+    'Schrijfvergrendeling verkregen na %s seconde.',
+    'Schrijfvergrendeling verkregen na %s seconden.',
+  ),
   'Read information about commits.' => 'Informatie over commits lezen.',
   'Content for object "%s" is already known to this server. It can not be uploaded again.' => 'Inhoud voor object "%s" is al bekend bij deze server. Het kan niet opnieuw worden geüpload.',
   'The author of a commit can not be an auditor.' => 'De auteur van een commit kan geen controleur zijn.',
@@ -350,6 +369,7 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'No such repository exists.' => 'Deze repository bestaat niet.',
   'This repository does not have any commits yet.' => 'Deze repository heeft nog geen commits.',
   'Recent Open Revisions' => 'Recente open revisies',
+  'tag (git)' => 'tag (git)',
   'Failed to load changes: %s' => 'Kan wijzigingen niet laden: %s',
   'Commit hook events depend on repository state which is only available at push time, and can not be run in test mode.' => 'Commithook-gebeurtenissen zijn afhankelijk van de repositorystatus die alleen beschikbaar is op het moment van pushen en kunnen niet in testmodus worden uitgevoerd.',
   'Read information about repositories.' => 'Informatie over repository\'s lezen.',
@@ -362,11 +382,13 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'No repository exists with PHID "%s".' => 'Er bestaat geen repository met PHID "%s".',
   'No Ref Support' => 'Geen ref-ondersteuning',
   'This is not a cluster repository.' => 'Dit is geen clusterrepository.',
-  'Copy of Repository URI failed.' => 'Kopiëren van repository-URI is mislukt.',
   'To learn more about how repositories are updated, read %s in the documentation.' => 'Lees %s in de documentatie voor meer informatie over hoe repository\'s worden bijgewerkt.',
   'Repository "%s" does not have a working copy on this device yet, so it can not be synchronized. Wait for the daemons to construct one or run `bin/repository update %s` on this host ("%s") to build it explicitly.' => 'Repository "%s" heeft nog geen werkkopie op dit apparaat, dus kan niet worden gesynchroniseerd. Wacht tot de daemons er een bouwen of voer `bin/repository update %s` uit op deze host ("%s") om deze expliciet te bouwen.',
   'Commit Detail' => 'Commitdetails',
-  'Added %s auditor(s): %s.' => '%s controleur(s) toegevoegd: %s.',
+  'Added %s auditor(s): %s.' => array(
+    '%s een controleur toegevoegd: %s.',
+    '%s controleurs toegevoegd: %s.',
+  ),
   'Total Messages' => 'Totaal berichten',
   'File(s) information for a repository at an (optional) path and (optional) commit.' => 'Bestand(en)informatie voor een repository op een (optioneel) pad en (optionele) commit.',
   'This rule can trigger for **repositories** and **projects**.' => 'Deze regel kan worden geactiveerd voor **repository\'s** en **projecten**.',
@@ -433,11 +455,16 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'This credential will no longer be used to authenticate activity against this URI.' => 'Deze aanmeldgegevens worden niet langer gebruikt om activiteit tegen deze URI te authenticeren.',
   'All Pull Logs' => 'Alle pull-logboeken',
   'Unknown Mercurial key namespace \'%s\', with key \'%s\' (%s -> %s). Rejecting push.' => 'Onbekende Mercurial-sleutelnaamruimte \'%s\', met sleutel \'%s\' (%s -> %s). Push wordt geweigerd.',
-  'The raw text of this change ("%s") is enormous (larger than %s bytes).' => 'De ruwe tekst van deze wijziging ("%s") is enorm (groter dan %s bytes).',
+  'The raw text of this change ("%s") is enormous (larger than %s bytes).' => array(
+    
+    array(
+      'De ruwe tekst van deze wijziging ("%s") is enorm (groter dan %s byte).',
+      'De ruwe tekst van deze wijziging ("%s") is enorm (groter dan %s bytes).',
+    ),
+  ),
   'Commit Hook: Commit Content' => 'Commithook: Commitinhoud',
   'To search for commits which are ancestors of particular refs, you must constrain the search to exactly one repository.' => 'Om te zoeken naar commits die voorouders zijn van bepaalde refs, moet u de zoekopdracht beperken tot precies één repository.',
   'Found Binary %s' => 'Binair bestand %s gevonden',
-  'The raw text of this change is enormous (larger than %s byte(s)). Herald can not process it.' => 'De ruwe tekst van deze wijziging is enorm (groter dan %s byte(s)). Herald kan het niet verwerken.',
   'This repository ("%s") is not a Mercurial repository. Use "%s" to interact with this repository.' => 'Deze repository ("%s") is geen Mercurial-repository. Gebruik "%s" om met deze repository te werken.',
   'Unexpected number of output lines from "git cat-file" when processing commit ("%s").' => 'Onverwacht aantal uitvoerregels van "git cat-file" bij het verwerken van commit ("%s").',
   'Failed to parse remote branch \'%s\'!' => 'Kan externe branch \'%s\' niet verwerken!',
@@ -477,7 +504,13 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'New auditors.' => 'Nieuwe controleurs.',
   'Disable this URI? It will no longer be observed, fetched, mirrored, served or shown to users.' => 'Deze URI uitschakelen? Deze wordt niet langer geobserveerd, opgehaald, gespiegeld, bediend of aan gebruikers weergegeven.',
   'From Version' => 'Van versie',
-  '%s added %s reverting change(s): %s.' => '%s heeft %s terugdraaiende wijziging(en) toegevoegd: %s.',
+  '%s added %s reverting change(s): %s.' => array(
+    
+    array(
+      '%s heeft een terugdraaiende wijziging toegevoegd: %3$s.',
+      '%s heeft terugdraaiende wijzigingen toegevoegd: %3$s.',
+    ),
+  ),
   'Editable By' => 'Bewerkbaar door',
   'This Diffusion repository is configured to track only one subdirectory of the entire Subversion repository, and this commit didn\'t affect the tracked subdirectory (\'%s\'), so no information is available.' => 'Deze Diffusion-repository is geconfigureerd om slechts één submap van de gehele Subversion-repository te volgen, en deze commit heeft de gevolgde submap (\'%s\') niet geraakt, dus er is geen informatie beschikbaar.',
   'Failed to load comment "%d".' => 'Kan opmerking "%d" niet laden.',
@@ -486,8 +519,11 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   '%s Audit' => '%s-audit',
   'File content matching "%s" under "%s"' => 'Bestandsinhoud die overeenkomt met "%s" onder "%s"',
   'Get raw diff information from a repository for a specific commit at an (optional) path.' => 'Ruwe diff-informatie ophalen uit een repository voor een specifieke commit op een (optioneel) pad.',
-  'Failed to acquire read lock after waiting %s second(s). You may be able to retry later. (%s)' => 'Kan leesvergrendeling niet verkrijgen na %s seconde(n) wachten. U kunt het later opnieuw proberen. (%s)',
-  '%sus' => '%sµs',
+  'Failed to acquire read lock after waiting %s second(s). You may be able to retry later. (%s)' => array(
+    'Kan leesvergrendeling niet verkrijgen na %s seconde wachten. U kunt het later opnieuw proberen. (%s)',
+    'Kan leesvergrendeling niet verkrijgen na %s seconden wachten. U kunt het later opnieuw proberen. (%s)',
+  ),
+  '%sus' => '%s µs',
   'Added diff content' => 'Toegevoegde diff-inhoud',
   'Unable to find this binary in the webserver\'s PATH. You may need to configure %s.' => 'Kan dit binaire bestand niet vinden in het PATH van de webserver. Mogelijk moet u %s configureren.',
   'Owners: %s' => 'Eigenaren: %s',
@@ -504,12 +540,16 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'Commit Fields' => 'Commitvelden',
   'Allowed' => 'Toegestaan',
   'Import Only' => 'Alleen importeren',
+  'The raw text of this change took too long to process (longer than %s seconds). Herald can not process it.' => array(
+    'De ruwe tekst van deze wijziging duurde te lang om te verwerken (langer dan %s seconde). Herald kan het niet verwerken.',
+    'De ruwe tekst van deze wijziging duurde te lang om te verwerken (langer dan %s seconden). Herald kan het niet verwerken.',
+  ),
   'Deactivate Repository' => 'Repository deactiveren',
   'Compare Against' => 'Vergelijken met',
   'Commit No Longer Exists' => 'Commit bestaat niet meer',
   'Missing path, expected "{src path ...}" in: %s' => 'Ontbrekend pad, "{src path ...}" verwacht in: %s',
   'Mercurial does not currently support searching for ancestors of a particular ref.' => 'Mercurial ondersteunt momenteel niet het zoeken naar voorouders van een bepaalde ref.',
-  '%s edited reverting change(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft terugdraaiende wijziging(en) voor %s bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited reverting change(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft terugdraaiende wijzigingen voor %s bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'New repository callsign.' => 'Nieuwe callsign voor de repository.',
   'This protocol does not support authentication.' => 'Dit protocol ondersteunt geen authenticatie.',
   'Regular expression to link external bug tracker. See https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html for further explanation.' => 'Reguliere expressie om te koppelen aan een externe bugtracker. Zie https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html voor meer uitleg.',
@@ -526,7 +566,10 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'Mercurial repository has no new or old heads for branch "%s" after push. This makes no sense; rejecting change.' => 'Mercurial-repository heeft geen nieuwe of oude heads voor branch "%s" na push. Dit slaat nergens op; wijziging wordt geweigerd.',
   'Builtin URI' => 'Ingebouwde URI',
   'Find Symbol' => 'Symbool zoeken',
-  'Acquired read lock after %s second(s).' => 'Leesvergrendeling verkregen na %s seconde(n).',
+  'Acquired read lock after %s second(s).' => array(
+    'Leesvergrendeling verkregen na %s seconde.',
+    'Leesvergrendeling verkregen na %s seconden.',
+  ),
   'Set the tracked branches.' => 'De gevolgde branches instellen.',
   'Allow Git LFS' => 'Git LFS toestaan',
   'Active or deactivate the repository.' => 'De repository activeren of deactiveren.',
@@ -579,6 +622,7 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'Changes' => 'Wijzigingen',
   'Commit Date' => 'Commitdatum',
   'branch (git/hg)' => 'branch (git/hg)',
+  'Gerrit URIs must use host gerrit-replica.wikimedia.org instead of gerrit.wikimedia.org' => 'Gerrit-URI\'s moeten host gerrit-replica.wikimedia.org gebruiken in plaats van gerrit.wikimedia.org.',
   'Read Wait' => 'Leeswachttijd',
   '%s (on %s)' => '%s (op %s)',
   'Repository PHID to create a new URI for.' => 'Repository-PHID waarvoor een nieuwe URI moet worden aangemaakt.',
@@ -592,12 +636,14 @@ Commitregels kunnen e-mail verzenden, commits markeren, audits activeren en bouw
   'External' => 'Extern',
   'It will no longer be possible to push enormous changes to this repository.' => 'Het is niet langer mogelijk om enorme wijzigingen naar deze repository te pushen.',
   'The pattern you searched for was not found in the content of any files.' => 'Het patroon waarnaar u zocht is niet gevonden in de inhoud van bestanden.',
-  'Failed to acquire write lock after waiting %s second(s). You may be able to retry later. (%s)' => 'Kan schrijfvergrendeling niet verkrijgen na %s seconde(n) wachten. U kunt het later opnieuw proberen. (%s)',
+  'Failed to acquire write lock after waiting %s second(s). You may be able to retry later. (%s)' => array(
+    'Kan schrijfvergrendeling niet verkrijgen na %s seconde wachten. U kunt het later opnieuw proberen. (%s)',
+    'Kan schrijfvergrendeling niet verkrijgen na %s seconden wachten. U kunt het later opnieuw proberen. (%s)',
+  ),
   'Expected a list of results from external symbol source "%s".' => 'Een lijst met resultaten verwacht van externe symboolbron "%s".',
   'Problems' => 'Problemen',
   '# Service request failed, retrying (making attempt %s of %s).
-' => '# Serviceverzoek mislukt, opnieuw proberen (poging %s van %s).
-\\',
+' => '# Serviceverzoek mislukt, opnieuw proberen (poging %s van %s).',
   'The connection to the master database was lost while receiving the write.' => 'De verbinding met de hoofddatabase is verbroken tijdens het ontvangen van de schrijfbewerking.',
   'Disable URI' => 'URI uitschakelen',
   'You do not have permission to push to this repository ("%s").' => 'U hebt geen toestemming om naar deze repository te pushen ("%s").',
@@ -642,7 +688,7 @@ Dit wachtwoord geldt voor alle repository\'s die beschikbaar zijn via HTTP.',
   'The credential to use when interacting with this URI.' => 'De aanmeldgegevens die moet worden gebruikt bij interactie met deze URI.',
   'No commit identifiers.' => 'Geen commit-identifiers.',
   'Change symbol languages for this repository.' => 'Symbooltalen voor deze repository wijzigen.',
-  '%s edited reverted change(s), added %s: %s; removed %s: %s.' => '%s heeft teruggedraaide wijziging(en) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited reverted change(s), added %s: %s; removed %s: %s.' => '%s heeft teruggedraaide wijzigingen bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   'Resign as Auditor' => 'Terugtrekken als controleur',
   'This repository requires authentication, which is forbidden over HTTP.' => 'Deze repository vereist authenticatie, wat verboden is via HTTP.',
   'CRITICAL. Failed to release cluster write lock!' => 'KRITIEK. Kan clusterschrijfvergrendeling niet vrijgeven!',
@@ -657,7 +703,7 @@ Dit wachtwoord geldt voor alle repository\'s die beschikbaar zijn via HTTP.',
   'One of "%s" and "%s" is required.' => 'Een van "%s" en "%s" is vereist.',
   'An previous write to this repository was interrupted; refusing new writes. This issue requires operator intervention to resolve, see "Write Interruptions" in the "Cluster: Repositories" in the documentation for instructions.' => 'Een eerdere schrijfbewerking naar deze repository is onderbroken; nieuwe schrijfbewerkingen worden geweigerd. Dit probleem vereist interventie van een beheerder om op te lossen, zie "Write Interruptions" in "Cluster: Repository\'s" in de documentatie voor instructies.',
   'Differential subscribers' => 'Differential-abonnees',
-  'bookmark (hg)' => 'bookmark (hg)',
+  'bookmark (hg)' => 'bladwijzer (hg)',
   'You do not currently have a VCS password set. If you set one, you can remove it here later.' => 'U hebt momenteel geen VCS-wachtwoord ingesteld. Als u er een instelt, kunt u het hier later verwijderen.',
   'New symbol languages.' => 'Nieuwe symbooltalen.',
   'Reviewer (Deprecated)' => 'Reviewer (verouderd)',
@@ -694,11 +740,20 @@ Bescherming tegen enorme wijzigingen is ingeschakeld voor deze repository, maar 
 Inhoudsuitzondering: %s',
   'Repository has no URIs set.' => 'Repository heeft geen URI\'s ingesteld.',
   'New text encoding.' => 'Nieuwe tekstcodering.',
-  'This process will spend %s more second(s) attempting to recover, then give up.' => 'Dit proces besteedt nog %s seconde(n) aan het proberen te herstellen en geeft dan op.',
+  'This process will spend %s more second(s) attempting to recover, then give up.' => array(
+    'Dit proces besteedt nog %s seconde aan het proberen te herstellen en geeft dan op.',
+    'Dit proces besteedt nog %s seconden aan het proberen te herstellen en geeft dan op.',
+  ),
   'All concerns with %s have now been addressed.' => 'Alle bezwaren bij %s zijn nu behandeld.',
   'Configured credential is invalid.' => 'Geconfigureerde aanmeldgegevens zijn onjuist.',
   'Unknown Mercurial command "%s"!' => 'Onbekend Mercurial-commando "%s"!',
-  '%s added %s auditor(s): %s.' => '%s heeft %s controleur(s) toegevoegd: %s.',
+  '%s added %s auditor(s): %s.' => array(
+    
+    array(
+      '%s heeft een controleur toegevoegd: %3$s.',
+      '%s heeft controleurs toegevoegd: %3$s.',
+    ),
+  ),
   'New repository URI.' => 'Nieuwe repository-URI.',
   'Failed to load repository cluster service.' => 'Kan repositoryclusterdienst niet laden.',
   'Matching Users' => 'Overeenkomende gebruikers',
@@ -712,14 +767,19 @@ Inhoudsuitzondering: %s',
   'Both references identify the same commit. You can not compare a commit against itself.' => 'Beide referenties verwijzen naar dezelfde commit. U kunt een commit niet met zichzelf vergelijken.',
   'New credential PHID, or null.' => 'Nieuwe aanmeldgegevens-PHID, of null.',
   'Publish coverage information for a repository.' => 'Dekkingsinformatie publiceren voor een repository.',
-  'Allows the author of a commit to be an auditor and accept their own commits. Note that this behavior is different from the behavior implied by the name of the option: long ago, it did something else.' => 'Staat de auteur van een commit toe om controleur te zijn en eigen commits te accepteren. Merk op dat dit gedrag verschilt van het gedrag dat de naam van de optie impliceert: lang geleden deed het iets anders.',
   'New repository copy time limit.' => 'Nieuwe tijdslimiet voor het kopiëren van de repository.',
   'Change the repository URI.' => 'De repository-URI wijzigen.',
   'Empty Directory' => 'Lege map',
   'Show All Changes' => 'Alle wijzigingen weergeven',
   'Storage directory %s does not exist, or is not readable by the webserver. Create this directory or make it readable.' => 'Opslagmap %s bestaat niet of is niet leesbaar door de webserver. Maak deze map aan of maak deze leesbaar.',
   'This repository has no branches.' => 'Deze repository heeft geen branches.',
-  '%s removed %s auditor(s): %s.' => '%s heeft %s controleur(s) verwijderd: %s.',
+  '%s removed %s auditor(s): %s.' => array(
+    
+    array(
+      '%s heeft een controleur verwijderd: %3$s.',
+      '%s heeft controleurs verwijderd: %3$s.',
+    ),
+  ),
   'Binary file' => 'Binair bestand',
   'Request Verification' => 'Verificatie aanvragen',
   'Invalid commit PHID "%s"!' => 'Ongeldige commit-PHID "%s"!',
@@ -738,12 +798,16 @@ Bewerk de repositoryconfiguratie voordat u gevaarlijke wijzigingen aanbrengt.',
   'The data for this file could not be loaded.' => 'De gegevens voor dit bestand konden niet worden geladen.',
   'You can not set this URI to use Observe IO because another URI for this repository is already configured in Read/Write IO mode. A repository can not simultaneously be writable and observe a remote. Turn off IO for the other URI first.' => 'U kunt deze URI niet instellen op Observatie-I/O omdat een andere URI voor deze repository al is geconfigureerd in Lezen/Schrijven-I/O-modus. Een repository kan niet tegelijkertijd beschrijfbaar zijn en een externe bron observeren. Schakel eerst I/O uit voor de andere URI.',
   'Working Copy OK' => 'Werkkopie OK',
-  '%s added %s reverted change(s) for %s: %s.' => '%s heeft %s teruggedraaide wijziging(en) voor %s toegevoegd: %s.',
+  '%s added %s reverted change(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een teruggedraaide wijziging voor %3$s toegevoegd: %4$s.',
+      '%s heeft teruggedraaide wijzigingen voor %3$s toegevoegd: %4$s.',
+    ),
+  ),
   'State' => 'Status',
   'Integrations' => 'Integraties',
   'No Local Working Copy' => 'Geen lokale werkkopie',
-  'Disable Self-Accept' => 'Zelfacceptatie uitschakelen',
-  'Reached an unreachable place.' => 'Een onbereikbare plaats bereikt.',
   'This repository ("%s") is not a Git repository.' => 'Deze repository ("%s") is geen Git-repository.',
   'Sync Logs' => 'Synchronisatielogboeken',
   'Subpath to selectively import.' => 'Subpad om selectief te importeren.',
@@ -755,27 +819,56 @@ Bewerk de repositoryconfiguratie voordat u gevaarlijke wijzigingen aanbrengt.',
   'Show Identities Without Matching Users' => 'Identiteiten zonder overeenkomende gebruikers weergeven',
   'Auditor "%s" must be a user, a package, or a project.' => 'Controleur "%s" moet een gebruiker, een pakket of een project zijn.',
   'The repository a URI is associated with is immutable, and can not be changed after the URI is created.' => 'De repository waarmee een URI is gekoppeld is onveranderlijk en kan niet worden gewijzigd nadat de URI is aangemaakt.',
-  '%s edited %s auditor(s) for %s, removed %s: %s; added %s: %s.' => '%s heeft %s controleur(s) voor %s bewerkt, %s verwijderd: %s; %s toegevoegd: %s.',
+  '%s edited %s auditor(s) for %s, removed %s: %s; added %s: %s.' => '%s heeft controleurs voor %3$s bewerkt; verwijderd: %5$s; toegevoegd: %7$s.',
   'Repository "%s" is on cluster service "%s", but that service could not be loaded, so the repository will not be updated on this host.' => 'Repository "%s" staat op clusterdienst "%s", maar die dienst kon niet worden geladen, dus de repository wordt niet bijgewerkt op deze host.',
   'Last updated %s (%s ago).' => 'Laatst bijgewerkt %s (%s geleden).',
-  '%s added %s reverted change(s): %s.' => '%s heeft %s teruggedraaide wijziging(en) toegevoegd: %s.',
+  '%s added %s reverted change(s): %s.' => array(
+    
+    array(
+      '%s heeft een teruggedraaide wijziging toegevoegd: %3$s.',
+      '%s heeft teruggedraaide wijzigingen toegevoegd: %3$s.',
+    ),
+  ),
   'Released cluster write lock.' => 'Clusterschrijfvergrendeling vrijgegeven.',
   'Edit Symbols' => 'Symbolen bewerken',
   'Get diff information from a repository for a specific path at an (optional) commit.' => 'Diff-informatie ophalen uit een repository voor een specifiek pad op een (optionele) commit.',
-  'Invalid credentials.' => 'Onjuiste aanmeldgegevens.',
+  'Invalid credentials.' => 'Incorrecte aanmeldgegevens.',
   'I/O Type' => 'I/O-type',
   'Commits which became reachable from a permanent ref while publishing was disabled will not trigger these actions retroactively.' => 'Commits die bereikbaar werden vanaf een permanente ref terwijl publiceren was uitgeschakeld, activeren deze handelingen niet met terugwerkende kracht.',
   'Write Wait' => 'Schrijfwachttijd',
   'Password Updated' => 'Wachtwoord bijgewerkt',
   'Browse Repository' => 'Repository doorbladeren',
   'Unresolvable External' => 'Onoplosbare externe referentie',
-  '%s Bytes' => '%s bytes',
+  '%s Bytes' => array(
+    '%s byte',
+    '%s bytes',
+  ),
   'Edit Repository URI %d' => 'Repository-URI %d bewerken',
   'When constructing clone URIs to show to users, Diffusion will fill in this login username. If you have configured a VCS user like `git`, you should provide it here.' => 'Bij het samenstellen van clone-URI\'s om aan gebruikers weer te geven, vult Diffusion deze inloggebruikersnaam in. Als u een VCS-gebruiker zoals `git` hebt geconfigureerd, moet u deze hier opgeven.',
   'Raise Concern' => 'Bezwaar indienen',
   'COMMIT AFFECTS TOO MANY PATHS
-This repository ("%s") is configured with a touched files limit that caps the maximum number of paths any single commit may affect. You are pushing a change ("%s") which exceeds this limit: it affects %s paths, but the largest number of paths any commit may affect is %s paths.' => 'COMMIT RAAKT TE VEEL PADEN
+This repository ("%s") is configured with a touched files limit that caps the maximum number of paths any single commit may affect. You are pushing a change ("%s") which exceeds this limit: it affects %s paths, but the largest number of paths any commit may affect is %s paths.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'COMMIT RAAKT TE VEEL PADEN
+Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden die het maximale aantal paden beperkt dat een enkele commit mag raken. U pusht een wijziging ("%s") die deze limiet overschrijdt: het raakt %s pad, maar het maximale aantal paden dat een commit mag raken is %s pad.',
+          'COMMIT RAAKT TE VEEL PADEN
+Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden die het maximale aantal paden beperkt dat een enkele commit mag raken. U pusht een wijziging ("%s") die deze limiet overschrijdt: het raakt %s pad, maar het maximale aantal paden dat een commit mag raken is %s paden.',
+        ),
+        
+        array(
+          'COMMIT RAAKT TE VEEL PADEN
+Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden die het maximale aantal paden beperkt dat een enkele commit mag raken. U pusht een wijziging ("%s") die deze limiet overschrijdt: het raakt %s paden, maar het maximale aantal paden dat een commit mag raken is %s pad.',
+          'COMMIT RAAKT TE VEEL PADEN
 Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden die het maximale aantal paden beperkt dat een enkele commit mag raken. U pusht een wijziging ("%s") die deze limiet overschrijdt: het raakt %s paden, maar het maximale aantal paden dat een commit mag raken is %s paden.',
+        ),
+      ),
+    ),
+  ),
   'Change Auditors' => 'Controleurs wijzigen',
   'It will no longer be possible to delete branches from this repository, or %s push to this repository.' => 'Het is niet langer mogelijk om branches uit deze repository te verwijderen, of %s naar deze repository te pushen.',
   'View Branches' => 'Branches bekijken',
@@ -783,22 +876,38 @@ Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden 
   'No Owners' => 'Geen eigenaren',
   'This commit will be returned to the author for consideration.' => 'Deze commit wordt teruggestuurd naar de auteur ter overweging.',
   'Commit Has Task' => 'Commit heeft taak',
+  'This file is larger than %s bytes, and too large to display in the web UI.' => 'Dit bestand is groter dan %s bytes en te groot om weer te geven in de webinterface.',
   'This Repository Only' => 'Alleen deze repository',
   'Configure how changes are published.' => 'Configureren hoe wijzigingen worden gepubliceerd.',
   'Change the copy time limit.' => 'De kopieertijdslimiet wijzigen.',
   'Import Date (Oldest First)' => 'Importdatum (oudste eerst)',
-  '%s removed %s auditor(s) for %s: %s.' => '%s heeft %s controleur(s) voor %s verwijderd: %s.',
+  '%s removed %s auditor(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een controleur voor %3$s verwijderd: %4$s.',
+      '%s heeft controleurs voor %3$s verwijderd: %4$s.',
+    ),
+  ),
   'Block push with message: %s' => 'Push blokkeren met bericht: %s',
-  '%s edited revision(s), added %s: %s; removed %s: %s.' => '%s heeft revisie(s) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited revision(s), added %s: %s; removed %s: %s.' => '%s heeft een versie bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   'Ref Fields' => 'Ref-velden',
   'Accepted Differential revision' => 'Geaccepteerde Differential-revisie',
   'This external (%s) does not appear in any tracked repository. It may exist in an untracked repository that Diffusion does not know about.' => 'Deze externe referentie (%s) komt niet voor in een gevolgde repository. Het kan bestaan in een niet-gevolgde repository die Diffusion niet kent.',
   '%s subprocess exited before emitting a protocol frame.' => '%s-subproces is beëindigd voordat een protocolframe werd verzonden.',
   'Expected `git-lfs-authenticate <path> <operation>`, but received too few arguments.' => '`git-lfs-authenticate <pad> <bewerking>` verwacht, maar te weinig argumenten ontvangen.',
-  '%s Paths' => '%s paden',
+  '%s Paths' => array(
+    '%s pad',
+    '%s paden',
+  ),
   'Manual at php.net' => 'Handleiding op php.net',
   'No Identities found.' => 'Geen identiteiten gevonden.',
-  '%s added %s auditor(s) for %s: %s.' => '%s heeft %s controleur(s) voor %s toegevoegd: %s.',
+  '%s added %s auditor(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een controleur voor %3$s toegevoegd: %4$s.',
+      '%s heeft controleurs voor %3$s toegevoegd: %4$s.',
+    ),
+  ),
   'Other Commits' => 'Andere commits',
   'Adjust I/O behavior.' => 'I/O-gedrag aanpassen.',
   'Unexpected "git upload-pack" initial protocol frame: expected "<hash> <name>\\0<capabilities>\\n", or "shallow <hash>\\n", got "%s".' => 'Onverwacht initieel protocolframe van "git upload-pack": "<hash> <name>\\0<capabilities>\\n" of "shallow <hash>\\n" verwacht, maar "%s" ontvangen.',
@@ -810,11 +919,23 @@ Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden 
   'Attempting to build a repository command (for repository "%s") as device, but this host ("%s") is not configured as a cluster device.' => 'Poging om een repositorycommando (voor repository "%s") als apparaat op te bouwen, maar deze host ("%s") is niet geconfigureerd als een clusterapparaat.',
   'Create a URI in a given repository. This transaction type must be present when creating a new URI and must not be present when editing an existing URI.' => 'Een URI aanmaken in een bepaalde repository. Dit transactietype moet aanwezig zijn bij het aanmaken van een nieuwe URI en mag niet aanwezig zijn bij het bewerken van een bestaande URI.',
   'This commit no longer exists in the repository. It may have been part of a branch which was deleted.' => 'Deze commit bestaat niet meer in de repository. Het kan deel hebben uitgemaakt van een branch die is verwijderd.',
-  '%s removed %s reverting change(s): %s.' => '%s heeft %s terugdraaiende wijziging(en) verwijderd: %s.',
+  '%s removed %s reverting change(s): %s.' => array(
+    
+    array(
+      '%s heeft een terugdraaiende wijziging verwijderd: %3$s.',
+      '%s heeft terugdraaiende wijzigingen verwijderd: %3$s.',
+    ),
+  ),
   'Apply transactions to create a new repository URI or edit an existing one.' => 'Transacties toepassen om een nieuwe repository-URI aan te maken of een bestaande te bewerken.',
   'File Renamed' => 'Bestand hernoemd',
   'Manage SSH Keys' => 'SSH-sleutels beheren',
-  '%s added %s reverting change(s) for %s: %s.' => '%s heeft %s terugdraaiende wijziging(en) voor %s toegevoegd: %s.',
+  '%s added %s reverting change(s) for %s: %s.' => array(
+    
+    array(
+      '%s heeft een terugdraaiende wijziging toegevoegd voor %3$s: %4$s.',
+      '%s heeft terugdraaiende wijzigingen toegevoegd voor %3$s: %4$s.',
+    ),
+  ),
   'Initializing Working Copy' => 'Werkkopie initialiseren',
   'Repositories can not be permanently destroyed from the web interface. See %s in the documentation for more information.' => 'Repository\'s kunnen niet permanent worden vernietigd via de webinterface. Zie %s in de documentatie voor meer informatie.',
   '%s created this identity.' => '%s heeft deze identiteit aangemaakt.',
@@ -874,14 +995,30 @@ Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden 
   'URI Documentation' => 'URI-documentatie',
   'Auditors will be asked to verify that concerns have been addressed.' => 'Controleurs wordt gevraagd te verifiëren dat bezwaren zijn behandeld.',
   'If you run into write failures despite passing this test, it suggests that your setup is nearly correct but authentication is probably not fully configured.' => 'Als u schrijffouten tegenkomt ondanks het slagen van deze test, suggereert dit dat uw configuratie bijna correct is maar authenticatie waarschijnlijk niet volledig is geconfigureerd.',
-  '%s Seconds' => '%s seconden',
+  '%s Seconds' => array(
+    '%s seconde',
+    '%s seconden',
+  ),
   'Diff content added' => 'Toegevoegde diff-inhoud',
   'Select repositories tagged with this project.' => 'Repository\'s selecteren die zijn getagd met dit project.',
   'Puller PHID' => 'Puller-PHID',
   'Prevent Dangerous Changes' => 'Gevaarlijke wijzigingen voorkomen',
   'Ref' => 'Ref',
+  'Failed to reconnect to master database and release held write lock ("%s") on device "%s" for repository "%s" after trying for %s seconds. This repository will be frozen.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          'Kan geen verbinding maken met de primare database en de schrijfvergrendeling ("%s") op apparaat "%s" voor repository "%s" niet vrijgeven na %s seconde proberen. Deze repository wordt bevroren.',
+          'Kan geen verbinding maken met de primare database en de schrijfvergrendeling ("%s") op apparaat "%s" voor repository "%s" niet vrijgeven na %s seconden proberen. Deze repository wordt bevroren.',
+        ),
+      ),
+    ),
+  ),
   'New permanent ref rules.' => 'Nieuwe regels voor permanente refs.',
-  'To include patches in Diffusion email bodies, set this to a positive integer. Patches will be inlined if they are at most that many lines. By default, patches are not inlined.' => 'Om patches op te nemen in Diffusion-e-mailberichten, stelt u dit in op een positief geheel getal. Patches worden inline opgenomen als ze maximaal dat aantal regels bevatten. Standaard worden patches niet inline opgenomen.',
+  'To include patches in Diffusion email bodies, set this to a positive integer. Patches will be inlined if they are at most that many lines. By default, patches are not inlined.' => 'Om patches op te nemen in Diffusion-e-mailberichten, stelt u dit in op een positief geheel getal. Patches worden ingebed opgenomen als ze maximaal dat aantal regels bevatten. Standaard worden patches niet ingebed opgenomen.',
   'Track Only' => 'Alleen volgen',
   'Internal method for getting raw diff information.' => 'Interne methode voor het ophalen van ruwe diff-informatie.',
   'Get lint messages for existing code.' => 'Lint-berichten ophalen voor bestaande code.',
@@ -890,8 +1027,31 @@ Deze repository ("%s") is geconfigureerd met een limiet voor geraakte bestanden 
   'This repository has no tags.' => 'Deze repository heeft geen tags.',
   'Empty Commit' => 'Lege commit',
   'OVERSIZED FILE
-This repository ("%s") is configured with a maximum individual file size limit, but you are pushing a change ("%s") which causes the size of a file ("%s") to exceed the limit. The commit makes the file %s bytes long, but the limit for this repository is %s bytes.' => 'TE GROOT BESTAND
+This repository ("%s") is configured with a maximum individual file size limit, but you are pushing a change ("%s") which causes the size of a file ("%s") to exceed the limit. The commit makes the file %s bytes long, but the limit for this repository is %s bytes.' => array(
+    
+    array(
+      
+      array(
+        
+        array(
+          
+          array(
+            'TE GROOT BESTAND
+Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgroottelimiet, maar u pusht een wijziging ("%s") waardoor de grootte van een bestand ("%s") de limiet overschrijdt. De commit maakt het bestand %s byte groot, maar de limiet voor deze repository is %s byte.',
+            'TE GROOT BESTAND
+Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgroottelimiet, maar u pusht een wijziging ("%s") waardoor de grootte van een bestand ("%s") de limiet overschrijdt. De commit maakt het bestand %s byte groot, maar de limiet voor deze repository is %s bytes.',
+          ),
+          
+          array(
+            'TE GROOT BESTAND
+Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgroottelimiet, maar u pusht een wijziging ("%s") waardoor de grootte van een bestand ("%s") de limiet overschrijdt. De commit maakt het bestand %s bytes groot, maar de limiet voor deze repository is %s byte.',
+            'TE GROOT BESTAND
 Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgroottelimiet, maar u pusht een wijziging ("%s") waardoor de grootte van een bestand ("%s") de limiet overschrijdt. De commit maakt het bestand %s bytes groot, maar de limiet voor deze repository is %s bytes.',
+          ),
+        ),
+      ),
+    ),
+  ),
   'Last Write At' => 'Laatste schrijfbewerking op',
   'This repository ("%s") is not a Subversion repository. Use "%s" to interact with this repository.' => 'Deze repository ("%s") is geen Subversion-repository. Gebruik "%s" om met deze repository te werken.',
   'Pattern Search' => 'Patroonzoekopdracht',
@@ -943,13 +1103,16 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'You can not accept this commit because you have already accepted it.' => 'U kunt deze commit niet accepteren omdat u deze al hebt geaccepteerd.',
   'Retrieve file content from a repository.' => 'Bestandsinhoud ophalen uit een repository.',
   'Set the staging area URI.' => 'De staging-gebied-URI instellen.',
-  'This file took too long to load from the repository (more than %s second(s)).' => 'Het laden van dit bestand uit de repository duurde te lang (meer dan %s seconde(n)).',
+  'This file took too long to load from the repository (more than %s second(s)).' => array(
+    'Het laden van dit bestand uit de repository duurde te lang (meer dan %s seconde).',
+    'Het laden van dit bestand uit de repository duurde te lang (meer dan %s seconden).',
+  ),
   'You can set a new password to replace the old password.' => 'U kunt een nieuw wachtwoord instellen om het oude wachtwoord te vervangen.',
   'Search for sync logs for specific repositories.' => 'Zoeken naar synchronisatielogboeken voor specifieke repository\'s.',
   'Lint Details' => 'Lint-details',
   'Controls who can push changes to the repository.' => 'Bepaalt wie wijzigingen naar de repository kan pushen.',
   'This repository can not be protected from dangerous changes because this server does not control what users are allowed to push to it.' => 'Deze repository kan niet worden beschermd tegen gevaarlijke wijzigingen omdat deze server niet bepaalt wat gebruikers ernaar mogen pushen.',
-  '%s edited %s auditor(s), removed %s: %s; added %s: %s.' => '%s heeft %s controleur(s) bewerkt, %s verwijderd: %s; %s toegevoegd: %s.',
+  '%s edited %s auditor(s), removed %s: %s; added %s: %s.' => '%s heeft controleurs bewerkt; verwijderd: %4$s; toegevoegd: %6$s.',
   'Start Test' => 'Test starten',
   'Creates and edits repositories.' => 'Maakt en bewerkt repository\'s.',
   'You do not have permission to access this repository.' => 'U hebt geen toestemming om toegang te krijgen tot deze repository.',
@@ -962,13 +1125,11 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'Ready to Audit' => 'Klaar voor audit',
   'Determine what branches exist for a repository.' => 'Bepalen welke branches bestaan voor een repository.',
   'No Storage Directory' => 'Geen opslagmap',
-  'The raw text of this change took too long to process (longer than %s second(s)). Herald can not process it.' => 'De ruwe tekst van deze wijziging duurde te lang om te verwerken (langer dan %s seconde(n)). Herald kan het niet verwerken.',
   'The repository URI.' => 'De repository-URI.',
   'Device "%s" is already a cluster leader and does not need to be synchronized.' => 'Apparaat "%s" is al een clusterleider en hoeft niet te worden gesynchroniseerd.',
   'This option is most commonly used to temporarily allow a major repository maintenance operation (like a history rewrite) to occur with minimal disruption to users.' => 'Deze optie wordt het vaakst gebruikt om tijdelijk een grote repository-onderhoudsbewerking (zoals een geschiedenisherschrijving) toe te staan met minimale verstoring voor gebruikers.',
   'The Python 2 Standard Library' => 'De Python 2 Standard Library',
   'This commit was rewritten after it was published, which changed the commit hash. This old version of the commit is no longer reachable from any branch, tag or ref. The new version of this commit is %s.' => 'Deze commit is herschreven nadat deze was gepubliceerd, waardoor de commithash is gewijzigd. Deze oude versie van de commit is niet langer bereikbaar vanaf een branch, tag of ref. De nieuwe versie van deze commit is %s.',
-  'This file is larger than %s byte(s), and too large to display in the web UI.' => 'Dit bestand is groter dan %s byte(s) en te groot om weer te geven in de webinterface.',
   'Get metrics (like commit count and most recent commit) for each repository.' => 'Statistieken ophalen (zoals aantal commits en meest recente commit) voor elke repository.',
   'Set the fetched refs.' => 'De opgehaalde refs instellen.',
   'Browse Explicitly Unassigned' => 'Expliciet niet-toegewezen doorbladeren',
@@ -988,6 +1149,7 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'Allow Git Large File Storage (LFS).' => 'Git Large File Storage (LFS) toestaan.',
   'You do not have permission to push to this repository.' => 'U hebt geen toestemming om naar deze repository te pushen.',
   'This repository will be updated soon!' => 'Deze repository wordt binnenkort bijgewerkt!',
+  'Wrong host' => 'Verkeerde host',
   'Acquired write lock immediately.' => 'Schrijfvergrendeling onmiddellijk verkregen.',
   'Retrieve information about commits.' => 'Informatie over commits ophalen.',
   'Repository "%s" is not a cluster repository, but the current host is a cluster device ("%s") and updating this repository would create a new local working copy. This is dangerous, so the repository will not be updated on this host.' => 'Repository "%s" is geen clusterrepository, maar de huidige host is een clusterapparaat ("%s") en het bijwerken van deze repository zou een nieuwe lokale werkkopie aanmaken. Dit is gevaarlijk, dus de repository wordt niet bijgewerkt op deze host.',
@@ -996,7 +1158,7 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'Enable URI' => 'URI inschakelen',
   'Browse Symbols' => 'Symbolen doorbladeren',
   'This commit now has outstanding concerns.' => 'Deze commit heeft nu openstaande bezwaren.',
-  'This server supports Git LFS, a Git extension for storing large files alongside a repository. Activate this setting to allow the extension to store file data.' => 'Deze server ondersteunt Git LFS, een Git-extensie voor het opslaan van grote bestanden naast een repository. Activeer deze instelling om de extensie bestandsgegevens te laten opslaan.',
+  'This server supports Git LFS, a Git extension for storing large files alongside a repository. Activate this setting to allow the extension to store file data.' => 'Deze server ondersteunt Git LFS, een Git-uitbreiding voor het opslaan van grote bestanden naast een repository. Activeer deze instelling om de uitbreiding bestandsgegevens te laten opslaan.',
   'Tags for %s' => 'Tags voor %s',
   'Waiting on another user to finish writing...' => 'Wachten tot een andere gebruiker klaar is met schrijven...',
   'Repository "%s" exists on more than one device, but no device has any repository version information. There is no way for the software to determine which copy of the existing data is authoritative. Promote a device or see "Ambiguous Leaders" in the documentation.' => 'Repository "%s" bestaat op meer dan één apparaat, maar geen enkel apparaat heeft versie-informatie over de repository. De software kan niet bepalen welke kopie van de bestaande gegevens gezaghebbend is. Promoveer een apparaat of zie "Ambiguous Leaders" in de documentatie.',
@@ -1007,6 +1169,7 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'If you disable publishing for this repository, new commits will not: send email, publish feed stories, trigger audits, or trigger Herald.' => 'Als u publiceren voor deze repository uitschakelt, zullen nieuwe commits niet: e-mail verzenden, feedverhalen publiceren, audits activeren of Herald activeren.',
   'Git Large File Storage' => 'Git Large File Storage',
   'See More Branches' => 'Meer branches bekijken',
+  'This method is frozen and will eventually be deprecated. New code should use "diffusion.commit.search" instead.' => 'Deze methode is bevroren en wordt uiteindelijk afgeschaft. Nieuwe code moet in plaats daarvan "diffusion.commit.search" gebruiken.',
   'Line' => 'Regel',
   'Default text encoding.' => 'Standaard tekstcodering.',
   '# Ready to receive on cluster host "%s".
@@ -1017,14 +1180,14 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'Edit Repository URI' => 'Repository-URI bewerken',
   'RECOVERED. Link to master database was restored.' => 'HERSTELD. Verbinding met hoofddatabase is hersteld.',
   'This request is authenticated as a cluster device, but is performing a write. Writes must be performed with a real user account.' => 'Dit verzoek is geauthenticeerd als een clusterapparaat, maar voert een schrijfbewerking uit. Schrijfbewerkingen moeten worden uitgevoerd met een echt gebruikersaccount.',
-  '%s edited reverting change(s), added %s: %s; removed %s: %s.' => '%s heeft terugdraaiende wijziging(en) bewerkt, %s toegevoegd: %s; %s verwijderd: %s.',
+  '%s edited reverting change(s), added %s: %s; removed %s: %s.' => '%s heeft terugdraaiende wijzigingen bewerkt; toegevoegd: %3$s; verwijderd: %5$s.',
   'Use Default (UTF-8)' => 'Standaard gebruiken (UTF-8)',
   'Edit URI' => 'URI bewerken',
   'Discovering…' => 'Ontdekken…',
   'Edit commits.' => 'Commits bewerken.',
   'This commit has no tags.' => 'Deze commit heeft geen tags.',
   'This commit no longer requires audit.' => 'Deze commit vereist geen audit meer.',
-  'Invalid mode "%s".' => 'Ongeldige modus "%s".',
+  'Invalid mode "%s".' => 'Incorrecte modus "%s".',
   'Changes (%s)' => 'Wijzigingen (%s)',
   'No "objectPHID" in task data.' => 'Geen "objectPHID" in taakgegevens.',
   '%s failed to build %s!' => '%s kon %s niet bouwen!',
@@ -1045,7 +1208,18 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
 IMPORTANT: This feature is new, experimental, and not supported. Use it at your own risk.' => 'Om het gemakkelijker te maken om integratietests en builds uit te voeren op code die wordt beoordeeld, kunt u een **Staging-gebied** configureren. Wanneer `arc` een diff aanmaakt, pusht het een kopie van de wijzigingen naar het geconfigureerde staging-gebied met een bijbehorende tag.
 
 BELANGRIJK: Deze functie is nieuw, experimenteel en wordt niet ondersteund. Gebruik op eigen risico.',
-  'Enormous changes are commits which are too large to process with content rules because: the diff text for the change is larger than %s bytes; or the diff text takes more than %s seconds to extract.' => 'Enorme wijzigingen zijn commits die te groot zijn om te verwerken met inhoudsregels omdat: de diff-tekst voor de wijziging groter is dan %s bytes; of de diff-tekst meer dan %s seconden nodig heeft om te extraheren.',
+  'Enormous changes are commits which are too large to process with content rules because: the diff text for the change is larger than %s bytes; or the diff text takes more than %s seconds to extract.' => array(
+    
+    array(
+      'Enorme wijzigingen zijn commits die te groot zijn om te verwerken met inhoudsregels omdat: de diff-tekst voor de wijziging groter is dan %s byte; of de diff-tekst meer dan %s seconde nodig heeft om te extraheren.',
+      'Enorme wijzigingen zijn commits die te groot zijn om te verwerken met inhoudsregels omdat: de diff-tekst voor de wijziging groter is dan %s byte; of de diff-tekst meer dan %s seconden nodig heeft om te extraheren.',
+    ),
+    
+    array(
+      'Enorme wijzigingen zijn commits die te groot zijn om te verwerken met inhoudsregels omdat: de diff-tekst voor de wijziging groter is dan %s bytes; of de diff-tekst meer dan %s seconde nodig heeft om te extraheren.',
+      'Enorme wijzigingen zijn commits die te groot zijn om te verwerken met inhoudsregels omdat: de diff-tekst voor de wijziging groter is dan %s bytes; of de diff-tekst meer dan %s seconden nodig heeft om te extraheren.',
+    ),
+  ),
   'View Pull Logs' => 'Pull-logboeken bekijken',
   'Pushed By' => 'Gepusht door',
   'Unexpected number of output lines from "git diff-tree" when processing commit ("%s"): expected an even number of lines.' => 'Onverwacht aantal uitvoerregels van "git diff-tree" bij het verwerken van commit ("%s"): een even aantal regels verwacht.',
@@ -1063,6 +1237,21 @@ BELANGRIJK: Deze functie is nieuw, experimenteel en wordt niet ondersteund. Gebr
   'This repository is inactive.' => 'Deze repository is inactief.',
   'This page documents the commands you can use to interact with commits and audits in Diffusion.' => 'Deze pagina documenteert de commando\'s die u kunt gebruiken om te werken met commits en audits in Diffusion.',
   'Failed to load file object for Git LFS ref "%s"!' => 'Kan bestandsobject voor Git LFS-ref "%s" niet laden!',
+  'Provide the URI of a Git repository. It should usually look like one of these examples:
+
+| Example Git URIs
+| -----------------------
+| `git@github.com:example/example.git`
+| `ssh://user@host.com/git/example.git`
+| `https://example.com/repository.git`
+**For Gerrit URIs below: Do not use https://gerrit.wikimedia.org but use https://gerrit-replica.wikimedia.org instead!**' => 'Geef de URI van een Git-repository op. Die hoort er meestal uit te zien als een van deze voorbeelden:
+
+| Voorbeeld Git-URI\'s
+| -----------------------
+| `git@github.com:example/example.git`
+| `ssh://user@host.com/git/example.git`
+| `https://example.com/repository.git`
+**Voor onderstaande Gerrit-URI\'s: gebruik niet https://gerrit.wikimedia.org maar https://gerrit-replica.wikimedia.org!**',
   'Normally, repositories are automatically updated based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => 'Normaal gesproken worden repository\'s automatisch bijgewerkt op basis van hoeveel tijd er is verstreken sinds de laatste commit. Dit helpt de belasting te verminderen als u een groot aantal grotendeels inactieve repository\'s hebt, wat gebruikelijk is.',
   'Automation blueprints.' => 'Automatiseringsblauwdrukken.',
   'Removed diff content' => 'Verwijderde diff-inhoud',
@@ -1141,7 +1330,6 @@ BELANGRIJK: Deze functie is nieuw, experimenteel en wordt niet ondersteund. Gebr
   'No Staging Area' => 'Geen staging-gebied',
   'This commit will be approved.' => 'Deze commit wordt goedgekeurd.',
   'Reverts' => 'Draait terug',
-  'tag (git)' => 'tag (git)',
 );
   }
 

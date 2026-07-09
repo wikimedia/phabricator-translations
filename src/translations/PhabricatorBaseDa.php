@@ -13,7 +13,6 @@ final class PhabricatorBaseDa
   'Can Configure Application' => 'Kan konfigurere applikation',
   'Can Use Application' => 'Kan bruge applikation',
   'No application!' => 'Ingen applikation!',
-  'Developer Tools' => 'Udviklerværktøjer',
 );
   }
 

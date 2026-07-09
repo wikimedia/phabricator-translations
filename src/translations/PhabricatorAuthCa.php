@@ -28,6 +28,7 @@ En general, només heu d’utilitzar aquesta opció en un entorn de desenvolupam
   'You must specify the username of the account to recover.' => 'Heu d’especificar el nom d’usuari del compte per recuperar-lo.',
   'Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting %s for details.' => 'La configuració del proveïdor d\'autenticació està bloquejada i no es pot canviar sense estar desbloquejada. Consulteu el paràmetre de configuració %s per a més detalls.',
   'Revoke Tokens' => 'Revoca Testimonis',
+  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%s), expected exactly one.' => 'S\'ha assolit la validació del repte TOTP amb un nombre inesperat de desafiaments no caducats (%s), s\'esperava exactament un.',
   'There are too many configured default registration providers.' => 'Hi ha massa proveïdors de registre predeterminats configurats.',
   'Unlink "%s" Account?' => 'Voleu desenllaçar el compte "%s"?',
   'Strip factors from specified users.' => 'Despulla de factors els usuaris especificats.',
@@ -74,7 +75,6 @@ Després de completar la configuració, copieu la **clau** i el **Secret** als c
   'You have not configured any multi-factor providers yet.' => 'Encara no heu configurat cap proveïdor multifactor.',
   'Unable to Log In' => 'No es pot iniciar la sessió',
   'The external service ("%s") you just used to log in is already associated with another %s user account. Log in to the other %s account and unlink the external account before linking it to a new %s account.' => 'El compte extern («%s») on acabeu d\'iniciar sessió ja està associat a un altre compte d\'usuari de Phabricator. Inicieu sessió a l\'altre compte Phabricator i desenllaçeu el compte extern abans d\'enllaçar-lo a un nou compte Phabricator.',
-  'Before you can use this software, you need to add multi-factor authentication to your account. Multi-factor authentication helps secure your account by making it more difficult for attackers to gain access or take sensitive actions.' => 'Abans d’utilitzar Phabricator, heu d’afegir l’autenticació multifactor al vostre compte. L’autenticació multifactor ajuda a protegir el vostre compte, impedeix que els atacants puguin accedir o dur a terme accions confidencials.',
   'To configure Twitch.tv OAuth, create a new application here:
 
 https://www.twitch.tv/settings/applications
@@ -261,7 +261,6 @@ Després de completar la configuració, copieu el **Identificador de client** i 
   'Add Multi-Factor Auth' => 'Afegiu una autenticació de múltiples factors',
   'The contact number.' => 'El número de contacte.',
   'You must enter an LDAP username.' => 'Heu d\'introduir un nom d\'usuari LDAP.',
-  'Reached TOTP challenge validation with an unexpected number of unexpired challenges (%d), expected exactly one.' => 'S\'ha assolit la validació del repte TOTP amb un nombre inesperat de desafiaments no caducats (%d), s\'esperava exactament un.',
   'Refresh LDAP Account' => 'Actualitza el compte LDAP',
   'The password and confirmation do not match.' => 'La contrasenya i la confirmació no coincideixen.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Restableix els comptadors d\'accions perquè un usuari pugui continuar fent accions amb un percentatge limitat.',
@@ -379,7 +378,6 @@ Si encara no ho heu fet, descarregueu i instal·leu ara una aplicació TOTP al t
   'You recently provided a response to this factor. Responses may not be reused. Wait %s second(s) for the code to cycle, then try again.' => 'Vostè ha respost recentment a aquest factor. Les respostes no es poden reutilitzar.  Espereu %s segons perquè el codi cicli, després torneu-ho a provar.',
   'Refresh OAuth access tokens. This is primarily useful for development and debugging.' => 'Actualitza els testimonis d\'accés OAuth. Això és útil principalment per al desenvolupament i la depuració.',
   'Public SSH Key' => 'Clau SSH pública',
-  'Username and password are required!' => 'Cal un nom d\'usuari i una contrasenya!',
   'Expected \'%s\' in request!' => 'S\'esperava \'%s\' a la petició!',
   '%s updated the OAuth application notes for this provider.' => '%s ha actualitzat les notes de l\'aplicació OAuth per a aquest proveïdor.',
   'Installation is complete. Register your administrator account below to log in. You will be able to configure options and add authentication mechanisms later on.' => 'La instal·lació s\'ha completat. Registreu el vostre compte d\'administrador a continuació per iniciar la sessió. Més endavant podreu configurar opcions i afegir mecanismes d\'autenticació.',
@@ -489,6 +487,7 @@ Després de completar la configuració, copieu l\'**ID Client** i **client secre
   'DISABLE APPROVAL QUEUE' => 'DESACTIVA LA CUA D\'APROVACIÓ',
   'Specify either specific factors with "--type", or all factors with "--all-types", but not both.' => 'Especifiqueu els factors específics amb "--type", o tots els factors amb "--all-types", però no els dos.',
   'No OAuth Access Token' => 'Sense testimoni d\'autenticació OAuth',
+  'Invalid JSON response from "user.whoami" request: %s' => 'S\'esperava una resposta JSON vàlida de la sol·licitud user.whoami.',
   'This password is associated with an object PHID ("%s") for a different object than the provided one ("%s").' => 'Aquesta contrasenya està associada amb un PHID d\'objecte ("%s") d\'un objecte diferent que el proporcionat un ("%s").',
   'Your %s account is already connected to an external account on this service ("%s"), but you are currently logged in to the service with a different account. Log out of the external service, then log back in with the correct account before refreshing the account link.' => 'El vostre compte de Phabricator ja està connectat a un compte extern d\'aquest proveïdor (\'%s\'), però actualment heu iniciat la sessió al proveïdor amb un compte diferent. Tanqueu la sessió al servei extern i torneu a iniciar la sessió amb el compte correcte abans d’actualitzar l’enllaç del compte.',
   'Verify this email address (%s) and attach it to your account (%s)?' => 'Verificar aquesta adreça electrònica (%s) i adjuntar-la al vostre compte (%s)?',
@@ -540,9 +539,31 @@ Trieu un nom permanent per a la instància del servidor OAuth de Phabricator. //
   'Locked the authentication provider configuration.' => 'S\'ha bloquejat la configuració del proveïdor d\'autenticació.',
   'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Especifiqueu l\'objectiu des del qual revocar les credencials amb "--from" o especifiqueu "--everywhere", però no tots dos.',
   'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'El vostre navegador ha enviat una clau de registre diferent de la associada a aquest compte. És possible que hagueu d’esborrar les galetes.',
+  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'La contrasenya que heu introduït s\'ha revocat. No podeu tornar a utilitzar una contrasenya revocada. Trieu una contrasenya nova.',
   'Make Primary Number' => 'Feu el número principal',
   'Strip factors from all users.' => 'Despulla de factors tots els usuaris.',
   'Duo username pairing mode ("%s") is not supported.' => 'No s\'admet el mode d\'aparellament de noms d\'usuari Duo ("%s").',
+  '**Step 2 of 2 - Configure OAuth Server**
+
+To configure OAuth, create a new application here:
+
+%s
+
+When creating your application, use these settings:
+
+  - **Redirect URI:** Set this to: `%s`
+
+After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Pas 2 de 2 - Configurar la instància OAuth de Phabricator** 
+
+Per configurar OAuth Phabricator, creeu una aplicació nova aquí: 
+
+%s/oauthserver/client/crear/ 
+
+En crear l\'aplicació, utilitzeu aquests paràmetres: 
+
+  - **URI de redirecció:** Establiu-ho a: `%s` 
+
+Després de completar la configuració, copieu l\'ID **Client** i **secret del client** als camps anteriors.  (Podeu haver de generar el secret del client fent clic a \'secret nou\' primer.)',
   'Facebook' => 'Facebook',
   'Really revoke all tokens? Among other temporary authorizations, this will disable any outstanding password reset or account recovery links.' => 'Segur que voleu revocar tots els testimonis?  Entre altres autoritzacions temporals, això inhabilitarà qualsevol enllaç pendent de restabliment de contrasenya o recuperació de comptes.',
   'LDAP Version' => 'Versió de LDAP',
@@ -748,7 +769,6 @@ Després de completar la configuració, copieu la **clau del consumidor** i el *
   'Really destroy credentials everywhere?' => 'Voleu destruir les credencials a tot arreu?',
   '%s changed the username policy for this provider from %s to %s.' => '%s ha canviat la política d\'usuari per a aquest proveïdor de %s a %s.',
   'A passphrase was provided for this private key, but it does not require a passphrase. Check that you supplied the correct key, or omit the passphrase.' => 'S\'ha proporcionat una frase de contrasenya per a aquesta clau privada, però no requereix una contrasenya. Comproveu que heu proporcionat la clau correcta o ometeu la contrasenya.',
-  'Expected valid JSON response from "user.whoami" request.' => 'S\'esperava una resposta JSON vàlida de la sol·licitud user.whoami.',
   '%s created this provider.' => '%s ha creat aquest proveïdor.',
   'Revokes temporary authentication tokens.
 
@@ -794,27 +814,6 @@ Error LDAP #%d: %s',
   'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.' => 'Primer s’enumeren algoritmes més forts. L’algorisme ressaltat s’utilitzarà quan s’emmagatzemin nous hash. Els hash anteriors s’actualitzaran al millor algorisme amb el pas del temps.',
   'These auth factors will be stripped:' => 'Aquests factors auth seran despullats:',
   'Engine: Session' => 'Motor: Sessió',
-  '**Step 2 of 2 - Configure OAuth Server**
-
-To configure OAuth, create a new application here:
-
-%s/oauthserver/client/create/
-
-When creating your application, use these settings:
-
-  - **Redirect URI:** Set this to: `%s`
-
-After completing configuration, copy the **Client ID** and **Client Secret** to the fields above. (You may need to generate the client secret by clicking \'New Secret\' first.)' => '**Pas 2 de 2 - Configurar la instància OAuth de Phabricator** 
-
-Per configurar OAuth Phabricator, creeu una aplicació nova aquí: 
-
-%s/oauthserver/client/crear/ 
-
-En crear l\'aplicació, utilitzeu aquests paràmetres: 
-
-  - **URI de redirecció:** Establiu-ho a: `%s` 
-
-Després de completar la configuració, copieu l\'ID **Client** i **secret del client** als camps anteriors.  (Podeu haver de generar el secret del client fent clic a \'secret nou\' primer.)',
   'Require Existing Duo Account' => 'Requereix un compte de Duo existent',
   'Upload SSH Public Key' => 'Pengeu la clau pública SSH',
   '%s changed the hostname for this provider from %s to %s.' => '%s ha reanomenat el host d\'aquest proveïdor de %s a %s.',
@@ -898,7 +897,6 @@ Tingueu en compte que haureu de reiniciar els dimonis perquè això tingui efect
   'Enroll Duo Account: %s' => 'Inscripció al compte de Duo: %s',
   'Your login session is invalid, and clearing the session cookie was unsuccessful. Try clearing your browser cookies.' => 'La sessió d\'inici de sessió no és vàlida i no s\'ha pogut esborrar la galeta de sessió. Proveu d\'esborrar les galetes del navegador.',
   'OAuth Consumer Secret' => 'OAuth Secret del consumidor',
-  'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'La contrasenya que heu introduït s\'ha revocat. No podeu tornar a utilitzar una contrasenya revocada. Trieu una contrasenya nova.',
 );
   }
 

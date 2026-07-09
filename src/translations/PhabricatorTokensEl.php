@@ -26,7 +26,6 @@ final class PhabricatorTokensEl
   '%s Token' => 'Κέρμα %s',
   'Award "%s" Token' => 'Βράβευση Κέρματος "%s"',
   'No such object "%s"!' => 'Δεν υπάρχει τέτοιο αντικείμενο "%s"!',
-  'Give or change a token.' => 'Δώστε ή αλλάξτε ένα κέρμα.',
   'Orange Medal' => 'Πορτοκαλί μετάλλιο',
   'Dat Boi' => 'Αυτό το αγόρι',
   'Award Token' => 'Βράβευση Κέρματος',

@@ -14,7 +14,6 @@ final class PhabricatorBaseScn
   'Can Use Application' => 'Pò usari l\'appricazzioni',
   'No application!' => 'Nudda appricazzioni!',
   '%s Application' => 'Appricazzioni %s',
-  'Developer Tools' => 'Strummenta dû sviluppaturi',
 );
   }
 

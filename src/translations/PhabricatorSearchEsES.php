@@ -12,7 +12,6 @@ final class PhabricatorSearchEsES
   'No results.' => 'No hay ningún resultado.',
   'This menu item is very important, and can not be disabled.' => 'Este elemento del menú es muy importante y no se puede desactivar.',
   'Enable Query?' => '¿Quieres activar la consulta?',
-  'Format' => 'Formato',
   'cat -A can find mice hiding in files.' => 'La orden «cat -A» puede encontrar ratones escondidos en los archivos.',
   'N/A' => 'N/D',
   'Add to Dashboard' => 'Agregar al panel de control',

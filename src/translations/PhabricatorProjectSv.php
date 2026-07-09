@@ -33,10 +33,8 @@ final class PhabricatorProjectSv
   'Custom Projects fields.' => 'Anpassade projektfält.',
   'Projects being edited' => 'Projekt som redigeras',
   'Parent Projects' => 'Överordnade projekt',
-  'Added Projects' => 'Lade till projekt',
   'Project Reports' => 'Projektrapporter',
   'Can Create Projects' => 'Kan skapa projekt',
-  'Add related projects.' => 'Lägg till relaterade projekt.',
   'Remove projects' => 'Ta bort projekt',
   '%s removed %s project(s) from %s: %s.' => '%s tog bort %s projekt från %s: %s.',
   'Members: ...' => 'Medlemmar: ...',
@@ -50,7 +48,6 @@ final class PhabricatorProjectSv
   'Add project tags.' => 'Lägg till projekttaggar.',
   'Change Project Tags' => 'Ändra projekttaggar',
   'Add projects: %s.' => 'Lägg till projekt: %s.',
-  'Removed Projects' => 'Ta bort projekt',
   'Play sound' => 'Spela ljud',
 );
   }

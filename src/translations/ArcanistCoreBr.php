@@ -26,7 +26,6 @@ final class ArcanistCoreBr
   'ERROR' => 'FAZI',
   'Changes Planned' => 'Kemmoù rakwelet',
   'Copied Here' => 'Eilet amañ',
-  'Install PEP8 using `%s`.' => 'Staliañ PEP8 en ur implijout `%s`.',
   '    %s %s
 ' => '    %s %s',
   'Install flake8 using `%s`.' => 'Staliañ flake8 en ur implijout \'%s\'',

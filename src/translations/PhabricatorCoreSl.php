@@ -58,7 +58,6 @@ final class PhabricatorCoreSl
   'Search for namespaces by name substring.' => 'Iskanje imenskih prostorov po podnizu imena.',
   'XHProf' => 'XHProf',
   'Storage patch "%s" specifies attribute "%s", but this attribute is unknown.' => 'Popravek shranjevanja »%s« določa atribut »%s«, vendar je ta atribut neznan.',
-  'Unsupported action "%s".' => 'Nepodprto dejanje »%s«.',
   'Reopened' => 'Znova odprto',
   'Autoscale pool "%s" has not been busy long enough to scale up (busy for %s of %s seconds).' => 'Samodejno lestvičenje zbira »%s« ni bilo dejavno dovolj dolgo za povečanje (dejavno %s od %s sekund).',
   '%s Before' => '%s prej',
@@ -114,7 +113,6 @@ final class PhabricatorCoreSl
   'Length parameter in %s must be at least %s, but %s was provided.' => 'Parameter dolžine v %s mora biti vsaj %s, vendar je bil %s.',
   'Publishing Disabled' => 'Objavljanje onemogočeno',
   'Give Token' => 'Predložite žeton',
-  'Merchant' => 'Trgovec',
   '%s removed %s as %s.' => '%s je odstranil_a %s kot %s.',
   'Popping an empty %s!' => 'Izstrelitev praznega %s!',
   'Overview' => 'Pregled',
@@ -149,7 +147,6 @@ final class PhabricatorCoreSl
   'Current Tasks' => 'Trenutne naloge',
   'Summary' => 'Povzetek',
   'Unknown edit string "%s"!' => 'Neznan niz urejanja »%s«!',
-  'Failed to write %d byte(s) to "%s".' => 'V »%2$s« ni bilo mogoče zapisati %d zloga(ov).',
   'URI "%s" is not a valid fetchable resource. The domain "%s" could not be resolved.' => 'URI »%s« ni veljaven vir, ki ga je mogoče pridobiti. Domene »%s« ni bilo mogoče razrešiti.',
   'Duration' => 'Trajanje',
   'Change status to' => 'Spremenite stanje v',
@@ -158,7 +155,6 @@ final class PhabricatorCoreSl
   'Comma-Separated Values (.csv)' => 'Vrednosti, ločene z vejicami (.csv)',
   'Paths' => 'Poti',
   'Trying to remember lock "%s", but this lock has already been remembered.' => 'Poskušam si zapomniti ključavnico »%s«, vendar je ta ključavnica že shranjena.',
-  'OLD MySQL VERSION' => 'STARA RAZLIČICA MySQL',
   'Custom Fields' => 'Polja po meri',
   'Task %s complete! Moved to archive.' => 'Naloga %s končana! Prestavljeno v arhiv.',
   'Value for "%%Z" conversion should be a raw string.' => 'Vrednost za pretvorbo »$Z« mora biti goli niz.',
@@ -180,7 +176,6 @@ final class PhabricatorCoreSl
   'Group' => 'Skupina',
   '%s added %s edge(s): %s.' => '%s je dodal_a %s rob(ov): %s.',
   'COMMIT' => 'IZROČI',
-  'Edge search must specify a nonempty list of edge types.' => 'Iskanje robov mora podati neprazen seznam tipov robov.',
   'Type an object name...' => 'Vnesite ime objekta ...',
   'Menu contains duplicate items with key \'%s\'!' => 'Meni vsebuje podvojene elemente s ključem »%s«!',
   'Other Project...' => 'Drug projekt ...',
@@ -197,7 +192,6 @@ final class PhabricatorCoreSl
   'Database cluster configuration describes an invalid host ("%s", at index "%s") with an unrecognized role ("%s"). Valid roles are "%s" or "%s".' => 'Konfiguracija gruče podatkovne zbirke opisuje neveljavnega gostitelja (»%s«, pri indeksu »%s«) z neprepoznano vlogo (»%s«). Veljavni vlogi sta »%s« in »%s«.',
   'Analyzing tables...' => 'Analiza tabel ...',
   'Transaction' => 'Transakcija',
-  'Failed to write %d byte(s) to file "%s".' => 'V datoteko »%2$s« ni bilo mogoče zapisati %d zloga(ov).',
   'Active Repositories' => 'Aktivne shrambe',
   'In-process task ("%s") failed permanently.' => 'Naloga v procesu (»%s«) je trajno spodletela.',
   'Attempting to access attached data on %s, but the data is not actually attached. Before accessing attachable data on an object, you must load and attach it.
@@ -208,7 +202,6 @@ Podatki so običajno pripeti s klicem ustrezne metode %s v razredu Query, ko je 
   'Unable to Reach Any Database' => 'Doseči ni mogoče nobene podatkovne zbirke',
   'September' => 'september',
   '%s After' => '%s po',
-  'Expiration' => 'Pretek',
   'Grey' => 'Sivo',
   'Color' => 'Barva',
   '%s is already archived, and can not be delayed.' => '%s je že arhiviran in ga ni mogoče zakasniti.',
@@ -235,7 +228,6 @@ Podatki so običajno pripeti s klicem ustrezne metode %s v razredu Query, ko je 
   'Team' => 'Ekipa',
   'Almanac Services' => 'Storitve almanaha',
   'This server is in read-only mode.' => 'Strežnik je v načinu samo za branje.',
-  'Inferred types for string "%s" vary across callsites.' => 'Ugotovljene vrste za niz »%s« se razlikujejo glede na klicna mesta.',
   'This server is in read-only mode (major interruption).' => 'Ta strežnik je v načinu samo za branje (večja prekinitev).',
   '(Show All)' => '(Prikaži vse)',
   'EXTRACT' => 'IZVLECI',
@@ -300,7 +292,6 @@ Na kratko:
  imenik »Classes« (npr. »/path/to/example/PHPExcel/Classes«).',
   'Edit Menu' => 'Uredi meni',
   'Acting User' => 'Dejavni uporabnik',
-  'Edit Provider' => 'Uredi ponudnika',
   'Learn More' => 'Več o tem',
   'Unnamed Footer Item' => 'Nepoimenovani element noge',
   'Worker has invalid job ID ("%s").' => 'Delavec ima neveljaven ID opravila (»%s«).',
@@ -309,6 +300,7 @@ Na kratko:
   'November' => 'november',
   'Some of these errors are caused by access control problems. The user you are connecting with does not have permission to see all of the database or tables that this software uses. You need to GRANT the user more permission, or use a different user.' => 'Nekatere od teh napak povzročajo težave z nadzorom dostopa. Uporabnik, s katerim se povezujete, nima dovoljenja za ogled celotne podatkovne zbirke ali tabel, ki jih uporablja to programje. Uporabniku morate PODELITI dodatna dovoljenja ali uporabiti drugega uporabnika.',
   'List databases.' => 'Navedi podatkovne zbirke',
+  'Failed to write %s byte(s) to "%s".' => 'V »%2$s« ni bilo mogoče zapisati %s zloga(ov).',
   'Add New Address' => 'Dodaj nov naslov',
   'Edit Package' => 'Uredi paket',
   'This server is configured with multiple master databases, but master "%s" is missing a "partition" configuration key to define application partitioning.' => 'Ta strežnik je konfiguriran z več glavnimi b podatkovnimi zbirkami, vendar glavni zbirki »%s«  manjka konfiguracijski ključ »particije« za določitev particioniranja aplikacij.',
@@ -390,34 +382,12 @@ Na kratko:
   'Developer Settings' => 'Nastavitve za razvijalce',
   'Repository projects' => 'Projekti shrambe',
   'Welcome to %s!' => 'Pozdravljeni v %s!',
-  'You have an old version of MySQL (older than 5.5) which does not support the utf8mb4 character set. We strongly recommend upgrading to 5.5 or newer.
-
-If you apply adjustments now and later update MySQL to 5.5 or newer, you\'ll need to apply adjustments again (and they will take a long time).
-
-You can exit this workflow, update MySQL now, and then run this workflow again. This is recommended, but may cause a lot of downtime right now.
-
-You can exit this workflow, continue using this software without applying adjustments, update MySQL at a later date, and then run this workflow again. This is also a good approach, and will let you delay downtime until later.
-
-You can proceed with this workflow, and then optionally update MySQL at a later date. After you do, you\'ll need to apply adjustments again.
-
-For more information, see "Managing Storage Adjustments" in the documentation.' => 'Imate staro različico MySQL (starejšo od 5.5), ki ne podpira nabora znakov utf8mb4. Močno priporočamo nadgradnjo na 5.5 ali novejšo.
-
-Če uveljavite prilagoditve zdaj in pozneje posodobite MySQL na 5.5 ali novejšo različico, boste morali prilagoditve pozneje znova uveljaviti (kar bo trajalo dolgo).
- 
-Lahko zaprete ta potek dela, posodobite MySQL zdaj in nato znova zaženete ta potek dela. To je priporočljivo, vendar lahko trenutno povzroči veliko izpadov.
-
-Lahko zaprete ta potek dela, nadaljujete uporabo te programske opreme brez uveljavljanja prilagoditev, posodobite MySQL pozneje in nato znova zaženete ta potek dela. Tudi to je dober pristop in vam bo omogočil odložitev nedelovanja na pozneje.
-
-Lahko nadaljujete ta potek dela in nato po želji posodobite MySQL pozneje. Ko boste to storili, boste morali prilagoditve znova uveljaviti.
-
-Za več informacij glejte »Upravljanje prilagoditev shranjevanja« v dokumentaciji.',
   'Error' => 'Napaka',
   'Form' => 'Obrazec',
   'SUCCESS' => 'USPEH',
   'Not Done' => 'Ni opravljeno',
   'Default' => 'Privzeto',
   'Database / Table' => 'Podatkovna zbirka/tabela',
-  'Unsubscribe' => 'Odnaroči',
   'Tags' => 'Oznake',
   'List of user PHIDs, as array.' => 'Seznam PHID-ov uporabnikov, kot matrika.',
   'Email' => 'E-pošta',
@@ -552,13 +522,11 @@ namestitvi razširitve si oglejte težavo z nastavitvijo v aplikaciji Config.',
   'Done' => 'Opravljeno',
   'No tasks selected to cancel.' => 'Za preklic ni bilo izbrano nobeno opravilo.',
   'PREVIEW' => 'PREDOGLED',
-  'Add Provider' => 'Dodaj ponudnika',
   'Date' => 'Datum',
   'Loading preview...' => 'Nalaganje predogleda ...',
   'This server is in read-only mode (no writable database is configured).' => 'Ta strežnik je v načinu samo za branje (nastavljena ni nobena zapisljiva podatkovna zbirka).',
   'Referenced' => 'Referencirano',
   'Page Menu' => 'Meni strani',
-  'Item' => 'Predmet',
   'Icons' => 'Ikone',
   'Archived' => 'Arhivirano',
   'Save' => 'Shrani',
@@ -576,11 +544,11 @@ namestitvi razširitve si oglejte težavo z nastavitvijo v aplikaciji Config.',
   'Delete' => 'Izbriši',
   '%s is archived; archived tasks do not have leases.' => '%s je arhivirano; arhivirana opravila nimajo zakupov.',
   'Save Changes' => 'Shrani spremembe',
+  'Failed to write %s byte(s) to file "%s".' => 'V datoteko »%2$s« ni bilo mogoče zapisati %s zloga(ov).',
   'View Edit History' => 'Ogled zgodovine urejanja',
   'Encountered a processing exception, then another exception when trying to build a response for the first exception.' => 'Pri poskusu sestavljanja odgovora za prvo izjemo je prišlo do izjeme pri obdelavi, nato še do ene izjeme.',
   'Repeat archived, successful tasks.' => 'Ponovi arhivirana, uspešna opravila.',
   'Data Export' => 'Izvoz podatkov',
-  'Install' => 'Namesti',
   'Repository description.' => 'Opis shrambe.',
   'Some of these errors are caused by surplus schemata (extra tables or columns which this software does not expect). These are not serious. For information on resolving these issues, see the "Surplus Schemata" section in the "Managing Storage Adjustments" article in the documentation.' => 'Nekatere od teh napak povzročajo presežne sheme (dodatne tabele ali stolpce, ki jih to programje ne pričakuje). To ni resno. Za informacije o odpravljanju teh težav glejte razdelek »Shema presežka« v članku »Upravljanje prilagoditev shranjevanja« v dokumentaciji.',
 );

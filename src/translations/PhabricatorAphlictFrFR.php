@@ -33,6 +33,7 @@ final class PhabricatorAphlictFrFR
   'Show the status of the notification server.' => 'Afficher l’état du serveur de notification.',
   'Configuration file does not specify any servers. This service will not be able to interact with the outside world if it does not listen on any ports. You must specify at least one "%s" server and at least one "%s" server.' => 'Le fichier de configuration ne spécifie aucun serveur. Ce service ne pourra pas interagir avec le monde extérieur s’il n’écoute aucun port. Vous devez spécifier au moins un serveur « %s » et au moins un serveur « %s ».',
   'Start the notifications server.' => 'Démarrer le serveur de notifications.',
+  'Aphlict (%s) is running.' => 'Aphlict (%s) tourne.',
   'User to notify.' => 'Utilisateur à notifier.',
   'Stop, then start the notification server.' => 'Arrêter, puis démarrer le serveur de notifications.',
   'Failed to read configuration file. %s' => 'Échec de lecture du fichier de configuration. %s',
@@ -52,7 +53,6 @@ final class PhabricatorAphlictFrFR
   'Aphlict Server started.' => 'Serveur Aphlict démarré.',
   'Stopping Aphlict Server (%s)...' => 'Arrêt du serveur Aphlict (%s)…',
   'Failed to create directory "%s" for specified PID file. You should manually create this directory or choose a different PID file location. %s' => 'Échec de création du répertoire « %s » pour le fichier de PID spécifié. Vous devez créer manuellement ce répertoire ou choisir un emplacement de fichier de PID différent. %s',
-  'Aphlict (%s) is running.' => 'Aphlict (%s) tourne.',
 );
   }
 

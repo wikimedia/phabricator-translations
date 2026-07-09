@@ -20,6 +20,7 @@ final class PhabricatorSubscriptionsPl
   'You are automatically subscribed to this object.' => 'Automatycznie subskrybujesz ten obiekt.',
   'Remove yourself as a subscriber.' => 'Usuń siebie ze subskrybentów.',
   'Added Subscribers' => 'Dodani subskrybenci',
+  'Unsubscribe' => 'Zrezygnuj z subskrypcji',
   'Mute Notifications' => 'Wycisz powiadomienia',
   'Add subscribers.' => 'Dodaj subskrybentów.',
 );

@@ -14,7 +14,6 @@ final class PhabricatorAuditCa
   'Find commits with particular identifiers (usually, hashes). Supports full or partial identifiers (like "abcd12340987..." or "abcd1234") and qualified or unqualified identifiers (like "rXabcd1234" or "abcd1234").' => 'Cerca validacions amb identificadors particulars (normalment, hash). Admet identificadors parcials o complets (com ara "abcd12340987 ..." o "abcd1234") i identificadors qualificats o no qualificats (com "rXabcd1234" o "abcd1234").',
   '%s resigned from auditing %s.' => '%s ha renunciat a fer l\'auditoria de %s.',
   'Specified maximum date must come after specified minimum date.' => 'La data màxima especificada ha de venir després de la data mínima especificada.',
-  'A commit\'s projects change.' => 'Modificació de les validacions del projecte.',
   '%s added subscribers: %s.' => '%s ha afegit subscriptors: %s.',
   'Query audit requests.' => 'Sol·licituds d\'auditoria de consultes.',
   'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => 'Especifiqueu "--all" per afectar-ho tot, o una llista de validacions o repositoris específics per afectar.',

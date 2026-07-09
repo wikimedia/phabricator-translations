@@ -9,7 +9,6 @@ final class PhabricatorDrydockScn
 
   protected function getTranslations() {
     return array(
-  'Show Details' => 'Ammustra li dittagghî',
   'Logs' => 'Riggistri',
   'Hide Details' => 'Ammuccia li dittagghî',
   'States' => 'Stati',

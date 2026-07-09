@@ -10,6 +10,13 @@ final class PhabricatorFeedTr
   protected function getTranslations() {
     return array(
   'Call %s before publishing!' => 'Yayınlamadan önce %s arayın!',
+  'IMPORTANT: Feed hooks are deprecated and have been replaced by Webhooks.
+
+You can configure Webhooks in Herald. This configuration option will be removed
+in a future version of the software.
+
+(This legacy option may be configured with a list of URIs; feed stories will
+send to these URIs.)' => '',
   'Dictionary with various data of the story' => 'Hikayenin çeşitli verileri ile sözlük',
   'All Stories' => 'Tüm Hikayeler',
   'Query the feed for stories' => 'Hikayeler için özet akışını sorgula',
@@ -22,6 +29,7 @@ final class PhabricatorFeedTr
   'Simple one-line plain text representation of story' => 'Hikayenin basit tek satırlık düz metin gösterimi',
   'Include Projects' => 'Projeleri Dahil Et',
   'Specify a story key to republish.' => 'Yeniden yayınlamak için bir hikaye anahtarı belirtin.',
+  'The specified "Created Before" date is earlier in time than the specified "Created After" date, so this query can never match any results.' => '',
   'The specified "Occurs Before" date is earlier in time than the specified "Occurs After" date, so this query can never match any results.' => 'Belirtilen "Önce Oluşur" tarihi, belirtilen "Oluştuktan Sonra" tarihinden daha erkendir, bu nedenle bu sorgu hiçbir sonuçla eşleşemez.',
   'Republish a feed event to all consumers.' => 'Bir yayın etkinliğini tüm tüketicilere yeniden yayınlayın.',
   'Include Users' => 'Kullanıcıları Dahil Et',
@@ -40,6 +48,7 @@ final class PhabricatorFeedTr
   'Transaction Logs' => 'İşlem Kütüğü',
   'Trying to retrieve markup field key "%s", but this feed story did not request it be rendered.' => '"%s" işaretleme alan anahtarını almaya çalışıyor, ancak bu yayın öyküsü oluşturulmasını istemedi.',
   'Feed Stories' => 'Yayın Hikayeleri',
+  'Feed query minimum range must be lower than maximum range.' => '',
   'Unknown rendering target: %s' => 'Bilinmeyen görüntü oluşturma hedefi: %s',
   'Include stories about projects I am a member of.' => 'Üyesi olduğum projelerle ilgili hikayeleri dahil et.',
   'All Transactions' => 'Tüm İşlemler',

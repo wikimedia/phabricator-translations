@@ -30,7 +30,6 @@ final class PhabricatorProjectHu
   'Watch Project' => 'Projekt figyelése',
   'Unlock Project' => 'Projekt feloldása',
   'You are watching this project and will receive mail about changes made to any related object.' => 'Figyeled ezt a projektet, és levelet fogsz kapni minden kapcsolódó objektum változásairól.',
-  'Add related projects.' => 'Kapcsolódó projektek hozzáadása.',
   'Sort by Title' => 'Rendezés cím szerint',
   'Tasks Created' => 'Létrehozott feladatok',
   'Group by Status' => 'Csoportosítás állapot szerint',

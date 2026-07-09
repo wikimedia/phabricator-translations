@@ -16,7 +16,6 @@ final class PhabricatorBasePtBR
   'Core Applications' => 'Aplicativos principais',
   'No application!' => 'Nenhuma aplicativo!',
   '%s Application' => '%s Aplicativo',
-  'Developer Tools' => 'Ferramentas de desenvolvimento',
   'Request includes restricted parameter "%s", but this controller ("%s") does not whitelist it. Refusing to serve this request because it might be part of a redirection attack.' => 'A solicitação inclui o parâmetro restrito "%s", mas esse controlador ("%s") não está na lista de permissões. Recusar-se a atender a essa solicitação porque ela pode fazer parte de um ataque de redirecionamento.',
   'Unknown capability \'%s\'!' => 'Capacidade desconhecida \'%s\'!',
 );

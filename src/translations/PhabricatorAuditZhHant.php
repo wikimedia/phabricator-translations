@@ -14,7 +14,6 @@ final class PhabricatorAuditZhHant
   'Find commits with particular identifiers (usually, hashes). Supports full or partial identifiers (like "abcd12340987..." or "abcd1234") and qualified or unqualified identifiers (like "rXabcd1234" or "abcd1234").' => '查找帶有特定識別碼（通常是雜湊值）的提交。支援整體或部分的識別碼（例如像「abcd12340987...」或是「abcd1234」），以及合乎或不合規範的識別碼（例如像「rXabcd1234」或是「abcd1234」）。',
   '%s resigned from auditing %s.' => '%s放棄此稽查%s。',
   'Specified maximum date must come after specified minimum date.' => '指定的最大日期必須晚於指定的最小日期。',
-  'A commit\'s projects change.' => '提交的專案更改。',
   '%s added subscribers: %s.' => '%s添加了訂閱者：%s。',
   'Query audit requests.' => '查詢稽查請求。',
   'Specify "--all" to affect everything, or a list of specific commits or repositories to affect.' => '指定「--all」來影響所有內容，或著是指定別的提交清單、版本庫來影響。',

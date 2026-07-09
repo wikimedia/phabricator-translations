@@ -9,7 +9,6 @@ final class PhabricatorTypeaheadSl
 
   protected function getTranslations() {
     return array(
-  'Token Name' => 'Ime leksikalnega elementa',
   'Image URI' => 'URI slike',
   'Select' => 'Izberi',
   'This source is not usable directly.' => 'Ta vir ni neposredno uporaben.',

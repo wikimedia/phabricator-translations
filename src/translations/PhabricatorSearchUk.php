@@ -9,7 +9,6 @@ final class PhabricatorSearchUk
 
   protected function getTranslations() {
     return array(
-  'Format' => 'Формат',
   'Add to Dashboard' => 'Додати до панелі',
   'Query: %s' => 'Запит: %s',
   'No visible menu items can render content.' => 'Жодні видимі пункти меню не можуть відображати вміст.',

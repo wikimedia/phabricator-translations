@@ -10,7 +10,6 @@ final class PhabricatorPeopleSv
   protected function getTranslations() {
     return array(
   'User has not been awarded any badges.' => 'Användaren har inte tilldelats några emblem.',
-  'User does not belong to any projects.' => 'Användaren tillhör inte några projekt.',
   '[%s] Welcome to %s' => '[%s] Välkommen till %s',
   'Awarded by %s' => 'Tilldelades av %s',
   'User Details' => 'Användardetaljer',

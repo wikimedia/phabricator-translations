@@ -32,6 +32,10 @@ final class PhabricatorPholioFrFR
   '%s created this mock.' => '%s a créé cette simulation.',
   'Pholio Mocks' => 'Maquettes de Pholio',
   '%s removed %d image(s): %s.' => '%s a retiré %d image(s) : %s.',
+  'Mock image titles must not be longer than %s character(s).' => array(
+    'Les noms d’image de maquette ne doivent pas dépasser %s caractère.',
+    'Les noms d’image de maquette ne doivent pas dépasser %s caractères.',
+  ),
   '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => '%s a modifié une ou plusieurs tâches pour %s ; en a ajouté %s : %s ; en a retiré %s : %s.',
   'Undo' => 'Défaire',
   'React to mocks being created or updated.' => 'Réagir aux maquettes créées ou mises à jour.',
@@ -75,10 +79,6 @@ final class PhabricatorPholioFrFR
   '%s updated an image\'s (%s) sequence.' => '%s a mis à jour la séquence d’une image (%s).',
   '%s updated image sequence of %s.' => '%s a mis à jour la séquence d’images de %s.',
   '%s added inline comment(s).' => '%s a ajouté des commentaires en ligne.',
-  'Mock image names must not be longer than %s character(s).' => array(
-    'Les noms d’image de maquette ne doivent pas dépasser %s caractère.',
-    'Les noms d’image de maquette ne doivent pas dépasser %s caractères.',
-  ),
   'Unknown (ID %d)' => 'Inconnu (identifiant %d)',
   'Edit Mock' => 'Modifier la simulation',
   'By %s on %s' => 'Par %s sur %s',

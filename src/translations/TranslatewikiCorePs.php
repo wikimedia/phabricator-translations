@@ -12,7 +12,6 @@ final class TranslatewikiCorePs
   'Swedish' => 'سوېډني',
   'NONE' => 'هېڅ',
   'Slovenian' => 'سلووېنيايي',
-  'Provide a locale code with "--locale".' => '"--locale" سره ځايي کوډ چمتو کوي.',
   'Catalan' => 'کتالونيايي',
   'Dutch' => 'هالنډي',
   'Sicilian' => 'سيسليايي',

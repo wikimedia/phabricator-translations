@@ -100,7 +100,6 @@ final class PhabricatorProjectEl
   'Umbrella' => 'Ομπρέλλα',
   'Subprojects' => 'Υπο-εφαρμογές',
   'No Limit' => 'Χωρίς όριο',
-  'Added Projects' => 'Πρόσθεσε εγχειρήματα',
   'Set project members.' => 'Ορισμός μελών εγχειρήματος.',
   'Read information about projects.' => 'Ανάγνωση πληροφοριών σχετικά με το εγχειρήματα.',
   'Organization' => 'Οργανισμός',

@@ -15,7 +15,6 @@ final class PhabricatorProjectIt
   'Only' => 'Solo',
   'Subtype of the project.' => 'Sottotipo del progetto.',
   '(Default)' => '(Predifinito)',
-  'T403385' => 'T403385',
 );
   }
 

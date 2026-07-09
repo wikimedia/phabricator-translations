@@ -15,7 +15,6 @@ final class TranslatewikiCoreEsES
   'GENDER' => 'GÉNERO',
   'Provide a classname with "--class".' => 'Proporciona un nombre de clase con «--class».',
   'Class name to generate.' => 'Nombre de clase que generar.',
-  'Frequency Data' => 'Datos de frecuencia',
   'Provide a JSON source file with "--source".' => 'Proporciona un archivo de código fuente en JSON con «--source».',
   'Export translation strings from a libphutil library.' => 'Exportar cadenas de traducción desde una biblioteca libphutil.',
   'Writing data (%s, %s) to "%s"...' => 'Escribiendo datos (%s, %s) en «%s»…',

@@ -31,6 +31,7 @@ final class PhabricatorSubscriptionsZhHans
   'Mute this object? You will no longer receive notifications or email about it.' => '屏蔽此对象？您将不会再收到关于此对象的通知或电子邮件。',
   'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => '已拒绝重新订阅%s个目标，因为它们先前已被取消订阅：%s。',
   'Removed %s subscriber(s): %s.' => '已移除%s个订阅者：%s。',
+  'Unsubscribe' => '取消订阅',
   'Bad Object' => '错误对象',
   'Add users or projects as subscribers.' => '添加用户或项目为订阅者。',
   'Removed Subscribers' => '已移除订阅者',

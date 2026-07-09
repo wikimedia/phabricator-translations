@@ -37,7 +37,7 @@ final class PhabricatorHarbormasterNl
   'This plan can not be run manually.' => 'Dit plan kan niet handmatig worden uitgevoerd.',
   'Artifact "%s" not found!' => 'Artefact "%s" niet gevonden!',
   'Run a command on Drydock resource.' => 'Een opdracht uitvoeren op een Drydock-resource.',
-  '%s Skipped Test(s)' => '%s overgeslagen test(s)',
+  '%s Skipped Test(s)' => '%s overgeslagen',
   'Severity of the message.' => 'Ernst van het bericht.',
   'The build plan for this build is configured to prevent users who can not edit it from issuing commands to the build, and you do not have permission to edit the build plan.' => 'Het buildplan voor deze build is zo geconfigureerd dat gebruikers die het niet kunnen bewerken geen opdrachten aan de build kunnen geven, en u hebt geen toestemming om het buildplan te bewerken.',
   'You can not pause a build that uses an autoplan.' => 'U kunt een build die een autoplan gebruikt niet pauzeren.',
@@ -48,13 +48,13 @@ final class PhabricatorHarbormasterNl
   'Build with Buildkite' => 'Bouwen met Buildkite',
   'Attempt to load log bytes (%d - %d) failed: failed to load a single contiguous range. Actual ranges: %s.' => 'Poging om logbytes (%d - %d) te laden is mislukt: kan geen enkel aaneengesloten bereik laden. Werkelijke bereiken: %s.',
   'Not A Haiku' => 'Geen haiku',
-  '%s Broken Test(s)' => '%s mislukte test(s)',
+  '%s Broken Test(s)' => '%s defect',
   'Resuming' => 'Hervatten',
   'Insufficient Build Plan Permission' => 'Onvoldoende buildplanrechten',
   'Publishing "%s"...' => '"%s" publiceren…',
   'The name of the build target.' => 'De naam van het builddoel.',
   'Edit Plan' => 'Plan bewerken',
-  'This test has too much data to display inline.' => 'Deze test heeft te veel gegevens om inline weer te geven.',
+  'This test has too much data to display inline.' => 'Deze test heeft te veel gegevens om ingebed weer te geven.',
   'Run %d' => 'Uitvoering %d',
   'Organization Name' => 'Organisatienaam',
   'True if this artifact has been released.' => 'Waar als dit artefact is vrijgegeven.',
@@ -71,7 +71,18 @@ final class PhabricatorHarbormasterNl
   'Default Build Plan View Policy' => 'Standaard weergavebeleid voor buildplannen',
   'Choose a build target to attach the log to with "--target".' => 'Kies een builddoel om het log aan te koppelen met "--target".',
   'Build Preparing' => 'Build wordt voorbereid',
-  'This test result has %s bytes of Remarkup test details. Remarkup blocks longer than %s bytes are not rendered inline when showing test summaries.' => 'Dit testresultaat heeft %s bytes aan Remarkup-testdetails. Remarkup-blokken langer dan %s bytes worden niet inline weergegeven bij het weergeven van testsamenvattingen.',
+  'This test result has %s bytes of Remarkup test details. Remarkup blocks longer than %s bytes are not rendered inline when showing test summaries.' => array(
+    
+    array(
+      'Dit testresultaat heeft %s byte aan Remarkup-testdetails. Remarkup-blokken langer dan %s byte worden niet ingebed weergegeven bij het weergeven van testsamenvattingen.',
+      'Dit testresultaat heeft %s byte aan Remarkup-testdetails. Remarkup-blokken langer dan %s bytes worden niet ingebed weergegeven bij het weergeven van testsamenvattingen.',
+    ),
+    
+    array(
+      'Dit testresultaat heeft %s bytes aan Remarkup-testdetails. Remarkup-blokken langer dan %s byte worden niet ingebed weergegeven bij het weergeven van testsamenvattingen.',
+      'Dit testresultaat heeft %s bytes aan Remarkup-testdetails. Remarkup-blokken langer dan %s bytes worden niet ingebed weergegeven bij het weergeven van testsamenvattingen.',
+    ),
+  ),
   'Edit Buildable' => 'Buildable bewerken',
   'Call includes "lint" parameter. This parameter must be omitted when the receiver is not a Build Target.' => 'Aanroep bevat de parameter "lint". Deze parameter moet worden weggelaten als de ontvanger geen builddoel is.',
   'This build can not be restarted because it is an automatic build.' => 'Deze build kan niet opnieuw worden gestart omdat het een automatische build is.',
@@ -172,7 +183,7 @@ Om een opdrachtbericht te sturen, geeft u de PHID op van het object dat het beri
   'Webhook Token' => 'Webhooktoken',
   'When creating an artifact, you will choose an `artifactType` from this table. These types of artifacts are supported:' => 'Bij het aanmaken van een artefact kiest u een `artifactType` uit deze tabel. Deze typen artefacten worden ondersteund:',
   'Aborting' => 'Afbreken',
-  '%s Other Test(s)' => '%s andere test(s)',
+  '%s Other Test(s)' => '%s andere',
   'A buildable inherits policies from the underlying object.' => 'Een buildable neemt beleid over van het onderliggende object.',
   'Build Steps' => 'Buildstappen',
   'Harbormaster Builds' => 'Harbormaster-builds',
@@ -199,7 +210,7 @@ Om een opdrachtbericht te sturen, geeft u de PHID op van het object dat het beri
   'No artifacts found.' => 'Geen artefacten gevonden.',
   'A build step has the same policies as its build plan.' => 'Een buildstap heeft hetzelfde beleid als het bijbehorende buildplan.',
   'Rebuilding log "%s"...' => 'Log "%s" opnieuw opbouwen...',
-  '%s Failed Test(s)' => '%s mislukte test(s)',
+  '%s Failed Test(s)' => '%s mislukt',
   'Unknown mode "%s". Valid modes are: %s.' => 'Onbekende modus "%s". Geldige modi zijn: %s.',
   'Wait for previous commits to finish building the current plan before continuing.' => 'Wacht tot eerdere commits het huidige plan hebben gebouwd voordat u verdergaat.',
   'No handler found for %s' => 'Geen handler gevonden voor %s',
@@ -211,7 +222,7 @@ Om een opdrachtbericht te sturen, geeft u de PHID op van het object dat het beri
   'Show more details about operations as they are performed. Slow! But also very reassuring!' => 'Meer details over bewerkingen weergeven terwijl ze worden uitgevoerd. Langzaam! Maar ook zeer geruststellend!',
   'Lint message code identifying the type of message, like "ERR123".' => 'Lintberichtcode die het type bericht identificeert, zoals "ERR123".',
   'Build will pause.' => 'Build wordt gepauzeerd.',
-  'This is an autoplan (a builtin plan provided by an application) so it can not be edited.' => 'Dit is een autoplan (een ingebouwd plan dat door een applicatie wordt geleverd) en kan daarom niet worden bewerkt.',
+  'This is an autoplan (a builtin plan provided by an application) so it can not be edited.' => 'Dit is een autoplan (een ingebouwd plan dat door een toepassing wordt geleverd) en kan daarom niet worden bewerkt.',
   'Make an authenticated HTTP %s request to %s.' => 'Een geauthenticeerd HTTP %s-verzoek naar %s doen.',
   'The build target this artifact is attached to.' => 'Het builddoel waaraan dit artefact is gekoppeld.',
   'Sent a restart message to build.' => 'Een herstartbericht naar de build gestuurd.',
@@ -238,7 +249,10 @@ Om een opdrachtbericht te sturen, geeft u de PHID op van het object dat het beri
   'Build plan "%s" does not exist.' => 'Buildplan "%s" bestaat niet.',
   'You can not pause this build because it is already aborting.' => 'U kunt deze build niet pauzeren omdat deze al wordt afgebroken.',
   'Pause the build.' => 'De build pauzeren.',
-  'Really resume %s build(s)?' => 'Echt %s build(s) hervatten?',
+  'Really resume %s build(s)?' => array(
+    'Build echt hervatten?',
+    '%s builds echt hervatten?',
+  ),
   'Uploaded File' => 'Geüpload bestand',
   'Force the buildable to update even if no build status changes occur during normal update.' => 'De buildable dwingen bij te werken, zelfs als er geen buildstatuswijzigingen optreden tijdens een normale update.',
   'INVALID' => 'ONJUIST',
@@ -296,10 +310,10 @@ test and one failing test:
 
 ```lang=json
 %s
-```' => 'U kunt testresultaten rapporteren bij het bijwerken van de status van een builddoel. De
-eenvoudigste manier om dit te doen is alle resultaten te rapporteren samen met een `pass`- of
+```' => 'U kunt testresultaten melden bij het bijwerken van de status van een builddoel. De
+eenvoudigste manier om dit te doen is alle resultaten te melden samen met een `pass`- of
 `fail`-bericht, maar u kunt ook een `work`-bericht sturen om tussentijdse
-resultaten te rapporteren.
+resultaten te melden.
 
 
 Om unittestresultaten te leveren, geeft u een lijst met resultaten door in de `unit`-
@@ -311,7 +325,7 @@ De `result`-parameter herkent deze testresultaten:
 
 %s
 
-Dit is een eenvoudige, geldige waarde voor de `unit`-parameter. Het rapporteert één geslaagde
+Dit is een eenvoudige, geldige waarde voor de `unit`-parameter. Het meldt één geslaagde
 test en één mislukte test:
 
 ```lang=json
@@ -330,6 +344,7 @@ test en één mislukte test:
   'This target has no associated artifacts.' => 'Dit doel heeft geen gekoppelde artefacten.',
   'Choose Build Statuses' => 'Buildstatussen kiezen',
   'Search for targets started on or before a particular date.' => 'Zoeken naar doelen die op of voor een bepaalde datum zijn gestart.',
+  'The build step the target runs.' => 'De buildstap die het doel uitvoert.',
   'New Step: %s' => 'Nieuwe stap: %s',
   'This build plan will deadlock when executed, due to circular dependencies present in the build plan. Examine the step list and resolve the deadlock.' => 'Dit buildplan zal vastlopen bij uitvoering vanwege circulaire afhankelijkheden in het buildplan. Bekijk de stappenlijst en los de impasse op.',
   'This older log is missing required rendering data. To rebuild rendering data, run: %s' => 'Dit oudere log mist vereiste weergavegegevens. Voer het volgende uit om weergavegegevens opnieuw op te bouwen: %s',
@@ -395,7 +410,7 @@ Webhookconfiguratie
 =====================
 
 Voeg deze webhook toe aan uw `circle.yml`-bestand om CircleCI resultaten
-aan Harbormaster te laten rapporteren. Totdat u deze hook installeert, zullen builds
+aan Harbormaster te laten melden. Totdat u deze hook installeert, zullen builds
 blijven wachten op een reactie van CircleCI.
 
 ```lang=yml
@@ -474,30 +489,17 @@ API method can send messages to multiple types of objects:
   </tr>
 </table>
 
-See below for specifics on sending messages to different object types.' => 'Harbormaster-buildobjecten werken enigszins anders dan objecten in veel andere
-applicaties. De meeste applicatieobjecten kunnen direct worden bewerkt met synchrone
-API\'s (zoals `maniphest.edit`, `differential.revision.edit`, enzovoort).
+See below for specifics on sending messages to different object types.' => 'Harbormaster-buildobjecten werken enigszins anders dan objecten in veel andere toepassingen. De meeste toepassingsobjecten kunnen direct worden bewerkt met synchrone API\'s (zoals `maniphest.edit`, `differential.revision.edit`, enzovoort).
 
-Builds vereisen echter langlopende achtergrondverwerking en Harbormaster-
-objecten hebben een complexere levenscyclus dan de meeste andere applicatieobjecten en
-kunnen aanzienlijke perioden vergrendeld zijn door daemonprocessen tijdens de
-builduitvoering. Een synchrone bewerking moet mogelijk willekeurig lang wachten
+Builds vereisen echter langlopende achtergrondverwerking en Harbormaster-objecten hebben een complexere levenscyclus dan de meeste andere toepassingsobjecten en kunnen aanzienlijke perioden vergrendeld zijn door daemonprocessen tijdens de builduitvoering. Een synchrone bewerking moet mogelijk willekeurig lang wachten
 tot deze vergrendeling beschikbaar komt zodat de bewerking kan worden toegepast.
 
-Daarnaast kunnen sommige bewerkingen ook willekeurig lang duren om te
-//voltooien//. Het afbreken van een build kan bijvoorbeeld opruimstappen uitvoeren die
-minuten (of zelfs uren) duren om te voltooien.
+Daarnaast kunnen sommige bewerkingen ook willekeurig lang duren om te //voltooien//. Het afbreken van een build kan bijvoorbeeld opruimstappen uitvoeren die minuten (of zelfs uren) duren om te voltooien.
 
-Omdat een synchrone API niet kan garanderen dat het resultaten aan de
-aanroeper kan retourneren binnen een redelijke tijd, is de bewerkings-API voor Harbormaster-build-
-objecten asynchroon: om een Harbormaster-build of builddoel bij te werken, gebruikt u
-deze API (`harbormaster.sendmessage`) om een bericht te sturen met een beschrijving van een bewerking
-die u wilt doorvoeren of aanvullende informatie die u wilt verstrekken.
-Het bericht wordt verwerkt door de daemons zodra de build of het doel
-een geschikte status bereikt om berichten te ontvangen.
+Omdat een synchrone API niet kan garanderen dat het resultaten aan de aanroeper kan retourneren binnen een redelijke tijd, is de bewerkings-API voor Harbormaster-build-objecten asynchroon: om een Harbormaster-build of builddoel bij te werken, gebruikt u
+deze API (`harbormaster.sendmessage`) om een bericht te sturen met een beschrijving van een bewerking die u wilt doorvoeren of aanvullende informatie die u wilt verstrekken. Het bericht wordt verwerkt door de daemons zodra de build of het doel een geschikte status bereikt om berichten te ontvangen.
 
-Selecteer een object om een bericht naar te sturen met de `receiver`-parameter. Deze
-API-methode kan berichten naar meerdere typen objecten sturen:
+Selecteer een object om een bericht naar te sturen met de `receiver`-parameter. Deze API-methode kan berichten naar meerdere typen objecten sturen:
 
 <table>
   <tr>
@@ -568,7 +570,7 @@ Als het uitvoeren van de build een bijwerking heeft zoals het deployen van code,
   'Buildkite' => 'Buildkite',
   'Built for %s' => 'Gebouwd voor %s',
   'Create a build artifact.' => 'Een buildartefact aanmaken.',
-  'Pause, abort, restart, and report results for builds.' => 'Builds pauzeren, afbreken, herstarten en resultaten rapporteren.',
+  'Pause, abort, restart, and report results for builds.' => 'Builds pauzeren, afbreken, herstarten en resultaten melden.',
   'Step Type' => 'Staptype',
   'You must openBuildLog() before you can closeBuildLog().' => 'U moet openBuildLog() aanroepen voordat u closeBuildLog() kunt aanroepen.',
   'Unknown Input' => 'Onbekende invoer',
@@ -686,7 +688,7 @@ Deze variabelen zijn beschikbaar in de buildomgeving:
   'Log "%s" is still live. Logs can not be finalized until they have closed.' => 'Log "%s" is nog actief. Logs kunnen niet worden afgerond totdat ze zijn gesloten.',
   'Use this method to attach artifacts to build targets while running builds. Artifacts can be used to carry data through a complex build workflow, provide extra information to users, or store build results.' => 'Gebruik deze methode om artefacten aan builddoelen te koppelen tijdens het uitvoeren van builds. Artefacten kunnen worden gebruikt om gegevens door een complexe buildworkflow te transporteren, extra informatie aan gebruikers te verstrekken of buildresultaten op te slaan.',
   'This engine is used to edit Harbormaster build steps.' => 'Deze engine wordt gebruikt om Harbormaster-buildstappen te bewerken.',
-  'Modify running builds, and report build results.' => 'Actieve builds wijzigen en buildresultaten rapporteren.',
+  'Modify running builds, and report build results.' => 'Actieve builds wijzigen en buildresultaten melden.',
   'OK: No Harbormaster target PHID.' => 'OK: geen Harbormaster-doel-PHID.',
   'Each artifact also needs an `artifactKey`, which names the artifact. Finally, you will provide some `artifactData` to fill in the content of the artifact. The data you provide depends on what type of artifact you are creating.' => 'Elk artefact heeft ook een `artifactKey` nodig, die het artefact benoemt. Ten slotte levert u `artifactData` om de inhoud van het artefact in te vullen. De gegevens die u levert zijn afhankelijk van het type artefact dat u aanmaakt.',
   'Local Name' => 'Lokale naam',
@@ -700,7 +702,7 @@ Deze variabelen zijn beschikbaar in de buildomgeving:
   'True if this is a manual buildable.' => 'Waar als dit een handmatige buildable is.',
   'Upload %s from %s.' => '%s uploaden van %s.',
   'Search for targets completed on or after a particular date.' => 'Zoeken naar doelen die op of na een bepaalde datum zijn voltooid.',
-  'Publish a buildable. This is primarily useful for developing and debugging applications which have buildable objects.' => 'Een buildable publiceren. Dit is voornamelijk nuttig voor het ontwikkelen en debuggen van applicaties die buildable-objecten hebben.',
+  'Publish a buildable. This is primarily useful for developing and debugging applications which have buildable objects.' => 'Een buildable publiceren. Dit is voornamelijk nuttig voor het ontwikkelen en debuggen van toepassingen die buildable-objecten hebben.',
   'Search for builds running against particular buildables.' => 'Zoeken naar builds die tegen bepaalde buildables worden uitgevoerd.',
   'Specify exactly one buildable object, by object name.' => 'Geef precies één buildable-object op, op objectnaam.',
   'Can Create Build Plans' => 'Kan buildplannen aanmaken',
@@ -714,8 +716,11 @@ Deze variabelen zijn beschikbaar in de buildomgeving:
   'The current UNIX timestamp.' => 'Het huidige UNIX-tijdstempel.',
   'Object "%s" is not a Harbormaster Buildable!' => 'Object "%s" is geen Harbormaster-buildable!',
   'Length of the log in bytes.' => 'Lengte van het log in bytes.',
-  'Report that work on the target is ongoing. This message can be used to report partial results during a build.' => 'Rapporteren dat het werk aan het doel gaande is. Dit bericht kan worden gebruikt om tussentijdse resultaten te rapporteren tijdens een build.',
-  'Really pause %s build(s)?' => 'Echt %s build(s) pauzeren?',
+  'Report that work on the target is ongoing. This message can be used to report partial results during a build.' => 'Melden dat het werk aan het doel gaande is. Dit bericht kan worden gebruikt om tussentijdse resultaten te melden tijdens een build.',
+  'Really pause %s build(s)?' => array(
+    'Build echt pauzeren?',
+    '%s builds echt pauzeren?',
+  ),
   'This group has no available build steps.' => 'Deze groep heeft geen beschikbare buildstappen.',
   'Stores a URI.
 
@@ -736,7 +741,7 @@ Met `ui.external` kunt u dit artefacttype gebruiken om koppelingen naar buildres
   'Make an HTTP %s request to %s.' => 'Een HTTP %s-verzoek naar %s doen.',
   'Status "%s" is not a valid build plan status. Valid statuses are: %s.' => 'Status "%s" is geen geldige buildplanstatus. Geldige statussen zijn: %s.',
   'A file containing the log data.' => 'Een bestand met de loggegevens.',
-  '<Invalid URI>' => '<Onjuiste URI>',
+  '<Invalid URI>' => '<Incorrecte URI>',
   'You can not issue this command because you do not have permission to access the build plan for this build.' => 'U kunt deze opdracht niet geven omdat u geen toestemming hebt om het buildplan voor deze build te benaderen.',
   'Artifact Name' => 'Artefactnaam',
   'Build Artifact %d' => 'Buildartefact %d',
@@ -813,7 +818,10 @@ Zie hieronder voor een lijst met besturingsopdrachten.
   'This input is required, but not configured.' => 'Deze invoer is vereist, maar niet geconfigureerd.',
   'Bad build target ID "%d".' => 'Foutief builddoel-ID "%d".',
   'Edit Build' => 'Build bewerken',
-  'Restart %s build(s)?' => '%s build(s) herstarten?',
+  'Restart %s build(s)?' => array(
+    'Build herstarten?',
+    '%s builds herstarten?',
+  ),
   'This build log is already open!' => 'Dit buildlog is al geopend!',
   'Show Only Automated Builds' => 'Alleen geautomatiseerde builds weergeven',
   'Format for the text provided in "details". Valid values are "text" (default) or "remarkup". This controls how test details are rendered when shown to users.' => 'Opmaak voor de tekst in "details". Geldige waarden zijn "text" (standaard) of "remarkup". Dit bepaalt hoe testdetails worden weergegeven aan gebruikers.',
@@ -871,7 +879,10 @@ Als u **Wachten op bericht** selecteert, pauzeert het buildplan voor onbepaalde 
   'Edit Build Plan' => 'Buildplan bewerken',
   'Select one or more builds by ID.' => 'Selecteer een of meer builds op ID.',
   'Unable to find lines.' => 'Kan regels niet vinden.',
-  '%s empty logs are hidden.' => '%s lege logs zijn verborgen.',
+  '%s empty logs are hidden.' => array(
+    '%s leeg logboek is verborgen.',
+    '%s lege logboeken zijn verborgen.',
+  ),
   'Delete Step' => 'Stap verwijderen',
   'No builds found.' => 'Geen builds gevonden.',
   'OK: Processed event.' => 'OK: gebeurtenis verwerkt.',
@@ -916,7 +927,7 @@ Als u **Wachten op bericht** selecteert, pauzeert het buildplan voor onbepaalde 
   'The buildable does not wait for the build.' => 'De buildable wacht niet op de build.',
   'Unknown Unit Message ("%s")' => 'Onbekend eenheidsbericht ("%s")',
   '%s: %s -> %s' => '%s: %s -> %s',
-  'Search for builds of particular objects.' => 'Zoeken naar builds van bepaalde objecten.',
+  'Search for builds of particular objects.' => 'Zoeken naar builds van specifieke objecten.',
   'Show More Below' => 'Meer hieronder weergeven',
   'Search for targets created on or after a particular date.' => 'Zoeken naar doelen die op of na een bepaalde datum zijn aangemaakt.',
   'Build Target ID to attach the log to.' => 'Builddoel-ID om het log aan te koppelen.',
@@ -955,7 +966,10 @@ Als u **Wachten op bericht** selecteert, pauzeert het buildplan voor onbepaalde 
   'This build plan does not have any build steps yet, so it will not do anything when run.' => 'Dit buildplan heeft nog geen buildstappen, dus het doet niets wanneer het wordt uitgevoerd.',
   'Type another build step name...' => 'Voer een andere buildstapnaam in...',
   'Buildable %d' => 'Buildable %d',
-  'Really restart %s build(s)?' => 'Echt %s build(s) herstarten?',
+  'Really restart %s build(s)?' => array(
+    'Build echt herstarten?',
+    '%s builds echt herstarten?',
+  ),
   '"arc land" warns if the build is still running, but ignores the build if it has failed.' => '"arc land" waarschuwt als de build nog actief is, maar negeert de build als deze is mislukt.',
   'Recent Builds' => 'Recente builds',
   'Rename the plan.' => 'Het plan hernoemen.',
@@ -1162,7 +1176,10 @@ de belasting van de buildwachtrij verminderen zonder noemenswaardige kosten.',
   'No such implementation "%s" exists!' => 'Implementatie "%s" bestaat niet!',
   'You can not send this command to any of the current builds for this buildable.' => 'U kunt deze opdracht niet naar een van de huidige builds voor deze buildable sturen.',
   'Build Step %d: %s' => 'Buildstap %d: %s',
-  'Started %s build(s): %s.' => '%s build(s) gestart: %s.',
+  'Started %s build(s): %s.' => array(
+    'Build gestart: %2$s.',
+    '%s builds gestart: %s.',
+  ),
   'Message type "%s" is not supported.' => 'Berichttype "%s" wordt niet ondersteund.',
   '%s paused this buildable.' => '%s heeft deze buildable gepauzeerd.',
   'Create an artifact of this type by passing `%s` as the `artifactType`. When creating an artifact of this type, provide these parameters as a dictionary to `artifactData`:' => 'Maak een artefact van dit type aan door `%s` als `artifactType` door te geven. Geef bij het aanmaken van een artefact van dit type deze parameters als dictionary door aan `artifactData`:',
@@ -1183,7 +1200,10 @@ de belasting van de buildwachtrij verminderen zonder noemenswaardige kosten.',
   'Restart Build' => 'Build herstarten',
   'No details provided.' => 'Geen details opgegeven.',
   'Other Build Steps' => 'Overige buildstappen',
-  '%s Unsound Test(s)' => '%s ondeugdelijke test(s)',
+  '%s Unsound Test(s)' => array(
+    '%s ondeugdelijk',
+    '%s ondeugdelijke',
+  ),
   'You can not resume this build because it is not paused. You can only resume a paused build.' => 'U kunt deze build niet hervatten omdat deze niet is gepauzeerd. U kunt alleen een gepauzeerde build hervatten.',
   'Log data hashes differ! Something is tragically wrong!' => 'Loggegevenshashes verschillen! Er is iets ernstig mis!',
   'Build will abort.' => 'Build wordt afgebroken.',
@@ -1261,7 +1281,10 @@ en één waarschuwing:
   'The buildable waits for the build, but does not fail if the build fails.' => 'De buildable wacht op de build, maar mislukt niet als de build mislukt.',
   'The person (or thing) that started this build.' => 'De persoon (of het ding) dat deze build heeft gestart.',
   'View Build' => 'Build bekijken',
-  'Really abort %s build(s)?' => 'Echt %s build(s) afbreken?',
+  'Really abort %s build(s)?' => array(
+    'Echt een build afbreken?',
+    'Echt %s builds afbreken?',
+  ),
   '(%d - %d)' => '(%d - %d)',
   'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'Object "%s" implementeert interface "%s" niet. Autodoelen kunnen alleen worden opgevraagd voor buildbare objecten.',
   '%s enabled this build plan.' => '%s heeft dit buildplan ingeschakeld.',
@@ -1290,7 +1313,7 @@ Deze instelling beïnvloedt ook de waarschuwing die wordt gepubliceerd bij versi
   'Build Plan Prevents Restart' => 'Buildplan voorkomt herstarten',
   'Unable to load API token ("%s")!' => 'Kan API-token ("%s") niet laden!',
   'Find out information about build logs.' => 'Informatie over buildlogs opzoeken.',
-  '%s Passed Test(s)' => '%s geslaagde test(s)',
+  '%s Passed Test(s)' => '%s geslaagd',
   'Sending Messages' => 'Berichten sturen',
   'ERROR:' => 'FOUT:',
   'Builtins' => 'Ingebouwde functies',
@@ -1322,7 +1345,10 @@ Deze instelling beïnvloedt ook de waarschuwing die wordt gepubliceerd bij versi
   'Enable this build plan?' => 'Dit buildplan inschakelen?',
   'Drydock Working Copy' => 'Drydock-werkkopie',
   'This buildable has no builds, so you can not issue any commands.' => 'Deze buildable heeft geen builds, dus u kunt geen opdrachten geven.',
-  'Show More (%s Bytes)' => 'Meer weergeven (%s bytes)',
+  'Show More (%s Bytes)' => array(
+    'Meer weergeven (%s byte)',
+    'Meer weergeven (%s bytes)',
+  ),
   'The overall state of a buildable (like a commit or revision) is normally the aggregation of the individual states of all builds that have run against it.
 
 Buildables are "building" until all builds pass (which changes them to "pass"), or any build fails (which changes them to "fail").
@@ -1342,7 +1368,6 @@ You can change this behavior if you do not want to wait for this build, or do no
   'Search for builds by buildable status.' => 'Zoeken naar builds op buildable-status.',
   'Abort Builds' => 'Builds afbreken',
   'Upload From Host' => 'Uploaden van host',
-  'The build step the target runs.' => 'De buildstap die het doel uitvoert.',
 );
   }
 

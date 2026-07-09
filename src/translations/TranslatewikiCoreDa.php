@@ -11,7 +11,6 @@ final class TranslatewikiCoreDa
     return array(
   'Provide the path to a library to export translations from.' => 'Angiv en sti til et bibliotek som oversættelser skal eksporteres fra.',
   'NONE' => 'INGEN',
-  'Provide a locale code with "--locale".' => 'Angiv en sprogkode med "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorerer strengen "%s"; ikke til stede i oversættelse kildefilen.',
   'Provide a project name to export strings under with "--as".' => 'Angiv et projektnavn at eksportere strenge under med "--as".',
   'Raw strings' => 'Rå strenge',
@@ -20,7 +19,6 @@ final class TranslatewikiCoreDa
   'Provide a classname with "--class".' => 'Angiv et klassenavn med "--class".',
   'Read %s string(s).' => 'Læs %s streng(e).',
   'Class name to generate.' => 'Klassenavn der skal genereres.',
-  'Frequency Data' => 'Frekvensdata',
   'Provide a JSON source file with "--source".' => 'Angiv en JSON kildefil med "--source".',
   'JSON source file containing translation strings.' => 'JSON-kilde fil som indeholder oversættelse strenge.',
   'Export translation strings from a libphutil library.' => 'Eksporter oversættelse strenge fra et libphutil-bibliotek.',

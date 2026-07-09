@@ -10,6 +10,11 @@ final class TranslatewikiCoreFi
   protected function getTranslations() {
     return array(
   'NONE' => 'EI MITÄÄN',
+  'Read %s string(s).' => array(
+    'Lue %s merkkijono.',
+    'Lue %s merkkijonoa.',
+  ),
+  'Original:' => 'Alkuperäinen:',
   'Done.' => 'Valmis.',
   'PLURAL' => 'MONIKKO',
 );

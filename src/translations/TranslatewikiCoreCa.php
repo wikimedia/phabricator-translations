@@ -10,9 +10,7 @@ final class TranslatewikiCoreCa
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Proporciona la ruta a una llibreria per exportar traduccions.',
-  'Unable to extract string with unrecognized "%%" pattern, "%s": %s.' => 'No s\'ha pogut extreure la cadena amb el patró no reconegut "%%", "%s": %s',
   'NONE' => 'CAP',
-  'Provide a locale code with "--locale".' => 'Proporciona un codi local amb "--locale".',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorant la cadena "%s"; no present en el fitxer origen de traducció.',
   'Provide the path to exactly one library to export translations from.' => 'Proporciona la ruta a una llibreria exacta per exportar traduccions.',
   'Provide a project name to export strings under with "--as".' => 'Proporciona un nom de projecte per exportar cadenes amb "--as".',
@@ -24,7 +22,6 @@ final class TranslatewikiCoreCa
   'Provide a classname with "--class".' => 'Proporciona un nom de classe amb "--class".',
   'Read %s string(s).' => 'Llegeix %s cadenes.',
   'Class name to generate.' => 'Nom de la classe a generar.',
-  'Frequency Data' => 'Dades de freqüència',
   'Provide a JSON source file with "--source".' => 'Proporciona un fitxer de codi JSON amb "--source".',
   'Generate a Phabricator translation classfile.' => 'Genera un fitxer de classe de traducció del Phabricator.',
   'JSON source file containing translation strings.' => 'Fitxer font JSON que conté cadenes de traducció.',

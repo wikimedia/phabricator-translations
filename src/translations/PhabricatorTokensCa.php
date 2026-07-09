@@ -29,7 +29,6 @@ final class PhabricatorTokensCa
   '%s Token' => 'Testimoni %s',
   'Award "%s" Token' => 'Atorgueu un testimoni a «%s»',
   'No such object "%s"!' => 'No existeix l\'objecte «%s»!',
-  'Give or change a token.' => 'Doneu o canvieu un testimoni.',
   'Heartbreak' => 'Trencament del Cor',
   'Cup of Joe' => 'Copa de Joe',
   'Orange Medal' => 'Medalla Taronja',

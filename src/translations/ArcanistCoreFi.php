@@ -53,7 +53,6 @@ final class ArcanistCoreFi
   'Working Copy State' => 'Työkopion tila',
   'Space found before semicolon.' => 'Avaruus löydetty ennen puolipistettä.',
   'Copied Here' => 'Kopioitu tänne',
-  'Install PEP8 using `%s`.' => 'Asenna PEP8 käyttämällä `%s`.',
   '    %s %s
 ' => '    %s %s',
   'Install flake8 using `%s`.' => 'Asenna flake8 käyttämällä `%s`.',
@@ -85,7 +84,6 @@ final class ArcanistCoreFi
   '**version**' => '**versio**',
   'Broken' => 'Rikki',
   'Length must be larger than 0!' => 'Pituuden tulee olla suurempi kuin 0!',
-  'Deleted "%s".' => 'Poistettu "%s".',
   'Line Too Long' => 'Rivi liian pitkä',
   'Skip' => 'Ohita',
   'PHP Syntax Error!' => 'PHP-syntaksivirhe!',

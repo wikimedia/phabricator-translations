@@ -28,6 +28,7 @@ final class PhabricatorSubscriptionsRu
   'Added Subscribers' => 'Добавленные подписчики',
   'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => 'Отклонено для повторной отправки %s мишень(ы) потому что они ранее не подписались: %s.',
   'Removed %s subscriber(s): %s.' => 'Удалены %s подписчик(и): %s.',
+  'Unsubscribe' => 'Отписаться',
   'Bad Object' => 'Неверный объект',
   'Add users or projects as subscribers.' => 'Добавьте пользователей или проекты в качестве подписчиков.',
   'Removed Subscribers' => 'Удаленные подписчики',
