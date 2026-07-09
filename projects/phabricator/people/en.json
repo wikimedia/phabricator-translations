@@ -197,7 +197,7 @@
 	"8e853d002c9feb18": "[$1] Email Verification",
 	"8edd37e41ee7c109": "Empower $1 as an administrator? They will be able to create users, approve users, make and remove administrators, delete accounts, and perform other administrative functions on this server.",
 	"8f3c08133aacb6ef": "Edit Profile Picture",
-	"906bd1cb190869c5": "Projects {{PLURAL:$1|($1)}}",
+	"906bd1cb190869c5": "Projects ({{PLURAL:$1|$1}})",
 	"909bf3e80731a458": "Save Profile",
 	"90ca83349d56e661": "You do not have permission to disable or enable users.",
 	"914f8c1df0eb54eb": "This user can not see this object.",

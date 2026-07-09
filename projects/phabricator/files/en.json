@@ -315,7 +315,7 @@
 	"ad7a70a4cfd289b6": "No supported transforms are available for this file format.",
 	"aec77c43e06353d5": "Execute dangerous operations without prompting for confirmation.",
 	"aecacdb73e091a7f": "Shiny",
-	"aef172da9fc67d44": "Keyring specifies an invalid key (\"$1\"): key material should be 32 bytes (256 bits) but has length {{PLURAL:$2|$2.}}",
+	"aef172da9fc67d44": "Keyring specifies an invalid key (\"$1\"): key material should be 32 bytes (256 bits) but has length {{PLURAL:$2|$2}}.",
 	"aeffebb4f41dd9d1": "OVERWRITE",
 	"af15e6c2a359c4f8": "You successfully uploaded $1 {{PLURAL:$1|files}}.",
 	"af17cbcd59d2fe06": "$1: File size ($2) is smaller than minimum size ($3).",

@@ -401,7 +401,23 @@ final class TranslatewikiManagementExportWorkflow
             continue;
           }
         }
-        $words[$index] = '{{'.$type.':'.$varmark.'|'.$word.'}}';
+        $head = '';
+        // Move any punctuation marks out of the PLURAL
+        while(ctype_punct($word[0]) && $word[0] !== '$') {
+          $head .= $word[0];
+          $word = substr($word, 1);
+        }
+        $trailing_punct = -1;
+        while(ctype_punct(substr($word, $trailing_punct))) {
+          $trailing_punct -= 1;
+        }
+        $trailing_punct += 1;
+        if ($trailing_punct) {
+          $words[$index] = $head.'{{'.$type.':'.$varmark.'|'.substr($word, 0, $trailing_punct).'}}'.
+            substr($word, $trailing_punct);
+        } else {
+          $words[$index] = $head.'{{'.$type.':'.$varmark.'|'.$word.'}}';
+        }
       }
     }
     return implode(' ', $words);

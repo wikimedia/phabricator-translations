@@ -5,7 +5,7 @@
 	"02aa40c1e770750c": "The selected repository short name is already in use by another repository. Choose a unique short name.",
 	"02bb6179c79cb3b5": "Waiting to acquire write lock for \"$1\"...",
 	"0327c43cb03fdc8a": "Push Event",
-	"034565a8bd030b9a": "Got too many results {{PLURAL:$1|($1)}} for commit \"$2\", expected {{PLURAL:$3|$3.}}",
+	"034565a8bd030b9a": "Got too many results ({{PLURAL:$1|$1}}) for commit \"$2\", expected {{PLURAL:$3|$3}}.",
 	"036e7392b1e8e291": "This URI will be shown to users as a clone URI.",
 	"03ae8987572500e8": "You have an old version of Mercurial ($1) which has a severe command injection security vulnerability. The remote URI for this repository ($2) is potentially unsafe. Upgrade Mercurial to at least 3.2.4 to clone it.",
 	"03d1e9300f3a7810": "Unable to read device public key while attempting to make authenticated method call within the cluster. Use `$1` to register keys for this device. Exception: $2",

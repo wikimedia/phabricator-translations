@@ -285,7 +285,7 @@
 	"c2ff8d945c30ea3f": "Specified \"--count\" must be larger than 0.",
 	"c44ff782c4778a34": "is true",
 	"c4e117c2236cd0aa": "This rule triggers for $1.",
-	"c4e6f6f15010b1fc": "Found more than one {{PLURAL:$1|(\"$1\")}} applied edge transactions with given edge type (\"$2\"); expected zero or one.",
+	"c4e6f6f15010b1fc": "Found more than one (\"{{PLURAL:$1|$1}}\") applied edge transactions with given edge type (\"$2\"); expected zero or one.",
 	"c4ffd38d37bd93c7": "Rule Type",
 	"c6f84169403ff9f5": "Applying changes to $1: $2...",
 	"c7dd16bad6900401": "{{PLURAL:$1|$1$2s}}",

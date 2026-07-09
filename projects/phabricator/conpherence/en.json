@@ -53,7 +53,7 @@
 	"6aeb017fb9c62676": "Tap",
 	"6ff5f2314ad2fd95": "Apply transactions to create a new room or edit an existing one.",
 	"739baaed33e62714": "Unknown action: $1",
-	"73eb55ec7817d2a3": "Participants {{PLURAL:$1|($1)}}",
+	"73eb55ec7817d2a3": "Participants ({{PLURAL:$1|$1}})",
 	"74ef7e9206e63cd6": "$1 updated the room image for $2.",
 	"76f453d343cd6254": "Log in to join this room and participate.",
 	"7931c67bc6874162": "$1 added {{PLURAL:$2|a participant:|participants:}} $3.",

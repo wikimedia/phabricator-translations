@@ -80,7 +80,7 @@
 	"28e9f22ce2decbcc": "Already Dismissed",
 	"2948f91101554645": "Dismiss this operation? It will no longer be shown, but logs can be found in Drydock.",
 	"2971b4c003fc5b15": "Resource \"$1\" was reclaimed.",
-	"2a9c7c475a715a09": "Leases activated in {{PLURAL:$1|$1ms.}}",
+	"2a9c7c475a715a09": "Leases activated in {{PLURAL:$1|$1ms}}.",
 	"2addac1eb5882734": "Default Blueprint View Policy",
 	"2b03fc31c222e34e": "Allows Drydock to check out working copies of repositories.",
 	"2b42cb3362f16749": "Lease released.",

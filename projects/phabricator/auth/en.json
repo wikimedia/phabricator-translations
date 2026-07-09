@@ -15,7 +15,7 @@
 	"033ad62eb1258a42": "Authentication provider configuration is locked, and can not be changed without being unlocked. See the configuration setting $1 for details.",
 	"037f8234c2878291": "Server name must contain only lowercase letters, digits, and periods.",
 	"03b0e87b1da8286d": "Revoke Tokens",
-	"03e9589a6deec3b3": "Reached TOTP challenge validation with an unexpected number of unexpired challenges {{PLURAL:$1|($1),}} expected exactly one.",
+	"03e9589a6deec3b3": "Reached TOTP challenge validation with an unexpected number of unexpired challenges ({{PLURAL:$1|$1}}), expected exactly one.",
 	"03ea3746c9985b6f": "There are too many configured default registration providers.",
 	"04e1bc4ad686da44": "Unlink \"$1\" Account?",
 	"0509c518a8f66827": "Strip factors from specified users.",
