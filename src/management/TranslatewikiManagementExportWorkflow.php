@@ -505,6 +505,8 @@ final class TranslatewikiManagementExportWorkflow
 
       if ($this->browseURI) {
         $uri = $this->browseURI.$use['file'].'$'.$line;
+        // Fix for scripts/ and support/ which have a ".." in the path but the browse URI has an extra slash
+        $uri = str_replace('//..','/..', $uri);
       } else {
         $uri = null;
       }
