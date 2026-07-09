@@ -517,26 +517,6 @@ final class TranslatewikiManagementExportWorkflow
 
     asort($usage);
 
-    $types = idx($spec, 'types');
-    if ($types) {
-      // Relabel types to be more familiar to Translatewiki users.
-      $type_map = array(
-        '' => pht('NONE'),
-        'person' => pht('GENDER'),
-        'number' => pht('PLURAL'),
-        'phutilnumber' => pht('PLURAL'),
-      );
-
-      $type_list = array();
-      foreach ($types as $type) {
-        $type_list[] = idx($type_map, $type, $type);
-      }
-      $type_list = implode(', ', $type_list);
-
-      $help[] = pht('Variable Types: %s.', $type_list);
-      $help[] = "\n";
-    }
-
     if ($usage) {
       $help[] = pht('Used in:');
       $help[] = "\n\n";
