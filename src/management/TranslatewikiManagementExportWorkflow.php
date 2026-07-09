@@ -162,9 +162,6 @@ final class TranslatewikiManagementExportWorkflow
         'Oct',
         'Nov',
         'Dec',
-        // Uncomment once https://we.phorge.it/T15811 is fixed and Wikimedia
-        // pulls in the release with the fix
-        // "AM", "PM", "am", "pm"
       );
       foreach ($extra as $string) {
         $string_key = $this->getStringKey($string);
