@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Elroy",
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -86,7 +87,7 @@
 	"28e9f22ce2decbcc": "Al verworpen",
 	"2948f91101554645": "Deze bewerking verwerpen? Deze wordt niet meer weergegeven, maar logboeken zijn te vinden in Drydock.",
 	"2971b4c003fc5b15": "Resource \"$1\" is teruggevorderd.",
-	"2a9c7c475a715a09": "Leases geactiveerd in $1 ms.",
+	"2a9c7c475a715a09": "Leases geactiveerd in {{PLURAL:$1|$1 ms.}}",
 	"2addac1eb5882734": "Standaard weergavebeleid voor blueprints",
 	"2b03fc31c222e34e": "Hiermee kan Drydock werkkopiën van repositories uitchecken.",
 	"2b42cb3362f16749": "Lease vrijgegeven.",
@@ -243,11 +244,11 @@
 	"92d667533417f6b9": "Een resource vrijgeven.",
 	"942c95a7dc25427a": "Lease verkregen.",
 	"94aea12606a816e6": "Onverwachte fout bij het vernietigen van resource (\"$1\").",
-	"9504201cae49c99c": "WAARSCHUWING: Er zijn $1 niet-goedgekeurde autorisatie(s)!",
+	"9504201cae49c99c": "WAARSCHUWING: Er {{PLURAL:$1|is een niet-goedgekeurde autorisatie|zijn $1 niet-goedgekeurde autorisaties}}!",
 	"9516d2ecd769f6fb": "Blueprint \"$1\" (van type \"$2\") is niet correct geïmplementeerd: $3 moet de resource die het teruggeeft daadwerkelijk toewijzen.",
 	"95b06dc287293478": "Geen opdrachten uitgegeven.",
 	"95e4692425fca5ce": "Versie geland in $1.",
-	"961644c1392164aa": "$1 seconde(n) wachten tot lease wordt geactiveerd.",
+	"961644c1392164aa": "Er wordt {{PLURAL:$1|een seconde|$1 seconden}} gewacht tot de lease geactiveerd is.",
 	"96d0c006ae5555c3": "Attribuut \"repositories.map\" moet een kaart van repositoryspecificaties zijn.",
 	"97ded7fd7eee6b0a": "Toewijzing mislukt",
 	"986a4d29a9fdf6d2": "Versie landen in $1 op $2...",
@@ -371,7 +372,7 @@
 	"f4b608b8e29e0c5f": "Leases erven het beleid van de resources die ze leasen.",
 	"f62f6bfb4a44109c": "Drydock-gebruikershandleiding",
 	"f641c38e24c494fb": "Geen bekende blueprintklasse kan ooit de opgegeven lease toewijzen. Controleer of het resourcetype correct is gespeld.",
-	"f69378d621be88ba": "$1 seconde(n) wachten tot resource wordt geactiveerd.",
+	"f69378d621be88ba": "Er wordt {{PLURAL:$1|een seconde|$1 seconden}} gewacht tot de bron is geactiveerd.",
 	"f6f0ca6dace3654a": "Bij het aanmaken van een nieuwe Drydock-blueprint via de Conduit-API moet u een \"type\"-transactie opgeven om een type te selecteren.",
 	"f7d51714dc306476": "Poging om een lease in de wachtrij voor activering te plaatsen zonder een autoriserend object. Gebruik \"$1\" om de PHID van het autoriserende object op te geven. Het autoriserende object moet zijn goedgekeurd om de toegestane blueprints te gebruiken.",
 	"fb45255f1d930517": "Het blueprinttype instellen.",

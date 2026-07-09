@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Elroy",
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -67,7 +68,7 @@
 	"56564dcb2a15c30e": "Gezien",
 	"568ae0f9cfb6cd25": "Deze daemon draait normaal en heeft recent een statusupdate gerapporteerd (binnen $1). Het proces wacht momenteel om opnieuw te starten, omdat het in slaapstand is of omdat het een fout heeft ondervonden.",
 	"58e003f5e94108b6": "VERNIEUWEN",
-	"5b3316dfe485313a": "$1 taaklease(s) vrijgegeven.",
+	"5b3316dfe485313a": "$1 {{PLURAL:$1|taaklease|taakleases}} zijn vrijgegeven.",
 	"5d155655c6e23cea": "De logboeken voor alle daemons afdrukken, of voor bepaalde daemon(s) geïdentificeerd op ID. U kunt het ID voor een daemon ophalen via de Daemon Console in de webinterface.",
 	"5d9dd13a55a19012": "Lease verloopt",
 	"60f4563be9b5aea2": "Deze daemon is actief.",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -41,7 +42,7 @@
 	"9ccc701cb24b4d45": "Het laden van het externe object is mislukt na een conflict.",
 	"a42c19260318ad45": "Om projecten te specificeren waaraan taken moeten worden toegevoegd, voert u een JSON-map in met de namen van de uitgeversklassen als sleutels en een lijst met project-ID's als waarden. Om bijvoorbeeld taken voor Differential toe te voegen aan Asana-projecten met ID's `123` en `456`, voert u het volgende in: \n\n  lang=txt\n  {\n    \"DifferentialDoorkeeperRevisionFeedStoryPublisher\" : [123, 456]\n  }",
 	"a778bce62f556807": "Synchronisatie van subtaken vanuit Asana is mislukt!",
-	"a812c3ef68354e75": "Er werd verwacht dat het externe Asana-account precies één externe account-ID zou hebben, maar er zijn er $1 gevonden.",
+	"a812c3ef68354e75": "Er werd verwacht dat het externe Asana-account precies één externe account-ID zou hebben, maar er zijn er {{PLURAL:$1|$1}} gevonden.",
 	"ab57ea070504f56e": "Het verhaal gaat over een object waaraan geen JIRA-issues zijn gekoppeld.",
 	"b2ea4ec66688a7bc": "GitHub-gebruiker $1",
 	"b3f488e2db7461be": "Het GitHub-melding-ID \"$1\" is niet correct opgemaakt. Er werd een ID verwacht in de vorm \"owner/repository#123\".",

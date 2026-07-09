@@ -354,7 +354,7 @@
 	"83ce4547c788216e": "Taken heropend",
 	"83e8385783fc39f4": "Aanvullende projecttags.",
 	"844d25586810a56a": "Gebruikt in $1 en {{PLURAL:$2|één andere kolom|$2 andere kolommen}}.",
-	"8485b0aff96f7867": "Met deze functie kunt u resultaten vinden die zijn gekoppeld aan elk project waarvan een opgegeven gebruiker lid is. Bijvoorbeeld: hiermee vindt u resultaten die zijn gekoppeld aan alle projecten waarvan `$1` lid is: \n\n$2",
+	"8485b0aff96f7867": "Met deze functie kunt u resultaten vinden die verband houden met elk van de projecten waarvan een opgegeven gebruiker lid is. Met het volgende vindt u bijvoorbeeld resultaten die verband houden met alle projecten waarvan `$1` lid is: \n\n$2",
 	"84a440f57697aded": "Niet toegewezen",
 	"84a8bb131952ba48": "Kies een bovenliggend project om een nieuwe mijlpaal voor aan te maken.",
 	"853124def180ce4f": "Bij het uploaden van een nieuwe projectafbeelding moet u een bestand selecteren.",

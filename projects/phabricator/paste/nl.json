@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -26,7 +27,7 @@
 	"3003932a31fb1ed3": "Voer een taalnaam in of laat leeg voor automatische detectie...",
 	"30bdfa503c815052": "Paste bewerken: $1",
 	"314efd609d7c2ebb": "Deze paste wordt gemarkeerd als verlopen.",
-	"322e2a9dfa9064af": "$1 regel(s)",
+	"322e2a9dfa9064af": "$1 regel{{PLURAL:$1||s}}",
 	"35039e407ab8b6f0": "Nom Nom Nom Nom Nom",
 	"365ab4afbc4f0d0f": "Standaard weergavebeleid voor nieuw aangemaakte pastes.",
 	"43ad944d6b4001c7": "Deze paste bestaat niet.",

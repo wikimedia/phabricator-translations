@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -16,7 +17,7 @@
 	"2c7839103d2da165": "Deze toepassing is een prototype. $1",
 	"3424edc2354c7c55": "Bevestiging",
 	"344870a1f143310e": "Meer toepassingen ontdekken",
-	"355cc4086ab83439": "Nadat u de verwerking voor inkomende e-mail hebt ingesteld, kunt u via e-mail met objecten (zoals taken en versies) communiceren. Zie **[[ $1 | Inkomende e-mail instellen ]]** voor meer informatie over het instelling van inkomende e-mail. In de meeste gevallen kunt u reageren op e-mails die u van deze server ontvangt om opmerkingen achter te laten. U kunt ook **mailcommando's** gebruiken om een groter aantal acties uit te voeren (zoals een taak claimen of wijzigingen in een versie aanvragen) zonder dat u hoeft aan te melden op de webinterface. Mailcommando's zijn trefwoorden die beginnen met een uitroepsteken, zoals `!claim`. Sommige opdrachten kunnen parameters accepteren, zoals `!assign alincoln`. Om mailcommando's te gebruiken, schrijft u één commando per regel aan het begin of einde van uw e-mailbericht. U kan bijvoorbeeld het volgende in een antwoordmail op een taak schrijven om de taak te claimen: \n\n```\n!claim\n\nIk regel dit wel.\n```\n\n\nWanneer $2 uw e-mail ontvangt, verwerkt het eerst alle commando's en plaatst vervolgens de rest van het bericht als een reactie. U kunt meerdere commando's tegelijk uitvoeren: \n\n```\n!assign alincoln\n!close\n\nIk heb net met @alincoln gesproken en hij heeft me laten zien dat hij dit heeft opgelost.\n```",
+	"355cc4086ab83439": "Nadat u de verwerking voor inkomende e-mail hebt ingesteld, kunt u via e-mail met objecten (zoals taken en versies) communiceren. Zie **[[ $1 | Inkomende e-mail instellen ]]** voor meer informatie over het instelling van inkomende e-mail.\n\nIn de meeste gevallen kunt u opmerkingen achterlaten door de e-mails die u van deze server ontvangt te beantwoorden. Met **mailcommando's** kunt u ook een groter aantal acties uitvoeren (zoals een taak claimen of wijzigingen in een versie aanvragen) zonder zich aan te hoeven te melden op de webinterface.\n\nMailcommando's zijn trefwoorden die beginnen met een uitroepteken, zoals `!claim`. Sommige opdrachten kunnen parameters accepteren, zoals `!assign alincoln`.\n\nOm mailcommando's te gebruiken schrijft u één commando per regel aan het begin of einde van uw e-mailbericht. U kunt bijvoorbeeld het volgende in een antwoordmail op een taak schrijven om de taak te claimen: \n\n```\n!claim\n\nIk regel dit wel.\n```\n\n\nWanneer $2 uw e-mail ontvangt, verwerkt hij eerst alle commando's en plaatst dan de rest van het bericht als reactie. U kunt meerdere commando's ineens laten uitvoeren: \n\n```\n!assign alincoln\n!close\n\nIk heb net met @alincoln gesproken en hij heeft me laten zien dat hij dit heeft opgelost.\n```",
 	"3698f98c8cd65106": "Ingeschakelde toepassingen weergeven",
 	"3db64571b24d8317": "Niet-openbare functionaliteitsregels kunnen niet openbaar worden gemaakt.",
 	"44d009c4d95f8803": "Uit te voeren",

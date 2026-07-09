@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -546,7 +547,7 @@
 	"90e97bc318670d3e": "Ontwikkelaar / Debugging",
 	"91765e20cb67a619": "U hebt Imagemagick ingeschakeld in uw configuratie, maar het binaire bestand '$1' of '$2' staat niet in de $3 van de webserver. Schakel Imagemagick uit of maak het beschikbaar voor de webserver.",
 	"918cbb70c0b91f23": "PHP $1 verwijderen",
-	"92185dc52f71ef75": "Ontbrekend",
+	"92185dc52f71ef75": "Ontbreekt",
 	"922372c8a94ad8ed": "Klassen moeten overeenkomen om schema's te vergelijken!",
 	"924b1801ee43bc61": "Stel de URI in waar deze software is geïnstalleerd. Dit instellen verbetert de beveiliging door te voorkomen dat cookies op andere domeinen worden ingesteld, en stelt daemons in staat e-mails te verzenden met koppelingen die het juiste domein hebben.",
 	"9257cd9a51728d7e": "Elasticsearch-index niet gevonden",
