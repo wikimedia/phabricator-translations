@@ -1819,7 +1819,7 @@
 	"f8de897cd5346880": "Versió PHP per a l'objectiu.",
 	"f924bd07f4830646": "Mala traçabilitat? \"$1\"",
 	"f92dfa3cb51b5357": "Necessita revisió",
-	"f964103cee8ce3fd": "S'està intentant executar proves unitàries en una biblioteca libphutil que no s'ha carregat, a: \n\n    $1 \n\nProbablement això significa una de dues coses: \n\n    - Potser heu d'afegir aquesta biblioteca a $2. \n    - Podeu estar executant proves en una còpia de libphutil o arcanist utilitzant una còpia diferent de libphutil o arcanist.  Aquesta operació no és compatible.",
+	"f964103cee8ce3fd": "S'està intentant executar proves unitàries en una biblioteca libphutil que no s'ha carregat, a: \n\n    $1 \n\nProbablement això significa una de dues coses: \n\n    - Podeu estar executant proves en una còpia de libphutil o arcanist utilitzant una còpia diferent de libphutil o arcanist.  Aquesta operació no és compatible.",
 	"f9a517d6d04d3e03": "Aquesta diferència inclou $1 fitxers que no són UTF-8 vàlids (contenen seqüències de bytes no vàlides). Es pot aturar aquest flux de treball i corregir aquests fitxers o continuar. Si continueu, aquests fitxers es marcaran com a binaris.",
 	"f9d4009e7cbbd725": "No s'ha pogut canviar el nom de '$1' a '$2'.",
 	"f9d88e488fbac6ab": "Construcció lenta",

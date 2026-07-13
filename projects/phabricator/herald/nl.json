@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Elroy",
+			"Pppery",
 			"Siebrand"
 		]
 	},
@@ -235,7 +236,7 @@
 	"9e803e8049a7dd8e": "Voorwaarde verwijst naar een regel die niet bestaat!",
 	"a0072fe841be67b6": "Alleen ingeschakelde regels weergeven",
 	"a08cad1eb53026ea": "Webhook $1 $2",
-	"a1ecc303306b3da9": "Dit object (\"$1\") heeft meer dan $2 {{PLURAL:$1|translactie|transactie}} in de meest recente transactiegroep; dit zijn er te veel.",
+	"a1ecc303306b3da9": "Dit object (\"$1\") heeft meer dan $2 {{PLURAL:$2|translactie|transactie}} in de meest recente transactiegroep; dit zijn er te veel.",
 	"a2b5b2e4955eb960": "Niets gedaan",
 	"a313dae590c9ee8b": "Kies het object waarop deze regel van toepassing is (voer bijvoorbeeld `rX` in om op de `rX`-repository te handelen, of `#project` om op een project te handelen).",
 	"a3c1c33c34d4ce79": "Geen handeling met sleutel \"$1\" is beschikbaar voor Herald-adapter \"$2\".",

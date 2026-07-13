@@ -3,6 +3,7 @@
 		"authors": [
 			"Elroy",
 			"McDutchie",
+			"Pppery",
 			"Siebrand"
 		]
 	},
@@ -602,7 +603,7 @@
 	"9dce266216728b57": "Versie $1 bijwerken: $2",
 	"9e201f7bdf86e766": "U kunt niet aftreden van deze versie omdat deze al is gesloten. U kunt alleen aftreden van open versies.",
 	"9e850e72fb23b3ec": "Instructies voor het terugdraaien/ongedaan maken van deze wijziging.",
-	"9ed98dcf1f25cbce": "$1 heeft {{PLURAL:$1|een JIRA-issue|$2 JIRA-issues}} toegevoegd: $3.",
+	"9ed98dcf1f25cbce": "$1 heeft {{PLURAL:$2|een JIRA-issue|$2 JIRA-issues}} toegevoegd: $3.",
 	"9f83ddecf9dfb3db": "Deze versie heeft geen geïndexeerde beïnvloede paden.",
 	"9f9085b72b496258": "Versiehandelingen",
 	"a01aec90ea46d753": "$1 heeft deze versie overgenomen van $2.",
@@ -636,7 +637,7 @@
 	"a70802eb6660447f": "Gekoppelde onderliggende versies wijzigen.",
 	"a72973d382d4d338": "Versievelden",
 	"a73752b01d515c82": "Versie sluiten",
-	"a7473356cfbde72e": "$1 heeft {{PLURAL:$1|een reviewer|$2 reviewers}} toegevoegd: $3.",
+	"a7473356cfbde72e": "$1 heeft {{PLURAL:$2|een reviewer|$2 reviewers}} toegevoegd: $3.",
 	"a7a568dc0c123e27": "Index van beïnvloede paden",
 	"a7ba551e831ad5a9": "Vergelijkbaar",
 	"a7cb8fa98486f309": "Fout bij het extraheren van veldtransacties uit \"$1\": $2",

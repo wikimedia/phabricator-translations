@@ -8,6 +8,7 @@
 			"Marcelhospers",
 			"McDutchie",
 			"Mitsjol",
+			"Pppery",
 			"Romaine",
 			"Siebrand",
 			"Vistaus"
@@ -2534,7 +2535,7 @@
 	"ff6f052de947cab2": "Unittests uitvoeren...",
 	"ff718f7467263f27": "Kan binair bestand \"$1\" niet vinden om linter $2 uit te voeren. Mogelijk moet u het binaire bestand installeren of uw linterconfiguratie aanpassen.",
 	"ff746daf8d5257c0": "Deze iteratorvariabele is een eerder gedeclareerde lokale variabele. Om het overschrijven van lokale variabelen te voorkomen, hergebruik ze niet als iteratorvariabelen.",
-	"ff761e5bc5026446": "CIDR-blok \"$1\" is niet correct opgemaakt. Het IP-blokmasker (\"$2\") moet tussen 0 en $3 {{PLURAL:$1|bit|bits}} maskeren, inclusief.",
+	"ff761e5bc5026446": "CIDR-blok \"$1\" is niet correct opgemaakt. Het IP-blokmasker (\"$2\") moet tussen 0 en $3 {{PLURAL:$3|bit|bits}} maskeren, inclusief.",
 	"ff908d0f99edc23d": "Onherstelbare fout",
 	"ffae13d8d09f8630": "Er bestaat geen remote \"$1\" in deze repository.",
 	"ffd75aa23b76a01c": "Tekenreeks wordt niet verwerkt tot precies één instructie!",

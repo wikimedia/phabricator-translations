@@ -734,7 +734,7 @@
 	"f20315fe6861e137": "Englisch (US)",
 	"f3f91e1ec3e0ae32": "Portugiesisch (Brasilien)",
 	"f4f4473df8cb59f0": "Deaktiviert",
-	"f964103cee8ce3fd": "Versuche Komponententests auf einer libphutil-Bibliothek, die noch nicht geladen wurde auszuführen bei:\n\n   $1\n\nDas bedeutet wahrscheinlich eines von zwei Dingen:\n\n   - Du könntest diese Bibliothek zu $2 hinzufügen müssen.\n   - Du könntest Tests auf einer Kopie von libphutil oder arcanist unter Verwendung einer andren Kopie von arcanist ausführen. Diese Operation wird nicht unterstützt.",
+	"f964103cee8ce3fd": "Versuche Komponententests auf einer libphutil-Bibliothek, die noch nicht geladen wurde auszuführen bei:\n\n   $1\n\nDas bedeutet wahrscheinlich eines von zwei Dingen:\n\n   - Du könntest Tests auf einer Kopie von libphutil oder arcanist unter Verwendung einer andren Kopie von arcanist ausführen. Diese Operation wird nicht unterstützt.",
 	"fce0b54f4be95688": "Diese Version von Arcanist ist neuer als die Version von Phabricator mit der du dich verbindest: die Phabricator-Installation ist veraltet und hat keine Unterstützung für das Identifizieren von Repositorys mithilfe von callsign oder URI. Aktualisiere Phabricator, um diese Funktionen zu aktivieren.",
 	"fd3edc641024a335": "WARNUNG",
 	"fdd289e370bd5cc5": "Sep",

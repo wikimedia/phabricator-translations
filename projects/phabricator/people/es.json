@@ -18,6 +18,7 @@
 	"0eb87daee59a3723": "Cuenta de usuario \"$1\" ya ha sido aprobada. Solo puedes aprobar cuentas que todavía no han sido aprobadas.",
 	"0f2a4c5ee51338f4": "Almacena el nombre real del usuario, como «Fulano de Tal».",
 	"13730074ae976099": "Debes tener permisos de administrador para crear nuevos administradores.",
+	"157be0c811589458": "El usuario no es miembro de ningún proyecto.",
 	"15993def79b322aa": "El usuario no ha recibido ninguna insignia.",
 	"15cfe9cf42e4f59d": "Invitar usuarios",
 	"1679d1b94ac47018": "Revisar invitaciones",
@@ -46,6 +47,7 @@
 	"3f1c9b2149f85753": "¿Eliminar como administrador?",
 	"41b81eb8db1b97e8": "Aprobado",
 	"42c27f476ff22e6c": "La información sobre los perfiles de usuario de esta instalación es visible al público.",
+	"45884a8e97aa304e": "Insignias recibidas",
 	"4ad3ee0f6ea05e43": "Correo electrónico no verificado",
 	"4b37cfc453fcd6bb": "Nombres de usuario",
 	"4b9bde480b250ad3": "Crear usuario nuevo",
@@ -77,6 +79,7 @@
 	"a6935da6add92db1": "Escriba un nombre de usuario...",
 	"a7dc90e03d5fc823": "Enviar correo electrónico de bienvenida",
 	"a9414b4e4c1232c2": "Editar configuración",
+	"abfe7a507033fa50": "No hay tareas creadas.",
 	"ac76b969a840d99b": "$1 eliminó los permisos de administrador a $2.",
 	"aed3b8c6a7c0fbbd": "Verificado",
 	"b34e9360db16298e": "Cambiar nombre de usuario",
@@ -95,5 +98,6 @@
 	"f6a628af1a94ddfe": "$1 ($2) cambió su nombre de usuario en Phabricator.",
 	"f7af8c0392db3757": "No puedes enviar mensajes de bienvenida porque no eres administrador. Solo los administradores pueden enviar mensajes de bienvenida.",
 	"f98db0153727189a": "Usuario desde",
+	"fb69b7b25a62f07a": "Tareas creadas",
 	"ff869b5511f98209": "Mostrar solo usuarios no aprobados"
 }
