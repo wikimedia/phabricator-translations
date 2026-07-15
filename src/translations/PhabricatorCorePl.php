@@ -81,6 +81,7 @@ final class PhabricatorCorePl
   'Writing CSS \'%s\'...' => 'Zapisywanie CSS \'%s\'...',
   'Task Status' => 'Stan zadania',
   'Task %d (%s)' => 'Zadanie %d (%s)',
+  'Edit Task' => 'Edytuj Zadanie',
   'Open Tasks' => 'Otwarte zadania',
   'Manage' => 'Zarządzaj',
   'Settings' => 'Ustawienia',

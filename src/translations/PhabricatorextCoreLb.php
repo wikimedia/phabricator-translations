@@ -15,13 +15,11 @@ final class PhabricatorextCoreLb
   'unknown' => 'onbekannt',
   'Invalid' => 'Ongülteg',
   'Name' => 'Numm',
-  'Expert Mode.' => 'Expertemodus.',
   'How this works' => 'Wéi et geet',
   'MediaWiki User' => 'MediaWiki-Benotzer',
   'Unknown' => 'Onbekannt',
   'Global Accounts' => 'Global Benotzerkonten',
   'Previous: %s' => 'Vireg: %s',
-  'Expert Mode' => 'Expertemodus',
   'No Permission' => 'Keng Autorisatioun',
   'Required' => 'Obligatoresch',
 );

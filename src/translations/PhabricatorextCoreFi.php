@@ -10,7 +10,6 @@ final class PhabricatorextCoreFi
   protected function getTranslations() {
     return array(
   'Next: %s' => 'Seuraava: %s',
-  'Standard Phabricator.' => 'Phabricatorin perustila.',
   'Unresolved code review comments: %d' => 'Ratkaisemattomat koodinkatselmointikommentit: %d',
   'Cannot Lock Task' => 'Tehtävän lukitseminen epäonnistui',
   'Show related patches' => 'Näytä liittyvät pätsit',
@@ -31,10 +30,8 @@ final class PhabricatorextCoreFi
   '%s Line(s) removed' => '%s rivi(ä) poistettu',
   'Code Review Started' => 'Koodin katselmointi aloitettu',
   'Hide Instructions' => 'Piilota käyttöohjeet',
-  'Expert Mode.' => 'Asiantuntijatila.',
   'locked' => 'lukittu',
   'How this works' => 'Näin se toimii',
-  'Create custom access control policy objects.' => 'Luo mukautettuja käyttöoikeuskäytäntöobjekteja.',
   'Use [[%s|this form]] to create one.' => 'Luo käyttäen tätä [[%s|lomaketta]].',
   'MediaWiki User' => 'MediaWiki-käyttäjä',
   'Open Tasks' => 'Avoimet tehtävät',
@@ -42,7 +39,6 @@ final class PhabricatorextCoreFi
   'Global Accounts' => 'Järjestelmänlaajuiset tunnukset',
   'Object Type' => 'Objektin tyyppi',
   'Previous: %s' => 'Edellinen: %s',
-  'Expert Mode' => 'Asiantuntijatila',
   'No Permission' => 'Ei oikeutta',
   'merged' => 'yhdistetty',
   'closed' => 'suljettu',

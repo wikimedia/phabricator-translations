@@ -18,6 +18,7 @@ final class PhabricatorPeopleEsES
   'User account "%s" is already approved. You can only approve accounts that are not yet approved.' => 'Cuenta de usuario "%s" ya ha sido aprobada. Solo puedes aprobar cuentas que todavía no han sido aprobadas.',
   'Stores the real name of the user, like "Abraham Lincoln".' => 'Almacena el nombre real del usuario, como «Fulano de Tal».',
   'You must be an administrator to create administrators.' => 'Debes tener permisos de administrador para crear nuevos administradores.',
+  'User is not a member of any projects.' => 'El usuario no es miembro de ningún proyecto.',
   'User has not been awarded any badges.' => 'El usuario no ha recibido ninguna insignia.',
   'Invite Users' => 'Invitar usuarios',
   'Revise Invites' => 'Revisar invitaciones',
@@ -46,6 +47,7 @@ final class PhabricatorPeopleEsES
   'Remove as Administrator?' => '¿Eliminar como administrador?',
   'Approved' => 'Aprobado',
   'Information on user profiles on this install is publicly visible.' => 'La información sobre los perfiles de usuario de esta instalación es visible al público.',
+  'Received Badges' => 'Insignias recibidas',
   'Email Not Verified' => 'Correo electrónico no verificado',
   'Usernames' => 'Nombres de usuario',
   'Create New User' => 'Crear usuario nuevo',
@@ -77,6 +79,7 @@ final class PhabricatorPeopleEsES
   'Type a username...' => 'Escriba un nombre de usuario...',
   'Send Welcome Email' => 'Enviar correo electrónico de bienvenida',
   'Edit Settings' => 'Editar configuración',
+  'No authored tasks.' => 'No hay tareas creadas.',
   '%s defrocked %s.' => '%s eliminó los permisos de administrador a %s.',
   'Verified' => 'Verificado',
   'Change Username' => 'Cambiar nombre de usuario',
@@ -95,6 +98,7 @@ final class PhabricatorPeopleEsES
   '%s (%s) has changed your %s username.' => '%s (%s) cambió su nombre de usuario en Phabricator.',
   'You can not send welcome mail because you are not an administrator. Only administrators may send welcome mail.' => 'No puedes enviar mensajes de bienvenida porque no eres administrador. Solo los administradores pueden enviar mensajes de bienvenida.',
   'User Since' => 'Usuario desde',
+  'Authored Tasks' => 'Tareas creadas',
   'Show Only Unapproved Users' => 'Mostrar solo usuarios no aprobados',
 );
   }

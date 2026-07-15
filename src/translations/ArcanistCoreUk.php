@@ -114,7 +114,7 @@ existing aliases with the same name.' => 'Створіть псевдонім в
 
 Щоб видалити псевдонім, виконайте:
 
- $ arc alias<alias-name> 
+ $ arc alias <alias-name> 
 
 Вам буде запропоновано видалити псевдонім.
 
@@ -333,6 +333,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'The URI of a server to connect to by default, if %s is run in a project without a configured URI or run outside of a project.' => 'URI сервера для підключення до за замовчуванням, якщо %s виконується у проєкті без налаштованого URI або працює поза проєктом.',
   'Loading library from "%s"...' => 'Завантаження бібліотеки з "%s"...',
   '%s is not a valid JSON object.' => '%s не є дійсним об\'єктом JSON.',
+  'Checking out bookmark "%s".' => 'Перевірка закладки "%s".',
   'Changes Planned' => 'Заплановані зміни',
   '(... %s more revisions ...)' => array(
     '(... ще %s редакція ...)',
@@ -353,6 +354,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => 'Є декіл
   'Space found before semicolon.' => 'Виявлено пробіл перед крапкою з комою.',
   'Use `%s` for checking if the string contains something.' => 'Використовуйте ` %s `, щоб перевірити, чи містить рядок щось.',
   'Perforce mode does not support the "merge" land strategy. Use the "squash" land strategy when landing to a Perforce remote (you can use "--squash" to select this strategy).' => 'Режим Perforce не підтримує стратегію "злиття" посадок. Використайте посадкову стратегію "squash" при переключенні на пульт Perforce (ви можете використати "--squash", щоб вибрати цю стратегію).',
+  'Use "--types" to select between alternatives.' => 'Використовуйте "--types" для вибору між альтернативами.',
   'Landing the active bookmark, "%s".' => 'Відкриття активної закладки "%s".',
   'Copied Here' => 'Скопійовано тут',
   'This line will be added:' => 'Цей рядок буде додано:',
@@ -548,6 +550,7 @@ You may need to update shell completion if:
   'Choose a workflow!' => 'Виберіть робочий процес!',
   '`%s` Operator' => 'Оператор «%s»',
   '%s %s' => '%s %s',
+  'Specify available reviewers and retry.' => 'Вкажіть доступних рецензентів і спробуйте ще раз.',
   'Fail' => 'Збій',
   'it is the first ancestor of %s that either has a bookmark, or is already in the remote and it matched the rule %s in your %s \'base\' configuration' => 'це перший предок %s, який або має закладку, або вже знаходиться на віддаленому пристрої, і він відповідає правилу %s у вашій конфігурації %s \'base\'',
   'No viewer!' => 'Без переглядача!',
@@ -565,6 +568,8 @@ You may need to update shell completion if:
   'Version' => 'Версія',
   'REVISION' => 'РЕВІЗІЯ',
   'Which URI do you want to open?' => 'Який URI ви хочете відкрити?',
+  'Matching working copy directory path.' => 'Відповідний шлях до каталогу робочої копії.',
+  'Restoring local state (to detached commit "%s").' => 'Відновлення локального стану (до відокремленої фіксації "%s").',
   'Mark the file as temporary. Temporary files will be deleted after 24 hours.' => 'Позначте файл як тимчасовий. Тимчасові файли будуть вилучені через 24 години.',
   'Hardpoint (at index "%s") has the same key ("%s") as an earlier hardpoint. Each hardpoint must have a key that is unique among hardpoints on the object.' => 'Точка доступу (з індексом "%s") має той ж ключ ("%s"), що і раніша точка кріплення. Кожна точка кріплення повинна мати ключ, унікальний разом з точками кріплення на об\'єкті.',
   'Dynamic `%s`' => 'Динамічний «%s»',
@@ -908,6 +913,7 @@ about review status.' => 'Перелічує закладки в робочій 
   'Moved Here' => 'Переміщено Сюди',
   'Expected an object, string, or list of objects for "object" context, got "%s".' => 'Очікувався об’єкт, рядок або список об’єктів для контексту «об’єкт», отримано "%s".',
   'The river bubbles quietly, but you do not see any published commits anywhere.' => 'Річка тихо булькає, проте ви ніде не бачите жодних опублікованих фіксацій.',
+  'Unable to parse SVN info.' => 'Не вдалося проаналізувати інформацію SVN.',
   'Logical Operators' => 'Логічні оператори',
   'Keep local branches around after changes are pushed. By default, local branches are deleted after the changes they contain are published.' => 'Зберігайте локальні гілки після внесення змін. За замовчуванням локальні гілки видаляються після публікації змін, які вони містять.',
   'Repository API is not supported.' => 'API каталоги не підтримуються.',

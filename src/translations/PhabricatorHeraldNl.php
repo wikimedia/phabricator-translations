@@ -255,8 +255,11 @@ final class PhabricatorHeraldNl
   'Show Only Enabled Rules' => 'Alleen ingeschakelde regels weergeven',
   'Webhook %d %s' => 'Webhook %d %s',
   'This object ("%s") has more than %s transactions in its most recent transaction group; this is too many.' => array(
-    'Dit object ("%s") heeft meer dan %s translactie in de meest recente transactiegroep; dit zijn er te veel.',
-    'Dit object ("%s") heeft meer dan %s transactie in de meest recente transactiegroep; dit zijn er te veel.',
+    
+    array(
+      'Dit object ("%s") heeft meer dan %s translactie in de meest recente transactiegroep; dit zijn er te veel.',
+      'Dit object ("%s") heeft meer dan %s transactie in de meest recente transactiegroep; dit zijn er te veel.',
+    ),
   ),
   'Did Nothing' => 'Niets gedaan',
   'Choose the object this rule will act on (for example, enter `rX` to act on the `rX` repository, or `#project` to act on a project).' => 'Kies het object waarop deze regel van toepassing is (voer bijvoorbeeld `rX` in om op de `rX`-repository te handelen, of `#project` om op een project te handelen).',

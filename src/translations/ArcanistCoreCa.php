@@ -1922,7 +1922,6 @@ Make sure this library is configured to load.
 
 Probablement això significa una de dues coses: 
 
-    - Potser heu d\'afegir aquesta biblioteca a %s. 
     - Podeu estar executant proves en una còpia de libphutil o arcanist utilitzant una còpia diferent de libphutil o arcanist.  Aquesta operació no és compatible.',
   'This diff includes %s file(s) which are not valid UTF-8 (they contain invalid byte sequences). You can either stop this workflow and fix these files, or continue. If you continue, these files will be marked as binary.' => 'Aquesta diferència inclou %s fitxers que no són UTF-8 vàlids (contenen seqüències de bytes no vàlides). Es pot aturar aquest flux de treball i corregir aquests fitxers o continuar. Si continueu, aquests fitxers es marcaran com a binaris.',
   'Failed to rename \'%s\' to \'%s\'!' => 'No s\'ha pogut canviar el nom de \'%s\' a \'%s\'.',

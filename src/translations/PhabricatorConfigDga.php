@@ -67,13 +67,13 @@ If you are using a web browser, check your webserver configuration. If you are u
 
 It is also possible (but very unlikely) that some other network device (like a load balancer) is stripping the header.
 
-Requests must include a valid "Host" header.' => 'A sɔroo ba paale a \'\'Hoosi\'\' yelzu. Ŋa na baŋ a fo wɛb-sɛɛva ( aŋa nginx bee apakyi) ba e konfigere azuiŋ \'\'Hoosi\'\' yelzu ba maale a saseɛ miri, bee ka fo maala la sɔroo mine kyɛ ba taa \'\'Hoosi\'\' yelzu aneŋ tuuli bee laabiri.
+Requests must include a valid "Host" header.' => 'A sɔroo ba paale a \'\'Host\'\' yelzu. Ŋa na baŋ a fo wɛb-sɛɛva ( aŋa nginx bee apakyi) ba e konfigere azuiŋ \'\'Host\'\' yelzu ba maale a saseɛ miri, bee ka fo maala la sɔroo mine kyɛ ba taa \'\'Hoosi\'\' yelzu aneŋ tuuli bee laabiri.
 
 Ka foo tona neŋ wɛb beraasa, kaa a fo wɛb-sɛɛva konfigere. Ka fooŋ tona neŋ tuuli bee laabiri, kaa lɛ sɔroo naŋ maale.
 
 A meŋ naŋ baŋ e la (kyɛ ba e) ka a saseɛ mie mine (aŋa tuori sentaa)  boɔrɔ la a yelzu.
 
-Sɔroo ferɛ la ka a taa \'\'Hoosi\'\' velaa yelzu.',
+Sɔroo ferɛ la ka a taa \'\'Host\'\' velaa yelzu.',
   'The request body that was sent began:' => 'A sɔroo eŋene na naŋ toɔle gaa piilee:',
   'The best available MYSQL implementation is now selected automatically.' => 'A bonsoŋ naŋ bebe MYSQL de tontoma maŋ kaa iri la omeŋɛ pampana.',
   'Alternative URIs that can access this service.' => 'URIs mine naŋ na toɔŋ pɔge a saseɛ miri ŋa',
@@ -407,11 +407,7 @@ Ka fooŋ naŋ peɛre yɛlɛ mine, fo naŋ toɔŋ toŋ ne la yele mine baaroo yel
 Ka fooŋ na iri  baaroo faali tɛɛtɛɛ, paale a %s faale (a %s poɔŋ) kyɛ leɛ piili %s:
 
 %s
-(fo meŋ na baŋ toŋ la neŋ faali tɛɛtɛɛ ka fooŋ boɔrɔ. A faali boɔbo saazu kyɛ la 50 Egilisi yelbie.)
-
-Baara, toŋ ne a leɛ-meɛbo kyaare a endɛɛsi tommo merɛ pala:
-
-%s',
+(fo meŋ na baŋ toŋ la neŋ faali tɛɛtɛɛ ka fooŋ boɔrɔ. A faali boɔbo saazu kyɛ la 50 Egilisi yelbie.)',
   'Do not install this software on an instance class with burstable CPU.' => 'Ta WS derɛɛ a Gaŋpɛle ŋa naŋ na dɔɔna fo CPU.',
   'Unable to determine the version number of "%s". Usually, this means the program changed its version format string recently and this software does not know how to parse the new one yet, but might indicate that you have a very old (or broken) binary.
 

@@ -9,14 +9,10 @@ final class PhabricatorextCoreUk
 
   protected function getTranslations() {
     return array(
-  'Standard Phabricator.' => 'Стандартний фабрикатор.',
   'MediaWiki' => 'MediaWiki',
-  'Enable expert mode to reveal additional "advanced" options in the Phabricator UI.' => 'Увімкніть експертний режим, щоб відкрити додаткові «розширені» параметри в інтерфейсі фабрикатора.',
-  'Expert Mode.' => 'Режим експерта.',
   'MediaWiki User' => 'Користувач MediaWiki',
   'Open Tasks' => 'Відкрити завдання',
   'Global Accounts' => 'Глобальні облік. записи',
-  'Expert Mode' => 'Режим експерта',
 );
   }
 

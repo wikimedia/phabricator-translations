@@ -50,13 +50,13 @@ If you are using a web browser, check your webserver configuration. If you are u
 
 It is also possible (but very unlikely) that some other network device (like a load balancer) is stripping the header.
 
-Requests must include a valid "Host" header.' => 'Aquesta sol·licitud incloïa una capçalera "Amfitrió" no vàlida, amb el valor "%s". Les capçaleres d\'amfitrió han de contenir un punt (\'.\'), Com ara \'example.com\'. Això és necessari perquè alguns navegadors puguin configurar galetes.
+Requests must include a valid "Host" header.' => 'Aquesta sol·licitud no inclou cap capçalera "Host". Això pot significar que el vostre servidor web (com ara nginx o apache) està mal configurat, de manera que la capçalera "Host" no es subministra a Phabricator o que feu una sol·licitud en brut "Host" mitjançant una eina o una biblioteca.
 
-Això pot significar que l\'URI de base no s\'ha configurat correctament. Cal publicar Phabricator des d\'un URI base amb un punt (com ara "https://phabricator.mycompany.com"), no un domini (com ara "https://phabricator.mycompany.com"). Si intenteu utilitzar un domini senzill, canvieu la configuració per a utilitzar un domini complet amb un punt.
+Si utilitzeu un navegador web, comproveu la configuració del servidor web. Si feu servir una eina o una biblioteca, comproveu com es construeix la consulta.
 
-Això també pot significar que el vostre servidor web (o algun altre dispositiu de xarxa, com un equilibrador de càrrega) està manipulant la capçalera "Amfitrió" o que utilitzeu una eina o una biblioteca per emetre una sol·licitud manualment i establint una capçalera "Amfitrió" incorrecta.
+També és possible (però molt poc probable) que un altre element de xarxa (com ara un equilibrador de càrrega) estigui despullant la capçalera.
 
-Les sol·licituds han d\'incloure una capçalera "amfitrió" vàlida.',
+Les sol·licituds han d\'incloure una capçalera "Host" vàlida.',
   'Memory Usage' => 'Ús de Memòria',
   'The request body that was sent began:' => 'El cos de la petició que Phabricator ha enviat en començar:',
   'Impersonating users over the API is no longer supported.' => 'Ja no és possible fer-se passar per altres usuaris a través de l\'API.',
@@ -605,11 +605,7 @@ Per a fer que la cerca sigui més útil, podeu utilitzar un fitxer alternatiu de
 Per triar un altre fitxer de paraules buides, afegiu-lo al vostre fitxer %s (a la secció %s) i després reinicieu %s: 
 
 %s 
-(Si ho preferiu, també podeu utilitzar un fitxer diferent. El fitxer suggerit anteriorment té al voltant de 50 de les paraules en anglès més comunes.) 
-
-Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les noves regles: 
-
-%s',
+(Si ho preferiu, també podeu utilitzar un fitxer diferent. El fitxer suggerit anteriorment té al voltant de 50 de les paraules en anglès més comunes.)',
   'Do not install this software on an instance class with burstable CPU.' => 'No instal·leu Phabricator en una classe d\'instància amb CPU de ràfega.',
   'This is an override list of regular expressions which allows you to choose what language files are highlighted as. If your projects have certain rules about filenames or use unusual or ambiguous language extensions, you can create a mapping here. This is an ordered dictionary of regular expressions which will be tested against the filename. They should map to either an explicit language as a string value, or a numeric index into the captured groups as an integer.' => 'Aquesta és una llista de sobreescriptura d\'expressions regulars que us permet triar com es ressalten els fitxers d\'idioma. Si els vostres projectes tenen certes regles sobre noms de fitxer o utilitzen extensions de llenguatge inusuals o ambigües, podeu crear un mapatge aquí. Aquest és un diccionari ordenat d\'expressions regulars que es provarà amb el nom de fitxer. Haurien de mapejar un llenguatge explícit com a valor de cadena, o un índex numèric en els grups capturats com a enter.',
   'You can restrict allowed email addresses to certain domains (like `yourcompany.com`) by setting a list of allowed domains here.
@@ -1002,13 +998,13 @@ This may mean the base URI is configured incorrectly. You must serve this softwa
 
 This might also mean that your webserver (or some other network device, like a load balancer) is mangling the "Host" header, or you are using a tool or library to issue a request manually and setting the wrong "Host" header.
 
-Requests must include a valid "Host" header.' => 'Aquesta sol·licitud no inclou cap capçalera "amfitrió". Això pot significar que el vostre servidor web (com ara nginx o apache) està mal configurat, de manera que la capçalera "Host" no es subministra a Phabricator o que feu una sol·licitud en brut "Host" mitjançant una eina o una biblioteca.
+Requests must include a valid "Host" header.' => 'Aquesta sol·licitud incloïa una capçalera "Host" no vàlida, amb el valor "%s". Les capçaleres d\'amfitrió han de contenir un punt (\'.\'), Com ara \'example.com\'. Això és necessari perquè alguns navegadors puguin configurar galetes.
 
-Si utilitzeu un navegador web, comproveu la configuració del servidor web. Si feu servir una eina o una biblioteca, comproveu com es construeix la consulta.
+Això pot significar que l\'URI de base no s\'ha configurat correctament. Cal publicar Phabricator des d\'un URI base amb un punt (com ara "https://phabricator.mycompany.com"), no un domini (com ara "https://phabricator.mycompany.com"). Si intenteu utilitzar un domini senzill, canvieu la configuració per a utilitzar un domini complet amb un punt.
 
-També és possible (però molt poc probable) que un altre element de xarxa (com ara un equilibrador de càrrega) estigui despullant la capçalera.
+Això també pot significar que el vostre servidor web (o algun altre dispositiu de xarxa, com un equilibrador de càrrega) està manipulant la capçalera "Amfitrió" o que utilitzeu una eina o una biblioteca per emetre una sol·licitud manualment i establint una capçalera "Amfitrió" incorrecta.
 
-Les sol·licituds han d\'incloure una capçalera "amfitrió" vàlida.',
+Les sol·licituds han d\'incloure una capçalera "Host" vàlida.',
   'User Interface' => 'Interfície d\'usuari',
   'No Schema Issues' => 'No hi ha problemes d’esquema',
   'MySQL database hostname.' => 'Nom d\'amfitrió de la base de dades MySQL.',
@@ -1044,9 +1040,6 @@ Per exemple, no podreu trobar resultats de cerca per a paraules com «SMS», «w
 Podeu canviar aquest paràmetre a 3 per permetre que s\'indexin aquestes paraules. Alternativament, podeu ignorar aquest avís si no esteu preocupat per cercar paraules de tres lletres. Si més tard planegeu configurar l\'Elasticsearch, també podeu ignorar aquest avís: només afecta la cerca de text complet de MySQL. 
 
 Per reduir la longitud mínima de la paraula a 3, afegiu-ho al vostre fitxer %s (a la secció %s) i després reinicieu %s: 
-
-%s 
-Finalment, executeu aquesta ordre per reconstruir els índexs utilitzant les noves regles: 
 
 %s',
   'Opcode Cache' => 'Caché d\'Opcode',

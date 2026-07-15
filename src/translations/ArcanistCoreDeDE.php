@@ -772,7 +772,6 @@ Make sure this library is configured to load.
 
 Das bedeutet wahrscheinlich eines von zwei Dingen:
 
-   - Du könntest diese Bibliothek zu %s hinzufügen müssen.
    - Du könntest Tests auf einer Kopie von libphutil oder arcanist unter Verwendung einer andren Kopie von arcanist ausführen. Diese Operation wird nicht unterstützt.',
   'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server software to enable these features.' => 'Diese Version von Arcanist ist neuer als die Version von Phabricator mit der du dich verbindest: die Phabricator-Installation ist veraltet und hat keine Unterstützung für das Identifizieren von Repositorys mithilfe von callsign oder URI. Aktualisiere Phabricator, um diese Funktionen zu aktivieren.',
   'WARNING' => 'WARNUNG',

@@ -49,13 +49,7 @@ final class PhabricatorPholioNl
     'Namen van mockafbeeldingen mogen niet langer zijn dan %s teken.',
     'Namen van mockafbeeldingen mogen niet langer zijn dan %s tekens.',
   ),
-  '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => array(
-    
-    array(
-      '%s heeft een taak bewerkt voor %s; toegevoegd: %4$s; verwijderd: %6$s.',
-      '%s heeft taken bewerkt voor %s; toegevoegd: %4$s; verwijderd: %6$s.',
-    ),
-  ),
+  '%s edited task(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft taken bewerkt voor %s; toegevoegd: %4$s; verwijderd: %6$s.',
   'Undo' => 'Ongedaan maken',
   'React to mocks being created or updated.' => 'Reageren op mocks die worden aangemaakt of bijgewerkt.',
   'The author of a mock can always view and edit it.' => 'De auteur van een mock kan deze altijd weergeven en bewerken.',

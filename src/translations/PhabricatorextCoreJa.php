@@ -11,7 +11,6 @@ final class PhabricatorextCoreJa
     return array(
   'Escalate' => 'エスカレート',
   'Next: %s' => '次は: %s',
-  'Standard Phabricator.' => '標準的なPhabricatorです。',
   'Auto-generated release schedule details.' => '自動生成されたリリーススケジュールの詳細。',
   'Merged' => '統合',
   'Unresolved code review comments: %d' => '未解決のコードレビューコメント: %d',

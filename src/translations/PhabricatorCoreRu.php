@@ -60,6 +60,7 @@ final class PhabricatorCoreRu
   'Author: %s' => 'Автор: %s',
   'Old Value' => 'Прежнее значение',
   'Revoke' => 'Отозвать',
+  'PM' => 'ЛС',
   'Exporting Data...' => 'Экспорт данных...',
   'Administrators' => 'Администраторы',
   'Give Token' => 'Отметить значком',

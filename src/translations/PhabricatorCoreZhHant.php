@@ -37,6 +37,7 @@ final class PhabricatorCoreZhHant
   'Email Address' => '電子信箱地址',
   'Upload Picture' => '上傳圖片',
   '%s renamed %s.' => '%s 已重新命名%s。',
+  'PM' => '私訊',
   'Administrators' => '管理員',
   'Overview' => '概覽',
   'Example' => '範例',

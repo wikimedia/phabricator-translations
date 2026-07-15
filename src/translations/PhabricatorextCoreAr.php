@@ -11,7 +11,6 @@ final class PhabricatorextCoreAr
     return array(
   'Escalate' => 'التصاعد',
   'Next: %s' => 'التالي: %s',
-  'Standard Phabricator.' => 'فابريكاتور القياسي.',
   'Merged' => 'مندمجة',
   'Release Details' => 'تفاصيل الإصدار',
   'Open Tasks' => 'المهمات المفتوحة',

@@ -753,8 +753,11 @@ Als u deze functie combineert met andere functies, geeft de zoekopdracht resulta
   'You can not resign from this revision because it has already been closed. You can only resign from open revisions.' => 'U kunt niet aftreden van deze versie omdat deze al is gesloten. U kunt alleen aftreden van open versies.',
   'Instructions for reverting/undoing this change.' => 'Instructies voor het terugdraaien/ongedaan maken van deze wijziging.',
   '%s added %s JIRA issue(s): %s.' => array(
-    '%s heeft een JIRA-issue toegevoegd: %3$s.',
-    '%s heeft %s JIRA-issues toegevoegd: %s.',
+    
+    array(
+      '%s heeft een JIRA-issue toegevoegd: %3$s.',
+      '%s heeft %s JIRA-issues toegevoegd: %s.',
+    ),
   ),
   'This revision has no indexed affected paths.' => 'Deze versie heeft geen geïndexeerde beïnvloede paden.',
   'Revision Actions' => 'Versiehandelingen',
@@ -796,8 +799,11 @@ Als u deze functie combineert met andere functies, geeft de zoekopdracht resulta
   'Revision Fields' => 'Versievelden',
   'Close Revision' => 'Versie sluiten',
   '%s added %s reviewer(s): %s.' => array(
-    '%s heeft een reviewer toegevoegd: %3$s.',
-    '%s heeft %s reviewers toegevoegd: %s.',
+    
+    array(
+      '%s heeft een reviewer toegevoegd: %3$s.',
+      '%s heeft %s reviewers toegevoegd: %s.',
+    ),
   ),
   'Affected Path Index' => 'Index van beïnvloede paden',
   'Similar' => 'Vergelijkbaar',

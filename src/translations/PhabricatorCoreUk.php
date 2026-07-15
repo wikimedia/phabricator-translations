@@ -60,6 +60,7 @@ final class PhabricatorCoreUk
   '%s renamed %s.' => '%s перейменовано %s.',
   'Old Value' => 'Старе значення',
   'Revoke' => 'Відкликати',
+  'PM' => 'пополудні',
   'Exporting Data...' => 'Експорт даних...',
   'Administrators' => 'Адміністратори',
   'Publishing Disabled' => 'Публікування вимкнено',

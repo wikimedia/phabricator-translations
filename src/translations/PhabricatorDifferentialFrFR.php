@@ -736,10 +736,7 @@ Si vous combinez cette fonction avec d’autres fonctions, la requête retourner
   'This revision has no indexed affected paths.' => 'Cette version n’a aucun chemin affecté indexé.',
   'Revision Actions' => 'Actions de la révision',
   '%s commandeered this revision from %s.' => '%s a réquisitionné cette version depuis %s.',
-  '%s failed remote builds in %s for %s!' => array(
-    'Échec d’%s construction distante dans %s pour %s !',
-    'Échec de %s constructions distantes dans %s pour %s !',
-  ),
+  '%s failed remote builds in %s for %s!' => 'Échec de %s constructions distantes dans %s pour %s !',
   'You must select a comment to edit.' => 'Vous devez sélectionner un commentaire à modifier.',
   'This revision needs review, but all specified reviewers are disabled or inactive.' => 'Cette version nécessite une relecture, mais tous les relecteurs spécifiés sont désactivés ou inactifs.',
   'Links to changes since the last update in email.' => 'Liens vers les modifications depuis la dernière modification dans le courriel.',
@@ -786,10 +783,7 @@ Si vous combinez cette fonction avec d’autres fonctions, la requête retourner
   'Similar' => 'Similaire',
   'Error extracting field transactions from "%s": %s' => 'Erreur d’extraction des transactions de champ depuis « %s » : %s',
   'A file path was not provided.' => 'Un chemin de fichier n’a pas été fourni.',
-  '%s failed remote builds in %s!' => array(
-    '%s construction à distance ont échoué dans %s !',
-    '%s constructions à distance ont échoué dans %s !',
-  ),
+  '%s failed remote builds in %s!' => '%s constructions à distance ont échoué dans %s !',
   'Reclaim Revision' => 'Récupérer la version',
   'Change autosubmission from draft state after builds finish.' => 'Changer la soumission automatique depuis l’état de brouillon une fois les constructions terminées.',
   '%s removed %s parent revision(s): %s.' => '%s a retiré %s révision(s) parente(s) : %s.',

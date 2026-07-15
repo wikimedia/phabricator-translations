@@ -29,6 +29,7 @@ final class PhabricatorCoreHe
   'Upload Picture' => 'העלאת תמונה',
   'Packages' => 'חבילות',
   'Assigned to Me' => 'לטיפולי',
+  'PM' => 'אחה"צ',
   'Administrators' => 'מפעילים',
   'Previous Day' => 'היום הקודם',
   'Summary' => 'תקציר',

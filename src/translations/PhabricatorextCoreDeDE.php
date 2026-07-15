@@ -9,7 +9,6 @@ final class PhabricatorextCoreDeDE
 
   protected function getTranslations() {
     return array(
-  'Standard Phabricator.' => 'Standard-Phabricator.',
   'Merged' => 'Zusammengeführt',
   'Unresolved code review comments: %d' => 'Ungelöste Code-Review-Kommentare: %d',
   'Show related patches' => 'Verwandte Patches anzeigen',
@@ -29,7 +28,6 @@ final class PhabricatorextCoreDeDE
   'Global Accounts' => 'Globale Benutzerkonten',
   'You cannot roll back the activity of a privileged user.' => 'Du kannst die Aktivität eines privilegierten Benutzers nicht zurücksetzen.',
   'The full URL to your MediaWiki install, up to but not including "index.php"' => 'Die vollständige URL zu deiner MediaWiki-Installation, bis zu aber nicht einschließlich "index.php"',
-  'Expert Mode' => 'Expertenmodus',
   'Unknown or missing mediawiki names: %s' => 'MediaWiki-Name fehlt oder unbekannt: %s',
   'Required' => 'Erforderlich',
   'Comments' => 'Kommentare',

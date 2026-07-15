@@ -88,6 +88,7 @@ final class PhabricatorSettingsEsES
   'Select your local timezone.' => 'Seleccione su zona horaria local.',
   'Click "Save Preference" to persist these changes.' => 'Haga clic en "Guardar preferencia" para conservar estos cambios.',
   'Your browser has granted this server permission to send desktop notifications.' => 'Su navegador ha otorgado permiso a este servidor para enviar notificaciones de escritorio.',
+  'Week Starts On' => 'La semana comienza el',
   'Remove Factor' => 'Quitar fase',
   'Your account does not currently have a password set. You can choose a password by performing a password reset.' => 'Actualmente, su cuenta no tiene una contraseña establecida. Puede elegir una contraseña restableciendo su contraseña.',
   'Disabled (an administrator has disabled login for this account provider).' => 'Deshabilitado (un administrador ha deshabilitado el inicio de sesión para este proveedor de cuenta).',
@@ -96,6 +97,7 @@ final class PhabricatorSettingsEsES
   'Account Settings' => 'Configuración de la cuenta',
   'Supported Editor Protocols' => 'Protocolos de editor soportados',
   'Add Authentication Factor' => 'Añadir fase de autenticación',
+  'Account Activity Logs' => 'Actividad de la cuenta',
   'Date and Time' => 'Fecha y hora',
   'Save Preferences' => 'Guardar preferencias',
   'Many text editors can be configured as URI handlers for special protocols like `editor://`. If you have installed and configured such an editor, some applications can generate links that you can click to open files locally.

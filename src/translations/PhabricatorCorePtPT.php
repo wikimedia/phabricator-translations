@@ -10,6 +10,7 @@ final class PhabricatorCorePtPT
   protected function getTranslations() {
     return array(
   'Database "%s" is unknown. This script can only dump databases known to the current version of this software. Valid databases are: %s.' => '',
+  'PM' => 'da tarde/noite',
   'This server is configured as "%s", but you are using the domain name "%s" to access a page which is trying to set a cookie. Access this service on the configured primary domain or a configured alternate domain. Cookies will not be set on other domains for security reasons.' => '',
   'This server thinks you are using %s, but your client is convinced that it is using %s. This is a serious misconfiguration with subtle, but significant, consequences.' => 'Este servidor pensa que você está usando %s , mas seu cliente está convencido de que está usando %s . Esta é uma configuração errada',
   'September' => 'Setembro',

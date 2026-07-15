@@ -1596,13 +1596,13 @@ This may mean the base URI is configured incorrectly. You must serve this softwa
 
 This might also mean that your webserver (or some other network device, like a load balancer) is mangling the "Host" header, or you are using a tool or library to issue a request manually and setting the wrong "Host" header.
 
-Requests must include a valid "Host" header.' => '이 요청에는 값이 "%s"인 유효하지 않은 "호스트" 헤더가 포함되어 있습니다. 일부 브라우저가 쿠키를 설정할 수 있으려면 호스트 헤더에 "example.com"처럼 점(".")이 포함되어야 합니다.
+Requests must include a valid "Host" header.' => '이 요청에는 값이 "%s"인 유효하지 않은 "Host" 헤더가 포함되어 있습니다. 일부 브라우저가 쿠키를 설정할 수 있으려면 호스트 헤더에 "example.com"처럼 점(".")이 포함되어야 합니다.
 
 이는 기본 URI가 잘못 구성되었음을 의미할 수 있습니다. 이 소프트웨어는 "https://devtools/" 같은 베어 도메인이 아니라 "https://devtools.example.com" 같은 점이 포함된 기본 URI에서 제공되어야 합니다. 베어 도메인을 사용하려는 경우, 대신 점이 포함된 전체 도메인을 사용하도록 구성을 변경하세요.
 
 또한 웹서버(또는 로드 밸런서 같은 다른 네트워크 장치)가 "Host" 헤더를 변조하고 있거나, 도구 또는 라이브러리를 사용해 수동으로 요청을 보내면서 잘못된 "호스트" 헤더를 설정하고 있음을 의미할 수도 있습니다.
 
-요청에는 유효한 "호스트" 헤더가 포함되어야 합니다.',
+요청에는 유효한 "Host" 헤더가 포함되어야 합니다.',
   'User Interface' => '사용자 인터페이스',
   'No Schema Issues' => '스키마 문제 없음',
   'MySQL database hostname.' => 'MySQL 데이터베이스 호스트 이름입니다.',

@@ -12,12 +12,18 @@ final class PhabricatorProjectPl
   'Browse Not Tagged With Any Projects' => 'Przeglądaj nieoznaczone żadnymi tagami projektów',
   'Timeline' => 'Oś czasu',
   'Really activate project?' => 'Czy na pewno aktywować projekt?',
-  '%s changed project member(s), added %d: %s; removed %d: %s.' => '%s zmienił członkostwo projektu, dodał %d: %s; usunął %d: %s.',
+  '%s changed project member(s), added %d: %s; removed %d: %s.' => '%s zmienił członkostwo projektu, dodał: %3$s; usunął: %5$s.',
   '%s set this project\'s color to %s.' => '%s ustawił kolor tego projektu na %s.',
   '%s created this column.' => '%s utworzył tę kolumnę.',
   'Play Sound' => 'Odtwórz dźwięk',
   'Type any(<project>) or not(<project>)...' => 'Wpisz any(<projekt>) albo not(<projekt>)...',
-  '%s added %s member(s) for %s: %s.' => '%s dodał %s członków do %s: %s.',
+  '%s added %s member(s) for %s: %s.' => array(
+    
+    array(
+      '%s dodał członka do %3$s: %4$s.',
+      '%s dodał członków do %3$s: %4$s.',
+    ),
+  ),
   'Project Column' => 'Kolumna projektu',
   'Edit Background Color' => 'Edytuj kolor tła',
   'New project tag color.' => 'Nowy kolor tagu projektu.',
@@ -26,7 +32,13 @@ final class PhabricatorProjectPl
   'Find results with only the specified tags.' => 'Znajdź wyniki zawierające tylko określone tagi.',
   'Find results in any of a user\'s projects.' => 'Znajdź wyniki w dowolnym projekcie użytkownika.',
   'Ruleset specification is not valid. %s' => 'Specyfikacja zestawu reguł jest nieprawidłowa. %s',
-  '%s added %d project hashtag(s): %s.' => '%s dodał %d hashtag(i) projektów: %s.',
+  '%s added %d project hashtag(s): %s.' => array(
+    
+    array(
+      '%s dodał hashtag: %3$s.',
+      '%s dodał hashtagi: %3$s.',
+    ),
+  ),
   'Search for projects with given subtypes.' => 'Wyszukaj projekty o podanych podtypach.',
   'No Trigger' => 'Brak wyzwalacza',
   '%s named this column %s.' => '%s nazwał tę kolumnę %s.',
@@ -65,11 +77,17 @@ final class PhabricatorProjectPl
   'The workboard for this project has not been created yet.' => 'Tablica robocza dla tego projektu nie została jeszcze utworzona.',
   'No Editable Tasks' => 'Brak zadań edytowalnych',
   'Activate Subproject' => 'Aktywuj podprojekt',
-  '%s changed %s hashtag(s), added %d: %s; removed %d: %s.' => '%s zmienił %s hashtag(i), dodał %d: %s; usunął %d: %s.',
+  '%s changed %s hashtag(s), added %d: %s; removed %d: %s.' => '%s zmienił hashtagi dla %s, dodał: %4$s; usunął: %6$s.',
   'Really archive project?' => 'Czy na pewno zarchiwizować projekt?',
   'Create Project' => 'Utwórz projekt',
   'Members' => 'Członkowie',
-  '%s added %s member(s): %s.' => '%s dodał %s członków: %s.',
+  '%s added %s member(s): %s.' => array(
+    
+    array(
+      '%s dodał członka: %3$s.',
+      '%s dodał członków: %3$s.',
+    ),
+  ),
   'Two different icons ("%s", "%s") are marked as the default icon. Only one icon may be marked as the default.' => 'Dwie różne ikony („%s”, „%s”) są oznaczone jako ikona domyślna. Tylko jedna ikona może być oznaczona jako domyślna.',
   'Create Subproject' => 'Utwórz podprojekt',
   'Configure Projects.' => 'Konfiguruj projekty.',
@@ -100,7 +118,10 @@ final class PhabricatorProjectPl
   'Move Tasks to Project...' => 'Przenieś zadania do projektu...',
   'Set Board Default Order' => 'Ustaw kolejność domyślną tablicy',
   'You will no longer receive email or notifications about every object associated with this project.' => 'Nie będziesz już otrzymywać wiadomości e-mail ani powiadomień dotyczących każdego obiektu powiązanego z tym projektem.',
-  'Removed %s project(s): %s.' => 'Usunięto %s projekt(y): %s.',
+  'Removed %s project(s): %s.' => array(
+    'Usunięto projekt: %2$s.',
+    'Usunięto projekty: %2$s.',
+  ),
   'Reorder Columns' => 'Zmień kolejność kolumn',
   'Edit Project: %s' => 'Edytuj projekt: %s',
   'Hide Column' => 'Ukryj kolumnę',
@@ -146,7 +167,13 @@ final class PhabricatorProjectPl
   'Members of all subprojects are members of this project.' => 'Członkowie wszystkich podprojektów są członkami tego projektu.',
   'Subprojects' => 'Podprojekty',
   'Information about the project color.' => 'Informacje o kolorze projektu.',
-  '%s added %s project(s) to %s: %s.' => '%s dodał %s projekt(ów) do %s: %s.',
+  '%s added %s project(s) to %s: %s.' => array(
+    
+    array(
+      '%s dodał projekt do %3$s: %4$s.',
+      '%s dodał projekty do %3$s: %4$s.',
+    ),
+  ),
   'This function is used with other tags, and causes the query to match only results with exactly those tags. For example, to find tasks tagged only iOS:
 
 > ios, only()
@@ -162,7 +189,13 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'Group by Owner' => 'Grupuj według właściciela',
   'You have disabled mail. When mail is sent to project members, you will not receive a copy.' => 'Wyłączyłeś e-maile. Gdy wiadomość zostanie wysłana do członków projektu, nie otrzymasz jej kopii.',
   'This column can not have a trigger.' => 'Ta kolumna nie może mieć wyzwalacza.',
-  '%s added %s project(s): %s.' => '%s dodał %s projekt(ów): %s.',
+  '%s added %s project(s): %s.' => array(
+    
+    array(
+      '%s dodał projekt: %3$s.',
+      '%s dodał projekty: %3$s.',
+    ),
+  ),
   'Unknown Rule' => 'Nieznana reguła',
   'Set project members.' => 'Ustaw członków projektu.',
   'Read information about projects.' => 'Odczytaj informacje o projektach.',
@@ -174,12 +207,27 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'Create Workboard' => 'Utwórz tablicę roboczą',
   'Change the project tag color.' => 'Zmień kolor etykiety projektu.',
   'members of project' => 'członkowie projektu',
-  '%s added %s project(s) for %s: %s.' => '%s przydzielił %s projekt(y) do %s: %s.',
+  '%s added %s project(s) for %s: %s.' => array(
+    
+    array(
+      '%s przydzielił projekt do %3$s: %4$s.',
+      '%s przydzielił projekty do %3$s: %4$s.',
+    ),
+  ),
   'Add Column' => 'Dodaj kolumnę',
   'Remove Project Tags' => 'Usuń tagi projektu',
-  '%s removed %s member(s) for %s: %s.' => '%s usunął %s członków z %s: %s.',
+  '%s removed %s member(s) for %s: %s.' => array(
+    
+    array(
+      '%s usunął członka z %3$s: %4$s.',
+      '%s usunął członków z %3$s: %4$s.',
+    ),
+  ),
   '%s set the image for %s to %s.' => '%s ustawił obraz dla %s na %s.',
-  'Added %s project(s): %s.' => 'Dodano %s projekt(y): %s.',
+  'Added %s project(s): %s.' => array(
+    'Dodano projekt: %2$s.',
+    'Dodano projekty: %2$s.',
+  ),
   'Import Columns' => 'Importuj kolumny',
   'Workboard' => 'Tablica robocza',
   'Member' => 'Członek',
@@ -190,11 +238,23 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'Save Column' => 'Zapisz kolumnę',
   'Closed Tasks' => 'Zamknięte zadania',
   'Add project tags: %s.' => 'Dodaj tagi projektu: %s.',
-  '%s added %d project member(s): %s.' => '%s dodał %d członków projektu: %s.',
+  '%s added %d project member(s): %s.' => array(
+    
+    array(
+      '%s dodał członka: %3$s.',
+      '%s dodał członków: %3$s.',
+    ),
+  ),
   'Column: %s' => 'Kolumna: %s',
   '%s changed the default sort order for the project workboard.' => '%s zmienił domyślną kolejność sortowania dla tablicy roboczej projektu.',
   '%s renamed this project from %s to %s.' => '%s zmienił nazwę tego projektu z %s na %s.',
-  '%s removed %s member(s): %s.' => '%s usunął %s członków: %s.',
+  '%s removed %s member(s): %s.' => array(
+    
+    array(
+      '%s usunął członka: %3$s.',
+      '%s usunął członków: %3$s.',
+    ),
+  ),
   'Configure forms for creating projects.' => 'Skonfiguruj formularze do tworzenia projektów.',
   '%s activated this project.' => '%s aktywował ten projekt.',
   'Information about the project icon.' => 'Informacje o ikonie projektu.',
@@ -219,19 +279,31 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'Project tags' => 'Tagi projektu',
   'You are not a project member, so you do not receive mail sent to members of this project.' => 'Nie jesteś członkiem projektu, więc nie otrzymasz e-maili wysyłanych do członków tego projektu.',
   'Tasks Reopened' => 'Zadania ponownie otwarte',
-  'Used on %s and %s other column(s).' => 'Używane na %s i %s innych kolumnach.',
+  'Used on %s and %s other column(s).' => array(
+    
+    array(
+      'Używane na %s i innej kolumnie.',
+      'Używane na %s i %s innych kolumnach.',
+    ),
+  ),
   'Sort by Title' => 'Sortuj według tytułu',
   '%s archived this project.' => '%s zarchiwizował ten projekt.',
   'Projects must have a name.' => 'Projekty muszą mieć nazwę.',
   'Hidden Columns' => 'Ukryte kolumny',
   'Move Tasks to Column...' => 'Przenieś zadania do kolumny...',
-  '%s edited member(s), added %s: %s; removed %s: %s.' => '%s zmienił członkostwo, dodano %s: %s; usunięto %s: %s.',
+  '%s edited member(s), added %s: %s; removed %s: %s.' => '%s zmienił członkostwo, dodano: %3$s; usunięto: %5$s.',
   'Save Default Filter' => 'Zapisz domyślny filtr',
   'Manage Project' => 'Zarządzaj projektem',
   '%s updated this project\'s image from %s to %s.' => '%s zmienił obraz tego projektu z %s na %s.',
   'Create a project.' => 'Utwórz projekt.',
   'Hidden Column' => 'Ukryta kolumna',
-  '%s removed %s project(s) from %s: %s.' => '%s odpiął %s projekt(y) z %s: %s.',
+  '%s removed %s project(s) from %s: %s.' => array(
+    
+    array(
+      '%s odpiął projekt z %3$s: %4$s.',
+      '%s odpiął projekty z %3$s: %4$s.',
+    ),
+  ),
   'No Subprojects' => 'Brak podprojektów',
   'Edit Details' => 'Edytuj szczegóły',
   'Exclude results tagged with this project.' => 'Wyklucz wyniki oznaczone tagiem tego projektu.',
@@ -246,8 +318,18 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'New list of members.' => 'Nowa lista członków.',
   'This project will be moved to the archive.' => 'Ten projekt zostanie przeniesiony do archiwum.',
   'All Triggers' => 'Wszystkie wyzwalacze',
-  '%s removed %s project(s): %s.' => '%s odpiął %s projekt(y): %s.',
-  'Trigger names must not be longer than %s characters.' => 'Nazwy wyzwalaczy nie mogą być dłuższe niż %s znaków.',
+  '%s removed %s project(s): %s.' => array(
+    
+    array(
+      '%s odpiął projekt: %3$s.',
+      '%s odpiął projekty: %3$s.',
+    ),
+  ),
+  'Trigger names must not be longer than %s characters.' => array(
+    'Nazwy wyzwalaczy nie mogą być dłuższe niż %s znak.',
+    'Nazwy wyzwalaczy nie mogą być dłuższe niż %s znaki.',
+    'Nazwy wyzwalaczy nie mogą być dłuższe niż %s znaków.',
+  ),
   'Members: ...' => 'Członkowie: ...',
   'Project %s' => 'Projekt %s',
   'Browse Projects' => 'Przeglądaj projekty',
@@ -257,7 +339,13 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'Coin' => 'Moneta',
   'This project will become active again.' => 'Ten projekt stanie się ponownie aktywny.',
   'Apply Filter' => 'Zastosuj filtr',
-  '%s removed %d project hashtag(s): %s.' => '%s usunął %d hashtagi projektu: %s.',
+  '%s removed %d project hashtag(s): %s.' => array(
+    
+    array(
+      '%s usunął hashtag: %3$s.',
+      '%s usunął hashtagi: %3$s.',
+    ),
+  ),
   'Custom Filter' => 'Własny filtr',
   'Subtype of the project.' => 'Podtyp projektu.',
   'Get the member list for the project.' => 'Pobierz listę członków projektu.',
@@ -272,7 +360,13 @@ Spowoduje to pominięcie wyników z innymi tagami projektu.',
   'Remove Trigger' => 'Usuń wyzwalacz',
   'Unwatch Project' => 'Przestań obserwować projekt',
   'Show Only Active Triggers' => 'Pokaż tylko aktywne wyzwalacze',
-  '%s removed %s project(s) for %s: %s.' => '%s odpiął %s projekt(y) z %s: %s.',
+  '%s removed %s project(s) for %s: %s.' => array(
+    
+    array(
+      '%s odpiął projekt z %3$s: %4$s.',
+      '%s odpiął projekty z %3$s: %4$s.',
+    ),
+  ),
   'Default edit policy for newly created projects.' => 'Domyślna polityka edycji dla nowo tworzonych projektów.',
   'Show Only Inactive Triggers' => 'Pokaż tylko nieaktywne wyzwalacze',
   'Users must be able to see a project to see its board.' => 'Użytkownicy muszą mieć możliwość zobaczenia projektu, aby zobaczyć jego tablicę.',

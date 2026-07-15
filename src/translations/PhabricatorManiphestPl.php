@@ -50,18 +50,42 @@ final class PhabricatorManiphestPl
   'Configure the cutoff for the "Recently Closed" column.' => 'Ustaw wartość graniczną dla kolumny "Ostatnio zamknięte".',
   'Original task author.' => 'Oryginalny autor zadania.',
   'Information about task priority.' => 'Informacje o priorytecie zadania.',
-  '%s detached %s file(s): %s.' => '%s odłączył %s plik(i): %s.',
+  '%s detached %s file(s): %s.' => array(
+    
+    array(
+      '%s odłączył %s plik: %s.',
+      '%s odłączył %s pliki: %s.',
+      '%s odłączył %s plików: %s.',
+    ),
+  ),
   'Open Subtasks' => 'Otwarte podzadania',
   'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => 'Zamknij zadanie. Spowoduje to zmianę statusu zadania na domyślny status zamknięcia. Bardziej rozbudowany (ale mniej zwięzły) sposób zmiany statusu zadania znajdziesz w `%s`.',
-  '%s removed %s parent task(s): %s.' => '%s odpiął %s zadań nadrzędnych: %s.',
-  '%s added %s subtask(s): %s.' => '%s przydzielił %s zadań podrzędnych: %s.',
+  '%s removed %s parent task(s): %s.' => array(
+    
+    array(
+      '%s odpiął %s zadanie nadrzędne: %s.',
+      '%s odpiął %s zadania nadrzędne: %s.',
+      '%s odpiął %s zadań nadrzędnych: %s.',
+    ),
+  ),
+  '%s added %s subtask(s): %s.' => array(
+    
+    array(
+      '%s przydzielił %s zadanie podrzędne: %s.',
+      '%s przydzielił %s zadania podrzędne: %s.',
+      '%s przydzielił %s zadań podrzędnych: %s.',
+    ),
+  ),
   'Assign a task to a specific user.' => 'Przypisz zadanie konkretnemu użytkownikowi.',
   'Date Closed (Latest First)' => 'Daty zamknięcia (najnowsze najpierw)',
   'Merged In' => 'Połączone w',
   'Date Closed' => 'Data zamknięcia',
   'Task title cannot exceed %d characters.' => 'Tytuł zadania nie może przekraczać %d znaków.',
   'Edit Related Tasks...' => 'Zmień powiązane zadania...',
-  'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here. Use %s to show more of the graph.' => 'To zadanie jest powiązane z ponad %s innymi zadaniami. Wyświetlone zostały tutaj tylko bezpośrednie zadania nadrzędne i podrzędne. Użyj %s aby wyświetlić większą część grafu.',
+  'This task is connected to more than %s other tasks. Only direct parents and subtasks are shown here. Use %s to show more of the graph.' => array(
+    'To zadanie jest powiązane z ponad %s innym zadaniem. Wyświetlone zostały tutaj tylko bezpośrednie zadania nadrzędne i podrzędne. Użyj %s aby wyświetlić większą część grafu.',
+    'To zadanie jest powiązane z ponad %s innymi zadaniami. Wyświetlone zostały tutaj tylko bezpośrednie zadania nadrzędne i podrzędne. Użyj %s aby wyświetlić większą część grafu.',
+  ),
   '%s created subtask %s.' => '%s utworzył podzadanie %s.',
   'Bulk Edit Selected »' => 'Masowa edycja wybranych elementów »',
   'No tasks found.' => 'Nie znaleziono zadań.',
@@ -75,7 +99,14 @@ final class PhabricatorManiphestPl
   'New task description.' => 'Nowy opis zadania.',
   'Mocks' => 'Makiety',
   'Closer' => 'Zamykający',
-  '%s added %s parent task(s): %s.' => '%s dodał %s zadań nadrzędnych: %s.',
+  '%s added %s parent task(s): %s.' => array(
+    
+    array(
+      '%s dodał %s zadanie nadrzędne: %s.',
+      '%s dodał %s zadania nadrzędne: %s.',
+      '%s dodał %s zadań nadrzędnych: %s.',
+    ),
+  ),
   'Change the related commits for this task.' => 'Zmień commity powiązane z tym zadaniem',
   'Subtask' => 'Podzadanie',
   'Set priority to' => 'Ustaw priorytet na',
@@ -85,9 +116,16 @@ final class PhabricatorManiphestPl
   'Filter By Project' => 'Filtruj według Projektu',
   '%s claimed this task.' => '%s podjął się tego zadania.',
   'Close This Task As a Duplicate Of' => 'Zamknij to zadanie jako duplikat',
-  '%s removed %s subtask(s) for %s: %s.' => '%s odpiął %s podzadania dla %s: %s.',
+  '%s removed %s subtask(s) for %s: %s.' => array(
+    
+    array(
+      '%s odpiął %s podzadanie dla %s: %s.',
+      '%s odpiął %s podzadania dla %s: %s.',
+      '%s odpiął %s podzadań dla %s: %s.',
+    ),
+  ),
   'Untitled Task' => 'Zadanie bez tytułu',
-  '%s edited parent task(s) for %s, added %s: %s; removed %s: %s.' => '%s zmienił zadania nadrzędne dla %s, dodano %s: %s; usunięto %s: %s.',
+  '%s edited parent task(s) for %s, added %s: %s; removed %s: %s.' => '%s zmienił zadania nadrzędne dla %s, dodano: %4$s; usunięto: %6$s.',
   'Read information about task statuses.' => 'Odczytaj informacje o statusie zadań.',
   'Move a task to one or more workboard columns.' => 'Przenieś zadanie do jednej lub więcej kolumn tablicy roboczej.',
   'Edit Subtasks' => 'Zmień podzadania',
@@ -125,7 +163,7 @@ Jeśli określisz nieprawidłowy priorytet, polecenie zostanie zignorowane. Pole
   '%s closed this task as %s.' => '%s zamknął to zadanie jako %s.',
   'Merge Into Selected Task' => 'Scal z wybranym zadaniem',
   'PHID of the parent task.' => 'PHID zadania nadrzędnego.',
-  '%s edited subtask(s) for %s, added %s: %s; removed %s: %s.' => '%s zmienił podzadania dla %s, dodano %s: %s; usunięto %s: %s.',
+  '%s edited subtask(s) for %s, added %s: %s; removed %s: %s.' => '%s zmienił podzadania dla %s, dodano: %4$s; usunięto: %6$s.',
   'Updated Before' => 'Zmieniono przed',
   'The source task has been closed as a duplicate of the destination task.' => 'Zadanie źródłowe zostało zamknięte jako duplikat zadania docelowego.',
   'Type a task status name or function...' => 'Wpisz nazwę statusu zadania lub funkcję...',
@@ -153,11 +191,20 @@ Jeśli określisz nieprawidłowy priorytet, polecenie zostanie zignorowane. Pole
   'Task Author' => 'Autor zadania',
   'Closed Before' => 'Zamknięte przed',
   'Subtask IDs' => 'Identyfikatory podzadań',
-  'This task is directly connected to more than %s other tasks, which is too many tasks to display. Use %s to browse parents or subtasks.' => 'To zadanie jest bezpośrednio powiązane z ponad %s innymi zadaniami, co jest zbyt dużą liczbą aby je tutaj wyświetlić. Użyj %s aby wyświetlić zadania nadrzędne i podzadania.',
+  'This task is directly connected to more than %s other tasks, which is too many tasks to display. Use %s to browse parents or subtasks.' => array(
+    'To zadanie jest bezpośrednio powiązane z ponad %s innym zadaniem, co jest zbyt dużą liczbą aby je tutaj wyświetlić. Użyj %s aby wyświetlić zadania nadrzędne i podzadania.',
+    'To zadanie jest bezpośrednio powiązane z ponad %s innymi zadaniami, co jest zbyt dużą liczbą aby je tutaj wyświetlić. Użyj %s aby wyświetlić zadania nadrzędne i podzadania.',
+  ),
   'Duplicates' => 'Duplikaty',
   'Task Locked' => 'Zadanie zablokowane',
   'Edit Task: %s' => 'Edytuj zadanie: %s',
-  '%s merged %s task(s) %s into %s.' => '%s scalił %s zadanie(-a), %s z %s.',
+  '%s merged %s task(s) %s into %s.' => array(
+    
+    array(
+      '%s scalił  %3$s z %4$s.',
+      '%s scalił zadania %3$s z %4$s.',
+    ),
+  ),
   'No tasks.' => 'Brak zadań.',
   'Feature Request' => 'Prośba o funkcję',
   'Priorities' => 'Priorytety',
@@ -169,7 +216,14 @@ Jeśli określisz nieprawidłowy priorytet, polecenie zostanie zignorowane. Pole
   'Save Subtasks' => 'Zapisz podzadania',
   'Assign yourself as the owner of a task. To assign another user, see `%s`.' => 'Przypisz siebie jako właściciela zadania. Aby przypisać innego użytkownika, zobacz `%s`.',
   'Task Priority' => 'Priorytet zadania',
-  '%s added %s subtask(s) for %s: %s.' => '%s przydzielił %s zadanie(-a) podrzędne dla %s: %s.',
+  '%s added %s subtask(s) for %s: %s.' => array(
+    
+    array(
+      '%s przydzielił %s zadanie podrzędne dla %s: %s.',
+      '%s przydzielił %s zadania podrzędne dla %s: %s.',
+      '%s przydzielił %s zadań podrzędnych dla %s: %s.',
+    ),
+  ),
   'Parent Task' => 'Zadanie nadrzędne',
   'Search for tasks updated before a certain date.' => 'Wyszukaj zadania zmienione przed określoną datą.',
   'Parent tasks.' => 'Zadania nadrzędne.',
@@ -184,7 +238,10 @@ If you omit the username or the username is not valid, this behaves like `%s` an
 Jeśli pominiesz nazwę użytkownika lub będzie ona nieprawidłowa, to polecenie zachowa się tak jak `%s`, czyli wtedy przypisze to zadanie Tobie.',
   'Edit Parent Tasks' => 'Zmień zadania nadrzędne',
   'Email Commands: Tasks' => 'Komendy e-mail: Zadania',
-  'This task is directly connected to more than %s other tasks. Use %s to browse parents or subtasks, or %s to show more of the graph.' => 'To zadanie jest bezpośrednio powiązane z ponad %s innymi zadaniami. Użyj %s aby wyświetlić zadania nadrzędne i podzadania, albo %s aby wyświetlić cały graf.',
+  'This task is directly connected to more than %s other tasks. Use %s to browse parents or subtasks, or %s to show more of the graph.' => array(
+    'To zadanie jest bezpośrednio powiązane z ponad %s innym zadaniem. Użyj %s aby wyświetlić zadania nadrzędne i podzadania, albo %s aby wyświetlić cały graf.',
+    'To zadanie jest bezpośrednio powiązane z ponad %s innymi zadaniami. Użyj %s aby wyświetlić zadania nadrzędne i podzadania, albo %s aby wyświetlić cały graf.',
+  ),
   'Set title to' => 'Ustaw tytuł na',
   'Graph' => 'Wykres',
   'Search for tasks owned by a user from a list.' => 'Wyszukaj zadania należące do użytkownika z listy.',
@@ -242,14 +299,21 @@ Aby szybko zamknąć zadanie, zobacz `%s`.',
   'Create as a subtask of another task.' => 'Utwórz jako podzadanie innego zadania.',
   'Show Only Tasks Without Open Subtasks' => 'Pokaż tylko zadania bez otwartych podzadań',
   'Reassign the task.' => 'Zmień przypisanie tego zadania.',
-  '%s changed file(s) for %s, attached %d: %s; detached %d: %s' => '%s zmienił plik(i) dla %s, dołączył %d: %s; odłączył %d: %s',
+  '%s changed file(s) for %s, attached %d: %s; detached %d: %s' => '%s zmienił plik(i) dla %s: dołączył: %4$s; odłączył: %6$s',
   '%s closed subtask %s as %s.' => '%s zamknął podzadanie %s jako %s.',
   'Open Tasks by Project and Priority (%s)' => 'Otwarte zadania według projektu i priorytetu (%s)',
   'You do not have access to any forms which can be used to create a subtask.' => 'Nie masz dostępu do żadnych formularzy, których można użyć do utworzenia podzadania.',
   'Configure how users create and edit tasks.' => 'Skonfiguruj sposób, w jaki użytkownicy tworzą i edytują zadania.',
   'Change subtype to "%s."' => 'Zmień podtyp na „%s”.',
   '%s closed %s as a duplicate.' => '%s zamknął %s jako duplikat.',
-  '%s removed %s parent task(s) for %s: %s.' => '%s odpiął %s zadania nadrzędne dla %s: %s.',
+  '%s removed %s parent task(s) for %s: %s.' => array(
+    
+    array(
+      '%s odpiął %s zadanie nadrzędne dla %s: %s.',
+      '%s odpiął %s zadania nadrzędne dla %s: %s.',
+      '%s odpiął %s zadań nadrzędnych dla %s: %s.',
+    ),
+  ),
   'Edit Related Mocks' => 'Zmień powiązane makiety',
   'By User' => 'Przez użytkownika',
   'The task already has the selected assignee.' => 'Zadanie ma już wybraną osobę odpowiedzialną.',
@@ -262,7 +326,14 @@ Aby szybko zamknąć zadanie, zobacz `%s`.',
   'Assign to' => 'Przypisz do',
   'Rename the task.' => 'Zmień nazwę zadania.',
   'You can not interact with this task because it is locked.' => 'Nie możesz wykonywać interakcji z tym zadaniem, ponieważ jest ono zablokowane.',
-  '%s added %s parent task(s) for %s: %s.' => '%s przypisał %s zadanie(-a) nadrzędne dla %s: %s.',
+  '%s added %s parent task(s) for %s: %s.' => array(
+    
+    array(
+      '%s przypisał %s zadanie nadrzędne dla %s: %s.',
+      '%s przypisał %s zadania nadrzędne dla %s: %s.',
+      '%s przypisał %s zadań nadrzędnych dla %s: %s.',
+    ),
+  ),
   'Closed After' => 'Zamknięte po',
   '%s closed this task as a duplicate.' => '%s zamknął to zadanie jako duplikat.',
   'Status "%s" is marked as the status for closing tasks as duplicates, but it is not a closed status. It should be a closed status.' => 'Status „%s” jest oznaczony jako status zamykania zadań jako duplikat, ale nie jest to status zamknięcia. Powinien być statusem zamknięcia.',
@@ -270,8 +341,15 @@ Aby szybko zamknąć zadanie, zobacz `%s`.',
   'Wish' => 'Życzenie',
   'Search for tasks closed by certain users.' => 'Wyszukaj zadania zamknięte przez określonych użytkowników.',
   'Changed Subtype' => 'Zmieniono podtyp',
-  '%s edited parent task(s), added %s: %s; removed %s: %s.' => '%s zmienił zadania nadrzędne, dodano %s: %s; usunięto %s: %s.',
-  '%s merged %s task(s): %s.' => '%s scalił %s zadania: %s.',
+  '%s edited parent task(s), added %s: %s; removed %s: %s.' => '%s zmienił zadania nadrzędne, dodano: %3$s; usunięto: %5$s.',
+  '%s merged %s task(s): %s.' => array(
+    
+    array(
+      '%s scalił %s zadanie: %s.',
+      '%s scalił %s zadania: %s.',
+      '%s scalił %s zadań: %s.',
+    ),
+  ),
   '%s reassigned this task from %s to %s.' => '%s zmienił osobę odpowiedzialną za to zadanie z %s na %s.',
   'Triaged' => 'Ustalono priorytet',
   '%s triaged %s as %s priority.' => '%s zakwalifikował %s jako priorytet %s.',
@@ -301,8 +379,15 @@ Aby szybko zamknąć zadanie, zobacz `%s`.',
   'Search for tasks blocked by open subtasks.' => 'Wyszukaj zadania zablokowane przez otwarte podzadania.',
   'Changed Project Column' => 'Zmieniono kolumnę projektu',
   'Subtype of the task.' => 'Podtyp zadania.',
-  '%s edited subtask(s), added %s: %s; removed %s: %s.' => '%s zmienił podzadania, dodano %s: %s; usunięto %s: %s.',
-  '%s removed %s subtask(s): %s.' => '%s odpiął %s podzadania(-e): %s.',
+  '%s edited subtask(s), added %s: %s; removed %s: %s.' => '%s zmienił podzadania, dodano: %3$s; usunięto: %5$s.',
+  '%s removed %s subtask(s): %s.' => array(
+    
+    array(
+      '%s odpiął %s podzadanie: %s.',
+      '%s odpiął %s podzadania: %s.',
+      '%s odpiął %s podzadań: %s.',
+    ),
+  ),
   'Closed, Wontfix' => 'Zamknięte, nie naprawimy',
   'Change the priority of the task.' => 'Zmień priorytet tego zadania.',
   'Page Size' => 'Rozmiar strony',

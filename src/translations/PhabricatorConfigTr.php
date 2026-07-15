@@ -1449,13 +1449,13 @@ This may mean the base URI is configured incorrectly. You must serve this softwa
 
 This might also mean that your webserver (or some other network device, like a load balancer) is mangling the "Host" header, or you are using a tool or library to issue a request manually and setting the wrong "Host" header.
 
-Requests must include a valid "Host" header.' => 'Bu istek, "%s" değerine sahip geçersiz bir "Ana Bilgisayar" başlığı içeriyordu. Ana Bilgisayar başlıkları, "example.com" gibi bir nokta ("") içermelidir. Bu, bazı tarayıcıların çerez ayarlayabilmesi için gereklidir.
+Requests must include a valid "Host" header.' => 'Bu istek, "%s" değerine sahip geçersiz bir "Host" başlığı içeriyordu. Ana Bilgisayar başlıkları, "example.com" gibi bir nokta ("") içermelidir. Bu, bazı tarayıcıların çerez ayarlayabilmesi için gereklidir.
 
 Bu, temel URI\'nin yanlış yapılandırılmış olabileceği anlamına gelebilir. Bu yazılımı, boş bir alan adı ("https://devtools/" gibi) yerine, nokta içeren bir temel URI\'den ("https://devtools.example.com" gibi) sunmalısınız. Boş bir alan adı kullanmaya çalışıyorsanız, yapılandırmanızı nokta içeren tam bir alan adı kullanacak şekilde değiştirin.
 
-Bu aynı zamanda web sunucunuzun (veya yük dengeleyici gibi başka bir ağ aygıtının) "Ana Bilgisayar" başlığını bozduğu veya bir isteği manuel olarak göndermek için bir araç veya kitaplık kullandığınız ve yanlış "Ana Bilgisayar" başlığını ayarladığınız anlamına da gelebilir.
+Bu aynı zamanda web sunucunuzun (veya yük dengeleyici gibi başka bir ağ aygıtının) "Ana Bilgisayar" başlığını bozduğu veya bir isteği manuel olarak göndermek için bir araç veya kitaplık kullandığınız ve yanlış "Host" başlığını ayarladığınız anlamına da gelebilir.
 
-İstekler, geçerli bir "Ana Bilgisayar" başlığı içermelidir.',
+İstekler, geçerli bir "Host" başlığı içermelidir.',
   'User Interface' => 'Kullanıcı Arayüzü',
   'No Schema Issues' => 'Şema Sorunu Yok',
   'MySQL database hostname.' => 'MySQL veritabanı ana bilgisayar adı.',

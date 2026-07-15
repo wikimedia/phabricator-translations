@@ -41,6 +41,7 @@ final class ArcanistCoreLb
   'DATA' => 'DONNÉEËN',
   'EXCEPTION' => 'AUSNAM',
   '---' => '---',
+  'LOG IN' => 'ALOGGEN',
   'Status: %s' => 'Status: %s',
   'SUCCESS!' => 'ERFOLLEG!',
   'Jun' => 'Jun',

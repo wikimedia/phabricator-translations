@@ -11,7 +11,6 @@ final class PhabricatorextCorePtBR
     return array(
   'Escalate' => 'Escalar',
   'Next: %s' => 'Próximo: %s',
-  'Standard Phabricator.' => 'Phabricator padrão.',
   'Auto-generated release schedule details.' => 'Detalhes da programação de lançamentos gerados automaticamente.',
   'Consumer Token' => 'Chave do consumidor',
   'Merged' => 'Fundida',
@@ -79,7 +78,6 @@ NOTA:Antes que o Phabricator possa autenticar com sucesso seu MediaWiki, um admi
   'OAuth JWT aud didn\'t match expected consumer key' => 'OAuth JWT aud não correspondeu à chave do consumidor esperada',
   'Related Changes in Gerrit:' => 'Mudanças relacionadas em Gerrit:',
   'Code Review Started' => 'Revisão de código iniciada',
-  'Enable expert mode to reveal additional "advanced" options in the Phabricator UI.' => 'Ative o modo avançado para exibir opções "avançadas" adicionais na interface do Phabricator.',
   'Hide Instructions' => 'Esconder instruções',
   'Rules do not have any effect.' => 'Regras não possuem nenhum efeito.',
   '**Step 1 of 2**: Provide the name and URI for your MediaWiki install.
@@ -88,14 +86,12 @@ In the next step, you will create an OAuth consumer in MediaWiki to be used by P
 
 Na próxima etapa, você criará um consumidor de autenticação no MediaWiki para ser usado pelo Phabricator oauth.',
   'users subscribed to' => 'usuários inscritos ao',
-  'Expert Mode.' => 'Modo especialista.',
   'The specified username / userPHID was not found' => 'O usuário especificado/userPHID não foi encontrado',
   'See https://wikitech.wikimedia.org/wiki/Deployments for full schedule.' => 'Veja https://wikitech.wikimedia.org/wiki/Deployments para programação completa.',
   'You cannot lock this task because it is already protected by a custom security policy.' => 'Você não pode trancar essa tarefa pois ela já está protegida por uma política de segurança customizada.',
   'Wikimedia Customizations' => 'Costumizações da Wikimedia',
   'Missing or malformed parameter.' => 'Parâmetro faltando ou malformado.',
   'How this works' => 'Como isso funciona',
-  'Create custom access control policy objects.' => 'Crie objetos de política de controle de acesso personalizados.',
   'Use [[%s|this form]] to create one.' => 'Use [[%s|esse formulário]] para criar um.',
   'MediaWiki User' => 'Usuário do MediaWiki',
   'Reset security settings' => 'Redefinir as configurações de segurança',
@@ -107,7 +103,6 @@ Na próxima etapa, você criará um consumidor de autenticação no MediaWiki pa
   'You cannot roll back the activity of a privileged user.' => 'Você não pode reverter a atividade de um usuário privilegiado.',
   'The full URL to your MediaWiki install, up to but not including "index.php"' => 'O URL completo para a instalação do seu MediaWiki, até mas sem incluir "index.php"',
   'This panel shows navigation links to other milestones in the same series.' => 'Este painel mostra links de navegação para outros marcos da mesma série.',
-  'Expert Mode' => 'Modo especialista',
   'Unknown or missing mediawiki names: %s' => 'Nomes de mediawiki desconhecidos ou ausentes: %s',
   'After reverting transactions, delete the reverted transaction records.' => 'Depois de reverter transações, delete os registros de transação revertida.',
   'No Permission' => 'Sem permissão',

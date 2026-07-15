@@ -963,11 +963,7 @@ Pour choisir un autre fichier des mots à ignorer, ajoutez cela à votre fichier
 
 %s
 
-Le fichier suggéré ci-dessus contient environ cinquante des mots anglais les plus courants. Vous pouvez aussi utiliser un fichier différent si vous préférez.
-
-Au final, lancez cette commande pour reconstruire les index en utilisant les nouvelles règles :
-
-%s',
+Le fichier suggéré ci-dessus contient environ cinquante des mots anglais les plus courants. Vous pouvez aussi utiliser un fichier différent si vous préférez.',
   'Rebuild Search Index' => 'Reconstruire l’index de recherche',
   'Do not install this software on an instance class with burstable CPU.' => 'N\'installez pas ce logiciel sur une classe d’instance avec un CPU extensible.',
   'Real' => 'Réel',
@@ -1609,9 +1605,6 @@ Par exemple, vous ne pourrez pas trouver de résultats de recherche pour des mot
 Vous pouvez modifier ce paramètre à 3 pour permettre d’indexer ces mots. Sinon, vous pouvez ignorer cet avertissement si rechercher des mots de trois lettres ne vous concerne pas. Si vous prévoyez de configurer ultérieurement Elasticsearch, vous pouvez aussi ignorer cet avertissement : seule la recherche en texte intégral de MySQL est affectée.
 
 Pour réduire la longueur minimale de mot à 3, ajoutez ce qui suit à votre fichier %s (dans la section %s) puis redémarrez %s :
-
-%s
-Enfin, exécutez la commande suivante pour reconstruire les index en utilisant les nouvelles règles :
 
 %s',
   '%s\'s home page' => 'Page d\'accueil de %s',

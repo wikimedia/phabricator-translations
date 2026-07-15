@@ -1355,7 +1355,6 @@ Make sure this library is configured to load.
 
 Это, вероятно, означает одно из двух:
 
-    - Возможно, вам нужно добавить эту библиотеку в %s.
     - Возможно, вы запускаете тесты на копии libphutil или arcanist используя другую копию libphutil или arcanist. Эта операция не поддерживается.',
   'This comment has a TODO.' => 'Этот комментарий имеет TODO.',
   'This software version on the server you are connecting to is out of date and does not have support for identifying repositories by callsign or URI. Update the server software to enable these features.' => 'Эта версия ПО на сервере, к которому вы подключаетесь, устарела и не поддерживает идентификацию репозиториев по позывному или URI. Обновите серверное ПО, чтобы включить эти функции.',

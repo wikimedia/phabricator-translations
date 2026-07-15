@@ -40,7 +40,6 @@ final class PhabricatorextCoreFa
   'Global Accounts' => 'حسابهای سراسری',
   'Previous: %s' => 'قبلی: %s',
   'Expand Instructions' => 'گسترش دستورالعمل‌ها',
-  'Expert Mode' => 'حالت حرفه‌ای',
   'Unknown or missing mediawiki names: %s' => 'نام‌های مدیاویکی ناشناخته یا ناموجود: %s',
   'Required' => 'الزامی',
   'Abandoned' => 'رها شده',

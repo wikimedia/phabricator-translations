@@ -3382,8 +3382,14 @@ Zorg ervoor dat deze bibliotheek is geconfigureerd om te laden.
   'Unable to locate binary "%s" to run linter %s. You may need to install the binary, or adjust your linter configuration.' => 'Kan binair bestand "%s" niet vinden om linter %s uit te voeren. Mogelijk moet u het binaire bestand installeren of uw linterconfiguratie aanpassen.',
   'This iterator variable is a previously declared local variable. To avoid overwriting locals, do not reuse them as iterator variables.' => 'Deze iteratorvariabele is een eerder gedeclareerde lokale variabele. Om het overschrijven van lokale variabelen te voorkomen, hergebruik ze niet als iteratorvariabelen.',
   'CIDR block "%s" is not formatted correctly. The IP block mask ("%s") must mask between 0 and %s bits, inclusive.' => array(
-    'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bit maskeren, inclusief.',
-    'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bits maskeren, inclusief.',
+    
+    array(
+      
+      array(
+        'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bit maskeren, inclusief.',
+        'CIDR-blok "%s" is niet correct opgemaakt. Het IP-blokmasker ("%s") moet tussen 0 en %s bits maskeren, inclusief.',
+      ),
+    ),
   ),
   'Fatal Error' => 'Onherstelbare fout',
   'No remote "%s" exists in this repository.' => 'Er bestaat geen remote "%s" in deze repository.',

@@ -9,7 +9,6 @@ final class PhabricatorextCoreEsES
 
   protected function getTranslations() {
     return array(
-  'Enable expert mode to reveal additional "advanced" options in the Phabricator UI.' => 'Habilita el modo experto para mostrar opciones "avanzadas" adicionales en la interfaz de usuario de Phabricator.',
   'MediaWiki User' => 'Usuario de MediaWiki',
   'Open Tasks' => 'Tareas abiertas',
   '**MediaWiki Instance Name**

@@ -665,8 +665,11 @@ Ce mot de passe s’applique à tous les dépôts disponibles via HTTP.',
   'No commit identifiers.' => 'Aucun identifiant de validation.',
   'Change symbol languages for this repository.' => 'Modifier les langues du symbole pour ce dépôt.',
   '%s edited reverted change(s), added %s: %s; removed %s: %s.' => array(
-    '%s a modifié la modification annulée, ajouté %s: %s; retiré %s: %s.',
-    '%s a modifié les modifications annulées, ajouté %s: %s; retiré %s: %s.',
+    
+    array(
+      '%s a modifié la modification annulée, ajouté %s: %s; retiré %s: %s.',
+      '%s a modifié les modifications annulées, ajouté %s: %s; retiré %s: %s.',
+    ),
   ),
   'Resign as Auditor' => 'Démissionner en tant que relecteur',
   'This repository requires authentication, which is forbidden over HTTP.' => 'Ce dépôt nécessite une authentification, ce qui est interdit sur HTTP.',
@@ -1108,8 +1111,11 @@ Ce dépôt ("%s") est configuré avec une valeur maximale pour la taille des fic
   'RECOVERED. Link to master database was restored.' => 'RÉCUPÉRÉ. Le lien à la base de données maître a été rétabli.',
   'This request is authenticated as a cluster device, but is performing a write. Writes must be performed with a real user account.' => 'Cette requête est authentifiée comme un appareil de grappe, mais effectue une écriture. Les écritures doivent être effectuées avec un compte utilisateur réel.',
   '%s edited reverting change(s), added %s: %s; removed %s: %s.' => array(
-    '%s a modifié la modification d\'annulation, ajouté %s: %s; retiré %s: %s.',
-    '%s a modifié les modifications d\'annulation, ajouté %s: %s; retiré %s: %s.',
+    
+    array(
+      '%s a modifié la modification d\'annulation, ajouté %s: %s; retiré %s: %s.',
+      '%s a modifié les modifications d\'annulation, ajouté %s: %s; retiré %s: %s.',
+    ),
   ),
   'Use Default (UTF-8)' => 'Utiliser la valeur par défaut (UTF-8)',
   'Edit URI' => 'Modifier l\'URI',
