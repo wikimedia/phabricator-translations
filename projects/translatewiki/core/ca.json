@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AlbertRA",
 			"Fitoschido",
 			"Joseplluis",
 			"Mguix"
@@ -9,7 +10,12 @@
 	"0294e4a93c79fe48": "Proporciona la ruta a una llibreria per exportar traduccions.",
 	"0654a028e5aea48c": "CAP",
 	"17b6d98715597264": "Ignorant la cadena \"$1\"; no present en el fitxer origen de traducció.",
+	"1a0d21145500640f": "Armeni",
+	"1ab65965d820e1b8": "Persa",
+	"1d6b8a691f0d907e": "Vietnamita",
+	"2339b8ad3625abec": "Indonesi",
 	"2c22da08dc82f0ba": "Proporciona la ruta a una llibreria exacta per exportar traduccions.",
+	"348d00693e12bc98": "Hebreu",
 	"38877d794cbf1943": "Proporciona un nom de projecte per exportar cadenes amb \"--as\".",
 	"3b87bed5eefca3c1": "Cadenes en brut",
 	"410147829602065c": "Nom del projecte pel qual s'està generant un fitxer de traducció.",
@@ -21,20 +27,27 @@
 	"7516972ad3f67814": "Nom de la classe a generar.",
 	"7c0edb1e7c0dcf2a": "Proporciona un fitxer de codi JSON amb \"--source\".",
 	"8657976c47adf8f2": "Genera un fitxer de classe de traducció del Phabricator.",
+	"86c2b6275f076b31": "Tàmil",
 	"8941bccc95e2dd69": "Fitxer font JSON que conté cadenes de traducció.",
 	"9cb7bf6f5a17cea5": "Exporta les cadenes de traducció des d'una biblioteca libphutil.",
+	"aa226d0aa31507a4": "Occità",
 	"b230c79422fb6249": "Escrivint dades ($1, $2) a \"$3\"...",
 	"b4f0d48e2f52605e": "S'esperava una extracció de cadenes de la biblioteca per a obtenir una taxació del fitxer «$1», però no existeix aquest fitxer!",
 	"b919bad1a5bc00cd": "Nom del projecte que s'està exportant. Els fitxers exportats s'escriuran a \"projects/\"  utilitzant aquest nom.",
+	"c32767e0541fe703": "Tailandès",
 	"c435945f8f07345d": "Utilitzat a:",
 	"c732898ac3089782": "Cadenes en anglès",
+	"c87df04a6212fd94": "Basc",
 	"c9d24cf2f05e3bcb": "Context de les cadenes",
+	"cba591491d5beed4": "Bretó",
 	"ccadbcf74331a452": "Proporciona un nom de projecte amb \"--project\".",
 	"d37b3f801e2ed13d": "Tipus de variables: $1.",
 	"da7f7fad3fb76450": "Provide an output file with \"--out\".",
 	"dc8625c842d8248a": "Base URI per navegar pels fitxers en el projecte que s'està exportant.",
 	"dfae14ab8a277d61": "Passa --clean a l'extractor subjacent per deixar anar la caché abans d'extreure les cadenes i fer una reconstrucció neta completa. A poc a poc!",
 	"e2bcda84facb3954": "Fet.",
+	"e71d224a2fc235cb": "Gal·lès",
 	"eab817b44c709f8e": "Ubicació per escriure el fitxer de traducció generat.",
-	"f3514b3c6942c1c2": "PLURAL"
+	"f3514b3c6942c1c2": "PLURAL",
+	"feaafc60ba98d7e0": "Panjabi"
 }
