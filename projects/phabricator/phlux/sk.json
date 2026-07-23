@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"240e78f1aa62fbef": "Aktualizovať premennú",
+	"3074a4a63133c645": "Hodnota premennej musí byť platný JSON.",
+	"307d4957be65dd3a": "Iba malé písmená, číslice, bodka a spojovník.",
+	"3d3684e1f79c7996": "Upraviť premennú: $1",
+	"45d41b3427ac820a": "Úložisko konfigurácie kľúč/hodnota",
+	"5b3d65a8738a83f4": "Premenná „$1“",
+	"8fbf110b5f9b11ca": "Premenné Phluxu",
+	"92ef2c479783f464": "Zadajte hodnotu ako JSON.",
+	"991a4cc218302b21": "Kľúč premennej musí byť jedinečný.",
+	"a19b4054a7bcb6ea": "Vytvoriť premennú",
+	"adcd57ea4ea9ebf6": "Phlux",
+	"b971350e75202123": "$1 aktualizoval(a) túto premennú.",
+	"c130b080f0d0694c": "$1 vytvoril(a) túto premennú.",
+	"c73e063e2ac09a6e": "Upraviť premennú",
+	"c75bafc134c47ab1": "Zoznam premenných",
+	"ce39d9d87f4cf49a": "Kľúč premennej je povinný.",
+	"ced53994219494a6": "Kľúč premennej „$1“ smie obsahovať iba malé písmená, číslice, bodku a spojovník."
+}

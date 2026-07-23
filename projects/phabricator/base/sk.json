@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"21909f6cc9658765": "Aplikácia „$1“ neexistuje!",
+	"2b864b4aa73d7545": "Táto aplikácia je povinná, takže k nej musia mať prístup všetci používatelia.",
+	"473a2b8ae0fda34b": "Môže konfigurovať aplikáciu",
+	"5065c3a197c9ae53": "Môže používať aplikáciu",
+	"71a5993ec4612869": "Základné aplikácie",
+	"78d67090ef36b075": "Žiadna aplikácia!",
+	"7a1c0a74305daaaf": "Aplikácia $1",
+	"d8c88db363a66211": "Požiadavka obsahuje obmedzený parameter „$1“, ale tento kontrolér („$2“) ho nemá na zozname povolených. Požiadavka bola odmietnutá, pretože môže byť súčasťou útoku pomocou presmerovania.",
+	"d9b9a15e87d0d955": "Neznáma schopnosť „$1“!",
+	"e5d6af967c265e3f": "Nepodarilo sa nájsť dopyt na transakcie pre objekt triedy „$1“."
+}

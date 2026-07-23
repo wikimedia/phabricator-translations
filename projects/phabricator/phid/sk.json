@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"05fe7803b131a33c": "Získať informácie o ľubovoľnom PHID.",
+	"0a751e41cfcf8b01": "Požadovaný ovládač „$1“ nebol načítaný.",
+	"1498233146466f1f": "Obmedzené: $1",
+	"1db177fa2f0941e1": "Pokus o zmenu $1, čo nie je povolené; zoznamy ovládačov sú nemenné.",
+	"28c017ce59a791e5": "Pokus o overenie schopnosti „$1“ pre ovládač typu „$2“, ale táto schopnosť nebola pripojená.",
+	"367af0d526a97933": "Objekt (triedy „$1“) nemá PHID, takže ovládače nemôžu pracovať s jeho schopnosťami.",
+	"40acf4c5cd86049e": "$1 trieda „$2“ má neplatnú vlastnosť $3. Konštanty PHID musia byť štvorznakový reťazec veľkých písmen.",
+	"40f8045ec98d286b": "Pokus o načítanie PHID „$1“, ktorý si však nevyžiadal žiadny zoznam ovládačov.",
+	"4270ca6ab8fde311": "Objekty, ktoré ste uviedli, obsahujú objekty nesprávneho typu ($1).",
+	"6931f523cee8baba": "E-mail aplikácie",
+	"6cd4c2b4131197f3": "Je potrebné odovzdať PHID.",
+	"6e5d870b8888a21e": "Vyhľadať objekty podľa názvu.",
+	"7191d0b67d43f89e": "Pokus o vykreslenie ovládača, ktorý neexistuje!",
+	"750d3b61b047e337": "Získať informácie o ľubovoľných PHID.",
+	"8c323456ce8fea71": "Neznámy objekt ($1)",
+	"9dc304f07ed386a3": "Objekty, ktoré ste uviedli, obsahujú objekty, ktoré neexistujú ($1).",
+	"ad333443813e6a77": "Pokus o vytvorenie nového podzoznamu existujúceho zoznamu ovládačov, ale PHID „$1“ sa v nadradenom zozname nenachádza.",
+	"bea71675013c188d": "Je potrebné odovzdať názvy.",
+	"cbee6361b4dd6129": "Pokus o pripojenie schopnosti („$1“) pre objekt („$2“) k ovládaču, ale tento ovládač (typu „$3“) nemôže mať schopnosti.",
+	"ea5edb74faa34ae6": "Objekty, ktoré ste uviedli, obsahujú objekty nesprávneho typu ($1) a objekty, ktoré neexistujú ($2).",
+	"ebf8f6f3f90a4f6f": "Taký objekt neexistuje.",
+	"f4d10da4d9776085": "Nie je možné vygenerovať PHID bez typu."
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"07b032b56f7aa399": "Neprečítané",
+	"14dd2a4656a89116": "Nepodarilo sa načítať stav servera: toto nie je server typu „admin“!",
+	"215ed57ea00cd4b2": "Všetky upozornenia",
+	"3d9f47ddd54fe157": "Naozaj chcete označiť všetky upozornenia ako prečítané?",
+	"42acf1b5974ad9e6": "Konfigurácia servera upozornení je neplatná: neuvádza žiadny zapnutý server typu „admin“. Upozornenia vyžadujú aspoň jeden aktívny server typu „admin“.",
+	"47bb223ad62d3256": "Nastavuje sa klient",
+	"572de068b2329b96": "Konfigurácia servera upozornení je neplatná: neuvádza žiadny zapnutý server typu „client“. Upozornenia vyžadujú aspoň jeden aktívny server typu „client“.",
+	"6776e111aef4227a": "Všetky neprečítané upozornenia budú označené ako prečítané. Túto akciu nemožno vrátiť späť.",
+	"6faa4218ab931e0d": "Neprečítané upozornenia",
+	"6fe51d8fad2a6ea4": "Nepodarilo sa odoslať správu: toto nie je server typu „admin“!",
+	"771e05f27b99fd59": "Odpojené",
+	"7a54c1fcde926d84": "{{PLURAL:$1|Jedno upozornenie na objekt, ktorý už neexistuje alebo ho už nemôžete vidieť, bolo zahodené|$1 upozornenia na objekty, ktoré už neexistujú alebo ich už nemôžete vidieť, boli zahodené|$1 upozornení na objekty, ktoré už neexistujú alebo ich už nemôžete vidieť, bolo zahodených}}.",
+	"7c97fc57d0663517": "Konfigurácia servera upozornení popisuje neplatného hostiteľa („$1“ na indexe „$2“) s nerozpoznaným typom („$3“). Platné typy sú „$4“ alebo „$5“.",
+	"7d9171c083b45e5c": "Konfigurácia servera upozornení popisuje neplatného hostiteľa („$1“ na indexe „$2“) s neplatným protokolom („$3“). Platné protokoly sú „$4“ alebo „$5“.",
+	"7f02a61559647c50": "Žiadne upozornenia na označenie ako prečítané.",
+	"8b0d4e583fdf3c6f": "Server upozornení je nedostupný",
+	"8f3ba9d089600a85": "Tento server je nastavený na používanie servera upozornení, ale nedokáže sa k nemu pripojiť. Mali by ste tento problém vyriešiť alebo server upozornení vypnúť. Môže pomôcť skontrolovať konfiguráciu alebo reštartovať server pomocou príkazu nižšie.\n\n$1",
+	"9079b8d8b6937a45": "Na serveri typu „admin“ nemožno otestovať klienta!",
+	"91f51c0177b70233": "Konfigurácia servera upozornení popisuje neplatného hostiteľa („$1“ na indexe „$2“). Ide o službu typu „admin“, ale má vlastnosť „path“. Táto vlastnosť je platná iba pre služby typu „client“.",
+	"921af3bf3920d823": "Aktualizácie a upozornenia v reálnom čase",
+	"92671dfe54e42f0c": "Svoje problémy predsa nemôžete ignorovať donekonečna.",
+	"9b16335d5b0b0a4a": "Nepodarilo sa pripojiť k serveru upozornení",
+	"ad87d7cef1baf9fe": "Server upozornení nie je zapnutý",
+	"b61b70be925f16d0": "Toto je testovacie upozornenie odoslané o $1.",
+	"b6ef1f5cf0f38781": "(Server spustíte týmto príkazom.)\n$1",
+	"b88a6664ed5b0050": "Nemáte žiadne neprečítané upozornenia.",
+	"b98e3f99c2aea77e": "Pripája sa...",
+	"d31b7462b51c88f9": "Prišlo HTTP 200, očakávalo sa však HTTP 501 (WebSocket Upgrade)!",
+	"e540ed16437675ca": "Konfigurácia servera upozornení je neplatná: rovnakého hostiteľa a port („$1“) popisuje viackrát. Každá kombinácia hostiteľa a portu by sa mala v zozname vyskytovať iba raz.",
+	"e5f613432959373a": "Označiť všetky ako prečítané",
+	"e6fe34ea1c47c080": "Zobraziť iba neprečítané upozornenia.",
+	"f0846d0cf749155d": "Tento server je nastavený na používanie servera upozornení, ale nedokáže sa k nemu pripojiť.",
+	"f8af5efb9493e17b": "Konfigurácia servera upozornení nie je platná: každá položka v zozname musí byť slovník popisujúci službu, ale hodnota s indexom „$1“ slovník nie je.",
+	"f8c3443911adbd1f": "Konfigurácia servera upozornení obsahuje neplatnú špecifikáciu služby (na indexe „$1“): $2.",
+	"f9b6f64d81b3eed1": "Nemáte žiadne upozornenia."
+}

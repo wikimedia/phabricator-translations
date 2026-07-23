@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"05175bf93291918b": "Vygenerovať PHP AST",
+	"05e30d2a45e77780": "PHPAST",
+	"1d2d5262d9a87a79": "Uzol $1: $2",
+	"1e0c281ce4e49361": "Vygenerovať XHP AST",
+	"22f8a25a2263c85e": "Použiť PHPAST",
+	"384fb8001a431c5c": "Token $1: $2",
+	"4d113a8311b95994": "Použiť XHPAST",
+	"58e322d16b8289d8": "Zobrazenie XHPAST",
+	"6a0b9ce85b51e4f9": "Zobrazenie PHPAST",
+	"b7e45a36ff3610e0": "Analyzovať",
+	"bd1b30579c4c7a5a": "Taký AST neexistuje!",
+	"bd3361abd5561576": "Vizuálny analyzátor PHP"
+}

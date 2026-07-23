@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"075b45870ec7ec57": "Značka „$1“ bola odstránená.",
+	"197a62696ce8fbf0": "Označené značkou „$1“.",
+	"1c3d8a33c4e3bcd5": "Osobné záložky",
+	"1ca1a72255461c7b": "Dopytovať značky.",
+	"2086e095c964982b": "Zrušiť značku.",
+	"32576f4fedc07f63": "Fialová",
+	"4dc7c146812011ca": "Neznámy parameter groupBy: $1",
+	"5d7071b20fcec93c": "Označiť značkou $1.",
+	"699642af97a5d952": "Značky sú súkromné. Iba vy si môžete svoje značky zobraziť alebo upraviť.",
+	"70fc3e4015e8e4f8": "Je potrebné odovzdať id alebo objectPHID.",
+	"7168897d704726c7": "Už označené značkou $1.",
+	"728fce1910953840": "Odstrániť značku $1.",
+	"76dbf884271fdcfd": "Označiť na neskôr",
+	"79ed831f08642f66": "Tento objekt je dočasný a nemožno ho označiť.",
+	"7b4e95c2e6f33f5e": "Odstrániť značku",
+	"7dda51ce77f4eb5f": "Nie ste tvorcom tejto značky.",
+	"8828ce01607a48df": "Označiť $1",
+	"8993d3e323986eb5": "Značka odstránená",
+	"94d23c9bf50bab36": "Vytvoriť alebo upraviť značku.",
+	"a12b4c41e336ccf7": "Vytvoriť značku",
+	"b2818290ebcc7204": "Označené značkou nesprávnej farby („$1“).",
+	"b6829a09b18b33c4": "Ak si chcete tento objekt ($1) pripomenúť neskôr, môžete ho označiť značkou.",
+	"bafd3e5ad59b23e6": "Nenašli sa žiadne značky.",
+	"cdc6686dc53df49e": "Chybné ID značky.",
+	"cf11ada077be2b0f": "Odstrániť značku $1",
+	"d1d3a0cd7c6910d9": "Všetky typy objektov",
+	"d4a822fc0ac4e4ad": "Už označené",
+	"e0d0b82a322e167f": "Farba značky",
+	"e22c254cc0a5cb8c": "Označiť značkou",
+	"e2ab9f0d21594fe2": "Značka nebola odstránená",
+	"e76a6d33ff06b15e": "Neoznačené žiadnou značkou.",
+	"f8db8a172be6fab1": "Označené"
+}

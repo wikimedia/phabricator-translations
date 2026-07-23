@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"141ec6a1eabff4c9": "Lieszeechen:",
@@ -17,6 +18,7 @@
 	"9120423983b0359c": "DETAILER",
 	"b962334ba532421a": "Geféierlech",
 	"c99a2bcf3e71c435": "Observéieren",
+	"d86f4597160d4f9c": "D'Zeil „$1“ konnt net geparst ginn.",
 	"f40b27d6b8b9a4fc": "HTTP",
 	"f52698c28f0d2036": "HTTPS"
 }

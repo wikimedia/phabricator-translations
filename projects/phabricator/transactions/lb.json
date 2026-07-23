@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"0011bad3ecc480f3": "Spären / Verstoppen vu Felder",
@@ -11,17 +12,24 @@
 	"1fe08986bdecae0f": "🔒 Gespaart",
 	"1fe1c5bcdd6f9ac4": "Neien Objet",
 	"2feede4e69de43eb": "✘ Verstoppt",
+	"3073e71e79d132f9": "„$1“ muss eng Zeechekette sinn.",
 	"37d1edcc7eff2b62": "Formulaire markéieren",
 	"468a4dc5de6e1e05": "Dës Bemierkung wierklech ewechhuelen?",
+	"4841a3352877c70a": "De Benotzer $1 huet {{PLURAL:$2|e Contributeur|Contributeuren}} fir $3 ewechgeholl: $4.",
 	"51713409935576d6": "exportéieren",
 	"53637e834f989a05": "Dir hutt keng Objete selektionéiert fir z'änneren.",
+	"58a333a91c4854c7": "De Benotzer $1 huet {{PLURAL:$2|e Contributeur|Contributeuren}} ewechgeholl: $3.",
 	"70bd08725a77c550": "$1 huet dëse Formulaire desaktivéiert.",
 	"946da718c17f8999": "Formulaire änneren",
+	"96aca9279d4d07c2": "De Benotzer $1 huet Contributeure fir $2 geännert, derbäigesat: $4; ewechgeholl: $6.",
 	"a27d1fe84e401c92": "Aktioun ewechhuelen: $1",
 	"aa755391313419df": "(Detailer weisen)",
 	"b09387cdf1cabce3": "Dir kënnt keng eidel Bemierkung ofspäicheren.",
 	"b5ffeb5f637b29fa": "Bemierkung änneren",
+	"c85782c0d762f737": "De Benotzer $1 huet {{PLURAL:$2|e Contributeur|Contributeuren}} derbäigesat: $3.",
 	"d6f2985c9173a3bd": "eng aner Aktioun derbäisetzen",
 	"dc9895beaecf8bab": "Formulaire mussen en Numm hunn.",
-	"f21129e792ad44d6": "D'Bemierkung gouf vum $1 ewechgeholl."
+	"f21129e792ad44d6": "D'Bemierkung gouf vum $1 ewechgeholl.",
+	"f73eacd103db93a1": "De Benotzer $1 huet Contributeure geännert, derbäigesat: $3; ewechgeholl: $5.",
+	"fb4bdb955ce7f8cf": "De Benotzer $1 huet {{PLURAL:$2|e Contributeur|Contributeuren}} fir $3 derbäigesat: $4."
 }

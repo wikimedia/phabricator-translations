@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"09858ae94db095dc": "Antivandalizmus",
+	"0f14b2b49300d680": "vypočítať skóre pre dané transakcie.",
+	"13b79979748bc524": "Zistený vandalizmus",
+	"173f555fd5a160c1": "Vyššie hodnoty zvyšujú celkové skóre. Malo by ísť o hodnotu medzi 2 a 10.",
+	"22a25d00c53b0d92": "Relácie odstránené",
+	"281ccb6bd3c233c9": "Vyššie hodnoty spôsobia rýchlejší útlm, čo znamená, že staršie úpravy majú nižšie skóre. Každá úprava sa oskóruje a skóre sa potom vynásobí násobiteľom veku. Násobiteľ sa počíta takto: age_factor = multiplier * (age / age^decay). Age je čas, ktorý uplynul od úpravy, v sekundách.",
+	"32b9e4245f21e239": "Používateľské meno, ktorého transakcie sa vrátia späť.",
+	"34341b9c44b90404": "Nezistil sa žiadny vandalizmus.",
+	"3b21150905af2752": "Skúmané časové obdobie pri skórovaní úprav používateľa, v hodinách. Pozor: extrémne vysoká hodnota (niekoľko týždňov) nemusí na vyťaženej inštancii Phabricatora priniesť úplné výsledky kvôli parametru výkonu SQL dopytu $$id_limit v zdrojovom kóde.",
+	"3e3256409c23cb9f": "Skúmané časové obdobie pri skórovaní úprav používateľa.",
+	"3fff99c595eef3e4": "Pri každej akcii používateľa zaznamená Phabricator jednu alebo viac transakcií. Typ transakcie odráža, aká akcia sa vykonala. Keď antivandalizmus reaguje na aktivitu používateľa, každej transakcii sa priradí základné skóre, tieto skóre sa spočítajú a vynásobia faktorom založeným na frekvencii používateľovej aktivity. Rýchlejšie upravovanie znamená väčší násobiteľ. Výsledné skóre sa porovná s hodnotou **antivandalism.max-score**. Ak je skóre príliš vysoké, účet sa buď odhlási zo všetkých relácií, alebo sa zablokuje. Skóre prispôsobíte zadaním mapy vo formáte JSON, ktorá priraďuje kľúčom typov transakcií hodnoty s pohyblivou desatinnou čiarkou. Vo väčšine prípadov by mali byť hodnoty pre všetky typy transakcií medzi 0.0 a 1.0.",
+	"43d2887d271d42fe": "Upraviť základné skóre pre jednotlivé typy transakcií",
+	"4414133fa89f4103": "Či sa má používateľský účet zablokovať, keď dosiahne hodnotu antivandalism.max-score vynásobenú prahom nastaveným v kóde.",
+	"57688ae6dc82ea98": "Umiestniť vandalský účet do karantény.",
+	"6288338a3c53ff0d": "Miera útlmu použitá na vekovú zložku skóre.",
+	"6cdf82c66f1a9ca1": "Násobiteľ použitý na vekovú zložku skóre.",
+	"75192b8a0064c97a": "Musíte zadať buď --user, alebo --user-phid",
+	"762ca6690cc5f6e9": "Možnosti na ladenie antivandalského filtra.",
+	"8d884d6c8bcb3934": "Účet zablokovaný",
+	"a8097b05c5ffc5d9": "Predvolené skóre pre úpravy, ktoré menia textové pole.",
+	"ae921fb953da171b": "Zadané používateľské meno / userPHID sa nenašlo",
+	"c87f0b0117f8b84f": "Zablokovať vandalské účty.",
+	"c8e32e0e61bd8e64": "Používateľské meno, ktorého transakcie sa budú skórovať.",
+	"c918ee254f7290e8": "$1 spustil(a) protivandalské opatrenia ($2) úpravou $3.",
+	"d1a55b87169bf68a": "Minimálna dĺžka, pod ktorou sa uplatní penalizácia. Pozri tiež: antivandalism.short-text-penalty",
+	"e7243cdbd385d611": "Maximálne skóre, ktoré smie používateľ dosiahnuť, kým bude odhlásený.",
+	"f34ac77f7e82d8ff": "Žiadna akcia",
+	"f3bef99a24ec8f43": "Táto konštanta sa pripočíta ku skóre, keď úprava vyústi do veľmi krátkeho názvu alebo popisu.",
+	"faa0b89058a6fbd0": "Hľadať vandalizmus",
+	"fd90c7faa31b0379": "Toto sú predvolené skóre pre úpravy textových polí, ako je názov alebo popis úlohy. Základné skóre sa vynásobí faktorom určeným podľa toho, ako veľmi sa text zmenil. To znamená, že úpravy, ktoré text iba pridávajú, majú nižšie skóre než úpravy, ktoré existujúci text odstraňujú alebo menia. Základné skóre každého poľa by malo vyjadrovať jeho relatívnu dôležitosť."
+}

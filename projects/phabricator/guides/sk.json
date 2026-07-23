@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"04ed5a30ea0bcc04": "Vytvoriť repozitár",
+	"0efe2f85cd67c809": "Ak ste tu kvôli kontrole kódu, nastavme váš prvý repozitár.",
+	"1e5fe3e3f95ec0bc": "Vo webovom rozhraní ste nastavili aspoň jednu možnosť.",
+	"2705f94c32d8e8bc": "Vytvorili ste aspoň jednu úlohu.",
+	"2912f9b92d7431d2": "Projektové značky určujú všetko. Vytvárajte ich pre tímy, štítky alebo skutočné projekty.",
+	"29e1ac3c2434129a": "Zobraziť všetky dostupné aplikácie.",
+	"38f627566dda6f37": "Preskúmať aplikácie",
+	"3bd7ef732e4ec546": "$1 bol úspešne nainštalovaný. Nasledujúci sprievodcovia vás prevedú konfiguráciou a úvodným zoznámením pre nových používateľov. Tieto kroky sú voliteľné a môžete ich absolvovať v ľubovoľnom poradí. Ak sa k tomuto sprievodcovi budete chcieť vrátiť neskôr, nájdete ho v {icon globe} **Aplikáciách** pod {icon map-o} **Sprievodcami**.",
+	"3da474537ac378c6": "Preskočiť",
+	"455083cac2ae96ea": "Rýchly štart",
+	"46f41c5aad565112": "Nastavte nastavenia účtu pre všetkých používateľov alebo len pre seba",
+	"515ad8ce9bb7eecf": "Zmeňte názov a pridajte logo svojej firmy, nech to má šmrnc.",
+	"59fe7e60410f52d0": "Nastavili ste server upozornení v reálnom čase.",
+	"5acfc0badb35c4e0": "Máte niekoľko nevyriešených problémov s nastavením, ktoré treba vybaviť.",
+	"5d859a72a65406e6": "Vytvorte v Maniphestovi nejakú prácu pre stážistov.",
+	"6bb896b77607ac76": "Vaše pozvánky boli prijaté. Na tejto ceste nebudete sami.",
+	"6fe26b1373ab767d": "Nastavili ste aspoň jedného poskytovateľa overenia totožnosti.",
+	"76018fc96e754bd4": "Krátke návody",
+	"7e11e4c66d7f235a": "Vytvorili ste aspoň jeden repozitár.",
+	"929a28d261428029": "Sprievodcovia",
+	"9996bca0cdf61984": "Zistite, ako nastaviť poštu a ďalšie možnosti.",
+	"9f99c9fd6e043aff": "Pozvite zvyšok svojho tímu, aby mohol začať.",
+	"a1867bd6bfd5b2ad": "Nastavenia používateľského účtu",
+	"adc4b9b96d3b8dc2": "Ak ste v $1 nováčik, tieto voliteľné kroky vám pomôžu naučiť sa základy. Pokojne si všetko nastavte tak, ako vám to najlepšie vyhovuje, a preskúmajte tieto funkcie vlastným tempom.",
+	"b3bd51b127ff1311": "Zmenili ste aspoň jedno nastavenie svojho účtu.",
+	"b42a237a5f96cad0": "Upozornenia v reálnom čase možno doručovať pomocou WebSocketov.",
+	"b5a15bad1cc08996": "Prispôsobte si svoju inštaláciu",
+	"b801b9ccdc229d9a": "Pozvať spolupracovníkov",
+	"c217cb0f9b995a3d": "Vytvorili ste aspoň jeden projekt.",
+	"d4f61ec10f8563dc": "Vyzerá to úžasne, dobrá práca. Domov, sladký domov.",
+	"d8d1d5a6042642e8": "Dve rozšírenia s pokynmi vygenerovali pokyny s rovnakým kľúčom („$1“). Každé pokyny musia mať jedinečný kľúč.",
+	"e7643788502a37ce": "Server upozornení",
+	"f023a66281396c8e": "Vyriešiť problémy s nastavením",
+	"f80e61793246923f": "Poskytovatelia overenia totožnosti umožňujú používateľom registrovať si účty a prihlasovať sa.",
+	"fa9a5794e77589de": "Vyriešili (alebo ignorovali) ste všetky zostávajúce problémy s nastavením.",
+	"fd6c3ebf7befca9f": "Inštalácia"
+}

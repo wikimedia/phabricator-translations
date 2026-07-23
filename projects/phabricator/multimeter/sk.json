@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"0fb59422f6006b36": "Vzorky",
+	"1b3d1f152ab0af85": "Podprocesy",
+	"1db7ceb187824c6b": "(Všetko)",
+	"22a52227914bc55a": "Vzorky ($1 – $2)",
+	"2b0351d0debf7e31": "Podľa ID",
+	"2c5dd77c7fad3691": "Epocha",
+	"300cf32a83d8202e": "Vzorkovač výkonu",
+	"3a9c736b3175d657": "Frekvencia",
+	"5ae3c07ef5216380": "{{PLURAL:$1|$1}} pož.",
+	"81869807ec587c84": "Používateľská príručka Multimetra",
+	"8de60af14be27425": "$1 {{PLURAL:$1|jednotka|jednotky|jednotiek}}",
+	"93c45b374e438968": "Podľa požiadavky",
+	"9f87ba915c488c5a": "Podľa hostiteľa",
+	"a4698c919126d5ab": "Pokus o obnovenie už aktívneho multimetra!",
+	"a55363a4b7f82dda": "Webová požiadavka",
+	"a74d79fcf6b8b9ec": "Podľa kontextu",
+	"cdc93143c600bc90": "Priem.",
+	"dad4cada470230f5": "Podľa označenia",
+	"db4799e58d978303": "Multimeter",
+	"dbad9f126b33570e": "Zobrazujúci používateľ",
+	"e5423c9ba0cb621c": "$1 {{PLURAL:$1|udalosť|udalosti|udalostí}}",
+	"ea54c00c7eb26ed5": "Statický zdroj",
+	"f6cee853e660acd6": "Udalosti Multimetra",
+	"fd0cd99480a72974": "Podľa zobrazujúceho používateľa"
+}

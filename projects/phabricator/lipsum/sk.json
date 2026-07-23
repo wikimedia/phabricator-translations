@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"29efd0bdaa04ae91": "Argument „$1“ nezodpovedá názvu žiadneho generátora.",
+	"300371d205bbeec3": "Generátor lipsum je zaregistrovaný pod kľúčom „$1“. Tento kľúč je rezervovaný.",
+	"32332b3df8a3771d": "Nepodarilo sa načítať náhodného používateľa. Možno je potrebné najprv vygenerovať viac testovacích používateľov.",
+	"359c2782e2017bbc": "Generovať objekty bez žiadosti o potvrdenie.",
+	"4b2283b7167429d1": "LIPSUM",
+	"62242054e2063eb9": "Nepodarilo sa načítať symbol $1: táto trieda neexistuje.",
+	"63017d2cc8fa35f7": "Generátoru („$1“) sa nepodarilo vygenerovať objekt.",
+	"6ad21d0a2036d6e8": "OJOJ",
+	"7b8d8ae984b43bbd": "Tento príkaz generuje syntetické testovacie údaje vrátane používateľských účtov. Je určený na použitie vo vývojových prostrediach, aby ste mohli jednoduchšie testovať funkcie. Neexistuje jednoduchý spôsob, ako tieto údaje odstrániť alebo vrátiť účinky tohto príkazu. Ak ho spustíte v produkčnom prostredí, zaplní vaše údaje veľkým množstvom nezmyselného odpadu, ktorého sa nezbavíte.",
+	"8cd3cac1380eb4ec": "Generovať syntetické testovacie objekty.",
+	"8d767bf5b72373d1": "trieda",
+	"90a51575c9bd4563": "Syntetické testovacie objekty sa budú generovať donekonečna. Keď budete spokojní, zastavte generovanie pomocou ^C.",
+	"9922906d3c889107": "Vygenerované „$1“: $2",
+	"a568df6c0fc85e72": "Vyberte, ktorý typ alebo typy testovacích údajov chcete vygenerovať, alebo zvoľte „$1“.",
+	"b1b21337175c014d": "Generovať objekty čo najrýchlejšie.",
+	"b5ff2d7e2727ab4b": "Argument „$1“ je nejednoznačný a zodpovedá viacerým generátorom: $2.",
+	"c9fb502c220f5ec3": "lipsum je vývojový a testovací nástroj a možno ho spustiť iba na inštaláciách vo vývojárskom režime. Ak chcete lipsum povoliť, zapnite vo svojej konfigurácii „$1“.",
+	"e92bac9cc25935f8": "Vybrané generátory: $1.",
+	"e9f3727584c821b2": "GENERÁTORY",
+	"f335a7372135e4e7": "Naozaj chcete vygenerovať kopy odpadu?"
+}
