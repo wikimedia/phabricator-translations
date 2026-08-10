@@ -6,17 +6,23 @@
 		]
 	},
 	"0b99cebe565822c6": "FEELER",
+	"1e01176e72facd3f": "<Ongültegen Output>",
 	"26b59e789e8e6375": "Bild späicheren",
 	"33d5667cd57fb506": "Temporär",
+	"3c9040162f1fcece": "De Fichier konnt net geluede ginn.",
 	"4a8ffe30194dc6cd": "Dëst Dokument kann net als JSON geparst ginn: $1",
 	"5073a5bb6726abec": "IWWERSPRONGEN",
 	"63d3e9cb6718b667": "D'Feld „data_base64“ däerf net eidel sinn.",
+	"652ac1c033440bec": "De Fichier „$1“ huet e gültegen Integritéits-Hash.",
 	"6c3d47e450fb2b11": "Als Bild weisen",
 	"7d5868797f87f9f2": "Et gëtt kee Fichier \"$1\".",
+	"8726284f788a8115": "Dat hei Dokument ass kee gültegen JSON: $1",
 	"9b89edbed33072bc": "Als PDF weisen",
 	"9f4ca9ec08715def": "Dimensiounen",
 	"a295f96df8e2e742": "Als Video weisen",
 	"bc17c1f0179a888f": "Video",
+	"d30672d2a83420f2": "De Fichier „$1“ huet en ongültegen Integritéits-Hash!",
 	"d8b147e739f944ea": "Fichier läschen",
-	"d9836ea9577ecf65": "Frëndlech Fruucht"
+	"d9836ea9577ecf65": "Frëndlech Fruucht",
+	"e0dc39394b6c6c78": "E Fichier op de Server eroplueden."
 }

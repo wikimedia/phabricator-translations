@@ -5,14 +5,12 @@
 		]
 	},
 	"0294e4a93c79fe48": "Dèje 'u percorse a 'na libbrerie da addò esportà le traduziune.",
-	"0654a028e5aea48c": "NONE",
 	"17b6d98715597264": "Stoche a cache a stringhe \"$1\"; non g'è presente jndr'à 'u file sorgende d'a traduzione.",
 	"2c22da08dc82f0ba": "Dèje 'u percorse precisamende a 'na libbrerie da addò esportà le traduziune.",
 	"38877d794cbf1943": "Dèje 'nu nome a 'u pruggette pe esportà stringhe sotte cu \"--as\".",
 	"3b87bed5eefca3c1": "Stringhe grezze",
 	"410147829602065c": "Nome d'u pruggette pu quale avène generate 'nu file de traduzione.",
 	"418a2fbab13c3664": "Stoche a pigghie le stringhe d'a libbrerie...",
-	"49427ff57fe09816": "SESSE",
 	"5394e163b2751641": "Codece locale pa sorgende generate.",
 	"5641f04d9980459c": "Dèje 'nu classname cu \"--class\".",
 	"70cca40d69431794": "Lìgge $1 stringhe.",
@@ -28,11 +26,9 @@
 	"c732898ac3089782": "Stringhe inglese",
 	"c9d24cf2f05e3bcb": "SZtringhe de conteste",
 	"ccadbcf74331a452": "Dèje 'nu nome d'u pruggette cu \"--project\".",
-	"d37b3f801e2ed13d": "Tipe de variabbile: $1.",
 	"da7f7fad3fb76450": "Dèje 'nu file de resultate cu \"--out\".",
 	"dc8625c842d8248a": "URI de base pe sfogghià le file jndr'à 'u pruggette ca ste avène esportate.",
 	"dfae14ab8a277d61": "Passe --clean a l'estrattore ca ste sotte pe relascià le cache apprime de estrarre le stringhe e eseguì 'na combilazione combletamende pulite. Lende!",
 	"e2bcda84facb3954": "Fatte.",
-	"eab817b44c709f8e": "Poste addò scrivere 'u file de traduzione generate.",
-	"f3514b3c6942c1c2": "PLURALE"
+	"eab817b44c709f8e": "Poste addò scrivere 'u file de traduzione generate."
 }

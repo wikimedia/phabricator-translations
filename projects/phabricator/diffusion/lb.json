@@ -5,21 +5,31 @@
 			"Volvox"
 		]
 	},
+	"1cfd8151e136cb5d": "Net aktiv",
 	"22ad664e9eb98b75": "Symboler",
 	"2e4a1982a07e8697": "Identesch",
 	"3068d5570159c427": "Falschen Typ",
+	"3191c5bd2a49d53c": "Ongültegen Zoustand „$1“!",
+	"35481f60cee7a087": "Ongültegen JSON: $1",
 	"38b318fe53f06aa0": "$1 konnt net geparst ginn!",
 	"42c248d3ebfc85ce": "Identitéiten",
+	"4aa8e1e33235d4bc": "Aktive Status vun der URI.",
+	"501e32d7ed750e41": "D'Ännerunge konnten net geluede ginn: $1",
+	"5cfc82b7f51e256a": "Geféierlech Ännerungen",
 	"61a0ae3b849d95fb": "Limitten",
 	"8aa57de6dce6ee1c": "Ännerungen",
 	"8d10c693b773b327": "Extern",
+	"a41427462a495a80": "All Ännerunge weisen",
 	"a7881cac6e64abca": "Integratiounen",
 	"ab0ed92457a51e37": "Symboler änneren",
 	"aca2b8325bf2e551": "$1 Byte",
+	"bf55a27febab42a5": "Feeler $1: $2",
 	"c00e2632de946cb4": "Grouss Ännerungen",
 	"c1fbf349a9eef741": "Limitten änneren",
+	"c8906c6998094393": "Geféierlech Ännerunge verhënneren",
 	"d205cbd6783332a2": "Net fonnt",
 	"d2e18d1acaeef1f9": "Nei Protektiounsastellung.",
+	"d652472e0b242907": "Geféierlech Ännerungen zouloossen",
 	"f01193f7e22d5347": "Ongültege Modus „$1“.",
-	"f08b76d77456cf4d": "Ännerungen {{PLURAL:$1|($1)}}"
+	"f08b76d77456cf4d": "Ännerungen ({{PLURAL:$1|$1}})"
 }

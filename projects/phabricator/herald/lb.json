@@ -6,16 +6,27 @@
 			"Volvox"
 		]
 	},
+	"0386ef0bc82d93ea": "Ongülteg Ziler",
+	"05f910fcbbb179a2": "(Ongülteg Lëscht)",
 	"3275700e492079d5": "Desaktivéiert Reegelen",
 	"3997176e56bf67f9": "Reegel aktivéieren",
+	"3f100e894bebe66b": "<Onbekannt Aktioun „$1“>",
+	"4fd661ad65b5f520": "Ongülteg Aktioun",
 	"5f0dbc49cfa625e7": "Ongülteg Bedingung",
+	"5f2ed8c4d6bd94d4": "Ongülteg URI",
 	"5ffe533b830f08a0": "wouer",
 	"62556d50d4f41b5e": "Reegel späicheren",
 	"7013b4aceaf1d5f3": "Keen Effekt",
 	"737c043aca90f01c": "Ongültegen Objet",
 	"7cb6efb98ba5972a": "falsch",
+	"885bcbc9d52d1813": "Onbekannt Aktioun („$1“)",
 	"8fa6985cc534e9f2": "$1 (Desaktivéiert)",
+	"908b3d66fd07b0aa": "Den zweete regulären Ausdrock ass ongülteg!",
+	"a93a2a5f91ea8afb": "$1 {{PLURAL:$1|Zil ass|Ziler sinn}} ongülteg oder hunn de falschen Typ: $2.",
 	"add2e4a4b8a46a34": "Feld: $1",
 	"cb8f2beca43d2e3a": "Rezent Ufroen",
-	"e8c35bf2d15da2b5": "Aktiv Reegelen"
+	"cf8d1ff50a7ffbb2": "Onbekannten Effekt („$1“)",
+	"e8c35bf2d15da2b5": "Aktiv Reegelen",
+	"f31b86dfebd506e7": "HTTP-Status-Code",
+	"fcecf9274d10b35e": "Den éischte regulären Ausdrock ass ongülteg!"
 }

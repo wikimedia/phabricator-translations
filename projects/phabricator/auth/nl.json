@@ -662,7 +662,7 @@
 	"b37c5cfc5d44a034": "Erg zwak",
 	"b38b767e1a8df5bf": "Wachten op goedkeuring",
 	"b3e50e23a2b43086": "Als u een nieuw account wilt registreren, gaat u verder met deze registratieworkflow en kiest u een nieuw, uniek e-mailadres voor het nieuwe account.",
-	"b3f6e702f20059fb": "Als u zich nu afmeldt, kunt u later nog steeds toegang tot uw account terugkrijgen door de accountherstelworkflow te gebruiken. Het aanmeldscherm toont u herstelinstructies.",
+	"b3f6e702f20059fb": "Als u zich nu afmeldt, kunt u later nog steeds toegang tot uw account terugkrijgen door de accountherstelworkflow te gebruiken. Op het aanmeldscherm worden de herstelinstructies weergegeven.",
 	"b4077e86801d6479": "Uw Duo-account (\"$1\") heeft geen toestemming om toegang te krijgen tot dit systeem. Neem contact op met uw Duo-beheerder voor hulp. De Duo preauth-API antwoordde met statusbericht (\"$2\"): $3",
 	"b444aff5788b2d45": "Registratiebericht aanpassen",
 	"b478dbc4a6eaf45e": "Kan geen websessie opzetten",

@@ -8,7 +8,6 @@
 		]
 	},
 	"0294e4a93c79fe48": "Proporciona la ruta a una llibreria per exportar traduccions.",
-	"0654a028e5aea48c": "CAP",
 	"17b6d98715597264": "Ignorant la cadena \"$1\"; no present en el fitxer origen de traducció.",
 	"1a0d21145500640f": "Armeni",
 	"1ab65965d820e1b8": "Persa",
@@ -20,7 +19,6 @@
 	"3b87bed5eefca3c1": "Cadenes en brut",
 	"410147829602065c": "Nom del projecte pel qual s'està generant un fitxer de traducció.",
 	"418a2fbab13c3664": "S'estan extraient les cadenes de la biblioteca...",
-	"49427ff57fe09816": "GÈNERE",
 	"5394e163b2751641": "Codi d’internacionalització de la font generada.",
 	"5641f04d9980459c": "Proporciona un nom de classe amb \"--class\".",
 	"70cca40d69431794": "Llegeix $1 cadenes.",
@@ -41,13 +39,11 @@
 	"c9d24cf2f05e3bcb": "Context de les cadenes",
 	"cba591491d5beed4": "Bretó",
 	"ccadbcf74331a452": "Proporciona un nom de projecte amb \"--project\".",
-	"d37b3f801e2ed13d": "Tipus de variables: $1.",
 	"da7f7fad3fb76450": "Provide an output file with \"--out\".",
 	"dc8625c842d8248a": "Base URI per navegar pels fitxers en el projecte que s'està exportant.",
 	"dfae14ab8a277d61": "Passa --clean a l'extractor subjacent per deixar anar la caché abans d'extreure les cadenes i fer una reconstrucció neta completa. A poc a poc!",
 	"e2bcda84facb3954": "Fet.",
 	"e71d224a2fc235cb": "Gal·lès",
 	"eab817b44c709f8e": "Ubicació per escriure el fitxer de traducció generat.",
-	"f3514b3c6942c1c2": "PLURAL",
 	"feaafc60ba98d7e0": "Panjabi"
 }

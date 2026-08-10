@@ -9,7 +9,6 @@
 	},
 	"0294e4a93c79fe48": "Çeviri aktarmak için bir kütüphaneye giden yolu belirtin.",
 	"04a422d38c95415c": "İsveççe",
-	"0654a028e5aea48c": "YOK",
 	"0cd368bf67c2a114": "Slovence",
 	"17b6d98715597264": "\"$1\" dizesini dikkate almamak; çeviri kaynak dosyasında yok.",
 	"2c22da08dc82f0ba": "Çevirileri dışa aktarmak için tam olarak bir kütüphaneye giden yolu belirtin.",
@@ -20,7 +19,6 @@
 	"3f79b52ad6b5d45d": "Sicilyaca",
 	"410147829602065c": "Projenin bir çeviri dosyasının üretildiği adı.",
 	"418a2fbab13c3664": "Kütüphane dizileri çıkartılıyor...",
-	"49427ff57fe09816": "CİNSİYET",
 	"5394e163b2751641": "Oluşturulan kaynak yerel ayar kodu.",
 	"5641f04d9980459c": "\"--class\" ile bir sınıf adı sağlayın.",
 	"57eef27b1643e8b0": "Fince",
@@ -39,11 +37,9 @@
 	"c732898ac3089782": "İngilizce dizeleri",
 	"c9d24cf2f05e3bcb": "Bağlam dizeleri",
 	"ccadbcf74331a452": "\"--project\" ile bir proje adı girin.",
-	"d37b3f801e2ed13d": "Değişken Türleri: $1.",
 	"da7f7fad3fb76450": "\"--out\" ile bir çıktı dosyası sağlayın.",
 	"dc8625c842d8248a": "Dışa aktarılmakta olan projedeki dosyalara göz atmak için temel URI.",
 	"dfae14ab8a277d61": "Geçiş --clean dizeleri çıkarmadan önce önbellekleri bırakmak ve tamamen temiz bir işlem yapmak için alttaki temizleyiciye temizleyin. Yavaş!",
 	"e2bcda84facb3954": "Yapıldı.",
-	"eab817b44c709f8e": "Oluşturulan çeviri dosyasını yazacağınız yer.",
-	"f3514b3c6942c1c2": "ÇOĞUL"
+	"eab817b44c709f8e": "Oluşturulan çeviri dosyasını yazacağınız yer."
 }

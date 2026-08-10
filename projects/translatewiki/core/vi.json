@@ -6,7 +6,6 @@
 	},
 	"0294e4a93c79fe48": "Cung cấp đường dẫn đến thư viện để xuất bản dịch.",
 	"04a422d38c95415c": "Tiếng Thụy Điển",
-	"0654a028e5aea48c": "KHÔNG CÓ",
 	"0cd368bf67c2a114": "Tiếng Slovenia",
 	"17b6d98715597264": "Bỏ qua chuỗi \"$1\"; không có trong tập tin nguồn.",
 	"2c22da08dc82f0ba": "Cung cấp đường dẫn đến thư viện để xuất bản dịch.",
@@ -18,7 +17,6 @@
 	"410147829602065c": "Tên của dự án mà tập tin dịch đang được tạo ra.",
 	"418a2fbab13c3664": "Đang trích xuất chuỗi thư viện...",
 	"485b57adcc80650a": "Tiếng Ý",
-	"49427ff57fe09816": "GIỚI TÍNH",
 	"4c2c45d27a40b299": "Tiếng Esperanto",
 	"515451058797b204": "Tiếng Ukraina",
 	"5394e163b2751641": "Mã ngôn ngữ cho tập tin nguồn được tạo.",
@@ -28,12 +26,10 @@
 	"59d5f5b13f13f6d5": "Tiếng Hy Lạp",
 	"5cd8fb9211d7b0c4": "Tiếng Tarantino",
 	"5fd8185cd3e671dc": "Asturian",
-	"61993b11845d3a84": "Tiếng Belarus (Belarus)",
 	"70cca40d69431794": "Đọc $1 chuỗi.",
 	"714a05aa4c0c09ed": "Tiếng Serbia (chữ Kirin)",
 	"74ad93cbebf587ac": "Tiếng Nga",
 	"7516972ad3f67814": "Tên lớp cần tạo.",
-	"79b723002f87708e": "Tiếng Na Uy",
 	"7c0edb1e7c0dcf2a": "Cung cấp tập tin nguồn JSON với \"--source\".",
 	"80cb96f852d1ce7a": "Tiếng Hungary",
 	"8941bccc95e2dd69": "Tập tin nguồn JSON chứa chuỗi bản dịch.",
@@ -46,6 +42,5 @@
 	"c732898ac3089782": "Chuỗi tiếng Anh",
 	"d011986407b1110e": "Tiếng Ba Lan",
 	"e2bcda84facb3954": "Xong.",
-	"ed91e828dc313a22": "Saraiki (chữ Ả Rập)",
-	"f3514b3c6942c1c2": "SỐ NHIỀU"
+	"ed91e828dc313a22": "Saraiki (chữ Ả Rập)"
 }

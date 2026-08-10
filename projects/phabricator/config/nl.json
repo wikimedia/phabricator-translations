@@ -502,7 +502,7 @@
 	"82c03d17c92e4a54": "$1 {{PLURAL:$1|dag|dagen}}",
 	"82d264b8c33ba1ad": "PHP-versie: $1",
 	"82f7f98b1dbcecaf": "Er zijn geen zoekservers geconfigureerd.",
-	"8304d29ea7b11599": "DarkConsole is een ontwikkelings- en profileringshulpmiddel dat is ingebouwd in de webinterface. U moet het uitgeschakeld laten tenzij u $1 ontwikkelt of debugt.\n\nZodra u DarkConsole activeert voor de installatie, **moet u het inschakelen voor uw account voordat het daadwerkelijk op pagina's verschijnt.** U kunt dit doen in Instellingen > Ontwikkelaarsinstellingen.\n\nDarkConsole toont mogelijk gevoelige gegevens (zoals query's, stacktraces en configuratie), dus u moet het over het algemeen niet inschakelen in productie.",
+	"8304d29ea7b11599": "DarkConsole is een ontwikkelings- en profileringshulpmiddel dat is ingebouwd in de webinterface. U moet het uitgeschakeld laten tenzij u $1 ontwikkelt of debugt.\n\nZodra u DarkConsole activeert voor de installatie, **moet u het inschakelen voor uw account voordat het daadwerkelijk op pagina's verschijnt.** U kunt dit doen in Instellingen > Ontwikkelaarsinstellingen.\n\nDarkConsole laat mogelijk gevoelige gegevens zien (zoals zoekopdachten, stacktraces en configuratie), dus u moet het over het algemeen niet inschakelen in productie.",
 	"830df01a4ffc1aed": "Deze sleutel is te lang voor utf8mb4.",
 	"83235185f54099ff": "Verwachte tekenset",
 	"833b3b877545b9d9": "Repositoryservers",

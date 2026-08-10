@@ -6,11 +6,13 @@
 		]
 	},
 	"0011bad3ecc480f3": "Spären / Verstoppen vu Felder",
+	"0099bc68b3b71172": "De Parameter „$1“ ass keng Lëscht vun Transaktiounen.",
 	"02b254f09eb025ca": "Eidel Bemierkung",
 	"1430f976c5967952": "Warnungen",
 	"1762ad8041f0515b": "Formulaire desaktivéiert",
 	"1fe08986bdecae0f": "🔒 Gespaart",
 	"1fe1c5bcdd6f9ac4": "Neien Objet",
+	"2c7dbd12a8267fe2": "Konfiguratioun änneren",
 	"2feede4e69de43eb": "✘ Verstoppt",
 	"3073e71e79d132f9": "„$1“ muss eng Zeechekette sinn.",
 	"37d1edcc7eff2b62": "Formulaire markéieren",
@@ -29,6 +31,7 @@
 	"c85782c0d762f737": "De Benotzer $1 huet {{PLURAL:$2|e Contributeur|Contributeuren}} derbäigesat: $3.",
 	"d6f2985c9173a3bd": "eng aner Aktioun derbäisetzen",
 	"dc9895beaecf8bab": "Formulaire mussen en Numm hunn.",
+	"e5f928710f23b3f2": "Den Ënnertyp „$1“ ass kee gültegen Ënnertyp.",
 	"f21129e792ad44d6": "D'Bemierkung gouf vum $1 ewechgeholl.",
 	"f73eacd103db93a1": "De Benotzer $1 huet Contributeure geännert, derbäigesat: $3; ewechgeholl: $5.",
 	"fb4bdb955ce7f8cf": "De Benotzer $1 huet {{PLURAL:$2|e Contributeur|Contributeuren}} fir $3 derbäigesat: $4."

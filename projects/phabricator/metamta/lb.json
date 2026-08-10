@@ -6,6 +6,7 @@
 		]
 	},
 	"12242284e25550cf": "ID: $1",
+	"421cfde56e9f0216": "Standardauteur",
 	"473558393914486d": "E-Mailen",
 	"56636d608a8ca1cd": "Objet weisen",
 	"67a6ff10f1b93d11": "Reservéiert",
@@ -14,5 +15,6 @@
 	"875e271607d431fe": "Ugehaangene Fichier",
 	"b0ef5734b78bf764": "Keng Adress",
 	"c870623712e09b6b": "Timberen",
-	"d08f88df745fa795": "#"
+	"d08f88df745fa795": "#",
+	"e7e7ca0aaf293e63": "D'Adress „$1“ ass onbekannt."
 }

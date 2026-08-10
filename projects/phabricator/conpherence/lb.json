@@ -5,6 +5,8 @@
 		]
 	},
 	"1c3b20d39ec83dd2": "Neie Message",
-	"73eb55ec7817d2a3": "Participanten {{PLURAL:$1|($1)}}",
-	"c1e68746a7e963d4": "Keen Toun"
+	"739baaed33e62714": "Onbekannt Aktioun: $1",
+	"73eb55ec7817d2a3": "Participanten ({{PLURAL:$1|$1}})",
+	"c1e68746a7e963d4": "Keen Toun",
+	"e8153b6866c30559": "Fënster verstoppen"
 }
