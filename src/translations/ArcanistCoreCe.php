@@ -60,6 +60,7 @@ final class ArcanistCoreCe
   'Make sure all the symbols used in an %s library are defined and known.  This linter is specific to PHP source in %s libraries.' => '%s библиотекехь лелош йолу йерриге а билгалонаш билгалйаьхна а, йевзаш а хиларх тешна хила. И linter леррина йу PHP хьостан кодана %s библиотекашкахь.',
   'No tasks found.' => 'Ӏалашонаш цакарий.',
   'Type' => 'Тайпа',
+  'Changes:' => 'Хийцамаш',
 );
   }
 

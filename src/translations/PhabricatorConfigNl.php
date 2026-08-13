@@ -992,7 +992,7 @@ DarkConsole exposes potentially sensitive data (like queries, stack traces, and 
 
 Zodra u DarkConsole activeert voor de installatie, **moet u het inschakelen voor uw account voordat het daadwerkelijk op pagina\'s verschijnt.** U kunt dit doen in Instellingen > Ontwikkelaarsinstellingen.
 
-DarkConsole toont mogelijk gevoelige gegevens (zoals query\'s, stacktraces en configuratie), dus u moet het over het algemeen niet inschakelen in productie.',
+DarkConsole laat mogelijk gevoelige gegevens zien (zoals zoekopdachten, stacktraces en configuratie), dus u moet het over het algemeen niet inschakelen in productie.',
   'This key is too long for utf8mb4.' => 'Deze sleutel is te lang voor utf8mb4.',
   'Expected Character Set' => 'Verwachte tekenset',
   'Repository Servers' => 'Repositoryservers',

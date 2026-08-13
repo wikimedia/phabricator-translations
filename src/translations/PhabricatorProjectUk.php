@@ -9,7 +9,13 @@ final class PhabricatorProjectUk
 
   protected function getTranslations() {
     return array(
-  '%s added %s member(s) for %s: %s.' => '%s додав %s користувача(ів) до %s: %s.',
+  '%s added %s member(s) for %s: %s.' => array(
+    
+    array(
+      '%s додав учасника до %3$s: %4$s.',
+      '%s додав учасників до %3$s: %4$s.',
+    ),
+  ),
   'Members: %s' => 'Користувачі: %s',
   'Unwatch Project?' => 'Скасувати перегляд проєкту?',
   'Members' => 'Користувачі',

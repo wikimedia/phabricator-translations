@@ -10,7 +10,6 @@ final class TranslatewikiCoreRki
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'ဘာသာပြန်တိမှ ထုတ်ယူရန် စာကြည့်တိုက်သို့ လမ်းကြောင်းပီးပါ။',
-  'NONE' => 'တစ်ခုလေ့မဟိပါ',
   'Slovenian' => 'ဆလိုဗေးနီးယန်းနိုင်ငံသား',
   'Ignoring string "%s"; not present in translation source file.' => '"%s" စာကြောင်းကို ထားခခြင်း; ဘာသာပြန်အရင်းအမြစ်ဖိုင်မှ မတွိ့ရပါ။',
   'Provide the path to exactly one library to export translations from.' => 'ဘာသာပြန်တိမှ ထုတ်ယူရန် စာကြည့်တိုက်သို့ လမ်းကြောင်းပီးပါ။',
@@ -18,7 +17,6 @@ final class TranslatewikiCoreRki
   'Raw strings' => 'Raw strings',
   'Name of the project that a translation file is being generated for.' => 'ဘာသာပြန်ဖိုင်တစ်ခုအတွက် ထုတ်ပီးနီရေ ပရောဂျက်နာမည်။',
   'Extracting library strings...' => 'စာကြည့်တိုက်လိုင်းတိကို ထုတ်ယူနီရေ...',
-  'GENDER' => 'လိင်အမျိုးစား',
   'Ukrainian' => 'ယူကရိန်းနိုင်ငံသား',
   'Locale code for the generated source.' => 'ထုတ်ပီးရေ အရင်းအမြစ်အတွက် ဒေသကုဒ်။',
   'Provide a classname with "--class".' => '"--class" ဖြင့် အတန်းနာမည် တစ်ခုပီးပါ။',
@@ -38,13 +36,11 @@ final class TranslatewikiCoreRki
   'English strings' => 'အင်္ဂလိပ်စာတန်းတိ',
   'Context strings' => 'ဆက်စပ်စာကြောင်းတိ',
   'Provide a project name with "--project".' => 'ပရောဂျက်နာမည်ကို "--project" လို့ ပီးပါ။',
-  'Variable Types: %s.' => 'ပြောင်းလဲနိုင်ရေအမျိုးအစားတိ- %s။',
   'Provide an output file with "--out".' => '"--out" နန့် အထွက်ဖိုင်ကို ပံ့ပိုးပါ။',
   'Base URI for browsing files in the project being exported.' => 'ထုတ်ယူနီရေ ပရောဂျက်ဟိ ဖိုင်တိကို ရှာဖွီခြင်းအတွက် အခြေခံ URI',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'ကြိုးတိကိုမထုတ်ယူခင် ကက်ရှ်တိကိုချဖို့ အရင်းခံထုတ်ယူရေ ကိရိယာသို့ သန့်ရှင်းရေးပြုလုပ်ပနာ အပြည့်အဝပြန်လည်တီဆောက်ပါ။ အနှေးချေ!',
   'Done.' => 'ပြီးယာ',
   'Location to write the generated translation file.' => 'ထုတ်ပီးထားရေ ဘာသာပြန်ဖိုင်ကို ရွီးသားရန် တည်နီရာ။',
-  'PLURAL' => 'PLURAL',
 );
   }
 

@@ -1,15 +1,15 @@
 <?php
 
-final class TranslatewikiCorePnb
+final class PhabricatorPhpastLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'pnb';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'PLURAL' => 'جمع',
+  'Parse' => 'Parsen',
 );
   }
 

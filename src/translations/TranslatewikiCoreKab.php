@@ -19,7 +19,6 @@ final class TranslatewikiCoreKab
   'Greek' => 'Tagrigit',
   'Asturian' => 'Tasturyant',
   'Russian' => 'Tarusit',
-  'Norwegian' => 'Tanuṛvijit',
   'Japanese' => 'Tajapunit',
   'Turkish' => 'Taṭurkit',
   'Macedonian' => 'Tamasidunit',

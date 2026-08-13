@@ -10,14 +10,12 @@ final class TranslatewikiCoreMk
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Укажете патека кон библиотеката од која ќе се извезат преводи.',
-  'NONE' => 'НЕМА',
   'Ignoring string "%s"; not present in translation source file.' => 'Ја занемарувам низата „%s“; не е присутна во изворната податотека за превод.',
   'Provide the path to exactly one library to export translations from.' => 'Укажете патека кон точно една библиотеката од која ќе се извезат преводи.',
   'Provide a project name to export strings under with "--as".' => 'Укажете под кое име да е извезат низите со „--as“.',
   'Raw strings' => 'Сирови низи',
   'Name of the project that a translation file is being generated for.' => 'Име на проектот за кој се создава преводната податотека.',
   'Extracting library strings...' => 'Ги добивам низите од библиотеката...',
-  'GENDER' => 'ПОЛ',
   'Locale code for the generated source.' => 'Месен код за создадениот извор.',
   'Provide a classname with "--class".' => 'Укажете име на класата со „--class“.',
   'Read %s string(s).' => 'Прочитај %s низи.',
@@ -33,13 +31,11 @@ final class TranslatewikiCoreMk
   'English strings' => 'Низи на англиски',
   'Context strings' => 'Контекстуални низи',
   'Provide a project name with "--project".' => 'Укажете име на проектот со „--project“.',
-  'Variable Types: %s.' => 'Видови променливи: %s.',
   'Provide an output file with "--out".' => 'Дај изводна податотека со „--out“.',
   'Base URI for browsing files in the project being exported.' => 'Основна URI за прелистување на податотеки во проектот што се извезува.',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'Помина --слободно за подложниот добивач да испушти меѓускладови пред да ги извлече низите и да направи целосно чистоа преградба. Бавно!',
   'Done.' => 'Готово.',
   'Location to write the generated translation file.' => 'Во кое место да се запише создадената преводна податотека.',
-  'PLURAL' => 'МНОЖИНА',
 );
   }
 

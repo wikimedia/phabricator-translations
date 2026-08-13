@@ -9,6 +9,7 @@ final class PhabricatorDaemonLb
 
   protected function getTranslations() {
     return array(
+  'Unknown status "%s"!' => 'Onbekannte Status „%s“!',
   'Lock' => 'Spären',
   '%s s' => '%s s',
 );

@@ -18,6 +18,25 @@ final class PhabricatorextCoreNl
   'Customize query in gerrit' => 'Een zoekopdracht in Gerrit aanpassen',
   'Cannot Lock Task' => 'Kan taak niet vergrendelen',
   'Deploy `%s` to %s Wikis.' => '`%s` naar %s Wiki\'s deployen.',
+  'Supported values for `objectType` (some object types might not be supported
+if the corresponding application is not available to the user):
+
+%s
+
+Supported values for `default`: `%s`, `%s`.
+
+Values for `policy` must be arrays which include an `action` (either `%s` or
+`%s`), a `rule` (PolicyRule class), and a `value` array (e.g. PHIDs).
+' => 'Ondersteunde waarden voor `objectType` (sommige objecttypen worden mogelijk niet ondersteund
+als de bijbehorende toepassing niet beschikbaar is voor de gebruiker):
+
+%s
+
+Ondersteunde waarden voor `default`: `%s`, `%s`.
+
+Waarden voor `policy` moeten arrays zijn die een `action` bevatten (ofwel `%s` of
+`%s`), een `rule` (PolicyRule-klasse) en een `value`-array (bijv. PHID\'s).
+\\',
   'Unknown objectType \'%s\'' => 'Onbekend objectType \'%s\'',
   'You do not have permission to escalate tasks as security issues. This action can only be taken by authorized users.' => 'U hebt geen toestemming om taken als beveiligingsproblemen te escaleren. Deze handeling kan alleen worden uitgevoerd door geautoriseerde gebruikers.',
   'Show related patches' => 'Gerelateerde patches weergeven',
@@ -28,8 +47,10 @@ final class PhabricatorextCoreNl
   'Unknown policies: %s' => 'Onbekend beleid: %s',
   'OAuth JWT nonce didn\'t match what we sent.' => 'De OAuth JWT-nonce kwam niet overeen met wat we hadden verzonden.',
   'Protect as security issue' => 'Beschermen als beveiligingsprobleem',
+  'Policy array data must provide values for \'action\', \'rule\', and \'value\'.' => 'Beleidsarray-gegevens moeten waarden opgeven voor \'action\', \'rule\' en \'value\'.',
   'OAuth JWT iss didn\'t match expected server name' => 'De OAuth JWT ISS kwam niet overeen met de verwachte servernaam',
   'Show verbose output.' => 'gedetailleerde uitvoer weergeven.',
+  'Invalid JWT signature from Special:OAuth/identify.' => 'Ongeldige JWT-handtekening van Special:OAuth/identify.',
   'OAuth JWT wasn\'t valid at this time' => 'De OAuth JWT was op dit moment niet geldig.',
   'Any serious bugs affecting `%s` should be added as subtasks beneath this one.' => 'Eventuele ernstige bugs die van invloed zijn op `%s` moeten als subtaken onder deze taak worden toegevoegd.',
   'If something is serious enough to warrant a rollback then you should bring it to the attention of deployers on the [[ https://www.mediawiki.org/wiki/Special:MyLanguage/MediaWiki_on_IRC | #wikimedia-operations IRC channel ]].' => 'Als er iets ernstig genoeg is om terugdraaien te rechtvaardigen, moet u de beheerders hiervan op de hoogte stellen via het [[ https://www.mediawiki.org/wiki/Special:MyLanguage/MediaWiki_on_IRC | #wikimedia-operations IRC-kanaal ]]',
@@ -47,8 +68,11 @@ final class PhabricatorextCoreNl
   'Related Changes in GitLab:' => 'Gerelateerde wijzigingen in GitLab:',
   'Invalid action \'%s\'!' => 'Ongeldige handeling \'%s\'!',
   'Shows the gerrit Change ID for a commit.' => 'Het Gerrit Change ID weergeven voor een commit.',
+  'Policy data must be a non-empty array.' => 'Beleidsgegevens moeten een niet-lege array zijn.',
   'MediaWiki' => 'MediaWiki',
+  'Default action must be \'%s\' or \'%s\'.' => 'De standaardhandeling moet \'%s\' of \'%s\' zijn.',
   'MediaWiki Base URI' => 'MediaWiki-basis-URI',
+  'unknown' => 'onbekend',
   'Execute searches for Policies.' => 'Zoekopdrachten uitvoeren naar beleidsregels.',
   'Find public transactions by a particular user.' => 'Openbare transacties zoeken van een specifieke gebruiker.',
   'Skip OFFSET rows before processing the remaining transactions.' => 'Sla de OFFSET-rijen over voordat de resterende transacties worden verwerkt.',
@@ -85,7 +109,10 @@ OPMERKING: Voordat Phabricator zich kan authenticeren bij uw MediaWiki, moet een
   'View Change in Gerrit' => 'Wijzigingen bekijken in Gerrit',
   'You must disable the user before rolling back their activity' => 'U moet de gebruiker uitschakelen voordat u hun activiteit ongedaan maakt.',
   'Link to Open Tasks' => 'Koppeling naar openstaande taken',
+  'Method Details' => 'Methodedetails',
+  'open' => 'open',
   'MediaWiki Instance Name' => 'MediaWiki-instantienaam',
+  'Must pass valid Policy PHIDs as an array.' => 'Geldige beleids-PHID\'s moeten als array worden doorgegeven.',
   'Secret Token' => 'Geheim token',
   'Secret Token is required' => 'Geheim token is vereist',
   'Limit the number of transaction rows to process. Default: 10000' => 'Beperk het aantal transactierijen dat moet worden verwerkt. Standaard: 10.000',
@@ -95,6 +122,7 @@ OPMERKING: Voordat Phabricator zich kan authenticeren bij uw MediaWiki, moet een
   'Invalid rule class \'%s\'!' => 'Ongeldige regelklasse \'%s\'!',
   'Phabricator transaction rollback tool.' => 'Phabricator-hulppprogramma voor het terugdraaien van transacties.',
   'This task has no related gerrit patches.' => 'Deze taak heeft geen gerelateerde Gerrit-patches.',
+  'Name' => 'Naam',
   'Gerrit Patches' => 'Gerrit-patches',
   'This task has no related GitLab merge requests.' => 'Deze taak heeft geen gerelateerde GitLab-mergeverzoeken.',
   'Customize query in GitLab' => 'Een zoekopdracht in GitLab aanpassen',
@@ -107,6 +135,7 @@ OPMERKING: Voordat Phabricator zich kan authenticeren bij uw MediaWiki, moet een
   'OAuth JWT aud didn\'t match expected consumer key' => 'De OAuth JWT-authenticatie kwam niet overeen met de verwachte consumertensleutel',
   'Related Changes in Gerrit:' => 'Gerelateerde wijzigingen in Gerrit:',
   'Code Review Started' => 'Codereview gestart',
+  'Invalid JWT format from Special:OAuth/identify.' => 'Onjuist JWT-formaat van Special:OAuth/identify.',
   'OAuth error: Login failed because your MediaWiki account "%s" is blocked' => 'OAuth-fout: Aanmelden mislukt omdat uw MediaWiki-account "%s" is geblokkeerd',
   'Enforce Task Security Policy' => 'Taakbeveiligingsbeleid handhaven',
   'Hide Instructions' => 'Instructies verbergen',
@@ -122,12 +151,14 @@ In de volgende stap maakt u een OAuth-consumer aan in MediaWiki die door Phabric
   'Branch `%s` and deploy to %s Wikis.' => 'Branch maken voor `%s` en deployen naar %s wiki\'s.',
   'No project tags "Security" and "Security-Team" exist in this installation. Please file a bug report.' => 'In deze installatie bestaan geen projecttags "Security" en "Security-Team". Meld dit probleem alstublieft.',
   'No project tag "acl*security" exists in this installation. Please file a bug report.' => 'Er bestaat geen projecttag "acl*security" in deze installatie. Meld dit probleem alstublieft.',
+  'locked' => 'vergrendeld',
   'The specified username / userPHID was not found' => 'De opgegeven gebruikersnaam / userPHID is niet gevonden',
   'See https://wikitech.wikimedia.org/wiki/Deployments for full schedule.' => 'Zie https://wikitech.wikimedia.org/wiki/Deployments voor het volledige schema.',
   'You cannot lock this task because it is already protected by a custom security policy.' => 'U kunt deze taak niet vergrendelen omdat deze al beveiligd wordt door een aangepast beveiligingsbeleid.',
   'Wikimedia Customizations' => 'Wikimedia-aanpassingen',
   'Missing or malformed parameter.' => 'Ontbrekende of onjuist opgemaakte parameter.',
   'MediaWiki base URI should include protocol (like "https://").' => 'De basis-URI van MediaWiki moet het protocol bevatten (zoals "https://").',
+  'Create a nameless custom access control policy object. (For custom policies which can be shared between multiple objects and can be selected in dropdowns, create **[[ %s | Named Policies ]]** instead.)' => 'Maak een naamloos aangepast toegangsbeheerbeleidsobject aan. (Voor aangepast beleid dat gedeeld kan worden tussen meerdere objecten en geselecteerd kan worden in vervolgkeuzemenu\'s, maak in plaats daarvan **[[ %s | Benoemd beleid ]]** aan.)',
   'How this works' => 'Hoe dit werkt',
   'Use [[%s|this form]] to create one.' => 'Gebruik [[%s|dit formulier]] om er een te maken.',
   'MediaWiki User' => 'MediaWiki-gebruiker',
@@ -150,6 +181,7 @@ Gebruik kleine letters, cijfers en een punt. Bijvoorbeeld:
   'GitLab Patches' => 'GitLab-patches',
   'Global Accounts' => 'Globale accounts',
   'Milestone Navigation Links' => 'Mijlpaal-navigatiekoppelingen',
+  'Object Type' => 'Objecttype',
   'Previous: %s' => 'Vorige: %s',
   'Query users by MediaWiki username.' => 'Gebruikers zoeken op basis van hun MediaWiki-gebruikersnaam.',
   'Expand Instructions' => 'Instructies uitklappen',
@@ -161,8 +193,11 @@ Gebruik kleine letters, cijfers en een punt. Bijvoorbeeld:
   'Unknown or missing mediawiki names: %s' => 'Onbekende of ontbrekende MediaWiki-namen: %s',
   'After reverting transactions, delete the reverted transaction records.' => 'Nadat transacties zijn teruggedraaid, verwijdert u de records van de teruggedraaide transacties.',
   'No Permission' => 'Geen toestemming',
+  'merged' => 'samengevoegd',
+  'closed' => 'gesloten',
   'Series Navigation' => 'Serienavigatie',
   'Required' => 'Vereist',
+  'Create an unnamed custom access control policy object.' => 'Maak een naamloos aangepast toegangsbeheerbeleidsobject aan.',
   'Abandoned' => 'Verlaten',
   '%s Line(s) added' => '%s regel(s) toegevoegd',
   'If you have a risky change in this week\'s train add a comment to this task using the {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Risky patch template ]]' => 'Als u een risicovolle wijziging in de trein van deze week hebt, voeg dan een opmerking toe aan deze taak met behulp van het {icon train spin}{icon fire color=red} [[ https://wikitech.wikimedia.org/wiki/Deployments/Risky_change_template | Sjabloon voor risicovolle patch ]]',

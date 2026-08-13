@@ -15,7 +15,7 @@ final class PhabricatorHelpKoKR
   'Hiding Content' => '내용 숨기기',
   'Editing Inline Comments' => '인라인 댓글 편집',
   'Global Shortcuts' => '전역 단축키',
-  'Keyboard Shortcuts' => '단축 키',
+  'Keyboard Shortcuts' => '단축키',
   'Diff Navigation' => '차이 둘러보기',
 );
   }

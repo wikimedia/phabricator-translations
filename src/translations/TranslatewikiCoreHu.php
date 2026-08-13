@@ -21,10 +21,8 @@ final class TranslatewikiCoreHu
   'Used in:' => 'Használatban:',
   'English strings' => 'Angol szövegek',
   'Context strings' => 'Tartalom szövegek',
-  'Variable Types: %s.' => 'Változótípusok: %s.',
   'Done.' => 'Kész.',
   'Location to write the generated translation file.' => 'A generált fordítási fájl írási helye.',
-  'PLURAL' => 'TÖBBES SZÁM',
 );
   }
 

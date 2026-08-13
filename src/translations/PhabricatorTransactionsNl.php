@@ -520,6 +520,7 @@ Dit formulier ondersteunt deze velden:',
   '%s created this form.' => '%s heeft dit formulier aangemaakt.',
   'List of PHIDs to set.' => 'Lijst van in te stellen PHID\'s.',
   'This comment was signed with MFA, so you will be required to provide MFA credentials to make changes.' => 'Deze opmerking is ondertekend met MFA, dus u moet MFA-aanmeldgegevens opgeven om wijzigingen aan te brengen.',
+  'The %s policy of this object would no longer allow you to %s the object.' => 'Het %s-beleid voor dit object zou niet langer toestaan dat u het object %s.',
   '%s added %s unsubscriber(s): %s.' => array(
     
     array(
@@ -535,10 +536,12 @@ Dit formulier ondersteunt deze velden:',
   'Show Only Edit Forms' => 'Alleen bewerkformulieren weergeven',
   'This is a standard **ApplicationEditor** method which allows you to create and modify objects by applying transactions. For documentation on these endpoints, see **[[ %s | Conduit API: Using Edit Endpoints ]]**.' => 'Dit is een standaard **ApplicationEditor**-methode waarmee u objecten kunt aanmaken en wijzigen door transacties toe te passen. Zie **[[ %s | Conduit API: Edit-eindpunten gebruiken ]]** voor documentatie over deze eindpunten.',
   'HTTP Parameters: %s' => 'HTTP-parameters: %s',
+  '"%s" must be a non-empty list of author PHIDs.' => '"%s" moet een niet-lege lijst met auteur-PHID\'s zijn.',
   'Edit Form: %s' => 'Bewerkformulier: %s',
   '%s moved this task from %s to %s on the %s board.' => '%s heeft deze taak van %s naar %s verplaatst op het %s-werkblad.',
   'List of PHIDs to remove.' => 'Lijst van te verwijderen PHID\'s.',
   'Create New Form' => 'Nieuw formulier aanmaken',
+  '%s updated the description for %s %s.' => '%s heeft de beschrijving bijgewerkt voor %s %s.',
   'This application is not configured with any forms for creating objects that are visible to you and enabled.' => 'Deze toepassing is niet geconfigureerd met formulieren voor het aanmaken van objecten die voor u zichtbaar en ingeschakeld zijn.',
   'Select Fields
 -------------
@@ -554,11 +557,13 @@ vooraf invullen van deze velden de waarde in de kolom **Waarde** om de juiste
 instelling te selecteren.
 \\',
   'Transaction requires handles and it did not load them.' => 'Transactie vereist handles en heeft ze niet geladen.',
+  '"%s" must be a list of constraints.' => '"%s" moet een lijst met beperkingen zijn.',
   '(Show Details)' => '(Details weergeven)',
   '%s edited this %s.' => '%s heeft deze %s bewerkt.',
   '%s edited a custom field.' => '%s heeft een aangepast veld bewerkt.',
   'Apply remaining actions?' => 'Resterende handelingen toepassen?',
   'Two bulk edit groups have the same key ("%s"). Each bulk edit group must have a unique key.' => 'Twee bulkbewerkingsgroepen hebben dezelfde sleutel ("%s"). Elke bulkbewerkingsgroep moet een unieke sleutel hebben.',
+  'Supported values:' => 'Ondersteunde waarden:',
   'If the output file already exists, overwrite it instead of raising an error.' => 'Als het uitvoerbestand al bestaat, overschrijf het dan in plaats van een fout te geven.',
   'List of PHIDs to add.' => 'Lijst van toe te voegen PHID\'s.',
   'You have not moved this object to any columns it is not already in.' => 'U hebt dit object niet naar kolommen verplaatst waar het nog niet in staat.',
@@ -599,6 +604,7 @@ instelling te selecteren.
   'EditEngine ("%s") returned builtin engine configurations, but one (with key "%s") is missing a builtin key. Provide a builtin key for each configuration (you can omit it from the first configuration in the list to automatically assign the default key).' => 'EditEngine ("%s") heeft ingebouwde engineconfiguraties teruggegeven, maar één (met sleutel "%s") mist een ingebouwde sleutel. Geef een ingebouwde sleutel op voor elke configuratie (u kunt deze weglaten bij de eerste configuratie in de lijst om automatisch de standaardsleutel toe te wijzen).',
   'Monogram "%s" does not identify a valid object.' => 'Monogram "%s" identificeert geen geldig object.',
   'Silent Edit' => 'Stille bewerking',
+  '"%s" must be a string (PHID or object monogram).' => '"%s" moet een tekenreeks zijn (PHID of objectmonogram).',
   'Reorder Fields' => 'Velden herordenen',
   'Task has invalid task data.' => 'Taak heeft onjuiste taakgegevens.',
   'Add Action...' => 'Handeling toevoegen...',
@@ -607,6 +613,7 @@ instelling te selecteren.
   '%s removed this form from the "Create" menu.' => '%s heeft dit formulier uit het "Aanmaken"-menu verwijderd.',
   'Type a form name...' => 'Voer een formuliernaam in...',
   'Custom field transaction \'%s\' does not implement integration for %s.' => 'Aangepaste veldtransactie \'%s\' implementeert geen integratie voor %s.',
+  'Create %s' => '%s aanmaken',
   'Specified queries use different engines: query "%s" uses engine "%s", not "%s". All queries must run on the same engine.' => 'Opgegeven query\'s gebruiken verschillende engines: query "%s" gebruikt engine "%s", niet "%s". Alle query\'s moeten op dezelfde engine draaien.',
   '%s changed the join policy from "%s" to "%s".' => '%s heeft het deelnamebeleid gewijzigd van "%s" naar "%s".',
   '%s updated subscribers...' => '%s heeft abonnees bijgewerkt...',
@@ -661,6 +668,7 @@ instelling te selecteren.
   'Flag "--overwrite" has no effect when outputting to stdout.' => 'Vlag "--overwrite" heeft geen effect bij uitvoer naar stdout.',
   'You do not have permission to create these objects.' => 'U hebt geen toestemming om deze objecten aan te maken.',
   'Export the data selected by one or more queries.' => 'De door een of meer query\'s geselecteerde gegevens exporteren.',
+  'Specified "%s" does not exist. See the endpoint documentation for valid object types.' => 'Het opgegeven "%s" bestaat niet. Raadpleeg de eindpuntdocumentatie voor geldige objecttypen.',
   'Bulk Edit' => 'Bulkbewerking',
   'Write output to a file. If omitted, output will be sent to stdout.' => 'Uitvoer naar een bestand schrijven. Indien weggelaten, wordt de uitvoer naar stdout gestuurd.',
   'You will be required to provide multi-factor credentials to comment or make changes.' => 'U moet multi-factoraanmeldgegevens opgeven om opmerkingen te plaatsen of wijzigingen aan te brengen.',
@@ -709,6 +717,7 @@ U kunt de parameter `template` combineren met HTTP-parameters: het sjabloonobjec
 wordt eerst gekopieerd, daarna worden eventuele HTTP-parameters gelezen.
 
 Bij gebruik van `template` worden deze velden gekopieerd:',
+  'Name is required.' => 'Naam is verplicht.',
   'Hide Create Forms' => 'Aanmaakformulieren verbergen',
   'Configure a bulk job to execute silently.' => 'Een bulktaak configureren om stil uit te voeren.',
   'Custom field transaction has no \'%s\'!' => 'Aangepaste veldtransactie heeft geen \'%s\'!',

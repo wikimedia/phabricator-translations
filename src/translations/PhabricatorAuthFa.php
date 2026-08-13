@@ -28,6 +28,9 @@ final class PhabricatorAuthFa
   'Amazon' => 'آمازون',
   '%s updated the message text.' => '%s متن پیام را روزآمد کرد.',
   'Log Out?' => 'خروج؟',
+  'To access your account, provide your email address. An email with a login link will be sent to you.' => 'برای دسترسی به حساب کاربری خود، نشانی ایمیل خود را وارد کنید. ایمیلی حاوی پیوند ورود برای شما ارسال خواهد شد.',
+  'Create New Account' => 'ایجاد حساب جدید',
+  'To reset your password, provide your email address. An email with a login link will be sent to you.' => 'برای بازنشانی گذرواژه، نشانی ایمیل خود را وارد کنید. ایمیلی حاوی پیوند ورود برای شما ارسال خواهد شد.',
 );
   }
 

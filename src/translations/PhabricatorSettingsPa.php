@@ -12,7 +12,7 @@ final class PhabricatorSettingsPa
   '⚪ Ignore' => '⚪ ਅਣਗੌਲ਼ਿਆ ਕਰੋ',
   'Old Password' => 'ਪੁਰਾਣਾ ਪਾਰਸ਼ਬਦ',
   'Silly Translations' => 'ਹਾਸੋਹੀਣੀ ਤਰਜਮੇ',
-  'Translation' => 'ਤਰਜਮਾ',
+  'Translation' => 'ਉਲਥਾ',
   'Sunday' => 'ਐਤਵਾਰ',
 );
   }

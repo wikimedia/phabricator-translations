@@ -1,16 +1,15 @@
 <?php
 
-final class TranslatewikiCoreTgCyrl
+final class PhabricatorPhidLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'tg_Cyrl';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'GENDER' => 'ҶИНС',
-  'PLURAL' => 'ҶАМЪ',
+  'Unknown Object (%s)' => 'Onbekannten Objet (%s)',
 );
   }
 

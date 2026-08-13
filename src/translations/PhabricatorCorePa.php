@@ -165,7 +165,7 @@ final class PhabricatorCorePa
   'Rule' => 'ਅਸੂਲ',
   'January' => 'ਜਨਵਰੀ',
   'Welcome to %s!' => '%s \'ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ!',
-  'Translations' => 'ਤਰਜਮੇ',
+  'Translations' => 'ਉਲਥਾ',
   'Recent Activity' => 'ਹਾਲੀਆ ਸਰਗਰਮੀ',
   'Password' => 'ਪਾਰਸ਼ਬਦ',
   'Change Status' => 'ਸਥਿਤੀ ਬਦਲੋ',

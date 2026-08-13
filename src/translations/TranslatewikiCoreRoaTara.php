@@ -10,14 +10,12 @@ final class TranslatewikiCoreRoaTara
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Dèje \'u percorse a \'na libbrerie da addò esportà le traduziune.',
-  'NONE' => 'NONE',
   'Ignoring string "%s"; not present in translation source file.' => 'Stoche a cache a stringhe "%s"; non g\'è presente jndr\'à \'u file sorgende d\'a traduzione.',
   'Provide the path to exactly one library to export translations from.' => 'Dèje \'u percorse precisamende a \'na libbrerie da addò esportà le traduziune.',
   'Provide a project name to export strings under with "--as".' => 'Dèje \'nu nome a \'u pruggette pe esportà stringhe sotte cu "--as".',
   'Raw strings' => 'Stringhe grezze',
   'Name of the project that a translation file is being generated for.' => 'Nome d\'u pruggette pu quale avène generate \'nu file de traduzione.',
   'Extracting library strings...' => 'Stoche a pigghie le stringhe d\'a libbrerie...',
-  'GENDER' => 'SESSE',
   'Locale code for the generated source.' => 'Codece locale pa sorgende generate.',
   'Provide a classname with "--class".' => 'Dèje \'nu classname cu "--class".',
   'Read %s string(s).' => 'Lìgge %s stringhe.',
@@ -33,13 +31,11 @@ final class TranslatewikiCoreRoaTara
   'English strings' => 'Stringhe inglese',
   'Context strings' => 'SZtringhe de conteste',
   'Provide a project name with "--project".' => 'Dèje \'nu nome d\'u pruggette cu "--project".',
-  'Variable Types: %s.' => 'Tipe de variabbile: %s.',
   'Provide an output file with "--out".' => 'Dèje \'nu file de resultate cu "--out".',
   'Base URI for browsing files in the project being exported.' => 'URI de base pe sfogghià le file jndr\'à \'u pruggette ca ste avène esportate.',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'Passe --clean a l\'estrattore ca ste sotte pe relascià le cache apprime de estrarre le stringhe e eseguì \'na combilazione combletamende pulite. Lende!',
   'Done.' => 'Fatte.',
   'Location to write the generated translation file.' => 'Poste addò scrivere \'u file de traduzione generate.',
-  'PLURAL' => 'PLURALE',
 );
   }
 

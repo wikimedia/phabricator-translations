@@ -1,16 +1,15 @@
 <?php
 
-final class TranslatewikiCoreEu
+final class PhabricatorHomeFa
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'eu';
+    return 'fa';
   }
 
   protected function getTranslations() {
     return array(
-  'NONE' => 'BAT ERE EZ',
-  'PLURAL' => 'PLURALA',
+  'Command Center' => 'مرکز دستور',
 );
   }
 

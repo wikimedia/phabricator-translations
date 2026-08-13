@@ -157,6 +157,7 @@ Voor installaties zonder wachtwoordauthenticatie ingeschakeld, gebruiken gebruik
   'Revoke credentials without prompting.' => 'Aanmeldgegevens intrekken zonder bevestiging.',
   '%s set the OAuth consumer secret for this provider.' => '%s heeft het OAuth-consumentgeheim voor deze provider ingesteld.',
   'You are logged in as %s, but the email address (%s) you just clicked a link from is already associated with another account (%s). You can log out to switch accounts, or verify the address and attach it to your current account. Attach email address %s to user account %s?' => 'U bent aangemeld als %s, maar het e-mailadres (%s) waarvan u zojuist een koppeling hebt aangeklikt is al gekoppeld aan een ander account (%s). U kunt afmelden om van account te wisselen, of het adres verifiëren en aan uw huidige account koppelen. E-mailadres %s koppelen aan gebruikersaccount %s?',
+  'Analyzing or decrypting SSH keys requires the "ssh-keygen" binary, but it is not available in "$PATH". Make it available to work with SSH private keys.' => 'Voor het analyseren of decoderen van SSH-sleutels is het binaire bestand "ssh-keygen" vereist, maar dit is niet beschikbaar in "$PATH". Zorg ervoor dat het beschikbaar is om met SSH-privésleutels te kunnen werken.',
   'NOTE: Any user who can browse to this install\'s login page will be able to register an account. To restrict who can register an account, configure [[ %s | %s ]].' => 'OPMERKING: Elke gebruiker die naar de aanmeldpagina van deze installatie kan navigeren, kan een account registreren. Om te beperken wie een account kan registreren, configureert u [[ %s | %s ]].',
   'Auth Provider %d' => 'Authenticatieprovider %d',
   'Set Test Message' => 'Testbericht instellen',
@@ -317,6 +318,7 @@ Wachtwoorden worden ingetrokken, niet alleen verwijderd. Gebruikers kunnen de wa
 Het intrekken van wachtwoorden beëindigt geen lopende aanmeldsessies. Gebruik de "sessie"-intrekker in combinatie met deze intrekker om gebruikers te dwingen opnieuw aan te melden.',
   '%s set the OAuth consumer key for this provider to "%s".' => '%s heeft de OAuth-consumentsleutel voor deze provider ingesteld op "%s".',
   'Guidance in the message body when users set a password on an account which did not previously have a password.' => 'Begeleiding in de berichttekst wanneer gebruikers een wachtwoord instellen op een account dat eerder geen wachtwoord had.',
+  'Disable Provider?' => 'Provider uitschakelen?',
   'Connecting to LDAP...' => 'Verbinden met LDAP...',
   'Wait' => 'Wachten',
   'No matching SSH keys.' => 'Geen overeenkomende SSH-sleutels.',
@@ -327,6 +329,7 @@ Het intrekken van wachtwoorden beëindigt geen lopende aanmeldsessies. Gebruik d
   'You may optionally customize the enrollment message users are presented with by providing a replacement message below:' => 'U kunt optioneel het registratiebericht dat aan gebruikers wordt weergegeven aanpassen door hieronder een vervangend bericht op te geven:',
   'Mail Body: Email Login' => 'E-mailtekst: e-mailaanmelding',
   'Send a test message to %s?' => 'Een testbericht naar %s sturen?',
+  'Edit Provider' => 'Provider bewerken',
   'Auth' => 'Authenticatie',
   'Confirm the link with this %s account. This account will be able to log in to your %s account.' => 'Bevestig de koppeling met dit %s-account. Dit account kan aanmelden bij uw %s-account.',
   '**JIRA Instance Name**
@@ -545,6 +548,7 @@ Pas deze configuratie-instellingen aan voor uw project:
 Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientgeheim** van de Google-console naar de bovenstaande velden.',
   'Skipping, provider does not support token refresh.' => 'Overslaan, provider ondersteunt geen tokenvernieuwing.',
   'This factor has been removed from your device, so this server can not send you a challenge. To continue, an administrator must strip this factor from your account.' => 'Deze factor is van uw apparaat verwijderd, dus deze server kan u geen uitdaging sturen. Om door te gaan moet een beheerder deze factor van uw account verwijderen.',
+  'You need to add multi-factor authentication to your Phabricator account as you have permissions to access some non-public content.' => 'U moet meertrapsauthenticatie toevoegen aan uw Phabricator-account, omdat u toegang hebt tot bepaalde niet-openbare inhoud.',
   'Attempting to upgrade password hasher, but the password for the upgrade is not the stored credential!' => 'Poging om de wachtwoordhasher te upgraden, maar het wachtwoord voor de upgrade is niet de opgeslagen aanmeldgegevens!',
   'Your Duo account ("%s") requires enrollment. Contact your Duo administrator for help. Duo status message: %s' => 'Uw Duo-account ("%s") vereist registratie. Neem contact op met uw Duo-beheerder voor hulp. Duo-statusbericht: %s',
   'The OAuth provider failed to retrieve an account ID.' => 'De OAuth-provider kon geen account-ID ophalen.',
@@ -560,6 +564,7 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Too many account recovery email links have been sent to this account in a short period of time.' => 'Er zijn te veel accountherstel-e-mailkoppelingen naar dit account gestuurd in een korte periode.',
   'Account Not Linkable' => 'Account niet koppelbaar',
   'ou=People, dc=example, dc=com' => 'ou=People, dc=example, dc=com',
+  'Enable Provider?' => 'Provider inschakelen?',
   'Strip a specific factor type. Use `bin/auth list-factors` for a list of factor types.' => 'Een specifiek factortype verwijderen. Gebruik `bin/auth list-factors` voor een lijst van factortypen.',
   'Provide Multi-Factor Credentials' => 'Multifactoraanmeldgegevens verstrekken',
   'Edit Contact Numbers' => 'Contactnummers bewerken',
@@ -672,6 +677,7 @@ Kies een permanente naam voor de externe server waarmee u verbinding wilt maken.
   'Create Admin Account' => 'Beheerdersaccount aanmaken',
   'Create MFA Provider' => 'MFA-provider aanmaken',
   'Log Out?' => 'Afmelden?',
+  'Installed' => 'Geïnstalleerd',
   'You have not configured a primary contact number. Configure a contact number before adding SMS as an authentication factor.' => 'U hebt geen primair contactnummer geconfigureerd. Configureer een contactnummer voordat u SMS als authenticatiefactor toevoegt.',
   'Unlink External Account' => 'Extern account ontkoppelen',
   '%s made this the primary contact number.' => '%s heeft dit het primaire contactnummer gemaakt.',
@@ -686,6 +692,7 @@ Kies een permanente naam voor de externe server waarmee u verbinding wilt maken.
   'Locked the authentication provider configuration.' => 'De configuratie van de authenticatieprovider is vergrendeld.',
   'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => 'Geef het doel op waarvan aanmeldgegevens ingetrokken moeten worden met "--from" of geef "--everywhere" op, maar niet beide.',
   'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Uw browser heeft een andere registratiesleutel ingediend dan de sleutel die aan dit account is gekoppeld. Mogelijk moet u uw cookies wissen.',
+  'Enable Provider' => 'Provider inschakelen',
   'Log in to %s' => 'Aanmelden bij %s',
   'The password you entered has been revoked. You can not reuse a password which has been revoked. Choose a new password.' => 'Het wachtwoord dat u hebt ingevoerd is ingetrokken. U kunt een ingetrokken wachtwoord niet hergebruiken. Kies een nieuw wachtwoord.',
   'Make Primary Number' => 'Primair nummer maken',
@@ -996,7 +1003,7 @@ Gebruikers moeten `arc install-certificate` gebruiken om nieuwe API-tokens te in
   'Very Weak' => 'Erg zwak',
   'Wait For Approval' => 'Wachten op goedkeuring',
   'If you want to register a new account, continue with this registration workflow and choose a new, unique email address for the new account.' => 'Als u een nieuw account wilt registreren, gaat u verder met deze registratieworkflow en kiest u een nieuw, uniek e-mailadres voor het nieuwe account.',
-  'If you log out now, you can still regain access to your account later by using the account recovery workflow. The login screen will prompt you with recovery instructions.' => 'Als u zich nu afmeldt, kunt u later nog steeds toegang tot uw account terugkrijgen door de accountherstelworkflow te gebruiken. Het aanmeldscherm toont u herstelinstructies.',
+  'If you log out now, you can still regain access to your account later by using the account recovery workflow. The login screen will prompt you with recovery instructions.' => 'Als u zich nu afmeldt, kunt u later nog steeds toegang tot uw account terugkrijgen door de accountherstelworkflow te gebruiken. Op het aanmeldscherm worden de herstelinstructies weergegeven.',
   'Your Duo account ("%s") is not permitted to access this system. Contact your Duo administrator for help. The Duo preauth API responded with status message ("%s"): %s' => 'Uw Duo-account ("%s") heeft geen toestemming om toegang te krijgen tot dit systeem. Neem contact op met uw Duo-beheerder voor hulp. De Duo preauth-API antwoordde met statusbericht ("%s"): %s',
   'Customize Enroll Message' => 'Registratiebericht aanpassen',
   'Unable to Establish Web Session' => 'Kan geen websessie opzetten',
@@ -1065,6 +1072,77 @@ Kopieer na het voltooien van de configuratie de **Consumentsleutel** en het **Co
   'This private key could not be opened. This might mean that the key requires a passphrase, or might mean that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Deze privésleutel kon niet worden geopend. Dit kan betekenen dat de sleutel een wachtwoordzin vereist, of dat de sleutel niet correct is opgemaakt. Controleer of u de volledige tekst van een geldige privésleutel en de juiste wachtwoordzin hebt opgegeven.',
   'Another verification email was sent to %s.' => 'Er is nog een verificatie-e-mail verstuurd naar %s.',
   'Edit Auth Message' => 'Authenticatiebericht bewerken',
+  'When a user provides their LDAP username and password, this software can either bind to LDAP with those credentials directly (which is simpler, but not as powerful) or bind to LDAP with anonymous credentials, then search for record matching the supplied credentials (which is more complicated, but more powerful).
+
+For many installs, direct binding is sufficient. However, you may want to search first if:
+
+  - You want users to be able to log in with either their username     or their email address.
+  - The login/username is not part of the distinguished name in     your LDAP records.
+  - You want to restrict logins to a subset of users (like only     those in certain departments).
+  - Your LDAP server is configured in some other way that prevents     direct binding from working correctly.
+
+**To bind directly**, enter the LDAP attribute corresponding to the login name into the **Search Attributes** box below. Often, this is something like `sn` or `uid`. This is the simplest configuration, but will only work if the username is part of the distinguished name, and won\'t let you apply complex restrictions to logins.
+
+  lang=text,name=Simple Direct Binding
+  sn
+
+**To search first**, provide an anonymous username and password below (or check the **Always Search** checkbox), then enter one or more search queries into this field, one per line. After binding, these queries will be used to identify the record associated with the login name the user typed.
+
+Searches will be tried in order until a matching record is found. Each query can be a simple attribute name (like `sn` or `mail`), which will search for a matching record, or it can be a complex query that uses the string `${login}` to represent the login name.
+
+A common simple configuration is just an attribute name, like `sn`, which will work the same way direct binding works:
+
+  lang=text,name=Simple Example
+  sn
+
+A slightly more complex configuration might let the user log in with either their login name or email address:
+
+  lang=text,name=Match Several Attributes
+  mail
+  sn
+
+If your LDAP directory is more complex, or you want to perform sophisticated filtering, you can use more complex queries. Depending on your directory structure, this example might allow users to log in with either their email address or username, but only if they\'re in specific departments:
+
+  lang=text,name=Complex Example
+  (&(mail=${login})(|(departmentNumber=1)(departmentNumber=2)))
+  (&(sn=${login})(|(departmentNumber=1)(departmentNumber=2)))
+
+All of the attribute names used here are just examples: your LDAP server may use different attribute names.' => 'Wanneer een gebruiker zijn LDAP-gebruikersnaam en -wachtwoord opgeeft, kan deze software ofwel rechtstreeks verbinding maken met LDAP met die gegevens (wat eenvoudiger is, maar minder krachtig) ofwel verbinding maken met LDAP met anonieme gegevens en vervolgens zoeken naar records die overeenkomen met de opgegeven gegevens (wat complexer is, maar krachtiger).
+
+Voor veel installaties is rechtstreekse verbinding voldoende. U kunt echter eerst willen zoeken als:
+
+  - U wilt dat gebruikers kunnen aanmelden met hun gebruikersnaam of hun e-mailadres.
+  - De gebruikersnaam geen deel uitmaakt van de distinguished name in uw LDAP-records.
+  - U aanmelden wilt beperken tot een subset van gebruikers (bijvoorbeeld alleen die in bepaalde afdelingen).
+  - Uw LDAP-server op een andere manier is geconfigureerd waardoor rechtstreekse verbinding niet correct werkt.
+
+**Om rechtstreeks verbinding te maken**, voert u het LDAP-attribuut dat overeenkomt met de naam in het vak **Zoekattributen** hieronder in. Vaak is dit iets als `sn` of `uid`. Dit is de eenvoudigste configuratie, maar werkt alleen als de gebruikersnaam deel uitmaakt van de distinguished name en staat niet toe dat u complexe beperkingen op aanmeldpogingen toepast.
+
+ lang=text,name=Eenvoudige directe binding
+ sn
+
+**Om eerst te zoeken**, voert u hieronder een anonieme gebruikersnaam en wachtwoord in (of vinkt u het selectievakje **Altijd zoeken** aan) en voert u vervolgens een of meer zoekopdrachten in dit veld in, één per regel. Na het verbinden worden deze zoekopdrachten gebruikt om de record te identificeren die is gekoppeld aan de aanmeldnaam die de gebruiker heeft ingevoerd.
+
+Zoekopdrachten worden in volgorde uitgevoerd totdat een overeenkomende record is gevonden. Elke zoekopdracht kan een eenvoudige attribuutnaam zijn (zoals `sn` of `mail`), waarmee naar een overeenkomende record wordt gezocht, of het kan een complexe zoekopdracht zijn die de tekenreeks `${login}` gebruikt om de aanmeldnaam weer te geven.
+
+Een veelvoorkomende eenvoudige configuratie is alleen een attribuutnaam, zoals `sn`, die op dezelfde manier werkt als directe binding:
+
+ lang=text,name=Eenvoudig voorbeeld
+ sn
+
+Een iets complexere configuratie zou de gebruiker kunnen laten aanmelden met zijn gebruikersnaam of e-mailadres:
+
+ lang=text,name=Meerdere attributen matchen
+ mail
+ sn
+
+Als uw LDAP-directory complexer is, of als u geavanceerde filtering wilt uitvoeren, kunt u complexere query\'s gebruiken. Afhankelijk van uw directorystructuur kan dit voorbeeld gebruikers toestaan aan te melden met hun e-mailadres of gebruikersnaam, maar alleen als ze zich in specifieke afdelingen bevinden:
+
+ lang=text,name=Complex voorbeeld
+ (&(mail=${login})(|(departmentNumber=1)(departmentNumber=2)))
+ (&(sn=${login})(|(departmentNumber=1)(departmentNumber=2)))
+
+Alle hier gebruikte attribuutnamen zijn slechts voorbeelden: uw LDAP-server kan andere attribuutnamen gebruiken.',
   'Mobile App (TOTP)' => 'Mobiele app (TOTP)',
   'Expected valid JSON response from Google account data request.' => 'Geldig JSON-antwoord verwacht van Google-accountgegevensverzoek.',
   'The invite code in the link you clicked has already been accepted.' => 'De uitnodigingscode in de koppeling waarop u hebt geklikt is al geaccepteerd.',
@@ -1141,6 +1219,7 @@ Tijdelijke tokens worden gebruikt in wachtwoordherstel-e-mails, welkomst-e-mails
   'Temporary Token Types' => 'Tijdelijke tokentypen',
   'Guidance shown after a user logs in with an email link and is prompted to link an external account.' => 'Begeleiding die wordt weergegeven nadat een gebruiker aanmeldt met een e-mailkoppeling en wordt gevraagd om een extern account te koppelen.',
   'Register' => 'Registreren',
+  'Provider Type' => 'Providertype',
   'Anonymous Username' => 'Anonieme gebruikersnaam',
   'Allow users to receive a code via SMS.' => 'Gebruikers toestaan om een code via SMS te ontvangen.',
   '%s disabled auto login.' => '%s heeft automatisch aanmelden uitgeschakeld.',
@@ -1211,6 +1290,7 @@ LDAP-fout #%d: %s',
   'No Matching Tokens' => 'Geen overeenkomende tokens',
   'Auth Provider' => 'Authenticatieprovider',
   'Upgrading partial session of user with no session!' => 'Gedeeltelijke sessie bijwerken van gebruiker zonder sessie!',
+  'Add Provider' => 'Provider toevoegen',
   '%s Account' => '%s-account',
   'NOTE: **To complete setup**, copy and paste these keys into JIRA according to the instructions below.' => 'OPMERKING: **Om de installatie te voltooien**, kopieert en plakt u deze sleutels in JIRA volgens de onderstaande instructies.',
   'JIRA Base URI' => 'JIRA-basis-URI',
@@ -1228,6 +1308,7 @@ LDAP-fout #%d: %s',
   '%s changed the status of this provider from %s to %s.' => '%s heeft de status van deze provider gewijzigd van %s naar %s.',
   'Consumer Key' => 'Consumentsleutel',
   'The email address associated with this account ("%s") is already in use by an application and can not be used to register a new account. Choose a different, valid address.' => 'Het e-mailadres dat is gekoppeld aan dit account ("%s") is al in gebruik door een toepassing en kan niet worden gebruikt om een nieuw account te registreren. Kies een ander, geldig adres.',
+  'Disable Provider' => 'Provider uitschakelen',
   'Logging in will verify %s as an email address you own.' => 'Aanmelden verifieert %s als een e-mailadres dat van u is.',
   'Not a Valid Email Address' => 'Geen geldig e-mailadres',
   'SSH Keys' => 'SSH-sleutels',

@@ -29,7 +29,7 @@ final class PhabricatorCalendarUk
   'Create Event' => 'Створити подію',
   'Daily' => 'Щодня',
   'Yearly' => 'Щорічно',
-  '(+%s more...)' => '+ще (%s )',
+  '(+%s more...)' => '(+ще %s)',
   'Next Update' => 'Наступне оновлення',
   '%s created this event.' => '%s створив цю подію.',
   'All Events' => 'Усі події',

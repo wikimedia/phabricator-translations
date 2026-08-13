@@ -10,14 +10,12 @@ final class TranslatewikiCoreSrEC
   protected function getTranslations() {
     return array(
   'Swedish' => 'шведски',
-  'NONE' => 'НИШТА',
   'Slovenian' => 'словеначки',
   'Catalan' => 'каталонски',
   'Dutch' => 'холандски',
   'Raw strings' => 'Обичан текст',
   'Sicilian' => 'сицилијански',
   'Italian' => 'италијански',
-  'GENDER' => 'ПОЛ',
   'Esperanto' => 'есперанто',
   'Ukrainian' => 'украјински',
   'Lithuanian' => 'литвански',
@@ -25,11 +23,9 @@ final class TranslatewikiCoreSrEC
   'Greek' => 'грчки',
   'Tarantino' => 'тарантино',
   'Asturian' => 'астуријски',
-  'Belarusian (Belarus)' => 'белоруски',
   'Serbian (Cyrillic script)' => 'српски (ћирилица)',
   'Original:' => 'Оригинал:',
   'Russian' => 'руски',
-  'Norwegian' => 'норвешки',
   'Hungarian' => 'мађарски',
   'Zazaki' => 'зазаки',
   'Japanese' => 'јапански',
@@ -39,7 +35,6 @@ final class TranslatewikiCoreSrEC
   'Used in:' => 'Користи се у:',
   'Polish' => 'пољски',
   'Done.' => 'Завршено.',
-  'PLURAL' => 'МНОЖИНА',
   'Luxemborgish' => 'луксембуршки',
 );
   }

@@ -9,10 +9,9 @@ final class TranslatewikiCoreDiq
 
   protected function getTranslations() {
     return array(
-  'NONE' => 'ÇINİYO',
-  'GENDER' => 'CINSİYET',
+  'Persian' => 'Farski',
+  'Arabic' => 'Erebki',
   'Done.' => 'Temam.',
-  'PLURAL' => 'Zêdê',
 );
   }
 

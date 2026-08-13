@@ -11,7 +11,6 @@ final class TranslatewikiCoreTr
     return array(
   'Provide the path to a library to export translations from.' => 'Çeviri aktarmak için bir kütüphaneye giden yolu belirtin.',
   'Swedish' => 'İsveççe',
-  'NONE' => 'YOK',
   'Slovenian' => 'Slovence',
   'Ignoring string "%s"; not present in translation source file.' => '"%s" dizesini dikkate almamak; çeviri kaynak dosyasında yok.',
   'Provide the path to exactly one library to export translations from.' => 'Çevirileri dışa aktarmak için tam olarak bir kütüphaneye giden yolu belirtin.',
@@ -22,7 +21,6 @@ final class TranslatewikiCoreTr
   'Sicilian' => 'Sicilyaca',
   'Name of the project that a translation file is being generated for.' => 'Projenin bir çeviri dosyasının üretildiği adı.',
   'Extracting library strings...' => 'Kütüphane dizileri çıkartılıyor...',
-  'GENDER' => 'CİNSİYET',
   'Locale code for the generated source.' => 'Oluşturulan kaynak yerel ayar kodu.',
   'Provide a classname with "--class".' => '"--class" ile bir sınıf adı sağlayın.',
   'Finnish' => 'Fince',
@@ -41,13 +39,11 @@ final class TranslatewikiCoreTr
   'English strings' => 'İngilizce dizeleri',
   'Context strings' => 'Bağlam dizeleri',
   'Provide a project name with "--project".' => '"--project" ile bir proje adı girin.',
-  'Variable Types: %s.' => 'Değişken Türleri: %s.',
   'Provide an output file with "--out".' => '"--out" ile bir çıktı dosyası sağlayın.',
   'Base URI for browsing files in the project being exported.' => 'Dışa aktarılmakta olan projedeki dosyalara göz atmak için temel URI.',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'Geçiş --clean dizeleri çıkarmadan önce önbellekleri bırakmak ve tamamen temiz bir işlem yapmak için alttaki temizleyiciye temizleyin. Yavaş!',
   'Done.' => 'Yapıldı.',
   'Location to write the generated translation file.' => 'Oluşturulan çeviri dosyasını yazacağınız yer.',
-  'PLURAL' => 'ÇOĞUL',
 );
   }
 

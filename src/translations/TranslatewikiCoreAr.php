@@ -11,7 +11,6 @@ final class TranslatewikiCoreAr
     return array(
   'Provide the path to a library to export translations from.' => 'وفر المسار إلى مكتبة لتصدير الترجمات منها.',
   'Swedish' => 'السويدية',
-  'NONE' => 'لا شيء',
   'Slovenian' => 'السلوفينية',
   'Ignoring string "%s"; not present in translation source file.' => 'تجاهل السلسلة " %s " ؛ غير موجود في ملف مصدر الترجمة.',
   'Provide the path to exactly one library to export translations from.' => 'وفر المسار لمكتبة واحدة بالضبط لتصدير الترجمات منها.',
@@ -23,7 +22,6 @@ final class TranslatewikiCoreAr
   'Name of the project that a translation file is being generated for.' => 'اسم المشروع الذي يتم إنشاء ملف الترجمة من أجله.',
   'Extracting library strings...' => 'جاري استخراج سلاسل المكتبة ...',
   'Italian' => 'الإيطالية',
-  'GENDER' => 'جنس',
   'Esperanto' => 'إسبرانتو',
   'Ukrainian' => 'الأوكرانية',
   'Locale code for the generated source.' => 'رمز المنطقة للمصدر الذي تم إنشاؤه.',
@@ -38,7 +36,6 @@ final class TranslatewikiCoreAr
   ),
   'Russian' => 'الروسية',
   'Class name to generate.' => 'اسم الفئة المراد إنشاؤها.',
-  'Norwegian' => 'النرويجية',
   'Provide a JSON source file with "--source".' => 'قم بتوفير ملف مصدر JSON مع "--source".',
   'Hungarian' => ' المجرية',
   'Generate a Phabricator translation classfile.' => 'إنشاء ملف فئة ترجمة فابريكاتور.',

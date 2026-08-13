@@ -10,6 +10,7 @@ final class PhabricatorMetamtaLb
   protected function getTranslations() {
     return array(
   'ID: %d' => 'ID: %d',
+  'Default Author' => 'Standardauteur',
   'Emails' => 'E-Mailen',
   'View Object' => 'Objet weisen',
   'Reserved' => 'Reservéiert',
@@ -19,6 +20,7 @@ final class PhabricatorMetamtaLb
   'No Address' => 'Keng Adress',
   'STAMPS' => 'Timberen',
   '#' => '#',
+  'Address "%s" is unknown.' => 'D\'Adress „%s“ ass onbekannt.',
 );
   }
 

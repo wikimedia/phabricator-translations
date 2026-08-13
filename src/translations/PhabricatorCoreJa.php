@@ -128,6 +128,7 @@ final class PhabricatorCoreJa
   'Users' => '利用者',
   'Git' => 'Git',
   'Encoding' => 'エンコーディング',
+  'S|M|T|W|T|F|S' => '日|月|火|水|木|金|土',
   'Public Key' => '公開鍵',
   'Flags' => 'フラグ',
   'Result' => '結果',

@@ -156,6 +156,7 @@ In the next step, you will create an OAuth consumer in MediaWiki to be used by P
   'Wikimedia Customizations' => '위키미디어 사용자 지정',
   'Missing or malformed parameter.' => '누락되거나 형식이 잘못된 매개변수입니다.',
   'MediaWiki base URI should include protocol (like "https://").' => '미디어위키 베이스 URI는 프로토콜을 포함해야 합니다. (예: "https://")',
+  'Create a nameless custom access control policy object. (For custom policies which can be shared between multiple objects and can be selected in dropdowns, create **[[ %s | Named Policies ]]** instead.)' => '이름이 없는 사용자 지정 접근 제어 정책 개체를 생성합니다. (여러 개체에서 공유하고 드롭다운 메뉴에서 선택할 수 있는 사용자 지정 정책의 경우, **[[ %s | 명명된 정책 ]]**을 대신 생성하세요.)',
   'How this works' => '동작 방식',
   'Use [[%s|this form]] to create one.' => '[[%s|이 양식]]을 사용하여 만드세요.',
   'MediaWiki User' => '미디어위키 사용자',

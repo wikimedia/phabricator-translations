@@ -117,7 +117,7 @@ final class PhabricatorDifferentialKoKR
   'This file was moved from %s.' => '이 파일은 %s에서 이동되었습니다.',
   'This image was deleted.' => '이 이미지는 삭제되었습니다.',
   'Update Existing Revision' => '기존 판 업데이트',
-  'Change Reviewers' => '평론가 변경하기',
+  'Change Reviewers' => '검토자 변경하기',
   'CHANGED PRIOR TO COMMIT' => '커밋 전에 변경됨',
   'Type a revision status name...' => '판 상태 이름을 입력하세요...',
   'Show Path in Repository' => '저장소에서 경로 표시',

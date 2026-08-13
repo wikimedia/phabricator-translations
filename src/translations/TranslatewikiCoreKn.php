@@ -9,9 +9,7 @@ final class TranslatewikiCoreKn
 
   protected function getTranslations() {
     return array(
-  'GENDER' => 'ಲಿಂಗ',
   'Done.' => 'ಮುಗಿಯಿತು.',
-  'PLURAL' => 'ಬಹುವಚನ',
 );
   }
 

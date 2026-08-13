@@ -11,7 +11,6 @@ final class TranslatewikiCoreEl
     return array(
   'Provide the path to a library to export translations from.' => 'Παράσχετε τον δρόμο προς μια βιβλιοθήκη για να εξαγάγετε μεταφράσεις από εκεί.',
   'Chechen' => 'Τσετσενικά',
-  'NONE' => 'Τίποτα',
   'Malay' => 'Μαλαϊκά',
   'Kongo' => 'Κονγκολέζικα',
   'Nepali' => 'Νεπαλικά',
@@ -47,14 +46,12 @@ final class TranslatewikiCoreEl
   'Hindi' => 'Χίντι',
   'Breton' => 'Βρετονικά',
   'Pashto' => 'Παστού',
-  'Variable Types: %s.' => 'Τύποι μεταβλητής: %s.',
   'Ido' => 'Ίντο',
   'Southern Kurdish' => 'Νότια Κουρδικά',
   'Done.' => 'Έγινε.',
   'Welsh' => 'Ουαλικά',
   'Telugu' => 'Τελούγκου',
   'Location to write the generated translation file.' => 'Τοποθεσία για συγγραφή του δημιουργημένου αρχείου μετάφρασης.',
-  'PLURAL' => 'Πληθυντικός',
   'Punjabi' => 'Παντζάμπι',
 );
   }

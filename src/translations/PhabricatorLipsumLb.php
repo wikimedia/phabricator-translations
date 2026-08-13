@@ -1,15 +1,15 @@
 <?php
 
-final class TranslatewikiCoreKsw
+final class PhabricatorLipsumLb
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'ksw';
+    return 'lb';
   }
 
   protected function getTranslations() {
     return array(
-  'NONE' => 'တအိၣ်ဘၣ်',
+  'OOPS' => 'UPS',
 );
   }
 

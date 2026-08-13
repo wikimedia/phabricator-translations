@@ -10,6 +10,11 @@ final class PhabricatorCoreUk
   protected function getTranslations() {
     return array(
   'Question' => 'Запитання',
+  'No databases are configured.' => 'Жодних баз даних не налаштовано.',
+  '**nuance** __command__ [__options__]
+  Manage and debug Nuance.
+' => '**nuance** __command__ [__options__]
+ Керування та налагодження роботи Nuance.',
   'No repository "%s" exists!' => 'Репозиторію "%s" не існує!',
   '%s edited %s.' => '%s відредаговано %s.',
   'Move Document' => 'Перемістити документ',
@@ -19,14 +24,23 @@ final class PhabricatorCoreUk
   'Creators' => 'Творці',
   'Your browser timezone setting differs from the timezone setting in your profile, click to reconcile.' => 'Налаштування часового поясу вашого веб-переглядача відрізняється від налаштування часового поясу у вашому профілі, натисніть, щоб узгодити.',
   'Minus' => 'Мінус',
+  'Show Details' => 'Показати Деталі',
   'OPTIMIZE' => 'ОПТИМІЗУВАТИ',
   'DESTROY' => 'ЗНИЩИТИ',
   'Expected "newExternalCursorStringForResult()"  in class "%s" to return a string, but got "%s".' => 'Очікувалося, що "newExternalCursorStringForResult()" у класі "%s" поверне рядок, але отримано "%s".',
   'Create Document' => 'Створити Документ',
   'Confirm' => 'Підтвердити',
   'Commented On' => 'Прокоментовано Стосовно',
-  '%s added %s task(s): %s.' => '%s додав %s завдання (завдань):%s.',
+  '%s added %s task(s): %s.' => array(
+    
+    array(
+      '%s додав одне завдання: %3$s.',
+      '%s додав %s завдання: %s.',
+      '%s додав %s завдань: %s.',
+    ),
+  ),
   'Reopened' => 'Повторно відкрито',
+  '%s Before' => '%s Раніше',
   'Untitled Document' => 'Ненайменований Документ',
   'Path "%s" contains no libraries.' => 'Шлях "%s" не містить бібліотек.',
   'Executed %s task(s).' => array(
@@ -34,12 +48,18 @@ final class PhabricatorCoreUk
     'Виконано %s завдання.',
     'Виконано %s завдань.',
   ),
+  'Copy text' => 'Копіювати текст',
   'Browse Documents' => 'Переглянути документи',
   'Favorites' => 'Улюблені',
   'italic text' => 'текст курсивом',
   'No Tags' => 'Без тегів',
   '%s (Preview)' => '%s (Попередній перегляд)',
   'Tasks' => 'Завдання',
+  '**import_repository_symbols.php** [__options__] __repository__ < symbols
+
+  Import repository symbols (symbols are read from stdin).' => '**import_repository_symbols.php** [__options__] __repository__ < symbols
+
+ Імпорт символів репозиторію (символи зчитуються зі stdin).',
   'You are trying to save some data to permanent storage, but the request your browser made included an incorrect token. Reload the page and try again. You may need to clear your cookies.' => 'Ви намагаєтеся зберегти деякі дані в постійному сховищі, але запит, зроблений вашим браузером, містив неправильний маркер. Перезавантажте сторінку та повторіть спробу. Можливо, вам знадобиться очистити файли cookie.',
   'Repository URI' => 'URI репозиторію',
   'Too many calls to %s!' => 'Забагато викликів %s!',
@@ -48,6 +68,7 @@ final class PhabricatorCoreUk
   'View Email Body' => 'Переглянути Текст Електронного Листа',
   'Email Addresses' => 'Адреси електронної пошти',
   'Email Address' => 'Адреса електронної пошти',
+  'Images' => 'Зображення',
   'Orange' => 'Помаранчевий',
   'Failed' => 'Провал',
   'Upload Picture' => 'Завантажити зображення',
@@ -63,11 +84,13 @@ final class PhabricatorCoreUk
   'PM' => 'пополудні',
   'Exporting Data...' => 'Експорт даних...',
   'Administrators' => 'Адміністратори',
+  'Can not merge parts of dissimilar types!' => 'Неможливо об\'єднувати частини різнорідних типів!',
   'Publishing Disabled' => 'Публікування вимкнено',
   'Give Token' => 'Дати токен',
   '%s removed %s as %s.' => '%s вилучив %s як %s.',
   'Overview' => 'Огляд',
   'Example' => 'Приклад',
+  '%s added inline comments to %s.' => '%s додано вбудовані коментарі до %s .',
   'Refusing to redirect to local resource "%s". The URI has a domain, but the redirect is not marked external. Mark redirects as external to allow redirection off the local domain.' => 'Відмова від перенаправлення на локальний ресурс "%s". URI має домен, але переспрямування не позначено як зовнішнє. Позначте переспрямування як зовнішнє, щоб дозволити переспрямування з локального домену.',
   '%s confirmed this job.' => '%s підтвердив цю роботу.',
   'Changes discarded.' => 'Зміни відхилено.',
@@ -78,7 +101,13 @@ final class PhabricatorCoreUk
   '(Use Default)' => '(Використовувати За Замовчуванням)',
   'Main Request' => 'Головний запит',
   'Unknown Error' => 'Невідома помилка',
-  '%s added %s task(s) to %s: %s.' => '%s додав %s завдання (завдань) до %s: %s.',
+  '%s added %s task(s) to %s: %s.' => array(
+    
+    array(
+      '%s додано завдання до %3$s : %4$s.',
+      '%s додано завдань до %3$s : %4$s.',
+    ),
+  ),
   'Current Tasks' => 'Поточні завдання',
   'Summary' => 'Підсумок',
   'Duration' => 'Тривалість',
@@ -91,8 +120,10 @@ final class PhabricatorCoreUk
   'This server is configured as "%s", but you are using the domain name "%s" to access a page which is trying to set a cookie. Access this service on the configured primary domain or a configured alternate domain. Cookies will not be set on other domains for security reasons.' => 'Цей сервер налаштовано як "%s", але ви використовуєте доменне ім’я "%s" для доступу до сторінки, яка намагається встановити файл cookie. Отримайте доступ до цієї служби в налаштованому основному домені або налаштованому альтернативному домені. Файли cookie не будуть встановлені на інших доменах з міркувань безпеки.',
   'Comment' => 'Коментар',
   'Create a Task' => 'Створити Завдання',
+  'Access Denied' => 'Доступ Заборонено',
   'Failure' => 'Провал',
   'Malformed header.' => 'Неправильно сформований заголовок.',
+  'Refusing to redirect to external URI "%s". This URI is not a valid remote web resource.' => 'Відмова у перенаправленні на зовнішній URI "%s". Цей URI не є дійсним віддаленим веб-ресурсом.',
   'Shutting down in response to signal %s (%s).' => 'Вимкнення у відповідь на сигнал %s (%s).',
   'Group' => 'Група',
   'Type an object name...' => 'Введіть назву об\'єкта...',
@@ -102,6 +133,7 @@ final class PhabricatorCoreUk
   'This server thinks you are using %s, but your client is convinced that it is using %s. This is a serious misconfiguration with subtle, but significant, consequences.' => 'Цей сервер вважає, що ви використовуєте %s, але ваш клієнт переконаний, що він використовує %s. Це серйозна неправильна конфігурація з непомітними, але значущими наслідками.',
   'Variable' => 'Змінна',
   'Bold' => 'Жирний',
+  'Commit' => 'Фіксація',
   'Analyzing tables...' => 'Аналіз таблиць...',
   'Active Repositories' => 'Активні Сховища',
   'Attempting to access attached data on %s, but the data is not actually attached. Before accessing attachable data on an object, you must load and attach it.
@@ -114,9 +146,11 @@ Data is normally attached by calling the corresponding %s method on the Query cl
   'Grey' => 'Сірий',
   'Color' => 'Колір',
   'Set Field Value' => 'Встановити Значення Поля',
+  'Symbol context' => 'Контекст символу',
   'Transactions' => 'Транзакції',
   'Protocol' => 'Протокол',
   'Administrator' => 'Адміністратор',
+  'Complete' => 'Завершений',
   'Expected T_OPEN_TAG, T_WHITESPACE tokens at head of results for highlighting parse of PHP snippet.' => 'Очікувалися маркери T_OPEN_TAG, T_WHITESPACE на початку результатів для виділення аналізу фрагмента PHP.',
   'Open Status' => 'Статус "Відкритий"',
   'Exception' => 'Виняток',
@@ -179,6 +213,7 @@ If you combine this function with other constraints, results which have no value
   'Plus' => 'Плюс',
   'Version' => 'Версія',
   'Submit' => 'Надіслати',
+  'Metronome frequency must be 1 or more.' => 'Частота метронома має бути 1 або більше.',
   'Continue' => 'Продовжити',
   'Event Type' => 'Тип Події',
   'All Items' => 'Усі елементи',
@@ -371,7 +406,11 @@ Briefly:
   'Specified "--min-failures" must not be larger than specified "--max-failures".' => 'Вказані "--min-failures" не повинні бути більшими за вказані "--max-failures".',
   '%s changed the status of %s from %s to %s.' => '%s змінив статус %s з %s на %s .',
   'name' => 'назва',
-  '%s unresolved issues.' => '%s нерозв\'язаних проблем.',
+  '%s unresolved issues.' => array(
+    '%s невирішена проблема.',
+    '%s невирішені проблеми.',
+    '%s невирішених проблем.',
+  ),
   'Sat' => 'Сб',
   'Notify' => 'Повідомити',
   'Time' => 'Час',
@@ -389,7 +428,10 @@ Briefly:
   'Options "%s", "%s" and "%s" represent mutually exclusive ways to choose a policy. Specify only one.' => 'Опції "%s", "%s" і "%s" представляють взаємовиключні способи вибору політики. Вкажіть лише один спосіб.',
   'Missing Permission' => 'Відсутній Дозвіл',
   'Subscribers' => 'Підписники',
-  'The name can be no longer than %s characters.' => 'Назва не може містити більше %s символів.',
+  'The name can be no longer than %s characters.' => array(
+    'Назва не може бути довша, ніж %s символи.',
+    'Назва не може бути довша, ніж %s символів.',
+  ),
   'Created by %s' => 'Створено %s',
   'Refs' => 'Посилання',
   'Name' => 'Назва',
@@ -420,7 +462,7 @@ Briefly:
   'File PHID.' => 'PHID файлу.',
   'Developer' => 'Розробник',
   'Welcome to %s!' => 'Ласкаво просимо до %s!',
-  'Retrying database connection to "%s" after connection failure (attempt %d; "%s"; error #%d): %s' => 'Повторна спроба з’єднання з базою даних "%s" після помилки з’єднання (спроба %d; "%s"; помилка #%d ): %s',
+  'Retrying database connection to "%s" after connection failure (attempt %d; "%s"; error #%d): %s' => 'Повторна спроба підключення до бази даних "%s" після невдалого підключення (спроба %d; "%s"; помилка № %d): %s',
   'Methods' => 'Методи',
   'Error' => 'Помилка',
   'Aborted workflow.' => 'Перерваний робочий процес.',
@@ -467,6 +509,7 @@ Some UI elements (like %s) also have methods which will allow you to render link
   'Policies' => 'Політики',
   'Value' => 'Значення',
   'ACCESS DENIED' => 'ДОСТУП ВІДМОВЛЕНО',
+  'Attached' => 'Додано',
   'Change Status' => 'Змінити статус',
   'Attempt to connect to %s@%s failed with error #%d: %s.' => 'Спроба підключення до %s@%s не вдалася. Помилка #%d: %s.',
   'History' => 'Історія',
@@ -474,7 +517,10 @@ Some UI elements (like %s) also have methods which will allow you to render link
   'Monday' => 'Понеділок',
   'Types' => 'Типи',
   'Duplicate' => 'Дублікат',
-  'Reprioritized %s task(s).' => 'Змінено пріоритетність %s завдання (-нь).',
+  'Reprioritized %s task(s).' => array(
+    'Змінено пріоритетність одного завдання.',
+    'Змінено пріоритетність %s завдань.',
+  ),
   'Action' => 'Дія',
   'Expand' => 'Розгорнути',
   'project' => 'проєкт',
@@ -523,11 +569,18 @@ installing the extension.' => 'Дані не можна експортувати
 
 You can review adjustments in more detail from the web interface, in Config > Database Status. To better understand the adjustment workflow, see "Managing Storage Adjustments" in the documentation.
 
-MySQL needs to copy table data to make some adjustments, so these migrations may take some time.' => 'Знайдено коригування (%s), яке/які потрібно застосувати, деталі вище.
+MySQL needs to copy table data to make some adjustments, so these migrations may take some time.' => array(
+    'Знайдено %s коригування для застосування, детально описаних вище.
 
- Ви можете переглянути коригування більш детально у веб-інтерфейсі в розділі Конфігурація > Статус Бази Даних. Щоб краще зрозуміти робочий процес коригування, перегляньте розділ "Керування налаштуваннями сховища» в документації".
+Ви можете переглянути коригування більш детально у веб-інтерфейсі в розділі Налаштування > Стан Бази Даних. Щоб краще зрозуміти робочий процес коригування, див. розділ "Керування коригуваннями сховища" в документації.
 
-MySQL потрібно скопіювати дані таблиці, щоб внести деякі коригування, тому ці перенесення можуть зайняти деякий час.',
+MySQL потрібно скопіювати дані таблиці, щоб внести деякі коригування, тому ці міграції можуть зайняти деякий час.',
+    'Знайдено %s коригувань для застосування, детально описаних вище.
+
+Ви можете переглянути коригування більш детально у веб-інтерфейсі в розділі Налаштування > Стан Бази Даних. Щоб краще зрозуміти робочий процес коригування, див. розділ "Керування коригуваннями сховища" в документації.
+
+MySQL потрібно скопіювати дані таблиці, щоб внести деякі коригування, тому ці міграції можуть зайняти деякий час.',
+  ),
   'Loading...' => 'Завантаження…',
   'Maniphest' => 'Маніфест',
   'Total' => 'Всього',

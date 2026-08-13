@@ -10,6 +10,7 @@ final class PhabricatorDashboardLb
   protected function getTranslations() {
     return array(
   'New Portal' => 'Neit Portal',
+  'Unknown Type' => 'Onbekannten Typ',
   'Portal %d' => 'Portal %d',
   'One Column: 100%%' => 'Eng Kolonn: 100%%',
   'Portal' => 'Portal',

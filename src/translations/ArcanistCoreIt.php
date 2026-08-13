@@ -25,8 +25,8 @@ final class ArcanistCoreIt
   '(This message was raised at line %s, but the file only has %s line(s).)' => array(
     
     array(
-      '(Questo messaggio è stato generato alla riga %s, ma il file ha solo %s riga)',
-      '(Questo messaggio è stato generato alla riga %s, ma il file ha solo %s righe)',
+      '(Questo messaggio è stato generato alla riga %s, ma il file ha solo %s riga.)',
+      '(Questo messaggio è stato generato alla riga %s, ma il file ha solo %s righe.)',
     ),
   ),
   'Not parsing!' => 'Non analizzare!',

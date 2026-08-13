@@ -10,8 +10,10 @@ final class PhabricatorConpherenceLb
   protected function getTranslations() {
     return array(
   'New Message' => 'Neie Message',
+  'Unknown action: %s' => 'Onbekannt Aktioun: %s',
   'Participants (%s)' => 'Participanten (%s)',
   'No Sound' => 'Keen Toun',
+  'Hide Window' => 'Fënster verstoppen',
 );
   }
 

@@ -202,7 +202,7 @@ See [[ %s | Projects User Guide ]] in the documentation for details. This proces
   'Trigger Usage' => '트리거 사용 현황',
   'Owner rule value is required. Specify a user to assign tasks to, the token "viewer()" to assign to the user moving tasks, or the token "none()" to unassign tasks.' => '소유자 규칙 값은 필수입니다. 태스크를 할당할 사용자를 지정하거나, 태스크를 이동하는 사용자에게 할당하려면 "viewer()" 토큰을, 할당을 해제하려면 "none()" 토큰을 지정하세요.',
   'Value for index "%s" should be a dictionary.' => '인덱스 "%s"에 대한 값은 딕셔너리여야 합니다.',
-  'Too many tasks (%s).' => '태스크가 너무 많습니다 (%s).',
+  'Too many tasks (%s).' => '태스크가 너무 많습니다. (%s)',
   'This project does not have any watchers.' => '이 프로젝트에는 주시자가 없습니다.',
   'Create a subproject of an existing project.' => '기존 프로젝트의 하위 프로젝트를 만듭니다.',
   'You must select at least one user or project tag to remove.' => '제거할 사용자나 프로젝트 태그를 적어도 하나는 선택해야 합니다.',

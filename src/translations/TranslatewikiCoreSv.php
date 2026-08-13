@@ -10,14 +10,12 @@ final class TranslatewikiCoreSv
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Tillhandahåll sökvägen till ett bibliotek att exportera översättningar från.',
-  'NONE' => 'INGEN',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorerar strängen "%s"; förekommer inte i översättningens källfil.',
   'Provide the path to exactly one library to export translations from.' => 'Tillhandahåll sökvägen till exakt ett bibliotek att exportera översättningar från.',
   'Provide a project name to export strings under with "--as".' => 'Tillhandahåll ett projektnamn för att exportera strängar under med "--as".',
   'Raw strings' => 'Råa strängar',
   'Name of the project that a translation file is being generated for.' => 'Namnet på projektet som en översättningsfil genereras för.',
   'Extracting library strings...' => 'Extraherar bibliotekssträngar...',
-  'GENDER' => 'KÖN',
   'Locale code for the generated source.' => 'Språkkod för den genererade källan.',
   'Provide a classname with "--class".' => 'Tillhandahåll ett klassnamn med "--class".',
   'Read %s string(s).' => 'Läs %s sträng(ar).',
@@ -33,12 +31,10 @@ final class TranslatewikiCoreSv
   'English strings' => 'Engelska strängar',
   'Context strings' => 'Sammanhangssträngar',
   'Provide a project name with "--project".' => 'Tillhandahåll ett projektnamn med "--project".',
-  'Variable Types: %s.' => 'Variabeltyper: %s.',
   'Provide an output file with "--out".' => 'Tillhandahåll en utmatningsfil med "--out".',
   'Base URI for browsing files in the project being exported.' => 'Grund-URI för att bläddra filer i projektet som exporteras.',
   'Done.' => 'Klar.',
   'Location to write the generated translation file.' => 'Plats att skriva den genererade översättningsfilen.',
-  'PLURAL' => 'PLURAL',
 );
   }
 

@@ -10,6 +10,7 @@ final class PhabricatorNuanceLb
   protected function getTranslations() {
     return array(
   'User %s' => 'Benotzer %s',
+  'Unknown Object' => 'Onbekannten Objet',
   'Renamed' => 'Ëmbenannt',
 );
   }

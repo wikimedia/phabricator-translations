@@ -20,7 +20,6 @@ final class TranslatewikiCoreKg
   'Greek' => 'Kigreki',
   'Tarantino' => 'Tarantino',
   'Russian' => 'Ndinga ya Russie',
-  'Norwegian' => 'Ndinga ya Norvège',
   'Hungarian' => 'Ndinga ya Hongrie',
   'Zazaki' => 'Zazaki',
   'Japanese' => 'Ndinga ya Japon',

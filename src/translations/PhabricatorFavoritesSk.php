@@ -1,17 +1,16 @@
 <?php
 
-final class TranslatewikiCoreCy
+final class PhabricatorFavoritesSk
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'cy';
+    return 'sk';
   }
 
   protected function getTranslations() {
     return array(
-  'NONE' => 'NONE',
-  'GENDER' => 'GENDER',
-  'PLURAL' => 'PLURAL',
+  'Edit Favorites' => 'Upraviť obľúbené',
+  'Favorite Items' => 'Obľúbené položky',
 );
   }
 

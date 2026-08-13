@@ -10,13 +10,11 @@ final class TranslatewikiCorePs
   protected function getTranslations() {
     return array(
   'Swedish' => 'سوېډني',
-  'NONE' => 'هېڅ',
   'Slovenian' => 'سلووېنيايي',
   'Catalan' => 'کتالونيايي',
   'Dutch' => 'هالنډي',
   'Sicilian' => 'سيسليايي',
   'Italian' => 'اېټاليايي',
-  'GENDER' => 'جنس',
   'Esperanto' => 'اېسپرانټو',
   'Ukrainian' => 'اوکرايني',
   'Locale code for the generated source.' => 'زېږول‌شوې سرچينې لپاره ځايي کوډ.',
@@ -25,9 +23,7 @@ final class TranslatewikiCorePs
   'Greek' => 'يوناني',
   'Tarantino' => 'تارانتينو',
   'Asturian' => 'استوري',
-  'Belarusian (Belarus)' => 'بېلاروسي (بېلاروس)',
   'Russian' => 'روسي',
-  'Norwegian' => 'ناروېژي',
   'Hungarian' => 'هنگري',
   'Zazaki' => 'زازاکي',
   'Japanese' => 'جاپاني',
@@ -36,11 +32,9 @@ final class TranslatewikiCorePs
   'Macedonian' => 'مکدونيايي',
   'Used in:' => 'کارېدلی په:',
   'Polish' => 'پولنډي',
-  'Variable Types: %s.' => 'اوښتون ډولونه: %s',
   'Done.' => 'وشو.',
   'Location to write the generated translation file.' => 'د زېږول‌شوې ژباړې دوتنې د ليکلو ځای.',
   'Saraiki (Arabic Script)' => 'سرايکي (عربي ليکدود)',
-  'PLURAL' => 'گڼ‌شمېر',
   'Luxemborgish' => 'لوگزامبورگي',
 );
   }

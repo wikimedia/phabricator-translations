@@ -886,6 +886,7 @@ Als u **Wachten op bericht** selecteert, pauzeert het buildplan voor onbepaalde 
   'Delete Step' => 'Stap verwijderen',
   'No builds found.' => 'Geen builds gevonden.',
   'OK: Processed event.' => 'OK: gebeurtenis verwerkt.',
+  'Building' => 'Bouwen',
   'Status for the build target.' => 'Status voor het builddoel.',
   'CircleCI did not return a "%s"!' => 'CircleCI heeft geen "%s" geretourneerd!',
   'Message Type' => 'Berichttype',
@@ -1184,6 +1185,15 @@ de belasting van de buildwachtrij verminderen zonder noemenswaardige kosten.',
   '%s paused this buildable.' => '%s heeft deze buildable gepauzeerd.',
   'Create an artifact of this type by passing `%s` as the `artifactType`. When creating an artifact of this type, provide these parameters as a dictionary to `artifactData`:' => 'Maak een artefact van dit type aan door `%s` als `artifactType` door te geven. Geef bij het aanmaken van een artefact van dit type deze parameters als dictionary door aan `artifactData`:',
   'Choose an archival mode with --mode.' => 'Kies een archiveringsmodus met --mode.',
+  'Enter the name of a commit or revision to run this plan on (for example, `rX123456` or `D123`).
+
+For more detailed output, you can also run manual builds from the command line:
+
+  $ ./bin/harbormaster build <object> --plan %s' => 'Voer de naam van een commit of versie in waarop dit plan moet worden uitgevoerd (bijvoorbeeld `rX123456` of `D123`).
+
+Voor een gedetailleerdere uitvoer kunt u ook handmatige builds uitvoeren vanaf de commandoregel:
+
+ $ ./bin/harbormaster build <object> --plan %s',
   'Build with CircleCI' => 'Bouwen met CircleCI',
   'You can only pause some builds. Once the current steps complete, work will halt on builds you can pause. You can resume the builds later.' => 'U kunt alleen bepaalde builds pauzeren. Zodra de huidige stappen zijn voltooid, stopt het werk bij builds die u kunt pauzeren. U kunt de builds later hervatten.',
   'Can Not Run Plan' => 'Kan plan niet uitvoeren',

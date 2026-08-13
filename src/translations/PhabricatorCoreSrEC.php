@@ -300,7 +300,7 @@ final class PhabricatorCoreSrEC
   'Tokens' => 'Токени',
   'May' => 'мај',
   'Assigned To' => 'Додељено',
-  'Authored By' => 'Аутор(к)',
+  'Authored By' => 'Аутор/ка',
   'Authors' => 'Аутори',
   'Resolved' => 'Решено',
   'Yesterday' => 'јуче',

@@ -60,6 +60,7 @@ final class PhabricatorCoreZhHant
   'Fullscreen Mode' => '全螢幕模式',
   'Updated %s' => '已更新%s',
   'Users' => '使用者',
+  'S|M|T|W|T|F|S' => '日|一|二|三|四|五|六',
   'Edit Picture' => '編輯圖片',
   'Design' => '設計',
   '?' => '？',

@@ -36,7 +36,7 @@ final class PhabricatorPhrequentNl
   'by furthest start date' => 'op basis van de verste startdatum',
   'Stop' => 'Stoppen',
   'Not Working Now' => 'Niet aan het werk',
-  'Started At' => 'Begonnen om',
+  'Started At' => 'Gestart om',
   'Start Tracking' => 'Beginnen met volgen',
   '%s (%s ago)' => '%s (%s geleden)',
   'Start Timer' => 'Timer starten',

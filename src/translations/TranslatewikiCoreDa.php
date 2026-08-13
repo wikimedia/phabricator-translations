@@ -10,11 +10,9 @@ final class TranslatewikiCoreDa
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Angiv en sti til et bibliotek som oversættelser skal eksporteres fra.',
-  'NONE' => 'INGEN',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorerer strengen "%s"; ikke til stede i oversættelse kildefilen.',
   'Provide a project name to export strings under with "--as".' => 'Angiv et projektnavn at eksportere strenge under med "--as".',
   'Raw strings' => 'Rå strenge',
-  'GENDER' => 'KØN',
   'Locale code for the generated source.' => 'Sprogkode for den genererede kilde.',
   'Provide a classname with "--class".' => 'Angiv et klassenavn med "--class".',
   'Read %s string(s).' => 'Læs %s streng(e).',
@@ -27,11 +25,9 @@ final class TranslatewikiCoreDa
   'English strings' => 'Engelske strenge',
   'Context strings' => 'Kontekst strenge',
   'Provide a project name with "--project".' => 'Angiv et projektnavn med "--project".',
-  'Variable Types: %s.' => 'Variabeltyper: %s.',
   'Provide an output file with "--out".' => 'Angiv en udgangsfil med "--out".',
   'Done.' => 'Fuldført.',
   'Location to write the generated translation file.' => 'Placering som den genererede oversættelsesfil skal skrives til.',
-  'PLURAL' => 'FLERTAL',
 );
   }
 

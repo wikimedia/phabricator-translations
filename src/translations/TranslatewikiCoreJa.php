@@ -11,7 +11,6 @@ final class TranslatewikiCoreJa
     return array(
   'Provide the path to a library to export translations from.' => '翻訳をエクスポートするライブラリへのパスを提供します。',
   'Swedish' => 'スウェーデン語',
-  'NONE' => 'なし',
   'Slovenian' => 'スロベニア語',
   'Ignoring string "%s"; not present in translation source file.' => '文字列「%s」を無視します。翻訳ソースファイルには存在しません。',
   'Provide the path to exactly one library to export translations from.' => '翻訳をエクスポートするための1つのライブラリへのパスを提供します。',
@@ -23,7 +22,6 @@ final class TranslatewikiCoreJa
   'Name of the project that a translation file is being generated for.' => '翻訳ファイルが生成されているプロジェクトの名前。',
   'Extracting library strings...' => 'ライブラリの文字列を抽出する…',
   'Italian' => 'イタリア語',
-  'GENDER' => '性别',
   'Esperanto' => 'エスペラント',
   'Ukrainian' => 'ウクライナ語',
   'Locale code for the generated source.' => '生成されたソースのロケールコード。',
@@ -35,7 +33,6 @@ final class TranslatewikiCoreJa
   'Serbian (Cyrillic script)' => 'セルビア語（キリル文字）',
   'Russian' => 'ロシア語',
   'Class name to generate.' => '生成するクラス名。',
-  'Norwegian' => 'ノルウェー語',
   'Provide a JSON source file with "--source".' => 'JSONソースファイルに"--source"を指定します。',
   'Hungarian' => 'ハンガリー語',
   'Generate a Phabricator translation classfile.' => 'Phabricatorの翻訳Classファイルを生成します。',
@@ -53,13 +50,11 @@ final class TranslatewikiCoreJa
   'Context strings' => 'コンテキスト文字列',
   'Provide a project name with "--project".' => '"--project"でプロジェクト名を指定します。',
   'Polish' => 'ポーランド語',
-  'Variable Types: %s.' => '変数の型: %s。',
   'Provide an output file with "--out".' => '"--out"で出力ファイルを指定します。',
   'Base URI for browsing files in the project being exported.' => 'エクスポートされるプロジェクト内のファイルを参照するためのベースURI。',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => '文字列を抽出する前にキャッシュを削除し、完全に再構築を行うために、基礎となる抽出器に --clean を渡します。遅い!',
   'Done.' => '完了。',
   'Location to write the generated translation file.' => '生成された翻訳ファイルを書き込む場所です。',
-  'PLURAL' => '複数',
 );
   }
 

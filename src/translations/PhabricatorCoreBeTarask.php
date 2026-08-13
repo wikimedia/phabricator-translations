@@ -30,6 +30,7 @@ final class PhabricatorCoreBeTarask
   'Tag' => 'Тэґ',
   'data' => 'зьвесткі',
   'Download' => 'Сьцягнуць',
+  'Query' => 'Запыт',
   'Reviewer' => 'Рэцэнзэнт',
   'Loading...' => 'Ладаваньне…',
   'Application' => 'Аплікацыя',

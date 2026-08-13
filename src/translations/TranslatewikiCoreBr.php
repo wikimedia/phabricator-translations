@@ -11,13 +11,11 @@ final class TranslatewikiCoreBr
     return array(
   'Provide the path to a library to export translations from.' => 'Pourchas a ra an hent a gas d\'ul levraoueg a vo ezporzhiet troidigezhioù diwarni.',
   'Swedish' => 'Svedeg',
-  'NONE' => 'Mann',
   'Slovenian' => 'Sloveneg',
   'Catalan' => 'Katalaneg',
   'Dutch' => 'Nederlandeg',
   'Sicilian' => 'Sikilianeg',
   'Italian' => 'Italianeg',
-  'GENDER' => 'REIZH',
   'Esperanto' => 'Esperanteg',
   'Ukrainian' => 'Ukraineg',
   'Lithuanian' => 'Lituaneg',
@@ -25,10 +23,8 @@ final class TranslatewikiCoreBr
   'Greek' => 'Gresianeg',
   'Tarantino' => 'Tarantineg',
   'Asturian' => 'Asturianeg',
-  'Belarusian (Belarus)' => 'Belaruseg (Belarus)',
   'Serbian (Cyrillic script)' => 'Serbeg (skritur kirillek)',
   'Russian' => 'Ruseg',
-  'Norwegian' => 'Norvegeg',
   'Hungarian' => 'Hungareg',
   'Zazaki' => 'Zazaki',
   'Japanese' => 'Japaneg',
@@ -40,7 +36,6 @@ final class TranslatewikiCoreBr
   'Polish' => 'Poloneg',
   'Done.' => 'Graet.',
   'Saraiki (Arabic Script)' => 'Saraiki (skritur arabek)',
-  'PLURAL' => 'LIESTER',
 );
   }
 

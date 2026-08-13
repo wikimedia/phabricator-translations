@@ -12,6 +12,8 @@ final class PhabricatorPhrictionLb
   'Last Edited' => 'Lescht Ännerung',
   'Publish Draft' => 'Brouillon publizéieren',
   'Version %d of %d: ' => 'Versioun %d vu(n) %d:',
+  'Overwrite Changes' => 'Ännerungen iwwerschreiwen',
+  'Revert' => 'Zerécksetzen',
   'Save and Publish' => 'späicheren a publizéieren',
   'Version %d' => 'Versioun %d',
   'Publish Draft?' => 'Brouillon publizéieren?',

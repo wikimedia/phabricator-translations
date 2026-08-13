@@ -10,14 +10,12 @@ final class TranslatewikiCorePtBR
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'Forneça o caminho para uma biblioteca para exportar traduções de.',
-  'NONE' => 'NENHUM',
   'Ignoring string "%s"; not present in translation source file.' => 'Ignorando a string "%s"; não está presente no arquivo de origem da tradução.',
   'Provide the path to exactly one library to export translations from.' => 'Forneça o caminho para exatamente uma biblioteca para exportar as traduções.',
   'Provide a project name to export strings under with "--as".' => 'Forneça um nome de projeto para exportar sequências de caracteres com "--as".',
   'Raw strings' => 'Cordas cruas',
   'Name of the project that a translation file is being generated for.' => 'Nome do projeto para o qual um arquivo de tradução está sendo gerado.',
   'Extracting library strings...' => 'Extraindo cadeias de bibliotecas...',
-  'GENDER' => 'GÊNERO',
   'Locale code for the generated source.' => 'Código de local para a origem gerada.',
   'Provide a classname with "--class".' => 'Forneça um nome de classe com "--class".',
   'Read %s string(s).' => 'Lê %s texto(s).',
@@ -33,13 +31,11 @@ final class TranslatewikiCorePtBR
   'English strings' => 'Textos inglês',
   'Context strings' => 'Sequências de contexto',
   'Provide a project name with "--project".' => 'Forneça um nome de projeto com "--project".',
-  'Variable Types: %s.' => 'Tipos de variáveis: %s.',
   'Provide an output file with "--out".' => 'Fornecer um arquivo de saída com "--out".',
   'Base URI for browsing files in the project being exported.' => 'URI base para pesquisar arquivos no projeto que está sendo exportado.',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'Passe --clean para o extrator subjacente para descartar caches antes de extrair strings e fazer uma reconstrução limpa completa. Lento!',
   'Done.' => 'Feito.',
   'Location to write the generated translation file.' => 'Local para gravar o arquivo de tradução gerado.',
-  'PLURAL' => 'PLURAL',
 );
   }
 

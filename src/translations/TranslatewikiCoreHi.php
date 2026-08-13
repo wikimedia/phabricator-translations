@@ -10,14 +10,12 @@ final class TranslatewikiCoreHi
   protected function getTranslations() {
     return array(
   'Provide the path to a library to export translations from.' => 'एक लाइब्रेरी का पथ प्रदान करें जहाँ से अनुवाद को निर्यात किया जाएगा।',
-  'NONE' => 'कोई नहीं',
   'Ignoring string "%s"; not present in translation source file.' => 'स्ट्रिंग "%s" को अनदेखा किया; अनुवाद स्रोत फ़ाइल में मौजूद नहीं है।',
   'Provide the path to exactly one library to export translations from.' => 'सिर्फ एक ही लाइब्रेरी का पथ प्रदान करें जहाँ से अनुवाद को निर्यात किया जाएगा।',
   'Provide a project name to export strings under with "--as".' => '"--as" से एक परियोजना का नाम प्रदान करें जिसके अंतर्गत स्ट्रिंग्स को निर्यात किया जाएगा।',
   'Raw strings' => 'रॉ स्ट्रिंग्स',
   'Name of the project that a translation file is being generated for.' => 'परियोजना का नाम जिसके लिए अनुवाद फ़ाइल बनाया जा रहा है।',
   'Extracting library strings...' => 'लाइब्रेरी से स्ट्रिंग्स एक्सट्रैक्ट हो रहे हैं...',
-  'GENDER' => 'लिंग',
   'Locale code for the generated source.' => 'बनाए गए स्रोत के लिए स्थानीयकरण कोड।',
   'Provide a classname with "--class".' => '"--class" से एक classname प्रदान करें।',
   'Read %s string(s).' => '%s स्ट्रिंग्स/स्ट्रिंग्स पढ़ें।',
@@ -33,13 +31,11 @@ final class TranslatewikiCoreHi
   'English strings' => 'अंग्रेज़ी स्ट्रिंग्स',
   'Context strings' => 'प्रसंग के स्ट्रिंग्स',
   'Provide a project name with "--project".' => '"--project" से परियोजना का एक नाम प्रदान करें।',
-  'Variable Types: %s.' => 'वेरिएबल के प्रकार: %s।',
   'Provide an output file with "--out".' => '"--out" से एक आउटपुट फ़ाइल प्रदान करें।',
   'Base URI for browsing files in the project being exported.' => 'निर्यात किए जा रहे परियोजना में फ़ाइलें खोजने के लिए जड़ URI।',
   'Pass --clean to the underlying extractor to drop caches before extracting strings and do a full clean rebuild. Slow!' => 'स्ट्रिंग्स एक्सट्रैक्ट करने से पहले पूरी संरचना फिर से बिल्ड करने के लिए एक्सट्रैक्टर पर --clean पास करें। काफ़ी धीमा है!',
   'Done.' => 'पूर्ण हुआ।',
   'Location to write the generated translation file.' => 'बनाया गया अनुवाद फ़ाइल लिखने का स्थान।',
-  'PLURAL' => 'बहुवचन',
 );
   }
 

@@ -10,6 +10,7 @@ final class PhabricatorOwnersLb
   protected function getTranslations() {
     return array(
   'Validating...' => 'Validéieren...',
+  'Own Source Code' => 'Eegene Quellcode',
   'Authority' => 'Autoritéit',
   '[Package]' => '[Pak]',
 );

@@ -9,10 +9,15 @@ final class PhabricatorDifferentialLb
 
   protected function getTranslations() {
     return array(
+  'Invalid revision ID "%s".' => 'Ongülteg Versiouns-ID „%s“.',
   'Copied Here' => 'Heihinner kopéiert',
   'Accept Revision' => 'Versioun akzeptéieren',
   '%s] [%s' => '%s] [%s',
+  'Load Changes' => 'Ännerunge lueden',
+  '%s ERROR(S)' => '%s FEELER',
   '%s Lines' => '%s Linnen',
+  'Error parsing field "%s": %s' => 'Feller beim Parse vum Feld „%s“: %s',
+  'New Changes Shown' => 'Nei Ännerunge gewisen',
   'Read information about changesets.' => 'Informatiounen iwwer Ännerungssätz liesen.',
   'No Actions' => 'Keng Aktiounen',
   'Left' => 'Lénks',

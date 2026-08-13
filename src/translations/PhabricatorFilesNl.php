@@ -297,7 +297,7 @@ De sleutels in deze toewijzing zijn weergeerbare MIME-types; de waarden zijn de 
   'Copy file data instead of moving it: after migrating, do not remove the old data even if it is no longer referenced.' => 'Bestandsgegevens kopiëren in plaats van verplaatsen: na migratie de oude gegevens niet verwijderen, zelfs als er niet meer naar wordt verwezen.',
   'Operate on files stored in a specified engine.' => 'Werken met bestanden die in een opgegeven engine zijn opgeslagen.',
   'Unable to write file: temporary directory does not exist.' => 'Kan bestand niet schrijven: tijdelijke map bestaat niet.',
-  'View as PDF' => 'Als PDF weergeven',
+  'View as PDF' => 'Als pdf weergeven',
   '(IMPORTANT) If you attach this file to this object, any user who has permission to view the object will be able to view and download the file!' => '(BELANGRIJK) Als u dit bestand aan dit object koppelt, kan elke gebruiker met toestemming om het object te bekijken het bestand bekijken en downloaden!',
   '%s: Would update Mime type: \'%s\' -> \'%s\'.' => '%s: zou MIME-type bijwerken: \'%s\' -> \'%s\'.',
   'Fallback compose color ("%s") does not exist!' => 'Terugvalkleur voor compositie ("%s") bestaat niet!',
