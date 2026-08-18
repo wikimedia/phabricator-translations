@@ -1,5 +1,6 @@
 {
 	"00a64a49b8cbf97e": "%s renamed this provider from %s to %s.",
+	"00c7c87560c3225c": "NOTE: If this account will be used for automated activity, then you must follow [[ %s | the Bot Account creation process ]] instead.",
 	"012f3cfd29d66d76": "%s enabled login.",
 	"014c82cd910f7392": "Disable Contact Number",
 	"01624f96a6a6bfa4": "This key has been revoked. Choose or generate a new, unique key.",
