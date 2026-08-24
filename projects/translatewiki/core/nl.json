@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -43,6 +44,7 @@
 	"40604522f2257ffe": "Afrikaans",
 	"410147829602065c": "Naam van het project waarvoor een vertaalbestand wordt gegenereerd.",
 	"412e31909b8ad141": "Urdu",
+	"41746759b4b51c8b": "Cornisch",
 	"418a2fbab13c3664": "Bibliotheekstrings extraheren...",
 	"44bd7b08ac7a6b65": "Geen roundtrip-fouten gevonden!",
 	"460ce8e9a0830063": "Birmaans",
@@ -128,6 +130,7 @@
 	"cebed7688a5babc3": "Bulgaars",
 	"cf7740fb44752987": "Standaard Marokkaans Tamazight",
 	"cf8c3dc3166e252b": "Kirmanjki",
+	"cfd5233f6c25112a": "Roemeens",
 	"d011986407b1110e": "Pools",
 	"d67a39a9d54b774a": "Oezbeeks",
 	"d6a8b06eb4898f96": "Slowaaks",

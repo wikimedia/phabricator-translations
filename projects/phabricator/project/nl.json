@@ -4,7 +4,8 @@
 			"Elroy",
 			"McDutchie",
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"00bacf55615d1518": "Projecten zonder tags bekijken",
@@ -37,7 +38,6 @@
 	"0ad6e4483007a85d": "Intensiteit",
 	"0b82d442673ce11c": "De waarde van de statusregel moet een tekenreeks zijn, maar dat is niet het geval (de waarde is \"$1\").",
 	"0c0ea6bda23de888": "De naam van het project.",
-	"0c86b8ff9cd9d455": "$1 maand(en)",
 	"0d320041ae35857e": "Sorteren op aanmaakdatum",
 	"0d3830748786cef6": "Kwartaal",
 	"0d4df359112eba94": "Voer een projectnaam of functie in...",
@@ -525,7 +525,7 @@
 	"c4f76f360d78e41d": "Het project waar de kolom toe behoort.",
 	"c58fa6c91fc7f58c": "Triggerregels",
 	"c5c49ab5df52d5fe": "De eigenaarsregelwaarde mag slechts één element bevatten (de waarde is \"$1\").",
-	"c63130100c2e1af1": "Lijkt op",
+	"c63130100c2e1af1": "Ziet eruit als",
 	"c7170cc4443799fc": "Projectpictogrammen moeten één pictogram bevatten dat is gemarkeerd met het speciale attribuut \"$1\", maar een dergelijk pictogram bestaat niet.",
 	"c717c87b8cbe6069": "$1 heeft {{PLURAL:$2|een hashtag|hashtags}} van het type $3 toegevoegd: $4.",
 	"c7b3b62ec71556e8": "Projectpictogrammen aanpassen.",
@@ -577,7 +577,6 @@
 	"d87991541dac8f0c": "Taken in bulk bewerken...",
 	"d96761bd586423ae": "Deze trigger heeft geen regels.",
 	"d989403a0c4344b4": "$1 heeft de trigger voor deze kolom verwijderd (was $2).",
-	"da27616d1c5fc62a": "$1 dag(en)",
 	"da74f65072c3f9c8": "Bladkolommen uit een ander project importeren.",
 	"da904cd0922e0b4b": "Projectleden selecteren.",
 	"dace46d8b68796e5": "$1 als volger van $2 verwijderen?",
