@@ -110,7 +110,7 @@
 	"8edae248f822a140": "Opdrachtregel-API-token",
 	"904ee8cfd4ba83cf": "Tokens beëindigen",
 	"90b6de79d3a7e473": "Instabiele methode",
-	"91a9d1d01d8a5c30": "Aanmelding vereist: deze methode vereist authenticatie. U moet inloggen voordat u aanroepen kunt doen.",
+	"91a9d1d01d8a5c30": "Aanmelden vereist: deze methode vereist authenticatie. U moet aanmelden voordat u aanroepen kunt doen.",
 	"91d1d7775a03e4ba": "Voer parameters in met **JSON**. Om bijvoorbeeld een lijst in te voeren, typt u: `$1`",
 	"91e95b380bb6e68f": "Een tekenreeks.",
 	"924f7cbe6055282b": "Enkele kolom-PHID.",
