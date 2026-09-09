@@ -427,7 +427,7 @@ Als u een incorrecte RSVP opgeeft, wordt de opdracht genegeerd. Deze opdracht he
   'Event Invitees' => 'Evenementgenodigden',
   'Import .ics File' => '.ics-bestand importeren',
   '%s set this event to repeat weekly.' => '%s heeft dit evenement ingesteld op wekelijks herhalen.',
-  'This event instance has not been created yet. Log in to create it.' => 'Deze evenementinstantie is nog niet aangemaakt. Log in om deze aan te maken.',
+  'This event instance has not been created yet. Log in to create it.' => 'Deze evenementinstantie is nog niet aangemaakt. Meld u aan om deze aan te maken.',
   '%s changed the end date for %s from %s to %s.' => '%s heeft de einddatum voor %s gewijzigd van %s naar %s.',
   'Change when the event repeats until.' => 'Wijzigen tot wanneer het evenement herhaalt.',
   'Disable or restore the import.' => 'De import uitschakelen of herstellen.',

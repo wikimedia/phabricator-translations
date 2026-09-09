@@ -14,6 +14,7 @@ final class PhabricatorSlowvoteLb
   'No such poll exists.' => 'Esou eng Ëmfro gëtt et net.',
   'Polls must have a question.' => 'Ëmfroe mussen eng Fro hunn.',
   '%s updated the description for this poll.' => '%s huet d\'Beschreiwung vun dëser Ëmfro aktualiséiert.',
+  'Are you sure you want to reopen the poll?' => 'Sidd Dir sécher, datt Dir d\'Ëmfro erëm opmaache wëllt?',
   'Reopen' => 'Nees opmaachen',
   'Responses' => 'Äntwerten',
   'Create Poll' => 'Ëmfro uleeën',

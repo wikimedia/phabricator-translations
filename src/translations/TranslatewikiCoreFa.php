@@ -33,6 +33,7 @@ final class TranslatewikiCoreFa
   'Turkish' => 'ترکی استانبولی',
   'Arabic' => 'عربی',
   'Hindi' => 'هندی',
+  'Romanian' => 'رومانیایی',
   'Polish' => 'لهستانی',
   'Uzbek' => 'ازبکی',
   'Done.' => 'انجام شد.',

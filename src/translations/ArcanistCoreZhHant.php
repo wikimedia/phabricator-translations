@@ -95,6 +95,7 @@ For more information, see instructions in "%s".' => '協商 SSL 連接時驗證 
   'Error' => '錯誤',
   'NOTE' => '注意',
   'ALIAS' => '別名',
+  'M j Y' => 'Y年Mj日',
   'Done.' => '完成。',
   'DONE' => '完成',
   'PREVIEW' => '預覽',

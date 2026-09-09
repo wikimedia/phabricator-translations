@@ -17,6 +17,7 @@ final class PhabricatorMetamtaLb
   'Status: %s' => 'Status: %s',
   'Delete Address' => 'Adress läschen',
   'Attached Files' => 'Ugehaangene Fichier',
+  'Are you sure you want to delete this email address?' => 'Sidd Dir sécher, datt Dir dës E-Mail-Adress läsche wëllt?',
   'No Address' => 'Keng Adress',
   'STAMPS' => 'Timberen',
   '#' => '#',

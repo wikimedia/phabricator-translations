@@ -44,7 +44,6 @@ final class PhabricatorextCoreJa
   'Shows the gerrit Change ID for a commit.' => 'コミットの gerrit Change ID を表示します。',
   'MediaWiki' => 'MediaWiki',
   'MediaWiki Base URI' => 'MediaWikiのベースURI',
-  'Execute searches for Policies.' => 'ポリシーの検索を実行します。',
   'Find public transactions by a particular user.' => '特定のユーザーによる公開取引を検索します。',
   'Skip OFFSET rows before processing the remaining transactions.' => '残りのトランザクションを処理する前に、OFFSET行をスキップします。',
   'Execute a rollback.' => 'ロールバックを実行する。',
@@ -75,6 +74,7 @@ NOTE: Before Phabricator can successfully authenticate to your MediaWiki, a wiki
 注：PhabricatorがMediaWikiの認証に成功する前に、Wiki管理者が以下のURLにあるフォームを使用してOAuth利用者登録を承認する必要があります：%s',
   'Invalid' => '無効',
   'Secret Token' => '秘密トークン',
+  'Execute searches for Policies by PHID.' => 'ポリシーの検索を実行します。',
   'This adds a link to search Maniphest for open tasks which are tagged with this project. NOTE: This feature is provided by a Wikimedia-maintained extension in ProjectOpenTasksProfileMenuItem.php. See https://gitlab.wikimedia.org/repos/phabricator/extensions for the source.' => 'このプロジェクトでタグ付けされたオープンタスクを検索するマニフェストへのリンクが追加されます。
 
 注：この機能はWikimedia-maintainedが管理する拡張機能、ProjectOpenTasksProfileMenuItem.phpによって提供されます。ソースは https://gitlab.wikimedia.org/repos/phabricator/extensions をご覧ください。',

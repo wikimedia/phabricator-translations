@@ -51,11 +51,6 @@ final class PhabricatorProjectSk
   'Intensity' => 'Intenzita',
   'Status rule value should be a string, but is not (value is "%s").' => 'Hodnota pravidla stavu by mala byť reťazec, ale nie je (hodnota je „%s“).',
   'The name of the project.' => 'Názov projektu.',
-  '%d month(s)' => array(
-    '%d mesiac',
-    '%d mesiace',
-    '%d mesiacov',
-  ),
   'Sort by Created Date' => 'Zoradiť podľa dátumu vytvorenia',
   'Quarter' => 'Štvrťrok',
   'Type a project name or function...' => 'Napíšte názov projektu alebo funkciu…',
@@ -833,11 +828,6 @@ To zvyčajne znamená //vaše// projekty, ale ak dopyt s touto funkciou uložít
   'Bulk Edit Tasks...' => 'Hromadne upraviť úlohy…',
   'This trigger has no rules.' => 'Tento spúšťač nemá žiadne pravidlá.',
   '%s removed the trigger for this column (was %s).' => '%s odstránil(a) spúšťač pre tento stĺpec (bol %s).',
-  '%d day(s)' => array(
-    '%d deň',
-    '%d dni',
-    '%d dní',
-  ),
   'Import board columns from another project.' => 'Importovať stĺpce nástenky z iného projektu.',
   'Select project members.' => 'Vyberte členov projektu.',
   'Remove %s as a watcher of %s?' => 'Odstrániť používateľa %s ako sledovateľa projektu %s?',

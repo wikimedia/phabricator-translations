@@ -27,6 +27,7 @@ final class PhabricatorDifferentialLb
   'Discard Edit' => 'Ännerung verwerfen',
   'Request Changes' => 'Ännerunge froen',
   'No revision "%s" exists.' => 'Et gëtt keng Versioun "%s".',
+  '(Empty.)' => '(Eidel.)',
 );
   }
 

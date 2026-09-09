@@ -10,6 +10,7 @@ final class PhabricatorAuthNl
   protected function getTranslations() {
     return array(
   '%s renamed this provider from %s to %s.' => '%s heeft deze provider hernoemd van %s naar %s.',
+  'NOTE: If this account will be used for automated activity, then you must follow [[ %s | the Bot Account creation process ]] instead.' => 'LET OP: Als dit account voor geautomatiseerde activiteiten wordt gebruikt, moet u hiervoor [[ %s | de aanmaakprocedure voor een robotaccount ]] volgen.',
   '%s enabled login.' => '%s heeft aanmelden ingeschakeld.',
   'Disable Contact Number' => 'Contactnummer uitschakelen',
   'This key has been revoked. Choose or generate a new, unique key.' => 'Deze sleutel is ingetrokken. Kies of genereer een nieuwe, unieke sleutel.',

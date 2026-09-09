@@ -13,6 +13,7 @@ final class PhabricatorPonderLb
     '%s Äntwert',
     '%s Äntwerten',
   ),
+  'Empty Answer' => 'Eidel Äntwert',
   '%s closed this question as invalid.' => 'De Benotzer %s huet dës Fro als ongülteg zougemaach.',
 );
   }

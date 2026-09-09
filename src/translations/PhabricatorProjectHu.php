@@ -34,7 +34,6 @@ final class PhabricatorProjectHu
   'Tasks Created' => 'Létrehozott feladatok',
   'Group by Status' => 'Csoportosítás állapot szerint',
   'Group by Author' => 'Csoportosítás szerzők szerint',
-  '%d day(s)' => '%d nap',
   'Week' => 'Hét',
   'Play sound' => 'Hang lejátszása',
 );

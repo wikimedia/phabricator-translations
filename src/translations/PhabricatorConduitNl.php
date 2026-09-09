@@ -118,7 +118,7 @@ final class PhabricatorConduitNl
   'Command Line API Token' => 'Opdrachtregel-API-token',
   'Terminate Tokens' => 'Tokens beëindigen',
   'Unstable Method' => 'Instabiele methode',
-  'Login Required: This method requires authentication. You must log in before you can make calls to it.' => 'Aanmelding vereist: deze methode vereist authenticatie. U moet inloggen voordat u aanroepen kunt doen.',
+  'Login Required: This method requires authentication. You must log in before you can make calls to it.' => 'Aanmelden vereist: deze methode vereist authenticatie. U moet aanmelden voordat u aanroepen kunt doen.',
   'Enter parameters using **JSON**. For instance, to enter a list, type: `%s`' => 'Voer parameters in met **JSON**. Om bijvoorbeeld een lijst in te voeren, typt u: `%s`',
   'A string.' => 'Een tekenreeks.',
   'Single column PHID.' => 'Enkele kolom-PHID.',

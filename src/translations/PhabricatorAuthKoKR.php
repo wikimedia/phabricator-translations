@@ -10,6 +10,7 @@ final class PhabricatorAuthKoKR
   protected function getTranslations() {
     return array(
   '%s renamed this provider from %s to %s.' => '%s님이 이 제공자의 이름을 %s에서 %s(으)로 변경했습니다.',
+  'NOTE: If this account will be used for automated activity, then you must follow [[ %s | the Bot Account creation process ]] instead.' => '참고: 이 계정을 자동화된 활동에 사용하려면 [[ %s | 봇 계정 생성 절차 ]]를 따라야 합니다.',
   '%s enabled login.' => '%s님이 로그인을 활성화했습니다.',
   'Disable Contact Number' => '연락처 비활성화',
   'This key has been revoked. Choose or generate a new, unique key.' => '이 키는 폐기되었습니다. 새롭고 고유한 키를 선택하거나 생성하새요.',

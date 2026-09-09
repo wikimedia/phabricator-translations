@@ -59,7 +59,7 @@ final class TranslatewikiCorePl
   'Hungarian' => 'Węgierski',
   'Malagasy' => 'malgaski',
   'Generate a Phabricator translation classfile.' => 'Wygeneruj plik klasy tłumaczenia Phabricator.',
-  'Pa\'O' => 'kareński Pa\'o',
+  'Pa\'O' => 'kareński pa’o',
   'Tamil' => 'tamilski',
   'JSON source file containing translation strings.' => 'Plik źródłowy JSON zawierający ciągi tłumaczeń.',
   'Japanese' => 'Japoński',

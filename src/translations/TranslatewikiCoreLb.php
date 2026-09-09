@@ -62,6 +62,7 @@ final class TranslatewikiCoreLb
   'Hindi' => 'Hindi',
   'Breton' => 'Bretonesch',
   'Bulgarian' => 'Bulgaresch',
+  'Romanian' => 'Rumänesch',
   'Polish' => 'Polnesch',
   'Uzbek' => 'Usbeekesch',
   'Slovak' => 'Slowakesch',

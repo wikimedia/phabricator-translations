@@ -27,6 +27,7 @@ final class PhabricatorCoreSmn
   'Change Password' => 'Molso syelisääni',
   'Login' => 'Čáládât siisâ',
   'Log Out' => 'Čáládât olgos',
+  'Previous' => 'Oovdeb',
   'Description' => 'Kuvvim',
   'Publish' => 'Almostit',
   'Wednesday' => 'Koskokko',

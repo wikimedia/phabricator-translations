@@ -51,7 +51,6 @@ final class PhabricatorProjectNl
   'Intensity' => 'Intensiteit',
   'Status rule value should be a string, but is not (value is "%s").' => 'De waarde van de statusregel moet een tekenreeks zijn, maar dat is niet het geval (de waarde is "%s").',
   'The name of the project.' => 'De naam van het project.',
-  '%d month(s)' => '%d maand(en)',
   'Sort by Created Date' => 'Sorteren op aanmaakdatum',
   'Quarter' => 'Kwartaal',
   'Type a project name or function...' => 'Voer een projectnaam of functie in...',
@@ -709,7 +708,7 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
   'The project the column belongs to.' => 'Het project waar de kolom toe behoort.',
   'Trigger Rules' => 'Triggerregels',
   'Owner rule value must have only one elmement (value is "%s").' => 'De eigenaarsregelwaarde mag slechts één element bevatten (de waarde is "%s").',
-  'Looks Like' => 'Lijkt op',
+  'Looks Like' => 'Ziet eruit als',
   'Project icons must include one icon marked with special attribute "%s", but no such icon exists.' => 'Projectpictogrammen moeten één pictogram bevatten dat is gemarkeerd met het speciale attribuut "%s", maar een dergelijk pictogram bestaat niet.',
   '%s added %d %s hashtag(s): %s.' => array(
     
@@ -814,7 +813,6 @@ This normally means //your// projects, but if you save a query using this functi
   'Bulk Edit Tasks...' => 'Taken in bulk bewerken...',
   'This trigger has no rules.' => 'Deze trigger heeft geen regels.',
   '%s removed the trigger for this column (was %s).' => '%s heeft de trigger voor deze kolom verwijderd (was %s).',
-  '%d day(s)' => '%d dag(en)',
   'Import board columns from another project.' => 'Bladkolommen uit een ander project importeren.',
   'Select project members.' => 'Projectleden selecteren.',
   'Remove %s as a watcher of %s?' => '%s als volger van %s verwijderen?',

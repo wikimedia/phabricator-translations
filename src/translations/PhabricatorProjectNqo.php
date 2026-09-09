@@ -27,7 +27,6 @@ final class PhabricatorProjectNqo
   'Hidden Column' => 'ߟߐ߬ߛߋ߲߫ ߘߏ߲߰ߣߍ߲',
   'Edit Trigger' => 'ߞߟߍ߬ߕߍ߰ߟߊ߲ ߡߊߦߟߍ߬ߡߊ߲߬',
   'Sort by Points' => 'ߊ߬ ߦߌ߬ߘߊ߬ ߞߊ߬ ߓߍ߲߬ ߕߏ߲ߘߋ ߟߎ߫ ߡߊ߬',
-  '%d day(s)' => '%dߟߏ߲(ߠߎ߬)',
   'Project tags removed' => 'ߖߊ߬ߕߋ߬ߘߐ߬ߛߌ߮ ߞߟߍ߬ߕߍ߰ߟߊ߲ ߖߐ߬ߛߌ߬ߣߍ߲',
   'Play sound %s.' => 'ߡߍ߲ߞߊ߲ ߕߏߟߏ߲߫ %s',
   'Visible Columns' => 'ߟߐ߬ߛߋ߲ ߠߎ߬ ߟߊ߲ߞߣߍߡߊ',

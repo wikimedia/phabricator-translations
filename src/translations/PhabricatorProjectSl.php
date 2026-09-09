@@ -11,7 +11,6 @@ final class PhabricatorProjectSl
     return array(
   'Edit Background Color' => 'Uredi barvo ozadja',
   'Month' => 'Mesec',
-  '%d month(s)' => '%d mesec(i)',
   'Add projects' => 'Dodajte projekte',
   'Members: %s' => 'Člani: %s',
   'Members' => 'Člani',

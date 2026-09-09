@@ -10,7 +10,6 @@ final class PhabricatorProjectFi
   protected function getTranslations() {
     return array(
   'Month' => 'Kuukausi',
-  '%d month(s)' => '%d kuukausi/kuukautta',
   'Quarter' => 'Vuosineljännes',
   '%s removed this project\'s image.' => '%s poistin projektin kuvan.',
   'Edit Column' => 'Muokkaa saraketta',
@@ -50,7 +49,6 @@ final class PhabricatorProjectFi
   'Minimum Depth' => 'Vähimmäissyvyys',
   'See full report.' => 'Näytä koko raportti.',
   'Show Column' => 'Näytä sarake',
-  '%d day(s)' => '%d päivä(ä)',
   'Play sound %s.' => 'Toista ääni %s.',
   'Create Column' => 'Luo sarake',
   'Milestone' => 'Virstanpylväs',

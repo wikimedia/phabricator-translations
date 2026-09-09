@@ -178,7 +178,7 @@ Transcript: %s' => 'Deze push is geweigerd door Herald-pushregel %s.
          Regel: %s
         Reden: %s
    Transcript: %s',
-  'You must log in to access this repository.' => 'U moet inloggen om toegang te krijgen tot deze repository.',
+  'You must log in to access this repository.' => 'U moet aanmelden om toegang te krijgen tot deze repository.',
   'The test will not perform any writes against the repository, so write operations may still fail even if the test passes. This test covers building and reading working copies, but not writing to them.' => 'De test voert geen schrijfbewerkingen uit op de repository, dus schrijfbewerkingen kunnen nog steeds mislukken, zelfs als de test slaagt. Deze test omvat het bouwen en lezen van werkkopieën, maar niet het schrijven ernaar.',
   'Client transmitted more than 1MB of data without transmitting a recognizable protocol frame.' => 'Client heeft meer dan 1 MB aan gegevens verzonden zonder een herkenbaar protocolframe te verzenden.',
   'You must provide a %s in the dictionary!' => 'U moet een %s opgeven in het woordenboek!',
@@ -1162,7 +1162,7 @@ Deze repository ("%s") is geconfigureerd met een maximale individuele bestandsgr
   'Tags for %s' => 'Tags voor %s',
   'Waiting on another user to finish writing...' => 'Wachten tot een andere gebruiker klaar is met schrijven...',
   'Repository "%s" exists on more than one device, but no device has any repository version information. There is no way for the software to determine which copy of the existing data is authoritative. Promote a device or see "Ambiguous Leaders" in the documentation.' => 'Repository "%s" bestaat op meer dan één apparaat, maar geen enkel apparaat heeft versie-informatie over de repository. De software kan niet bepalen welke kopie van de bestaande gegevens gezaghebbend is. Promoveer een apparaat of zie "Ambiguous Leaders" in de documentatie.',
-  'You must log in to push to this repository.' => 'U moet inloggen om naar deze repository te pushen.',
+  'You must log in to push to this repository.' => 'U moet aanmelden om naar deze repository te pushen.',
   'Update Repository Now' => 'Repository nu bijwerken',
   'Invalid path ID!' => 'Incorrect pad-ID!',
   'Automatically Detected User' => 'Automatisch gedetecteerde gebruiker',
@@ -1223,7 +1223,7 @@ BELANGRIJK: Deze functie is nieuw, experimenteel en wordt niet ondersteund. Gebr
   'View Pull Logs' => 'Pull-logboeken bekijken',
   'Pushed By' => 'Gepusht door',
   'Unexpected number of output lines from "git diff-tree" when processing commit ("%s"): expected an even number of lines.' => 'Onverwacht aantal uitvoerregels van "git diff-tree" bij het verwerken van commit ("%s"): een even aantal regels verwacht.',
-  'You must log in to access repositories.' => 'U moet inloggen om toegang te krijgen tot repository\'s.',
+  'You must log in to access repositories.' => 'U moet aanmelden om toegang te krijgen tot repository\'s.',
   'This commit now requires audit.' => 'Deze commit vereist nu een audit.',
   'Matches User: %s' => 'Komt overeen met gebruiker: %s',
   'Edit Commit' => 'Commit bewerken',

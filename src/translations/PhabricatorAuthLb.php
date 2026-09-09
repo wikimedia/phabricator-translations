@@ -38,6 +38,7 @@ final class PhabricatorAuthLb
   'JIRA' => 'JIRA',
   'Very Weak' => 'Ganz schwaach',
   '[SSH Key]' => '[SSH-Schlëssel]',
+  'Active Phone Number' => 'Aktiv Telefonsnummer',
   'SMS Code' => 'SMS-Code',
   'Create New Account' => 'Neie Kont uleeën',
   'Log In' => 'Aloggen',

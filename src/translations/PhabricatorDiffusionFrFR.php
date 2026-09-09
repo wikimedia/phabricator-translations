@@ -458,7 +458,7 @@ Les règles de validation peuvent envoyer des courriels, marquer des validations
   'Identity Assignments' => 'Assignements d\'identité',
   'Effective User' => 'Utilisateur effectif',
   'Edit Branches' => 'Modifier les branches',
-  'The authentication token provided in the request is bound to a different repository than the requested repository ("%s").' => 'Le jeton d\'authentification fourni dans la demande concerne un dépôt différent de celui demandé ( « %s »).',
+  'The authentication token provided in the request is bound to a different repository than the requested repository ("%s").' => 'Le jeton d’authentification fourni dans la demande concerne un dépôt différent de celui demandé (« %s »).',
   'Skip Past This Commit' => 'Sauter cette validation',
   'Via' => 'Via',
   'Unexpected command structure, expected \'%s\'.' => 'Structure de commande non attendue; attendu \'%s\'.',

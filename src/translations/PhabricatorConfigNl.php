@@ -452,9 +452,9 @@ Om dit configuratieprobleem op te lossen, installeert u de uitbreiding en hersta
 U kunt dit probleem veilig negeren als u niet van plan bent gegevens te exporteren in Zip-archieven of Excel-spreadsheets, of als u van plan bent de uitbreiding later te installeren.',
   'To enable the SSH log, specify a path. This log can provide more detailed information about SSH access than a normal SSH log (for instance, it can show logged-in users, commands, and other application data).
 
-If not set, no log will be written.' => 'Om het SSH-log in te schakelen, geeft u een pad op. Dit log kan meer gedetailleerde informatie bieden over SSH-toegang dan een normaal SSH-log (het kan bijvoorbeeld ingelogde gebruikers, opdrachten en andere applicatiegegevens weergeven).
+If not set, no log will be written.' => 'Om het SSH-logboek in te schakelen, geeft u een pad op. Dit logboek kan meer gedetailleerde informatie bieden over SSH-toegang dan een normaal SSH-logboek (het kan bijvoorbeeld aangemelde gebruikers, opdrachten en andere toepassingsgegevens weergeven).
 
-Als dit niet is ingesteld, wordt er geen log geschreven.',
+Als dit niet is ingesteld, wordt er geen logboek geschreven.',
   'Send Mail To All Recipients' => 'E-mail naar alle ontvangers verzenden',
   'This software sent itself a test request with an unusual path, to test if your webserver is rewriting paths correctly. The path was not transmitted correctly.
 
@@ -612,9 +612,9 @@ Deze functie wordt "sterk afgeraden" door de ontwikkelaars van PHP en is volledi
   'Repository %s has an ambiguous leader.' => 'Repository %s heeft een dubbelzinnige leider.',
   'To enable the SSH error log, specify a path. Errors occurring in contexts where this software is serving SSH requests will be written to this log.
 
-If not set, no log will be written.' => 'Om het SSH-foutenlog in te schakelen, geeft u een pad op. Fouten die optreden in contexten waar deze software SSH-verzoeken afhandelt, worden naar dit log geschreven.
+If not set, no log will be written.' => 'Om het SSH-foutenlogboek in te schakelen, geeft u een pad op. Fouten die optreden in contexten waar deze software SSH-verzoeken afhandelt, worden naar dit logboek geschreven.
 
-Als dit niet is ingesteld, wordt er geen log geschreven.',
+Als dit niet is ingesteld, wordt er geen logboek geschreven.',
   'The \'%s\' extension is not installed. Without \'%s\' support, this server will not be able to process or resize images (for example, to generate thumbnails). Install or enable \'%s\'.' => 'De uitbreiding \'%s\' is niet geïnstalleerd. Zonder \'%s\'-ondersteuning kan deze server geen afbeeldingen verwerken of verkleinen (bijvoorbeeld om miniaturen te genereren). Installeer of schakel \'%s\' in.',
   'Your authentication provider configuration is unlocked. Once you finish setting up or modifying authentication, you should lock the configuration to prevent unauthorized changes.
 
@@ -669,9 +669,9 @@ U kunt ook de limiet verhogen of dit probleem negeren en accepteren dat u proble
   'Notification Servers' => 'Meldingsservers',
   'To enable the HTTP access log, specify a path. This log is more detailed than normal HTTP access logs (for instance, it can show logged-in users, controllers, and other application data).
 
-If not set, no log will be written.' => 'Om het HTTP-toegangslog in te schakelen, geeft u een pad op. Dit log is gedetailleerder dan normale HTTP-toegangslogs (het kan bijvoorbeeld ingelogde gebruikers, controllers en andere applicatiegegevens weergeven).
+If not set, no log will be written.' => 'Om het HTTP-toegangslogboek in te schakelen, geeft u een pad op. Dit logboek is gedetailleerder dan normale HTTP-toegangslogs (het kan bijvoorbeeld aangemelde gebruikers, controllers en andere toepassingsgegevens weergeven).
 
-Als dit niet is ingesteld, wordt er geen log geschreven.',
+Als dit niet is ingesteld, wordt er geen logboek geschreven.',
   'extname' => 'extname',
   'Enable captchas with Recaptcha.' => 'Captcha\'s inschakelen met Recaptcha.',
   'This suggests your webserver is configured to decompress or mangle compressed requests.' => 'Dit suggereert dat uw webserver is geconfigureerd om gecomprimeerde verzoeken te decomprimeren of te verminken.',
@@ -916,7 +916,7 @@ Configureer een CDN (of alternatief bestandsdomein) om dit risico te elimineren.
   'No Messages' => 'Geen berichten',
   'Footer item with index "%s" is invalid: each item must be a dictionary describing a footer item.' => 'Voettekstitem met index "%s" is onjuist: elk item moet een woordenboek zijn dat een voettekstitem beschrijft.',
   'None of the caches on this page can be cleared.' => 'Geen van de caches op deze pagina kan worden gewist.',
-  'Require email verification before a user can log in.' => 'E-mailverificatie vereisen voordat een gebruiker kan inloggen.',
+  'Require email verification before a user can log in.' => 'E-mailverificatie vereisen voordat een gebruiker kan aanmelden.',
   'Master' => 'Primair',
   'A Troublesome Encounter!' => 'Een lastige situatie!',
   'The indexing algorithm for the fulltext search index has been updated and the index needs to be rebuilt. Until you rebuild the index, global search (and other fulltext search) will not function correctly.' => 'Het indexeringsalgoritme voor de volledige-tekstzoekindex is bijgewerkt en de index moet opnieuw worden opgebouwd. Totdat u de index opnieuw opbouwt, zal globaal zoeken (en andere volledige-tekstzoekopdrachten) niet correct functioneren.',
@@ -1576,7 +1576,7 @@ Zonder gebruik te maken van deze vlag om de tijdelijke testomgeving te dempen, z
   'The mapping from VCS users to %s users has changed and must be rebuilt.' => 'De toewijzing van VCS-gebruikers naar %s-gebruikers is gewijzigd en moet opnieuw worden opgebouwd.',
   'Authentication configuration is currently unlocked. Once you finish configuring authentication, you should lock it.' => 'Authenticatieconfiguratie is momenteel ontgrendeld. Zodra u klaar bent met het configureren van authenticatie, moet u deze vergrendelen.',
   'Use `%s` instead of this option.' => 'Gebruik `%s` in plaats van deze optie.',
-  'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'U hebt nog geen authenticatieproviders geconfigureerd. U moet een provider toevoegen (zoals gebruikersnaam/wachtwoord, LDAP of GitHub OAuth) zodat gebruikers zich kunnen registreren en inloggen. U kunt providers toevoegen en configureren met de authenticatie-toepassing.',
+  'You have not configured any authentication providers yet. You should add a provider (like username/password, LDAP, or GitHub OAuth) so users can register and log in. You can add and configure providers using the Auth Application.' => 'U hebt nog geen authenticatiediensten geconfigureerd. U moet een dienst toevoegen (zoals gebruikersnaam/wachtwoord, LDAP of GitHub OAuth) zodat gebruikers zich kunnen registreren en aanmelden. U kunt diensten toevoegen en configureren met de authenticatie-toepassing.',
   'Run the storage upgrade script to upgrade databases (host "%s" is out of date). Missing patches: %s.' => 'Voer het opslagupgradescript uit om databases te upgraden (host "%s" is verouderd). Ontbrekende patches: %s.',
   'Resource deflation is now managed automatically.' => 'Brondeflatie wordt nu automatisch beheerd.',
   'MySQL' => 'MySQL',
@@ -1764,7 +1764,7 @@ Om de minimale woordlengte te verlagen naar 3, voegt u dit toe aan uw %s bestand
   'View "%s"' => '"%s" bekijken',
   'This setup issue has been resolved. ' => 'Dit configuratieprobleem is opgelost.',
   'Additional configuration options to hide.' => 'Extra configuratieopties om te verbergen.',
-  'The logged-in username, if one is logged in.' => 'De ingelogde gebruikersnaam, als er iemand is ingelogd.',
+  'The logged-in username, if one is logged in.' => 'De aangemelde gebruikersnaam, als er iemand is aangemeld.',
   'Deprecated Code' => 'Verouderde code',
   'PHP date functions will emit a warning if they are called when no default
 server timezone is configured.
@@ -1785,7 +1785,7 @@ een standaardtijdzone te configureren, selecteer een tijdzone uit de
 [[ %s | PHP-lijst van ondersteunde tijdzones ]].',
   'No REMOTE_ADDR available' => 'Geen REMOTE_ADDR beschikbaar',
   'File storage in Amazon S3 has been partially configured, but you are missing some required settings. S3 will not be available to store files until you complete the configuration. Either configure S3 fully or remove the partial configuration.' => 'Bestandsopslag in Amazon S3 is gedeeltelijk geconfigureerd, maar u mist enkele vereiste instellingen. S3 is niet beschikbaar om bestanden op te slaan totdat u de configuratie voltooit. Configureer S3 volledig of verwijder de gedeeltelijke configuratie.',
-  'The logged-in user PHID, if one is logged in.' => 'De PHID van de ingelogde gebruiker, als er iemand is ingelogd.',
+  'The logged-in user PHID, if one is logged in.' => 'De PHID van de aangemelde gebruiker, als er iemand is aangemeld.',
   'WARNING: This is a very advanced option, and only useful for hosting providers running multi-tenant clusters.
 
 If you provide an instance identifier here (normally by injecting it with a `%s`), the server will pass it to subprocesses and commit hooks in the `%s` environmental variable.' => 'WAARSCHUWING: Dit is een zeer geavanceerde optie, en alleen nuttig voor hostingproviders die multi-tenant clusters draaien.

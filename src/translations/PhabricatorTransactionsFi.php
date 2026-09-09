@@ -46,6 +46,7 @@ final class PhabricatorTransactionsFi
   'EMAIL PREFERENCES' => 'SÄHKÖPOSTIASETUKSET',
   'EDIT DETAILS' => 'MUOKKAA TIETOJA',
   '(Show Details)' => '(Näytä tiedot)',
+  'Find out what to do instead' => 'Katso, mitä voit tehdä sen sijaan',
   'Do you want to post your comment anyway?' => 'Haluatko silti julkaista kommenttisi?',
   '%s Action(s) Have No Effect' => array(
     'Toimenpiteellä ei ole vaikutusta',

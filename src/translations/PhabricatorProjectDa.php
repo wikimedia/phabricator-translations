@@ -17,7 +17,6 @@ final class PhabricatorProjectDa
   'Month' => 'Måned',
   'Lock Project' => 'Lås projekt',
   'The name of the project.' => 'Navnet på projektet.',
-  '%d month(s)' => '%d måned(er)',
   'Type a project name or function...' => 'Indtast et projektnavn eller en funktion...',
   'Are you sure you want to show this column?' => 'Er du sikker på, du ønsker at vise denne kolonne?',
   'Add projects' => 'Tilføj projekter',

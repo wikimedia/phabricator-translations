@@ -30,6 +30,7 @@ final class PhabricatorHarbormasterLb
   'Unexpected Error' => 'Onerwaarte Feeler',
   'Targets' => 'Ziler',
   'No details provided.' => 'Keng Detailer uginn.',
+  'Are you sure you want to delete this step? This can\'t be undone!' => 'Sidd Dir sécher, datt Dir dëse Schrëtt läsche wëllt? Dat kann net réckgängeg gemaach ginn!',
   'Option' => 'Optioun',
   'Result of the test.' => 'Resultat vum Test.',
   'ERROR:' => 'FEELER:',

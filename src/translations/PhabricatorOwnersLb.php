@@ -9,6 +9,7 @@ final class PhabricatorOwnersLb
 
   protected function getTranslations() {
     return array(
+  '"" (empty string)' => '"" (eidel Zeecheketten)',
   'Validating...' => 'Validéieren...',
   'Own Source Code' => 'Eegene Quellcode',
   'Authority' => 'Autoritéit',

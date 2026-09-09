@@ -100,6 +100,7 @@ Use \'%s\' to choose one, or \'%s\' to create a new revision.' => '実行コピ�
   'HTTP Status Code: %d' => 'HTTP ステータスコード: %d',
   '    %s %s
 ' => '    %s %s',
+  '%3dms' => '%3d/ミリ秒',
   'Marker "%s"' => 'マーカー "%s"',
   'File Error' => 'ファイル エラー',
   '%s %s' => '%s %s',
