@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AKlapper",
+			"PanWor",
 			"Warchlak",
 			"Woytecr"
 		]
@@ -74,7 +75,7 @@
 	"609706baebf7f7e5": "Metody uwierzytelniające muszą mieć nazwę umożliwiającą ich identyfikację.",
 	"67c0651b1dc1b70f": "Wybierz język, w którym chcesz używać interfejsu użytkownika.",
 	"6af17d6765d56e22": "Naprawdę usunąć adres '$1'?",
-	"6d7d0ee12d2368d5": "Inny użytkownik posiada już ten e-mail.",
+	"6d7d0ee12d2368d5": "Ten adres e-mail ma już inny użytkownik.",
 	"6eec83851ebc6a44": "Zmienić podstawowy adres e-mail?",
 	"6fb91d57968c34db": "Czcionka o stałej szerokości",
 	"70478ae1190e3b97": "E-mail HTML",

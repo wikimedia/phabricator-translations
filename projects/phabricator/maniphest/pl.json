@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"PanWor",
 			"Warchlak",
 			"Woytecr"
 		]
@@ -136,7 +137,7 @@
 	"7edd7d41fe3123f7": "Wpisz nazwę priorytetu zadania...",
 	"80e33ed88b9c3da7": "Zamknij jako duplikat",
 	"822b42bca5e21160": "Zmień status zadania.",
-	"86a91d9c74f1c025": "To zadanie nie posiada zadań nadrzędnych ani podzadań, dlatego nie ma wykresu do narysowania.",
+	"86a91d9c74f1c025": "To zadanie nie ma zadań nadrzędnych ani podzadań, dlatego nie ma wykresu do narysowania.",
 	"86ea79a93b47509f": "Użytkownik odpowiedzialny za to zadanie.",
 	"86f54e608e99dea3": "Autor zadania",
 	"8734fab15c3bf82f": "Zamknięte przed",
