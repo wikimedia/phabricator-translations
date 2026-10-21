@@ -2,14 +2,14 @@
 	"@metadata": {
 		"authors": []
 	},
-	"21909f6cc9658765": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$368 PhabricatorApplication.php:368]",
-	"2b864b4aa73d7545": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$604 PhabricatorApplication.php:604]",
-	"473a2b8ae0fda34b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$576 PhabricatorApplication.php:576]",
-	"5065c3a197c9ae53": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$574 PhabricatorApplication.php:574]",
+	"21909f6cc9658765": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$371 PhabricatorApplication.php:371]",
+	"2b864b4aa73d7545": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$619 PhabricatorApplication.php:619]",
+	"473a2b8ae0fda34b": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$591 PhabricatorApplication.php:591]",
+	"5065c3a197c9ae53": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$589 PhabricatorApplication.php:589]",
 	"71a5993ec4612869": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$24 PhabricatorApplication.php:24]",
 	"78d67090ef36b075": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$298 PhabricatorController.php:298]",
 	"7a1c0a74305daaaf": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$61 PhabricatorApplication.php:61]",
 	"d8c88db363a66211": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$173 PhabricatorController.php:173]",
-	"d9b9a15e87d0d955": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$566 PhabricatorApplication.php:566]",
-	"e5d6af967c265e3f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$560 PhabricatorController.php:560]"
+	"d9b9a15e87d0d955": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/PhabricatorApplication.php$581 PhabricatorApplication.php:581]",
+	"e5d6af967c265e3f": "Used in:\n\n[https://phabricator.wikimedia.org/source/phabricator/browse/wmf%252Fstable/src//applications/base/controller/PhabricatorController.php$565 PhabricatorController.php:565]"
 }

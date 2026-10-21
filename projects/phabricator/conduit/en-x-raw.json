@@ -31,7 +31,6 @@
 	"289018cc72b58650": "My Calls",
 	"291a0a58dfa6c640": "Call",
 	"2b4597f306bd48ac": "Point values must be nonnegative.",
-	"2bf1725eb20bf18a": "Maximum token name length is %d characters.",
 	"2c29ba9bdd1d0cd1": "API token \"%s\" was previously valid, but has expired.",
 	"2c3164b198fcfdc1": "Use the %s panel in Settings to generate or manage API tokens.",
 	"2c3d680a580b5db4": "Conduit",
@@ -58,6 +57,7 @@
 	"49e797a7542b0454": "You can not call newQueryFromRequest() in this method (\"%s\") because it does not implement newQueryObject().",
 	"49e8c27b9f390a39": "Caller PHID",
 	"4b4f9c98b3897c59": "<api-token>",
+	"4d5f31cab3502295": "Maximum token name length is %s characters.",
 	"4da6af4aa85e5485": "See error message for details.",
 	"530b396dddc85626": "Literal null.",
 	"56b25d16dd5faa9f": "There are no API tokens to terminate.",
@@ -115,7 +115,6 @@
 	"9582a02f141fc4b3": "Returns",
 	"959810e2640d2995": "Active API Tokens",
 	"95d6a4fd5bc11919": "Conduit API Overview",
-	"9673207f440adaff": "Session key is not present.",
 	"96855858b1650e2a": "No matching calls in log.",
 	"969e18f42ccce432": "Show new methods which are subject to change.",
 	"9716a7618e058525": "Invalid parameter information was passed to method '%s'.",
@@ -198,5 +197,6 @@
 	"f9488c3887141955": "Generate Token",
 	"f9a0635f6623095b": "Terminate Token",
 	"f9dec19745a9e0ba": "This server requires authentication.",
-	"faf55f85feea73ae": "Show old methods which will be deleted in a future version of this software."
+	"faf55f85feea73ae": "Show old methods which will be deleted in a future version of this software.",
+	"fe5c1b2e52c3e731": "This method requires authentication."
 }
