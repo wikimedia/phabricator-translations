@@ -7,7 +7,7 @@
 	"13d815bd29a02c64": "Trieda poslucháča",
 	"20c4efa6093294a8": "Profilovanie nebolo pre túto stránku zapnuté. Zapnete ho tlačidlom vyššie.",
 	"40dc448a962e5fe4": "Interné ID",
-	"43e40156c805d177": "Denník chýb {{PLURAL:$1|($1)}}",
+	"43e40156c805d177": "Denník chýb ({{PLURAL:$1|$1}})",
 	"47a14aaa85b00e8f": "Ladiaca konzola pre upozornenia v reálnom čase.",
 	"4d29b099c263ce28": "Poskytuje podrobné informácie o profilovaní PHP prostredníctvom XHProf.",
 	"54766d340f20c6ef": "Analyzovať plány dopytov",
