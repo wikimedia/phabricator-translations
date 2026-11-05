@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"02c8304104610b98": "Salasanat",
@@ -25,10 +26,12 @@
 	"2ee30cf2c2908397": "Muokkaa viestiä",
 	"34dbd5c4c8a64801": "Odota",
 	"34f43ce7378fef45": "Ei vastaavia SSH-avaimia.",
+	"3500828208878e00": "Poista ulkoisen tilin linkitys määritellyltä käyttäjältä.",
 	"3510629086a5f438": "Käytä $1-käyttäjänimeä",
 	"3515913fa308aecc": "Todennusvirhe",
 	"365a7b7473e2de6a": "Tekstiviesti (SMS)",
 	"385969d12b70feb2": "Kyllä (valinnainen)",
+	"3c97a82b8104a176": "Näytä ulkoinen tili, mutta älä poista sen linkitystä.",
 	"3d50952990f6f796": "etunimi, sukunimi",
 	"409f3527310237bb": "Asana",
 	"40faba9689030be8": "MFA",
@@ -36,6 +39,7 @@
 	"445496ef6dccb69c": "Julkinen SSH-avain",
 	"46b3886d73b9b47b": "Kaikki avaimet",
 	"470283433e2c3c8c": "Tallenna julkinen avain",
+	"48ef41bef485604a": "Käytä TLS:ää",
 	"4a3baef3d85cea02": "Kirjaudu sisään ($1)",
 	"4a40922929c06527": "Ohita tämä vaihe",
 	"4b41d2f17402e6c5": "Kirjautumisvirhe",
@@ -75,6 +79,7 @@
 	"9c96766f5afe4c41": "SSH-avain $1: $2",
 	"9e10d4517d5a2f4e": "SMS",
 	"a027e0314e6b80cd": "Lähettänyt",
+	"a0654b3cc5455c43": "Määrittele ulkoinen todennuspalveluntarjoaja.",
 	"a1de0fec262bf00b": "Lataa yksityinen avain ($1)",
 	"a2725bce75ce53b2": "Aseta tilin salasana",
 	"a2f060b7363f54c9": "Unohditko salasanasi?",
@@ -87,12 +92,15 @@
 	"b25783a8e196a10e": "JIRA",
 	"b37c5cfc5d44a034": "Erittäin heikko",
 	"b58446acb0688ef9": "Vahvista $1",
+	"bba21ccc7021b6c1": "Anna käyttäjänimi.",
 	"bc7d23eacaf6e004": "[SSH-avain]",
 	"bd8b222dab63a89d": "$1 loi tämän avaimen.",
 	"bed819cd957f63e0": "Mobiilisovellus (TOTP)",
 	"c33966cf0997d849": "SMS-koodi",
 	"ca547e6d2c63e4e8": "Rekisteröi tili",
 	"ce36cd512ad24e9e": "Hyväksynyt",
+	"cec0dc5ebb53604b": "Poistetaan ulkoisen tilin linkitystä...",
+	"d4d16caaee63f62b": "Nimellä $1 ei löydy aktiivista todennuspalveluntarjoajaa.",
 	"d5057af3cb1da0b5": "$1 on pakollinen!",
 	"d510ae63f2dc4696": "Luo uusi käyttäjätunnus",
 	"d527bf3db3dc8af6": "Kirjaudu sisään",
@@ -112,9 +120,10 @@
 	"f3566cd0b39f71cf": "Oletusviesti",
 	"f3c62dea067b3df4": "Kirjautumiseväste asetettiin oikein, mutta kirjautumisistuntosi ei ole kelvollinen. Yritä tyhjentää evästeet ja kirjautua uudelleen.",
 	"f52061b533927475": "Kirjautuminen epäonnistui",
-	"f5c26334c3707c99": "Käytä TLS:ää",
 	"f668d5a5a8d6904c": "Et voi enää käyttää $1-tiliäsi kirjautuaksesi Phabricatoriin.",
 	"f72cbb45464d4870": "Käyttäjänimi/Salasana",
 	"f91800bc6bdae448": "Sähköpostiosoite on jo käytössä",
-	"fcd761054089234d": "Uudelleen"
+	"faa2f4df0431ec47": "Tämän ulkoisen tilin linkitys poistetaan:",
+	"fcd761054089234d": "Uudelleen",
+	"ffa2c3a791fd94d5": "Nimellä $1 ei löydy todennuspalveluntarjoajaa. Kelvolliset palveluntarjoajat: $2."
 }

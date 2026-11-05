@@ -38,6 +38,5 @@
 	"d163770277ec5f41": "Synchronising \"$1\" from Perforce...",
 	"d7a2f989f4064e4c": "Amend the working copy, synchronising the local commit message from\nDifferential.\n\nSupported in Mercurial 2.2 and newer.",
 	"e1115c3f5ca1e50d": "RuboCop is a Ruby static code analyser, based on the community Ruby style guide.",
-	"ebc11646f0be2681": "Ignoring unrecognised configuration option (\"$1\") from source: $2.",
 	"ef4e3cc135c989c0": "Signal router has not been initialised!"
 }

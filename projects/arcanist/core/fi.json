@@ -9,6 +9,7 @@
 			"Nike",
 			"Pyscowicz",
 			"Silvonen",
+			"Wikipeedikko",
 			"Yupik"
 		]
 	},
@@ -24,7 +25,6 @@
 	"059d9011f031d260": "Suorituksenaikainen virhe",
 	"0632cbe6a983b23f": "Sisäinen HTML",
 	"06363ad632b4651d": "Etätietovaranto",
-	"0647eb5374f507e3": "Tyhjä varmenne tunnistetiedoissa.",
 	"0659835625602b10": "Ei suoritettavia testejä.",
 	"07abd5694625c417": "Tuntematon symboli",
 	"07b61143a4ee97fb": "Mitkä sitoutuvat?",
@@ -90,7 +90,6 @@
 	"3da474537ac378c6": "Ohita",
 	"3ec563886de40b89": "PHP-syntaksivirhe!",
 	"41816017b3794822": "Käyttäjä \"$1\"",
-	"41864d94a1ca60ac": "Asennetaan varmennetta kohteelle '$1'...",
 	"41ff354b2b330bd1": "Luokka",
 	"421904e9434a19ec": "Syötä joko \"true\" tai \"false\".",
 	"431de839c3cfa8f3": "OHITA",
@@ -167,6 +166,7 @@
 	"c54dc209f0df892a": "Uusi versio saatavilla!",
 	"c6d3e2820fcba13d": "Polku mukautettuun CA-pakettitiedostoon, jota käytetään cURL-puheluihin. Tätä käytetään ensisijaisesti, kun kanavan päätepiste on organisaatiosi sisäisen varmentajan allekirjoittaman HTTPS:n takana.",
 	"cb0cb170d106f8e8": "Palvelin",
+	"ce771785e307eb2e": "$1 {{PLURAL:$1|rivi|riviä}}",
 	"cf482fb0a191bc65": "SISÄÄNKIRJAUTUMINEN VAADITAAN",
 	"d48fc07f4222a58d": "Hakemistoa \"$1\" ei ole olemassa. Haluatko luoda sen?",
 	"d5d3aa008a3745a6": "Tyhjä tiedosto",

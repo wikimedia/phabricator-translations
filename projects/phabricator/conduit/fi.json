@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"87491c9d490da143": "Käyttäjänimi.",
-	"f4f5bf0acde45b0c": "Asiakas on tuntematon."
+	"f4f5bf0acde45b0c": "Asiakas on tuntematon.",
+	"fe5c1b2e52c3e731": "Tämä tapa edellyttää todennusta."
 }

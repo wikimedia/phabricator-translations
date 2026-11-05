@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wikipeedikko"
+		]
+	},
+	"0fd8326253e29661": "Git-kirjaston päivittäminen epäonnistui. Kokeile manuaalista korjaustaa. Virhe: $1",
+	"206436d82f8883c0": "Vain yksi laajennus kerrallaan voidaan poistaa.",
+	"20bc6199a17b3301": "Tämä poistaisi kirjastotiedoston $1",
+	"3d1e86c45162c258": "Päivitys on valmis. Nykyinen versio on $1. Muista suorittaa $2 ja käynnistää palvelin uudelleen!",
+	"45d72b780413bc54": "Tunnista laajennus sen paikallisen polun perusteella",
+	"47e7b01f901cedc6": "Anna poistettavan laajennuksen nimi tai tunniste",
+	"4f6305ffd9fe3ae3": "Poista asennettu laajennus.",
+	"55c2517b003fbc4e": "Kirjastotiedosto $1 poistettiin",
+	"5706cca36d9cb1f0": "Tunnista laajennus sen laajennusnimen perusteella",
+	"5f69ad55c43ec8ef": "Kirjasto oli jo uusimmassa versiossaan.",
+	"602951dd4d1e205a": "Laajennus $1 on jo ajan tasalla",
+	"6432ea2c0f017ea7": "Tämä ei tunnu olevan kelvollinen kirjasto.",
+	"6d0e105364d047d6": "Paikalliseen polkuun $1 ei voi kirjoittaa.",
+	"7504f6c8d3af6e66": "Kopioidaan $1 kohteeseen $2",
+	"8671fce326f0fb70": "Ohitetaan ydinkirjasto $1.",
+	"888d9aa073ea800a": "Tämän asentaminen edellyttäisi kopiointia kohteeseen $1, mutta kyseinen tiedosto on jo olemassa.",
+	"952f67b7609724bd": "Tiedostonnimi $1 ei kelpaa",
+	"9642ed949f3b211e": "Luetteloi kaikki laajennukset.",
+	"d2dd55898e3cf719": "Tunnista laajennus sen laajennusavaimen perusteella",
+	"ddcb9cbc5514f1be": "Anna URI tai laajennusavain asennusta varten",
+	"e585544b372125be": "Kokeile kaikkien asennettujen laajennusten päivittämistä.",
+	"ef867ae77f67819a": "$1-muotoisten laajennusten päivittämistä ei tueta.",
+	"ff552b1c84738ee5": "Laajennusten etsimistä kriteerillä $1 ei ole vielä toteutettu."
+}

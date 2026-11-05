@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"082bc378cd60e17a": "Kuukausi",
@@ -15,7 +16,6 @@
 	"1ffe0670e10b0b93": "Näytä kaikki projektit",
 	"22e73343b82ea0e4": "Sarakkeilla on oltava nimi.",
 	"2e92f145051c1e75": "Poistettiin $1 projekti(a): $2.",
-	"306d07e7c120b2da": "$1 viikko(a)",
 	"3191c4c93c6b6210": "Piilota sarake",
 	"4a323e3e141c81c3": "Enimmäissyvyys",
 	"4ad56b975566f639": "Suljettuja tehtäviä",
@@ -33,6 +33,7 @@
 	"7610152b22b68679": "Luo uusi projekti",
 	"7db5c36885e06643": "Siirry sarakkeeseen",
 	"7f50e823886c0a18": "Poista projekteja",
+	"849985de793d6191": "Näytä piilotetut sarakkeet ($1)",
 	"8c9247de0a9233ab": "Projekteilla täytyy olla nimi.",
 	"8ca931cd5e298557": "Piilotetut sarakkeet",
 	"91105fbfb0db58ea": "Luo projekti.",
@@ -47,6 +48,7 @@
 	"bf12136c14d81dd3": "Näytä sarake",
 	"e1578a14726da355": "Toista ääni $1.",
 	"e2812fd25a0a5b85": "Luo sarake",
+	"e2e06bb2e5ccac26": "$1 {{PLURAL:$1|viikko(a}})",
 	"ee37d7626d791279": "Virstanpylväs",
 	"f82be68a7fb4e7de": "Viikko",
 	"fb91d6c1c7b153c2": "Toista ääni",

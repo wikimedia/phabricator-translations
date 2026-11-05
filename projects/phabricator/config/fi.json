@@ -2,14 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"0146637b5690e538": "Sarake/avain",
 	"01b2e13feda9fa39": "Mukauta logoa ja sanamerkkitekstiä otsikossa.",
 	"02e8104f1f15520d": "$1 / $2",
 	"03a68b7d8b854f2e": "Muistin käyttö",
-	"0424f6e7026fa4bc": "Taulukko",
 	"0433632f1024e44d": "Phabricator valitsee nyt automaattisesti parhaimman saatavilla olevan MySQL-toteutuksen.",
 	"0498c432c0c7a1dc": "Ohita asennusongelma",
 	"0898a760c633b197": "Sarakkeessa ei ole eritelmiä",
@@ -23,6 +23,7 @@
 	"1f83bc2e34055b3e": "Suorita $1 komento(a):",
 	"1fff6a31661b491f": "Kuvio",
 	"2039a2d4eb6dcdf5": "Tuntematon '$1' versio",
+	"2095c13ba3ffe7fc": "Asetuksia ei ole saatavilla.",
 	"24f2b54cf127a4a3": "Salli muokkaus",
 	"274eed33c0ccbbdc": "URI, johon Phabricator on asennettu.",
 	"2aef4eb2f4ce4e3c": "Tietokantapalvelimet",
@@ -43,6 +44,7 @@
 	"3a3d00a1343b1649": "Älä upota YouTube-videoita",
 	"3a68c6cf6e1f0d7b": "Poista käytöstä PHP $1",
 	"3b20b3fbebfc4b6b": "Phabricator-taustaohjelmat eivät enää käytä PID-tiedostoja.",
+	"3b7d99b85a0c82c1": "Kaikki (järjestelmän ja sovellusten) asetukset ovat siirtymisvalikon kohdassa $1.",
 	"3d01fc462117dced": "Lähetä sähköposti kaikille vastaanottajille",
 	"4028c0c8b470f545": "Ei käytettävissä",
 	"44e87cfd1fcbd6a5": "Tuntematon määritysvaihtoehto \"$1\"",
@@ -90,6 +92,7 @@
 	"9dfa143c16628357": "Mukauta faviconeja",
 	"9e58e005b25867aa": "Ei tietovarantoja",
 	"9f512a94241f7d5f": "Aikavyöhyke, jota Phabricatorin tulee käyttää.",
+	"a302010e1e0709fc": "Asetukset näkyvät vain järjestelmänvalvojille.",
 	"ac9041e76816a34a": "Automaattinen",
 	"aca851b5d634f676": "Yhteysvirhe",
 	"ae1ef01432946b89": "Tumma",
@@ -107,6 +110,7 @@
 	"c8fef35bb0051188": "Lisäasetukset",
 	"cbae4a9b31212d13": "Älä käytä HSTS:ää",
 	"cbf8bca51e649987": "Luettele kaikki konfigurointiavaimet.",
+	"ce5e9bd93afbc568": "Sovelluksen lähde",
 	"d34209f83a4f85f2": "Avain väärissä sarakkeissa",
 	"d9df769b266c487f": "Tietokannat",
 	"e0f8a9e9b13bd276": "Tuntematon kokoonpano",

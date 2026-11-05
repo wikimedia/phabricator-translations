@@ -3,7 +3,8 @@
 		"authors": [
 			"Joquliina",
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"0035403387839cb4": "Ei tuloksia.",
@@ -25,8 +26,10 @@
 	"917db70190e56956": "Arkistoitu kojelauta",
 	"9ae7f6ea0457f978": "Tallenna kysely",
 	"a4942c26d0735947": "VALITSE",
+	"a5c0b704ec60dc2e": "Virhe: käyttäjätunnuksellasi ($1) yritetään tehdä liian monta muokkausta samanaikaisesti ($2 {{PLURAL:$2|muutosta}}, joiden tyyppi on tyypin $3), mutta sinulla ei ole tähän tarvittavaa käyttöoikeutta. Tee pyyntö täällä: [[mw:Talk:Phabricator/Help]].",
 	"b29f8014721a1064": "Tässä valikossa ei ole kohteita tällä hetkellä.",
 	"bbe66238d6b8c9a2": "Tallennetut kyselyt",
+	"d2ed863c76d770b5": "Nykyiset maininnat",
 	"d664997d9c60edf3": "Minun luoma",
 	"e1842da0c8e53637": "Järjestä:",
 	"e2cc45527b888793": "Muokkaa kyselyä",

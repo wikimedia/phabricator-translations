@@ -7,6 +7,7 @@
 		]
 	},
 	"0402fe5e15b200a7": "Hallitse käyttäjää",
+	"06108d87990877b2": "Luo käyttäjätunnus botille/skriptille, jos haluat automatisoida tiedonsiirron muiden järjestelmien kanssa. Tällaiset käyttäjät eivät voi käyttää web-käyttöliittymää, vaan ne käyttävät Conduit API -rajapintaa.",
 	"0a0a90f6c5a99223": "Poista käyttäjä",
 	"153fb870fbe026b4": "Käyttäjätilit ja profiilit",
 	"157be0c811589458": "Käyttäjä ei ole minkään projektin jäsen.",
@@ -75,7 +76,6 @@
 	"906bd1cb190869c5": "Projektit ($1)",
 	"909bf3e80731a458": "Tallenna profiili",
 	"92d0e65449810eaa": "Käyttäjätilit",
-	"9460344217d7db97": "Luo standardi käyttäjätili.",
 	"973ed06fc58a3167": "Muokkaa profiilia: $1",
 	"9778204166e095f3": "Tee ylläpitäjä",
 	"9b5641a96c41d7fe": "Kuka tahansa",

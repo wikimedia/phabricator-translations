@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Wikipeedikko"
 		]
 	},
 	"002aa6b71775a72f": "Pääsy evätty: $1",
@@ -10,6 +11,11 @@
 	"4346259d624a73ac": "Salli julkinen näkyvyys",
 	"53577bb5df0ee9b6": "Kiellä",
 	"96ba3e1cc659fc7a": "on uusi",
+	"b2a11149daa20c4e": "Olemassa olevan käytännön PHID tai vakio.",
 	"b4f25a14263364e1": "Kaikki käyttäjät",
-	"eb8af4a32343925d": "Jos säännöt eivät täsmää, $1 kaikki muut käyttäjät."
+	"b873fae406c3fb29": "Nelikirjaiminen objektityyppi.",
+	"d7d692facd7e833e": "Uuden käytännön nimi.",
+	"eb8af4a32343925d": "Jos säännöt eivät täsmää, $1 kaikki muut käyttäjät.",
+	"f41caddc5bec5aea": "Muokkaa käytännön kuvausta.",
+	"fbea8e6fb83744d2": "Käytännön uusi kuvaus."
 }
