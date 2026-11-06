@@ -91,7 +91,7 @@ Dzięki temu poczta może być bardziej użyteczna, ale niektóre klienty poczty
   'Authentication factors must have a name to identify them.' => 'Metody uwierzytelniające muszą mieć nazwę umożliwiającą ich identyfikację.',
   'Choose which language you would like the UI to use.' => 'Wybierz język, w którym chcesz używać interfejsu użytkownika.',
   'Really delete address \'%s\'?' => 'Naprawdę usunąć adres \'%s\'?',
-  'Another user already has this email.' => 'Inny użytkownik posiada już ten e-mail.',
+  'Another user already has this email.' => 'Ten adres e-mail ma już inny użytkownik.',
   'Change primary email address?' => 'Zmienić podstawowy adres e-mail?',
   'Monospaced Font' => 'Czcionka o stałej szerokości',
   'HTML Email' => 'E-mail HTML',

@@ -22,7 +22,6 @@ final class PhabricatorSettingsSk
   'Global Default Settings' => 'Globálne predvolené nastavenia',
   'Self Actions' => 'Vlastné akcie',
   'Unlink' => 'Zrušiť prepojenie',
-  'If you have difficulty reading the UI, this setting may help.' => 'Ak máte problém s čítaním používateľského rozhrania, toto nastavenie vám môže pomôcť.',
   'Email Notifications' => 'E-mailové upozornenia',
   'Show Unified Diffs' => 'Zobraziť zjednotené rozdiely',
   'Diff Preferences' => 'Predvoľby rozdielov',

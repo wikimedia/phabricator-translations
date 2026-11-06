@@ -13,8 +13,10 @@ final class PhabricatorDivinerLb
   'Article' => 'Artikel',
   'Books' => 'Bicher',
   'No books found.' => 'Keng Bicher fonnt.',
+  'Edit Book' => 'Buch änneren',
   'Defined' => 'Definéiert',
   'Documentation Not Found' => 'Dokumentatioun net fonnt',
+  'Edit Book: %s' => 'Buch änneren: %s',
   'Book' => 'Buch',
 );
   }

@@ -201,7 +201,6 @@ final class PhabricatorDashboardSk
   'Add Dashboard to Personal Home Page' => 'Pridať nástenku na osobnú domovskú stránku',
   'Panel Type' => 'Typ panela',
   'View Panel Details' => 'Zobraziť podrobnosti panela',
-  'Flag' => 'Príznak',
   'Archived Panels' => 'Archivované panely',
   'Manage Panel' => 'Spravovať panel',
   'Rename the panel.' => 'Premenovať panel.',

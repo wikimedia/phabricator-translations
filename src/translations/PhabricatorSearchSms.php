@@ -20,7 +20,6 @@ final class PhabricatorSearchSms
   'SELECT' => 'VAʹLLJED',
   'NOTE' => 'HOʹHSS',
   'Saved Queries' => 'Ruõkkum kõjldõõzz',
-  'Link' => 'Liŋkk',
   'Edit Queries...' => 'Muuʹtt ooccâmkõjldõõzzid...',
 );
   }

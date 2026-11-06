@@ -66,7 +66,6 @@ final class PhabricatorPasteNl
   '%s archived this paste.' => '%s heeft deze paste gearchiveerd.',
   'Edit Paste' => 'Paste bewerken',
   '[Paste]' => '[Paste]',
-  'Eat Paste' => 'Paste opeten',
   'Active Pastes' => 'Actieve pastes',
   'Change the paste content.' => 'De paste-inhoud wijzigen.',
   '%s updated the language for %s from %s to %s.' => '%s heeft de taal van %s gewijzigd van %s naar %s.',

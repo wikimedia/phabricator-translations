@@ -111,7 +111,6 @@ https://www.twitch.tv/settings/applications
   'Log In with LDAP' => 'LDAP으로 로그인',
   'Expected verifier to finish OAuth handshake!' => 'OAuth 핸드쉐이크를 끝내기 위한 검증자가 예상되었습니다!',
   'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => '"--type"을 지정해서 폐기할 자격 증명 유형을 지정하거나, "--everything"을 지정하세요. 사용 가능한 자격 증명 유형 목록을 보려면 "--list"를 사용하세요.',
-  'Start TLS after binding to the LDAP server.' => 'LDAP 서버에 바인딩한 후 TLS를 시작합니다.',
   'Duo providers must have an API hostname.' => 'Duo API 제공자에는 API 호스트 이름이 있어야 합니다.',
   'TOTP Code' => 'TOTP 코드',
   'Invalid response token for this challenge: token digest does not match stored digest.' => '이 챌린지에 대한 응답 토큰이 유효하지 않습니다: 토큰 다이제스트가 저장된 다이제스트와 일치하지 않습니다.',
@@ -270,27 +269,6 @@ https://developer.amazon.com/apps-and-games/login-with-amazon
   'The password and confirmation do not match.' => '비밀번호와 확인 비밀번호가 일치하지 않습니다.',
   'Reset action counters so a user can continue taking rate-limited actions.' => '사용자가 속도 제한이 있는 작업을 계속 수행할 수 있도록 작업 카운터를 재설정합니다.',
   '%s disabled this contact number.' => '%s님이 연락처를 비활성화했습니다.',
-  'To configure GitHub OAuth, create a new GitHub Application here:
-
-https://github.com/settings/applications/new
-
-You should use these settings in your application:
-
-  - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
-  - **Callback URL**: Set this to: `%s`
-
-
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'GitHub OAuth를 구성하려면 다음 링크에서 새 GitHub 애플리케이션을 생성하세요:
-
-https://github.com/settings/applications/new
-
-애플리케이션에서 다음 설정을 사용하세요:
-
-  - **URL:**: 전체 도메인과 프로토콜을 입력하세요. 이 서버의 경우의 올바른 값: `%s`
-  - **콜백 URL**: 다음으로 설정: `%s`
-
-
-애플리케이션을 생성한 후 **클라이언트 ID**와 **클라이언트 비밀 키**를 위의 필드에 복사하여 붙여넣으세요.',
   'No Providers Configured:' => '구성된 제공자 없음:',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => '계속 진행하면 새 계정이 생성됩니다. 이 외부 계정은 기존 계정에 연결할 수 없습니다.',
   'A text message with an authorization code will be sent to your primary contact number.' => '인증 코드가 포함된 문자 메시지가 기본 연락처로 발송됩니다.',
@@ -418,6 +396,7 @@ If you haven\'t already, download and install a TOTP application on your phone n
   'Expected token to finish OAuth handshake!' => 'OAuth 핸드쉐이크를 끝내기 위한 토큰이 예상되었습니다!',
   'Unable to start TLS connection when connecting to LDAP.' => 'LDAP에 연결할 때 TLS 연결을 시작할 수 없습니다.',
   'Authentication provider configuration is locked, and can not be changed without being unlocked.' => '인증 제공자 구성이 잠겨 있으므로, 잠금을 해제하지 않으면 변경할 수 없습니다.',
+  'Use StartTLS' => 'StartTLS 사용',
   'Factor type "%s" is unknown. Use `bin/auth list-factors` to get a list of known factor types.' => '"%s" 유형의 단계를 알 수 없습니다. 알려진 단계 유형 목록을 보려면 `bin/auth list-factors`를 사용하세요.',
   'Log In (%s)' => '로그인 (%s)',
   'Skip This Step' => '이 단계 건너뛰기',
@@ -646,7 +625,6 @@ Choose a permanent name for the remote server you want to connect to. This name 
   'Password Reset' => '비밀번호 재설정',
   'Expected valid JSON response from Amazon account data request.' => 'Amazon 계정 데이터 요청으로부터 유효한 JSON 응답을 예상했습니다.',
   'Revoked SSH keys can not be edited or reinstated.' => '폐기된 SSH 키는 편집하거나 복구할 수 없습니다.',
-  'Follow referrals. Disable this for Windows AD 2003.' => '리퍼럴을 따릅니다. Windows AD 2003에서는 이것을 비활성화하세요.',
   'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => '경고: 아직 인증 제공자를 구성하지 않았으므로 계정에 로그인 자격 증명이 없습니다. 지금 로그아웃하면 정상적으로 다시 로그인할 수 없습니다.',
   'If you do not recognize this change, it may indicate your account has been compromised.' => '이러한 변경 사항을 인지하지 못하는 경우 계정이 해킹당했을 가능성이 있습니다.',
   'Link Accounts' => '계정 연결',
@@ -1236,6 +1214,27 @@ LDAP 오류 #%d: %s',
   'LDAP search failed.' => 'LDAP 검색을 실패했습니다.',
   'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => '지정된 passphrase로 이 개인 키를 열 수 없습니다. passphrase가 잘못되었거나 키 형식이 올바르지 않을 수 있습니다. 유효한 개인 키의 전체 텍스트와 올바른 passphrase를 입력했는지 확인하세요.',
   'Allow Auto Login' => '자동 로그인 허용',
+  'To configure GitHub OAuth, create a new GitHub Application here:
+
+https://github.com/settings/applications/new
+
+You should use these settings in your application:
+
+  - **Homepage URL:** Set this to your full domain with protocol.     For this server, the correct value is: `%s`
+  - **Authorization callback URL**: Set this to: `%s`
+
+
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'GitHub OAuth를 구성하려면 다음 링크에서 새 GitHub 애플리케이션을 생성하세요:
+
+https://github.com/settings/applications/new
+
+애플리케이션에서 다음 설정을 사용하세요:
+
+  - **홈페이지 URL:**: 전체 도메인과 프로토콜을 입력하세요. 이 서버의 경우의 올바른 값: `%s`
+  - **인증 콜백 URL**: 다음으로 설정: `%s`
+
+
+애플리케이션을 생성한 후 **클라이언트 ID**와 **클라이언트 비밀 키**를 위의 필드에 복사하여 붙여넣으세요.',
   'Note: Unlinking an authentication provider will terminate any other active login sessions.' => '참고: 인증 제공자 연결을 해제하면 다른 모든 활성화된 로그인 세션이 종료됩니다.',
   '%s renamed this key from "%s" to "%s".' => '%s님이 이 키의 이름을 "%s"에서 "%s"(으)로 변경했습니다.',
   'Enable Number' => '번호 활성화',
@@ -1307,7 +1306,6 @@ You can make adjustments from the [[ /settings/ | Settings ]] panel later.' => '
   'Login Failed' => '로그인 실패',
   'You have failed to verify multi-factor authentication too often in a short period of time.' => '단시간동안 다단계 인증 확인에 너무 많이 실패했습니다.',
   'You can not make a disabled number a primary contact number.' => '비활성화된 번호를 기본 연락처로 설정할 수 없습니다.',
-  'Use TLS' => 'TLS 사용',
   'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => '이 설치에는 구성 옵션 "%s"이(가) 활성화되어 있지만, 활성화된 다단계 인증 제공자가 구성되어 있지 않습니다. 즉, 다단계 인증을 추가해야 하지만 추가할 수 없습니다. 관리자가 "%s"을(를) 비활성화하거나 다단계 인증 제공자를 활성화해야 계속 진행할 수 있습니다.',
   'You will no longer be able to use your %s account to log in.' => '로그인 시 더이상 %s을(를) 사용할 수 없게 됩니다.',
   'Auth Invite' => 'Auth 초대',

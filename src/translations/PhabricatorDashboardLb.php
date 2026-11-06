@@ -11,6 +11,7 @@ final class PhabricatorDashboardLb
     return array(
   'New Portal' => 'Neit Portal',
   'Unknown Type' => 'Onbekannten Typ',
+  'Menu' => 'Menü',
   'Portal %d' => 'Portal %d',
   'One Column: 100%%' => 'Eng Kolonn: 100%%',
   'Portal' => 'Portal',

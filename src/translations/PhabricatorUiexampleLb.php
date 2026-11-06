@@ -27,7 +27,6 @@ final class PhabricatorUiexampleLb
   'Buttons' => 'Knäppercher',
   'Emoji' => 'Emoji',
   'Electric' => 'Elektresch',
-  'Color Palette' => 'Faarfpalett',
   'Mouse' => 'Maus',
   'Lists' => 'Lëschten',
   'Zucchini' => 'Zucchini',

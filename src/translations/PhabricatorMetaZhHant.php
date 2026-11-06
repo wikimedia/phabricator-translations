@@ -14,7 +14,7 @@ final class PhabricatorMetaZhHant
   'Syntax' => '語法',
   'Show First-Party Applications' => '顯示第一方應用程式',
   'Create Application' => '建立應用程式',
-  'Unknown order "%s"!' => '不明排序「%s」！',
+  'Unknown order "%s"!' => '未知排序「%s」!',
   'Prototypes Not Enabled' => '原型未啟用',
   'Policy does not exist.' => '方針不存在。',
   'Launcher' => '啟動器',
@@ -44,13 +44,13 @@ When %s receives your mail, it will process any commands first, then post the re
 
 I just talked to @alincoln, and he showed me that he fixed this.
 ```
-' => '在設置完處理站內郵件之後，您可以用郵件與對象（像是任務與修訂版本）互動。有關設置站內郵件的資訊，請查看**[[ %s |設置站內郵件]]**。
+' => '在設置完站內郵件的處理之後，您可以用郵件與物件（像是任務與修訂版本）互動。有關設置站內郵件的資訊，請查看**[[ %s |設置站內郵件]]**。
 
-在多數情況下，您可以回覆從此伺服器收到的郵件來留下評註。您也可以使用**郵件指令**，以不需透過登入到網頁使用介面來進行更多範圍的操作（像是聲明任務或是請求對修訂版本更改）。
+在多數情況下，您可以回覆從此伺服器收到的郵件來留下評註。您也可以使用**郵件指令**，以不需透過登入到網頁使用介面來進行更多範圍的操作（像是聲明某個任務或是請求對修訂版本更改）。
 
-郵件指令是以驚歎號為開頭的關鍵字，像是 `!claim`。有些指令會需要補充參數，比如 `!assign alincoln`.
+郵件指令是以驚歎號為開頭的關鍵字，像是 `!claim`。有些指令會需要參數，比如 `!assign alincoln`.
 
-郵件指令的使用，是在您的郵件訊息的開頭或結尾處編寫一行指令。例如，您可以在任務郵件的回覆中編寫以下內容來聲明任務：
+郵件指令的使用，是在您的郵件訊息的開頭或結尾處編寫一行指令。例如，您可以在任務郵件的回覆中編寫以下內容來聲明該任務：
 
 ```
 !claim
@@ -59,7 +59,7 @@ I\'ll take care of this.
 ```
 
 
-當%s收到您的郵件，會優先處理任何指令，然後將剩餘的訊息正文以評註發布。另外您可以一次執行多個指令：
+當%s收到您的郵件，會優先處理任何一個指令，然後將剩餘的訊息正文以評註發佈。您可以一次執行多個指令：
 
 ```
 !assign alincoln
@@ -68,7 +68,7 @@ I\'ll take care of this.
 I just talked to @alincoln, and he showed me that he fixed this.
 ```',
   'Show Enabled Applications' => '顯示已啟用的應用程式',
-  'Can\'t set non-public capabilities to public.' => '不能設定非公共方針為公共。',
+  'Can\'t set non-public capabilities to public.' => '無法將非公開更改為公開。',
   'Launchable' => '可執行',
   'You cannot enable an enabled application.' => '您不能啟用一個已啟用過的應用程式。',
   'Save Policies' => '儲存方針',
@@ -76,28 +76,31 @@ I just talked to @alincoln, and he showed me that he fixed this.
   'To manage prototypes, enable them by setting %s in your configuration.' => '要管理原型，請透過在您的設置裡設定%s來啓動它們。',
   'Prototype' => '原型',
   'Edit Policies: %s' => '編輯方針：%s',
-  'Really Disable Application?' => '確定解除安裝應用程式？',
+  'Really Disable Application?' => '真的要停用應用程式嗎？',
   'Create New Application' => '建立新的應用程式',
-  'Extension' => '擴充',
+  'Extension' => '擴充功能',
+  'Enable %s application?' => '啟用%s應用程式？',
   'Validation Failed' => '驗證失敗',
-  'Really disable the %s application?' => '確定解除安裝應用程式%s？',
-  'Capability "%s" is not editable for this application.' => '性能「%s」對於此應用程式為不可編輯。',
+  'Really disable the %s application?' => '真的要停用%s應用程式？',
+  'Capability "%s" is not editable for this application.' => '此應用程式「 %s 」功能無法編輯。',
   'Mail Commands Overview' => '郵件指令概要',
   'Show Launchable Applications' => '顯示可執行的應用程式',
   'Show Released Applications' => '顯示已釋出的應用程式',
-  'Show Non-Launchable Applications' => '顯示無法執行的應用程式',
+  'Show Non-Launchable Applications' => '顯示不可執行的應用程式',
   'This is very unusual and will leave you without any content on the home page. You should only do this if you are certain you know what you are doing.' => '這樣做是不尋常的，因為不會在首頁留下任何內容。您應該要確定清楚您在做什麼再進行。',
-  'Show Disabled Applications' => '顯示已解除安裝應用程式',
-  'Configure Application Forms' => '設置應用程式形式',
+  'Show Disabled Applications' => '顯示已停用的應用程式',
+  'Configure Application Forms' => '設置應用程式的形式',
   'Show Applications w/ App Email Support' => '顯示有應用程式郵件支援的應用程式',
   'Can\'t set the policy to a policy you can\'t view!' => '無法將方針設定成您無法檢視的方針！',
   'Type an application name...' => '輸入應用程式名稱…',
   'Quick Reference' => '快速參考',
   'Show Applications w/o App Email Support' => '顯示沒有應用程式郵件支援的應用程式',
-  'This application is required and cannot be disabled.' => '該應用程式是必需的，無法被解除安裝。',
-  'Configure creation and editing forms in Applications.' => '設置在應用程式的建立與編輯形式。',
+  'This application is required and cannot be disabled.' => '該應用程式是必需的，無法停用。',
+  '%s changed the %s policy for application %s from %s to %s.' => '%s 將應用程式 %3$s 的 %s 方針從 %4$s 調整為 %5$s。',
+  'Configure creation and editing forms in Applications.' => '設置在應用程式的建立與編輯的形式。',
   'Show Prototype Applications' => '顯示原型應用程式',
   'This server is not currently configured to accept inbound mail. You won\'t be able to interact with objects over email until inbound mail is set up.' => '該伺服器目前未設置接受站內郵件。在站內郵件設定好之前，您無法與對象互動。',
+  '%s changed the %s policy from %s to %s.' => '%s 將 %s 政策從 %s 調整為 %s。',
   'Edit Application: %s' => '編輯應用程式：%s',
   'Show Third-Party Applications' => '顯示第三方應用程式',
   'Are you absolutely certain you want to disable the Home application?' => '您真的確定要停用首要應用程式？',

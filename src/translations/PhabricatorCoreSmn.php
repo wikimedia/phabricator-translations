@@ -32,7 +32,6 @@ final class PhabricatorCoreSmn
   'Publish' => 'Almostit',
   'Wednesday' => 'Koskokko',
   'Users' => 'Kevtteeh',
-  'name' => 'nommâ',
   'Download File' => 'Luođii tiätuvuárhá',
   'Name' => 'Nommâ',
   'Notifications' => 'Almottâsah',

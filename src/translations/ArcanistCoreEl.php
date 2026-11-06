@@ -29,7 +29,6 @@ final class ArcanistCoreEl
   '**bookmarks**' => '**σελιδοδείκτες**',
   'Inline HTML' => 'Ενδοκειμενικό HTML',
   'Remote Repository' => 'Απομακρυσμένο αποθηκευτήριο',
-  'Empty certificate in credentials.' => 'Άδειο πιστοποιητικό σε πιστοποιητικά.',
   'No tests to run.' => 'Δεν υπάρχουν δοκιμές για εκτέλεση.',
   '%s assertion(s) passed.' => '%s διαβεβαίωση(-εις) πέρασαν.',
   'Empty key is invalid!' => 'Το άδειο κλειδί δεν είναι έγκυρο!',

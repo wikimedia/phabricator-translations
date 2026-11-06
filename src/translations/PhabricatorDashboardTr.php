@@ -189,7 +189,6 @@ final class PhabricatorDashboardTr
   'Add Dashboard to Personal Home Page' => 'Panoyu Kişisel Ana Sayfaya Ekle',
   'Panel Type' => 'Panel Türü',
   'View Panel Details' => 'Panel Ayrıntılarını Görüntüle',
-  'Flag' => 'İşaretle',
   'Archived Panels' => 'Arşivlenmiş Paneller',
   'Manage Panel' => 'Paneli Yönet',
   'Rename the panel.' => 'Paneli yeniden adlandırın.',

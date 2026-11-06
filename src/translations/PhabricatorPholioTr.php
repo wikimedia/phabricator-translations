@@ -43,7 +43,6 @@ final class PhabricatorPholioTr
   'You can not query for inline comments without also querying for images.' => 'Resimler için sorgulamadan satır içi yorumları sorgulayamazsınız.',
   'Someone comments on a mock.' => 'Biri sahte hakkında yorum yapıyor.',
   'Uploading Image...' => 'Resim Yükleniyor...',
-  'History Beckons' => 'İşaret Geçmişi',
   'Mock Fields' => 'Sahte Alanlar',
   'Pholio Mock' => 'Pholio Sahtesi',
   'Open Pholio Mock' => 'Pholio Sahteyi Aç',

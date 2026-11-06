@@ -67,7 +67,6 @@ final class PhabricatorPasteSk
   '%s archived this paste.' => '%s archivoval tento vložený text.',
   'Edit Paste' => 'Upraviť vložený text',
   '[Paste]' => '[Paste]',
-  'Eat Paste' => 'Zjedz pastu',
   'Active Pastes' => 'Aktívne vložené texty',
   'Change the paste content.' => 'Zmeniť obsah vloženého textu.',
   '%s updated the language for %s from %s to %s.' => '%s aktualizoval jazyk %s z %s na %s.',

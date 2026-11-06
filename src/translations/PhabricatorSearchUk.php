@@ -17,7 +17,6 @@ final class PhabricatorSearchUk
   'Current Menu Items' => 'Поточні пункти меню',
   'No Content' => 'Без вмісту',
   'This menu currently has no items.' => 'У цьому меню наразі немає елементів.',
-  'Link' => 'Посилання',
   'Created By Me' => 'Створено мною',
   'Use Results' => 'Результати використання',
   'Order By' => 'Сортувати за',

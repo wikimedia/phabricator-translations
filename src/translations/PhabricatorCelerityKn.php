@@ -10,7 +10,6 @@ final class PhabricatorCelerityKn
   protected function getTranslations() {
     return array(
   'Use Standard Colors' => 'ಪ್ರಮಾಣಿತ ಬಣ್ಣಗಳನ್ನು ಬಳಸಿ',
-  'Use Larger Font Size' => 'ಇನ್ನೂ ದೊಡ್ಡ ಫಾಂಟ್ ಗಾತ್ರ ಬಳಸಿ',
   'Dark Mode' => 'ಡಾರ್ಕ್ ಮೋಡ್ (ಪ್ರಾಯೋಗಿಕ)',
 );
   }

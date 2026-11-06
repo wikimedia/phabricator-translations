@@ -35,7 +35,6 @@ final class ArcanistCoreBeTarask
   'Output upload information in JSON format.' => 'Вывад інфармацыі пра загрузку ў JSON-фармаце.',
   'Inline HTML' => 'Укладзены HTML',
   'Remote Repository' => 'Аддаленае сховішча',
-  'Empty certificate in credentials.' => 'Пусты сэртыфікат у пасьведчаньнях.',
   'No tests to run.' => 'Няма тэстаў для запуску.',
   'Unknown Symbol' => 'Невядомы сымбаль',
   '`%s` Statement Must Be The First Statement' => 'Сьцьверджаньне «%s» мусіць быць першым сьцьверджаньнем',

@@ -39,7 +39,6 @@ final class PhabricatorDashboardJa
   'Edit Portals' => 'ポータルを編集',
   '(None)' => '(なし)',
   'Portals' => 'ポータル',
-  'Flag' => 'フラグ',
   'Archived Panels' => 'アーカイブ済みのパネル',
   '%s archived this panel.' => '%s がこのパネルをアーカイブしました。',
   'All Portals' => 'すべてのポータル',

@@ -229,7 +229,6 @@ Transcript: %s' => '이 푸시는 헤럴드 푸시 규칙 %s에 의해 거부되
   'Unknown SVN wire protocol structure \'%s\'!' => '알 수 없는 SVN 와이어 프로토콜 구조 \'%s\'!',
   'Checkout' => '체크아웃',
   'Merged Changes' => '병합된 변경 사항',
-  'This repository is observed.' => '이 저장소는 관찰 대상입니다.',
   'All concerns with this commit have now been addressed.' => '이 커밋에 대한 모든 문제가 모두 해결되었습니다.',
   'This repository is read-only over SSH.' => '이 저장소는 SSH에 대해 읽기 전용입니다.',
   'Pusher is committer' => '푸셔가 커밋터임',

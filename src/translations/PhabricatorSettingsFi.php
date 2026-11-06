@@ -76,6 +76,7 @@ final class PhabricatorSettingsFi
   'Expired' => 'Vanhentunut',
   'No Notifications' => 'Ei ilmoituksia',
   'Password Algorithms' => 'Salasana-algoritmit',
+  'Color Theme' => 'Väriteema',
   'Send HTML Email' => 'Lähetä HTML-sähköposteja',
   'Translation' => 'Käännös',
   'Settings %d' => 'Asetukset %d',

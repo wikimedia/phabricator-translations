@@ -60,7 +60,6 @@ Les sol·licituds han d\'incloure una capçalera "Host" vàlida.',
   'Memory Usage' => 'Ús de Memòria',
   'The request body that was sent began:' => 'El cos de la petició que Phabricator ha enviat en començar:',
   'Impersonating users over the API is no longer supported.' => 'Ja no és possible fer-se passar per altres usuaris a través de l\'API.',
-  'Table' => 'Taula',
   'The best available MYSQL implementation is now selected automatically.' => 'Ara Phabricator selecciona automàticament la millor implementació MySQL disponible.',
   'Ignore Setup Issue' => 'Ignora la Incidència de Configuració',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
@@ -172,7 +171,6 @@ Si configureu Phabricator per sincronitzar automàticament la informació del co
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'No s\'ha pogut trobar el binari "%s". Enllaceu-lo a "%s" o configureu la variable d\'entorn de %s del servidor web per incloure el directori on resideix o afegiu-lo a "%s" a la configuració de Phabricator.',
   'Configuration Guide: Locked and Hidden Configuration' => 'Guia de Configuració: Configuració Bloquejada i Oculta',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Aquesta opció habilita informes d\'errors verbosos (traces de piles, fumets d\'errors) i obliga el disc a llegir dels recursos estàtics a cada recàrrega.',
-  'Wrote configuration key "%s" to local storage (in file "%s").' => 'S\'ha escrit la clau de configuració «%s» a l\'emmagatzematge local (en el fitxer «%s»).',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Aquests URI alternatius podran accedir a pàgines \'normals\' de la vostra instal·lació de Phabricator. Altres funcionalitats com OAuth no funcionaran. El cas d\'ús principal per a això és moure instal·lacions entre dominis.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Rèplica no Replicant',
@@ -379,15 +377,6 @@ Si no s’estableix, no s’escriurà cap registre.',
   'This suggests your webserver is configured to decompress or mangle compressed requests.' => 'Això suggereix que el seu servidor web està configurat per descomprimir o destrossar les sol·licituds comprimides.',
   'By default, this software links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Per defecte, Phabricator enllaça els noms dels objectes dels camps ressaltats amb l\'objecte corresponent. Aquesta expressió regular es pot utilitzar per modificar aquest comportament; els noms d\'objectes que coincideixin amb aquesta expressió regular no es vincularan.',
   'This server has a known bad version of "%s".' => 'Aquest servidor té una versió incorrecta coneguda de "%s".',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'La versió de %s d’aquest sistema està obsoleta i conté una important vulnerabilitat àmpliament coneguda (l’error "Shellshock").
-
-Actualitzeu %s a una versió corregida.
-
-Per obtenir més informació sobre com aquest problema afecta Phabricator, vegeu %s.',
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Sense un fus horari configurat, PHP emetrà avisos quan es treballi amb dates i és possible que les dates i les hores no es mostrin correctament.',
   'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => 'L\'opció \'%s\' és del tipus \'%s\' i s\'ha d\'establir en una llista d\'expressions regulars vàlides, però \'%s\' no és una expressió regular vàlida.',
   'This schema can use a better character set.' => 'Aquest esquema pot utilitzar un millor conjunt de caràcters.',
@@ -419,7 +408,6 @@ Especifiqueu una llista de diccionaris. Cada diccionari descriu un element de pe
 Your webserver may not be configured to forward HTTP basic authentication. If you plan to use basic authentication (for example, to access repositories) you should reconfigure it.' => 'Phabricator es va enviar a si mateix una sol·licitud de prova amb una capçalera HTTP "Authorització", i esperava que aquestes credencials es transmetessin.  No obstant això, estaven absents o eren incorrectes quan eren rebuts.  Phabricator ha enviat el nom d\'usuari «%s» amb la contrasenya «%s»; ha rebut el nom d\'usuari «%s» i la contrasenya «%s». <br><br>És possible que el vostre servidor web no estigui configurat per reenviar l\'autenticació bàsica HTTP.  Si voleu utilitzar l\'autenticació bàsica (per exemple, per accedir als repositoris) heu de reconfigurar-la.',
   'Controls whether email is sent "From" users.' => 'Controla si el Phabricator envia un correu electrònic d\'usuaris "De".',
   'The notification server no longer requires root permissions. Start the server as the user you want it to run under.' => 'El servidor de notificacions ja no requereix permisos d\'arrel. Inicieu el servidor com l\'usuari al qual voleu que s\'executi.',
-  'T6185 "Shellshock" Bash Vulnerability' => 'Vulnerabilitat del bash T6185 "Shellshock"',
   'Retention policies for garbage collection.' => 'Polítiques de retenció per a la recollida d’escombraries.',
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL (a l\'amfitrió \'%s\') està configurat amb un innodb_buffer_pool_size molt petit, que pot afectar el rendiment.',
   'The following caches will be cleared:' => 'Es netejaran les següents cachés:',
@@ -953,7 +941,6 @@ You should disable this option in your %s file, in the %s section:
 Haureu de desactivar aquesta opció al fitxer %s, a la secció %s:
 
 %s',
-  'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Aquest sistema té una versió sense pedaços de Bash amb una vulnerabilitat severa i àmpliament divulgada.',
   'Keys' => 'Claus',
   'PHP is currently configured to honor requests from any MySQL server it connects to for the content of any local file.
 
@@ -969,12 +956,6 @@ Encara que normalment és difícil per a un atacant convèncer Phabricator de co
 
 Per desactivar aquesta opció, estableix: %s',
   'Wordmark' => 'Nom de la marca',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'ADVERTÈNCIA: Aquesta és una opció prototip i la descripció següent és actualment pura fantasia.
-
-Canvieu Phabricator al mode de només lectura. En aquest mode, els usuaris no podran escriure dades noves. Normalment, el clúster es degrada a aquest mode automàticament quan detecta que no es pot accedir al mestre de base de dades, però podeu activar-lo manualment per realitzar el manteniment o la configuració de proves.',
-  'Severe Security Vulnerability: Unpatched Bash' => 'Vulnerabilitat de seguretat severa: Bash sense pedaços',
   'Force HTTPS' => 'Forçar HTTPS',
   'This key is not expected to exist.' => 'No s’espera que existís aquesta clau.',
   '%d related link(s):' => '%d enllaços relacionats:',

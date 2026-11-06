@@ -21,7 +21,6 @@ final class PhabricatorSettingsTr
   'Global Default Settings' => 'Genel Varsayılan Ayarlar',
   'Self Actions' => 'Öz Eylemler',
   'Unlink' => 'Bağlantıyı Kaldır',
-  'If you have difficulty reading the UI, this setting may help.' => 'Eğer kullanıcı arayüzünü okumakta zorluk çekiyorsanız, bu ayar yardımcı olabilir.',
   'Email Notifications' => 'E-posta Bildirimleri',
   'Show Unified Diffs' => 'Birleştirilmiş Farkları Göster',
   'Diff Preferences' => 'Fark Tercihleri',

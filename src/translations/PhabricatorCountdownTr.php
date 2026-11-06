@@ -33,7 +33,6 @@ final class PhabricatorCountdownTr
   'The title of the countdown.' => 'Geri sayım başlığı.',
   'Keep track of upcoming launch dates with embeddable counters.' => 'Katlanabilir sayaçlar ile yaklaşan lansman tarihlerini takip edin.',
   'End Date (Future to Past)' => 'Bitiş Tarihi (Geçmişten Geleceğe)',
-  'Last Words' => 'Son Sözler',
   'New description.' => 'Yeni açıklama.',
   'Edit Countdown' => 'Geri Sayımı Düzenle',
   'End Date' => 'Bitiş Tarihi',

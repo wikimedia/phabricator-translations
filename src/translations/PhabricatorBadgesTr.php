@@ -62,7 +62,6 @@ final class PhabricatorBadgesTr
   'Default edit policy for badges.' => 'Rozetler için varsayılan düzenleme politikası.',
   'Anchors Away' => 'Uzaktaki Çapalar',
   'Love is Love' => 'Aşk Aşktır',
-  'Render Honors' => 'Onur Oluştur',
   'Someone comments on a badge.' => 'Birisi bir rozet hakkında yorum yapar.',
   'Badge name.' => 'Rozet adı.',
   'Short description of the badge.' => 'Rozetin kısa açıklaması.',

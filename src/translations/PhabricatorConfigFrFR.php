@@ -89,7 +89,6 @@ Les requêtes doivent inclure un entête « Host » valide.',
   'Memory Usage' => 'Utilisation de la mémoire',
   'The request body that was sent began:' => 'Le corps de la requête qui a été envoyé commençait par :',
   'Impersonating users over the API is no longer supported.' => 'Utiliser l’API en se faisant passer pour un utilisateur n’est plus pris en charge.',
-  'Table' => 'Tableau',
   'The best available MYSQL implementation is now selected automatically.' => 'La meilleure implémentation MYSQL disponible est désormais sélectionnée automatiquement.',
   'Ignore Setup Issue' => 'Ignorer le problème d’installation',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
@@ -201,15 +200,6 @@ La valeur par défaut est `full`.',
   'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Lancer le script de mise à jour du stockage pour mettre à jour les bases de données (l’hôte « %s » n’a pas été initialisé).',
   'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Vous n\'avez pas encore configuré de logiciel de messagerie, ce serveur ne pourra donc pas envoyer ni recevoir de courriel. Consultez le paramétrage de configuration « cluster.mailers » pour plus de détails.',
   'Unrecognized verb: %s' => 'Verbe non reconnu : %s',
-  'WARNING: This is a prototype option and the description below is currently pure
-fantasy.
-
-This option allows you to make this service aware of database read replicas so
-it can monitor database health, spread load, and degrade gracefully to
-read-only mode in the event of a failure on the primary host. For help with
-configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => 'AVERTISSEMENT : il s\'agit d\'une option prototype et la description ci-dessous est actuellement de la pure fantaisie.
-
-Cette option vous permet de rendre ce service conscient des répliques de lecture de base de données afin qu\'il puisse surveiller l\'état de la base de données, répartir la charge et passer en mode lecture seule en cas de panne sur l\'hôte principal. Pour obtenir de l\'aide sur la configuration des bases de données en grappe, consultez **[[%s|%s]]** dans la documentation.',
   'Schemata Issues' => 'Problèmes de schémas',
   'Expected Collation' => 'Collation attendue',
   'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => 'L’option « %s » est de type « %s », mais la valeur n’est pas une liste : c’est une correspondance avec des clés non naturelles ou clairsemées.',
@@ -244,7 +234,6 @@ Cette option vous permet de rendre ce service conscient des répliques de lectur
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'Le binaire \'%s\' n’a pas pu être trouvé. Faites un lien symbolique dessus dans \'%s\', ou initialisez la variable d’environnement %s du serveur web pour inclure le répertoire où il réside, ou ajouter ce répertoire à \'%s\' dans la configuration.',
   'Configuration Guide: Locked and Hidden Configuration' => 'Guide de configuration : configuration verrouillée et masquée',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Cette action permet un rapport verbeux des erreurs (traces en pile, rappels d’erreur) et force les lectures sur disque des ressources statiques lors de chaque rechargement.',
-  'Wrote configuration key "%s" to local storage (in file "%s").' => 'Clé de configuration « %s » écrite sur le stockage local (dans le fichier « %s »).',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Ces URI alternatifs pourront accéder aux pages \'normales\' sur votre installation. D’autres fonctionnalités comme OAuth ne fonctionneront pas. Le principal cas d\'utilisation de cette fonctionnalité est le déplacement d\'installations entre domaines.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Copie sans réplication',
@@ -456,8 +445,6 @@ smaller messages. The actions themselves will still work properly.' => 'Vous pou
   'Configure the access logs, which log HTTP/SSH requests.' => 'Configurer les journaux d’accès, qui tracent les requêtes HTTP/SSH.',
   '%ss Behind' => '%ss derrière',
   'The PID of the server process.' => 'Le PID du processus du serveur.',
-  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
-            \'installed on an entire domain; it can not be installed on a path.' => 'L’option de configuration \'%s\' n’est pas valide : l’URI ne doit PAS contenir de chemin. Par exemple \'%s\' est OK mais \'%s\' ne l’est pas. Autrement dit, ce logiciel doit être installé à la racine d\'un domaine et non dans un sous-répertoire.',
   'Blacklist subnets to prevent user-initiated outbound requests.' => 'Mettre les sous-réseaux en liste noire pour éviter des requêtes de sortie initiées par l’utilisateur.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
@@ -629,15 +616,6 @@ Si non défini, aucun journal ne sera écrit.',
   'Use the %s to manage enabled applications.' => 'Utiliser le %s pour gérer des applications installées.',
   'Current Configuration' => 'Configuration actuelle',
   'Replicating Master' => 'Réplication du maître',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'La version de %s sur ce système est obsolète et contient une vulnérabilité majeure largement diffusée (la faille « Shellshock »).
-
-Mettre à jour %s vers une version corrigée.
-
-Pour en savoir plus sur la manière dont ce problème affecte ce logiciel, voir %s.',
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Sans fuseau horaire configuré, PHP émettra des avertissements en travaillant avec des dates, et les dates et les heures pourront ne pas s’afficher correctement.',
   'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => 'L’option « %s » est de type « %s » et doit être initialisée avec une liste d’expressions rationnelles valides, mais « %s » n’est pas une expression rationnelle valide.',
   'This schema can use a better character set.' => 'Ce schéma peut utiliser un meilleur jeu de caractères.',
@@ -676,7 +654,6 @@ Votre serveur web n\'est peut-être pas configuré pour transmettre l’authenti
   'This issue will no longer be suppressed, and will return to its rightful place as a global setup warning.' => 'Ce problème ne sera plus supprimé, et retournera à sa place correcte en tant qu’avertissement général d’installation.',
   'Allows you to remove levity and jokes from the UI.' => 'Vous permet de supprimer le manque de sérieux et les blagues de l’IHM.',
   'Sites' => 'Sites',
-  'T6185 "Shellshock" Bash Vulnerability' => 'Vulnérabilité de bash T6185 « Shellshock »',
   'Missing \'%s\' Extension' => 'Extension \'%s\' manquante',
   'Retention policies for garbage collection.' => 'Politiques de rétention pour le ramasse-miettes.',
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL (sur l’hôte « %s ») est configuré avec un très petit innodb_buffer_pool_size, ce qui peut impacter les performances.',
@@ -1156,7 +1133,6 @@ Les administrateurs peuvent interroger une liste d\'utilisateurs qui n\'ont pas 
   'Reply hints are no longer shown in mail.' => 'Les astuces pour réponse ne sont plus affichées dans les courriels.',
   'Profile every request (slow)' => 'Faire un profil de toutes les requêtes (lent)',
   'Resolved Issue' => 'Problème résolu',
-  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => 'Le chemin local « %s » n’est pas accessible en écriture. Ce fichier doit être inscriptible pour que « bin/config » puisse y stocker la configuration.',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Cette option ne s’est généralement pas avérée utile. Les clés de hachage de la ressource sont maintenant gérées automatiquement.',
   'Schema Status' => 'Etat du schema',
   'To update these %d value(s), run these command(s) from the command line:' => 'Pour mettre à jour ces %d valeurs, exécutez ces commandes depuis la ligne de commande :',
@@ -1487,7 +1463,6 @@ Vous devriez désactiver cette option dans votre fichier %s, dans la section %s�
 
 %s',
   'Setup Checks' => 'Vérifications d’installation',
-  'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Ce système a une version non patchée de Bash avec une vulnérabilité grave largement connue.',
   'Keys' => 'Clés',
   'No Auth Providers' => 'Aucun fournisseur d’authentification',
   'Missing Required Extensions' => 'Extensions obligatoires manquantes',
@@ -1514,12 +1489,6 @@ Pour désactiver cette options, définissez : %s',
   'Activity "%s" is not currently marked as required, so there is no need to complete it.' => 'L’activité « %s » n’est pas actuellement marquée comme obligatoire, donc il n’est pas nécessaire de la terminer.',
   'To continue, resolve this problem and reload the page.' => 'Pour continuer, résolvez ce problème et rechargez la page.',
   'Wordmark' => 'Marque de mot',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'AVERTISSEMENT : ceci est une option prototype et la description ci-dessous relève actuellement de la pure fantaisie.
-
-Bascule le service en mode de lecture seule. Dans ce mode, les utilisateurs ne pourront pas écrire de nouvelles données. Normalement, la grappe passe dans ce mode automatiquement quand elle détecte que le maître de la base de données est inaccessible, mais vous pouvez l’activer manuellement afin d’effectuer de la maintenance ou tester une configuration.',
-  'Severe Security Vulnerability: Unpatched Bash' => 'Faille de sécurité grave : Bash non patché',
   'Force HTTPS' => 'Forcer HTTPS',
   'This key is not expected to exist.' => 'Cette clé n’est pas censé exister.',
   '%s.%s' => '%s.%s',

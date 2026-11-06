@@ -162,7 +162,6 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'Reorder Columns' => 'Kolommen opnieuw rangschikken',
   'Edit Project: %s' => 'Project bewerken: %s',
   'Joinable By' => 'Lid worden via',
-  '%d week(s)' => '%d week/weken',
   'Expected "newHeadersForObjects()" on "%s" to return a list of headers, but got "%s".' => 'Verwacht werd dat "newHeadersForObjects()" op "%s" een lijst met headers zou retourneren, maar kreeg "%s".',
   'Removed Project Tags' => 'Projecttags verwijderd',
   'Hide Column' => 'Kolom verbergen',
@@ -214,7 +213,7 @@ Zie [[ %s | Gebruikershandleiding projecten ]] in de documentatie voor meer info
   'PROJECT DETAIL' => 'PROJECTDETAIL',
   'Point Limit' => 'Puntenlimiet',
   'Project tag color.' => 'Projecttagkleur.',
-  'Joined' => 'Samengevoegd',
+  'Joined' => 'Lid',
   'No Milestones' => 'Geen mijlpalen',
   'Project tags added' => 'Projecttags toegevoegd',
   'Blue Sky' => 'Blauwe lucht',
@@ -516,7 +515,7 @@ U kunt de functie `any()` combineren met normale projecttokens om de resultaten 
   'Edit Trigger' => 'Trigger bewerken',
   'Assign task to %s.' => 'Taak toewijzen aan %s.',
   'Move to Project' => 'Naar project verplaatsen',
-  'Watching' => 'Volgeld',
+  'Watching' => 'Volgend',
   '%s locked this project\'s membership.' => '%s heeft het lidmaatschap van dit project afgesloten.',
   'Project Fields' => 'Projectvelden',
   'Used on %s and %s other active column(s).' => array(
@@ -681,7 +680,7 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
   'Fullscreen' => 'Volledig scherm',
   'Project colors must include one color marked as the "%s" color, but no such color exists.' => 'De projectkleuren moeten een kleur bevatten die is gemarkeerd als de " %s"-kleur, maar een dergelijke kleur bestaat niet.',
   'Change Background Color' => 'Achtergrondkleur wijzigen',
-  '%s joined this project.' => '%s kwam bij dit project.',
+  '%s joined this project.' => '%s is lid geworden van dit project.',
   'This function matches results which are not tagged with any projects. It is usually most often used to find objects which might have slipped through the cracks and not been organized properly.
 
 %s' => 'Deze functie komt overeen met resultaten die niet aan projecten zijn gekoppeld. Het wordt meestal gebruikt om objecten te vinden die mogelijk over het hoofd zijn gezien en niet goed zijn georganiseerd.
@@ -689,7 +688,6 @@ subtype configuration, see @{config:maniphest.subtypes}.' => 'Het stelt u in sta
 %s',
   'Type a project subtype name...' => 'Typ een projectsubtypenaam...',
   'Group by Author' => 'Groeperen per auteur',
-  'Show Hidden Columns' => 'Verborgen kolommen weergeven',
   'Search constraint "minDepth" must be no larger than search constraint "maxDepth".' => 'De zoekbeperking "minDepth" mag niet groter zijn dan de zoekbeperking "maxDepth".',
   'Show Column' => 'Kolom weergeven',
   'Set Board Default Filter' => 'Standaard bladfilter instellen',
@@ -868,6 +866,7 @@ U kunt deze functie combineren met andere functies om de resultaten te verfijnen
   'Search for objects tagged with given projects.' => 'Zoeken naar objecten die zijn getagged met een bepaald project.',
   'Create Column' => 'Kolom aanmaken',
   'Choose a valid project to move tasks to.' => 'Kies een geldig project waar u taken naar wilt verplaatsen.',
+  '%s week(s)' => '%s week/weken',
   'Change Project Tags' => 'Projecttags wijzigen',
   '%s edited project(s) for %s, added %s: %s; removed %s: %s.' => '%s heeft projecten voor %s bewerkt; toegevoegd: %4$s; verwijderd: %6$s.',
   'Project colors must have unique keys, but two icons share the same key ("%s").' => 'Projectkleuren moeten unieke sleutels hebben, maar twee pictogrammen delen dezelfde sleutel ("%s").',

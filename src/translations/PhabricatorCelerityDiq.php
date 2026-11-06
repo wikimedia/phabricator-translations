@@ -10,7 +10,6 @@ final class PhabricatorCelerityDiq
   protected function getTranslations() {
     return array(
   'Use Standard Colors' => 'Renganê Standarda Bıkarnê',
-  'Use Larger Font Size' => 'Gırd Ebatê Nuştışi Bıkarnê',
   'Celerity' => 'Suret',
   'Found %d text resources.' => '%d çımey metini vineya .',
   'Found %d packages.' => '%d paket vineyê.',

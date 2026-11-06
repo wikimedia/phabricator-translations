@@ -15,8 +15,13 @@ final class PhabricatorPolicyFi
   'Allow Public Visibility' => 'Salli julkinen näkyvyys',
   'Deny' => 'Kiellä',
   'is new' => 'on uusi',
+  'Existing policy PHID or constant.' => 'Olemassa olevan käytännön PHID tai vakio.',
   'All Users' => 'Kaikki käyttäjät',
+  'A four-letter object type.' => 'Nelikirjaiminen objektityyppi.',
+  'New policy name.' => 'Uuden käytännön nimi.',
   'If no rules match, %s all other users.' => 'Jos säännöt eivät täsmää, %s kaikki muut käyttäjät.',
+  'Edit the description of the policy.' => 'Muokkaa käytännön kuvausta.',
+  'New description of the policy.' => 'Käytännön uusi kuvaus.',
 );
   }
 

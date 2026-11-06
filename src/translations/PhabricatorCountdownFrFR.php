@@ -33,7 +33,6 @@ final class PhabricatorCountdownFrFR
   'The title of the countdown.' => 'Le titre du compte à rebours.',
   'Keep track of upcoming launch dates with embeddable counters.' => 'Garder trace des dates de lancement à venir avec les compteurs inclus.',
   'End Date (Future to Past)' => 'Date de fin (du futur au passé)',
-  'Last Words' => 'Derniers mots',
   'New description.' => 'Nouvelle description.',
   'Edit Countdown' => 'Modifier le compte à rebours',
   'End Date' => 'Date de fin',

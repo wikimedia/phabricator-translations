@@ -62,7 +62,6 @@ final class PhabricatorFilesFrFR
   '%spx × %spx' => '%s px × %s px',
   'Standalone' => 'Autonome',
   'Builtin ("%s")' => 'Intégré (« %s »)',
-  '<Invalid Output>' => '<Sortie non valide>',
   'No storage engines are available.' => 'Aucun moteur de sauvegarde disponible.',
   '%s: Stored as chunks, no data to migrate directly.' => '%s : stocké en tronçons, aucune donnée à migrer directement.',
   'Files must have a name.' => 'Les fichiers doivent avoir un nom.',

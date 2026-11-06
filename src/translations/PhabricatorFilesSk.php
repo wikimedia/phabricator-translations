@@ -66,7 +66,6 @@ final class PhabricatorFilesSk
   '%spx × %spx' => '%spx × %spx',
   'Standalone' => 'Samostatné',
   'Builtin ("%s")' => 'Zabudované („%s“)',
-  '<Invalid Output>' => '<Neplatný výstup>',
   'No storage engines are available.' => 'Nie sú dostupné žiadne úložné nástroje.',
   '%s: Stored as chunks, no data to migrate directly.' => '%s: Uložené ako bloky, žiadne údaje na priamu migráciu.',
   'Files must have a name.' => 'Súbory musia mať názov.',

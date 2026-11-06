@@ -21,7 +21,6 @@ final class PhabricatorSettingsFrFR
   'ISO 8601: 2000-02-28' => 'ISO 8601 : 2000-02-28',
   'Global Default Settings' => 'Paramètres par défaut globaux',
   'Self Actions' => 'Auto-actions',
-  'If you have difficulty reading the UI, this setting may help.' => 'Si vous avez des difficultés à lire l’interface utilisateur, ce paramétrage peut vous aider.',
   'Email Notifications' => 'Notifications par courriel',
   'Show Unified Diffs' => 'Affichage unifié des différences',
   'Diff Preferences' => 'Préférences des différences',

@@ -37,7 +37,6 @@ final class PhabricatorPonderCa
   'Status of the question.' => 'Estat de la pregunta.',
   'Empty Answer' => 'Resposta buida',
   '%s updated the answer wiki.' => '%s ha actualitzat la wiki de resposta.',
-  'Answer Comment' => 'Comentari sobre la resposta',
   'No questions found.' => 'No s’ha trobat cap pregunta.',
   'Ask Question' => 'Fer una pregunta',
   '%s updated the answer details.' => '%s ha actualitzat els detalls de la resposta.',

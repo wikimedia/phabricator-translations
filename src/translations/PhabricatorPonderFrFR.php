@@ -37,7 +37,6 @@ final class PhabricatorPonderFrFR
   'Status of the question.' => 'État de la question.',
   'Empty Answer' => 'Réponse vide',
   '%s updated the answer wiki.' => '%s a mis à jour la réponse au wiki.',
-  'Answer Comment' => 'Commentaire sur la réponse',
   'No questions found.' => 'Aucune question trouvée.',
   'Ask Question' => 'Poser une question',
   '%s updated the answer details.' => '%s a mis à jour les détails de la réponse.',

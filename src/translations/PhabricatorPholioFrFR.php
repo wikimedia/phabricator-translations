@@ -51,7 +51,6 @@ final class PhabricatorPholioFrFR
   'You can not query for inline comments without also querying for images.' => 'Vous ne pouvez pas demander les commentaires en ligne sans demander également les images.',
   'Someone comments on a mock.' => 'Quelqu’un commente une maquette.',
   'Uploading Image...' => 'Téléversement de l’image...',
-  'History Beckons' => 'Signalements en historique',
   'Mock Fields' => 'Champs de simulation',
   'Pholio Mock' => 'Simulation de Pholio',
   'Open Pholio Mock' => 'Ouvrir une simulation de Pholio',

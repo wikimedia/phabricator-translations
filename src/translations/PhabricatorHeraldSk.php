@@ -310,7 +310,6 @@ final class PhabricatorHeraldSk
   'Added a comment: %s' => 'Pridal komentár: %s',
   'To view a transcript, you must be able to view the object the transcript is about.' => 'Ak chcete zobraziť prepis, musíte byť schopní zobraziť objekt, ktorého sa prepis týka.',
   'This rule type is not supported by the selected content type.' => 'Tento typ pravidla nie je podporovaný vybraným typom obsahu.',
-  'Herald User Guide' => 'Používateľská príručka Herald',
   'Trigger Object' => 'Spúšťací objekt',
   'Object Monograms' => 'Monogramy objektov',
   'Really enable this rule?' => 'Naozaj povoliť toto pravidlo?',

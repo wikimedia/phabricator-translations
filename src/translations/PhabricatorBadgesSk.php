@@ -77,7 +77,6 @@ final class PhabricatorBadgesSk
   'Default edit policy for badges.' => 'Predvolená zásada úpravy pre odznaky.',
   'Anchors Away' => 'Kotvy hore',
   'Love is Love' => 'Láska je láska',
-  'Render Honors' => 'Vzdať poctu',
   'Someone comments on a badge.' => 'Niekto okomentuje odznak.',
   'Badge name.' => 'Názov odznaku.',
   'Short description of the badge.' => 'Krátky popis odznaku.',

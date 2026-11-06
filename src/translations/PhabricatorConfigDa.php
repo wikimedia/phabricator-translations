@@ -13,7 +13,6 @@ final class PhabricatorConfigDa
   'Column/Key' => 'Kolonne/Nøgle',
   '%s / %s' => '%s / %s',
   'Memory Usage' => 'Forbrug af hukommelse',
-  'Table' => 'Tabel',
   '%s deleted %s (again?).' => '%s slettede %s (igen?).',
   'Short' => 'Kort',
   'Full' => 'Fuld',

@@ -154,8 +154,6 @@ Verifique se suas regras de reescrita estão configuradas corretamente, seguindo
   'You can disable the hints under "REPLY HANDLER ACTIONS" if users prefer
 smaller messages. The actions themselves will still work properly.' => 'Você pode desativar as dicas em "AÇÕES DO MANIPULADOR DE RESPOSTA" se os usuários preferirem mensagens
 menores. As próprias ações ainda funcionarão corretamente.',
-  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
-            \'installed on an entire domain; it can not be installed on a path.' => 'A opção de configuração \'%s\' é inválida. O URI NÃO deve ter um caminho, por exemplo, \'%s\' é OK, mas \'%s\' não é. Este software deve estar "instalado em um domínio inteiro; não pode ser instalado em um caminho.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
 alincoln, usgrant, htaft") or separate emails to each user (e.g., "To:
@@ -229,15 +227,6 @@ If not set, no log will be written.' => 'Para ativar o log de acesso HTTP, espec
 
 Se não for definido, nenhum log será gravado.',
   'By default, this software links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'Por padrão, este software vincula nomes de objetos em campos de marcação ao objeto correspondente. Este regex pode ser usado para modificar este comportamento; nomes de objetos que correspondam a esse regex não serão vinculados.',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'A versão de %s neste sistema está desatualizada e contém uma vulnerabilidade importante e amplamente divulgada (a vulnerabilidade "Shellshock").
-
-Atualize %s para uma versão corrigida.
-
-Para saber mais sobre como esse problema afeta este software, consulte %s .',
   'Newly registered accounts can either be placed into a manual approval queue for administrative review, or automatically activated immediately. The approval queue is enabled by default because it gives you greater control over who can register an account and access the server.
 
 If your install is completely public, or on a VPN, or users can only register with a trusted provider like LDAP, or you\'ve otherwise configured the server to prevent unauthorized registration, you can disable the queue to reduce administrative overhead.
@@ -589,9 +578,6 @@ Este recurso suporta consultas MySQL "LOAD DATA LOCAL INFILE", mas permite que u
 Embora normalmente seja difícil para um invasor convencer este software a se conectar a um servidor MySQL malicioso, você deve desabilitar esta opção: esta capacidade é desnecessária e inerentemente perigosa.
 
 Para desabilitar esta opção, defina: %s',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => '',
   'Your server is configured with \'%s\', which prevents this software from opening files it requires access to.
 
 Disable this setting to continue.' => 'Seu servidor está configurado com \' %s \', o que impede que este software abra arquivos aos quais requer acesso.

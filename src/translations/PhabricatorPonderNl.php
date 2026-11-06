@@ -43,7 +43,6 @@ final class PhabricatorPonderNl
   'Status of the question.' => 'Status van de vraag.',
   'Empty Answer' => 'Leeg antwoord',
   '%s updated the answer wiki.' => '%s heeft de antwoordwiki bijgewerkt.',
-  'Answer Comment' => 'Reactie op antwoord',
   'No questions found.' => 'Geen vragen gevonden.',
   'Ask Question' => 'Vraag stellen',
   '%s updated the answer details.' => '%s heeft de antwoorddetails bijgewerkt.',

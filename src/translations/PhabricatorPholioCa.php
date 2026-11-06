@@ -42,7 +42,6 @@ final class PhabricatorPholioCa
   'You can not query for inline comments without also querying for images.' => 'No podeu fer cerques sobre comentaris en línia sense fer consultes sobre imatges.',
   'Someone comments on a mock.' => 'Algú comenta en una simulació.',
   'Uploading Image...' => 'Penjant la imatge...',
-  'History Beckons' => 'Historial de trucades',
   'Mock Fields' => 'Camps simulats',
   'Pholio Mock' => 'Simulació de Pholio',
   'Open Pholio Mock' => 'Obrir la simulació de Pholio',

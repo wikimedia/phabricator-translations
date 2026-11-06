@@ -62,7 +62,6 @@ final class PhabricatorBadgesKoKR
   'Default edit policy for badges.' => '배지에 대한 기본 편집 정책입니다.',
   'Anchors Away' => '앵커스 어웨이',
   'Love is Love' => '러브 이즈 러브',
-  'Render Honors' => '명예를 렌더링하기',
   'Someone comments on a badge.' => '누군가 배지에 댓글을 남겼을 때.',
   'Badge name.' => '배지 이름입니다.',
   'Short description of the badge.' => '배지의 짧은 설명입니다.',

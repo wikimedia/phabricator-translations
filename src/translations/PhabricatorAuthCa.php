@@ -108,7 +108,6 @@ Després de completar la configuració, copieu el **Identificador de client** i 
   'Log In with LDAP' => 'Inicieu la sessió amb LDAP',
   'Expected verifier to finish OAuth handshake!' => 'S\'esperava un verificador per acabar l\'encaixada OAuth!',
   'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => 'Especifiqueu el tipus de credencial per revocar amb "--type" o especifiqueu "--everything". Utilitzeu "--list" per llistar els tipus de credencials disponibles.',
-  'Start TLS after binding to the LDAP server.' => 'Inicieu TLS després de vincular-lo al servidor LDAP.',
   'Duo providers must have an API hostname.' => 'Els proveïdors de Duo han de tenir un nom de l\'amfitrió d\'API.',
   'TOTP Code' => 'Codi TOTP',
   'Invalid response token for this challenge: token digest does not match stored digest.' => 'Testimoni de resposta no vàlid per a aquest repte: el resum de testimonis no coincideix amb el resum emmagatzemat.',
@@ -265,27 +264,6 @@ Després de completar la configuració, copieu el **Identificador de client** i 
   'The password and confirmation do not match.' => 'La contrasenya i la confirmació no coincideixen.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Restableix els comptadors d\'accions perquè un usuari pugui continuar fent accions amb un percentatge limitat.',
   '%s disabled this contact number.' => '%s ha desactivat aquest número de contacte.',
-  'To configure GitHub OAuth, create a new GitHub Application here:
-
-https://github.com/settings/applications/new
-
-You should use these settings in your application:
-
-  - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
-  - **Callback URL**: Set this to: `%s`
-
-
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Per configurar OAuth de GitHub, creeu una nova aplicació GitHub aquí:
-
-https://github.com/settings/applications/new
-
-Heu d\'utilitzar aquests paràmetres a la vostra aplicació:
-
-- **URL:** Establiu-lo al vostre domini complet amb protocol. Per a aquesta instal·lació de Phabricator, el valor correcte és: "%s"
-- **URL de devolució de trucada**: configureu-lo a: "%s"
-
-
-Un cop hàgiu creat una aplicació, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.',
   'No Providers Configured:' => 'Cap proveïdor configurat:',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Si continueu, creeu un compte nou. No podreu enllaçar aquest compte extern amb un compte existent.',
   'A text message with an authorization code will be sent to your primary contact number.' => 'S’enviarà un missatge de text amb un codi d’autorització al número de contacte principal.',
@@ -828,6 +806,27 @@ Error LDAP #%d: %s',
   'LDAP Exception: %s' => 'Excepció LDAP: %s',
   'LDAP search failed.' => 'La cerca LDAP ha fallat.',
   'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Aquesta clau privada no s\'ha pogut obrir amb la contrasenya proporcionada. Això pot significar que la contrasenya és incorrecta o que la clau no té el format correcte. Comproveu que heu proporcionat el text complet d’una clau privada vàlida i la frase de contrasenya correcta.',
+  'To configure GitHub OAuth, create a new GitHub Application here:
+
+https://github.com/settings/applications/new
+
+You should use these settings in your application:
+
+  - **Homepage URL:** Set this to your full domain with protocol.     For this server, the correct value is: `%s`
+  - **Authorization callback URL**: Set this to: `%s`
+
+
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Per configurar OAuth de GitHub, creeu una nova aplicació GitHub aquí:
+
+https://github.com/settings/applications/new
+
+Heu d\'utilitzar aquests paràmetres a la vostra aplicació:
+
+- **URL:** Establiu-lo al vostre domini complet amb protocol. Per a aquesta instal·lació de Phabricator, el valor correcte és: "%s"
+- **URL de devolució de trucada**: configureu-lo a: "%s"
+
+
+Un cop hàgiu creat una aplicació, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.',
   'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Nota: si desenllaceu un proveïdor d’autenticació, finalitzareu qualsevol altra sessió d’inici de sessió activa.',
   '%s renamed this key from "%s" to "%s".' => '%s ha reanomenat aquesta clau de "%s" a "%s".',
   '%s created this MFA provider.' => '%s ha creat aquest proveïdor MFA.',

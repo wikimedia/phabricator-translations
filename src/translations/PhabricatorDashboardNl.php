@@ -195,7 +195,6 @@ final class PhabricatorDashboardNl
   'Add Dashboard to Personal Home Page' => 'Dashboard toevoegen aan persoonlijke startpagina',
   'Panel Type' => 'Paneeltype',
   'View Panel Details' => 'Paneeldetails weergeven',
-  'Flag' => 'Vlag',
   'Archived Panels' => 'Gearchiveerde panelen',
   'Manage Panel' => 'Paneel beheren',
   'Rename the panel.' => 'Paneel hernoemen.',

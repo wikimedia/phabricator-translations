@@ -20,7 +20,6 @@ final class PhabricatorSettingsCa
   'Personal Account Settings' => 'Configuració del compte personal',
   'Global Default Settings' => 'Paràmetres globals per defecte',
   'Self Actions' => 'Accions pròpies',
-  'If you have difficulty reading the UI, this setting may help.' => 'Si teniu dificultats per llegir la interfície d’usuari de Phabricator, aquest paràmetre pot fer que Phabricator sigui més accessible.',
   'Email Notifications' => 'Notificacions per correu electrònic',
   'Show Unified Diffs' => 'Mostrar les diferències ("Diffs") unificades',
   'Diff Preferences' => 'Preferències de les diferències ("Diff")',

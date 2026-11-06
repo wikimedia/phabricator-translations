@@ -74,7 +74,6 @@ final class PhabricatorSearchPtBR
   'Export Results' => 'Exportar resultados',
   'All Objects' => 'Todos os objetos',
   'Global Queries' => 'Consultas globais',
-  'Link' => 'Link',
   'Enable Query' => 'Ativar consulta',
   'Exact Search' => 'Pesquisa exata',
   'Created By Me' => 'Criado por mim',

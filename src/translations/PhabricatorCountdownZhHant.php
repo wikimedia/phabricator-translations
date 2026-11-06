@@ -31,7 +31,6 @@ final class PhabricatorCountdownZhHant
   'The title of the countdown.' => '倒數標題。',
   'Keep track of upcoming launch dates with embeddable counters.' => '以內嵌計時來保持追蹤即將到來的實行日期。',
   'End Date (Future to Past)' => '結束日期（過去到未來）',
-  'Last Words' => '上次用字',
   'New description.' => '新描述。',
   'Edit Countdown' => '編輯倒數',
   'End Date' => '結束日期',

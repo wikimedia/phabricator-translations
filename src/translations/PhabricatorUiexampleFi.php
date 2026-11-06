@@ -38,7 +38,6 @@ final class PhabricatorUiexampleFi
   'Code with Friends' => 'Koodaa ystävien kanssa',
   'Buttons' => 'Painikkeet',
   'Electric' => 'Sähköinen',
-  'Color Palette' => 'Väripaletti',
   'Mouse' => 'Hiiri',
   'Lists' => 'Luettelot',
   'Wikipedia' => 'Wikipedia',

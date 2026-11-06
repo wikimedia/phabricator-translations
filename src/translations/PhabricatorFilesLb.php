@@ -10,7 +10,6 @@ final class PhabricatorFilesLb
   protected function getTranslations() {
     return array(
   'ERROR' => 'FEELER',
-  '<Invalid Output>' => '<Ongültegen Output>',
   'Save Image' => 'Bild späicheren',
   'Temporary' => 'Temporär',
   'Failed to load file.' => 'De Fichier konnt net geluede ginn.',

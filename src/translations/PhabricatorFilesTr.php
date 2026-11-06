@@ -60,7 +60,6 @@ final class PhabricatorFilesTr
   'No such file "%s"!' => 'Böyle bir dosya yok "%s"!',
   'Standalone' => 'Bağımsız',
   'Builtin ("%s")' => 'Yerleşik ("%s")',
-  '<Invalid Output>' => '<Geçersiz Çıkış>',
   'No storage engines are available.' => 'Depolama motorları mevcut değil.',
   '%s: Stored as chunks, no data to migrate directly.' => '%s: Parça olarak saklanır, doğrudan taşınacak veri yoktur.',
   'Files must have a name.' => 'Dosyaların bir adı olmalı.',

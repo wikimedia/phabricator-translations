@@ -85,7 +85,6 @@ final class PhabricatorTransactionsZhHans
   'Mentioned User' => '提及用户',
   'List of PHIDs to set.' => '要设置的PHID列表。',
   '%s added %s unsubscriber(s): %s.' => '%s添加了%s个订阅者：%s。',
-  '%s moved this task from %s to %s on the %s board.' => '%s在%4$s版块上，将此任务从%s移动到%s。',
   'List of PHIDs to remove.' => '要移除的PHID列表。',
   'Create New Form' => '创建新表单',
   'Transaction requires handles and it did not load them.' => '交易要求处理，但它并未加载它们。',

@@ -13,7 +13,6 @@ final class PhabricatorManiphestZhHant
   'Triage' => '分級',
   'Define task subtypes.' => '定義工單子類型。',
   'Priority of the task.' => '工單的優先層級。',
-  'Weigh In' => '秤秤斤兩',
   'Task Fields' => '工單欄位',
   'Assignee' => '受託人',
   'Update an existing Maniphest task.' => '更新現有的 Maniphest 工單。',

@@ -11,7 +11,6 @@ final class PhabricatorPhurlEl
     return array(
   'Alias' => 'Ψευδώνυμο',
   'Edit Phurl' => 'Επεξεργασία του Phurl',
-  'URL' => 'Διεύθυνση URL',
   'All URLs' => 'Όλες οι διευθύνσεις URL',
   '%s changed the alias from %s to %s.' => 'Ο %s άλλαξε το ψευδώνυμο από το %s σε %s.',
   'New URL description.' => 'Νέα περιγραφή της διεύθυνσης URL.',

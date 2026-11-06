@@ -10,6 +10,7 @@ final class PhabricatorMetamtaLb
   protected function getTranslations() {
     return array(
   'ID: %d' => 'ID: %d',
+  'Object Updated' => 'Objet aktualiséiert',
   'Default Author' => 'Standardauteur',
   'Emails' => 'E-Mailen',
   'View Object' => 'Objet weisen',

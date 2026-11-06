@@ -120,7 +120,6 @@ final class PhabricatorConduitTr
   'Returns' => 'İadeler',
   'Active API Tokens' => 'Aktif API Anahtarları',
   'Conduit API Overview' => 'Conduit API Gene Bakış',
-  'Session key is not present.' => 'Oturum anahtarı mevcut değil.',
   'No matching calls in log.' => 'Günlükte eşleşen arama yok.',
   'Show new methods which are subject to change.' => 'Değişime tabi olan yeni yöntemleri göster.',
   'Invalid parameter information was passed to method \'%s\'.' => '\'%s\' yöntemine geçersiz parametre bilgileri geçirildi.',

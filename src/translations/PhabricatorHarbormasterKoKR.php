@@ -504,7 +504,6 @@ See below for specifics on sending messages to different object types.' => 'Harb
 각 객체 유형으로 메시지를 보내는 자세한 내용은 아래를 참고하세요.',
   'The name of the build step.' => '빌드 단계의 이름입니다.',
   'All Builds' => '모든 빌드',
-  'No such object "%s" exists.' => '그런 객체 \'%s\'은(는) 존재하지 않습니다.',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => '객체("%s")는 "%s"이(가) GitHub 저장소 URI라고 주장하지만 경로("%s")에 구성 요소가 충분하지 않습니다(최소 두 개를 예상함).',
   'Create Buildable' => '빌드가능 만들기',
   'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
@@ -872,6 +871,7 @@ If you select **Wait For Message**, the build plan will pause indefinitely once 
   '<Unknown Artifact Type>' => '<알 수 없는 아티팩트 유형>',
   'Multiple behavior options (for behavior "%s") are marked as default options ("%s" and "%s"). Exactly one option must be marked as the default option.' => '여러 동작 옵션이 (동작 "%s"에 대한) 기본 옵션("%s" 및 "%s")으로 표시됩니다. 기본 옵션으로는 정확히 하나만 표시되어야 합니다.',
   'Behavior configuration for the build plan.' => '빌드 계획에 대한 동작 구성입니다.',
+  'No object exists with this "%s".' => '"%s"의 객체가 존재하지 않습니다.',
   'You can not pause this build because it is already paused.' => '이 빌드는 이미 일시 정지 되었으므로 일시 정지할 수 없습니다.',
   'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => '메시지를 발생시킨 텍스트가 시작되는 줄의 바이트 위치입니다. 줄의 첫 번째 바이트는 0이 아니라 1번째 바이트입니다. 모든 린트 대상 파일이 유효한 문자 인코딩을 사용하는 것은 아니기 때문에 이 위치는 문자 기반이 아닌 바이트 기반입니다.',
   'Unable to inflate log chunk!' => '로그 청크를 inflate 할 수 없습니다!',
@@ -1226,7 +1226,6 @@ and one warning:
     '정말로 빌드 %s개를 중단합니까?',
   ),
   '(%d - %d)' => '(%d - %d)',
-  'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => '객체 "%s"은(는) 인터페이스 "%s"을(를) 구현하지 않습니다. 자동 대상은 빌드가능 객체에 대해서만 검색할 수 있습니다.',
   '%s enabled this build plan.' => '%s님이 이 빌드 계획을 활성화했습니다.',
   'Stored Bytes' => '저장된 바이트',
   'Work will continue on the build. Really resume?' => '일은 빌드에서 계속됩니다. 정말로 재개할까요?',
@@ -1246,6 +1245,7 @@ This setting also affects the warning that is published to revisions when commit
 
 이 설정은 진행 중이거나 실패한 빌드가 있는 상태에서 커밋이 최종 반영될 때 판에 게시되는 경고에도 영향을 줍니다.',
   'Edit Behavior: %s' => '동작 편집: %s',
+  'Object with this "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => '객체 "%s"은(는) 인터페이스 "%s"을(를) 구현하지 않습니다. 자동 대상은 빌드가능 객체에 대해서만 검색할 수 있습니다.',
   'Result of the test.' => '테스트의 결과입니다.',
   'Use "--id" or "--active" to select builds.' => '"--id" 또는 "--active"를 사용해서 빌드를 선택하세요.',
   'Unable to load build log "%s".' => '빌드 로그 "%s"을(를) 로드할 수 없습니다.',

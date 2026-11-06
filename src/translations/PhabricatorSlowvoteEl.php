@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteEl
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Εισαγάγετε διαβουλεύσεις',
   'Close Poll' => 'Κλείσιο ψηφοφορίας',
   'Create a Poll' => 'Δημιουργήστε ψηφοφορία',
   '%s made %s responses appear in a random order.' => 'Ο %s έκανε %s απαντήσεις που εμφανίζονται με τυχαία σειρά.',

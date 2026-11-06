@@ -1,15 +1,15 @@
 <?php
 
-final class PhabricatorSlowvoteScn
+final class PhabricatorFlagKck
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'scn';
+    return 'kck';
   }
 
   protected function getTranslations() {
     return array(
-  '%s (%d / %d)' => '%s (%d / %d)',
+  'Personal Flag color' => 'Mbala wefulegi yenhu',
 );
   }
 

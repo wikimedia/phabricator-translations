@@ -11,7 +11,6 @@ final class PhabricatorPhurlLb
     return array(
   'Alias' => 'Alias',
   'Edit Phurl' => 'Phurl änneren',
-  'URL' => 'URL',
   'All URLs' => 'All URLen',
   '%s changed the alias from %s to %s.' => '%s huet den Alias vun %s op %s geännert.',
   'The alias to give the URL.' => 'Den Alias fir der URL ze ginn.',

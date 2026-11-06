@@ -29,7 +29,6 @@ final class PhabricatorManiphestEsES
   'Tasks must have a title.' => 'Las tareas deben tener un título.',
   'Unblock' => 'Desbloquear',
   'Description Preview' => 'Previsualización de la descripción',
-  '%s changed the subtype of %s from "%s" to "%s".' => '%s cambió el subtipo de %s de "%s" a "%s".',
   'Subtasks' => 'Subtareas',
   'Update has no effect.' => 'La actualización no surte ningún efecto.',
   'Needs Triage' => 'Necesita triaje',

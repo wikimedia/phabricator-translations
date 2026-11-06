@@ -32,7 +32,6 @@ final class PhabricatorCountdownRoaTara
   'The title of the countdown.' => '\'U titole d\'u cunde a smerse.',
   'Keep track of upcoming launch dates with embeddable counters.' => 'Mandine tracce de le date de lange ca stonne arrivane cu le condature \'ngapsulate.',
   'End Date (Future to Past)' => 'Date de fine (future a passate)',
-  'Last Words' => 'Urteme parole',
   'New description.' => 'Descriziona nove.',
   'Edit Countdown' => 'Cange \'u cunde a smerse',
   'End Date' => 'Date de fine',

@@ -61,7 +61,6 @@ final class PhabricatorPasteZhHant
   '%s archived this paste.' => '%s 封存了此張貼。',
   'Edit Paste' => '編輯張貼',
   '[Paste]' => '[張貼]',
-  'Eat Paste' => 'Eat Paste',
   'Active Pastes' => '有效張貼',
   'Change the paste content.' => '更改張貼內容。',
   '%s updated the language for %s from %s to %s.' => '%s已將%s的語言從%s更新為%s。',

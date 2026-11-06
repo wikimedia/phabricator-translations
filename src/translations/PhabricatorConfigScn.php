@@ -12,7 +12,6 @@ final class PhabricatorConfigScn
   'Column/Key' => 'Culonna/Chiavi',
   '%s / %s' => '%s / %s',
   'Memory Usage' => 'Usu dâ mimoria',
-  'Table' => 'Tabbella',
   'The current configuration has these %d value(s):' => 'La cunfigurazzioni attuali havi stu/sti %d valuri:',
   'Usage' => 'Usu',
   'Short' => 'Curtu',

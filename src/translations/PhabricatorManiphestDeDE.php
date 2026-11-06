@@ -14,7 +14,6 @@ final class PhabricatorManiphestDeDE
   'Define task subtypes.' => 'Definition von Aufgabenuntertypen.',
   '%s removed %s as the assignee of this task.' => '%s entfernt %s als Bearbeiter dieser Aufgabe.',
   'Priority of the task.' => 'Priorität der Aufgabe.',
-  'Weigh In' => 'Äußere dich...',
   'Task Fields' => 'Aufgabenfelder',
   'Assignee' => 'Zugewiesener',
   'Open Parents' => 'Offene Elterntickets',

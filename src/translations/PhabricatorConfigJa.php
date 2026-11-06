@@ -16,7 +16,6 @@ final class PhabricatorConfigJa
   'Configuring File Storage' => 'ファイルストレージの設定',
   '%s / %s' => '%s / %s',
   'Memory Usage' => 'メモリ使用量',
-  'Table' => '表',
   'Ignore Setup Issue' => '設定の問題を無視',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
 

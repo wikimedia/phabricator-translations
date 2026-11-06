@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteNl
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Deelnemen aan beraadslagingen',
   'Close Poll' => 'Peiling sluiten',
   'Create a Poll' => 'Peiling aanmaken',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'De optie ("%s") is geen geldige stemoptie. U kunt alleen stemmen op geldige opties.',

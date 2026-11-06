@@ -80,7 +80,6 @@ final class PhabricatorBadgesNl
   'Default edit policy for badges.' => 'Standaard bewerkingsbeleid voor badges.',
   'Anchors Away' => 'Ankers weg',
   'Love is Love' => 'Liefde is liefde',
-  'Render Honors' => 'Eerbewijzen weergeven',
   'Someone comments on a badge.' => 'Iemand plaatst een opmerking bij een badge.',
   'Badge name.' => 'Badgenaam.',
   'Short description of the badge.' => 'Korte beschrijving van de badge.',

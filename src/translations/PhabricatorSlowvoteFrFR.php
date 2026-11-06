@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteFrFR
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Entrer les délibérations',
   'Close Poll' => 'Clore le sondage',
   'Create a Poll' => 'Créer un sondage',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'L’option indiquée (« %s ») n’est pas une option de sondage valide. Vous ne pouvez voter que pour des options valides.',

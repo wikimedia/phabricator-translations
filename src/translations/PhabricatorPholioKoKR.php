@@ -44,7 +44,6 @@ final class PhabricatorPholioKoKR
   'You can not query for inline comments without also querying for images.' => '이미지를 함께 검색하지 않고는 인라인 댓글을 검색할 수 없습니다.',
   'Someone comments on a mock.' => '누군가 모의 객체에 댓글을 남겼을 때.',
   'Uploading Image...' => '이미지 업로드 중...',
-  'History Beckons' => '역사적인 순간',
   'Mock Fields' => '모의 객체 필드',
   'Pholio Mock' => 'Pholio 모의 객체',
   'Open Pholio Mock' => 'Pholio 모의 객체 열기',

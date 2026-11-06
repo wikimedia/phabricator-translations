@@ -24,7 +24,6 @@ final class ArcanistCoreDiq
   'Runtime Error' => 'Xetay guriyayışi',
   'Inline HTML' => 'HTML miyanê satır',
   'Remote Repository' => 'Depoyo Duri',
-  'Empty certificate in credentials.' => 'Dokumanê kamiye de sertifikaya veng',
   'No tests to run.' => 'Gureynaye test çıniyo',
   '%s assertion(s) passed.' => '%s iddia ravêrd .',
   'Unknown Symbol' => 'Sembolo nêzanıyen',

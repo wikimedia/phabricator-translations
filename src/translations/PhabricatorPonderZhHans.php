@@ -24,7 +24,6 @@ final class PhabricatorPonderZhHans
   'Status of the question.' => '问题状态。',
   'Empty Answer' => '空答案',
   '%s updated the answer wiki.' => '%s更新了答案wiki。',
-  'Answer Comment' => '答案评论',
   'You have already answered this question. You can not answer twice, but you can edit your existing answer.' => '您已回答过此问题。虽然你不能回答第二次,但您可以编辑您现有的回答。',
 );
   }

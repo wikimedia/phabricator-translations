@@ -24,7 +24,6 @@ final class PhabricatorCountdownEl
   'Upcoming' => 'Ανερχόμενες',
   'Someone comments on a countdown.' => 'Κάποιος σχολιάζει σε μια αντίστροφη μέτρηση.',
   'End Date (Future to Past)' => 'Ημερομηνία τέλους (Μέλλον προς Παρελθόν)',
-  'Last Words' => 'Τελευταίες λέξεις',
   'New description.' => 'Νέα περιγραφή',
   'Edit Countdown' => 'Επεξεργασία αντίστροφης μέτρησης',
   'End Date' => 'Ημερομηνία τέλους',

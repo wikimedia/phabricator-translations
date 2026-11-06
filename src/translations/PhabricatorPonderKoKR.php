@@ -37,7 +37,6 @@ final class PhabricatorPonderKoKR
   'Status of the question.' => '질문의 상태입니다.',
   'Empty Answer' => '빈 답변',
   '%s updated the answer wiki.' => '%s님이 답변 위키를 업데이트했습니다.',
-  'Answer Comment' => '답변 댓글',
   'No questions found.' => '질문을 찾을 수 없습니다.',
   'Ask Question' => '질문하기',
   '%s updated the answer details.' => '%s님이 답변 세부 정보를 업데이트했습니다.',

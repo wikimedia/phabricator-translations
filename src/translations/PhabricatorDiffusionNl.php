@@ -257,7 +257,6 @@ Transcript: %s' => 'Deze push is geweigerd door Herald-pushregel %s.
   'Unknown SVN wire protocol structure \'%s\'!' => 'Onbekende SVN-draadprotocolstructuur \'%s\'!',
   'Checkout' => 'Uitchecken',
   'Merged Changes' => 'Samengevoegde wijzigingen',
-  'This repository is observed.' => 'Deze repository wordt geobserveerd.',
   'All concerns with this commit have now been addressed.' => 'Alle bezwaren bij deze commit zijn nu behandeld.',
   'This repository is read-only over SSH.' => 'Deze repository is alleen-lezen via SSH.',
   'Pusher is committer' => 'Pusher is committer',

@@ -78,7 +78,6 @@ final class PhabricatorProjectEo
   'Reorder Columns' => 'Reordigi kolumnojn',
   'Edit Project: %s' => 'Redakti projekton: %s',
   'Joinable By' => 'Aliĝebla de',
-  '%d week(s)' => '%d semajno(j)',
   'Hide Column' => 'Kaŝi kolumnon',
   'Initial Members' => 'Komencaj membroj',
   'Type a user or project name...' => 'Tajpu nomon de uzanto aŭ projekto...',
@@ -194,6 +193,7 @@ final class PhabricatorProjectEo
   'You can not add milestones to this project.' => 'Vi ne povas aldoni mejloŝtonojn al tiu ĉi projekto.',
   'Project tags' => 'Projektaj etikedoj',
   'Tasks Reopened' => 'Taskoj remalfermitaj',
+  '%s week(s)' => '%s semajno(j)',
 );
   }
 

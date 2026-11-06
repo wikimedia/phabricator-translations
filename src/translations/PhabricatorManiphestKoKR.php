@@ -14,7 +14,6 @@ final class PhabricatorManiphestKoKR
   'Define task subtypes.' => '태스크 하위 유형을 정의합니다.',
   '%s removed %s as the assignee of this task.' => '%s님이 이 태스크에 대한 담당자로써 %s님을 제거했습니다.',
   'Priority of the task.' => '태스크의 우선 순위.',
-  'Weigh In' => '끼어들기',
   'Task Fields' => '태스크 필드',
   'Assignee' => '할당됨',
   'Open Parents' => '열린 상위',
@@ -45,7 +44,6 @@ final class PhabricatorManiphestKoKR
   'Unblock' => '차단 해제',
   'Select and reorder task fields.' => '태스크 필드를 선택하고 재정렬합니다.',
   'Description Preview' => '설명 미리 보기',
-  '%s changed the subtype of %s from "%s" to "%s".' => '%s님이 %s의 하위 유형을 "%s"에서 "%s"(으)로 변경했습니다.',
   'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => '구성에는 특수 속성 "%s"을 가진 태스크 상태가 정의되어 있지 않지만, 이 특수 역할을 수행하는 상태를 지정해야 합니다.',
   'Oldest open task.' => '가장 오래된 열린 태스크입니다.',
   'Duplicates Merged Here' => '중복 여기로 병합됨',
@@ -897,7 +895,6 @@ ID로 양식을 명시적으로 지정하는 경우, 옵션을 사용자에게 �
 빈 목록을 지정하면 "하위 유형 변경하기" 작업이 완전히 숨겨집니다.
 
 이 mutation 목록은 권고적이며 UI만 설정합니다. 태스크는 대량 편집기 또는 API를 사용하면 여전히 하위 유형 간에 자유롭게 변환할 수 있습니다.',
-  '%s changed the subtype of this task from "%s" to "%s".' => '%s님이 이 태스크의 하위 유형을 "%s"에서 "%s"(으)로 변경했습니다.',
   'Create a new Maniphest task.' => '새로운 Maniphest 태스크를 만듭니다.',
   'Create New Task' => '새로운 태스크 만들기',
   'Read information about tasks.' => '태스크에 관한 정보를 읽습니다.',

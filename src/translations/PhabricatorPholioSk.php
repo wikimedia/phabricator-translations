@@ -66,7 +66,6 @@ final class PhabricatorPholioSk
   'You can not query for inline comments without also querying for images.' => 'Nie je možné dopytovať vložené komentáre bez toho, aby ste dopytovali aj obrázky.',
   'Someone comments on a mock.' => 'Niekto okomentuje maketu.',
   'Uploading Image...' => 'Obrázok sa nahráva...',
-  'History Beckons' => 'História volá',
   'Mock Fields' => 'Polia makety',
   'Pholio Mock' => 'Maketa Pholio',
   'Open Pholio Mock' => 'Otvoriť maketu Pholio',

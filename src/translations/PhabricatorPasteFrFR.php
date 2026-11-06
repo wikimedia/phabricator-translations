@@ -63,7 +63,6 @@ final class PhabricatorPasteFrFR
   '%s archived this paste.' => '%s a archivé ce collage.',
   'Edit Paste' => 'Modifier le collage',
   '[Paste]' => '[Collage]',
-  'Eat Paste' => 'Consommer un collage',
   'Active Pastes' => 'Activer les collages',
   'Change the paste content.' => 'Modifier le contenu du collage.',
   '%s updated the language for %s from %s to %s.' => '%s a mis à jour le langage utilisé dans %s de %s en %s.',

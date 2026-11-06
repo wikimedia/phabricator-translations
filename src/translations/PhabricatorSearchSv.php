@@ -62,7 +62,6 @@ final class PhabricatorSearchSv
   '"%s" must be a date before "%s".' => '"%s" måste vara ett datum innan "%s".',
   'Export Results' => 'Exportera resultat',
   'All Objects' => 'Alla objekt',
-  'Link' => 'Länk',
   'Exact Search' => 'Exakt sökning',
   'Created By Me' => 'Skapades av mig',
   '%s (Not Available)' => '%s (inte tillgänglig)',

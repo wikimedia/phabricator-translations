@@ -21,7 +21,6 @@ final class PhabricatorSettingsVi
   'Global Default Settings' => 'Cài đặt mặc định toàn cục',
   'Self Actions' => 'Hành động tự thực hiện',
   'Unlink' => 'Hủy liên kết',
-  'If you have difficulty reading the UI, this setting may help.' => 'Nếu bạn gặp khó khăn khi đọc giao diện người dùng, cài đặt này có thể hữu ích.',
   'Email Notifications' => 'Thông báo qua email',
   'Show Unified Diffs' => 'Hiển thị khác biệt thống nhất (Unified Diffs)',
   'Diff Preferences' => 'Tùy chọn so sánh (Diff)',

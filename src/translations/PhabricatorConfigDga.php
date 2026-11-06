@@ -290,15 +290,6 @@ If not set, no log will be written.' => 'Ka foo na yuo a HTTP kpeɛbo poɔ, Will
 
 Ka ana ba e sɛɛte, kpeɛbo kaŋa zaa koŋ nyɛ sɛgere.',
   'By default, this software links object names in Remarkup fields to the corresponding object. This regex can be used to modify this behavior; object names that match this regex will not be linked.' => 'A defaali, a saseɛ miri liŋkiri la a ɔɔgyɛ yoe a leɛ-maakere faalɛ te ko a ɔɔgyɛre tu tɔ. A ŋaa na baŋ toɔŋ toŋ neŋ la a toma ama; ɔɔgyɛ yoe naŋ tu a ŋaa koŋ baŋ liŋki.',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'A %s veɛɛseŋ a sisitiŋ ŋa poɔ bebiri parɛɛ la, a taa nimize, waedill disikuloosi valabiliti (a \'\'Shellshock\'\' valabiliti).
-
-Ɔpgyiridi %s gaa wulibu vɛɛseŋ ŋa.
-
-Ka fõõ wa boɔrɔ ka fo zanne yɛlɛ yaga kyaare lɛ na a yelwonaa ŋa naŋ danna a sɔtwaɛ ŋa, nyɛ %s.',
   'Newly registered accounts can either be placed into a manual approval queue for administrative review, or automatically activated immediately. The approval queue is enabled by default because it gives you greater control over who can register an account and access the server.
 
 If your install is completely public, or on a VPN, or users can only register with a trusted provider like LDAP, or you\'ve otherwise configured the server to prevent unauthorized registration, you can disable the queue to reduce administrative overhead.

@@ -114,7 +114,6 @@ final class PhabricatorHeraldSrEC
   'Can Manage Global Rules' => 'Може уређивати глобална правила',
   'Added a comment: %s' => 'Додат коментар: %s',
   'This rule type is not supported by the selected content type.' => 'Ово правило није подржано за одабрану врсту садржаја.',
-  'Herald User Guide' => 'Упутство за Хералда',
   'Take these actions every time this rule matches:' => 'Учини следеће радње сваки пут кад ово правило буде задовољено:',
   'Personal Rule' => 'Лично правило',
   '%s enabled this rule.' => '%s је омогућио ово правило.',

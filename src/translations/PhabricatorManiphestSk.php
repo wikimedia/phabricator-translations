@@ -14,7 +14,6 @@ final class PhabricatorManiphestSk
   'Define task subtypes.' => 'Definovať podtypy úloh.',
   '%s removed %s as the assignee of this task.' => '%s odstránil %s ako riešiteľa tejto úlohy.',
   'Priority of the task.' => 'Priorita úlohy.',
-  'Weigh In' => 'Vyjadriť sa',
   'Task Fields' => 'Polia úlohy',
   'Assignee' => 'Riešiteľ',
   'Open Parents' => 'Otvorené nadradené úlohy',
@@ -51,7 +50,6 @@ final class PhabricatorManiphestSk
   'Unblock' => 'Odblokovať',
   'Select and reorder task fields.' => 'Vybrať a zmeniť poradie polí úlohy.',
   'Description Preview' => 'Náhľad popisu',
-  '%s changed the subtype of %s from "%s" to "%s".' => '%s zmenil podtyp %s z „%s“ na „%s“.',
   'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => 'Konfigurácia nedefinuje žiadny stav úlohy so špeciálnym atribútom „%s“, ale musíte zadať stav, ktorý plní túto špeciálnu úlohu.',
   'Oldest open task.' => 'Najstaršia otvorená úloha.',
   'Duplicates Merged Here' => 'Duplikáty zlúčené sem',
@@ -1128,7 +1126,6 @@ skrytá.
 
 Tento zoznam mutácií je poradný a konfiguruje iba používateľské rozhranie. Úlohy je možné stále
 prevádzať medzi podtypmi voľne pomocou hromadného editora alebo API.',
-  '%s changed the subtype of this task from "%s" to "%s".' => '%s zmenil podtyp tejto úlohy z „%s“ na „%s“.',
   'Create a new Maniphest task.' => 'Vytvoriť novú úlohu Maniphest.',
   'Create New Task' => 'Vytvoriť novú úlohu',
   'Read information about tasks.' => 'Čítať informácie o úlohách.',

@@ -12,7 +12,6 @@ final class PhabricatorConfigDeDE
   'Review and modify configuration settings.' => 'Überprüfen und ändern Sie die Konfigurationseinstellungen.',
   'Column/Key' => 'Spalte/Schlüssel',
   '%s / %s' => '%s / %s',
-  'Table' => 'Tabelle',
   'The best available MYSQL implementation is now selected automatically.' => 'Die beste verfügbare MySQL-Implementierung wird jetzt automatisch ausgewählt.',
   'This server is not configured in cluster mode.' => 'Dieser Server ist nicht im Cluster-Modus konfiguriert.',
   '%s deleted %s (again?).' => '%s löschte %s (erneut?).',

@@ -400,7 +400,6 @@ Els usuaris sempre poden utilitzar "Request Review" per promoure una revisió "E
   'Test engine running the test, like "JavascriptTestEngine". This primarily prevents collisions between tests with the same name in different test suites (for example, a Javascript test and a Python test).' => 'El motor de prova que executa la prova, com ara "JavascriptTestEngine". Això prevé principalment col·lisions entre proves amb el mateix nom en diferents suites de proves (per exemple, una prova de Javascript i una prova de Python).',
   'Choose a build log to rebuild with "--id", or rebuild all logs with "--all".' => 'Trieu un registre de construcció per reconstruir amb "-- id", o reconstruir tots els registres amb "--all".',
   'Declining to make service call because `phabricator.silent` is enabled in configuration.' => 'Es declina fer una trucada de servei perquè \'phabricator.silent\' està activat a la configuració.',
-  'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'L\'objecte \'%s\' no implementa la interfície \'%s\'. Els objectius automàtics només es poden consultar per a objectes construïbles.',
   'Work will continue on the build. Really resume?' => 'El treball continuarà en la construcció. Segur que la voleu reprendre?',
   'When a user attempts to `arc land` a revision and that revision has ongoing or failed builds, the default behavior of `arc` is to warn them about those builds and give them a chance to reconsider: they may want to wait for ongoing builds to complete, or fix failed builds before landing the change.
 
@@ -416,6 +415,7 @@ Aquest avís és només consultiu. Els usuaris sempre poden optar per ignorar aq
 
 Aquesta configuració també afecta l\'avís que es publica a les revisions quan es valida la terra amb construccions en curs o fallides.',
   'Edit Behavior: %s' => 'Edita el comportament: %s',
+  'Object with this "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'L\'objecte \'%s\' no implementa la interfície \'%s\'. Els objectius automàtics només es poden consultar per a objectes construïbles.',
   'Unable to load API token ("%s")!' => 'No s\'ha pogut carregar el testimoni d\'API («%s»)!',
   '%s Passed Test(s)' => '%s proves aprovades',
   'Builtins' => 'Incorporats',

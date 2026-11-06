@@ -52,7 +52,6 @@ final class PhabricatorSearchSl
   'NOTE' => 'OPOMBA',
   'Fulltext Search' => 'Iskanje po vsem besedilu',
   'Profile Menu User Guide' => 'Uporabniški priročik za meni profila',
-  'Link' => 'Povezava',
   'Exact Search' => 'Točno iskanje',
   'Order By' => 'Razvrsti po',
   'Cats with high self-esteem seek out high perches to launch their attacks. Watch out!' => 'Samozavestne mačke iščejo visoke gredi začetek svojega napada. Pazite!',

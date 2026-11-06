@@ -99,7 +99,6 @@ Verzoeken moeten een geldige "Host"-header bevatten.',
   'Memory Usage' => 'Geheugengebruik',
   'The request body that was sent began:' => 'De verzonden verzoekinhoud begon met:',
   'Impersonating users over the API is no longer supported.' => 'Het imiteren van gebruikers via de API wordt niet meer ondersteund.',
-  'Table' => 'Tabel',
   'The best available MYSQL implementation is now selected automatically.' => 'De best beschikbare MYSQL-implementatie wordt nu automatisch geselecteerd.',
   'Ignore Setup Issue' => 'Configuratieprobleem negeren',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
@@ -216,19 +215,6 @@ De standaard is `full`.',
   'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Voer het opslagupgradescript uit om databases in te stellen (host "%s" is niet geïnitialiseerd).',
   'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'U hebt nog geen mailers geconfigureerd, dus deze server kan geen uitgaande e-mail verzenden of inkomende e-mail ontvangen. Zie de configuratie-instelling "cluster.mailers" voor details.',
   'Unrecognized verb: %s' => 'Niet-herkend werkwoord: %s',
-  'WARNING: This is a prototype option and the description below is currently pure
-fantasy.
-
-This option allows you to make this service aware of database read replicas so
-it can monitor database health, spread load, and degrade gracefully to
-read-only mode in the event of a failure on the primary host. For help with
-configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => 'WAARSCHUWING: Dit is een prototype-optie en de onderstaande beschrijving is momenteel pure
-fantasie.
-
-Met deze optie kunt u deze dienst bewust maken van database-leesreplica\'s zodat
-het de databasegezondheid kan bewaken, de belasting kan spreiden en geleidelijk kan degraderen naar
-alleen-lezenmodus in het geval van een storing op de primaire host. Voor hulp bij
-het configureren van clusterdatabases, zie **[[ %s | %s ]]** in de documentatie.',
   'Schemata Issues' => 'Schemaproblemen',
   'Expected Collation' => 'Verwachte sortering',
   'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => 'Optie "%s" is van het type "%s", maar de waarde is geen lijst: het is een map met onnatuurlijke of verspreide sleutels.',
@@ -263,7 +249,6 @@ het configureren van clusterdatabases, zie **[[ %s | %s ]]** in de documentatie.
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'Het binaire bestand \'%s\' kon niet worden gevonden. Maak een symlink naar \'%s\', of stel de omgevingsvariabele %s van de webserver in om de map op te nemen waar het zich bevindt, of voeg die map toe aan \'%s\' in de configuratie.',
   'Configuration Guide: Locked and Hidden Configuration' => 'Configuratiegids: Vergrendelde en verborgen configuratie',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Deze optie schakelt uitgebreide foutrapportage in (stacktraces, foutmeldingen) en dwingt het lezen van statische bestanden van schijf bij elke herlaadbeurt.',
-  'Wrote configuration key "%s" to local storage (in file "%s").' => 'Configuratiesleutel "%s" geschreven naar lokale opslag (in bestand "%s").',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Deze alternatieve URI\'s hebben toegang tot \'normale\' pagina\'s op deze installatie. Andere functies zoals OAuth werken niet. Het belangrijkste gebruiksscenario hiervoor is het verplaatsen van installaties tussen domeinen.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Niet-replicerende replica',
@@ -486,8 +471,6 @@ kleinere berichten prefereren. De handelingen zelf blijven correct werken.',
   'Configure the access logs, which log HTTP/SSH requests.' => 'De toegangslogs configureren, die HTTP/SSH-verzoeken loggen.',
   '%ss Behind' => '%ss achter',
   'The PID of the server process.' => 'De PID van het serverproces.',
-  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
-            \'installed on an entire domain; it can not be installed on a path.' => 'Configuratieoptie \'%s\' is incorrect. De URI mag GEEN pad hebben, bijv. \'%s\' is OK, maar \'%s\' niet. Deze software moet op een volledig domein worden geïnstalleerd; het kan niet op een pad worden geïnstalleerd.',
   'Blacklist subnets to prevent user-initiated outbound requests.' => 'Subnetten op de blokkeerlijst zetten om door gebruikers geïnitieerde uitgaande verzoeken te voorkomen.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
@@ -684,15 +667,6 @@ Als dit niet is ingesteld, wordt er geen logboek geschreven.',
   'Use the %s to manage enabled applications.' => 'Gebruik de %s om ingeschakelde toepassingen te beheren.',
   'Current Configuration' => 'Huidige configuratie',
   'Replicating Master' => 'Primair, replicerend',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'De versie van %s op dit systeem is verouderd en bevat een ernstige, breed bekendgemaakte kwetsbaarheid (de "Shellshock"-kwetsbaarheid).
-
-Werk %s bij naar een gepatchte versie.
-
-Voor meer informatie over hoe dit probleem deze software beïnvloedt, zie %s.',
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Zonder een geconfigureerde tijdzone geeft PHP waarschuwingen bij het werken met datums, en datums en tijden worden mogelijk niet correct weergegeven.',
   'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => 'Optie "%s" is van het type "%s" en moet worden ingesteld op een lijst van geldige reguliere expressies, maar "%s" is geen geldige reguliere expressie.',
   'This schema can use a better character set.' => 'Dit schema kan een betere tekenset gebruiken.',
@@ -731,7 +705,6 @@ Uw webserver is mogelijk niet geconfigureerd om HTTP-basisauthenticatie door te 
   'This issue will no longer be suppressed, and will return to its rightful place as a global setup warning.' => 'Dit probleem wordt niet langer onderdrukt en keert terug naar zijn rechtmatige plaats als een globale configuratiewaarschuwing.',
   'Allows you to remove levity and jokes from the UI.' => 'Hiermee kunt u humor en grappen uit de gebruikersinterface verwijderen.',
   'Sites' => 'Sites',
-  'T6185 "Shellshock" Bash Vulnerability' => 'T6185 "Shellshock" Bash-kwetsbaarheid',
   'Missing \'%s\' Extension' => 'Ontbrekende uitbreiding \'%s\'',
   'Retention policies for garbage collection.' => 'Bewaarbeleid voor garbage collection.',
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL (op host "%s") is geconfigureerd met een zeer kleine innodb_buffer_pool_size, wat de prestaties kan beïnvloeden.',
@@ -1248,7 +1221,6 @@ Beheerders kunnen een lijst opvragen van gebruikers die geen MFA hebben geconfig
   'Reply hints are no longer shown in mail.' => 'Antwoordhints worden niet langer weergegeven in e-mail.',
   'Profile every request (slow)' => 'Elk verzoek profileren (langzaam)',
   'Resolved Issue' => 'Opgelost probleem',
-  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => 'Lokaal pad "%s" is niet schrijfbaar. Dit bestand moet schrijfbaar zijn zodat "bin/config" configuratie kan opslaan.',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Deze optie bleek over het algemeen niet nuttig. Bronhash-sleutels worden nu automatisch beheerd.',
   'Schema Status' => 'Schemastatus',
   'To update these %d value(s), run these command(s) from the command line:' => array(
@@ -1626,7 +1598,6 @@ U moet deze optie uitschakelen in uw %s-bestand, in de %s-sectie:
 
 %s',
   'Setup Checks' => 'Configuratiecontroles',
-  'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Dit systeem heeft een niet-gepatchte versie van Bash met een ernstige, breed bekendgemaakte kwetsbaarheid.',
   'Keys' => 'Sleutels',
   'No Auth Providers' => 'Geen authenticatieproviders',
   'Missing Required Extensions' => 'Ontbrekende vereiste uitbreidingen',
@@ -1654,12 +1625,6 @@ Om deze optie uit te schakelen, stel in: %s',
   'Activity "%s" is not currently marked as required, so there is no need to complete it.' => 'Handeling "%s" is momenteel niet gemarkeerd als vereist, dus het is niet nodig om deze te voltooien.',
   'To continue, resolve this problem and reload the page.' => 'Om door te gaan, los dit probleem op en herlaad de pagina.',
   'Wordmark' => 'Woordmerk',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'WAARSCHUWING: Dit is een prototype-optie en de onderstaande beschrijving is momenteel pure fantasie.
-
-Schakel de dienst over naar alleen-lezenmodus. In deze modus kunnen gebruikers geen nieuwe gegevens schrijven. Normaal gesproken degradeert het cluster automatisch naar deze modus wanneer het detecteert dat de primaire database onbereikbaar is, maar u kunt het handmatig activeren om onderhoud uit te voeren of de configuratie te testen.',
-  'Severe Security Vulnerability: Unpatched Bash' => 'Ernstige beveiligingskwetsbaarheid: niet-gepatchte Bash',
   'Force HTTPS' => 'HTTPS forceren',
   'This key is not expected to exist.' => 'Deze sleutel wordt niet verwacht te bestaan.',
   '%s.%s' => '%s.%s',

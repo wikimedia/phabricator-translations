@@ -14,7 +14,6 @@ final class PhabricatorTransactionsDa
   '%s added a comment.' => '%s tilføjede en kommentar.',
   'Empty Comment' => 'Tom kommentar',
   'Warnings' => 'Advarsler',
-  'Take Action' => 'Udfør handling',
   'Recipient Removed' => 'Modtage fjernet',
   'Primary Fields' => 'Primære felter',
   '🔒 Locked' => '🔒 Låst',

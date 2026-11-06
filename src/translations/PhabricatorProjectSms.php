@@ -21,7 +21,6 @@ final class PhabricatorProjectSms
   'Show All Projects' => 'Čuäʹjet puk projeeʹktid',
   'Project Subprojects' => 'Projeeʹkt vueʹllprojeeʹkt',
   'Watch Project?' => 'Haaʹlääk-a ton tän projeeʹkt valvvâd?',
-  '%d week(s)' => '%d neäʹttel/neäʹttled',
   'Hide Column' => 'Čiõǥǥ ceäggčuuʹǩǩ',
   'Project Picture' => 'Projeeʹkt kartt',
   'Add Column' => 'Lââʹzzet ceäggčuuʹǩǩ',
@@ -36,6 +35,7 @@ final class PhabricatorProjectSms
   'Unwatch Project' => 'Jõõsk tän projeeʹkt valvvmest',
   'Project History' => 'Projeeʹkt historia',
   'Archive Subproject' => 'Arkiivââʹst vueʹllprojeeʹkt',
+  '%s week(s)' => '%s neäʹttel/neäʹttled',
 );
   }
 

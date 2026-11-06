@@ -9,7 +9,6 @@ final class PhabricatorConfigSms
 
   protected function getTranslations() {
     return array(
-  'Table' => 'Taullõk',
   'Usage' => 'Âânnmõš',
   'Database' => 'Teâttvuâđđ',
   '%s Not Found' => '%s ij käunnʼjam',

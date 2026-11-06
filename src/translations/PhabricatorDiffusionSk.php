@@ -261,7 +261,6 @@ Pravidlo: %s
   'Unknown SVN wire protocol structure \'%s\'!' => 'Neznáma štruktúra drôtového protokolu SVN „%s“!',
   'Checkout' => 'Checkout',
   'Merged Changes' => 'Zlúčené zmeny',
-  'This repository is observed.' => 'Tento repozitár je sledovaný.',
   'All concerns with this commit have now been addressed.' => 'Všetky výhrady k tomuto commitu sú už vyriešené.',
   'This repository is read-only over SSH.' => 'Tento repozitár je cez SSH len na čítanie.',
   'Pusher is committer' => 'Odosielateľ je commiter',

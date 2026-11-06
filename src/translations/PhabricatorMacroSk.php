@@ -37,7 +37,6 @@ final class PhabricatorMacroSk
   '%s set the audio for %s to play once.' => '%s nastavil zvuk makra %s na jednorazové prehratie.',
   'Edit Audio: %s' => 'Upraviť zvuk: %s',
   'Unknown status \'%s\'!' => 'Neznámy stav „%s“!',
-  'PHIDs must be a list.' => 'PHID musia byť zoznam.',
   'New macro name.' => 'Nový názov makra.',
   'No matching flags.' => 'Žiadne zodpovedajúce značky.',
   'Audio Behavior' => 'Správanie zvuku',

@@ -14,7 +14,6 @@ final class PhabricatorCelerityCa
   'Unable to render resource "%s", which has unknown type "%s".' => 'No s\'ha pogut renderitzar el recurs «%s», que té un tipus desconegut «%s».',
   'Writing map "%s".' => 'S\'està escrivint el mapa «%s».',
   'Use High Contrast Colors' => 'Usa Colors d\'Alt Contrast',
-  'Use Larger Font Size' => 'Utilitza una Mida de Lletra Més Gran',
   'Found %d binary resources.' => 'S\'han trobat %d recursos binaris.',
   'No resource with symbol "%s" exists in source "%s"!' => 'No existeix cap recurs amb el símbol «%s» a la font «%s»!',
   'Celerity' => 'Celerity',

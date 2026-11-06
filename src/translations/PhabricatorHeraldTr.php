@@ -274,7 +274,6 @@ final class PhabricatorHeraldTr
   'Added a comment: %s' => 'Bir yorum ekledi: %s',
   'To view a transcript, you must be able to view the object the transcript is about.' => 'Bir transkripti görüntülemek için, transkriptin ilgili olduğu nesneyi görebilmeniz gerekir.',
   'This rule type is not supported by the selected content type.' => 'Bu kural türü, seçilen içerik türü tarafından desteklenmiyor.',
-  'Herald User Guide' => 'Herald Kullanıcı Kılavuzu',
   'Trigger Object' => 'Tetikleyici Nesne',
   'Object Monograms' => 'Nesne Monogramları',
   'Really enable this rule?' => 'Gerçekten bu kuralı etkinleştirilsin mi?',

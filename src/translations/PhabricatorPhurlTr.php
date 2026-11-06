@@ -12,7 +12,6 @@ final class PhabricatorPhurlTr
   'Alias' => 'Takma ad',
   'Edit Phurl' => 'Phurl\'u Düzenle',
   'Search for Phurl URLs created by specific authors.' => 'Şunu arayın: Phurl URLs oluşturmad by specific yazars.',
-  'URL' => 'URL',
   'All URLs' => 'Tüm URL\'ler',
   '%s changed the alias from %s to %s.' => '%s, takma adını %s ile %s değiştirdi.',
   'The alias to give the URL.' => 'URL\'yi verecek diğer ad.',

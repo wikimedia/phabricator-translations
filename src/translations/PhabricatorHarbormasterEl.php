@@ -45,11 +45,11 @@ final class PhabricatorHarbormasterEl
   'New Step: %s' => 'Νέο βήμα: %s',
   'Pausing' => 'Παυσόμενο',
   'Manual' => 'Εγχειρίδιο',
-  'No such object "%s" exists.' => 'Δεν υπάρχει τέτοιο αντικείμενο "%s".',
   'Unit Tests' => 'Δοκιμές Μονάδας',
   'Skipped' => 'Παραβλέφθηκε',
   'All Plans' => 'Όλα τα σχέδια',
   'Local Name' => 'Τοπικό όνομα',
+  'No object exists with this "%s".' => 'Δεν υπάρχει τέτοιο αντικείμενο "%s".',
 );
   }
 

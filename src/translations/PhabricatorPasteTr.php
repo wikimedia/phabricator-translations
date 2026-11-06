@@ -63,7 +63,6 @@ final class PhabricatorPasteTr
   '%s archived this paste.' => '%s bu yapıştırmayı arşivledi.',
   'Edit Paste' => 'Yapıştırı Düzenle',
   '[Paste]' => '[Yapıştır]',
-  'Eat Paste' => 'Yapıştır Ye',
   'Active Pastes' => 'Etkin Yapıştırlar',
   'Change the paste content.' => 'Yapıştırma içeriğini değiştirin.',
   '%s updated the language for %s from %s to %s.' => '%s, dili %s için %s\'den %s\' güncelledi.',

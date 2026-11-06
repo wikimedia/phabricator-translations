@@ -11,7 +11,6 @@ final class PhabricatorPhurlDiq
     return array(
   'Alias' => 'Leqebe',
   'Edit Phurl' => 'Phurli bıvurnê',
-  'URL' => 'URL',
   'All URLs' => 'Url\'y pêro',
   'New URL description.' => 'İzahê neweyê URL\'y',
   '[Phurl]' => '[Phurl]',

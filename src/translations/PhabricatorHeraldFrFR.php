@@ -281,7 +281,6 @@ final class PhabricatorHeraldFrFR
   'Added a comment: %s' => 'Commentaire ajouté: %s',
   'To view a transcript, you must be able to view the object the transcript is about.' => 'Pour visionner une transcription, vous devez être en mesure de voir l’objet sur lequel porte la transcription.',
   'This rule type is not supported by the selected content type.' => 'Ce type de règle n’est pas pris en charge par le type de contenu sélectionné.',
-  'Herald User Guide' => 'Guide utilisateur du messager',
   'Trigger Object' => 'Objet déclencheur',
   'Object Monograms' => 'Objet Monograms',
   'Really enable this rule?' => 'Voulez-vous réellement activer cette règle ?',

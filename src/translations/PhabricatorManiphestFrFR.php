@@ -14,7 +14,6 @@ final class PhabricatorManiphestFrFR
   'Define task subtypes.' => 'Définir les sous-types de tâches.',
   '%s removed %s as the assignee of this task.' => '%s a retiré l’assignation de %s à cette tâche.',
   'Priority of the task.' => 'Priorité de la tâche',
-  'Weigh In' => 'Peser dedans',
   'Task Fields' => 'Champs de la tâche',
   'Assignee' => 'Affecté à',
   'Open Parents' => 'Ouvrir les parents',
@@ -44,7 +43,6 @@ final class PhabricatorManiphestFrFR
   'Unblock' => 'Débloquer',
   'Select and reorder task fields.' => 'Sélectionner et réorganiser les champs de la tâche.',
   'Description Preview' => 'Prévisualisation de la description',
-  '%s changed the subtype of %s from "%s" to "%s".' => '%s a changé le sous-type de %s de « %s » en « %s ».',
   'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => 'La configuration ne définit aucun statut de tâche possédant l’attribut spécial « %s », mais vous devez spécifier un statut qui remplit ce rôle spécial.',
   'Oldest open task.' => 'Plus ancienne tâche ouverte.',
   'Duplicates Merged Here' => 'Doublons fusionnés ici',
@@ -906,7 +904,6 @@ Si vous préférez rendre plus difficile la modification des sous-types ou propo
 Si vous spécifiez une liste vide, l\'action « Change Subtypes » sera complètement masquée.
 
 Cette liste de mutations est consultative et configure uniquement l\'interface utilisateur. Les tâches peuvent toujours être converties librement entre les sous-types à l\'aide de l\'éditeur Bulk ou de l\'API.',
-  '%s changed the subtype of this task from "%s" to "%s".' => '%s a changé le sous-type de cette tâche de « %s » en « %s ».',
   'Create a new Maniphest task.' => 'Nouvelle tâche Maniphest.',
   'Create New Task' => 'Créer une nouvelle tâche',
   'Read information about tasks.' => 'Lire les informations concernant les tâches.',

@@ -33,7 +33,6 @@ final class PhabricatorCountdownSk
   'The title of the countdown.' => 'Nadpis odpočítavania.',
   'Keep track of upcoming launch dates with embeddable counters.' => 'Sledujte nadchádzajúce dátumy spustenia pomocou vložiteľných počítadiel.',
   'End Date (Future to Past)' => 'Dátum ukončenia (od budúcich po minulé)',
-  'Last Words' => 'Posledné slová',
   'New description.' => 'Nový popis.',
   'Edit Countdown' => 'Upraviť odpočítavanie',
   'End Date' => 'Dátum ukončenia',

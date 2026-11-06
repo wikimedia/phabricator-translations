@@ -65,7 +65,6 @@ final class PhabricatorFilesNl
   '%spx × %spx' => '%spx × %spx',
   'Standalone' => 'Zelfstandig',
   'Builtin ("%s")' => 'Ingebouwd ("%s")',
-  '<Invalid Output>' => '<onjuiste uitvoer>',
   'No storage engines are available.' => 'Er zijn geen opslagengines beschikbaar.',
   '%s: Stored as chunks, no data to migrate directly.' => '%s: opgeslagen als fragmenten, geen gegevens om direct te migreren.',
   'Files must have a name.' => 'Bestanden moeten een naam hebben.',

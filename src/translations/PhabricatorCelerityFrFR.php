@@ -15,7 +15,6 @@ final class PhabricatorCelerityFrFR
   'Writing map "%s".' => 'Écriture de la carte « %s ».',
   'Done generating sprites - updating map...' => 'Génération de sprites terminée - mise à jour de la carte...',
   'Use High Contrast Colors' => 'Utiliser des couleurs à fort contraste',
-  'Use Larger Font Size' => 'Utiliser une taille de police plus grande',
   'Do not invoke `%s` after updating sprites' => 'N\'invoquez pas `%s` après la mise à jour des sprites',
   'Found %d binary resources.' => '%d ressources binaires trouvées.',
   'No resource with symbol "%s" exists in source "%s"!' => 'Aucune ressource avec le symbole « %s » n’existe dans la source « %s » !',

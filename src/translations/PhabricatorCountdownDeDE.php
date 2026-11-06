@@ -28,7 +28,6 @@ final class PhabricatorCountdownDeDE
   '%s updated the countdown description.' => '%s hat die Countdown-Beschreibung aktualisiert.',
   'The title of the countdown.' => 'Titel des Countdowns.',
   'End Date (Future to Past)' => 'Enddatum (Zukunft bis Vergangenheit)',
-  'Last Words' => 'Letzte Worte',
   'New description.' => 'Neue Beschreibung.',
   'Edit Countdown' => 'Countdown bearbeiten',
   'End Date' => 'End-Datum',

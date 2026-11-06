@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteSk
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Vstúpiť do rokovania',
   'Close Poll' => 'Zavrieť anketu',
   'Create a Poll' => 'Vytvoriť anketu',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'Možnosť („%s“) nie je platná možnosť ankety. Hlasovať môžete iba za platné možnosti.',

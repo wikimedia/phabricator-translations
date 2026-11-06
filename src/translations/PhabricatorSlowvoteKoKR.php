@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteKoKR
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => '심의를 입력하기',
   'Close Poll' => '설문 조사 닫기',
   'Create a Poll' => '설문 조사 만들기',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => '옵션("%s")은 유효한 투표 옵션이 아닙니다. 유효한 옵션에만 투표할 수 있습니다.',

@@ -15,7 +15,6 @@ final class PhabricatorCelerityTr
   'Writing map "%s".' => 'Harita yazılıyor "%s".',
   'Done generating sprites - updating map...' => '',
   'Use High Contrast Colors' => 'Yüksek Kontrast Renkleri Kullan',
-  'Use Larger Font Size' => 'Daha Büyük Yazı Tipi Boyutu Kullan',
   'Found %d binary resources.' => '%d ikili kaynak bulundu.',
   'No resource with symbol "%s" exists in source "%s"!' => '"%2$s" sembolünde hiçbir kaynak "%s" kaynağında mevcut değil!',
   'Celerity' => 'Sürat',

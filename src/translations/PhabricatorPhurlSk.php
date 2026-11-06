@@ -12,7 +12,6 @@ final class PhabricatorPhurlSk
   'Alias' => 'Alias',
   'Edit Phurl' => 'Upraviť Phurl',
   'Search for Phurl URLs created by specific authors.' => 'Vyhľadať adresy URL v Phurle vytvorené konkrétnymi autormi.',
-  'URL' => 'URL',
   'All URLs' => 'Všetky adresy URL',
   '%s changed the alias from %s to %s.' => '%s zmenil alias z %s na %s.',
   'The alias to give the URL.' => 'Alias, ktorý sa má adrese URL priradiť.',

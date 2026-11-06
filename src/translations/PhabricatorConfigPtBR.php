@@ -10,7 +10,6 @@ final class PhabricatorConfigPtBR
   protected function getTranslations() {
     return array(
   'Memory Usage' => 'Uso de memória',
-  'Table' => 'Tabela',
   'No active repositories have outstanding errors.' => 'Nenhum repositório ativo possui erros pendentes.',
   'This table can use a better table engine.' => 'Esta tabela pode usar um mecanismo de tabela melhor.',
   'Character Set' => 'Conjunto de caracteres',

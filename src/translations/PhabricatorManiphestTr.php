@@ -14,7 +14,6 @@ final class PhabricatorManiphestTr
   'Define task subtypes.' => 'Görev alt türlerini tanımlayın.',
   '%s removed %s as the assignee of this task.' => '%s, bu görevin asistanı olarak %s çıkardı.',
   'Priority of the task.' => 'Görevin önceliği.',
-  'Weigh In' => 'Tartılır',
   'Task Fields' => 'Görev Alanları',
   'Assignee' => 'Atanma',
   'Open Parents' => 'Ebeveynleri Aç',
@@ -45,7 +44,6 @@ final class PhabricatorManiphestTr
   'Unblock' => 'Engeli Kaldır',
   'Select and reorder task fields.' => 'Görev alanlarını seçin ve yeniden sıralayın.',
   'Description Preview' => 'Açıklama Önizleme',
-  '%s changed the subtype of %s from "%s" to "%s".' => '%s, %s\'nin alt tipini "%s"\'den "%s"\'e değiştirdi.',
   'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => 'Yapılandırma, "%s" özel özelliğine sahip hiçbir görev durumu tanımlamaz, ancak bu özel rolü dolduracak bir durum belirtmeniz gerekir.',
   'Oldest open task.' => 'En eski açık görev.',
   'Duplicates Merged Here' => 'Burada Birleştirilen Çoğaltmalar',
@@ -725,7 +723,6 @@ hidden.
 This mutation list is advisory and only configures the UI. Tasks may still be
 converted across subtypes freely by using the Bulk Editor or API.
 ' => '',
-  '%s changed the subtype of this task from "%s" to "%s".' => '%s bu görevin alt türünü "%s"\'den "%s"\'e değiştirdi.',
   'Create a new Maniphest task.' => 'Yeni bir Maniphest görevi oluşturun.',
   'Create New Task' => 'Yeni Görev Oluştur',
   'Read information about tasks.' => 'Görevler hakkında bilgi edinin.',

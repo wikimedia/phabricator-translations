@@ -25,6 +25,7 @@ final class PhabricatorFlagKoKR
   'This object is temporary and cannot be flagged.' => '이 객체는 임시이며 플래그가 지정될 수 없습니다.',
   'Remove flag' => '플래그 제거',
   'You are not the creator of this flag.' => '이 플래그의 작성자가 아닙니다.',
+  'Personal Flag color' => '개인 플래그 색상',
   'Flag %s' => '플래그 %s',
   'Removed Flag' => '플래그 제거됨',
   'Create or modify a flag.' => '플래그를 만들거나 수정합니다.',

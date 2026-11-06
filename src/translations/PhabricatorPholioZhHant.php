@@ -42,7 +42,6 @@ final class PhabricatorPholioZhHant
   'You can not query for inline comments without also querying for images.' => '您不能在沒有查詢圖片情況下查詢行內註釋。',
   'Someone comments on a mock.' => '有人在畫面模型上做了註釋。',
   'Uploading Image...' => '正在上傳圖片…',
-  'History Beckons' => '召喚歷史',
   'Mock Fields' => '畫面模型欄位',
   'Pholio Mock' => 'Pholio 畫面模型',
   'Open Pholio Mock' => '開放 Pholio 畫面模型',

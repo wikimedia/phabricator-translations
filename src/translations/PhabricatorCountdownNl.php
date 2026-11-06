@@ -33,7 +33,6 @@ final class PhabricatorCountdownNl
   'The title of the countdown.' => 'De titel van de aftelling.',
   'Keep track of upcoming launch dates with embeddable counters.' => 'Houd aankomende lanceerdatums bij met insluitbare tellers.',
   'End Date (Future to Past)' => 'Einddatum (toekomst naar verleden)',
-  'Last Words' => 'Laatste woorden',
   'New description.' => 'Nieuwe beschrijving.',
   'Edit Countdown' => 'Aftelling bewerken',
   'End Date' => 'Einddatum',

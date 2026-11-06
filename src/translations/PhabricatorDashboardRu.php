@@ -108,7 +108,6 @@ final class PhabricatorDashboardRu
   'Add Dashboard to Personal Home Page' => 'Добавить доску на личную домашнюю страницу',
   'Panel Type' => 'Тип панели',
   'View Panel Details' => 'Показать данные панели',
-  'Flag' => 'Флаг',
   'Archived Panels' => 'Архивированные панели',
   'Manage Panel' => 'Управлять панелью',
   'Rename the panel.' => 'Переименовать панель.',

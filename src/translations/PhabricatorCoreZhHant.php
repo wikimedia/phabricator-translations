@@ -57,7 +57,6 @@ final class PhabricatorCoreZhHant
   'Default Picture' => '預設圖片',
   'Read/Write' => '讀/寫',
   'CANCELLED' => '已取消',
-  'Fullscreen Mode' => '全螢幕模式',
   'Updated %s' => '已更新%s',
   'Users' => '使用者',
   'S|M|T|W|T|F|S' => '日|一|二|三|四|五|六',

@@ -9,7 +9,6 @@ final class PhabricatorPhurlDeDE
 
   protected function getTranslations() {
     return array(
-  'URL' => 'URL',
   '[Phurl]' => '[Phurl]',
   'New URL.' => 'Neue URL.',
   'No URLs found.' => 'Keine URLs gefunden.',

@@ -10,7 +10,6 @@ final class PhabricatorConfigSl
   protected function getTranslations() {
     return array(
   'Column/Key' => 'Stolpec/ključ',
-  'Table' => 'Tabela',
   'Alternative URIs that can access this service.' => 'Alternativni URI-ji, ki lahko dostopajo do Phabricatorja.',
   'No Email Preferences Link' => 'Ni povezave do e-poštnih nastavitev',
   'No active repositories have outstanding errors.' => 'Nobena aktivna shramba nima izrazitih napak.',

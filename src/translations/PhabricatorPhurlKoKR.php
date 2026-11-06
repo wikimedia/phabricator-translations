@@ -12,7 +12,6 @@ final class PhabricatorPhurlKoKR
   'Alias' => '별칭',
   'Edit Phurl' => 'Phurl 편집',
   'Search for Phurl URLs created by specific authors.' => '특정 작성자의 Phurl URL을 검색합니다.',
-  'URL' => 'URL',
   'All URLs' => '모든 URL',
   '%s changed the alias from %s to %s.' => '%s님이 다른 이름을 %s에서 %s(으)로 변경했습니다.',
   'The alias to give the URL.' => 'URL에 지정할 별칭입니다.',

@@ -133,7 +133,6 @@ Projetos inválidos ou não reconhecidos serão ignorados. Este comando não tem
   'Fullscreen' => 'Tela cheia',
   'Change Background Color' => 'Alterar cor do plano de fundo',
   'Type a project subtype name...' => 'Digite um nome de subtipo de projeto...',
-  'Show Hidden Columns' => 'Mostrar colunas ocultas',
   'Looks Like' => 'Parece',
   '%s added %d %s hashtag(s): %s.' => '%s adicionou %d %s hashtag(s): %s.',
   '%s edited member(s) for %s, added %s: %s; removed %s: %s.' => '%s editou membro(s) por %s, adicionado %s: %s; removido %s: %s.',

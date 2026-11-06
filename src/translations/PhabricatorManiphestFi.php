@@ -16,6 +16,7 @@ final class PhabricatorManiphestFi
   'Task' => 'Tehtävä',
   'No tasks.' => 'Ei tehtäviä.',
   'TASK DESCRIPTION' => 'TEHTÄVÄN KUVAUS',
+  'You do not have permission to batch edit tasks.' => 'Sinulla ei ole oikeutta muokata tehtäviä erissä.',
   'Closed By' => 'Sulkenut',
 );
   }

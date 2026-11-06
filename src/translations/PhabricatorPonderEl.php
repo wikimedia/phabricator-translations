@@ -31,7 +31,6 @@ final class PhabricatorPonderEl
   'Status of the question.' => 'Κατάσταση της ερώτησης.',
   'Empty Answer' => 'Άδεια απάντηση',
   '%s updated the answer wiki.' => 'Ο %s ενημέρωσε το βίκι απάντησης.',
-  'Answer Comment' => 'Απάντηση σχολίου',
   'No questions found.' => 'Δεν βρέθηκαν ερωτήσεις.',
   'Ask Question' => 'Κάντε ερώτηση',
   '%s updated the answer details.' => 'Ο %s ενημέρωσε τις λεπτομέρειες της απάντησης.',

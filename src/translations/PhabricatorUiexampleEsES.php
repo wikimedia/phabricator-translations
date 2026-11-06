@@ -24,7 +24,6 @@ final class PhabricatorUiexampleEsES
   'Buttons' => 'Botones',
   'Emoji' => 'Emojis',
   'When it is prohibitively expensive or complex to attain a complete count of the items, you can select one extra item and set %s if it exists, creating an inexact pager.' => 'Cuando el recuento completo de ítems es prohibitivamente costoso o complejo de  alcanzar, puedes seleccionar un ítem adicional y establecer %s si existe, creando así un pager inexacto.',
-  'Color Palette' => 'Paleta de colores',
   'Launch Instance' => 'Iniciar instancia',
   'Wikipedia' => 'Wikipedia',
   'Unit (5/5)' => 'Unidad (5/5)',

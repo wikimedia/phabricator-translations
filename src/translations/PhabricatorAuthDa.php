@@ -40,6 +40,7 @@ final class PhabricatorAuthDa
   'Public SSH Key' => 'Offentlig SSH nøgle',
   'Disqus' => 'Disqus',
   'All Keys' => 'Alle nøgler',
+  'Use StartTLS' => 'Brug TLS',
   'Log In (%s)' => 'Log ind (%s)',
   'Skip This Step' => 'Spring dette trin over',
   'Contact Number %d' => 'Kontaktnummer %d',
@@ -120,7 +121,6 @@ final class PhabricatorAuthDa
   'SSH Keys' => 'SSH nøgler',
   'WordPress.com' => 'WordPress.com',
   'Default Message' => 'Standardbesked',
-  'Use TLS' => 'Brug TLS',
   'Username/Password' => 'Brugernavn/Adgangskode',
   'Again' => 'Igen',
 );

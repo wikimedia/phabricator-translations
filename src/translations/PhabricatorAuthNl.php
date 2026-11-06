@@ -114,7 +114,6 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'Log In with LDAP' => 'Aanmelden met LDAP',
   'Expected verifier to finish OAuth handshake!' => 'Verificatie verwacht om de OAuth-handshake te voltooien!',
   'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => 'Geef het type aanmeldgegevens op dat ingetrokken moet worden met "--type" of geef "--everything" op. Gebruik "--list" om beschikbare typen aanmeldgegevens weer te geven.',
-  'Start TLS after binding to the LDAP server.' => 'TLS starten na het verbinden met de LDAP-server.',
   'Duo providers must have an API hostname.' => 'Duo-providers moeten een API-hostnaam hebben.',
   'TOTP Code' => 'TOTP-code',
   'Invalid response token for this challenge: token digest does not match stored digest.' => 'Onjuist antwoordtoken voor deze uitdaging: de tokendigest komt niet overeen met de opgeslagen digest.',
@@ -276,27 +275,6 @@ Kopieer na het voltooien van de configuratie het **Client-ID** en het **Clientge
   'The password and confirmation do not match.' => 'Het wachtwoord en de bevestiging komen niet overeen.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Handelingstellers resetten zodat een gebruiker door kan gaan met snelheidsbeperkte handelingen.',
   '%s disabled this contact number.' => '%s heeft dit contactnummer uitgeschakeld.',
-  'To configure GitHub OAuth, create a new GitHub Application here:
-
-https://github.com/settings/applications/new
-
-You should use these settings in your application:
-
-  - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
-  - **Callback URL**: Set this to: `%s`
-
-
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Om GitHub OAuth te configureren, maakt u hier een nieuwe GitHub-toepassing aan:
-
-https://github.com/settings/applications/new
-
-Gebruik deze instellingen in uw toepassing:
-
-  - **URL:** Stel dit in op uw volledige domein met protocol. Voor deze server is de juiste waarde: `%s`
-  - **Callback-URL**: Stel dit in op: `%s`
-
-
-Kopieer na het aanmaken van een toepassing het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden.',
   'No Providers Configured:' => 'Geen providers geconfigureerd:',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Als u doorgaat, maakt u een nieuw account aan. U kunt dit externe account niet aan een bestaand account koppelen.',
   'A text message with an authorization code will be sent to your primary contact number.' => 'Een tekstbericht met een autorisatiecode wordt naar uw primaire contactnummer gestuurd.',
@@ -431,6 +409,7 @@ Als u dat nog niet hebt gedaan, download en installeer nu een TOTP-toepassing op
   'Expected token to finish OAuth handshake!' => 'Token verwacht om de OAuth-handshake te voltooien!',
   'Unable to start TLS connection when connecting to LDAP.' => 'Kan geen TLS-verbinding starten bij het verbinden met LDAP.',
   'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'De configuratie van de authenticatieprovider is vergrendeld en kan niet worden gewijzigd zonder ontgrendeling.',
+  'Use StartTLS' => 'TLS gebruiken',
   'Factor type "%s" is unknown. Use `bin/auth list-factors` to get a list of known factor types.' => 'Factortype "%s" is onbekend. Gebruik `bin/auth list-factors` om een lijst van bekende factortypen te krijgen.',
   'Log In (%s)' => 'Aanmelden (%s)',
   'Skip This Step' => 'Deze stap overslaan',
@@ -671,7 +650,6 @@ Kies een permanente naam voor de externe server waarmee u verbinding wilt maken.
   'Password Reset' => 'Wachtwoord resetten',
   'Expected valid JSON response from Amazon account data request.' => 'Geldig JSON-antwoord verwacht van Amazon-accountgegevensverzoek.',
   'Revoked SSH keys can not be edited or reinstated.' => 'Ingetrokken SSH-sleutels kunnen niet worden bewerkt of hersteld.',
-  'Follow referrals. Disable this for Windows AD 2003.' => 'Verwijzingen volgen. Schakel dit uit voor Windows AD 2003.',
   'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'WAARSCHUWING: U hebt nog geen authenticatieproviders geconfigureerd, dus uw account heeft geen aanmeldgegevens. Als u zich nu afmeldt, kunt u niet meer normaal aanmelden.',
   'If you do not recognize this change, it may indicate your account has been compromised.' => 'Als u deze wijziging niet herkent, kan dit erop wijzen dat uw account is gecompromitteerd.',
   'Link Accounts' => 'Accounts koppelen',
@@ -1270,6 +1248,27 @@ LDAP-fout #%d: %s',
   'LDAP search failed.' => 'LDAP-zoekopdracht mislukt.',
   'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Deze privésleutel kon niet worden geopend met de opgegeven wachtwoordzin. Dit kan betekenen dat de wachtwoordzin onjuist is of dat de sleutel niet correct is opgemaakt. Controleer of u de volledige tekst van een geldige privésleutel en de juiste wachtwoordzin hebt opgegeven.',
   'Allow Auto Login' => 'Automatisch aanmelden toestaan',
+  'To configure GitHub OAuth, create a new GitHub Application here:
+
+https://github.com/settings/applications/new
+
+You should use these settings in your application:
+
+  - **Homepage URL:** Set this to your full domain with protocol.     For this server, the correct value is: `%s`
+  - **Authorization callback URL**: Set this to: `%s`
+
+
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Om GitHub OAuth te configureren, maakt u hier een nieuwe GitHub-toepassing aan:
+
+https://github.com/settings/applications/new
+
+Gebruik deze instellingen in uw toepassing:
+
+  - **URL:** Stel dit in op uw volledige domein met protocol. Voor deze server is de juiste waarde: `%s`
+  - **Callback-URL**: Stel dit in op: `%s`
+
+
+Kopieer na het aanmaken van een toepassing het **Client-ID** en het **Clientgeheim** naar de bovenstaande velden.',
   'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Opmerking: het ontkoppelen van een authenticatieprovider beëindigt alle andere actieve aanmeldsessies.',
   '%s renamed this key from "%s" to "%s".' => '%s heeft deze sleutel hernoemd van "%s" naar "%s".',
   'Enable Number' => 'Nummer inschakelen',
@@ -1341,7 +1340,6 @@ U kunt later aanpassingen maken vanuit het [[ /settings/ | Instellingen ]]-panee
   'Login Failed' => 'Aanmelding mislukt',
   'You have failed to verify multi-factor authentication too often in a short period of time.' => 'U hebt te vaak multifactorauthenticatie niet kunnen verifiëren in een korte periode.',
   'You can not make a disabled number a primary contact number.' => 'U kunt een uitgeschakeld nummer niet als primair contactnummer instellen.',
-  'Use TLS' => 'TLS gebruiken',
   'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'Deze installatie heeft de configuratieoptie "%s" ingeschakeld, maar heeft geen actieve multifactorproviders geconfigureerd. Dit betekent dat u MFA moet toevoegen, maar dit ook niet kunt doen. Een beheerder moet "%s" uitschakelen of een MFA-provider inschakelen om u te laten doorgaan.',
   'You will no longer be able to use your %s account to log in.' => 'U kunt uw %s-account niet meer gebruiken om aan te melden.',
   'Auth Invite' => 'Authenticatie-uitnodiging',

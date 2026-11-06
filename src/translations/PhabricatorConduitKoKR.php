@@ -41,7 +41,6 @@ final class PhabricatorConduitKoKR
   'My Calls' => '내 호출',
   'Call' => '호출',
   'Point values must be nonnegative.' => '점수 값은 음수가 아니어야 합니다.',
-  'Maximum token name length is %d characters.' => '토큰 이름의 최대 길이는 %d자입니다.',
   'API token "%s" was previously valid, but has expired.' => 'API 토큰 "%s"은(는) 이전에는 유효했지만 만료되었습니다.',
   'Use the %s panel in Settings to generate or manage API tokens.' => '설정의 %s 패널을 사용하여 API 토큰을 생성하거나 관리하세요.',
   'Conduit' => 'Conduit',
@@ -68,6 +67,7 @@ final class PhabricatorConduitKoKR
   'You can not call newQueryFromRequest() in this method ("%s") because it does not implement newQueryObject().' => '이 메서드("%s")에서는 newQueryObject() 인터페이스를 구현하지 않으므로 newQueryFromRequest()를 호출할 수 없습니다.',
   'Caller PHID' => '호출자 PHID',
   '<api-token>' => '<api-token>',
+  'Maximum token name length is %s characters.' => '토큰 이름의 최대 길이는 %s자입니다.',
   'See error message for details.' => '자세한 정보는 오류 메시지를 참고하세요.',
   'Literal null.' => '문자 그대로 null입니다.',
   'There are no API tokens to terminate.' => '종료할 API 토큰이 없습니다.',
@@ -125,7 +125,6 @@ final class PhabricatorConduitKoKR
   'Returns' => '반환',
   'Active API Tokens' => '활성 API 토큰',
   'Conduit API Overview' => 'Conduit API 개요',
-  'Session key is not present.' => '세션 키가 없습니다.',
   'No matching calls in log.' => '로그에 일치하는 호출이 없습니다.',
   'Show new methods which are subject to change.' => '변경될 수 있는 새로운 메서드를 보여줍니다.',
   'Invalid parameter information was passed to method \'%s\'.' => '메서드 \'%s\'에 유효하지 않은 매개변수 정보가 전달되었습니다.',
@@ -209,6 +208,7 @@ final class PhabricatorConduitKoKR
   'Terminate Token' => '토큰 끝내기',
   'This server requires authentication.' => '이 서버는 인증이 필요합니다.',
   'Show old methods which will be deleted in a future version of this software.' => '향후 소프트웨어 버전에서 삭제될 오래된 메서드를 표시합니다.',
+  'This method requires authentication.' => '이 수단은 인증이 필요합니다.',
 );
   }
 

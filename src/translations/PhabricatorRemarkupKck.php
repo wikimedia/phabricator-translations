@@ -1,15 +1,16 @@
 <?php
 
-final class PhabricatorSlowvoteTe
+final class PhabricatorRemarkupKck
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'te';
+    return 'kck';
   }
 
   protected function getTranslations() {
     return array(
-  '%s (%d / %d)' => '%s (%d / %d)',
+  'Quote' => 'Leba',
+  'Find Document:' => 'Wana dokhumenti',
 );
   }
 

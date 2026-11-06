@@ -61,6 +61,7 @@ final class PhabricatorFilesFi
   'Read Me' => 'Lue minut',
   'Grandma Uses This' => 'Isoäiti käyttää tätä',
   '[File]' => '[Tiedosto]',
+  'Accessibility' => 'Saavutettavuus',
   'Delete File' => 'Poista tiedosto',
   'FILE LINKS' => 'TIEDOSTOLINKIT',
   'Cardboard Box' => 'Pahvilaatikko',

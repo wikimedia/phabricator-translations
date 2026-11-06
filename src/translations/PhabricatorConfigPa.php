@@ -10,7 +10,6 @@ final class PhabricatorConfigPa
   protected function getTranslations() {
     return array(
   'Or:' => 'ਜਾਂ:',
-  'Table' => 'ਸਾਰਨੀ',
   'Usage' => 'ਵਰਤੋਂ',
   'Short' => 'ਛੋਟਾ',
   'Elasticsearch index exists but needs correction.' => 'ਲਚਕਦਾਰ-ਖੋਜ (Elasticsearch) ਤਤਕਰਾ ਮੌਜੂਦ ਹੈ ਪਰ ਇਸ ਵਿੱਚ ਸੁਧਾਰ ਦੀ ਲੋੜ ਹੈ।',

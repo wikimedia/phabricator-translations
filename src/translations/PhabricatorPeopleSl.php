@@ -38,6 +38,7 @@ final class PhabricatorPeopleSl
   'Projects (%s)' => 'Projekti (%s)',
   'Save Profile' => 'Shrani profil',
   'User Accounts' => 'Uporabniški računi',
+  'Hide Administrators' => 'Skrij administratorje',
   'Edit Settings' => 'Uredi nastavitve',
   '%s Account "%s" Approved' => 'Phabricator račun »%s« odobren',
   'Login: Upgrade to Full' => 'Prijava: nadgradnja na polno raven',

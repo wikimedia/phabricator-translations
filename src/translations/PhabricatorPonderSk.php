@@ -45,7 +45,6 @@ final class PhabricatorPonderSk
   'Status of the question.' => 'Stav otázky.',
   'Empty Answer' => 'Prázdna odpoveď',
   '%s updated the answer wiki.' => '%s aktualizoval wiki odpovedí.',
-  'Answer Comment' => 'Komentár k odpovedi',
   'No questions found.' => 'Nenašli sa žiadne otázky.',
   'Ask Question' => 'Položiť otázku',
   '%s updated the answer details.' => '%s aktualizoval podrobnosti odpovede.',

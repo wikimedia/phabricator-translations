@@ -34,7 +34,6 @@ final class PhabricatorDashboardEl
   'Add Panel' => 'Προσθήκη πίνακα',
   '(None)' => '(καμία)',
   'Panel Type' => 'Τύπος πίνακα',
-  'Flag' => 'Αναφορά',
   'Archived Panels' => 'Αρχειοθετημένοι πίνακες',
   'Rename the panel.' => 'Μετονομασία του πίνακα.',
   'Search For' => 'Αναζήτηση για',

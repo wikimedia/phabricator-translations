@@ -23,7 +23,6 @@ final class PhabricatorAuthRu
   'Really trust this PKCS8 keyfile?' => 'Действительно доверяете этому PKCS8 ключу?',
   'No public key was provided.' => 'Не предоставлено публичного ключа.',
   'Log In with LDAP' => 'Зайти с помощью LDAP',
-  'Start TLS after binding to the LDAP server.' => 'Запустить TLS после подключения к LDAP-серверу.',
   'TOTP Code' => 'Код TOTP',
   'Too Short' => 'Слишком короткий',
   'LDAP Username: ' => 'LDAP имя пользователя:',

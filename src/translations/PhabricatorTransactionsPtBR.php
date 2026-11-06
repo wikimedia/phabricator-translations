@@ -86,7 +86,6 @@ final class PhabricatorTransactionsPtBR
   'Mentioned User' => 'Usuário mencionado',
   'EDIT DETAILS' => 'EDITAR DETALHES',
   'Remove Action: %s' => 'Remover ação: %s',
-  '%s moved this task from %s to %s on the %s board.' => '%s moveu esta tarefa de %s para %s no quadro de %s.',
   '(Show Details)' => '(Mostrar detalhes)',
   'Two bulk edit groups have the same key ("%s"). Each bulk edit group must have a unique key.' => 'Dois grupos de edição em massa possuem a mesma chave ("%s"). Cada grupo de edição em massa deve ter uma chave exclusiva.',
   'Configure Form' => 'Configurar formulário',

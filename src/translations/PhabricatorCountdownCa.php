@@ -32,7 +32,6 @@ final class PhabricatorCountdownCa
   'The title of the countdown.' => 'El títol del compte enrere.',
   'Keep track of upcoming launch dates with embeddable counters.' => 'Fer un seguiment de les properes dates de llançament amb comptadors incrustables.',
   'End Date (Future to Past)' => 'Data de finalització (del futur al passat)',
-  'Last Words' => 'Últimes Paraules',
   'New description.' => 'Descripció nova.',
   'Edit Countdown' => 'Edita el compte enrere',
   'End Date' => 'Data Final',

@@ -14,7 +14,6 @@ final class PhabricatorManiphestNl
   'Define task subtypes.' => 'Taaksubtypen definiëren.',
   '%s removed %s as the assignee of this task.' => '%s heeft %s als toegewezene van deze taak verwijderd.',
   'Priority of the task.' => 'Prioriteit van de taak.',
-  'Weigh In' => 'Geef uw mening',
   'Task Fields' => 'Taakvelden',
   'Assignee' => 'Toegewezen aan',
   'Open Parents' => 'Open bovenliggende taken',
@@ -51,7 +50,6 @@ final class PhabricatorManiphestNl
   'Unblock' => 'Deblokkeren',
   'Select and reorder task fields.' => 'Taakvelden selecteren en herordenen.',
   'Description Preview' => 'Beschrijvingsvoorbeeld',
-  '%s changed the subtype of %s from "%s" to "%s".' => '%s heeft het subtype van %s gewijzigd van "%s" naar "%s".',
   'Configuration defines no task status with special attribute "%s", but you must specify a status which fills this special role.' => 'De configuratie definieert geen taakstatus met het speciale kenmerk "%s", maar u moet een status opgeven die deze speciale rol vervult.',
   'Oldest open task.' => 'Oudste open taak.',
   'Duplicates Merged Here' => 'Hier samengevoegde duplicaten',
@@ -1092,7 +1090,6 @@ verborgen.
 
 Deze mutatielijst is adviserend en configureert alleen de UI. Taken kunnen nog steeds
 vrij tussen subtypen worden geconverteerd met de Bulkeditor of API.',
-  '%s changed the subtype of this task from "%s" to "%s".' => '%s heeft het subtype van deze taak gewijzigd van "%s" naar "%s".',
   'Create a new Maniphest task.' => 'Een nieuwe Maniphest-taak aanmaken.',
   'Create New Task' => 'Nieuwe taak aanmaken',
   'Read information about tasks.' => 'Informatie over taken lezen.',

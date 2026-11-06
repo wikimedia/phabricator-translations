@@ -527,7 +527,6 @@ Selecteer een object om een bericht naar te sturen met de `receiver`-parameter. 
 Zie hieronder voor details over het sturen van berichten naar verschillende objecttypen.',
   'The name of the build step.' => 'De naam van de buildstap.',
   'All Builds' => 'Alle builds',
-  'No such object "%s" exists.' => 'Object "%s" bestaat niet.',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'Object ("%s") beweert dat "%s" een GitHub-repository-URI is, maar het pad ("%s") heeft niet genoeg componenten (minimaal twee verwacht).',
   'Create Buildable' => 'Buildable aanmaken',
   'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
@@ -913,6 +912,7 @@ Als u **Wachten op bericht** selecteert, pauzeert het buildplan voor onbepaalde 
   '<Unknown Artifact Type>' => '<Onbekend artefacttype>',
   'Multiple behavior options (for behavior "%s") are marked as default options ("%s" and "%s"). Exactly one option must be marked as the default option.' => 'Meerdere gedragsopties (voor gedrag "%s") zijn gemarkeerd als standaardopties ("%s" en "%s"). Precies één optie moet als standaardoptie gemarkeerd zijn.',
   'Behavior configuration for the build plan.' => 'Gedragsconfiguratie voor het buildplan.',
+  'No object exists with this "%s".' => 'Object "%s" bestaat niet.',
   'You can not pause this build because it is already paused.' => 'U kunt deze build niet pauzeren omdat deze al gepauzeerd is.',
   'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => 'Bytepositie op de regel waar de tekst begint die het bericht heeft veroorzaakt. De eerste byte op de regel is byte 1, niet byte 0. Deze positie is gebaseerd op bytes (niet op tekens) omdat niet alle lintbare bestanden een geldige tekencodering hebben.',
   'Unable to inflate log chunk!' => 'Kan logfragment niet uitpakken!',
@@ -1296,7 +1296,6 @@ en één waarschuwing:
     'Echt %s builds afbreken?',
   ),
   '(%d - %d)' => '(%d - %d)',
-  'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'Object "%s" implementeert interface "%s" niet. Autodoelen kunnen alleen worden opgevraagd voor buildbare objecten.',
   '%s enabled this build plan.' => '%s heeft dit buildplan ingeschakeld.',
   'Stored Bytes' => 'Opgeslagen bytes',
   'Work will continue on the build. Really resume?' => 'Het werk aan de build wordt voortgezet. Echt hervatten?',
@@ -1316,6 +1315,7 @@ Deze waarschuwing is slechts informatief. Gebruikers kunnen altijd kiezen om dez
 
 Deze instelling beïnvloedt ook de waarschuwing die wordt gepubliceerd bij versies wanneer commits landen met lopende of mislukte builds.',
   'Edit Behavior: %s' => 'Gedrag bewerken: %s',
+  'Object with this "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'Object "%s" implementeert interface "%s" niet. Autodoelen kunnen alleen worden opgevraagd voor buildbare objecten.',
   'Result of the test.' => 'Resultaat van de test.',
   'Use "--id" or "--active" to select builds.' => 'Gebruik "--id" of "--active" om builds te selecteren.',
   'Unable to load build log "%s".' => 'Kan buildlog "%s" niet laden.',

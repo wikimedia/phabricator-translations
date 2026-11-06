@@ -89,7 +89,6 @@ Requests must include a valid "Host" header.' => '이 요청에는 "Host" 헤더
   'Memory Usage' => '메모리 사용량',
   'The request body that was sent began:' => '전송된 요청 본문은 다음과 같이 시작됩니다:',
   'Impersonating users over the API is no longer supported.' => 'API를 통해 다른 사용자를 사칭하는 행위는 더 이상 지원되지 않습니다.',
-  'Table' => '테이블',
   'The best available MYSQL implementation is now selected automatically.' => '이제 사용 가능한 최적의 MySQL 구현이 자동으로 선택됩니다.',
   'Ignore Setup Issue' => '설정 문제 무시',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
@@ -200,15 +199,6 @@ The default is `full`.' => '이메일을 보낼 때 소프트웨어는 사용자
   'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => '데이터베이스를 설정하려면 스토리지 업그레이드 스크립트를 실행하세요 (호스트 "%s"이(가) 초기화되지 않았습니다).',
   'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => '메일 발송 기능을 아직 구성하지 않았으므로 이 서버는 발신 메일을 보내거나 수신 메일을 받을 수 없습니다. 자세한 내용은 "cluster.mailers" 구성 설정을 참조하세요.',
   'Unrecognized verb: %s' => '인식할 수 없는 동사: %s',
-  'WARNING: This is a prototype option and the description below is currently pure
-fantasy.
-
-This option allows you to make this service aware of database read replicas so
-it can monitor database health, spread load, and degrade gracefully to
-read-only mode in the event of a failure on the primary host. For help with
-configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => '경고: 이 옵션은 프로토타입이며 아래 설명은 현재 순전히 상상에 불과합니다.
-
-이 옵션을 사용하면 서비스가 데이터베이스 읽기 복제본을 인식하여 데이터베이스 상태를 모니터링하고, 부하를 분산하고, 기본 호스트에 장애가 발생할 경우 읽기 전용 모드로 정상적으로 전환할 수 있습니다. 클러스터 데이터베이스 구성에 대한 도움말은 설명문서의 **[[ %s | %s ]]**를 참조하세요.',
   'Schemata Issues' => '스키마타 문제',
   'Expected Collation' => '예상된 콜레이션',
   'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => '옵션 "%s"은(는) 유형 "%s"이지만, 값이 목록이 아닙니다: unnatural 또는 sparse한 키를 가진 맵입니다.',
@@ -243,7 +233,6 @@ configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => '
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' 바이너리를 찾을 수 없습니다. \'%s\'로 Symlink하거나, 웹서버의 환경 변수 %s에 해당 바이너리가 있는 디렉터리를 포함시키거나, 구성의 \'%s\'에 해당 디렉터리를 추가하세요.',
   'Configuration Guide: Locked and Hidden Configuration' => '구성 가이드: 잠긴 및 숨겨진 구성',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => '이 옵션을 사용하면 자세한 오류 보고(스택 추적, 오류 메시지)가 활성화되고 페이지를 다시 로드할 때마다 정적 리소스에 대한 디스크 읽기가 강제됩니다.',
-  'Wrote configuration key "%s" to local storage (in file "%s").' => '로컬 스토리지에 구성 키 "%s"를 (파일 %s에) 작성했습니다.',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => '이러한 대체 URI를 사용하면 해당 설치의 \'일반\' 페이지에 액세스할 수 있습니다. OAuth와 같은 다른 기능은 작동하지 않습니다. 이 기능의 주요 사용 사례는 도메인 간 설치를 이전하는 것입니다.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => '레플리카 하지 않는 레플리카',
@@ -458,8 +447,6 @@ smaller messages. The actions themselves will still work properly.' => '사용�
   'Configure the access logs, which log HTTP/SSH requests.' => 'HTTP/SSH 요청을 기록하는 접근 로그를 구성합니다.',
   '%ss Behind' => '%s초 뒤쳐짐',
   'The PID of the server process.' => '서버 프로세스의 PID입니다.',
-  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
-            \'installed on an entire domain; it can not be installed on a path.' => '구성 옵션 \'%s\'이(가) 잘못되었습니다. URI에는 경로가 포함되어서는 안 됩니다. 예를 들어 \'%s\'은(는) 괜찮지만 \'%s\'은(는) 안 됩니다. 이 소프트웨어는 전체 도메인에 설치해야 하며 특정 경로에 설치할 수 없습니다.',
   'Blacklist subnets to prevent user-initiated outbound requests.' => '사용자가 시작하는 외부 요청을 차단하기 위해 서브넷을 차단 목록을 추가합니다.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
@@ -642,15 +629,6 @@ If not set, no log will be written.' => 'HTTP 액세스 로그를 활성화하�
   'Use the %s to manage enabled applications.' => '%s을(를) 사용해서 활성화된 애플리케이션을 관리하세요.',
   'Current Configuration' => '현재 구성',
   'Replicating Master' => '마스터를 레플리카 중',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => '이 시스템에 설치된 %s 버전은 구버전이며, 널리 알려진 심각한 취약점("셸쇼크" 취약점)이 포함되어 있습니다.
-
-패치된 %s 버전으로 업그레이드하세요.
-
-이 문제가 소프트웨어에 미치는 영향에 대한 자세한 내용은 %s을(를) 참조하세요.',
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => '시간대가 설정되지 않은 경우 PHP는 날짜 작업 시 경고를 표시하며 날짜와 시간이 올바르게 표시되지 않을 수 있습니다.',
   'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => '옵션 "%s"은(는) "%s" 유형이며 유효한 정규 표현식 목록으로 설정되어야 하지만 "%s"은(는) 유효한 정규 표현식이 아닙니다.',
   'This schema can use a better character set.' => '이 스키마는 더 나은 문자 집합을 사용할 수 있습니다.',
@@ -689,7 +667,6 @@ Your webserver may not be configured to forward HTTP basic authentication. If yo
   'This issue will no longer be suppressed, and will return to its rightful place as a global setup warning.' => '이 문제는 더 이상 억제되지 않으며, 전역 설정 경고로서 마땅한 위치로 돌아갑니다.',
   'Allows you to remove levity and jokes from the UI.' => 'UI에서 가벼운 농담과 장난을 제거할 수 있게 합니다.',
   'Sites' => '사이트',
-  'T6185 "Shellshock" Bash Vulnerability' => 'T6185 "셸쇼크" 배쉬 취약점',
   'Missing \'%s\' Extension' => '\'%s\' 확장 기능 누락됨',
   'Retention policies for garbage collection.' => '가비지 콜렉트에 대한 보관 정책입니다.',
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL(호스트 "%s")이 매우 작은 innodb_buffer_pool_size로 구성되어 있어 성능에 영향을 미칠 수 있습니다.',
@@ -1176,7 +1153,6 @@ Administrators can query a list of users who do not have MFA configured in
   'Reply hints are no longer shown in mail.' => '메일에 답변 힌트가 더 이상 표시되지 않습니다.',
   'Profile every request (slow)' => '모든 요청을 분석 (느림)',
   'Resolved Issue' => '해결된 문제',
-  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => '로컬 경로 "%s"은(는) 쓰기가 불가능합니다. "bin/config"가 구성을 저장할 수 있으려면 이 파일의 쓰기가 가능해야 합니다.',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => '이 옵션은 일반적으로 유용하지 않은 것으로 나타났습니다. 리소스 해시값 키는 이제 자동으로 관리됩니다.',
   'Schema Status' => '스키마 상태',
   'To update these %d value(s), run these command(s) from the command line:' => array(
@@ -1528,7 +1504,6 @@ You should disable this option in your %s file, in the %s section:
 
 %s',
   'Setup Checks' => '설정 확인',
-  'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => '이 시스템에는 심각하고 널리 알려진 취약점이 있는 패치가 적용되지 않은 Bash 버전이 설치되어 있습니다.',
   'Keys' => '키',
   'No Auth Providers' => '인증 제공자 없음',
   'Missing Required Extensions' => '필요한 확장 기능 없음',
@@ -1555,12 +1530,6 @@ To disable this option, set: %s' => 'PHP는 현재 연결된 모든 MySQL 서버
   'Activity "%s" is not currently marked as required, so there is no need to complete it.' => '활동 "%s"은(는) 현재 필수 활동으로 표시되어 있지 않으므로 완료할 필요가 없습니다.',
   'To continue, resolve this problem and reload the page.' => '계속하려면 이 문제를 해결하고 페이지를 새로 고침하세요.',
   'Wordmark' => '워드마크',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => '경고: 이 옵션은 프로토타입이며 아래 설명은 현재로서는 상상에 불과합니다!
-
-서비스를 읽기 전용 모드로 전환합니다. 이 모드에서는 사용자가 새 데이터를 쓸 수 없습니다. 일반적으로 클러스터는 데이터베이스 마스터에 연결할 수 없음을 감지하면 자동으로 이 모드로 전환되지만, 유지보수 또는 구성 테스트를 수행하기 위해 수동으로 활성화할 수 있습니다.',
-  'Severe Security Vulnerability: Unpatched Bash' => '심각한 보안 취약점: 패치되지 않은 배시',
   'Force HTTPS' => 'HTTPS 강제',
   'This key is not expected to exist.' => '이 키는 존재하는 것으로 예측되지 않습니다.',
   '%s.%s' => '%s.%s',

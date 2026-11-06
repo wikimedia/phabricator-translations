@@ -14,7 +14,6 @@ final class PhabricatorCelerityZhHant
   'Unable to render resource "%s", which has unknown type "%s".' => '無法呈現資源「%s」，此含有未知類型「%s」。',
   'Writing map "%s".' => '正在寫入對應「%s」。',
   'Use High Contrast Colors' => '使用高對比色彩',
-  'Use Larger Font Size' => '使用更大的字體大小',
   'Found %d binary resources.' => '找到%d二進位資源。',
   'No resource with symbol "%s" exists in source "%s"!' => '符號為「%s」的資源不存在於來源「%s」裡！',
   'Celerity' => 'Celerity',

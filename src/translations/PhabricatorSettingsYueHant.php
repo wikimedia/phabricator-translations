@@ -20,7 +20,6 @@ final class PhabricatorSettingsYueHant
   'Personal Account Settings' => '個人戶口設定',
   'Global Default Settings' => '全域預設設定',
   'Self Actions' => '自我行動',
-  'If you have difficulty reading the UI, this setting may help.' => '如果你喺閱讀用戶介面嗰陣有困難，呢個設定可能會有幫助。',
   'Email Notifications' => '電郵通知',
   'Show Unified Diffs' => '顯示統一嘅差異',
   'Diff Preferences' => '差異嘅喜好設定',

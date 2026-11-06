@@ -11,6 +11,7 @@ final class PhabricatorRemarkupLb
     return array(
   'Specialized Syntax' => 'Spezialiséiert Syntax',
   'Input' => 'Input',
+  'Reference' => 'Referenz',
 );
   }
 

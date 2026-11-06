@@ -11,6 +11,8 @@ final class ArcanistCoreAr
     return array(
   'Aborted due to file upload failure. You can use %s to skip binary uploads.' => 'تم إجهاض العملية نتيجةً لفشل في تحميل الملف. بإمكانك أن تستعمل %s لاختزال التحميلات المبنية على الشفرة الثنائية.',
   'Ref "%s" does not exist in remote "%s".' => 'المرجع " %s " غير موجود في " %s ".',
+  'Flexible Heredoc and Nowdoc is not available before PHP 7.3.' => 'لا تتوفر خاصية Heredoc و Nowdoc المرنة قبل الإصدار PHP 7.3.',
+  'This process has PID %d. Acquiring lock...' => 'هذه العملية تحمل المعرّف %d . جارٍ الحصول على القفل...',
   'This working copy is associated with the %s repository.' => 'هذه النسخة العملية مقرونة بمستودع ال%s',
   'Lint Disabler' => 'ملغي تفعيل لينت',
   'Call to "posix_getpgid(...)" failed!' => 'فشل استدعاء "posix_getpgid (...)"!',
@@ -22,8 +24,8 @@ final class ArcanistCoreAr
   '(This message was raised at line %s, but the file only has %s line(s).)' => array(
     
     array(
-      '(تم طرح هذه الرسالة في السطر  %s , ولكن الملف يحتوي فقط على %s  line.)',
-      '(تم طرح هذه الرسالة في السطر  %s , ولكن الملف يحتوي فقط على %s lines.)',
+      '(تم طرح هذه الرسالة في السطر %s، ولكن الملف يحتوي فقط على %s سطر.)',
+      '(تم طرح هذه الرسالة في السطر %s، ولكن الملف يحتوي فقط على %s أسطر.)',
     ),
   ),
   'Portuguese (Portugal)' => 'البرتغالية (البرتغال)',
@@ -54,7 +56,6 @@ final class ArcanistCoreAr
   'Inline HTML' => 'مضمنة HTML',
   'Remote Repository' => 'مستودع عن بعد',
   'Conduit API login required.' => 'مطلوب تسجيل الدخول إلى Conduit API.',
-  'Empty certificate in credentials.' => 'شهادة فارغة في بيانات الاعتماد.',
   'No tests to run.' => 'لا توجد اختبارات للتشغيل.',
   'Expected JSON response from Slack.' => 'استجابة JSON المتوقعة من Slack.',
   '%s assertion(s) passed.' => array(

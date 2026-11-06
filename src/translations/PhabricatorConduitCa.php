@@ -120,7 +120,6 @@ final class PhabricatorConduitCa
   'Returns' => 'Devolucions',
   'Active API Tokens' => 'Testimonis d\'API actius',
   'Conduit API Overview' => 'Visió general de l\'API Conduit',
-  'Session key is not present.' => 'La clau de sessió no està present.',
   'No matching calls in log.' => 'No hi ha trucades coincidents al registre.',
   'Show new methods which are subject to change.' => 'Mostra els mètodes nous que poden canviar.',
   'Invalid parameter information was passed to method \'%s\'.' => 'S\'ha passat informació de paràmetre no vàlid al mètode «%s».',

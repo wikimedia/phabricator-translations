@@ -16,7 +16,6 @@ final class PhabricatorUiexampleSkrArab
   'Technical' => 'ٹیکنیکل',
   'Buttons' => 'بٹݨ',
   'Emoji' => 'ایموجی',
-  'Notice' => 'اطلاع',
   'Lists' => 'فہرستاں',
   'Wikipedia' => 'وکیپیڈیا',
   'Outlines' => 'خاکے',

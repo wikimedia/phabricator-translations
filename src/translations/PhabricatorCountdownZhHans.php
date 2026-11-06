@@ -23,7 +23,6 @@ final class PhabricatorCountdownZhHans
   'Launched on %s' => '已在%s发布',
   'Upcoming' => '即将到来',
   'The title of the countdown.' => '倒计时标题。',
-  'Last Words' => '上次用词',
   'New description.' => '新描述。',
   'Edit Countdown' => '编辑倒计时',
   'End Date' => '结束日期',

@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteCa
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Entrar les Deliberacions',
   'Close Poll' => 'Tancar l\'enquesta',
   'Create a Poll' => 'Crear una enquesta',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'L\'opció ("%s") no és una opció d\'enquesta vàlida. Només podeu votar per opcions vàlides.',

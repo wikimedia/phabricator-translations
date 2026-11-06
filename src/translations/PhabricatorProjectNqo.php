@@ -12,7 +12,6 @@ final class PhabricatorProjectNqo
   'Play Sound' => 'ߡߍ߲ߞߊ߲ ߕߏߟߏ߲߫',
   'Sort by Created Date' => 'ߊ߬ ߘߐߕߐ߬ߡߐ߲߫ ߞߊ߬ ߓߍ߲߬ ߊ߬ ߛߌ߲ߘߌ߫ ߕߎ߬ߡߊ߬ߘߊ ߡߊ߬',
   'Value for "%s" rule is invalid: %s' => 'ߡߐ߬ߟߐ߲ ߞߊ߬ ߓߍ߲߬ "%s" ߞߎ߬ߙߎ߲߬ߘߎ ߓߙߍ߬ߦߓߊ߬ߟߌ߬ߦߊ ߡߊ߬: %s',
-  '%d week(s)' => '%d ߟߐ߯ߕߍ (ߟߎ߬)',
   'Trigger %d' => 'ߞߟߍ߬ߕߍ߰ߟߊ߲%d',
   'Invalid Rule' => 'ߞߎ߬ߙߎ߲߬ߘߎ ߓߙߍ߬ߦߓߊ߬ߟߌ߬ߦߊ',
   'Group by Owner' => 'ߊ߬ ߞߙߎߝߊ߫ ߞߊ߬ ߓߍ߲߬ ߕߌ߱ ߡߊ߬',
@@ -29,6 +28,7 @@ final class PhabricatorProjectNqo
   'Sort by Points' => 'ߊ߬ ߦߌ߬ߘߊ߬ ߞߊ߬ ߓߍ߲߬ ߕߏ߲ߘߋ ߟߎ߫ ߡߊ߬',
   'Project tags removed' => 'ߖߊ߬ߕߋ߬ߘߐ߬ߛߌ߮ ߞߟߍ߬ߕߍ߰ߟߊ߲ ߖߐ߬ߛߌ߬ߣߍ߲',
   'Play sound %s.' => 'ߡߍ߲ߞߊ߲ ߕߏߟߏ߲߫ %s',
+  '%s week(s)' => '%s ߟߐ߯ߕߍ (ߟߎ߬)',
   'Visible Columns' => 'ߟߐ߬ߛߋ߲ ߠߎ߬ ߟߊ߲ߞߣߍߡߊ',
 );
   }

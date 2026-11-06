@@ -86,7 +86,6 @@ final class PhabricatorPeopleDeDE
   'You do not have permission to disable or enable users.' => 'Du hast keine Rechte, Benutzer zu deaktivieren oder aktivieren.',
   'Can\'t remove primary email!' => 'Kann primäre E-Mail nicht entfernen!',
   'User Accounts' => 'Benutzerkonten',
-  'Create a standard user account.' => 'Ein Standard-Benutzerkonto erstellen.',
   'Edit Profile: %s' => 'Profil bearbeiten: %s',
   'Make Administrator' => 'Administrator machen',
   'Your %s account (%s) has been approved by %s. You can login here:' => 'Dein %s-Konto (%s) wurde von %s bestätigt. Du kannst dich hier anmelden:',

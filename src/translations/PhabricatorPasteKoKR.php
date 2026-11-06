@@ -63,7 +63,6 @@ final class PhabricatorPasteKoKR
   '%s archived this paste.' => '%s님이 이 붙여넣기를 보관했습니다.',
   'Edit Paste' => '붙여넣기 편집하기',
   '[Paste]' => '[붙여넣기]',
-  'Eat Paste' => '페이스트 먹기',
   'Active Pastes' => '붙여넣기 활성화',
   'Change the paste content.' => '붙여넣기 내용을 변경합니다.',
   '%s updated the language for %s from %s to %s.' => '%s님이 %s에 대한 언어를 %s에서 %s(으)로 업데이트했습니다.',

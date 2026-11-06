@@ -70,7 +70,6 @@ final class PhabricatorBadgesFrFR
   'Default edit policy for badges.' => 'Politique de modification par défaut pour les badges.',
   'Anchors Away' => 'Ancres éloignées',
   'Love is Love' => 'Amour est amour',
-  'Render Honors' => 'Rendre les honneurs',
   'Someone comments on a badge.' => 'Quelqu’un commente un insigne.',
   'Badge name.' => 'Nom de l’insigne.',
   'Short description of the badge.' => 'Description courte de l’insigne.',

@@ -21,7 +21,6 @@ final class PhabricatorPasteDiq
   'Paste Content' => 'Zerreki pıra ne',
   'Create a Paste' => 'Proneyo newe vırazê',
   '[Paste]' => '[Prone]',
-  'Eat Paste' => 'Proneyi bure',
   'Active Pastes' => 'Proneyê ke aktivi',
   'Pastes' => 'Proneyi',
   'Email Paste' => 'Proneyê eposta',

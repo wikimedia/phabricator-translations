@@ -9,11 +9,9 @@ final class PhabricatorCoreSe
 
   protected function getTranslations() {
     return array(
-  'italic text' => 'finjučálan čállojuvvon teaksta',
   'Email Address' => 'E-poastačujuhus',
   'Example' => 'Ovdamearka',
   'Unknown Error' => 'Dovdameahttun meattáhus',
-  'Bold' => 'Buoiddesčála',
   'username' => 'geavaheaddjinamma',
   'Metadata' => 'Metadata',
   'File' => 'Fiila',
@@ -38,7 +36,6 @@ final class PhabricatorCoreSe
   'Tags' => 'Gilkorat',
   'Email' => 'E-poastačujuhus',
   'Username' => 'Geavaheaddjinamma',
-  'Find User:' => 'Oza geavaheaddji:',
   'Language' => 'Giella',
   'Translations' => 'Jorgalusat',
   'Password' => 'Beassansátni',
@@ -60,7 +57,6 @@ final class PhabricatorCoreSe
   'New Address' => 'Ođđa čujuhus',
   'Remove' => 'Sihko',
   'Save' => 'Vurke',
-  'bold text' => 'buoiddesčálan čállojuvvon teaksta',
   'Disabled' => 'Váldojuvvon eret anus',
   'Delete' => 'Sihko',
   'Save Changes' => 'Vurke rievdadusaid',

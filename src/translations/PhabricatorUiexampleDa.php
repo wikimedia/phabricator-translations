@@ -25,7 +25,6 @@ final class PhabricatorUiexampleDa
   'Easter' => 'Påske',
   'Send a Message' => 'Send en besked',
   'Read Documentation' => 'Læs dokumentation',
-  'Extras' => 'Ekstra',
   '%s went to the store.' => '%s tog ned for at handle ind.',
   'Confirmed your account.' => 'Bekræftede din konto.',
   'Technical' => 'Teknisk',

@@ -21,7 +21,6 @@ final class PhabricatorSettingsPtBR
   'Global Default Settings' => 'Configurações padrão globais',
   'Self Actions' => 'Auto ações',
   'Unlink' => 'Desvincular',
-  'If you have difficulty reading the UI, this setting may help.' => 'Se você tiver dificuldade para ler a interface do usuário, essa configuração pode ajudar.',
   'Email Notifications' => 'Notificações por email',
   'Show Unified Diffs' => 'Mostrar diferenças unificadas',
   'Diff Preferences' => 'Preferências de diferencia',

@@ -188,7 +188,6 @@ final class PhabricatorDashboardFrFR
   'Add Dashboard to Personal Home Page' => 'Ajouter le tableau de bord à la page d’accueil personnelle',
   'Panel Type' => 'Type de panneau',
   'View Panel Details' => 'Voir les détails du panneau',
-  'Flag' => 'Indicateur',
   'Archived Panels' => 'Panneaux archivés',
   'Manage Panel' => 'Gérer le panneau',
   'Rename the panel.' => 'Renommer le panneau.',

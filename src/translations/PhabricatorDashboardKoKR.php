@@ -189,7 +189,6 @@ final class PhabricatorDashboardKoKR
   'Add Dashboard to Personal Home Page' => '대시보드를 개인 홈페이지에 추가',
   'Panel Type' => '패널 유형',
   'View Panel Details' => '패널 세부 정보 보기',
-  'Flag' => '깃발',
   'Archived Panels' => '보관된 패널',
   'Manage Panel' => '패널 관리',
   'Rename the panel.' => '패널의 이름을 변경합니다.',

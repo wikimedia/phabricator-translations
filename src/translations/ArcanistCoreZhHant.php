@@ -65,7 +65,6 @@ For more information, see instructions in "%s".' => '協商 SSL 連接時驗證 
   'Remote Repository' => '遠程儲存庫',
   'Conduit API login required.' => '需要登入 Conduit API。',
   'Rule \'%s\' matched a zero-length token and causes no state transition.' => '規則「%s」與零長度標記匹配，不會導致狀態轉換。',
-  'Empty certificate in credentials.' => '憑證中的空證書。',
   'Confirms that revisions you did not author should land.' => '確認您沒有創作的修訂應該登陸。',
   'No tests to run.' => '沒有要執行的測試。',
   'Expected JSON response from Slack.' => '自 Slack 符合預期的 JSON 回應。',

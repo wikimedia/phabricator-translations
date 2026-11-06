@@ -11,7 +11,6 @@ final class PhabricatorPhurlZhHant
     return array(
   'Alias' => '別名',
   'Edit Phurl' => '編輯 Phurl',
-  'URL' => 'URL',
   'All URLs' => '所有 URL',
   '%s changed the alias from %s to %s.' => '%s 已將別名從 %s 更改成 %s。',
   'The alias to give the URL.' => '指定 URL 的別名。',

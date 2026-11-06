@@ -33,7 +33,6 @@ final class ArcanistCoreEo
   'Runtime Error' => 'Rultempa eraro',
   'Inline HTML' => 'Enteksta HTML',
   'Remote Repository' => 'Fora deponejo',
-  'Empty certificate in credentials.' => 'Malplena atestilo en ensalutiloj.',
   'No tests to run.' => 'Neniuj testoj por lanĉi.',
   '%s assertion(s) passed.' => '%s aserto(j) kontrolitaj.',
   'Unknown Symbol' => 'Nekonata simbolo',

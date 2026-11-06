@@ -29,7 +29,6 @@ final class PhabricatorUiexamplePa
   'Read Documentation' => 'ਲਿਖਤਾਂ ਪੜ੍ਹੋ',
   'Hold on tight!' => 'ਘੁੱਟ ਕੇ ਫੜੋ!',
   'haiku. it is very bad.' => 'ਹਾਇਕੂ। ਇਹ ਬਹੁਤ ਬੁਰਾ ਏ।',
-  'Extras' => 'ਵਾਧੂ',
   'Colors of the Rainbow' => 'ਸਤਰੰਗੀ ਪੀਂਘ ਦੇ ਰੰਗ',
   'Pasta Haiku' => 'ਪਾਸਤਾ ਹਾਇਕੂ',
   'Confirmed your account.' => 'ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕੀਤੀ।',

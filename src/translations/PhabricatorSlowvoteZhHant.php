@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteZhHant
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => '輸入審議',
   'Close Poll' => '關閉調查',
   'Create a Poll' => '建立調查',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => '選項（「%s」）不是有效的調查選項。您僅能對有效的選項投票。',

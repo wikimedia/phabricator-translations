@@ -11,6 +11,7 @@ final class PhabricatorMacroFi
     return array(
   'Create Meme' => 'Luo meemi',
   'Upload New Audio' => 'Tallenna uusi ääni',
+  'Meme' => 'Meemi',
   'Create New Macro' => 'Luo uusi makro',
   'Image Macros and Memes' => 'Kuvamakrot ja meemit',
   'Generate a meme.' => 'Tuota meemi.',

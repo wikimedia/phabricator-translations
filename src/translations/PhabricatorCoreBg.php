@@ -39,7 +39,6 @@ final class PhabricatorCoreBg
   'Search' => 'Търсене',
   'Help' => 'Помощ',
   'Settings' => 'Настройки',
-  'Accessibility' => 'Достъпност',
   'Import' => 'Внасяне',
   'Languages' => 'Езици',
   'Upload File' => 'Добавяне на файл',

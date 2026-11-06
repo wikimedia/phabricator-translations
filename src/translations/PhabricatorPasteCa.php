@@ -63,7 +63,6 @@ final class PhabricatorPasteCa
   '%s archived this paste.' => '%s ha arxivat aquest collage.',
   'Edit Paste' => 'Edita el Collage',
   '[Paste]' => '[Collage]',
-  'Eat Paste' => 'Consumir un Collage',
   'Active Pastes' => 'Activar els Collages',
   'Change the paste content.' => 'Canviar el contingut del collage.',
   '%s updated the language for %s from %s to %s.' => '%s ha actualitzat l\'idioma per %s de %s a %s.',

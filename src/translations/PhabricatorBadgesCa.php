@@ -61,7 +61,6 @@ final class PhabricatorBadgesCa
   'Default edit policy for badges.' => 'Política d\'edició predeterminada per a les insígnies.',
   'Anchors Away' => 'Àncores Fora',
   'Love is Love' => 'L\'amor és l\'amor',
-  'Render Honors' => 'Doneu els honors',
   'Someone comments on a badge.' => 'Algú comenta en una insígnia.',
   'Badge name.' => 'Nom de la insígnia',
   'Short description of the badge.' => 'Descripció curta de la insígnia.',

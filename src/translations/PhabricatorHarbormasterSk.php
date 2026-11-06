@@ -564,7 +564,6 @@ metóda API môže odosielať správy viacerým typom objektov:
 Podrobnosti o odosielaní správ rôznym typom objektov nájdete nižšie.',
   'The name of the build step.' => 'Názov kroku zostavenia.',
   'All Builds' => 'Všetky zostavenia',
-  'No such object "%s" exists.' => 'Taký objekt „%s“ neexistuje.',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'Objekt („%s“) tvrdí, že „%s“ je URI repozitára GitHub, ale cesta („%s“) nemá dostatok komponentov (očakávali sa aspoň dva).',
   'Create Buildable' => 'Vytvoriť zostaviteľný objekt',
   'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
@@ -952,6 +951,7 @@ Ak vyberiete **Čakať na správu**, plán zostavenia sa po dokončení tohto kr
   '<Unknown Artifact Type>' => '<Neznámy typ artefaktu>',
   'Multiple behavior options (for behavior "%s") are marked as default options ("%s" and "%s"). Exactly one option must be marked as the default option.' => 'Viacero možností správania (pre správanie „%s“) je označených ako predvolené možnosti („%s“ a „%s“). Ako predvolená musí byť označená práve jedna možnosť.',
   'Behavior configuration for the build plan.' => 'Konfigurácia správania pre plán zostavenia.',
+  'No object exists with this "%s".' => 'Taký objekt „%s“ neexistuje.',
   'You can not pause this build because it is already paused.' => 'Toto zostavenie nemôžete pozastaviť, pretože je už pozastavené.',
   'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => 'Bajtová pozícia na riadku, kde začína text, ktorý vyvolal správu. Prvý bajt na riadku je bajt 1, nie bajt 0. Táto pozícia je založená na bajtoch (nie na znakoch), pretože nie všetky súbory vhodné na lint majú platné kódovanie znakov.',
   'Unable to inflate log chunk!' => 'Nepodarilo sa dekomprimovať blok denníka!',
@@ -1336,7 +1336,6 @@ a jedno varovanie:
     'Naozaj prerušiť %s zostavení?',
   ),
   '(%d - %d)' => '(%d – %d)',
-  'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'Objekt „%s“ neimplementuje rozhranie „%s“. Automatické ciele možno dopytovať len pre zostaviteľné objekty.',
   '%s enabled this build plan.' => '%s povolil(a) tento plán zostavenia.',
   'Stored Bytes' => 'Uložené bajty',
   'Work will continue on the build. Really resume?' => 'Práca na zostavení bude pokračovať. Naozaj obnoviť?',
@@ -1356,6 +1355,7 @@ Toto varovanie je len odporúčacie. Používatelia sa vždy môžu rozhodnúť 
 
 Toto nastavenie ovplyvňuje aj varovanie, ktoré sa publikuje k revíziám, keď sa commity začlenia s prebiehajúcimi alebo zlyhanými zostaveniami.',
   'Edit Behavior: %s' => 'Upraviť správanie: %s',
+  'Object with this "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'Objekt „%s“ neimplementuje rozhranie „%s“. Automatické ciele možno dopytovať len pre zostaviteľné objekty.',
   'Result of the test.' => 'Výsledok testu.',
   'Use "--id" or "--active" to select builds.' => 'Na výber zostavení použite „--id“ alebo „--active“.',
   'Unable to load build log "%s".' => 'Nepodarilo sa načítať denník zostavenia „%s“.',

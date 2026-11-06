@@ -25,7 +25,6 @@ final class PhabricatorCountdownHu
   'Someone comments on a countdown.' => 'Valaki kommentálja a visszaszámlálást.',
   'Default edit policy for new countdowns.' => 'Az új visszaszámlálók alapértelmezett szerkesztési házirendje.',
   'The title of the countdown.' => 'A visszaszámlálás címe.',
-  'Last Words' => 'Utolsó szavak',
   'New description.' => 'Új leírás.',
   'Edit Countdown' => 'Visszaszámlálás szerkesztése',
   'End Date' => 'Befejezés dátuma',

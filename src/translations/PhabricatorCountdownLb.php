@@ -22,7 +22,6 @@ final class PhabricatorCountdownLb
   'Someone comments on a countdown.' => 'Et kommentéiert een e Countdown.',
   'The title of the countdown.' => 'Den Tiel vum Countdown.',
   'End Date (Future to Past)' => 'Schlussdatum (Zukunft bis Vergaangenheet)',
-  'Last Words' => 'Lescht Wierder',
   'New description.' => 'Nei Beschreiwung.',
   'Edit Countdown' => 'Countdown änneren',
   'End Date' => 'Schlussdatum',

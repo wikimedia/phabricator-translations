@@ -65,7 +65,6 @@ final class PhabricatorPholioNl
   'You can not query for inline comments without also querying for images.' => 'U kunt niet zoeken naar ingebedde opmerkingen zonder ook naar afbeeldingen te zoeken.',
   'Someone comments on a mock.' => 'Iemand plaatst een opmerking op een mock.',
   'Uploading Image...' => 'Afbeelding uploaden...',
-  'History Beckons' => 'Geschiedenis wenkt',
   'Mock Fields' => 'Mockvelden',
   'Pholio Mock' => 'Pholio-mock',
   'Open Pholio Mock' => 'Pholio-mock openen',

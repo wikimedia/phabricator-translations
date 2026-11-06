@@ -11,7 +11,6 @@ final class PhabricatorPhurlCa
     return array(
   'Alias' => 'Àlies',
   'Edit Phurl' => 'Editeu el Phurl',
-  'URL' => 'URL',
   'All URLs' => 'Tots els URL',
   '%s changed the alias from %s to %s.' => '%s ha canviat l\'àlies de %s a %s.',
   'The alias to give the URL.' => 'L\'àlies per donar l\'URL.',

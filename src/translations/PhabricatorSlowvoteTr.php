@@ -9,7 +9,6 @@ final class PhabricatorSlowvoteTr
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Müzakerelere Girin',
   'Close Poll' => 'Anketi Kapat',
   'Create a Poll' => 'Anket Oluştur',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'Seçenek ("%s") geçerli bir yoklama seçeneği değil. Sadece geçerli seçenekler için oy kullanabilirsiniz.',

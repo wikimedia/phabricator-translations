@@ -15,7 +15,6 @@ final class PhabricatorCelerityNl
   'Writing map "%s".' => 'Kaart "%s" schrijven.',
   'Done generating sprites - updating map...' => 'Het genereren van sprites is voltooid - kaart wordt bijgewerkt...',
   'Use High Contrast Colors' => 'Kleuren met een hoog contrast gebruiken',
-  'Use Larger Font Size' => 'Grotere lettergrootte gebruiken',
   'Do not invoke `%s` after updating sprites' => '`%s` niet aanroepen na het bijwerken van sprites',
   'Found %d binary resources.' => array(
     'Er is %d binaire bron gevonden.',

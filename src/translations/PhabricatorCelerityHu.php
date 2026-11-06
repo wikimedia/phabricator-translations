@@ -14,7 +14,6 @@ final class PhabricatorCelerityHu
   'Unable to render resource "%s", which has unknown type "%s".' => 'Nem sikerült olyan "%s" erőforrást létrehozni, mely ismeretlen típusú "%s".',
   'Writing map "%s".' => 'Térkép írása "%s".',
   'Use High Contrast Colors' => 'Használjon nagy kontrasztú színeket',
-  'Use Larger Font Size' => 'Használjon nagyobb betűméretet',
   'Found %d binary resources.' => 'Találtam egy %d nevű bináris erőforrást.',
   'Rebuilt "%s" syntax CSS.' => 'Újraépített "%s" szintaxis CSS.',
   'Cycle detected in resource graph: %s' => 'Az erőforrás-grafikonban észlelt ciklus: %s',

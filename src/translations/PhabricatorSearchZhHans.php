@@ -263,7 +263,6 @@ These builtin orders are available:' => '使用`order`来为结果选择一个�
   'Saved Queries' => '保存的查询',
   '(Restricted/Invalid Form)' => '（受限制/无效表单）',
   'All Objects' => '所有对象',
-  'Link' => '链接',
   'Enable Query' => '启用查询',
   'This item can not be set as the default item. This is usually because the item has no page of its own, or links to an external page.' => '该项目不能设置为默认项目。这通常是因为项目没有其自己的页面，或链接到外部页面。',
   'Browse Results' => '浏览结果',

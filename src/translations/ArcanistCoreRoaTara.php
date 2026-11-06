@@ -18,7 +18,6 @@ final class ArcanistCoreRoaTara
   'Runtime Error' => 'Errore de runtime',
   'Inline HTML' => 'HTML in linèe',
   'Remote Repository' => 'Archivije remote',
-  'Empty certificate in credentials.' => 'Certificate vacande jndr\'à le credenziale.',
   'No tests to run.' => 'Nisciune test da eseguì.',
   'Unknown Symbol' => 'Simbole scanusciute',
   'commit-message' => 'messàgge de commit',

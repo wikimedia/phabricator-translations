@@ -22,7 +22,6 @@ final class PhabricatorSettingsNl
   'Global Default Settings' => 'Algemene standaardinstellingen',
   'Self Actions' => 'Eigen handelingen',
   'Unlink' => 'Ontkoppelen',
-  'If you have difficulty reading the UI, this setting may help.' => 'Als u moeite heeft met het lezen van de gebruikersinterface, kan deze instelling wellicht helpen.',
   'Email Notifications' => 'E-mailmeldingen',
   'Show Unified Diffs' => 'Gecombineerde verschillen weergeven',
   'Diff Preferences' => 'Diff-voorkeuren',

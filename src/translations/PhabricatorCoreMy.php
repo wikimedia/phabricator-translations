@@ -85,7 +85,6 @@ final class PhabricatorCoreMy
   'Documents' => 'စာရွက်စာတမ်းများ',
   'Message' => 'မက်ဆေ့',
   'All' => 'အားလုံး',
-  'name' => 'အမည်',
   'Sat' => 'နေ',
   'Notify' => 'အသိပေးရန်',
   'Time' => 'အချိန်',

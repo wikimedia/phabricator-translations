@@ -13,7 +13,6 @@ final class PhabricatorConfigEl
   'Column/Key' => 'Στήλη/Κλειδί',
   '%s / %s' => '%s / %s',
   'Memory Usage' => 'Χρήση μνήμης',
-  'Table' => 'Πίνακας',
   'Usage' => 'Χρήση',
   '%s deleted %s (again?).' => 'Ο %s διέγραψε το %s (ξανά;).',
   'Repository Errors' => 'Σφάλματα αποθηκευτηρίου',

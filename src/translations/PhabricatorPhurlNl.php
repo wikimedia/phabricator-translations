@@ -12,7 +12,6 @@ final class PhabricatorPhurlNl
   'Alias' => 'Alias',
   'Edit Phurl' => 'Phurl bewerken',
   'Search for Phurl URLs created by specific authors.' => 'Zoeken naar Phurl-url\'s die door specifieke auteurs zijn aangemaakt.',
-  'URL' => 'url',
   'All URLs' => 'Alle url\'s',
   '%s changed the alias from %s to %s.' => '%s heeft de alias gewijzigd van %s naar %s.',
   'The alias to give the URL.' => 'De alias voor de url.',

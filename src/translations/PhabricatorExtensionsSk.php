@@ -15,25 +15,10 @@ $ %s
 ' => 'Spustilo by sa: 
  $ cd %s
 $ %s',
-  'Extension key: %s
-Library: %s
-Version: %s
-URI: %s
-' => 'Kľúč rozšírenia: %s
-Knižnica: %s
-Verzia: %s
-URI: %s',
-  'Wrote configuration key "%s" to local storage (in file "%s").
-' => 'Konfiguračný kľúč „%s“ bol zapísaný do lokálneho úložiska (v súbore „%s“).',
-  '1. Download the extension archive from %s to %s' => '1. Stiahnite archív rozšírenia z %s do %s',
-  '1. `git clone` the extension from url `%s` to location `%s`' => '1. Naklonujte rozšírenie príkazom `git clone` z adresy `%s` do umiestnenia `%s`',
+  'Extension %s found in store %s.' => 'Rozšírenie %s sa našlo v obchode %s.',
   'Can only install one extension at a time.' => 'Naraz je možné nainštalovať iba jedno rozšírenie.',
   'Install new extensions.' => 'Nainštalovať nové rozšírenia.',
   'Ignore these issues and continue with installation?' => 'Ignorovať tieto problémy a pokračovať v inštalácii?',
-  'Would copy `%s` to `%s` and add `%s` to LoadLibraries
-' => 'Skopírovalo by sa `%s` do `%s` a `%s` by sa pridalo do LoadLibraries',
-  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.
-' => 'Lokálna cesta „%s“ nie je zapisovateľná. Tento súbor musí byť zapisovateľný, aby „bin/config“ mohol ukladať konfiguráciu.',
   'Extension %s not found.
 ' => 'Rozšírenie %s sa nenašlo.',
   'Downloading %s to %s
@@ -41,7 +26,6 @@ URI: %s',
   'Allowed Extension Stores to use.' => 'Povolené obchody s rozšíreniami, ktoré sa majú použiť.',
   'Install extension by specifying its git URI.' => 'Nainštalovať rozšírenie zadaním jeho URI adresy git.',
   'Had issues verifying this download:' => 'Pri overovaní tohto stiahnutého súboru sa vyskytli problémy:',
-  'Unknown output format `%s`' => 'Neznámy formát výstupu `%s`',
   'Store to search in and download from (Ignoring configuration).' => 'Obchod, v ktorom sa má vyhľadávať a z ktorého sa má sťahovať (ignoruje konfiguráciu).',
   'Would download and install \'%s\' as \'%s\'
 ' => 'Stiahlo a nainštalovalo by sa „%s“ ako „%s“',
@@ -52,11 +36,12 @@ URI: %s',
 ' => '%s sa považuje za kľúč rozšírenia',
   'After running, you should run `%s` and restart the server.' => 'Po dokončení by ste mali spustiť `%s` a reštartovať server.',
   'Store to search in and query (Ignoring configuration).' => 'Obchod, v ktorom sa má vyhľadávať a na ktorý sa má dopytovať (ignoruje konfiguráciu).',
+  'Would copy `%s` to `%s` and add `%s` to LoadLibraries' => 'Skopírovalo by sa `%s` do `%s` a `%s` by sa pridalo do LoadLibraries',
   'Managing and installing extensions' => 'Správa a inštalácia rozšírení',
-  'Provide a uri or extension id to install' => 'Na inštaláciu zadajte URI alebo ID rozšírenia',
   'Unknown extension format `%s` - maybe upgrade %s first?
 ' => 'Neznámy formát rozšírenia `%s` – možno najprv aktualizovať %s?',
   'Unable to read the %s file of the downloaded package - can\'t decide what the name the library is using.' => 'Nepodarilo sa načítať súbor %s stiahnutého balíka – nie je možné určiť, aký názov knižnica používa.',
+  'Extension with key %s not found in any store.' => 'Rozšírenie s kľúčom %s sa nenašlo v žiadnom obchode.',
   '2. Add the extension to `load-libraries` in %s, so it will be loaded into %s' => '2. Pridajte rozšírenie do `load-libraries` v %s, aby sa načítalo do %s',
   'PHP versions older then %s have known security vulnerabilities when considering PHAR files; Installing extensions from PHAR files and from the Store is therefore disabled. See %s' => 'Verzie PHP staršie ako %s majú známe bezpečnostné zraniteľnosti pri práci so súbormi PHAR; inštalácia rozšírení zo súborov PHAR a z obchodu je preto zakázaná. Pozrite si %s',
   'Continue installing whatever that is?' => 'Pokračovať v inštalácii, nech je to čokoľvek?',
@@ -68,19 +53,10 @@ URI: %s',
   'Aborting.' => 'Prerušuje sa.',
   'Input `%s` looks like an extension key
 ' => 'Vstup `%s` vyzerá ako kľúč rozšírenia',
-  'Would add `%s` to key `%s` in file %s
-' => 'Do kľúča `%2$s` v súbore %3$s by sa pridalo `%s`',
-  'Invalid filename \'%s\'
-' => 'Neplatný názov súboru „%s“',
   'Location to download and install extensions to.' => 'Umiestnenie, do ktorého sa majú rozšírenia sťahovať a inštalovať.',
-  'Extension %s found in store %s.
-' => 'Rozšírenie %s sa našlo v obchode %s.',
   'Not an ext key? %s
 ' => 'Nie je to kľúč rozšírenia? %s',
-  'Lists installed extensions. Experimental.' => 'Vypíše nainštalované rozšírenia. Experimentálne.',
-  'Extension with key %s not found in any store.
-' => 'Rozšírenie s kľúčom %s sa nenašlo v žiadnom obchode.',
-  'Output format. `json` or `table`.' => 'Formát výstupu. `json` alebo `table`.',
+  'Would add `%s` to key `%s` in file %s' => 'Do kľúča `%2$s` v súbore %3$s by sa pridalo `%s`',
   'This command will:' => 'Tento príkaz vykoná:',
 );
   }

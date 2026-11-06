@@ -110,7 +110,6 @@ Après avoir terminé la configuration, copiez le **Client ID** et le **Client S
   'Log In with LDAP' => 'Connexion avec LDAP',
   'Expected verifier to finish OAuth handshake!' => 'Le vérificateur est censé terminer la poignée de mains OAuth !',
   'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => 'Spécifier le type de certificat à révoquer avec « --type » ou spécifier « --everything ». Utiliser « --list » pour lister les types de certificats disponibles.',
-  'Start TLS after binding to the LDAP server.' => 'Démarrer TLS après la liaison au serveur LDAP.',
   'Duo providers must have an API hostname.' => 'Les fournisseurs Duo doivent avoir un nom d’hôte d’API.',
   'TOTP Code' => 'Code TOTP',
   'Invalid response token for this challenge: token digest does not match stored digest.' => 'Jeton de réponse non valide pour ce défi : l’empreinte du jeton ne correspond pas à celle stockée.',
@@ -271,27 +270,6 @@ Après avoir terminé la configuration, copier le **Client ID** et le **Client S
   'The password and confirmation do not match.' => 'Le mot de passe et la confirmation ne correspondent pas.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Réinitialiser les compteurs d’action pour qu’un utilisateur puisse continuer à prendre des actions avec un taux limité.',
   '%s disabled this contact number.' => '%s a désactivé ce numéro de contact.',
-  'To configure GitHub OAuth, create a new GitHub Application here:
-
-https://github.com/settings/applications/new
-
-You should use these settings in your application:
-
-  - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
-  - **Callback URL**: Set this to: `%s`
-
-
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Pour configurer OAuth de GitHub, créer une nouvelle application GitHub ici :
-
-https://github.com/settings/applications/new
-
-Vous devez utiliser ces paramètres dans votre application :
-
-  - **URL :** La définir avec votre domaine complet avec le protocole. Pour ce serveur, la bonne valeur est : `%s`
-  - **URL de rappel**: La mettre à : `%s`
-
-
-Une fois l’application créée, copiez le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
   'No Providers Configured:' => 'Aucun fournisseur configuré :',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Si vous continuez, vous créerez un nouveau compte. Vous ne pourrez pas lier ce compte externe à un compte existant.',
   'A text message with an authorization code will be sent to your primary contact number.' => 'Un message texte avec un code d’autorisation sera envoyé à votre numéro de contact principal.',
@@ -416,6 +394,7 @@ Si vous n’en avez pas déjà une, téléchargez et installez une application T
   'Expected token to finish OAuth handshake!' => 'Jeton attendu pour terminer la poignée de mains OAuth !',
   'Unable to start TLS connection when connecting to LDAP.' => 'Impossible de démarrer la connexion TLS en se connectant à LDAP.',
   'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'La configuration du fournisseur d’authentification est verrouillée et ne peut pas être modifiée sans être déverrouillée.',
+  'Use StartTLS' => 'Utiliser TLS',
   'Factor type "%s" is unknown. Use `bin/auth list-factors` to get a list of known factor types.' => 'Le type de facteur « %s » est inconnu. Utiliser `bin/auth list-factors` pour obtenir une liste des types de facteur connus.',
   'Log In (%s)' => 'Se connecter (%s)',
   'Skip This Step' => 'Passer cette étape',
@@ -645,7 +624,6 @@ Choisir un nom permanent pour le serveur distant sur lequel vous voulez vous con
   'Password Reset' => 'Réinitialisation de mot de passe',
   'Expected valid JSON response from Amazon account data request.' => 'Réponse JSON valide attendue de la requête de données de compte Amazon.',
   'Revoked SSH keys can not be edited or reinstated.' => 'Les clés SSH révoquées ne peuvent être ni modifiées ni réactivées.',
-  'Follow referrals. Disable this for Windows AD 2003.' => 'Suivez les recommandations. Désactivez cela pour Windows AD 2003.',
   'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'ATTENTION : vous n’avez encore configuré aucun fournisseur d’authentification, donc votre compte n’a aucun certificat de connexion. Si vous vous déconnectez maintenant, vous ne pourrez pas vous reconnecter normalement.',
   'If you do not recognize this change, it may indicate your account has been compromised.' => 'Si vous ne reconnaissez pas cette modification, cela peut vouloir dire que votre compte a été compromis.',
   'Link Accounts' => 'Associer des comptes',
@@ -1161,6 +1139,27 @@ Erreur LDAP nº %d : %s',
   'LDAP search failed.' => 'La recherche LDAP a échoué.',
   'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Cette clé privée n’a pas pu être ouverte avec la phrase secrète fournie. Cela peut signifier que la phrase secrète est incorrecte ou que la clé n’est pas formatée correctement. Vérifiez que vous avez fourni le texte complet d’une clé privée valide et la phrase secrète correcte.',
   'Allow Auto Login' => 'Autoriser la connexion automatique',
+  'To configure GitHub OAuth, create a new GitHub Application here:
+
+https://github.com/settings/applications/new
+
+You should use these settings in your application:
+
+  - **Homepage URL:** Set this to your full domain with protocol.     For this server, the correct value is: `%s`
+  - **Authorization callback URL**: Set this to: `%s`
+
+
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Pour configurer OAuth de GitHub, créer une nouvelle application GitHub ici :
+
+https://github.com/settings/applications/new
+
+Vous devez utiliser ces paramètres dans votre application :
+
+  - **URL :** La définir avec votre domaine complet avec le protocole. Pour ce serveur, la bonne valeur est : `%s`
+  - **URL de rappel**: La mettre à : `%s`
+
+
+Une fois l’application créée, copiez le **Client ID** et le **Client Secret** dans les champs ci-dessus.',
   'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Note: dissocier un fournisseur d\'authentification terminera toutes les autres sessions connectées.',
   '%s renamed this key from "%s" to "%s".' => '%s a renommé cette clé de « %s » en  « %s » .',
   'Enable Number' => 'Activer le numéro',
@@ -1230,7 +1229,6 @@ Vous pourrez faire des ajustements sur le panneau des [[ /settings/ | Paramètre
   'Login Failed' => 'Échec de connexion',
   'You have failed to verify multi-factor authentication too often in a short period of time.' => 'Vous avez échoué trop souvent à la vérification de l’authentification à plusieurs facteurs pendant une courte période de temps.',
   'You can not make a disabled number a primary contact number.' => 'Vous ne pouvez pas faire d\'un numéro désactivé, un numéro de contact primaire.',
-  'Use TLS' => 'Utiliser TLS',
   'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'Cette configuration a l’option de configuration « %s » d’activée, mais n’a aucun fournisseur actif configuré pour l’authentification multifactorielle. Cela signifie que vous devez en ajouter un, mais que vous n’en avez pas non plus les droits. Un administrateur doit désactiver « %s » ou activer un fournisseur d’authentification multifactorielle pour vous permettre de continuer.',
   'You will no longer be able to use your %s account to log in.' => 'Vous ne pourrez plus utiliser votre compte %s pour vous connecter.',
   'Auth Invite' => 'Invite d\'authentication',

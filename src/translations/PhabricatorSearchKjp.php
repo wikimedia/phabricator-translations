@@ -15,7 +15,6 @@ final class PhabricatorSearchKjp
   'IDs' => 'IDs',
   'PHIDs' => 'PHIDs',
   'NOTE' => 'ဆ်ုမာၮံင်',
-  'Link' => 'လင့်',
   'Use Results' => 'ဆ်ုသုံႋအ်ုတင်လ်ုဖး',
 );
   }

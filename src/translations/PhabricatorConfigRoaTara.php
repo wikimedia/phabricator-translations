@@ -12,7 +12,6 @@ final class PhabricatorConfigRoaTara
   'Column/Key' => 'Culonne/Chiave',
   '%s / %s' => '%s / %s',
   'Memory Usage' => 'Ause d\'a memorie',
-  'Table' => 'Tabbelle',
   'Usage' => 'Ause',
   'Short' => 'Curte',
   'Nullable' => 'Annullabbele',

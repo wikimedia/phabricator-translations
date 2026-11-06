@@ -61,7 +61,6 @@ final class PhabricatorDashboardPl
   'Add Panel' => 'Dodaj panel',
   '(None)' => '(brak)',
   'Panel Type' => 'Typ panela',
-  'Flag' => 'Flaga',
   'Archived Panels' => 'Zarchiwizowane panele',
   'Rename the panel.' => 'Zmień nazwę panela.',
   'Wireless' => 'Wifi',

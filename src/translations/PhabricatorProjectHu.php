@@ -25,7 +25,6 @@ final class PhabricatorProjectHu
   'Show All Projects' => 'Összes projekt',
   'Parent' => 'Szülő',
   'Leave Project' => 'Projekt elhagyása',
-  '%d week(s)' => '%d hét',
   'Project Picture' => 'Projekt képe',
   'Watch Project' => 'Projekt figyelése',
   'Unlock Project' => 'Projekt feloldása',
@@ -34,6 +33,7 @@ final class PhabricatorProjectHu
   'Tasks Created' => 'Létrehozott feladatok',
   'Group by Status' => 'Csoportosítás állapot szerint',
   'Group by Author' => 'Csoportosítás szerzők szerint',
+  '%s week(s)' => '%s hét',
   'Week' => 'Hét',
   'Play sound' => 'Hang lejátszása',
 );

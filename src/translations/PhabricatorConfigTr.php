@@ -70,7 +70,6 @@ Başka bir ağ aygıtının (örneğin bir yük dengeleyici) başlığı kaldır
   'Memory Usage' => 'Hafıza Kullanımı',
   'The request body that was sent began:' => '',
   'Impersonating users over the API is no longer supported.' => 'Kullanıcıların API üzerinden taklit edilmesi artık desteklenmemektedir.',
-  'Table' => 'Tablo',
   'The best available MYSQL implementation is now selected automatically.' => 'Artık otomatik olarak en iyi MYSQL uygulaması seçiliyor.',
   'Ignore Setup Issue' => 'Kurulum Sorununu Yoksay',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
@@ -159,13 +158,6 @@ The default is `full`.' => '',
   'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Veritabanlarını ayarlamak için depolama yükseltme komut dosyasını çalıştırın (ana bilgisayar "%s" başlatılmadı).',
   'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Henüz postaları yapılandırmadınız, bu nedenle bu sunucuya giden posta gönderemez veya gelen posta alamaz. Ayrıntılar için "cluster.mailers" yapılandırma ayarına bakın.',
   'Unrecognized verb: %s' => 'Tanınmayan fiil: %s',
-  'WARNING: This is a prototype option and the description below is currently pure
-fantasy.
-
-This option allows you to make this service aware of database read replicas so
-it can monitor database health, spread load, and degrade gracefully to
-read-only mode in the event of a failure on the primary host. For help with
-configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => '',
   'Schemata Issues' => 'Schemata Sorunları',
   'Expected Collation' => 'Beklenen Harmanlama',
   'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => '"%s" seçeneği "%s" türündedir, ancak değer bir liste değildir: doğal olmayan veya seyrek anahtarları olan bir haritadır.',
@@ -200,7 +192,6 @@ configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => '
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => '\'%s\' ikili dosyası bulunamadı. \'%s\' simgesine dokunun veya web sunucusunun %s çevresel değişkenini bulunduğu dizini içerecek şekilde ayarlayın veya yapılandırmasında bu dizini \'%s\' değerine ekleyin.',
   'Configuration Guide: Locked and Hidden Configuration' => 'Yapılandırma Kılavuzu: Kilitli ve Gizli Yapılandırma',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Bu seçenek ayrıntılı hata raporlamayı (yığın izleri, hata bilgileri) etkinleştirir ve her yeniden yüklemede statik varlıkların disk okumalarını zorlar.',
-  'Wrote configuration key "%s" to local storage (in file "%s").' => '',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Bu alternatif URI\'ler bu kurulumda \'normal\' sayfalara erişebilecek. OAuth gibi diğer özellikler çalışmaz. Bunun en önemli kullanım alanı, yüklemeleri etki alanları arasında taşımaktır.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Çoğaltılmayan Çoğaltma',
@@ -403,8 +394,6 @@ smaller messages. The actions themselves will still work properly.' => '',
   'Configure the access logs, which log HTTP/SSH requests.' => 'HTTP/SSH isteklerini kaydeden erişim günlüklerini yapılandırın.',
   '%ss Behind' => '%s Arkasında',
   'The PID of the server process.' => 'Sunucu işleminin PID\'si.',
-  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
-            \'installed on an entire domain; it can not be installed on a path.' => '',
   'Blacklist subnets to prevent user-initiated outbound requests.' => 'Kullanıcı tarafından başlatılan giden istekleri önlemek için alt ağları kara listeye alın.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
@@ -556,15 +545,6 @@ Ayarlanmazsa, günlük yazılmaz.',
   'Use the %s to manage enabled applications.' => 'Yüklü uygulamaları yönetmek için %s kullanın.',
   'Current Configuration' => 'Geçerli Yapılandırma',
   'Replicating Master' => 'Master Kopyalama',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'Bu sistemdeki %s sürümü güncel değil ve büyük, geniş ölçüde açıklanan büyük bir güvenlik açığı içeriyor ("Shellshock" güvenlik açığı).
-
-%s yamalı bir sürüme yükseltin.
-
-Bu sorunun bu yazılımı nasıl etkilediği hakkında daha fazla bilgi edinmek için %s bakın.',
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Yapılandırılmış bir saat dilimi olmadan PHP, tarihlerle çalışırken uyarılar gönderir ve tarihler ve saatler doğru görüntülenmeyebilir.',
   'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => '"%s" seçeneği "%s" türündedir ve geçerli normal ifadeler listesine ayarlanmalıdır, ancak "%s" geçerli bir normal ifade değildir.',
   'This schema can use a better character set.' => 'Şema daha iyi bir karakter seti kullanabilir.',
@@ -603,7 +583,6 @@ Web sunucunuz HTTP temel kimlik doğrulamasını iletecek şekilde yapılandır�
   'This issue will no longer be suppressed, and will return to its rightful place as a global setup warning.' => 'Bu sorun artık bastırılmayacak ve genel kurulum uyarısı olarak doğru yerine dönecektir.',
   'Allows you to remove levity and jokes from the UI.' => 'Kullanıcı arayüzünden düzensizlik ve şakaları kaldırmanıza olanak tanır.',
   'Sites' => 'Siteler',
-  'T6185 "Shellshock" Bash Vulnerability' => 'T6185 "Shellshock" Bash Güvenlik Açığı',
   'Missing \'%s\' Extension' => '%s Uzantısı Eksik',
   'Retention policies for garbage collection.' => 'Çöp toplama için saklama politikaları.',
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL ("%s" sunucusunda) performansı etkileyebilecek çok küçük bir innodb_buffer_pool_size ile yapılandırılmıştır.',
@@ -1067,7 +1046,6 @@ Administrators can query a list of users who do not have MFA configured in
   'Reply hints are no longer shown in mail.' => 'Yanıt ipuçları artık e-postada gösterilmiyor.',
   'Profile every request (slow)' => 'Her isteği profil haline getir (yavaş)',
   'Resolved Issue' => 'Çözülen Sorun',
-  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => '',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Bu seçenek genellikle yararlı olmadı. Kaynak karması anahtarları artık otomatik olarak yönetiliyor.',
   'Schema Status' => 'Şema Durumu',
   'To update these %d value(s), run these command(s) from the command line:' => 'Bu %d değerini güncellemek için komut satırından şu komutu çalıştırın:',
@@ -1384,7 +1362,6 @@ Bu seçeneği %s dosyanızdaki %s bölümünde devre dışı bırakmalısınız:
 
 %s',
   'Setup Checks' => 'Kurulum Kontrolleri',
-  'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Bu sistem, Bash\'in işlenmemiş ve yaygın bir şekilde açıklanmış bir güvenlik açığına sahip eşsiz bir sürümüne sahiptir.',
   'Keys' => 'Anahtarlar',
   'No Auth Providers' => 'Kimlik Doğrulama Sağlayıcısı Yok',
   'Missing Required Extensions' => 'Eksik Gerekli Uzantılar',
@@ -1409,12 +1386,6 @@ Bu seçeneği devre dışı bırakmak için şunu ayarlayın: %s',
   'Activity "%s" is not currently marked as required, so there is no need to complete it.' => '"%s" etkinliği şu anda gerektiği gibi işaretlenmediğinden, tamamlanmasına gerek yok.',
   'To continue, resolve this problem and reload the page.' => 'Devam etmek için bu sorunu çözün ve sayfayı yeniden yükleyin.',
   'Wordmark' => 'Marka',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'UYARI: Bu bir prototip seçeneğidir ve aşağıdaki açıklama şu anda saf hayal ürünüdür.
-
-Hizmeti salt okunur moda geçirin. Bu modda kullanıcılar yeni veri yazamaz. Normalde, küme veritabanı yöneticisine erişilemediğini algıladığında otomatik olarak bu moda geçer, ancak bakım veya test yapılandırması gerçekleştirmek için el ile etkinleştirebilirsiniz.',
-  'Severe Security Vulnerability: Unpatched Bash' => 'Ciddi Güvenlik Açığı: Toplu Olmayan Bash',
   'Force HTTPS' => 'HTTPS\'yi zorla',
   'This key is not expected to exist.' => 'Bu anahtarın olması beklenmez.',
   '%s.%s' => '%s.%s',

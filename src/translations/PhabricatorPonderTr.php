@@ -37,7 +37,6 @@ final class PhabricatorPonderTr
   'Status of the question.' => 'Sorunun durumu.',
   'Empty Answer' => 'Boş Cevap',
   '%s updated the answer wiki.' => '%s cevap vikisini güncellendi.',
-  'Answer Comment' => 'Yoruma Cevap Ver',
   'No questions found.' => 'Soru bulunamadı.',
   'Ask Question' => 'Soru Sor',
   '%s updated the answer details.' => '%s cevap ayrıntılarını güncelledi.',

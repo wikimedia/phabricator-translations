@@ -45,7 +45,6 @@ final class PhabricatorDashboardDa
   '(None)' => '(Ingen)',
   'Portals' => 'Portaler',
   'Panel Type' => 'Paneltype',
-  'Flag' => 'Flag',
   'Archived Panels' => 'Arkiverede paneler',
   'Rename the panel.' => 'Omdøb panelet.',
   'Search For' => 'Søg efter',

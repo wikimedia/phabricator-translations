@@ -281,7 +281,6 @@ final class PhabricatorHeraldKoKR
   'Added a comment: %s' => '댓글 추가함: %s',
   'To view a transcript, you must be able to view the object the transcript is about.' => '기록을 보기 위해서는 기록이 대상으로 하는 객체를 볼 수 있어야 합니다.',
   'This rule type is not supported by the selected content type.' => '이 규칙 유형은 선택한 콘텐츠 유형에서 지원되지 않습니다.',
-  'Herald User Guide' => 'Herald 사용자 가이드',
   'Trigger Object' => '트리거 객체',
   'Object Monograms' => '객체 모노그램',
   'Really enable this rule?' => '정말로 이 규칙을 활성화합니까?',

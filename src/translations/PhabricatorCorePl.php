@@ -82,6 +82,7 @@ final class PhabricatorCorePl
   'Task Status' => 'Stan zadania',
   'Task %d (%s)' => 'Zadanie %d (%s)',
   'Edit Task' => 'Edytuj Zadanie',
+  'Policy' => 'Polityka',
   'Open Tasks' => 'Otwarte zadania',
   'Manage' => 'Zarządzaj',
   'Settings' => 'Ustawienia',

@@ -37,7 +37,6 @@ final class PhabricatorPonderZhHant
   'Status of the question.' => '問題狀態',
   'Empty Answer' => '空解答',
   '%s updated the answer wiki.' => '%s 更新了解答 wiki。',
-  'Answer Comment' => '解答評論',
   'No questions found.' => '查無問題。',
   'Ask Question' => '詢問問題',
   '%s updated the answer details.' => '%s 更新了解答詳細內容。',

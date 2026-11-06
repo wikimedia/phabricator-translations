@@ -33,7 +33,6 @@ final class PhabricatorCountdownKoKR
   'The title of the countdown.' => '카운트다운의 제목입니다.',
   'Keep track of upcoming launch dates with embeddable counters.' => '삽입 가능한 카운터를 사용하여 출시 예정일을 추적합니다.',
   'End Date (Future to Past)' => '종료일 (미래에서 과거로)',
-  'Last Words' => '마지막 말',
   'New description.' => '새로운 설명입니다.',
   'Edit Countdown' => '카운트다운 편집하기',
   'End Date' => '종료일',

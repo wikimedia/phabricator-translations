@@ -9,7 +9,6 @@ final class PhabricatorPonderSl
 
   protected function getTranslations() {
     return array(
-  'Answer Comment' => 'Komentar odgovora',
   'Question title.' => 'Naslov vprašanja.',
   'Answer History' => 'Zgodovina odgovora',
   'Answer Preview' => 'Predogled odgovora',

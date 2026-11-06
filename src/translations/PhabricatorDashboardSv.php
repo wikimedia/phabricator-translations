@@ -60,7 +60,6 @@ final class PhabricatorDashboardSv
   'Add Panel' => 'Lägg till panel',
   '(None)' => '(Ingen)',
   'Panel Type' => 'Paneltyp',
-  'Flag' => 'Flagga',
   'Archived Panels' => 'Arkiverade paneler',
   'Rename the panel.' => 'Döp om panelen.',
   'Search For' => 'Sök efter',

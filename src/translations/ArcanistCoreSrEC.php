@@ -18,7 +18,6 @@ final class ArcanistCoreSrEC
   'Unknown argument \'%s\'. Try \'%s\'.' => 'Непознат аргумент \'%s\'. Покушајте \'%s\'.',
   'English (Pirate)' => 'енглески (Pirate)',
   'Remote Repository' => 'Удаљена ризница',
-  'Empty certificate in credentials.' => 'Празан сертификат у акредитивима.',
   'No tests to run.' => 'Нема теста за покретање.',
   'Do not copy changes to the staging area.' => 'Не копирајте промене у области одржавања.',
   'Unknown Symbol' => 'Непознат симбол',

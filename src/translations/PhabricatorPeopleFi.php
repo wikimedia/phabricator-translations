@@ -10,6 +10,7 @@ final class PhabricatorPeopleFi
   protected function getTranslations() {
     return array(
   'Manage User' => 'Hallitse käyttäjää',
+  'Create a bot/script user account, to automate interactions with other systems. These users can not use the web interface, but can use the Conduit API.' => 'Luo käyttäjätunnus botille/skriptille, jos haluat automatisoida tiedonsiirron muiden järjestelmien kanssa. Tällaiset käyttäjät eivät voi käyttää web-käyttöliittymää, vaan ne käyttävät Conduit API -rajapintaa.',
   'Delete User' => 'Poista käyttäjä',
   'User Accounts and Profiles' => 'Käyttäjätilit ja profiilit',
   'User is not a member of any projects.' => 'Käyttäjä ei ole minkään projektin jäsen.',
@@ -80,7 +81,6 @@ final class PhabricatorPeopleFi
   'Projects (%s)' => 'Projektit (%s)',
   'Save Profile' => 'Tallenna profiili',
   'User Accounts' => 'Käyttäjätilit',
-  'Create a standard user account.' => 'Luo standardi käyttäjätili.',
   'Edit Profile: %s' => 'Muokkaa profiilia: %s',
   'Make Administrator' => 'Tee ylläpitäjä',
   'Anyone' => 'Kuka tahansa',

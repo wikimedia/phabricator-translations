@@ -275,7 +275,6 @@ final class PhabricatorHeraldCa
   'Added a comment: %s' => 'S\'ha afegit un comentari: %s',
   'To view a transcript, you must be able to view the object the transcript is about.' => 'Per visualitzar una transcripció, heu de poder veure l\'objecte de què tracta la transcripció.',
   'This rule type is not supported by the selected content type.' => 'Aquest tipus de regla no és compatible amb el tipus de contingut seleccionat.',
-  'Herald User Guide' => 'Guia d\'usuari de l\'Herald',
   'Trigger Object' => 'Objecte disparador',
   'Object Monograms' => 'Monogrames d\'objecte',
   'Really enable this rule?' => 'Habilitar aquesta regla?',

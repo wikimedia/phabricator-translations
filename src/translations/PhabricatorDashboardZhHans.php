@@ -189,7 +189,6 @@ final class PhabricatorDashboardZhHans
   'Add Dashboard to Personal Home Page' => '将仪表板添加到个人主页',
   'Panel Type' => '面板类型',
   'View Panel Details' => '查看面板详细信息',
-  'Flag' => '标记',
   'Archived Panels' => '已存档的面板',
   'Manage Panel' => '管理面板',
   'Rename the panel.' => '重命名面板。',

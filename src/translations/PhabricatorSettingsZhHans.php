@@ -21,7 +21,6 @@ final class PhabricatorSettingsZhHans
   'ISO 8601: 2000-02-28' => 'ISO 8601：2000-02-28',
   'Global Default Settings' => '全域默认设置',
   'Self Actions' => '自身操作',
-  'If you have difficulty reading the UI, this setting may help.' => '如果您阅读用户界面有困难，此设置可能有帮助。',
   'Email Notifications' => '电子邮件通知',
   'Show Unified Diffs' => '显示统一化的差异',
   'Diff Preferences' => '差异参数设置',

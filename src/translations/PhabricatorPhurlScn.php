@@ -10,7 +10,6 @@ final class PhabricatorPhurlScn
   protected function getTranslations() {
     return array(
   'Edit Phurl' => 'Cancia lu Phurl',
-  'URL' => 'URL',
   'All URLs' => 'Tutti li URL',
   'New URL description.' => 'Discrizzioni nova di l\'URL.',
   '[Phurl]' => '[Phurl]',

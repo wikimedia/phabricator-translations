@@ -103,7 +103,6 @@ Požiadavky musia obsahovať platnú hlavičku „Host“.',
   'Memory Usage' => 'Využitie pamäte',
   'The request body that was sent began:' => 'Telo odoslanej požiadavky začínalo:',
   'Impersonating users over the API is no longer supported.' => 'Zosobňovanie používateľov cez API sa už nepodporuje.',
-  'Table' => 'Tabuľka',
   'The best available MYSQL implementation is now selected automatically.' => 'Najlepšia dostupná implementácia MYSQL sa teraz vyberá automaticky.',
   'Ignore Setup Issue' => 'Ignorovať problém s nastavením',
   'This option allows you to enable DarkConsole on every page, even for logged-out users. This is only really useful if you need to debug something on a logged-out page. You should not enable this option in production.
@@ -220,19 +219,6 @@ Predvolená hodnota je `full`.',
   'Run the storage upgrade script to setup databases (host "%s" has not been initialized).' => 'Na nastavenie databáz spustite skript na aktualizáciu úložiska (hostiteľ „%s“ nebol inicializovaný).',
   'You haven\'t configured mailers yet, so this server won\'t be able to send outbound mail or receive inbound mail. See the configuration setting "cluster.mailers" for details.' => 'Zatiaľ ste nenastavili doručovateľov pošty, takže tento server nebude môcť odosielať odchádzajúcu ani prijímať prichádzajúcu poštu. Podrobnosti nájdete v konfiguračnom nastavení „cluster.mailers“.',
   'Unrecognized verb: %s' => 'Nerozpoznané sloveso: %s',
-  'WARNING: This is a prototype option and the description below is currently pure
-fantasy.
-
-This option allows you to make this service aware of database read replicas so
-it can monitor database health, spread load, and degrade gracefully to
-read-only mode in the event of a failure on the primary host. For help with
-configuring cluster databases, see **[[ %s | %s ]]** in the documentation.' => 'WARNING: Toto je prototypová možnosť a nasledujúci popis je momentálne čistá
-fantázia.
-
-Táto možnosť umožňuje, aby táto služba vedela o replikách databázy na čítanie,
-vďaka čomu môže sledovať zdravie databázy, rozkladať záťaž a v prípade zlyhania
-primárneho hostiteľa elegantne prejsť do režimu len na čítanie. Pomoc s
-nastavením databáz v klastri nájdete v **[[ %s | %s ]]** v dokumentácii.',
   'Schemata Issues' => 'Problémy so schémami',
   'Expected Collation' => 'Očakávané porovnávanie',
   'Option "%s" is of type "%s", but the value is not a list: it is a map with unnatural or sparse keys.' => 'Možnosť „%s“ je typu „%s“, ale hodnota nie je zoznam: je to mapa s neprirodzenými alebo riedkymi kľúčmi.',
@@ -267,7 +253,6 @@ nastavením databáz v klastri nájdete v **[[ %s | %s ]]** v dokumentácii.',
   'The \'%s\' binary could not be found. Symlink it into \'%s\', or set the webserver\'s %s environmental variable to include the directory where it resides, or add that directory to \'%s\' in configuration.' => 'Binárny súbor „%s“ sa nepodarilo nájsť. Vytvorte naň symbolický odkaz v „%s“, nastavte premennú prostredia %s webového servera tak, aby zahŕňala adresár, v ktorom sa nachádza, alebo tento adresár pridajte do „%s“ v konfigurácii.',
   'Configuration Guide: Locked and Hidden Configuration' => 'Príručka konfigurácie: Uzamknutá a skrytá konfigurácia',
   'This option enables verbose error reporting (stack traces, error callouts) and forces disk reads of static assets on every reload.' => 'Táto možnosť zapína podrobné hlásenie chýb (výpisy zásobníka, chybové výzvy) a vynucuje čítanie statických zdrojov z disku pri každom načítaní.',
-  'Wrote configuration key "%s" to local storage (in file "%s").' => 'Konfiguračný kľúč „%s“ bol zapísaný do lokálneho úložiska (do súboru „%s“).',
   'These alternative URIs will be able to access \'normal\' pages on this install. Other features such as OAuth won\'t work. The major use case for this is moving installs across domains.' => 'Tieto alternatívne URI budú mať prístup k „bežným“ stránkam tejto inštalácie. Iné funkcie, napríklad OAuth, fungovať nebudú. Hlavným prípadom použitia je presun inštalácie medzi doménami.',
   '(%s%s) %s' => '(%s%s) %s',
   'Nonreplicating Replica' => 'Nereplikujúca replika',
@@ -491,9 +476,6 @@ smaller messages. The actions themselves will still work properly.' => 'Ak použ
   'Configure the access logs, which log HTTP/SSH requests.' => 'Nastavte prístupové denníky, ktoré zaznamenávajú požiadavky HTTP/SSH.',
   '%ss Behind' => '%s s pozadu',
   'The PID of the server process.' => 'PID procesu servera.',
-  'Config option \'%s\' is invalid. The URI must NOT have a path, e.g. \'%s\' is OK, but \'%s\' is not. This software must be \'.
-            \'installed on an entire domain; it can not be installed on a path.' => 'Konfiguračná možnosť „%s“ je neplatná. URI NESMIE obsahovať cestu, napr. „%s“ je v poriadku, ale „%s“ nie je. Tento softvér musí byť \'.
-            \'nainštalovaný na celej doméne; nedá sa nainštalovať na cestu.',
   'Blacklist subnets to prevent user-initiated outbound requests.' => 'Zablokujte podsiete, aby ste zabránili odchádzajúcim požiadavkám iniciovaným používateľmi.',
   'When a message is sent to multiple recipients (for example, several reviewers on
 a code review), it can either be delieverd as one email to everyone (e.g., "To:
@@ -692,15 +674,6 @@ Ak nie je nastavená, nebude sa zapisovať žiadny denník.',
   'Use the %s to manage enabled applications.' => 'Na správu zapnutých aplikácií použite %s.',
   'Current Configuration' => 'Aktuálna konfigurácia',
   'Replicating Master' => 'Replikujúci hlavný server',
-  'The version of %s on this system is out of date and contains a major, widely disclosed vulnerability (the "Shellshock" vulnerability).
-
-Upgrade %s to a patched version.
-
-To learn more about how this issue affects this software, see %s.' => 'Verzia %s v tomto systéme je zastaraná a obsahuje závažnú, široko zverejnenú zraniteľnosť (zraniteľnosť „Shellshock“).
-
-Aktualizujte %s na opravenú verziu.
-
-Ďalšie informácie o tom, ako tento problém ovplyvňuje tento softvér, nájdete v %s.',
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => 'Bez nastaveného časového pásma bude PHP pri práci s dátumami vypisovať varovania a dátumy a časy sa nemusia zobrazovať správne.',
   'Option "%s" is of type "%s" and must be set to a list of valid regular expressions, but "%s" is not a valid regular expression.' => 'Možnosť „%s“ je typu „%s“ a musí byť nastavená na zoznam platných regulárnych výrazov, ale „%s“ nie je platný regulárny výraz.',
   'This schema can use a better character set.' => 'Táto schéma môže používať lepšiu znakovú sadu.',
@@ -739,7 +712,6 @@ Váš webový server možno nie je nastavený tak, aby preposielal základné ov
   'This issue will no longer be suppressed, and will return to its rightful place as a global setup warning.' => 'Tento problém sa už nebude potláčať a vráti sa na svoje právoplatné miesto medzi globálnymi varovaniami o nastavení.',
   'Allows you to remove levity and jokes from the UI.' => 'Umožňuje odstrániť z rozhrania odľahčené prvky a vtipy.',
   'Sites' => 'Lokality',
-  'T6185 "Shellshock" Bash Vulnerability' => 'T6185 – zraniteľnosť Bashu „Shellshock“',
   'Missing \'%s\' Extension' => 'Chýbajúce rozšírenie „%s“',
   'Retention policies for garbage collection.' => 'Zásady uchovávania pre zber odpadu.',
   'MySQL (on host "%s") is configured with a very small innodb_buffer_pool_size, which may impact performance.' => 'MySQL (na hostiteľovi „%s“) má nastavenú veľmi malú hodnotu innodb_buffer_pool_size, čo môže ovplyvniť výkon.',
@@ -1260,7 +1232,6 @@ zobraziť v {nav People}:
   'Reply hints are no longer shown in mail.' => 'Nápovedy na odpovedanie sa už v pošte nezobrazujú.',
   'Profile every request (slow)' => 'Profilovať každú požiadavku (pomalé)',
   'Resolved Issue' => 'Vyriešený problém',
-  'Local path "%s" is not writable. This file must be writable so that "bin/config" can store configuration.' => 'Lokálna cesta „%s“ nie je zapisovateľná. Tento súbor musí byť zapisovateľný, aby „bin/config“ mohlo ukladať konfiguráciu.',
   'This option generally did not prove useful. Resource hash keys are now managed automatically.' => 'Táto možnosť sa vo všeobecnosti neukázala ako užitočná. Kľúče hashu zdrojov sa teraz spravujú automaticky.',
   'Schema Status' => 'Stav schémy',
   'To update these %d value(s), run these command(s) from the command line:' => array(
@@ -1652,7 +1623,6 @@ Túto možnosť by ste mali vypnúť vo svojom súbore %s, v sekcii %s:
 
 %s',
   'Setup Checks' => 'Kontroly nastavenia',
-  'This system has an unpatched version of Bash with a severe, widely disclosed vulnerability.' => 'Tento systém má neopravenú verziu Bashu so závažnou, široko zverejnenou zraniteľnosťou.',
   'Keys' => 'Kľúče',
   'No Auth Providers' => 'Žiadni poskytovatelia overenia',
   'Missing Required Extensions' => 'Chýbajúce požadované rozšírenia',
@@ -1680,12 +1650,6 @@ Túto možnosť vypnete nastavením: %s',
   'Activity "%s" is not currently marked as required, so there is no need to complete it.' => 'Aktivita „%s“ momentálne nie je označená ako povinná, takže ju netreba dokončiť.',
   'To continue, resolve this problem and reload the page.' => 'Ak chcete pokračovať, vyriešte tento problém a znovu načítajte stránku.',
   'Wordmark' => 'Slovná značka',
-  'WARNING: This is a prototype option and the description below is currently pure fantasy.
-
-Switch the service to read-only mode. In this mode, users will be unable to write new data. Normally, the cluster degrades into this mode automatically when it detects that the database master is unreachable, but you can activate it manually in order to perform maintenance or test configuration.' => 'WARNING: Toto je prototypová možnosť a nasledujúci popis je momentálne čistá fantázia.
-
-Prepne službu do režimu len na čítanie. V tomto režime nebudú môcť používatelia zapisovať nové údaje. Za normálnych okolností klaster prejde do tohto režimu automaticky, keď zistí, že hlavný databázový server je nedostupný, no môžete ho aktivovať aj manuálne, aby ste vykonali údržbu alebo otestovali konfiguráciu.',
-  'Severe Security Vulnerability: Unpatched Bash' => 'Závažná bezpečnostná zraniteľnosť: neopravený Bash',
   'Force HTTPS' => 'Vynútiť HTTPS',
   'This key is not expected to exist.' => 'Neočakáva sa, že tento kľúč bude existovať.',
   '%s.%s' => '%s.%s',

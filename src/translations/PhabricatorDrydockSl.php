@@ -11,6 +11,7 @@ final class PhabricatorDrydockSl
     return array(
   'Waiting to land revision into %s on %s...' => 'Čakanje na uveljavitev redakcije v %s na %s ...',
   'Logs' => 'Dnevniki',
+  'Hide Details' => 'Skrij podrobnosti',
   'This revision has been abandoned. Only accepted revisions may land.' => 'Ta redakcija je bila opuščena. Uveljavi se lahko samo sprejete redakcije.',
   'Search leases by resource.' => 'Iskanje najemov po viru.',
   'Already Dismissed' => 'Že zavrnjeno',

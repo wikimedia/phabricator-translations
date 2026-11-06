@@ -110,7 +110,6 @@ Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemcı Sır
   'Log In with LDAP' => 'LDAP ile giriş yapın',
   'Expected verifier to finish OAuth handshake!' => 'Doğrulayıcının OAuth anlaşmasını bitirmesi bekleniyor!',
   'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => '"--yype" ile iptal edilecek kimlik bilgisi türünü veya "--everything" seçeneğini belirtin. Kullanılabilir kimlik bilgisi türlerini listelemek için "--list" kullanın.',
-  'Start TLS after binding to the LDAP server.' => 'LDAP sunucusuna bağlandıktan sonra TLS\'yi başlatın.',
   'Duo providers must have an API hostname.' => 'İkili sağlayıcıların bir API ana bilgisayar adı olmalıdır.',
   'TOTP Code' => 'TOTP Kodu',
   'Invalid response token for this challenge: token digest does not match stored digest.' => 'Bu sınama için geçersiz yanıt jetonu: anahtar özeti, saklanan öz ile eşleşmiyor.',
@@ -268,27 +267,6 @@ Yapılandırmayı tamamladıktan sonra **İstemci Kimliği** ve **İstemci Sırr
   'The password and confirmation do not match.' => 'Parola ve onay uyuşmuyor.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Bir kullanıcının hız sınırlı işlemler yapmaya devam edebilmesi için işlem sayaçlarını sıfırlayın.',
   '%s disabled this contact number.' => '%s bu kişi numarasını devre dışı bıraktı.',
-  'To configure GitHub OAuth, create a new GitHub Application here:
-
-https://github.com/settings/applications/new
-
-You should use these settings in your application:
-
-  - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
-  - **Callback URL**: Set this to: `%s`
-
-
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'GitHub OAuth\'u yapılandırmak için burada yeni bir GitHub Uygulaması oluşturun:
-
-https://github.com/settings/applications/new
-
-Bu ayarları uygulamanızda kullanmalısınız:
-
-  - **URL:** Bunu protokolle tam alan adınıza ayarlayın. Bu sunucu için doğru değer: `%s`
-  - **URL Geri Çağrısı**: Bunu şu şekilde ayarlayın: `%s`
-
-
-Bir uygulama oluşturduktan sonra, **İstemci Kimliği** ve **İstemci Sırrı** yukarıdaki alanlara kopyalayın.',
   'No Providers Configured:' => 'Yapılandırılmış Sağlayıcı Yok:',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Devam ederseniz yeni bir hesap oluşturacaksınız. Bu harici hesabı mevcut bir hesaba bağlayamazsınız.',
   'A text message with an authorization code will be sent to your primary contact number.' => 'Birincil irtibat numaranıza yetki kodu içeren bir kısa mesaj gönderilir.',
@@ -413,6 +391,7 @@ Henüz yapmadıysanız, telefonunuza bir TOTP uygulaması indirin ve yükleyin. 
   'Expected token to finish OAuth handshake!' => 'Anahatarın OAuth anlaşmasını bitirmesi bekleniyor!',
   'Unable to start TLS connection when connecting to LDAP.' => 'LDAP\'ye bağlanırken TLS bağlantısı başlatılamıyor.',
   'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'Yetkilendirme sağlayıcı yapılandırması kilitlenmiş, ve açılmadan değiştirilemez.',
+  'Use StartTLS' => 'TLS kullanın',
   'Factor type "%s" is unknown. Use `bin/auth list-factors` to get a list of known factor types.' => '"%s" faktör türü bilinmiyor. Bilinen faktör türlerinin bir listesini almak için `bin/auth list-factors` kullanın.',
   'Log In (%s)' => 'Oturum Aç (%s)',
   'Skip This Step' => 'Bu Adımı Geç',
@@ -633,7 +612,6 @@ Bağlanmak istediğiniz uzak sunucu için kalıcı bir ad seçin. Bu ad, URL dah
   'Password Reset' => 'Parolayı Sıfırla',
   'Expected valid JSON response from Amazon account data request.' => 'Amazon hesabı veri isteğinden geçerli JSON yanıtı bekleniyor.',
   'Revoked SSH keys can not be edited or reinstated.' => 'İptal edilen SSH anahtarları düzenlenemez veya eski durumuna getirilemez.',
-  'Follow referrals. Disable this for Windows AD 2003.' => 'Tavsiyelere uyun. Windows AD 2003 için bunu devre dışı bırakın.',
   'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'UYARI: Henüz herhangi bir yetkilendirme sağlayıcısını ayarlamadınız, bu nedenle hesabınızın giriş bilgileri yok. Şimdi çıkış yaparsanız, tekrar normal olarak giriş yapamayabilirsiniz.',
   'If you do not recognize this change, it may indicate your account has been compromised.' => 'Bu değişikliği tanımıyorsanız, hesabınızın güvenliği ihlal edildiğini gösterebilir.',
   'Link Accounts' => 'Hesapları Bağla',
@@ -1149,6 +1127,27 @@ LDAP Hatası #%d: %s',
   'LDAP search failed.' => 'LDAP araması başarısız oldu.',
   'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Bu özel anahtar sağlanan parola ile açılamıyor. Bu parolanın yanlış olduğu ya da anahtarın doğru biçimlenmediği anlamına gelebilir. Geçerli bir özel anahtarın tüm metnini ve doğru parolayı sağladığınızı kontrol edin.',
   'Allow Auto Login' => 'Otomatik Girişe İzin Ver',
+  'To configure GitHub OAuth, create a new GitHub Application here:
+
+https://github.com/settings/applications/new
+
+You should use these settings in your application:
+
+  - **Homepage URL:** Set this to your full domain with protocol.     For this server, the correct value is: `%s`
+  - **Authorization callback URL**: Set this to: `%s`
+
+
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'GitHub OAuth\'u yapılandırmak için burada yeni bir GitHub Uygulaması oluşturun:
+
+https://github.com/settings/applications/new
+
+Bu ayarları uygulamanızda kullanmalısınız:
+
+  - **URL:** Bunu protokolle tam alan adınıza ayarlayın. Bu sunucu için doğru değer: `%s`
+  - **URL Geri Çağrısı**: Bunu şu şekilde ayarlayın: `%s`
+
+
+Bir uygulama oluşturduktan sonra, **İstemci Kimliği** ve **İstemci Sırrı** yukarıdaki alanlara kopyalayın.',
   'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Not: Bir kimlik doğrulama sağlayıcısının bağlantısının kaldırılması, diğer tüm etkin oturumları sonlandırır.',
   '%s renamed this key from "%s" to "%s".' => '%s bu anahtarı "%s" yerine "%s" olarak değiştirdi.',
   'Enable Number' => 'Numarayı Etkinleştir',
@@ -1218,7 +1217,6 @@ Ayarlarını [[ /settings/ | Ayarlar]] bölümüne gidin.',
   'Login Failed' => 'Oturum Açma Başarısız',
   'You have failed to verify multi-factor authentication too often in a short period of time.' => 'Çok faktörlü kimlik doğrulamayı kısa bir süre içinde çok sık doğrulayamadınız.',
   'You can not make a disabled number a primary contact number.' => 'Devre dışı bırakılmış bir numarayı birincil kişi numarası yapamazsınız.',
-  'Use TLS' => 'TLS kullanın',
   'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'Bu kurulumda "%s" yapılandırma seçeneği etkin, ancak yapılandırılmış etkin çok faktörlü sağlayıcı yok. Bu MFA eklemeniz gerektiği anlamına gelir, ancak bunu yapmanız da önlenir. Bir yöneticinin "%s" işlevini devre dışı bırakması veya devam edebilmeniz için bir MFA sağlayıcısını etkinleştirmesi gerekir.',
   'You will no longer be able to use your %s account to log in.' => 'Artık oturum açmak için %s hesabınızı kullanamayacaksınız.',
   'Auth Invite' => 'Yetkilendirme Daveti',

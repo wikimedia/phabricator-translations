@@ -184,7 +184,6 @@ final class PhabricatorDashboardCa
   'Add Dashboard to Personal Home Page' => 'Afegiu el quadre de comandament a la pàgina d\'inici personal',
   'Panel Type' => 'Tipus de panell',
   'View Panel Details' => 'Mostra els detalls del panell',
-  'Flag' => 'Indicador de seguiment',
   'Archived Panels' => 'Panells arxivats',
   'Manage Panel' => 'Gestionar el panell',
   'Rename the panel.' => 'Reanomenar el panell.',

@@ -9,7 +9,9 @@ final class PhabricatorConpherenceLb
 
   protected function getTranslations() {
     return array(
+  'Show Newer Messages' => 'Méi nei Messagë weisen',
   'New Message' => 'Neie Message',
+  'Show Older Messages' => 'Méi al Messagë weisen',
   'Unknown action: %s' => 'Onbekannt Aktioun: %s',
   'Participants (%s)' => 'Participanten (%s)',
   'No Sound' => 'Keen Toun',

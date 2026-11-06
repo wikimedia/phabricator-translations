@@ -15,7 +15,6 @@ final class PhabricatorCeleritySk
   'Writing map "%s".' => 'Zapisuje sa mapa „%s“.',
   'Done generating sprites - updating map...' => 'Generovanie spritov dokončené – aktualizuje sa mapa...',
   'Use High Contrast Colors' => 'Používať farby s vysokým kontrastom',
-  'Use Larger Font Size' => 'Používať väčšiu veľkosť písma',
   'Do not invoke `%s` after updating sprites' => 'Po aktualizácii spritov nespúšťať `%s`',
   'Found %d binary resources.' => 'Nájdených %d binárnych prostriedkov.',
   'No resource with symbol "%s" exists in source "%s"!' => 'V zdroji „%2$s“ neexistuje žiadny prostriedok so symbolom „%s“!',

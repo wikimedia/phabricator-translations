@@ -507,7 +507,6 @@ Sélectionnez un objet auquel envoyer un message à l\'aide du paramètre `recei
 Voir ci-dessous pour plus de détails sur l\'envoi de messages à différents types d\'objets.',
   'The name of the build step.' => 'Le nom de l’étape de construction.',
   'All Builds' => 'Toutes les constructions',
-  'No such object "%s" exists.' => 'Objet « %s » inexistant.',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'L’objet (« %s ») prétend que « %s » est une URI de dépôt GitHub, mais le chemin (« %s ») n’a pas assez de composants (au moins deux sont attendus).',
   'Create Buildable' => 'Créer un constructible',
   'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
@@ -877,6 +876,7 @@ Si vous choisissez **Attendre un message**, le plan de construction sera suspend
   '<Unknown Artifact Type>' => '<Type d’artéfact inconnu>',
   'Multiple behavior options (for behavior "%s") are marked as default options ("%s" and "%s"). Exactly one option must be marked as the default option.' => 'Plusieurs options de comportement (pour le comportement « %s ») sont marquées comme options par défaut (« %s » et « %s »). Une seule d’entre elles doit être marquée comme option par défaut.',
   'Behavior configuration for the build plan.' => 'Configuration du comportement pour le plan de construction.',
+  'No object exists with this "%s".' => 'Objet « %s » inexistant.',
   'You can not pause this build because it is already paused.' => 'Vous ne pouvez pas mettre cette construction en pause car elle l\'est déjà.',
   'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => 'Position en octets sur la ligne où commence le texte ayant déclenché le message. Le premier octet sur la ligne est l’octet 1, et non l’octet 0. Cette position est basée sur le comptage des octets (et non des caractères) car les fichiers analysables par « lint » n’ont pas tous un encodage de caractères valide.',
   'Unable to inflate log chunk!' => 'Impossible de décompresser le tronçon de journal !',
@@ -1224,7 +1224,6 @@ Voici un exemple de valeur simple et valide pour le paramètre `lint`. Il prése
     'Voulez-vous vraiment abandonner les %s constructions ?',
   ),
   '(%d - %d)' => '(%d – %d)',
-  'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'L’objet « %s » ne met pas en œuvre l’interface « %s ». Les cibles automatiques ne peuvent être interrogées que pour les objets constructibles.',
   '%s enabled this build plan.' => '%s a activé ce plan de construction.',
   'Stored Bytes' => 'Octets stockés',
   'Work will continue on the build. Really resume?' => 'Le travail se poursuivront sur la construction. Voulez-vous réellement la reprendre ?',
@@ -1244,6 +1243,7 @@ Cet avertissement n’est qu’un avertissement. Les utilisateurs peuvent toujou
 
 Ce paramètre affecte également l’avertissement qui est publié pour les révisions lorsque des validations atterrissent avec des constructions encore en cours ou ayant échoué.',
   'Edit Behavior: %s' => 'Modifier le comportement : %s',
+  'Object with this "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => 'L’objet « %s » ne met pas en œuvre l’interface « %s ». Les cibles automatiques ne peuvent être interrogées que pour les objets constructibles.',
   'Result of the test.' => 'Résultat du test.',
   'Use "--id" or "--active" to select builds.' => 'Utilisez « --id » ou « --active » pour sélectionner des constructions.',
   'Unable to load build log "%s".' => 'Impossible de charger le journal de construction « %s ».',

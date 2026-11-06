@@ -303,7 +303,6 @@ final class PhabricatorHeraldNl
   'Added a comment: %s' => 'Een reactie toegevoegd: %s',
   'To view a transcript, you must be able to view the object the transcript is about.' => 'Om een transcript te bekijken, moet u het object kunnen bekijken waar het transcript over gaat.',
   'This rule type is not supported by the selected content type.' => 'Dit regeltype wordt niet ondersteund door het geselecteerde inhoudstype.',
-  'Herald User Guide' => 'Herald-gebruikershandleiding',
   'Trigger Object' => 'Triggerobject',
   'Object Monograms' => 'Objectmonogrammen',
   'Really enable this rule?' => 'Wilt u deze regel echt inschakelen?',

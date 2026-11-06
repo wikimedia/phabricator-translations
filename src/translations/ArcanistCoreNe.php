@@ -45,7 +45,6 @@ final class ArcanistCoreNe
   'Length must be larger than 0!' => 'लम्बाइ ० भन्दा ठुलो हुनुपर्छ!',
   'Skip' => 'छोड्नुहोस्',
   'User "%s"' => 'प्रयोगकर्ता "%s"',
-  'Installing certificate for \'%s\'...' => '\'%s\'...को लागि प्रमाणपत्र स्थापना गर्दै...',
   'Deleted' => 'मेटियो',
   'Chinese (Simplified)' => 'चिनियाँ (सरलीकृत)',
   'CHOOSE' => 'छान्नुहाेस्',

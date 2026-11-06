@@ -21,7 +21,6 @@ final class PhabricatorCountdownDa
   'No countdowns found.' => 'Ingen nedtællinger fundet.',
   'Upcoming' => 'Kommende',
   'The title of the countdown.' => 'Titlen på nedtællingen.',
-  'Last Words' => 'Sidste ord',
   'New description.' => 'Ny beskrivelse.',
   'Edit Countdown' => 'Rediger nedtælling',
   'End Date' => 'Slutdato',

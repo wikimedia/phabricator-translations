@@ -9,7 +9,6 @@ final class PhabricatorSlowvotePtBR
 
   protected function getTranslations() {
     return array(
-  'Enter Deliberations' => 'Insira as deliberações',
   'Close Poll' => 'Fechar enquete',
   'Create a Poll' => 'Criar uma enquete',
   'Option ("%s") is not a valid poll option. You may only vote for valid options.' => 'Opção ("%s") não é uma opção de pesquisa válida. Você só pode votar em opções válidas.',

@@ -11,7 +11,6 @@ final class PhabricatorPhurlRoaTara
     return array(
   'Alias' => 'Alias',
   'Edit Phurl' => 'Cange \'a Phurl',
-  'URL' => 'URL',
   'All URLs' => 'Tutte le URL',
   '%s changed the alias from %s to %s.' => '%s cangiate l\'alias da %s a %s.',
   '[Phurl]' => '[Phurl]',

@@ -47,7 +47,6 @@ Differential.
 
 Supported in Mercurial 2.2 and newer.',
   'RuboCop is a Ruby static code analyzer, based on the community Ruby style guide.' => 'RuboCop is a Ruby static code analyser, based on the community Ruby style guide.',
-  'Ignoring unrecognized configuration option ("%s") from source: %s.' => 'Ignoring unrecognised configuration option ("%s") from source: %s.',
   'Signal router has not been initialized!' => 'Signal router has not been initialised!',
 );
   }

@@ -386,7 +386,6 @@ API method can send messages to multiple types of objects:
 See below for specifics on sending messages to different object types.' => '',
   'The name of the build step.' => 'The name of the derleme adımı.',
   'All Builds' => 'Tüm Yapılar',
-  'No such object "%s" exists.' => 'Böyle bir "%s" nesnesi yok.',
   'Object ("%s") claims "%s" is a GitHub repository URI, but the path ("%s") does not have enough components (expected at least two).' => 'Nesne ("%s") "%s" ifadesinin GitHub deposu URI\'si olduğunu iddia ediyor, ancak yol ("%s") yeterince bileşen içermiyor (en az iki tane bekleniyor).',
   'Create Buildable' => 'Derlenebilir Oluştur',
   'To run a build manually, you normally must have permission to edit the related build plan. If you would prefer that anyone who can see the build plan be able to run and restart the build, you can change the behavior here.
@@ -678,6 +677,7 @@ If you select **Wait For Message**, the build plan will pause indefinitely once 
   '<Unknown Artifact Type>' => '<Bilinmeyen Eser Türü>',
   'Multiple behavior options (for behavior "%s") are marked as default options ("%s" and "%s"). Exactly one option must be marked as the default option.' => 'Multiple behavior seçeneks (for behavior "%s") marked as varsayılan seçeneks ("%s" and "%s"). Exactly one seçenek be marked as the varsayılan seçenek.',
   'Behavior configuration for the build plan.' => 'Behavior yapılandırma for the derleme planı.',
+  'No object exists with this "%s".' => 'Böyle bir "%s" nesnesi yok.',
   'You can not pause this build because it is already paused.' => '',
   'Byte position on the line where the text which triggered the message starts. The first byte on the line is byte 1, not byte 0. This position is byte-based (not character-based) because not all lintable files have a valid character encoding.' => 'İletiyi tetikleyen metnin başladığı satırdaki bayt konumu. Satırdaki ilk bayt 1\'dir, bayt 0 değil. Bu konum bayt tabanlıdır (karakter tabanlıdır) çünkü tüm sıralanabilir dosyalar geçerli bir karakter kodlamasına sahip değildir.',
   'Unable to inflate log chunk!' => 'Günlük öbeğini şişiremiyor!',
@@ -940,7 +940,6 @@ and one warning:
   'The person (or thing) that started this build.' => 'Bu yapıyı başlatan kişi (veya şey).',
   'View Build' => 'Yapıyı Görüntüle',
   '(%d - %d)' => '(%d - %d)',
-  'Object "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => '"%s" nesnesi "%s" arabirimini uygulamıyor. Otomatik hedefler yalnızca oluşturulabilir nesneler için sorgulanabilir.',
   '%s enabled this build plan.' => '%s bu yapı planını etkinleştirdi.',
   'Stored Bytes' => 'Depolanan Bayt',
   'Work will continue on the build. Really resume?' => 'İş yapı devam edecek. Gerçekten devam mı?',
@@ -953,6 +952,7 @@ This warning is only advisory. Users may always elect to ignore this warning and
 
 This setting also affects the warning that is published to revisions when commits land with ongoing or failed builds.' => '',
   'Edit Behavior: %s' => 'Davranışı Düzenle: %s',
+  'Object with this "%s" does not implement interface "%s". Autotargets may only be queried for buildable objects.' => '"%s" nesnesi "%s" arabirimini uygulamıyor. Otomatik hedefler yalnızca oluşturulabilir nesneler için sorgulanabilir.',
   'Result of the test.' => 'Testin sonucu.',
   'Use "--id" or "--active" to select builds.' => '',
   'Unable to load build log "%s".' => '"%s" yapı günlüğü yüklenemiyor.',

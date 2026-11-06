@@ -10,6 +10,7 @@ final class PhabricatorAuthSk
   protected function getTranslations() {
     return array(
   '%s renamed this provider from %s to %s.' => '%s premenoval(a) tohto poskytovateľa z %s na %s.',
+  'NOTE: If this account will be used for automated activity, then you must follow [[ %s | the Bot Account creation process ]] instead.' => 'POZNÁMKA: Ak sa tento účet bude používať na automatizovanú činnosť, musíte namiesto toho postupovať podľa [[ %s | procesu vytvorenia účtu robota ]].',
   '%s enabled login.' => '%s povolil(a) prihlásenie.',
   'Disable Contact Number' => 'Zakázať kontaktné číslo',
   'This key has been revoked. Choose or generate a new, unique key.' => 'Tento kľúč bol odvolaný. Zvoľte alebo vygenerujte nový, jedinečný kľúč.',
@@ -114,7 +115,6 @@ Po dokončení konfigurácie skopírujte **Client ID** a **Client Secret** do po
   'Log In with LDAP' => 'Prihlásiť sa cez LDAP',
   'Expected verifier to finish OAuth handshake!' => 'Očakávalo sa, že overovač dokončí handshake OAuth!',
   'Specify the credential type to revoke with "--type" or specify "--everything". Use "--list" to list available credential types.' => 'Zadajte typ poverenia na odvolanie pomocou „--type“ alebo zadajte „--everything“. Zoznam dostupných typov poverení zobrazíte pomocou „--list“.',
-  'Start TLS after binding to the LDAP server.' => 'Spustiť TLS po naviazaní na server LDAP.',
   'Duo providers must have an API hostname.' => 'Poskytovatelia Duo musia mať názov hostiteľa API.',
   'TOTP Code' => 'Kód TOTP',
   'Invalid response token for this challenge: token digest does not match stored digest.' => 'Neplatný token odpovede pre túto výzvu: digest tokenu sa nezhoduje s uloženým digestom.',
@@ -277,27 +277,6 @@ Po dokončení konfigurácie skopírujte **Client ID** a **Client Secret** do po
   'The password and confirmation do not match.' => 'Heslo a potvrdenie sa nezhodujú.',
   'Reset action counters so a user can continue taking rate-limited actions.' => 'Vynulovať počítadlá akcií, aby používateľ mohol pokračovať vo vykonávaní akcií s obmedzenou frekvenciou.',
   '%s disabled this contact number.' => '%s zakázal(a) toto kontaktné číslo.',
-  'To configure GitHub OAuth, create a new GitHub Application here:
-
-https://github.com/settings/applications/new
-
-You should use these settings in your application:
-
-  - **URL:** Set this to your full domain with protocol. For this     server, the correct value is: `%s`
-  - **Callback URL**: Set this to: `%s`
-
-
-Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Ak chcete nakonfigurovať OAuth pre GitHub, vytvorte tu novú aplikáciu GitHub:
-
-https://github.com/settings/applications/new
-
-Vo svojej aplikácii by ste mali použiť tieto nastavenia:
-
-  - **URL:** Nastavte na vašu úplnú doménu s protokolom. Pre tento     server je správna hodnota: `%s`
-  - **Callback URL**: Nastavte na: `%s`
-
-
-Keď aplikáciu vytvoríte, skopírujte **Client ID** a **Client Secret** do polí vyššie.',
   'No Providers Configured:' => 'Nie sú nakonfigurovaní žiadni poskytovatelia:',
   'If you continue, you will create a new account. You will not be able to link this external account to an existing account.' => 'Ak budete pokračovať, vytvoríte nový účet. Tento externý účet nebudete môcť prepojiť s existujúcim účtom.',
   'A text message with an authorization code will be sent to your primary contact number.' => 'Na vaše primárne kontaktné číslo bude odoslaná textová správa s autorizačným kódom.',
@@ -435,6 +414,7 @@ Ak ste tak ešte neurobili, stiahnite si a nainštalujte do telefónu aplikáciu
   'Expected token to finish OAuth handshake!' => 'Očakával sa token na dokončenie handshake OAuth!',
   'Unable to start TLS connection when connecting to LDAP.' => 'Pri pripájaní k LDAP sa nepodarilo nadviazať spojenie TLS.',
   'Authentication provider configuration is locked, and can not be changed without being unlocked.' => 'Konfigurácia poskytovateľa overenia je uzamknutá a nedá sa zmeniť bez odomknutia.',
+  'Use StartTLS' => 'Použiť TLS',
   'Factor type "%s" is unknown. Use `bin/auth list-factors` to get a list of known factor types.' => 'Typ faktora „%s“ je neznámy. Zoznam známych typov faktorov získate pomocou `bin/auth list-factors`.',
   'Log In (%s)' => 'Prihlásiť sa (%s)',
   'Skip This Step' => 'Preskočiť tento krok',
@@ -683,7 +663,6 @@ Zvoľte trvalý názov pre vzdialený server, ku ktorému sa chcete pripojiť. T
   'Password Reset' => 'Obnovenie hesla',
   'Expected valid JSON response from Amazon account data request.' => 'Očakávala sa platná odpoveď JSON na požiadavku o údaje účtu Amazon.',
   'Revoked SSH keys can not be edited or reinstated.' => 'Odvolané kľúče SSH sa nedajú upravovať ani obnoviť.',
-  'Follow referrals. Disable this for Windows AD 2003.' => 'Nasledovať odkazy (referrals). Pre Windows AD 2003 toto zakážte.',
   'WARNING: You have not configured any authentication providers yet, so your account has no login credentials. If you log out now, you will not be able to log back in normally.' => 'WARNING: Zatiaľ ste nenakonfigurovali žiadnych poskytovateľov overenia, takže váš účet nemá žiadne prihlasovacie poverenia. Ak sa teraz odhlásite, nebudete sa môcť normálne znova prihlásiť.',
   'If you do not recognize this change, it may indicate your account has been compromised.' => 'Ak túto zmenu nepoznáte, môže to znamenať, že váš účet bol napadnutý.',
   'Link Accounts' => 'Prepojiť účty',
@@ -1285,6 +1264,27 @@ Chyba LDAP č. %d: %s',
   'LDAP search failed.' => 'Vyhľadávanie v LDAP zlyhalo.',
   'This private key could not be opened with the provided passphrase. This might mean that the passphrase is wrong or that the key is not formatted correctly. Check that you have supplied the complete text of a valid private key and the correct passphrase.' => 'Tento súkromný kľúč sa nepodarilo otvoriť so zadanou prístupovou frázou. Môže to znamenať, že prístupová fráza je nesprávna, alebo že kľúč nie je správne naformátovaný. Skontrolujte, či ste zadali úplný text platného súkromného kľúča a správnu prístupovú frázu.',
   'Allow Auto Login' => 'Povoliť automatické prihlásenie',
+  'To configure GitHub OAuth, create a new GitHub Application here:
+
+https://github.com/settings/applications/new
+
+You should use these settings in your application:
+
+  - **Homepage URL:** Set this to your full domain with protocol.     For this server, the correct value is: `%s`
+  - **Authorization callback URL**: Set this to: `%s`
+
+
+Once you\'ve created an application, copy the **Client ID** and **Client Secret** into the fields above.' => 'Ak chcete nakonfigurovať OAuth pre GitHub, vytvorte tu novú aplikáciu GitHub:
+
+https://github.com/settings/applications/new
+
+Vo svojej aplikácii by ste mali použiť tieto nastavenia:
+
+  - **URL:** Nastavte na vašu úplnú doménu s protokolom. Pre tento     server je správna hodnota: `%s`
+  - **Callback URL**: Nastavte na: `%s`
+
+
+Keď aplikáciu vytvoríte, skopírujte **Client ID** a **Client Secret** do polí vyššie.',
   'Note: Unlinking an authentication provider will terminate any other active login sessions.' => 'Poznámka: Zrušenie prepojenia poskytovateľa overenia ukončí všetky ostatné aktívne prihlasovacie relácie.',
   '%s renamed this key from "%s" to "%s".' => '%s premenoval(a) tento kľúč z „%s“ na „%s“.',
   'Enable Number' => 'Povoliť číslo',
@@ -1356,7 +1356,6 @@ You can make adjustments from the [[ /settings/ | Settings ]] panel later.' => '
   'Login Failed' => 'Prihlásenie zlyhalo',
   'You have failed to verify multi-factor authentication too often in a short period of time.' => 'Za krátky čas ste príliš veľakrát neúspešne overili viacfaktorové overenie.',
   'You can not make a disabled number a primary contact number.' => 'Zakázané číslo nemôžete nastaviť ako primárne kontaktné číslo.',
-  'Use TLS' => 'Použiť TLS',
   'This install has the configuration option "%s" enabled, but does not have any active multifactor providers configured. This means you are required to add MFA, but are also prevented from doing so. An administrator must disable "%s" or enable an MFA provider to allow you to continue.' => 'Táto inštalácia má povolenú možnosť konfigurácie „%s“, ale nemá nakonfigurovaných žiadnych aktívnych poskytovateľov viacfaktorového overenia. To znamená, že máte povinnosť pridať MFA, ale zároveň vám je to znemožnené. Aby ste mohli pokračovať, administrátor musí zakázať „%s“ alebo povoliť poskytovateľa MFA.',
   'You will no longer be able to use your %s account to log in.' => 'Svoj účet %s už nebudete môcť použiť na prihlásenie.',
   'Auth Invite' => 'Pozvánka overenia',

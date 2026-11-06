@@ -15,7 +15,6 @@ final class PhabricatorCelerityKoKR
   'Writing map "%s".' => '맵 "%s"을(를) 작성합니다.',
   'Done generating sprites - updating map...' => '스프라이트 생성 완료 - 맵 업데이트 중...',
   'Use High Contrast Colors' => '고대비색 사용',
-  'Use Larger Font Size' => '더 큰 글꼴 크기 사용',
   'Do not invoke `%s` after updating sprites' => '스프라이트를 업데이트한 후에 `%s`을 호출하지 않습니다',
   'Found %d binary resources.' => '바이너리 리소스 %d개를 찾았습니다.',
   'No resource with symbol "%s" exists in source "%s"!' => '소스 "%s"에 심볼 "%s"을(를) 가진 리소스가 없습니다!',

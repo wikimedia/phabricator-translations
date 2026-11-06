@@ -37,7 +37,6 @@ final class PhabricatorMacroNl
   '%s set the audio for %s to play once.' => '%s heeft de audio voor %s ingesteld op eenmalig afspelen.',
   'Edit Audio: %s' => 'Audio bewerken: %s',
   'Unknown status \'%s\'!' => 'Onbekende status \'%s\'!',
-  'PHIDs must be a list.' => 'De PHID\'s moeten een lijst zijn.',
   'New macro name.' => 'Nieuwe macronaam.',
   'No matching flags.' => 'Geen overeenkomende vlaggen.',
   'Audio Behavior' => 'Audiogedrag',
