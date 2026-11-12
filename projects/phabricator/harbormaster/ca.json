@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mguix",
-			"Pppery"
+			"Pppery",
+			"Qllach"
 		]
 	},
 	"00bb37fda5eb6c1d": "Artefacte de construcció",
@@ -350,7 +351,7 @@
 	"eb299a964e7ec14d": "El treball continuarà en la construcció. Segur que la voleu reprendre?",
 	"ec895952f9538478": "Quan un usuari intenta `arc land` una revisió i aquesta revisió té construccions en curs o fallides, el comportament predeterminat de `arc` és avisar-los sobre aquestes construccions i donar-los l'oportunitat de reconsiderar-les: poden voler esperar que les construccions en curs es completin, o esmenar les construccions fallides abans d'aterrar el canvi. \n\nSi no voleu avisar els usuaris d'aquesta construcció, podeu canviar el comportament d'avís. Això pot ser útil si la construcció triga molt temps a executar-se (així que no espereu que els usuaris l'esperin) o el resultat no és important. \n\nAquest avís és només consultiu. Els usuaris sempre poden optar per ignorar aquest avís i continuar, fins i tot si les construccions han fallat. \n\nAquesta configuració també afecta l'avís que es publica a les revisions quan es valida la terra amb construccions en curs o fallides.",
 	"ecddfec1ffd473a8": "Edita el comportament: $1",
-	"ed12fc8c70ae4e64": "L'objecte '$1' no implementa la interfície '$2'. Els objectius automàtics només es poden consultar per a objectes construïbles.",
+	"ed12fc8c70ae4e64": "L'objecte amb aquest \"$1\" no implementa la interfície \"$2\". Els objectius automàtics només es poden consultar per a objectes construïbles.",
 	"ef129f4a0ecd7fcf": "No s'ha pogut carregar el testimoni d'API («$1»)!",
 	"f0403918e0236c20": "$1 proves aprovades",
 	"f10e8777b4d7b7c6": "Incorporats",

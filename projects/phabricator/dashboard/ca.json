@@ -4,7 +4,8 @@
 			"Dgom",
 			"Jmontane",
 			"Joseplluis",
-			"Mguix"
+			"Mguix",
+			"Qllach"
 		]
 	},
 	"003e7968b57e3f4e": "Edita el panell",
@@ -102,7 +103,7 @@
 	"57f5f5efbc5990f5": "Menú",
 	"593067b73a815cdf": "Estigues despert",
 	"5aee5886d7c5c8bc": "Aquest panell serà arxivat i no es mostrarà més en les llistes de panells actius.",
-	"5b3e0de4f97dd64a": "Els noms dels panells no poden tenir més de $1 caràcters.",
+	"5b3e0de4f97dd64a": "Els noms dels panells no poden tenir més de $1 {{PLURAL:$1|characters}}.",
 	"5d062d3fce011cc2": "La pestanya de destinació (\"$1\") no s'ha trobat en aquest panell. És possible que s’hagi eliminat.",
 	"5d7c8c9d23912d07": "Nom del panell.",
 	"5dfbd9ba8ed9b46c": "Afegir a favorits",
@@ -217,7 +218,7 @@
 	"d17905b641dd0f65": "Tots els portals",
 	"d3caabc42d382a27": "Panells de comandament",
 	"d47bf087567659e3": "Crear un portal",
-	"d7c735207ad9b662": "Els noms del quadre de comandament no poden tenir més de $1 caràcters.",
+	"d7c735207ad9b662": "Els noms del quadre de comandament no poden tenir més de $1 {{PLURAL:$1|characters}}.",
 	"d900948ea0405697": "Afegir un panell existent",
 	"d93ecc8379ccf5ca": "Consola del quadre de comandament",
 	"da227ed17ec0523e": "Moure la pestanya cap a l'esquerra",
@@ -236,7 +237,7 @@
 	"e4c6ae14664c025a": "Us heu llevat en un laberint de miralls, tot és igual. De ben segur que sereu engolit per un cicle de grafs. Per tal d'escapar-ne sa i estalvi, hauríeu de resoldre amb més cura el fet de ficar el quadre de comandament dins de sí mateixos.",
 	"e716faa979e9c57b": "Nom de la pestanya",
 	"e965b76a3c478ef9": "Canvieu el nom del portal.",
-	"ea52e9094469c5ec": "Els noms del portal no poden tenir més de $1 caràcters.",
+	"ea52e9094469c5ec": "Els noms del portal no poden tenir més de $1 {{PLURAL:$1|characters}}.",
 	"eb50ece0fd6b16d0": "Global/Personal",
 	"eb9283d1b08d7b1e": "El panell no és vàlid",
 	"ec0bbffae86cc572": "Nom de panell nou.",

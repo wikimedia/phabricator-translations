@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mguix"
+			"Mguix",
+			"Qllach"
 		]
 	},
 	"008c665e5fdb3368": "Aquesta simulació es tancarà.",
@@ -50,7 +51,7 @@
 	"78e43e7c8ebe4812": "[Pholio]",
 	"839724218713295c": "$1 ha obert la simulació $2.",
 	"84792578b52006b6": "Descripció de la simulació",
-	"8582a8610bca4a86": "$1 ha modificat subtasques, afegit $2: $3; eliminat $4: $5.",
+	"8582a8610bca4a86": "$1 ha modificat subtasques; s'ha afegit $3 i s'ha eliminat $5",
 	"8b1cb782c8dccb43": "$1 ha actualitzat la descripció d'una imatge ($2).",
 	"8cb6f1f272aa5f7a": "Obrir la simulació",
 	"8cdd959291c1b73d": "La imatge reemplaçada («$1») pertany a la simulació equivocada («$2», s'esperava «$3»).",

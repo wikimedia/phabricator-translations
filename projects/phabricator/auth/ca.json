@@ -4,7 +4,8 @@
 			"Arnaugir",
 			"Joseplluis",
 			"Mguix",
-			"Pppery"
+			"Pppery",
+			"Qllach"
 		]
 	},
 	"00a64a49b8cbf97e": "$1 ha reanomenat aquest proveïdor de $2 a $3.",
@@ -532,7 +533,7 @@
 	"e356d1783ca23827": "Excepció LDAP: $1",
 	"e376ee552a708614": "La cerca LDAP ha fallat.",
 	"e3ca0d7ca680f27e": "Aquesta clau privada no s'ha pogut obrir amb la contrasenya proporcionada. Això pot significar que la contrasenya és incorrecta o que la clau no té el format correcte. Comproveu que heu proporcionat el text complet d’una clau privada vàlida i la frase de contrasenya correcta.",
-	"e45714eeb6af4683": "Per configurar OAuth de GitHub, creeu una nova aplicació GitHub aquí:\n\nhttps://github.com/settings/applications/new\n\nHeu d'utilitzar aquests paràmetres a la vostra aplicació:\n\n- **URL:** Establiu-lo al vostre domini complet amb protocol. Per a aquesta instal·lació de Phabricator, el valor correcte és: \"$1\"\n- **URL de devolució de trucada**: configureu-lo a: \"$2\"\n\n\nUn cop hàgiu creat una aplicació, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.",
+	"e45714eeb6af4683": "Per configurar OAuth de GitHub, creeu una nova aplicació GitHub aquí:\n\nhttps://github.com/settings/applications/new\n\nHeu d'utilitzar aquests paràmetres a la vostra aplicació:\n\n- **URL de la pàgina inicial:** Establiu-lo al vostre domini complet amb protocol. Per a aquest servidor, el valor correcte és: \"$1\"\n- **URL de l'autorització de devolució de trucada**: configureu-lo a: \"$2\"\n\n\nUn cop hàgiu creat una aplicació, copieu el **Identificador de client** i el **Secret del client** als camps anteriors.",
 	"e46cc084357df044": "Nota: si desenllaceu un proveïdor d’autenticació, finalitzareu qualsevol altra sessió d’inici de sessió activa.",
 	"e4d6c8fb1c21f033": "$1 ha reanomenat aquesta clau de \"$2\" a \"$3\".",
 	"e5ca16897ae7bee0": "$1 ha creat aquest proveïdor MFA.",

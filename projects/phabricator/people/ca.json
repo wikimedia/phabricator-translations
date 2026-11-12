@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mguix"
+			"Mguix",
+			"Qllach"
 		]
 	},
 	"00c0cf3b69c5a54c": "Contraportada",
@@ -12,7 +13,7 @@
 	"03ce2f29f1758b26": "Factor múltiple: elimineu el factor",
 	"03f4100d00aa86bf": "Els usuaris no es poden destruir permanentment des de la interfície web.  Vegeu $1 a la documentació per a més informació.",
 	"0402fe5e15b200a7": "Gestionar usuari",
-	"06108d87990877b2": "Creeu un compte d'usuari de bot/script per automatitzar les interaccions amb altres sistemes. Aquests usuaris no poden utilitzar la interfície web, però poden utilitzar l'API.",
+	"06108d87990877b2": "Creeu un compte d'usuari de bot/script per automatitzar les interaccions amb altres sistemes. Aquests usuaris no poden utilitzar la interfície web, però poden utilitzar l'API Conduit.",
 	"07ca9214643476cd": "Feu que els noms reals siguin opcionals",
 	"081941e3f84d7a65": "Hisec: Sortida",
 	"0a0a90f6c5a99223": "Elimina usuari",
